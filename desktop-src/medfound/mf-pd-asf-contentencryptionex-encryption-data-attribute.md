@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains encryption data for an Advanced Systems Format (ASF) file. This attribute corresponds to the Extended Content Encryption Object in the ASF header, defined in the ASF specification.'
-ms.assetid: '8bf5e7a4-073f-4b2c-8e9c-49f6f11c9093'
-title: 'MF\_PD\_ASF\_CONTENTENCRYPTIONEX\_ENCRYPTION\_DATA attribute'
+---
+Description: Contains encryption data for an Advanced Systems Format (ASF) file. This attribute corresponds to the Extended Content Encryption Object in the ASF header, defined in the ASF specification.
+ms.assetid: 8bf5e7a4-073f-4b2c-8e9c-49f6f11c9093
+title: MF\_PD\_ASF\_CONTENTENCRYPTIONEX\_ENCRYPTION\_DATA attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_ASF\_CONTENTENCRYPTIONEX\_ENCRYPTION\_DATA attribute
@@ -16,7 +21,7 @@ Byte array
 
 This attribute applies to presentation descriptors for ASF content.
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method creates the presentation descriptor and generates this attribute from the Extended Content Encryption Object header. The size of the blob equals the Data Size field. The byte array contained in the blob equals the Data field in the Extended Content Encryption object of the ASF header.
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method creates the presentation descriptor and generates this attribute from the Extended Content Encryption Object header. The size of the blob equals the Data Size field. The byte array contained in the blob equals the Data field in the Extended Content Encryption object of the ASF header.
 
 ## Requirements
 
@@ -37,13 +42,13 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-ge
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

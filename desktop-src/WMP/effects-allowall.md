@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.allowAll
 description: The allowAll attribute specifies or retrieves a value indicating whether to include all the visualizations that are in the registry.
-ms.assetid: '8552cc06-05b2-4049-ba7d-f6bd770449e0'
-keywords: ["EFFECTS.allowAll Windows Media Player"]
+ms.assetid: 8552cc06-05b2-4049-ba7d-f6bd770449e0
+keywords:
+- EFFECTS.allowAll Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.allowAll
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.allowAll
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,9 +61,9 @@ If this attribute is set to false, only the visualizations appearing within **EF
 [**EFFECTS Element**](effects-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

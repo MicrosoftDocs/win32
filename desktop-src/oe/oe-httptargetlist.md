@@ -1,8 +1,10 @@
 ---
 title: HTTPTARGETLIST structure
 description: Contains an array of target resource URLs.
-ms.assetid: '9d6b5f01-527e-40aa-938a-585803c8abaf'
-keywords: ["HTTPTARGETLIST structure Windows Mail (formerly Outlook Express)", "LPHTTPTARGETLIST structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 9d6b5f01-527e-40aa-938a-585803c8abaf
+keywords:
+- HTTPTARGETLIST structure Windows Mail (formerly Outlook Express)
+- LPHTTPTARGETLIST structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTPTARGETLIST structure
@@ -24,7 +31,7 @@ Contains an array of target resource URLs.
 
 ```C++
 typedef struct tagHTTPTARGETLIST {
-  ULONG  cTarget;
+  ULONG  cTarget;
   LPCSTR *prgTarget;
 } HTTPTARGETLIST, *LPHTTPTARGETLIST;
 ```
@@ -63,17 +70,17 @@ Contains a pointer to an array of null-terminated **LPCSTR** strings, each of wh
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo OSServicePackString property
 description: The OSServicePackString property contains the service pack version currently installed on the host machine.
-ms.assetid: 'aae3617e-e7c2-4ea8-a33e-fd8f65f238af'
-keywords: ["OSServicePackString property Virtual Server", "OSServicePackString property Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , OSServicePackString property", "OSServicePackString property Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , OSServicePackString property"]
+ms.assetid: aae3617e-e7c2-4ea8-a33e-fd8f65f238af
+keywords:
+- OSServicePackString property Virtual Server
+- OSServicePackString property Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , OSServicePackString property
+- OSServicePackString property Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , OSServicePackString property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::OSServicePackString property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_OSServicePackString(
-  [out] BSTR *OSServicePack
+  [out] BSTR *OSServicePack
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

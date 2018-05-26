@@ -4,11 +4,14 @@ description: Updates the Network Controller cluster configuration.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '777d1de4-f7a3-4b20-937e-5de91446e8c2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 777d1de4-f7a3-4b20-937e-5de91446e8c2
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["UpdateClusterConfiguration method", "UpdateClusterConfiguration method, PS_NetworkController class", "PS_NetworkController class, UpdateClusterConfiguration method"]
+keywords:
+- UpdateClusterConfiguration method
+- UpdateClusterConfiguration method, PS_NetworkController class
+- PS_NetworkController class, UpdateClusterConfiguration method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - NCServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UpdateClusterConfiguration method of the PS\_NetworkController class
@@ -28,7 +34,7 @@ Updates the Network Controller cluster configuration.
 
 ```mof
 uint32 UpdateClusterConfiguration(
-  [in] NetworkControllerClusterConfiguration ClusterConfiguration
+  [in] NetworkControllerClusterConfiguration ClusterConfiguration
 );
 ```
 
@@ -52,7 +58,7 @@ A [**NetworkControllerClusterConfiguration**](networkcontrollerclusterconfigurat
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\NetworkController\\Server<br/>                                    |
 | MOF<br/>                      | <dl> <dt>NCServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NCServerPSProvider.dll</dt> </dl> |
@@ -66,9 +72,9 @@ A [**NetworkControllerClusterConfiguration**](networkcontrollerclusterconfigurat
 [**PS\_NetworkController**](ps-networkcontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

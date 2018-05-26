@@ -1,14 +1,20 @@
 ---
 title: processTokenSidType Simple Type
 description: Defines the possible values for the ProcessTokenSidType (principalType) element.
-ms.assetid: '9db3e113-c525-4cbf-88c2-be256d641e92'
-keywords: ["processTokenSidType simple type Task Scheduler"]
+ms.assetid: 9db3e113-c525-4cbf-88c2-be256d641e92
+keywords:
+- processTokenSidType simple type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - processTokenSidType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # processTokenSidType Simple Type
@@ -49,14 +55,14 @@ The **processTokenSidType** simple type defines the following values.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

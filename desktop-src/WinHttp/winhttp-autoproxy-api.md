@@ -1,18 +1,23 @@
 ---
-Description: 'WinHTTP implements the WPAD protocol using the WinHttpGetProxyForUrl function along with two supporting utility functions, WinHttpDetectAutoProxyConfigUrl and WinHttpGetIEProxyConfigForCurrentUser.'
-ms.assetid: 'd941e3c6-c1db-4de1-b640-4f582f86fc54'
+Description: WinHTTP implements the WPAD protocol using the WinHttpGetProxyForUrl function along with two supporting utility functions, WinHttpDetectAutoProxyConfigUrl and WinHttpGetIEProxyConfigForCurrentUser.
+ms.assetid: d941e3c6-c1db-4de1-b640-4f582f86fc54
 title: WinHTTP AutoProxy Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinHTTP AutoProxy Functions
 
-WinHTTP implements the WPAD protocol using the [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md) function along with two supporting utility functions, [**WinHttpDetectAutoProxyConfigUrl**](winhttpdetectautoproxyconfigurl.md) and [**WinHttpGetIEProxyConfigForCurrentUser**](winhttpgetieproxyconfigforcurrentuser.md).
+WinHTTP implements the WPAD protocol using the [**WinHttpGetProxyForUrl**](/windows/win32/Winhttp/nf-winhttp-winhttpgetproxyforurl?branch=master) function along with two supporting utility functions, [**WinHttpDetectAutoProxyConfigUrl**](/windows/win32/Winhttp/nf-winhttp-winhttpdetectautoproxyconfigurl?branch=master) and [**WinHttpGetIEProxyConfigForCurrentUser**](/windows/win32/Winhttp/nf-winhttp-winhttpgetieproxyconfigforcurrentuser?branch=master).
 
-AutoProxy support is not fully integrated into the HTTP stack in WinHTTP. Before sending a request, the application must call [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md) to obtain the name of a proxy server and then call [**WinHttpSetOption**](winhttpsetoption.md) using **WINHTTP\_OPTION\_PROXY** to set the proxy configuration on the WinHTTP request handle created by [**WinHttpOpenRequest**](winhttpopenrequest.md).
+AutoProxy support is not fully integrated into the HTTP stack in WinHTTP. Before sending a request, the application must call [**WinHttpGetProxyForUrl**](/windows/win32/Winhttp/nf-winhttp-winhttpgetproxyforurl?branch=master) to obtain the name of a proxy server and then call [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master) using **WINHTTP\_OPTION\_PROXY** to set the proxy configuration on the WinHTTP request handle created by [**WinHttpOpenRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpopenrequest?branch=master).
 
-The [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md) function can execute all three steps of the WPAD protocol described in the previous overview: (1) discover the PAC URL, (2) download the PAC script file, (3) execute the script code and return the proxy configuration in a **WINHTTP\_PROXY\_INFO** structure. Optionally, if the application knows in advance the PAC URL it can specify this to **WinHttpGetProxyForUrl**.
+The [**WinHttpGetProxyForUrl**](/windows/win32/Winhttp/nf-winhttp-winhttpgetproxyforurl?branch=master) function can execute all three steps of the WPAD protocol described in the previous overview: (1) discover the PAC URL, (2) download the PAC script file, (3) execute the script code and return the proxy configuration in a **WINHTTP\_PROXY\_INFO** structure. Optionally, if the application knows in advance the PAC URL it can specify this to **WinHttpGetProxyForUrl**.
 
-The following example code uses autoproxy. It sets up an HTTP GET request by first creating the WinHTTP session connect and request handles. The [**WinHttpOpen**](winhttpopen.md) call specifies **WINHTTP\_ACCESS\_TYPE\_NO\_PROXY** for the initial proxy configuration, to indicate that requests are sent directly to the target server by default. Using autoproxy, it then sets the proxy configuration directly on the request handle.
+The following example code uses autoproxy. It sets up an HTTP GET request by first creating the WinHTTP session connect and request handles. The [**WinHttpOpen**](/windows/win32/Winhttp/nf-winhttp-winhttpopen?branch=master) call specifies **WINHTTP\_ACCESS\_TYPE\_NO\_PROXY** for the initial proxy configuration, to indicate that requests are sent directly to the target server by default. Using autoproxy, it then sets the proxy configuration directly on the request handle.
 
 
 ```C++
@@ -166,13 +171,13 @@ The following example code uses autoproxy. It sets up an HTTP GET request by fir
 
 
 
-In the provided example code, the call to [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md) instructs the function to discover the proxy auto-config file automatically by specifying the **WINHTTP\_AUTOPROXY\_AUTO\_DETECT** flag in the [**WINHTTP\_AUTOPROXY\_OPTIONS**](winhttp-autoproxy-options.md) structure. Use of the **WINHTTP\_AUTOPROXY\_AUTO\_DETECT** flag requires the code to specify one or both of the auto-detection flags (**WINHTTP\_AUTO\_DETECT\_TYPE\_DHCP**, **WINHTTP\_AUTO\_DETECT\_TYPE\_DNS\_A**). The example code uses the auto-detection feature of **WinHttpGetProxyForUrl** because the PAC URL is not known in advance. If a PAC URL cannot be located on the network in this scenario, **WinHttpGetProxyForUrl** fails ([**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns **ERROR\_WINHTTP\_AUTODETECTION\_FAILED**).
+In the provided example code, the call to [**WinHttpGetProxyForUrl**](/windows/win32/Winhttp/nf-winhttp-winhttpgetproxyforurl?branch=master) instructs the function to discover the proxy auto-config file automatically by specifying the **WINHTTP\_AUTOPROXY\_AUTO\_DETECT** flag in the [**WINHTTP\_AUTOPROXY\_OPTIONS**](/windows/win32/Winhttp/ns-winhttp-__unnamed_struct_4?branch=master) structure. Use of the **WINHTTP\_AUTOPROXY\_AUTO\_DETECT** flag requires the code to specify one or both of the auto-detection flags (**WINHTTP\_AUTO\_DETECT\_TYPE\_DHCP**, **WINHTTP\_AUTO\_DETECT\_TYPE\_DNS\_A**). The example code uses the auto-detection feature of **WinHttpGetProxyForUrl** because the PAC URL is not known in advance. If a PAC URL cannot be located on the network in this scenario, **WinHttpGetProxyForUrl** fails ([**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns **ERROR\_WINHTTP\_AUTODETECTION\_FAILED**).
 
 ## If the PAC URL is Known in Advance
 
-If the application does know the PAC URL, it can specify it in the WINHTTP\_AUTOPROXY\_OPTIONS structure and configure [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md) to skip the auto-detection phase.
+If the application does know the PAC URL, it can specify it in the WINHTTP\_AUTOPROXY\_OPTIONS structure and configure [**WinHttpGetProxyForUrl**](/windows/win32/Winhttp/nf-winhttp-winhttpgetproxyforurl?branch=master) to skip the auto-detection phase.
 
-For example, if a PAC file is available on the local network at the URL, "http://InternalSite/proxy-config.pac", the call to [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md) would look the following.
+For example, if a PAC file is available on the local network at the URL, "http://InternalSite/proxy-config.pac", the call to [**WinHttpGetProxyForUrl**](/windows/win32/Winhttp/nf-winhttp-winhttpgetproxyforurl?branch=master) would look the following.
 
 
 ```C++
@@ -211,15 +216,15 @@ For example, if a PAC file is available on the local network at the URL, "http:/
 
 
 
-If the [**WINHTTP\_AUTOPROXY\_OPTIONS**](winhttp-autoproxy-options.md) structure specifies both **WINHTTP\_AUTOPROXY\_AUTO\_DETECT** and **WINHTTP\_AUTOPROXY\_CONFIG\_URL** flags (and specifies auto-detction flags and an auto-config URL), [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md) first attempts auto-detection, and then, if auto-detection fails to locate a PAC URL, "falls back" to the auto-config URL supplied by the application.
+If the [**WINHTTP\_AUTOPROXY\_OPTIONS**](/windows/win32/Winhttp/ns-winhttp-__unnamed_struct_4?branch=master) structure specifies both **WINHTTP\_AUTOPROXY\_AUTO\_DETECT** and **WINHTTP\_AUTOPROXY\_CONFIG\_URL** flags (and specifies auto-detction flags and an auto-config URL), [**WinHttpGetProxyForUrl**](/windows/win32/Winhttp/nf-winhttp-winhttpgetproxyforurl?branch=master) first attempts auto-detection, and then, if auto-detection fails to locate a PAC URL, "falls back" to the auto-config URL supplied by the application.
 
 ## The WinHttpDetectAutoProxyConfigUrl Function
 
-The [**WinHttpDetectAutoProxyConfigUrl**](winhttpdetectautoproxyconfigurl.md) function implements a subset of the WPAD protocol: it attempts to auto-detect the URL for the proxy auto-config file, without downloading or executing the PAC file. This function is useful in special situations where a Web client application must handle the download and execution of the PAC file itself.
+The [**WinHttpDetectAutoProxyConfigUrl**](/windows/win32/Winhttp/nf-winhttp-winhttpdetectautoproxyconfigurl?branch=master) function implements a subset of the WPAD protocol: it attempts to auto-detect the URL for the proxy auto-config file, without downloading or executing the PAC file. This function is useful in special situations where a Web client application must handle the download and execution of the PAC file itself.
 
 ## The WinHttpGetIEProxyConfigForCurrentUser Function
 
-The [**WinHttpGetIEProxyConfigForCurrentUser**](winhttpgetieproxyconfigforcurrentuser.md) function returns the current user Internet Explorer proxy settings for the current active network connection, without calling into "WinInet.dll". This function is only useful when called within a process that is running under an interactive user account identity, because no Internet Explorer proxy configuration is likely to be available otherwise. For example, it would not be useful to call this function from an ISAPI DLL running in the IIS service process. For more information and a scenario in which a WinHTTP-based application would use **WinHttpGetIEProxyConfigForCurrentUser**, see [Discovery Without an Auto-Config File](discovery-without-an-auto-config-file.md).
+The [**WinHttpGetIEProxyConfigForCurrentUser**](/windows/win32/Winhttp/nf-winhttp-winhttpgetieproxyconfigforcurrentuser?branch=master) function returns the current user Internet Explorer proxy settings for the current active network connection, without calling into "WinInet.dll". This function is only useful when called within a process that is running under an interactive user account identity, because no Internet Explorer proxy configuration is likely to be available otherwise. For example, it would not be useful to call this function from an ISAPI DLL running in the IIS service process. For more information and a scenario in which a WinHTTP-based application would use **WinHttpGetIEProxyConfigForCurrentUser**, see [Discovery Without an Auto-Config File](discovery-without-an-auto-config-file.md).
 
  
 

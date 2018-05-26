@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMTTDownloadMethod function
-ms.assetid: '0807622e-0ed9-419a-8917-bba4b1b2a475'
+ms.assetid: 0807622e-0ed9-419a-8917-bba4b1b2a475
 title: OEMTTDownloadMethod function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMTTDownloadMethod function

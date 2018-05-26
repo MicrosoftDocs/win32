@@ -1,7 +1,12 @@
 ---
 Description: Rob Sinclair and Brendan McKeon
-ms.assetid: '0e0a152c-c767-4aa6-9285-1f6657c8c05b'
+ms.assetid: 0e0a152c-c767-4aa6-9285-1f6657c8c05b
 title: Create More Accessible UI with Dynamic Annotation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create More Accessible UI with Dynamic Annotation
@@ -79,7 +84,7 @@ Before moving on, it is important to become familiar with the three primary inte
 
 
 
- 
+ 
 
 **IAccIdentity** Interface. Implemented by **IAccessible** objects and used internally as a key into the annotation database. All objects wishing to support dynamic annotation must support this interface.
 
@@ -115,7 +120,7 @@ The following properties can be annotated using direct annotation. The value mus
 
 
 
- 
+ 
 
 ### Example 1: Set the Description property of an icon in a dialog box.
 
@@ -348,9 +353,9 @@ Because this functionality is brand new, OLEACC proxies in Active Accessibility 
 
 Active Accessibility 2.0 is built into the next major release of the Microsoft Windows operating system, which is code named Whistler. It might also be made available as an update to existing versions of Windows. See the Microsoft Accessibilitye website, [http://www.microsoft.com/enable/](http://go.microsoft.com/fwlink/p/?linkid=202480), for more information.
 
- 
+ 
 
- 
+ 
 
 
 

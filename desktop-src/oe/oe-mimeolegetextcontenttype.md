@@ -1,8 +1,9 @@
 ---
 title: MimeOleGetExtContentType function
 description: Do not use. Returns the Content-Type of the specified file name extension.
-ms.assetid: 'f3bf66d9-c111-4884-a0ea-0356963ac8ea'
-keywords: ["MimeOleGetExtContentType function Windows Mail (formerly Outlook Express)"]
+ms.assetid: f3bf66d9-c111-4884-a0ea-0356963ac8ea
+keywords:
+- MimeOleGetExtContentType function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleGetExtContentType function
@@ -22,8 +28,8 @@ Do not use. Returns the [Content-Type](http://msdn.microsoft.com/library/cdosys/
 
 ```C++
 HRESULT MimeOleGetExtContentType(
-  _In_  LPCSTR pszExtension,
-  _Out_ LPSTR  *ppszContentType
+  _In_  LPCSTR pszExtension,
+  _Out_ LPSTR  *ppszContentType
 );
 ```
 
@@ -68,7 +74,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,8 +82,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -92,9 +98,9 @@ Returns one of the following values.
 [**MimeOleGetExtContentTypeW**](oe-mimeolegetextcontenttypew.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

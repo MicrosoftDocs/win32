@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '6213ce92-d98a-4fb6-b66c-e7cdea6dff0d'
-title: 'CTransformOutputPin.CTransformOutputPin constructor'
+Description: Constructor method.
+ms.assetid: 6213ce92-d98a-4fb6-b66c-e7cdea6dff0d
+title: CTransformOutputPin.CTransformOutputPin constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformOutputPin.CTransformOutputPin constructor
@@ -13,10 +18,10 @@ Constructor method.
 
 ```C++
 CTransformOutputPin(
-   TCHAR            *pObjectName,
-   CTransformFilter *pTransformFilter,
-   HRESULT          *phr,
-   LPCWSTR          pName
+   TCHAR            *pObjectName,
+   CTransformFilter *pTransformFilter,
+   HRESULT          *phr,
+   LPCWSTR          pName
 );
 ```
 
@@ -56,7 +61,7 @@ Wide-character string containing the pin name.
 
 ## Remarks
 
-The *pName* parameter specifies the pin name, which is returned by the [**IPin::QueryPinInfo**](ipin-querypininfo.md) method. However, the string is not used for the pin identifier. The pin identifier for this class is always "Out". For more information, see [**QueryId**](ctransformoutputpin-queryid.md).
+The *pName* parameter specifies the pin name, which is returned by the [**IPin::QueryPinInfo**](/windows/win32/Strmif/nf-strmif-ipin-querypininfo?branch=master) method. However, the string is not used for the pin identifier. The pin identifier for this class is always "Out". For more information, see [**QueryId**](ctransformoutputpin-queryid.md).
 
 ## Requirements
 
@@ -69,9 +74,9 @@ The *pName* parameter specifies the pin name, which is returned by the [**IPin::
 
 
 
- 
+ 
 
- 
+ 
 
 
 

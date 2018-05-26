@@ -1,7 +1,12 @@
 ---
 title: bfrev (sm5 - asm)
 description: Reverse a 32-bit number.
-ms.assetid: '24F8209A-093E-4737-BF50-12F228024E9D'
+ms.assetid: 24F8209A-093E-4737-BF50-12F228024E9D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # bfrev (sm5 - asm)
@@ -15,7 +20,7 @@ Reverse a 32-bit number.
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Reverse a 32-bit number.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -42,7 +47,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -61,7 +66,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -70,9 +75,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

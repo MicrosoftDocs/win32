@@ -1,8 +1,9 @@
 ---
 title: EM\_FINDTEXTEXW message
 description: Finds Unicode text within a rich edit control.
-ms.assetid: '7b90ef06-0395-430e-8b5d-b392481a5f70'
-keywords: ["EM_FINDTEXTEXW message Windows Controls"]
+ms.assetid: 7b90ef06-0395-430e-8b5d-b392481a5f70
+keywords:
+- EM_FINDTEXTEXW message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_FINDTEXTEXW message
@@ -30,7 +36,7 @@ Specifies the behavior of the search operation. This parameter can be one or mor
 
 | Value                                                                                                                                                                     | Meaning                                                                                                                                                                                                                                                                         |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="FR_DOWN"></span><span id="fr_down"></span><dl> <dt>**FR\_DOWN**</dt> </dl>                               | Microsoft Rich Edit 2.0 and later: If set, the search is forward from **FINDTEXTEX.chrg.cpMin**; if not set, the search is backward from **FINDTEXTEX.chrg.cpMin**. <br/> Microsoft Rich Edit 1.0: The FR\_DOWN flag is ignored. The search is always forward.<br/> |
+| <span id="FR_DOWN"></span><span id="fr_down"></span><dl> <dt>**FR\_DOWN**</dt> </dl>                               | Microsoft Rich Edit 2.0 and later: If set, the search is forward from **FINDTEXTEX.chrg.cpMin**; if not set, the search is backward from **FINDTEXTEX.chrg.cpMin**. <br/> Microsoft Rich Edit 1.0: The FR\_DOWN flag is ignored. The search is always forward.<br/> |
 | <span id="FR_MATCHALEFHAMZA"></span><span id="fr_matchalefhamza"></span><dl> <dt>**FR\_MATCHALEFHAMZA**</dt> </dl> | If set, the search differentiates between alefs with different accents. If not set, Arabic and Hebrew alefs with different accents are all matched by the alef character. <br/>                                                                                           |
 | <span id="FR_MATCHCASE"></span><span id="fr_matchcase"></span><dl> <dt>**FR\_MATCHCASE**</dt> </dl>                | If set, the search operation is case-sensitive. If not set, the search operation is case-insensitive.<br/>                                                                                                                                                                |
 | <span id="FR_MATCHDIAC"></span><span id="fr_matchdiac"></span><dl> <dt>**FR\_MATCHDIAC**</dt> </dl>                | If set, the search operation considers diacritical marks. If not set, Arabic and Hebrew diacritical marks are ignored. <br/>                                                                                                                                              |
@@ -39,30 +45,30 @@ Specifies the behavior of the search operation. This parameter can be one or mor
 
 
 
- 
+ 
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-A [**FINDTEXTEXW**](findtextex.md) structure containing information about the find operation.
+A [**FINDTEXTEXW**](/windows/win32/Richedit/ns-richedit-_findtextexa?branch=master) structure containing information about the find operation.
 
 </dd> </dl>
 
 ## Return value
 
-If the target string is found, the return value is the zero-based position of the first character of the match. If the target is not found, the return value is –1.
+If the target string is found, the return value is the zero-based position of the first character of the match. If the target is not found, the return value is  1.
 
 ## Remarks
 
 Use this message to find Unicode strings. For ANSI;, use [**EM\_FINDTEXTEX**](em-findtextex.md).
 
-The **cpMin** member of **FINDTEXTEX.chrg** always specifies the starting-point of the search, and **cpMax** specifies the end point. When searching backward, **cpMin** must be equal to or greater than **cpMax**. When searching forward, a value of –1 in **cpMax** extends the search range to the end of the text.
+The **cpMin** member of **FINDTEXTEX.chrg** always specifies the starting-point of the search, and **cpMax** specifies the end point. When searching backward, **cpMin** must be equal to or greater than **cpMax**. When searching forward, a value of  1 in **cpMax** extends the search range to the end of the text.
 
-If the search operation finds a match, the **chrgText** member of the [**FINDTEXTEX**](findtextex.md) structure returns the range of character positions that contains the matching text.
+If the search operation finds a match, the **chrgText** member of the [**FINDTEXTEX**](/windows/win32/Richedit/ns-richedit-_findtextexa?branch=master) structure returns the range of character positions that contains the matching text.
 
-**EM\_FINDTEXTEXW** uses the [**FINDTEXTEXW**](findtextex.md) structure, while [**EM\_FINDTEXTW**](em-findtextw.md) uses the [**FINDTEXTW**](findtext.md) structure. The difference is that **EM\_FINDTEXTEXW** reports the range of text that was found.
+**EM\_FINDTEXTEXW** uses the [**FINDTEXTEXW**](/windows/win32/Richedit/ns-richedit-_findtextexa?branch=master) structure, while [**EM\_FINDTEXTW**](em-findtextw.md) uses the [**FINDTEXTW**](/windows/win32/Richedit/ns-richedit-_findtext?branch=master) structure. The difference is that **EM\_FINDTEXTEXW** reports the range of text that was found.
 
 ## Requirements
 
@@ -70,8 +76,8 @@ If the search operation finds a match, the **chrgText** member of the [**FINDTEX
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -83,9 +89,9 @@ If the search operation finds a match, the **chrgText** member of the [**FINDTEX
 [**EM\_FINDTEXTW**](em-findtextw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

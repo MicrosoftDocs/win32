@@ -1,8 +1,21 @@
 ---
 title: Sending MIDI Messages with Stream Buffers
 description: Sending MIDI Messages with Stream Buffers
-ms.assetid: 'f9e77637-098c-4ee8-bca9-a05ecce0c569'
-keywords: ["Musical Instrument Digital Interface (MIDI),stream buffers", "MIDI (Musical Instrument Digital Interface),stream buffers", "playing MIDI files,stream buffers", "stream buffers,sending MIDI messages", "Musical Instrument Digital Interface (MIDI),sending messages", "MIDI (Musical Instrument Digital Interface),sending messages", "playing MIDI files,sending messages", "sending MIDI messages"]
+ms.assetid: f9e77637-098c-4ee8-bca9-a05ecce0c569
+keywords:
+- Musical Instrument Digital Interface (MIDI),stream buffers
+- MIDI (Musical Instrument Digital Interface),stream buffers
+- playing MIDI files,stream buffers
+- stream buffers,sending MIDI messages
+- Musical Instrument Digital Interface (MIDI),sending messages
+- MIDI (Musical Instrument Digital Interface),sending messages
+- playing MIDI files,sending messages
+- sending MIDI messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending MIDI Messages with Stream Buffers

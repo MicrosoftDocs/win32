@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the thread''s identifier.'
-ms.assetid: 'c2b25342-841a-46cb-862c-01761fc60363'
-title: 'CMsgThread.GetThreadID method'
+Description: Retrieves the threads identifier.
+ms.assetid: c2b25342-841a-46cb-862c-01761fc60363
+title: CMsgThread.GetThreadID method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMsgThread.GetThreadID method
@@ -47,9 +52,9 @@ This function returns the Microsoft Win32 identifier for the worker thread. You 
 [**CMsgThread Class**](cmsgthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

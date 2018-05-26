@@ -4,11 +4,14 @@ description: Gets or sets the encrypted app data.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.PolicyDescriptor.EncryptedAppData'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.PolicyDescriptor.EncryptedAppData
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["EncryptedAppData property", "EncryptedAppData property, PolicyDescriptor class", "PolicyDescriptor class, EncryptedAppData property"]
+keywords:
+- EncryptedAppData property
+- EncryptedAppData property, PolicyDescriptor class
+- PolicyDescriptor class, EncryptedAppData property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor.EncryptedAppData property
@@ -67,9 +73,9 @@ Encrypted app data accessed via [IMapView](https://msdn.microsoft.com/library/wi
 [**PolicyDescriptor**](policydescriptor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

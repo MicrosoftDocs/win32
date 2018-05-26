@@ -1,7 +1,12 @@
 ---
-Description: 'The style attribute specifies the line pattern that appears when a particular cosmetic or geometric pen is used. There are eight predefined pen styles. The following illustration shows the seven of these styles that are defined by the system.'
-ms.assetid: 'a9aaa999-529c-46e1-9a3f-b6fdcbeb5b51'
+Description: The style attribute specifies the line pattern that appears when a particular cosmetic or geometric pen is used. There are eight predefined pen styles. The following illustration shows the seven of these styles that are defined by the system.
+ms.assetid: a9aaa999-529c-46e1-9a3f-b6fdcbeb5b51
 title: Pen Style
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pen Style
@@ -14,7 +19,7 @@ The inside-frame style is identical to the solid style for cosmetic pens. Howeve
 
 In addition to the seven styles defined by the system, there is an eighth style that is user (or application) defined. A user-defined style generates lines with a customized series of dashes and dots.
 
-Use the [**CreatePen**](createpen.md), [**CreatePenIndirect**](createpenindirect.md), or [**ExtCreatePen**](extcreatepen.md) function to create a pen that has the system-defined styles. Use the **ExtCreatePen** function to create a pen that has a user-defined style.
+Use the [**CreatePen**](/windows/win32/Wingdi/nf-wingdi-createpen?branch=master), [**CreatePenIndirect**](/windows/win32/Wingdi/nf-wingdi-createpenindirect?branch=master), or [**ExtCreatePen**](/windows/win32/Wingdi/nf-wingdi-extcreatepen?branch=master) function to create a pen that has the system-defined styles. Use the **ExtCreatePen** function to create a pen that has a user-defined style.
 
  
 

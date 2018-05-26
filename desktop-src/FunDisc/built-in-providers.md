@@ -1,16 +1,21 @@
 ---
-Description: 'The built-in Function Discovery providers enumerate discoverable resources, manage property stores, and respond to queries for enumerated resources.'
-ms.assetid: '45caf8f6-3173-4b1a-bbbe-66637ac1f7bc'
-title: 'Built-in Providers'
+Description: The built-in Function Discovery providers enumerate discoverable resources, manage property stores, and respond to queries for enumerated resources.
+ms.assetid: 45caf8f6-3173-4b1a-bbbe-66637ac1f7bc
+title: Built-in Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Built-in Providers
 
-\[Function Discovery is available for use in the following versions of Windows: Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, and Windows Vista. It may be altered or unavailable in subsequent versions.\]
+\[Function Discovery is available for use in the following versions of Windows: Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, and Windows Vista. It may be altered or unavailable in subsequent versions.\]
 
 The built-in Function Discovery providers enumerate discoverable resources, manage property stores, and respond to queries for enumerated resources.
 
-Function Discovery providers are implemented as simple in-process COM objects. Each provider implements the [**IFunctionDiscoveryProvider**](ifunctiondiscoveryprovider.md) interface so that the provider can respond to function instance queries.
+Function Discovery providers are implemented as simple in-process COM objects. Each provider implements the [**IFunctionDiscoveryProvider**](/windows/win32/FunctionDiscoveryProvider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider?branch=master) interface so that the provider can respond to function instance queries.
 
 Function Discovery supports the following built-in providers.
 
@@ -27,11 +32,11 @@ Function Discovery supports the following built-in providers.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

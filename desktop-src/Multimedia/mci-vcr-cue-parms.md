@@ -1,8 +1,9 @@
 ---
 title: MCI\_VCR\_CUE\_PARMS structure
 description: The MCI\_VCR\_CUE\_PARMS structure contains parameters for the MCI\_CUE command for video-cassette recorders.
-ms.assetid: 'b2ac0c43-93ea-41c9-b886-542bda57b59e'
-keywords: ["MCI_VCR_CUE_PARMS structure Windows Multimedia"]
+ms.assetid: b2ac0c43-93ea-41c9-b886-542bda57b59e
+keywords:
+- MCI_VCR_CUE_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_VCR\_CUE\_PARMS structure
@@ -23,8 +29,8 @@ The **MCI\_VCR\_CUE\_PARMS** structure contains parameters for the [**MCI\_CUE**
 ```C++
 typedef struct tagMCI_VCR_CUE_PARMS {
   DWORD_PTR dwCallback;
-  DWORD     dwFrom;
-  DWORD     dwTo;
+  DWORD     dwFrom;
+  DWORD     dwTo;
 } MCI_VCR_CUE_PARMS;
 ```
 
@@ -57,7 +63,7 @@ Position to cue to.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](mcisendcommand.md) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to validate the members.
 
 ## Requirements
 
@@ -65,8 +71,8 @@ When assigning data to the members of this structure, set the corresponding flag
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vcr.h</dt> </dl> |
 
 
@@ -84,12 +90,12 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_CUE**](mci-cue.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

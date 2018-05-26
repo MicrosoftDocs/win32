@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the cursor leaves the physical detection range (proximity) of the tablet context.'
-ms.assetid: '0c71a4ad-3c09-4134-b0e7-82f29e8913ed'
-title: 'InkPicture.CursorOutOfRange event'
+Description: Occurs when the cursor leaves the physical detection range (proximity) of the tablet context.
+ms.assetid: 0c71a4ad-3c09-4134-b0e7-82f29e8913ed
+title: InkPicture.CursorOutOfRange event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture.CursorOutOfRange event
@@ -13,7 +18,7 @@ Occurs when the cursor leaves the physical detection range (proximity) of the ta
 
 ```C++
 void CursorOutOfRange(
-  [in] IInkCursor *Cursor
+  [in] IInkCursor *Cursor
 );
 ```
 
@@ -26,7 +31,7 @@ void CursorOutOfRange(
 *Cursor* \[in\]
 </dt> <dd>
 
-The [**IInkCursor Interface**](iinkcursor.md) object that generated the **CursorOutOfRange** event.
+The [**IInkCursor Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object that generated the **CursorOutOfRange** event.
 
 </dd> </dl>
 
@@ -46,7 +51,7 @@ The **CursorOutOfRange** event is fired even when in select or erase mode, not j
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -63,12 +68,12 @@ The **CursorOutOfRange** event is fired even when in select or erase mode, not j
 [**CursorInRange Event**](inkpicture-cursorinrange.md)
 </dt> <dt>
 
-[**IInkCursor Interface**](iinkcursor.md)
+[**IInkCursor Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

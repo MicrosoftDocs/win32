@@ -1,7 +1,12 @@
 ---
 Description: Printer Graphics DLL Structures
-ms.assetid: 'e2e7bf8b-ea18-4313-ac16-484915c393ec'
+ms.assetid: e2e7bf8b-ea18-4313-ac16-484915c393ec
 title: Printer Graphics DLL Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Printer Graphics DLL Structures

@@ -4,13 +4,15 @@ description: The SettingData class represents configuration-related and operatio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '66df1be8-103b-45ea-a209-9a62ee3e33b5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 66df1be8-103b-45ea-a209-9a62ee3e33b5
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_SettingData class iSCSI Software Target API", "CIM_SettingData class iSCSI Software Target API , described"]
+keywords:
+- CIM_SettingData class iSCSI Software Target API
+- CIM_SettingData class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SettingData class
@@ -138,7 +143,7 @@ For DMTF-defined instances, the "preferred" algorithm must be used with the &lt;
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -152,9 +157,9 @@ For DMTF-defined instances, the "preferred" algorithm must be used with the &lt;
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

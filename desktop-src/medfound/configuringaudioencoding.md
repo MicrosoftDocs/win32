@@ -1,7 +1,12 @@
 ---
 Description: Configuring Audio Encoding
-ms.assetid: '40004f07-0b8c-49cd-9e17-1f6ad7604fbb'
+ms.assetid: 40004f07-0b8c-49cd-9e17-1f6ad7604fbb
 title: Configuring Audio Encoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Audio Encoding

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the prefix policy for the Microsoft TCP/IP WMI v2 provider.'
-ms.assetid: 'a6205f16-a30b-43ee-9587-e7d721f04e44'
-title: 'MSFT\_NetPrefixPolicy class'
+Description: Represents the prefix policy for the Microsoft TCP/IP WMI v2 provider.
+ms.assetid: a6205f16-a30b-43ee-9587-e7d721f04e44
+title: MSFT\_NetPrefixPolicy class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetPrefixPolicy class
@@ -23,7 +28,7 @@ class MSFT_NetPrefixPolicy : CIM_ManagedElement
   string Prefix;
   uint32 Precedence;
   uint32 Label;
-  uint8  Store;
+  uint8  Store;
 };
 ```
 
@@ -46,7 +51,7 @@ The **MSFT\_NetPrefixPolicy** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -125,7 +130,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedElement**](cim-managedelement.md).
 
@@ -196,7 +201,7 @@ Whether the change is persistent, or only lasts until the next time that the com
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -206,17 +211,17 @@ Whether the change is persistent, or only lasts until the next time that the com
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

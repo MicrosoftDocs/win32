@@ -4,17 +4,22 @@ description: Determines whether the operating system runs chkdsk on a physical d
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3deb34b4-6dfd-4c4b-864f-c696dfa34d91'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3deb34b4-6dfd-4c4b-864f-c696dfa34d91
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DiskRunChkDsk Failover Cluster , for Physical Disk private properties", "DiskRunChkDsk Failover Cluster"]
+keywords:
+- DiskRunChkDsk Failover Cluster , for Physical Disk private properties
+- DiskRunChkDsk Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DiskRunChkDsk
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DiskRunChkDsk
@@ -28,14 +33,14 @@ Determines whether the operating system runs chkdsk on a physical disk before at
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
 | Status<br/>    | Optional<br/>                                  |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | 0<br/>                                         |
 | Maximum<br/>   | 6<br/>                                         |
 | Default<br/>   | 0<br/>                                         |
 
 
 
- 
+ 
 
 The possible values for this property are:
 
@@ -52,7 +57,7 @@ The possible values for this property are:
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,7 +66,7 @@ Forcing a disk to mount despite errors can result in loss of data. Use caution w
 > [!Note]  
 > The chkdsk tool cannot be run on a cluster shared volume (CSV) that is operating in redirected mode.
 
- 
+ 
 
 ## Examples
 
@@ -86,7 +91,7 @@ DiskRunChkdskValue.dw        = DiskRunChkdskData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -103,9 +108,9 @@ DiskRunChkdskValue.dw        = DiskRunChkdskData;
 [**SkipChkdsk**](physical-disks-skipchkdsk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

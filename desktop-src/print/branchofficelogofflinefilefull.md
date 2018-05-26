@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the necessary data for logging that the offline log archive on the current client overflowed at some point.'
-ms.assetid: '41190CE8-8779-477C-BFB0-6410DF096EFD'
+---
+Description: Contains the necessary data for logging that the offline log archive on the current client overflowed at some point.
+ms.assetid: 41190CE8-8779-477C-BFB0-6410DF096EFD
 title: BranchOfficeLogOfflineFileFull structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BranchOfficeLogOfflineFileFull structure

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies FFT protection.'
-ms.assetid: '0CFD2A1B-BAE0-4755-9B26-A3D8C3053ABD'
-title: 'MFPROTECTION\_FFT attribute'
+---
+Description: Specifies FFT protection.
+ms.assetid: 0CFD2A1B-BAE0-4755-9B26-A3D8C3053ABD
+title: MFPROTECTION\_FFT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPROTECTION\_FFT attribute

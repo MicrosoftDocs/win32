@@ -4,17 +4,22 @@ description: Allows IP address resources to be on any network if set to 1.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a2d0fe51-d140-4c0f-b270-25fbfaab50fd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: a2d0fe51-d140-4c0f-b270-25fbfaab50fd
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["OverrideAddressMatch Failover Cluster , for IPv4 Address private properties", "OverrideAddressMatch Failover Cluster"]
+keywords:
+- OverrideAddressMatch Failover Cluster , for IPv4 Address private properties
+- OverrideAddressMatch Failover Cluster
 topic_type:
 - apiref
 api_name:
 - OverrideAddressMatch
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OverrideAddressMatch
@@ -28,14 +33,14 @@ Allows IP address resources to be on any network if set to 1. The default value 
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | (0)                                       |
 | Maximum   | (1)                                       |
 | Default   | (0)                                       |
 
 
 
- 
+ 
 
 ## Examples
 
@@ -60,7 +65,7 @@ OverrideAddressMatchValue.dw        = OverrideAddressMatchData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -71,12 +76,12 @@ OverrideAddressMatchValue.dw        = OverrideAddressMatchData;
 [IP Address Private Properties](ip-address-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

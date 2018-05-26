@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates whether the outgoing queue has been paused.'
-ms.assetid: '81378fa6-47be-4082-9c01-199538f69b71'
-title: 'FaxConfiguration.OutgoingQueuePaused property'
+---
+Description: Sets or retrieves a value that indicates whether the outgoing queue has been paused.
+ms.assetid: 81378fa6-47be-4082-9c01-199538f69b71
+title: FaxConfiguration.OutgoingQueuePaused property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.OutgoingQueuePaused property

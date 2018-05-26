@@ -1,7 +1,12 @@
 ---
-Description: 'The user-friendly form of System.Communication.TaskStatus. This value is not intended to be parsed programmatically.'
-ms.assetid: '33e4062e-55bb-438d-8636-670210b75647'
-title: 'System.Communication.TaskStatusText'
+Description: The user-friendly form of System.Communication.TaskStatus. This value is not intended to be parsed programmatically.
+ms.assetid: 33e4062e-55bb-438d-8636-670210b75647
+title: System.Communication.TaskStatusText
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Communication.TaskStatusText

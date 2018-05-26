@@ -1,8 +1,9 @@
 ---
 title: WM\_XBUTTONUP message
 description: Posted when the user releases the first or second X button while the cursor is in the client area of a window.
-ms.assetid: 'ad726859-368a-4603-bffa-4e639bc69a6a'
-keywords: ["WM_XBUTTONUP message Keyboard and Mouse Input"]
+ms.assetid: ad726859-368a-4603-bffa-4e639bc69a6a
+keywords:
+- WM_XBUTTONUP message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_XBUTTONUP message
@@ -49,7 +55,7 @@ The low-order word indicates whether various virtual keys are down. It can be on
 
 
 
- 
+ 
 
 The high-order word indicates which button was double-clicked. It can be one of the following values.
 
@@ -62,7 +68,7 @@ The high-order word indicates which button was double-clicked. It can be one of 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -106,9 +112,9 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 > \[!Important\]  
 > Do not use the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) or [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and **LOWORD** and **HIWORD** treat the coordinates as unsigned quantities.
 
- 
+ 
 
-Unlike the [**WM\_LBUTTONUP**](wm-lbuttonup.md), [**WM\_MBUTTONUP**](wm-mbuttonup.md), and [**WM\_RBUTTONUP**](wm-rbuttonup.md) messages, an application should return **TRUE** from this message if it processes it. Doing so will allow software that simulates this message on Windows systems earlier than Windows 2000 to determine whether the window procedure processed the message or called [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) to process it.
+Unlike the [**WM\_LBUTTONUP**](wm-lbuttonup.md), [**WM\_MBUTTONUP**](wm-mbuttonup.md), and [**WM\_RBUTTONUP**](wm-rbuttonup.md) messages, an application should return **TRUE** from this message if it processes it. Doing so will allow software that simulates this message on Windows systems earlier than Windows 2000 to determine whether the window procedure processed the message or called [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) to process it.
 
 ## Requirements
 
@@ -116,8 +122,8 @@ Unlike the [**WM\_LBUTTONUP**](wm-lbuttonup.md), [**WM\_MBUTTONUP**](wm-mbuttonu
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windowsx.h)</dt> </dl> |
 
 
@@ -168,9 +174,9 @@ Unlike the [**WM\_LBUTTONUP**](wm-lbuttonup.md), [**WM\_MBUTTONUP**](wm-mbuttonu
 [**POINTS**](https://msdn.microsoft.com/library/windows/desktop/dd162808)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

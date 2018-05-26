@@ -1,7 +1,12 @@
 ---
 title: The midl\_user\_free Function
 description: The midl\_user\_free function must be supplied by RPC developers.
-ms.assetid: '5e940e93-bdd4-48cc-b84e-654637699719'
+ms.assetid: 5e940e93-bdd4-48cc-b84e-654637699719
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The midl\_user\_free Function
@@ -32,7 +37,7 @@ void __RPC_USER midl_user_free(void __RPC_FAR * p)
 
 
 > [!Note]  
-> If the RpcSs package is enabled (for example, as the result of using the \[ [**enable\_allocate**](https://msdn.microsoft.com/library/windows/desktop/aa366808)\] attribute), your server program should use [**RpcSmFree**](rpcsmfree.md) to free memory. For more information, see [RpcSs Memory Management Package](rpcss-memory-management-package.md).
+> If the RpcSs package is enabled (for example, as the result of using the \[ [**enable\_allocate**](https://msdn.microsoft.com/library/windows/desktop/aa366808)\] attribute), your server program should use [**RpcSmFree**](/windows/win32/Rpcndr/nf-rpcndr-rpcsmfree?branch=master) to free memory. For more information, see [RpcSs Memory Management Package](rpcss-memory-management-package.md).
 
  
 

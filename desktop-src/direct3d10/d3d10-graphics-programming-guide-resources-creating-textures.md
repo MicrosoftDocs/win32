@@ -1,7 +1,12 @@
 ---
-Description: 'A texture resource is a structured collection of data.'
-ms.assetid: '4c716be8-044e-4ed4-aeca-4379440826bd'
-title: 'Creating Texture Resources (Direct3D 10)'
+Description: A texture resource is a structured collection of data.
+ms.assetid: 4c716be8-044e-4ed4-aeca-4379440826bd
+title: Creating Texture Resources (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Texture Resources (Direct3D 10)
@@ -66,7 +71,7 @@ D3DX10CreateTextureFromFile( pDevice, L"sample.bmp", NULL, NULL, &amp;pTexture, 
 
 Specifying **NULL** for the loading information is a simple yet powerful shortcut.
 
-Now that a texture has been created, you need to create a shader-resource view so that the texture can be bound as an input to a shader. Since [**D3DX10CreateTextureFromFile**](d3dx10createtexturefromfile.md) returns a pointer to a resource and not a pointer to a texture, you have to determine the exact type of resource that was loaded, and then you can create a shader-resource view using [**CreateShaderResourceView**](id3d10device-createshaderresourceview.md).
+Now that a texture has been created, you need to create a shader-resource view so that the texture can be bound as an input to a shader. Since [**D3DX10CreateTextureFromFile**](d3dx10createtexturefromfile.md) returns a pointer to a resource and not a pointer to a texture, you have to determine the exact type of resource that was loaded, and then you can create a shader-resource view using [**CreateShaderResourceView**](/windows/win32/D3D10/nf-d3d10-id3d10device-createshaderresourceview?branch=master).
 
 
 ```
@@ -110,7 +115,7 @@ pDevice->CreateShaderResourceView( pTexture, &amp;srvDesc, &amp;pSRView );
 
 Although the above sample creates a 2D shader-resource view, the code to create other shader-resource view types is very similar. Any shader stage can now use this texture as an input.
 
-Using [**D3DX10CreateTextureFromFile**](d3dx10createtexturefromfile.md) and [**CreateShaderResourceView**](id3d10device-createshaderresourceview.md) to create a texture and its associated view is one way to prepare a texture to be bound to a shader stage. Another way to do so is to create both the texture and its view at the same time, which is discussed in the next section.
+Using [**D3DX10CreateTextureFromFile**](d3dx10createtexturefromfile.md) and [**CreateShaderResourceView**](/windows/win32/D3D10/nf-d3d10-id3d10device-createshaderresourceview?branch=master) to create a texture and its associated view is one way to prepare a texture to be bound to a shader stage. Another way to do so is to create both the texture and its view at the same time, which is discussed in the next section.
 
 ### Create Texture and View Simultaneously
 
@@ -131,7 +136,7 @@ D3DX10CreateShaderResourceViewFromFile( pDevice, L"sample.bmp", &amp;loadInfo, N
 
 With a single D3DX call, both the texture and shader-resource view are created. The functionality of the **loadInfo** parameter is unchanged; you can use it to customize how the texture is created, or derive the necessary parameters from the input file by specifying **NULL** for the **loadInfo** parameter.
 
-The [**ID3D10ShaderResourceView**](id3d10shaderresourceview.md) object returned by the [**D3DX10CreateShaderResourceViewFromFile**](d3dx10createshaderresourceviewfromfile.md) function can later be used to retrieve the original [**ID3D10Resource**](id3d10resource.md) interface if it is needed. This can be done by calling the [**GetResource**](id3d10view-getresource.md) method.
+The [**ID3D10ShaderResourceView**](/windows/win32/d3d10/nn-d3d10-id3d10shaderresourceview?branch=master) object returned by the [**D3DX10CreateShaderResourceViewFromFile**](d3dx10createshaderresourceviewfromfile.md) function can later be used to retrieve the original [**ID3D10Resource**](/windows/win32/D3D10/nn-d3d10-id3d10resource?branch=master) interface if it is needed. This can be done by calling the [**GetResource**](/windows/win32/D3D10/nf-d3d10-id3d10view-getresource?branch=master) method.
 
 D3DX provides a single function to create a texture and shader-resource view as a convienience; it is up to you to decide which method of creating a texture and view best suits the needs of your application.
 
@@ -139,11 +144,11 @@ Now that you know how to create a texture and its shader-resource view, the next
 
 ## Creating Empty Textures
 
-Sometimes applications will want to create a texture and compute the data to be stored in the texture, or use the graphics [pipeline](d3d10-graphics-programming-guide-pipeline-stages.md) to render to this texture and later use the results in other processing. These textures could be updated by the graphics pipeline or by the application itself, depending on what kind of [**usage**](d3d10-usage.md) was specified for the texture when it was created.
+Sometimes applications will want to create a texture and compute the data to be stored in the texture, or use the graphics [pipeline](d3d10-graphics-programming-guide-pipeline-stages.md) to render to this texture and later use the results in other processing. These textures could be updated by the graphics pipeline or by the application itself, depending on what kind of [**usage**](/windows/win32/D3D10/ne-d3d10-d3d10_usage?branch=master) was specified for the texture when it was created.
 
 ### Rendering to a texture
 
-The most common case of creating an empty texture to be filled with data during runtime is the case where an application wants to render to a texture and then use the results of the rendering operation in a subsequent pass. Textures created with this purpose should specify default [**usage**](d3d10-usage.md).
+The most common case of creating an empty texture to be filled with data during runtime is the case where an application wants to render to a texture and then use the results of the rendering operation in a subsequent pass. Textures created with this purpose should specify default [**usage**](/windows/win32/D3D10/ne-d3d10-d3d10_usage?branch=master).
 
 The following code sample creates an empty texture that the pipeline can render to and subsequently use as an input to a [shader](direct3dhlsl.dx_graphics_hlsl_using_shaders_10).
 
@@ -228,7 +233,7 @@ pd3dDevice->CreateTexture2D( &amp;desc, NULL, &amp;pTexture );
 
 Note that the format is set to a 32 bits per pixel where each component is defined by 8 bits. The usage parameter is set to dynamic while the bind flags are set to specify the texture will be accessed by a shader. The rest of the texture description is similar to creating a render target.
 
-Calling [**Map**](id3d10texture2d-map.md) enables the application to access the underlying memory of the texture. The pointer retrieved is then used to fill the texture with data. This can be seen in the following code sample.
+Calling [**Map**](/windows/win32/D3D10/nf-d3d10-id3d10texture2d-map?branch=master) enables the application to access the underlying memory of the texture. The pointer retrieved is then used to fill the texture with data. This can be seen in the following code sample.
 
 
 ```
@@ -256,7 +261,7 @@ pTexture->Unmap( D3D10CalcSubresource(0, 0, 1) );
 
 ## Multiple Rendertargets
 
-Up to eight render-target views can be bound to the pipeline at a time (with [**OMSetRenderTargets**](id3d10device-omsetrendertargets.md)). For each pixel (or each sample if multisampling is enabled), blending is done independently for each render-target view. Two of the blend state variables - BlendEnable and RenderTargetWriteMask - are arrays of eight, each array member corresponds to a render-target view. When using multiple render targets, each render target must be the same [resource type](d3d10-graphics-programming-guide-resources-types.md) (buffer, 1D texture, 2D texture array, etc.) and must have the same dimension (width, height, depth for 3D textures, and array size for texture arrays). If the render targets are multisampled, then they must all have the same number of samples per pixel.
+Up to eight render-target views can be bound to the pipeline at a time (with [**OMSetRenderTargets**](/windows/win32/D3D10/nf-d3d10-id3d10device-omsetrendertargets?branch=master)). For each pixel (or each sample if multisampling is enabled), blending is done independently for each render-target view. Two of the blend state variables - BlendEnable and RenderTargetWriteMask - are arrays of eight, each array member corresponds to a render-target view. When using multiple render targets, each render target must be the same [resource type](d3d10-graphics-programming-guide-resources-types.md) (buffer, 1D texture, 2D texture array, etc.) and must have the same dimension (width, height, depth for 3D textures, and array size for texture arrays). If the render targets are multisampled, then they must all have the same number of samples per pixel.
 
 There can only be one depth-stencil buffer active, regardless of how many render targets are active. When using texture arrays as render targets, all view dimensions must match. The render targets do not need to have the same texture format.
 

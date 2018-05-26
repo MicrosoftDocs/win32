@@ -1,8 +1,10 @@
 ---
 title: CIM\_HostedDependency class
 description: Represents an association where a managed element is hosted by another.
-ms.assetid: '420601ef-c3cb-4ea6-9e21-edf6cafcc06f'
-keywords: ["CIM_HostedDependency class Hyper-V", "CIM_HostedDependency class Hyper-V , described"]
+ms.assetid: 420601ef-c3cb-4ea6-9e21-edf6cafcc06f
+keywords:
+- CIM_HostedDependency class Hyper-V
+- CIM_HostedDependency class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_HostedDependency class
@@ -83,9 +90,9 @@ The hosted managed element.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ The hosted managed element.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: CBN\_EDITCHANGE notification code
 description: Sent after the user has taken an action that may have altered the text in the edit control portion of a combo box.
-ms.assetid: '2c5de5cd-24d3-4198-906e-b520369e0f61'
-keywords: ["CBN_EDITCHANGE notification code Windows Controls"]
+ms.assetid: 2c5de5cd-24d3-4198-906e-b520369e0f61
+keywords:
+- CBN_EDITCHANGE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBN\_EDITCHANGE notification code
@@ -55,8 +61,8 @@ If the combo box has the [**CBS\_DROPDOWNLIST**](combo-box-styles.md#cbs-dropdow
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -83,9 +89,9 @@ If the combo box has the [**CBS\_DROPDOWNLIST**](combo-box-styles.md#cbs-dropdow
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: The RemoteControl method sets the LevelOfControl property.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '341f4f8d-17be-4482-834a-b771e041cfec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 341f4f8d-17be-4482-834a-b771e041cfec
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RemoteControl method Remote Desktop Services", "RemoteControl method Remote Desktop Services , Win32_TSRemoteControlSetting class", "Win32_TSRemoteControlSetting class Remote Desktop Services , RemoteControl method"]
+keywords:
+- RemoteControl method Remote Desktop Services
+- RemoteControl method Remote Desktop Services , Win32_TSRemoteControlSetting class
+- Win32_TSRemoteControlSetting class Remote Desktop Services , RemoteControl method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteControl method of the Win32\_TSRemoteControlSetting class
@@ -28,7 +34,7 @@ The **RemoteControl** method sets the **LevelOfControl** property.
 
 ```mof
 uint32 RemoteControl(
-  [in] uint32 LevelOfControl
+  [in] uint32 LevelOfControl
 );
 ```
 
@@ -118,8 +124,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -133,9 +139,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSRemoteControlSetting**](win32-tsremotecontrolsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

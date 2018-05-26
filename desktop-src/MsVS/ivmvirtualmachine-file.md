@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine File property
 description: The File property contains the fully qualified name of the \ 0034;\ .vmc \ 0034; file that describes this virtual machine configuration.
-ms.assetid: 'cbd0771d-df2b-4ee4-8a8f-df28622030d7'
-keywords: ["File property Virtual Server", "File property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , File property", "File property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , File property"]
+ms.assetid: cbd0771d-df2b-4ee4-8a8f-df28622030d7
+keywords:
+- File property Virtual Server
+- File property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , File property
+- File property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , File property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::File property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_File(
-  [out] BSTR *virtualMachineXMLFile
+  [out] BSTR *virtualMachineXMLFile
 );
 ```
 
@@ -96,8 +106,8 @@ WScript.Echo "Configuration file: " & objVM.File
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -109,9 +119,9 @@ WScript.Echo "Configuration file: " & objVM.File
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

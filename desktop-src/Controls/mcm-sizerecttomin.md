@@ -1,8 +1,9 @@
 ---
 title: MCM\_SIZERECTTOMIN message
 description: Calculates how many calendars will fit in the given rectangle, and then returns the minimum size that a rectangle needs to be to fit that number of calendars. You can send this message explicitly or by using the MonthCal\_SizeRectToMin macro.
-ms.assetid: 'd52a7f68-e0c9-4646-a4aa-97129dffeb5d'
-keywords: ["MCM_SIZERECTTOMIN message Windows Controls"]
+ms.assetid: d52a7f68-e0c9-4646-a4aa-97129dffeb5d
+keywords:
+- MCM_SIZERECTTOMIN message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_SIZERECTTOMIN message
 
-Calculates how many calendars will fit in the given rectangle, and then returns the minimum size that a rectangle needs to be to fit that number of calendars. You can send this message explicitly or by using the [**MonthCal\_SizeRectToMin**](monthcal-sizerecttomin.md) macro.
+Calculates how many calendars will fit in the given rectangle, and then returns the minimum size that a rectangle needs to be to fit that number of calendars. You can send this message explicitly or by using the [**MonthCal\_SizeRectToMin**](/windows/win32/Commctrl/nf-commctrl-monthcal_sizerecttomin?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Unused.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

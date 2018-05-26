@@ -4,11 +4,14 @@ description: Creates a process mini-dump of the process instance.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '55a7c652-51a0-41ea-9399-b9203a258bb2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 55a7c652-51a0-41ea-9399-b9203a258bb2
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateDump method", "CreateDump method, MSFT_MTProcess class", "MSFT_MTProcess class, CreateDump method"]
+keywords:
+- CreateDump method
+- CreateDump method, MSFT_MTProcess class
+- MSFT_MTProcess class, CreateDump method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MtTmProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateDump method of the MSFT\_MTProcess class
@@ -28,7 +34,7 @@ Creates a process mini-dump of the process instance.
 
 ```mof
 uint32 CreateDump(
-  [out] string DumpFilePath
+  [out] string DumpFilePath
 );
 ```
 
@@ -52,7 +58,7 @@ On success, returns a string containing the dump path file.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                    |
 | MOF<br/>                      | <dl> <dt>MtTmProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MtTmProv.dll</dt> </dl> |
@@ -66,9 +72,9 @@ On success, returns a string containing the dump path file.
 [**MSFT\_MTProcess**](msft-mtprocess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

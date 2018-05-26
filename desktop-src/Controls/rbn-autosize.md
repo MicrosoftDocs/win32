@@ -1,8 +1,9 @@
 ---
 title: RBN\_AUTOSIZE notification code
 description: Sent by a rebar control created with the RBS\_AUTOSIZE style when the rebar automatically resizes itself. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'd174fe99-13cc-404c-9dc5-d5a93e9807a2'
-keywords: ["RBN_AUTOSIZE notification code Windows Controls"]
+ms.assetid: d174fe99-13cc-404c-9dc5-d5a93e9807a2
+keywords:
+- RBN_AUTOSIZE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RBN\_AUTOSIZE notification code
@@ -33,7 +39,7 @@ RBN_AUTOSIZE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMRBAUTOSIZE**](nmrbautosize.md) structure that contains information about the resize operation.
+Pointer to an [**NMRBAUTOSIZE**](/windows/win32/Commctrl/ns-commctrl-tagnmrbautosize?branch=master) structure that contains information about the resize operation.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ The return value for this notification is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: IsColorProfileValid function
 description: The IsColorProfileValid function allows an application to determine whether the specified profile is a valid International Color Consortium (ICC) profile or a valid Windows Color System (WCS) profile handle that can be used for color management.
-ms.assetid: '6b8075ae-301c-4b22-8bed-b4bb154ccc9e'
-keywords: ["IsColorProfileValid function Windows Color System"]
+ms.assetid: 6b8075ae-301c-4b22-8bed-b4bb154ccc9e
+keywords:
+- IsColorProfileValid function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsColorProfileValid function
@@ -22,8 +28,8 @@ The **IsColorProfileValid** function allows an application to determine whether 
 
 ```C++
 BOOL WINAPI IsColorProfileValid(
-   HPROFILE hProfile,
-   PBOOL    pbValid
+   HPROFILE hProfile,
+   PBOOL    pbValid
 );
 ```
 
@@ -59,8 +65,8 @@ If this function fails (or succeeds and the profile is not valid), the return va
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -77,9 +83,9 @@ If this function fails (or succeeds and the profile is not valid), the return va
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

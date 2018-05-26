@@ -4,17 +4,22 @@ description: The common names of the nonstandard classes that can be added to a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5b89c8d2-0450-480b-9252-17ae375e3a57'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 5b89c8d2-0450-480b-9252-17ae375e3a57
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Non-Security-Group-Extra-Classes attribute AD Schema", "msDS-Non-Security-Group-Extra-Classes attribute AD Schema"]
+keywords:
+- ms-DS-Non-Security-Group-Extra-Classes attribute AD Schema
+- msDS-Non-Security-Group-Extra-Classes attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Non-Security-Group-Extra-Classes
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Non-Security-Group-Extra-Classes attribute
@@ -38,11 +43,11 @@ The common names of the nonstandard classes that can be added to a nonsecurity g
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -166,9 +171,9 @@ The following list identifies the standard classes that can be added to a group 
 [**ms-DS-Security-Group-Extra-Classes**](a-msds-security-group-extra-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

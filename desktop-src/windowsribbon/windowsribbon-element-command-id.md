@@ -1,14 +1,20 @@
 ---
 title: Command.Id property
 description: Represents a unique ID for a Command.
-ms.assetid: '937ca9d6-6910-4133-9cfa-d7e3f895f876'
-keywords: ["Command.Id property Windows Ribbon"]
+ms.assetid: 937ca9d6-6910-4133-9cfa-d7e3f895f876
+keywords:
+- Command.Id property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Command.Id
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command.Id property
@@ -83,14 +89,14 @@ The following example demonstrates the markup for a [**Command**](windowsribbon-
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: TestCase AddMetricValue methods
 description: Creates and adds a MetricValue to the TestCase.
-ms.assetid: 'D2E86EFB-11E8-4788-ACF4-64B237E0E248'
-keywords: ["AddMetricValue methods Access Execution Engine"]
+ms.assetid: D2E86EFB-11E8-4788-ACF4-64B237E0E248
+keywords:
+- AddMetricValue methods Access Execution Engine
 topic_type:
 - apiref
 api_location:
 - AxeCore.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCase::AddMetricValue methods
@@ -42,8 +48,8 @@ The **MetricValue** objects hold information from the **TestCase/MetricValues/Me
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -56,9 +62,9 @@ The **MetricValue** objects hold information from the **TestCase/MetricValues/Me
 [**TestCase**](testcase-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

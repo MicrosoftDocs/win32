@@ -1,8 +1,15 @@
 ---
 title: Smart Card Enrollment Control Example
 description: HTML script depicts a basic example using the Smart Card Enrollment Control. The example uses Visual Basic Scripting Edition (VBScript).
-ms.assetid: '2a4e6fb2-1bf0-415d-9cb0-7a987f422b2a'
-keywords: ["Smart Card API Smart Card , example", "Smart Card Enrollment Control example Smart Card"]
+ms.assetid: 2a4e6fb2-1bf0-415d-9cb0-7a987f422b2a
+keywords:
+- Smart Card API Smart Card , example
+- Smart Card Enrollment Control example Smart Card
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Smart Card Enrollment Control Example

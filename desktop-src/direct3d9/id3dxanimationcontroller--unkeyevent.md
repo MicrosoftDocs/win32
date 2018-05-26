@@ -1,7 +1,12 @@
-﻿---
-Description: 'Removes a specified event from an animation track, preventing the execution of the event.'
-ms.assetid: '658ffe91-44ba-4bde-b78c-c545dff27ab1'
-title: 'ID3DXAnimationController::UnkeyEvent method'
+---
+Description: Removes a specified event from an animation track, preventing the execution of the event.
+ms.assetid: 658ffe91-44ba-4bde-b78c-c545dff27ab1
+title: ID3DXAnimationControllerUnkeyEvent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::UnkeyEvent method

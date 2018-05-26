@@ -4,11 +4,16 @@ description: The Ping provider supplies WMI access to the status information pro
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8be082cc-4c94-46d4-b584-7ffd04a7dffb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 8be082cc-4c94-46d4-b584-7ffd04a7dffb
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["providers Windows Management Instrumentation , Ping", "Ping provider Windows Management Instrumentation"]
+keywords:
+- providers Windows Management Instrumentation , Ping
+- Ping provider Windows Management Instrumentation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Ping Provider

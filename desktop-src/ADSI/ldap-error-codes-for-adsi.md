@@ -4,10 +4,13 @@ description: When an LDAP server generates an error and passes the error to the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7a0a5a1b-8473-405b-a590-3f917e50cbdc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7a0a5a1b-8473-405b-a590-3f917e50cbdc
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP Error Codes for ADSI

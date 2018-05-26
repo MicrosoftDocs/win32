@@ -1,8 +1,17 @@
 ---
 title: Using Text Services Framework
 description: Using Text Services Framework
-ms.assetid: '383a7c31-389b-4f8a-a5eb-552493bef640'
-keywords: ["Text Services Framework (TSF),about", "TSF (Text Services Framework),about", "text services,about", "TSF-enabled applications,about"]
+ms.assetid: 383a7c31-389b-4f8a-a5eb-552493bef640
+keywords:
+- Text Services Framework (TSF),about
+- TSF (Text Services Framework),about
+- text services,about
+- TSF-enabled applications,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Text Services Framework

@@ -1,7 +1,12 @@
 ---
-Description: 'Pronounciation of the first name.'
-ms.assetid: '8fde367a-91a7-460d-b621-1d58e0bb14a6'
-title: 'System.Contact.JA.FirstNamePhonetic'
+Description: Pronounciation of the first name.
+ms.assetid: 8fde367a-91a7-460d-b621-1d58e0bb14a6
+title: System.Contact.JA.FirstNamePhonetic
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.JA.FirstNamePhonetic

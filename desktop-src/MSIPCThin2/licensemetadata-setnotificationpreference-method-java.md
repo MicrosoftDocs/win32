@@ -4,17 +4,21 @@ description: Sets the notification preference of the document to be tracked.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'A3B611D3-6B88-454B-9D54-42B94C04CED3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: A3B611D3-6B88-454B-9D54-42B94C04CED3
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["LicenseMetadata setNotificationPreference method"]
+keywords:
+- LicenseMetadata setNotificationPreference method
 topic_type:
 - apiref
 api_name:
 - LicenseMetadata setNotificationPreference method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LicenseMetadata setNotificationPreference method
@@ -37,7 +41,7 @@ public void setNotificationPreference(NotificationPreference notificationPrefere
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ LicenseMetadata.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

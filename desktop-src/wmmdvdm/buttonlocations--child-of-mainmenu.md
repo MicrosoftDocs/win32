@@ -1,14 +1,20 @@
 ---
 title: ButtonLocations (Child of MainMenu) element
-description: Specifies the normalized (with respect to a screen with a 16 9 aspect ratio) position and dimensions of the menu buttons on the main menu. This is the rectangular region that defines each button's location for the DVD player.
-ms.assetid: '0e0bff48-f1a6-4b5f-a143-2bf487f6571b'
-keywords: ["ButtonLocations (Child of MainMenu) element Windows Movie Maker and DVD Maker"]
+description: Specifies the normalized (with respect to a screen with a 16 9 aspect ratio) position and dimensions of the menu buttons on the main menu. This is the rectangular region that defines each buttons location for the DVD player.
+ms.assetid: 0e0bff48-f1a6-4b5f-a143-2bf487f6571b
+keywords:
+- ButtonLocations (Child of MainMenu) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - ButtonLocations
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ButtonLocations (Child of MainMenu) element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -69,9 +75,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

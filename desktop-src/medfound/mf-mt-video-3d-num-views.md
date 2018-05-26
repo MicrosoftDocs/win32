@@ -1,7 +1,12 @@
-﻿---
-Description: 'The number of views in a 3D video sequence.'
-ms.assetid: '5D8224E3-94B1-4056-8424-9978D2B88B3A'
-title: 'MF\_MT\_VIDEO\_3D\_NUM\_VIEWS attribute'
+---
+Description: The number of views in a 3D video sequence.
+ms.assetid: 5D8224E3-94B1-4056-8424-9978D2B88B3A
+title: MF\_MT\_VIDEO\_3D\_NUM\_VIEWS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_VIDEO\_3D\_NUM\_VIEWS attribute

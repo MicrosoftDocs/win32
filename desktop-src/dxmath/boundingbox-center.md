@@ -1,7 +1,12 @@
-﻿---
-Description: 'The center of the BoundingBox.'
-ms.assetid: 'd6cc1de6-69ad-4bda-af4b-f8c86bd2c11e'
-title: 'BoundingBox.Center'
+---
+Description: The center of the BoundingBox.
+ms.assetid: d6cc1de6-69ad-4bda-af4b-f8c86bd2c11e
+title: BoundingBox.Center
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingBox.Center
@@ -43,7 +48,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingBox**](boundingbox.md)
+[**BoundingBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingbox?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 title: Scopes
 description: Scopes
-ms.assetid: 'bc46e9d0-f784-49e1-b176-ec21f845c930'
+ms.assetid: bc46e9d0-f784-49e1-b176-ec21f845c930
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scopes

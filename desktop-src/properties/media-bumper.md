@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'cd71978d-09d9-43f1-ab1b-4b213e3a193b'
+---
+Description: .
+ms.assetid: cd71978d-09d9-43f1-ab1b-4b213e3a193b
 title: Media
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media

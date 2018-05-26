@@ -1,8 +1,10 @@
 ---
 title: CIM\_Error class
 description: The CIM\_Error class contains information about the failure of a CIM operation.
-ms.assetid: 'e57636aa-6e04-4159-8fe1-5cc14d193891'
-keywords: ["CIM_Error class Hyper-V", "CIM_Error class Hyper-V , described"]
+ms.assetid: e57636aa-6e04-4159-8fe1-5cc14d193891
+keywords:
+- CIM_Error class Hyper-V
+- CIM_Error class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_Error class
@@ -437,7 +444,7 @@ A free-form string that contains a human-readable description of the **CIMStatus
 > [!Note]  
 > This description may extend, but must be consistent with the definition of **CIMStatusCode**.
 
- 
+ 
 
 </dd> <dt>
 
@@ -662,7 +669,7 @@ The formatted message.
 > [!Note]  
 > This message is created by combining dynamic elements of the **MessageArguments** property with the static elements of the **MessageID** property, and then adding them to a message registry or catalog associated with the **OwningEntity**.
 
- 
+ 
 
 </dd> <dt>
 
@@ -744,7 +751,7 @@ The unique ID of the entity that owns the format of the message described by thi
 > [!Note]  
 > This property must include a copyrighted, trademarked, or unique name that is owned by the business entity or standards body that defined the message format.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1787,17 +1794,17 @@ An array of free-form strings that describe the recommended actions to take to r
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Email property is a null-terminated string that contains the email address associated with the sender.'
-ms.assetid: '3fe49d4a-41ff-4d47-add9-e22b77d20d6c'
-title: 'FaxSender.Email property'
+---
+Description: The Email property is a null-terminated string that contains the email address associated with the sender.
+ms.assetid: 3fe49d4a-41ff-4d47-add9-e22b77d20d6c
+title: FaxSender.Email property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSender.Email property
@@ -46,7 +51,7 @@ A **String** that specifies or receives the email address associated with the se
 [**FaxSender**](-mfax-faxsender.md)
 </dt> <dt>
 
-[**IFaxSender**](-mfax-faxsender-cpp.md)
+[**IFaxSender**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsender?branch=master)
 </dt> </dl>
 
  

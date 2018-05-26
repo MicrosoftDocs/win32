@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies an activation object that creates a custom video presenter for the enhanced video renderer (EVR) media sink.'
-ms.assetid: '65d88832-0969-4d85-bee2-fd0aa68e9f3b'
-title: 'MF\_ACTIVATE\_CUSTOM\_VIDEO\_PRESENTER\_ACTIVATE attribute'
+---
+Description: Specifies an activation object that creates a custom video presenter for the enhanced video renderer (EVR) media sink.
+ms.assetid: 65d88832-0969-4d85-bee2-fd0aa68e9f3b
+title: MF\_ACTIVATE\_CUSTOM\_VIDEO\_PRESENTER\_ACTIVATE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_ACTIVATE\_CUSTOM\_VIDEO\_PRESENTER\_ACTIVATE attribute
@@ -16,10 +21,10 @@ Specifies an activation object that creates a custom video presenter for the enh
 
 If you are creating the EVR through an activation object, you can use this attribute to set a custom video presenter on the EVR. Use this attribute as follows:
 
-1.  Call the [**MFCreateVideoRendererActivate**](mfcreatevideorendereractivate.md) function to create an activation object for the EVR. The function returns a pointer to the [**IMFActivate**](imfactivate.md) interface.
-2.  Set this attribute on the [**IMFActivate**](imfactivate.md) pointer by calling [**IMFAttributes::SetUnknown**](imfattributes-setunknown.md). The value of the attribute is a pointer to an activation object implemented by the caller. The caller's activation object must expose the **IMFActivate** interface.
+1.  Call the [**MFCreateVideoRendererActivate**](/windows/win32/mfidl/nf-mfidl-mfcreatevideorendereractivate?branch=master) function to create an activation object for the EVR. The function returns a pointer to the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) interface.
+2.  Set this attribute on the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointer by calling [**IMFAttributes::SetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setunknown?branch=master). The value of the attribute is a pointer to an activation object implemented by the caller. The caller's activation object must expose the **IMFActivate** interface.
 
-If you set this attribute, the EVR calls [**IMFActivate::ActivateObject**](imfactivate-activateobject.md) to create the custom video presenter. The video presenter must expose the [**IMFVideoPresenter**](imfvideopresenter.md) interface.
+If you set this attribute, the EVR calls [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master) to create the custom video presenter. The video presenter must expose the [**IMFVideoPresenter**](/windows/win32/evr/nn-evr-imfvideopresenter?branch=master) interface.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -45,13 +50,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Enhanced Video Renderer Attributes](enhanced-video-renderer-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUnknown**](imfattributes-getunknown.md)
+[**IMFAttributes::GetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getunknown?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUnknown**](imfattributes-setunknown.md)
+[**IMFAttributes::SetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setunknown?branch=master)
 </dt> <dt>
 
-[**IMFActivate**](imfactivate.md)
+[**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master)
 </dt> <dt>
 
 [Activation Objects](activation-objects.md)

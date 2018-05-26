@@ -1,14 +1,19 @@
 ---
-Description: 'This section explains how to retrieve the MathML markup from the math input control using the Active Template Library (ATL) and the Component Object Model (COM).'
-ms.assetid: '352d2a0c-8275-4fe4-b523-4c74126ffadf'
+Description: This section explains how to retrieve the MathML markup from the math input control using the Active Template Library (ATL) and the Component Object Model (COM).
+ms.assetid: 352d2a0c-8275-4fe4-b523-4c74126ffadf
 title: Receiving Input from the Math Input Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving Input from the Math Input Control
 
 This section explains how to retrieve the MathML markup from the math input control using the Active Template Library (ATL) and the Component Object Model (COM).
 
-To retrieve the recognized math equation from the math input control, you can override the behavior that happens when the insert button is pressed. To do this, you will need to set up an event handler that implements the various events that are supported by the [**\_IMathInputControlEvents**](-imathinputcontrolevents.md) interface. Setting up the events handler involves the performing the following steps for the events you want to support (insert in this case).
+To retrieve the recognized math equation from the math input control, you can override the behavior that happens when the insert button is pressed. To do this, you will need to set up an event handler that implements the various events that are supported by the [**\_IMathInputControlEvents**](/windows/win32/micaut/?branch=master) interface. Setting up the events handler involves the performing the following steps for the events you want to support (insert in this case).
 
 -   [Create a template class that contains event sinks](#create-a-template-class-that-contains-event-sinks)
 -   [Set up the event handlers](#set-up-the-event-handlers)
@@ -43,7 +48,7 @@ private:
 
  
 
-Now that you have the basic template class, you must give a forward declaration for the event handlers that you will be overriding and must then set up a sink map for the events you will be handling. The following code shows how to set up event handlers for the [**Insert**](-imathinputcontrolevents-insert.md) method, called when a user clicks the insert button on the math input control, and the [**Close**](-imathinputcontrolevents-close.md) method, called when a user clicks the cancel button on the math input control.
+Now that you have the basic template class, you must give a forward declaration for the event handlers that you will be overriding and must then set up a sink map for the events you will be handling. The following code shows how to set up event handlers for the [**Insert**](/windows/win32/micaut/?branch=master) method, called when a user clicks the insert button on the math input control, and the [**Close**](/windows/win32/micaut/?branch=master) method, called when a user clicks the cancel button on the math input control.
 
 
 ```
@@ -79,7 +84,7 @@ Since you will be working with the math input control, it will be useful to set 
 
 ## Set up the event handlers
 
-Once you have set up the event sinks, you will need to create your implementations of the event sinks. In both of the methods in the following code example, the event sinks retrieve a handle to the math input control interface. In the [**Insert**](-imathinputcontrolevents-insert.md) function, the recognition result is displayed as MathML and the control is hidden. In the [**Close**](-imathinputcontrolevents-close.md) function, the math input control is hidden.
+Once you have set up the event sinks, you will need to create your implementations of the event sinks. In both of the methods in the following code example, the event sinks retrieve a handle to the math input control interface. In the [**Insert**](/windows/win32/micaut/?branch=master) function, the recognition result is displayed as MathML and the control is hidden. In the [**Close**](/windows/win32/micaut/?branch=master) function, the math input control is hidden.
 
 
 ```

@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies whether a shell folder is pinned to the navigation pane.'
-ms.assetid: '00937acb-1ce2-44f6-96a1-69e5dbb665f6'
-title: 'System.IsPinnedToNameSpaceTree'
+Description: Identifies whether a shell folder is pinned to the navigation pane.
+ms.assetid: 00937acb-1ce2-44f6-96a1-69e5dbb665f6
+title: System.IsPinnedToNameSpaceTree
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.IsPinnedToNameSpaceTree

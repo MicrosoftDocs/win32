@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when a key is pressed and in the down position while the InkPicture control has focus.'
-ms.assetid: 'd83823ea-d863-4eb7-8f6b-fa7a3396e64b'
-title: 'InkPicture.KeyDown event'
+Description: Occurs when a key is pressed and in the down position while the InkPicture control has focus.
+ms.assetid: d83823ea-d863-4eb7-8f6b-fa7a3396e64b
+title: InkPicture.KeyDown event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture.KeyDown event
@@ -13,8 +18,8 @@ Occurs when a key is pressed and in the down position while the [InkPicture](ink
 
 ```C++
 void KeyDown(
-  [in, out] short *KeyCode,
-  [in, out] short *Shift
+  [in, out] short *KeyCode,
+  [in, out] short *Shift
 );
 ```
 
@@ -52,7 +57,7 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -66,9 +71,9 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 [InkPicture](inkpicture-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

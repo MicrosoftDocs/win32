@@ -1,8 +1,14 @@
 ---
 title: Avoiding Polymorphism
 description: The new data types include two polymorphic types, INT\_PTR and LONG\_PTR.
-ms.assetid: '3d18016d-772c-45bc-8057-7281e71a8707'
-keywords: ["polymorphism 64-bit Windows Programming"]
+ms.assetid: 3d18016d-772c-45bc-8057-7281e71a8707
+keywords:
+- polymorphism 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Avoiding Polymorphism

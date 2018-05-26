@@ -1,7 +1,12 @@
 ---
 title: Task Dialog Reference
 description: .
-ms.assetid: 'd805932f-9de8-40bd-9394-061dd1a5531c'
+ms.assetid: d805932f-9de8-40bd-9394-061dd1a5531c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Dialog Reference

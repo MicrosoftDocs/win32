@@ -1,8 +1,10 @@
 ---
 title: Win32\_ODBCSourceAttribute class
 description: The Win32\_ODBCSourceAttribute class represents the information regarding an ODBC source and the attributes that must be set for installation.
-ms.assetid: 'f6d5a4f5-7e3c-4f13-8688-125412c42af2'
-keywords: ["Win32_ODBCSourceAttribute class", "Win32_ODBCSourceAttribute class, described"]
+ms.assetid: f6d5a4f5-7e3c-4f13-8688-125412c42af2
+keywords:
+- Win32_ODBCSourceAttribute class
+- Win32_ODBCSourceAttribute class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ODBCSourceAttribute class
@@ -26,7 +33,7 @@ The **Win32\_ODBCSourceAttribute** class represents the information regarding an
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -151,8 +158,8 @@ The **Win32\_ODBCSourceAttribute** class is derived from [**CIM\_Setting**](http
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -166,9 +173,9 @@ The **Win32\_ODBCSourceAttribute** class is derived from [**CIM\_Setting**](http
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the conjugate of a quaternion.'
-ms.assetid: 'f690fdd8-7805-4fc1-9064-4f249d5f7c4f'
+---
+Description: Returns the conjugate of a quaternion.
+ms.assetid: f690fdd8-7805-4fc1-9064-4f249d5f7c4f
 title: D3DXQuaternionConjugate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionConjugate function

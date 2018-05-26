@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables the Source Reader to use Media Foundation transforms (MFTs) that are optimized for transcoding.'
-ms.assetid: '9463EB8C-2CA3-4F8F-8A2A-B1292879DD1B'
-title: 'MF\_SOURCE\_READER\_ENABLE\_TRANSCODE\_ONLY\_TRANSFORMS attribute'
+---
+Description: Enables the Source Reader to use Media Foundation transforms (MFTs) that are optimized for transcoding.
+ms.assetid: 9463EB8C-2CA3-4F8F-8A2A-B1292879DD1B
+title: MF\_SOURCE\_READER\_ENABLE\_TRANSCODE\_ONLY\_TRANSFORMS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SOURCE\_READER\_ENABLE\_TRANSCODE\_ONLY\_TRANSFORMS attribute
@@ -20,7 +25,7 @@ Some MFTs, particularly decoders, are optimized for transcoding rather than play
 
 An application might set this attribute if it does not process the data in real time (for transcoding or similar scenarios). Otherwise, for real-time playback, use the default behavior.
 
-Internally, this attribute causes the Source Reader to include the **MFT\_ENUM\_FLAG\_TRANSCODE\_ONLY** flag when it calls [**MFTEnumEx**](mftenumex.md).
+Internally, this attribute causes the Source Reader to include the **MFT\_ENUM\_FLAG\_TRANSCODE\_ONLY** flag when it calls [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master).
 
 ## Requirements
 

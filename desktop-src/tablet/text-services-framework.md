@@ -1,7 +1,12 @@
 ---
-Description: 'Overview of text services framework for the Tablet PC.'
-ms.assetid: 'f77fe77a-8625-47c5-bfc7-b473c8e8a8c6'
+Description: Overview of text services framework for the Tablet PC.
+ms.assetid: f77fe77a-8625-47c5-bfc7-b473c8e8a8c6
 title: Text Services Framework
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Services Framework

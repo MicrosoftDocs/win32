@@ -1,7 +1,12 @@
 ---
 title: How to Create a Single Line Edit Control
 description: This topic demonstrates how to create a dialog box that contains a single-line edit control.
-ms.assetid: '742DF606-9998-46D0-8D0A-F79508AAFFC0'
+ms.assetid: 742DF606-9998-46D0-8D0A-F79508AAFFC0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Single Line Edit Control

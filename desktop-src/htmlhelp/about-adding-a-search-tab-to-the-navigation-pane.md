@@ -1,7 +1,12 @@
 ---
 title: About Adding a Search Tab to the Navigation Pane
 description: About Adding a Search Tab to the Navigation Pane
-ms.assetid: '0F0C6E0E-B7F7-46d4-BE36-97214B584D39'
+ms.assetid: 0F0C6E0E-B7F7-46d4-BE36-97214B584D39
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Adding a Search Tab to the Navigation Pane

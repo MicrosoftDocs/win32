@@ -2,13 +2,19 @@
 title: midl\_user\_free attribute
 description: The midl\_user\_free function is provided by client and server applications to deallocate dynamically allocated memory.
 ms.assetid: b5d8f133-ddd9-4b92-8540-611a03835be0
-keywords: ["midl_user_free attribute MIDL"]
+keywords:
+- midl_user_free attribute MIDL
 topic_type:
 - apiref
 api_name:
 - midl_user_free
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # midl\_user\_free attribute

@@ -1,8 +1,9 @@
 ---
 title: GetVPNConnected function
 description: Launches the Get Connected wizard within the calling application to enable virtual private network (VPN) connectivity.
-ms.assetid: 'fbdacda7-979d-4cbc-b33a-6adee742c3b8'
-keywords: ["GetVPNConnected function Get Connected Wizard API"]
+ms.assetid: fbdacda7-979d-4cbc-b33a-6adee742c3b8
+keywords:
+- GetVPNConnected function Get Connected Wizard API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - connect.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetVPNConnected function
@@ -22,12 +28,12 @@ The **GetVPNConnected** function launches the Get Connected wizard within the ca
 
 ```C++
 HRESULT WINAPI GetVPNConnected(
-  _In_     const HWND   hwndParent,
-  _In_     const DWORD  dwWizardType,
-  _In_     const DWORD  dwContextFlags,
-  _In_     const DWORD  dwUserFlags,
-  _In_     const HANDLE hUserContext,
-  _In_opt_       LPWSTR pszCommandLine
+  _In_     const HWND   hwndParent,
+  _In_     const DWORD  dwWizardType,
+  _In_     const DWORD  dwContextFlags,
+  _In_     const DWORD  dwUserFlags,
+  _In_     const HANDLE hUserContext,
+  _In_opt_       LPWSTR pszCommandLine
 );
 ```
 
@@ -61,7 +67,7 @@ This parameter is optional and can be set to 0.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -81,7 +87,7 @@ This parameter is optional and can be set to 0.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -122,7 +128,7 @@ The following command-line options are supported:
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -150,15 +156,15 @@ An import library containing the **GetVPNConnected** function is not included in
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Connect.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

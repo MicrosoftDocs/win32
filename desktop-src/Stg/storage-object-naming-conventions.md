@@ -1,8 +1,14 @@
 ---
 title: Storage Object Naming Conventions
 description: Storage and stream objects are named according to a set of conventions.
-ms.assetid: '72e87c6a-cce5-4456-8336-c657e65c0a34'
-keywords: ["Structured Storage Strctd Stg ,fundamentals,storage object naming conventions"]
+ms.assetid: 72e87c6a-cce5-4456-8336-c657e65c0a34
+keywords:
+- Structured Storage Strctd Stg ,fundamentals,storage object naming conventions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage Object Naming Conventions

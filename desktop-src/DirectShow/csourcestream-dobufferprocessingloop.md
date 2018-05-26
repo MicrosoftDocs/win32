@@ -1,7 +1,12 @@
 ---
-Description: 'The DoBufferProcessingLoop method generates media data and delivers it to the downstream input pin.'
-ms.assetid: 'a8dce761-eed6-402d-9115-e21822d7a853'
-title: 'CSourceStream.DoBufferProcessingLoop method'
+Description: The DoBufferProcessingLoop method generates media data and delivers it to the downstream input pin.
+ms.assetid: a8dce761-eed6-402d-9115-e21822d7a853
+title: CSourceStream.DoBufferProcessingLoop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.DoBufferProcessingLoop method
@@ -34,7 +39,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -42,7 +47,7 @@ This method implements the main loop that processes data and delivers it downstr
 
 The loop ends when any of the following occurs:
 
--   The input pin's [**IMemInputPin::Receive**](imeminputpin-receive.md) method rejects a sample.
+-   The input pin's [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method rejects a sample.
 -   The **FillBuffer** method returns S\_FALSE, indicating the end of the stream, or returns an error code.
 -   The thread receives a [**CSourceStream::Stop**](csourcestream-stop.md) request.
 
@@ -66,9 +71,9 @@ The `DoBufferProcessingLoop` method handles the end-of-stream notification. If a
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

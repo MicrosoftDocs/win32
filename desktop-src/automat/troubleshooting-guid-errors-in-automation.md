@@ -1,7 +1,12 @@
 ---
 title: Troubleshooting GUID Errors in Automation
 description: Describes how to troubleshooting GUID errors in Automation.
-ms.assetid: '5b533c95-517e-4a88-8c2b-f2e26f5f256b'
+ms.assetid: 5b533c95-517e-4a88-8c2b-f2e26f5f256b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting GUID Errors in Automation
@@ -55,7 +60,7 @@ Normally, when an application is started, a class factory is registered using **
 
 ## Solution
 
-When [**GetTypeInfoOfGuid**](itypelib-gettypeinfoofguid.md) is called, a GUID is provided. If this GUID does not match the GUID in the .tlb file, no type information will be returned. The GUID in the code may be declared in a header file. The GUID in the .tlb file can be checked by using Browse.exe, which is provided with OLE, or with the Visual Basic Object Browser.
+When [**GetTypeInfoOfGuid**](/windows/previous-versions/oaidl/nf-oaidl-itypelib-gettypeinfoofguid?branch=master) is called, a GUID is provided. If this GUID does not match the GUID in the .tlb file, no type information will be returned. The GUID in the code may be declared in a header file. The GUID in the .tlb file can be checked by using Browse.exe, which is provided with OLE, or with the Visual Basic Object Browser.
 
  
 

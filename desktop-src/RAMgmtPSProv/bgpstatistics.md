@@ -2,13 +2,15 @@
 title: BgpStatistics class
 description: Retrieves BGP peering message and route advertisement statistics.
 audience: developer
-ms.assetid: '6ca92044-067b-400a-9d78-8628448a6dd9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6ca92044-067b-400a-9d78-8628448a6dd9
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["BgpStatistics class", "BgpStatistics class, described"]
+keywords:
+- BgpStatistics class
+- BgpStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BgpStatistics class
@@ -42,17 +47,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class BgpStatistics
 {
-  string               RoutingDomain;
-  string               PeerName;
-  datetime             TcpConnectionEstablished;
-  datetime             TcpConnectionClosed;
+  string               RoutingDomain;
+  string               PeerName;
+  datetime             TcpConnectionEstablished;
+  datetime             TcpConnectionClosed;
   BgpMessageStatistics OpenMessage;
   BgpMessageStatistics UpdateMessage;
   BgpMessageStatistics NotificationMessage;
   BgpMessageStatistics KeepAliveMessage;
   BgpMessageStatistics RouteRefreshMessage;
-  BgpRouteCounter      IPv4Route;
-  BgpRouteCounter      IPv6Route;
+  BgpRouteCounter      IPv4Route;
+  BgpRouteCounter      IPv6Route;
 };
 ```
 
@@ -191,7 +196,7 @@ The user defined alphanumeric ID of the BGP routing domain.
 > [!Note]  
 > This property is only used with multi-tenant deployments.
 
- 
+ 
 
 </dd> <dt>
 
@@ -244,7 +249,7 @@ A [**BgpMessageStatistics**](bgpmessagestatistics.md) embedded instance for the 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -258,9 +263,9 @@ A [**BgpMessageStatistics**](bgpmessagestatistics.md) embedded instance for the 
 [RAMgmtPSProvider Provider Classes](remote-access-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'Attempts to place the referenced service in the resumed state.'
+Description: Attempts to place the referenced service in the resumed state.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3b4228bf-9ff5-44ab-bfe2-f7dd8fb62007'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3b4228bf-9ff5-44ab-bfe2-f7dd8fb62007
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ResumeService method of the Win32\_Service class'
+title: ResumeService method of the Win32\_Service class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ResumeService method of the Win32\_Service class
@@ -230,7 +233,7 @@ The following VBScript code sample describes how to resume a paused service from
 > [!Note]  
 > The service must support pausing and be running already.
 
- 
+ 
 
 
 ```VB
@@ -261,7 +264,7 @@ The following Perl code sample describes how to resume a paused service from ins
 > [!Note]  
 > The service must support pausing and be running already.
 
- 
+ 
 
 
 ```Perl
@@ -317,8 +320,8 @@ else
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -338,9 +341,9 @@ else
 [WMI Tasks: Services](https://msdn.microsoft.com/library/aa394602)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

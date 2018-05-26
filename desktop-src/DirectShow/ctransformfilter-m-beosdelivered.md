@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that indicates whether the filter has sent an end-of-stream notification.'
-ms.assetid: '93f897de-04bb-4de4-a612-39b27c7d6f6c'
-title: 'CTransformFilter::m\_bEOSDelivered member'
+Description: Flag that indicates whether the filter has sent an end-of-stream notification.
+ms.assetid: 93f897de-04bb-4de4-a612-39b27c7d6f6c
+title: CTransformFilterm\_bEOSDelivered member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter::m\_bEOSDelivered member
@@ -39,9 +44,9 @@ If the filter pauses when it does not have an input connection, it sends an end-
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

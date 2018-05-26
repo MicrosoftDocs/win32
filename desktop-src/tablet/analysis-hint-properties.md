@@ -1,7 +1,12 @@
 ---
-Description: 'Defines globally unique identifiers (GUIDs) for properties of an analysis hint node (see IContextNode::GetType).'
-ms.assetid: '8300c792-a741-49de-a03b-f4840ea5d647'
+Description: Defines globally unique identifiers (GUIDs) for properties of an analysis hint node (see IContextNodeGetType).
+ms.assetid: 8300c792-a741-49de-a03b-f4840ea5d647
 title: Analysis Hint Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Analysis Hint Properties
@@ -40,7 +45,7 @@ To get or set properties of an [**IContextNode**](icontextnode.md) in general, s
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | None supported<br/>                                                           |
 | Header<br/>                   | <dl> <dt>Iaguid.h</dt> </dl> |
 
@@ -83,9 +88,9 @@ To get or set properties of an [**IContextNode**](icontextnode.md) in general, s
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

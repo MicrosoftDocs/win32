@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UILevel property of the Installer object is a read-write property that indicates the type of user interface to be used when opening and processing subsequent packages within the current process space.'
-ms.assetid: 'c89545b5-aeb7-4b05-94b0-d6e2a237152e'
-title: 'Installer.UILevel property'
+---
+Description: The UILevel property of the Installer object is a read-write property that indicates the type of user interface to be used when opening and processing subsequent packages within the current process space.
+ms.assetid: c89545b5-aeb7-4b05-94b0-d6e2a237152e
+title: Installer.UILevel property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.UILevel property

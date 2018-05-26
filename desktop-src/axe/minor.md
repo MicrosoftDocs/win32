@@ -1,14 +1,20 @@
 ---
 title: Minor element
 description: Minor version part of standard version number.
-ms.assetid: 'E0182018-282E-443D-96D1-E293BA310ED2'
-keywords: ["Minor element Access Execution Engine"]
+ms.assetid: E0182018-282E-443D-96D1-E293BA310ED2
+keywords:
+- Minor element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Minor
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Minor element
@@ -68,9 +74,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

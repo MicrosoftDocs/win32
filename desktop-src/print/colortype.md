@@ -1,7 +1,12 @@
-﻿---
-Description: 'The values of the COLORTYPE enumeration are used by WCS functions to indicate the format of vector content. Most values have equivalent structures that are contained in the ICM COLOR structure (described in the Microsoft Windows SDK documentation).'
-ms.assetid: 'aa7d8d32-7bbe-4091-82a2-32ade463dd9e'
+---
+Description: The values of the COLORTYPE enumeration are used by WCS functions to indicate the format of vector content. Most values have equivalent structures that are contained in the ICM COLOR structure (described in the Microsoft Windows SDK documentation).
+ms.assetid: aa7d8d32-7bbe-4091-82a2-32ade463dd9e
 title: COLORTYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLORTYPE enumeration

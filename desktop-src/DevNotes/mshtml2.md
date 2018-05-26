@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains the reference for MSHTML.'
-ms.assetid: 'DB4D58C3-C66A-4C0A-8A22-FC35F3FE3AFF'
+Description: This section contains the reference for MSHTML.
+ms.assetid: DB4D58C3-C66A-4C0A-8A22-FC35F3FE3AFF
 title: MSHTML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSHTML

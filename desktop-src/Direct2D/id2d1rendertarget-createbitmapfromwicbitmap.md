@@ -1,19 +1,25 @@
 ---
 title: ID2D1RenderTarget CreateBitmapFromWicBitmap methods
 description: Creates an ID2D1Bitmap by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.
-ms.assetid: '463fc2f9-8ec6-47e8-8d48-a9015616e656'
-keywords: ["CreateBitmapFromWicBitmap methods Direct2D"]
+ms.assetid: 463fc2f9-8ec6-47e8-8d48-a9015616e656
+keywords:
+- CreateBitmapFromWicBitmap methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1RenderTarget::CreateBitmapFromWicBitmap methods
 
-Creates an [**ID2D1Bitmap**](id2d1bitmap.md) by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.
+Creates an [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master) by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.
 
 ### Overload list
 
@@ -21,9 +27,9 @@ Creates an [**ID2D1Bitmap**](id2d1bitmap.md) by copying the specified Microsoft 
 
 | Method                                                                                                                                                                                                              | Description                                                                                                                         |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateBitmapFromWicBitmap(IWICBitmapSource\*,ID2D1Bitmap\*\*)**](id2d1rendertarget-createbitmapfromwicbitmap-ptr-iwicbitmapsource-ptr-ptr-id2d1bitmap.md)                                                       | Creates an [**ID2D1Bitmap**](id2d1bitmap.md) by copying the specified Microsoft Windows Imaging Component(WIC) bitmap.<br/>  |
-| [**CreateBitmapFromWicBitmap(IWICBitmapSource\*,D2D1\_BITMAP\_PROPERTIES&,ID2D1Bitmap\*\*)**](id2d1rendertarget-createbitmapfromwicbitmap-ptr-iwicbitmapsource-ref-d2d1-bitmap-properties-ptr-ptr-id2d1bitmap.md)  | Creates an [**ID2D1Bitmap**](id2d1bitmap.md) by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
-| [**CreateBitmapFromWicBitmap(IWICBitmapSource\*,D2D1\_BITMAP\_PROPERTIES\*,ID2D1Bitmap\*\*)**](id2d1rendertarget-createbitmapfromwicbitmap-ptr-iwicbitmapsource-ptr-d2d1-bitmap-properties-ptr-ptr-id2d1bitmap.md) | Creates an [**ID2D1Bitmap**](id2d1bitmap.md) by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
+| [**CreateBitmapFromWicBitmap(IWICBitmapSource\*,ID2D1Bitmap\*\*)**](/windows/win32/d2d1/?branch=master)                                                       | Creates an [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master) by copying the specified Microsoft Windows Imaging Component(WIC) bitmap.<br/>  |
+| [**CreateBitmapFromWicBitmap(IWICBitmapSource\*,D2D1\_BITMAP\_PROPERTIES&,ID2D1Bitmap\*\*)**](/windows/win32/d2d1/?branch=master)  | Creates an [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master) by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
+| [**CreateBitmapFromWicBitmap(IWICBitmapSource\*,D2D1\_BITMAP\_PROPERTIES\*,ID2D1Bitmap\*\*)**](/windows/win32/d2d1/?branch=master) | Creates an [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master) by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
 
 
 
@@ -50,10 +56,10 @@ For examples, see [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitm
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](id2d1rendertarget.md)
+[**ID2D1RenderTarget**](/windows/win32/d2d1/?branch=master)
 </dt> <dt>
 
-[**ID2D1Bitmap**](id2d1bitmap.md)
+[**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master)
 </dt> <dt>
 
 [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap-from-a-file.md)
@@ -62,9 +68,9 @@ For examples, see [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitm
 [Supported Pixel Formats and Alpha Modes](supported-pixel-formats-and-alpha-modes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides information about creating the default indexer object provided by Media Foundation.'
-ms.assetid: '3a2caf11-808b-4910-b83c-a272a026f0d3'
+Description: This topic provides information about creating the default indexer object provided by Media Foundation.
+ms.assetid: 3a2caf11-808b-4910-b83c-a272a026f0d3
 title: Indexer Creation and Configuration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexer Creation and Configuration
@@ -12,8 +17,8 @@ For information about the structure of an ASF file, see [ASF File Structure](asf
 
 **To create and initialize the ASF indexer**
 
-1.  Call the [**MFCreateASFIndexer**](mfcreateasfindexer.md) function to receive an [**IMFASFIndexer**](imfasfindexer.md) pointer to the indexer object.
-2.  Call [**IMFASFIndexer::SetFlags**](imfasfindexer-setflags.md) to specify the read or write mode for indexer object. By default, the indexer is configured for forward seeking.
+1.  Call the [**MFCreateASFIndexer**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfindexer?branch=master) function to receive an [**IMFASFIndexer**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfindexer?branch=master) pointer to the indexer object.
+2.  Call [**IMFASFIndexer::SetFlags**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-setflags?branch=master) to specify the read or write mode for indexer object. By default, the indexer is configured for forward seeking.
 
     
 
@@ -32,7 +37,7 @@ For information about the structure of an ASF file, see [ASF File Structure](asf
 
      
 
-3.  Call [**IMFASFIndexer::Initialize**](imfasfindexer-initialize.md) to initialize the indexer by specifying the [**IMFASFContentInfo**](imfasfcontentinfo.md) pointer of the ContentInfo object that describes the file to be written or read. The ContentInfo object contains information that constitutes the [ASF Header Object](asf-file-structure.md#header-object). The indexer object requires a valid ContentInfo object before generating or reading index entries of an ASF file.
+3.  Call [**IMFASFIndexer::Initialize**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-initialize?branch=master) to initialize the indexer by specifying the [**IMFASFContentInfo**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfcontentinfo?branch=master) pointer of the ContentInfo object that describes the file to be written or read. The ContentInfo object contains information that constitutes the [ASF Header Object](asf-file-structure.md#header-object). The indexer object requires a valid ContentInfo object before generating or reading index entries of an ASF file.
 
 The following code example shows how an application can create and initialize the indexer object to work with specific ASF content. The ContentInfo object represents the ASF Header Object; the content is passed as a byte stream.
 

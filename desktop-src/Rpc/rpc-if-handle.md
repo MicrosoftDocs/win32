@@ -1,8 +1,14 @@
 ---
 title: RPC\_IF\_HANDLE
 description: The RPC\_IF\_HANDLE data type declares an interface handle.
-ms.assetid: 'a85f3a44-7cdf-421f-a1e4-c67a9dd0c54d'
-keywords: ["RPC_IF_HANDLE"]
+ms.assetid: a85f3a44-7cdf-421f-a1e4-c67a9dd0c54d
+keywords:
+- RPC_IF_HANDLE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC\_IF\_HANDLE
@@ -36,7 +42,7 @@ hello\_ServerIfHandle
 > [!Note]  
 > The maximum length of the interface handle name is 31 characters.
 
- 
+ 
 
 Because the "\_ClientIfHandle" and "\_ServerIfHandle" parts of the names require 15 characters, the *if-name* element can be no more than 16 characters long.
 
@@ -46,15 +52,15 @@ Because the "\_ClientIfHandle" and "\_ServerIfHandle" parts of the names require
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>Rpcdce.h (include Rpc.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

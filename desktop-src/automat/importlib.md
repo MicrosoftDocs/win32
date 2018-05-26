@@ -1,7 +1,12 @@
 ---
 title: importlib
 description: This directive makes types that have already been compiled into another type library available to the library currently being created. All importlib directives must precede the other type descriptions in the library.
-ms.assetid: '6bba3d5d-5526-4b53-be6f-258918b30e9c'
+ms.assetid: 6bba3d5d-5526-4b53-be6f-258918b30e9c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # importlib

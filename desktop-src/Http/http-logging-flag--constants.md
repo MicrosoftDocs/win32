@@ -1,7 +1,7 @@
 ---
 title: HTTP\_LOGGING\_FLAG\_ Constants
 description: Define the options to configure logging on the HTTP Server API.
-ms.assetid: 'b6afef7a-5426-4ccd-9785-169e83812c07'
+ms.assetid: b6afef7a-5426-4ccd-9785-169e83812c07
 topic_type:
 - apiref
 api_name:
@@ -13,13 +13,18 @@ api_location:
 - http.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP\_LOGGING\_FLAG\_ Constants
 
 The **HTTP\_LOGGING\_FLAG\_** constants define the options to configure logging on the HTTP Server API.
 
-These constants are used in the [**HTTP\_LOGGING\_INFO**](http-logging-info.md) structure.
+These constants are used in the [**HTTP\_LOGGING\_INFO**](/windows/win32/Http/ns-http-_http_logging_info?branch=master) structure.
 
 <dl> <dt>
 
@@ -73,8 +78,8 @@ This flag cannot be set if the **HTTP\_LOGGING\_FLAG\_LOG\_ERRORS\_ONLY** flag i
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Http.h</dt> </dl> |
 
 
@@ -86,24 +91,24 @@ This flag cannot be set if the **HTTP\_LOGGING\_FLAG\_LOG\_ERRORS\_ONLY** flag i
 [HTTP Server API Version 2.0 Constants](http-server-api-version-2-0-constants.md)
 </dt> <dt>
 
-[**HTTP\_LOGGING\_INFO**](http-logging-info.md)
+[**HTTP\_LOGGING\_INFO**](/windows/win32/Http/ns-http-_http_logging_info?branch=master)
 </dt> <dt>
 
-[**HttpSetUrlGroupProperty**](httpseturlgroupproperty.md)
+[**HttpSetUrlGroupProperty**](/windows/win32/Http/nf-http-httpseturlgroupproperty?branch=master)
 </dt> <dt>
 
-[**HttpSetServerSessionProperty**](httpsetserversessionproperty.md)
+[**HttpSetServerSessionProperty**](/windows/win32/Http/nf-http-httpsetserversessionproperty?branch=master)
 </dt> <dt>
 
-[**HttpQueryUrlGroupProperty**](httpqueryurlgroupproperty.md)
+[**HttpQueryUrlGroupProperty**](/windows/win32/Http/nf-http-httpqueryurlgroupproperty?branch=master)
 </dt> <dt>
 
-[**HttpQueryServerSessionProperty**](httpqueryserversessionproperty.md)
+[**HttpQueryServerSessionProperty**](/windows/win32/Http/nf-http-httpqueryserversessionproperty?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

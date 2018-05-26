@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_ANSI\_381\_PIXELS Constants
 description: Specify scale units.
-ms.assetid: 'D349081E-FF29-40D1-BC42-870F595AC338'
+ms.assetid: D349081E-FF29-40D1-BC42-870F595AC338
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_ANSI\_381\_PIXELS Constants
@@ -27,8 +32,8 @@ The following constants can be used to specify scale units:
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -40,9 +45,9 @@ The following constants can be used to specify scale units:
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

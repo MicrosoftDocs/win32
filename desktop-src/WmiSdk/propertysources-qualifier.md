@@ -1,13 +1,16 @@
 ---
-Description: 'Every property in a view class must have a string array qualifier called PropertySources.'
+Description: Every property in a view class must have a string array qualifier called PropertySources.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'df89680b-8ea7-4f38-81ba-c4132b944f37'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: df89680b-8ea7-4f38-81ba-c4132b944f37
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: PropertySources Qualifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PropertySources Qualifier
@@ -48,8 +51,8 @@ If the two source classes are being joined by a common property, you can only de
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -60,9 +63,9 @@ If the two source classes are being joined by a common property, you can only de
 [**Qualifiers Specific to the View Provider**](qualifiers-specific-to-the-view-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the resolution units. Used for images with a non-square aspect ratio, but without meaningful absolute dimensions. 1 = No absolute unit of measurement. 2 = Inches. 3 = Centimeters. The default value is 2 (Inches).'
-ms.assetid: 'ff10ed8a-d73b-4d9b-b224-9ecfcc37d5af'
-title: 'System.Image.ResolutionUnit'
+Description: Indicates the resolution units. Used for images with a non-square aspect ratio, but without meaningful absolute dimensions. 1 = No absolute unit of measurement. 2 = Inches. 3 = Centimeters. The default value is 2 (Inches).
+ms.assetid: ff10ed8a-d73b-4d9b-b224-9ecfcc37d5af
+title: System.Image.ResolutionUnit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.ResolutionUnit

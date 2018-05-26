@@ -1,16 +1,21 @@
-﻿---
-Description: 'Raised by a media source when the IMFMediaSource::Pause method completes asynchronously.'
-ms.assetid: 'cca03d60-47ae-4a11-b29d-81d749e24df9'
+---
+Description: Raised by a media source when the IMFMediaSourcePause method completes asynchronously.
+ms.assetid: cca03d60-47ae-4a11-b29d-81d749e24df9
 title: MESourcePaused event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESourcePaused event
 
-Raised by a media source when the [**IMFMediaSource::Pause**](imfmediasource-pause.md) method completes asynchronously.
+Raised by a media source when the [**IMFMediaSource::Pause**](/windows/win32/mfidl/nf-mfidl-imfmediasource-pause?branch=master) method completes asynchronously.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

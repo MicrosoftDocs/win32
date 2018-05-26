@@ -1,7 +1,12 @@
 ---
-Description: 'A subset of the Native Wifi API functionality is supported on Windows XP with Service Pack 2 (SP2) and Windows XP with Service Pack 3 (SP3).'
-ms.assetid: 'd32c4a03-59e8-4fdd-9d5a-e7ef0eb25e84'
+Description: A subset of the Native Wifi API functionality is supported on Windows XP with Service Pack 2 (SP2) and Windows XP with Service Pack 3 (SP3).
+ms.assetid: d32c4a03-59e8-4fdd-9d5a-e7ef0eb25e84
 title: Native Wifi API Support on Windows XP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Native Wifi API Support on Windows XP
@@ -22,27 +27,27 @@ Because of underlying architectural differences in Windows XP, the Native Wifi 
 
 The following functions are supported by Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:
 
--   [**WLAN\_NOTIFICATION\_CALLBACK**](notif-callback.md)
--   [**WlanAllocateMemory**](wlanallocatememory.md)
--   [**WlanCloseHandle**](wlanclosehandle.md)
--   [**WlanConnect**](wlanconnect.md)
--   [**WlanDeleteProfile**](wlandeleteprofile.md)
--   [**WlanDisconnect**](wlandisconnect.md)
--   [**WlanEnumInterfaces**](wlanenuminterfaces.md)
--   [**WlanFreeMemory**](wlanfreememory.md)
--   [**WlanGetAvailableNetworkList**](wlangetavailablenetworklist.md)
--   [**WlanGetProfile**](wlangetprofile.md)
--   [**WlanGetProfileList**](wlangetprofilelist.md)
--   [**WlanOpenHandle**](wlanopenhandle.md)
--   [**WlanQueryInterface**](wlanqueryinterface.md)
--   [**WlanReasonCodeToString**](wlanreasoncodetostring.md)
--   [**WlanRegisterNotification**](wlanregisternotification.md)
--   [**WlanScan**](wlanscan.md)
--   [**WlanSetInterface**](wlansetinterface.md)
--   [**WlanSetProfile**](wlansetprofile.md)
--   [**WlanSetProfileEapXmlUserData**](wlansetprofileeapxmluserdata.md)
--   [**WlanSetProfileList**](wlansetprofilelist.md)
--   [**WlanSetProfilePosition**](wlansetprofileposition.md)
+-   [**WLAN\_NOTIFICATION\_CALLBACK**](/windows/win32/wlanapi/nc-wlanapi-wlan_notification_callback?branch=master)
+-   [**WlanAllocateMemory**](/windows/win32/wlanapi/nf-wlanapi-wlanallocatememory?branch=master)
+-   [**WlanCloseHandle**](/windows/win32/wlanapi/nf-wlanapi-wlanclosehandle?branch=master)
+-   [**WlanConnect**](/windows/win32/wlanapi/nf-wlanapi-wlanconnect?branch=master)
+-   [**WlanDeleteProfile**](/windows/win32/wlanapi/nf-wlanapi-wlandeleteprofile?branch=master)
+-   [**WlanDisconnect**](/windows/win32/wlanapi/nf-wlanapi-wlandisconnect?branch=master)
+-   [**WlanEnumInterfaces**](/windows/win32/wlanapi/nf-wlanapi-wlanenuminterfaces?branch=master)
+-   [**WlanFreeMemory**](/windows/win32/wlanapi/nf-wlanapi-wlanfreememory?branch=master)
+-   [**WlanGetAvailableNetworkList**](/windows/win32/wlanapi/nf-wlanapi-wlangetavailablenetworklist?branch=master)
+-   [**WlanGetProfile**](/windows/win32/wlanapi/nf-wlanapi-wlangetprofile?branch=master)
+-   [**WlanGetProfileList**](/windows/win32/wlanapi/nf-wlanapi-wlangetprofilelist?branch=master)
+-   [**WlanOpenHandle**](/windows/win32/wlanapi/nf-wlanapi-wlanopenhandle?branch=master)
+-   [**WlanQueryInterface**](/windows/win32/Wlanapi/nf-wlanapi-wlanqueryinterface?branch=master)
+-   [**WlanReasonCodeToString**](/windows/win32/wlanapi/nf-wlanapi-wlanreasoncodetostring?branch=master)
+-   [**WlanRegisterNotification**](/windows/win32/wlanapi/nf-wlanapi-wlanregisternotification?branch=master)
+-   [**WlanScan**](/windows/win32/wlanapi/nf-wlanapi-wlanscan?branch=master)
+-   [**WlanSetInterface**](/windows/win32/Wlanapi/nf-wlanapi-wlansetinterface?branch=master)
+-   [**WlanSetProfile**](/windows/win32/wlanapi/nf-wlanapi-wlansetprofile?branch=master)
+-   [**WlanSetProfileEapXmlUserData**](/windows/win32/wlanapi/nf-wlanapi-wlansetprofileeapxmluserdata?branch=master)
+-   [**WlanSetProfileList**](/windows/win32/wlanapi/nf-wlanapi-wlansetprofilelist?branch=master)
+-   [**WlanSetProfilePosition**](/windows/win32/wlanapi/nf-wlanapi-wlansetprofileposition?branch=master)
 
 ## Related topics
 

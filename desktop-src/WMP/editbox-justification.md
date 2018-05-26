@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.justification
 description: The justification attribute specifies or retrieves the alignment of the text within the editbox control.
-ms.assetid: 'e1b62381-3975-45d9-8c9c-1e30770cebdb'
-keywords: ["EDITBOX.justification Windows Media Player"]
+ms.assetid: e1b62381-3975-45d9-8c9c-1e30770cebdb
+keywords:
+- EDITBOX.justification Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.justification
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.justification
@@ -33,7 +39,7 @@ This attribute is a read/write **String** containing one of the following values
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,9 +62,9 @@ There is a margin of two pixels.
 [**EDITBOX Element**](editbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

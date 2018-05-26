@@ -1,7 +1,12 @@
 ---
-Description: 'A bitmap is one of the GDI objects that can be selected into a device context (DC).'
-ms.assetid: '36afaabc-1334-42d1-8004-7952ce3c119e'
+Description: A bitmap is one of the GDI objects that can be selected into a device context (DC).
+ms.assetid: 36afaabc-1334-42d1-8004-7952ce3c119e
 title: About Bitmaps
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Bitmaps

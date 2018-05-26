@@ -1,8 +1,9 @@
 ---
 title: MediaError Event of the AxWindowsMediaPlayer Object
 description: The MediaError event occurs when a media object has an error condition.
-ms.assetid: 'a1fb3422-85c4-4856-951a-332517599984'
-keywords: ["MediaError Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: a1fb3422-85c4-4856-951a-332517599984
+keywords:
+- MediaError Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaError Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Med
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,9 +73,9 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Med
 [**IWMPMedia Interface (VB and C#)**](iwmpmedia--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Feature Table defines the logical tree structure of features and contains the columns shown in the following table.'
-ms.assetid: '1faee1d5-6e39-43ea-bf92-a0b3986a13a1'
+---
+Description: The Feature Table defines the logical tree structure of features and contains the columns shown in the following table.
+ms.assetid: 1faee1d5-6e39-43ea-bf92-a0b3986a13a1
 title: Feature Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Feature Table

@@ -2,13 +2,16 @@
 title: Get method of the PS\_DnsServerRecursionScope class
 description: Retrieves a recursion scope from a DNS server.
 audience: developer
-ms.assetid: '4db57e06-00bf-4a8b-acbb-cd5e0fdc8aa6'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4db57e06-00bf-4a8b-acbb-cd5e0fdc8aa6
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DnsServerRecursionScope class", "PS_DnsServerRecursionScope class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DnsServerRecursionScope class
+- PS_DnsServerRecursionScope class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DNSServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DnsServerRecursionScope class
@@ -28,9 +34,9 @@ Retrieves a recursion scope from a DNS server.
 
 ```mof
 uint32 Get(
-  [in]  string                  Name,
-  [in]  string                  ComputerName,
-  [out] DnsServerRecursionScope cmdletOutput[]
+  [in]  string                  Name,
+  [in]  string                  ComputerName,
+  [out] DnsServerRecursionScope cmdletOutput[]
 );
 ```
 
@@ -68,7 +74,7 @@ When this method returns, this parameter contains an array that contains the ret
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DNSServerPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ When this method returns, this parameter contains an array that contains the ret
 [**PS\_DnsServerRecursionScope**](ps-dnsserverrecursionscope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

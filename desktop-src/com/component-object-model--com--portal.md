@@ -1,7 +1,12 @@
 ---
 title: Component Object Model (COM)
-description: The Component Object Model is a platform-independent, distributed, object-oriented system for creating binary software components that can interact. COM is the foundation technology for Microsoft's OLE (compound documents) and ActiveX technologies.
-ms.assetid: '3578ca42-a4b6-44b3-ad5b-aeb5fa61f3f4'
+description: The Component Object Model is a platform-independent, distributed, object-oriented system for creating binary software components that can interact. COM is the foundation technology for Microsofts OLE (compound documents) and ActiveX technologies.
+ms.assetid: 3578ca42-a4b6-44b3-ad5b-aeb5fa61f3f4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Component Object Model (COM)
@@ -31,7 +36,7 @@ For information on which operating systems are required to use a particular inte
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -40,9 +45,9 @@ For information on which operating systems are required to use a particular inte
 [COM+](_cos_COM_Start_Page)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

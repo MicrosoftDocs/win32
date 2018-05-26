@@ -1,7 +1,12 @@
 ---
 title: Virtual Directory Cleanup
 description: BITS extends IIS virtual directories to support uploads.
-ms.assetid: '8214904e-8a95-4c4b-a1c5-91e84031587f'
+ms.assetid: 8214904e-8a95-4c4b-a1c5-91e84031587f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual Directory Cleanup
@@ -10,7 +15,7 @@ BITS extends IIS virtual directories to support uploads. Each virtual directory 
 
 BITS adds a work item to the [Task Scheduler](https://msdn.microsoft.com/library/windows/desktop/aa383614) for each virtual directory you create and enable. The work item deletes resources associated with the closed sessions. By default, the cleanup occurs every 12 hours. If two virtual directories point to the same physical directory, the cleanup process initiated by one of the directories deletes the resources associated with all closed sessions in the physical directory.
 
-Use the BITS Extension tab or the [Task Scheduler](https://msdn.microsoft.com/library/windows/desktop/aa383614) interfaces to change the cleanup schedule as appropriate for your application. You can also call the [**IBITSExtensionSetup::GetCleanupTask**](ibitsextensionsetup-getcleanuptask.md) method to retrieve an interface pointer to the cleanup task associated with the virtual directory.
+Use the BITS Extension tab or the [Task Scheduler](https://msdn.microsoft.com/library/windows/desktop/aa383614) interfaces to change the cleanup schedule as appropriate for your application. You can also call the [**IBITSExtensionSetup::GetCleanupTask**](/windows/win32/Bitscfg/nf-bitscfg-ibitsextensionsetup-getcleanuptask?branch=master) method to retrieve an interface pointer to the cleanup task associated with the virtual directory.
 
 > [!Note]  
 > If the Task Scheduler is disabled after the virtual directory is enabled, the virtual directory cleanup process will not work.

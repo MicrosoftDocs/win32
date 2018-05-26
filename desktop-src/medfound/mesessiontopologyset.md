@@ -1,29 +1,34 @@
-﻿---
-Description: 'Raised after the IMFMediaSession::SetTopology method completes asynchronously. The Media Session raises this event after it resolves the topology into a full topology and queues the topology for playback.'
-ms.assetid: '22a298b7-d32b-44ed-b0a1-4e0398ecfe04'
+---
+Description: Raised after the IMFMediaSessionSetTopology method completes asynchronously. The Media Session raises this event after it resolves the topology into a full topology and queues the topology for playback.
+ms.assetid: 22a298b7-d32b-44ed-b0a1-4e0398ecfe04
 title: MESessionTopologySet event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESessionTopologySet event
 
-Raised after the [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) method completes asynchronously. The Media Session raises this event after it resolves the topology into a full topology and queues the topology for playback.
+Raised after the [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) method completes asynchronously. The Media Session raises this event after it resolves the topology into a full topology and queues the topology for playback.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
 | VARTYPE                | Description                                                                                              |
 |------------------------|----------------------------------------------------------------------------------------------------------|
 | VT\_EMPTY<br/>   | No event data.<br/> <br/>                                                                    |
-| VT\_UNKNOWN<br/> | Pointer to the [**IMFTopology**](imftopology.md) interface of the full topology.<br/> <br/> |
+| VT\_UNKNOWN<br/> | Pointer to the [**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master) interface of the full topology.<br/> <br/> |
 
 
 
 ## Examples
 
-The following example retrieves the [**IMFTopology**](imftopology.md) pointer from an MESessionTopologySet event.
+The following example retrieves the [**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master) pointer from an MESessionTopologySet event.
 
 
 ```

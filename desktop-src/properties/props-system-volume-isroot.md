@@ -1,7 +1,12 @@
 ---
-Description: 'A Boolean value stating whether a volume is a root volume.'
-ms.assetid: '995b0f92-686b-40fb-aed0-5fd500c226f0'
-title: 'System.Volume.IsRoot'
+Description: A Boolean value stating whether a volume is a root volume.
+ms.assetid: 995b0f92-686b-40fb-aed0-5fd500c226f0
+title: System.Volume.IsRoot
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Volume.IsRoot

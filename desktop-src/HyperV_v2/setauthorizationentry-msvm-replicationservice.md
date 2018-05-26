@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the replication authorization entry for a virtual machine.'
-ms.assetid: '39b6b0c4-5515-4863-9038-4c37421abe65'
-title: 'SetAuthorizationEntry method of the Msvm\_ReplicationService class'
+Description: Sets the replication authorization entry for a virtual machine.
+ms.assetid: 39b6b0c4-5515-4863-9038-4c37421abe65
+title: SetAuthorizationEntry method of the Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetAuthorizationEntry method of the Msvm\_ReplicationService class
@@ -13,9 +18,9 @@ Sets the replication authorization entry for a virtual machine.
 
 ```mof
 uint32 SetAuthorizationEntry(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  string                 AuthorizationEntry,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  string                 AuthorizationEntry,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -100,8 +105,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -124,9 +129,9 @@ This method returns one of the following values.
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

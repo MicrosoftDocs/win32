@@ -1,8 +1,9 @@
 ---
 title: ICM\_DRAW\_SUGGESTFORMAT message
 description: The ICM\_DRAW\_SUGGESTFORMAT message queries a rendering driver to suggest a decompressed format that it can draw.
-ms.assetid: 'e3e97790-dbd1-4436-9830-5218ae1f949b'
-keywords: ["ICM_DRAW_SUGGESTFORMAT message Windows Multimedia"]
+ms.assetid: e3e97790-dbd1-4436-9830-5218ae1f949b
+keywords:
+- ICM_DRAW_SUGGESTFORMAT message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_DRAW\_SUGGESTFORMAT message
@@ -33,26 +39,26 @@ lParam = sizeof(ICDRAWSUGGEST);
 <span id="icdrwSuggest"></span><span id="icdrwsuggest"></span><span id="ICDRWSUGGEST"></span>*icdrwSuggest*
 </dt> <dd>
 
-Pointer to an [**ICDRAWSUGGEST**](icdrawsuggest.md) structure.
+Pointer to an [**ICDRAWSUGGEST**](/windows/win32/Vfw/ns-vfw-icdrawsuggest?branch=master) structure.
 
 </dd> <dt>
 
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Size, in bytes, of [**ICDRAWSUGGEST**](icdrawsuggest.md).
+Size, in bytes, of [**ICDRAWSUGGEST**](/windows/win32/Vfw/ns-vfw-icdrawsuggest?branch=master).
 
 </dd> </dl>
 
 ## Return Value
 
-Returns ICERR\_OK if successful. If the **lpbiSuggest** member of the [**ICDRAWSUGGEST**](icdrawsuggest.md) structure is **NULL**, this message returns the amount of memory required to contain the suggested format.
+Returns ICERR\_OK if successful. If the **lpbiSuggest** member of the [**ICDRAWSUGGEST**](/windows/win32/Vfw/ns-vfw-icdrawsuggest?branch=master) structure is **NULL**, this message returns the amount of memory required to contain the suggested format.
 
 ## Remarks
 
-The driver should examine the format specified in the **lpbiIn** member of the [**ICDRAWSUGGEST**](icdrawsuggest.md) structure and use the **lpbiSuggest** member to return a format it can draw. The output format should preserve as much data as possible from the input format.
+The driver should examine the format specified in the **lpbiIn** member of the [**ICDRAWSUGGEST**](/windows/win32/Vfw/ns-vfw-icdrawsuggest?branch=master) structure and use the **lpbiSuggest** member to return a format it can draw. The output format should preserve as much data as possible from the input format.
 
-Optionally, the driver can use the installable compressor handle passed in the **hicDecompressor** member of [**ICDRAWSUGGEST**](icdrawsuggest.md) to make more complex selections. For example, if the input format is 24-bit JPEG data, a renderer could query the decompressor to find out if it can decompress to a YUV format (which might be drawn more efficiently) before selecting the format to suggest.
+Optionally, the driver can use the installable compressor handle passed in the **hicDecompressor** member of [**ICDRAWSUGGEST**](/windows/win32/Vfw/ns-vfw-icdrawsuggest?branch=master) to make more complex selections. For example, if the input format is 24-bit JPEG data, a renderer could query the decompressor to find out if it can decompress to a YUV format (which might be drawn more efficiently) before selecting the format to suggest.
 
 ## Requirements
 
@@ -60,8 +66,8 @@ Optionally, the driver can use the installable compressor handle passed in the *
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ Optionally, the driver can use the installable compressor handle passed in the *
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

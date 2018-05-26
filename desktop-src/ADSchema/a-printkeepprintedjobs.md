@@ -4,17 +4,22 @@ description: TRUE if printed jobs are kept.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '118f9dae-c338-41dc-8faa-73b20539874e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 118f9dae-c338-41dc-8faa-73b20539874e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Print-Keep-Printed-Jobs attribute AD Schema", "printKeepPrintedJobs attribute AD Schema"]
+keywords:
+- Print-Keep-Printed-Jobs attribute AD Schema
+- printKeepPrintedJobs attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Print-Keep-Printed-Jobs
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Print-Keep-Printed-Jobs attribute
@@ -38,12 +43,12 @@ api_type:
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ api_type:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

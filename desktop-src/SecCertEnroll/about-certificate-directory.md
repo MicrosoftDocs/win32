@@ -1,7 +1,12 @@
 ---
-Description: 'A Windows public key infrastructure (PKI) saves certificates on the server that hosts the certification authority (CA) and on the local computer or device.'
-ms.assetid: 'b6aaafeb-30d1-453e-a70c-dcaa01fea1cf'
+Description: A Windows public key infrastructure (PKI) saves certificates on the server that hosts the certification authority (CA) and on the local computer or device.
+ms.assetid: b6aaafeb-30d1-453e-a70c-dcaa01fea1cf
 title: Certificate Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Directory
@@ -39,7 +44,7 @@ Microsoft Certificate Services copies issued certificates and pending or rejecte
 
 
 
- 
+ 
 
 You cannot use the Certificate Enrollment API to specify or retrieve store properties or copy certificates to specific stores.
 
@@ -50,9 +55,9 @@ You cannot use the Certificate Enrollment API to specify or retrieve store prope
 [PKI Elements](about-pki-components.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

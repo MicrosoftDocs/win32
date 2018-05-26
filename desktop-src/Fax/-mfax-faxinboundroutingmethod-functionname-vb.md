@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FunctionName property is a null-terminated string that contains the name of the function that executes a specific fax routing procedure.'
-ms.assetid: 'cccd2d5e-d1ac-4c56-8c50-1c8f5ca9692c'
-title: 'FaxInboundRoutingMethod.FunctionName property'
+---
+Description: The FunctionName property is a null-terminated string that contains the name of the function that executes a specific fax routing procedure.
+ms.assetid: cccd2d5e-d1ac-4c56-8c50-1c8f5ca9692c
+title: FaxInboundRoutingMethod.FunctionName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingMethod.FunctionName property
@@ -50,7 +55,7 @@ The fax routing extension DLL identified by the [**ExtensionImageName**](-mfax-f
 [**FaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod-cpp.md)
+[**IFaxInboundRoutingMethod**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingmethod?branch=master)
 </dt> </dl>
 
  

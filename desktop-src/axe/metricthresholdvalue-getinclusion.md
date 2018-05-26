@@ -1,8 +1,11 @@
 ---
 title: MetricThresholdValue GetInclusion method
 description: Returns the inclusion setting of the MetricThresholdValue.
-ms.assetid: '2C865E9D-466D-4740-B966-0B5F2D6D2DB2'
-keywords: ["GetInclusion method Access Execution Engine", "GetInclusion method Access Execution Engine , MetricThresholdValue interface", "MetricThresholdValue interface Access Execution Engine , GetInclusion method"]
+ms.assetid: 2C865E9D-466D-4740-B966-0B5F2D6D2DB2
+keywords:
+- GetInclusion method Access Execution Engine
+- GetInclusion method Access Execution Engine , MetricThresholdValue interface
+- MetricThresholdValue interface Access Execution Engine , GetInclusion method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholdValue::GetInclusion method
@@ -22,7 +30,7 @@ Returns the inclusion setting of the **MetricThresholdValue**.
 
 ```C++
 virtual HRESULT GetInclusion(
-  [out] MetricThresholdValueInclusion *inclusion
+  [out] MetricThresholdValueInclusion *inclusion
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The inclusion setting is the value of element **MetricThresholdValue/Inclusion**
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The inclusion setting is the value of element **MetricThresholdValue/Inclusion**
 [**MetricThresholdValue**](metricthresholdvalue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

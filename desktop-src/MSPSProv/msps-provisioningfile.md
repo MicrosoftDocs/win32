@@ -4,13 +4,15 @@ description: An abstract class representing raw data.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '292f72bf-7e82-4d23-9da2-e67cc0800fda'
-ms.prod: 'windows-server-dev'
+ms.assetid: 292f72bf-7e82-4d23-9da2-e67cc0800fda
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msps_ProvisioningFile class", "Msps_ProvisioningFile class, described"]
+keywords:
+- Msps_ProvisioningFile class
+- Msps_ProvisioningFile class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - MSPSProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msps\_ProvisioningFile class
@@ -73,7 +78,7 @@ The encrypted raw data of the file.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>MSPSProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSProv.dll</dt> </dl> |
@@ -96,9 +101,9 @@ The encrypted raw data of the file.
 [**Msps\_VSC**](msps-vsc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

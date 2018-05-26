@@ -1,7 +1,12 @@
 ---
 title: Integration Services Classes
 description: Integration services are software services that run on top of the guest operating system inside of a child virtual machine (VM) and as part of the virtualization stack in the management operating system to provide some level of integration with the management operating system.
-ms.assetid: 'b068c65b-d746-4d7d-9fd9-ca71e8ae7fa3'
+ms.assetid: b068c65b-d746-4d7d-9fd9-ca71e8ae7fa3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Integration Services Classes
@@ -30,7 +35,7 @@ The following are virtualization WMI classes related to the integration services
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -39,9 +44,9 @@ The following are virtualization WMI classes related to the integration services
 [Virtualization WMI Classes](virtualization-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

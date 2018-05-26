@@ -1,7 +1,12 @@
 ---
-Description: 'Deprecated. The category that can be assigned to an item such as a document or file.'
-ms.assetid: 'dcdfb9c2-df14-4edd-8c45-149b327c8fcf'
-title: 'System.Category'
+Description: Deprecated. The category that can be assigned to an item such as a document or file.
+ms.assetid: dcdfb9c2-df14-4edd-8c45-149b327c8fcf
+title: System.Category
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Category

@@ -1,8 +1,18 @@
 ---
 title: Echo Sample Overview
 description: Echo Sample Overview
-ms.assetid: 'df9ad8f4-8c17-44b8-b5ee-c86de44788cf'
-keywords: ["Windows Media Player plug-ins,Echo sample overview", "plug-ins,Echo sample overview", "digital signal processing plug-ins,Echo sample overview", "DSP plug-ins,Echo sample overview", "Echo DSP plug-in sample,about"]
+ms.assetid: df9ad8f4-8c17-44b8-b5ee-c86de44788cf
+keywords:
+- Windows Media Player plug-ins,Echo sample overview
+- plug-ins,Echo sample overview
+- digital signal processing plug-ins,Echo sample overview
+- DSP plug-ins,Echo sample overview
+- Echo DSP plug-in sample,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Echo Sample Overview

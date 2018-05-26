@@ -4,17 +4,22 @@ description: Used to identify groups that should not be hosted on the same clust
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '381973f9-db41-48b7-9833-483da3e79f92'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 381973f9-db41-48b7-9833-483da3e79f92
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AntiAffinityClassNames Failover Cluster ,for Groups", "AntiAffinityClassNames Failover Cluster"]
+keywords:
+- AntiAffinityClassNames Failover Cluster ,for Groups
+- AntiAffinityClassNames Failover Cluster
 topic_type:
 - apiref
 api_name:
 - AntiAffinityClassNames
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AntiAffinityClassNames
@@ -27,13 +32,13 @@ Used to identify [groups](groups.md) that should not be hosted on the same clust
 |-----------|------------------------------------------------------------------|
 | Data type | MULTI-SZ                                                         |
 | Access    | [Read/write](read-write-properties.md)                          |
-| Structure | [**CLUSPROP\_MULTI\_SZ**](clusprop-multi-sz.md)                 |
+| Structure | [**CLUSPROP\_MULTI\_SZ**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_sz?branch=master)                 |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,13 +62,13 @@ Note that because of the behavior described in point 4 above, anti-affinity does
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_ITIMEMARKPOSN'
-ms.assetid: '4aef2631-c05b-41e8-8f4d-f40da4143ab4'
-title: 'LOCALE\_ITIMEMARKPOSN'
+Description: LOCALE\_ITIMEMARKPOSN
+ms.assetid: 4aef2631-c05b-41e8-8f4d-f40da4143ab4
+title: LOCALE\_ITIMEMARKPOSN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_ITIMEMARKPOSN

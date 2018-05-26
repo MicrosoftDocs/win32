@@ -1,14 +1,20 @@
 ---
 title: KeywordListType Complex Type
 description: Defines a list of keywords that categorize events.
-ms.assetid: '7aeb5ca1-b23f-40f5-a77b-894deaf9c6bb'
-keywords: ["KeywordListType complex type EventLog"]
+ms.assetid: 7aeb5ca1-b23f-40f5-a77b-894deaf9c6bb
+keywords:
+- KeywordListType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - KeywordListType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeywordListType Complex Type
@@ -43,14 +49,14 @@ Defines a list of keywords that categorize events.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

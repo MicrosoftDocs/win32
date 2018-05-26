@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_RASTERIZER\_DESC structure
 description: A helper structure to enable easy initialization of a D3D12\_RASTERIZER\_DESC structure.
-ms.assetid: '28AA8256-1CAF-484F-B219-0F0461BA947C'
-keywords: ["CD3DX12_RASTERIZER_DESC structure"]
+ms.assetid: 28AA8256-1CAF-484F-B219-0F0461BA947C
+keywords:
+- CD3DX12_RASTERIZER_DESC structure
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_RASTERIZER\_DESC structure
 
-A helper structure to enable easy initialization of a [**D3D12\_RASTERIZER\_DESC**](d3d12-rasterizer-desc.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_RASTERIZER\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_rasterizer_desc?branch=master) structure.
 
 ## Syntax
 
@@ -47,7 +53,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_RASTERIZER\_DESC.
 **explicit CD3DX12\_RASTERIZER\_DESC(const D3D12\_RASTERIZER\_DESC& o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_RASTERIZER\_DESC, initialized with the contents of another [**D3D12\_RASTERIZER\_DESC**](d3d12-rasterizer-desc.md) structure.
+Creates a new instance of a CD3DX12\_RASTERIZER\_DESC, initialized with the contents of another [**D3D12\_RASTERIZER\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_rasterizer_desc?branch=master) structure.
 
 </dd> <dt>
 
@@ -77,9 +83,9 @@ Creates a new instance of a CD3DX12\_RASTERIZER\_DESC, initialized with default 
 
 Creates a new instance of a CD3DX12\_RASTERIZER\_DESC, initializing the following parameters:
 
-[**D3D12\_FILL\_MODE**](d3d12-fill-mode.md) fillMode
+[**D3D12\_FILL\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_fill_mode?branch=master) fillMode
 
-[**D3D12\_CULL\_MODE**](d3d12-cull-mode.md) cullMode
+[**D3D12\_CULL\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_cull_mode?branch=master) cullMode
 
 BOOL frontCounterClockwise
 
@@ -97,7 +103,7 @@ BOOL antialiasedLineEnable
 
 UINT forcedSampleCount
 
-[**D3D12\_CONSERVATIVE\_RASTERIZATION\_MODE**](d3d12-conservative-rasterization-mode.md) conservativeRaster
+[**D3D12\_CONSERVATIVE\_RASTERIZATION\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_conservative_rasterization_mode?branch=master) conservativeRaster
 
 </dd> <dt>
 
@@ -129,15 +135,15 @@ Defines the & pass-by-reference operator for the parent structure type.
 
 <dl> <dt>
 
-[**D3D12\_RASTERIZER\_DESC**](d3d12-rasterizer-desc.md)
+[**D3D12\_RASTERIZER\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_rasterizer_desc?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

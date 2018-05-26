@@ -1,7 +1,12 @@
 ---
-Description: 'The DoShowWindow method sets the window''s show state.'
-ms.assetid: '4180de9d-ef40-40e3-aa37-be54283b1f97'
-title: 'CBaseWindow.DoShowWindow method'
+Description: The DoShowWindow method sets the windows show state.
+ms.assetid: 4180de9d-ef40-40e3-aa37-be54283b1f97
+title: CBaseWindow.DoShowWindow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.DoShowWindow method
@@ -13,7 +18,7 @@ The **DoShowWindow** method sets the window's show state.
 
 ```C++
 HRESULT DoShowWindow(
-   LONG ShowCmd
+   LONG ShowCmd
 );
 ```
 
@@ -52,9 +57,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

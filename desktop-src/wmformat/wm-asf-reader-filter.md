@@ -1,8 +1,19 @@
 ---
 title: WM ASF Reader Filter
 description: WM ASF Reader Filter
-ms.assetid: '3d5ca88a-86bd-4d84-b4f4-782564ced58d'
-keywords: ["Windows Media Format SDK,WM ASF Reader", "DirectShow,WM ASF Reader", "QASF filters,WM ASF Reader", "WM ASF Reader", "Advanced Systems Format (ASF),WM ASF Reader", "ASF (Advanced Systems Format),WM ASF Reader"]
+ms.assetid: 3d5ca88a-86bd-4d84-b4f4-782564ced58d
+keywords:
+- Windows Media Format SDK,WM ASF Reader
+- DirectShow,WM ASF Reader
+- QASF filters,WM ASF Reader
+- WM ASF Reader
+- Advanced Systems Format (ASF),WM ASF Reader
+- ASF (Advanced Systems Format),WM ASF Reader
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM ASF Reader Filter
@@ -40,14 +51,14 @@ The following table contains information about the WM ASF Reader filter, such as
 
 The WM ASF Reader partially implements the **IWMReaderAdvanced** and **IWMReaderAdvanced2** interfaces in order to give applications access to the informational methods on the reader object. The filter's implementation simply passes the calls through to the interface on the reader object. The streaming methods are not implemented because the filter must have complete control over the streaming process. The following **IWMReaderAdvanced** and **IWMReaderAdvanced2** methods are implemented:
 
--   [**IWMReaderAdvanced::GetStatistics**](iwmreaderadvanced-getstatistics.md)
--   [**IWMReaderAdvanced::SetClientInfo**](iwmreaderadvanced-setclientinfo.md)
--   [**IWMReaderAdvanced2::GetBufferProgress**](iwmreaderadvanced2-getbufferprogress.md)
--   [**IWMReaderAdvanced2::GetDownloadProgress**](iwmreaderadvanced2-getdownloadprogress.md)
--   [**IWMReaderAdvanced2::GetPlayMode**](iwmreaderadvanced2-getplaymode.md)
--   [**IWMReaderAdvanced2::GetProtocolName**](iwmreaderadvanced2-getprotocolname.md)
--   [**IWMReaderAdvanced2::SetLogClientID**](iwmreaderadvanced2-setlogclientid.md)
--   [**IWMReaderAdvanced2::SetPlayMode**](iwmreaderadvanced2-setplaymode.md)
+-   [**IWMReaderAdvanced::GetStatistics**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstatistics?branch=master)
+-   [**IWMReaderAdvanced::SetClientInfo**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setclientinfo?branch=master)
+-   [**IWMReaderAdvanced2::GetBufferProgress**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getbufferprogress?branch=master)
+-   [**IWMReaderAdvanced2::GetDownloadProgress**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getdownloadprogress?branch=master)
+-   [**IWMReaderAdvanced2::GetPlayMode**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getplaymode?branch=master)
+-   [**IWMReaderAdvanced2::GetProtocolName**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getprotocolname?branch=master)
+-   [**IWMReaderAdvanced2::SetLogClientID**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setlogclientid?branch=master)
+-   [**IWMReaderAdvanced2::SetPlayMode**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setplaymode?branch=master)
 
 ## Related topics
 

@@ -4,17 +4,22 @@ description: Stores the name of the domain controller that was used by the Clust
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1c2c3440-9e34-484d-9820-406c2cb57e32'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1c2c3440-9e34-484d-9820-406c2cb57e32
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CreatingDC Failover Cluster ,for network names", "CreatingDC Failover Cluster"]
+keywords:
+- CreatingDC Failover Cluster ,for network names
+- CreatingDC Failover Cluster
 topic_type:
 - apiref
 api_name:
 - CreatingDC
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreatingDC
@@ -28,13 +33,13 @@ Stores the name of the domain controller that was used by the [Cluster service](
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read-only](read-only-properties.md)                            |
 | Status    | Required                                                         |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +52,7 @@ If [**RequireKerberos**](network-names-requirekerberos.md) is set to 0, the **Cr
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -58,7 +63,7 @@ If [**RequireKerberos**](network-names-requirekerberos.md) is set to 0, the **Cr
 [Cluster Name Private Properties](network-name-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**RequireDNS**](network-names-requiredns.md)
@@ -70,9 +75,9 @@ If [**RequireKerberos**](network-names-requirekerberos.md) is set to 0, the **Cr
 [**ResourceData**](network-names-resourcedata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

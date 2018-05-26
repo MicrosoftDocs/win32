@@ -1,7 +1,12 @@
 ---
-Description: 'A performance object is an entity for which performance data is available.'
-ms.assetid: '97b9c9ec-e758-4928-b3fa-90d220bca5fb'
+Description: A performance object is an entity for which performance data is available.
+ms.assetid: 97b9c9ec-e758-4928-b3fa-90d220bca5fb
 title: Object and Counter Design
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object and Counter Design

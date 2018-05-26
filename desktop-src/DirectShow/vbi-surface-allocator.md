@@ -1,7 +1,12 @@
 ---
 Description: VBI Surface Allocator
-ms.assetid: '51c73a25-1112-4fb4-a45f-967c6a1b5c55'
+ms.assetid: 51c73a25-1112-4fb4-a45f-967c6a1b5c55
 title: VBI Surface Allocator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VBI Surface Allocator
@@ -12,7 +17,7 @@ The VBI Surface Allocator controls the allocation of VBI buffers in analog telev
 
 |                                          |                                                                                     |
 |------------------------------------------|-------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IBaseFilter**](ibasefilter.md)                                                  |
+| Filter Interfaces                        | [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)                                                  |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_VPVBI                                               |
 | Input Pin Interfaces                     | [**IKsPropertySet**](ikspropertyset.md)                                            |
 | Output Pin Media Types                   | MEDIATYPE\_NULL, MEDIASUBTYPE\_NULL. (Nothing is ever connected to the output pin.) |

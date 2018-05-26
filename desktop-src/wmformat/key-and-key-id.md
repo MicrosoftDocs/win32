@@ -1,8 +1,20 @@
 ---
 title: Key and Key ID
 description: Key and Key ID
-ms.assetid: '40618771-d601-4c31-8da9-5c649651f2f2'
-keywords: ["Windows Media Format SDK,digital rights management (DRM)", "digital rights management (DRM),keys", "DRM (digital rights management),keys", "digital rights management (DRM),KID", "DRM (digital rights management),KID", "key ID (KID)", "KID (key ID)"]
+ms.assetid: 40618771-d601-4c31-8da9-5c649651f2f2
+keywords:
+- Windows Media Format SDK,digital rights management (DRM)
+- digital rights management (DRM),keys
+- DRM (digital rights management),keys
+- digital rights management (DRM),KID
+- DRM (digital rights management),KID
+- key ID (KID)
+- KID (key ID)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Key and Key ID

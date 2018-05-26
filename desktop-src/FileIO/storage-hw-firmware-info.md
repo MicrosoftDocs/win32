@@ -1,7 +1,12 @@
 ---
-Description: 'This structure contains information about the device firmware.'
-ms.assetid: '7BDACD50-0FD1-4F00-BAE5-884D8C1485BC'
-title: 'STORAGE\_HW\_FIRMWARE\_INFO structure'
+Description: This structure contains information about the device firmware.
+ms.assetid: 7BDACD50-0FD1-4F00-BAE5-884D8C1485BC
+title: STORAGE\_HW\_FIRMWARE\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STORAGE\_HW\_FIRMWARE\_INFO structure
@@ -13,17 +18,17 @@ This structure contains information about the device firmware.
 
 ```C++
 typedef struct _STORAGE_HW_FIRMWARE_INFO {
-  DWORD                         Version;
-  DWORD                         Size;
-  BYTE                          SupportUpgrade  :1;
-  BYTE                          Reserved0  :7;
-  BYTE                          SlotCount;
-  BYTE                          ActiveSlot;
-  BYTE                          PendingActivateSlot;
-  BOOLEAN                       FirmwareShared;
-  BYTE                          Reserved[3];
-  DWORD                         ImagePayloadAlignment;
-  DWORD                         ImagePayloadMaxSize;
+  DWORD                         Version;
+  DWORD                         Size;
+  BYTE                          SupportUpgrade  :1;
+  BYTE                          Reserved0  :7;
+  BYTE                          SlotCount;
+  BYTE                          ActiveSlot;
+  BYTE                          PendingActivateSlot;
+  BOOLEAN                       FirmwareShared;
+  BYTE                          Reserved[3];
+  DWORD                         ImagePayloadAlignment;
+  DWORD                         ImagePayloadMaxSize;
   STORAGE_HW_FIRMWARE_SLOT_INFO Slot[ANYSIZE_ARRAY];
 } STORAGE_HW_FIRMWARE_INFO, *PSTORAGE_HW_FIRMWARE_INFO;
 ```
@@ -70,7 +75,7 @@ The number of firmware slots on the device. This is the dimension of the Slot ar
 > [!Note]  
 > Some devices can store more than 1 firmware image, if they have more than 1 firmware slot.
 
- 
+ 
 
 </dd> <dt>
 
@@ -129,8 +134,8 @@ Contains the slot information for each slot on the device, of type [**STORAGE\_H
 
 |                                     |                                                                                                             |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                        |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Winioctl.h.h (include Windows.h)</dt> </dl> |
 
 
@@ -139,19 +144,19 @@ Contains the slot information for each slot on the device, of type [**STORAGE\_H
 
 <dl> <dt>
 
-[**IOCTL\_STORAGE\_FIRMWARE\_ACTIVATE**](ioctl-storage-firmware-activate.md)
+[**IOCTL\_STORAGE\_FIRMWARE\_ACTIVATE**](/windows/win32/WinIoctl/ni-winioctl-ioctl_storage_firmware_activate?branch=master)
 </dt> <dt>
 
-[**STORAGE\_HW\_FIRMWARE\_ACTIVATE**](storage-hw-firmware-activate.md)
+[**STORAGE\_HW\_FIRMWARE\_ACTIVATE**](/windows/win32/winioctl/ns-winioctl-_storage_hw_firmware_activate?branch=master)
 </dt> <dt>
 
-[**IOCTL\_STORAGE\_FIRMWARE\_DOWNLOAD**](ioctl-storage-firmware-download.md)
+[**IOCTL\_STORAGE\_FIRMWARE\_DOWNLOAD**](/windows/win32/WinIoctl/ni-winioctl-ioctl_storage_firmware_download?branch=master)
 </dt> <dt>
 
-[**STORAGE\_HW\_FIRMWARE\_DOWNLOAD**](storage-hw-firmware-download.md)
+[**STORAGE\_HW\_FIRMWARE\_DOWNLOAD**](/windows/win32/winioctl/ns-winioctl-_storage_hw_firmware_download?branch=master)
 </dt> <dt>
 
-[**IOCTL\_STORAGE\_FIRMWARE\_GET\_INFO**](ioctl-storage-firmware-get-info.md)
+[**IOCTL\_STORAGE\_FIRMWARE\_GET\_INFO**](/windows/win32/WinIoctl/ni-winioctl-ioctl_storage_firmware_get_info?branch=master)
 </dt> <dt>
 
 [**STORAGE\_HW\_FIRMWARE\_INFO\_QUERY**](storage-hw-firmware-info-query.md)
@@ -160,9 +165,9 @@ Contains the slot information for each slot on the device, of type [**STORAGE\_H
 [**STORAGE\_HW\_FIRMWARE\_SLOT\_INFO**](storage-hw-firmware-slot-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

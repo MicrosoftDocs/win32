@@ -4,13 +4,16 @@ description: Exposes a list of SCSI logical units, such as RAID volumes or tape 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '308faa58-13dc-4781-be25-aa24a928b7c0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 308faa58-13dc-4781-be25-aa24a928b7c0
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ExposeDefaultLUs method iSCSI Software Target API", "ExposeDefaultLUs method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class", "MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , ExposeDefaultLUs method"]
+keywords:
+- ExposeDefaultLUs method iSCSI Software Target API
+- ExposeDefaultLUs method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class
+- MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , ExposeDefaultLUs method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExposeDefaultLUs method of the MSISCSITARGET\_ControllerConfigurationService class
@@ -32,12 +38,12 @@ This method is inherited from the **CIM\_ControllerConfigurationService** class.
 
 ```mof
 uint32 ExposeDefaultLUs(
-  [out]     CIM_ConcreteJob Ref            Job,
-  [in]      string                         LUNames[],
-  [in]      string                         TargetPortIDs[],
-  [in]      string                         DeviceNumbers[],
-  [in]      uint16                         DeviceAccesses[],
-  [in, out] CIM_SCSIProtocolController Ref ProtocolControllers[]
+  [out]     CIM_ConcreteJob Ref            Job,
+  [in]      string                         LUNames[],
+  [in]      string                         TargetPortIDs[],
+  [in]      string                         DeviceNumbers[],
+  [in]      uint16                         DeviceAccesses[],
+  [in, out] CIM_SCSIProtocolController Ref ProtocolControllers[]
 );
 ```
 
@@ -85,7 +91,7 @@ Specifies the permissions to assign to the corresponding logical unit in the *LU
 > [!Note]  
 > A value is required in this array for each element in the *LUNames* parameter. If *LUNames* is **NULL** then this parameter should be **NULL**.
 
- 
+ 
 
 The possible values are.
 
@@ -124,7 +130,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>5–15999</dd> <dt>
+</dt> <dd>5 15999</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
@@ -145,7 +151,7 @@ On output, this is an array of references to SPCs created or modified as the res
 > [!Note]  
 > If this parameter contains multiple elements on input, the instrumentation must return an **Invalid Parameter** error.
 
- 
+ 
 
 </dd> </dl>
 
@@ -173,7 +179,7 @@ This method returns one of the following values.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
@@ -200,10 +206,10 @@ This method returns one of the following values.
 **Maximum Map Count Exceeded** (4103)
 </dt> <dt>
 
-**Method Reserved** (4104–32767)
+**Method Reserved** (4104 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Remarks
@@ -246,7 +252,7 @@ The implementation must support two scenarios for modifying an SPC. Other vendor
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -269,9 +275,9 @@ The implementation must support two scenarios for modifying an SPC. Other vendor
 [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

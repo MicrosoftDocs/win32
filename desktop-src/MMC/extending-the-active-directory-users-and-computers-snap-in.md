@@ -4,11 +4,15 @@ description: You can use Microsoft Management Console (MMC) to create extension 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dc708d04-450c-42cf-8958-3fb4ccc6ab13'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: dc708d04-450c-42cf-8958-3fb4ccc6ab13
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Extending the Active Directory Users and Computers Snap-in"]
+keywords:
+- Extending the Active Directory Users and Computers Snap-in
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the Active Directory Users and Computers Snap-in

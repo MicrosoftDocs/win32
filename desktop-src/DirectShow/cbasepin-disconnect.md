@@ -1,12 +1,17 @@
 ---
-Description: 'The Disconnect method breaks the current pin connection. This method implements the IPin::Disconnect method.'
-ms.assetid: '04e07978-fca5-419f-8807-fd7a6846eff9'
-title: 'CBasePin.Disconnect method'
+Description: The Disconnect method breaks the current pin connection. This method implements the IPinDisconnect method.
+ms.assetid: 04e07978-fca5-419f-8807-fd7a6846eff9
+title: CBasePin.Disconnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.Disconnect method
 
-The `Disconnect` method breaks the current pin connection. This method implements the [**IPin::Disconnect**](ipin-disconnect.md) method.
+The `Disconnect` method breaks the current pin connection. This method implements the [**IPin::Disconnect**](/windows/win32/Strmif/nf-strmif-ipin-disconnect?branch=master) method.
 
 ## Syntax
 
@@ -35,7 +40,7 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,9 +64,9 @@ The base class delegates most of the work to the [**CBasePin::DisconnectInternal
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

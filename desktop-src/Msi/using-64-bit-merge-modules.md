@@ -1,7 +1,12 @@
 ---
-Description: 'Adhere to these guidelines when authoring a 64-bit merge module.'
-ms.assetid: '326c274b-981e-4b21-a4fb-0060c178a01e'
-title: 'Using 64-bit Merge Modules'
+Description: Adhere to these guidelines when authoring a 64-bit merge module.
+ms.assetid: 326c274b-981e-4b21-a4fb-0060c178a01e
+title: Using 64-bit Merge Modules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using 64-bit Merge Modules

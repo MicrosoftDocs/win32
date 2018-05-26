@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association where a CIM\_ServiceAccessPoint or CIM\_ProtocolEndpoint object depends on an underlying CIM\_LANEndpoint object on the same system.'
-ms.assetid: '3c015fbd-0611-41e8-a79a-01c980eedfd3'
-title: 'CIM\_BindsToLANEndpoint class'
+Description: Represents an association where a CIM\_ServiceAccessPoint or CIM\_ProtocolEndpoint object depends on an underlying CIM\_LANEndpoint object on the same system.
+ms.assetid: 3c015fbd-0611-41e8-a79a-01c980eedfd3
+title: CIM\_BindsToLANEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_BindsToLANEndpoint class
@@ -14,9 +19,9 @@ Represents an association where a [**CIM\_ServiceAccessPoint**](cim-serviceacces
 [Association, Abstract, Version("2.6.0"), UMLPackagePath("CIM::Network::ProtocolEndpoints"), AMENDMENT]
 class CIM_BindsToLANEndpoint : CIM_BindsTo
 {
-  CIM_LANEndpoint        REF Antecedent;
+  CIM_LANEndpoint        REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
-  uint16                     FrameType;
+  uint16                     FrameType;
 };
 ```
 
@@ -78,7 +83,7 @@ The framing method for the upper layer service access point or protocol endpoint
 > [!Note]  
 > Raw802.3 is only known to be used with the IPX protocol.
 
- 
+ 
 
 <dt>
 
@@ -125,8 +130,8 @@ The framing method for the upper layer service access point or protocol endpoint
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -140,9 +145,9 @@ The framing method for the upper layer service access point or protocol endpoint
 [**CIM\_BindsTo**](cim-bindsto.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

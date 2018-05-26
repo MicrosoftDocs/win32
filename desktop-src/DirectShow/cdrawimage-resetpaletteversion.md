@@ -1,7 +1,12 @@
 ---
-Description: 'The ResetPaletteVersion method resets the palette version. Call this method if the owning filter''s pin reconnects.'
-ms.assetid: 'c9e5588c-5501-4356-bdec-a339d33f9eb5'
-title: 'CDrawImage.ResetPaletteVersion method'
+Description: The ResetPaletteVersion method resets the palette version. Call this method if the owning filters pin reconnects.
+ms.assetid: c9e5588c-5501-4356-bdec-a339d33f9eb5
+title: CDrawImage.ResetPaletteVersion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.ResetPaletteVersion method
@@ -53,9 +58,9 @@ This method sets the value of **m\_PaletteVersion** to a predefined constant, **
 [**CDrawImage::IncrementPaletteVersion**](cdrawimage-incrementpaletteversion.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

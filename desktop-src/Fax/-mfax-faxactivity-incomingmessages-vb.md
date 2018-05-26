@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IncomingMessages property is a number that represents the total number of incoming fax jobs that the fax service is currently in the process of receiving.'
-ms.assetid: '08636ffe-19a5-4f8c-8e9c-ef42fd65cafb'
-title: 'FaxActivity.IncomingMessages property'
+---
+Description: The IncomingMessages property is a number that represents the total number of incoming fax jobs that the fax service is currently in the process of receiving.
+ms.assetid: 08636ffe-19a5-4f8c-8e9c-ef42fd65cafb
+title: FaxActivity.IncomingMessages property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxActivity.IncomingMessages property
@@ -25,7 +30,7 @@ A **Long** that receives the total number of incoming fax jobs that the fax serv
 
 ## Remarks
 
-To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax
 [**FaxActivity**](-mfax-faxactivity.md)
 </dt> <dt>
 
-[**IFaxActivity**](-mfax-faxactivity-cpp.md)
+[**IFaxActivity**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxactivity?branch=master)
 </dt> </dl>
 
  

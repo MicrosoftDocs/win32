@@ -1,8 +1,9 @@
 ---
 title: InternetGetProxyInfo function
 description: Retrieves proxy data for accessing specified resources.
-ms.assetid: '5fc0f471-420c-4125-8323-cb1e1e72e43f'
-keywords: ["InternetGetProxyInfo function WinINet"]
+ms.assetid: 5fc0f471-420c-4125-8323-cb1e1e72e43f
+keywords:
+- InternetGetProxyInfo function WinINet
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - JSProxy.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InternetGetProxyInfo function
@@ -22,12 +28,12 @@ Retrieves proxy data for accessing specified resources. This function can only b
 
 ```C++
 BOOL InternetGetProxyInfo(
-  _In_  LPCSTR  lpszUrl,
-  _In_  DWORD   dwUrlLength,
-  _In_  LPSTR   lpszUrlHostName,
-  _In_  DWORD   dwUrlHostNameLength,
-  _Out_ LPSTR   *lplpszProxyHostName,
-  _Out_ LPDWORD lpdwProxyHostNameLength
+  _In_  LPCSTR  lpszUrl,
+  _In_  DWORD   dwUrlLength,
+  _In_  LPSTR   lpszUrlHostName,
+  _In_  DWORD   dwUrlHostNameLength,
+  _Out_ LPSTR   *lplpszProxyHostName,
+  _Out_ LPDWORD lpdwProxyHostNameLength
 );
 ```
 
@@ -120,7 +126,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 > [!Note]  
 > WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).
 
- 
+ 
 
 ## Requirements
 
@@ -128,8 +134,8 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>JSProxy.dll</dt> </dl> |
 
 
@@ -138,18 +144,18 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 <dl> <dt>
 
-[**InternetInitializeAutoProxyDll**](internetinitializeautoproxydll.md)
+[**InternetInitializeAutoProxyDll**](/windows/win32/winineti/nf-wininet-internetinitializeautoproxydll?branch=master)
 </dt> <dt>
 
-[**InternetDeInitializeAutoProxyDll**](internetdeinitializeautoproxydll.md)
+[**InternetDeInitializeAutoProxyDll**](/windows/win32/Wininet/?branch=master)
 </dt> <dt>
 
-[**DetectAutoProxyUrl**](detectautoproxyurl.md)
+[**DetectAutoProxyUrl**](/windows/win32/winineti/nf-wininet-detectautoproxyurl?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

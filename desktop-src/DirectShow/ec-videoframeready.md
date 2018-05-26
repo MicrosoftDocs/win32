@@ -1,7 +1,12 @@
 ---
-Description: 'A video frame is ready for display.'
-ms.assetid: 'af6198be-9656-49a6-9598-b1c040be5a1a'
-title: 'EC\_VIDEOFRAMEREADY'
+Description: A video frame is ready for display.
+ms.assetid: af6198be-9656-49a6-9598-b1c040be5a1a
+title: EC\_VIDEOFRAMEREADY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_VIDEOFRAMEREADY
@@ -54,9 +59,9 @@ The legacy [Windows Media Source](windows-media-source-filter.md) filter sends t
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

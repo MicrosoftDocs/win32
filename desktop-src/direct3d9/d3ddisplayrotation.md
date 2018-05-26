@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies how the monitor being used to display a full-screen application is rotated.'
-ms.assetid: '190aa10e-4bf0-45ec-9c07-2582c5536074'
+---
+Description: Specifies how the monitor being used to display a full-screen application is rotated.
+ms.assetid: 190aa10e-4bf0-45ec-9c07-2582c5536074
 title: D3DDISPLAYROTATION enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDISPLAYROTATION enumeration
@@ -56,7 +61,7 @@ Display is rotated 270 degrees.
 
 ## Remarks
 
-This enumeration is used in [**IDirect3D9Ex::GetAdapterDisplayModeEx**](idirect3d9ex-getadapterdisplaymodeex.md), [**IDirect3DDevice9Ex::GetDisplayModeEx**](idirect3ddevice9ex-getdisplaymodeex.md), and [**IDirect3DSwapChain9Ex::GetDisplayModeEx**](idirect3dswapchain9-getdisplaymodeex.md).
+This enumeration is used in [**IDirect3D9Ex::GetAdapterDisplayModeEx**](/windows/win32/d3d9/nf-d3d9-idirect3d9ex-getadapterdisplaymodeex?branch=master), [**IDirect3DDevice9Ex::GetDisplayModeEx**](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9ex-getdisplaymodeex?branch=master), and [**IDirect3DSwapChain9Ex::GetDisplayModeEx**](/windows/win32/D3D9/nf-d3d9-idirect3dswapchain9ex-getdisplaymodeex?branch=master).
 
 Applications may choose to handle monitor rotation themselves by using the [D3DPRESENTFLAG\_NOAUTOROTATE](d3dpresentflag.md), in which case, the application will need to know how the monitor is rotated so that it may adjust its rendering accordingly.
 

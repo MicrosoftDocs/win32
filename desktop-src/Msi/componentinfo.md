@@ -1,7 +1,12 @@
 ---
-Description: 'The ComponentInfo object represents additional details about a component that may be obtained via a call from MsiGetComponentPathEx.'
-ms.assetid: '9b0ad0a1-c49f-4b14-817b-0cfc9b228d77'
+Description: The ComponentInfo object represents additional details about a component that may be obtained via a call from MsiGetComponentPathEx.
+ms.assetid: 9b0ad0a1-c49f-4b14-817b-0cfc9b228d77
 title: ComponentInfo object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComponentInfo object
@@ -30,7 +35,7 @@ The **ComponentInfo** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,9 +59,9 @@ The **ComponentInfo** object has these properties.
 [Windows Installer Scripting Examples](windows-installer-scripting-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

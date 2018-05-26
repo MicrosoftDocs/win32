@@ -1,7 +1,7 @@
 ---
 title: List-View Item States
-description: An item's state value consists of the item's state, an optional overlay mask index, and an optional state image mask index.
-ms.assetid: '21827f4a-f133-489b-bbd2-6979d1928b40'
+description: An items state value consists of the items state, an optional overlay mask index, and an optional state image mask index.
+ms.assetid: 21827f4a-f133-489b-bbd2-6979d1928b40
 topic_type:
 - apiref
 api_name:
@@ -16,6 +16,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List-View Item States
@@ -52,9 +57,9 @@ You can use the **LVIS\_OVERLAYMASK** mask to isolate the one-based index of the
 
 
 
- 
+ 
 
- 
+ 
 
 
 

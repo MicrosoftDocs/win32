@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the next top-level object in the DirectX file. Deprecated.'
-ms.assetid: '91cd3205-5603-4a62-aab2-7ef4adb9e6d1'
-title: 'IDirectXFileEnumObject::GetNextDataObject method'
+---
+Description: Retrieves the next top-level object in the DirectX file. Deprecated.
+ms.assetid: 91cd3205-5603-4a62-aab2-7ef4adb9e6d1
+title: IDirectXFileEnumObjectGetNextDataObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileEnumObject::GetNextDataObject method

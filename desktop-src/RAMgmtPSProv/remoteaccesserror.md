@@ -2,13 +2,15 @@
 title: RemoteAccessError class
 description: An extended error object that contains the error details of the RemoteAccess cmdlets. It inherits from the MSFT\_WmiError and extends it by adding the following fields to the error object.
 audience: developer
-ms.assetid: '0c37103f-5203-48f9-bbe6-acfe7cc9a93f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0c37103f-5203-48f9-bbe6-acfe7cc9a93f
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessError class", "RemoteAccessError class, described"]
+keywords:
+- RemoteAccessError class
+- RemoteAccessError class, described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessError class
@@ -1904,7 +1909,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>131–65535</dd> </dl>
+</dt> <dd>131 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1964,16 +1969,16 @@ The remote access specific error code
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

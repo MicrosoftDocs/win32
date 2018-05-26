@@ -1,16 +1,21 @@
 ---
 Description: COM+ Partitions Tasks
-ms.assetid: 'ebcbfced-7d7a-46dc-a728-cdb920ccb874'
+ms.assetid: ebcbfced-7d7a-46dc-a728-cdb920ccb874
 title: COM+ Partitions Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Partitions Tasks
 
 The following topics in this section provide step-by-step instructions for using COM+ partitions.
 
-**Windows XP:** The ability to create, configure, or delegate COM+ partitions is not available. The global partition is the only COM+ partition available.
+**Windows XP:** The ability to create, configure, or delegate COM+ partitions is not available. The global partition is the only COM+ partition available.
 
-**Windows 2000:  ** The COM+ partitions service is not available in Windows 2000.
+**Windows 2000:  ** The COM+ partitions service is not available in Windows 2000.
 
 
 
@@ -26,12 +31,12 @@ The following topics in this section provide step-by-step instructions for using
 
 
 
- 
+ 
 
 > [!Note]  
 > The COM+ Partitions service is not enabled by default. To use the COM+ partitions service, you must enable it through the Component Services administration tool or by changing the PartitionsEnabled property on the [**LocalComputer**](localcomputer.md) collection to True.
 
- 
+ 
 
 ## Related topics
 
@@ -40,9 +45,9 @@ The following topics in this section provide step-by-step instructions for using
 [COM+ Partitions Concepts](com--partitions-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Converts a date in the string FILETIME format to the CIM datetime format.'
+Description: Converts a date in the string FILETIME format to the CIM datetime format.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e375afda-5e94-46d6-b1ac-e801e0f4a620'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e375afda-5e94-46d6-b1ac-e801e0f4a620
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemDateTime.SetFileTime method'
+title: SWbemDateTime.SetFileTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemDateTime.SetFileTime method
@@ -79,8 +82,8 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -102,9 +105,9 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 [**DATETIME**](datetime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

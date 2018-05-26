@@ -4,11 +4,16 @@ description: An application directory partition is deleted by deleting the cross
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bc7986c1-5a11-440c-924e-dc525b5cb78f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: bc7986c1-5a11-440c-924e-dc525b5cb78f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Deleting an Application Directory Partition AD", "Application Directory Partitions AD , Deleting"]
+keywords:
+- Deleting an Application Directory Partition AD
+- Application Directory Partitions AD , Deleting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Deleting an Application Directory Partition

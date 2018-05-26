@@ -1,7 +1,12 @@
 ---
-Description: 'The Version API Helper functions are used to determine the version of the operating system that is currently running. For more information, see Getting the System Version.'
-ms.assetid: '1a70b1d9-ed66-4201-9921-4e26e4001020'
+Description: The Version API Helper functions are used to determine the version of the operating system that is currently running. For more information, see Getting the System Version.
+ms.assetid: 1a70b1d9-ed66-4201-9921-4e26e4001020
 title: Operating System Version
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operating System Version
@@ -16,71 +21,71 @@ Operating system
 
 Version number
 
-Windows 10
+Windows 10
 
 10.0\*
 
-Windows Server 2016
+Windows Server 2016
 
 10.0\*
 
-Windows 8.1
+Windows 8.1
 
 6.3\*
 
-Windows Server 2012 R2
+Windows Server 2012 R2
 
 6.3\*
 
-Windows 8
+Windows 8
 
 6.2
 
-Windows Server 2012
+Windows Server 2012
 
 6.2
 
-Windows 7
+Windows 7
 
 6.1
 
-Windows Server 2008 R2
+Windows Server 2008 R2
 
 6.1
 
-Windows Server 2008
+Windows Server 2008
 
 6.0
 
-Windows Vista
+Windows Vista
 
 6.0
 
-Windows Server 2003 R2
+Windows Server 2003 R2
 
 5.2
 
-Windows Server 2003
+Windows Server 2003
 
 5.2
 
-Windows XP 64-Bit Edition
+Windows XP 64-Bit Edition
 
 5.2
 
-Windows XP
+Windows XP
 
 5.1
 
-Windows 2000
+Windows 2000
 
 5.0
 
-**\*** For applications that have been manifested for Windows 8.1 or Windows 10. Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2). To manifest your applications for Windows 8.1 or Windows 10, refer to [Targeting your application for Windows](targeting-your-application-at-windows-8-1.md).<br/>
+**\*** For applications that have been manifested for Windows 8.1 or Windows 10. Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2). To manifest your applications for Windows 8.1 or Windows 10, refer to [Targeting your application for Windows](targeting-your-application-at-windows-8-1.md).<br/>
 
 
 
- 
+ 
 
 Identifying the current operating system is usually not the best way to determine whether a particular operating system feature is present. This is because the operating system may have had new features added in a redistributable DLL. Rather than using the [Version API Helper functions](version-helper-apis.md) to determine the operating system platform or version number, test for the presence of the feature itself.
 
@@ -92,11 +97,11 @@ To determine the best way to test for a feature, refer to the documentation for 
 
 If you must require a particular operating system, be sure to use it as a minimum supported version, rather than design the test for the one operating system. This way, your detection code will continue to work on future versions of Windows.
 
-Note that a 32-bit application can detect whether it is running under WOW64 by calling the [**IsWow64Process**](https://msdn.microsoft.com/library/windows/desktop/ms684139) function. It can obtain additional processor information by calling the [**GetNativeSystemInfo**](getnativesysteminfo.md) function.
+Note that a 32-bit application can detect whether it is running under WOW64 by calling the [**IsWow64Process**](https://msdn.microsoft.com/library/windows/desktop/ms684139) function. It can obtain additional processor information by calling the [**GetNativeSystemInfo**](/windows/win32/Winbase/?branch=master) function.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,15 @@
 title: DnsServerPacketStatistics class
 description: Represents DNS server statistics related to packets usage.
 audience: developer
-ms.assetid: 'c57afb37-97af-4b5a-8e8e-11a31ada9bf1'
-ms.prod: 'windows-server-dev'
+ms.assetid: c57afb37-97af-4b5a-8e8e-11a31ada9bf1
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerPacketStatistics class", "DnsServerPacketStatistics class, described"]
+keywords:
+- DnsServerPacketStatistics class
+- DnsServerPacketStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -36,6 +38,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerPacketStatistics class
@@ -338,7 +343,7 @@ The number of UDP packets from the pool of packets used by the server.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -352,9 +357,9 @@ The number of UDP packets from the pool of packets used by the server.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

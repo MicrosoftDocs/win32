@@ -1,7 +1,12 @@
 ---
-Description: 'The InactivateWindow method inactivates the window. In the base class, this method hides the window.'
-ms.assetid: 'b575d4fd-dee1-4ae5-abb4-e92ae361e82a'
-title: 'CBaseWindow.InactivateWindow method'
+Description: The InactivateWindow method inactivates the window. In the base class, this method hides the window.
+ms.assetid: b575d4fd-dee1-4ae5-abb4-e92ae361e82a
+title: CBaseWindow.InactivateWindow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.InactivateWindow method
@@ -34,7 +39,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,9 +59,9 @@ Returns one of the **HRESULT** values shown in the following table.
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

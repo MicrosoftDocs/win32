@@ -1,8 +1,16 @@
 ---
 title: Bluetooth and getsockopt
 description: Bluetooth uses the getsockopt function to query various parameters associated with the server channel or the connection.
-ms.assetid: '9593fd6c-b55d-45d8-a9d9-87ebcd09d1bd'
-keywords: ["Bluetooth", "getsockopt", "Bluetooth and getsockopt"]
+ms.assetid: 9593fd6c-b55d-45d8-a9d9-87ebcd09d1bd
+keywords:
+- Bluetooth
+- getsockopt
+- Bluetooth and getsockopt
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and getsockopt

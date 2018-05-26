@@ -1,7 +1,12 @@
 ---
-Description: 'The CurrentMediaType method retrieves the media type for the current pin connection.'
-ms.assetid: '1c42664d-160a-4f76-9d7a-40414c5c1704'
-title: 'CTransformOutputPin.CurrentMediaType method'
+Description: The CurrentMediaType method retrieves the media type for the current pin connection.
+ms.assetid: 1c42664d-160a-4f76-9d7a-40414c5c1704
+title: CTransformOutputPin.CurrentMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformOutputPin.CurrentMediaType method
@@ -36,9 +41,9 @@ Returns a reference to the [**CBasePin::m\_mt**](cbasepin-m-mt.md) member variab
 
 
 
- 
+ 
 
- 
+ 
 
 
 

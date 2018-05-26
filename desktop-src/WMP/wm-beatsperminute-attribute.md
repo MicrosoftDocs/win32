@@ -1,14 +1,20 @@
 ---
 title: WM/BeatsPerMinute Attribute
 description: The WM/BeatsPerMinute attribute is the beats per minute of the content.
-ms.assetid: '657adf62-7217-451d-b797-feda6f44d78d'
-keywords: ["WM/BeatsPerMinute Attribute Windows Media Player"]
+ms.assetid: 657adf62-7217-451d-b797-feda6f44d78d
+keywords:
+- WM/BeatsPerMinute Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/BeatsPerMinute
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/BeatsPerMinute Attribute
@@ -44,9 +50,9 @@ The Windows Media Format SDK constant for this attribute is g\_wszWMBeatsPerMinu
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

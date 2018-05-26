@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '753d1c5b-e824-4fc3-b731-ae9cb16c0e16'
+Description: .
+ms.assetid: 753d1c5b-e824-4fc3-b731-ae9cb16c0e16
 title: Message Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Message Functions
@@ -10,7 +15,7 @@ title: Message Functions
 -   [**BroadcastSystemMessageEx**](broadcastsystemmessageex.md)
 -   [**DispatchMessage**](dispatchmessage.md)
 -   [**GetInputState**](getinputstate.md)
--   [**GetMessage**](getmessage.md)
+-   [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master)
 -   [**GetMessageExtraInfo**](getmessageextrainfo.md)
 -   [**GetMessagePos**](getmessagepos.md)
 -   [**GetMessageTime**](getmessagetime.md)

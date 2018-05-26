@@ -1,8 +1,11 @@
 ---
 title: IDatabase ChangeStreamLock method
 description: Will change the access type for the specified stream.
-ms.assetid: '22e38b76-72d0-49f5-9a92-c33aa428fef0'
-keywords: ["ChangeStreamLock method Windows Mail (formerly Outlook Express)", "ChangeStreamLock method Windows Mail (formerly Outlook Express) , IDatabase interface", "IDatabase interface Windows Mail (formerly Outlook Express) , ChangeStreamLock method"]
+ms.assetid: 22e38b76-72d0-49f5-9a92-c33aa428fef0
+keywords:
+- ChangeStreamLock method Windows Mail (formerly Outlook Express)
+- ChangeStreamLock method Windows Mail (formerly Outlook Express) , IDatabase interface
+- IDatabase interface Windows Mail (formerly Outlook Express) , ChangeStreamLock method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabase::ChangeStreamLock method
@@ -24,8 +32,8 @@ Will change the access type for the specified stream.
 
 ```C++
 HRESULT ChangeStreamLock(
-  [in] IStream    *pStream,
-  [in] ACCESSTYPE tyAccessNew
+  [in] IStream    *pStream,
+  [in] ACCESSTYPE tyAccessNew
 );
 ```
 
@@ -67,7 +75,7 @@ Use the SUCCEEDED macro to determine whether the operation succeeded.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,17 +83,17 @@ Use the SUCCEEDED macro to determine whether the operation succeeded.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

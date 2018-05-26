@@ -4,11 +4,14 @@ description: Called during the connection sequence when the client retrieves the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1db98b8b-2f08-4252-ad8b-6764fa25b300'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 1db98b8b-2f08-4252-ad8b-6764fa25b300
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnReceivedTSPublicKey method Remote Desktop Services", "OnReceivedTSPublicKey method Remote Desktop Services , IMsTscAxEvents interface", "IMsTscAxEvents interface Remote Desktop Services , OnReceivedTSPublicKey method"]
+keywords:
+- OnReceivedTSPublicKey method Remote Desktop Services
+- OnReceivedTSPublicKey method Remote Desktop Services , IMsTscAxEvents interface
+- IMsTscAxEvents interface Remote Desktop Services , OnReceivedTSPublicKey method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAxEvents::OnReceivedTSPublicKey method
@@ -28,8 +34,8 @@ Called during the connection sequence when the client retrieves the public key f
 
 ```C++
 void OnReceivedTSPublicKey(
-  [in]  BSTR         publicKey,
-  [out] VARIANT_BOOL *pfContinueLogon
+  [in]  BSTR         publicKey,
+  [out] VARIANT_BOOL *pfContinueLogon
 );
 ```
 
@@ -67,8 +73,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008, Windows Server 2008 with SP1<br/>                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008, Windows Server 2008 with SP1<br/>                           |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IMsTscAxEvents is defined as 336d5562-efa8-482e-8cb3-c5c0fc7a7db6<br/>           |
@@ -82,9 +88,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscAxEvents**](imstscaxevents-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

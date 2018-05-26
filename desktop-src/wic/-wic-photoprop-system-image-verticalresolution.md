@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Image.VerticalResolution property.'
-ms.assetid: 'a58b7463-3572-4ca8-8299-93d92d2f06fb'
-title: 'System.Image.VerticalResolution Photo Metadata Policy'
+Description: The photo metadata policy for the System.Image.VerticalResolution property.
+ms.assetid: a58b7463-3572-4ca8-8299-93d92d2f06fb
+title: System.Image.VerticalResolution Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.VerticalResolution Photo Metadata Policy

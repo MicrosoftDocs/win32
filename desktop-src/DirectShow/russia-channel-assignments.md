@@ -1,7 +1,12 @@
 ---
-Description: 'This topic lists the frequency tables used for analog TV tuning for Russia.'
-ms.assetid: '7585ce79-39ef-4174-833a-c314289fec43'
+Description: This topic lists the frequency tables used for analog TV tuning for Russia.
+ms.assetid: 7585ce79-39ef-4174-833a-c314289fec43
 title: Russia Channel Assignments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Russia Channel Assignments

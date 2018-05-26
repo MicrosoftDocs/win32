@@ -1,12 +1,17 @@
 ---
 title: How to Walk the UI Automation Tree
 description: This topic contains example code that shows how to use the IUIAutomationTreeWalker interface to walk through and examine the elements in the Microsoft UI Automation tree.
-ms.assetid: '41ca783d-56d1-4ad5-8f07-c265ff2e07bd'
+ms.assetid: 41ca783d-56d1-4ad5-8f07-c265ff2e07bd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Walk the UI Automation Tree
 
-This topic contains example code that shows how to use the [**IUIAutomationTreeWalker**](uiauto-iuiautomationtreewalker.md) interface to walk through and examine the elements in the Microsoft UI Automation tree. It discusses the following topics:
+This topic contains example code that shows how to use the [**IUIAutomationTreeWalker**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationtreewalker?branch=master) interface to walk through and examine the elements in the Microsoft UI Automation tree. It discusses the following topics:
 
 -   [Walking through Descendants of an Element](#walking-through-descendants-of-an-element)
 -   [Walking through Ancestor Elements](#walking-through-ancestor-elements)

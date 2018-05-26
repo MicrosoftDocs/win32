@@ -2,13 +2,15 @@
 title: DnsServerZone class
 description: Represents a DNS zone.
 audience: developer
-ms.assetid: '15d91109-9165-46bf-aad1-b95d0b4729e7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 15d91109-9165-46bf-aad1-b95d0b4729e7
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerZone class", "DnsServerZone class, described"]
+keywords:
+- DnsServerZone class
+- DnsServerZone class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerZone class
@@ -40,9 +45,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerZone : DnsDomain
 {
-  string  DistinguishedName;
-  string  ZoneName;
-  string  ZoneType;
+  string  DistinguishedName;
+  string  ZoneName;
+  string  ZoneType;
   boolean IsPaused;
   boolean IsDsIntegrated;
   boolean IsAutoCreated;
@@ -229,7 +234,7 @@ The possible values are.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -246,9 +251,9 @@ The possible values are.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMDVDDrive DeviceNumber property
 description: The DeviceNumber property contains the device number to which this DVD drive is attached.
-ms.assetid: 'bdfce5c4-00d6-4ba9-81a2-536655ea5d97'
-keywords: ["DeviceNumber property Virtual Server", "DeviceNumber property Virtual Server , IVMDVDDrive interface", "IVMDVDDrive interface Virtual Server , DeviceNumber property", "DeviceNumber property Virtual Server , VMDVDDrive interface", "VMDVDDrive interface Virtual Server , DeviceNumber property"]
+ms.assetid: bdfce5c4-00d6-4ba9-81a2-536655ea5d97
+keywords:
+- DeviceNumber property Virtual Server
+- DeviceNumber property Virtual Server , IVMDVDDrive interface
+- IVMDVDDrive interface Virtual Server , DeviceNumber property
+- DeviceNumber property Virtual Server , VMDVDDrive interface
+- VMDVDDrive interface Virtual Server , DeviceNumber property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDrive::DeviceNumber property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DeviceNumber(
-  [out] long *deviceNumber
+  [out] long *deviceNumber
 );
 ```
 
@@ -81,8 +91,8 @@ For example, on an IDE bus, this value would represent either the primary or sec
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -94,9 +104,9 @@ For example, on an IDE bus, this value would represent either the primary or sec
 [**IVMDVDDrive**](ivmdvddrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

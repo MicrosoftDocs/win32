@@ -1,8 +1,15 @@
 ---
 title: Setting Lighting and Coloring
 description: In addition to specifying colors and normal vectors, you can define the desired lighting conditions with glLight\ and glLightModel\ , and the desired material properties with glMaterial\ .
-ms.assetid: '0a159c0b-d236-449d-b68c-991ebce6541f'
-keywords: ["OpenGL processing pipeline,lighting", "lighting OpenGL"]
+ms.assetid: 0a159c0b-d236-449d-b68c-991ebce6541f
+keywords:
+- OpenGL processing pipeline,lighting
+- lighting OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Lighting and Coloring

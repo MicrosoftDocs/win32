@@ -1,7 +1,12 @@
 ---
 title: Traffic Control Modules
 description: Traffic control (TC) plays a central role in the provision of quality of service.
-ms.assetid: 'de5d3925-3c6f-4fad-bbc9-c337e7ac7272'
+ms.assetid: de5d3925-3c6f-4fad-bbc9-c337e7ac7272
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Traffic Control Modules

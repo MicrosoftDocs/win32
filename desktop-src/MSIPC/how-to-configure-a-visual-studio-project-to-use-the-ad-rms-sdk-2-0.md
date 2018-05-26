@@ -4,10 +4,13 @@ description: This topic contains instructions about how to configure a Visual St
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '396A2C19-3A00-4E9A-9088-198A48B15289'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 396A2C19-3A00-4E9A-9088-198A48B15289
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Configure Visual Studio

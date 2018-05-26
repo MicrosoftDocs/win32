@@ -1,7 +1,12 @@
 ---
 title: Graph Samples Format
 description: Graph Samples Format
-ms.assetid: 'bb3b1cf0-8493-4b33-880f-36e542572552'
+ms.assetid: bb3b1cf0-8493-4b33-880f-36e542572552
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Graph Samples Format

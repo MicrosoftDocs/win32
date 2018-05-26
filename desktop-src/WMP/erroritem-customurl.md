@@ -1,8 +1,9 @@
 ---
 title: ErrorItem.customUrl
 description: The customURL property retrieves the URL of a website that displays specific information about codec download failure.
-ms.assetid: '51028f45-2ce6-4e57-86bd-d7c2d8fb3af8'
-keywords: ["ErrorItem.customUrl Windows Media Player"]
+ms.assetid: 51028f45-2ce6-4e57-86bd-d7c2d8fb3af8
+keywords:
+- ErrorItem.customUrl Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorItem.customUrl
@@ -50,9 +56,9 @@ This property is a read-only **String**.
 [**ErrorItem Object**](erroritem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

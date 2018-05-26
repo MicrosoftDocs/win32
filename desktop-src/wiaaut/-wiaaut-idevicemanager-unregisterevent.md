@@ -1,8 +1,11 @@
 ---
 title: DeviceManager.UnregisterEvent method
 description: Unregisters the specified EventID for the specified DeviceID. UnregisterEvent should only be called for the EventID and DeviceID for which you called RegisterEvent.
-ms.assetid: '0f234e87-34e5-4767-9fb4-8176fce48f27'
-keywords: ["UnregisterEvent method WIA Automation", "UnregisterEvent method WIA Automation , DeviceManager object", "DeviceManager object WIA Automation , UnregisterEvent method"]
+ms.assetid: 0f234e87-34e5-4767-9fb4-8176fce48f27
+keywords:
+- UnregisterEvent method WIA Automation
+- UnregisterEvent method WIA Automation , DeviceManager object
+- DeviceManager object WIA Automation , UnregisterEvent method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceManager.UnregisterEvent method
@@ -57,7 +65,7 @@ Type: **BSTR**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -77,8 +85,8 @@ Unlike [**UnregisterPersistentEvent**](-wiaaut-idevicemanager-unregisterpersiste
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -118,9 +126,9 @@ Unlike [**UnregisterPersistentEvent**](-wiaaut-idevicemanager-unregisterpersiste
 [**EventID Constants**](-wiaaut-consts-eventid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

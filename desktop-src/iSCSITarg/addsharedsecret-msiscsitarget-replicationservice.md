@@ -4,13 +4,16 @@ description: Introduces a new instance of the CIM\_SharedSecret class in the spe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '13a8e85e-5099-4376-93c7-8715555b86c3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 13a8e85e-5099-4376-93c7-8715555b86c3
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddSharedSecret method iSCSI Software Target API", "AddSharedSecret method iSCSI Software Target API , MSISCSITARGET_ReplicationService class", "MSISCSITARGET_ReplicationService class iSCSI Software Target API , AddSharedSecret method"]
+keywords:
+- AddSharedSecret method iSCSI Software Target API
+- AddSharedSecret method iSCSI Software Target API , MSISCSITARGET_ReplicationService class
+- MSISCSITARGET_ReplicationService class iSCSI Software Target API , AddSharedSecret method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddSharedSecret method of the MSISCSITARGET\_ReplicationService class
@@ -32,10 +38,10 @@ This method is inherited from the **CIM\_ReplicationService** class.
 
 ```mof
 uint32 AddSharedSecret(
-  [in]           string                     SharedSecret,
-  [in, optional] CIM_ServiceAccessPoint Ref ServiceAccessPoint,
-  [in, optional] string                     InstanceNamespace,
-  [out]          CIM_SharedSecret Ref       SharedSecretPath
+  [in]           string                     SharedSecret,
+  [in, optional] CIM_ServiceAccessPoint Ref ServiceAccessPoint,
+  [in, optional] string                     InstanceNamespace,
+  [out]          CIM_SharedSecret Ref       SharedSecretPath
 );
 ```
 
@@ -100,7 +106,7 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–)x7FFF)
+**DMTF Reserved** (7 )x7FFF)
 </dt> <dt>
 
 **Vendor Specific** (0x8000 = *value* )
@@ -113,7 +119,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -130,9 +136,9 @@ This method returns one of the following values.
 [**CIM\_ServiceAccessPoint**](https://msdn.microsoft.com/library/aa388447)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

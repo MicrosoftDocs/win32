@@ -1,8 +1,11 @@
 ---
 title: LogonTrigger.Delay property
 description: For scripting, gets or sets a value that indicates the amount of time between when the user logs on and when the task is started.
-ms.assetid: '643b25fb-b328-48d7-9eb6-aa3e6fabdd70'
-keywords: ["Delay property Task Scheduler", "Delay property Task Scheduler , LogonTrigger object", "LogonTrigger object Task Scheduler , Delay property"]
+ms.assetid: 643b25fb-b328-48d7-9eb6-aa3e6fabdd70
+keywords:
+- Delay property Task Scheduler
+- Delay property Task Scheduler , LogonTrigger object
+- LogonTrigger object Task Scheduler , Delay property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogonTrigger.Delay property
@@ -40,8 +48,8 @@ When reading or writing XML for a task, the logon trigger delay is specified usi
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -57,9 +65,9 @@ When reading or writing XML for a task, the logon trigger delay is specified usi
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

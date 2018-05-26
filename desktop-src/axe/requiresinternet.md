@@ -1,14 +1,20 @@
 ---
 title: RequiresInternet element
 description: If present this assessment requires an working internet connection.
-ms.assetid: 'A5CA101C-B3FF-4744-AD36-D54D6C7B7514'
-keywords: ["RequiresInternet element Access Execution Engine"]
+ms.assetid: A5CA101C-B3FF-4744-AD36-D54D6C7B7514
+keywords:
+- RequiresInternet element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RequiresInternet
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresInternet element
@@ -60,9 +66,9 @@ This is only used as a presentation hint for programs that support the selection
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

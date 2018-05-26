@@ -1,7 +1,12 @@
 ---
 Description: Implement DLL Functions
-ms.assetid: 'cbb0168b-8003-4058-924f-4ebafc03f582'
+ms.assetid: cbb0168b-8003-4058-924f-4ebafc03f582
 title: Implement DLL Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implement DLL Functions

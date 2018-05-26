@@ -1,14 +1,20 @@
 ---
 title: MenuEndTime element
 description: Specifies the time index at which to end a source.
-ms.assetid: '9ffe0742-f186-4a82-83b7-43358174e1cd'
-keywords: ["MenuEndTime element Windows Movie Maker and DVD Maker"]
+ms.assetid: 9ffe0742-f186-4a82-83b7-43358174e1cd
+keywords:
+- MenuEndTime element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - MenuEndTime
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MenuEndTime element
@@ -50,7 +56,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -68,9 +74,9 @@ There are no child elements.
 [**MenuStartTime**](menustarttime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: ModifyServiceSettings method of the Msvm\_VirtualSystemManagementService class
 description: Modifies the setting data for the service.
-ms.assetid: 'aa14a83d-d4a8-4821-9603-562281b0c43d'
-keywords: ["ModifyServiceSettings method Hyper-V", "ModifyServiceSettings method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , ModifyServiceSettings method"]
+ms.assetid: aa14a83d-d4a8-4821-9603-562281b0c43d
+keywords:
+- ModifyServiceSettings method Hyper-V
+- ModifyServiceSettings method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , ModifyServiceSettings method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModifyServiceSettings method of the Msvm\_VirtualSystemManagementService class
@@ -22,8 +30,8 @@ Modifies the setting data for the service.
 
 ```mof
 uint32 ModifyServiceSettings(
-  [in]  string              SettingData,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              SettingData,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -109,9 +117,9 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -130,9 +138,9 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 [**CIM\_ConcreteJob**](https://msdn.microsoft.com/library/cc136808)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

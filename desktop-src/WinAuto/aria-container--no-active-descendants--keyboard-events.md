@@ -1,8 +1,14 @@
 ---
 title: ARIA Container Role (without active descendant) Keyboard Accessibility Error
 description: ARIA Container Role (without active descendant) Keyboard Accessibility Error
-ms.assetid: '15EDD3CC-FC2A-42FC-95DD-B04D9AF3515E'
-keywords: ["AriaContainerWithoutActiveDescendantKeyboardAccessiblityId"]
+ms.assetid: 15EDD3CC-FC2A-42FC-95DD-B04D9AF3515E
+keywords:
+- AriaContainerWithoutActiveDescendantKeyboardAccessiblityId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARIA Container Role (without active descendant) Keyboard Accessibility Error

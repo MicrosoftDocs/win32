@@ -1,7 +1,12 @@
 ---
 Description: Topologies
-ms.assetid: '4f69b099-0ca7-4ea6-8412-0f1ea02e1600'
+ms.assetid: 4f69b099-0ca7-4ea6-8412-0f1ea02e1600
 title: Topologies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Topologies
@@ -30,7 +35,7 @@ This section contains the following topics.
 [Media Session](media-session.md)
 </dt> <dt>
 
-[**IMFTopology**](imftopology.md)
+[**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master)
 </dt> </dl>
 
  

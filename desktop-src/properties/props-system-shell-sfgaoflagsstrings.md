@@ -1,7 +1,12 @@
 ---
-Description: 'Expresses the SFGAO flags as string values, and is used as a query optimization.'
-ms.assetid: 'b4ae5ec8-191b-4623-8968-1fbf69cc2eb3'
-title: 'System.Shell.SFGAOFlagsStrings'
+Description: Expresses the SFGAO flags as string values, and is used as a query optimization.
+ms.assetid: b4ae5ec8-191b-4623-8968-1fbf69cc2eb3
+title: System.Shell.SFGAOFlagsStrings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.SFGAOFlagsStrings

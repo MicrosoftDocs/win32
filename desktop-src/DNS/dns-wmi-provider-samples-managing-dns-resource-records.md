@@ -1,7 +1,12 @@
 ---
 title: DNS WMI Provider Samples—Managing DNS Resource Records
 description: DNS WMI Provider Samples—Managing DNS Resource Records
-ms.assetid: '4b038c74-eec8-459c-9e3f-3be2a244d313'
+ms.assetid: 4b038c74-eec8-459c-9e3f-3be2a244d313
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DNS WMI Provider Samples—Managing DNS Resource Records

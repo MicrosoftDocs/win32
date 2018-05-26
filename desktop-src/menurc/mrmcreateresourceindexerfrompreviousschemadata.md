@@ -1,8 +1,9 @@
 ---
 title: MrmCreateResourceIndexerFromPreviousSchemaData function
 description: Creates a resource indexer from in-memory schema data created with a previous call to either MrmDumpPriFileInMemory or MrmDumpPriDataInMemory.
-ms.assetid: 'D9C90C12-CEFE-4794-9553-8BFBE9E43D99'
-keywords: ["MrmCreateResourceIndexerFromPreviousSchemaData function Menus and Other Resources"]
+ms.assetid: D9C90C12-CEFE-4794-9553-8BFBE9E43D99
+keywords:
+- MrmCreateResourceIndexerFromPreviousSchemaData function Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmCreateResourceIndexerFromPreviousSchemaData function
@@ -24,12 +30,12 @@ Creates a resource indexer from in-memory schema data created with a previous ca
 
 ```C++
 HRESULT HRESULT MrmCreateResourceIndexerFromPreviousSchemaData(
-  _In_     PCWSTR                   projectRoot,
-  _In_     MrmPlatformVersion       platformVersion,
-  _In_opt_ PCWSTR                   defaultQualifiers,
-  _In_     BYTE                     *schemaXmlData,
-  _In_     ULONG                    schemaXmlSize,
-  _Inout_  MrmResourceIndexerHandle *indexer
+  _In_     PCWSTR                   projectRoot,
+  _In_     MrmPlatformVersion       platformVersion,
+  _In_opt_ PCWSTR                   defaultQualifiers,
+  _In_     BYTE                     *schemaXmlData,
+  _In_     ULONG                    schemaXmlSize,
+  _Inout_  MrmResourceIndexerHandle *indexer
 );
 ```
 
@@ -109,7 +115,7 @@ Don't free *schemaXmlData* until after you've finished using the resource indexe
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Mrmsupport.lib</dt> </dl>       |
@@ -124,9 +130,9 @@ Don't free *schemaXmlData* until after you've finished using the resource indexe
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

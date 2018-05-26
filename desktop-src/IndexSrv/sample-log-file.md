@@ -1,7 +1,12 @@
 ---
 title: Sample Log File
 description: Sample Log File
-ms.assetid: '77d5c3d8-aa1e-42c7-94de-105333a1c8f3'
+ms.assetid: 77d5c3d8-aa1e-42c7-94de-105333a1c8f3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Log File

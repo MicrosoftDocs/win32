@@ -4,11 +4,30 @@ description: Specifies the name of the file containing icon data that will be ac
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2b6ac2ad-9745-4b80-a415-4840cd8aa8b3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2b6ac2ad-9745-4b80-a415-4840cd8aa8b3
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IconFile property Remote Desktop Services", "IconFile property Remote Desktop Services , IMsTscAdvancedSettings interface", "IMsTscAdvancedSettings interface Remote Desktop Services , IconFile property", "IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings interface", "IMsRdpClientAdvancedSettings interface Remote Desktop Services , IconFile property", "IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface", "IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , IconFile property", "IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface", "IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , IconFile property", "IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface", "IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , IconFile property", "IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , IconFile property", "IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , IconFile property", "IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , IconFile property", "IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , IconFile property"]
+keywords:
+- IconFile property Remote Desktop Services
+- IconFile property Remote Desktop Services , IMsTscAdvancedSettings interface
+- IMsTscAdvancedSettings interface Remote Desktop Services , IconFile property
+- IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings interface
+- IMsRdpClientAdvancedSettings interface Remote Desktop Services , IconFile property
+- IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface
+- IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , IconFile property
+- IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface
+- IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , IconFile property
+- IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface
+- IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , IconFile property
+- IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , IconFile property
+- IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , IconFile property
+- IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , IconFile property
+- IconFile property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , IconFile property
 topic_type:
 - apiref
 api_name:
@@ -34,6 +53,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAdvancedSettings::IconFile property
@@ -43,7 +65,7 @@ Specifies the name of the file containing icon data that will be accessed when d
 > [!Note]  
 > This property is not supported in the ActiveX control (MsRdp.ocx). It is supported in the MsTscAx.dll library included in the standard client (MsTsc.exe).
 
- 
+ 
 
 This property is write-only.
 
@@ -52,7 +74,7 @@ This property is write-only.
 
 ```C++
 HRESULT put_IconFile(
-  [in] BSTR IconFile
+  [in] BSTR IconFile
 );
 ```
 
@@ -78,8 +100,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | IID<br/>                      | IID\_IMsTscAdvancedSettings is defined as 809945cc-4b3b-4a92-a6b0-dbf9b5f2ef2d<br/> |
@@ -117,9 +139,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

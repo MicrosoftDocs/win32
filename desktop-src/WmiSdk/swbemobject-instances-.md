@@ -1,13 +1,16 @@
 ---
-Description: 'The Instances\_ method of the SWbemObject object creates an enumerator that returns the instances of the current class object. This method implements a simple query. More complex queries may require the use of SWbemServices.ExecQuery.'
+Description: The Instances\_ method of the SWbemObject object creates an enumerator that returns the instances of the current class object. This method implements a simple query. More complex queries may require the use of SWbemServices.ExecQuery.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '30402d7d-f7cb-43b5-96b5-a8a76144e32d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 30402d7d-f7cb-43b5-96b5-a8a76144e32d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.Instances\_ method'
+title: SWbemObject.Instances\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.Instances\_ method
@@ -178,8 +181,8 @@ The **Instances\_** method only works for class objects. It is not an error for 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -198,9 +201,9 @@ The **Instances\_** method only works for class objects. It is not an error for 
 [**SWbemObjectSet**](swbemobjectset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

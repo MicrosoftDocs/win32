@@ -4,11 +4,14 @@ description: Calculates the length of the encrypted content from the length of t
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.CustomProtectedStream.GetEncryptedContentLength(Microsoft.RightsManagement.UserPolicy,System.UInt64)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.CustomProtectedStream.GetEncryptedContentLength(Microsoft.RightsManagement.UserPolicy,System.UInt64)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["GetEncryptedContentLength method", "GetEncryptedContentLength method, CustomProtectedStream class", "CustomProtectedStream class, GetEncryptedContentLength method"]
+keywords:
+- GetEncryptedContentLength method
+- GetEncryptedContentLength method, CustomProtectedStream class
+- CustomProtectedStream class, GetEncryptedContentLength method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedStream.GetEncryptedContentLength method
@@ -81,9 +87,9 @@ The content length.
 [**CustomProtectedStream**](customprotectedstream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

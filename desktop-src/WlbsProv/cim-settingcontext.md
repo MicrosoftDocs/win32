@@ -1,16 +1,18 @@
 ---
 title: CIM\_SettingContext class
-description: This relationship associates a setting with one or more configuration objects. For example, a network adapter's settings could change based on the site/network to which its hosting computer system is attached.
+description: This relationship associates a setting with one or more configuration objects. For example, a network adapters settings could change based on the site/network to which its hosting computer system is attached.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '554ec217-4ec5-43b4-9c6c-e82b0ae8b7d7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 554ec217-4ec5-43b4-9c6c-e82b0ae8b7d7
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_SettingContext class", "CIM_SettingContext class, described"]
+keywords:
+- CIM_SettingContext class
+- CIM_SettingContext class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SettingContext class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_SettingContext
 {
   CIM_Configuration REF Context;
-  CIM_Setting       REF Setting;
+  CIM_Setting       REF Setting;
 };
 ```
 
@@ -88,16 +93,16 @@ An aggregated setting.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

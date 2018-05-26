@@ -1,7 +1,12 @@
 ---
-Description: 'With Network Monitor, and capture network data; experts help you analyze the data that is captured.'
-ms.assetid: '36ba6381-3830-4f27-937d-8808129e7d09'
+Description: With Network Monitor, and capture network data; experts help you analyze the data that is captured.
+ms.assetid: 36ba6381-3830-4f27-937d-8808129e7d09
 title: Analyzing Network Traffic
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Analyzing Network Traffic

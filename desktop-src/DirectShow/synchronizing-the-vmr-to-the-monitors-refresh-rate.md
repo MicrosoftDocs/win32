@@ -1,7 +1,12 @@
 ---
-Description: 'Synchronizing the VMR to the Monitor''s Refresh Rate'
-ms.assetid: '73e73821-fb08-488a-956e-ef33f6651a26'
-title: 'Synchronizing the VMR to the Monitor''s Refresh Rate'
+Description: Synchronizing the VMR to the Monitors Refresh Rate
+ms.assetid: 73e73821-fb08-488a-956e-ef33f6651a26
+title: Synchronizing the VMR to the Monitors Refresh Rate
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Synchronizing the VMR to the Monitor's Refresh Rate

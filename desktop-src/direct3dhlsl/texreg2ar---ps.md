@@ -1,7 +1,12 @@
 ---
 title: texreg2ar - ps
 description: Interprets the alpha and red color components of the source register as texture address data (u,v) to sample the texture at the stage corresponding to the destination register number. The result is stored in the destination register.
-ms.assetid: 'b31a2ee4-f9b9-4aee-b3be-7ccc5b8c6f3e'
+ms.assetid: b31a2ee4-f9b9-4aee-b3be-7ccc5b8c6f3e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # texreg2ar - ps

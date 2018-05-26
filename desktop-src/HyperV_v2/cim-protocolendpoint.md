@@ -1,7 +1,12 @@
 ---
-Description: 'A communication point used to send and receive data between systems, computer interfaces, and logical networks.'
-ms.assetid: 'e23ef66b-0bcb-400e-91ff-d6d687d3f0d2'
-title: 'CIM\_ProtocolEndpoint class'
+Description: A communication point used to send and receive data between systems, computer interfaces, and logical networks.
+ms.assetid: e23ef66b-0bcb-400e-91ff-d6d687d3f0d2
+title: CIM\_ProtocolEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ProtocolEndpoint class
@@ -14,15 +19,15 @@ A communication point used to send and receive data between systems, computer in
 [Abstract, Version("2.15.0"), UMLPackagePath("CIM::Core::Service"), AMENDMENT]
 class CIM_ProtocolEndpoint : CIM_ServiceAccessPoint
 {
-  string   Description;
-  uint16   OperationalStatus[];
-  uint16   EnabledState;
+  string   Description;
+  uint16   OperationalStatus[];
+  uint16   EnabledState;
   datetime TimeOfLastStateChange;
-  string   Name;
-  string   NameFormat;
-  uint16   ProtocolType;
-  uint16   ProtocolIFType;
-  string   OtherTypeDescription;
+  string   Name;
+  string   NameFormat;
+  uint16   ProtocolType;
+  uint16   ProtocolIFType;
+  string   OtherTypeDescription;
 };
 ```
 
@@ -151,7 +156,7 @@ An enumeration used to categorize and classify different instances of this class
 > [!Note]  
 > If the **ProtocolIFType** is set to 1 (Other), then the protocol type information should be provided in the **OtherTypeDescription** property.
 
- 
+ 
 
 <dt>
 
@@ -2006,7 +2011,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("**CI
 > [!Note]  
 > Deprecated description: An enumeration used to categorize and classify different instances of this class.
 
- 
+ 
 
 This property is deprecated. Instead, use the **ProtocolIFType** property.
 
@@ -2232,8 +2237,8 @@ The date and time when the **EnabledState** property last changed. If **EnabledS
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -2247,9 +2252,9 @@ The date and time when the **EnabledState** property last changed. If **EnabledS
 [**CIM\_ServiceAccessPoint**](cim-serviceaccesspoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

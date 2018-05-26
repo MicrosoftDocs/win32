@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an additional instance of the IEnumWiaItem2 interface and sends back a pointer to it.'
-ms.assetid: '0d36d555-d0d9-4a1c-ac54-de611850449c'
-title: 'IEnumWiaItem2::Clone method'
+---
+Description: Creates an additional instance of the IEnumWiaItem2 interface and sends back a pointer to it.
+ms.assetid: 0d36d555-d0d9-4a1c-ac54-de611850449c
+title: IEnumWiaItem2Clone method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumWiaItem2::Clone method

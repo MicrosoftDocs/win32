@@ -1,14 +1,20 @@
 ---
 title: merge
 description: Displays the trace merge options.
-ms.assetid: '3a6806bb-6827-47a2-bf1a-8d7e8317bd38'
-keywords: ["merge Windows Performance Analyzer"]
+ms.assetid: 3a6806bb-6827-47a2-bf1a-8d7e8317bd38
+keywords:
+- merge Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
 - merge
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # merge

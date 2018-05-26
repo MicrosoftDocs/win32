@@ -1,7 +1,12 @@
-﻿---
-Description: 'Removes all external keys and related information saved onto the currently running operating system volume that are used to automatically unlock data volumes.'
-ms.assetid: 'a5fef793-0634-493d-b62d-cb842844b1e8'
-title: 'ClearAllAutoUnlockKeys method of the Win32\_EncryptableVolume class'
+---
+Description: Removes all external keys and related information saved onto the currently running operating system volume that are used to automatically unlock data volumes.
+ms.assetid: a5fef793-0634-493d-b62d-cb842844b1e8
+title: ClearAllAutoUnlockKeys method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClearAllAutoUnlockKeys method of the Win32\_EncryptableVolume class

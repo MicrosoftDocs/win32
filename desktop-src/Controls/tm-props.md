@@ -1,8 +1,15 @@
 ---
 title: TM\_PROPS enumeration
 description: Not currently supported.
-ms.assetid: '34b9e158-1d40-4d70-8b83-c13ac16fb7d2'
-keywords: ["TM_PROPS enumeration Windows Controls", "BP_ANIMATIONSTYLE enumeration Windows Controls"]
+ms.assetid: 34b9e158-1d40-4d70-8b83-c13ac16fb7d2
+keywords:
+- TM_PROPS enumeration Windows Controls
+- BP_ANIMATIONSTYLE enumeration Windows Controls
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TM\_PROPS enumeration

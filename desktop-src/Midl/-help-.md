@@ -2,13 +2,19 @@
 title: /help (/ ) switch
 description: The /help (/ ) switch instructs the compiler to display a usage message detailing all available MIDL command-line switches and options.
 ms.assetid: 387e1346-bb43-409d-bd4c-9e10e708ec4f
-keywords: ["/help (/ ) switch MIDL"]
+keywords:
+- /help (/ ) switch MIDL
 topic_type:
 - apiref
 api_name:
 - /help (/ )
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /help (/?) switch

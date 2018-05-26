@@ -1,8 +1,14 @@
 ---
 title: Windows Support for IrCOMM (IrLPT) Printers
 description: IrLPT printing is directly supported in Windows.
-ms.assetid: 'b5c1c53f-9205-411e-a18f-da8aeddfa302'
-keywords: ["IrCOMM IrDA , printers"]
+ms.assetid: b5c1c53f-9205-411e-a18f-da8aeddfa302
+keywords:
+- IrCOMM IrDA , printers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Support for IrCOMM (IrLPT) Printers

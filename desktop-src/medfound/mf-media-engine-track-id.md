@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the track id.'
-ms.assetid: 'C3D53A3D-BEC0-4C53-B000-98DAAC1282CE'
-title: 'MF\_MEDIA\_ENGINE\_TRACK\_ID attribute'
+---
+Description: Specifies the track id.
+ms.assetid: C3D53A3D-BEC0-4C53-B000-98DAAC1282CE
+title: MF\_MEDIA\_ENGINE\_TRACK\_ID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MEDIA\_ENGINE\_TRACK\_ID attribute

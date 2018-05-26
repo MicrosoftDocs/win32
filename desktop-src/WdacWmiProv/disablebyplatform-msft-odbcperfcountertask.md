@@ -4,11 +4,14 @@ description: Disables the ODBC Connection Pooling PerfMon counters for ODBC Conn
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e4356529-f78a-415b-b9e1-dd0237ecc332'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e4356529-f78a-415b-b9e1-dd0237ecc332
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DisableByPlatform method", "DisableByPlatform method, MSFT_OdbcPerfCounterTask class", "MSFT_OdbcPerfCounterTask class, DisableByPlatform method"]
+keywords:
+- DisableByPlatform method
+- DisableByPlatform method, MSFT_OdbcPerfCounterTask class
+- MSFT_OdbcPerfCounterTask class, DisableByPlatform method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WdacWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DisableByPlatform method of the MSFT\_OdbcPerfCounterTask class
@@ -28,9 +34,9 @@ Disables the ODBC Connection Pooling PerfMon counters for ODBC Connection Poolin
 
 ```mof
 uint32 DisableByPlatform(
-  [in]  boolean              PassThru,
-  [in]  string               Platform,
-  [out] MSFT_OdbcPerfCounter cmdletOutput[]
+  [in]  boolean              PassThru,
+  [in]  string               Platform,
+  [out] MSFT_OdbcPerfCounter cmdletOutput[]
 );
 ```
 
@@ -67,8 +73,8 @@ The output is an array of CIM objects of type [**MSFT\_OdbcPerfCounter**](msft-o
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WDAC<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>WdacWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WdacWmiProv.dll</dt> </dl> |
@@ -85,9 +91,9 @@ The output is an array of CIM objects of type [**MSFT\_OdbcPerfCounter**](msft-o
 [**MSFT\_OdbcPerfCounter**](msft-odbcperfcounter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

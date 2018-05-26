@@ -4,11 +4,15 @@ description: DSML SOAP Session Support
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ee619eb4-3266-4b1a-bc93-ef80d4a37d2a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ee619eb4-3266-4b1a-bc93-ef80d4a37d2a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DSML SOAP Session Support DSML"]
+keywords:
+- DSML SOAP Session Support DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DSML SOAP Session Support

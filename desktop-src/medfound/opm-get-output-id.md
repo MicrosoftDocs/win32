@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the unique identifier of the monitor associated with this video output.'
-ms.assetid: 'd34d68ff-c513-483e-8619-4a9baa2a40ba'
-title: 'OPM\_GET\_OUTPUT\_ID'
+---
+Description: Returns the unique identifier of the monitor associated with this video output.
+ms.assetid: d34d68ff-c513-483e-8619-4a9baa2a40ba
+title: OPM\_GET\_OUTPUT\_ID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM\_GET\_OUTPUT\_ID
@@ -14,7 +19,7 @@ Returns the unique identifier of the monitor associated with this video output.
 |--------------|------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_OUTPUT\_ID                                             |
 | Input data   | None                                                             |
-| Return data  | An [**OPM\_OUTPUT\_ID\_DATA**](opm-output-id-data.md) structure |
+| Return data  | An [**OPM\_OUTPUT\_ID\_DATA**](/windows/win32/opmapi/ns-opmapi-_opm_output_id_data?branch=master) structure |
 
 
 
@@ -22,7 +27,7 @@ Returns the unique identifier of the monitor associated with this video output.
 
 ## Remarks
 
-The video driver assigns a unique identifier to each monitor. This query returns the identifier for the monitor that is associated with the current [**IOPMVideoOutput**](iopmvideooutput.md) pointer.
+The video driver assigns a unique identifier to each monitor. This query returns the identifier for the monitor that is associated with the current [**IOPMVideoOutput**](/windows/win32/opmapi/nn-opmapi-iopmvideooutput?branch=master) pointer.
 
 ## Requirements
 
@@ -40,7 +45,7 @@ The video driver assigns a unique identifier to each monitor. This query returns
 
 <dl> <dt>
 
-[**IOPMVideoOutput::GetInformation**](iopmvideooutput-iopmvideooutput--getinformation.md)
+[**IOPMVideoOutput::GetInformation**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-getinformation?branch=master)
 </dt> <dt>
 
 [OPM Status Requests](opm-status-requests.md)

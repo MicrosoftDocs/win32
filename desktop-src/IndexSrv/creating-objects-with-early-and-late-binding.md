@@ -1,7 +1,12 @@
 ---
 title: Creating Objects with Early and Late Binding
 description: Creating Objects with Early and Late Binding
-ms.assetid: 'b3e6a104-8ae2-4040-bb10-e174fc3eca6a'
+ms.assetid: b3e6a104-8ae2-4040-bb10-e174fc3eca6a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Objects with Early and Late Binding

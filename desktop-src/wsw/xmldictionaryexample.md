@@ -1,8 +1,16 @@
 ---
 title: XmlDictionaryExample
 description: This example writes a document using a WS\_XML\_DICTIONARY.
-ms.assetid: 'd8185577-3483-4005-84e5-0b10a6698e79'
-keywords: ["XmlDictionaryExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: d8185577-3483-4005-84e5-0b10a6698e79
+keywords:
+- XmlDictionaryExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XmlDictionaryExample

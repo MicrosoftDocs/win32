@@ -1,7 +1,12 @@
 ---
 title: BITS C++ Application Examples
 description: The Background Intelligent Transfer Service (BITS) application examples in this section are written in C++. They demonstrate a range of tasks that can be completed by using BITS features. Each application is separated into a series of steps.
-ms.assetid: '6163c7fd-e187-4f75-bf25-e3a515e50db5'
+ms.assetid: 6163c7fd-e187-4f75-bf25-e3a515e50db5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITS C++ Application Examples

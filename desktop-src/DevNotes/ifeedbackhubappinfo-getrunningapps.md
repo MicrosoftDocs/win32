@@ -1,7 +1,12 @@
-﻿---
-Description: 'This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.'
-ms.assetid: '2BD60D22-38AD-4027-B733-0B62F33AA4B3'
-title: 'IFeedbackHubAppInfo::GetRunningApps method'
+---
+Description: This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+ms.assetid: 2BD60D22-38AD-4027-B733-0B62F33AA4B3
+title: IFeedbackHubAppInfoGetRunningApps method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFeedbackHubAppInfo::GetRunningApps method

@@ -1,13 +1,16 @@
 ---
-Description: 'Gets the remote access rights for a list of individual users on computers running obsolete versions of Windows , where access control through Windows security descriptors is not available.'
+Description: Gets the remote access rights for a list of individual users on computers running obsolete versions of Windows , where access control through Windows security descriptors is not available.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '79a596db-5f85-4664-8989-f309286eca0d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 79a596db-5f85-4664-8989-f309286eca0d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_SystemSecurity::Get9XUserList method'
+title: '\_\_SystemSecurityGet9XUserList method'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_SystemSecurity::Get9XUserList method
@@ -21,7 +24,7 @@ This functions similar to the security descriptor, but it is more limited. Group
 
 ```C++
 HRESULT Get9XUserList(
-  [out] __NTLMUser9X ul[]
+  [out] __NTLMUser9X ul[]
 );
 ```
 
@@ -57,8 +60,8 @@ This method is not supported on supported versions of Windows.
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | all WMI namespaces<br/>  |
 
 
@@ -91,9 +94,9 @@ This method is not supported on supported versions of Windows.
 [WMI Security Constants](wmi-security-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

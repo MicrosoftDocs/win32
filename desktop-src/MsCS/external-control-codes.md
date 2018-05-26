@@ -4,11 +4,15 @@ description: External control codes define operations that can be performed on c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '83d3cf61-3a5f-4564-bd8d-3677d103cd12'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 83d3cf61-3a5f-4564-bd8d-3677d103cd12
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["control codes Failover Cluster ,external"]
+keywords:
+- control codes Failover Cluster ,external
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # External Control Codes

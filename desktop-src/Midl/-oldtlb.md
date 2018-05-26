@@ -2,13 +2,19 @@
 title: /oldtlb switch
 description: The /oldtlb switch directs the MIDL compiler to generate an old-format type library.
 ms.assetid: cf5fe000-7262-4812-a6ab-f12a558ac068
-keywords: ["/oldtlb switch MIDL"]
+keywords:
+- /oldtlb switch MIDL
 topic_type:
 - apiref
 api_name:
 - /oldtlb
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /oldtlb switch

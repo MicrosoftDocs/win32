@@ -1,8 +1,19 @@
 ---
 title: Private Online Stores
 description: Private Online Stores
-ms.assetid: 'c1e241f5-6d29-4b53-8be0-264597e03de7'
-keywords: ["Windows Media Player online stores,private", "online stores,private", "type 1 online stores,private", "type 2 online stores,private", "private online stores", "registry,private online stores"]
+ms.assetid: c1e241f5-6d29-4b53-8be0-264597e03de7
+keywords:
+- Windows Media Player online stores,private
+- online stores,private
+- type 1 online stores,private
+- type 2 online stores,private
+- private online stores
+- registry,private online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Private Online Stores

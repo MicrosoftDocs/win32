@@ -1,7 +1,12 @@
 ---
 Description: Transitions and Effects
-ms.assetid: '2925c315-4488-4961-a8f7-77a9ac571b70'
+ms.assetid: 2925c315-4488-4961-a8f7-77a9ac571b70
 title: Transitions and Effects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transitions and Effects

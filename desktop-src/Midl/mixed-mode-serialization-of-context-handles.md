@@ -2,7 +2,15 @@
 title: Mixed Mode Serialization of Context Handles
 description: In Microsoft Windows XP, a single interface can accommodate both serialized and nonserialized context handles, which is called mixed-mode serialization.
 ms.assetid: b52c1d6f-cdc5-4597-a36e-bb957e4aab01
-keywords: ["MIDL language reference MIDL , mixed mode serialization of context handles", "context handles MIDL", "mixed mode serialization MIDL"]
+keywords:
+- MIDL language reference MIDL , mixed mode serialization of context handles
+- context handles MIDL
+- mixed mode serialization MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mixed Mode Serialization of Context Handles

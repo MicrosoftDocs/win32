@@ -1,8 +1,16 @@
 ---
 title: Project Considerations
 description: Project Considerations
-ms.assetid: 'aebe2886-0af0-443a-a5be-651f11936639'
-keywords: ["Windows Media Format SDK,project considerations", "Advanced Systems Format (ASF),project considerations", "ASF (Advanced Systems Format),project considerations"]
+ms.assetid: aebe2886-0af0-443a-a5be-651f11936639
+keywords:
+- Windows Media Format SDK,project considerations
+- Advanced Systems Format (ASF),project considerations
+- ASF (Advanced Systems Format),project considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Project Considerations

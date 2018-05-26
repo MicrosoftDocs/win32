@@ -1,8 +1,11 @@
 ---
 title: Property.PropertyID property
 description: Retrieves the PropertyID of this Property.
-ms.assetid: '07c18fdb-4c0a-4a44-8426-dccfddc60763'
-keywords: ["PropertyID property WIA Automation", "PropertyID property WIA Automation , Property object", "Property object WIA Automation , PropertyID property"]
+ms.assetid: 07c18fdb-4c0a-4a44-8426-dccfddc60763
+keywords:
+- PropertyID property WIA Automation
+- PropertyID property WIA Automation , Property object
+- Property object WIA Automation , PropertyID property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property.PropertyID property
@@ -43,8 +51,8 @@ For example code, see [Display Detailed Property Information](-wiaaut-shared-sam
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -57,9 +65,9 @@ For example code, see [Display Detailed Property Information](-wiaaut-shared-sam
 [**Property**](-wiaaut-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

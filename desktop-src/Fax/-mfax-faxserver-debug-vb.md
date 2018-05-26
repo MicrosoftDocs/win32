@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Debug property is a Boolean value that indicates whether the fax server was created in a debug environment.'
-ms.assetid: '5f3f6951-8687-47ad-b173-5afbcd9fd189'
-title: 'FaxServer.Debug property'
+---
+Description: The Debug property is a Boolean value that indicates whether the fax server was created in a debug environment.
+ms.assetid: 5f3f6951-8687-47ad-b173-5afbcd9fd189
+title: FaxServer.Debug property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.Debug property
@@ -50,7 +55,7 @@ If this property is equal to **True**, the fax server was created in a debug env
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

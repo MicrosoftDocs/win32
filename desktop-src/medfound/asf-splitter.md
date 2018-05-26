@@ -1,14 +1,19 @@
 ---
 Description: ASF Splitter
-ms.assetid: '383b1cc6-4a77-4e0e-a766-6213c64b025c'
+ms.assetid: 383b1cc6-4a77-4e0e-a766-6213c64b025c
 title: ASF Splitter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASF Splitter
 
 The ASF *splitter* object is a WMContainer layer component that parses the ASF Data Object of an Advanced Systems Format (ASF) file. You can use the splitter to read the data packets in the Data Object and generate stream samples. For information about the structure of an ASF file, see [ASF File Structure](asf-file-structure.md).
 
-The splitter exposes the [**IMFASFSplitter**](imfasfsplitter.md) interface. The splitter parses ASF data packets for the selected streams and repackages them into individual sample objects that expose the [**IMFSample**](imfsample.md) interface. The splitter is one of the platform-level components of Media Foundation. The ASF media source uses the splitter internally to parse ASF files.
+The splitter exposes the [**IMFASFSplitter**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfsplitter?branch=master) interface. The splitter parses ASF data packets for the selected streams and repackages them into individual sample objects that expose the [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) interface. The splitter is one of the platform-level components of Media Foundation. The ASF media source uses the splitter internally to parse ASF files.
 
 The following diagram illustrates sample generation for an ASF file through the splitter.
 

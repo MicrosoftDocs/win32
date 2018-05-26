@@ -1,21 +1,27 @@
 ---
 title: MCI Functions Macros and Messages
 description: MCI Functions Macros and Messages
-ms.assetid: '7cedc46f-f67b-4b1a-b1e0-7ac32c250132'
-keywords: ["MCI messages"]
+ms.assetid: 7cedc46f-f67b-4b1a-b1e0-7ac32c250132
+keywords:
+- MCI messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI Functions Macros and Messages
 
-Most MCI applications use the [**mciSendString**](mcisendstring.md) and [**mciSendCommand**](mcisendcommand.md) functions dozens of times. MCI provides some other useful functions that your application will use less frequently.
+Most MCI applications use the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) and [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) functions dozens of times. MCI provides some other useful functions that your application will use less frequently.
 
-The device identifier required by most MCI commands is typically retrieved in a call to the [**open**](open.md) ([**MCI\_OPEN**](mci-open.md)) command. If you need a device identifier but do not want to open the device — for example, if you want to query the capabilities of the device before taking any other action — you can call the [**mciGetDeviceID**](mcigetdeviceid.md) function.
+The device identifier required by most MCI commands is typically retrieved in a call to the [**open**](open.md) ([**MCI\_OPEN**](mci-open.md)) command. If you need a device identifier but do not want to open the device — for example, if you want to query the capabilities of the device before taking any other action — you can call the [**mciGetDeviceID**](/windows/win32/Mmsystem/?branch=master) function.
 
-The [**mciGetCreatorTask**](mcigetcreatortask.md) function allows your application to use a device identifier to retrieve a handle to the task that created that identifier.
+The [**mciGetCreatorTask**](/windows/win32/Mmsystem/?branch=master) function allows your application to use a device identifier to retrieve a handle to the task that created that identifier.
 
-You can use the [**mciGetYieldProc**](mcigetyieldproc.md) and [**mciSetYieldProc**](mcisetyieldproc.md) functions to assign and retrieve the address of the callback function associated with the "wait" (MCI\_WAIT) flag.
+You can use the [**mciGetYieldProc**](/windows/win32/Mmsystem/?branch=master) and [**mciSetYieldProc**](/windows/win32/Mmsystem/?branch=master) functions to assign and retrieve the address of the callback function associated with the "wait" (MCI\_WAIT) flag.
 
-The [**mciGetErrorString**](mcigeterrorstring.md) function retrieves a string that describes an MCI error value. Each string that MCI returns, whether data or an error description, is a maximum of 128 characters. Dialog box fields that are smaller than 128 characters will truncate the longer strings returned by MCI. For more information about these strings, see [MCIERR Return Values](mcierr-return-values.md).
+The [**mciGetErrorString**](/windows/win32/Mmsystem/?branch=master) function retrieves a string that describes an MCI error value. Each string that MCI returns, whether data or an error description, is a maximum of 128 characters. Dialog box fields that are smaller than 128 characters will truncate the longer strings returned by MCI. For more information about these strings, see [MCIERR Return Values](mcierr-return-values.md).
 
 The MCI macros are tools you can use to create and disassemble values that specify time formats. These time formats are used in many MCI commands. The formats acted on by the macros are hours/minutes/seconds (HMS), minutes/seconds/frames (MSF), and tracks/minutes/seconds/frames (TMSF). The following table lists the macros and their descriptions.
 
@@ -29,7 +35,7 @@ The MCI macros are tools you can use to create and disassemble values that speci
 | [**MCI\_MAKE\_HMS**](mci-make-hms.md)       | Creates an HMS value.                              |
 | [**MCI\_MAKE\_MSF**](mci-make-msf.md)       | Creates an MSF value.                              |
 | [**MCI\_MAKE\_TMSF**](mci-make-tmsf.md)     | Creates a TMSF value.                              |
-| [**MCI\_MSF\_FRAME**](mci-msf-frame.md)     | Retrieves the frames component from an MSF value.  |
+| [**MCI\_MSF\_FRAME**](/windows/win32/Mmsystem/?branch=master)     | Retrieves the frames component from an MSF value.  |
 | [**MCI\_MSF\_MINUTE**](mci-msf-minute.md)   | Retrieves the minutes component from an MSF value. |
 | [**MCI\_MSF\_SECOND**](mci-msf-second.md)   | Retrieves the seconds component from an MSF value. |
 | [**MCI\_TMSF\_FRAME**](mci-tmsf-frame.md)   | Retrieves the frames component from a TMSF value.  |

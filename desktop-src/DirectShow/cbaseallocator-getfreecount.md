@@ -1,7 +1,12 @@
 ---
-Description: 'The GetFreeCount method retrieves the number of media samples that are not in use.'
-ms.assetid: 'f4ce4cca-0168-42db-9fe7-858862f033a8'
-title: 'CBaseAllocator.GetFreeCount method'
+Description: The GetFreeCount method retrieves the number of media samples that are not in use.
+ms.assetid: f4ce4cca-0168-42db-9fe7-858862f033a8
+title: CBaseAllocator.GetFreeCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator.GetFreeCount method
@@ -13,7 +18,7 @@ The `GetFreeCount` method retrieves the number of media samples that are not in 
 
 ```C++
 HRESULT GetFreeCount(
-   LONG *plBuffersFree
+   LONG *plBuffersFree
 );
 ```
 
@@ -36,7 +41,7 @@ Returns S\_OK.
 
 ## Remarks
 
-This method implements the [**IMemAllocatorCallbackTemp::GetFreeCount**](imemallocatorcallbacktemp-getfreecount.md) method. The allocator does not expose the IMemAllocatorCallbackTemp interface unless the *fEnableReleaseCallback* flag is set to **TRUE** in the CBaseAllocator constructor.
+This method implements the [**IMemAllocatorCallbackTemp::GetFreeCount**](/windows/win32/Strmif/nf-strmif-imemallocatorcallbacktemp-getfreecount?branch=master) method. The allocator does not expose the IMemAllocatorCallbackTemp interface unless the *fEnableReleaseCallback* flag is set to **TRUE** in the CBaseAllocator constructor.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ This method implements the [**IMemAllocatorCallbackTemp::GetFreeCount**](imemall
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

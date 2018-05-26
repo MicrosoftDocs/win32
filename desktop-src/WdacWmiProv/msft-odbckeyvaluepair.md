@@ -4,11 +4,13 @@ description: Key-value pair for ODBC CIM providers.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '29c406da-5470-4107-a2fd-c1d4ea29d3af'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 29c406da-5470-4107-a2fd-c1d4ea29d3af
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_OdbcKeyValuePair class", "MSFT_OdbcKeyValuePair class, described"]
+keywords:
+- MSFT_OdbcKeyValuePair class
+- MSFT_OdbcKeyValuePair class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - WdacWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_OdbcKeyValuePair class
@@ -100,8 +105,8 @@ Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (512)
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WDAC<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>WdacWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WdacWmiProv.dll</dt> </dl> |
@@ -115,9 +120,9 @@ Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (512)
 [WDAC WMI Provider Reference](wdac-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

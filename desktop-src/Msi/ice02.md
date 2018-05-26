@@ -1,7 +1,12 @@
 ---
-Description: 'ICE02 validates that certain references between the Component, File, and Registry tables are reciprocal. These references must to be reciprocal for the installer to correctly determine the installation state of components.'
-ms.assetid: '864404f1-439d-49a2-973d-4e6e1618863e'
+Description: ICE02 validates that certain references between the Component, File, and Registry tables are reciprocal. These references must to be reciprocal for the installer to correctly determine the installation state of components.
+ms.assetid: 864404f1-439d-49a2-973d-4e6e1618863e
 title: ICE02
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE02

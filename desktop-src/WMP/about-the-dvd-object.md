@@ -1,8 +1,21 @@
 ---
 title: About the DVD Object
 description: About the DVD Object
-ms.assetid: '6c255e9e-d537-4f4f-865c-b7fb26c8e413'
-keywords: ["Windows Media Player,DVD object", "Windows Media Player object model,DVD object", "object model,DVD object", "Windows Media Player ActiveX control,DVD object", "ActiveX control,DVD object", "Windows Media Player Mobile ActiveX control,DVD object", "Windows Media Player Mobile,DVD object", "DVD object"]
+ms.assetid: 6c255e9e-d537-4f4f-865c-b7fb26c8e413
+keywords:
+- Windows Media Player,DVD object
+- Windows Media Player object model,DVD object
+- object model,DVD object
+- Windows Media Player ActiveX control,DVD object
+- ActiveX control,DVD object
+- Windows Media Player Mobile ActiveX control,DVD object
+- Windows Media Player Mobile,DVD object
+- DVD object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the DVD Object

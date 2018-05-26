@@ -1,12 +1,17 @@
 ---
 title: Enhanced Storage Properties
 description: The following Windows Portable Device Enhanced Storage properties are utilized by the Enhanced Storage Portable Device Commands through the IEnhancedStorageSilo SendCommand method.
-ms.assetid: '99cedad3-df4a-4a7b-9873-69a134d7d3a9'
+ms.assetid: 99cedad3-df4a-4a7b-9873-69a134d7d3a9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enhanced Storage Properties
 
-The following Windows Portable Device Enhanced Storage properties are utilized by the [Enhanced Storage Portable Device Commands](enhanced-storage-portable-device-commands.md) through the [**IEnhancedStorageSilo::SendCommand**](ienhancedstoragesilo-sendcommand.md) method.
+The following Windows Portable Device Enhanced Storage properties are utilized by the [Enhanced Storage Portable Device Commands](enhanced-storage-portable-device-commands.md) through the [**IEnhancedStorageSilo::SendCommand**](/windows/previous-versions/EhStorAPI/nf-ehstorapi-ienhancedstoragesilo-sendcommand?branch=master) method.
 
 
 
@@ -25,7 +30,7 @@ The following Windows Portable Device Enhanced Storage properties are utilized b
 | ENHANCED\_STORAGE\_PROPERTY\_ADMIN\_HINT<br/>                        | **VT\_LPWSTR**            | The Admin password 'hint'.<br/>                                                                                                                                                                              |
 | ENHANCED\_STORAGE\_PROPERTY\_SILO\_NAME<br/>                         | **VT\_LPWSTR**            | The 'friendly' Silo name.<br/>                                                                                                                                                                               |
 | ENHANCED\_STORAGE\_PROPERTY\_SILO\_FRIENDLYNAME\_SPECIFIED<br/>      | **VT\_UI4**               | Non-zero if a 'friendly' silo name is provided; otherwise, 0.<br/>                                                                                                                                           |
-| ENHANCED\_STORAGE\_PROPERTY\_PASSWORD\_SILO\_INFO<br/>               | **VT\_VECTOR \| VT\_UI1** | An [**ENHANCED\_STORAGE\_PASSWORD\_SILO\_INFORMATION**](enhanced-storage-password-silo-information.md) structure containing specific requirements and configuration information for the password silo.<br/> |
+| ENHANCED\_STORAGE\_PROPERTY\_PASSWORD\_SILO\_INFO<br/>               | **VT\_VECTOR \| VT\_UI1** | An [**ENHANCED\_STORAGE\_PASSWORD\_SILO\_INFORMATION**](/windows/previous-versions/EhStorExtensions/ns-ehstorextensions-_enhanced_storage_password_silo_information?branch=master) structure containing specific requirements and configuration information for the password silo.<br/> |
 | ENHANCED\_STORAGE\_PROPERTY\_SECURITY\_IDENTIFIER<br/>               | **VT\_VECTOR \| VT\_UI1** | The security identifier for the device.<br/>                                                                                                                                                                 |
 | ENHANCED\_STORAGE\_PROPERTY\_QUERY\_SILO\_TYPE<br/>                  | **VT\_UI4**               | The Query Silo type. For possible values, see PDO\_TYPE.<br/>                                                                                                                                                |
 | ENHANCED\_STORAGE\_PROPERTY\_QUERY\_SILO\_RESULTS<br/>               | **VT\_VECTOR \| VT\_UI1** | Query silo properties result returned as an ENUM\_PDO\_RESULTS structure.<br/>                                                                                                                               |
@@ -55,11 +60,11 @@ The following Windows Portable Device Enhanced Storage properties are utilized b
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

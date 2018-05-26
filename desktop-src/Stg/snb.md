@@ -1,13 +1,19 @@
 ---
 title: SNB
 description: A string name block (SNB) is a pointer to an array of pointers to strings, that ends in a NULL pointer.
-ms.assetid: '09a50518-2889-49ca-9d81-3035777ac2ac'
-keywords: ["SNB"]
+ms.assetid: 09a50518-2889-49ca-9d81-3035777ac2ac
+keywords:
+- SNB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SNB
 
-A string name block (**SNB**) is a pointer to an array of pointers to strings, that ends in a **NULL** pointer. String name blocks are used by the [**IStorage**](istorage.md) interface and by function calls that open storage objects. The strings point to contained storage objects or streams that are to be excluded in the open calls.
+A string name block (**SNB**) is a pointer to an array of pointers to strings, that ends in a **NULL** pointer. String name blocks are used by the [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) interface and by function calls that open storage objects. The strings point to contained storage objects or streams that are to be excluded in the open calls.
 
 
 ```C++
@@ -37,8 +43,8 @@ The marshaling of an **SNB** is based on the assumption that the **SNB** that wa
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Objidl.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Objidl.idl</dt> </dl> |
 
@@ -48,12 +54,12 @@ The marshaling of an **SNB** is based on the assumption that the **SNB** that wa
 
 <dl> <dt>
 
-[**IStorage**](istorage.md)
+[**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

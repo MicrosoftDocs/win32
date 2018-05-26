@@ -1,14 +1,20 @@
 ---
 title: texCUBEbias
 description: Samples a cube texture after biasing the mip level by t.w.
-ms.assetid: 'dad27cff-6b10-45db-b70f-c4ad78c64e76'
-keywords: ["texCUBEbias HLSL"]
+ms.assetid: dad27cff-6b10-45db-b70f-c4ad78c64e76
+keywords:
+- texCUBEbias HLSL
 topic_type:
 - apiref
 api_name:
 - texCUBEbias
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # texCUBEbias
@@ -22,7 +28,7 @@ Samples a cube texture after biasing the mip level by t.w.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Samples a cube texture after biasing the mip level by t.w.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The value of the texture data.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

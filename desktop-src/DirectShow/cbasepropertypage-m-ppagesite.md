@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_pPageSite member variable contains a pointer to the IPropertyPageSite interface of the property page site.'
-ms.assetid: '678db5d0-0c07-4846-ada1-99aa6749f301'
-title: 'CBasePropertyPage::m\_pPageSite member'
+Description: The m\_pPageSite member variable contains a pointer to the IPropertyPageSite interface of the property page site.
+ms.assetid: 678db5d0-0c07-4846-ada1-99aa6749f301
+title: CBasePropertyPagem\_pPageSite member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage::m\_pPageSite member
@@ -35,9 +40,9 @@ IPropertyPageSite* m_pPageSite;
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

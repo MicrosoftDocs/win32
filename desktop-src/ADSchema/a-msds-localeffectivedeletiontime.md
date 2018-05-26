@@ -4,17 +4,22 @@ description: Deletion time of the object in the local DIT.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ee980a2c-dcd1-4963-9956-85d5b0bf682d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ee980a2c-dcd1-4963-9956-85d5b0bf682d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-local-Effective-Deletion-Time attribute AD Schema", "msDS-LocalEffectiveDeletionTime attribute AD Schema"]
+keywords:
+- ms-DS-local-Effective-Deletion-Time attribute AD Schema
+- msDS-LocalEffectiveDeletionTime attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-local-Effective-Deletion-Time
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-local-Effective-Deletion-Time attribute

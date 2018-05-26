@@ -1,12 +1,17 @@
 ---
-Description: 'The PdhVbGetLogFileSize function returns the size of the specified log file. This function calls PdhGetLogFileSize.'
-ms.assetid: '8f4fbb68-b0f5-4163-ae6e-5b7139a35adf'
+Description: The PdhVbGetLogFileSize function returns the size of the specified log file. This function calls PdhGetLogFileSize.
+ms.assetid: 8f4fbb68-b0f5-4163-ae6e-5b7139a35adf
 title: PdhVbGetLogFileSize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PdhVbGetLogFileSize function
 
-The **PdhVbGetLogFileSize** function returns the size of the specified log file. This function calls [**PdhGetLogFileSize**](pdhgetlogfilesize.md).
+The **PdhVbGetLogFileSize** function returns the size of the specified log file. This function calls [**PdhGetLogFileSize**](/windows/win32/Pdh/nf-pdh-pdhgetlogfilesize?branch=master).
 
 Function PdhVbGetLogFileSize( \_ ByVal hLog As PDH\_HLOG, \_ ByRef llSize As LONG \_ ) As DWORD
 
@@ -17,7 +22,7 @@ Function PdhVbGetLogFileSize( \_ ByVal hLog As PDH\_HLOG, \_ ByRef llSize As LON
 *hLog* \[in\]
 </dt> <dd>
 
-Handle to the log file. This handle is returned by the [**PdhOpenLog**](pdhopenlog.md) function.
+Handle to the log file. This handle is returned by the [**PdhOpenLog**](/windows/win32/Pdh/nf-pdh-pdhopenloga?branch=master) function.
 
 </dd> <dt>
 
@@ -46,7 +51,7 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,8 +59,8 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Library<br/>                  | <dl> <dt>Pdh.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 
@@ -65,7 +70,7 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 
 <dl> <dt>
 
-[**PdhGetLogFileSize**](pdhgetlogfilesize.md)
+[**PdhGetLogFileSize**](/windows/win32/Pdh/nf-pdh-pdhgetlogfilesize?branch=master)
 </dt> <dt>
 
 [**PdhVbOpenLog**](pdhvbopenlog.md)
@@ -74,9 +79,9 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 [**PdhVbUpdateLog**](pdhvbupdatelog.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

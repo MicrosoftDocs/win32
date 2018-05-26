@@ -1,7 +1,12 @@
 ---
 title: Using Standard Objects
 description: Describes the standard objects.
-ms.assetid: '4e7357bb-f57d-4893-b111-5a1d1a5d5d3d'
+ms.assetid: 4e7357bb-f57d-4893-b111-5a1d1a5d5d3d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Standard Objects
@@ -21,7 +26,7 @@ The following table lists the Automation standard objects. Although none of thes
 
 
 
- 
+ 
 
 The following illustration shows how the standard objects fit into the organization of objects provided by an application.
 
@@ -46,16 +51,16 @@ The following sections describe the standard properties and methods for all obje
 
 
 
- 
+ 
 
 > [!Note]  
 > You can define additional application-specific properties and methods for each object. You can also provide additional optional arguments for any of the listed properties or methods; however, the optional arguments should follow the standard arguments in a positional argument list.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

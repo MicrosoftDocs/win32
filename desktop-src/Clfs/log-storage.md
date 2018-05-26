@@ -1,7 +1,12 @@
 ---
-Description: 'A log can be an abstraction and a physical file.'
-ms.assetid: '6d0417ec-02df-40ff-8353-80f9a7a026f2'
+Description: A log can be an abstraction and a physical file.
+ms.assetid: 6d0417ec-02df-40ff-8353-80f9a7a026f2
 title: Log Storage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Log Storage
@@ -23,13 +28,13 @@ The following functions can be used to manage log containers.
 
 | Function                                                               | Description                                                                                                                                                                                |
 |------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AddLogContainer**](addlogcontainer.md)                             | Adds a container to the log that is associated with a log handle.                                                                                                                          |
-| [**AddLogContainerSet**](addlogcontainerset.md)                       | Adds multiple log containers to the physical log stream that is associated with a log handle.                                                                                              |
-| [**CreateLogContainerScanContext**](createlogcontainerscancontext.md) | Creates a scan context to be used with [**ScanLogContainers**](scanlogcontainers.md) to enumerate and scan all log containers that are associated with an underlying physical log stream. |
-| [**GetLogContainerName**](getlogcontainername.md)                     | Gets the full path name of a container.                                                                                                                                                    |
-| [**RemoveLogContainer**](removelogcontainer.md)                       | Removes a container from the log that is associated with a log handle.                                                                                                                     |
-| [**RemoveLogContainerSet**](removelogcontainerset.md)                 | Removes multiple containers from a physical log that is associated with a physical log stream handle.                                                                                      |
-| [**ScanLogContainers**](scanlogcontainers.md)                         | Reads the log metadata to get the descriptors for the log containers that make up a physical log.                                                                                          |
+| [**AddLogContainer**](/windows/win32/Clfsw32/nf-clfsw32-addlogcontainer?branch=master)                             | Adds a container to the log that is associated with a log handle.                                                                                                                          |
+| [**AddLogContainerSet**](/windows/win32/Clfsw32/nf-clfsw32-addlogcontainerset?branch=master)                       | Adds multiple log containers to the physical log stream that is associated with a log handle.                                                                                              |
+| [**CreateLogContainerScanContext**](/windows/win32/Clfsw32/nf-clfsw32-createlogcontainerscancontext?branch=master) | Creates a scan context to be used with [**ScanLogContainers**](/windows/win32/Clfsw32/nf-clfsw32-scanlogcontainers?branch=master) to enumerate and scan all log containers that are associated with an underlying physical log stream. |
+| [**GetLogContainerName**](/windows/win32/Clfsw32/nf-clfsw32-getlogcontainername?branch=master)                     | Gets the full path name of a container.                                                                                                                                                    |
+| [**RemoveLogContainer**](/windows/win32/Clfsw32/nf-clfsw32-removelogcontainer?branch=master)                       | Removes a container from the log that is associated with a log handle.                                                                                                                     |
+| [**RemoveLogContainerSet**](/windows/win32/Clfsw32/nf-clfsw32-removelogcontainerset?branch=master)                 | Removes multiple containers from a physical log that is associated with a physical log stream handle.                                                                                      |
+| [**ScanLogContainers**](/windows/win32/Clfsw32/nf-clfsw32-scanlogcontainers?branch=master)                         | Reads the log metadata to get the descriptors for the log containers that make up a physical log.                                                                                          |
 
 
 

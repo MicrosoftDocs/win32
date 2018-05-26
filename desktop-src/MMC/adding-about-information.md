@@ -4,11 +4,15 @@ description: The standard method for providing version and provider information 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '96a15e76-3918-45bd-b78c-b88297fa6cb9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 96a15e76-3918-45bd-b78c-b88297fa6cb9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["adding About information MMC"]
+keywords:
+- adding About information MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding About Information

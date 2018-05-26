@@ -4,13 +4,18 @@ description: A provider is an architectural element of Windows Management Instru
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b8efea2f-29a9-4266-aaa5-119a14496d37'
-ms.prod: 'windows-server-dev'
+ms.assetid: b8efea2f-29a9-4266-aaa5-119a14496d37
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["provider Failover Cluster", "provider Failover Cluster ,how the NLB provider works"]
+keywords:
+- provider Failover Cluster
+- provider Failover Cluster ,how the NLB provider works
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How the Provider Works

@@ -1,7 +1,12 @@
 ---
 title: dcl\_resource structured (sm5 - asm)
 description: Declare a shader resource input and assign it to a t\ - a placeholder register for the resource.
-ms.assetid: '87FC8A56-9DB2-424B-889C-2AB59885DA13'
+ms.assetid: 87FC8A56-9DB2-424B-889C-2AB59885DA13
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_resource structured (sm5 - asm)
@@ -15,7 +20,7 @@ Declare a shader resource input and assign it to a t\# - a placeholder register 
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Declare a shader resource input and assign it to a t\# - a placeholder register 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -46,7 +51,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -65,7 +70,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -74,9 +79,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

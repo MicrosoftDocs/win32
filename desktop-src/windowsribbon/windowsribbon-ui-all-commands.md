@@ -1,7 +1,7 @@
 ---
 title: UI\_ALL\_COMMANDS
 description: Specifies a constant that identifies the collection of Commands declared in the Markup resource file.
-ms.assetid: 'b0046d8c-bb54-4231-90f0-c0b2c8790b1a'
+ms.assetid: b0046d8c-bb54-4231-90f0-c0b2c8790b1a
 topic_type:
 - apiref
 api_name:
@@ -10,6 +10,11 @@ api_location:
 - Uiribbon.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_ALL\_COMMANDS
@@ -26,8 +31,8 @@ Specifies a constant that identifies the collection of Commands declared in the 
 
 |                                     |                                                                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps only\]<br/> |
 | Header<br/>                   | <dl> <dt>Uiribbon.h</dt> </dl>                                             |
 | IDL<br/>                      | <dl> <dt>Uiribbon.idl</dt> </dl>                                           |
 
@@ -40,9 +45,9 @@ Specifies a constant that identifies the collection of Commands declared in the 
 [Constants and Enumerations](windowsribbon-reference-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The ELS language detection service is called Microsoft Language Detection. This service uses Microsoft-patented technology to allow applications to detect the language in which specific text is written.'
-ms.assetid: '11438e0b-d841-44d0-b68f-77868be4c92f'
+Description: The ELS language detection service is called Microsoft Language Detection. This service uses Microsoft-patented technology to allow applications to detect the language in which specific text is written.
+ms.assetid: 11438e0b-d841-44d0-b68f-77868be4c92f
 title: Microsoft Language Detection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Language Detection

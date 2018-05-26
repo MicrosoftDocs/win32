@@ -1,8 +1,27 @@
 ---
 title: Introducing the Windows Ribbon Framework
 description: The Windows Ribbon framework is a rich command presentation system that provides a modern alternative to the layered menus, toolbars, and task panes of traditional Windows applications.
-ms.assetid: 'bc19d5eb-e3a4-4022-8051-512cb3a3e065'
-keywords: ["Windows Ribbon,framework", "Ribbon,framework", "Windows Ribbon,about", "Ribbon,about", "Windows Ribbon,components", "Ribbon,components", "Windows Ribbon,views", "Ribbon,views", "Windows Ribbon,architecture", "Ribbon,architecture", "Windows Ribbon,APIs", "Ribbon,APIs", "Windows Ribbon,security", "Ribbon,security"]
+ms.assetid: bc19d5eb-e3a4-4022-8051-512cb3a3e065
+keywords:
+- Windows Ribbon,framework
+- Ribbon,framework
+- Windows Ribbon,about
+- Ribbon,about
+- Windows Ribbon,components
+- Ribbon,components
+- Windows Ribbon,views
+- Ribbon,views
+- Windows Ribbon,architecture
+- Ribbon,architecture
+- Windows Ribbon,APIs
+- Ribbon,APIs
+- Windows Ribbon,security
+- Ribbon,security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introducing the Windows Ribbon Framework
@@ -28,7 +47,7 @@ This rich, modern UI command framework offers:
 
 -   Easy implementation for brand new Ribbon framework applications and straightforward migration of existing Win32 applications.
 -   Consistent appearance and behavior across Ribbon applications.
--   Adherence to Windows UI guidelines for a first-class Windows experience through accessibility standards, visual style (theming) support, automatic high contrast adjustments, and high dots per inch (dpi) awareness.
+-   Adherence to Windows UI guidelines for a first-class Windows experience through accessibility standards, visual style (theming) support, automatic high contrast adjustments, and high dots per inch (dpi) awareness.
 
 The Ribbon framework consists of two primary UI components:
 
@@ -47,7 +66,7 @@ The UI of the [**Ribbon**](windowsribbon-element-ribbon.md) View is the primary 
 
 The ribbon is a command bar that exposes the major features of an application through a series of tabs at the top of an application window. It is similar in functionality and appearance to the Microsoft Office 2007 Fluent UI. The ribbon provides an intuitive counterpoint to the trial-and-error process of command discovery that is typical of standard Windows menu systems. Optimized for efficiency and discoverability, the ribbon facilitates finding, understanding, and using commands with minimum mouse clicks and keystrokes through a system of standard controls, galleries, and live previewing.
 
-The following image illustrates the Ribbon framework implementation in Paint for Windows 7.
+The following image illustrates the Ribbon framework implementation in Paint for Windows 7.
 
 ![screen shot showing the ribbon implementation in paint for windows 7.](images/overviews/screenshot-paint-win7transparency-mirror.png)
 
@@ -59,7 +78,7 @@ The [**ContextPopup**](windowsribbon-element-contextpopup.md) View, through the 
 
 In contrast to the traditional control-based Windows UI development model, Windows Ribbon framework UI development is based on the more abstract concept of Commands. By focusing on the Commands that are associated with controls, rather than the controls themselves, the framework is able to automatically adjust the UI as required in response to Command execution state retrieved from the Ribbon host application.
 
-An application that uses the Ribbon framework exposes Commands without being encumbered with the details of how that Command is represented in the UI. This is sometimes referred to as an intent-based UI model. The [**Command type**](https://msdn.microsoft.com/library/windows/desktop/dd371556), its properties, and its resources define the intent of the Command for the application. For example, mouse input, keyboard input, or even shaking a gyroscopic device can result in the execution of the same Command—the application is only concerned with executing the Command, not with how it was invoked.
+An application that uses the Ribbon framework exposes Commands without being encumbered with the details of how that Command is represented in the UI. This is sometimes referred to as an intent-based UI model. The [**Command type**](https://msdn.microsoft.com/library/windows/desktop/dd371556), its properties, and its resources define the intent of the Command for the application. For example, mouse input, keyboard input, or even shaking a gyroscopic device can result in the execution of the same Command the application is only concerned with executing the Command, not with how it was invoked.
 
 The Ribbon framework provides this flexibility by separating functionality from presentation with two distinct development structures: an Extensible Application Markup Language (XAML)-based markup language to declare controls and the visual layout of a Ribbon implementation, and C++ COM-based interfaces to initialize the framework and handle events at run time. This distinction enables UI developers and designers to be solely responsible for the appearance of a Ribbon application, while core functionality remains the domain of software engineers.
 
@@ -85,7 +104,7 @@ The Ribbon APIs provide the necessary connections between a View and the Ribbon 
 
     
 
-     
+     
 
 -   A set of COM interfaces implemented by the Ribbon host application that the framework calls in response to UI changes.
 
@@ -99,7 +118,7 @@ The Ribbon APIs provide the necessary connections between a View and the Ribbon 
 
     
 
-     
+     
 
 -   A set of property keys that define which UI properties the application has programmatic control over.
 
@@ -117,7 +136,7 @@ The Ribbon APIs provide the necessary connections between a View and the Ribbon 
 
     
 
-     
+     
 
 ### Security and Privacy
 
@@ -152,9 +171,9 @@ The [Windows Ribbon Development Forum](http://go.microsoft.com/fwlink/p/?linkid=
 [Ribbon Design Process](http://go.microsoft.com/fwlink/p/?linkid=129234)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

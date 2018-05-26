@@ -1,14 +1,19 @@
 ---
 title: Windows Assessment Toolkit
 description: Windows Assessment Toolkit
-ms.assetid: '9D0A4F42-F027-4032-8297-045937BD2B6E'
+ms.assetid: 9D0A4F42-F027-4032-8297-045937BD2B6E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Assessment Toolkit
 
 ## Platforms
 
-<dl> **Clients** - Windows 7 \| Windows 8  
+<dl> **Clients** - Windows 7 \| Windows 8  
 </dl>
 
 ## Description
@@ -33,7 +38,7 @@ Important business objectives can be achieved by using the Assessments Toolkit:
 
 -   **Measure & compare** - You can use the data to compare components (software, drivers, or both) against other similar components to facilitate your decision making, recommendations, and competitive bench marking
 -   **Improve quality** - You can work independently or with involved partners to build a component (software, driver, or both) as per pre-defined quality criteria
--   **Track quality** – You can create a process for efficiently tracking quality of component versions and detect regressions after each iteration
+-   **Track quality**   You can create a process for efficiently tracking quality of component versions and detect regressions after each iteration
 
 ## Usage and best practices
 
@@ -101,7 +106,7 @@ The Assessment Toolkit is typically used in these scenarios:
 
 
 
- 
+ 
 
 These assessments can be used:
 
@@ -121,14 +126,14 @@ These assessments can be used:
 | Memory Footprint                             | You can use the **Memory Footprint** assessment to quantitatively compare a baseline operating system image against another operating system image. You can then identify the specific components that affect the memory footprint of the physical system. These components can include drivers, add-in apps, preloaded software packages, and antivirus programs.                                                                                                                                                                                                           |
 | First Boot Performance                       | The **First Boot Performance** assessment identifies issues that affect how long Windows takes to boot and display the Start screen the first time the computer is started. The results help OEMs diagnose what causes delays and provide recommendations for improving the experience.                                                                                                                                                                                                                                                                                      |
 | Media Streaming                              | The **Streaming Media Performance** assessment helps you assess a computer configuration's performance when you stream media using Internet Explorer. You can use the assessment results to understand, compare, and improve the streaming media experience.                                                                                                                                                                                                                                                                                                                 |
-| WinSAT Comprehensive                         | The **Windows System Assessment (WinSAT)** is used to rate and improve a computer's performance in several system components, including CPU, memory, disk, and graphics. WinSAT Comprehensive assessment results express the capability of a computer’s hardware configuration in numbers. Higher scores generally mean that the assessed computer performs better and faster than a computer that has a lower score.                                                                                                                                                        |
+| WinSAT Comprehensive                         | The **Windows System Assessment (WinSAT)** is used to rate and improve a computer's performance in several system components, including CPU, memory, disk, and graphics. WinSAT Comprehensive assessment results express the capability of a computer s hardware configuration in numbers. Higher scores generally mean that the assessed computer performs better and faster than a computer that has a lower score.                                                                                                                                                        |
 | Energy Efficiency                            | The **Energy Efficiency** job provides an automated way for you to assess the battery life of a computer. Using workloads, the Energy Efficiency job also performs diagnostics that assess whether system components are using power when they should be idle.                                                                                                                                                                                                                                                                                                               |
 | MiniFilter Diagnostic Settings               | The **MiniFilter Diagnostic** option runs within the Internet Explorer Startup Performance assessment, the File Handling assessment, and the Boot Performance (Windows 8) assessment. Selecting this option within the assessments that offer the MiniFilter diagnostic option produces metrics that help you evaluate the impact of MiniFilter operations on various assessment scenarios.                                                                                                                                                                                  |
 | Windows Media Player Performance and Quality | The **Windows Media Player Performance and Quality** assessment launches WMP and plays multiple media clips one after another to capture performance and quality metrics related to media playback.                                                                                                                                                                                                                                                                                                                                                                          |
 
 
 
- 
+ 
 
 Other tools, such as the Windows Performance Toolkit, are included in the ADK. These tools provide in-depth info enabling you to analyze and trace system and app performance. See the Resources section below for more info.
 
@@ -136,7 +141,7 @@ Other tools, such as the Windows Performance Toolkit, are included in the ADK. T
 
 <dl> **Video:**
 
--   [Channel9 – BUILD ADK Videos](http://go.microsoft.com/fwlink/p/?LinkId=325505)
+-   [Channel9   BUILD ADK Videos](http://go.microsoft.com/fwlink/p/?LinkId=325505)
 
   
 **Documentation:**
@@ -149,9 +154,9 @@ Other tools, such as the Windows Performance Toolkit, are included in the ADK. T
   
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

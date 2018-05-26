@@ -1,8 +1,11 @@
 ---
 title: IPOP3Transport InitNew method
 description: Initializes the Internet transport.
-ms.assetid: '9ea9fe51-adcb-4f17-9652-e1422d69152a'
-keywords: ["InitNew method Windows Mail (formerly Outlook Express)", "InitNew method Windows Mail (formerly Outlook Express) , IPOP3Transport interface", "IPOP3Transport interface Windows Mail (formerly Outlook Express) , InitNew method"]
+ms.assetid: 9ea9fe51-adcb-4f17-9652-e1422d69152a
+keywords:
+- InitNew method Windows Mail (formerly Outlook Express)
+- InitNew method Windows Mail (formerly Outlook Express) , IPOP3Transport interface
+- IPOP3Transport interface Windows Mail (formerly Outlook Express) , InitNew method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPOP3Transport::InitNew method
@@ -24,8 +32,8 @@ Initializes the Internet transport.
 
 ```C++
 HRESULT InitNew(
-  [in] LPSTR         pszLogFilePath,
-  [in] IPOP3Callback *pCallback
+  [in] LPSTR         pszLogFilePath,
+  [in] IPOP3Callback *pCallback
 );
 ```
 
@@ -70,7 +78,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,8 +90,8 @@ This method must be called to start the transport before any other methods can b
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -91,9 +99,9 @@ This method must be called to start the transport before any other methods can b
 
 
 
- 
+ 
 
- 
+ 
 
 
 

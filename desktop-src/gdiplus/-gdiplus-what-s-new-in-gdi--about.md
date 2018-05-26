@@ -1,7 +1,12 @@
 ---
-Description: 'Windows GDI+ is different from Windows Graphics Device Interface (GDI) in a couple of ways.'
-ms.assetid: '031cff8e-a233-4435-81e9-daf9c735c5d6'
-title: 'What''s New In GDI+?'
+Description: Windows GDI+ is different from Windows Graphics Device Interface (GDI) in a couple of ways.
+ms.assetid: 031cff8e-a233-4435-81e9-daf9c735c5d6
+title: Whats New In GDI+?
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New In GDI+?

@@ -1,7 +1,12 @@
 ---
 title: Desktop apps may not be visible after launching the default web browser or Windows Store apps
 description: Desktop apps may not be visible after launching the default web browser or Windows Store apps
-ms.assetid: '5D2CE14B-111D-4987-A9AA-B04AC030F9F0'
+ms.assetid: 5D2CE14B-111D-4987-A9AA-B04AC030F9F0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Desktop apps may not be visible after launching the default web browser or Windows Store apps

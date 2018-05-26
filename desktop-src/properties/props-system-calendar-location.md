@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the location of the event.'
-ms.assetid: '014d4c90-f029-479a-bdc9-c1ef5c9e3529'
-title: 'System.Calendar.Location'
+Description: Indicates the location of the event.
+ms.assetid: 014d4c90-f029-479a-bdc9-c1ef5c9e3529
+title: System.Calendar.Location
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Calendar.Location

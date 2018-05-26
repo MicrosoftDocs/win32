@@ -4,17 +4,22 @@ description: Backward link for ms-DS-Has-Domain-NCs. Identifies which DCs hold t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0e5457e5-57c7-4896-9ea0-7fc2195a17e7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0e5457e5-57c7-4896-9ea0-7fc2195a17e7
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Is-Full-Replica-For attribute AD Schema", "msDS-IsFullReplicaFor attribute AD Schema"]
+keywords:
+- ms-DS-Is-Full-Replica-For attribute AD Schema
+- msDS-IsFullReplicaFor attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Is-Full-Replica-For
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Is-Full-Replica-For attribute
@@ -38,9 +43,9 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 
 
- 
+ 
 
- 
+ 
 
 
 

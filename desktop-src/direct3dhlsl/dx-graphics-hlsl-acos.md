@@ -1,14 +1,20 @@
 ---
 title: acos
 description: Returns the arccosine of the specified value.
-ms.assetid: 'c9bc33b8-d586-4c64-9453-5ab97396f2cf'
-keywords: ["acos HLSL"]
+ms.assetid: c9bc33b8-d586-4c64-9453-5ab97396f2cf
+keywords:
+- acos HLSL
 topic_type:
 - apiref
 api_name:
 - acos
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # acos
@@ -22,7 +28,7 @@ Returns the arccosine of the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the arccosine of the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The arccosine of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

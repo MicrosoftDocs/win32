@@ -1,12 +1,17 @@
 ---
 title: Server-side Asynchronous Pipe Handling
 description: The manager routine of an asynchronous function always receives the asynchronous handle as the first parameter.
-ms.assetid: 'ddf9c319-6c4d-4de1-ab29-0ef9b76531ba'
+ms.assetid: ddf9c319-6c4d-4de1-ab29-0ef9b76531ba
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server-side Asynchronous Pipe Handling
 
-The manager routine of an asynchronous function always receives the asynchronous handle as the first parameter. The server uses this handle to send the reply and to send the out pipe data as it becomes available. The handle remains valid until [**RpcAsyncCompleteCall**](rpcasynccompletecall.md) is called on it, the call is aborted by [**RpcAsyncAbortCall**](rpcasyncabortcall.md), or an exception occurs in the manager routine. The application must keep track of all top-level pointers for the \[**out**\] and \[**in, out**\] parameters, in order to update them before completing the call. The application must also keep track of the \[[**in**](https://msdn.microsoft.com/library/windows/desktop/aa367051)\] and \[[**out**](https://msdn.microsoft.com/library/windows/desktop/aa367136)\] pipes.
+The manager routine of an asynchronous function always receives the asynchronous handle as the first parameter. The server uses this handle to send the reply and to send the out pipe data as it becomes available. The handle remains valid until [**RpcAsyncCompleteCall**](/windows/win32/Rpcasync/nf-rpcasync-rpcasynccompletecall?branch=master) is called on it, the call is aborted by [**RpcAsyncAbortCall**](/windows/win32/Rpcasync/nf-rpcasync-rpcasyncabortcall?branch=master), or an exception occurs in the manager routine. The application must keep track of all top-level pointers for the \[**out**\] and \[**in, out**\] parameters, in order to update them before completing the call. The application must also keep track of the \[[**in**](https://msdn.microsoft.com/library/windows/desktop/aa367051)\] and \[[**out**](https://msdn.microsoft.com/library/windows/desktop/aa367136)\] pipes.
 
 The server sends asynchronous pipe data in the same manner as the client. See [Client-Side Asynchronous Pipe Handling](client-side-asynchronous-pipe-handling.md).
 

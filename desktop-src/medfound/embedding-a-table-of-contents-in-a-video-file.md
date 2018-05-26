@@ -1,7 +1,12 @@
 ---
 Description: Embedding a Table of Contents in a Video File
-ms.assetid: '1546388a-7868-4411-be20-34d28becbe76'
+ms.assetid: 1546388a-7868-4411-be20-34d28becbe76
 title: Embedding a Table of Contents in a Video File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Embedding a Table of Contents in a Video File
@@ -19,16 +24,16 @@ Class identifiers for the objects are given in [Class Identifiers for Table of C
 
 First populate the TOC entry with information that describes one portion of the video file. Add the TOC entry to the TOC entry list, and then add the TOC entry list to the TOC. Finally, add the TOC to the TOC parser, which provides the functionality for embedding the TOC in the video file. The following list gives the steps in more detail.
 
-1.  Create a TOC Entry object and obtain an [**ITocEntry**](itocentry.md) interface on it.
-2.  Populate a [**TOC\_ENTRY\_DESCRIPTOR**](toc-entry-descriptor.md) structure and pass it to [**ITocEntry::SetDescriptor**](itocentry-setdescriptor.md).
-3.  Create a TOC Entry List object and obtain an [**ITocEntryList**](itocentrylist.md) interface on it.
-4.  Add the TOC Entry object you created in step 1 to the TOC Entry List object by calling [**ITocEntryList::AddEntryByIndex**](itocentrylist-addentrybyindex.md).
-5.  Create a TOC object and obtain an [**IToc**](itoc.md) interface on it.
-6.  Add the TOC Entry List object you created in step 3 to the TOC object by calling [**IToc::AddEntryListByIndex**](itoc-addentrylistbyindex.md).
-7.  Create a TOC Parser object and obtain an [**ITocParser**](itocparser.md) interface on it.
-8.  Call [**ITocParser::Init**](itocparser-init.md) to initialize the TOC Parser object and associate it with a video file.
-9.  Add the TOC object you created in step 5 to the TOC Parser object by calling [**ITocParser::AddToc**](itocparser-addtoc.md).
-10. Embed the table of contents in the video file by calling [**ITocParser::Commit**](itocparser-commit.md).
+1.  Create a TOC Entry object and obtain an [**ITocEntry**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itocentry?branch=master) interface on it.
+2.  Populate a [**TOC\_ENTRY\_DESCRIPTOR**](/windows/win32/wmcodecdsp/ns-wmcodecdsp-_toc_entry_descriptor?branch=master) structure and pass it to [**ITocEntry::SetDescriptor**](/windows/win32/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptor?branch=master).
+3.  Create a TOC Entry List object and obtain an [**ITocEntryList**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itocentrylist?branch=master) interface on it.
+4.  Add the TOC Entry object you created in step 1 to the TOC Entry List object by calling [**ITocEntryList::AddEntryByIndex**](/windows/win32/wmcodecdsp/nf-wmcodecdsp-itocentrylist-addentrybyindex?branch=master).
+5.  Create a TOC object and obtain an [**IToc**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itoc?branch=master) interface on it.
+6.  Add the TOC Entry List object you created in step 3 to the TOC object by calling [**IToc::AddEntryListByIndex**](/windows/win32/wmcodecdsp/nf-wmcodecdsp-itoc-addentrylistbyindex?branch=master).
+7.  Create a TOC Parser object and obtain an [**ITocParser**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itocparser?branch=master) interface on it.
+8.  Call [**ITocParser::Init**](/windows/win32/wmcodecdsp/nf-wmcodecdsp-itocparser-init?branch=master) to initialize the TOC Parser object and associate it with a video file.
+9.  Add the TOC object you created in step 5 to the TOC Parser object by calling [**ITocParser::AddToc**](/windows/win32/wmcodecdsp/nf-wmcodecdsp-itocparser-addtoc?branch=master).
+10. Embed the table of contents in the video file by calling [**ITocParser::Commit**](/windows/win32/wmcodecdsp/nf-wmcodecdsp-itocparser-commit?branch=master).
 
 The following code demonstrates the steps given in the preceding list.
 

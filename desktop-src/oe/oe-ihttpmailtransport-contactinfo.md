@@ -1,8 +1,11 @@
 ---
 title: IHTTPMailTransport ContactInfo method
 description: Returns contact information for the specified resource.
-ms.assetid: 'ecee50d3-559e-4d63-b6a6-aa02a447745a'
-keywords: ["ContactInfo method Windows Mail (formerly Outlook Express)", "ContactInfo method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface", "IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , ContactInfo method"]
+ms.assetid: ecee50d3-559e-4d63-b6a6-aa02a447745a
+keywords:
+- ContactInfo method Windows Mail (formerly Outlook Express)
+- ContactInfo method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface
+- IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , ContactInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHTTPMailTransport::ContactInfo method
@@ -24,8 +32,8 @@ Returns contact information for the specified resource.
 
 ```C++
 HRESULT ContactInfo(
-  [in] LPCSTR pszPath,
-  [in] DWORD  dwContext
+  [in] LPCSTR pszPath,
+  [in] DWORD  dwContext
 );
 ```
 
@@ -69,7 +77,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -77,8 +85,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -86,9 +94,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

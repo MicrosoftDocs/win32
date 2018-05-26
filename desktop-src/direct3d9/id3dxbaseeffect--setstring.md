@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a string.'
-ms.assetid: '7e8eef70-85ee-461d-bf8c-44cda5f184cd'
-title: 'ID3DXBaseEffect::SetString method'
+---
+Description: Sets a string.
+ms.assetid: 7e8eef70-85ee-461d-bf8c-44cda5f184cd
+title: ID3DXBaseEffectSetString method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::SetString method

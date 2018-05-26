@@ -1,8 +1,65 @@
 ---
 title: Semantics
 description: A semantic is a string attached to a shader input or output that conveys information about the intended use of a parameter.
-ms.assetid: '6f5c504c-1940-4d1c-b594-a2132599376b'
-keywords: ["BINORMAL, semantics (DirectX HLSL)", "BLENDINDICES, semantics (DirectX HLSL)", "BLENDWEIGHT, semantics (DirectX HLSL)", "COLOR, semantics (DirectX HLSL)", "FOG, semantics (DirectX HLSL)", "POSITIONT, semantics (DirectX HLSL)", "PSIZE, semantics (DirectX HLSL)", "TANGENT, semantics (DirectX HLSL)", "TESSFACTOR, semantics (DirectX HLSL)", "TEXCOORD, semantics (DirectX HLSL)", "VFACE, semantics (DirectX HLSL)", "VPOS, semantics (DirectX HLSL)", "System-Value Semantics", "System Value Semantics", "ClipDistance, semantics (DirectX HLSL)", "Coverage, semantics (DirectX HLSL)", "CullDistance, semantics (DirectX HLSL)", "Depth, semantics (DirectX HLSL)", "InstanceID, semantics (DirectX HLSL)", "IsFrontFace, semantics (DirectX HLSL)", "Position, semantics (DirectX HLSL)", "PrimitiveID, semantics (DirectX HLSL)", "RenderTargetArrayIndex, semantics (DirectX HLSL)", "Target, semantics (DirectX HLSL)", "SampleIndex, semantics (DirectX HLSL)", "VertexID, semantics (DirectX HLSL)", "ViewportArrayIndex, semantics (DirectX HLSL)", "SV_ClipDistance, semantics (DirectX HLSL)", "SV_CullDistance, semantics (DirectX HLSL)", "SV_Depth, semantics (DirectX HLSL)", "SV_DepthGreaterEqual, semantics (DirectX HLSL)", "SV_DepthLessEqual, semantics (DirectX HLSL)", "SV_IsFrontFace, semantics (DirectX HLSL)", "SV_Position, semantics (DirectX HLSL)", "SV_RenderTargetArrayIndex, semantics (DirectX HLSL)", "SV_Target, semantics (DirectX HLSL)", "SV_ViewportArrayIndex, semantics (DirectX HLSL)", "SV_InstanceID, semantics (DirectX HLSL)", "SV_PrimitiveID, semantics (DirectX HLSL)", "SV_VertexID, semantics (DirectX HLSL)", "SV_Coverage, semantics (DirectX HLSL)", "SV_SampleIndex, semantics (DirectX HLSL)", "SV_InnerCoverage, semanitcs (DirectX HLSL)", "SV_StencilRef, semantics (DirectX HLSL)", "SV_GroupID, semantics (DirectX HLSL)", "SV_GroupThreadID, semantics (DirectX HLSL)", "SV_DispatchThreadID semantics (DirectX HLSL)", "SV_GroupIndex, semantics (DirectX HLSL)", "SV_OutputControlPointID, semantics (DirectX HLSL)", "SV_TessFactor, semantics (DirectX HLSL)", "SV_InsideTessFactor, semantics (DirectX HLSL)", "SV_DomainLocation, semantics (DirectX HLSL)"]
+ms.assetid: 6f5c504c-1940-4d1c-b594-a2132599376b
+keywords:
+- BINORMAL, semantics (DirectX HLSL)
+- BLENDINDICES, semantics (DirectX HLSL)
+- BLENDWEIGHT, semantics (DirectX HLSL)
+- COLOR, semantics (DirectX HLSL)
+- FOG, semantics (DirectX HLSL)
+- POSITIONT, semantics (DirectX HLSL)
+- PSIZE, semantics (DirectX HLSL)
+- TANGENT, semantics (DirectX HLSL)
+- TESSFACTOR, semantics (DirectX HLSL)
+- TEXCOORD, semantics (DirectX HLSL)
+- VFACE, semantics (DirectX HLSL)
+- VPOS, semantics (DirectX HLSL)
+- System-Value Semantics
+- System Value Semantics
+- ClipDistance, semantics (DirectX HLSL)
+- Coverage, semantics (DirectX HLSL)
+- CullDistance, semantics (DirectX HLSL)
+- Depth, semantics (DirectX HLSL)
+- InstanceID, semantics (DirectX HLSL)
+- IsFrontFace, semantics (DirectX HLSL)
+- Position, semantics (DirectX HLSL)
+- PrimitiveID, semantics (DirectX HLSL)
+- RenderTargetArrayIndex, semantics (DirectX HLSL)
+- Target, semantics (DirectX HLSL)
+- SampleIndex, semantics (DirectX HLSL)
+- VertexID, semantics (DirectX HLSL)
+- ViewportArrayIndex, semantics (DirectX HLSL)
+- SV_ClipDistance, semantics (DirectX HLSL)
+- SV_CullDistance, semantics (DirectX HLSL)
+- SV_Depth, semantics (DirectX HLSL)
+- SV_DepthGreaterEqual, semantics (DirectX HLSL)
+- SV_DepthLessEqual, semantics (DirectX HLSL)
+- SV_IsFrontFace, semantics (DirectX HLSL)
+- SV_Position, semantics (DirectX HLSL)
+- SV_RenderTargetArrayIndex, semantics (DirectX HLSL)
+- SV_Target, semantics (DirectX HLSL)
+- SV_ViewportArrayIndex, semantics (DirectX HLSL)
+- SV_InstanceID, semantics (DirectX HLSL)
+- SV_PrimitiveID, semantics (DirectX HLSL)
+- SV_VertexID, semantics (DirectX HLSL)
+- SV_Coverage, semantics (DirectX HLSL)
+- SV_SampleIndex, semantics (DirectX HLSL)
+- SV_InnerCoverage, semanitcs (DirectX HLSL)
+- SV_StencilRef, semantics (DirectX HLSL)
+- SV_GroupID, semantics (DirectX HLSL)
+- SV_GroupThreadID, semantics (DirectX HLSL)
+- SV_DispatchThreadID semantics (DirectX HLSL)
+- SV_GroupIndex, semantics (DirectX HLSL)
+- SV_OutputControlPointID, semantics (DirectX HLSL)
+- SV_TessFactor, semantics (DirectX HLSL)
+- SV_InsideTessFactor, semantics (DirectX HLSL)
+- SV_DomainLocation, semantics (DirectX HLSL)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Semantics
@@ -58,7 +115,7 @@ These semantics have meaning when attached to a vertex-shader parameter. These s
 
 
 
- 
+ 
 
 n is an optional integer between 0 and the number of resources supported. For example, POSITION0, TEXCOOR1, etc.
 
@@ -127,7 +184,7 @@ This semantic is available in [Direct3D 9 Shader Model 3.0](dx-graphics-hlsl-sm3
 
 
 
- 
+ 
 
 n is an optional integer between 0 and the number of resources supported. For example, PSIZE0, COLOR1, etc.
 
@@ -190,7 +247,7 @@ System-value semantics for the rasterizer stage.
 
 
 
- 
+ 
 
 ### Limitations when writing SV\_Depth:
 
@@ -217,7 +274,7 @@ A few of the Direct3D 10 and later semantics map directly to Direct3D 9 semantic
 
 
 
- 
+ 
 
 
 
@@ -227,7 +284,7 @@ A few of the Direct3D 10 and later semantics map directly to Direct3D 9 semantic
 
 
 
- 
+ 
 
 ### Direct3D 9 VPOS and Direct3D 10 SV\_Position
 
@@ -263,7 +320,7 @@ When migrating from Direct3D 9 to Direct3D 10 and later, you will need to be awa
 
 ### User clip planes in HLSL
 
-Starting with Windows 8, you can use the **clipplanes** function attribute in an HLSL [function declaration](dx-graphics-hlsl-function-syntax.md) rather than SV\_ClipDistance to make your shader work on [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) 9\_x as well as feature level 10 and higher. For more info, see [User clip planes on feature level 9 hardware](https://msdn.microsoft.com/library/windows/desktop/jj635733).
+Starting with Windows 8, you can use the **clipplanes** function attribute in an HLSL [function declaration](dx-graphics-hlsl-function-syntax.md) rather than SV\_ClipDistance to make your shader work on [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) 9\_x as well as feature level 10 and higher. For more info, see [User clip planes on feature level 9 hardware](https://msdn.microsoft.com/library/windows/desktop/jj635733).
 
 ## Double Binding Semantics
 
@@ -295,9 +352,9 @@ This function takes two arguments: a three-component, floating-point position an
 [Variables (DirectX HLSL)](dx-graphics-hlsl-variables.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

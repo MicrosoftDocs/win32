@@ -1,7 +1,12 @@
 ---
 title: Applying Filters
 description: Applying Filters
-ms.assetid: '3d6ba1a9-4de0-4d1b-a08b-1976a1c4ab05'
+ms.assetid: 3d6ba1a9-4de0-4d1b-a08b-1976a1c4ab05
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Applying Filters
@@ -11,7 +16,7 @@ ms.assetid: '3d6ba1a9-4de0-4d1b-a08b-1976a1c4ab05'
 
  
 
-Clients call [**IFilter**](ifilter.md) interface implementations to extract text and properties from an object. Although clients of the **IFilter** interface may use the interface in any way they wish, it was designed to meet the specific needs of full-text search engines. The search engine of Indexing Service breaks the results of the [IFilter::GetText](ifilter-gettext.md) method into words, normalizes them, and saves them in an index. If available, the search engine uses the locale identifier (LCID) of a text chunk to perform language-specific word breaking and normalization.
+Clients call [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) interface implementations to extract text and properties from an object. Although clients of the **IFilter** interface may use the interface in any way they wish, it was designed to meet the specific needs of full-text search engines. The search engine of Indexing Service breaks the results of the [IFilter::GetText](/windows/win32/Filter/nf-filter-ifilter-gettext?branch=master) method into words, normalizes them, and saves them in an index. If available, the search engine uses the locale identifier (LCID) of a text chunk to perform language-specific word breaking and normalization.
 
 This section includes the following topics.
 

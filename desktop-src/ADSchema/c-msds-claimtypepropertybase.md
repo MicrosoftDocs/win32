@@ -4,17 +4,22 @@ description: An abstract class that defines the base class for claim type or res
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '85ec891b-0fdd-4b65-bc4d-6d0d2ca4e85d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 85ec891b-0fdd-4b65-bc4d-6d0d2ca4e85d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Claim-Type-Property-Base class AD Schema", "msDS-ClaimTypePropertyBase class AD Schema"]
+keywords:
+- ms-DS-Claim-Type-Property-Base class AD Schema
+- msDS-ClaimTypePropertyBase class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Claim-Type-Property-Base
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Claim-Type-Property-Base class
@@ -35,7 +40,7 @@ An abstract class that defines the base class for claim type or resource propert
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -62,7 +67,7 @@ An abstract class that defines the base class for claim type or resource propert
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -192,9 +197,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

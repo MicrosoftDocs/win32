@@ -1,14 +1,20 @@
 ---
 title: SequenceNumber (DebugDataType) Element
 description: The local or global sequence number of the trace message.
-ms.assetid: 'b1cd111f-a496-45d5-91d8-bd8bad9e218e'
-keywords: ["SequenceNumber element EventLog"]
+ms.assetid: b1cd111f-a496-45d5-91d8-bd8bad9e218e
+keywords:
+- SequenceNumber element EventLog
 topic_type:
 - apiref
 api_name:
 - Se
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SequenceNumber (DebugDataType) Element
@@ -30,8 +36,8 @@ The **SequenceNumber** element is defined by the [**DebugDataType**](eventschema
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -45,9 +51,9 @@ The **SequenceNumber** element is defined by the [**DebugDataType**](eventschema
 [**DebugData (EventType)**](eventschema-debugdata-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

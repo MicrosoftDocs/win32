@@ -1,8 +1,11 @@
 ---
 title: EmailAction.From property
 description: For scripting, gets or sets the email address that you want to send the email from.
-ms.assetid: 'befe6900-6fbe-4ba2-aeda-271b770e971a'
-keywords: ["From property Task Scheduler", "From property Task Scheduler , EmailAction object", "EmailAction object Task Scheduler , From property"]
+ms.assetid: befe6900-6fbe-4ba2-aeda-271b770e971a
+keywords:
+- From property Task Scheduler
+- From property Task Scheduler , EmailAction object
+- EmailAction object Task Scheduler , From property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EmailAction.From property
@@ -40,10 +48,10 @@ The email address that you want to send the email from.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows 7<br/>                                                                    |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows 7<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -59,9 +67,9 @@ The email address that you want to send the email from.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

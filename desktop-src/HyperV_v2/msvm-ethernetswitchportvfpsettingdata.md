@@ -1,7 +1,12 @@
 ---
-Description: 'Use to set VFP as mandatory on a port.'
-ms.assetid: 'efc54e06-26ff-4773-b4b4-a1c5e03d06cc'
-title: 'Msvm\_EthernetSwitchPortVfpSettingData class'
+Description: Use to set VFP as mandatory on a port.
+ms.assetid: efc54e06-26ff-4773-b4b4-a1c5e03d06cc
+title: Msvm\_EthernetSwitchPortVfpSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortVfpSettingData class
@@ -29,8 +34,8 @@ The **Msvm\_EthernetSwitchPortVfpSettingData** class does not define any members
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -44,9 +49,9 @@ The **Msvm\_EthernetSwitchPortVfpSettingData** class does not define any members
 [**Msvm\_EthernetSwitchPortFeatureSettingData**](msvm-ethernetswitchportfeaturesettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

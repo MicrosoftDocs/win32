@@ -1,7 +1,12 @@
 ---
-Description: 'The DisplayType function sends information about a media type to the debug output location. Ignored in retail builds.'
-ms.assetid: 'cc2bdfeb-80f1-4fb6-859d-977d644a5e08'
+Description: The DisplayType function sends information about a media type to the debug output location. Ignored in retail builds.
+ms.assetid: cc2bdfeb-80f1-4fb6-859d-977d644a5e08
 title: DisplayType function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisplayType function
@@ -13,8 +18,8 @@ The `DisplayType` function sends information about a media type to the debug out
 
 ```C++
 void DisplayType(
-         LPTSTR        label,
-   const AM_MEDIA_TYPE *pmtIn
+         LPTSTR        label,
+   const AM_MEDIA_TYPE *pmtIn
 );
 ```
 
@@ -34,7 +39,7 @@ String that contains a message to display with the media type information.
 *pmtIn* 
 </dt> <dd>
 
-ointer to the [**AM\_MEDIA\_TYPE**](am-media-type.md) structure that contains the media type.
+ointer to the [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure that contains the media type.
 
 </dd> </dl>
 
@@ -64,9 +69,9 @@ This function generates several LOG\_TRACE messages. At logging level 2 or highe
 [Debug Output Functions](debug-output-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

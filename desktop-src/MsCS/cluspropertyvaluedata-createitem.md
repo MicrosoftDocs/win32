@@ -4,11 +4,14 @@ description: Creates a data value and adds it to to a ClusPropertyValueData coll
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '75bd2145-aed5-4a8f-b1da-e8fdcb0a537a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 75bd2145-aed5-4a8f-b1da-e8fdcb0a537a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CreateItem method Failover Cluster", "CreateItem method Failover Cluster , ClusPropertyValueData collection", "ClusPropertyValueData collection Failover Cluster , CreateItem method"]
+keywords:
+- CreateItem method Failover Cluster
+- CreateItem method Failover Cluster , ClusPropertyValueData collection
+- ClusPropertyValueData collection Failover Cluster , CreateItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusPropertyValueData.CreateItem method
@@ -58,7 +64,7 @@ A **Variant** that receives the new data value.
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                  |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                  |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>        |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>      |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>      |
@@ -77,9 +83,9 @@ A **Variant** that receives the new data value.
 [**ClusProperty**](clusproperty-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

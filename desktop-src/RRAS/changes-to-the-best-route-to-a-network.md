@@ -1,7 +1,12 @@
 ---
 title: Changes to the Best Route to a Network
 description: A change in any of the following values for the best route to a given destination network causes the routing table manager to generate a notification message sent to each registered client and to the forwarders
-ms.assetid: '2864af0f-e05a-48d7-a78d-57cc9ac42246'
+ms.assetid: 2864af0f-e05a-48d7-a78d-57cc9ac42246
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changes to the Best Route to a Network

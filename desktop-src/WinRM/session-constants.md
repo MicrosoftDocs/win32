@@ -4,15 +4,18 @@ description: The session constants in the \_\_WSManSessionFlags enumeration spec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5df52696-ac2c-42b7-8b0f-99a27b58575b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 5df52696-ac2c-42b7-8b0f-99a27b58575b
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Session Constants
 
-The session constants in the **\_\_WSManSessionFlags** enumeration specify authentication and other information for [**WSMan.CreateSession**](wsman-createsession.md) or [**IWSMan::CreateSession**](iwsman-createsession.md) calls that connect to a remote computer. These constants are also closely related to **Winrm** command-line tool switches.
+The session constants in the **\_\_WSManSessionFlags** enumeration specify authentication and other information for [**WSMan.CreateSession**](wsman-createsession.md) or [**IWSMan::CreateSession**](/windows/win32/WSManDisp/nf-wsmandisp-iwsman-createsession?branch=master) calls that connect to a remote computer. These constants are also closely related to **Winrm** command-line tool switches.
 
 ## Using Session Constants
 

@@ -1,7 +1,12 @@
 ---
 title: Do Not Trust Your Peer
-description: \ 0034;Do not trust your peer \ 0034; is a basic security rule, but it is often overlooked.
-ms.assetid: '776c1c99-feb1-415c-9a18-e9bf581bc3ff'
+description: '\ 0034;Do not trust your peer \ 0034; is a basic security rule, but it is often overlooked.'
+ms.assetid: 776c1c99-feb1-415c-9a18-e9bf581bc3ff
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Do Not Trust Your Peer

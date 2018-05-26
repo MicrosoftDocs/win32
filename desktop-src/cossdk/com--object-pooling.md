@@ -1,7 +1,12 @@
 ---
 Description: COM+ Object Pooling
-ms.assetid: '954cf9ee-e76c-4faf-99aa-3648a7bb8a59'
+ms.assetid: 954cf9ee-e76c-4faf-99aa-3648a7bb8a59
 title: COM+ Object Pooling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Object Pooling
@@ -19,11 +24,11 @@ The topics described in the following table provide background and task informat
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

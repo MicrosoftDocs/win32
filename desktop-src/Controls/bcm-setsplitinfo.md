@@ -1,8 +1,9 @@
 ---
 title: BCM\_SETSPLITINFO message
 description: Sets information for a split button control. Send this message explicitly or by using the Button\_SetSplitInfo macro.
-ms.assetid: '609b8972-9616-4850-a72c-2f87ce19f563'
-keywords: ["BCM_SETSPLITINFO message Windows Controls"]
+ms.assetid: 609b8972-9616-4850-a72c-2f87ce19f563
+keywords:
+- BCM_SETSPLITINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCM\_SETSPLITINFO message
 
-Sets information for a split button control. Send this message explicitly or by using the [**Button\_SetSplitInfo**](button-setsplitinfo.md) macro.
+Sets information for a split button control. Send this message explicitly or by using the [**Button\_SetSplitInfo**](/windows/win32/Commctrl/nf-commctrl-button_setsplitinfo?branch=master) macro.
 
 ## Parameters
 
@@ -31,7 +37,7 @@ Must be zero.
 *lParam* \[in\]
 </dt> <dd>
 
-A pointer to a [**BUTTON\_SPLITINFO**](button-splitinfo.md) structure containing information about the split button.
+A pointer to a [**BUTTON\_SPLITINFO**](/windows/win32/Commctrl/ns-commctrl-tagbutton_splitinfo?branch=master) structure containing information about the split button.
 
 </dd> </dl>
 
@@ -49,8 +55,8 @@ Use this message only with the [**BS\_SPLITBUTTON**](button-styles.md#bs-splitbu
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -71,9 +77,9 @@ Use this message only with the [**BS\_SPLITBUTTON**](button-styles.md#bs-splitbu
 [Button Types](button-types-and-styles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The property proxy for the System.GPS.TrackRef photo metadata policy.'
-ms.assetid: '5e5b2ba3-32f9-49f5-bd8e-dc9a820e1d43'
-title: 'System.GPS.TrackRef Proxy'
+Description: The property proxy for the System.GPS.TrackRef photo metadata policy.
+ms.assetid: 5e5b2ba3-32f9-49f5-bd8e-dc9a820e1d43
+title: System.GPS.TrackRef Proxy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.TrackRef Proxy

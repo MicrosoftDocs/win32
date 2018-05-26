@@ -1,8 +1,11 @@
 ---
 title: IDWriteFontFace GetGdiCompatibleGlyphMetrics method
 description: Obtains glyph metrics in font design units with the return values compatible with what GDI would produce.
-ms.assetid: '7bda3916-6db3-4f56-b18c-288506c0b646'
-keywords: ["GetGdiCompatibleGlyphMetrics method Direct Write", "GetGdiCompatibleGlyphMetrics method Direct Write , IDWriteFontFace interface", "IDWriteFontFace interface Direct Write , GetGdiCompatibleGlyphMetrics method"]
+ms.assetid: 7bda3916-6db3-4f56-b18c-288506c0b646
+keywords:
+- GetGdiCompatibleGlyphMetrics method Direct Write
+- GetGdiCompatibleGlyphMetrics method Direct Write , IDWriteFontFace interface
+- IDWriteFontFace interface Direct Write , GetGdiCompatibleGlyphMetrics method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteFontFace::GetGdiCompatibleGlyphMetrics method
@@ -22,14 +30,14 @@ Obtains glyph metrics in font design units with the return values compatible wit
 
 ```C++
 virtual HRESULT GetGdiCompatibleGlyphMetrics(
-                       FLOAT                emSize,
-                       FLOAT                pixelsPerDip,
-  [in, optional] const DWRITE_MATRIX        *transform,
-                       BOOL                 useGdiNatural,
-  [in]           const UINT16               *glyphIndices,
-                       UINT32               glyphCount,
-  [out]                DWRITE_GLYPH_METRICS *glyphMetrics,
-                       BOOL                 isSideways = FALSE
+                       FLOAT                emSize,
+                       FLOAT                pixelsPerDip,
+  [in, optional] const DWRITE_MATRIX        *transform,
+                       BOOL                 useGdiNatural,
+  [in]           const UINT16               *glyphIndices,
+                       UINT32               glyphCount,
+  [out]                DWRITE_GLYPH_METRICS *glyphMetrics,
+                       BOOL                 isSideways = FALSE
 ) = 0;
 ```
 
@@ -60,7 +68,7 @@ The number of physical pixels per DIP.
 *transform* \[in, optional\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_MATRIX**](dwrite-matrix.md)\***
+Type: **const [**DWRITE\_MATRIX**](/windows/win32/dwrite/ns-dwrite-dwrite_matrix?branch=master)\***
 
 An optional transform applied to the glyphs and their positions. This transform is applied after the scaling specified by the font size and *pixelsPerDip*.
 
@@ -96,9 +104,9 @@ The number of elements in the *glyphIndices* array.
 *glyphMetrics* \[out\]
 </dt> <dd>
 
-Type: **[**DWRITE\_GLYPH\_METRICS**](dwrite-glyph-metrics.md)\***
+Type: **[**DWRITE\_GLYPH\_METRICS**](/windows/win32/dwrite/ns-dwrite-dwrite_glyph_metrics?branch=master)\***
 
-An array of [**DWRITE\_GLYPH\_METRICS**](dwrite-glyph-metrics.md) structures filled by this function. The metrics are in font design units.
+An array of [**DWRITE\_GLYPH\_METRICS**](/windows/win32/dwrite/ns-dwrite-dwrite_glyph_metrics?branch=master) structures filled by this function. The metrics are in font design units.
 
 </dd> <dt>
 
@@ -132,15 +140,15 @@ Standard **HRESULT** error code. If any of the input glyph indices are outside o
 
 <dl> <dt>
 
-[**IDWriteFontFace**](idwritefontface.md)
+[**IDWriteFontFace**](/windows/win32/dwrite/?branch=master)
 </dt> <dt>
 
 [**IDWriteFontFace**](https://msdn.microsoft.com/library/windows/desktop/dd370983)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

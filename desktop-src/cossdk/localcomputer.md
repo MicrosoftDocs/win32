@@ -1,14 +1,19 @@
 ---
-Description: 'Contains a single object that corresponds to the computer whose catalog you are accessing. This object holds computer level settings information.'
-ms.assetid: '75f14cad-9cd5-44a6-9afa-2c8ad1e87027'
+Description: Contains a single object that corresponds to the computer whose catalog you are accessing. This object holds computer level settings information.
+ms.assetid: 75f14cad-9cd5-44a6-9afa-2c8ad1e87027
 title: LocalComputer collection
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LocalComputer collection
 
-Contains a single object that corresponds to the computer whose catalog you are accessing. This object holds computer level settings information. If you call the [**Connect**](icomadmincatalog-connect.md) method on an object created from the [**COMAdminCatalog**](comadmincatalog.md) class, the object in the **LocalComputer** collection contains information about the remote computer whose catalog you are accessing.
+Contains a single object that corresponds to the computer whose catalog you are accessing. This object holds computer level settings information. If you call the [**Connect**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog-connect?branch=master) method on an object created from the [**COMAdminCatalog**](/windows/win32/ComAdmin/?branch=master) class, the object in the **LocalComputer** collection contains information about the remote computer whose catalog you are accessing.
 
-This collection does not support the [**Add**](icatalogcollection-add.md) and [**Remove**](icatalogcollection-remove.md) methods of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object.
+This collection does not support the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) and [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) methods of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object.
 
 ## Members
 
@@ -28,7 +33,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object within the collection:
 
 -   [ApplicationProxyRSN](#applicationproxyrsn)
 -   [CISEnabled](#cisenabled)
@@ -264,7 +269,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 |                |                                                                                                                                                                                                                                                                        |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | The name of the computer. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Key**](icatalogobject-key.md) or [**Name**](icatalogobject-name.md) property method is called on an object of this collection. |
+| Description    | The name of the computer. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Key**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_key?branch=master) or [**Name**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_name?branch=master) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                                                                                                                              |
 | Type           | String                                                                                                                                                                                                                                                                 |
 | Default        | "My Computer"                                                                                                                                                                                                                                                          |

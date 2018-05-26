@@ -1,7 +1,12 @@
 ---
 title: Balloons
 description: A balloon is a small pop-up window that informs users of a non-critical problem or special condition in a control.
-ms.assetid: '67092831-e573-4ad6-b1fc-baa1836031cb'
+ms.assetid: 67092831-e573-4ad6-b1fc-baa1836031cb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Balloons
@@ -12,11 +17,11 @@ A balloon is a small pop-up window that informs users of a non-critical problem 
 
 A typical balloon.
 
-Balloons have an icon, a title, and body text, all of which are optional. Unlike tooltips and infotips, balloons also have a tail that identifies their source. Usually the source is a control—if so, it is referred to as the [owner control](glossary.md#o).
+Balloons have an icon, a title, and body text, all of which are optional. Unlike tooltips and infotips, balloons also have a tail that identifies their source. Usually the source is a control if so, it is referred to as the [owner control](glossary.md#o).
 
-While balloons inform users of non-critical problems, they don't prevent problems—although the owner control might. Any unhandled problems must be handled by the owner user interface (UI) when users attempt to commit to the action.
+While balloons inform users of non-critical problems, they don't prevent problems although the owner control might. Any unhandled problems must be handled by the owner user interface (UI) when users attempt to commit to the action.
 
-Balloons are usually used with text boxes, or controls that use text boxes for changing values, such as combo boxes, list views, and tree views. Other kinds of controls are sufficiently well constrained, and don't need the additional feedback balloons afford. Furthermore, if there is a problem with other types of controls, it often involves inconsistency between multiple controls—a situation for which balloons aren't suitable. Only text-entry controls are both unconstrained and a common source of [single-point errors](glossary.md#g).
+Balloons are usually used with text boxes, or controls that use text boxes for changing values, such as combo boxes, list views, and tree views. Other kinds of controls are sufficiently well constrained, and don't need the additional feedback balloons afford. Furthermore, if there is a problem with other types of controls, it often involves inconsistency between multiple controls a situation for which balloons aren't suitable. Only text-entry controls are both unconstrained and a common source of [single-point errors](glossary.md#g).
 
 A notification is a specific type of balloon displayed by a [notification area](winenv-notification.md) icon.
 
@@ -27,7 +32,7 @@ A notification is a specific type of balloon displayed by a [notification area](
 To decide, consider these questions:
 
 -   **Does the information describe a problem or special condition?** If not, use another control. Don't use balloons to display supplemental information for a control; consider using [static text](glossary.md#s),[infotips](glossary.md#i), [progressive disclosure](glossary.md#p), or prompts instead.
--   **Can the problem or special condition be detected immediately**—either on input or when the owner control loses input focus? If not, use an error message displayed in a [task dialog](glossary.md#t) or [message box](glossary.md#m).
+-   **Can the problem or special condition be detected immediately** either on input or when the owner control loses input focus? If not, use an error message displayed in a [task dialog](glossary.md#t) or [message box](glossary.md#m).
 -   **For problems, is the problem critical?** If so, use an error message displayed in a task dialog or message box. Such error messages require interaction (which is suitable for critical errors), whereas balloons don't.
 -   **For special conditions, is the condition valid yet likely to be unintended?** If so, balloons are appropriate. For conditions not valid, it is better to prevent them in the first place. For likely intended conditions, there is no need to do anything.
 -   **Can the problem or special condition be expressed concisely?** If not, use another control. Balloons can't have detailed explanations or provide supplemental information.
@@ -69,7 +74,7 @@ Balloons have these usage patterns:
 
 
 
- 
+ 
 
 **Guidelines**
 
@@ -94,7 +99,7 @@ In this example, two problems are incorrectly presented at the same time.
 
 **How to display**
 
--   **Display balloons below their owner control.** Doing so allows users to view the context, including the owner control and its label. Microsoft Windows automatically adjusts balloon positions so that they are completely on screen. The default behavior is to display a balloon above its owner control, as done with notifications.
+-   **Display balloons below their owner control.** Doing so allows users to view the context, including the owner control and its label. Microsoft Windows automatically adjusts balloon positions so that they are completely on screen. The default behavior is to display a balloon above its owner control, as done with notifications.
 
 **Correct:** ![screen shot of a balloon displayed below its control](images/ctrl-balloons-image6.png)
 
@@ -148,7 +153,7 @@ In this example, a balloon indicates that the user attempted to exceed the maxim
 
 
 
- 
+ 
 
 **Accessibility**
 
@@ -191,9 +196,9 @@ When referring to balloons:
 -   Refer to the component as a balloon, not as a notification or an alert.
 -   When possible, format the title text using bold text. Otherwise, put the title in quotation marks only if required to prevent confusion.
 
- 
+ 
 
- 
+ 
 
 
 

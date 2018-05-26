@@ -4,11 +4,14 @@ description: Called by the task agent to request that the task agent be shut dow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '163e0ce5-f4ee-4242-bdbb-977c5ede3451'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 163e0ce5-f4ee-4242-bdbb-977c5ede3451
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnTerminated method Remote Desktop Services", "OnTerminated method Remote Desktop Services , IRDVTaskPluginNotifySink interface", "IRDVTaskPluginNotifySink interface Remote Desktop Services , OnTerminated method"]
+keywords:
+- OnTerminated method Remote Desktop Services
+- OnTerminated method Remote Desktop Services , IRDVTaskPluginNotifySink interface
+- IRDVTaskPluginNotifySink interface Remote Desktop Services , OnTerminated method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - sbtsv.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IRDVTaskPluginNotifySink::OnTerminated method
@@ -28,7 +34,7 @@ Called by the task agent to request that the task agent be shut down.
 
 ```C++
 HRESULT OnTerminated(
-  [in] HRESULT hr
+  [in] HRESULT hr
 );
 ```
 
@@ -55,8 +61,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 Enterprise<br/>                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                  |
+| Minimum supported client<br/> | Windows 7 Enterprise<br/>                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                  |
 | Header<br/>                   | <dl> <dt>Sbtsv.h</dt> </dl> |
 
 
@@ -68,9 +74,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IRDVTaskPluginNotifySink**](irdvtaskpluginnotifysink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

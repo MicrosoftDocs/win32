@@ -1,8 +1,22 @@
 ---
 title: Installing While Offline
 description: Installing While Offline
-ms.assetid: '29d80b6b-161d-44a7-b91e-70766b849c55'
-keywords: ["Windows Media Player online stores,installing while offline", "online stores,installing while offline", "type 1 online stores,installing while offline", "type 2 online stores,installing while offline", "Windows Media Player online stores,offline installs", "online stores,offline installs", "type 1 online stores,offline installs", "type 2 online stores,offline installs", "installing online stores while offline"]
+ms.assetid: 29d80b6b-161d-44a7-b91e-70766b849c55
+keywords:
+- Windows Media Player online stores,installing while offline
+- online stores,installing while offline
+- type 1 online stores,installing while offline
+- type 2 online stores,installing while offline
+- Windows Media Player online stores,offline installs
+- online stores,offline installs
+- type 1 online stores,offline installs
+- type 2 online stores,offline installs
+- installing online stores while offline
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing While Offline

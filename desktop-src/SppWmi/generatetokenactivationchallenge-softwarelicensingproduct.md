@@ -3,8 +3,11 @@ title: GenerateTokenActivationChallenge method of the SoftwareLicensingProduct c
 description: Returns token-based activation challenge.
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a3fb13f7-ddd1-477b-8caa-c3d730ae3f24'
-keywords: ["GenerateTokenActivationChallenge method Windows Management Instrumentation", "GenerateTokenActivationChallenge method Windows Management Instrumentation , SoftwareLicensingProduct class", "SoftwareLicensingProduct class Windows Management Instrumentation , GenerateTokenActivationChallenge method"]
+ms.assetid: a3fb13f7-ddd1-477b-8caa-c3d730ae3f24
+keywords:
+- GenerateTokenActivationChallenge method Windows Management Instrumentation
+- GenerateTokenActivationChallenge method Windows Management Instrumentation , SoftwareLicensingProduct class
+- SoftwareLicensingProduct class Windows Management Instrumentation , GenerateTokenActivationChallenge method
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - SppWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GenerateTokenActivationChallenge method of the SoftwareLicensingProduct class
@@ -24,7 +32,7 @@ Returns token-based activation challenge.
 
 ```mof
 uint32 GenerateTokenActivationChallenge(
-  [out] string Challenge
+  [out] string Challenge
 );
 ```
 
@@ -47,8 +55,8 @@ Specifies the challenge string that is associated with the token.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows 7<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>SppWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SppWmi.dll</dt> </dl> |
@@ -62,9 +70,9 @@ Specifies the challenge string that is associated with the token.
 [**SoftwareLicensingProduct**](softwarelicensingproduct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

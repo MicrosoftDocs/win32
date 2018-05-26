@@ -1,8 +1,11 @@
 ---
 title: Install method of the Win32\_Product class
 description: Installs an associated Win32\_Product instance using the installation package provided through the PackageLocation parameter, and any supplied command line options.
-ms.assetid: 'bbbecbf7-2374-4628-a230-0a49fa00fecf'
-keywords: ["Install method", "Install method, Win32_Product class", "Win32_Product class, Install method"]
+ms.assetid: bbbecbf7-2374-4628-a230-0a49fa00fecf
+keywords:
+- Install method
+- Install method, Win32_Product class
+- Win32_Product class, Install method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Install method of the Win32\_Product class
@@ -20,7 +28,7 @@ The static **Install** [WMI class](https://msdn.microsoft.com/library/aa393244) 
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -29,9 +37,9 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Install(
-  [in] string PackageLocation,
-  [in] string Options,
-  [in] boolean AllUsers
+  [in] string PackageLocation,
+  [in] string Options,
+  [in] boolean AllUsers
 );
 ```
 
@@ -128,7 +136,7 @@ Boolean value that indicates whether the software should be available to all the
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -170,8 +178,8 @@ Wscript.Echo errReturn
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -191,9 +199,9 @@ Wscript.Echo errReturn
 [WMI Tasks: Computer Software](https://msdn.microsoft.com/library/aa394588)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

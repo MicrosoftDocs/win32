@@ -4,17 +4,21 @@ description: Extended right needed to force DS to check stale phantom objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5f3e5b05-ebc4-4e79-acc0-0e4f7cf53098'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 5f3e5b05-ebc4-4e79-acc0-0e4f7cf53098
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["DS-Check-Stale-Phantoms extended right AD Schema"]
+keywords:
+- DS-Check-Stale-Phantoms extended right AD Schema
 topic_type:
 - apiref
 api_name:
 - DS-Check-Stale-Phantoms
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DS-Check-Stale-Phantoms extended right
@@ -33,12 +37,12 @@ Extended right needed to force DS to check stale phantom objects.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -106,9 +110,9 @@ Extended right needed to force DS to check stale phantom objects.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

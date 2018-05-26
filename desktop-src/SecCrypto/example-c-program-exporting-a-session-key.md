@@ -1,21 +1,26 @@
 ---
-Description: 'The following example creates a random session key and creates an exportable key BLOB. The example illustrates the use of CryptGetUserKey, CryptExportKey, and related functions.'
-ms.assetid: 'a7f2fdd1-9514-4cda-bae2-2f379dd9a27d'
-title: 'Example C Program: Exporting a Session Key'
+Description: The following example creates a random session key and creates an exportable key BLOB. The example illustrates the use of CryptGetUserKey, CryptExportKey, and related functions.
+ms.assetid: a7f2fdd1-9514-4cda-bae2-2f379dd9a27d
+title: Example C Program Exporting a Session Key
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Exporting a Session Key
 
-The following example creates a random session key and creates an exportable [*key BLOB*](security.k_gly#-security-key-blob-gly). The example illustrates the use of [**CryptGetUserKey**](cryptgetuserkey.md), [**CryptExportKey**](cryptexportkey.md), and related functions.
+The following example creates a random session key and creates an exportable [*key BLOB*](security.k_gly#-security-key-blob-gly). The example illustrates the use of [**CryptGetUserKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetuserkey?branch=master), [**CryptExportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptexportkey?branch=master), and related functions.
 
 This example illustrates the following tasks and CryptoAPI functions:
 
--   Acquiring a CSP context using [**CryptAcquireContext**](cryptacquirecontext.md).
--   Gaining access to two different pairs of public/private keys using [**CryptGetUserKey**](cryptgetuserkey.md).
--   Generating an exportable session key using [**CryptGenKey**](cryptgenkey.md).
--   Creating a [*simple key BLOB*](security.s_gly#-security-simple-key-blob-gly) containing a session key using [**CryptExportKey**](cryptexportkey.md).
--   Destroying a session key and access to the two pairs of public/private keys using [**CryptDestroyKey**](cryptdestroykey.md).
--   Releasing the CSP context using [**CryptReleaseContext**](cryptreleasecontext.md).
+-   Acquiring a CSP context using [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master).
+-   Gaining access to two different pairs of public/private keys using [**CryptGetUserKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetuserkey?branch=master).
+-   Generating an exportable session key using [**CryptGenKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptgenkey?branch=master).
+-   Creating a [*simple key BLOB*](security.s_gly#-security-simple-key-blob-gly) containing a session key using [**CryptExportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptexportkey?branch=master).
+-   Destroying a session key and access to the two pairs of public/private keys using [**CryptDestroyKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptdestroykey?branch=master).
+-   Releasing the CSP context using [**CryptReleaseContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptreleasecontext?branch=master).
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

@@ -1,14 +1,20 @@
 ---
 title: DLGTEMPLATEEX structure
 description: An extended dialog box template begins with a DLGTEMPLATEEX header that describes the dialog box and specifies the number of controls in the dialog box.
-ms.assetid: '9f016cc6-56e2-45d3-8773-1b405fc10d29'
-keywords: ["DLGTEMPLATEEX structure Dialog Boxes"]
+ms.assetid: 9f016cc6-56e2-45d3-8773-1b405fc10d29
+keywords:
+- DLGTEMPLATEEX structure Dialog Boxes
 topic_type:
 - apiref
 api_name:
 - DLGTEMPLATEEX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DLGTEMPLATEEX structure
@@ -22,24 +28,24 @@ The **DLGTEMPLATEEX** structure is not defined in any standard header file. The 
 
 ```C++
 typedef struct {
-  WORD      dlgVer;
-  WORD      signature;
-  DWORD     helpID;
-  DWORD     exStyle;
-  DWORD     style;
-  WORD      cDlgItems;
-  short     x;
-  short     y;
-  short     cx;
-  short     cy;
+  WORD      dlgVer;
+  WORD      signature;
+  DWORD     helpID;
+  DWORD     exStyle;
+  DWORD     style;
+  WORD      cDlgItems;
+  short     x;
+  short     y;
+  short     cx;
+  short     cy;
   sz_Or_Ord menu;
   sz_Or_Ord windowClass;
-  WCHAR     title[titleLen];
-  WORD      pointsize;
-  WORD      weight;
-  BYTE      italic;
-  BYTE      charset;
-  WCHAR     typeface[stringLen];
+  WCHAR     title[titleLen];
+  WORD      pointsize;
+  WORD      weight;
+  BYTE      italic;
+  BYTE      charset;
+  WCHAR     typeface[stringLen];
 } DLGTEMPLATEEX;
 ```
 
@@ -67,7 +73,7 @@ Type: **WORD**
 
 </dd> <dd>
 
-Indicates whether a template is an extended dialog box template. If **signature** is 0xFFFF, this is an extended dialog box template. In this case, the **dlgVer** member specifies the template version number. If **signature** is any value other than 0xFFFF, this is a standard dialog box template that uses the [**DLGTEMPLATE**](dlgtemplate.md) and [**DLGITEMTEMPLATE**](dlgitemtemplate.md) structures.
+Indicates whether a template is an extended dialog box template. If **signature** is 0xFFFF, this is an extended dialog box template. In this case, the **dlgVer** member specifies the template version number. If **signature** is any value other than 0xFFFF, this is a standard dialog box template that uses the [**DLGTEMPLATE**](/windows/win32/Winuser/ns-winuser-dlgtemplate?branch=master) and [**DLGITEMTEMPLATE**](/windows/win32/Winuser/ns-winuser-dlgitemtemplate?branch=master) structures.
 
 </dd> <dt>
 
@@ -263,7 +269,7 @@ This member is present only if the **style** member specifies **DS\_SETFONT** or
 
 ## Remarks
 
-You can use an extended dialog box template instead of a standard dialog box template in the [**CreateDialogIndirectParam**](createdialogindirectparam.md), [**DialogBoxIndirectParam**](dialogboxindirectparam.md), [**CreateDialogIndirect**](createdialogindirect.md), and [**DialogBoxIndirect**](dialogboxindirect.md) functions.
+You can use an extended dialog box template instead of a standard dialog box template in the [**CreateDialogIndirectParam**](/windows/win32/Winuser/nf-winuser-createdialogindirectparama?branch=master), [**DialogBoxIndirectParam**](/windows/win32/Winuser/nf-winuser-dialogboxindirectparama?branch=master), [**CreateDialogIndirect**](/windows/win32/Winuser/nf-winuser-createdialogindirecta?branch=master), and [**DialogBoxIndirect**](/windows/win32/Winuser/nf-winuser-dialogboxindirecta?branch=master) functions.
 
 Following the **DLGTEMPLATEEX** header in an extended dialog box template is one or more [**DLGITEMTEMPLATEEX**](dlgitemtemplateex.md) structures that describe the controls of the dialog box. The **cDlgItems** member of the **DLGITEMTEMPLATEEX** structure specifies the number of **DLGITEMTEMPLATEEX** structures that follow in the template.
 
@@ -273,7 +279,7 @@ The **menu**, **windowClass**, **title**, and **typeface** arrays must be aligne
 
 If you specify character strings in the **menu**, **windowClass**, **title**, and **typeface** arrays, you must use Unicode strings. Use the [**MultiByteToWideChar**](https://msdn.microsoft.com/library/windows/desktop/dd319072) function to generate these Unicode strings from ANSI strings.
 
-The **x**, **y**, **cx**, and **cy** members specify values in dialog box units. You can convert these values to screen units (pixels) by using the [**MapDialogRect**](mapdialogrect.md) function.
+The **x**, **y**, **cx**, and **cy** members specify values in dialog box units. You can convert these values to screen units (pixels) by using the [**MapDialogRect**](/windows/win32/Winuser/nf-winuser-mapdialogrect?branch=master) function.
 
 ## Requirements
 
@@ -281,8 +287,8 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -293,22 +299,22 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 **Reference**
 </dt> <dt>
 
-[**CreateDialogIndirect**](createdialogindirect.md)
+[**CreateDialogIndirect**](/windows/win32/Winuser/nf-winuser-createdialogindirecta?branch=master)
 </dt> <dt>
 
-[**CreateDialogIndirectParam**](createdialogindirectparam.md)
+[**CreateDialogIndirectParam**](/windows/win32/Winuser/nf-winuser-createdialogindirectparama?branch=master)
 </dt> <dt>
 
-[**DialogBoxIndirect**](dialogboxindirect.md)
+[**DialogBoxIndirect**](/windows/win32/Winuser/nf-winuser-dialogboxindirecta?branch=master)
 </dt> <dt>
 
-[**DialogBoxIndirectParam**](dialogboxindirectparam.md)
+[**DialogBoxIndirectParam**](/windows/win32/Winuser/nf-winuser-dialogboxindirectparama?branch=master)
 </dt> <dt>
 
 [**DLGITEMTEMPLATEEX**](dlgitemtemplateex.md)
 </dt> <dt>
 
-[**MapDialogRect**](mapdialogrect.md)
+[**MapDialogRect**](/windows/win32/Winuser/nf-winuser-mapdialogrect?branch=master)
 </dt> <dt>
 
 [**WM\_SETFONT**](https://msdn.microsoft.com/library/windows/desktop/ms632642)
@@ -329,9 +335,9 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 [**MultiByteToWideChar**](https://msdn.microsoft.com/library/windows/desktop/dd319072)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

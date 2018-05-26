@@ -1,14 +1,20 @@
 ---
 title: DRM\_ActionAllowed
 description: The DRM\_ActionAllowed property is the base string for the other \ 0034;ActionAllowed \ 0034; property string constants, such as DRM\_ActionAllowed\_CopyToCD, Because the \ 0034;action allowed \ 0034; property is not extensible, this base string is of no use to applications.
-ms.assetid: '618cbad5-143c-4229-b617-7b06e332fa69'
-keywords: ["DRM_ActionAllowed windows Media Format"]
+ms.assetid: 618cbad5-143c-4229-b617-7b06e332fa69
+keywords:
+- DRM_ActionAllowed windows Media Format
 topic_type:
 - apiref
 api_name:
 - DRM_ActionAllowed
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_ActionAllowed

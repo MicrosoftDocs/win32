@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_MBType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Mailbox (MB) resource record.
-ms.assetid: 'b8f3b106-58f4-44b8-b2db-b00f1a495641'
-keywords: ["MicrosoftDNS_MBType class DNS", "MicrosoftDNS_MBType class DNS , described"]
+ms.assetid: b8f3b106-58f4-44b8-b2db-b00f1a495641
+keywords:
+- MicrosoftDNS_MBType class DNS
+- MicrosoftDNS_MBType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_MBType class
@@ -51,7 +58,7 @@ The **MicrosoftDNS\_MBType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ FQDN that specifies a host of the mailbox specified in the record's Owner Name.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ FQDN that specifies a host of the mailbox specified in the record's Owner Name.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

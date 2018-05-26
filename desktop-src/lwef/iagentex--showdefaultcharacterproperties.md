@@ -1,7 +1,12 @@
 ---
 title: IAgentEx ShowDefaultCharacterProperties
 description: IAgentEx ShowDefaultCharacterProperties
-ms.assetid: '4817b52a-7168-4008-9cda-0b8d598daea0'
+ms.assetid: 4817b52a-7168-4008-9cda-0b8d598daea0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentEx::ShowDefaultCharacterProperties

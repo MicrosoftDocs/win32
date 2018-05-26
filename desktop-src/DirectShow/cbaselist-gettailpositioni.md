@@ -1,7 +1,12 @@
 ---
-Description: 'The GetTailPositionI method retrieves the position of the last item of the list.'
-ms.assetid: '7fdffde8-3cef-4ad5-bb63-e4a02090a783'
-title: 'CBaseList.GetTailPositionI method'
+Description: The GetTailPositionI method retrieves the position of the last item of the list.
+ms.assetid: 7fdffde8-3cef-4ad5-bb63-e4a02090a783
+title: CBaseList.GetTailPositionI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.GetTailPositionI method
@@ -43,9 +48,9 @@ Returns a POSITION value, or **NULL** if the list is empty.
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a28c687a-7c5c-4c93-a597-5584c5222b19'
-title: 'System.Link.Description'
+Description: .
+ms.assetid: a28c687a-7c5c-4c93-a597-5584c5222b19
+title: System.Link.Description
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Link.Description

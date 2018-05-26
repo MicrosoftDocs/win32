@@ -4,17 +4,22 @@ description: Backward link for hasPartialReplicaNCs. Identifies which DCs hold t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b194b28b-0a25-4ded-b90c-50865c88ee6a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b194b28b-0a25-4ded-b90c-50865c88ee6a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Is-Partial-Replica-For attribute AD Schema", "msDS-IsPartialReplicaFor attribute AD Schema"]
+keywords:
+- ms-DS-Is-Partial-Replica-For attribute AD Schema
+- msDS-IsPartialReplicaFor attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Is-Partial-Replica-For
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Is-Partial-Replica-For attribute
@@ -38,9 +43,9 @@ Backward link for [**hasPartialReplicaNCs**](a-haspartialreplicancs.md). Identif
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Backward link for [**hasPartialReplicaNCs**](a-haspartialreplicancs.md). Identif
 
 
 
- 
+ 
 
- 
+ 
 
 
 

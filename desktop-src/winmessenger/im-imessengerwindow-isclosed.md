@@ -1,8 +1,11 @@
 ---
 title: IMessengerWindow IsClosed property
 description: Retrieves a Boolean value that indicates the open or closed state of the window.
-ms.assetid: '609041c7-4c36-4d8d-9257-93c724cef941'
-keywords: ["IsClosed property Windows Messenger", "IsClosed property Windows Messenger , IMessengerWindow interface", "IMessengerWindow interface Windows Messenger , IsClosed property"]
+ms.assetid: 609041c7-4c36-4d8d-9257-93c724cef941
+keywords:
+- IsClosed property Windows Messenger
+- IsClosed property Windows Messenger , IMessengerWindow interface
+- IMessengerWindow interface Windows Messenger , IsClosed property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerWindow::IsClosed property
 
-\[**IsClosed** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**IsClosed** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves a Boolean value that indicates the open or closed state of the window.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_IsClosed(
-  [out, retval] VARIANT_BOOL *pBoolClose
+  [out, retval] VARIANT_BOOL *pBoolClose
 );
 ```
 
@@ -46,7 +54,7 @@ Pointer to a **VARIANT\_BOOL** that defines the open and closed state for the Me
 
 
 
- 
+ 
 
 ## Error codes
 
@@ -68,7 +76,7 @@ This method is useful when this interface is called against the **Messenger** ap
 > [!Note]  
 > This property is available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -96,8 +104,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -114,9 +122,9 @@ End Sub
 [**Show**](im-imessengerwindow--show.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

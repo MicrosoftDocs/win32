@@ -1,7 +1,12 @@
 ---
 title: WFP Operation
 description: Windows Filtering Platform (WFP) performs its tasks by integrating the following basic entities Layers, Filters, Shims, and Callouts.
-ms.assetid: 'bf88ace7-1160-434b-9be0-3f9db6aa2e87'
+ms.assetid: bf88ace7-1160-434b-9be0-3f9db6aa2e87
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WFP Operation
@@ -22,7 +27,7 @@ The list of filter engine layers is provided in the reference section topic [**F
 
 A *filter* is a rule that is matched against incoming or outgoing packets. The rule tells the filtering engine what to do with the packet, including to call a callout module for deep packet or stream inspection. For example, a filter may specify "Block traffic with a TCP port greater than 1024" or "Call out to IDS for all traffic that is not secured."
 
-A boot-time filter is a filter that is enforced at boot-time as soon as the TCP/IP stack driver (tcpip.sys) starts. A boot-time filter is disabled when BFE starts. A filter is marked as boot-time by setting the [**FWPM\_FILTER\_FLAG\_BOOTTIME**](fwpm-filter0.md) flag when [**FwpmFilterAdd0**](fwpmfilteradd0-func.md) is invoked.
+A boot-time filter is a filter that is enforced at boot-time as soon as the TCP/IP stack driver (tcpip.sys) starts. A boot-time filter is disabled when BFE starts. A filter is marked as boot-time by setting the [**FWPM\_FILTER\_FLAG\_BOOTTIME**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_filter0_?branch=master) flag when [**FwpmFilterAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilteradd0?branch=master) is invoked.
 
 A run-time filter is a filter that is enforced after BFE starts. A run-time filter can be static, dynamic, or persistent depending on the way it was created. See [Object Management](object-management.md) for more information on the different types of run-time filters and their lifetime.
 
@@ -42,7 +47,7 @@ Once a callout is registered with the filter engine, it can receive network traf
 
 Multiple callouts may be exposed by one callout driver.
 
-A callout needs to be added (with [**FwpmCalloutAdd0**](fwpmcalloutadd0-func.md)) and registered (with [FwpsCalloutRegister](http://go.microsoft.com/fwlink/p/?linkid=95959)) before it can be used. A call to **FwpmCalloutAdd0** is required before the creation of filters that reference the callout. A call to FwpsCalloutRegister is required before WFP can invoke the callout when the callout filters are matched. By default filters that reference callouts that have been added but have not yet registered with the filter engine are treated as "Block" filters. The order of calling **FwpmCalloutAdd0** and FwpsCalloutRegister does not matter. A persistent callout needs to be added just once and needs to be registered every time the driver that implements the callout starts (for example, after a reboot).
+A callout needs to be added (with [**FwpmCalloutAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutadd0?branch=master)) and registered (with [FwpsCalloutRegister](http://go.microsoft.com/fwlink/p/?linkid=95959)) before it can be used. A call to **FwpmCalloutAdd0** is required before the creation of filters that reference the callout. A call to FwpsCalloutRegister is required before WFP can invoke the callout when the callout filters are matched. By default filters that reference callouts that have been added but have not yet registered with the filter engine are treated as "Block" filters. The order of calling **FwpmCalloutAdd0** and FwpsCalloutRegister does not matter. A persistent callout needs to be added just once and needs to be registered every time the driver that implements the callout starts (for example, after a reboot).
 
 ## Classification
 

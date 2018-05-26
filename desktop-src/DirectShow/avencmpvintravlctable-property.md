@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies which variable-length coding (VLC) table to use for entropy coding. This property applies to MPEG video encoders.'
-ms.assetid: 'caa17027-8f11-47d3-83da-7ca83b27c978'
+Description: Specifies which variable-length coding (VLC) table to use for entropy coding. This property applies to MPEG video encoders.
+ms.assetid: caa17027-8f11-47d3-83da-7ca83b27c978
 title: AVEncMPVIntraVLCTable property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncMPVIntraVLCTable property
@@ -20,7 +25,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncMPVIntraVLCTable**](eavencmpvintravlctable.md) enumeration.
+The value of this property is a member of the [**eAVEncMPVIntraVLCTable**](/windows/win32/codecapi/ne-codecapi-eavencmpvintravlctable?branch=master) enumeration.
 
 ## Requirements
 
@@ -28,8 +33,8 @@ The value of this property is a member of the [**eAVEncMPVIntraVLCTable**](eaven
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ The value of this property is a member of the [**eAVEncMPVIntraVLCTable**](eaven
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

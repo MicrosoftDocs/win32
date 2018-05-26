@@ -1,8 +1,11 @@
 ---
 title: IHTTPMailTransport2 FolderMemberInfo method
 description: Returns the properties for the specified collection resource.
-ms.assetid: 'e1254fe6-ad26-4ee2-9fce-4ba54f5f0f4a'
-keywords: ["FolderMemberInfo method Windows Mail (formerly Outlook Express)", "FolderMemberInfo method Windows Mail (formerly Outlook Express) , IHTTPMailTransport2 interface", "IHTTPMailTransport2 interface Windows Mail (formerly Outlook Express) , FolderMemberInfo method"]
+ms.assetid: e1254fe6-ad26-4ee2-9fce-4ba54f5f0f4a
+keywords:
+- FolderMemberInfo method Windows Mail (formerly Outlook Express)
+- FolderMemberInfo method Windows Mail (formerly Outlook Express) , IHTTPMailTransport2 interface
+- IHTTPMailTransport2 interface Windows Mail (formerly Outlook Express) , FolderMemberInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHTTPMailTransport2::FolderMemberInfo method
@@ -24,13 +32,13 @@ Returns the properties for the specified collection resource.
 
 ```C++
 HRESULT FolderMemberInfo(
-  [in] LPCSTR          pszPath,
-  [in] MEMBERINFOFLAGS flags,
-  [in] DWORD           dwDepth,
-  [in] BOOL            fIncludeRoot,
-  [in] DWORD           dwContext,
-  [in] LPCSTR          pszFolderTimeStamp,
-  [in] LPCSTR          pszFolderName
+  [in] LPCSTR          pszPath,
+  [in] MEMBERINFOFLAGS flags,
+  [in] DWORD           dwDepth,
+  [in] BOOL            fIncludeRoot,
+  [in] DWORD           dwContext,
+  [in] LPCSTR          pszFolderTimeStamp,
+  [in] LPCSTR          pszFolderName
 );
 ```
 
@@ -75,7 +83,7 @@ Specifies a **DWORD** that indicates the value of the DEPTH request header.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -131,7 +139,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -139,8 +147,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -148,9 +156,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Principal (principalType) Element
 description: Specifies the security credentials for a principal.
-ms.assetid: '4ba65976-98d2-4329-80f0-566fac2e9fda'
-keywords: ["Principal element Task Scheduler"]
+ms.assetid: 4ba65976-98d2-4329-80f0-566fac2e9fda
+keywords:
+- Principal element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Principal
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Principal (principalType) Element
@@ -60,7 +66,7 @@ The **Principal** element is defined by the [**principalType**](taskschedulersch
 
 For scripting development, the security credentials for a principal are specified using the [**Principal**](principal.md) object.
 
-For C++ development, the security credentials for a principal are specified using the [**IPrincipal**](iprincipal.md) interface.
+For C++ development, the security credentials for a principal are specified using the [**IPrincipal**](/windows/win32/taskschd/nn-taskschd-iprincipal?branch=master) interface.
 
 The child elements listed above are defined by the [**principalType**](taskschedulerschema-principaltype-complextype.md) complex type. For sequencing information for these child elements, see [**principalType**](taskschedulerschema-principaltype-complextype.md).
 
@@ -101,8 +107,8 @@ The following XML defines a principal with a group identifier.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -113,9 +119,9 @@ The following XML defines a principal with a group identifier.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ViewDialog method of the UIPreview object displays an authored user interface dialog box stored in the current database.'
-ms.assetid: '5bc935ac-38ca-4a51-a1dc-6879dee97b05'
-title: 'UIPreview.ViewDialog method'
+---
+Description: The ViewDialog method of the UIPreview object displays an authored user interface dialog box stored in the current database.
+ms.assetid: 5bc935ac-38ca-4a51-a1dc-6879dee97b05
+title: UIPreview.ViewDialog method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UIPreview.ViewDialog method

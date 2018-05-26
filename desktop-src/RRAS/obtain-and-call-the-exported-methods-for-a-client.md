@@ -1,7 +1,12 @@
 ---
 title: Obtain and Call the Exported Methods for a Client
 description: The following sample code shows how to obtain a list of methods a client has exported, and how to invoke a method for that client.
-ms.assetid: '55b2a03f-498c-4321-891b-747f4baea10d'
+ms.assetid: 55b2a03f-498c-4321-891b-747f4baea10d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtain and Call the Exported Methods for a Client

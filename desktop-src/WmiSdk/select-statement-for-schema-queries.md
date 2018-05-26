@@ -1,13 +1,16 @@
 ---
-Description: 'Schema data queries use the SELECT statement with a syntax similar to that for data queries.'
+Description: Schema data queries use the SELECT statement with a syntax similar to that for data queries.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e7150aaa-5829-4d64-a13b-39f83adc5b98'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e7150aaa-5829-4d64-a13b-39f83adc5b98
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SELECT Statement for Schema Queries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SELECT Statement for Schema Queries
@@ -45,7 +48,7 @@ SELECT * FROM meta_class WHERE __Class = "Win32_LogicalDisk"
 
 
 
-This query is equivalent to calling the [**IWbemServices::GetObject**](iwbemservices-getobject.md) or the [**IWbemServices::GetObjectAsync**](iwbemservices-getobjectasync.md) method with the object path parameter set to "Win32\_LogicalDisk".
+This query is equivalent to calling the [**IWbemServices::GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) or the [**IWbemServices::GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master) method with the object path parameter set to "Win32\_LogicalDisk".
 
 The following VBScript code sample retrieves all child classes of a top level WMI class. The \_\_Dynasty WMI system property holds the name of the top-level class from which a class is derived, which you can use to retrieve all classes in a namespace derived from a top level class, including that class.
 

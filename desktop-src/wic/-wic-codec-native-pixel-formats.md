@@ -1,7 +1,12 @@
 ---
-Description: 'This topic introduces the pixel formats provided by the Windows Imaging Component (WIC).'
-ms.assetid: '348b6d15-e339-4dce-99f3-4d639ee9bf7d'
+Description: This topic introduces the pixel formats provided by the Windows Imaging Component (WIC).
+ms.assetid: 348b6d15-e339-4dce-99f3-4d639ee9bf7d
 title: Native Pixel Formats Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Native Pixel Formats Overview
@@ -350,7 +355,7 @@ The following table lists the Y’CbCr formats provided by WIC. These formats se
 
 Pixel formats in themselves do not have a color space. Generally, color space is a semantic interpretation of the pixel values that depends on the context of the bitmap. Some images identify a color context that defines the color space of the image. Only in the absence of a color context should the color space be inferred.
 
-Color context information is defined by the [**IWICColorContext**](-wic-codec-iwiccolorcontext.md) interface for WIC. To retrieve the color context information for an image frame, use the **GetColorContext** method.
+Color context information is defined by the [**IWICColorContext**](/windows/win32/Wincodec/nn-wincodec-iwiccolorcontext?branch=master) interface for WIC. To retrieve the color context information for an image frame, use the **GetColorContext** method.
 
 In the absence of color space information for an image, the general rule for color space inference is that UINT RGB and grayscale formats use the standard RGB color space (sRGB), while fixed-point and floating-point RGB and grayscale formats use the extended RGB color space (scRGB). The CMYK color model uses an RWOP color space.
 
@@ -358,9 +363,9 @@ In the absence of color space information for an image, the general rule for col
 
 Each of the Windows provided WIC codecs supports a subset of the WIC pixel formats. For each codec, the supported decode formats may be different than the supported encode formats.
 
-When decoding an image, if data is natively stored in a pixel format that is not supported by the decoder then it will be converted a supported format. To determine the output pixel format, call [**IWICBitmapFrameDecode::GetPixelFormat**](-wic-codec-iwicbitmapsource-getpixelformat.md).
+When decoding an image, if data is natively stored in a pixel format that is not supported by the decoder then it will be converted a supported format. To determine the output pixel format, call [**IWICBitmapFrameDecode::GetPixelFormat**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsource-getpixelformat?branch=master).
 
-When encoding an image, use [**IWICBitmapFrameEncode::SetPixelFormat**](-wic-codec-iwicbitmapframeencode-setpixelformat.md) to request that the encoder use a specific pixel format. The encoder will return the closest supported pixel format, which may be different from what was requested.
+When encoding an image, use [**IWICBitmapFrameEncode::SetPixelFormat**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframeencode-setpixelformat?branch=master) to request that the encoder use a specific pixel format. The encoder will return the closest supported pixel format, which may be different from what was requested.
 
 The following tables show the pixel formats supported by each of the Windows provided WIC codecs.
 
@@ -583,7 +588,7 @@ These are decoded and encoded as GUID\_WICPixelFormat32bppBGRA or GUID\_WICPixel
 
 ## Pixel Format Extensibility
 
-Custom image formats can use pixel formats that are not natively provided by WIC such as YCbCr (YUV) and YCCK (Y/Cb/Cr/K). WIC provides an extensibility model that permits both built-in and add-in pixel formats to work within the same imaging pipeline. To integrate these pixel formats with the WIC imaging pipeline, you must create pixel format converters to convert add-in pixel formats to one or more of the native pixel formats. The main interface for building format converters is [**IWICFormatConverter**](-wic-codec-iwicformatconverter.md).
+Custom image formats can use pixel formats that are not natively provided by WIC such as YCbCr (YUV) and YCCK (Y/Cb/Cr/K). WIC provides an extensibility model that permits both built-in and add-in pixel formats to work within the same imaging pipeline. To integrate these pixel formats with the WIC imaging pipeline, you must create pixel format converters to convert add-in pixel formats to one or more of the native pixel formats. The main interface for building format converters is [**IWICFormatConverter**](/windows/win32/Wincodec/nn-wincodec-iwicformatconverter?branch=master).
 
 ## Related topics
 

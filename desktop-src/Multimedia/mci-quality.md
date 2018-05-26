@@ -1,8 +1,9 @@
 ---
 title: MCI\_QUALITY command
 description: The MCI\_QUALITY command defines a custom quality level for audio, video, or still image data compression. Digital-video devices recognize this command.
-ms.assetid: '91ad9704-0089-4b1f-b0f6-919ab5fd84e0'
-keywords: ["MCI_QUALITY command Windows Multimedia"]
+ms.assetid: 91ad9704-0089-4b1f-b0f6-919ab5fd84e0
+keywords:
+- MCI_QUALITY command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_QUALITY command
 
 The MCI\_QUALITY command defines a custom quality level for audio, video, or still image data compression. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -52,7 +58,7 @@ MCI\_NOTIFY, MCI\_WAIT, or MCI\_TEST. For information about these flags, see [Th
 <span id="lpQuality"></span><span id="lpquality"></span><span id="LPQUALITY"></span>*lpQuality*
 </dt> <dd>
 
-Pointer to an [**MCI\_DGV\_QUALITY\_PARMS**](mci-dgv-quality-parms.md) structure.
+Pointer to an [**MCI\_DGV\_QUALITY\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_quality_parmsa?branch=master) structure.
 
 </dd> </dl>
 
@@ -109,8 +115,8 @@ The **lpstrName** member of the structure identified by *lpQuality* contains an 
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -125,9 +131,9 @@ The **lpstrName** member of the structure identified by *lpQuality* contains an 
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

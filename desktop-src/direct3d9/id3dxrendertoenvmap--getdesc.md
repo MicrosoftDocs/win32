@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the description of the render surface.'
-ms.assetid: '3c2612fa-540d-4d7a-9821-bf37fa3b6da4'
-title: 'ID3DXRenderToEnvMap::GetDesc method'
+---
+Description: Retrieves the description of the render surface.
+ms.assetid: 3c2612fa-540d-4d7a-9821-bf37fa3b6da4
+title: ID3DXRenderToEnvMapGetDesc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXRenderToEnvMap::GetDesc method

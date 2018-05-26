@@ -1,12 +1,17 @@
 ---
-Description: 'Thread local storage (TLS) enables multiple threads of the same process to use an index allocated by the TlsAlloc function to store and retrieve a value that is local to the thread.'
-ms.assetid: 'b7f5a206-a827-4b6b-86f6-5e3aea1246b7'
+Description: Thread local storage (TLS) enables multiple threads of the same process to use an index allocated by the TlsAlloc function to store and retrieve a value that is local to the thread.
+ms.assetid: b7f5a206-a827-4b6b-86f6-5e3aea1246b7
 title: Using Thread Local Storage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Thread Local Storage
 
-[Thread local storage](thread-local-storage.md) (TLS) enables multiple threads of the same process to use an index allocated by the [**TlsAlloc**](tlsalloc.md) function to store and retrieve a value that is local to the thread. In this example, an index is allocated when the process starts. When each thread starts, it allocates a block of dynamic memory and stores a pointer to this memory in the TLS slot using the [**TlsSetValue**](tlssetvalue.md) function. The CommonFunc function uses the [**TlsGetValue**](tlsgetvalue.md) function to access the data associated with the index that is local to the calling thread. Before each thread terminates, it releases its dynamic memory. Before the process terminates, it calls [**TlsFree**](tlsfree.md) to release the index.
+[Thread local storage](thread-local-storage.md) (TLS) enables multiple threads of the same process to use an index allocated by the [**TlsAlloc**](/windows/win32/WinBase/nf-processthreadsapi-tlsalloc?branch=master) function to store and retrieve a value that is local to the thread. In this example, an index is allocated when the process starts. When each thread starts, it allocates a block of dynamic memory and stores a pointer to this memory in the TLS slot using the [**TlsSetValue**](/windows/win32/WinBase/nf-processthreadsapi-tlssetvalue?branch=master) function. The CommonFunc function uses the [**TlsGetValue**](/windows/win32/WinBase/nf-processthreadsapi-tlsgetvalue?branch=master) function to access the data associated with the index that is local to the calling thread. Before each thread terminates, it releases its dynamic memory. Before the process terminates, it calls [**TlsFree**](/windows/win32/WinBase/nf-processthreadsapi-tlsfree?branch=master) to release the index.
 
 
 ```C++

@@ -1,7 +1,12 @@
-﻿---
-Description: 'LOCALE\_RETURN\* Constants'
-ms.assetid: 'c6aadf84-c597-4cbd-a715-b68325ce5117'
-title: 'LOCALE\_RETURN\* Constants'
+---
+Description: LOCALE\_RETURN\* Constants
+ms.assetid: c6aadf84-c597-4cbd-a715-b68325ce5117
+title: LOCALE\_RETURN\* Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_RETURN\* Constants
@@ -33,7 +38,7 @@ Genitive month names do not exist in all languages.
 </tr>
 <tr class="even">
 <td>LOCALE_RETURN_NUMBER</td>
-<td><strong>Windows Me/98, Windows NT 4.0 and later:</strong> Retrieve a number. This constant causes [<strong>GetLocaleInfo</strong>](getlocaleinfo.md) or [<strong>GetLocaleInfoEx</strong>](getlocaleinfoex.md) to retrieve a value as a number instead of as a string. The buffer that receives the value must be at least the length of a DWORD value. This constant can be combined with any other constant having a name that begins with &quot;LOCALE_I&quot;.</td>
+<td><strong>Windows Me/98, Windows NT 4.0 and later:</strong> Retrieve a number. This constant causes [<strong>GetLocaleInfo</strong>](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) or [<strong>GetLocaleInfoEx</strong>](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master) to retrieve a value as a number instead of as a string. The buffer that receives the value must be at least the length of a DWORD value. This constant can be combined with any other constant having a name that begins with &quot;LOCALE_I&quot;.</td>
 </tr>
 </tbody>
 </table>

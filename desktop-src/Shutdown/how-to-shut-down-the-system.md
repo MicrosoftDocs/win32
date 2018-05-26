@@ -1,12 +1,17 @@
 ---
-Description: 'The following example uses the ExitWindowsEx function to shut down the system.'
-ms.assetid: 'bf8723aa-1c7f-4761-9034-d5a9447a4bc4'
+Description: The following example uses the ExitWindowsEx function to shut down the system.
+ms.assetid: bf8723aa-1c7f-4761-9034-d5a9447a4bc4
 title: How to Shut Down the System
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Shut Down the System
 
-The following example uses the [**ExitWindowsEx**](exitwindowsex.md) function to shut down the system. Shutting down flushes file buffers to disk and brings the system to a condition in which it is safe to turn off the computer. The application must first enable the SE\_SHUTDOWN\_NAME privilege. For more information, see [Privileges](security.privileges).
+The following example uses the [**ExitWindowsEx**](/windows/win32/Winuser/nf-winuser-exitwindowsex?branch=master) function to shut down the system. Shutting down flushes file buffers to disk and brings the system to a condition in which it is safe to turn off the computer. The application must first enable the SE\_SHUTDOWN\_NAME privilege. For more information, see [Privileges](security.privileges).
 
 
 ```C++
@@ -57,7 +62,7 @@ BOOL MySystemShutdown()
 
 
 
-The final parameter in the call to [**ExitWindowsEx**](exitwindowsex.md) indicates that the system was shut down for a planning update of the operating system. For more information, see [System Shutdown Reason Codes](system-shutdown-reason-codes.md).
+The final parameter in the call to [**ExitWindowsEx**](/windows/win32/Winuser/nf-winuser-exitwindowsex?branch=master) indicates that the system was shut down for a planning update of the operating system. For more information, see [System Shutdown Reason Codes](system-shutdown-reason-codes.md).
 
 ## Related topics
 

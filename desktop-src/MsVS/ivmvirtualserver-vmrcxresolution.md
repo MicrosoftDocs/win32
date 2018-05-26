@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer VMRCXResolution property
 description: The VMRCXResolution property contains the horizontal resolution used for server administration.
-ms.assetid: 'ea13bed4-dc80-4b41-b9d6-6bc26f4fd67d'
-keywords: ["VMRCXResolution property Virtual Server", "VMRCXResolution property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , VMRCXResolution property", "VMRCXResolution property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , VMRCXResolution property"]
+ms.assetid: ea13bed4-dc80-4b41-b9d6-6bc26f4fd67d
+keywords:
+- VMRCXResolution property Virtual Server
+- VMRCXResolution property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , VMRCXResolution property
+- VMRCXResolution property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , VMRCXResolution property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::VMRCXResolution property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_VMRCXResolution(
-  [in]  long vmrcXResolution
+  [in]  long vmrcXResolution
 );
 
 HRESULT get_VMRCXResolution(
-  [out] long *vmrcXResolution
+  [out] long *vmrcXResolution
 );
 ```
 
@@ -96,8 +106,8 @@ Wscript.Echo "VMRC X-Resolution: " & objVS.VMRCXResolution
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -109,9 +119,9 @@ Wscript.Echo "VMRC X-Resolution: " & objVS.VMRCXResolution
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: AUTOMENU Element
 description: AUTOMENU Element
-ms.assetid: '670c9d85-6362-4068-b283-e4ca17ed43b3'
-keywords: ["Windows Media Player skins,AUTOMENU element", "skins,AUTOMENU element", "AUTOMENU element", "reference for skins,AUTOMENU element", "elements,AUTOMENU"]
+ms.assetid: 670c9d85-6362-4068-b283-e4ca17ed43b3
+keywords:
+- Windows Media Player skins,AUTOMENU element
+- skins,AUTOMENU element
+- AUTOMENU element
+- reference for skins,AUTOMENU element
+- elements,AUTOMENU
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AUTOMENU Element

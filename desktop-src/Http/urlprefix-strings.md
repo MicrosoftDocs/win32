@@ -1,8 +1,14 @@
 ---
 title: UrlPrefix Strings
 description: In the HTTP Server API, a UrlPrefix is a wide-character (UTF-16) Unicode string with a canonical form that specifies a section of URL namespace.
-ms.assetid: '4f317bf6-ee6a-47a8-a531-78534217109d'
-keywords: ["UrlPrefix strings HTTP Server API"]
+ms.assetid: 4f317bf6-ee6a-47a8-a531-78534217109d
+keywords:
+- UrlPrefix strings HTTP Server API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UrlPrefix Strings

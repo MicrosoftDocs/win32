@@ -1,7 +1,7 @@
 ---
 title: Authorization-Service Constants
 description: The authorization service constants represent the authorization services passed to various run-time functions.
-ms.assetid: 'b773bb51-7af0-4eb3-9438-fe3ef9a350db'
+ms.assetid: b773bb51-7af0-4eb3-9438-fe3ef9a350db
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - Rpcdce.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authorization-Service Constants
@@ -38,8 +43,8 @@ The following constants are valid values for the *AuthzSvc* parameter. Most appl
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Rpcdce.h</dt> </dl> |
 
 
@@ -48,30 +53,30 @@ The following constants are valid values for the *AuthzSvc* parameter. Most appl
 
 <dl> <dt>
 
-[**RpcBindingInqAuthInfo**](rpcbindinginqauthinfo.md)
+[**RpcBindingInqAuthInfo**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindinginqauthinfo?branch=master)
 </dt> <dt>
 
-[**RpcBindingSetAuthInfo**](rpcbindingsetauthinfo.md)
+[**RpcBindingSetAuthInfo**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo?branch=master)
 </dt> <dt>
 
-[**RpcBindingInqAuthClient**](rpcbindinginqauthclient.md)
+[**RpcBindingInqAuthClient**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindinginqauthclient?branch=master)
 </dt> <dt>
 
-[**RpcBindingInqAuthClientEx**](rpcbindinginqauthclientex.md)
+[**RpcBindingInqAuthClientEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindinginqauthclientex?branch=master)
 </dt> <dt>
 
-[**RpcBindingSetAuthInfoEx**](rpcbindingsetauthinfoex.md)
+[**RpcBindingSetAuthInfoEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa?branch=master)
 </dt> <dt>
 
-[**RpcBindingInqAuthInfoEx**](rpcbindinginqauthinfoex.md)
+[**RpcBindingInqAuthInfoEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa?branch=master)
 </dt> <dt>
 
-[**RpcMgmtInqDefaultProtectLevel**](rpcmgmtinqdefaultprotectlevel.md)
+[**RpcMgmtInqDefaultProtectLevel**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtinqdefaultprotectlevel?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

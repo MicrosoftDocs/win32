@@ -1,8 +1,11 @@
 ---
 title: IWMPCdromBurn burnProgress property
 description: The burnProgress property gets the CD burning progress as percent complete.
-ms.assetid: '831cc55d-bd26-4328-a715-1a1fa48d7a40'
-keywords: ["burnProgress property Windows Media Player", "burnProgress property Windows Media Player , IWMPCdromBurn interface", "IWMPCdromBurn interface Windows Media Player , burnProgress property"]
+ms.assetid: 831cc55d-bd26-4328-a715-1a1fa48d7a40
+keywords:
+- burnProgress property Windows Media Player
+- burnProgress property Windows Media Player , IWMPCdromBurn interface
+- IWMPCdromBurn interface Windows Media Player , burnProgress property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromBurn::burnProgress property
@@ -74,9 +82,9 @@ The progress value represents the completed percentage of the entire burning pro
 [**IWMPCdromBurn Interface (VB and C#)**](iwmpcdromburn--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

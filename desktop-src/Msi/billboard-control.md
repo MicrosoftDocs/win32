@@ -1,7 +1,12 @@
 ---
-Description: 'The Billboard control displays commonly used controls that are added and removed from the dialog box by ControlEvents.'
-ms.assetid: 'c4c0ed5a-2518-499f-805f-dcbe0b0f9393'
+Description: The Billboard control displays commonly used controls that are added and removed from the dialog box by ControlEvents.
+ms.assetid: c4c0ed5a-2518-499f-805f-dcbe0b0f9393
 title: Billboard Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Billboard Control
@@ -23,7 +28,7 @@ You can use the following attributes with the Billboard control. To change the v
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -33,9 +38,9 @@ Billboard controls that appear in the full user interface are listed in the [Bil
 
 Controls that are located on a billboard must be listed in the [BBControl table](bbcontrol-table.md) rather than the [Control table](control-table.md).
 
- 
+ 
 
- 
+ 
 
 
 

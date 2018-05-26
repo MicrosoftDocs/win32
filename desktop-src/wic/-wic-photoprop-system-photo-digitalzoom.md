@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.DigitalZoom property.'
-ms.assetid: '22a69d3e-4ec3-4652-b4bb-dfcfffc2322b'
-title: 'System.Photo.DigitalZoom Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.DigitalZoom property.
+ms.assetid: 22a69d3e-4ec3-4652-b4bb-dfcfffc2322b
+title: System.Photo.DigitalZoom Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.DigitalZoom Photo Metadata Policy

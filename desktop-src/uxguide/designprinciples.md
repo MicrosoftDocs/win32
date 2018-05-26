@@ -1,7 +1,12 @@
 ---
 title: Design basics for Desktop applications
 description: Use these topics to help you design the user experience for your Windows desktop apps.
-ms.assetid: '3711c6fa-7db2-4aad-93e9-e7970bc0678f'
+ms.assetid: 3711c6fa-7db2-4aad-93e9-e7970bc0678f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Design basics for Desktop applications

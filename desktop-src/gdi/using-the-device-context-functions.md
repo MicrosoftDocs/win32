@@ -1,7 +1,12 @@
 ---
 Description: Using the Device Context Functions
-ms.assetid: '50a66d66-07e5-4cde-ae0b-13f626644719'
+ms.assetid: 50a66d66-07e5-4cde-ae0b-13f626644719
 title: Using the Device Context Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Device Context Functions

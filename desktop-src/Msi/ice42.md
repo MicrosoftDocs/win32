@@ -1,7 +1,12 @@
-﻿---
-Description: 'ICE42 validates that InProc servers are not linked to EXE files in the Class table. It also validates that only LocalServer and LocalServer32 classes have arguments and DefInProc values.'
-ms.assetid: '14976772-c873-46d8-8687-dcdad2420d83'
+---
+Description: ICE42 validates that InProc servers are not linked to EXE files in the Class table. It also validates that only LocalServer and LocalServer32 classes have arguments and DefInProc values.
+ms.assetid: 14976772-c873-46d8-8687-dcdad2420d83
 title: ICE42
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE42

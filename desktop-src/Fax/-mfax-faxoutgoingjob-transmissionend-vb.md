@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TransmissionEnd property indicates the time that the outbound fax job completed transmission.'
-ms.assetid: 'c27e4e56-23de-4f9d-af94-39b81432c676'
-title: 'FaxOutgoingJob.TransmissionEnd property'
+---
+Description: The TransmissionEnd property indicates the time that the outbound fax job completed transmission.
+ms.assetid: c27e4e56-23de-4f9d-af94-39b81432c676
+title: FaxOutgoingJob.TransmissionEnd property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.TransmissionEnd property
@@ -54,7 +59,7 @@ In the case of a failed fax, this property will be assigned a value of zero. If 
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

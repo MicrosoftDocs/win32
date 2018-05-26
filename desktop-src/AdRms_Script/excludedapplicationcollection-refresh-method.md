@@ -1,13 +1,16 @@
 ---
-Description: 'Refreshes the collection from the collection saved on the server.'
+Description: Refreshes the collection from the collection saved on the server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'b6993b53-6119-47dc-b884-ca4bd76b313e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: b6993b53-6119-47dc-b884-ca4bd76b313e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExcludedApplicationCollection.Refresh method'
+title: ExcludedApplicationCollection.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExcludedApplicationCollection.Refresh method
@@ -153,7 +156,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -168,9 +171,9 @@ END SUB
 [**ExcludedApplicationCollection**](excludedapplicationcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Formats.Count property
 description: Retrieves the number of members in the Formats collection.
-ms.assetid: 'd0d12df2-00c9-44d4-ae1e-46445a152d3a'
-keywords: ["Count property WIA Automation", "Count property WIA Automation , Formats object", "Formats object WIA Automation , Count property"]
+ms.assetid: d0d12df2-00c9-44d4-ae1e-46445a152d3a
+keywords:
+- Count property WIA Automation
+- Count property WIA Automation , Formats object
+- Formats object WIA Automation , Count property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Formats.Count property
@@ -43,8 +51,8 @@ For example code, see [List the Supported Transfer Formats](-wiaaut-shared-sampl
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -57,9 +65,9 @@ For example code, see [List the Supported Transfer Formats](-wiaaut-shared-sampl
 [**Formats**](-wiaaut-formats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

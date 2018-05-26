@@ -1,21 +1,26 @@
 ---
 Description: Using Windowless Mode
-ms.assetid: 'f53cecaa-dee7-4b02-a4ac-ffbd917f73aa'
+ms.assetid: f53cecaa-dee7-4b02-a4ac-ffbd917f73aa
 title: Using Windowless Mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Windowless Mode
 
-Both the [Video Mixing Renderer Filter 7](video-mixing-renderer-filter-7.md) (VMR-7) and the [Video Mixing Renderer Filter 9](video-mixing-renderer-filter-9.md) (VMR-9) support *windowless mode*, which represents a major improvement over the [**IVideoWindow**](ivideowindow.md) interface. This topic describes the differences between windowless mode and windowed mode, and how to use windowless mode.
+Both the [Video Mixing Renderer Filter 7](video-mixing-renderer-filter-7.md) (VMR-7) and the [Video Mixing Renderer Filter 9](video-mixing-renderer-filter-9.md) (VMR-9) support *windowless mode*, which represents a major improvement over the [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) interface. This topic describes the differences between windowless mode and windowed mode, and how to use windowless mode.
 
 To remain backward-compatible with existing applications, the VMR defaults to windowed mode. In windowed mode, the renderer creates its own window to display the video. Typically the application sets the video window to be a child of the application window. The existence of a separate video window causes some problems, however:
 
 -   Most importantly, there is a potential for deadlocks if window messages are sent between threads.
--   The Filter Graph Manager must forward certain window messages, such as WM\_PAINT, to the Video Renderer. The application must use the Filter Graph Manager's implementation of [**IVideoWindow**](ivideowindow.md) (and not the Video Renderer's), so that the Filter Graph Manager maintains the correct internal state.
+-   The Filter Graph Manager must forward certain window messages, such as WM\_PAINT, to the Video Renderer. The application must use the Filter Graph Manager's implementation of [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) (and not the Video Renderer's), so that the Filter Graph Manager maintains the correct internal state.
 -   To receive mouse or keyboard events from the video window, the application must set a *message drain*, causing the video window to forward these messages to the application.
 -   To prevent clipping problems, the video window must have the right window styles.
 
-Windowless mode avoids these problems by having the VMR draw directly on the application window's client area, using DirectDraw to clip the video rectangle. Windowless mode significantly reduces the chance of deadlocks. Also, the application does not have to set the owner window or the window styles. In fact, when the VMR is in windowless mode, it does not even expose the [**IVideoWindow**](ivideowindow.md) interface, which is no longer needed.
+Windowless mode avoids these problems by having the VMR draw directly on the application window's client area, using DirectDraw to clip the video rectangle. Windowless mode significantly reduces the chance of deadlocks. Also, the application does not have to set the owner window or the window styles. In fact, when the VMR is in windowless mode, it does not even expose the [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) interface, which is no longer needed.
 
 To use windowless mode, you must explicitly configure the VMR. However, you will find that is more flexible and easier to use than windowed mode.
 
@@ -29,19 +34,19 @@ To override the VMR's default behavior, configure the VMR before building the fi
 
 1.  Create the Filter Graph Manager.
 2.  Create the VMR-7 and add it to the filter graph.
-3.  Call [**IVMRFilterConfig::SetRenderingMode**](ivmrfilterconfig-setrenderingmode.md) on the VMR-7 with the **VMRMode\_Windowless** flag.
-4.  Query the VMR-7 for the [**IVMRWindowlessControl**](ivmrwindowlesscontrol.md) interface.
-5.  Call [**IVMRWindowlessControl::SetVideoClippingWindow**](ivmrwindowlesscontrol-setvideoclippingwindow.md) on the VMR-7. Specify a handle to the window where the video should appear.
+3.  Call [**IVMRFilterConfig::SetRenderingMode**](/windows/win32/Strmif/nf-strmif-ivmrfilterconfig-setrenderingmode?branch=master) on the VMR-7 with the **VMRMode\_Windowless** flag.
+4.  Query the VMR-7 for the [**IVMRWindowlessControl**](/windows/win32/Strmif/nn-strmif-ivmrwindowlesscontrol?branch=master) interface.
+5.  Call [**IVMRWindowlessControl::SetVideoClippingWindow**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoclippingwindow?branch=master) on the VMR-7. Specify a handle to the window where the video should appear.
 
 **VMR-9**
 
 1.  Create the Filter Graph Manager.
 2.  Create the VMR-9 and add it to the filter graph.
-3.  Call [**IVMRFilterConfig9::SetRenderingMode**](ivmrfilterconfig9-setrenderingmode.md) on the VMR-9 with the **VMR9Mode\_Windowless** flag.
-4.  Query the VMR-9 for the [**IVMRWindowlessControl9**](ivmrwindowlesscontrol9.md) interface.
-5.  Call [**IVMRWindowlessControl9::SetVideoClippingWindow**](ivmrwindowlesscontrol9-setvideoclippingwindow.md) on the VMR-9. Specify a handle to the window where the video should appear.
+3.  Call [**IVMRFilterConfig9::SetRenderingMode**](/windows/win32/Vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode?branch=master) on the VMR-9 with the **VMR9Mode\_Windowless** flag.
+4.  Query the VMR-9 for the [**IVMRWindowlessControl9**](/windows/win32/Vmr9/nn-vmr9-ivmrwindowlesscontrol9?branch=master) interface.
+5.  Call [**IVMRWindowlessControl9::SetVideoClippingWindow**](/windows/win32/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoclippingwindow?branch=master) on the VMR-9. Specify a handle to the window where the video should appear.
 
-Now build the rest of the filter graph by calling [**IGraphBuilder::RenderFile**](igraphbuilder-renderfile.md) or other graph-building methods. The Filter Graph Manager automatically uses the instance of the VMR that you added to the graph. (For details on why this happens, see [Intelligent Connect](intelligent-connect.md).)
+Now build the rest of the filter graph by calling [**IGraphBuilder::RenderFile**](/windows/win32/Strmif/nf-strmif-igraphbuilder-renderfile?branch=master) or other graph-building methods. The Filter Graph Manager automatically uses the instance of the VMR that you added to the graph. (For details on why this happens, see [Intelligent Connect](intelligent-connect.md).)
 
 The following code shows a helper function that creates the VMR-7, adds it to the graph, and sets up windowless mode.
 
@@ -130,13 +135,13 @@ After configuring the VMR, the next step is to set the position of the video. Th
 
 **VMR-7**
 
-1.  Call the [**IVMRWindowlessControl::SetVideoPosition**](ivmrwindowlesscontrol-setvideoposition.md) method to specify both rectangles.
-2.  The source rectangle must be equal to or smaller than the native video size; you can use the [**IVMRWindowlessControl::GetNativeVideoSize**](ivmrwindowlesscontrol-getnativevideosize.md) method to get the native video size.
+1.  Call the [**IVMRWindowlessControl::SetVideoPosition**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoposition?branch=master) method to specify both rectangles.
+2.  The source rectangle must be equal to or smaller than the native video size; you can use the [**IVMRWindowlessControl::GetNativeVideoSize**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-getnativevideosize?branch=master) method to get the native video size.
 
 **VMR-9**
 
-1.  Call the [**IVMRWindowlessControl9::SetVideoPosition**](ivmrwindowlesscontrol9-setvideoposition.md) method to specify both rectangles.
-2.  The source rectangle must be equal to or smaller than the native video size; you can use the [**IVMRWindowlessControl9::GetNativeVideoSize**](ivmrwindowlesscontrol9-getnativevideosize.md) method to get the native video size.
+1.  Call the [**IVMRWindowlessControl9::SetVideoPosition**](/windows/win32/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoposition?branch=master) method to specify both rectangles.
+2.  The source rectangle must be equal to or smaller than the native video size; you can use the [**IVMRWindowlessControl9::GetNativeVideoSize**](/windows/win32/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-getnativevideosize?branch=master) method to get the native video size.
 
 For example, the following code sets the source and destination rectangles for the VMR-7. It sets the source rectangle equal to the entire video image, and the destination rectangle equal to the entire window client area:
 
@@ -171,15 +176,15 @@ Because the VMR does not have its own window, it must be notified if it need to 
 
 **VMR-7**
 
-1.  [**WM\_PAINT**](gdi.wm_paint). Call [**IVMRWindowlessControl::RepaintVideo**](ivmrwindowlesscontrol-repaintvideo.md). This method causes the VMR-7 to repaint the most recent video frame.
-2.  [**WM\_DISPLAYCHANGE**](gdi.wm_displaychange): Call [**IVMRWindowlessControl::DisplayModeChanged**](ivmrwindowlesscontrol-displaymodechanged.md). This method notifies the VMR-7 that the video must be shown at a new resolution or color depth.
-3.  [**WM\_SIZE**](winui._win32_WM_SIZE) or [**WM\_WINDOWPOSCHANGED**](winui._win32_WM_WINDOWPOSCHANGED): Recalculate the position of the video and call [**IVMRWindowlessControl::SetVideoPosition**](ivmrwindowlesscontrol-setvideoposition.md) to update the position, if needed.
+1.  [**WM\_PAINT**](gdi.wm_paint). Call [**IVMRWindowlessControl::RepaintVideo**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-repaintvideo?branch=master). This method causes the VMR-7 to repaint the most recent video frame.
+2.  [**WM\_DISPLAYCHANGE**](gdi.wm_displaychange): Call [**IVMRWindowlessControl::DisplayModeChanged**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-displaymodechanged?branch=master). This method notifies the VMR-7 that the video must be shown at a new resolution or color depth.
+3.  [**WM\_SIZE**](winui._win32_WM_SIZE) or [**WM\_WINDOWPOSCHANGED**](winui._win32_WM_WINDOWPOSCHANGED): Recalculate the position of the video and call [**IVMRWindowlessControl::SetVideoPosition**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoposition?branch=master) to update the position, if needed.
 
 **VMR-9**
 
-1.  [**WM\_PAINT**](gdi.wm_paint). Call [**IVMRWindowlessControl9::RepaintVideo**](ivmrwindowlesscontrol9-repaintvideo.md). This method causes the VMR-9 to repaint the most recent video frame.
-2.  [**WM\_DISPLAYCHANGE**](gdi.wm_displaychange): Call [**IVMRWindowlessControl9::DisplayModeChanged**](ivmrwindowlesscontrol9-displaymodechanged.md). This method notifies the VMR-9 that the video must be shown at a new resolution or color depth.
-3.  [**WM\_SIZE**](winui._win32_WM_SIZE) or [**WM\_WINDOWPOSCHANGED**](winui._win32_WM_WINDOWPOSCHANGED): Recalculate the position of the video and call [**IVMRWindowlessControl9::SetVideoPosition**](ivmrwindowlesscontrol9-setvideoposition.md) to update the position, if needed.
+1.  [**WM\_PAINT**](gdi.wm_paint). Call [**IVMRWindowlessControl9::RepaintVideo**](/windows/win32/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-repaintvideo?branch=master). This method causes the VMR-9 to repaint the most recent video frame.
+2.  [**WM\_DISPLAYCHANGE**](gdi.wm_displaychange): Call [**IVMRWindowlessControl9::DisplayModeChanged**](/windows/win32/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-displaymodechanged?branch=master). This method notifies the VMR-9 that the video must be shown at a new resolution or color depth.
+3.  [**WM\_SIZE**](winui._win32_WM_SIZE) or [**WM\_WINDOWPOSCHANGED**](winui._win32_WM_WINDOWPOSCHANGED): Recalculate the position of the video and call [**IVMRWindowlessControl9::SetVideoPosition**](/windows/win32/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoposition?branch=master) to update the position, if needed.
 
 > [!Note]  
 > The default handler for the [**WM\_WINDOWPOSCHANGED**](winui._win32_WM_WINDOWPOSCHANGED) message sends a [**WM\_SIZE**](winui._win32_WM_SIZE) message. But if your application intercepts **WM\_WINDOWPOSCHANGED** and does not pass it to [**DefWindowProc**](winui._win32_DefWindowProc), you should call **SetVideoPosition** in your **WM\_WINDOWPOSCHANGED** handler, in addition to your **WM\_SIZE** handler.

@@ -1,8 +1,11 @@
 ---
 title: Item.ExecuteCommand method
 description: Issues the command specified by CommandID.
-ms.assetid: '75466b70-1fd6-45bb-bab7-ab7c78f38dc6'
-keywords: ["ExecuteCommand method WIA Automation", "ExecuteCommand method WIA Automation , Item object", "Item object WIA Automation , ExecuteCommand method"]
+ms.assetid: 75466b70-1fd6-45bb-bab7-ab7c78f38dc6
+keywords:
+- ExecuteCommand method WIA Automation
+- ExecuteCommand method WIA Automation , Item object
+- Item object WIA Automation , ExecuteCommand method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Item.ExecuteCommand method
@@ -57,8 +65,8 @@ All the imaging devices expose most of their commands on devices rather than ite
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -95,9 +103,9 @@ All the imaging devices expose most of their commands on devices rather than ite
 [**Item (Items)**](-wiaaut-iitems-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

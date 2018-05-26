@@ -1,8 +1,10 @@
 ---
 title: MPSCAN\_DATA structure
 description: Scan data passed to the callback.
-ms.assetid: '6C9AAF1E-7566-43EE-A100-5112E9B8878C'
-keywords: ["MPSCAN_DATA structure Legacy Windows Environment Features", "PMPSCAN_DATA structure pointer Legacy Windows Environment Features"]
+ms.assetid: 6C9AAF1E-7566-43EE-A100-5112E9B8878C
+keywords:
+- MPSCAN_DATA structure Legacy Windows Environment Features
+- PMPSCAN_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPSCAN\_DATA structure
@@ -24,10 +31,10 @@ This structure contains cumulative threat and resource statistics. These stat fi
 
 ```C++
 typedef struct tagMPSCAN_DATA {
-  MPSCAN_TYPE      ScanType;
+  MPSCAN_TYPE      ScanType;
   PMPRESOURCE_INFO ResourceInfo;
   MPRESOURCE_STATS ResourceStats;
-  MPTHREAT_STATS   ThreatStats;
+  MPTHREAT_STATS   ThreatStats;
 } MPSCAN_DATA, *PMPSCAN_DATA;
 ```
 
@@ -87,8 +94,8 @@ Threat statistics with successful scan completions.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -109,9 +116,9 @@ Threat statistics with successful scan completions.
 [**MPTHREAT\_STATS**](mpthreat-stats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

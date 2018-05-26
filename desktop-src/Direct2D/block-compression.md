@@ -1,7 +1,12 @@
 ---
 title: Block compression
 description: Describes how block compression works and how to use it in WIC and Direct2D.
-ms.assetid: '52AF86A5-16E8-4AC8-BB67-CC2F1A3635B5'
+ms.assetid: 52AF86A5-16E8-4AC8-BB67-CC2F1A3635B5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Block compression
@@ -107,16 +112,16 @@ For the preceding formats, you must use premultiplied alpha. In addition, these 
 
 The following methods are updated in Windows 8.1 to support BC formats:
 
--   [**ID2D1DeviceContext::IsDxgiFormatSupported**](id2d1devicecontext-isdxgiformatsupported.md)
--   [**ID2D1DeviceContext::CreateBitmap**](id2d1devicecontext-createbitmap.md)
--   [**ID2D1DeviceContext::CreateBitmapFromDxgiSurface**](id2d1devicecontext-createbitmapfromdxgisurface-overload.md)
--   [**ID2D1RenderTarget::CreateSharedBitmap**](id2d1rendertarget-createsharedbitmap.md)
+-   [**ID2D1DeviceContext::IsDxgiFormatSupported**](/windows/win32/D2d1_1/?branch=master)
+-   [**ID2D1DeviceContext::CreateBitmap**](/windows/win32/D2d1_1/?branch=master)
+-   [**ID2D1DeviceContext::CreateBitmapFromDxgiSurface**](/windows/win32/d2d1_1/nf-d2d1_1-createbitmapfromdxgisurface?branch=master)
+-   [**ID2D1RenderTarget::CreateSharedBitmap**](/windows/win32/d2d1/?branch=master)
 -   [**ID2D1RenderTarget::CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md)
--   [**ID2D1Bitmap::CopyFromMemory**](id2d1bitmap-copyfrommemory.md)
--   [**ID2D1Bitmap::CopyFromBitmap**](id2d1bitmap-copyfrombitmap.md)
--   [**ID2D1Bitmap1::GetSurface**](id2d1bitmap1-getsurface.md)
+-   [**ID2D1Bitmap::CopyFromMemory**](/windows/win32/d2d1/?branch=master)
+-   [**ID2D1Bitmap::CopyFromBitmap**](/windows/win32/d2d1/?branch=master)
+-   [**ID2D1Bitmap1::GetSurface**](/windows/win32/D2d1_1/?branch=master)
 
-Note that [**CreateBitmapFromWicBitmap**](id2d1devicecontext-createbitmapfromwicbitmap-overload.md) takes [**IWICBitmapSource**](https://msdn.microsoft.com/library/windows/desktop/ee690171) as an interface; however in Windows 8.1 WIC does not support obtaining block compressed data from **IWICBitmapSource**, and there is no WIC pixel format corresponding to DXGI\_FORMAT\_BC1\_UNORM, etc. Instead, **CreateBitmapFromWicBitmap** determines if the **IWICBitmapSource** is a valid DDS [**IWICBitmapFrameDecode**](https://msdn.microsoft.com/library/windows/desktop/ee690134) and directly loads the block compressed data. You can either explicitly specify the pixel format in the [**D2D1\_BITMAP\_PROPERTIES1**](d2d1-bitmap-properties1.md) struct, or allow Direct2D to automatically determine the correct format.
+Note that [**CreateBitmapFromWicBitmap**](id2d1devicecontext-createbitmapfromwicbitmap-overload.md) takes [**IWICBitmapSource**](https://msdn.microsoft.com/library/windows/desktop/ee690171) as an interface; however in Windows 8.1 WIC does not support obtaining block compressed data from **IWICBitmapSource**, and there is no WIC pixel format corresponding to DXGI\_FORMAT\_BC1\_UNORM, etc. Instead, **CreateBitmapFromWicBitmap** determines if the **IWICBitmapSource** is a valid DDS [**IWICBitmapFrameDecode**](https://msdn.microsoft.com/library/windows/desktop/ee690134) and directly loads the block compressed data. You can either explicitly specify the pixel format in the [**D2D1\_BITMAP\_PROPERTIES1**](/windows/win32/D2D1_1/ns-d2d1_1-d2d1_bitmap_properties1?branch=master) struct, or allow Direct2D to automatically determine the correct format.
 
 ### Windows Imaging Component APIs
 

@@ -1,8 +1,14 @@
 ---
 title: WER Settings
 description: Settings to customize the problem reporting experience. All of these settings can be set using Group Policy. Some can also be changed in Action Center for Windows 7, Windows 8, or Problem Reports and Solutions for Windows Vista.
-ms.assetid: '031c5591-31b0-42f1-9a98-ecf10a5d5571'
-keywords: ["Windows error reporting Windows Error Reporting , settings"]
+ms.assetid: 031c5591-31b0-42f1-9a98-ecf10a5d5571
+keywords:
+- Windows error reporting Windows Error Reporting , settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WER Settings
@@ -216,7 +222,7 @@ Whether to prevent sending second-level data
 
 **REG\_SZ**
 
-Use [**WerAddExcludedApplication**](weraddexcludedapplication.md)
+Use [**WerAddExcludedApplication**](/windows/win32/Werapi/nf-werapi-weraddexcludedapplication?branch=master)
 
 List of excluded applications
 

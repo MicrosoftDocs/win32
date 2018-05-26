@@ -1,14 +1,20 @@
 ---
 title: System (EventType) Element
 description: Contains information that identifies the provider and how it was enabled, the event, the channel to which the event was written, and system information such as the process and thread IDs.
-ms.assetid: 'c532cfa3-b722-4227-a403-5c050d62a92c'
-keywords: ["System element EventLog"]
+ms.assetid: c532cfa3-b722-4227-a403-5c050d62a92c
+keywords:
+- System element EventLog
 topic_type:
 - apiref
 api_name:
 - System
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System (EventType) Element
@@ -29,8 +35,8 @@ The **System** element is defined by the [**EventType**](eventschema-eventtype-c
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **System** element is defined by the [**EventType**](eventschema-eventtype-c
 [**Event**](eventschema-event-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

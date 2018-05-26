@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sent to an extension DLL when File Manager is loading its toolbar. This message allows an extension DLL to add a button to the File Manager toolbar.'
-title: 'FMEVENT\_TOOLBARLOAD message'
+---
+Description: Sent to an extension DLL when File Manager is loading its toolbar. This message allows an extension DLL to add a button to the File Manager toolbar.
+title: FMEVENT\_TOOLBARLOAD message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FMEVENT\_TOOLBARLOAD message

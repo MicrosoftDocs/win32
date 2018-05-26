@@ -1,7 +1,12 @@
 ---
-Description: 'The \_Storages table lists embedded OLE data storages. This is a temporary table, created only when referenced by a SQL statement.'
-ms.assetid: 'b2f2907d-6966-4b63-9589-c1580f8db574'
+Description: The \_Storages table lists embedded OLE data storages. This is a temporary table, created only when referenced by a SQL statement.
+ms.assetid: b2f2907d-6966-4b63-9589-c1580f8db574
 title: '\_Storages Table'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_Storages Table
@@ -39,9 +44,9 @@ The unformatted binary data.
 
 ## Remarks
 
-To add an OLE storage to a database, create a new record in the \_Storages table and enter the name of the storage into the Name column. Use [**MsiRecordSetStream**](msirecordsetstream.md) to copy data into the Data column of this record. Finally, use [**MsiViewModify**](msiviewmodify.md) to insert the record into the \_Storages table.
+To add an OLE storage to a database, create a new record in the \_Storages table and enter the name of the storage into the Name column. Use [**MsiRecordSetStream**](/windows/win32/Msiquery/nf-msiquery-msirecordsetstreama?branch=master) to copy data into the Data column of this record. Finally, use [**MsiViewModify**](/windows/win32/Msiquery/nf-msiquery-msiviewmodify?branch=master) to insert the record into the \_Storages table.
 
-Data cannot be read from the \_Storages table. However, the \_Storages table can be queried to check for the existence of a specific storage. This means that it is not possible to move an OLE storage from one database to another. You must instead import the original storage file into the new database.To delete an OLE storage, fetch the record containing the binary data, set the Data column in the \_Storages table to null, and then update the record. An alternative method is to simply delete the record using either [**MsiViewModify**](msiviewmodify.md) or a plain SQL query.
+Data cannot be read from the \_Storages table. However, the \_Storages table can be queried to check for the existence of a specific storage. This means that it is not possible to move an OLE storage from one database to another. You must instead import the original storage file into the new database.To delete an OLE storage, fetch the record containing the binary data, set the Data column in the \_Storages table to null, and then update the record. An alternative method is to simply delete the record using either [**MsiViewModify**](/windows/win32/Msiquery/nf-msiquery-msiviewmodify?branch=master) or a plain SQL query.
 
 To rename an OLE storage, update the Name column of the record.
 

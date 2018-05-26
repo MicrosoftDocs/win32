@@ -1,7 +1,12 @@
 ---
-Description: 'Learn how to work with high-speed NVMe devices from your Windows application.'
-ms.assetid: '037AF841-C2C9-4551-9CCB-F2A2F199083A'
+Description: Learn how to work with high-speed NVMe devices from your Windows application.
+ms.assetid: 037AF841-C2C9-4551-9CCB-F2A2F199083A
 title: Working with NVMe drives
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with NVMe drives
@@ -24,9 +29,9 @@ This topic provides an overview of general-use APIs that you can use to access N
 
 You can use the following general-use APIs to access NVMe drives in Windows 10. These APIs can be found in **winioctl.h** for user mode applications, and **ntddstor.h** for kernel mode drivers. For more information about header files, see [Header files](#header-files).
 
--   [**IOCTL\_STORAGE\_PROTOCOL\_COMMAND**](ioctl-storage-protocol-command.md) : Use this IOCTL with the **STORAGE\_PROTOCOL\_COMMAND** structure to issue NVMe commands. This IOCTL enables NVMe pass-through and supports the Command Effects log in NVMe. You can use it with vendor-specific commands. For more info, see [Pass-through mechanism](#pass-through-mechanism).
+-   [**IOCTL\_STORAGE\_PROTOCOL\_COMMAND**](/windows/win32/winioctl/ni-winioctl-ioctl_storage_protocol_command?branch=master) : Use this IOCTL with the **STORAGE\_PROTOCOL\_COMMAND** structure to issue NVMe commands. This IOCTL enables NVMe pass-through and supports the Command Effects log in NVMe. You can use it with vendor-specific commands. For more info, see [Pass-through mechanism](#pass-through-mechanism).
 
--   [**STORAGE\_PROTOCOL\_COMMAND**](storage-protocol-command.md) : This input-buffer structure includes a **ReturnStatus** field that can be used report the following status values.
+-   [**STORAGE\_PROTOCOL\_COMMAND**](/windows/win32/winioctl/ns-winioctl-_storage_protocol_command?branch=master) : This input-buffer structure includes a **ReturnStatus** field that can be used report the following status values.
     -   **STORAGE\_PROTOCOL\_STATUS\_PENDING**
     -   **STORAGE\_PROTOCOL\_STATUS\_SUCCESS**
     -   **STORAGE\_PROTOCOL\_STATUS\_ERROR**
@@ -36,32 +41,32 @@ You can use the following general-use APIs to access NVMe drives in Windows 10.
     -   **STORAGE\_PROTOCOL\_STATUS\_DATA\_OVERRUN**
     -   **STORAGE\_PROTOCOL\_STATUS\_INSUFFICIENT\_RESOURCES**
     -   **STORAGE\_PROTOCOL\_STATUS\_NOT\_SUPPORTED**
--   [**IOCTL\_STORAGE\_QUERY\_PROPERTY**](ioctl-storage-query-property.md) : Use this IOCTL with the **STORAGE\_PROPERTY\_QUERY** structure to retrieve device information. For more info, see [Protocol-specific queries](#protocol-specific-queries) and [Temperature queries](#temperature-queries).
+-   [**IOCTL\_STORAGE\_QUERY\_PROPERTY**](/windows/win32/WinIoCtl/ni-winioctl-ioctl_storage_query_property?branch=master) : Use this IOCTL with the **STORAGE\_PROPERTY\_QUERY** structure to retrieve device information. For more info, see [Protocol-specific queries](#protocol-specific-queries) and [Temperature queries](#temperature-queries).
 
--   [**STORAGE\_PROPERTY\_QUERY**](storage-property-query.md) : This structure includes the **PropertyId** and **AdditionalParameters** fields to specify the data to be queried. In the **PropertyId** filed, use the **STORAGE\_PROPERTY\_ID** enumeration to specify the type of data. Use the **AdditionalParameters** field to specify more details, depending on the type of data. For protocol-specific data, use the **STORAGE\_PROTOCOL\_SPECIFIC\_DATA** structure in the **AdditionalParameters** field. For temperature data, use the **STORAGE\_TEMPERATURE\_INFO** structure in the **AdditionalParameters** field.
--   [**STORAGE\_PROPERTY\_ID**](storage-property-id.md) : This enumeration includes new values that allow **IOCTL\_STORAGE\_QUERY\_PROPERTY** to retrieve protocol-specific and temperature information.
+-   [**STORAGE\_PROPERTY\_QUERY**](/windows/win32/WinIoCtl/ns-winioctl-_storage_property_query?branch=master) : This structure includes the **PropertyId** and **AdditionalParameters** fields to specify the data to be queried. In the **PropertyId** filed, use the **STORAGE\_PROPERTY\_ID** enumeration to specify the type of data. Use the **AdditionalParameters** field to specify more details, depending on the type of data. For protocol-specific data, use the **STORAGE\_PROTOCOL\_SPECIFIC\_DATA** structure in the **AdditionalParameters** field. For temperature data, use the **STORAGE\_TEMPERATURE\_INFO** structure in the **AdditionalParameters** field.
+-   [**STORAGE\_PROPERTY\_ID**](/windows/win32/WinIoCtl/?branch=master) : This enumeration includes new values that allow **IOCTL\_STORAGE\_QUERY\_PROPERTY** to retrieve protocol-specific and temperature information.
 
     -   **StorageAdapterProtocolSpecificProperty**
     -   **StorageDeviceProtocolSpecificProperty**
 
-    Use one of these protocol-specific property IDs in combination with **STORAGE\_PROTOCOL\_SPECIFIC\_DATA** to retrieve protocol-specific data in the [**STORAGE\_PROTOCOL\_DATA\_DESCRIPTOR**](storage-protocol-data-descriptor.md) structure.
+    Use one of these protocol-specific property IDs in combination with **STORAGE\_PROTOCOL\_SPECIFIC\_DATA** to retrieve protocol-specific data in the [**STORAGE\_PROTOCOL\_DATA\_DESCRIPTOR**](/windows/win32/WinIoCtl/ns-winioctl-_storage_protocol_data_descriptor?branch=master) structure.
 
     -   **StorageAdapterTemperatureProperty**
     -   **StorageDeviceTemperatureProperty**
 
-    Use one of these temperature property IDs to retrieve temperature data in the [**STORAGE\_TEMPERATURE\_DATA\_DESCRIPTOR**](storage-temperature-data-descriptor.md) structure.
+    Use one of these temperature property IDs to retrieve temperature data in the [**STORAGE\_TEMPERATURE\_DATA\_DESCRIPTOR**](/windows/win32/WinIoctl/ns-winioctl-_storage_temperature_data_descriptor?branch=master) structure.
 
--   [**STORAGE\_PROTOCOL\_SPECIFIC\_DATA**](storage-protocol-specific-data.md) : Retrieve NVMe-specific data when this structure is used for the **AdditionalParameters** field of **STORAGE\_PROPERTY\_QUERY** and a [**STORAGE\_PROTOCOL\_NVME\_DATA\_TYPE**](storage-protocol-nvme-data-type.md) enum value is specified. Use one of the following **STORAGE\_PROTOCOL\_NVME\_DATA\_TYPE** values in the **DataType** field of the **STORAGE\_PROTOCOL\_SPECIFIC\_DATA** structure:
+-   [**STORAGE\_PROTOCOL\_SPECIFIC\_DATA**](/windows/win32/WinIoCtl/ns-winioctl-_storage_protocol_specific_data?branch=master) : Retrieve NVMe-specific data when this structure is used for the **AdditionalParameters** field of **STORAGE\_PROPERTY\_QUERY** and a [**STORAGE\_PROTOCOL\_NVME\_DATA\_TYPE**](/windows/win32/WinIoCtl/ne-winioctl-_storage_protocol_nvme_data_type?branch=master) enum value is specified. Use one of the following **STORAGE\_PROTOCOL\_NVME\_DATA\_TYPE** values in the **DataType** field of the **STORAGE\_PROTOCOL\_SPECIFIC\_DATA** structure:
 
     -   Use **NVMeDataTypeIdentify** to get Identify Controller data or Identify Namespace data.
     -   Use **NVMeDataTypeLogPage** to get log pages (including SMART/health data).
     -   Use **NVMeDataTypeFeature** to get features of the NVMe drive.
 
--   [**STORAGE\_TEMPERATURE\_INFO**](storage-temperature-info.md) : This structure is used to hold specific temperature data. It's used in the **STORAGE\_TEMERATURE\_DATA\_DESCRIPTOR** to return the results of a temperature query.
+-   [**STORAGE\_TEMPERATURE\_INFO**](/windows/win32/WinIoctl/ns-winioctl-_storage_temperature_info?branch=master) : This structure is used to hold specific temperature data. It's used in the **STORAGE\_TEMERATURE\_DATA\_DESCRIPTOR** to return the results of a temperature query.
 
--   [**IOCTL\_STORAGE\_SET\_TEMPERATURE\_THRESHOLD**](ioctl-storage-set-temperature-threshold.md) : Use this IOCTL with the **STORAGE\_TEMPERATURE\_THRESHOLD** structure to set temperature thresholds. For more info, see [Behavior changing commands](#behavior-changing-commands).
+-   [**IOCTL\_STORAGE\_SET\_TEMPERATURE\_THRESHOLD**](/windows/win32/WinIoctl/ni-winioctl-ioctl_storage_set_temperature_threshold?branch=master) : Use this IOCTL with the **STORAGE\_TEMPERATURE\_THRESHOLD** structure to set temperature thresholds. For more info, see [Behavior changing commands](#behavior-changing-commands).
 
--   [**STORAGE\_TEMPERATURE\_THRESHOLD**](storage-temperature-threshold.md) : This structure is used as an input buffer to specify the temperature threshold. The **OverThreshold** field (boolean) specifies if the **Threshold** field is the over threshold value or not (otherwise, it's the under threshold value).
+-   [**STORAGE\_TEMPERATURE\_THRESHOLD**](/windows/win32/WinIoctl/ns-winioctl-_storage_temperature_threshold?branch=master) : This structure is used as an input buffer to specify the temperature threshold. The **OverThreshold** field (boolean) specifies if the **Threshold** field is the over threshold value or not (otherwise, it's the under threshold value).
 
 ## Pass-through mechanism
 
@@ -111,14 +116,14 @@ For any specific command described in the Command Effects Log...
 
 ### Using IOCTL\_STORAGE\_PROTOCOL\_COMMAND to send commands
 
-Pass-through can be conducted using the [**IOCTL\_STORAGE\_PROTOCOL\_COMMAND**](ioctl-storage-protocol-command.md), introduced in Windows 10. This IOCTL was designed to have a similar behavior as the existing SCSI and ATA pass-through IOCTLs, to send an embedded command to the target device. Via this IOCTL, pass-through can be sent to a storage device, including an NVMe drive.
+Pass-through can be conducted using the [**IOCTL\_STORAGE\_PROTOCOL\_COMMAND**](/windows/win32/winioctl/ni-winioctl-ioctl_storage_protocol_command?branch=master), introduced in Windows 10. This IOCTL was designed to have a similar behavior as the existing SCSI and ATA pass-through IOCTLs, to send an embedded command to the target device. Via this IOCTL, pass-through can be sent to a storage device, including an NVMe drive.
 
 For example, in NVMe, the IOCTL will allow the sending down of the following command codes.
 
 -   Vendor Specific Admin Commands (C0h – FFh)
 -   Vendor Specific NVMe Commands (80h – FFh)
 
-As with all other IOCTLs, Use [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216) to send the pass-through IOCTL down. The IOCTL is populated using the [**STORAGE\_PROTOCOL\_COMMAND**](storage-protocol-command.md) input-buffer structure found in **ntddstor.h**. Populate the **Command** field with the vendor-specific command.
+As with all other IOCTLs, Use [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216) to send the pass-through IOCTL down. The IOCTL is populated using the [**STORAGE\_PROTOCOL\_COMMAND**](/windows/win32/winioctl/ns-winioctl-_storage_protocol_command?branch=master) input-buffer structure found in **ntddstor.h**. Populate the **Command** field with the vendor-specific command.
 
 
 ```C++
@@ -169,9 +174,9 @@ Instead, use the following general storage IOCTLs (introduced in Windows 10) to
 
 These IOCTLs are recommended for developing firmware upgrade tools in Windows 10 and Windows Server 2016:
 
--   [**IOCTL\_STORAGE\_FIRMWARE\_GET\_INFO**](ioctl-storage-firmware-get-info.md)
--   [**IOCTL\_STORAGE\_FIRMWARE\_DOWNLOAD**](ioctl-storage-firmware-download.md)
--   [**IOCTL\_STORAGE\_FIRMWARE\_ACTIVATE**](ioctl-storage-firmware-activate.md)
+-   [**IOCTL\_STORAGE\_FIRMWARE\_GET\_INFO**](/windows/win32/WinIoctl/ni-winioctl-ioctl_storage_firmware_get_info?branch=master)
+-   [**IOCTL\_STORAGE\_FIRMWARE\_DOWNLOAD**](/windows/win32/WinIoctl/ni-winioctl-ioctl_storage_firmware_download?branch=master)
+-   [**IOCTL\_STORAGE\_FIRMWARE\_ACTIVATE**](/windows/win32/WinIoctl/ni-winioctl-ioctl_storage_firmware_activate?branch=master)
 
 For getting storage information and updating firmware, Windows also supports PowerShell cmdlets for doing this quickly:
 
@@ -185,7 +190,7 @@ For getting storage information and updating firmware, Windows also supports Pow
 
 ### Returning errors through the pass-through mechanism
 
-Similar to SCSI and ATA pass-through IOCTLs, when a command/request is sent to the miniport or device, the IOCTL returns if it was successful or not. In the [**STORAGE\_PROTOCOL\_COMMAND**](storage-protocol-command.md) structure, the IOCTL returns the status through the **ReturnStatus** field.
+Similar to SCSI and ATA pass-through IOCTLs, when a command/request is sent to the miniport or device, the IOCTL returns if it was successful or not. In the [**STORAGE\_PROTOCOL\_COMMAND**](/windows/win32/winioctl/ns-winioctl-_storage_protocol_command?branch=master) structure, the IOCTL returns the status through the **ReturnStatus** field.
 
 ### Example: sending a vendor-specific command
 
@@ -236,9 +241,9 @@ In this example, we expect `protocolCommand->ReturnStatus == STORAGE_PROTOCOL_ST
 
 ## Protocol-specific queries
 
-Windows 8.1 introduced [**IOCTL\_STORAGE\_QUERY\_PROPERTY**](ioctl-storage-query-property.md) for data retrieval. In Windows 10, the IOCTL was enhanced to support commonly requested NVMe features such as **Get Log Pages**, **Get Features**, and **Identify**. This allows for the retrieval of NVMe specific information for monitoring and inventory purposes.
+Windows 8.1 introduced [**IOCTL\_STORAGE\_QUERY\_PROPERTY**](/windows/win32/WinIoCtl/ni-winioctl-ioctl_storage_query_property?branch=master) for data retrieval. In Windows 10, the IOCTL was enhanced to support commonly requested NVMe features such as **Get Log Pages**, **Get Features**, and **Identify**. This allows for the retrieval of NVMe specific information for monitoring and inventory purposes.
 
-The input buffer for the IOCTL, [**STORAGE\_PROPERTY\_QUERY**](storage-property-query.md) (from Windows 10) is shown here.
+The input buffer for the IOCTL, [**STORAGE\_PROPERTY\_QUERY**](/windows/win32/WinIoCtl/ns-winioctl-_storage_property_query?branch=master) (from Windows 10) is shown here.
 
 
 ```C++
@@ -251,17 +256,17 @@ typedef struct _STORAGE_PROPERTY_QUERY {
 
 
 
-When using [**IOCTL\_STORAGE\_QUERY\_PROPERTY**](ioctl-storage-query-property.md) to retrieve NVMe protocol-specific information in the [**STORAGE\_PROTOCOL\_DATA\_DESCRIPTOR**](storage-protocol-data-descriptor.md), configure the [**STORAGE\_PROPERTY\_QUERY**](storage-property-query.md) structure as follows:
+When using [**IOCTL\_STORAGE\_QUERY\_PROPERTY**](/windows/win32/WinIoCtl/ni-winioctl-ioctl_storage_query_property?branch=master) to retrieve NVMe protocol-specific information in the [**STORAGE\_PROTOCOL\_DATA\_DESCRIPTOR**](/windows/win32/WinIoCtl/ns-winioctl-_storage_protocol_data_descriptor?branch=master), configure the [**STORAGE\_PROPERTY\_QUERY**](/windows/win32/WinIoCtl/ns-winioctl-_storage_property_query?branch=master) structure as follows:
 
--   Allocate a buffer that can contains both a [**STORAGE\_PROPERTY\_QUERY**](storage-property-query.md) and a [**STORAGE\_PROTOCOL\_SPECIFIC\_DATA**](storage-protocol-specific-data.md) structure.
+-   Allocate a buffer that can contains both a [**STORAGE\_PROPERTY\_QUERY**](/windows/win32/WinIoCtl/ns-winioctl-_storage_property_query?branch=master) and a [**STORAGE\_PROTOCOL\_SPECIFIC\_DATA**](/windows/win32/WinIoCtl/ns-winioctl-_storage_protocol_specific_data?branch=master) structure.
 
 -   Set the **PropertyID** field to **StorageAdapterProtocolSpecificProperty** or **StorageDeviceProtocolSpecificProperty** for a controller or device/namespace request, respectively.
 
 -   Set the **QueryType** field to **PropertyStandardQuery**.
 
--   Fill the [**STORAGE\_PROTOCOL\_SPECIFIC\_DATA**](storage-protocol-specific-data.md) structure with the desired values. The start of the **STORAGE\_PROTOCOL\_SPECIFIC\_DATA** is the **AdditionalParameters** field of [**STORAGE\_PROPERTY\_QUERY**](storage-property-query.md).
+-   Fill the [**STORAGE\_PROTOCOL\_SPECIFIC\_DATA**](/windows/win32/WinIoCtl/ns-winioctl-_storage_protocol_specific_data?branch=master) structure with the desired values. The start of the **STORAGE\_PROTOCOL\_SPECIFIC\_DATA** is the **AdditionalParameters** field of [**STORAGE\_PROPERTY\_QUERY**](/windows/win32/WinIoCtl/ns-winioctl-_storage_property_query?branch=master).
 
-The [**STORAGE\_PROTOCOL\_SPECIFIC\_DATA**](storage-protocol-specific-data.md) structure (from Windows 10) is shown here.
+The [**STORAGE\_PROTOCOL\_SPECIFIC\_DATA**](/windows/win32/WinIoCtl/ns-winioctl-_storage_protocol_specific_data?branch=master) structure (from Windows 10) is shown here.
 
 
 ```C++
@@ -284,11 +289,11 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA {
 
 
 
-To specify a type of NVMe protocol-specific information, configure the [**STORAGE\_PROTOCOL\_SPECIFIC\_DATA**](storage-protocol-specific-data.md) structure as follows:
+To specify a type of NVMe protocol-specific information, configure the [**STORAGE\_PROTOCOL\_SPECIFIC\_DATA**](/windows/win32/WinIoCtl/ns-winioctl-_storage_protocol_specific_data?branch=master) structure as follows:
 
 -   Set the **ProtocolType** field to **ProtocolTypeNVMe**.
 
--   Set the **DataType** field to an enumeration value defined by [**STORAGE\_PROTOCOL\_NVME\_DATA\_TYPE**](storage-protocol-nvme-data-type.md):
+-   Set the **DataType** field to an enumeration value defined by [**STORAGE\_PROTOCOL\_NVME\_DATA\_TYPE**](/windows/win32/WinIoCtl/ne-winioctl-_storage_protocol_nvme_data_type?branch=master):
 
     -   Use **NVMeDataTypeIdentify** to get Identify Controller data or Identify Namespace data.
     -   Use **NVMeDataTypeLogPage** to get log pages (including SMART/health data).
@@ -565,17 +570,17 @@ In this example, based off of the previous one, the **Get Features** request is 
 
 ## Temperature queries
 
-In Windows 10, [**IOCTL\_STORAGE\_QUERY\_PROPERTY**](ioctl-storage-query-property.md) can also be used to query temperature data from NVMe devices.
+In Windows 10, [**IOCTL\_STORAGE\_QUERY\_PROPERTY**](/windows/win32/WinIoCtl/ni-winioctl-ioctl_storage_query_property?branch=master) can also be used to query temperature data from NVMe devices.
 
-To retrieve temperature information from an NVMe drive in the [**STORAGE\_TEMPERATURE\_DATA\_DESCRIPTOR**](storage-temperature-data-descriptor.md), configure the [**STORAGE\_PROPERTY\_QUERY**](storage-property-query.md) structure as follows:
+To retrieve temperature information from an NVMe drive in the [**STORAGE\_TEMPERATURE\_DATA\_DESCRIPTOR**](/windows/win32/WinIoctl/ns-winioctl-_storage_temperature_data_descriptor?branch=master), configure the [**STORAGE\_PROPERTY\_QUERY**](/windows/win32/WinIoCtl/ns-winioctl-_storage_property_query?branch=master) structure as follows:
 
--   Allocate a buffer that can contains a [**STORAGE\_PROPERTY\_QUERY**](storage-property-query.md) structure.
+-   Allocate a buffer that can contains a [**STORAGE\_PROPERTY\_QUERY**](/windows/win32/WinIoCtl/ns-winioctl-_storage_property_query?branch=master) structure.
 
 -   Set the **PropertyID** field to **StorageAdapterTemperatureProperty** or **StorageDeviceTemperatureProperty** for a controller or device/namespace request, respectively.
 
 -   Set the **QueryType** field to **PropertyStandardQuery**.
 
-The [**STORAGE\_TEMPERATURE\_INFO**](storage-temperature-info.md) structure (from Windows 10) is shown here.
+The [**STORAGE\_TEMPERATURE\_INFO**](/windows/win32/WinIoctl/ns-winioctl-_storage_temperature_info?branch=master) structure (from Windows 10) is shown here.
 
 
 ```C++
@@ -605,7 +610,7 @@ The NVMe **Set-Features** command is a good example of a behavior changing comma
 
 ### Setting temperature thresholds
 
-Windows 10 introduced [**IOCTL\_STORAGE\_SET\_TEMPERATURE\_THRESHOLD**](ioctl-storage-set-temperature-threshold.md), an IOCTL for getting and setting temperature thresholds. You can also use it to get the current temperature of the device. The input/output buffer for this IOCTL is the [**STORAGE\_TEMPERATURE\_INFO**](storage-temperature-info.md) structure, from the previous code section.
+Windows 10 introduced [**IOCTL\_STORAGE\_SET\_TEMPERATURE\_THRESHOLD**](/windows/win32/WinIoctl/ni-winioctl-ioctl_storage_set_temperature_threshold?branch=master), an IOCTL for getting and setting temperature thresholds. You can also use it to get the current temperature of the device. The input/output buffer for this IOCTL is the [**STORAGE\_TEMPERATURE\_INFO**](/windows/win32/WinIoctl/ns-winioctl-_storage_temperature_info?branch=master) structure, from the previous code section.
 
 ### Example: Setting over-threshold temperature
 

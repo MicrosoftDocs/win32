@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies an algorithm identifier.'
-ms.assetid: '557436b4-f7f1-4708-acc7-c6b47e6322ad'
-title: 'ALG\_ID'
+---
+Description: Specifies an algorithm identifier.
+ms.assetid: 557436b4-f7f1-4708-acc7-c6b47e6322ad
+title: ALG\_ID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ALG\_ID
@@ -334,10 +339,10 @@ For the [Microsoft Base DSS and Diffie-Hellman Cryptographic Provider](microsoft
 [Cryptography Functions](cryptography-functions.md)
 </dt> <dt>
 
-[**CRYPT\_ALGORITHM\_IDENTIFIER**](crypt-algorithm-identifier.md)
+[**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier?branch=master)
 </dt> <dt>
 
-[**CryptFindOIDInfo**](cryptfindoidinfo.md)
+[**CryptFindOIDInfo**](/windows/win32/Wincrypt/nf-wincrypt-cryptfindoidinfo?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes how to create and manipulate media types that describe audio data.'
-ms.assetid: '15aad4ea-7b4b-4a6f-bac7-18e0c281f2a6'
+Description: This section describes how to create and manipulate media types that describe audio data.
+ms.assetid: 15aad4ea-7b4b-4a6f-bac7-18e0c281f2a6
 title: Audio Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Media Types

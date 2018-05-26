@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a global Shell setting.'
-ms.assetid: '3E8C7C6A-5696-4756-B4BF-902FA2420AE9'
-title: 'Shell.GetSetting method'
+---
+Description: Retrieves a global Shell setting.
+ms.assetid: 3E8C7C6A-5696-4756-B4BF-902FA2420AE9
+title: Shell.GetSetting method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.GetSetting method

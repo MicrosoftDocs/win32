@@ -1,7 +1,12 @@
 ---
 title: FontItalic Property
 description: FontItalic Property
-ms.assetid: 'fa34c2ca-b200-435f-8191-3ad5b33fe2b6'
+ms.assetid: fa34c2ca-b200-435f-8191-3ad5b33fe2b6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FontItalic Property

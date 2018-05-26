@@ -1,8 +1,9 @@
 ---
 title: TBN\_WRAPACCELERATOR notification code
 description: Requests the index of the button in one or more toolbars corresponding to the specified accelerator character. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'fc2443fd-e1b3-4085-b65d-96c08f544944'
-keywords: ["TBN_WRAPACCELERATOR notification code Windows Controls"]
+ms.assetid: fc2443fd-e1b3-4085-b65d-96c08f544944
+keywords:
+- TBN_WRAPACCELERATOR notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_WRAPACCELERATOR notification code
@@ -61,15 +67,15 @@ typedef struct tagNMTBWRAPACCELERATOR {
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter K.'
-Robots: 'noindex, nofollow'
-ms.assetid: 'f17042c3-ba1a-408f-af55-5f171b0dee33'
+Description: Contains definitions of security terms that begin with the letter K.
+Robots: noindex, nofollow
+ms.assetid: f17042c3-ba1a-408f-af55-5f171b0dee33
 title: K
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # K

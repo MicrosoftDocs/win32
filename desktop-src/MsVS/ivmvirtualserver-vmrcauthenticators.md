@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer VMRCAuthenticators property
 description: The VMRCAuthenticators property contains the VMRC authentication methods supported by Virtual Server.
-ms.assetid: '1f857193-50a1-4d1f-8369-65f3af5b5437'
-keywords: ["VMRCAuthenticators property Virtual Server", "VMRCAuthenticators property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , VMRCAuthenticators property", "VMRCAuthenticators property Virtual Server , VMVirtualServer object", "VMVirtualServer object Virtual Server , VMRCAuthenticators property"]
+ms.assetid: 1f857193-50a1-4d1f-8369-65f3af5b5437
+keywords:
+- VMRCAuthenticators property Virtual Server
+- VMRCAuthenticators property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , VMRCAuthenticators property
+- VMRCAuthenticators property Virtual Server , VMVirtualServer object
+- VMVirtualServer object Virtual Server , VMRCAuthenticators property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::VMRCAuthenticators property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_VMRCAuthenticators(
-  [out] IVMRCAuthenticatorCollection **authenticators
+  [out] IVMRCAuthenticatorCollection **authenticators
 );
 ```
 
@@ -101,8 +111,8 @@ End If
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -114,9 +124,9 @@ End If
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

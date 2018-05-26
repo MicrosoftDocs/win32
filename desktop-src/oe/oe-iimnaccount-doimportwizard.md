@@ -1,8 +1,11 @@
 ---
 title: IImnAccount DoImportWizard method
 description: Creates a wizard for importing an account.
-ms.assetid: '86583188-214d-4bc5-92ea-63e8f9eaa077'
-keywords: ["DoImportWizard method Windows Mail (formerly Outlook Express)", "DoImportWizard method Windows Mail (formerly Outlook Express) , IImnAccount interface", "IImnAccount interface Windows Mail (formerly Outlook Express) , DoImportWizard method"]
+ms.assetid: 86583188-214d-4bc5-92ea-63e8f9eaa077
+keywords:
+- DoImportWizard method Windows Mail (formerly Outlook Express)
+- DoImportWizard method Windows Mail (formerly Outlook Express) , IImnAccount interface
+- IImnAccount interface Windows Mail (formerly Outlook Express) , DoImportWizard method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccount::DoImportWizard method
@@ -24,9 +32,9 @@ Creates a wizard for importing an account.
 
 ```C++
 HRESULT DoImportWizard(
-  [in] HWND  hwnd,
-  [in] CLSID clsid,
-  [in] DWORD dwFlags
+  [in] HWND  hwnd,
+  [in] CLSID clsid,
+  [in] DWORD dwFlags
 );
 ```
 
@@ -103,7 +111,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -111,8 +119,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -120,9 +128,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

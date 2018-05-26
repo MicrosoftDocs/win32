@@ -1,7 +1,12 @@
 ---
 title: fsToolBarFlags Member
 description: fsToolBarFlags Member
-ms.assetid: '3CDFCEAC-E6FE-44fc-B5C0-E3106DAC1E1F'
+ms.assetid: 3CDFCEAC-E6FE-44fc-B5C0-E3106DAC1E1F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # fsToolBarFlags Member
@@ -35,18 +40,18 @@ This member can be a combination of one or more of the following values.
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**Back to HH\_WINTYPE**](hh-wintype-structure.md)
+[**Back to HH\_WINTYPE**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_wintype?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

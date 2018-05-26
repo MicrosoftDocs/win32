@@ -1,8 +1,10 @@
 ---
 title: System.MessageStore.Message object
-description: Defines the properties of each member of the Windows Mail (formerly Outlook Express) Messages collection.
-ms.assetid: '5fe4dbf0-c178-401b-9541-e604c20b7441'
-keywords: ["System.MessageStore.Message object Windows Sidebar", "System.MessageStore.Message object Windows Sidebar , described"]
+description: Defines the properties of each member of the Windows Mail (formerly Outlook Express) Messages collection.
+ms.assetid: 5fe4dbf0-c178-401b-9541-e604c20b7441
+keywords:
+- System.MessageStore.Message object Windows Sidebar
+- System.MessageStore.Message object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,13 +13,18 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.MessageStore.Message object
 
 \[The Windows Gadget Platform/Sidebar is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. \]
 
-Defines the properties of each member of the Windows Mail (formerly Outlook Express) [**Messages**](system-messagestorefolder-messages.md) collection.
+Defines the properties of each member of the Windows Mail (formerly Outlook Express) [**Messages**](system-messagestorefolder-messages.md) collection.
 
 ## Members
 
@@ -40,13 +47,13 @@ The **System.MessageStore.Message** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
 Each **System.MessageStore.Message** in the [**Messages**](system-messagestorefolder-messages.md) collection corresponds to a message in a Windows Mail folder.
 
-[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Subfolders and their content (such as messages) are not exposed.
+[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Subfolders and their content (such as messages) are not exposed.
 
 ## Requirements
 
@@ -54,18 +61,18 @@ Each **System.MessageStore.Message** in the [**Messages**](system-messagestorefo
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

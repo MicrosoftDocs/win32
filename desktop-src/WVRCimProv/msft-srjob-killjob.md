@@ -4,13 +4,16 @@ description: Terminates this job and any underlying processes immediately, and r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eb488fa0-47c1-4b14-bd37-d1bd62166066'
-ms.prod: 'windows-server-dev'
+ms.assetid: eb488fa0-47c1-4b14-bd37-d1bd62166066
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["KillJob method", "KillJob method, MSFT_SrJob class", "MSFT_SrJob class, KillJob method"]
+keywords:
+- KillJob method
+- KillJob method, MSFT_SrJob class
+- MSFT_SrJob class, KillJob method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WvrCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # KillJob method of the MSFT\_SrJob class
@@ -30,7 +36,7 @@ Terminates this job and any underlying processes immediately, and removes any as
 
 ```mof
 uint32 KillJob(
-  [in] boolean DeleteOnKill
+  [in] boolean DeleteOnKill
 );
 ```
 
@@ -72,10 +78,10 @@ Indicates whether the job should be automatically deleted upon termination. This
 **Not Found** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–32767)
+**DMTF Reserved** (8 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -85,7 +91,7 @@ Indicates whether the job should be automatically deleted upon termination. This
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -99,9 +105,9 @@ Indicates whether the job should be automatically deleted upon termination. This
 [**MSFT\_SrJob**](msft-srjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

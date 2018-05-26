@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;2.0 and earlier versions.'
-ms.assetid: '850b598a-338e-4f84-8336-01e962256a08'
-title: 'Not Supported in Windows Installer 2.0'
+Description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;2.0 and earlier versions.
+ms.assetid: 850b598a-338e-4f84-8336-01e962256a08
+title: Not Supported in Windows Installer 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Not Supported in Windows Installer 2.0
@@ -14,31 +19,31 @@ The following features are not supported in Windows Installer 2.0 and earlier v
 
 [Installer Functions](installer-functions.md)
 
--   [**MsiRemovePatches**](msiremovepatches.md)
--   [**MsiDeterminePatchSequence**](msideterminepatchsequence.md)
--   [**MsiApplyMultiplePatches**](msiapplymultiplepatches.md)
--   [**MsiEnumPatchesEx**](msienumpatchesex.md)
--   [**MsiGetPatchInfoEx**](msigetpatchinfoex.md)
--   [**MsiEnumProductsEx**](msienumproductsex.md)
--   [**MsiGetProductInfoEx**](msigetproductinfoex.md)
--   [**MsiQueryFeatureStateEx**](msiqueryfeaturestateex.md)
--   [**MsiQueryComponentState**](msiquerycomponentstate.md)
--   [**MsiExtractPatchXMLData**](msiextractpatchxmldata.md)
--   [**MsiDetermineApplicablePatches**](msidetermineapplicablepatches.md)
--   [**MsiSourceListEnumSources**](msisourcelistenumsources.md)
--   [**MsiSourceListAddSourceEx**](msisourcelistaddsourceex.md)
--   [**MsiSourceListClearSource**](msisourcelistclearsource.md)
--   [**MsiSourceListClearAllEx**](msisourcelistclearallex.md)
--   [**MsiSourceListForceResolutionEx**](msisourcelistforceresolutionex.md)
--   [**MsiSourceListGetInfo**](msisourcelistgetinfo.md)
--   [**MsiSourceListSetInfo**](msisourcelistsetinfo.md)
--   [**MsiSourceListEnumMediaDisks**](msisourcelistenummediadisks.md)
--   [**MsiSourceListAddMediaDisk**](msisourcelistaddmediadisk.md)
--   [**MsiSourceListClearMediaDisk**](msisourcelistclearmediadisks.md)
+-   [**MsiRemovePatches**](/windows/win32/Msi/nf-msi-msiremovepatchesa?branch=master)
+-   [**MsiDeterminePatchSequence**](/windows/win32/Msi/nf-msi-msideterminepatchsequencea?branch=master)
+-   [**MsiApplyMultiplePatches**](/windows/win32/Msi/nf-msi-msiapplymultiplepatchesa?branch=master)
+-   [**MsiEnumPatchesEx**](/windows/win32/Msi/nf-msi-msienumpatchesexa?branch=master)
+-   [**MsiGetPatchInfoEx**](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master)
+-   [**MsiEnumProductsEx**](/windows/win32/Msi/nf-msi-msienumproductsexa?branch=master)
+-   [**MsiGetProductInfoEx**](/windows/win32/Msi/nf-msi-msigetproductinfoexa?branch=master)
+-   [**MsiQueryFeatureStateEx**](/windows/win32/Msi/nf-msi-msiqueryfeaturestateexa?branch=master)
+-   [**MsiQueryComponentState**](/windows/win32/Msi/nf-msi-msiquerycomponentstatea?branch=master)
+-   [**MsiExtractPatchXMLData**](/windows/win32/Msi/nf-msi-msiextractpatchxmldataa?branch=master)
+-   [**MsiDetermineApplicablePatches**](/windows/win32/Msi/nf-msi-msidetermineapplicablepatchesa?branch=master)
+-   [**MsiSourceListEnumSources**](/windows/win32/Msi/nf-msi-msisourcelistenumsourcesa?branch=master)
+-   [**MsiSourceListAddSourceEx**](/windows/win32/Msi/nf-msi-msisourcelistaddsourceexa?branch=master)
+-   [**MsiSourceListClearSource**](/windows/win32/Msi/nf-msi-msisourcelistclearsourcea?branch=master)
+-   [**MsiSourceListClearAllEx**](/windows/win32/Msi/nf-msi-msisourcelistclearallexa?branch=master)
+-   [**MsiSourceListForceResolutionEx**](/windows/win32/Msi/nf-msi-msisourcelistforceresolutionexa?branch=master)
+-   [**MsiSourceListGetInfo**](/windows/win32/Msi/nf-msi-msisourcelistgetinfoa?branch=master)
+-   [**MsiSourceListSetInfo**](/windows/win32/Msi/nf-msi-msisourcelistsetinfoa?branch=master)
+-   [**MsiSourceListEnumMediaDisks**](/windows/win32/Msi/nf-msi-msisourcelistenummediadisksa?branch=master)
+-   [**MsiSourceListAddMediaDisk**](/windows/win32/Msi/nf-msi-msisourcelistaddmediadiska?branch=master)
+-   [**MsiSourceListClearMediaDisk**](/windows/win32/Msi/nf-msi-msisourcelistclearmediadiska?branch=master)
 
 [Windows Installer Structures](installer-structures.md)
 
--   [**MSIPATCHSEQUENCEINFO**](msipatchsequenceinfo.md)
+-   [**MSIPATCHSEQUENCEINFO**](/windows/win32/Msi/ns-msi-tagmsipatchsequenceinfoa?branch=master)
 
 [Database Tables](database-tables.md)
 
@@ -75,7 +80,7 @@ The following features are not supported in Windows Installer 2.0 and earlier v
 
 Logging Modes
 
--   [**INSTALLLOGMODE\_LOGONLYONERROR**](msienablelog.md)
+-   [**INSTALLLOGMODE\_LOGONLYONERROR**](/windows/win32/Msi/nf-msi-msienableloga?branch=master)
 
 [Automation Interface](automation-interface.md)
 
@@ -139,10 +144,10 @@ The following features are also not supported in Windows Installer version 2.0.
 
 [Installer Functions](installer-functions.md)
 
--   [**MsiAdvertiseProductEx**](msiadvertiseproductex.md)
+-   [**MsiAdvertiseProductEx**](/windows/win32/Msi/nf-msi-msiadvertiseproductexa?branch=master)
     -   MSIADVERTISEOPTIONS\_INSTANCE
--   [**MsiApplyPatch**](msiapplypatch.md)
--   [**MsiGetProductInfo**](msigetproductinfo.md)
+-   [**MsiApplyPatch**](/windows/win32/Msi/nf-msi-msiapplypatcha?branch=master)
+-   [**MsiGetProductInfo**](/windows/win32/Msi/nf-msi-msigetproductinfoa?branch=master)
 
 [Automation Interface](automation-interface.md)
 

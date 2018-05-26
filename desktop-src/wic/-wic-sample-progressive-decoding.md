@@ -1,7 +1,12 @@
 ---
-Description: 'This sample demonstrates the use of Windows Imaging Component (WIC) to decode an image that is encoded with progressive levels.'
-ms.assetid: '14018dce-26f0-4e1e-9d19-c5b42dd2cdab'
+Description: This sample demonstrates the use of Windows Imaging Component (WIC) to decode an image that is encoded with progressive levels.
+ms.assetid: 14018dce-26f0-4e1e-9d19-c5b42dd2cdab
 title: WIC Progressive Decoding Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIC Progressive Decoding Sample

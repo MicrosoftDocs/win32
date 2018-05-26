@@ -1,8 +1,9 @@
 ---
 title: TCM\_SETCURFOCUS message
 description: Sets the focus to a specified tab in a tab control. You can send this message explicitly or by using the TabCtrl\_SetCurFocus macro.
-ms.assetid: 'bcbd5f26-b54e-492b-aff3-357b8ae23969'
-keywords: ["TCM_SETCURFOCUS message Windows Controls"]
+ms.assetid: bcbd5f26-b54e-492b-aff3-357b8ae23969
+keywords:
+- TCM_SETCURFOCUS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_SETCURFOCUS message
 
-Sets the focus to a specified tab in a tab control. You can send this message explicitly or by using the [**TabCtrl\_SetCurFocus**](tabctrl-setcurfocus.md) macro.
+Sets the focus to a specified tab in a tab control. You can send this message explicitly or by using the [**TabCtrl\_SetCurFocus**](/windows/win32/Commctrl/nf-commctrl-tabctrl_setcurfocus?branch=master) macro.
 
 ## Parameters
 
@@ -47,8 +53,8 @@ If the tab control does not have the [**TCS\_BUTTONS**](tab-control-styles.md#tc
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ If the tab control does not have the [**TCS\_BUTTONS**](tab-control-styles.md#tc
 [**TCM\_GETCURFOCUS**](tcm-getcurfocus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

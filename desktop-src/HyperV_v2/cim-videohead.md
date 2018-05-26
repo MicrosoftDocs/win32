@@ -1,7 +1,12 @@
 ---
-Description: 'Represents one head of a CIM\_DisplayController object.'
-ms.assetid: '2bb034d9-d1df-4cc8-a6a8-b6ad7289f582'
-title: 'CIM\_VideoHead class'
+Description: Represents one head of a CIM\_DisplayController object.
+ms.assetid: 2bb034d9-d1df-4cc8-a6a8-b6ad7289f582
+title: CIM\_VideoHead class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VideoHead class
@@ -259,8 +264,8 @@ A description of current scan mode when the **CurrentScanMode** property is "1" 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -274,9 +279,9 @@ A description of current scan mode when the **CurrentScanMode** property is "1" 
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

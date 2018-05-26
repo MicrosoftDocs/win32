@@ -1,7 +1,12 @@
 ---
-Description: 'This section lists the .x file templates. Template format is discussed in Templates.'
-ms.assetid: '1403fd1e-9799-4683-87ab-cfad102d1fae'
+Description: This section lists the .x file templates. Template format is discussed in Templates.
+ms.assetid: 1403fd1e-9799-4683-87ab-cfad102d1fae
 title: Templates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Templates

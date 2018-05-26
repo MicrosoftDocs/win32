@@ -1,8 +1,9 @@
 ---
 title: BM\_SETIMAGE message
 description: Associates a new image (icon or bitmap) with the button.
-ms.assetid: 'bf05e684-63d0-4583-960b-f329edafb151'
-keywords: ["BM_SETIMAGE message Windows Controls"]
+ms.assetid: bf05e684-63d0-4583-960b-f329edafb151
+keywords:
+- BM_SETIMAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BM\_SETIMAGE message
@@ -57,7 +63,7 @@ The appearance of text, an icon, or both on a button control depends on the [**B
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +71,8 @@ The appearance of text, an icon, or both on a button control depends on the [**B
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -78,9 +84,9 @@ The appearance of text, an icon, or both on a button control depends on the [**B
 [**BM\_GETIMAGE**](bm-getimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

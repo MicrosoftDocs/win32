@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a firewall rule with a profile that it is in.'
-ms.assetid: 'c5dae148-e59e-4d76-9544-8d49ed234adc'
-title: 'MSFT\_NetFirewallRuleInProfile class'
+Description: Associates a firewall rule with a profile that it is in.
+ms.assetid: c5dae148-e59e-4d76-9544-8d49ed234adc
+title: MSFT\_NetFirewallRuleInProfile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetFirewallRuleInProfile class
@@ -15,9 +20,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetFirewallRuleInProfile : MSFT_NetRuleInProfile
 {
-  MSFT_NetFirewallRule    REF PartComponent;
+  MSFT_NetFirewallRule    REF PartComponent;
   MSFT_NetFirewallProfile REF GroupComponent;
-  uint16                      Priority;
+  uint16                      Priority;
 };
 ```
 
@@ -84,17 +89,17 @@ This field is ignored.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

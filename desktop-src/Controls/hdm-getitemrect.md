@@ -1,8 +1,9 @@
 ---
 title: HDM\_GETITEMRECT message
 description: Gets the bounding rectangle for a given item in a header control. You can send this message explicitly or use the Header\_GetItemRect macro.
-ms.assetid: 'b483ef97-3700-425b-8160-81c673850f68'
-keywords: ["HDM_GETITEMRECT message Windows Controls"]
+ms.assetid: b483ef97-3700-425b-8160-81c673850f68
+keywords:
+- HDM_GETITEMRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_GETITEMRECT message
 
-Gets the bounding rectangle for a given item in a header control. You can send this message explicitly or use the [**Header\_GetItemRect**](header-getitemrect.md) macro.
+Gets the bounding rectangle for a given item in a header control. You can send this message explicitly or use the [**Header\_GetItemRect**](/windows/win32/Commctrl/nf-commctrl-header_getitemrect?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

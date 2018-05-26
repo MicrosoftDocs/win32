@@ -1,8 +1,11 @@
 ---
 title: IMimeEnumHeaderRows Next method
 description: On success, retrieves a specified number of elements in the enumeration sequence.
-ms.assetid: '31e41d58-9dc0-48f4-85bd-f309979400c6'
-keywords: ["Next method Windows Mail (formerly Outlook Express)", "Next method Windows Mail (formerly Outlook Express) , IMimeEnumHeaderRows interface", "IMimeEnumHeaderRows interface Windows Mail (formerly Outlook Express) , Next method"]
+ms.assetid: 31e41d58-9dc0-48f4-85bd-f309979400c6
+keywords:
+- Next method Windows Mail (formerly Outlook Express)
+- Next method Windows Mail (formerly Outlook Express) , IMimeEnumHeaderRows interface
+- IMimeEnumHeaderRows interface Windows Mail (formerly Outlook Express) , Next method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeEnumHeaderRows::Next method
@@ -24,9 +32,9 @@ On success, retrieves a specified number of elements in the enumeration sequence
 
 ```C++
 HRESULT Next(
-  [in]      ULONG           cFetch,
-  [in, out] LPENUMHEADERROW prgRow,
-  [out]     ULONG           *pcFetched
+  [in]      ULONG           cFetch,
+  [in, out] LPENUMHEADERROW prgRow,
+  [out]     ULONG           *pcFetched
 );
 ```
 
@@ -79,7 +87,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,8 +95,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -96,9 +104,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

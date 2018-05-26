@@ -1,8 +1,9 @@
 ---
 title: TBM\_SETTOOLTIPS message
 description: Assigns a tooltip control to a trackbar control.
-ms.assetid: '9bba1084-d04e-4631-a5cc-408849a14eb1'
-keywords: ["TBM_SETTOOLTIPS message Windows Controls"]
+ms.assetid: 9bba1084-d04e-4631-a5cc-408849a14eb1
+keywords:
+- TBM_SETTOOLTIPS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_SETTOOLTIPS message
@@ -45,15 +51,15 @@ When a trackbar control is created with the [**TBS\_TOOLTIPS**](trackbar-control
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

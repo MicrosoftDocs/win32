@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the TCP parameter setting for the Microsoft TCP/IP (Internet Protocol Suite) WMIv2 provider.'
-ms.assetid: '408e1916-7aee-49c7-84e0-4c675ba2cf8d'
-title: 'MSFT\_NetTCPSetting class'
+Description: Represents the TCP parameter setting for the Microsoft TCP/IP (Internet Protocol Suite) WMIv2 provider.
+ms.assetid: 408e1916-7aee-49c7-84e0-4c675ba2cf8d
+title: MSFT\_NetTCPSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetTCPSetting class
@@ -16,42 +21,42 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Policy"), ClassVersion("1.0.0"), dynamic, provider("nettcpip"), AMENDMENT]
 class MSFT_NetTCPSetting : CIM_PolicyAction
 {
-  string  InstanceID;
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  CommonName;
-  string  PolicyKeywords[];
-  string  SystemCreationClassName;
-  string  SystemName;
-  string  PolicyRuleCreationClassName;
-  string  PolicyRuleName;
-  string  CreationClassName;
-  string  PolicyActionName;
+  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  CommonName;
+  string  PolicyKeywords[];
+  string  SystemCreationClassName;
+  string  SystemName;
+  string  PolicyRuleCreationClassName;
+  string  PolicyRuleName;
+  string  CreationClassName;
+  string  PolicyActionName;
   boolean DoActionLogging;
-  string  SettingName;
-  uint32  MinRto;
-  uint32  InitialCongestionWindow;
-  uint8   CwndRestart;
-  uint8   MemoryPressureProtection;
-  uint8   CongestionProvider;
-  uint8   AutoTuningLevelLocal;
-  uint8   EcnCapability;
-  uint8   Timestamps;
-  uint32  InitialRto;
-  uint8   ScalingHeuristics;
-  uint16  DynamicPortRangeStartPort;
-  uint16  DynamicPortRangeNumberOfPorts;
-  uint8   AutoTuningLevelGroupPolicy;
-  uint8   AutoTuningLevelEffective;
-  uint32  DelayedAckTimeout;
-  uint8   DelayedAckFrequency;
-  uint8   AutomaticUseCustom;
-  uint8   NonSackRttResiliency;
-  uint8   ForceWS;
-  uint8   MaxSynRetransmissions;
-  uint16  AutoReusePortRangeStartPort;
-  uint16  AutoReusePortRangeNumberOfPorts;
+  string  SettingName;
+  uint32  MinRto;
+  uint32  InitialCongestionWindow;
+  uint8   CwndRestart;
+  uint8   MemoryPressureProtection;
+  uint8   CongestionProvider;
+  uint8   AutoTuningLevelLocal;
+  uint8   EcnCapability;
+  uint8   Timestamps;
+  uint32  InitialRto;
+  uint8   ScalingHeuristics;
+  uint16  DynamicPortRangeStartPort;
+  uint16  DynamicPortRangeNumberOfPorts;
+  uint8   AutoTuningLevelGroupPolicy;
+  uint8   AutoTuningLevelEffective;
+  uint32  DelayedAckTimeout;
+  uint8   DelayedAckFrequency;
+  uint8   AutomaticUseCustom;
+  uint8   NonSackRttResiliency;
+  uint8   ForceWS;
+  uint8   MaxSynRetransmissions;
+  uint16  AutoReusePortRangeStartPort;
+  uint16  AutoReusePortRangeNumberOfPorts;
 };
 ```
 
@@ -87,7 +92,7 @@ Gets and sets a value that indicates whether the automatic template setting spec
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -102,9 +107,9 @@ Access type: Read/write
 
 Number of ports starting from the **AutoReusePortRangeStartPort** property for automatic reuse port range.
 
-**Windows 8.1, Windows Server 2012 R2, Windows 8 and Windows Server 2012:  **
+**Windows 8.1, Windows Server 2012 R2, Windows 8 and Windows Server 2012:  **
 
-This property is not supported before Windows 10 and Windows Server 2016.
+This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -119,9 +124,9 @@ Access type: Read/write
 
 Starting automatic reuse port number between 1025 and 65535.
 
-**Windows 8.1, Windows Server 2012 R2, Windows 8 and Windows Server 2012:  **
+**Windows 8.1, Windows Server 2012 R2, Windows 8 and Windows Server 2012:  **
 
-This property is not supported before Windows 10 and Windows Server 2016.
+This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -145,7 +150,7 @@ Gets a value that indicates whether the auto tunning level is determined by grou
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -172,7 +177,7 @@ Gets and sets the auto tunning level for group policy. This parameter can contai
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -199,7 +204,7 @@ Gets and sets the local auto tuning level. This property contains one of the fol
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -257,7 +262,7 @@ Gets and sets the TCP congestion provider setting. This property contains one of
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -299,7 +304,7 @@ Gets and sets a value that indicates whether a congested window is restarted. Th
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -405,7 +410,7 @@ Gets and sets the Explicit Congestion Notification (ECN) feature. This property 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -435,7 +440,7 @@ Access type: Read/write
 
 Gets and sets a value indicates whether forced window scaling is enabled.
 
-**Windows 8 and Windows Server 2012:** This property is not supported before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** This property is not supported before Windows 8.1 and Windows Server 2012 R2.
 
 
 
@@ -446,7 +451,7 @@ Gets and sets a value indicates whether forced window scaling is enabled.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -499,7 +504,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedElement**](cim-managedelement.md).
 
@@ -516,7 +521,7 @@ Access type: Read/write
 
 Gets and sets the number of times to attempt to reestablish a connection with SYN packetes. This property can contain a value that ranges from 2 to 8.
 
-**Windows 8 and Windows Server 2012:** This property is not supported before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** This property is not supported before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -541,7 +546,7 @@ Gets and sets the memory pressure protection setting. This property contains one
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -569,7 +574,7 @@ Access type: Read/write
 
 Gets and sets a value that enables Round-Trip Time (RTT) resiliency for clients that do not support Selective Acknowledgment (SACK).
 
-**Windows 8 and Windows Server 2012:** This property is not supported before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** This property is not supported before Windows 8.1 and Windows Server 2012 R2.
 
 
 
@@ -580,7 +585,7 @@ Gets and sets a value that enables Round-Trip Time (RTT) resiliency for clients 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -678,7 +683,7 @@ Gets and sets a value that indicates whether window scaling heuristics are enabl
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -764,7 +769,7 @@ Gets and sets the RFC timestamp setting. This property contains one of the follo
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -774,8 +779,8 @@ Gets and sets the RFC timestamp setting. This property contains one of the follo
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -792,9 +797,9 @@ Gets and sets the RFC timestamp setting. This property contains one of the follo
 [NetTCPIP Provider Classes](net-tcpip-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

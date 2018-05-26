@@ -1,13 +1,16 @@
 ---
-Description: 'Use the SpawnInstance\_ method of the SWbemObject object to create a new instance of a class.'
+Description: Use the SpawnInstance\_ method of the SWbemObject object to create a new instance of a class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4761bdb2-455a-48c4-9e22-bfba6a1036ec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4761bdb2-455a-48c4-9e22-bfba6a1036ec
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.SpawnInstance\_ method'
+title: SWbemObject.SpawnInstance\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.SpawnInstance\_ method
@@ -17,7 +20,7 @@ Use the **SpawnInstance\_** method of the [**SWbemObject**](swbemobject.md) obje
 > [!Note]  
 > Spawning an instance from an instance is supported, but the returned instance is empty.
 
- 
+ 
 
 For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).
 
@@ -87,8 +90,8 @@ Not enough memory to complete the operation.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -110,9 +113,9 @@ Not enough memory to complete the operation.
 [**SWbemServices.Get**](swbemservices-get.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

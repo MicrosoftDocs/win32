@@ -1,7 +1,12 @@
-﻿---
-Description: 'This MSIscsiInitiator\_LUNList structure defines a mapping between the LUN number that is used by the operating system and the LUN number that is configured in the iSCSI target.'
-ms.assetid: '582202d0-fcfc-43f2-a28d-8e4b6e9d07e4'
-title: 'MSIscsiInitiator\_LUNList class'
+---
+Description: This MSIscsiInitiator\_LUNList structure defines a mapping between the LUN number that is used by the operating system and the LUN number that is configured in the iSCSI target.
+ms.assetid: 582202d0-fcfc-43f2-a28d-8e4b6e9d07e4
+title: MSIscsiInitiator\_LUNList class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_LUNList class

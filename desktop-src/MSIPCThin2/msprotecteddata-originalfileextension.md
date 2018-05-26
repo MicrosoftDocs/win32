@@ -4,17 +4,21 @@ description: Gets the file extension before encryption.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '5F900C93-6E35-4B64-AE8C-9A87A7E19160'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 5F900C93-6E35-4B64-AE8C-9A87A7E19160
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSProtectedData originalFileExtension property"]
+keywords:
+- MSProtectedData originalFileExtension property
 topic_type:
 - apiref
 api_name:
 - MSProtectedData originalFileExtension property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSProtectedData originalFileExtension property
@@ -37,7 +41,7 @@ Gets the file extension before encryption.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSProtectedData.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

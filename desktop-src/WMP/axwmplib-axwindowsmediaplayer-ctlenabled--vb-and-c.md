@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.Ctlenabled property
 description: The Ctlenabled property gets or sets a value indicating whether the Windows Media Player control is enabled.
-ms.assetid: '2091e529-551a-4c02-9384-51b774c82ee6'
-keywords: ["Ctlenabled property Windows Media Player", "Ctlenabled property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , Ctlenabled property"]
+ms.assetid: 2091e529-551a-4c02-9384-51b774c82ee6
+keywords:
+- Ctlenabled property Windows Media Player
+- Ctlenabled property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , Ctlenabled property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.Ctlenabled property
@@ -71,9 +79,9 @@ If the **Ctlenabled** property is set to false, then Windows Media Player hides 
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

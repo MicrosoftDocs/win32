@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds two spherical harmonic (SH) vectors; in other words, pOut\[i\] = pA\[i\] + pB\[i\].'
-ms.assetid: 'dbfea12b-c110-42a7-84b6-0dff3d958032'
+---
+Description: Adds two spherical harmonic (SH) vectors; in other words, pOut\[i\] = pA\[i\] + pB\[i\].
+ms.assetid: dbfea12b-c110-42a7-84b6-0dff3d958032
 title: D3DXSHAdd function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSHAdd function

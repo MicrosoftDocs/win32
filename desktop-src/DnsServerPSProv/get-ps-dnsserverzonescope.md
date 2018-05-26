@@ -2,13 +2,16 @@
 title: Get method of the PS\_DnsServerZoneScope class
 description: Retrieves a zone scope from a DNS zone.
 audience: developer
-ms.assetid: '9398ae8f-8f52-4997-becc-25662a7e8b02'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9398ae8f-8f52-4997-becc-25662a7e8b02
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DnsServerZoneScope class", "PS_DnsServerZoneScope class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DnsServerZoneScope class
+- PS_DnsServerZoneScope class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DnsServerZoneScope class
@@ -28,10 +34,10 @@ Retrieves a zone scope from a DNS zone.
 
 ```mof
 uint32 Get(
-  [in]  string       ZoneName,
-  [in]  string       ComputerName,
-  [in]  string       Name,
-  [out] DnsZoneScope cmdletOutput[]
+  [in]  string       ZoneName,
+  [in]  string       ComputerName,
+  [in]  string       Name,
+  [out] DnsZoneScope cmdletOutput[]
 );
 ```
 
@@ -76,7 +82,7 @@ An array that contains the [**DnsZoneScope**](dnszonescope.md) objects that rece
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ An array that contains the [**DnsZoneScope**](dnszonescope.md) objects that rece
 [**PS\_DnsServerZoneScope**](ps-dnsserverzonescope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

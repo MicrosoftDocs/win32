@@ -1,7 +1,12 @@
 ---
 title: How to Apply Effects to Primitives
 description: This topic shows how to apply a series of effect to Direct2D and DirectWrite primitives.
-ms.assetid: '9782C22E-5D4C-494D-A0B1-19474C2CA900'
+ms.assetid: 9782C22E-5D4C-494D-A0B1-19474C2CA900
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Apply Effects to Primitives
@@ -16,7 +21,7 @@ Using [Direct2D effects](effects-overview.md), you can make this image look like
 
 ![rectangles with the text "direct2d" within after several effects are applied.](images/direct2d-svg.png)
 
-After you render the rectangles and text to a intermediate surface, you can use this as input for [**ID2D1Effect**](id2d1effect.md) objects in the image graph.
+After you render the rectangles and text to a intermediate surface, you can use this as input for [**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master) objects in the image graph.
 
 In this example, set the original image as the input to the [Gaussian Blur effect](gaussian-blur.md) and then set the output of the blur as the input for the [Point Specular Lighting effect](specular-lighting.md). The result of this effect is then composited with the original image twice to get the final image that is rendered to the window.
 
@@ -24,9 +29,9 @@ Here is a diagram of the image graph.
 
 ![effect graph diagram.](images/effect-graph.png)
 
-This effect graph consists of four [**ID2D1Effect**](id2d1effect.md) objects, each representing a different built-in effect. You can create and connect custom effects in the same way, after you register them using [**ID1D1Factory1::RegisterEffect**](id2d1factory1-registereffect.md). The code here creates the effects, sets the properties, and connects the effect graph shown earlier.
+This effect graph consists of four [**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master) objects, each representing a different built-in effect. You can create and connect custom effects in the same way, after you register them using [**ID1D1Factory1::RegisterEffect**](/windows/win32/D2d1_1/?branch=master). The code here creates the effects, sets the properties, and connects the effect graph shown earlier.
 
-1.  Create the [Gaussian blur](gaussian-blur.md) effect using the [**ID2D1DeviceContext::CreateEffect**](id2d1devicecontext-createeffect.md) method and specifying the proper CLSID. The CLSIDs for the built-in effects are defined in d2d1effects.h. You then set the standard deviation of the blur using the [**ID2D1Effect::SetValue**](id2d1properties-setvalue.md) method.
+1.  Create the [Gaussian blur](gaussian-blur.md) effect using the [**ID2D1DeviceContext::CreateEffect**](/windows/win32/D2d1_1/?branch=master) method and specifying the proper CLSID. The CLSIDs for the built-in effects are defined in d2d1effects.h. You then set the standard deviation of the blur using the [**ID2D1Effect::SetValue**](/windows/win32/D2d1_1/?branch=master) method.
 
     ```C++
     // Create the Gaussian Blur Effect
@@ -44,7 +49,7 @@ This effect graph consists of four [**ID2D1Effect**](id2d1effect.md) objects, ea
 
     The [Gaussian blur](gaussian-blur.md) effect blurs all of the channels of the image, including the alpha channel.
 
-2.  Create the [specular lighting](point-specular.md) effect and set the properties. The position of the light is a vector of 3 floating point values, so you must declare it as a separate variable and pass it to the [**SetValue**](id2d1properties-setvalue.md) method.
+2.  Create the [specular lighting](point-specular.md) effect and set the properties. The position of the light is a vector of 3 floating point values, so you must declare it as a separate variable and pass it to the [**SetValue**](/windows/win32/D2d1_1/?branch=master) method.
 
     ```C++
     // Create the Specular Lighting Effect
@@ -112,7 +117,7 @@ This effect graph consists of four [**ID2D1Effect**](id2d1effect.md) objects, ea
 
 4.  Finally, you connect the effects to form the graph by setting the inputs to the proper images and bitmaps.
 
-    The first effect, [Gaussian blur](gaussian-blur.md), receives its input from the intermediate surface that you rendered the primitives to. You set the input using the [**ID2D1Effect::SetInput**](id2d1effect-setinput.md) method and specifying the index of an [**ID2D1Image**](id2d1image.md) object. The Gaussian blur and [specular lighting](point-specular.md) effects have only a single input. The specular lighting effect uses the blurred alpha channel of the Gaussian blur
+    The first effect, [Gaussian blur](gaussian-blur.md), receives its input from the intermediate surface that you rendered the primitives to. You set the input using the [**ID2D1Effect::SetInput**](/windows/win32/D2d1_1/?branch=master) method and specifying the index of an [**ID2D1Image**](/windows/win32/D2d1/?branch=master) object. The Gaussian blur and [specular lighting](point-specular.md) effects have only a single input. The specular lighting effect uses the blurred alpha channel of the Gaussian blur
 
     The [composite](composite.md) and [arithmetic composite](arithmetic-composite.md) effects have multiple inputs. To make sure the images are put together in the right order, you must specify the correct index for each input image.
 
@@ -135,7 +140,7 @@ This effect graph consists of four [**ID2D1Effect**](id2d1effect.md) objects, ea
 
     
 
-5.  Pass the [arithmetic composite](arithmetic-composite.md) effect object into the [**ID2DDeviceContext::DrawImage**](id2d1devicecontext-drawimage.md) method and it processes and draws the output of the graph.
+5.  Pass the [arithmetic composite](arithmetic-composite.md) effect object into the [**ID2DDeviceContext::DrawImage**](/windows/win32/D2d1_1/?branch=master) method and it processes and draws the output of the graph.
 
     ```C++
         // Draw the output of the effects graph.

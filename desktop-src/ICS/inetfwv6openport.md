@@ -1,8 +1,10 @@
 ---
 title: INetFwV6OpenPort interface
 description: The INetFwV6OpenPort interface represents a port and protocol pair for which inbound connection attempts are permitted. It is intended for use only by the open port enumerations and collections.
-ms.assetid: '5c016b7d-5d4d-4645-b28c-a8fa89bda8ef'
-keywords: ["INetFwV6OpenPort interface ICS/ICF", "INetFwV6OpenPort interface ICS/ICF , described"]
+ms.assetid: 5c016b7d-5d4d-4645-b28c-a8fa89bda8ef
+keywords:
+- INetFwV6OpenPort interface ICS/ICF
+- INetFwV6OpenPort interface ICS/ICF , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6OpenPort interface
@@ -40,7 +47,7 @@ The **INetFwV6OpenPort** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +63,7 @@ The **INetFwV6OpenPort** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,10 +71,10 @@ The **INetFwV6OpenPort** interface has these properties.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -92,9 +99,9 @@ The **INetFwV6OpenPort** interface has these properties.
 [IUnknown](_com_iunknown)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

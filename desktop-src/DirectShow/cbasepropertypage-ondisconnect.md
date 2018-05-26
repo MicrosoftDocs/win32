@@ -1,7 +1,12 @@
 ---
-Description: 'The OnDisconnect method is called when the property page should release the associated object.'
-ms.assetid: '55bab0ca-587e-405c-9025-f391cf08a620'
-title: 'CBasePropertyPage.OnDisconnect method'
+Description: The OnDisconnect method is called when the property page should release the associated object.
+ms.assetid: 55bab0ca-587e-405c-9025-f391cf08a620
+title: CBasePropertyPage.OnDisconnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.OnDisconnect method
@@ -64,9 +69,9 @@ HRESULT CMyProp::OnDisconnect(void)
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

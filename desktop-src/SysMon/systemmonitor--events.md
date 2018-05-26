@@ -1,7 +1,12 @@
 ---
 title: SystemMonitor Events
 description: The SystemMonitor class has the following events
-ms.assetid: '64d9befd-5ea0-4888-b0fb-cff889f1d188'
+ms.assetid: 64d9befd-5ea0-4888-b0fb-cff889f1d188
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor Events

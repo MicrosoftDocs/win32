@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a locked rectangular region.'
-ms.assetid: 'ee5d2ea6-bf98-4b09-bc67-b808ffcb23c6'
-title: 'D3DLOCKED\_RECT structure'
+---
+Description: Describes a locked rectangular region.
+ms.assetid: ee5d2ea6-bf98-4b09-bc67-b808ffcb23c6
+title: D3DLOCKED\_RECT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DLOCKED\_RECT structure
@@ -42,7 +47,7 @@ Type: **void\***
 
 </dd> <dd>
 
-Pointer to the locked bits. If a [**RECT**](gdi.rect) was provided to the [**LockRect**](idirect3dsurface9--lockrect.md) call, pBits will be appropriately offset from the start of the surface.
+Pointer to the locked bits. If a [**RECT**](gdi.rect) was provided to the [**LockRect**](/windows/win32/d3d9helper/nf-d3d9-idirect3dsurface9-lockrect?branch=master) call, pBits will be appropriately offset from the start of the surface.
 
 </dd> </dl>
 
@@ -67,13 +72,13 @@ The pitch for DXTn formats is different from what was returned in DirectX 7. It 
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::LockRect**](idirect3dcubetexture9--lockrect.md)
+[**IDirect3DCubeTexture9::LockRect**](/windows/win32/d3d9helper/nf-d3d9-idirect3dcubetexture9-lockrect?branch=master)
 </dt> <dt>
 
-[**IDirect3DSurface9::LockRect**](idirect3dsurface9--lockrect.md)
+[**IDirect3DSurface9::LockRect**](/windows/win32/d3d9helper/nf-d3d9-idirect3dsurface9-lockrect?branch=master)
 </dt> <dt>
 
-[**IDirect3DTexture9::LockRect**](idirect3dtexture9--lockrect.md)
+[**IDirect3DTexture9::LockRect**](/windows/win32/d3d9helper/nf-d3d9-idirect3dtexture9-lockrect?branch=master)
 </dt> </dl>
 
  

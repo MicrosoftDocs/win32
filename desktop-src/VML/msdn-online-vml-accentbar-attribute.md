@@ -1,7 +1,12 @@
 ---
 title: VML AccentBar Attribute
 description: VML AccentBar Attribute
-ms.assetid: '83eefbce-b6e0-4800-a005-c61ce0994490'
+ms.assetid: 83eefbce-b6e0-4800-a005-c61ce0994490
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML AccentBar Attribute

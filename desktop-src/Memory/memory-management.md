@@ -1,7 +1,12 @@
 ---
-Description: 'The memory manager implements virtual memory, provides a core set of services such as memory mapped files, copy-on-write memory, large memory support, and underlying support for the cache manager.'
-ms.assetid: 'f259f3cb-81c0-4b5f-b6fa-9681a278019a'
+Description: The memory manager implements virtual memory, provides a core set of services such as memory mapped files, copy-on-write memory, large memory support, and underlying support for the cache manager.
+ms.assetid: f259f3cb-81c0-4b5f-b6fa-9681a278019a
 title: Memory Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory Management

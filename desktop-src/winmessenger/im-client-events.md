@@ -1,7 +1,12 @@
 ---
 title: Client Events
 description: Client Events
-ms.assetid: 'FAB922C9-4A57-42DA-B32D-EB49015F3DCA'
+ms.assetid: FAB922C9-4A57-42DA-B32D-EB49015F3DCA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Events

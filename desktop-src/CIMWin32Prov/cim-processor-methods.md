@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Processor class exposes the following methods.'
+Description: The CIM\_Processor class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'FD2BA3A6-9F4B-4E27-A54E-87DDBE2C4961'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: FD2BA3A6-9F4B-4E27-A54E-87DDBE2C4961
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Processor Methods'
+title: CIM\_Processor Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Processor Methods

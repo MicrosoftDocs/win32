@@ -1,7 +1,12 @@
 ---
-Description: 'The DoConfigure method must be implemented by the monitor. The MCSVC calls this method to obtain configuration information for the capture.'
-ms.assetid: 'bc2a3246-28dc-4452-a98e-a8a2447bb127'
-title: 'IMonitor::DoConfigure method'
+Description: The DoConfigure method must be implemented by the monitor. The MCSVC calls this method to obtain configuration information for the capture.
+ms.assetid: bc2a3246-28dc-4452-a98e-a8a2447bb127
+title: IMonitorDoConfigure method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMonitor::DoConfigure method
@@ -13,9 +18,9 @@ The **DoConfigure** method must be implemented by the monitor. The MCSVC calls t
 
 ```C++
 HRESULT STDMETHODCALLTYPE DoConfigure(
-  [in]  char *pName,
-  [in]  char *pConfiguration,
-  [out] char **ppScriptInstance
+  [in]  char *pName,
+  [in]  char *pConfiguration,
+  [out] char **ppScriptInstance
 );
 ```
 
@@ -66,15 +71,15 @@ The MCSVC may call this method several times, but it cannot be not called while 
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

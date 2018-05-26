@@ -4,10 +4,13 @@ description: MMC allows snap-ins to access the column configuration data of a co
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4da79fd1-f887-447c-89fd-d5044bd5751c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4da79fd1-f887-447c-89fd-d5044bd5751c
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using IColumnData

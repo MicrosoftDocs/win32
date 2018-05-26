@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables low-latency processing in the Microsoft Media Foundation pipeline.'
-ms.assetid: '4D11B4D6-8CFF-4850-BF8F-9019A1F79153'
-title: 'MF\_LOW\_LATENCY attribute'
+---
+Description: Enables low-latency processing in the Microsoft Media Foundation pipeline.
+ms.assetid: 4D11B4D6-8CFF-4850-BF8F-9019A1F79153
+title: MF\_LOW\_LATENCY attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_LOW\_LATENCY attribute
@@ -14,9 +19,9 @@ Enables low-latency processing in the Microsoft Media Foundation pipeline.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
@@ -29,13 +34,13 @@ Low latency is defined as the smallest possible delay from when the media data i
 
 Set this attribute on pipeline components as follows:
 
--   Media source: Use the [**IMFMediaSourceEx::GetSourceAttributes**](imfmediasourceex-getsourceattributes.md) method.
--   Media Foundation transform (MFT): Use the [**IMFTransform::GetAttributes**](imftransform-getattributes.md) method. For encoders, the encoder might support low latency through the [**ICodecAPI**](dshow.icodecapi) interface.
--   Media sink: Query the media sink for the [**IMFAttributes**](imfattributes.md) interface.
+-   Media source: Use the [**IMFMediaSourceEx::GetSourceAttributes**](/windows/win32/mfidl/nf-mfidl-imfmediasourceex-getsourceattributes?branch=master) method.
+-   Media Foundation transform (MFT): Use the [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) method. For encoders, the encoder might support low latency through the [**ICodecAPI**](dshow.icodecapi) interface.
+-   Media sink: Query the media sink for the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface.
 
 Applications typically do not set this attribute directly on the pipeline components, but instead set the attribute on one of the following objects:
 
--   [Media Session](media-session.md): Use the *pConfiguation* parameter of the [**MFCreateMediaSession**](mfcreatemediasession.md) or [**MFCreatePMPMediaSession**](mfcreatepmpmediasession.md) function, or else set the attribute on the topology.
+-   [Media Session](media-session.md): Use the *pConfiguation* parameter of the [**MFCreateMediaSession**](/windows/win32/mfidl/nf-mfidl-mfcreatemediasession?branch=master) or [**MFCreatePMPMediaSession**](/windows/win32/mfidl/nf-mfidl-mfcreatepmpmediasession?branch=master) function, or else set the attribute on the topology.
 -   [Source Reader](source-reader.md): Set the attribute with the configuration properties when you create the Source Reader. For more information, see [Source Reader Attributes](source-reader-attributes.md).
 -   [Sink Writer](sink-writer.md): Set the attribute with the configuration properties when you create the Sink Writer. For more information, see [Sink Writer Attributes](sink-writer-attributes.md).
 

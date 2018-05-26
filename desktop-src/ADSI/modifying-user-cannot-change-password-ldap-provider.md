@@ -4,11 +4,17 @@ description: The ability of a user to change their own password is a permission 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9d5c2d6a-9997-4d0c-b896-bf1b578e64ac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 9d5c2d6a-9997-4d0c-b896-bf1b578e64ac
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Modifying User Cannot Change Password (LDAP Provider) ADSI", "User Cannot Change Password (LDAP Provider) ADSI , modifying", "LDAP provider ADSI , user management examples, User Must Change Password at Next Logon, modifying"]
+keywords:
+- Modifying User Cannot Change Password (LDAP Provider) ADSI
+- User Cannot Change Password (LDAP Provider) ADSI , modifying
+- LDAP provider ADSI , user management examples, User Must Change Password at Next Logon, modifying
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Modifying User Cannot Change Password (LDAP Provider)
@@ -20,8 +26,8 @@ The following procedure describes how to modify or add ACEs for this permission.
 **To modify or add the ACEs for this permission**
 
 1.  Bind to the user object.
-2.  Obtain the [**IADsSecurityDescriptor**](iadssecuritydescriptor.md) object from the **ntSecurityDescriptor** property of the user object.
-3.  Obtain an [**IADsAccessControlList**](iadsaccesscontrollist.md) interface for the security descriptor from the [**IADsSecurityDescriptor.DiscretionaryAcl**](iadssecuritydescriptor-property-methods.md) property.
+2.  Obtain the [**IADsSecurityDescriptor**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master) object from the **ntSecurityDescriptor** property of the user object.
+3.  Obtain an [**IADsAccessControlList**](/windows/win32/Iads/nn-iads-iadsaccesscontrollist?branch=master) interface for the security descriptor from the [**IADsSecurityDescriptor.DiscretionaryAcl**](iadssecuritydescriptor-property-methods.md) property.
 4.  Enumerate the ACEs for the object and search for the ACEs that have the change password GUID ({AB721A53-1E2F-11D0-9819-00AA0040529B}) for the [**IADsAccessControlEntry.ObjectType**](iadsaccesscontrolentry-property-methods.md) property and "Everyone" or "NT AUTHORITY\\SELF" for the **IADsAccessControlEntry.Trustee** property.
 
     > [!Note]  
@@ -30,13 +36,13 @@ The following procedure describes how to modify or add ACEs for this permission.
      
 
 5.  Modify the [**IADsAccessControlEntry.AceType**](iadsaccesscontrolentry-property-methods.md) property of the ACEs that were found to **ADS\_ACETYPE\_ACCESS\_DENIED\_OBJECT** if the user cannot change their password or **ADS\_ACETYPE\_ACCESS\_ALLOWED\_OBJECT** if the user can change their password.
-6.  If the "Everyone" ACE is not found, create a new [**IADsAccessControlEntry**](iadsaccesscontrolentry.md) object that contains the property values shown in the table below and add the new entry to the ACL with the [**IADsAccessControlList.AddAce**](iadsaccesscontrollist-addace.md) method.
-7.  If the "NT AUTHORITY\\SELF" ACE is not found, create a new [**IADsAccessControlEntry**](iadsaccesscontrolentry.md) object with the same property values shown in the table below except the [**Trustee**](iadsaccesscontrolentry-property-methods.md) property contains the account name for SID "S-1-5-10" ("NT AUTHORITY\\SELF"). Add the entry to the ACL with the [**IADsAccessControlList.AddAce**](iadsaccesscontrollist-addace.md) method.
-8.  To update the **ntSecurityDescriptor** property of the object, call the [**IADs.Put**](iads-put.md) method with the same [**IADsSecurityDescriptor**](iadssecuritydescriptor.md) obtained in Step 2.
-9.  Commit the local changes to the server with the [**IADs.SetInfo**](iads-setinfo.md) method.
+6.  If the "Everyone" ACE is not found, create a new [**IADsAccessControlEntry**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master) object that contains the property values shown in the table below and add the new entry to the ACL with the [**IADsAccessControlList.AddAce**](/windows/win32/Iads/nf-iads-iadsaccesscontrollist-addace?branch=master) method.
+7.  If the "NT AUTHORITY\\SELF" ACE is not found, create a new [**IADsAccessControlEntry**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master) object with the same property values shown in the table below except the [**Trustee**](iadsaccesscontrolentry-property-methods.md) property contains the account name for SID "S-1-5-10" ("NT AUTHORITY\\SELF"). Add the entry to the ACL with the [**IADsAccessControlList.AddAce**](/windows/win32/Iads/nf-iads-iadsaccesscontrollist-addace?branch=master) method.
+8.  To update the **ntSecurityDescriptor** property of the object, call the [**IADs.Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master) method with the same [**IADsSecurityDescriptor**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master) obtained in Step 2.
+9.  Commit the local changes to the server with the [**IADs.SetInfo**](/windows/win32/Iads/nf-iads-iads-setinfo?branch=master) method.
 10. If either of the ACEs were created, you must reorder the ACL so that the ACEs are in the correct order. To do this, call the [**GetNamedSecurityInfo**](https://msdn.microsoft.com/library/windows/desktop/aa446645) function with the LDAP ADsPath of the object and then the [**SetNamedSecurityInfo**](https://msdn.microsoft.com/library/windows/desktop/aa379579) function with the same DACL. This reordering will occur automatically when the ACEs are added.
 
-The following table lists the [**IADsAccessControlEntry**](iadsaccesscontrolentry.md) object property values.
+The following table lists the [**IADsAccessControlEntry**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master) object property values.
 
 
 
@@ -56,7 +62,7 @@ The following table lists the [**IADsAccessControlEntry**](iadsaccesscontrolentr
 
 ## Example Code
 
-The following code example shows how to obtain an interface to change a DACL. The [**IADsObjectOptions**](iadsobjectoptions.md) interface can be used by setting the **ADS\_SECURITY\_INFO\_DACL** option.
+The following code example shows how to obtain an interface to change a DACL. The [**IADsObjectOptions**](/windows/win32/Iads/nn-iads-iadsobjectoptions?branch=master) interface can be used by setting the **ADS\_SECURITY\_INFO\_DACL** option.
 
 > [!Note]  
 > To use the code documented in this example, you will need to be an Administrator. If you are not an Administrator, then you will need to add more code that will use an interface that will allow a user to change the way the client-side cache is flushed back to the Active Directory Domain Service.

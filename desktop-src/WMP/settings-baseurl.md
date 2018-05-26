@@ -1,8 +1,9 @@
 ---
 title: Settings.baseURL
 description: The baseURL property specifies or retrieves the base URL used for relative path resolution with URL script commands that are embedded in media items.
-ms.assetid: 'bb2db144-6d1e-4ed6-baed-dc5dbff44aa0'
-keywords: ["Settings.baseURL Windows Media Player"]
+ms.assetid: bb2db144-6d1e-4ed6-baed-dc5dbff44aa0
+keywords:
+- Settings.baseURL Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.baseURL
@@ -61,9 +67,9 @@ The player control does not support the use of two periods (..) in the relative 
 [**Settings Object**](settings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetPropById method of the Item object uses the ID of an item property to return its value.'
-ms.assetid: '00f7a91c-fd55-4016-a932-f710045a14b8'
-title: 'Item.GetPropById method'
+---
+Description: The GetPropById method of the Item object uses the ID of an item property to return its value.
+ms.assetid: 00f7a91c-fd55-4016-a932-f710045a14b8
+title: Item.GetPropById method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Item.GetPropById method

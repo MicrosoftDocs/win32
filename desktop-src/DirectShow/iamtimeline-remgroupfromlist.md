@@ -1,7 +1,12 @@
-﻿---
-Description: 'Not supported.'
-ms.assetid: '9ad5f5ee-2a2a-448b-9da4-2ad8d543eb22'
-title: 'IAMTimeline::RemGroupFromList method'
+---
+Description: Not supported.
+ms.assetid: 9ad5f5ee-2a2a-448b-9da4-2ad8d543eb22
+title: IAMTimelineRemGroupFromList method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::RemGroupFromList method

@@ -1,7 +1,12 @@
 ---
-Description: 'MAPI calls made from a particular DLL or executable file may have to be routed to the system MAPI DLL Mapi32x.dll or another custom MAPI DLL.'
-ms.assetid: '9FE83CB4-69C6-4e61-8BED-1A93FA9A1A9F'
+Description: MAPI calls made from a particular DLL or executable file may have to be routed to the system MAPI DLL Mapi32x.dll or another custom MAPI DLL.
+ms.assetid: 9FE83CB4-69C6-4e61-8BED-1A93FA9A1A9F
 title: Explicitly Mapping MAPI Calls to MAPI DLLs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Explicitly Mapping MAPI Calls to MAPI DLLs

@@ -1,7 +1,12 @@
 ---
 title: DDS
 description: The DirectDraw Surface file format (.dds) was introduced with DirectX 7 to store uncompressed and compressed (DXTn) textures. The file format supports mipmaps, cube maps, and volume maps.
-ms.assetid: 'b0f3a1af-e816-4d64-93d9-51e510423869'
+ms.assetid: b0f3a1af-e816-4d64-93d9-51e510423869
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DDS

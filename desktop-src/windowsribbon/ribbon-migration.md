@@ -1,8 +1,16 @@
 ---
 title: Migrating to the Windows Ribbon Framework
 description: An application that relies on traditional menus, toolbars, and dialogs can be migrated to the rich, dynamic, and context-driven UI of the Windows Ribbon framework Command system.
-ms.assetid: '3a8ca41e-18b3-4c9d-865b-5f4c5fcf7ceb'
-keywords: ["Windows Ribbon,migrating to", "Ribbon,migrating to", "migrating to Windows Ribbon"]
+ms.assetid: 3a8ca41e-18b3-4c9d-865b-5f4c5fcf7ceb
+keywords:
+- Windows Ribbon,migrating to
+- Ribbon,migrating to
+- migrating to Windows Ribbon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Migrating to the Windows Ribbon Framework

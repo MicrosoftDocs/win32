@@ -4,13 +4,15 @@ description: The Win32\_USBHub \ 32;WMI class represents the management characte
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3992d5a0-6778-4c2a-b4c2-a484e443a13e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3992d5a0-6778-4c2a-b4c2-a484e443a13e
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_USBHub class", "Win32_USBHub class, described"]
+keywords:
+- Win32_USBHub class
+- Win32_USBHub class, described
 topic_type:
 - apiref
 api_name:
@@ -47,6 +49,9 @@ api_location:
 - Wmipcima.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_USBHub class
@@ -61,34 +66,34 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32a"), UUID("{52E56374-B17E-41DC-00EC-FC3E6E8D8783}"), AMENDMENT]
 class Win32_USBHub : CIM_USBHub
 {
-  uint16   Availability;
-  string   Caption;
-  uint8    ClassCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  uint8    CurrentAlternateSettings[];
-  uint8    CurrentConfigValue;
-  string   Description;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  boolean  GangSwitched;
+  uint16   Availability;
+  string   Caption;
+  uint8    ClassCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  uint8    CurrentAlternateSettings[];
+  uint8    CurrentConfigValue;
+  string   Description;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  boolean  GangSwitched;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  uint8    NumberOfConfigs;
-  uint8    NumberOfPorts;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint8    ProtocolCode;
-  string   Status;
-  uint16   StatusInfo;
-  uint8    SubclassCode;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint16   USBVersion;
-  uint32   ConfigManagerErrorCode;
-  string   DeviceID;
-  string   Name;
+  uint32   LastErrorCode;
+  uint8    NumberOfConfigs;
+  uint8    NumberOfPorts;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint8    ProtocolCode;
+  string   Status;
+  uint16   StatusInfo;
+  uint8    SubclassCode;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint16   USBVersion;
+  uint32   ConfigManagerErrorCode;
+  string   DeviceID;
+  string   Name;
 };
 ```
 
@@ -113,7 +118,7 @@ The **Win32\_USBHub** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1184,8 +1189,8 @@ Latest USB version supported by the USB device. This property is expressed as a 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipcima.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipcima.dll</dt> </dl> |
@@ -1202,9 +1207,9 @@ Latest USB version supported by the USB device. This property is expressed as a 
 [Computer System Hardware Classes](https://msdn.microsoft.com/library/aa389273)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

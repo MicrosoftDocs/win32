@@ -1,14 +1,20 @@
 ---
 title: SplitButton element
 description: Represents a standard Split Button control.
-ms.assetid: 'dece1100-ed04-49a3-a16d-3c5d5e7a2225'
-keywords: ["SplitButton element Windows Ribbon"]
+ms.assetid: dece1100-ed04-49a3-a16d-3c5d5e7a2225
+keywords:
+- SplitButton element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - SplitButton
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SplitButton element
@@ -206,7 +212,7 @@ This section of code shows the **SplitButton** control declarations.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -221,9 +227,9 @@ This section of code shows the **SplitButton** control declarations.
 [**SetModes**](https://msdn.microsoft.com/library/windows/desktop/dd371476)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

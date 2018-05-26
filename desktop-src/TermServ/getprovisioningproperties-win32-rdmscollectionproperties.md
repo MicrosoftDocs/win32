@@ -4,11 +4,14 @@ description: Retrieves the provisioning properties of the virtual desktop collec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c314b7a5-8546-4711-833e-b47bb682aa53'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c314b7a5-8546-4711-833e-b47bb682aa53
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetProvisioningProperties method Remote Desktop Services", "GetProvisioningProperties method Remote Desktop Services , Win32_RDMSCollectionProperties class", "Win32_RDMSCollectionProperties class Remote Desktop Services , GetProvisioningProperties method"]
+keywords:
+- GetProvisioningProperties method Remote Desktop Services
+- GetProvisioningProperties method Remote Desktop Services , Win32_RDMSCollectionProperties class
+- Win32_RDMSCollectionProperties class Remote Desktop Services , GetProvisioningProperties method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetProvisioningProperties method of the Win32\_RDMSCollectionProperties class
@@ -28,18 +34,18 @@ Retrieves the provisioning properties of the virtual desktop collection.
 
 ```mof
 uint32 GetProvisioningProperties(
-  [out] string  PoolVhdType,
-  [out] string  MasterVmLocation,
-  [out] string  NamePrefix,
-  [out] uint32  NameStartIndex,
-  [out] string  LocalVmLocation,
-  [out] string  LocalGoldVmLocation,
-  [out] boolean RunFromSMB,
-  [out] string  SMBLocation,
-  [out] boolean SMBStreaming,
-  [out] string  VmDomain,
-  [out] string  VmOU,
-  [out] string  ProductKey
+  [out] string  PoolVhdType,
+  [out] string  MasterVmLocation,
+  [out] string  NamePrefix,
+  [out] uint32  NameStartIndex,
+  [out] string  LocalVmLocation,
+  [out] string  LocalGoldVmLocation,
+  [out] boolean RunFromSMB,
+  [out] string  SMBLocation,
+  [out] boolean SMBStreaming,
+  [out] string  VmDomain,
+  [out] string  VmOU,
+  [out] string  ProductKey
 );
 ```
 
@@ -158,7 +164,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -172,9 +178,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSCollectionProperties**](win32-rdmscollectionproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

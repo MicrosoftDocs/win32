@@ -1,7 +1,12 @@
 ---
 title: ATA Port Debug and Error Reporting Routines
 description: ATA Port Debug and Error Reporting Routines
-ms.assetid: '33113d1b-d644-44df-bc37-361a4460fbe6'
+ms.assetid: 33113d1b-d644-44df-bc37-361a4460fbe6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Port Debug and Error Reporting Routines

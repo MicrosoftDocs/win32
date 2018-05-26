@@ -1,7 +1,12 @@
 ---
 title: 32-bit and 64-bit Interoperability
 description: Assistive technology applications need to communicate across process boundaries to get UI information from Microsoft Active Accessibility servers and Microsoft UI Automation providers.
-ms.assetid: '8b46daed-4fd9-430c-bb4d-24be9c8015b5'
+ms.assetid: 8b46daed-4fd9-430c-bb4d-24be9c8015b5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 32-bit and 64-bit Interoperability

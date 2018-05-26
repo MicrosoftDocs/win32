@@ -1,14 +1,20 @@
 ---
 title: OpcodeType Complex Type
 description: Defines an operation within a component of the application.
-ms.assetid: 'd97953df-669b-4c55-b1a8-925022b339b7'
-keywords: ["OpcodeType complex type EventLog"]
+ms.assetid: d97953df-669b-4c55-b1a8-925022b339b7
+keywords:
+- OpcodeType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - OpcodeType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpcodeType Complex Type
@@ -88,7 +94,7 @@ The following are the predefined opcode values that you can use. These values ar
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -96,14 +102,14 @@ The following are the predefined opcode values that you can use. These values ar
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

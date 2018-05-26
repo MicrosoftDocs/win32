@@ -1,7 +1,12 @@
 ---
 title: BCD WMI Provider Classes
 description: The Boot Configuration Data (BCD) Windows Management Instrumentation (WMI) provider runs under the LocalService account and impersonates the client when handling requests.
-ms.assetid: '43130b7a-ede8-4201-93de-8bfcadee06ff'
+ms.assetid: 43130b7a-ede8-4201-93de-8bfcadee06ff
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCD WMI Provider Classes

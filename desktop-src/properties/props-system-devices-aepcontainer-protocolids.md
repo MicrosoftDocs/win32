@@ -1,7 +1,12 @@
 ---
-Description: 'List of Protocol Ids that have contributed to building the Device Association Endpoint Container.'
-ms.assetid: '23009ff1-1749-48b2-8a45-dfddaea22f9d'
-title: 'System.Devices.AepContainer.ProtocolIds'
+Description: List of Protocol Ids that have contributed to building the Device Association Endpoint Container.
+ms.assetid: 23009ff1-1749-48b2-8a45-dfddaea22f9d
+title: System.Devices.AepContainer.ProtocolIds
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepContainer.ProtocolIds

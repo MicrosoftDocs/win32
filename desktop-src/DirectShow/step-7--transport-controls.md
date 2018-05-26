@@ -1,14 +1,19 @@
 ---
-Description: 'This topic is step 7 of the tutorial Audio/Video Playback in DirectShow.'
-ms.assetid: '2e542a2d-fc71-41d5-9abd-0dfa70719c0f'
-title: 'Step 7: Transport Controls'
+Description: This topic is step 7 of the tutorial Audio/Video Playback in DirectShow.
+ms.assetid: 2e542a2d-fc71-41d5-9abd-0dfa70719c0f
+title: Step 7 Transport Controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 7: Transport Controls
 
 This topic is step 7 of the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md). The complete code is shown in the topic [DirectShow Playback Example](directshow-playback-example.md).
 
-The last step is to add transport controls (play, pause, and stop). To play the file, call [**IMediaControl::Run**](imediacontrol-run.md).
+The last step is to add transport controls (play, pause, and stop). To play the file, call [**IMediaControl::Run**](/windows/win32/Control/nf-control-imediacontrol-run?branch=master).
 
 
 ```C++
@@ -30,7 +35,7 @@ HRESULT DShowPlayer::Play()
 
 
 
-To pause, call [**IMediaControl::Pause**](imediacontrol-pause.md).
+To pause, call [**IMediaControl::Pause**](/windows/win32/Control/nf-control-imediacontrol-pause?branch=master).
 
 
 ```C++
@@ -52,7 +57,7 @@ HRESULT DShowPlayer::Pause()
 
 
 
-To stop, call [**IMediaControl::Stop**](imediacontrol-stop.md).
+To stop, call [**IMediaControl::Stop**](/windows/win32/Control/nf-control-imediacontrol-stop?branch=master).
 
 
 ```C++

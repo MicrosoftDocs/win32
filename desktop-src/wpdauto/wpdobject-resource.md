@@ -1,14 +1,22 @@
 ---
 title: WPDObject.Resource property
 description: The Resource property provides read/write access to this WPDObject resource.
-ms.assetid: 'db6ca805-515b-4a43-b754-72e1d9ff0332'
-keywords: ["Resource property WPD Automation", "Resource property WPD Automation , WPDObject object", "WPDObject object WPD Automation , Resource property"]
+ms.assetid: db6ca805-515b-4a43-b754-72e1d9ff0332
+keywords:
+- Resource property WPD Automation
+- Resource property WPD Automation , WPDObject object
+- WPDObject object WPD Automation , Resource property
 topic_type:
 - apiref
 api_name:
 - WPDObject.Resource
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPDObject.Resource property
@@ -41,8 +49,8 @@ Data is written to or read from a [**Resource Object**](resource-object.md) by u
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -56,9 +64,9 @@ Data is written to or read from a [**Resource Object**](resource-object.md) by u
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

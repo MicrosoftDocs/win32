@@ -1,8 +1,10 @@
 ---
 title: WMDRM\_LICENSE\_FILTER structure
 description: The WMDRM\_LICENSE\_FILTER structure defines filtering parameters for use when creating a license enumeration.
-ms.assetid: '43bbbfdc-1ec4-44a6-8245-96853bbeea86'
-keywords: ["WMDRM_LICENSE_FILTER structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 43bbbfdc-1ec4-44a6-8245-96853bbeea86
+keywords:
+- WMDRM_LICENSE_FILTER structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRM\_LICENSE\_FILTER structure
@@ -23,9 +30,9 @@ The **WMDRM\_LICENSE\_FILTER** structure defines filtering parameters for use wh
 ```C++
 typedef struct WMDRM_LICENSE_FILTER {
   DWORD dwVersion;
-  BSTR  bstrKID;
-  BSTR  bstrRights;
-  BSTR  bstrAllowedSourceIDs;
+  BSTR  bstrKID;
+  BSTR  bstrRights;
+  BSTR  bstrAllowedSourceIDs;
 } ;
 ```
 
@@ -84,9 +91,9 @@ This structure is used by the [**IWMDRMLicenseManagement::CreateLicenseEnumerati
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

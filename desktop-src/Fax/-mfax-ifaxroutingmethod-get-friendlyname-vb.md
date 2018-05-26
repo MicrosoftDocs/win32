@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FriendlyName property is a null-terminated string that contains the user-friendly name for a fax routing method.'
-ms.assetid: '9fdcc223-f919-4e55-af89-4734888fdbf7'
-title: 'FaxRoutingMethod.FriendlyName property'
+---
+Description: The FriendlyName property is a null-terminated string that contains the user-friendly name for a fax routing method.
+ms.assetid: 9fdcc223-f919-4e55-af89-4734888fdbf7
+title: FaxRoutingMethod.FriendlyName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRoutingMethod.FriendlyName property
@@ -55,10 +60,10 @@ A fax client application can use the [**Guid**](-mfax-ifaxroutingmethod-get-guid
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxRoutingMethod**](-mfax-ifaxroutingmethod.md)
+[**IFaxRoutingMethod**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethod?branch=master)
 </dt> <dt>
 
-[**IFaxRoutingMethods**](-mfax-ifaxroutingmethods.md)
+[**IFaxRoutingMethods**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethods?branch=master)
 </dt> <dt>
 
 [**Guid**](-mfax-ifaxroutingmethod-get-guid-vb.md)
@@ -67,7 +72,7 @@ A fax client application can use the [**Guid**](-mfax-ifaxroutingmethod-get-guid
 [**FunctionName**](-mfax-ifaxroutingmethod-get-functionname-vb.md)
 </dt> <dt>
 
-[**FaxRouteMethod**](-mfax-faxroutemethod.md)
+[**FaxRouteMethod**](/windows/previous-versions/FaxRoute/?branch=master)
 </dt> </dl>
 
  

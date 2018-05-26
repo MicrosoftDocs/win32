@@ -1,7 +1,12 @@
 ---
 title: Virtual Disk Service is transitioning to Windows Storage Management API
 description: Virtual Disk Service is transitioning to Windows Storage Management API
-ms.assetid: 'AB2A7D08-03B2-4595-A8EC-805D111A0E89'
+ms.assetid: AB2A7D08-03B2-4595-A8EC-805D111A0E89
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual Disk Service is transitioning to Windows Storage Management API

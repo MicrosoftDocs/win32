@@ -4,11 +4,18 @@ description: The Failover Cluster APIs are provided by failover clustering on Wi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '106e103e-3aa9-4e35-9bd3-e35b58f935c4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 106e103e-3aa9-4e35-9bd3-e35b58f935c4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Failover Cluster APIs Failover Cluster", "Failover Cluster APIs Failover Cluster ,start page", "Windows Clustering Failover Cluster ,(See also Failover Cluster APIs)", "Windows Clustering Failover Cluster ,Failover Cluster APIs"]
+keywords:
+- Failover Cluster APIs Failover Cluster
+- Failover Cluster APIs Failover Cluster ,start page
+- Windows Clustering Failover Cluster ,(See also Failover Cluster APIs)
+- Windows Clustering Failover Cluster ,Failover Cluster APIs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster APIs

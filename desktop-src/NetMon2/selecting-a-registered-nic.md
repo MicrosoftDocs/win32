@@ -1,7 +1,12 @@
 ---
-Description: 'To select one of the NICs registered on the local computer, call the GetNPPBlobFromUI function.'
-ms.assetid: 'ca1fb07f-7eee-419f-b25d-49718d02fc7d'
+Description: To select one of the NICs registered on the local computer, call the GetNPPBlobFromUI function.
+ms.assetid: ca1fb07f-7eee-419f-b25d-49718d02fc7d
 title: Selecting a Registered NIC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selecting a Registered NIC

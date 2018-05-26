@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.Sidebar.onDockSideChanged event
 description: Event fired when the Windows Sidebar dock state changes.
-ms.assetid: '26ba45af-3dd3-4ba7-90cf-066b76d379cc'
-keywords: ["onDockSideChanged event Windows Sidebar", "onDockSideChanged event Windows Sidebar , System.Gadget.Sidebar object", "System.Gadget.Sidebar object Windows Sidebar , onDockSideChanged event"]
+ms.assetid: 26ba45af-3dd3-4ba7-90cf-066b76d379cc
+keywords:
+- onDockSideChanged event Windows Sidebar
+- onDockSideChanged event Windows Sidebar , System.Gadget.Sidebar object
+- System.Gadget.Sidebar object Windows Sidebar , onDockSideChanged event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.Sidebar.onDockSideChanged event
@@ -47,7 +55,7 @@ The Sidebar can be docked on the left or the right side of the screen.
 
 This event updates the [**dockSide**](system-gadget-sidebar-dockside.md) property.
 
-Useful when changes to graphics alignment based on the Sidebar [**dockSide**](system-gadget-sidebar-dockside.md) property are necessary.
+Useful when changes to graphics alignment based on the Sidebar [**dockSide**](system-gadget-sidebar-dockside.md) property are necessary.
 
 ## Examples
 
@@ -75,10 +83,10 @@ function DockSideChanged()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -94,9 +102,9 @@ function DockSideChanged()
 [**dockSide**](system-gadget-sidebar-dockside.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Completes the extension event with a cancellation.'
-ms.assetid: 'CE5C2999-37D7-4702-B94D-E3131AE34E78'
-title: 'IPrinterExtensionRequest::Cancel method'
+---
+Description: Completes the extension event with a cancellation.
+ms.assetid: CE5C2999-37D7-4702-B94D-E3131AE34E78
+title: IPrinterExtensionRequestCancel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionRequest::Cancel method

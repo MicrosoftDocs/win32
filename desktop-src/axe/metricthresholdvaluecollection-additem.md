@@ -1,8 +1,11 @@
 ---
 title: MetricThresholdValueCollection AddItem method
 description: Creates and adds a MetricThresholdValue to the MetricThresholdValueCollection.
-ms.assetid: '7677FC3C-3506-449C-95E7-67C5380E5B5E'
-keywords: ["AddItem method Access Execution Engine", "AddItem method Access Execution Engine , MetricThresholdValueCollection interface", "MetricThresholdValueCollection interface Access Execution Engine , AddItem method"]
+ms.assetid: 7677FC3C-3506-449C-95E7-67C5380E5B5E
+keywords:
+- AddItem method Access Execution Engine
+- AddItem method Access Execution Engine , MetricThresholdValueCollection interface
+- MetricThresholdValueCollection interface Access Execution Engine , AddItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholdValueCollection::AddItem method
@@ -22,10 +30,10 @@ Creates and adds a **MetricThresholdValue** to the **MetricThresholdValueCollect
 
 ```C++
 virtual HRESULT AddItem(
-  [in]            LPCWSTR                       descriptionProgrammaticName,
-  [in]            MetricThresholdValueValueType valueType,
-  [in]            LPCWSTR                       value,
-  [out, optional] MetricThresholdValue          **metricThresholdValue
+  [in]            LPCWSTR                       descriptionProgrammaticName,
+  [in]            MetricThresholdValueValueType valueType,
+  [in]            LPCWSTR                       value,
+  [out, optional] MetricThresholdValue          **metricThresholdValue
 ) = 0;
 ```
 
@@ -85,8 +93,8 @@ The metric threshold value is the value of element **MetricThresholdValue/Value*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -99,9 +107,9 @@ The metric threshold value is the value of element **MetricThresholdValue/Value*
 [**MetricThresholdValueCollection**](metricthresholdvaluecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

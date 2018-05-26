@@ -1,7 +1,12 @@
 ---
 title: MinMergeIdleTime
 description: MinMergeIdleTime
-ms.assetid: '59f2674e-efb8-4119-b1da-a0622ff7b843'
+ms.assetid: 59f2674e-efb8-4119-b1da-a0622ff7b843
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MinMergeIdleTime

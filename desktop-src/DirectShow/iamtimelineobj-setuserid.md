@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetUserID method sets an application-defined identifier for the object.'
-ms.assetid: '102fe29e-dc2c-4377-bce3-ba3c61dcb355'
-title: 'IAMTimelineObj::SetUserID method'
+---
+Description: The SetUserID method sets an application-defined identifier for the object.
+ms.assetid: 102fe29e-dc2c-4377-bce3-ba3c61dcb355
+title: IAMTimelineObjSetUserID method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::SetUserID method

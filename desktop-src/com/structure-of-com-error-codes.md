@@ -1,7 +1,12 @@
 ---
 title: Structure of COM Error Codes
 description: Structure of COM Error Codes
-ms.assetid: '97e68708-eb62-4481-af03-cf8b80304103'
+ms.assetid: 97e68708-eb62-4481-af03-cf8b80304103
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structure of COM Error Codes
@@ -32,7 +37,7 @@ Common facility fields are described in the following table.
 
 
 
- 
+ 
 
 The code field is a unique number that is assigned to represent the error or warning.
 
@@ -52,9 +57,9 @@ Error codes are defined within the context of an interface implementation. Once 
 [Windows Protocols: HRESULT](http://go.microsoft.com/fwlink/p/?linkid=204958)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: COM and Security Packages
 description: Windows supports NTLMSSP (LAN Manager Security Support Provider), the Kerberos v5 authentication protocol, and the Schannel security package, which provides the PCT 1.0, SSL 2.0, SSL 3.0, and TLS 1.0 protocols.
-ms.assetid: 'a0c095a8-93b7-4350-aac6-a9a066cccffd'
+ms.assetid: a0c095a8-93b7-4350-aac6-a9a066cccffd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM and Security Packages
@@ -21,7 +26,7 @@ The following table shows the levels of authentication supported by the various 
 
 
 
- 
+ 
 
 For more information about these security packages, see the following topics in this section:
 
@@ -37,9 +42,9 @@ For more information about these security packages, see the following topics in 
 [Security in COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

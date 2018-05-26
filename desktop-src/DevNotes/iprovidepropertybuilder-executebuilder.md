@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies an object that it should display its builder for the specified property.'
-ms.assetid: '4d855aed-aaa1-4cc8-be9d-1175c254a813'
-title: 'IProvidePropertyBuilder::ExecuteBuilder method'
+---
+Description: Notifies an object that it should display its builder for the specified property.
+ms.assetid: 4d855aed-aaa1-4cc8-be9d-1175c254a813
+title: IProvidePropertyBuilderExecuteBuilder method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IProvidePropertyBuilder::ExecuteBuilder method

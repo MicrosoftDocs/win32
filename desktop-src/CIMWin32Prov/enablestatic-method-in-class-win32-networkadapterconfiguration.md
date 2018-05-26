@@ -1,15 +1,18 @@
 ---
-Description: 'The EnableStatic WMI class method enables static TCP/IP addressing for the target network adapter. As a result, DHCP for this network adapter is disabled.'
+Description: The EnableStatic WMI class method enables static TCP/IP addressing for the target network adapter. As a result, DHCP for this network adapter is disabled.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd0076424-58c0-4cfe-b55b-44c0f2620388'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d0076424-58c0-4cfe-b55b-44c0f2620388
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'EnableStatic method of the Win32\_NetworkAdapterConfiguration class'
+title: EnableStatic method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableStatic method of the Win32\_NetworkAdapterConfiguration class
@@ -23,8 +26,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 EnableStatic(
-  [in] string IPAddress[],
-  [in] string SubnetMask[]
+  [in] string IPAddress[],
+  [in] string SubnetMask[]
 );
 ```
 
@@ -410,7 +413,7 @@ Write lock not enabled. For more information, see [**INetCfgLock::AcquireWriteLo
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -431,7 +434,7 @@ The following VBScript sample demonstrates how to disable DHCP use on an instanc
 > [!Note]  
 > This script only applies to NT-based systems Change the ipaddr and subnet variables below to the values you wish to apply to the adapter.
 
- 
+ 
 
 
 ```VB
@@ -457,7 +460,7 @@ The following Perl sample demonstrates how to disable DHCP use on an instance of
 > [!Note]  
 > This script only applies to NT-based systems Change the ipaddr and subnet variables below to the values you wish to apply to the adapter.
 
- 
+ 
 
 
 ```
@@ -498,8 +501,8 @@ else
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -525,9 +528,9 @@ else
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

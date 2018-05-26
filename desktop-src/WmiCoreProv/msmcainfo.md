@@ -1,7 +1,12 @@
 ---
-Description: 'An abstract base class from which all Machine Check Architecture (MCA) provider data classes, such as MSMCAInfo\_RawMCAData, are derived. This class is available only in 64-bit Windows systems.'
-ms.assetid: '22ec8343-fc4f-4b14-9354-26b5d6a6fe09'
+Description: An abstract base class from which all Machine Check Architecture (MCA) provider data classes, such as MSMCAInfo\_RawMCAData, are derived. This class is available only in 64-bit Windows systems.
+ms.assetid: 22ec8343-fc4f-4b14-9354-26b5d6a6fe09
 title: MSMCAInfo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAInfo class
@@ -28,8 +33,8 @@ The **MSMCAInfo** class does not define any members.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -49,9 +54,9 @@ The **MSMCAInfo** class does not define any members.
 [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

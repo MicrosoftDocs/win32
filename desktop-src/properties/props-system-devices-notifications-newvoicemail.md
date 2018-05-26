@@ -1,7 +1,12 @@
 ---
-Description: 'Device voicemail notification.'
-ms.assetid: '91993898-a342-4009-b0eb-8d8286079e91'
-title: 'System.Devices.Notifications.NewVoicemail'
+Description: Device voicemail notification.
+ms.assetid: 91993898-a342-4009-b0eb-8d8286079e91
+title: System.Devices.Notifications.NewVoicemail
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Notifications.NewVoicemail

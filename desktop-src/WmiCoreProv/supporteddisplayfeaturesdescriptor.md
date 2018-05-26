@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the supported display features of the monitor.'
-ms.assetid: '28eeead3-8fb9-4720-8d93-1c6757dfb31b'
+Description: Represents the supported display features of the monitor.
+ms.assetid: 28eeead3-8fb9-4720-8d93-1c6757dfb31b
 title: SupportedDisplayFeaturesDescriptor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SupportedDisplayFeaturesDescriptor class
@@ -14,7 +19,7 @@ The **SupportedDisplayFeaturesDescriptor**represents the supported display featu
 class SupportedDisplayFeaturesDescriptor
 {
   boolean ActiveOffSupported;
-  uint8   DisplayType;
+  uint8   DisplayType;
   boolean GTFSupported;
   boolean HasPreferredTimingMode;
   boolean sRGBSupported;
@@ -69,7 +74,7 @@ Type of display for the monitor. The following table lists possible values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -144,8 +149,8 @@ Indicates whether the display supports VESA Display Power Management Signaling (
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -159,9 +164,9 @@ Indicates whether the display supports VESA Display Power Management Signaling (
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

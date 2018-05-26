@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_PnPAllocatedResource association WMI class represents an association between logical devices and system resources.'
+---
+Description: The Win32\_PnPAllocatedResource association WMI class represents an association between logical devices and system resources.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e3cef457-cf88-4df5-8db8-b0495f636904'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e3cef457-cf88-4df5-8db8-b0495f636904
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_PnPAllocatedResource class'
+title: Win32\_PnPAllocatedResource class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PnPAllocatedResource class

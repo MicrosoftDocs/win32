@@ -1,8 +1,9 @@
 ---
 title: HELPMSGSTRING message
 description: A common dialog box sends the HELPMSGSTRING registered message to the window procedure of its owner window when the user clicks the Help button.
-ms.assetid: '21c0fcf5-785b-4005-8133-e48347f991a8'
-keywords: ["HELPMSGSTRING message Dialog Boxes"]
+ms.assetid: 21c0fcf5-785b-4005-8133-e48347f991a8
+keywords:
+- HELPMSGSTRING message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HELPMSGSTRING message
@@ -40,7 +46,7 @@ A handle to the common dialog box.
 *lParam* 
 </dt> <dd>
 
-A pointer to the initialization structure for the common dialog box. This structure can be a [**CHOOSECOLOR**](choosecolor-str.md), [**CHOOSEFONT**](choosefont-str.md), [**FINDREPLACE**](findreplace-str.md), [**OPENFILENAME**](openfilename-str.md), [**PRINTDLG**](printdlg-str.md) or [**PAGESETUPDLG**](pagesetupdlg-str.md) structure.
+A pointer to the initialization structure for the common dialog box. This structure can be a [**CHOOSECOLOR**](/windows/win32/Commdlg/ns-commdlg-tagchoosecolora?branch=master), [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master), [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master), [**OPENFILENAME**](/windows/win32/Commdlg/ns-commdlg-tagofna?branch=master), [**PRINTDLG**](/windows/win32/Commdlg/ns-commdlg-tagpda?branch=master) or [**PAGESETUPDLG**](/windows/win32/Commdlg/ns-commdlg-tagpsda?branch=master) structure.
 
 </dd> </dl>
 
@@ -60,8 +66,8 @@ When you create the dialog box, use the **hwndOwner** member of the initializati
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 | Unicode and ANSI names<br/>   | **HELPMSGSTRINGW** (Unicode) and **HELPMSGSTRINGA** (ANSI)<br/>                                    |
 
@@ -77,22 +83,22 @@ When you create the dialog box, use the **hwndOwner** member of the initializati
 [**CDN\_HELP**](cdn-help.md)
 </dt> <dt>
 
-[**CHOOSECOLOR**](choosecolor-str.md)
+[**CHOOSECOLOR**](/windows/win32/Commdlg/ns-commdlg-tagchoosecolora?branch=master)
 </dt> <dt>
 
-[**CHOOSEFONT**](choosefont-str.md)
+[**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master)
 </dt> <dt>
 
-[**FINDREPLACE**](findreplace-str.md)
+[**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master)
 </dt> <dt>
 
-[**OPENFILENAME**](openfilename-str.md)
+[**OPENFILENAME**](/windows/win32/Commdlg/ns-commdlg-tagofna?branch=master)
 </dt> <dt>
 
-[**PRINTDLG**](printdlg-str.md)
+[**PRINTDLG**](/windows/win32/Commdlg/ns-commdlg-tagpda?branch=master)
 </dt> <dt>
 
-[**PAGESETUPDLG**](pagesetupdlg-str.md)
+[**PAGESETUPDLG**](/windows/win32/Commdlg/ns-commdlg-tagpsda?branch=master)
 </dt> <dt>
 
 [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947)
@@ -104,9 +110,9 @@ When you create the dialog box, use the **hwndOwner** member of the initializati
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

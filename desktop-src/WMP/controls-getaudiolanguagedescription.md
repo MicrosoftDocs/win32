@@ -1,8 +1,11 @@
 ---
 title: Controls.getAudioLanguageDescription method
 description: The getAudioLanguageDescription method retrieves the description for the audio language corresponding to the specified one-based index.
-ms.assetid: '995a2568-f15f-4b92-9782-92ba5273f444'
-keywords: ["getAudioLanguageDescription method Windows Media Player", "getAudioLanguageDescription method Windows Media Player , Controls class", "Controls class Windows Media Player , getAudioLanguageDescription method"]
+ms.assetid: 995a2568-f15f-4b92-9782-92ba5273f444
+keywords:
+- getAudioLanguageDescription method Windows Media Player
+- getAudioLanguageDescription method Windows Media Player , Controls class
+- Controls class Windows Media Player , getAudioLanguageDescription method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.getAudioLanguageDescription method
@@ -84,9 +92,9 @@ Use the **audioLanguageCount** property to get the number of supported audio lan
 [**Controls.getLanguageName**](controls-getlanguagename.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

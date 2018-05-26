@@ -1,7 +1,12 @@
 ---
 title: VML XRange Attribute
 description: VML XRange Attribute
-ms.assetid: 'c2881fd6-08b2-4ec8-b4fd-b271a049da09'
+ms.assetid: c2881fd6-08b2-4ec8-b4fd-b271a049da09
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML XRange Attribute

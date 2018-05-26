@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a texture from a file in memory.'
-ms.assetid: '3ea811be-7db8-4436-b138-f0102389bb4d'
+---
+Description: Creates a texture from a file in memory.
+ms.assetid: 3ea811be-7db8-4436-b138-f0102389bb4d
 title: D3DXCreateTextureFromFileInMemory function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateTextureFromFileInMemory function
@@ -29,9 +34,9 @@ HRESULT D3DXCreateTextureFromFileInMemory(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface representing the device to be associated with the texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface representing the device to be associated with the texture.
 
 </dd> <dt>
 
@@ -56,9 +61,9 @@ Size in bytes of the file in memory.
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)\***
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) interface representing the created texture object.
+Address of a pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) interface representing the created texture object.
 
 </dd> </dl>
 

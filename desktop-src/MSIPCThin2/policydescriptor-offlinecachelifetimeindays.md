@@ -4,11 +4,14 @@ description: Gets or sets the time a user policy can be cached offline (in days)
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.PolicyDescriptor.OfflineCacheLifetimeInDays'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.PolicyDescriptor.OfflineCacheLifetimeInDays
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["OfflineCacheLifetimeInDays property", "OfflineCacheLifetimeInDays property, PolicyDescriptor class", "PolicyDescriptor class, OfflineCacheLifetimeInDays property"]
+keywords:
+- OfflineCacheLifetimeInDays property
+- OfflineCacheLifetimeInDays property, PolicyDescriptor class
+- PolicyDescriptor class, OfflineCacheLifetimeInDays property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor.OfflineCacheLifetimeInDays property
@@ -68,9 +74,9 @@ The time a user policy can be cached offline (in days).
 [**OfflineCacheLifetimeConstants**](offlinecachelifetimeconstants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

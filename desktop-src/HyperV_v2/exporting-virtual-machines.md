@@ -1,7 +1,12 @@
 ---
-Description: 'The following C# and Visual Basic Scripting Edition (VBScript) samples demonstrate exporting a snapshot of a virtual machine.'
-ms.assetid: '4DEC4962-99E1-42BB-81B1-8530BF9C4B92'
+Description: The following C# and Visual Basic Scripting Edition (VBScript) samples demonstrate exporting a snapshot of a virtual machine.
+ms.assetid: 4DEC4962-99E1-42BB-81B1-8530BF9C4B92
 title: Exporting a snapshot of a virtual machine
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exporting a snapshot of a virtual machine

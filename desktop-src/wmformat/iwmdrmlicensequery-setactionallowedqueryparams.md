@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseQuery SetActionAllowedQueryParams method
 description: The SetActionAllowedQueryParams method sets environment-specific information for more accurate query results when using the QueryActionAllowed method.
-ms.assetid: '1c8f9d4e-999d-4d7c-87fd-9d30e432350c'
-keywords: ["SetActionAllowedQueryParams method windows Media Format", "SetActionAllowedQueryParams method windows Media Format , IWMDRMLicenseQuery interface", "IWMDRMLicenseQuery interface windows Media Format , SetActionAllowedQueryParams method"]
+ms.assetid: 1c8f9d4e-999d-4d7c-87fd-9d30e432350c
+keywords:
+- SetActionAllowedQueryParams method windows Media Format
+- SetActionAllowedQueryParams method windows Media Format , IWMDRMLicenseQuery interface
+- IWMDRMLicenseQuery interface windows Media Format , SetActionAllowedQueryParams method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseQuery::SetActionAllowedQueryParams method
@@ -23,10 +31,10 @@ The **SetActionAllowedQueryParams** method sets environment-specific information
 
 ```C++
 HRESULT SetActionAllowedQueryParams(
-  [in] BOOL  fIsMF,
-  [in] DWORD dwAppSecLevel,
-  [in] BOOL  fHasSerialNumber,
-  [in] BSTR  bstrDeviceCert
+  [in] BOOL  fIsMF,
+  [in] DWORD dwAppSecLevel,
+  [in] BOOL  fHasSerialNumber,
+  [in] BSTR  bstrDeviceCert
 );
 ```
 
@@ -76,7 +84,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -103,9 +111,9 @@ None.
 [**Querying for Detailed Rights Information**](querying-for-detailed-rights-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

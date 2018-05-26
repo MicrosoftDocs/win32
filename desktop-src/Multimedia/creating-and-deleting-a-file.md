@@ -1,8 +1,24 @@
 ---
 title: Creating and Deleting a File
 description: Creating and Deleting a File
-ms.assetid: 'a4b4a310-7230-4f1d-b084-c47db39adaac'
-keywords: ["multimedia file I/O,creating files", "file I/O,creating files", "input and output (I/O),creating files", "I/O (input and output),creating files", "creating I/O files", "multimedia file I/O,deleting files", "file I/O,deleting files", "input and output (I/O),deleting files", "I/O (input and output),deleting files", "deleting I/O files", "mmioOpen function"]
+ms.assetid: a4b4a310-7230-4f1d-b084-c47db39adaac
+keywords:
+- multimedia file I/O,creating files
+- file I/O,creating files
+- input and output (I/O),creating files
+- I/O (input and output),creating files
+- creating I/O files
+- multimedia file I/O,deleting files
+- file I/O,deleting files
+- input and output (I/O),deleting files
+- I/O (input and output),deleting files
+- deleting I/O files
+- mmioOpen function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating and Deleting a File

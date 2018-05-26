@@ -4,11 +4,15 @@ description: If an automation language is used, the ActiveX Directory Objects (A
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ca06169d-7de7-4552-aa7d-e9427353e49e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ca06169d-7de7-4552-aa7d-e9427353e49e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Using ADO for Range Retrieval ADSI"]
+keywords:
+- Using ADO for Range Retrieval ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using ADO for Range Retrieval

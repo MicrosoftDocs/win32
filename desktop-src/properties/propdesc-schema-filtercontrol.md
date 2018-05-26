@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies what control to use in the header filter menu.'
-ms.assetid: 'a3117e16-20d0-4637-b726-9fa49516ad5c'
+Description: Specifies what control to use in the header filter menu.
+ms.assetid: a3117e16-20d0-4637-b726-9fa49516ad5c
 title: filterControl
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # filterControl

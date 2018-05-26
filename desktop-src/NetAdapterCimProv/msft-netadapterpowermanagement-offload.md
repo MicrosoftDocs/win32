@@ -1,7 +1,12 @@
 ---
-Description: 'MSFT\_NetAdapterPowerManagement\_Offload is the base class for various network adapter offloads.'
-ms.assetid: 'cc95129a-c2f7-45c9-b689-38a3513dda7c'
-title: 'MSFT\_NetAdapterPowerManagement\_Offload class'
+Description: MSFT\_NetAdapterPowerManagement\_Offload is the base class for various network adapter offloads.
+ms.assetid: cc95129a-c2f7-45c9-b689-38a3513dda7c
+title: MSFT\_NetAdapterPowerManagement\_Offload class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterPowerManagement\_Offload class
@@ -108,16 +113,16 @@ Supplies the priority of this offload. A lower value implies a higher priority o
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

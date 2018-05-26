@@ -1,12 +1,17 @@
 ---
-Description: 'The following example uses the ExitWindows function to log off the current user.'
-ms.assetid: '74be3505-c4bd-4ae2-aaed-700382839006'
+Description: The following example uses the ExitWindows function to log off the current user.
+ms.assetid: 74be3505-c4bd-4ae2-aaed-700382839006
 title: How to Log Off the Current User
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Log Off the Current User
 
-The following example uses the [**ExitWindows**](exitwindows.md) function to log off the current user.
+The following example uses the [**ExitWindows**](/windows/win32/Winuser/nf-winuser-exitwindows?branch=master) function to log off the current user.
 
 ``` syntax
 // Log off the current user. 
@@ -14,7 +19,7 @@ The following example uses the [**ExitWindows**](exitwindows.md) function to log
 ExitWindows(0, 0);
 ```
 
-The following example uses the [**ExitWindowsEx**](exitwindowsex.md) function to log off the current user.
+The following example uses the [**ExitWindowsEx**](/windows/win32/Winuser/nf-winuser-exitwindowsex?branch=master) function to log off the current user.
 
 ``` syntax
 // Log off the current user. 

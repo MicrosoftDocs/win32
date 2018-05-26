@@ -1,7 +1,12 @@
 ---
-Description: 'The following shows the basic syntax of the SELECT statement for a local query:'
-ms.assetid: '334aa2b9-0ef2-4a4b-9352-de5ded95afa6'
+Description: The following shows the basic syntax of the SELECT statement for a local query
+ms.assetid: 334aa2b9-0ef2-4a4b-9352-de5ded95afa6
 title: SELECT Statement
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SELECT Statement

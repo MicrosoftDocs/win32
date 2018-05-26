@@ -1,13 +1,16 @@
 ---
-Description: 'Contains information about a trusted publishing domain.'
+Description: Contains information about a trusted publishing domain.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'e17ad56b-ad4d-47a0-a53b-d21fec12413f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: e17ad56b-ad4d-47a0-a53b-d21fec12413f
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: TrustedPublishingDomain object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # TrustedPublishingDomain object
@@ -42,7 +45,7 @@ The **TrustedPublishingDomain** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -143,7 +146,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -161,9 +164,9 @@ END SUB
 [**TrustPolicy**](trustpolicy-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

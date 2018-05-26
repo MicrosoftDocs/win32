@@ -1,8 +1,11 @@
 ---
 title: IImnAccountManager2 GetIncompleteAccount method
 description: Gets an incomplete account.
-ms.assetid: '1ef95924-51b5-4778-9887-dd726c46eba7'
-keywords: ["GetIncompleteAccount method Windows Mail (formerly Outlook Express)", "GetIncompleteAccount method Windows Mail (formerly Outlook Express) , IImnAccountManager2 interface", "IImnAccountManager2 interface Windows Mail (formerly Outlook Express) , GetIncompleteAccount method"]
+ms.assetid: 1ef95924-51b5-4778-9887-dd726c46eba7
+keywords:
+- GetIncompleteAccount method Windows Mail (formerly Outlook Express)
+- GetIncompleteAccount method Windows Mail (formerly Outlook Express) , IImnAccountManager2 interface
+- IImnAccountManager2 interface Windows Mail (formerly Outlook Express) , GetIncompleteAccount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccountManager2::GetIncompleteAccount method
@@ -24,9 +32,9 @@ Gets an incomplete account.
 
 ```C++
 HRESULT GetIncompleteAccount(
-  [in] ACCTTYPE AcctType,
-  [in] LPSTR    pszAccountId,
-  [in] ULONG    cchMax
+  [in] ACCTTYPE AcctType,
+  [in] LPSTR    pszAccountId,
+  [in] ULONG    cchMax
 );
 ```
 
@@ -75,8 +83,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -84,9 +92,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes IOCTL\_DOT4\_WAIT\_ACTIVITY\_BROADCAST.'
-ms.assetid: '4E39AC46-BE78-4503-AA3A-D45BC79DBDEF'
-title: 'IOCTL\_DOT4\_WAIT\_ACTIVITY\_BROADCAST control code'
+---
+Description: This topic describes IOCTL\_DOT4\_WAIT\_ACTIVITY\_BROADCAST.
+ms.assetid: 4E39AC46-BE78-4503-AA3A-D45BC79DBDEF
+title: IOCTL\_DOT4\_WAIT\_ACTIVITY\_BROADCAST control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_DOT4\_WAIT\_ACTIVITY\_BROADCAST control code

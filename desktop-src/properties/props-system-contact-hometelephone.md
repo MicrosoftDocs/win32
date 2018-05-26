@@ -1,7 +1,12 @@
 ---
-Description: 'Home telephone number of the contact.'
-ms.assetid: '9261d329-4b63-4aae-a766-974895fc976e'
-title: 'System.Contact.HomeTelephone'
+Description: Home telephone number of the contact.
+ms.assetid: 9261d329-4b63-4aae-a766-974895fc976e
+title: System.Contact.HomeTelephone
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeTelephone

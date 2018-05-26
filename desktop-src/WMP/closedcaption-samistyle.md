@@ -1,8 +1,9 @@
 ---
 title: ClosedCaption.SAMIStyle
 description: The SAMIStyle property specifies or retrieves the closed captioning style.
-ms.assetid: '5535fb31-f1c0-49c4-b758-df74964b1e67'
-keywords: ["ClosedCaption.SAMIStyle Windows Media Player"]
+ms.assetid: 5535fb31-f1c0-49c4-b758-df74964b1e67
+keywords:
+- ClosedCaption.SAMIStyle Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClosedCaption.SAMIStyle
@@ -89,9 +95,9 @@ The following JScript example creates an HTML SELECT element that uses *closedCa
 [**ClosedCaption Object**](closedcaption-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

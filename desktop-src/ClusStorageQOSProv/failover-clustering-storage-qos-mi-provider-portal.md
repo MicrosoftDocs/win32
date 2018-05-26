@@ -4,12 +4,15 @@ description: Failover Clustering Storage Quality of Service (QoS) Provider enabl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '17e8fe6d-3109-49b0-8eb6-694888e9f5ba'
-ms.prod: 'windows-server-dev'
+ms.assetid: 17e8fe6d-3109-49b0-8eb6-694888e9f5ba
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-storage-qos'
-- 'windows-management-instrumentation'
+- failover-cluster-storage-qos
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Clustering Storage QoS Provider

@@ -1,12 +1,17 @@
 ---
 title: Content Indexing Services Protocol
 description: This document is a specification of the Content Indexing Service Protocol.
-ms.assetid: 'b91c8038-5ace-441d-8523-60f849ff1458'
+ms.assetid: b91c8038-5ace-441d-8523-60f849ff1458
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Content Indexing Services Protocol
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
 Protocol Specification, Version 0.12
 
@@ -62,7 +67,7 @@ A WSPP protocol specification does not require the use of Microsoft programming 
 > -   Named Pipe
 > -   Path
 
- 
+ 
 
 **Binding**: A request to include a particular **column** in a returned **rowset** . The **binding** specifies a property to be included in the search results.
 
@@ -183,7 +188,7 @@ Sending a search query is a multi-step process initiated by the client. The step
 5.  Once the client is finished with the search query and no longer requires additional results, the client contacts the server to release the query.
 6.  Once the server has released the query, the client may send a request to disconnect from the server. The connection is then closed. Alternatively, the client may issue another query and repeat the sequence from the step 2.
 
-Windows Behavior: This protocol is implemented on Windows 2000, Windows XP, Windows Server 2003, and Windows Vista.
+Windows Behavior: This protocol is implemented on Windows 2000, Windows XP, Windows Server 2003, and Windows Vista.
 
 ### 1.4 Relationship to Other Protocols
 
@@ -233,7 +238,7 @@ Microsoft has allocated this protocol a named pipe as specified in \[MS-SMB\]. T
 
 
 
- 
+ 
 
 ## 2 Messages
 
@@ -262,7 +267,7 @@ Several structures and messages in the following sections refer to chapter or bo
 
 
 
- 
+ 
 
 ### 2.2.1 Structures
 
@@ -312,7 +317,7 @@ The following table summarizes the data structures defined in this section.
 
 
 
- 
+ 
 
 ### 2.2.1.1 CBaseStorageVariant
 
@@ -394,7 +399,7 @@ vValue (variable)
 
 
 
- 
+ 
 
 **vType**: A type indicator, indicating the type of vValue. It MUST be one of the VARENUM values specified in the following table.
 
@@ -431,7 +436,7 @@ vValue (variable)
 
 
 
- 
+ 
 
 The following table specifies the type modifiers for vType. Type modifiers can be binary ORed with vType, to change the meaning of vValue to indicate it is one of two possible array types.
 
@@ -444,7 +449,7 @@ The following table specifies the type modifiers for vType. Type modifiers can b
 
 
 
- 
+ 
 
 **vData1**: When vType is VT\_DECIMAL, the value of this field is specified as the Scale field in section 2.2.1.1.1.1. For all other vTypes, the value MUST be set to 0x00.
 
@@ -466,7 +471,7 @@ The following table summarizes sizes for the vValue field, dependent upon the vT
 
 
 
- 
+ 
 
 If vType is set to VT\_BLOB, VT\_BSTR or VT\_LPSTR then the structure of vValue is specified in the following diagram:
 
@@ -542,7 +547,7 @@ blobData (variable, optional)
 
 
 
- 
+ 
 
 **cbSize**: Unsigned 32-bit integer, indicating the size of the blobData field in bytes. If vType is set to VT\_BSTR or VT\_LPSTR, cbSize MUST be set to 0x00000000 when the string represented is an empty string.
 
@@ -628,7 +633,7 @@ string (variable, optional)
 
 
 
- 
+ 
 
 **ccLen**: Unsigned 32-bit integer, indicating the size of the string field in Unicode characters. MUST be set to 0x00000000 for an empty string.
 
@@ -724,7 +729,7 @@ Mid32
 
 
 
- 
+ 
 
 **Hi32**: The highest 32 bits of the 96 bit integer.
 
@@ -808,7 +813,7 @@ vVectorData
 
 
 
- 
+ 
 
 **vVectorElements**: Unsigned 32-bit integer, indicating the number of elements in the vVectorData field.
 
@@ -902,7 +907,7 @@ vData (variable)
 
 
 
- 
+ 
 
 **cDims**: Unsigned 16-bit integer, indicating the number of dimensions of the multidimensional array.
 
@@ -927,7 +932,7 @@ The following diagram visually represents a sample two-dimensional array. The fi
 
 
 
- 
+ 
 
 Using the diagram above, vData will contain the following sequence: 0x00000001, 0x00000007, 0x00000002, 0x00000011, 0x00000003, 0x00000013, 0x00000005, 0x00000017 (iterating through the rightmost dimension first, then incrementing the next dimension). The preceding Rgsabound (which records cElements and Lbound) would be: 0x00000004, 0x00000000, 0x00000002, 0x00000000.
 
@@ -1007,7 +1012,7 @@ lLbound
 
 
 
- 
+ 
 
 **cElements**: A 32-bit unsigned integer, specifying the number of elements in the dimension.
 
@@ -1091,7 +1096,7 @@ vData (variable)
 
 
 
- 
+ 
 
 **cDims**: Unsigned 32-bit integer, indicating the number of dimensions of the SAFEARRAY2.
 
@@ -1185,7 +1190,7 @@ Property name (variable)
 
 
 
- 
+ 
 
 **\_guidPropSet**: The GUID of the property set to which the property belongs.
 
@@ -1200,7 +1205,7 @@ Property name (variable)
 
 
 
- 
+ 
 
 **PrSpec**: A 32-bit unsigned integer with a meaning as indicated by the ulKind field.
 
@@ -1296,7 +1301,7 @@ lcid
 
 
 
- 
+ 
 
 **\_Property**: A CFullPropSpec structure, as specified in Section 2.2.1.2. This field indicates the property on which to perform a match operation.
 
@@ -1322,7 +1327,7 @@ lcid
 
 
 
- 
+ 
 
 ### 2.2.1.4 CKey
 
@@ -1402,7 +1407,7 @@ buf (variable)
 
 
 
- 
+ 
 
 **PROPID**: A 32-bit unsigned integer, representing the property ID as discussed in section 1.8.1. Well-known values are:
 
@@ -1416,7 +1421,7 @@ buf (variable)
 
 
 
- 
+ 
 
 **Cb**: A 32-bit unsigned integer containing the length of buf, in bytes.
 
@@ -1504,7 +1509,7 @@ nextRestriction (variable)
 
 
 
- 
+ 
 
 **\_relop**: A 32-bit integer specifying the relation to perform on the property. MUST be one of the following values:
 
@@ -1526,7 +1531,7 @@ nextRestriction (variable)
 
 
 
- 
+ 
 
 **\_pid**: A 32-bit unsigned integer, representing the property ID (see PROPID in section 2.2.1.4).
 
@@ -1624,7 +1629,7 @@ Lcid
 
 
 
- 
+ 
 
 **\_Property**: A CFullPropSpec structure, as specified in Section 2.2.1.3. This field indicates the property on which to perform the match operation.
 
@@ -1714,7 +1719,7 @@ The CNodeRestriction structure contains an array of **command tree** nodes that 
 
 
 
- 
+ 
 
 **\_cNode**: A 32-bit unsigned integer specifying the number of CRestriction structures contained in the \_paNode field.
 
@@ -1798,7 +1803,7 @@ The COccRestriction structure contains the location of a word in a phrase.
 
 
 
- 
+ 
 
 **\_occ**: A 32-bit unsigned integer specifying the offset of the word in a query string, in units of words. A word, as used in this specification, is a unit of language in any locale that carries meaning.
 
@@ -1884,7 +1889,7 @@ The CPropertyRestriction structure contains a property value to match with an op
 
 
 
- 
+ 
 
 **\_relop**: A 32-bit unsigned integer specifying the relation to perform on the property. MUST be one of the following values.
 
@@ -1906,7 +1911,7 @@ The CPropertyRestriction structure contains a property value to match with an op
 
 
 
- 
+ 
 
 **\_Property**: A CFullPropSpec structure, as specified in Section 2.2.1.2, indicating the property on which to perform a match operation.
 
@@ -1988,7 +1993,7 @@ The CRangeRestriction structure contains a restriction on a range of values.
 
 
 
- 
+ 
 
 **\_keyStart**: A CKey structure, as specified in section 2.2.1.4, containing the beginning of the range.
 
@@ -2080,7 +2085,7 @@ CcLowerPath
 
 
 
- 
+ 
 
 **CcLowerPath**: A 32-bit unsigned integer containing the number of Unicode characters in the \_lowerPath field.
 
@@ -2172,7 +2177,7 @@ locale
 
 
 
- 
+ 
 
 **pidColumn**: A 32-bit unsigned integer. The number of the column to sort by.
 
@@ -2187,7 +2192,7 @@ locale
 
 
 
- 
+ 
 
 **locale**: A 32-bit unsigned integer indicating the locale, as specified in \[MS-GPSI\] Appendix A, of the column.
 
@@ -2275,7 +2280,7 @@ cKey
 
 
 
- 
+ 
 
 **Restriction**: A COccRestriction structure specifying the location of the word.
 
@@ -2365,7 +2370,7 @@ The CVectorRestriction structure contains a weighted OR operation on a command t
 
 
 
- 
+ 
 
 **\_pres**: A CNodeRestriction command tree upon which a ranked OR operation is to be performed.
 
@@ -2385,7 +2390,7 @@ The CVectorRestriction structure contains a weighted OR operation on a command t
 
 
 
- 
+ 
 
 ### 2.2.1.15 CWordRestriction
 
@@ -2469,7 +2474,7 @@ restriction
 
 
 
- 
+ 
 
 **restriction**: A COccRestriction structure specifying the location of the word.
 
@@ -2555,7 +2560,7 @@ Restriction
 
 
 
- 
+ 
 
 **\_ulType**: A 32-bit unsigned integer indicating the restriction type used for the command tree node. MUST be set to one of the following values.
 
@@ -2581,7 +2586,7 @@ Restriction
 
 
 
- 
+ 
 
 **Weight**: A 32-bit unsigned integer representing the weight of the node. Weight indicates the node's importance relative to other nodes in the query command tree. Higher weight values are more important.
 
@@ -2663,7 +2668,7 @@ indexes (variable)
 
 
 
- 
+ 
 
 **count**: A 32-bit unsigned integer specifying the number of elements in the indexes array.
 
@@ -2745,7 +2750,7 @@ categories (variable)
 
 
 
- 
+ 
 
 **count**: A 32-bit unsigned integer containing the number of elements in the categories array.
 
@@ -2827,7 +2832,7 @@ The CCategorizationSpec structure contains a grouping for a query result set.
 
 
 
- 
+ 
 
 **\_csColumns**: A CColumnSet structure indicating the columns by which to group the query.
 
@@ -2919,7 +2924,7 @@ vString (variable)
 
 
 
- 
+ 
 
 **eKind**: MUST be set to one of the values below that indicates the contents of GUID and vValue.
 
@@ -2934,7 +2939,7 @@ vString (variable)
 
 
 
- 
+ 
 
 **GUID**: The property GUID.
 
@@ -3024,7 +3029,7 @@ vValue (variable)
 
 
 
- 
+ 
 
 **DBPROPID**: A 32-bit unsigned integer, indicating the property ID.
 
@@ -3053,7 +3058,7 @@ The following table lists the properties that are part of the DBPROPSET\_FSCIFRM
 
 
 
- 
+ 
 
 The following table lists the flags for the DBPROP\_CI\_SCOPE\_FLAGS property:
 
@@ -3066,7 +3071,7 @@ The following table lists the flags for the DBPROP\_CI\_SCOPE\_FLAGS property:
 
 
 
- 
+ 
 
 The following table lists the query types for the DBPROP\_CI\_QUERY\_TYPE property:
 
@@ -3081,7 +3086,7 @@ The following table lists the query types for the DBPROP\_CI\_QUERY\_TYPE proper
 
 
 
- 
+ 
 
 The following table lists the properties that are part of the DBPROPSET\_QUERYEXT property set.
 
@@ -3091,12 +3096,12 @@ The following table lists the properties that are part of the DBPROPSET\_QUERYEX
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DBPROP\_USECONTENTINDEX 0x00000002         | Specifies how the indexing service is to handle slow queries. Value MUST be a VT\_BOOL. If TRUE, the server is allowed to fail these queries.                                                                                    |
 | DBPROP\_DEFERNONINDEXEDTRIMMING 0x00000003 | Indicates whether the indexing service is to perform results trimming. If TRUE, the server is to consider performing results trimming in a way that optimizes response time to the client. Value MUST be a VT\_BOOL.             |
-| DBPROP\_USEEXTENDEDDBTYPES 0x00000004      | Indicates whether the client supports VT\_VECTOR data types. If TRUE, then the client supports VT\_VECTOR; if FALSE, then the server is to convert VT\_VECTOR data types to VT\_ARRAY data types.  The value MUST be a VT\_BOOL. |
+| DBPROP\_USEEXTENDEDDBTYPES 0x00000004      | Indicates whether the client supports VT\_VECTOR data types. If TRUE, then the client supports VT\_VECTOR; if FALSE, then the server is to convert VT\_VECTOR data types to VT\_ARRAY data types.  The value MUST be a VT\_BOOL. |
 | DBPROP\_FIRSTROWS 0x00000007               | Indicates the row matches to return. If TRUE, the server is to return the first set of matching rows. If FALSE, the best matching rows should be returned. Value MUST be a VT\_BOOL.                                             |
 
 
 
- 
+ 
 
 The following table lists the properties that are part of the DBPROPSET\_CIFRMWRKCORE\_EXT property set.
 
@@ -3109,7 +3114,7 @@ The following table lists the properties that are part of the DBPROPSET\_CIFRMWR
 
 
 
- 
+ 
 
 ### 2.2.1.22 CDbPropSet
 
@@ -3199,7 +3204,7 @@ aProps (variable)
 
 
 
- 
+ 
 
 **guidPropertySet**: A GUID identifying the property set. MUST be set to the binary form corresponding to one of the following values (shown in string representation form), identifying the property set of the properties contained in the aProps field.
 
@@ -3213,7 +3218,7 @@ aProps (variable)
 
 
 
- 
+ 
 
 **\_padding**: This field MUST be 0 to 3 bytes in length. The length of this field MUST be such that the following field begins at an offset that is a multiple of 4 bytes from the beginning of the message that contains this structure. If this field is present (i.e., length nonzero), the value it contains is arbitrary. The content of this field MUST be ignored by the receiver.
 
@@ -3299,7 +3304,7 @@ aPropSpec
 
 
 
- 
+ 
 
 **count**: A 32-bit unsigned integer containing the number of elements in the aPropSpec array.
 
@@ -3383,7 +3388,7 @@ The CRowSeekAt structure contains the offset at which to retrieve rows in a CPMG
 
 
 
- 
+ 
 
 **\_hRegion**: MUST be set to 0x00000000, and MUST be ignored.
 
@@ -3471,7 +3476,7 @@ CiTblChapt
 
 
 
- 
+ 
 
 **CiTblChapt**: A 32-bit unsigned integer indicating the rowset chapter from which to retrieve rows.
 
@@ -3565,7 +3570,7 @@ The CRowSeekByBookmark structure identifies the bookmarks from which to begin re
 
 
 
- 
+ 
 
 **\_hRegion**: MUST be set to 0x00000000, and MUST be ignored.
 
@@ -3657,7 +3662,7 @@ CiTblChapt
 
 
 
- 
+ 
 
 **CiTblChapt**: Unsigned 32-bit integer specifying the rowset chapter from which to retrieve rows.
 
@@ -3747,7 +3752,7 @@ The CRowsetProperties structure contains configuration information for a query.
 
 
 
- 
+ 
 
 **\_uBooleanOptions**: The least significant 3 bits of this field MUST contain one of the following three values:
 
@@ -3761,7 +3766,7 @@ The CRowsetProperties structure contains configuration information for a query.
 
 
 
- 
+ 
 
 The remaining bits may either be clear, or set to any combination of the following values logically OR'd together:
 
@@ -3778,7 +3783,7 @@ The remaining bits may either be clear, or set to any combination of the followi
 
 
 
- 
+ 
 
 **\_ulMaxOpenRows**: Unsigned 32-bit integer. Must be set to 0x00000000. Not used and MUST be ignored.
 
@@ -3868,7 +3873,7 @@ Offset (optional)
 
 
 
- 
+ 
 
 **vType**: A type indicator, indicating the type of vValue. It MUST be one of the VARENUM values specified in section 2.2.1.1.
 
@@ -3876,7 +3881,7 @@ Offset (optional)
 
 **reserved2**: Not used. The value can be set to any arbitrary value and it MUST be ignored on receipt.
 
-**Offset**: An offset to variable length data (e.g. a string).  This MUST be a 32-bit value (4 bytes long) if 32-bit offsets are being used (per the rules in section 2.2.3.16), or a 64-byte value (8 bytes long) if 64-bit offsets are being used.
+**Offset**: An offset to variable length data (e.g. a string).  This MUST be a 32-bit value (4 bytes long) if 32-bit offsets are being used (per the rules in section 2.2.3.16), or a 64-byte value (8 bytes long) if 64-bit offsets are being used.
 
 ### 2.2.1.30 CSortSet
 
@@ -3954,7 +3959,7 @@ sortArray (variable)
 
 
 
- 
+ 
 
 **count**: A 32-bit unsigned integer specifying number of elements in sortArray.
 
@@ -4058,7 +4063,7 @@ LengthOffset (optional)
 
 
 
- 
+ 
 
 **PropSpec**: A CFullPropSpec structure as specified in Section 2.2.1.3.
 
@@ -4160,7 +4165,7 @@ rgb (variable)
 
 
 
- 
+ 
 
 **dwType**: One of the variant types, defined in section 2.2.1.1, which can be combined with variant type modifiers. For all variant types, except those combined with VT\_ARRAY, SERIALIZEDPROPERTYVALUE has the same layout as CBaseStorageVariant, as specified in Section 2.2.1.1. If the variant type is combined with the VT\_ARRAY type modifier, then SAFEARRAY2, specified in Section 2.2.1.2.1.1, is used instead of SAFEARRAY in CBaseStorageVariant's vValue field.
 
@@ -4248,7 +4253,7 @@ Below is a diagram showing the Content Indexing Service Protocol message header 
 
 
 
- 
+ 
 
 \_**msg**: A 32 bit integer that identifies the type of message following the header. The following table lists the Content Indexing Service Protocol messages and the integer values specified for each message. As shown in the table, some values identify 2 messages in the table. In those instances the message following the header can be identified by the direction of the message flow. If the direction is client to server, the message with "In" appended to the message name is indicated. If the direction is server to client, the message with "Out" appended to the message name is indicated.
 
@@ -4279,11 +4284,11 @@ Below is a diagram showing the Content Indexing Service Protocol message header 
 
 
 
- 
+ 
 
 \_**status**: An HRESULT \[MS-SYS\], indicating the status of the requested operation.
 
-\* *
+\* *
 
 *Windows Behavior: The client always sets the \_status field to 0x00000000.*
 
@@ -4403,7 +4408,7 @@ dwPropCacheSize
 
 
 
- 
+ 
 
 **cbStruct**: A 32-bit unsigned integer. The size in bytes of this message (excluding the common header). MUST be set to 0x0000003C.
 
@@ -4442,7 +4447,7 @@ dwPropCacheSize
 
 
 
- 
+ 
 
 **cFilteredDocuments**: A 32-bit unsigned integer indicating the number of documents indexed since content indexing was begun.
 
@@ -4538,7 +4543,7 @@ The CPMSetCatStateIn message sets the state of a catalog. The format of the CPMS
 
 
 
- 
+ 
 
 **\_partID**: MUST be set to 0x00000001.
 
@@ -4557,7 +4562,7 @@ The CPMSetCatStateIn message sets the state of a catalog. The format of the CPMS
 
 
 
- 
+ 
 
 **\_CatName**: The name of the catalog which is to have its state modified. The name MUST be a null-terminated Unicode string. This field MUST be omitted if \_dwNewState is set to CICAT\_ALL\_OPENED.
 
@@ -4635,7 +4640,7 @@ The CPMSetCatStateOut message is a reply to a CPMSetCatStateIn message with the 
 
 
 
- 
+ 
 
 **\_dwOldState**: One of the following values, indicating the old state of the catalog.
 
@@ -4650,7 +4655,7 @@ The CPMSetCatStateOut message is a reply to a CPMSetCatStateIn message with the 
 
 
 
- 
+ 
 
 ### 2.2.3.4 CPMUpdateDocumentsIn
 
@@ -4734,7 +4739,7 @@ RootPath (variable, optional)
 
 
 
- 
+ 
 
 **\_flag**: The type of update to be performed. This field MUST be present when the message is sent by the client, and MUST be absent when the message is sent by the server. This field MUST be set to one of the following values:
 
@@ -4748,7 +4753,7 @@ RootPath (variable, optional)
 
 
 
- 
+ 
 
 **\_fRootPath**: A boolean value indicating if the RootPath field specifies a path on which to perform the update. This field MUST be present when the message is sent by the client, and MUST be absent when the message is sent by the server. This field MUST be set to 0x00000001 or 0x00000000. If set to 0x00000001, then a path on which to perform the update is included in RootPath. If set to 0x00000000, then the update is to be performed on all indexed paths.
 
@@ -4830,7 +4835,7 @@ The format of the CPMForceMergeIn message that follows the header is:
 
 
 
- 
+ 
 
 **\_partID**: This field MUST be present when the message is sent by the client, and MUST be absent when the message is sent by the server. When this field is present, it MUST be set to 0x00000001.
 
@@ -4944,7 +4949,7 @@ aPropertySets (variable)
 
 
 
- 
+ 
 
 **\_iClientVersion**: A 32-bit integer indicating whether the server is to validate the checksum value specified in the \_ulChecksum field of the message headers for messages sent by the client. If the \_iClientVersion field is set to 0x00000008 or greater, the server MUST validate the \_ulChecksum field value for the following messages:
 
@@ -4964,13 +4969,13 @@ If the value is greater than 0x00000008 then the client is assumed capable of ha
 
 | Value      | Meaning                                                              |
 |------------|----------------------------------------------------------------------|
-| 0x00000005 | Client OS is Windows 2000.                                           |
-| 0x00000008 | Client OS is either 32-bit Windows XP or 32-bit Windows Server 2003. |
-| 0x00010008 | Client OS is either 64-bit Windows XP or 64-bit Windows Server 2003. |
+| 0x00000005 | Client OS is Windows 2000.                                           |
+| 0x00000008 | Client OS is either 32-bit Windows XP or 32-bit Windows Server 2003. |
+| 0x00010008 | Client OS is either 64-bit Windows XP or 64-bit Windows Server 2003. |
 
 
 
- 
+ 
 
 \_**fClientIsRemote**: A boolean value indicating whether the client is running on a different machine than the server. MUST be set to 0x00000001.
 
@@ -5076,7 +5081,7 @@ The format of the CPMConnectOut message that follows the header is:
 
 
 
- 
+ 
 
 **\_serverVersion**:
 
@@ -5091,7 +5096,7 @@ A 32-bit integer, indicating whether the server can support 64-bit offsets*.* Se
 
 
 
- 
+ 
 
 **\_reserved**: Reserved. The server MAY send an arbitrary number of arbitrary values and the client MUST ignore these values if present.
 
@@ -5205,7 +5210,7 @@ PidMapper (variable)
 
 
 
- 
+ 
 
 **Size**: A 32-bit unsigned integer indicating the number of bytes from the beginning of this field to the end of the message.
 
@@ -5309,7 +5314,7 @@ aCursors
 
 
 
- 
+ 
 
 **\_fTrueSequential**: An informative boolean value indicating if the query can be expected to provide results faster. When set to 0x00000001 for the query provided in CPMCreateQueryIn, the server can use the index in such a way that query results will likely be delivered faster. When set to 0x00000000, there would be a bigger latency in delivering query results. MUST not be set to any other value.
 
@@ -5391,7 +5396,7 @@ The CPMGetQueryStatusIn message requests the status of a query. The format of th
 
 
 
- 
+ 
 
 **\_hCursor**: A 32-bit unsigned integer representing the handle from CPMCreateQueryOut message identifying the query for which to retrieve status information.
 
@@ -5469,7 +5474,7 @@ The CPMGetQueryStatusOut message replies to a CPMGetQueryStatusIn message with t
 
 
 
- 
+ 
 
 **\_Status**: A bitmask of values defined in the tables below, that describes the query.
 
@@ -5486,7 +5491,7 @@ The following table lists STAT\_\* values obtained by performing a bitwise AND o
 
 
 
- 
+ 
 
 The following table lists additional STAT\_\* bits that can be set independently.
 
@@ -5502,7 +5507,7 @@ The following table lists additional STAT\_\* bits that can be set independently
 
 
 
- 
+ 
 
 ### 2.2.3.12 CPMGetQueryStatusExIn
 
@@ -5580,7 +5585,7 @@ The CPMGetQueryStatusExIn message requests the status of a query and additional 
 
 
 
- 
+ 
 
 **\_hCursor**: A 32-bit value representing the handle from the CPMCreateQueryOut message identifying the query for which to retrieve status information.
 
@@ -5672,7 +5677,7 @@ The CPMGetQueryStatusExOut message replies to a CPMGetQueryStatusExIn message wi
 
 
 
- 
+ 
 
 **\_Status**: One of the STAT\_\* values specified in Section 2.2.3.11.
 
@@ -5772,7 +5777,7 @@ aColumns (variable, optional)
 
 
 
- 
+ 
 
 **\_hCursor**: A 32-bit value representing the handle from the CPMCreateQueryOut message that identifies the row for which to set bindings. This field MUST be present when the message is sent by the client, and MUST be absent when the message is sent by the server.
 
@@ -5884,7 +5889,7 @@ SeekDescription
 
 
 
- 
+ 
 
 **\_hCursor**: A 32-bit value representing the handle from the CPMCreateQueryOut message identifying the query for which to retrieve rows.
 
@@ -5915,7 +5920,7 @@ SeekDescription
 
 
 
- 
+ 
 
 **\_chapt**: A 32-bit value representing the handle of the rowset chapter.
 
@@ -6015,7 +6020,7 @@ Rows
 
 
 
- 
+ 
 
 **\_cRowsReturned**: A 32-bit unsigned integer indicating the number of rows returned in Rows.
 
@@ -6033,7 +6038,7 @@ Rows
 
 
 
- 
+ 
 
 **\_chapt**: A 32-bit value representing the handle of the rowset chapter.
 
@@ -6130,7 +6135,7 @@ The CPMRatioFinishedIn message requests the completion percentage of a query. Th
 
 
 
- 
+ 
 
 **\_hCursor**: The handle from CPMCreateQueryOut message identifying the query for which to request completion information.
 
@@ -6216,7 +6221,7 @@ The CPMRatioFinishedOut message replies to a CPMRatioFinishedIn message with the
 
 
 
- 
+ 
 
 **\_ulNumerator**: A 32-bit unsigned integer indicating the numerator of the completion ratio in terms of rows.
 
@@ -6314,7 +6319,7 @@ PropSpec (variable)
 
 
 
- 
+ 
 
 **\_wid**: A 32-bit unsigned integer representing the document ID identifying the document for which a property should be fetched.
 
@@ -6414,7 +6419,7 @@ vValue (variable)
 
 
 
- 
+ 
 
 **\_cbValue**: A 32-bit unsigned integer containing the total size, in bytes in vValue.
 
@@ -6508,7 +6513,7 @@ This message is only sent when a change occurs. The format of the CPMSendNotifyO
 
 
 
- 
+ 
 
 **\_watchNotify**: The change to the query. It MUST be one of the following values:
 
@@ -6522,7 +6527,7 @@ This message is only sent when a change occurs. The format of the CPMSendNotifyO
 
 
 
- 
+ 
 
 ### 2.2.3.23 CPMGetApproximatePositionIn
 
@@ -6602,7 +6607,7 @@ The CPMGetApproximatePositionIn message requests the approximate position of a b
 
 
 
- 
+ 
 
 **\_hCursor**: A 32-bit value representing the query cursor obtained from CPMCreateQueryOut for the rowset containing the bookmark.
 
@@ -6686,7 +6691,7 @@ The CPMGetApproximatePositionOut message replies to a CPMGetApproximatePositionI
 
 
 
- 
+ 
 
 **\_numerator**: A 32-bit unsigned integer containing the row number of the bookmark in the rowset. If there are no rows, this field MUST be set to 0x00000000.
 
@@ -6774,7 +6779,7 @@ The format of the CPMCompareBmkIn message that follows the header is:
 
 
 
- 
+ 
 
 \_**hCursor**: A 32-bit value representing the handle from CPMCreateQueryOut message for the rowset containing the bookmarks.
 
@@ -6858,7 +6863,7 @@ The CPMCompareBmkOut message replies to a CPMCompareBmkIn message with the compa
 
 
 
- 
+ 
 
 \_**dwComparison**: One of the following values, indicating the relative positions of the two bookmarks in the chapter.
 
@@ -6874,7 +6879,7 @@ The CPMCompareBmkOut message replies to a CPMCompareBmkIn message with the compa
 
 
 
- 
+ 
 
 ### 2.2.3.27 CPMRestartPositionIn
 
@@ -6954,7 +6959,7 @@ The format of the CPMRestartPositionIn message that follows the header is:
 
 
 
- 
+ 
 
 **\_hCursor**: A 32-bit value representing the handle, obtained from a CPMCreateQueryOut message, which identifies the query for which to restart the position. This field MUST be present when the message is sent by the client, and MUST be absent when the message is sent by the server.
 
@@ -7034,7 +7039,7 @@ The CPMFreeCursorIn message requests the release of a cursor. The format of the 
 
 
 
- 
+ 
 
 **\_hCursor**: A 32-bit value representing the handle of the cursor from the CPMCreateQueryOut message to release.
 
@@ -7112,7 +7117,7 @@ The CPMFreeCursorOut message replies to a CPMFreeCursorIn message with the resul
 
 
 
- 
+ 
 
 **\_cCursorsRemaining**: A 32-bit unsigned integer indicating the number of cursors still in use for the query.
 
@@ -7347,7 +7352,7 @@ If StatusUsed is set to 0x01 in the CTableColumn of the CPMSetBindingIn message 
 
 
 
- 
+ 
 
 If the property value is absent for this row, the server MUST set the status byte to StatusNull. If the value is too big to be transferred in the CPMGetRowsOut message, the server MUST set the status byte to StatusDeferred. Otherwise the server MUST set the status byte to StatusOK.
 
@@ -7677,7 +7682,7 @@ None.
 
 ### 4.1 Example 1
 
-In the following example, we consider a scenario in which the user JOHN on machine A wants to obtain the sizes of files that contain the word "Microsoft" from the set of documents stored on server X in catalog SYSTEM. Let us assume that machine A is running a 32-bit Windows XP operating system and machine X is running a 32-bit Windows Server 2003 operating system.
+In the following example, we consider a scenario in which the user JOHN on machine A wants to obtain the sizes of files that contain the word "Microsoft" from the set of documents stored on server X in catalog SYSTEM. Let us assume that machine A is running a 32-bit Windows XP operating system and machine X is running a 32-bit Windows Server 2003 operating system.
 
 1.  The user launches a search application and enters the search query. The application in turn passes the search query to the protocol client.
 2.  The protocol client establishes a connection with indexing server X. The protocol client uses the named pipe \\pipe\\CI\_SKADS to connect to the server X over SMB.
@@ -7792,7 +7797,7 @@ In the following example, we consider a scenario in which the user JOHN on machi
 
     The body of the message is populated as follows:
 
-    -   **\_serverVersion** field is set to 0x00000007 (32-bit Windows XP or 32-bit Windows Server 2003).
+    -   **\_serverVersion** field is set to 0x00000007 (32-bit Windows XP or 32-bit Windows Server 2003).
     -   **\_reserved** fields are filled with arbitrary data.
 
 5.  The client prepares a CPMCreateQueryIn message.
@@ -7990,15 +7995,15 @@ Indexing implementations which index secure content should consider using the us
 
 
 
- 
+ 
 
 ## 6 Index of Version Specific Behavior
 
 
 
-| Version Specific Behavior                                                                         | Section   | Windows 2000 | Windows XP | Windows Server 2003 |
+| Version Specific Behavior                                                                         | Section   | Windows 2000 | Windows XP | Windows Server 2003 |
 |---------------------------------------------------------------------------------------------------|-----------|--------------|------------|---------------------|
-| This protocol is implemented on Windows 2000, Windows XP, Windows Server 2003, and Windows Vista. | 1.3.2     | X            | X          | X                   |
+| This protocol is implemented on Windows 2000, Windows XP, Windows Server 2003, and Windows Vista. | 1.3.2     | X            | X          | X                   |
 | Applications typically interact with an OLE DB interface wrapper                                  | 1.4       | X            | X          | X                   |
 | NTSTATUS values                                                                                   | 1.8       | X            | X          | X                   |
 | The client sets the \_status field in each Message Header.                                        | 2.2.2     | X            | X          | X                   |
@@ -8009,11 +8014,11 @@ Indexing implementations which index secure content should consider using the us
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following is the complete listing of the publisher configuration file schema.'
-ms.assetid: '501151ee-67f5-4127-b048-91ea4a42f9e7'
+Description: The following is the complete listing of the publisher configuration file schema.
+ms.assetid: 501151ee-67f5-4127-b048-91ea4a42f9e7
 title: Publisher Configuration File Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Publisher Configuration File Schema

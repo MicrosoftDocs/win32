@@ -1,8 +1,14 @@
 ---
 title: 2D affine transform effect
 description: The 2D affine transform effect applies a spatial transform to a image based on a 3X2 matrix using the Direct2D matrix transform and any of six interpolation modes.
-ms.assetid: 'E8973EBE-764C-4220-BB1E-3BFD4853582D'
-keywords: ["2D affine transform effect"]
+ms.assetid: E8973EBE-764C-4220-BB1E-3BFD4853582D
+keywords:
+- 2D affine transform effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 2D affine transform effect
@@ -32,7 +38,7 @@ The CLSID for this effect is CLSID\_D2D12DAffineTransform.
 
 
 
- 
+ 
 
 
 ```C++
@@ -100,7 +106,7 @@ This property affects only the high quality cubic interpolation mode.
 
 
 
- 
+ 
 
 ## Border modes
 
@@ -113,7 +119,7 @@ This property affects only the high quality cubic interpolation mode.
 
 
 
- 
+ 
 
 ## Interpolation modes
 
@@ -130,17 +136,17 @@ This property affects only the high quality cubic interpolation mode.
 
 
 
- 
+ 
 
 > [!Note]  
 > If you don't select a mode, the effect defaults to D2D1\_2DAFFINETRANSFORM\_INTERPOLATION\_MODE\_LINEAR.
 
- 
+ 
 
 > [!Note]  
 > Anisotropic mode generates mipmaps when scaling, however, if you set the **Cached** property to true on the effects that are input to this effect, the mipmaps won't be generated every time for sufficiently small images.
 
- 
+ 
 
 ## Output bitmap
 
@@ -158,25 +164,25 @@ For an example of this effect, download the [Direct2D interpolation modes sample
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

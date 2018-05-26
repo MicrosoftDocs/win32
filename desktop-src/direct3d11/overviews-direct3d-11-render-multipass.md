@@ -1,14 +1,19 @@
 ---
 title: Multiple-Pass Rendering
 description: Multiple-pass rendering is a process in which an application traverses its scene graph multiple times in order to produce an output to render to the display.
-ms.assetid: '9a11686a-fd99-4d40-8b02-6f8ec18346e8'
+ms.assetid: 9a11686a-fd99-4d40-8b02-6f8ec18346e8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multiple-Pass Rendering
 
 Multiple-pass rendering is a process in which an application traverses its scene graph multiple times in order to produce an output to render to the display. Multiple-pass rendering improves performance because it breaks up complex scenes into tasks that can run concurrently.
 
-To perform multiple-pass rendering, you create a deferred context and command list for each additional pass. While the application traverses the scene graph, it records commands (for example, rendering commands such as [**Draw**](id3d11devicecontext-draw.md)) into a deferred context. After the application finishes the traversal, it calls the [**FinishCommandList**](id3d11devicecontext-finishcommandlist.md) method on the deferred context. Finally, the application calls the [**ExecuteCommandList**](id3d11devicecontext-executecommandlist.md) method on the immediate context to execute the commands in each command list.
+To perform multiple-pass rendering, you create a deferred context and command list for each additional pass. While the application traverses the scene graph, it records commands (for example, rendering commands such as [**Draw**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-draw?branch=master)) into a deferred context. After the application finishes the traversal, it calls the [**FinishCommandList**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-finishcommandlist?branch=master) method on the deferred context. Finally, the application calls the [**ExecuteCommandList**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-executecommandlist?branch=master) method on the immediate context to execute the commands in each command list.
 
 The following pseudocode shows how to perform multiple-pass rendering:
 

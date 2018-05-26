@@ -1,8 +1,11 @@
 ---
 title: Media.isIdentical method
 description: The isIdentical method retrieves a value indicating whether the supplied object is the same as the current one.
-ms.assetid: 'af3266d5-4ac2-4e8c-a9f6-44f7938e9c9d'
-keywords: ["isIdentical method Windows Media Player", "isIdentical method Windows Media Player , Media class", "Media class Windows Media Player , isIdentical method"]
+ms.assetid: af3266d5-4ac2-4e8c-a9f6-44f7938e9c9d
+keywords:
+- isIdentical method Windows Media Player
+- isIdentical method Windows Media Player , Media class
+- Media class Windows Media Player , isIdentical method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.isIdentical method
@@ -81,9 +89,9 @@ if (newMedia.isIdentical(Player.currentMedia) != true){
 [**Media Object**](media-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

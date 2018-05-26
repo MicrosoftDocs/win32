@@ -1,13 +1,16 @@
 ---
-Description: 'Represents a WMI namespace.'
+Description: Represents a WMI namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd5f0abc7-32cf-4d85-b5cd-5d60c991bcbc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d5f0abc7-32cf-4d85-b5cd-5d60c991bcbc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_Namespace class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_Namespace class
@@ -57,7 +60,7 @@ Namespace name.
 
 The **\_\_Namespace** class is derived from [**\_\_SystemClass**](--systemclass.md), which has no properties.
 
-You can use **\_\_Namespace** to identify, create, and delete child namespaces within the current working namespace for which you have an [**IWbemServices**](iwbemservices.md) object. Creating a new instance of **\_\_Namespace** within any working namespace creates a child namespace within the working namespace. Conversely, deleting an instance of **\_\_Namespace** removes the child namespace from the working namespace. Note that deleting a child namespace also deletes all of its classes and instances.
+You can use **\_\_Namespace** to identify, create, and delete child namespaces within the current working namespace for which you have an [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) object. Creating a new instance of **\_\_Namespace** within any working namespace creates a child namespace within the working namespace. Conversely, deleting an instance of **\_\_Namespace** removes the child namespace from the working namespace. Note that deleting a child namespace also deletes all of its classes and instances.
 
 Enumerating instances of this class within any working namespace gives the available child namespaces.
 
@@ -100,8 +103,8 @@ $NameSpace| sort __namespace  | Format-Table @{Expression = "__Namespace"; Label
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -116,9 +119,9 @@ $NameSpace| sort __namespace  | Format-Table @{Expression = "__Namespace"; Label
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

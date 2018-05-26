@@ -2,13 +2,16 @@
 title: Remove method of the PS\_DnsServerRecursionScope class
 description: Deletes a recursion scope from a DNS server.
 audience: developer
-ms.assetid: 'd29533ea-3308-4896-954a-0269d3cd7a42'
-ms.prod: 'windows-server-dev'
+ms.assetid: d29533ea-3308-4896-954a-0269d3cd7a42
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DnsServerRecursionScope class", "PS_DnsServerRecursionScope class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DnsServerRecursionScope class
+- PS_DnsServerRecursionScope class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DNSServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DnsServerRecursionScope class
@@ -28,11 +34,11 @@ Deletes a recursion scope from a DNS server.
 
 ```mof
 uint32 Remove(
-  [in]  string                  Name,
-  [in]  boolean                 PassThru,
-  [in]  boolean                 Force,
-  [in]  string                  ComputerName,
-  [out] DnsServerRecursionScope cmdletOutput
+  [in]  string                  Name,
+  [in]  boolean                 PassThru,
+  [in]  boolean                 Force,
+  [in]  string                  ComputerName,
+  [out] DnsServerRecursionScope cmdletOutput
 );
 ```
 
@@ -84,7 +90,7 @@ When this method returns, this parameter contains an array that contains the del
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DNSServerPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ When this method returns, this parameter contains an array that contains the del
 [**PS\_DnsServerRecursionScope**](ps-dnsserverrecursionscope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
-﻿---
-Description: 'Applies gutters to an IDirect3DTexture9 texture object.'
-ms.assetid: 'e8f4a4cf-4d3b-419b-9486-08aa3bd3d8a4'
-title: 'ID3DXTextureGutterHelper::ApplyGuttersTex method'
+---
+Description: Applies gutters to an IDirect3DTexture9 texture object.
+ms.assetid: e8f4a4cf-4d3b-419b-9486-08aa3bd3d8a4
+title: ID3DXTextureGutterHelperApplyGuttersTex method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureGutterHelper::ApplyGuttersTex method
 
-Applies gutters to an [**IDirect3DTexture9**](idirect3dtexture9.md) texture object.
+Applies gutters to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) texture object.
 
 ## Syntax
 
@@ -26,9 +31,9 @@ HRESULT ApplyGuttersTex(
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to a [**IDirect3DTexture9**](idirect3dtexture9.md) texture object.
+Pointer to a [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) texture object.
 
 </dd> </dl>
 

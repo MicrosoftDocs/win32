@@ -1,12 +1,17 @@
 ---
-Description: 'The GetSize method retrieves the size of the buffer. This method implements the IMediaSample::GetSize method.'
-ms.assetid: '14562ef4-f554-4d5a-83d3-1a29abae08a4'
-title: 'CMediaSample.GetSize method'
+Description: The GetSize method retrieves the size of the buffer. This method implements the IMediaSampleGetSize method.
+ms.assetid: 14562ef4-f554-4d5a-83d3-1a29abae08a4
+title: CMediaSample.GetSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.GetSize method
 
-The `GetSize` method retrieves the size of the buffer. This method implements the [**IMediaSample::GetSize**](imediasample-getsize.md) method.
+The `GetSize` method retrieves the size of the buffer. This method implements the [**IMediaSample::GetSize**](/windows/win32/Strmif/nf-strmif-imediasample-getsize?branch=master) method.
 
 ## Syntax
 
@@ -43,9 +48,9 @@ Returns the size of the buffer, in bytes.
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

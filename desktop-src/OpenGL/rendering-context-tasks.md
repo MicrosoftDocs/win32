@@ -1,8 +1,15 @@
 ---
 title: Rendering Context Tasks
 description: All calls pass through a rendering context.
-ms.assetid: 'b1903cfb-5b9a-4918-9590-362409743b39'
-keywords: ["OpenGL on Windows,rendering contexts", "rendering contexts OpenGL"]
+ms.assetid: b1903cfb-5b9a-4918-9590-362409743b39
+keywords:
+- OpenGL on Windows,rendering contexts
+- rendering contexts OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rendering Context Tasks

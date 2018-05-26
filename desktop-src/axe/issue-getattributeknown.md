@@ -1,8 +1,11 @@
 ---
 title: Issue GetAttributeKnown method
 description: Returns the value of attribute Known of the Issue.
-ms.assetid: '4D69C4D5-B1D9-44DF-A725-8894C9B2F052'
-keywords: ["GetAttributeKnown method Access Execution Engine", "GetAttributeKnown method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , GetAttributeKnown method"]
+ms.assetid: 4D69C4D5-B1D9-44DF-A725-8894C9B2F052
+keywords:
+- GetAttributeKnown method Access Execution Engine
+- GetAttributeKnown method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , GetAttributeKnown method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::GetAttributeKnown method
@@ -22,7 +30,7 @@ Returns the value of attribute **Known** of the **Issue**.
 
 ```C++
 virtual HRESULT GetAttributeKnown(
-  [out] LPCWSTR *attributeKnown
+  [out] LPCWSTR *attributeKnown
 ) const = 0;
 ```
 
@@ -53,8 +61,8 @@ The **Issue** objects hold data from **Iteration/Issues/Issue** elements.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The **Issue** objects hold data from **Iteration/Issues/Issue** elements.
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

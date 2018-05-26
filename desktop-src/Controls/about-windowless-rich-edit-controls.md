@@ -1,16 +1,21 @@
 ---
 title: About Windowless Rich Edit Controls
 description: A windowless rich edit control, also known as a text services object, is an object that provides the functionality of a rich edit control without providing the window.
-ms.assetid: '880a704d-776a-49d3-be31-0328af408e3b'
+ms.assetid: 880a704d-776a-49d3-be31-0328af408e3b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Windowless Rich Edit Controls
 
-A windowless rich edit control, also known as a text services object, is an object that provides the functionality of a [rich edit control](rich-edit-controls.md) without providing the window. To provide the functionality of a window, such as the ability to receive messages and a device context into which it can draw, windowless rich edit controls use a pair of interfaces: [**ITextServices**](itextservices.md) and [**ITextHost**](itexthost.md).
+A windowless rich edit control, also known as a text services object, is an object that provides the functionality of a [rich edit control](rich-edit-controls.md) without providing the window. To provide the functionality of a window, such as the ability to receive messages and a device context into which it can draw, windowless rich edit controls use a pair of interfaces: [**ITextServices**](/windows/win32/Textserv/nl-textserv-itextservices?branch=master) and [**ITextHost**](/windows/win32/Textserv/nl-textserv-itexthost?branch=master).
 
-To create a windowless rich edit control, call the [**CreateTextServices**](createtextservices.md) function with a pointer to your implementation of the [**ITextHost**](itexthost.md) interface. **CreateTextServices** returns an [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer that you can query to retrieve a pointer to the [**ITextServices**](itextservices.md) implementation of the windowless control.
+To create a windowless rich edit control, call the [**CreateTextServices**](/windows/win32/Textserv/nf-textserv-createtextservices?branch=master) function with a pointer to your implementation of the [**ITextHost**](/windows/win32/Textserv/nl-textserv-itexthost?branch=master) interface. **CreateTextServices** returns an [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer that you can query to retrieve a pointer to the [**ITextServices**](/windows/win32/Textserv/nl-textserv-itextservices?branch=master) implementation of the windowless control.
 
-Msftedit.dll exports an interface identifier (IID) called **IID\_ITextServices** that you can use to query the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer for the [**ITextServices**](itextservices.md) interface. The following example shows how to retrieve **IID\_ITextServices** and use it to get the **ITextServices** interface.
+Msftedit.dll exports an interface identifier (IID) called **IID\_ITextServices** that you can use to query the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer for the [**ITextServices**](/windows/win32/Textserv/nl-textserv-itextservices?branch=master) interface. The following example shows how to retrieve **IID\_ITextServices** and use it to get the **ITextServices** interface.
 
 
 ```
@@ -51,11 +56,11 @@ Msftedit.dll exports an interface identifier (IID) called **IID\_ITextServices**
 
 
 
-Msftedit.dll also exports an interface identifier (IID) called **IID\_ITextHost** that can be used in a similar manner to query for the [**ITextHost**](itexthost.md) interface.
+Msftedit.dll also exports an interface identifier (IID) called **IID\_ITextHost** that can be used in a similar manner to query for the [**ITextHost**](/windows/win32/Textserv/nl-textserv-itexthost?branch=master) interface.
 
-The [**ITextHost**](itexthost.md) interface has methods that the windowless control calls to retrieve information about your window. For example, the text services object calls the [**TxGetDC**](itexthost-txgetdc.md) method to retrieve a device context into which it can draw. The windowless control calls the [**TxNotify**](itexthost-txnotify.md) method to send notifications, such as the rich edit notification messages, to the text host. The text services object calls other **ITextHost** methods to request the text host to perform other window-related services. For example, the [**TxInvalidateRect**](itexthost-txinvalidaterect.md) method requests the text host to add a rectangle to the window's update region.
+The [**ITextHost**](/windows/win32/Textserv/nl-textserv-itexthost?branch=master) interface has methods that the windowless control calls to retrieve information about your window. For example, the text services object calls the [**TxGetDC**](/windows/win32/Textserv/nf-textserv-itexthost-txgetdc?branch=master) method to retrieve a device context into which it can draw. The windowless control calls the [**TxNotify**](/windows/win32/Textserv/nf-textserv-itexthost-txnotify?branch=master) method to send notifications, such as the rich edit notification messages, to the text host. The text services object calls other **ITextHost** methods to request the text host to perform other window-related services. For example, the [**TxInvalidateRect**](/windows/win32/Textserv/nf-textserv-itexthost-txinvalidaterect?branch=master) method requests the text host to add a rectangle to the window's update region.
 
-A standard rich edit control has a window procedure that processes system messages and messages from your application. You can use the control's window handle to send it messages for performing text editing and other operations. But a windowless rich edit control has no window procedure to receive and process messages. Instead, it provides an [**ITextServices**](itextservices.md) interface. To send messages to a windowless rich edit control, call the [**TxSendMessage**](itextservices-txsendmessage.md) method. You can use this method to send any of the rich edit messages or to pass on other messages that affect the control, such as system messages for mouse or keyboard input.
+A standard rich edit control has a window procedure that processes system messages and messages from your application. You can use the control's window handle to send it messages for performing text editing and other operations. But a windowless rich edit control has no window procedure to receive and process messages. Instead, it provides an [**ITextServices**](/windows/win32/Textserv/nl-textserv-itextservices?branch=master) interface. To send messages to a windowless rich edit control, call the [**TxSendMessage**](/windows/win32/Textserv/nf-textserv-itextservices-txsendmessage?branch=master) method. You can use this method to send any of the rich edit messages or to pass on other messages that affect the control, such as system messages for mouse or keyboard input.
 
 You can also create the text services object as part of a [COM-aggregated object](https://msdn.microsoft.com/library/windows/desktop/ms686558). This makes it easy to aggregate the text services object with a windowless Component Object Model (COM) object.
 

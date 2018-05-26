@@ -4,13 +4,16 @@ description: Removes the cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fb3c1870-7746-4cd5-84f3-c6b4f7171ca0'
-ms.prod: 'windows-server-dev'
+ms.assetid: fb3c1870-7746-4cd5-84f3-c6b4f7171ca0
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DestroyCluster method", "DestroyCluster method, MSCluster_Cluster class", "MSCluster_Cluster class, DestroyCluster method"]
+keywords:
+- DestroyCluster method
+- DestroyCluster method, MSCluster_Cluster class
+- MSCluster_Cluster class, DestroyCluster method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DestroyCluster method of the MSCluster\_Cluster class
@@ -30,7 +36,7 @@ Removes the cluster.
 
 ```mof
 void DestroyCluster(
-  [in] boolean CleanupAD
+  [in] boolean CleanupAD
 );
 ```
 
@@ -58,7 +64,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Clusapi.h</dt> </dl>   |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
@@ -73,9 +79,9 @@ This method does not return a value.
 [**MSCluster\_Cluster**](mscluster-cluster.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

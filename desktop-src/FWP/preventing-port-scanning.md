@@ -1,7 +1,12 @@
 ---
 title: Preventing Port Scanning
 description: Following sample code demonstrates how to prevent port scanning using stealth discards and silent drops.
-ms.assetid: '9e8f0948-dc83-4e7c-9505-4dfeac8bbcb2'
+ms.assetid: 9e8f0948-dc83-4e7c-9505-4dfeac8bbcb2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preventing Port Scanning

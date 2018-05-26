@@ -1,7 +1,12 @@
 ---
-Description: 'Typically, services are console applications that are designed to run unattended without a graphical user interface (GUI).'
-ms.assetid: '3d6e090a-00b1-47d8-a4fb-620f3db8ba9c'
+Description: Typically, services are console applications that are designed to run unattended without a graphical user interface (GUI).
+ms.assetid: 3d6e090a-00b1-47d8-a4fb-620f3db8ba9c
 title: Interactive Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interactive Services
@@ -24,7 +29,7 @@ You can use the following techniques to interact with the user from a service on
 
 The following technique is also available for Windows Server 2003 and Windows XP:
 
--   Display a message box by calling the [**MessageBox**](_win32_MessageBox_cpp) function with **MB\_SERVICE\_NOTIFICATION**. This is recommended for displaying simple status messages. Do not call **MessageBox** during service initialization or from the [**HandlerEx**](handlerex.md) routine, unless you call it from a separate thread, so that you return to the SCM in a timely manner.
+-   Display a message box by calling the [**MessageBox**](_win32_MessageBox_cpp) function with **MB\_SERVICE\_NOTIFICATION**. This is recommended for displaying simple status messages. Do not call **MessageBox** during service initialization or from the [**HandlerEx**](/windows/win32/WinSvc/nc-winsvc-lphandler_function_ex?branch=master) routine, unless you call it from a separate thread, so that you return to the SCM in a timely manner.
 
 ## Using an Interactive Service
 
@@ -35,7 +40,7 @@ By default, services use a noninteractive [window station](https://msdn.microsof
 
  
 
-To create an interactive service, do the following when calling the [**CreateService**](createservice.md) function:
+To create an interactive service, do the following when calling the [**CreateService**](/windows/win32/Winsvc/nf-winsvc-createservicea?branch=master) function:
 
 1.  Specify NULL for the *lpServiceStartName* parameter to run the service in the context of the [LocalSystem account](localsystem-account.md).
 2.  Specify the **SERVICE\_INTERACTIVE\_PROCESS** flag.

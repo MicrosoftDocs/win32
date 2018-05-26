@@ -1,7 +1,12 @@
 ---
-Description: 'You can configure a fax device programmatically.'
-ms.assetid: '4800c003-8012-45cd-8bf3-35b7e3d5cd7d'
-title: 'Configuring a Fax Device (C++)'
+Description: You can configure a fax device programmatically.
+ms.assetid: 4800c003-8012-45cd-8bf3-35b7e3d5cd7d
+title: Configuring a Fax Device (C++)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring a Fax Device (C++)

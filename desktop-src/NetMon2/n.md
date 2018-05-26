@@ -1,8 +1,13 @@
 ---
-Description: 'Glossary of Network Monitor terms that begin with the letter N.'
-Robots: 'noindex, nofollow'
-ms.assetid: '217dce5a-3698-45a9-bb13-8379bcbdd762'
+Description: Glossary of Network Monitor terms that begin with the letter N.
+Robots: noindex, nofollow
+ms.assetid: 217dce5a-3698-45a9-bb13-8379bcbdd762
 title: N
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # N

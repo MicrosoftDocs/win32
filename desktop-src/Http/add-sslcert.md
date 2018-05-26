@@ -1,14 +1,20 @@
 ---
 title: add sslcert
 description: Adds a new Secure Sockets Layer (SSL) server certificate binding and the corresponding client certificate policies for an IP address and port.
-ms.assetid: '4ba3d2cb-050f-46e3-81f9-5f7e360b19fb'
-keywords: ["add sslcert HTTP"]
+ms.assetid: 4ba3d2cb-050f-46e3-81f9-5f7e360b19fb
+keywords:
+- add sslcert HTTP
 topic_type:
 - apiref
 api_name:
 - add sslcert
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # add sslcert

@@ -1,8 +1,9 @@
 ---
 title: MimeOleAlgStrengthFromSMimeCap function
 description: Do not use. Used to obtain the bit strength of an encryption algorithm.
-ms.assetid: '0e493432-374f-4c3a-a09c-c28727d73543'
-keywords: ["MimeOleAlgStrengthFromSMimeCap function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 0e493432-374f-4c3a-a09c-c28727d73543
+keywords:
+- MimeOleAlgStrengthFromSMimeCap function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleAlgStrengthFromSMimeCap function
@@ -22,10 +28,10 @@ Do not use. Used to obtain the bit strength of an encryption algorithm.
 
 ```C++
 HRESULT MimeOleAlgStrengthFromSMimeCap(
-  _In_  LPBYTE pb,
-  _In_  DWORD  cb,
-  _In_  BOOL   fEncryption,
-  _Out_ DWORD  *pdwStrength
+  _In_  LPBYTE pb,
+  _In_  DWORD  cb,
+  _In_  BOOL   fEncryption,
+  _Out_ DWORD  *pdwStrength
 );
 ```
 
@@ -87,7 +93,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -95,8 +101,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -104,9 +110,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

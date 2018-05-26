@@ -1,7 +1,12 @@
 ---
 title: VML Selection Attribute
 description: VML Selection Attribute
-ms.assetid: 'ca8692a2-e649-4c20-8034-3c7b8ec368c0'
+ms.assetid: ca8692a2-e649-4c20-8034-3c7b8ec368c0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Selection Attribute

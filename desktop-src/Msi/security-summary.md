@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Security Summary property conveys whether the package should be opened as read-only.'
-ms.assetid: 'f064b899-8123-49e1-b275-511186f49750'
+---
+Description: The Security Summary property conveys whether the package should be opened as read-only.
+ms.assetid: f064b899-8123-49e1-b275-511186f49750
 title: Security Summary property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Summary property

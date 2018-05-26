@@ -1,7 +1,12 @@
 ---
-Description: 'The math library provided by the D3DX utility library supplies functions to compute 3D mathematical operations.'
-ms.assetid: '00f0f943-64fa-45e3-8bd3-ca61c8b87e1a'
+Description: The math library provided by the D3DX utility library supplies functions to compute 3D mathematical operations.
+ms.assetid: 00f0f943-64fa-45e3-8bd3-ca61c8b87e1a
 title: Math Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Math Functions

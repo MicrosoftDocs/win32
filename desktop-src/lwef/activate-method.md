@@ -1,7 +1,12 @@
 ---
 title: Activate Method
 description: Activate Method
-ms.assetid: '8111139d-1453-416e-8f08-38c06669ff4d'
+ms.assetid: 8111139d-1453-416e-8f08-38c06669ff4d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activate Method
@@ -30,7 +35,7 @@ Sets the active client or character.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -72,16 +77,16 @@ If you call this method to a function, it returns a Boolean value that indicates
 > [!Note]  
 > Calling this method with *State* set to 1 does not typically generate an [**ActivateInput**](ActivateInput) event unless there are no other characters loaded or your application is already input-active.
 
- 
+ 
 
 ## See Also
 
 [**ActivateInput event**](activateinput-event.md), [**DeactivateInput event**](deactivateinput-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

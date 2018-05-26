@@ -1,8 +1,9 @@
 ---
 title: CB\_SELECTSTRING message
 description: Searches the list of a combo box for an item that begins with the characters in a specified string. If a matching item is found, it is selected and copied to the edit control.
-ms.assetid: 'c08dff72-7e44-40ed-8b64-513359292829'
-keywords: ["CB_SELECTSTRING message Windows Controls"]
+ms.assetid: c08dff72-7e44-40ed-8b64-513359292829
+keywords:
+- CB_SELECTSTRING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_SELECTSTRING message
@@ -24,7 +30,7 @@ Searches the list of a combo box for an item that begins with the characters in 
 *wParam* 
 </dt> <dd>
 
-The zero-based index of the item preceding the first item to be searched. When the search reaches the bottom of the list, it continues from the top of the list back to the item specified by the *wParam* parameter. If *wParam* is –1, the entire list is searched from the beginning.
+The zero-based index of the item preceding the first item to be searched. When the search reaches the bottom of the list, it continues from the top of the list back to the item specified by the *wParam* parameter. If *wParam* is  1, the entire list is searched from the beginning.
 
 </dd> <dt>
 
@@ -51,8 +57,8 @@ If you create the combo box with an owner-drawn style but without the [**CBS\_HA
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ If you create the combo box with an owner-drawn style but without the [**CBS\_HA
 [**WM\_COMPAREITEM**](wm-compareitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

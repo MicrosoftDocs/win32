@@ -1,7 +1,12 @@
 ---
-Description: 'Shows how to capture video from a video camera to a file.'
-ms.assetid: '910eb010-07df-4384-a489-3c268e4cd531'
+Description: Shows how to capture video from a video camera to a file.
+ms.assetid: 910eb010-07df-4384-a489-3c268e4cd531
 title: MFCaptureToFile Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFCaptureToFile Sample
@@ -12,10 +17,10 @@ Shows how to capture video from a video camera to a file.
 
 This sample demonstrates the following APIs.
 
--   [**IMFMediaSource**](imfmediasource.md)
--   [**IMFSinkWriter**](imfsinkwriter.md)
--   [**IMFSourceReader**](imfsourcereader.md)
--   [**MFEnumDeviceSources**](mfenumdevicesources.md)
+-   [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master)
+-   [**IMFSinkWriter**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsinkwriter?branch=master)
+-   [**IMFSourceReader**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsourcereader?branch=master)
+-   [**MFEnumDeviceSources**](/windows/win32/mfidl/nf-mfidl-mfenumdevicesources?branch=master)
 
 ## Requirements
 

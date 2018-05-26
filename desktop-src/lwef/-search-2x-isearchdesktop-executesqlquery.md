@@ -1,14 +1,22 @@
 ---
 title: ISearchDesktop ExecuteSQLQuery method
 description: Takes a pointer to a string that contains a Structured Query Language (SQL) query and its attributes and returns a pointer to the return set.
-ms.assetid: 'df3f473b-0bee-4035-abf8-dbe5249ef0ed'
-keywords: ["ExecuteSQLQuery method Legacy Windows Environment Features", "ExecuteSQLQuery method Legacy Windows Environment Features , ISearchDesktop interface", "ISearchDesktop interface Legacy Windows Environment Features , ExecuteSQLQuery method"]
+ms.assetid: df3f473b-0bee-4035-abf8-dbe5249ef0ed
+keywords:
+- ExecuteSQLQuery method Legacy Windows Environment Features
+- ExecuteSQLQuery method Legacy Windows Environment Features , ISearchDesktop interface
+- ISearchDesktop interface Legacy Windows Environment Features , ExecuteSQLQuery method
 topic_type:
 - apiref
 api_name:
 - ISearchDesktop.ExecuteSQLQuery
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISearchDesktop::ExecuteSQLQuery method

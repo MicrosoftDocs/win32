@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ID3DXPRTEngine interface is used to compute a precomputed radiance transfer (PRT) simulation. Its methods are typically used offline, to compute per-vertex or per-texel transfer vectors in advance of real-time 3D modeling.'
-ms.assetid: 'd5be657f-2b0c-48fd-a7f0-ddb90107772f'
+---
+Description: The ID3DXPRTEngine interface is used to compute a precomputed radiance transfer (PRT) simulation. Its methods are typically used offline, to compute per-vertex or per-texel transfer vectors in advance of real-time 3D modeling.
+ms.assetid: d5be657f-2b0c-48fd-a7f0-ddb90107772f
 title: ID3DXPRTEngine interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTEngine interface

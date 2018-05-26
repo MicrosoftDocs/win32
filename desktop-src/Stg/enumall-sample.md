@@ -1,8 +1,14 @@
 ---
 title: EnumAll Sample
 description: Puts all properties in all property sets of a storage file.
-ms.assetid: '40dd62b8-f76a-4cd8-9a9f-6ac344389b6c'
-keywords: ["Structured Storage Strctd Stg , samples, EnumAll"]
+ms.assetid: 40dd62b8-f76a-4cd8-9a9f-6ac344389b6c
+keywords:
+- Structured Storage Strctd Stg , samples, EnumAll
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnumAll Sample

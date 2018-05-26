@@ -1,7 +1,12 @@
 ---
-Description: 'The Start method starts a capture.'
-ms.assetid: '92b25afc-d5d8-47e4-a155-4ed2a3571038'
-title: 'IDelaydC::Start method'
+Description: The Start method starts a capture.
+ms.assetid: 92b25afc-d5d8-47e4-a155-4ed2a3571038
+title: IDelaydCStart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDelaydC::Start method
@@ -13,7 +18,7 @@ The **Start** method starts a capture.
 
 ```C++
 HRESULT STDMETHODCALLTYPE Start(
-  [out] char *pFileName
+  [out] char *pFileName
 );
 ```
 
@@ -47,7 +52,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,7 +63,7 @@ To restart the capture by using **IDelaydC::Start** and [**IDelaydC::Stop**](ide
 > [!Note]  
 > You can also start and stop the capture by using the [**IDelaydC::Pause**](idelaydc-pause.md) and [**IDelaydC::Resume**](idelaydc-resume.md) methods. When you use these two methods, the captured data is stored in the same capture file.
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +71,8 @@ To restart the capture by using **IDelaydC::Start** and [**IDelaydC::Stop**](ide
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -95,9 +100,9 @@ To restart the capture by using **IDelaydC::Start** and [**IDelaydC::Stop**](ide
 [**IDelaydC::Stop**](idelaydc-stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The mouse cursor methods enable the application to specify a color cursor by providing a surface that contains an image.'
-ms.assetid: '300a8a6f-abcd-49c9-889b-14b12ff5c821'
-title: 'Working with Mouse Cursors (Direct3D 9)'
+Description: The mouse cursor methods enable the application to specify a color cursor by providing a surface that contains an image.
+ms.assetid: 300a8a6f-abcd-49c9-889b-14b12ff5c821
+title: Working with Mouse Cursors (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Mouse Cursors (Direct3D 9)
@@ -10,11 +15,11 @@ The mouse cursor methods enable the application to specify a color cursor by pro
 
 The mouse cursor position is tied to the system cursor, appropriately scaled for the current display mode spatial resolution, but it can be moved explicitly by the application. This is analogous to the behavior of the Win32 API - supported system mouse cursor. For more information about how to use a mouse cursor in your Direct3D application, see the following reference topics.
 
--   [**IDirect3DDevice9::ShowCursor**](idirect3ddevice9--showcursor.md)
--   [**IDirect3DDevice9::SetCursorPosition**](idirect3ddevice9--setcursorposition.md)
--   [**IDirect3DDevice9::SetCursorProperties**](idirect3ddevice9--setcursorproperties.md)
+-   [**IDirect3DDevice9::ShowCursor**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-showcursor?branch=master)
+-   [**IDirect3DDevice9::SetCursorPosition**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setcursorposition?branch=master)
+-   [**IDirect3DDevice9::SetCursorProperties**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setcursorproperties?branch=master)
 
-Direct3D ensures that the mouse is supported either by hardware implementations or by the Direct3D run time that performs hardware-accelerated blitting operations when calling [**IDirect3DDevice9::Present**](idirect3ddevice9--present.md).
+Direct3D ensures that the mouse is supported either by hardware implementations or by the Direct3D run time that performs hardware-accelerated blitting operations when calling [**IDirect3DDevice9::Present**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master).
 
 ## Related topics
 

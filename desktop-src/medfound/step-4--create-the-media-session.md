@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is step 4 of the tutorial How to Play Media Files with Media Foundation.'
-ms.assetid: 'fe5e852f-fe0c-439d-b0c5-d32593b587cb'
-title: 'Step 4: Create the Media Session'
+Description: This topic is step 4 of the tutorial How to Play Media Files with Media Foundation.
+ms.assetid: fe5e852f-fe0c-439d-b0c5-d32593b587cb
+title: Step 4 Create the Media Session
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 4: Create the Media Session
@@ -50,8 +55,8 @@ done:
 This method performs the following steps:
 
 1.  Calls `CPlayer::CloseSession` to close any previous instance of the Media Session.
-2.  Calls [**MFCreateMediaSession**](mfcreatemediasession.md) to create a new instance of the Media Session.
-3.  Calls the [**IMFMediaEventGenerator::BeginGetEvent**](imfmediaeventgenerator-begingetevent.md) method to request the next event from the Media Session. The first parameter to **BeginGetEvent** is a pointer to the **CPlayer** object itself, which implents the [**IMFAsyncCallback**](imfasynccallback.md) interface.
+2.  Calls [**MFCreateMediaSession**](/windows/win32/mfidl/nf-mfidl-mfcreatemediasession?branch=master) to create a new instance of the Media Session.
+3.  Calls the [**IMFMediaEventGenerator::BeginGetEvent**](/windows/win32/mfobjects/nf-mfobjects-imfmediaeventgenerator-begingetevent?branch=master) method to request the next event from the Media Session. The first parameter to **BeginGetEvent** is a pointer to the **CPlayer** object itself, which implents the [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface.
 
 Event handling is described in step 5.
 

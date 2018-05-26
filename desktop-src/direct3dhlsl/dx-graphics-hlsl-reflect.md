@@ -1,14 +1,20 @@
 ---
 title: reflect
 description: Returns a reflection vector using an incident ray and a surface normal.
-ms.assetid: 'e321b399-f382-4585-83a6-a7da1f7b2327'
-keywords: ["reflect HLSL"]
+ms.assetid: e321b399-f382-4585-83a6-a7da1f7b2327
+keywords:
+- reflect HLSL
 topic_type:
 - apiref
 api_name:
 - reflect
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # reflect
@@ -22,7 +28,7 @@ Returns a reflection vector using an incident ray and a surface normal.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Returns a reflection vector using an incident ray and a surface normal.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -43,7 +49,7 @@ A floating-point, reflection vector.
 
 ## Remarks
 
-This function calculates the reflection vector using the following formula: v = i - 2 \* n \* dot(i•n) .
+This function calculates the reflection vector using the following formula: v = i - 2 \* n \* dot(i n) .
 
 ## Type Description
 
@@ -57,7 +63,7 @@ This function calculates the reflection vector using the following formula: v = 
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -71,7 +77,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -80,9 +86,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

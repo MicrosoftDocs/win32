@@ -1,7 +1,12 @@
 ---
-Description: 'The Alloc method allocates memory for the buffers.'
-ms.assetid: 'a22c97ef-6a8d-4cad-b5a5-3e6b225f5c81'
-title: 'CBaseAllocator.Alloc method'
+Description: The Alloc method allocates memory for the buffers.
+ms.assetid: a22c97ef-6a8d-4cad-b5a5-3e6b225f5c81
+title: CBaseAllocator.Alloc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator.Alloc method
@@ -35,7 +40,7 @@ Returns one of the following **HRESULT** values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,9 +75,9 @@ For an example, see [**CMemAllocator::Alloc**](cmemallocator-alloc.md).
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

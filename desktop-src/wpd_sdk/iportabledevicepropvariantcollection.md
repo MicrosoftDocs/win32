@@ -1,7 +1,12 @@
 ---
-Description: 'The IPortableDevicePropVariantCollection interface holds a collection of indexed PROPVARIANT values of the same VARTYPE.'
-ms.assetid: '41224958-a5a0-4e09-8733-d0ae036f68b9'
+Description: The IPortableDevicePropVariantCollection interface holds a collection of indexed PROPVARIANT values of the same VARTYPE.
+ms.assetid: 41224958-a5a0-4e09-8733-d0ae036f68b9
 title: IPortableDevicePropVariantCollection interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDevicePropVariantCollection interface
@@ -34,7 +39,7 @@ The **IPortableDevicePropVariantCollection** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,9 +59,9 @@ The **IPortableDevicePropVariantCollection** interface has these methods.
 [**Collection Interfaces**](collection-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

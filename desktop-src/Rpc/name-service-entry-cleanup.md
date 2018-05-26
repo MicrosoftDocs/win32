@@ -1,12 +1,17 @@
 ---
 title: Name Service Entry Cleanup
 description: A name service entry should contain information that does not change frequently.
-ms.assetid: 'b581bc10-e537-4714-b89a-d998fec23360'
+ms.assetid: b581bc10-e537-4714-b89a-d998fec23360
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name Service Entry Cleanup
 
-A name service entry should contain information that does not change frequently. For this reason, do not include dynamic endpoints in your exported binding handles because they will change at each invocation of the server and will clutter up your name service entry. To remove these binding handles, use [**RpcBindingReset**](rpcbindingreset.md).
+A name service entry should contain information that does not change frequently. For this reason, do not include dynamic endpoints in your exported binding handles because they will change at each invocation of the server and will clutter up your name service entry. To remove these binding handles, use [**RpcBindingReset**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingreset?branch=master).
 
 For example, a reasonable sequence of server operations would be:
 

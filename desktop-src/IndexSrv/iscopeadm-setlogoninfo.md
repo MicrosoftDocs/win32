@@ -1,19 +1,27 @@
 ---
 title: IScopeAdm SetLogonInfo method
 description: Sets the logon password pair for establishing credentials for scopes with universal naming convention (UNC) paths.
-ms.assetid: '106ae11f-babd-4ea1-bc53-da14f91be6dd'
-keywords: ["SetLogonInfo method Indexing Service", "SetLogonInfo method Indexing Service , IScopeAdm interface", "IScopeAdm interface Indexing Service , SetLogonInfo method"]
+ms.assetid: 106ae11f-babd-4ea1-bc53-da14f91be6dd
+keywords:
+- SetLogonInfo method Indexing Service
+- SetLogonInfo method Indexing Service , IScopeAdm interface
+- IScopeAdm interface Indexing Service , SetLogonInfo method
 topic_type:
 - apiref
 api_name:
 - IScopeAdm.SetLogonInfo
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScopeAdm::SetLogonInfo method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Sets the logon password pair for establishing credentials for scopes with universal naming convention (UNC) paths.
 
@@ -22,8 +30,8 @@ Sets the logon password pair for establishing credentials for scopes with univer
 
 ```C++
 HRESULT SetLogonInfo(
-  [in] BSTR bstrLogon,
-  [in] BSTR bstrPassword
+  [in] BSTR bstrLogon,
+  [in] BSTR bstrPassword
 );
 ```
 
@@ -61,10 +69,10 @@ Any failures cause an error object to be created.
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
-| End of client support<br/>    | Windows 7<br/>                                       |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                          |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| End of client support<br/>    | Windows 7<br/>                                       |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                          |
 
 
 
@@ -75,9 +83,9 @@ Any failures cause an error object to be created.
 [**IScopeAdm**](iscopeadm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: Player.dvd
 description: The dvd property retrieves the DVD object.
-ms.assetid: 'beff9b42-d002-48a9-9345-07eb76dbfb63'
-keywords: ["Player.dvd Windows Media Player"]
+ms.assetid: beff9b42-d002-48a9-9345-07eb76dbfb63
+keywords:
+- Player.dvd Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.dvd
@@ -46,9 +52,9 @@ This property is a read-only DVD object.
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

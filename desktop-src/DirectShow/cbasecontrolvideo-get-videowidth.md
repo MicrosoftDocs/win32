@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_VideoWidth method retrieves the width of the native video.'
-ms.assetid: 'dfd897f0-f580-44c0-9445-ba61ae267187'
-title: 'CBaseControlVideo.get\_VideoWidth method'
+Description: The get\_VideoWidth method retrieves the width of the native video.
+ms.assetid: dfd897f0-f580-44c0-9445-ba61ae267187
+title: CBaseControlVideo.get\_VideoWidth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.get\_VideoWidth method
@@ -13,7 +18,7 @@ The `get_VideoWidth` method retrieves the width of the native video.
 
 ```C++
 HRESULT get_VideoWidth(
-   long *pVideoWidth
+   long *pVideoWidth
 );
 ```
 
@@ -36,7 +41,7 @@ Returns NOERROR if successful or E\_OUTOFMEMORY if there is not enough memory av
 
 ## Remarks
 
-This member function implements the [**IBasicVideo::get\_VideoWidth**](ibasicvideo-get-videowidth.md) method. It calls the pure virtual [**CBaseControlVideo::GetVideoFormat**](cbasecontrolvideo-getvideoformat.md) to retrieve the [**VIDEOINFOHEADER**](videoinfoheader.md) structure from the derived class.
+This member function implements the [**IBasicVideo::get\_VideoWidth**](/windows/win32/Control/nf-control-ibasicvideo-get_videowidth?branch=master) method. It calls the pure virtual [**CBaseControlVideo::GetVideoFormat**](cbasecontrolvideo-getvideoformat.md) to retrieve the [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure from the derived class.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ This member function implements the [**IBasicVideo::get\_VideoWidth**](ibasicvid
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

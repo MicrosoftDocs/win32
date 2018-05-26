@@ -2,13 +2,15 @@
 title: RemoteAccessError class
 description: An extended error object that contains the error details of the RemoteAccess cmdlets. It inherits from the MSFT\_WmiErrorand extends it by adding the following fields to the error object.
 audience: developer
-ms.assetid: '7c61be3e-6a8f-4323-8e18-3e8e18f07fdb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7c61be3e-6a8f-4323-8e18-3e8e18f07fdb
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessError class", "RemoteAccessError class, described"]
+keywords:
+- RemoteAccessError class
+- RemoteAccessError class, described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessError class
@@ -374,7 +379,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 **DMTF Reserved**
 
 
-</dt> <dd>30–4294967295</dd> </dl>
+</dt> <dd>30 4294967295</dd> </dl>
 
 </dd> <dt>
 
@@ -525,7 +530,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 **DMTF Reserved**
 
 
-</dt> <dd>3–65535</dd> </dl>
+</dt> <dd>3 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -647,7 +652,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 **DMTF Reserved**
 
 
-</dt> <dd>11–65535</dd> </dl>
+</dt> <dd>11 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -850,7 +855,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 **DMTF Reserved**
 
 
-</dt> <dd>8–65535</dd> </dl>
+</dt> <dd>8 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1794,7 +1799,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 **DMTF Reserved**
 
 
-</dt> <dd>131–65535</dd> </dl>
+</dt> <dd>131 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1854,7 +1859,7 @@ The Remote Access specific error Code
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
@@ -1868,9 +1873,9 @@ The Remote Access specific error Code
 [**MSFT\_WmiError**](msft-wmierror.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

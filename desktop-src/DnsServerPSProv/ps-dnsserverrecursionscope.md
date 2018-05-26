@@ -2,13 +2,15 @@
 title: PS\_DnsServerRecursionScope class
 description: Represents a recursion scope on a DNS server.
 audience: developer
-ms.assetid: '4db57e06-00bf-4a8b-acbb-cd5e0fdc8aa6'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4db57e06-00bf-4a8b-acbb-cd5e0fdc8aa6
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DnsServerRecursionScope class", "PS_DnsServerRecursionScope class, described"]
+keywords:
+- PS_DnsServerRecursionScope class
+- PS_DnsServerRecursionScope class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - DNSServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DnsServerRecursionScope class
@@ -55,7 +60,7 @@ The **PS\_DnsServerRecursionScope** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,7 +69,7 @@ The **PS\_DnsServerRecursionScope** class has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DNSServerPSProvider.dll</dt> </dl> |
@@ -78,9 +83,9 @@ The **PS\_DnsServerRecursionScope** class has these methods.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

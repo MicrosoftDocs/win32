@@ -4,11 +4,14 @@ description: Whether the touch pointer feature is enabled on the RDP app contain
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f1e2f2f2-1b96-4c5a-b0dd-fd57627c5ec3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f1e2f2f2-1b96-4c5a-b0dd-fd57627c5ec3
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Enabled property Remote Desktop Services", "Enabled property Remote Desktop Services , IRemoteDesktopClientTouchPointer interface", "IRemoteDesktopClientTouchPointer interface Remote Desktop Services , Enabled property"]
+keywords:
+- Enabled property Remote Desktop Services
+- Enabled property Remote Desktop Services , IRemoteDesktopClientTouchPointer interface
+- IRemoteDesktopClientTouchPointer interface Remote Desktop Services , Enabled property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IRemoteDesktopClientTouchPointer::Enabled property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Enabled(
-  [in]          VARIANT_BOOL Enabled
+  [in]          VARIANT_BOOL Enabled
 );
 
 HRESULT get_Enabled(
-  [out, retval] VARIANT_BOOL *Enabled
+  [out, retval] VARIANT_BOOL *Enabled
 );
 ```
 
@@ -52,8 +58,8 @@ HRESULT get_Enabled(
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>              |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>              |
 | IID<br/>                      | IID\_IRemoteDesktopClientTouchPointer is defined as 260EC22D-8CBC-44B5-9E88-2A37F6C93AE9<br/> |
@@ -64,12 +70,12 @@ HRESULT get_Enabled(
 
 <dl> <dt>
 
-[**IRemoteDesktopClientTouchPointer**](iremotedesktopclienttouchpointer.md)
+[**IRemoteDesktopClientTouchPointer**](/windows/win32/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMNetworkAdapter AttachToVirtualNetwork method
 description: The AttachToVirtualNetwork method attaches the virtual NIC to the specified virtual network.
-ms.assetid: '415a0446-8609-4eca-9c32-404da99b0731'
-keywords: ["AttachToVirtualNetwork method Virtual Server", "AttachToVirtualNetwork method Virtual Server , IVMNetworkAdapter interface", "IVMNetworkAdapter interface Virtual Server , AttachToVirtualNetwork method", "AttachToVirtualNetwork method Virtual Server , VMNetworkAdapter interface", "VMNetworkAdapter interface Virtual Server , AttachToVirtualNetwork method"]
+ms.assetid: 415a0446-8609-4eca-9c32-404da99b0731
+keywords:
+- AttachToVirtualNetwork method Virtual Server
+- AttachToVirtualNetwork method Virtual Server , IVMNetworkAdapter interface
+- IVMNetworkAdapter interface Virtual Server , AttachToVirtualNetwork method
+- AttachToVirtualNetwork method Virtual Server , VMNetworkAdapter interface
+- VMNetworkAdapter interface Virtual Server , AttachToVirtualNetwork method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMNetworkAdapter::AttachToVirtualNetwork method
@@ -23,7 +33,7 @@ The **AttachToVirtualNetwork** method attaches the virtual NIC to the specified 
 
 ```C++
 HRESULT AttachToVirtualNetwork(
-  [in] IVMVirtualNetwork *virtualNetwork
+  [in] IVMVirtualNetwork *virtualNetwork
 );
 ```
 
@@ -58,7 +68,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +76,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -79,9 +89,9 @@ This method can return one of these values.
 [**IVMNetworkAdapter**](ivmnetworkadapter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

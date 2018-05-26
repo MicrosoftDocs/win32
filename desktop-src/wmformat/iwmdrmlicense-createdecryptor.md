@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicense CreateDecryptor method
 description: The CreateDecryptor method creates a decryptor object using the settings of the current license.
-ms.assetid: '69b7f96b-a0d6-455e-8ef9-0faf9690cef1'
-keywords: ["CreateDecryptor method windows Media Format", "CreateDecryptor method windows Media Format , IWMDRMLicense interface", "IWMDRMLicense interface windows Media Format , CreateDecryptor method"]
+ms.assetid: 69b7f96b-a0d6-455e-8ef9-0faf9690cef1
+keywords:
+- CreateDecryptor method windows Media Format
+- CreateDecryptor method windows Media Format , IWMDRMLicense interface
+- IWMDRMLicense interface windows Media Format , CreateDecryptor method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicense::CreateDecryptor method
@@ -22,7 +30,7 @@ The **CreateDecryptor** method creates a decryptor object using the settings of 
 
 ```C++
 HRESULT CreateDecryptor(
-  [out] IWMDRMDecrypt **ppDecryptor
+  [out] IWMDRMDecrypt **ppDecryptor
 );
 ```
 
@@ -52,7 +60,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,9 +86,9 @@ None.
 [**IWMDRMLicense Interface**](iwmdrmlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

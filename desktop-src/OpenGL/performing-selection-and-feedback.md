@@ -1,8 +1,19 @@
 ---
 title: Performing Selection and Feedback
 description: Performing Selection and Feedback
-ms.assetid: '908114b3-ac0e-4fd5-ad28-137e6af7ffc7'
-keywords: ["OpenGL,selection", "OpenGL,feedback", "OpenGL,rendering", "selection mode OpenGL", "feedback mode OpenGL", "rendering mode OpenGL"]
+ms.assetid: 908114b3-ac0e-4fd5-ad28-137e6af7ffc7
+keywords:
+- OpenGL,selection
+- OpenGL,feedback
+- OpenGL,rendering
+- selection mode OpenGL
+- feedback mode OpenGL
+- rendering mode OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performing Selection and Feedback

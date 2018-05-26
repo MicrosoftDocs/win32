@@ -1,15 +1,18 @@
 ---
-Description: 'Modifies the start mode of a Win32\_SystemDriver service.'
+Description: Modifies the start mode of a Win32\_SystemDriver service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '34f4e0ac-d8a0-4be7-8c84-0252e50db441'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 34f4e0ac-d8a0-4be7-8c84-0252e50db441
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ChangeStartMode method of the Win32\_SystemDriver class'
+title: ChangeStartMode method of the Win32\_SystemDriver class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ChangeStartMode method of the Win32\_SystemDriver class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 ChangeStartMode(
-  [in] string StartMode = Auto Start
+  [in] string StartMode = Auto Start
 );
 ```
 
@@ -176,7 +179,7 @@ Returns a value of 0 (zero) if the service was successfully modified, 1 (one) if
 **Service Already Paused** (24)
 </dt> <dt>
 
-**Other** (25–4294967295)
+**Other** (25 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -185,8 +188,8 @@ Returns a value of 0 (zero) if the service was successfully modified, 1 (one) if
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -203,9 +206,9 @@ Returns a value of 0 (zero) if the service was successfully modified, 1 (one) if
 [**Win32\_SystemDriver**](win32-systemdriver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

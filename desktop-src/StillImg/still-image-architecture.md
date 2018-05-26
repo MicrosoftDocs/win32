@@ -1,8 +1,25 @@
 ---
 title: Still Image Architecture
 description: Developing applications that use STI does not require a comprehensive knowledge of its inner workings.
-ms.assetid: 'fcc736e1-0492-4b2e-9a54-673c58ec1b79'
-keywords: ["Still Image (STI),architecture", "STI (Still Image),architecture", "Still Image API,architecture", "still images,STI architecture", "architecture,STI components", "STI architecture,about", "STI architecture,components", "Still Image (STI),color management systems", "STI (Still Image),color management systems", "Still Image API,color management systems", "still images,color management systems", "color management systems"]
+ms.assetid: fcc736e1-0492-4b2e-9a54-673c58ec1b79
+keywords:
+- Still Image (STI),architecture
+- STI (Still Image),architecture
+- Still Image API,architecture
+- still images,STI architecture
+- architecture,STI components
+- STI architecture,about
+- STI architecture,components
+- Still Image (STI),color management systems
+- STI (Still Image),color management systems
+- Still Image API,color management systems
+- still images,color management systems
+- color management systems
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Still Image Architecture

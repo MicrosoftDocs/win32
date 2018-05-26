@@ -1,8 +1,14 @@
 ---
 title: HTTP Server API Reference
 description: Use the following reference sections when implementing applications that use the HTTP Server API.
-ms.assetid: '6f0d320c-8c4a-496b-8398-6d4dedc989d2'
-keywords: ["HTTP Server API, reference"]
+ms.assetid: 6f0d320c-8c4a-496b-8398-6d4dedc989d2
+keywords:
+- HTTP Server API, reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP Server API Reference

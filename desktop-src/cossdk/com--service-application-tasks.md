@@ -1,7 +1,12 @@
 ---
 Description: COM+ Service Application Tasks
-ms.assetid: 'b25b4838-7d3b-41d7-9d02-0edd4bd2f97c'
+ms.assetid: b25b4838-7d3b-41d7-9d02-0edd4bd2f97c
 title: COM+ Service Application Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Service Application Tasks

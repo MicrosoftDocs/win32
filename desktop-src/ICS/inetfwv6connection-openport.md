@@ -1,8 +1,11 @@
 ---
 title: INetFwV6Connection OpenPort method
 description: The OpenPort method modifies the firewall configuration for a given connection to allow inbound connection attempts for the specified port and protocol pair.
-ms.assetid: '725ef9a6-8c2e-47bb-a784-6a51915771c0'
-keywords: ["OpenPort method ICS/ICF", "OpenPort method ICS/ICF , INetFwV6Connection interface", "INetFwV6Connection interface ICS/ICF , OpenPort method"]
+ms.assetid: 725ef9a6-8c2e-47bb-a784-6a51915771c0
+keywords:
+- OpenPort method ICS/ICF
+- OpenPort method ICS/ICF , INetFwV6Connection interface
+- INetFwV6Connection interface ICS/ICF , OpenPort method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Connection::OpenPort method
@@ -26,9 +34,9 @@ This is a state-changing method, and is subject to the access control and confir
 
 ```C++
 HRESULT OpenPort(
-  [in] USHORT        usPort,
-  [in] PORT_PROTOCOL Protocol,
-  [in] BSTR          bstrName
+  [in] USHORT        usPort,
+  [in] PORT_PROTOCOL Protocol,
+  [in] BSTR          bstrName
 );
 ```
 
@@ -41,7 +49,7 @@ HRESULT OpenPort(
 *usPort* \[in\]
 </dt> <dd>
 
-Specified in host byte order, and must be in the range 1 – 65535.
+Specified in host byte order, and must be in the range 1   65535.
 
 </dd> <dt>
 
@@ -80,7 +88,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -92,10 +100,10 @@ The *bstrName* parameter is for information purposes only, and has no bearing on
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -108,9 +116,9 @@ The *bstrName* parameter is for information purposes only, and has no bearing on
 [**INetFwV6Connection**](inetfwv6connection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

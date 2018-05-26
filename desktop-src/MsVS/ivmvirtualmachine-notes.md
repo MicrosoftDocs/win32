@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine Notes property
 description: The Notes property contains notes about the virtual machine.
-ms.assetid: 'c390932c-aa0d-42bb-a90b-48b97329c427'
-keywords: ["Notes property Virtual Server", "Notes property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , Notes property", "Notes property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , Notes property"]
+ms.assetid: c390932c-aa0d-42bb-a90b-48b97329c427
+keywords:
+- Notes property Virtual Server
+- Notes property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , Notes property
+- Notes property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , Notes property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Notes property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Notes(
-  [in]  BSTR virtualMachineNotes
+  [in]  BSTR virtualMachineNotes
 );
 
 HRESULT get_Notes(
-  [out] BSTR *virtualMachineNotes
+  [out] BSTR *virtualMachineNotes
 );
 ```
 
@@ -103,8 +113,8 @@ WScript.Echo "Notes: " & objVM.Notes
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -116,9 +126,9 @@ WScript.Echo "Notes: " & objVM.Notes
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

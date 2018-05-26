@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the determinant of a matrix.'
-ms.assetid: 'b0155c91-1554-42ef-b219-c6cdd2a905b5'
+---
+Description: Returns the determinant of a matrix.
+ms.assetid: b0155c91-1554-42ef-b219-c6cdd2a905b5
 title: D3DXMatrixDeterminant function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixDeterminant function

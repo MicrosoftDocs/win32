@@ -1,13 +1,16 @@
 ---
-Description: 'The CompareTo\_ method of the SWbemObject object compares two SWbemObject objects. This comparison is subject to certain constraints based on the values specified in the iFlags parameter.'
+Description: The CompareTo\_ method of the SWbemObject object compares two SWbemObject objects. This comparison is subject to certain constraints based on the values specified in the iFlags parameter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '38813551-2403-4def-ae57-2b17f72cd180'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 38813551-2403-4def-ae57-2b17f72cd180
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.CompareTo\_ method'
+title: SWbemObject.CompareTo\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.CompareTo\_ method
@@ -160,8 +163,8 @@ Not enough memory to complete the operation.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -177,9 +180,9 @@ Not enough memory to complete the operation.
 [**SWbemObject**](swbemobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

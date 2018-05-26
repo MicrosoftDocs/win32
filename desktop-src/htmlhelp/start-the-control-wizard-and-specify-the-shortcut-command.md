@@ -1,7 +1,12 @@
 ---
 title: Start the control wizard and specify the shortcut command
 description: Start the control wizard and specify the shortcut command
-ms.assetid: '17496180-81CA-42b4-829E-D4D4B84CC152'
+ms.assetid: 17496180-81CA-42b4-829E-D4D4B84CC152
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Start the control wizard and specify the shortcut command
@@ -17,7 +22,7 @@ ms.assetid: '17496180-81CA-42b4-829E-D4D4B84CC152'
 
     
 
-     
+     
 
 3.  In the **Specify the command** box, click **ShortCut**, and then enter an ID name for this instance of the control.
 4.  Click **Next**.
@@ -29,9 +34,9 @@ ms.assetid: '17496180-81CA-42b4-829E-D4D4B84CC152'
 [Step 2: Specify how you want the command to appear to the user](specify-how-you-want-the-command-to-appear-to-the-user.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Commits newly created indexes to the specified database.'
-ms.assetid: '92f05e5f-599a-4870-8175-61b83c943514'
+---
+Description: Commits newly created indexes to the specified database.
+ms.assetid: 92f05e5f-599a-4870-8175-61b83c943514
 title: SdbCommitIndexes function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbCommitIndexes function

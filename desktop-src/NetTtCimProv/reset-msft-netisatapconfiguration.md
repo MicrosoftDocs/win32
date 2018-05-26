@@ -1,7 +1,12 @@
 ---
-Description: 'Resets the ISATAP configuration.'
-ms.assetid: '492bfe5f-3f98-48e7-9687-e571d76ec471'
-title: 'Reset method of the MSFT\_NetISATAPConfiguration class'
+Description: Resets the ISATAP configuration.
+ms.assetid: 492bfe5f-3f98-48e7-9687-e571d76ec471
+title: Reset method of the MSFT\_NetISATAPConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the MSFT\_NetISATAPConfiguration class
@@ -13,12 +18,12 @@ Resets the ISATAP configuration.
 
 ```mof
 uint32 Reset(
-  [in]  boolean                     State,
-  [in]  boolean                     Router,
-  [in]  boolean                     ResolutionState,
-  [in]  boolean                     ResolutionInterval,
-  [in]  boolean                     PassThru,
-  [out] MSFT_NetISATAPConfiguration OutputObject
+  [in]  boolean                     State,
+  [in]  boolean                     Router,
+  [in]  boolean                     ResolutionState,
+  [in]  boolean                     ResolutionInterval,
+  [in]  boolean                     PassThru,
+  [out] MSFT_NetISATAPConfiguration OutputObject
 );
 ```
 
@@ -76,8 +81,8 @@ Receives the reset [**MSFT\_NetISATAPConfiguration**](msft-netisatapconfiguratio
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
@@ -91,9 +96,9 @@ Receives the reset [**MSFT\_NetISATAPConfiguration**](msft-netisatapconfiguratio
 [**MSFT\_NetISATAPConfiguration**](msft-netisatapconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

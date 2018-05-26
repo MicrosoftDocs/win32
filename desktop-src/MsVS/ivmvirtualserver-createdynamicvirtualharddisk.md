@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer CreateDynamicVirtualHardDisk method
 description: The CreateDynamicVirtualHardDisk method creates a dynamically resizing virtual hard disk.
-ms.assetid: 'e46069d0-4985-41e9-b235-f3d0acd41b02'
-keywords: ["CreateDynamicVirtualHardDisk method Virtual Server", "CreateDynamicVirtualHardDisk method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , CreateDynamicVirtualHardDisk method"]
+ms.assetid: e46069d0-4985-41e9-b235-f3d0acd41b02
+keywords:
+- CreateDynamicVirtualHardDisk method Virtual Server
+- CreateDynamicVirtualHardDisk method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , CreateDynamicVirtualHardDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::CreateDynamicVirtualHardDisk method
@@ -22,9 +30,9 @@ The **CreateDynamicVirtualHardDisk** method creates a dynamically resizing virtu
 
 ```C++
 HRESULT CreateDynamicVirtualHardDisk(
-  [in]  BSTR    imagePath,
-  [in]  long    size,
-  [out] IVMTask **diskTask
+  [in]  BSTR    imagePath,
+  [in]  long    size,
+  [out] IVMTask **diskTask
 );
 ```
 
@@ -80,7 +88,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -88,8 +96,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -101,9 +109,9 @@ This method supports standard return values, as well as the following. For infor
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used by a ID3DX10ThreadPump Interface to load data from a disk.'
-ms.assetid: 'e2d38ff0-9593-4da4-b179-11938d1e48d6'
-title: 'ID3DX10DataLoader::Load method'
+---
+Description: Used by a ID3DX10ThreadPump Interface to load data from a disk.
+ms.assetid: e2d38ff0-9593-4da4-b179-11938d1e48d6
+title: ID3DX10DataLoaderLoad method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10DataLoader::Load method

@@ -1,8 +1,9 @@
 ---
 title: D3DX\_SRGB\_to\_FLOAT function
 description: Converts an SRGB value to FLOAT.
-ms.assetid: '03e2ea09-3dd7-48cb-81b3-e11f7a9cf0ee'
-keywords: ["D3DX_SRGB_to_FLOAT function HLSL"]
+ms.assetid: 03e2ea09-3dd7-48cb-81b3-e11f7a9cf0ee
+keywords:
+- D3DX_SRGB_to_FLOAT function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_SRGB\_to\_FLOAT function
@@ -21,7 +27,7 @@ Converts an SRGB value to FLOAT.
 
 ``` syntax
 FLOAT D3DX_SRGB_to_FLOAT(
-   UINT val
+   UINT val
 );
 ```
 
@@ -60,9 +66,9 @@ The converted SRGB value.
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
 Description: Access Control
-ms.assetid: 'd17137f9-b206-4ced-82e5-96a7d927c89b'
+ms.assetid: d17137f9-b206-4ced-82e5-96a7d927c89b
 title: Access Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Access Control
 
-The Windows Driver Model (WDM) supports restricting device access via Access Control Lists (ACLs) on the Plug and Play (PnP) Device Nodes. This means that vendors and network administrators can restrict access to any device type. When an application opens a handle to a driver by calling [**IPortableDevice::Open**](iportabledevice-open.md), the driver's I/O Manager verifies whether the given user has the required access, and similarly does access checks when IOCTLs are sent to the driver from that handle.
+The Windows Driver Model (WDM) supports restricting device access via Access Control Lists (ACLs) on the Plug and Play (PnP) Device Nodes. This means that vendors and network administrators can restrict access to any device type. When an application opens a handle to a driver by calling [**IPortableDevice::Open**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open?branch=master), the driver's I/O Manager verifies whether the given user has the required access, and similarly does access checks when IOCTLs are sent to the driver from that handle.
 
 For example, a network administrator could restrict Guest users to read-only access for portable devices, while they could grant Authenticated users read/write access. In this case, it implies that if a Guest issued a WPD command that required read/write access (such as Delete Object); it would fail with Access Denied, whereas if an Authenticated user issued the same command, it would succeed.
 
@@ -52,10 +57,10 @@ The driver's I/O manager would check that the owner of the device handle has rea
 [**Application Overview**](application-overview.md)
 </dt> <dt>
 
-[**IPortableDevice::Open**](iportabledevice-open.md)
+[**IPortableDevice::Open**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open?branch=master)
 </dt> <dt>
 
-[**IPortableDevice::SendCommand**](iportabledevice-sendcommand.md)
+[**IPortableDevice::SendCommand**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand?branch=master)
 </dt> </dl>
 
  

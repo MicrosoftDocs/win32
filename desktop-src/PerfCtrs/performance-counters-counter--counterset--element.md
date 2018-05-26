@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies a counter in a counter set that the provider provides.'
-ms.assetid: '5b39804f-c117-4f1f-b100-d02674d1e8ad'
-title: 'counter (counterSet) Element'
+Description: Identifies a counter in a counter set that the provider provides.
+ms.assetid: 5b39804f-c117-4f1f-b100-d02674d1e8ad
+title: counter (counterSet) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # counter (counterSet) Element
@@ -22,8 +27,8 @@ The **counter** element is defined by the [**counterSet**](performance-counters-
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -37,9 +42,9 @@ The **counter** element is defined by the [**counterSet**](performance-counters-
 [**counterSet (provider)**](performance-counters-counterset--provider--element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

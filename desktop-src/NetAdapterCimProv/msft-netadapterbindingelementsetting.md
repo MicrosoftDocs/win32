@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a network port with its binding information.'
-ms.assetid: '386fb655-bed6-4ac6-b9d4-adbaeaac84a3'
-title: 'MSFT\_NetAdapterBindingElementSetting class'
+Description: Associates a network port with its binding information.
+ms.assetid: 386fb655-bed6-4ac6-b9d4-adbaeaac84a3
+title: MSFT\_NetAdapterBindingElementSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterBindingElementSetting class
@@ -16,12 +21,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterBindingElementSetting : MSFT_NetAdapterElementSettingData
 {
-  uint16                            REF IsDefault;
-  uint16                            REF IsCurrent;
-  uint16                            REF IsNext;
-  uint16                            REF IsMinimum = 0;
-  uint16                            REF IsMaximum = 0;
-  MSFT_NetAdapter                   REF ManagedElement;
+  uint16                            REF IsDefault;
+  uint16                            REF IsCurrent;
+  uint16                            REF IsNext;
+  uint16                            REF IsMinimum = 0;
+  uint16                            REF IsMaximum = 0;
+  MSFT_NetAdapter                   REF ManagedElement;
   MSFT_NetAdapterBindingSettingData REF SettingData;
 };
 ```
@@ -217,17 +222,17 @@ The binding information for the network adapter.
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

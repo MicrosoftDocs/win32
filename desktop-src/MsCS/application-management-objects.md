@@ -4,11 +4,15 @@ description: Provide high-level access to multiple domains and clusters.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '37d11232-ef16-46c3-a914-1c0d358eca1a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 37d11232-ef16-46c3-a914-1c0d358eca1a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["application management objects Failover Cluster"]
+keywords:
+- application management objects Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Application Management Objects

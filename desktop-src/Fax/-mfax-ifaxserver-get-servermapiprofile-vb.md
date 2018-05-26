@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the ServerMapiProfile property for a FaxServer object. The ServerMapiProfile property is a null-terminated string that contains the MAPI user profile that the fax server uses for routing incoming fax transmissions.'
-ms.assetid: 'c81b523f-2515-4fb0-b8d4-d22caf8c692b'
-title: 'FaxServer.ServerMapiProfile property'
+---
+Description: Sets or retrieves the ServerMapiProfile property for a FaxServer object. The ServerMapiProfile property is a null-terminated string that contains the MAPI user profile that the fax server uses for routing incoming fax transmissions.
+ms.assetid: c81b523f-2515-4fb0-b8d4-d22caf8c692b
+title: FaxServer.ServerMapiProfile property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.ServerMapiProfile property

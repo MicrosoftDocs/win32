@@ -1,7 +1,12 @@
 ---
-Description: 'Rename this rule.'
-ms.assetid: '7bf451ff-f6c7-4dd1-a23b-e140daa443d3'
-title: 'Rename method of the MSFT\_NetFirewallRule class'
+Description: Rename this rule.
+ms.assetid: 7bf451ff-f6c7-4dd1-a23b-e140daa443d3
+title: Rename method of the MSFT\_NetFirewallRule class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rename method of the MSFT\_NetFirewallRule class
@@ -13,7 +18,7 @@ Rename this rule.
 
 ```mof
 uint32 Rename(
-  [in] string NewName
+  [in] string NewName
 );
 ```
 
@@ -36,8 +41,8 @@ The new name for the rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
@@ -51,9 +56,9 @@ The new name for the rule.
 [**MSFT\_NetFirewallRule**](msft-netfirewallrule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

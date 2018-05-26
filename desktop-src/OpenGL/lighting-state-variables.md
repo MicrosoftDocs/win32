@@ -1,14 +1,20 @@
 ---
 title: Lighting State Variables
 description: Lighting State Variables
-ms.assetid: 'a9fb1e22-5e33-4b46-9c3b-2f64de5dd646'
-keywords: ["Lighting State Variables OpenGL"]
+ms.assetid: a9fb1e22-5e33-4b46-9c3b-2f64de5dd646
+keywords:
+- Lighting State Variables OpenGL
 topic_type:
 - apiref
 api_name:
 - Lighting State Variables
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Lighting State Variables

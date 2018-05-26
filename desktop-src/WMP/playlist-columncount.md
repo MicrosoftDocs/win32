@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.columnCount
 description: The columnCount attribute retrieves the number of columns displayed.
-ms.assetid: '967e711c-302a-429a-89bd-dcfd9d4dbe45'
-keywords: ["PLAYLIST.columnCount Windows Media Player"]
+ms.assetid: 967e711c-302a-429a-89bd-dcfd9d4dbe45
+keywords:
+- PLAYLIST.columnCount Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.columnCount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.columnCount
@@ -40,9 +46,9 @@ This attribute is a read-only **Number** (**long**).
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

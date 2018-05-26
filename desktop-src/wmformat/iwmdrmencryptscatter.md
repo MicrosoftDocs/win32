@@ -1,14 +1,21 @@
 ---
 title: IWMDRMEncryptScatter interface
 description: The IWMDRMEncryptScatter interface unscrambles and encrypts data.
-ms.assetid: '9cc377bc-ada0-437e-8745-e344e32aff39'
-keywords: ["IWMDRMEncryptScatter interface windows Media Format", "IWMDRMEncryptScatter interface windows Media Format , described"]
+ms.assetid: 9cc377bc-ada0-437e-8745-e344e32aff39
+keywords:
+- IWMDRMEncryptScatter interface windows Media Format
+- IWMDRMEncryptScatter interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMEncryptScatter
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMEncryptScatter interface
@@ -34,7 +41,7 @@ The **IWMDRMEncryptScatter** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -43,9 +50,9 @@ The **IWMDRMEncryptScatter** interface has these methods.
 [**Interfaces**](drm-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

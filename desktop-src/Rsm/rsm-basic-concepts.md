@@ -1,7 +1,12 @@
 ---
-Description: 'Removable Storage Manager can be described in terms of the following basic concepts.'
-ms.assetid: 'ce05774a-cd3e-42c3-839a-09ceebb9257c'
+Description: Removable Storage Manager can be described in terms of the following basic concepts.
+ms.assetid: ce05774a-cd3e-42c3-839a-09ceebb9257c
 title: RSM Basic Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSM Basic Concepts

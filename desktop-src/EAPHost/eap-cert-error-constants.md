@@ -1,7 +1,7 @@
 ---
 title: EAP\_CERT Error Constants
 description: Define certificate-related errors common to all EAPHost API technologies.
-ms.assetid: '12f626e1-520a-4aba-954b-769c3062a38c'
+ms.assetid: 12f626e1-520a-4aba-954b-769c3062a38c
 topic_type:
 - apiref
 api_name:
@@ -20,6 +20,11 @@ api_location:
 - eaphosterror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP\_CERT Error Constants
@@ -177,8 +182,8 @@ Defines the boundary of error reports; any general EAP error will occur between 
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                      |
 | Header<br/>                   | <dl> <dt>Eaphosterror.h</dt> </dl> |
 
 
@@ -190,9 +195,9 @@ Defines the boundary of error reports; any general EAP error will occur between 
 [Common EAPHost Constants](common-eap-host-error-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

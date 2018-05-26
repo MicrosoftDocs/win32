@@ -1,8 +1,11 @@
 ---
 title: BindExternalEthernetPort method of the Msvm\_VirtualSwitchManagementService class
 description: Binds an external Ethernet port to the Microsoft Windows Virtualization network subsystem. After this call is made, virtual machines can use the external Ethernet port to send data out over the physical network.
-ms.assetid: 'a6c8a685-9c1c-45f2-8a24-d42120912883'
-keywords: ["BindExternalEthernetPort method Hyper-V", "BindExternalEthernetPort method Hyper-V , Msvm_VirtualSwitchManagementService class", "Msvm_VirtualSwitchManagementService class Hyper-V , BindExternalEthernetPort method"]
+ms.assetid: a6c8a685-9c1c-45f2-8a24-d42120912883
+keywords:
+- BindExternalEthernetPort method Hyper-V
+- BindExternalEthernetPort method Hyper-V , Msvm_VirtualSwitchManagementService class
+- Msvm_VirtualSwitchManagementService class Hyper-V , BindExternalEthernetPort method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BindExternalEthernetPort method of the Msvm\_VirtualSwitchManagementService class
@@ -22,7 +30,7 @@ Binds an external Ethernet port to the Microsoft Windows Virtualization network 
 
 ```mof
 uint32 BindExternalEthernetPort(
-  [in] Msvm_ExternalEthernetPort REF ExternalEthernetPort
+  [in] Msvm_ExternalEthernetPort REF ExternalEthernetPort
 );
 ```
 
@@ -269,9 +277,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -284,9 +292,9 @@ End Function
 [**Msvm\_VirtualSwitchManagementService**](msvm-virtualswitchmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

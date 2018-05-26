@@ -1,8 +1,18 @@
 ---
 title: GLX Pixel Format Code Sample
 description: The code sample below shows how an X Window System OpenGL program uses GLX visual/pixel formatting functions.
-ms.assetid: 'f01193a9-c0ff-4399-a86e-06bb4603b3f1'
-keywords: ["porting to OpenGL,pixels", "OpenGL porting,pixels", "X Window System,pixels", "GLX functions,pixels", "pixels,GLX sample"]
+ms.assetid: f01193a9-c0ff-4399-a86e-06bb4603b3f1
+keywords:
+- porting to OpenGL,pixels
+- OpenGL porting,pixels
+- X Window System,pixels
+- GLX functions,pixels
+- pixels,GLX sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GLX Pixel Format Code Sample

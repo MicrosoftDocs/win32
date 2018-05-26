@@ -4,11 +4,16 @@ description: The path and file name of the RemoteApp program.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1e8fc9a5-6622-40e2-b434-a26ce20bd9aa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 1e8fc9a5-6622-40e2-b434-a26ce20bd9aa
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RemoteApplicationProgram property Remote Desktop Services", "RemoteApplicationProgram property Remote Desktop Services , ITSRemoteProgram2 interface", "ITSRemoteProgram2 interface Remote Desktop Services , RemoteApplicationProgram property", "RemoteApplicationProgram property Remote Desktop Services , ITSRemoteProgram3 interface", "ITSRemoteProgram3 interface Remote Desktop Services , RemoteApplicationProgram property"]
+keywords:
+- RemoteApplicationProgram property Remote Desktop Services
+- RemoteApplicationProgram property Remote Desktop Services , ITSRemoteProgram2 interface
+- ITSRemoteProgram2 interface Remote Desktop Services , RemoteApplicationProgram property
+- RemoteApplicationProgram property Remote Desktop Services , ITSRemoteProgram3 interface
+- ITSRemoteProgram3 interface Remote Desktop Services , RemoteApplicationProgram property
 topic_type:
 - apiref
 api_name:
@@ -20,6 +25,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITSRemoteProgram2::RemoteApplicationProgram property
@@ -33,7 +41,7 @@ This property is write-only.
 
 ```C++
 HRESULT put_RemoteApplicationProgram(
-  [in] BSTR bstrRemoteApplicationProgram
+  [in] BSTR bstrRemoteApplicationProgram
 );
 ```
 
@@ -49,8 +57,8 @@ The path and file name of the RemoteApp program.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows 7<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
@@ -66,9 +74,9 @@ The path and file name of the RemoteApp program.
 [**ITSRemoteProgram2**](itsremoteprogram2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

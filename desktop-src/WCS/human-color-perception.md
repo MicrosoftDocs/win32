@@ -1,8 +1,22 @@
 ---
 title: Human Color Perception
 description: Human vision is made possible by the presence of light sensitive cells in the eye called rods and cones.
-ms.assetid: '41fa627d-8f33-4d55-9856-85d9920a479f'
-keywords: ["Windows Color System (WCS),human vision", "WCS (Windows Color System),human vision", "image color management,human vision", "color management,human vision", "colors,human vision", "human color perception", "additive primary colors", "subtractive primary colors", "primary colors"]
+ms.assetid: 41fa627d-8f33-4d55-9856-85d9920a479f
+keywords:
+- Windows Color System (WCS),human vision
+- WCS (Windows Color System),human vision
+- image color management,human vision
+- color management,human vision
+- colors,human vision
+- human color perception
+- additive primary colors
+- subtractive primary colors
+- primary colors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Human Color Perception

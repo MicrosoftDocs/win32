@@ -1,8 +1,9 @@
 ---
 title: MCM\_SETCOLOR message
 description: Sets the color for a given portion of a month calendar control. You can send this message explicitly or by using the MonthCal\_SetColor macro.
-ms.assetid: '4ceb7b0e-82be-474a-a163-7e71356818c0'
-keywords: ["MCM_SETCOLOR message Windows Controls"]
+ms.assetid: 4ceb7b0e-82be-474a-a163-7e71356818c0
+keywords:
+- MCM_SETCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_SETCOLOR message
 
-Sets the color for a given portion of a month calendar control. You can send this message explicitly or by using the [**MonthCal\_SetColor**](monthcal-setcolor.md) macro.
+Sets the color for a given portion of a month calendar control. You can send this message explicitly or by using the [**MonthCal\_SetColor**](/windows/win32/Commctrl/nf-commctrl-monthcal_setcolor?branch=master) macro.
 
 ## Parameters
 
@@ -39,7 +45,7 @@ Value of type **int** specifying which month calendar color to set. This value c
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -64,15 +70,15 @@ If visual styles are active, this message has no effect except when *wParam* is 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

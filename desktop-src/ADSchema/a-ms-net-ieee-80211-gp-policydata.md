@@ -4,17 +4,21 @@ description: Contains all of the settings and data that make up a Group Policy c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '556e0b4f-49cf-4493-a731-8b12c1d5ad71'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 556e0b4f-49cf-4493-a731-8b12c1d5ad71
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-net-ieee-80211-GP-PolicyData attribute AD Schema"]
+keywords:
+- ms-net-ieee-80211-GP-PolicyData attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-net-ieee-80211-GP-PolicyData
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-net-ieee-80211-GP-PolicyData attribute
@@ -38,9 +42,9 @@ Contains all of the settings and data that make up a Group Policy configuration 
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +109,9 @@ Contains all of the settings and data that make up a Group Policy configuration 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

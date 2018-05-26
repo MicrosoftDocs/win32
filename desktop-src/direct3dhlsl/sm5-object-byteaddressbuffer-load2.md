@@ -1,14 +1,20 @@
 ---
 title: Load2(uint) function
 description: Gets two values.
-ms.assetid: '696ce310-4d65-4382-97ec-046160197c67'
-keywords: ["Load2 function HLSL"]
+ms.assetid: 696ce310-4d65-4382-97ec-046160197c67
+keywords:
+- Load2 function HLSL
 topic_type:
 - apiref
 api_name:
 - Load2
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load2(uint) function

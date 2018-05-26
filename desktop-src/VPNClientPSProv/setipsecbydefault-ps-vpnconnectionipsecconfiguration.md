@@ -2,11 +2,14 @@
 title: SetIpSecByDefault method of the PS\_VpnConnectionIPsecConfiguration class
 description: Removes the IPsec custom policy configuration and restores the default configuration of a VPN profile.
 audience: developer
-ms.assetid: '649FBE1E-C7C0-4B29-BC9C-70919246A7AE'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 649FBE1E-C7C0-4B29-BC9C-70919246A7AE
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetIpSecByDefault method", "SetIpSecByDefault method, PS_VpnConnectionIPsecConfiguration class", "PS_VpnConnectionIPsecConfiguration class, SetIpSecByDefault method"]
+keywords:
+- SetIpSecByDefault method
+- SetIpSecByDefault method, PS_VpnConnectionIPsecConfiguration class
+- PS_VpnConnectionIPsecConfiguration class, SetIpSecByDefault method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetIpSecByDefault method of the PS\_VpnConnectionIPsecConfiguration class
@@ -26,12 +32,12 @@ Removes the IPsec custom policy configuration and restores the default configura
 
 ```mof
 uint32 SetIpSecByDefault(
-  [in]  string                          ConnectionName,
-  [in]  boolean                         RevertToDefault,
-  [in]  boolean                         PassThru,
-  [in]  boolean                         Force,
-  [in]  boolean                         AllUserConnection,
-  [out] VpnConnectionIPsecConfiguration cmdletOutput
+  [in]  string                          ConnectionName,
+  [in]  boolean                         RevertToDefault,
+  [in]  boolean                         PassThru,
+  [in]  boolean                         Force,
+  [in]  boolean                         AllUserConnection,
+  [out] VpnConnectionIPsecConfiguration cmdletOutput
 );
 ```
 
@@ -89,8 +95,8 @@ When this method returns, contains the [**VpnConnectionIPsecConfiguration**](vpn
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -104,9 +110,9 @@ When this method returns, contains the [**VpnConnectionIPsecConfiguration**](vpn
 [**PS\_VpnConnectionIPsecConfiguration**](ps-vpnconnectionipsecconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.fontSize
 description: The fontSize attribute specifies or retrieves the font size for the edit box control.
-ms.assetid: '9992651f-3423-4f44-8ad7-de11d850e30e'
-keywords: ["EDITBOX.fontSize Windows Media Player"]
+ms.assetid: 9992651f-3423-4f44-8ad7-de11d850e30e
+keywords:
+- EDITBOX.fontSize Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.fontSize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.fontSize
@@ -46,9 +52,9 @@ This attribute is a read/write **Number** (**long**) specifying the font size in
 [**EDITBOX.fontStyle**](editbox-fontstyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

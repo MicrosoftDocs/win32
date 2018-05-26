@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create a shader-resource view from a file in memory.'
-ms.assetid: '8316987f-75b4-4cee-a1f2-10bee77a28e6'
+---
+Description: Create a shader-resource view from a file in memory.
+ms.assetid: 8316987f-75b4-4cee-a1f2-10bee77a28e6
 title: D3DX10CreateShaderResourceViewFromMemory function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CreateShaderResourceViewFromMemory function
@@ -32,9 +37,9 @@ HRESULT D3DX10CreateShaderResourceViewFromMemory(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](id3d10device.md)\***
+Type: **[**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)\***
 
-A pointer to the device (see [**ID3D10Device Interface**](id3d10device.md)) that will use the resource.
+A pointer to the device (see [**ID3D10Device Interface**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)) that will use the resource.
 
 </dd> <dt>
 
@@ -77,9 +82,9 @@ A pointer to a thread pump interface (see [**ID3DX10ThreadPump Interface**](id3d
 *ppShaderResourceView* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10ShaderResourceView**](id3d10shaderresourceview.md)\*\***
+Type: **[**ID3D10ShaderResourceView**](/windows/win32/d3d10/nn-d3d10-id3d10shaderresourceview?branch=master)\*\***
 
-Address of a pointer to the newly created shader resource view. See [**ID3D10ShaderResourceView Interface**](id3d10shaderresourceview.md).
+Address of a pointer to the newly created shader resource view. See [**ID3D10ShaderResourceView Interface**](/windows/win32/d3d10/nn-d3d10-id3d10shaderresourceview?branch=master).
 
 </dd> <dt>
 

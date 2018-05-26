@@ -4,11 +4,16 @@ description: It is important to distinguish between the display name of a resour
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '02c61e81-486c-4543-b345-a1b2dde41982'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 02c61e81-486c-4543-b345-a1b2dde41982
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["display names Failover Cluster", "resource types Failover Cluster ,display names"]
+keywords:
+- display names Failover Cluster
+- resource types Failover Cluster ,display names
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Display Names

@@ -1,8 +1,10 @@
 ---
 title: Msvm\_MemorySettingData class
 description: Represents the configured state of the memory for a virtual system.
-ms.assetid: 'aba388d5-4378-4134-b45e-1883c64f826e'
-keywords: ["Msvm_MemorySettingData class Hyper-V", "Msvm_MemorySettingData class Hyper-V , described"]
+ms.assetid: aba388d5-4378-4134-b45e-1883c64f826e
+keywords:
+- Msvm_MemorySettingData class Hyper-V
+- Msvm_MemorySettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_MemorySettingData class
@@ -51,32 +58,32 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_MemorySettingData : CIM_ResourceAllocationSettingData
 {
-  string  Caption = "Memory";
-  string  Description = "Settings for Microsoft Virtual Machine Memory";
-  string  InstanceID;
-  string  ElementName = "Memory";
-  uint16  ResourceType = 4;
-  string  OtherResourceType;
-  string  ResourceSubType = "Microsoft Virtual Machine Memory";
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits = "MB";
-  uint64  Reservation;
-  uint64  Limit;
-  uint32  Weight;
-  uint16  MappingBehavior;
-  uint64  VirtualQuantity;
+  string  Caption = "Memory";
+  string  Description = "Settings for Microsoft Virtual Machine Memory";
+  string  InstanceID;
+  string  ElementName = "Memory";
+  uint16  ResourceType = 4;
+  string  OtherResourceType;
+  string  ResourceSubType = "Microsoft Virtual Machine Memory";
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits = "MB";
+  uint64  Reservation;
+  uint64  Limit;
+  uint32  Weight;
+  uint16  MappingBehavior;
+  uint64  VirtualQuantity;
   boolean AutomaticAllocation = True;
   boolean AutomaticDeallocation = True;
-  string  Parent;
-  string  Connection[];
-  string  Address;
+  string  Parent;
+  string  Connection[];
+  string  Address;
   boolean IsVirtualized = True;
-  string  DeviceID = "Microsoft:GUID";
-  string  DeviceIDFormat;
+  string  DeviceID = "Microsoft:GUID";
+  string  DeviceIDFormat;
   boolean DynamicMemoryEnabled;
-  uint32  TargetMemoryBuffer;
+  uint32  TargetMemoryBuffer;
 };
 ```
 
@@ -238,9 +245,9 @@ Indicates whether dynamic memory is enabled for the virtual machine.
 
 This is a read-only property, but it can be changed by using the [**ModifyVirtualSystemResources**](modifyvirtualsystemresources-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
-**Windows Server 2008 R2:** Reserved for future use. Note that this behavior has changed with Windows Server 2008 R2 with SP1.
+**Windows Server 2008 R2:** Reserved for future use. Note that this behavior has changed with Windows Server 2008 R2 with SP1.
 
-**Windows Server 2008:** The **DynamicMemoryEnabled** property is not available.
+**Windows Server 2008:** The **DynamicMemoryEnabled** property is not available.
 
 </dd> <dt>
 
@@ -439,7 +446,7 @@ This property can be in the range of 5 to 2000.
 
 This is a read-only property, but it can be changed by using the [**ModifyVirtualSystemResources**](modifyvirtualsystemresources-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not supported. Note that this behavior has changed with Windows Server 2008 R2 with SP1.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not supported. Note that this behavior has changed with Windows Server 2008 R2 with SP1.
 
 </dd> <dt>
 
@@ -469,9 +476,9 @@ Access type: Read-only
 
 Defines the memory allocation weighting value for each virtual machine. After all reserves have been met, the remaining memory of the hosting platform will be allocated to virtual systems based on their relative weights (not to exceed the value specified by the **Limit** property). This property is inherited from [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214).
 
-**Windows Server 2008 R2 with SP1:** This property can be in the range of 0 to 10000.
+**Windows Server 2008 R2 with SP1:** This property can be in the range of 0 to 10000.
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property can be in the range of 0 to 1000.
+**Windows Server 2008 R2 and Windows Server 2008:** This property can be in the range of 0 to 1000.
 
 This is a read-only property, but it can be changed by using the [**ModifyVirtualSystemResources**](modifyvirtualsystemresources-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
@@ -488,9 +495,9 @@ Access to the **Msvm\_MemorySettingData** class might be restricted by UAC Filte
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -509,9 +516,9 @@ Access to the **Msvm\_MemorySettingData** class might be restricted by UAC Filte
 [Memory Classes](memory-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Monitoring Progress With Events
 description: Several interfaces let you implement an event handler to receive progress information. For example, an event object can be attached to the data writer to receive status of the write operation.
-ms.assetid: '1f15a5fe-f5d7-4e09-805f-2d0380bf2bb2'
+ms.assetid: 1f15a5fe-f5d7-4e09-805f-2d0380bf2bb2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Monitoring Progress With Events
@@ -189,13 +194,13 @@ END SUB
 [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034)
 </dt> <dt>
 
-[**IDiscMaster2**](idiscmaster2.md)
+[**IDiscMaster2**](/windows/win32/imapi2/nn-imapi2-idiscmaster2?branch=master)
 </dt> <dt>
 
-[**IDiscFormat2Data**](idiscformat2data.md)
+[**IDiscFormat2Data**](/windows/win32/imapi2/nn-imapi2-idiscformat2data?branch=master)
 </dt> <dt>
 
-[**IFileSystemImage**](ifilesystemimage.md)
+[**IFileSystemImage**](/windows/win32/imapi2fs/nn-imapi2fs-ifilesystemimage?branch=master)
 </dt> </dl>
 
  

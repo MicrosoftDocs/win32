@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates the time at which the discount rate period ends.'
-ms.assetid: 'd1da69a2-ddff-44c9-b75c-c885a1a04932'
-title: 'FaxConfiguration.DiscountRateEnd property'
+---
+Description: Sets or retrieves a value that indicates the time at which the discount rate period ends.
+ms.assetid: d1da69a2-ddff-44c9-b75c-c885a1a04932
+title: FaxConfiguration.DiscountRateEnd property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.DiscountRateEnd property

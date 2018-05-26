@@ -2,13 +2,19 @@
 title: short attribute
 description: The short keyword designates a 16-bit integer.
 ms.assetid: 622464a3-0d79-421a-8742-8a3746fe1533
-keywords: ["short attribute MIDL"]
+keywords:
+- short attribute MIDL
 topic_type:
 - apiref
 api_name:
 - short
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # short attribute

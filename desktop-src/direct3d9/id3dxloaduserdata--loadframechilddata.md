@@ -1,7 +1,12 @@
-﻿---
-Description: 'Load frame child data from a .x file.'
-ms.assetid: '79d251f3-c661-42e3-9385-84aabd58fd4f'
-title: 'ID3DXLoadUserData::LoadFrameChildData method'
+---
+Description: Load frame child data from a .x file.
+ms.assetid: 79d251f3-c661-42e3-9385-84aabd58fd4f
+title: ID3DXLoadUserDataLoadFrameChildData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXLoadUserData::LoadFrameChildData method

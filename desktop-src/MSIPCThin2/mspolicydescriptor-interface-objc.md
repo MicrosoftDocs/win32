@@ -4,17 +4,21 @@ description: Information for describing a policy.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'A96FD245-E075-4E53-A529-1DC8C359AE33'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: A96FD245-E075-4E53-A529-1DC8C359AE33
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSPolicyDescriptor class"]
+keywords:
+- MSPolicyDescriptor class
 topic_type:
 - apiref
 api_name:
 - MSPolicyDescriptor class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSPolicyDescriptor class
@@ -38,7 +42,7 @@ Information for describing a policy. Inherits from **MSSecureCodableObject**.
 
 
 
- 
+ 
 
 ## Properties
 
@@ -59,7 +63,7 @@ Information for describing a policy. Inherits from **MSSecureCodableObject**.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -75,7 +79,7 @@ MSPolicyDescriptor.h
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -83,9 +87,9 @@ MSPolicyDescriptor.h
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Default or Plain Text Filter
 description: Default or Plain Text Filter
-ms.assetid: 'f710b317-ac1e-4f3b-9a9b-2791abd6d37d'
+ms.assetid: f710b317-ac1e-4f3b-9a9b-2791abd6d37d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Default or Plain Text Filter

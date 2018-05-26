@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the signature of the callback object that receives the Bidi response.'
-ms.assetid: 'C85690D0-3CA7-46C7-B597-E36555879F08'
+---
+Description: Describes the signature of the callback object that receives the Bidi response.
+ms.assetid: C85690D0-3CA7-46C7-B597-E36555879F08
 title: IPrinterBidiSetRequestCallback interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterBidiSetRequestCallback interface

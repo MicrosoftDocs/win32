@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SMON\* Constants'
-ms.assetid: 'df7f026b-2f2d-420f-8a14-656734409835'
-title: 'LOCALE\_SMON\* Constants'
+Description: LOCALE\_SMON\* Constants
+ms.assetid: df7f026b-2f2d-420f-8a14-656734409835
+title: LOCALE\_SMON\* Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SMON\* Constants

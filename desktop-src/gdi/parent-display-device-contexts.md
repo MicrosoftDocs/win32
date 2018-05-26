@@ -1,7 +1,12 @@
 ---
-Description: 'A parent device context enables an application to minimize the time necessary to set up the clipping region for a window.'
-ms.assetid: '194d5add-d1a1-4c10-89ee-171ff008a7ab'
+Description: A parent device context enables an application to minimize the time necessary to set up the clipping region for a window.
+ms.assetid: 194d5add-d1a1-4c10-89ee-171ff008a7ab
 title: Parent Display Device Contexts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parent Display Device Contexts

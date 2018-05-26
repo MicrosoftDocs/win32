@@ -1,7 +1,12 @@
 ---
 title: Advanced Capture Options
 description: Advanced Capture Options
-ms.assetid: '26a8714a-d890-42bd-950e-63b706ee79e1'
+ms.assetid: 26a8714a-d890-42bd-950e-63b706ee79e1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Capture Options

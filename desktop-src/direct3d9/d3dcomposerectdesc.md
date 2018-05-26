@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the rectangle used to enclose glyphs on a monochrome surface.'
-ms.assetid: 'ce5d492f-38d1-4e7b-a9c2-68c791c84d0c'
+---
+Description: Specifies the rectangle used to enclose glyphs on a monochrome surface.
+ms.assetid: ce5d492f-38d1-4e7b-a9c2-68c791c84d0c
 title: D3DCOMPOSERECTDESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCOMPOSERECTDESC structure
@@ -72,7 +77,7 @@ Number of texels from the top coordinate.
 
 ## Remarks
 
-This structure is used in calls to [**ComposeRects**](idirect3ddevice9ex-composerect.md) to enclose glyphs on the source surface. A vertex buffer (see [**IDirect3DVertexBuffer9**](idirect3dvertexbuffer9.md)) filled with these structures are created to contain the glyph locations. USHORT members are used to reduce the memory footprint as much as possible.
+This structure is used in calls to [**ComposeRects**](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9ex-composerects?branch=master) to enclose glyphs on the source surface. A vertex buffer (see [**IDirect3DVertexBuffer9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvertexbuffer9?branch=master)) filled with these structures are created to contain the glyph locations. USHORT members are used to reduce the memory footprint as much as possible.
 
 ## Requirements
 

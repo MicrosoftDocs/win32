@@ -1,7 +1,12 @@
 ---
 title: Connection Object Dynamic Properties
 description: Connection Object Dynamic Properties
-ms.assetid: 'c191e886-d6c1-4f3f-9c4d-421c7d257f70'
+ms.assetid: c191e886-d6c1-4f3f-9c4d-421c7d257f70
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connection Object Dynamic Properties

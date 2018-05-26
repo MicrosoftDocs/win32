@@ -1,7 +1,12 @@
 ---
-Description: 'Before painting, the system must prepare the display device for drawing operations.'
-ms.assetid: 'a3802aa7-deec-4151-b1b1-4cd38f769864'
+Description: Before painting, the system must prepare the display device for drawing operations.
+ms.assetid: a3802aa7-deec-4151-b1b1-4cd38f769864
 title: Display Devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Display Devices
@@ -24,7 +29,7 @@ The system provides five kinds of display device contexts.
 
  
 
-The system supplies a common, class, parent, or private device context to a window based on the type of display device context specified in that window's class style. The system supplies a window device context only when the application explicitly requests one for example, by calling the [**GetWindowDC**](getwindowdc.md) or [**GetDCEx**](getdcex.md) function. In all cases, an application can use the [**WindowFromDC**](windowfromdc.md) function to determine which window a display DC currently represents.
+The system supplies a common, class, parent, or private device context to a window based on the type of display device context specified in that window's class style. The system supplies a window device context only when the application explicitly requests one for example, by calling the [**GetWindowDC**](/windows/win32/Winuser/nf-winuser-getwindowdc?branch=master) or [**GetDCEx**](/windows/win32/Winuser/nf-winuser-getdcex?branch=master) function. In all cases, an application can use the [**WindowFromDC**](/windows/win32/Winuser/nf-winuser-windowfromdc?branch=master) function to determine which window a display DC currently represents.
 
 This section provides information on the following topics.
 

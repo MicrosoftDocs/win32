@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MajorBuild property is a value that specifies the major part of the build number for the fax service provider (FSP) DLL.'
-ms.assetid: 'fd535c96-c4ef-4835-ae2c-481acbb5dfbd'
-title: 'FaxDeviceProvider.MajorBuild property'
+---
+Description: The MajorBuild property is a value that specifies the major part of the build number for the fax service provider (FSP) DLL.
+ms.assetid: fd535c96-c4ef-4835-ae2c-481acbb5dfbd
+title: FaxDeviceProvider.MajorBuild property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceProvider.MajorBuild property
@@ -50,7 +55,7 @@ The standard format for build numbers is MajorVersion.MinorVersion.MajorBuild.Mi
 [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md)
 </dt> <dt>
 
-[**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md)
+[**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master)
 </dt> </dl>
 
  

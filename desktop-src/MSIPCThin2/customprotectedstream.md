@@ -4,11 +4,12 @@ description: Used to access files that use a custom protection format.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'T:Microsoft.RightsManagement.CustomProtection.CustomProtectedStream'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: TMicrosoft.RightsManagement.CustomProtection.CustomProtectedStream
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CustomProtectedFileStream class"]
+keywords:
+- CustomProtectedFileStream class
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedStream class
@@ -26,7 +30,7 @@ Used to access files that use a custom protection format.
 > \[!Important\]  
 > RMS applications that use **CustomProtectedStream** may be incompatible with SharePoint, Exchange, and other RMS applications. For most applications, it is recommended that you use [**ProtectedFileStream**](protectedfilestream.md) instead.
 
- 
+ 
 
 ## Syntax
 
@@ -64,7 +68,7 @@ The **CustomProtectedFileStream** class has these methods. It also inherits meth
 
 
 
- 
+ 
 
 ### Properties
 
@@ -81,7 +85,7 @@ The **CustomProtectedFileStream** class has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -114,9 +118,9 @@ Members of this class are not guaranteed to be thread safe.
 [**IRandomAccessStream**](https://msdn.microsoft.com/library/windows/apps/br241731)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

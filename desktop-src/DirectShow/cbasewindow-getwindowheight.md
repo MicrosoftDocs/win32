@@ -1,7 +1,12 @@
 ---
-Description: 'The GetWindowHeight method retrieves the current height of the window.'
-ms.assetid: 'f569ad8e-7773-4efb-897b-1c21aa851124'
-title: 'CBaseWindow.GetWindowHeight method'
+Description: The GetWindowHeight method retrieves the current height of the window.
+ms.assetid: f569ad8e-7773-4efb-897b-1c21aa851124
+title: CBaseWindow.GetWindowHeight method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.GetWindowHeight method
@@ -43,9 +48,9 @@ Returns the height of the window, in pixels.
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Parameters
 description: Parameters
-ms.assetid: '33EC4D81-C77D-4c1e-BC04-7CBD529C7EE6'
+ms.assetid: 33EC4D81-C77D-4c1e-BC04-7CBD529C7EE6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameters

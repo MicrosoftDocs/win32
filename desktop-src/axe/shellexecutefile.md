@@ -1,14 +1,20 @@
 ---
 title: ShellExecuteFile element
 description: The name of the file or object on which shell execute will perform the action specified by the verb parameter.
-ms.assetid: '1719E056-5163-47D7-AA17-9CE42AC8643B'
-keywords: ["ShellExecuteFile element Access Execution Engine"]
+ms.assetid: 1719E056-5163-47D7-AA17-9CE42AC8643B
+keywords:
+- ShellExecuteFile element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ShellExecuteFile
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellExecuteFile element
@@ -66,9 +72,9 @@ This tag must specifies the name of the file or object on which shell execute wi
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

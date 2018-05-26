@@ -1,14 +1,20 @@
 ---
 title: registrationInfoType Complex Type
 description: Defines the child elements and sequencing information for the RegistrationInfo element.
-ms.assetid: '855eb0a4-6037-4868-ae09-6c9f01d91545'
-keywords: ["registrationInfoType complex type Task Scheduler"]
+ms.assetid: 855eb0a4-6037-4868-ae09-6c9f01d91545
+keywords:
+- registrationInfoType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - registrationInfoType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # registrationInfoType Complex Type
@@ -77,8 +83,8 @@ Defines the child elements and sequencing information for the [**RegistrationInf
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -92,9 +98,9 @@ Defines the child elements and sequencing information for the [**RegistrationInf
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

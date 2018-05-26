@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides information about the interfaces that allow the new version of the print driver (the V4 print driver) to read from or write to the print properties in the property bag.'
-ms.assetid: 'A722DFA3-DF6B-4A72-B0ED-2833DC3EEFE9'
+Description: This section provides information about the interfaces that allow the new version of the print driver (the V4 print driver) to read from or write to the print properties in the property bag.
+ms.assetid: A722DFA3-DF6B-4A72-B0ED-2833DC3EEFE9
 title: Property Bag Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Bag Interfaces

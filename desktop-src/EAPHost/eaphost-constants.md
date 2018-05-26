@@ -1,7 +1,7 @@
 ---
 title: EAPHost Constants
 description: Constants used by EAPHost methods.
-ms.assetid: '56338B98-06E3-4CD3-B1CA-F8F45AA39566'
+ms.assetid: 56338B98-06E3-4CD3-B1CA-F8F45AA39566
 topic_type:
 - apiref
 api_name:
@@ -21,6 +21,11 @@ api_location:
 - eaptypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAPHost Constants
@@ -115,7 +120,7 @@ Specifies the maximum supported length of an input field.
 
 
 
-Windows Vista with SP1 or later: Represents the default property value for input field entries displayed in the UI.
+Windows Vista with SP1 or later: Represents the default property value for input field entries displayed in the UI.
 
 
 </dt> </dl> </dd> <dt>
@@ -141,7 +146,7 @@ Represents the default property value for configuration input field entries disp
 
 
 
-Windows Vista with SP1 or later: Specifies that input field entries will not be displayed in the UI (a password or PIN number, for example).
+Windows Vista with SP1 or later: Specifies that input field entries will not be displayed in the UI (a password or PIN number, for example).
 
 
 </dt> </dl> </dd> <dt>
@@ -167,7 +172,7 @@ Specifies that configuration input field entries will not be displayed in the UI
 
 
 
-Windows Vista with SP1 or later: Indicates that the EAP method will not cache the field data; the supplicant must cache the field data for roaming.
+Windows Vista with SP1 or later: Indicates that the EAP method will not cache the field data; the supplicant must cache the field data for roaming.
 
 
 </dt> </dl> </dd> <dt>
@@ -180,7 +185,7 @@ Windows Vista with SP1 or later: Indicates that the EAP method will not cache th
 
 
 
-Windows Vista with SP1 or later: Indicates that the input field is read-only and cannot be edited.
+Windows Vista with SP1 or later: Indicates that the input field is read-only and cannot be edited.
 
 
 </dt> </dl> </dd> </dl>
@@ -191,15 +196,15 @@ Windows Vista with SP1 or later: Indicates that the input field is read-only and
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Eaptypes.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

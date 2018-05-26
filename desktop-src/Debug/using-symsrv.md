@@ -1,7 +1,12 @@
 ---
 Description: Using SymSrv
-ms.assetid: 'd400f222-c50c-4c7b-8f8a-0c3ed3bba3b9'
+ms.assetid: d400f222-c50c-4c7b-8f8a-0c3ed3bba3b9
 title: Using SymSrv
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using SymSrv
@@ -47,7 +52,7 @@ The following table displays examples of the supported symbol store types..
 | c:\\LocalCache             | A path to a directory on the client computer.                                                                                                                                                                                                                                                                                                             |
 | http://InternetSite        | The URL to a web site hosting the symbols. Must be the rightmost store in the list and should not be the only store in the list.                                                                                                                                                                                                                          |
 | https://SecureInternetSite | The URL to a secure web site hosting the symbols. This can support passwords, Windows login credentials, certificates, and smartcards. Must be the rightmost store in the list and should not be the only store in the list.                                                                                                                              |
-| &lt;blank&gt;              | If there is no text between two asterisks, this indicates the *default downstream store*. The location is set by calling [**SymSetHomeDirectory**](symsethomedirectory.md). The default value is a directory named "sym" immediately below the program directory of the calling application. This is sometimes referred to as the *default local cache*. |
+| &lt;blank&gt;              | If there is no text between two asterisks, this indicates the *default downstream store*. The location is set by calling [**SymSetHomeDirectory**](/windows/win32/Dbghelp/nf-dbghelp-symsethomedirectory?branch=master). The default value is a directory named "sym" immediately below the program directory of the calling application. This is sometimes referred to as the *default local cache*. |
 
 
 
@@ -109,7 +114,7 @@ Debugging Tools for Windows comes with a utility called agestore.exe that will s
 
 ## Flat Cache Directory
 
-It is possible to declare the default downstream store as a flat directory, rather than a standard symbol tree structure. To do so, call the [**SymSetOptions**](symsetoptions.md) function with **SYMOPT\_FLAT\_DIRECTORY** (this also sets the **SSRVOPT\_FLAT\_DEFAULT\_STORE** option in SymSrv). Be sure to call [**SymSetHomeDirectory**](symsethomedirectory.md) before doing so; otherwise, the symbol files can be written to the program directory.
+It is possible to declare the default downstream store as a flat directory, rather than a standard symbol tree structure. To do so, call the [**SymSetOptions**](/windows/win32/Dbghelp/nf-dbghelp-symsetoptions?branch=master) function with **SYMOPT\_FLAT\_DIRECTORY** (this also sets the **SSRVOPT\_FLAT\_DEFAULT\_STORE** option in SymSrv). Be sure to call [**SymSetHomeDirectory**](/windows/win32/Dbghelp/nf-dbghelp-symsethomedirectory?branch=master) before doing so; otherwise, the symbol files can be written to the program directory.
 
 ## Pointer Files
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a signing certificate (also known as the enrollment agent certificate).'
-ms.assetid: 'db2437a9-46f6-48c3-9630-82ec556df645'
-title: 'ISCrdEnr::setSigningCertificate method'
+---
+Description: Specifies a signing certificate (also known as the enrollment agent certificate).
+ms.assetid: db2437a9-46f6-48c3-9630-82ec556df645
+title: ISCrdEnrsetSigningCertificate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCrdEnr::setSigningCertificate method

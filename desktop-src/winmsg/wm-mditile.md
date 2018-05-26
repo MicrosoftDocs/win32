@@ -1,7 +1,12 @@
-﻿---
-Description: 'An application sends the WM\_MDITILE message to a multiple-document interface (MDI) client window to arrange all of its MDI child windows in a tile format.'
-ms.assetid: 'a480ba61-807e-4d0e-bda2-f1876e0bb13c'
-title: 'WM\_MDITILE message'
+---
+Description: An application sends the WM\_MDITILE message to a multiple-document interface (MDI) client window to arrange all of its MDI child windows in a tile format.
+ms.assetid: a480ba61-807e-4d0e-bda2-f1876e0bb13c
+title: WM\_MDITILE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_MDITILE message

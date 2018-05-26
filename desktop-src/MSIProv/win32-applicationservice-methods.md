@@ -1,7 +1,12 @@
 ---
 title: Win32\_ApplicationService Methods
 description: The Win32\_ApplicationService class exposes the following methods.
-ms.assetid: '1D895BF1-140F-4629-97BE-696148375251'
+ms.assetid: 1D895BF1-140F-4629-97BE-696148375251
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ApplicationService Methods

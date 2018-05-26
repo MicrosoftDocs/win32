@@ -1,8 +1,11 @@
 ---
 title: SetDefaults method of the MSFT\_ResiliencySetting class
 description: Allows a user to modify the default property values of the MSFT\_ResiliencySetting object.
-ms.assetid: 'E568F70B-3492-4D17-BF77-657E091046C6'
-keywords: ["SetDefaults method Windows Storage Management API", "SetDefaults method Windows Storage Management API , MSFT_ResiliencySetting class", "MSFT_ResiliencySetting class Windows Storage Management API , SetDefaults method"]
+ms.assetid: E568F70B-3492-4D17-BF77-657E091046C6
+keywords:
+- SetDefaults method Windows Storage Management API
+- SetDefaults method Windows Storage Management API , MSFT_ResiliencySetting class
+- MSFT_ResiliencySetting class Windows Storage Management API , SetDefaults method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetDefaults method of the MSFT\_ResiliencySetting class
@@ -24,12 +32,12 @@ The updated values will only take effect for subsequent virtual disk creations a
 
 ```mof
 UInt32 SetDefaults(
-  [in]  UInt16  NumberOfDataCopiesDefault,
-  [in]  UInt16  PhysicalDiskRedundancyDefault,
-  [in]  UInt16  NumberOfColumnsDefault,
-  [in]  Boolean AutoNumberOfColumns,
-  [in]  UInt64  InterleaveDefault,
-  [out] String  ExtendedStatus
+  [in]  UInt16  NumberOfDataCopiesDefault,
+  [in]  UInt16  PhysicalDiskRedundancyDefault,
+  [in]  UInt16  NumberOfColumnsDefault,
+  [in]  Boolean AutoNumberOfColumns,
+  [in]  UInt64  InterleaveDefault,
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -109,7 +117,7 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -117,8 +125,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -131,9 +139,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_ResiliencySetting**](msft-resiliencysetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Load a texture from a texture.'
-ms.assetid: '126e71e1-a3b2-418b-be35-434a2e9472ca'
+---
+Description: Load a texture from a texture.
+ms.assetid: 126e71e1-a3b2-418b-be35-434a2e9472ca
 title: D3DX10LoadTextureFromTexture function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10LoadTextureFromTexture function
@@ -28,9 +33,9 @@ HRESULT D3DX10LoadTextureFromTexture(
 *pSrcTexture* 
 </dt> <dd>
 
-Type: **[**ID3D10Resource**](id3d10resource.md)\***
+Type: **[**ID3D10Resource**](/windows/win32/D3D10/nn-d3d10-id3d10resource?branch=master)\***
 
-Pointer to the source texture. See [**ID3D10Resource**](id3d10resource.md).
+Pointer to the source texture. See [**ID3D10Resource**](/windows/win32/D3D10/nn-d3d10-id3d10resource?branch=master).
 
 </dd> <dt>
 
@@ -46,9 +51,9 @@ Pointer to texture loading parameters. See [**D3DX10\_TEXTURE\_LOAD\_INFO**](d3d
 *pDstTexture* 
 </dt> <dd>
 
-Type: **[**ID3D10Resource**](id3d10resource.md)\***
+Type: **[**ID3D10Resource**](/windows/win32/D3D10/nn-d3d10-id3d10resource?branch=master)\***
 
-Pointer to the destination texture. See [**ID3D10Resource Interface**](id3d10resource.md).
+Pointer to the destination texture. See [**ID3D10Resource Interface**](/windows/win32/D3D10/nn-d3d10-id3d10resource?branch=master).
 
 </dd> </dl>
 

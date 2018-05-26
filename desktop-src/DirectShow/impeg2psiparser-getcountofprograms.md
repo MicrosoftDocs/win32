@@ -1,7 +1,12 @@
-﻿---
-Description: 'The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.'
-ms.assetid: '282dd779-9aca-46e3-a791-cb9ea86f637d'
-title: 'IMpeg2PsiParser::GetCountOfPrograms method'
+---
+Description: The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.
+ms.assetid: 282dd779-9aca-46e3-a791-cb9ea86f637d
+title: IMpeg2PsiParserGetCountOfPrograms method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMpeg2PsiParser::GetCountOfPrograms method

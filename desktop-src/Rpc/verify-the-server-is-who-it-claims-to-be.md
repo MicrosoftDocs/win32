@@ -1,7 +1,12 @@
 ---
 title: Verify the Server is Who it Claims to Be
 description: It is best to use mutual authentication, and thereby verify the identity of the server.
-ms.assetid: '6636a865-0e3b-4e52-81bb-0df48285e928'
+ms.assetid: 6636a865-0e3b-4e52-81bb-0df48285e928
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verify the Server is Who it Claims to Be

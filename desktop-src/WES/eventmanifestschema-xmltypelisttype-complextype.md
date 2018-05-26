@@ -1,14 +1,20 @@
 ---
 title: XmlTypeListType Complex Type
 description: Defines a list output types that the service uses to determine how to render an input data type.
-ms.assetid: 'd90b32cc-a0b5-44d1-8083-781aa5e10783'
-keywords: ["XmlTypeListType complex type EventLog"]
+ms.assetid: d90b32cc-a0b5-44d1-8083-781aa5e10783
+keywords:
+- XmlTypeListType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - XmlTypeListType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XmlTypeListType Complex Type
@@ -79,14 +85,14 @@ The \\Include\\Winmeta.xml file, which is included in the Windows SDK, contains 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

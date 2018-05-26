@@ -1,15 +1,18 @@
 ---
-Description: 'Adds a subnet to IPAM.'
+Description: Adds a subnet to IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '05e4c244-a79e-4c97-a81b-7ebe540b99ec'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 05e4c244-a79e-4c97-a81b-7ebe540b99ec
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'AddIpamSubnet method of the MSFT\_IPAM\_Subnet class'
+title: AddIpamSubnet method of the MSFT\_IPAM\_Subnet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddIpamSubnet method of the MSFT\_IPAM\_Subnet class
@@ -21,18 +24,18 @@ Adds a subnet to IPAM.
 
 ```mof
 uint32 AddIpamSubnet(
-  [in]  string           Name,
-  [in]  string           NetworkId,
-  [in]  uint16           NetworkType,
-  [in]  string           AddressSpace,
-  [in]  string           Owner,
-  [in]  string           Description,
-  [in]  uint16           VlanId[],
-  [in]  string           CustomConfiguration,
-  [in]  string           VmmLogicalNetwork,
-  [in]  string           NetworkSite,
-  [in]  uint32           VirtualSubnetId,
-  [out] MSFT_IPAM_Subnet output
+  [in]  string           Name,
+  [in]  string           NetworkId,
+  [in]  uint16           NetworkType,
+  [in]  string           AddressSpace,
+  [in]  string           Owner,
+  [in]  string           Description,
+  [in]  uint16           VlanId[],
+  [in]  string           CustomConfiguration,
+  [in]  string           VmmLogicalNetwork,
+  [in]  string           NetworkSite,
+  [in]  uint32           VirtualSubnetId,
+  [out] MSFT_IPAM_Subnet output
 );
 ```
 
@@ -57,7 +60,7 @@ The network ID of the subnet.
 > [!Note]  
 > The **NetworkID** property uses the format: *NetworkId* / *Prefix Length*.
 
- 
+ 
 
 </dd> <dt>
 
@@ -122,12 +125,12 @@ An array that contains the IDs of VLANs that contain the subnet.
 *CustomConfiguration* \[in\]
 </dt> <dd>
 
-A set of custom metadata associated with the subnet address. This is specified as a semi-colon separated ‘name=value’ pairs.
+A set of custom metadata associated with the subnet address. This is specified as a semi-colon separated  name=value  pairs.
 
 > [!Note]  
 > This property is formatted with semi-colon separated *name*=*value* pairs.
 
- 
+ 
 
 </dd> <dt>
 
@@ -170,7 +173,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -184,9 +187,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_Subnet**](msft-ipam-subnet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

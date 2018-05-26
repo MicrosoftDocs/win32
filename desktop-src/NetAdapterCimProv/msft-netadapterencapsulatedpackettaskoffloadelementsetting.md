@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a network adapter with its Encapsulation Offload data.'
-ms.assetid: '6b04b889-94b1-4436-a781-638bc63811e5'
-title: 'MSFT\_NetAdapterEncapsulatedPacketTaskOffloadElementSetting class'
+Description: Associates a network adapter with its Encapsulation Offload data.
+ms.assetid: 6b04b889-94b1-4436-a781-638bc63811e5
+title: MSFT\_NetAdapterEncapsulatedPacketTaskOffloadElementSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterEncapsulatedPacketTaskOffloadElementSetting class
@@ -55,16 +60,16 @@ The Encapsulated Packet Task Offload setting data for network adapter.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

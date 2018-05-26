@@ -1,7 +1,12 @@
 ---
-Description: 'Shows how to play a media file using the MFPlay API.'
-ms.assetid: '1acd6f98-af59-47fd-9a3e-38a668fb6acf'
+Description: Shows how to play a media file using the MFPlay API.
+ms.assetid: 1acd6f98-af59-47fd-9a3e-38a668fb6acf
 title: SimplePlay Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SimplePlay Sample
@@ -17,9 +22,9 @@ Shows how to play a media file using the MFPlay API.
 
 This sample demonstrates the following Microsoft Media Foundation interfaces:
 
--   [**IMFPMediaItem**](imfpmediaitem.md)
--   [**IMFPMediaPlayer**](imfpmediaplayer.md)
--   [**IMFPMediaPlayerCallback**](imfpmediaplayercallback.md)
+-   [**IMFPMediaItem**](/windows/win32/mfplay/nn-mfplay-imfpmediaitem?branch=master)
+-   [**IMFPMediaPlayer**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayer?branch=master)
+-   [**IMFPMediaPlayerCallback**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayercallback?branch=master)
 
 ## Requirements
 

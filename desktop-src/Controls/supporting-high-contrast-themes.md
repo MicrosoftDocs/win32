@@ -1,7 +1,12 @@
 ---
 title: Supporting High Contrast Themes
 description: This topic compares the support for high contrast themes in Windows 8 to that of previous versions of Windows, and explains how to support high contrast themes in a Windows 8 application.
-ms.assetid: '6E4F1198-E69C-4C60-B3B0-2702AECAA203'
+ms.assetid: 6E4F1198-E69C-4C60-B3B0-2702AECAA203
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supporting High Contrast Themes
@@ -73,7 +78,7 @@ The compatibility section can specify multiple versions of Windows, but each mus
 
 
 
-If an application does not have a compatibility manifest, it is assumed to be a Windows Vista application and does not use themed controls in the client area when a high contrast theme is active. Also, the behavior of some visual styles functions are affected. For example, [**IsThemeActive**](isthemeactive.md), [**IsCompositionActive**](iscompositionactive.md), and [**IsAppThemed**](isappthemed.md) return FALSE, while [**OpenThemeData**](openthemedata.md) and [**OpenThemeDataEx**](openthemedataex.md) return a NULL handle. This is for compatibility support, so that applications built before Windows 8 can still render their UI in the same look as the high contrast mode of previous versions of Windows where visual styles are not available.
+If an application does not have a compatibility manifest, it is assumed to be a Windows Vista application and does not use themed controls in the client area when a high contrast theme is active. Also, the behavior of some visual styles functions are affected. For example, [**IsThemeActive**](/windows/win32/Uxtheme/nf-uxtheme-isthemeactive?branch=master), [**IsCompositionActive**](/windows/win32/Uxtheme/nf-uxtheme-iscompositionactive?branch=master), and [**IsAppThemed**](/windows/win32/Uxtheme/nf-uxtheme-isappthemed?branch=master) return FALSE, while [**OpenThemeData**](/windows/win32/Uxtheme/nf-uxtheme-openthemedata?branch=master) and [**OpenThemeDataEx**](/windows/win32/Uxtheme/nf-uxtheme-openthemedataex?branch=master) return a NULL handle. This is for compatibility support, so that applications built before Windows 8 can still render their UI in the same look as the high contrast mode of previous versions of Windows where visual styles are not available.
 
 On Windows 8, the application still receives the benefits of desktop composition. This means, for example, that usability applications such as the full screen magnifier don't depend on the status of an individual application's manifest. The usability application continues to work in high contrast mode with an application that does not identify itself as Windows 8 compatible in its manifest.
 

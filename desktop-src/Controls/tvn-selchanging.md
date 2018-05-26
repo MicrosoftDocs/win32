@@ -1,8 +1,9 @@
 ---
 title: TVN\_SELCHANGING notification code
-description: Notifies a tree-view control's parent window that the selection is about to change from one item to another. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '53f24ee0-433c-4680-9075-5e2b21117ed9'
-keywords: ["TVN_SELCHANGING notification code Windows Controls"]
+description: Notifies a tree-view controls parent window that the selection is about to change from one item to another. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 53f24ee0-433c-4680-9075-5e2b21117ed9
+keywords:
+- TVN_SELCHANGING notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVN\_SELCHANGING notification code
@@ -35,7 +41,7 @@ TVN_SELCHANGING
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTREEVIEW**](nmtreeview.md) structure. The **itemOld** and **itemNew** members contain valid information about the currently selected item and the newly selected item. The **action** member indicates whether a mouse or keyboard action is causing the selection to change. For a list of possible values, see the description of the [TVN\_SELCHANGED](tvn-selchanged.md) notification code.
+Pointer to an [**NMTREEVIEW**](/windows/win32/Commctrl/ns-commctrl-tagnmtreeviewa?branch=master) structure. The **itemOld** and **itemNew** members contain valid information about the currently selected item and the newly selected item. The **action** member indicates whether a mouse or keyboard action is causing the selection to change. For a list of possible values, see the description of the [TVN\_SELCHANGED](tvn-selchanged.md) notification code.
 
 </dd> </dl>
 
@@ -53,16 +59,16 @@ When responding to this notification code, applications should not delete the it
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TVN\_SELCHANGINGW** (Unicode) and **TVN\_SELCHANGINGA** (ANSI)<br/>           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: StringCollection.getItemInfo method
 description: The getItemInfo method retrieves the string corresponding to the specified StringCollection item index and name.
-ms.assetid: 'a031b91e-9d3b-47ac-bc5b-c111d5e3bc12'
-keywords: ["getItemInfo method Windows Media Player", "getItemInfo method Windows Media Player , StringCollection class", "StringCollection class Windows Media Player , getItemInfo method"]
+ms.assetid: a031b91e-9d3b-47ac-bc5b-c111d5e3bc12
+keywords:
+- getItemInfo method Windows Media Player
+- getItemInfo method Windows Media Player , StringCollection class
+- StringCollection class Windows Media Player , getItemInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StringCollection.getItemInfo method
@@ -78,9 +86,9 @@ To use this method, read access to the library is required. For more information
 [**StringCollection Object**](stringcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter GetSize
 description: IAgentCharacter GetSize
-ms.assetid: 'bc2d6fe4-5945-4a35-b603-409c66f8aa2a'
+ms.assetid: bc2d6fe4-5945-4a35-b603-409c66f8aa2a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::GetSize

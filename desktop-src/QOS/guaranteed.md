@@ -1,8 +1,14 @@
 ---
 title: GUARANTEED
-description: When the GUARANTEED service type is specified, the RSVP SP and other QOS components included in the transmission of packets attempt to guarantee the level of service quality defined by the application's provided QOS parameters.
-ms.assetid: 'aecaadb4-24dd-4455-86d3-17263ddcd479'
-keywords: ["GUARANTEED service type"]
+description: When the GUARANTEED service type is specified, the RSVP SP and other QOS components included in the transmission of packets attempt to guarantee the level of service quality defined by the applications provided QOS parameters.
+ms.assetid: aecaadb4-24dd-4455-86d3-17263ddcd479
+keywords:
+- GUARANTEED service type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GUARANTEED

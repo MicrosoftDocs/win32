@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxActivity configuration object is a read-only object.'
-ms.assetid: '5d3a10cb-64ef-4b20-a882-7f5e2738a8a0'
+---
+Description: The FaxActivity configuration object is a read-only object.
+ms.assetid: 5d3a10cb-64ef-4b20-a882-7f5e2738a8a0
 title: FaxActivity object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxActivity object
@@ -23,7 +28,7 @@ The **FaxActivity** object has these methods.
 
 | Method                                          | Description                                                                                                                                                                                                                                                                                     |
 |:------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Refresh**](-mfax-faxactivity-refresh-vb.md) | The [**Refresh**](-mfax-faxactivity-refresh-vb.md) method refreshes **FaxActivity** information from the fax server.<br/> The [**Refresh**](-mfax-faxactivity-refresh-vb.md) method refreshes [**IFaxActivity**](-mfax-faxactivity-cpp.md) information from the fax server.<br/> |
+| [**Refresh**](-mfax-faxactivity-refresh-vb.md) | The [**Refresh**](-mfax-faxactivity-refresh-vb.md) method refreshes **FaxActivity** information from the fax server.<br/> The [**Refresh**](-mfax-faxactivity-refresh-vb.md) method refreshes [**IFaxActivity**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxactivity?branch=master) information from the fax server.<br/> |
 
 
 
@@ -79,7 +84,7 @@ You can configure whether the fax service logs information about incoming and ou
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxActivity**](-mfax-faxactivity-cpp.md)
+[**IFaxActivity**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxactivity?branch=master)
 </dt> </dl>
 
  

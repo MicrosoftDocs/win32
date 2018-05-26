@@ -1,7 +1,12 @@
 ---
-Description: 'Communicates the state of an element in the visual tree when it changes.'
-ms.assetid: 'A832FDC6-1485-432C-9A87-A3C94D0AF8CA'
-title: 'IVisualTreeServiceCallback2::OnElementStateChanged method'
+Description: Communicates the state of an element in the visual tree when it changes.
+ms.assetid: A832FDC6-1485-432C-9A87-A3C94D0AF8CA
+title: IVisualTreeServiceCallback2OnElementStateChanged method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVisualTreeServiceCallback2::OnElementStateChanged method
@@ -58,7 +63,7 @@ When any XAML diagnostics API results in a resource reference becoming invalid, 
 
 <dl> <dt>
 
-[**IVisualTreeServiceCallback2**](ivisualtreeservicecallback2.md)
+[**IVisualTreeServiceCallback2**](/windows/previous-versions/xamlom/nn-xamlom-ivisualtreeservicecallback2?branch=master)
 </dt> </dl>
 
  

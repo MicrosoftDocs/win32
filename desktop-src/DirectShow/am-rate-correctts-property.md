@@ -1,7 +1,12 @@
 ---
-Description: 'The DVD Navigator uses this property to inform the decoder that the Navigator is setting the correct time stamps on the samples it delivers to the decoder.'
-ms.assetid: 'f04e8291-734f-483e-b756-5362beb68d9c'
-title: 'AM\_RATE\_CorrectTS Property'
+Description: The DVD Navigator uses this property to inform the decoder that the Navigator is setting the correct time stamps on the samples it delivers to the decoder.
+ms.assetid: f04e8291-734f-483e-b756-5362beb68d9c
+title: AM\_RATE\_CorrectTS Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AM\_RATE\_CorrectTS Property
@@ -18,7 +23,7 @@ The DVD Navigator uses this property to inform the decoder that the Navigator is
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,9 +48,9 @@ These problems have been corrected in the current version of the DVD Navigator. 
 [**Rate Change Property Set**](rate-change-property-set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

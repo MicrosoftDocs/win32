@@ -4,17 +4,21 @@ description: Thrown when the user rights over the protected content have expired
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '448dcc01-a19c-40ff-b6ee-f39950f2651e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 448dcc01-a19c-40ff-b6ee-f39950f2651e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserRightsExpiredException class"]
+keywords:
+- UserRightsExpiredException class
 topic_type:
 - apiref
 api_name:
 - UserRightsExpiredException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserRightsExpiredException class
@@ -32,7 +36,7 @@ public class UserRightsExpiredException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -43,7 +47,7 @@ public class UserRightsExpiredException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -58,7 +62,7 @@ public class UserRightsExpiredException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -76,9 +80,9 @@ The **UserRightsExpiredException** class extends the [**ProtectionException**](p
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

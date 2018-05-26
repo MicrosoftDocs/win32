@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WM\_PALETTECHANGED message is sent to all top-level and overlapped windows after the window with the keyboard focus has realized its logical palette, thereby changing the system palette.'
-ms.assetid: '2eed568b-1a16-47d2-ae26-3f1dec35e893'
-title: 'WM\_PALETTECHANGED message'
+---
+Description: The WM\_PALETTECHANGED message is sent to all top-level and overlapped windows after the window with the keyboard focus has realized its logical palette, thereby changing the system palette.
+ms.assetid: 2eed568b-1a16-47d2-ae26-3f1dec35e893
+title: WM\_PALETTECHANGED message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_PALETTECHANGED message

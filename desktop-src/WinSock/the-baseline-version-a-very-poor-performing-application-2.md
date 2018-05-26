@@ -1,7 +1,12 @@
 ---
-Description: 'The baseline version of a very poor performing application in Windows Sockets (Winsock).'
-ms.assetid: '923884c4-f1bd-4f72-983e-6158f368e0dd'
-title: 'The Baseline Version: A Very Poor Performing Application'
+Description: The baseline version of a very poor performing application in Windows Sockets (Winsock).
+ms.assetid: 923884c4-f1bd-4f72-983e-6158f368e0dd
+title: The Baseline Version A Very Poor Performing Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Baseline Version: A Very Poor Performing Application

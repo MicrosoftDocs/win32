@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes troubleshooting tips for using the Web Authentication Broker APIs for your web pages.'
-ms.assetid: '25A024AA-9A70-40A5-BF5E-452FD148D0D2'
+Description: This topic describes troubleshooting tips for using the Web Authentication Broker APIs for your web pages.
+ms.assetid: 25A024AA-9A70-40A5-BF5E-452FD148D0D2
 title: Web authentication problems
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Web authentication problems

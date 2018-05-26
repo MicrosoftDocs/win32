@@ -1,8 +1,9 @@
 ---
 title: TTM\_ADJUSTRECT message
-description: Calculates a tooltip control's text display rectangle from its window rectangle, or the tooltip window rectangle needed to display a specified text display rectangle.
-ms.assetid: 'b848c16f-9f41-4ed2-918a-9c03aebe535c'
-keywords: ["TTM_ADJUSTRECT message Windows Controls"]
+description: Calculates a tooltip controls text display rectangle from its window rectangle, or the tooltip window rectangle needed to display a specified text display rectangle.
+ms.assetid: b848c16f-9f41-4ed2-918a-9c03aebe535c
+keywords:
+- TTM_ADJUSTRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_ADJUSTRECT message
@@ -74,15 +80,15 @@ if (MyStringIsTruncated) {
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The FindPin method retrieves the pin with the specified identifier.'
-ms.assetid: 'd07a298f-ddb0-44eb-85ca-81735875cdf3'
-title: 'CBaseRenderer.FindPin method'
+Description: The FindPin method retrieves the pin with the specified identifier.
+ms.assetid: d07a298f-ddb0-44eb-85ca-81735875cdf3
+title: CBaseRenderer.FindPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.FindPin method
@@ -13,8 +18,8 @@ The `FindPin` method retrieves the pin with the specified identifier.
 
 ```C++
 HRESULT FindPin(
-   LPCWSTR Id,
-   IPin    **ppPin
+   LPCWSTR Id,
+   IPin    **ppPin
 );
 ```
 
@@ -34,7 +39,7 @@ Pointer to a constant, null-terminated wide-character string that identifies the
 *ppPin* 
 </dt> <dd>
 
-Address of a variable that receives a pointer to the pin's [**IPin**](ipin.md) interface. If the method fails, *\*ppPin* is set to **NULL**.
+Address of a variable that receives a pointer to the pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface. If the method fails, *\*ppPin* is set to **NULL**.
 
 </dd> </dl>
 
@@ -52,7 +57,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,9 +81,9 @@ This method overrides the [**CBaseFilter::FindPin**](cbasefilter-findpin.md) met
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

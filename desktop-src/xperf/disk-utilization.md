@@ -1,8 +1,14 @@
 ---
 title: Disk Utilization
 description: Disk Utilization
-ms.assetid: '1d812aba-e1c8-4881-81ca-1f9be4a2d898'
-keywords: ["usage graph"]
+ms.assetid: 1d812aba-e1c8-4881-81ca-1f9be4a2d898
+keywords:
+- usage graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk Utilization

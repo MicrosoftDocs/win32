@@ -1,14 +1,22 @@
 ---
 title: IEnumTfRenderingMarkup Skip method
 description: The IEnumTfRenderingMarkup Skip method obtains, from the current position, the specified number of elements in the enumeration sequence.
-ms.assetid: 'd328dfe3-36ab-4daf-8809-ad6686ca5dae'
-keywords: ["Skip method Text Services Framework", "Skip method Text Services Framework , IEnumTfRenderingMarkup interface", "IEnumTfRenderingMarkup interface Text Services Framework , Skip method"]
+ms.assetid: d328dfe3-36ab-4daf-8809-ad6686ca5dae
+keywords:
+- Skip method Text Services Framework
+- Skip method Text Services Framework , IEnumTfRenderingMarkup interface
+- IEnumTfRenderingMarkup interface Text Services Framework , Skip method
 topic_type:
 - apiref
 api_name:
 - IEnumTfRenderingMarkup.Skip
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumTfRenderingMarkup::Skip method
@@ -20,7 +28,7 @@ The **IEnumTfRenderingMarkup::Skip** method obtains, from the current position, 
 
 ```C++
 HRESULT Skip(
-  [in] ULONG ulCount
+  [in] ULONG ulCount
 );
 ```
 
@@ -50,18 +58,18 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > This method is not currently in the public header files. To use this API, you must MIDL-compile the [prototype](prototypes.md).
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

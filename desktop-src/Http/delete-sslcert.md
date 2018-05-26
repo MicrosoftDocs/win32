@@ -1,14 +1,20 @@
 ---
 title: delete sslcert
 description: Deletes SSL server certificate bindings and the corresponding client certificate policies for an IP address and port.
-ms.assetid: '2adea7a8-f31f-4c02-8279-7d452e36cd9b'
-keywords: ["delete sslcert HTTP"]
+ms.assetid: 2adea7a8-f31f-4c02-8279-7d452e36cd9b
+keywords:
+- delete sslcert HTTP
 topic_type:
 - apiref
 api_name:
 - delete sslcert
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # delete sslcert

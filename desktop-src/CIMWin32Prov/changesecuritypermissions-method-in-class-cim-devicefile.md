@@ -1,15 +1,18 @@
 ---
-Description: 'Changes the security permissions for the logical device file specified in the object path.'
+Description: Changes the security permissions for the logical device file specified in the object path.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4b3e1a0e-3c9e-45bb-8c7b-cbbc8f9d1265'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4b3e1a0e-3c9e-45bb-8c7b-cbbc8f9d1265
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ChangeSecurityPermissions method of the CIM\_DeviceFile class'
+title: ChangeSecurityPermissions method of the CIM\_DeviceFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ChangeSecurityPermissions method of the CIM\_DeviceFile class
@@ -19,7 +22,7 @@ The **ChangeSecurityPermissions** method changes the security permissions for th
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -28,8 +31,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 ChangeSecurityPermissions(
-  [in] Win32_SecurityDescriptor SecurityDescriptor,
-  [in] uint32                   Option
+  [in] Win32_SecurityDescriptor SecurityDescriptor,
+  [in] uint32                   Option
 );
 ```
 
@@ -47,7 +50,7 @@ Specifies the security information.
 > \[!Caution\]  
 > A **NULL** access control list (ACL) in the [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) structure grants unlimited access.
 
- 
+ 
 
 </dd> <dt>
 
@@ -243,8 +246,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -261,9 +264,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_DeviceFile**](cim-devicefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

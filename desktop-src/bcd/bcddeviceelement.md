@@ -1,8 +1,10 @@
 ---
 title: BcdDeviceElement class
 description: The base device element class.
-ms.assetid: '6878dc14-dbdc-45f9-ace7-9b7a00efd0f5'
-keywords: ["BcdDeviceElement class Boot Config", "BcdDeviceElement class Boot Config , described"]
+ms.assetid: 6878dc14-dbdc-45f9-ace7-9b7a00efd0f5
+keywords:
+- BcdDeviceElement class Boot Config
+- BcdDeviceElement class Boot Config , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdDeviceElement class
@@ -58,8 +65,8 @@ The information about the device.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -75,9 +82,9 @@ The information about the device.
 [**SetDeviceElement**](setdeviceelement-bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

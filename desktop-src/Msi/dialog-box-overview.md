@@ -1,7 +1,12 @@
 ---
-Description: 'The process of creating a dialog box in Windows Installer is similar to the process of creating a dialog box programmatically using a Microsoft Windows API dialog box template.'
-ms.assetid: 'c46f6b7b-e78c-4dd8-a4ff-7da5465391f9'
+Description: The process of creating a dialog box in Windows Installer is similar to the process of creating a dialog box programmatically using a Microsoft Windows API dialog box template.
+ms.assetid: c46f6b7b-e78c-4dd8-a4ff-7da5465391f9
 title: Dialog Box Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dialog Box Overview

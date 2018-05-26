@@ -1,8 +1,10 @@
 ---
 title: CIM\_ServiceSAPDependency class
 description: Represents an association between a service and a service access point (SAP) that provides the service with functionality.
-ms.assetid: '04151228-4d21-422f-8e84-f4d05b23c54d'
-keywords: ["CIM_ServiceSAPDependency class Hyper-V", "CIM_ServiceSAPDependency class Hyper-V , described"]
+ms.assetid: 04151228-4d21-422f-8e84-f4d05b23c54d
+keywords:
+- CIM_ServiceSAPDependency class Hyper-V
+- CIM_ServiceSAPDependency class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ServiceSAPDependency class
@@ -28,7 +35,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ServiceSAPDependency : CIM_Dependency
 {
   CIM_ServiceAccessPoint REF Antecedent;
-  CIM_Service            REF Dependent;
+  CIM_Service            REF Dependent;
 };
 ```
 
@@ -83,9 +90,9 @@ The service that is dependent on the SAP.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ The service that is dependent on the SAP.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

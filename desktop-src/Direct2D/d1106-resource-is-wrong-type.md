@@ -1,14 +1,20 @@
 ---
 title: D1106 Resource Is Wrong Type
-ms.assetid: '79a618cb-1d05-4895-b801-7663890b456a'
+ms.assetid: 79a618cb-1d05-4895-b801-7663890b456a
 description: 
-keywords: ["D1106 Resource Is Wrong Type Direct2D"]
+keywords:
+- D1106 Resource Is Wrong Type Direct2D
 topic_type:
 - apiref
 api_name:
 - D1106 Resource Is Wrong Type
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1106: Resource Is Wrong Type
@@ -40,7 +46,7 @@ An interface was improperly cast and used as a parameter for a method or functio
 
 ## Examples
 
-The following example passes an [**ID2D1SolidColorBrush**](id2d1solidcolorbrush.md) when an [**ID2D1Geometry**](id2d1geometry.md) is expected.
+The following example passes an [**ID2D1SolidColorBrush**](/windows/win32/d2d1/?branch=master) when an [**ID2D1Geometry**](/windows/win32/d2d1/?branch=master) is expected.
 
 
 ```C++

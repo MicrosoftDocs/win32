@@ -1,7 +1,12 @@
 ---
-Description: 'The ClearPendingSample method releases the current sample.'
-ms.assetid: '55cb8eed-3ae5-4f45-a87e-e6da8ada5cf5'
-title: 'CBaseRenderer.ClearPendingSample method'
+Description: The ClearPendingSample method releases the current sample.
+ms.assetid: 55cb8eed-3ae5-4f45-a87e-e6da8ada5cf5
+title: CBaseRenderer.ClearPendingSample method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.ClearPendingSample method
@@ -43,9 +48,9 @@ Returns S\_OK.
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

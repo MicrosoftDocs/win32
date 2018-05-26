@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_StreamMediaType method retrieves the media type of the current stream. All video streams are converted to VIDEOINFOHEADER types, and all audio streams are converted to WAVEFORMATEX types.'
-ms.assetid: '7fc15cb3-af77-42c1-b5eb-d1d88bf9cd1d'
-title: 'IMediaDet::get\_StreamMediaType method'
+---
+Description: The get\_StreamMediaType method retrieves the media type of the current stream. All video streams are converted to VIDEOINFOHEADER types, and all audio streams are converted to WAVEFORMATEX types.
+ms.assetid: 7fc15cb3-af77-42c1-b5eb-d1d88bf9cd1d
+title: IMediaDetget\_StreamMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaDet::get\_StreamMediaType method
@@ -11,7 +16,7 @@ title: 'IMediaDet::get\_StreamMediaType method'
 
  
 
-The `get_StreamMediaType` method retrieves the media type of the current stream. All video streams are converted to [**VIDEOINFOHEADER**](videoinfoheader.md) types, and all audio streams are converted to [**WAVEFORMATEX**](waveformatex.md) types.
+The `get_StreamMediaType` method retrieves the media type of the current stream. All video streams are converted to [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) types, and all audio streams are converted to [**WAVEFORMATEX**](/windows/win32/mmreg/?branch=master) types.
 
 ## Syntax
 
@@ -31,7 +36,7 @@ HRESULT get_StreamMediaType(
 *pVal* \[out, retval\]
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure that is filled with the media type.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure that is filled with the media type.
 
 </dd> </dl>
 

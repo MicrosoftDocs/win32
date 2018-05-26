@@ -4,11 +4,15 @@ description: Represents a handle to a Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6da51660-a9fd-4e49-97e3-ba0829b1bbbf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 6da51660-a9fd-4e49-97e3-ba0829b1bbbf
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["TLS_HANDLE"]
+keywords:
+- TLS_HANDLE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TLS\_HANDLE
@@ -18,7 +22,7 @@ Represents a handle to a Remote Desktop license server. This handle is returned 
 > [!Note]  
 > This data type has no associated header file. To use it, you must define it yourself as shown in this topic.
 
- 
+ 
 
 
 ```C++
@@ -33,8 +37,8 @@ typedef HANDLE TLS_HANDLE;
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -48,9 +52,9 @@ typedef HANDLE TLS_HANDLE;
 [**TLSDisconnectFromServer**](tlsdisconnectfromserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

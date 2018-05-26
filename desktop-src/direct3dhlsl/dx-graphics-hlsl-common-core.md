@@ -1,7 +1,12 @@
 ---
 title: Common-Shader Core
 description: Common-Shader Core
-ms.assetid: 'f3cf2969-83a4-461f-8177-d336536194ba'
+ms.assetid: f3cf2969-83a4-461f-8177-d336536194ba
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common-Shader Core
@@ -26,11 +31,11 @@ In Shader Model 4, all shader stages implement the same base functionality using
 
 
 
- 
+ 
 
 ## Integer and Bitwise Support
 
-The common shader core provides a full set of IEEE-compliant 32-bit integer and bitwise operations. These operations enable a new class of algorithms in graphics hardware—examples include compression and packing techniques, FFTs, and bitfield program-flow control.
+The common shader core provides a full set of IEEE-compliant 32-bit integer and bitwise operations. These operations enable a new class of algorithms in graphics hardware examples include compression and packing techniques, FFTs, and bitfield program-flow control.
 
 The **int** and **uint** data types in Direct3D 10 HLSL map to 32-bit integers in hardware.
 
@@ -42,7 +47,7 @@ The **int** and **uint** data types in Direct3D 10 HLSL map to 32-bit integers i
 
 
 
- 
+ 
 
 ## Bitwise operators
 
@@ -66,7 +71,7 @@ The common shader core supports the following bitwise operators:
 
 
 
- 
+ 
 
 Bitwise operators are defined to operate only on **int** and **uint** data types. Attempting to use bitwise operators on **float** or **struct** data types will result in an error. Bitwise operators follow the same precedence as C with regard to other operators.
 
@@ -83,9 +88,9 @@ Binary casts can also be performed using HLSL intrinsic functions. These cause t
 [Shader Model 4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

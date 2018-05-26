@@ -4,17 +4,21 @@ description: Page size in KB used by S2D cache.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'DAE52906-9EC4-441E-91FE-2199706F96B2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: DAE52906-9EC4-441E-91FE-2199706F96B2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["S2DCachePageSizeKBytes Failover Cluster"]
+keywords:
+- S2DCachePageSizeKBytes Failover Cluster
 topic_type:
 - apiref
 api_name:
 - S2DCachePageSizeKBytes
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # S2DCachePageSizeKBytes
@@ -27,14 +31,14 @@ Page size in KB used by S2D cache.
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 0xFFFFFFFF                                |
 | Default   |                                           |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSTER\_S2D\_CACHE\_PAGE\_SIZE\_KBYTES**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSTER\_S2D\_CACHE\_PAGE\_SIZE\_KBYTES**.
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

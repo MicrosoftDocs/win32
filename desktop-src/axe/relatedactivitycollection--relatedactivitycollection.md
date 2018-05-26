@@ -1,8 +1,11 @@
 ---
 title: RelatedActivityCollection ~RelatedActivityCollection destructor
 description: Destructor method.
-ms.assetid: '7E14541F-A070-40FC-B595-E34F9E8908D1'
-keywords: ["~RelatedActivityCollection destructor Access Execution Engine", "~RelatedActivityCollection destructor Access Execution Engine , RelatedActivityCollection interface", "RelatedActivityCollection interface Access Execution Engine , ~RelatedActivityCollection destructor"]
+ms.assetid: 7E14541F-A070-40FC-B595-E34F9E8908D1
+keywords:
+- ~RelatedActivityCollection destructor Access Execution Engine
+- ~RelatedActivityCollection destructor Access Execution Engine , RelatedActivityCollection interface
+- RelatedActivityCollection interface Access Execution Engine , ~RelatedActivityCollection destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RelatedActivityCollection::~RelatedActivityCollection destructor
@@ -36,8 +44,8 @@ A **RelatedActivityCollection** holds data from an **Issue/Impact/RelatedActivit
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -50,9 +58,9 @@ A **RelatedActivityCollection** holds data from an **Issue/Impact/RelatedActivit
 [**RelatedActivityCollection**](relatedactivitycollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

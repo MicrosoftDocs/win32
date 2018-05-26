@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the current intermediate analysis stage is finished.'
-ms.assetid: '9ade61f4-bcfe-4c49-bda1-b60aaf780935'
-title: '\_IAnalysisEvents::IntermediateResults event'
+Description: Occurs when the current intermediate analysis stage is finished.
+ms.assetid: 9ade61f4-bcfe-4c49-bda1-b60aaf780935
+title: '\_IAnalysisEventsIntermediateResults event'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_IAnalysisEvents::IntermediateResults event
@@ -13,8 +18,8 @@ Occurs when the current intermediate analysis stage is finished.
 
 ```C++
 HRESULT IntermediateResults(
-  [in] IInkAnalyzer    *pInkAnalyzer,
-  [in] IAnalysisStatus *pAnalysisStatus
+  [in] IInkAnalyzer    *pInkAnalyzer,
+  [in] IAnalysisStatus *pAnalysisStatus
 );
 ```
 
@@ -60,7 +65,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) generates intermediate results only when
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -95,9 +100,9 @@ The [**IInkAnalyzer**](iinkanalyzer.md) generates intermediate results only when
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

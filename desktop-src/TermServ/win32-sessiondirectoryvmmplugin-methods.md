@@ -4,10 +4,13 @@ description: The Win32\_SessionDirectoryVMMPlugin class exposes the following me
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '20290932-7993-45D0-9155-945EA51858A1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 20290932-7993-45D0-9155-945EA51858A1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SessionDirectoryVMMPlugin Methods

@@ -1,7 +1,12 @@
 ---
 Description: WavSource Sample
-ms.assetid: '905fbba5-0a04-4048-80bd-f8707c4879da'
+ms.assetid: 905fbba5-0a04-4048-80bd-f8707c4879da
 title: WavSource Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WavSource Sample
@@ -21,9 +26,9 @@ For a more advanced example of a media source, see the [MPEG1Source Sample](mpeg
 
 This sample demonstrates the following Media Foundation interfaces:
 
--   [**IMFByteStreamHandler**](imfbytestreamhandler.md)
--   [**IMFMediaSource**](imfmediasource.md)
--   [**IMFMediaStream**](imfmediastream.md)
+-   [**IMFByteStreamHandler**](/windows/win32/mfidl/nn-mfidl-imfbytestreamhandler?branch=master)
+-   [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master)
+-   [**IMFMediaStream**](/windows/win32/mfidl/nn-mfidl-imfmediastream?branch=master)
 
 ## Usage
 

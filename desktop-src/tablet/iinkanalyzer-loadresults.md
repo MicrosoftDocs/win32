@@ -1,7 +1,12 @@
 ---
-Description: 'Loads saved analysis results into the IInkAnalyzer.'
-ms.assetid: '7634dbe2-1857-497c-81b5-76b92fed862d'
-title: 'IInkAnalyzer::LoadResults method'
+Description: Loads saved analysis results into the IInkAnalyzer.
+ms.assetid: 7634dbe2-1857-497c-81b5-76b92fed862d
+title: IInkAnalyzerLoadResults method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::LoadResults method
@@ -13,12 +18,12 @@ Loads saved analysis results into the [**IInkAnalyzer**](iinkanalyzer.md).
 
 ```C++
 HRESULT LoadResults(
-  [in]          ULONG        ulDataSize,
-  [in]          BYTE         *pbSerializedResults,
-  [in]          ULONG        ulStrokeIdsCount,
-  [in]          LONG         *plOriginalStrokeIds,
-  [in]          LONG         *plNewStrokeIds,
-  [out, retval] VARIANT_BOOL *pfSuccessful
+  [in]          ULONG        ulDataSize,
+  [in]          BYTE         *pbSerializedResults,
+  [in]          ULONG        ulStrokeIdsCount,
+  [in]          LONG         *plOriginalStrokeIds,
+  [in]          LONG         *plNewStrokeIds,
+  [out, retval] VARIANT_BOOL *pfSuccessful
 );
 ```
 
@@ -94,7 +99,7 @@ This method may raise the [**\_IAnalysisProxyEvents::ContextNodeCreated**](-iana
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -129,9 +134,9 @@ This method may raise the [**\_IAnalysisProxyEvents::ContextNodeCreated**](-iana
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

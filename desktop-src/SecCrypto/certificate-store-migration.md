@@ -1,7 +1,12 @@
-﻿---
-Description: 'During a computer upgrade or a computer-to-computer migration, the certificates in certain certificate stores will be migrated.'
-ms.assetid: 'fe81d578-f2f6-41f0-9ebf-e7bd5532bed9'
+---
+Description: During a computer upgrade or a computer-to-computer migration, the certificates in certain certificate stores will be migrated.
+ms.assetid: fe81d578-f2f6-41f0-9ebf-e7bd5532bed9
 title: Certificate Store Migration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Store Migration

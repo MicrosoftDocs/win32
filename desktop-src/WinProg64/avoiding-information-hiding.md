@@ -1,8 +1,15 @@
 ---
 title: Avoiding Information Hiding
 description: Occasionally, programs deliberately or inadvertently hide information from the RPC marshaling engine.
-ms.assetid: '016b9221-092d-4c25-a396-4f41dcdfb3cf'
-keywords: ["backward compatibility 64-bit Windows Programming", "compatibility problems 64-bit Windows Programming"]
+ms.assetid: 016b9221-092d-4c25-a396-4f41dcdfb3cf
+keywords:
+- backward compatibility 64-bit Windows Programming
+- compatibility problems 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Avoiding Information Hiding

@@ -1,7 +1,12 @@
 ---
 title: IAgentCommand
 description: IAgentCommand
-ms.assetid: '70873093-df71-4377-9c39-c7528400052f'
+ms.assetid: 70873093-df71-4377-9c39-c7528400052f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCommand

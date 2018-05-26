@@ -1,8 +1,9 @@
 ---
 title: CloseFileRestoreContext function
 description: Closes the context that is used to restore files. If the file system volume is exclusively locked, this function removes the lock.
-ms.assetid: 'c98b72a1-d097-4993-8ee0-7b6c6dc7904e'
-keywords: ["CloseFileRestoreContext function Files"]
+ms.assetid: c98b72a1-d097-4993-8ee0-7b6c6dc7904e
+keywords:
+- CloseFileRestoreContext function Files
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Fmapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CloseFileRestoreContext function
@@ -18,16 +24,16 @@ api_type:
 Closes the context that is used to restore files. If the file system volume is exclusively locked, this function removes the lock.
 
 > [!Note]  
-> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
+> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 BOOL WINAPI CloseFileRestoreContext(
-  _In_ PFILE_RESTORE_CONTEXT Context
+  _In_ PFILE_RESTORE_CONTEXT Context
 );
 ```
 
@@ -62,8 +68,8 @@ This function cancels an ongoing restoration process that was initiated with the
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Fmapi.dll</dt> </dl> |
 
 
@@ -75,9 +81,9 @@ This function cancels an ongoing restoration process that was initiated with the
 [**RestoreFile**](restorefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

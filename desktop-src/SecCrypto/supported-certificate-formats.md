@@ -1,7 +1,12 @@
-﻿---
-Description: 'Lists the certificate formats supported by Certificate Services.'
-ms.assetid: 'e6a324d0-9b62-4625-a604-cb1eeca22aae'
+---
+Description: Lists the certificate formats supported by Certificate Services.
+ms.assetid: e6a324d0-9b62-4625-a604-cb1eeca22aae
 title: Supported Certificate Formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supported Certificate Formats

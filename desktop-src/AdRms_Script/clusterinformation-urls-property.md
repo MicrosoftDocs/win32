@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves an Urls object that contains enterprise service URLs.'
+Description: Retrieves an Urls object that contains enterprise service URLs.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '43f77d5c-89a2-4654-8350-54cac18792c7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 43f77d5c-89a2-4654-8350-54cac18792c7
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ClusterInformation.Urls property'
+title: ClusterInformation.Urls property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusterInformation.Urls property
@@ -106,7 +109,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -118,9 +121,9 @@ END SUB
 [**ClusterInformation**](clusterinformation-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

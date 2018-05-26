@@ -1,7 +1,12 @@
 ---
-Description: 'The installer functions can be used to run specific actions or action sequences.'
-ms.assetid: 'ceb4f70b-1179-416a-9030-3d87341cb956'
+Description: The installer functions can be used to run specific actions or action sequences.
+ms.assetid: ceb4f70b-1179-416a-9030-3d87341cb956
 title: Running Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Running Actions
@@ -10,13 +15,13 @@ The installer functions can be used to run specific actions or action sequences.
 
 **To run an action sequence**
 
-1.  Run a sequence of actions defined in a table by calling the [**MsiSequence**](msisequence.md) function.
+1.  Run a sequence of actions defined in a table by calling the [**MsiSequence**](/windows/win32/Msiquery/nf-msiquery-msisequencea?branch=master) function.
 
     The installer queries the indicated table and runs each action if its conditional expression evaluates to TRUE.
 
-2.  Check conditional expressions by calling the [**MsiEvaluateCondition**](msievaluatecondition.md) function.
-3.  Run the action by calling the [**MsiDoAction**](msidoaction.md) function. The action can be a standard action, a custom action, or a user interface dialog box.
-4.  If an error occurred during the execution of this action, call the [**MsiProcessMessage**](msiprocessmessage.md) function. The installer will process the error.
+2.  Check conditional expressions by calling the [**MsiEvaluateCondition**](/windows/win32/Msiquery/nf-msiquery-msievaluateconditiona?branch=master) function.
+3.  Run the action by calling the [**MsiDoAction**](/windows/win32/Msiquery/nf-msiquery-msidoactiona?branch=master) function. The action can be a standard action, a custom action, or a user interface dialog box.
+4.  If an error occurred during the execution of this action, call the [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master) function. The installer will process the error.
 
  
 

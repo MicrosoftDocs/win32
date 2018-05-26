@@ -1,7 +1,12 @@
 ---
-Description: 'The filter graph has changed state.'
-ms.assetid: 'f77b4c06-46a5-4912-adb0-0fa8cb7769aa'
-title: 'EC\_STATE\_CHANGE'
+Description: The filter graph has changed state.
+ms.assetid: f77b4c06-46a5-4912-adb0-0fa8cb7769aa
+title: EC\_STATE\_CHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_STATE\_CHANGE
@@ -15,7 +20,7 @@ The filter graph has changed state.
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-(**DWORD**) Member of the [**FILTER\_STATE**](filter-state.md) enumerated type, indicating the new graph state.
+(**DWORD**) Member of the [**FILTER\_STATE**](/windows/win32/strmif/ne-strmif-_filterstate?branch=master) enumerated type, indicating the new graph state.
 
 </dd> <dt>
 
@@ -31,9 +36,9 @@ Zero.
 No default action. The event is not sent to the application.
 
 > [!Note]  
-> This event can occur when the graph shuts down. If you override the default action and listen for this event, you must be especially careful not to process events after releasing the Filter Graph Manager. Otherwise, your application might reference an invalid [**IMediaEvent**](imediaevent.md) pointer and crash. For more information, see [Responding to Events](responding-to-events.md).
+> This event can occur when the graph shuts down. If you override the default action and listen for this event, you must be especially careful not to process events after releasing the Filter Graph Manager. Otherwise, your application might reference an invalid [**IMediaEvent**](/windows/win32/Control/nn-control-imediaevent?branch=master) pointer and crash. For more information, see [Responding to Events](responding-to-events.md).
 
- 
+ 
 
 ## Requirements
 
@@ -55,9 +60,9 @@ No default action. The event is not sent to the application.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
-﻿---
-Description: 'The SourceListClearAll method of the Patch object clears the complete source list of all sources of the specified type for a patch. Accepts Type as a parameter. This method calls MsiSourceListClearAllEx.'
-ms.assetid: '9458a3db-8eaa-4067-875f-8fac68bdf1f8'
-title: 'Patch.SourceListClearAll method'
+---
+Description: The SourceListClearAll method of the Patch object clears the complete source list of all sources of the specified type for a patch. Accepts Type as a parameter. This method calls MsiSourceListClearAllEx.
+ms.assetid: 9458a3db-8eaa-4067-875f-8fac68bdf1f8
+title: Patch.SourceListClearAll method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch.SourceListClearAll method
 
-The **SourceListClearAll** method of the [**Patch**](patch-object.md) object clears the complete source list of all sources of the specified type for a patch. Accepts *Type* as a parameter. This method calls [**MsiSourceListClearAllEx**](msisourcelistclearallex.md).
+The **SourceListClearAll** method of the [**Patch**](patch-object.md) object clears the complete source list of all sources of the specified type for a patch. Accepts *Type* as a parameter. This method calls [**MsiSourceListClearAllEx**](/windows/win32/Msi/nf-msi-msisourcelistclearallexa?branch=master).
 
 ## Syntax
 
@@ -53,7 +58,7 @@ This method does not return a value.
 [**Patch**](patch-object.md)
 </dt> <dt>
 
-[**MsiSourceListClearAllEx**](msisourcelistclearallex.md)
+[**MsiSourceListClearAllEx**](/windows/win32/Msi/nf-msi-msisourcelistclearallexa?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

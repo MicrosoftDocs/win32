@@ -1,14 +1,20 @@
 ---
 title: Tag element
 description: A tag that enables the UX to use filtering, grouping or sorting.
-ms.assetid: '80814722-3245-4DDC-9DA0-03DCD47EA55C'
-keywords: ["Tag element Access Execution Engine"]
+ms.assetid: 80814722-3245-4DDC-9DA0-03DCD47EA55C
+keywords:
+- Tag element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Tag
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tag element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

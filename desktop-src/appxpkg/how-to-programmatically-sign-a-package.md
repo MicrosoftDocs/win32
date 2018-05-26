@@ -1,7 +1,12 @@
 ---
 title: How to programmatically sign an app package (C++)
 description: Learn how to sign an app package by using the SignerSignEx2 function.
-ms.assetid: '1183D665-83C9-4BE7-9C8D-834484B8C57F'
+ms.assetid: 1183D665-83C9-4BE7-9C8D-834484B8C57F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to programmatically sign an app package (C++)

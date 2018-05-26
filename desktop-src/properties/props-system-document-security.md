@@ -1,7 +1,12 @@
 ---
-Description: 'Access control information, from SummaryInfo propset.'
-ms.assetid: '0cc40312-2298-4611-b60f-e0222ef793c3'
-title: 'System.Document.Security'
+Description: Access control information, from SummaryInfo propset.
+ms.assetid: 0cc40312-2298-4611-b60f-e0222ef793c3
+title: System.Document.Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.Security

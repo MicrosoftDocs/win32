@@ -1,7 +1,12 @@
 ---
-Description: 'The optional &lt;author&gt; element specifies the author of this library. This element has no child elements and no attributes.'
-ms.assetid: 'c91042d5-9564-463a-9104-97b927027fc9'
-title: 'author Element (Search Connector Schema)'
+Description: The optional &lt;author&gt; element specifies the author of this library. This element has no child elements and no attributes.
+ms.assetid: c91042d5-9564-463a-9104-97b927027fc9
+title: author Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # author Element (Search Connector Schema)

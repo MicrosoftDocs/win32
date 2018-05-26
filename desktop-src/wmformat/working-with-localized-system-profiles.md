@@ -1,15 +1,25 @@
 ---
 title: Working with Localized System Profiles
 description: Working with Localized System Profiles
-ms.assetid: 'd911baf6-0731-4f02-9001-d04464a03f56'
-keywords: ["profiles,system", "system profiles,localized", "system profiles,IWMProfileManagerLanguage interface", "localized system profiles,about", "IWMProfileManagerLanguage"]
+ms.assetid: d911baf6-0731-4f02-9001-d04464a03f56
+keywords:
+- profiles,system
+- system profiles,localized
+- system profiles,IWMProfileManagerLanguage interface
+- localized system profiles,about
+- IWMProfileManagerLanguage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Localized System Profiles
 
 The Windows Media Format SDK includes system profiles with names and descriptions in several languages. The localized system profile .prx files are installed into the \[SDKRoot\]\\WMSDK\\WMFSDK9\\LocalizedProfiles folder. To access a particular file with the **IWMProfileManagerLanguage** methods, you must move it into the system root directory along with the other system profile files. For a list of the localized system profile files, see [Localized System Profiles](localized-system-profiles.md).
 
-You can set or retrieve the system profile language using the methods of the [**IWMProfileManagerLanguage**](iwmprofilemanagerlanguage.md) interface. The language is specified as a LANGID value, which consists of a primary language identifier and a secondary language identifier. The following code demonstrates how to retrieve the current language. The default language is U.S. English (0x409). For more information about using this code, see [Using the Code Examples](using-the-code-examples.md).
+You can set or retrieve the system profile language using the methods of the [**IWMProfileManagerLanguage**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmprofilemanagerlanguage?branch=master) interface. The language is specified as a LANGID value, which consists of a primary language identifier and a secondary language identifier. The following code demonstrates how to retrieve the current language. The default language is U.S. English (0x409). For more information about using this code, see [Using the Code Examples](using-the-code-examples.md).
 
 
 ```C++

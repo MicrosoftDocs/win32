@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves system information.'
-ms.assetid: '94C10DD6-FE49-4dd4-AEED-69B73A75EDEF'
-title: 'Shell.GetSystemInformation method'
+---
+Description: Retrieves system information.
+ms.assetid: 94C10DD6-FE49-4dd4-AEED-69B73A75EDEF
+title: Shell.GetSystemInformation method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.GetSystemInformation method

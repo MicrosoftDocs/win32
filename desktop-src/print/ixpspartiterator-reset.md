@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Reset method sets the iterator to the first element.'
-ms.assetid: 'afcdb59c-55aa-48e9-b920-1dee3d39a78f'
-title: 'IXpsPartIterator::Reset method'
+---
+Description: The Reset method sets the iterator to the first element.
+ms.assetid: afcdb59c-55aa-48e9-b920-1dee3d39a78f
+title: IXpsPartIteratorReset method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsPartIterator::Reset method

@@ -1,8 +1,10 @@
 ---
 title: IPropertyFilterCollection interface
 description: Exposes properties of the returned collection based on the query submitted.
-ms.assetid: '9ed4217f-54b0-4d69-bf44-2547320a9681'
-keywords: ["IPropertyFilterCollection interface Legacy Windows Environment Features", "IPropertyFilterCollection interface Legacy Windows Environment Features , described"]
+ms.assetid: 9ed4217f-54b0-4d69-bf44-2547320a9681
+keywords:
+- IPropertyFilterCollection interface Legacy Windows Environment Features
+- IPropertyFilterCollection interface Legacy Windows Environment Features , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertyFilterCollection interface
@@ -41,7 +48,7 @@ The **IPropertyFilterCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -53,16 +60,16 @@ These properties are used to filter collection returned by the query.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 3.0<br/>                                               |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

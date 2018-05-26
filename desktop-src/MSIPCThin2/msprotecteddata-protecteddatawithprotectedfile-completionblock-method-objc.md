@@ -4,17 +4,21 @@ description: Asynchronously creates and returns a protected file data object tha
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd09639f8-aa03-42f0-bf72-02953b3ec9ae'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: d09639f8-aa03-42f0-bf72-02953b3ec9ae
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSProtectedData protectedDataWithProtectedFile completionBlock method"]
+keywords:
+- MSProtectedData protectedDataWithProtectedFile completionBlock method
 topic_type:
 - apiref
 api_name:
 - MSProtectedData protectedDataWithProtectedFile completionBlock method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSProtectedData protectedDataWithProtectedFile:completionBlock method
@@ -90,7 +94,7 @@ If the user cancels the operation, both the <em>data</em> and <em>error</em> par
 
 
 
- 
+ 
 
 ## Returns
 
@@ -110,15 +114,15 @@ MSProtectedData.h
 
 
 
- 
+ 
 
 ## Remarks
 
 The [**userPolicy**](msprotecteddata-userpolicy-property-objc.md) property is set based on the policy that applies to the specified file.
 
- 
+ 
 
- 
+ 
 
 
 

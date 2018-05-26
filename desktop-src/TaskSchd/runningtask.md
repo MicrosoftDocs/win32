@@ -1,8 +1,10 @@
 ---
 title: RunningTask object
 description: Scripting object that provides the methods to get information from and control a running task.
-ms.assetid: '71a06a8f-8628-415d-b002-977c0d27f9a4'
-keywords: ["RunningTask object Task Scheduler", "RunningTask object Task Scheduler , described"]
+ms.assetid: 71a06a8f-8628-415d-b002-977c0d27f9a4
+keywords:
+- RunningTask object Task Scheduler
+- RunningTask object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RunningTask object
@@ -37,7 +44,7 @@ The **RunningTask** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +63,7 @@ The **RunningTask** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,8 +71,8 @@ The **RunningTask** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -90,9 +97,9 @@ The **RunningTask** object has these properties.
 [**RegisteredTask.RunEx**](registeredtask-runex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

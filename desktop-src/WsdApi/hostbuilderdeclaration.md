@@ -1,7 +1,12 @@
 ---
-Description: 'Generates a declaration for a function that creates a typed host.'
-ms.assetid: '3c08e913-b47e-4ca7-b8bc-7b036e57db01'
+Description: Generates a declaration for a function that creates a typed host.
+ms.assetid: 3c08e913-b47e-4ca7-b8bc-7b036e57db01
 title: hostBuilderDeclaration element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # hostBuilderDeclaration element
@@ -52,14 +57,14 @@ interface+
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

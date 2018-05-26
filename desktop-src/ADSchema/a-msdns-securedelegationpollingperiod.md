@@ -4,17 +4,22 @@ description: An attribute that defines in seconds the time between polling attem
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2fc45592-30df-4317-8122-d22b5e6e2ee0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 2fc45592-30df-4317-8122-d22b5e6e2ee0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-Secure-Delegation-Polling-Period attribute AD Schema", "msDNS-SecureDelegationPollingPeriod attribute AD Schema"]
+keywords:
+- ms-DNS-Secure-Delegation-Polling-Period attribute AD Schema
+- msDNS-SecureDelegationPollingPeriod attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-Secure-Delegation-Polling-Period
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-Secure-Delegation-Polling-Period attribute
@@ -38,7 +43,7 @@ An attribute that defines in seconds the time between polling attempts for child
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute that defines in seconds the time between polling attempts for child
 
 
 
- 
+ 
 
- 
+ 
 
 
 

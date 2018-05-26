@@ -1,8 +1,15 @@
 ---
 title: OpenGL Function Names
 description: Many OpenGL functions are variations of each other, differing mostly in the data types of their arguments.
-ms.assetid: '2d30e2e4-9671-4e57-962d-0328b13159f3'
-keywords: ["OpenGL,function names", "function names OpenGL"]
+ms.assetid: 2d30e2e4-9671-4e57-962d-0328b13159f3
+keywords:
+- OpenGL,function names
+- function names OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenGL Function Names

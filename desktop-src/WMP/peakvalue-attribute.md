@@ -1,14 +1,20 @@
 ---
 title: PeakValue Attribute
 description: The PeakValue attribute is a 16-bit amplitude value indicating the peak volume level.
-ms.assetid: '5d80a1f3-015c-4740-bd1c-f3bbf88a9df2'
-keywords: ["PeakValue Attribute Windows Media Player"]
+ms.assetid: 5d80a1f3-015c-4740-bd1c-f3bbf88a9df2
+keywords:
+- PeakValue Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PeakValue
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PeakValue Attribute
@@ -50,9 +56,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

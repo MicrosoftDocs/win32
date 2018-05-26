@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Windows Media MP3 decoder decodes audio files that have been encoded in the following formats.'
-ms.assetid: '817bbc2d-b3d5-49b4-84e4-bc8dc232a8ea'
+---
+Description: The Windows Media MP3 decoder decodes audio files that have been encoded in the following formats.
+ms.assetid: 817bbc2d-b3d5-49b4-84e4-bc8dc232a8ea
 title: Windows Media MP3 Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media MP3 Decoder

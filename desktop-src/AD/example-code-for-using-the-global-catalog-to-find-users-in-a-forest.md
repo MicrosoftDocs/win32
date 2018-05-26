@@ -4,11 +4,15 @@ description: This topic includes code examples used to search for users in a for
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bdcbfb7e-e1ea-4275-96b0-1c895e28e176'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: bdcbfb7e-e1ea-4275-96b0-1c895e28e176
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , using the global catalog to find users in a forest"]
+keywords:
+- Active Directory examples Active Directory , using the global catalog to find users in a forest
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Using the Global Catalog to Find Users in a Forest

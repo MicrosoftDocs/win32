@@ -4,11 +4,16 @@ description: The attributes of the serviceConnectionPoint class are sufficient f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '08888d2c-b46e-4b86-87e4-0c061ea147a0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 08888d2c-b46e-4b86-87e4-0c061ea147a0
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Service Connection Point Properties", "service connection points AD , properties"]
+keywords:
+- Service Connection Point Properties
+- service connection points AD , properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Service Connection Point Properties
@@ -44,7 +49,7 @@ The most important attributes of an SCP are **keywords**, **serviceDNSName**, **
 </tr>
 <tr class="even">
 <td><strong>serviceDNSName</strong> and <strong>serviceDNSNameType</strong><br/></td>
-<td>Client applications use the <strong>serviceDNSName</strong> and <strong>serviceDNSNameType</strong> attributes to determine the service's host computer. The <strong>serviceDNSNameType</strong> value indicates the type of DNS name specified by <strong>serviceDNSName</strong>—usually &quot;A&quot; if <strong>serviceDNSName</strong> contains a host name or &quot;SRV&quot; if <strong>serviceDNSName</strong> contains a SRV record name.<br/> The <strong>serviceDNSName</strong> value is typically the DNS name of the service's host computer. Your service installer can call the [<strong>GetComputerNameEx</strong>](https://msdn.microsoft.com/library/windows/desktop/ms724301) function to get the DNS name of the local computer.<br/> For services that have DNS SRV records, <strong>serviceDNSName</strong> can be the name of the SRV record. A client application uses the DNS APIs to retrieve all the SRV records that match this name. The client then retrieves the DNS host name from one of the SRV records. This technique is useful for replicated services because SRV records also include data that enables the client to select the best replica.<br/></td>
+<td>Client applications use the <strong>serviceDNSName</strong> and <strong>serviceDNSNameType</strong> attributes to determine the service's host computer. The <strong>serviceDNSNameType</strong> value indicates the type of DNS name specified by <strong>serviceDNSName</strong> usually &quot;A&quot; if <strong>serviceDNSName</strong> contains a host name or &quot;SRV&quot; if <strong>serviceDNSName</strong> contains a SRV record name.<br/> The <strong>serviceDNSName</strong> value is typically the DNS name of the service's host computer. Your service installer can call the [<strong>GetComputerNameEx</strong>](https://msdn.microsoft.com/library/windows/desktop/ms724301) function to get the DNS name of the local computer.<br/> For services that have DNS SRV records, <strong>serviceDNSName</strong> can be the name of the SRV record. A client application uses the DNS APIs to retrieve all the SRV records that match this name. The client then retrieves the DNS host name from one of the SRV records. This technique is useful for replicated services because SRV records also include data that enables the client to select the best replica.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>serviceBindingInformation</strong><br/></td>
@@ -59,11 +64,11 @@ The most important attributes of an SCP are **keywords**, **serviceDNSName**, **
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

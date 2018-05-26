@@ -1,7 +1,12 @@
 ---
-Description: 'Implement Transactional NTFS (TxF) and Transactional Registry (TxR). TxF allows transacted file system operations within NTFS. TxR allows transacted registry operations. Coordinate file system and registry operations with a transaction.'
-ms.assetid: '2f601994-db1e-4aac-8db1-9a36c702664b'
+Description: Implement Transactional NTFS (TxF) and Transactional Registry (TxR). TxF allows transacted file system operations within NTFS. TxR allows transacted registry operations. Coordinate file system and registry operations with a transaction.
+ms.assetid: 2f601994-db1e-4aac-8db1-9a36c702664b
 title: Kernel Transaction Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Kernel Transaction Manager
@@ -18,7 +23,7 @@ Managed and COM+ applications should use their native transaction managers.
 
 ## Where applicable
 
-KTM can be used with applications and resource managers hosted on Windows Vista or Windows Server 2008.
+KTM can be used with applications and resource managers hosted on Windows Vista or Windows Server 2008.
 
 ## Developer audience
 
@@ -26,7 +31,7 @@ The KTM API is designed for use by C and C++ programmers.
 
 ## Run-time requirements
 
-KTM is supported starting with Windows Vista.
+KTM is supported starting with Windows Vista.
 
 ## In this section
 
@@ -39,7 +44,7 @@ KTM is supported starting with Windows Vista.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -54,9 +59,9 @@ KTM is supported starting with Windows Vista.
 [Distributed Transaction Coordinator](http://go.microsoft.com/fwlink/p/?linkid=139572)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

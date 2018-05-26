@@ -4,13 +4,15 @@ description: Defines the capabilities of a MSISCSITARGET\_ReplicationService.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ff10513f-fde7-418b-a43e-17e8406d1622'
-ms.prod: 'windows-server-dev'
+ms.assetid: ff10513f-fde7-418b-a43e-17e8406d1622
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_ReplicationServiceCapabilities class iSCSI Software Target API", "MSISCSITARGET_ReplicationServiceCapabilities class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_ReplicationServiceCapabilities class iSCSI Software Target API
+- MSISCSITARGET_ReplicationServiceCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_ReplicationServiceCapabilities class
@@ -90,7 +95,7 @@ The **MSISCSITARGET\_ReplicationServiceCapabilities** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -309,14 +314,14 @@ This property is inherited from [**CIM\_ReplicationServiceCapabilities**](cim-re
 **DMTF Reserved**
 
 
-</dt> <dd>26–32767</dd> <dt>
+</dt> <dd>26 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -424,14 +429,14 @@ This property is inherited from [**CIM\_ReplicationServiceCapabilities**](cim-re
 **DMTF Reserved**
 
 
-</dt> <dd>14–32767</dd> <dt>
+</dt> <dd>14 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -476,14 +481,14 @@ This property is inherited from [**CIM\_ReplicationServiceCapabilities**](cim-re
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -678,14 +683,14 @@ This property is inherited from [**CIM\_ReplicationServiceCapabilities**](cim-re
 **DMTF Reserved**
 
 
-</dt> <dd>26–32767</dd> <dt>
+</dt> <dd>26 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -696,7 +701,7 @@ This property is inherited from [**CIM\_ReplicationServiceCapabilities**](cim-re
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -719,9 +724,9 @@ This property is inherited from [**CIM\_ReplicationServiceCapabilities**](cim-re
 [**MSISCSITARGET\_ElementCapabilities**](msiscsitarget-elementcapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

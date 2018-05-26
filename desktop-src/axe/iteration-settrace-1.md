@@ -1,8 +1,11 @@
 ---
 title: Iteration SetTrace method
 description: Sets values for the Trace object of the Iteration.
-ms.assetid: 'AD8A6FC0-3029-4006-9817-967E30B50C3F'
-keywords: ["SetTrace method Access Execution Engine", "SetTrace method Access Execution Engine , Iteration interface", "Iteration interface Access Execution Engine , SetTrace method"]
+ms.assetid: AD8A6FC0-3029-4006-9817-967E30B50C3F
+keywords:
+- SetTrace method Access Execution Engine
+- SetTrace method Access Execution Engine , Iteration interface
+- Iteration interface Access Execution Engine , SetTrace method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::SetTrace method
@@ -22,9 +30,9 @@ Sets values for the [**Trace**](trace-struct.md) object of the **Iteration**.
 
 ```C++
 virtual HRESULT SetTrace(
-  [in]            LPCWSTR traceFile,
-  [in, optional]  LPCWSTR traceLink,
-  [out, optional] Trace   **trace
+  [in]            LPCWSTR traceFile,
+  [in, optional]  LPCWSTR traceLink,
+  [out, optional] Trace   **trace
 ) = 0;
 ```
 
@@ -73,8 +81,8 @@ The trace link is the value of element **Iteration/Trace/Link**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -87,9 +95,9 @@ The trace link is the value of element **Iteration/Trace/Link**.
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDevice SetSecureClockResponse method
 description: The SetSecureClockResponse method sets the secure clock response.
-ms.assetid: '3f0a1487-d8c4-478d-bfb0-8d09931fd4b6'
-keywords: ["SetSecureClockResponse method windows Media Device Manager", "SetSecureClockResponse method windows Media Device Manager , IWMDRMDevice interface", "IWMDRMDevice interface windows Media Device Manager , SetSecureClockResponse method"]
+ms.assetid: 3f0a1487-d8c4-478d-bfb0-8d09931fd4b6
+keywords:
+- SetSecureClockResponse method windows Media Device Manager
+- SetSecureClockResponse method windows Media Device Manager , IWMDRMDevice interface
+- IWMDRMDevice interface windows Media Device Manager , SetSecureClockResponse method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice::SetSecureClockResponse method
@@ -23,8 +31,8 @@ The **SetSecureClockResponse** method sets the secure clock response.
 
 ```C++
 HRESULT SetSecureClockResponse(
-  [in] BYTE  *pbResponse,
-  [in] DWORD cbResponse
+  [in] BYTE  *pbResponse,
+  [in] DWORD cbResponse
 );
 ```
 
@@ -60,7 +68,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -83,9 +91,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWMDRMDevice Interface**](iwmdrmdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

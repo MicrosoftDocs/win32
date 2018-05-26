@@ -1,8 +1,11 @@
 ---
 title: IMsgrSession SendContextData method
 description: Sends application-specific context data.
-ms.assetid: '5f27b2fa-9dd5-4c77-8e67-ab670509e462'
-keywords: ["SendContextData method Windows Messenger", "SendContextData method Windows Messenger , IMsgrSession interface", "IMsgrSession interface Windows Messenger , SendContextData method"]
+ms.assetid: 5f27b2fa-9dd5-4c77-8e67-ab670509e462
+keywords:
+- SendContextData method Windows Messenger
+- SendContextData method Windows Messenger , IMsgrSession interface
+- IMsgrSession interface Windows Messenger , SendContextData method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMsgrSession::SendContextData method
 
-\[**SendContextData** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**SendContextData** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Sends application-specific context data.
 
@@ -24,7 +32,7 @@ Sends application-specific context data.
 
 ```C++
 HRESULT SendContextData(
-  [in] BSTR bstrData
+  [in] BSTR bstrData
 );
 ```
 
@@ -61,7 +69,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,7 +88,7 @@ The following table lists the error codes returned by this method.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -88,10 +96,10 @@ The following table lists the error codes returned by this method.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Product<br/>                  | Messenger 4.0<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl> |
@@ -112,9 +120,9 @@ The following table lists the error codes returned by this method.
 [Messenger Lock and Key API](im-lock-and-key-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

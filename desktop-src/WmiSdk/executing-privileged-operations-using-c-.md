@@ -1,13 +1,16 @@
 ---
-Description: 'Special client applications might invoke privileged operations.'
+Description: Special client applications might invoke privileged operations.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e09fcadc-282f-4f07-b69c-b15bfdb07a7d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e09fcadc-282f-4f07-b69c-b15bfdb07a7d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Executing Privileged Operations Using C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Executing Privileged Operations Using C++
@@ -40,8 +43,8 @@ The following procedure describes how to create a thread token and use [**Adjust
 1.  Create a copy of the process token by calling [**ImpersonateSelf**](https://msdn.microsoft.com/library/windows/desktop/aa378729).
 2.  Retrieve the newly created thread token by calling [**GetTokenInformation**](https://msdn.microsoft.com/library/windows/desktop/aa446671).
 3.  Enable the privileged operation with a call to [**AdjustTokenPrivileges**](https://msdn.microsoft.com/library/windows/desktop/aa375202) on the new token.
-4.  Obtain a pointer to [**IWbemServices**](iwbemservices.md).
-5.  Cloak the pointer to [**IWbemServices**](iwbemservices.md) with a call to [**CoSetProxyBlanket**](_com_cosetproxyblanket).
+4.  Obtain a pointer to [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master).
+5.  Cloak the pointer to [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) with a call to [**CoSetProxyBlanket**](_com_cosetproxyblanket).
 6.  Repeat steps 1 through 5 on each call to WMI.
 
     > [!Note]  

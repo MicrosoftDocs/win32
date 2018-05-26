@@ -4,17 +4,21 @@ description: Instantiates a new ConsentResult.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'BF0C0EF9-CEF1-472A-97D6-18C47AA6F153'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: BF0C0EF9-CEF1-472A-97D6-18C47AA6F153
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ConsentResult ConsentResult method"]
+keywords:
+- ConsentResult ConsentResult method
 topic_type:
 - apiref
 api_name:
 - ConsentResult ConsentResult method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConsentResult ConsentResult method
@@ -41,7 +45,7 @@ public ConsentResult(   boolean accepted,
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -57,11 +61,11 @@ ConsentResult.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

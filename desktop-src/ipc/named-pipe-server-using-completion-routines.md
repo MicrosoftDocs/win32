@@ -1,14 +1,19 @@
 ---
-Description: 'Code example is a single-threaded pipe server that creates a message-type pipe and uses overlapped operations.'
-ms.assetid: '8b73485c-c6f7-44df-9e53-308df2c752e7'
+Description: Code example is a single-threaded pipe server that creates a message-type pipe and uses overlapped operations.
+ms.assetid: 8b73485c-c6f7-44df-9e53-308df2c752e7
 title: Named Pipe Server Using Completion Routines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Named Pipe Server Using Completion Routines
 
-The following example is a single-threaded pipe server that creates a message-type pipe and uses overlapped operations. It uses the extended functions [**ReadFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365468) and [**WriteFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365748) to perform overlapped I/O using a completion routine, which is queued for execution when the operation is finished. The pipe server uses the [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/windows/desktop/ms687036) function, which performs an alertable wait operation that returns when a completion routine is ready to execute. The wait function also returns when an event object is signaled, which in this example indicates that the overlapped [**ConnectNamedPipe**](connectnamedpipe.md) operation has finished (a new client has connected). This pipe server can be used with the pipe client described in [Named Pipe Client](named-pipe-client.md).
+The following example is a single-threaded pipe server that creates a message-type pipe and uses overlapped operations. It uses the extended functions [**ReadFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365468) and [**WriteFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365748) to perform overlapped I/O using a completion routine, which is queued for execution when the operation is finished. The pipe server uses the [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/windows/desktop/ms687036) function, which performs an alertable wait operation that returns when a completion routine is ready to execute. The wait function also returns when an event object is signaled, which in this example indicates that the overlapped [**ConnectNamedPipe**](/windows/win32/Winbase/?branch=master) operation has finished (a new client has connected). This pipe server can be used with the pipe client described in [Named Pipe Client](named-pipe-client.md).
 
-Initially, the pipe server creates a single instance of the pipe and starts an overlapped [**ConnectNamedPipe**](connectnamedpipe.md) operation. When a client connects, the server allocates a structure to provide storage for that pipe instance and then calls the [**ReadFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365468) function to start a sequence of I/O operations to handle communications with the client. Each operation specifies a completion routine that performs the next operation in the sequence. The sequence terminates when the client is disconnected and the pipe instance closed. After starting the sequence of operations for the new client, the server creates another pipe instance and waits for the next client to connect.
+Initially, the pipe server creates a single instance of the pipe and starts an overlapped [**ConnectNamedPipe**](/windows/win32/Winbase/?branch=master) operation. When a client connects, the server allocates a structure to provide storage for that pipe instance and then calls the [**ReadFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365468) function to start a sequence of I/O operations to handle communications with the client. Each operation specifies a completion routine that performs the next operation in the sequence. The sequence terminates when the client is disconnected and the pipe instance closed. After starting the sequence of operations for the new client, the server creates another pipe instance and waits for the next client to connect.
 
 The parameters of the [**ReadFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365468) and [**WriteFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365748) functions specify a completion routine and a pointer to an [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure. This pointer is passed to the completion routine in its *lpOverLap* parameter. Because the **OVERLAPPED** structure points to the first member in the structure allocated for each pipe instance, the completion routine can use its *lpOverLap* parameter to access the structure for the pipe instance.
 

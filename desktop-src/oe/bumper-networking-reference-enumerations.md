@@ -1,7 +1,12 @@
 ---
 title: Enumerations
 description: .
-ms.assetid: 'ee3aa6bd-ea1f-49dd-a4f5-62c03baffcc6'
+ms.assetid: ee3aa6bd-ea1f-49dd-a4f5-62c03baffcc6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerations

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Options for welding together vertices.'
-ms.assetid: 'e73af63d-ed02-4fbc-8386-e8a40b0465ea'
+---
+Description: Options for welding together vertices.
+ms.assetid: e73af63d-ed02-4fbc-8386-e8a40b0465ea
 title: D3DXWELDEPSILONSFLAGS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXWELDEPSILONSFLAGS enumeration

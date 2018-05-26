@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '35138496-9ffd-4286-8a81-aba187dc8afa'
-title: 'CPullPin.CPullPin constructor'
+Description: Constructor method.
+ms.assetid: 35138496-9ffd-4286-8a81-aba187dc8afa
+title: CPullPin.CPullPin constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPullPin.CPullPin constructor
@@ -39,9 +44,9 @@ This constructor has no parameters.
 [**CPullPin Class**](cpullpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

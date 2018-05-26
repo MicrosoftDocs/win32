@@ -1,7 +1,12 @@
 ---
 title: Tiles, badges, and notifications for Classic desktop applications
 description: This section contains information about how to respond to toast notifications with your Win32 application.
-ms.assetid: '3445cbfb-6235-49f4-912b-21f71b47b253'
+ms.assetid: 3445cbfb-6235-49f4-912b-21f71b47b253
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tiles, badges, and notifications for Classic desktop applications
@@ -21,7 +26,7 @@ This section contains information about how to respond to toast notifications wi
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +35,9 @@ This section contains information about how to respond to toast notifications wi
 [Tiles, badges, and notifications for UWP apps](https://msdn.microsoft.com/library/windows/apps/mt185606)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,21 @@
 ---
 title: Implementing Render
 description: Implementing Render
-ms.assetid: '5791f6ea-ddad-49e6-8c6f-8093592895d4'
-keywords: ["visualizations,Glow sample", "custom visualizations,Glow sample", "programming guide,visualizations", "samples,Glow visualization", "Glow visualization sample", "visualizations,Render function", "custom visualizations,Render function", "Render function,Glow sample"]
+ms.assetid: 5791f6ea-ddad-49e6-8c6f-8093592895d4
+keywords:
+- visualizations,Glow sample
+- custom visualizations,Glow sample
+- programming guide,visualizations
+- samples,Glow visualization
+- Glow visualization sample
+- visualizations,Render function
+- custom visualizations,Render function
+- Render function,Glow sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing Render

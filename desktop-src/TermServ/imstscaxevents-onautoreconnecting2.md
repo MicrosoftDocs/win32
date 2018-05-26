@@ -1,14 +1,17 @@
 ---
 title: IMsTscAxEvents OnAutoReconnecting2 method
-description: Called when a client is in the process of automatically reconnecting a session with a Remote Desktop Session Host (RD Session Host) server.
+description: Called when a client is in the process of automatically reconnecting a session with a Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '20F69798-5397-440C-9D0D-45AE417623A7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 20F69798-5397-440C-9D0D-45AE417623A7
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnAutoReconnecting2 method Remote Desktop Services", "OnAutoReconnecting2 method Remote Desktop Services , IMsTscAxEvents interface", "IMsTscAxEvents interface Remote Desktop Services , OnAutoReconnecting2 method"]
+keywords:
+- OnAutoReconnecting2 method Remote Desktop Services
+- OnAutoReconnecting2 method Remote Desktop Services , IMsTscAxEvents interface
+- IMsTscAxEvents interface Remote Desktop Services , OnAutoReconnecting2 method
 topic_type:
 - apiref
 api_name:
@@ -17,21 +20,24 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAxEvents::OnAutoReconnecting2 method
 
-Called when a client is in the process of automatically reconnecting a session with a Remote Desktop Session Host (RD Session Host) server. This is an enhanced version of the [**OnAutoReconnecting**](-imstscaxevents--onautoreconnecting.md) method.
+Called when a client is in the process of automatically reconnecting a session with a Remote Desktop Session Host (RD Session Host) server. This is an enhanced version of the [**OnAutoReconnecting**](-imstscaxevents--onautoreconnecting.md) method.
 
 ## Syntax
 
 
 ```C++
 void OnAutoReconnecting2(
-  [in] LONG         disconnectReason,
-  [in] VARIANT_BOOL networkAvailable,
-  [in] LONG         attemptCount,
-  [in] LONG         maxAttemptCount
+  [in] LONG         disconnectReason,
+  [in] VARIANT_BOOL networkAvailable,
+  [in] LONG         attemptCount,
+  [in] LONG         maxAttemptCount
 );
 ```
 
@@ -79,8 +85,8 @@ This method does not return a value.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
@@ -93,9 +99,9 @@ This method does not return a value.
 [**IMsTscAxEvents**](imstscaxevents-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

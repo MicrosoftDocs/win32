@@ -1,7 +1,12 @@
 ---
-Description: 'Device is in the local machine container.'
-ms.assetid: '95b92f2a-614b-4fb1-b98e-6984de0a8377'
-title: 'System.Devices.InLocalMachineContainer'
+Description: Device is in the local machine container.
+ms.assetid: 95b92f2a-614b-4fb1-b98e-6984de0a8377
+title: System.Devices.InLocalMachineContainer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.InLocalMachineContainer

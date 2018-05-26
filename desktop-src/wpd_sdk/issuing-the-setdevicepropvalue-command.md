@@ -1,7 +1,12 @@
 ---
 Description: Issuing the SetDevicePropValue Command
-ms.assetid: 'd5917421-fbd4-477c-b29b-9f983c93cfdb'
+ms.assetid: d5917421-fbd4-477c-b29b-9f983c93cfdb
 title: Issuing the SetDevicePropValue Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issuing the SetDevicePropValue Command

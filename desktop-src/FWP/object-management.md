@@ -1,7 +1,12 @@
 ---
 title: Object Management
 description: This section covers the correct use of Windows Filtering Platform (WFP) API object types.
-ms.assetid: '2AA17E66-85B1-4F79-9C55-5240FBC588D2'
+ms.assetid: 2AA17E66-85B1-4F79-9C55-5240FBC588D2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Management
@@ -10,25 +15,25 @@ This section covers the correct use of Windows Filtering Platform (WFP) API obje
 
 ## Sessions
 
-The WFP API is session-oriented, and most function calls are made within the context of a session. A new client session is created by calling [**FwpmEngineOpen0**](fwpmengineopen0-func.md). The session ends either when the client calls [**FwpmEngineClose0**](fwpmengineclose0-func.md) or the client process terminates. When a session is destroyed, either on purpose or by the RPC rundown, the Base Filtering Engine (BFE) first aborts any existing transaction.
+The WFP API is session-oriented, and most function calls are made within the context of a session. A new client session is created by calling [**FwpmEngineOpen0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmengineopen0?branch=master). The session ends either when the client calls [**FwpmEngineClose0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmengineclose0?branch=master) or the client process terminates. When a session is destroyed, either on purpose or by the RPC rundown, the Base Filtering Engine (BFE) first aborts any existing transaction.
 
-When creating a new session, the caller can create a dynamic session by passing the [**FWPM\_SESSION\_FLAG\_DYNAMIC**](fwpm-session0-struct.md) flag to [**FwpmEngineOpen0**](fwpmengineopen0-func.md). Any objects added during a dynamic session are automatically deleted when the session ends.
+When creating a new session, the caller can create a dynamic session by passing the [**FWPM\_SESSION\_FLAG\_DYNAMIC**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_session0_?branch=master) flag to [**FwpmEngineOpen0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmengineopen0?branch=master). Any objects added during a dynamic session are automatically deleted when the session ends.
 
 ## Transactions
 
-The WFP API is transactional, and most function calls are made within the context of a transaction. Callers can use [**FwpmTransactionBegin0**](fwpmtransactionbegin0-func.md), [**FwpmTransactionCommit0**](fwpmtransactioncommit0-func.md), and [**FwpmTransactionAbort0**](fwpmtransactionabort0-func.md) to explicitly control transactions. However, if a function call is made outside of an explicit transaction, it will be executed within an implicit transaction. If a transaction is in progress, when a session terminates, it is automatically aborted. Implicit transactions are never forcibly aborted.
+The WFP API is transactional, and most function calls are made within the context of a transaction. Callers can use [**FwpmTransactionBegin0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmtransactionbegin0?branch=master), [**FwpmTransactionCommit0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmtransactioncommit0?branch=master), and [**FwpmTransactionAbort0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmtransactionabort0?branch=master) to explicitly control transactions. However, if a function call is made outside of an explicit transaction, it will be executed within an implicit transaction. If a transaction is in progress, when a session terminates, it is automatically aborted. Implicit transactions are never forcibly aborted.
 
 Transactions are either read-only or read/write and enforce rigorous Atomic Consistent Isolated Durable ([ACID](http://go.microsoft.com/fwlink/p/?linkid=98334)) semantics.
 
 Each client session can have only one transaction in progress at a time. If the caller attempts to begin a second transaction before committing or aborting the first, BFE returns an error.
 
-If an operation fails during the course of a transaction, it does not affect the overall state of the transaction. For example, suppose the client begins a transaction and successfully calls [**FwpmFilterAdd0**](fwpmfilteradd0-func.md) three times before a fourth call fails. The client now has the option of:
+If an operation fails during the course of a transaction, it does not affect the overall state of the transaction. For example, suppose the client begins a transaction and successfully calls [**FwpmFilterAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilteradd0?branch=master) three times before a fourth call fails. The client now has the option of:
 
 -   Aborting the transaction, in which case none of the filters will be added.
 -   Committing the transaction, in which case the first three filters will be added.
--   Continuing with more operations including potentially retrying the failed [**FwpmFilterAdd0**](fwpmfilteradd0-func.md).
+-   Continuing with more operations including potentially retrying the failed [**FwpmFilterAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilteradd0?branch=master).
 
-When beginning a transaction, BFE will wait until the session's [**txnWaitTimeoutInMSec**](fwpm-session0-struct.md) expires to acquire the lock. If the lock is not acquired within this time, the lock acquisition (and the [**FwpmTransactionBegin0**](fwpmtransactionbegin0-func.md) call) will fail. This prevents clients from indefinitely failing to respond. If the client did not specify a lock timeout, it defaults to 15 seconds.
+When beginning a transaction, BFE will wait until the session's [**txnWaitTimeoutInMSec**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_session0_?branch=master) expires to acquire the lock. If the lock is not acquired within this time, the lock acquisition (and the [**FwpmTransactionBegin0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmtransactionbegin0?branch=master) call) will fail. This prevents clients from indefinitely failing to respond. If the client did not specify a lock timeout, it defaults to 15 seconds.
 
 Each transaction also has a lock timeout. This is the maximum amount of time that it can own the lock. If the owner does not release the lock within this time, the transaction is forcibly aborted, causing the lock to be released. The lock timeout is not configurable. It is infinite for kernel-mode callers and one hour for user-mode callers. If a transaction is forcibly aborted, the next call made within that transaction will fail with **FWP\_E\_TXN\_ABORTED**.
 
@@ -41,7 +46,7 @@ Objects can have one of four possible lifetimes:
 -   Persistent — Persistent objects are created by passing the appropriate **FWPM\_\*\_FLAG\_PERSISTENT** flag to an **Fwpm\*Add0** function. Persistent objects live until they are deleted.
 -   Built-in — Built-in objects are predefined by BFE and cannot be added or deleted. They live forever.
 
-Filters in kernel-mode layers can be marked as boot-time filters by passing the appropriate flag to [**FwpmFilterAdd0**](fwpmfilteradd0-func.md). Boot-time filters are added to the system when the TCP/IP driver starts, and removed when BFE finishes initialization. Persistent objects are added when BFE starts.
+Filters in kernel-mode layers can be marked as boot-time filters by passing the appropriate flag to [**FwpmFilterAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilteradd0?branch=master). Boot-time filters are added to the system when the TCP/IP driver starts, and removed when BFE finishes initialization. Persistent objects are added when BFE starts.
 
 In many cases, a policy provider may not want its persistent policy enforced if the provider has been disabled. When adding a provider, the caller can specify an optional Windows service name. When adding persistent objects, the caller can optionally specify the provider that "owns" that object. At service start, BFE only adds persistent objects to the system if they are not associated with a provider, or the associated provider has no Windows service name, or the associated Windows service is set to auto-start.
 

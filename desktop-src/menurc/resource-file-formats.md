@@ -1,7 +1,12 @@
 ---
 title: Resource File Formats
 description: This section describes the format of the binary resource file that the resource compiler creates based on the contents of the resource-definition file.
-ms.assetid: 'a0b17555-f50a-4d58-b2bc-760843dd67eb'
+ms.assetid: a0b17555-f50a-4d58-b2bc-760843dd67eb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource File Formats
@@ -48,11 +53,11 @@ A *menu resource* consists of a [**MENUHEADER**](menuheader.md) structure follow
 
 ## Message Table Resources
 
-A *message table* is a resource that contains formatted text for display as an error message or in a message box. The main structure in a message table resource is the [**MESSAGE\_RESOURCE\_DATA**](message-resource-data.md) structure.
+A *message table* is a resource that contains formatted text for display as an error message or in a message box. The main structure in a message table resource is the [**MESSAGE\_RESOURCE\_DATA**](/windows/win32/Winnt/ns-winnt-_message_resource_data?branch=master) structure.
 
 ## Version Resources
 
-The main structure in a version resource is the [**VS\_FIXEDFILEINFO**](vs-fixedfileinfo.md) structure. Additional structures include the [**VarFileInfo**](varfileinfo.md) structure to store language information data, and [**StringFileInfo**](stringfileinfo.md) for user-defined string information. All strings in a version resource are in Unicode format. Each block of information is aligned on a **DWORD** boundary.
+The main structure in a version resource is the [**VS\_FIXEDFILEINFO**](/windows/win32/VerRsrc/ns-verrsrc-tagvs_fixedfileinfo?branch=master) structure. Additional structures include the [**VarFileInfo**](varfileinfo.md) structure to store language information data, and [**StringFileInfo**](stringfileinfo.md) for user-defined string information. All strings in a version resource are in Unicode format. Each block of information is aligned on a **DWORD** boundary.
 
  
 

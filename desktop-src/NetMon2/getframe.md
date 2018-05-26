@@ -1,7 +1,12 @@
 ---
-Description: 'The GetFrame function returns a handle to a given frame within a capture.'
-ms.assetid: 'efd1cff5-a3a1-4910-b003-25b6e10dad6e'
+Description: The GetFrame function returns a handle to a given frame within a capture.
+ms.assetid: efd1cff5-a3a1-4910-b003-25b6e10dad6e
 title: GetFrame function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetFrame function
@@ -13,8 +18,8 @@ The **GetFrame** function returns a handle to a given frame within a capture.
 
 ```C++
 HFRAME WINAPI GetFrame(
-  _In_ HCAPTURE hCapture,
-  _In_ DWORD    FrameNumber
+  _In_ HCAPTURE hCapture,
+  _In_ DWORD    FrameNumber
 );
 ```
 
@@ -56,8 +61,8 @@ Use the **GetFrame** function to obtain the frame handle needed when locating in
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -74,9 +79,9 @@ Use the **GetFrame** function to obtain the frame handle needed when locating in
 [FindPropertyInstanceRestart](findpropertyinstancerestart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

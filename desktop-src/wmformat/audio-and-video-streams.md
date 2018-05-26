@@ -1,8 +1,24 @@
 ---
 title: Audio and Video Streams
 description: Audio and Video Streams
-ms.assetid: '809e5bb6-2bc4-4022-9117-a2be5418d7d1'
-keywords: ["Windows Media Format SDK,audio streams", "Advanced Systems Format (ASF),audio streams", "ASF (Advanced Systems Format),audio streams", "Windows Media Format SDK,video streams", "Advanced Systems Format (ASF),video streams", "ASF (Advanced Systems Format),video streams", "Windows Media Format SDK,streams", "Advanced Systems Format (ASF),streams", "ASF (Advanced Systems Format),streams", "audio streams,about", "video streams,about"]
+ms.assetid: 809e5bb6-2bc4-4022-9117-a2be5418d7d1
+keywords:
+- Windows Media Format SDK,audio streams
+- Advanced Systems Format (ASF),audio streams
+- ASF (Advanced Systems Format),audio streams
+- Windows Media Format SDK,video streams
+- Advanced Systems Format (ASF),video streams
+- ASF (Advanced Systems Format),video streams
+- Windows Media Format SDK,streams
+- Advanced Systems Format (ASF),streams
+- ASF (Advanced Systems Format),streams
+- audio streams,about
+- video streams,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio and Video Streams

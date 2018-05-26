@@ -1,15 +1,18 @@
 ---
-Description: 'Applies the setting to a managed system element.'
+Description: Applies the setting to a managed system element.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'CFF97CB8-97FF-4715-914D-4B08006D1497'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: CFF97CB8-97FF-4715-914D-4B08006D1497
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ApplyToMSE method of the MSFT\_IPAM\_ServerConfiguration class'
+title: ApplyToMSE method of the MSFT\_IPAM\_ServerConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ApplyToMSE method of the MSFT\_IPAM\_ServerConfiguration class
@@ -23,9 +26,9 @@ This method is inherited from the **CIM\_Setting** class.
 
 ```mof
 uint32 ApplyToMSE(
-  [in] CIM_ManagedSystemElement  REF MSE,
-  [in] datetime                      TimeToApply,
-  [in] datetime                      MustBeCompletedBy
+  [in] CIM_ManagedSystemElement  REF MSE,
+  [in] datetime                      TimeToApply,
+  [in] datetime                      MustBeCompletedBy
 );
 ```
 
@@ -92,7 +95,7 @@ The setting could not be applied by the specified time.
 
 </dt> <dd>
 
-3–...
+3 ...
 
 Any other error.
 
@@ -105,7 +108,7 @@ Any other error.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -119,9 +122,9 @@ Any other error.
 [**MSFT\_IPAM\_ServerConfiguration**](msft-ipam-serverconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,25 @@
 ---
 title: Handling Protected Content in the Application
 description: Handling Protected Content in the Application
-ms.assetid: 'b59d4abc-e59d-47a7-8d91-825ac20ae2eb'
-keywords: ["Windows Media Device Manager,certificates", "Device Manager,certificates", "programming guide,certificates", "desktop applications,certificates", "creating Windows Media Device Manager applications,certificates", "certificates", "Windows Media Device Manager,DRM-protected content", "Device Manager,DRM-protected content", "programming guide,DRM-protected content", "desktop applications,DRM-protected content", "creating Windows Media Device Manager applications,DRM-protected content", "DRM-protected content"]
+ms.assetid: b59d4abc-e59d-47a7-8d91-825ac20ae2eb
+keywords:
+- Windows Media Device Manager,certificates
+- Device Manager,certificates
+- programming guide,certificates
+- desktop applications,certificates
+- creating Windows Media Device Manager applications,certificates
+- certificates
+- Windows Media Device Manager,DRM-protected content
+- Device Manager,DRM-protected content
+- programming guide,DRM-protected content
+- desktop applications,DRM-protected content
+- creating Windows Media Device Manager applications,DRM-protected content
+- DRM-protected content
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Protected Content in the Application

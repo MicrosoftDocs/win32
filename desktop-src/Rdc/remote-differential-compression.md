@@ -4,11 +4,16 @@ description: Applications to synchronize data between two computers in an effici
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '128178a5-efaf-49cc-8f21-6e83bceb87f0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-differential-compression'
+ms.assetid: 128178a5-efaf-49cc-8f21-6e83bceb87f0
+ms.prod: windows-server-dev
+ms.technology: remote-differential-compression
 ms.tgt_platform: multiple
-keywords: ["Remote Differential Compression Files", "Remote Differential Compression Files , home page"]
+keywords:
+- Remote Differential Compression Files
+- Remote Differential Compression Files , home page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Differential Compression

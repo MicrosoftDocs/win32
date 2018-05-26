@@ -1,8 +1,16 @@
 ---
 title: Service Proxy and Sessions
 description: The service proxy has special behaviors for session and non-session-based channel bindings.
-ms.assetid: '6dc9de95-b97c-4acc-9d45-d5e6ebb6bd77'
-keywords: ["Service Proxy and Sessions Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 6dc9de95-b97c-4acc-9d45-d5e6ebb6bd77
+keywords:
+- Service Proxy and Sessions Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service Proxy and Sessions
@@ -11,7 +19,7 @@ The [service proxy](service-proxy.md) has special behaviors for session and non-
 
 ## 
 
-If the channel binding is session based and if the underlying channel faults, the service proxy state machine will transition into the [**WS\_SERVICE\_PROXY\_STATE\_FAULTED**](ws-service-proxy-state.md) state. In the case of non-session based channel binding, a fault in the underlying channel does not cause the proxy to transition into **WS\_SERVICE\_PROXY\_STATE\_FAULTED** state.
+If the channel binding is session based and if the underlying channel faults, the service proxy state machine will transition into the [**WS\_SERVICE\_PROXY\_STATE\_FAULTED**](/windows/win32/WebServices/ne-webservices-ws_service_proxy_state?branch=master) state. In the case of non-session based channel binding, a fault in the underlying channel does not cause the proxy to transition into **WS\_SERVICE\_PROXY\_STATE\_FAULTED** state.
 
 For more information on the service proxy and its relation to state, see the [Service Proxy](service-proxy.md) topic. For examples of different channel bindings see the following examples:
 

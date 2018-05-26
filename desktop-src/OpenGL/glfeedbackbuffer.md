@@ -1,8 +1,9 @@
 ---
 title: glFeedbackBuffer function
 description: The glFeedbackBuffer function controls feedback mode.
-ms.assetid: 'fe3773a7-c264-4d49-8f90-1f2319f9af4f'
-keywords: ["glFeedbackBuffer function OpenGL"]
+ms.assetid: fe3773a7-c264-4d49-8f90-1f2319f9af4f
+keywords:
+- glFeedbackBuffer function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glFeedbackBuffer function
@@ -22,9 +28,9 @@ The **glFeedbackBuffer** function controls feedback mode.
 
 ```C++
 void WINAPI glFeedbackBuffer(
-   GLsizei size,
-   GLenum  type,
-   GLfloat *buffer
+   GLsizei size,
+   GLenum  type,
+   GLfloat *buffer
 );
 ```
 
@@ -109,43 +115,43 @@ You can insert a marker into the feedback buffer with [**glPassThrough**](glpass
 
 The following is the grammar for the blocks of values written into the feedback buffer. Each primitive is indicated with a unique identifying value followed by some number of vertices. Polygon entries include an integer value indicating how many vertices follow. A vertex is fed back as some number of floating-point values, as determined by *type*. Colors are fed back as four values in RGBA mode and one value in color-index mode.
 
-feedbackList &lt;— feedbackItem feedbackList \| feedbackItem
+feedbackList &lt;  feedbackItem feedbackList \| feedbackItem
 
-feedbackItem &lt;— point \| lineSegment \| polygon \| bitmap \| pixelRectangle \| passThru
+feedbackItem &lt;  point \| lineSegment \| polygon \| bitmap \| pixelRectangle \| passThru
 
-point &lt;— GL\_POINT\_TOKEN vertex
+point &lt;  GL\_POINT\_TOKEN vertex
 
-lineSegment &lt;— GL\_LINE\_TOKEN vertex vertex \| GL\_LINE\_RESET\_TOKEN vertex vertex
+lineSegment &lt;  GL\_LINE\_TOKEN vertex vertex \| GL\_LINE\_RESET\_TOKEN vertex vertex
 
-polygon &lt;— GL\_POLYGON\_TOKEN n polySpec
+polygon &lt;  GL\_POLYGON\_TOKEN n polySpec
 
-polySpec &lt;— polySpec vertex \| vertex vertex vertex
+polySpec &lt;  polySpec vertex \| vertex vertex vertex
 
-bitmap &lt;— GL\_BITMAP\_TOKEN vertex
+bitmap &lt;  GL\_BITMAP\_TOKEN vertex
 
-pixelRectangle &lt;— GL\_DRAW\_PIXEL\_TOKEN vertex \| GL\_COPY\_PIXEL\_TOKEN vertex
+pixelRectangle &lt;  GL\_DRAW\_PIXEL\_TOKEN vertex \| GL\_COPY\_PIXEL\_TOKEN vertex
 
-passThru &lt;— GL\_PASS\_THROUGH\_TOKEN value
+passThru &lt;  GL\_PASS\_THROUGH\_TOKEN value
 
-vertex &lt;— 2d \| 3d \| 3dColor \| 3dColorTexture \| 4dColorTexture
+vertex &lt;  2d \| 3d \| 3dColor \| 3dColorTexture \| 4dColorTexture
 
-2d &lt;— value value
+2d &lt;  value value
 
-3d &lt;— value value value
+3d &lt;  value value value
 
-3dColor &lt;— value value value color
+3dColor &lt;  value value value color
 
-3dColorTexture &lt;— value value value color tex
+3dColorTexture &lt;  value value value color tex
 
-4dColorTexture &lt;— value value value value color tex
+4dColorTexture &lt;  value value value value color tex
 
-color &lt;— rgba \| index
+color &lt;  rgba \| index
 
-rgba &lt;— value value value value
+rgba &lt;  value value value value
 
-index &lt;— value
+index &lt;  value
 
-tex &lt;— value value value value
+tex &lt;  value value value value
 
 The *value* parameter is a floating-point number, and *n* is a floating-point integer giving the number of vertices in the polygon. The following are symbolic floating-point constants: GL\_POINT\_TOKEN, GL\_LINE\_TOKEN, GL\_LINE\_RESET\_TOKEN, GL\_POLYGON\_TOKEN, GL\_BITMAP\_TOKEN, GL\_DRAW\_PIXEL\_TOKEN, GL\_COPY\_PIXEL\_TOKEN, and GL\_PASS\_THROUGH\_TOKEN. GL\_LINE\_RESET\_TOKEN is returned whenever the line stipple pattern is reset. The data returned as a vertex depends on the feedback *type*.
 
@@ -163,7 +169,7 @@ The following table gives the correspondence between *type* and the number of va
 
 
 
- 
+ 
 
 Feedback vertex coordinates are in window coordinates, except *w*, which is in clip coordinates. Feedback colors are lighted, if lighting is enabled. Feedback texture coordinates are generated, if texture coordinate generation is enabled. They are always transformed by the texture matrix.
 
@@ -179,8 +185,8 @@ The following function retrieves information related to **glFeedbackBuffer**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -215,9 +221,9 @@ The following function retrieves information related to **glFeedbackBuffer**:
 [**glSelectBuffer**](glselectbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This is an overview of what to expect for the end-to-end journey of an event for each of the four tracing technologies furnished by Microsoft: TraceLogging, Manifest-based, WPP, and MOF.'
-ms.assetid: '6102593C-C6D5-4BDB-A0EF-067AF91DE00B'
+Description: This is an overview of what to expect for the end-to-end journey of an event for each of the four tracing technologies furnished by Microsoft TraceLogging, Manifest-based, WPP, and MOF.
+ms.assetid: 6102593C-C6D5-4BDB-A0EF-067AF91DE00B
 title: Event Metadata Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Metadata Overview
@@ -10,7 +15,7 @@ This is an overview of what to expect for the end-to-end journey of an event for
 
 ## Event Payloads
 
-For any of the Microsoft-provided tracing technologies, when calling the Write command (for instance [**EventWrite**](eventwrite-func.md) for manifest-based or [**TraceLoggingWrite**](tracelogging.traceloggingwrite) for TraceLogging), the data provided for the event at runtime is folded into a contiguous binary blob called the event payload. This is separate from the event schema or event metadata (discussed below), which describes the layout of this binary blob for decoding tools. How exactly the generation of the event payload happens varies depending on the tracing technology used and ultimately whether the event is classic ([**TraceEvent**](traceevent.md) style) or modern (**EventWrite** style).
+For any of the Microsoft-provided tracing technologies, when calling the Write command (for instance [**EventWrite**](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master) for manifest-based or [**TraceLoggingWrite**](tracelogging.traceloggingwrite) for TraceLogging), the data provided for the event at runtime is folded into a contiguous binary blob called the event payload. This is separate from the event schema or event metadata (discussed below), which describes the layout of this binary blob for decoding tools. How exactly the generation of the event payload happens varies depending on the tracing technology used and ultimately whether the event is classic ([**TraceEvent**](traceevent.md) style) or modern (**EventWrite** style).
 
 For classic events, the flag in [**EVENT\_TRACE\_HEADER**](event-trace-header.md) is passed into [**TraceEvent**](traceevent.md) which determines how this occurs:
 
@@ -20,13 +25,13 @@ For classic events, the flag in [**EVENT\_TRACE\_HEADER**](event-trace-header.md
 
 Both MOF and WPP are classic providers. However, the WPP implementation takes care of all of this for you.
 
-For non-classic events, a number of [**EVENT\_DATA\_DESCRIPTORS**](event-data-descriptor.md) are passed into [**EventWrite**](eventwrite-func.md). The ETW runtime will concatenate the event data as specified in these descriptors to form the event payload.
+For non-classic events, a number of [**EVENT\_DATA\_DESCRIPTORS**](/windows/win32/Evntprov/ns-evntprov-_event_data_descriptor?branch=master) are passed into [**EventWrite**](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master). The ETW runtime will concatenate the event data as specified in these descriptors to form the event payload.
 
 Both Manifest-based and TraceLogging technologies are generally modern providers. With manifest-based, if you let mc.exe generate logging code for you (um or km switch), payload generation is taken care of for you. Payload generation is always taken care of by TraceLogging.
 
 The end result is that a payload for an event is generated at runtime. All payloads are fundamentally similar in that they are binary blobs of data containing only the field data for that particular event, regardless of the tracing technology used and which field types are supported by that tracing technology. Without the event metadata, the event payload is meaningless and unintelligable.
 
-The ETW runtime's duty is then to carry this event blob from the provider to the consumer, where it is re-associated with its metadata and becomes decodable. The ETW runtime will add a bit of extra metadata indicating the circumstances of the payload -- for instance things like the timestamp, thread ID, and keywords of the event. This information is relevant to how the event was routed through the runtime, and it is also useful for understanding the identity and context of the event at decoding time. It is eventually surfaced as part of the [**EVENT\_TRACE**](event-trace.md) or [**EVENT\_RECORD**](event-record.md) for the consumer
+The ETW runtime's duty is then to carry this event blob from the provider to the consumer, where it is re-associated with its metadata and becomes decodable. The ETW runtime will add a bit of extra metadata indicating the circumstances of the payload -- for instance things like the timestamp, thread ID, and keywords of the event. This information is relevant to how the event was routed through the runtime, and it is also useful for understanding the identity and context of the event at decoding time. It is eventually surfaced as part of the [**EVENT\_TRACE**](event-trace.md) or [**EVENT\_RECORD**](/windows/win32/relogger/ns-evntcons-_event_record?branch=master) for the consumer
 
 ## Event Metadata
 
@@ -58,7 +63,7 @@ TDH utilizes MOF decoding data registered on the system using mofcomp.exe. For m
 
 ### WPP
 
-TDH must be pointed towards either the .pdb file or the associated .tmf for the WPP provider you are trying to decode. This can be performed by calling [**TdhSetDecodingParameter**](tdhsetdecodingparameter.md). Otherwise, the decoding engine will fall back on the environment variable TRACE\_FORMAT\_SEARCH\_PATH.
+TDH must be pointed towards either the .pdb file or the associated .tmf for the WPP provider you are trying to decode. This can be performed by calling [**TdhSetDecodingParameter**](/windows/win32/Tdh/nf-tdh-tdhsetdecodingparameter?branch=master). Otherwise, the decoding engine will fall back on the environment variable TRACE\_FORMAT\_SEARCH\_PATH.
 
 ### Manifest-based
 

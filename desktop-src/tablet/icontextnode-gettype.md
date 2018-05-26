@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the type of the IContextNode object.'
-ms.assetid: '285384ce-5cdc-47f5-a1c4-6c6d7f18e215'
-title: 'IContextNode::GetType method'
+Description: Retrieves the type of the IContextNode object.
+ms.assetid: 285384ce-5cdc-47f5-a1c4-6c6d7f18e215
+title: IContextNodeGetType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::GetType method
@@ -13,7 +18,7 @@ Retrieves the type of the [**IContextNode**](icontextnode.md) object.
 
 ```C++
 HRESULT GetType(
-  [out] GUID *pContextNodeType
+  [out] GUID *pContextNodeType
 );
 ```
 
@@ -125,7 +130,7 @@ HRESULT CMyClass::GetNodeInformation(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -145,9 +150,9 @@ HRESULT CMyClass::GetNodeInformation(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

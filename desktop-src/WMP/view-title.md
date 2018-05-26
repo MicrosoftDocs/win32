@@ -1,14 +1,20 @@
 ---
 title: VIEW.title
 description: The title attribute specifies or retrieves the title of the VIEW.
-ms.assetid: 'c23a2880-cb20-4a0f-9ce6-3fa3aec7f8ff'
-keywords: ["VIEW.title Windows Media Player"]
+ms.assetid: c23a2880-cb20-4a0f-9ce6-3fa3aec7f8ff
+keywords:
+- VIEW.title Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.title
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.title
@@ -47,9 +53,9 @@ The title specified or retrieved is the display name for the theme.
 [**VIEW.titleBar**](view-titlebar.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

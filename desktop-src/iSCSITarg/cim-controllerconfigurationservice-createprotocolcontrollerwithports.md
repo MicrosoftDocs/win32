@@ -4,13 +4,16 @@ description: This method creates an appropriate subclass of ProtocolController.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b165a001-0c17-4731-a91b-9843d0539557'
-ms.prod: 'windows-server-dev'
+ms.assetid: b165a001-0c17-4731-a91b-9843d0539557
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateProtocolControllerWithPorts method iSCSI Software Target API", "CreateProtocolControllerWithPorts method iSCSI Software Target API , CIM_ControllerConfigurationService class", "CIM_ControllerConfigurationService class iSCSI Software Target API , CreateProtocolControllerWithPorts method"]
+keywords:
+- CreateProtocolControllerWithPorts method iSCSI Software Target API
+- CreateProtocolControllerWithPorts method iSCSI Software Target API , CIM_ControllerConfigurationService class
+- CIM_ControllerConfigurationService class iSCSI Software Target API , CreateProtocolControllerWithPorts method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateProtocolControllerWithPorts method of the CIM\_ControllerConfigurationService class
@@ -32,12 +38,12 @@ If multiple target ports are specified in the Ports input parameter, all expose 
 
 ```mof
 uint32 CreateProtocolControllerWithPorts(
-  [in]  string                     ElementName,
-  [in]  string                     Ports[],
-  [in]  uint16                     Protocol,
-  [in]  CIM_Privilege          REF Privilege,
-  [in]  CIM_ManagedElement     REF Identity,
-  [out] CIM_ProtocolController REF ProtocolController
+  [in]  string                     ElementName,
+  [in]  string                     Ports[],
+  [in]  uint16                     Protocol,
+  [in]  CIM_Privilege          REF Privilege,
+  [in]  CIM_ManagedElement     REF Identity,
+  [out] CIM_ProtocolController REF ProtocolController
 );
 ```
 
@@ -136,7 +142,7 @@ A reference to the new ProtocolController that is created.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **ID Parameter Missing or Not Unique** (4096)
@@ -148,10 +154,10 @@ A reference to the new ProtocolController that is created.
 **Busy** (4098)
 </dt> <dt>
 
-**Method Reserved** (4099–32767)
+**Method Reserved** (4099 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -161,7 +167,7 @@ A reference to the new ProtocolController that is created.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -175,9 +181,9 @@ A reference to the new ProtocolController that is created.
 [**CIM\_ControllerConfigurationService**](cim-controllerconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Returns FALSE if the current thread is the owner of the specified critical section.'
-ms.assetid: '1a2cb56c-2806-4bb2-b904-985af332b290'
+Description: Returns FALSE if the current thread is the owner of the specified critical section.
+ms.assetid: 1a2cb56c-2806-4bb2-b904-985af332b290
 title: CritCheckOut function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CritCheckOut function
@@ -13,7 +18,7 @@ Returns **FALSE** if the current thread is the owner of the specified critical s
 
 ```C++
 BOOL WINAPI CritCheckOut(
-   CCritSec *pcCrit
+   CCritSec *pcCrit
 );
 ```
 
@@ -56,9 +61,9 @@ This function is the inverse of the [**CritCheckIn**](critcheckin.md) function. 
 [Critical Section Debugging Functions](critical-section-debugging-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

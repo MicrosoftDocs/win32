@@ -1,7 +1,12 @@
 ---
-Description: 'The SetSubtype method specifies the subtype.'
-ms.assetid: 'cf52e0dc-d75b-408e-a63c-481d55151d4a'
-title: 'CMediaType.SetSubtype method'
+Description: The SetSubtype method specifies the subtype.
+ms.assetid: cf52e0dc-d75b-408e-a63c-481d55151d4a
+title: CMediaType.SetSubtype method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.SetSubtype method
@@ -13,7 +18,7 @@ The `SetSubtype` method specifies the subtype.
 
 ```C++
 void SetSubtype(
-   const GUID *psubtype
+   const GUID *psubtype
 );
 ```
 
@@ -52,9 +57,9 @@ This method does not return a value.
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMCommonUIProp function
-ms.assetid: 'd993117d-e8d4-4e00-bcb8-c83a15b6c037'
+ms.assetid: d993117d-e8d4-4e00-bcb8-c83a15b6c037
 title: OEMCommonUIProp function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMCommonUIProp function

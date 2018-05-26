@@ -1,14 +1,17 @@
 ---
 title: DisableClipboard method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
-description: Sets the ClipboardDisabled property. If the DeviceRedirectionType property has a value of \ 0034;2 \ 0034;, the ClipboardDisabled property controls redirection of the clipboard for sessions that are established through the Remote Desktop Gateway (RD Gateway) server.
+description: Sets the ClipboardDisabled property. If the DeviceRedirectionType property has a value of \ 0034;2 \ 0034;, the ClipboardDisabled property controls redirection of the clipboard for sessions that are established through the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c53fc802-958b-452d-9af9-0ce89ed46079'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c53fc802-958b-452d-9af9-0ce89ed46079
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DisableClipboard method Remote Desktop Services", "DisableClipboard method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class", "Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , DisableClipboard method"]
+keywords:
+- DisableClipboard method Remote Desktop Services
+- DisableClipboard method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class
+- Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , DisableClipboard method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DisableClipboard method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
 
-Sets the **ClipboardDisabled** property. If the **DeviceRedirectionType** property has a value of "2", the **ClipboardDisabled** property controls redirection of the clipboard for sessions that are established through the Remote Desktop Gateway (RD Gateway) server.
+Sets the **ClipboardDisabled** property. If the **DeviceRedirectionType** property has a value of "2", the **ClipboardDisabled** property controls redirection of the clipboard for sessions that are established through the Remote Desktop Gateway (RD Gateway) server.
 
 ## Syntax
 
 
 ```mof
 uint32 DisableClipboard(
-  [in] boolean Disabled
+  [in] boolean Disabled
 );
 ```
 
@@ -62,7 +68,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -76,9 +82,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayConnectionAuthorizationPolicy**](win32-tsgatewayconnectionauthorizationpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

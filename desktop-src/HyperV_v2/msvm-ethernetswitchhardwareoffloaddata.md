@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the switch hardware offload status.'
-ms.assetid: '77a34df7-e3c4-4d91-af5a-91a03dd8246d'
-title: 'Msvm\_EthernetSwitchHardwareOffloadData class'
+Description: Represents the switch hardware offload status.
+ms.assetid: 77a34df7-e3c4-4d91-af5a-91a03dd8246d
+title: Msvm\_EthernetSwitchHardwareOffloadData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchHardwareOffloadData class
@@ -16,28 +21,28 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), UUID("1C37E01C-0CD6-496F-9076-90C131033DC2"), ExtensionId("11EC6134-128A-4A23-B12F-164184B48348"), InterfaceVersion("4"), InterfaceRevision("0"), DisplayName("Ethernet Switch Offload Resource Status"), AMENDMENT]
 class Msvm_EthernetSwitchHardwareOffloadData : Msvm_EthernetSwitchData
 {
-  string  InstanceID;
-  string  Caption = Ethernet Switch Offload Resource Status;
-  string  Description = Represents the switch hardware offload status.;
-  string  ElementName = Ethernet Switch Offload Resource Status;
-  string  SystemCreationClassName = "Msvm_VirtualEthernetSwitch";
-  string  SystemName;
-  string  CreationClassName = "Msvm_EthernetSwitchHardwareOffloadData";
-  string  Name;
-  uint32  IovVfCapacity = 0;
-  uint32  IovVfUsage = 0;
-  uint32  VmqCapacity = 0;
-  uint32  VmqUsage = 0;
-  uint32  IPsecSACapacity = 0;
-  uint32  IPsecSAUsage = 0;
-  uint32  IovQueuePairCapacity = 0;
-  uint32  IovQueuePairUsage = 0;
+  string  InstanceID;
+  string  Caption = Ethernet Switch Offload Resource Status;
+  string  Description = Represents the switch hardware offload status.;
+  string  ElementName = Ethernet Switch Offload Resource Status;
+  string  SystemCreationClassName = "Msvm_VirtualEthernetSwitch";
+  string  SystemName;
+  string  CreationClassName = "Msvm_EthernetSwitchHardwareOffloadData";
+  string  Name;
+  uint32  IovVfCapacity = 0;
+  uint32  IovVfUsage = 0;
+  uint32  VmqCapacity = 0;
+  uint32  VmqUsage = 0;
+  uint32  IPsecSACapacity = 0;
+  uint32  IPsecSAUsage = 0;
+  uint32  IovQueuePairCapacity = 0;
+  uint32  IovQueuePairUsage = 0;
   boolean PacketDirectInUse = FALSE;
-  uint32  DefaultQueueVmmqQueuePairs = 0;
+  uint32  DefaultQueueVmmqQueuePairs = 0;
   boolean DefaultQueueVrssIndependentHostSpreading = TRUE;
   boolean DefaultQueueVrssExcludePrimaryProcessor = FALSE;
-  uint32  DefaultQueueVrssQueueSchedulingMode = 0;
-  uint32  DefaultQueueVrssMinQueuePairs = 0;
+  uint32  DefaultQueueVrssQueueSchedulingMode = 0;
+  uint32  DefaultQueueVrssMinQueuePairs = 0;
   boolean DefaultQueueVmmqEnabled = FALSE;
   boolean DefaultQueueVrssEnabled = FALSE;
 };
@@ -99,9 +104,9 @@ Qualifiers: **WmiDataId** (11), **InterfaceVersion** (3), **InterfaceRevision** 
 The current VMMQ setting for default queue
 
 > [!Note]  
-> Property added in Windows 10, version 1703.
+> Property added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -120,9 +125,9 @@ Qualifiers: **WmiDataId** (12), **InterfaceVersion** (3), **InterfaceRevision** 
 The current number of queues allocated for the default queue
 
 > [!Note]  
-> Property added in Windows 10, version 1703.
+> Property added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -141,9 +146,9 @@ Qualifiers: **WmiDataId** (10), **InterfaceVersion** (3), **InterfaceRevision** 
 The current VRss setting for default queue
 
 > [!Note]  
-> Property added in Windows 10, version 1703.
+> Property added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -162,9 +167,9 @@ Qualifiers: **WmiDataId** (15), **InterfaceVersion** (4), **InterfaceRevision** 
 Indicates whether the primary VMQ CPU is excluded from the VRSS/VMMQ indirection table.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -183,9 +188,9 @@ Qualifiers: **WmiDataId** (16), **InterfaceVersion** (4), **InterfaceRevision** 
 Indicates whether to always do VRSS spreading for default queue, regardless of the RSS state of the external vPort.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -204,9 +209,9 @@ Qualifiers: **WmiDataId** (13), **InterfaceVersion** (4), **InterfaceRevision** 
 Indicates minimum number of queues used for VRSS/VMMQ.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -225,9 +230,9 @@ Qualifiers: **WmiDataId** (14), **InterfaceVersion** (4), **InterfaceRevision** 
 Indicates how VRSS/VMMQ queues are steered to different host processors.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -400,9 +405,9 @@ Qualifiers: **WmiDataId** (9), **InterfaceVersion** (2), **InterfaceRevision** (
 Indicates if packet direct is being used by the switch
 
 > [!Note]  
-> Property added in Windows 10.
+> Property added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -476,17 +481,17 @@ The current number of virtual machine queue offloads being used by the switch.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

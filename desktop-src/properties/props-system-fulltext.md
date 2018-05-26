@@ -1,7 +1,12 @@
 ---
-Description: 'This property is used to specify search terms that should be applied as broadly as possible across all valid properties for the data source(s) being searched. It should not be emitted from a data source.'
-ms.assetid: '16b751ab-b349-430c-9a58-a46a02f6c30b'
-title: 'System.FullText'
+Description: This property is used to specify search terms that should be applied as broadly as possible across all valid properties for the data source(s) being searched. It should not be emitted from a data source.
+ms.assetid: 16b751ab-b349-430c-9a58-a46a02f6c30b
+title: System.FullText
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FullText

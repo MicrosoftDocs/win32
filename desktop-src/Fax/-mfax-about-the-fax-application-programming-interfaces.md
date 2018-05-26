@@ -1,7 +1,12 @@
 ---
-Description: 'The fax service supports the following APIs that are available for developing fax client applications and extending the fax service.'
-ms.assetid: '402fcbbb-567a-4082-9c2f-492b34139ee5'
+Description: The fax service supports the following APIs that are available for developing fax client applications and extending the fax service.
+ms.assetid: 402fcbbb-567a-4082-9c2f-492b34139ee5
 title: About the Fax Application Programming Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Fax Application Programming Interfaces
@@ -27,7 +32,7 @@ The fax service supports the following APIs that are available for developing fa
 <td>Introduces a set of Component Object Model (COM) interfaces with enhanced functionality for sending and receiving faxes, handling events, and managing jobs and recipients. This is the API that you should use to manage the fax service with a scripting language such as Microsoft Visual Basic Scripting Edition (VBScript).<br/>
 <blockquote>
 [!Note]<br />
-You are encouraged to write new fax client applications to this COM interface model rather than to the Microsoft Win32 API or COM model that shipped with the Windows 2000 Windows Software Development Kit (SDK).
+You are encouraged to write new fax client applications to this COM interface model rather than to the Microsoft Win32 API or COM model that shipped with the Windows 2000 Windows Software Development Kit (SDK).
 </blockquote>
 <br/></td>
 </tr>
@@ -49,14 +54,14 @@ You are encouraged to write new fax client applications to this COM interface mo
 </tr>
 <tr class="even">
 <td>[Shell Fax Extension API](-mfax-shell-fax-extension-api-reference.md)<br/></td>
-<td>By using the [<strong>SendToFaxRecipient</strong>](-mfax-sendtofaxrecipient.md) API, developers can also integrate the &quot;Send to Fax Recipient&quot; functionality into their applications. Users can right-click a document in Explorer and select <strong>Send to Fax Recipient</strong>.<br/></td>
+<td>By using the [<strong>SendToFaxRecipient</strong>](/windows/previous-versions/Fxsutility/nf-fxsutility-sendtofaxrecipient?branch=master) API, developers can also integrate the &quot;Send to Fax Recipient&quot; functionality into their applications. Users can right-click a document in Explorer and select <strong>Send to Fax Recipient</strong>.<br/></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 The fax service also supports the following component that you can use when you are developing fax extension DLLs.
 
@@ -68,11 +73,11 @@ The fax service also supports the following component that you can use when you 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

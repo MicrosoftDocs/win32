@@ -1,7 +1,12 @@
 ---
-Description: 'The PlayTitle method starts playback at the beginning of the specified title.'
-ms.assetid: '65361158-2d11-4d65-9e63-3db8eb7d821e'
+Description: The PlayTitle method starts playback at the beginning of the specified title.
+ms.assetid: 65361158-2d11-4d65-9e63-3db8eb7d821e
 title: PlayTitle Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayTitle Method

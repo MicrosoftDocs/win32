@@ -1,7 +1,12 @@
 ---
-Description: 'All fonts use a character set. A character set contains punctuation marks, numerals, uppercase and lowercase letters, and all other printable characters. Each element of a character set is identified by a number.'
-ms.assetid: '7989c59e-2ec6-4d1a-bb86-f4037ca32764'
+Description: All fonts use a character set. A character set contains punctuation marks, numerals, uppercase and lowercase letters, and all other printable characters. Each element of a character set is identified by a number.
+ms.assetid: 7989c59e-2ec6-4d1a-bb86-f4037ca32764
 title: Character Sets Used by Fonts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Character Sets Used by Fonts

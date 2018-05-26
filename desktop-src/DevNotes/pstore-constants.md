@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following constants are used by PStore.'
-ms.assetid: '4bdccb86-2e0e-461c-9a74-184861b7db1e'
+---
+Description: The following constants are used by PStore.
+ms.assetid: 4bdccb86-2e0e-461c-9a74-184861b7db1e
 title: PStore Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PStore Constants

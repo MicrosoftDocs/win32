@@ -1,7 +1,12 @@
 ---
-Description: 'The property proxy for the System.Photo.SubjectDistance photo metadata policy.'
-ms.assetid: '5a54183b-3e7c-41db-b225-2bf399c17629'
-title: 'System.Photo.SubjectDistance Proxy'
+Description: The property proxy for the System.Photo.SubjectDistance photo metadata policy.
+ms.assetid: 5a54183b-3e7c-41db-b225-2bf399c17629
+title: System.Photo.SubjectDistance Proxy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.SubjectDistance Proxy

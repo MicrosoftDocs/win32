@@ -1,8 +1,11 @@
 ---
 title: Media.getAttributeName method
 description: The getAttributeName method retrieves the name of the attribute corresponding to the specified index.
-ms.assetid: 'cb04e464-44dd-41ba-9296-f13aca9ef54e'
-keywords: ["getAttributeName method Windows Media Player", "getAttributeName method Windows Media Player , Media class", "Media class Windows Media Player , getAttributeName method"]
+ms.assetid: cb04e464-44dd-41ba-9296-f13aca9ef54e
+keywords:
+- getAttributeName method Windows Media Player
+- getAttributeName method Windows Media Player , Media class
+- Media class Windows Media Player , getAttributeName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.getAttributeName method
@@ -108,9 +116,9 @@ for(var i=0; i < atCount; i++){
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

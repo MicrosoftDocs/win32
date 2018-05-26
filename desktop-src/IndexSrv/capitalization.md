@@ -1,7 +1,12 @@
 ---
 title: Capitalization
 description: Capitalization
-ms.assetid: '7917ab9b-2338-44fc-96a9-5f111df5e933'
+ms.assetid: 7917ab9b-2338-44fc-96a9-5f111df5e933
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capitalization

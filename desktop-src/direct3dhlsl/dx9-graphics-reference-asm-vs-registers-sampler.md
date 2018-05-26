@@ -1,8 +1,14 @@
 ---
 title: Sampler (Direct3D 9 asm-vs)
 description: A sampler is a input pseudo-register for a vertex shader, which is used to identify the sampling stage. There are four vertex shader samplers s0 to s3. Four texture surfaces can be read in a single shader pass.
-ms.assetid: 'a4588ced-24e2-4d4e-93e4-35a985bafaa4'
-keywords: ["Sampler, Type (Direct3D 9 asm-vs)"]
+ms.assetid: a4588ced-24e2-4d4e-93e4-35a985bafaa4
+keywords:
+- Sampler, Type (Direct3D 9 asm-vs)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sampler (Direct3D 9 asm-vs)

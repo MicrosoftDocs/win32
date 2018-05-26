@@ -1,8 +1,9 @@
 ---
 title: glColor4usv function
 description: Sets the current color from an already existing array of color values.
-ms.assetid: '93a02461-4c8c-4b57-bedd-7d3be078e4c4'
-keywords: ["glColor4usv function OpenGL"]
+ms.assetid: 93a02461-4c8c-4b57-bedd-7d3be078e4c4
+keywords:
+- glColor4usv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glColor4usv function
@@ -22,7 +28,7 @@ Sets the current color from an already existing array of color values.
 
 ```C++
 void WINAPI glColor4usv(
-   const GLushort *v
+   const GLushort *v
 );
 ```
 
@@ -59,8 +65,8 @@ Neither floating-point nor signed integer values are clamped to the range \[0,1\
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -83,9 +89,9 @@ Neither floating-point nor signed integer values are clamped to the range \[0,1\
 [**glIndex**](glindexd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

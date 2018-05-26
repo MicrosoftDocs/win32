@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves an interface pointer and increments the reference count. This method implements the INonDelegatingUnknown::NonDelegatingQueryInterface method.'
-ms.assetid: '451ca350-f40b-4cbf-ac39-e86dadb48a24'
-title: 'CUnknown.NonDelegatingQueryInterface method'
+Description: Retrieves an interface pointer and increments the reference count. This method implements the INonDelegatingUnknownNonDelegatingQueryInterface method.
+ms.assetid: 451ca350-f40b-4cbf-ac39-e86dadb48a24
+title: CUnknown.NonDelegatingQueryInterface method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUnknown.NonDelegatingQueryInterface method
@@ -13,8 +18,8 @@ Retrieves an interface pointer and increments the reference count. This method i
 
 ```C++
 HRESULT NonDelegatingQueryInterface(
-   REFIID riid,
-   void   **ppv
+   REFIID riid,
+   void   **ppv
 );
 ```
 
@@ -52,7 +57,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,9 +74,9 @@ The **CUnknown** class exposes only the **IUknown** interface. Override this met
 
 
 
- 
+ 
 
- 
+ 
 
 
 

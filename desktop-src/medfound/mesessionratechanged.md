@@ -1,16 +1,21 @@
-﻿---
-Description: 'Raised by the Media Session when the playback rate changes. This event is sent after the IMFRateControl::SetRate method completes asynchronously.'
-ms.assetid: '6bef923f-4083-46e1-9a2e-49a6825467ec'
+---
+Description: Raised by the Media Session when the playback rate changes. This event is sent after the IMFRateControlSetRate method completes asynchronously.
+ms.assetid: 6bef923f-4083-46e1-9a2e-49a6825467ec
 title: MESessionRateChanged event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESessionRateChanged event
 
-Raised by the Media Session when the playback rate changes. This event is sent after the [**IMFRateControl::SetRate**](imfratecontrol-setrate.md) method completes asynchronously.
+Raised by the Media Session when the playback rate changes. This event is sent after the [**IMFRateControl::SetRate**](/windows/win32/mfidl/nf-mfidl-imfratecontrol-setrate?branch=master) method completes asynchronously.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

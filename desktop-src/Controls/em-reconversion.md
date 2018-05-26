@@ -1,8 +1,9 @@
 ---
 title: EM\_RECONVERSION message
 description: Invokes the Input Method Editor (IME) reconversion dialog box.
-ms.assetid: '1234905f-cbf2-42a3-b14a-5ade25ad9d75'
-keywords: ["EM_RECONVERSION message Windows Controls"]
+ms.assetid: 1234905f-cbf2-42a3-b14a-5ade25ad9d75
+keywords:
+- EM_RECONVERSION message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_RECONVERSION message
@@ -45,8 +51,8 @@ This message always returns zero.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Redistributable<br/>          | Rich Edit 3.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
@@ -59,9 +65,9 @@ This message always returns zero.
 [**EM\_GETLANGOPTIONS**](em-getlangoptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

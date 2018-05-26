@@ -1,7 +1,12 @@
 ---
-Description: 'Image parsing name.'
-ms.assetid: '62143bdd-03f4-4b0f-bd63-94e364ea17f5'
-title: 'System.ImageParsingName'
+Description: Image parsing name.
+ms.assetid: 62143bdd-03f4-4b0f-bd63-94e364ea17f5
+title: System.ImageParsingName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ImageParsingName

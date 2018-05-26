@@ -1,7 +1,12 @@
 ---
-Description: 'Application writers can make minor source code changes to add transacted file and registry operations using the Kernel Transaction Manager (KTM).'
-ms.assetid: '356c66dc-5ddd-472f-835c-2e2cb019bcfd'
+Description: Application writers can make minor source code changes to add transacted file and registry operations using the Kernel Transaction Manager (KTM).
+ms.assetid: 356c66dc-5ddd-472f-835c-2e2cb019bcfd
 title: Working With Transactions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working With Transactions
@@ -10,9 +15,9 @@ Application writers can make minor source code changes to add transacted file an
 
 KTM provides mechanisms for your application to participate in transactions as well as to write your own transactional resource manager. There are functions that allow you to create, manage, and work with four classes of kernel objects: transactions, transaction managers, resource managers, and enlistments. If you are simply using transactions, you only need to work with transaction objects and use these functions:
 
--   [**CreateTransaction**](createtransaction.md)
--   [**CommitTransaction**](committransaction.md)
--   [**RollbackTransaction**](rollbacktransaction.md)
+-   [**CreateTransaction**](/windows/win32/KtmW32/nf-ktmw32-createtransaction?branch=master)
+-   [**CommitTransaction**](/windows/win32/Ktmw32/nf-ktmw32-committransaction?branch=master)
+-   [**RollbackTransaction**](/windows/win32/Ktmw32/nf-ktmw32-rollbacktransaction?branch=master)
 
 Never assume a transaction is active. Transactions can be rolled back for many reasons and at any time.
 

@@ -4,13 +4,15 @@ description: Dhcp Server v4 Option Definition.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '22447846-dc98-4c74-9c40-ab2016801949'
-ms.prod: 'windows-server-dev'
+ms.assetid: 22447846-dc98-4c74-9c40-ab2016801949
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerv4OptionDefinition class", "DhcpServerv4OptionDefinition class, described"]
+keywords:
+- DhcpServerv4OptionDefinition class
+- DhcpServerv4OptionDefinition class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerv4OptionDefinition class
@@ -40,13 +45,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DhcpServerPSProvider"), AMENDMENT]
 class DhcpServerv4OptionDefinition
 {
-  Uint32  OptionId;
-  string  Name;
-  string  Description;
-  string  VendorClass;
+  Uint32  OptionId;
+  string  Name;
+  string  Description;
+  string  VendorClass;
   boolean MultiValued;
-  string  Type;
-  string  DefaultValue[];
+  string  Type;
+  string  DefaultValue[];
 };
 ```
 
@@ -218,16 +223,16 @@ Class of vendors to which the above option defn is applicable.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

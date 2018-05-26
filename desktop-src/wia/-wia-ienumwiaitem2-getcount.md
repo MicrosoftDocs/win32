@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the number of elements stored by this enumerator.'
-ms.assetid: 'd374ec81-0bd5-4b5d-8002-e3b53476421a'
-title: 'IEnumWiaItem2::GetCount method'
+---
+Description: Returns the number of elements stored by this enumerator.
+ms.assetid: d374ec81-0bd5-4b5d-8002-e3b53476421a
+title: IEnumWiaItem2GetCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumWiaItem2::GetCount method

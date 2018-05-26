@@ -1,7 +1,12 @@
 ---
 title: Adding a Hit-Highlighting Link to a Results Page
 description: Adding a Hit-Highlighting Link to a Results Page
-ms.assetid: 'e1a9a89c-0528-463a-9f78-1d5e9adf781b'
+ms.assetid: e1a9a89c-0528-463a-9f78-1d5e9adf781b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Hit-Highlighting Link to a Results Page

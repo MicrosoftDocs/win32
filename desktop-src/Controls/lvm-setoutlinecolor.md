@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETOUTLINECOLOR message
 description: Sets the color of the border of a list-view control if the LVS\_EX\_BORDERSELECT extended window style is set.
-ms.assetid: 'c2b606fa-8d47-4192-94b7-d01c3cfdc514'
-keywords: ["LVM_SETOUTLINECOLOR message Windows Controls"]
+ms.assetid: c2b606fa-8d47-4192-94b7-d01c3cfdc514
+keywords:
+- LVM_SETOUTLINECOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETOUTLINECOLOR message
@@ -36,7 +42,7 @@ Returns **COLORREF** structure that contains the outline color.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -44,15 +50,15 @@ Returns **COLORREF** structure that contains the outline color.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

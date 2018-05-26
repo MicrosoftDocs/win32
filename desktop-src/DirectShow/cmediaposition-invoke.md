@@ -1,7 +1,12 @@
 ---
-Description: 'The Invoke method provides access to properties and methods exposed by the object.'
-ms.assetid: '3c03751d-239b-4cc5-bfab-8d1aed1074b8'
-title: 'CMediaPosition.Invoke method'
+Description: The Invoke method provides access to properties and methods exposed by the object.
+ms.assetid: 3c03751d-239b-4cc5-bfab-8d1aed1074b8
+title: CMediaPosition.Invoke method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaPosition.Invoke method
@@ -13,14 +18,14 @@ The `Invoke` method provides access to properties and methods exposed by the obj
 
 ```C++
 HRESULT Invoke(
-   DISPID     dispidMember,
-   REFIID     riid,
-   LCID       lcid,
-   WORD       wFlags,
-   DISPPARAMS *pdispparams,
-   VARIANT    *pvarResult,
-   EXCEPINFO  *pexcepinfo,
-   UINT       *puArgErr
+   DISPID     dispidMember,
+   REFIID     riid,
+   LCID       lcid,
+   WORD       wFlags,
+   DISPPARAMS *pdispparams,
+   VARIANT    *pvarResult,
+   EXCEPINFO  *pexcepinfo,
+   UINT       *puArgErr
 );
 ```
 
@@ -99,7 +104,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -119,9 +124,9 @@ Returns an **HRESULT** value. Possible values include the following.
 [**CMediaPosition Class**](cmediaposition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

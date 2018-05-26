@@ -1,14 +1,20 @@
 ---
 title: MetadataType Complex Type
 description: Defines the metadata types that you can define in the metadata section of the manifest.
-ms.assetid: '602bafe7-940e-4313-9da5-54c6aa7f60a2'
-keywords: ["MetadataType complex type EventLog"]
+ms.assetid: 602bafe7-940e-4313-9da5-54c6aa7f60a2
+keywords:
+- MetadataType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - MetadataType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetadataType Complex Type
@@ -134,14 +140,14 @@ Although you can create a manifest that contains a metadata section, the service
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

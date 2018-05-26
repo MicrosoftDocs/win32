@@ -1,13 +1,16 @@
 ---
-Description: 'Installs software on the physical computer system.'
+Description: Installs software on the physical computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '940ed199-fe4d-4edc-80d8-a27d0d3a5bb2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 940ed199-fe4d-4edc-80d8-a27d0d3a5bb2
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'InstallSoftwareFromURI method of the MSFT\_PCSVDevice class'
+title: InstallSoftwareFromURI method of the MSFT\_PCSVDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InstallSoftwareFromURI method of the MSFT\_PCSVDevice class
@@ -19,11 +22,11 @@ Installs software on the physical computer system.
 
 ```mof
 uint32 InstallSoftwareFromURI(
-  [in, out] CIM_ConcreteJob REF Job,
-  [in]      uint16              Classifications[],
-  [in]      string              URI,
-  [in]      uint16              InstallOptions[],
-  [in]      string              InstallOptionsValues[]
+  [in, out] CIM_ConcreteJob REF Job,
+  [in]      uint16              Classifications[],
+  [in]      string              URI,
+  [in]      uint16              InstallOptions[],
+  [in]      string              InstallOptionsValues[]
 );
 ```
 
@@ -87,14 +90,14 @@ Specifies values that classify the software. This parameter corresponds to the [
 **DMTF Reserved**
 
 
-</dt> <dd>15–32767</dd> <dt>
+</dt> <dd>15 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *URI* \[in\]
 </dt> <dd>
@@ -199,14 +202,14 @@ Specifies options to control the installation process. This parameter correspond
 **DMTF Reserved**
 
 
-</dt> <dd>14–32767</dd> <dt>
+</dt> <dd>14 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *InstallOptionsValues* \[in\]
 </dt> <dd>
@@ -230,16 +233,16 @@ This method returns one of the following values.
 **Failed** (2)
 </dt> <dt>
 
-**Reserved** (3–4095)
+**Reserved** (3 4095)
 </dt> <dt>
 
 **Job Started** (4096)
 </dt> <dt>
 
-**DMTF Reserved** (4097–32767)
+**DMTF Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Reserved** (32768–65535)
+**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -248,8 +251,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>PCSVDevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVDevice.dll</dt> </dl> |
@@ -263,9 +266,9 @@ This method returns one of the following values.
 [**MSFT\_PCSVDevice**](msft-pcsvdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

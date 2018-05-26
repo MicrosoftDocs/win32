@@ -1,8 +1,14 @@
 ---
 title: Indexing Service
 description: Indexing Service is a base service that extracts content from files and constructs an indexed catalog to facilitate efficient and rapid searching.
-ms.assetid: '5c0b3646-eeec-4666-b4c7-451aba783030'
-keywords: ["Indexing Service"]
+ms.assetid: 5c0b3646-eeec-4666-b4c7-451aba783030
+keywords:
+- Indexing Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing Service

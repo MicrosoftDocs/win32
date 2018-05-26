@@ -1,7 +1,12 @@
 ---
-Description: 'Serial device USB Product Id.'
-ms.assetid: '5ac2e3cb-a314-414b-9ed3-9709965202cf'
-title: 'System.DeviceInterface.Serial.UsbProductId'
+Description: Serial device USB Product Id.
+ms.assetid: 5ac2e3cb-a314-414b-9ed3-9709965202cf
+title: System.DeviceInterface.Serial.UsbProductId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.Serial.UsbProductId

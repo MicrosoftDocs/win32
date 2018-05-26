@@ -1,11 +1,16 @@
-﻿---
-Description: 'Allows the callback object to specify the view mode. Used by IShellFolderViewCB::MessageSFVCB.'
-title: 'SFVM\_DEFVIEWMODE message'
+---
+Description: Allows the callback object to specify the view mode. Used by IShellFolderViewCBMessageSFVCB.
+title: SFVM\_DEFVIEWMODE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_DEFVIEWMODE message
 
-Allows the callback object to specify the view mode. Used by [**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md).
+Allows the callback object to specify the view mode. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master).
 
 
 ```C++
@@ -25,7 +30,7 @@ SFVM_DEFVIEWMODE
 *pViewMode* \[out\]
 </dt> <dd>
 
-One of the values from the [**FOLDERVIEWMODE**](folderviewmode.md) enumerated type.
+One of the values from the [**FOLDERVIEWMODE**](/windows/win32/shobjidl_core/ne-shobjidl_core-folderviewmode?branch=master) enumerated type.
 
 </dd> </dl>
 

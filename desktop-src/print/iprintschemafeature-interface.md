@@ -1,7 +1,12 @@
-﻿---
-Description: 'Exposes a Print Schema Feature element.'
-ms.assetid: 'AAC2A60B-9E70-4809-969A-68783A91B093'
+---
+Description: Exposes a Print Schema Feature element.
+ms.assetid: AAC2A60B-9E70-4809-969A-68783A91B093
 title: IPrintSchemaFeature interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaFeature interface

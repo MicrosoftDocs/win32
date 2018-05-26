@@ -1,7 +1,12 @@
 ---
 title: Indexing and Managing
 description: Indexing is triggered by changes to documents in the set of distributed documents indexed by a catalog.
-ms.assetid: '46329626-cdc6-4c50-8a4d-f4b98b60673a'
+ms.assetid: 46329626-cdc6-4c50-8a4d-f4b98b60673a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing and Managing

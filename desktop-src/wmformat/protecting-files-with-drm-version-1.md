@@ -1,8 +1,25 @@
 ---
 title: Protecting Files with DRM Version 1
 description: Protecting Files with DRM Version 1
-ms.assetid: '91de1c20-e926-4ff6-b0cd-e90fc9cbaad2'
-keywords: ["Windows Media Format SDK,creating protected files", "Windows Media Format SDK,protected files", "Advanced Systems Format (ASF),creating protected files", "ASF (Advanced Systems Format),creating protected files", "Advanced Systems Format (ASF),protected files", "ASF (Advanced Systems Format),protected files", "Advanced Systems Format (ASF),WMStubDRM.lib", "ASF (Advanced Systems Format),WMStubDRM.lib", "WMStubDRM.lib,creating protected files", "WMStubDRM.lib,protected files", "digital rights management (DRM),WMStubDRM.lib", "DRM (digital rights management),WMStubDRM.lib"]
+ms.assetid: 91de1c20-e926-4ff6-b0cd-e90fc9cbaad2
+keywords:
+- Windows Media Format SDK,creating protected files
+- Windows Media Format SDK,protected files
+- Advanced Systems Format (ASF),creating protected files
+- ASF (Advanced Systems Format),creating protected files
+- Advanced Systems Format (ASF),protected files
+- ASF (Advanced Systems Format),protected files
+- Advanced Systems Format (ASF),WMStubDRM.lib
+- ASF (Advanced Systems Format),WMStubDRM.lib
+- WMStubDRM.lib,creating protected files
+- WMStubDRM.lib,protected files
+- digital rights management (DRM),WMStubDRM.lib
+- DRM (digital rights management),WMStubDRM.lib
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Protecting Files with DRM Version 1
@@ -12,9 +29,9 @@ When this kind of protection is applied, a DRM version 1 license is generated th
 To protect ASF files using DRM version 1, perform the following steps:
 
 1.  Link the WMStubDRM.lib file to your project and, if necessary, unlink wmvcore.lib.
-2.  Call the [**WMCreateWriter**](wmcreatewriter.md) function to create the writer. The first argument is reserved and must be set to **NULL**.
-3.  Set a profile for the writer to use by calling [**IWMWriter::SetProfile**](iwmwriter-setprofile.md) or [**IWMWriter::SetProfileByID**](iwmwriter-setprofilebyid.md). You must set a profile in the writer before setting any DRM attributes. DRM is supported only for profiles that use the Windows Media Audio or Windows Media Video codecs.
-4.  Using the [**IWMHeaderInfo::SetAttribute**](iwmheaderinfo-setattribute.md) method, set the following DRM properties. The **Use\_DRM** property instructs the DRM components to protect the content using DRM version 1. The **DRM\_Flags** property specifies the rights to be included in the local license that will be created for the content. The **DRM\_LEVEL** value is also stored in the license; it specifies the minimum level required to access the content. 150 is the recommended level for DRM version 1 content.
+2.  Call the [**WMCreateWriter**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatewriter?branch=master) function to create the writer. The first argument is reserved and must be set to **NULL**.
+3.  Set a profile for the writer to use by calling [**IWMWriter::SetProfile**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile?branch=master) or [**IWMWriter::SetProfileByID**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofilebyid?branch=master). You must set a profile in the writer before setting any DRM attributes. DRM is supported only for profiles that use the Windows Media Audio or Windows Media Video codecs.
+4.  Using the [**IWMHeaderInfo::SetAttribute**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute?branch=master) method, set the following DRM properties. The **Use\_DRM** property instructs the DRM components to protect the content using DRM version 1. The **DRM\_Flags** property specifies the rights to be included in the local license that will be created for the content. The **DRM\_LEVEL** value is also stored in the license; it specifies the minimum level required to access the content. 150 is the recommended level for DRM version 1 content.
 
     | Attribute      | Value                                                                                       |
     |----------------|---------------------------------------------------------------------------------------------|

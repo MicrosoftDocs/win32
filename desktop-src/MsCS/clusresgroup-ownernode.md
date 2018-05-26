@@ -4,11 +4,14 @@ description: Returns the node currently hosting a group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd42e2f2e-5a67-4e9e-9e54-34f514c0a8f2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d42e2f2e-5a67-4e9e-9e54-34f514c0a8f2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["OwnerNode property Failover Cluster", "OwnerNode property Failover Cluster , ClusResGroup class", "ClusResGroup class Failover Cluster , OwnerNode property"]
+keywords:
+- OwnerNode property Failover Cluster
+- OwnerNode property Failover Cluster , ClusResGroup class
+- ClusResGroup class Failover Cluster , OwnerNode property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResGroup.OwnerNode property
@@ -47,7 +53,7 @@ A [**ClusNode**](clusnode-object.md) object that receives the node that is curre
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -66,9 +72,9 @@ A [**ClusNode**](clusnode-object.md) object that receives the node that is curre
 [**ClusResGroup**](clusresgroup-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

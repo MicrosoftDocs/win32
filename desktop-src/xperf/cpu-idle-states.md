@@ -1,7 +1,12 @@
 ---
 title: CPU Idle States
 description: CPU Idle States
-ms.assetid: '8ff391da-ee5d-490b-84df-85540792623d'
+ms.assetid: 8ff391da-ee5d-490b-84df-85540792623d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPU Idle States

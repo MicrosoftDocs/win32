@@ -4,11 +4,14 @@ description: Retrieves the settings object for the Remote Desktop Protocol (RDP)
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '59999489-9ad0-4b85-9643-3b8355b817c2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 59999489-9ad0-4b85-9643-3b8355b817c2
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Settings property Remote Desktop Services", "Settings property Remote Desktop Services , IRemoteDesktopClient interface", "IRemoteDesktopClient interface Remote Desktop Services , Settings property"]
+keywords:
+- Settings property Remote Desktop Services
+- Settings property Remote Desktop Services , IRemoteDesktopClient interface
+- IRemoteDesktopClient interface Remote Desktop Services , Settings property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IRemoteDesktopClient::Settings property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Settings(
-  [out, retval] IRemoteDesktopClientSettings **Settings
+  [out, retval] IRemoteDesktopClientSettings **Settings
 );
 ```
 
@@ -47,8 +53,8 @@ The settings object for the RDP client.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>  |
 | IID<br/>                      | IID\_IRemoteDesktopClient is defined as 57D25668-625A-4905-BE4E-304CAA13F89C<br/> |
@@ -59,12 +65,12 @@ The settings object for the RDP client.
 
 <dl> <dt>
 
-[**IRemoteDesktopClient**](iremotedesktopclient.md)
+[**IRemoteDesktopClient**](/windows/win32/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

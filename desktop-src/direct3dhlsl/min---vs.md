@@ -1,7 +1,12 @@
 ---
 title: min - vs
 description: Calculates the minimum of the sources.
-ms.assetid: 'cecfe98b-8efd-4fbf-a7b5-d228de724e71'
+ms.assetid: cecfe98b-8efd-4fbf-a7b5-d228de724e71
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # min - vs

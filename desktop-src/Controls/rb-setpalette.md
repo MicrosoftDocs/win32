@@ -1,8 +1,9 @@
 ---
 title: RB\_SETPALETTE message
-description: Sets the rebar control's current palette.
-ms.assetid: '85f0726a-21fd-41b3-aa52-6a0a0c1947fa'
-keywords: ["RB_SETPALETTE message Windows Controls"]
+description: Sets the rebar controls current palette.
+ms.assetid: 85f0726a-21fd-41b3-aa52-6a0a0c1947fa
+keywords:
+- RB_SETPALETTE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_SETPALETTE message
@@ -45,8 +51,8 @@ It is the responsibility of the application sending this message to delete the *
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ It is the responsibility of the application sending this message to delete the *
 [**RB\_GETPALETTE**](rb-getpalette.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

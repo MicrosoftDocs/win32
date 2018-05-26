@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UserSid property returns the user security identifier (SID) under which this patch instance is available.'
-ms.assetid: '841d17d2-5962-41b9-b103-ce22c5555e3b'
-title: 'Patch.UserSid property'
+---
+Description: The UserSid property returns the user security identifier (SID) under which this patch instance is available.
+ms.assetid: 841d17d2-5962-41b9-b103-ce22c5555e3b
+title: Patch.UserSid property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch.UserSid property

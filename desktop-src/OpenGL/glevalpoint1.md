@@ -1,8 +1,9 @@
 ---
 title: glEvalPoint1 function
 description: The glEvalPoint1 and glEvalPoint2 functions generate and evaluate a single point in a mesh.
-ms.assetid: '5ef1d2f0-d77b-4bb8-a0d4-45c1a6a91c18'
-keywords: ["glEvalPoint1 function OpenGL"]
+ms.assetid: 5ef1d2f0-d77b-4bb8-a0d4-45c1a6a91c18
+keywords:
+- glEvalPoint1 function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glEvalPoint1 function
@@ -22,7 +28,7 @@ The [**glEvalPoint1**](glevalpoint.md) and **glEvalPoint2** functions generate a
 
 ```C++
 void glEvalPoint1(
-   GLint i
+   GLint i
 );
 ```
 
@@ -47,25 +53,25 @@ This function does not return a value.
 
 The [**glMapGrid**](glmapgrid-functions.md) and [**glEvalMesh**](glevalmesh-functions.md) functions are used in tandem to efficiently generate and evaluate a series of evenly spaced map domain values. You can use **glEvalPoint** to evaluate a single grid point in the same gridspace that is traversed by **glEvalMesh**. Calling [**glEvalPoint1**](glevalpoint.md) is equivalent to calling
 
-**glEvalCoord1** (*i* ?*u* +*u*1 );
+**glEvalCoord1** (*i* ?*u* +*u*1 );
 
 where
 
-?*u* = (*u*2 *u*1 )/*n*
+?*u* = (*u*2 *u*1 )/*n*
 
-and *n*, *u*1 , and *u*2 are the arguments to the most recent **glMapGrid1** function. The one absolute numeric requirement is that if *i* = *n*, then the value computed from (*i* ?*u* + u1 ) is exactly *u*2 .
+and *n*, *u*1 , and *u*2 are the arguments to the most recent **glMapGrid1** function. The one absolute numeric requirement is that if *i* = *n*, then the value computed from (*i* ?*u* + u1 ) is exactly *u*2 .
 
 In the two-dimensional case, **glEvalPoint2**, let
 
-?*u* = (*u*2 *u*1 )/*n*
+?*u* = (*u*2 *u*1 )/*n*
 
-?*v* = (*v*2 *v*1 )/*m*
+?*v* = (*v*2 *v*1 )/*m*
 
-where *n*, *u*1 , *u*2 , *m*, *v*1 , and *v*2  are the arguments to the most recent **glMapGrid2** function. Then the **glEvalPoint2** function is equivalent to calling
+where *n*, *u*1 , *u*2 , *m*, *v*1 , and *v*2  are the arguments to the most recent **glMapGrid2** function. Then the **glEvalPoint2** function is equivalent to calling
 
-**glEvalCoord2** (*i* ?*u* + *u*1 , *j* ?*v* + *v*1 );
+**glEvalCoord2** (*i* ?*u* + *u*1 , *j* ?*v* + *v*1 );
 
-The only absolute numeric requirements are that if *i*=*n*, then the value computed from (*i* ?*u* + *u*1 ) is exactly u2 , and if *j* = *m*, then the value computed from (*j* ?*v* + *v*1  ) is exactly *v*2 .
+The only absolute numeric requirements are that if *i*=*n*, then the value computed from (*i* ?*u* + *u*1 ) is exactly u2 , and if *j* = *m*, then the value computed from (*j* ?*v* + *v*1  ) is exactly *v*2 .
 
 The following functions retrieve information relating to [**glEvalPoint1**](glevalpoint.md) and **glEvalPoint2**:
 
@@ -83,8 +89,8 @@ The following functions retrieve information relating to [**glEvalPoint1**](glev
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -113,9 +119,9 @@ The following functions retrieve information relating to [**glEvalPoint1**](glev
 [**glMapGrid**](glmapgrid-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

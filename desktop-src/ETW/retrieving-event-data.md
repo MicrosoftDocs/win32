@@ -1,7 +1,12 @@
 ---
-Description: 'To consume event specific data, the consumer must know the format of the event data.'
-ms.assetid: 'd783ff64-73c5-4ace-a866-38a42db7c8b6'
+Description: To consume event specific data, the consumer must know the format of the event data.
+ms.assetid: d783ff64-73c5-4ace-a866-38a42db7c8b6
 title: Retrieving Event Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Event Data

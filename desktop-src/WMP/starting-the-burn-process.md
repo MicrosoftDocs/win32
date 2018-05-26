@@ -1,13 +1,27 @@
 ---
 title: Starting the Burn Process
 description: Starting the Burn Process
-ms.assetid: '91442bd2-1a68-465c-b865-63d309f33d55'
-keywords: ["Windows Media Player,CD burning", "Windows Media Player object model,CD burning", "object model,CD burning", "Windows Media Player ActiveX control,CD burning", "ActiveX control,CD burning", "Windows Media Player Mobile ActiveX control,CD burning", "Windows Media Player Mobile,CD burning", "CD burning,starting burn process", "burning CDs,starting burn process"]
+ms.assetid: 91442bd2-1a68-465c-b865-63d309f33d55
+keywords:
+- Windows Media Player,CD burning
+- Windows Media Player object model,CD burning
+- object model,CD burning
+- Windows Media Player ActiveX control,CD burning
+- ActiveX control,CD burning
+- Windows Media Player Mobile ActiveX control,CD burning
+- Windows Media Player Mobile,CD burning
+- CD burning,starting burn process
+- burning CDs,starting burn process
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Starting the Burn Process
 
-Before burning can begin, you must assign a playlist to be burned. Use [IWMPCdromBurn::put\_burnPlaylist](iwmpcdromburn-put-burnplaylist.md) to specify a playlist for burning.
+Before burning can begin, you must assign a playlist to be burned. Use [IWMPCdromBurn::put\_burnPlaylist](/windows/win32/wmp/nf-wmp-iwmpcdromburn-put_burnplaylist?branch=master) to specify a playlist for burning.
 
 
 ```C++
@@ -29,9 +43,9 @@ HRESULT CMainDlg::PutPlaylist (void)
 
 
 
-For information about using playlists, see [IWMPPlaylist](iwmpplaylist.md).
+For information about using playlists, see [IWMPPlaylist](/windows/win32/wmp/nn-wmp-iwmpplaylist?branch=master).
 
-To start the burning operation, call [IWMPCdromBurn::startBurn](iwmpcdromburn-startburn.md).
+To start the burning operation, call [IWMPCdromBurn::startBurn](/windows/win32/wmp/nf-wmp-iwmpcdromburn-startburn?branch=master).
 
 
 ```C++
@@ -42,7 +56,7 @@ hr = m_spCdromBurn->startBurn();
 
 
 
-You can stop the burning operation by calling [IWMPCdromBurn::stopBurn](iwmpcdromburn-stopburn.md).
+You can stop the burning operation by calling [IWMPCdromBurn::stopBurn](/windows/win32/wmp/nf-wmp-iwmpcdromburn-stopburn?branch=master).
 
 
 ```C++

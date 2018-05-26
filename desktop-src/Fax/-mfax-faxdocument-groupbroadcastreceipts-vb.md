@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GroupBroadcastReceipts property is a Boolean value that indicates whether to send an individual delivery receipt for each recipient of the broadcast, or to send a summary receipt for all the recipients.'
-ms.assetid: 'faf24ed7-094d-4b44-9c57-82d378bffda7'
-title: 'FaxDocument.GroupBroadcastReceipts property'
+---
+Description: The GroupBroadcastReceipts property is a Boolean value that indicates whether to send an individual delivery receipt for each recipient of the broadcast, or to send a summary receipt for all the recipients.
+ms.assetid: faf24ed7-094d-4b44-9c57-82d378bffda7
+title: FaxDocument.GroupBroadcastReceipts property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.GroupBroadcastReceipts property
@@ -70,7 +75,7 @@ Default. An individual delivery receipt will be sent to each recipient of the br
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

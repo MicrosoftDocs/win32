@@ -1,7 +1,12 @@
 ---
 title: Accessing ActiveX Objects
 description: To access exposed objects, you can create ActiveX clients using Visual Basic, Microsoft Visual C++, Microsoft Excel, and other applications and programming languages that support the Automation technology.
-ms.assetid: '973ca2be-7f0e-43db-8790-0aa07c45675d'
+ms.assetid: 973ca2be-7f0e-43db-8790-0aa07c45675d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing ActiveX Objects
@@ -37,7 +42,7 @@ Regardless of your strategy, an ActiveX client needs to follow these steps:
 > [!Note]  
 > Throughout this section, the file names of sample applications appear in parentheses before the sample code.
 
- 
+ 
 
 ## In this section
 
@@ -51,7 +56,7 @@ Regardless of your strategy, an ActiveX client needs to follow these steps:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -60,9 +65,9 @@ Regardless of your strategy, an ActiveX client needs to follow these steps:
 [Automation Programming Reference](automation-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

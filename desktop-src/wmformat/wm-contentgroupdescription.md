@@ -1,14 +1,20 @@
 ---
 title: WM/ContentGroupDescription
 description: The WM/ContentGroupDescription attribute contains a description of the content group.
-ms.assetid: '0884f33e-4417-4c8b-8e0a-d79fff423395'
-keywords: ["WM/ContentGroupDescription windows Media Format"]
+ms.assetid: 0884f33e-4417-4c8b-8e0a-d79fff423395
+keywords:
+- WM/ContentGroupDescription windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/ContentGroupDescription
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ContentGroupDescription

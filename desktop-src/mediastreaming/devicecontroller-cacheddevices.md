@@ -1,14 +1,22 @@
 ---
 title: DeviceController.CachedDevices method
 description: Retrieves a collection of IBasicDevice interface pointers that represents the cached view of all discoverable DLNA devices.
-ms.assetid: '89CFA4BB-EDA8-461A-A3A0-A84CBDA99EA4'
-keywords: ["CachedDevices method Media Streaming API", "CachedDevices method Media Streaming API , DeviceController interface", "DeviceController interface Media Streaming API , CachedDevices method"]
+ms.assetid: 89CFA4BB-EDA8-461A-A3A0-A84CBDA99EA4
+keywords:
+- CachedDevices method Media Streaming API
+- CachedDevices method Media Streaming API , DeviceController interface
+- DeviceController interface Media Streaming API , CachedDevices method
 topic_type:
 - apiref
 api_name:
 - DeviceController.CachedDevices
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceController.CachedDevices method
@@ -20,7 +28,7 @@ Retrieves a collection of [**IBasicDevice**](ibasicdevice.md) interface pointers
 
 ```C++
 HRESULT CachedDevices(
-  [out] IVector< IBasicDevice > **value
+  [out] IVector< IBasicDevice > **value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**DeviceController**](devicecontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

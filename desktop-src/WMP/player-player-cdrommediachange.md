@@ -1,8 +1,11 @@
 ---
 title: Player.CdromMediaChange event
 description: The CdromMediaChange event occurs when a CD or DVD is inserted into or ejected from a CD or DVD drive.
-ms.assetid: 'd31a791a-55e5-49ee-bfe5-7488277e3fda'
-keywords: ["CdromMediaChange event Windows Media Player", "CdromMediaChange event Windows Media Player , Player class", "Player class Windows Media Player , CdromMediaChange event"]
+ms.assetid: d31a791a-55e5-49ee-bfe5-7488277e3fda
+keywords:
+- CdromMediaChange event Windows Media Player
+- CdromMediaChange event Windows Media Player , Player class
+- Player class Windows Media Player , CdromMediaChange event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.CdromMediaChange event
@@ -75,9 +83,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

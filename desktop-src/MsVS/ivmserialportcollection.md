@@ -1,8 +1,10 @@
 ---
 title: VMSerialPortCollection interface
 description: The IVMSerialPortCollection interface defines the collection of serial ports within the virtual machine. An IVMSerialPortCollection object is returned from the IVMVirtualMachine SerialPorts property.
-ms.assetid: 'e7cf9fdb-6b04-4da8-833f-c076ba4b8346'
-keywords: ["VMSerialPortCollection interface Virtual Server", "VMSerialPortCollection interface Virtual Server , described"]
+ms.assetid: e7cf9fdb-6b04-4da8-833f-c076ba4b8346
+keywords:
+- VMSerialPortCollection interface Virtual Server
+- VMSerialPortCollection interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMSerialPortCollection interface
@@ -37,7 +44,7 @@ The **VMSerialPortCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,8 +52,8 @@ The **VMSerialPortCollection** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -61,9 +68,9 @@ The **VMSerialPortCollection** interface has these properties.
 [**IVMSerialPort**](ivmserialport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

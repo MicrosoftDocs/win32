@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_DeviceFile class represents a type of logical file, which represents a device.'
+Description: The CIM\_DeviceFile class represents a type of logical file, which represents a device.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b07f039c-8ab0-4e13-96d5-3621da19e66d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b07f039c-8ab0-4e13-96d5-3621da19e66d
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_DeviceFile class'
+title: CIM\_DeviceFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_DeviceFile class
@@ -19,7 +22,7 @@ The **CIM\_DeviceFile** class represents a type of logical file, which represent
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,37 +32,37 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{4333BD60-E3D1-11d2-8601-0000F8102E5F}"), AMENDMENT]
 class CIM_DeviceFile : CIM_LogicalFile
 {
-  uint32   AccessMask;
-  boolean  Archive;
-  string   Caption;
-  boolean  Compressed;
-  string   CompressionMethod;
-  string   CreationClassName;
+  uint32   AccessMask;
+  boolean  Archive;
+  string   Caption;
+  boolean  Compressed;
+  string   CompressionMethod;
+  string   CreationClassName;
   datetime CreationDate;
-  string   CSCreationClassName;
-  string   CSName;
-  string   Description;
-  string   Drive;
-  string   EightDotThreeFileName;
-  boolean  Encrypted;
-  string   EncryptionMethod;
-  string   Extension;
-  string   FileName;
-  uint64   FileSize;
-  string   FileType;
-  string   FSCreationClassName;
-  string   FSName;
-  boolean  Hidden;
+  string   CSCreationClassName;
+  string   CSName;
+  string   Description;
+  string   Drive;
+  string   EightDotThreeFileName;
+  boolean  Encrypted;
+  string   EncryptionMethod;
+  string   Extension;
+  string   FileName;
+  uint64   FileSize;
+  string   FileType;
+  string   FSCreationClassName;
+  string   FSName;
+  boolean  Hidden;
   datetime InstallDate;
-  uint64   InUseCount;
+  uint64   InUseCount;
   datetime LastAccessed;
   datetime LastModified;
-  string   Name;
-  string   Path;
-  boolean  Readable;
-  string   Status;
-  boolean  System;
-  boolean  Writeable;
+  string   Name;
+  string   Path;
+  boolean  Readable;
+  string   Status;
+  boolean  System;
+  boolean  Writeable;
 };
 ```
 
@@ -95,7 +98,7 @@ The **CIM\_DeviceFile** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -931,8 +934,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -946,9 +949,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalFile**](cim-logicalfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: Shared Folders Clipboard Formats
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '117fd033-2a3d-475a-b3fe-8f3316af6892'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 117fd033-2a3d-475a-b3fe-8f3316af6892
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Shared Folders Clipboard Formats

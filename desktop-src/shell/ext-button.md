@@ -1,6 +1,11 @@
-﻿---
-Description: 'Contains information about a button that a File Manager extension DLL is adding to the toolbar of File Manager.'
-title: 'EXT\_BUTTON structure'
+---
+Description: Contains information about a button that a File Manager extension DLL is adding to the toolbar of File Manager.
+title: EXT\_BUTTON structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXT\_BUTTON structure

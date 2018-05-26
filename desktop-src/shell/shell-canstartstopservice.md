@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines if the current user can start and stop the named service.'
-ms.assetid: '1428F529-61F6-4113-A553-2C0D617FD859'
-title: 'Shell.CanStartStopService method'
+---
+Description: Determines if the current user can start and stop the named service.
+ms.assetid: 1428F529-61F6-4113-A553-2C0D617FD859
+title: Shell.CanStartStopService method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.CanStartStopService method

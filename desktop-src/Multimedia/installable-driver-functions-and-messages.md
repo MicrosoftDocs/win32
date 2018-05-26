@@ -1,8 +1,20 @@
 ---
 title: Installable Driver Functions and Messages
 description: Installable Driver Functions and Messages
-ms.assetid: 'f487705a-ae8e-4ea8-bfd5-9b0f6087ddbb'
-keywords: ["installable drivers,functions", "installable drivers,messages", "installable drivers,OpenDriver function", "OpenDriver function", "installable drivers,custom messages", "driver messages", "custom driver messages"]
+ms.assetid: f487705a-ae8e-4ea8-bfd5-9b0f6087ddbb
+keywords:
+- installable drivers,functions
+- installable drivers,messages
+- installable drivers,OpenDriver function
+- OpenDriver function
+- installable drivers,custom messages
+- driver messages
+- custom driver messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installable Driver Functions and Messages

@@ -1,7 +1,12 @@
 ---
 title: Virtual Machine Emulated Hardware
 description: Microsoft Virtual Server provides a standard set of emulated hardware devices for each virtual machine session.
-ms.assetid: 'd8a6f597-6feb-431e-8a54-2cf3d5bb4ccb'
+ms.assetid: d8a6f597-6feb-431e-8a54-2cf3d5bb4ccb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual Machine Emulated Hardware
@@ -23,7 +28,7 @@ Microsoft Virtual Server emulates the following system processor board component
 
 
 
- 
+ 
 
 If Virtual Server is run on a multiprocessor hardware system, each hosted virtual machine session will only have a single CPU available to it in its emulated hardware environment. Virtual Server can distribute virtual machine sessions amongst multiple processors if available, but each session will only have a single emulated processor available to it.
 
@@ -45,7 +50,7 @@ Microsoft Virtual Server emulates the following user interface devices:
 
 
 
- 
+ 
 
 The emulated graphics card is VESA 2.0 compliant and supports VGA and SVGA modes.
 
@@ -65,7 +70,7 @@ Microsoft Virtual Server emulates the following input/output devices.
 
 
 
- 
+ 
 
 The emulated serial ports support mapping to the physical serial ports.
 
@@ -88,7 +93,7 @@ Microsoft Virtual Server emulates the following mass storage devices.
 
 
 
- 
+ 
 
 The emulated floppy disk devices support mapping to physical floppy drives or to virtual floppy drive images.
 
@@ -112,13 +117,13 @@ Microsoft Virtual Server emulates the following network interface devices:
 
 
 
- 
+ 
 
 The emulated NICs support mapping to a physical NIC or to virtual network connection. An unlimited number of virtual network connections are supported. The emulated NIC supports all Ethernet-based networking protocols (IP, TCP/IP, IPX, NetBEUI, and so on), and can be dynamically connected to and disconnected from different virtual networks. Virtual networks are completely independent of each other, and virtual DHCP servers are available within each virtual network.
 
- 
+ 
 
- 
+ 
 
 
 

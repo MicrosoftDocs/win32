@@ -1,12 +1,17 @@
 ---
-Description: 'The Read method reads a specified number of bytes from the buffer object into memory starting at the current seek pointer.'
-ms.assetid: '98c4de75-9ecf-4c57-9075-9d0e3675079f'
-title: 'IByteBuffer::Read method'
+Description: The Read method reads a specified number of bytes from the buffer object into memory starting at the current seek pointer.
+ms.assetid: 98c4de75-9ecf-4c57-9075-9d0e3675079f
+title: IByteBufferRead method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IByteBuffer::Read method
 
-\[The **Read** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
+\[The **Read** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
 
 The **Read** method reads a specified number of bytes from the buffer object into memory starting at the current seek pointer.
 
@@ -15,9 +20,9 @@ The **Read** method reads a specified number of bytes from the buffer object int
 
 ```C++
 HRESULT Read(
-  [out] BYTE *pByte,
-  [in]  LONG cb,
-  [out] LONG *pcbRead
+  [out] BYTE *pByte,
+  [in]  LONG cb,
+  [out] LONG *pcbRead
 );
 ```
 
@@ -92,10 +97,10 @@ printf("\n");
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Scardssp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Scardssp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scardssp.dll</dt> </dl> |
@@ -103,9 +108,9 @@ printf("\n");
 
 
 
- 
+ 
 
- 
+ 
 
 
 

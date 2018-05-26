@@ -4,17 +4,22 @@ description: Specifies the role that the cluster automatically assigns to any ne
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '21ba6d5d-9a0f-4c60-9694-87a40dcb0c33'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 21ba6d5d-9a0f-4c60-9694-87a40dcb0c33
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DefaultNetworkRole Failover Cluster ,for clusters", "DefaultNetworkRole Failover Cluster"]
+keywords:
+- DefaultNetworkRole Failover Cluster ,for clusters
+- DefaultNetworkRole Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DefaultNetworkRole
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DefaultNetworkRole
@@ -27,14 +32,14 @@ Specifies the [**role**](networks-role.md) that the [*cluster*](c-gly.md#-wolf-c
 |----------------------|--------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                   |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>     |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/>   |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/>   |
 | Minimum<br/>   | **ClusterNetworkRoleNone** (0)<br/>              |
 | Maximum<br/>   | **ClusterNetworkRoleInternalAndClient** (3)<br/> |
 | Default<br/>   | **ClusterNetworkRoleInternalAndClient**<br/>     |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -42,7 +47,7 @@ The constant for this property is **CLUSREG\_NAME\_CLUS\_DEFAULT\_NETWORK\_ROLE*
 
 When the [Cluster service](cluster-service.md) detects a new network, it sets the network's [**Role**](networks-role.md) property to the value specified by **DefaultNetworkRole**. Thereafter, the network's role can be changed only by adjusting its **Role** property. Changing **DefaultNetworkRole** will not affect previously detected networks.
 
-The **DefaultNetworkRole** property can be set to one of the following values of the [**CLUSTER\_NETWORK\_ROLE**](cluster-network-role.md) enumeration.
+The **DefaultNetworkRole** property can be set to one of the following values of the [**CLUSTER\_NETWORK\_ROLE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_network_role?branch=master) enumeration.
 
 
 
@@ -55,7 +60,7 @@ The **DefaultNetworkRole** property can be set to one of the following values of
 
 
 
- 
+ 
 
 ## Examples
 
@@ -80,7 +85,7 @@ DefaultNetworkRoleValue.dw        = DefaultNetworkRoleData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -91,15 +96,15 @@ DefaultNetworkRoleValue.dw        = DefaultNetworkRoleData;
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**CLUSTER\_NETWORK\_ROLE**](cluster-network-role.md)
+[**CLUSTER\_NETWORK\_ROLE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_network_role?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

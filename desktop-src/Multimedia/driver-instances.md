@@ -1,8 +1,16 @@
 ---
 title: Driver Instances
 description: Driver Instances
-ms.assetid: '93dba9e8-bfb3-4714-9466-cf5c78babcf2'
-keywords: ["installable drivers,instances", "installable drivers,multiple instances", "multiple driver instances"]
+ms.assetid: 93dba9e8-bfb3-4714-9466-cf5c78babcf2
+keywords:
+- installable drivers,instances
+- installable drivers,multiple instances
+- multiple driver instances
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Driver Instances

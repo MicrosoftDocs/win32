@@ -1,7 +1,12 @@
 ---
 Description: Debugging Utilities
-ms.assetid: '1d40745f-9282-45ca-96e1-ed2a6f03cb98'
+ms.assetid: 1d40745f-9282-45ca-96e1-ed2a6f03cb98
 title: Debugging Utilities
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debugging Utilities

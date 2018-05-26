@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sent to an extension DLL when File Manager is unloading the DLL.'
-title: 'FMEVENT\_UNLOAD message'
+---
+Description: Sent to an extension DLL when File Manager is unloading the DLL.
+title: FMEVENT\_UNLOAD message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FMEVENT\_UNLOAD message

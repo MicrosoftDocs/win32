@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a network adapter with its Receive Segment Coalescing (RSC) data.'
-ms.assetid: '77663255-c676-46e2-9568-bc31214b6e9f'
-title: 'MSFT\_NetAdapterRscElementSetting class'
+Description: Associates a network adapter with its Receive Segment Coalescing (RSC) data.
+ms.assetid: 77663255-c676-46e2-9568-bc31214b6e9f
+title: MSFT\_NetAdapterRscElementSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterRscElementSetting class
@@ -16,12 +21,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterRscElementSetting : MSFT_NetAdapterElementSettingData
 {
-  uint16                        REF IsDefault;
-  uint16                        REF IsCurrent;
-  uint16                        REF IsNext;
-  uint16                        REF IsMinimum = 0;
-  uint16                        REF IsMaximum = 0;
-  MSFT_NetAdapter               REF ManagedElement;
+  uint16                        REF IsDefault;
+  uint16                        REF IsCurrent;
+  uint16                        REF IsNext;
+  uint16                        REF IsMinimum = 0;
+  uint16                        REF IsMaximum = 0;
+  MSFT_NetAdapter               REF ManagedElement;
   MSFT_NetAdapterRscSettingData REF SettingData;
 };
 ```
@@ -218,16 +223,16 @@ The Receive Segment Coalescing (RSC) setting data for the network adapter.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

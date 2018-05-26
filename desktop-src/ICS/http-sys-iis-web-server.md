@@ -1,7 +1,12 @@
 ---
 title: HTTP.SYS/IIS Web Server
-ms.assetid: '1e9632fc-1f07-46c3-83fd-96f9321427f8'
+ms.assetid: 1e9632fc-1f07-46c3-83fd-96f9321427f8
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP.SYS/IIS Web Server

@@ -1,13 +1,22 @@
 ---
 title: Mutual Exclusion Types
 description: Mutual Exclusion Types
-ms.assetid: 'bfe6cfe6-3df4-49c4-8015-fe4479b693c1'
-keywords: ["Windows Media Format SDK,mutual exclusion", "Advanced Systems Format (ASF),mutual exclusion", "ASF (Advanced Systems Format),mutual exclusion", "mutual exclusion,types"]
+ms.assetid: bfe6cfe6-3df4-49c4-8015-fe4479b693c1
+keywords:
+- Windows Media Format SDK,mutual exclusion
+- Advanced Systems Format (ASF),mutual exclusion
+- ASF (Advanced Systems Format),mutual exclusion
+- mutual exclusion,types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mutual Exclusion Types
 
-You can use mutual exclusion types to identify the nature of a mutual exclusion object in a profile. Mutual exclusion types are used as parameters for [**IWMMutualExclusion::GetType**](iwmmutualexclusion-gettype.md) and [**IWMMutualExclusion::SetType**](iwmmutualexclusion-settype.md).
+You can use mutual exclusion types to identify the nature of a mutual exclusion object in a profile. Mutual exclusion types are used as parameters for [**IWMMutualExclusion::GetType**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-gettype?branch=master) and [**IWMMutualExclusion::SetType**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-settype?branch=master).
 
 The following table lists the identifiers for mutual exclusion types.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The COM+ Compensating Resource Manager (CRM) provides a quick and easy way to integrate application resources with Microsoft Distributed Transaction Coordinator (DTC) transactions.'
-ms.assetid: '3d490da6-1577-4a77-9f7d-6188f96f2914'
+Description: The COM+ Compensating Resource Manager (CRM) provides a quick and easy way to integrate application resources with Microsoft Distributed Transaction Coordinator (DTC) transactions.
+ms.assetid: 3d490da6-1577-4a77-9f7d-6188f96f2914
 title: COM+ Compensating Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Compensating Resource Manager

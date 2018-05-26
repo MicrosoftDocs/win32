@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine FetchScriptByEvent method
 description: The FetchScriptByEvent method retrieves the script command line associated with the specified event type.
-ms.assetid: 'd46b553b-d760-4d3c-9b9a-e4c971380566'
-keywords: ["FetchScriptByEvent method Virtual Server", "FetchScriptByEvent method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , FetchScriptByEvent method"]
+ms.assetid: d46b553b-d760-4d3c-9b9a-e4c971380566
+keywords:
+- FetchScriptByEvent method Virtual Server
+- FetchScriptByEvent method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , FetchScriptByEvent method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::FetchScriptByEvent method
@@ -22,8 +30,8 @@ The **FetchScriptByEvent** method retrieves the script command line associated w
 
 ```C++
 HRESULT FetchScriptByEvent(
-  [in]  VMEventType eventType,
-  [out] BSTR        *scriptCommandLine
+  [in]  VMEventType eventType,
+  [out] BSTR        *scriptCommandLine
 );
 ```
 
@@ -63,7 +71,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -75,8 +83,8 @@ The output command line string will be **NULL** if there is no command attached 
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -91,9 +99,9 @@ The output command line string will be **NULL** if there is no command attached 
 [**VMEventType**](vmeventtype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

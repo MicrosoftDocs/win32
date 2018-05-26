@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.saturation
 description: The saturation attribute specifies or retrieves the saturation value of the BUTTONGROUP images.
-ms.assetid: 'bfd957f0-8201-4a4f-9162-a397ed97c747'
-keywords: ["BUTTONGROUP.saturation Windows Media Player"]
+ms.assetid: bfd957f0-8201-4a4f-9162-a397ed97c747
+keywords:
+- BUTTONGROUP.saturation Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.saturation
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.saturation
@@ -62,9 +68,9 @@ This attribute changes the saturation value of the images specified by the **dis
 [**BUTTONGROUP.image**](buttongroup-image.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

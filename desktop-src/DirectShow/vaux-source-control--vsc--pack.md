@@ -1,12 +1,17 @@
 ---
-Description: 'VAUX Source Control (VSC) Pack'
-ms.assetid: '9d5dd89e-9084-409d-86c0-30b57645d33d'
-title: 'VAUX Source Control (VSC) Pack'
+Description: VAUX Source Control (VSC) Pack
+ms.assetid: 9d5dd89e-9084-409d-86c0-30b57645d33d
+title: VAUX Source Control (VSC) Pack
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VAUX Source Control (VSC) Pack
 
-The following tables list the values used by the MSDV driver to fill in the **dwDVVAuxCtl** member of the [**DVINFO**](dvinfo.md) structure. For more information, see [DVINFO Field Settings in the MSDV Driver](dvinfo-field-settings-in-the-msdv-driver.md).
+The following tables list the values used by the MSDV driver to fill in the **dwDVVAuxCtl** member of the [**DVINFO**](/windows/win32/strmif/ns-strmif-dvinfo?branch=master) structure. For more information, see [DVINFO Field Settings in the MSDV Driver](dvinfo-field-settings-in-the-msdv-driver.md).
 
 **DVCR Settings**
 

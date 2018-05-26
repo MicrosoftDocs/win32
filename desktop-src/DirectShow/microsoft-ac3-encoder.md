@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Microsoft AC-3 Encoder filter encodes stereo PCM audio to a Dolby Digital bitstream.'
-ms.assetid: '59d46ee2-d45f-4492-938d-39c55a7368e1'
-title: 'Microsoft AC-3 Encoder'
+---
+Description: The Microsoft AC-3 Encoder filter encodes stereo PCM audio to a Dolby Digital bitstream.
+ms.assetid: 59d46ee2-d45f-4492-938d-39c55a7368e1
+title: Microsoft AC-3 Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft AC-3 Encoder
@@ -24,7 +29,7 @@ Filter Information
 
 Filter Interfaces
 
-[**IBaseFilter**](ibasefilter.md)<br/>
+[**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)<br/>
 
 Input Pin Media Types
 
@@ -32,7 +37,7 @@ Input Pin Media Types
 
 Input Pin Interfaces
 
-[**IMemInputPin**](imeminputpin.md)<br/> [**IPin**](ipin.md)<br/> [**IQualityControl**](iqualitycontrol.md)<br/>
+[**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master)<br/> [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)<br/> [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)<br/>
 
 Output Pin Media Types
 
@@ -40,7 +45,7 @@ Output Pin Media Types
 
 Output Pin Interfaces
 
-[**IMediaSeeking**](imediaseeking.md)<br/> [**IPin**](ipin.md)<br/> [**IQualityControl**](iqualitycontrol.md)<br/>
+[**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)<br/> [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)<br/> [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)<br/>
 
 Filter CLSID
 

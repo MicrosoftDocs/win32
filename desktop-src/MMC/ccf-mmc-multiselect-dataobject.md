@@ -4,11 +4,12 @@ description: The CCF\_MMC\_MULTISELECT\_DATAOBJECT clipboard format enables a sn
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '25f6dba4-4df2-4a13-b13f-0bf8cbef3879'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 25f6dba4-4df2-4a13-b13f-0bf8cbef3879
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CCF_MMC_MULTISELECT_DATAOBJECT clipboard format MMC"]
+keywords:
+- CCF_MMC_MULTISELECT_DATAOBJECT clipboard format MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CCF\_MMC\_MULTISELECT\_DATAOBJECT clipboard format
@@ -41,8 +45,8 @@ Be aware that a multiselect snap-ins data object is a data object that contains 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -60,9 +64,9 @@ Be aware that a multiselect snap-ins data object is a data object that contains 
 [Multiselection](multiselection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Updates the parent for the specified leaf and child virtual hard disk files.'
-ms.assetid: '5ad41218-bcfd-449a-a66e-2096a1d96bf5'
-title: 'SetParentVirtualHardDisk method of the Msvm\_ImageManagementService class'
+Description: Updates the parent for the specified leaf and child virtual hard disk files.
+ms.assetid: 5ad41218-bcfd-449a-a66e-2096a1d96bf5
+title: SetParentVirtualHardDisk method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetParentVirtualHardDisk method of the Msvm\_ImageManagementService class
@@ -13,11 +18,11 @@ Updates the parent for the specified leaf and child virtual hard disk files. See
 
 ```mof
 uint32 SetParentVirtualHardDisk(
-  [in]  string              ChildPath,
-  [in]  string              ParentPath,
-  [in]  string              LeafPath,
-  [in]  boolean             IgnoreIDMismatch,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              ChildPath,
+  [in]  string              ParentPath,
+  [in]  string              LeafPath,
+  [in]  boolean             IgnoreIDMismatch,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -125,8 +130,8 @@ Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -140,9 +145,9 @@ Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

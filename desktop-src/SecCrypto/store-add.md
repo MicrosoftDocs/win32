@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds a Certificate object to an open certificate store.'
-ms.assetid: '787b8a41-dcdb-4b5b-a1fd-f5424300361b'
-title: 'Store.Add method'
+---
+Description: Adds a Certificate object to an open certificate store.
+ms.assetid: 787b8a41-dcdb-4b5b-a1fd-f5424300361b
+title: Store.Add method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Store.Add method

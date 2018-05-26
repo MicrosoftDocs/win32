@@ -4,13 +4,16 @@ description: For pools that support a range of sizes for volume or pool creation
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '72d1ec89-a3f2-4e72-b423-a31f7d36bd11'
-ms.prod: 'windows-server-dev'
+ms.assetid: 72d1ec89-a3f2-4e72-b423-a31f7d36bd11
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedSizeRange method iSCSI Software Target API", "GetSupportedSizeRange method iSCSI Software Target API , CIM_StoragePool class", "CIM_StoragePool class iSCSI Software Target API , GetSupportedSizeRange method"]
+keywords:
+- GetSupportedSizeRange method iSCSI Software Target API
+- GetSupportedSizeRange method iSCSI Software Target API , CIM_StoragePool class
+- CIM_StoragePool class iSCSI Software Target API , GetSupportedSizeRange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedSizeRange method of the CIM\_StoragePool class
@@ -30,11 +36,11 @@ For pools that support a range of sizes for volume or pool creation, this method
 
 ```mof
 uint32 GetSupportedSizeRange(
-  [in]  uint16                 ElementType,
-  [in]  CIM_StorageSetting REF Goal,
-  [out] uint64                 MinimumVolumeSize,
-  [out] uint64                 MaximumVolumeSize,
-  [out] uint64                 VolumeSizeDivisor
+  [in]  uint16                 ElementType,
+  [in]  CIM_StorageSetting REF Goal,
+  [out] uint64                 MinimumVolumeSize,
+  [out] uint64                 MaximumVolumeSize,
+  [out] uint64                 VolumeSizeDivisor
 );
 ```
 
@@ -120,7 +126,7 @@ A volume/pool size must be a multiple of this value which is specified in bytes.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -134,9 +140,9 @@ A volume/pool size must be a multiple of this value which is specified in bytes.
 [**CIM\_StoragePool**](cim-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

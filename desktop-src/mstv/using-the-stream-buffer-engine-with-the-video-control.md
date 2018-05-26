@@ -1,7 +1,12 @@
 ---
 title: Using the Stream Buffer Engine with the Video Control
 description: Using the Stream Buffer Engine with the Video Control
-ms.assetid: '41b458d6-e2c1-4587-9342-91aa13f91b86'
+ms.assetid: 41b458d6-e2c1-4587-9342-91aa13f91b86
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Stream Buffer Engine with the Video Control

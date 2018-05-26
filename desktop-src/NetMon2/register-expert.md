@@ -1,7 +1,12 @@
 ---
-Description: 'The expert must implement the Register expert function. Network Monitor calls the Register expert function to obtain information about the expert.'
-ms.assetid: '58cfe525-99b1-40ce-b8d8-fa1c62a20c40'
+Description: The expert must implement the Register expert function. Network Monitor calls the Register expert function to obtain information about the expert.
+ms.assetid: 58cfe525-99b1-40ce-b8d8-fa1c62a20c40
 title: Register Expert callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Register Expert callback function
@@ -13,7 +18,7 @@ The expert must implement the **Register** expert function. Network Monitor call
 
 ```C++
 BOOL WINAPI Register(
-  _Inout_ PEXPERTENUMINFO pExpertInfo
+  _Inout_ PEXPERTENUMINFO pExpertInfo
 );
 ```
 
@@ -46,15 +51,15 @@ The **Version** member of the [**EXPERTENUMINFO**](expertenuminfo.md) structure 
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

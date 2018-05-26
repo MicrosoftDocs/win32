@@ -1,14 +1,20 @@
 ---
 title: Mean element
 description: The primary statistic is the arithmetic mean.
-ms.assetid: '8E91AAFE-38B6-4083-91EB-8412F75235AD'
-keywords: ["Mean element Access Execution Engine"]
+ms.assetid: 8E91AAFE-38B6-4083-91EB-8412F75235AD
+keywords:
+- Mean element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Mean
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mean element

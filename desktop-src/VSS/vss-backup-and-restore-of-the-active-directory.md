@@ -1,7 +1,12 @@
 ---
-Description: 'The Active Directory writer requires no special actions during backup operations.'
-ms.assetid: '66efd5e5-e6c9-4179-b119-1b5b977b0f9f'
+Description: The Active Directory writer requires no special actions during backup operations.
+ms.assetid: 66efd5e5-e6c9-4179-b119-1b5b977b0f9f
 title: VSS Backup and Restore of the Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VSS Backup and Restore of the Active Directory

@@ -1,7 +1,12 @@
 ---
-Description: 'Determines whether a volume is a CSV volume.'
-ms.assetid: '6B09B519-1E2F-4757-AAD5-1E4C81023E14'
-title: 'IOCTL\_VOLUME\_IS\_CSV control code'
+Description: Determines whether a volume is a CSV volume.
+ms.assetid: 6B09B519-1E2F-4757-AAD5-1E4C81023E14
+title: IOCTL\_VOLUME\_IS\_CSV control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_VOLUME\_IS\_CSV control code
@@ -33,7 +38,7 @@ DeviceIoControl( (HANDLE) hDevice,              // handle to device
 *hDevice* 
 </dt> <dd>
 
-A handle to the volume. To retrieve a volume handle, call the [**CreateFile**](createfile.md) function. Only administrators can open volume handles.
+A handle to the volume. To retrieve a volume handle, call the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function. Only administrators can open volume handles.
 
 </dd> <dt>
 
@@ -79,7 +84,7 @@ A pointer to a variable that receives the size of the data stored in the output 
 
 If *lpOverlapped* is **NULL**, *lpBytesReturned* cannot be **NULL**. Even when an operation returns no output data and *lpOutBuffer* is **NULL**, [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216) makes use of *lpBytesReturned*. After such an operation, the value of *lpBytesReturned* is meaningless.
 
-If *lpOverlapped* is not **NULL**, *lpBytesReturned* can be **NULL**. If this parameter is not **NULL** and the operation returns data, *lpBytesReturned* is meaningless until the overlapped operation has completed. To retrieve the number of bytes returned, call [**GetOverlappedResult**](https://msdn.microsoft.com/library/windows/desktop/ms683209). If *hDevice* is associated with an I/O completion port, you can retrieve the number of bytes returned by calling [**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md).
+If *lpOverlapped* is not **NULL**, *lpBytesReturned* can be **NULL**. If this parameter is not **NULL** and the operation returns data, *lpBytesReturned* is meaningless until the overlapped operation has completed. To retrieve the number of bytes returned, call [**GetOverlappedResult**](https://msdn.microsoft.com/library/windows/desktop/ms683209). If *hDevice* is associated with an I/O completion port, you can retrieve the number of bytes returned by calling [**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master).
 
 </dd> <dt>
 
@@ -109,7 +114,7 @@ If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microso
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Ntddvol.h</dt> </dl> |
 
 
@@ -118,7 +123,7 @@ If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microso
 
 <dl> <dt>
 
-[**CreateFile**](createfile.md)
+[**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master)
 </dt> <dt>
 
 [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216)
@@ -127,9 +132,9 @@ If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microso
 [Volume Management Control Codes](volume-management-control-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

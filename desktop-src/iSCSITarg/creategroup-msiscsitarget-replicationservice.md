@@ -4,13 +4,16 @@ description: Creates a new replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9cac9fa2-6d66-4cd7-949b-d2a02cb0cb53'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9cac9fa2-6d66-4cd7-949b-d2a02cb0cb53
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateGroup method iSCSI Software Target API", "CreateGroup method iSCSI Software Target API , MSISCSITARGET_ReplicationService class", "MSISCSITARGET_ReplicationService class iSCSI Software Target API , CreateGroup method"]
+keywords:
+- CreateGroup method iSCSI Software Target API
+- CreateGroup method iSCSI Software Target API , MSISCSITARGET_ReplicationService class
+- MSISCSITARGET_ReplicationService class iSCSI Software Target API , CreateGroup method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateGroup method of the MSISCSITARGET\_ReplicationService class
@@ -32,14 +38,14 @@ This method is inherited from the **CIM\_ReplicationService** class.
 
 ```mof
 uint32 CreateGroup(
-  [in, optional] string                     GroupName,
-  [in, optional] CIM_LogicalElement Ref     Members[],
-  [in, optional] boolean                    Persistent,
-  [in, optional] boolean                    DeleteOnEmptyElement,
-  [in, optional] boolean                    DeleteOnUnassociated,
-  [in, optional] CIM_ServiceAccessPoint Ref ServiceAccessPoint,
-  [out]          CIM_ReplicationGroup Ref   ReplicationGroup,
-  [in, optional] string                     ReplicationSettingData
+  [in, optional] string                     GroupName,
+  [in, optional] CIM_LogicalElement Ref     Members[],
+  [in, optional] boolean                    Persistent,
+  [in, optional] boolean                    DeleteOnEmptyElement,
+  [in, optional] boolean                    DeleteOnUnassociated,
+  [in, optional] CIM_ServiceAccessPoint Ref ServiceAccessPoint,
+  [out]          CIM_ReplicationGroup Ref   ReplicationGroup,
+  [in, optional] string                     ReplicationSettingData
 );
 ```
 
@@ -64,7 +70,7 @@ Specifies a list of elements to add to the group. The order of the specified ele
 > [!Note]  
 > Empty groups might not be allowed, in which case this parameter is required.
 
- 
+ 
 
 </dd> <dt>
 
@@ -83,7 +89,7 @@ Specifies whether to delete the group when the last element is removed. If **Tru
 > [!Note]  
 > If empty groups are not allowed, the group is deleted automatically after the group becomes empty even if this parameter is **false**.
 
- 
+ 
 
 If this parameter is not **NULL**, its value is used to set the **DeleteOnEmptyElement** property of the group.
 
@@ -151,7 +157,7 @@ This method returns one of the following values:
 **Groups are not nameable** (7)
 </dt> <dt>
 
-**Method Reserved** (8–0x7FFF)
+**Method Reserved** (8 0x7FFF)
 </dt> <dt>
 
 **Vendor Specific** (0x8000 = *value* )
@@ -164,7 +170,7 @@ This method returns one of the following values:
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -181,9 +187,9 @@ This method returns one of the following values:
 [**CIM\_ServiceAccessPoint**](https://msdn.microsoft.com/library/aa388447)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

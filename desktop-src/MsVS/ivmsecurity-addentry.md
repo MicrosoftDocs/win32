@@ -1,8 +1,13 @@
 ---
 title: IVMSecurity AddEntry method
 description: The AddEntry method adds a new access control entry. The new access control entry has no rights enabled.
-ms.assetid: '75dc94d6-c800-4961-bf59-3307593fa30b'
-keywords: ["AddEntry method Virtual Server", "AddEntry method Virtual Server , IVMSecurity interface", "IVMSecurity interface Virtual Server , AddEntry method", "AddEntry method Virtual Server , VMSecurity interface", "VMSecurity interface Virtual Server , AddEntry method"]
+ms.assetid: 75dc94d6-c800-4961-bf59-3307593fa30b
+keywords:
+- AddEntry method Virtual Server
+- AddEntry method Virtual Server , IVMSecurity interface
+- IVMSecurity interface Virtual Server , AddEntry method
+- AddEntry method Virtual Server , VMSecurity interface
+- VMSecurity interface Virtual Server , AddEntry method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSecurity::AddEntry method
@@ -23,9 +33,9 @@ The **AddEntry** method adds a new access control entry. The new access control 
 
 ```C++
 HRESULT AddEntry(
-  [in]  BSTR               nameOrSid,
-  [in]  VMAccessRightsType type,
-  [out] IVMAccessRights    **newEntry
+  [in]  BSTR               nameOrSid,
+  [in]  VMAccessRightsType type,
+  [out] IVMAccessRights    **newEntry
 );
 ```
 
@@ -72,7 +82,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -80,8 +90,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -99,9 +109,9 @@ This method supports standard return values, as well as the following. For infor
 [**VMAccessRightsType**](vmaccessrightstype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

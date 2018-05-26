@@ -4,13 +4,16 @@ description: Creates a set.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4a51210a-9af5-42bb-8f43-ecd64f87d231'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4a51210a-9af5-42bb-8f43-ecd64f87d231
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateSet method", "CreateSet method, MSCluster_GroupSet class", "MSCluster_GroupSet class, CreateSet method"]
+keywords:
+- CreateSet method
+- CreateSet method, MSCluster_GroupSet class
+- MSCluster_GroupSet class, CreateSet method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateSet method of the MSCluster\_GroupSet class
@@ -30,10 +36,10 @@ Creates a set.
 
 ```mof
 uint32 CreateSet(
-  [in]  string             Name,
-  [in]  string             Group[],
-  [in]  string             provider[],
-  [out] MSCluster_GroupSet CreatedSet
+  [in]  string             Name,
+  [in]  string             Group[],
+  [in]  string             provider[],
+  [out] MSCluster_GroupSet CreatedSet
 );
 ```
 
@@ -78,7 +84,7 @@ On success, returns a [**MSCluster\_GroupSet**](mscluster-groupset.md) that cont
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
@@ -92,9 +98,9 @@ On success, returns a [**MSCluster\_GroupSet**](mscluster-groupset.md) that cont
 [**MSCluster\_GroupSet**](mscluster-groupset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

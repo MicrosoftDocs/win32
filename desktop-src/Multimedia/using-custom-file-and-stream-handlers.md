@@ -1,8 +1,21 @@
 ---
 title: Using Custom File and Stream Handlers
 description: Using Custom File and Stream Handlers
-ms.assetid: '261f994b-6a7a-4372-bfaa-1a9f5b73bb15'
-keywords: ["Video for Windows (VFW),custom file handlers", "Video for Windows (VFW),custom stream handlers", "Video for Windows (VFW),file handlers", "Video for Windows (VFW),stream handlers", "VFW (Video for Windows),custom file handlers", "VFW (Video for Windows),custom stream handlers", "VFW (Video for Windows),file handlers", "VFW (Video for Windows),stream handlers"]
+ms.assetid: 261f994b-6a7a-4372-bfaa-1a9f5b73bb15
+keywords:
+- Video for Windows (VFW),custom file handlers
+- Video for Windows (VFW),custom stream handlers
+- Video for Windows (VFW),file handlers
+- Video for Windows (VFW),stream handlers
+- VFW (Video for Windows),custom file handlers
+- VFW (Video for Windows),custom stream handlers
+- VFW (Video for Windows),file handlers
+- VFW (Video for Windows),stream handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Custom File and Stream Handlers

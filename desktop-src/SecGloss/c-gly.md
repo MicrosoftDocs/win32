@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter C.'
-Robots: 'noindex, nofollow'
-ms.assetid: 'db46def4-bfdc-4801-a57d-d568e94a2dbb'
+Description: Contains definitions of security terms that begin with the letter C.
+Robots: noindex, nofollow
+ms.assetid: db46def4-bfdc-4801-a57d-d568e94a2dbb
 title: C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C

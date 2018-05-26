@@ -1,14 +1,20 @@
 ---
 title: COLUMN.columnWidth
 description: The columnWidth attribute specifies or retrieves a column width in the PLAYLIST control.
-ms.assetid: '4c6fabf9-fca0-433a-87bd-17f5d74a0a74'
-keywords: ["COLUMN.columnWidth Windows Media Player"]
+ms.assetid: 4c6fabf9-fca0-433a-87bd-17f5d74a0a74
+keywords:
+- COLUMN.columnWidth Windows Media Player
 topic_type:
 - apiref
 api_name:
 - COLUMN.columnWidth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLUMN.columnWidth
@@ -44,9 +50,9 @@ The **columnResizeMode** property must be set to "fixed" for this property to wo
 [**COLUMN Element**](column-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

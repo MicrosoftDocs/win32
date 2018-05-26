@@ -1,7 +1,12 @@
 ---
 title: Extended Query Properties
 description: Extended Query Properties
-ms.assetid: '2606f410-dac0-49d8-b09d-3e3120aa8b1a'
+ms.assetid: 2606f410-dac0-49d8-b09d-3e3120aa8b1a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extended Query Properties

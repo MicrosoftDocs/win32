@@ -1,7 +1,12 @@
 ---
 title: Read-Only Variables Available in .Htx Files
 description: Read-Only Variables Available in .Htx Files
-ms.assetid: '0167a1a9-0481-4b26-aa4c-dc20f212a731'
+ms.assetid: 0167a1a9-0481-4b26-aa4c-dc20f212a731
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Read-Only Variables Available in .Htx Files

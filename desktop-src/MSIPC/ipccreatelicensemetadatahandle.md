@@ -4,11 +4,12 @@ description: Creates a handle for create or modify operations on the metadata of
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '03B40645-FE94-4F04-A622-FEBF230D9773'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 03B40645-FE94-4F04-A622-FEBF230D9773
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcCreateLicenseMetadataHandle function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcCreateLicenseMetadataHandle function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcCreateLicenseMetadataHandle function
@@ -28,10 +32,10 @@ Creates a handle for create or modify operations on the metadata of the serializ
 
 ```C++
 HRESULT WINAPI IpcCreateLicenseMetadataHandle(
-  _In_       PCIPC_BUFFER         pvSerializedLicense,
-             IPC_KEY_HANDLE       hKey,
-  _Reserved_ LPVOID               pvReserved,
-  _Out_      PIPC_METADATA_HANDLE phMetadata
+  _In_       PCIPC_BUFFER         pvSerializedLicense,
+             IPC_KEY_HANDLE       hKey,
+  _Reserved_ LPVOID               pvReserved,
+  _Out_      PIPC_METADATA_HANDLE phMetadata
 );
 ```
 
@@ -73,7 +77,7 @@ The resulting handle.
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 Possible values include, but are not limited to, those in the following list.
 
@@ -92,8 +96,8 @@ The user must be the owner of the PL to be able to modify the metadata.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -131,9 +135,9 @@ The user must be the owner of the PL to be able to modify the metadata.
 [**IpcRegisterLicense**](ipcregisterlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

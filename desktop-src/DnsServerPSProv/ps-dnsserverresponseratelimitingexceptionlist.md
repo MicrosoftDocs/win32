@@ -2,13 +2,15 @@
 title: PS\_DnsServerResponseRateLimitingExceptionlist class
 description: DNS Server response rate limiting exception list.
 audience: developer
-ms.assetid: '7c990ebe-55fa-4382-a936-addef14bd231'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7c990ebe-55fa-4382-a936-addef14bd231
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DnsServerResponseRateLimitingExceptionlist class", "PS_DnsServerResponseRateLimitingExceptionlist class, described"]
+keywords:
+- PS_DnsServerResponseRateLimitingExceptionlist class
+- PS_DnsServerResponseRateLimitingExceptionlist class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DnsServerResponseRateLimitingExceptionlist class
@@ -55,7 +60,7 @@ The **PS\_DnsServerResponseRateLimitingExceptionlist** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,16 +69,16 @@ The **PS\_DnsServerResponseRateLimitingExceptionlist** class has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

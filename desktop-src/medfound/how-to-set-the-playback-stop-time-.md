@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to set a stop time for playback when using the Media Session.'
-ms.assetid: 'B8BA2154-2824-4573-AE71-853EB8AB911D'
+Description: This topic describes how to set a stop time for playback when using the Media Session.
+ms.assetid: B8BA2154-2824-4573-AE71-853EB8AB911D
 title: How to Set the Playback Stop Time
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Set the Playback Stop Time
@@ -12,7 +17,7 @@ This topic describes how to set a stop time for playback when using the [Media S
 
 Before you queue a topology for playback, you can specify the stop time by using the [MF\_TOPONODE\_MEDIASTOP](mf-toponode-mediastop-attribute.md) attribute. For each output node in the topology, set the value of the MF\_TOPONODE\_MEDIASTOP to the stop time in 100-nanosecond units.
 
-Note that setting this attribute after playback starts has no effect. Therefore, set the attribute before calling [**IMFMediaSession::Start**](imfmediasession-start.md).
+Note that setting this attribute after playback starts has no effect. Therefore, set the attribute before calling [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master).
 
 The following code shows how to set the stop time on an existing topology.
 
@@ -65,22 +70,22 @@ HRESULT SetMediaStop(IMFTopology *pTopology, const LONGLONG&amp; stop)
 
 ## Setting the Stop Time After Playback Has Started
 
-There is a way to set the stop time after the [Media Session](media-session.md) starts playback, by using the [**IMFTopologyNodeAttributeEditor**](imftopologynodeattributeeditor.md) interface.
+There is a way to set the stop time after the [Media Session](media-session.md) starts playback, by using the [**IMFTopologyNodeAttributeEditor**](/windows/win32/mfidl/nn-mfidl-imftopologynodeattributeeditor?branch=master) interface.
 
 > \[!Important\]  
 > This interface has a serious limitation, because the stop time is specified as a 32-bit value. That means the maximum stop time that you can set using this interface is 0xFFFFFFFF, or just over 7 minutes. This limitation is due to an incorrect structure definition.
 
  
 
-To set the stop time using the [**IMFTopologyNodeAttributeEditor**](imftopologynodeattributeeditor.md) interface, perform the following steps.
+To set the stop time using the [**IMFTopologyNodeAttributeEditor**](/windows/win32/mfidl/nn-mfidl-imftopologynodeattributeeditor?branch=master) interface, perform the following steps.
 
-1.  Call [**MFGetService**](mfgetservice.md) to get the [**IMFTopologyNodeAttributeEditor**](imftopologynodeattributeeditor.md) interface from the Media Session.
-2.  Call [**IMFTopology::GetTopologyID**](imftopology-gettopologyid.md) to get the ID of the playback topology.
-3.  For each output node in the topology, call [**IMFTopologyNodeAttributeEditor::UpdateNodeAttributes**](imftopologynodeattributeeditor-updatenodeattributes.md). This method takes the topology ID and a pointer to a [**MFTOPONODE\_ATTRIBUTE\_UPDATE**](mftoponode-attribute-update.md) structure. Initialize the structure as follows.
+1.  Call [**MFGetService**](/windows/win32/mfidl/nf-mfidl-mfgetservice?branch=master) to get the [**IMFTopologyNodeAttributeEditor**](/windows/win32/mfidl/nn-mfidl-imftopologynodeattributeeditor?branch=master) interface from the Media Session.
+2.  Call [**IMFTopology::GetTopologyID**](/windows/win32/mfidl/nf-mfidl-imftopology-gettopologyid?branch=master) to get the ID of the playback topology.
+3.  For each output node in the topology, call [**IMFTopologyNodeAttributeEditor::UpdateNodeAttributes**](/windows/win32/mfidl/nf-mfidl-imftopologynodeattributeeditor-updatenodeattributes?branch=master). This method takes the topology ID and a pointer to a [**MFTOPONODE\_ATTRIBUTE\_UPDATE**](/windows/win32/mfidl/ns-mfidl-_mftoponode_attribute_update?branch=master) structure. Initialize the structure as follows.
 
     | Member               | Value                                                                                                               |
     |----------------------|---------------------------------------------------------------------------------------------------------------------|
-    | **NodeId**           | The node ID. To get the node ID, call call [**IMFTopologyNode::GetTopoNodeID**](imftopologynode-gettoponodeid.md). |
+    | **NodeId**           | The node ID. To get the node ID, call call [**IMFTopologyNode::GetTopoNodeID**](/windows/win32/mfidl/nf-mfidl-imftopologynode-gettoponodeid?branch=master). |
     | **guidAttributeKey** | **MF\_TOPONODE\_MEDIASTOP**                                                                                         |
     | **attrType**         | **MF\_ATTRIBUTE\_UINT64**                                                                                           |
     | **u64**              | The stop time, in 100-nanosecond units.                                                                             |

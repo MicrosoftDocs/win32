@@ -1,14 +1,20 @@
 ---
 title: MUTEBUTTON
 description: This is a predefined BUTTON with the following default values.
-ms.assetid: 'eee00161-c0c4-4e26-a7d2-6357034fcdfd'
-keywords: ["MUTEBUTTON Windows Media Player"]
+ms.assetid: eee00161-c0c4-4e26-a7d2-6357034fcdfd
+keywords:
+- MUTEBUTTON Windows Media Player
 topic_type:
 - apiref
 api_name:
 - MUTEBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MUTEBUTTON
@@ -44,9 +50,9 @@ This creates a **BUTTON** control that will mute and un-mute the audio. The Tool
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: AllJoyn API
 description: .
-ms.assetid: '537657b1-1d55-4e70-8243-4752d2df929a'
+ms.assetid: 537657b1-1d55-4e70-8243-4752d2df929a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AllJoyn API

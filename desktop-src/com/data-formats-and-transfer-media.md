@@ -1,7 +1,12 @@
 ---
 title: Data Formats and Transfer Media
 description: Data Formats and Transfer Media
-ms.assetid: 'c6023c42-ce20-40e4-9d88-55fa1d2a4d38'
+ms.assetid: c6023c42-ce20-40e4-9d88-55fa1d2a4d38
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Formats and Transfer Media
@@ -12,7 +17,7 @@ First, data descriptions use only a format identifier, such as the single 16-bit
 
 Second, all data transfers using the clipboard generally occur through global memory. Using global memory is reasonably efficient for small amounts of data but horribly inefficient for large amounts, such as a 20 MB multimedia object. Global memory is slow for a large data object, whose size requires considerable swapping to virtual memory on disk. In cases where the data being exchanged is going to reside mostly on disk anyway, forcing it through this virtual-memory bottleneck is highly inefficient. A better way would skip global memory entirely and simply transfer the data directly to disk.
 
-To alleviate these problems, COM provides two data structures: [**FORMATETC**](formatetc.md) and [**STGMEDIUM**](stgmedium.md). For more information, see the following topics:
+To alleviate these problems, COM provides two data structures: [**FORMATETC**](/windows/win32/ObjIdl/ns-objidl-tagformatetc?branch=master) and [**STGMEDIUM**](/windows/win32/ObjIdl/ns-objidl-tagstgmedium?branch=master). For more information, see the following topics:
 
 -   [The FORMATETC Structure](the-formatetc-structure.md)
 -   [The STGMEDIUM Structure](the-stgmedium-structure.md)

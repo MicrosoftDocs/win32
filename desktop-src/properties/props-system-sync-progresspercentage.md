@@ -1,7 +1,12 @@
 ---
-Description: 'An integer value between 0 and 100 that represents the percentage completed.'
-ms.assetid: '88ff4ca0-183c-4e9a-a240-ee69ef6eaf38'
-title: 'System.Sync.ProgressPercentage'
+Description: An integer value between 0 and 100 that represents the percentage completed.
+ms.assetid: 88ff4ca0-183c-4e9a-a240-ee69ef6eaf38
+title: System.Sync.ProgressPercentage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Sync.ProgressPercentage

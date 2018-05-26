@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether all streaming protocols are enabled.'
-ms.assetid: 'cf072572-58f7-429a-954a-8808d05248f0'
-title: 'MFNETSOURCE\_ENABLE\_STREAMING property'
+---
+Description: Specifies whether all streaming protocols are enabled.
+ms.assetid: cf072572-58f7-429a-954a-8808d05248f0
+title: MFNETSOURCE\_ENABLE\_STREAMING property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_ENABLE\_STREAMING property

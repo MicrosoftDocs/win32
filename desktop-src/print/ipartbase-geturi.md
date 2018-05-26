@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetUri method gets the URI of the part.'
-ms.assetid: '5f4e3723-a30d-462d-9e7b-da05aa2e0b3c'
-title: 'IPartBase::GetUri method'
+---
+Description: The GetUri method gets the URI of the part.
+ms.assetid: 5f4e3723-a30d-462d-9e7b-da05aa2e0b3c
+title: IPartBaseGetUri method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartBase::GetUri method

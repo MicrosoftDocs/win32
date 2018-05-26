@@ -1,7 +1,12 @@
-﻿---
-Description: 'Exposes the PageImageableSize property of PrintCapabilities. The properties of this interface map directly to those in the PageImageableSize property of PrintCapabilities.'
-ms.assetid: 'C8E9278D-D24A-4EEC-8F68-D77C76ECCC40'
+---
+Description: Exposes the PageImageableSize property of PrintCapabilities. The properties of this interface map directly to those in the PageImageableSize property of PrintCapabilities.
+ms.assetid: C8E9278D-D24A-4EEC-8F68-D77C76ECCC40
 title: IPrintSchemaPageImageableSize interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaPageImageableSize interface

@@ -4,13 +4,18 @@ description: Represents a protocol endpoint that is dedicated to running the IP 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3892e4fa-5bc9-4417-9845-0c6232b2e3b2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3892e4fa-5bc9-4417-9845-0c6232b2e3b2
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFTSMNET_IPProtocolEndpoint class iSCSI Software Target API", "MSFTSMNET_IPProtocolEndpoint class iSCSI Software Target API , described"]
+keywords:
+- MSFTSMNET_IPProtocolEndpoint class iSCSI Software Target API
+- MSFTSMNET_IPProtocolEndpoint class iSCSI Software Target API , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFTSMNET\_IPProtocolEndpoint class
@@ -25,34 +30,34 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Version("1.0.0")]
 class MSFTSMNET_IPProtocolEndpoint : CIM_IPProtocolEndpoint
 {
-  string   Caption;
-  string   ElementName;
+  string   Caption;
+  string   ElementName;
   datetime InstallDate;
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
   datetime TimeOfLastStateChange;
-  uint16   EnabledState;
-  uint16   OperationalStatus[];
-  string   Description;
-  string   Name;
-  string   NameFormat;
-  uint16   ProtocolType;
-  string   OtherTypeDescription;
-  string   IPv4Address;
-  string   IPv6Address;
-  string   Address;
-  string   SubnetMask;
-  uint8    PrefixLength;
-  uint16   AddressType;
-  uint16   IPVersionSupport;
-  uint16   ProtocolIFType = 4096;
+  uint16   EnabledState;
+  uint16   OperationalStatus[];
+  string   Description;
+  string   Name;
+  string   NameFormat;
+  uint16   ProtocolType;
+  string   OtherTypeDescription;
+  string   IPv4Address;
+  string   IPv6Address;
+  string   Address;
+  string   SubnetMask;
+  uint8    PrefixLength;
+  uint16   AddressType;
+  uint16   IPVersionSupport;
+  uint16   ProtocolIFType = 4096;
 };
 ```
 
@@ -75,7 +80,7 @@ The **MSFTSMNET\_IPProtocolEndpoint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -273,14 +278,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -637,7 +642,7 @@ This property is inherited from [**CIM\_IPProtocolEndpoint**](cim-ipprotocolendp
 **IANA Reserved**
 
 
-</dt> <dd>225–4095</dd> <dt>
+</dt> <dd>225 4095</dd> <dt>
 
 <span id="IPv4"></span><span id="ipv4"></span><span id="IPV4"></span>
 
@@ -665,14 +670,14 @@ This property is inherited from [**CIM\_IPProtocolEndpoint**](cim-ipprotocolendp
 **DMTF Reserved**
 
 
-</dt> <dd>4301–32767</dd> <dt>
+</dt> <dd>4301 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -992,14 +997,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1020,7 +1025,7 @@ Contains a string indicating the primary status of the object.
 > [!Note]  
 > This property is deprecated and replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1213,7 +1218,7 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -1230,9 +1235,9 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

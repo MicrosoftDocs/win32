@@ -4,11 +4,15 @@ description: This header file loads the necessary libraries and utilities and de
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fc2032d2-40a5-45bd-8661-1e778789bad6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: fc2032d2-40a5-45bd-8661-1e778789bad6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusDocEx.h Failover Cluster"]
+keywords:
+- ClusDocEx.h Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusDocEx.h

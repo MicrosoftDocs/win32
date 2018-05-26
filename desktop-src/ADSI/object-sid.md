@@ -4,11 +4,15 @@ description: The user security identifier (SID) can be retrieved using the objec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '15845e6d-ea30-4d6c-9f35-b2abc1a564ba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 15845e6d-ea30-4d6c-9f35-b2abc1a564ba
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["WinNT provider ADSI ,user management examples,Object SID"]
+keywords:
+- WinNT provider ADSI ,user management examples,Object SID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Object SID (WinNT Provider)

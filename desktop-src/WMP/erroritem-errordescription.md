@@ -1,8 +1,9 @@
 ---
 title: ErrorItem.errorDescription
 description: The errorDescription property retrieves a description of the error.
-ms.assetid: '7fd16c3d-1460-41b5-81ca-2636d7a1d0d1'
-keywords: ["ErrorItem.errorDescription Windows Media Player"]
+ms.assetid: 7fd16c3d-1460-41b5-81ca-2636d7a1d0d1
+keywords:
+- ErrorItem.errorDescription Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorItem.errorDescription
@@ -73,9 +79,9 @@ document.write(message);
 [**ErrorItem Object**](erroritem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

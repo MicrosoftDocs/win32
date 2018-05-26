@@ -1,7 +1,12 @@
-﻿---
-Description: 'Miscellaneous driver primitive capability flags.'
-ms.assetid: '7912c682-c179-453b-8a34-e87958217500'
+---
+Description: Miscellaneous driver primitive capability flags.
+ms.assetid: 7912c682-c179-453b-8a34-e87958217500
 title: D3DPMISCCAPS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DPMISCCAPS
@@ -128,7 +133,7 @@ Miscellaneous driver primitive capability flags.
 
  
 
-These constants are used by the PrimitiveMiscCaps member of [**D3DCAPS9**](d3dcaps9.md).
+These constants are used by the PrimitiveMiscCaps member of [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 ## Constant Information
 

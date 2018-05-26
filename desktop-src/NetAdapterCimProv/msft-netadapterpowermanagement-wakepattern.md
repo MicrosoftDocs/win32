@@ -1,7 +1,12 @@
 ---
-Description: 'MSFT\_NetAdapterPowerManagement\_WakePattern defines a Wake-on-Lan (WOL) pattern.'
-ms.assetid: '4d4d0795-cdfe-453f-bd18-32f23af4bfea'
-title: 'MSFT\_NetAdapterPowerManagement\_WakePattern class'
+Description: MSFT\_NetAdapterPowerManagement\_WakePattern defines a Wake-on-Lan (WOL) pattern.
+ms.assetid: 4d4d0795-cdfe-453f-bd18-32f23af4bfea
+title: MSFT\_NetAdapterPowerManagement\_WakePattern class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterPowerManagement\_WakePattern class
@@ -117,16 +122,16 @@ Supplies the type of wake pattern.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

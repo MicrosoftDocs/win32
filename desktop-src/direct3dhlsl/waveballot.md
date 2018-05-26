@@ -1,14 +1,20 @@
 ---
 title: WaveActiveBallot function
 description: Returns a 4-bit unsigned integer bitmask of the evaluation of the Boolean expression for all active lanes in the specified wave.
-ms.assetid: '67FE28E0-F397-431A-8CF8-64E4AD88CDBC'
-keywords: ["WaveBallot function HLSL"]
+ms.assetid: 67FE28E0-F397-431A-8CF8-64E4AD88CDBC
+keywords:
+- WaveBallot function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveBallot
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveActiveBallot function

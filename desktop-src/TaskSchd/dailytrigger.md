@@ -1,8 +1,11 @@
 ---
 title: DailyTrigger object
 description: Scripting object that represents a trigger that starts a task based on a daily schedule.
-ms.assetid: 'f03f53a0-0060-4793-96c1-b47a96852579'
-keywords: ["daily trigger Task Scheduler , object", "DailyTrigger object Task Scheduler", "DailyTrigger object Task Scheduler , described"]
+ms.assetid: f03f53a0-0060-4793-96c1-b47a96852579
+keywords:
+- daily trigger Task Scheduler , object
+- DailyTrigger object Task Scheduler
+- DailyTrigger object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DailyTrigger object
@@ -35,15 +43,15 @@ The **DailyTrigger** object has these properties.
 | [**Enabled**](trigger-enabled.md)<br/>                       | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets a Boolean value that indicates whether the trigger is enabled.<br/>                                                |
 | [**EndBoundary**](trigger-endboundary.md)<br/>               | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets the date and time when the trigger is deactivated. The trigger cannot start the task after it is deactivated.<br/> |
 | [**ExecutionTimeLimit**](trigger-executiontimelimit.md)<br/> | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets the maximum amount of time that the task launched by the trigger is allowed to run.<br/>                           |
-| [**Id**](itrigger-id.md)<br/>                                | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets the identifier for the trigger.<br/>                                                                               |
+| [**Id**](/windows/win32/taskschd/nf-taskschd-itrigger-get_id?branch=master)<br/>                                | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets the identifier for the trigger.<br/>                                                                               |
 | [**RandomDelay**](dailytrigger-randomdelay.md)<br/>          | Read/write<br/> | Gets or sets a delay time that is randomly added to the start time of the trigger.<br/>                                                                                               |
 | [**Repetition**](trigger-repetition.md)<br/>                 | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets how often the task is run and how long the repetition pattern is repeated after the task is started.<br/>          |
 | [**StartBoundary**](trigger-startboundary.md)<br/>           | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets the date and time when the trigger is activated.<br/>                                                              |
-| [**Type**](itrigger-type.md)<br/>                            | Read-only<br/>  | Inherited from the [**Trigger**](trigger.md) object. Gets the type of the trigger.<br/>                                                                                              |
+| [**Type**](/windows/win32/taskschd/nf-taskschd-itrigger-get_type?branch=master)<br/>                            | Read-only<br/>  | Inherited from the [**Trigger**](trigger.md) object. Gets the type of the trigger.<br/>                                                                                              |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,8 +71,8 @@ For more information and a code example for this scripting object, see [Daily Tr
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -83,9 +91,9 @@ For more information and a code example for this scripting object, see [Daily Tr
 [**TriggerCollection.Create**](triggercollection-create.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

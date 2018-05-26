@@ -1,7 +1,12 @@
 ---
-Description: 'If this bit is set, the control shows all the volumes involved in the current installation plus all the removable volumes. If this bit is not set, the control lists volumes in the current installation.'
-ms.assetid: 'fc16ca46-54a1-4b24-ba51-8b4d358268f4'
+Description: If this bit is set, the control shows all the volumes involved in the current installation plus all the removable volumes. If this bit is not set, the control lists volumes in the current installation.
+ms.assetid: fc16ca46-54a1-4b24-ba51-8b4d358268f4
 title: RemovableVolume Control Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemovableVolume Control Attribute

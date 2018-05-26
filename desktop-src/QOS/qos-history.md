@@ -1,7 +1,12 @@
 ---
 title: QOS History
 description: QOS mechanisms in Windows operating systems have evolved to meet network performance needs arising from the trend toward bandwidth-intensive applications.
-ms.assetid: 'c176819e-a095-4306-9431-b9b3e9ca11f0'
+ms.assetid: c176819e-a095-4306-9431-b9b3e9ca11f0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QOS History
@@ -14,7 +19,7 @@ In Windows XP, the focus was on prioritization and traffic shaping mechanisms. 
 
 In Windows Vista, two features were introduced: Quality Windows Audio Video Experience (qWAVE) and policy-based QOS. qWAVE is designed to estimate the network bandwidth, intelligently mark the application packets (with proper DSCP values), and interact with the application in the event of network congestion or bandwidth fluctuations (informing the application to take appropriate actions). Policy-based QOS allows IT administrators to apply QOS to applications (which do not need to have native support for QOS), computers, and users in their enterprise network.
 
-In Windows 7, enhancements were made to allow policies to be created based on the URL of an HTTP server (rather than just on an application name), source and/or destination IP addresses, source and/or destination ports, and protocol). Support for changing outgoing DSCP values through the [**QOS\_SET\_FLOW**](qos-set-flow.md) enumeration was also added.
+In Windows 7, enhancements were made to allow policies to be created based on the URL of an HTTP server (rather than just on an application name), source and/or destination IP addresses, source and/or destination ports, and protocol). Support for changing outgoing DSCP values through the [**QOS\_SET\_FLOW**](/windows/previous-versions/Qos2/ne-qos2-_qos_set_flow?branch=master) enumeration was also added.
 
  
 

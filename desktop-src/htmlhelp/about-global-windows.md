@@ -1,7 +1,12 @@
 ---
 title: About Global Windows
 description: About Global Windows
-ms.assetid: 'D6723AA1-CDC5-4eff-BB80-E33438E204D0'
+ms.assetid: D6723AA1-CDC5-4eff-BB80-E33438E204D0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Global Windows

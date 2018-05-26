@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '0C5E2279-79D0-40A2-BA5B-66994A22E963'
+---
+Description: .
+ms.assetid: 0C5E2279-79D0-40A2-BA5B-66994A22E963
 title: EnumJobNamedProperties function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnumJobNamedProperties function

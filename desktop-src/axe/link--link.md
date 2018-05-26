@@ -1,8 +1,11 @@
 ---
 title: Link ~Link destructor
 description: Destructor method.
-ms.assetid: '491E0A0E-8F6F-4DD1-81BF-A476C169727C'
-keywords: ["~Link destructor Access Execution Engine", "~Link destructor Access Execution Engine , Link interface", "Link interface Access Execution Engine , ~Link destructor"]
+ms.assetid: 491E0A0E-8F6F-4DD1-81BF-A476C169727C
+keywords:
+- ~Link destructor Access Execution Engine
+- ~Link destructor Access Execution Engine , Link interface
+- Link interface Access Execution Engine , ~Link destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Link::~Link destructor
@@ -36,8 +44,8 @@ A **Link** holds data from an **Issue/Solution/Links/Link** or **Issue/AnalysisL
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -50,9 +58,9 @@ A **Link** holds data from an **Issue/Solution/Links/Link** or **Issue/AnalysisL
 [**Link**](link-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Default Topic Parameter
 description: Use the Default Topic parameter to specify a topic to navigate to if an ALink or KLink cannot locate the target topic.
-ms.assetid: '8D59041A-9B7C-429c-9E32-677F99CA5F6A'
+ms.assetid: 8D59041A-9B7C-429c-9E32-677F99CA5F6A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Default Topic Parameter

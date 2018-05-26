@@ -2,13 +2,16 @@
 title: Add method of the PS\_RemoteAccessRadius class
 description: This cmdlet adds a new external RADIUS server for one of the following purposes1. VPN authentication2. Accounting for DirectAccess and VPN3. OTP authentication for DirectAccess.
 audience: developer
-ms.assetid: '70c9b6cb-29ac-4c94-9637-114a078e7aaa'
-ms.prod: 'windows-server-dev'
+ms.assetid: 70c9b6cb-29ac-4c94-9637-114a078e7aaa
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_RemoteAccessRadius class", "PS_RemoteAccessRadius class, Add method"]
+keywords:
+- Add method
+- Add method, PS_RemoteAccessRadius class
+- PS_RemoteAccessRadius class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_RemoteAccessRadius class
@@ -28,18 +34,18 @@ This cmdlet adds a new external RADIUS server for one of the following purposes1
 
 ```mof
 uint32 Add(
-  [in]  string                   ServerName,
-  [in]  string                   SharedSecret,
-  [in]  string                   ComputerName,
-  [in]  uint16                   Port,
-  [in]  uint8                    Score,
-  [in]  uint32                   Timeout,
-  [in]  string                   Purpose,
-  [in]  string                   AccountingOnOffMsg,
-  [in]  string                   MsgAuthenticator,
-  [in]  string                   EntrypointName,
-  [in]  boolean                  PassThru,
-  [out] RemoteAccessRadiusServer cmdletOutput[]
+  [in]  string                   ServerName,
+  [in]  string                   SharedSecret,
+  [in]  string                   ComputerName,
+  [in]  uint16                   Port,
+  [in]  uint8                    Score,
+  [in]  uint32                   Timeout,
+  [in]  string                   Purpose,
+  [in]  string                   AccountingOnOffMsg,
+  [in]  string                   MsgAuthenticator,
+  [in]  string                   EntrypointName,
+  [in]  boolean                  PassThru,
+  [out] RemoteAccessRadiusServer cmdletOutput[]
 );
 ```
 
@@ -189,7 +195,7 @@ The output consists of the following. 1. External RADIUS server address (IPv4/IP
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -203,9 +209,9 @@ The output consists of the following. 1. External RADIUS server address (IPv4/IP
 [**PS\_RemoteAccessRadius**](ps-remoteaccessradius.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

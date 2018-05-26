@@ -1,7 +1,7 @@
 ---
 title: Query-Execution Values
 description: Values 0xHHHH1600 to 0xHHHH164F are query return values produced when resolving a query string against the set of indexes in a catalog. The following table gives the query-execution values in alphabetical order.
-ms.assetid: 'abfb70e3-206e-411b-ab2e-75d0b91cb248'
+ms.assetid: abfb70e3-206e-411b-ab2e-75d0b91cb248
 topic_type:
 - apiref
 api_name:
@@ -22,11 +22,16 @@ api_location:
 - Cierror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query-Execution Values
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Values 0x*HHHH*1600 to 0x*HHHH*164F are query return values produced when resolving a query string against the set of indexes in a catalog. The following table gives the query-execution values in alphabetical order.
 
@@ -56,17 +61,17 @@ Values 0x*HHHH*1600 to 0x*HHHH*164F are query return values produced when resolv
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Cierror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

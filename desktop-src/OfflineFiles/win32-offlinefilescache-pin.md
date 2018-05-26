@@ -1,13 +1,16 @@
 ---
-Description: 'Pins files, directories, and network shared folders.'
+Description: Pins files, directories, and network shared folders.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4458bd11-c2c0-4f9e-85df-21df3ad5582f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4458bd11-c2c0-4f9e-85df-21df3ad5582f
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'Pin method of the Win32\_OfflineFilesCache class'
+title: Pin method of the Win32\_OfflineFilesCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Pin method of the Win32\_OfflineFilesCache class
@@ -21,9 +24,9 @@ When a file is pinned, it is cached in the local Offline Files store. Unlike fil
 
 ```mof
 uint32 Pin(
-  [in] string  Paths[],
-  [in] uint32  Flags,
-  [in] boolean Deep
+  [in] string  Paths[],
+  [in] uint32  Flags,
+  [in] boolean Deep
 );
 ```
 
@@ -212,8 +215,8 @@ If a pin operation is canceled while in progress, files that have been pinned up
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Cscobj.h</dt> </dl>                    |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
@@ -228,9 +231,9 @@ If a pin operation is canceled while in progress, files that have been pinned up
 [**Win32\_OfflineFilesCache**](win32-offlinefilescache.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

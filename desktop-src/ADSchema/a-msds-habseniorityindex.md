@@ -4,17 +4,22 @@ description: Contains the seniority index as applied by the organization where t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4110b6c3-6987-4f65-bfdf-244a9c9c0f46'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4110b6c3-6987-4f65-bfdf-244a9c9c0f46
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-HAB-Seniority-Index attribute AD Schema", "msDS-HABSeniorityIndex attribute AD Schema"]
+keywords:
+- ms-DS-HAB-Seniority-Index attribute AD Schema
+- msDS-HABSeniorityIndex attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-HAB-Seniority-Index
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-HAB-Seniority-Index attribute
@@ -38,9 +43,9 @@ Contains the seniority index as applied by the organization where the person wor
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Contains the seniority index as applied by the organization where the person wor
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,19 @@ description: Removes orphaned Storage Replica metadata from the Storage Replica 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4da7b1e4-90dc-4663-8c88-51119171e154'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4da7b1e4-90dc-4663-8c88-51119171e154
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WvrClearOrphanedLogs method", "WvrClearOrphanedLogs method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, WvrClearOrphanedLogs method"]
+keywords:
+- WvrClearOrphanedLogs method
+- WvrClearOrphanedLogs method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, WvrClearOrphanedLogs method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WvrClearOrphanedLogs method of the MSFT\_WvrAdminTasks class
@@ -22,7 +28,7 @@ Removes orphaned Storage Replica metadata from the Storage Replica log container
 
 ```mof
 uint32 WvrClearOrphanedLogs(
-  [in] string ReplicationGroupName
+  [in] string ReplicationGroupName
 );
 ```
 
@@ -46,7 +52,7 @@ TBD
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>Wvrcimprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wvrcimprov.dll</dt> </dl> |
@@ -60,9 +66,9 @@ TBD
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

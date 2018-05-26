@@ -1,8 +1,11 @@
 ---
 title: Link SetLinkToolTip method
 description: Sets the link tooltip of the Link.
-ms.assetid: 'AB6CE816-A900-428E-8875-03238BDB0ED2'
-keywords: ["SetLinkToolTip method Access Execution Engine", "SetLinkToolTip method Access Execution Engine , Link interface", "Link interface Access Execution Engine , SetLinkToolTip method"]
+ms.assetid: AB6CE816-A900-428E-8875-03238BDB0ED2
+keywords:
+- SetLinkToolTip method Access Execution Engine
+- SetLinkToolTip method Access Execution Engine , Link interface
+- Link interface Access Execution Engine , SetLinkToolTip method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Link::SetLinkToolTip method
@@ -22,7 +30,7 @@ Sets the link tooltip of the **Link**.
 
 ```C++
 virtual HRESULT SetLinkToolTip(
-  [in] LPCWSTR linkToolTip
+  [in] LPCWSTR linkToolTip
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The link tooltip is the value of element **Link/LinkToolTip**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The link tooltip is the value of element **Link/LinkToolTip**.
 [**Link**](link-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

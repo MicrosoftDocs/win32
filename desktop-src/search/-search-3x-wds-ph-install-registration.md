@@ -1,7 +1,12 @@
 ---
-Description: 'Installing a protocol handler involves copying the DLL(s) to an appropriate location in the Program Files directory, and then registering the protocol handler through the registry.'
-ms.assetid: '07c40c0c-2729-462c-ba40-e05ffea2b889'
+Description: Installing a protocol handler involves copying the DLL(s) to an appropriate location in the Program Files directory, and then registering the protocol handler through the registry.
+ms.assetid: 07c40c0c-2729-462c-ba40-e05ffea2b889
 title: Installing and Registering Protocol Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing and Registering Protocol Handlers
@@ -59,44 +64,44 @@ For more information on creating a Shell data source, see [Implementing the Basi
 
 Creating a protocol handler requires the implementation of the following three interfaces:
 
--   [**ISearchProtocol**](-search-isearchprotocol.md) to manage UrlAccessor objects.
--   [**IUrlAccessor**](-search-iurlaccessor.md) to expose properties and identify appropriate filters for items in the Shell data source.
+-   [**ISearchProtocol**](/windows/win32/Searchapi/nn-searchapi-isearchprotocol?branch=master) to manage UrlAccessor objects.
+-   [**IUrlAccessor**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor?branch=master) to expose properties and identify appropriate filters for items in the Shell data source.
 -   [**IFilter**](-search-ifilter.md) to filter proprietary files or to enumerate and filter hierarchically stored files.
 
 Other than the three mandatory interfaces listed, the other interfaces are optional, and you are at liberty to implement whichever optional interfaces are most appropriate for the task at hand.
 
 ### ISearchProtocol and ISearchProtocol2
 
-The SearchProtocol interfaces initialize and manage your protocol handler UrlAccessor objects. The [**ISearchProtocol2**](-search-isearchprotocol2.md) interface is an optional extension of [**ISearchProtocol**](-search-isearchprotocol.md), and includes an extra method to specify more information about the user and the item.
+The SearchProtocol interfaces initialize and manage your protocol handler UrlAccessor objects. The [**ISearchProtocol2**](/windows/win32/Searchapi/nn-searchapi-isearchprotocol2?branch=master) interface is an optional extension of [**ISearchProtocol**](/windows/win32/Searchapi/nn-searchapi-isearchprotocol?branch=master), and includes an extra method to specify more information about the user and the item.
 
 ### IUrlAccessor, IUrlAccessor2, IUrlAccessor3, and IUrlAccessor4
 
-The [**IUrlAccessor**](-search-iurlaccessor.md) interfaces are described in the following table.
+The [**IUrlAccessor**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor?branch=master) interfaces are described in the following table.
 
 
 
 | Interface                                                 | Description                                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IUrlAccessor**](-search-iurlaccessor.md)              | For a specified URL, the [**IUrlAccessor**](-search-iurlaccessor.md) interface provides access to the properties of the item that is exposed in the URL. It can also bind those properties to a protocol handler-specific filter (that is, a filter other than the one associated with the file name). |
-| [**IUrlAccessor2**](-search-iurlaccessor2.md) (optional) | The [**IUrlAccessor2**](-search-iurlaccessor2.md) interface extends [**IUrlAccessor**](-search-iurlaccessor.md) with methods that get a code page for the item's properties and its display URL, and that get the type of item in the URL (document or directory).                                    |
-| [**IUrlAccessor3**](-search-iurlaccessor3.md) (optional) | The [**IUrlAccessor3**](-search-iurlaccessor3.md) interface extends [**IUrlAccessor2**](-search-iurlaccessor2.md) with a method that gets an array of user SIDs, enabling the search protocol host to impersonate these users to index the item.                                                      |
-| [**IUrlAccessor4**](-search-iurlaccessor4.md) (optional) | The [**IUrlAccessor4**](-search-iurlaccessor4.md) interface extends the functionality of the [**IUrlAccessor3**](-search-iurlaccessor3.md) interface with a method that identifies whether the content of the item should be indexed.                                                                 |
+| [**IUrlAccessor**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor?branch=master)              | For a specified URL, the [**IUrlAccessor**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor?branch=master) interface provides access to the properties of the item that is exposed in the URL. It can also bind those properties to a protocol handler-specific filter (that is, a filter other than the one associated with the file name). |
+| [**IUrlAccessor2**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor2?branch=master) (optional) | The [**IUrlAccessor2**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor2?branch=master) interface extends [**IUrlAccessor**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor?branch=master) with methods that get a code page for the item's properties and its display URL, and that get the type of item in the URL (document or directory).                                    |
+| [**IUrlAccessor3**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor3?branch=master) (optional) | The [**IUrlAccessor3**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor3?branch=master) interface extends [**IUrlAccessor2**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor2?branch=master) with a method that gets an array of user SIDs, enabling the search protocol host to impersonate these users to index the item.                                                      |
+| [**IUrlAccessor4**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor4?branch=master) (optional) | The [**IUrlAccessor4**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor4?branch=master) interface extends the functionality of the [**IUrlAccessor3**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor3?branch=master) interface with a method that identifies whether the content of the item should be indexed.                                                                 |
 
 
 
  
 
-The UrlAccessor object is instantiated and initialized by a SearchProtocol object. The [**IUrlAccessor**](-search-iurlaccessor.md) interfaces provide access to important pieces of information through the methods described in the following table.
+The UrlAccessor object is instantiated and initialized by a SearchProtocol object. The [**IUrlAccessor**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor?branch=master) interfaces provide access to important pieces of information through the methods described in the following table.
 
 
 
 | Method                                                                                        | Description                                                                                                                                                                                                                                                                                                                        |
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IUrlAccessor::GetLastModified**](-search-iurlaccessor-getlastmodified.md)                 | Returns the time that the URL was last modified. If this time is more recent than the last time the indexer processed this URL, filter handlers (implementations of the [**IFilter**](-search-ifilter.md) interface) are called to extract the (possibly) changed data for that item. Modified times for directories are ignored. |
-| [**IUrlAccessor::IsDirectory**](-search-iurlaccessor-isdirectory.md)                         | Identifies whether the URL represents a folder containing a child URLs.                                                                                                                                                                                                                                                            |
-| [**IUrlAccessor::BindToStream**](-search-iurlaccessor-bindtostream.md)                       | Binds to an [IStream interface](http://msdn.microsoft.com/en-us/library/Aa380034(VS.85).aspx) that represents the data of a file in a custom data store.                                                                                                                                                                           |
-| [**IUrlAccessor::BindToFilter**](-search-iurlaccessor-bindtofilter.md)                       | Binds to a protocol handler-specific [**IFilter**](-search-ifilter.md), which can expose properties for the item.                                                                                                                                                                                                                 |
-| [**IUrlAccessor4::ShouldIndexItemContent**](-search-iurlaccessor4-shouldindexitemcontent.md) | Identifies whether the content of the item should be indexed.                                                                                                                                                                                                                                                                      |
+| [**IUrlAccessor::GetLastModified**](/windows/win32/Searchapi/nf-searchapi-iurlaccessor-getlastmodified?branch=master)                 | Returns the time that the URL was last modified. If this time is more recent than the last time the indexer processed this URL, filter handlers (implementations of the [**IFilter**](-search-ifilter.md) interface) are called to extract the (possibly) changed data for that item. Modified times for directories are ignored. |
+| [**IUrlAccessor::IsDirectory**](/windows/win32/Searchapi/nf-searchapi-iurlaccessor-isdirectory?branch=master)                         | Identifies whether the URL represents a folder containing a child URLs.                                                                                                                                                                                                                                                            |
+| [**IUrlAccessor::BindToStream**](/windows/win32/Searchapi/nf-searchapi-iurlaccessor-bindtostream?branch=master)                       | Binds to an [IStream interface](http://msdn.microsoft.com/en-us/library/Aa380034(VS.85).aspx) that represents the data of a file in a custom data store.                                                                                                                                                                           |
+| [**IUrlAccessor::BindToFilter**](/windows/win32/Searchapi/nf-searchapi-iurlaccessor-bindtofilter?branch=master)                       | Binds to a protocol handler-specific [**IFilter**](-search-ifilter.md), which can expose properties for the item.                                                                                                                                                                                                                 |
+| [**IUrlAccessor4::ShouldIndexItemContent**](/windows/win32/Searchapi/nf-searchapi-iurlaccessor4-shouldindexitemcontent?branch=master) | Identifies whether the content of the item should be indexed.                                                                                                                                                                                                                                                                      |
 
 
 
@@ -104,7 +109,7 @@ The UrlAccessor object is instantiated and initialized by a SearchProtocol objec
 
 ### IProtocolHandlerSite
 
-The [**IProtocolHandlerSite**](-search-iprotocolhandlersite.md) interface is used to instantiate a filter handler, which is hosted in an isolated process. The appropriate filter handler is obtained for a specified persistent class identifier (CLSID), document storage class, or file name extension. The benefit of asking the host process to bind to [**IFilter**](-search-ifilter.md) is that the host process can manage the process of locating an appropriate filter handler, and control the security involved in calling the handler.
+The [**IProtocolHandlerSite**](/windows/win32/Searchapi/nn-searchapi-iprotocolhandlersite?branch=master) interface is used to instantiate a filter handler, which is hosted in an isolated process. The appropriate filter handler is obtained for a specified persistent class identifier (CLSID), document storage class, or file name extension. The benefit of asking the host process to bind to [**IFilter**](-search-ifilter.md) is that the host process can manage the process of locating an appropriate filter handler, and control the security involved in calling the handler.
 
 ## Implementing Filter Handlers for Containers
 
@@ -120,7 +125,7 @@ If you are implementing a hierarchical protocol handler, then you must implement
 
     The URL and the last modified time. [**IFilter::GetValue**](-search-ifilter-getvalue.md) returns a PROPVARIANT containing a vector of the child URL and the last modified time.
 
-Returning [PKEY\_Search\_UrlToIndexWithModificationTime](http://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx) is more efficient because the indexer can immediately determine whether the item needs to be indexed without calling the [**ISearchProtocol::CreateAccessor**](-search-isearchprotocol-createaccessor.md) and [**IUrlAccessor::GetLastModified**](-search-iurlaccessor-getlastmodified.md) methods.
+Returning [PKEY\_Search\_UrlToIndexWithModificationTime](http://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx) is more efficient because the indexer can immediately determine whether the item needs to be indexed without calling the [**ISearchProtocol::CreateAccessor**](/windows/win32/Searchapi/nf-searchapi-isearchprotocol-createaccessor?branch=master) and [**IUrlAccessor::GetLastModified**](/windows/win32/Searchapi/nf-searchapi-iurlaccessor-getlastmodified?branch=master) methods.
 
 The following example code demonstrates how to return the [PKEY\_Search\_UrlToIndexWithModificationTime](http://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx) property.
 
@@ -374,7 +379,7 @@ You need to make two entries in the registry to register the protocol handler's 
 
 After you have implemented your protocol handler, you must specify which Shell items your protocol handler is to index. You can use the Catalog Manager to initiate re-indexing (for more information, see [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md)). Or you can also use the Crawl Scope Manager (CSM) to set up default rules indicating the URLs that you want the indexer to crawl (for more information, see [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md) and [Managing Scope Rules](-search-3x-wds-extidx-csm-scoperules.md)). You can also add a search root (for more information, see [Managing Search Roots](-search-3x-wds-extidx-csm-searchroots.md)). Another option available to you is to follow the procedure in the ReIndex sample in [Windows Search SDK Samples](http://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
 
-The [**ISearchCrawlScopeManager**](-search-isearchcrawlscopemanager.md) interface provides methods that notify the search engine of containers to crawl and/or watch, and items under those containers to include or exclude when crawling or watching. In Windows 7 and later, [**ISearchCrawlScopeManager2**](-search-isearchcrawlscopemanager2.md) extends **ISearchCrawlScopeManager** with the [**ISearchCrawlScopeManager2::GetVersion**](-search-isearchcrawlscopemanager2-getversion.md) method that gets the version, which informs clients whether the state of the CSM has changed.
+The [**ISearchCrawlScopeManager**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager?branch=master) interface provides methods that notify the search engine of containers to crawl and/or watch, and items under those containers to include or exclude when crawling or watching. In Windows 7 and later, [**ISearchCrawlScopeManager2**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager2?branch=master) extends **ISearchCrawlScopeManager** with the [**ISearchCrawlScopeManager2::GetVersion**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager2-getversion?branch=master) method that gets the version, which informs clients whether the state of the CSM has changed.
 
 ## Related topics
 

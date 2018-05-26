@@ -1,7 +1,12 @@
 ---
 title: eapuserpropertiesv1 Schema Elements
 description: Consists of the following schema element.
-ms.assetid: '469a3015-a082-44cd-9c88-70a5e0b2606c'
+ms.assetid: 469a3015-a082-44cd-9c88-70a5e0b2606c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # eapuserpropertiesv1 Schema Elements

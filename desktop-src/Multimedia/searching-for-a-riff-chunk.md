@@ -1,8 +1,22 @@
 ---
 title: Searching for a RIFF Chunk
 description: Searching for a RIFF Chunk
-ms.assetid: 'ce974fb3-3af0-4400-8f55-65d63627592a'
-keywords: ["multimedia file I/O,searching for RIFF chunk", "file I/O,searching for RIFF chunk", "input and output (I/O),searching for RIFF chunk", "I/O (input and output),searching for RIFF chunk", "searching for RIFF chunk", "resource interchange file format (RIFF)", "RIFF (resource interchange file format)", "RIFF I/O", "RIFF chunk"]
+ms.assetid: ce974fb3-3af0-4400-8f55-65d63627592a
+keywords:
+- multimedia file I/O,searching for RIFF chunk
+- file I/O,searching for RIFF chunk
+- input and output (I/O),searching for RIFF chunk
+- I/O (input and output),searching for RIFF chunk
+- searching for RIFF chunk
+- resource interchange file format (RIFF)
+- RIFF (resource interchange file format)
+- RIFF I/O
+- RIFF chunk
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Searching for a RIFF Chunk

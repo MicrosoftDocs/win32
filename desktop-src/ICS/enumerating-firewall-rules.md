@@ -1,7 +1,12 @@
 ---
 title: Enumerating Firewall Rules
-description: This example enumerates Windows Firewall rules using the Windows Firewall with Advanced Security APIs.VB' This VBScript file includes sample code that enumerates ' Windows Firewall rules using the Microsoft Windows Firewall APIs.
-ms.assetid: '503ba384-9e20-45f4-be5d-cd9a1576c097'
+description: This example enumerates Windows Firewall rules using the Windows Firewall with Advanced Security APIs.VB This VBScript file includes sample code that enumerates  Windows Firewall rules using the Microsoft Windows Firewall APIs.
+ms.assetid: 503ba384-9e20-45f4-be5d-cd9a1576c097
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Firewall Rules

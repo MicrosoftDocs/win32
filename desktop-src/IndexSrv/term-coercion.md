@@ -1,7 +1,12 @@
 ---
 title: Term Coercion
 description: Term Coercion
-ms.assetid: '625ee0e6-fcae-49fe-a946-0c4659ba9a13'
+ms.assetid: 625ee0e6-fcae-49fe-a946-0c4659ba9a13
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Term Coercion

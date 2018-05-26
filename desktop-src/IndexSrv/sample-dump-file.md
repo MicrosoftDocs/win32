@@ -1,7 +1,12 @@
 ---
 title: Sample Dump File
 description: Sample Dump File
-ms.assetid: 'e3109dd3-9725-411e-94e9-c1cd9675cbc8'
+ms.assetid: e3109dd3-9725-411e-94e9-c1cd9675cbc8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Dump File

@@ -4,11 +4,14 @@ description: Specifies the secure access sequence (SAS) the client will use to a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ec1dc7b1-2bf1-447b-a768-08f28982a995'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ec1dc7b1-2bf1-447b-a768-08f28982a995
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SasSequence property Remote Desktop Services", "SasSequence property Remote Desktop Services , IMsRdpClientAdvancedSettings interface", "IMsRdpClientAdvancedSettings interface Remote Desktop Services , SasSequence property"]
+keywords:
+- SasSequence property Remote Desktop Services
+- SasSequence property Remote Desktop Services , IMsRdpClientAdvancedSettings interface
+- IMsRdpClientAdvancedSettings interface Remote Desktop Services , SasSequence property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings::SasSequence property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_SasSequence(
-  [in]  LONG sasSequence
+  [in]  LONG sasSequence
 );
 
 HRESULT get_SasSequence(
-  [out] LONG *psasSequence
+  [out] LONG *psasSequence
 );
 ```
 
@@ -56,8 +62,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                  |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                        |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                  |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>          |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings is defined as 3c65b4ab-12b3-465b-acd4-b8dad3bff9e2<br/> |
@@ -71,9 +77,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClientAdvancedSettings**](imsrdpclientadvancedsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

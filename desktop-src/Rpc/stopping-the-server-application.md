@@ -1,19 +1,25 @@
 ---
 title: Stopping the Server Application
 description: A server application can stop listening for clients by calling RpcMgmtStopServerListening and RpcServerUnregisterIf, or by simply exiting the host process.
-ms.assetid: '9d310cfb-72ad-448f-a66a-db6ac2478824'
-keywords: ["Remote Procedure Call RPC , tasks, stopping the server application"]
+ms.assetid: 9d310cfb-72ad-448f-a66a-db6ac2478824
+keywords:
+- Remote Procedure Call RPC , tasks, stopping the server application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stopping the Server Application
 
-A server application can stop listening for clients by calling [**RpcMgmtStopServerListening**](rpcmgmtstopserverlistening.md) and [**RpcServerUnregisterIf**](rpcserverunregisterif.md), or by simply exiting the host process. Both methods are acceptable. If the server follows the first approach, it should implement the following steps:
+A server application can stop listening for clients by calling [**RpcMgmtStopServerListening**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtstopserverlistening?branch=master) and [**RpcServerUnregisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverunregisterif?branch=master), or by simply exiting the host process. Both methods are acceptable. If the server follows the first approach, it should implement the following steps:
 
-The server function [**RpcServerListen**](rpcserverlisten.md) does not return to the calling program until an exception occurs or until a call to [**RpcMgmtStopServerListening**](rpcmgmtstopserverlistening.md) occurs. By default, only another server thread is allowed to halt the RPC server by using **RpcMgmtStopServerListening**. Clients who try to halt the server will receive the error RPC\_S\_ACCESS\_DENIED. However, it is possible to configure RPC to allow some or all clients to stop the server. See **RpcMgmtStopServerListening** for details.
+The server function [**RpcServerListen**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverlisten?branch=master) does not return to the calling program until an exception occurs or until a call to [**RpcMgmtStopServerListening**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtstopserverlistening?branch=master) occurs. By default, only another server thread is allowed to halt the RPC server by using **RpcMgmtStopServerListening**. Clients who try to halt the server will receive the error RPC\_S\_ACCESS\_DENIED. However, it is possible to configure RPC to allow some or all clients to stop the server. See **RpcMgmtStopServerListening** for details.
 
-You can also have the client application make a remote procedure call to a shutdown routine on the server. The shutdown routine calls [**RpcMgmtStopServerListening**](rpcmgmtstopserverlistening.md) and [**RpcServerUnregisterIf**](rpcserverunregisterif.md). This tutorial example program application uses this approach by adding a new remote function, **Shutdown**, to the file Hellop.c.
+You can also have the client application make a remote procedure call to a shutdown routine on the server. The shutdown routine calls [**RpcMgmtStopServerListening**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtstopserverlistening?branch=master) and [**RpcServerUnregisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverunregisterif?branch=master). This tutorial example program application uses this approach by adding a new remote function, **Shutdown**, to the file Hellop.c.
 
-In the **Shutdown** function, the single null parameter to [**RpcMgmtStopServerListening**](rpcmgmtstopserverlistening.md) indicates that the local application should stop listening for remote procedure calls. The two null parameters to [**RpcServerUnregisterIf**](rpcserverunregisterif.md) are wildcards, indicating that all interfaces should be unregistered. The **FALSE** parameter indicates that the interface should be removed from the registry immediately, rather than waiting for pending calls to complete.
+In the **Shutdown** function, the single null parameter to [**RpcMgmtStopServerListening**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtstopserverlistening?branch=master) indicates that the local application should stop listening for remote procedure calls. The two null parameters to [**RpcServerUnregisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverunregisterif?branch=master) are wildcards, indicating that all interfaces should be unregistered. The **FALSE** parameter indicates that the interface should be removed from the registry immediately, rather than waiting for pending calls to complete.
 
 
 ```C++

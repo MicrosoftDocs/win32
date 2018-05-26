@@ -1,8 +1,10 @@
 ---
 title: IVMGuestOS2 interface
 description: The IVMGuestOS2 interface extends the IVMGuestOS interface, adding a method to retrieve a parameter set in the guest operating system and a property containing the name of the guest operating system.
-ms.assetid: 'df820310-b4be-4278-abb2-01a7b0504938'
-keywords: ["IVMGuestOS2 interface Virtual Server", "IVMGuestOS2 interface Virtual Server , described"]
+ms.assetid: df820310-b4be-4278-abb2-01a7b0504938
+keywords:
+- IVMGuestOS2 interface Virtual Server
+- IVMGuestOS2 interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS2 interface
@@ -40,7 +47,7 @@ The **IVMGuestOS2** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -60,7 +67,7 @@ The **IVMGuestOS2** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,7 +75,7 @@ The **IVMGuestOS2** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -92,9 +99,9 @@ The **IVMGuestOS2** interface has these properties.
 [IVMGuestOS2 Properties](ivmguestos2-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

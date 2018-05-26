@@ -1,8 +1,10 @@
 ---
 title: ADDRESSPROPS structure
 description: Do not use. Holds information about a message sender or recipient \ 8212;for example, a message address.
-ms.assetid: '7e52cbfe-ee24-405c-acd4-bfbb21477550'
-keywords: ["ADDRESSPROPS structure Windows Mail (formerly Outlook Express)", "LPADDRESSPROPS structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 7e52cbfe-ee24-405c-acd4-bfbb21477550
+keywords:
+- ADDRESSPROPS structure Windows Mail (formerly Outlook Express)
+- LPADDRESSPROPS structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,31 +13,36 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ADDRESSPROPS structure
 
-Do not use. Holds information about a message sender or recipient—for example, a message address.
+Do not use. Holds information about a message sender or recipient for example, a message address.
 
 ## Syntax
 
 
 ```C++
 typedef struct tagADDRESSPROPS {
-  DWORD        dwProps;
-  HADDRESS     hAddress;
+  DWORD        dwProps;
+  HADDRESS     hAddress;
   ENCODINGTYPE ietFriendly;
-  HCHARSET     hCharset;
-  DWORD        dwAdrType;
-  LPSTR        pszFriendly;
-  LPWSTR       pszFriendlyW;
-  LPSTR        pszEmail;
-  CERTSTATE    certstate;
-  THUMBBLOB    tbSigning;
-  THUMBBLOB    tbEncryption;
-  DWORD        dwCookie;
-  DWORD        dwReserved1;
-  DWORD        dwReserved2;
+  HCHARSET     hCharset;
+  DWORD        dwAdrType;
+  LPSTR        pszFriendly;
+  LPWSTR       pszFriendlyW;
+  LPSTR        pszEmail;
+  CERTSTATE    certstate;
+  THUMBBLOB    tbSigning;
+  THUMBBLOB    tbEncryption;
+  DWORD        dwCookie;
+  DWORD        dwReserved1;
+  DWORD        dwReserved2;
 } ADDRESSPROPS, *LPADDRESSPROPS;
 ```
 
@@ -73,7 +80,7 @@ Contains a bitmask that indicates the valid fields in this structure.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -141,7 +148,7 @@ Contains a bitmask that indicates the type of address. (IAP\_ADRTYPE)
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -250,17 +257,17 @@ Do not use.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

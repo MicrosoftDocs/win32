@@ -1,7 +1,12 @@
 ---
 title: module
 description: This statement defines a group of functions, typically a set of DLL entry points.
-ms.assetid: 'd032e90f-d9e4-4d5a-ad95-177c8dcd5607'
+ms.assetid: d032e90f-d9e4-4d5a-ad95-177c8dcd5607
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # module

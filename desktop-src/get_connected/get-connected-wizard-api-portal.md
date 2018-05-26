@@ -1,7 +1,12 @@
 ---
 title: Get Connected Wizard API
 description: .
-ms.assetid: '4399CEBF-408C-45d4-A073-7F4C467EDCDC'
+ms.assetid: 4399CEBF-408C-45d4-A073-7F4C467EDCDC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Get Connected Wizard API
@@ -16,7 +21,7 @@ Developers must be knowledgeable in networking and C/C++ programming.
 
 ## Run-time requirements
 
-The Get Connected Wizard API is supported on servers running Windows Server 2008 or Windows Server 2008 R2 and on clients running Windows Vista or Windows 7. For information about run-time requirements for a specific programming element, see the Requirements section of the reference page for that element.
+The Get Connected Wizard API is supported on servers running Windows Server 2008 or Windows Server 2008 R2 and on clients running Windows Vista or Windows 7. For information about run-time requirements for a specific programming element, see the Requirements section of the reference page for that element.
 
 ## In this section
 
@@ -28,11 +33,11 @@ The Get Connected Wizard API is supported on servers running Windows Server 2008
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

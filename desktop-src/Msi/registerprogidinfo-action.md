@@ -1,7 +1,12 @@
 ---
-Description: 'The RegisterProgIdInfo action manages the registration of OLE ProgId information with the system.'
-ms.assetid: 'f6fd4d0d-d2dc-4953-9402-314c7932746b'
+Description: The RegisterProgIdInfo action manages the registration of OLE ProgId information with the system.
+ms.assetid: f6fd4d0d-d2dc-4953-9402-314c7932746b
 title: RegisterProgIdInfo Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisterProgIdInfo Action

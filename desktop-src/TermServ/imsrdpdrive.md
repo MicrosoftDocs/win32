@@ -4,11 +4,13 @@ description: Contains information about a drive object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '25e76657-a898-4581-a866-d66008540f50'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 25e76657-a898-4581-a866-d66008540f50
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpDrive interface Remote Desktop Services", "IMsRdpDrive interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpDrive interface Remote Desktop Services
+- IMsRdpDrive interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDrive interface
@@ -42,7 +47,7 @@ The **IMsRdpDrive** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -50,8 +55,8 @@ The **IMsRdpDrive** interface has these properties.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpDrive is defined as d28b5458-f694-47a8-8e61-40356a767e46<br/>         |
@@ -68,9 +73,9 @@ The **IMsRdpDrive** interface has these properties.
 [**IMsRdpDriveCollection**](imsrdpdrivecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

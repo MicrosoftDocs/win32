@@ -1,8 +1,13 @@
 ---
 title: IVMRCAuthenticatorCollection Item property
 description: The Item property contains the IVMRCAuthenticator object that corresponds to the given index in this collection.
-ms.assetid: 'f725a966-08ce-4ef7-acd0-3cc73d90f709'
-keywords: ["Item property Virtual Server", "Item property Virtual Server , IVMRCAuthenticatorCollection interface", "IVMRCAuthenticatorCollection interface Virtual Server , Item property", "Item property Virtual Server , VMRCAuthenticatorCollection interface", "VMRCAuthenticatorCollection interface Virtual Server , Item property"]
+ms.assetid: f725a966-08ce-4ef7-acd0-3cc73d90f709
+keywords:
+- Item property Virtual Server
+- Item property Virtual Server , IVMRCAuthenticatorCollection interface
+- IVMRCAuthenticatorCollection interface Virtual Server , Item property
+- Item property Virtual Server , VMRCAuthenticatorCollection interface
+- VMRCAuthenticatorCollection interface Virtual Server , Item property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCAuthenticatorCollection::Item property
@@ -26,9 +36,9 @@ This property is read-only.
 
 ```C++
 HRESULT get_Item(
-  [in]  long               index,
-        long               index,
-  [out] IVMRCAuthenticator **authenticator
+  [in]  long               index,
+        long               index,
+  [out] IVMRCAuthenticator **authenticator
 );
 ```
 
@@ -81,8 +91,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -94,9 +104,9 @@ This property value is read-only.
 [**IVMRCAuthenticatorCollection**](ivmrcauthenticatorcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

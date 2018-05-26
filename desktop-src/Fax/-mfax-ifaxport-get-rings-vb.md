@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Rings property represents the number of rings an incoming fax call should wait before the fax port answers the call.'
-ms.assetid: '17a85a82-0018-404f-9296-fbcc4ba00548'
-title: 'FaxPort.Rings property'
+---
+Description: The Rings property represents the number of rings an incoming fax call should wait before the fax port answers the call.
+ms.assetid: 17a85a82-0018-404f-9296-fbcc4ba00548
+title: FaxPort.Rings property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPort.Rings property
@@ -58,10 +63,10 @@ The fax server ignores the **Rings** property unless the specified fax port is e
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> </dl>
 
  

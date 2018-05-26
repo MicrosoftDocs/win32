@@ -1,14 +1,20 @@
 ---
 title: EventsType Complex Type
 description: Contains a list of providers that are defined in the manifest.
-ms.assetid: '43f9f577-eae0-45c5-aaf0-5a6df28d3b79'
-keywords: ["EventsType complex type EventLog"]
+ms.assetid: 43f9f577-eae0-45c5-aaf0-5a6df28d3b79
+keywords:
+- EventsType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - EventsType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventsType Complex Type
@@ -133,14 +139,14 @@ The practical limit of the number of providers that you can define in a manifest
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

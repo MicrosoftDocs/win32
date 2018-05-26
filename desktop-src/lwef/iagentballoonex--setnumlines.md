@@ -1,7 +1,12 @@
 ---
 title: IAgentBalloonEx SetNumLines
 description: IAgentBalloonEx SetNumLines
-ms.assetid: '350fd273-a941-4454-a309-045d19ed8f59'
+ms.assetid: 350fd273-a941-4454-a309-045d19ed8f59
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentBalloonEx::SetNumLines

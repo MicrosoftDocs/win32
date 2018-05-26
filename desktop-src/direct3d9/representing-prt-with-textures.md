@@ -1,7 +1,12 @@
 ---
-Description: 'The PRTDemo sample and PRTCmdLine simulator included in the DirectX SDK represent transfer vectors at the vertices of a mesh.'
-ms.assetid: 'cee049e8-3245-4fce-ab2f-ba251eacc72a'
-title: 'Representing PRT With Textures (Direct3D 9)'
+Description: The PRTDemo sample and PRTCmdLine simulator included in the DirectX SDK represent transfer vectors at the vertices of a mesh.
+ms.assetid: cee049e8-3245-4fce-ab2f-ba251eacc72a
+title: Representing PRT With Textures (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Representing PRT With Textures (Direct3D 9)

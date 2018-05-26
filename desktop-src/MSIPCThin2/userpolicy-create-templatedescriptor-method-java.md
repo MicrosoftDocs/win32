@@ -4,17 +4,21 @@ description: Asynchronously creates a new UserPolicy object from a template desc
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '202E8E74-0D9B-4832-95E9-16771A1D8EDF'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 202E8E74-0D9B-4832-95E9-16771A1D8EDF
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserPolicy.create(TemplateDescriptor, ...) asynchronous method"]
+keywords:
+- UserPolicy.create(TemplateDescriptor, ...) asynchronous method
 topic_type:
 - apiref
 api_name:
 - UserPolicy.create(TemplateDescriptor, ...) asynchronous method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.create(TemplateDescriptor, ...) asynchronous method
@@ -51,7 +55,7 @@ public static IAsyncControl create(
 
 
 
- 
+ 
 
 ## Throws
 
@@ -75,11 +79,11 @@ UserPolicy.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

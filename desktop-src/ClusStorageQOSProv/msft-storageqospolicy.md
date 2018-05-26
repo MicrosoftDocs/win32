@@ -4,13 +4,15 @@ description: Defines a storage QOS policy.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f3f1f113-8f27-4acc-ae5f-66e555d5073a'
-ms.prod: 'windows-server-dev'
+ms.assetid: f3f1f113-8f27-4acc-ae5f-66e555d5073a
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-storage-qos'
-- 'windows-management-instrumentation'
+- failover-cluster-storage-qos
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_StorageQoSPolicy class", "MSFT_StorageQoSPolicy class, described"]
+keywords:
+- MSFT_StorageQoSPolicy class
+- MSFT_StorageQoSPolicy class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - StorageQOS.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_StorageQoSPolicy class
@@ -72,7 +77,7 @@ The **MSFT\_StorageQoSPolicy** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -235,16 +240,16 @@ Throughput reserve in normalized IOPS.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>StorageQOS.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>StorageQOS.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

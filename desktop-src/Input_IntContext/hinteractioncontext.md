@@ -1,8 +1,14 @@
 ---
 title: HINTERACTIONCONTEXT
 description: Handle to an Interaction Context object.
-ms.assetid: '3E3DE99D-B457-4202-8CC2-A6F5C019EFF8'
-keywords: ["HINTERACTIONCONTEXT"]
+ms.assetid: 3E3DE99D-B457-4202-8CC2-A6F5C019EFF8
+keywords:
+- HINTERACTIONCONTEXT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HINTERACTIONCONTEXT
@@ -22,8 +28,8 @@ typedef  HINTERACTIONCONTEXT;
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                            |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                            |
 | Header<br/>                   | <dl> <dt>Interactioncontext.h</dt> </dl> |
 
 
@@ -35,15 +41,15 @@ typedef  HINTERACTIONCONTEXT;
 [Interaction Context Reference](interaction-context-reference.md)
 </dt> <dt>
 
-[**CreateInteractionContext**](createinteractioncontext.md)
+[**CreateInteractionContext**](/windows/previous-versions/interactioncontext/nf-interactioncontext-createinteractioncontext?branch=master)
 </dt> <dt>
 
-[**DestroyInteractionContext**](destroyinteractioncontext.md)
+[**DestroyInteractionContext**](/windows/previous-versions/interactioncontext/nf-interactioncontext-destroyinteractioncontext?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

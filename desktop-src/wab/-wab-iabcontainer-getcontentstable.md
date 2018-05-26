@@ -1,8 +1,11 @@
 ---
 title: IABContainer GetContentsTable method
 description: Retrieves the address of the contents table of the container.
-ms.assetid: '644dd9c8-7e30-4820-aba1-46d7658e43c9'
-keywords: ["GetContentsTable method Windows Address Book", "GetContentsTable method Windows Address Book , IABContainer interface", "IABContainer interface Windows Address Book , GetContentsTable method"]
+ms.assetid: 644dd9c8-7e30-4820-aba1-46d7658e43c9
+keywords:
+- GetContentsTable method Windows Address Book
+- GetContentsTable method Windows Address Book , IABContainer interface
+- IABContainer interface Windows Address Book , GetContentsTable method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IABContainer::GetContentsTable method
@@ -22,8 +30,8 @@ Retrieves the address of the contents table of the container.
 
 ```C++
 HRESULT GetContentsTable(
-   ULONG      ulFlags,
-   IMAPITable **lppTable
+   ULONG      ulFlags,
+   IMAPITable **lppTable
 );
 ```
 
@@ -67,7 +75,7 @@ Retrieves a contents table for all of the containers for the current profile.
 *lppTable* 
 </dt> <dd>
 
-Type: **[**IMAPITable**](-wab-imapitable.md)\*\***
+Type: **[**IMAPITable**](/windows/previous-versions/Wabdefs/?branch=master)\*\***
 
 Address of a pointer to a variable of type IMAPITable that receives the table object containing the contents table.
 
@@ -89,7 +97,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -97,17 +105,17 @@ This method can return one of these values.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Internet Explorer 4.0<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Wabtmp.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Wab32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

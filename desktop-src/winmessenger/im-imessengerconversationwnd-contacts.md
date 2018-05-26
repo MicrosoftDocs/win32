@@ -1,8 +1,11 @@
 ---
 title: IMessengerConversationWnd Contacts property
 description: Retrieves a read-only collection of contacts in the conversation window.
-ms.assetid: 'ab3b7d7a-5916-403d-9a39-a3ee062401a9'
-keywords: ["Contacts property Windows Messenger", "Contacts property Windows Messenger , IMessengerConversationWnd interface", "IMessengerConversationWnd interface Windows Messenger , Contacts property"]
+ms.assetid: ab3b7d7a-5916-403d-9a39-a3ee062401a9
+keywords:
+- Contacts property Windows Messenger
+- Contacts property Windows Messenger , IMessengerConversationWnd interface
+- IMessengerConversationWnd interface Windows Messenger , Contacts property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerConversationWnd::Contacts property
 
-\[**Contacts** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Contacts** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves a read-only collection of contacts in the conversation window.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Contacts(
-  [out, retval] IDispatch **pContacts
+  [out, retval] IDispatch **pContacts
 );
 ```
 
@@ -39,7 +47,7 @@ Address of a pointer to an [IDispatch](c1accca9-971c-4435-8a5e-e25404a3fb25) int
 
 ## Error codes
 
-Returns one of the following values. 
+Returns one of the following values. 
 
 
 
@@ -66,12 +74,12 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 > [!Note]  
 > This property is available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -103,8 +111,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -118,9 +126,9 @@ End Sub
 [**IMessengerConversationWnd**](im-imessengerconversationwnd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

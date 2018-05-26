@@ -2,7 +2,12 @@
 title: D
 description: IrDA glossary terms beginning with D.
 Robots: noindex, nofollow
-ms.assetid: '5d772982-8889-4664-92d3-b2c0302cd514'
+ms.assetid: 5d772982-8889-4664-92d3-b2c0302cd514
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D

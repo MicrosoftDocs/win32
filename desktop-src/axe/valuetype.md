@@ -1,14 +1,20 @@
 ---
 title: ValueType element
 description: This node contains the type of the metric threshold value.
-ms.assetid: '1637EAB3-BED3-4154-99C6-7E8036744EA9'
-keywords: ["ValueType element Access Execution Engine"]
+ms.assetid: 1637EAB3-BED3-4154-99C6-7E8036744EA9
+keywords:
+- ValueType element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ValueType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ValueType element
@@ -83,9 +89,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

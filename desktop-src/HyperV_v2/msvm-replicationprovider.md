@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the available providers for replication.'
-ms.assetid: 'CAAD1CFC-6473-4642-8366-0A5625AE1F70'
-title: 'Msvm\_ReplicationProvider class'
+Description: Represents the available providers for replication.
+ms.assetid: CAAD1CFC-6473-4642-8366-0A5625AE1F70
+title: Msvm\_ReplicationProvider class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReplicationProvider class
@@ -151,8 +156,8 @@ You can use any of available providers and the [**Msvm\_ReplicationRelationship*
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -169,9 +174,9 @@ You can use any of available providers and the [**Msvm\_ReplicationRelationship*
 [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

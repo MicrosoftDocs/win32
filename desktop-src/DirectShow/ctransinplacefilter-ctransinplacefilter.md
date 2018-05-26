@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'f0d30125-5d16-470c-a5fb-a7df96814dad'
-title: 'CTransInPlaceFilter.CTransInPlaceFilter constructor'
+Description: Constructor method.
+ms.assetid: f0d30125-5d16-470c-a5fb-a7df96814dad
+title: CTransInPlaceFilter.CTransInPlaceFilter constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceFilter.CTransInPlaceFilter constructor
@@ -13,11 +18,11 @@ Constructor method.
 
 ```C++
 CTransInPlaceFilter(
-   TCHAR     *pObjectName,
-   LPUNKNOWN lpUnk,
-   REFCLSID  clsid,
-   HRESULT   *phr,
-   bool      bModifiesData = TRUE
+   TCHAR     *pObjectName,
+   LPUNKNOWN lpUnk,
+   REFCLSID  clsid,
+   HRESULT   *phr,
+   bool      bModifiesData = TRUE
 );
 ```
 
@@ -80,9 +85,9 @@ Boolean value that specifies whether the filter modifies the input data. If **TR
 [**CTransInPlaceFilter Class**](ctransinplacefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

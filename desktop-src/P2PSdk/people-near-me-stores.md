@@ -1,7 +1,12 @@
 ---
 Description: People Near Me Stores
-ms.assetid: '3f2aa9bd-49ca-4fa6-b718-7cbeeef857c7'
+ms.assetid: 3f2aa9bd-49ca-4fa6-b718-7cbeeef857c7
 title: People Near Me Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # People Near Me Stores

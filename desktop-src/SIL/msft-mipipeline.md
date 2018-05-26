@@ -4,13 +4,15 @@ description: The Msft\_MiPipeline WMI class represents a pipeline that transport
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1474a69d-85d0-48f6-ba1a-6febb82da2a8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1474a69d-85d0-48f6-ba1a-6febb82da2a8
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msft_MiPipeline class Software Inventory Logging", "Msft_MiPipeline class Software Inventory Logging , described"]
+keywords:
+- Msft_MiPipeline class Software Inventory Logging
+- Msft_MiPipeline class Software Inventory Logging , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - MiStreamProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msft\_MiPipeline class
@@ -34,7 +39,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Msft_MiPipeline : Msft_MiStream
 {
-  string        NamespaceName;
+  string        NamespaceName;
   Msft_MiStream Streams[];
 };
 ```
@@ -86,9 +91,9 @@ On success, returns a list of embedded [**Msft\_MiStream**](msft-mistream.md) in
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
 | End of client support<br/>    | None supported<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                           |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                           |
 | Namespace<br/>                | Root\\InventoryLogging<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>MiStreamProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MiStreamProv.dll</dt> </dl> |
@@ -105,9 +110,9 @@ On success, returns a list of embedded [**Msft\_MiStream**](msft-mistream.md) in
 [Software Inventory Logging WMI Stream Provider Classes](software-inventory-logging-wmi-stream-provider-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

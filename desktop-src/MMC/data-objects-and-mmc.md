@@ -4,11 +4,15 @@ description: Describes the process of data transfer within MMC.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '11aa3e0f-28c3-4d06-97b2-ce644c2d2c14'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 11aa3e0f-28c3-4d06-97b2-ce644c2d2c14
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["data objects and MMC 2.0"]
+keywords:
+- data objects and MMC 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Data Objects and MMC 2.0

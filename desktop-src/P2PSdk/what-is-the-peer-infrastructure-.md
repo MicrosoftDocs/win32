@@ -1,7 +1,12 @@
 ---
-Description: 'The Peer Infrastructure is a set of several APIs that are powerful and flexible.'
-ms.assetid: 'aed7585a-88e5-4ca3-a8c3-e2ccfe13d35d'
-title: 'What is the Peer Infrastructure?'
+Description: The Peer Infrastructure is a set of several APIs that are powerful and flexible.
+ms.assetid: aed7585a-88e5-4ca3-a8c3-e2ccfe13d35d
+title: What is the Peer Infrastructure?
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What is the Peer Infrastructure?

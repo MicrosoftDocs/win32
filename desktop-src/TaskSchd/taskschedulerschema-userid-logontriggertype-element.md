@@ -1,14 +1,20 @@
 ---
 title: UserId (logonTriggerType) Element
 description: Identifier of the user. The task is started when this user logs on to the computer.
-ms.assetid: '52568899-e351-4ee1-b613-d7c42d7b983d'
-keywords: ["UserId element Task Scheduler"]
+ms.assetid: 52568899-e351-4ee1-b613-d7c42d7b983d
+keywords:
+- UserId element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - UserId
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserId (logonTriggerType) Element
@@ -39,7 +45,7 @@ The **UserId** element is defined by the [**logonTriggerType**](taskschedulersch
 
 For scripting development, the user identifier for the logon trigger is specified using the [**LogonTrigger.UserId**](logontrigger-userid.md) property.
 
-For C++ development, the user identifier for the logon trigger is specified using the [**ILogonTrigger::UserId**](ilogontrigger-userid.md) property.
+For C++ development, the user identifier for the logon trigger is specified using the [**ILogonTrigger::UserId**](/windows/win32/taskschd/nf-taskschd-ilogontrigger-get_userid?branch=master) property.
 
 ## Examples
 
@@ -51,8 +57,8 @@ For a complete example of the XML for a task that specifies a logon trigger, see
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +72,9 @@ For a complete example of the XML for a task that specifies a logon trigger, see
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

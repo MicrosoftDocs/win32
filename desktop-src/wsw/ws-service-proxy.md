@@ -1,8 +1,14 @@
 ---
 title: WS\_SERVICE\_PROXY
 description: An opaque type used to reference a service proxy.
-ms.assetid: '623766ae-fe82-40f9-93c8-e78fe48bc6d1'
-keywords: ["WS_SERVICE_PROXY"]
+ms.assetid: 623766ae-fe82-40f9-93c8-e78fe48bc6d1
+keywords:
+- WS_SERVICE_PROXY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WS\_SERVICE\_PROXY
@@ -26,8 +32,8 @@ This object is thread safe. For more information, see [thread safety](thread-saf
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>WebServices.h</dt> </dl> |
 
 
@@ -42,9 +48,9 @@ This object is thread safe. For more information, see [thread safety](thread-saf
 [Thread Safety](thread-safety.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

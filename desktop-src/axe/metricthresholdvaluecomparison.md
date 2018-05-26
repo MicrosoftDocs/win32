@@ -1,8 +1,9 @@
 ---
 title: MetricThresholdValueComparison enumeration
 description: Specifies how AXE compares metric values.
-ms.assetid: '65920F73-2A5F-4D51-A9F9-354FA0466FAD'
-keywords: ["MetricThresholdValueComparison enumeration Access Execution Engine"]
+ms.assetid: 65920F73-2A5F-4D51-A9F9-354FA0466FAD
+keywords:
+- MetricThresholdValueComparison enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeRuntime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholdValueComparison enumeration
@@ -22,7 +28,7 @@ Specifies how AXE compares metric values.
 
 ```C++
 typedef enum _MetricThresholdValueComparison { 
-  MetricThresholdValueComparison_NotSet                       = 0,
+  MetricThresholdValueComparison_NotSet                       = 0,
   MetricThresholdValueComparisonAbsolute,
   MetricThresholdValueComparisonOffset,
   MetricThresholdValueComparisonPercent,
@@ -145,15 +151,15 @@ This enumeration maps to the [**Comparison**](comparison.md) element.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

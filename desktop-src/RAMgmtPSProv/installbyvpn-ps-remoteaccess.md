@@ -2,13 +2,16 @@
 title: InstallByVpn method of the PS\_RemoteAccess class
 description: This cmdlet does the following 1.
 audience: developer
-ms.assetid: '4043a1b3-ed8c-4712-b7ba-fe87b847dec8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4043a1b3-ed8c-4712-b7ba-fe87b847dec8
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["InstallByVpn method", "InstallByVpn method, PS_RemoteAccess class", "PS_RemoteAccess class, InstallByVpn method"]
+keywords:
+- InstallByVpn method
+- InstallByVpn method, PS_RemoteAccess class
+- PS_RemoteAccess class, InstallByVpn method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InstallByVpn method of the PS\_RemoteAccess class
@@ -28,20 +34,20 @@ This cmdlet does the following 1. Performs pre-requisite checks for DirectAccess
 
 ```mof
 uint32 InstallByVpn(
-  [in]  string             VpnType,
-  [in]  string             ComputerName,
-  [in]  string             IPAddressRange[],
-  [in]  string             RadiusServer,
-  [in]  boolean            Legacy,
-  [in]  string             SharedSecret,
-  [in]  uint32             RadiusTimeout,
-  [in]  uint8              RadiusScore,
-  [in]  uint16             RadiusPort,
-  [in]  string             MsgAuthenticator,
-  [in]  boolean            PassThru,
-  [in]  string             IPv6Prefix,
-  [in]  string             EntrypointName,
-  [out] RemoteAccessCommon cmdletOutput
+  [in]  string             VpnType,
+  [in]  string             ComputerName,
+  [in]  string             IPAddressRange[],
+  [in]  string             RadiusServer,
+  [in]  boolean            Legacy,
+  [in]  string             SharedSecret,
+  [in]  uint32             RadiusTimeout,
+  [in]  uint8              RadiusScore,
+  [in]  uint16             RadiusPort,
+  [in]  string             MsgAuthenticator,
+  [in]  boolean            PassThru,
+  [in]  string             IPv6Prefix,
+  [in]  string             EntrypointName,
+  [out] RemoteAccessCommon cmdletOutput
 );
 ```
 
@@ -84,7 +90,7 @@ IPv4/IPv6 address or hostname of the RADIUS server that is to be used for authen
 
 **true** to install the legacy stack.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -162,7 +168,7 @@ Note that in a multisite deployment case VPN can only be installed one site at a
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -176,9 +182,9 @@ Note that in a multisite deployment case VPN can only be installed one site at a
 [**PS\_RemoteAccess**](ps-remoteaccess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

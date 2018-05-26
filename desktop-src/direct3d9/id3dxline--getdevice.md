@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the Direct3D device associated with the line object.'
-ms.assetid: '42459668-aa18-478d-82d9-b8b25dc4a898'
-title: 'ID3DXLine::GetDevice method'
+---
+Description: Retrieves the Direct3D device associated with the line object.
+ms.assetid: 42459668-aa18-478d-82d9-b8b25dc4a898
+title: ID3DXLineGetDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXLine::GetDevice method
@@ -26,9 +31,9 @@ HRESULT GetDevice(
 *ppDevice* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)\***
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the Direct3D device object associated with the line object.
+Address of a pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the Direct3D device object associated with the line object.
 
 </dd> </dl>
 

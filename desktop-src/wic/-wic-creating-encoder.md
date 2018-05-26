@@ -1,7 +1,12 @@
 ---
-Description: 'An encoder writes image data to a stream. Encoders can compress, encrypt, and alter the image pixels in a number of ways prior to writing them to the stream.'
-ms.assetid: 'e1e3a9d9-209b-46a6-92da-5570476507cf'
+Description: An encoder writes image data to a stream. Encoders can compress, encrypt, and alter the image pixels in a number of ways prior to writing them to the stream.
+ms.assetid: e1e3a9d9-209b-46a6-92da-5570476507cf
 title: Encoding Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encoding Overview
@@ -20,21 +25,21 @@ This topic includes the following sections.
 
 ## IWICBitmapEncoder
 
-[**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md) is the main interface for encoding an image to the target format and used to serialize an image's components, such as thumbnail ([**SetThumbnail**](-wic-codec-iwicbitmapencoder-setthumbnail.md)) and frames ([**CreateNewFrame**](-wic-codec-iwicbitmapencoder-createnewframe.md)), to the image file.
+[**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master) is the main interface for encoding an image to the target format and used to serialize an image's components, such as thumbnail ([**SetThumbnail**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapencoder-setthumbnail?branch=master)) and frames ([**CreateNewFrame**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe?branch=master)), to the image file.
 
-How and when serialization occurs is left up to the codec developer. Each individual block of data within the target file format should be able to set independent of order, but again, this is the codec developer's decision. Once the [**Commit**](-wic-codec-iwicbitmapencoder-commit.md) method is called however, changes to the image should not be allowed and the stream should be closed.
+How and when serialization occurs is left up to the codec developer. Each individual block of data within the target file format should be able to set independent of order, but again, this is the codec developer's decision. Once the [**Commit**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapencoder-commit?branch=master) method is called however, changes to the image should not be allowed and the stream should be closed.
 
 ## IWICBitmapFrameEncode
 
-[**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md) is the interface for encoding the individual frames of an image. It provides methods for setting individual frame imaging components, such as thumbnails and frames, as well as image dimensions, DPI, and pixel formats.
+[**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master) is the interface for encoding the individual frames of an image. It provides methods for setting individual frame imaging components, such as thumbnails and frames, as well as image dimensions, DPI, and pixel formats.
 
-Individual frames may be encoded with frame-specific metadata so [**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md) provides access to a metadata writer through the [**GetMetadataQueryWriter**](-wic-codec-iwicbitmapframeencode-getmetadataquerywriter.md) method.
+Individual frames may be encoded with frame-specific metadata so [**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master) provides access to a metadata writer through the [**GetMetadataQueryWriter**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframeencode-getmetadataquerywriter?branch=master) method.
 
-The frame's [**Commit**](-wic-codec-iwicbitmapframeencode-commit.md) method commits all changes to the individual frame and indicates that changes to that frame should no longer be accepted.
+The frame's [**Commit**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframeencode-commit?branch=master) method commits all changes to the individual frame and indicates that changes to that frame should no longer be accepted.
 
 ## TIFF Encoding Example
 
-In the following example, a Tagged Image File Format (TIFF) image is encoded using [**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md) and an [**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md). The TIFF output is customized using the [**WICTiffCompressionOption**](-wic-codec-wictiffcompressionoption.md) and the bitmap frame is initialized using the given options. Once the image has been created using [**WritePixels**](-wic-codec-iwicbitmapframeencode-writepixels.md), the frame is committed by way of [**Commit**](-wic-codec-iwicbitmapframeencode-commit.md) and the image is saved using [**Commit**](-wic-codec-iwicbitmapencoder-commit.md).
+In the following example, a Tagged Image File Format (TIFF) image is encoded using [**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master) and an [**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master). The TIFF output is customized using the [**WICTiffCompressionOption**](/windows/win32/Wincodec/ne-wincodec-wictiffcompressionoption?branch=master) and the bitmap frame is initialized using the given options. Once the image has been created using [**WritePixels**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframeencode-writepixels?branch=master), the frame is committed by way of [**Commit**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframeencode-commit?branch=master) and the image is saved using [**Commit**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapencoder-commit?branch=master).
 
 
 ```C++
@@ -165,7 +170,7 @@ return hr;
 
 ## Encoder Options Usage
 
-Different encoders for different formats need to expose different options for how an image is encoded. Windows Imaging Component (WIC) provides a consistent mechanism for expressing whether encoding options are required while still enabling applications to work with multiple encoders without requiring knowledge of a particular format. This is accomplished by providing an [IPropertyBag](http://msdn.microsoft.com/en-us/library/Aa768196(VS.85).aspx) parameter on the [**CreateNewFrame**](-wic-codec-iwicbitmapencoder-createnewframe.md) method and the [**Initialize**](-wic-codec-iwicbitmapframeencode-initialize.md) method.
+Different encoders for different formats need to expose different options for how an image is encoded. Windows Imaging Component (WIC) provides a consistent mechanism for expressing whether encoding options are required while still enabling applications to work with multiple encoders without requiring knowledge of a particular format. This is accomplished by providing an [IPropertyBag](http://msdn.microsoft.com/en-us/library/Aa768196(VS.85).aspx) parameter on the [**CreateNewFrame**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe?branch=master) method and the [**Initialize**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize?branch=master) method.
 
 The component factory provides an easy creation point for creating an encoder options property bag. Codecs can use this service if they need to provide a simple, intuitive and non-conflicting set of encoder options. The imaging property bag must be initialized during creation with all the encoder options relevant to that codec. For encoder options from the canonical set, the value range will be enforced on Write. For more advanced needs, codecs should write their own property bag implementation.
 
@@ -182,7 +187,7 @@ An application can expect to encounter the following set of encoder options. Enc
 | ImageQuality       | VT\_R4   | 0-1.0                                                                     | JPEG, HDPhoto     |
 | CompressionQuality | VT\_R4   | 0-1.0                                                                     | TIFF              |
 | Lossless           | VT\_BOOL | **TRUE**, **FALSE**                                                       | HDPhoto           |
-| BitmapTransform    | VT\_UI1  | [**WICBitmapTransformOptions**](-wic-codec-wicbitmaptransformoptions.md) | JPEG              |
+| BitmapTransform    | VT\_UI1  | [**WICBitmapTransformOptions**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master) | JPEG              |
 
 
 
@@ -201,11 +206,11 @@ In addition to the above generic encoder options, codecs supplied with WIC suppo
 | Property Name           | VARTYPE           | Value                                                                             | Applicable Codecs |
 |-------------------------|-------------------|-----------------------------------------------------------------------------------|-------------------|
 | InterlaceOption         | VT\_BOOL          | On/Off                                                                            | PNG               |
-| FilterOption            | VT\_UI1           | [**WICPngFilterOption**](-wic-codec-wicpngfilteroption.md)                       | PNG               |
-| TiffCompressionMethod   | VT\_UI1           | [**WICTiffCompressionOption**](-wic-codec-wictiffcompressionoption.md)           | TIFF              |
+| FilterOption            | VT\_UI1           | [**WICPngFilterOption**](/windows/win32/Wincodec/ne-wincodec-wicpngfilteroption?branch=master)                       | PNG               |
+| TiffCompressionMethod   | VT\_UI1           | [**WICTiffCompressionOption**](/windows/win32/Wincodec/ne-wincodec-wictiffcompressionoption?branch=master)           | TIFF              |
 | Luminance               | VT\_UI4/VT\_ARRAY | 64 Entries (DCT)                                                                  | JPEG              |
 | Chrominance             | VT\_UI4/VT\_ARRAY | 64 Entries (DCT)                                                                  | JPEG              |
-| JpegYCrCbSubsampling    | VT\_UI1           | [**WICJpegYCrCbSubsamplingOption**](-wic-codec-wicjpegycrcbsubsamplingoption.md) | JPEG              |
+| JpegYCrCbSubsampling    | VT\_UI1           | [**WICJpegYCrCbSubsamplingOption**](/windows/win32/Wincodec/ne-wincodec-wicjpegycrcbsubsamplingoption?branch=master) | JPEG              |
 | SuppressApp0            | VT\_BOOL          |                                                                                   | JPEG              |
 | EnableV5Header32bppBGRA | VT\_BOOL          | On/Off                                                                            | BMP               |
 
@@ -217,7 +222,7 @@ Use **VT\_EMPTY** to indicate **\*not set\*** as the default. If additional prop
 
 ## Encoder Options Examples
 
-In the [TIFF Encoding Example](#tiff-encoding-example) above, a specific encoder option is set. The *pstrName* member of the PROPBAG2 structure is set to the appropriate property name, and the VARIANT is set to the corresponding VARTYPE and the desired value—in this case, a member of the [**WICTiffCompressionOption**](-wic-codec-wictiffcompressionoption.md) enumeration.
+In the [TIFF Encoding Example](#tiff-encoding-example) above, a specific encoder option is set. The *pstrName* member of the PROPBAG2 structure is set to the appropriate property name, and the VARIANT is set to the corresponding VARTYPE and the desired value—in this case, a member of the [**WICTiffCompressionOption**](/windows/win32/Wincodec/ne-wincodec-wictiffcompressionoption?branch=master) enumeration.
 
 
 ```C++

@@ -1,8 +1,14 @@
 ---
 title: DBPARAMETER
 description: DBPARAMETER
-ms.assetid: 'cc41bd64-acbd-4922-9e2d-493889852a9d'
-keywords: ["DBPARAMETER"]
+ms.assetid: cc41bd64-acbd-4922-9e2d-493889852a9d
+keywords:
+- DBPARAMETER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPARAMETER

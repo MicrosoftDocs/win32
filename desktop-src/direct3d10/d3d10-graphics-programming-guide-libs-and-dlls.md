@@ -1,7 +1,12 @@
 ---
-Description: 'For an application to run properly, the host computer must have the appropriate DLLs installed. These DLLs may be provided by either the operating system, or the applications'' redistributable package.'
-ms.assetid: 'fa5405e9-116f-4b7f-8f8e-791a79942570'
-title: 'Linking Static and Dynamic Libraries (Direct3D 10)'
+Description: For an application to run properly, the host computer must have the appropriate DLLs installed. These DLLs may be provided by either the operating system, or the applications redistributable package.
+ms.assetid: fa5405e9-116f-4b7f-8f8e-791a79942570
+title: Linking Static and Dynamic Libraries (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Linking Static and Dynamic Libraries (Direct3D 10)
@@ -30,7 +35,7 @@ The following table describes the binaries developers should be aware of.
 | Direct3D 10 Binaries   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | d3dx10.dll/d3dx10d.dll | Retail and debug D3DX10 components; the retail components can be redistributed in the REDIST CAB.                                                                                                                                                                                                                                                                                                                                                                                                             |
-| d3d10ref.dll           | Reference Rasterizer. Provides software implementation of the graphics pipeline. Only included as part of the Windows SDK or legacy DirectX SDK and cannot be redistributed. The Reference Rasterizer is intended for debugging only. Explicit linking is not necessary; attempting to create a reference device (see [**D3D10CreateDevice**](d3d10createdevice.md)) will load this dll if it is present.                                                                                                    |
+| d3d10ref.dll           | Reference Rasterizer. Provides software implementation of the graphics pipeline. Only included as part of the Windows SDK or legacy DirectX SDK and cannot be redistributed. The Reference Rasterizer is intended for debugging only. Explicit linking is not necessary; attempting to create a reference device (see [**D3D10CreateDevice**](/windows/win32/D3D10Misc/nf-d3d10misc-d3d10createdevice?branch=master)) will load this dll if it is present.                                                                                                    |
 | d3d10sdklayers.dll     | A series of SDK utilities that act as a layer between API calls and runtime execution, including the [debug layer](d3d10-graphics-programming-guide-api-features-layers.md) and the switch-to-reference layer. Explicit linking is not necessary; if a device is created with the appropriate layer flag, this DLL is loaded automatically. This component is meant for development and debugging purposes only. Only included as part of the Windows SDK or legacy DirectX SDK and cannot be redistributed. |
 
 

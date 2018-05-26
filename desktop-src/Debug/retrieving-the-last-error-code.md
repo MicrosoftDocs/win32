@@ -1,12 +1,17 @@
 ---
-Description: 'When many system functions fail, they set the last-error code.'
-ms.assetid: '4cc626ac-7574-44ce-8377-e0bdd8e74b7e'
-title: 'Retrieving the Last-Error Code'
+Description: When many system functions fail, they set the last-error code.
+ms.assetid: 4cc626ac-7574-44ce-8377-e0bdd8e74b7e
+title: Retrieving the Last-Error Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Last-Error Code
 
-When many system functions fail, they set the last-error code. If your application needs more details about an error, it can retrieve the last-error code using the [**GetLastError**](getlasterror.md) function and display a description of the error using the [**FormatMessage**](formatmessage.md) function.
+When many system functions fail, they set the last-error code. If your application needs more details about an error, it can retrieve the last-error code using the [**GetLastError**](/windows/win32/WinBase/?branch=master) function and display a description of the error using the [**FormatMessage**](/windows/win32/WinBase/nf-winbase-formatmessage?branch=master) function.
 
 The following example includes an error-handling function that prints the error message and terminates the process. The *lpszFunction* parameter is the name of the function that set the last-error code.
 

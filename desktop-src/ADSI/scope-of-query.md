@@ -4,11 +4,16 @@ description: The scope of a query is determined by the object to which you bind.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7ece8599-8a4b-45a1-95f4-a4180052f245'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7ece8599-8a4b-45a1-95f4-a4180052f245
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["scope of query ADSI", "queries ADSI , scope"]
+keywords:
+- scope of query ADSI
+- queries ADSI , scope
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scope of Query
@@ -27,7 +32,7 @@ A base query limits the search to only the base object. The maximum number of ob
 
 ## One Level
 
-A one-level search is restricted to the immediate children of a base object, but excludes the base object itself. This setting can perform a targeted search for immediate child objects of a parent object. For example, if you have a parent object called P1, and its immediate children are: C1, C2, C3, then in a one-level search, C1, C2, and C3 should be included when evaluating the criteria, but P1 would not be part of the search. A one-level search can be used to enumerate all children of an object. In fact, in some ADSI providers, [**IADsContainer**](iadscontainer.md) enumeration translates to a one-level search.
+A one-level search is restricted to the immediate children of a base object, but excludes the base object itself. This setting can perform a targeted search for immediate child objects of a parent object. For example, if you have a parent object called P1, and its immediate children are: C1, C2, C3, then in a one-level search, C1, C2, and C3 should be included when evaluating the criteria, but P1 would not be part of the search. A one-level search can be used to enumerate all children of an object. In fact, in some ADSI providers, [**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master) enumeration translates to a one-level search.
 
 ## Subtree
 

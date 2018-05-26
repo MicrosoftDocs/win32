@@ -1,8 +1,9 @@
 ---
 title: WM\_ASKCBFORMATNAME message
 description: Sent to the clipboard owner by a clipboard viewer window to request the name of a CF\_OWNERDISPLAY clipboard format.
-ms.assetid: 'eee026ec-58db-41b3-9705-30a17eebbd70'
-keywords: ["WM_ASKCBFORMATNAME message Data Exchange"]
+ms.assetid: eee026ec-58db-41b3-9705-30a17eebbd70
+keywords:
+- WM_ASKCBFORMATNAME message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_ASKCBFORMATNAME message
@@ -52,7 +58,7 @@ If an application processes this message, it should return zero.
 
 In response to this message, the clipboard owner should copy the name of the owner-display format to the specified buffer, not exceeding the buffer size specified by the *wParam* parameter.
 
-A clipboard viewer window sends this message to the clipboard owner to determine the name of the [**CF\_OWNERDISPLAY**](standard-clipboard-formats.md#cf-ownerdisplay) format — for example, to initialize a menu listing available formats.
+A clipboard viewer window sends this message to the clipboard owner to determine the name of the [**CF\_OWNERDISPLAY**](standard-clipboard-formats.md#cf-ownerdisplay) format   for example, to initialize a menu listing available formats.
 
 ## Requirements
 
@@ -60,8 +66,8 @@ A clipboard viewer window sends this message to the clipboard owner to determine
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -73,9 +79,9 @@ A clipboard viewer window sends this message to the clipboard owner to determine
 [Clipboard Overview](clipboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

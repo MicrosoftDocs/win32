@@ -1,8 +1,10 @@
 ---
 title: TestCaseCollection class
 description: This interface provides containers for TestCase objects.
-ms.assetid: '025CEEEA-264F-475B-9737-4E1754F01D0E'
-keywords: ["TestCaseCollection class Access Execution Engine", "TestCaseCollection class Access Execution Engine , described"]
+ms.assetid: 025CEEEA-264F-475B-9737-4E1754F01D0E
+keywords:
+- TestCaseCollection class Access Execution Engine
+- TestCaseCollection class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCaseCollection class
@@ -42,7 +49,7 @@ The **TestCaseCollection** class has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,16 +61,16 @@ The **TestCase** objects hold information from the **Iteration/TestCases/TestCas
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

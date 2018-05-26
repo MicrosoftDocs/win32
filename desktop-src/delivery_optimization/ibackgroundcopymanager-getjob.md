@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyManager GetJob method
 description: Retrieves a specified job from the transfer queue. Typically, your application persists the job identifier, so you can later retrieve the job from the queue.
-ms.assetid: 'ED551A6B-66C7-47E9-93DA-E231BD637522'
-keywords: ["GetJob method", "GetJob method, IBackgroundCopyManager interface", "IBackgroundCopyManager interface, GetJob method"]
+ms.assetid: ED551A6B-66C7-47E9-93DA-E231BD637522
+keywords:
+- GetJob method
+- GetJob method, IBackgroundCopyManager interface
+- IBackgroundCopyManager interface, GetJob method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyManager::GetJob method
@@ -22,8 +30,8 @@ Retrieves a specified job from the transfer queue. Typically, your application p
 
 ```C++
 HRESULT GetJob(
-  [in]  REFGUID            JobID,
-  [out] IBackgroundCopyJob **ppJob
+  [in]  REFGUID            JobID,
+  [out] IBackgroundCopyJob **ppJob
 );
 ```
 
@@ -61,7 +69,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -69,7 +77,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -95,9 +103,9 @@ This method returns the following **HRESULT** values, as well as others.
 [**IBackgroundCopyManager::CreateJob**](ibackgroundcopymanager-createjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Properties element
 description: This element describes assessment properties.
-ms.assetid: 'B9648DC5-D829-47D4-93B6-2EBC9DB31CEE'
-keywords: ["Properties element Access Execution Engine"]
+ms.assetid: B9648DC5-D829-47D4-93B6-2EBC9DB31CEE
+keywords:
+- Properties element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Properties
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties element
@@ -34,7 +40,7 @@ There are no attributes.
 | Element                                                                           | Description                                                                                                                                                                                     |
 |-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Author**](author.md)<br/>                                               | The author of the assessment.<br/> <br/>                                                                                                                                            |
-| [**AuthorUrl**](authorurl.md)<br/>                                         | This URL refers to the main web site or page for the Assessment’s author.<br/> <br/>                                                                                                |
+| [**AuthorUrl**](authorurl.md)<br/>                                         | This URL refers to the main web site or page for the Assessment s author.<br/> <br/>                                                                                                |
 | [**AVOffWarn**](avoffwarn.md)<br/>                                         | If present then this assessment prefers to have anti-virus software installed and enabled.<br/> <br/>                                                                               |
 | [**BasicDisplayBlock**](basicdisplayblock.md)<br/>                         | If present then the operating system must not be using the basic display device driver.<br/> <br/>                                                                                  |
 | [**BasicDisplayWarn**](basicdisplaywarn.md)<br/>                           | If present then this assessment performs better with a display device driver that is specific to the installed graphics hardware.<br/> <br/>                                        |
@@ -172,7 +178,7 @@ There are no attributes.
 
 ## Remarks
 
-As a solution assembles a job, the assessment management API’s will check some of properties for consistency – returning warnings to the solution as appropriate.
+As a solution assembles a job, the assessment management API s will check some of properties for consistency   returning warnings to the solution as appropriate.
 
 ## Element information
 
@@ -194,9 +200,9 @@ As a solution assembles a job, the assessment management API’s will check some o
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

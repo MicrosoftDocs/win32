@@ -4,11 +4,14 @@ description: Called when special key combinations are pressed in the remote sess
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0A4EAD6C-5DA9-4ED3-BA79-92AE5AE81C9F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0A4EAD6C-5DA9-4ED3-BA79-92AE5AE81C9F
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnKeyCombinationPressed method Remote Desktop Services", "OnKeyCombinationPressed method Remote Desktop Services , IRemoteDesktopClientEvents interface", "IRemoteDesktopClientEvents interface Remote Desktop Services , OnKeyCombinationPressed method"]
+keywords:
+- OnKeyCombinationPressed method Remote Desktop Services
+- OnKeyCombinationPressed method Remote Desktop Services , IRemoteDesktopClientEvents interface
+- IRemoteDesktopClientEvents interface Remote Desktop Services , OnKeyCombinationPressed method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IRemoteDesktopClientEvents::OnKeyCombinationPressed method
@@ -28,7 +34,7 @@ Called when special key combinations are pressed in the remote session.
 
 ```C++
 void OnKeyCombinationPressed(
-  [in] long keyCombination
+  [in] long keyCombination
 );
 ```
 
@@ -51,8 +57,8 @@ This method does not return a value.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>         |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>         |
 | IID<br/>                      | DIID\_IRemoteDesktopClientEvents is defined as 079863B7-6D47-4105-8BFE-0CDCB360E67D<br/> |
@@ -66,9 +72,9 @@ This method does not return a value.
 [**IRemoteDesktopClientEvents**](iremotedesktopclientevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

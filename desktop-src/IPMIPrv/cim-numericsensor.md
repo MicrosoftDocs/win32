@@ -4,13 +4,15 @@ description: A Numeric Sensor is capable of returning numeric readings and optio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '308284ff-f90a-498a-9b16-8559acebf085'
-ms.prod: 'windows-server-dev'
+ms.assetid: 308284ff-f90a-498a-9b16-8559acebf085
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_NumericSensor class", "CIM_NumericSensor class, described"]
+keywords:
+- CIM_NumericSensor class
+- CIM_NumericSensor class, described
 topic_type:
 - apiref
 api_name:
@@ -78,6 +80,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_NumericSensor class
@@ -92,65 +97,65 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.8.0"), UUID("{4c7acd5c-b440-442a-8c85-9c09bc36ada8}"), AMENDMENT]
 class CIM_NumericSensor : CIM_Sensor
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
-  uint16   SensorType;
-  string   OtherSensorTypeDescription;
-  string   PossibleStates[];
-  string   CurrentState;
-  uint64   PollingInterval;
-  uint16   BaseUnits;
-  sint32   UnitModifier;
-  uint16   RateUnits;
-  sint32   CurrentReading;
-  sint32   NominalReading;
-  sint32   NormalMax;
-  sint32   NormalMin;
-  sint32   MaxReadable;
-  sint32   MinReadable;
-  uint32   Resolution;
-  sint32   Tolerance;
-  sint32   Accuracy;
-  boolean  IsLinear;
-  uint32   Hysteresis;
-  sint32   LowerThresholdNonCritical;
-  sint32   UpperThresholdNonCritical;
-  sint32   LowerThresholdCritical;
-  sint32   UpperThresholdCritical;
-  sint32   LowerThresholdFatal;
-  sint32   UpperThresholdFatal;
-  uint16   SupportedThresholds[];
-  uint16   EnabledThresholds[];
-  uint16   SettableThresholds[];
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
+  uint16   SensorType;
+  string   OtherSensorTypeDescription;
+  string   PossibleStates[];
+  string   CurrentState;
+  uint64   PollingInterval;
+  uint16   BaseUnits;
+  sint32   UnitModifier;
+  uint16   RateUnits;
+  sint32   CurrentReading;
+  sint32   NominalReading;
+  sint32   NormalMax;
+  sint32   NormalMin;
+  sint32   MaxReadable;
+  sint32   MinReadable;
+  uint32   Resolution;
+  sint32   Tolerance;
+  sint32   Accuracy;
+  boolean  IsLinear;
+  uint32   Hysteresis;
+  sint32   LowerThresholdNonCritical;
+  sint32   UpperThresholdNonCritical;
+  sint32   LowerThresholdCritical;
+  sint32   UpperThresholdCritical;
+  sint32   LowerThresholdFatal;
+  sint32   UpperThresholdFatal;
+  uint16   SupportedThresholds[];
+  uint16   EnabledThresholds[];
+  uint16   SettableThresholds[];
 };
 ```
 
@@ -182,7 +187,7 @@ The **CIM\_NumericSensor** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1193,14 +1198,14 @@ An administrator's default or startup configuration for the **EnabledState** of 
 **DMTF Reserved**
 
 
-</dt> <dd>8–32767</dd> <dt>
+</dt> <dd>8 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md).
 
@@ -2407,14 +2412,14 @@ The last requested or desired state for the element. The actual state of the ele
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md).
 
@@ -2941,8 +2946,8 @@ The threshold values collectively specify the **CurrentReading** value ranges co
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -2956,9 +2961,9 @@ The threshold values collectively specify the **CurrentReading** value ranges co
 [**CIM\_Sensor**](cim-sensor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

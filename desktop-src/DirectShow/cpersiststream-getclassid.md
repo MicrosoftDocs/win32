@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the class identifier for this filter.'
-ms.assetid: 'f0559437-5d0d-4522-a3dc-947e3494b576'
-title: 'CPersistStream.GetClassID method'
+Description: Retrieves the class identifier for this filter.
+ms.assetid: f0559437-5d0d-4522-a3dc-947e3494b576
+title: CPersistStream.GetClassID method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPersistStream.GetClassID method
@@ -13,7 +18,7 @@ Retrieves the class identifier for this filter.
 
 ```C++
 HRESULT GetClassID(
-   CLSID *pClsID
+   CLSID *pClsID
 );
 ```
 
@@ -52,9 +57,9 @@ Returns an **HRESULT** value.
 [**CPersistStream Class**](cpersiststream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

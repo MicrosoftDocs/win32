@@ -1,7 +1,12 @@
 ---
 title: To specify the location of contents files
 description: To specify the location of contents files
-ms.assetid: '3CB8B462-F86B-4eb2-85D5-14F483ADD452'
+ms.assetid: 3CB8B462-F86B-4eb2-85D5-14F483ADD452
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To specify the location of contents files
@@ -16,7 +21,7 @@ ms.assetid: '3CB8B462-F86B-4eb2-85D5-14F483ADD452'
 
     
 
-     
+     
 
 2.  Click the **Files** tab, and then in the **Contents file** box, enter the name and location of your contents (.hhc) file.
 
@@ -32,9 +37,9 @@ ms.assetid: '3CB8B462-F86B-4eb2-85D5-14F483ADD452'
 [About Creating Help Project Files](create-a-help-project.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

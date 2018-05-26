@@ -1,14 +1,20 @@
 ---
 title: GatherCmpGreen(S,float,float,int2,int2,int2,int2) function
 description: Samples a texture, tests the samples against a compare value, and returns the green component.
-ms.assetid: '5A4B8AEB-B278-4456-893A-CAE61BFD6CA5'
-keywords: ["GatherCmpGreen function HLSL"]
+ms.assetid: 5A4B8AEB-B278-4456-893A-CAE61BFD6CA5
+keywords:
+- GatherCmpGreen function HLSL
 topic_type:
 - apiref
 api_name:
 - GatherCmpGreen
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GatherCmpGreen(S,float,float,int2,int2,int2,int2) function

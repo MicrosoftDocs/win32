@@ -1,8 +1,28 @@
 ---
 title: WCS Color Device Model Profile Schema and Algorithms
 description: This topic provides information about the WCS Color Device Model Profile Schema and its associated algorithms.This topic contains the following sections OverviewColor Device Model Profile ArchitectureThe CDMP SchemaWCS CDMP v2.0 Calibration AdditionThe CDMP Schema ElementsColorDeviceModelProfileColorDeviceModelNamespaceVersionVersionDocumentationCRTDevice elementLCDDevice elementProjectorDevice elementScannerDevice elementCameraDevice elementRGBPrinterDevice elementCMYKPrinterDevice elementRGBVirtualDevice elementPlugInDeviceTypeRGBVirtualMeasurementTypeGammaTypeGammaOffsetGainTypeGammaOffsetGainLinearGainTypeToneResponseCurvesTypeGamutBoundarySamplesTypeFloatPairListCMYKPrinterMeasurementTypeRGBPrinterMeasurementTypeRGBCaptureMeasurementTypeOneBasedIndexRGBProjectorMeasurementTypeDisplayMeasurementTypeMeasurementConditionsTypeGeometryTypeRGBPrimariesGroupNonNegativeCMYKSampleTypeNonNegativeRGBSampleTypeNonNegativeCMYKTypeNonNegativeRGBTypeExtensionTypeNonNegativeXYZTypeXYZTypeThe CDMP Baseline AlgorithmsCRT Device Model BaselineLCD Device Model BaselineRGB Printer Device Model BaselineRGB Virtual Device Model BaselineCMYK Printer Device Model BaselineRGB Projector Device Model BaselineICC Device Model BaselineRelated topics
-ms.assetid: 'bbb3b50d-75fc-476d-a011-af7dcc2ac520'
-keywords: ["Windows Color System (WCS),color device model profile (CDMP)", "WCS (Windows Color System),color device model profile (CDMP)", "image color management,color device model profile (CDMP)", "color management,color device model profile (CDMP)", "colors,color device model profile (CDMP)", "Windows Color System (WCS),profiles", "WCS (Windows Color System),profiles", "image color management,profiles", "color management,profiles", "colors,profiles", "schemas,color device model profile (CDMP)", "algorithms,color device model profile (CDMP)", "color device model profile (CDMP)", "CDMP (color device model profile)", "WCS color device model profile"]
+ms.assetid: bbb3b50d-75fc-476d-a011-af7dcc2ac520
+keywords:
+- Windows Color System (WCS),color device model profile (CDMP)
+- WCS (Windows Color System),color device model profile (CDMP)
+- image color management,color device model profile (CDMP)
+- color management,color device model profile (CDMP)
+- colors,color device model profile (CDMP)
+- Windows Color System (WCS),profiles
+- WCS (Windows Color System),profiles
+- image color management,profiles
+- color management,profiles
+- colors,profiles
+- schemas,color device model profile (CDMP)
+- algorithms,color device model profile (CDMP)
+- color device model profile (CDMP)
+- CDMP (color device model profile)
+- WCS color device model profile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WCS Color Device Model Profile Schema and Algorithms
@@ -461,7 +481,7 @@ In addition, the device profile provides specific information on the targeted de
 
 ## WCS CDMP v2.0 Calibration Addition
 
-The **ColorDeviceModel** element of the CDMP schema has been updated in Windows 7 to include the new calibration element. The following shows the change to the CDMP schema.
+The **ColorDeviceModel** element of the CDMP schema has been updated in Windows 7 to include the new calibration element. The following shows the change to the CDMP schema.
 
 
 ```C++
@@ -488,12 +508,12 @@ The **ColorDeviceModel** element of the CDMP schema has been updated in Windows 
 > [!Note]  
 > Primaries are primary samples of red, green, blue, black, and white. A primary ramp is a tonal ramp from least luminance to full primary value. The maximum number of entries in a tone ramp is 4096.
 
- 
+ 
 
 > [!Note]  
 > DMPs are required to have measurement data.
 
- 
+ 
 
 ### ColorDeviceModelProfile
 
@@ -888,9 +908,9 @@ In the preceding, \| *S* \| is the cardinality of *S*, i.e., the number of point
 
 In the calculation of ![](images/cdmp-formula8.png) , if ![](images/cdmp-formula9.png) , then the calculation is skipped, and the cardinality of *S* is adjusted accordingly.
 
-Despite the apparent complexity of the objective function, it is a sum of the squares of many differentiable functions in *X<sub>K</sub>*,*Y<sub>K</sub>Z<sub>K</sub>* (17 points × 2*xy* -components × 3 channels = 102, in the example), and, therefore, is amenable to standard nonlinear least squares techniques, such as the Levenberg-Marquardt algorithm, which is the algorithm used in WCS. Note that the preceding objective function is different from the one suggested in Berns\[3\] in that the latter function measures the variance of the distances from the center of mass, so that the variance is zero when the points are equidistant from the center of mass, even though they may spread out quite a bit about it. In the example, the dispersion of points is contolled directly using the second moments.
+Despite the apparent complexity of the objective function, it is a sum of the squares of many differentiable functions in *X<sub>K</sub>*,*Y<sub>K</sub>Z<sub>K</sub>* (17 points   2*xy* -components   3 channels = 102, in the example), and, therefore, is amenable to standard nonlinear least squares techniques, such as the Levenberg-Marquardt algorithm, which is the algorithm used in WCS. Note that the preceding objective function is different from the one suggested in Berns\[3\] in that the latter function measures the variance of the distances from the center of mass, so that the variance is zero when the points are equidistant from the center of mass, even though they may spread out quite a bit about it. In the example, the dispersion of points is contolled directly using the second moments.
 
-As with any iterative algorithm for the nonlinear least squares problem, Levenberg-Marquardt requires an initial guess. There are two obvious candidates. One is (0, 0, 0); the other is the measured black point. For the CTE, the measured black point is first used as the initial guess. If a maximum of 100 iterations is exceeded without achieving a threshold of an average distance of 0.001 of each point from its center of mass (which corresponds to a threshold value of (0.001)² × 17 × 3 = 0.000051 for the objective function), then another round of iterations with the initial guess of (0, 0, 0) is performed. The resulting estimate of the black point is XYZ compared with the best estimate from the previous round of iterations (with the measured black point as the initial guess). Use the estimate that gives the smallest value for the objective function. The choice of 100 iterations and the error distance of 0.001 were each selected empirically. In future versions, it might be reasonable to parameterize the error distance.
+As with any iterative algorithm for the nonlinear least squares problem, Levenberg-Marquardt requires an initial guess. There are two obvious candidates. One is (0, 0, 0); the other is the measured black point. For the CTE, the measured black point is first used as the initial guess. If a maximum of 100 iterations is exceeded without achieving a threshold of an average distance of 0.001 of each point from its center of mass (which corresponds to a threshold value of (0.001)    17   3 = 0.000051 for the objective function), then another round of iterations with the initial guess of (0, 0, 0) is performed. The resulting estimate of the black point is XYZ compared with the best estimate from the previous round of iterations (with the measured black point as the initial guess). Use the estimate that gives the smallest value for the objective function. The choice of 100 iterations and the error distance of 0.001 were each selected empirically. In future versions, it might be reasonable to parameterize the error distance.
 
 The result of step one is the estimated black point ( *X<sub>K</sub>*,*Y<sub>K</sub>*,*Z<sub>K</sub>* ). Step two consists of determining the tristimulus matrix by averaging the chromaticity of the points in the three clusters obtained in step one. For CRTs, this is done primarily to minimize the effects of measurement errors. The points used in averaging the chromaticity must be the same points used in the optimization in step one. In other words, if the first point (digital count 15, in the example) in each ramp is discarded in the optimization step, then the same must be done in the averaging. If ![](images/cdmp-formula10.png) , and ![](images/cdmp-formula11.png) are the averaged chromaticity coordinates of the red, green, and blue channels, then the following procedure determines the tristimulus matrix. First, solve the 3?3 linear system:
 
@@ -966,13 +986,13 @@ The solution ( *l<sub>i</sub>*, *a<sub>i</sub>*, *b<sub>i</sub>* ) in the 60-dim
 
 ![](images/cdmp-formula22.png)
 
-where the summation is through all the data point pairs (*R<sub>i</sub>*,*G<sub>i</sub>*,*B<sub>i</sub>*;*L<sub>i</sub>*,*u<sub>i</sub>*,*v<sub>i</sub>* ) in the sampled data set plus additional control points to be detailed in the following. This is a nonlinear regression problem because the parameters *?<sub>i</sub>*, *a<sub>i</sub>*, *ß<sub>i</sub>* enter into the objective function in a nonlinear way (not quadratically).
+where the summation is through all the data point pairs (*R<sub>i</sub>*,*G<sub>i</sub>*,*B<sub>i</sub>*;*L<sub>i</sub>*,*u<sub>i</sub>*,*v<sub>i</sub>* ) in the sampled data set plus additional control points to be detailed in the following. This is a nonlinear regression problem because the parameters *?<sub>i</sub>*, *a<sub>i</sub>*, * <sub>i</sub>* enter into the objective function in a nonlinear way (not quadratically).
 
-Because the objective function ? is a nonlinear (and nonquadratic) function of the parameters *?<sub>i</sub>*, *a<sub>i</sub>* and *ß<sub>i</sub>*, you must resort to iterative techniques to solve the optimization problem. Because the form of the objective function is a sum of squares, a standard optimization technique called the Levenberg-Marquardt algorithm is used. It is considered the method of choice for nonlinear least squares problems. For iterative algorithms such as Levenberg-Marquardt, you must supply an initial guess. A good initial guess is usually critical in finding the correct minimum value. In this case, one good candidate for the initial guess is the solution of the linear regression problem. First, minimize the sum of the square of Euclidean distances in Lab space, by defining a quadratic objective function:
+Because the objective function ? is a nonlinear (and nonquadratic) function of the parameters *?<sub>i</sub>*, *a<sub>i</sub>* and * <sub>i</sub>*, you must resort to iterative techniques to solve the optimization problem. Because the form of the objective function is a sum of squares, a standard optimization technique called the Levenberg-Marquardt algorithm is used. It is considered the method of choice for nonlinear least squares problems. For iterative algorithms such as Levenberg-Marquardt, you must supply an initial guess. A good initial guess is usually critical in finding the correct minimum value. In this case, one good candidate for the initial guess is the solution of the linear regression problem. First, minimize the sum of the square of Euclidean distances in Lab space, by defining a quadratic objective function:
 
 ![](images/cdmp-formula23.png)
 
-The mathematical solution to such "linear least squares" problem is well known. Because *?<sub>i</sub>* only appears in the *L* modeling, *a<sub>i</sub>* only appears in the *u* modeling, and *ß<sub>i</sub>* only appears in the *v* modeling; the optimization problem can be decomposed into three subproblems: one for *L*, one for *u* and one for *v*. Consider the *L* equations. (The *u* equations and the *v* equations follow exactly the same argument.) The problem of minimizing the sum of squares of errors in *L* can be stated as solving the following matrix equation in the least squares sense:
+The mathematical solution to such "linear least squares" problem is well known. Because *?<sub>i</sub>* only appears in the *L* modeling, *a<sub>i</sub>* only appears in the *u* modeling, and * <sub>i</sub>* only appears in the *v* modeling; the optimization problem can be decomposed into three subproblems: one for *L*, one for *u* and one for *v*. Consider the *L* equations. (The *u* equations and the *v* equations follow exactly the same argument.) The problem of minimizing the sum of squares of errors in *L* can be stated as solving the following matrix equation in the least squares sense:
 
 ![](images/cdmp-formula24.png)
 
@@ -982,11 +1002,11 @@ where *N* is the total number of data points (original sampled points plus contr
 
 In practice, direct evaluation using the closed form solution is not used because it has poor numerical properties. Instead, some kind of matrix factorization algorithm is applied to the coefficient matrix which reduces the system of equations to a canonical form. In the current implementation, Singular Value Decomposition (SVD) is applied to the matrix **R** and then the resulting decomposed system is solved.
 
-The solution to the linear regression problem, denoted by ![](images/cdmp-formula26.png) , is used as the starting point of the Levenberg-Marquardt algorithm. In this algorithm, a trial step is computed that should move the point closer to the optimal solution. The trial step satisfies a set of linear equations dependent on the functional value and values of the derivatives at the current point. For this reason, the derivatives of the objective function ? with respect to the parameters *?<sub>i</sub>*, *a<sub>i</sub>ß<sub>i</sub>* are required inputs to the Levenberg-Marquardt algorithm. Although there are 60 parameters, there is a shortcut that allows you to compute a lot less. By the Chain Rule of Calculus,
+The solution to the linear regression problem, denoted by ![](images/cdmp-formula26.png) , is used as the starting point of the Levenberg-Marquardt algorithm. In this algorithm, a trial step is computed that should move the point closer to the optimal solution. The trial step satisfies a set of linear equations dependent on the functional value and values of the derivatives at the current point. For this reason, the derivatives of the objective function ? with respect to the parameters *?<sub>i</sub>*, *a<sub>i</sub> <sub>i</sub>* are required inputs to the Levenberg-Marquardt algorithm. Although there are 60 parameters, there is a shortcut that allows you to compute a lot less. By the Chain Rule of Calculus,
 
 ![](images/cdmp-formula27.png)
 
-where *j* = 1, 2, …, 20, *L<sub>i</sub>*,*u<sub>i</sub>*,*v<sub>i</sub>* are the CIELAB value of the *i* th sample point, and *R<sub>ij</sub>* is the (*i*,*j* )th entry of the matrix **R** defined above. So instead of computing derivatives for 60 parameters, you can compute derivatives for *L*,*a*, and *b* using numerical forward differencing.
+where *j* = 1, 2,  , 20, *L<sub>i</sub>*,*u<sub>i</sub>*,*v<sub>i</sub>* are the CIELAB value of the *i* th sample point, and *R<sub>ij</sub>* is the (*i*,*j* )th entry of the matrix **R** defined above. So instead of computing derivatives for 60 parameters, you can compute derivatives for *L*,*a*, and *b* using numerical forward differencing.
 
 It is also necessary to set up a stopping criterion for iterative algorithms. In the current implementation, the iterations are terminated if the mean square DECIE94 is less than 1, or the number of iterations performed has exceeded 10. The number 10 comes from the practical experience that if the first few iterations do not reduce the error significantly, further iterations would not help much other than moving the point in an oscillatory manner, i.e., the algorithm may not converge. Even in the case that the algorithm diverges, we can be sure that the DECIE94 is no worse than what we started, i.e. with the parameters obtained from linear regression.
 
@@ -1133,7 +1153,7 @@ ICC parametricCurveType function type encoding and corresponding support in IRGB
 
 
 
- 
+ 
 
 The tone curve for RGB virtual devices is applied in DeviceToColorimetric between the input data, pDeviceColors, and the matrix multiply. For ColorimetricToDevice, a method must be used to invert the tone curve. In the baseline implementation, this is done by direct interpolation in the same tone curve used for DeviceToColorimetric.
 
@@ -1224,9 +1244,9 @@ The CITE ICC workflow interoperability is enabled by creating a special ICC devi
 [Windows Color System Schemas and Algorithms](windows-color-system-schemas-and-algorithms.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,18 @@
 ---
 title: IDCompositionSaturationEffect SetSaturation methods
 description: Sets the saturation of the image.
-ms.assetid: '2f92086f-51e1-ceda-a79f-a053d85a2502'
-keywords: ["SetSaturation methods DirectComposition"]
+ms.assetid: 2f92086f-51e1-ceda-a79f-a053d85a2502
+keywords:
+- SetSaturation methods DirectComposition
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDCompositionSaturationEffect::SetSaturation methods
@@ -19,8 +25,8 @@ Sets the saturation of the image.
 
 | Method                                                                                             | Description                                  |
 |:---------------------------------------------------------------------------------------------------|:---------------------------------------------|
-| [**SetSaturation**](idcompositionsaturationeffect-setsaturation.md)                               | Sets the saturation of the image.<br/> |
-| [**SetSaturation (IDCompositionAnimation \*)**](idcompositionsaturationeffect-setsaturation-2.md) | Sets the saturation of the image.<br/> |
+| [**SetSaturation**](/windows/win32/dcomp/?branch=master)                               | Sets the saturation of the image.<br/> |
+| [**SetSaturation (IDCompositionAnimation \*)**](/windows/win32/dcomp/?branch=master) | Sets the saturation of the image.<br/> |
 
 
 
@@ -28,12 +34,12 @@ Sets the saturation of the image.
 
 <dl> <dt>
 
-[**IDCompositionSaturationEffect**](idcompositionsaturationeffect.md)
+[**IDCompositionSaturationEffect**](/windows/win32/Dcomp/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

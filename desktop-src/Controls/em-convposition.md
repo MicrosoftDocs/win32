@@ -1,8 +1,14 @@
 ---
 title: EM\_CONVPOSITION message
 description: .
-ms.assetid: 'DE21E5F7-5F37-4B34-81DD-F0113AFB9E4B'
-keywords: ["EM_CONVPOSITION message Windows Controls"]
+ms.assetid: DE21E5F7-5F37-4B34-81DD-F0113AFB9E4B
+keywords:
+- EM_CONVPOSITION message Windows Controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_CONVPOSITION message

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DVDAdm.SaveParentalLevel method saves a new default parental level to the registry.'
-ms.assetid: '8ad22098-acbd-41fd-9224-829b3cc5f8ae'
+---
+Description: The DVDAdm.SaveParentalLevel method saves a new default parental level to the registry.
+ms.assetid: 8ad22098-acbd-41fd-9224-829b3cc5f8ae
 title: SaveParentalLevel Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SaveParentalLevel Method

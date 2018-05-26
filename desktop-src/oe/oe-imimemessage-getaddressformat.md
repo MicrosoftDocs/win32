@@ -1,8 +1,11 @@
 ---
 title: IMimeMessage GetAddressFormat method
 description: Gets a set of addresses in a text-based format.
-ms.assetid: '3aa6421b-3be6-4487-aa42-94e5340aae89'
-keywords: ["GetAddressFormat method Windows Mail (formerly Outlook Express)", "GetAddressFormat method Windows Mail (formerly Outlook Express) , IMimeMessage interface", "IMimeMessage interface Windows Mail (formerly Outlook Express) , GetAddressFormat method"]
+ms.assetid: 3aa6421b-3be6-4487-aa42-94e5340aae89
+keywords:
+- GetAddressFormat method Windows Mail (formerly Outlook Express)
+- GetAddressFormat method Windows Mail (formerly Outlook Express) , IMimeMessage interface
+- IMimeMessage interface Windows Mail (formerly Outlook Express) , GetAddressFormat method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessage::GetAddressFormat method
@@ -22,9 +30,9 @@ Gets a set of addresses in a text-based format.
 
 ```C++
 HRESULT GetAddressFormat(
-  [in]  DWORD         dwAdrType,
-  [in]  ADDRESSFORMAT format,
-  [out] LPSTR         *ppszFormat
+  [in]  DWORD         dwAdrType,
+  [in]  ADDRESSFORMAT format,
+  [out] LPSTR         *ppszFormat
 );
 ```
 
@@ -79,7 +87,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -95,8 +103,8 @@ pAddressTable-&gt;[**GetFormat**](oe-imimeaddresstable-getformat.md)(*dwAdrType*
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -104,9 +112,9 @@ pAddressTable-&gt;[**GetFormat**](oe-imimeaddresstable-getformat.md)(*dwAdrType*
 
 
 
- 
+ 
 
- 
+ 
 
 
 

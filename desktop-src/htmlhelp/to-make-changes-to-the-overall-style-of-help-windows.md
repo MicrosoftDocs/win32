@@ -1,7 +1,12 @@
 ---
 title: To make changes to the overall style of help windows
 description: To make changes to the overall style of help windows
-ms.assetid: 'D4D228EA-5010-4792-A551-CE0EF5FB8995'
+ms.assetid: D4D228EA-5010-4792-A551-CE0EF5FB8995
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To make changes to the overall style of help windows
@@ -16,7 +21,7 @@ ms.assetid: 'D4D228EA-5010-4792-A551-CE0EF5FB8995'
 
     
 
-     
+     
 
 2.  Click the **Styles** or **Extended Styles** tab, and in the **Window type** box, select the window for which you want to specify styles.
 3.  Select the options you want.
@@ -33,9 +38,9 @@ ms.assetid: 'D4D228EA-5010-4792-A551-CE0EF5FB8995'
 [About Creating Help Windows](create-help-windows.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: DVD Applications in Visual Basic (Video Control)
 description: DVD Applications in Visual Basic (Video Control)
-ms.assetid: '2330ddf5-4188-4aee-837e-814e83f39cbb'
+ms.assetid: 2330ddf5-4188-4aee-837e-814e83f39cbb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD Applications in Visual Basic (Video Control)

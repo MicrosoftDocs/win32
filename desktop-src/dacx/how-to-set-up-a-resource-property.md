@@ -4,11 +4,15 @@ description: Resource Property (msDS-ResourceProperty) resides in msDS-ResourceP
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'E72808CD-6ED5-4E61-BAE3-72E9C25E61BC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'dynamic-access-control'
+ms.assetid: E72808CD-6ED5-4E61-BAE3-72E9C25E61BC
+ms.prod: windows-server-dev
+ms.technology: dynamic-access-control
 ms.tgt_platform: multiple
-keywords: ["Dynamic Access Control developer extensibility DACx , resource properties"]
+keywords:
+- Dynamic Access Control developer extensibility DACx , resource properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to set up a resource property

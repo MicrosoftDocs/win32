@@ -1,14 +1,19 @@
 ---
 title: Type Indicators
 description: The actual properties follow the table of Property Identifiers/Offset Pairs property set values. Each property is stored as a DWORD, followed by the data type value.
-ms.assetid: '8523458b-8b1b-4e9f-8f96-d7601e57675c'
+ms.assetid: 8523458b-8b1b-4e9f-8f96-d7601e57675c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type Indicators
 
 The actual properties follow the table of Property Identifiers/Offset Pairs property set values. Each property is stored as a **DWORD**, followed by the data type value.
 
-Type indicators and their associated values are described in the [**PROPVARIANT**](propvariant.md) structure.
+Type indicators and their associated values are described in the [**PROPVARIANT**](/windows/win32/propidlbase/ns-propidl-tagpropvariant?branch=master) structure.
 
 All Type/Value pairs must begin on a 32-bit boundary. Thus, values may be followed with null bytes to align the subsequent pair on a 32-bit boundary.
 

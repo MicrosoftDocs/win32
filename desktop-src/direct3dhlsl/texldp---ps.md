@@ -1,7 +1,12 @@
 ---
 title: texldp - ps
 description: Projected texture load instruction. This instruction divides the input texture coordinate by the fourth element (.a or .w) just before sampling.
-ms.assetid: '82e62ba3-a9f5-4afb-8dca-4c54a00843eb'
+ms.assetid: 82e62ba3-a9f5-4afb-8dca-4c54a00843eb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # texldp - ps

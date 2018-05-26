@@ -1,7 +1,7 @@
 ---
 title: Edit Control Styles
 description: To create an edit control using the CreateWindow or CreateWindowEx function, specify the EDIT class, appropriate window style constants, and a combination of the following edit control styles.
-ms.assetid: '336c69b7-bc23-4b93-8968-ad63a1703385'
+ms.assetid: 336c69b7-bc23-4b93-8968-ad63a1703385
 topic_type:
 - apiref
 api_name:
@@ -23,6 +23,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Edit Control Styles
@@ -119,9 +124,9 @@ To use Comctl32.dll version 6, specify it in a manifest. For more information on
 
 
 
- 
+ 
 
- 
+ 
 
 
 

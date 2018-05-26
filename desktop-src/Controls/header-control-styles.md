@@ -1,7 +1,7 @@
 ---
 title: Header Control Styles
-description: Header controls have a number of styles, described in this section, that determine the control's appearance and behavior. You set the initial styles when you create the header control.
-ms.assetid: 'e47dc6c3-a1af-456c-9235-29ce63f1e13b'
+description: Header controls have a number of styles, described in this section, that determine the controls appearance and behavior. You set the initial styles when you create the header control.
+ms.assetid: e47dc6c3-a1af-456c-9235-29ce63f1e13b
 topic_type:
 - apiref
 api_name:
@@ -20,6 +20,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Header Control Styles
@@ -79,7 +84,7 @@ Comctl32.dll version 6 is not redistributable but it is included in Windows. To 
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="HDS_CHECKBOXES"></span><span id="hds_checkboxes"></span><dl> <dt><strong>HDS_CHECKBOXES</strong></dt> </dl></td>
-<td style="text-align: left;">[Version 6.00 and later](common-control-versions.md). Allows the placing of checkboxes on header items. For more information, see the <strong>fmt</strong> member of [<strong>HDITEM</strong>](hditem.md).<br/></td>
+<td style="text-align: left;">[Version 6.00 and later](common-control-versions.md). Allows the placing of checkboxes on header items. For more information, see the <strong>fmt</strong> member of [<strong>HDITEM</strong>](/windows/win32/Commctrl/ns-commctrl-_hd_itema?branch=master).<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="HDS_NOSIZING"></span><span id="hds_nosizing"></span><dl> <dt><strong>HDS_NOSIZING</strong></dt> </dl></td>
@@ -108,9 +113,9 @@ To retrieve and change the styles after creating the control, use the [**GetWind
 
 
 
- 
+ 
 
- 
+ 
 
 
 

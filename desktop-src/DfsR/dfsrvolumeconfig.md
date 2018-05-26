@@ -4,13 +4,15 @@ description: This class stores the per-volume settings for each volume on the sy
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c501ada0-6c5c-44f5-8fb3-c4850b2d5463'
-ms.prod: 'windows-server-dev'
+ms.assetid: c501ada0-6c5c-44f5-8fb3-c4850b2d5463
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrVolumeConfig class Distributed File System Replication", "DfsrVolumeConfig class Distributed File System Replication , described"]
+keywords:
+- DfsrVolumeConfig class Distributed File System Replication
+- DfsrVolumeConfig class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrVolumeConfig class
@@ -46,21 +51,21 @@ This class stores the per-volume settings for each volume on the system that hos
 [Dynamic, Provider("DfsrConfigProv")]
 class DfsrVolumeConfig : CIM_Setting
 {
-  string   Caption;
-  string   Description;
-  string   SettingID;
-  string   VolumeGuid;
-  uint64   SerialNumber;
-  string   VolumePath;
-  uint32   LastChangeNumber;
+  string   Caption;
+  string   Description;
+  string   SettingID;
+  string   VolumeGuid;
+  uint64   SerialNumber;
+  string   VolumePath;
+  uint32   LastChangeNumber;
   datetime LastChangeTime;
-  string   LastChangeSource;
-  string   DatabasePath;
-  uint32   MinNtfsJournalSizeInMb;
-  uint32   UsnCheckPoint;
-  uint32   MaxJetSessions;
-  boolean  IsClustered;
-  string   ClusterDiskResName;
+  string   LastChangeSource;
+  string   DatabasePath;
+  uint32   MinNtfsJournalSizeInMb;
+  uint32   UsnCheckPoint;
+  uint32   MaxJetSessions;
+  boolean  IsClustered;
+  string   ClusterDiskResName;
 };
 ```
 
@@ -79,11 +84,11 @@ The **DfsrVolumeConfig** class has these methods.
 
 | Method                                                          | Description                                                                                                                                                                                                  |
 |:----------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ResumeReplication**](resumereplication-dfsrvolumeconfig.md) | Resumes replication for the volume.<br/> **Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 and Windows Vista:** This method is not supported until Windows Server 2012 R2.<br/> |
+| [**ResumeReplication**](resumereplication-dfsrvolumeconfig.md) | Resumes replication for the volume.<br/> **Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 and Windows Vista:** This method is not supported until Windows Server 2012 R2.<br/> |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -123,7 +128,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Clu
 
 If the volume is a cluster shared volume, this property specifies the physical disk resource name.
 
-**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
+**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -172,7 +177,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Is 
 
 This property is **TRUE** if the volume is a cluster shared volume, or **FALSE** if it is a local volume.
 
-**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
+**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -238,7 +243,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Max
 
 The maximum number of concurrent Jet database sessions for this volume. Every volume has its own database, and therefore this parameter is defined per-volume.
 
-**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
+**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -306,7 +311,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Usn
 
 The number of journal updates to accumulate before committing a transaction.
 
-**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
+**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -350,9 +355,9 @@ This string has one of the following formats: "\\\\.\\*drive*:" or "\\\\?\\*volu
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -369,9 +374,9 @@ This string has one of the following formats: "\\\\.\\*drive*:" or "\\\\?\\*volu
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

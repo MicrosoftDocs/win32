@@ -1,8 +1,16 @@
 ---
 title: Microsoft Virtual Server
 description: For developers who are creating server virtualization software. Microsoft Virtual Server 2005 is virtual machine software to create virtual machine and install virtual machine.
-ms.assetid: '98f26da6-31c5-4fd3-9bcc-1cffd695aec7'
-keywords: ["Virtual Server COM Interface Virtual Server", "Virtual Server COM Interface Virtual Server , home page", "Virtual Server Virtual Server"]
+ms.assetid: 98f26da6-31c5-4fd3-9bcc-1cffd695aec7
+keywords:
+- Virtual Server COM Interface Virtual Server
+- Virtual Server COM Interface Virtual Server , home page
+- Virtual Server Virtual Server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Virtual Server

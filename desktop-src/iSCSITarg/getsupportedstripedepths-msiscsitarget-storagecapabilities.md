@@ -4,13 +4,16 @@ description: Retrieves a list of supported values for systems that support discr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4e5abf7f-221d-4252-9218-ff9406820d31'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4e5abf7f-221d-4252-9218-ff9406820d31
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedStripeDepths method iSCSI Software Target API", "GetSupportedStripeDepths method iSCSI Software Target API , MSISCSITARGET_StorageCapabilities class", "MSISCSITARGET_StorageCapabilities class iSCSI Software Target API , GetSupportedStripeDepths method"]
+keywords:
+- GetSupportedStripeDepths method iSCSI Software Target API
+- GetSupportedStripeDepths method iSCSI Software Target API , MSISCSITARGET_StorageCapabilities class
+- MSISCSITARGET_StorageCapabilities class iSCSI Software Target API , GetSupportedStripeDepths method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedStripeDepths method of the MSISCSITARGET\_StorageCapabilities class
@@ -34,7 +40,7 @@ This method is inherited from the **CIM\_StorageCapabilities** class.
 
 ```mof
 uint32 GetSupportedStripeDepths(
-  [out] uint64 StripeDepths[]
+  [out] uint64 StripeDepths[]
 );
 ```
 
@@ -71,7 +77,7 @@ On return, contains a list of supported user data stripe depths in bytes for a v
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>Smiscsitarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -88,9 +94,9 @@ On return, contains a list of supported user data stripe depths in bytes for a v
 [**GetSupportedStripeDepthRange**](getsupportedstripedepthrange-msiscsitarget-storagecapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

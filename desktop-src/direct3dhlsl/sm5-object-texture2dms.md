@@ -1,14 +1,20 @@
 ---
 title: Texture2DMS
 description: Texture2DMS type (as it exists in Shader Model 4) plus resource variables.
-ms.assetid: 'afda7324-680e-432a-a445-d90bd708e5e0'
-keywords: ["Texture2DMS HLSL"]
+ms.assetid: afda7324-680e-432a-a445-d90bd708e5e0
+keywords:
+- Texture2DMS HLSL
 topic_type:
 - apiref
 api_name:
 - Texture2DMS
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DMS
@@ -29,7 +35,7 @@ Texture2DMS type (as it exists in Shader Model 4) plus resource variables.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -43,7 +49,7 @@ This object is supported in the following shader models.
 
 
 
- 
+ 
 
 This object is supported for the following types of shaders:
 
@@ -55,7 +61,7 @@ This object is supported for the following types of shaders:
 
 
 
- 
+ 
 
 ## See also
 
@@ -64,9 +70,9 @@ This object is supported for the following types of shaders:
 [Shader Model 5 Objects](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,15 @@
 title: VSIDConfiguration class
 description: The configuration of a Virtual Subnet ID (VSID).
 audience: developer
-ms.assetid: '2d18b9a3-c713-413a-a3e6-79bf88598c22'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2d18b9a3-c713-413a-a3e6-79bf88598c22
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VSIDConfiguration class", "VSIDConfiguration class, described"]
+keywords:
+- VSIDConfiguration class
+- VSIDConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VSIDConfiguration class
@@ -41,8 +46,8 @@ class VSIDConfiguration
   uint32 VSID;
   string RDID;
   string MTNICName;
-  uint8  Ipv4TransportInfo[];
-  uint8  Ipv6TransportInfo[];
+  uint8  Ipv4TransportInfo[];
+  uint8  Ipv6TransportInfo[];
   uint64 LUID;
   string InterfaceName;
 };
@@ -71,7 +76,7 @@ Access type: Read/write
 
 The name of the VSID interface
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -160,7 +165,7 @@ The ID of the VSID.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -174,9 +179,9 @@ The ID of the VSID.
 [RAMgmtPSProvider Provider Classes](remote-access-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

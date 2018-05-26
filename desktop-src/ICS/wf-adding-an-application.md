@@ -1,8 +1,15 @@
 ---
 title: Adding an Application
 description: The Windows Firewall exceptions list concept and a sample demonstrating its use.
-ms.assetid: '47a09bbc-7b34-41e4-bef8-124b275da0ba'
-keywords: ["Windows Firewall", "using"]
+ms.assetid: 47a09bbc-7b34-41e4-bef8-124b275da0ba
+keywords:
+- Windows Firewall
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding an Application

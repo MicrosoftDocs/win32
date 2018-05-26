@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to create a verb that operates on a selected Shell item or container to create a playlist.'
+Description: Demonstrates how to create a verb that operates on a selected Shell item or container to create a playlist.
 title: Playlist Creator Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist Creator Sample

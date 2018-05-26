@@ -1,8 +1,9 @@
 ---
 title: TTM\_GETTIPBKCOLOR message
 description: Retrieves the background color in a tooltip window.
-ms.assetid: '0dbd5172-cb4f-4dc0-b523-cdc46c05dbb3'
-keywords: ["TTM_GETTIPBKCOLOR message Windows Controls"]
+ms.assetid: 0dbd5172-cb4f-4dc0-b523-cdc46c05dbb3
+keywords:
+- TTM_GETTIPBKCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_GETTIPBKCOLOR message
@@ -37,8 +43,8 @@ Returns a **COLORREF** value that represents the background color.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns a **COLORREF** value that represents the background color.
 [**TTM\_SETTIPBKCOLOR**](ttm-settipbkcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

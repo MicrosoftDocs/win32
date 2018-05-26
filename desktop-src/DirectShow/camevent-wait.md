@@ -1,7 +1,12 @@
 ---
-Description: 'The Wait method blocks until the event is signaled, or until a time-out occurs.'
-ms.assetid: 'bcc13723-a59b-4e8a-bfc8-eadb6facf116'
-title: 'CAMEvent.Wait method'
+Description: The Wait method blocks until the event is signaled, or until a time-out occurs.
+ms.assetid: bcc13723-a59b-4e8a-bfc8-eadb6facf116
+title: CAMEvent.Wait method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMEvent.Wait method
@@ -13,7 +18,7 @@ The `Wait` method blocks until the event is signaled, or until a time-out occurs
 
 ```C++
 BOOL Wait(
-   DWORD dwTimeout = INFINITE
+   DWORD dwTimeout = INFINITE
 );
 ```
 
@@ -56,9 +61,9 @@ For auto-reset events, the event is reset to a nonsignaled state when this metho
 [**CAMEvent Class**](camevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

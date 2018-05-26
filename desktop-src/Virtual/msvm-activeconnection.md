@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ActiveConnection class
 description: Connects a switch port to the LAN endpoint to which the port is connected.
-ms.assetid: '061a97bc-dc12-4fa5-bdb7-9ebe8c403d84'
-keywords: ["Msvm_ActiveConnection class Hyper-V", "Msvm_ActiveConnection class Hyper-V , described"]
+ms.assetid: 061a97bc-dc12-4fa5-bdb7-9ebe8c403d84
+keywords:
+- Msvm_ActiveConnection class Hyper-V
+- Msvm_ActiveConnection class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ActiveConnection class
@@ -30,9 +37,9 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ActiveConnection : CIM_ActiveConnection
 {
-  uint16              TrafficType;
-  string              OtherTrafficDescription;
-  boolean             IsUnidirectional;
+  uint16              TrafficType;
+  string              OtherTrafficDescription;
+  boolean             IsUnidirectional;
   Msvm_SwitchPort REF Antecedent;
   CIM_LANEndpoint REF Dependent;
 };
@@ -112,7 +119,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 > [!Note]  
 > This property is deprecated. Instead, we recommend that you specify this information in the addressing, protocol, and basic functionality of the endpoints.
 
- 
+ 
 
 A description of the traffic type that is specified when the **TrafficType** property is set to "1" (Other).
 
@@ -135,7 +142,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 > [!Note]  
 > This property is deprecated. Instead, we recommend that you specify this information in the addressing, protocol, and basic functionality of the endpoints.
 
- 
+ 
 
 The type of traffic that is transmitted over this connection.
 
@@ -158,9 +165,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -179,9 +186,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

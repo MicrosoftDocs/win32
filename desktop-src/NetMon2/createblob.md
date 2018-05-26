@@ -1,7 +1,12 @@
 ---
-Description: 'The CreateBlob function creates an empty BLOB.'
-ms.assetid: 'fa31855b-af85-4ab5-b434-e54111731d8f'
+Description: The CreateBlob function creates an empty BLOB.
+ms.assetid: fa31855b-af85-4ab5-b434-e54111731d8f
 title: CreateBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateBlob function
@@ -13,7 +18,7 @@ The **CreateBlob** function creates an empty BLOB.
 
 ```C++
 DWORD CreateBlob(
-  _Out_ HBLOB *phBlob
+  _Out_ HBLOB *phBlob
 );
 ```
 
@@ -42,8 +47,8 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -57,9 +62,9 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 [DestroyBlob](destroyblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

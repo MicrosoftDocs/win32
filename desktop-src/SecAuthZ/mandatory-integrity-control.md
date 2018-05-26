@@ -1,7 +1,12 @@
 ---
-Description: 'Provides a mechanism for controlling access to securable objects.'
-ms.assetid: '5923cb4c-f663-40d2-989a-07d71ac475db'
+Description: Provides a mechanism for controlling access to securable objects.
+ms.assetid: 5923cb4c-f663-40d2-989a-07d71ac475db
 title: Mandatory Integrity Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mandatory Integrity Control
@@ -14,7 +19,7 @@ Windows defines four integrity levels: low, medium, high, and system. Standard u
 
 ## Integrity Labels
 
-Integrity labels specify the integrity levels of securable objects and security principals. Integrity labels are represented by [*integrity SIDs*](https://msdn.microsoft.com/library/windows/desktop/ms721588#-security-integrity-sid-gly). The integrity SID for a securable object is stored in its [*system access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-system-access-control-list-gly) (SACL). The SACL contains a [**SYSTEM\_MANDATORY\_LABEL\_ACE**](system-mandatory-label-ace.md) [*access control entry*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-list-gly) (ACE) that in turn contains the integrity SID. Any object without an integrity SID is treated as if it had medium integrity.
+Integrity labels specify the integrity levels of securable objects and security principals. Integrity labels are represented by [*integrity SIDs*](https://msdn.microsoft.com/library/windows/desktop/ms721588#-security-integrity-sid-gly). The integrity SID for a securable object is stored in its [*system access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-system-access-control-list-gly) (SACL). The SACL contains a [**SYSTEM\_MANDATORY\_LABEL\_ACE**](/windows/win32/Winnt/ns-winnt-_system_mandatory_label_ace?branch=master) [*access control entry*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-list-gly) (ACE) that in turn contains the integrity SID. Any object without an integrity SID is treated as if it had medium integrity.
 
 The integrity SID for a security principal is stored in its access token. An access token may contain one or more integrity SIDs.
 
@@ -26,9 +31,9 @@ When a user attempts to launch an executable file, the new process is created wi
 
 ## Mandatory Policy
 
-The [**SYSTEM\_MANDATORY\_LABEL\_ACE**](system-mandatory-label-ace.md) ACE in the SACL of a securable object contains an access mask that specifies the access that principals with integrity levels lower than the object are granted. The values defined for this access mask are **SYSTEM\_MANDATORY\_LABEL\_NO\_WRITE\_UP**, **SYSTEM\_MANDATORY\_LABEL\_NO\_READ\_UP**, and **SYSTEM\_MANDATORY\_LABEL\_NO\_EXECUTE\_UP**. By default, the system creates every object with an access mask of **SYSTEM\_MANDATORY\_LABEL\_NO\_WRITE\_UP**.
+The [**SYSTEM\_MANDATORY\_LABEL\_ACE**](/windows/win32/Winnt/ns-winnt-_system_mandatory_label_ace?branch=master) ACE in the SACL of a securable object contains an access mask that specifies the access that principals with integrity levels lower than the object are granted. The values defined for this access mask are **SYSTEM\_MANDATORY\_LABEL\_NO\_WRITE\_UP**, **SYSTEM\_MANDATORY\_LABEL\_NO\_READ\_UP**, and **SYSTEM\_MANDATORY\_LABEL\_NO\_EXECUTE\_UP**. By default, the system creates every object with an access mask of **SYSTEM\_MANDATORY\_LABEL\_NO\_WRITE\_UP**.
 
-Every access token also specifies a mandatory policy that is set by the [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) when the token is created. This policy is specified by a [**TOKEN\_MANDATORY\_POLICY**](token-mandatory-policy.md) structure associated with the token. This structure can be queried by calling the [**GetTokenInformation**](gettokeninformation.md) function with the value of the *TokenInformationClass* parameter set to **TokenMandatoryPolicy**.
+Every access token also specifies a mandatory policy that is set by the [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) when the token is created. This policy is specified by a [**TOKEN\_MANDATORY\_POLICY**](/windows/win32/Winnt/ns-winnt-_token_mandatory_policy?branch=master) structure associated with the token. This structure can be queried by calling the [**GetTokenInformation**](gettokeninformation.md) function with the value of the *TokenInformationClass* parameter set to **TokenMandatoryPolicy**.
 
  
 

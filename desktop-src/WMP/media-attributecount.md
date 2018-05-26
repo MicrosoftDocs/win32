@@ -1,8 +1,9 @@
 ---
 title: Media.attributeCount
 description: The attributeCount property retrieves the number of attributes that can be queried and/or set for the media item.
-ms.assetid: 'd2a5286f-dde1-48b5-b486-6cee1be463f9'
-keywords: ["Media.attributeCount Windows Media Player"]
+ms.assetid: d2a5286f-dde1-48b5-b486-6cee1be463f9
+keywords:
+- Media.attributeCount Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.attributeCount
@@ -91,9 +97,9 @@ for(var i = 0; i < cm.attributeCount; i++){
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

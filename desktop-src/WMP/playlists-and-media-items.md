@@ -1,8 +1,23 @@
 ---
 title: Playlists and Media Items
 description: Playlists and Media Items
-ms.assetid: '281c744d-380e-4200-8585-a3f378bc1c36'
-keywords: ["Windows Media Player,playlists", "Windows Media Player object model,playlists", "object model,playlists", "Windows Media Player Mobile,playlists", "Windows Media Player ActiveX control,playlists", "Windows Media Player Mobile ActiveX control,playlists", "ActiveX control,playlists", "playlists,media items", "metafile playlists,media items", "Windows Media metafile playlists,media items"]
+ms.assetid: 281c744d-380e-4200-8585-a3f378bc1c36
+keywords:
+- Windows Media Player,playlists
+- Windows Media Player object model,playlists
+- object model,playlists
+- Windows Media Player Mobile,playlists
+- Windows Media Player ActiveX control,playlists
+- Windows Media Player Mobile ActiveX control,playlists
+- ActiveX control,playlists
+- playlists,media items
+- metafile playlists,media items
+- Windows Media metafile playlists,media items
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlists and Media Items

@@ -1,7 +1,12 @@
 ---
 title: Microsoft Agent Animations for Merlin Character
 description: Microsoft Agent Animations for Merlin Character
-ms.assetid: '4563a464-2c1a-4928-a471-e3f0fdfe85c0'
+ms.assetid: 4563a464-2c1a-4928-a471-e3f0fdfe85c0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Agent Animations for Merlin Character
@@ -98,13 +103,13 @@ The character file includes sound effects for some animations as noted in the fo
 
 
 
- 
+ 
 
 \* If you play a looping animation, you must use [**Stop**](stop-method.md) to clear it before other animations in the character's queue will play.
 
- 
+ 
 
- 
+ 
 
 
 

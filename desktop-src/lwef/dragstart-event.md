@@ -1,7 +1,12 @@
 ---
 title: DragStart Event
 description: DragStart Event
-ms.assetid: 'fef0ae05-1958-45c6-8260-107c47b5fa92'
+ms.assetid: fef0ae05-1958-45c6-8260-107c47b5fa92
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DragStart Event

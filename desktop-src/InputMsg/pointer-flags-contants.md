@@ -1,7 +1,7 @@
 ---
 title: Pointer Flags
 description: Values that can appear in the pointerFlags field of the POINTER\_INFO structure.
-ms.assetid: 'CC3F8E21-F4FF-495C-922E-A3708D3F2093'
+ms.assetid: CC3F8E21-F4FF-495C-922E-A3708D3F2093
 topic_type:
 - apiref
 api_name:
@@ -28,11 +28,16 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pointer Flags
 
-Values that can appear in the **pointerFlags** field of the [**POINTER\_INFO**](pointer-info-struct.md) structure.
+Values that can appear in the **pointerFlags** field of the [**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master) structure.
 
 <dl> <dt>
 
@@ -193,7 +198,7 @@ A mouse pointer has this flag set when the second extended mouse (XBUTTON2) butt
 
 
 
-Indicates that this pointer has been designated as the primary pointer. A primary pointer is a single pointer that can perform actions beyond those available to non-primary pointers. For example, when a primary pointer makes contact with a window’s surface, it may provide the window an opportunity to activate by sending it a [**WM\_POINTERACTIVATE**](wm-pointeractivate.md) message.
+Indicates that this pointer has been designated as the primary pointer. A primary pointer is a single pointer that can perform actions beyond those available to non-primary pointers. For example, when a primary pointer makes contact with a window s surface, it may provide the window an opportunity to activate by sending it a [**WM\_POINTERACTIVATE**](wm-pointeractivate.md) message.
 
 The primary pointer is identified from all current user interactions on the system (mouse, touch, pen, and so on). As such, the primary pointer might not be associated with your app. The first contact in a multi-touch interaction is set as the primary pointer. Once a primary pointer is identified, all contacts must be lifted before a new contact can be identified as a primary pointer. For apps that don't process pointer input, only the primary pointer's events are promoted to mouse events.
 
@@ -327,8 +332,8 @@ XBUTTON1 and XBUTTON2 are additional buttons used on many mouse devices. They re
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -340,15 +345,15 @@ XBUTTON1 and XBUTTON2 are additional buttons used on many mouse devices. They re
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](pointer-info-struct.md)
+[**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master)
 </dt> <dt>
 
-[**POINTER\_BUTTON\_CHANGE\_TYPE**](pointer-button-change-type.md)
+[**POINTER\_BUTTON\_CHANGE\_TYPE**](/windows/win32/winuser/ne-rimext-tagpointer_button_change_type?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

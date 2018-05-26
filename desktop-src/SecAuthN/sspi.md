@@ -1,7 +1,12 @@
 ---
-Description: 'This section presents information about Security Support Provider Interface (SSPI).'
-ms.assetid: '21227b11-a089-49fe-83c7-69e5b2ceed34'
+Description: This section presents information about Security Support Provider Interface (SSPI).
+ms.assetid: 21227b11-a089-49fe-83c7-69e5b2ceed34
 title: SSPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SSPI

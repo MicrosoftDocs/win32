@@ -4,11 +4,15 @@ description: The users and groups that belong to the domain can be added to grou
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '07287190-88a1-4d4d-a91c-1e95d9903a4d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 07287190-88a1-4d4d-a91c-1e95d9903a4d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , adding domain objects to local groups"]
+keywords:
+- Active Directory examples Active Directory , adding domain objects to local groups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Domain Objects to Local Groups

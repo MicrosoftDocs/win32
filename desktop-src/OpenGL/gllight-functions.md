@@ -1,8 +1,21 @@
 ---
 title: glLight Functions
 description: These functions return light source parameter values.
-ms.assetid: '004f0f53-4c72-48df-8231-6b39df464061'
-keywords: ["OpenGL,glLight functions", "OpenGL reference,glLight functions", "reference for OpenGL,glLight functions", "OpenGL,light functions", "OpenGL reference,light functions", "reference for OpenGL,light functions", "glLight functions", "light functions"]
+ms.assetid: 004f0f53-4c72-48df-8231-6b39df464061
+keywords:
+- OpenGL,glLight functions
+- OpenGL reference,glLight functions
+- reference for OpenGL,glLight functions
+- OpenGL,light functions
+- OpenGL reference,light functions
+- reference for OpenGL,light functions
+- glLight functions
+- light functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glLight Functions

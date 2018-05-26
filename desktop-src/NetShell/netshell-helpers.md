@@ -1,8 +1,16 @@
 ---
 title: NetShell Helpers
 description: NetShell helpers are DLL files that provide the functionality of a context.
-ms.assetid: 'b1c68db7-0a24-4db7-97dc-799147739ff1'
-keywords: ["helper NetSh", "NetShell NetSh , described, helper", "components NetSh , helper"]
+ms.assetid: b1c68db7-0a24-4db7-97dc-799147739ff1
+keywords:
+- helper NetSh
+- NetShell NetSh , described, helper
+- components NetSh , helper
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetShell Helpers

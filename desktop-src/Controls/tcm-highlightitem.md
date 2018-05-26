@@ -1,8 +1,9 @@
 ---
 title: TCM\_HIGHLIGHTITEM message
 description: Sets the highlight state of a tab item. You can send this message explicitly or by using the TabCtrl\_HighlightItem macro.
-ms.assetid: 'b0d0850a-62d9-46a1-8846-81f67a886ea8'
-keywords: ["TCM_HIGHLIGHTITEM message Windows Controls"]
+ms.assetid: b0d0850a-62d9-46a1-8846-81f67a886ea8
+keywords:
+- TCM_HIGHLIGHTITEM message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_HIGHLIGHTITEM message
 
-Sets the highlight state of a tab item. You can send this message explicitly or by using the [**TabCtrl\_HighlightItem**](tabctrl-highlightitem.md) macro.
+Sets the highlight state of a tab item. You can send this message explicitly or by using the [**TabCtrl\_HighlightItem**](/windows/win32/Commctrl/nf-commctrl-tabctrl_highlightitem?branch=master) macro.
 
 ## Parameters
 
@@ -49,15 +55,15 @@ In Comctl32.dll version 6.0, this message has no visible effect when a theme is 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

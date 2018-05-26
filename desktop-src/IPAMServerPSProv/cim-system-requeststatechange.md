@@ -1,15 +1,18 @@
 ---
-Description: 'Requests the specified state change.'
+Description: Requests the specified state change.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'AB643982-DCEF-497A-86C8-20CEF48F7937'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: AB643982-DCEF-497A-86C8-20CEF48F7937
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'RequestStateChange method of the CIM\_System class'
+title: RequestStateChange method of the CIM\_System class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the CIM\_System class
@@ -23,9 +26,9 @@ This method is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogica
 
 ```mof
 uint32 RequestStateChange(
-  [in]       uint16          RequestedState,
-  [out, ref] CIM_ConcreteJob &amp;Job,
-  [in]       datetime        TimeoutPeriod
+  [in]       uint16          RequestedState,
+  [out, ref] CIM_ConcreteJob &amp;Job,
+  [in]       datetime        TimeoutPeriod
 );
 ```
 
@@ -105,14 +108,14 @@ Reset
 
 </dd> <dt>
 
-12–32767
+12 32767
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-32768–65535
+32768 65535
 </dt> <dd>
 
 Vendor Reserved
@@ -207,7 +210,7 @@ In Use
 
 </dt> <dd>
 
-7–4095
+7 4095
 
 DMTF Reserved
 
@@ -252,7 +255,7 @@ Busy
 
 </dt> <dd>
 
-4100–32767
+4100 32767
 
 Method Reserved
 
@@ -261,7 +264,7 @@ Method Reserved
 
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 Vendor Specific
 
@@ -278,7 +281,7 @@ Invoking the RequestStateChange method multiple times before each operation is c
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -292,9 +295,9 @@ Invoking the RequestStateChange method multiple times before each operation is c
 [**CIM\_System**](cim-system.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: MachineConfiguration element
 description: Contains elements that hold information about the computer.
-ms.assetid: '7A7842D6-E1FE-45AD-803E-4DAE7976C5B8'
-keywords: ["MachineConfiguration element Access Execution Engine"]
+ms.assetid: 7A7842D6-E1FE-45AD-803E-4DAE7976C5B8
+keywords:
+- MachineConfiguration element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MachineConfiguration
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MachineConfiguration element
@@ -62,9 +68,9 @@ AXE gathers the necessary information and generates the default WinSAT System co
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

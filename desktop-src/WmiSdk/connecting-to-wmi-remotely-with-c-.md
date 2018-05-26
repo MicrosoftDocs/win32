@@ -1,13 +1,16 @@
 ---
-Description: 'As with other languages such as PowerShell, VBScript, or C++, you can use C# to remotely monitor the hardware and software on remote computers.'
+Description: As with other languages such as PowerShell, VBScript, or C++, you can use C# to remotely monitor the hardware and software on remote computers.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9E03A8D0-01AB-4B7E-99B6-FEEF9C1CAE17'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9E03A8D0-01AB-4B7E-99B6-FEEF9C1CAE17
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Connecting to WMI Remotely with C#'
+title: Connecting to WMI Remotely with C#
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Connecting to WMI Remotely with C#

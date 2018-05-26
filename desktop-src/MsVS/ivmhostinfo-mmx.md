@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo MMX property
 description: The MMX property contains whether the host processor supports the MMX instruction set.
-ms.assetid: '248593ae-0be0-4be4-965d-af027f48b180'
-keywords: ["MMX property Virtual Server", "MMX property Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , MMX property", "MMX property Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , MMX property"]
+ms.assetid: 248593ae-0be0-4be4-965d-af027f48b180
+keywords:
+- MMX property Virtual Server
+- MMX property Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , MMX property
+- MMX property Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , MMX property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::MMX property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MMX(
-  [out] VARIANT_BOOL *mmxEnabled
+  [out] VARIANT_BOOL *mmxEnabled
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Enhanced Storage
 description: Enhanced Storage provides an extensible platform for accessing additional functions made available by enhanced storage devices; above and beyond the primary function of data storage.
-ms.assetid: 'f36a98b2-51d3-4341-9ec8-85ce8d375880'
+ms.assetid: f36a98b2-51d3-4341-9ec8-85ce8d375880
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enhanced Storage
@@ -16,7 +21,7 @@ The Enhanced Storage API is designed for use with C/C++.
 
 ## Run-time requirements
 
-Enhanced Storage is supported natively in Windows Vista with Service Pack 2 (SP2) and Windows 7.
+Enhanced Storage is supported natively in Windows Vista with Service Pack 2 (SP2) and Windows 7.
 
 ## In this section
 
@@ -30,11 +35,11 @@ Enhanced Storage is supported natively in Windows Vista with Service Pack 2 (SP2
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

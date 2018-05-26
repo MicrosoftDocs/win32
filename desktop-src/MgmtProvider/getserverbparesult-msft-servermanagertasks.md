@@ -4,11 +4,14 @@ description: Retrieves the BPA model results from the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '001f0935-9312-4034-876f-44f784d1c19c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 001f0935-9312-4034-876f-44f784d1c19c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetServerBpaResult method", "GetServerBpaResult method, MSFT_ServerManagerTasks class", "MSFT_ServerManagerTasks class, GetServerBpaResult method"]
+keywords:
+- GetServerBpaResult method
+- GetServerBpaResult method, MSFT_ServerManagerTasks class
+- MSFT_ServerManagerTasks class, GetServerBpaResult method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetServerBpaResult method of the MSFT\_ServerManagerTasks class
@@ -28,9 +34,9 @@ Retrieves the BPA model results from the server.
 
 ```mof
 uint32 GetServerBpaResult(
-  [in]  string               BpaXPaths[],
-  [in]  uint32               BatchSize,
-  [out] MSFT_ServerBpaResult cmdletOutput[]
+  [in]  string               BpaXPaths[],
+  [in]  uint32               BatchSize,
+  [out] MSFT_ServerBpaResult cmdletOutput[]
 );
 ```
 
@@ -68,7 +74,7 @@ An array of embedded instances of [**MSFT\_ServerBpaResult**](msft-serverbparesu
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
@@ -85,9 +91,9 @@ An array of embedded instances of [**MSFT\_ServerBpaResult**](msft-serverbparesu
 [**MSFT\_ServerBpaResult**](msft-serverbparesult.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

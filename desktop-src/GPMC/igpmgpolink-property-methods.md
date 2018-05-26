@@ -4,11 +4,12 @@ description: The property methods of the IGPMGPOLink interface get and set the p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4197b502-c797-4cba-a3f6-339af9208348'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 4197b502-c797-4cba-a3f6-339af9208348
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMGPOLink Property Methods GPMC"]
+keywords:
+- IGPMGPOLink Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -31,11 +32,14 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMGPOLink Property Methods
 
-The property methods of the [**IGPMGPOLink**](igpmgpolink.md) interface get and set the properties described in the following table. For a general discussion of property methods, see [**Interface Property Methods**](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation.
+The property methods of the [**IGPMGPOLink**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmgpolink?branch=master) interface get and set the properties described in the following table. For a general discussion of property methods, see [**Interface Property Methods**](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation.
 
 ## Properties
 
@@ -150,7 +154,7 @@ HRESULT get_GPOID(
 **SOM**
 </dt> <dd> <dl>
 
-Returns a reference to the [**GPMSOM**](igpmsom.md) object to which the GPO link is attached.
+Returns a reference to the [**GPMSOM**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmsom?branch=master) object to which the GPO link is attached.
 
 <dt>
 
@@ -194,7 +198,7 @@ HRESULT get_SOMLinkOrder(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -202,8 +206,8 @@ HRESULT get_SOMLinkOrder(
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -215,15 +219,15 @@ HRESULT get_SOMLinkOrder(
 
 <dl> <dt>
 
-[**IGPMGPOLink**](igpmgpolink.md)
+[**IGPMGPOLink**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmgpolink?branch=master)
 </dt> <dt>
 
-[**IGPMGPOLinksCollection**](igpmgpolinkscollection.md)
+[**IGPMGPOLinksCollection**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmgpolinkscollection?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

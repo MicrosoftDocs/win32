@@ -1,14 +1,20 @@
 ---
 title: ISAN
 description: The ISAN attribute contains the International Standard Audiovisual Number (ISAN) that identifies the content.
-ms.assetid: '2937d422-f062-4373-845e-dd200512ed0b'
-keywords: ["ISAN windows Media Format"]
+ms.assetid: 2937d422-f062-4373-845e-dd200512ed0b
+keywords:
+- ISAN windows Media Format
 topic_type:
 - apiref
 api_name:
 - ISAN
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISAN

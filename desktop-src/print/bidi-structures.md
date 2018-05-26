@@ -1,7 +1,12 @@
 ---
 Description: Bidi Structures
-ms.assetid: '3115a526-614b-4fc9-aae1-31577f579092'
+ms.assetid: 3115a526-614b-4fc9-aae1-31577f579092
 title: Bidi Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bidi Structures

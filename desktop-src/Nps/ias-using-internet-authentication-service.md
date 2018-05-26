@@ -4,18 +4,23 @@ description: Internet Authentication Service (IAS) was renamed Network Policy Se
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3ee16279-7e11-4587-ae43-f0296b7e7594'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 3ee16279-7e11-4587-ae43-f0296b7e7594
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
-keywords: ["Internet Authentication Service IAS , tasks", "Internet Authentication Service IAS , using"]
+keywords:
+- Internet Authentication Service IAS , tasks
+- Internet Authentication Service IAS , using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using NPS Extensions
 
 Internet Authentication Service (IAS) was renamed Network Policy Server (NPS). The content of this topic applies to both IAS and NPS. Throughout the text, NPS is used to refer to all versions of the service, including the versions originally referred to as IAS.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
 The DialIn and MapName samples extend NPS functionality.
 
@@ -28,16 +33,16 @@ The DialIn and MapName samples extend NPS functionality.
 
 
 
- 
+ 
 
-You can find the source code for the MapName and DialIn sample applications in the following list. *Location*, %Install Path%, designates the base installation directory for x64 computers. See also [Windows Software Development Kit (SDK) for Windows 8](https://msdn.microsoft.com/library/windows/hardware/hh852363.aspx), Microsoft Windows Software Development Kit (SDK), and [Downloads for Windows Store app development](https://msdn.microsoft.com/windows/apps/br229516).
+You can find the source code for the MapName and DialIn sample applications in the following list. *Location*, %Install Path%, designates the base installation directory for x64 computers. See also [Windows Software Development Kit (SDK) for Windows 8](https://msdn.microsoft.com/library/windows/hardware/hh852363.aspx), Microsoft Windows Software Development Kit (SDK), and [Downloads for Windows Store app development](https://msdn.microsoft.com/windows/apps/br229516).
 
 <dl> <dt>
 
-Windows SDK for Windows 8
+Windows SDK for Windows 8
 </dt> <dd>
 
-Windows Server 2012
+Windows Server 2012
 
 Download link: N/A
 
@@ -49,10 +54,10 @@ Location: N/A
 
 </dd> <dt>
 
-Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0
+Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0
 </dt> <dd>
 
-Windows Server 2008 R2
+Windows Server 2008 R2
 
 Download link: <http://www.microsoft.com/download/en/confirmation.aspx?id=8279>
 
@@ -67,7 +72,7 @@ Location: %Install Path%\\Microsoft SDKs\\Windows\\v7.1\\Samples\\netds\\ias
 Windows SDK
 </dt> <dd>
 
-Windows Server 2008
+Windows Server 2008
 
 Download link: <http://www.microsoft.com/download/en/confirmation.aspx?id=11310>
 
@@ -86,12 +91,12 @@ Location: %Install Path%\\Microsoft SDKs\\Windows\\v6.1\\Samples\\NetDs\\IAS
 [Downloads for Developers](https://msdn.microsoft.com/windows/apps/br229516)
 </dt> <dt>
 
-[Windows SDK for Windows 8](https://msdn.microsoft.com/library/windows/hardware/hh852363.aspx)
+[Windows SDK for Windows 8](https://msdn.microsoft.com/library/windows/hardware/hh852363.aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,22 @@
 ---
 title: Advanced Topics
 description: Advanced Topics
-ms.assetid: '782d87ef-3489-4996-b7e2-a10b298375c2'
-keywords: ["Windows Media Format SDK,advanced topics", "Windows Media Format SDK,features", "Windows Media Format SDK,multiple objects", "Advanced Systems Format (ASF),advanced topics", "ASF (Advanced Systems Format),advanced topics", "Advanced Systems Format (ASF),features", "ASF (Advanced Systems Format),features", "Advanced Systems Format (ASF),multiple objects", "ASF (Advanced Systems Format),multiple objects"]
+ms.assetid: 782d87ef-3489-4996-b7e2-a10b298375c2
+keywords:
+- Windows Media Format SDK,advanced topics
+- Windows Media Format SDK,features
+- Windows Media Format SDK,multiple objects
+- Advanced Systems Format (ASF),advanced topics
+- ASF (Advanced Systems Format),advanced topics
+- Advanced Systems Format (ASF),features
+- ASF (Advanced Systems Format),features
+- Advanced Systems Format (ASF),multiple objects
+- ASF (Advanced Systems Format),multiple objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Topics

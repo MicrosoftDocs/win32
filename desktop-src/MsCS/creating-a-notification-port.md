@@ -4,11 +4,15 @@ description: Requirements for creating a notification port using the Failover Cl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e29c67bf-241d-4fb0-9ad2-73bcbeae309d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e29c67bf-241d-4fb0-9ad2-73bcbeae309d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["notification ports Failover Cluster ,creating"]
+keywords:
+- notification ports Failover Cluster ,creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a Notification Port
@@ -17,7 +21,7 @@ Applications perform the following steps to create a notification port.
 
 1.  Spawn a separate thread to create and monitor the port.
 
-2.  Call [**CreateClusterNotifyPort**](createclusternotifyport.md). For the initial call, set *hChange* to **INVALID\_HANDLE\_VALUE** so that a new handle will be created. Subsequent calls can specify *hChange* to add more events to the port.
+2.  Call [**CreateClusterNotifyPort**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_create_cluster_notify_port?branch=master). For the initial call, set *hChange* to **INVALID\_HANDLE\_VALUE** so that a new handle will be created. Subsequent calls can specify *hChange* to add more events to the port.
 
 3.  Set the *dwFilter* parameter to one or more events of interest, using the OR operator ( \| ) to specify multiple events. For example, if an application should be informed when there is any change to the [*cluster's*](c-gly.md#-wolf-cluster-gly)[resource types](resource-types.md), it would set *dwFilter* as follows:
 

@@ -1,16 +1,21 @@
 ---
-Description: 'Applications use a device''s IWiaPropertyStorage interface to read and write device properties. IWiaPropertyStorage inherits all of the methods of the Component Object Model (COM) interface IPropertyStorage.'
-ms.assetid: '65ca9e71-9a0f-495f-b78c-3b1a8d66ee33'
+Description: Applications use a devices IWiaPropertyStorage interface to read and write device properties. IWiaPropertyStorage inherits all of the methods of the Component Object Model (COM) interface IPropertyStorage.
+ms.assetid: 65ca9e71-9a0f-495f-b78c-3b1a8d66ee33
 title: Reading Device Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading Device Properties
 
-Applications use a device's [**IWiaPropertyStorage**](-wia-iwiapropertystorage.md) interface to read and write device properties. **IWiaPropertyStorage** inherits all of the methods of the Component Object Model (COM) interface [IPropertyStorage](stg.ipropertystorage).
+Applications use a device's [**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master) interface to read and write device properties. **IWiaPropertyStorage** inherits all of the methods of the Component Object Model (COM) interface [IPropertyStorage](stg.ipropertystorage).
 
 Device properties include information about a device that describe the device's capabilities and settings. For a list of these properties, see [Device Properties](-wia-device-properties.md).
 
-Among the device properties that are read using [**IWiaPropertyStorage**](-wia-iwiapropertystorage.md) is the device ID, that is then used to create a Windows Image Acquisition (WIA) device. For more information, see [**IWiaDevMgr::CreateDevice**](-wia-iwiadevmgr-createdevice.md) (or [**IWiaDevMgr2::CreateDevice**](-wia-iwiadevmgr2-createdevice.md)).
+Among the device properties that are read using [**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master) is the device ID, that is then used to create a Windows Image Acquisition (WIA) device. For more information, see [**IWiaDevMgr::CreateDevice**](/windows/win32/wia_xp/nf-wia_xp-iwiadevmgr-createdevice?branch=master) (or [**IWiaDevMgr2::CreateDevice**](-wia-iwiadevmgr2-createdevice.md)).
 
 The following example reads the device ID, the device name, and the device description from the array of device properties, and prints these properties to the console.
 
@@ -117,9 +122,9 @@ The following example reads the device ID, the device name, and the device descr
 
 
 
-In this example, the application sets up [PROPVARIANT](stg.propvariant) arrays (**PropSpec** and **PropVar**, respectively) to hold property information. These arrays are passed as parameters in the call to [IPropertyStorage::ReadMultiple](stg.ipropertystorage_readmultiple) method of the [**IWiaPropertyStorage**](-wia-iwiapropertystorage.md) pointer **pIWiaPropStg**. Each element of the **PropSpec** array contains the type and name of a device property. Upon return, each element of the **PropVar** contains the value of the device property represented by the corresponding element of the **PropSpec** array.
+In this example, the application sets up [PROPVARIANT](stg.propvariant) arrays (**PropSpec** and **PropVar**, respectively) to hold property information. These arrays are passed as parameters in the call to [IPropertyStorage::ReadMultiple](stg.ipropertystorage_readmultiple) method of the [**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master) pointer **pIWiaPropStg**. Each element of the **PropSpec** array contains the type and name of a device property. Upon return, each element of the **PropVar** contains the value of the device property represented by the corresponding element of the **PropSpec** array.
 
-The application then calls [IPropertyStorage::ReadMultiple](stg.ipropertystorage_readmultiple) property of the [**IWiaPropertyStorage**](-wia-iwiapropertystorage.md) pointer **pWiaPropertyStorage** to retrieve the property information.
+The application then calls [IPropertyStorage::ReadMultiple](stg.ipropertystorage_readmultiple) property of the [**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master) pointer **pWiaPropertyStorage** to retrieve the property information.
 
 The technique used to read and set device properties is the same as that for item properties, the only difference is the type of the WIA item on which you call the appropriate methods. For a list of item properties, see [Item Properties](-wia-item-properties.md).
 

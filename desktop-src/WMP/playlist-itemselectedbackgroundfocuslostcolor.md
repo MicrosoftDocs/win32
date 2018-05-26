@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.itemSelectedBackgroundFocusLostColor
 description: The itemSelectedBackgroundFocusLostColor attribute specifies or retrieves a value indicating the text color of a selected item in the playlist.
-ms.assetid: '65be17ab-1e1e-4aea-ad8f-f21dd8bfc14c'
-keywords: ["PLAYLIST.itemSelectedBackgroundFocusLostColor Windows Media Player"]
+ms.assetid: 65be17ab-1e1e-4aea-ad8f-f21dd8bfc14c
+keywords:
+- PLAYLIST.itemSelectedBackgroundFocusLostColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.itemSelectedBackgroundFocusLostColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.itemSelectedBackgroundFocusLostColor
@@ -43,9 +49,9 @@ This attribute is a read/write **String** representing a color. The default valu
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

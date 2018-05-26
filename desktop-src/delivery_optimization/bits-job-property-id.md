@@ -1,8 +1,9 @@
 ---
 title: BITS\_JOB\_PROPERTY\_ID enumeration
 description: The BITS\_JOB\_PROPERTY\_ID enumeration specifies the ID of the property for the DO job. This enumeration is used in the BITS\_JOB\_PROPERTY\_VALUE union to determine the type of value contained in the union.
-ms.assetid: 'B0F3C6C2-474F-4FD8-990A-770FAA993550'
-keywords: ["BITS_JOB_PROPERTY_ID enumeration"]
+ms.assetid: B0F3C6C2-474F-4FD8-990A-770FAA993550
+keywords:
+- BITS_JOB_PROPERTY_ID enumeration
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITS\_JOB\_PROPERTY\_ID enumeration
@@ -22,14 +28,14 @@ The **BITS\_JOB\_PROPERTY\_ID** enumeration specifies the ID of the property for
 
 ```C++
 typedef enum  { 
-  BITS_JOB_PROPERTY_ID_COST_FLAGS                     = 1,
-  BITS_JOB_PROPERTY_NOTIFICATION_CLSID                = 2,
-  BITS_JOB_PROPERTY_DYNAMIC_CONTENT                   = 3,
-  BITS_JOB_PROPERTY_HIGH_PERFORMANCE                  = 4,
-  BITS_JOB_PROPERTY_MAX_DOWNLOAD_SIZE                 = 5,
-  BITS_JOB_PROPERTY_USE_STORED_CREDENTIALS            = 7,
-  BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS  = 9,
-  BITS_JOB_PROPERTY_ON_DEMAND_MODE                    = 10
+  BITS_JOB_PROPERTY_ID_COST_FLAGS                     = 1,
+  BITS_JOB_PROPERTY_NOTIFICATION_CLSID                = 2,
+  BITS_JOB_PROPERTY_DYNAMIC_CONTENT                   = 3,
+  BITS_JOB_PROPERTY_HIGH_PERFORMANCE                  = 4,
+  BITS_JOB_PROPERTY_MAX_DOWNLOAD_SIZE                 = 5,
+  BITS_JOB_PROPERTY_USE_STORED_CREDENTIALS            = 7,
+  BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS  = 9,
+  BITS_JOB_PROPERTY_ON_DEMAND_MODE                    = 10
 } BITS_JOB_PROPERTY_ID;
 ```
 
@@ -42,9 +48,9 @@ typedef enum  {
 <span id="BITS_JOB_PROPERTY_ID_COST_FLAGS"></span><span id="bits_job_property_id_cost_flags"></span>**BITS\_JOB\_PROPERTY\_ID\_COST\_FLAGS**
 </dt> <dd>
 
-The ID that is used to [control transfer behavior](delivery_optimization-bits_job_transfer_policy) over cellular and/or similar networks. This property may be changed while a transfer is ongoing – the new cost flags will take effect immediately.
+The ID that is used to [control transfer behavior](delivery_optimization-bits_job_transfer_policy) over cellular and/or similar networks. This property may be changed while a transfer is ongoing   the new cost flags will take effect immediately.
 
-This property uses the **BITS\_JOB\_PROPERTY\_VALUE**’s **Dword** field.
+This property uses the **BITS\_JOB\_PROPERTY\_VALUE** s **Dword** field.
 
 </dd> <dt>
 
@@ -53,7 +59,7 @@ This property uses the **BITS\_JOB\_PROPERTY\_VALUE**’s **Dword** field.
 
 The ID that is used to [register a COM callback](delivery_optimization-registering_a_com_callback) by CLSID to receive notifications about the progress and completion of a DO job. The CLSID must refer to a class associated with a registered out-of-process COM server. It may also be set to **GUID\_NULL** to clear a previously set notification CLSID.
 
-This property uses the **BITS\_JOB\_PROPERTY\_VALUE**’s **CLsID** field.
+This property uses the **BITS\_JOB\_PROPERTY\_VALUE** s **CLsID** field.
 
 </dd> <dt>
 
@@ -105,7 +111,7 @@ Not supported.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
@@ -130,9 +136,9 @@ Not supported.
 [**IBackgroundCopyJob5::GetProperty**](ibackgroundcopyjob5-getproperty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

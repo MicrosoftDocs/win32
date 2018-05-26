@@ -1,7 +1,12 @@
 ---
-Description: 'A Microsoft certification authority (CA) can be configured to archive and recover the private key associated with the public key submitted in the certificate request.'
-ms.assetid: 'c6535dbf-c3fe-4f70-9a70-02805253a651'
+Description: A Microsoft certification authority (CA) can be configured to archive and recover the private key associated with the public key submitted in the certificate request.
+ms.assetid: c6535dbf-c3fe-4f70-9a70-02805253a651
 title: Key Recovery Server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Key Recovery Server
@@ -21,7 +26,7 @@ A client typically requests a certificate by using a template. If the template r
 5.  The CA releases all references to the private key and securely frees and zeros all memory that contained the key. This ensures that the CA has no further access to the key in clear text format.
 
 > [!Note]  
-> Only a CMC request can be used for key archival. CMC requests are represented by the [**IX509CertificateRequestCmc**](ix509certificaterequestcmc.md) interface.
+> Only a CMC request can be used for key archival. CMC requests are represented by the [**IX509CertificateRequestCmc**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestcmc?branch=master) interface.
 
  
 

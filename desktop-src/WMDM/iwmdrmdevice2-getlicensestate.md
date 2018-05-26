@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDevice2 GetLicenseState method
 description: The GetLicenseState method gets the license state.
-ms.assetid: 'a98847f6-00ec-4211-9716-79714d7ba169'
-keywords: ["GetLicenseState method windows Media Device Manager", "GetLicenseState method windows Media Device Manager , IWMDRMDevice2 interface", "IWMDRMDevice2 interface windows Media Device Manager , GetLicenseState method"]
+ms.assetid: a98847f6-00ec-4211-9716-79714d7ba169
+keywords:
+- GetLicenseState method windows Media Device Manager
+- GetLicenseState method windows Media Device Manager , IWMDRMDevice2 interface
+- IWMDRMDevice2 interface windows Media Device Manager , GetLicenseState method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice2::GetLicenseState method
@@ -23,12 +31,12 @@ The **GetLicenseState** method gets the license state.
 
 ```C++
 HRESULT GetLicenseState(
-  [in]  BYTE  *pbStateQueryData,
-  [in]  DWORD cbStateQueryData,
-  [out] DWORD *pdwCategory,
-  [out] DWORD *pcRemainingCounts,
-  [out] DWORD *pcRemainingHours,
-  [out] DWORD *pdwReserved
+  [in]  BYTE  *pbStateQueryData,
+  [in]  DWORD cbStateQueryData,
+  [out] DWORD *pdwCategory,
+  [out] DWORD *pcRemainingCounts,
+  [out] DWORD *pcRemainingHours,
+  [out] DWORD *pdwReserved
 );
 ```
 
@@ -92,7 +100,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -112,9 +120,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWMDRMDevice2 Interface**](iwmdrmdevice2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

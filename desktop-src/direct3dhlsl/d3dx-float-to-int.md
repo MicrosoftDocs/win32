@@ -1,8 +1,9 @@
 ---
 title: D3DX\_FLOAT\_to\_INT function
 description: Converts a FLOAT value to INT.
-ms.assetid: '69b67218-fe25-478f-9f7e-05f94d9f99d5'
-keywords: ["D3DX_FLOAT_to_INT function HLSL"]
+ms.assetid: 69b67218-fe25-478f-9f7e-05f94d9f99d5
+keywords:
+- D3DX_FLOAT_to_INT function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_FLOAT\_to\_INT function
@@ -21,8 +27,8 @@ Converts a FLOAT value to INT.
 
 ``` syntax
 INT D3DX_FLOAT_to_INT(
-   FLOAT _V,
-   FLOAT _Scale
+   FLOAT _V,
+   FLOAT _Scale
 );
 ```
 
@@ -68,9 +74,9 @@ The converted FLOAT value
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,22 +1,27 @@
 ---
 title: Calling SRSetRestorePoint
 description: An application can create a restore point before it causes a significant system change, such as an install, uninstall, or feature update.
-ms.assetid: '77981e75-8c3f-4ecc-82f4-e88d68df661a'
+ms.assetid: 77981e75-8c3f-4ecc-82f4-e88d68df661a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calling SRSetRestorePoint
 
 An application can create a restore point before it causes a significant system change, such as an install, uninstall, or feature update.
 
-Installers should create a restore point just prior to installation by calling the [**SRSetRestorePoint**](srsetrestorepoint.md) function with the **dwEventType** member of the [**RESTOREPOINTINFO**](restorepointinfo-str.md) structure set to BEGIN\_SYSTEM\_CHANGE. To notify System Restore that the installation has been completed, call **SRSetRestorePoint** with **dwEventType** set to END\_SYSTEM\_CHANGE.
+Installers should create a restore point just prior to installation by calling the [**SRSetRestorePoint**](/windows/win32/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa?branch=master) function with the **dwEventType** member of the [**RESTOREPOINTINFO**](/windows/win32/SRRestorePtAPI/ns-srrestoreptapi-_restoreptinfoa?branch=master) structure set to BEGIN\_SYSTEM\_CHANGE. To notify System Restore that the installation has been completed, call **SRSetRestorePoint** with **dwEventType** set to END\_SYSTEM\_CHANGE.
 
-If the user cancels the application installation, the installer may remove the restore point it created when the installation began. Removing the restore point is optional and can prevent the user from recovering from unintentional changes made by the installer during the cancellation. If the installer is to remove a restore point, it can call the [**SRRemoveRestorePoint**](srremoverestorepoint.md) function, or call [**SRSetRestorePoint**](srsetrestorepoint.md) with **dwRestorePointType** set to CANCELLED\_OPERATION, **dwEventType** set to END\_SYSTEM\_CHANGE, and **llSequenceNumber** set to the value returned by the initial call to **SRSetRestorePoint**.
+If the user cancels the application installation, the installer may remove the restore point it created when the installation began. Removing the restore point is optional and can prevent the user from recovering from unintentional changes made by the installer during the cancellation. If the installer is to remove a restore point, it can call the [**SRRemoveRestorePoint**](/windows/win32/SRRestorePtAPI/nf-srrestoreptapi-srremoverestorepoint?branch=master) function, or call [**SRSetRestorePoint**](/windows/win32/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa?branch=master) with **dwRestorePointType** set to CANCELLED\_OPERATION, **dwEventType** set to END\_SYSTEM\_CHANGE, and **llSequenceNumber** set to the value returned by the initial call to **SRSetRestorePoint**.
 
 **Windows 8:  **
 
 A new registry key enables application developers to change the frequency of restore-point creation.
 
-Applications should create this key to use it because it will not preexist in the system. The following will apply by default if the key does not exist. If an application calls the **SRSetRestorePoint** function to create a restore point, Windows skips creating this new restore point if any restore points have been created in the last 24 hours. System Restore sets the **IISequenceNumber** member of the [**STATEMGRSTATUS**](statemgrstatus-str.md) structure to the sequence number for the restore point created previously in the day and sets the value of the **nStatus** member to **ERROR\_SUCCESS**. The **SRSetRestorePoint** function returns **TRUE**.
+Applications should create this key to use it because it will not preexist in the system. The following will apply by default if the key does not exist. If an application calls the **SRSetRestorePoint** function to create a restore point, Windows skips creating this new restore point if any restore points have been created in the last 24 hours. System Restore sets the **IISequenceNumber** member of the [**STATEMGRSTATUS**](/windows/win32/SRRestorePtAPI/ns-srrestoreptapi-_smgrstatus?branch=master) structure to the sequence number for the restore point created previously in the day and sets the value of the **nStatus** member to **ERROR\_SUCCESS**. The **SRSetRestorePoint** function returns **TRUE**.
 
 Developers can write applications that create the **DWORD** value **SystemRestorePointCreationFrequency** under the registry key **HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\SystemRestore**. The value of this registry key can change the frequency of restore point creation. The value of this registry key can change the frequency of restore point creation.
 

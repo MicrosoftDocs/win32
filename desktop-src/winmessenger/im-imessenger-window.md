@@ -1,8 +1,11 @@
 ---
 title: IMessenger Window property
 description: Gets a pointer to a MessengerWindow object that is used to control automation properties of the main application window, including dimensions, positioning, and visibility.
-ms.assetid: '0b6eb741-29b3-48dd-8c67-8a07f486bb6c'
-keywords: ["Window property Windows Messenger", "Window property Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , Window property"]
+ms.assetid: 0b6eb741-29b3-48dd-8c67-8a07f486bb6c
+keywords:
+- Window property Windows Messenger
+- Window property Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , Window property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::Window property
 
-\[**Window** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Window** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Gets a pointer to a [**MessengerWindow**](im-messengerwindow.md) object that is used to control automation properties of the main application window, including dimensions, positioning, and visibility.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Window(
-  [out, retval] IDispatch **ppMWindow
+  [out, retval] IDispatch **ppMWindow
 );
 ```
 
@@ -59,7 +67,7 @@ This property allows access to an object with the [**IMessengerWindow**](im-imes
 > [!Note]  
 > This property is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -67,17 +75,17 @@ This property allows access to an object with the [**IMessengerWindow**](im-imes
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Administrative Application Scenario
 description: Administrative applications call a subset of MGM functions that are related to enumerating multicast forwarding entries (MFEs) and MFE statistics.
-ms.assetid: 'ed172425-6d1e-45d8-8076-7705e833bfd5'
+ms.assetid: ed172425-6d1e-45d8-8076-7705e833bfd5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Administrative Application Scenario
@@ -18,23 +23,23 @@ Each row of the table represents one step.
 
 | Administrative application action                                                                                                                                                                                      | Multicast group manager action                                                                                                                                                                                                                                                              | Notes                                                                                                                                                                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Obtain one or more MFEs using the [**MgmGetFirstMfe**](mgmgetfirstmfe.md) function.                                                                                                                                   | Return as many MFEs as fit in the buffer supplied by the client. If no MFEs can be returned in the supplied buffer, return ERROR\_INSUFFICIENT\_BUFFER and the size of the buffer that is needed to return one MFE.<br/>                                                              | Clients can also retrieve MFE statistics using the corresponding statistics functions, [**MgmGetFirstMfeStats**](mgmgetfirstmfestats.md) and [**MgmGetNextMfeStats**](mgmgetnextmfestats.md). |
-| If ERROR\_INSUFFICIENT\_BUFFER is received, call the [**MgmGetFirstMfe**](mgmgetfirstmfe.md) function again using a buffer of the size indicated.                                                                     |                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                 |
-| Continue calling the [**MgmGetNextMfe**](mgmgetnextmfe.md) function, supplying as one of the parameters the last MFE that was returned by the previous call to the [**MgmGetFirstMfe**](mgmgetfirstmfe.md) function. | Return as many MFEs as fit in the buffer supplied by the client. If no MFEs can be returned in the supplied buffer, return ERROR\_INSUFFICIENT\_BUFFER and the size of the buffer that is needed for one MFE.<br/> Return ERROR\_NO\_MORE\_ITEMS when no more MFEs remain.<br/> |                                                                                                                                                                                                 |
+| Obtain one or more MFEs using the [**MgmGetFirstMfe**](/windows/win32/Mgm/nf-mgm-mgmgetfirstmfe?branch=master) function.                                                                                                                                   | Return as many MFEs as fit in the buffer supplied by the client. If no MFEs can be returned in the supplied buffer, return ERROR\_INSUFFICIENT\_BUFFER and the size of the buffer that is needed to return one MFE.<br/>                                                              | Clients can also retrieve MFE statistics using the corresponding statistics functions, [**MgmGetFirstMfeStats**](/windows/win32/Mgm/nf-mgm-mgmgetfirstmfestats?branch=master) and [**MgmGetNextMfeStats**](/windows/win32/Mgm/nf-mgm-mgmgetnextmfestats?branch=master). |
+| If ERROR\_INSUFFICIENT\_BUFFER is received, call the [**MgmGetFirstMfe**](/windows/win32/Mgm/nf-mgm-mgmgetfirstmfe?branch=master) function again using a buffer of the size indicated.                                                                     |                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                 |
+| Continue calling the [**MgmGetNextMfe**](/windows/win32/Mgm/nf-mgm-mgmgetnextmfe?branch=master) function, supplying as one of the parameters the last MFE that was returned by the previous call to the [**MgmGetFirstMfe**](/windows/win32/Mgm/nf-mgm-mgmgetfirstmfe?branch=master) function. | Return as many MFEs as fit in the buffer supplied by the client. If no MFEs can be returned in the supplied buffer, return ERROR\_INSUFFICIENT\_BUFFER and the size of the buffer that is needed for one MFE.<br/> Return ERROR\_NO\_MORE\_ITEMS when no more MFEs remain.<br/> |                                                                                                                                                                                                 |
 | Continue the enumeration until ERROR\_NO\_MORE\_ITEMS is received.                                                                                                                                                     |                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                 |
 
 
 
- 
+ 
 
 > [!Note]  
-> Use the [**MgmGetMfe**](mgmgetmfe.md) and [**MgmGetMfeStats**](mgmgetmfestats.md) functions to retrieve a specific MFE or specific set of MFE statistics.
+> Use the [**MgmGetMfe**](/windows/win32/Mgm/nf-mgm-mgmgetmfe?branch=master) and [**MgmGetMfeStats**](/windows/win32/Mgm/nf-mgm-mgmgetmfestats?branch=master) functions to retrieve a specific MFE or specific set of MFE statistics.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

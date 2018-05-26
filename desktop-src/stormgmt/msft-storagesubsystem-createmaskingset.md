@@ -1,8 +1,11 @@
 ---
 title: CreateMaskingSet method of the MSFT\_StorageSubSystem class
 description: Creates a new masking set.
-ms.assetid: '479E1710-0101-4791-9936-07B1F1644454'
-keywords: ["CreateMaskingSet method Windows Storage Management API", "CreateMaskingSet method Windows Storage Management API , MSFT_StorageSubSystem class", "MSFT_StorageSubSystem class Windows Storage Management API , CreateMaskingSet method"]
+ms.assetid: 479E1710-0101-4791-9936-07B1F1644454
+keywords:
+- CreateMaskingSet method Windows Storage Management API
+- CreateMaskingSet method Windows Storage Management API , MSFT_StorageSubSystem class
+- MSFT_StorageSubSystem class Windows Storage Management API , CreateMaskingSet method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateMaskingSet method of the MSFT\_StorageSubSystem class
@@ -24,17 +32,17 @@ A masking set is a logical grouping of virtual disks, target ports, and initiato
 
 ```mof
 UInt32 CreateMaskingSet(
-  [in]  String              FriendlyName,
-  [in]  String              VirtualDiskNames[],
-  [in]  UInt16              DeviceAccesses[],
-  [in]  String              DeviceNumbers[],
-  [in]  String              TargetPortAddresses[],
-  [in]  String              InitiatorAddresses[],
-  [in]  UInt16              HostType,
-  [in]  Boolean             RunAsJob,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              CreatedMaskingSet,
-  [out] String              ExtendedStatus
+  [in]  String              FriendlyName,
+  [in]  String              VirtualDiskNames[],
+  [in]  UInt16              DeviceAccesses[],
+  [in]  String              DeviceNumbers[],
+  [in]  String              TargetPortAddresses[],
+  [in]  String              InitiatorAddresses[],
+  [in]  UInt16              HostType,
+  [in]  Boolean             RunAsJob,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              CreatedMaskingSet,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -193,7 +201,7 @@ If **TRUE**, this method uses the *CreatedStorageJob* parameter when the request
 > [!Note]  
 > Even if *RunAsJob* is **TRUE**, this method can still return a result if it has finished in sufficient time.
 
- 
+ 
 
 If **FALSE** or **NULL**, this method will follow default WMI asynchronous behavior as determined by the client's method for invocation. In other words, it is synchronous unless requested otherwise.
 
@@ -286,8 +294,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -300,9 +308,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_StorageSubSystem**](msft-storagesubsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

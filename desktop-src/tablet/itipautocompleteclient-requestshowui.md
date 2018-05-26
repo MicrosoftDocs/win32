@@ -1,7 +1,12 @@
 ---
-Description: 'Determines whether Input Panel is ready to have the auto complete list shown.'
-ms.assetid: '1e0d4bc6-e6a3-4123-a381-00a41ed9c848'
-title: 'ITipAutocompleteClient::RequestShowUI method'
+Description: Determines whether Input Panel is ready to have the auto complete list shown.
+ms.assetid: 1e0d4bc6-e6a3-4123-a381-00a41ed9c848
+title: ITipAutocompleteClientRequestShowUI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITipAutocompleteClient::RequestShowUI method
@@ -13,8 +18,8 @@ Determines whether Input Panel is ready to have the auto complete list shown.
 
 ```C++
 HRESULT RequestShowUI(
-  [in]  HWND hWndACList,
-  [out] BOOL *pfAllowShowing
+  [in]  HWND hWndACList,
+  [out] BOOL *pfAllowShowing
 );
 ```
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,7 +70,7 @@ Call **RequestShowUI** to set the popup auto complete list window handle before 
 
 |                                     |                                                                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>TipAutoComplete.h (also requires Peninputpanel\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |
@@ -85,9 +90,9 @@ Call **RequestShowUI** to set the popup auto complete list window handle before 
 [Text Input Panel Reference](text-input-panel-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

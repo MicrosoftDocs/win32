@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the unique identifier of the stylus button.'
-ms.assetid: '06bd6a84-46cd-4c62-92d6-50caae359e43'
-title: 'ITabletCursorButton::GetGuid method'
+Description: Retrieves the unique identifier of the stylus button.
+ms.assetid: 06bd6a84-46cd-4c62-92d6-50caae359e43
+title: ITabletCursorButtonGetGuid method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletCursorButton::GetGuid method
@@ -13,7 +18,7 @@ Retrieves the unique identifier of the stylus button.
 
 ```C++
 HRESULT GetGuid(
-  [out] GUID *pguidBtn
+  [out] GUID *pguidBtn
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -64,9 +69,9 @@ This method can return one of these values.
 [**ITabletCursorButton Interface**](itabletcursorbutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

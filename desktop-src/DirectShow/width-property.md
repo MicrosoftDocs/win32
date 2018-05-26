@@ -1,7 +1,12 @@
 ---
-Description: 'The Width property sets or retrieves the width of the rectangle.'
-ms.assetid: 'aff466b2-6e10-4d61-a78d-bad827a470ee'
+Description: The Width property sets or retrieves the width of the rectangle.
+ms.assetid: aff466b2-6e10-4d61-a78d-bad827a470ee
 title: Width Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Width Property

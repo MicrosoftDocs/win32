@@ -1,7 +1,12 @@
 ---
-Description: 'The PF\_PARSERDLLINFO structure defines the parsers located in the parser DLL.'
-ms.assetid: 'a7473b58-7767-4224-be3b-e96132d98adf'
-title: 'PF\_PARSERDLLINFO structure'
+Description: The PF\_PARSERDLLINFO structure defines the parsers located in the parser DLL.
+ms.assetid: a7473b58-7767-4224-be3b-e96132d98adf
+title: PF\_PARSERDLLINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PF\_PARSERDLLINFO structure
@@ -13,7 +18,7 @@ The **PF\_PARSERDLLINFO** structure defines the parsers located in the parser DL
 
 ```C++
 typedef struct _PF_PARSERDLLINFO {
-  DWORD         nParsers;
+  DWORD         nParsers;
   PF_PARSERINFO ParserInfo[];
 } PF_PARSERDLLINFO, *PPF_PARSERDLLINFO;
 ```
@@ -50,11 +55,11 @@ The PF\_PARSERDLLINFO structure must be allocated using **HeapAlloc**.
 |------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | What parsers are, and how they work with Network Monitor.        | [Parsers](parsers.md)                                                      |
 | Which entry points are included in the parser DLL.               | [Parser DLL Architecture](parser-dll-architecture.md)                      |
-| How to implement **ParserAutoInstallInfo**— includes an example. | [Implementing ParserAutoIstallInfo](implementing-parserautoinstallinfo.md) |
+| How to implement **ParserAutoInstallInfo**  includes an example. | [Implementing ParserAutoIstallInfo](implementing-parserautoinstallinfo.md) |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,8 +67,8 @@ The PF\_PARSERDLLINFO structure must be allocated using **HeapAlloc**.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -78,9 +83,9 @@ The PF\_PARSERDLLINFO structure must be allocated using **HeapAlloc**.
 [ParserAutoInstallInfo](parserautoinstallinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

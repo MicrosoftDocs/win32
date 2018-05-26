@@ -1,8 +1,22 @@
 ---
 title: Property Management Interfaces
 description: Property Management Interfaces
-ms.assetid: 'aaed9193-42b5-496a-ac01-aed14d9f6a0a'
-keywords: ["Windows Movie Maker,interfaces", "Movie Maker,interfaces", "programming reference,Windows Movie Maker interfaces", "reference for Windows Movie Maker,interfaces", "Windows Movie Maker,property management interfaces", "Movie Maker,property management interfaces", "programming reference,Windows Movie Maker property management interfaces", "reference for Windows Movie Maker,property management interfaces", "transforms,property management interfaces"]
+ms.assetid: aaed9193-42b5-496a-ac01-aed14d9f6a0a
+keywords:
+- Windows Movie Maker,interfaces
+- Movie Maker,interfaces
+- programming reference,Windows Movie Maker interfaces
+- reference for Windows Movie Maker,interfaces
+- Windows Movie Maker,property management interfaces
+- Movie Maker,property management interfaces
+- programming reference,Windows Movie Maker property management interfaces
+- reference for Windows Movie Maker,property management interfaces
+- transforms,property management interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Management Interfaces

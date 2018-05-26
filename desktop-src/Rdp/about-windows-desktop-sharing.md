@@ -4,11 +4,15 @@ description: There are two participants in Windows Desktop Sharing the sharer an
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ef271727-4185-41e4-9e24-c96f4b390f27'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ef271727-4185-41e4-9e24-c96f4b390f27
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Windows Desktop Sharing RDP , about"]
+keywords:
+- Windows Desktop Sharing RDP , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Windows Desktop Sharing
@@ -19,7 +23,7 @@ For information on connecting from Windows to a Wireless Display (WiDi), please 
 
 ## The Object Model
 
-The only objects that can be co-created are the [**RDPSession**](rdpsession.md) object for creating a sharer instance, and the **RDPViewer** object for creating a viewer instance. All other objects are created and accessed through the methods of these objects.
+The only objects that can be co-created are the [**RDPSession**](/windows/win32/RdpEncomAPI/?branch=master) object for creating a sharer instance, and the **RDPViewer** object for creating a viewer instance. All other objects are created and accessed through the methods of these objects.
 
 An application groups the shareable windows within a process. Each application object contains a list of window objects. If an application object is shared, all its windows are shared.
 

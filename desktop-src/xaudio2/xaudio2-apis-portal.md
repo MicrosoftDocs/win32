@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '87557bb3-9d92-c85e-4e7a-d21af03db624'
+---
+Description: .
+ms.assetid: 87557bb3-9d92-c85e-4e7a-d21af03db624
 title: XAudio2 APIs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAudio2 APIs

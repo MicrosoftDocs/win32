@@ -1,14 +1,20 @@
 ---
 title: WM/PartOfSet
 description: The WM/PartOfSet attribute contains the part number and the total number of parts in the set to which the file belongs. The two values are separated by a slash.
-ms.assetid: 'a7facc38-776b-40c5-a93a-71d0e2effa2d'
-keywords: ["WM/PartOfSet windows Media Format"]
+ms.assetid: a7facc38-776b-40c5-a93a-71d0e2effa2d
+keywords:
+- WM/PartOfSet windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/PartOfSet
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/PartOfSet

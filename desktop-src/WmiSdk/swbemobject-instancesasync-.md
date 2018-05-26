@@ -1,13 +1,16 @@
 ---
-Description: 'The InstancesAsync\_ method of SWbemObject asynchronously supplies the instances of the current class object. This method implements a simple query. More complex queries may require the use of SWbemServices.ExecQuery.'
+Description: The InstancesAsync\_ method of SWbemObject asynchronously supplies the instances of the current class object. This method implements a simple query. More complex queries may require the use of SWbemServices.ExecQuery.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd10fcbbf-6110-4152-8201-db43dc7a3c14'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d10fcbbf-6110-4152-8201-db43dc7a3c14
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.InstancesAsync\_ method'
+title: SWbemObject.InstancesAsync\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.InstancesAsync\_ method
@@ -154,8 +157,8 @@ The **InstancesAsync\_** method only works for class objects. It is not an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -174,9 +177,9 @@ The **InstancesAsync\_** method only works for class objects. It is not an error
 [**SWbemObjectSet**](swbemobjectset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

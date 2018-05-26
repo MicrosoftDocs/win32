@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetOutputFPS method sets the uncompressed output frame rate for this group.'
-ms.assetid: '335ea106-d5db-43a1-b771-b027e25164a6'
-title: 'IAMTimelineGroup::SetOutputFPS method'
+---
+Description: The SetOutputFPS method sets the uncompressed output frame rate for this group.
+ms.assetid: 335ea106-d5db-43a1-b771-b027e25164a6
+title: IAMTimelineGroupSetOutputFPS method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::SetOutputFPS method

@@ -1,7 +1,12 @@
 ---
 title: IAgentCommandWindow
 description: IAgentCommandWindow
-ms.assetid: '315b24b4-110e-4373-a1ee-0317531e6008'
+ms.assetid: 315b24b4-110e-4373-a1ee-0317531e6008
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCommandWindow

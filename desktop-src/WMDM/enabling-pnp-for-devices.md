@@ -1,13 +1,24 @@
 ---
 title: Enabling PnP for Devices
 description: Enabling PnP for Devices
-ms.assetid: '510237a9-2b74-4c2e-ad45-3f45117289a6'
-keywords: ["Windows Media Device Manager,PnP devices", "Device Manager,PnP devices", "programming guide,PnP devices", "service providers,PnP devices", "creating service providers,PnP devices", "PnP devices"]
+ms.assetid: 510237a9-2b74-4c2e-ad45-3f45117289a6
+keywords:
+- Windows Media Device Manager,PnP devices
+- Device Manager,PnP devices
+- programming guide,PnP devices
+- service providers,PnP devices
+- creating service providers,PnP devices
+- PnP devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling PnP for Devices
 
-Windows Media Device Manager monitors arrival and removal notifications of devices that advertise a Portable Audio Player device interface. On the arrival of such a device, Windows Media Device Manager queries a device parameter named *WMDMSPCLSID* for the class ID of the service provider responsible for this device. Windows Media Device Manager calls [**IMDServiceProvider2::CreateDevice**](imdserviceprovider2-createdevice.md) on this service provider to create a device object, which is exposed to the application as an [**IWMDMDevice**](iwmdmdevice.md) object.
+Windows Media Device Manager monitors arrival and removal notifications of devices that advertise a Portable Audio Player device interface. On the arrival of such a device, Windows Media Device Manager queries a device parameter named *WMDMSPCLSID* for the class ID of the service provider responsible for this device. Windows Media Device Manager calls [**IMDServiceProvider2::CreateDevice**](/windows/win32/mswmdm/nf-mswmdm-imdserviceprovider2-createdevice?branch=master) on this service provider to create a device object, which is exposed to the application as an [**IWMDMDevice**](/windows/win32/mswmdm/nn-mswmdm-iwmdmdevice?branch=master) object.
 
 A service provider can either handle PnP devices, or non-PnP devices; it cannot handle both types.
 

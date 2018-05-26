@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_NamedJobObject&\#32;WMI class represents a kernel object that is used to group processes for controlling the life cycle and resources of the processes within the job object. Only the job objects that are named are instrumented.'
+Description: The Win32\_NamedJobObject&\#32;WMI class represents a kernel object that is used to group processes for controlling the life cycle and resources of the processes within the job object. Only the job objects that are named are instrumented.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '52f3520e-550b-4f96-8c4a-6ae5d2705302'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 52f3520e-550b-4f96-8c4a-6ae5d2705302
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_NamedJobObject class'
+title: Win32\_NamedJobObject class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_NamedJobObject class
@@ -171,8 +174,8 @@ The **Win32\_NamedJobObject** class is derived from [**CIM\_CollectionOfMSEs**](
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipjobj.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipjobj.dll</dt> </dl> |
@@ -189,9 +192,9 @@ The **Win32\_NamedJobObject** class is derived from [**CIM\_CollectionOfMSEs**](
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ImageName property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax service provider (FSP).'
-ms.assetid: '59b59cec-fe02-4623-9da1-eb04dd8541c3'
-title: 'FaxDeviceProvider.ImageName property'
+---
+Description: The ImageName property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax service provider (FSP).
+ms.assetid: 59b59cec-fe02-4623-9da1-eb04dd8541c3
+title: FaxDeviceProvider.ImageName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceProvider.ImageName property
@@ -46,7 +51,7 @@ A **String** that receives the fully qualified path and file name of the FSP DL
 [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md)
 </dt> <dt>
 
-[**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md)
+[**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master)
 </dt> </dl>
 
  

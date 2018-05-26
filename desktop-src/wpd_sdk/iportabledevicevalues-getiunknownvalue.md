@@ -1,7 +1,12 @@
 ---
-Description: 'The GetIUnknownValue method retrieves an IUnknown interface value (type VT\_UNKNOWN) specified by a key.'
-ms.assetid: '2197fa1f-639d-4ac1-9d5b-c6534f3ecf1c'
-title: 'IPortableDeviceValues::GetIUnknownValue method'
+Description: The GetIUnknownValue method retrieves an IUnknown interface value (type VT\_UNKNOWN) specified by a key.
+ms.assetid: 2197fa1f-639d-4ac1-9d5b-c6534f3ecf1c
+title: IPortableDeviceValuesGetIUnknownValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetIUnknownValue method
@@ -13,8 +18,8 @@ The **GetIUnknownValue** method retrieves an **IUnknown** interface value (type 
 
 ```C++
 HRESULT GetIUnknownValue(
-  [in]  REFPROPERTYKEY key,
-  [out] IUnknown       **ppValue
+  [in]  REFPROPERTYKEY key,
+  [out] IUnknown       **ppValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +80,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IPortableDeviceValues::SetIUnknownValue**](iportabledevicevalues-setiunknownvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

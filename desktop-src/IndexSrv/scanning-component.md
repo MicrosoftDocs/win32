@@ -1,7 +1,12 @@
 ---
 title: Scanning Component
 description: Scanning Component
-ms.assetid: 'e2ccd999-13fe-4610-b8fd-704b4dbd85fa'
+ms.assetid: e2ccd999-13fe-4610-b8fd-704b4dbd85fa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scanning Component

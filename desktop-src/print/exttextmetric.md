@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EXTTEXTMETRIC structure is used to specify font-specific information within Unidrv font metrics files (.ufm files).'
-ms.assetid: 'd3d2397c-71c3-4904-a1ad-96a94698e50c'
+---
+Description: The EXTTEXTMETRIC structure is used to specify font-specific information within Unidrv font metrics files (.ufm files).
+ms.assetid: d3d2397c-71c3-4904-a1ad-96a94698e50c
 title: EXTTEXTMETRIC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXTTEXTMETRIC structure

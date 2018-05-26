@@ -1,8 +1,23 @@
 ---
 title: Using Playlists in Windows Media Download Packages (deprecated)
 description: Using Playlists in Windows Media Download Packages (deprecated)
-ms.assetid: 'c40efe24-aaed-47fc-8a8a-f412dfc36af7'
-keywords: ["Windows Media metafiles,Windows Media Download packages", "Windows Media Player,Windows Media Download packages", "metafiles,Windows Media Download packages", "Windows Media,Windows Media Download packages", "playlists,Windows Media Download packages", "metafile playlists,Windows Media Download packages", "Windows Media metafile playlists,Windows Media Download packages", "Windows Media Download packages,playlists", "Windows Media Download packages,metafile playlists", "Windows Media Download packages,Windows Media metafile playlists"]
+ms.assetid: c40efe24-aaed-47fc-8a8a-f412dfc36af7
+keywords:
+- Windows Media metafiles,Windows Media Download packages
+- Windows Media Player,Windows Media Download packages
+- metafiles,Windows Media Download packages
+- Windows Media,Windows Media Download packages
+- playlists,Windows Media Download packages
+- metafile playlists,Windows Media Download packages
+- Windows Media metafile playlists,Windows Media Download packages
+- Windows Media Download packages,playlists
+- Windows Media Download packages,metafile playlists
+- Windows Media Download packages,Windows Media metafile playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Playlists in Windows Media Download Packages (deprecated)

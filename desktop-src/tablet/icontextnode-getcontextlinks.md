@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a collection of IContextLink objects that represents relationships with other IContextNode objects.'
-ms.assetid: '0fe56e6d-c779-4916-9c80-6f18cf6f1b09'
-title: 'IContextNode::GetContextLinks method'
+Description: Retrieves a collection of IContextLink objects that represents relationships with other IContextNode objects.
+ms.assetid: 0fe56e6d-c779-4916-9c80-6f18cf6f1b09
+title: IContextNodeGetContextLinks method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::GetContextLinks method
@@ -13,7 +18,7 @@ Retrieves a collection of [**IContextLink**](icontextlink.md) objects that repre
 
 ```C++
 HRESULT GetContextLinks(
-  [out] IContextLinks **ppContextLinks
+  [out] IContextLinks **ppContextLinks
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppContextLinks* when you no longer need to use the context links collection.
 
- 
+ 
 
 To get information about parent or child node relationships, use [**IContextNode::GetParentNode**](icontextnode-getparentnode.md) or [**IContextNode::GetSubNodes**](icontextnode-getsubnodes.md).
 
@@ -51,7 +56,7 @@ For more information about the kinds of relationships that are described by link
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -77,9 +82,9 @@ For more information about the kinds of relationships that are described by link
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

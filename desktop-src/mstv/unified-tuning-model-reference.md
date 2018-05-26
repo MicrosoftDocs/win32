@@ -1,7 +1,12 @@
 ---
 title: Unified Tuning Model Reference
 description: Unified Tuning Model Reference
-ms.assetid: '15c4afe9-847b-4106-a0f1-211dcc80f48c'
+ms.assetid: 15c4afe9-847b-4106-a0f1-211dcc80f48c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unified Tuning Model Reference

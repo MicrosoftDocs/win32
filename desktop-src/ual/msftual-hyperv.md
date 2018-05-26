@@ -4,11 +4,13 @@ description: This is a class of property qualifiers that provides virtual machin
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7eb9720d-54c1-4839-8f51-bc6848fc837d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'user-access-logging'
+ms.assetid: 7eb9720d-54c1-4839-8f51-bc6848fc837d
+ms.prod: windows-server-dev
+ms.technology: user-access-logging
 ms.tgt_platform: multiple
-keywords: ["MsftUal_HyperV class User Access Logging", "MsftUal_HyperV class User Access Logging , described"]
+keywords:
+- MsftUal_HyperV class User Access Logging
+- MsftUal_HyperV class User Access Logging , described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - UALProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MsftUal\_HyperV class
@@ -38,11 +43,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Version("1"), dynamic, provider("UAL")]
 class MsftUal_HyperV
 {
-  string   ProductName;
-  string   RoleName;
-  string   RoleGuid;
-  string   UUID;
-  string   ChassisSerialNumber;
+  string   ProductName;
+  string   RoleName;
+  string   RoleGuid;
+  string   UUID;
+  string   ChassisSerialNumber;
   datetime FirstSeen;
   datetime LastSeen;
 };
@@ -160,17 +165,17 @@ The hypervisor assigned GUID for identifying a virtual machine.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\AccessLogging<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>Sum.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>UALProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

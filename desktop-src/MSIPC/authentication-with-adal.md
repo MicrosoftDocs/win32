@@ -4,10 +4,13 @@ description: Authentication with Azure RMS for your app using Azure Active Direc
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '2A3FC93C-7B21-4E3F-B9E3-494E7617B45B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 2A3FC93C-7B21-4E3F-B9E3-494E7617B45B
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How-to: use ADAL authentication

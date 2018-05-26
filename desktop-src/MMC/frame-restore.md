@@ -4,11 +4,16 @@ description: The Restore method restores the frame to its normal size.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e5fb1f84-1b76-46c9-8c69-681382ce6109'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e5fb1f84-1b76-46c9-8c69-681382ce6109
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Restore method MMC", "Restore method MMC , Frame object", "Frame object MMC , Restore method", "Restore method MMC , Frame interface", "Frame interface MMC , Restore method"]
+keywords:
+- Restore method MMC
+- Restore method MMC , Frame object
+- Frame object MMC , Restore method
+- Restore method MMC , Frame interface
+- Frame interface MMC , Restore method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Frame::Restore method
@@ -57,8 +65,8 @@ objFrame.Restore
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -66,9 +74,9 @@ objFrame.Restore
 
 
 
- 
+ 
 
- 
+ 
 
 
 

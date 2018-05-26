@@ -1,8 +1,11 @@
 ---
 title: ITopicCollection GetEnumerator method
 description: Returns an enumerator that iterates through a collection
-ms.assetid: '9fab0ad4-528f-4179-a2e6-7a2666d85d5a'
-keywords: ["GetEnumerator method HelpAPI", "GetEnumerator method HelpAPI , ITopicCollection interface", "ITopicCollection interface HelpAPI , GetEnumerator method"]
+ms.assetid: 9fab0ad4-528f-4179-a2e6-7a2666d85d5a
+keywords:
+- GetEnumerator method HelpAPI
+- GetEnumerator method HelpAPI , ITopicCollection interface
+- ITopicCollection interface HelpAPI , GetEnumerator method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITopicCollection::GetEnumerator method
@@ -22,7 +30,7 @@ Returns an enumerator that iterates through a collection
 
 ```C++
 HRESULT GetEnumerator(
-  [out, retval] IEnumVARIANT **pRetVal
+  [out, retval] IEnumVARIANT **pRetVal
 );
 ```
 
@@ -45,8 +53,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -58,9 +66,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ITopicCollection**](itopiccollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
 Description: Working with Pin Categories
-ms.assetid: '1ee648b3-8370-4e4d-b513-d998131512ee'
+ms.assetid: 1ee648b3-8370-4e4d-b513-d998131512ee
 title: Working with Pin Categories
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Pin Categories
 
-To search on a filter the the for a pin with a given pin category, you can use the [**ICaptureGraphBuilder2::FindPin**](icapturegraphbuilder2-findpin.md) method. The following example searches for a video preview pin:
+To search on a filter the the for a pin with a given pin category, you can use the [**ICaptureGraphBuilder2::FindPin**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findpin?branch=master) method. The following example searches for a video preview pin:
 
 
 ```C++
@@ -24,9 +29,9 @@ hr = pBuild->FindPin(
 
 
 
-The first parameter is a pointer to the filter's [**IBaseFilter**](ibasefilter.md) interface. The next three parameters specify the direction, pin category, and media type. The value **FALSE** in the fifth parameter indicates that the pin can be either connected or unconnected. (For the exact definitions of these parameters, refer to the documentation for the method.) If the method finds a matching pin, it returns a pointer to the [**IPin**](ipin.md) interface in the *pPin* parameter.
+The first parameter is a pointer to the filter's [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface. The next three parameters specify the direction, pin category, and media type. The value **FALSE** in the fifth parameter indicates that the pin can be either connected or unconnected. (For the exact definitions of these parameters, refer to the documentation for the method.) If the method finds a matching pin, it returns a pointer to the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface in the *pPin* parameter.
 
-Although the [**FindPin**](icapturegraphbuilder2-findpin.md) method is convenient, you can also write your own helper functions if you prefer. To determine a pin's category, call the [**IKsPropertySet::Get**](ikspropertyset-get.md) method as described in the topic [Pin Property Set](pin-property-set.md).
+Although the [**FindPin**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findpin?branch=master) method is convenient, you can also write your own helper functions if you prefer. To determine a pin's category, call the [**IKsPropertySet::Get**](ikspropertyset-get.md) method as described in the topic [Pin Property Set](pin-property-set.md).
 
 The following code shows a helper function that checks whether a pin matches a specified category:
 
@@ -58,7 +63,7 @@ BOOL PinMatchesCategory(IPin *pPin, REFGUID Category)
 
 
 
-The next example is a function that searches for a pin by category, similar to the [**FindPin**](icapturegraphbuilder2-findpin.md) method:
+The next example is a function that searches for a pin by category, similar to the [**FindPin**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findpin?branch=master) method:
 
 
 ```C++

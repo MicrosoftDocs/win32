@@ -1,7 +1,12 @@
-﻿---
-Description: 'Transforms vector (x, y, z, 1) by a given matrix.'
-ms.assetid: '88b26d94-2550-4126-bf91-b06391ec5c75'
+---
+Description: Transforms vector (x, y, z, 1) by a given matrix.
+ms.assetid: 88b26d94-2550-4126-bf91-b06391ec5c75
 title: D3DXVec3Transform function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec3Transform function

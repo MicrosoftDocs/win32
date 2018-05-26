@@ -4,11 +4,15 @@ description: The following table lists the LDAP error messages for ADSI 2.0.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '99d97ea8-1dcc-49f4-a2bf-36ff8076e83a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 99d97ea8-1dcc-49f4-a2bf-36ff8076e83a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Win32 Error Codes for ADSI 2.0 ADSI"]
+keywords:
+- Win32 Error Codes for ADSI 2.0 ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32 Error Codes for ADSI 2.0
@@ -74,7 +78,7 @@ The following table lists the LDAP error messages for ADSI 2.0.
 
  
 
-In ADSI 2.0, several LDAP error messages are mapped to a Win32 error code as **ERROR\_EXTENDED\_ERROR**. Call [**ADsGetLastError**](adsgetlasterror.md) to retrieve the error string returned by the server. For more information, see [ADSI Extended Error Messages](adsi-extended-error-messages.md) below.
+In ADSI 2.0, several LDAP error messages are mapped to a Win32 error code as **ERROR\_EXTENDED\_ERROR**. Call [**ADsGetLastError**](/windows/win32/Adshlp/nf-adshlp-adsgetlasterror?branch=master) to retrieve the error string returned by the server. For more information, see [ADSI Extended Error Messages](adsi-extended-error-messages.md) below.
 
  
 

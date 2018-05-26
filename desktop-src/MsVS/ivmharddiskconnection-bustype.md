@@ -1,8 +1,13 @@
 ---
 title: IVMHardDiskConnection BusType property
 description: The BusType property contains the type of bus (that is, IDE or SCSI) that corresponds with this connection.
-ms.assetid: '9a0f2623-4678-4d35-ad3f-599defcb5012'
-keywords: ["BusType property Virtual Server", "BusType property Virtual Server , IVMHardDiskConnection interface", "IVMHardDiskConnection interface Virtual Server , BusType property", "BusType property Virtual Server , VMHardDiskConnection interface", "VMHardDiskConnection interface Virtual Server , BusType property"]
+ms.assetid: 9a0f2623-4678-4d35-ad3f-599defcb5012
+keywords:
+- BusType property Virtual Server
+- BusType property Virtual Server , IVMHardDiskConnection interface
+- IVMHardDiskConnection interface Virtual Server , BusType property
+- BusType property Virtual Server , VMHardDiskConnection interface
+- VMHardDiskConnection interface Virtual Server , BusType property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDiskConnection::BusType property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_BusType(
-  [out] VMDriveBusType *busType
+  [out] VMDriveBusType *busType
 );
 ```
 
@@ -78,8 +88,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -94,9 +104,9 @@ This property value is read-only.
 [**VMDriveBusType**](vmdrivebustype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

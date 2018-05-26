@@ -1,8 +1,21 @@
 ---
 title: Windows Animation Overview
 description: This overview provides an introduction to the Windows Animation Manager and focuses on key components and concepts.
-ms.assetid: 'de1380c9-6801-4178-9281-a23af7d71d77'
-keywords: ["Windows Animation Windows Animation ,overview", "animation manager objects Windows Animation ,described", "animation variables Windows Animation ,described", "animation timer objects Windows Animation ,described", "timing system Windows Animation", "context-sensitive duration Windows Animation", "velocity matching Windows Animation", "contention management Windows Animation"]
+ms.assetid: de1380c9-6801-4178-9281-a23af7d71d77
+keywords:
+- Windows Animation Windows Animation ,overview
+- animation manager objects Windows Animation ,described
+- animation variables Windows Animation ,described
+- animation timer objects Windows Animation ,described
+- timing system Windows Animation
+- context-sensitive duration Windows Animation
+- velocity matching Windows Animation
+- contention management Windows Animation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Animation Overview
@@ -70,10 +83,10 @@ To conserve system resources, a timer can be configured to disable itself when n
 
 The Windows Animation API is a single-threaded COM-based API that provides the following features for developers:
 
--   An animation manager object, [**UIAnimationManager**](uianimationmanager.md), for creating animation objects and controlling animations
+-   An animation manager object, [**UIAnimationManager**](/windows/win32/UIAnimation/?branch=master), for creating animation objects and controlling animations
 -   Animation variables and storyboards
--   A foundational library, [**UIAnimationTransitionLibrary**](uianimationtransitionlibrary.md), of ready-to-use transitions
--   A timer object, [**UIAnimationTimer**](uianimationtimer.md), for determining the current time and, optionally, for driving animation
+-   A foundational library, [**UIAnimationTransitionLibrary**](/windows/win32/UIAnimation/?branch=master), of ready-to-use transitions
+-   A timer object, [**UIAnimationTimer**](/windows/win32/UIAnimation/?branch=master), for determining the current time and, optionally, for driving animation
 -   Event hooks for monitoring the state and progress of animation
 
 For the complete API reference, see [Windows Animation Reference](windows-animation-reference.md). For example code, see [Windows Animation Tasks](using-windows-animation.md) and [Windows Animation Samples](windows-animation-samples.md).
@@ -143,7 +156,7 @@ Developers can implement a *priority comparison* callback to compare the priorit
 
 If none of the above actions is allowed by the registered priority comparison objects, the attempt to schedule the new storyboard fails. By default, all storyboards can be trimmed, concluded, or compressed to prevent failure, but none can be canceled.
 
-The following diagram shows the life cycle of a storyboard, using the states defined by the [**UI\_ANIMATION\_STORYBOARD\_STATUS**](ui-animation-storyboard-status.md) enumeration. Applications use the Windows Animation API to build a storyboard and submit it for scheduling. The animation manager schedules the storyboard and manages the animation.
+The following diagram shows the life cycle of a storyboard, using the states defined by the [**UI\_ANIMATION\_STORYBOARD\_STATUS**](/windows/win32/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0002_0001?branch=master) enumeration. Applications use the Windows Animation API to build a storyboard and submit it for scheduling. The animation manager schedules the storyboard and manages the animation.
 
 ![diagram that shows how the animation manager schedules the storyboard and manages the animation.](images/statediagram.png)
 

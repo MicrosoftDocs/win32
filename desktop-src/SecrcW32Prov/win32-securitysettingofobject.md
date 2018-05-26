@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_SecuritySettingOfObject abstract association WMI class relates an object to its security settings.'
+Description: The Win32\_SecuritySettingOfObject abstract association WMI class relates an object to its security settings.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '09f125a4-14ac-478c-9360-4ef9b6975724'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 09f125a4-14ac-478c-9360-4ef9b6975724
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SecuritySettingOfObject class'
+title: Win32\_SecuritySettingOfObject class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SecuritySettingOfObject class
@@ -22,7 +25,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C584-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_SecuritySettingOfObject : CIM_ElementSetting
 {
-  CIM_LogicalElement    REF Element;
+  CIM_LogicalElement    REF Element;
   Win32_SecuritySetting REF Setting;
 };
 ```
@@ -81,8 +84,8 @@ The **Win32\_SecuritySettingOfObject** class is derived from [**CIM\_ElementSett
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -99,9 +102,9 @@ The **Win32\_SecuritySettingOfObject** class is derived from [**CIM\_ElementSett
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

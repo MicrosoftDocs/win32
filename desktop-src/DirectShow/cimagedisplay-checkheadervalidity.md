@@ -1,19 +1,24 @@
 ---
-Description: 'The CheckHeaderValidity method validates a BITMAPINFOHEADER structure. This method is useful only for uncompressed RGB types, not for compressed types or YUV types.'
-ms.assetid: '24b547b6-b730-48b2-9a1b-6e77f9cb1ce1'
-title: 'CImageDisplay.CheckHeaderValidity method'
+Description: The CheckHeaderValidity method validates a BITMAPINFOHEADER structure. This method is useful only for uncompressed RGB types, not for compressed types or YUV types.
+ms.assetid: 24b547b6-b730-48b2-9a1b-6e77f9cb1ce1
+title: CImageDisplay.CheckHeaderValidity method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageDisplay.CheckHeaderValidity method
 
-The `CheckHeaderValidity` method validates a [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure. This method is useful only for uncompressed RGB types, not for compressed types or YUV types.
+The `CheckHeaderValidity` method validates a [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure. This method is useful only for uncompressed RGB types, not for compressed types or YUV types.
 
 ## Syntax
 
 
 ```C++
 BOOL CheckHeaderValidity(
-   const VIDEOINFO *pInput
+   const VIDEOINFO *pInput
 );
 ```
 
@@ -26,7 +31,7 @@ BOOL CheckHeaderValidity(
 *pInput* 
 </dt> <dd>
 
-Pointer to a [**VIDEOINFO**](videoinfo.md) structure containing the **BITMAPINFOHEADER** structure.
+Pointer to a [**VIDEOINFO**](/windows/win32/amvideo/ns-amvideo-tagvideoinfo?branch=master) structure containing the **BITMAPINFOHEADER** structure.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ This method checks that the image dimensions are non-negative; the compression t
 [**CImageDisplay Class**](cimagedisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

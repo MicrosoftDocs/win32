@@ -1,7 +1,12 @@
 ---
 title: WebSocket Protocol Component API
 description: .
-ms.assetid: 'ae73fd5e-9715-448c-b7ca-898f2705e228'
+ms.assetid: ae73fd5e-9715-448c-b7ca-898f2705e228
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WebSocket Protocol Component API
@@ -23,7 +28,7 @@ The WebSocket Protocol Component API enables asynchronous, bi-directional commun
 
 
 
- 
+ 
 
 ## Developer audience
 
@@ -32,16 +37,16 @@ The WebSocket Protocol Component API is designed for use by use by C/C++ program
 > [!Note]  
 > The preferred way to use the WebSocket protocol on Windows is through the [Windows HTTP Services (WinHTTP) API](https://msdn.microsoft.com/library/windows/desktop/aa384273) or the [Windows.Networking.Sockets namespace](https://msdn.microsoft.com/library/windows/apps/br226960).
 
- 
+ 
 
 ## Run-time requirements
 
-The WebSocket Protocol Component API requires Windows 8 and later versions of the Windows operating system. The APIs can be dynamically linked through websocket.dll.
+The WebSocket Protocol Component API requires Windows 8 and later versions of the Windows operating system. The APIs can be dynamically linked through websocket.dll.
 
 > [!Note]  
 > websocket.dll provides support for client and server handshake related HTTP headers, verifies received handshake data, and parses the WebSocket data stream. It does not handle any HTTP-specific operations (redirection, authentication, proxy support) nor perform any I/O operations (sending or receiving WebSocket stream bytes).
 
- 
+ 
 
 ## Related topics
 
@@ -53,9 +58,9 @@ The WebSocket Protocol Component API requires Windows 8 and later versions of th
 [Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

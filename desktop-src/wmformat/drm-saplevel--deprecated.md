@@ -1,19 +1,25 @@
 ---
 title: DRM\_SAPLEVEL (deprecated)
 description: Specifies the secure audio path (SAP) level supported by your application.
-ms.assetid: 'a2648083-f9ec-43c7-96c8-4d8b5f8285d1'
-keywords: ["DRM_SAPLEVEL (deprecated) windows Media Format"]
+ms.assetid: a2648083-f9ec-43c7-96c8-4d8b5f8285d1
+keywords:
+- DRM_SAPLEVEL (deprecated) windows Media Format
 topic_type:
 - apiref
 api_name:
 - DRM_SAPLEVEL (deprecated)
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_SAPLEVEL (deprecated)
 
-\[**DRM\_SAPLEVEL** is no longer available for use as of Windows Vista. Instead, use Protected User Mode Audio (PUMA) in the Media Foundation library. \]
+\[**DRM\_SAPLEVEL** is no longer available for use as of Windows Vista. Instead, use Protected User Mode Audio (PUMA) in the Media Foundation library. \]
 
 The **DRM\_SAPLEVEL** property specifies the secure audio path (SAP) level supported by your application.
 
@@ -27,7 +33,7 @@ g\_wszWMDRM\_SAPLEVEL
 
 ## Remarks
 
-This is a write-only property that is set by calling [**IWMDRMReader::SetDRMProperty**](iwmdrmreader-setdrmproperty.md). The value is a wide-character string representation of the SAP level, such as L"200". Current supported values are 200 and 300.
+This is a write-only property that is set by calling [**IWMDRMReader::SetDRMProperty**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty?branch=master). The value is a wide-character string representation of the SAP level, such as L"200". Current supported values are 200 and 300.
 
 ## Requirements
 
@@ -35,8 +41,8 @@ This is a write-only property that is set by calling [**IWMDRMReader::SetDRMProp
 
 |                                  |                                |
 |----------------------------------|--------------------------------|
-| End of client support<br/> | Windows XP<br/>          |
-| End of server support<br/> | Windows Server 2003<br/> |
+| End of client support<br/> | Windows XP<br/>          |
+| End of server support<br/> | Windows Server 2003<br/> |
 
 
 
@@ -47,9 +53,9 @@ This is a write-only property that is set by calling [**IWMDRMReader::SetDRMProp
 [**DRM Properties**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

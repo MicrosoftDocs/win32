@@ -4,13 +4,15 @@ description: Controls the access permissions for a DFS folder.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2eb107c4-5a5a-4cff-925e-4472aa6d635c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2eb107c4-5a5a-4cff-925e-4472aa6d635c
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsNamespaceAccess class", "MSFT_DfsNamespaceAccess class, described"]
+keywords:
+- MSFT_DfsNamespaceAccess class
+- MSFT_DfsNamespaceAccess class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsNamespaceAccess class
@@ -64,7 +69,7 @@ The **MSFT\_DfsNamespaceAccess** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -141,16 +146,16 @@ Gets or sets the Universal Naming Convention (UNC) path of the DFS folder on whi
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

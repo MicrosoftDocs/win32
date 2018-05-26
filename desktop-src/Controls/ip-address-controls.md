@@ -1,7 +1,12 @@
 ---
 title: About IP Address Controls
 description: An Internet Protocol (IP) address control allows the user to enter an IP address in an easily understood format.
-ms.assetid: 'cf6a59fc-661c-420a-a67f-a42619946357'
+ms.assetid: cf6a59fc-661c-420a-a67f-a42619946357
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About IP Address Controls
@@ -29,7 +34,7 @@ The default range for each field is 0 to 255, but the application can set the ra
 
 ## Creating an IP Address Control
 
-Before creating an IP address control, call [**InitCommonControlsEx**](initcommoncontrolsex.md) with the **ICC\_INTERNET\_CLASSES** flag set in the **dwICC** member of the [**INITCOMMONCONTROLSEX**](initcommoncontrolsex-4vvx.md) structure.
+Before creating an IP address control, call [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) with the **ICC\_INTERNET\_CLASSES** flag set in the **dwICC** member of the [**INITCOMMONCONTROLSEX**](/windows/win32/Commctrl/ns-commctrl-taginitcommoncontrolsex?branch=master) structure.
 
 Use the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create an IP address control. The class name for the control is [**WC\_IPADDRESS**](common-control-window-classes.md#wc-ipaddress), which is defined in Commctrl.h. No IP address control-specific styles exist; however, because this is a child control, use the [**WS\_CHILD**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-child) style as a minimum.
 

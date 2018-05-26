@@ -1,7 +1,12 @@
 ---
-Description: 'The Divider object provides layout analysis features that classify and group strokes into different structural elements.'
-ms.assetid: '9e4ed24f-4451-431c-9f0f-2f1c4f5e5084'
+Description: The Divider object provides layout analysis features that classify and group strokes into different structural elements.
+ms.assetid: 9e4ed24f-4451-431c-9f0f-2f1c4f5e5084
 title: Ink Analysis with the Divider Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Analysis with the Divider Object
@@ -20,7 +25,7 @@ The [Divider](T:Microsoft.Ink.Divider) object uses a recognizer context to impro
 
 Each [DivisionResult](T:Microsoft.Ink.DivisionResult) object records the layout analysis of the strokes contained by the [Divider](T:Microsoft.Ink.Divider) object at the time the [Divide](M:Microsoft.Ink.Divider.Divide) method is called. The DivisionResult object also stores a copy of the strokes that were used in the analysis.
 
-The [DivisionResult](T:Microsoft.Ink.DivisionResult) object groups the analysis results by structural element type. The [**ResultByType**](iinkdivisionresult-resultbytype.md) method of the DivisionResult object returns in a [DivisionUnits](T:Microsoft.Ink.DivisionUnits) collection the collection of all structural elements of a given type. The [InkDivisionType](T:Microsoft.Ink.InkDivisionType) enumeration defines the element types that the layout analysis recognizes.
+The [DivisionResult](T:Microsoft.Ink.DivisionResult) object groups the analysis results by structural element type. The [**ResultByType**](/windows/win32/msinkaut15/nf-msinkaut15-iinkdivisionresult-resultbytype?branch=master) method of the DivisionResult object returns in a [DivisionUnits](T:Microsoft.Ink.DivisionUnits) collection the collection of all structural elements of a given type. The [InkDivisionType](T:Microsoft.Ink.InkDivisionType) enumeration defines the element types that the layout analysis recognizes.
 
 The following table describes the element types in the [InkDivisionType](T:Microsoft.Ink.InkDivisionType) enumeration.
 
@@ -35,7 +40,7 @@ The following table describes the element types in the [InkDivisionType](T:Micro
 
 
 
- 
+ 
 
 The following image shows an example of the different element types the [DivisionResult](T:Microsoft.Ink.DivisionResult) object recognizes.
 
@@ -49,9 +54,9 @@ The [Ink Divider Sample](ink-divider-sample.md) topic demonstrates how to use a 
 
 For more information about using ink analysis, see [The Divider Object](the-divider-object.md).
 
- 
+ 
 
- 
+ 
 
 
 

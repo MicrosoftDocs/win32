@@ -1,12 +1,17 @@
 ---
 Description: Generating a Table of Contents Automatically
-ms.assetid: '3acb9c12-0158-4b89-87c4-4abd35ae8c2f'
+ms.assetid: 3acb9c12-0158-4b89-87c4-4abd35ae8c2f
 title: Generating a Table of Contents Automatically
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generating a Table of Contents Automatically
 
-This topic demonstrates how to use [**Table of Contents Generator**](toc-generator.md) (TOC Generator) component to automatically generate a table of contents for a video file.
+This topic demonstrates how to use [**Table of Contents Generator**](/windows/win32/wmcodecdsp/?branch=master) (TOC Generator) component to automatically generate a table of contents for a video file.
 
 TOC Generator is a DirectX Media Object (DMO). To use the TOC Generator DMO, build a DirectX filter graph that has a video file as its source. Insert the TOC Generator DMO into the filter graph, and run the graph. You can then obtain the automatically generated table of contents from the TOC Generator DMO.
 
@@ -26,8 +31,8 @@ The following procedure gives the steps in more detail.
 7.  Connect the source filter and the wrapper filter by calling the [**Connect**](dshow.igraphbuilder_connect) method of your [**IGraphBuilder**](dshow.igraphbuilder) interface.
 8.  Complete the graph by calling the [**Render**](dshow.igraphbuilder_render) method of your [**IGraphBuilder**](dshow.igraphbuilder) interface.
 9.  Run the graph ([**IMediaControl::Run**](dshow.imediacontrol_run)), and wait for it to complete ([**IMediaEvent::WaitForCompletion**](dshow.imediaevent_waitforcompletion)).
-10. Obtain an [**IPropertyStore**](shell_IPropertyStore) interface on your DMO filter wrapper, and get the value of the [**MFPKEY\_TOCGENERATOR\_TOCREADY**](toc-generator.md) property. Repeat if necessary until the table of contents is ready.
-11. Use your [**IPropertyStore**](shell_IPropertyStore) interface to get the value of the [**MFPKEY\_TOCGENERATOR\_TOCOBJECT**](toc-generator.md) property. This property is an [**IToc**](itoc.md) interface that represents the automatically generated table of contents.
+10. Obtain an [**IPropertyStore**](shell_IPropertyStore) interface on your DMO filter wrapper, and get the value of the [**MFPKEY\_TOCGENERATOR\_TOCREADY**](/windows/win32/wmcodecdsp/?branch=master) property. Repeat if necessary until the table of contents is ready.
+11. Use your [**IPropertyStore**](shell_IPropertyStore) interface to get the value of the [**MFPKEY\_TOCGENERATOR\_TOCOBJECT**](/windows/win32/wmcodecdsp/?branch=master) property. This property is an [**IToc**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itoc?branch=master) interface that represents the automatically generated table of contents.
 
 The following code demonstrates the procedure for generating a table of contents automatically. The code uses three helper functions ([**BuildGraph**](buildgraph-method-for-generating-a-table-of-contents.md), [**RunGraphAndWait**](rungraphandwait-method-for-generating-a-table-of-contents.md), and [**GetToc**](gettoc-method-for-generating-a-table-of-contents.md)) that are shown on other pages of this documentation.
 

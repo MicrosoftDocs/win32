@@ -4,13 +4,15 @@ description: Represents a volume that has data deduplication metadata.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'B8708702-062A-42A7-8AC3-DD9E27E0EC77'
-ms.prod: 'windows-server-dev'
+ms.assetid: B8708702-062A-42A7-8AC3-DD9E27E0EC77
+ms.prod: windows-server-dev
 ms.technology:
-- 'data-deduplication'
-- 'windows-management-instrumentation'
+- data-deduplication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DedupVolume class Data Deduplication API", "MSFT_DedupVolume class Data Deduplication API , described"]
+keywords:
+- MSFT_DedupVolume class Data Deduplication API
+- MSFT_DedupVolume class Data Deduplication API , described
 topic_type:
 - apiref
 api_name:
@@ -42,6 +44,9 @@ api_location:
 - DdpWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DedupVolume class
@@ -56,29 +61,29 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [dynamic, provider("DeduplicationProvider"), ClassVersion("1.0"), AMENDMENT]
 class MSFT_DedupVolume
 {
-  String  VolumeId;
-  String  Volume;
+  String  VolumeId;
+  String  Volume;
   boolean Enabled;
   boolean DataAccessEnabled;
   boolean NoCompress;
   boolean Verify;
   boolean OptimizeInUseFiles;
   boolean OptimizePartialFiles;
-  uint32  UsageType;
-  uint32  MinimumFileAgeDays;
-  uint32  MinimumFileSize;
-  uint32  ChunkRedundancyThreshold;
-  uint32  InputOutputScale;
-  string  ExcludeFolder[];
-  string  ExcludeFileType[];
-  string  ExcludeFileTypeDefault[];
-  string  NoCompressionFileType[];
-  uint64  Capacity;
-  uint64  FreeSpace;
-  uint64  UsedSpace;
-  uint64  UnoptimizedSize;
-  uint64  SavedSpace;
-  uint32  SavingsRate;
+  uint32  UsageType;
+  uint32  MinimumFileAgeDays;
+  uint32  MinimumFileSize;
+  uint32  ChunkRedundancyThreshold;
+  uint32  InputOutputScale;
+  string  ExcludeFolder[];
+  string  ExcludeFileType[];
+  string  ExcludeFileTypeDefault[];
+  string  NoCompressionFileType[];
+  uint64  Capacity;
+  uint64  FreeSpace;
+  uint64  UsedSpace;
+  uint64  UnoptimizedSize;
+  uint64  SavedSpace;
+  uint32  SavingsRate;
 };
 ```
 
@@ -99,11 +104,11 @@ The **MSFT\_DedupVolume** class has these methods.
 |:--------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Disable**](msft-dedupvolume-disable.md)       | Disables further data deduplication activity on one or more volumes.<br/>                                                                                             |
 | [**Enable**](msft-dedupvolume-enable.md)         | Enables deduplication on the specified volumes by using default settings.<br/>                                                                                        |
-| [**ExpandFile**](msft-dedupvolume-expandfile.md) | Reverts the deduplication process on a set of deduplicated files.<br/> **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> |
+| [**ExpandFile**](msft-dedupvolume-expandfile.md) | Reverts the deduplication process on a set of deduplicated files.<br/> **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -187,7 +192,7 @@ Access type: Read/write
 
 Default list of file name extension types to exclude from data deduplication and optimization.
 
-**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
+**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -228,7 +233,7 @@ Access type: Read/write
 
 The maximum amount of I/O parallelism to use when optimizing the volume. This value can range from "1" to "36".
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -295,7 +300,7 @@ Access type: Read/write
 
 If **True**, files in use are optimized.
 
-**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
+**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -310,7 +315,7 @@ Access type: Read/write
 
 If **True**, portions of files that have been modified recently are not optimized. This property is controlled by the **MinimumFileAgeDays** parameter.
 
-**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
+**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -323,7 +328,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Saved space is the difference between the logical size of the optimized files and the logical size of the store, which is the deduplicated user data plus deduplication metadata. Note that this number remains unchanged as users delete files from or add new files to the volume—until you run an optimization job or execute the [**Update**](msft-dedupvolumestatus-update.md) method of the [**MSFT\_DedupVolumeStatus**](msft-dedupvolumestatus.md) class. This number is most accurate after an optimization job runs or the **Update** method is executed.
+Saved space is the difference between the logical size of the optimized files and the logical size of the store, which is the deduplicated user data plus deduplication metadata. Note that this number remains unchanged as users delete files from or add new files to the volume until you run an optimization job or execute the [**Update**](msft-dedupvolumestatus-update.md) method of the [**MSFT\_DedupVolumeStatus**](msft-dedupvolumestatus.md) class. This number is most accurate after an optimization job runs or the **Update** method is executed.
 
 </dd> <dt>
 
@@ -336,7 +341,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The ratio of saved space from deduplication to the logical size of all of the files on the volume and is expressed as a percentage. Note that this number remains unchanged as users delete files from or add new files to the volume—until you run an optimization job or execute the [**Update**](msft-dedupvolumestatus-update.md) method of the [**MSFT\_DedupVolumeStatus**](msft-dedupvolumestatus.md) class. This number is most accurate after an optimization job runs or the **Update** method is executed.
+The ratio of saved space from deduplication to the logical size of all of the files on the volume and is expressed as a percentage. Note that this number remains unchanged as users delete files from or add new files to the volume until you run an optimization job or execute the [**Update**](msft-dedupvolumestatus-update.md) method of the [**MSFT\_DedupVolumeStatus**](msft-dedupvolumestatus.md) class. This number is most accurate after an optimization job runs or the **Update** method is executed.
 
 </dd> <dt>
 
@@ -364,7 +369,7 @@ Access type: Read-only
 
 The type of data to store on the volume.
 
-**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
+**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
 
 The possible values are:
 
@@ -401,7 +406,7 @@ Hyper-V storage.
 
 Backup storage.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This value is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This value is not available before Windows Server 2016.
 
 </dd> </dl>
 
@@ -473,7 +478,7 @@ For an example that uses the **MSFT\_DedupVolume** class, please see [Data dedup
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Deduplication<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>DeduplicationProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DdpWmi.dll</dt> </dl>                |
@@ -487,9 +492,9 @@ For an example that uses the **MSFT\_DedupVolume** class, please see [Data dedup
 [Data Deduplication Management WMI API Reference](data-deduplication-management-wmi-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

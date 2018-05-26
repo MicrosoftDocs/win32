@@ -1,8 +1,9 @@
 ---
 title: IPM\_ISBLANK message
 description: Determines if all fields in the IP address control are blank.
-ms.assetid: '6e35b848-943a-4475-890a-01fc3d8ed97d'
-keywords: ["IPM_ISBLANK message Windows Controls"]
+ms.assetid: 6e35b848-943a-4475-890a-01fc3d8ed97d
+keywords:
+- IPM_ISBLANK message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPM\_ISBLANK message
@@ -37,15 +43,15 @@ Returns nonzero if all fields are blank, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

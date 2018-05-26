@@ -1,7 +1,12 @@
 ---
 title: The midl\_user\_allocate Function
 description: The midl\_user\_allocate function is a procedure that must be supplied by developers of RPC applications.
-ms.assetid: '3def405c-da05-4cce-9dc4-499864a0de6e'
+ms.assetid: 3def405c-da05-4cce-9dc4-499864a0de6e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The midl\_user\_allocate Function
@@ -35,7 +40,7 @@ void __RPC_FAR * __RPC_USER midl_user_allocate(size_t cBytes)
 
 
 > [!Note]  
-> If the RpcSs package is enabled (for example, as the result of using the \[ [**enable\_allocate**](https://msdn.microsoft.com/library/windows/desktop/aa366808)\] attribute), use [**RpcSmAllocate**](rpcsmallocate.md) to allocate memory on the server side. For additional information on \[**enable\_allocate**\], see [MIDL Reference](https://msdn.microsoft.com/library/windows/desktop/aa367088).
+> If the RpcSs package is enabled (for example, as the result of using the \[ [**enable\_allocate**](https://msdn.microsoft.com/library/windows/desktop/aa366808)\] attribute), use [**RpcSmAllocate**](/windows/win32/Rpcndr/nf-rpcndr-rpcsmallocate?branch=master) to allocate memory on the server side. For additional information on \[**enable\_allocate**\], see [MIDL Reference](https://msdn.microsoft.com/library/windows/desktop/aa367088).
 
  
 

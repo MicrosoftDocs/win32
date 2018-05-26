@@ -1,8 +1,13 @@
 ---
 title: IVMDVDDriveCollection Item property
 description: The Item property contains the IVMDVDDrive object that corresponds to the given index in this collection.
-ms.assetid: '073ab928-60c1-4d21-acd8-5673f5569817'
-keywords: ["Item property Virtual Server", "Item property Virtual Server , IVMDVDDriveCollection interface", "IVMDVDDriveCollection interface Virtual Server , Item property", "Item property Virtual Server , VMDVDDriveCollection interface", "VMDVDDriveCollection interface Virtual Server , Item property"]
+ms.assetid: 073ab928-60c1-4d21-acd8-5673f5569817
+keywords:
+- Item property Virtual Server
+- Item property Virtual Server , IVMDVDDriveCollection interface
+- IVMDVDDriveCollection interface Virtual Server , Item property
+- Item property Virtual Server , VMDVDDriveCollection interface
+- VMDVDDriveCollection interface Virtual Server , Item property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDriveCollection::Item property
@@ -26,9 +36,9 @@ This property is read-only.
 
 ```C++
 HRESULT get_Item(
-  [in]  long        index,
-        Long        index,
-  [out] IVMDVDDrive **dvdDrive
+  [in]  long        index,
+        Long        index,
+  [out] IVMDVDDrive **dvdDrive
 );
 ```
 
@@ -82,8 +92,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -95,9 +105,9 @@ This property value is read-only.
 [**IVMDVDDriveCollection**](ivmdvddrivecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

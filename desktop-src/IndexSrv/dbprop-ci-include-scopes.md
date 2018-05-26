@@ -1,8 +1,14 @@
 ---
 title: DBPROP\_CI\_INCLUDE\_SCOPES
 description: DBPROP\_CI\_INCLUDE\_SCOPES
-ms.assetid: '7a57c196-8db9-467c-b2e7-d0a4ca213bb3'
-keywords: ["DBPROP_CI_INCLUDE_SCOPES"]
+ms.assetid: 7a57c196-8db9-467c-b2e7-d0a4ca213bb3
+keywords:
+- DBPROP_CI_INCLUDE_SCOPES
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPROP\_CI\_INCLUDE\_SCOPES

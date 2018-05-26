@@ -1,7 +1,12 @@
-﻿---
-Description: 'Supplies the following operator overloads and type casts for D3DXPLANE structures.'
-ms.assetid: '05f80b68-fb2b-4fd7-94e9-e5b40968c4aa'
+---
+Description: Supplies the following operator overloads and type casts for D3DXPLANE structures.
+ms.assetid: 05f80b68-fb2b-4fd7-94e9-e5b40968c4aa
 title: D3DXPLANE Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXPLANE Extensions

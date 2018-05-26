@@ -4,16 +4,21 @@ description: The following code example uses ranging to retrieve the members of 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '659b4c28-6534-45d2-80ee-14184433390d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 659b4c28-6534-45d2-80ee-14184433390d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Ranging with IDirectoryObject ADSI", "Range Retrieval ADSI , Example code,Using IDirectoryObject"]
+keywords:
+- Example Code for Ranging with IDirectoryObject ADSI
+- Range Retrieval ADSI , Example code,Using IDirectoryObject
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Ranging with IDirectoryObject
 
-The following code example uses ranging to retrieve the members of a group using the [**IDirectoryObject**](idirectoryobject.md) interface.
+The following code example uses ranging to retrieve the members of a group using the [**IDirectoryObject**](/windows/win32/Iads/nn-iads-idirectoryobject?branch=master) interface.
 
 
 ```C++

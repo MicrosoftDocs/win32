@@ -1,14 +1,19 @@
 ---
 title: Windows Automation API
-description: Microsoft Windows offers two API specifications for user interface accessibility and software test automation Microsoft Active Accessibility, and Microsoft UI Automation.
-ms.assetid: '73acc580-9573-40ea-8727-b0e7292b2a4c'
+description: Microsoft Windows offers two API specifications for user interface accessibility and software test automation Microsoft Active Accessibility, and Microsoft UI Automation.
+ms.assetid: 73acc580-9573-40ea-8727-b0e7292b2a4c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Automation API
 
 ## Purpose
 
-Microsoft Windows offers two API specifications for user interface accessibility and software test automation: Microsoft Active Accessibility, and Microsoft UI Automation. Microsoft Active Accessibility is the legacy API that was introduced in Windows 95 as a platform add-in. UI Automation is a Windows implementation of the UI Automation specification (see [UI Automation Specification]( http://go.microsoft.com/fwlink/p/?linkid=198404) ).
+Microsoft Windows offers two API specifications for user interface accessibility and software test automation: Microsoft Active Accessibility, and Microsoft UI Automation. Microsoft Active Accessibility is the legacy API that was introduced in Windows 95 as a platform add-in. UI Automation is a Windows implementation of the UI Automation specification (see [UI Automation Specification]( http://go.microsoft.com/fwlink/p/?linkid=198404) ).
 
 By using the Windows Automation API and following accessible design practices, developers can make applications running on Windows more accessible to many people with vision, hearing, or motion disabilities. Also, UI Automation is specifically designed to provide robust functionality for automated testing scenarios.
 
@@ -20,7 +25,7 @@ For information about UI Automation for managed code, please see [Accessibility]
 
 ## Run-time requirements
 
-The Windows Automation API is supported on the following operating systems: Windows XP, Windows Server 2003 R2, Windows Vista, Windows 7, and Windows Server 2008 R2. Note that Windows XP and Windows Server 2003 also require Microsoft .NET Framework 3.0. Microsoft Active Accessibility is also supported on Microsoft Windows NT 4.0 with Service Pack 6 and Windows 98.
+The Windows Automation API is supported on the following operating systems: Windows XP, Windows Server 2003 R2, Windows Vista, Windows 7, and Windows Server 2008 R2. Note that Windows XP and Windows Server 2003 also require Microsoft .NET Framework 3.0. Microsoft Active Accessibility is also supported on Microsoft Windows NT 4.0 with Service Pack 6 and Windows 98.
 
 ## In this section
 
@@ -37,11 +42,11 @@ The Windows Automation API is supported on the following operating systems: Wind
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

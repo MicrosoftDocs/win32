@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the left and top corners of the clipping rectangle, if the video is cropped.'
-ms.assetid: '8ce8b3b8-dd91-41e1-a4ba-b0c2d9d0edd2'
+Description: Specifies the left and top corners of the clipping rectangle, if the video is cropped.
+ms.assetid: 8ce8b3b8-dd91-41e1-a4ba-b0c2d9d0edd2
 title: AVEncVideoEncodeOffsetOrigin property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncVideoEncodeOffsetOrigin property
@@ -32,8 +37,8 @@ Applications can set this property to crop the input video. Use the [**AVEncVide
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -45,12 +50,12 @@ Applications can set this property to crop the input video. Use the [**AVEncVide
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

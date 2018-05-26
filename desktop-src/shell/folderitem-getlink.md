@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the item''s ShellLinkObject object, if the item is a shortcut.'
-ms.assetid: '6444476a-a065-4f69-9330-584e30dbe30d'
-title: 'FolderItem.GetLink property'
+---
+Description: Contains the items ShellLinkObject object, if the item is a shortcut.
+ms.assetid: 6444476a-a065-4f69-9330-584e30dbe30d
+title: FolderItem.GetLink property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItem.GetLink property

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCorePS2::GetGlobalAttribute method retrieves the global attribute list or the value of a specific global attribute.'
-ms.assetid: 'a834cc10-eb59-4560-add3-e93f8292324b'
-title: 'IPrintCorePS2::GetGlobalAttribute method'
+---
+Description: The IPrintCorePS2GetGlobalAttribute method retrieves the global attribute list or the value of a specific global attribute.
+ms.assetid: a834cc10-eb59-4560-add3-e93f8292324b
+title: IPrintCorePS2GetGlobalAttribute method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCorePS2::GetGlobalAttribute method

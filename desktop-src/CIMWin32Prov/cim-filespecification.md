@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_FileSpecification class represents a file that is either on or off of the system.'
+Description: The CIM\_FileSpecification class represents a file that is either on or off of the system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '25d6cc79-1497-4615-9251-8e00524dff1b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 25d6cc79-1497-4615-9251-8e00524dff1b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_FileSpecification class'
+title: CIM\_FileSpecification class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_FileSpecification class
@@ -19,7 +22,7 @@ The **CIM\_FileSpecification** class represents a file that is either on or off 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,21 +32,21 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{41F377B0-DB2A-11d2-85FC-0000F8102E5F}"), abstract, AMENDMENT]
 class CIM_FileSpecification : CIM_Check
 {
-  string   CheckID;
-  string   Caption;
-  string   Description;
-  boolean  CheckMode;
-  uint16   TargetOperatingSystem;
-  string   Version;
-  string   SoftwareElementID;
-  uint16   SoftwareElementState;
-  string   Name;
-  uint32   CheckSum;
-  uint32   CRC1;
-  uint32   CRC2;
+  string   CheckID;
+  string   Caption;
+  string   Description;
+  boolean  CheckMode;
+  uint16   TargetOperatingSystem;
+  string   Version;
+  string   SoftwareElementID;
+  uint16   SoftwareElementState;
+  string   Name;
+  uint32   CheckSum;
+  uint32   CRC1;
+  uint32   CRC2;
   datetime CreateTimeStamp;
-  uint64   FileSize;
-  string   MD5Checksum;
+  uint64   FileSize;
+  string   MD5Checksum;
 };
 ```
 
@@ -66,7 +69,7 @@ The **CIM\_FileSpecification** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -899,8 +902,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -914,9 +917,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Check**](cim-check.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

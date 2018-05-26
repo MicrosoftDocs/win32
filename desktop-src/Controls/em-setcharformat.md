@@ -1,8 +1,9 @@
 ---
 title: EM\_SETCHARFORMAT message
 description: Sets character formatting in a rich edit control.
-ms.assetid: '5e7a545d-4ca4-4dc6-badb-584c11194982'
-keywords: ["EM_SETCHARFORMAT message Windows Controls"]
+ms.assetid: 5e7a545d-4ca4-4dc6-badb-584c11194982
+keywords:
+- EM_SETCHARFORMAT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETCHARFORMAT message
@@ -31,8 +37,8 @@ Character formatting that applies to the control. If this parameter is zero, the
 | Value                                                                                                                                                                           | Meaning                                                                                                                                                                                                                                                                                                   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SCF_ALL"></span><span id="scf_all"></span><dl> <dt>**SCF\_ALL**</dt> </dl>                                     | Applies the formatting to all text in the control. Not valid with **SCF\_SELECTION** or **SCF\_WORD**.<br/>                                                                                                                                                                                         |
-| <span id="SCF_ASSOCIATEFONT"></span><span id="scf_associatefont"></span><dl> <dt>**SCF\_ASSOCIATEFONT**</dt> </dl>       | **RichEdit 4.1:** Associates a font to a given script, thus changing the default font for that script. To specify the font, use the following members of [**CHARFORMAT2**](charformat2.md): **yHeight**, **bCharSet**, **bPitchAndFamily**, **szFaceName**, and **lcid**.<br/>                     |
-| <span id="SCF_ASSOCIATEFONT2"></span><span id="scf_associatefont2"></span><dl> <dt>**SCF\_ASSOCIATEFONT2**</dt> </dl>    | **RichEdit 4.1:** Associates a surrogate (plane-2) font to a given script, thus changing the default font for that script. To specify the font, use the following members of [**CHARFORMAT2**](charformat2.md): **yHeight**, **bCharSet**, **bPitchAndFamily**, **szFaceName**, and **lcid**.<br/> |
+| <span id="SCF_ASSOCIATEFONT"></span><span id="scf_associatefont"></span><dl> <dt>**SCF\_ASSOCIATEFONT**</dt> </dl>       | **RichEdit 4.1:** Associates a font to a given script, thus changing the default font for that script. To specify the font, use the following members of [**CHARFORMAT2**](/windows/win32/Richedit/ns-richedit-charformat2a?branch=master): **yHeight**, **bCharSet**, **bPitchAndFamily**, **szFaceName**, and **lcid**.<br/>                     |
+| <span id="SCF_ASSOCIATEFONT2"></span><span id="scf_associatefont2"></span><dl> <dt>**SCF\_ASSOCIATEFONT2**</dt> </dl>    | **RichEdit 4.1:** Associates a surrogate (plane-2) font to a given script, thus changing the default font for that script. To specify the font, use the following members of [**CHARFORMAT2**](/windows/win32/Richedit/ns-richedit-charformat2a?branch=master): **yHeight**, **bCharSet**, **bPitchAndFamily**, **szFaceName**, and **lcid**.<br/> |
 | <span id="SCF_CHARREPFROMLCID"></span><span id="scf_charrepfromlcid"></span><dl> <dt>**SCF\_CHARREPFROMLCID**</dt> </dl> | Gets the character repertoire from the LCID.<br/>                                                                                                                                                                                                                                                   |
 | <span id="SCF_DEFAULT"></span><span id="scf_default"></span><dl> <dt>**SCF\_DEFAULT**</dt> </dl>                         | **RichEdit 4.1:** Sets the default font for the control. <br/>                                                                                                                                                                                                                                      |
 | <span id="SPF_DONTSETDEFAULT"></span><span id="spf_dontsetdefault"></span><dl> <dt>**SPF\_DONTSETDEFAULT**</dt> </dl>    | Prevents setting the default paragraph format when the rich edit control is empty.<br/>                                                                                                                                                                                                             |
@@ -45,16 +51,16 @@ Character formatting that applies to the control. If this parameter is zero, the
 
 
 
- 
+ 
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**CHARFORMAT**](charformat.md) structure specifying the character formatting to use. Only the formatting attributes specified by the **dwMask** member are changed.
+Pointer to a [**CHARFORMAT**](/windows/win32/Richedit/ns-richedit-_charformat?branch=master) structure specifying the character formatting to use. Only the formatting attributes specified by the **dwMask** member are changed.
 
-Microsoft Rich Edit 2.0 and later: This parameter can be a pointer to a [**CHARFORMAT2**](charformat2.md) structure, which is an extension of the [**CHARFORMAT**](charformat.md) structure. Before sending the **EM\_SETCHARFORMAT** message, set the structure's **cbSize** member to `sizeof(CHARFORMAT)` or `sizeof(CHARFORMAT2)` indicate which version of the structure is being used.
+Microsoft Rich Edit 2.0 and later: This parameter can be a pointer to a [**CHARFORMAT2**](/windows/win32/Richedit/ns-richedit-charformat2a?branch=master) structure, which is an extension of the [**CHARFORMAT**](/windows/win32/Richedit/ns-richedit-_charformat?branch=master) structure. Before sending the **EM\_SETCHARFORMAT** message, set the structure's **cbSize** member to `sizeof(CHARFORMAT)` or `sizeof(CHARFORMAT2)` indicate which version of the structure is being used.
 
 The **szFaceName** and **bCharSet** members may be overruled when invalid for characters, for example: Arial on kanji characters.
 
@@ -76,8 +82,8 @@ If this message is sent more than once with the same parameters, the effect on t
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -89,15 +95,15 @@ If this message is sent more than once with the same parameters, the effect on t
 **Reference**
 </dt> <dt>
 
-[**CHARFORMAT**](charformat.md)
+[**CHARFORMAT**](/windows/win32/Richedit/ns-richedit-_charformat?branch=master)
 </dt> <dt>
 
-[**CHARFORMAT2**](charformat2.md)
+[**CHARFORMAT2**](/windows/win32/Richedit/ns-richedit-charformat2a?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

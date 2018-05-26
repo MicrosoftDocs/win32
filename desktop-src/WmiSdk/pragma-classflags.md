@@ -1,13 +1,16 @@
 ---
-Description: 'Controls the way WMI creates or updates classes depending on the flags specified.'
+Description: Controls the way WMI creates or updates classes depending on the flags specified.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ec535662-be14-44dc-ba0f-f9d2cbf630ea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ec535662-be14-44dc-ba0f-f9d2cbf630ea
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: pragma classflags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # pragma classflags
@@ -36,7 +39,7 @@ The following describes the syntax for this command:
 
 
 
- 
+ 
 
 ## Examples
 
@@ -55,8 +58,8 @@ The following example shows how to use this command with the updateonly and forc
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -67,9 +70,9 @@ The following example shows how to use this command with the updateonly and forc
 [Preprocessor Commands](preprocessor-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

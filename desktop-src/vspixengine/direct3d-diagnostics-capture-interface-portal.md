@@ -1,7 +1,12 @@
 ---
 title: Direct3D Diagnostics Capture Interface
 description: .
-ms.assetid: '65230908-c45d-414d-b116-cea1a9fd238c'
+ms.assetid: 65230908-c45d-414d-b116-cea1a9fd238c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D Diagnostics Capture Interface
@@ -22,15 +27,15 @@ Direct3D Diagnostics Capture Interface enables you to access the same informatio
 
 
 
- 
+ 
 
 ## Developer audience
 
 Direct3D Diagnostics Capture Interface is designed for use by tools developers.
 
- 
+ 
 
- 
+ 
 
 
 

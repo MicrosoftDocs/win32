@@ -1,8 +1,23 @@
 ---
 title: About IMFTransform
 description: About IMFTransform
-ms.assetid: '889f2d82-148a-4a7e-b78c-37ec86b37e0b'
-keywords: ["Windows Media Player plug-ins,interfaces", "plug-ins,interfaces", "digital signal processing plug-ins,interfaces", "DSP plug-ins,interfaces", "interfaces,DSP plug-ins", "Windows Media Player plug-ins,IMFTransform interface", "plug-ins,IMFTransform interface", "digital signal processing plug-ins,IMFTransform interface", "DSP plug-ins,IMFTransform interface", "IMFTransform interface"]
+ms.assetid: 889f2d82-148a-4a7e-b78c-37ec86b37e0b
+keywords:
+- Windows Media Player plug-ins,interfaces
+- plug-ins,interfaces
+- digital signal processing plug-ins,interfaces
+- DSP plug-ins,interfaces
+- interfaces,DSP plug-ins
+- Windows Media Player plug-ins,IMFTransform interface
+- plug-ins,IMFTransform interface
+- digital signal processing plug-ins,IMFTransform interface
+- DSP plug-ins,IMFTransform interface
+- IMFTransform interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About IMFTransform

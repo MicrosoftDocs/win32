@@ -4,11 +4,16 @@ description: Order of changes when multiple properties are set with a single Fai
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0e6051a8-0d1a-4b5e-abce-113e24ec96ca'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0e6051a8-0d1a-4b5e-abce-113e24ec96ca
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["updates to properties Failover Cluster", "properties Failover Cluster ,update process"]
+keywords:
+- updates to properties Failover Cluster
+- properties Failover Cluster ,update process
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Multiple and Simultaneous Property Updates

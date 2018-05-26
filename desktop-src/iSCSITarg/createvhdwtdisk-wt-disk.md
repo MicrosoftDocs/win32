@@ -4,13 +4,16 @@ description: Create a new VHDX-based iSCSI virtual disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fb406648-8387-458e-aa7f-6434ea914266'
-ms.prod: 'windows-server-dev'
+ms.assetid: fb406648-8387-458e-aa7f-6434ea914266
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateVhdWTDisk method iSCSI Software Target API", "CreateVhdWTDisk method iSCSI Software Target API , WT_Disk class", "WT_Disk class iSCSI Software Target API , CreateVhdWTDisk method"]
+keywords:
+- CreateVhdWTDisk method iSCSI Software Target API
+- CreateVhdWTDisk method iSCSI Software Target API , WT_Disk class
+- WT_Disk class iSCSI Software Target API , CreateVhdWTDisk method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateVhdWTDisk method of the WT\_Disk class
@@ -30,15 +36,15 @@ Create a new VHDX-based iSCSI virtual disk.
 
 ```mof
 WT_Disk CreateVhdWTDisk(
-  [in] string  DevicePath,
-  [in] uint16  VhdType,
-  [in] uint64  MaxInternalSize,
-  [in] uint32  BlockSize,
-  [in] uint32  LogicalSectorSize,
-  [in] uint32  PhysicalSectorSize,
-  [in] string  Description,
-  [in] boolean ClearData,
-  [in] string  ParentPath
+  [in] string  DevicePath,
+  [in] uint16  VhdType,
+  [in] uint64  MaxInternalSize,
+  [in] uint32  BlockSize,
+  [in] uint32  LogicalSectorSize,
+  [in] uint32  PhysicalSectorSize,
+  [in] string  Description,
+  [in] boolean ClearData,
+  [in] string  ParentPath
 );
 ```
 
@@ -139,7 +145,7 @@ Full path to parent VHD file
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                            |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>Wmiwtprovider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
@@ -153,9 +159,9 @@ Full path to parent VHD file
 [**WT\_Disk**](wt-disk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

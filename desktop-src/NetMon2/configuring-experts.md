@@ -1,7 +1,12 @@
 ---
-Description: 'To configure experts, use the custom dialog boxes and the Configure function.'
-ms.assetid: '6298fa7b-ddc8-4924-9616-6eed67ec48db'
+Description: To configure experts, use the custom dialog boxes and the Configure function.
+ms.assetid: 6298fa7b-ddc8-4924-9616-6eed67ec48db
 title: Configuring Experts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Experts

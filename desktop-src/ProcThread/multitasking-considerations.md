@@ -1,7 +1,12 @@
 ---
-Description: 'The recommended guideline is to use as few threads as possible, thereby minimizing the use of system resources.'
-ms.assetid: 'ed9bd3cf-b10c-49f9-bf62-7332517350b7'
+Description: The recommended guideline is to use as few threads as possible, thereby minimizing the use of system resources.
+ms.assetid: ed9bd3cf-b10c-49f9-bf62-7332517350b7
 title: Multitasking Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multitasking Considerations

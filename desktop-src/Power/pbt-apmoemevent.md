@@ -1,12 +1,17 @@
 ---
-Description: 'Notifies applications that the APM BIOS has signaled an APM OEM event.'
-ms.assetid: '3251ac00-41f1-44e9-a579-fa31e7c7d2ff'
-title: 'PBT\_APMOEMEVENT event'
+Description: Notifies applications that the APM BIOS has signaled an APM OEM event.
+ms.assetid: 3251ac00-41f1-44e9-a579-fa31e7c7d2ff
+title: PBT\_APMOEMEVENT event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBT\_APMOEMEVENT event
 
-\[PBT\_APMOEMEVENT is available for use in the operating systems specified in the Requirements section. Support for this event was removed in Windows Vista.\]
+\[PBT\_APMOEMEVENT is available for use in the operating systems specified in the Requirements section. Support for this event was removed in Windows Vista.\]
 
 Notifies applications that the APM BIOS has signaled an APM OEM event.
 
@@ -41,7 +46,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>*wParam* </dt> <dd> 
 
@@ -51,7 +56,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,10 +81,10 @@ Because not all APM BIOS implementations provide OEM event notifications, this e
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
-| End of client support<br/>    | Windows XP<br/>                                                                                    |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| End of client support<br/>    | Windows XP<br/>                                                                                    |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                           |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
 
@@ -94,9 +99,9 @@ Because not all APM BIOS implementations provide OEM event notifications, this e
 [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

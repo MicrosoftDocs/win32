@@ -4,11 +4,14 @@ description: Returns the CLSID of the snap-in that created the task and owns it.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b96d6e05-0b3f-443c-ba28-b3a54ba79e33'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b96d6e05-0b3f-443c-ba28-b3a54ba79e33
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Clsid property MMC", "Clsid property MMC , MMCListPadInfo class", "MMCListPadInfo class MMC , Clsid property"]
+keywords:
+- Clsid property MMC
+- Clsid property MMC , MMCListPadInfo class
+- MMCListPadInfo class MMC , Clsid property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCListPadInfo.Clsid property
@@ -53,9 +59,9 @@ To specify the snap-in that owns the task, the value of the Clsid property can b
 
 
 
- 
+ 
 
- 
+ 
 
 
 

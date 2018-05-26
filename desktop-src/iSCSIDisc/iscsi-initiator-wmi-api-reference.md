@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections describe the classes, methods, and associations that form the iSCSI Initiator WMI API.'
-ms.assetid: '2FEF56EF-093F-476E-85BC-BD054865D0E2'
+Description: The following sections describe the classes, methods, and associations that form the iSCSI Initiator WMI API.
+ms.assetid: 2FEF56EF-093F-476E-85BC-BD054865D0E2
 title: iSCSI Initiator WMI API Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iSCSI Initiator WMI API Reference

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the identifiers for the locales that this IInkAnalysisRecognizer supports.'
-ms.assetid: '14c91ad0-f49e-43e7-848c-abc96b0dffa8'
-title: 'IInkAnalysisRecognizer::GetLanguages method'
+Description: Retrieves the identifiers for the locales that this IInkAnalysisRecognizer supports.
+ms.assetid: 14c91ad0-f49e-43e7-848c-abc96b0dffa8
+title: IInkAnalysisRecognizerGetLanguages method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalysisRecognizer::GetLanguages method
@@ -13,8 +18,8 @@ Retrieves the identifiers for the locales that this [**IInkAnalysisRecognizer**]
 
 ```C++
 HRESULT GetLanguages(
-  [in, out] ULONG *pulLanguagesCount,
-  [out]     ULONG **ppulLanguages
+  [in, out] ULONG *pulLanguagesCount,
+  [out]     ULONG **ppulLanguages
 );
 ```
 
@@ -47,7 +52,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, use [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) to release the memory from \**ppulLanguages* when you no longer need the information.
 
- 
+ 
 
 This method returns an empty array for object and gesture recognizers.
 
@@ -59,7 +64,7 @@ For more information about language identifiers, see [Language Identifier Consta
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -76,9 +81,9 @@ For more information about language identifiers, see [Language Identifier Consta
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

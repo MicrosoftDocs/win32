@@ -1,8 +1,9 @@
 ---
 title: TBN\_WRAPHOTITEM notification code
 description: Notifies an application with two or more toolbars that the hot item is about to change. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '169309ec-68dd-4cbb-8963-f842cf75b4fc'
-keywords: ["TBN_WRAPHOTITEM notification code Windows Controls"]
+ms.assetid: 169309ec-68dd-4cbb-8963-f842cf75b4fc
+keywords:
+- TBN_WRAPHOTITEM notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_WRAPHOTITEM notification code
@@ -60,15 +66,15 @@ typedef struct tagNMTBWRAPHOTITEM {
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

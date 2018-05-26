@@ -1,12 +1,17 @@
 ---
-Description: 'Starting with Windows Vista, the TextInputPanel supersedes the PenInputPanel for controlling the onscreen appearance and behavior of the Tablet Input Panel.The following sections describe programming the Input Panel using the Text Input Panel application programming interfaces.TextInputPanel for Users of PenInputPanelUsing Input Panel AutoCompleteEnabling Text Correction for Custom Ink CollectorsNote  The Text Input Panel is implemented in an executable file called TabTip.exe. Running TabTip.exe with the /SeekDesktop parameter attempts to run a reduced functionality version of Input Panel on a nonstandard interactive desktop, as created with CreateDesktop. For most created desktops, Input Panel will automatically run in this mode already. This parameter provides the means for launching it in unusual application scenarios that otherwise prevent the automatic launch. If Input Panel is already running on the desktop, this parameter will have no effect and the instance of TabTip.exe will exit immediately. '
-ms.assetid: 'af0a2946-88d0-4f2e-98ca-446398aeb6b8'
+Description: Starting with Windows Vista, the TextInputPanel supersedes the PenInputPanel for controlling the onscreen appearance and behavior of the Tablet Input Panel.The following sections describe programming the Input Panel using the Text Input Panel application programming interfaces.TextInputPanel for Users of PenInputPanelUsing Input Panel AutoCompleteEnabling Text Correction for Custom Ink CollectorsNote  The Text Input Panel is implemented in an executable file called TabTip.exe. Running TabTip.exe with the /SeekDesktop parameter attempts to run a reduced functionality version of Input Panel on a nonstandard interactive desktop, as created with CreateDesktop. For most created desktops, Input Panel will automatically run in this mode already. This parameter provides the means for launching it in unusual application scenarios that otherwise prevent the automatic launch. If Input Panel is already running on the desktop, this parameter will have no effect and the instance of TabTip.exe will exit immediately. 
+ms.assetid: af0a2946-88d0-4f2e-98ca-446398aeb6b8
 title: Programming the Text Input Panel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming the Text Input Panel
 
-Starting with Windows Vista, the [**TextInputPanel**](itextinputpanel.md) supersedes the [**PenInputPanel**](peninputpanel-class.md) for controlling the onscreen appearance and behavior of the Tablet Input Panel.
+Starting with Windows Vista, the [**TextInputPanel**](/windows/win32/peninputpanel/nn-peninputpanel-itextinputpanel?branch=master) supersedes the [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) for controlling the onscreen appearance and behavior of the Tablet Input Panel.
 
 The following sections describe programming the Input Panel using the Text Input Panel application programming interfaces.
 

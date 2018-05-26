@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies a WSDL file to process for contract information.'
-ms.assetid: 'd8f630cd-0541-431b-86a8-792846a85ea0'
+Description: Specifies a WSDL file to process for contract information.
+ms.assetid: d8f630cd-0541-431b-86a8-792846a85ea0
 title: wsdl element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # wsdl element
@@ -62,14 +67,14 @@ Any [**importHint**](importhint.md) or [**excludeImport**](excludeimport.md) ele
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

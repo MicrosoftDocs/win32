@@ -1,7 +1,12 @@
 ---
 Description: Querying for Available Related Collections
-ms.assetid: '9c7d2a01-5dc3-4d35-b938-f1d0525a8286'
+ms.assetid: 9c7d2a01-5dc3-4d35-b938-f1d0525a8286
 title: Querying for Available Related Collections
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying for Available Related Collections
@@ -10,7 +15,7 @@ If you are writing a general-purpose administration tool, it is likely that you 
 
 The [**RelatedCollectionInfo**](relatedcollectioninfo.md) collection is available from any collection that you might be holding and contains an item for each available related collection. You can enumerate through these items to determine whether a given collection is available.
 
-You can get the [**RelatedCollectionInfo**](relatedcollectioninfo.md) collection from any collection you are holding by using the [**GetCollection**](icomadmincatalog-getcollection.md) method on the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object, leaving the second parameter blank where you would normally specify a parent item's Key property.
+You can get the [**RelatedCollectionInfo**](relatedcollectioninfo.md) collection from any collection you are holding by using the [**GetCollection**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog-getcollection?branch=master) method on the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object, leaving the second parameter blank where you would normally specify a parent item's Key property.
 
 ## Related topics
 

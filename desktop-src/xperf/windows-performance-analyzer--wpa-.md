@@ -1,7 +1,12 @@
 ---
 title: Windows Performance Analyzer (WPA)
 description: Windows Performance Analyzer (WPA)
-ms.assetid: '594d3d75-a78f-4cd9-a9ae-026c6a541408'
+ms.assetid: 594d3d75-a78f-4cd9-a9ae-026c6a541408
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Performance Analyzer (WPA)
@@ -22,11 +27,11 @@ This documentation discusses the tools in the Windows Performance Analyzer as sh
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

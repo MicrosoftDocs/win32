@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by a stream sink to request a new media sample from the pipeline.'
-ms.assetid: '35020a15-942f-4dd0-9ca4-815affdacecf'
+---
+Description: Raised by a stream sink to request a new media sample from the pipeline.
+ms.assetid: 35020a15-942f-4dd0-9ca4-815affdacecf
 title: MEStreamSinkRequestSample event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEStreamSinkRequestSample event
@@ -10,7 +15,7 @@ Raised by a stream sink to request a new media sample from the pipeline. For eac
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

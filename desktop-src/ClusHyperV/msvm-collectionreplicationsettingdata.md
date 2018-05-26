@@ -4,13 +4,15 @@ description: The class that represents configured settings for a Msvm\_VirtualSy
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cf578319-03ed-42e0-bcf6-5e8433cccedc'
-ms.prod: 'windows-server-dev'
+ms.assetid: cf578319-03ed-42e0-bcf6-5e8433cccedc
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_CollectionReplicationSettingData class", "Msvm_CollectionReplicationSettingData class, described"]
+keywords:
+- Msvm_CollectionReplicationSettingData class
+- Msvm_CollectionReplicationSettingData class, described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_CollectionReplicationSettingData class
@@ -55,28 +60,28 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_CollectionReplicationSettingData : Msvm_CollectionSettingData
 {
-  string   Caption;
-  string   Description;
-  string   InstanceID;
-  string   ElementName;
-  uint16   AuthenticationType;
-  string   CertificateThumbPrint;
-  string   RootCertificateThumbPrint;
-  boolean  CompressionEnabled;
-  boolean  BypassProxyServer;
-  string   RecoveryConnectionPoint;
-  string   PrimaryConnectionPoint;
-  uint16   RecoveryServerPortNumber;
-  boolean  ReplicateHostKvpItems;
-  uint16   ApplicationConsistentSnapshotInterval;
-  uint16   RecoveryHistory;
-  boolean  AutoResynchronizeEnabled = TRUE;
+  string   Caption;
+  string   Description;
+  string   InstanceID;
+  string   ElementName;
+  uint16   AuthenticationType;
+  string   CertificateThumbPrint;
+  string   RootCertificateThumbPrint;
+  boolean  CompressionEnabled;
+  boolean  BypassProxyServer;
+  string   RecoveryConnectionPoint;
+  string   PrimaryConnectionPoint;
+  uint16   RecoveryServerPortNumber;
+  boolean  ReplicateHostKvpItems;
+  uint16   ApplicationConsistentSnapshotInterval;
+  uint16   RecoveryHistory;
+  boolean  AutoResynchronizeEnabled = TRUE;
   datetime AutoResynchronizeIntervalStart;
   datetime AutoResynchronizeIntervalEnd;
-  uint16   ReplicationInterval;
-  string   IncludedDisks[];
-  string   RecoveryServerHosts[];
-  string   PrimaryReplicationEntityIDs[];
+  uint16   ReplicationInterval;
+  string   IncludedDisks[];
+  string   RecoveryServerHosts[];
+  string   PrimaryReplicationEntityIDs[];
 };
 ```
 
@@ -306,7 +311,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 > -   If the above pattern is not used, the defining entity must assure that the resultant **InstanceID** value is not re-used across any **InstanceID** properties that are produced by this provider or other providers for this namespace.
 > -   For DMTF defined instances, the pattern must be used with the *OrgID* set to "CIM".
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -455,7 +460,7 @@ The root certificate thumb print of the certificate to use when **Authentication
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -472,9 +477,9 @@ The root certificate thumb print of the certificate to use when **Authentication
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

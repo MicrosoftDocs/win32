@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a pointer to the stream attributes of the connected stream on a hardware-based Media Foundation transform (MFT).'
-ms.assetid: '7e14a02e-4cbf-45aa-a6f5-2c53b2437127'
-title: 'MFT\_CONNECTED\_STREAM\_ATTRIBUTE attribute'
+---
+Description: Contains a pointer to the stream attributes of the connected stream on a hardware-based Media Foundation transform (MFT).
+ms.assetid: 7e14a02e-4cbf-45aa-a6f5-2c53b2437127
+title: MFT\_CONNECTED\_STREAM\_ATTRIBUTE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_CONNECTED\_STREAM\_ATTRIBUTE attribute
@@ -14,9 +19,9 @@ Contains a pointer to the stream attributes of the connected stream on a hardwar
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUnknown**](imfattributes-getunknown.md).
+To get this attribute, call [**IMFAttributes::GetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getunknown?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUnknown**](imfattributes-setunknown.md).
+To set this attribute, call [**IMFAttributes::SetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setunknown?branch=master).
 
 ## Remarks
 

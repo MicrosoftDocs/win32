@@ -1,7 +1,12 @@
 ---
 title: imm\_atomic\_consume (sm5 - asm)
 description: Atomically decrement the hidden 32-bit counter stored with a Count or Append unordered access view (UAV), returning the new value.
-ms.assetid: '1115C318-2F86-4161-AC5C-2A61A262DC28'
+ms.assetid: 1115C318-2F86-4161-AC5C-2A61A262DC28
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # imm\_atomic\_consume (sm5 - asm)
@@ -15,7 +20,7 @@ Atomically decrement the hidden 32-bit counter stored with a Count or Append uno
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Atomically decrement the hidden 32-bit counter stored with a Count or Append uno
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -48,9 +53,9 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
-Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for the Direct3D 11.1 runtime, which is available starting with Windows 8.
+Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for the Direct3D 11.1 runtime, which is available starting with Windows 8.
 
 
 
@@ -60,7 +65,7 @@ Because UAVs are available at all shader stages for Direct3D 11.1, this instruct
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -79,7 +84,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -88,9 +93,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

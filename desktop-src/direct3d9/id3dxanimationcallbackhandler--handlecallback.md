@@ -1,7 +1,12 @@
-﻿---
-Description: 'The application implements this method. This method is called when a callback occurs for an animation set in one of the tracks during a call to ID3DXAnimationController::AdvanceTime.'
-ms.assetid: 'eb606fb0-d6b9-456d-97e1-b595306e6463'
-title: 'ID3DXAnimationCallbackHandler::HandleCallback method'
+---
+Description: The application implements this method. This method is called when a callback occurs for an animation set in one of the tracks during a call to ID3DXAnimationControllerAdvanceTime.
+ms.assetid: eb606fb0-d6b9-456d-97e1-b595306e6463
+title: ID3DXAnimationCallbackHandlerHandleCallback method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationCallbackHandler::HandleCallback method

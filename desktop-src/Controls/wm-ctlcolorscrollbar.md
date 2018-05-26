@@ -1,8 +1,9 @@
 ---
 title: WM\_CTLCOLORSCROLLBAR message
 description: The WM\_CTLCOLORSCROLLBAR message is sent to the parent window of a scroll bar control when the control is about to be drawn.
-ms.assetid: '35832a23-96f1-42cb-a986-06726bf2a124'
-keywords: ["WM_CTLCOLORSCROLLBAR message Windows Controls"]
+ms.assetid: 35832a23-96f1-42cb-a986-06726bf2a124
+keywords:
+- WM_CTLCOLORSCROLLBAR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CTLCOLORSCROLLBAR message
@@ -69,8 +75,8 @@ The **WM\_CTLCOLORSCROLLBAR** message is used only by child scroll bar controls.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -109,9 +115,9 @@ The **WM\_CTLCOLORSCROLLBAR** message is used only by child scroll bar controls.
 [**WM\_CTLCOLORDLG**](https://msdn.microsoft.com/library/windows/desktop/ms645417)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

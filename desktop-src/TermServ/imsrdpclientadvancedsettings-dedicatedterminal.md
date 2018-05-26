@@ -4,11 +4,28 @@ description: This property is not supported.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '40d54c88-dcac-4e7d-b389-a65caeb6960e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 40d54c88-dcac-4e7d-b389-a65caeb6960e
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DedicatedTerminal property Remote Desktop Services", "DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings interface", "IMsRdpClientAdvancedSettings interface Remote Desktop Services , DedicatedTerminal property", "DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface", "IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , DedicatedTerminal property", "DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface", "IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , DedicatedTerminal property", "DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface", "IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , DedicatedTerminal property", "DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , DedicatedTerminal property", "DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , DedicatedTerminal property", "DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , DedicatedTerminal property", "DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , DedicatedTerminal property"]
+keywords:
+- DedicatedTerminal property Remote Desktop Services
+- DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings interface
+- IMsRdpClientAdvancedSettings interface Remote Desktop Services , DedicatedTerminal property
+- DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface
+- IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , DedicatedTerminal property
+- DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface
+- IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , DedicatedTerminal property
+- DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface
+- IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , DedicatedTerminal property
+- DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , DedicatedTerminal property
+- DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , DedicatedTerminal property
+- DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , DedicatedTerminal property
+- DedicatedTerminal property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , DedicatedTerminal property
 topic_type:
 - apiref
 api_name:
@@ -40,6 +57,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings::DedicatedTerminal property
@@ -53,11 +73,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_DedicatedTerminal(
-  [in]  LONG dedicatedTerminal
+  [in]  LONG dedicatedTerminal
 );
 
 HRESULT get_DedicatedTerminal(
-  [out] LONG *pdedicatedTerminal
+  [out] LONG *pdedicatedTerminal
 );
 ```
 
@@ -115,9 +135,9 @@ Returns **S\_FALSE**.
 [**IMsRdpClientAdvancedSettings**](imsrdpclientadvancedsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

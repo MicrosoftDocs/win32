@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the methods that are defined for the IPrintCoreHelperPS COM interface.'
-ms.assetid: '2be594f1-1eb1-42e0-a345-ee7edf4d96dd'
+---
+Description: This section describes the methods that are defined for the IPrintCoreHelperPS COM interface.
+ms.assetid: 2be594f1-1eb1-42e0-a345-ee7edf4d96dd
 title: IPrintCoreHelperPS interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperPS interface

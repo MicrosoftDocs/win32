@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Refresh method refreshes FaxOutgoingJob object information from the fax server.'
-ms.assetid: '191c6e5e-4c51-4963-a335-0375f936c52a'
-title: 'FaxOutgoingJob.Refresh method'
+---
+Description: The Refresh method refreshes FaxOutgoingJob object information from the fax server.
+ms.assetid: 191c6e5e-4c51-4963-a335-0375f936c52a
+title: FaxOutgoingJob.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.Refresh method
@@ -23,9 +28,9 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) or **farQUERY\_JOBS** access right.
+To use this method, a user must have the [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) or **farQUERY\_JOBS** access right.
 
-With the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) access right, users will be able to use this method only for their own faxes. With the **farQUERY\_JOBS** access right, users will be able to use this method for all faxes on the server.
+With the [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right, users will be able to use this method only for their own faxes. With the **farQUERY\_JOBS** access right, users will be able to use this method for all faxes on the server.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ With the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) access right, use
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

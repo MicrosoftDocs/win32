@@ -4,11 +4,14 @@ description: Returns the decimal portion of the version of the operating system 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c335922c-ac62-4b37-bafb-b29d58545c85'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: c335922c-ac62-4b37-bafb-b29d58545c85
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["MinorVersion property Failover Cluster", "MinorVersion property Failover Cluster , ClusVersion object", "ClusVersion object Failover Cluster , MinorVersion property"]
+keywords:
+- MinorVersion property Failover Cluster
+- MinorVersion property Failover Cluster , ClusVersion object
+- ClusVersion object Failover Cluster , MinorVersion property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusVersion.MinorVersion property
@@ -66,7 +72,7 @@ See [**ClusVersion**](clusversion-object.md) for an example.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -88,9 +94,9 @@ See [**ClusVersion**](clusversion-object.md) for an example.
 [**ClusVersion.MajorVersion**](clusversion-majorversion.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

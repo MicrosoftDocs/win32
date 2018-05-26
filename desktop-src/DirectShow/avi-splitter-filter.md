@@ -1,7 +1,12 @@
 ---
 Description: AVI Splitter Filter
-ms.assetid: 'df3c7d11-7ecc-499a-af36-b74437e21999'
+ms.assetid: df3c7d11-7ecc-499a-af36-b74437e21999
 title: AVI Splitter Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVI Splitter Filter
@@ -12,11 +17,11 @@ The AVI Splitter Filter is used for playback of AVI files. It accepts data in AV
 
 |                                          |                                                                                                                                                                     |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IAMMediaContent**](iammediacontent.md), [**IBaseFilter**](ibasefilter.md), [**IPersistMediaPropertyBag**](ipersistmediapropertybag.md)                        |
+| Filter Interfaces                        | [**IAMMediaContent**](/windows/win32/Qnetwork/nn-qnetwork-iammediacontent?branch=master), [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [**IPersistMediaPropertyBag**](/windows/win32/Strmif/nn-strmif-ipersistmediapropertybag?branch=master)                        |
 | Input Pin Media Types                    | MEDIATYPE\_Stream, MEDIASUBTYPE\_Avi                                                                                                                                |
-| Input Pin Interfaces                     | [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                                                                                    |
+| Input Pin Interfaces                     | [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                                                                                    |
 | Output Pin Media Types                   | Typically **MEDIATYPE\_Video** or **MEDIATYPE\_Audio**. The exact type depends on the content of the file, whether the file is compressed, and what codec was used. |
-| Output Pin Interfaces                    | [**IMediaPosition**](imediaposition.md), [**IMediaSeeking**](imediaseeking.md), [**IPin**](ipin.md), IPropertyBag, [**IQualityControl**](iqualitycontrol.md)    |
+| Output Pin Interfaces                    | [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master), [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), IPropertyBag, [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)    |
 | Filter CLSID                             | CLSID\_AviSplitter                                                                                                                                                  |
 | Property Page CLSID                      | No property page.                                                                                                                                                   |
 | Executable                               | quartz.dll                                                                                                                                                          |
@@ -29,7 +34,7 @@ The AVI Splitter Filter is used for playback of AVI files. It accepts data in AV
 
 ## Remarks
 
-This filter is typically connected to the [Async File Source](file-source--async--filter.md) filter on its input pin. It can connect to any filter whose output pin supports [**IAsyncReader**](iasyncreader.md) and offers the correct media type to the AVI Splitter filter's input pin.
+This filter is typically connected to the [Async File Source](file-source--async--filter.md) filter on its input pin. It can connect to any filter whose output pin supports [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) and offers the correct media type to the AVI Splitter filter's input pin.
 
 The output pins on the AVI Splitter support the IPropertyBag::Read method for reading properties from individual streams. Currently, the following property is defined.
 
@@ -51,9 +56,9 @@ The interleaving duration in the file determines how much memory the AVI Splitte
 
 ### Seeking
 
-If the file contains a video stream, the AVI Splitter supports seeking by frame number. To enable frame-based seeking, call [**IMediaSeeking::SetTimeFormat**](imediaseeking-settimeformat.md) on the [Filter Graph Manager](filter-graph-manager.md) with the value **TIME\_FORMAT\_FRAME**.
+If the file contains a video stream, the AVI Splitter supports seeking by frame number. To enable frame-based seeking, call [**IMediaSeeking::SetTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-settimeformat?branch=master) on the [Filter Graph Manager](filter-graph-manager.md) with the value **TIME\_FORMAT\_FRAME**.
 
-If the file contains an audio stream, the AVI Splitter supports seeking by sample number. To enable sample-based seeking, call [**SetTimeFormat**](imediaseeking-settimeformat.md) on the Filter Graph Manager with the value **TIME\_FORMAT\_SAMPLE**.
+If the file contains an audio stream, the AVI Splitter supports seeking by sample number. To enable sample-based seeking, call [**SetTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-settimeformat?branch=master) on the Filter Graph Manager with the value **TIME\_FORMAT\_SAMPLE**.
 
 In both cases, the output pin for that stream must be connected to a renderer filter.
 

@@ -4,10 +4,13 @@ description: Guidelines for developing applications that perform well in a Remot
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '50f0c1f6-8046-4ceb-b2c4-6fc1ae86fd73'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 50f0c1f6-8046-4ceb-b2c4-6fc1ae86fd73
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Performance guidelines

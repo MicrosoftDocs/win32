@@ -1,7 +1,12 @@
 ---
-Description: 'Reference topic for InkPicture control for the Tablet PC.'
-ms.assetid: '1ced9779-dae5-4f9a-8a68-b2c0d041d5b4'
+Description: Reference topic for InkPicture control for the Tablet PC.
+ms.assetid: 1ced9779-dae5-4f9a-8a68-b2c0d041d5b4
 title: InkPicture Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture Control
@@ -14,12 +19,12 @@ The [InkPicture](inkpicture-control-reference.md) control includes basic printin
 
 The managed (.NET Framework) implementation of [InkPicture](frlrfMicrosoftInkInkPictureClassTopic) inherits from the [PictureBox](T:System.Windows.Forms.PictureBox) class.
 
-By default, ink is colored black if not in high-contrast mode; otherwise, it is set to the current system color setting (COLOR\_WINDOWTEXT) value. Also, by default [**FitToCurve**](inkdrawingattributes-fittocurve.md) is **FALSE**.
+By default, ink is colored black if not in high-contrast mode; otherwise, it is set to the current system color setting (COLOR\_WINDOWTEXT) value. Also, by default [**FitToCurve**](/windows/win32/msinkaut/?branch=master) is **FALSE**.
 
-Within the [InkPicture](inkpicture-control-reference.md) control, use the [**Ink**](inkdisp-class.md) object to load and save ink.
+Within the [InkPicture](inkpicture-control-reference.md) control, use the [**Ink**](/windows/win32/msinkaut/?branch=master) object to load and save ink.
 
 > [!Note]  
-> When you set the [**EditingMode**](inkpicture-editingmode.md) to **Delete** or **Select**, other events (such as the [**Stroke**](inkpicture-stroke.md) event) are triggered. These events are useful if you want to implement your own delete or select modes.
+> When you set the [**EditingMode**](/windows/win32/msinkaut/?branch=master) to **Delete** or **Select**, other events (such as the [**Stroke**](inkpicture-stroke.md) event) are triggered. These events are useful if you want to implement your own delete or select modes.
 
  
 

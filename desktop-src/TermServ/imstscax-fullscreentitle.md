@@ -4,11 +4,32 @@ description: Specifies the window title displayed when the control is in full-sc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '441aea43-2d1c-44b7-a74f-e375e711fb4f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 441aea43-2d1c-44b7-a74f-e375e711fb4f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["FullScreenTitle property Remote Desktop Services", "FullScreenTitle property Remote Desktop Services , IMsTscAx interface", "IMsTscAx interface Remote Desktop Services , FullScreenTitle property", "FullScreenTitle property Remote Desktop Services , IMsRdpClient interface", "IMsRdpClient interface Remote Desktop Services , FullScreenTitle property", "FullScreenTitle property Remote Desktop Services , IMsRdpClient2 interface", "IMsRdpClient2 interface Remote Desktop Services , FullScreenTitle property", "FullScreenTitle property Remote Desktop Services , IMsRdpClient3 interface", "IMsRdpClient3 interface Remote Desktop Services , FullScreenTitle property", "FullScreenTitle property Remote Desktop Services , IMsRdpClient4 interface", "IMsRdpClient4 interface Remote Desktop Services , FullScreenTitle property", "FullScreenTitle property Remote Desktop Services , IMsRdpClient5 interface", "IMsRdpClient5 interface Remote Desktop Services , FullScreenTitle property", "FullScreenTitle property Remote Desktop Services , IMsRdpClient6 interface", "IMsRdpClient6 interface Remote Desktop Services , FullScreenTitle property", "FullScreenTitle property Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , FullScreenTitle property", "FullScreenTitle property Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , FullScreenTitle property", "FullScreenTitle property Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , FullScreenTitle property"]
+keywords:
+- FullScreenTitle property Remote Desktop Services
+- FullScreenTitle property Remote Desktop Services , IMsTscAx interface
+- IMsTscAx interface Remote Desktop Services , FullScreenTitle property
+- FullScreenTitle property Remote Desktop Services , IMsRdpClient interface
+- IMsRdpClient interface Remote Desktop Services , FullScreenTitle property
+- FullScreenTitle property Remote Desktop Services , IMsRdpClient2 interface
+- IMsRdpClient2 interface Remote Desktop Services , FullScreenTitle property
+- FullScreenTitle property Remote Desktop Services , IMsRdpClient3 interface
+- IMsRdpClient3 interface Remote Desktop Services , FullScreenTitle property
+- FullScreenTitle property Remote Desktop Services , IMsRdpClient4 interface
+- IMsRdpClient4 interface Remote Desktop Services , FullScreenTitle property
+- FullScreenTitle property Remote Desktop Services , IMsRdpClient5 interface
+- IMsRdpClient5 interface Remote Desktop Services , FullScreenTitle property
+- FullScreenTitle property Remote Desktop Services , IMsRdpClient6 interface
+- IMsRdpClient6 interface Remote Desktop Services , FullScreenTitle property
+- FullScreenTitle property Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , FullScreenTitle property
+- FullScreenTitle property Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , FullScreenTitle property
+- FullScreenTitle property Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , FullScreenTitle property
 topic_type:
 - apiref
 api_name:
@@ -36,6 +57,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAx::FullScreenTitle property
@@ -49,7 +73,7 @@ This property is write-only.
 
 ```C++
 HRESULT put_FullScreenTitle(
-  [in] BSTR fullScreenTitle
+  [in] BSTR fullScreenTitle
 );
 ```
 
@@ -75,8 +99,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsTscAx is defined as 8C11EFAE-92C3-11D1-BC1E-00C04FA31489<br/>            |
@@ -117,9 +141,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscAx**](imstscax-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

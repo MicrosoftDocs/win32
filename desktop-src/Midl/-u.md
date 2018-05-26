@@ -2,13 +2,19 @@
 title: /U switch
 description: The /U switch removes any previous definition of a name by passing the name to the C preprocessor as if by a \ undefine directive.
 ms.assetid: 3c253fb3-9448-4b55-bfd5-852e6feec280
-keywords: ["/U switch MIDL"]
+keywords:
+- /U switch MIDL
 topic_type:
 - apiref
 api_name:
 - /U
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /U switch

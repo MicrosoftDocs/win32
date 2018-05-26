@@ -4,11 +4,13 @@ description: The SnapIn object encapsulates a single MMC snap-in. A SnapIn objec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '94a9c623-8778-4010-bb69-6ac0d7ae5ca9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 94a9c623-8778-4010-bb69-6ac0d7ae5ca9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["SnapIn Object object MMC", "SnapIn Object object MMC , described"]
+keywords:
+- SnapIn Object object MMC
+- SnapIn Object object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SnapIn Object object
@@ -42,7 +47,7 @@ The **SnapIn Object** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -61,7 +66,7 @@ The **SnapIn Object** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -69,8 +74,8 @@ The **SnapIn Object** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -78,9 +83,9 @@ The **SnapIn Object** object has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

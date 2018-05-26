@@ -4,17 +4,21 @@ description: Called if authentication has failed.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '75BF75B7-FFAF-4B30-8B0F-850C448F5210'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 75BF75B7-FFAF-4B30-8B0F-850C448F5210
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["AuthenticationCompletionCallback onFailure method"]
+keywords:
+- AuthenticationCompletionCallback onFailure method
 topic_type:
 - apiref
 api_name:
 - AuthenticationCompletionCallback onFailure method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AuthenticationCompletionCallback onFailure method
@@ -41,11 +45,11 @@ AuthenticaionCompletionCallback.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

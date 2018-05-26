@@ -1,13 +1,23 @@
 ---
 title: Decompressing Data
 description: Decompressing Data
-ms.assetid: '1faf0238-7bef-4363-9bbc-44737600c946'
-keywords: ["video compression manager (VCM),decompressing data", "VCM (video compression manager),decompressing data", "ICDecompressBegin macro", "ICDecompress function", "ICDecompressEnd macro"]
+ms.assetid: 1faf0238-7bef-4363-9bbc-44737600c946
+keywords:
+- video compression manager (VCM),decompressing data
+- VCM (video compression manager),decompressing data
+- ICDecompressBegin macro
+- ICDecompress function
+- ICDecompressEnd macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Decompressing Data
 
-The following example shows how an application can initialize a decompressor using the [**ICDecompressBegin**](icdecompressbegin.md) macro, decompress a frame sequence using the [**ICDecompress**](icdecompress.md) function, and terminate decompression using the [**ICDecompressEnd**](icdecompressend.md) macro.
+The following example shows how an application can initialize a decompressor using the [**ICDecompressBegin**](/windows/win32/Vfw/nf-vfw-icdecompressbegin?branch=master) macro, decompress a frame sequence using the [**ICDecompress**](/windows/win32/Vfw/nf-vfw-icdecompress?branch=master) function, and terminate decompression using the [**ICDecompressEnd**](/windows/win32/Vfw/nf-vfw-icdecompressend?branch=master) macro.
 
 
 ```C++

@@ -1,8 +1,29 @@
 ---
 title: Working with Virtualized Items
 description: This topic describes how to use functionality provided by the ItemContainer and VirtualizedItem control patterns to find and retrieve information about virtualized items.
-ms.assetid: 'e1898ba0-5ffa-4c61-b378-c7ef7c4a2c52'
-keywords: ["clients,UI Automation virtualized items", "clients,virtualized items", "clients,control patterns", "clients,VirtualizedItem control patterns", "clients,ItemContainer control patterns", "clients,UI Automation VirtualizedItem control patterns", "clients,UI Automation control patterns", "clients,UI Automation ItemContainer control patterns", "UI Automation,virtualized items", "UI Automation,control patterns", "UI Automation,VirtualizedItem control patterns", "UI Automation,ItemContainer control patterns", "VirtualizedItem control patterns", "ItemContainer control patterns", "control patterns,VirtualizedItem", "control patterns,ItemContainer"]
+ms.assetid: e1898ba0-5ffa-4c61-b378-c7ef7c4a2c52
+keywords:
+- clients,UI Automation virtualized items
+- clients,virtualized items
+- clients,control patterns
+- clients,VirtualizedItem control patterns
+- clients,ItemContainer control patterns
+- clients,UI Automation VirtualizedItem control patterns
+- clients,UI Automation control patterns
+- clients,UI Automation ItemContainer control patterns
+- UI Automation,virtualized items
+- UI Automation,control patterns
+- UI Automation,VirtualizedItem control patterns
+- UI Automation,ItemContainer control patterns
+- VirtualizedItem control patterns
+- ItemContainer control patterns
+- control patterns,VirtualizedItem
+- control patterns,ItemContainer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Virtualized Items
@@ -23,15 +44,15 @@ Controls that use virtualization represent a challenge because only realized ite
 
 ## How a Control Supports Virtualization
 
-Any control that can contain virtualized items must support the [ItemContainer](uiauto-implementingitemcontainer.md) control pattern. Further, any item that can be virtualized must support the [VirtualizedItem](uiauto-implementingvirtualizeditem.md) control pattern. The functionality that is exposed by the ItemContainer and VirtualizedItem control patterns is accessible to clients through the [**IUIAutomationItemContainerPattern**](uiauto-iuiautomationitemcontainerpattern.md) and [**IUIAutomationVirtualizedItemPattern**](uiauto-iuiautomationvirtualizeditempattern.md) interfaces.
+Any control that can contain virtualized items must support the [ItemContainer](uiauto-implementingitemcontainer.md) control pattern. Further, any item that can be virtualized must support the [VirtualizedItem](uiauto-implementingvirtualizeditem.md) control pattern. The functionality that is exposed by the ItemContainer and VirtualizedItem control patterns is accessible to clients through the [**IUIAutomationItemContainerPattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationitemcontainerpattern?branch=master) and [**IUIAutomationVirtualizedItemPattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationvirtualizeditempattern?branch=master) interfaces.
 
 ## How Clients Find and Realize Virtualized Items
 
-Clients can use the [**IUIAutomationItemContainerPattern::FindItemByProperty**](uiauto-iuiautomationitemcontainerpattern-finditembyproperty.md) method to search for child items in the container based on the value of a particular property. The method can also retrieve the first item in the container or the item that follows the specified item. If a matching child item is found, the **FindItemByProperty** retrieves an [**IUIAutomationElement**](uiauto-iuiautomationelement.md) interface for the item. However, if the child item is virtualized, the **IUIAutomationElement** interface is a placeholder. The [**UIA\_E\_ELEMENTNOTAVAILABLE**](uiauto-error-codes.md#uia-e-elementnotavailable) error occurs when the client attempts to use the **IUIAutomationElement** interface to retrieve property values or call methods that are not yet available. Which properties or methods are available through a placeholder depends on the control implementation. The only requirement for a placeholder is to support the [**IUIAutomationVirtualizedItemPattern**](uiauto-iuiautomationvirtualizeditempattern.md) interface.
+Clients can use the [**IUIAutomationItemContainerPattern::FindItemByProperty**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationitemcontainerpattern-finditembyproperty?branch=master) method to search for child items in the container based on the value of a particular property. The method can also retrieve the first item in the container or the item that follows the specified item. If a matching child item is found, the **FindItemByProperty** retrieves an [**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) interface for the item. However, if the child item is virtualized, the **IUIAutomationElement** interface is a placeholder. The [**UIA\_E\_ELEMENTNOTAVAILABLE**](uiauto-error-codes.md#uia-e-elementnotavailable) error occurs when the client attempts to use the **IUIAutomationElement** interface to retrieve property values or call methods that are not yet available. Which properties or methods are available through a placeholder depends on the control implementation. The only requirement for a placeholder is to support the [**IUIAutomationVirtualizedItemPattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationvirtualizeditempattern?branch=master) interface.
 
-The [**UIA\_E\_ELEMENTNOTAVAILABLE**](uiauto-error-codes.md#uia-e-elementnotavailable) error is an indication to the client that an item may be virtualized. The client should respond by retrieving the [**IUIAutomationVirtualizedItemPattern**](uiauto-iuiautomationvirtualizeditempattern.md) interface for the item, and then realizing the item by calling the [**IUIAutomationVirtualizedItemPattern::Realize**](uiauto-iuiautomationvirtualizeditempattern-realize.md) method. If this succeeds, the [**IUIAutomationElement**](uiauto-iuiautomationelement.md) interface is fully functional with all appropriate properties available.
+The [**UIA\_E\_ELEMENTNOTAVAILABLE**](uiauto-error-codes.md#uia-e-elementnotavailable) error is an indication to the client that an item may be virtualized. The client should respond by retrieving the [**IUIAutomationVirtualizedItemPattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationvirtualizeditempattern?branch=master) interface for the item, and then realizing the item by calling the [**IUIAutomationVirtualizedItemPattern::Realize**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationvirtualizeditempattern-realize?branch=master) method. If this succeeds, the [**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) interface is fully functional with all appropriate properties available.
 
-Depending on the control implementation, calling [**IUIAutomationVirtualizedItemPattern::Realize**](uiauto-iuiautomationvirtualizeditempattern-realize.md) may cause the control to scroll the item into view. However, a client should not rely on the item scrolling into view or made visible. To ensure that the item is visible, the client can use the [**IUIAutomationScrollItemPattern::ScrollIntoView**](uiauto-iuiautomationscrollitempattern-scrollintoview.md) method.
+Depending on the control implementation, calling [**IUIAutomationVirtualizedItemPattern::Realize**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationvirtualizeditempattern-realize?branch=master) may cause the control to scroll the item into view. However, a client should not rely on the item scrolling into view or made visible. To ensure that the item is visible, the client can use the [**IUIAutomationScrollItemPattern::ScrollIntoView**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationscrollitempattern-scrollintoview?branch=master) method.
 
 ## Example
 

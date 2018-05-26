@@ -1,7 +1,12 @@
 ---
 title: Work with Links
 description: Work with Links
-ms.assetid: 'F071359B-21FE-44cb-B612-ACDD9642B929'
+ms.assetid: F071359B-21FE-44cb-B612-ACDD9642B929
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Work with Links

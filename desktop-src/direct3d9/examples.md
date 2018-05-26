@@ -1,7 +1,12 @@
 ---
-Description: 'Two example binary template definitions and an example of a binary data object follow.'
-ms.assetid: 'e08c7ceb-6e9c-4a3e-8bb6-5487e512a801'
+Description: Two example binary template definitions and an example of a binary data object follow.
+ms.assetid: e08c7ceb-6e9c-4a3e-8bb6-5487e512a801
 title: Examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Examples

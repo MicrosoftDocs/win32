@@ -1,7 +1,12 @@
 ---
-Description: 'A misconfigured firewall can cause WSD applications to fail.'
-ms.assetid: 'eba61235-29b4-463a-b7c5-d34d3b39b095'
+Description: A misconfigured firewall can cause WSD applications to fail.
+ms.assetid: eba61235-29b4-463a-b7c5-d34d3b39b095
 title: Inspecting Adapter and Firewall Settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inspecting Adapter and Firewall Settings

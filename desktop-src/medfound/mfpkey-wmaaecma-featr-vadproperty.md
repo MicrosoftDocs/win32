@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the type of voice activity detection that the Voice Capture DSP performs.'
-ms.assetid: '59c8e348-8c08-4cf8-9c72-8d0f4fabc473'
-title: 'MFPKEY\_WMAAECMA\_FEATR\_VAD Property'
+---
+Description: Specifies the type of voice activity detection that the Voice Capture DSP performs.
+ms.assetid: 59c8e348-8c08-4cf8-9c72-8d0f4fabc473
+title: MFPKEY\_WMAAECMA\_FEATR\_VAD Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAAECMA\_FEATR\_VAD Property
@@ -26,7 +31,7 @@ VT\_I4
 
 ## Remarks
 
-The value of this property is a member of the [AEC\_VAD\_MODE](aec-vad-modeenumeration.md) enumeration. The output from voice activity detection is a number from 0 to 3, calculated for each audio frame. The DSP encodes the result in the lowest bit of the first two audio samples in each audio frame. The meaning of the value depends on the specified mode.
+The value of this property is a member of the [AEC\_VAD\_MODE](/windows/win32/wmcodecdsp/ne-wmcodecdsp-aec_vad_mode?branch=master) enumeration. The output from voice activity detection is a number from 0 to 3, calculated for each audio frame. The DSP encodes the result in the lowest bit of the first two audio samples in each audio frame. The meaning of the value depends on the specified mode.
 
 The following code shows how to extract the results from the audio data. In this example, *pOutput* is a pointer to the start of an audio frame in the output data.
 

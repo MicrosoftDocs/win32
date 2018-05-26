@@ -1,8 +1,14 @@
 ---
 title: Layer Structures
 description: This section contains information about the layer structures.
-ms.assetid: '65f0830f-f009-47fb-b04e-24790e677338'
-keywords: ["structures, Direct3D 11 Layer"]
+ms.assetid: 65f0830f-f009-47fb-b04e-24790e677338
+keywords:
+- structures, Direct3D 11 Layer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Layer Structures
@@ -17,13 +23,13 @@ This section contains information about the layer structures.
 
 | Topic                                                                               | Description                                                                          |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [**D3D11\_INFO\_QUEUE\_FILTER**](d3d11-info-queue-filter.md)<br/>            | Debug message filter; contains a lists of message types to allow or deny.<br/> |
-| [**D3D11\_INFO\_QUEUE\_FILTER\_DESC**](d3d11-info-queue-filter-desc.md)<br/> | Allow or deny certain types of messages to pass through a filter.<br/>         |
-| [**D3D11\_MESSAGE**](d3d11-message.md)<br/>                                  | A debug message in the Information Queue.<br/>                                 |
+| [**D3D11\_INFO\_QUEUE\_FILTER**](/windows/win32/D3D11SDKLayers/ns-d3d11sdklayers-d3d11_info_queue_filter?branch=master)<br/>            | Debug message filter; contains a lists of message types to allow or deny.<br/> |
+| [**D3D11\_INFO\_QUEUE\_FILTER\_DESC**](/windows/win32/D3D11SDKLayers/ns-d3d11sdklayers-d3d11_info_queue_filter_desc?branch=master)<br/> | Allow or deny certain types of messages to pass through a filter.<br/>         |
+| [**D3D11\_MESSAGE**](/windows/win32/D3D11SDKLayers/ns-d3d11sdklayers-d3d11_message?branch=master)<br/>                                  | A debug message in the Information Queue.<br/>                                 |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -32,9 +38,9 @@ This section contains information about the layer structures.
 [Layer Reference](d3d11-graphics-reference-d3d11-layer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

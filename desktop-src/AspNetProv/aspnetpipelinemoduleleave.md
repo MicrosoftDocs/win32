@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the PipelineModuleLeave event.'
+---
+Description: The event type class for the PipelineModuleLeave event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd16668df-9ae5-47cc-93a4-ac928a416989'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d16668df-9ae5-47cc-93a4-ac928a416989
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetPipelineModuleLeave class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetPipelineModuleLeave class

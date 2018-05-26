@@ -1,7 +1,12 @@
 ---
 title: Text Rendering with Direct2D and DirectWrite
 description: Unlike other APIs, such as GDI, GDI+ or WPF, Direct2D interoperates with another API, DirectWrite, to manipulate and render text. This topic describes the benefits and interoperation of these separate components.
-ms.assetid: '1d5b8deb-34e2-433c-8de3-4ef66fb4e49d'
+ms.assetid: 1d5b8deb-34e2-433c-8de3-4ef66fb4e49d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Rendering with Direct2D and DirectWrite
@@ -44,7 +49,7 @@ The text layout interface is decoupled from the rendering API that the applicati
 
 This separation is possible because DirectWrite provides a rendering interface ([**IDWriteTextRenderer**](https://msdn.microsoft.com/library/windows/desktop/dd371523)) that applications can implement to render text by using whatever graphics API you want. The application implemented [**IDWriteTextRenderer::DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/dd371526) callback method is called by DirectWrite when rendering a text layout. It is the responsibility of this method to perform the drawing operations or pass them along.
 
-For drawing glyphs, [Direct2D](direct2d.direct2d_portal.xml) provides [**ID2D1RenderTarget::DrawGlyphRun**](id2d1rendertarget-drawglyphrun.md) for drawing to a Direct2D surface and [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038) provides [**IDWriteBitmapRenderTarget::DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/dd368167) for drawing to a GDI surface that can then be transferred to a window by using GDI. Conveniently, **DrawGlyphRun** in both Direct2D and DirectWrite have exactly compatible parameters to the [**DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/dd371526) method that the application implements on [**IDWriteTextRenderer**](https://msdn.microsoft.com/library/windows/desktop/dd371523).
+For drawing glyphs, [Direct2D](direct2d.direct2d_portal.xml) provides [**ID2D1RenderTarget::DrawGlyphRun**](/windows/win32/d2d1/?branch=master) for drawing to a Direct2D surface and [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038) provides [**IDWriteBitmapRenderTarget::DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/dd368167) for drawing to a GDI surface that can then be transferred to a window by using GDI. Conveniently, **DrawGlyphRun** in both Direct2D and DirectWrite have exactly compatible parameters to the [**DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/dd371526) method that the application implements on [**IDWriteTextRenderer**](https://msdn.microsoft.com/library/windows/desktop/dd371523).
 
 Following a similar separation, text-specific features (such as font enumeration and management, glyph analysis, and so on) are handled by [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038) instead of [Direct2D](direct2d.direct2d_portal.xml). The DirectWrite objects are accepted directly by Direct2D. To help existing GDI applications to take advantage of DirectWrite, it provides the [**IDWriteGdiInterop**](https://msdn.microsoft.com/library/windows/desktop/dd371172) method interface with methods to do the following:
 
@@ -55,7 +60,7 @@ Following a similar separation, text-specific features (such as font enumeration
 
 ## Glyphs versus Text
 
-Text is a set of Unicode code points (characters), with various stylistic modifiers (fonts, weights, underlines, strikethroughs, and so on) that is laid out in a rectangle. A glyph, in contrast, is a particular index into a particular font file. A glyph defines a set of curves which can be rendered, but, it doesn't have any textual meaning. There is potentially a many-to-many mapping between glyphs and characters. A sequence of glyphs that come from the same Font Face and that are laid-out sequentially on a baseline is called a [GlyphRun](https://msdn.microsoft.com/library/windows/desktop/dd941785). Both [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038) and [Direct2D](direct2d.direct2d_portal.xml) call their most precise glyph rendering API [**DrawGlyphRun**](id2d1rendertarget-drawglyphrun.md) and they have very similar signatures. The following is from [**ID2D1RenderTarget**](id2d1rendertarget.md) in Direct2D:
+Text is a set of Unicode code points (characters), with various stylistic modifiers (fonts, weights, underlines, strikethroughs, and so on) that is laid out in a rectangle. A glyph, in contrast, is a particular index into a particular font file. A glyph defines a set of curves which can be rendered, but, it doesn't have any textual meaning. There is potentially a many-to-many mapping between glyphs and characters. A sequence of glyphs that come from the same Font Face and that are laid-out sequentially on a baseline is called a [GlyphRun](https://msdn.microsoft.com/library/windows/desktop/dd941785). Both [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038) and [Direct2D](direct2d.direct2d_portal.xml) call their most precise glyph rendering API [**DrawGlyphRun**](/windows/win32/d2d1/?branch=master) and they have very similar signatures. The following is from [**ID2D1RenderTarget**](/windows/win32/d2d1/?branch=master) in Direct2D:
 
 
 ```
@@ -111,9 +116,9 @@ Each glyph run starts at an origin and is put on a line starting from this origi
 
 ## DirectWrite and Direct2D
 
-[Direct2D](direct2d.direct2d_portal.xml) provides glyph level rendering services through [**DrawGlyphRun**](id2d1rendertarget-drawglyphrun.md). However, this requires the application to implement the details of rendering, which basically reproduces the functionality of the [**DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd162498) API from GDI on its own.
+[Direct2D](direct2d.direct2d_portal.xml) provides glyph level rendering services through [**DrawGlyphRun**](/windows/win32/d2d1/?branch=master). However, this requires the application to implement the details of rendering, which basically reproduces the functionality of the [**DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd162498) API from GDI on its own.
 
-Therefore, [Direct2D](direct2d.direct2d_portal.xml) provides APIs that accept text instead of glyphs: [**ID2D1RenderTarget::DrawTextLayout**](id2d1rendertarget-drawtextlayout.md) and [**ID2D1RenderTarget::DrawText**](id2d1rendertarget-drawtext-ptr-wchar-ptr-idwritetextformat-ref-d2d-rect-f-ptr-id2d1brush-d2d1-draw-text-options-dwrite-text-measuring-method.md). Both methods render to a Direct2D surface. To render to a GDI surface, [**IDWriteBitmapRenderTarget::DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/dd368167) is provided. But this method requires a custom text renderer to be implemented by the application. (For more information, see the [Render to a GDI Surface](https://msdn.microsoft.com/library/windows/desktop/ff485856) topic.)
+Therefore, [Direct2D](direct2d.direct2d_portal.xml) provides APIs that accept text instead of glyphs: [**ID2D1RenderTarget::DrawTextLayout**](/windows/win32/d2d1/?branch=master) and [**ID2D1RenderTarget::DrawText**](/windows/win32/d2d1/?branch=master). Both methods render to a Direct2D surface. To render to a GDI surface, [**IDWriteBitmapRenderTarget::DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/dd368167) is provided. But this method requires a custom text renderer to be implemented by the application. (For more information, see the [Render to a GDI Surface](https://msdn.microsoft.com/library/windows/desktop/ff485856) topic.)
 
 An application's usage of text typically starts simple: put **OK** or **Cancel** on a fixed-layout button, for example. However, over time, it becomes more complex as internationalization and other features are added. Eventually many applications will have to use [DirectWrite's](https://msdn.microsoft.com/library/windows/desktop/dd368038) text layout objects and implement the text renderer.
 
@@ -123,15 +128,15 @@ Therefore, [Direct2D](direct2d.direct2d_portal.xml) provides layered APIs that e
 
 ### DrawText
 
-[**DrawText**](id2d1rendertarget-drawtext-ptr-wchar-ptr-idwritetextformat-ref-d2d-rect-f-ptr-id2d1brush-d2d1-draw-text-options-dwrite-text-measuring-method.md) is the simplest of the APIs to use. It takes a Unicode string, a foreground brush, a single format object and a destination rectangle. It will lay out and render the whole string within the layout rectangle, and optionally clip it. This is useful when you put a simple piece of text in a piece of fixed-layout UI.
+[**DrawText**](/windows/win32/d2d1/?branch=master) is the simplest of the APIs to use. It takes a Unicode string, a foreground brush, a single format object and a destination rectangle. It will lay out and render the whole string within the layout rectangle, and optionally clip it. This is useful when you put a simple piece of text in a piece of fixed-layout UI.
 
 ### DrawTextLayout
 
-By creating an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd316718) object, an application can start measuring and arranging the text and other UI elements, and support multiple fonts, styles, underlines and strikethroughs. [Direct2D](direct2d.direct2d_portal.xml) provides the [**DrawTextLayout**](id2d1rendertarget-drawtextlayout.md) API that directly accepts this object and renders the text at a given point. (The width and height are provided by the layout object). In addition to implementing all the expected text layout features, Direct2D will interpret any effect object as a brush and apply that brush to the selected range of glyphs. It will also call any inline objects. An application can then insert non-glyph characters (icons) into the text if it wishes. Another advantage of using a text layout object is that the glyph positions are cached in it. Therefore, a large performance gain is possible by reusing the same layout object for multiple draw calls and avoiding recalculating the glyph positions for each call. This capability is not present for GDI's [**DrawText**](id2d1rendertarget-drawtext-ptr-wchar-ptr-idwritetextformat-ref-d2d-rect-f-ptr-id2d1brush-d2d1-draw-text-options-dwrite-text-measuring-method.md).
+By creating an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd316718) object, an application can start measuring and arranging the text and other UI elements, and support multiple fonts, styles, underlines and strikethroughs. [Direct2D](direct2d.direct2d_portal.xml) provides the [**DrawTextLayout**](/windows/win32/d2d1/?branch=master) API that directly accepts this object and renders the text at a given point. (The width and height are provided by the layout object). In addition to implementing all the expected text layout features, Direct2D will interpret any effect object as a brush and apply that brush to the selected range of glyphs. It will also call any inline objects. An application can then insert non-glyph characters (icons) into the text if it wishes. Another advantage of using a text layout object is that the glyph positions are cached in it. Therefore, a large performance gain is possible by reusing the same layout object for multiple draw calls and avoiding recalculating the glyph positions for each call. This capability is not present for GDI's [**DrawText**](/windows/win32/d2d1/?branch=master).
 
 ### DrawGlyphRun
 
-Finally, the application can implement the [**IDWriteTextRenderer**](https://msdn.microsoft.com/library/windows/desktop/dd371523) interface itself and call [**DrawGlyphRun**](id2d1rendertarget-drawglyphrun.md) and [**FillRectangle**](id2d1rendertarget-fillrectangle.md) itself, or any other rendering API. All the existing interaction with the Text Layout object will remain unchanged.
+Finally, the application can implement the [**IDWriteTextRenderer**](https://msdn.microsoft.com/library/windows/desktop/dd371523) interface itself and call [**DrawGlyphRun**](/windows/win32/d2d1/?branch=master) and [**FillRectangle**](/windows/win32/d2d1_1/nf-d2d1-fillrectangle?branch=master) itself, or any other rendering API. All the existing interaction with the Text Layout object will remain unchanged.
 
 For an example of how to implement a custom text renderer see the [Render Using a Custom Text Renderer](https://msdn.microsoft.com/library/windows/desktop/dd941787) topic.
 
@@ -148,7 +153,7 @@ An application moving to [Direct2D](direct2d.direct2d_portal.xml) will also obta
 
 -   Hardware acceleration.
 -   The ability to fill text with an arbitrary [Direct2D](direct2d.direct2d_portal.xml) brush, such as radial gradients, linear gradients, and bitmaps.
--   More support for layering and clipping through the [**PushAxisAlignedClip**](id2d1rendertarget-pushaxisalignedclip-ref-d2d-rect-f-d2d1-antialias-mode.md), [**PushLayer**](id2d1rendertarget-pushlayer-ref-d2d1-layer-parameters-ptr-id2d1layer.md) and [**CreateCompatibleRenderTarget**](https://msdn.microsoft.com/library/windows/desktop/dd371825) APIs.
+-   More support for layering and clipping through the [**PushAxisAlignedClip**](/windows/win32/d2d1/?branch=master), [**PushLayer**](/windows/win32/d2d1/?branch=master) and [**CreateCompatibleRenderTarget**](https://msdn.microsoft.com/library/windows/desktop/dd371825) APIs.
 -   The ability to support Grayscale text rendering. This correctly populates the destination alpha channel according to both the text brush opacity and the antialiasing of the text.
 
 To efficiently support hardware acceleration, [Direct2D](direct2d.direct2d_portal.xml) uses a slightly different approximation to Gamma correction called *alpha correction*. This does not require Direct2D to inspect the render target color pixel when rendering text.

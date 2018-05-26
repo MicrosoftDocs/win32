@@ -4,10 +4,13 @@ description: To obtain SDOs for NPS (IAS) or a particular user, call the ISdoMac
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '23e23fb3-0102-4c36-b30f-18604131ee32'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 23e23fb3-0102-4c36-b30f-18604131ee32
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Obtaining Service and User SDOs

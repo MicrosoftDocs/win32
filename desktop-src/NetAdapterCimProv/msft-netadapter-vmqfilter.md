@@ -1,7 +1,12 @@
 ---
-Description: 'MAC address and VLAN ID filters for VMQ and VPorts.'
-ms.assetid: '91da5a1c-479c-4b98-9927-b63c87666b0e'
-title: 'MSFT\_NetAdapter\_VmqFilter class'
+Description: MAC address and VLAN ID filters for VMQ and VPorts.
+ms.assetid: 91da5a1c-479c-4b98-9927-b63c87666b0e
+title: MSFT\_NetAdapter\_VmqFilter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapter\_VmqFilter class
@@ -79,17 +84,17 @@ The VLAN ID filter. This value may be NULL.
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

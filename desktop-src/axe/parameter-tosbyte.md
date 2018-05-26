@@ -1,8 +1,11 @@
 ---
 title: Parameter ToSByte method
 description: Retrieve the value of the parameter as a specific data type.
-ms.assetid: '845D2AD5-B5CD-4596-9634-605FA50A7911'
-keywords: ["ToSByte method Access Execution Engine", "ToSByte method Access Execution Engine , Parameter interface", "Parameter interface Access Execution Engine , ToSByte method"]
+ms.assetid: 845D2AD5-B5CD-4596-9634-605FA50A7911
+keywords:
+- ToSByte method Access Execution Engine
+- ToSByte method Access Execution Engine , Parameter interface
+- Parameter interface Access Execution Engine , ToSByte method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameter::ToSByte method
@@ -22,7 +30,7 @@ Retrieve the value of the parameter as a specific data type.
 
 ```C++
 virtual HRESULT ToSByte(
-  [out] CHAR *paramValue
+  [out] CHAR *paramValue
 ) const = 0;
 ```
 
@@ -59,8 +67,8 @@ Managed code uses the [**Parameter.ToSByte**](axe-parameter_tosbyte_om) method.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -73,9 +81,9 @@ Managed code uses the [**Parameter.ToSByte**](axe-parameter_tosbyte_om) method.
 [**Parameter**](parameter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

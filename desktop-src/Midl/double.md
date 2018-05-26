@@ -2,13 +2,19 @@
 title: double attribute
 description: The double keyword designates a 64-bit floating-point number.
 ms.assetid: a235e9c5-90b3-4fa4-9154-06511abcccd0
-keywords: ["double attribute MIDL"]
+keywords:
+- double attribute MIDL
 topic_type:
 - apiref
 api_name:
 - double
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # double attribute

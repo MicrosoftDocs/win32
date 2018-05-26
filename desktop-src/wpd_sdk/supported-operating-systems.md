@@ -1,7 +1,12 @@
 ---
 Description: Supported Operating Systems
-ms.assetid: '5a4e378d-1d1f-442c-9949-877639d96a7c'
+ms.assetid: 5a4e378d-1d1f-442c-9949-877639d96a7c
 title: Supported Operating Systems
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supported Operating Systems

@@ -1,14 +1,20 @@
 ---
 title: AspectRatioY
 description: The AspectRatioY attribute contains the height component of the pixel aspect ratio for a video stream.
-ms.assetid: 'e5b043d7-8fae-45d0-b140-a34d9bc6d2d8'
-keywords: ["AspectRatioY windows Media Format"]
+ms.assetid: e5b043d7-8fae-45d0-b140-a34d9bc6d2d8
+keywords:
+- AspectRatioY windows Media Format
 topic_type:
 - apiref
 api_name:
 - AspectRatioY
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AspectRatioY

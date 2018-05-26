@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether modes enumerated by the encoder are limeted to those that meet a quality requirement given by MFPKEY\_DESIRED\_VBRQUALITY.'
-ms.assetid: 'b2f1d5c5-d2bb-4a8a-94ea-fd969e07bb0e'
-title: 'MFPKEY\_CONSTRAIN\_ENUMERATED\_VBRQUALITY Property'
+---
+Description: Specifies whether modes enumerated by the encoder are limeted to those that meet a quality requirement given by MFPKEY\_DESIRED\_VBRQUALITY.
+ms.assetid: b2f1d5c5-d2bb-4a8a-94ea-fd969e07bb0e
+title: MFPKEY\_CONSTRAIN\_ENUMERATED\_VBRQUALITY Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_CONSTRAIN\_ENUMERATED\_VBRQUALITY Property

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Core window.'
-ms.assetid: 'B18E322C-7954-473D-81A2-F181FBA9BDAC'
-title: 'MF\_MEDIA\_ENGINE\_COREWINDOW attribute'
+---
+Description: Core window.
+ms.assetid: B18E322C-7954-473D-81A2-F181FBA9BDAC
+title: MF\_MEDIA\_ENGINE\_COREWINDOW attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MEDIA\_ENGINE\_COREWINDOW attribute

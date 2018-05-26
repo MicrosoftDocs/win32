@@ -1,7 +1,12 @@
 ---
-Description: 'Notifies applications that the computer is about to enter a suspended state.'
-ms.assetid: '61b177a0-4cff-4740-bed8-a46c06c43be8'
-title: 'PBT\_APMSUSPEND event'
+Description: Notifies applications that the computer is about to enter a suspended state.
+ms.assetid: 61b177a0-4cff-4740-bed8-a46c06c43be8
+title: PBT\_APMSUSPEND event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBT\_APMSUSPEND event
@@ -39,7 +44,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>*wParam* </dt> <dd> 
 
@@ -49,7 +54,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,8 +81,8 @@ The system allows approximately two seconds for an application to handle this no
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
 
@@ -98,15 +103,15 @@ The system allows approximately two seconds for an application to handle this no
 [PBT\_APMQUERYSUSPEND](pbt-apmquerysuspend.md)
 </dt> <dt>
 
-[**SetSystemPowerState**](setsystempowerstate.md)
+[**SetSystemPowerState**](/windows/win32/WinBase/nf-winbase-setsystempowerstate?branch=master)
 </dt> <dt>
 
 [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

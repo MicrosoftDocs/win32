@@ -1,8 +1,20 @@
 ---
 title: Metadata Features
 description: Metadata is used in ASF files to describe file contents and properties.
-ms.assetid: '01ba09d7-11be-46b1-a0f2-4e35ca5502a8'
-keywords: ["Windows Media Format SDK,metadata features", "Windows Media Format SDK,features", "Advanced Systems Format (ASF),metadata features", "ASF (Advanced Systems Format),metadata features", "Advanced Systems Format (ASF),features", "ASF (Advanced Systems Format),features", "metadata,features"]
+ms.assetid: 01ba09d7-11be-46b1-a0f2-4e35ca5502a8
+keywords:
+- Windows Media Format SDK,metadata features
+- Windows Media Format SDK,features
+- Advanced Systems Format (ASF),metadata features
+- ASF (Advanced Systems Format),metadata features
+- Advanced Systems Format (ASF),features
+- ASF (Advanced Systems Format),features
+- metadata,features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metadata Features
@@ -37,13 +49,13 @@ The following topics discuss the other supported metadata features.
 [**Features**](features.md)
 </dt> <dt>
 
-[**IWMHeaderInfo Interface**](iwmheaderinfo.md)
+[**IWMHeaderInfo Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmheaderinfo?branch=master)
 </dt> <dt>
 
-[**IWMHeaderInfo2 Interface**](iwmheaderinfo2.md)
+[**IWMHeaderInfo2 Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2?branch=master)
 </dt> <dt>
 
-[**IWMHeaderInfo3 Interface**](iwmheaderinfo3.md)
+[**IWMHeaderInfo3 Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3?branch=master)
 </dt> <dt>
 
 [**Metadata**](metadata.md)

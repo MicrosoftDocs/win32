@@ -1,8 +1,33 @@
 ---
 title: Ranges
 description: Ranges
-ms.assetid: '68e17539-3b00-4e51-964d-0516b448f6c8'
-keywords: ["Text Services Framework (TSF),ranges", "TSF (Text Services Framework),ranges", "text services,ranges", "TSF-enabled applications,ranges", "ranges", "Text Services Framework (TSF),anchors", "TSF (Text Services Framework),anchors", "text services,anchors", "TSF-enabled applications,anchors", "anchors", "Text Services Framework (TSF),clones", "TSF (Text Services Framework),clones", "text services,clones", "TSF-enabled applications,clones", "clones", "Text Services Framework (TSF),backups", "TSF (Text Services Framework),backups", "text services,backups", "TSF-enabled applications,backups", "backups"]
+ms.assetid: 68e17539-3b00-4e51-964d-0516b448f6c8
+keywords:
+- Text Services Framework (TSF),ranges
+- TSF (Text Services Framework),ranges
+- text services,ranges
+- TSF-enabled applications,ranges
+- ranges
+- Text Services Framework (TSF),anchors
+- TSF (Text Services Framework),anchors
+- text services,anchors
+- TSF-enabled applications,anchors
+- anchors
+- Text Services Framework (TSF),clones
+- TSF (Text Services Framework),clones
+- text services,clones
+- TSF-enabled applications,clones
+- clones
+- Text Services Framework (TSF),backups
+- TSF (Text Services Framework),backups
+- text services,backups
+- TSF-enabled applications,backups
+- backups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ranges
@@ -97,7 +122,7 @@ It is very <anchor></anchor>cold today.
 
 ## Clones and Backups
 
-There are two ways to make a "copy" of a range object. The first is to make a *clone* of the range using [ITfRange::Clone](itfrange-clone.md). The second is to make a *backup* of the range using [ITfContext::CreateRangeBackup](itfcontext-createrangebackup.md).
+There are two ways to make a "copy" of a range object. The first is to make a *clone* of the range using [ITfRange::Clone](/windows/win32/Msctf/nf-msctf-itfrange-clone?branch=master). The second is to make a *backup* of the range using [ITfContext::CreateRangeBackup](/windows/win32/Msctf/nf-msctf-itfcontext-createrangebackup?branch=master).
 
 A clone is a copy of a range that does not include static data. The anchors of the range are copied, but the clone still covers a range of text within the context. A clone is a range object in all respects. This means that the text and properties for a cloned range are dynamic and will change if the text and/or properties of the range covered by the clone changes.
 
@@ -162,7 +187,7 @@ Setting the text caused the text within the context to change. It also caused th
 
 The text in pBackup has not changed from the original pRange because the data (text and properties) in the backup is unrelated to the context and is stored separately. The clone contained within the backup does actually change, but the data is static.
 
-When restoring a backup, the backup can be applied to the clone within the backup or to a different range entirely. To apply the backup to the clone within the backup, pass **NULL** to [ITfRangeBackup::Restore](itfrangebackup-restore.md) as shown in the following code example:
+When restoring a backup, the backup can be applied to the clone within the backup or to a different range entirely. To apply the backup to the clone within the backup, pass **NULL** to [ITfRangeBackup::Restore](/windows/win32/Msctf/nf-msctf-itfrangebackup-restore?branch=master) as shown in the following code example:
 
 
 ```C++

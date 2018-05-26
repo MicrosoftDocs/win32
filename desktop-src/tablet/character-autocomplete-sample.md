@@ -1,7 +1,12 @@
 ---
-Description: 'The Autocomplete sample demonstrates how to implement character Autocomplete in Japanese by using the recognition application programming interfaces (APIs).'
-ms.assetid: '237e33bc-3708-4128-8749-d3d031f7237a'
+Description: The Autocomplete sample demonstrates how to implement character Autocomplete in Japanese by using the recognition application programming interfaces (APIs).
+ms.assetid: 237e33bc-3708-4128-8749-d3d031f7237a
 title: Character Autocomplete Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Character Autocomplete Sample
@@ -15,7 +20,7 @@ The following features are used in this sample:
 
 ## Initializing the Ink Collector and Recognizer Context
 
-The [**InkCollector**](inkcollector-class.md) and [**InkRecognizerContext**](inkrecognizercontext-class.md) objects are declared as classes that can raise events.
+The [**InkCollector**](/windows/win32/msinkaut/?branch=master) and [**InkRecognizerContext**](/windows/win32/msinkaut/?branch=master) objects are declared as classes that can raise events.
 
 
 ```C++
@@ -69,7 +74,7 @@ End Sub
 
 ## Loading the Default Japanese Recognizer
 
-The [**GetDefaultRecognizer**](inkrecognizers-getdefaultrecognizer.md) method of the [**InkRecognizers**](inkrecognizers-collection.md) is called to retrieve the default recognizer for the Japanese language. Next, the IInkRecognizer object's [**Languages**](iinkrecognizer-languages.md) property is checked to determine if the recognizer supports the Japanese language. If it does, then the recognizer's [**CreateRecognizerContext**](iinkrecognizer-createrecognizercontext.md) method is used to generate a recognizer context for the form.
+The [**GetDefaultRecognizer**](/windows/win32/msinkaut/?branch=master) method of the [**InkRecognizers**](/windows/win32/msinkaut/?branch=master) is called to retrieve the default recognizer for the Japanese language. Next, the IInkRecognizer object's [**Languages**](/windows/win32/msinkaut/nf-msinkaut-iinkrecognizer-get_languages?branch=master) property is checked to determine if the recognizer supports the Japanese language. If it does, then the recognizer's [**CreateRecognizerContext**](/windows/win32/msinkaut/nf-msinkaut-iinkrecognizer-createrecognizercontext?branch=master) method is used to generate a recognizer context for the form.
 
 
 ```C++
@@ -109,7 +114,7 @@ End Sub
 
 ## Handling the Stroke Event
 
-The [**Stroke**](inkcollector-stroke.md) event handler first halts background recognition on the recognizer context. Then, it adds the new stroke to the recognizer context's [**Strokes**](iinkdivisionresult-strokes.md) property. Finally, it sets the recognizer context's [**InkRecognizerCharacterAutoCompletionMode**](inkrecognizercharacterautocompletionmode.md) property and calls the recognizer context's [**BackgroundRecognizeWithAlternates**](inkrecognizercontext-backgroundrecognizewithalternates.md) method for each of the three character Autocomplete modes. The *CustomData* parameter of the **BackgroundRecognizeWithAlternates** method call is used to identify which recognition results are returned in the [**RecognitionWithAlternates**](inkrecognizercontext-recognitionwithalternates.md) event.
+The [**Stroke**](inkcollector-stroke.md) event handler first halts background recognition on the recognizer context. Then, it adds the new stroke to the recognizer context's [**Strokes**](/windows/win32/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes?branch=master) property. Finally, it sets the recognizer context's [**InkRecognizerCharacterAutoCompletionMode**](/windows/win32/msinkaut/ne-msinkaut-inkrecognizercharacterautocompletionmode?branch=master) property and calls the recognizer context's [**BackgroundRecognizeWithAlternates**](inkrecognizercontext-backgroundrecognizewithalternates.md) method for each of the three character Autocomplete modes. The *CustomData* parameter of the **BackgroundRecognizeWithAlternates** method call is used to identify which recognition results are returned in the [**RecognitionWithAlternates**](inkrecognizercontext-recognitionwithalternates.md) event.
 
 
 ```C++
@@ -183,7 +188,7 @@ The Paint event handler clears the results picture boxes and adds the saved reco
 
 ## Deleting the Strokes
 
-The form's `CmdClear_Click` method handles the Clear command. If the [**InkCollector**](inkcollector-class.md) is currently collecting ink, then a message box is displayed and the command is ignored. Otherwise, the event handler stops background recognition, clears the [**Strokes**](iinkdivisionresult-strokes.md) property of the recognizer context, and deletes the strokes from the form's [**InkDisp**](inkdisp-class.md) object. Then, the event handler redraws the picture box to which the ink collector is associated, and clears the recognition strings and picture boxes.
+The form's `CmdClear_Click` method handles the Clear command. If the [**InkCollector**](/windows/win32/msinkaut/?branch=master) is currently collecting ink, then a message box is displayed and the command is ignored. Otherwise, the event handler stops background recognition, clears the [**Strokes**](/windows/win32/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes?branch=master) property of the recognizer context, and deletes the strokes from the form's [**InkDisp**](/windows/win32/msinkaut/?branch=master) object. Then, the event handler redraws the picture box to which the ink collector is associated, and clears the recognition strings and picture boxes.
 
 
 ```C++

@@ -1,7 +1,12 @@
 ---
 title: Formatting the Properties Parameter
 description: Formatting the Properties Parameter
-ms.assetid: '49f8413e-bbc7-4a90-9964-88b049011bff'
+ms.assetid: 49f8413e-bbc7-4a90-9964-88b049011bff
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Formatting the Properties Parameter
@@ -53,7 +58,7 @@ You must follow these guidelines when formatting the contents of this structure:
 
     
 
-     
+     
 
     </dd> <dt>
 
@@ -78,7 +83,7 @@ You must follow these guidelines when formatting the contents of this structure:
     > [!Note]  
     > Do not specify real-time logging unless there are real-time consumers ready to consume the events. If there are no real-time consumers the events are written to a playback file. The size of the playback file is limited. If the limit is reached, no new events are logged to the log file or the playback file. The logging functions fail with **STATUS\_LOG\_FILE\_FULL**.
 
-     
+     
 
     </dd> <dt>
 
@@ -150,13 +155,13 @@ You must follow these guidelines when formatting the contents of this structure:
     > [!Note]  
     > It is not necessary to set the logger name at the **LoggerNameOffset** as **StartKernelTrace** will always use the KERNEL\_LOGGER\_NAME value to call **StartKernelTrace**. The **StartKernelTrace** API checks if the **Wnode.Guid** corresponds to **SystemTraceControlGuid** and returns **ERROR\_INVALID\_PARAMETER** if it does not. If **Wnode.Guid** corresponds to **KernelRundownGuid**, the logger name should be specified. The **KernelRundownGuid** is the control GUID used to log events such as existing process information, thread information, images loaded per process, and hardware configuration like CPU, Video, Disk, Network cards, Services, Power, PNP, and Disk IDE Channels.
 
-     
+     
 
     </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

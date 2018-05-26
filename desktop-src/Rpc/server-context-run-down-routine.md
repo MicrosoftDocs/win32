@@ -1,7 +1,12 @@
 ---
 title: Server Context Run-down Routine
 description: If communication breaks down while the server is maintaining context on behalf of the client, a cleanup routine may be needed to clean up the state maintained by the server on behalf of a given client.
-ms.assetid: 'b39654e4-6f03-43a0-8a5d-6f24bd0a529c'
+ms.assetid: b39654e4-6f03-43a0-8a5d-6f24bd0a529c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server Context Run-down Routine

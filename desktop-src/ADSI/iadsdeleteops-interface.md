@@ -4,16 +4,22 @@ description: The IADsDeleteOps interface is used in supervisory and maintenance 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '821b71c2-e9f5-4ca8-9366-e8a3f1907670'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 821b71c2-e9f5-4ca8-9366-e8a3f1907670
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsDeleteOps Interface ADSI", "IADsDeleteOps ADSI , using", "ADSI ADSI , example code C/C++ , using IADsDeleteOps to delete entire groups"]
+keywords:
+- IADsDeleteOps Interface ADSI
+- IADsDeleteOps ADSI , using
+- ADSI ADSI , example code C/C++ , using IADsDeleteOps to delete entire groups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsDeleteOps Interface
 
-The [**IADsDeleteOps**](iadsdeleteops.md) interface is used in supervisory and maintenance routines for the underlying directory store. It can delete leaf objects and entire subtrees in a single operation.
+The [**IADsDeleteOps**](/windows/win32/Iads/nn-iads-iadsdeleteops?branch=master) interface is used in supervisory and maintenance routines for the underlying directory store. It can delete leaf objects and entire subtrees in a single operation.
 
 If this interface were not supported, deleting an object from Active Directory would require that each contained object be recursively enumerated and deleted. With this interface, any container object, with all its contained objects and subobjects, can be deleted with a single operation.
 

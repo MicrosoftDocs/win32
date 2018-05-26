@@ -1,14 +1,20 @@
 ---
 title: D1100 Handle Already Closed
-ms.assetid: 'd58e392c-a302-4c03-b868-356c3982dce2'
+ms.assetid: d58e392c-a302-4c03-b868-356c3982dce2
 description: 
-keywords: ["D1100 Handle Already Closed Direct2D"]
+keywords:
+- D1100 Handle Already Closed Direct2D
 topic_type:
 - apiref
 api_name:
 - D1100 Handle Already Closed
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1100: Handle Already Closed

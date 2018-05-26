@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the type of authenticated channel.'
-ms.assetid: 'eec4b117-a9f2-479d-99d7-e5d4053cf6b4'
-title: 'D3DAUTHENTICATEDQUERY\_CHANNELTYPE'
+---
+Description: Returns the type of authenticated channel.
+ms.assetid: eec4b117-a9f2-479d-99d7-e5d4053cf6b4
+title: D3DAUTHENTICATEDQUERY\_CHANNELTYPE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDQUERY\_CHANNELTYPE
@@ -46,7 +51,7 @@ This query is valid for all channel types.
 [GPU-Based Content Protection](gpu-based-content-protection.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md)
+[**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master)
 </dt> </dl>
 
  

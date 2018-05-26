@@ -1,8 +1,15 @@
 ---
 title: Srdelayed.exe
 description: Applications that perform system state restore operations early in the startup of the operating system may be unable to use the file management functions to move, delete, or set the short name of certain system files.
-ms.assetid: 'cedeb48e-bc1d-48d1-9bee-0b8b0132c3e5'
-keywords: ["Srdelayed.exe Backup", "system state recovery Backup"]
+ms.assetid: cedeb48e-bc1d-48d1-9bee-0b8b0132c3e5
+keywords:
+- Srdelayed.exe Backup
+- system state recovery Backup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Srdelayed.exe

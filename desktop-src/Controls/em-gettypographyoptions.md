@@ -1,8 +1,9 @@
 ---
 title: EM\_GETTYPOGRAPHYOPTIONS message
 description: Returns the current state of the typography options of a rich edit control.
-ms.assetid: '6ff5980e-3201-4b0f-9a03-3de78730ce33'
-keywords: ["EM_GETTYPOGRAPHYOPTIONS message Windows Controls"]
+ms.assetid: 6ff5980e-3201-4b0f-9a03-3de78730ce33
+keywords:
+- EM_GETTYPOGRAPHYOPTIONS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETTYPOGRAPHYOPTIONS message
@@ -49,8 +55,8 @@ You can turn on advanced line breaking by sending the [**EM\_SETTYPOGRAPHYOPTION
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Redistributable<br/>          | Rich Edit 3.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
@@ -72,9 +78,9 @@ You can turn on advanced line breaking by sending the [**EM\_SETTYPOGRAPHYOPTION
 [About Rich Edit Controls](about-rich-edit-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

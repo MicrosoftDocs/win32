@@ -4,11 +4,16 @@ description: The Failover Cluster API, allows developers to write applications a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '97580b67-4ad5-4ee8-91ef-0d1ec9393ebd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 97580b67-4ad5-4ee8-91ef-0d1ec9393ebd
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Failover Cluster API Failover Cluster", "Failover Cluster APIs Failover Cluster ,about,Failover Cluster API"]
+keywords:
+- Failover Cluster API Failover Cluster
+- Failover Cluster APIs Failover Cluster ,about,Failover Cluster API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # The Failover Cluster API

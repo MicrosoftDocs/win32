@@ -1,14 +1,20 @@
 ---
 title: AcquisitionTimeYearMonthDay Attribute
 description: The AcquisitionTimeYearMonthDay attribute is the year, month, and day part of the date and time the item was added to the library.
-ms.assetid: 'b8bde5b9-bf9b-460e-80cc-7aaef2b4d908'
-keywords: ["AcquisitionTimeYearMonthDay Attribute Windows Media Player"]
+ms.assetid: b8bde5b9-bf9b-460e-80cc-7aaef2b4d908
+keywords:
+- AcquisitionTimeYearMonthDay Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AcquisitionTimeYearMonthDay
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AcquisitionTimeYearMonthDay Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

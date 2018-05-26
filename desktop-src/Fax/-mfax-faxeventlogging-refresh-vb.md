@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Refresh method refreshes FaxEventLogging object information from the fax server.'
-ms.assetid: '35400b0f-e902-48f9-bef2-71f62fd41552'
-title: 'FaxEventLogging.Refresh method'
+---
+Description: The Refresh method refreshes FaxEventLogging object information from the fax server.
+ms.assetid: 35400b0f-e902-48f9-bef2-71f62fd41552
+title: FaxEventLogging.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxEventLogging.Refresh method
@@ -25,7 +30,7 @@ This method has no parameters.
 
 When the [**FaxEventLogging**](-mfax-faxeventlogging.md) method is called, any configuration changes made after the last [**Save**](-mfax-faxeventlogging-save-vb.md) method call are lost.
 
-To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-ac
 [**FaxEventLogging**](-mfax-faxeventlogging.md)
 </dt> <dt>
 
-[**IFaxEventLogging**](-mfax-faxeventlogging-cpp.md)
+[**IFaxEventLogging**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxeventlogging?branch=master)
 </dt> </dl>
 
  

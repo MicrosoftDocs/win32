@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '265032ef-4cc7-4fcc-8294-d14ca184c4f2'
-title: 'System.Contact.ConnectedServiceIdentities'
+Description: .
+ms.assetid: 265032ef-4cc7-4fcc-8294-d14ca184c4f2
+title: System.Contact.ConnectedServiceIdentities
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.ConnectedServiceIdentities

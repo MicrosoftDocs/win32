@@ -1,7 +1,12 @@
-﻿---
-Description: 'Access the mesh''s index buffer after it has been committed to the device with ID3DX10Mesh::CommitToDevice. This is different from ID3DX10Mesh::GetIndexBuffer, which returns the index buffer before it has been committed to the device.'
-ms.assetid: '94d21f50-91b5-4f8d-ac73-7a851bba8685'
-title: 'ID3DX10Mesh::GetDeviceIndexBuffer method'
+---
+Description: Access the meshs index buffer after it has been committed to the device with ID3DX10MeshCommitToDevice. This is different from ID3DX10MeshGetIndexBuffer, which returns the index buffer before it has been committed to the device.
+ms.assetid: 94d21f50-91b5-4f8d-ac73-7a851bba8685
+title: ID3DX10MeshGetDeviceIndexBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::GetDeviceIndexBuffer method
@@ -26,7 +31,7 @@ HRESULT GetDeviceIndexBuffer(
 *ppIndexBuffer* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Buffer**](id3d10buffer.md)\*\***
+Type: **[**ID3D10Buffer**](/windows/win32/D3D10/nn-d3d10-id3d10buffer?branch=master)\*\***
 
 The index buffer after it has been committed to the device.
 

@@ -4,11 +4,15 @@ description: Active Directory Domain Services are part of the Windows 2000 trus
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8fb6a9a4-d1c4-48e9-8ffb-240990777a1c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8fb6a9a4-d1c4-48e9-8ffb-240990777a1c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Security Active Directory"]
+keywords:
+- Security Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Security in Active Directory Domain Services

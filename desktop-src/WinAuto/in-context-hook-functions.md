@@ -1,7 +1,12 @@
 ---
 title: In-Context Hook Functions
-ms.assetid: 'bf12bda6-b00e-4fbe-a576-b989aa428b54'
+ms.assetid: bf12bda6-b00e-4fbe-a576-b989aa428b54
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # In-Context Hook Functions

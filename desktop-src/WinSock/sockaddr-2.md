@@ -1,7 +1,12 @@
 ---
-Description: 'The sockaddr structure varies depending on the protocol selected.'
-ms.assetid: 'd1392e1c-2b20-425a-8adf-38e665fb6275'
+Description: The sockaddr structure varies depending on the protocol selected.
+ms.assetid: d1392e1c-2b20-425a-8adf-38e665fb6275
 title: sockaddr
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sockaddr
@@ -10,7 +15,7 @@ The sockaddr structure varies depending on the protocol selected. Except for the
 
 Winsock functions using sockaddr are not strictly interpreted to be pointers to a sockaddr structure. The structure is interpreted differently in the context of different address families. The only requirements are that the first **u\_short** is the address family and the total size of the memory buffer in bytes is *namelen*.
 
-The [**SOCKADDR\_STORAGE**](sockaddr-storage-2.md) structure also stores socket address information and the structure is sufficiently large to store IPv4 or IPv6 address information. The use of the **SOCKADDR\_STORAGE** structure promotes protocol-family and protocol-version independence, and simplifies development. It is recommended that the **SOCKADDR\_STORAGE** structure be used in place of the sockaddr structure. The **SOCKADDR\_STORAGE** structure is supported on Windows Server 2003 and later.
+The [**SOCKADDR\_STORAGE**](/windows/win32/Ws2def/?branch=master) structure also stores socket address information and the structure is sufficiently large to store IPv4 or IPv6 address information. The use of the **SOCKADDR\_STORAGE** structure promotes protocol-family and protocol-version independence, and simplifies development. It is recommended that the **SOCKADDR\_STORAGE** structure be used in place of the sockaddr structure. The **SOCKADDR\_STORAGE** structure is supported on Windows Server 2003 and later.
 
 The sockaddr structure and sockaddr\_in structures below are used with IPv4. Other protocols use similar structures.
 
@@ -115,7 +120,7 @@ bind( ListenSocket,(SOCKADDR*) &amp;saServer, sizeof(saServer) );
 
 ## See Also
 
-[**SOCKADDR\_STORAGE**](sockaddr-storage-2.md)
+[**SOCKADDR\_STORAGE**](/windows/win32/Ws2def/?branch=master)
 
 
  

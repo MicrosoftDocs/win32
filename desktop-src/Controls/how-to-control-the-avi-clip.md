@@ -1,7 +1,12 @@
 ---
 title: How to Control the AVI Clip
 description: This topic demonstrates how to use the animation control macros to play, stop, and close an associated Audio-Video Interleaved (AVI) clip.
-ms.assetid: '4B19F929-B306-4EBF-B82F-6539FAA42BA6'
+ms.assetid: 4B19F929-B306-4EBF-B82F-6539FAA42BA6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Control the AVI Clip
@@ -26,7 +31,7 @@ This topic demonstrates how to use the animation control macros to play, stop, a
 
 Create a function that takes as parameters a handle to the animation control and a flag that indicates the action to be performed on the associated AVI clip.
 
-The function in the following C++ example calls one of three animation control macros ([**Animate\_Play**](animate-play.md), [**Animate\_Stop**](animate-stop.md), [**Animate\_Close**](animate-close.md)) based on the value of the *nAction* parameter. The handle to the animation control that is associated with the AVI clip is passed via the *hwndAnim* parameter.
+The function in the following C++ example calls one of three animation control macros ([**Animate\_Play**](/windows/win32/Commctrl/nf-commctrl-animate_play?branch=master), [**Animate\_Stop**](/windows/win32/Commctrl/nf-commctrl-animate_stop?branch=master), [**Animate\_Close**](/windows/win32/Commctrl/nf-commctrl-animate_close?branch=master)) based on the value of the *nAction* parameter. The handle to the animation control that is associated with the AVI clip is passed via the *hwndAnim* parameter.
 
 
 ```C++

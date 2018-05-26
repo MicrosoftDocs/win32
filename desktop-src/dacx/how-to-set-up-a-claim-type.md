@@ -4,11 +4,15 @@ description: Claim type (msDS-ClaimType) resides in msDS-ClaimTypes container an
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '975AB529-6C0E-4071-B979-67E34F89CE8D'
-ms.prod: 'windows-server-dev'
-ms.technology: 'dynamic-access-control'
+ms.assetid: 975AB529-6C0E-4071-B979-67E34F89CE8D
+ms.prod: windows-server-dev
+ms.technology: dynamic-access-control
 ms.tgt_platform: multiple
-keywords: ["Dynamic Access Control developer extensibility DACx , claim types"]
+keywords:
+- Dynamic Access Control developer extensibility DACx , claim types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to set up a claim type

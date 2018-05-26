@@ -1,7 +1,12 @@
 ---
 title: Secure Code Practices
 description: The following are practices for writing secure applications for use with Indexing Service.
-ms.assetid: '9095ad80-3f2a-44e1-8ade-f4d318651264'
+ms.assetid: 9095ad80-3f2a-44e1-8ade-f4d318651264
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Secure Code Practices

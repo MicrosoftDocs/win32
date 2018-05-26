@@ -1,7 +1,12 @@
 ---
 title: Long Form, Short Form, and Defaults
 description: Long Form, Short Form, and Defaults
-ms.assetid: '5803cfd0-b398-41f9-924d-01bee0681b5c'
+ms.assetid: 5803cfd0-b398-41f9-924d-01bee0681b5c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Long Form, Short Form, and Defaults

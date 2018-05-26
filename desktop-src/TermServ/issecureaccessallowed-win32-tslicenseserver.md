@@ -1,14 +1,17 @@
 ---
 title: IsSecureAccessAllowed method of the Win32\_TSLicenseServer class
-description: Retrieves whether a Remote Desktop Session Host (RD Session Host) server is allowed to request Remote Desktop Services client access licenses (RDS \ 160;CALs) from the Remote Desktop license server.
+description: Retrieves whether a Remote Desktop Session Host (RD Session Host) server is allowed to request Remote Desktop Services client access licenses (RDS \ 160;CALs) from the Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b9124808-79be-4b94-b12b-f093d5e8195a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b9124808-79be-4b94-b12b-f093d5e8195a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IsSecureAccessAllowed method Remote Desktop Services", "IsSecureAccessAllowed method Remote Desktop Services , Win32_TSLicenseServer class", "Win32_TSLicenseServer class Remote Desktop Services , IsSecureAccessAllowed method"]
+keywords:
+- IsSecureAccessAllowed method Remote Desktop Services
+- IsSecureAccessAllowed method Remote Desktop Services , Win32_TSLicenseServer class
+- Win32_TSLicenseServer class Remote Desktop Services , IsSecureAccessAllowed method
 topic_type:
 - apiref
 api_name:
@@ -17,19 +20,22 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IsSecureAccessAllowed method of the Win32\_TSLicenseServer class
 
-Retrieves whether a Remote Desktop Session Host (RD Session Host) server is allowed to request Remote Desktop Services client access licenses (RDS CALs) from the Remote Desktop license server.
+Retrieves whether a Remote Desktop Session Host (RD Session Host) server is allowed to request Remote Desktop Services client access licenses (RDS CALs) from the Remote Desktop license server.
 
 ## Syntax
 
 
 ```mof
 uint32 IsSecureAccessAllowed(
-  [in]  string  tsname,
-  [out] boolean Allowed
+  [in]  string  tsname,
+  [out] boolean Allowed
 );
 ```
 
@@ -42,14 +48,14 @@ uint32 IsSecureAccessAllowed(
 *tsname* \[in\]
 </dt> <dd>
 
-Name of the RD Session Host server.
+Name of the RD Session Host server.
 
 </dd> <dt>
 
 *Allowed* \[out\]
 </dt> <dd>
 
-Boolean value that indicates whether the RD Session Host server is allowed to request RDS CALs from the license server.
+Boolean value that indicates whether the RD Session Host server is allowed to request RDS CALs from the license server.
 
 </dd> </dl>
 
@@ -72,7 +78,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -89,9 +95,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**IsLSSecGrpGPEnabled**](islssecgrpgpenabled-win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: To link to a bookmark in another HTML file
 description: To link to a bookmark in another HTML file
-ms.assetid: 'DFD5D88C-18AE-480b-A8A7-BAAD08E90088'
+ms.assetid: DFD5D88C-18AE-480b-A8A7-BAAD08E90088
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To link to a bookmark in another HTML file

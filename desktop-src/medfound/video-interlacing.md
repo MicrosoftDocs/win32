@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Video Interlacing
-ms.assetid: '2911ae57-1703-4a9d-bd33-94af1e0f8804'
+ms.assetid: 2911ae57-1703-4a9d-bd33-94af1e0f8804
 title: Video Interlacing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Interlacing
@@ -28,7 +33,7 @@ Information about interlacing is stored in two places:
 
 ## Interlace Information in the Media Type
 
-The [**MF\_MT\_INTERLACE\_MODE**](mf-mt-interlace-mode-attribute.md) attribute on the media type describes how the stream as a whole is interlaced. The value of this attribute is a member of the [**MFVideoInterlaceMode**](mfvideointerlacemode.md) enumeration. A video media type should always have this attribute.
+The [**MF\_MT\_INTERLACE\_MODE**](mf-mt-interlace-mode-attribute.md) attribute on the media type describes how the stream as a whole is interlaced. The value of this attribute is a member of the [**MFVideoInterlaceMode**](/windows/win32/mfobjects/ne-mfobjects-_mfvideointerlacemode?branch=master) enumeration. A video media type should always have this attribute.
 
 -   If the stream contains only progressive frames, with no interlaced frames, use MFVideoInterlace\_Progressive.
 -   If the stream contains only interlaced frames, and every sample contains two interleaved fields, use MFVideoInterlace\_FieldInterleavedUpperFirst or MFVideoInterlace\_FieldInterleavedLowerFirst.
@@ -56,7 +61,7 @@ Interleaved fields and single fields cannot be mixed. Switching from one to anot
 
 ## Interlace Flags on Samples
 
-Information that can change from one sample to the next is indicated using sample attributes. Use the [**IMFSample**](imfsample.md) interface to get or set these attributes.
+Information that can change from one sample to the next is indicated using sample attributes. Use the [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) interface to get or set these attributes.
 
 All of the interlacing attributes listed in this section have Boolean values. Effectively, each of these attributes can have three values: either **TRUE**, **FALSE**, or not set. If an attribute is not set, the value is taken from the media type. If an attribute is set, the value overrides the media type. Some combinations of flags and media types are not valid.
 

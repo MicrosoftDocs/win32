@@ -1,7 +1,12 @@
 ---
 Description: WsdCodeGen Reference
-ms.assetid: '7cf6fc14-4d41-4983-979c-6f14d1c9cdd2'
+ms.assetid: 7cf6fc14-4d41-4983-979c-6f14d1c9cdd2
 title: WsdCodeGen Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WsdCodeGen Reference

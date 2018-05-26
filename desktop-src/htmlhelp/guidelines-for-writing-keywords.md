@@ -1,7 +1,12 @@
 ---
 title: Guidelines for Writing Keywords
 description: Guidelines for Writing Keywords
-ms.assetid: 'E7D6B423-7C44-4bf5-A9AC-443B9312B7CD'
+ms.assetid: E7D6B423-7C44-4bf5-A9AC-443B9312B7CD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Guidelines for Writing Keywords

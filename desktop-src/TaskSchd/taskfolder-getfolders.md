@@ -1,8 +1,11 @@
 ---
 title: TaskFolder.GetFolders property
 description: For scripting, gets all the subfolders in the folder.
-ms.assetid: 'ee00a8be-52f5-4399-9a1f-18e06121a3da'
-keywords: ["GetFolders property Task Scheduler", "GetFolders property Task Scheduler , TaskFolder object", "TaskFolder object Task Scheduler , GetFolders property"]
+ms.assetid: ee00a8be-52f5-4399-9a1f-18e06121a3da
+keywords:
+- GetFolders property Task Scheduler
+- GetFolders property Task Scheduler , TaskFolder object
+- TaskFolder object Task Scheduler , GetFolders property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskFolder.GetFolders property
@@ -37,8 +45,8 @@ TaskFolder.GetFolders( _
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -51,9 +59,9 @@ TaskFolder.GetFolders( _
 [**TaskFolderCollection**](taskfoldercollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

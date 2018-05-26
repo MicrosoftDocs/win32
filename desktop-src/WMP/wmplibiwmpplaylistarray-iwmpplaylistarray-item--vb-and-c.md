@@ -1,8 +1,11 @@
 ---
 title: IWMPPlaylistArray Item method
 description: The Item method returns an IWMPPlaylist interface representing the playlist at the specified index.
-ms.assetid: '5cb4b89f-b679-4d92-a5f9-5d0fe686775d'
-keywords: ["Item method Windows Media Player", "Item method Windows Media Player , IWMPPlaylistArray interface", "IWMPPlaylistArray interface Windows Media Player , Item method"]
+ms.assetid: 5cb4b89f-b679-4d92-a5f9-5d0fe686775d
+keywords:
+- Item method Windows Media Player
+- Item method Windows Media Player , IWMPPlaylistArray interface
+- IWMPPlaylistArray interface Windows Media Player , Item method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylistArray::Item method
@@ -90,9 +98,9 @@ Before calling this method, you must have read access to the library. For more i
 [**IWMPPlaylistArray Interface (VB and C#)**](iwmpplaylistarray--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

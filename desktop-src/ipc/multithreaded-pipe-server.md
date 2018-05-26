@@ -1,12 +1,17 @@
 ---
-Description: 'Code example of a multithreaded pipe server.'
-ms.assetid: '4657e814-0e7f-45b5-8ddb-17ec0c3612ba'
+Description: Code example of a multithreaded pipe server.
+ms.assetid: 4657e814-0e7f-45b5-8ddb-17ec0c3612ba
 title: Multithreaded Pipe Server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multithreaded Pipe Server
 
-The following example is a multithreaded pipe server. It has a main thread with a loop that creates a pipe instance and waits for a pipe client to connect. When a pipe client connects, the pipe server creates a thread to service that client and then continues to execute the loop in the main thread. It is possible for a pipe client to connect successfully to the pipe instance in the interval between calls to the [**CreateNamedPipe**](createnamedpipe.md) and [**ConnectNamedPipe**](connectnamedpipe.md) functions. If this happens, **ConnectNamedPipe** returns zero, and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns ERROR\_PIPE\_CONNECTED.
+The following example is a multithreaded pipe server. It has a main thread with a loop that creates a pipe instance and waits for a pipe client to connect. When a pipe client connects, the pipe server creates a thread to service that client and then continues to execute the loop in the main thread. It is possible for a pipe client to connect successfully to the pipe instance in the interval between calls to the [**CreateNamedPipe**](/windows/win32/Winbase/nf-winbase-createnamedpipea?branch=master) and [**ConnectNamedPipe**](/windows/win32/Winbase/?branch=master) functions. If this happens, **ConnectNamedPipe** returns zero, and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns ERROR\_PIPE\_CONNECTED.
 
 The thread created to service each pipe instance reads requests from the pipe and writes replies to the pipe until the pipe client closes its handle. When this happens, the thread flushes the pipe, disconnects, closes its pipe handle, and terminates. The main thread will run until an error occurs or the process is ended.
 

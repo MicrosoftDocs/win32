@@ -1,7 +1,12 @@
-﻿---
-Description: 'Displays a Select User interface, allowing a user name to be selected.'
-ms.assetid: '0a02d9e5-b2cf-4818-a2e1-89e6019e53d4'
-title: 'ISCrdEnr::selectUserName method'
+---
+Description: Displays a Select User interface, allowing a user name to be selected.
+ms.assetid: 0a02d9e5-b2cf-4818-a2e1-89e6019e53d4
+title: ISCrdEnrselectUserName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCrdEnr::selectUserName method

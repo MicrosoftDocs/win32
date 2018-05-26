@@ -4,11 +4,16 @@ description: Contains interfaces, structures, unions, and enumeration types that
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8b115329-a63d-4c1e-b344-a0aa74c40e13'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8b115329-a63d-4c1e-b344-a0aa74c40e13
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , Remote Desktop Protocol provider reference", "Remote Desktop Protocol (RDP) Remote Desktop Services , provider reference"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , Remote Desktop Protocol provider reference
+- Remote Desktop Protocol (RDP) Remote Desktop Services , provider reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Protocol Provider reference

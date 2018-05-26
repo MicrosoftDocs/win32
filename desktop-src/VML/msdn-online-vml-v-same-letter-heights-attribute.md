@@ -1,7 +1,12 @@
 ---
 title: VML V-Same-Letter-Heights Attribute
 description: VML V-Same-Letter-Heights Attribute
-ms.assetid: 'f06c0a50-1de1-47d8-8b94-01fe0599ed59'
+ms.assetid: f06c0a50-1de1-47d8-8b94-01fe0599ed59
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML V-Same-Letter-Heights Attribute

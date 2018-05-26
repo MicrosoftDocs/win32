@@ -1,8 +1,11 @@
 ---
 title: GetSummaryInformation method of the Msvm\_VirtualSystemManagementService class
 description: Returns VM summary information.
-ms.assetid: 'ebfbf3c1-07b4-41be-a041-09b173b241d8'
-keywords: ["GetSummaryInformation method Hyper-V", "GetSummaryInformation method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , GetSummaryInformation method"]
+ms.assetid: ebfbf3c1-07b4-41be-a041-09b173b241d8
+keywords:
+- GetSummaryInformation method Hyper-V
+- GetSummaryInformation method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , GetSummaryInformation method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSummaryInformation method of the Msvm\_VirtualSystemManagementService class
@@ -22,9 +30,9 @@ Returns virtual machine (VM) summary information.
 
 ```mof
 uint32 GetSummaryInformation(
-  [in]  CIM_VirtualSystemSettingData REF SettingData[],
-  [in]  uint32                           RequestedInformation[],
-  [out] Msvm_SummaryInformation          SummaryInformation[]
+  [in]  CIM_VirtualSystemSettingData REF SettingData[],
+  [in]  uint32                           RequestedInformation[],
+  [out] Msvm_SummaryInformation          SummaryInformation[]
 );
 ```
 
@@ -254,7 +262,7 @@ This corresponds to the **HealthState** property of the [**Msvm\_SummaryInformat
 
 This corresponds to the **OperationalStatus** property of the [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) class.
 
-**Windows Server 2008:** This value is not supported before Windows Server 2008 R2.
+**Windows Server 2008:** This value is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -267,7 +275,7 @@ This corresponds to the **OperationalStatus** property of the [**Msvm\_SummaryIn
 
 This corresponds to the **StatusDescriptions** property of the [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) class.
 
-**Windows Server 2008:** This value is not supported before Windows Server 2008 R2.
+**Windows Server 2008:** This value is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -280,7 +288,7 @@ This corresponds to the **StatusDescriptions** property of the [**Msvm\_SummaryI
 
 This corresponds to the **MemoryAvailable** property of the [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) class.
 
-**Windows Server 2008 R2 and Windows Server 2008:** This value is not supported before Windows Server 2008 R2 with SP1.
+**Windows Server 2008 R2 and Windows Server 2008:** This value is not supported before Windows Server 2008 R2 with SP1.
 
 </dd> <dt>
 
@@ -293,7 +301,7 @@ This corresponds to the **MemoryAvailable** property of the [**Msvm\_SummaryInfo
 
 This corresponds to the **AvailableMemoryBuffer** property of the [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) class.
 
-**Windows Server 2008 R2 and Windows Server 2008:** This value is not supported before Windows Server 2008 R2 with SP1.
+**Windows Server 2008 R2 and Windows Server 2008:** This value is not supported before Windows Server 2008 R2 with SP1.
 
 </dd> </dl> </dd> <dt>
 
@@ -364,7 +372,7 @@ The following C# sample displays summary information. The referenced utilities c
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -519,7 +527,7 @@ The following VBScript sample displays summary information.
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -683,9 +691,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -704,9 +712,9 @@ End Function
 [**Msvm\_SummaryInformation**](msvm-summaryinformation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

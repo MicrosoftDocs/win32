@@ -1,8 +1,11 @@
 ---
 title: ActiveBasicDevice SetCachedBitrateMeasurement method
 description: Sets the cached bitrate.
-ms.assetid: '53530217-CFF7-4376-B155-E11044621E2D'
-keywords: ["SetCachedBitrateMeasurement method Media Streaming API", "SetCachedBitrateMeasurement method Media Streaming API , ActiveBasicDevice interface", "ActiveBasicDevice interface Media Streaming API , SetCachedBitrateMeasurement method"]
+ms.assetid: 53530217-CFF7-4376-B155-E11044621E2D
+keywords:
+- SetCachedBitrateMeasurement method Media Streaming API
+- SetCachedBitrateMeasurement method Media Streaming API , ActiveBasicDevice interface
+- ActiveBasicDevice interface Media Streaming API , SetCachedBitrateMeasurement method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveBasicDevice::SetCachedBitrateMeasurement method
@@ -22,8 +30,8 @@ Sets the cached bitrate.
 
 ```C++
 HRESULT SetCachedBitrateMeasurement(
-  [in] GUID   physicalNetworkInterface,
-  [in] UINT64 bitrate
+  [in] GUID   physicalNetworkInterface,
+  [in] UINT64 bitrate
 );
 ```
 
@@ -57,8 +65,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>PlayToDevice.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>PlayToDevice.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Playtodevice.dll</dt> </dl> |
@@ -72,9 +80,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ActiveBasicDevice**](activebasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

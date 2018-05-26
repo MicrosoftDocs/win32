@@ -1,7 +1,12 @@
-﻿---
-Description: 'Executes a verb on the FolderItem associated with the verb.'
-ms.assetid: '92400fe9-e4d1-4bc9-b4ee-d2adaf38154f'
-title: 'FolderItemVerb.DoIt method'
+---
+Description: Executes a verb on the FolderItem associated with the verb.
+ms.assetid: 92400fe9-e4d1-4bc9-b4ee-d2adaf38154f
+title: FolderItemVerb.DoIt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItemVerb.DoIt method

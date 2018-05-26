@@ -1,8 +1,11 @@
 ---
 title: IIMAPTransport Fetch method
 description: Sends the FETCH command to the Internet Message Access Protocol (IMAP) server.
-ms.assetid: 'f3058440-b1ed-4cc8-a143-bacd9a5e64de'
-keywords: ["Fetch method Windows Mail (formerly Outlook Express)", "Fetch method Windows Mail (formerly Outlook Express) , IIMAPTransport interface", "IIMAPTransport interface Windows Mail (formerly Outlook Express) , Fetch method"]
+ms.assetid: f3058440-b1ed-4cc8-a143-bacd9a5e64de
+keywords:
+- Fetch method Windows Mail (formerly Outlook Express)
+- Fetch method Windows Mail (formerly Outlook Express) , IIMAPTransport interface
+- IIMAPTransport interface Windows Mail (formerly Outlook Express) , Fetch method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIMAPTransport::Fetch method
@@ -24,12 +32,12 @@ Sends the FETCH command to the Internet Message Access Protocol (IMAP) server.
 
 ```C++
 HRESULT Fetch(
-  [in] WPARAM        wParam,
-  [in] LPARAM        lParam,
-  [in] IIMAPCallback *pCBHandler,
-  [in] IRangeList    *pMsgRange,
-  [in] boolean       bUIDMsgRange,
-  [in] LPCSTR        lpszFetchArgs
+  [in] WPARAM        wParam,
+  [in] LPARAM        lParam,
+  [in] IIMAPCallback *pCBHandler,
+  [in] IRangeList    *pMsgRange,
+  [in] boolean       bUIDMsgRange,
+  [in] LPCSTR        lpszFetchArgs
 );
 ```
 
@@ -110,7 +118,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -118,8 +126,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -127,9 +135,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

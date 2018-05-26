@@ -1,7 +1,12 @@
 ---
-Description: 'Describes settings related to the BranchCache hosted cache server role.'
-ms.assetid: 'b408beb1-96ac-4bbd-b4dc-7c269e624636'
-title: 'MSFT\_NetBranchCacheHostedCacheServerSettingData class'
+Description: Describes settings related to the BranchCache hosted cache server role.
+ms.assetid: b408beb1-96ac-4bbd-b4dc-7c269e624636
+title: MSFT\_NetBranchCacheHostedCacheServerSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetBranchCacheHostedCacheServerSettingData class
@@ -17,7 +22,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_NetBranchCacheHostedCacheServerSettingData : MSFT_NetBranchCacheSettingData
 {
   boolean HostedCacheServerIsEnabled;
-  string  ClientAuthenticationMode;
+  string  ClientAuthenticationMode;
   boolean HostedCacheScpRegistrationEnabled;
 };
 ```
@@ -87,17 +92,17 @@ Indicates if BranchCache hosted cache server is enabled
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported client<br/> | Windows 8<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\StandardCIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>NetPeerDistCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetPeerDistCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

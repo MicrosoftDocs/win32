@@ -1,14 +1,20 @@
 ---
 title: sendEmailType Complex Type
 description: Defines the action type used to specify that an email will be sent when a task executes. This type defines all the elements used to model the email message.
-ms.assetid: 'e384971f-e7e4-4206-9d15-9555dfcbac2f'
-keywords: ["sendEmailType complex type Task Scheduler"]
+ms.assetid: e384971f-e7e4-4206-9d15-9555dfcbac2f
+keywords:
+- sendEmailType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - sendEmailType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sendEmailType Complex Type
@@ -92,14 +98,14 @@ Defines the action type used to specify that an email will be sent when a task e
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

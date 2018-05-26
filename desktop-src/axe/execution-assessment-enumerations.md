@@ -1,7 +1,12 @@
 ---
 title: Execution Assessment Enumerations
 description: AXE Execution Assessment API provides the following enumerations.
-ms.assetid: 'C051AEFF-A458-482D-988B-5518C3423259'
+ms.assetid: C051AEFF-A458-482D-988B-5518C3423259
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Execution Assessment Enumerations

@@ -4,11 +4,16 @@ description: Topics that provide guidelines for developing applications in a Rem
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e0cd52c5-40d7-4a48-9d10-fdbcea46a5a0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: e0cd52c5-40d7-4a48-9d10-fdbcea46a5a0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , programming guidelines", "programming guidelines Remote Desktop Services"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , programming guidelines
+- programming guidelines Remote Desktop Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Services programming guidelines

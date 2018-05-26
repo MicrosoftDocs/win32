@@ -1,8 +1,16 @@
 ---
 title: Web Service Compiler Tool
 description: To support service model, wsutil.exe generates header to be used in both client and service side. It generates C proxy file for client side, and C stub file for service side, as needed.
-ms.assetid: '1c73297d-0d3d-421c-9e19-44a6012a5c65'
-keywords: ["Web Service Compiler Tool Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 1c73297d-0d3d-421c-9e19-44a6012a5c65
+keywords:
+- Web Service Compiler Tool Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Web Service Compiler Tool

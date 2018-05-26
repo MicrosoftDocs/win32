@@ -1,8 +1,9 @@
 ---
 title: SisFreeBackupStructure function
 description: Frees the specified SIS backup structure.
-ms.assetid: '34d5e919-e4bf-4105-ac15-a2ff5adfbdee'
-keywords: ["SisFreeBackupStructure function Backup"]
+ms.assetid: 34d5e919-e4bf-4105-ac15-a2ff5adfbdee
+keywords:
+- SisFreeBackupStructure function Backup
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Sisbkup.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SisFreeBackupStructure function
@@ -22,7 +28,7 @@ The **SisFreeBackupStructure** function frees the specified SIS backup structure
 
 ```C++
 BOOL SisFreeBackupStructure(
-  _In_ PVOID sisBackupStructure
+  _In_ PVOID sisBackupStructure
 );
 ```
 
@@ -55,8 +61,8 @@ Note that it is not safe to assume that this only deallocates memory. For exampl
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Sisbkup.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Sisbkup.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |
@@ -70,9 +76,9 @@ Note that it is not safe to assume that this only deallocates memory. For exampl
 [**SisCreateBackupStructure**](siscreatebackupstructure.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

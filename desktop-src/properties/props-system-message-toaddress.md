@@ -1,7 +1,12 @@
 ---
-Description: 'The addresses in the To: field.'
-ms.assetid: '7f892659-7f3c-490f-bb41-c4f340303a8e'
-title: 'System.Message.ToAddress'
+Description: The addresses in the To field.
+ms.assetid: 7f892659-7f3c-490f-bb41-c4f340303a8e
+title: System.Message.ToAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.ToAddress

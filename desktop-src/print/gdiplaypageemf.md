@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GdiPlayPageEMF function plays the EMF records within a specified rectangle for one document page of a spooled print job.'
-ms.assetid: 'e0122858-0c9d-4aa8-a394-89d65fb98fda'
+---
+Description: The GdiPlayPageEMF function plays the EMF records within a specified rectangle for one document page of a spooled print job.
+ms.assetid: e0122858-0c9d-4aa8-a394-89d65fb98fda
 title: GdiPlayPageEMF function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GdiPlayPageEMF function

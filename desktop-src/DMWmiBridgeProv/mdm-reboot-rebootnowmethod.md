@@ -1,8 +1,11 @@
 ---
 title: RebootNowMethod method of the MDM\_Reboot class
 description: This method executes a reboot of the device.
-ms.assetid: 'b1bacad8-06db-4e56-9f3d-46c9a0036729'
-keywords: ["RebootNowMethod method", "RebootNowMethod method, MDM_Reboot class", "MDM_Reboot class, RebootNowMethod method"]
+ms.assetid: b1bacad8-06db-4e56-9f3d-46c9a0036729
+keywords:
+- RebootNowMethod method
+- RebootNowMethod method, MDM_Reboot class
+- MDM_Reboot class, RebootNowMethod method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Mofs\DMWmiBridgeProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RebootNowMethod method of the MDM\_Reboot class
@@ -38,7 +46,7 @@ This method has no parameters.
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                            |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl>      |
@@ -53,9 +61,9 @@ This method has no parameters.
 [**MDM\_Reboot**](mdm-reboot.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

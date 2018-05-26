@@ -4,24 +4,29 @@ description: The AdminExtensions property provides the class identifiers (CLSIDs
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c7c7ab62-f6ca-4fca-823b-920d82549d05'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: c7c7ab62-f6ca-4fca-823b-920d82549d05
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AdminExtensions Failover Cluster ,for resource types", "AdminExtensions Failover Cluster"]
+keywords:
+- AdminExtensions Failover Cluster ,for resource types
+- AdminExtensions Failover Cluster
 topic_type:
 - apiref
 api_name:
 - AdminExtensions
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AdminExtensions
 
 The **AdminExtensions** property provides the class identifiers (**CLSID**s) for the [Cluster Administrator](cluster-administrator.md) extension DLLs that are associated with the [resource type](resource-types.md). The following table summarizes the attributes of the **AdminExtensions** property.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
 This property is not supported.
 
@@ -31,13 +36,13 @@ This property is not supported.
 |-----------|------------------------------------------------------------------|
 | Data type | **LPCWSTR** pointer or a **WCHAR** array                         |
 | Access    | [Read/write](read-write-properties.md)                          |
-| Structure | [**CLUSPROP\_MULTI\_SZ**](clusprop-multi-sz.md)                 |
+| Structure | [**CLUSPROP\_MULTI\_SZ**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_sz?branch=master)                 |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 The data value for the **AdminExtensions** property should be set to one or more class identifiers, formatted as a sequence of null-terminated Unicode strings with the entire sequence terminated by an additional **NULL**.
 
@@ -72,7 +77,7 @@ CopyMemory( (PVOID) AdmExValue.sz,
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -80,12 +85,12 @@ CopyMemory( (PVOID) AdmExValue.sz,
 
 <dl> <dt>
 
-[**CLUSPROP\_MULTI\_SZ**](clusprop-multi-sz.md)
+[**CLUSPROP\_MULTI\_SZ**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_sz?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The BasicConstraints object exposes the following properties.'
-ms.assetid: 'FDEDBDA7-2668-4F18-97E4-226931433B12'
+Description: The BasicConstraints object exposes the following properties.
+ms.assetid: FDEDBDA7-2668-4F18-97E4-226931433B12
 title: BasicConstraints Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BasicConstraints Properties

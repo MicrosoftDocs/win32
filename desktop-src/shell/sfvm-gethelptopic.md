@@ -1,11 +1,16 @@
-﻿---
-Description: 'Allows the callback object to specify an HTML Help file and a topic within it. Used by IShellFolderViewCB::MessageSFVCB.'
-title: 'SFVM\_GETHELPTOPIC message'
+---
+Description: Allows the callback object to specify an HTML Help file and a topic within it. Used by IShellFolderViewCBMessageSFVCB.
+title: SFVM\_GETHELPTOPIC message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_GETHELPTOPIC message
 
-Allows the callback object to specify an HTML Help file and a topic within it. Used by [**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md).
+Allows the callback object to specify an HTML Help file and a topic within it. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master).
 
 
 ```C++
@@ -25,7 +30,7 @@ SFVM_GETHELPTOPIC
 *phtd* \[out\]
 </dt> <dd>
 
-The address of a [**SFVM\_HELPTOPIC\_DATA**](sfvm-helptopic-data-str.md) structure that specifies the HTML Help file and topic.
+The address of a [**SFVM\_HELPTOPIC\_DATA**](/windows/win32/shlobj_core/ns-shlobj_core-_sfvm_helptopic_data?branch=master) structure that specifies the HTML Help file and topic.
 
 </dd> </dl>
 

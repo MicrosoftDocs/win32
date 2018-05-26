@@ -1,8 +1,11 @@
 ---
 title: RepetitionPattern.Interval property
 description: For scripting, gets or sets the amount of time between each restart of the task.
-ms.assetid: '3ba8e4b8-c0f9-4b73-8351-b1c1b32a1e39'
-keywords: ["Interval property Task Scheduler", "Interval property Task Scheduler , RepetitionPattern object", "RepetitionPattern object Task Scheduler , Interval property"]
+ms.assetid: 3ba8e4b8-c0f9-4b73-8351-b1c1b32a1e39
+keywords:
+- Interval property Task Scheduler
+- Interval property Task Scheduler , RepetitionPattern object
+- RepetitionPattern object Task Scheduler , Interval property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RepetitionPattern.Interval property
@@ -42,8 +50,8 @@ When reading or writing XML for a task, the repetition interval is specified in 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -56,9 +64,9 @@ When reading or writing XML for a task, the repetition interval is specified in 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

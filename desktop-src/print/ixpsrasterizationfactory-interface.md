@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IXpsRasterizationFactory interface represents an object factory for creating XPS rasterizer objects.'
-ms.assetid: '559bdc65-282e-42b2-998a-276202376c1e'
+---
+Description: The IXpsRasterizationFactory interface represents an object factory for creating XPS rasterizer objects.
+ms.assetid: 559bdc65-282e-42b2-998a-276202376c1e
 title: IXpsRasterizationFactory interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsRasterizationFactory interface

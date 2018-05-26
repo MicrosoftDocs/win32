@@ -1,7 +1,12 @@
 ---
 title: Upload Best Practices
 description: Highloads may cause various server timeout conditions, which may in turn increase the load when the client retries.
-ms.assetid: '8210f849-2aae-497b-b5dd-af25f6f4b8bf'
+ms.assetid: 8210f849-2aae-497b-b5dd-af25f6f4b8bf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Upload Best Practices

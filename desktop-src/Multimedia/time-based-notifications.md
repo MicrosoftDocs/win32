@@ -1,8 +1,17 @@
 ---
 title: Time-Based Notifications
 description: Time-Based Notifications
-ms.assetid: 'cf7bc0d4-f3bd-4416-b85f-0ff51a0efbbc'
-keywords: ["joysticks,notifications", "joysticks,messages", "joysticks,time-based notifications", "time-based joystick notifications"]
+ms.assetid: cf7bc0d4-f3bd-4416-b85f-0ff51a0efbbc
+keywords:
+- joysticks,notifications
+- joysticks,messages
+- joysticks,time-based notifications
+- time-based joystick notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Time-Based Notifications

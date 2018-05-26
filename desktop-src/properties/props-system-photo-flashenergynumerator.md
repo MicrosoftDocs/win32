@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_Photo\_FlashEnergy.'
-ms.assetid: '66d1f000-124a-4584-ae66-7d293333a7be'
-title: 'System.Photo.FlashEnergyNumerator'
+Description: The numerator of PKEY\_Photo\_FlashEnergy.
+ms.assetid: 66d1f000-124a-4584-ae66-7d293333a7be
+title: System.Photo.FlashEnergyNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.FlashEnergyNumerator

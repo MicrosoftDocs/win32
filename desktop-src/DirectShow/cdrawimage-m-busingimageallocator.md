@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_bUsingImageAllocator member variable indicates whether the allocator for the pin connection is a CImageAllocator object. If the value is TRUE, the allocator is a CImageAllocator object (or is derived from that class).'
-ms.assetid: '8eddcab6-77b9-4c8f-be74-33e91661430d'
-title: 'CDrawImage::m\_bUsingImageAllocator member'
+Description: The m\_bUsingImageAllocator member variable indicates whether the allocator for the pin connection is a CImageAllocator object. If the value is TRUE, the allocator is a CImageAllocator object (or is derived from that class).
+ms.assetid: 8eddcab6-77b9-4c8f-be74-33e91661430d
+title: CDrawImagem\_bUsingImageAllocator member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage::m\_bUsingImageAllocator member
@@ -45,9 +50,9 @@ When the value is **TRUE**, the **CDrawImage** object can use the GDI **BitBlt**
 [**CDrawImage::UsingImageAllocator**](cdrawimage-usingimageallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

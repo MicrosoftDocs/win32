@@ -1,8 +1,9 @@
 ---
 title: D3DCompileFromFile function
 description: Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target.
-ms.assetid: '09F1DB4F-C279-4E25-8A1C-34272EB62C07'
-keywords: ["D3DCompileFromFile function HLSL"]
+ms.assetid: 09F1DB4F-C279-4E25-8A1C-34272EB62C07
+keywords:
+- D3DCompileFromFile function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DCompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCompileFromFile function
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store. Refer to the section, "Compiling shaders for UWP", in the remarks for [**D3DCompile2**](d3dcompile2.md).
 
- 
+ 
 
 Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target.
 
@@ -26,15 +32,15 @@ Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a gi
 
 ``` syntax
 HRESULT WINAPI D3DCompileFromFile(
-  in      LPCWSTR pFileName,
-  in_opt  const D3D_SHADER_MACRO pDefines,
-  in_opt  ID3DInclude pInclude,
-  in      LPCSTR pEntrypoint,
-  in      LPCSTR pTarget,
-  in      UINT Flags1,
-  in      UINT Flags2,
-  out     ID3DBlob ppCode,
-  out_opt ID3DBlob ppErrorMsgs
+  in      LPCWSTR pFileName,
+  in_opt  const D3D_SHADER_MACRO pDefines,
+  in_opt  ID3DInclude pInclude,
+  in      LPCSTR pEntrypoint,
+  in      LPCSTR pTarget,
+  in      UINT Flags1,
+  in      UINT Flags2,
+  out     ID3DBlob ppCode,
+  out_opt ID3DBlob ppErrorMsgs
 );
 ```
 
@@ -121,7 +127,7 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 > [!Note]  
 > The D3dcompiler\_44.dll or later version of the file contains the **D3DCompileFromFile** compiler function.
 
- 
+ 
 
 ## Requirements
 
@@ -142,9 +148,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

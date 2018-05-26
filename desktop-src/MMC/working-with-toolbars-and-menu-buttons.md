@@ -1,14 +1,19 @@
 ---
 title: Working with Toolbars and Menu Buttons
-description: MMC creates it easy to use toolbars and menu buttons \ 8212; two of the most frequently included features in today's applications.
+description: MMC creates it easy to use toolbars and menu buttons \ 8212; two of the most frequently included features in todays applications.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ebf7c785-822f-4121-9915-b63fa3e2b5d8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: ebf7c785-822f-4121-9915-b63fa3e2b5d8
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["toolbars and menu buttons MMC", "toolbars and menu buttons MMC"]
+keywords:
+- toolbars and menu buttons MMC
+- toolbars and menu buttons MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with Toolbars and Menu Buttons

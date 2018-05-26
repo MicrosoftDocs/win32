@@ -1,14 +1,22 @@
 ---
 title: IConfigAsfWriter GetCurrentProfileId method
 description: The GetCurrentProfileId method retrieves the current profile ID. (For Windows Media Format 4.0 profiles only.).
-ms.assetid: 'a5162bb1-5fcb-449e-b8d3-624b863e656d'
-keywords: ["GetCurrentProfileId method windows Media Format", "GetCurrentProfileId method windows Media Format , IConfigAsfWriter interface", "IConfigAsfWriter interface windows Media Format , GetCurrentProfileId method"]
+ms.assetid: a5162bb1-5fcb-449e-b8d3-624b863e656d
+keywords:
+- GetCurrentProfileId method windows Media Format
+- GetCurrentProfileId method windows Media Format , IConfigAsfWriter interface
+- IConfigAsfWriter interface windows Media Format , GetCurrentProfileId method
 topic_type:
 - apiref
 api_name:
 - IConfigAsfWriter.GetCurrentProfileId
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IConfigAsfWriter::GetCurrentProfileId method
@@ -49,7 +57,7 @@ This method is now obsolete because it assumes version 4.0 Windows Media Format 
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](iconfigasfwriter.md)
+[**IConfigAsfWriter Interface**](/windows/win32/dshowasf/?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,9 @@
 ---
 title: WM\_DWMNCRENDERINGCHANGED message
 description: Sent when the non-client area rendering policy has changed.
-ms.assetid: '31beb127-ebec-49a8-8b65-de00941cbd67'
-keywords: ["WM_DWMNCRENDERINGCHANGED message Desktop Window Manager"]
+ms.assetid: 31beb127-ebec-49a8-8b65-de00941cbd67
+keywords:
+- WM_DWMNCRENDERINGCHANGED message Desktop Window Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DWMNCRENDERINGCHANGED message
@@ -43,7 +49,7 @@ If an application processes this message, it should return zero.
 
 A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
 
-The [**DwmGetWindowAttribute**](dwmgetwindowattribute.md) and [**DwmSetWindowAttribute**](dwmsetwindowattribute.md) functions are used to get or set the non-client rendering policy.
+The [**DwmGetWindowAttribute**](/windows/win32/Dwmapi/nf-dwmapi-dwmgetwindowattribute?branch=master) and [**DwmSetWindowAttribute**](/windows/win32/Dwmapi/nf-dwmapi-dwmsetwindowattribute?branch=master) functions are used to get or set the non-client rendering policy.
 
 ## Requirements
 
@@ -51,15 +57,15 @@ The [**DwmGetWindowAttribute**](dwmgetwindowattribute.md) and [**DwmSetWindowAtt
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

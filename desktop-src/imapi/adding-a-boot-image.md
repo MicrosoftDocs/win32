@@ -1,7 +1,12 @@
 ---
 title: Adding a Boot Image
 description: This example builds on the Burning a Disc Image example by adding code to include a bootable image in the boot section of the disc.
-ms.assetid: 'b23cdbb9-ae0d-4261-965b-56abe865f323'
+ms.assetid: b23cdbb9-ae0d-4261-965b-56abe865f323
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Boot Image
@@ -103,13 +108,13 @@ End Function
 [Using IMAPI](using-imapi.md)
 </dt> <dt>
 
-[**IDiscMaster2**](idiscmaster2.md)
+[**IDiscMaster2**](/windows/win32/imapi2/nn-imapi2-idiscmaster2?branch=master)
 </dt> <dt>
 
-[**IDiscFormat2Data**](idiscformat2data.md)
+[**IDiscFormat2Data**](/windows/win32/imapi2/nn-imapi2-idiscformat2data?branch=master)
 </dt> <dt>
 
-[**IFileSystemImage**](ifilesystemimage.md)
+[**IFileSystemImage**](/windows/win32/imapi2fs/nn-imapi2fs-ifilesystemimage?branch=master)
 </dt> </dl>
 
  

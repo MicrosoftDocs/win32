@@ -1,7 +1,12 @@
 ---
-Description: 'Navigation page for how to use system shutdown.'
-ms.assetid: '4fe44688-a44e-4725-a744-e0eb6c3e29c0'
+Description: Navigation page for how to use system shutdown.
+ms.assetid: 4fe44688-a44e-4725-a744-e0eb6c3e29c0
 title: Using System Shutdown
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using System Shutdown

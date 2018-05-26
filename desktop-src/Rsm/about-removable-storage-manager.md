@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics describe Removable Storage Manager (RSM):'
-ms.assetid: '9009c55d-9a65-4713-9c14-b4444c52a4b9'
+Description: The following topics describe Removable Storage Manager (RSM)
+ms.assetid: 9009c55d-9a65-4713-9c14-b4444c52a4b9
 title: About Removable Storage Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Removable Storage Manager

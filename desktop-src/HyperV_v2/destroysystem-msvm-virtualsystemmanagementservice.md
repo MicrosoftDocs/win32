@@ -1,7 +1,12 @@
 ---
-Description: 'Removes the previously defined virtual machine from the management scope of the host system.'
-ms.assetid: '16E6EEB0-CB29-4FFC-AEFF-872E099337FA'
-title: 'DestroySystem method of the Msvm\_VirtualSystemManagementService class'
+Description: Removes the previously defined virtual machine from the management scope of the host system.
+ms.assetid: 16E6EEB0-CB29-4FFC-AEFF-872E099337FA
+title: DestroySystem method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DestroySystem method of the Msvm\_VirtualSystemManagementService class
@@ -13,8 +18,8 @@ Removes the previously defined virtual machine from the management scope of the 
 
 ```mof
 uint32 DestroySystem(
-  [in]  CIM_ComputerSystem REF AffectedSystem,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF AffectedSystem,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -91,7 +96,7 @@ The following C# sample uses the **DestroySystem** method to remove a planned vi
 > \[!Important\]  
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -133,8 +138,8 @@ RemovePvm(
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -148,9 +153,9 @@ RemovePvm(
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

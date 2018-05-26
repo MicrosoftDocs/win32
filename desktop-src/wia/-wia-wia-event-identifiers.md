@@ -1,7 +1,12 @@
 ---
-Description: 'WIA event identifiers are globally unique identifiers (GUID) defined by the Windows Image Acquisition (WIA) system.'
-ms.assetid: 'b94221b3-7cab-40d7-850a-fcc4ec8174b5'
+Description: WIA event identifiers are globally unique identifiers (GUID) defined by the Windows Image Acquisition (WIA) system.
+ms.assetid: b94221b3-7cab-40d7-850a-fcc4ec8174b5
 title: WIA Event Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIA Event Identifiers
@@ -25,8 +30,8 @@ The following are valid WIA event GUIDs:
 | WIA\_EVENT\_FEEDER\_LOADED       | The operator placed documents in the feeder input tray. The feeder is loaded with paper. The application can initiate a scan job from the feeder at this time. This feature is available starting with Windows 8.                                                                                                                     |
 | WIA\_EVENT\_FLATBED\_LID\_CLOSED | The flatbed lid was closed by the operator. The application can initiate a scan job from the flatbed at this time. This feature is available starting with Windows 8.                                                                                                                                                                 |
 | WIA\_EVENT\_FLATBED\_LID\_OPEN   | The flatbed lid was opened by the operator. The device cannot scan from the flatbed at this time. This feature is available starting with Windows 8.                                                                                                                                                                                  |
-| WIA\_EVENT\_ITEM\_CREATED        | An item was added to the tree of [**IWiaItem**](-wia-iwiaitem.md) or [**IWiaItem2**](-wia-iwiaitem2.md) objects for a WIA device.                                                                                                                                                                                                   |
-| WIA\_EVENT\_ITEM\_DELETED        | An item was deleted from the tree of [**IWiaItem**](-wia-iwiaitem.md) or [**IWiaItem2**](-wia-iwiaitem2.md) objects for a WIA device.                                                                                                                                                                                               |
+| WIA\_EVENT\_ITEM\_CREATED        | An item was added to the tree of [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) or [**IWiaItem2**](-wia-iwiaitem2.md) objects for a WIA device.                                                                                                                                                                                                   |
+| WIA\_EVENT\_ITEM\_DELETED        | An item was deleted from the tree of [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) or [**IWiaItem2**](-wia-iwiaitem2.md) objects for a WIA device.                                                                                                                                                                                               |
 | WIA\_EVENT\_POWER\_RESUME        | Power has been restored to the device or computer.                                                                                                                                                                                                                                                                                    |
 | WIA\_EVENT\_POWER\_SUSPEND       | Power has been suspended to the device or computer.                                                                                                                                                                                                                                                                                   |
 | WIA\_EVENT\_SCAN\_EMAIL\_IMAGE   | A scan was initiated with the intent to e-mail the resulting image.                                                                                                                                                                                                                                                                   |

@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a network adapter with its IPsec Task Offload v2 setting data.'
-ms.assetid: '99092452-003e-46d8-becb-bc849b63630c'
-title: 'MSFT\_NetAdapterIPsecOffloadV2ElementSetting class'
+Description: Associates a network adapter with its IPsec Task Offload v2 setting data.
+ms.assetid: 99092452-003e-46d8-becb-bc849b63630c
+title: MSFT\_NetAdapterIPsecOffloadV2ElementSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterIPsecOffloadV2ElementSetting class
@@ -16,12 +21,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterIPsecOffloadV2ElementSetting : MSFT_NetAdapterElementSettingData
 {
-  uint16                                   REF IsDefault;
-  uint16                                   REF IsCurrent;
-  uint16                                   REF IsNext;
-  uint16                                   REF IsMinimum = 0;
-  uint16                                   REF IsMaximum = 0;
-  MSFT_NetAdapter                          REF ManagedElement;
+  uint16                                   REF IsDefault;
+  uint16                                   REF IsCurrent;
+  uint16                                   REF IsNext;
+  uint16                                   REF IsMinimum = 0;
+  uint16                                   REF IsMaximum = 0;
+  MSFT_NetAdapter                          REF ManagedElement;
   MSFT_NetAdapterIPsecOffloadV2SettingData REF SettingData;
 };
 ```
@@ -218,16 +223,16 @@ A reference to the [**MSFT\_NetAdapterIPsecOffloadV2SettingData**](msft-netadapt
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

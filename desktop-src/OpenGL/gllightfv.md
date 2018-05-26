@@ -1,8 +1,9 @@
 ---
 title: glLightfv function
 description: The glLightfv function returns light source parameter values.
-ms.assetid: '0a9feb00-f64a-43fc-b9ca-8a97fdaf4de9'
-keywords: ["glLightfv function OpenGL"]
+ms.assetid: 0a9feb00-f64a-43fc-b9ca-8a97fdaf4de9
+keywords:
+- glLightfv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glLightfv function
@@ -22,9 +28,9 @@ The **glLightfv** function returns light source parameter values.
 
 ```C++
 void WINAPI glLightfv(
-         GLenum  light,
-         GLenum  pname,
-   const GLfloat *params
+         GLenum  light,
+         GLenum  pname,
+   const GLfloat *params
 );
 ```
 
@@ -37,7 +43,7 @@ void WINAPI glLightfv(
 *light* 
 </dt> <dd>
 
-The identifier of a light. The number of possible lights depends on the implementation, but at least eight lights are supported. They are identified by symbolic names of the form GL\_LIGHT*i* where *i* is a value: 0 to GL\_MAX\_LIGHTS - 1.
+The identifier of a light. The number of possible lights depends on the implementation, but at least eight lights are supported. They are identified by symbolic names of the form GL\_LIGHT*i* where *i* is a value: 0 to GL\_MAX\_LIGHTS - 1.
 
 </dd> <dt>
 
@@ -61,7 +67,7 @@ A light source parameter for *light*. The following symbolic names are accepted.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -112,7 +118,7 @@ The *pname* parameter specifies one of the light source parameters, again by sym
 
 Lighting calculation is enabled and disabled using [**glEnable**](glenable.md) and [**glDisable**](gldisable.md) with argument GL\_LIGHTING. When lighting is enabled, light sources that are enabled contribute to the lighting calculation. Light source *i* is enabled and disabled using **glEnable** and **glDisable** with argument GL\_LIGHT*i*.
 
-It is always the case that GL\_LIGHT*i* = GL\_LIGHT0 + *i*.
+It is always the case that GL\_LIGHT*i* = GL\_LIGHT0 + *i*.
 
 The following functions retrieve information related to the **glLightfv** function:
 
@@ -126,8 +132,8 @@ The following functions retrieve information related to the **glLightfv** functi
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -153,9 +159,9 @@ The following functions retrieve information related to the **glLightfv** functi
 [**glMaterial**](glmaterial-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

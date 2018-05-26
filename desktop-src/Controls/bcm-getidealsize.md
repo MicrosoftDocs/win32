@@ -1,8 +1,9 @@
 ---
 title: BCM\_GETIDEALSIZE message
 description: Gets the size of the button that best fits its text and image, if an image list is present. You can send this message explicitly or use the Button\_GetIdealSize macro.
-ms.assetid: 'c1bc2043-bf1a-4129-a005-f04048c4c1db'
-keywords: ["BCM_GETIDEALSIZE message Windows Controls"]
+ms.assetid: c1bc2043-bf1a-4129-a005-f04048c4c1db
+keywords:
+- BCM_GETIDEALSIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCM\_GETIDEALSIZE message
 
-Gets the size of the button that best fits its text and image, if an image list is present. You can send this message explicitly or use the [**Button\_GetIdealSize**](button-getidealsize.md) macro.
+Gets the size of the button that best fits its text and image, if an image list is present. You can send this message explicitly or use the [**Button\_GetIdealSize**](/windows/win32/Commctrl/nf-commctrl-button_getidealsize?branch=master) macro.
 
 ## Parameters
 
@@ -44,7 +50,7 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 > [!Note]  
 > If no special button width is desired, then you must set both members of [**SIZE**](https://msdn.microsoft.com/library/windows/desktop/dd145106) to zero to calculate and return the ideal height and width. If the value of the **cx** member is greater than zero, then this value is considered the desired button width, and the ideal height for this width is calculated and returned in the **cy** member.
 
- 
+ 
 
 This message is most applicable to PushButtons. When sent to a PushButton, the message retrieves the bounding rectangle required to display the button's text. Additionally, if the PushButton has an image list, the bounding rectangle is also sized to include the button's image.
 
@@ -53,7 +59,7 @@ When sent to a button of any other type, the size of the control's window rectan
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -61,15 +67,15 @@ When sent to a button of any other type, the size of the control's window rectan
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

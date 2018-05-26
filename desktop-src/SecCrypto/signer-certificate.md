@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the Certificate object that represents the certificate of a signer of the data.'
-ms.assetid: '92ac209e-59b5-4a75-922d-d61629ca41b1'
-title: 'Signer.Certificate property'
+---
+Description: Sets or retrieves the Certificate object that represents the certificate of a signer of the data.
+ms.assetid: 92ac209e-59b5-4a75-922d-d61629ca41b1
+title: Signer.Certificate property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signer.Certificate property

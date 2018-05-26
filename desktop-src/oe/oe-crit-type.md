@@ -1,8 +1,10 @@
 ---
 title: CRIT\_TYPE enumeration
-description: CRIT\_TYPE is no longer available for use as of Windows Vista.
-ms.assetid: '56a559de-ad64-453f-a901-f3cd884795db'
-keywords: ["CRIT_TYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+description: CRIT\_TYPE is no longer available for use as of Windows Vista.
+ms.assetid: 56a559de-ad64-453f-a901-f3cd884795db
+keywords:
+- CRIT_TYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Oerules.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRIT\_TYPE enumeration
 
-\[**CRIT\_TYPE** is no longer available for use as of Windows Vista.\]
+\[**CRIT\_TYPE** is no longer available for use as of Windows Vista.\]
 
 Specifies criteria types.
 
@@ -24,40 +31,40 @@ Specifies criteria types.
 
 ```C++
 typedef enum tagCRIT_TYPE { 
-  CRIT_TYPE_NULL         = 0,
-  CRIT_TYPE_NEWSGROUP    = 1,
-  CRIT_TYPE_TOME         = 2,
-  CRIT_TYPE_CCME         = 3,
-  CRIT_TYPE_BCCME        = 4,
-  CRIT_TYPE_TOADDR       = 5,
-  CRIT_TYPE_CCADDR       = 6,
-  CRIT_TYPE_FROMADDR     = 7,
-  CRIT_TYPE_SUBJECT      = 8,
-  CRIT_TYPE_BODY         = 9,
-  CRIT_TYPE_TO           = 10,
-  CRIT_TYPE_CC           = 11,
-  CRIT_TYPE_FROM         = 12,
-  CRIT_TYPE_PRIORITY     = 13,
-  CRIT_TYPE_ATTACH       = 14,
-  CRIT_TYPE_SIZE         = 15,
-  CRIT_TYPE_DATE         = 16,
-  CRIT_TYPE_HEADER       = 17,
-  CRIT_TYPE_JUNK         = 18,
-  CRIT_TYPE_ACCOUNT      = 19,
-  CRIT_TYPE_ALL          = 20,
-  CRIT_TYPE_TOORCCADDR   = 21,
-  CRIT_TYPE_TOORCC       = 22,
-  CRIT_TYPE_SENDER       = 23,
-  CRIT_TYPE_REPLIES      = 24,
-  CRIT_TYPE_DOWNLOADED   = 25,
-  CRIT_TYPE_DELETED      = 26,
-  CRIT_TYPE_THREADSTATE  = 27,
-  CRIT_TYPE_READ         = 28,
-  CRIT_TYPE_LINES        = 29,
-  CRIT_TYPE_AGE          = 30,
-  CRIT_TYPE_SECURE       = 31,
-  CRIT_TYPE_FLAGGED      = 32,
-  CRIT_TYPE_MAX          = 33
+  CRIT_TYPE_NULL         = 0,
+  CRIT_TYPE_NEWSGROUP    = 1,
+  CRIT_TYPE_TOME         = 2,
+  CRIT_TYPE_CCME         = 3,
+  CRIT_TYPE_BCCME        = 4,
+  CRIT_TYPE_TOADDR       = 5,
+  CRIT_TYPE_CCADDR       = 6,
+  CRIT_TYPE_FROMADDR     = 7,
+  CRIT_TYPE_SUBJECT      = 8,
+  CRIT_TYPE_BODY         = 9,
+  CRIT_TYPE_TO           = 10,
+  CRIT_TYPE_CC           = 11,
+  CRIT_TYPE_FROM         = 12,
+  CRIT_TYPE_PRIORITY     = 13,
+  CRIT_TYPE_ATTACH       = 14,
+  CRIT_TYPE_SIZE         = 15,
+  CRIT_TYPE_DATE         = 16,
+  CRIT_TYPE_HEADER       = 17,
+  CRIT_TYPE_JUNK         = 18,
+  CRIT_TYPE_ACCOUNT      = 19,
+  CRIT_TYPE_ALL          = 20,
+  CRIT_TYPE_TOORCCADDR   = 21,
+  CRIT_TYPE_TOORCC       = 22,
+  CRIT_TYPE_SENDER       = 23,
+  CRIT_TYPE_REPLIES      = 24,
+  CRIT_TYPE_DOWNLOADED   = 25,
+  CRIT_TYPE_DELETED      = 26,
+  CRIT_TYPE_THREADSTATE  = 27,
+  CRIT_TYPE_READ         = 28,
+  CRIT_TYPE_LINES        = 29,
+  CRIT_TYPE_AGE          = 30,
+  CRIT_TYPE_SECURE       = 31,
+  CRIT_TYPE_FLAGGED      = 32,
+  CRIT_TYPE_MAX          = 33
 } ACCESSTYPE;
 ```
 
@@ -175,19 +182,19 @@ typedef enum tagCRIT_TYPE {
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
-| End of client support<br/>    | Windows XP<br/>                                                                  |
-| End of server support<br/>    | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| End of client support<br/>    | Windows XP<br/>                                                                  |
+| End of server support<br/>    | Windows Server 2003<br/>                                                         |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Oerules.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

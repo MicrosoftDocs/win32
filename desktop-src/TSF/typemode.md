@@ -1,8 +1,9 @@
 ---
 title: TYPEMODE enumeration
 description: Elements of the TYPEMODE enumeration are used to specify type modes that are available for a soft keyboard.
-ms.assetid: '77294652-b82e-4b69-bb55-5ebebc3c97c7'
-keywords: ["TYPEMODE enumeration Text Services Framework"]
+ms.assetid: 77294652-b82e-4b69-bb55-5ebebc3c97c7
+keywords:
+- TYPEMODE enumeration Text Services Framework
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Softkbdc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TYPEMODE enumeration
@@ -22,9 +28,9 @@ Elements of the **TYPEMODE** enumeration are used to specify type modes that are
 
 ```C++
 typedef enum tagTYPEMODE { 
-  ClickMouse  = 0,
-  Hover       = 1,
-  Scanning    = 2
+  ClickMouse  = 0,
+  Hover       = 1,
+  Scanning    = 2
 } TYPEMODE;
 ```
 
@@ -61,17 +67,17 @@ The soft keyboard continually scans the input area and highlights regions where 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
 | Header<br/>                   | <dl> <dt>Softkbdc.h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Softkbd.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

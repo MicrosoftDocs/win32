@@ -1,8 +1,11 @@
 ---
 title: CreateStoragePool method of the MSFT\_StorageSubSystem class
 description: Creates a storage pool from available physical disks contained within a common primordial pool.
-ms.assetid: '3fa2f78f-be75-42c0-baba-b08f4959af8c'
-keywords: ["CreateStoragePool method Windows Storage Management API", "CreateStoragePool method Windows Storage Management API , MSFT_StorageSubSystem class", "MSFT_StorageSubSystem class Windows Storage Management API , CreateStoragePool method"]
+ms.assetid: 3fa2f78f-be75-42c0-baba-b08f4959af8c
+keywords:
+- CreateStoragePool method Windows Storage Management API
+- CreateStoragePool method Windows Storage Management API , MSFT_StorageSubSystem class
+- MSFT_StorageSubSystem class Windows Storage Management API , CreateStoragePool method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateStoragePool method of the MSFT\_StorageSubSystem class
@@ -26,20 +34,20 @@ Storage pool creation is only available when the **SupportsStoragePoolCreation**
 
 ```mof
 UInt32 CreateStoragePool(
-  [in]  String              FriendlyName,
-  [in]  UInt16              Usage,
-  [in]  String              OtherUsageDescription,
-  [in]  String              PhysicalDisks[],
-  [in]  String              ResiliencySettingNameDefault,
-  [in]  UInt16              ProvisioningTypeDefault,
-  [in]  UInt64              LogicalSectorSizeDefault,
-  [in]  Boolean             EnclosureAwareDefault,
-  [in]  UInt64              WriteCacheSizeDefault,
-  [in]  Boolean             AutoWriteCacheSize,
-  [in]  Boolean             RunAsJob,
-  [out] String              CreatedStoragePool,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  String              FriendlyName,
+  [in]  UInt16              Usage,
+  [in]  String              OtherUsageDescription,
+  [in]  String              PhysicalDisks[],
+  [in]  String              ResiliencySettingNameDefault,
+  [in]  UInt16              ProvisioningTypeDefault,
+  [in]  UInt64              LogicalSectorSizeDefault,
+  [in]  Boolean             EnclosureAwareDefault,
+  [in]  UInt64              WriteCacheSizeDefault,
+  [in]  Boolean             AutoWriteCacheSize,
+  [in]  Boolean             RunAsJob,
+  [out] String              CreatedStoragePool,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -171,7 +179,7 @@ If **TRUE**, this method uses the *CreatedStorageJob* parameter when the request
 > [!Note]  
 > Even if *RunAsJob* is **TRUE**, this method can still return a result if it has finished in sufficient time.
 
- 
+ 
 
 If **FALSE** or **NULL**, this method will follow default WMI asynchronous behavior as determined by the client's method for invocation. In other words, it is synchronous unless requested otherwise.
 
@@ -316,8 +324,8 @@ Subsystems that support storage pools and storage pool selection and also suppor
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -330,9 +338,9 @@ Subsystems that support storage pools and storage pool selection and also suppor
 [**MSFT\_StorageSubSystem**](msft-storagesubsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

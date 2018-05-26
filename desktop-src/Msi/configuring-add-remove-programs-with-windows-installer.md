@@ -1,7 +1,12 @@
 ---
-Description: 'You can supply all of the information needed to configure Add/Remove Programs in Control Panel by setting the values of certain installer properties in your application''s Windows Installer package.'
-ms.assetid: '2eb00fe5-e441-4fce-9623-81a089269a2b'
-title: 'Configuring Add/Remove Programs with Windows Installer'
+Description: You can supply all of the information needed to configure Add/Remove Programs in Control Panel by setting the values of certain installer properties in your applications Windows Installer package.
+ms.assetid: 2eb00fe5-e441-4fce-9623-81a089269a2b
+title: Configuring Add/Remove Programs with Windows Installer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Add/Remove Programs with Windows Installer
@@ -115,12 +120,12 @@ This only affects the display in the ARP. The Windows Installer is still capable
 
 
 
- 
+ 
 
 > [!Note]  
 > For information regarding the Set Program and Defaults tool, please refer to the section [Working with Set Program Access and Computer Defaults](Http://go.microsoft.com/fwlink/p/?linkid=83959).
 
- 
+ 
 
 ## Related topics
 
@@ -129,9 +134,9 @@ This only affects the display in the ARP. The Windows Installer is still capable
 [Uninstall Registry Key](uninstall-registry-key.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

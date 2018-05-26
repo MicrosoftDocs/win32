@@ -1,7 +1,12 @@
 ---
 title: Strings
 description: The \ string\ attribute and Remote Procedure Call (RPC).
-ms.assetid: '548283bd-023a-41dd-b1d0-661305d019e9'
+ms.assetid: 548283bd-023a-41dd-b1d0-661305d019e9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Strings

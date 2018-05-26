@@ -1,8 +1,10 @@
 ---
 title: HW\_UNIT\_CONTROL routine
-description: A miniport driver's HwStorUnitControl routine is called to perform synchronous operations to control the state of storage unit device. The miniport driver is notified to start a unit or handle a power state transition for a unit device.
-ms.assetid: '33534C7A-C88D-4980-98A7-2B94488D3550'
-keywords: ["HwStorUnitControl routine Storage Devices", "HW_UNIT_CONTROL"]
+description: A miniport drivers HwStorUnitControl routine is called to perform synchronous operations to control the state of storage unit device. The miniport driver is notified to start a unit or handle a power state transition for a unit device.
+ms.assetid: 33534C7A-C88D-4980-98A7-2B94488D3550
+keywords:
+- HwStorUnitControl routine Storage Devices
+- HW_UNIT_CONTROL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Storport.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HW\_UNIT\_CONTROL routine
@@ -24,9 +31,9 @@ A miniport driver's **HwStorUnitControl** routine is called to perform synchrono
 HW_UNIT_CONTROL HwStorUnitControl;
 
 SCSI_UNIT_CONTROL_STATUS HwStorUnitControl(
-  _In_ PVOID                     DeviceExtension,
-  _In_ SCSI_ADAPTER_CONTROL_TYPE ControlType,
-  _In_ PVOID                     Parameters
+  _In_ PVOID                     DeviceExtension,
+  _In_ SCSI_ADAPTER_CONTROL_TYPE ControlType,
+  _In_ PVOID                     Parameters
 )
 { ... }
 ```
@@ -68,7 +75,7 @@ Specifies an unit control operation. Each control type initiates an action by th
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -373,11 +380,11 @@ typedef struct _STOR_RICH_DEVICE_DESCRIPTION_V2 {
 </dd> <dt><span id="Size"></span><span id="size"></span><span id="SIZE"></span><strong>Size</strong></dt> <dd>
 <p>The size of the structure. Should be <em>sizeof(STOR_RICH_DEVICE_DESCRIPTION_V2)</em>.</p>
 </dd> <dt><span id="VendorId"></span><span id="vendorid"></span><span id="VENDORID"></span><strong>VendorId</strong></dt> <dd>
-<p>A string representing the device’s vendor ID. May be an empty string if <em>ModelNumber</em> is provided. The miniport should fill this in.</p>
+<p>A string representing the device s vendor ID. May be an empty string if <em>ModelNumber</em> is provided. The miniport should fill this in.</p>
 </dd> <dt><span id="ModelNumber"></span><span id="modelnumber"></span><span id="MODELNUMBER"></span><strong>ModelNumber</strong></dt> <dd>
-<p>A string representing the device’s model. The miniport should fill this in.</p>
+<p>A string representing the device s model. The miniport should fill this in.</p>
 </dd> <dt><span id="FirmwareRevision"></span><span id="firmwarerevision"></span><span id="FIRMWAREREVISION"></span><strong>FirmwareRevision</strong></dt> <dd>
-<p>A string representing the device’s currently active firmware revision. The miniport should fill this in.</p>
+<p>A string representing the device s currently active firmware revision. The miniport should fill this in.</p>
 </dd> <dt><span id="Address"></span><span id="address"></span><span id="ADDRESS"></span><strong>Address</strong></dt> <dd>
 <p>The address of the device for which the rich device description is desired. This is provided by Storport.</p>
 </dd> </dl></td>
@@ -387,7 +394,7 @@ typedef struct _STOR_RICH_DEVICE_DESCRIPTION_V2 {
 
 
 
- 
+ 
 
 For the structures that contain the STOR\_POWER\_CONTROL\_HEADER header, it has the following definition in *storport.h*.
 
@@ -438,7 +445,7 @@ Depending on the control type, **HwStorUnitControl** returns one of the followin
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -464,7 +471,7 @@ HW_UNIT_CONTROL (
 |                            |                                                                                                                                         |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Target platform<br/> | <dl> <dt>[Universal](http://go.microsoft.com/fwlink/p/?linkid=531356)</dt> </dl> |
-| Version<br/>         | Available starting with Windows 8.<br/>                                                                                           |
+| Version<br/>         | Available starting with Windows 8.<br/>                                                                                           |
 | Header<br/>          | <dl> <dt>Storport.h (include Storport.h)</dt> </dl>                              |
 
 
@@ -476,9 +483,9 @@ HW_UNIT_CONTROL (
 [**HwStorAdapterControl**](hwstoradaptercontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20HW_UNIT_CONTROL%20routine%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

@@ -2,13 +2,19 @@
 title: /osf switch
 description: The /osf switch forces strict compatibility with OSF DCE.
 ms.assetid: d94228fa-24af-43d7-9596-cf3a14690e0b
-keywords: ["/osf switch MIDL"]
+keywords:
+- /osf switch MIDL
 topic_type:
 - apiref
 api_name:
 - /osf
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /osf switch

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic lists common categories of problems that you might encounter when writing Direct3D applications, and how to prevent them.'
-ms.assetid: '27b87f0f-7118-4252-b6e8-6ea18a9399e4'
-title: 'Troubleshooting (Direct3D 9)'
+Description: This topic lists common categories of problems that you might encounter when writing Direct3D applications, and how to prevent them.
+ms.assetid: 27b87f0f-7118-4252-b6e8-6ea18a9399e4
+title: Troubleshooting (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting (Direct3D 9)
@@ -81,7 +86,7 @@ int _matherr(struct _exception  *e)
 
 For performance reasons, the debug version of the Direct3D Immediate Mode run time performs more parameter validation than the retail version, which sometimes performs no validation at all. This enables applications to perform robust debugging with the slower debug run-time component before using the faster retail version for performance tuning and final release.
 
-Although several Direct3D Immediate Mode methods impose limits on the values that they can accept, these limits are often only checked and enforced by the debug version of the Direct3D Immediate Mode run time. Applications must conform to these limits, or unpredictable and undesirable results can occur when running on the retail version of Direct3D. For example, the [**IDirect3DDevice9::DrawPrimitive**](idirect3ddevice9--drawprimitive.md) method accepts a parameter (PrimitiveCount) that indicates the number of primitives that the method will render. The method can only accept values between 0 and D3DMAXNUMPRIMITIVES. In the debug version of Direct3D, if you pass more than D3DMAXNUMPRIMITIVES primitives, the method fails gracefully, printing an error message to the error log, and returning an error value to your application. Conversely, if your application makes the same error when it is running with the retail version of the run time, behavior is undefined. For performance reasons, the method does not validate the parameters, resulting in unpredictable and completely situational behavior when they are not valid. In some cases the call might work, and in other cases it might cause a memory fault in Direct3D. If an invalid call consistently works with a particular hardware configuration and DirectX version, there is no guarantee that it will continue to function on other hardware or with later releases of DirectX.
+Although several Direct3D Immediate Mode methods impose limits on the values that they can accept, these limits are often only checked and enforced by the debug version of the Direct3D Immediate Mode run time. Applications must conform to these limits, or unpredictable and undesirable results can occur when running on the retail version of Direct3D. For example, the [**IDirect3DDevice9::DrawPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive?branch=master) method accepts a parameter (PrimitiveCount) that indicates the number of primitives that the method will render. The method can only accept values between 0 and D3DMAXNUMPRIMITIVES. In the debug version of Direct3D, if you pass more than D3DMAXNUMPRIMITIVES primitives, the method fails gracefully, printing an error message to the error log, and returning an error value to your application. Conversely, if your application makes the same error when it is running with the retail version of the run time, behavior is undefined. For performance reasons, the method does not validate the parameters, resulting in unpredictable and completely situational behavior when they are not valid. In some cases the call might work, and in other cases it might cause a memory fault in Direct3D. If an invalid call consistently works with a particular hardware configuration and DirectX version, there is no guarantee that it will continue to function on other hardware or with later releases of DirectX.
 
 If your application encounters unexplained failures when running with the retail Direct3D run-time file, test against the debug version and look closely for cases where your application passes invalid parameters. Use the DirectX control panel applet, switch to the debug runtime if necessary, and check the "Break on D3DError" option. This option will force the runtime to use the Windows DebugBreak method in order to force the application to stop when an application bug is detected.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the left edge of the destination rectangle, in pixels.'
-ms.assetid: 'faefe634-c517-43a0-9741-cb79824f840d'
-title: 'MFPKEY\_RESIZE\_DST\_LEFT Property'
+---
+Description: Specifies the left edge of the destination rectangle, in pixels.
+ms.assetid: faefe634-c517-43a0-9741-cb79824f840d
+title: MFPKEY\_RESIZE\_DST\_LEFT Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_DST\_LEFT Property

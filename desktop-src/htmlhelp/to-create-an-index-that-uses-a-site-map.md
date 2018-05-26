@@ -1,7 +1,12 @@
 ---
 title: To create an index that uses a site map
 description: To create an index that uses a site map
-ms.assetid: '08C48181-6224-4c69-B3CC-EC5B84BBE3AA'
+ms.assetid: 08C48181-6224-4c69-B3CC-EC5B84BBE3AA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create an index that uses a site map
@@ -21,7 +26,7 @@ ms.assetid: '08C48181-6224-4c69-B3CC-EC5B84BBE3AA'
 
     
 
-     
+     
 
 -   If you are authoring an [index for a Web site](the-difference-between-binary-and-site-map-indexes.md), make sure you [add the HTML Help ActiveX control](inserting-the-html-help-activex-control.md) to the topic files you want the index to appear in. Specify as the command, and then specify the name and location for your index file.
 -   An index compiled using the binary format will not work on a Web site. You can use a site map index for both a Web site and a compiled help file.
@@ -34,9 +39,9 @@ ms.assetid: '08C48181-6224-4c69-B3CC-EC5B84BBE3AA'
 [About Creating Index Files](create-an-index-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

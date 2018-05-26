@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'b63eaeff-1460-4b13-b742-f3535d05a2e4'
-title: 'System.Contact.PrimaryAddressPostOfficeBox'
+Description: .
+ms.assetid: b63eaeff-1460-4b13-b742-f3535d05a2e4
+title: System.Contact.PrimaryAddressPostOfficeBox
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.PrimaryAddressPostOfficeBox

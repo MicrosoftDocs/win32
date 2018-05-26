@@ -1,7 +1,12 @@
 ---
-Description: 'This overview discusses features of windows such as window types, states, size, and position.'
-ms.assetid: '8318c22f-85a2-490e-8233-ee1e234890d9'
+Description: This overview discusses features of windows such as window types, states, size, and position.
+ms.assetid: 8318c22f-85a2-490e-8233-ee1e234890d9
 title: Window Features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Features
@@ -99,7 +104,7 @@ If a window has either the [**WS\_CLIPCHILDREN**](window-styles.md) or **WS\_CLI
 
 ### Relationship to Parent Window
 
-An application can change the parent window of an existing child window by calling the [**SetParent**](setparent.md) function. In this case, the system removes the child window from the client area of the old parent window and moves it to the client area of the new parent window. If **SetParent** specifies a **NULL** handle, the desktop window becomes the new parent window. In this case, the child window is drawn on the desktop, outside the borders of any other window. The [**GetParent**](getparent.md) function retrieves a handle to a child window's parent window.
+An application can change the parent window of an existing child window by calling the [**SetParent**](/windows/win32/Winuser/nf-dbghelp-symsetparentwindow?branch=master) function. In this case, the system removes the child window from the client area of the old parent window and moves it to the client area of the new parent window. If **SetParent** specifies a **NULL** handle, the desktop window becomes the new parent window. In this case, the child window is drawn on the desktop, outside the borders of any other window. The [**GetParent**](/windows/win32/Winuser/nf-wia_lh-iwiaitem2-getparentitem?branch=master) function retrieves a handle to a child window's parent window.
 
 The parent window relinquishes a portion of its client area to a child window, and the child window receives all input from this area. The window class need not be the same for each of the child windows of the parent window. This means that an application can fill a parent window with child windows that look different and carry out different tasks. For example, a dialog box can contain many types of controls, each one a child window that accepts different types of data from the user.
 
@@ -134,7 +139,7 @@ Hit testing of a layered window is based on the shape and transparency of the wi
 
 A *message-only window* enables you to send and receive messages. It is not visible, has no z-order, cannot be enumerated, and does not receive broadcast messages. The window simply dispatches messages.
 
-To create a message-only window, specify the [HWND\_MESSAGE](#message-only-windows) constant or a handle to an existing message-only window in the *hWndParent* parameter of the [**CreateWindowEx**](createwindowex.md) function. You can also change an existing window to a message-only window by specifying HWND\_MESSAGE in the *hWndNewParent* parameter of the [**SetParent**](setparent.md) function.
+To create a message-only window, specify the [HWND\_MESSAGE](#message-only-windows) constant or a handle to an existing message-only window in the *hWndParent* parameter of the [**CreateWindowEx**](createwindowex.md) function. You can also change an existing window to a message-only window by specifying HWND\_MESSAGE in the *hWndNewParent* parameter of the [**SetParent**](/windows/win32/Winuser/nf-dbghelp-symsetparentwindow?branch=master) function.
 
 To find message-only windows, specify [HWND\_MESSAGE](#message-only-windows) in the *hwndParent* parameter of the [**FindWindowEx**](findwindowex.md) function. In addition, **FindWindowEx** searches message-only windows as well as top-level windows if both the *hwndParent* and *hwndChildAfter* parameters are **NULL**.
 
@@ -181,7 +186,7 @@ Only an overlapped or pop-up window can be an owner window; a child window canno
 
 Dialog boxes and message boxes are owned windows by default. An application specifies the owner window when calling a function that creates a dialog box or message box.
 
-An application can use the [**GetWindow**](getwindow.md) function with the **GW\_OWNER** flag to retrieve a handle to a window's owner.
+An application can use the [**GetWindow**](/windows/win32/Winuser/nf-winuser-getwindowcontexthelpid?branch=master) function with the **GW\_OWNER** flag to retrieve a handle to a window's owner.
 
 ### Z-Order
 
@@ -305,9 +310,9 @@ The [**CascadeWindows**](cascadewindows.md) function cascades the windows on the
 
 The system sends the [**WM\_GETMINMAXINFO**](wm-getminmaxinfo.md) message to a window whose size or position is about to change. For example, the message is sent when the user clicks **Move** or **Size** from the window menu or clicks the sizing border or title bar; the message is also sent when an application calls [**SetWindowPos**](setwindowpos.md) to move or size the window. **WM\_GETMINMAXINFO** includes a pointer to a [**MINMAXINFO**](minmaxinfo.md) structure containing the default maximized size and position for the window, as well as the default minimum and maximum tracking sizes. An application can override the defaults by processing **WM\_GETMINMAXINFO** and setting the appropriate members of **MINMAXINFO**. A window must have the [**WS\_THICKFRAME**](window-styles.md) or **WS\_CAPTION** style to receive **WM\_GETMINMAXINFO**. A window with the **WS\_THICKFRAME** style receives this message during the window-creation process, as well as when it is being moved or sized.
 
-The system sends the [**WM\_WINDOWPOSCHANGING**](wm-windowposchanging.md) message to a window whose size, position, position in the z-order, or show state is about to change. This message includes a pointer to a [**WINDOWPOS**](windowpos.md) structure that specifies the window's new size, position, position in the z-order, and show state. By setting the members of **WINDOWPOS**, an application can affect the window's new size, position, and appearance.
+The system sends the [**WM\_WINDOWPOSCHANGING**](wm-windowposchanging.md) message to a window whose size, position, position in the z-order, or show state is about to change. This message includes a pointer to a [**WINDOWPOS**](/windows/win32/Winuser/ni-pointofservicedriverinterface-ioctl_line_display_create_windowpos_ioctl?branch=master) structure that specifies the window's new size, position, position in the z-order, and show state. By setting the members of **WINDOWPOS**, an application can affect the window's new size, position, and appearance.
 
-After changing a window's size, position, position in the z-order, or show state, the system sends the [**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md) message to the window. This message includes a pointer to [**WINDOWPOS**](windowpos.md) that informs the window of its new size, position, position in the z-order, and show state. Setting the members of the **WINDOWPOS** structure that is passed with **WM\_WINDOWPOSCHANGED** has no effect on the window. A window that must process [**WM\_SIZE**](wm-size.md) and [**WM\_MOVE**](wm-move.md) messages must pass **WM\_WINDOWPOSCHANGED** to the [**DefWindowProc**](defwindowproc.md) function; otherwise, the system does not send **WM\_SIZE** and **WM\_MOVE** messages to the window.
+After changing a window's size, position, position in the z-order, or show state, the system sends the [**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md) message to the window. This message includes a pointer to [**WINDOWPOS**](/windows/win32/Winuser/ni-pointofservicedriverinterface-ioctl_line_display_create_windowpos_ioctl?branch=master) that informs the window of its new size, position, position in the z-order, and show state. Setting the members of the **WINDOWPOS** structure that is passed with **WM\_WINDOWPOSCHANGED** has no effect on the window. A window that must process [**WM\_SIZE**](wm-size.md) and [**WM\_MOVE**](wm-move.md) messages must pass **WM\_WINDOWPOSCHANGED** to the [**DefWindowProc**](defwindowproc.md) function; otherwise, the system does not send **WM\_SIZE** and **WM\_MOVE** messages to the window.
 
 The system sends the [**WM\_NCCALCSIZE**](wm-nccalcsize.md) message to a window when the window is created or sized. The system uses the message to calculate the size of a window's client area and the position of the client area relative to the upper left corner of the window. A window typically passes this message to the default window procedure; however, this message can be useful in applications that customize a window's nonclient area or preserve portions of the client area when the window is sized. For more information, see [Painting and Drawing](gdi.painting_and_drawing).
 
@@ -329,7 +334,7 @@ The window layout defines how text and Windows Graphics Device Interface (GDI) o
 
 The window functions allow you to specify or change the window layout in Arabic and Hebrew versions of Windows. Note that changing to a RTL layout (also known as mirroring) is not supported for windows that have the style [CS\_OWNDC](about-window-classes.md#class-styles) or for a DC with the GM\_ADVANCED graphic mode.
 
-By default, the window layout is left-to-right (LTR). To set the RTL window layout, call [**CreateWindowEx**](createwindowex.md) with the style **WS\_EX\_LAYOUTRTL**. Also by default, a child window (that is, one created with the [**WS\_CHILD**](window-styles.md) style and with a valid parent *hWnd* parameter in the call to [**CreateWindow**](createwindow.md) or **CreateWindowEx**) has the same layout as its parent. To disable inheritance of mirroring to all child windows, specify **WS\_EX\_NOINHERITLAYOUT** in the call to **CreateWindowEx**. Note, mirroring is not inherited by owned windows (those created without the **WS\_CHILD** style) or those created with the parent *hWnd* parameter in **CreateWindowEx** set to **NULL**. To disable inheritance of mirroring for an individual window, process the [**WM\_NCCREATE**](wm-nccreate.md) message with [**GetWindowLong**](getwindowlong.md) and [**SetWindowLong**](setwindowlong.md) to turn off the **WS\_EX\_LAYOUTRTL** flag. This processing is in addition to whatever other processing is needed. The following code fragment shows how this is done.
+By default, the window layout is left-to-right (LTR). To set the RTL window layout, call [**CreateWindowEx**](createwindowex.md) with the style **WS\_EX\_LAYOUTRTL**. Also by default, a child window (that is, one created with the [**WS\_CHILD**](window-styles.md) style and with a valid parent *hWnd* parameter in the call to [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) or **CreateWindowEx**) has the same layout as its parent. To disable inheritance of mirroring to all child windows, specify **WS\_EX\_NOINHERITLAYOUT** in the call to **CreateWindowEx**. Note, mirroring is not inherited by owned windows (those created without the **WS\_CHILD** style) or those created with the parent *hWnd* parameter in **CreateWindowEx** set to **NULL**. To disable inheritance of mirroring for an individual window, process the [**WM\_NCCREATE**](wm-nccreate.md) message with [**GetWindowLong**](getwindowlong.md) and [**SetWindowLong**](setwindowlong.md) to turn off the **WS\_EX\_LAYOUTRTL** flag. This processing is in addition to whatever other processing is needed. The following code fragment shows how this is done.
 
 
 ```

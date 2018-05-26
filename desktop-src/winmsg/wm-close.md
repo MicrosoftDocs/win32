@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent as a signal that a window or an application should terminate.'
-ms.assetid: '19500baf-e0ad-4dfa-804f-6a6e0652cffb'
-title: 'WM\_CLOSE message'
+---
+Description: Sent as a signal that a window or an application should terminate.
+ms.assetid: 19500baf-e0ad-4dfa-804f-6a6e0652cffb
+title: WM\_CLOSE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CLOSE message

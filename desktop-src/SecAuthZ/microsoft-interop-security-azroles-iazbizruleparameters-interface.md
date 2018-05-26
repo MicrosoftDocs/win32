@@ -1,7 +1,12 @@
 ---
-Description: 'Links to documentation for the IAzBizRuleParameters interoperability wrapper methods and properties.'
-ms.assetid: '5aa05570-32d2-446d-b7c0-6d63e3d3feae'
-title: 'Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters interface'
+Description: Links to documentation for the IAzBizRuleParameters interoperability wrapper methods and properties.
+ms.assetid: 5aa05570-32d2-446d-b7c0-6d63e3d3feae
+title: Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters interface
@@ -23,15 +28,15 @@ The **Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters** interface has th
 
 | Method                                                                        | Description                                                                                                 |
 |:------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
-| **Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.AddParameter**      | [**IAzBizRuleParameters::AddParameter**](iazbizruleparameters-addparameter-method.md)<br/>           |
-| **Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.AddParameters**     | [**IAzBizRuleParameters::AddParameters**](iazbizruleparameters-addparameters-method.md)<br/>         |
-| **Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.GetParameterValue** | [**IAzBizRuleParameters::GetParameterValue**](iazbizruleparameters-getparametervalue-method.md)<br/> |
-| **Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.Remove**            | [**IAzBizRuleParameters::Remove**](iazbizruleparameters-remove-method.md)<br/>                       |
-| **Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.RemoveAll**         | [**IAzBizRuleParameters::RemoveAll**](iazbizruleparameters-removeall-method.md)<br/>                 |
+| **Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.AddParameter**      | [**IAzBizRuleParameters::AddParameter**](/windows/win32/Azroles/nf-azroles-iazbizruleparameters-addparameter?branch=master)<br/>           |
+| **Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.AddParameters**     | [**IAzBizRuleParameters::AddParameters**](/windows/win32/Azroles/nf-azroles-iazbizruleparameters-addparameters?branch=master)<br/>         |
+| **Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.GetParameterValue** | [**IAzBizRuleParameters::GetParameterValue**](/windows/win32/Azroles/nf-azroles-iazbizruleparameters-getparametervalue?branch=master)<br/> |
+| **Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.Remove**            | [**IAzBizRuleParameters::Remove**](/windows/win32/Azroles/nf-azroles-iazbizruleparameters-remove?branch=master)<br/>                       |
+| **Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.RemoveAll**         | [**IAzBizRuleParameters::RemoveAll**](/windows/win32/Azroles/nf-azroles-iazbizruleparameters-removeall?branch=master)<br/>                 |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -41,11 +46,11 @@ The **Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters** interface has th
 
 | Property                                                                     | Access type          | Description                                                                                    |
 |:-----------------------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------|
-| **Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.Count**<br/> | Read-only<br/> | [**Count Property of IAzBizRuleParameters**](iazbizruleparameters-count-method.md)<br/> |
+| **Microsoft.Interop.Security.Azroles.IAzBizRuleParameters.Count**<br/> | Read-only<br/> | [**Count Property of IAzBizRuleParameters**](/windows/win32/Azroles/nf-azroles-iazbizruleparameters-get_count?branch=master)<br/> |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -57,9 +62,9 @@ The **Microsoft.Interop.Security.AzRoles.IAzBizRuleParameters** interface has th
 
 
 
- 
+ 
 
- 
+ 
 
 
 

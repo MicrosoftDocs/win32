@@ -1,8 +1,11 @@
 ---
 title: IRangeList Load method
 description: Replaces the internal message range list representation with one saved by the IRangeList Save method.
-ms.assetid: 'cf023226-31f7-4f31-a32c-2b807953653f'
-keywords: ["Load method Windows Mail (formerly Outlook Express)", "Load method Windows Mail (formerly Outlook Express) , IRangeList interface", "IRangeList interface Windows Mail (formerly Outlook Express) , Load method"]
+ms.assetid: cf023226-31f7-4f31-a32c-2b807953653f
+keywords:
+- Load method Windows Mail (formerly Outlook Express)
+- Load method Windows Mail (formerly Outlook Express) , IRangeList interface
+- IRangeList interface Windows Mail (formerly Outlook Express) , Load method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRangeList::Load method
@@ -24,8 +32,8 @@ Replaces the internal message range list representation with one saved by the [*
 
 ```C++
 HRESULT Load(
-  [in]       byte  *pbSource,
-  [in] const ULONG ulSizeOfSource
+  [in]       byte  *pbSource,
+  [in] const ULONG ulSizeOfSource
 );
 ```
 
@@ -65,8 +73,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -74,9 +82,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

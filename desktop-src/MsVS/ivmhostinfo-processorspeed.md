@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo ProcessorSpeed property
 description: The ProcessorSpeed property contains the speed, in megahertz, of the host processor.
-ms.assetid: '93baebe0-050e-498b-8f2d-be6b49938dee'
-keywords: ["ProcessorSpeed property Virtual Server", "ProcessorSpeed property Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , ProcessorSpeed property", "ProcessorSpeed property Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , ProcessorSpeed property"]
+ms.assetid: 93baebe0-050e-498b-8f2d-be6b49938dee
+keywords:
+- ProcessorSpeed property Virtual Server
+- ProcessorSpeed property Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , ProcessorSpeed property
+- ProcessorSpeed property Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , ProcessorSpeed property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::ProcessorSpeed property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ProcessorSpeed(
-  [out] long *processorSpeed
+  [out] long *processorSpeed
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

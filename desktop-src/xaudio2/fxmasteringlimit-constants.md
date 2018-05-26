@@ -1,12 +1,17 @@
-﻿---
-Description: 'Defines values for use with the FXMASTERINGLIMITER\_PARAMETERS structure.'
-ms.assetid: '30e6ae97-0aa9-b8d5-ace3-47d98e889875'
+---
+Description: Defines values for use with the FXMASTERINGLIMITER\_PARAMETERS structure.
+ms.assetid: 30e6ae97-0aa9-b8d5-ace3-47d98e889875
 title: FXMASTERINGLIMIT Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FXMASTERINGLIMIT Constants
 
-Defines values for use with the [**FXMASTERINGLIMITER\_PARAMETERS**](fxmasteringlimiter-parameters.md) structure.
+Defines values for use with the [**FXMASTERINGLIMITER\_PARAMETERS**](/windows/win32/xapofx/ns-xapofx-fxmasteringlimiter_parameters?branch=master) structure.
 
 
 

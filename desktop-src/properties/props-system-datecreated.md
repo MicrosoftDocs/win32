@@ -1,7 +1,12 @@
 ---
-Description: 'The date and time the item was created on the file system where it is currently located.'
-ms.assetid: 'a40d4a8f-d0b0-49fc-9e07-48669a1bf469'
-title: 'System.DateCreated'
+Description: The date and time the item was created on the file system where it is currently located.
+ms.assetid: a40d4a8f-d0b0-49fc-9e07-48669a1bf469
+title: System.DateCreated
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DateCreated

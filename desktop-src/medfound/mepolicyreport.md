@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by a trusted output to send status information about the enforcement of the output policy.'
-ms.assetid: '4906f6c3-1570-421f-aef1-914bd338bb1f'
+---
+Description: Raised by a trusted output to send status information about the enforcement of the output policy.
+ms.assetid: 4906f6c3-1570-421f-aef1-914bd338bb1f
 title: MEPolicyReport event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEPolicyReport event
@@ -10,7 +15,7 @@ Raised by a trusted output to send status information about the enforcement of t
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

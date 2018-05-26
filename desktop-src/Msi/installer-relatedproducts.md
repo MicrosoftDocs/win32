@@ -1,7 +1,12 @@
-﻿---
-Description: 'The read-only RelatedProducts property returns a StringList object enumerating the set of all products installed or advertised for the current user and machine with a specified UpgradeCode property in their Property table.'
-ms.assetid: '0316e536-ccd4-4d7a-9c49-66e6c4a07f1c'
-title: 'Installer.RelatedProducts property'
+---
+Description: The read-only RelatedProducts property returns a StringList object enumerating the set of all products installed or advertised for the current user and machine with a specified UpgradeCode property in their Property table.
+ms.assetid: 0316e536-ccd4-4d7a-9c49-66e6c4a07f1c
+title: Installer.RelatedProducts property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.RelatedProducts property
@@ -43,7 +48,7 @@ To enumerate the related products, an application iterates through the [**String
 
 <dl> <dt>
 
-[**MsiEnumRelatedProducts**](msienumrelatedproducts.md)
+[**MsiEnumRelatedProducts**](/windows/win32/Msi/nf-msi-msienumrelatedproductsa?branch=master)
 </dt> </dl>
 
  

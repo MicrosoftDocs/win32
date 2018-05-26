@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_User\_Config01\_Notifications02 class
 description: The MDM\_Policy\_User\_Config01\_Notifications02 class represents the notification policies available.
-ms.assetid: 'da70b3b4-e8ed-4784-ad6b-52e152a8b78f'
-keywords: ["MDM_Policy_User_Config01_Notifications02 class", "MDM_Policy_User_Config01_Notifications02 class, described"]
+ms.assetid: da70b3b4-e8ed-4784-ad6b-52e152a8b78f
+keywords:
+- MDM_Policy_User_Config01_Notifications02 class
+- MDM_Policy_User_Config01_Notifications02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Mofs\DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_User\_Config01\_Notifications02 class
@@ -96,7 +103,7 @@ Describes the full path to the parent node. For this class, the string is "./Use
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                            |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl>       |
@@ -104,9 +111,9 @@ Describes the full path to the parent node. For this class, the string is "./Use
 
 
 
- 
+ 
 
- 
+ 
 
 
 

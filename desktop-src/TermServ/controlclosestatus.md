@@ -4,11 +4,12 @@ description: Indicates whether the application containing the control can close 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ac2e1c68-81b1-4b51-aa7e-0ff703e619a2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ac2e1c68-81b1-4b51-aa7e-0ff703e619a2
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ControlCloseStatus enumeration Remote Desktop Services"]
+keywords:
+- ControlCloseStatus enumeration Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
 ---
 
 # ControlCloseStatus enumeration
@@ -28,8 +32,8 @@ Indicates whether the application containing the control can close the control i
 
 ```C++
 enum ControlCloseStatus {
-  controlCloseCanProceed     = 0x0000, 
-  controlCloseWaitForEvents  = 0x0001 
+  controlCloseCanProceed     = 0x0000, 
+  controlCloseWaitForEvents  = 0x0001 
 
 };
 ```
@@ -60,8 +64,8 @@ Container should wait for events [**IMsTscAxEvents::OnDisconnected**](imstscaxev
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                      |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                      |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
 
@@ -79,9 +83,9 @@ Container should wait for events [**IMsTscAxEvents::OnDisconnected**](imstscaxev
 [**IMsTscAxEvents::OnDisconnected**](imstscaxevents-ondisconnected.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: QUERY\_STRING Variables
 description: QUERY\_STRING Variables
-ms.assetid: '4af717b0-56dd-4467-a142-b9a1259f0d01'
+ms.assetid: 4af717b0-56dd-4467-a142-b9a1259f0d01
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QUERY\_STRING Variables

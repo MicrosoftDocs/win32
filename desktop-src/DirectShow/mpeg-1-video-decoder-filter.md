@@ -1,7 +1,12 @@
-﻿---
-Description: 'MPEG-1 Video Decoder Filter'
-ms.assetid: '272d2f31-6e57-4ce5-ac86-b4d47f661fea'
-title: 'MPEG-1 Video Decoder Filter'
+---
+Description: MPEG-1 Video Decoder Filter
+ms.assetid: 272d2f31-6e57-4ce5-ac86-b4d47f661fea
+title: MPEG-1 Video Decoder Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-1 Video Decoder Filter
@@ -18,7 +23,7 @@ Decodes MPEG-1 video.
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IBaseFilter</strong>](ibasefilter.md), <strong>ISpecifyPropertyPages</strong></td>
+<td>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), <strong>ISpecifyPropertyPages</strong></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -30,7 +35,7 @@ Decodes MPEG-1 video.
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IMemInputPin</strong>](imeminputpin.md)</td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IMemInputPin</strong>](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -48,7 +53,7 @@ Decodes MPEG-1 video.
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>

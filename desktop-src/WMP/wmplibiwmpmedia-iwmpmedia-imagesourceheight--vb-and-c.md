@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia imageSourceHeight property
 description: The imageSourceHeight property gets the height of the current media item in pixels.
-ms.assetid: 'd60f1713-7110-4605-9009-45825c380546'
-keywords: ["imageSourceHeight property Windows Media Player", "imageSourceHeight property Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , imageSourceHeight property"]
+ms.assetid: d60f1713-7110-4605-9009-45825c380546
+keywords:
+- imageSourceHeight property Windows Media Player
+- imageSourceHeight property Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , imageSourceHeight property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::imageSourceHeight property
@@ -148,9 +156,9 @@ End Sub</code></pre></td>
 [**IWMPMedia Interface (VB and C#)**](iwmpmedia--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

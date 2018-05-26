@@ -1,8 +1,10 @@
 ---
 title: MPRESOURCE\_STATS structure
 description: Resource-related statistics.
-ms.assetid: 'D1DC4BC9-911D-448C-A421-11D2F51F0A61'
-keywords: ["MPRESOURCE_STATS structure Legacy Windows Environment Features", "PMPRESOURCE_STATS structure pointer Legacy Windows Environment Features"]
+ms.assetid: D1DC4BC9-911D-448C-A421-11D2F51F0A61
+keywords:
+- MPRESOURCE_STATS structure Legacy Windows Environment Features
+- PMPRESOURCE_STATS structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPRESOURCE\_STATS structure
@@ -22,7 +29,7 @@ Resource-related statistics.
 
 ```C++
 typedef struct tagMPRESOURCE_STATS {
-  DWORD  PPMProgress;
+  DWORD  PPMProgress;
   UINT64 ProcessCount;
   UINT64 FileCount;
   UINT64 FileBytesCount;
@@ -109,15 +116,15 @@ Fields reserved for future use.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: Realms processing, which is also known as attribute manipulation, r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '52963eda-ea95-4307-8924-d4143bc1f53d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 52963eda-ea95-4307-8924-d4143bc1f53d
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Realms Processing and Attribute Manipulation

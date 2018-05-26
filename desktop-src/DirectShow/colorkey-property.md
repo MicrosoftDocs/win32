@@ -1,7 +1,12 @@
 ---
-Description: 'The ColorKey property sets or retrieves the color key used in closed captioning.'
-ms.assetid: '4d4b38e6-bd29-4e16-8f82-a5da9312d272'
+Description: The ColorKey property sets or retrieves the color key used in closed captioning.
+ms.assetid: 4d4b38e6-bd29-4e16-8f82-a5da9312d272
 title: ColorKey Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ColorKey Property

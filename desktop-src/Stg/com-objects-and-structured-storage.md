@@ -1,8 +1,14 @@
 ---
 title: COM Objects and Structured Storage
 description: One of the most common current uses of persistent properties is to use them to store data about a system object, such as a document, with that object.
-ms.assetid: '95136e9a-4c80-4704-ae65-9759487cf8f8'
-keywords: ["COM Objects and Structured Storage"]
+ms.assetid: 95136e9a-4c80-4704-ae65-9759487cf8f8
+keywords:
+- COM Objects and Structured Storage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Objects and Structured Storage

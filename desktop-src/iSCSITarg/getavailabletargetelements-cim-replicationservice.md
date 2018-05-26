@@ -4,13 +4,16 @@ description: Get (or start a job to get) all of the candidate target elements fo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '16e405ea-7bb6-4dc3-9df6-57dabfcd717b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 16e405ea-7bb6-4dc3-9df6-57dabfcd717b
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetAvailableTargetElements method iSCSI Software Target API", "GetAvailableTargetElements method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , GetAvailableTargetElements method"]
+keywords:
+- GetAvailableTargetElements method iSCSI Software Target API
+- GetAvailableTargetElements method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , GetAvailableTargetElements method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetAvailableTargetElements method of the CIM\_ReplicationService class
@@ -30,15 +36,15 @@ Get (or start a job to get) all of the candidate target elements for the supplie
 
 ```mof
 uint32 GetAvailableTargetElements(
-  [in]  CIM_LogicalElement     REF SourceElement,
-  [in]  uint16                     SyncType,
-  [in]  uint16                     Mode,
-  [in]  string                     ReplicationSettingData,
-  [in]  CIM_ServiceAccessPoint REF TargetAccessPoint,
-  [in]  CIM_SettingData        REF TargetSettingGoal,
-  [in]  CIM_ResourcePool       REF TargetPools[],
-  [out] CIM_ConcreteJob        REF Job,
-  [out] CIM_LogicalElement     REF Candidates[]
+  [in]  CIM_LogicalElement     REF SourceElement,
+  [in]  uint16                     SyncType,
+  [in]  uint16                     Mode,
+  [in]  string                     ReplicationSettingData,
+  [in]  CIM_ServiceAccessPoint REF TargetAccessPoint,
+  [in]  CIM_SettingData        REF TargetSettingGoal,
+  [in]  CIM_ResourcePool       REF TargetPools[],
+  [out] CIM_ConcreteJob        REF Job,
+  [out] CIM_LogicalElement     REF Candidates[]
 );
 ```
 
@@ -67,7 +73,7 @@ SyncType describes the type of copy.
 **DMTF Reserved**
 
 
-</dt> <dd>0–5</dd> <dt>
+</dt> <dd>0 5</dd> <dt>
 
 <span id="Mirror"></span><span id="mirror"></span><span id="MIRROR"></span>
 
@@ -95,14 +101,14 @@ SyncType describes the type of copy.
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Mode* \[in\]
 </dt> <dd>
@@ -130,14 +136,14 @@ Mode describes whether the target elements will be updated synchronously or asyn
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *ReplicationSettingData* \[in\]
 </dt> <dd>
@@ -206,16 +212,16 @@ The list of the candidate target elements.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -225,7 +231,7 @@ The list of the candidate target elements.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -239,9 +245,9 @@ The list of the candidate target elements.
 **CIM\_ReplicationService**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

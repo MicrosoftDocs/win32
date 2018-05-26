@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following video subtype GUIDs are defined in the header file mfapi.h. To specify the subtype, set the MF\_MT\_SUBTYPE attribute on the media type.'
-ms.assetid: '7dfd85e6-936e-4b78-a2cb-a5d59153e1c4'
+---
+Description: The following video subtype GUIDs are defined in the header file mfapi.h. To specify the subtype, set the MF\_MT\_SUBTYPE attribute on the media type.
+ms.assetid: 7dfd85e6-936e-4b78-a2cb-a5d59153e1c4
 title: Video Subtype GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Subtype GUIDs
@@ -156,7 +161,7 @@ For more information about these formats, see [10-bit and 16-bit YUV Video Forma
 
 Video formats are often represented by FOURCCs or **D3DFORMAT** values. A range of GUIDs is reserved for representing these values as subtypes. These GUIDs have the form `XXXXXXXX-0000-0010-8000-00AA00389B71`, where `XXXXXXXX` is the 4-byte FOURCC code or **D3DFORMAT** value.
 
-If a video format has an associated FOURCC or **D3DFORMAT** value, you can create the corresponding subtype GUID as follows: Start with the constant **MFVideoFormat\_Base** and replace the first **DWORD** of the GUID with the video FOURCC or the **D3DFORMAT** value. You can use the [**DEFINE\_MEDIATYPE\_GUID**](define-mediatype-guid-macro.md) macro for this purpose.
+If a video format has an associated FOURCC or **D3DFORMAT** value, you can create the corresponding subtype GUID as follows: Start with the constant **MFVideoFormat\_Base** and replace the first **DWORD** of the GUID with the video FOURCC or the **D3DFORMAT** value. You can use the [**DEFINE\_MEDIATYPE\_GUID**](/windows/win32/mfapi/nf-mfapi-define_mediatype_guid?branch=master) macro for this purpose.
 
 > [!Note]  
 > DirectShow also uses this system for most video subtypes, but not for uncompressed RGB formats. Therefore, the RGB subtypes in DirectShow do not match the RGB subtypes in Media Foundation.
@@ -192,7 +197,7 @@ For more information about FOURCCs, see [Video FOURCCs](video-fourccs.md).
 
 <dl> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type GUIDs](media-type-guids.md)

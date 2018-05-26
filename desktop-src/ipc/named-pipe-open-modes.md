@@ -1,16 +1,21 @@
 ---
-Description: 'The pipe server specifies the pipe access, overlap, and write-through modes in the dwOpenMode parameter of the CreateNamedPipe function. The pipe clients can specify these open modes for their pipe handles using the CreateFile function.'
-ms.assetid: '88824566-93c7-4941-a4fc-3a7ae9a332a4'
+Description: The pipe server specifies the pipe access, overlap, and write-through modes in the dwOpenMode parameter of the CreateNamedPipe function. The pipe clients can specify these open modes for their pipe handles using the CreateFile function.
+ms.assetid: 88824566-93c7-4941-a4fc-3a7ae9a332a4
 title: Named Pipe Open Modes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Named Pipe Open Modes
 
-The pipe server specifies the pipe access, overlap, and write-through modes in the *dwOpenMode* parameter of the [**CreateNamedPipe**](createnamedpipe.md) function. The pipe clients can specify these open modes for their pipe handles using the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function.
+The pipe server specifies the pipe access, overlap, and write-through modes in the *dwOpenMode* parameter of the [**CreateNamedPipe**](/windows/win32/Winbase/nf-winbase-createnamedpipea?branch=master) function. The pipe clients can specify these open modes for their pipe handles using the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function.
 
 ## Access Mode
 
-Setting the pipe access mode is equivalent to specifying read or write access associated with the pipe server's handles. The following table shows the equivalent generic access right for each access mode you can specify with [**CreateNamedPipe**](createnamedpipe.md).
+Setting the pipe access mode is equivalent to specifying read or write access associated with the pipe server's handles. The following table shows the equivalent generic access right for each access mode you can specify with [**CreateNamedPipe**](/windows/win32/Winbase/nf-winbase-createnamedpipea?branch=master).
 
 
 
@@ -44,7 +49,7 @@ If write-through mode is not enabled, the system enhances the efficiency of netw
 
 The [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function allows the pipe client to set write-through mode (FILE\_FLAG\_WRITE\_THROUGH) for its pipe handles using the *dwFlagsAndAttributes* parameter. The write-through mode of a pipe handle cannot be changed after the pipe handle has been created. The write-through mode can be different for server and client handles to the same pipe instance.
 
-A pipe client can use the [**SetNamedPipeHandleState**](setnamedpipehandlestate.md) function to control the number of bytes and the time-out period before transmission for a pipe on which write-through mode is disabled. For a read-only pipe, the pipe handle must be opened with the GENERIC\_READ and FILE\_WRITE\_ATTRIBUTES access rights.
+A pipe client can use the [**SetNamedPipeHandleState**](/windows/win32/Winbase/?branch=master) function to control the number of bytes and the time-out period before transmission for a pipe on which write-through mode is disabled. For a read-only pipe, the pipe handle must be opened with the GENERIC\_READ and FILE\_WRITE\_ATTRIBUTES access rights.
 
  
 

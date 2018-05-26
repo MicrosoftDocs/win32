@@ -1,7 +1,12 @@
 ---
 title: Adj Attribute
 description: Adj Attribute
-ms.assetid: 'f0f31e6c-9dde-4082-88a2-da2d0012b9ae'
+ms.assetid: f0f31e6c-9dde-4082-88a2-da2d0012b9ae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adj Attribute

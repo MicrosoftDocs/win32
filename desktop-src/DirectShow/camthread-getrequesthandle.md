@@ -1,7 +1,12 @@
 ---
-Description: 'The GetRequestHandle method retrieves a handle to the event that is signaled by the CAMThread::CallWorker method.'
-ms.assetid: '6e4496ae-a635-4b55-ae7a-31748f21068b'
-title: 'CAMThread.GetRequestHandle method'
+Description: The GetRequestHandle method retrieves a handle to the event that is signaled by the CAMThreadCallWorker method.
+ms.assetid: 6e4496ae-a635-4b55-ae7a-31748f21068b
+title: CAMThread.GetRequestHandle method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread.GetRequestHandle method
@@ -49,9 +54,9 @@ If you call a function such as WaitForMultipleObjects, use GetRequestHandle to r
 [**CAMThread Class**](camthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

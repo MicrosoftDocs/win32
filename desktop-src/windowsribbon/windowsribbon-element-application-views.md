@@ -1,14 +1,20 @@
 ---
 title: Application.Views property
 description: Represents a container for each Ribbon framework View, specifically the Ribbon and the ContextPopup.
-ms.assetid: 'e7549b8b-0f95-477a-9024-1a99ee1412c2'
-keywords: ["Application.Views property Windows Ribbon"]
+ms.assetid: e7549b8b-0f95-477a-9024-1a99ee1412c2
+keywords:
+- Application.Views property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Application.Views
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application.Views property
@@ -96,8 +102,8 @@ The following example shows an **Application.Views** element that contains a man
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -108,9 +114,9 @@ The following example shows an **Application.Views** element that contains a man
 [**Application.Commands**](windowsribbon-element-application-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Object pooling is an automatic service provided by COM+ that enables you to configure a component to have instances of itself kept active in a pool, ready to be used by any client that requests the component.'
-ms.assetid: '74a45220-449a-4d89-a979-a206e5e3d3ad'
+Description: Object pooling is an automatic service provided by COM+ that enables you to configure a component to have instances of itself kept active in a pool, ready to be used by any client that requests the component.
+ms.assetid: 74a45220-449a-4d89-a979-a206e5e3d3ad
 title: COM+ Object Pooling Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Object Pooling Concepts
@@ -13,15 +18,15 @@ You can achieve very significant performance and scaling benefits by reusing obj
 -   You can speed object use time for each client, factoring out time-consuming initialization and resource acquisition from the actual work that the object performs for clients.
 -   You can share the cost of acquiring expensive resources across all clients.
 -   You can pre-allocate objects when the application starts, before any client requests come in.
--   You can govern resource use with administrative pool management—for example, by setting an appropriate maximum pool level, you can keep open only as many database connections as you have a license for.
--   You can administratively configure pooling to take best advantage of available hardware resources—you can easily adjust the pool configuration as available hardware resources change.
+-   You can govern resource use with administrative pool management for example, by setting an appropriate maximum pool level, you can keep open only as many database connections as you have a license for.
+-   You can administratively configure pooling to take best advantage of available hardware resources you can easily adjust the pool configuration as available hardware resources change.
 -   You can speed reactivation time for objects that use [just-in-time (JIT) activation](com--just-in-time-activation.md), while deliberately controlling how resources are dedicated to clients.
 
 ## Writing Poolable Objects
 
 Poolable objects must meet certain requirements to enable a single object instance to be used by multiple clients. For example, they can't hold client state or have any thread affinity. Transactional objects also have particular requirements, in that managed resources held by a pooled object must be manually enlisted in a transaction.
 
-Pooled objects can implement [**IObjectControl**](iobjectcontrol.md) to control how they are reused. This enables them to perform initialization when activated in a given context, to clean up any client state on deactivation, and to indicate when they are in a non-reusable state.
+Pooled objects can implement [**IObjectControl**](/windows/win32/ComSvcs/nn-comsvcs-iobjectcontrol?branch=master) to control how they are reused. This enables them to perform initialization when activated in a given context, to clean up any client state on deactivation, and to indicate when they are in a non-reusable state.
 
 Often, it useful to write poolable objects in a somewhat generic fashion so that they can be administratively customized with a constructor string. For example, an object might be written to hold a generic ODBC connection, with a particular DSN administratively specified in a constructor string.
 
@@ -39,7 +44,7 @@ The topics in this section, described in the following table, provide informatio
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -48,9 +53,9 @@ The topics in this section, described in the following table, provide informatio
 [COM+ Object Pooling Tasks](com--object-pooling-tasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

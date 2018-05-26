@@ -1,8 +1,9 @@
 ---
 title: NM\_CLICK (toolbar) notification code
 description: Sent by a toolbar control when the user clicks an item with the left mouse button. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'fa43c9bc-db2a-4460-b193-2b4694d06d83'
-keywords: ["NM_CLICK (toolbar) notification code Windows Controls"]
+ms.assetid: fa43c9bc-db2a-4460-b193-2b4694d06d83
+keywords:
+- NM_CLICK (toolbar) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_CLICK (toolbar) notification code
@@ -33,7 +39,7 @@ NM_CLICK
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMMOUSE**](nmmouse.md) structure that contains additional information about this notification. The **dwItemSpec** member contains the index of the section that was clicked.
+Pointer to an [**NMMOUSE**](/windows/win32/Commctrl/ns-commctrl-tagnmmouse?branch=master) structure that contains additional information about this notification. The **dwItemSpec** member contains the index of the section that was clicked.
 
 </dd> </dl>
 
@@ -51,15 +57,15 @@ Clicking an item with the left mouse button causes the toolbar to send a [**WM\_
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

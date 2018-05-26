@@ -1,7 +1,12 @@
 ---
-Description: 'The GetFrameCaptureHandle function returns a handle to the capture based on a given frame.'
-ms.assetid: '71b32799-194c-40f8-8438-36aebaba31c7'
+Description: The GetFrameCaptureHandle function returns a handle to the capture based on a given frame.
+ms.assetid: 71b32799-194c-40f8-8438-36aebaba31c7
 title: GetFrameCaptureHandle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetFrameCaptureHandle function
@@ -13,7 +18,7 @@ The **GetFrameCaptureHandle** function returns a handle to the capture based on 
 
 ```C++
 HCAPTURE WINAPI GetFrameCaptureHandle(
-  _In_ HFRAME hFrame
+  _In_ HFRAME hFrame
 );
 ```
 
@@ -46,17 +51,17 @@ If the function is unsuccessful, the return value is 0.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

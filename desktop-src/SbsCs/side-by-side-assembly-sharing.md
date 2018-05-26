@@ -1,7 +1,12 @@
 ---
-Description: 'The following figure illustrates how two applications might share an assembly using the traditional method of assembly sharing.'
-ms.assetid: '2b9c6511-ae79-498f-a20c-ccb32a623d42'
-title: 'Side-by-side Assembly Sharing'
+Description: The following figure illustrates how two applications might share an assembly using the traditional method of assembly sharing.
+ms.assetid: 2b9c6511-ae79-498f-a20c-ccb32a623d42
+title: Side-by-side Assembly Sharing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Side-by-side Assembly Sharing

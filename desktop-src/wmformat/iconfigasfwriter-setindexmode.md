@@ -1,14 +1,22 @@
 ---
 title: IConfigAsfWriter SetIndexMode method
 description: The SetIndexMode method enables the application to control whether the file will be temporally indexed.
-ms.assetid: '104e29f4-a1e5-4e26-a9ef-52ef52d6f5b2'
-keywords: ["SetIndexMode method windows Media Format", "SetIndexMode method windows Media Format , IConfigAsfWriter interface", "IConfigAsfWriter interface windows Media Format , SetIndexMode method"]
+ms.assetid: 104e29f4-a1e5-4e26-a9ef-52ef52d6f5b2
+keywords:
+- SetIndexMode method windows Media Format
+- SetIndexMode method windows Media Format , IConfigAsfWriter interface
+- IConfigAsfWriter interface windows Media Format , SetIndexMode method
 topic_type:
 - apiref
 api_name:
 - IConfigAsfWriter.SetIndexMode
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IConfigAsfWriter::SetIndexMode method
@@ -49,7 +57,7 @@ By default, the [WM ASF Writer](wm-asf-writer-filter.md) creates temporally inde
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](iconfigasfwriter.md)
+[**IConfigAsfWriter Interface**](/windows/win32/dshowasf/?branch=master)
 </dt> </dl>
 
  

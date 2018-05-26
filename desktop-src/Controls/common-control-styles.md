@@ -1,7 +1,7 @@
 ---
 title: Common Control Styles
 description: This section lists common control styles. Except where noted, these styles apply to rebar controls, toolbar controls, and status windows.
-ms.assetid: 'aab0cd68-ede7-474b-8695-c75805669716'
+ms.assetid: aab0cd68-ede7-474b-8695-c75805669716
 topic_type:
 - apiref
 api_name:
@@ -20,6 +20,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Control Styles
@@ -83,9 +88,9 @@ The following topics describe additional control styles:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

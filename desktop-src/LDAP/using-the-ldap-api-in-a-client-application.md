@@ -4,11 +4,17 @@ description: The topics in this section describe the steps a typical Lightweight
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'af6341cc-7503-4a87-b97c-d4409c51ca21'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: af6341cc-7503-4a87-b97c-d4409c51ca21
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP LDAP , using", "Using Lightweight Directory Access Protocol LDAP", "Using LDAP LDAP"]
+keywords:
+- LDAP LDAP , using
+- Using Lightweight Directory Access Protocol LDAP
+- Using LDAP LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Lightweight Directory Access Protocol

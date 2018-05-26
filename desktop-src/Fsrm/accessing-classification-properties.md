@@ -4,17 +4,20 @@ description: Enumerating FSRM classification properties is easily done using the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'E057898F-72A0-4AB0-BE88-4C1BE6B2B5DE'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: E057898F-72A0-4AB0-BE88-4C1BE6B2B5DE
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Accessing Classification Properties
 
-Enumerating FSRM classification properties is easily done using the [**FsrmClassificationManager**](fsrmclassificationmanager.md) object.
+Enumerating FSRM classification properties is easily done using the [**FsrmClassificationManager**](/windows/previous-versions/FsrmTlb/?branch=master) object.
 
-All interfaces required to access and manage properties are defined in SrmLib.dll found in the System32 directory of Windows Server 2008 R2 and later. This library will have to be added as a reference to projects that attempt to interface with the classification infrastructure. All the relevant interfaces are in the **Microsoft.Storage** namespace.
+All interfaces required to access and manage properties are defined in SrmLib.dll found in the System32 directory of Windows Server 2008 R2 and later. This library will have to be added as a reference to projects that attempt to interface with the classification infrastructure. All the relevant interfaces are in the **Microsoft.Storage** namespace.
 
 -   [Querying classification property definitions](#querying-classification-property-definitions)
 -   [Retrieving a classification property by name](#retrieving-a-classification-property-by-name)
@@ -27,9 +30,9 @@ All interfaces required to access and manage properties are defined in SrmLib.dl
 
 Querying the classification property definitions on a server has to be done via APIs. It follows this pattern:
 
--   Create a [**FsrmClassificationManager**](fsrmclassificationmanager.md) object.
--   Call the [**EnumPropertyDefinitions**](ifsrmclassificationmanager-enumpropertydefinitions.md) method of the returned object.
--   Process the collection of [**IFsrmPropertyDefinition**](ifsrmpropertydefinition.md) objects returned.
+-   Create a [**FsrmClassificationManager**](/windows/previous-versions/FsrmTlb/?branch=master) object.
+-   Call the [**EnumPropertyDefinitions**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager-enumpropertydefinitions?branch=master) method of the returned object.
+-   Process the collection of [**IFsrmPropertyDefinition**](/windows/previous-versions/Fsrm/nn-fsrmpipeline-ifsrmpropertydefinition?branch=master) objects returned.
 
 This snippet demonstrates enumerating classification properties.
 
@@ -68,12 +71,12 @@ $cls.EnumPropertyDefinitions()</code></pre></td>
 
 ## Retrieving a classification property by name
 
-If the name of a property is known, the property definition can be retrieved using the [**GetPropertyDefinition**](ifsrmclassificationmanager-getpropertydefinition.md) method.
+If the name of a property is known, the property definition can be retrieved using the [**GetPropertyDefinition**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager-getpropertydefinition?branch=master) method.
 
 > [!Note]  
 > This is the **Name** property of the property definition, not the **DisplayName** property.
 
- 
+ 
 
 This snippet demonstrates retrieving a classification property.
 
@@ -109,19 +112,19 @@ $cls.GetPropertyDefinition(&quot;&lt;Name&gt;&quot;)</code></pre></td>
 
 To query the classification properties on a file there are two mechanisms available:
 
--   If the name of the property is known, the [**GetFileProperty**](ifsrmclassificationmanager-getfileproperty.md) method can be used to specify the exact property to get.
+-   If the name of the property is known, the [**GetFileProperty**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager-getfileproperty?branch=master) method can be used to specify the exact property to get.
 
     > [!Note]  
     > This is the **Name** property of the property definition, not the **DisplayName** property.
 
-     
+     
 
--   Otherwise, the [**EnumFileProperties**](ifsrmclassificationmanager-enumfileproperties.md) method can retrieve all properties known for a file.
+-   Otherwise, the [**EnumFileProperties**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager-enumfileproperties?branch=master) method can retrieve all properties known for a file.
 
 In either case, the mechanism to do this follows this pattern:
 
--   Create a [**FsrmClassificationManager**](fsrmclassificationmanager.md) object.
--   Call the [**GetFileProperty**](ifsrmclassificationmanager-getfileproperty.md) or [**EnumFileProperties**](ifsrmclassificationmanager-enumfileproperties.md) method on the returned object.
+-   Create a [**FsrmClassificationManager**](/windows/previous-versions/FsrmTlb/?branch=master) object.
+-   Call the [**GetFileProperty**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager-getfileproperty?branch=master) or [**EnumFileProperties**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager-enumfileproperties?branch=master) method on the returned object.
 
 This snippet demonstrates retrieving classification properties on a file.
 
@@ -180,12 +183,12 @@ $c = $cls.EnumFileProperties(&quot;c:\data\data.txt&quot;, &quot;&lt;Name&gt;&qu
 
 ## Setting a property on a file
 
-Setting a property on a file is very similar using the [**SetFileProperty**](ifsrmclassificationmanager-setfileproperty.md) method.
+Setting a property on a file is very similar using the [**SetFileProperty**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager-setfileproperty?branch=master) method.
 
 > [!Note]  
 > This is the **Name** property of the fille property, not the **DisplayName** property.
 
- 
+ 
 
 This snippet demonstrates setting a property on a file.
 
@@ -234,7 +237,7 @@ Values for properties are always Unicode strings. The following conventions shou
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -243,33 +246,33 @@ Values for properties are always Unicode strings. The following conventions shou
 [Using FSRM](using-fsrm.md)
 </dt> <dt>
 
-[**FsrmClassificationManager**](fsrmclassificationmanager.md)
+[**FsrmClassificationManager**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dt>
 
-[**IFsrmClassificationManager**](ifsrmclassificationmanager.md)
+[**IFsrmClassificationManager**](/windows/previous-versions/FsrmPipeline/nn-fsrmpipeline-ifsrmclassificationmanager?branch=master)
 </dt> <dt>
 
-[**IFsrmClassificationManager::EnumFileProperties**](ifsrmclassificationmanager-enumfileproperties.md)
+[**IFsrmClassificationManager::EnumFileProperties**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager-enumfileproperties?branch=master)
 </dt> <dt>
 
-[**IFsrmClassificationManager::EnumPropertyDefinitions**](ifsrmclassificationmanager-enumpropertydefinitions.md)
+[**IFsrmClassificationManager::EnumPropertyDefinitions**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager-enumpropertydefinitions?branch=master)
 </dt> <dt>
 
-[**IFsrmClassificationManager::GetFileProperty**](ifsrmclassificationmanager-getfileproperty.md)
+[**IFsrmClassificationManager::GetFileProperty**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager-getfileproperty?branch=master)
 </dt> <dt>
 
-[**IFsrmClassificationManager::GetPropertyDefinition**](ifsrmclassificationmanager-getpropertydefinition.md)
+[**IFsrmClassificationManager::GetPropertyDefinition**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager-getpropertydefinition?branch=master)
 </dt> <dt>
 
-[**IFsrmClassificationManager::SetFileProperty**](ifsrmclassificationmanager-setfileproperty.md)
+[**IFsrmClassificationManager::SetFileProperty**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager-setfileproperty?branch=master)
 </dt> <dt>
 
-[**IFsrmPropertyDefinition**](ifsrmpropertydefinition.md)
+[**IFsrmPropertyDefinition**](/windows/previous-versions/Fsrm/nn-fsrmpipeline-ifsrmpropertydefinition?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

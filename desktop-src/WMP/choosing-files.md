@@ -1,8 +1,16 @@
 ---
 title: Choosing Files
 description: Choosing Files
-ms.assetid: 'dfa44a32-7d72-47f7-a872-33b823a34798'
-keywords: ["creating skins,choosing files", "Windows Media Player skins,choosing files", "skins,choosing files"]
+ms.assetid: dfa44a32-7d72-47f7-a872-33b823a34798
+keywords:
+- creating skins,choosing files
+- Windows Media Player skins,choosing files
+- skins,choosing files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing Files

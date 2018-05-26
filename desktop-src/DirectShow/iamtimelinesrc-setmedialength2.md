@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetMediaLength2 method specifies the duration of the source file. This method is equivalent to IAMTimelineSrc::SetMediaLength, but takes a REFTIME value.'
-ms.assetid: '1a1dcf23-2041-4791-bce7-0ecbe33df592'
-title: 'IAMTimelineSrc::SetMediaLength2 method'
+---
+Description: The SetMediaLength2 method specifies the duration of the source file. This method is equivalent to IAMTimelineSrcSetMediaLength, but takes a REFTIME value.
+ms.assetid: 1a1dcf23-2041-4791-bce7-0ecbe33df592
+title: IAMTimelineSrcSetMediaLength2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineSrc::SetMediaLength2 method

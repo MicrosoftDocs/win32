@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMCommandCallback function
-ms.assetid: '0ac9c56d-f03d-4082-a7df-c21db12c0d74'
+ms.assetid: 0ac9c56d-f03d-4082-a7df-c21db12c0d74
 title: OEMCommandCallback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMCommandCallback function

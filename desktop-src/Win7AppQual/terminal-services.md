@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '94ac6a91-1e00-45f3-9374-3ac48ac63765'
+Description: .
+ms.assetid: 94ac6a91-1e00-45f3-9374-3ac48ac63765
 title: Remote Desktop Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remote Desktop Services

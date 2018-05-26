@@ -1,7 +1,12 @@
 ---
-Description: 'Generates C constants for XML schema tables for known types.'
-ms.assetid: 'caba3776-fdc2-4a08-8e4c-d8e3b583d7ba'
+Description: Generates C constants for XML schema tables for known types.
+ms.assetid: caba3776-fdc2-4a08-8e4c-d8e3b583d7ba
 title: typeTableDefinitions element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # typeTableDefinitions element
@@ -42,14 +47,14 @@ This element is generally used in C source files to provide the XML schema table
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

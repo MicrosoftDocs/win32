@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the decoder should perform Lt-Rt fold down.'
-ms.assetid: 'ce1dc4ea-4326-40ab-bb30-ff1a34f06d79'
-title: 'MFPKEY\_WMADEC\_LTRTOUTPUT Property'
+---
+Description: Specifies whether the decoder should perform Lt-Rt fold down.
+ms.assetid: ce1dc4ea-4326-40ab-bb30-ff1a34f06d79
+title: MFPKEY\_WMADEC\_LTRTOUTPUT Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMADEC\_LTRTOUTPUT Property

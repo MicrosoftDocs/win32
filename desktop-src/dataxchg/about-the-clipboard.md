@@ -1,8 +1,24 @@
 ---
 title: About the Clipboard
 description: This section discusses the clipboard.
-ms.assetid: '14c91730-a668-495b-9ec6-b835234821a5'
-keywords: ["clipboard,about", "clipboard,formats", "clipboard,commands", "clipboard,windows", "clipboard,sequence numbers", "clipboard,viewers", "clipboard,viewer windows", "clipboard,display formats", "clipboard,owner display formats", "display clipboard formats", "owner display clipboard formats"]
+ms.assetid: 14c91730-a668-495b-9ec6-b835234821a5
+keywords:
+- clipboard,about
+- clipboard,formats
+- clipboard,commands
+- clipboard,windows
+- clipboard,sequence numbers
+- clipboard,viewers
+- clipboard,viewer windows
+- clipboard,display formats
+- clipboard,owner display formats
+- display clipboard formats
+- owner display clipboard formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Clipboard
@@ -11,7 +27,7 @@ The *clipboard* is a set of functions and messages that enable applications to t
 
 The clipboard is user-driven. A window should transfer data to or from the clipboard only in response to a command from the user. A window must not use the clipboard to transfer data without the user's knowledge.
 
-A memory object on the clipboard can be in any data format, called a clipboard format. Each format is identified by an unsigned integer value. For standard (predefined) clipboard formats, this value is a constant defined in Winuser.h; for registered clipboard formats, it is the return value of the [**RegisterClipboardFormat**](registerclipboardformat.md) function.
+A memory object on the clipboard can be in any data format, called a clipboard format. Each format is identified by an unsigned integer value. For standard (predefined) clipboard formats, this value is a constant defined in Winuser.h; for registered clipboard formats, it is the return value of the [**RegisterClipboardFormat**](/windows/win32/Winuser/nf-winuser-registerclipboardformata?branch=master) function.
 
 Except for registering clipboard formats, individual windows perform most clipboard operations. Typically, a window procedure transfers information to or from the clipboard in response to the [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.
 
@@ -44,7 +60,7 @@ A user typically carries out clipboard operations by choosing commands from an a
 
 ## Clipboard Sequence Number
 
-The clipboard for each window station has an associated clipboard sequence number. This number is incremented whenever the contents of the clipboard change. To obtain the clipboard sequence number, call the [**GetClipboardSequenceNumber**](getclipboardsequencenumber.md) function.
+The clipboard for each window station has an associated clipboard sequence number. This number is incremented whenever the contents of the clipboard change. To obtain the clipboard sequence number, call the [**GetClipboardSequenceNumber**](/windows/win32/Winuser/nf-winuser-getclipboardsequencenumber?branch=master) function.
 
 ## Clipboard Viewers
 
@@ -62,11 +78,11 @@ The following topics are discussed in this section.
 
 ### Clipboard Viewer Windows
 
-A window adds itself to the clipboard viewer chain by calling the [**SetClipboardViewer**](setclipboardviewer.md) function. The return value is the handle to the next window in the chain. To retrieve the handle to the first window in the chain, call the [**GetClipboardViewer**](getclipboardviewer.md) function.
+A window adds itself to the clipboard viewer chain by calling the [**SetClipboardViewer**](/windows/win32/Winuser/nf-winuser-setclipboardviewer?branch=master) function. The return value is the handle to the next window in the chain. To retrieve the handle to the first window in the chain, call the [**GetClipboardViewer**](/windows/win32/Winuser/nf-winuser-getclipboardviewer?branch=master) function.
 
 Each clipboard viewer window must keep track of the next window in the clipboard viewer chain. When the content of the clipboard changes, the system sends a [**WM\_DRAWCLIPBOARD**](wm-drawclipboard.md) message to the first window in the chain. After updating its display, each clipboard viewer window must pass this message on to the next window in the chain.
 
-Before closing, a clipboard viewer window must remove itself from the clipboard viewer chain by calling the [**ChangeClipboardChain**](changeclipboardchain.md) function. The system then sends a [**WM\_CHANGECBCHAIN**](wm-changecbchain.md) message to the first window in the chain.
+Before closing, a clipboard viewer window must remove itself from the clipboard viewer chain by calling the [**ChangeClipboardChain**](/windows/win32/Winuser/nf-winuser-changeclipboardchain?branch=master) function. The system then sends a [**WM\_CHANGECBCHAIN**](wm-changecbchain.md) message to the first window in the chain.
 
 For more information about processing the [**WM\_DRAWCLIPBOARD**](wm-drawclipboard.md) and [**WM\_CHANGECBCHAIN**](wm-changecbchain.md) messages, see [Creating a Clipboard Viewer Window](using-the-clipboard.md#creating-a-clipboard-viewer-window).
 

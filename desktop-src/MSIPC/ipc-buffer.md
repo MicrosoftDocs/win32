@@ -4,11 +4,14 @@ description: Represents a buffer.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '87a023ce-585f-41e8-a6a9-47e6a3044366'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 87a023ce-585f-41e8-a6a9-47e6a3044366
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_BUFFER structure Active Directory Rights Management Services SDK 2.0", "PIPC_BUFFER structure pointer Active Directory Rights Management Services SDK 2.0", "PCIPC_BUFFER structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_BUFFER structure Active Directory Rights Management Services SDK 2.0
+- PIPC_BUFFER structure pointer Active Directory Rights Management Services SDK 2.0
+- PCIPC_BUFFER structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Ipcbase.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPC\_BUFFER structure
@@ -29,7 +35,7 @@ Represents a buffer.
 ```C++
 typedef struct _IPC_BUFFER {
   LPVOID pvBuffer;
-  DWORD  cbBuffer;
+  DWORD  cbBuffer;
 } IPC_BUFFER, *PIPC_BUFFER;typedef const IPC_BUFFER *PCIPC_BUFFER;
 ```
 
@@ -59,15 +65,15 @@ The size of the buffer, in bytes.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcbase.h (include Msipc.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

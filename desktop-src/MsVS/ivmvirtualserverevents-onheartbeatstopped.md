@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServerEvents OnHeartbeatStopped method
 description: Called when the heartbeat stops for any virtual machine, indicating that a virtual machine has stopped running.
-ms.assetid: 'ce5b92da-8def-4b3c-8305-cf8b9de735dd'
-keywords: ["OnHeartbeatStopped method Virtual Server", "OnHeartbeatStopped method Virtual Server , IVMVirtualServerEvents interface", "IVMVirtualServerEvents interface Virtual Server , OnHeartbeatStopped method"]
+ms.assetid: ce5b92da-8def-4b3c-8305-cf8b9de735dd
+keywords:
+- OnHeartbeatStopped method Virtual Server
+- OnHeartbeatStopped method Virtual Server , IVMVirtualServerEvents interface
+- IVMVirtualServerEvents interface Virtual Server , OnHeartbeatStopped method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServerEvents::OnHeartbeatStopped method
@@ -22,7 +30,7 @@ The **OnHeartbeatStopped** method is called when the heartbeat stops for any vir
 
 ```C++
 HRESULT OnHeartbeatStopped(
-  [in] BSTR virtualMachineConfig
+  [in] BSTR virtualMachineConfig
 );
 ```
 
@@ -53,8 +61,8 @@ The client program must implement this interface method to receive notification 
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -66,9 +74,9 @@ The client program must implement this interface method to receive notification 
 [**IVMVirtualServerEvents**](ivmvirtualserverevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

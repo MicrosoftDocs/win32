@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ProtectedSpaceExtent class represents addressable logical-block addresses, which are treated as a single storage extent, but are located on a single physical extent.'
+Description: The CIM\_ProtectedSpaceExtent class represents addressable logical-block addresses, which are treated as a single storage extent, but are located on a single physical extent.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c6fac984-3b04-4fdb-916a-f83a9d35c67b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c6fac984-3b04-4fdb-916a-f83a9d35c67b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ProtectedSpaceExtent class'
+title: CIM\_ProtectedSpaceExtent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ProtectedSpaceExtent class
@@ -19,7 +22,7 @@ The **CIM\_ProtectedSpaceExtent** class represents addressable logical-block add
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,31 +32,31 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{35E25AA4-E3D1-11d2-8601-0000F8102E5F}"), AMENDMENT]
 class CIM_ProtectedSpaceExtent : CIM_StorageExtent
 {
-  uint16   Access;
-  uint16   Availability;
-  uint64   BlockSize;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  string   ErrorMethodology;
+  uint16   Access;
+  uint16   Availability;
+  uint64   BlockSize;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  string   ErrorMethodology;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  string   Name;
-  uint64   NumberOfBlocks;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Purpose;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint64   UserDataStripeDepth;
+  uint32   LastErrorCode;
+  string   Name;
+  uint64   NumberOfBlocks;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Purpose;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint64   UserDataStripeDepth;
 };
 ```
 
@@ -77,7 +80,7 @@ The **CIM\_ProtectedSpaceExtent** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1296,8 +1299,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1311,9 +1314,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_StorageExtent**](cim-storageextent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

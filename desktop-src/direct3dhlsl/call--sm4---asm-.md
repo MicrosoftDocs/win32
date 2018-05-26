@@ -1,7 +1,12 @@
 ---
 title: call (sm4 - asm)
 description: Calls a subroutine marked by where the label l\ appears in the program.
-ms.assetid: 'D6B7C52D-2CF7-44DB-81E3-2945477EF94A'
+ms.assetid: D6B7C52D-2CF7-44DB-81E3-2945477EF94A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # call (sm4 - asm)
@@ -15,7 +20,7 @@ Calls a subroutine marked by where the label **l\#** appears in the program.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Calls a subroutine marked by where the label **l\#** appears in the program.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,7 +74,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -88,7 +93,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -97,9 +102,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

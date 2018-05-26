@@ -1,8 +1,14 @@
 ---
 title: Limited Windows Support for IrCOMM Programming
 description: Windows implements a subset of the IrCOMM protocol to support certain legacy applications, but that support is considered legacy, and is not recommended for new applications.
-ms.assetid: '061ff792-06a9-49ea-a6e6-8a4768666c87'
-keywords: ["IrCOMM IrDA , programming support"]
+ms.assetid: 061ff792-06a9-49ea-a6e6-8a4768666c87
+keywords:
+- IrCOMM IrDA , programming support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Limited Windows Support for IrCOMM Programming

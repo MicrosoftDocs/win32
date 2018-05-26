@@ -1,7 +1,12 @@
 ---
 title: Using Actions to Analyze Process Heap Data
 description: Using Actions to Analyze Process Heap Data
-ms.assetid: '4040f43a-b0f6-4fbc-a85f-56aae15186d3'
+ms.assetid: 4040f43a-b0f6-4fbc-a85f-56aae15186d3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Actions to Analyze Process Heap Data
@@ -49,7 +54,7 @@ It is important to understand the following list of terms before performing heap
 > [!Note]  
 > Symbol information is necessary for many of the heap actions provided by WPA. In general, any activity that outputs any symbol information in a call stack or a stack frame requires "-symbols". Specifying frames that are required or frames to be culled also require "-symbols" if symbols are given in the specified frames. If the required symbol information is not available, WPA will use the Instruction Pointer (IP) value of individual stack frames.
 
- 
+ 
 
 The following table lists the available heap action options:
 
@@ -71,11 +76,11 @@ The following table lists the available heap action options:
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

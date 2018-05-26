@@ -1,8 +1,10 @@
 ---
 title: Win32\_WinSAT class
 description: Defines summary assessment information for the most recent formal assessment.
-ms.assetid: 'adf4de42-9dfd-46a7-ae75-3bbcfd15dd68'
-keywords: ["Win32_WinSAT class WinSAT", "Win32_WinSAT class WinSAT , described"]
+ms.assetid: adf4de42-9dfd-46a7-ae75-3bbcfd15dd68
+keywords:
+- Win32_WinSAT class WinSAT
+- Win32_WinSAT class WinSAT , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,11 @@ api_location:
 - WinSATAPI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_WinSAT class
@@ -147,7 +154,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-State of the assessment. For a description of the possible values, see the [**WINSAT\_ASSESSMENT\_STATE**](winsat-assessment-state.md) enumeration.
+State of the assessment. For a description of the possible values, see the [**WINSAT\_ASSESSMENT\_STATE**](/windows/win32/Winsatcominterfacei/ne-winsatcominterfacei-__midl___midl_itf_winsatcominterfacei_0000_0000_0002?branch=master) enumeration.
 
 <dl> <dt>
 
@@ -177,17 +184,17 @@ Data type: **real32**
 Access type: Read-only
 </dt> </dl>
 
-Base score for the computer. For details on the score value, see the [**IProvideWinSATResultsInfo::SystemRating**](iprovidewinsatresultsinfo-systemrating.md) property.
+Base score for the computer. For details on the score value, see the [**IProvideWinSATResultsInfo::SystemRating**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_systemrating?branch=master) property.
 
 </dd> </dl>
 
 ## Remarks
 
-For information on the subcomponent scores, such as **MemoryScore**, see the [**IProvideWinSATAssessmentInfo::Score**](iprovidewinsatassessmentinfo-score.md) property.
+For information on the subcomponent scores, such as **MemoryScore**, see the [**IProvideWinSATAssessmentInfo::Score**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatassessmentinfo-get_score?branch=master) property.
 
 ## Examples
 
-For an example that shows how to use WMI to retrieve data from this class, see the [**IProvideWinSATVisuals::get\_Bitmap**](iprovidewinsatvisuals-get-bitmap.md) method.
+For an example that shows how to use WMI to retrieve data from this class, see the [**IProvideWinSATVisuals::get\_Bitmap**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatvisuals-get_bitmap?branch=master) method.
 
 ## Requirements
 
@@ -195,7 +202,7 @@ For an example that shows how to use WMI to retrieve data from this class, see t
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WinSAT.mof</dt> </dl>    |
@@ -203,9 +210,9 @@ For an example that shows how to use WMI to retrieve data from this class, see t
 
 
 
- 
+ 
 
- 
+ 
 
 
 

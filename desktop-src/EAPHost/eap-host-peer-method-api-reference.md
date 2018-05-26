@@ -1,7 +1,12 @@
 ---
 title: EAPHost Peer Method API Reference
 description: EAPHost Peer Method API Reference
-ms.assetid: '3bbc198e-4801-43c5-825f-d671c358a437'
+ms.assetid: 3bbc198e-4801-43c5-825f-d671c358a437
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAPHost Peer Method API Reference

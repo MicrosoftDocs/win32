@@ -1,13 +1,16 @@
 ---
-Description: 'Starting with Windows Server 2008, the Server Feature Provider supplies information on what server features are installed on the server. This class allows administrators to inventory and manage their server roles and features.'
+Description: Starting with Windows Server 2008, the Server Feature Provider supplies information on what server features are installed on the server. This class allows administrators to inventory and manage their server roles and features.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f7932eaa-6730-4301-9809-32de9c1a20de'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f7932eaa-6730-4301-9809-32de9c1a20de
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Server Feature Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Server Feature Provider

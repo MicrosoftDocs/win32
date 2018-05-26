@@ -1,14 +1,20 @@
 ---
 title: tan
 description: Returns the tangent of the specified value.
-ms.assetid: 'ca03b184-9e1a-4152-9292-f8af38aa9423'
-keywords: ["tan HLSL"]
+ms.assetid: ca03b184-9e1a-4152-9292-f8af38aa9423
+keywords:
+- tan HLSL
 topic_type:
 - apiref
 api_name:
 - tan
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tan
@@ -22,7 +28,7 @@ Returns the tangent of the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the tangent of the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The tangent of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

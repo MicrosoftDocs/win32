@@ -1,12 +1,17 @@
 ---
-Description: 'The following example demonstrates how to create, schedule, and delete fibers.'
-ms.assetid: 'b09c00ae-a498-499b-ba2b-735028e9fd8f'
+Description: The following example demonstrates how to create, schedule, and delete fibers.
+ms.assetid: b09c00ae-a498-499b-ba2b-735028e9fd8f
 title: Using Fibers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Fibers
 
-The [**CreateFiber**](createfiber.md) function creates a new fiber for a thread. The creating thread must specify the starting address of the code that the new fiber is to execute. Typically, the starting address is the name of a user-supplied function. Multiple fibers can execute the same function.
+The [**CreateFiber**](/windows/win32/WinBase/nf-winbase-createfiber?branch=master) function creates a new fiber for a thread. The creating thread must specify the starting address of the code that the new fiber is to execute. Typically, the starting address is the name of a user-supplied function. Multiple fibers can execute the same function.
 
 The following example demonstrates how to create, schedule, and delete fibers. The fibers execute the locally defined functions ReadFiberFunc and WriteFiberFunc. This example implements a fiber-based file copy operation. When running the example, you must specify the source and destination files. Note that there are many other ways to copy file programmatically; this example exists primarily to illustrate the use of the fiber functions.
 
@@ -368,11 +373,11 @@ DisplayFiberInfo(
 
 This example makes use of a fiber data structure which is used to determine the behavior and state of the fiber. One data structure exists for each fiber; the pointer to the data structure is passed to the fiber at fiber creation time using the parameter of the [*FiberProc*](fiberproc.md) function.
 
-The calling thread calls the [**ConvertThreadToFiber**](convertthreadtofiber.md) function, which enables fibers to be scheduled by the caller. This also allows the fiber to be scheduled by another fiber. Next, the thread creates two additional fibers, one that performs read operations against a specified file, and another that performs the write operations against a specified file.
+The calling thread calls the [**ConvertThreadToFiber**](/windows/win32/WinBase/nf-winbase-convertthreadtofiber?branch=master) function, which enables fibers to be scheduled by the caller. This also allows the fiber to be scheduled by another fiber. Next, the thread creates two additional fibers, one that performs read operations against a specified file, and another that performs the write operations against a specified file.
 
-The primary fiber calls the [**SwitchToFiber**](switchtofiber.md) function to schedule the read fiber. After a successful read, the read fiber schedules the write fiber. After a successful write in the write fiber, the write fiber schedules the read fiber. When the read/write cycle has completed, the primary fiber is scheduled, which results in the display of the read/write status. If an error occurs during the read or write operations, the primary fiber is scheduled and example displays the status of the operation.
+The primary fiber calls the [**SwitchToFiber**](/windows/win32/WinBase/nf-winbase-switchtofiber?branch=master) function to schedule the read fiber. After a successful read, the read fiber schedules the write fiber. After a successful write in the write fiber, the write fiber schedules the read fiber. When the read/write cycle has completed, the primary fiber is scheduled, which results in the display of the read/write status. If an error occurs during the read or write operations, the primary fiber is scheduled and example displays the status of the operation.
 
-Prior to process termination, the process frees the fibers using the [**DeleteFiber**](deletefiber.md) function, closes the file handles, and frees the allocated memory.
+Prior to process termination, the process frees the fibers using the [**DeleteFiber**](/windows/win32/WinBase/nf-winbase-deletefiber?branch=master) function, closes the file handles, and frees the allocated memory.
 
 ## Related topics
 

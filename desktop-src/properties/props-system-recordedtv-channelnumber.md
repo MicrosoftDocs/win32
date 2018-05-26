@@ -1,7 +1,12 @@
 ---
-Description: 'The recorded TV channels. For example, 42, 5, 53.'
-ms.assetid: 'daa738a0-b4db-4b8d-bd88-6ae66c10f7d1'
-title: 'System.RecordedTV.ChannelNumber'
+Description: The recorded TV channels. For example, 42, 5, 53.
+ms.assetid: daa738a0-b4db-4b8d-bd88-6ae66c10f7d1
+title: System.RecordedTV.ChannelNumber
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.ChannelNumber

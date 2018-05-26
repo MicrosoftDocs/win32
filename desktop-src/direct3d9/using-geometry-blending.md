@@ -1,7 +1,12 @@
 ---
-Description: 'The following user-defined structure can be used for vertices that will be blended between two matrices.'
-ms.assetid: '6bcabcf9-d14e-446a-8dd2-e741211cc704'
-title: 'Using Geometry Blending (Direct3D 9)'
+Description: The following user-defined structure can be used for vertices that will be blended between two matrices.
+ms.assetid: 6bcabcf9-d14e-446a-8dd2-e741211cc704
+title: Using Geometry Blending (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Geometry Blending (Direct3D 9)
@@ -35,7 +40,7 @@ Notice that the preceding vertex format contains only one blending weight value.
 
 ## Setting Blending Matrices
 
-You set the transformation matrices between which the system blends by calling the [**IDirect3DDevice9::SetTransform**](idirect3ddevice9--settransform.md) method. Set the first parameter to a value defined by the [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md) macro, and set the second parameter to the address of the matrix to be set.
+You set the transformation matrices between which the system blends by calling the [**IDirect3DDevice9::SetTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settransform?branch=master) method. Set the first parameter to a value defined by the [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md) macro, and set the second parameter to the address of the matrix to be set.
 
 The following C++ code example sets two world matrices, between which geometry is blended to create the illusion of a jointed arm.
 
@@ -62,7 +67,7 @@ Setting a blending matrix merely causes the system to cache the matrix for later
 
 ## Enabling Geometry Blending
 
-Geometry blending is disabled by default. To enable geometry blending, call the [**IDirect3DDevice9::SetRenderState**](idirect3ddevice9--setrenderstate.md) method to set the D3DRS\_VERTEXBLEND render state to a value from the [**D3DVERTEXBLENDFLAGS**](direct3d9.d3dvertexblendflags) enumerated type. The following code example shows what this call might look like when setting the render state for a blend between two world matrices.
+Geometry blending is disabled by default. To enable geometry blending, call the [**IDirect3DDevice9::SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master) method to set the D3DRS\_VERTEXBLEND render state to a value from the [**D3DVERTEXBLENDFLAGS**](direct3d9.d3dvertexblendflags) enumerated type. The following code example shows what this call might look like when setting the render state for a blend between two world matrices.
 
 
 ```

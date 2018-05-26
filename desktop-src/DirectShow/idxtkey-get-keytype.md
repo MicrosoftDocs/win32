@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_KeyType method retrieves the type of key.'
-ms.assetid: '902cbd46-529a-45d8-afa2-a8dd9439769a'
-title: 'IDxtKey::get\_KeyType method'
+---
+Description: The get\_KeyType method retrieves the type of key.
+ms.assetid: 902cbd46-529a-45d8-afa2-a8dd9439769a
+title: IDxtKeyget\_KeyType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtKey::get\_KeyType method

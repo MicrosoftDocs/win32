@@ -1,14 +1,20 @@
 ---
 title: ReleaseDate Attribute
 description: The ReleaseDate attribute is the date of the original release of the item.
-ms.assetid: '6bfc364e-2aa6-4742-8db5-5d32406c7a10'
-keywords: ["ReleaseDate Attribute Windows Media Player"]
+ms.assetid: 6bfc364e-2aa6-4742-8db5-5d32406c7a10
+keywords:
+- ReleaseDate Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ReleaseDate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReleaseDate Attribute
@@ -46,9 +52,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

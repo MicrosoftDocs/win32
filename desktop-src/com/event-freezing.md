@@ -1,19 +1,24 @@
 ---
 title: Event Freezing
 description: Event Freezing
-ms.assetid: '1e537503-f7e7-42f4-aa3c-3c71715b84fe'
+ms.assetid: 1e537503-f7e7-42f4-aa3c-3c71715b84fe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Freezing
 
-A container can notify a control that it is not ready to respond to events by calling [**IOleControl::FreezeEvents**](iolecontrol-freezeevents.md) with **TRUE**. It can unfreeze the events by calling **FreezeEvents** with **FALSE**. When a container freezes events, it is freezing event processing, not event receiving; that is, a container can still receive events while events are frozen. If a container receives an event notification while its events are frozen, the container should ignore the event. No other action is appropriate.
+A container can notify a control that it is not ready to respond to events by calling [**IOleControl::FreezeEvents**](/windows/win32/OCIdl/nf-ocidl-iolecontrol-freezeevents?branch=master) with **TRUE**. It can unfreeze the events by calling **FreezeEvents** with **FALSE**. When a container freezes events, it is freezing event processing, not event receiving; that is, a container can still receive events while events are frozen. If a container receives an event notification while its events are frozen, the container should ignore the event. No other action is appropriate.
 
-A control should take note of a container's call to [**FreezeEvents**](iolecontrol-freezeevents.md) with **TRUE** if it is important to the control that an event is not missed. While a container's event processing is frozen, a control should implement one of the following techniques:
+A control should take note of a container's call to [**FreezeEvents**](/windows/win32/OCIdl/nf-ocidl-iolecontrol-freezeevents?branch=master) with **TRUE** if it is important to the control that an event is not missed. While a container's event processing is frozen, a control should implement one of the following techniques:
 
 -   Fire the events in the full knowledge that the container will take no action.
 -   Discard all events that the control would have fired.
--   Queue up all pending events and fire them after the container has called [**FreezeEvents**](iolecontrol-freezeevents.md) with **FALSE**.
--   Queue up only relevant or important events and fire them after the container has called [**FreezeEvents**](iolecontrol-freezeevents.md) with **FALSE**.
+-   Queue up all pending events and fire them after the container has called [**FreezeEvents**](/windows/win32/OCIdl/nf-ocidl-iolecontrol-freezeevents?branch=master) with **FALSE**.
+-   Queue up only relevant or important events and fire them after the container has called [**FreezeEvents**](/windows/win32/OCIdl/nf-ocidl-iolecontrol-freezeevents?branch=master) with **FALSE**.
 
 Each technique is acceptable and appropriate in different circumstances. The control developer is responsible for determining and implementing the appropriate technique for the control's functionality.
 

@@ -1,8 +1,16 @@
 ---
 title: ISearchResult PutValue method
 description: Reserved.
-ms.assetid: 'b070f1b4-46a9-466b-96ac-512f4459e55c'
-keywords: ["PutValue method Legacy Windows Environment Features", "PutValue method Legacy Windows Environment Features , ISearchResult interface", "ISearchResult interface Legacy Windows Environment Features , PutValue method"]
+ms.assetid: b070f1b4-46a9-466b-96ac-512f4459e55c
+keywords:
+- PutValue method Legacy Windows Environment Features
+- PutValue method Legacy Windows Environment Features , ISearchResult interface
+- ISearchResult interface Legacy Windows Environment Features , PutValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISearchResult::PutValue method

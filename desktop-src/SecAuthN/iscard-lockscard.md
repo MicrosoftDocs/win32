@@ -1,7 +1,12 @@
-﻿---
-Description: 'The LockSCard method claims exclusive access to the smart card.'
-ms.assetid: '70af7c5a-ebe7-48ee-8a76-dfea7f73f45e'
-title: 'ISCard::LockSCard method'
+---
+Description: The LockSCard method claims exclusive access to the smart card.
+ms.assetid: 70af7c5a-ebe7-48ee-8a76-dfea7f73f45e
+title: ISCardLockSCard method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCard::LockSCard method

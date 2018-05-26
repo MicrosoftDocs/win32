@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_DRIVER\_CONNECT message
 description: The WM\_CAP\_DRIVER\_CONNECT message connects a capture window to a capture driver. You can send this message explicitly or by using the capDriverConnect macro.
-ms.assetid: '8804bb3c-d06c-4ddc-b116-3d292205a52d'
-keywords: ["WM_CAP_DRIVER_CONNECT message Windows Multimedia"]
+ms.assetid: 8804bb3c-d06c-4ddc-b116-3d292205a52d
+keywords:
+- WM_CAP_DRIVER_CONNECT message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_DRIVER\_CONNECT message
 
-The **WM\_CAP\_DRIVER\_CONNECT** message connects a capture window to a capture driver. You can send this message explicitly or by using the [**capDriverConnect**](capdriverconnect.md) macro.
+The **WM\_CAP\_DRIVER\_CONNECT** message connects a capture window to a capture driver. You can send this message explicitly or by using the [**capDriverConnect**](/windows/win32/Vfw/nf-vfw-capdriverconnect?branch=master) macro.
 
 
 ```C++
@@ -51,8 +57,8 @@ Connecting a capture driver to a capture window automatically disconnects any pr
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -67,9 +73,9 @@ Connecting a capture driver to a capture window automatically disconnects any pr
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

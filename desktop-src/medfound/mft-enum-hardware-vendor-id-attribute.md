@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the vendor ID for a hardware-based Microsoft Media Foundation.'
-ms.assetid: 'AA31639F-EF70-4454-AC61-60755CAA684A'
-title: 'MFT\_ENUM\_HARDWARE\_VENDOR\_ID\_Attribute attribute'
+---
+Description: Specifies the vendor ID for a hardware-based Microsoft Media Foundation.
+ms.assetid: AA31639F-EF70-4454-AC61-60755CAA684A
+title: MFT\_ENUM\_HARDWARE\_VENDOR\_ID\_Attribute attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_ENUM\_HARDWARE\_VENDOR\_ID\_Attribute attribute
@@ -14,9 +19,9 @@ Specifies the vendor ID for a hardware-based Microsoft Media Foundation transfor
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetString**](imfattributes-getstring.md).
+To get this attribute, call [**IMFAttributes::GetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getstring?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetString**](imfattributes-setstring.md).
+To set this attribute, call [**IMFAttributes::SetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setstring?branch=master).
 
 ## Remarks
 

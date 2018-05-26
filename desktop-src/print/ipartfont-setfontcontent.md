@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetFontContent method sets the content of the font.'
-ms.assetid: 'bd77d32f-97fd-4f80-945d-9fff7553fcc5'
-title: 'IPartFont::SetFontContent method'
+---
+Description: The SetFontContent method sets the content of the font.
+ms.assetid: bd77d32f-97fd-4f80-945d-9fff7553fcc5
+title: IPartFontSetFontContent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartFont::SetFontContent method

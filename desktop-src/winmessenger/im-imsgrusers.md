@@ -1,8 +1,10 @@
 ---
 title: IMsgrUsers interface
 description: Do not use.
-ms.assetid: 'e5958281-d81b-41aa-b209-7445ba983a5c'
-keywords: ["IMsgrUsers interface Windows Messenger", "IMsgrUsers interface Windows Messenger , described"]
+ms.assetid: e5958281-d81b-41aa-b209-7445ba983a5c
+keywords:
+- IMsgrUsers interface Windows Messenger
+- IMsgrUsers interface Windows Messenger , described
 topic_type:
 - apiref
 api_name:
@@ -11,18 +13,23 @@ api_location:
 - Msmsgs.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMsgrUsers interface
 
-\[**IMsgrUsers** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**IMsgrUsers** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. The **IMsgrUsers** interface provides methods and properties to handle the **Messenger User** object.
 
 > [!Note]  
 > The **IMsgrUsers** interface is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger. You should use [**IMessengerContacts**](im-imessengercontacts.md) instead.
 
- 
+ 
 
 ## Members
 
@@ -81,7 +88,7 @@ The [<strong>Remove</strong>](im-imsgrusers-remove.md) method is available for u
 
 
 
- 
+ 
 
 ### Properties
 
@@ -118,7 +125,7 @@ The [<strong>Count</strong>](im-imsgrusers-count.md) property is available for u
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -126,10 +133,10 @@ The [<strong>Count</strong>](im-imsgrusers-count.md) property is available for u
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Mdisp.h</dt> </dl>    |
 | IDL<br/>                      | <dl> <dt>Mdisp.idl</dt> </dl>  |
@@ -147,9 +154,9 @@ The [<strong>Count</strong>](im-imsgrusers-count.md) property is available for u
 [**IMsgrUsers**](im-imsgrusers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

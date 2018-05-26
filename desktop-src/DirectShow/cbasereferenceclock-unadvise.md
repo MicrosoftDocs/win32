@@ -1,19 +1,24 @@
 ---
-Description: 'The Unadvise method removes a pending advise request. This method implements the IReferenceClock::Unadvise method.'
-ms.assetid: 'b137234a-e260-42f9-b583-9e6a5fd7bca4'
-title: 'CBaseReferenceClock.Unadvise method'
+Description: The Unadvise method removes a pending advise request. This method implements the IReferenceClockUnadvise method.
+ms.assetid: b137234a-e260-42f9-b583-9e6a5fd7bca4
+title: CBaseReferenceClock.Unadvise method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseReferenceClock.Unadvise method
 
-The `Unadvise` method removes a pending advise request. This method implements the [**IReferenceClock::Unadvise**](ireferenceclock-unadvise.md) method.
+The `Unadvise` method removes a pending advise request. This method implements the [**IReferenceClock::Unadvise**](/windows/win32/Strmif/nf-strmif-ireferenceclock-unadvise?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT Unadvise(
-   DWORD_PTR dwAdviseToken
+   DWORD_PTR dwAdviseToken
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,9 +68,9 @@ Returns one of the **HRESULT** values shown in the following table.
 [**CBaseReferenceClock Class**](cbasereferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

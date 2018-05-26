@@ -1,7 +1,12 @@
 ---
 Description: Printer Interface DLL Functions
-ms.assetid: '776fc3aa-2964-4159-a6c8-9af13f6fd461'
+ms.assetid: 776fc3aa-2964-4159-a6c8-9af13f6fd461
 title: Printer Interface DLL Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Printer Interface DLL Functions

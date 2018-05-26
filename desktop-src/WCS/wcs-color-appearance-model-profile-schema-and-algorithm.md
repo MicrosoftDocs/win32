@@ -1,8 +1,28 @@
 ---
 title: WCS Color Appearance Model Profile Schema and Algorithm
 description: WCS Color Appearance Model Profile Schema and Algorithm
-ms.assetid: '017588fe-cec9-4178-a912-7950cefc036c'
-keywords: ["Windows Color System (WCS),color appearance model profile (CAMP)", "WCS (Windows Color System),color appearance model profile (CAMP)", "image color management,color appearance model profile (CAMP)", "color management,color appearance model profile (CAMP)", "colors,color appearance model profile (CAMP)", "Windows Color System (WCS),profiles", "WCS (Windows Color System),profiles", "image color management,profiles", "color management,profiles", "colors,profiles", "color appearance model profile (CAMP)", "CAMP (color appearance model profile)", "schemas,color appearance model profile (CAMP)", "algorithms,color appearance model profile (CAMP)", "WCS color appearance model profile"]
+ms.assetid: 017588fe-cec9-4178-a912-7950cefc036c
+keywords:
+- Windows Color System (WCS),color appearance model profile (CAMP)
+- WCS (Windows Color System),color appearance model profile (CAMP)
+- image color management,color appearance model profile (CAMP)
+- color management,color appearance model profile (CAMP)
+- colors,color appearance model profile (CAMP)
+- Windows Color System (WCS),profiles
+- WCS (Windows Color System),profiles
+- image color management,profiles
+- color management,profiles
+- colors,profiles
+- color appearance model profile (CAMP)
+- CAMP (color appearance model profile)
+- schemas,color appearance model profile (CAMP)
+- algorithms,color appearance model profile (CAMP)
+- WCS color appearance model profile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WCS Color Appearance Model Profile Schema and Algorithm
@@ -170,7 +190,7 @@ This element consists of the following sub-elements:
 
 
 
- 
+ 
 
 **Validation conditions:** CIEXYZ sub-elements are validated by NonNegativeXYZType. The LuminanceOfAdaptingField is a maximum of 10,000cd/m^2. The DegreeOfAdaptation can range from 0.0 to 1.0. The NormalizeToMediaWhitePoint value can be either "true" or "false." If the NormalizeToMediaWhitePoint sub-element is absent, it effectively defaults to "true." See the following CAMP algorithm section.
 
@@ -186,7 +206,7 @@ The CIEXYZType element is composed of three NonNegativeFloatType single-precisio
 
 **Validation conditions:** This means that only real-world values are valid, and negative CIEXYZ measurement values are invalid. Since these are absolute values, values can range well beyond 1.0f. A reasonable limit for any X, Y, or Z value will be arbitrarily set to 10000.0f.
 
- 
+ 
 
 ### The CAMP Algorithm
 
@@ -215,7 +235,7 @@ From *c*, *Nc* and *F* can be computed, using piecewise linear interpolation bet
 
 
 
- 
+ 
 
 A certain amount of error checking has also been added to the implementation. The following equation numbers are those used in the CIE 159:2004 definition of CIECAM02.
 
@@ -229,7 +249,7 @@ There are certain internal conditions that can produce error results. Instead of
 
 The input values are checked for reasonableness. If C &lt; 0 , C &gt; 300, or J &gt; 500, then the HRESULT is E\_INVALIDARG.
 
-*R'<sub>a;</sub>*, *G'<sub>a;</sub>*, and *B'<sub>a;</sub>*, (equations 8.19 - 8.21) are clipped to the range ± 399.9 .
+*R'<sub>a;</sub>*, *G'<sub>a;</sub>*, and *B'<sub>a;</sub>*, (equations 8.19 - 8.21) are clipped to the range   399.9 .
 
 For all Color Appearance Model Profiles (CAMPs), the WCS engine will examine the adopted white point. If Y is not 100.0, then the adopted white point will be scaled so that Y does equal 100.0. The same scaling will be applied to the background value. The scaling factor is 100.0/adoptedWhitePoint.Y. The same scaling factor is applied to each of X, Y, and Z. If the NormalizeToMediaWhitePoint field is set to "True," or if it is absent from the CAMP, the engine also scales all device colors input to DeviceToColorimetric so that the Y value of the device media white point equals 100.0. Device colors coming from ColorimetricToDevice will be scaled by the multiplicative inverse of that scaling factor. If the NormalizeToMediaWhitePoint flag is set to "False," then the colorimetric data is not scaled.
 
@@ -247,9 +267,9 @@ The CAM is initialized directly from the CAMP. This allows developers some flexi
 [Windows Color System Schemas and Algorithms](windows-color-system-schemas-and-algorithms.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

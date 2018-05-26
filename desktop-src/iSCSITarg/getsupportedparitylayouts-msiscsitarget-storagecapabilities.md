@@ -4,13 +4,16 @@ description: Retrieves the supported parity layouts for systems that support par
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e6f7edaf-258c-42ee-9ce8-eaae5def5b1c'
-ms.prod: 'windows-server-dev'
+ms.assetid: e6f7edaf-258c-42ee-9ce8-eaae5def5b1c
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedParityLayouts method iSCSI Software Target API", "GetSupportedParityLayouts method iSCSI Software Target API , MSISCSITARGET_StorageCapabilities class", "MSISCSITARGET_StorageCapabilities class iSCSI Software Target API , GetSupportedParityLayouts method"]
+keywords:
+- GetSupportedParityLayouts method iSCSI Software Target API
+- GetSupportedParityLayouts method iSCSI Software Target API , MSISCSITARGET_StorageCapabilities class
+- MSISCSITARGET_StorageCapabilities class iSCSI Software Target API , GetSupportedParityLayouts method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedParityLayouts method of the MSISCSITARGET\_StorageCapabilities class
@@ -32,7 +38,7 @@ This method is inherited from the **CIM\_StorageCapabilities** class.
 
 ```mof
 uint32 GetSupportedParityLayouts(
-  [out] uint16 ParityLayout[]
+  [out] uint16 ParityLayout[]
 );
 ```
 
@@ -85,7 +91,7 @@ The possible values are.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>Smiscsitarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -99,9 +105,9 @@ The possible values are.
 [**MSISCSITARGET\_StorageCapabilities**](msiscsitarget-storagecapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

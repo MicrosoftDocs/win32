@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets or sets the path to the link object.'
-ms.assetid: 'ddb5be91-7c21-46c8-949e-bdd973e11b6c'
-title: 'ShellLinkObject.Path property'
+---
+Description: Gets or sets the path to the link object.
+ms.assetid: ddb5be91-7c21-46c8-949e-bdd973e11b6c
+title: ShellLinkObject.Path property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellLinkObject.Path property

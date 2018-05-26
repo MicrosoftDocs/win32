@@ -1,13 +1,16 @@
 ---
-Description: 'Distributes the licensor certificate.'
+Description: Distributes the licensor certificate.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'b2d75d0a-0e98-4782-9480-73d1d094e43a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: b2d75d0a-0e98-4782-9480-73d1d094e43a
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ServerLicensorCertificate.Export method'
+title: ServerLicensorCertificate.Export method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ServerLicensorCertificate.Export method
@@ -105,7 +108,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -117,9 +120,9 @@ END FUNCTION
 [**ServerLicensorCertificate**](serverlicensorcertificate-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

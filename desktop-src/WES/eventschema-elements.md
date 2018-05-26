@@ -1,7 +1,12 @@
 ---
 title: Event Schema Elements
 description: The following are the elements that the Event schema defines.
-ms.assetid: '972c0a78-32d5-45b3-bcc3-6423b60bfa6f'
+ms.assetid: 972c0a78-32d5-45b3-bcc3-6423b60bfa6f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Schema Elements
@@ -60,11 +65,11 @@ The following are the elements that the Event schema defines. This section conta
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

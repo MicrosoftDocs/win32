@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia3 getItemInfoByType method
 description: The getItemInfoByType method returns the value of the attribute corresponding to the specified attribute type and index.
-ms.assetid: 'e4cf14b4-3c59-485f-a573-734a0076647b'
-keywords: ["getItemInfoByType method Windows Media Player", "getItemInfoByType method Windows Media Player , IWMPMedia3 interface", "IWMPMedia3 interface Windows Media Player , getItemInfoByType method"]
+ms.assetid: e4cf14b4-3c59-485f-a573-734a0076647b
+keywords:
+- getItemInfoByType method Windows Media Player
+- getItemInfoByType method Windows Media Player , IWMPMedia3 interface
+- IWMPMedia3 interface Windows Media Player , getItemInfoByType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia3::getItemInfoByType method
@@ -127,9 +135,9 @@ Before calling this method, you must have read access to the library. For more i
 [**IWMPMedia3.getAttributeCountByType (VB and C#)**](wmplibiwmpmedia3-iwmpmedia3-getattributecountbytype--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

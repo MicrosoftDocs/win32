@@ -1,7 +1,12 @@
 ---
-Description: 'The DbgOutString function sends a string to the debug output location. Ignored in retail builds.'
-ms.assetid: '644bf4f7-ec2d-466e-85c6-690dd44da702'
+Description: The DbgOutString function sends a string to the debug output location. Ignored in retail builds.
+ms.assetid: 644bf4f7-ec2d-466e-85c6-690dd44da702
 title: DbgOutString function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgOutString function
@@ -13,7 +18,7 @@ The **DbgOutString** function sends a string to the debug output location. Ignor
 
 ```C++
 void DbgOutString(
-   LPCTSTR psz
+   LPCTSTR psz
 );
 ```
 
@@ -65,9 +70,9 @@ DbgOutString("Creating the filter graph...\n");
 [Debug Output Functions](debug-output-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,18 @@
 ---
 title: MetricValueCollection AddItem methods
 description: Creates a MetricValue and adds it to the MetricValueCollection.
-ms.assetid: '46329605-6B67-4F3A-B22D-FB2D74945174'
-keywords: ["AddItem methods Access Execution Engine"]
+ms.assetid: 46329605-6B67-4F3A-B22D-FB2D74945174
+keywords:
+- AddItem methods Access Execution Engine
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricValueCollection::AddItem methods
@@ -41,9 +47,9 @@ A **MetricValue** object holds data from a **MetricValues/MetricValue** element.
 [**MetricValueCollection**](metricvaluecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

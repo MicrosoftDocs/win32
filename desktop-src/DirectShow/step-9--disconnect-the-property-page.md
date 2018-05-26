@@ -1,7 +1,12 @@
 ---
-Description: 'Step 9.'
-ms.assetid: '3e476422-ab76-4a2b-af9b-d9d065d79e5b'
-title: 'Step 9. Disconnect the Property Page'
+Description: Step 9.
+ms.assetid: 3e476422-ab76-4a2b-af9b-d9d065d79e5b
+title: Step 9. Disconnect the Property Page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 9. Disconnect the Property Page

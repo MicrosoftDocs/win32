@@ -1,8 +1,9 @@
 ---
 title: SisCreateBackupStructure function
 description: Creates a SIS backup structure based on the supplied information.
-ms.assetid: 'a8c48961-fa24-4eb6-92cd-1b9bc83cec41'
-keywords: ["SisCreateBackupStructure function Backup"]
+ms.assetid: a8c48961-fa24-4eb6-92cd-1b9bc83cec41
+keywords:
+- SisCreateBackupStructure function Backup
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Sisbkup.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SisCreateBackupStructure function
@@ -22,11 +28,11 @@ The **SisCreateBackupStructure** function creates a SIS backup structure based o
 
 ```C++
 BOOL SisCreateBackupStructure(
-  _In_  PWCHAR volumeRoot,
-  _Out_ PVOID  *sisBackupStructure,
-  _Out_ PWCHAR *commonStoreRootPathname,
-  _Out_ PULONG countOfCommonStoreFilesToBackUp,
-  _Out_ PWCHAR **commonStoreFilesToBackUp
+  _In_  PWCHAR volumeRoot,
+  _Out_ PVOID  *sisBackupStructure,
+  _Out_ PWCHAR *commonStoreRootPathname,
+  _Out_ PULONG countOfCommonStoreFilesToBackUp,
+  _Out_ PWCHAR **commonStoreFilesToBackUp
 );
 ```
 
@@ -91,8 +97,8 @@ After the backup operation is complete, deallocate the memory used by the *commo
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Sisbkup.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Sisbkup.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |
@@ -112,9 +118,9 @@ After the backup operation is complete, deallocate the memory used by the *commo
 [**SisFreeAllocatedMemory**](sisfreeallocatedmemory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

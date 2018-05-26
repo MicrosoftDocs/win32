@@ -1,7 +1,12 @@
 ---
-Description: 'Contains information about the lines of a paragraph.'
-ms.assetid: '6a36d7a1-c14a-42cd-81e1-1743673eca83'
+Description: Contains information about the lines of a paragraph.
+ms.assetid: 6a36d7a1-c14a-42cd-81e1-1743673eca83
 title: ParagraphLineMetrics Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParagraphLineMetrics Element

@@ -1,7 +1,12 @@
 ---
-Description: 'Disconnects the NPP from the network.'
-ms.assetid: '01ff8fc2-aa27-4df8-a499-c7b00c1fa2e8'
-title: 'IStats::Disconnect method'
+Description: Disconnects the NPP from the network.
+ms.assetid: 01ff8fc2-aa27-4df8-a499-c7b00c1fa2e8
+title: IStatsDisconnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStats::Disconnect method
@@ -37,7 +42,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -49,8 +54,8 @@ This method cannot be called when the NPP is capturing data. Call the **IStats::
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -69,9 +74,9 @@ This method cannot be called when the NPP is capturing data. Call the **IStats::
 [**IStats::Stop**](istats-stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

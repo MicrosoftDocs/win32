@@ -1,7 +1,12 @@
 ---
-Description: 'Some effect constants only need to be initialized.'
-ms.assetid: '743261a8-fdd8-492e-be8a-4faeb9b6f986'
-title: 'Set Effect State (Direct3D 10)'
+Description: Some effect constants only need to be initialized.
+ms.assetid: 743261a8-fdd8-492e-be8a-4faeb9b6f986
+title: Set Effect State (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Set Effect State (Direct3D 10)
@@ -99,7 +104,7 @@ OnD3D10FrameRender()
 
 There are two ways to get the state contained in an effect variable. Given an effect that has been loaded into memory.
 
-One way is to get the sampler state from an [**ID3D10EffectVariable Interface**](id3d10effectvariable.md) that has been cast as a sampler interface.
+One way is to get the sampler state from an [**ID3D10EffectVariable Interface**](/windows/win32/D3D10Effect/nn-d3d10effect-id3d10effectvariable?branch=master) that has been cast as a sampler interface.
 
 
 ```
@@ -116,7 +121,7 @@ if( g_pEffect10 )
 
 
 
-The other way is to get the sampler state from an [**ID3D10SamplerState Interface**](id3d10samplerstate.md).
+The other way is to get the sampler state from an [**ID3D10SamplerState Interface**](/windows/win32/D3D10/nn-d3d10-id3d10samplerstate?branch=master).
 
 
 ```
@@ -157,7 +162,7 @@ technique10 RenderSceneWithTexture1Light
 
 
 
-This works just like it would if you were not using an effect. There are three calls, one for each type of shader (vertex, geometry, and pixel). The first one, SetVertexShader, calls [**ID3D10Device::VSSetShader**](id3d10device-vssetshader.md). CompileShader is a special effect function that takes the shader profile(vs\_4\_0) and the name of the vertex shader function (RenderVS). In other words, each of these SetXXXShader calls compiles their associated shader function and returns a pointer to the compiled shader.
+This works just like it would if you were not using an effect. There are three calls, one for each type of shader (vertex, geometry, and pixel). The first one, SetVertexShader, calls [**ID3D10Device::VSSetShader**](/windows/win32/D3D10/nf-d3d10-id3d10device-vssetshader?branch=master). CompileShader is a special effect function that takes the shader profile(vs\_4\_0) and the name of the vertex shader function (RenderVS). In other words, each of these SetXXXShader calls compiles their associated shader function and returns a pointer to the compiled shader.
 
 ## Texture State
 

@@ -1,8 +1,9 @@
 ---
 title: DownloadStatus Element
 description: Note This section describes functionality designed for use by online stores.
-ms.assetid: '08d9719a-390d-454a-935e-27812c0f3599'
-keywords: ["DownloadStatus Element Windows Media Player"]
+ms.assetid: 08d9719a-390d-454a-935e-27812c0f3599
+keywords:
+- DownloadStatus Element Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - msfeeds.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadStatus Element
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **DownloadStatus** element specifies a URL the Windows Media Player displays as a link to enable users to view download status.
 
@@ -50,7 +56,7 @@ URL for the webpage that the online store displays to show download status to th
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,9 +86,9 @@ Windows Media Player displays a message to users when a download is in progress.
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

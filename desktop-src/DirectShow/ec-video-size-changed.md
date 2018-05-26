@@ -1,7 +1,12 @@
 ---
-Description: 'The native video size has changed.'
-ms.assetid: '276f37b3-f981-4a01-bb37-1ee77248668f'
-title: 'EC\_VIDEO\_SIZE\_CHANGED'
+Description: The native video size has changed.
+ms.assetid: 276f37b3-f981-4a01-bb37-1ee77248668f
+title: EC\_VIDEO\_SIZE\_CHANGED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_VIDEO\_SIZE\_CHANGED
@@ -56,9 +61,9 @@ The [Video Mixing Renderer 7](video-mixing-renderer-filter-7.md) (VMR-7) and the
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

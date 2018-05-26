@@ -1,7 +1,12 @@
 ---
-Description: 'Reference topic for Tablet PC threading considerations.'
-ms.assetid: '58a88d64-412a-4138-9bba-c901e05ef78a'
+Description: Reference topic for Tablet PC threading considerations.
+ms.assetid: 58a88d64-412a-4138-9bba-c901e05ef78a
 title: Tablet PC Threading Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tablet PC Threading Considerations

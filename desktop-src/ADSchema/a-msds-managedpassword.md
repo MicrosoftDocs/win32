@@ -4,17 +4,22 @@ description: This constructed attribute returns a blob that contains the clear-t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bcabb20f-46f3-4c15-b71b-a8dfc43678bc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bcabb20f-46f3-4c15-b71b-a8dfc43678bc
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-ManagedPassword attribute AD Schema", "msDS-ManagedPassword attribute AD Schema"]
+keywords:
+- ms-DS-ManagedPassword attribute AD Schema
+- msDS-ManagedPassword attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-ManagedPassword
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-ManagedPassword attribute
@@ -38,7 +43,7 @@ This constructed attribute returns a blob that contains the clear-text previous 
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ This constructed attribute returns a blob that contains the clear-text previous 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

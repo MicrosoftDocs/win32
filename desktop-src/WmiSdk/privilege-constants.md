@@ -1,20 +1,23 @@
 ---
-Description: 'The strPrivilege parameter of the SWbemPrivilegeSet.AddAsString method and the iPrivilege parameter for SWbemPrivilegeSet.Add require privilege strings from WbemPrivilegeEnum.'
+Description: The strPrivilege parameter of the SWbemPrivilegeSet.AddAsString method and the iPrivilege parameter for SWbemPrivilegeSet.Add require privilege strings from WbemPrivilegeEnum.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f9400597-81bb-44a8-80dc-aba0160aea26'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f9400597-81bb-44a8-80dc-aba0160aea26
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Privilege Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Privilege Constants
 
-The *strPrivilege* parameter of the [**SWbemPrivilegeSet.AddAsString**](swbemprivilegeset-addasstring.md) method and the *iPrivilege* parameter for [**SWbemPrivilegeSet.Add**](swbemprivilegeset-add.md) require privilege strings from [WbemPrivilegeEnum](wbemprivilegeenum.md). For more information about how to use privilege constants, see [Executing Privileged Operations](executing-privileged-operations.md).
+The *strPrivilege* parameter of the [**SWbemPrivilegeSet.AddAsString**](swbemprivilegeset-addasstring.md) method and the *iPrivilege* parameter for [**SWbemPrivilegeSet.Add**](swbemprivilegeset-add.md) require privilege strings from [WbemPrivilegeEnum](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master). For more information about how to use privilege constants, see [Executing Privileged Operations](executing-privileged-operations.md).
 
-The following constants are defined in [**WbemPrivilegeEnum**](wbemprivilegeenum.md). The following list includes the equivalent constants for C++ and strings for scripting. To form the scripting short name, remove the "Se" and "Privilege" from the C++ constant name.
+The following constants are defined in [**WbemPrivilegeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master). The following list includes the equivalent constants for C++ and strings for scripting. To form the scripting short name, remove the "Se" and "Privilege" from the C++ constant name.
 
 The following VBScript code example shows how to enable the RemoteShutdown privilege in a script.
 
@@ -494,8 +497,8 @@ Required to perform volume maintenance tasks.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wbemdisp.idl</dt> </dl> |
 
@@ -511,7 +514,7 @@ Required to perform volume maintenance tasks.
 [**SWbemSecurity**](swbemsecurity.md)
 </dt> <dt>
 
-[**WbemPrivilegeEnum**](wbemprivilegeenum.md)
+[**WbemPrivilegeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master)
 </dt> <dt>
 
 [Executing Privileged Operations](executing-privileged-operations.md)
@@ -520,9 +523,9 @@ Required to perform volume maintenance tasks.
 [Executing Privileged Operations Using VBScript](executing-privileged-operations-using-vbscript.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

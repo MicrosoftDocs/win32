@@ -1,7 +1,12 @@
-﻿---
-Description: 'Releases a lock acquired by using ExclusiveLock to shared mode.'
-ms.assetid: 'd38354f0-2eb3-4924-99b5-1331e587ce32'
-title: 'CShareLockNH::ExclusiveUnlock method'
+---
+Description: Releases a lock acquired by using ExclusiveLock to shared mode.
+ms.assetid: d38354f0-2eb3-4924-99b5-1331e587ce32
+title: CShareLockNHExclusiveUnlock method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CShareLockNH::ExclusiveUnlock method

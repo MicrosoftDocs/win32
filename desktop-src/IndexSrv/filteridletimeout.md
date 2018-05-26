@@ -1,7 +1,12 @@
 ---
 title: FilterIdleTimeOut
 description: FilterIdleTimeOut
-ms.assetid: '10e7dc11-b2cf-4e48-99aa-4a7d28c5cbb6'
+ms.assetid: 10e7dc11-b2cf-4e48-99aa-4a7d28c5cbb6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterIdleTimeOut
@@ -11,7 +16,7 @@ ms.assetid: '10e7dc11-b2cf-4e48-99aa-4a7d28c5cbb6'
 
  
 
-The **FilterIdleTimeOut** entry controls the time interval after which unused [**IFilter**](ifilter.md) DLLs loaded by the CiDaemon.exe process are released.
+The **FilterIdleTimeOut** entry controls the time interval after which unused [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) DLLs loaded by the CiDaemon.exe process are released.
 
 ### Summary
 

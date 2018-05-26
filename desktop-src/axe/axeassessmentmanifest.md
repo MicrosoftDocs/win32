@@ -1,14 +1,20 @@
 ---
 title: AxeAssessmentManifest element
 description: This is the root node of an assessment manifest.
-ms.assetid: '4BEDABF7-5D79-4BB3-8E2F-8B37545D305F'
-keywords: ["AxeAssessmentManifest element Access Execution Engine"]
+ms.assetid: 4BEDABF7-5D79-4BB3-8E2F-8B37545D305F
+keywords:
+- AxeAssessmentManifest element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AxeAssessmentManifest
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxeAssessmentManifest element
@@ -84,9 +90,9 @@ There are no parent elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Using Windows Filtering Platform
 description: Following code samples demonstrate the basic Windows Filtering Platform (WFP) operations.
-ms.assetid: '39a757cb-bf82-4435-9854-7fa124d4040f'
+ms.assetid: 39a757cb-bf82-4435-9854-7fa124d4040f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Windows Filtering Platform

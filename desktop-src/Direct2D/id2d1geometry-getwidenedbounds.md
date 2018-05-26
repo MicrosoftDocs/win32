@@ -1,14 +1,20 @@
 ---
 title: ID2D1Geometry GetWidenedBounds methods
 description: Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.
-ms.assetid: '1790ff9d-cb30-4cd4-af0d-385a37cad043'
-keywords: ["GetWidenedBounds methods Direct2D"]
+ms.assetid: 1790ff9d-cb30-4cd4-af0d-385a37cad043
+keywords:
+- GetWidenedBounds methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1Geometry::GetWidenedBounds methods
@@ -21,10 +27,10 @@ Gets the bounds of the geometry after it has been widened by the specified strok
 
 | Method                                                                                                                                                                                                 | Description                                                                                                                                           |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,D2D1\_RECT\_F\*)**](id2d1geometry-getwidenedbounds-float-ptr-id2d1strokestyle-ref-d2d-matrix-3x2-f-ptr-d2d-rect-f.md)              | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
-| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,D2D1\_RECT\_F\*)**](id2d1geometry-getwidenedbounds-float-ptr-id2d1strokestyle-ptr-d2d-matrix-3x2-f-ptr-d2d-rect-f.md)             | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
-| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,FLOAT,D2D1\_RECT\_F\*)**](id2d1geometry-getwidenedbounds-float-ptr-id2d1strokestyle-ref-d2d-matrix-3x2-f-float-ptr-d2d-rect-f.md)  | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
-| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,FLOAT,D2D1\_RECT\_F\*)**](id2d1geometry-getwidenedbounds-float-ptr-id2d1strokestyle-ptr-d2d-matrix-3x2-f-float-ptr-d2d-rect-f.md) | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
+| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,D2D1\_RECT\_F\*)**](/windows/win32/d2d1/?branch=master)              | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
+| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,D2D1\_RECT\_F\*)**](/windows/win32/d2d1/?branch=master)             | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
+| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,FLOAT,D2D1\_RECT\_F\*)**](/windows/win32/d2d1/?branch=master)  | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
+| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,FLOAT,D2D1\_RECT\_F\*)**](/windows/win32/d2d1/?branch=master) | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
 
 
 
@@ -341,12 +347,12 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**ID2D1Geometry**](id2d1geometry.md)
+[**ID2D1Geometry**](/windows/win32/d2d1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

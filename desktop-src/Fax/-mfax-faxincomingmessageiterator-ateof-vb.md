@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AtEOF property is the end of file marker for the archive of inbound fax messages.'
-ms.assetid: '40abe45a-895a-47a7-bb9f-f743b56da8c6'
-title: 'FaxIncomingMessageIterator.AtEOF property'
+---
+Description: The AtEOF property is the end of file marker for the archive of inbound fax messages.
+ms.assetid: 40abe45a-895a-47a7-bb9f-f743b56da8c6
+title: FaxIncomingMessageIterator.AtEOF property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessageIterator.AtEOF property
@@ -25,7 +30,7 @@ A **Boolean** that receives a value that indicates whether the archive cursor ha
 
 ## Remarks
 
-To use this method, a user must have the [**farQUERY\_IN\_ARCHIVE**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farQUERY\_IN\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To use this method, a user must have the [**farQUERY\_IN\_ARCHIVE**](-mfax-fax-a
 [**FaxIncomingMessageIterator**](-mfax-faxincomingmessageiterator.md)
 </dt> <dt>
 
-[**IFaxIncomingMessageIterator**](-mfax-faxincomingmessageiterator-cpp.md)
+[**IFaxIncomingMessageIterator**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessageiterator?branch=master)
 </dt> </dl>
 
  

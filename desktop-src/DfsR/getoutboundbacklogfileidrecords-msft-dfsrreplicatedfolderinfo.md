@@ -4,13 +4,16 @@ description: Retrieves the list of ID records for the files that are scheduled t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4fe29072-c41d-4c9e-ac8c-0fce2d4dc5ae'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4fe29072-c41d-4c9e-ac8c-0fce2d4dc5ae
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetOutboundBacklogFileIdRecords method Distributed File System Replication", "GetOutboundBacklogFileIdRecords method Distributed File System Replication , MSFT_DfsrReplicatedFolderInfo class", "MSFT_DfsrReplicatedFolderInfo class Distributed File System Replication , GetOutboundBacklogFileIdRecords method"]
+keywords:
+- GetOutboundBacklogFileIdRecords method Distributed File System Replication
+- GetOutboundBacklogFileIdRecords method Distributed File System Replication , MSFT_DfsrReplicatedFolderInfo class
+- MSFT_DfsrReplicatedFolderInfo class Distributed File System Replication , GetOutboundBacklogFileIdRecords method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetOutboundBacklogFileIdRecords method of the MSFT\_DfsrReplicatedFolderInfo class
@@ -30,9 +36,9 @@ Retrieves the list of ID records for the files that are scheduled to be replicat
 
 ```mof
 uint32 GetOutboundBacklogFileIdRecords(
-  [in]  string                VersionVector,
-  [out] MSFT_DfsrIdRecordInfo BacklogIdRecords[],
-  [out] uint32                IdRecordIndex
+  [in]  string                VersionVector,
+  [out] MSFT_DfsrIdRecordInfo BacklogIdRecords[],
+  [out] uint32                IdRecordIndex
 );
 ```
 
@@ -74,7 +80,7 @@ This method returns one of the [MONITOR\_STATUS return codes](monitor-status-ret
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -88,9 +94,9 @@ This method returns one of the [MONITOR\_STATUS return codes](monitor-status-ret
 [**MSFT\_DfsrReplicatedFolderInfo**](msft-dfsrreplicatedfolderinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

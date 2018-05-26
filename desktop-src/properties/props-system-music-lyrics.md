@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'ae7edb4e-f362-49c2-83ab-c2b832d279e5'
-title: 'System.Music.Lyrics'
+Description: .
+ms.assetid: ae7edb4e-f362-49c2-83ab-c2b832d279e5
+title: System.Music.Lyrics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.Lyrics

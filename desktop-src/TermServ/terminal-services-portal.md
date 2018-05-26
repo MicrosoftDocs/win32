@@ -4,11 +4,17 @@ description: Microsoft Remote Desktop Services is remote PC access software that
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '90c40b7a-e324-43fc-a1e6-f29997ed9436'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 90c40b7a-e324-43fc-a1e6-f29997ed9436
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services", "Remote Desktop Services Remote Desktop Services , home page", "Terminal Services See Remote Desktop Services Remote Desktop Services"]
+keywords:
+- Remote Desktop Services Remote Desktop Services
+- Remote Desktop Services Remote Desktop Services , home page
+- Terminal Services See Remote Desktop Services Remote Desktop Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Services

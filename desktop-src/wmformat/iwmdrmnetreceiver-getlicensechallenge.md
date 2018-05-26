@@ -1,8 +1,11 @@
 ---
 title: IWMDRMNetReceiver GetLicenseChallenge method
 description: The GetLicenseChallenge method generates a Windows Media DRM for Network Devices license challenge that can be sent to a transmitter when requesting protected content.
-ms.assetid: 'c13b9e9e-b076-411b-a106-b602544faaba'
-keywords: ["GetLicenseChallenge method windows Media Format", "GetLicenseChallenge method windows Media Format , IWMDRMNetReceiver interface", "IWMDRMNetReceiver interface windows Media Format , GetLicenseChallenge method"]
+ms.assetid: c13b9e9e-b076-411b-a106-b602544faaba
+keywords:
+- GetLicenseChallenge method windows Media Format
+- GetLicenseChallenge method windows Media Format , IWMDRMNetReceiver interface
+- IWMDRMNetReceiver interface windows Media Format , GetLicenseChallenge method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMNetReceiver::GetLicenseChallenge method
@@ -22,9 +30,9 @@ The **GetLicenseChallenge** method generates a Windows Media DRM for Network Dev
 
 ```C++
 HRESULT GetLicenseChallenge(
-  [in]  BSTR  bstrAction,
-  [out] BYTE  **ppbLicenseChallenge,
-  [out] DWORD *pcbLicenseChallenge
+  [in]  BSTR  bstrAction,
+  [out] BYTE  **ppbLicenseChallenge,
+  [out] DWORD *pcbLicenseChallenge
 );
 ```
 
@@ -67,7 +75,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -93,9 +101,9 @@ None.
 [**IWMDRMNetReceiver::ProcessLicenseResponse**](iwmdrmnetreceiver-processlicenseresponse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

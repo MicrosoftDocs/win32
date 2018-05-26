@@ -1,14 +1,17 @@
 ---
 title: IFsrmPropertyCondition Value property
-description: The property condition's value.
+description: The property conditions value.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '51316f3b-ca69-4e0c-936c-8cafc0e2b1b7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 51316f3b-ca69-4e0c-936c-8cafc0e2b1b7
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["Value property File Server Resource Manager", "Value property File Server Resource Manager , IFsrmPropertyCondition interface", "IFsrmPropertyCondition interface File Server Resource Manager , Value property"]
+keywords:
+- Value property File Server Resource Manager
+- Value property File Server Resource Manager , IFsrmPropertyCondition interface
+- IFsrmPropertyCondition interface File Server Resource Manager , Value property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IFsrmPropertyCondition::Value property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Value(
-  [in]  BSTR value
+  [in]  BSTR value
 );
 
 HRESULT get_Value(
-  [out] BSTR *pValue
+  [out] BSTR *pValue
 );
 ```
 
@@ -66,7 +72,7 @@ Success
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
 | IID<br/>                      | IID\_IFsrmPropertyCondition is defined as 326af66f-2ac0-4f68-bf8c-4759f054fa29<br/> |
 
@@ -76,12 +82,12 @@ Success
 
 <dl> <dt>
 
-[**IFsrmPropertyCondition**](ifsrmpropertycondition.md)
+[**IFsrmPropertyCondition**](/windows/previous-versions/Fsrm/nn-fsrmreports-ifsrmpropertycondition?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: UI\_ANIMATION\_DIMENSION\_UNKNOWN
 description: Indicates that the requested dimension cannot be retrieved.
-ms.assetid: 'DEDFEB69-B537-45AD-BFCB-193178414116'
+ms.assetid: DEDFEB69-B537-45AD-BFCB-193178414116
 topic_type:
 - apiref
 api_name:
@@ -10,6 +10,11 @@ api_location:
 - UIAnimation.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_ANIMATION\_DIMENSION\_UNKNOWN
@@ -30,7 +35,7 @@ Indicates that the requested dimension cannot be retrieved.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8, Windows 7 and Platform Update for Windows 7 \[desktop apps only\]<br/>    |
+| Minimum supported client<br/> | Windows 8, Windows 7 and Platform Update for Windows 7 \[desktop apps only\]<br/>    |
 | Minimum supported server<br/> | None supported<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>UIAnimation.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>UIAnimation.idl</dt> </dl> |
@@ -44,12 +49,12 @@ Indicates that the requested dimension cannot be retrieved.
 [Constants](constants.md)
 </dt> <dt>
 
-[**IUIAnimationVariable2::GetDimension Method**](iuianimationvariable2-getdimension.md)
+[**IUIAnimationVariable2::GetDimension Method**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable2-getdimension?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

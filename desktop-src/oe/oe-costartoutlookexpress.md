@@ -1,8 +1,9 @@
 ---
 title: CoStartOutlookExpress function
 description: Do not use. Starts Microsoft Outlook Express.
-ms.assetid: 'bb02a1fe-945d-44bc-915f-4903f64a9bc3'
-keywords: ["CoStartOutlookExpress function Windows Mail (formerly Outlook Express)"]
+ms.assetid: bb02a1fe-945d-44bc-915f-4903f64a9bc3
+keywords:
+- CoStartOutlookExpress function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Msoe.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CoStartOutlookExpress function
@@ -22,9 +28,9 @@ Do not use. Starts Microsoft Outlook Express.
 
 ```C++
 HRESULT CoStartOutlookExpress(
-  _In_ DWORD  dwFlags,
-  _In_ LPCSTR pszCmdLine,
-  _In_ INT    nCmdShow
+  _In_ DWORD  dwFlags,
+  _In_ LPCSTR pszCmdLine,
+  _In_ INT    nCmdShow
 );
 ```
 
@@ -94,17 +100,17 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msoe.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

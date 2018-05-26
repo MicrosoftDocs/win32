@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintReadStreamFactory interface creates a stream reader that a filter can use to access the stream. For example, a filter could use this stream to access the per-user print ticket.'
-ms.assetid: '91f82cab-64c4-4f25-bf9a-b0757b1a83ca'
+---
+Description: The IPrintReadStreamFactory interface creates a stream reader that a filter can use to access the stream. For example, a filter could use this stream to access the per-user print ticket.
+ms.assetid: 91f82cab-64c4-4f25-bf9a-b0757b1a83ca
 title: IPrintReadStreamFactory interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintReadStreamFactory interface

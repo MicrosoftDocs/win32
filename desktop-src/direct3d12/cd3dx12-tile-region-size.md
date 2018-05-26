@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_TILE\_REGION\_SIZE structure
 description: A helper structure to enable easy initialization of a D3D12\_TILE\_REGION\_SIZE structure.
-ms.assetid: '07D2D8DE-C35C-48EE-8E9E-36545B60C594'
-keywords: ["CD3DX12_TILE_REGION_SIZE structure"]
+ms.assetid: 07D2D8DE-C35C-48EE-8E9E-36545B60C594
+keywords:
+- CD3DX12_TILE_REGION_SIZE structure
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_TILE\_REGION\_SIZE structure
 
-A helper structure to enable easy initialization of a [**D3D12\_TILE\_REGION\_SIZE**](d3d12-tile-region-size.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_TILE\_REGION\_SIZE**](/windows/win32/D3D12/ns-d3d12-d3d12_tile_region_size?branch=master) structure.
 
 ## Syntax
 
@@ -45,7 +51,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_TILE\_REGION\_SIZE.
 **explicit CD3DX12\_TILE\_REGION\_SIZE(const D3D12\_TILE\_REGION\_SIZE &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_TILE\_REGION\_SIZE, initialized with the contents of another [**D3D12\_TILE\_REGION\_SIZE**](d3d12-tile-region-size.md) structure.
+Creates a new instance of a CD3DX12\_TILE\_REGION\_SIZE, initialized with the contents of another [**D3D12\_TILE\_REGION\_SIZE**](/windows/win32/D3D12/ns-d3d12-d3d12_tile_region_size?branch=master) structure.
 
 </dd> <dt>
 
@@ -87,15 +93,15 @@ Defines the & pass-by-reference operator for the parent structure type.
 
 <dl> <dt>
 
-[**D3D12\_TILE\_REGION\_SIZE**](d3d12-tile-region-size.md)
+[**D3D12\_TILE\_REGION\_SIZE**](/windows/win32/D3D12/ns-d3d12-d3d12_tile_region_size?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

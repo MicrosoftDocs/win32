@@ -1,7 +1,12 @@
 ---
-Description: 'This tutorial demonstrates how to take a monolingual application and make it world-ready. This application is in the form of a complete solution that is built within Microsoft Visual Studio.'
-ms.assetid: '6d71aa90-8444-4f30-a2f8-f1a2aab015b0'
+Description: This tutorial demonstrates how to take a monolingual application and make it world-ready. This application is in the form of a complete solution that is built within Microsoft Visual Studio.
+ms.assetid: 6d71aa90-8444-4f30-a2f8-f1a2aab015b0
 title: Adding Multilingual User Interface Support to an Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Multilingual User Interface Support to an Application
@@ -739,11 +744,11 @@ A number of the run-time features mentioned so far within this tutorial are avai
 -   The pre-Windows Vista resource loading functions (such as [**LoadString**](_win32_LoadString), [**LoadIcon**](_win32_LoadIcon), [**LoadBitmap**](gdi.loadbitmap), [**FormatMessage**](base.formatmessage), and others) are non-MUI aware. Applications that ship with split resources (LN and .mui files) must load resource modules using one of these two functions:
 
     -   If the application is to be run only on Windows Vista and later, it should load resource modules with [**LoadLibraryEx**](base.loadlibraryex).
-    -   If the application is to be run on versions prior to Windows Vista, as well as Windows Vista or later, it must use [**LoadMUILibrary**](loadmuilibrary.md), which is a specific downlevel function provided in the Windows 7 SDK.
+    -   If the application is to be run on versions prior to Windows Vista, as well as Windows Vista or later, it must use [**LoadMUILibrary**](/windows/win32/Muiload/nf-muiload-loadmuilibrarya?branch=master), which is a specific downlevel function provided in the Windows 7 SDK.
 
 -   The language management and language fallback order support offered in pre-Windows Vista versions of the Windows operating system differs significantly from that in Windows Vista and later. For this reason, applications that allow user-configured language fallback must adjust their language management practices:
 
-    -   If the application is to be run only on Windows Vista and later, setting the language list using [**SetThreadPreferredUILanguages**](setthreadpreferreduilanguages.md) is sufficient.
+    -   If the application is to be run only on Windows Vista and later, setting the language list using [**SetThreadPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-setthreadpreferreduilanguages?branch=master) is sufficient.
     -   If the application is to be run on all Windows versions, code must be constructed that will run on downlevel platforms to iterate through the user configured language list and probe for the desired resource module. This can be seen in sections 1c and 2 of the code provided later in this step.
 
 Create a project that can use the localized resource modules on any version of Windows:
@@ -994,9 +999,9 @@ Create a project that can use the localized resource modules on any version of W
 
 The techniques covered in this tutorial can also be used in console applications. However, unlike most standard GUI controls, the Windows command window cannot display characters for all languages. For this reason, multilingual console applications require special attention.
 
-Calling the APIs [**SetThreadUILanguage**](setthreaduilanguage.md) or [**SetThreadPreferredUILanguages**](setthreadpreferreduilanguages.md) with specific filtering flags causes the resource loading functions to remove language resource probes for specific languages that are not normally displayed within a command window. When these flags are set, the language-setting algorithms allow only those languages that will display properly in the command window to be on the fallback list.
+Calling the APIs [**SetThreadUILanguage**](/windows/win32/Winnls/nf-winnls-setthreaduilanguage?branch=master) or [**SetThreadPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-setthreadpreferreduilanguages?branch=master) with specific filtering flags causes the resource loading functions to remove language resource probes for specific languages that are not normally displayed within a command window. When these flags are set, the language-setting algorithms allow only those languages that will display properly in the command window to be on the fallback list.
 
-For more information on using these APIs to build a multilingual console application, see the remarks sections of [**SetThreadUILanguage**](setthreaduilanguage.md) and [**SetThreadPreferredUILanguages**](setthreadpreferreduilanguages.md).
+For more information on using these APIs to build a multilingual console application, see the remarks sections of [**SetThreadUILanguage**](/windows/win32/Winnls/nf-winnls-setthreaduilanguage?branch=master) and [**SetThreadPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-setthreadpreferreduilanguages?branch=master).
 
 ### Determination of Languages to Support at Run-Time
 
@@ -1008,13 +1013,13 @@ You can adopt one of the following design suggestions to determine which languag
 
     Some of the projects in this tutorial contain a function used to parse a langs.txt configuration file, which contains a language list.
 
-    Because this function takes external input, validate the languages that are provided as input. See the [**IsValidLocaleName**](isvalidlocalename.md) or [**DownLevelLocaleNameToLCID**](downlevellocalenametolcid.md) functions for more details on performing that validation.
+    Because this function takes external input, validate the languages that are provided as input. See the [**IsValidLocaleName**](/windows/win32/Winnls/nf-winnls-isvalidlocalename?branch=master) or [**DownLevelLocaleNameToLCID**](downlevellocalenametolcid.md) functions for more details on performing that validation.
 
 -   **Query the operating system to determine which languages are installed**
 
     This approach helps the application use the same language as the operating system. Although this does not require user prompting, if you choose this option, be aware that operating system languages can be added or removed at any time and can change after the user installs the application. Also, be aware that in some cases, the operating system is installed with limited language support, and the application offers more value if it supports languages that the operating system does not support.
 
-    For more information on how to determine the currently installed languages in the operating system, see the [**EnumUILanguages**](enumuilanguages.md) function.
+    For more information on how to determine the currently installed languages in the operating system, see the [**EnumUILanguages**](/windows/win32/Winnls/nf-winnls-enumuilanguagesa?branch=master) function.
 
 ### Complex Script Support in Versions Prior to Windows Vista
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the DirtyDays property for a FaxServer object. The DirtyDays property is the number of days the fax server retains an unsent job in the fax job queue.'
-ms.assetid: '0d1a3268-a5de-4e67-9800-13b87e449b2a'
-title: 'FaxServer.DirtyDays property'
+---
+Description: Sets or retrieves the DirtyDays property for a FaxServer object. The DirtyDays property is the number of days the fax server retains an unsent job in the fax job queue.
+ms.assetid: 0d1a3268-a5de-4e67-9800-13b87e449b2a
+title: FaxServer.DirtyDays property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.DirtyDays property

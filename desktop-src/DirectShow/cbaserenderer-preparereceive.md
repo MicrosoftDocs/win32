@@ -1,7 +1,12 @@
 ---
-Description: 'The PrepareReceive method prepares the filter to render a sample.'
-ms.assetid: '873b6b3b-623e-4cec-91ea-fa628618348d'
-title: 'CBaseRenderer.PrepareReceive method'
+Description: The PrepareReceive method prepares the filter to render a sample.
+ms.assetid: 873b6b3b-623e-4cec-91ea-fa628618348d
+title: CBaseRenderer.PrepareReceive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.PrepareReceive method
@@ -13,7 +18,7 @@ The `PrepareReceive` method prepares the filter to render a sample.
 
 ```C++
 virtual HRESULT PrepareReceive(
-   IMediaSample *pMediaSample
+   IMediaSample *pMediaSample
 );
 ```
 
@@ -26,7 +31,7 @@ virtual HRESULT PrepareReceive(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -45,7 +50,7 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -53,7 +58,7 @@ The filter calls this method from inside the [**CBaseRenderer::Receive**](cbaser
 
 If the filter already has a pending sample, or if the end-of-stream was already reached, the method returns E\_UNEXPECTED. Possibly the upstream filter is not serializing its streaming calls correctly.
 
-If the scheduling algorithm determines that the sample should be dropped (see [**CBaseRenderer::ScheduleSample**](cbaserenderer-schedulesample.md)), the method returns VFW\_E\_SAMPLE\_REJECTED. However, the input pin's [**IMemInputPin::Receive**](imeminputpin-receive.md) method does not pass this error code to the upstream filter, because dropping a sample is not an error.
+If the scheduling algorithm determines that the sample should be dropped (see [**CBaseRenderer::ScheduleSample**](cbaserenderer-schedulesample.md)), the method returns VFW\_E\_SAMPLE\_REJECTED. However, the input pin's [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method does not pass this error code to the upstream filter, because dropping a sample is not an error.
 
 ## Requirements
 
@@ -73,9 +78,9 @@ If the scheduling algorithm determines that the sample should be dropped (see [*
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'The following example opens a handle to COM2 and fills in a DCB structure with the current configuration. The DCB structure is then modified and used to reconfigure the device.'
-ms.assetid: '5b325a1e-51e1-43b4-92e7-7bcf34c6388f'
+Description: The following example opens a handle to COM2 and fills in a DCB structure with the current configuration. The DCB structure is then modified and used to reconfigure the device.
+ms.assetid: 5b325a1e-51e1-43b4-92e7-7bcf34c6388f
 title: Configuring a Communications Resource
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring a Communications Resource
 
-The following example opens a handle to COM2 and fills in a [**DCB**](dcb-str.md) structure with the current configuration. The **DCB** structure is then modified and used to reconfigure the device.
+The following example opens a handle to COM2 and fills in a [**DCB**](/windows/win32/Winbase/ns-winbase-_dcb?branch=master) structure with the current configuration. The **DCB** structure is then modified and used to reconfigure the device.
 
 
 ```C++

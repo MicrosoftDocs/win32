@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a parameter or annotation description.'
-ms.assetid: 'fd54eb08-a7e4-4106-b0ed-49a4da7fcadc'
-title: 'ID3DXBaseEffect::GetParameterDesc method'
+---
+Description: Gets a parameter or annotation description.
+ms.assetid: fd54eb08-a7e4-4106-b0ed-49a4da7fcadc
+title: ID3DXBaseEffectGetParameterDesc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetParameterDesc method

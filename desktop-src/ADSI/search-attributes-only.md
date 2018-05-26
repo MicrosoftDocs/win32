@@ -4,11 +4,15 @@ description: Sometimes you perform a search to determine what type of data is av
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '97eccea6-6a2b-4785-afd8-4af3dc7bd657'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 97eccea6-6a2b-4785-afd8-4af3dc7bd657
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Search Attributes Only ADSI"]
+keywords:
+- Search Attributes Only ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Search Attributes Only

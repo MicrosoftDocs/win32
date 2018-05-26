@@ -1,8 +1,11 @@
 ---
 title: INapClientManagement GetNapClientInfo method
 description: Retrieves information about the NAP client.
-ms.assetid: 'c0b57cab-729b-40b2-81d2-32a961e377a5'
-keywords: ["GetNapClientInfo method NAP", "GetNapClientInfo method NAP , INapClientManagement interface", "INapClientManagement interface NAP , GetNapClientInfo method"]
+ms.assetid: c0b57cab-729b-40b2-81d2-32a961e377a5
+keywords:
+- GetNapClientInfo method NAP
+- GetNapClientInfo method NAP , INapClientManagement interface
+- INapClientManagement interface NAP , GetNapClientInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapClientManagement::GetNapClientInfo method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **GetNapClientInfo** method retrieves information about the NAP client.
 
@@ -27,10 +35,10 @@ The **GetNapClientInfo** method retrieves information about the NAP client.
 
 ```C++
 HRESULT GetNapClientInfo(
-  [out] BOOL          *isNapEnabled,
-  [out] CountedString **clientName,
-  [out] CountedString **clientDescription,
-  [out] CountedString **protocolVersion
+  [out] BOOL          *isNapEnabled,
+  [out] CountedString **clientName,
+  [out] CountedString **clientDescription,
+  [out] CountedString **protocolVersion
 ) const;
 ```
 
@@ -50,21 +58,21 @@ A pointer to a BOOL that is set to **TRUE** if NAP is enabled; otherwise it is s
 *clientName* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](countedstring-struct.md) structure that contains the client name.
+A pointer to a pointer to a [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) structure that contains the client name.
 
 </dd> <dt>
 
 *clientDescription* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](countedstring-struct.md) structure that contains the client description.
+A pointer to a pointer to a [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) structure that contains the client description.
 
 </dd> <dt>
 
 *protocolVersion* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](countedstring-struct.md) structure that contains the protocol version.
+A pointer to a pointer to a [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) structure that contains the protocol version.
 
 </dd> </dl>
 
@@ -83,7 +91,7 @@ The method returns an HRESULT status code including but not limited to one of th
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -91,8 +99,8 @@ The method returns an HRESULT status code including but not limited to one of th
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>NapManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |
@@ -106,9 +114,9 @@ The method returns an HRESULT status code including but not limited to one of th
 [**INapClientManagement**](inapclientmanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

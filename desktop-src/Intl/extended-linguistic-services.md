@@ -1,7 +1,12 @@
 ---
 Description: Extended Linguistic Services
-ms.assetid: '23d4e42a-a5bb-467c-a8b9-6a57ae39daa0'
+ms.assetid: 23d4e42a-a5bb-467c-a8b9-6a57ae39daa0
 title: Extended Linguistic Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extended Linguistic Services

@@ -1,7 +1,12 @@
 ---
 title: Choosing the Content for Descriptive Properties
 description: While the content of some properties is specific, the content for other properties consists of descriptive text that is left to the server developer to provide.
-ms.assetid: '3f399451-e9c5-4901-9b6e-198aa0c2deab'
+ms.assetid: 3f399451-e9c5-4901-9b6e-198aa0c2deab
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing the Content for Descriptive Properties

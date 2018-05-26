@@ -4,17 +4,22 @@ description: Indicates whether the resource requires its own Resource Monitor. T
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0ed3404e-f91a-4cac-aee7-f014ae329ac1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0ed3404e-f91a-4cac-aee7-f014ae329ac1
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["SeparateMonitor Failover Cluster ,for resources", "SeparateMonitor Failover Cluster"]
+keywords:
+- SeparateMonitor Failover Cluster ,for resources
+- SeparateMonitor Failover Cluster
 topic_type:
 - apiref
 api_name:
 - SeparateMonitor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SeparateMonitor
@@ -27,14 +32,14 @@ Indicates whether the [resource](resources.md) requires its own [Resource Monito
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **FALSE**                                 |
 | Maximum   | **TRUE**                                  |
 | Default   | **FALSE**                                 |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,7 +69,7 @@ SeparateMonitorValue.dw = SeparateMonitorData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -72,12 +77,12 @@ SeparateMonitorValue.dw = SeparateMonitorData;
 
 <dl> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

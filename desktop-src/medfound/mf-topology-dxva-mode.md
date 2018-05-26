@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the topology loader enables Microsoft DirectX Video Acceleration (DXVA) in the topology.'
-ms.assetid: '03783ef3-f957-41e3-9734-94cb34ecc088'
-title: 'MF\_TOPOLOGY\_DXVA\_MODE attribute'
+---
+Description: Specifies whether the topology loader enables Microsoft DirectX Video Acceleration (DXVA) in the topology.
+ms.assetid: 03783ef3-f957-41e3-9734-94cb34ecc088
+title: MF\_TOPOLOGY\_DXVA\_MODE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPOLOGY\_DXVA\_MODE attribute
@@ -10,21 +15,21 @@ Specifies whether the topology loader enables Microsoft DirectX Video Accelerati
 
 ## Data type
 
-**[**MFTOPOLOGY\_DXVA\_MODE**](mftopology-dxva-mode.md)** stored as **UINT32**
+**[**MFTOPOLOGY\_DXVA\_MODE**](/windows/win32/mfidl/ne-mfidl-mftopology_dxva_mode?branch=master)** stored as **UINT32**
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFTopology**](imftopology.md)
+[**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master)
 
 ## Remarks
 
-The value of this attribute is an [**MFTOPOLOGY\_DXVA\_MODE**](mftopology-dxva-mode.md) enumeration constant. The default value is **MFTOPOLOGY\_DXVA\_DEFAULT**.
+The value of this attribute is an [**MFTOPOLOGY\_DXVA\_MODE**](/windows/win32/mfidl/ne-mfidl-mftopology_dxva_mode?branch=master) enumeration constant. The default value is **MFTOPOLOGY\_DXVA\_DEFAULT**.
 
 This attribute controls which MFTs receive a pointer to the Direct3D device manager. To enable full video acceleration, set the value to **MFTOPOLOGY\_DXVA\_FULL**. The value **MFTOPOLOGY\_DXVA\_DEFAULT** is defined for backward compatibility; it matches the behavior of all earlier versions of Microsoft Media Foundation.
 

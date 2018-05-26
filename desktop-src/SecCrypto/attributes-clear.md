@@ -1,7 +1,12 @@
-﻿---
-Description: 'Clears all Attribute objects from the collection.'
-ms.assetid: '98b022f8-15aa-44b4-aaff-de09081d80b6'
-title: 'Attributes.Clear method'
+---
+Description: Clears all Attribute objects from the collection.
+ms.assetid: 98b022f8-15aa-44b4-aaff-de09081d80b6
+title: Attributes.Clear method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes.Clear method

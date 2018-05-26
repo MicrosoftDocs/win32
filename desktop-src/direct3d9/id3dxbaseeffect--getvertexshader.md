@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a vertex shader.'
-ms.assetid: 'ab58b465-7b10-46eb-88c0-c5229cb09481'
-title: 'ID3DXBaseEffect::GetVertexShader method'
+---
+Description: Gets a vertex shader.
+ms.assetid: ab58b465-7b10-46eb-88c0-c5229cb09481
+title: ID3DXBaseEffectGetVertexShader method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetVertexShader method
@@ -36,9 +41,9 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *ppVShader* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXSHADER9**](idirect3dvertexshader9.md)\***
+Type: **[**LPDIRECT3DVERTEXSHADER9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvertexshader9?branch=master)\***
 
-Returns a vertex shader object. See [**IDirect3DVertexShader9**](idirect3dvertexshader9.md).
+Returns a vertex shader object. See [**IDirect3DVertexShader9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvertexshader9?branch=master).
 
 </dd> </dl>
 

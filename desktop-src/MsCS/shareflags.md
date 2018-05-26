@@ -4,26 +4,31 @@ description: Share flags of a File Share resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5a14f232-1d58-4d1c-8aa7-53a56a0374ac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5a14f232-1d58-4d1c-8aa7-53a56a0374ac
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ShareFlags Failover Cluster , for File private properties", "ShareFlags Failover Cluster"]
+keywords:
+- ShareFlags Failover Cluster , for File private properties
+- ShareFlags Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ShareFlags
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ShareFlags
 
-\[The **ShareFlags** property is no longer available for use as of Windows Server 2012.\]
+\[The **ShareFlags** property is no longer available for use as of Windows Server 2012.\]
 
 This property is not supported.
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 Stores the share flags of a File Share resource. The following table summarizes the attributes of the **ShareFlags** property.
 
@@ -33,14 +38,14 @@ Stores the share flags of a File Share resource. The following table summarizes 
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | 0<br/>                                         |
 | Maximum<br/>   | 0xF30<br/>                                     |
 | Default<br/>   | 0<br/>                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -53,8 +58,8 @@ See the definition of the **SHI1005\_VALID\_FLAGS\_SET** value defined in LMShar
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
@@ -68,12 +73,12 @@ See the definition of the **SHI1005\_VALID\_FLAGS\_SET** value defined in LMShar
 [**ShareFlags property of a DFS resource**](distributed-file-system-shareflags.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

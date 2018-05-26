@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used to define private messages for use by private window classes, usually of the form WM\_USER+x, where x is an integer value.'
-ms.assetid: '4115c587-fcb4-4170-9948-fe33bcb8742a'
-title: 'WM\_USER'
+---
+Description: Used to define private messages for use by private window classes, usually of the form WM\_USER+x, where x is an integer value.
+ms.assetid: 4115c587-fcb4-4170-9948-fe33bcb8742a
+title: WM\_USER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_USER

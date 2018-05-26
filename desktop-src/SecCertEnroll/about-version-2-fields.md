@@ -1,7 +1,12 @@
 ---
-Description: 'An X.509 version 2 certificate contains the basic fields defined in version 1 and adds the following fields.'
-ms.assetid: '533d43d7-0c49-4461-8ba8-368c103feb4f'
+Description: An X.509 version 2 certificate contains the basic fields defined in version 1 and adds the following fields.
+ms.assetid: 533d43d7-0c49-4461-8ba8-368c103feb4f
 title: Version 2 Fields
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Version 2 Fields

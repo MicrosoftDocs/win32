@@ -1,8 +1,19 @@
 ---
 title: Porting Triangles
 description: You can draw three types of triangles in OpenGL separate triangles, triangle strips, and triangle fans.
-ms.assetid: '48617892-c9a0-4c67-b42e-afa4243023e7'
-keywords: ["IRIS GL porting,triangles", "porting from IRIS GL,triangles", "porting to OpenGL from IRIS GL,triangles", "OpenGL porting from IRIS GL,triangles", "drawing functions,triangles", "triangles"]
+ms.assetid: 48617892-c9a0-4c67-b42e-afa4243023e7
+keywords:
+- IRIS GL porting,triangles
+- porting from IRIS GL,triangles
+- porting to OpenGL from IRIS GL,triangles
+- OpenGL porting from IRIS GL,triangles
+- drawing functions,triangles
+- triangles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Triangles

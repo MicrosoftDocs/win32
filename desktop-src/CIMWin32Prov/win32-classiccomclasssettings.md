@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_ClassicCOMClassSettings association WMI class relates a Component Object Model (COM) class and the settings used to configure instances of the COM class.'
+Description: The Win32\_ClassicCOMClassSettings association WMI class relates a Component Object Model (COM) class and the settings used to configure instances of the COM class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '50f253cc-b8ae-41ac-b01f-ea816f5ca3d4'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 50f253cc-b8ae-41ac-b01f-ea816f5ca3d4
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ClassicCOMClassSettings class'
+title: Win32\_ClassicCOMClassSettings class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ClassicCOMClassSettings class
@@ -25,7 +28,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_ClassicCOMClassSettings : CIM_ElementSetting
 {
   Win32_ClassicCOMClassSetting REF Setting;
-  Win32_ClassicCOMClass        REF Element;
+  Win32_ClassicCOMClass        REF Element;
 };
 ```
 
@@ -83,8 +86,8 @@ The **Win32\_ClassicCOMClassSettings** class is derived from [**CIM\_ElementSett
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -101,9 +104,9 @@ The **Win32\_ClassicCOMClassSettings** class is derived from [**CIM\_ElementSett
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

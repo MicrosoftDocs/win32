@@ -1,8 +1,9 @@
 ---
 title: gluTessBeginPolygon function
 description: The gluTessBeginPolygon and gluTessEndPolygon functions delimit a polygon description.
-ms.assetid: '3a04363a-c492-4fa5-b312-f2fa2a805782'
-keywords: ["gluTessBeginPolygon function OpenGL"]
+ms.assetid: 3a04363a-c492-4fa5-b312-f2fa2a805782
+keywords:
+- gluTessBeginPolygon function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluTessBeginPolygon function
@@ -22,8 +28,8 @@ The **gluTessBeginPolygon** and [**gluTessEndPolygon**](glutessendpolygon.md) fu
 
 ```C++
 void WINAPI gluTessBeginPolygon(
-   GLUtesselator *tess,
-   void          *polygon_data
+   GLUtesselator *tess,
+   void          *polygon_data
 );
 ```
 
@@ -85,8 +91,8 @@ gluTessEndPolygon(tobj);
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -118,9 +124,9 @@ gluTessEndPolygon(tobj);
 [**gluTessVertex**](glutessvertex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: close command
 description: The close command closes the device or file and any associated resources. MCI unloads a device when all instances of the device or all files are closed. All MCI devices recognize this command.
-ms.assetid: 'f756c11d-54a7-4238-8a99-4263a6c36109'
-keywords: ["close command Windows Multimedia"]
+ms.assetid: f756c11d-54a7-4238-8a99-4263a6c36109
+keywords:
+- close command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - corecrt_io.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # close command
 
 The close command closes the device or file and any associated resources. MCI unloads a device when all instances of the device or all files are closed. All MCI devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -72,8 +78,8 @@ close mysound
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Corecrt\_io.h</dt> </dl> |
 
 
@@ -88,9 +94,9 @@ close mysound
 [MCI Command Strings](mci-command-strings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

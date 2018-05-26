@@ -1,8 +1,19 @@
 ---
 title: Reading ASF Data Over a Network
 description: Reading ASF Data Over a Network
-ms.assetid: '488c456a-0ab6-4559-9d91-c27a64a9a9a0'
-keywords: ["Windows Media Format SDK,reading ASF data", "Windows Media Format SDK,playing files from network sources", "Advanced Systems Format (ASF),reading data", "ASF (Advanced Systems Format),reading data", "Advanced Systems Format (ASF),playing files from network sources", "ASF (Advanced Systems Format),playing files from network sources"]
+ms.assetid: 488c456a-0ab6-4559-9d91-c27a64a9a9a0
+keywords:
+- Windows Media Format SDK,reading ASF data
+- Windows Media Format SDK,playing files from network sources
+- Advanced Systems Format (ASF),reading data
+- ASF (Advanced Systems Format),reading data
+- Advanced Systems Format (ASF),playing files from network sources
+- ASF (Advanced Systems Format),playing files from network sources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading ASF Data Over a Network

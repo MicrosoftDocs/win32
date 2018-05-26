@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds a sprite to the list of batched sprites.'
-ms.assetid: '8f5c43a2-68dd-44a9-be2f-f76d9fa2d900'
-title: 'ID3DXSprite::Draw method'
+---
+Description: Adds a sprite to the list of batched sprites.
+ms.assetid: 8f5c43a2-68dd-44a9-be2f-f76d9fa2d900
+title: ID3DXSpriteDraw method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSprite::Draw method
@@ -30,9 +35,9 @@ HRESULT Draw(
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) interface that represents the sprite texture.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) interface that represents the sprite texture.
 
 </dd> <dt>
 

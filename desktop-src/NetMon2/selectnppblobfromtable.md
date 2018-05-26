@@ -1,7 +1,12 @@
 ---
-Description: 'The SelectNPPBlobFromTable function selects a NIC from a supplied NPP BLOB table.'
-ms.assetid: '7f8010ed-472a-49b2-8d97-92851b6c14cd'
+Description: The SelectNPPBlobFromTable function selects a NIC from a supplied NPP BLOB table.
+ms.assetid: 7f8010ed-472a-49b2-8d97-92851b6c14cd
 title: SelectNPPBlobFromTable function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SelectNPPBlobFromTable function
@@ -13,9 +18,9 @@ The **SelectNPPBlobFromTable** function selects a NIC from a supplied NPP BLOB t
 
 ```C++
 DWORD SelectNPPBlobFromTable(
-  _In_  HWND        hwnd,
-  _In_  PBLOB_TABLE pBlobTable,
-  _Out_ HBLOB       *hBlob
+  _In_  HWND        hwnd,
+  _In_  PBLOB_TABLE pBlobTable,
+  _Out_ HBLOB       *hBlob
 );
 ```
 
@@ -66,8 +71,8 @@ To learn the various ways you can select NICs, see [Selecting a Network Interfac
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -87,9 +92,9 @@ To learn the various ways you can select NICs, see [Selecting a Network Interfac
 [Special BLOB Entries](special-blob-entries.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

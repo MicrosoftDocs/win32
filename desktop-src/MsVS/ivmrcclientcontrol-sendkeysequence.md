@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl SendKeySequence method
 description: The SendKeySequence method simulates a sequence of keys typed in the guest with the current input focus.
-ms.assetid: 'c06860aa-a90e-4bd7-8441-04c15bb375a3'
-keywords: ["SendKeySequence method Virtual Server", "SendKeySequence method Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , SendKeySequence method", "SendKeySequence method Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , SendKeySequence method"]
+ms.assetid: c06860aa-a90e-4bd7-8441-04c15bb375a3
+keywords:
+- SendKeySequence method Virtual Server
+- SendKeySequence method Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , SendKeySequence method
+- SendKeySequence method Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , SendKeySequence method
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::SendKeySequence method
@@ -24,7 +34,7 @@ The **SendKeySequence** method simulates a sequence of keys typed in the guest w
 
 ```C++
 HRESULT SendKeySequence(
-  [in] BSTR keySequence
+  [in] BSTR keySequence
 );
 ```
 
@@ -54,7 +64,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,8 +98,8 @@ HRESULT hr = pIVMRCClientControl->SendKeySequence(bHello);
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -105,9 +115,9 @@ HRESULT hr = pIVMRCClientControl->SendKeySequence(bHello);
 [Key Identifiers Reference](key-identifiers-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

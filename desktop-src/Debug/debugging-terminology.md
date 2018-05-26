@@ -1,7 +1,12 @@
 ---
-Description: 'The following terms are used when describing debugging.'
-ms.assetid: '580f2787-d944-4350-a2c2-c00816b3f515'
+Description: The following terms are used when describing debugging.
+ms.assetid: 580f2787-d944-4350-a2c2-c00816b3f515
 title: Debugging Terminology
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debugging Terminology

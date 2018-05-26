@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectMatrixVariable SetMatrixTranspose method
 description: Transpose and set a floating-point matrix.
-ms.assetid: '228546c9-0141-4e17-bc8f-bff7201825d7'
-keywords: ["SetMatrixTranspose method Direct3D 11", "SetMatrixTranspose method Direct3D 11 , ID3DX11EffectMatrixVariable interface", "ID3DX11EffectMatrixVariable interface Direct3D 11 , SetMatrixTranspose method"]
+ms.assetid: 228546c9-0141-4e17-bc8f-bff7201825d7
+keywords:
+- SetMatrixTranspose method Direct3D 11
+- SetMatrixTranspose method Direct3D 11 , ID3DX11EffectMatrixVariable interface
+- ID3DX11EffectMatrixVariable interface Direct3D 11 , SetMatrixTranspose method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectMatrixVariable::SetMatrixTranspose method
@@ -23,7 +31,7 @@ Transpose and set a floating-point matrix.
 
 ```C++
 HRESULT SetMatrixTranspose(
-   float *pData
+   float *pData
 );
 ```
 
@@ -55,7 +63,7 @@ Transposing a matrix will rearrange the data order from row-column order to colu
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ Transposing a matrix will rearrange the data order from row-column order to colu
 [ID3DX11EffectMatrixVariable](id3dx11effectmatrixvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

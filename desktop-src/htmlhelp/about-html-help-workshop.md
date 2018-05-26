@@ -1,7 +1,12 @@
 ---
 title: About HTML Help Workshop
 description: About HTML Help Workshop
-ms.assetid: '8C376F10-0D97-45e0-B4FE-37EB9B073AF0'
+ms.assetid: 8C376F10-0D97-45e0-B4FE-37EB9B073AF0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About HTML Help Workshop

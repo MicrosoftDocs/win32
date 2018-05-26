@@ -1,14 +1,22 @@
 ---
 title: WPDObject.Children property
 description: The Children property returns a collection of all of the immediate children of this WPDObject.
-ms.assetid: 'ff98b335-cb2c-45bc-aa92-424cdf5fc8d9'
-keywords: ["Children property WPD Automation", "Children property WPD Automation , WPDObject object", "WPDObject object WPD Automation , Children property"]
+ms.assetid: ff98b335-cb2c-45bc-aa92-424cdf5fc8d9
+keywords:
+- Children property WPD Automation
+- Children property WPD Automation , WPDObject object
+- WPDObject object WPD Automation , Children property
 topic_type:
 - apiref
 api_name:
 - WPDObject.Children
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPDObject.Children property

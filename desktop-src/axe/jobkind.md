@@ -1,14 +1,20 @@
 ---
 title: JobKind element
 description: This node contains the job kind enumeration.
-ms.assetid: '85904664-881A-4111-A604-373E870DF210'
-keywords: ["JobKind element Access Execution Engine"]
+ms.assetid: 85904664-881A-4111-A604-373E870DF210
+keywords:
+- JobKind element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - JobKind
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JobKind element
@@ -56,9 +62,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

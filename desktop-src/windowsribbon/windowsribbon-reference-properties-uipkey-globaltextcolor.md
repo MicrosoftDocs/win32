@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_GlobalTextColor
 description: Identifies the UI\_PKey\_GlobalTextColor property.
-ms.assetid: '60607c12-a6cf-4ecf-ae0b-341e6500a4fa'
+ms.assetid: 60607c12-a6cf-4ecf-ae0b-341e6500a4fa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_GlobalTextColor

@@ -1,8 +1,9 @@
 ---
 title: ErrorItem.condition
 description: The condition property retrieves a value indicating the condition for the error.
-ms.assetid: 'efb54b48-cfaa-479f-9ee6-ce6724dca24c'
-keywords: ["ErrorItem.condition Windows Media Player"]
+ms.assetid: efb54b48-cfaa-479f-9ee6-ce6724dca24c
+keywords:
+- ErrorItem.condition Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorItem.condition
@@ -52,9 +58,9 @@ The condition code is a value that is used by Microsoft to provide additional in
 [**ErrorItem Object**](erroritem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

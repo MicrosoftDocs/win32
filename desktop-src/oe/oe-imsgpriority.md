@@ -1,8 +1,10 @@
 ---
 title: IMSGPRIORITY enumeration
 description: Do not use. Represents the priority of a message.
-ms.assetid: '65fc1b25-e366-4a37-b2f3-fbfe7069642b'
-keywords: ["IMSGPRIORITY enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 65fc1b25-e366-4a37-b2f3-fbfe7069642b
+keywords:
+- IMSGPRIORITY enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMSGPRIORITY enumeration
@@ -22,9 +29,9 @@ Do not use. Represents the priority of a message.
 
 ```C++
 typedef enum tagIMSGPRIORITY { 
-  IMSG_PRI_LOW     = 5,
-  IMSG_PRI_NORMAL  = 3,
-  IMSG_PRI_HIGH    = 1
+  IMSG_PRI_LOW     = 5,
+  IMSG_PRI_NORMAL  = 3,
+  IMSG_PRI_HIGH    = 1
 } ACCESSTYPE;
 ```
 
@@ -61,17 +68,17 @@ Indicates that the message is high priority.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

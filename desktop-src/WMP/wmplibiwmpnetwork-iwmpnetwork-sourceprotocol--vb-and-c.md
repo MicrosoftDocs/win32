@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork sourceProtocol property
 description: The sourceProtocol property gets the source protocol used to receive data.
-ms.assetid: 'db1d7651-3f25-4ac9-a3e1-dc3a8ddf8c40'
-keywords: ["sourceProtocol property Windows Media Player", "sourceProtocol property Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , sourceProtocol property"]
+ms.assetid: db1d7651-3f25-4ac9-a3e1-dc3a8ddf8c40
+keywords:
+- sourceProtocol property Windows Media Player
+- sourceProtocol property Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , sourceProtocol property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::sourceProtocol property
@@ -123,9 +131,9 @@ End Sub</code></pre></td>
 [**IWMPNetwork Interface (VB and C#)**](iwmpnetwork--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

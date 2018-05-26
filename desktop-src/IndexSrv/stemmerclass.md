@@ -1,7 +1,12 @@
 ---
 title: StemmerClass
 description: StemmerClass
-ms.assetid: '4e8ea3b1-b08b-4ea7-9a17-0e20ac3cde14'
+ms.assetid: 4e8ea3b1-b08b-4ea7-9a17-0e20ac3cde14
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StemmerClass

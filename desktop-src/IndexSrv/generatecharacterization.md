@@ -1,7 +1,12 @@
 ---
 title: GenerateCharacterization
 description: GenerateCharacterization
-ms.assetid: '6419e27d-cbad-4a30-94df-ee82f666a900'
+ms.assetid: 6419e27d-cbad-4a30-94df-ee82f666a900
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GenerateCharacterization

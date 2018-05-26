@@ -1,7 +1,12 @@
 ---
 title: Using Resources
 description: This section contains code related to resource programming tasks.
-ms.assetid: '73678045-1518-46cd-ab55-5d272852ba73'
+ms.assetid: 73678045-1518-46cd-ab55-5d272852ba73
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Resources
@@ -16,11 +21,11 @@ This section contains code snippets for the following tasks:
 The following example copies a dialog box resource from one executable file, Hand.exe, to another, Foot.exe, by following these steps:
 
 1.  Use the [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) function to load the executable file Hand.exe.
-2.  Use the [**FindResource**](findresource.md) and [**LoadResource**](loadresource.md) functions to locate and load the dialog box resource.
-3.  Use the [**LockResource**](lockresource.md) function to retrieve a pointer to the dialog box resource data.
-4.  Use the [**BeginUpdateResource**](beginupdateresource.md) function to open an update handle to Foot.exe.
-5.  Use the [**UpdateResource**](updateresource.md) function to copy the dialog box resource from Hand.exe to Foot.exe.
-6.  Use the [**EndUpdateResource**](endupdateresource.md) function to complete the update.
+2.  Use the [**FindResource**](/windows/win32/Winbase/nf-winbase-findresourcea?branch=master) and [**LoadResource**](/windows/win32/Winbase/?branch=master) functions to locate and load the dialog box resource.
+3.  Use the [**LockResource**](/windows/win32/Winbase/?branch=master) function to retrieve a pointer to the dialog box resource data.
+4.  Use the [**BeginUpdateResource**](/windows/win32/Winbase/nf-winbase-beginupdateresourcea?branch=master) function to open an update handle to Foot.exe.
+5.  Use the [**UpdateResource**](/windows/win32/Winbase/nf-winbase-updateresourcea?branch=master) function to copy the dialog box resource from Hand.exe to Foot.exe.
+6.  Use the [**EndUpdateResource**](/windows/win32/Winbase/nf-winbase-endupdateresourcea?branch=master) function to complete the update.
 
 The following code implements these steps.
 
@@ -112,9 +117,9 @@ if (!FreeLibrary(hExe))
 
 The following example creates a list of every resource in the Hand.exe file. The list is written to the Resinfo.txt file.
 
-The code demonstrates how to load the executable file, create a file in which to write resource information, and call the [**EnumResourceTypes**](enumresourcetypes.md) function to send each resource type found in the module to the application-defined callback function `EnumTypesFunc`. See [*EnumResTypeProc*](enumrestypeproc.md) for information on callback functions of this type. This callback function uses the [**EnumResourceNames**](enumresourcenames.md) function to pass the name of every resource within the specified type to another application-defined callback function, `EnumNamesFunc`. See [*EnumResNameProc*](enumresnameproc.md) for information on callback functions of this type. `EnumNamesFunc` uses the [**EnumResourceLanguages**](enumresourcelanguages.md) function to pass the language of every resource of the specified type and name to a third callback function, `EnumLangsFunc`. See [*EnumResLangProc*](enumreslangproc.md) for information on callback functions of this type. `EnumLangsFunc` writes information about the resource of the specified type, name, and language to the Resinfo.txt file.
+The code demonstrates how to load the executable file, create a file in which to write resource information, and call the [**EnumResourceTypes**](/windows/win32/Winbase/nf-winbase-enumresourcetypesa?branch=master) function to send each resource type found in the module to the application-defined callback function `EnumTypesFunc`. See [*EnumResTypeProc*](/windows/win32/Winbase/?branch=master) for information on callback functions of this type. This callback function uses the [**EnumResourceNames**](/windows/win32/Winbase/nf-winbase-enumresourcenamesa?branch=master) function to pass the name of every resource within the specified type to another application-defined callback function, `EnumNamesFunc`. See [*EnumResNameProc*](/windows/win32/Winbase/?branch=master) for information on callback functions of this type. `EnumNamesFunc` uses the [**EnumResourceLanguages**](/windows/win32/Winbase/nf-winbase-enumresourcelanguagesa?branch=master) function to pass the language of every resource of the specified type and name to a third callback function, `EnumLangsFunc`. See [*EnumResLangProc*](/windows/win32/Winbase/?branch=master) for information on callback functions of this type. `EnumLangsFunc` writes information about the resource of the specified type, name, and language to the Resinfo.txt file.
 
-Note that the *lpszType* in [*EnumResTypeProc*](enumrestypeproc.md) is either a resource ID or a pointer to a string (containing a resource ID or type name); *lpszType* and *lpszName* in [*EnumResNameProc*](enumresnameproc.md) and [*EnumResLangProc*](enumreslangproc.md) are similar. To load an enumerated resource, just call the appropriate function. For example, if a menu resource (**RT\_MENU**) was enumerated, then pass *lpszName* to [**LoadMenu**](loadmenu.md). For custom resources, pass *lpszType* and *lpszName* to [**FindResource**](findresource.md).
+Note that the *lpszType* in [*EnumResTypeProc*](/windows/win32/Winbase/?branch=master) is either a resource ID or a pointer to a string (containing a resource ID or type name); *lpszType* and *lpszName* in [*EnumResNameProc*](/windows/win32/Winbase/?branch=master) and [*EnumResLangProc*](/windows/win32/Winbase/?branch=master) are similar. To load an enumerated resource, just call the appropriate function. For example, if a menu resource (**RT\_MENU**) was enumerated, then pass *lpszName* to [**LoadMenu**](/windows/win32/Winuser/nf-winuser-loadmenua?branch=master). For custom resources, pass *lpszType* and *lpszName* to [**FindResource**](/windows/win32/Winbase/nf-winbase-findresourcea?branch=master).
 
 The [Updating Resources](#updating-resources) code follows a similar pattern for a dialog box resource.
 

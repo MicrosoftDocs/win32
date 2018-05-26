@@ -4,11 +4,15 @@ description: The Value member of a data structure contains or points to the actu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3836e385-4a45-42e5-8f79-e49821029fd5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3836e385-4a45-42e5-8f79-e49821029fd5
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["data Failover Cluster ,structures,Value member Failover Cluster"]
+keywords:
+- data Failover Cluster ,structures,Value member Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Data Value

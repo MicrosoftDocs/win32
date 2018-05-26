@@ -1,8 +1,17 @@
 ---
 title: Desktop gadgets removed
 description: Desktop gadgets removed
-ms.assetid: '0074204B-F568-4F9B-A0F7-3E330B91E4CD'
-keywords: ["gadgets", "desktop gadgets", "Windows Sidebar", "Sidebar"]
+ms.assetid: 0074204B-F568-4F9B-A0F7-3E330B91E4CD
+keywords:
+- gadgets
+- desktop gadgets
+- Windows Sidebar
+- Sidebar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Desktop gadgets removed

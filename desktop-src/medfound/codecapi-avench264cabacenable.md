@@ -1,7 +1,12 @@
 ---
-Description: 'Enables or disables CABAC (context-adaptive binary arithmetic coding) for H.264 entropy coding.'
-ms.assetid: 'E09DD142-A685-425E-94CD-A8E2EA73E869'
-title: 'CODECAPI\_AVEncH264CABACEnable property'
+Description: Enables or disables CABAC (context-adaptive binary arithmetic coding) for H.264 entropy coding.
+ms.assetid: E09DD142-A685-425E-94CD-A8E2EA73E869
+title: CODECAPI\_AVEncH264CABACEnable property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVEncH264CABACEnable property
@@ -26,8 +31,8 @@ If the value is **VARIANT\_TRUE**, CABAC is enabled.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -42,9 +47,9 @@ If the value is **VARIANT\_TRUE**, CABAC is enabled.
 [**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

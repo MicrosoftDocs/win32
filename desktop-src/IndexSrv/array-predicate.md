@@ -1,7 +1,12 @@
 ---
 title: ARRAY Predicate
 description: ARRAY Predicate
-ms.assetid: 'c1630f2e-8384-4e27-9bd9-233a6b6d83d9'
+ms.assetid: c1630f2e-8384-4e27-9bd9-233a6b6d83d9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARRAY Predicate

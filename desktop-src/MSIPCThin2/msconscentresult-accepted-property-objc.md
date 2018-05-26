@@ -1,20 +1,24 @@
 ---
 title: MSConsentResult accepted property
-description: Gets the state of the user's acceptance.
+description: Gets the state of the users acceptance.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '013A37E5-72E2-4D5F-97E6-FEC0D778C55F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 013A37E5-72E2-4D5F-97E6-FEC0D778C55F
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSConsentResult accepted property"]
+keywords:
+- MSConsentResult accepted property
 topic_type:
 - apiref
 api_name:
 - MSConsentResult accepted property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSConsentResult accepted property
@@ -37,7 +41,7 @@ Gets the state of the user's acceptance.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSConsent.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

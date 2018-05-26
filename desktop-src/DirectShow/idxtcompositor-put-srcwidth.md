@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_SrcWidth method specifies the width of the source rectangle.'
-ms.assetid: '3dbf8ddb-1da9-468f-9960-30e7b8c305e0'
-title: 'IDxtCompositor::put\_SrcWidth method'
+---
+Description: The put\_SrcWidth method specifies the width of the source rectangle.
+ms.assetid: 3dbf8ddb-1da9-468f-9960-30e7b8c305e0
+title: IDxtCompositorput\_SrcWidth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtCompositor::put\_SrcWidth method

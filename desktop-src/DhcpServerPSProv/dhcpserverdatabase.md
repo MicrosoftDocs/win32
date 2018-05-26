@@ -4,13 +4,15 @@ description: Dhcp Server Database Configuration.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '47e7d400-3f77-4ccd-a7e3-9280b57c39db'
-ms.prod: 'windows-server-dev'
+ms.assetid: 47e7d400-3f77-4ccd-a7e3-9280b57c39db
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerDatabase class", "DhcpServerDatabase class, described"]
+keywords:
+- DhcpServerDatabase class
+- DhcpServerDatabase class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerDatabase class
@@ -39,10 +44,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DhcpServerPSProvider"), AMENDMENT]
 class DhcpServerDatabase
 {
-  string  FileName;
-  string  BackupPath;
-  uint32  BackupInterval;
-  uint32  CleanupInterval;
+  string  FileName;
+  string  BackupPath;
+  uint32  BackupInterval;
+  uint32  CleanupInterval;
   boolean LoggingEnabled;
   boolean RestoreFromBackup;
 };
@@ -145,16 +150,16 @@ Database restore flag - Server will restore the database from the back-up databa
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

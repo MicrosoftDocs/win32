@@ -1,7 +1,12 @@
 ---
-Description: 'The GetMediaTypeVersion method retrieves a version number for the set of preferred media types.'
-ms.assetid: 'bd7b8070-eac5-458c-ada0-7fb0d789dd54'
-title: 'CBasePin.GetMediaTypeVersion method'
+Description: The GetMediaTypeVersion method retrieves a version number for the set of preferred media types.
+ms.assetid: bd7b8070-eac5-458c-ada0-7fb0d789dd54
+title: CBasePin.GetMediaTypeVersion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.GetMediaTypeVersion method
@@ -49,9 +54,9 @@ The media type enumerator, which is implemented by the [**CEnumMediaTypes**](cen
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

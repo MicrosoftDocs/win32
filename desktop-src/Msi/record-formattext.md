@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FormatText method of the Record object formats fields according to the template in field 0.'
-ms.assetid: '89a98b88-bb74-458c-a2df-727a8084145b'
-title: 'Record.FormatText method'
+---
+Description: The FormatText method of the Record object formats fields according to the template in field 0.
+ms.assetid: 89a98b88-bb74-458c-a2df-727a8084145b
+title: Record.FormatText method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Record.FormatText method
@@ -27,7 +32,7 @@ This method does not return a value.
 
 ## Remarks
 
-The **FormatText** method follows the functionality of the [**MsiFormatRecord**](msiformatrecord.md) function if **MsiFormatRecord** was passed a null installer handle as its first parameter. As a result, only the record field parameters are processed and properties are not available for substitution.
+The **FormatText** method follows the functionality of the [**MsiFormatRecord**](/windows/win32/Msiquery/nf-msiquery-msiformatrecorda?branch=master) function if **MsiFormatRecord** was passed a null installer handle as its first parameter. As a result, only the record field parameters are processed and properties are not available for substitution.
 
 For example, a string such as "format this field: \[1\], format this property: \[property\]" is resolved to "format this field: value from field 1, format this property: \[property\]."
 
@@ -53,7 +58,7 @@ Note in the case of [deferred execution custom actions](deferred-execution-custo
 
 <dl> <dt>
 
-[**MsiFormatRecord**](msiformatrecord.md)
+[**MsiFormatRecord**](/windows/win32/Msiquery/nf-msiquery-msiformatrecorda?branch=master)
 </dt> <dt>
 
 [Formatted](formatted.md)

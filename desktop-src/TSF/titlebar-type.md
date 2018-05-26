@@ -1,8 +1,9 @@
 ---
 title: TITLEBAR\_TYPE enumeration
 description: Elements of the TITLEBAR\_TYPE enumeration are used to specify types of titlebars that are available for a soft keyboard window.
-ms.assetid: '10d9b1c0-fd52-4f62-9268-cb8903a4c2db'
-keywords: ["TITLEBAR_TYPE enumeration Text Services Framework"]
+ms.assetid: 10d9b1c0-fd52-4f62-9268-cb8903a4c2db
+keywords:
+- TITLEBAR_TYPE enumeration Text Services Framework
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Softkbdc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TITLEBAR\_TYPE enumeration
@@ -22,10 +28,10 @@ Elements of the **TITLEBAR\_TYPE** enumeration are used to specify types of titl
 
 ```C++
 typedef enum tagTITLEBAR_TYPE { 
-  TITLEBAR_NONE                = 0,
-  TITLEBAR_GRIPPER_HORIZ_ONLY  = 1,
-  TITLEBAR_GRIPPER_VERTI_ONLY  = 2,
-  TITLEBAR_GRIPPER_BUTTON      = 3
+  TITLEBAR_NONE                = 0,
+  TITLEBAR_GRIPPER_HORIZ_ONLY  = 1,
+  TITLEBAR_GRIPPER_VERTI_ONLY  = 2,
+  TITLEBAR_GRIPPER_BUTTON      = 3
 } TITLEBAR_TYPE;
 ```
 
@@ -69,17 +75,17 @@ The soft keyboard window uses a gripper button only.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
 | Header<br/>                   | <dl> <dt>Softkbdc.h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Softkbd.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

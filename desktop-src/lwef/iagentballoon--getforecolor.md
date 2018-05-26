@@ -1,7 +1,12 @@
 ---
 title: IAgentBalloon GetForeColor
 description: IAgentBalloon GetForeColor
-ms.assetid: 'b06ad924-66b6-42a6-8c97-5bc4c46f6e2d'
+ms.assetid: b06ad924-66b6-42a6-8c97-5bc4c46f6e2d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentBalloon::GetForeColor

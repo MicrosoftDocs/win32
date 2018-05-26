@@ -4,11 +4,15 @@ description: This section covers advanced topics about column persistence.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b3468e63-dbeb-486a-adbb-95d0955b6427'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b3468e63-dbeb-486a-adbb-95d0955b6427
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["column persistence MMC , advanced topics"]
+keywords:
+- column persistence MMC , advanced topics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Column Persistence: Advanced Topics

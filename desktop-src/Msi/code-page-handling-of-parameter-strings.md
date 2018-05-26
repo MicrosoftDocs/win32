@@ -1,12 +1,17 @@
 ---
-Description: 'You can add localization information to an installation database by using a database table editor such as Orca that is provided with the Windows Installer SDK, or by calling the Database Functions from an application.'
-ms.assetid: 'cc1eb336-5dec-40cc-8aa5-564cd167855d'
+Description: You can add localization information to an installation database by using a database table editor such as Orca that is provided with the Windows Installer SDK, or by calling the Database Functions from an application.
+ms.assetid: cc1eb336-5dec-40cc-8aa5-564cd167855d
 title: Code Page Handling of Parameter Strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Code Page Handling of Parameter Strings
 
-You can add localization information to an installation database by using a database table editor such as Orca that is provided with the Windows Installer SDK, or by calling the [Database Functions](database-functions.md) from an application. Be careful to only pass string parameters that use the code page of the database that is being localized. If a string parameter contains characters that cannot be represented by the code page of the database, the Installer returns an error when calling [**MsiDatabaseImport**](msidatabaseimport.md). For a list of numeric code pages, see [Localizing the Error and ActionText Tables](localizing-the-error-and-actiontext-tables.md).
+You can add localization information to an installation database by using a database table editor such as Orca that is provided with the Windows Installer SDK, or by calling the [Database Functions](database-functions.md) from an application. Be careful to only pass string parameters that use the code page of the database that is being localized. If a string parameter contains characters that cannot be represented by the code page of the database, the Installer returns an error when calling [**MsiDatabaseImport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseimporta?branch=master). For a list of numeric code pages, see [Localizing the Error and ActionText Tables](localizing-the-error-and-actiontext-tables.md).
 
 For more information, see [Determining an Installation Database's Code Page](determining-an-installation-database-s-code-page.md).
 
@@ -23,7 +28,7 @@ The following procedure shows you how to store the localization data.
 1.  Set the code page of the database to the code page of the localized string.
 2.  Convert the ANSI string to Unicode by using the [**MultiByteToWideChar**](https://msdn.microsoft.com/library/windows/desktop/dd319072) function, and specify the code page of the localized data.
 3.  Call the Unicode version of the Windows Installer API by using the Unicode string to add the localized data.
-4.  Commit the localization changes to the database by using [**MsiDatabaseCommit**](msidatabasecommit.md).
+4.  Commit the localization changes to the database by using [**MsiDatabaseCommit**](/windows/win32/Msiquery/nf-msiquery-msidatabasecommit?branch=master).
 
 You can also add localization information to an installation database by importing and exporting ASCII text archive files. For more information, see [Code Page Handling of Imported and Exported Tables](code-page-handling-of-imported-and-exported-tables.md).
 

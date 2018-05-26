@@ -1,14 +1,18 @@
 ---
 title: Property Access
-description: A property's access indicates the kinds of operations that can be used to change the value of the property.
+description: A propertys access indicates the kinds of operations that can be used to change the value of the property.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd871768e-462e-4ca9-8498-459d7130e8dd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d871768e-462e-4ca9-8498-459d7130e8dd
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["properties Failover Cluster ,access"]
+keywords:
+- properties Failover Cluster ,access
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Property Access

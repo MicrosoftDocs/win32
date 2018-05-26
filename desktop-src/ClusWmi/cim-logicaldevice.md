@@ -4,13 +4,15 @@ description: An abstraction or emulation of a hardware entity, that may or may n
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '084c81cc-b442-40be-9993-7297ed4d8c40'
-ms.prod: 'windows-server-dev'
+ms.assetid: 084c81cc-b442-40be-9993-7297ed4d8c40
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_LogicalDevice class", "CIM_LogicalDevice class, described"]
+keywords:
+- CIM_LogicalDevice class
+- CIM_LogicalDevice class, described
 topic_type:
 - apiref
 api_name:
@@ -39,6 +41,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LogicalDevice class
@@ -55,26 +60,26 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{79995733-3548-4102-98F0-8A2D65CCE350}"), AMENDMENT]
 class CIM_LogicalDevice : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
+  string   Name;
+  string   Status;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
 };
 ```
 
@@ -99,7 +104,7 @@ The **CIM\_LogicalDevice** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -728,7 +733,7 @@ The total number of hours that this Device has been powered.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -742,9 +747,9 @@ The total number of hours that this Device has been powered.
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

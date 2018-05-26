@@ -1,7 +1,12 @@
 ---
-Description: 'TLS is a standard closely related to SSL 3.0, and is sometimes referred to as &\#0034;SSL 3.1&\#0034;.'
-ms.assetid: '92b1b486-7e10-48a2-b1d2-56d4e472dbe4'
-title: 'TLS vs. SSL'
+Description: TLS is a standard closely related to SSL 3.0, and is sometimes referred to as &\#0034;SSL 3.1&\#0034;.
+ms.assetid: 92b1b486-7e10-48a2-b1d2-56d4e472dbe4
+title: TLS vs. SSL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TLS vs. SSL

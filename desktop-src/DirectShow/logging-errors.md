@@ -1,7 +1,12 @@
 ---
 Description: Logging Errors
-ms.assetid: '690ea91b-5bc0-45f0-8354-ec625709f7bd'
+ms.assetid: 690ea91b-5bc0-45f0-8354-ec625709f7bd
 title: Logging Errors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Logging Errors

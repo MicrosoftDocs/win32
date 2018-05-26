@@ -1,7 +1,12 @@
 ---
 title: Application-Driven QOS Components
 description: Application-driven QOS components include RSVP service provider, traffic control modules, Resource ReSerVation Protocol, QOS API, and Traffic Control (TC) API.
-ms.assetid: 'a8522461-1995-4ac1-8d02-4d173defbea4'
+ms.assetid: a8522461-1995-4ac1-8d02-4d173defbea4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application-Driven QOS Components

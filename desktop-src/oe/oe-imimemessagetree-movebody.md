@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree MoveBody method
 description: Moves a body to a specified location within the message tree.
-ms.assetid: 'be190629-64ef-4b9e-8f06-565661f66810'
-keywords: ["MoveBody method Windows Mail (formerly Outlook Express)", "MoveBody method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , MoveBody method"]
+ms.assetid: be190629-64ef-4b9e-8f06-565661f66810
+keywords:
+- MoveBody method Windows Mail (formerly Outlook Express)
+- MoveBody method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , MoveBody method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::MoveBody method
@@ -22,8 +30,8 @@ Moves a body to a specified location within the message tree.
 
 ```C++
 HRESULT MoveBody(
-  [in] HBODY        hBody,
-  [in] BODYLOCATION location
+  [in] HBODY        hBody,
+  [in] BODYLOCATION location
 );
 ```
 
@@ -70,7 +78,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -78,8 +86,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -87,9 +95,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

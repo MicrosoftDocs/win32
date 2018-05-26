@@ -1,7 +1,12 @@
 ---
-Description: 'ICE62 performs extensive checks on the IsolatedComponent table for data that may cause unexpected behavior.'
-ms.assetid: '649d3989-8121-4303-aa3e-63bc6649f445'
+Description: ICE62 performs extensive checks on the IsolatedComponent table for data that may cause unexpected behavior.
+ms.assetid: 649d3989-8121-4303-aa3e-63bc6649f445
 title: ICE62
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE62

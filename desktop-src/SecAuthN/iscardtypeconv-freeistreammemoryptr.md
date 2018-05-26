@@ -1,7 +1,12 @@
-﻿---
-Description: 'Frees the byte pointer pointing to the HGLOBAL memory block managed by an IStream COM interface.'
-ms.assetid: 'a76c97a9-d0e9-4eb0-9f97-15f22111187d'
-title: 'ISCardTypeConv::FreeIStreamMemoryPtr method'
+---
+Description: Frees the byte pointer pointing to the HGLOBAL memory block managed by an IStream COM interface.
+ms.assetid: a76c97a9-d0e9-4eb0-9f97-15f22111187d
+title: ISCardTypeConvFreeIStreamMemoryPtr method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardTypeConv::FreeIStreamMemoryPtr method

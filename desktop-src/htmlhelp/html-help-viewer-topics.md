@@ -1,7 +1,12 @@
 ---
 title: HTML Help Viewer Topics
 description: The HTML Help Viewer topics contain basic information about how to use the viewer.
-ms.assetid: 'D1959C0F-7368-4987-B4B9-3AEE6F5588B5'
+ms.assetid: D1959C0F-7368-4987-B4B9-3AEE6F5588B5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Help Viewer Topics

@@ -1,8 +1,22 @@
 ---
 title: Ripping a CD
 description: Ripping a CD
-ms.assetid: 'f5c1b5bf-d616-48cb-8690-e0237c56e402'
-keywords: ["Windows Media Player,CD ripping", "Windows Media Player object model,CD ripping", "object model,CD ripping", "Windows Media Player ActiveX control,CD ripping", "ActiveX control,CD ripping", "Windows Media Player Mobile ActiveX control,CD ripping", "Windows Media Player Mobile,CD ripping", "CD ripping,about", "ripping CDs,about"]
+ms.assetid: f5c1b5bf-d616-48cb-8690-e0237c56e402
+keywords:
+- Windows Media Player,CD ripping
+- Windows Media Player object model,CD ripping
+- object model,CD ripping
+- Windows Media Player ActiveX control,CD ripping
+- ActiveX control,CD ripping
+- Windows Media Player Mobile ActiveX control,CD ripping
+- Windows Media Player Mobile,CD ripping
+- CD ripping,about
+- ripping CDs,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ripping a CD

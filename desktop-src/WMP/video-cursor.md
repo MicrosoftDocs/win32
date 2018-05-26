@@ -1,14 +1,20 @@
 ---
 title: VIDEO.cursor
 description: The cursor attribute specifies or retrieves the cursor value that is used when the mouse is over a clickable area of the video.
-ms.assetid: '2faaf9cd-47be-47d5-ad4e-8f3bb322d812'
-keywords: ["VIDEO.cursor Windows Media Player"]
+ms.assetid: 2faaf9cd-47be-47d5-ad4e-8f3bb322d812
+keywords:
+- VIDEO.cursor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEO.cursor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEO.cursor
@@ -40,7 +46,7 @@ This attribute is a read/write **String**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,9 +69,9 @@ For rendering purposes, system is the default cursor. The default value retrieve
 [**VIDEO Element**](video-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

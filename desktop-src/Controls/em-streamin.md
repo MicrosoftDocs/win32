@@ -1,8 +1,9 @@
 ---
 title: EM\_STREAMIN message
 description: Replaces the contents of a rich edit control with a stream of data provided by an application defined \ 8211;EditStreamCallback callback function.
-ms.assetid: 'b8d3a108-b415-4f5e-99e7-0e0e7a82a778'
-keywords: ["EM_STREAMIN message Windows Controls"]
+ms.assetid: b8d3a108-b415-4f5e-99e7-0e0e7a82a778
+keywords:
+- EM_STREAMIN message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_STREAMIN message
 
-Replaces the contents of a rich edit control with a stream of data provided by an application defined–[*EditStreamCallback*](editstreamcallback.md) callback function.
+Replaces the contents of a rich edit control with a stream of data provided by an application defined [*EditStreamCallback*](/windows/win32/Richedit/nc-richedit-editstreamcallback?branch=master) callback function.
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Specifies the data format and replacement options. This value must be one of the
 
 
 
- 
+ 
 
 In addition, you can specify the following flags.
 
@@ -45,18 +51,18 @@ In addition, you can specify the following flags.
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SFF_PLAINRTF"></span><span id="sff_plainrtf"></span><dl> <dt>**SFF\_PLAINRTF**</dt> </dl>    | If specified, only keywords common to all languages are streamed in. Language-specific RTF keywords in the stream are ignored. If not specified, all keywords are streamed in. You can combine this flag with the **SF\_RTF** flag.<br/> |
 | <span id="SFF_SELECTION"></span><span id="sff_selection"></span><dl> <dt>**SFF\_SELECTION**</dt> </dl> | If specified, the data stream replaces the contents of the current selection. If not specified, the data stream replaces the entire contents of the control. You can combine this flag with the **SF\_TEXT** or **SF\_RTF** flags.<br/>  |
-| <span id="SF_UNICODE"></span><span id="sf_unicode"></span><dl> <dt>**SF\_UNICODE**</dt> </dl>          | **Microsoft Rich Edit 2.0 and later:** Indicates Unicode text. You can combine this flag with the **SF\_TEXT** flag. <br/>                                                                                                               |
+| <span id="SF_UNICODE"></span><span id="sf_unicode"></span><dl> <dt>**SF\_UNICODE**</dt> </dl>          | **Microsoft Rich Edit 2.0 and later:** Indicates Unicode text. You can combine this flag with the **SF\_TEXT** flag. <br/>                                                                                                               |
 
 
 
- 
+ 
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**EDITSTREAM**](editstream.md) structure. On input, the **pfnCallback** member of this structure must point to an application defined–[*EditStreamCallback*](editstreamcallback.md) function. On output, the **dwError** member can contain a nonzero error code if an error occurred.
+Pointer to an [**EDITSTREAM**](/windows/win32/Richedit/ns-richedit-_editstream?branch=master) structure. On input, the **pfnCallback** member of this structure must point to an application defined [*EditStreamCallback*](/windows/win32/Richedit/nc-richedit-editstreamcallback?branch=master) function. On output, the **dwError** member can contain a nonzero error code if an error occurred.
 
 </dd> </dl>
 
@@ -66,7 +72,7 @@ This message returns the number of characters read.
 
 ## Remarks
 
-When you send an **EM\_STREAMIN** message, the rich edit control makes repeated calls to the [*EditStreamCallback*](editstreamcallback.md) function specified by the **pfnCallback** member of the [**EDITSTREAM**](editstream.md) structure. Each time the callback function is called, it fills a buffer with data to read into the control. This continues until the callback function indicates that the stream-in operation has been completed or an error occurs.
+When you send an **EM\_STREAMIN** message, the rich edit control makes repeated calls to the [*EditStreamCallback*](/windows/win32/Richedit/nc-richedit-editstreamcallback?branch=master) function specified by the **pfnCallback** member of the [**EDITSTREAM**](/windows/win32/Richedit/ns-richedit-_editstream?branch=master) structure. Each time the callback function is called, it fills a buffer with data to read into the control. This continues until the callback function indicates that the stream-in operation has been completed or an error occurs.
 
 ## Requirements
 
@@ -74,8 +80,8 @@ When you send an **EM\_STREAMIN** message, the rich edit control makes repeated 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -87,18 +93,18 @@ When you send an **EM\_STREAMIN** message, the rich edit control makes repeated 
 **Reference**
 </dt> <dt>
 
-[**EDITSTREAM**](editstream.md)
+[**EDITSTREAM**](/windows/win32/Richedit/ns-richedit-_editstream?branch=master)
 </dt> <dt>
 
-[*EditStreamCallback*](editstreamcallback.md)
+[*EditStreamCallback*](/windows/win32/Richedit/nc-richedit-editstreamcallback?branch=master)
 </dt> <dt>
 
 [**EM\_STREAMOUT**](em-streamout.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,16 @@
 title: RemoveByZone method of the PS\_DnsServerQueryResolutionPolicy class
 description: Removes the name resolution policy from a DNS server by zone.
 audience: developer
-ms.assetid: 'eb57a7a6-66b0-4e73-bf00-442074f2cae1'
-ms.prod: 'windows-server-dev'
+ms.assetid: eb57a7a6-66b0-4e73-bf00-442074f2cae1
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveByZone method", "RemoveByZone method, PS_DnsServerQueryResolutionPolicy class", "PS_DnsServerQueryResolutionPolicy class, RemoveByZone method"]
+keywords:
+- RemoveByZone method
+- RemoveByZone method, PS_DnsServerQueryResolutionPolicy class
+- PS_DnsServerQueryResolutionPolicy class, RemoveByZone method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveByZone method of the PS\_DnsServerQueryResolutionPolicy class
@@ -28,12 +34,12 @@ Removes the name resolution policy from a DNS server by zone.
 
 ```mof
 uint32 RemoveByZone(
-  [in]  boolean         Force,
-  [in]  string          ComputerName,
-  [in]  boolean         PassThru,
-  [in]  string          Name,
-  [in]  string          ZoneName,
-  [out] DnsServerPolicy cmdletOutput
+  [in]  boolean         Force,
+  [in]  string          ComputerName,
+  [in]  boolean         PassThru,
+  [in]  string          Name,
+  [in]  string          ZoneName,
+  [out] DnsServerPolicy cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ On return, contains a [**DnsServerPolicy**](dnsserverpolicy.md). This parameter 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ On return, contains a [**DnsServerPolicy**](dnsserverpolicy.md). This parameter 
 [**PS\_DnsServerQueryResolutionPolicy**](ps-dnsserverqueryresolutionpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

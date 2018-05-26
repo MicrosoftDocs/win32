@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a DirectX Video Acceleration (DXVA) decoder device.'
-ms.assetid: 'aeebf65f-1bde-4a33-87cd-25c62dcc0248'
-title: 'IDirect3DVideoDevice9::CreateDXVADevice method'
+---
+Description: Creates a DirectX Video Acceleration (DXVA) decoder device.
+ms.assetid: aeebf65f-1bde-4a33-87cd-25c62dcc0248
+title: IDirect3DVideoDevice9CreateDXVADevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirect3DVideoDevice9::CreateDXVADevice method
@@ -37,7 +42,7 @@ Pointer to a GUID that specifies the device to create.
 *pUncompData* 
 </dt> <dd>
 
-Pointer to a [**DXVAUncompDataInfo**](dxvauncompdatainfo.md) structure that specifies the format of the uncompressed image.
+Pointer to a [**DXVAUncompDataInfo**](/windows/win32/dxva9typ/ns-dxva9typ-_dxvauncompdatainfo?branch=master) structure that specifies the format of the uncompressed image.
 
 </dd> <dt>
 

@@ -1,8 +1,9 @@
 ---
 title: FreeIsolationInfo function
 description: Frees an IsolationInfo data structure.
-ms.assetid: '639cfa74-0823-4a19-9cbe-dd6f0a38e7eb'
-keywords: ["FreeIsolationInfo function NAP"]
+ms.assetid: 639cfa74-0823-4a19-9cbe-dd6f0a38e7eb
+keywords:
+- FreeIsolationInfo function NAP
 topic_type:
 - apiref
 api_name:
@@ -11,23 +12,28 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreeIsolationInfo function
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
-The **FreeIsolationInfo** function frees an [**IsolationInfo**](isolationinfo-struct.md) data structure.
+The **FreeIsolationInfo** function frees an [**IsolationInfo**](/windows/win32/NapTypes/ns-naptypes-tagisolationinfo?branch=master) data structure.
 
 ## Syntax
 
 
 ```C++
 NAPAPI VOID WINAPI FreeIsolationInfo(
-  _In_ IsolationInfo *isolationInfo
+  _In_ IsolationInfo *isolationInfo
 );
 ```
 
@@ -40,7 +46,7 @@ NAPAPI VOID WINAPI FreeIsolationInfo(
 *isolationInfo* \[in\]
 </dt> <dd>
 
-A pointer to the [**IsolationInfo**](isolationinfo-struct.md) data structure to free.
+A pointer to the [**IsolationInfo**](/windows/win32/NapTypes/ns-naptypes-tagisolationinfo?branch=master) data structure to free.
 
 </dd> </dl>
 
@@ -60,16 +66,16 @@ All NAP functions for freeing memory also free all embedded pointers.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>NapUtil.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

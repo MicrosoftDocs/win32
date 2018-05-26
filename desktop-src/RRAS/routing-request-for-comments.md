@@ -1,8 +1,15 @@
 ---
 title: Routing Request for Comments
 description: Requests for Comments (RFCs) are an ongoing series of documents that discuss the Internet and Internet-related technologies.
-ms.assetid: '08d020f6-87b2-487e-8232-84d080c1037b'
-keywords: ["RFCs, Routing", "Request for Comments, Routing"]
+ms.assetid: 08d020f6-87b2-487e-8232-84d080c1037b
+keywords:
+- RFCs, Routing
+- Request for Comments, Routing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing Request for Comments

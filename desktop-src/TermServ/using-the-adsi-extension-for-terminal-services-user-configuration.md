@@ -4,11 +4,15 @@ description: Administration of Remote Desktop Services-specific user properties 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f6355730-9686-4446-b118-630562548fc9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f6355730-9686-4446-b118-630562548fc9
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , using the ADSI extension"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , using the ADSI extension
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the ADSI Extension for Remote Desktop Services User Configuration

@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_FUNCTIONAL\_CATEGORY\_NETWORK\_CONFIGURATION'
-ms.assetid: 'c5c93ebf-0072-49c2-a109-a2edb7e1bd8d'
-title: 'WPD\_FUNCTIONAL\_CATEGORY\_NETWORK\_CONFIGURATION'
+Description: WPD\_FUNCTIONAL\_CATEGORY\_NETWORK\_CONFIGURATION
+ms.assetid: c5c93ebf-0072-49c2-a109-a2edb7e1bd8d
+title: WPD\_FUNCTIONAL\_CATEGORY\_NETWORK\_CONFIGURATION
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_FUNCTIONAL\_CATEGORY\_NETWORK\_CONFIGURATION

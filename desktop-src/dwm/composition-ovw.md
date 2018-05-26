@@ -2,7 +2,25 @@
 title: Enable and Control DWM Composition
 description: The Desktop Window Manager (DWM) composition APIs provides several functions for setting and querying for basic information that is used by the DWM.
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\overviews\dwm_composition_ovw.htm
-keywords: ["Desktop Window Manager (DWM),composition", "DWM (Desktop Window Manager),composition", "composition", "desktop composition", "colorization", "non-client region rendering", "Desktop Window Manager (DWM),colorization", "DWM (Desktop Window Manager),colorization", "Desktop Window Manager (DWM),non-client region rendering", "DWM (Desktop Window Manager),non-client region rendering", "Desktop Window Manager (DWM),messaging", "DWM (Desktop Window Manager),messaging", "messaging"]
+keywords:
+- Desktop Window Manager (DWM),composition
+- DWM (Desktop Window Manager),composition
+- composition
+- desktop composition
+- colorization
+- non-client region rendering
+- Desktop Window Manager (DWM),colorization
+- DWM (Desktop Window Manager),colorization
+- Desktop Window Manager (DWM),non-client region rendering
+- DWM (Desktop Window Manager),non-client region rendering
+- Desktop Window Manager (DWM),messaging
+- DWM (Desktop Window Manager),messaging
+- messaging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enable and Control DWM Composition
@@ -23,9 +41,9 @@ This topic contains the following sections:
 
  
 
-Because DWM uses the graphics processing unit (GPU) for desktop composition, certain applications might have to disable DWM for compatibility. Applications that take full control of the desktop, such as games that run in full-screen mode, must determine whether the DWM is enabled and if it is, disable it. To do this, two functions are needed: [**DwmIsCompositionEnabled**](dwmiscompositionenabled.md) and [**DwmEnableComposition**](dwmenablecomposition.md).
+Because DWM uses the graphics processing unit (GPU) for desktop composition, certain applications might have to disable DWM for compatibility. Applications that take full control of the desktop, such as games that run in full-screen mode, must determine whether the DWM is enabled and if it is, disable it. To do this, two functions are needed: [**DwmIsCompositionEnabled**](/windows/win32/Dwmapi/nf-dwmapi-dwmiscompositionenabled?branch=master) and [**DwmEnableComposition**](/windows/win32/Dwmapi/nf-dwmapi-dwmenablecomposition?branch=master).
 
-A call to [**DwmEnableComposition**](dwmenablecomposition.md) with *fEnable* set to **DWM\_EC\_DISABLECOMPOSITION** disables DWM composition until either the calling process has shut down or composition has been re-enabled by calling **DwmEnableComposition**, with *fEnable* set to **DWM\_EC\_ENABLECOMPOSITION**. DWM composition restarts automatically as soon as all applications that have disabled composition have shut down or manually re-enabled composition by calling **DwmEnableComposition**.
+A call to [**DwmEnableComposition**](/windows/win32/Dwmapi/nf-dwmapi-dwmenablecomposition?branch=master) with *fEnable* set to **DWM\_EC\_DISABLECOMPOSITION** disables DWM composition until either the calling process has shut down or composition has been re-enabled by calling **DwmEnableComposition**, with *fEnable* set to **DWM\_EC\_ENABLECOMPOSITION**. DWM composition restarts automatically as soon as all applications that have disabled composition have shut down or manually re-enabled composition by calling **DwmEnableComposition**.
 
 > [!Note]  
 > The DWM will automatically disable composition when an application attempts to draw directly to the primary display surface. Composition will be disabled until the primary device surface is released by that application.
@@ -36,7 +54,7 @@ A call to [**DwmEnableComposition**](dwmenablecomposition.md) with *fEnable* set
 
 The color of the non-client region of windows is handled by the current system color theme. The colorization value is provided through the DWM APIs to enable applications to match client UI with the system color theme.
 
-To access this colorization value and monitor the color change, use the [**DwmGetColorizationColor**](dwmgetcolorizationcolor.md) function and the [**WM\_DWMCOLORIZATIONCOLORCHANGED**](wm-dwmcolorizationcolorchanged.md) message.
+To access this colorization value and monitor the color change, use the [**DwmGetColorizationColor**](/windows/win32/Dwmapi/nf-dwmapi-dwmgetcolorizationcolor?branch=master) function and the [**WM\_DWMCOLORIZATIONCOLORCHANGED**](wm-dwmcolorizationcolorchanged.md) message.
 
 The following example demonstrates how to monitor the color change and access the new color.
 
@@ -58,10 +76,10 @@ break;
 
 Two of the visual effects DWM enables are transparency of the non-client region of a window and transition effects. Some applications might have to disable or re-enable these effects for styling or compatibility reasons. The following functions are used to manage transparency and transition effect behavior:
 
--   [**DwmGetWindowAttribute**](dwmgetwindowattribute.md)
--   [**DwmSetWindowAttribute**](dwmsetwindowattribute.md)
+-   [**DwmGetWindowAttribute**](/windows/win32/Dwmapi/nf-dwmapi-dwmgetwindowattribute?branch=master)
+-   [**DwmSetWindowAttribute**](/windows/win32/Dwmapi/nf-dwmapi-dwmsetwindowattribute?branch=master)
 
-To retrieve the current non-client rendering state for an application's window, use [**DwmGetWindowAttribute**](dwmgetwindowattribute.md) with the **DWMWA\_NCRENDERING\_ENABLED** attribute. The following example shows a typical **DwmGetWindowAttribute** call.
+To retrieve the current non-client rendering state for an application's window, use [**DwmGetWindowAttribute**](/windows/win32/Dwmapi/nf-dwmapi-dwmgetwindowattribute?branch=master) with the **DWMWA\_NCRENDERING\_ENABLED** attribute. The following example shows a typical **DwmGetWindowAttribute** call.
 
 ``` syntax
 BOOL enabled = FALSE;
@@ -69,11 +87,11 @@ HRESULT hr = DwmGetWindowAttribute(hwnd, DWMWA_NCRENDERING_ENABLED, &enabled, si
 ```
 
 > [!Note]  
-> Each [**DWMWINDOWATTRIBUTE**](dwmwindowattribute.md) has an implied type associated with it. Refer to each enumeration member for detailed information.
+> Each [**DWMWINDOWATTRIBUTE**](/windows/win32/Dwmapi/ne-dwmapi-dwmwindowattribute?branch=master) has an implied type associated with it. Refer to each enumeration member for detailed information.
 
  
 
-[**DwmSetWindowAttribute**](dwmsetwindowattribute.md) enables applications to set the non-client area rendering policy. It also determines how the application should handle DWM transition effects.
+[**DwmSetWindowAttribute**](/windows/win32/Dwmapi/nf-dwmapi-dwmsetwindowattribute?branch=master) enables applications to set the non-client area rendering policy. It also determines how the application should handle DWM transition effects.
 
 The following example disables non-client area rendering.
 
@@ -98,7 +116,7 @@ HRESULT DisableNCRendering(HWND hwnd)
 
 
 
-In addition to controlling the non-client area rendering, [**DwmSetWindowAttribute**](dwmsetwindowattribute.md) can also control DWM transition effects. Transition behavior can be set by using **DWMWA\_TRANSITIONS\_FORCEDISABLED** as the *dwAttribute* parameter.
+In addition to controlling the non-client area rendering, [**DwmSetWindowAttribute**](/windows/win32/Dwmapi/nf-dwmapi-dwmsetwindowattribute?branch=master) can also control DWM transition effects. Transition behavior can be set by using **DWMWA\_TRANSITIONS\_FORCEDISABLED** as the *dwAttribute* parameter.
 
 ## Messaging
 

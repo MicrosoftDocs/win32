@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_PhysicalLink class represents the cabling of physical elements.'
+Description: The CIM\_PhysicalLink class represents the cabling of physical elements.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0d96cb7f-ca50-4eb2-b8d4-e749bbe67ad7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0d96cb7f-ca50-4eb2-b8d4-e749bbe67ad7
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_PhysicalLink class'
+title: CIM\_PhysicalLink class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PhysicalLink class
@@ -19,7 +22,7 @@ The **CIM\_PhysicalLink** class represents the cabling of physical elements. For
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,25 +32,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{FAF76B82-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_PhysicalLink : CIM_PhysicalElement
 {
-  string   Caption;
-  string   CreationClassName;
-  string   Description;
+  string   Caption;
+  string   CreationClassName;
+  string   Description;
   datetime InstallDate;
-  real64   Length;
-  string   Manufacturer;
-  real64   MaxLength;
-  uint16   MediaType;
-  string   Model;
-  string   Name;
-  string   OtherIdentifyingInfo;
-  string   PartNumber;
-  boolean  PoweredOn;
-  string   SerialNumber;
-  string   SKU;
-  string   Status;
-  string   Tag;
-  string   Version;
-  boolean  Wired;
+  real64   Length;
+  string   Manufacturer;
+  real64   MaxLength;
+  uint16   MediaType;
+  string   Model;
+  string   Name;
+  string   OtherIdentifyingInfo;
+  string   PartNumber;
+  boolean  PoweredOn;
+  string   SerialNumber;
+  string   SKU;
+  string   Status;
+  string   Tag;
+  string   Version;
+  boolean  Wired;
 };
 ```
 
@@ -613,8 +616,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -628,9 +631,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_PhysicalElement**](cim-physicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

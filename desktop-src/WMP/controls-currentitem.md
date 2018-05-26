@@ -1,8 +1,9 @@
 ---
 title: Controls.currentItem
 description: The currentItem property specifies or retrieves the current media item.
-ms.assetid: '77e21585-3cc8-41f5-97b5-da6eb992c7bc'
-keywords: ["Controls.currentItem Windows Media Player"]
+ms.assetid: 77e21585-3cc8-41f5-97b5-da6eb992c7bc
+keywords:
+- Controls.currentItem Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.currentItem
@@ -76,9 +82,9 @@ The following JScript example uses **currentItem** to set the player control cur
 [**PlaylistCollection.getByName**](playlistcollection-getbyname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

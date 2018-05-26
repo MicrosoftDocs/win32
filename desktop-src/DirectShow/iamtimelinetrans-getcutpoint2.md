@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetCutPoint2 method retrieves the cut point. This method is equivalent to IAMTimelineTrans::GetCutPoint, but takes a REFTIME value.'
-ms.assetid: 'bf2b7cac-6740-44d8-a889-8c745a23db19'
-title: 'IAMTimelineTrans::GetCutPoint2 method'
+---
+Description: The GetCutPoint2 method retrieves the cut point. This method is equivalent to IAMTimelineTransGetCutPoint, but takes a REFTIME value.
+ms.assetid: bf2b7cac-6740-44d8-a889-8c745a23db19
+title: IAMTimelineTransGetCutPoint2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTrans::GetCutPoint2 method

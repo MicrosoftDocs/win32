@@ -1,8 +1,9 @@
 ---
 title: RB\_DRAGMOVE message
 description: Updates the drag position in the rebar control after a previous RB\_BEGINDRAG message.
-ms.assetid: '0d2ce7fe-4172-45d9-932b-50f3e4cf2d8e'
-keywords: ["RB_DRAGMOVE message Windows Controls"]
+ms.assetid: 0d2ce7fe-4172-45d9-932b-50f3e4cf2d8e
+keywords:
+- RB_DRAGMOVE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_DRAGMOVE message
@@ -45,8 +51,8 @@ The return value for this message is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -61,9 +67,9 @@ The return value for this message is not used.
 [**RB\_ENDDRAG**](rb-enddrag.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

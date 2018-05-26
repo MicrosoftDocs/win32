@@ -1,8 +1,14 @@
 ---
 title: ARIA Range Control Attributes Missing
 description: ARIA Range Control Attributes Missing
-ms.assetid: 'B79F6277-5339-406A-B5FC-A3657BFC5034'
-keywords: ["AriaRangeControlAttributesAbsentId"]
+ms.assetid: B79F6277-5339-406A-B5FC-A3657BFC5034
+keywords:
+- AriaRangeControlAttributesAbsentId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARIA Range Control Attributes Missing

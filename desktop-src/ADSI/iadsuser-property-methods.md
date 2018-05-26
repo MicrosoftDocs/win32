@@ -4,11 +4,12 @@ description: The property methods of the IADsUser interface get or set the prope
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '02d0e5f1-8bc9-4ef6-962d-432654ca8433'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 02d0e5f1-8bc9-4ef6-962d-432654ca8433
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsUser Property Methods ADSI"]
+keywords:
+- IADsUser Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -152,11 +153,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsUser Property Methods
 
-The property methods of the [**IADsUser**](iadsuser.md) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsUser**](/windows/win32/Iads/nn-iads-iadsuser?branch=master) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -1460,13 +1464,13 @@ HRESULT put_Title(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
-The WinNT provider supplied by Microsoft does not support all the [**IADsUser**](iadsuser.md) property methods as presented above. However, the provider supports other properties that can be accessed using the [**IADs::Get**](iads-get.md) or [**IADs::Put**](iads-put.md) method. For more information and a list of unsupported properties and code examples, see [WinNT User Object](winnt-user-object.md) in [ADSI WinNT Provider](adsi-winnt-provider.md).
+The WinNT provider supplied by Microsoft does not support all the [**IADsUser**](/windows/win32/Iads/nn-iads-iadsuser?branch=master) property methods as presented above. However, the provider supports other properties that can be accessed using the [**IADs::Get**](/windows/win32/Iads/nf-iads-iads-get?branch=master) or [**IADs::Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master) method. For more information and a list of unsupported properties and code examples, see [WinNT User Object](winnt-user-object.md) in [ADSI WinNT Provider](adsi-winnt-provider.md).
 
-For more information about ADSI LDAP provider specific features of the user class object, see [LDAP User Object](ldap-user-object.md) in [ADSI LDAP Provider](adsi-ldap-provider.md). The topic includes [**IADsUser**](iadsuser.md), as well as code examples for managing a user account.
+For more information about ADSI LDAP provider specific features of the user class object, see [LDAP User Object](ldap-user-object.md) in [ADSI LDAP Provider](adsi-ldap-provider.md). The topic includes [**IADsUser**](/windows/win32/Iads/nn-iads-iadsuser?branch=master), as well as code examples for managing a user account.
 
 ## Examples
 
@@ -1516,8 +1520,8 @@ IADsUser *GetUserObject(LPWSTR uPath)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsUser is defined as 3E37E320-17E2-11CF-ABC4-02608C9E7553<br/>             |
@@ -1528,16 +1532,16 @@ IADsUser *GetUserObject(LPWSTR uPath)
 
 <dl> <dt>
 
-[**IADsUser**](iadsuser.md)
+[**IADsUser**](/windows/win32/Iads/nn-iads-iadsuser?branch=master)
 </dt> <dt>
 
 [Interface Property Methods](interface-property-methods.md)
 </dt> <dt>
 
-[**IADs::Get**](iads-get.md)
+[**IADs::Get**](/windows/win32/Iads/nf-iads-iads-get?branch=master)
 </dt> <dt>
 
-[**IADs::Put**](iads-put.md)
+[**IADs::Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master)
 </dt> <dt>
 
 [WinNT User Object](winnt-user-object.md)
@@ -1552,9 +1556,9 @@ IADsUser *GetUserObject(LPWSTR uPath)
 [ADSI LDAP Provider](adsi-ldap-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

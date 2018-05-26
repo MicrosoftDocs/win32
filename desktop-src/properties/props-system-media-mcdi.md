@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a653c29b-6c6c-4e26-9f7d-94a2dbb48113'
-title: 'System.Media.MCDI'
+Description: .
+ms.assetid: a653c29b-6c6c-4e26-9f7d-94a2dbb48113
+title: System.Media.MCDI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.MCDI

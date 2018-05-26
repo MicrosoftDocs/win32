@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Status property is a number that indicates the current status of fax job in the job queue.'
-ms.assetid: '4f9eb2dc-a2be-4d40-9f57-26a9bda61826'
-title: 'FaxJobStatus.Status property'
+---
+Description: The Status property is a number that indicates the current status of fax job in the job queue.
+ms.assetid: 4f9eb2dc-a2be-4d40-9f57-26a9bda61826
+title: FaxJobStatus.Status property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobStatus.Status property
@@ -21,7 +26,7 @@ Property Status As Integer
 
 ## Property value
 
-A variable of type [**FAX\_JOB\_STATUS\_ENUM**](-mfax-fax-job-status-enum.md) that receives the current status of a fax job in the job queue. For more information, see **FAX\_JOB\_STATUS\_ENUM**.
+A variable of type [**FAX\_JOB\_STATUS\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_job_status_enum?branch=master) that receives the current status of a fax job in the job queue. For more information, see **FAX\_JOB\_STATUS\_ENUM**.
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A variable of type [**FAX\_JOB\_STATUS\_ENUM**](-mfax-fax-job-status-enum.md) th
 [**FaxJobStatus**](-mfax-faxjobstatus.md)
 </dt> <dt>
 
-[**IFaxJobStatus**](-mfax-faxjobstatus-cpp.md)
+[**IFaxJobStatus**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxjobstatus?branch=master)
 </dt> </dl>
 
  

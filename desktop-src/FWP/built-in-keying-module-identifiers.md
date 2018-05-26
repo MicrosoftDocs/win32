@@ -1,7 +1,7 @@
 ---
 title: Built-in Keying Module Identifiers
 description: The identifiers for the keying modules that are built in to the Windows Filtering Platform (WFP) are each represented by a GUID.
-ms.assetid: 'ba3aaf0f-5524-4d61-bb74-e4714b11b2a9'
+ms.assetid: ba3aaf0f-5524-4d61-bb74-e4714b11b2a9
 topic_type:
 - apiref
 api_name:
@@ -12,6 +12,11 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Built-in Keying Module Identifiers
@@ -40,9 +45,9 @@ Internet Key Exchange (IKE) keying module.
 Internet Key Exchange version 2 (IKEv2) keying module.
 
 > [!Note]  
-> Available only on Windows Server 2008 R2 and Windows 7.
+> Available only on Windows Server 2008 R2 and Windows 7.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -63,15 +68,15 @@ AuthIP keying module.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

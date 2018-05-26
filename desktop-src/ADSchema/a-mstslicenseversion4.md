@@ -4,17 +4,22 @@ description: Version of the fourth terminal server per user CAL.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'eb10a6b1-6a36-4619-8dd2-e5c6b794b3ff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: eb10a6b1-6a36-4619-8dd2-e5c6b794b3ff
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-TS-LicenseVersion4 attribute AD Schema", "msTSLicenseVersion4 attribute AD Schema"]
+keywords:
+- MS-TS-LicenseVersion4 attribute AD Schema
+- msTSLicenseVersion4 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-TS-LicenseVersion4
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-TS-LicenseVersion4 attribute

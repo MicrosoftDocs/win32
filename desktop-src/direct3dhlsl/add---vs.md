@@ -1,7 +1,12 @@
 ---
 title: add - vs
 description: Adds two vectors.
-ms.assetid: 'f66d3264-68be-4a4f-84fc-cc0f6c4245c9'
+ms.assetid: f66d3264-68be-4a4f-84fc-cc0f6c4245c9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # add - vs

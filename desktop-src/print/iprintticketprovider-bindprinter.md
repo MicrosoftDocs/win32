@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintTicketProvider::BindPrinter method binds a printer or print queue to a specific version of the print ticket schema, which enables the core driver to associate a set of private namespace uniform resource identifiers (URIs) with a device.'
-ms.assetid: '6176b80c-0e99-4c37-94fc-25ed1d55b66c'
-title: 'IPrintTicketProvider::BindPrinter method'
+---
+Description: The IPrintTicketProviderBindPrinter method binds a printer or print queue to a specific version of the print ticket schema, which enables the core driver to associate a set of private namespace uniform resource identifiers (URIs) with a device.
+ms.assetid: 6176b80c-0e99-4c37-94fc-25ed1d55b66c
+title: IPrintTicketProviderBindPrinter method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintTicketProvider::BindPrinter method

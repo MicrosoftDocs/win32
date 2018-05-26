@@ -1,16 +1,21 @@
 ---
-Description: 'The CPullPin class provides support for input pins that pull data through the IAsyncReader interface.'
-ms.assetid: '33a6c342-3896-41f8-b32d-01db3eed003e'
+Description: The CPullPin class provides support for input pins that pull data through the IAsyncReader interface.
+ms.assetid: 33a6c342-3896-41f8-b32d-01db3eed003e
 title: CPullPin class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPullPin class
 
 ![cpullpin class hierarchy](images/pulpin01.png)
 
-The `CPullPin` class provides support for input pins that pull data through the [**IAsyncReader**](iasyncreader.md) interface. Use this class if you are implementing a filter that uses the pull model to request data from the upstream filter. For more information, see Data Flow in the Filter Graph and Pull Model.
+The `CPullPin` class provides support for input pins that pull data through the [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) interface. Use this class if you are implementing a filter that uses the pull model to request data from the upstream filter. For more information, see Data Flow in the Filter Graph and Pull Model.
 
-This class does not derive from **CBasePin** or implement the [**IPin**](ipin.md) interface, and some of the method names clash with **IPin**, so it is best used as a helper object inside your pin. To use this class, do the following:
+This class does not derive from **CBasePin** or implement the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface, and some of the method names clash with **IPin**, so it is best used as a helper object inside your pin. To use this class, do the following:
 
 1.  Derive a helper class from `CPullPin`, and derive an input pin class from **CBasePin**. Declare an instance of the `CPullPin` object as a member variable of the pin class.
 2.  Override the [**CBasePin::CheckConnect**](cbasepin-checkconnect.md) method to call [**CPullPin::Connect**](cpullpin-connect.md). This method queries the other pin for **IAsyncReader**.
@@ -37,7 +42,7 @@ This class does not derive from **CBasePin** or implement the [**IPin**](ipin.md
 | [**DecideAllocator**](cpullpin-decideallocator.md) | Negotiates an allocator with the output pin. Virtual.                                 |
 | [**Disconnect**](cpullpin-disconnect.md)           | Beaks the connection with the output pin.                                             |
 | [**Duration**](cpullpin-duration.md)               | Retrieves the duration of the stream.                                                 |
-| [**GetReader**](cpullpin-getreader.md)             | Returns a pointer to the output pin's [**IAsyncReader**](iasyncreader.md) interface. |
+| [**GetReader**](cpullpin-getreader.md)             | Returns a pointer to the output pin's [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) interface. |
 | [**Inactive**](cpullpin-inactive.md)               | Shuts down the worker thread that pulls data from the output pin.                     |
 | [**Seek**](cpullpin-seek.md)                       | Sets the start and stop positions of the stream.                                      |
 | Pure Virtual Methods                                | Description                                                                           |
@@ -49,7 +54,7 @@ This class does not derive from **CBasePin** or implement the [**IPin**](ipin.md
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,9 +67,9 @@ This class does not derive from **CBasePin** or implement the [**IPin**](ipin.md
 
 
 
- 
+ 
 
- 
+ 
 
 
 

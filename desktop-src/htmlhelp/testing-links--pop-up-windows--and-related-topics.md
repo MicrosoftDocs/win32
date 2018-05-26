@@ -1,7 +1,12 @@
 ---
 title: Testing Links, Pop-up Windows, and Related Topics
 description: When testing a help file, you should also ensure that all hyperlinks, pop-up windows, and Related Topics links are working correctly.
-ms.assetid: '42D3A02E-8095-4441-B5D4-2D6BE428ACDC'
+ms.assetid: 42D3A02E-8095-4441-B5D4-2D6BE428ACDC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing Links, Pop-up Windows, and Related Topics

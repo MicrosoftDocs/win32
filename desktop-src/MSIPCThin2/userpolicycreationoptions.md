@@ -4,11 +4,12 @@ description: Used to set flags when creating UserPolicy objects.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'Microsoft.RightsManagement.UserPolicyCreationOptions'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: Microsoft.RightsManagement.UserPolicyCreationOptions
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserPolicyCreationOptions enumeration"]
+keywords:
+- UserPolicyCreationOptions enumeration
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicyCreationOptions enumeration
@@ -60,9 +64,9 @@ The **UserPolicyCreationOptions** enumeration has these members.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Tree View Messages
 description: .
-ms.assetid: 'd4da7b94-98c3-443f-94c9-480448768e6e'
+ms.assetid: d4da7b94-98c3-443f-94c9-480448768e6e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tree View Messages

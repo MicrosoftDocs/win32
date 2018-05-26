@@ -1,32 +1,37 @@
 ---
 title: Alternatives to Dynamic Annotation
 description: Alternatives to Dynamic Annotation
-ms.assetid: 'd8019c65-620b-4aa2-a631-cc32f34e5510'
+ms.assetid: d8019c65-620b-4aa2-a631-cc32f34e5510
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Alternatives to Dynamic Annotation
 
-There are other ways to provide customized [**IAccessible**](iaccessible.md) support for UI elements, and in some cases, they are the correct solution. Prior to Dynamic Annotation, these alternative techniques were the only options available to developers. They include implementing all of the **IAccessible** interface and programmatic techniques.
+There are other ways to provide customized [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) support for UI elements, and in some cases, they are the correct solution. Prior to Dynamic Annotation, these alternative techniques were the only options available to developers. They include implementing all of the **IAccessible** interface and programmatic techniques.
 
 ## Implementing All of the IAccessible Interface
 
-One alternative technique is to implement all of the [**IAccessible**](iaccessible.md) interface. This approach is often necessary for custom controls or radically different UI elements; however, the development and test costs are significant enough that it should be avoided unless truly necessary. If the goal is to modify a single property, the cost is difficult to justify.
+One alternative technique is to implement all of the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface. This approach is often necessary for custom controls or radically different UI elements; however, the development and test costs are significant enough that it should be avoided unless truly necessary. If the goal is to modify a single property, the cost is difficult to justify.
 
 ## Programmatic Techniques
 
 Another option is to use subclassing and wrapping techniques to modify the information being exposed for a specific property. This is the technique that Dynamic Annotation is intended to replace. To override a single property by using subclassing and wrapping, the developer must perform the following steps:
 
-1.  Subclass the HWND of the [**IAccessible**](iaccessible.md) object.
+1.  Subclass the HWND of the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) object.
 2.  Intercept the [**WM\_GETOBJECT**](wm-getobject.md) message for the correct IParam/OBJID value.
-3.  Forward the [**WM\_GETOBJECT**](wm-getobject.md) message to the base class using the [*CallWndProc*](https://msdn.microsoft.com/library/windows/desktop/ms644975) function. If zero is returned, call [**CreateStdAccessibleObject**](createstdaccessibleobject.md); otherwise, call [**LresultFromObject**](lresultfromobject.md) on the returned value to obtain the control's native [**IAccessible**](iaccessible.md) interface pointer.
-4.  Create a wrapper class, which implements [**IAccessible**](iaccessible.md) and wraps the **IAccessible** interface pointer returned from the previous step. This wrapper class sends all methods and properties to the original **IAccessible** interface pointer, except those that are to be overridden. This involves writing forwarding code for all of the **IAccessible** interface's 21 properties and methods, regardless of how many are actually overridden.
+3.  Forward the [**WM\_GETOBJECT**](wm-getobject.md) message to the base class using the [*CallWndProc*](https://msdn.microsoft.com/library/windows/desktop/ms644975) function. If zero is returned, call [**CreateStdAccessibleObject**](/windows/win32/Oleacc/nf-oleacc-createstdaccessibleobject?branch=master); otherwise, call [**LresultFromObject**](/windows/win32/Oleacc/nf-oleacc-lresultfromobject?branch=master) on the returned value to obtain the control's native [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface pointer.
+4.  Create a wrapper class, which implements [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) and wraps the **IAccessible** interface pointer returned from the previous step. This wrapper class sends all methods and properties to the original **IAccessible** interface pointer, except those that are to be overridden. This involves writing forwarding code for all of the **IAccessible** interface's 21 properties and methods, regardless of how many are actually overridden.
 
 Also, developers must verify the following conditions:
 
--   The overridden method or property must only handle the required child IDs, and forward all others to the original [**IAccessible**](iaccessible.md) interface pointer.
+-   The overridden method or property must only handle the required child IDs, and forward all others to the original [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface pointer.
 -   Wrapping must also forward [**IEnumVARIANT**](https://msdn.microsoft.com/library/windows/desktop/ms221053) and [**IOleWindow**](https://msdn.microsoft.com/library/windows/desktop/ms680102) interfaces only if the original object supports them.
 -   Reference counting must be handled correctly, especially if other interfaces are supported.
--   [**IDispatch**](idispatch-interface.md) return values must be handled correctly, especially with the [**ITypeInfo::Invoke**](https://msdn.microsoft.com/library/windows/desktop/ms221652) method, which must be called with an interface pointer to the wrapper interface, not a pointer to the original [**IAccessible**](iaccessible.md) interface.
+-   [**IDispatch**](idispatch-interface.md) return values must be handled correctly, especially with the [**ITypeInfo::Invoke**](https://msdn.microsoft.com/library/windows/desktop/ms221652) method, which must be called with an interface pointer to the wrapper interface, not a pointer to the original [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface.
 
 These techniques require a considerable amount of work, even if only one or two properties need to be overridden. The majority of the resulting code is concerned with subclassing and wrapping, and only a small fraction is actually providing the overridden information.
 

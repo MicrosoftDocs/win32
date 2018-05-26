@@ -1,7 +1,12 @@
 ---
 title: Making Topic or Web Page Connections
 description: Making Topic or Web Page Connections
-ms.assetid: '69C45C5C-5DF4-4be6-8D32-BA4C7D6FEF95'
+ms.assetid: 69C45C5C-5DF4-4be6-8D32-BA4C7D6FEF95
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Making Topic or Web Page Connections

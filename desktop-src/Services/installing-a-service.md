@@ -1,12 +1,17 @@
 ---
-Description: 'A service configuration program uses the CreateService function to install a service in the SCM database.'
-ms.assetid: 'b94bf94e-1b07-4686-be5c-306e7cf13f39'
+Description: A service configuration program uses the CreateService function to install a service in the SCM database.
+ms.assetid: b94bf94e-1b07-4686-be5c-306e7cf13f39
 title: Installing a Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing a Service
 
-A [service configuration program](service-configuration-programs.md) uses the [**CreateService**](createservice.md) function to install a service in the SCM database.
+A [service configuration program](service-configuration-programs.md) uses the [**CreateService**](/windows/win32/Winsvc/nf-winsvc-createservicea?branch=master) function to install a service in the SCM database.
 
 The SvcInstall function in the following example shows how to install a service from the service program itself. For the complete example, see [Svc.cpp](svc-cpp.md).
 

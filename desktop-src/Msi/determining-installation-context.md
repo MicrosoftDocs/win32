@@ -1,16 +1,21 @@
 ---
-Description: 'An application can call the MsiEnumProducts or MsiEnumProductsEx functions to enumerate products that are installed or advertised on the system.'
-ms.assetid: '162bda20-0c62-4eac-8c1f-fd107e42c528'
+Description: An application can call the MsiEnumProducts or MsiEnumProductsEx functions to enumerate products that are installed or advertised on the system.
+ms.assetid: 162bda20-0c62-4eac-8c1f-fd107e42c528
 title: Determining Installation Context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining Installation Context
 
-An application can call the [**MsiEnumProducts**](msienumproducts.md) or [**MsiEnumProductsEx**](msienumproductsex.md) functions to enumerate products that are installed or advertised on the system. This function can enumerate all the products installed in the per-machine [installation context](installation-context.md). It can enumerate the products installed in the per-user context for the current user. The application can retrieve information about the context of these products by calling the [**MsiGetProductInfoEx**](msigetproductinfoex.md) or [**MsiGetProductInfo**](msigetproductinfo.md) functions.
+An application can call the [**MsiEnumProducts**](/windows/win32/Msi/nf-msi-msienumproductsa?branch=master) or [**MsiEnumProductsEx**](/windows/win32/Msi/nf-msi-msienumproductsexa?branch=master) functions to enumerate products that are installed or advertised on the system. This function can enumerate all the products installed in the per-machine [installation context](installation-context.md). It can enumerate the products installed in the per-user context for the current user. The application can retrieve information about the context of these products by calling the [**MsiGetProductInfoEx**](/windows/win32/Msi/nf-msi-msigetproductinfoexa?branch=master) or [**MsiGetProductInfo**](/windows/win32/Msi/nf-msi-msigetproductinfoa?branch=master) functions.
 
-The Windows Installer can install products to run with elevated (system) privileges for non-administrator users. This requires the permission of an administrator user. A product that is installed with elevated privileges is called "managed." All products installed per-machine are managed. Products installed per-user are only managed if a local system agent performs an advertisement while impersonating a user. This is the method used by software deployment through [Group Policy](https://msdn.microsoft.com/library/aa374177). Per-user applications installed while the [AlwaysInstallElevated](alwaysinstallelevated.md) policies are set are not considered managed. By calling [**MsiIsProductElevated**](msiisproductelevated.md), an application can check whether a particular product is managed.
+The Windows Installer can install products to run with elevated (system) privileges for non-administrator users. This requires the permission of an administrator user. A product that is installed with elevated privileges is called "managed." All products installed per-machine are managed. Products installed per-user are only managed if a local system agent performs an advertisement while impersonating a user. This is the method used by software deployment through [Group Policy](https://msdn.microsoft.com/library/aa374177). Per-user applications installed while the [AlwaysInstallElevated](alwaysinstallelevated.md) policies are set are not considered managed. By calling [**MsiIsProductElevated**](/windows/win32/Msi/nf-msi-msiisproductelevateda?branch=master), an application can check whether a particular product is managed.
 
-The following sample demonstrates how an application determines context by using [**MsiEnumProducts**](msienumproducts.md), [**MsiGetProductInfo**](msigetproductinfo.md), and [**MsiIsProductElevated**](msiisproductelevated.md).
+The following sample demonstrates how an application determines context by using [**MsiEnumProducts**](/windows/win32/Msi/nf-msi-msienumproductsa?branch=master), [**MsiGetProductInfo**](/windows/win32/Msi/nf-msi-msigetproductinfoa?branch=master), and [**MsiIsProductElevated**](/windows/win32/Msi/nf-msi-msiisproductelevateda?branch=master).
 
 
 ```C++
@@ -148,16 +153,16 @@ UINT DetermineContextForAllProducts()
 
 <dl> <dt>
 
-[**MsiEnumProducts**](msienumproducts.md)
+[**MsiEnumProducts**](/windows/win32/Msi/nf-msi-msienumproductsa?branch=master)
 </dt> <dt>
 
-[**MsiGetProductInfo**](msigetproductinfo.md)
+[**MsiGetProductInfo**](/windows/win32/Msi/nf-msi-msigetproductinfoa?branch=master)
 </dt> <dt>
 
-[**MsiGetProductInfoEx**](msigetproductinfoex.md)
+[**MsiGetProductInfoEx**](/windows/win32/Msi/nf-msi-msigetproductinfoexa?branch=master)
 </dt> <dt>
 
-[**MsiIsProductElevated**](msiisproductelevated.md)
+[**MsiIsProductElevated**](/windows/win32/Msi/nf-msi-msiisproductelevateda?branch=master)
 </dt> <dt>
 
 [Installing a Package with Elevated Privileges for a Non-Admin](installing-a-package-with-elevated-privileges-for-a-non-admin.md)

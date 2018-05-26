@@ -4,11 +4,12 @@ description: The methods of the IADsMembers interface read and write the propert
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ed4e98e5-053c-4d3b-bcd0-3add96bbe120'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ed4e98e5-053c-4d3b-bcd0-3add96bbe120
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsMembers Property Methods ADSI"]
+keywords:
+- IADsMembers Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -22,11 +23,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsMembers Property Methods
 
-The methods of the [**IADsMembers**](iadsmembers.md) interface read and write the properties described in this topic. For more information, see [Interface Property Methods](interface-property-methods.md).
+The methods of the [**IADsMembers**](/windows/win32/Iads/nn-iads-iadsmembers?branch=master) interface read and write the properties described in this topic. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -60,7 +64,7 @@ HRESULT get_Count(
 **Filter**
 </dt> <dd> <dl>
 
-Indicates the filter. The syntax of the entries in the filter array is the same as the Filter used on the [**IADsContainer**](iadscontainer.md) interface.
+Indicates the filter. The syntax of the entries in the filter array is the same as the Filter used on the [**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master) interface.
 
 <dt>
 
@@ -85,7 +89,7 @@ HRESULT put_Filter(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
@@ -155,8 +159,8 @@ Cleanup:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsMembers is defined as 451A0030-72EC-11CF-B03B-00AA006E0975<br/>          |
@@ -167,21 +171,21 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsContainer**](iadscontainer.md)
+[**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master)
 </dt> <dt>
 
-[**IADsMembers::get\_\_NewEnum**](iadsmembers-get--newenum.md)
+[**IADsMembers::get\_\_NewEnum**](/windows/win32/Iads/nf-iads-iadsmembers-get__newenum?branch=master)
 </dt> <dt>
 
-[**IADsMembers**](iadsmembers.md)
+[**IADsMembers**](/windows/win32/Iads/nn-iads-iadsmembers?branch=master)
 </dt> <dt>
 
 [Interface Property Methods](interface-property-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

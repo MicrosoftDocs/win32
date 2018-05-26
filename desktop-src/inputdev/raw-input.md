@@ -1,8 +1,18 @@
 ---
 title: Raw Input
 description: This section describes how the system provides raw input to your application and how an application receives and processes that input.
-ms.assetid: '013ed309-f667-47ed-ade0-5e7ca5a0997a'
-keywords: ["Windows User Interface,user input", "Windows User Interface,raw input", "user input,raw input", "capturing user input,raw input", "raw input"]
+ms.assetid: 013ed309-f667-47ed-ade0-5e7ca5a0997a
+keywords:
+- Windows User Interface,user input
+- Windows User Interface,raw input
+- user input,raw input
+- capturing user input,raw input
+- raw input
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Raw Input
@@ -21,7 +31,7 @@ This section describes how the system provides raw input to your application and
 
 
 
- 
+ 
 
 ### Functions
 
@@ -39,7 +49,7 @@ This section describes how the system provides raw input to your application and
 
 
 
- 
+ 
 
 ### Macros
 
@@ -52,7 +62,7 @@ This section describes how the system provides raw input to your application and
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -65,7 +75,7 @@ This section describes how the system provides raw input to your application and
 
 
 
- 
+ 
 
 ### Structures
 
@@ -87,11 +97,11 @@ This section describes how the system provides raw input to your application and
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

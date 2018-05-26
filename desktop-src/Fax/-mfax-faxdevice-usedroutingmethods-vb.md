@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UsedRoutingMethods property is an array of strings that contains the GUIDs associated with the routing methods that the device uses, where each GUID represents an inbound routing method (FaxInboundRoutingMethod).'
-ms.assetid: '8813ea70-2fc6-40d2-8c2f-c9c060b32424'
-title: 'FaxDevice.UsedRoutingMethods property'
+---
+Description: The UsedRoutingMethods property is an array of strings that contains the GUIDs associated with the routing methods that the device uses, where each GUID represents an inbound routing method (FaxInboundRoutingMethod).
+ms.assetid: 8813ea70-2fc6-40d2-8c2f-c9c060b32424
+title: FaxDevice.UsedRoutingMethods property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.UsedRoutingMethods property
@@ -27,7 +32,7 @@ A **Variant** that receives an array of GUIDs.
 
 To add a routing method to or remove a routing method from the array of routing method GUIDs, call the [**UseRoutingMethod**](-mfax-faxdevice-useroutingmethod-vb.md) method.
 
-To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -52,7 +57,7 @@ To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> <dt>
 
 [**UseRoutingMethod**](-mfax-faxdevice-useroutingmethod-vb.md)

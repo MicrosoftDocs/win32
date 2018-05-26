@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMFONTINSTPARAM structure is used as an input parameter to a user interface plug-in''s IPrintOemUI::FontInstallerDlgProc method.'
-ms.assetid: 'cdd3ed28-a077-4b89-9222-ba282b9c7205'
+---
+Description: The OEMFONTINSTPARAM structure is used as an input parameter to a user interface plug-ins IPrintOemUIFontInstallerDlgProc method.
+ms.assetid: cdd3ed28-a077-4b89-9222-ba282b9c7205
 title: OEMFONTINSTPARAM structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMFONTINSTPARAM structure

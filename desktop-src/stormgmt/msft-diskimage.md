@@ -1,8 +1,10 @@
 ---
 title: MSFT\_DiskImage class
 description: Represents a disk image.
-ms.assetid: 'A895A5DB-39C7-4633-9C8C-3DA8AE8BD81A'
-keywords: ["MSFT_DiskImage class Windows Storage Management API", "MSFT_DiskImage class Windows Storage Management API , described"]
+ms.assetid: A895A5DB-39C7-4633-9C8C-3DA8AE8BD81A
+keywords:
+- MSFT_DiskImage class Windows Storage Management API
+- MSFT_DiskImage class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_DiskImage class
@@ -33,15 +40,15 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 ``` syntax
 class MSFT_DiskImage
 {
-  String  ImagePath;
-  UInt32  StorageType;
-  String  DevicePath;
-  UInt64  FileSize;
-  UInt64  Size;
-  UInt64  LogicalSectorSize;
-  UInt64  BlockSize;
+  String  ImagePath;
+  UInt32  StorageType;
+  String  DevicePath;
+  UInt64  FileSize;
+  UInt64  Size;
+  UInt64  LogicalSectorSize;
+  UInt64  BlockSize;
   Boolean Attached;
-  UInt32  Number;
+  UInt32  Number;
 };
 ```
 
@@ -65,7 +72,7 @@ The **MSFT\_DiskImage** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -214,16 +221,16 @@ The type of the disk image.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

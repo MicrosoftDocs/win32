@@ -1,7 +1,12 @@
 ---
-Description: 'The UPDATE\_EVENT structure updates events. This structure is passed back to the calling application via the event status callback procedure by the NPP.'
-ms.assetid: '6896be5a-f986-44ff-a18b-010f7b9858aa'
-title: 'UPDATE\_EVENT structure'
+Description: The UPDATE\_EVENT structure updates events. This structure is passed back to the calling application via the event status callback procedure by the NPP.
+ms.assetid: 6896be5a-f986-44ff-a18b-010f7b9858aa
+title: UPDATE\_EVENT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UPDATE\_EVENT structure
@@ -13,18 +18,18 @@ The **UPDATE\_EVENT** structure updates events. This structure is passed back to
 
 ```C++
 typedef struct _UPDATE_EVENT {
-  USHORT       Event;
-  DWORD        Action;
-  DWORD        Status;
-  DWORD        Value;
-  __int64      TimeStamp;
-  DWORD_PTR    lpUserContext;
-  DWORD_PTR    lpReserved;
-  UINT         FramesDropped;
+  USHORT       Event;
+  DWORD        Action;
+  DWORD        Status;
+  DWORD        Value;
+  __int64      TimeStamp;
+  DWORD_PTR    lpUserContext;
+  DWORD_PTR    lpReserved;
+  UINT         FramesDropped;
   union {
-    DWORD                        Reserved;
-    LPFRAMETABLE                 lpFrameTable;
-    DWORD_PTR                    lpPacketQueue;
+    DWORD                        Reserved;
+    LPFRAMETABLE                 lpFrameTable;
+    DWORD_PTR                    lpPacketQueue;
     SECURITY_PERMISSION_RESPONSE SecurityResponse;
   };
   LPSTATISTICS lpFinalStats;
@@ -148,15 +153,15 @@ DWORD WINAPI ClassName::NetworkCallback( UPDATE_EVENT events) {};
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

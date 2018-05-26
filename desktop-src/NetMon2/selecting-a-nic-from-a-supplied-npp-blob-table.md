@@ -1,7 +1,12 @@
 ---
-Description: 'To select a network interface card (NIC) from a supplied NPP BLOB table, call the SelectNPPBlobFromTable function.'
-ms.assetid: 'e75b6bb7-cf21-4e25-80a5-3b35f7ed0d0e'
+Description: To select a network interface card (NIC) from a supplied NPP BLOB table, call the SelectNPPBlobFromTable function.
+ms.assetid: e75b6bb7-cf21-4e25-80a5-3b35f7ed0d0e
 title: Selecting a NIC from a Supplied NPP BLOB table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selecting a NIC from a Supplied NPP BLOB table

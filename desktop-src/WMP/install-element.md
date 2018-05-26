@@ -1,14 +1,20 @@
 ---
 title: Install Element
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Install element specifies values used by Windows Media Player to install an online store.
-ms.assetid: '9a5e15ee-ec36-48d3-a1c2-bf20b6d2da48'
-keywords: ["Install Element Windows Media Player"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Install element specifies values used by Windows Media Player to install an online store.
+ms.assetid: 9a5e15ee-ec36-48d3-a1c2-bf20b6d2da48
+keywords:
+- Install Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Install Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Install Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **Install** element specifies values used by Windows Media Player to install an online store.
 
@@ -88,7 +94,7 @@ Fully qualified URL for the online store's compiled catalog.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -97,7 +103,7 @@ If any of the required attributes are missing or not available, Windows Media Pl
 > [!Note]  
 > Use of this element requires that you sign a redistribution agreement with Microsoft. Contact your business representative for details.
 
- 
+ 
 
 ## Requirements
 
@@ -122,9 +128,9 @@ If any of the required attributes are missing or not available, Windows Media Pl
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

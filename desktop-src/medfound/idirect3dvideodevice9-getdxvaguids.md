@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a list of DirectX Video Acceleration (DXVA) profiles that are supported by the display driver.'
-ms.assetid: '4adbbac2-a25d-4e17-b62e-a02a67dcdbed'
-title: 'IDirect3DVideoDevice9::GetDXVAGuids method'
+---
+Description: Gets a list of DirectX Video Acceleration (DXVA) profiles that are supported by the display driver.
+ms.assetid: 4adbbac2-a25d-4e17-b62e-a02a67dcdbed
+title: IDirect3DVideoDevice9GetDXVAGuids method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirect3DVideoDevice9::GetDXVAGuids method

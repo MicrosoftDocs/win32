@@ -4,17 +4,22 @@ description: The update sequence number (USN) assigned at object creation. See a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c38456b8-fc8f-4ea0-8f3d-e2bb3b44ff50'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c38456b8-fc8f-4ea0-8f3d-e2bb3b44ff50
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["USN-Created attribute AD Schema", "uSNCreated attribute AD Schema"]
+keywords:
+- USN-Created attribute AD Schema
+- uSNCreated attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - USN-Created
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # USN-Created attribute
@@ -38,13 +43,13 @@ The update sequence number (USN) assigned at object creation. See also, [**USN-C
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ The update sequence number (USN) assigned at object creation. See also, [**USN-C
 
 
 
- 
+ 
 
- 
+ 
 
 
 

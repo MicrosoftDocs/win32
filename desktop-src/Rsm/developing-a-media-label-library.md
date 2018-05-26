@@ -1,7 +1,12 @@
 ---
-Description: 'A media label library (MLL) is a DLL that can parse a tape label and find certain information within the label that uniquely identifies the tape.'
-ms.assetid: 'f5e9d118-62c7-4fa0-8fea-6386fe6dc015'
+Description: A media label library (MLL) is a DLL that can parse a tape label and find certain information within the label that uniquely identifies the tape.
+ms.assetid: f5e9d118-62c7-4fa0-8fea-6386fe6dc015
 title: Developing a Media Label Library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing a Media Label Library

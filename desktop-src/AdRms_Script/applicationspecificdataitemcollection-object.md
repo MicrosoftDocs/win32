@@ -1,13 +1,16 @@
 ---
-Description: 'Contains a collection of ApplicationSpecificDataItem objects.'
+Description: Contains a collection of ApplicationSpecificDataItem objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '9584b66d-98fd-4768-a226-259bc127aac6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 9584b66d-98fd-4768-a226-259bc127aac6
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ApplicationSpecificDataItemCollection object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ApplicationSpecificDataItemCollection object
@@ -40,7 +43,7 @@ The **ApplicationSpecificDataItemCollection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -55,7 +58,7 @@ The **ApplicationSpecificDataItemCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -149,7 +152,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -167,9 +170,9 @@ END SUB
 [**RightsTemplate**](rightstemplate-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

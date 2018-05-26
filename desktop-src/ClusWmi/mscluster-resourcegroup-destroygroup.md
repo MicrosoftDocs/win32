@@ -4,13 +4,16 @@ description: Destroys the cluster group and any resources in this group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4786b939-20e2-4da2-9e84-a2f950c5f52d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4786b939-20e2-4da2-9e84-a2f950c5f52d
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DestroyGroup method", "DestroyGroup method, MSCluster_ResourceGroup class", "MSCluster_ResourceGroup class, DestroyGroup method"]
+keywords:
+- DestroyGroup method
+- DestroyGroup method, MSCluster_ResourceGroup class
+- MSCluster_ResourceGroup class, DestroyGroup method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DestroyGroup method of the MSCluster\_ResourceGroup class
@@ -30,7 +36,7 @@ Destroys the cluster group and any resources in this group.
 
 ```mof
 void DestroyGroup(
-  [in] uint32 Options
+  [in] uint32 Options
 );
 ```
 
@@ -45,9 +51,9 @@ void DestroyGroup(
 
 Any options which to perform while destroying the cluster group.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This parameter is not supported before Windows Server 2012.
+This parameter is not supported before Windows Server 2012.
 
 <dt>
 
@@ -76,7 +82,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -90,9 +96,9 @@ This method does not return a value.
 [**MSCluster\_ResourceGroup**](mscluster-resourcegroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

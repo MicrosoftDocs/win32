@@ -1,7 +1,12 @@
 ---
-Description: 'Modifies the setting data for the service.'
-ms.assetid: 'E6133DA7-A137-42FA-A523-5B93E9C6DB79'
-title: 'ModifyServiceSettings method of the Msvm\_MetricService class'
+Description: Modifies the setting data for the service.
+ms.assetid: E6133DA7-A137-42FA-A523-5B93E9C6DB79
+title: ModifyServiceSettings method of the Msvm\_MetricService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModifyServiceSettings method of the Msvm\_MetricService class
@@ -13,8 +18,8 @@ Modifies the setting data for the service.
 
 ```mof
 uint32 ModifyServiceSettings(
-  [in]  string              SettingData,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              SettingData,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -62,7 +67,7 @@ This method returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -70,8 +75,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -85,9 +90,9 @@ This method returns one of the following values.
 [**Msvm\_MetricService**](msvm-metricservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

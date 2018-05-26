@@ -4,13 +4,16 @@ description: Initiates a requests to change the state of a computer system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a73e7735-e86a-44a2-a1c6-a51be3e27f71'
-ms.prod: 'windows-server-dev'
+ms.assetid: a73e7735-e86a-44a2-a1c6-a51be3e27f71
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RequestStateChange method", "RequestStateChange method, CIM_ComputerSystem class", "CIM_ComputerSystem class, RequestStateChange method"]
+keywords:
+- RequestStateChange method
+- RequestStateChange method, CIM_ComputerSystem class
+- CIM_ComputerSystem class, RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the CIM\_ComputerSystem class
@@ -32,9 +38,9 @@ This method is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogica
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -119,14 +125,14 @@ The state requested for the element. This information will be placed into the in
 **DMTF Reserved**
 
 
-</dt> <dd>12–32767</dd> <dt>
+</dt> <dd>12 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
@@ -169,7 +175,7 @@ If this property does not contain 0 or null and the implementation doesn't suppo
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
@@ -184,10 +190,10 @@ If this property does not contain 0 or null and the implementation doesn't suppo
 **Busy** (4099)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -196,8 +202,8 @@ If this property does not contain 0 or null and the implementation doesn't suppo
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -211,9 +217,9 @@ If this property does not contain 0 or null and the implementation doesn't suppo
 [**CIM\_ComputerSystem**](cim-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

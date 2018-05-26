@@ -1,7 +1,12 @@
 ---
-Description: 'Function Types for User Interface Plug-Ins'
-ms.assetid: 'f0435ccc-182f-42e5-8c38-ed73823279a0'
-title: 'Function Types for User Interface Plug-Ins'
+Description: Function Types for User Interface Plug-Ins
+ms.assetid: f0435ccc-182f-42e5-8c38-ed73823279a0
+title: Function Types for User Interface Plug-Ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function Types for User Interface Plug-Ins

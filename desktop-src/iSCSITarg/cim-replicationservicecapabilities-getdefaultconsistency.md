@@ -4,13 +4,16 @@ description: This method for a given ReplicationType, returns the default consis
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c538f79b-4233-4677-97e0-0a68c9189ea1'
-ms.prod: 'windows-server-dev'
+ms.assetid: c538f79b-4233-4677-97e0-0a68c9189ea1
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetDefaultConsistency method iSCSI Software Target API", "GetDefaultConsistency method iSCSI Software Target API , CIM_ReplicationServiceCapabilities class", "CIM_ReplicationServiceCapabilities class iSCSI Software Target API , GetDefaultConsistency method"]
+keywords:
+- GetDefaultConsistency method iSCSI Software Target API
+- GetDefaultConsistency method iSCSI Software Target API , CIM_ReplicationServiceCapabilities class
+- CIM_ReplicationServiceCapabilities class iSCSI Software Target API , GetDefaultConsistency method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetDefaultConsistency method of the CIM\_ReplicationServiceCapabilities class
@@ -30,8 +36,8 @@ This method for a given ReplicationType, returns the default consistency value.
 
 ```mof
 uint32 GetDefaultConsistency(
-  [in]  uint16 ReplicationType,
-  [out] uint16 DefaultConsistency
+  [in]  uint16 ReplicationType,
+  [out] uint16 DefaultConsistency
 );
 ```
 
@@ -81,14 +87,14 @@ Default consistency value.
 **DMTF Reserved**
 
 
-</dt> <dd>3–32767</dd> <dt>
+</dt> <dd>3 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> </dl>
+</dt> <dd>32768 65535</dd> </dl> </dd> </dl>
 
 ## Return value
 
@@ -115,10 +121,10 @@ Default consistency value.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -128,7 +134,7 @@ Default consistency value.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -142,9 +148,9 @@ Default consistency value.
 [**CIM\_ReplicationServiceCapabilities**](cim-replicationservicecapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

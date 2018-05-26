@@ -1,7 +1,12 @@
 ---
 title: Character Method
 description: Character Method
-ms.assetid: '07ee529f-f9d8-4dbc-9ab3-a44c1bc0a7e8'
+ms.assetid: 07ee529f-f9d8-4dbc-9ab3-a44c1bc0a7e8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Character Method

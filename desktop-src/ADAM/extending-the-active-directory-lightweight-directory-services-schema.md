@@ -4,11 +4,16 @@ description: The base Active Directory Lightweight Directory Services schema is 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dead5251-f143-4e6a-b57b-7f04fcb58157'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: dead5251-f143-4e6a-b57b-7f04fcb58157
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["Extending the ADAMSchema ADAM", "AD LDS examples ADAM , extending the ADAMSchema"]
+keywords:
+- Extending the ADAMSchema ADAM
+- AD LDS examples ADAM , extending the ADAMSchema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the Active Directory Lightweight Directory Services Schema

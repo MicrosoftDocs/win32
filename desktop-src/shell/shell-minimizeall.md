@@ -1,7 +1,12 @@
-﻿---
-Description: 'Minimizes all of the windows on the desktop.'
-ms.assetid: '3af98a16-27d1-4c93-ac72-7c9e24e68c23'
-title: 'Shell.MinimizeAll method'
+---
+Description: Minimizes all of the windows on the desktop.
+ms.assetid: 3af98a16-27d1-4c93-ac72-7c9e24e68c23
+title: Shell.MinimizeAll method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.MinimizeAll method

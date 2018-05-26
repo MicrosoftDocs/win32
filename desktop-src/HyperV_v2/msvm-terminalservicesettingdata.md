@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the settings for the virtual computer terminal services on a host.'
-ms.assetid: '1f8d0718-09da-4231-95eb-cc63b6f324dd'
-title: 'Msvm\_TerminalServiceSettingData class'
+Description: Represents the settings for the virtual computer terminal services on a host.
+ms.assetid: 1f8d0718-09da-4231-95eb-cc63b6f324dd
+title: Msvm\_TerminalServiceSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_TerminalServiceSettingData class
@@ -16,15 +21,15 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_TerminalServiceSettingData : CIM_SettingData
 {
-  string  InstanceID;
-  string  Caption = "Hyper-V Terminal Service Settings";
-  string  Description = "Settings for the Hyper-V Terminal Service";
-  string  ElementName = "Hyper-V Terminal Service Settings";
-  uint32  ListenerPort;
+  string  InstanceID;
+  string  Caption = "Hyper-V Terminal Service Settings";
+  string  Description = "Settings for the Hyper-V Terminal Service";
+  string  ElementName = "Hyper-V Terminal Service Settings";
+  uint32  ListenerPort;
   boolean DisableSelfSignedCertificateGeneration;
-  uint8   AuthCertificateHash[];
-  string  TrustedIssuerCertificateHashes[];
-  string  AllowedHashAlgorithms[];
+  uint8   AuthCertificateHash[];
+  string  TrustedIssuerCertificateHashes[];
+  string  AllowedHashAlgorithms[];
 };
 ```
 
@@ -51,7 +56,7 @@ Access type: Read-only
 
 The list of hash algorithms accepted for verifying the signature of federated authentication tokens.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -160,7 +165,7 @@ Access type: Read-only
 
 The list of trusted issuer certificate hashes for verifying the signature of federated authentication tokens.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> </dl>
 
@@ -170,17 +175,17 @@ The list of trusted issuer certificate hashes for verifying the signature of fed
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

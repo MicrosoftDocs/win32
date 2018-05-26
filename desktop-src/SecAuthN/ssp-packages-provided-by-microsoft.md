@@ -1,7 +1,12 @@
 ---
-Description: 'Following are the SSP authentication packages provided by Microsoft.'
-ms.assetid: '8df87a74-75b2-46a0-a209-57d906b2affd'
+Description: Following are the SSP authentication packages provided by Microsoft.
+ms.assetid: 8df87a74-75b2-46a0-a209-57d906b2affd
 title: SSP Packages Provided by Microsoft
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SSP Packages Provided by Microsoft

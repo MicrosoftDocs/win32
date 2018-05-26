@@ -4,11 +4,15 @@ description: All directory objects use the same set of predefined access rights 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e01010bc-d54a-43c4-b0b7-1705a052f8e1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e01010bc-d54a-43c4-b0b7-1705a052f8e1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["object AD ,access rights"]
+keywords:
+- object AD ,access rights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Access Rights for Active Directory Domain Services Objects

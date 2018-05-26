@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the number of animation key frame ticks that occur per second.'
-ms.assetid: 'b3e8d399-f1a7-4bc6-a35c-373b686aa24a'
-title: 'ID3DXKeyframedAnimationSet::GetSourceTicksPerSecond method'
+---
+Description: Gets the number of animation key frame ticks that occur per second.
+ms.assetid: b3e8d399-f1a7-4bc6-a35c-373b686aa24a
+title: ID3DXKeyframedAnimationSetGetSourceTicksPerSecond method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXKeyframedAnimationSet::GetSourceTicksPerSecond method

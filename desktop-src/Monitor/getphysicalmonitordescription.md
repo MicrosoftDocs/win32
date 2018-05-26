@@ -1,8 +1,9 @@
 ---
 title: GetPhysicalMonitorDescription function
 description: Gets a description of a physical monitor.
-ms.assetid: '81789eaf-7831-4833-87e1-7f318f831c96'
-keywords: ["GetPhysicalMonitorDescription function Monitor Configuration"]
+ms.assetid: 81789eaf-7831-4833-87e1-7f318f831c96
+keywords:
+- GetPhysicalMonitorDescription function Monitor Configuration
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - gdi32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetPhysicalMonitorDescription function
@@ -18,7 +24,7 @@ api_type:
 > \[!Important\]  
 > This function is used by the monitor configuration API to access functionality in the display driver. Applications should not call this function.
 
- 
+ 
 
 Gets a description of a physical monitor.
 
@@ -27,9 +33,9 @@ Gets a description of a physical monitor.
 
 ```C++
 NTSTATUS WINAPI GetPhysicalMonitorDescription(
-  _In_  HANDLE hMonitor,
-  _In_  DWORD  dwPhysicalMonitorDescriptionSizeInChars,
-  _Out_ LPWSTR szPhysicalMonitorDescription
+  _In_  HANDLE hMonitor,
+  _In_  DWORD  dwPhysicalMonitorDescriptionSizeInChars,
+  _Out_ LPWSTR szPhysicalMonitorDescription
 );
 ```
 
@@ -68,8 +74,8 @@ If the method succeeds, it returns **STATUS\_SUCCESS**. Otherwise, it returns an
 
 Instead of using this function, applications should call one of the following functions:
 
--   [**GetPhysicalMonitorsFromHMONITOR**](getphysicalmonitorsfromhmonitor.md)
--   [**GetPhysicalMonitorsFromIDirect3DDevice9**](getphysicalmonitorsfromidirect3ddevice9.md)
+-   [**GetPhysicalMonitorsFromHMONITOR**](/windows/win32/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor?branch=master)
+-   [**GetPhysicalMonitorsFromIDirect3DDevice9**](/windows/win32/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9?branch=master)
 
 This function has no associated import library. To call this function, you must use the [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) and [**GetProcAddress**](https://msdn.microsoft.com/library/windows/desktop/ms683212) functions to dynamically link to Gdi32.dll.
 
@@ -79,8 +85,8 @@ This function has no associated import library. To call this function, you must 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Gdi32.dll</dt> </dl> |
 
 
@@ -92,9 +98,9 @@ This function has no associated import library. To call this function, you must 
 [Monitor Configuration Functions](monitor-configuration-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

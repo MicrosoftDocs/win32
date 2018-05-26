@@ -4,13 +4,15 @@ description: Manages DTC instances.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5c0f43a3-5b09-453d-89c0-657a286fbfb5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5c0f43a3-5b09-453d-89c0-657a286fbfb5
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-transaction-coordinator'
-- 'windows-management-instrumentation'
+- distributed-transaction-coordinator
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DtcTask class", "MSFT_DtcTask class, described"]
+keywords:
+- MSFT_DtcTask class
+- MSFT_DtcTask class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - MsDtcWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DtcTask class
@@ -58,7 +63,7 @@ The **MSFT\_DtcTask** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +71,8 @@ The **MSFT\_DtcTask** class has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\MsDTC<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Msdtcwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsDtcWmi.dll</dt> </dl> |
@@ -81,9 +86,9 @@ The **MSFT\_DtcTask** class has these methods.
 [Distributed Transaction Coordinator WMI Provider](distributed-transaction-coordinator-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

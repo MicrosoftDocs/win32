@@ -1,20 +1,25 @@
 ---
-Description: 'The SetProperties method sets the properties of the sample. This method implements the IMediaSample2::SetProperties method.'
-ms.assetid: '639aedf5-0c21-4578-b336-91859e40f3be'
-title: 'CMediaSample.SetProperties method'
+Description: The SetProperties method sets the properties of the sample. This method implements the IMediaSample2SetProperties method.
+ms.assetid: 639aedf5-0c21-4578-b336-91859e40f3be
+title: CMediaSample.SetProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.SetProperties method
 
-The `SetProperties` method sets the properties of the sample. This method implements the [**IMediaSample2::SetProperties**](imediasample2-setproperties.md) method.
+The `SetProperties` method sets the properties of the sample. This method implements the [**IMediaSample2::SetProperties**](/windows/win32/Strmif/nf-strmif-imediasample2-setproperties?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetProperties(
-         DWORD cbProperties,
-   const BYTE  *pbProperties
+         DWORD cbProperties,
+   const BYTE  *pbProperties
 );
 ```
 
@@ -53,7 +58,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -73,9 +78,9 @@ Returns one of the **HRESULT** values shown in the following table.
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

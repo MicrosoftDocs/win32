@@ -1,6 +1,11 @@
 ---
-Description: 'The tables in this document list wrapper functions from Shlwapi.dll that provide limited Unicode functionality to Windows 95, Windows 98, and Windows Millennium Edition (Windows Me).'
+Description: The tables in this document list wrapper functions from Shlwapi.dll that provide limited Unicode functionality to Windows 95, Windows 98, and Windows Millennium Edition (Windows Me).
 title: SHLWAPI Wrapper Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SHLWAPI Wrapper Functions
@@ -42,7 +47,7 @@ The wrapper functions in this table are all contained in Shlwapi.dll. To call th
 | DeleteFileWrapW           | 57      | [**DeleteFile**](fs.deletefile)                         | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(c)](#shlwapi-wrapper-functions)                                                                |
 | DialogBoxParamWrapW       | 59      | [**DialogBoxParam**](dlgbox.dialogboxparam)             | USER32   | [(f)](#dragqueryfile), [(i)](#shlwapi-wrapper-functions), [(DialogBoxParam)](#dialogboxparam)                                       |
 | DispatchMessageWrapW      | 60      | [**DispatchMessage**](winmsg.dispatchmessage)           | USER32   | [(i)](#shlwapi-wrapper-functions)                                                                                                   |
-| DragQueryFileWrapW        | 318     | [**DragQueryFile**](dragqueryfile.md)                  | SHELL32  | [(b)](#dialogboxparam), [(c)](#shlwapi-wrapper-functions), [(g)](#compareexchange), [(DragQueryFile)](#dragqueryfile)               |
+| DragQueryFileWrapW        | 318     | [**DragQueryFile**](/windows/win32/Shellapi/nf-shellapi-dragqueryfilea?branch=master)                  | SHELL32  | [(b)](#dialogboxparam), [(c)](#shlwapi-wrapper-functions), [(g)](#compareexchange), [(DragQueryFile)](#dragqueryfile)               |
 | DrawTextExWrapW           | 301     | [**DrawTextEx**](gdi.drawtextex)                        | USER32   | [(a)](#shlwapi-wrapper-functions), [(d)](#shlwapi-wrapper-functions)                                                                |
 | DrawTextWrapW             | 61      | [**DrawText**](gdi.drawtext)                            | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
 | ExtTextOutWrapW           | 299     | [**ExtTextOut**](gdi.exttextout)                        | GDI32    | [(d)](#shlwapi-wrapper-functions), [(f)](#dragqueryfile), [(ExtTextOut)](#exttextout)                                               |
@@ -85,10 +90,10 @@ The wrapper functions in this table are all contained in Shlwapi.dll. To call th
 | SetDlgItemTextWrapW       | 138     | [**SetDlgItemText**](dlgbox.setdlgitemtext)             | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
 | SetWindowLongWrapW        | 141     | [**SetWindowLong**](winmsg.setwindowlong)               | USER32   | [(WindowLong)](#windowlong)                                                                                                         |
 | SetWindowTextWrapW        | 143     | [**SetWindowText**](winmsg.setwindowtext)               | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
-| ShellExecuteExWrapW       | 35      | [**ShellExecuteEx**](shellexecuteex.md)                | SHELL32  | [(a)](#shlwapi-wrapper-functions), [(b)](#dialogboxparam), [(ShellExecuteEx)](#shellexecuteex)                                      |
-| ShellMessageBoxWrapW      | 388     | [**ShellMessageBox**](shellmessagebox.md)              | SHLWAPI  | [(a)](#shlwapi-wrapper-functions), [(FormatMessage)](#formatmessage)                                                                |
-| SHGetFileInfoWrapW        | 313     | [**SHGetFileInfo**](shgetfileinfo.md)                  | SHELL32  | [(a)](#shlwapi-wrapper-functions), [(b)](#dialogboxparam), [(g)](#compareexchange)                                                  |
-| SHGetPathFromIDListWrapW  | 334     | [**SHGetPathFromIDList**](shgetpathfromidlist.md)      | USER32   | [(g)](#compareexchange)                                                                                                             |
+| ShellExecuteExWrapW       | 35      | [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master)                | SHELL32  | [(a)](#shlwapi-wrapper-functions), [(b)](#dialogboxparam), [(ShellExecuteEx)](#shellexecuteex)                                      |
+| ShellMessageBoxWrapW      | 388     | [**ShellMessageBox**](/windows/win32/Shellapi/nf-shellapi-shellmessageboxa?branch=master)              | SHLWAPI  | [(a)](#shlwapi-wrapper-functions), [(FormatMessage)](#formatmessage)                                                                |
+| SHGetFileInfoWrapW        | 313     | [**SHGetFileInfo**](/windows/win32/Shellapi/nf-shellapi-shgetfileinfoa?branch=master)                  | SHELL32  | [(a)](#shlwapi-wrapper-functions), [(b)](#dialogboxparam), [(g)](#compareexchange)                                                  |
+| SHGetPathFromIDListWrapW  | 334     | [**SHGetPathFromIDList**](/windows/win32/shlobj_core/nf-shlobj_core-shgetpathfromidlista?branch=master)      | USER32   | [(g)](#compareexchange)                                                                                                             |
 | TranslateAcceleratorWrapW | 146     | [**TranslateAccelerator**](menurc.translateaccelerator) | USER32   | [(i)](#shlwapi-wrapper-functions)                                                                                                   |
 | UnregisterClassWrapW      | 147     | [**UnregisterClass**](winmsg.unregisterclass)           | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
 
@@ -145,7 +150,7 @@ Full Unicode implementations of these functions are available on native ANSI pla
 
 ### (f)
 
-If the user-default UI language uses a different character set than the system-default UI language, the system attempts to rewrite dialog templates and subclass controls and convert menu items to owner-draw, so that strings in the user-default UI language continue to display correctly. The only controls supported by the dialog template rewrite rules are static, button, listbox, and combobox controls. These controls are subclassed such that the **SendMessageWrapW** function can obtain the original Unicode string without being translated through the ANSI character set. Unlike most of the other wrapper functions, these are functional on Microsoft Windows NT 4.0 as well as native ANSI platforms. See the remarks in the documentation of the [**MLLoadLibrary**](mlloadlibrary.md) function for further discussion of how the user-default UI language and system-default UI language are determined.
+If the user-default UI language uses a different character set than the system-default UI language, the system attempts to rewrite dialog templates and subclass controls and convert menu items to owner-draw, so that strings in the user-default UI language continue to display correctly. The only controls supported by the dialog template rewrite rules are static, button, listbox, and combobox controls. These controls are subclassed such that the **SendMessageWrapW** function can obtain the original Unicode string without being translated through the ANSI character set. Unlike most of the other wrapper functions, these are functional on Microsoft Windows NT 4.0 as well as native ANSI platforms. See the remarks in the documentation of the [**MLLoadLibrary**](/windows/win32/Shlwapi/?branch=master) function for further discussion of how the user-default UI language and system-default UI language are determined.
 
 ### (g)
 
@@ -394,7 +399,7 @@ The parameters should be set as follows:
 
 ### (ShellExecuteEx)
 
-The **lpFile** member of the [**SHELLEXECUTEINFO**](shellexecuteinfo.md) structure passed in this function's only parameter may not exceed INTERNET\_MAX\_URL\_LENGTH characters. If the SEE\_MASK\_CLASSNAME flag is omitted, the **lpClass** member must be initialized to **NULL**.
+The **lpFile** member of the [**SHELLEXECUTEINFO**](/windows/win32/Shellapi/ns-shellapi-_shellexecuteinfoa?branch=master) structure passed in this function's only parameter may not exceed INTERNET\_MAX\_URL\_LENGTH characters. If the SEE\_MASK\_CLASSNAME flag is omitted, the **lpClass** member must be initialized to **NULL**.
 
 ### (ValueEx)
 

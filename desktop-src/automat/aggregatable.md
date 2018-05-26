@@ -1,7 +1,12 @@
 ---
 title: aggregatable
 description: Indicates that the class supports aggregation.
-ms.assetid: 'b88fe91b-5500-4d35-b873-fbfc201bc768'
+ms.assetid: b88fe91b-5500-4d35-b873-fbfc201bc768
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # aggregatable

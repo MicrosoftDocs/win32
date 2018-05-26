@@ -1,7 +1,12 @@
 ---
-Description: 'The identifier for the protocol handler that produced the item. For example, MAPI, CSC, FILE, and so on.'
-ms.assetid: 'aceb0953-d46b-412a-8cdc-7848c1d711f2'
-title: 'System.Search.Store'
+Description: The identifier for the protocol handler that produced the item. For example, MAPI, CSC, FILE, and so on.
+ms.assetid: aceb0953-d46b-412a-8cdc-7848c1d711f2
+title: System.Search.Store
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Search.Store

@@ -1,7 +1,12 @@
 ---
 title: How To Initialize the Tessellator Stage
 description: This topic shows how to initialize the tessellator stage.
-ms.assetid: '81f5461a-0938-4c46-b3e8-bef2bea125a5'
+ms.assetid: 81f5461a-0938-4c46-b3e8-bef2bea125a5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To: Initialize the Tessellator Stage
@@ -14,7 +19,7 @@ The tessellator stage is a fixed function stage, there is no shader to generate,
 
 **To initialize the tessellator stage**
 
--   Initialize the hull-shader stage using [**ID3D11DeviceContext::HSSetShader**](id3d11devicecontext-hssetshader.md).
+-   Initialize the hull-shader stage using [**ID3D11DeviceContext::HSSetShader**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-hssetshader?branch=master).
 
     ```
     void HSSetShader(
@@ -26,7 +31,7 @@ The tessellator stage is a fixed function stage, there is no shader to generate,
 
     
 
-    *ppClassInstances* is a pointer to an array of shader interfaces, represented by [**ID3D11ClassInstance**](id3d11classinstance.md) pointers and the number of interfaces, represented by *NumClassInstances*. If not used, these parameters can be set to **NULL** and 0 respectively.
+    *ppClassInstances* is a pointer to an array of shader interfaces, represented by [**ID3D11ClassInstance**](/windows/win32/D3D11/nn-d3d11-id3d11classinstance?branch=master) pointers and the number of interfaces, represented by *NumClassInstances*. If not used, these parameters can be set to **NULL** and 0 respectively.
 
 After the hull-shader stage is initialized, you should also initialize the domain-shader stage.
 

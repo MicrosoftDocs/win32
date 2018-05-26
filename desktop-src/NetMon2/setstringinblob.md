@@ -1,7 +1,12 @@
 ---
-Description: 'Sets a string at a given location within a BLOB.'
-ms.assetid: '645e6b8b-aaaf-429f-ad2f-bf4364ef4e80'
+Description: Sets a string at a given location within a BLOB.
+ms.assetid: 645e6b8b-aaaf-429f-ad2f-bf4364ef4e80
 title: SetStringInBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetStringInBlob function
@@ -13,11 +18,11 @@ The **SetStringInBlob** function sets a string at a given location within a BLOB
 
 ```C++
 DWORD SetStringInBlob(
-  _In_       HBLOB hBlob,
-  _In_ const char  *pOwnerName,
-  _In_ const char  *pCategoryName,
-  _In_ const char  *pTagName,
-  _In_ const char  *pString
+  _In_       HBLOB hBlob,
+  _In_ const char  *pOwnerName,
+  _In_ const char  *pCategoryName,
+  _In_ const char  *pTagName,
+  _In_ const char  *pString
 );
 ```
 
@@ -76,8 +81,8 @@ If the specified **Owner**, **Category**, or **Tag** information does not exist,
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -115,9 +120,9 @@ If the specified **Owner**, **Category**, or **Tag** information does not exist,
 [SetNPPTriggerInBlob](setnpptriggerinblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

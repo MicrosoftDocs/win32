@@ -1,6 +1,11 @@
-﻿---
-Description: 'Notifies you to save the passed object.'
-title: 'SMC\_SETSFOBJECT message'
+---
+Description: Notifies you to save the passed object.
+title: SMC\_SETSFOBJECT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMC\_SETSFOBJECT message
@@ -41,7 +46,7 @@ Return S\_OK.
 
 ## Remarks
 
-This notification is received by the [**IShellMenuCallback::CallbackSM**](ishellmenucallback-callbacksm.md) method.
+This notification is received by the [**IShellMenuCallback::CallbackSM**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm?branch=master) method.
 
 The **SMC\_SETSFOBJECT** notification is used with IID\_Stream. The object is saved into a persisted form in the registry and nothing is done with the reference count on the object passed in.
 

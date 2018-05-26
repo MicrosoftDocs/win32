@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a subnet that contains IP protocol endpoints.'
+Description: Represents a subnet that contains IP protocol endpoints.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9e45250e-2486-4791-8d61-53f3c46edba3'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9e45250e-2486-4791-8d61-53f3c46edba3
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_IPConnectivitySubnet class'
+title: CIM\_IPConnectivitySubnet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_IPConnectivitySubnet class
@@ -31,7 +34,7 @@ class CIM_IPConnectivitySubnet : CIM_ConnectivityCollection
   uint16 ConnectivityStatus;
   string SubnetNumber;
   string SubnetMask;
-  uint8  PrefixLength;
+  uint8  PrefixLength;
   uint16 AddressType;
 };
 ```
@@ -272,16 +275,16 @@ The IP address of the subnet.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

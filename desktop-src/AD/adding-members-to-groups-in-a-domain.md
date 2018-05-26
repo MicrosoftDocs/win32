@@ -4,11 +4,16 @@ description: This topic shows how to add members to groups in a domain.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'be65cd4e-df3e-416b-a673-774b71ab6996'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: be65cd4e-df3e-416b-a673-774b71ab6996
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Adding Members to Groups in a Domain AD", "Groups AD , Adding Members to Groups in a Domain"]
+keywords:
+- Adding Members to Groups in a Domain AD
+- Groups AD , Adding Members to Groups in a Domain
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Members to Groups in a Domain
@@ -24,7 +29,7 @@ A group can contain any number of users, contacts, or other groups as members. T
 
 
 
- 
+ 
 
 Each of the following methods can be used to add a member to a group. You can add a member by using the distinguished name of the member or binding to the member object and then adding the member object to the group object.
 
@@ -47,7 +52,7 @@ The [**IDirectoryObject**](https://msdn.microsoft.com/library/aa746355) interfac
 > [!Note]  
 > Because the [**member**](https://msdn.microsoft.com/library/ms677097) attribute has multiple values, ensure that you use the **ADS\_ATTR\_APPEND** control code to add a distinguished name to the **member** attribute. Using the **ADS\_ATTR\_UPDATE** control code will cause the existing **member** values to be overwritten.
 
- 
+ 
 
 The [**IDirectoryObject**](https://msdn.microsoft.com/library/aa746355) interface can also be used to add members to a group when the group is created by specifying the members in the *pAttributeEntries* parameter of the [**IDirectoryObject::CreateDSObject**](https://msdn.microsoft.com/library/aa746356) method.
 
@@ -67,9 +72,9 @@ You can use the [Lightweight Directory Access Protocol](https://msdn.microsoft.c
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

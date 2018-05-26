@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a media sample contains a 3D video frame.'
-ms.assetid: '1B0B9DBD-80EB-4876-B2F2-BE419AC84265'
-title: 'MFSampleExtension\_3DVideo attribute'
+---
+Description: Specifies whether a media sample contains a 3D video frame.
+ms.assetid: 1B0B9DBD-80EB-4876-B2F2-BE419AC84265
+title: MFSampleExtension\_3DVideo attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_3DVideo attribute

@@ -1,14 +1,19 @@
 ---
-Description: 'Functions for creating a security descriptor and getting and setting the components of a security descriptor.'
-ms.assetid: 'd07dab5a-7c06-40c4-aa59-fa0baaaa77e7'
-title: 'Low-level Security Descriptor Creation'
+Description: Functions for creating a security descriptor and getting and setting the components of a security descriptor.
+ms.assetid: d07dab5a-7c06-40c4-aa59-fa0baaaa77e7
+title: Low-level Security Descriptor Creation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Low-level Security Descriptor Creation
 
 Low-level access control provides a set of functions for creating a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) and getting and setting the components of a security descriptor. The low-level functions for initializing and setting the components of a security descriptor work only with absolute-format security descriptors. The low-level functions for getting the components of a security descriptor work with both [absolute and self-relative security descriptors](absolute-and-self-relative-security-descriptors.md).
 
-The [**InitializeSecurityDescriptor**](initializesecuritydescriptor.md) function initializes a [**SECURITY\_DESCRIPTOR**](security-descriptor.md) buffer. The initialized security descriptor is in [*absolute*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-absolute-security-descriptor-gly) format and has no owner, primary group, [*discretionary access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-discretionary-access-control-list-gly) (DACL), or [*system access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-system-access-control-list-gly) (SACL). You can use the following low-level functions to get or set specific components of a specified security descriptor.
+The [**InitializeSecurityDescriptor**](initializesecuritydescriptor.md) function initializes a [**SECURITY\_DESCRIPTOR**](/windows/win32/Winnt/ns-winnt-_security_descriptor?branch=master) buffer. The initialized security descriptor is in [*absolute*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-absolute-security-descriptor-gly) format and has no owner, primary group, [*discretionary access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-discretionary-access-control-list-gly) (DACL), or [*system access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-system-access-control-list-gly) (SACL). You can use the following low-level functions to get or set specific components of a specified security descriptor.
 
 
 

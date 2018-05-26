@@ -1,7 +1,12 @@
 ---
-Description: 'The light type property defines which type of light source you''re using.'
-ms.assetid: '7718383a-6e49-4ad2-acc1-fc8fec0d4844'
-title: 'Light Types (Direct3D 9)'
+Description: The light type property defines which type of light source youre using.
+ms.assetid: 7718383a-6e49-4ad2-acc1-fc8fec0d4844
+title: Light Types (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Light Types (Direct3D 9)

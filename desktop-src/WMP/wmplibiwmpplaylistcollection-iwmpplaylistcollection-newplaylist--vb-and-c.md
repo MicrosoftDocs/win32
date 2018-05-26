@@ -1,8 +1,11 @@
 ---
 title: IWMPPlaylistCollection newPlaylist method
 description: The newPlaylist method returns an IWMPPlaylist interface for a new, empty playlist in the library.
-ms.assetid: 'cc0cb356-9a90-421c-8d1a-b79585f71124'
-keywords: ["newPlaylist method Windows Media Player", "newPlaylist method Windows Media Player , IWMPPlaylistCollection interface", "IWMPPlaylistCollection interface Windows Media Player , newPlaylist method"]
+ms.assetid: cc0cb356-9a90-421c-8d1a-b79585f71124
+keywords:
+- newPlaylist method Windows Media Player
+- newPlaylist method Windows Media Player , IWMPPlaylistCollection interface
+- IWMPPlaylistCollection interface Windows Media Player , newPlaylist method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylistCollection::newPlaylist method
@@ -139,9 +147,9 @@ Dim newList As WMPLib.IWMPPlaylist = player.playlistCollection.newPlaylist(&quot
 [**IWMPPlaylistCollection.getByName (VB and C#)**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-getbyname--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Making Error Information Available to the User
 description: When a caller receives an error and needs to notify the user of the error, the presence of extended error information should be checked, and if found, the caller should make the resulting information available to the user.
-ms.assetid: '18689280-7124-46e4-9341-ad8d0c1705db'
+ms.assetid: 18689280-7124-46e4-9341-ad8d0c1705db
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Making Error Information Available to the User
@@ -156,7 +161,7 @@ if (status)
 
 
 
-In this example the extended error information is dumped to the console, but your component can make it available to the user in any other way. If your component chooses to save the information in persistent storage and show it later, it is often easier to use the binary format made available by the [**RpcErrorSaveErrorInfo**](rpcerrorsaveerrorinfo.md) and [**RpcErrorLoadErrorInfo**](rpcerrorloaderrorinfo.md) function calls.
+In this example the extended error information is dumped to the console, but your component can make it available to the user in any other way. If your component chooses to save the information in persistent storage and show it later, it is often easier to use the binary format made available by the [**RpcErrorSaveErrorInfo**](/windows/win32/Rpcasync/nf-rpcasync-rpcerrorsaveerrorinfo?branch=master) and [**RpcErrorLoadErrorInfo**](/windows/win32/Rpcasync/nf-rpcasync-rpcerrorloaderrorinfo?branch=master) function calls.
 
  
 

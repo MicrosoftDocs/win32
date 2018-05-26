@@ -1,14 +1,19 @@
 ---
-Description: 'This section contains an example demonstrating how an application opens an enhanced metafile stored on disk and displays the associated picture in the client area.'
-ms.assetid: 'e4e5ef5c-d5ea-4931-bbec-1635e8f08c91'
+Description: This section contains an example demonstrating how an application opens an enhanced metafile stored on disk and displays the associated picture in the client area.
+ms.assetid: e4e5ef5c-d5ea-4931-bbec-1635e8f08c91
 title: Opening an Enhanced Metafile and Displaying Its Contents
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening an Enhanced Metafile and Displaying Its Contents
 
 This section contains an example demonstrating how an application opens an enhanced metafile stored on disk and displays the associated picture in the client area.
 
-The example uses the **Open** common dialog box to enable the user to select an enhanced metafile from a list of existing files. It then passes the name of the selected file to the [**GetEnhMetaFile**](getenhmetafile.md) function, which returns a handle identifying the file. This handle is passed to the [**PlayEnhMetaFile**](playenhmetafile.md) function in order to display the picture.
+The example uses the **Open** common dialog box to enable the user to select an enhanced metafile from a list of existing files. It then passes the name of the selected file to the [**GetEnhMetaFile**](/windows/win32/WinGdi/nf-wingdi-getenhmetafilea?branch=master) function, which returns a handle identifying the file. This handle is passed to the [**PlayEnhMetaFile**](/windows/win32/Wingdi/nf-wingdi-playenhmetafile?branch=master) function in order to display the picture.
 
 
 ```C++

@@ -1,8 +1,10 @@
 ---
 title: Win32\_RoamingProfileUserConfiguration class
 description: Represents a roaming profile user configuration.
-ms.assetid: 'a78056d2-d916-4f36-8b7a-1de8353a6e14'
-keywords: ["Win32_RoamingProfileUserConfiguration class User State Manageability API", "Win32_RoamingProfileUserConfiguration class User State Manageability API , described"]
+ms.assetid: a78056d2-d916-4f36-8b7a-1de8353a6e14
+keywords:
+- Win32_RoamingProfileUserConfiguration class User State Manageability API
+- Win32_RoamingProfileUserConfiguration class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_RoamingProfileUserConfiguration class
@@ -27,8 +34,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_RoamingProfileUserConfiguration
 {
-  string  ExcludedProfileDirs[];
-  string  DirectoriesToSyncAtLogonLogoff[];
+  string  ExcludedProfileDirs[];
+  string  DirectoriesToSyncAtLogonLogoff[];
   boolean IsEffective;
 };
 ```
@@ -101,7 +108,7 @@ This class requires a context object to be passed as the *pCtx* parameter to the
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -109,16 +116,16 @@ This class requires a context object to be passed as the *pCtx* parameter to the
 
 |                                     |                                                                                                                    |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                               |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                               |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                             |
 | MOF<br/>                      | <dl> <dt>UserProfileConfigurationWmiProvider.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

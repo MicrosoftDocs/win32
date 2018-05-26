@@ -4,13 +4,15 @@ description: This association indicates a subclass of LogicalDevice (for example
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a4a9991f-380f-4fd0-983e-c846c02ff947'
-ms.prod: 'windows-server-dev'
+ms.assetid: a4a9991f-380f-4fd0-983e-c846c02ff947
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ProtocolControllerForDevice class iSCSI Software Target API", "CIM_ProtocolControllerForDevice class iSCSI Software Target API , described"]
+keywords:
+- CIM_ProtocolControllerForDevice class iSCSI Software Target API
+- CIM_ProtocolControllerForDevice class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ProtocolControllerForDevice class
@@ -39,10 +44,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ProtocolControllerForDevice : CIM_Dependency
 {
   CIM_ProtocolController REF Antecedent;
-  CIM_LogicalDevice      REF Dependent;
-  string                     DeviceNumber;
-  uint16                     AccessPriority;
-  uint16                     AccessState;
+  CIM_LogicalDevice      REF Dependent;
+  string                     DeviceNumber;
+  uint16                     AccessPriority;
+  uint16                     AccessState;
 };
 ```
 
@@ -183,7 +188,7 @@ Address of the associated Device in the context of the Antecedent Controller.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -197,9 +202,9 @@ Address of the associated Device in the context of the Antecedent Controller.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'The following example shows how to use the trace data helper functions to retrieve metadata for each event.'
-ms.assetid: '599e0405-b125-4742-b134-964e25413f59'
+Description: The following example shows how to use the trace data helper functions to retrieve metadata for each event.
+ms.assetid: 599e0405-b125-4742-b134-964e25413f59
 title: Retrieving Event Metadata
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Event Metadata
 
-The following example shows how to use the trace data helper functions to retrieve metadata for each event. Also see the examples included with the [**TdhQueryProviderFieldInformation**](tdhqueryproviderfieldinformation-func.md) and [**TdhEnumerateProviderFieldInformation**](tdhenumerateproviderfieldinformation-func.md) functions.
+The following example shows how to use the trace data helper functions to retrieve metadata for each event. Also see the examples included with the [**TdhQueryProviderFieldInformation**](/windows/win32/Tdh/nf-tdh-tdhqueryproviderfieldinformation?branch=master) and [**TdhEnumerateProviderFieldInformation**](/windows/win32/Tdh/nf-tdh-tdhenumerateproviderfieldinformation?branch=master) functions.
 
 
 ```C++

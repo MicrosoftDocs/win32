@@ -1,7 +1,12 @@
 ---
 title: Registering Classes
 description: Objects that can be created with CoCreateInstance must also be registered with the system.
-ms.assetid: '30899b2b-8b5b-4923-b0a7-b511e239583a'
+ms.assetid: 30899b2b-8b5b-4923-b0a7-b511e239583a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Classes

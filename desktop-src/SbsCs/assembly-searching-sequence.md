@@ -1,7 +1,12 @@
 ---
-Description: 'If an isolated application specifies an assembly dependency, side-by-side first searches for the assembly among the shared assemblies in the WinSxS folder.'
-ms.assetid: '93496631-55cc-4dd9-9a51-b748c35fd477'
+Description: If an isolated application specifies an assembly dependency, side-by-side first searches for the assembly among the shared assemblies in the WinSxS folder.
+ms.assetid: 93496631-55cc-4dd9-9a51-b748c35fd477
 title: Assembly Searching Sequence
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assembly Searching Sequence

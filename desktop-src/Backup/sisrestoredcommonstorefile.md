@@ -1,8 +1,9 @@
 ---
 title: SisRestoredCommonStoreFile function
 description: Reports to the SIS architecture that a common-store file has been written.
-ms.assetid: '2b1cd9e7-a19c-4474-a40a-5a27d4feeab7'
-keywords: ["SisRestoredCommonStoreFile function Backup"]
+ms.assetid: 2b1cd9e7-a19c-4474-a40a-5a27d4feeab7
+keywords:
+- SisRestoredCommonStoreFile function Backup
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Sisbkup.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SisRestoredCommonStoreFile function
@@ -22,8 +28,8 @@ The **SisRestoredCommonStoreFile** function reports to the SIS architecture that
 
 ```C++
 BOOL SisRestoredCommonStoreFile(
-  _In_ PVOID  sisRestoreStructure,
-  _In_ PWCHAR commonStoreFileName
+  _In_ PVOID  sisRestoreStructure,
+  _In_ PWCHAR commonStoreFileName
 );
 ```
 
@@ -63,8 +69,8 @@ Your restore operation should restore only common-store files reported by [**Sis
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Sisbkup.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Sisbkup.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |
@@ -81,9 +87,9 @@ Your restore operation should restore only common-store files reported by [**Sis
 [**SisRestoredLink**](sisrestoredlink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'The following sample code demonstrates how to use vectored exception handling. It uses the AddVectoredExceptionHandler function to add several handlers, tests the handlers, then uses the RemoveVectoredExceptionHandler function to remove the handlers.'
-ms.assetid: 'dbf7016b-09ac-4ca7-9b47-38b0dd763462'
+Description: The following sample code demonstrates how to use vectored exception handling. It uses the AddVectoredExceptionHandler function to add several handlers, tests the handlers, then uses the RemoveVectoredExceptionHandler function to remove the handlers.
+ms.assetid: dbf7016b-09ac-4ca7-9b47-38b0dd763462
 title: Using a Vectored Exception Handler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Vectored Exception Handler
 
-The following sample code demonstrates how to use vectored exception handling. It uses the [**AddVectoredExceptionHandler**](addvectoredexceptionhandler.md) function to add several handlers, tests the handlers, then uses the [**RemoveVectoredExceptionHandler**](removevectoredexceptionhandler.md) function to remove the handlers.
+The following sample code demonstrates how to use vectored exception handling. It uses the [**AddVectoredExceptionHandler**](/windows/win32/WinBase/?branch=master) function to add several handlers, tests the handlers, then uses the [**RemoveVectoredExceptionHandler**](/windows/win32/WinBase/?branch=master) function to remove the handlers.
 
 **64-bit Windows:** This code is not suitable for 64-bit Windows.
 

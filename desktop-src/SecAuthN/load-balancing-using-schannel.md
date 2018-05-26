@@ -1,7 +1,12 @@
 ---
-Description: 'Each server can set a MachineID registry key value in the registry that gets set as a fixed part of the session ID.'
-ms.assetid: '1B373496-1C1B-4D4B-8CAC-B572C58E43A2'
+Description: Each server can set a MachineID registry key value in the registry that gets set as a fixed part of the session ID.
+ms.assetid: 1B373496-1C1B-4D4B-8CAC-B572C58E43A2
 title: Load balancing using Schannel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load balancing using Schannel

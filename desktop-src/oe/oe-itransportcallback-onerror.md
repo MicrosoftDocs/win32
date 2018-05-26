@@ -1,8 +1,11 @@
 ---
 title: ITransportCallback OnError method
 description: Handles high-level errors such as TCP/IP and connection failures.
-ms.assetid: '156a21d8-eb6f-4874-873c-3f12672f93ee'
-keywords: ["OnError method Windows Mail (formerly Outlook Express)", "OnError method Windows Mail (formerly Outlook Express) , ITransportCallback interface", "ITransportCallback interface Windows Mail (formerly Outlook Express) , OnError method"]
+ms.assetid: 156a21d8-eb6f-4874-873c-3f12672f93ee
+keywords:
+- OnError method Windows Mail (formerly Outlook Express)
+- OnError method Windows Mail (formerly Outlook Express) , ITransportCallback interface
+- ITransportCallback interface Windows Mail (formerly Outlook Express) , OnError method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoe.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransportCallback::OnError method
@@ -24,9 +32,9 @@ Handles high-level errors such as TCP/IP and connection failures.
 
 ```C++
 HRESULT OnError(
-  [in] IXPSTATUS          ixpstatus,
-  [in] LPIXPRESULT        pResult,
-  [in] IInternetTransport *pTransport
+  [in] IXPSTATUS          ixpstatus,
+  [in] LPIXPRESULT        pResult,
+  [in] IInternetTransport *pTransport
 );
 ```
 
@@ -79,8 +87,8 @@ A transport calls this method when it encounters a fatal error like disconnectio
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                             |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                      |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                    |
@@ -88,9 +96,9 @@ A transport calls this method when it encounters a fatal error like disconnectio
 
 
 
- 
+ 
 
- 
+ 
 
 
 

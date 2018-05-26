@@ -1,7 +1,12 @@
 ---
-Description: 'Many of the functions require certificate or message encoding types.'
-ms.assetid: '97b25435-aec2-4fdb-a4c6-89ec2e26f51d'
+Description: Many of the functions require certificate or message encoding types.
+ms.assetid: 97b25435-aec2-4fdb-a4c6-89ec2e26f51d
 title: Certificate and Message Encoding Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate and Message Encoding Types

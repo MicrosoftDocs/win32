@@ -1,12 +1,17 @@
 ---
-Description: 'GDI+ provides the GetImageEncoders function so that you can determine which image encoders are available on your computer.'
-ms.assetid: 'a261cf61-b853-4208-984b-0d5040eb1667'
+Description: GDI+ provides the GetImageEncoders function so that you can determine which image encoders are available on your computer.
+ms.assetid: a261cf61-b853-4208-984b-0d5040eb1667
 title: Listing Installed Encoders
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Listing Installed Encoders
 
-GDI+ provides the [**GetImageEncoders**](-gdiplus-func-getimageencoders-numencoders-size-encoders-.md) function so that you can determine which image encoders are available on your computer. **GetImageEncoders** returns an array of [**ImageCodecInfo**](-gdiplus-class-imagecodecinfo-class.md) objects. Before you call **GetImageEncoders**, you must allocate a buffer large enough to receive that array. You can call [**GetImageEncodersSize**](-gdiplus-func-getimageencoderssize-numencoders-size-.md) to determine the size of the required buffer.
+GDI+ provides the [**GetImageEncoders**](/windows/win32/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders?branch=master) function so that you can determine which image encoders are available on your computer. **GetImageEncoders** returns an array of [**ImageCodecInfo**](/windows/win32/Gdiplusimaging/?branch=master) objects. Before you call **GetImageEncoders**, you must allocate a buffer large enough to receive that array. You can call [**GetImageEncodersSize**](/windows/win32/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoderssize?branch=master) to determine the size of the required buffer.
 
 The following console application lists the available image encoders:
 

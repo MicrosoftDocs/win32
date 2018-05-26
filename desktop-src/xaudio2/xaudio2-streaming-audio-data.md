@@ -1,7 +1,12 @@
 ---
-Description: 'Streaming is the process of maintaining only a small portion of a playing audio file in memory. This allows large audio files such as background music to be played, and not take up a large amount of memory.'
-ms.assetid: '7a938ea6-15ef-66b1-0276-88eabf9a722b'
+Description: Streaming is the process of maintaining only a small portion of a playing audio file in memory. This allows large audio files such as background music to be played, and not take up a large amount of memory.
+ms.assetid: 7a938ea6-15ef-66b1-0276-88eabf9a722b
 title: XAudio2 Streaming Audio Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAudio2 Streaming Audio Data

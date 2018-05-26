@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a BasicConstraints object that represents the basic constraints extension of the certificate.'
-ms.assetid: 'cc4e566a-5f68-4e28-9397-39f22a71e45b'
-title: 'ICertificate2::BasicConstraints method'
+---
+Description: Returns a BasicConstraints object that represents the basic constraints extension of the certificate.
+ms.assetid: cc4e566a-5f68-4e28-9397-39f22a71e45b
+title: ICertificate2BasicConstraints method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertificate2::BasicConstraints method

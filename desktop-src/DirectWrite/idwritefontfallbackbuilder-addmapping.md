@@ -1,8 +1,11 @@
 ---
 title: IDWriteFontFallbackBuilder AddMapping method
 description: Appends a single mapping to the list. Call this once for each additional mapping.
-ms.assetid: 'FCA3CD9C-9FB3-49BD-B4D1-53AEAAAAEE8A'
-keywords: ["AddMapping method Direct Write", "AddMapping method Direct Write , IDWriteFontFallbackBuilder interface", "IDWriteFontFallbackBuilder interface Direct Write , AddMapping method"]
+ms.assetid: FCA3CD9C-9FB3-49BD-B4D1-53AEAAAAEE8A
+keywords:
+- AddMapping method Direct Write
+- AddMapping method Direct Write , IDWriteFontFallbackBuilder interface
+- IDWriteFontFallbackBuilder interface Direct Write , AddMapping method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteFontFallbackBuilder::AddMapping method
@@ -22,14 +30,14 @@ Appends a single mapping to the list. Call this once for each additional mapping
 
 ```C++
 HRESULT AddMapping(
-                       DWRITE_UNICODE_RANGE  *ranges,
-                       UINT32                rangesCount,
-  [in]           const WCHAR                 **targetFamilyNames,
-                       UINT32                targetFamilyNamesCount,
-  [in, optional]       IDWriteFontCollection fontCollection = nullptr,
-  [in, optional] const WCHAR                 *localeName = nullptr,
-  [in, optional] const WCHAR                 *baseFamilyName = nullptr,
-                       FLOAT                 scale = 1
+                       DWRITE_UNICODE_RANGE  *ranges,
+                       UINT32                rangesCount,
+  [in]           const WCHAR                 **targetFamilyNames,
+                       UINT32                targetFamilyNamesCount,
+  [in, optional]       IDWriteFontCollection fontCollection = nullptr,
+  [in, optional] const WCHAR                 *localeName = nullptr,
+  [in, optional] const WCHAR                 *baseFamilyName = nullptr,
+                       FLOAT                 scale = 1
 );
 ```
 
@@ -42,7 +50,7 @@ HRESULT AddMapping(
 *ranges* 
 </dt> <dd>
 
-Type: **[**DWRITE\_UNICODE\_RANGE**](dwrite-unicode-range.md)\***
+Type: **[**DWRITE\_UNICODE\_RANGE**](/windows/win32/Dwrite_1/ns-dwrite_1-dwrite_unicode_range?branch=master)\***
 
 Unicode ranges that apply to this mapping.
 
@@ -78,7 +86,7 @@ Number of target family names.
 *fontCollection* \[in, optional\]
 </dt> <dd>
 
-Type: **[**IDWriteFontCollection**](idwritefontcollection.md)**
+Type: **[**IDWriteFontCollection**](/windows/win32/dwrite/?branch=master)**
 
 Optional explicit font collection for this mapping.
 
@@ -123,9 +131,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
 | Library<br/>                  | <dl> <dt>Dwrite.lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |
 
@@ -138,9 +146,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IDWriteFontFallbackBuilder**](idwritefontfallbackbuilder.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

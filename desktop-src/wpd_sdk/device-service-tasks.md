@@ -1,7 +1,12 @@
 ---
 Description: Device Service Tasks
-ms.assetid: 'ca97c55e-90d1-410c-b41d-c49673c10388'
+ms.assetid: ca97c55e-90d1-410c-b41d-c49673c10388
 title: Device Service Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Service Tasks

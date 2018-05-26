@@ -1,14 +1,20 @@
 ---
 title: LinkURI element
 description: The path to an executable or web page.
-ms.assetid: '498D3E0F-AA78-48A4-BF5A-3572E4A78E8B'
-keywords: ["LinkURI element Access Execution Engine"]
+ms.assetid: 498D3E0F-AA78-48A4-BF5A-3572E4A78E8B
+keywords:
+- LinkURI element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - LinkURI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LinkURI element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

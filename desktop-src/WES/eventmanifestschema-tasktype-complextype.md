@@ -1,14 +1,20 @@
 ---
 title: TaskType Complex Type
 description: Defines a component or subcomponent of an application.
-ms.assetid: 'd117636d-6363-43b6-ac5a-52234ac7c729'
-keywords: ["TaskType complex type EventLog"]
+ms.assetid: d117636d-6363-43b6-ac5a-52234ac7c729
+keywords:
+- TaskType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - TaskType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskType Complex Type
@@ -109,14 +115,14 @@ The following example shows how to specify a task.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

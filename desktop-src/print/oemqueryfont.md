@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMQueryFont function is used by GDI to get the IFIMETRICS structure for a given font.'
-ms.assetid: 'cee6b2dd-e79b-4372-8371-c57fe950de88'
+---
+Description: The OEMQueryFont function is used by GDI to get the IFIMETRICS structure for a given font.
+ms.assetid: cee6b2dd-e79b-4372-8371-c57fe950de88
 title: OEMQueryFont function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMQueryFont function

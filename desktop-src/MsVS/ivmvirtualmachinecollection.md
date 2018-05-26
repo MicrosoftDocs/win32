@@ -1,8 +1,10 @@
 ---
 title: IVMVirtualMachineCollection interface
 description: The IVMVirtualMachineCollection interface defines the collection of virtual machines within Virtual Server. An IVMVirtualMachineCollection object is returned from the IVMVirtualServer VirtualMachines property.
-ms.assetid: '4904b2e8-0acc-4fc3-8bf9-8baacf5d5f4c'
-keywords: ["IVMVirtualMachineCollection interface Virtual Server", "IVMVirtualMachineCollection interface Virtual Server , described"]
+ms.assetid: 4904b2e8-0acc-4fc3-8bf9-8baacf5d5f4c
+keywords:
+- IVMVirtualMachineCollection interface Virtual Server
+- IVMVirtualMachineCollection interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachineCollection interface
@@ -37,7 +44,7 @@ The **IVMVirtualMachineCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,8 +52,8 @@ The **IVMVirtualMachineCollection** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -61,9 +68,9 @@ The **IVMVirtualMachineCollection** interface has these properties.
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

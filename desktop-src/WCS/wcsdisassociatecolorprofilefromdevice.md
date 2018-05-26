@@ -1,8 +1,9 @@
 ---
 title: WcsDisassociateColorProfileFromDevice function
 description: Disassociates a specified WCS color profile from a specified device on a computer.
-ms.assetid: 'd5c2ee77-7cab-4f41-801c-bc749bba00c1'
-keywords: ["WcsDisassociateColorProfileFromDevice function Windows Color System"]
+ms.assetid: d5c2ee77-7cab-4f41-801c-bc749bba00c1
+keywords:
+- WcsDisassociateColorProfileFromDevice function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsDisassociateColorProfileFromDevice function
@@ -22,9 +28,9 @@ Disassociates a specified WCS color profile from a specified device on a compute
 
 ```C++
 BOOL WINAPI WcsDisassociateColorProfileFromDevice(
-  _In_ WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
-  _In_ PCWSTR                       pProfileName,
-  _In_ PCWSTR                       pDeviceName
+  _In_ WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
+  _In_ PCWSTR                       pProfileName,
+  _In_ PCWSTR                       pDeviceName
 );
 ```
 
@@ -79,8 +85,8 @@ If *profileManagementScope* is WCS\_PROFILE\_MANAGEMENT\_SCOPE\_CURRENT\_USER, t
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -103,9 +109,9 @@ If *profileManagementScope* is WCS\_PROFILE\_MANAGEMENT\_SCOPE\_CURRENT\_USER, t
 [**WcsAssociateColorProfileWithDevice**](wcsassociatecolorprofilewithdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

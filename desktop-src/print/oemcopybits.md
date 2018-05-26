@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMCopyBits function performs translations between device-managed raster surfaces and GDI standard-format bitmaps.'
-ms.assetid: 'bd7a8fc6-0d68-4d80-b622-90cd981f9d13'
+---
+Description: The OEMCopyBits function performs translations between device-managed raster surfaces and GDI standard-format bitmaps.
+ms.assetid: bd7a8fc6-0d68-4d80-b622-90cd981f9d13
 title: OEMCopyBits function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMCopyBits function

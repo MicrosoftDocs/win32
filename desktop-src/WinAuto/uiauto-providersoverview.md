@@ -1,8 +1,25 @@
 ---
 title: UI Automation Providers Overview
 description: This topic provides an overview of how control developers implement UI Automation providers.
-ms.assetid: '8928c889-0e0a-439f-87e8-a9d121fcf73f'
-keywords: ["UI Automation,providers overview", "UI Automation,provider types", "UI Automation,provider concepts", "providers,about", "providers,types", "providers,concepts", "providers,elements", "providers,navigation", "providers,views", "providers,frameworks", "providers,fragments", "providers,hosts"]
+ms.assetid: 8928c889-0e0a-439f-87e8-a9d121fcf73f
+keywords:
+- UI Automation,providers overview
+- UI Automation,provider types
+- UI Automation,provider concepts
+- providers,about
+- providers,types
+- providers,concepts
+- providers,elements
+- providers,navigation
+- providers,views
+- providers,frameworks
+- providers,fragments
+- providers,hosts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Providers Overview

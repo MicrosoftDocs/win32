@@ -1,8 +1,10 @@
 ---
 title: IVMTaskCollection interface
 description: The IVMTaskCollection interface defines the collection of task objects. An IVMTaskCollection object is returned from the IVMVirtualServer Tasks property.
-ms.assetid: 'fc9272c1-5af9-4ac8-b75e-6d9bc8f69099'
-keywords: ["IVMTaskCollection interface Virtual Server", "IVMTaskCollection interface Virtual Server , described"]
+ms.assetid: fc9272c1-5af9-4ac8-b75e-6d9bc8f69099
+keywords:
+- IVMTaskCollection interface Virtual Server
+- IVMTaskCollection interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTaskCollection interface
@@ -37,7 +44,7 @@ The **IVMTaskCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,8 +52,8 @@ The **IVMTaskCollection** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -61,9 +68,9 @@ The **IVMTaskCollection** interface has these properties.
 [**IVMTask**](ivmtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.getByAlbum method
 description: The GetByAlbum method retrieves a playlist containing the media items from the specified album.
-ms.assetid: '8db2349b-46f4-4863-a409-a85983362046'
-keywords: ["getByAlbum method Windows Media Player", "getByAlbum method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , getByAlbum method"]
+ms.assetid: 8db2349b-46f4-4863-a409-a85983362046
+keywords:
+- getByAlbum method Windows Media Player
+- getByAlbum method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , getByAlbum method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.getByAlbum method
@@ -105,9 +113,9 @@ onClick = "
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

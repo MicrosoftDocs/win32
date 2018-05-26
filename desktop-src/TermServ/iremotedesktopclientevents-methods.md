@@ -4,10 +4,13 @@ description: The IRemoteDesktopClientEvents interface exposes the following meth
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'D8035924-736D-495D-BF78-950DAEB69774'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: D8035924-736D-495D-BF78-950DAEB69774
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IRemoteDesktopClientEvents methods
@@ -112,7 +115,7 @@ Called when the remote desktop size has changed.
 [**OnTouchPointerCursorMoved method**](iremotedesktopclientevents-ontouchpointercursormoved.md)
 </dt> <dd>
 
-Called when the touch pointer cursor has moved and the [**EventsEnabled**](iremotedesktopclienttouchpointer-eventsenabled.md) property is set to true.
+Called when the touch pointer cursor has moved and the [**EventsEnabled**](/windows/win32/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclienttouchpointer-get_eventsenabled?branch=master) property is set to true.
 
 </dd> </dl>
 

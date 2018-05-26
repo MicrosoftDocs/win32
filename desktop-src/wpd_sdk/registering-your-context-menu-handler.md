@@ -1,7 +1,12 @@
 ---
 Description: Registering Your Context Menu Handler
-ms.assetid: '0023004b-b6b3-486a-8b8c-8e63c5731206'
+ms.assetid: 0023004b-b6b3-486a-8b8c-8e63c5731206
 title: Registering Your Context Menu Handler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Your Context Menu Handler
@@ -47,11 +52,11 @@ The above example registers the shell image viewer with the WPD namespace. When 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

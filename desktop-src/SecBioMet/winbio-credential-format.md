@@ -1,8 +1,9 @@
 ---
 title: WINBIO\_CREDENTIAL\_FORMAT enumeration
 description: Defines flags that can be used to specify the end-user credential format.
-ms.assetid: 'f107e000-98a2-44f0-aa5e-d13b5d9c8d43'
-keywords: ["WINBIO_CREDENTIAL_FORMAT enumeration Windows Biometric Framework API"]
+ms.assetid: f107e000-98a2-44f0-aa5e-d13b5d9c8d43
+keywords:
+- WINBIO_CREDENTIAL_FORMAT enumeration Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,20 +12,25 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_CREDENTIAL\_FORMAT enumeration
 
-Defines flags that can be used to specify the end-user credential format. This enumeration is used by the [**WinBioSetCredential**](winbiosetcredential.md) function.
+Defines flags that can be used to specify the end-user credential format. This enumeration is used by the [**WinBioSetCredential**](/windows/win32/Winbio/nf-winbio-winbiosetcredential?branch=master) function.
 
 ## Syntax
 
 
 ```C++
 typedef enum _WINBIO_CREDENTIAL_FORMAT { 
-  WINBIO_PASSWORD_GENERIC    = 0x00000001,
-  WINBIO_PASSWORD_PACKED     = 0x00000002,
-  WINBIO_PASSWORD_PROTECTED  = 0x00000003
+  WINBIO_PASSWORD_GENERIC    = 0x00000001,
+  WINBIO_PASSWORD_PACKED     = 0x00000002,
+  WINBIO_PASSWORD_PROTECTED  = 0x00000003
 } WINBIO_CREDENTIAL_FORMAT;
 ```
 
@@ -61,8 +67,8 @@ The password credential was wrapped with [**CredProtect**](https://msdn.microsof
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -74,12 +80,12 @@ The password credential was wrapped with [**CredProtect**](https://msdn.microsof
 [Client Application Enumerations](client-application-enumerations.md)
 </dt> <dt>
 
-[**WinBioSetCredential**](winbiosetcredential.md)
+[**WinBioSetCredential**](/windows/win32/Winbio/nf-winbio-winbiosetcredential?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

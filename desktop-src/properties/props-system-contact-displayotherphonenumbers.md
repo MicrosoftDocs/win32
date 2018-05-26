@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '987ab3ff-6b8b-4774-92d7-c3486746d3ca'
-title: 'System.Contact.DisplayOtherPhoneNumbers'
+Description: .
+ms.assetid: 987ab3ff-6b8b-4774-92d7-c3486746d3ca
+title: System.Contact.DisplayOtherPhoneNumbers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.DisplayOtherPhoneNumbers

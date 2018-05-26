@@ -1,8 +1,11 @@
 ---
 title: Logging LogBeginOperation method
-description: This method logs a begin event to the AXE engine’s pre-configured ETW session.
-ms.assetid: '3c44f6d9-8b0a-4fd6-9caf-b932e70fe152'
-keywords: ["LogBeginOperation method Access Execution Engine", "LogBeginOperation method Access Execution Engine , Logging interface", "Logging interface Access Execution Engine , LogBeginOperation method"]
+description: This method logs a begin event to the AXE engine s pre-configured ETW session.
+ms.assetid: 3c44f6d9-8b0a-4fd6-9caf-b932e70fe152
+keywords:
+- LogBeginOperation method Access Execution Engine
+- LogBeginOperation method Access Execution Engine , Logging interface
+- Logging interface Access Execution Engine , LogBeginOperation method
 topic_type:
 - apiref
 api_name:
@@ -11,21 +14,26 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Logging::LogBeginOperation method
 
-This method logs a begin event to the AXE engine’s pre-configured ETW session.
+This method logs a begin event to the AXE engine s pre-configured ETW session.
 
 ## Syntax
 
 
 ```C++
 virtual HRESULT LogBeginOperation(
-  [in]           UINT    operationId,
-  [in, optional] LPCWSTR message,
-  [in]           UINT    blobSize,
-  [in, optional] BYTE    *blob
+  [in]           UINT    operationId,
+  [in, optional] LPCWSTR message,
+  [in]           UINT    blobSize,
+  [in, optional] BYTE    *blob
 ) = 0;
 ```
 
@@ -73,7 +81,7 @@ If *blob* is **NULL** when *blobByteSize* is not zero, the return is **E\_POINTE
 
 ## Remarks
 
-Calling this API logs the *operationId*, *message* and the blob to AXE’s ETW pre-configured session as the session’s **ASSESSMENT\_BEGIN\_OPERATION** event. Assessments should end the session with a call to [**LogEndOperation**](logging-logendoperation.md).
+Calling this API logs the *operationId*, *message* and the blob to AXE s ETW pre-configured session as the session s **ASSESSMENT\_BEGIN\_OPERATION** event. Assessments should end the session with a call to [**LogEndOperation**](logging-logendoperation.md).
 
 It is strongly recommended that the begin and end operation events be logged as pairs matched by Id. If they are not matched, ETW trace processing tools and data viewers will not be able to analyze paired events.
 
@@ -85,8 +93,8 @@ Managed code uses [**Logging.LogBeginOperation**](axe-logging_logbeginoperation_
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>AxeCore.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl> |
 
@@ -99,9 +107,9 @@ Managed code uses [**Logging.LogBeginOperation**](axe-logging_logbeginoperation_
 [**Logging**](logging.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

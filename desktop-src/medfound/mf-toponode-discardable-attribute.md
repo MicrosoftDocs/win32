@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the pipeline can drop samples from a topology node.'
-ms.assetid: '8be20446-4876-4d6f-b0db-2eb1ffaef9aa'
-title: 'MF\_TOPONODE\_DISCARDABLE attribute'
+---
+Description: Specifies whether the pipeline can drop samples from a topology node.
+ms.assetid: 8be20446-4876-4d6f-b0db-2eb1ffaef9aa
+title: MF\_TOPONODE\_DISCARDABLE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPONODE\_DISCARDABLE attribute
@@ -41,13 +46,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> <dt>
 
 [Topology Node Attributes](topology-node-attributes.md)

@@ -1,7 +1,12 @@
 ---
-Description: 'In Windows Vista and Windows Server 2008 and later, the developer of a VSS writer or application may choose to exclude certain files from shadow copies.'
-ms.assetid: '4fe1ae94-7b2f-421a-9009-3a7e88822458'
+Description: In Windows Vista and Windows Server 2008 and later, the developer of a VSS writer or application may choose to exclude certain files from shadow copies.
+ms.assetid: 4fe1ae94-7b2f-421a-9009-3a7e88822458
 title: Excluding Files from Shadow Copies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Excluding Files from Shadow Copies
@@ -14,14 +19,14 @@ For these reasons, a file should be excluded from shadow copies only if it is la
 
 You should only exclude files that belong to your application.
 
-If the VSS\_VOLSNAP\_ATTR\_NO\_AUTORECOVERY flag is set in the shadow copy context, this means that auto-recovery is disabled, and no files can be excluded from the shadow copy. For more information, see the [**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](-vss-volume-snapshot-attributes.md) enumeration.
+If the VSS\_VOLSNAP\_ATTR\_NO\_AUTORECOVERY flag is set in the shadow copy context, this means that auto-recovery is disabled, and no files can be excluded from the shadow copy. For more information, see the [**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](/windows/win32/Vss/ne-vss-_vss_volume_snapshot_attributes?branch=master) enumeration.
 
 ## Using the AddExcludeFilesFromSnapshot Method
 
 A VSS writer can exclude files from a shadow copy as follows:
 
-1.  Call the [**IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot**](ivsscreatewritermetadataex-addexcludefilesfromsnapshot.md) method to report the files to be excluded.
-2.  In the writer's [**CVssWriter::OnPostSnapshot**](cvsswriter-onpostsnapshot.md) method, delete the files from the shadow copy.
+1.  Call the [**IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot**](/windows/win32/VsWriter/nf-vswriter-ivsscreatewritermetadataex-addexcludefilesfromsnapshot?branch=master) method to report the files to be excluded.
+2.  In the writer's [**CVssWriter::OnPostSnapshot**](/windows/win32/VsWriter/nf-vswriter-cvsswriter-onpostsnapshot?branch=master) method, delete the files from the shadow copy.
 
 ## Using the FilesNotToSnapshot Registry Key
 

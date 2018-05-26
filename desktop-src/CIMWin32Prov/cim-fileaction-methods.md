@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_FileAction class exposes the following methods.'
+Description: The CIM\_FileAction class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '534F0F25-F6CD-4202-9045-5D2EDD532956'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 534F0F25-F6CD-4202-9045-5D2EDD532956
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_FileAction Methods'
+title: CIM\_FileAction Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_FileAction Methods

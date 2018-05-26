@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_ANSI\_381\_POS Fingerprint Constants
 description: Specify the fingers scanned by a sensor.
-ms.assetid: '86F8E937-41A8-40A8-8246-226A0AE512FB'
+ms.assetid: 86F8E937-41A8-40A8-8246-226A0AE512FB
 topic_type:
 - apiref
 api_name:
@@ -33,6 +33,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_ANSI\_381\_POS Fingerprint Constants
@@ -73,7 +78,7 @@ The WINBIO\_FINGER\_UNSPECIFIED\_POS\_\* constants are not part of the ANSI 381 
 >
 > Do not attempt to validate fingerprint constant values. The Windows Biometrics Service will validate supplied fingerprint constant values before passing them through to your implementation.
 
- 
+ 
 
 ## Requirements
 
@@ -81,8 +86,8 @@ The WINBIO\_FINGER\_UNSPECIFIED\_POS\_\* constants are not part of the ANSI 381 
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -94,9 +99,9 @@ The WINBIO\_FINGER\_UNSPECIFIED\_POS\_\* constants are not part of the ANSI 381 
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

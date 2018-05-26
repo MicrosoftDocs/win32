@@ -4,11 +4,16 @@ description: This topic contains links to topics that describe how to set up the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4cd1113d-7e0a-4518-be08-1d2630ee9f7f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 4cd1113d-7e0a-4518-be08-1d2630ee9f7f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["User Cannot Change Password ADSI ,LDAP provider", "LDAP provider ADSI ,user management examples,User Cannot Change Password"]
+keywords:
+- User Cannot Change Password ADSI ,LDAP provider
+- LDAP provider ADSI ,user management examples,User Cannot Change Password
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # User Cannot Change Password (LDAP Provider)

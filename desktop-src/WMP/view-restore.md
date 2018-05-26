@@ -1,14 +1,20 @@
 ---
 title: VIEW.restore
 description: The restore method restores the VIEW.
-ms.assetid: '8005c14e-771b-4f20-8039-fc09869dc726'
-keywords: ["VIEW.restore Windows Media Player"]
+ms.assetid: 8005c14e-771b-4f20-8039-fc09869dc726
+keywords:
+- VIEW.restore Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.restore
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.restore
@@ -59,9 +65,9 @@ This method does not return a value.
 [**VIEW Element**](view-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

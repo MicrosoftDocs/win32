@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxOutgoingQueue configuration object is used by a fax client application to set and retrieve the configuration parameters on the outbound fax queue on a fax server.'
-ms.assetid: 'bad77c9e-2ae5-41a6-ace3-b4b92eb66cc2'
+---
+Description: The FaxOutgoingQueue configuration object is used by a fax client application to set and retrieve the configuration parameters on the outbound fax queue on a fax server.
+ms.assetid: bad77c9e-2ae5-41a6-ace3-b4b92eb66cc2
 title: FaxOutgoingQueue object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingQueue object
@@ -91,7 +96,7 @@ To create a **FaxOutgoingQueue** object in C++, call the [**OutgoingQueue**](-mf
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxOutgoingQueue**](-mfax-faxoutgoingqueue-cpp.md)
+[**IFaxOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingqueue?branch=master)
 </dt> </dl>
 
  

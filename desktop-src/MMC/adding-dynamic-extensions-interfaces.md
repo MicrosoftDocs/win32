@@ -4,11 +4,16 @@ description: Dynamic namespace extensions require the use of the following inter
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '40a55628-5e49-4086-ac48-506708d606e0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 40a55628-5e49-4086-ac48-506708d606e0
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["dynamic extensions MMC , interfaces", "adding dynamic extensions interfaces MMC"]
+keywords:
+- dynamic extensions MMC , interfaces
+- adding dynamic extensions interfaces MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Dynamic Extensions: Interfaces

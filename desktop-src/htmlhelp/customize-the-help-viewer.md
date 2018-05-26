@@ -1,7 +1,12 @@
 ---
 title: Customize the Help Viewer
 description: Customize the Help Viewer
-ms.assetid: 'FC18EE06-BF13-4235-98A3-6B8298C88E8E'
+ms.assetid: FC18EE06-BF13-4235-98A3-6B8298C88E8E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customize the Help Viewer

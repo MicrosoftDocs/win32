@@ -2,13 +2,16 @@
 title: Remove method of the PS\_VpnSstpProxyRule class
 description: Removes one or more Tenant ID to Gateway mappings for the SSTP proxy.
 audience: developer
-ms.assetid: '5f9e7456-4243-4c1e-93f1-7ebeb7497823'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5f9e7456-4243-4c1e-93f1-7ebeb7497823
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_VpnSstpProxyRule class", "PS_VpnSstpProxyRule class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_VpnSstpProxyRule class
+- PS_VpnSstpProxyRule class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_VpnSstpProxyRule class
@@ -28,8 +34,8 @@ Removes one or more Tenant ID to Gateway mappings for the SSTP proxy.
 
 ```mof
 uint32 Remove(
-  [in] string  TenantID[],
-  [in] boolean Force
+  [in] string  TenantID[],
+  [in] boolean Force
 );
 ```
 
@@ -60,7 +66,7 @@ If specified, overrides the default confirmation before performing the operation
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Ramgmtpsprovider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -74,9 +80,9 @@ If specified, overrides the default confirmation before performing the operation
 [**PS\_VpnSstpProxyRule**](ps-vpnsstpproxyrule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

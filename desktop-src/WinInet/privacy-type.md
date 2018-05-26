@@ -1,7 +1,7 @@
 ---
 title: Privacy Type
 description: Specifies that privacy settings are for either first-party or third-party cookies.
-ms.assetid: '7d0846d4-fd81-4af9-b7e6-05c4c1438770'
+ms.assetid: 7d0846d4-fd81-4af9-b7e6-05c4c1438770
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - Wininet.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Privacy Type
@@ -52,7 +57,7 @@ Cookies are categorized as first-party and third-party. A first-party cookie is 
 > [!Note]  
 > WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).
 
- 
+ 
 
 ## Requirements
 
@@ -60,8 +65,8 @@ Cookies are categorized as first-party and third-party. A first-party cookie is 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Wininet.h</dt> </dl> |
 
 
@@ -70,15 +75,15 @@ Cookies are categorized as first-party and third-party. A first-party cookie is 
 
 <dl> <dt>
 
-[**PrivacyGetZonePreferenceW**](privacygetzonepreferencew.md)
+[**PrivacyGetZonePreferenceW**](/windows/win32/winineti/nf-wininet-privacygetzonepreferencew?branch=master)
 </dt> <dt>
 
-[**PrivacySetZonePreferenceW**](privacysetzonepreferencew.md)
+[**PrivacySetZonePreferenceW**](/windows/win32/winineti/nf-wininet-privacysetzonepreferencew?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

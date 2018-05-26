@@ -1,7 +1,12 @@
 ---
-Description: 'Sent when the VMR-7''s allocator presenter has called the DirectDraw Flip method on the surface being presented. This allows the VMR to keep its DirectXVA table of surfaces synchronized with DirectDraw''s flipping chain.'
-ms.assetid: 'e298857b-0579-48b4-add0-72320bc52d63'
-title: 'EC\_VMR\_SURFACE\_FLIPPED'
+Description: Sent when the VMR-7s allocator presenter has called the DirectDraw Flip method on the surface being presented. This allows the VMR to keep its DirectXVA table of surfaces synchronized with DirectDraws flipping chain.
+ms.assetid: e298857b-0579-48b4-add0-72320bc52d63
+title: EC\_VMR\_SURFACE\_FLIPPED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_VMR\_SURFACE\_FLIPPED
@@ -50,9 +55,9 @@ Custom allocator-presenters for the VMR-7 should send this event. This event is 
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

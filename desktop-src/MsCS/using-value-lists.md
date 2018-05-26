@@ -4,11 +4,15 @@ description: Value lists are used in some control code operations and as the bui
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '92a0e739-b547-4c49-ba79-ac6962f2d276'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 92a0e739-b547-4c49-ba79-ac6962f2d276
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["value lists Failover Cluster ,using"]
+keywords:
+- value lists Failover Cluster ,using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Value Lists

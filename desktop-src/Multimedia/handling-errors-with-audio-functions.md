@@ -1,8 +1,19 @@
 ---
 title: Handling Errors with Audio Functions
 description: Handling Errors with Audio Functions
-ms.assetid: '76f132f1-61dc-4bfc-9e4a-7c841a487794'
-keywords: ["multimedia audio,waveform audio errors", "audio,waveform audio errors", "multimedia audio,auxiliary audio errors", "audio,auxiliary audio errors", "waveform audio,errors", "auxiliary audio,errors"]
+ms.assetid: 76f132f1-61dc-4bfc-9e4a-7c841a487794
+keywords:
+- multimedia audio,waveform audio errors
+- audio,waveform audio errors
+- multimedia audio,auxiliary audio errors
+- audio,auxiliary audio errors
+- waveform audio,errors
+- auxiliary audio,errors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Errors with Audio Functions

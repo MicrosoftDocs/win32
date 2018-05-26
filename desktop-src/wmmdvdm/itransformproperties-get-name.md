@@ -1,8 +1,11 @@
 ---
 title: ITransformProperties get\_Name method
 description: The get\_Name method gets the name of the current property holding the collection of child properties. This is equivalent to ITransformProperty get\_Name.
-ms.assetid: '1c3eb98c-3da7-481f-84dd-63f4fd6a6a7b'
-keywords: ["get_Name method Windows Movie Maker and DVD Maker", "get_Name method Windows Movie Maker and DVD Maker , ITransformProperties interface", "ITransformProperties interface Windows Movie Maker and DVD Maker , get_Name method"]
+ms.assetid: 1c3eb98c-3da7-481f-84dd-63f4fd6a6a7b
+keywords:
+- get_Name method Windows Movie Maker and DVD Maker
+- get_Name method Windows Movie Maker and DVD Maker , ITransformProperties interface
+- ITransformProperties interface Windows Movie Maker and DVD Maker , get_Name method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformProperties::get\_Name method
@@ -25,8 +33,8 @@ The **get\_Name** method gets the name of the current property holding the colle
 
 ```C++
 HRESULT get_Name(
-  [in]      LPTSTR szBuffer,
-  [in, out] long   *plSizeBufferChars
+  [in]      LPTSTR szBuffer,
+  [in, out] long   *plSizeBufferChars
 );
 ```
 
@@ -60,8 +68,8 @@ The method returns an **HRESULT** of S\_OK for success, or a standard COM error 
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -74,9 +82,9 @@ The method returns an **HRESULT** of S\_OK for success, or a standard COM error 
 [**ITransformProperties Interface**](itransformproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

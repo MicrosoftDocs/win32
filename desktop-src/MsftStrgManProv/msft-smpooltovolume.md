@@ -4,11 +4,13 @@ description: Represents a relationsip between a storage pool and a volume.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd6d8bf10-8052-4cfa-b9b4-3cb1e8f5bb49'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: d6d8bf10-8052-4cfa-b9b4-3cb1e8f5bb49
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMPoolToVolume class", "MSFT_SMPoolToVolume class, described"]
+keywords:
+- MSFT_SMPoolToVolume class
+- MSFT_SMPoolToVolume class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMPoolToVolume class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, dynamic, provider("WMIStorage")]
 class MSFT_SMPoolToVolume
 {
-  MSFT_SMPool          REF Parent;
+  MSFT_SMPool          REF Parent;
   MSFT_SMStorageVolume REF Child;
 };
 ```
@@ -89,7 +94,7 @@ The object that represents the storage pool.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -103,9 +108,9 @@ The object that represents the storage pool.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

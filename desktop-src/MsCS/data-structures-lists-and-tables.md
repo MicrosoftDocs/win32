@@ -4,11 +4,16 @@ description: The Failover Cluster API defines a number of ways to arrange multip
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3cfa00b5-2512-43dc-b272-22f1f37e1db8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3cfa00b5-2512-43dc-b272-22f1f37e1db8
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["data Failover Cluster", "data Failover Cluster ,structures and lists and tables described"]
+keywords:
+- data Failover Cluster
+- data Failover Cluster ,structures and lists and tables described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Data Structures, Lists, and Tables

@@ -1,7 +1,12 @@
 ---
 title: Character Object Properties
 description: Character Object Properties
-ms.assetid: '86748de2-f5c8-4057-bfa4-79d46cac1e62'
+ms.assetid: 86748de2-f5c8-4057-bfa4-79d46cac1e62
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Character Object Properties

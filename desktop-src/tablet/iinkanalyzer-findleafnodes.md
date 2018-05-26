@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves all of the leaf nodes.'
-ms.assetid: '5534053c-c5b9-4576-857f-c8af39e821a7'
-title: 'IInkAnalyzer::FindLeafNodes method'
+Description: Retrieves all of the leaf nodes.
+ms.assetid: 5534053c-c5b9-4576-857f-c8af39e821a7
+title: IInkAnalyzerFindLeafNodes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::FindLeafNodes method
@@ -13,7 +18,7 @@ Retrieves all of the leaf nodes.
 
 ```C++
 HRESULT FindLeafNodes(
-  [out] IContextNodes **ppContextNodesFound
+  [out] IContextNodes **ppContextNodesFound
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppContextNodesFound* when you no longer need to use the object.
 
- 
+ 
 
 Leaf nodes do not contain child nodes. Examples of ink leaf nodes are InkWord, TextWord, Image, InkDrawing, and InkBullet [**IContextNode**](icontextnode.md) objects. For more information, see [Context Node Types](context-node-types.md).
 
@@ -49,7 +54,7 @@ Leaf nodes do not contain child nodes. Examples of ink leaf nodes are InkWord, T
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -90,9 +95,9 @@ Leaf nodes do not contain child nodes. Examples of ink leaf nodes are InkWord, T
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

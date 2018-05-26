@@ -1,12 +1,17 @@
-﻿---
-Description: 'Returns a RecordList object that lists installed components.'
-ms.assetid: 'a91656de-2ebc-45b5-86f8-b13f35c6a762'
-title: 'Installer.ComponentsEx property'
+---
+Description: Returns a RecordList object that lists installed components.
+ms.assetid: a91656de-2ebc-45b5-86f8-b13f35c6a762
+title: Installer.ComponentsEx property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ComponentsEx property
 
-This property returns a [**RecordList**](recordlist-object.md) object that lists installed components. This property calls [**MsiEnumComponentsEx**](msienumcomponentsex.md).
+This property returns a [**RecordList**](recordlist-object.md) object that lists installed components. This property calls [**MsiEnumComponentsEx**](/windows/win32/Msi/nf-msi-msienumcomponentsexa?branch=master).
 
 **[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported. This property is available beginning with Windows Installer 5.0.
 
@@ -39,7 +44,7 @@ propVal = Installer.ComponentsEx
 
 <dl> <dt>
 
-[**MsiEnumComponentsEx**](msienumcomponentsex.md)
+[**MsiEnumComponentsEx**](/windows/win32/Msi/nf-msi-msienumcomponentsexa?branch=master)
 </dt> </dl>
 
  

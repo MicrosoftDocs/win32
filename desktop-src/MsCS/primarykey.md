@@ -4,17 +4,21 @@ description: Primary key.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5A7E52C4-3086-4F16-A981-0FB85583B798'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5A7E52C4-3086-4F16-A981-0FB85583B798
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["PrimaryKey Failover Cluster"]
+keywords:
+- PrimaryKey Failover Cluster
 topic_type:
 - apiref
 api_name:
 - PrimaryKey
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PrimaryKey
@@ -34,7 +38,7 @@ Primary key.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_CLOUDWITNESS\_PRIMARY\_KEY**.
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                            |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_CLOUDWITNESS\_PRIMARY\_KEY**.
 [Cloud Witness Private Properties](cloud-witness-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

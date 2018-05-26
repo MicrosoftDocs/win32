@@ -1,7 +1,12 @@
 ---
-Description: 'Network Monitor uses the ParserAutoInstallInfo export function to install a parser. When ParserAutoInstallInfo is called, the parser returns a PF\_PARSERDLLINFO structure containing all the information that Network Monitor needs to install a parser DLL.'
-ms.assetid: '1add9988-9cb2-43f9-8ae2-32acfe21b6f3'
+Description: Network Monitor uses the ParserAutoInstallInfo export function to install a parser. When ParserAutoInstallInfo is called, the parser returns a PF\_PARSERDLLINFO structure containing all the information that Network Monitor needs to install a parser DLL.
+ms.assetid: 1add9988-9cb2-43f9-8ae2-32acfe21b6f3
 title: Implementing ParserAutoInstallInfo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing ParserAutoInstallInfo

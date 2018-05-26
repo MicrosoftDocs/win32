@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ProcessorPool class
 description: Aggregates the processor resources that may be allocated to a virtual system.
-ms.assetid: 'eda54edc-2ecc-4ec9-93c1-25d7a6acf09a'
-keywords: ["Msvm_ProcessorPool class Hyper-V", "Msvm_ProcessorPool class Hyper-V , described"]
+ms.assetid: eda54edc-2ecc-4ec9-93c1-25d7a6acf09a
+keywords:
+- Msvm_ProcessorPool class Hyper-V
+- Msvm_ProcessorPool class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ProcessorPool class
@@ -43,24 +50,24 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ProcessorPool : CIM_ResourcePool
 {
-  string   Caption = "Processor Resource Pool";
-  string   Description = "Resource Pool used to allocate Microsoft Virtual Processor Pool resources to a virtual machine";
+  string   Caption = "Processor Resource Pool";
+  string   Description = "Resource Pool used to allocate Microsoft Virtual Processor Pool resources to a virtual machine";
   datetime InstallDate;
-  string   Name = "Processor Resource Pool";
-  uint16   OperationalStatus[] = 2;
-  string   Status;
-  uint16   HealthState = 5;
-  string   InstanceID = "Microsoft:GUID\Root";
-  boolean  Primordial = FALSE;
-  uint64   Capacity = 100000;
-  uint64   Reserved = 0;
-  uint16   ResourceType = 3;
-  string   OtherResourceType;
-  string   ResourceSubType = "Microsoft Processor";
-  string   AllocationUnits = "Processor Cores";
-  string   ElementName = "Processor Resource Pool";
-  string   StatusDescriptions[] = { "OK" };
-  string   PoolID = "GUID";
+  string   Name = "Processor Resource Pool";
+  uint16   OperationalStatus[] = 2;
+  string   Status;
+  uint16   HealthState = 5;
+  string   InstanceID = "Microsoft:GUID\Root";
+  boolean  Primordial = FALSE;
+  uint64   Capacity = 100000;
+  uint64   Reserved = 0;
+  uint16   ResourceType = 3;
+  string   OtherResourceType;
+  string   ResourceSubType = "Microsoft Processor";
+  string   AllocationUnits = "Processor Cores";
+  string   ElementName = "Processor Resource Pool";
+  string   StatusDescriptions[] = { "OK" };
+  string   PoolID = "GUID";
 };
 ```
 
@@ -79,11 +86,11 @@ The **Msvm\_ProcessorPool** class has these methods.
 
 | Method                                                                          | Description                                                                                                                                                             |
 |:--------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CalculatePossibleReserve**](calculatepossiblereserve-msvm-processorpool.md) | Used to find the actual processor reserve.<br/> **Windows Server 2008:** Before Windows Server 2008 R2, this method does nothing and always returns 0.<br/> |
+| [**CalculatePossibleReserve**](calculatepossiblereserve-msvm-processorpool.md) | Used to find the actual processor reserve.<br/> **Windows Server 2008:** Before Windows Server 2008 R2, this method does nothing and always returns 0.<br/> |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -392,9 +399,9 @@ Access to the **Msvm\_ProcessorPool** class might be restricted by UAC Filtering
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -413,9 +420,9 @@ Access to the **Msvm\_ProcessorPool** class might be restricted by UAC Filtering
 [Processor Classes](processor-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

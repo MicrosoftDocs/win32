@@ -1,7 +1,12 @@
 ---
-Description: 'The name of the organization whose rating system is used for System.ParentalRating.'
-ms.assetid: 'a8aac7cb-ec9c-41cb-a802-50a4008568af'
-title: 'System.ParentalRatingsOrganization'
+Description: The name of the organization whose rating system is used for System.ParentalRating.
+ms.assetid: a8aac7cb-ec9c-41cb-a802-50a4008568af
+title: System.ParentalRatingsOrganization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ParentalRatingsOrganization

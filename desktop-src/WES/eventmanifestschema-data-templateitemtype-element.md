@@ -1,14 +1,20 @@
 ---
 title: data (TemplateItemType) Element
 description: Defines a data item that you want to include with the event.
-ms.assetid: '7e4a4f5d-d61a-4a42-ba7d-4549a294229a'
-keywords: ["data element EventLog"]
+ms.assetid: 7e4a4f5d-d61a-4a42-ba7d-4549a294229a
+keywords:
+- data element EventLog
 topic_type:
 - apiref
 api_name:
 - data
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # data (TemplateItemType) Element
@@ -29,8 +35,8 @@ The **data** element is defined by the [**TemplateItemType**](eventmanifestschem
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **data** element is defined by the [**TemplateItemType**](eventmanifestschem
 [**template (TemplateListType)**](eventmanifestschema-template-templatelisttype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

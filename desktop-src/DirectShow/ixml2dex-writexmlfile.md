@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WriteXMLFile method translates a timeline to XML and writes the XML data to a file.'
-ms.assetid: '0a269e3d-6ca3-401e-bc22-6b4e8aacdbc9'
-title: 'IXml2Dex::WriteXMLFile method'
+---
+Description: The WriteXMLFile method translates a timeline to XML and writes the XML data to a file.
+ms.assetid: 0a269e3d-6ca3-401e-bc22-6b4e8aacdbc9
+title: IXml2DexWriteXMLFile method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXml2Dex::WriteXMLFile method

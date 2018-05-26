@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectInterfaceVariable GetClassInstance method
 description: Get a class instance.
-ms.assetid: 'a965f4e7-1761-45f1-a72e-7ad0ed1ad671'
-keywords: ["GetClassInstance method Direct3D 11", "GetClassInstance method Direct3D 11 , ID3DX11EffectInterfaceVariable interface", "ID3DX11EffectInterfaceVariable interface Direct3D 11 , GetClassInstance method"]
+ms.assetid: a965f4e7-1761-45f1-a72e-7ad0ed1ad671
+keywords:
+- GetClassInstance method Direct3D 11
+- GetClassInstance method Direct3D 11 , ID3DX11EffectInterfaceVariable interface
+- ID3DX11EffectInterfaceVariable interface Direct3D 11 , GetClassInstance method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectInterfaceVariable::GetClassInstance method
@@ -23,7 +31,7 @@ Get a class instance.
 
 ```C++
 HRESULT GetClassInstance(
-   ID3DX11EffectClassInstanceVariable **ppEffectClassInstance
+   ID3DX11EffectClassInstanceVariable **ppEffectClassInstance
 );
 ```
 
@@ -53,7 +61,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -73,9 +81,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectInterfaceVariable](id3dx11effectinterfacevariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

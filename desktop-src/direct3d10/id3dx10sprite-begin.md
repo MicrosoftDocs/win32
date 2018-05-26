@@ -1,7 +1,12 @@
-﻿---
-Description: 'Prepare a device for drawing sprites.'
-ms.assetid: 'cffe5ac3-eeee-4ece-afcc-04a476b75863'
-title: 'ID3DX10Sprite::Begin method'
+---
+Description: Prepare a device for drawing sprites.
+ms.assetid: cffe5ac3-eeee-4ece-afcc-04a476b75863
+title: ID3DX10SpriteBegin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Sprite::Begin method

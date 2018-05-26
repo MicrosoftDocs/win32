@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.bypass
 description: The bypass attribute specifies or retrieves a value indicating whether the equalizer filter is bypassed in the filter graph.
-ms.assetid: 'b189a6f1-e0d0-4cfa-9a99-73d3ccd705e0'
-keywords: ["EQUALIZERSETTINGS.bypass Windows Media Player"]
+ms.assetid: b189a6f1-e0d0-4cfa-9a99-73d3ccd705e0
+keywords:
+- EQUALIZERSETTINGS.bypass Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.bypass
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.bypass
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,9 +61,9 @@ If this attribute is not specified, the previous value will be retained.
 [**EQUALIZERSETTINGS Element**](equalizersettings-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

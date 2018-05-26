@@ -4,11 +4,15 @@ description: The LDAP\_CAP\_ACTIVE\_DIRECTORY\_LDAP\_INTEG\_OID can be present i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7611dfd8-c726-4440-881c-94991935b14b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 7611dfd8-c726-4440-881c-94991935b14b
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_CAP_ACTIVE_DIRECTORY_LDAP_INTEG_OID LDAP"]
+keywords:
+- LDAP_CAP_ACTIVE_DIRECTORY_LDAP_INTEG_OID LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_CAP\_ACTIVE\_DIRECTORY\_LDAP\_INTEG\_OID

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets an item''s category information.'
-ms.assetid: '4d6f7a6a-280d-4b36-8e1d-8d9fcaa8a1de'
-title: 'IWiaItem2::GetItemCategory method'
+---
+Description: Gets an items category information.
+ms.assetid: 4d6f7a6a-280d-4b36-8e1d-8d9fcaa8a1de
+title: IWiaItem2GetItemCategory method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaItem2::GetItemCategory method

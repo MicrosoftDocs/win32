@@ -1,8 +1,16 @@
 ---
 title: XML Layer Overview
 description: The XML API in WWSAPI is based on the XML Reader and XML Writer objects, which allow reading or writing of XML documents in a forward only fashion. The XML Layer give the application full access to and control over the content of messages.
-ms.assetid: '938ca257-fbb8-4569-b791-2148abb1a5a5'
-keywords: ["XML Layer Overview Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 938ca257-fbb8-4569-b791-2148abb1a5a5
+keywords:
+- XML Layer Overview Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XML Layer Overview
@@ -29,17 +37,17 @@ An [XML Buffer](xml-buffer.md) is a structured in-memory representation of an XM
 
 ## I/O
 
-The XML API will never perform I/O unless specifically requested. Furthermore, any I/O may be initiated in an asynchronous fashion. See [**WsFillReader**](wsfillreader.md) and [**WsFlushWriter**](wsflushwriter.md) for details on asynchronous processing with the XML API.
+The XML API will never perform I/O unless specifically requested. Furthermore, any I/O may be initiated in an asynchronous fashion. See [**WsFillReader**](/windows/win32/WebServices/nf-webservices-wsfillreader?branch=master) and [**WsFlushWriter**](/windows/win32/WebServices/nf-webservices-wsflushwriter?branch=master) for details on asynchronous processing with the XML API.
 
 ## Processing
 
 The XML API has three distinct levels at which the document may be processed.
 
-A document may be processed a [**node**](ws-xml-node.md) at a time. This offers the most fine-grained handling of the XML content, and provides complete fidelity of data from the document. At this level, the functions [**WsReadNode**](wsreadnode.md) and [**WsWriteNode**](wswritenode.md) and [**WsCopyNode**](wscopynode.md) would be used.
+A document may be processed a [**node**](/windows/win32/WebServices/ns-webservices-_ws_xml_node?branch=master) at a time. This offers the most fine-grained handling of the XML content, and provides complete fidelity of data from the document. At this level, the functions [**WsReadNode**](/windows/win32/WebServices/nf-webservices-wsreadnode?branch=master) and [**WsWriteNode**](/windows/win32/WebServices/nf-webservices-wswritenode?branch=master) and [**WsCopyNode**](/windows/win32/WebServices/nf-webservices-wscopynode?branch=master) would be used.
 
-The next level of control are APIs like [**WsReadStartElement**](wsreadstartelement.md), [**WsReadValue**](wsreadvalue.md) and [**WsReadEndElement**](wsreadendelement.md). These APIs provide numerous kinds of validation, skip whitespace and comments, and normalize text and CDATA to present the consumer with a simpler view of the xml.
+The next level of control are APIs like [**WsReadStartElement**](/windows/win32/WebServices/nf-webservices-wsreadstartelement?branch=master), [**WsReadValue**](/windows/win32/WebServices/nf-webservices-wsreadvalue?branch=master) and [**WsReadEndElement**](/windows/win32/WebServices/nf-webservices-wsreadendelement?branch=master). These APIs provide numerous kinds of validation, skip whitespace and comments, and normalize text and CDATA to present the consumer with a simpler view of the xml.
 
-The highest level of control is to use the Serialization API. These APIs are driven off a mapping between C data types and XML, and can read or write a complex in-memory structure to xml and back with a single function like [**WsWriteElement**](wswriteelement.md) and [**WsReadElement**](wsreadelement.md).
+The highest level of control is to use the Serialization API. These APIs are driven off a mapping between C data types and XML, and can read or write a complex in-memory structure to xml and back with a single function like [**WsWriteElement**](/windows/win32/WebServices/nf-webservices-wswriteelement?branch=master) and [**WsReadElement**](/windows/win32/WebServices/nf-webservices-wsreadelement?branch=master).
 
 The XML Canonicalization APIs may be used to generate a canonical form of XML which may in turn be used for generating cryptographic signatures over XML content.
 
@@ -79,7 +87,7 @@ WsFreeWriter                // Free the writer
 // The buffer has the generated document
 ```
 
-In all cases, the property [**WS\_XML\_WRITER\_PROPERTY\_INDENT**](ws-xml-writer-property-id.md) may be included to format the xml.
+In all cases, the property [**WS\_XML\_WRITER\_PROPERTY\_INDENT**](/windows/win32/WebServices/ne-webservices-ws_xml_writer_property_id?branch=master) may be included to format the xml.
 
 ## Writing Elements
 

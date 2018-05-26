@@ -1,8 +1,9 @@
 ---
 title: SoHAttributeType enumeration
 description: Specifies the type of attribute stored in the attribute type-length-value (TLV) object.
-ms.assetid: 'ba725bf1-1d0a-4489-b912-3e761557d772'
-keywords: ["SoHAttributeType enumeration NAP"]
+ms.assetid: ba725bf1-1d0a-4489-b912-3e761557d772
+keywords:
+- SoHAttributeType enumeration NAP
 topic_type:
 - apiref
 api_name:
@@ -11,14 +12,19 @@ api_location:
 - NapProtocol.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SoHAttributeType enumeration
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **SoHAttributeType** enumeration specifies the type of attribute stored in the attribute type-length-value (TLV) object.
 
@@ -27,21 +33,21 @@ The **SoHAttributeType** enumeration specifies the type of attribute stored in t
 
 ```C++
 typedef enum tagSoHAttributeType { 
-  sohAttributeTypeSystemHealthId          = 2,
-  sohAttributeTypeIpv4FixupServers        = 3,
-  sohAttributeTypeComplianceResultCodes   = 4,
-  sohAttributeTypeTimeOfLastUpdate        = 5,
-  sohAttributeTypeClientId                = 6,
-  sohAttributeTypeVendorSpecific          = 7,
-  sohAttributeTypeHealthClass             = 8,
-  sohAttributeTypeSoftwareVersion         = 9,
-  sohAttributeTypeProductName             = 10,
-  sohAttributeTypeHealthClassStatus       = 11,
-  sohAttributeTypeSoHGenerationTime       = 12,
-  sohAttributeTypeErrorCodes              = 13,
-  sohAttributeTypeFailureCategory         = 14,
-  sohAttributeTypeIpv6FixupServers        = 15,
-  sohAttributeTypeExtendedIsolationState  = 16
+  sohAttributeTypeSystemHealthId          = 2,
+  sohAttributeTypeIpv4FixupServers        = 3,
+  sohAttributeTypeComplianceResultCodes   = 4,
+  sohAttributeTypeTimeOfLastUpdate        = 5,
+  sohAttributeTypeClientId                = 6,
+  sohAttributeTypeVendorSpecific          = 7,
+  sohAttributeTypeHealthClass             = 8,
+  sohAttributeTypeSoftwareVersion         = 9,
+  sohAttributeTypeProductName             = 10,
+  sohAttributeTypeHealthClassStatus       = 11,
+  sohAttributeTypeSoHGenerationTime       = 12,
+  sohAttributeTypeErrorCodes              = 13,
+  sohAttributeTypeFailureCategory         = 14,
+  sohAttributeTypeIpv6FixupServers        = 15,
+  sohAttributeTypeExtendedIsolationState  = 16
 } SoHAttributeType;
 ```
 
@@ -176,8 +182,8 @@ The rest of the types are only intended to guide the usage by SHAs and SHVs.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>NapProtocol.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapProtocol.idl</dt> </dl> |
 
@@ -190,10 +196,10 @@ The rest of the types are only intended to guide the usage by SHAs and SHVs.
 [**SoHAttributeValue**](sohattributevalue-union.md)
 </dt> <dt>
 
-[**SoHAttribute**](sohattribute-struct.md)
+[**SoHAttribute**](/windows/win32/NapTypes/ns-naptypes-tagsohattribute?branch=master)
 </dt> <dt>
 
-[**SoH**](soh-struct.md)
+[**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master)
 </dt> <dt>
 
 [**INapSoHConstructor**](inapsohconstructor.md)
@@ -202,9 +208,9 @@ The rest of the types are only intended to guide the usage by SHAs and SHVs.
 [**INapSoHProcessor**](inapsohprocessor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

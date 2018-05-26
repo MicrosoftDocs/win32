@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines resource types.'
-ms.assetid: '6b360fb1-4a5a-47a2-bef9-d8234770bf0c'
+---
+Description: Defines resource types.
+ms.assetid: 6b360fb1-4a5a-47a2-bef9-d8234770bf0c
 title: D3DRESOURCETYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DRESOURCETYPE enumeration
@@ -103,7 +108,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DResource9::GetType**](idirect3dresource9--gettype.md)
+[**IDirect3DResource9::GetType**](/windows/win32/d3d9helper/nf-d3d9-idirect3dresource9-gettype?branch=master)
 </dt> </dl>
 
  

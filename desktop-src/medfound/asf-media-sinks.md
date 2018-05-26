@@ -1,7 +1,12 @@
 ---
-Description: 'The ASF media sink is the final component in the encoding pipeline that enables an application to write an ASF file.'
-ms.assetid: '65bb8822-5eb0-46a3-ab9e-c55ae466e982'
+Description: The ASF media sink is the final component in the encoding pipeline that enables an application to write an ASF file.
+ms.assetid: 65bb8822-5eb0-46a3-ab9e-c55ae466e982
 title: ASF Media Sinks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASF Media Sinks
@@ -21,18 +26,18 @@ ASF media sinks contain one or more stream sinks, which represents the data to w
 
 ## ASF Media Sink Object Model
 
-ASF media sinks implement the [**IMFMediaSink**](imfmediasink.md) interface and exposes the following interfaces. An application can get a reference to these interfaces by calling [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) on the ASF media sink it is using for generating output samples.
+ASF media sinks implement the [**IMFMediaSink**](/windows/win32/mfidl/nn-mfidl-imfmediasink?branch=master) interface and exposes the following interfaces. An application can get a reference to these interfaces by calling [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) on the ASF media sink it is using for generating output samples.
 
 
 
 | Interface                                                  | Description                                                                                                                                                                                            |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IMFMediaSink**](imfmediasink.md)                       | Required for all media sinks.                                                                                                                                                                          |
-| [**IMFFinalizableMediaSink**](imffinalizablemediasink.md) | Implemented by the ASF file sink that writes the generated media content to a file. You can use the methods on this interface to flush data and update the ASF Header Object of the final output file. |
-| [**IMFClockStateSink**](imfclockstatesink.md)             | Receives state-change notifications from the presentation clock.                                                                                                                                       |
-| [**IMFASFContentInfo**](imfasfcontentinfo.md)             | The ASF ContentInfo object is a WMContainer level object that mainly stores ASF Header Object information. This is used to create ASF media sinks.                                                     |
-| [**IMFMetadata**](imfmetadata.md)                         | Used to describe the metadata for the ASF file.                                                                                                                                                        |
-| [**IMFMetadataProvider**](imfmetadataprovider.md)         | Retrieves a collection of metadata, either for an entire presentation, or for one stream in the presentation.                                                                                          |
+| [**IMFMediaSink**](/windows/win32/mfidl/nn-mfidl-imfmediasink?branch=master)                       | Required for all media sinks.                                                                                                                                                                          |
+| [**IMFFinalizableMediaSink**](/windows/win32/mfidl/nn-mfidl-imffinalizablemediasink?branch=master) | Implemented by the ASF file sink that writes the generated media content to a file. You can use the methods on this interface to flush data and update the ASF Header Object of the final output file. |
+| [**IMFClockStateSink**](/windows/win32/mfidl/nn-mfidl-imfclockstatesink?branch=master)             | Receives state-change notifications from the presentation clock.                                                                                                                                       |
+| [**IMFASFContentInfo**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfcontentinfo?branch=master)             | The ASF ContentInfo object is a WMContainer level object that mainly stores ASF Header Object information. This is used to create ASF media sinks.                                                     |
+| [**IMFMetadata**](/windows/win32/mfidl/nn-mfidl-imfmetadata?branch=master)                         | Used to describe the metadata for the ASF file.                                                                                                                                                        |
+| [**IMFMetadataProvider**](/windows/win32/mfidl/nn-mfidl-imfmetadataprovider?branch=master)         | Retrieves a collection of metadata, either for an entire presentation, or for one stream in the presentation.                                                                                          |
 
 
 
@@ -40,7 +45,7 @@ ASF media sinks implement the [**IMFMediaSink**](imfmediasink.md) interface and 
 
 ## ASF File Sink
 
-The ASF file sink is an implementation of [**IMFMediaSink**](imfmediasink.md) provided by Media Foundation that an application can use to archive ASF media data to a file.
+The ASF file sink is an implementation of [**IMFMediaSink**](/windows/win32/mfidl/nn-mfidl-imfmediasink?branch=master) provided by Media Foundation that an application can use to archive ASF media data to a file.
 
 You need to create, configure, and call methods on the file sink or any of its stream sinks if you are using the pipeline layer objects to write a new ASF file. After configuring the file sink you can then add it to the encoding pipeline.
 

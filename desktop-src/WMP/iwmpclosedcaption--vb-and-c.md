@@ -1,8 +1,10 @@
 ---
 title: IWMPClosedCaption (VB and C\ ) interface
 description: Provides a way to include captions with a digital media file. The captioning text is in a Synchronized Accessible Media Interchange (SAMI) file.
-ms.assetid: '927f6fe4-5847-439e-9df0-19cc910d887d'
-keywords: ["IWMPClosedCaption (VB and C ) interface Windows Media Player", "IWMPClosedCaption (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 927f6fe4-5847-439e-9df0-19cc910d887d
+keywords:
+- IWMPClosedCaption (VB and C ) interface Windows Media Player
+- IWMPClosedCaption (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPClosedCaption (VB and C#) interface
@@ -34,7 +41,7 @@ The **IWMPClosedCaption** interface exposes the following properties.
 
 
 
- 
+ 
 
 Get an **IWMPClosedCaption** interface by using the following property.
 
@@ -46,7 +53,7 @@ Get an **IWMPClosedCaption** interface by using the following property.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -71,9 +78,9 @@ Get an **IWMPClosedCaption** interface by using the following property.
 [**IWMPClosedCaption2 Interface (VB and C#)**](iwmpclosedcaption2--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

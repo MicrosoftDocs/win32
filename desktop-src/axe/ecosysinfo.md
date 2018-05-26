@@ -1,14 +1,20 @@
 ---
 title: EcoSysInfo element
 description: Information about the machine where the job ran.
-ms.assetid: '4DCA79E2-6B79-4DAF-9AC8-18C2BAA7D8F1'
-keywords: ["EcoSysInfo element Access Execution Engine"]
+ms.assetid: 4DCA79E2-6B79-4DAF-9AC8-18C2BAA7D8F1
+keywords:
+- EcoSysInfo element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - EcoSysInfo
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EcoSysInfo element

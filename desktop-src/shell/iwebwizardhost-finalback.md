@@ -1,6 +1,11 @@
-﻿---
-Description: 'Navigates to the client-side page immediately preceding the page hosting the server-side HTML pages.'
-title: 'WebWizardHost.FinalBack method'
+---
+Description: Navigates to the client-side page immediately preceding the page hosting the server-side HTML pages.
+title: WebWizardHost.FinalBack method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WebWizardHost.FinalBack method

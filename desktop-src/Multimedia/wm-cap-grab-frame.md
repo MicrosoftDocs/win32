@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_GRAB\_FRAME message
 description: The WM\_CAP\_GRAB\_FRAME message retrieves and displays a single frame from the capture driver. After capture, overlay and preview are disabled. You can send this message explicitly or by using the capGrabFrame macro.
-ms.assetid: '91d58c1c-53b9-4813-88c2-7a1acf641d96'
-keywords: ["WM_CAP_GRAB_FRAME message Windows Multimedia"]
+ms.assetid: 91d58c1c-53b9-4813-88c2-7a1acf641d96
+keywords:
+- WM_CAP_GRAB_FRAME message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_GRAB\_FRAME message
 
-The **WM\_CAP\_GRAB\_FRAME** message retrieves and displays a single frame from the capture driver. After capture, overlay and preview are disabled. You can send this message explicitly or by using the [**capGrabFrame**](capgrabframe.md) macro.
+The **WM\_CAP\_GRAB\_FRAME** message retrieves and displays a single frame from the capture driver. After capture, overlay and preview are disabled. You can send this message explicitly or by using the [**capGrabFrame**](/windows/win32/Vfw/nf-vfw-capgrabframe?branch=master) macro.
 
 
 ```C++
@@ -40,8 +46,8 @@ For information about installing callback functions, see the [**WM\_CAP\_SET\_CA
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -56,9 +62,9 @@ For information about installing callback functions, see the [**WM\_CAP\_SET\_CA
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

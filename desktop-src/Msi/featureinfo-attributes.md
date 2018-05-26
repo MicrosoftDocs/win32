@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Attributes property is a read-write property that returns the value for the feature in the Attributes column of the Feature table.'
-ms.assetid: 'fa2b433b-a728-4d32-9583-052ef735c665'
-title: 'FeatureInfo.Attributes property'
+---
+Description: The Attributes property is a read-write property that returns the value for the feature in the Attributes column of the Feature table.
+ms.assetid: fa2b433b-a728-4d32-9583-052ef735c665
+title: FeatureInfo.Attributes property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FeatureInfo.Attributes property

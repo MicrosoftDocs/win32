@@ -1,7 +1,12 @@
 ---
-Description: 'The Reply method replies to a request.'
-ms.assetid: '90e91b99-6a1c-46a2-b83d-eba483f1832a'
-title: 'CAMThread.Reply method'
+Description: The Reply method replies to a request.
+ms.assetid: 90e91b99-6a1c-46a2-b83d-eba483f1832a
+title: CAMThread.Reply method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread.Reply method
@@ -13,7 +18,7 @@ The `Reply` method replies to a request.
 
 ```C++
 void Reply(
-   DWORD dw
+   DWORD dw
 );
 ```
 
@@ -56,9 +61,9 @@ The CallWorker method blocks until this method is called. The *dw* parameter sup
 [**CAMThread Class**](camthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

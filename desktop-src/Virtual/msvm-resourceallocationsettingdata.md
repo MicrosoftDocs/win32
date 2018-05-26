@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ResourceAllocationSettingData class
 description: Represents the current and recorded allocation states of a virtual resource.
-ms.assetid: '931da270-df2d-4791-9654-013472e98aa5'
-keywords: ["Msvm_ResourceAllocationSettingData class Hyper-V", "Msvm_ResourceAllocationSettingData class Hyper-V , described"]
+ms.assetid: 931da270-df2d-4791-9654-013472e98aa5
+keywords:
+- Msvm_ResourceAllocationSettingData class Hyper-V
+- Msvm_ResourceAllocationSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ResourceAllocationSettingData class
@@ -47,28 +54,28 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ResourceAllocationSettingData : CIM_ResourceAllocationSettingData
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  uint16  ResourceType;
-  string  OtherResourceType;
-  string  ResourceSubType;
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits;
-  uint64  VirtualQuantity;
-  uint64  Reservation;
-  uint32  Weight;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  uint16  ResourceType;
+  string  OtherResourceType;
+  string  ResourceSubType;
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits;
+  uint64  VirtualQuantity;
+  uint64  Reservation;
+  uint32  Weight;
   boolean AutomaticAllocation;
   boolean AutomaticDeallocation;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  uint64  Limit;
-  string  VirtualSystemIdentifiers[] = { "GUID" };
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  uint64  Limit;
+  string  VirtualSystemIdentifiers[] = { "GUID" };
 };
 ```
 
@@ -215,14 +222,14 @@ The consumer's visibility to the allocated resource. This property is inherited 
 **DMTF reserved**
 
 
-</dt> <dd>5–32766</dd> <dt>
+</dt> <dd>5 32766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -357,14 +364,14 @@ Specifies how this resource maps to underlying resources. This property is inher
 **DMTF Reserved**
 
 
-</dt> <dd>5–32766</dd> <dt>
+</dt> <dd>5 32766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -656,14 +663,14 @@ The type of resource this allocation setting represents. This property is inheri
 **DMTF reserved**
 
 
-</dt> <dd>34–32767</dd> <dt>
+</dt> <dd>34 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–35535</dd> </dl>
+</dt> <dd>32768 35535</dd> </dl>
 
 </dd> <dt>
 
@@ -696,7 +703,7 @@ A free-form string array of identifiers of this resource presented to the virtua
 
 This is a read-only property, but it can be changed using the [**ModifyVirtualSystemResources**](modifyvirtualsystemresources-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
-**Windows Server 2008:** The **VirtualSystemIdentifiers** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **VirtualSystemIdentifiers** property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -711,7 +718,7 @@ Access type: Read-only
 
 An integer defining the weight for each virtual machine processor. After all reserves have been met, the remaining physical processor capacity of the hosting platform will be allocated to virtual systems based on their relative weights. This property is inherited from [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214).
 
-Range: 0–1000
+Range: 0 1000
 
 </dd> </dl>
 
@@ -726,9 +733,9 @@ Access to the **Msvm\_ResourceAllocationSettingData** class might be restricted 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -750,9 +757,9 @@ Access to the **Msvm\_ResourceAllocationSettingData** class might be restricted 
 [Resource Management Classes](resource-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

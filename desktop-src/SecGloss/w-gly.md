@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter W.'
-Robots: 'noindex, nofollow'
-ms.assetid: '031c898b-3b4d-4b29-811a-112da37b5e3d'
+Description: Contains definitions of security terms that begin with the letter W.
+Robots: noindex, nofollow
+ms.assetid: 031c898b-3b4d-4b29-811a-112da37b5e3d
 title: W
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # W

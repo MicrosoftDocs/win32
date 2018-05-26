@@ -4,13 +4,15 @@ description: Represents a currently active data deduplication job.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '88365623-DABC-45D2-8C15-C8381F76F257'
-ms.prod: 'windows-server-dev'
+ms.assetid: 88365623-DABC-45D2-8C15-C8381F76F257
+ms.prod: windows-server-dev
 ms.technology:
-- 'data-deduplication'
-- 'windows-management-instrumentation'
+- data-deduplication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DedupJob class Data Deduplication API", "MSFT_DedupJob class Data Deduplication API , described"]
+keywords:
+- MSFT_DedupJob class Data Deduplication API
+- MSFT_DedupJob class Data Deduplication API , described
 topic_type:
 - apiref
 api_name:
@@ -36,6 +38,9 @@ api_location:
 - DdpWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DedupJob class
@@ -50,23 +55,23 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [dynamic, provider("DeduplicationProvider"), ClassVersion("1.0"), AMENDMENT]
 class MSFT_DedupJob
 {
-  String   Id;
-  uint32   ProcessId;
-  String   Volume;
-  String   VolumeId;
-  uint32   Type;
-  uint32   ScheduleType;
-  boolean  StopWhenSystemBusy;
-  uint32   Priority;
-  uint32   Memory;
-  uint32   Cores;
-  uint32   InputOutputThrottle;
-  uint32   InputOutputThrottleLevel;
-  uint32   State;
-  uint32   Progress;
+  String   Id;
+  uint32   ProcessId;
+  String   Volume;
+  String   VolumeId;
+  uint32   Type;
+  uint32   ScheduleType;
+  boolean  StopWhenSystemBusy;
+  uint32   Priority;
+  uint32   Memory;
+  uint32   Cores;
+  uint32   InputOutputThrottle;
+  uint32   InputOutputThrottleLevel;
+  uint32   State;
+  uint32   Progress;
   datetime StartTime;
-  boolean  Full;
-  boolean  ReadOnly;
+  boolean  Full;
+  boolean  ReadOnly;
 };
 ```
 
@@ -90,7 +95,7 @@ The **MSFT\_DedupJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -107,7 +112,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
 
 The maximum percentage of physical machine cores that the job can use.
 
@@ -151,7 +156,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
 
 The amount of I/O throttling of the job to ensure that it does not interfere with other heavy I/O processes on the system. This value can range from "0" to "100".
 
@@ -168,7 +173,7 @@ Access type: Read/write
 
 The level of I/O throttling of the job to ensure that it does not interfere with other heavy I/O processes on the system.
 
-**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
+**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
 
 <dt>
 
@@ -218,7 +223,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The maximum percentage of physical machine memory that can be consumed by this job. For optimization jobs, a range from 15-50 is suggested—with lower memory consumption for jobs that are scheduled to run when the **StopWhenSystemBusy** property is set to **false**. For garbage collection and scrubbing jobs, which are typically run at off hours, a higher memory consumption can be safely specified—for example, 50.
+The maximum percentage of physical machine memory that can be consumed by this job. For optimization jobs, a range from 15-50 is suggested with lower memory consumption for jobs that are scheduled to run when the **StopWhenSystemBusy** property is set to **false**. For garbage collection and scrubbing jobs, which are typically run at off hours, a higher memory consumption can be safely specified for example, 50.
 
 </dd> <dt>
 
@@ -512,7 +517,7 @@ For an example that uses the **MSFT\_DedupJob** class, please see [Data deduplic
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Deduplication<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>DeduplicationProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DdpWmi.dll</dt> </dl>                |
@@ -526,9 +531,9 @@ For an example that uses the **MSFT\_DedupJob** class, please see [Data deduplic
 [Data Deduplication Management WMI API Reference](data-deduplication-management-wmi-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

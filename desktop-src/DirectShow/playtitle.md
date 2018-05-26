@@ -1,7 +1,12 @@
 ---
-Description: 'The PlayTitle event is sent when the PlayTitle command has been enabled or disabled.'
-ms.assetid: '5cdea69e-7d32-470e-846b-1b2be5ca87b1'
+Description: The PlayTitle event is sent when the PlayTitle command has been enabled or disabled.
+ms.assetid: 5cdea69e-7d32-470e-846b-1b2be5ca87b1
 title: PlayTitle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayTitle

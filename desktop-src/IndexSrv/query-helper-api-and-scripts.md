@@ -1,7 +1,12 @@
 ---
 title: Query Helper API and Scripts
 description: Query Helper API and Scripts
-ms.assetid: '7571f851-e100-4e53-9b5c-4722d9950cd0'
+ms.assetid: 7571f851-e100-4e53-9b5c-4722d9950cd0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query Helper API and Scripts

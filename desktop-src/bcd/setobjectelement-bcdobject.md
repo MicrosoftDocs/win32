@@ -1,8 +1,11 @@
 ---
 title: SetObjectElement method of the BcdObject class
 description: Sets the specified object element.
-ms.assetid: '2f8ec103-f118-4f27-801d-5b5ca8601a4b'
-keywords: ["SetObjectElement method Boot Config", "SetObjectElement method Boot Config , BcdObject class", "BcdObject class Boot Config , SetObjectElement method"]
+ms.assetid: 2f8ec103-f118-4f27-801d-5b5ca8601a4b
+keywords:
+- SetObjectElement method Boot Config
+- SetObjectElement method Boot Config , BcdObject class
+- BcdObject class Boot Config , SetObjectElement method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetObjectElement method of the BcdObject class
@@ -22,8 +30,8 @@ Sets the specified object element.
 
 ```mof
 boolean SetObjectElement(
-  [in] uint32 Type,
-  [in] string Id
+  [in] uint32 Type,
+  [in] string Id
 );
 ```
 
@@ -61,8 +69,8 @@ The object identifier. This is a GUID in string form, surrounded by curly braces
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -78,9 +86,9 @@ The object identifier. This is a GUID in string form, surrounded by curly braces
 [**BcdObject**](bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

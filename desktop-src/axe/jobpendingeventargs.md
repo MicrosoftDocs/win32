@@ -1,8 +1,9 @@
 ---
 title: JobPendingEventArgs structure
 description: This structure defines the event arguments that are passed to an IJobPendingEventHandler OnJobPending event.
-ms.assetid: '5D90F0B3-8F2D-4769-93D4-35C54871E250'
-keywords: ["JobPendingEventArgs structure Access Execution Engine"]
+ms.assetid: 5D90F0B3-8F2D-4769-93D4-35C54871E250
+keywords:
+- JobPendingEventArgs structure Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JobPendingEventArgs structure
@@ -22,9 +28,9 @@ This structure defines the event arguments that are passed to an IJobPendingEven
 
 ```C++
 struct JobPendingEventArgs {
-  DWORD     Size;
+  DWORD     Size;
   const Job *Job;
-  DWORD     Timeout;
+  DWORD     Timeout;
 };
 ```
 
@@ -61,15 +67,15 @@ The amount of time the engine will wait for a job running within another engine 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

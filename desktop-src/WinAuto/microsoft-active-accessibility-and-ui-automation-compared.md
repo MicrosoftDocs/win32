@@ -1,7 +1,12 @@
 ---
 title: Microsoft Active Accessibility and UI Automation Compared
 description: This topic provides summarizes the main differences between Microsoft Active Accessibility and UI Automation.
-ms.assetid: 'ba963e53-6fb8-4bc1-8883-62547f52b0e2'
+ms.assetid: ba963e53-6fb8-4bc1-8883-62547f52b0e2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Active Accessibility and UI Automation Compared
@@ -39,19 +44,19 @@ Microsoft designed the Microsoft Active Accessibility object model at about the 
 
 ## Object Model Navigation
 
-Another limitation of Microsoft Active Accessibility involves navigating the object model. Microsoft Active Accessibility represents the UI as a hierarchy of accessible objects. Clients navigate from one accessible object to another using interfaces and methods available from the accessible object. Servers can expose the children of an accessible object with properties of the [**IAccessible**](iaccessible.md) interface, or with the standard [IEnumVARIANT](http://go.microsoft.com/fwlink/p/?linkid=120799) COM interface. Clients, however, must be able to deal with both approaches for any server. This ambiguity means extra work for client implementers, and broken accessible object models for server implementers.
+Another limitation of Microsoft Active Accessibility involves navigating the object model. Microsoft Active Accessibility represents the UI as a hierarchy of accessible objects. Clients navigate from one accessible object to another using interfaces and methods available from the accessible object. Servers can expose the children of an accessible object with properties of the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface, or with the standard [IEnumVARIANT](http://go.microsoft.com/fwlink/p/?linkid=120799) COM interface. Clients, however, must be able to deal with both approaches for any server. This ambiguity means extra work for client implementers, and broken accessible object models for server implementers.
 
 UI Automation represents the UI as a hierarchical tree of automation elements, and provides a single interface for navigating the tree. Clients can customize the view of elements in the tree by scoping and filtering.
 
 ## Object Model Extensibility
 
-Microsoft Active Accessibility properties and functions cannot be extended without breaking or changing the [**IAccessible**](iaccessible.md) COM interface specification. The result is that new control behavior cannot be exposed through the object model; it tends to be static.
+Microsoft Active Accessibility properties and functions cannot be extended without breaking or changing the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) COM interface specification. The result is that new control behavior cannot be exposed through the object model; it tends to be static.
 
 With UI Automation, as new UI elements are created, application developers can introduce custom properties, control patterns, and events to describe the new elements. For more information, see [Custom Properties, Events, and Control Patterns](uiauto-custompropertieseventscontrolpatterns.md).
 
 ## Transitioning from MSAA
 
-The Windows Automation API framework provides support for transitioning from Microsoft Active Accessibility servers to UI Automation providers. The [**IAccessibleEx**](uiauto-iaccessibleex.md) interface enables support for specific UI Automation properties and control patterns to be added to legacy Microsoft Active Accessibility servers without needing to rewrite the entire implementation. The **IAccessibleEx** interface also allows in-process Microsoft Active Accessibility clients to access UI Automation provider interfaces directly, rather than through UI Automation client interfaces. For more information, see [The IAccessibleEx Interface](iaccessibleex.md).
+The Windows Automation API framework provides support for transitioning from Microsoft Active Accessibility servers to UI Automation providers. The [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) interface enables support for specific UI Automation properties and control patterns to be added to legacy Microsoft Active Accessibility servers without needing to rewrite the entire implementation. The **IAccessibleEx** interface also allows in-process Microsoft Active Accessibility clients to access UI Automation provider interfaces directly, rather than through UI Automation client interfaces. For more information, see [The IAccessibleEx Interface](iaccessibleex.md).
 
 ## Choosing Microsoft Active Accessibility, UI Automation, or IAccessibleEx
 
@@ -67,12 +72,12 @@ Microsoft Active Accessibility tends to run slowly for clients that run out of p
 
 ### Existing Microsoft Active Accessibility Implementations
 
-If you are updating an existing application or control that is based on Microsoft Active Accessibility, consider adding support for UI Automation by implementing the [**IAccessibleEx**](uiauto-iaccessibleex.md) interface. First, ensure that your application or control meets the following requirements:
+If you are updating an existing application or control that is based on Microsoft Active Accessibility, consider adding support for UI Automation by implementing the [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) interface. First, ensure that your application or control meets the following requirements:
 
--   The baseline Microsoft Active Accessibility server's hierarchy of accessible objects must be well organized and error free. [**IAccessibleEx**](uiauto-iaccessibleex.md) cannot fix problems with existing accessible object hierarchies.
--   Your [**IAccessibleEx**](uiauto-iaccessibleex.md) implementation must comply with both the Microsoft Active Accessibility specification, and the UI Automation Specification. Microsoft provides a set of tools for validating compliance with both specifications. For more information, see [Testing Tools](testing-tools.md).
+-   The baseline Microsoft Active Accessibility server's hierarchy of accessible objects must be well organized and error free. [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) cannot fix problems with existing accessible object hierarchies.
+-   Your [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) implementation must comply with both the Microsoft Active Accessibility specification, and the UI Automation Specification. Microsoft provides a set of tools for validating compliance with both specifications. For more information, see [Testing Tools](testing-tools.md).
 
-If either of these requirements is not met, consider implementing UI Automation natively. You can keep legacy Microsoft Active Accessibility server implementations for backward compatibility if it is necessary. From a UI Automation client perspective, there is no difference between UI Automation providers and Microsoft Active Accessibility servers that implement [**IAccessibleEx**](uiauto-iaccessibleex.md) correctly.
+If either of these requirements is not met, consider implementing UI Automation natively. You can keep legacy Microsoft Active Accessibility server implementations for backward compatibility if it is necessary. From a UI Automation client perspective, there is no difference between UI Automation providers and Microsoft Active Accessibility servers that implement [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) correctly.
 
 For more information, see [The IAccessibleEx Interface](iaccessibleex.md).
 

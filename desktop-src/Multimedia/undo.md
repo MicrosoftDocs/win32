@@ -1,21 +1,27 @@
 ---
 title: undo command
 description: The undo command reverses the action taken by the most recent successful copy, cut, delete, undo, or paste command. Digital-video devices recognize this command.
-ms.assetid: '1593457a-e680-4732-a89e-00f4eff7605a'
-keywords: ["undo command Windows Multimedia"]
+ms.assetid: 1593457a-e680-4732-a89e-00f4eff7605a
+keywords:
+- undo command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - undo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # undo command
 
 The undo command reverses the action taken by the most recent successful [copy](copy.md), [cut](cut.md), [delete](delete.md), undo, or [paste](paste.md) command. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -54,8 +60,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -81,9 +87,9 @@ Returns zero if successful or an error otherwise.
 [paste](paste.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

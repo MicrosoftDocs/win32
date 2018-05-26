@@ -1,8 +1,9 @@
 ---
 title: WM\_DELETEITEM message
 description: Sent to the owner of a list box or combo box when the list box or combo box is destroyed or when items are removed by the LB\_DELETESTRING, LB\_RESETCONTENT, CB\_DELETESTRING, or CB\_RESETCONTENT message.
-ms.assetid: 'c3adf8fb-45f2-44f1-8821-6ffa7d76dc78'
-keywords: ["WM_DELETEITEM message Windows Controls"]
+ms.assetid: c3adf8fb-45f2-44f1-8821-6ffa7d76dc78
+keywords:
+- WM_DELETEITEM message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DELETEITEM message
@@ -41,7 +47,7 @@ Specifies the identifier of the control that sent the **WM\_DELETEITEM** message
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**DELETEITEMSTRUCT**](deleteitemstruct.md) structure that contains information about the item deleted from a list box.
+Pointer to a [**DELETEITEMSTRUCT**](/windows/win32/Winuser/ns-winuser-tagdeleteitemstruct?branch=master) structure that contains information about the item deleted from a list box.
 
 </dd> </dl>
 
@@ -51,9 +57,9 @@ An application should return **TRUE** if it processes this message.
 
 ## Remarks
 
-Microsoft Windows NT and later: Windows sends a **WM\_DELETEITEM** message only for items deleted from an owner-drawn list box (with the [**LBS\_OWNERDRAWFIXED**](list-box-styles.md#lbs-ownerdrawfixed) or [**LBS\_OWNERDRAWVARIABLE**](list-box-styles.md#lbs-ownerdrawvariable) style) or owner-drawn combo box (with the [**CBS\_OWNERDRAWFIXED**](combo-box-styles.md#cbs-ownerdrawfixed) or [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style).
+Microsoft Windows NT and later: Windows sends a **WM\_DELETEITEM** message only for items deleted from an owner-drawn list box (with the [**LBS\_OWNERDRAWFIXED**](list-box-styles.md#lbs-ownerdrawfixed) or [**LBS\_OWNERDRAWVARIABLE**](list-box-styles.md#lbs-ownerdrawvariable) style) or owner-drawn combo box (with the [**CBS\_OWNERDRAWFIXED**](combo-box-styles.md#cbs-ownerdrawfixed) or [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style).
 
-Windows 95: Windows sends the **WM\_DELETEITEM** message for any deleted list box or combo box item with nonzero item data.
+Windows 95: Windows sends the **WM\_DELETEITEM** message for any deleted list box or combo box item with nonzero item data.
 
 ## Requirements
 
@@ -61,8 +67,8 @@ Windows 95: Windows sends the **WM\_DELETEITEM** message for any deleted list bo
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -80,7 +86,7 @@ Windows 95: Windows sends the **WM\_DELETEITEM** message for any deleted list bo
 [**CB\_RESETCONTENT**](cb-resetcontent.md)
 </dt> <dt>
 
-[**DELETEITEMSTRUCT**](deleteitemstruct.md)
+[**DELETEITEMSTRUCT**](/windows/win32/Winuser/ns-winuser-tagdeleteitemstruct?branch=master)
 </dt> <dt>
 
 [**LB\_DELETESTRING**](lb-deletestring.md)
@@ -89,9 +95,9 @@ Windows 95: Windows sends the **WM\_DELETEITEM** message for any deleted list bo
 [**LB\_RESETCONTENT**](lb-resetcontent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

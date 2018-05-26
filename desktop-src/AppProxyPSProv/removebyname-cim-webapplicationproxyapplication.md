@@ -1,15 +1,18 @@
 ---
-Description: 'Removes the web application with the specified name from Web Application Proxy.'
+Description: Removes the web application with the specified name from Web Application Proxy.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8bc81bd9-e296-4645-abfe-cc40b1e5ca68'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8bc81bd9-e296-4645-abfe-cc40b1e5ca68
+ms.prod: windows-server-dev
 ms.technology:
-- 'web-app-proxy'
-- 'windows-management-instrumentation'
+- web-app-proxy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'RemoveByName method of the CIM\_WebApplicationProxyApplication class'
+title: RemoveByName method of the CIM\_WebApplicationProxyApplication class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveByName method of the CIM\_WebApplicationProxyApplication class
@@ -21,7 +24,7 @@ Removes the web application with the specified name from Web Application Proxy.
 
 ```mof
 uint32 RemoveByName(
-  [in] string Name
+  [in] string Name
 );
 ```
 
@@ -49,7 +52,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WebApplicationProxy<br/>                                          |
 | MOF<br/>                      | <dl> <dt>AppProxyPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AppProxyPSProvider.dll</dt> </dl> |
@@ -63,9 +66,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**CIM\_WebApplicationProxyApplication**](cim-webapplicationproxyapplication.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

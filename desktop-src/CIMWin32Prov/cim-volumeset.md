@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_VolumeSet class represents a contiguous range of logical blocks presented to the operating environment for reading and writing user data.'
+Description: The CIM\_VolumeSet class represents a contiguous range of logical blocks presented to the operating environment for reading and writing user data.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f0350185-6210-4f95-a2a2-23de61b1af1f'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f0350185-6210-4f95-a2a2-23de61b1af1f
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_VolumeSet class'
+title: CIM\_VolumeSet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_VolumeSet class
@@ -19,7 +22,7 @@ The **CIM\_VolumeSet** class represents a contiguous range of logical blocks pre
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,32 +32,32 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{35E25AA5-E3D1-11d2-8601-0000F8102E5F}"), AMENDMENT]
 class CIM_VolumeSet : CIM_StorageExtent
 {
-  uint16   Access;
-  uint16   Availability;
-  uint64   BlockSize;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  string   ErrorMethodology;
+  uint16   Access;
+  uint16   Availability;
+  uint64   BlockSize;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  string   ErrorMethodology;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  string   Name;
-  uint64   NumberOfBlocks;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint64   PSExtentInterleaveDepth;
-  uint64   PSExtentStripeLength;
-  string   Purpose;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  uint32   LastErrorCode;
+  string   Name;
+  uint64   NumberOfBlocks;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint64   PSExtentInterleaveDepth;
+  uint64   PSExtentStripeLength;
+  string   Purpose;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -78,7 +81,7 @@ The **CIM\_VolumeSet** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1309,8 +1312,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1324,9 +1327,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_StorageExtent**](cim-storageextent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

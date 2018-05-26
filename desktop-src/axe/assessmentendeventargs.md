@@ -1,8 +1,9 @@
 ---
 title: AssessmentEndEventArgs structure
 description: Represents information provided to a solution during the OnAssessmentEnd callback.
-ms.assetid: '8C0F78DD-A222-4163-B267-B5BF130B369E'
-keywords: ["AssessmentEndEventArgs structure Access Execution Engine"]
+ms.assetid: 8C0F78DD-A222-4163-B267-B5BF130B369E
+keywords:
+- AssessmentEndEventArgs structure Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssessmentEndEventArgs structure
@@ -22,12 +28,12 @@ Represents information provided to a solution during the *OnAssessmentEnd* callb
 
 ```C++
 struct AssessmentEndEventArgs {
-  DWORD                    Size;
-  INT                      AssessmentIndex;
-  const Assessment         *Assessment;
+  DWORD                    Size;
+  INT                      AssessmentIndex;
+  const Assessment         *Assessment;
   AssessmentExecutionError Error;
-  const ErrorList          *ErrorList;
-  INT                      ExitCode;
+  const ErrorList          *ErrorList;
+  INT                      ExitCode;
 };
 ```
 
@@ -47,7 +53,7 @@ The number of bytes in the structure. Used to detect different versions of struc
 **AssessmentIndex**
 </dt> <dd>
 
-The index of the assessment in the job’s assessment list.
+The index of the assessment in the job s assessment list.
 
 </dd> <dt>
 
@@ -85,7 +91,7 @@ The exit code returned by the assessment process.
 
 ## Remarks
 
-The error parameter reflects AXE’s efforts to execute the assessment. The exitCode is simply a direct copy of the value returned by the assessment’s root process. The values are not related.
+The error parameter reflects AXE s efforts to execute the assessment. The exitCode is simply a direct copy of the value returned by the assessment s root process. The values are not related.
 
 ## Requirements
 
@@ -93,15 +99,15 @@ The error parameter reflects AXE’s efforts to execute the assessment. The exitCo
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

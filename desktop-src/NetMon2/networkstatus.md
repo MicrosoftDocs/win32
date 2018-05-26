@@ -1,7 +1,12 @@
 ---
-Description: 'The NETWORKSTATUS structure describes the current status of the NPP.'
-ms.assetid: 'e5e07480-cfc3-408f-9ca2-48a697e4b875'
+Description: The NETWORKSTATUS structure describes the current status of the NPP.
+ms.assetid: e5e07480-cfc3-408f-9ca2-48a697e4b875
 title: NETWORKSTATUS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NETWORKSTATUS structure
@@ -39,7 +44,7 @@ Indicates the current state of the NPP.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -56,7 +61,7 @@ Flags that describe the current state of the NPP.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -72,8 +77,8 @@ The See Also list at the bottom of this topic lists all the methods that use thi
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -94,9 +99,9 @@ The See Also list at the bottom of this topic lists all the methods that use thi
 [IStats::QueryStatus](istats-querystatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

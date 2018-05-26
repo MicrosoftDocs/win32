@@ -1,6 +1,11 @@
 ---
-ms.assetid: '78a137a9-ef69-4ce3-8a96-73e722951300'
+ms.assetid: 78a137a9-ef69-4ce3-8a96-73e722951300
 title: Casting the Data Type of a Column
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Casting the Data Type of a Column

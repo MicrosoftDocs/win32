@@ -1,7 +1,12 @@
 ---
 title: NAP Constants
 description: The following constants are defined and used by NAP
-ms.assetid: '37f23774-8ec1-4673-b24e-5a8f6673c029'
+ms.assetid: 37f23774-8ec1-4673-b24e-5a8f6673c029
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NAP Constants

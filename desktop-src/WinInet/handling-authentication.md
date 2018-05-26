@@ -1,12 +1,17 @@
 ---
 title: Handling Authentication
 description: Some proxies and servers require authentication before granting access to resources on the Internet.
-ms.assetid: 'f3752031-30d3-4e35-8eae-1d4971b66bc2'
+ms.assetid: f3752031-30d3-4e35-8eae-1d4971b66bc2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Authentication
 
-Some proxies and servers require authentication before granting access to resources on the Internet. The WinINet functions support server and proxy authentication for http sessions. Authentication of ftp servers must be handled by the [**InternetConnect**](internetconnect.md) function. Currently, FTP gateway authentication is not supported.
+Some proxies and servers require authentication before granting access to resources on the Internet. The WinINet functions support server and proxy authentication for http sessions. Authentication of ftp servers must be handled by the [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master) function. Currently, FTP gateway authentication is not supported.
 
 ## About HTTP Authentication
 
@@ -44,9 +49,9 @@ The following table lists authentication schemes, the authentication type, the D
 
 For anything other than Basic authentication, the registry keys must be set up in addition to installing the appropriate DLL.
 
-If authentication is required, the [INTERNET\_FLAG\_KEEP\_CONNECTION](api-flags.md#internet-flag-keep-connection) flag should be used in the call to [**HttpOpenRequest**](httpopenrequest.md). The INTERNET\_FLAG\_KEEP\_CONNECTION flag is required for NTLM and other types of authentication in order to maintain the connection while completing the authentication process. If the connection is not maintained, the authentication process must be restarted with the proxy or server.
+If authentication is required, the [INTERNET\_FLAG\_KEEP\_CONNECTION](api-flags.md#internet-flag-keep-connection) flag should be used in the call to [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master). The INTERNET\_FLAG\_KEEP\_CONNECTION flag is required for NTLM and other types of authentication in order to maintain the connection while completing the authentication process. If the connection is not maintained, the authentication process must be restarted with the proxy or server.
 
-The [**InternetOpenUrl**](internetopenurl.md) and [**HttpSendRequest**](httpsendrequest.md) functions complete successfully even when authentication is required. The difference is, the data returned in the header files and [**InternetReadFile**](internetreadfile.md) would receive an HTML page informing the user of the status code.
+The [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) and [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master) functions complete successfully even when authentication is required. The difference is, the data returned in the header files and [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master) would receive an HTML page informing the user of the status code.
 
 ### Registering Authentication Keys
 
@@ -82,27 +87,27 @@ When a server receives a request that requires authentication, the server return
 
 Basic authentication provides weak security unless the channel is first link-encrypted with SSL or PCT.
 
-The [**InternetErrorDlg**](interneterrordlg.md) function can be used to obtain the user name and password data from the user, or a customized user interface can be designed to obtain the data.
+The [**InternetErrorDlg**](/windows/win32/Wininet/nf-wininet-interneterrordlg?branch=master) function can be used to obtain the user name and password data from the user, or a customized user interface can be designed to obtain the data.
 
-A custom interface can use the [**InternetSetOption**](internetsetoption.md) function to set the [INTERNET\_OPTION\_PASSWORD](option-flags.md#internet-option-password) and [INTERNET\_OPTION\_USERNAME](option-flags.md#internet-option-username) values and then resend the request to the server.
+A custom interface can use the [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) function to set the [INTERNET\_OPTION\_PASSWORD](option-flags.md#internet-option-password) and [INTERNET\_OPTION\_USERNAME](option-flags.md#internet-option-username) values and then resend the request to the server.
 
 ### Proxy Authentication
 
 When a client attempts to use a proxy that requires authentication, the proxy returns a 407 status code message to the client. In that message, the proxy should include one or more Proxy-Authenticate response headers. These headers include the authentication methods available from the proxy. WinINet chooses the first method it recognizes.
 
-The [**InternetErrorDlg**](interneterrordlg.md) function can be used to obtain the user name and password data from the user, or a customized user interface can be designed.
+The [**InternetErrorDlg**](/windows/win32/Wininet/nf-wininet-interneterrordlg?branch=master) function can be used to obtain the user name and password data from the user, or a customized user interface can be designed.
 
-A custom interface can use the [**InternetSetOption**](internetsetoption.md) function to set the [INTERNET\_OPTION\_PROXY\_PASSWORD](option-flags.md#internet-option-proxy-password) and [INTERNET\_OPTION\_PROXY\_USERNAME](option-flags.md#internet-option-proxy-username) values and then resend the request to the proxy.
+A custom interface can use the [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) function to set the [INTERNET\_OPTION\_PROXY\_PASSWORD](option-flags.md#internet-option-proxy-password) and [INTERNET\_OPTION\_PROXY\_USERNAME](option-flags.md#internet-option-proxy-username) values and then resend the request to the proxy.
 
 If no proxy user name and password are set, WinINet attempts to use the user name and password for the server. This behavior enables clients to implement the same customized user interface used to handle server authentication.
 
 ## Handling HTTP Authentication
 
-HTTP authentication can be handled with either [**InternetErrorDlg**](interneterrordlg.md) or a customized function that uses [**InternetSetOption**](internetsetoption.md) or adds its own authentication headers. [**InternetErrorDlg**](interneterrordlg.md) can examine the headers associated with an [**HINTERNET**](appendix-a-hinternet-handles.md) handle to find hidden errors, such as status codes from a proxy or server. [**InternetSetOption**](internetsetoption.md) can be used to set the user name and password for the proxy and server. For MSN and DPA authentication, [**InternetErrorDlg**](interneterrordlg.md) must be used to set the user name and password.
+HTTP authentication can be handled with either [**InternetErrorDlg**](/windows/win32/Wininet/nf-wininet-interneterrordlg?branch=master) or a customized function that uses [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) or adds its own authentication headers. [**InternetErrorDlg**](/windows/win32/Wininet/nf-wininet-interneterrordlg?branch=master) can examine the headers associated with an [**HINTERNET**](appendix-a-hinternet-handles.md) handle to find hidden errors, such as status codes from a proxy or server. [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) can be used to set the user name and password for the proxy and server. For MSN and DPA authentication, [**InternetErrorDlg**](/windows/win32/Wininet/nf-wininet-interneterrordlg?branch=master) must be used to set the user name and password.
 
 For any customized function that adds its own WWW-Authenticate or Proxy-Authenticate headers, the [INTERNET\_FLAG\_NO\_AUTH](api-flags.md#internet-flag-no-auth) flag should be set to disable authentication.
 
-The following example shows how [**InternetErrorDlg**](interneterrordlg.md) can be used to handle HTTP authentication.
+The following example shows how [**InternetErrorDlg**](/windows/win32/Wininet/nf-wininet-interneterrordlg?branch=master) can be used to handle HTTP authentication.
 
 
 ```C++
@@ -152,9 +157,9 @@ if (dwError == ERROR_INTERNET_FORCE_RETRY)
 
 
 
-In the example, dwErrorCode is used to store any errors associated with the call to [**HttpSendRequest**](httpsendrequest.md). [**HttpSendRequest**](httpsendrequest.md) completes successfully, even if the proxy or server requires authentication. When the FLAGS\_ERROR\_UI\_FILTER\_FOR\_ERRORS flag is passed to [**InternetErrorDlg**](interneterrordlg.md), the function checks the headers for any hidden errors. These hidden errors would include any requests for authentication. [**InternetErrorDlg**](interneterrordlg.md) displays the appropriate dialog box to prompt the user for the necessary data. The FLAGS\_ERROR\_UI\_FLAGS\_GENERATE\_DATA and FLAGS\_ERROR\_UI\_FLAGS\_CHANGE\_OPTIONS flags should also be passed to [**InternetErrorDlg**](interneterrordlg.md), so that the function constructs the appropriate data structure for the error and stores the results of the dialog box in the [**HINTERNET**](appendix-a-hinternet-handles.md) handle.
+In the example, dwErrorCode is used to store any errors associated with the call to [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master). [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master) completes successfully, even if the proxy or server requires authentication. When the FLAGS\_ERROR\_UI\_FILTER\_FOR\_ERRORS flag is passed to [**InternetErrorDlg**](/windows/win32/Wininet/nf-wininet-interneterrordlg?branch=master), the function checks the headers for any hidden errors. These hidden errors would include any requests for authentication. [**InternetErrorDlg**](/windows/win32/Wininet/nf-wininet-interneterrordlg?branch=master) displays the appropriate dialog box to prompt the user for the necessary data. The FLAGS\_ERROR\_UI\_FLAGS\_GENERATE\_DATA and FLAGS\_ERROR\_UI\_FLAGS\_CHANGE\_OPTIONS flags should also be passed to [**InternetErrorDlg**](/windows/win32/Wininet/nf-wininet-interneterrordlg?branch=master), so that the function constructs the appropriate data structure for the error and stores the results of the dialog box in the [**HINTERNET**](appendix-a-hinternet-handles.md) handle.
 
-The following example code shows how authentication could be handled using [**InternetSetOption**](internetsetoption.md).
+The following example code shows how authentication could be handled using [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 ```C++

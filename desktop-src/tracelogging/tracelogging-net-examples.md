@@ -1,7 +1,12 @@
 ---
 title: .NET Tracelogging Examples
 description: This topic contains a managed code Tracelogging example that illustrates how to log an event only when the session verbosity level is verbose, and how to log structured event data.
-ms.assetid: '156016FE-FDC7-4361-BFD0-5F41254FE14D'
+ms.assetid: 156016FE-FDC7-4361-BFD0-5F41254FE14D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # .NET Tracelogging Examples

@@ -1,8 +1,11 @@
 ---
 title: Player.AudioLanguageChange event
 description: The AudioLanguageChange event occurs when the current audio language changes.
-ms.assetid: '29006a51-1b72-4fab-9906-8a0af3d92560'
-keywords: ["AudioLanguageChange event Windows Media Player", "AudioLanguageChange event Windows Media Player , Player class", "Player class Windows Media Player , AudioLanguageChange event"]
+ms.assetid: 29006a51-1b72-4fab-9906-8a0af3d92560
+keywords:
+- AudioLanguageChange event Windows Media Player
+- AudioLanguageChange event Windows Media Player , Player class
+- Player class Windows Media Player , AudioLanguageChange event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.AudioLanguageChange event
@@ -72,9 +80,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Pausing
-ms.assetid: '945e1b1a-2557-4be2-bfdb-bb11ac7c3fe8'
+ms.assetid: 945e1b1a-2557-4be2-bfdb-bb11ac7c3fe8
 title: Pausing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pausing

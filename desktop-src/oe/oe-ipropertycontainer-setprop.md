@@ -1,8 +1,11 @@
 ---
 title: IPropertyContainer SetProp method
 description: Sets the property value for a specified property ID.
-ms.assetid: 'eeaa0805-c89b-41a1-8acf-bb52c55ff0a9'
-keywords: ["SetProp method Windows Mail (formerly Outlook Express)", "SetProp method Windows Mail (formerly Outlook Express) , IPropertyContainer interface", "IPropertyContainer interface Windows Mail (formerly Outlook Express) , SetProp method"]
+ms.assetid: eeaa0805-c89b-41a1-8acf-bb52c55ff0a9
+keywords:
+- SetProp method Windows Mail (formerly Outlook Express)
+- SetProp method Windows Mail (formerly Outlook Express) , IPropertyContainer interface
+- IPropertyContainer interface Windows Mail (formerly Outlook Express) , SetProp method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertyContainer::SetProp method
@@ -24,9 +32,9 @@ Sets the property value for a specified property ID.
 
 ```C++
 HRESULT SetProp(
-  [in] DWORD dwPropTag,
-  [in] BYTE  *pb,
-  [in] ULONG cb
+  [in] DWORD dwPropTag,
+  [in] BYTE  *pb,
+  [in] ULONG cb
 );
 ```
 
@@ -83,7 +91,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -95,8 +103,8 @@ The value of *pb* can be **NULL** and the value of *cb* can be zero only for str
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -104,9 +112,9 @@ The value of *pb* can be **NULL** and the value of *cb* can be zero only for str
 
 
 
- 
+ 
 
- 
+ 
 
 
 

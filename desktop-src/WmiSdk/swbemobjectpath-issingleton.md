@@ -1,13 +1,16 @@
 ---
-Description: 'The IsSingleton property of the SWbemObjectPath object is a Boolean value that indicates if this path represents a singleton instance. A singleton instance is an instance of a class that can never have more than one instance. This property is read-only.'
+Description: The IsSingleton property of the SWbemObjectPath object is a Boolean value that indicates if this path represents a singleton instance. A singleton instance is an instance of a class that can never have more than one instance. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0d0533be-89fe-4ab6-bafa-2da6195ff02c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0d0533be-89fe-4ab6-bafa-2da6195ff02c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObjectPath.IsSingleton property'
+title: SWbemObjectPath.IsSingleton property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectPath.IsSingleton property
@@ -35,8 +38,8 @@ SWbemObjectPath.IsSingleton As Boolean
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -45,9 +48,9 @@ SWbemObjectPath.IsSingleton As Boolean
 
 
 
- 
+ 
 
- 
+ 
 
 
 

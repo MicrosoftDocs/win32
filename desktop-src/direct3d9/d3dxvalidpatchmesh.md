@@ -1,7 +1,12 @@
-﻿---
-Description: 'Validates a patch mesh, returning the number of degenerate vertices and patches.'
-ms.assetid: 'a95ff9d9-d476-42ac-8d7e-1dc42418f763'
+---
+Description: Validates a patch mesh, returning the number of degenerate vertices and patches.
+ms.assetid: a95ff9d9-d476-42ac-8d7e-1dc42418f763
 title: D3DXValidPatchMesh function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXValidPatchMesh function

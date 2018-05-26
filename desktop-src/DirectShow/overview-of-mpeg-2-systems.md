@@ -1,7 +1,12 @@
 ---
-Description: 'Overview of MPEG-2 Systems'
-ms.assetid: '1ebfb194-002f-40ac-9be5-267861b6687b'
-title: 'Overview of MPEG-2 Systems'
+Description: Overview of MPEG-2 Systems
+ms.assetid: 1ebfb194-002f-40ac-9be5-267861b6687b
+title: Overview of MPEG-2 Systems
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of MPEG-2 Systems

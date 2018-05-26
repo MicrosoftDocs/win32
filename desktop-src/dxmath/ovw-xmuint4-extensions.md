@@ -1,12 +1,17 @@
-﻿---
-Description: 'XMUINT4 describes a structure containing a 4D vector consisting of four unsigned integer values.'
-ms.assetid: '6e566251-3454-4c8d-aaa0-121112491114'
+---
+Description: XMUINT4 describes a structure containing a 4D vector consisting of four unsigned integer values.
+ms.assetid: 6e566251-3454-4c8d-aaa0-121112491114
 title: XMUINT4 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMUINT4 Extensions
 
-[**XMUINT4**](xmuint4.md) describes a structure containing a 4D vector consisting of four unsigned integer values.
+[**XMUINT4**](/windows/win32/DirectXMath/?branch=master) describes a structure containing a 4D vector consisting of four unsigned integer values.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -33,7 +38,7 @@ title: XMUINT4 Extensions
 **Reference**
 </dt> <dt>
 
-[**XMUINT4**](xmuint4.md)
+[**XMUINT4**](/windows/win32/DirectXMath/?branch=master)
 </dt> </dl>
 
  

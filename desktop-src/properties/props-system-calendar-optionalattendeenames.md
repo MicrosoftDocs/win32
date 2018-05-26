@@ -1,7 +1,12 @@
 ---
-Description: 'Names of the all the optional attendees.'
-ms.assetid: 'ffbf3f0c-52eb-49ab-89b2-cedf1eaa14e2'
-title: 'System.Calendar.OptionalAttendeeNames'
+Description: Names of the all the optional attendees.
+ms.assetid: ffbf3f0c-52eb-49ab-89b2-cedf1eaa14e2
+title: System.Calendar.OptionalAttendeeNames
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Calendar.OptionalAttendeeNames

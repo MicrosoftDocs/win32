@@ -1,8 +1,16 @@
 ---
 title: Text Display Types
 description: Text Display Types
-ms.assetid: '6aa3fc89-e5f5-420f-82e0-c605676078cb'
-keywords: ["Windows Media Player Mobile skins,text", "text in skins,display types", "skins,text"]
+ms.assetid: 6aa3fc89-e5f5-420f-82e0-c605676078cb
+keywords:
+- Windows Media Player Mobile skins,text
+- text in skins,display types
+- skins,text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Display Types

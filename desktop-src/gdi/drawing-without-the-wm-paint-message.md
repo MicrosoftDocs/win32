@@ -1,14 +1,19 @@
 ---
-Description: 'Although applications carry out most drawing operations while the WM\_PAINT message is processing, it is sometimes more efficient for an application to draw directly in a window without relying on the WM\_PAINT message.'
-ms.assetid: '2d015879-58d2-4cbe-b1cc-445f2e8fd316'
-title: 'Drawing Without the WM\_PAINT Message'
+Description: Although applications carry out most drawing operations while the WM\_PAINT message is processing, it is sometimes more efficient for an application to draw directly in a window without relying on the WM\_PAINT message.
+ms.assetid: 2d015879-58d2-4cbe-b1cc-445f2e8fd316
+title: Drawing Without the WM\_PAINT Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing Without the WM\_PAINT Message
 
 Although applications carry out most drawing operations while the [**WM\_PAINT**](wm-paint.md) message is processing, it is sometimes more efficient for an application to draw directly in a window without relying on the **WM\_PAINT** message. This can be useful when the user needs immediate feedback, such as when selecting text and dragging or sizing an object. In such cases, the application usually draws while processing keyboard or mouse messages.
 
-To draw in a window without using a [**WM\_PAINT**](wm-paint.md) message, the application uses the [**GetDC**](getdc.md) or [**GetDCEx**](getdcex.md) function to retrieve a display device context for the window. With the display device context, the application can draw in the window and avoid intruding into other windows. When the application has finished drawing, it calls the [**ReleaseDC**](releasedc.md) function to release the display device context for use by other applications.
+To draw in a window without using a [**WM\_PAINT**](wm-paint.md) message, the application uses the [**GetDC**](/windows/win32/Winuser/nf-winuser-getdc?branch=master) or [**GetDCEx**](/windows/win32/Winuser/nf-winuser-getdcex?branch=master) function to retrieve a display device context for the window. With the display device context, the application can draw in the window and avoid intruding into other windows. When the application has finished drawing, it calls the [**ReleaseDC**](/windows/win32/Winuser/nf-winuser-releasedc?branch=master) function to release the display device context for use by other applications.
 
 When drawing without using a [**WM\_PAINT**](wm-paint.md) message, the application usually does not invalidate the window. Instead, it draws in such a fashion that it can easily restore the window and remove the drawing. For example, when the user selects text or an object, the application typically draws the selection by inverting whatever is already in the window. The application can remove the selection and restore the original contents of the window by simply inverting again.
 

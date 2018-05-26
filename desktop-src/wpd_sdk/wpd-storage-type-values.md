@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_STORAGE\_TYPE\_VALUES enumeration type describes the different Windows Portable Device storage types.'
-ms.assetid: '52c34458-e64e-4355-9231-7457a6dff5c5'
-title: 'WPD\_STORAGE\_TYPE\_VALUES enumeration'
+Description: The WPD\_STORAGE\_TYPE\_VALUES enumeration type describes the different Windows Portable Device storage types.
+ms.assetid: 52c34458-e64e-4355-9231-7457a6dff5c5
+title: WPD\_STORAGE\_TYPE\_VALUES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_STORAGE\_TYPE\_VALUES enumeration
@@ -13,11 +18,11 @@ The **WPD\_STORAGE\_TYPE\_VALUES** enumeration type describes the different Wind
 
 ```C++
 typedef enum tagWPD_STORAGE_TYPE_VALUES { 
-  WPD_STORAGE_TYPE_UNDEFINED      = 0,
-  WPD_STORAGE_TYPE_FIXED_ROM      = 1,
-  WPD_STORAGE_TYPE_REMOVABLE_ROM  = 2,
-  WPD_STORAGE_TYPE_FIXED_RAM      = 3,
-  WPD_STORAGE_TYPE_REMOVABLE_RAM  = 4
+  WPD_STORAGE_TYPE_UNDEFINED      = 0,
+  WPD_STORAGE_TYPE_FIXED_ROM      = 1,
+  WPD_STORAGE_TYPE_REMOVABLE_ROM  = 2,
+  WPD_STORAGE_TYPE_FIXED_RAM      = 3,
+  WPD_STORAGE_TYPE_REMOVABLE_RAM  = 4
 } WPD_STORAGE_TYPE_VALUES;
 ```
 
@@ -83,9 +88,9 @@ None.
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

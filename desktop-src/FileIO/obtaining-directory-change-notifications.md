@@ -1,26 +1,31 @@
 ---
-Description: 'An application can monitor the contents of a directory and its subdirectories by using change notifications.'
-ms.assetid: 'ad884b15-e040-478b-aa99-d8622198f62a'
+Description: An application can monitor the contents of a directory and its subdirectories by using change notifications.
+ms.assetid: ad884b15-e040-478b-aa99-d8622198f62a
 title: Obtaining Directory Change Notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining Directory Change Notifications
 
 An application can monitor the contents of a directory and its subdirectories by using change notifications. Waiting for a change notification is similar to having a read operation pending against a directory and, if necessary, its subdirectories. When something changes within the directory being watched, the read operation is completed. For example, an application can use these functions to update a directory listing whenever a file name within the monitored directory changes.
 
-An application can specify a set of conditions that trigger a change notification by using the [**FindFirstChangeNotification**](findfirstchangenotification.md) function. The conditions include changes to file names, directory names, attributes, file size, time of last write, and security. This function also returns a handle that can be waited on by using the [wait functions](https://msdn.microsoft.com/library/windows/desktop/ms687069). If the wait condition is satisfied, [**FindNextChangeNotification**](findnextchangenotification.md) can be used to provide a notification handle to wait on subsequent changes. However, these functions do not indicate the actual change that satisfied the wait condition.
+An application can specify a set of conditions that trigger a change notification by using the [**FindFirstChangeNotification**](/windows/win32/FileAPI/nf-fileapi-findfirstchangenotificationa?branch=master) function. The conditions include changes to file names, directory names, attributes, file size, time of last write, and security. This function also returns a handle that can be waited on by using the [wait functions](https://msdn.microsoft.com/library/windows/desktop/ms687069). If the wait condition is satisfied, [**FindNextChangeNotification**](/windows/win32/FileAPI/nf-fileapi-findnextchangenotification?branch=master) can be used to provide a notification handle to wait on subsequent changes. However, these functions do not indicate the actual change that satisfied the wait condition.
 
-Use [**FindCloseChangeNotification**](findclosechangenotification.md) to close the notification handle.
+Use [**FindCloseChangeNotification**](/windows/win32/FileAPI/nf-fileapi-findclosechangenotification?branch=master) to close the notification handle.
 
-To retrieve information about the specific change as part of the notification, use the [**ReadDirectoryChangesW**](readdirectorychangesw.md) function. This function also enables you to provide a completion routine.
+To retrieve information about the specific change as part of the notification, use the [**ReadDirectoryChangesW**](/windows/win32/WinBase/nf-winbase-readdirectorychangesw?branch=master) function. This function also enables you to provide a completion routine.
 
 To track changes on a volume, see [change journals](change-journals.md).
 
-The following example monitors the directory tree for directory name changes. It also monitors a directory for file name changes. The example uses the [**FindFirstChangeNotification**](findfirstchangenotification.md) function to create two notification handles and the [**WaitForMultipleObjects**](https://msdn.microsoft.com/library/windows/desktop/ms687025) function to wait on the handles. Whenever a directory is created or deleted in the tree, the example should update the entire directory tree. Whenever a file is created or deleted in the directory, the example should refresh the directory.
+The following example monitors the directory tree for directory name changes. It also monitors a directory for file name changes. The example uses the [**FindFirstChangeNotification**](/windows/win32/FileAPI/nf-fileapi-findfirstchangenotificationa?branch=master) function to create two notification handles and the [**WaitForMultipleObjects**](https://msdn.microsoft.com/library/windows/desktop/ms687025) function to wait on the handles. Whenever a directory is created or deleted in the tree, the example should update the entire directory tree. Whenever a file is created or deleted in the directory, the example should refresh the directory.
 
 > [!Note]
 >
-> This simplistic example uses the [**ExitProcess**](https://msdn.microsoft.com/library/windows/desktop/ms682658) function for termination and cleanup, but more complex applications should always use proper resource management such as [**FindCloseChangeNotification**](findclosechangenotification.md) where appropriate.
+> This simplistic example uses the [**ExitProcess**](https://msdn.microsoft.com/library/windows/desktop/ms682658) function for termination and cleanup, but more complex applications should always use proper resource management such as [**FindCloseChangeNotification**](/windows/win32/FileAPI/nf-fileapi-findclosechangenotification?branch=master) where appropriate.
 
  
 

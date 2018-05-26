@@ -1,7 +1,12 @@
 ---
 title: Security and Extended Error Information
 description: Extended error information offers very useful data when troubleshooting an RPC problem, but such data many be considered confidential by security-conscious organizations.
-ms.assetid: 'ca6ef213-e59d-4b4e-ae7e-f5b20d11fd01'
+ms.assetid: ca6ef213-e59d-4b4e-ae7e-f5b20d11fd01
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security and Extended Error Information

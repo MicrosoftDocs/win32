@@ -1,7 +1,12 @@
 ---
-Description: 'Creating buffers requires defining the data that the buffer will store, providing initialization data, and setting up appropriate usage and binding flags. To create textures, see Creating Texture Resources (Direct3D 10).'
-ms.assetid: '9787b153-9301-4a0f-bd6f-21cc6f7fc650'
-title: 'Creating Buffer Resources (Direct3D 10)'
+Description: Creating buffers requires defining the data that the buffer will store, providing initialization data, and setting up appropriate usage and binding flags. To create textures, see Creating Texture Resources (Direct3D 10).
+ms.assetid: 9787b153-9301-4a0f-bd6f-21cc6f7fc650
+title: Creating Buffer Resources (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Buffer Resources (Direct3D 10)
@@ -26,7 +31,7 @@ The steps to creating a [vertex buffer](d3d10-graphics-programming-guide-resourc
 
 ### Create a Buffer Description
 
-When creating a vertex buffer, a buffer description (see [**D3D10\_BUFFER\_DESC**](d3d10-buffer-desc.md)) is used to define how data is organized within the buffer, how the pipeline can access the buffer, and how the buffer will be used.
+When creating a vertex buffer, a buffer description (see [**D3D10\_BUFFER\_DESC**](/windows/win32/D3D10/ns-d3d10-cd3d10_buffer_desc?branch=master)) is used to define how data is organized within the buffer, how the pipeline can access the buffer, and how the buffer will be used.
 
 The following example demonstrates how to create a buffer description for a single triangle with vertices that contain position and color values.
 
@@ -48,21 +53,21 @@ struct SimpleVertex
 
 
 
-In this example, the buffer description is initialized with almost all default settings for [**usage**](d3d10-usage.md), [**CPU access**](d3d10-cpu-access-flag.md) and [**miscellaneous flags**](d3d10-resource-misc-flag.md). The other settings are for the [**bind flag**](d3d10-bind-flag.md) which identifies the resource as a vertex buffer only, and the size of the buffer.
+In this example, the buffer description is initialized with almost all default settings for [**usage**](/windows/win32/D3D10/ne-d3d10-d3d10_usage?branch=master), [**CPU access**](/windows/win32/D3D10/ne-d3d10-d3d10_cpu_access_flag?branch=master) and [**miscellaneous flags**](/windows/win32/D3D10/ne-d3d10-d3d10_resource_misc_flag?branch=master). The other settings are for the [**bind flag**](/windows/win32/D3D10/ne-d3d10-d3d10_bind_flag?branch=master) which identifies the resource as a vertex buffer only, and the size of the buffer.
 
 The usage and CPU access flags are important for performance. These two flags together determine how often a resource gets accessed, what type of memory the resource could be loaded into, and what processor needs to access the resource. Default usage this resource will not be updated very often. Setting CPU access to 0 means that the CPU will not need to either read or write the resource. Taken in combination, this means that the runtime can load the resource into the highest performing memory for the GPU since the resource does not require CPU access.
 
-As expected, there is a tradeoff between best performance and any-time accessibility by either processor. For example, the default usage with no CPU access means that the resource can be made available to the GPU exclusively. This could include loading the resource into memory not directly accessible by the CPU. The resource could only be modified with [**UpdateSubresource**](id3d10device-updatesubresource.md).
+As expected, there is a tradeoff between best performance and any-time accessibility by either processor. For example, the default usage with no CPU access means that the resource can be made available to the GPU exclusively. This could include loading the resource into memory not directly accessible by the CPU. The resource could only be modified with [**UpdateSubresource**](/windows/win32/D3D10/nf-d3d10-id3d10device-updatesubresource?branch=master).
 
 ### Create the Initialization Data for the Buffer
 
-A buffer is just a collection of elements and is laid out as a 1D array. As a result, the system memory pitch and system memory slice pitch are both the same; the size of the vertex data declaration. An application can provide initialization data when a buffer is created using a [**subresource description**](d3d10-subresource-data.md), which contains a pointer to the actual resource data and contains information about the size and layout of that data.
+A buffer is just a collection of elements and is laid out as a 1D array. As a result, the system memory pitch and system memory slice pitch are both the same; the size of the vertex data declaration. An application can provide initialization data when a buffer is created using a [**subresource description**](/windows/win32/D3D10/ns-d3d10-d3d10_subresource_data?branch=master), which contains a pointer to the actual resource data and contains information about the size and layout of that data.
 
-Any buffer created with immutable usage (see [**D3D10\_USAGE\_IMMUTABLE**](d3d10-usage.md)) must be initialized at creation time. Buffers that use any of the other usage flags can be updated after initialization using [**CopyResource**](id3d10device-copyresource.md), [**CopySubresourceRegion**](id3d10device-copysubresourceregion.md), and [**UpdateSubresource**](id3d10device-updatesubresource.md), or by accessing its underlying memory using the [**Map**](id3d10buffer-map.md) method.
+Any buffer created with immutable usage (see [**D3D10\_USAGE\_IMMUTABLE**](/windows/win32/D3D10/ne-d3d10-d3d10_usage?branch=master)) must be initialized at creation time. Buffers that use any of the other usage flags can be updated after initialization using [**CopyResource**](/windows/win32/D3D10/nf-d3d10-id3d10device-copyresource?branch=master), [**CopySubresourceRegion**](/windows/win32/D3D10/nf-d3d10-id3d10device-copysubresourceregion?branch=master), and [**UpdateSubresource**](/windows/win32/D3D10/nf-d3d10-id3d10device-updatesubresource?branch=master), or by accessing its underlying memory using the [**Map**](/windows/win32/D3D10/nf-d3d10-id3d10buffer-map?branch=master) method.
 
 ### Create the Buffer
 
-Using the buffer description and the initialization data (which is optional) call [**CreateBuffer**](id3d10device-createbuffer.md) to create a vertex buffer. The following code snippet demonstrates how to create a vertex buffer from an array of vertex data declared by the application.
+Using the buffer description and the initialization data (which is optional) call [**CreateBuffer**](/windows/win32/D3D10/nf-d3d10-id3d10device-createbuffer?branch=master) to create a vertex buffer. The following code snippet demonstrates how to create a vertex buffer from an array of vertex data declared by the application.
 
 
 ```
@@ -172,7 +177,7 @@ struct VS_CONSTANT_BUFFER
 
 
 
-Note that when using the [**ID3D10Effect Interface**](id3d10effect.md) interface the process of creating, binding and comitting a constant buffer is handled by the **ID3D10Effect Interface** instance. In that case it is only nescesary to get the variable from the effect with one of the GetVariable methods such as [**GetVariableByName**](id3d10effect-getvariablebyname.md) and update the variable with one of the SetVariable methods such as [**SetMatrix**](id3d10effectmatrixvariable-setmatrix.md). For an example of using **ID3D10Effect Interface** to manage a constant buffer see [Tutorial 7: Texture Mapping and Constant Buffers](f604f2b2-ffcc-7b5d-2bba-28a66584232c).
+Note that when using the [**ID3D10Effect Interface**](/windows/win32/D3D10Effect/nn-d3d10effect-id3d10effect?branch=master) interface the process of creating, binding and comitting a constant buffer is handled by the **ID3D10Effect Interface** instance. In that case it is only nescesary to get the variable from the effect with one of the GetVariable methods such as [**GetVariableByName**](/windows/win32/D3D10Effect/nf-d3d10effect-id3d10effect-getvariablebyname?branch=master) and update the variable with one of the SetVariable methods such as [**SetMatrix**](/windows/win32/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrix?branch=master). For an example of using **ID3D10Effect Interface** to manage a constant buffer see [Tutorial 7: Texture Mapping and Constant Buffers](f604f2b2-ffcc-7b5d-2bba-28a66584232c).
 
 ## Related topics
 

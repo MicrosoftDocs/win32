@@ -1,7 +1,12 @@
 ---
-Description: 'This operator subtracts one reference time from another, and sets this object to the result.'
-ms.assetid: '573b6f6b-7634-4e78-872c-f869b59a75e2'
-title: 'COARefTime.operator-= method'
+Description: This operator subtracts one reference time from another, and sets this object to the result.
+ms.assetid: 573b6f6b-7634-4e78-872c-f869b59a75e2
+title: COARefTime.operator-= method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COARefTime.operator-= method
@@ -13,7 +18,7 @@ This operator subtracts one reference time from another, and sets this object to
 
 ```C++
 COARefTime&amp; operator-=(
-  [ref] const COARefTime &amp;rt
+  [ref] const COARefTime &amp;rt
 );
 ```
 
@@ -52,9 +57,9 @@ Returns a reference to the object.
 [**COARefTime Class**](coareftime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

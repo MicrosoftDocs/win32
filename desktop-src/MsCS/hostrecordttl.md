@@ -4,17 +4,22 @@ description: Time To Live (TTL) in seconds to be set for the resource records pu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7c0ecb4a-b89d-4bb8-9a8a-a77f657b6bf6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7c0ecb4a-b89d-4bb8-9a8a-a77f657b6bf6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["HostRecordTTL Failover Cluster , for Network Name properties", "HostRecordTTL Failover Cluster"]
+keywords:
+- HostRecordTTL Failover Cluster , for Network Name properties
+- HostRecordTTL Failover Cluster
 topic_type:
 - apiref
 api_name:
 - HostRecordTTL
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # HostRecordTTL
@@ -28,14 +33,14 @@ Time To Live (TTL) in seconds to be set for the resource records published for t
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 0xFFFFFFFF                                |
 | Default   | 1200                                      |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,7 +69,7 @@ HostRecordTTLValue.dw        = HostRecordTTLData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -75,12 +80,12 @@ HostRecordTTLValue.dw        = HostRecordTTLData;
 [Cluster Name Private Properties](network-name-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

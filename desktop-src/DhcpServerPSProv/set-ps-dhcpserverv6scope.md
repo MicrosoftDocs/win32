@@ -4,13 +4,16 @@ description: Modifies the properties of a IPv6 scope on the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b4ba80c4-33f9-42ea-9316-2c4360f290ce'
-ms.prod: 'windows-server-dev'
+ms.assetid: b4ba80c4-33f9-42ea-9316-2c4360f290ce
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DhcpServerv6Scope class", "PS_DhcpServerv6Scope class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DhcpServerv6Scope class
+- PS_DhcpServerv6Scope class, Set method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DhcpServerv6Scope class
@@ -30,18 +36,18 @@ Modifies the properties of a IPv6 scope on the server
 
 ```mof
 uint32 Set(
-  [in]  string            Prefix,
-  [in]  string            Name,
-  [in]  string            Description,
-  [in]  string            State,
-  [in]  uint16            Preference,
-  [in]  datetime          PreferredLifeTime,
-  [in]  datetime          ValidLifeTime,
-  [in]  datetime          T1,
-  [in]  datetime          T2,
-  [in]  string            ComputerName,
-  [in]  boolean           PassThru,
-  [out] DhcpServerv6Scope cmdletOutput
+  [in]  string            Prefix,
+  [in]  string            Name,
+  [in]  string            Description,
+  [in]  string            State,
+  [in]  uint16            Preference,
+  [in]  datetime          PreferredLifeTime,
+  [in]  datetime          ValidLifeTime,
+  [in]  datetime          T1,
+  [in]  datetime          T2,
+  [in]  string            ComputerName,
+  [in]  boolean           PassThru,
+  [out] DhcpServerv6Scope cmdletOutput
 );
 ```
 
@@ -156,7 +162,7 @@ An embedded instance of the [**DhcpServerv6Scope**](dhcpserverv6scope.md) class.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -170,9 +176,9 @@ An embedded instance of the [**DhcpServerv6Scope**](dhcpserverv6scope.md) class.
 [**PS\_DhcpServerv6Scope**](ps-dhcpserverv6scope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

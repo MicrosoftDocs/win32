@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GdiEndPageEMF function ends EMF playback operations for a physical page of an EMF-formatted print job.'
-ms.assetid: 'e15344a5-32ed-43a8-93c2-d5201617d595'
+---
+Description: The GdiEndPageEMF function ends EMF playback operations for a physical page of an EMF-formatted print job.
+ms.assetid: e15344a5-32ed-43a8-93c2-d5201617d595
 title: GdiEndPageEMF function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GdiEndPageEMF function

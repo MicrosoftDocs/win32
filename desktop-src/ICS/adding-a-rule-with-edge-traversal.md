@@ -1,7 +1,12 @@
 ---
 title: Adding a Rule with Edge Traversal
-description: This example adds an application rule with Edge Traversal using the Windows Firewall with Advanced Security APIs.VB' This VBScript file includes sample code that adds an application ' rule with Edge Traversal using the Microsoft Windows Firewall APIs.
-ms.assetid: '60f27c2e-0117-496e-b3e3-d0adee194a4c'
+description: This example adds an application rule with Edge Traversal using the Windows Firewall with Advanced Security APIs.VB This VBScript file includes sample code that adds an application  rule with Edge Traversal using the Microsoft Windows Firewall APIs.
+ms.assetid: 60f27c2e-0117-496e-b3e3-d0adee194a4c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Rule with Edge Traversal

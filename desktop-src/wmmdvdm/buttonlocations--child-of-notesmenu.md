@@ -1,14 +1,20 @@
 ---
 title: ButtonLocations (Child of NotesMenu) element
-description: Specifies the normalized (with respect to a screen with a 16 9 aspect ratio) position and dimensions of the button on the notes menu. This is the rectangular region that defines each button's location for the DVD player.
-ms.assetid: 'fc97e79b-e109-49e1-a5d0-34a629cb62f8'
-keywords: ["ButtonLocations (Child of NotesMenu) element Windows Movie Maker and DVD Maker"]
+description: Specifies the normalized (with respect to a screen with a 16 9 aspect ratio) position and dimensions of the button on the notes menu. This is the rectangular region that defines each buttons location for the DVD player.
+ms.assetid: fc97e79b-e109-49e1-a5d0-34a629cb62f8
+keywords:
+- ButtonLocations (Child of NotesMenu) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - ButtonLocations
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ButtonLocations (Child of NotesMenu) element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -69,9 +75,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

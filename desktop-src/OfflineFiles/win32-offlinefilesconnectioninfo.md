@@ -1,13 +1,16 @@
 ---
-Description: 'Presents query and action capabilities associated with the online-offline transition behavior of Offline Files.'
+Description: Presents query and action capabilities associated with the online-offline transition behavior of Offline Files.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0d91475d-8483-42c6-89d7-19569c82e0d7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0d91475d-8483-42c6-89d7-19569c82e0d7
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'Win32\_OfflineFilesConnectionInfo class'
+title: Win32\_OfflineFilesConnectionInfo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_OfflineFilesConnectionInfo class
@@ -87,7 +90,7 @@ Access type: Read-only
 
 Indicates whether the item is currently online or offline. If the item is offline, the **OfflineReason** property indicates why it is offline.
 
-**Windows Server 2008, Windows Vista, Windows Server 2008 R2 and Windows 7:** 3 (Transparently Cached) and 4 (Partly Transparently Cached) are not supported before Windows Server 2012 and Windows 8
+**Windows Server 2008, Windows Vista, Windows Server 2008 R2 and Windows 7:** 3 (Transparently Cached) and 4 (Partly Transparently Cached) are not supported before Windows Server 2012 and Windows 8
 
 </dd> <dt>
 
@@ -161,8 +164,8 @@ If the item is offline (**ConnectState**=1 (**Offline**), this property indicate
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CscObj.dll</dt> </dl>                  |
@@ -176,9 +179,9 @@ If the item is offline (**ConnectState**=1 (**Offline**), this property indicate
 [Offline Files WMI Provider Reference](offline-files-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

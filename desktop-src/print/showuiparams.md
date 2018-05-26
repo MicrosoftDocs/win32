@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SplPromptUIInUsersSession function uses the SHOWUIPARAMS structure to hold information about the appearance and behavior of a message box.'
-ms.assetid: '63ee7f5c-ca95-4c2d-be17-56a769188f8c'
+---
+Description: The SplPromptUIInUsersSession function uses the SHOWUIPARAMS structure to hold information about the appearance and behavior of a message box.
+ms.assetid: 63ee7f5c-ca95-4c2d-be17-56a769188f8c
 title: SHOWUIPARAMS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SHOWUIPARAMS structure

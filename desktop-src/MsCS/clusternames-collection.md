@@ -4,11 +4,13 @@ description: Provides access to the names of the clusters in a domain.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c4e29498-c4e2-4351-8eed-05bc73437485'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: c4e29498-c4e2-4351-8eed-05bc73437485
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusterNames collection Failover Cluster", "ClusterNames collection Failover Cluster , described"]
+keywords:
+- ClusterNames collection Failover Cluster
+- ClusterNames collection Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusterNames collection
@@ -45,7 +50,7 @@ The **ClusterNames** collection has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -61,7 +66,7 @@ The **ClusterNames** collection has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,7 +82,7 @@ A **ClusterNames** collection:
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -93,9 +98,9 @@ A **ClusterNames** collection:
 [Application Management Objects](application-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

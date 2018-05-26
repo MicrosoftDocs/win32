@@ -1,8 +1,11 @@
 ---
 title: Activity GetTraceName method
 description: Returns the trace name of the Activity.
-ms.assetid: '5E71E7D6-108A-414E-A2D3-0D2379498C47'
-keywords: ["GetTraceName method Access Execution Engine", "GetTraceName method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , GetTraceName method"]
+ms.assetid: 5E71E7D6-108A-414E-A2D3-0D2379498C47
+keywords:
+- GetTraceName method Access Execution Engine
+- GetTraceName method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , GetTraceName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::GetTraceName method
@@ -22,7 +30,7 @@ Returns the trace name of the **Activity**.
 
 ```C++
 virtual HRESULT GetTraceName(
-  [out] LPCWSTR *traceName
+  [out] LPCWSTR *traceName
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The trace name is the value of element **Activity/Trace/Description/Name**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The trace name is the value of element **Activity/Trace/Description/Name**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

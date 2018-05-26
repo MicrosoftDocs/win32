@@ -1,8 +1,13 @@
 ---
 title: IVMDVDDrive Attachment property
 description: The Attachment property retrieves an enumerated value representing the type of media attached to the DVD drive within the virtual machine.
-ms.assetid: '0bf34dcc-3566-4b78-8ec3-83f794eb910e'
-keywords: ["Attachment property Virtual Server", "Attachment property Virtual Server , IVMDVDDrive interface", "IVMDVDDrive interface Virtual Server , Attachment property", "Attachment property Virtual Server , VMDVDDrive interface", "VMDVDDrive interface Virtual Server , Attachment property"]
+ms.assetid: 0bf34dcc-3566-4b78-8ec3-83f794eb910e
+keywords:
+- Attachment property Virtual Server
+- Attachment property Virtual Server , IVMDVDDrive interface
+- IVMDVDDrive interface Virtual Server , Attachment property
+- Attachment property Virtual Server , VMDVDDrive interface
+- VMDVDDrive interface Virtual Server , Attachment property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDrive::Attachment property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Attachment(
-  [out] VMDVDDriveAttachmentType *driveAttachment
+  [out] VMDVDDriveAttachmentType *driveAttachment
 );
 ```
 
@@ -78,8 +88,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -94,9 +104,9 @@ This property value is read-only.
 [**VMDVDDriveAttachmentType**](vmdvddriveattachmenttype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

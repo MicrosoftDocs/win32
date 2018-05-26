@@ -4,11 +4,14 @@ description: The DisplayObjectType property returns the type of image displayed 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b83fe746-1363-43b6-ad26-36a3119480a4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b83fe746-1363-43b6-ad26-36a3119480a4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["DisplayObjectType property MMC", "DisplayObjectType property MMC , MMCDisplayObject class", "MMCDisplayObject class MMC , DisplayObjectType property"]
+keywords:
+- DisplayObjectType property MMC
+- DisplayObjectType property MMC , MMCDisplayObject class
+- MMCDisplayObject class MMC , DisplayObjectType property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCDisplayObject.DisplayObjectType property
@@ -51,7 +57,7 @@ The **DisplayObjectType** property returns a Long value. The meaning of the valu
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,9 +70,9 @@ The **DisplayObjectType** property returns a Long value. The meaning of the valu
 
 
 
- 
+ 
 
- 
+ 
 
 
 

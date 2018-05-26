@@ -1,7 +1,12 @@
 ---
 title: Caret (MSAA UI Element Reference)
 description: The caret is a flashing line, block, or bitmap in the client area of a window or in a control that accepts keyboard input.
-ms.assetid: 'f2c48c36-1859-4e0a-8833-3ca90b4da323'
+ms.assetid: f2c48c36-1859-4e0a-8833-3ca90b4da323
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Caret (MSAA UI Element Reference)
@@ -15,14 +20,14 @@ The caret is a flashing line, block, or bitmap in the client area of a window or
 
 ## IAccessible Methods
 
-The caret supports the following [**IAccessible**](iaccessible.md) methods:
+The caret supports the following [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) methods:
 
--   [**accHitTest**](iaccessible-iaccessible--acchittest.md)
--   [**accLocation**](iaccessible-iaccessible--acclocation.md)
+-   [**accHitTest**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acchittest?branch=master)
+-   [**accLocation**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acclocation?branch=master)
 
 ## IAccessible Properties
 
-The caret supports the following [**IAccessible**](iaccessible.md) properties:
+The caret supports the following [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) properties:
 
 
 
@@ -39,19 +44,19 @@ The caret supports the following [**IAccessible**](iaccessible.md) properties:
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>get_accChildCount</strong>](iaccessible-iaccessible--get-accchildcount.md)</td>
+<td>[<strong>get_accChildCount</strong>](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accchildcount?branch=master)</td>
 <td>The <strong>ChildCount</strong> property is zero.</td>
 </tr>
 <tr class="even">
-<td>[<strong>get_accName</strong>](iaccessible-iaccessible--get-accname.md)</td>
+<td>[<strong>get_accName</strong>](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accname?branch=master)</td>
 <td>The <strong>Name</strong> property is &quot;Edit&quot;.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>get_accRole</strong>](iaccessible-iaccessible--get-accrole.md)</td>
+<td>[<strong>get_accRole</strong>](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accrole?branch=master)</td>
 <td>The <strong>Role</strong> property is [<strong>ROLE_SYSTEM_CARET</strong>](object-roles.md#role-system-caret).</td>
 </tr>
 <tr class="even">
-<td>[<strong>get_accState</strong>](iaccessible-iaccessible--get-accstate.md)</td>
+<td>[<strong>get_accState</strong>](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accstate?branch=master)</td>
 <td>Possible values for the <strong>State</strong> property include:
 <ul>
 <li>Zero, which means the caret is visible</li>
@@ -67,7 +72,7 @@ The caret supports the following [**IAccessible**](iaccessible.md) properties:
 
 ## Notes
 
--   Unlike other UI elements, the caret object does not have an associated window handle. To obtain access to the caret object, clients must set a [*WinEventProc*](wineventproc-callback-function.md) and wait for the caret object to generate events.
+-   Unlike other UI elements, the caret object does not have an associated window handle. To obtain access to the caret object, clients must set a [*WinEventProc*](/windows/win32/Winuser/nc-winuser-wineventproc?branch=master) and wait for the caret object to generate events.
 -   The caret object in the rich edit control provided by Riched20.dll (which is used in text editors such as Microsoft WordPad in Windows 98) does not send any [WinEvents](winevents-collision169.md) when its position is changed during text selection. When users press SHIFT and arrow keys to select text, the caret object does not trigger the [**EVENT\_OBJECT\_LOCATIONCHANGE**](event-constants.md#event-object-locationchange) WinEvent. Similarly, when the selection is set programmatically through rich edit messages, the caret object does not send any events to indicate its new position.
 
     All applications that use Riched20.dll exhibit this problem. Applications using earlier versions of the rich edit control correctly send events based on the selection.
@@ -76,7 +81,7 @@ The caret supports the following [**IAccessible**](iaccessible.md) properties:
 
 <dl> <dt>
 
-[IAccessible Interface](iaccessible.md)
+[IAccessible Interface](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master)
 </dt> </dl>
 
  

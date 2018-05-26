@@ -1,8 +1,14 @@
 ---
 title: The named\_type\_from\_local Function
 description: The stubs call the named\_type\_from\_local function.
-ms.assetid: 'ba35e2fb-957e-4e62-b0d4-ae76e30fa343'
-keywords: ["named_type_from_local"]
+ms.assetid: ba35e2fb-957e-4e62-b0d4-ae76e30fa343
+keywords:
+- named_type_from_local
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The named\_type\_from\_local Function

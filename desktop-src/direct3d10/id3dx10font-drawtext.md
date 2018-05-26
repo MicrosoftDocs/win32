@@ -1,7 +1,12 @@
-﻿---
-Description: 'Draw formatted text. This method supports ANSI and Unicode strings.'
-ms.assetid: '205e9e23-4293-4195-9e41-d8c06dabd285'
-title: 'ID3DX10Font::DrawText method'
+---
+Description: Draw formatted text. This method supports ANSI and Unicode strings.
+ms.assetid: 205e9e23-4293-4195-9e41-d8c06dabd285
+title: ID3DX10FontDrawText method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Font::DrawText method

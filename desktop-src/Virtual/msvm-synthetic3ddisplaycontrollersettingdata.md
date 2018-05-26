@@ -1,8 +1,10 @@
 ---
 title: Msvm\_Synthetic3DDisplayControllerSettingData class
 description: Represents settings for a synthetic 3-D display controller for a virtual machine.
-ms.assetid: '52ba7859-96a8-4ee0-8899-e2145d5fc1e0'
-keywords: ["Msvm_Synthetic3DDisplayControllerSettingData class Hyper-V", "Msvm_Synthetic3DDisplayControllerSettingData class Hyper-V , described"]
+ms.assetid: 52ba7859-96a8-4ee0-8899-e2145d5fc1e0
+keywords:
+- Msvm_Synthetic3DDisplayControllerSettingData class Hyper-V
+- Msvm_Synthetic3DDisplayControllerSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Synthetic3DDisplayControllerSettingData class
@@ -48,29 +55,29 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_Synthetic3DDisplayControllerSettingData : CIM_ResourceAllocationSettingData
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  uint16  ResourceType;
-  string  OtherResourceType;
-  string  ResourceSubType;
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits;
-  uint64  VirtualQuantity;
-  uint64  Reservation;
-  uint32  Weight;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  uint16  ResourceType;
+  string  OtherResourceType;
+  string  ResourceSubType;
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits;
+  uint64  VirtualQuantity;
+  uint64  Reservation;
+  uint32  Weight;
   boolean AutomaticAllocation;
   boolean AutomaticDeallocation;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  uint64  Limit;
-  uint8   MaximumScreenResolution;
-  uint8   MaximumMonitors;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  uint64  Limit;
+  uint8   MaximumScreenResolution;
+  uint8   MaximumMonitors;
 };
 ```
 
@@ -217,14 +224,14 @@ The consumer's visibility to the allocated resource. This property is inherited 
 **DMTF reserved**
 
 
-</dt> <dd>5–32766</dd> <dt>
+</dt> <dd>5 32766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -359,14 +366,14 @@ Specifies how this resource maps to underlying resources. This property is inher
 **DMTF Reserved**
 
 
-</dt> <dd>5–32766</dd> <dt>
+</dt> <dd>5 32766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -385,14 +392,14 @@ The maximum number of monitors available to the 3-D display controller. The mini
 
 | Resolution            | Maximum monitors |
 |-----------------------|------------------|
-| 1024 ×768<br/>  | 4<br/>     |
-| 1280 ×1024<br/> | 4<br/>     |
-| 1600 ×1200<br/> | 3<br/>     |
-| 1920 ×1200<br/> | 2<br/>     |
+| 1024  768<br/>  | 4<br/>     |
+| 1280  1024<br/> | 4<br/>     |
+| 1600  1200<br/> | 3<br/>     |
+| 1920  1200<br/> | 2<br/>     |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -416,7 +423,7 @@ Specifies the maximum screen resolution for the 3-D display controller. This mus
 
 </dt> <dd>
 
-The maximum resolution is 1024 × 768.
+The maximum resolution is 1024   768.
 
 </dd> <dt>
 
@@ -427,7 +434,7 @@ The maximum resolution is 1024 × 768.
 
 </dt> <dd>
 
-The maximum resolution is 1280 × 1024.
+The maximum resolution is 1280   1024.
 
 </dd> <dt>
 
@@ -438,7 +445,7 @@ The maximum resolution is 1280 × 1024.
 
 </dt> <dd>
 
-The maximum resolution is 1600 × 1200.
+The maximum resolution is 1600   1200.
 
 </dd> <dt>
 
@@ -449,7 +456,7 @@ The maximum resolution is 1600 × 1200.
 
 </dt> <dd>
 
-The maximum resolution is 1920 × 1200.
+The maximum resolution is 1920   1200.
 
 </dd> <dt>
 
@@ -460,7 +467,7 @@ The maximum resolution is 1920 × 1200.
 
 </dt> <dd>
 
-The maximum resolution is 2560 × 1600.
+The maximum resolution is 2560   1600.
 
 </dd> </dl>
 
@@ -754,14 +761,14 @@ The type of resource this allocation setting represents. This property is inheri
 **DMTF reserved**
 
 
-</dt> <dd>34–32767</dd> <dt>
+</dt> <dd>34 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–35535</dd> </dl>
+</dt> <dd>32768 35535</dd> </dl>
 
 </dd> <dt>
 
@@ -798,17 +805,17 @@ An integer that defines the weight for each virtual machine processor. After all
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                                           |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

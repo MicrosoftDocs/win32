@@ -1,8 +1,14 @@
 ---
 title: The named\_type\_free\_local Function
 description: The stubs call the type\_free\_local function to free the memory allocated by a call to the named\_type\_to\_local routine.
-ms.assetid: '8e8c6a46-20c1-483b-b804-0772391e9918'
-keywords: ["named_type_free_local"]
+ms.assetid: 8e8c6a46-20c1-483b-b804-0772391e9918
+keywords:
+- named_type_free_local
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The named\_type\_free\_local Function

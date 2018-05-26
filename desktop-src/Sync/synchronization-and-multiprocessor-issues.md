@@ -1,7 +1,12 @@
 ---
-Description: 'Applications may encounter problems when run on multiprocessor systems due to assumptions they make which are valid only on single-processor systems.'
-ms.assetid: 'b20a1d2c-b795-4ed8-ac33-539a347020c8'
+Description: Applications may encounter problems when run on multiprocessor systems due to assumptions they make which are valid only on single-processor systems.
+ms.assetid: b20a1d2c-b795-4ed8-ac33-539a347020c8
 title: Synchronization and Multiprocessor Issues
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Synchronization and Multiprocessor Issues
@@ -61,7 +66,7 @@ BOOL FetchComputedValue(int *piResult)
 }
 ```
 
-This race condition above can be repaired by using the **volatile** keyword or the [**InterlockedExchange**](interlockedexchange.md) function to ensure that the value of `iValue` is updated for all processors before the value of `fValueHasBeenComputed` is set to **TRUE**.
+This race condition above can be repaired by using the **volatile** keyword or the [**InterlockedExchange**](/windows/win32/WinBase/nf-winbase-interlockedexchange?branch=master) function to ensure that the value of `iValue` is updated for all processors before the value of `fValueHasBeenComputed` is set to **TRUE**.
 
 With Visual Studio 2005, the compiler uses acquire semantics for read operations on **volatile** variables and release semantics for write operations on **volatile** variables (when supported by the CPU). Therefore, you can correct the example as follows:
 

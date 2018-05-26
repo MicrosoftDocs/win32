@@ -1,7 +1,12 @@
-﻿---
-Description: 'Changes an external key that is associated with an encrypted volume.'
-ms.assetid: '14c7e643-f685-40bb-be86-aabc5b883d7e'
-title: 'ChangeExternalKey method of the Win32\_EncryptableVolume class'
+---
+Description: Changes an external key that is associated with an encrypted volume.
+ms.assetid: 14c7e643-f685-40bb-be86-aabc5b883d7e
+title: ChangeExternalKey method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChangeExternalKey method of the Win32\_EncryptableVolume class

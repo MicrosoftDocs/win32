@@ -1,8 +1,9 @@
 ---
 title: CreateProfileFromLogColorSpace function
 description: The CreateProfileFromLogColorSpace function converts a logical color space to a device profile.
-ms.assetid: 'ac2fddd4-ac93-49a8-883a-cf888b542812'
-keywords: ["CreateProfileFromLogColorSpace function Windows Color System"]
+ms.assetid: ac2fddd4-ac93-49a8-883a-cf888b542812
+keywords:
+- CreateProfileFromLogColorSpace function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateProfileFromLogColorSpace function
@@ -24,8 +30,8 @@ The **CreateProfileFromLogColorSpace** function converts a logical [color space]
 
 ```C++
 BOOL WINAPI CreateProfileFromLogColorSpace(
-   LPLOGCOLORSPACE pLogColorSpace,
-   PBYTE           *pBuffer
+   LPLOGCOLORSPACE pLogColorSpace,
+   PBYTE           *pBuffer
 );
 ```
 
@@ -38,7 +44,7 @@ BOOL WINAPI CreateProfileFromLogColorSpace(
 *pLogColorSpace* 
 </dt> <dd>
 
-A pointer to a logical color space structure. See [**LOGCOLORSPACE**](logcolorspace.md) for details. The **lcsFilename** \[0\] member of the structure must be set to the **null** character ('\\0') or this function call will fail with the return value of INVALID\_PARAMETER.
+A pointer to a logical color space structure. See [**LOGCOLORSPACE**](/windows/win32/Wingdi/ns-wingdi-taglogcolorspacea?branch=master) for details. The **lcsFilename** \[0\] member of the structure must be set to the **null** character ('\\0') or this function call will fail with the return value of INVALID\_PARAMETER.
 
 </dd> <dt>
 
@@ -55,7 +61,7 @@ If this function succeeds, the return value is **TRUE**.
 
 If this function fails, the return value is **FALSE**.
 
-If the **lcsFilename** \[0\] member if the [**LOGCOLORSPACE**](logcolorspace.md) structure pointed to by *pLogColorSpace* is not '\\0', this function returns INVALID\_PARAMETER.
+If the **lcsFilename** \[0\] member if the [**LOGCOLORSPACE**](/windows/win32/Wingdi/ns-wingdi-taglogcolorspacea?branch=master) structure pointed to by *pLogColorSpace* is not '\\0', this function returns INVALID\_PARAMETER.
 
 ## Remarks
 
@@ -69,8 +75,8 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>                        |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl>                    |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl>                    |
@@ -91,9 +97,9 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 [GlobalFree](https://msdn.microsoft.com/library/windows/desktop/aa366579)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

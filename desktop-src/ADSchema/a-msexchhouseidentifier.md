@@ -4,17 +4,22 @@ description: This attribute contains an address for a contact in an Exchange ser
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '99a393c7-f36c-4ade-9b14-f339f42225ba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 99a393c7-f36c-4ade-9b14-f339f42225ba
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Exch-House-Identifier attribute AD Schema", "msExchHouseIdentifier attribute AD Schema"]
+keywords:
+- ms-Exch-House-Identifier attribute AD Schema
+- msExchHouseIdentifier attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Exch-House-Identifier
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Exch-House-Identifier attribute
@@ -38,11 +43,11 @@ This attribute contains an address for a contact in an Exchange server address b
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ This attribute contains an address for a contact in an Exchange server address b
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Registering with Windows Firewall Without Taking Ownership of Firewall Policy Management
 description: This example registers a product with Windows Firewall without taking ownership of Firewall policy management using the Windows Firewall with Advanced Security APIs.
-ms.assetid: '85a568ad-a5eb-4248-bb25-d012593302da'
+ms.assetid: 85a568ad-a5eb-4248-bb25-d012593302da
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering with Windows Firewall Without Taking Ownership of Firewall Policy Management

@@ -1,12 +1,17 @@
-﻿---
-Description: 'Returns a RecordList object that gives the full path of a specified installed component.'
-ms.assetid: '0f4f9d21-f1cc-44fd-a22f-1b6f055fef9e'
-title: 'Installer.ComponentPathEx property'
+---
+Description: Returns a RecordList object that gives the full path of a specified installed component.
+ms.assetid: 0f4f9d21-f1cc-44fd-a22f-1b6f055fef9e
+title: Installer.ComponentPathEx property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ComponentPathEx property
 
-This property returns a [**RecordList**](recordlist-object.md) object that gives the full path of a specified installed component. This property calls [**MsiGetComponentPathEx**](msigetcomponentpathex.md).
+This property returns a [**RecordList**](recordlist-object.md) object that gives the full path of a specified installed component. This property calls [**MsiGetComponentPathEx**](/windows/win32/Msi/nf-msi-msigetcomponentpathexa?branch=master).
 
 **[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported. This property is available beginning with Windows Installer 5.0.
 
@@ -39,7 +44,7 @@ propVal = Installer.ComponentPathEx
 
 <dl> <dt>
 
-[**MsiGetComponentPathEx**](msigetcomponentpathex.md)
+[**MsiGetComponentPathEx**](/windows/win32/Msi/nf-msi-msigetcomponentpathexa?branch=master)
 </dt> </dl>
 
  

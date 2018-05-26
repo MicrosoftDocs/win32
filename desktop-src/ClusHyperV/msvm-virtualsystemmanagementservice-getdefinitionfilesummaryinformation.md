@@ -4,13 +4,16 @@ description: Returns virtual system summary information for an array of virtual 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c999508a-b3bd-4bca-b908-d475b657cceb'
-ms.prod: 'windows-server-dev'
+ms.assetid: c999508a-b3bd-4bca-b908-d475b657cceb
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetDefinitionFileSummaryInformation method", "GetDefinitionFileSummaryInformation method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, GetDefinitionFileSummaryInformation method"]
+keywords:
+- GetDefinitionFileSummaryInformation method
+- GetDefinitionFileSummaryInformation method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, GetDefinitionFileSummaryInformation method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetDefinitionFileSummaryInformation method of the Msvm\_VirtualSystemManagementService class
@@ -30,8 +36,8 @@ Returns virtual system summary information for an array of virtual machine defin
 
 ```mof
 uint32 GetDefinitionFileSummaryInformation(
-  [in]  string                      DefinitionFiles[],
-  [out] Msvm_SummaryInformationBase SummaryInformation[]
+  [in]  string                      DefinitionFiles[],
+  [out] Msvm_SummaryInformationBase SummaryInformation[]
 );
 ```
 
@@ -107,7 +113,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -121,9 +127,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: About HTTP Server API
 description: The HTTP Server API provides developers with a low-level interface to the server side of the HTTP functionality as defined in RFC 2616.
-ms.assetid: '74ad3a1d-cde2-4849-a412-d9d4101eaf12'
-keywords: ["HTTP Server API, overview"]
+ms.assetid: 74ad3a1d-cde2-4849-a412-d9d4101eaf12
+keywords:
+- HTTP Server API, overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About HTTP Server API

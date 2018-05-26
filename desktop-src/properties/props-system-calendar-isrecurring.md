@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates if the event will recur.'
-ms.assetid: 'be1551e6-861d-49cf-9050-9b98b7f79725'
-title: 'System.Calendar.IsRecurring'
+Description: Indicates if the event will recur.
+ms.assetid: be1551e6-861d-49cf-9050-9b98b7f79725
+title: System.Calendar.IsRecurring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Calendar.IsRecurring

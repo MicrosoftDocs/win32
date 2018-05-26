@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SORTNAME'
-ms.assetid: '985260e1-a5f5-4654-9551-f1e17231a539'
-title: 'LOCALE\_SORTNAME'
+Description: LOCALE\_SORTNAME
+ms.assetid: 985260e1-a5f5-4654-9551-f1e17231a539
+title: LOCALE\_SORTNAME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SORTNAME

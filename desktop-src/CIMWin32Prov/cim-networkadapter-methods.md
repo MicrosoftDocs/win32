@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_NetworkAdapter class exposes the following methods.'
+Description: The CIM\_NetworkAdapter class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'C36E9588-6309-4650-A878-7D397C4B24C5'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: C36E9588-6309-4650-A878-7D397C4B24C5
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_NetworkAdapter Methods'
+title: CIM\_NetworkAdapter Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_NetworkAdapter Methods

@@ -1,8 +1,11 @@
 ---
 title: SetButtonState method of the Msvm\_Ps2Mouse class
 description: Sets the current state of the specified device button.
-ms.assetid: '91349a09-ee75-4bdc-942e-948f8fdd4d4f'
-keywords: ["SetButtonState method Hyper-V", "SetButtonState method Hyper-V , Msvm_Ps2Mouse class", "Msvm_Ps2Mouse class Hyper-V , SetButtonState method"]
+ms.assetid: 91349a09-ee75-4bdc-942e-948f8fdd4d4f
+keywords:
+- SetButtonState method Hyper-V
+- SetButtonState method Hyper-V , Msvm_Ps2Mouse class
+- Msvm_Ps2Mouse class Hyper-V , SetButtonState method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - mmc.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetButtonState method of the Msvm\_Ps2Mouse class
@@ -22,8 +30,8 @@ Sets the current state of the specified device button.
 
 ```mof
 uint32 SetButtonState(
-  [in] uint32  buttonIndex,
-  [in] boolean buttonState
+  [in] uint32  buttonIndex,
+  [in] boolean buttonState
 );
 ```
 
@@ -109,9 +117,9 @@ Access to the [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md) class might be restricted b
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl>                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
@@ -125,9 +133,9 @@ Access to the [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md) class might be restricted b
 [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

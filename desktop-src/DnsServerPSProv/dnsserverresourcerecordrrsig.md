@@ -2,13 +2,15 @@
 title: DnsServerResourceRecordRRSig class
 description: DNS Server Resource Record Data RRSIG.
 audience: developer
-ms.assetid: '56c322e5-7ad0-4b2a-bb50-90f5d6ea3b1e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 56c322e5-7ad0-4b2a-bb50-90f5d6ea3b1e
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerResourceRecordRRSig class", "DnsServerResourceRecordRRSig class, described"]
+keywords:
+- DnsServerResourceRecordRRSig class
+- DnsServerResourceRecordRRSig class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerResourceRecordRRSig class
@@ -40,15 +45,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerResourceRecordRRSig : DnsServerResourceRecordData
 {
-  String   TypeCovered;
-  string   CryptoAlgorithm;
-  uint8    LabelCount;
+  String   TypeCovered;
+  string   CryptoAlgorithm;
+  uint8    LabelCount;
   datetime OriginalTtl;
   datetime SignatureExpiration;
   datetime SignatureInception;
-  uint16   KeyTag;
-  string   NameSigner;
-  string   Signature;
+  uint16   KeyTag;
+  string   NameSigner;
+  string   Signature;
 };
 ```
 
@@ -234,7 +239,7 @@ The record type with which the signature is associated with this record.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -251,9 +256,9 @@ The record type with which the signature is associated with this record.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

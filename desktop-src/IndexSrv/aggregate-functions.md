@@ -1,7 +1,12 @@
 ---
 title: Aggregate Functions
 description: Aggregate Functions
-ms.assetid: 'faec3725-4cc2-4a0c-98a3-68b2774ad99b'
+ms.assetid: faec3725-4cc2-4a0c-98a3-68b2774ad99b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Aggregate Functions

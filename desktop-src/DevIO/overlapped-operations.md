@@ -1,7 +1,12 @@
 ---
-Description: 'Overlapped operations enable a thread to perform a time-consuming I/O operation in the background, leaving the thread free to perform other tasks.'
-ms.assetid: '8c0eb20d-685a-4750-8253-a87089b68509'
+Description: Overlapped operations enable a thread to perform a time-consuming I/O operation in the background, leaving the thread free to perform other tasks.
+ms.assetid: 8c0eb20d-685a-4750-8253-a87089b68509
 title: Overlapped Operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overlapped Operations

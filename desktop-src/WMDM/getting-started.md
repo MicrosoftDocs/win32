@@ -1,8 +1,21 @@
 ---
 title: Getting Started
 description: Getting Started
-ms.assetid: '0af11e8e-ddfd-4178-aca9-61bb74a2d144'
-keywords: ["Windows Media Device Manager,about", "Device Manager,about", "Windows Media Device Manager,desktop applications", "Device Manager,desktop applications", "desktop applications,about", "Windows Media Device Manager,service providers", "Device Manager,service providers", "service providers,about"]
+ms.assetid: 0af11e8e-ddfd-4178-aca9-61bb74a2d144
+keywords:
+- Windows Media Device Manager,about
+- Device Manager,about
+- Windows Media Device Manager,desktop applications
+- Device Manager,desktop applications
+- desktop applications,about
+- Windows Media Device Manager,service providers
+- Device Manager,service providers
+- service providers,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started

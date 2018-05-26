@@ -1,7 +1,7 @@
 ---
 title: DWM\_TNP Constants
 description: Flags used by the DWM\_THUMBNAIL\_PROPERTIES structure to indicate which of its members contain valid information.
-ms.assetid: '8eee1baf-e24e-40af-92ab-a7acae267ecc'
+ms.assetid: 8eee1baf-e24e-40af-92ab-a7acae267ecc
 topic_type:
 - apiref
 api_name:
@@ -14,11 +14,16 @@ api_location:
 - Dwmapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DWM\_TNP Constants
 
-Flags used by the [**DWM\_THUMBNAIL\_PROPERTIES**](dwm-thumbnail-properties.md) structure to indicate which of its members contain valid information.
+Flags used by the [**DWM\_THUMBNAIL\_PROPERTIES**](/windows/win32/Dwmapi/ns-dwmapi-_dwm_thumbnail_properties?branch=master) structure to indicate which of its members contain valid information.
 
 <dl> <dt>
 
@@ -93,15 +98,15 @@ A value for the **fSourceClientAreaOnly** member has been specified.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Dwmapi.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

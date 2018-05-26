@@ -1,7 +1,12 @@
 ---
-Description: 'The Function Discovery application programming interface (API) addresses the issue of a lack of consistency in managing resources for devices by providing uniform interfaces for resource discovery, metadata retrieval, and notifications.'
-ms.assetid: 'db61356f-2002-4a0a-9121-f30229c197aa'
+Description: The Function Discovery application programming interface (API) addresses the issue of a lack of consistency in managing resources for devices by providing uniform interfaces for resource discovery, metadata retrieval, and notifications.
+ms.assetid: db61356f-2002-4a0a-9121-f30229c197aa
 title: About Function Discovery
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Function Discovery

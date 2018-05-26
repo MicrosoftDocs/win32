@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth class of device service networking.'
-ms.assetid: '5c440c40-a0af-49d5-a4f8-25bfc62dc869'
-title: 'System.Devices.Aep.Bluetooth.Cod.Services.Networking'
+Description: Bluetooth class of device service networking.
+ms.assetid: 5c440c40-a0af-49d5-a4f8-25bfc62dc869
+title: System.Devices.Aep.Bluetooth.Cod.Services.Networking
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.Bluetooth.Cod.Services.Networking

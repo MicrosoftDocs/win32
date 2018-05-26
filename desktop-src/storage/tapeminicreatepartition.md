@@ -1,8 +1,10 @@
 ---
 title: TAPE\_PROCESS\_COMMAND\_ROUTINE routine
 description: TAPE\_PROCESS\_COMMAND\_ROUTINE handles the device-specific aspects of an IOCTL request.
-ms.assetid: '6675d840-8b13-44ef-bbdb-84d683240175'
-keywords: ["( TAPE_PROCESS_COMMAND_ROUTINE) routine Storage Devices", "TAPE_PROCESS_COMMAND_ROUTINE"]
+ms.assetid: 6675d840-8b13-44ef-bbdb-84d683240175
+keywords:
+- ( TAPE_PROCESS_COMMAND_ROUTINE) routine Storage Devices
+- TAPE_PROCESS_COMMAND_ROUTINE
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - minitape.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TAPE\_PROCESS\_COMMAND\_ROUTINE routine
@@ -24,13 +31,13 @@ api_type:
 TAPE_PROCESS_COMMAND_ROUTINE (*TAPE_PROCESS_COMMAND_ROUTINE);
 
 TAPE_STATUS (*TAPE_PROCESS_COMMAND_ROUTINE)(
-  _Inout_  PVOID               MinitapeExtension,
-  _Inout_  PVOID               CommandExtension,
-  _Inout_  PVOID               CommandParameters,
-  _Inout_  PSCSI_REQUEST_BLOCK Srb,
-  _In_     ULONG               CallNumber,
-  _In_opt_ TAPE_STATUS         StatusOfLastCommand,
-  _Inout_  PULONG              RetryFlags
+  _Inout_  PVOID               MinitapeExtension,
+  _Inout_  PVOID               CommandExtension,
+  _Inout_  PVOID               CommandParameters,
+  _Inout_  PSCSI_REQUEST_BLOCK Srb,
+  _In_     ULONG               CallNumber,
+  _In_opt_ TAPE_STATUS         StatusOfLastCommand,
+  _Inout_  PULONG              RetryFlags
 )
 { ... }
 ```
@@ -154,7 +161,7 @@ TAPE_STATUS_NOT_IMPLEMENTED<br/><br />
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -259,9 +266,9 @@ The minidriver returns the WMI data in the buffer pointed to by the **DataBuffer
 [**TAPE\_STATUS**](tape-status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20TAPE_PROCESS_COMMAND_ROUTINE%20routine%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

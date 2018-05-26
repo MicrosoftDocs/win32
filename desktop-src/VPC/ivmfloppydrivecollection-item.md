@@ -1,8 +1,11 @@
 ---
 title: IVMFloppyDriveCollection Item property
 description: Floppy object that corresponds to the specified index.
-ms.assetid: '068a1f1c-ae84-4689-b68a-ce25b68fc06b'
-keywords: ["Item property Virtual PC", "Item property Virtual PC , IVMFloppyDriveCollection interface", "IVMFloppyDriveCollection interface Virtual PC , Item property"]
+ms.assetid: 068a1f1c-ae84-4689-b68a-ce25b68fc06b
+keywords:
+- Item property Virtual PC
+- Item property Virtual PC , IVMFloppyDriveCollection interface
+- IVMFloppyDriveCollection interface Virtual PC , Item property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDriveCollection::Item property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the floppy object that corresponds to the specified index.
 
@@ -27,8 +35,8 @@ This property is read-only.
 
 ```C++
 HRESULT get_Item(
-  [in]          long           index,
-  [out, retval] IVMFloppyDrive **floppyDrive
+  [in]          long           index,
+  [out, retval] IVMFloppyDrive **floppyDrive
 );
 ```
 
@@ -58,9 +66,9 @@ The [**IVMFloppyDrive**](ivmfloppydrive.md) object.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMFloppyDriveCollection is defined as 8ba70a25-f698-4ee5-85ce-3cc93a925516<br/>   |
@@ -77,9 +85,9 @@ The [**IVMFloppyDrive**](ivmfloppydrive.md) object.
 [**IVMFloppyDriveCollection**](ivmfloppydrivecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

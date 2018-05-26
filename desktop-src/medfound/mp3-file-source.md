@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MP3 file source parses MP3 files.'
-ms.assetid: '37362642-1b8a-4fb3-950d-ed1afe3696e5'
+---
+Description: The MP3 file source parses MP3 files.
+ms.assetid: 37362642-1b8a-4fb3-950d-ed1afe3696e5
 title: MP3 File Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MP3 File Source
@@ -46,11 +51,11 @@ The media type offered by the MP3 file source contains the following attributes.
 
 The MP3 file source exposes the following interfaces through [**QueryInterface**](com.iunknown_queryinterface):
 
--   [**IMFGetService**](imfgetservice.md)
--   [**IMFMediaEventGenerator**](imfmediaeventgenerator.md)
--   [**IMFMediaSource**](imfmediasource.md)
+-   [**IMFGetService**](/windows/win32/mfidl/nn-mfidl-imfgetservice?branch=master)
+-   [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master)
+-   [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master)
 
-In addition, it exposes the following interfaces through [**IMFGetService**](imfgetservice.md):
+In addition, it exposes the following interfaces through [**IMFGetService**](/windows/win32/mfidl/nn-mfidl-imfgetservice?branch=master):
 
 
 
@@ -68,7 +73,7 @@ In addition, it exposes the following interfaces through [**IMFGetService**](imf
 <tbody>
 <tr class="odd">
 <td><strong>MF_METADATA_PROVIDER_SERVICE</strong></td>
-<td>[<strong>IMFMetadataProvider</strong>](imfmetadataprovider.md)</td>
+<td>[<strong>IMFMetadataProvider</strong>](/windows/win32/mfidl/nn-mfidl-imfmetadataprovider?branch=master)</td>
 </tr>
 <tr class="even">
 <td><strong>MF_PROPERTY_HANDLER_SERVICE</strong></td>
@@ -81,11 +86,11 @@ See [Shell Metadata Providers](shell-metadata-providers.md).
 </tr>
 <tr class="odd">
 <td><strong>MF_RATE_CONTROL_SERVICE</strong></td>
-<td>[<strong>IMFRateControl</strong>](imfratecontrol.md)</td>
+<td>[<strong>IMFRateControl</strong>](/windows/win32/mfidl/nn-mfidl-imfratecontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td><strong>MF_RATE_CONTROL_SERVICE</strong></td>
-<td>[<strong>IMFRateSupport</strong>](imfratesupport.md)</td>
+<td>[<strong>IMFRateSupport</strong>](/windows/win32/mfidl/nn-mfidl-imfratesupport?branch=master)</td>
 </tr>
 </tbody>
 </table>

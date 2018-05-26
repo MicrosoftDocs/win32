@@ -1,8 +1,14 @@
 ---
 title: An IrDA Application at Work
 description: Scenario that illustrates some of the unique features of Infrared Data Association (IrDA).
-ms.assetid: '8e81fae3-d77d-4c9c-a348-dc2abc25b70c'
-keywords: ["Infrared Data Association IrDA , tasks"]
+ms.assetid: 8e81fae3-d77d-4c9c-a348-dc2abc25b70c
+keywords:
+- Infrared Data Association IrDA , tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # An IrDA Application at Work

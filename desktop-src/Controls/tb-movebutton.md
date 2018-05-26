@@ -1,8 +1,9 @@
 ---
 title: TB\_MOVEBUTTON message
 description: Moves a button from one index to another.
-ms.assetid: '030aedc5-2de5-4751-90b2-63794322f503'
-keywords: ["TB_MOVEBUTTON message Windows Controls"]
+ms.assetid: 030aedc5-2de5-4751-90b2-63794322f503
+keywords:
+- TB_MOVEBUTTON message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_MOVEBUTTON message
@@ -45,8 +51,8 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ Returns nonzero if successful, or zero otherwise.
 [**TB\_SETANCHORHIGHLIGHT**](tb-setanchorhighlight.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

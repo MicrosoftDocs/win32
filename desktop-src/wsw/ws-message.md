@@ -1,8 +1,14 @@
 ---
 title: WS\_MESSAGE
 description: The opaque type used to reference a message object.
-ms.assetid: '22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee'
-keywords: ["WS_MESSAGE"]
+ms.assetid: 22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee
+keywords:
+- WS_MESSAGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WS\_MESSAGE
@@ -26,8 +32,8 @@ This object is not thread safe. For more information, see [thread safety](thread
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>WebServices.h</dt> </dl> |
 
 
@@ -42,9 +48,9 @@ This object is not thread safe. For more information, see [thread safety](thread
 [Thread Safety](thread-safety.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

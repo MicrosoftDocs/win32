@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.currentPreset
 description: The currentPreset attribute specifies or retrieves the index of the current preset.
-ms.assetid: '0eb97da7-3ca0-4560-8702-2adbd8dcfc1e'
-keywords: ["EQUALIZERSETTINGS.currentPreset Windows Media Player"]
+ms.assetid: 0eb97da7-3ca0-4560-8702-2adbd8dcfc1e
+keywords:
+- EQUALIZERSETTINGS.currentPreset Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.currentPreset
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.currentPreset
@@ -44,9 +50,9 @@ If this attribute is not specified, the previous value will be retained.
 [**EQUALIZERSETTINGS Element**](equalizersettings-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

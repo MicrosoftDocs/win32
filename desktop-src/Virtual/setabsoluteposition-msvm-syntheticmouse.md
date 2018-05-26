@@ -1,8 +1,11 @@
 ---
 title: SetAbsolutePosition method of the Msvm\_SyntheticMouse class
 description: Offsets the position of the mouse by the specified horizontal and vertical deltas.
-ms.assetid: '96ca50de-3cf9-43de-b21e-29e7a36a9c77'
-keywords: ["SetAbsolutePosition method Hyper-V", "SetAbsolutePosition method Hyper-V , Msvm_SyntheticMouse class", "Msvm_SyntheticMouse class Hyper-V , SetAbsolutePosition method"]
+ms.assetid: 96ca50de-3cf9-43de-b21e-29e7a36a9c77
+keywords:
+- SetAbsolutePosition method Hyper-V
+- SetAbsolutePosition method Hyper-V , Msvm_SyntheticMouse class
+- Msvm_SyntheticMouse class Hyper-V , SetAbsolutePosition method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dbdao.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetAbsolutePosition method of the Msvm\_SyntheticMouse class
@@ -22,8 +30,8 @@ Offsets the position of the mouse by the specified horizontal and vertical delta
 
 ```mof
 uint32 SetAbsolutePosition(
-  [in] sint32 horizontalPosition,
-  [in] sint32 verticalPosition
+  [in] sint32 horizontalPosition,
+  [in] sint32 verticalPosition
 );
 ```
 
@@ -109,9 +117,9 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Dbdao.h</dt> </dl>                   |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
@@ -125,9 +133,9 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

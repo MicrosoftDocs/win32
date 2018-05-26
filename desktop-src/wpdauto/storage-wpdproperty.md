@@ -1,14 +1,22 @@
 ---
 title: Storage.WpdProperty property
 description: The WpdProperty property gets or sets a predefined WPD property on this Storage object.
-ms.assetid: '4a92b41b-0478-47e2-bc22-5167b04d6a0a'
-keywords: ["WpdProperty property WPD Automation", "WpdProperty property WPD Automation , Storage object", "Storage object WPD Automation , WpdProperty property"]
+ms.assetid: 4a92b41b-0478-47e2-bc22-5167b04d6a0a
+keywords:
+- WpdProperty property WPD Automation
+- WpdProperty property WPD Automation , Storage object
+- Storage object WPD Automation , WpdProperty property
 topic_type:
 - apiref
 api_name:
 - Storage.WpdProperty
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage.WpdProperty property
@@ -51,7 +59,7 @@ For a complete list of WPD PROPERTYKEYs and their corresponding WPD Automation n
 
 
 
- 
+ 
 
 ## Examples
 
@@ -78,8 +86,8 @@ storage.ObjectName = "New Storage Name";
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -90,9 +98,9 @@ storage.ObjectName = "New Storage Name";
 [**Storage Object**](storage-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

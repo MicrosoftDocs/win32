@@ -1,7 +1,12 @@
-﻿---
-Description: 'Updates information about an iSCSI target portal.'
-ms.assetid: 'FF178A52-4022-4B31-8779-DC119EDA1829'
-title: 'Update method of the MSFT\_iSCSITargetPortal class'
+---
+Description: Updates information about an iSCSI target portal.
+ms.assetid: FF178A52-4022-4B31-8779-DC119EDA1829
+title: Update method of the MSFT\_iSCSITargetPortal class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Update method of the MSFT\_iSCSITargetPortal class

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the sender''s fax number associated with the inbound fax message. This property is a null-terminated string.'
-ms.assetid: 'c16b3cee-5fd8-4ee3-a80c-08aedec56a64'
-title: 'FaxIncomingMessage.SenderFaxNumber property'
+---
+Description: Contains the senders fax number associated with the inbound fax message. This property is a null-terminated string.
+ms.assetid: c16b3cee-5fd8-4ee3-a80c-08aedec56a64
+title: FaxIncomingMessage.SenderFaxNumber property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.SenderFaxNumber property
@@ -52,7 +57,7 @@ A received message starts with a null value for the sender's fax number when it 
 [**FaxIncomingMessage**](-mfax-faxincomingmessage.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage2**](-mfax-faxincomingmessage2-cpp.md)
+[**IFaxIncomingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage2?branch=master)
 </dt> </dl>
 
  

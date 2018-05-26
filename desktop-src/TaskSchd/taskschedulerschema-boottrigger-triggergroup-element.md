@@ -1,14 +1,21 @@
 ---
 title: BootTrigger (triggerGroup) Element
 description: Specifies a trigger that starts a task when the system is booted.
-ms.assetid: 'c6833547-0daf-4e8a-b8c5-b422827b1d96'
-keywords: ["boot trigger Task Scheduler , XML element", "BootTrigger element Task Scheduler"]
+ms.assetid: c6833547-0daf-4e8a-b8c5-b422827b1d96
+keywords:
+- boot trigger Task Scheduler , XML element
+- BootTrigger element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - BootTrigger
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BootTrigger (triggerGroup) Element
@@ -62,7 +69,7 @@ The **BootTrigger** element is defined by the [**bootTriggerType**](taskschedule
 
 For script development, a boot trigger is defined by the [**BootTrigger**](boottrigger.md) object.
 
-For C++ development, a boot trigger is defined by the [**IBootTrigger**](iboottrigger.md) object.
+For C++ development, a boot trigger is defined by the [**IBootTrigger**](/windows/win32/taskschd/nn-taskschd-iboottrigger?branch=master) object.
 
 ## Examples
 
@@ -74,8 +81,8 @@ For a complete example of the XML for a task that specifies a boot trigger, see 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -89,9 +96,9 @@ For a complete example of the XML for a task that specifies a boot trigger, see 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

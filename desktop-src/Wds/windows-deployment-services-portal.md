@@ -1,8 +1,19 @@
 ---
 title: Windows Deployment Services
 description: Deploy Windows operating systems. Set up new clients with a network-based installation without requiring that administrators visit each computer or install directly from CD or DVD media.
-ms.assetid: '790abc27-03cc-4f93-bf04-a4eb37e614bb'
-keywords: ["Windows Deployment Services Windows Deployment Services", "Windows Deployment Services Windows Deployment Services , home page", "deployment services Windows Deployment Services", "WDS Windows Deployment Services See Windows Deployment Services", "Remote Installation Services Windows Deployment Services See Windows Deployment Services", "RIS Windows Deployment Services See Windows Deployment Services"]
+ms.assetid: 790abc27-03cc-4f93-bf04-a4eb37e614bb
+keywords:
+- Windows Deployment Services Windows Deployment Services
+- Windows Deployment Services Windows Deployment Services , home page
+- deployment services Windows Deployment Services
+- WDS Windows Deployment Services See Windows Deployment Services
+- Remote Installation Services Windows Deployment Services See Windows Deployment Services
+- RIS Windows Deployment Services See Windows Deployment Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Deployment Services
@@ -19,7 +30,7 @@ Original Equipment Manufacturers (OEMs), system builders, and corporate IT profe
 
 ## Run-time requirements
 
-WDS is available as an add-on for Windows Server 2003 with Service Pack 1 (SP1) and is included in the operating system starting with Windows Server 2003 with Service Pack 2 (SP2) and Windows Server 2008. The WDS PXE Server API requires the WDS server role on the server to implement custom PXE providers. The WDS Client API requires the Microsoft Windows Preinstallation Environment (Windows PE 2.0) phase of setup processing. A RAMDISK bootable image of Windows PE 2.0 in the .WIM format must be downloaded as part of the network boot process to implement custom WDS clients.
+WDS is available as an add-on for Windows Server 2003 with Service Pack 1 (SP1) and is included in the operating system starting with Windows Server 2003 with Service Pack 2 (SP2) and Windows Server 2008. The WDS PXE Server API requires the WDS server role on the server to implement custom PXE providers. The WDS Client API requires the Microsoft Windows Preinstallation Environment (Windows PE 2.0) phase of setup processing. A RAMDISK bootable image of Windows PE 2.0 in the .WIM format must be downloaded as part of the network boot process to implement custom WDS clients.
 
 ## In this section
 
@@ -32,11 +43,11 @@ WDS is available as an add-on for Windows Server 2003 with Service Pack 1 (SP1) 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

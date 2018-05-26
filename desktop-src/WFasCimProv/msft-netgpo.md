@@ -1,7 +1,12 @@
 ---
-Description: 'This class does not have any instances. It is used to manage locally-cached Group Policy Objects.'
-ms.assetid: '827f9188-6115-4dd7-b3f0-678025ec6635'
-title: 'MSFT\_NetGPO class'
+Description: This class does not have any instances. It is used to manage locally-cached Group Policy Objects.
+ms.assetid: 827f9188-6115-4dd7-b3f0-678025ec6635
+title: MSFT\_NetGPO class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetGPO class
@@ -42,7 +47,7 @@ The **MSFT\_NetGPO** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -108,17 +113,17 @@ A string that uniquely identifies this instance within the PolicyStore.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

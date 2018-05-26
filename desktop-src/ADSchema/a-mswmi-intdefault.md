@@ -4,17 +4,22 @@ description: The default value for WMI 32-bit integer parameter objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '56f6144c-64b6-4182-b5d2-6a0f9e0de0fa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 56f6144c-64b6-4182-b5d2-6a0f9e0de0fa
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-intDefault attribute AD Schema", "msWMI-IntDefault attribute AD Schema"]
+keywords:
+- ms-WMI-intDefault attribute AD Schema
+- msWMI-IntDefault attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-intDefault
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-intDefault attribute

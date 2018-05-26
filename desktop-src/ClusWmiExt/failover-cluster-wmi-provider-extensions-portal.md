@@ -4,12 +4,15 @@ description: The Failover Cluster WMI provider extensions provide management cap
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ac5889b3-ac29-4a23-9dd3-68f5017455b9'
-ms.prod: 'windows-server-dev'
+ms.assetid: ac5889b3-ac29-4a23-9dd3-68f5017455b9
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster WMI Provider Extensions

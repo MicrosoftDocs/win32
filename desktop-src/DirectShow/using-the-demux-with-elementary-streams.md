@@ -1,7 +1,12 @@
 ---
 Description: Using the Demux with Elementary Streams
-ms.assetid: 'dd98aada-8309-428e-9609-2542195bc6ec'
+ms.assetid: dd98aada-8309-428e-9609-2542195bc6ec
 title: Using the Demux with Elementary Streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Demux with Elementary Streams

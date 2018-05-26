@@ -1,7 +1,12 @@
 ---
-Description: 'The GetDVDTextLanguageLCID method retrieves the locale identifier (LCID) for the specified text string block.'
-ms.assetid: 'feaa1db8-2d33-4c32-8491-f3aa5555e3d3'
+Description: The GetDVDTextLanguageLCID method retrieves the locale identifier (LCID) for the specified text string block.
+ms.assetid: feaa1db8-2d33-4c32-8491-f3aa5555e3d3
 title: GetDVDTextLanguageLCID Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDVDTextLanguageLCID Method

@@ -1,14 +1,20 @@
 ---
 title: Store4 function
 description: Sets four values.
-ms.assetid: '261dd270-79a7-4566-9fbd-52bd8dc3e1bf'
-keywords: ["Store4 function HLSL"]
+ms.assetid: 261dd270-79a7-4566-9fbd-52bd8dc3e1bf
+keywords:
+- Store4 function HLSL
 topic_type:
 - apiref
 api_name:
 - Store4
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Store4 function

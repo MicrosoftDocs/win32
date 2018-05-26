@@ -1,7 +1,12 @@
 ---
-Description: 'Describes using the PenInputPanel object with combo boxes.'
-ms.assetid: '19902bfa-504e-40cd-882a-4fac4bb7daf6'
+Description: Describes using the PenInputPanel object with combo boxes.
+ms.assetid: 19902bfa-504e-40cd-882a-4fac4bb7daf6
 title: Using the PenInputPanel with Combo Boxes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the PenInputPanel with Combo Boxes

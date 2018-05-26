@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the handles used by the SSPI API.'
-ms.assetid: '94b622d0-7c04-4513-841f-0df9b5d49136'
+Description: Lists the handles used by the SSPI API.
+ms.assetid: 94b622d0-7c04-4513-841f-0df9b5d49136
 title: SSPI Handles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SSPI Handles

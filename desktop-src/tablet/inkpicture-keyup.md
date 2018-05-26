@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when a key is released while the InkPicture control has focus.'
-ms.assetid: 'e22633b5-40fe-4b94-a660-684c4f5c96f3'
-title: 'InkPicture.KeyUp event'
+Description: Occurs when a key is released while the InkPicture control has focus.
+ms.assetid: e22633b5-40fe-4b94-a660-684c4f5c96f3
+title: InkPicture.KeyUp event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture.KeyUp event
@@ -13,8 +18,8 @@ Occurs when a key is released while the [InkPicture](inkpicture-control-referenc
 
 ```C++
 void KeyUp(
-  [in, out] short *KeyCode,
-  [in, out] short *Shift
+  [in, out] short *KeyCode,
+  [in, out] short *Shift
 );
 ```
 
@@ -52,7 +57,7 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -66,9 +71,9 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 [InkPicture](inkpicture-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

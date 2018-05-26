@@ -1,8 +1,14 @@
 ---
 title: Gamma transfer effect
 description: Use the gamma transfer effect to map the color intensities of an image using a gamma function created using an amplitude, exponent, and offset you provide for each channel.
-ms.assetid: '0E0455CA-CFCA-4C4F-9DFA-1DB6A5205F6A'
-keywords: ["gamma transfer effect"]
+ms.assetid: 0E0455CA-CFCA-4C4F-9DFA-1DB6A5205F6A
+keywords:
+- gamma transfer effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gamma transfer effect
@@ -29,7 +35,7 @@ The CLSID for this effect is CLSID\_D2D1GammaTransfer. To use this effect, add d
 
 
 
- 
+ 
 
 
 ```C++
@@ -64,7 +70,7 @@ This effect works on straight and premultiplied alpha images. The effect outputs
 > -   The exponent value is not bounded and is unitless.
 > -   The offset value is not bounded and is unitless.
 
- 
+ 
 
 
 
@@ -90,7 +96,7 @@ This effect works on straight and premultiplied alpha images. The effect outputs
 
 
 
- 
+ 
 
 ## Output bitmap
 
@@ -102,25 +108,25 @@ The output bitmap size is the same as the input bitmap size.
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

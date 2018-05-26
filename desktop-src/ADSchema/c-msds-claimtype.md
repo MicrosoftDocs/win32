@@ -4,17 +4,22 @@ description: An instance of this class holds the definition of a claim type that
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7edfd085-ab6e-47f3-8e36-793946f06049'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7edfd085-ab6e-47f3-8e36-793946f06049
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Claim-Type class AD Schema", "msDS-ClaimType class AD Schema"]
+keywords:
+- ms-DS-Claim-Type class AD Schema
+- msDS-ClaimType class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Claim-Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Claim-Type class
@@ -35,7 +40,7 @@ An instance of this class holds the definition of a claim type that can be defin
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -62,7 +67,7 @@ An instance of this class holds the definition of a claim type that can be defin
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -199,9 +204,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

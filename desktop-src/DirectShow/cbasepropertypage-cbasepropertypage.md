@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '5d9863e7-fdd9-4df2-a603-34a240a2286c'
-title: 'CBasePropertyPage.CBasePropertyPage constructor'
+Description: Constructor method.
+ms.assetid: 5d9863e7-fdd9-4df2-a603-34a240a2286c
+title: CBasePropertyPage.CBasePropertyPage constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.CBasePropertyPage constructor
@@ -13,10 +18,10 @@ Constructor method.
 
 ```C++
 CBasePropertyPage(
-   TCHAR     *pName,
-   LPUNKNOWN pUnk,
-   int       DialogId,
-   int       TitleId
+   TCHAR     *pName,
+   LPUNKNOWN pUnk,
+   int       DialogId,
+   int       TitleId
 );
 ```
 
@@ -82,9 +87,9 @@ CMyProp::CMyProp(IUnknown *pUnk) :
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

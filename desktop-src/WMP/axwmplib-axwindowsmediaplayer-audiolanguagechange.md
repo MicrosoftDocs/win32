@@ -1,8 +1,9 @@
 ---
 title: AudioLanguageChange Event of the AxWindowsMediaPlayer Object
 description: The AudioLanguageChange event occurs when the current audio language changes.
-ms.assetid: '35e4ff82-fc59-4d28-b7fc-1527fb46b960'
-keywords: ["AudioLanguageChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 35e4ff82-fc59-4d28-b7fc-1527fb46b960
+keywords:
+- AudioLanguageChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AudioLanguageChange Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Aud
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,9 +77,9 @@ A locale identifier (LCID) uniquely identifies a particular language dialect, ca
 [**IWMPControls3.currentAudioLanguage (VB and C#)**](wmplibiwmpcontrols3-iwmpcontrols3-currentaudiolanguage--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

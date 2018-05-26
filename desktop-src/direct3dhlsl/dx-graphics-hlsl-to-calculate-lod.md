@@ -1,7 +1,12 @@
 ---
 title: CalculateLevelOfDetail (DirectX HLSL Texture Object)
 description: Calculates the level of detail.
-ms.assetid: '7c7c3754-45a9-49c6-8420-aac22f776b15'
+ms.assetid: 7c7c3754-45a9-49c6-8420-aac22f776b15
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CalculateLevelOfDetail (DirectX HLSL Texture Object)
@@ -16,7 +21,7 @@ Calculates the level of detail.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -62,20 +67,20 @@ Calculates the level of detail.
 <td>float2</td>
 </tr>
 <tr class="odd">
-<td>Texture3D, TextureCube, TextureCubeArray¹</td>
+<td>Texture3D, TextureCube, TextureCubeArray </td>
 <td>float3</td>
 </tr>
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -87,13 +92,13 @@ This function is supported in the following shader models.
 
 
 
-| vs\_4\_0 | vs\_4\_1² | ps\_4\_0 | ps\_4\_1² | gs\_4\_0 | gs\_4\_1² |
+| vs\_4\_0 | vs\_4\_1  | ps\_4\_0 | ps\_4\_1  | gs\_4\_0 | gs\_4\_1  |
 |----------|-----------|----------|-----------|----------|-----------|
 |          |           |          | x         |          |           |
 
 
 
- 
+ 
 
 1.  TextureCubeArray is available in Shader Model 4.1 or higher.
 2.  Shader Model 4.1 is available in Direct3D 10.1 or higher.
@@ -105,9 +110,9 @@ This function is supported in the following shader models.
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

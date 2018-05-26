@@ -1,7 +1,12 @@
 ---
 title: Process Heap Graphs
 description: Process Heap Graphs
-ms.assetid: 'df3562f7-4a5f-4c39-aebd-fb02b910e7a2'
+ms.assetid: df3562f7-4a5f-4c39-aebd-fb02b910e7a2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process Heap Graphs

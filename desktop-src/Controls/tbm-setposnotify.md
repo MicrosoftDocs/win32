@@ -1,8 +1,9 @@
 ---
 title: TBM\_SETPOSNOTIFY message
 description: Sets the current logical position of the slider in a trackbar.
-ms.assetid: '02f8899a-55b0-46ae-8642-9e534ab4abf5'
-keywords: ["TBM_SETPOSNOTIFY message Windows Controls"]
+ms.assetid: 02f8899a-55b0-46ae-8642-9e534ab4abf5
+keywords:
+- TBM_SETPOSNOTIFY message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_SETPOSNOTIFY message
@@ -49,15 +55,15 @@ Calling **TBM\_SETPOSNOTIFY** will set the trackbar slider location like [**TBM\
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Landmark Type Identifiers
 description: This topic describes the named constants used to identify Microsoft UI Automation landmark types.
-ms.assetid: '73A34568-25DA-4E70-BB2A-725135E6860B'
+ms.assetid: 73A34568-25DA-4E70-BB2A-725135E6860B
 topic_type:
 - apiref
 api_name:
@@ -14,6 +14,11 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Landmark Type Identifiers
@@ -93,15 +98,15 @@ Indicates that the landmark is related to search type elements.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                            |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                            |
 | Header<br/>                   | <dl> <dt>UIAutomationClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

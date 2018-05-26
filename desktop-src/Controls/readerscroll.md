@@ -1,8 +1,9 @@
 ---
 title: ReaderScroll callback function
 description: An application-defined callback function used when the mouse pointer is moved within the portion of the reader mode window that has been declared as the active scrolling area.
-ms.assetid: 'b1feb661-e3bc-4fcd-9acf-ac000c3066bd'
-keywords: ["ReaderScroll callback function Windows Controls"]
+ms.assetid: b1feb661-e3bc-4fcd-9acf-ac000c3066bd
+keywords:
+- ReaderScroll callback function Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -10,6 +11,11 @@ api_name:
 - PFNREADERSCROLL
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReaderScroll callback function
@@ -23,9 +29,9 @@ An application-defined callback function used when the mouse pointer is moved wi
 
 ```C++
 BOOL CALLBACK ReaderScroll(
-  _In_ PREADERMODEINFO prmi,
-  _In_ int             dx,
-  _In_ int             dy
+  _In_ PREADERMODEINFO prmi,
+  _In_ int             dx,
+  _In_ int             dy
 );
 ```
 
@@ -99,14 +105,14 @@ ReaderScrollCallback(PREADERMODEINFO prmi, int dx, int dy)
 
 |                                     |                                                               |
 |-------------------------------------|---------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows Vista \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>          |
+| Minimum supported client<br/> | Windows Vista, Windows Vista \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>          |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

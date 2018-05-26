@@ -1,7 +1,12 @@
 ---
-Description: 'The installer can increase application resiliency by automatically reinstalling damaged components.'
-ms.assetid: 'aa565e34-f89d-4d26-945d-67b439586523'
+Description: The installer can increase application resiliency by automatically reinstalling damaged components.
+ms.assetid: aa565e34-f89d-4d26-945d-67b439586523
 title: Searching for a Broken Feature or Component
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Searching for a Broken Feature or Component

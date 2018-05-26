@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the supported image file formats. See Remarks for descriptions of these formats.'
-ms.assetid: '245a0052-f156-44ad-ab46-3677a818167e'
-title: 'D3DXIMAGE\_FILEFORMAT enumeration'
+---
+Description: Describes the supported image file formats. See Remarks for descriptions of these formats.
+ms.assetid: 245a0052-f156-44ad-ab46-3677a818167e
+title: D3DXIMAGE\_FILEFORMAT enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXIMAGE\_FILEFORMAT enumeration

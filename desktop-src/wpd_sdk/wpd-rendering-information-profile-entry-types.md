@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_RENDERING\_INFORMATION\_PROFILE\_ENTRY\_TYPES enumeration type indicates whether the rendering information profile entry corresponds to an Object or a Resource.'
-ms.assetid: 'd019eef6-eed8-416c-bede-5b4eb00ed013'
-title: 'WPD\_RENDERING\_INFORMATION\_PROFILE\_ENTRY\_TYPES enumeration'
+Description: The WPD\_RENDERING\_INFORMATION\_PROFILE\_ENTRY\_TYPES enumeration type indicates whether the rendering information profile entry corresponds to an Object or a Resource.
+ms.assetid: d019eef6-eed8-416c-bede-5b4eb00ed013
+title: WPD\_RENDERING\_INFORMATION\_PROFILE\_ENTRY\_TYPES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_RENDERING\_INFORMATION\_PROFILE\_ENTRY\_TYPES enumeration
@@ -13,8 +18,8 @@ The **WPD\_RENDERING\_INFORMATION\_PROFILE\_ENTRY\_TYPES** enumeration type indi
 
 ```C++
 typedef enum SMS_MESSAGE_TYPES { 
-  WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_OBJECT    = 0,
-  WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_RESOURCE  = 1
+  WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_OBJECT    = 0,
+  WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_RESOURCE  = 1
 } ;
 ```
 
@@ -55,9 +60,9 @@ The entry corresponds to a resource.
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

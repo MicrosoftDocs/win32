@@ -1,8 +1,16 @@
 ---
 title: A Porting Sample
 description: A Porting Sample
-ms.assetid: 'e1c71ad5-5f59-49c8-b66e-37cf7f748df8'
-keywords: ["OpenGL on Windows,porting sample", "porting to OpenGL,sample", "OpenGL porting,sample"]
+ms.assetid: e1c71ad5-5f59-49c8-b66e-37cf7f748df8
+keywords:
+- OpenGL on Windows,porting sample
+- porting to OpenGL,sample
+- OpenGL porting,sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # A Porting Sample

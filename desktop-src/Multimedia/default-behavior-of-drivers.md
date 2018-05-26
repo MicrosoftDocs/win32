@@ -1,14 +1,19 @@
 ---
 title: Default Behavior of Drivers
 description: Default Behavior of Drivers
-ms.assetid: 'ed6905eb-67ad-421d-be00-4a5585dff7fb'
+ms.assetid: ed6905eb-67ad-421d-be00-4a5585dff7fb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Default Behavior of Drivers
 
 In many situations, the MCI command specifications define the default values and behavior for drivers of a particular device type. Since multimedia devices can have a wide range of features (and limitations), there can be undefined areas of behavior. Also, drivers might handle exceptions differently, based on the capabilities of the device.
 
-For example, consider the following commands sent to a waveform-audio driver using the [**mciSendString**](mcisendstring.md) function:
+For example, consider the following commands sent to a waveform-audio driver using the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function:
 
 
 ```C++

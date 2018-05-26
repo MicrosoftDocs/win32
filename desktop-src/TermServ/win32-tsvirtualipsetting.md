@@ -4,11 +4,13 @@ description: Represents the association between a Win32\_TerminalService element
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '06a78b4d-973a-4912-b7e6-bc490197c4a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 06a78b4d-973a-4912-b7e6-bc490197c4a6
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSVirtualIPSetting class Remote Desktop Services", "Win32_TSVirtualIPSetting class Remote Desktop Services , described"]
+keywords:
+- Win32_TSVirtualIPSetting class Remote Desktop Services
+- Win32_TSVirtualIPSetting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSVirtualIPSetting class
@@ -38,13 +43,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("Win32_WIN32_TSVIRTUALIPSETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer\\TSAppSrv\\VirtualIP"), AMENDMENT]
 class Win32_TSVirtualIPSetting : CIM_ElementSetting
 {
-  string                    Caption;
-  string                    Description;
-  datetime                  InstallDate;
-  string                    Name;
-  string                    Status;
+  string                    Caption;
+  string                    Description;
+  datetime                  InstallDate;
+  string                    Name;
+  string                    Status;
   Win32_TerminalService REF Element;
-  Win32_TSVirtualIP     REF Setting;
+  Win32_TSVirtualIP     REF Setting;
 };
 ```
 
@@ -241,7 +246,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -261,9 +266,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [**Win32\_TSVirtualIP**](win32-tsvirtualip.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

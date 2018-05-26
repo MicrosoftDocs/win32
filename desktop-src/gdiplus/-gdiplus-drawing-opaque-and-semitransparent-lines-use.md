@@ -1,16 +1,21 @@
 ---
-Description: 'When you draw a line, you must pass the address of a Pen object to the DrawLine method of the Graphics class.'
-ms.assetid: '4524908f-f9c2-4807-b045-eb9e43a6668b'
+Description: When you draw a line, you must pass the address of a Pen object to the DrawLine method of the Graphics class.
+ms.assetid: 4524908f-f9c2-4807-b045-eb9e43a6668b
 title: Drawing Opaque and Semitransparent Lines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing Opaque and Semitransparent Lines
 
-When you draw a line, you must pass the address of a [**Pen**](-gdiplus-class-pen-class.md) object to the [DrawLine](-gdiplus-class-graphics-drawline-methods.md) method of the [**Graphics**](-gdiplus-class-graphics-class.md) class. One of the parameters of the **Pen** constructor is a [**Color**](-gdiplus-class-color-class.md) object. To draw an opaque line, set the alpha component of the color to 255. To draw a semitransparent line, set the alpha component to any value from 1 through 254.
+When you draw a line, you must pass the address of a [**Pen**](/windows/win32/gdipluspen/nl-gdipluspen-pen?branch=master) object to the [DrawLine](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen,in const point &,in const point &)?branch=master) method of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class. One of the parameters of the **Pen** constructor is a [**Color**](/windows/win32/gdipluscolor/nl-gdipluscolor-color?branch=master) object. To draw an opaque line, set the alpha component of the color to 255. To draw a semitransparent line, set the alpha component to any value from 1 through 254.
 
 When you draw a semitransparent line over a background, the color of the line is blended with the colors of the background. The alpha component specifies how the line and background colors are mixed; alpha values near 0 place more weight on the background colors, and alpha values near 255 place more weigh on the line color.
 
-The following example draws an image and then draws three lines that use the image as a background. The first line uses an alpha component of 255, so it is opaque. The second and third lines use an alpha component of 128, so they are semitransparent; you can see the background image through the lines. The call to [**Graphics::SetCompositingQuality**](-gdiplus-class-graphics-setcompositingquality-compositingquality-.md) causes the blending for the third line to be done in conjunction with gamma correction.
+The following example draws an image and then draws three lines that use the image as a background. The first line uses an alpha component of 255, so it is opaque. The second and third lines use an alpha component of 128, so they are semitransparent; you can see the background image through the lines. The call to [**Graphics::SetCompositingQuality**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingquality?branch=master) causes the blending for the third line to be done in conjunction with gamma correction.
 
 
 ```

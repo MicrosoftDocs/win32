@@ -1,8 +1,11 @@
 ---
 title: TaskNamedValueCollection.Create method
 description: For scripting, creates a name-value pair in the collection.
-ms.assetid: 'aec5ca20-b983-48e1-a5d0-761f18557fe4'
-keywords: ["Create method Task Scheduler", "Create method Task Scheduler , TaskNamedValueCollection object", "TaskNamedValueCollection object Task Scheduler , Create method"]
+ms.assetid: aec5ca20-b983-48e1-a5d0-761f18557fe4
+keywords:
+- Create method Task Scheduler
+- Create method Task Scheduler , TaskNamedValueCollection object
+- TaskNamedValueCollection object Task Scheduler , Create method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskNamedValueCollection.Create method
@@ -65,16 +73,16 @@ This method does not return a value.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

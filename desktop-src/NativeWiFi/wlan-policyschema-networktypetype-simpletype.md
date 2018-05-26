@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the wireless network types.'
-ms.assetid: '03236db9-4f58-4fe3-82ff-d4b3a387490a'
+---
+Description: Defines the wireless network types.
+ms.assetid: 03236db9-4f58-4fe3-82ff-d4b3a387490a
 title: networkTypeType Simple Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # networkTypeType Simple Type

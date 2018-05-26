@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics describe how to create applications that use CLFS:'
-ms.assetid: '7ba99289-b4db-45c9-868e-ede985f0f470'
+Description: The following topics describe how to create applications that use CLFS
+ms.assetid: 7ba99289-b4db-45c9-868e-ede985f0f470
 title: Using the Common Log File System
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Common Log File System

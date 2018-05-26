@@ -1,8 +1,9 @@
 ---
 title: TBM\_SETTHUMBLENGTH message
 description: Sets the length of the slider in a trackbar. This message is ignored if the trackbar does not have the TBS\_FIXEDLENGTH style.
-ms.assetid: '027fe341-a60a-4dbe-a48a-5ddaadef0b4a'
-keywords: ["TBM_SETTHUMBLENGTH message Windows Controls"]
+ms.assetid: 027fe341-a60a-4dbe-a48a-5ddaadef0b4a
+keywords:
+- TBM_SETTHUMBLENGTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_SETTHUMBLENGTH message
@@ -41,8 +47,8 @@ No return value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ No return value.
 [**TBM\_GETTHUMBLENGTH**](tbm-getthumblength.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

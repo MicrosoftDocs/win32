@@ -1,8 +1,11 @@
 ---
 title: IMimeBody GetDataHere method
 description: Copies the body data into a stream in a specified encoding.
-ms.assetid: '9d6a44a6-bc1c-450f-a07c-cf50b346281e'
-keywords: ["GetDataHere method Windows Mail (formerly Outlook Express)", "GetDataHere method Windows Mail (formerly Outlook Express) , IMimeBody interface", "IMimeBody interface Windows Mail (formerly Outlook Express) , GetDataHere method"]
+ms.assetid: 9d6a44a6-bc1c-450f-a07c-cf50b346281e
+keywords:
+- GetDataHere method Windows Mail (formerly Outlook Express)
+- GetDataHere method Windows Mail (formerly Outlook Express) , IMimeBody interface
+- IMimeBody interface Windows Mail (formerly Outlook Express) , GetDataHere method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeBody::GetDataHere method
@@ -22,8 +30,8 @@ Copies the body data into a stream in a specified encoding.
 
 ```C++
 HRESULT GetDataHere(
-  [in] ENCODINGTYPE ietEncoding,
-  [in] IStream      *pStream
+  [in] ENCODINGTYPE ietEncoding,
+  [in] IStream      *pStream
 );
 ```
 
@@ -69,7 +77,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -77,8 +85,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -86,9 +94,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

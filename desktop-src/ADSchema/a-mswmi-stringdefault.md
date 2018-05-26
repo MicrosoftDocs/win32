@@ -4,17 +4,22 @@ description: Default string setting for a set of string parameter objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd467905a-b361-4689-8c1f-abb0f2f58766'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d467905a-b361-4689-8c1f-abb0f2f58766
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-stringDefault attribute AD Schema", "msWMI-StringDefault attribute AD Schema"]
+keywords:
+- ms-WMI-stringDefault attribute AD Schema
+- msWMI-StringDefault attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-stringDefault
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-stringDefault attribute

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides the displayable string for a PrintCapabilites PrintSchema element.'
-ms.assetid: 'A1ACF7C4-2DEE-405E-AEEE-BC03B9D5FAD2'
+---
+Description: Provides the displayable string for a PrintCapabilites PrintSchema element.
+ms.assetid: A1ACF7C4-2DEE-405E-AEEE-BC03B9D5FAD2
 title: IPrintSchemaDisplayableElement interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaDisplayableElement interface

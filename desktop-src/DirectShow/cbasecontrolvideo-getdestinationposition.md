@@ -1,7 +1,12 @@
 ---
-Description: 'The GetDestinationPosition method retrieves the destination rectangle in one atomic operation.'
-ms.assetid: '780cbcb5-1db5-4087-8c51-350183cfca31'
-title: 'CBaseControlVideo.GetDestinationPosition method'
+Description: The GetDestinationPosition method retrieves the destination rectangle in one atomic operation.
+ms.assetid: 780cbcb5-1db5-4087-8c51-350183cfca31
+title: CBaseControlVideo.GetDestinationPosition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.GetDestinationPosition method
@@ -13,10 +18,10 @@ The `GetDestinationPosition` method retrieves the destination rectangle in one a
 
 ```C++
 HRESULT GetDestinationPosition(
-   long *pLeft,
-   long *pTop,
-   long *pWidth,
-   long *pHeight
+   long *pLeft,
+   long *pTop,
+   long *pWidth,
+   long *pHeight
 );
 ```
 
@@ -69,11 +74,11 @@ Returns an **HRESULT** value that depends on the implementation; can be one of t
 
 
 
- 
+ 
 
 ## Remarks
 
-This member function can be used in place of separate calls to the [**CBaseControlVideo::get\_DestinationLeft**](cbasecontrolvideo-get-destinationleft.md), [**CBaseControlVideo::get\_DestinationTop**](cbasecontrolvideo-get-destinationtop.md), [**CBaseControlVideo::get\_DestinationWidth**](cbasecontrolvideo-get-destinationwidth.md), and [**CBaseControlVideo::get\_DestinationHeight**](cbasecontrolvideo-get-destinationheight.md) member functions. An application can change the source and destination rectangles for the video through the [**IBasicVideo**](ibasicvideo.md) interface. The source rectangle affects which section of the native video source will appear on the display; the destination rectangle affects where the video will appear when played. The destination rectangle is relative to the client area of the window in which it is playing. The upper-left corner of the window is coordinate (0,0).
+This member function can be used in place of separate calls to the [**CBaseControlVideo::get\_DestinationLeft**](cbasecontrolvideo-get-destinationleft.md), [**CBaseControlVideo::get\_DestinationTop**](cbasecontrolvideo-get-destinationtop.md), [**CBaseControlVideo::get\_DestinationWidth**](cbasecontrolvideo-get-destinationwidth.md), and [**CBaseControlVideo::get\_DestinationHeight**](cbasecontrolvideo-get-destinationheight.md) member functions. An application can change the source and destination rectangles for the video through the [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master) interface. The source rectangle affects which section of the native video source will appear on the display; the destination rectangle affects where the video will appear when played. The destination rectangle is relative to the client area of the window in which it is playing. The upper-left corner of the window is coordinate (0,0).
 
 ## Requirements
 
@@ -93,9 +98,9 @@ This member function can be used in place of separate calls to the [**CBaseContr
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

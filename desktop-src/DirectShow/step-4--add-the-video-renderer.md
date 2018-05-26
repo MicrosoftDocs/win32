@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is step 4 of the tutorial Audio/Video Playback in DirectShow.'
-ms.assetid: '34f35a95-1981-4467-a581-46db96c05224'
-title: 'Step 4: Add the Video Renderer'
+Description: This topic is step 4 of the tutorial Audio/Video Playback in DirectShow.
+ms.assetid: 34f35a95-1981-4467-a581-46db96c05224
+title: Step 4 Add the Video Renderer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 4: Add the Video Renderer
@@ -218,11 +223,11 @@ HRESULT CVMR9::AddToGraph(IGraphBuilder *pGraph, HWND hwnd)
 
 The `InitWindowlessVMR9` function initializes the VMR-9 for windowless mode. (For more information about windowless mode, see [VMR Windowless Mode](vmr-windowless-mode.md).) This function performs the following steps.
 
-1.  Queries the VMR-9 filter for the [**IVMRFilterConfig9**](ivmrfilterconfig9.md) interface.
-2.  Calls the [**IVMRFilterConfig9::SetRenderingMode**](ivmrfilterconfig9-setrenderingmode.md) method to set windowless mode.
-3.  Queries the VMR-9 filter for the [**IVMRWindowlessControl9**](ivmrwindowlesscontrol9.md) interface.
-4.  Calls the [**IVMRWindowlessControl9::SetVideoClippingWindow**](ivmrwindowlesscontrol9-setvideoclippingwindow.md) method to set the video window.
-5.  Calls the [**IVMRWindowlessControl9::SetAspectRatioMode**](ivmrwindowlesscontrol9-setaspectratiomode.md) method to preserve the video aspect ratio.
+1.  Queries the VMR-9 filter for the [**IVMRFilterConfig9**](/windows/win32/Vmr9/nn-vmr9-ivmrfilterconfig9?branch=master) interface.
+2.  Calls the [**IVMRFilterConfig9::SetRenderingMode**](/windows/win32/Vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode?branch=master) method to set windowless mode.
+3.  Queries the VMR-9 filter for the [**IVMRWindowlessControl9**](/windows/win32/Vmr9/nn-vmr9-ivmrwindowlesscontrol9?branch=master) interface.
+4.  Calls the [**IVMRWindowlessControl9::SetVideoClippingWindow**](/windows/win32/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoclippingwindow?branch=master) method to set the video window.
+5.  Calls the [**IVMRWindowlessControl9::SetAspectRatioMode**](/windows/win32/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setaspectratiomode?branch=master) method to preserve the video aspect ratio.
 
 The following code shows the `InitWindowlessVMR9` function.
 
@@ -350,11 +355,11 @@ HRESULT CVMR7::AddToGraph(IGraphBuilder *pGraph, HWND hwnd)
 
 The `InitWindowlessVMR` function initializes the VMR-7 for windowless mode. This function performs the following steps.
 
-1.  Queries the VMR-7 filter for the [**IVMRFilterConfig**](ivmrfilterconfig.md) interface.
-2.  Calls the [**IVMRFilterConfig::SetRenderingMode**](ivmrfilterconfig-setrenderingmode.md) method to set windowless mode.
-3.  Queries the VMR-7 filter for the [**IVMRWindowlessControl**](ivmrwindowlesscontrol.md) interface.
-4.  Calls the [**IVMRWindowlessControl::SetVideoClippingWindow**](ivmrwindowlesscontrol-setvideoclippingwindow.md) method to set the video window.
-5.  Calls the [**IVMRWindowlessControl::SetAspectRatioMode**](ivmrwindowlesscontrol-setaspectratiomode.md) method to preserve the video aspect ratio.
+1.  Queries the VMR-7 filter for the [**IVMRFilterConfig**](/windows/win32/Strmif/nn-strmif-ivmrfilterconfig?branch=master) interface.
+2.  Calls the [**IVMRFilterConfig::SetRenderingMode**](/windows/win32/Strmif/nf-strmif-ivmrfilterconfig-setrenderingmode?branch=master) method to set windowless mode.
+3.  Queries the VMR-7 filter for the [**IVMRWindowlessControl**](/windows/win32/Strmif/nn-strmif-ivmrwindowlesscontrol?branch=master) interface.
+4.  Calls the [**IVMRWindowlessControl::SetVideoClippingWindow**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoclippingwindow?branch=master) method to set the video window.
+5.  Calls the [**IVMRWindowlessControl::SetAspectRatioMode**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-setaspectratiomode?branch=master) method to preserve the video aspect ratio.
 
 The following code shows the `InitWindowlessVMR` function.
 

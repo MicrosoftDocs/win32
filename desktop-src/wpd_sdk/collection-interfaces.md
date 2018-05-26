@@ -1,7 +1,12 @@
 ---
 Description: Collection Interfaces
-ms.assetid: '5b76c30c-3114-46fb-bf35-b47115f33961'
+ms.assetid: 5b76c30c-3114-46fb-bf35-b47115f33961
 title: Collection Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Collection Interfaces

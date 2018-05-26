@@ -1,7 +1,12 @@
 ---
 title: IPv6 Information Types for Router Information Blocks
 description: The following information types are listed in Ipinfoid.h.
-ms.assetid: '58fa59e6-e0f3-4f04-9c57-585f1d496b31'
+ms.assetid: 58fa59e6-e0f3-4f04-9c57-585f1d496b31
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPv6 Information Types for Router Information Blocks

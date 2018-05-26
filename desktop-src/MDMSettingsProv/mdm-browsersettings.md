@@ -1,8 +1,10 @@
 ---
 title: MDM\_BrowserSettings class
 description: Contains configuration information about browser security settings on the device.
-ms.assetid: 'f119e8f7-0995-48ca-8b1f-a52ff9af199f'
-keywords: ["MDM_BrowserSettings class MDM Settings", "MDM_BrowserSettings class MDM Settings , described"]
+ms.assetid: f119e8f7-0995-48ca-8b1f-a52ff9af199f
+keywords:
+- MDM_BrowserSettings class MDM Settings
+- MDM_BrowserSettings class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_BrowserSettings class
@@ -39,7 +46,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("MDMSettingsProv"), AMENDMENT]
 class MDM_BrowserSettings
 {
-  Uint32  Key;
+  Uint32  Key;
   boolean ForceFraudWarning;
   boolean AutofillEnabled;
   boolean InternetScriptingEnabled;
@@ -49,10 +56,10 @@ class MDM_BrowserSettings
   boolean IntranetSecurityZoneEnabled;
   boolean InternetProtectedModeEnabled;
   boolean GoToIntranetForSingleWord;
-  Uint32  InternetZoneSecurityLevel;
-  Uint32  IntranetZoneSecurityLevel;
-  Uint32  RestrictedSitesZoneSecurityLevel;
-  Uint32  TrustedSitesZoneSecurityLevel;
+  Uint32  InternetZoneSecurityLevel;
+  Uint32  IntranetZoneSecurityLevel;
+  Uint32  RestrictedSitesZoneSecurityLevel;
+  Uint32  TrustedSitesZoneSecurityLevel;
 };
 ```
 
@@ -401,7 +408,7 @@ Possible values are.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -416,9 +423,9 @@ Possible values are.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

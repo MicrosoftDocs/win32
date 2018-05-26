@@ -1,14 +1,20 @@
 ---
 title: EapType Element
 description: Is a derived type of the EapType element from the BaseEapConnectionProperties schema.
-ms.assetid: 'cf92d500-f815-48e2-a7d5-1364cb13a1f0'
-keywords: ["EapType element EAPHost"]
+ms.assetid: cf92d500-f815-48e2-a7d5-1364cb13a1f0
+keywords:
+- EapType element EAPHost
 topic_type:
 - apiref
 api_name:
 - EapType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EapType Element
@@ -67,9 +73,9 @@ This derived **EapType** element contains the following elements: [**Credentials
 
 | Element                                                                                                                               | Type                                                                                                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |---------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**extendedTLS: PerformServerValidation**](eaptlsconnectionpropertiesv1schema-performservervalidation-peapextensionstype-element.md) |                                                                                                                   | Windows 7 and later: indicates whether server validation is performed.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| [**extendedTLS: AcceptServerName**](eaptlsconnectionpropertiesv1schema-tlsextensionstype-peapextensionstype-element.md)              |                                                                                                                   | Windows 7 and later: indicates whether the name of a server is read.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [**extendedTLS: TLSExtensions**](eaptlsconnectionpropertiesv1schema-acceptservername-peapextensionstype-element.md)                  |                                                                                                                   | Windows 7 and later: enables future enhancements to the schema.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| [**extendedTLS: PerformServerValidation**](eaptlsconnectionpropertiesv1schema-performservervalidation-peapextensionstype-element.md) |                                                                                                                   | Windows 7 and later: indicates whether server validation is performed.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [**extendedTLS: AcceptServerName**](eaptlsconnectionpropertiesv1schema-tlsextensionstype-peapextensionstype-element.md)              |                                                                                                                   | Windows 7 and later: indicates whether the name of a server is read.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [**extendedTLS: TLSExtensions**](eaptlsconnectionpropertiesv1schema-acceptservername-peapextensionstype-element.md)                  |                                                                                                                   | Windows 7 and later: enables future enhancements to the schema.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [**CredentialsSource**](eaptlsconnectionpropertiesv1schema-credentialssource-eaptype-element.md)                                     | [**CredentialsSourceParameters**](eaptlsconnectionpropertiesv1schema-credentialssourceparameters-complextype.md) | Contains information about the location of the EAP Transport Level Security (EAP-TLS) certificate. <br/> The [**CredentialsSource**](eaptlsconnectionpropertiesv1schema-credentialssource-eaptype-element.md) element is optional.<br/>                                                                                                                                                                                                                                                                                                                                                                     |
 | [**DifferentUsername**](eaptlsconnectionpropertiesv1schema-differentusername-eaptype-element.md)                                     | boolean                                                                                                           | Determines which user name EAP-TLS is to use. <br/> If the [**DifferentUsername**](eaptlsconnectionpropertiesv1schema-differentusername-eaptype-element.md) element is **TRUE**, EAP-TLS should use a user name other than the name that appears on the certificate. If the [**DifferentUsername**](eaptlsconnectionpropertiesv1schema-differentusername-eaptype-element.md) element is **FALSE**, EAP-TLS uses the user name that appears on the certificate.<br/> The [**DifferentUsername**](eaptlsconnectionpropertiesv1schema-differentusername-eaptype-element.md) element is optional. <br/> |
 | [**ServerValidation**](eaptlsconnectionpropertiesv1schema-servervalidation-eaptype-element.md)                                       | [**ServerValidationParameters**](eaptlsconnectionpropertiesv1schema-servervalidationparameters-complextype.md)   | Contains information about how to perform server validation. The [**ServerValidation**](eaptlsconnectionpropertiesv1schema-servervalidation-eaptype-element.md) element is optional. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -82,8 +88,8 @@ This derived **EapType** element contains the following elements: [**Credentials
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -100,9 +106,9 @@ This derived **EapType** element contains the following elements: [**Credentials
 [eaptlsconnectionpropertiesv1 Schema Elements](eaptlsconnectionpropertiesv1schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

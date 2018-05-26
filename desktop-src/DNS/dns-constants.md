@@ -1,7 +1,12 @@
 ---
 title: DNS Constants
 description: The following constants are defined for DNS in host byte order.
-ms.assetid: '95bc9193-7962-498a-9abd-c4718ac35f0f'
+ms.assetid: 95bc9193-7962-498a-9abd-c4718ac35f0f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DNS Constants
@@ -79,7 +84,7 @@ The following constants are defined for DNS in host byte order.
 
 
 
- 
+ 
 
 ## DNS Class Types
 
@@ -97,7 +102,7 @@ The following constants are defined for DNS in host byte order.
 
 
 
- 
+ 
 
 ## DNS Query Types
 
@@ -114,7 +119,7 @@ The following constants are defined for DNS in host byte order.
 
 
 
- 
+ 
 
 ## DNS Record Flags
 
@@ -131,7 +136,7 @@ The following flags refer to a resource record's (RR) section within a DNS messa
 
 
 
- 
+ 
 
 The following flags refer to a RR's section within an update DNS message per [RFC 2136](http://go.microsoft.com/fwlink/p/?linkid=107017):
 
@@ -145,7 +150,7 @@ The following flags refer to a RR's section within an update DNS message per [RF
 
 
 
- 
+ 
 
 The following flags are mutually exclusive:
 
@@ -158,7 +163,7 @@ The following flags are mutually exclusive:
 
 
 
- 
+ 
 
 ## DNS Query Options
 
@@ -171,27 +176,27 @@ The following flags are mutually exclusive:
 | DNS\_QUERY\_USE\_TCP\_ONLY              | 0x00000002 | Uses TCP only for the query.                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | DNS\_QUERY\_NO\_RECURSION               | 0x00000004 | Directs the DNS server to perform an iterative query (specifically directs the DNS server not to perform recursive resolution to resolve the query).                                                                                                                                                                                                                                                                                                   |
 | DNS\_QUERY\_BYPASS\_CACHE               | 0x00000008 | Bypasses the [*resolver*](r-gly.md#-dns-resolver-gly) cache on the lookup.                                                                                                                                                                                                                                                                                                                                                                            |
-| DNS\_QUERY\_NO\_WIRE\_QUERY             | 0x00000010 | Directs DNS to perform a query on the local cache only.**Windows 2000 Server and Windows 2000 Professional:** This value is not supported. For similar functionality, use **DNS\_QUERY\_CACHE\_ONLY**.<br/>                                                                                                                                                                                                                                      |
-| DNS\_QUERY\_NO\_LOCAL\_NAME             | 0x00000020 | Directs DNS to ignore the local name.**Windows 2000 Server and Windows 2000 Professional:** This value is not supported.<br/>                                                                                                                                                                                                                                                                                                                    |
-| DNS\_QUERY\_NO\_HOSTS\_FILE             | 0x00000040 | Prevents the DNS query from consulting the HOSTS file.**Windows 2000 Server and Windows 2000 Professional:** This value is not supported.<br/>                                                                                                                                                                                                                                                                                                   |
-| DNS\_QUERY\_NO\_NETBT                   | 0x00000080 | Prevents the DNS query from using NetBT for resolution.**Windows 2000 Server and Windows 2000 Professional:** This value is not supported.<br/>                                                                                                                                                                                                                                                                                                  |
-| DNS\_QUERY\_WIRE\_ONLY                  | 0x00000100 | Directs DNS to perform a query using the network only, bypassing local information.**Windows 2000 Server and Windows 2000 Professional:** This value is not supported.<br/>                                                                                                                                                                                                                                                                      |
-| DNS\_QUERY\_RETURN\_MESSAGE             | 0x00000200 | Directs DNS to return the entire DNS response message.**Windows 2000 Server and Windows 2000 Professional:** This value is not supported.<br/>                                                                                                                                                                                                                                                                                                   |
-| DNS\_QUERY\_MULTICAST\_ONLY             | 0x00000400 | Prevents the query from using DNS and uses only Local Link Multicast Name Resolution (LLMNR).**Windows Vista and Windows Server 2008 or later.:** This value is supported.<br/>                                                                                                                                                                                                                                                                  |
+| DNS\_QUERY\_NO\_WIRE\_QUERY             | 0x00000010 | Directs DNS to perform a query on the local cache only.**Windows 2000 Server and Windows 2000 Professional:** This value is not supported. For similar functionality, use **DNS\_QUERY\_CACHE\_ONLY**.<br/>                                                                                                                                                                                                                                      |
+| DNS\_QUERY\_NO\_LOCAL\_NAME             | 0x00000020 | Directs DNS to ignore the local name.**Windows 2000 Server and Windows 2000 Professional:** This value is not supported.<br/>                                                                                                                                                                                                                                                                                                                    |
+| DNS\_QUERY\_NO\_HOSTS\_FILE             | 0x00000040 | Prevents the DNS query from consulting the HOSTS file.**Windows 2000 Server and Windows 2000 Professional:** This value is not supported.<br/>                                                                                                                                                                                                                                                                                                   |
+| DNS\_QUERY\_NO\_NETBT                   | 0x00000080 | Prevents the DNS query from using NetBT for resolution.**Windows 2000 Server and Windows 2000 Professional:** This value is not supported.<br/>                                                                                                                                                                                                                                                                                                  |
+| DNS\_QUERY\_WIRE\_ONLY                  | 0x00000100 | Directs DNS to perform a query using the network only, bypassing local information.**Windows 2000 Server and Windows 2000 Professional:** This value is not supported.<br/>                                                                                                                                                                                                                                                                      |
+| DNS\_QUERY\_RETURN\_MESSAGE             | 0x00000200 | Directs DNS to return the entire DNS response message.**Windows 2000 Server and Windows 2000 Professional:** This value is not supported.<br/>                                                                                                                                                                                                                                                                                                   |
+| DNS\_QUERY\_MULTICAST\_ONLY             | 0x00000400 | Prevents the query from using DNS and uses only Local Link Multicast Name Resolution (LLMNR).**Windows Vista and Windows Server 2008 or later.:** This value is supported.<br/>                                                                                                                                                                                                                                                                  |
 | DNS\_QUERY\_NO\_MULTICAST               | 0x00000800 |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | DNS\_QUERY\_TREAT\_AS\_FQDN             | 0x00001000 | Prevents the DNS response from attaching suffixes to the submitted name in a name resolution process.                                                                                                                                                                                                                                                                                                                                                  |
-| DNS\_QUERY\_ADDRCONFIG                  | 0x00002000 | Windows 7 only: Do not send [**A**](dns-a-data.md) type queries if IPv4 addresses are not available on an interface and do not send [**AAAA**](dns-aaaa-data.md) type queries if IPv6 addresses are not available.                                                                                                                                                                                                                                   |
-| DNS\_QUERY\_DUAL\_ADDR                  | 0x00004000 | Windows 7 only: Query both [**AAAA**](dns-aaaa-data.md) and [**A**](dns-a-data.md) type records and return results for each. Results for **A** type records are mapped into **AAAA** type.                                                                                                                                                                                                                                                           |
-| DNS\_QUERY\_MULTICAST\_WAIT             | 0x00020000 | Waits for a full timeout to collect all the responses from the Local Link. If not set, the default behavior is to return with the first response.**Windows Vista and Windows Server 2008 or later.:** This value is supported.<br/>                                                                                                                                                                                                              |
-| DNS\_QUERY\_MULTICAST\_VERIFY           | 0x00040000 | Directs a test using the local machine hostname to verify name uniqueness on the same Local Link. Collects all responses even if normal LLMNR Sender behavior is not enabled.**Windows Vista and Windows Server 2008 or later.:** This value is supported.<br/>                                                                                                                                                                                  |
+| DNS\_QUERY\_ADDRCONFIG                  | 0x00002000 | Windows 7 only: Do not send [**A**](/windows/win32/Windns/ns-windns-__unnamed_struct_2?branch=master) type queries if IPv4 addresses are not available on an interface and do not send [**AAAA**](/windows/win32/Windns/ns-windns-__unnamed_struct_15?branch=master) type queries if IPv6 addresses are not available.                                                                                                                                                                                                                                   |
+| DNS\_QUERY\_DUAL\_ADDR                  | 0x00004000 | Windows 7 only: Query both [**AAAA**](/windows/win32/Windns/ns-windns-__unnamed_struct_15?branch=master) and [**A**](/windows/win32/Windns/ns-windns-__unnamed_struct_2?branch=master) type records and return results for each. Results for **A** type records are mapped into **AAAA** type.                                                                                                                                                                                                                                                           |
+| DNS\_QUERY\_MULTICAST\_WAIT             | 0x00020000 | Waits for a full timeout to collect all the responses from the Local Link. If not set, the default behavior is to return with the first response.**Windows Vista and Windows Server 2008 or later.:** This value is supported.<br/>                                                                                                                                                                                                              |
+| DNS\_QUERY\_MULTICAST\_VERIFY           | 0x00040000 | Directs a test using the local machine hostname to verify name uniqueness on the same Local Link. Collects all responses even if normal LLMNR Sender behavior is not enabled.**Windows Vista and Windows Server 2008 or later.:** This value is supported.<br/>                                                                                                                                                                                  |
 | DNS\_QUERY\_DONT\_RESET\_TTL\_VALUES    | 0x00100000 | If set, and if the response contains multiple records, records are stored with the TTL corresponding to the minimum value TTL from among all records. When this option is set, "Do not change the TTL of individual records" in the returned record set is not modified.                                                                                                                                                                               |
-| DNS\_QUERY\_DISABLE\_IDN\_ENCODING      | 0x00200000 | Disables International Domain Name (IDN) encoding support in the [**DnsQuery**](dnsquery.md), [**DnsQueryEx**](dnsqueryex.md), [**DnsModifyRecordsInSet**](dnsmodifyrecordsinset.md), and [**DnsReplaceRecordSet**](dnsreplacerecordset.md) APIs. All punycode names are treated as ASCII and will be ASCII encoded on the wire. All non-ASCII names are encoded in UTF8 on the wire. **Windows 8 or later.:** This value is supported.<br/> |
+| DNS\_QUERY\_DISABLE\_IDN\_ENCODING      | 0x00200000 | Disables International Domain Name (IDN) encoding support in the [**DnsQuery**](/windows/win32/Windns/nf-windns-dnsquery_a?branch=master), [**DnsQueryEx**](/windows/win32/Windns/nf-windns-dnsqueryex?branch=master), [**DnsModifyRecordsInSet**](/windows/win32/Windns/nf-windns-dnsmodifyrecordsinset_a?branch=master), and [**DnsReplaceRecordSet**](/windows/win32/Windns/nf-windns-dnsreplacerecordseta?branch=master) APIs. All punycode names are treated as ASCII and will be ASCII encoded on the wire. All non-ASCII names are encoded in UTF8 on the wire. **Windows 8 or later.:** This value is supported.<br/> |
 | DNS\_QUERY\_APPEND\_MULTILABEL          | 0x00800000 |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | DNS\_QUERY\_RESERVED                    | 0xf0000000 | Reserved.                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 
 
- 
+ 
 
 ## DNS Update Options
 
@@ -207,13 +212,13 @@ The following flags are mutually exclusive:
 | DNS\_UPDATE\_TEST\_USE\_LOCAL\_SYS\_ACCT | 0x00000400 | Uses credentials of the local computer account.                                                                                                               |
 | DNS\_UPDATE\_FORCE\_SECURITY\_NEGO       | 0x00000800 | Does not use cached security context.                                                                                                                         |
 | DNS\_UPDATE\_TRY\_ALL\_MASTER\_SERVERS   | 0x00001000 | Sends DNS updates to all multi-master DNS servers.                                                                                                            |
-| DNS\_UPDATE\_SKIP\_NO\_UPDATE\_ADAPTERS  | 0x00002000 | Do not update adapters where dynamic DNS updates are disabled.**Windows 2000 Server with SP2 or later.:** This value is supported.<br/>                 |
-| DNS\_UPDATE\_REMOTE\_SERVER              | 0x00004000 | Register CNAME records on a remote server in addition to the local DNS server.**Windows 2000 Server with SP2 or later.:** This value is supported.<br/> |
+| DNS\_UPDATE\_SKIP\_NO\_UPDATE\_ADAPTERS  | 0x00002000 | Do not update adapters where dynamic DNS updates are disabled.**Windows 2000 Server with SP2 or later.:** This value is supported.<br/>                 |
+| DNS\_UPDATE\_REMOTE\_SERVER              | 0x00004000 | Register CNAME records on a remote server in addition to the local DNS server.**Windows 2000 Server with SP2 or later.:** This value is supported.<br/> |
 | DNS\_UPDATE\_RESERVED                    | 0xffff0000 | Reserved for future use.                                                                                                                                      |
 
 
 
- 
+ 
 
 ## DNS Response Codes
 
@@ -239,11 +244,11 @@ The following flags are mutually exclusive:
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

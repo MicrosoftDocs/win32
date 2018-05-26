@@ -1,8 +1,11 @@
 ---
 title: IWMPQuery beginNextGroup method
 description: The beginNextGroup method begins a new condition group.
-ms.assetid: '15d20c9f-2ce7-4a86-9054-b7317ebe1a0a'
-keywords: ["beginNextGroup method Windows Media Player", "beginNextGroup method Windows Media Player , IWMPQuery interface", "IWMPQuery interface Windows Media Player , beginNextGroup method"]
+ms.assetid: 15d20c9f-2ce7-4a86-9054-b7317ebe1a0a
+keywords:
+- beginNextGroup method Windows Media Player
+- beginNextGroup method Windows Media Player , IWMPQuery interface
+- IWMPQuery interface Windows Media Player , beginNextGroup method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPQuery::beginNextGroup method
@@ -161,9 +169,9 @@ Next i</code></pre></td>
 [**IWMPQuery Interface (VB and C#)**](iwmpquery--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

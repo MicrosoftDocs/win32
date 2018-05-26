@@ -1,7 +1,12 @@
 ---
 title: Starting the Agent Character Editor
 description: Starting the Agent Character Editor
-ms.assetid: '981fea1d-e961-42c2-8839-e539361e549a'
+ms.assetid: 981fea1d-e961-42c2-8839-e539361e549a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Starting the Agent Character Editor

@@ -1,8 +1,29 @@
 ---
 title: List Control Type
 description: This topic provides information about Microsoft UI Automation support for the List control type.
-ms.assetid: 'e4cde080-32d1-4150-a6be-8bd750e972c9'
-keywords: ["UI Automation,support for List control type", "UI Automation,List control type", "UI Automation,tree structure for List control type", "UI Automation,properties for List control type", "UI Automation,control patterns for List control type", "UI Automation,events for List control type", "tree structures,List control type", "properties,List control type", "control patterns,List control type", "events,List control type", "support for List control type", "List control type", "control types,tree structure for List control type", "control types,control patterns for List control type", "control types,support for List", "control types,List"]
+ms.assetid: e4cde080-32d1-4150-a6be-8bd750e972c9
+keywords:
+- UI Automation,support for List control type
+- UI Automation,List control type
+- UI Automation,tree structure for List control type
+- UI Automation,properties for List control type
+- UI Automation,control patterns for List control type
+- UI Automation,events for List control type
+- tree structures,List control type
+- properties,List control type
+- control patterns,List control type
+- events,List control type
+- support for List control type
+- List control type
+- control types,tree structure for List control type
+- control types,control patterns for List control type
+- control types,support for List
+- control types,List
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List Control Type
@@ -67,7 +88,7 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
- 
+ 
 
 The control view for a control that implements the List control type (such as a list control) consists of:
 
@@ -106,7 +127,7 @@ The following table lists the UI Automation properties whose value or definition
 
 
 
- 
+ 
 
 ## Required Control Patterns and Properties
 
@@ -116,17 +137,17 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                                             | Support/Value | Notes                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------------------------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IGridProvider**](uiauto-igridprovider.md)                                | Depends       | Implement the [Grid](uiauto-implementinggrid.md) control pattern when grid navigation needs to be available on an item by item basis.                                                                                                                                                                                                                                           |
-| [**IMultipleViewProvider**](uiauto-imultipleviewprovider.md)                | Depends       | Implement the [MultipleView](uiauto-implementingmultipleview.md) control pattern if the control can support multiple views of the items in the container.                                                                                                                                                                                                                       |
-| [**IScrollProvider**](uiauto-iscrollprovider.md)                            | Depends       | Implement the [Scroll](uiauto-implementingscroll.md) control pattern if items in the container are scrollable.                                                                                                                                                                                                                                                                  |
-| [**ISelectionProvider**](uiauto-iselectionprovider.md)                      | Depends       | If a control supports the List control type that supports selection, the control must implement the [Selection](uiauto-implementingselection.md) control pattern when a selection state is maintained between the items contained in the control. If the items within the control are not selectable, the [Group](uiauto-supportgroupcontroltype.md) control type can be used. |
-| [**CanSelectMultiple**](uiauto-iselectionprovider-canselectmultiple.md)     | Depends       | List controls can be single or multiple-selection containers.                                                                                                                                                                                                                                                                                                                    |
-| [**IsSelectionRequired**](uiauto-iselectionprovider-isselectionrequired.md) | Depends       | List controls do not always require that an item be selected.                                                                                                                                                                                                                                                                                                                    |
-| [**ITableProvider**](uiauto-itableprovider.md)                              | Never         | The [Table](uiauto-implementingtable.md) control pattern is never supported for the **List** control type. If the control needs to support this control pattern, the control should be based on the [DataGrid](uiauto-supportdatagridcontroltype.md) control type.                                                                                                             |
+| [**IGridProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-igridprovider?branch=master)                                | Depends       | Implement the [Grid](uiauto-implementinggrid.md) control pattern when grid navigation needs to be available on an item by item basis.                                                                                                                                                                                                                                           |
+| [**IMultipleViewProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-imultipleviewprovider?branch=master)                | Depends       | Implement the [MultipleView](uiauto-implementingmultipleview.md) control pattern if the control can support multiple views of the items in the container.                                                                                                                                                                                                                       |
+| [**IScrollProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iscrollprovider?branch=master)                            | Depends       | Implement the [Scroll](uiauto-implementingscroll.md) control pattern if items in the container are scrollable.                                                                                                                                                                                                                                                                  |
+| [**ISelectionProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionprovider?branch=master)                      | Depends       | If a control supports the List control type that supports selection, the control must implement the [Selection](uiauto-implementingselection.md) control pattern when a selection state is maintained between the items contained in the control. If the items within the control are not selectable, the [Group](uiauto-supportgroupcontroltype.md) control type can be used. |
+| [**CanSelectMultiple**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_canselectmultiple?branch=master)     | Depends       | List controls can be single or multiple-selection containers.                                                                                                                                                                                                                                                                                                                    |
+| [**IsSelectionRequired**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_isselectionrequired?branch=master) | Depends       | List controls do not always require that an item be selected.                                                                                                                                                                                                                                                                                                                    |
+| [**ITableProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableprovider?branch=master)                              | Never         | The [Table](uiauto-implementingtable.md) control pattern is never supported for the **List** control type. If the control needs to support this control pattern, the control should be based on the [DataGrid](uiauto-supportdatagridcontroltype.md) control type.                                                                                                             |
 
 
 
- 
+ 
 
 ## Required Events
 
@@ -153,7 +174,7 @@ The following table lists the UI Automation events that list controls are requir
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -168,9 +189,9 @@ The following table lists the UI Automation events that list controls are requir
 [UI Automation Overview](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'How to create, manage, and use pipes. A pipe is a section of shared memory that processes use for communication. The process that creates a pipe is the pipe server. A process that connects to a pipe is a pipe client.'
-ms.assetid: 'a44f1d28-14ab-4808-aa82-1cbd4958e41d'
+Description: How to create, manage, and use pipes. A pipe is a section of shared memory that processes use for communication. The process that creates a pipe is the pipe server. A process that connects to a pipe is a pipe client.
+ms.assetid: a44f1d28-14ab-4808-aa82-1cbd4958e41d
 title: Pipes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pipes

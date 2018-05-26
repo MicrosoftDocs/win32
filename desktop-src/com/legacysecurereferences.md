@@ -1,13 +1,19 @@
 ---
 title: LegacySecureReferences
 description: Determines whether AddRef/Release invocations are secured for applications that do not call CoInitializeSecurity.
-ms.assetid: '955b599b-1858-475a-95c4-a55038a28e69'
-keywords: ["LegacySecureReferences registry value COM"]
+ms.assetid: 955b599b-1858-475a-95c4-a55038a28e69
+keywords:
+- LegacySecureReferences registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LegacySecureReferences
 
-Determines whether **AddRef**/**Release** invocations are secured for applications that do not call [**CoInitializeSecurity**](coinitializesecurity.md).
+Determines whether **AddRef**/**Release** invocations are secured for applications that do not call [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master).
 
 ## Registry Entry
 

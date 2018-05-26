@@ -1,7 +1,12 @@
 ---
-Description: 'The EndOfStream method notifies the filter that no additional data is expected from the input pin.'
-ms.assetid: 'b8fc3976-e3d4-4f16-82b0-3900ad6a740c'
-title: 'CTransformFilter.EndOfStream method'
+Description: The EndOfStream method notifies the filter that no additional data is expected from the input pin.
+ms.assetid: b8fc3976-e3d4-4f16-82b0-3900ad6a740c
+title: CTransformFilter.EndOfStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.EndOfStream method
@@ -47,9 +52,9 @@ The input pin's [**CTransformInputPin::EndOfStream**](ctransforminputpin-endofst
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

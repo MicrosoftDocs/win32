@@ -1,8 +1,26 @@
 ---
 title: Using Device Profiles with WCS
 description: Device profiles are a basic tool for color management.
-ms.assetid: '9ea420ad-dcf1-4ba9-b739-308be7a56a6c'
-keywords: ["Windows Color System (WCS),device profiles", "WCS (Windows Color System),device profiles", "image color management,device profiles", "color management,device profiles", "colors,device profiles", "Windows Color System (WCS),profiles", "WCS (Windows Color System),profiles", "image color management,profiles", "color management,profiles", "colors,profiles", "device profiles", "color conversion", "device link profiles"]
+ms.assetid: 9ea420ad-dcf1-4ba9-b739-308be7a56a6c
+keywords:
+- Windows Color System (WCS),device profiles
+- WCS (Windows Color System),device profiles
+- image color management,device profiles
+- color management,device profiles
+- colors,device profiles
+- Windows Color System (WCS),profiles
+- WCS (Windows Color System),profiles
+- image color management,profiles
+- color management,profiles
+- colors,profiles
+- device profiles
+- color conversion
+- device link profiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Device Profiles with WCS

@@ -1,7 +1,12 @@
 ---
 title: Pragma Directives
 description: RC does not support the pragma directives supported by the C/C++ compiler.
-ms.assetid: 'c7a944c0-a3d4-4568-a9ac-c338f0eaa427'
+ms.assetid: c7a944c0-a3d4-4568-a9ac-c338f0eaa427
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pragma Directives

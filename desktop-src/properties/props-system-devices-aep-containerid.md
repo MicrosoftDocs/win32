@@ -1,7 +1,12 @@
 ---
-Description: 'Device Association Endpoint''s Parent Container Id.'
-ms.assetid: '0a8dbf09-aee6-4dee-beba-b7dbff488410'
-title: 'System.Devices.Aep.ContainerId'
+Description: Device Association Endpoints Parent Container Id.
+ms.assetid: 0a8dbf09-aee6-4dee-beba-b7dbff488410
+title: System.Devices.Aep.ContainerId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.ContainerId

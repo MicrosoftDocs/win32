@@ -1,7 +1,12 @@
 ---
-Description: 'The recommended programmatic technique for setting contexts in an application that is not ink enabled is to use the SetInputScope functions to associate context with the fields in the application.'
-ms.assetid: '95b93804-8079-4b97-b1b0-dfc0138c94e8'
+Description: The recommended programmatic technique for setting contexts in an application that is not ink enabled is to use the SetInputScope functions to associate context with the fields in the application.
+ms.assetid: 95b93804-8079-4b97-b1b0-dfc0138c94e8
 title: Setting Context with the SetInputScope APIs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Context with the SetInputScope APIs

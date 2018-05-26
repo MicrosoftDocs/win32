@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the specific access rights defined by the Fax Service Client API.'
-ms.assetid: '7d6ff208-33e4-42b2-ae21-76ec8ff58809'
+Description: This topic describes the specific access rights defined by the Fax Service Client API.
+ms.assetid: 7d6ff208-33e4-42b2-ae21-76ec8ff58809
 title: Specific Fax Access Rights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specific Fax Access Rights

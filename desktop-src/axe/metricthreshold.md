@@ -1,14 +1,20 @@
 ---
 title: MetricThreshold element
 description: Each metric threshold describes how a Metric value is interpreted.
-ms.assetid: 'D5D1C1D6-4483-4650-95E8-7E619CF6BC9D'
-keywords: ["MetricThreshold element Access Execution Engine"]
+ms.assetid: D5D1C1D6-4483-4650-95E8-7E619CF6BC9D
+keywords:
+- MetricThreshold element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MetricThreshold
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThreshold element
@@ -76,9 +82,9 @@ There are no attributes.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

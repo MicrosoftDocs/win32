@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Seek method selects the object from which (read/write) access will be done.'
-ms.assetid: '9e06df70-6415-46dd-b34f-59614d1cbee7'
-title: 'ISCardFileAccess::Seek method'
+---
+Description: The Seek method selects the object from which (read/write) access will be done.
+ms.assetid: 9e06df70-6415-46dd-b34f-59614d1cbee7
+title: ISCardFileAccessSeek method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardFileAccess::Seek method

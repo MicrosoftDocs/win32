@@ -1,7 +1,12 @@
 ---
 title: Automatic Clipping
 description: Automatic Clipping
-ms.assetid: '9107ee47-52aa-48c8-b141-c821f93fda45'
+ms.assetid: 9107ee47-52aa-48c8-b141-c821f93fda45
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automatic Clipping

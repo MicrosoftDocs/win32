@@ -1,7 +1,12 @@
 ---
-Description: 'Container for one or many individual propertyDescription elements.'
-ms.assetid: 'b54aaa85-6928-470e-9630-44b094205106'
+Description: Container for one or many individual propertyDescription elements.
+ms.assetid: b54aaa85-6928-470e-9630-44b094205106
 title: propertyDescriptionList
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # propertyDescriptionList

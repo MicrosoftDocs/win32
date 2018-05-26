@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '34ee1164-b23b-4fe4-ba66-0e963278d710'
-title: 'System.Music.InitialKey'
+Description: .
+ms.assetid: 34ee1164-b23b-4fe4-ba66-0e963278d710
+title: System.Music.InitialKey
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.InitialKey

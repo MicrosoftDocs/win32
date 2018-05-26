@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item property returns a FaxInboundRoutingMethod object from the FaxInboundRoutingMethods collection.'
-ms.assetid: 'd628a3f7-1362-46a4-97ce-98e7108fcceb'
-title: 'FaxInboundRoutingMethods.Item property'
+---
+Description: The Item property returns a FaxInboundRoutingMethod object from the FaxInboundRoutingMethods collection.
+ms.assetid: d628a3f7-1362-46a4-97ce-98e7108fcceb
+title: FaxInboundRoutingMethods.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingMethods.Item property
@@ -23,7 +28,7 @@ Property Item( _
 
 ## Property value
 
-A variable of type [**IFaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod-cpp.md) that receives a [**FaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod.md) object.
+A variable of type [**IFaxInboundRoutingMethod**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingmethod?branch=master) that receives a [**FaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod.md) object.
 
 ## Requirements
 

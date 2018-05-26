@@ -1,8 +1,14 @@
 ---
 title: Structured Storage API Functions
 description: Some of the API functions for structured storage are helper functions that perform a sequence of calls to other API functions and interface methods. You can use these helper functions as short cuts.
-ms.assetid: '99ac66bc-db73-4811-9a39-fc49bb90ada8'
-keywords: ["Structured Storage Strctd Stg ,fundamentals,API functions"]
+ms.assetid: 99ac66bc-db73-4811-9a39-fc49bb90ada8
+keywords:
+- Structured Storage Strctd Stg ,fundamentals,API functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structured Storage API Functions

@@ -4,11 +4,16 @@ description: Virtual list views, also known as owner data, appear to the user as
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f02a4045-977a-4e52-93bd-7defa4fd1d89'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: f02a4045-977a-4e52-93bd-7defa4fd1d89
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["owner data/virtual lists MMC", "virtual lists MMC"]
+keywords:
+- owner data/virtual lists MMC
+- virtual lists MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Owner Data/Virtual Lists

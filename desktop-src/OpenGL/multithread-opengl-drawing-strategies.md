@@ -1,8 +1,15 @@
 ---
 title: Multithread OpenGL Drawing Strategies
 description: The GDI does not support multiple threads.
-ms.assetid: '3930029d-b2d9-4beb-bad6-4962f952d7ee'
-keywords: ["OpenGL on Windows,multithread drawing", "multithread OpenGL drawing OpenGL"]
+ms.assetid: 3930029d-b2d9-4beb-bad6-4962f952d7ee
+keywords:
+- OpenGL on Windows,multithread drawing
+- multithread OpenGL drawing OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multithread OpenGL Drawing Strategies
@@ -11,7 +18,7 @@ The GDI does not support multiple threads. You must use a distinct device contex
 
 Symmetric multiprocessing (SMP) systems can greatly benefit from using multiple threads. An obvious strategy is to use a separate thread for each processor to handle OpenGL rendering in separate windows. For example, in a flight-simulation application you could use separate processors and threads to render the front, back, and side views.
 
-A thread can have only one current, active rendering context. When you use multiple threads and multiple rendering contexts, you must be careful to synchronize their use. For example, use one thread only to call [**SwapBuffers**](swapbuffers.md) after all threads finish drawing.
+A thread can have only one current, active rendering context. When you use multiple threads and multiple rendering contexts, you must be careful to synchronize their use. For example, use one thread only to call [**SwapBuffers**](/windows/win32/wingdi/nf-wingdi-swapbuffers?branch=master) after all threads finish drawing.
 
  
 

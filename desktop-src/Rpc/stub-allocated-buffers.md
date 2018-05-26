@@ -1,7 +1,12 @@
 ---
 title: Stub-Allocated Buffers
 description: Rather than forcing a distinct call for each node of the tree or graph, you can direct the stubs to compute the size of the data and to allocate and free memory by making a single call to midl\_user\_allocate or midl\_user\_free.
-ms.assetid: '9911649d-00e8-47d8-b512-7d9b185d1e09'
+ms.assetid: 9911649d-00e8-47d8-b512-7d9b185d1e09
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stub-Allocated Buffers

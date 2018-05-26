@@ -1,8 +1,16 @@
 ---
 title: An X Window System OpenGL Program
 description: The following program is an X Window System OpenGL program with the same OpenGL code used in the AUXEDEMO.C sample program supplied with the Microsoft Platform SDK. Compare this program with the Windows OpenGL program in The Program Ported to Windows.
-ms.assetid: '8caab983-491f-46fa-b564-79191fa4a9ac'
-keywords: ["porting to OpenGL,sample", "OpenGL porting,sample", "X Window System,sample"]
+ms.assetid: 8caab983-491f-46fa-b564-79191fa4a9ac
+keywords:
+- porting to OpenGL,sample
+- OpenGL porting,sample
+- X Window System,sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # An X Window System OpenGL Program

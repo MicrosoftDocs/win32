@@ -1,13 +1,16 @@
 ---
-Description: 'This section provides reference information for the Physical Computer System View Provider.'
+Description: This section provides reference information for the Physical Computer System View Provider.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a4cabe88-2319-469c-9024-5772c8a90bfa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a4cabe88-2319-469c-9024-5772c8a90bfa
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Physical Computer System View Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Physical Computer System View Provider

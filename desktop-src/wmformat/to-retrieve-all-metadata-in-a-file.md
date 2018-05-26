@@ -1,13 +1,22 @@
 ---
 title: To Retrieve All Metadata in a File
 description: To Retrieve All Metadata in a File
-ms.assetid: 'c1de58d7-25a8-4416-9ee9-6ebe641ed640'
-keywords: ["Windows Media Format SDK,retrieving metadata", "Advanced Systems Format (ASF),retrieving metadata", "ASF (Advanced Systems Format),retrieving metadata", "metadata,retrieving all"]
+ms.assetid: c1de58d7-25a8-4416-9ee9-6ebe641ed640
+keywords:
+- Windows Media Format SDK,retrieving metadata
+- Advanced Systems Format (ASF),retrieving metadata
+- ASF (Advanced Systems Format),retrieving metadata
+- metadata,retrieving all
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Retrieve All Metadata in a File
 
-The following code example is a function that displays all the metadata in a file. In order to use the function, you must pass it a pointer to the [**IWMHeaderInfo3**](iwmheaderinfo3.md) interface of a metadata editor object, reader object, synchronous reader object, or writer object. You must also include the Stdio.h header file somewhere in your project. For more information about how to use this example, see [Using the Code Examples](using-the-code-examples.md).
+The following code example is a function that displays all the metadata in a file. In order to use the function, you must pass it a pointer to the [**IWMHeaderInfo3**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3?branch=master) interface of a metadata editor object, reader object, synchronous reader object, or writer object. You must also include the Stdio.h header file somewhere in your project. For more information about how to use this example, see [Using the Code Examples](using-the-code-examples.md).
 
 For clarity, this example does not display the values of binary and GUID attributes. For binary attributes, you should check to see if the attribute name matches any of the known complex metadata attributes. If it does, you should format your output according to the structure used for that attribute. Similarly, GUID attribute values can be displayed in a number of ways. You can choose to display each member of the structure one at a time or convert the structure to a string and display it as one value.
 

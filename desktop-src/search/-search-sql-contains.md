@@ -1,7 +1,12 @@
 ---
-Description: 'The CONTAINS predicate is part of the WHERE clause and supports searching for words and phrases in text columns.'
-ms.assetid: '53083966-54cc-4a16-a161-caa663bea7ea'
+Description: The CONTAINS predicate is part of the WHERE clause and supports searching for words and phrases in text columns.
+ms.assetid: 53083966-54cc-4a16-a161-caa663bea7ea
 title: CONTAINS Predicate
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CONTAINS Predicate

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves an array of character ranges representing the supported Unicode character ranges.'
-ms.assetid: '334cf545-832a-4e8a-8fe6-76a173676be7'
-title: 'IInkAnalysisRecognizer::GetUnicodeRanges method'
+Description: Retrieves an array of character ranges representing the supported Unicode character ranges.
+ms.assetid: 334cf545-832a-4e8a-8fe6-76a173676be7
+title: IInkAnalysisRecognizerGetUnicodeRanges method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalysisRecognizer::GetUnicodeRanges method
@@ -13,9 +18,9 @@ Retrieves an array of character ranges representing the supported Unicode charac
 
 ```C++
 HRESULT GetUnicodeRanges(
-  [in, out] ULONG  *pulNumberOfRanges,
-  [out]     WCHAR  **ppulLowUnicode,
-  [out]     USHORT **ppusUnicodeRangeLength
+  [in, out] ULONG  *pulNumberOfRanges,
+  [out]     WCHAR  **ppulLowUnicode,
+  [out]     USHORT **ppusUnicodeRangeLength
 );
 ```
 
@@ -56,7 +61,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -70,9 +75,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

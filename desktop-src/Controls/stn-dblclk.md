@@ -1,8 +1,9 @@
 ---
 title: STN\_DBLCLK notification code
 description: The STN\_DBLCLK notification code is sent when the user double-clicks a static control that has the SS\_NOTIFY style. The parent window of the control receives this notification code through the WM\_COMMAND message.
-ms.assetid: 'e3203309-87ea-46f4-9269-7e68c6fa0e4a'
-keywords: ["STN_DBLCLK notification code Windows Controls"]
+ms.assetid: e3203309-87ea-46f4-9269-7e68c6fa0e4a
+keywords:
+- STN_DBLCLK notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STN\_DBLCLK notification code
@@ -51,8 +57,8 @@ Handle to the static control.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -85,9 +91,9 @@ Handle to the static control.
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

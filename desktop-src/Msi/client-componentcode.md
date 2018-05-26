@@ -1,12 +1,17 @@
 ---
-Description: 'The component code of the component in question.'
-ms.assetid: '0abed0cd-b35c-45d7-8e71-461f2386109e'
-title: 'Client.ComponentCode property'
+Description: The component code of the component in question.
+ms.assetid: 0abed0cd-b35c-45d7-8e71-461f2386109e
+title: Client.ComponentCode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client.ComponentCode property
 
-The component code of the component in question. This property calls the [**MsiEnumClientsEx**](msienumclientsex.md) function.
+The component code of the component in question. This property calls the [**MsiEnumClientsEx**](/windows/win32/Msi/nf-msi-msienumclientsexa?branch=master) function.
 
 **[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported. This property is available beginning with Windows Installer 5.0.
 
@@ -26,9 +31,9 @@ The component code of the component in question. This property calls the [**MsiE
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'You can create an object for WMI in Visual Basic Scripting Edition (VBScript) by connecting to WMI and then calling CreateObject. The following table lists the methods in the Scripting API for WMI that support object creation.'
+Description: You can create an object for WMI in Visual Basic Scripting Edition (VBScript) by connecting to WMI and then calling CreateObject. The following table lists the methods in the Scripting API for WMI that support object creation.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3acbce31-6d56-4a7a-af03-fa37b2b868be'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3acbce31-6d56-4a7a-af03-fa37b2b868be
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating an Object Using VBScript
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating an Object Using VBScript

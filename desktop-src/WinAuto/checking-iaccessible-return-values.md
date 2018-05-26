@@ -1,12 +1,17 @@
 ---
 title: Checking IAccessible Return Values
 description: Client developers should not rely on the Component Object Model (COM) macros SUCCEEDED and FAILED to test IAccessible return values, because values other than S\_OK are considered a success.
-ms.assetid: '0def0349-178b-4be5-aa1d-6602dc015981'
+ms.assetid: 0def0349-178b-4be5-aa1d-6602dc015981
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Checking IAccessible Return Values
 
-Client developers should not rely on the Component Object Model (COM) macros [**SUCCEEDED**](https://msdn.microsoft.com/library/windows/desktop/ms687197) and [**FAILED**](https://msdn.microsoft.com/library/windows/desktop/ms693474) to test [**IAccessible**](iaccessible.md) return values, because values other than S\_OK are considered a success. For example, a method can return S\_FALSE, which is considered a success by the **SUCCEEDED** macro, but still receive a **NULL** pointer in an output parameter.
+Client developers should not rely on the Component Object Model (COM) macros [**SUCCEEDED**](https://msdn.microsoft.com/library/windows/desktop/ms687197) and [**FAILED**](https://msdn.microsoft.com/library/windows/desktop/ms693474) to test [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) return values, because values other than S\_OK are considered a success. For example, a method can return S\_FALSE, which is considered a success by the **SUCCEEDED** macro, but still receive a **NULL** pointer in an output parameter.
 
 Client developers must guard against the possibility that some servers return error codes other than the documented values. To be safe, you must ensure that all the output parameters contain valid information and meet the following criteria:
 

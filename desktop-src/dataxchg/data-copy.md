@@ -1,8 +1,14 @@
 ---
 title: Data Copy
 description: This section discusses how to use the data copy message to transfer data from one application to another.
-ms.assetid: '10a50efe-f3d5-4c59-a084-69119ef86129'
-keywords: ["data copy,about"]
+ms.assetid: 10a50efe-f3d5-4c59-a084-69119ef86129
+keywords:
+- data copy,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Copy
@@ -20,7 +26,7 @@ The data copy feature enables you to send data from one application to another.
 
 
 
- 
+ 
 
 ### Data Copy Messages
 
@@ -32,7 +38,7 @@ The data copy feature enables you to send data from one application to another.
 
 
 
- 
+ 
 
 ### Data Copy Structures
 
@@ -40,15 +46,15 @@ The data copy feature enables you to send data from one application to another.
 
 | Name                                                | Description                                                                                                       |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [**COPYDATASTRUCT**](copydatastruct.md)<br/> | Contains data to be passed to another application by the [**WM\_COPYDATA**](wm-copydata.md) message. <br/> |
+| [**COPYDATASTRUCT**](/windows/win32/Winuser/ns-winuser-tagcopydatastruct?branch=master)<br/> | Contains data to be passed to another application by the [**WM\_COPYDATA**](wm-copydata.md) message. <br/> |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

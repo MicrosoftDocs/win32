@@ -1,8 +1,21 @@
 ---
 title: About the Player Object
 description: About the Player Object
-ms.assetid: 'db995e75-d4e3-4f50-a34a-cc1b2f2c5db5'
-keywords: ["Windows Media Player,Player object", "Windows Media Player object model,Player object", "object model,Player object", "Windows Media Player ActiveX control,Player object", "ActiveX control,Player object", "Windows Media Player Mobile ActiveX control,Player object", "Windows Media Player Mobile,Player object", "Player object"]
+ms.assetid: db995e75-d4e3-4f50-a34a-cc1b2f2c5db5
+keywords:
+- Windows Media Player,Player object
+- Windows Media Player object model,Player object
+- object model,Player object
+- Windows Media Player ActiveX control,Player object
+- ActiveX control,Player object
+- Windows Media Player Mobile ActiveX control,Player object
+- Windows Media Player Mobile,Player object
+- Player object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Player Object

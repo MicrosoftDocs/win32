@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for split IO events. The following syntax is simplified from MOF code.'
-ms.assetid: '0eb1f712-8b1c-4de1-b701-5c7dbabb0f55'
-title: 'SplitIo\_Info class'
+---
+Description: This class is the event type class for split IO events. The following syntax is simplified from MOF code.
+ms.assetid: 0eb1f712-8b1c-4de1-b701-5c7dbabb0f55
+title: SplitIo\_Info class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SplitIo\_Info class

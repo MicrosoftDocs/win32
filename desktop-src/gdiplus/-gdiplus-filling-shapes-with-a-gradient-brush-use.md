@@ -1,7 +1,12 @@
 ---
-Description: 'You can use a gradient brush to fill a shape with a gradually changing color.'
-ms.assetid: 'e37b4c3a-b753-483a-990f-da3bcc70acf5'
+Description: You can use a gradient brush to fill a shape with a gradually changing color.
+ms.assetid: e37b4c3a-b753-483a-990f-da3bcc70acf5
 title: Filling Shapes with a Gradient Brush
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filling Shapes with a Gradient Brush
@@ -10,7 +15,7 @@ You can use a gradient brush to fill a shape with a gradually changing color. Fo
 
 A linear gradient changes color as you move horizontally, vertically, or parallel to a specified slanted line. A path gradient changes color as you move about the interior and boundary of a path. You can customize path gradients to achieve a wide variety of effects.
 
-GDI+ provides the [**LinearGradientBrush**](-gdiplus-class-lineargradientbrush-class.md) and [**PathGradientBrush**](-gdiplus-class-pathgradientbrush-class.md) classes, both of which inherit from the [**Brush**](-gdiplus-class-brush-class.md) class.
+GDI+ provides the [**LinearGradientBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush?branch=master) and [**PathGradientBrush**](/windows/win32/gdipluspath/nl-gdipluspath-pathgradientbrush?branch=master) classes, both of which inherit from the [**Brush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-brush?branch=master) class.
 
 The following topics cover linear and path gradients in more detail:
 

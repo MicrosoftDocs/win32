@@ -1,8 +1,9 @@
 ---
 title: TVN\_BEGINDRAG notification code
-description: Notifies a tree-view control's parent window that a drag-and-drop operation involving the left mouse button is being initiated. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'e118354a-329e-424c-b137-78342cc00957'
-keywords: ["TVN_BEGINDRAG notification code Windows Controls"]
+description: Notifies a tree-view controls parent window that a drag-and-drop operation involving the left mouse button is being initiated. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: e118354a-329e-424c-b137-78342cc00957
+keywords:
+- TVN_BEGINDRAG notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVN\_BEGINDRAG notification code
@@ -35,7 +41,7 @@ TVN_BEGINDRAG
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTREEVIEW**](nmtreeview.md) structure. The **itemNew** member is a [**TVITEM**](tvitem.md) structure that contains valid information about the item being dragged in the **hItem**, **state**, and **lParam** members. The **ptDrag** member specifies the current screen coordinates of the mouse.
+Pointer to an [**NMTREEVIEW**](/windows/win32/Commctrl/ns-commctrl-tagnmtreeviewa?branch=master) structure. The **itemNew** member is a [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure that contains valid information about the item being dragged in the **hItem**, **state**, and **lParam** members. The **ptDrag** member specifies the current screen coordinates of the mouse.
 
 </dd> </dl>
 
@@ -53,16 +59,16 @@ A tree-view control that has the [**TVS\_DISABLEDRAGDROP**](tree-view-control-wi
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TVN\_BEGINDRAGW** (Unicode) and **TVN\_BEGINDRAGA** (ANSI)<br/>               |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: EAPHost and Legacy Schema Samples
 description: Are used when writing applications that call or implement EAPHost API elements.
-ms.assetid: 'd65c4433-489c-473d-8f03-c753bace2806'
+ms.assetid: d65c4433-489c-473d-8f03-c753bace2806
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAPHost and Legacy Schema Samples

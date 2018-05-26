@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the settings of the guest communication service.'
-ms.assetid: 'c36d3002-d43e-4284-b765-2795c941f023'
-title: 'Msvm\_GuestCommunicationServiceSettingData class'
+Description: Represents the settings of the guest communication service.
+ms.assetid: c36d3002-d43e-4284-b765-2795c941f023
+title: Msvm\_GuestCommunicationServiceSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_GuestCommunicationServiceSettingData class
@@ -100,8 +105,8 @@ The GUID of the service.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -115,9 +120,9 @@ The GUID of the service.
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

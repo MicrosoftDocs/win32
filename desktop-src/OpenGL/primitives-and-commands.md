@@ -1,8 +1,17 @@
 ---
 title: Primitives and Commands
 description: Primitives and Commands
-ms.assetid: 'f838320f-3fab-4984-8d45-b0c8cbea6034'
-keywords: ["OpenGL,primitives", "OpenGL,commands", "primitives OpenGL", "commands OpenGL"]
+ms.assetid: f838320f-3fab-4984-8d45-b0c8cbea6034
+keywords:
+- OpenGL,primitives
+- OpenGL,commands
+- primitives OpenGL
+- commands OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Primitives and Commands

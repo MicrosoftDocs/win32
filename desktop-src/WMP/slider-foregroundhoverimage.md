@@ -1,14 +1,20 @@
 ---
 title: SLIDER.foregroundHoverImage
 description: The foregroundHoverImage attribute specifies or retrieves the foreground image of the slider that appears when hovering over it with the mouse.
-ms.assetid: 'c9098852-4d44-4165-a58e-d0b02d46398f'
-keywords: ["SLIDER.foregroundHoverImage Windows Media Player"]
+ms.assetid: c9098852-4d44-4165-a58e-d0b02d46398f
+keywords:
+- SLIDER.foregroundHoverImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.foregroundHoverImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.foregroundHoverImage
@@ -46,9 +52,9 @@ The supported formats are BMP, JPG, PNG, and GIF (not including animated GIFs).
 [**SLIDER Element**](slider-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

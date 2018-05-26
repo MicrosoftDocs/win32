@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the PagePostDataChangedLeave event.'
+---
+Description: The event type class for the PagePostDataChangedLeave event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cf39fa21-b370-4d0a-b096-7eb316f61b59'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cf39fa21-b370-4d0a-b096-7eb316f61b59
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetPagePostDataChangedLeave class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetPagePostDataChangedLeave class

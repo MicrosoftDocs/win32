@@ -1,7 +1,12 @@
 ---
 title: Choosing the Threading Model
 description: Choosing the Threading Model
-ms.assetid: 'e8a0286d-1831-454f-8549-1957fd794809'
+ms.assetid: e8a0286d-1831-454f-8549-1957fd794809
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing the Threading Model

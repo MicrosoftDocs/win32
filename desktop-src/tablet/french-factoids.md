@@ -1,7 +1,12 @@
 ---
-Description: 'The following table lists formats that are available for each factoid used in French.'
-ms.assetid: 'c4fef6b9-b770-4e2d-a8f2-634206dccb2e'
+Description: The following table lists formats that are available for each factoid used in French.
+ms.assetid: c4fef6b9-b770-4e2d-a8f2-634206dccb2e
 title: French Factoids
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # French Factoids
@@ -27,17 +32,17 @@ The following table lists formats that are available for each factoid used in Fr
 <tr class="odd">
 <td><strong>Currency</strong></td>
 <td>Currency in euros, dollars, pounds, and yen as written in French.<br/></td>
-<td>1.234 Ä<br/> 1.234,50 Ä<br/> 123 Ä<br/> 0,25 Ä<br/> 1 234,50 Ä<br/> Ä 1.234<br/> Ä 1.234,50<br/> Ä 123<br/> Ä 0,25<br/> Ä 1 234,50<br/> 123.456.789,00 EUR<br/> 1.234 $<br/> 1.234,50 $<br/> 123 $<br/> 0,25 $<br/> 123 456 789,00 EUR<br/> 1 234 $<br/> 1 234,50 $<br/> EUR 123.456.789,00<br/> $ 1.234<br/> $ 1.234,50<br/> $ 123<br/> $ 0,25<br/> EUR 123 456 789,00<br/> $ 1 234<br/> $ 1 234,50<br/> 12 KÄ<br/> Ä 12 K<br/> 12 cts<br/> 1 ct<br/>
+<td>1.234  <br/> 1.234,50  <br/> 123  <br/> 0,25  <br/> 1 234,50  <br/>   1.234<br/>   1.234,50<br/>   123<br/>   0,25<br/>   1 234,50<br/> 123.456.789,00 EUR<br/> 1.234 $<br/> 1.234,50 $<br/> 123 $<br/> 0,25 $<br/> 123 456 789,00 EUR<br/> 1 234 $<br/> 1 234,50 $<br/> EUR 123.456.789,00<br/> $ 1.234<br/> $ 1.234,50<br/> $ 123<br/> $ 0,25<br/> EUR 123 456 789,00<br/> $ 1 234<br/> $ 1 234,50<br/> 12 K <br/>   12 K<br/> 12 cts<br/> 1 ct<br/>
 <blockquote>
 [!Note]<br />
-The examples above that use $ will also work with £ and •.
+The examples above that use $ will also work with   and  .
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td><strong>Date</strong></td>
 <td>Dates as written in French.<br/></td>
-<td>1/9/21<br/> 10/3/01<br/> 07/08/54<br/> 26/11/1999<br/> 03/02/1956<br/> 02-05-1985<br/> 2 dÈcembre 1967<br/> mercredi 6 juin 2000<br/> mardi 1er janvier 2002<br/></td>
+<td>1/9/21<br/> 10/3/01<br/> 07/08/54<br/> 26/11/1999<br/> 03/02/1956<br/> 02-05-1985<br/> 2 d cembre 1967<br/> mercredi 6 juin 2000<br/> mardi 1er janvier 2002<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>Number</strong></td>
@@ -47,7 +52,7 @@ The examples above that use $ will also work with £ and •.
 <tr class="even">
 <td><strong>OneChar</strong></td>
 <td>A single American National Standards Institute (ANSI) character.<br/></td>
-<td>! &quot; # $ % &amp; ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] _ a b c d e f g h i j k l m n o p q r s t u v w x y z { } ~ Ä£•åúß∞¿¬∆«»È ÀŒœ‘Ÿ€‹‡‚ÊÁËÈÍÎÓÔÙ˘˚¸<br/></td>
+<td>! &quot; # $ % &amp; ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] _ a b c d e f g h i j k l m n o p q r s t u v w x y z { } ~                                    <br/></td>
 </tr>
 <tr class="odd">
 <td><strong>Percent</strong></td>
@@ -84,11 +89,11 @@ In the United States there is no space between the number and the % symbol; howe
 
 
 
-†
+ 
 
-†
+ 
 
-†
+ 
 
 
 

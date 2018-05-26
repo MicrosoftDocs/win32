@@ -1,7 +1,12 @@
 ---
-Description: 'Several registry settings are available to modify CRM behavior to assist with troubleshooting and development.'
-ms.assetid: 'c4e68451-fb8a-45b5-9968-7d5a6418dfe8'
+Description: Several registry settings are available to modify CRM behavior to assist with troubleshooting and development.
+ms.assetid: c4e68451-fb8a-45b5-9968-7d5a6418dfe8
 title: COM+ CRM Registry Settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ CRM Registry Settings
@@ -22,7 +27,7 @@ All CRM registry settings are under **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +36,9 @@ All CRM registry settings are under **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\
 [COM+ Compensating Resource Manager Concepts](com--compensating-resource-manager-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

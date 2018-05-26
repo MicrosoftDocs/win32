@@ -1,14 +1,22 @@
 ---
 title: IMediaRendererActionInformation IsVolumeAvailable method
 description: Retrieves a value that indicates whether the DMR is capable of adjusting the audio volume level.
-ms.assetid: '6DFDC37A-3304-4CDB-9928-C113D2F64ED0'
-keywords: ["IsVolumeAvailable method Media Streaming API", "IsVolumeAvailable method Media Streaming API , IMediaRendererActionInformation interface", "IMediaRendererActionInformation interface Media Streaming API , IsVolumeAvailable method"]
+ms.assetid: 6DFDC37A-3304-4CDB-9928-C113D2F64ED0
+keywords:
+- IsVolumeAvailable method Media Streaming API
+- IsVolumeAvailable method Media Streaming API , IMediaRendererActionInformation interface
+- IMediaRendererActionInformation interface Media Streaming API , IsVolumeAvailable method
 topic_type:
 - apiref
 api_name:
 - IMediaRendererActionInformation.IsVolumeAvailable
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaRendererActionInformation::IsVolumeAvailable method
@@ -20,7 +28,7 @@ Retrieves a value that indicates whether the DMR is capable of adjusting the aud
 
 ```C++
 HRESULT IsVolumeAvailable(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IMediaRendererActionInformation**](imediarendereractioninformation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

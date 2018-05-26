@@ -1,7 +1,12 @@
 ---
 title: Direct3D 12 Interop
 description: D3D12 can be used to write componentized applications.
-ms.assetid: '51F7E715-82B6-48D8-A06A-CBBEDF6968F5'
+ms.assetid: 51F7E715-82B6-48D8-A06A-CBBEDF6968F5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 12 Interop
@@ -60,7 +65,7 @@ When the command queue is the unit of sharing, there needs to be a call to the c
 
 ### Sharing sync primitives
 
-The expected pattern for a component which operates on its own devices and/or command queues will be to accept an [**ID3D12Fence**](id3d12fence.md) or shared handle, and UINT64 pair upon beginning its work, which it will wait on, and then a second ID3D12Fence or shared handle, and UINT64 pair which it will signal when all work is complete. This pattern matches the current implementation of both [**IDXGIKeyedMutex**](https://msdn.microsoft.com/library/windows/desktop/ff471338) and the DWM/DXGI flip model synchronization design.
+The expected pattern for a component which operates on its own devices and/or command queues will be to accept an [**ID3D12Fence**](/windows/win32/D3D12/nn-d3d12-id3d12fence?branch=master) or shared handle, and UINT64 pair upon beginning its work, which it will wait on, and then a second ID3D12Fence or shared handle, and UINT64 pair which it will signal when all work is complete. This pattern matches the current implementation of both [**IDXGIKeyedMutex**](https://msdn.microsoft.com/library/windows/desktop/ff471338) and the DWM/DXGI flip model synchronization design.
 
 ### Sharing resources
 

@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientConnection SetFlags method
 description: Is used to differentiate first-time responses from responses due to SoHRequests cached by the enforcers.
-ms.assetid: '2f35bcdf-662c-431f-a39e-a7c758f35603'
-keywords: ["SetFlags method NAP", "SetFlags method NAP , INapEnforcementClientConnection interface", "INapEnforcementClientConnection interface NAP , SetFlags method"]
+ms.assetid: 2f35bcdf-662c-431f-a39e-a7c758f35603
+keywords:
+- SetFlags method NAP
+- SetFlags method NAP , INapEnforcementClientConnection interface
+- INapEnforcementClientConnection interface NAP , SetFlags method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientConnection::SetFlags method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientConnection::SetFlags** method is used to differentiate first-time responses from responses due to SoHRequests cached by the enforcers.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientConnection::SetFlags** method is used to differentiat
 
 ```C++
 HRESULT SetFlags(
-  [in] UINT8 flags
+  [in] UINT8 flags
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT SetFlags(
 *flags* \[in\]
 </dt> <dd>
 
-Flags that determines if the [**SoHResponse**](soh-struct.md) is due to a cached **SoHRequest**. If *flags* has a value of [**freshSoHRequest**](nap-type-constants.md), it is a new request; otherwise it is a cached request.
+Flags that determines if the [**SoHResponse**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) is due to a cached **SoHRequest**. If *flags* has a value of [**freshSoHRequest**](nap-type-constants.md), it is a new request; otherwise it is a cached request.
 
 </dd> </dl>
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,8 +78,8 @@ This value is set by the NapAgent.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -85,9 +93,9 @@ This value is set by the NapAgent.
 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

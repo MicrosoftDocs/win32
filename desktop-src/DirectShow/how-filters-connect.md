@@ -1,7 +1,12 @@
 ---
 Description: How Filters Connect
-ms.assetid: '6a126dd5-00fa-4ea6-b00a-09b7e1246874'
+ms.assetid: 6a126dd5-00fa-4ea6-b00a-09b7e1246874
 title: How Filters Connect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Filters Connect

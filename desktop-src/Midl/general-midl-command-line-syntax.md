@@ -2,7 +2,13 @@
 title: General MIDL Command-line Syntax
 description: The MIDL compiler processes an IDL file and an optional application configuration file (ACF) to generate a set of output files.
 ms.assetid: 1906b374-d0d1-4ec8-9a00-c5228b4c29ca
-keywords: ["command-line reference MIDL , general syntax"]
+keywords:
+- command-line reference MIDL , general syntax
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General MIDL Command-line Syntax

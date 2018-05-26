@@ -1,7 +1,12 @@
 ---
-Description: 'The property proxy for the System.Photo.MaxAperture photo metadata policy.'
-ms.assetid: 'c508cf7d-1106-4a59-bd82-2b788b8e6ce0'
-title: 'System.Photo.MaxAperture Proxy'
+Description: The property proxy for the System.Photo.MaxAperture photo metadata policy.
+ms.assetid: c508cf7d-1106-4a59-bd82-2b788b8e6ce0
+title: System.Photo.MaxAperture Proxy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.MaxAperture Proxy

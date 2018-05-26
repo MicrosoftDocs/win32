@@ -1,8 +1,14 @@
 ---
 title: Installing an LPM
 description: For additional LPMs to function on a system, you must install the LPM on the server computer on which it will function. Note that the Microsoft-provided LPM, Msidlpm.dll, is installed by default with Windows Quality of Service.
-ms.assetid: '90cbbb9e-037a-4e23-a359-89ee8f1248e8'
-keywords: ["Quality of Service QOS , tasks, installing a local policy module"]
+ms.assetid: 90cbbb9e-037a-4e23-a359-89ee8f1248e8
+keywords:
+- Quality of Service QOS , tasks, installing a local policy module
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing an LPM

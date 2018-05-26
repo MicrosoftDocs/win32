@@ -1,14 +1,20 @@
 ---
 title: UserPlayCount Attribute
 description: The UserPlayCount attribute is the number of times the item has been played.
-ms.assetid: '27246bd8-48fc-47df-904a-96ed7dee9813'
-keywords: ["UserPlayCount Attribute Windows Media Player"]
+ms.assetid: 27246bd8-48fc-47df-904a-96ed7dee9813
+keywords:
+- UserPlayCount Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - UserPlayCount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserPlayCount Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

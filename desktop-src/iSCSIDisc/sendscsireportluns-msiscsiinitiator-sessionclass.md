@@ -1,12 +1,17 @@
-﻿---
-Description: 'The SendScsiReportLuns method sends the Report LUN command to the target associated with the specified session.'
-ms.assetid: 'a928d44d-3da3-44ef-ac6c-0fd1a669fa17'
-title: 'SendScsiReportLuns method of the MSIscsiInitiator\_SessionClass class'
+---
+Description: The SendScsiReportLuns method sends the Report LUN command to the target associated with the specified session.
+ms.assetid: a928d44d-3da3-44ef-ac6c-0fd1a669fa17
+title: SendScsiReportLuns method of the MSIscsiInitiator\_SessionClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SendScsiReportLuns method of the MSIscsiInitiator\_SessionClass class
 
-The [**SendScsiReportLuns**](sendscsireportluns.md) method sends the Report LUN command to the target associated with the specified session.
+The [**SendScsiReportLuns**](/windows/previous-versions/Iscsidsc/nf-iscsidsc-sendscsireportluns?branch=master) method sends the Report LUN command to the target associated with the specified session.
 
 ## Syntax
 

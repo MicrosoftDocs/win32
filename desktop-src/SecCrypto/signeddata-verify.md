@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines whether the signatures on signed data in the SignedData object are valid.'
-ms.assetid: '920ac235-0c1a-4b15-9cdd-c7e0c3ea6107'
-title: 'SignedData.Verify method'
+---
+Description: Determines whether the signatures on signed data in the SignedData object are valid.
+ms.assetid: 920ac235-0c1a-4b15-9cdd-c7e0c3ea6107
+title: SignedData.Verify method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SignedData.Verify method

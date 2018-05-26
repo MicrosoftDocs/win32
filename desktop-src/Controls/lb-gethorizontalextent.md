@@ -1,8 +1,9 @@
 ---
 title: LB\_GETHORIZONTALEXTENT message
 description: Gets the width, in pixels, that a list box can be scrolled horizontally (the scrollable width) if the list box has a horizontal scroll bar.
-ms.assetid: '52461724-c06a-436a-ac95-94c5189ba37e'
-keywords: ["LB_GETHORIZONTALEXTENT message Windows Controls"]
+ms.assetid: 52461724-c06a-436a-ac95-94c5189ba37e
+keywords:
+- LB_GETHORIZONTALEXTENT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_GETHORIZONTALEXTENT message
@@ -51,8 +57,8 @@ If the application does not set the horizontal extent of the list box (using [**
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ If the application does not set the horizontal extent of the list box (using [**
 [**LB\_SETHORIZONTALEXTENT**](lb-sethorizontalextent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

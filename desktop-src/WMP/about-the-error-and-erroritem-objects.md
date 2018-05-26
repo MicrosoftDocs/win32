@@ -1,8 +1,29 @@
 ---
 title: About the Error and ErrorItem Objects
 description: About the Error and ErrorItem Objects
-ms.assetid: '187f6835-3101-45db-87bd-930d222165ce'
-keywords: ["Windows Media Player,Error object", "Windows Media Player object model,Error object", "object model,Error object", "Windows Media Player ActiveX control,Error object", "ActiveX control,Error object", "Windows Media Player Mobile ActiveX control,Error object", "Windows Media Player Mobile,Error object", "Error object", "Windows Media Player,ErrorItem object", "Windows Media Player object model,ErrorItem object", "object model,ErrorItem object", "Windows Media Player ActiveX control,ErrorItem object", "ActiveX control,ErrorItem object", "Windows Media Player Mobile ActiveX control,ErrorItem object", "Windows Media Player Mobile,ErrorItem object", "ErrorItem object"]
+ms.assetid: 187f6835-3101-45db-87bd-930d222165ce
+keywords:
+- Windows Media Player,Error object
+- Windows Media Player object model,Error object
+- object model,Error object
+- Windows Media Player ActiveX control,Error object
+- ActiveX control,Error object
+- Windows Media Player Mobile ActiveX control,Error object
+- Windows Media Player Mobile,Error object
+- Error object
+- Windows Media Player,ErrorItem object
+- Windows Media Player object model,ErrorItem object
+- object model,ErrorItem object
+- Windows Media Player ActiveX control,ErrorItem object
+- ActiveX control,ErrorItem object
+- Windows Media Player Mobile ActiveX control,ErrorItem object
+- Windows Media Player Mobile,ErrorItem object
+- ErrorItem object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Error and ErrorItem Objects

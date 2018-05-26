@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'E66C34E2-2540-4BBC-82E4-6B5267D0EA7F'
+---
+Description: .
+ms.assetid: E66C34E2-2540-4BBC-82E4-6B5267D0EA7F
 title: SplDeleteSpoolerPortStart function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SplDeleteSpoolerPortStart function

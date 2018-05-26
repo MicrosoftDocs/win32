@@ -4,17 +4,22 @@ description: SKU ID of CSVLK product-key used to create the Activation Object
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '92d0acaa-1da4-4980-87c7-7c90e95bd9f0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 92d0acaa-1da4-4980-87c7-7c90e95bd9f0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-SPP-CSVLK-Sku-Id attribute AD Schema", "msSPP-CSVLKSkuId attribute AD Schema"]
+keywords:
+- ms-SPP-CSVLK-Sku-Id attribute AD Schema
+- msSPP-CSVLKSkuId attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-SPP-CSVLK-Sku-Id
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-SPP-CSVLK-Sku-Id attribute
@@ -38,7 +43,7 @@ SKU ID of CSVLK product-key used to create the Activation Object
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ SKU ID of CSVLK product-key used to create the Activation Object
 
 
 
- 
+ 
 
- 
+ 
 
 
 

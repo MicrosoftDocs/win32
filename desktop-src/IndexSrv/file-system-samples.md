@@ -1,7 +1,12 @@
 ---
 title: File System Samples
 description: File System Samples
-ms.assetid: 'f005dc7a-cb59-4c61-9b3c-cf5e1215f185'
+ms.assetid: f005dc7a-cb59-4c61-9b3c-cf5e1215f185
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File System Samples

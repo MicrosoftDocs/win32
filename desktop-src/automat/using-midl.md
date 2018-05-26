@@ -1,7 +1,12 @@
 ---
 title: Using MIDL
 description: Files parsed by MIDL are referred to as .IDL files, although they can contain the same syntax elements as .ODL files. The MIDL compiler also compiles scripts written in ODL.
-ms.assetid: '5c98cda0-fb84-43ea-8344-3085b9064b52'
+ms.assetid: 5c98cda0-fb84-43ea-8344-3085b9064b52
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using MIDL
@@ -32,7 +37,7 @@ For details on these options, see the *MIDL Command Line Reference*.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -41,9 +46,9 @@ For details on these options, see the *MIDL Command Line Reference*.
 [Type Libraries and the Object Description Language](type-libraries-and-the-object-description-language.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

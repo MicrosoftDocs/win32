@@ -1,7 +1,12 @@
 ---
 title: Effects
 description: An overview of Direct2D effects.
-ms.assetid: '1446BDA9-AD4C-472C-8F1D-82ABC1880E13'
+ms.assetid: 1446BDA9-AD4C-472C-8F1D-82ABC1880E13
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effects
@@ -14,7 +19,7 @@ A Direct2D effect performs an imaging task, like changing brightness, de-saturat
 
 Each effect creates an internal transform graph made up of individual transforms. Each transform represents a single image operation. The main purpose of a transform is to house the shaders that are executed for each output pixel. These shaders can include pixel shaders, vertex shaders, the blend stage of a GPU, and compute shaders.
 
-Both the [Direct2D](direct2d.direct2d_portal.xml) [built-in effects](built-in-effects.md) and custom effects you can make using the [custom effects API](custom-effects.md) work this way.
+Both the [Direct2D](direct2d.direct2d_portal.xml) [built-in effects](built-in-effects.md) and custom effects you can make using the [custom effects API](custom-effects.md) work this way.
 
 There are a range of [built-in effects](built-in-effects.md) from categories like the ones here. See the [Built-in Effects](built-in-effects.md) section for a full list.
 
@@ -41,24 +46,24 @@ The rest of this topic explains the basics of Direct2D effects, like applying an
 | [Effect Shader Linking](effect-shader-linking.md)<br/>                                                            | Direct2D uses an optimization called effect shader linking which combines multiple effect graph rendering passes into a single pass.<br/>                                               |
 | [Custom effects](custom-effects.md)<br/>                                                                          | Shows you how to write your own custom effects using standard HLSL.<br/>                                                                                                                |
 | [How to load an image into Direct2D Effects using the FilePicker](load-a-id2d1image-using-the-filepicker.md)<br/> | Shows how to use the [**Windows::Storage::Pickers::FileOpenPicker**](https://msdn.microsoft.com/library/windows/apps/br207847) to load an image into Direct2D effects.<br/>                                      |
-| [How to save Direct2D content to an image file](save-direct2d-content-to-an-image-file.md)<br/>                   | This topic shows how to use [**IWICImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880844) to save content in the form of an [**ID2D1Image**](id2d1image.md) to an encoded image file such as JPEG.<br/> |
+| [How to save Direct2D content to an image file](save-direct2d-content-to-an-image-file.md)<br/>                   | This topic shows how to use [**IWICImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880844) to save content in the form of an [**ID2D1Image**](/windows/win32/D2d1/?branch=master) to an encoded image file such as JPEG.<br/> |
 | [How to Apply Effects to Primitives](how-to-apply-effects-to-primitives.md)<br/>                                  | This topic shows how to apply a series of effect to [Direct2D](direct2d.direct2d_portal.xml) and [DirectWrite](direct2d-and-directwrite.md) primitives.<br/>                           |
 | [Controlling Precision and Numerical Clipping in Effect Graphs](precision-and-clipping-in-effect-graphs.md)<br/>  | Applications that render effects using Direct2D must take care to achieve the desired level of quality and predictability with respect to numerical precision. <br/>                    |
 
 
 
- 
+ 
 
 ## Applying an effect to an image
 
 You can use the Direct2D effects API to apply transforms to images.
 
 > [!Note]  
-> This example assumes that you already have [**ID2D1DeviceContext**](id2d1devicecontext.md) and [IWICBitmapSource](https://msdn.microsoft.com/library/windows/desktop/ee719896) objects created. For more information on creating these objects see [How to load an image into Direct2D effects using the FilePicker](load-a-id2d1image-using-the-filepicker.md) and [Devices and Device Contexts](devices-and-device-contexts.md).
+> This example assumes that you already have [**ID2D1DeviceContext**](/windows/win32/D2d1_1/?branch=master) and [IWICBitmapSource](https://msdn.microsoft.com/library/windows/desktop/ee719896) objects created. For more information on creating these objects see [How to load an image into Direct2D effects using the FilePicker](load-a-id2d1image-using-the-filepicker.md) and [Devices and Device Contexts](devices-and-device-contexts.md).
 
- 
+ 
 
-1.  Declare an [**ID2D1Effect**](id2d1effect.md) variable and then create a [bitmap source](bitmap-source.md) effect using the [**ID2DDeviceContext::CreateEffect**](id2d1devicecontext-createeffect.md) method.
+1.  Declare an [**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master) variable and then create a [bitmap source](bitmap-source.md) effect using the [**ID2DDeviceContext::CreateEffect**](/windows/win32/D2d1_1/?branch=master) method.
 
     ```C++
         ComPtr<ID2D1Effect> bitmapSourceEffect;
@@ -68,7 +73,7 @@ You can use the Direct2D effects API to apply transforms to images.
 
     
 
-2.  Set the BitmapSource property to the WIC bitmap source using the [**ID2D1Effect::SetValue**](id2d1properties-setvalue.md).
+2.  Set the BitmapSource property to the WIC bitmap source using the [**ID2D1Effect::SetValue**](/windows/win32/D2d1_1/?branch=master).
 
     ```C++
             DX::ThrowIfFailed(m_bitmapSourceEffect->SetValue(D2D1_BITMAPSOURCE_PROP_WIC_BITMAP_SOURCE, m_wicBitmapSource.Get()));
@@ -76,7 +81,7 @@ You can use the Direct2D effects API to apply transforms to images.
 
     
 
-3.  Declare an [**ID2D1Effect**](id2d1effect.md) variable and then create the [gaussian blur](gaussian-blur.md) effect.
+3.  Declare an [**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master) variable and then create the [gaussian blur](gaussian-blur.md) effect.
 
     ```C++
         ComPtr<ID2D1Effect> gaussianBlurEffect;
@@ -86,7 +91,7 @@ You can use the Direct2D effects API to apply transforms to images.
 
     
 
-4.  Set the input to receive the image from the bitmap source effect. Set the blur amount the [**SetValue**](id2d1properties-setvalue.md) method and the standard deviation property.
+4.  Set the input to receive the image from the bitmap source effect. Set the blur amount the [**SetValue**](/windows/win32/D2d1_1/?branch=master) method and the standard deviation property.
 
     ```C++
         gaussianBlurEffect->SetInputEffect(0, bitmapSourceEffect.Get());
@@ -111,7 +116,7 @@ You can use the Direct2D effects API to apply transforms to images.
 
     
 
-    The [**DrawImage**](id2d1devicecontext-drawimage.md) method must be called between the [**ID2DDeviceContext::BeginDraw**](id2d1rendertarget-begindraw.md) and [**EndDraw**](id2d1rendertarget-enddraw.md) calls like other Direct2D render operations. **DrawImage** can take an image or the output of an effect and render it to the target surface.
+    The [**DrawImage**](/windows/win32/D2d1_1/?branch=master) method must be called between the [**ID2DDeviceContext::BeginDraw**](/windows/win32/d2d1/?branch=master) and [**EndDraw**](/windows/win32/d2d1/?branch=master) calls like other Direct2D render operations. **DrawImage** can take an image or the output of an effect and render it to the target surface.
 
 ## Spatial Transforms
 
@@ -120,7 +125,7 @@ Direct2D provides built-in effects that can transform images in 2D and 3D space,
 > [!Note]  
 > Anisotropic mode generates mipmaps when scaling, however, if you set the **Cached** property to true on the effects that are input to the transform the mipmaps won't be generated every time for sufficiently small images.
 
- 
+ 
 
 
 ```C++
@@ -151,7 +156,7 @@ This use of the 2D affine transform effect rotates the bitmap counterclockwise s
 
 
 
- 
+ 
 
 ## Compositing images
 
@@ -209,7 +214,7 @@ This code takes the image and alters the color as shown in the example images he
 
 
 
- 
+ 
 
 See the [color built-in effects](how-to-create-a-solid-color-brush.md) section for more info.
 
@@ -248,7 +253,7 @@ Here is the result.
 
 ![shadow effect output.](images/effect-overview-shadow.png)
 
-Effects take [**ID2D1Image**](id2d1image.md) objects as input. You can use an [**ID2D1Bitmap**](id2d1bitmap.md) because the interface is derived from **ID2D1Image**. You can also use the [**ID2D1Effect::GetOutput**](id2d1effect-getoutput.md) to get the output of an [**ID2D1Effect**](id2d1effect.md) object as an **ID2D1Image** or use the **SetInputEffect** method, which converts the output for you. In most cases an effect graph consists of **ID2D1Effect** objects directly chained together, which makes it easy to apply multiple effects to an image to create compelling visuals.
+Effects take [**ID2D1Image**](/windows/win32/D2d1/?branch=master) objects as input. You can use an [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master) because the interface is derived from **ID2D1Image**. You can also use the [**ID2D1Effect::GetOutput**](/windows/win32/D2d1_1/?branch=master) to get the output of an [**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master) object as an **ID2D1Image** or use the **SetInputEffect** method, which converts the output for you. In most cases an effect graph consists of **ID2D1Effect** objects directly chained together, which makes it easy to apply multiple effects to an image to create compelling visuals.
 
 See [How to apply effects to primitives](how-to-apply-effects-to-primitives.md) for more info.
 
@@ -262,9 +267,9 @@ See [How to apply effects to primitives](how-to-apply-effects-to-primitives.md) 
 [Built-in Effects](built-in-effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

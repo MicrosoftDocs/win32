@@ -1,7 +1,12 @@
 ---
 title: WinINet Reference
 description: The following elements are part of the WinINet API.
-ms.assetid: 'dd2f8246-ea82-49cb-973f-157fb77c8c08'
+ms.assetid: dd2f8246-ea82-49cb-973f-157fb77c8c08
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinINet Reference

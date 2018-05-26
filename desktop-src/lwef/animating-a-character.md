@@ -1,7 +1,12 @@
 ---
 title: Animating a Character
 description: Animating a Character
-ms.assetid: 'ed42de30-acac-41e8-bacb-4caaff254724'
+ms.assetid: ed42de30-acac-41e8-bacb-4caaff254724
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Animating a Character

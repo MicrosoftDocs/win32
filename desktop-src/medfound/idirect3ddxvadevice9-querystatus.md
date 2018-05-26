@@ -1,7 +1,12 @@
-﻿---
-Description: 'Queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.'
-ms.assetid: '8a4c3173-5911-49ec-8cb8-e30f96a4f1c9'
-title: 'IDirect3DDXVADevice9::QueryStatus method'
+---
+Description: Queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.
+ms.assetid: 8a4c3173-5911-49ec-8cb8-e30f96a4f1c9
+title: IDirect3DDXVADevice9QueryStatus method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirect3DDXVADevice9::QueryStatus method

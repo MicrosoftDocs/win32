@@ -4,13 +4,16 @@ description: Applies a virtual machine snapshot to the virtual machine that it w
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '65689801-c739-49a7-81dd-7654d6b1ae9f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 65689801-c739-49a7-81dd-7654d6b1ae9f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ApplySnapshot method", "ApplySnapshot method, Msvm_VirtualSystemSnapshotService class", "Msvm_VirtualSystemSnapshotService class, ApplySnapshot method"]
+keywords:
+- ApplySnapshot method
+- ApplySnapshot method, Msvm_VirtualSystemSnapshotService class
+- Msvm_VirtualSystemSnapshotService class, ApplySnapshot method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ApplySnapshot method of the Msvm\_VirtualSystemSnapshotService class
@@ -30,8 +36,8 @@ Applies a virtual machine snapshot to the virtual machine that it was created fr
 
 ```mof
 uint32 ApplySnapshot(
-  [in]  CIM_VirtualSystemSettingData REF Snapshot,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_VirtualSystemSettingData REF Snapshot,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -82,16 +88,16 @@ The possible return values are:
 **Invalid Type** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -101,7 +107,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -115,9 +121,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemSnapshotService**](msvm-virtualsystemsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxDeviceIds configuration collection is used by a fax client application to enumerate the ordered fax device IDs associated with a FaxOutboundRoutingGroup object.'
-ms.assetid: 'a1906ca1-0025-464a-bb60-752b25c802e7'
+---
+Description: The FaxDeviceIds configuration collection is used by a fax client application to enumerate the ordered fax device IDs associated with a FaxOutboundRoutingGroup object.
+ms.assetid: a1906ca1-0025-464a-bb60-752b25c802e7
 title: FaxDeviceIds object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceIds object
@@ -77,7 +82,7 @@ To create a **FaxDeviceIds** object in C++, call the [**DeviceIds**](-mfax-faxou
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxDeviceIds**](-mfax-faxdeviceids-cpp.md)
+[**IFaxDeviceIds**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceids?branch=master)
 </dt> </dl>
 
  

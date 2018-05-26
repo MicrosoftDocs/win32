@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.MaxAperture property.'
-ms.assetid: '9d12d265-0b0a-44d9-bbf6-ca7d748382ee'
-title: 'System.Photo.MaxAperture Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.MaxAperture property.
+ms.assetid: 9d12d265-0b0a-44d9-bbf6-ca7d748382ee
+title: System.Photo.MaxAperture Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.MaxAperture Photo Metadata Policy

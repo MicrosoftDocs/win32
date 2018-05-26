@@ -1,7 +1,12 @@
-﻿---
-Description: 'Call the SetStatus method to pause, resume, cancel, or restart a specified fax job.'
-ms.assetid: '32398e50-9771-46fe-b762-72662fda5a4e'
-title: 'FaxJob.SetStatus method'
+---
+Description: Call the SetStatus method to pause, resume, cancel, or restart a specified fax job.
+ms.assetid: 32398e50-9771-46fe-b762-72662fda5a4e
+title: FaxJob.SetStatus method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.SetStatus method
@@ -106,10 +111,10 @@ You can use the [**QueueStatus**](-mfax-ifaxjob-get-queuestatus-vb.md) property 
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> <dt>
 
 [**QueueStatus**](-mfax-ifaxjob-get-queuestatus-vb.md)

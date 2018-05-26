@@ -1,12 +1,17 @@
 ---
-Description: 'The EndFlush method ends a flush operation. Implements the IPin::EndFlush method.'
-ms.assetid: 'd4110eb4-26c5-4312-b33f-4af31e1bf2ae'
-title: 'CBaseInputPin.EndFlush method'
+Description: The EndFlush method ends a flush operation. Implements the IPinEndFlush method.
+ms.assetid: d4110eb4-26c5-4312-b33f-4af31e1bf2ae
+title: CBaseInputPin.EndFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin.EndFlush method
 
-The `EndFlush` method ends a flush operation. Implements the [**IPin::EndFlush**](ipin-endflush.md) method.
+The `EndFlush` method ends a flush operation. Implements the [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) method.
 
 ## Syntax
 
@@ -34,7 +39,7 @@ The derived class must override this method and perform the following steps:
 1.  Free any buffered data and wait for all queued samples to be discarded.
 2.  Clear any pending [**EC\_COMPLETE**](ec-complete.md) notifications.
 3.  Call the base class method.
-4.  Call [**IPin::EndFlush**](ipin-endflush.md) on downstream input pins. If the pin has not yet delivered any media samples downstream, you can skip this step. If your output pins derive from the [**CBaseOutputPin**](cbaseoutputpin.md) class, you can call the [**CBaseOutputPin::DeliverEndFlush**](cbaseoutputpin-deliverendflush.md) method.
+4.  Call [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) on downstream input pins. If the pin has not yet delivered any media samples downstream, you can skip this step. If your output pins derive from the [**CBaseOutputPin**](cbaseoutputpin.md) class, you can call the [**CBaseOutputPin::DeliverEndFlush**](cbaseoutputpin-deliverendflush.md) method.
 
 ## Requirements
 
@@ -54,9 +59,9 @@ The derived class must override this method and perform the following steps:
 [**CBaseInputPin Class**](cbaseinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

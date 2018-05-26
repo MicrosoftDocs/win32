@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines swap effects.'
-ms.assetid: '522a5f71-3ad9-4cfc-a899-e25b9b721b1b'
+---
+Description: Defines swap effects.
+ms.assetid: 522a5f71-3ad9-4cfc-a899-e25b9b721b1b
 title: D3DSWAPEFFECT enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DSWAPEFFECT enumeration
@@ -31,9 +36,9 @@ typedef enum D3DSWAPEFFECT {
 <span id="D3DSWAPEFFECT_DISCARD"></span><span id="d3dswapeffect_discard"></span>**D3DSWAPEFFECT\_DISCARD**
 </dt> <dd>
 
-When a swap chain is created with a swap effect of D3DSWAPEFFECT\_FLIP or D3DSWAPEFFECT\_COPY, the runtime will guarantee that an [**IDirect3DDevice9::Present**](idirect3ddevice9--present.md) operation will not affect the content of any of the back buffers. Unfortunately, meeting this guarantee can involve substantial video memory or processing overheads, especially when implementing flip semantics for a windowed swap chain or copy semantics for a full-screen swap chain. An application may use the D3DSWAPEFFECT\_DISCARD swap effect to avoid these overheads and to enable the display driver to select the most efficient presentation technique for the swap chain. This is also the only swap effect that may be used when specifying a value other than D3DMULTISAMPLE\_NONE for the MultiSampleType member of [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md).
+When a swap chain is created with a swap effect of D3DSWAPEFFECT\_FLIP or D3DSWAPEFFECT\_COPY, the runtime will guarantee that an [**IDirect3DDevice9::Present**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master) operation will not affect the content of any of the back buffers. Unfortunately, meeting this guarantee can involve substantial video memory or processing overheads, especially when implementing flip semantics for a windowed swap chain or copy semantics for a full-screen swap chain. An application may use the D3DSWAPEFFECT\_DISCARD swap effect to avoid these overheads and to enable the display driver to select the most efficient presentation technique for the swap chain. This is also the only swap effect that may be used when specifying a value other than D3DMULTISAMPLE\_NONE for the MultiSampleType member of [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md).
 
-Like a swap chain that uses D3DSWAPEFFECT\_FLIP, a swap chain that uses D3DSWAPEFFECT\_DISCARD might include more than one back buffer, any of which may be accessed using [**IDirect3DDevice9::GetBackBuffer**](idirect3ddevice9--getbackbuffer.md) or [**IDirect3DSwapChain9::GetBackBuffer**](idirect3dswapchain9--getbackbuffer.md). The swap chain is best envisaged as a queue in which 0 always indexes the back buffer that will be displayed by the next Present operation and from which buffers are discarded when they have been displayed.
+Like a swap chain that uses D3DSWAPEFFECT\_FLIP, a swap chain that uses D3DSWAPEFFECT\_DISCARD might include more than one back buffer, any of which may be accessed using [**IDirect3DDevice9::GetBackBuffer**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getbackbuffer?branch=master) or [**IDirect3DSwapChain9::GetBackBuffer**](/windows/win32/d3d9helper/nf-d3d9-idirect3dswapchain9-getbackbuffer?branch=master). The swap chain is best envisaged as a queue in which 0 always indexes the back buffer that will be displayed by the next Present operation and from which buffers are discarded when they have been displayed.
 
 An application that uses this swap effect cannot make any assumptions about the contents of a discarded back buffer and should therefore update an entire back buffer before invoking a Present operation that would display it. Although this is not enforced, the debug version of the runtime will overwrite the contents of discarded back buffers with random data to enable developers to verify that their applications are updating the entire back buffer surfaces correctly.
 
@@ -78,7 +83,7 @@ Use a dedicated area of video memory that can be overlayed on the primary surfac
 Designates when an application is adopting flip mode, during which time an application's frame is passed instead of copied to the Desktop Window Manager(DWM) for composition when the application is presenting in windowed mode. Flip mode allows an application to more efficiently use memory bandwidth as well as enabling an application to take advantage of full-screen-present statistics. Flip mode does not affect full-screen behavior. A sample application that uses [D3DPRESENT\_FORCEIMMEDIATE](d3dpresent.md) and D3DSWAPEFFECT\_FLIPEX is the [D3D9ExFlipEx sample on the MSDN Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=179115).
 
 > [!Note]  
-> If you create a swap chain with D3DSWAPEFFECT\_FLIPEX, you can't override the **hDeviceWindow** member of the [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md) structure when you present a new frame for display. That is, you must pass **NULL** to the *hDestWindowOverride* parameter of [**IDirect3DDevice9Ex::PresentEx**](idirect3ddevice9ex-presentex.md) to instruct the runtime to use the **hDeviceWindow** member of **D3DPRESENT\_PARAMETERS** for the presentation.
+> If you create a swap chain with D3DSWAPEFFECT\_FLIPEX, you can't override the **hDeviceWindow** member of the [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md) structure when you present a new frame for display. That is, you must pass **NULL** to the *hDestWindowOverride* parameter of [**IDirect3DDevice9Ex::PresentEx**](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9ex-presentex?branch=master) to instruct the runtime to use the **hDeviceWindow** member of **D3DPRESENT\_PARAMETERS** for the presentation.
 
  
 
@@ -108,8 +113,8 @@ The state of the back buffer after a call to Present is well-defined by each of 
 Applications that use D3DSWAPEFFECT\_FLIP or D3DSWAPEFFECT\_DISCARD should not expect full-screen destination alpha to work. This means that the D3DRS\_DESTBLEND render state will not work as expected because full-screen swap chains with these swap effects do not have an explicit pixel format from the driver's point of view. The driver infers that they should take on the display format, which does not have an alpha channel. To work around this, take the following steps:
 
 -   Use D3DSWAPEFFECT\_COPY.
--   Check the D3DCAPS3\_ALPHA\_FULLSCREEN\_FLIP\_OR\_DISCARD flag in the Caps3 member of the [**D3DCAPS9**](d3dcaps9.md) structure. This flag indicates whether the driver can do alpha blending when D3DSWAPEFFECT\_FLIP or D3DSWAPEFFECT\_DISCARD is used.
--   Applications using flip mode swap effect (D3DSWAPEFFECT\_FLIPEX) should call [**PresentEx**](idirect3ddevice9ex-presentex.md) after a window resize or region change to ensure that the display content is updated.
+-   Check the D3DCAPS3\_ALPHA\_FULLSCREEN\_FLIP\_OR\_DISCARD flag in the Caps3 member of the [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure. This flag indicates whether the driver can do alpha blending when D3DSWAPEFFECT\_FLIP or D3DSWAPEFFECT\_DISCARD is used.
+-   Applications using flip mode swap effect (D3DSWAPEFFECT\_FLIPEX) should call [**PresentEx**](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9ex-presentex?branch=master) after a window resize or region change to ensure that the display content is updated.
 
 An invisible window cannot receive user-mode events; furthermore, an invisible-fullscreen window will interfere with the presentation of another applications' windowed-mode window. Therefore, each application needs to ensure that a device window is visible when a swapchain is presented in fullscreen mode.
 
@@ -130,7 +135,7 @@ An invisible window cannot receive user-mode events; furthermore, an invisible-f
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::Reset**](idirect3ddevice9--reset.md)
+[**IDirect3DDevice9::Reset**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-reset?branch=master)
 </dt> </dl>
 
  

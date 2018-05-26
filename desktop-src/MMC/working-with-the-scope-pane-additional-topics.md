@@ -4,11 +4,15 @@ description: Working with the Scope Pane Additional Topics
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b62bad28-fc94-4513-b481-3a92263b1361'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b62bad28-fc94-4513-b481-3a92263b1361
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["working with the scope pane MMC , additional topics"]
+keywords:
+- working with the scope pane MMC , additional topics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with the Scope Pane: Additional Topics

@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.LogFileName property
 description: Retrieves or sets the name of a log file to use as the source of counter values displayed in the System Monitor.
-ms.assetid: 'a93d1c98-4875-4d8e-940c-4443d1e585e6'
-keywords: ["LogFileName property SysMon", "LogFileName property SysMon , SystemMonitor class", "SystemMonitor class SysMon , LogFileName property"]
+ms.assetid: a93d1c98-4875-4d8e-940c-4443d1e585e6
+keywords:
+- LogFileName property SysMon
+- LogFileName property SysMon , SystemMonitor class
+- SystemMonitor class SysMon , LogFileName property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.LogFileName property
@@ -20,7 +28,7 @@ Retrieves or sets the name of a log file to use as the source of counter values 
 > [!Note]  
 > This property has been made obsolete by the [**LogFiles**](systemmonitor-logfiles.md) property.
 
- 
+ 
 
 This property is read-only.
 
@@ -48,7 +56,7 @@ Path to the log file. You can specify an absolute, relative, or UNC path. The lo
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,8 +72,8 @@ You must use the Logman.exe tool or the Perfmon.msc MMC snap-in to generate the 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -80,9 +88,9 @@ You must use the Logman.exe tool or the Perfmon.msc MMC snap-in to generate the 
 [**SystemMonitor.DataSourceType**](systemmonitor-datasourcetype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

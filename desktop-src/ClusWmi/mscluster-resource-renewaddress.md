@@ -4,13 +4,16 @@ description: Renews the IPv4 address DHCP lease.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c3f98ba9-cf73-4716-8a57-73bc5fb9b410'
-ms.prod: 'windows-server-dev'
+ms.assetid: c3f98ba9-cf73-4716-8a57-73bc5fb9b410
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RenewAddress method", "RenewAddress method, MSCluster_Resource class", "MSCluster_Resource class, RenewAddress method"]
+keywords:
+- RenewAddress method
+- RenewAddress method, MSCluster_Resource class
+- MSCluster_Resource class, RenewAddress method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RenewAddress method of the MSCluster\_Resource class
@@ -49,7 +55,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Mdhcp.h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
@@ -64,9 +70,9 @@ This method does not return a value.
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

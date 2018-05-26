@@ -1,7 +1,12 @@
 ---
-Description: 'The following structures are used with the RSM API:'
-ms.assetid: '73c24576-462e-4650-8813-08eec9694aed'
+Description: The following structures are used with the RSM API
+ms.assetid: 73c24576-462e-4650-8813-08eec9694aed
 title: Removable Storage Manager Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Removable Storage Manager Structures
@@ -10,26 +15,26 @@ title: Removable Storage Manager Structures
 
 The following structures are used with the RSM API:
 
--   [**MediaLabelInfo**](medialabelinfo.md)
--   [**NTMS\_ALLOCATION\_INFORMATION**](ntms-allocation-information.md)
--   [**NTMS\_CHANGERINFORMATION**](ntms-changerinformation.md)
--   [**NTMS\_CHANGERTYPEINFORMATION**](ntms-changertypeinformation.md)
--   [**NTMS\_COMPUTERINFORMATION**](ntms-computerinformation.md)
--   [**NTMS\_DRIVEINFORMATION**](ntms-driveinformation.md)
--   [**NTMS\_DRIVETYPEINFORMATION**](ntms-drivetypeinformation.md)
--   [**NTMS\_IEDOORINFORMATION**](ntms-iedoorinformation.md)
--   [**NTMS\_IEPORTINFORMATION**](ntms-ieportinformation.md)
--   [**NTMS\_LIBRARYINFORMATION**](ntms-libraryinformation.md)
--   [**NTMS\_LIBREQUESTINFORMATION**](ntms-librequestinformation.md)
--   [**NTMS\_LMIDINFORMATION**](ntms-lmidinformation.md)
--   [**NTMS\_MEDIAPOOLINFORMATION**](ntms-mediapoolinformation.md)
--   [**NTMS\_MEDIATYPEINFORMATION**](ntms-mediatypeinformation.md)
--   [**NTMS\_NOTIFICATIONINFORMATION**](ntms-notificationinformation.md)
--   [**NTMS\_OBJECTINFORMATION**](ntms-objectinformation.md)
--   [**NTMS\_OPREQUESTINFORMATION**](ntms-oprequestinformation.md)
--   [**NTMS\_PARTITIONINFORMATION**](ntms-partitioninformation.md)
--   [**NTMS\_PMIDINFORMATION**](ntms-pmidinformation.md)
--   [**NTMS\_STORAGESLOTINFORMATION**](ntms-storageslotinformation.md)
+-   [**MediaLabelInfo**](/windows/win32/NtmsMli/ns-ntmsmli-medialabelinfo?branch=master)
+-   [**NTMS\_ALLOCATION\_INFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_allocation_information?branch=master)
+-   [**NTMS\_CHANGERINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_changerinformationa?branch=master)
+-   [**NTMS\_CHANGERTYPEINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_changertypeinformationa?branch=master)
+-   [**NTMS\_COMPUTERINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_computerinformation?branch=master)
+-   [**NTMS\_DRIVEINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_driveinformationa?branch=master)
+-   [**NTMS\_DRIVETYPEINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_drivetypeinformationa?branch=master)
+-   [**NTMS\_IEDOORINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_iedoorinformation?branch=master)
+-   [**NTMS\_IEPORTINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_ieportinformation?branch=master)
+-   [**NTMS\_LIBRARYINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_libraryinformation?branch=master)
+-   [**NTMS\_LIBREQUESTINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_librequestinformationa?branch=master)
+-   [**NTMS\_LMIDINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_lmidinformation?branch=master)
+-   [**NTMS\_MEDIAPOOLINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_mediapoolinformation?branch=master)
+-   [**NTMS\_MEDIATYPEINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_mediatypeinformation?branch=master)
+-   [**NTMS\_NOTIFICATIONINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_notificationinformation?branch=master)
+-   [**NTMS\_OBJECTINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_objectinformationa?branch=master)
+-   [**NTMS\_OPREQUESTINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_oprequestinformationa?branch=master)
+-   [**NTMS\_PARTITIONINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_partitioninformationa?branch=master)
+-   [**NTMS\_PMIDINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_pmidinformationa?branch=master)
+-   [**NTMS\_STORAGESLOTINFORMATION**](/windows/win32/Ntmsapi/ns-ntmsapi-_ntms_storageslotinformation?branch=master)
 
  
 

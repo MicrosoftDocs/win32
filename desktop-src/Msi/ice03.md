@@ -1,7 +1,12 @@
-﻿---
-Description: 'ICE03 validates the data types and foreign keys based on the \_Validation table and the database tables in the .msi file.'
-ms.assetid: 'e9be1c09-8468-4956-9aa0-12383ade4718'
+---
+Description: ICE03 validates the data types and foreign keys based on the \_Validation table and the database tables in the .msi file.
+ms.assetid: e9be1c09-8468-4956-9aa0-12383ade4718
 title: ICE03
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE03

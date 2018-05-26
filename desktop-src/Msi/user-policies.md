@@ -1,7 +1,12 @@
-﻿---
-Description: 'User system policies used with the Windows Installer.'
-ms.assetid: '74e940a1-dc7c-4ea3-ab62-d118204dac3e'
+---
+Description: User system policies used with the Windows Installer.
+ms.assetid: 74e940a1-dc7c-4ea3-ab62-d118204dac3e
 title: User Policies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Policies

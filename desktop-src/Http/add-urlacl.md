@@ -1,14 +1,20 @@
 ---
 title: add urlacl
 description: Reserves the specified URL for non-administrator users and accounts.
-ms.assetid: '5d89dec3-26e6-4db8-b4cc-e9b933ac60c5'
-keywords: ["add urlacl HTTP"]
+ms.assetid: 5d89dec3-26e6-4db8-b4cc-e9b933ac60c5
+keywords:
+- add urlacl HTTP
 topic_type:
 - apiref
 api_name:
 - add urlacl
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # add urlacl

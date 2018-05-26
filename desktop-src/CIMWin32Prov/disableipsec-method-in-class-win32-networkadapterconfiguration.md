@@ -1,15 +1,18 @@
 ---
-Description: 'The DisableIPSec WMI class method is used to disable Internet Protocol security (IPsec) on this TCP/IP-enabled network adapter.'
+Description: The DisableIPSec WMI class method is used to disable Internet Protocol security (IPsec) on this TCP/IP-enabled network adapter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6fff2721-1ee2-42b4-bbf9-fd36b97318e3'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6fff2721-1ee2-42b4-bbf9-fd36b97318e3
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'DisableIPSec method of the Win32\_NetworkAdapterConfiguration class'
+title: DisableIPSec method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DisableIPSec method of the Win32\_NetworkAdapterConfiguration class
@@ -382,7 +385,7 @@ DHCP not enabled on the adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -415,8 +418,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -442,9 +445,9 @@ Next
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

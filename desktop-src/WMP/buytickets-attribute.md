@@ -1,14 +1,20 @@
 ---
 title: BuyTickets Attribute
 description: The BuyTickets attribute is a PARAM value for use in commercial interactions.
-ms.assetid: '448f9a79-61f6-462e-993b-def88c90d067'
-keywords: ["BuyTickets Attribute Windows Media Player"]
+ms.assetid: 448f9a79-61f6-462e-993b-def88c90d067
+keywords:
+- BuyTickets Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BuyTickets
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BuyTickets Attribute
@@ -43,9 +49,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

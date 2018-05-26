@@ -1,7 +1,12 @@
-﻿---
+---
 Description: VMR Modes of Operation
-ms.assetid: '98244af1-5934-4d1c-b9c3-7a414b065fe7'
+ms.assetid: 98244af1-5934-4d1c-b9c3-7a414b065fe7
 title: VMR Modes of Operation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMR Modes of Operation

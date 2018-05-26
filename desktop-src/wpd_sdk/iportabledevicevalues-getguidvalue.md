@@ -1,7 +1,12 @@
 ---
-Description: 'The GetGuidValue method retrieves a GUID value (type VT\_CLSID) specified by a key.'
-ms.assetid: '1cfa75e8-2c3b-4893-954e-dae25a6b8220'
-title: 'IPortableDeviceValues::GetGuidValue method'
+Description: The GetGuidValue method retrieves a GUID value (type VT\_CLSID) specified by a key.
+ms.assetid: 1cfa75e8-2c3b-4893-954e-dae25a6b8220
+title: IPortableDeviceValuesGetGuidValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetGuidValue method
@@ -13,8 +18,8 @@ The **GetGuidValue** method retrieves a **GUID** value (type VT\_CLSID) specifie
 
 ```C++
 HRESULT GetGuidValue(
-  [in]  REFPROPERTYKEY key,
-  [out] GUID           *pValue
+  [in]  REFPROPERTYKEY key,
+  [out] GUID           *pValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -85,9 +90,9 @@ For an example of how to use this method, see [Retrieving Supported Service Meth
 [Retrieving the Rendering Capabilities Supported by a Device](retrieving-the-rendering-capabilities-supported-by-a-device.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

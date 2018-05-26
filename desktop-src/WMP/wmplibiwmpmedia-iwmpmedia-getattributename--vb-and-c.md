@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia getAttributeName method
 description: The getAttributeName method returns the name of the attribute corresponding to the specified index.
-ms.assetid: 'd2496484-34cc-4222-9bc3-1d3ebb9a4173'
-keywords: ["getAttributeName method Windows Media Player", "getAttributeName method Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , getAttributeName method"]
+ms.assetid: d2496484-34cc-4222-9bc3-1d3ebb9a4173
+keywords:
+- getAttributeName method Windows Media Player
+- getAttributeName method Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , getAttributeName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::getAttributeName method
@@ -158,9 +166,9 @@ attributeNames.Lines = attInfo</code></pre></td>
 [**IWMPMedia.getItemInfo (VB and C#)**](wmplibiwmpmedia-iwmpmedia-getiteminfo--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

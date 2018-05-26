@@ -4,10 +4,13 @@ description: The Computer Management snap-in can be retargeted by the user.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'aebc08ae-6a89-4370-b31c-9e88ba172a40'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: aebc08ae-6a89-4370-b31c-9e88ba172a40
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Retargeting the Computer Management Snap-in

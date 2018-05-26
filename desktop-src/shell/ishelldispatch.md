@@ -1,6 +1,11 @@
-﻿---
-Description: 'Represents an object in the Shell.'
+---
+Description: Represents an object in the Shell.
 title: IShellDispatch object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch object

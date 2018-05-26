@@ -4,17 +4,20 @@ description: The Active Directory router component populates an ADSI provider ta
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd5438059-1d98-44af-aeac-a3d987990222'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d5438059-1d98-44af-aeac-a3d987990222
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI Component Interaction
 
 The Active Directory router component populates an ADSI provider table from the installed ADSI providers listed in the registry when it receives the first request from the client application. For more information about the Registry, see [Installing the Example Provider Component](installing-the-example-provider-component.md).
 
-Operations that make a request from a directory for a pointer to an interface on an Active Directory object come through a function (**GetObject** in Visual Basic or [**ADsOpenObject**](adsopenobject.md) or [**ADsGetObject**](adsgetobject.md) in C or C++), or an interface method ( [**IADsContainer::GetObject**](iadscontainer-getobject.md)). In the following figure, the ADSI client application passes such a bind request to the ADSI router component (1). The router component identifies the ProgID for the provider from the first part of the ADsPath and uses [**CLSIDFromProgID**](_com_clsidfromprogid) to find the matching CLSID in the registry (2) and loads the proper provider component (3).
+Operations that make a request from a directory for a pointer to an interface on an Active Directory object come through a function (**GetObject** in Visual Basic or [**ADsOpenObject**](/windows/win32/Adshlp/nf-adshlp-adsopenobject?branch=master) or [**ADsGetObject**](/windows/win32/Adshlp/nf-adshlp-adsgetobject?branch=master) in C or C++), or an interface method ( [**IADsContainer::GetObject**](/windows/win32/Iads/nf-iads-iadscontainer-getobject?branch=master)). In the following figure, the ADSI client application passes such a bind request to the ADSI router component (1). The router component identifies the ProgID for the provider from the first part of the ADsPath and uses [**CLSIDFromProgID**](_com_clsidfromprogid) to find the matching CLSID in the registry (2) and loads the proper provider component (3).
 
 ![adsi component interactions in the example provider](images/dscspr.png)
 

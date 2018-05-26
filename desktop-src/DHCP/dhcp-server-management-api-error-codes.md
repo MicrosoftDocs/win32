@@ -1,7 +1,7 @@
 ---
 title: DHCP Server Management API Error Codes
 description: The following error codes are returned by DHCP Server Management API functions.
-ms.assetid: '6370313f-d7db-4ff1-b0e0-7fa47474facb'
+ms.assetid: 6370313f-d7db-4ff1-b0e0-7fa47474facb
 topic_type:
 - apiref
 api_name:
@@ -119,6 +119,11 @@ api_location:
 - Dhcpsapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DHCP Server Management API Error Codes
@@ -1077,7 +1082,7 @@ The specified IP address range is not present in Active Directory.
 
 
 
-Windows 7 or later: This class cannot be deleted.
+Windows 7 or later: This class cannot be deleted.
 
 
 </dt> </dl> </dd> <dt>
@@ -1090,7 +1095,7 @@ Windows 7 or later: This class cannot be deleted.
 
 
 
-Windows 7 or later: The given subnet prefix is invalid. It represents either a non-unicast or link local address range.
+Windows 7 or later: The given subnet prefix is invalid. It represents either a non-unicast or link local address range.
 
 
 </dt> </dl> </dd> <dt>
@@ -1103,7 +1108,7 @@ Windows 7 or later: The given subnet prefix is invalid. It represents either a n
 
 
 
-Windows 7 or later: The given delay value is invalid. The valid value is from 0 to 1000.
+Windows 7 or later: The given delay value is invalid. The valid value is from 0 to 1000.
 
 
 </dt> </dl> </dd> <dt>
@@ -1116,7 +1121,7 @@ Windows 7 or later: The given delay value is invalid. The valid value is from 0 
 
 
 
-Windows 7 or later: Address or Address pattern is already contained in one of the list.
+Windows 7 or later: Address or Address pattern is already contained in one of the list.
 
 
 </dt> </dl> </dd> <dt>
@@ -1129,7 +1134,7 @@ Windows 7 or later: Address or Address pattern is already contained in one of th
 
 
 
-Windows 7 or later: Address to be added to Deny list or to be deleted from allow list, has an associated reservation.
+Windows 7 or later: Address to be added to Deny list or to be deleted from allow list, has an associated reservation.
 
 
 </dt> </dl> </dd> <dt>
@@ -1142,7 +1147,7 @@ Windows 7 or later: Address to be added to Deny list or to be deleted from allow
 
 
 
-Windows 7 or later: Address or Address pattern is not contained in either list.
+Windows 7 or later: Address or Address pattern is not contained in either list.
 
 
 </dt> </dl> </dd> <dt>
@@ -1155,7 +1160,7 @@ Windows 7 or later: Address or Address pattern is not contained in either list.
 
 
 
-Windows 7 or later: This Hardware Type is already exempt.
+Windows 7 or later: This Hardware Type is already exempt.
 
 
 </dt> </dl> </dd> <dt>
@@ -1168,7 +1173,7 @@ Windows 7 or later: This Hardware Type is already exempt.
 
 
 
-Windows 7 or later: You are trying to delete an undefined Hardware Type.
+Windows 7 or later: You are trying to delete an undefined Hardware Type.
 
 
 </dt> </dl> </dd> <dt>
@@ -1181,7 +1186,7 @@ Windows 7 or later: You are trying to delete an undefined Hardware Type.
 
 
 
-Windows 7 or later: Conflict in types for the same option on Host and Added DHCP Servers.
+Windows 7 or later: Conflict in types for the same option on Host and Added DHCP Servers.
 
 
 </dt> </dl> </dd> <dt>
@@ -1194,7 +1199,7 @@ Windows 7 or later: Conflict in types for the same option on Host and Added DHCP
 
 
 
-Windows 8 or later: The parent expression specified does not exist.
+Windows 8 or later: The parent expression specified does not exist.
 
 
 </dt> </dl> </dd> <dt>
@@ -1207,7 +1212,7 @@ Windows 8 or later: The parent expression specified does not exist.
 
 
 
-Windows 8 or later: The DHCP server policy already exists.
+Windows 8 or later: The DHCP server policy already exists.
 
 
 </dt> </dl> </dd> <dt>
@@ -1220,7 +1225,7 @@ Windows 8 or later: The DHCP server policy already exists.
 
 
 
-Windows 8 or later: The DHCP server policy range specified already exists in the given scope.
+Windows 8 or later: The DHCP server policy range specified already exists in the given scope.
 
 
 </dt> </dl> </dd> <dt>
@@ -1233,7 +1238,7 @@ Windows 8 or later: The DHCP server policy range specified already exists in the
 
 
 
-Windows 8 or later: The DHCP server policy range specified is invalid or does not match the given subnet.
+Windows 8 or later: The DHCP server policy range specified is invalid or does not match the given subnet.
 
 
 </dt> </dl> </dd> <dt>
@@ -1246,7 +1251,7 @@ Windows 8 or later: The DHCP server policy range specified is invalid or does no
 
 
 
-Windows 8 or later: DHCP server policy ranges can only be added to scope level policies.
+Windows 8 or later: DHCP server policy ranges can only be added to scope level policies.
 
 
 </dt> </dl> </dd> <dt>
@@ -1259,7 +1264,7 @@ Windows 8 or later: DHCP server policy ranges can only be added to scope level p
 
 
 
-Windows 8 or later: The DHCP server policy contains an invalid expression.
+Windows 8 or later: The DHCP server policy contains an invalid expression.
 
 
 </dt> </dl> </dd> <dt>
@@ -1272,7 +1277,7 @@ Windows 8 or later: The DHCP server policy contains an invalid expression.
 
 
 
-Windows 8 or later: The processing order specified for the DHCP server policy is invalid.
+Windows 8 or later: The processing order specified for the DHCP server policy is invalid.
 
 
 </dt> </dl> </dd> <dt>
@@ -1285,7 +1290,7 @@ Windows 8 or later: The processing order specified for the DHCP server policy is
 
 
 
-Windows 8 or later: The DHCP server policy was not found.
+Windows 8 or later: The DHCP server policy was not found.
 
 
 </dt> </dl> </dd> <dt>
@@ -1298,7 +1303,7 @@ Windows 8 or later: The DHCP server policy was not found.
 
 
 
-Windows 8 or later: There is an IP address range configured for a policy in this scope. This operation on the scope IP address range cannot be performed until the policy IP address range is suitably modified. Please change the IP address range of the policy before performing this operation.
+Windows 8 or later: There is an IP address range configured for a policy in this scope. This operation on the scope IP address range cannot be performed until the policy IP address range is suitably modified. Please change the IP address range of the policy before performing this operation.
 
 
 </dt> </dl> </dd> <dt>
@@ -1311,7 +1316,7 @@ Windows 8 or later: There is an IP address range configured for a policy in this
 
 
 
-Windows 8 or later: The DHCP scope is already in a failover relationship.
+Windows 8 or later: The DHCP scope is already in a failover relationship.
 
 
 </dt> </dl> </dd> <dt>
@@ -1324,7 +1329,7 @@ Windows 8 or later: The DHCP scope is already in a failover relationship.
 
 
 
-Windows 8 or later: The DHCP failover relationship already exists.
+Windows 8 or later: The DHCP failover relationship already exists.
 
 
 </dt> </dl> </dd> <dt>
@@ -1337,7 +1342,7 @@ Windows 8 or later: The DHCP failover relationship already exists.
 
 
 
-Windows 8 or later: The DHCP failover relationship does not exist.
+Windows 8 or later: The DHCP failover relationship does not exist.
 
 
 </dt> </dl> </dd> <dt>
@@ -1350,7 +1355,7 @@ Windows 8 or later: The DHCP failover relationship does not exist.
 
 
 
-Windows 8 or later: The DHCP scope is not part of a failover relationship.
+Windows 8 or later: The DHCP scope is not part of a failover relationship.
 
 
 </dt> </dl> </dd> <dt>
@@ -1363,7 +1368,7 @@ Windows 8 or later: The DHCP scope is not part of a failover relationship.
 
 
 
-Windows 8 or later: The DHCP failover relationship is a secondary.
+Windows 8 or later: The DHCP failover relationship is a secondary.
 
 
 </dt> </dl> </dd> <dt>
@@ -1376,7 +1381,7 @@ Windows 8 or later: The DHCP failover relationship is a secondary.
 
 
 
-Windows 8 or later: The DHCP failover is not supported.
+Windows 8 or later: The DHCP failover is not supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -1389,7 +1394,7 @@ Windows 8 or later: The DHCP failover is not supported.
 
 
 
-Windows 8 or later: The DHCP servers in the failover relationship have timed out of synchronization.
+Windows 8 or later: The DHCP servers in the failover relationship have timed out of synchronization.
 
 
 </dt> </dl> </dd> <dt>
@@ -1402,7 +1407,7 @@ Windows 8 or later: The DHCP servers in the failover relationship have timed out
 
 
 
-Windows 8 or later: The DHCP failover relationship state is not NORMAL.
+Windows 8 or later: The DHCP failover relationship state is not NORMAL.
 
 
 </dt> </dl> </dd> <dt>
@@ -1415,7 +1420,7 @@ Windows 8 or later: The DHCP failover relationship state is not NORMAL.
 
 
 
-Windows 8 or later: The user does not have administrative permissions for the DHCP server.
+Windows 8 or later: The user does not have administrative permissions for the DHCP server.
 
 
 </dt> </dl> </dd> <dt>
@@ -1428,7 +1433,7 @@ Windows 8 or later: The user does not have administrative permissions for the DH
 
 
 
-Windows 8 or later: The specified DHCP server is not reachable. Please provide a DHCP server that is reachable.
+Windows 8 or later: The specified DHCP server is not reachable. Please provide a DHCP server that is reachable.
 
 
 </dt> </dl> </dd> <dt>
@@ -1441,7 +1446,7 @@ Windows 8 or later: The specified DHCP server is not reachable. Please provide a
 
 
 
-Windows 8 or later: The DHCP Server Service is not running on the specified server. Please ensure that the DHCP Server service is running on the specified computer.
+Windows 8 or later: The DHCP Server Service is not running on the specified server. Please ensure that the DHCP Server service is running on the specified computer.
 
 
 </dt> </dl> </dd> <dt>
@@ -1454,7 +1459,7 @@ Windows 8 or later: The DHCP Server Service is not running on the specified serv
 
 
 
-Windows 8 or later: Unable to resolve DNS name.
+Windows 8 or later: Unable to resolve DNS name.
 
 
 </dt> </dl> </dd> <dt>
@@ -1467,7 +1472,7 @@ Windows 8 or later: Unable to resolve DNS name.
 
 
 
-Windows 8 or later: The specified DHCP failover relationship name is too long. The name is limited to a maximum of 126 characters.
+Windows 8 or later: The specified DHCP failover relationship name is too long. The name is limited to a maximum of 126 characters.
 
 
 </dt> </dl> </dd> <dt>
@@ -1480,7 +1485,7 @@ Windows 8 or later: The specified DHCP failover relationship name is too long. T
 
 
 
-Windows 8 or later: The specified DHCP Server has reached the end of the selected range while finding the free IP address.
+Windows 8 or later: The specified DHCP Server has reached the end of the selected range while finding the free IP address.
 
 
 </dt> </dl> </dd> <dt>
@@ -1493,7 +1498,7 @@ Windows 8 or later: The specified DHCP Server has reached the end of the selecte
 
 
 
-Windows 8 or later: The synchronization of leases in the scopes being added to the failover relationship failed.
+Windows 8 or later: The synchronization of leases in the scopes being added to the failover relationship failed.
 
 
 </dt> </dl> </dd> <dt>
@@ -1506,7 +1511,7 @@ Windows 8 or later: The synchronization of leases in the scopes being added to t
 
 
 
-Windows 8 or later: The relationship cannot be created on the DHCP server as the maximum number of allowed relationship has been exceeded.
+Windows 8 or later: The relationship cannot be created on the DHCP server as the maximum number of allowed relationship has been exceeded.
 
 
 </dt> </dl> </dd> <dt>
@@ -1519,7 +1524,7 @@ Windows 8 or later: The relationship cannot be created on the DHCP server as the
 
 
 
-Windows 8 or later: A Scope configured for failover cannot be changed to type BOOTP or BOTH.
+Windows 8 or later: A Scope configured for failover cannot be changed to type BOOTP or BOTH.
 
 
 </dt> </dl> </dd> <dt>
@@ -1532,7 +1537,7 @@ Windows 8 or later: A Scope configured for failover cannot be changed to type BO
 
 
 
-Windows 8 or later: The number of scopes being added to the failover relationship exceeds the max number of scopes which can be added to a failover relationship at one time.
+Windows 8 or later: The number of scopes being added to the failover relationship exceeds the max number of scopes which can be added to a failover relationship at one time.
 
 
 </dt> </dl> </dd> <dt>
@@ -1545,7 +1550,7 @@ Windows 8 or later: The number of scopes being added to the failover relationshi
 
 
 
-Windows 8 or later: A scope supporting BOOTP clients cannot be added to a failover relationship.
+Windows 8 or later: A scope supporting BOOTP clients cannot be added to a failover relationship.
 
 
 </dt> </dl> </dd> <dt>
@@ -1558,7 +1563,7 @@ Windows 8 or later: A scope supporting BOOTP clients cannot be added to a failov
 
 
 
-Windows 8 or later: An IP address range of a scope which is part of a failover relationship cannot be deleted. The scope will need to be removed from the failover relationship before deleting the range.
+Windows 8 or later: An IP address range of a scope which is part of a failover relationship cannot be deleted. The scope will need to be removed from the failover relationship before deleting the range.
 
 
 </dt> </dl> </dd> </dl>
@@ -1573,9 +1578,9 @@ Windows 8 or later: An IP address range of a scope which is part of a failover r
 
 
 
- 
+ 
 
- 
+ 
 
 
 

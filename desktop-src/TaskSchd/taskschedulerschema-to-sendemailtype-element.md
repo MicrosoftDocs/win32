@@ -1,14 +1,20 @@
 ---
 title: To (sendEmailType) Element
 description: Contains the email addresses to which the email will be sent.
-ms.assetid: 'bf3aa878-967b-4ebd-9397-a2a499686a9f'
-keywords: ["To element Task Scheduler"]
+ms.assetid: bf3aa878-967b-4ebd-9397-a2a499686a9f
+keywords:
+- To element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - To
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To (sendEmailType) Element
@@ -35,7 +41,7 @@ The **To** element is defined by the [**sendEmailType**](taskschedulerschema-sen
 
 ## Remarks
 
-For C++ development, see [**To Property of IEmailAction**](iemailaction-to.md).
+For C++ development, see [**To Property of IEmailAction**](/windows/win32/taskschd/nf-taskschd-iemailaction-get_to?branch=master).
 
 For script development, see [**EmailAction.To**](emailaction-to.md).
 
@@ -45,14 +51,14 @@ For script development, see [**EmailAction.To**](emailaction-to.md).
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

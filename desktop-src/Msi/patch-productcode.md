@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ProductCode property of the Patch object returns the ProductCode GUID of the product.'
-ms.assetid: '11d81bc0-dac6-4135-9b60-31d39c3455da'
-title: 'Patch.ProductCode property'
+---
+Description: The ProductCode property of the Patch object returns the ProductCode GUID of the product.
+ms.assetid: 11d81bc0-dac6-4135-9b60-31d39c3455da
+title: Patch.ProductCode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch.ProductCode property

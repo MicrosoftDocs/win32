@@ -1,7 +1,12 @@
 ---
-Description: 'You can delegate the administration of the authorization policy stores that are stored in Active Directory.'
-ms.assetid: 'a7b43dfe-f03e-4795-bbd3-746eb3449fd0'
+Description: You can delegate the administration of the authorization policy stores that are stored in Active Directory.
+ms.assetid: a7b43dfe-f03e-4795-bbd3-746eb3449fd0
 title: Delegating the Defining of Permissions in Script
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Delegating the Defining of Permissions in Script
@@ -14,9 +19,9 @@ A user or group that is either an administrator or a reader of an application mu
 
 **To delegate administration of a scope**
 
-1.  Add the user or group to the list of delegated users of the store that contains the scope by calling the [**AddDelegatedPolicyUser**](azauthorizationstore-adddelegatedpolicyuser.md) method of the [**AzAuthorizationStore**](azauthorizationstore.md) object that contains the scope.
-2.  Add the user or group to the list of delegated users of the application that contains the scope by calling the [**AddDelegatedPolicyUser**](iazapplication-adddelegatedpolicyuser.md) method of the [**IAzApplication**](iazapplication.md) object that contains the scope.
-3.  Add the user or group to the list of administrators of the scope by calling the [**AddPolicyAdministrator**](iazscope-addpolicyadministrator.md) method of the [**IAzScope**](iazscope.md) object.
+1.  Add the user or group to the list of delegated users of the store that contains the scope by calling the [**AddDelegatedPolicyUser**](/windows/win32/Azroles/nf-azroles-iazauthorizationstore-adddelegatedpolicyuser?branch=master) method of the [**AzAuthorizationStore**](/windows/win32/Azroles/nn-azroles-iazauthorizationstore?branch=master) object that contains the scope.
+2.  Add the user or group to the list of delegated users of the application that contains the scope by calling the [**AddDelegatedPolicyUser**](/windows/win32/Azroles/nf-azroles-iazapplication-adddelegatedpolicyuser?branch=master) method of the [**IAzApplication**](/windows/win32/Azroles/nn-azroles-iazapplication?branch=master) object that contains the scope.
+3.  Add the user or group to the list of administrators of the scope by calling the [**AddPolicyAdministrator**](/windows/win32/Azroles/nf-azroles-iazscope-addpolicyadministrator?branch=master) method of the [**IAzScope**](/windows/win32/Azroles/nn-azroles-iazscope?branch=master) object.
 
 > [!Note]  
 > XML-based policy stores do not support delegation at any level.

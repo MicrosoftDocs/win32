@@ -1,8 +1,10 @@
 ---
 title: Msvm\_MountedStorageImage class
 description: Provides detailed information about a manually mounted storage image.
-ms.assetid: '509eac2f-0ae0-4126-9abc-a1d43f07afb6'
-keywords: ["Msvm_MountedStorageImage class Hyper-V", "Msvm_MountedStorageImage class Hyper-V , described"]
+ms.assetid: 509eac2f-0ae0-4126-9abc-a1d43f07afb6
+keywords:
+- Msvm_MountedStorageImage class Hyper-V
+- Msvm_MountedStorageImage class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_MountedStorageImage class
@@ -40,21 +47,21 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_MountedStorageImage : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   Type;
-  uint16   Access;
-  UINT8    PortNumber;
-  UINT8    PathId;
-  UINT8    TargetId;
-  UINT8    Lun;
+  string   Name;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   Type;
+  uint16   Access;
+  UINT8    PortNumber;
+  UINT8    PathId;
+  UINT8    TargetId;
+  UINT8    Lun;
 };
 ```
 
@@ -77,7 +84,7 @@ The **Msvm\_MountedStorageImage** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -379,9 +386,9 @@ Access to the **Msvm\_MountedStorageImage** class might be restricted by UAC Fil
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -400,9 +407,9 @@ Access to the **Msvm\_MountedStorageImage** class might be restricted by UAC Fil
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

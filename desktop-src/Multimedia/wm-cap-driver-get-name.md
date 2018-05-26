@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_DRIVER\_GET\_NAME message
 description: The WM\_CAP\_DRIVER\_GET\_NAME message returns the name of the capture driver connected to the capture window. You can send this message explicitly or by using the capDriverGetName macro.
-ms.assetid: '84cecaf1-e0ff-424f-8c10-8bfe5cc2e7ea'
-keywords: ["WM_CAP_DRIVER_GET_NAME message Windows Multimedia"]
+ms.assetid: 84cecaf1-e0ff-424f-8c10-8bfe5cc2e7ea
+keywords:
+- WM_CAP_DRIVER_GET_NAME message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_DRIVER\_GET\_NAME message
 
-The **WM\_CAP\_DRIVER\_GET\_NAME** message returns the name of the capture driver connected to the capture window. You can send this message explicitly or by using the [**capDriverGetName**](capdrivergetname.md) macro.
+The **WM\_CAP\_DRIVER\_GET\_NAME** message returns the name of the capture driver connected to the capture window. You can send this message explicitly or by using the [**capDriverGetName**](/windows/win32/Vfw/nf-vfw-capdrivergetname?branch=master) macro.
 
 
 ```C++
@@ -58,8 +64,8 @@ The name is a text string retrieved from the driver's resource area. Application
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ The name is a text string retrieved from the driver's resource area. Application
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

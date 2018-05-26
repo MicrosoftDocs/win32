@@ -1,7 +1,12 @@
 ---
 title: VML Left Attribute
 description: VML Left Attribute
-ms.assetid: 'a0558d24-c0a5-48ef-9042-743d6eab6f86'
+ms.assetid: a0558d24-c0a5-48ef-9042-743d6eab6f86
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Left Attribute

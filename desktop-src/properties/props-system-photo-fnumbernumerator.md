@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_Photo\_FNumber.'
-ms.assetid: 'd88916eb-bd68-4133-a920-4cdf93a9ea09'
-title: 'System.Photo.FNumberNumerator'
+Description: The numerator of PKEY\_Photo\_FNumber.
+ms.assetid: d88916eb-bd68-4133-a920-4cdf93a9ea09
+title: System.Photo.FNumberNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.FNumberNumerator

@@ -4,11 +4,16 @@ description: The DeleteScopeNode method executes the Delete command for the spec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f7678d3a-4638-4b4d-8255-d9517217cd89'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: f7678d3a-4638-4b4d-8255-d9517217cd89
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["DeleteScopeNode method MMC", "DeleteScopeNode method MMC , View object", "View object MMC , DeleteScopeNode method", "DeleteScopeNode method MMC , View interface", "View interface MMC , DeleteScopeNode method"]
+keywords:
+- DeleteScopeNode method MMC
+- DeleteScopeNode method MMC , View object
+- View object MMC , DeleteScopeNode method
+- DeleteScopeNode method MMC , View interface
+- View interface MMC , DeleteScopeNode method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::DeleteScopeNode method
@@ -56,8 +64,8 @@ This method does not return a value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -72,9 +80,9 @@ This method does not return a value.
 [**View.DeleteSelection**](view-deleteselection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

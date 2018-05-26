@@ -1,8 +1,15 @@
 ---
 title: CIM\_PoolAllocatedFromPool class
 description: TBD
-ms.assetid: '7d422abc-8db1-49e8-830c-382d0b71ae1d'
-keywords: ["CIM_PoolAllocatedFromPool class Hyper-V", "CIM_PoolAllocatedFromPool class Hyper-V , described"]
+ms.assetid: 7d422abc-8db1-49e8-830c-382d0b71ae1d
+keywords:
+- CIM_PoolAllocatedFromPool class Hyper-V
+- CIM_PoolAllocatedFromPool class Hyper-V , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_PoolAllocatedFromPool class
@@ -73,9 +80,9 @@ TBD
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -88,9 +95,9 @@ TBD
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

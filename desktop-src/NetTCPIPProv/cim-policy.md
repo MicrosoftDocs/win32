@@ -1,7 +1,12 @@
 ---
-Description: 'An abstract class defining the common properties of the policy managed elements derived from CIM\_Policy.'
-ms.assetid: 'a87d754a-5e32-4f36-aabb-83ffcd113a9d'
-title: 'CIM\_Policy class'
+Description: An abstract class defining the common properties of the policy managed elements derived from CIM\_Policy.
+ms.assetid: a87d754a-5e32-4f36-aabb-83ffcd113a9d
+title: CIM\_Policy class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_Policy class
@@ -121,7 +126,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedElement**](cim-managedelement.md).
 
@@ -151,8 +156,8 @@ This MOF defines the following keywords: **UNKNOWN**, **CONFIGURATION**, **USAGE
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -166,9 +171,9 @@ This MOF defines the following keywords: **UNKNOWN**, **CONFIGURATION**, **USAGE
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

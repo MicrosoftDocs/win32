@@ -1,8 +1,11 @@
 ---
 title: IMsgrSessionManager CreateSession method
 description: Creates a new MsgrSession object.
-ms.assetid: '9e3e7247-3f4c-4e3a-8ed9-cd8303b344d9'
-keywords: ["CreateSession method Windows Messenger", "CreateSession method Windows Messenger , IMsgrSessionManager interface", "IMsgrSessionManager interface Windows Messenger , CreateSession method"]
+ms.assetid: 9e3e7247-3f4c-4e3a-8ed9-cd8303b344d9
+keywords:
+- CreateSession method Windows Messenger
+- CreateSession method Windows Messenger , IMsgrSessionManager interface
+- IMsgrSessionManager interface Windows Messenger , CreateSession method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMsgrSessionManager::CreateSession method
 
-\[**CreateSession** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**CreateSession** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Creates a new [**MsgrSession**](im-msgrsession-object.md) object.
 
@@ -24,7 +32,7 @@ Creates a new [**MsgrSession**](im-msgrsession-object.md) object.
 
 ```C++
 HRESULT CreateSession(
-  [out, retval] IDispatch **ppSession
+  [out, retval] IDispatch **ppSession
 );
 ```
 
@@ -59,7 +67,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,7 +82,7 @@ The following table lists the error codes returned by this method.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -82,10 +90,10 @@ The following table lists the error codes returned by this method.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Product<br/>                  | Messenger 4.5<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl> |
@@ -109,9 +117,9 @@ The following table lists the error codes returned by this method.
 [Messenger Lock and Key API](im-lock-and-key-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

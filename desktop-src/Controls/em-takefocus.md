@@ -1,8 +1,9 @@
 ---
 title: EM\_TAKEFOCUS message
 description: Forces a single-line edit control to receive keyboard focus. You can send this message explicitly or by using the Edit\_TakeFocus macro.
-ms.assetid: '27470857-4219-4426-bc69-e1271afc6ffb'
-keywords: ["EM_TAKEFOCUS message Windows Controls"]
+ms.assetid: 27470857-4219-4426-bc69-e1271afc6ffb
+keywords:
+- EM_TAKEFOCUS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_TAKEFOCUS message
 
 \[Intended for internal use; not recommended for use in applications. This message may not be supported in future versions of Windows.\]
 
-Forces a single-line edit control to receive keyboard focus. You can send this message explicitly or by using the [**Edit\_TakeFocus**](edit-takefocus.md) macro.
+Forces a single-line edit control to receive keyboard focus. You can send this message explicitly or by using the [**Edit\_TakeFocus**](/windows/win32/Commctrl/nf-commctrl-edit_takefocus?branch=master) macro.
 
 ## Parameters
 
@@ -57,8 +63,8 @@ If the edit control previously received an [**EM\_NOSETFOCUS**](em-nosetfocus.md
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -70,15 +76,15 @@ If the edit control previously received an [**EM\_NOSETFOCUS**](em-nosetfocus.md
 **Reference**
 </dt> <dt>
 
-[**Edit\_TakeFocus**](edit-takefocus.md)
+[**Edit\_TakeFocus**](/windows/win32/Commctrl/nf-commctrl-edit_takefocus?branch=master)
 </dt> <dt>
 
 [**EM\_NOSETFOCUS**](em-nosetfocus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

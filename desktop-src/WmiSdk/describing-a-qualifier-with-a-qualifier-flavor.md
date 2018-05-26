@@ -1,13 +1,16 @@
 ---
-Description: 'A qualifier flavor is a flag that describes more information about a qualifier.'
+Description: A qualifier flavor is a flag that describes more information about a qualifier.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a7d9d1c0-9386-4c90-9788-993b35ed12db'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a7d9d1c0-9386-4c90-9788-993b35ed12db
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Describing a Qualifier with a Qualifier Flavor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Describing a Qualifier with a Qualifier Flavor
@@ -42,7 +45,7 @@ You can add qualifier flavors programmatically only in C++. This operation is no
 
 **To assign a flavor using C++**
 
--   Call the [**IWbemQualifierSet::Put**](iwbemqualifierset-put.md) method with the *lFlavor* parameter set to one of the constants defined for the method.
+-   Call the [**IWbemQualifierSet::Put**](/windows/win32/Wbemcli/nf-wbemcli-iwbemqualifierset-put?branch=master) method with the *lFlavor* parameter set to one of the constants defined for the method.
 
  
 

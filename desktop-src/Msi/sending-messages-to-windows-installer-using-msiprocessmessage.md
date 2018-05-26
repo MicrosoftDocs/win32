@@ -1,12 +1,17 @@
-﻿---
-Description: 'The messages sent using MsiProcessMessage are the same messages that are received by the INSTALLUI\_HANDLER callback function if MsiSetExternalUI was called.'
-ms.assetid: 'ca73bd0a-6f4e-453c-9e38-14cfd602d42c'
+---
+Description: The messages sent using MsiProcessMessage are the same messages that are received by the INSTALLUI\_HANDLER callback function if MsiSetExternalUI was called.
+ms.assetid: ca73bd0a-6f4e-453c-9e38-14cfd602d42c
 title: Sending Messages to Windows Installer Using MsiProcessMessage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending Messages to Windows Installer Using MsiProcessMessage
 
-The messages sent using [**MsiProcessMessage**](msiprocessmessage.md) are the same messages that are received by the [**INSTALLUI\_HANDLER**](installui-handler.md) callback function if [**MsiSetExternalUI**](msisetexternalui.md) was called. Otherwise, Windows Installer handles the messages. For details, see [Parsing Windows Installer Messages](parsing-windows-installer-messages.md).
+The messages sent using [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master) are the same messages that are received by the [**INSTALLUI\_HANDLER**](/windows/win32/Msi/nc-msi-installui_handlera?branch=master) callback function if [**MsiSetExternalUI**](/windows/win32/Msi/nf-msi-msisetexternaluia?branch=master) was called. Otherwise, Windows Installer handles the messages. For details, see [Parsing Windows Installer Messages](parsing-windows-installer-messages.md).
 
 For example, to send an INSTALLMESSAGE\_ERROR message with the MB\_ICONWARNING icon and the MB\_ABORTRETRYCANCEL buttons:
 
@@ -19,13 +24,13 @@ MsiProcessMessage(hInstall, INSTALLMESSAGE(INSTALLMESSAGE_ERROR|MB_ABORTRETRYIGN
 
 
 
-Where *hInstall* is the handle to the installation, provided to a custom action or the *hProduct* handle from [**MsiOpenProduct**](msiopenproduct.md) or [**MsiOpenPackage**](msiopenpackage.md), and *hRec* is the record containing the error information to format. For information on how formatting is performed, see [**MsiFormatRecord**](msiformatrecord.md).
+Where *hInstall* is the handle to the installation, provided to a custom action or the *hProduct* handle from [**MsiOpenProduct**](/windows/win32/Msi/nf-msi-msiopenproducta?branch=master) or [**MsiOpenPackage**](/windows/win32/Msi/nf-msi-msiopenpackagea?branch=master), and *hRec* is the record containing the error information to format. For information on how formatting is performed, see [**MsiFormatRecord**](/windows/win32/Msiquery/nf-msiquery-msiformatrecorda?branch=master).
 
 By default, if an INSTALLMESSAGE\_ERROR or INSTALLMESSAGE\_FATALEXIT message is sent without specifying button type or icon types, MB\_OK, no icon, and MB\_DEFBUTTON1 are used.
 
 Windows Installer does not label the **ABORT** button with the "Abort" string when displaying a MessageBox with the MB\_ABORTRETRYIGNORE button specification, instead it labels the button with the "Cancel" string. All error messages refrain from using the word "Abort" and instead use the word "Cancel".
 
-The *hRecord* parameter of the [**MsiProcessMessage**](msiprocessmessage.md) function depends upon the message type sent to the [**MsiProcessMessage**](msiprocessmessage.md). The following list details the requirements of the record in relation to the message type:
+The *hRecord* parameter of the [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master) function depends upon the message type sent to the [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master). The following list details the requirements of the record in relation to the message type:
 
 INSTALLMESSAGE\_FATALEXIT
 
@@ -41,7 +46,7 @@ INSTALLMESSAGE\_OUTOFDISKSPACE
 
 | Field         | Description                                                                                                                                                                                                        |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0             | Template for the formatting of the resultant string. See [**MsiFormatRecord**](msiformatrecord.md) for more information. The fields of the record are referenced using \[1\] for field 1, \[2\] for field 2, etc. |
+| 0             | Template for the formatting of the resultant string. See [**MsiFormatRecord**](/windows/win32/Msiquery/nf-msiquery-msiformatrecorda?branch=master) for more information. The fields of the record are referenced using \[1\] for field 1, \[2\] for field 2, etc. |
 | 1 through *n* | All subsequent fields are directly related to the fields referenced by the template in field 0.                                                                                                                    |
 
 
@@ -50,7 +55,7 @@ INSTALLMESSAGE\_OUTOFDISKSPACE
 
 If field 0 is null, the string received by the UI handler is formatted as: 1: \[data from field 1\] 2: \[data from field 2\] meaning that for each field of the record, the string contains the field number followed by the data stored in the field.
 
-Information messages from [**MsiProcessMessage**](msiprocessmessage.md) are logged when [**MsiEnableLog**](msienablelog.md), the '/l' [command line option](command-line-options.md), or the [logging policy](logging.md) specify 'I' or INSTALLLOGMODE\_INFO.
+Information messages from [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master) are logged when [**MsiEnableLog**](/windows/win32/Msi/nf-msi-msienableloga?branch=master), the '/l' [command line option](command-line-options.md), or the [logging policy](logging.md) specify 'I' or INSTALLLOGMODE\_INFO.
 
 INSTALLMESSAGE\_ERROR
 
@@ -96,7 +101,7 @@ Error 1304. Error writing to file: Myfile.txt. Verify that you have access to th
 
 If field 0 is not null, the message from the error table is overridden. Instead, the field 0 template determines the format of the message.
 
-The message may also specify the buttons, including the default button, and the icon for use with the message as mentioned above. The button and icon types are listed in [**INSTALLUI\_HANDLER**](installui-handler.md).
+The message may also specify the buttons, including the default button, and the icon for use with the message as mentioned above. The button and icon types are listed in [**INSTALLUI\_HANDLER**](/windows/win32/Msi/nc-msi-installui_handlera?branch=master).
 
 INSTALLMESSAGE\_COMMONDATA
 

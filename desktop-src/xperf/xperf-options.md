@@ -1,8 +1,22 @@
 ---
 title: Xperf Options
 description: Xperf Options
-ms.assetid: '2d34e707-bd89-4ab2-ba6e-510f8d5b3a3d'
-keywords: ["view", "start", "providers", "stackwalk", "stop", "merge", "processing", "symbols", "query"]
+ms.assetid: 2d34e707-bd89-4ab2-ba6e-510f8d5b3a3d
+keywords:
+- view
+- start
+- providers
+- stackwalk
+- stop
+- merge
+- processing
+- symbols
+- query
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Xperf Options
@@ -30,11 +44,11 @@ The following are the command-line help options:
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

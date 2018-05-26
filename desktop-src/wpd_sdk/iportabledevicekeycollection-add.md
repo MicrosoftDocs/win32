@@ -1,7 +1,12 @@
 ---
-Description: 'The Add method adds a property key to the collection.'
-ms.assetid: '640ef1c4-2843-48dd-a30a-9a2ef9de35b9'
-title: 'IPortableDeviceKeyCollection::Add method'
+Description: The Add method adds a property key to the collection.
+ms.assetid: 640ef1c4-2843-48dd-a30a-9a2ef9de35b9
+title: IPortableDeviceKeyCollectionAdd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceKeyCollection::Add method
@@ -13,7 +18,7 @@ The **Add** method adds a property key to the collection.
 
 ```C++
 HRESULT Add(
-  [in] REFPROPERTYKEY Key
+  [in] REFPROPERTYKEY Key
 );
 ```
 
@@ -43,7 +48,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -76,9 +81,9 @@ For an example of how to use this method, see [Retrieving Properties for a Singl
 [Retrieving the Rendering Capabilities Supported by a Device](retrieving-the-rendering-capabilities-supported-by-a-device.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.ShowLegend property
 description: Retrieves or sets a value that determines whether the legend is displayed. The legend lists the counters and shows the color used to graph each counter.
-ms.assetid: '76fae464-6e88-4ad0-9bcf-7c965823e005'
-keywords: ["ShowLegend property SysMon", "ShowLegend property SysMon , SystemMonitor class", "SystemMonitor class SysMon , ShowLegend property"]
+ms.assetid: 76fae464-6e88-4ad0-9bcf-7c965823e005
+keywords:
+- ShowLegend property SysMon
+- ShowLegend property SysMon , SystemMonitor class
+- SystemMonitor class SysMon , ShowLegend property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.ShowLegend property
@@ -38,8 +46,8 @@ True indicates that the legend is displayed in the control; otherwise, false. Th
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -51,9 +59,9 @@ True indicates that the legend is displayed in the control; otherwise, false. Th
 [**SystemMonitor**](systemmonitor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: WMDRMStartup function
 description: The WMDRMStartup function initializes resources used by the Windows Media DRM Client Extended APIs.
-ms.assetid: '2fd26bcc-8106-4356-933a-d4cf3536f4fb'
-keywords: ["WMDRMStartup function windows Media Format"]
+ms.assetid: 2fd26bcc-8106-4356-933a-d4cf3536f4fb
+keywords:
+- WMDRMStartup function windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRMStartup function
@@ -42,7 +48,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +73,9 @@ For every call of this function, you must call [**WMDRMShutdown**](wmdrmshutdown
 [**Functions**](drm-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

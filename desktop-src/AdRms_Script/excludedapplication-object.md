@@ -1,13 +1,16 @@
 ---
-Description: 'Represents an application that is prohibited from decrypting RMS-protected content.'
+Description: Represents an application that is prohibited from decrypting RMS-protected content.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '42865e1d-5680-411e-b3b4-200e25979eed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 42865e1d-5680-411e-b3b4-200e25979eed
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ExcludedApplication object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ExcludedApplication object
@@ -34,7 +37,7 @@ The **ExcludedApplication** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -144,7 +147,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -159,9 +162,9 @@ END SUB
 [**ExcludedApplicationCollection**](excludedapplicationcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: dcl\_hs\_fork\_phase\_instance\_count (sm5 - asm)
 description: Declare the fork phase instance count in a hull shader fork phase.
-ms.assetid: 'E38C48BB-3439-4F63-8DF8-21CF562CF5E6'
+ms.assetid: E38C48BB-3439-4F63-8DF8-21CF562CF5E6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_hs\_fork\_phase\_instance\_count (sm5 - asm)
@@ -15,7 +20,7 @@ Declare the fork phase instance count in a hull shader fork phase.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declare the fork phase instance count in a hull shader fork phase.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -39,7 +44,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -58,7 +63,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -67,9 +72,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

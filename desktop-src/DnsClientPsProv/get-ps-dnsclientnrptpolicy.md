@@ -4,13 +4,16 @@ description: Retrieves Name Resolution Policy Table configured on the machine.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a1b159f3-82af-478e-9509-937e2d988c68'
-ms.prod: 'windows-server-dev'
+ms.assetid: a1b159f3-82af-478e-9509-937e2d988c68
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-client'
-- 'windows-management-instrumentation'
+- dns-client
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DnsClientNrptPolicy class", "PS_DnsClientNrptPolicy class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DnsClientNrptPolicy class
+- PS_DnsClientNrptPolicy class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DnsClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DnsClientNrptPolicy class
@@ -30,9 +36,9 @@ Retrieves Name Resolution Policy Table configured on the machine.
 
 ```mof
 uint32 Get(
-  [in]  boolean                      Effective,
-  [in]  string                       Namespace,
-  [out] DnsClientPolicyConfiguration cmdletOutput[]
+  [in]  boolean                      Effective,
+  [in]  string                       Namespace,
+  [out] DnsClientPolicyConfiguration cmdletOutput[]
 );
 ```
 
@@ -69,8 +75,8 @@ A [**DnsClientPolicyConfiguration**](dnsclientpolicyconfiguration.md) object con
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsClientPSProvider.dll</dt> </dl> |
@@ -84,9 +90,9 @@ A [**DnsClientPolicyConfiguration**](dnsclientpolicyconfiguration.md) object con
 [**PS\_DnsClientNrptPolicy**](ps-dnsclientnrptpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

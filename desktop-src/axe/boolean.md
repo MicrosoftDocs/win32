@@ -1,14 +1,20 @@
 ---
 title: Boolean element
 description: The data type is Boolean (value of true and false).
-ms.assetid: '908E5CA2-C2DB-4D57-940C-DF9BC002F2E2'
-keywords: ["Boolean element Access Execution Engine"]
+ms.assetid: 908E5CA2-C2DB-4D57-940C-DF9BC002F2E2
+keywords:
+- Boolean element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Boolean
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Boolean element

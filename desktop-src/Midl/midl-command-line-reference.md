@@ -2,7 +2,14 @@
 title: MIDL Command-Line Reference
 description: This section contains reference information for each command-line switch and switch option recognized by the Microsoft RPC MIDL compiler.
 ms.assetid: a0e5efb0-a704-4dc5-bd7e-6c98466a2874
-keywords: ["Microsoft Interface Definition Language MIDL , reference", "command-line reference MIDL"]
+keywords:
+- Microsoft Interface Definition Language MIDL , reference
+- command-line reference MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL Command-Line Reference

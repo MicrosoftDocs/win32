@@ -1,7 +1,12 @@
 ---
-Description: 'If this bit is set, the dialog box is modal, other dialogs of the same application cannot be put on top of it, and the dialog keeps the control while it is running.'
-ms.assetid: '14871dc7-c928-4381-a043-6beb06d25214'
+Description: If this bit is set, the dialog box is modal, other dialogs of the same application cannot be put on top of it, and the dialog keeps the control while it is running.
+ms.assetid: 14871dc7-c928-4381-a043-6beb06d25214
 title: Modal Dialog Style Bit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modal Dialog Style Bit

@@ -1,7 +1,12 @@
 ---
-Description: 'General information about pipes. There are two types of pipes: anonymous pipes and named pipes. Anonymous pipes require less overhead than named pipes, but offer limited services.'
-ms.assetid: 'a44f1d28-14ab-4808-aa82-1cbd4958e41d'
+Description: General information about pipes. There are two types of pipes anonymous pipes and named pipes. Anonymous pipes require less overhead than named pipes, but offer limited services.
+ms.assetid: a44f1d28-14ab-4808-aa82-1cbd4958e41d
 title: About Pipes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Pipes

@@ -4,13 +4,16 @@ description: Gets the contents of an updating run report.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8dd317bc-2049-4286-ac9f-4cbf8883362b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8dd317bc-2049-4286-ac9f-4cbf8883362b
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-aware-patching'
-- 'windows-management-instrumentation'
+- failover-cluster-aware-patching
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetReport method", "GetReport method, MSFT_CAUReportHelper class", "MSFT_CAUReportHelper class, GetReport method"]
+keywords:
+- GetReport method
+- GetReport method, MSFT_CAUReportHelper class
+- MSFT_CAUReportHelper class, GetReport method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - CauWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetReport method of the MSFT\_CAUReportHelper class
@@ -30,9 +36,9 @@ Gets the contents of an updating run report.
 
 ```mof
 uint32 GetReport(
-  [in]  MSFT_CAURun_Report_ID    ReportId,
-  [in]  Uint32                   ChunkSize,
-  [out] MSFT_CAURun_Report_Chunk ReportChunks[]
+  [in]  MSFT_CAURun_Report_ID    ReportId,
+  [in]  Uint32                   ChunkSize,
+  [out] MSFT_CAURun_Report_Chunk ReportChunks[]
 );
 ```
 
@@ -70,7 +76,7 @@ An array of [**MSFT\_CAURun\_Report\_Chunk**](msft-caurun-report-chunk.md) embed
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ClusterUpdate<br/>                                      |
 | MOF<br/>                      | <dl> <dt>CAUWMIv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CauWmiV2.dll</dt> </dl> |
@@ -84,9 +90,9 @@ An array of [**MSFT\_CAURun\_Report\_Chunk**](msft-caurun-report-chunk.md) embed
 [**MSFT\_CAUReportHelper**](msft-caureporthelper.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

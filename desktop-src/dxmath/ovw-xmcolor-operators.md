@@ -1,12 +1,17 @@
-﻿---
-Description: 'The XMCOLOR structure exposes the following operators.'
-ms.assetid: '1ffa02ad-4a7e-474e-9e7f-d2148ca42d57'
+---
+Description: The XMCOLOR structure exposes the following operators.
+ms.assetid: 1ffa02ad-4a7e-474e-9e7f-d2148ca42d57
 title: XMCOLOR Operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMCOLOR Operators
 
-The [**XMCOLOR**](xmcolor.md) structure exposes the following operators.
+The [**XMCOLOR**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmcolor?branch=master) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -19,7 +24,7 @@ The [**XMCOLOR**](xmcolor.md) structure exposes the following operators.
 
 | Methods                                                            | Description                                                                                                           |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [**operator uint32\_t**](xmcolor-operator-uint32-t.md)<br/> | Returns an instance of `uint32_t` containing the components of the `XMCOLOR` instance in a packed format. <br/> |
+| [**operator uint32\_t**](/windows/win32/DirectXPackedVector/?branch=master)<br/> | Returns an instance of `uint32_t` containing the components of the `XMCOLOR` instance in a packed format. <br/> |
 | [**operator =**](xmcolor-operator-eq.md)<br/>               | Assigns vector component data to the current instance of `XMCOLOR`.<br/>                                        |
 
 
@@ -36,7 +41,7 @@ The [**XMCOLOR**](xmcolor.md) structure exposes the following operators.
 **Reference**
 </dt> <dt>
 
-[**XMCOLOR**](xmcolor.md)
+[**XMCOLOR**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmcolor?branch=master)
 </dt> </dl>
 
  

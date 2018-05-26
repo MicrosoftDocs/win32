@@ -1,8 +1,9 @@
 ---
 title: CdromBurnError Event of the AxWindowsMediaPlayer Object
 description: The CdromBurnError event occurs when a generic error happens during a CD burning operation.
-ms.assetid: '512a3417-c8f3-42c7-ab2e-bea35cadbd4e'
-keywords: ["CdromBurnError Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 512a3417-c8f3-42c7-ab2e-bea35cadbd4e
+keywords:
+- CdromBurnError Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CdromBurnError Event of the AxWindowsMediaPlayer Object
@@ -44,7 +50,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cdr
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -75,9 +81,9 @@ To capture media specific errors, handle the AxWMPLib.\_WMPOCXEvents\_CdromBurnM
 [**IWMPCdromBurn Interface (VB and C#)**](iwmpcdromburn--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a 4D vector that is made up of the smallest components of two 4D vectors.'
-ms.assetid: 'ae3819a3-a5b6-47c2-b789-3e3f07db9f03'
+---
+Description: Returns a 4D vector that is made up of the smallest components of two 4D vectors.
+ms.assetid: ae3819a3-a5b6-47c2-b789-3e3f07db9f03
 title: D3DXVec4Minimize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec4Minimize function

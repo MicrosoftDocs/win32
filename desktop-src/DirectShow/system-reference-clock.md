@@ -1,7 +1,12 @@
 ---
 Description: System Reference Clock
-ms.assetid: '0247dcb9-64ee-4562-944a-44bcfae80f2d'
+ms.assetid: 0247dcb9-64ee-4562-944a-44bcfae80f2d
 title: System Reference Clock
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Reference Clock
@@ -13,7 +18,7 @@ The System Reference Clock object implements a reference clock that returns the 
 |                  |                                                                                                                                                          |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Class Identifier | CLSID\_SystemClock                                                                                                                                       |
-| Interfaces       | [**IAMClockAdjust**](iamclockadjust.md), [**IReferenceClock**](ireferenceclock.md), [**IReferenceClockTimerControl**](ireferenceclocktimercontrol.md) |
+| Interfaces       | [**IAMClockAdjust**](/windows/win32/Strmif/nn-strmif-iamclockadjust?branch=master), [**IReferenceClock**](/windows/win32/Strmif/nn-strmif-ireferenceclock?branch=master), [**IReferenceClockTimerControl**](/windows/win32/Strmif/nn-strmif-ireferenceclocktimercontrol?branch=master) |
 
 
 

@@ -1,8 +1,15 @@
 ---
 title: About Windows Firewall for Windows XP with SP2
 description: About Windows Firewall for Windows XP with SP2
-ms.assetid: '05697610-b756-4ebf-bfb0-2fe0203d3397'
-keywords: ["Windows Firewall", "described"]
+ms.assetid: 05697610-b756-4ebf-bfb0-2fe0203d3397
+keywords:
+- Windows Firewall
+- described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Windows Firewall for Windows XP with SP2

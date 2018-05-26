@@ -1,8 +1,16 @@
 ---
 title: Offloaded data transfers
 description: Offloaded data transfers
-ms.assetid: '91EBE6D6-2DA7-48DA-AEB7-3FAFCA8341F5'
-keywords: ["odx", "copy offload", "offload"]
+ms.assetid: 91EBE6D6-2DA7-48DA-AEB7-3FAFCA8341F5
+keywords:
+- odx
+- copy offload
+- offload
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Offloaded data transfers

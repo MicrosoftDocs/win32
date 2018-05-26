@@ -1,7 +1,12 @@
 ---
 title: Drop-Down Button
 description: The Drop-Down Button consists of a button that when clicked displays a drop-down list of mutually exclusive items.
-ms.assetid: '41c5da07-43f7-4544-83be-248941cb8633'
+ms.assetid: 41c5da07-43f7-4544-83be-248941cb8633
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drop-Down Button
@@ -31,7 +36,7 @@ The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/w
 > [!Note]  
 > In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
 
- 
+ 
 
 The following table lists the property keys that are associated with the Drop-Down Button control.
 
@@ -112,7 +117,7 @@ If the Command associated with the control is invalidated through a call to [<st
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -124,9 +129,9 @@ If the Command associated with the control is invalidated through a call to [<st
 [**DropDownButton markup element**](windowsribbon-element-dropdownbutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

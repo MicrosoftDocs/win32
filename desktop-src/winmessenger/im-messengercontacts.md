@@ -1,8 +1,10 @@
 ---
 title: MessengerContacts object
 description: Do not use. The MessengerContacts object corresponds to the IMessengerContacts interface. It is a collection object of contacts in the contact list.
-ms.assetid: '63eb71fc-1530-4e87-be6f-c03cc5c40c4a'
-keywords: ["MessengerContacts object Windows Messenger", "MessengerContacts object Windows Messenger , described"]
+ms.assetid: 63eb71fc-1530-4e87-be6f-c03cc5c40c4a
+keywords:
+- MessengerContacts object Windows Messenger
+- MessengerContacts object Windows Messenger , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msgrua.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MessengerContacts object
 
-\[**MessengerContacts** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MessengerContacts** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. The **MessengerContacts** object corresponds to the [**IMessengerContacts**](im-imessengercontacts.md) interface. It is a collection object of contacts in the contact list.
 
@@ -33,7 +40,7 @@ A **MessengerContacts** object is not intended to be created separately through 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -41,19 +48,19 @@ A **MessengerContacts** object is not intended to be created separately through 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

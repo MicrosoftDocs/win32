@@ -1,8 +1,11 @@
 ---
 title: DMsgrSessionEvents BeforeAppLaunch event
-description: Fires when the session's application is about to be launched.
-ms.assetid: 'f619a9e8-9bd6-4853-9161-08429216fcef'
-keywords: ["BeforeAppLaunch event Windows Messenger", "BeforeAppLaunch event Windows Messenger , DMsgrSessionEvents interface", "DMsgrSessionEvents interface Windows Messenger , BeforeAppLaunch event"]
+description: Fires when the sessions application is about to be launched.
+ms.assetid: f619a9e8-9bd6-4853-9161-08429216fcef
+keywords:
+- BeforeAppLaunch event Windows Messenger
+- BeforeAppLaunch event Windows Messenger , DMsgrSessionEvents interface
+- DMsgrSessionEvents interface Windows Messenger , BeforeAppLaunch event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msnmsgrexe.adeb440d_7847_4f65_80bd_899870ed2ec9
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMsgrSessionEvents::BeforeAppLaunch event
 
-\[**BeforeAppLaunch** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**BeforeAppLaunch** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Fires when the session's application is about to be launched.
 
@@ -24,7 +32,7 @@ Fires when the session's application is about to be launched.
 
 ```C++
 void BeforeAppLaunch(
-  [in, out] VARIANT_BOOL *pBoolfEnableDefault = VARIANT_TRUE
+  [in, out] VARIANT_BOOL *pBoolfEnableDefault = VARIANT_TRUE
 );
 ```
 
@@ -48,7 +56,7 @@ Pointer to a **VARIANT\_BOOL** that defines one of the following possible values
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -66,10 +74,10 @@ The value of *pBoolfEnableDefault* indicates whether a Messenger client will lau
 
 |                                     |                                                                                                                                |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                           |
-| End of client support<br/>    | Windows XP<br/>                                                                                                          |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                           |
+| End of client support<br/>    | Windows XP<br/>                                                                                                          |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                                                 |
 | Product<br/>                  | Messenger 4.5<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>                                          |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl>                                        |
@@ -114,9 +122,9 @@ The value of *pBoolfEnableDefault* indicates whether a Messenger client will lau
 [Messenger Session Invite and Messenger Private APIs](im-session-invite-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

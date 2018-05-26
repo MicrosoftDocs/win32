@@ -1,7 +1,12 @@
 ---
 title: How to Handle Drop-down Buttons
 description: A drop-down button can present users with a list of options.
-ms.assetid: '2D908D4B-AA8B-4DEF-B656-C37B673ABB4D'
+ms.assetid: 2D908D4B-AA8B-4DEF-B656-C37B673ABB4D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Handle Drop-down Buttons

@@ -1,12 +1,18 @@
 ---
 title: Buffer Load methods
 description: Reads Buffer data.
-ms.assetid: '53FD566F-2017-43B9-8E36-134958B74108'
-keywords: ["Load methods HLSL"]
+ms.assetid: 53FD566F-2017-43B9-8E36-134958B74108
+keywords:
+- Load methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Buffer::Load methods
@@ -31,9 +37,9 @@ Reads [**Buffer**](sm5-object-buffer.md) data.
 [Buffer](sm5-object-buffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

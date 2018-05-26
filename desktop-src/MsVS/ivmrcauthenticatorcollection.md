@@ -1,8 +1,10 @@
 ---
 title: IVMRCAuthenticatorCollection interface
 description: The IVMRCAuthenticatorCollection interface defines the collection of available VMRC authenticators.
-ms.assetid: '2b6a82df-c365-48e1-a585-62ca3c9f04ca'
-keywords: ["IVMRCAuthenticatorCollection interface Virtual Server", "IVMRCAuthenticatorCollection interface Virtual Server , described"]
+ms.assetid: 2b6a82df-c365-48e1-a585-62ca3c9f04ca
+keywords:
+- IVMRCAuthenticatorCollection interface Virtual Server
+- IVMRCAuthenticatorCollection interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCAuthenticatorCollection interface
@@ -41,7 +48,7 @@ The **IVMRCAuthenticatorCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -49,8 +56,8 @@ The **IVMRCAuthenticatorCollection** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -65,9 +72,9 @@ The **IVMRCAuthenticatorCollection** interface has these properties.
 [**IVMRCAuthenticator**](ivmrcauthenticator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

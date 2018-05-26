@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_SecurityDescriptor abstract WMI class represents a SECURITY\_DESCRIPTOR structure. A security descriptor contains the security information for a securable object.'
+Description: The Win32\_SecurityDescriptor abstract WMI class represents a SECURITY\_DESCRIPTOR structure. A security descriptor contains the security information for a securable object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1045d6e2-64bb-404f-80f2-3b5b46717892'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1045d6e2-64bb-404f-80f2-3b5b46717892
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SecurityDescriptor class'
+title: Win32\_SecurityDescriptor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SecurityDescriptor class
@@ -22,12 +25,12 @@ The following syntax is simplified from Managed Object Format (MOF) code, and in
 [abstract, UUID("{8502C58B-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_SecurityDescriptor : __SecurityDescriptor
 {
-  uint64        TIME_CREATED;
-  uint32        ControlFlags;
-  Win32_ACE     DACL[];
+  uint64        TIME_CREATED;
+  uint32        ControlFlags;
+  Win32_ACE     DACL[];
   Win32_Trustee Group;
   Win32_Trustee Owner;
-  Win32_ACE     SACL[];
+  Win32_ACE     SACL[];
 };
 ```
 
@@ -299,8 +302,8 @@ The **ControlFlags** property contains individual bit positions, which indicate 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -326,9 +329,9 @@ The **ControlFlags** property contains individual bit positions, which indicate 
 [Changing Access Security on Securable Objects](https://msdn.microsoft.com/library/aa384905)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

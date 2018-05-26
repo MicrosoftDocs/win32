@@ -1,8 +1,11 @@
 ---
 title: IResultVerb Icon property
 description: This property returns a pointer to handle of the optional icon associated with the verb.
-ms.assetid: '19de0e36-b453-48a4-8ac0-f26432e088ae'
-keywords: ["Icon property Legacy Windows Environment Features", "Icon property Legacy Windows Environment Features , IResultVerb interface", "IResultVerb interface Legacy Windows Environment Features , Icon property"]
+ms.assetid: 19de0e36-b453-48a4-8ac0-f26432e088ae
+keywords:
+- Icon property Legacy Windows Environment Features
+- Icon property Legacy Windows Environment Features , IResultVerb interface
+- IResultVerb interface Legacy Windows Environment Features , Icon property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultVerb::Icon property
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Icon(
-  [out, retval] SHANDLE_PTR *hicon
+  [out, retval] SHANDLE_PTR *hicon
 );
 ```
 
@@ -43,16 +51,16 @@ hicon is a pointer to the handle of the optional icon assocuated with the verb.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

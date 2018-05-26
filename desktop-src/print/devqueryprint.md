@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'B3135A43-A328-4103-AB75-A37F02322F70'
+---
+Description: .
+ms.assetid: B3135A43-A328-4103-AB75-A37F02322F70
 title: DevQueryPrint function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DevQueryPrint function

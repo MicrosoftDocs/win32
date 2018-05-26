@@ -4,11 +4,13 @@ description: An event that represents a change to the central RDV settings.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '95be015e-a185-4548-a7f7-a22b351a34c8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 95be015e-a185-4548-a7f7-a22b351a34c8
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_CentralPublishingChangeEvent class Remote Desktop Services", "Win32_CentralPublishingChangeEvent class Remote Desktop Services , described"]
+keywords:
+- Win32_CentralPublishingChangeEvent class Remote Desktop Services
+- Win32_CentralPublishingChangeEvent class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_CentralPublishingChangeEvent class
@@ -34,7 +39,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_CentralPublishingChangeEvent : __ExtrinsicEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   object TargetInstance;
   uint32 OperationType;
@@ -137,16 +142,16 @@ For more information about using **uint64** values in scripts, see [Scripting in
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
 | Namespace<br/>                | Root\\cimv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>Tscpub.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TscPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

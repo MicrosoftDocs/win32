@@ -1,12 +1,17 @@
 ---
-Description: 'You now have all the essential elements needed to navigate anywhere in the namespace.'
-ms.assetid: 'b65bc979-db32-48b3-b71f-fd389957b265'
+Description: You now have all the essential elements needed to navigate anywhere in the namespace.
+ms.assetid: b65bc979-db32-48b3-b71f-fd389957b265
 title: Navigating the Namespace
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Navigating the Namespace
 
-You now have all the essential elements needed to navigate anywhere in the namespace. The simplest way to start is to have your application call [**SHGetDesktopFolder**](shgetdesktopfolder.md) to retrieve the desktop's [**IShellFolder**](ishellfolder.md) interface. Then, to navigate downward through the namespace, your application can follow these steps:
+You now have all the essential elements needed to navigate anywhere in the namespace. The simplest way to start is to have your application call [**SHGetDesktopFolder**](/windows/win32/shlobj_core/nf-shlobj_core-shgetdesktopfolder?branch=master) to retrieve the desktop's [**IShellFolder**](ishellfolder.md) interface. Then, to navigate downward through the namespace, your application can follow these steps:
 
 1.  Enumerate the folder's contents.
 2.  Determine which objects are subfolders, and select one.

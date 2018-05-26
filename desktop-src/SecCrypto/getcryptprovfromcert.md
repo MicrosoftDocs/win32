@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a handle to a cryptographic service provider (CSP) and a key specification for a certificate context.'
-ms.assetid: 'ff72231f-e10f-49d2-b0e0-0008923803cc'
+---
+Description: Gets a handle to a cryptographic service provider (CSP) and a key specification for a certificate context.
+ms.assetid: ff72231f-e10f-49d2-b0e0-0008923803cc
 title: GetCryptProvFromCert function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCryptProvFromCert function
@@ -50,7 +55,7 @@ The handle of the window to use as the owner of any dialog boxes that are displa
 *pCert* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_CONTEXT**](cert-context.md) structure for the certificate.
+A pointer to a [**CERT\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master) structure for the certificate.
 
 </dd> <dt>
 

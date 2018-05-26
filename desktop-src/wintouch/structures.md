@@ -1,8 +1,14 @@
 ---
 title: Structures
 description: This section contains structures for Windows Touch input.
-ms.assetid: '3735cfa1-095b-416c-a863-84fd7de4ba03'
-keywords: ["Windows Touch,structures"]
+ms.assetid: 3735cfa1-095b-416c-a863-84fd7de4ba03
+keywords:
+- Windows Touch,structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structures
@@ -15,7 +21,7 @@ The following structures are used for Windows Touch input.
 
 | Structure                        | Description                        |
 |----------------------------------|------------------------------------|
-| [**TOUCHINPUT**](touchinput.md) | Encapsulates data for touch input. |
+| [**TOUCHINPUT**](/windows/win32/winuser/ns-winuser-tagtouchinput?branch=master) | Encapsulates data for touch input. |
 
 
 

@@ -1,8 +1,16 @@
 ---
 title: Reading Color Values from the Framebuffer
 description: When using functions that read back color values from the framebuffer, be aware of the differences between reading RGBA values and color-index values on true-color devices and on palette-based devices.
-ms.assetid: '70a96f09-37e9-4dfe-a6e0-0223e0a04bac'
-keywords: ["OpenGL on Windows,reading color values from framebuffers", "reading color values from framebuffers OpenGL", "framebuffers,reading color values OpenGL"]
+ms.assetid: 70a96f09-37e9-4dfe-a6e0-0223e0a04bac
+keywords:
+- OpenGL on Windows,reading color values from framebuffers
+- reading color values from framebuffers OpenGL
+- framebuffers,reading color values OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading Color Values from the Framebuffer

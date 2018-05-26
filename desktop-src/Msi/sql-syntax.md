@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SQL query strings for Windows Installer are restricted to the following formats.'
-ms.assetid: 'badee528-fa69-43ab-965e-d9e6f2529b99'
+---
+Description: The SQL query strings for Windows Installer are restricted to the following formats.
+ms.assetid: badee528-fa69-43ab-965e-d9e6f2529b99
 title: SQL Syntax
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SQL Syntax
@@ -37,9 +42,9 @@ The LOCALIZABLE option sets a column attribute that indicates the column needs t
 
 A {column} is a columnar reference to a value in a field of a table.
 
-A {marker} is a parameter reference to a value supplied by a record submitted with the query. It is represented in the SQL statement by a question mark ?. For information regarding the use of parameters, see either the [**MsiViewExecute**](msiviewexecute.md) function or the [**Execute**](view-execute.md) method.
+A {marker} is a parameter reference to a value supplied by a record submitted with the query. It is represented in the SQL statement by a question mark ?. For information regarding the use of parameters, see either the [**MsiViewExecute**](/windows/win32/Msiquery/nf-msiquery-msiviewexecute?branch=master) function or the [**Execute**](view-execute.md) method.
 
-The Windows Installer SQL syntax does not support the escaping of single-quotes (ASCII value 39) in a string literal. However, you can fetch or create the record, set the field with the [**StringData**](record-stringdata.md) or [**IntegerData**](record-integerdata.md) property, and then call the [**Modify**](view-modify.md) method. Alternatively, you can create a record and use the parameter markers (?) described in [**Execute**](view-execute.md) method. You can also do this using the database functions [**MsiViewExecute**](msiviewexecute.md), [**MsiRecordSetInteger**](msirecordsetinteger.md), and [**MsiRecordSetString**](msirecordsetstring.md).
+The Windows Installer SQL syntax does not support the escaping of single-quotes (ASCII value 39) in a string literal. However, you can fetch or create the record, set the field with the [**StringData**](record-stringdata.md) or [**IntegerData**](record-integerdata.md) property, and then call the [**Modify**](view-modify.md) method. Alternatively, you can create a record and use the parameter markers (?) described in [**Execute**](view-execute.md) method. You can also do this using the database functions [**MsiViewExecute**](/windows/win32/Msiquery/nf-msiquery-msiviewexecute?branch=master), [**MsiRecordSetInteger**](/windows/win32/Msiquery/nf-msiquery-msirecordsetinteger?branch=master), and [**MsiRecordSetString**](/windows/win32/Msiquery/nf-msiquery-msirecordsetstringa?branch=master).
 
 A WHERE {operation-list} clause is optional and is a grouping of operations to be used to filter the selection. The operations must be of the following types:
 
@@ -81,9 +86,9 @@ Tables may not contain more than one column of type 'object'.
 
 The maximum size that can be explicitly specified for a string column in a SQL query is 255. A string column of infinite length is represented as having size 0. For more information, see [Column Definition Format](column-definition-format.md).
 
-To execute any SQL statement, a view must be created. However, a view that does not create a result set, such as CREATE TABLE, or INSERT INTO, cannot be used with [**MsiViewModify**](msiviewmodify.md) or the [**Modify**](view-modify.md) method to update tables though the view.
+To execute any SQL statement, a view must be created. However, a view that does not create a result set, such as CREATE TABLE, or INSERT INTO, cannot be used with [**MsiViewModify**](/windows/win32/Msiquery/nf-msiquery-msiviewmodify?branch=master) or the [**Modify**](view-modify.md) method to update tables though the view.
 
-Note that you cannot fetch a record containing binary data from one database and then use that record to insert the data into a completely different database. To move binary data from one database to another, you should export the data to a file and then import it into the new database through a query and the [**MsiRecordSetStream**](msirecordsetstream.md) function. This ensures that each database has its own copy of the binary data.
+Note that you cannot fetch a record containing binary data from one database and then use that record to insert the data into a completely different database. To move binary data from one database to another, you should export the data to a file and then import it into the new database through a query and the [**MsiRecordSetStream**](/windows/win32/Msiquery/nf-msiquery-msirecordsetstreama?branch=master) function. This ensures that each database has its own copy of the binary data.
 
  
 

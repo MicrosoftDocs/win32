@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get the semantics for all shader output elements.'
-ms.assetid: '1a3cdd5d-0ea7-48ae-a3f1-030e95b03a42'
+---
+Description: Get the semantics for all shader output elements.
+ms.assetid: 1a3cdd5d-0ea7-48ae-a3f1-030e95b03a42
 title: D3DXGetShaderOutputSemantics function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXGetShaderOutputSemantics function

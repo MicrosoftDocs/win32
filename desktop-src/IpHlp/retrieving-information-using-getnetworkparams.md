@@ -1,16 +1,21 @@
 ---
-Description: 'Fills a pointer to a FIXED\_INFO structure with data about the current network settings.'
-ms.assetid: 'd377951f-e7d4-4482-9182-2c3b153cb325'
+Description: Fills a pointer to a FIXED\_INFO structure with data about the current network settings.
+ms.assetid: d377951f-e7d4-4482-9182-2c3b153cb325
 title: Retrieving Information Using GetNetworkParams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Information Using GetNetworkParams
 
-The [**GetNetworkParams**](getnetworkparams.md) function fills a pointer to a [**FIXED\_INFO**](fixed-info.md) structure with data about the current network settings.
+The [**GetNetworkParams**](/windows/win32/Iphlpapi/nf-iphlpapi-getnetworkparams?branch=master) function fills a pointer to a [**FIXED\_INFO**](/windows/win32/Iptypes/ns-iptypes-fixed_info_w2ksp1?branch=master) structure with data about the current network settings.
 
 **To use GetNetworkParams**
 
-1.  Declare a pointer to a [**FIXED\_INFO**](fixed-info.md) object called *pFixedInfo*, and a **ULONG** object called *ulOutBufLen*. These variables are passed as parameters to the [**GetNetworkParams**](getnetworkparams.md) function. Also create a **DWORD** variable *dwRetVal* (used for error checking).
+1.  Declare a pointer to a [**FIXED\_INFO**](/windows/win32/Iptypes/ns-iptypes-fixed_info_w2ksp1?branch=master) object called *pFixedInfo*, and a **ULONG** object called *ulOutBufLen*. These variables are passed as parameters to the [**GetNetworkParams**](/windows/win32/Iphlpapi/nf-iphlpapi-getnetworkparams?branch=master) function. Also create a **DWORD** variable *dwRetVal* (used for error checking).
     ```C++
         FIXED_INFO *pFixedInfo;
         IP_ADDR_STRING *pIPAddr;
@@ -34,7 +39,7 @@ The [**GetNetworkParams**](getnetworkparams.md) function fills a pointer to a [*
 
     
 
-3.  Make an initial call to [**GetNetworkParams**](getnetworkparams.md) to get the size required for the *ulOutBufLen* variable.
+3.  Make an initial call to [**GetNetworkParams**](/windows/win32/Iphlpapi/nf-iphlpapi-getnetworkparams?branch=master) to get the size required for the *ulOutBufLen* variable.
     > [!Note]  
     > This function function will fail, and is used to ensure that the *ulOutBufLen* variable specifies a size sufficient for holding all the data returned to *pFixedInfo*. This is a common programming model for data structures and functions of this type.
 
@@ -52,7 +57,7 @@ The [**GetNetworkParams**](getnetworkparams.md) function fills a pointer to a [*
 
     
 
-4.  Make a second call to [**GetNetworkParams**](getnetworkparams.md) using general error checking and returning its value to the **DWORD** variable *dwRetVal*; used for more advanced error checking.
+4.  Make a second call to [**GetNetworkParams**](/windows/win32/Iphlpapi/nf-iphlpapi-getnetworkparams?branch=master) using general error checking and returning its value to the **DWORD** variable *dwRetVal*; used for more advanced error checking.
     ```C++
         if (dwRetVal = GetNetworkParams(pFixedInfo, &amp;ulOutBufLen) != NO_ERROR) {
             printf("GetNetworkParams failed with error %d\n", dwRetVal);

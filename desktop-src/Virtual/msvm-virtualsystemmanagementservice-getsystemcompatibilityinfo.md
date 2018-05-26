@@ -1,8 +1,11 @@
 ---
 title: GetSystemCompatibilityInfo method of the Msvm\_VirtualSystemManagementService class
 description: Generates an opaque BLOB of data that contains compatibility information for the specified system.
-ms.assetid: 'c21a9de1-e196-444e-ac4d-99a016aec4a6'
-keywords: ["GetSystemCompatibilityInfo method Hyper-V", "GetSystemCompatibilityInfo method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , GetSystemCompatibilityInfo method"]
+ms.assetid: c21a9de1-e196-444e-ac4d-99a016aec4a6
+keywords:
+- GetSystemCompatibilityInfo method Hyper-V
+- GetSystemCompatibilityInfo method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , GetSystemCompatibilityInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSystemCompatibilityInfo method of the Msvm\_VirtualSystemManagementService class
@@ -22,8 +30,8 @@ Generates an opaque BLOB of data that contains compatibility information for the
 
 ```mof
 uint32 GetSystemCompatibilityInfo(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [out] uint8                  CompatibilityInfo[]
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [out] uint8                  CompatibilityInfo[]
 );
 ```
 
@@ -77,7 +85,7 @@ This method returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -92,9 +100,9 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -107,9 +115,9 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

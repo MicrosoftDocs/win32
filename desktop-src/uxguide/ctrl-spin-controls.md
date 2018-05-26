@@ -1,7 +1,12 @@
 ---
 title: Spin Controls
 description: With a spin control, users can click arrow buttons to change incrementally the value within its associated numeric text box.
-ms.assetid: '5f791fb9-1354-41b9-a9de-ddab35302d50'
+ms.assetid: 5f791fb9-1354-41b9-a9de-ddab35302d50
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Spin Controls

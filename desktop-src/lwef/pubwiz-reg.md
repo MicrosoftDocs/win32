@@ -1,8 +1,18 @@
 ---
 title: Registering a Service
 description: To add your service to the list of providers in either the Web Publishing Wizard or the Online Print Ordering Wizard, you must add the appropriate key and its values to the Windows registry.
-ms.assetid: '4a6f6df8-f850-4a80-9cf9-e62f3350915f'
-keywords: ["register,services", "Web Publishing Wizard,registering", "Online Print Ordering Wizard,registering", "register,Web Publishing Wizard", "register,Online Print Ordering Wizard"]
+ms.assetid: 4a6f6df8-f850-4a80-9cf9-e62f3350915f
+keywords:
+- register,services
+- Web Publishing Wizard,registering
+- Online Print Ordering Wizard,registering
+- register,Web Publishing Wizard
+- register,Online Print Ordering Wizard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Service

@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VirtualSystemGlobalSettingData class
 description: Represents the global settings for a virtual system.
-ms.assetid: 'c0a45ae9-fd09-4bae-a434-2cfac166ada3'
-keywords: ["Msvm_VirtualSystemGlobalSettingData class Hyper-V", "Msvm_VirtualSystemGlobalSettingData class Hyper-V , described"]
+ms.assetid: c0a45ae9-fd09-4bae-a434-2cfac166ada3
+keywords:
+- Msvm_VirtualSystemGlobalSettingData class Hyper-V
+- Msvm_VirtualSystemGlobalSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemGlobalSettingData class
@@ -42,7 +49,7 @@ Represents the global settings for a virtual system. These settings do not chang
 
 The **Msvm\_VirtualSystemGlobalSettingData** class is derived from [**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954).
 
-**Windows Server 2008:** The **Msvm\_VirtualSystemGlobalSettingData** class is derived from [**CIM\_SettingData**](https://msdn.microsoft.com/library/cc136911).
+**Windows Server 2008:** The **Msvm\_VirtualSystemGlobalSettingData** class is derived from [**CIM\_SettingData**](https://msdn.microsoft.com/library/cc136911).
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -52,29 +59,29 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemGlobalSettingData : CIM_VirtualSystemSettingData
 {
-  string   Caption = "Global Virtual Machine Settings";
-  string   Description = "Global settings for the virtual machine";
-  string   SystemName = "GUID";
-  string   InstanceID = "Microsoft:GUID\Global";
-  string   ElementName = "Global Virtual Machine Settings";
-  uint16   VirtualSystemType = 301;
-  boolean  AutoActivate;
-  string   OtherVirtualSystemType;
+  string   Caption = "Global Virtual Machine Settings";
+  string   Description = "Global settings for the virtual machine";
+  string   SystemName = "GUID";
+  string   InstanceID = "Microsoft:GUID\Global";
+  string   ElementName = "Global Virtual Machine Settings";
+  uint16   VirtualSystemType = 301;
+  boolean  AutoActivate;
+  string   OtherVirtualSystemType;
   datetime CreationTime;
-  string   ExternalDataRoot;
-  uint16   SettingType = 32768;
-  string   SnapshotDataRoot;
-  uint16   AutomaticStartupAction = 1;
+  string   ExternalDataRoot;
+  uint16   SettingType = 32768;
+  string   SnapshotDataRoot;
+  uint16   AutomaticStartupAction = 1;
   datetime AutomaticStartupActionDelay = 00000000000000.000000:000;
-  uint16   AutomaticShutdownAction = 1;
-  uint16   AutomaticRecoveryAction = 1;
-  string   AdditionalRecoveryInformation;
-  string   ScopeOfResidence;
-  uint32   DebugChannelId;
-  uint32   DebugPort;
-  uint16   DebugPortEnabled;
-  boolean  AllowFullSCSICommandSet = False;
-  string   Version;
+  uint16   AutomaticShutdownAction = 1;
+  uint16   AutomaticRecoveryAction = 1;
+  string   AdditionalRecoveryInformation;
+  string   ScopeOfResidence;
+  uint32   DebugChannelId;
+  uint32   DebugPort;
+  uint16   DebugPortEnabled;
+  boolean  AllowFullSCSICommandSet = False;
+  string   Version;
 };
 ```
 
@@ -118,7 +125,7 @@ Indicates whether SCSI commands from the guest operating system are passed to pa
 
 This is a read-only property, but it can be changed using the [**ModifyVirtualSystem**](modifyvirtualsystem-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
-**Windows Server 2008:** The **AllowFullSCSICommandSet** property is not supported before Windows Server 2008 R2.
+**Windows Server 2008:** The **AllowFullSCSICommandSet** property is not supported before Windows Server 2008 R2.
 
 
 
@@ -129,7 +136,7 @@ This is a read-only property, but it can be changed using the [**ModifyVirtualSy
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -144,7 +151,7 @@ Access type: Read-only
 
 This property is inherited from [**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954) and it is set to **NULL**.
 
-**Windows Server 2008:** The **AutoActivate** property is not supported before Windows Server 2008 R2.
+**Windows Server 2008:** The **AutoActivate** property is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -321,7 +328,7 @@ The date or time when the virtual system setting data was created. For snapshots
 
 This is a read-only property, but it can be changed using the [**ModifyVirtualSystem**](modifyvirtualsystem-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
-**Windows Server 2008:** The **CreationTime** property is not supported before Windows Server 2008 R2.
+**Windows Server 2008:** The **CreationTime** property is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -457,7 +464,7 @@ Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa39365
 
 This property is inherited from [**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954) and it is set to **NULL**.
 
-**Windows Server 2008:** The **OtherVirtualSystemType** property is not supported before Windows Server 2008 R2.
+**Windows Server 2008:** The **OtherVirtualSystemType** property is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -490,7 +497,7 @@ Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) (Setting
 
 This property is inherited from [**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954) and it is set to 32768, which means "Global setting type".
 
-**Windows Server 2008:** The **SettingType** property is not supported before Windows Server 2008 R2.
+**Windows Server 2008:** The **SettingType** property is not supported before Windows Server 2008 R2.
 
 <dt>
 
@@ -564,7 +571,7 @@ Access type: Read/write
 
 The label by which the object is known. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954) and it is set to "*GUID*". This corresponds to the **Name** property of the associated [**Msvm\_ComputerSystem**](msvm-computersystem.md) class and the **SystemName** property of the associated [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md) class.
 
-**Windows Server 2008:** The **SystemName** property is not supported before Windows Server 2008 R2.
+**Windows Server 2008:** The **SystemName** property is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -579,7 +586,7 @@ Access type: Read-only
 
 The version of the virtual system in a format of "*major*.*minor*", for example "2.0".
 
-**Windows Server 2008:** The **Version** property is not supported before Windows Server 2008 R2.
+**Windows Server 2008:** The **Version** property is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -597,7 +604,7 @@ Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa39365
 
 This property is inherited from [**CIM\_VirtualSystemSettingData**](https://msdn.microsoft.com/library/cc136954) and it is set to 301, which means "Hyper-V".
 
-**Windows Server 2008:** The **VirtualSystemType** property is not supported before Windows Server 2008 R2.
+**Windows Server 2008:** The **VirtualSystemType** property is not supported before Windows Server 2008 R2.
 
 </dd> </dl>
 
@@ -612,9 +619,9 @@ Access to the **Msvm\_VirtualSystemGlobalSettingData** class might be restricted
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -636,9 +643,9 @@ Access to the **Msvm\_VirtualSystemGlobalSettingData** class might be restricted
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

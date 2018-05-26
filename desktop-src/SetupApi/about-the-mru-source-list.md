@@ -1,7 +1,12 @@
 ---
-Description: 'The most recently used (MRU) source list remains resident on the user's system.'
-ms.assetid: '010f8f88-999e-4dde-bffb-ac1a07256d55'
+Description: The most recently used (MRU) source list remains resident on the users system.
+ms.assetid: 010f8f88-999e-4dde-bffb-ac1a07256d55
 title: About the MRU Source List
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the MRU Source List

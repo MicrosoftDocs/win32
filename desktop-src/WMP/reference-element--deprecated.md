@@ -1,8 +1,16 @@
 ---
 title: reference Element (deprecated)
 description: reference Element (deprecated)
-ms.assetid: '0a549750-abaa-43bf-8420-8fe00eb6feff'
-keywords: ["Windows Media metafiles,reference element", "metafiles,reference element", "reference element"]
+ms.assetid: 0a549750-abaa-43bf-8420-8fe00eb6feff
+keywords:
+- Windows Media metafiles,reference element
+- metafiles,reference element
+- reference element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # reference Element (deprecated)

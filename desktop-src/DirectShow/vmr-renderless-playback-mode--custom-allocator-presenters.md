@@ -1,7 +1,12 @@
 ---
-Description: 'VMR Renderless Playback Mode (Custom Allocator-Presenters)'
-ms.assetid: '0381f862-2f16-4b4d-be48-40f7fe151585'
-title: 'VMR Renderless Playback Mode (Custom Allocator-Presenters)'
+Description: VMR Renderless Playback Mode (Custom Allocator-Presenters)
+ms.assetid: 0381f862-2f16-4b4d-be48-40f7fe151585
+title: VMR Renderless Playback Mode (Custom Allocator-Presenters)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMR Renderless Playback Mode (Custom Allocator-Presenters)

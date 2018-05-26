@@ -4,11 +4,15 @@ description: This topic describes success return values from functions in Active
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9906c982-8320-4c61-b18d-ce0fdecd69c4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 9906c982-8320-4c61-b18d-ce0fdecd69c4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Success AD"]
+keywords:
+- Success AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Success

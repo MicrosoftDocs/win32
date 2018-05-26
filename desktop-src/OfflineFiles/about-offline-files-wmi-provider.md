@@ -1,13 +1,16 @@
 ---
-Description: 'The Offline Files WMI provider enables administrators and developers to access with scripts a subset of the functionality offered by the Offline Files API Reference.'
+Description: The Offline Files WMI provider enables administrators and developers to access with scripts a subset of the functionality offered by the Offline Files API Reference.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5646e766-715c-4920-ab3c-04423a3f6f10'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5646e766-715c-4920-ab3c-04423a3f6f10
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
 title: About Offline Files WMI Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Offline Files WMI Provider

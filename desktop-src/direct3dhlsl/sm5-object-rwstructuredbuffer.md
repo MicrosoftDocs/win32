@@ -1,14 +1,20 @@
 ---
 title: RWStructuredBuffer
 description: A read/write buffer that can take a T type that is a structure.
-ms.assetid: '8dd93b81-135d-4f28-898f-38510dc39af1'
-keywords: ["RWStructuredBuffer HLSL"]
+ms.assetid: 8dd93b81-135d-4f28-898f-38510dc39af1
+keywords:
+- RWStructuredBuffer HLSL
 topic_type:
 - apiref
 api_name:
 - RWStructuredBuffer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RWStructuredBuffer
@@ -27,7 +33,7 @@ A read/write buffer that can take a T type that is a structure.
 
 
 
- 
+ 
 
 A resource variable can also be passed into any unordered or interlocked operation.
 
@@ -49,7 +55,7 @@ This object is supported in the following shader models.
 
 
 
- 
+ 
 
 This object is supported for the following types of shaders:
 
@@ -61,7 +67,7 @@ This object is supported for the following types of shaders:
 
 
 
- 
+ 
 
 ## See also
 
@@ -70,9 +76,9 @@ This object is supported for the following types of shaders:
 [Shader Model 5 Objects](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: The property method of the IADsBackLink interface sets the property
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0a66fa6d-1bf5-4ff0-8bbd-625a69cf9594'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0a66fa6d-1bf5-4ff0-8bbd-625a69cf9594
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsBackLink Property Methods ADSI"]
+keywords:
+- IADsBackLink Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -23,11 +24,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsBackLink Property Methods
 
-The property method of the [**IADsBackLink**](iadsbacklink.md) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property method of the [**IADsBackLink**](/windows/win32/Iads/nn-iads-iadsbacklink?branch=master) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -89,7 +93,7 @@ HRESULT put_RemoteID(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -97,8 +101,8 @@ HRESULT put_RemoteID(
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsBackLink is defined as FD1302BD-4080-11D1-A3AC-00C04FB950DC<br/>         |
@@ -109,15 +113,15 @@ HRESULT put_RemoteID(
 
 <dl> <dt>
 
-[**IADsBackLink**](iadsbacklink.md)
+[**IADsBackLink**](/windows/win32/Iads/nn-iads-iadsbacklink?branch=master)
 </dt> <dt>
 
-[**ADS\_BACKLINK**](ads-backlink.md)
+[**ADS\_BACKLINK**](/windows/win32/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0008?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

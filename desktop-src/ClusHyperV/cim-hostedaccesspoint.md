@@ -4,13 +4,15 @@ description: Represents an association between a service access point (SAP) and 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e99ee786-da76-44b9-951b-7520d8e41059'
-ms.prod: 'windows-server-dev'
+ms.assetid: e99ee786-da76-44b9-951b-7520d8e41059
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_HostedAccessPoint class", "CIM_HostedAccessPoint class, described"]
+keywords:
+- CIM_HostedAccessPoint class
+- CIM_HostedAccessPoint class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_HostedAccessPoint class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Version("2.10.0"), UMLPackagePath("CIM::Core::Service")]
 class CIM_HostedAccessPoint : CIM_HostedDependency
 {
-  CIM_System             REF Antecedent;
+  CIM_System             REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
 };
 ```
@@ -91,7 +96,7 @@ The SAPs that are hosted on the system.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -108,9 +113,9 @@ The SAPs that are hosted on the system.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

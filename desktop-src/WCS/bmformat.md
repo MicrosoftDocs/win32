@@ -1,8 +1,11 @@
 ---
 title: BMFORMAT enumeration
 description: The values of the BMFORMAT enumerated type are used by several WCS functions to indicate the format that particular bitmaps are in.
-ms.assetid: '2388f1b7-af70-4058-a145-abb13159766c'
-keywords: ["BMFORMAT enumeration Windows Color System", "PBMFORMAT enumeration pointer Windows Color System", "LPBMFORMAT enumeration pointer Windows Color System"]
+ms.assetid: 2388f1b7-af70-4058-a145-abb13159766c
+keywords:
+- BMFORMAT enumeration Windows Color System
+- PBMFORMAT enumeration pointer Windows Color System
+- LPBMFORMAT enumeration pointer Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Icm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BMFORMAT enumeration
@@ -22,14 +30,14 @@ The values of the **BMFORMAT** enumerated type are used by several WCS functions
 
 ```C++
 typedef enum tagBMFORMAT { 
-  BM_x555RGB              = 0x0000,
-  BM_x555XYZ              = 0x0101,
+  BM_x555RGB              = 0x0000,
+  BM_x555XYZ              = 0x0101,
   BM_x555Yxy,
   BM_x555Lab,
   BM_x555G3CH,
-  BM_RGBTRIPLETS          = 0x0002,
-  BM_BGRTRIPLETS          = 0x0004,
-  BM_XYZTRIPLETS          = 0x0201,
+  BM_RGBTRIPLETS          = 0x0002,
+  BM_BGRTRIPLETS          = 0x0004,
+  BM_XYZTRIPLETS          = 0x0201,
   BM_YxyTRIPLETS,
   BM_LabTRIPLETS,
   BM_G3CHTRIPLETS,
@@ -38,31 +46,31 @@ typedef enum tagBMFORMAT {
   BM_7CHANNEL,
   BM_8CHANNEL,
   BM_GRAY,
-  BM_xRGBQUADS            = 0x0008,
-  BM_xBGRQUADS            = 0x0010,
-  BM_xG3CHQUADS           = 0x0304,
+  BM_xRGBQUADS            = 0x0008,
+  BM_xBGRQUADS            = 0x0010,
+  BM_xG3CHQUADS           = 0x0304,
   BM_KYMCQUADS,
-  BM_CMYKQUADS            = 0x0020,
-  BM_10b_RGB              = 0x0009,
-  BM_10b_XYZ              = 0x0401,
+  BM_CMYKQUADS            = 0x0020,
+  BM_10b_RGB              = 0x0009,
+  BM_10b_XYZ              = 0x0401,
   BM_10b_Yxy,
   BM_10b_Lab,
   BM_10b_G3CH,
   BM_NAMED_INDEX,
-  BM_16b_RGB              = 0x000A,
-  BM_16b_XYZ              = 0x0501,
+  BM_16b_RGB              = 0x000A,
+  BM_16b_XYZ              = 0x0501,
   BM_16b_Yxy,
   BM_16b_Lab,
   BM_16b_G3CH,
   BM_16b_GRAY,
-  BM_565RGB               = 0x0001,
-  BM_32b_scRGB            = 0x0601,
-  BM_32b_scARGB           = 0x0602,
-  BM_S2DOT13FIXED_scRGB   = 0x0603,
-  BM_S2DOT13FIXED_scARGB  = 0x0604,
-  BM_R10G10B10A2          = 0x0701,
-  BM_R10G10B10A2_XR       = 0x0702,
-  BM_R16G16B16A16_FLOAT   = 0x0703
+  BM_565RGB               = 0x0001,
+  BM_32b_scRGB            = 0x0601,
+  BM_32b_scARGB           = 0x0602,
+  BM_S2DOT13FIXED_scRGB   = 0x0603,
+  BM_S2DOT13FIXED_scARGB  = 0x0604,
+  BM_R10G10B10A2          = 0x0701,
+  BM_R10G10B10A2_XR       = 0x0702,
+  BM_R16G16B16A16_FLOAT   = 0x0703
 } BMFORMAT, *PBMFORMAT, *LPBMFORMAT;
 ```
 
@@ -129,7 +137,7 @@ typedef enum tagBMFORMAT {
 > [!Note]  
 > The [**TranslateBitmapBits**](translatebitmapbits.md) function does not support [**BM\_XYZTRIPLETS**](bmformat.md) as an input.
 
- 
+ 
 
 </dd> <dt>
 
@@ -141,7 +149,7 @@ typedef enum tagBMFORMAT {
 > [!Note]  
 > The [**TranslateBitmapBits**](translatebitmapbits.md) function does not support [**BM\_YxyTRIPLETS**](bmformat.md) as an input.
 
- 
+ 
 
 </dd> <dt>
 
@@ -423,7 +431,7 @@ The follow table shows, for each of the formats, the number of bits per pixel, t
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -431,15 +439,15 @@ The follow table shows, for each of the formats, the number of bits per pixel, t
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

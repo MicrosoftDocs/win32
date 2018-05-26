@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a context.'
-ms.assetid: 'f972ab40-c9e9-4d2a-88f6-4c7817d5533f'
+---
+Description: Creates a context.
+ms.assetid: f972ab40-c9e9-4d2a-88f6-4c7817d5533f
 title: NtGdiD3DContextCreate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiD3DContextCreate function

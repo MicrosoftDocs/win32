@@ -4,11 +4,12 @@ description: Registers a restore operation.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '83a56985-89be-4a95-9a8d-7c6f78d61c9a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 83a56985-89be-4a95-9a8d-7c6f78d61c9a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DsRestoreRegister function Active Directory"]
+keywords:
+- DsRestoreRegister function Active Directory
 topic_type:
 - apiref
 api_name:
@@ -19,11 +20,14 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DsRestoreRegister function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
 
 The **DsRestoreRegister** function registers a restore operation.This function interlocks all subsequent restore operations and prevents the restore target from starting until the [**DsRestoreRegisterComplete**](dsrestoreregistercomplete.md) function is called.
 
@@ -32,14 +36,14 @@ The **DsRestoreRegister** function registers a restore operation.This function i
 
 ```C++
 HRESULT DsRestoreRegister(
-  _In_ HBC        hbc,
-  _In_ LPCTSTR    szCheckPointFilePath,
-  _In_ LPCTSTR    szLogPath,
-  _In_ EDB_RSTMAP rgrstmap[],
-  _In_ LONG       crstmap,
-  _In_ LPCTSTR    szBackupLogPath,
-  _In_ ULONG      genLow,
-  _In_ ULONG      genHigh
+  _In_ HBC        hbc,
+  _In_ LPCTSTR    szCheckPointFilePath,
+  _In_ LPCTSTR    szLogPath,
+  _In_ EDB_RSTMAP rgrstmap[],
+  _In_ LONG       crstmap,
+  _In_ LPCTSTR    szBackupLogPath,
+  _In_ ULONG      genLow,
+  _In_ ULONG      genHigh
 );
 ```
 
@@ -138,8 +142,8 @@ The expiry token supplied to [**DsRestorePrepare**](dsrestoreprepare.md) was inv
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Ntdsbcli.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Ntdsbcli.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdsbcli.dll</dt> </dl> |
@@ -172,9 +176,9 @@ The expiry token supplied to [**DsRestorePrepare**](dsrestoreprepare.md) was inv
 [Directory Backup Functions](directory-backup-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

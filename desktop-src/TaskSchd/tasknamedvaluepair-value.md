@@ -1,8 +1,11 @@
 ---
 title: TaskNamedValuePair.Value property
 description: For scripting, gets or sets the value that is associated with a name in a name-value pair.
-ms.assetid: '15428c07-fdce-40d0-a36c-5e23b462471b'
-keywords: ["Value property Task Scheduler", "Value property Task Scheduler , TaskNamedValuePair object", "TaskNamedValuePair object Task Scheduler , Value property"]
+ms.assetid: 15428c07-fdce-40d0-a36c-5e23b462471b
+keywords:
+- Value property Task Scheduler
+- Value property Task Scheduler , TaskNamedValuePair object
+- TaskNamedValuePair object Task Scheduler , Value property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskNamedValuePair.Value property
@@ -36,16 +44,16 @@ The value that is associated with a name in a name-value pair.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

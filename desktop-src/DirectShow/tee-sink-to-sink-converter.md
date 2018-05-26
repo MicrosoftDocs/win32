@@ -1,7 +1,12 @@
 ---
-Description: 'Tee/Sink-to-Sink Converter'
-ms.assetid: '8ee5e20c-f37a-4a9b-9382-2ed94333c6ec'
-title: 'Tee/Sink-to-Sink Converter'
+Description: Tee/Sink-to-Sink Converter
+ms.assetid: 8ee5e20c-f37a-4a9b-9382-2ed94333c6ec
+title: Tee/Sink-to-Sink Converter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tee/Sink-to-Sink Converter

@@ -1,14 +1,20 @@
 ---
 title: Load(int) function
 description: Reads buffer data.
-ms.assetid: '3066E244-DE56-4F0D-8443-018B9EFEC1FF'
-keywords: ["Load function HLSL"]
+ms.assetid: 3066E244-DE56-4F0D-8443-018B9EFEC1FF
+keywords:
+- Load function HLSL
 topic_type:
 - apiref
 api_name:
 - Load
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load(int) function

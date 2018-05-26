@@ -1,7 +1,12 @@
 ---
 title: Cross Fade effect
 description: This effect combines two images by adding weighted pixels from input images. It has two inputs, named Destination and Source.
-ms.assetid: '5214b70a-d024-ba3e-771f-07d98d2278ba'
+ms.assetid: 5214b70a-d024-ba3e-771f-07d98d2278ba
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cross Fade effect
@@ -22,7 +27,7 @@ The CLSID for this effect is CLSID\_D2D1CrossFade.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -30,25 +35,25 @@ The CLSID for this effect is CLSID\_D2D1CrossFade.
 
 |                          |                                                   |
 |--------------------------|---------------------------------------------------|
-| Minimum supported client | Windows 10 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 10 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 10 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 10 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects\_2.h                                  |
 | Library                  | d2d1.lib, dxguid.lib                              |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

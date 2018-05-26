@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example demonstrates how to retrieve information about the incoming archive and faxes in the archive, and how to delete a fax from the archive.'
-ms.assetid: '1e66b30d-e74f-4c73-b005-acd2d0fd8893'
+Description: The following Microsoft Visual Basic code example demonstrates how to retrieve information about the incoming archive and faxes in the archive, and how to delete a fax from the archive.
+ms.assetid: 1e66b30d-e74f-4c73-b005-acd2d0fd8893
 title: Managing the Incoming Archive
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing the Incoming Archive

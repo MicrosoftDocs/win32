@@ -1,7 +1,12 @@
-﻿---
-Description: 'Set translation information for a specific key frame in the animation set.'
-ms.assetid: '4a926c0f-6d57-48d4-bb3b-60766fc78e40'
-title: 'ID3DXKeyframedAnimationSet::SetTranslationKey method'
+---
+Description: Set translation information for a specific key frame in the animation set.
+ms.assetid: 4a926c0f-6d57-48d4-bb3b-60766fc78e40
+title: ID3DXKeyframedAnimationSetSetTranslationKey method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXKeyframedAnimationSet::SetTranslationKey method

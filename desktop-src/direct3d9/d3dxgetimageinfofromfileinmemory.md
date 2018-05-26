@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves information about a given image file in memory.'
-ms.assetid: '6363aaf1-abfc-49df-9b99-be8a1c3540e1'
+---
+Description: Retrieves information about a given image file in memory.
+ms.assetid: 6363aaf1-abfc-49df-9b99-be8a1c3540e1
 title: D3DXGetImageInfoFromFileInMemory function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXGetImageInfoFromFileInMemory function

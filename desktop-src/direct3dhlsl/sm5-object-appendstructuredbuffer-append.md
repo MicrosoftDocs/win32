@@ -1,14 +1,20 @@
 ---
 title: Append function
 description: Appends a value to the end of the buffer.
-ms.assetid: '667bc6dc-c0d0-419a-9227-99ce30b9cc73'
-keywords: ["Append function HLSL"]
+ms.assetid: 667bc6dc-c0d0-419a-9227-99ce30b9cc73
+keywords:
+- Append function HLSL
 topic_type:
 - apiref
 api_name:
 - Append
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Append function

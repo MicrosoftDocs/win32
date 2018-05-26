@@ -1,13 +1,16 @@
 ---
-Description: 'Represents an aggregate event of several individual intrinsic or extrinsic events.'
+Description: Represents an aggregate event of several individual intrinsic or extrinsic events.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '99afa390-01fe-4a13-ba21-27587470f111'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 99afa390-01fe-4a13-ba21-27587470f111
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_AggregateEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_AggregateEvent class
@@ -76,8 +79,8 @@ Event providers never generate aggregate events. They must ignore the GROUP WITH
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -95,9 +98,9 @@ Event providers never generate aggregate events. They must ignore the GROUP WITH
 [Querying with WQL](querying-with-wql.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

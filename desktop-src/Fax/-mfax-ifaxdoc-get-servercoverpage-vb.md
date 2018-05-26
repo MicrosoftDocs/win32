@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the ServerCoverpage property for a FaxDoc object. The ServerCoverpage property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.'
-ms.assetid: '86895798-9451-40a8-95e0-35bab5871ede'
-title: 'FaxDoc.ServerCoverpage property'
+---
+Description: Sets or retrieves the ServerCoverpage property for a FaxDoc object. The ServerCoverpage property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
+ms.assetid: 86895798-9451-40a8-95e0-35bab5871ede
+title: FaxDoc.ServerCoverpage property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.ServerCoverpage property

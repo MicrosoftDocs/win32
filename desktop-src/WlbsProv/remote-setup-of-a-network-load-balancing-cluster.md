@@ -4,13 +4,18 @@ description: Currently, there is no way to remotely bind the Network Load Balanc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3dcb09ea-9456-4889-9233-afd7c6c80be4'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3dcb09ea-9456-4889-9233-afd7c6c80be4
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["clusters Failover Cluster ,remote setup in NLB", "remote setup of a network load balancing cluster Failover Cluster"]
+keywords:
+- clusters Failover Cluster ,remote setup in NLB
+- remote setup of a network load balancing cluster Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Setup of a Network Load Balancing Cluster

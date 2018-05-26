@@ -1,8 +1,26 @@
 ---
 title: Windows Media Device Manager Device Extensions for Metadata Transfer
 description: Windows Media Device Manager Device Extensions for Metadata Transfer
-ms.assetid: 'c1d84225-b5b1-4f9e-8694-a229653e53de'
-keywords: ["Windows Media Player,device extensions", "Windows Media Player,extensions", "Windows Media Player,metadata", "Windows Media Player,accelerated metadata transfer", "Windows Media Player,metadata accelerated transfer", "metadata,device extensions", "metadata,extensions", "device extensions,metadata transfer", "extensions,metadata transfer", "accelerated metadata transfer", "metadata,accelerated transfer", "device extensions,accelerated metadata transfer", "extensions,accelerated metadata transfer"]
+ms.assetid: c1d84225-b5b1-4f9e-8694-a229653e53de
+keywords:
+- Windows Media Player,device extensions
+- Windows Media Player,extensions
+- Windows Media Player,metadata
+- Windows Media Player,accelerated metadata transfer
+- Windows Media Player,metadata accelerated transfer
+- metadata,device extensions
+- metadata,extensions
+- device extensions,metadata transfer
+- extensions,metadata transfer
+- accelerated metadata transfer
+- metadata,accelerated transfer
+- device extensions,accelerated metadata transfer
+- extensions,accelerated metadata transfer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Device Manager Device Extensions for Metadata Transfer
@@ -18,8 +36,8 @@ Wmpdevices.h defines the following structures.
 
 | Structure                                                                                 | Description                                                                                                                                       |
 |-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [WMP\_WMDM\_METADATA\_ROUND\_TRIP\_PC2DEVICE](wmp-wmdm-metadata-round-trip-pc2device.md) | Structure used by Windows Media Player to request accelerated metadata synchronization information from portable devices that do not support MTP. |
-| [WMP\_WMDM\_METADATA\_ROUND\_TRIP\_DEVICE2PC](wmp-wmdm-metadata-round-trip-device2pc.md) | Structure used by Windows Media Player to receive accelerated metadata synchronization information from portable devices that do not support MTP. |
+| [WMP\_WMDM\_METADATA\_ROUND\_TRIP\_PC2DEVICE](/windows/win32/wmpdevices/ns-wmpdevices-_wmp_wmdm_metadata_round_trip_pc2device?branch=master) | Structure used by Windows Media Player to request accelerated metadata synchronization information from portable devices that do not support MTP. |
+| [WMP\_WMDM\_METADATA\_ROUND\_TRIP\_DEVICE2PC](/windows/win32/wmpdevices/ns-wmpdevices-_wmp_wmdm_metadata_round_trip_device2pc?branch=master) | Structure used by Windows Media Player to receive accelerated metadata synchronization information from portable devices that do not support MTP. |
 
 
 

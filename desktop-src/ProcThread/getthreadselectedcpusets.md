@@ -1,7 +1,12 @@
 ---
-Description: 'Returns the explicit CPU Set assignment of the specified thread, if any assignment was set using the SetThreadSelectedCpuSets API. If no explicit assignment is set, RequiredIdCount is set to 0 and the function returns TRUE.'
-ms.assetid: '9ACF72F8-A64C-4FFF-B340-C920E80238CA'
+Description: Returns the explicit CPU Set assignment of the specified thread, if any assignment was set using the SetThreadSelectedCpuSets API. If no explicit assignment is set, RequiredIdCount is set to 0 and the function returns TRUE.
+ms.assetid: 9ACF72F8-A64C-4FFF-B340-C920E80238CA
 title: GetThreadSelectedCpuSets function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetThreadSelectedCpuSets function
@@ -13,10 +18,10 @@ Returns the explicit CPU Set assignment of the specified thread, if any assignme
 
 ```C++
 BOOL WINAPI GetThreadSelectedCpuSets(
-  _In_      HANDLE Thread,
-  _Out_opt_ PULONG CpuSetIds,
-  _In_      ULONG  CpuSetIdCount,
-  _Out_     PULONG RequiredIdCount
+  _In_      HANDLE Thread,
+  _Out_opt_ PULONG CpuSetIds,
+  _In_      ULONG  CpuSetIdCount,
+  _Out_     PULONG RequiredIdCount
 );
 ```
 
@@ -29,7 +34,7 @@ BOOL WINAPI GetThreadSelectedCpuSets(
 *Thread* \[in\]
 </dt> <dd>
 
-Specifies the thread for which to query the selected CPU Sets. This handle must have the THREAD\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentThread**](getcurrentthread.md) can also be specified here.
+Specifies the thread for which to query the selected CPU Sets. This handle must have the THREAD\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentThread**](/windows/win32/WinBase/nf-processthreadsapi-getcurrentthread?branch=master) can also be specified here.
 
 </dd> <dt>
 
@@ -64,17 +69,17 @@ This API returns TRUE on success. If the buffer is not large enough, the **GetLa
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps \| UWP apps\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps \| UWP apps\]<br/>                                   |
+| Minimum supported client<br/> | Windows 10 \[desktop apps \| UWP apps\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps \| UWP apps\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Processthreadapi.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Windows.h</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

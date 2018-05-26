@@ -1,14 +1,19 @@
-﻿---
-Description: 'The ComponentState property is the installation state of the component for the instance of this product.This property calls MsiQueryComponentState, with the ProductCode, UserSid, and Context of the object.'
-ms.assetid: '2939048a-42a5-4ffb-868c-251c0f15e5ed'
-title: 'Product.ComponentState method'
+---
+Description: The ComponentState property is the installation state of the component for the instance of this product.This property calls MsiQueryComponentState, with the ProductCode, UserSid, and Context of the object.
+ms.assetid: 2939048a-42a5-4ffb-868c-251c0f15e5ed
+title: Product.ComponentState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product.ComponentState method
 
 The **ComponentState** property is the installation state of the component for the instance of this product.
 
-This property calls [**MsiQueryComponentState**](msiquerycomponentstate.md), with the ProductCode, UserSid, and Context of the object. The component Id GUID is provided as a parameter.
+This property calls [**MsiQueryComponentState**](/windows/win32/Msi/nf-msi-msiquerycomponentstatea?branch=master), with the ProductCode, UserSid, and Context of the object. The component Id GUID is provided as a parameter.
 
 ## Syntax
 
@@ -51,7 +56,7 @@ If the call succeeds, the property contains the value as a **DWORD**.
 
  
 
-If the call fails, the property contains an error code from [**MsiQueryComponentState**](msiquerycomponentstate.md).
+If the call fails, the property contains an error code from [**MsiQueryComponentState**](/windows/win32/Msi/nf-msi-msiquerycomponentstatea?branch=master).
 
 
 
@@ -88,7 +93,7 @@ If the call fails, the property contains an error code from [**MsiQueryComponent
 [**Product**](product-object.md)
 </dt> <dt>
 
-[**MsiQueryComponentState**](msiquerycomponentstate.md)
+[**MsiQueryComponentState**](/windows/win32/Msi/nf-msi-msiquerycomponentstatea?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

@@ -1,8 +1,10 @@
 ---
 title: Win32\_VolumeQuotaSetting class
 description: The Win32\_VolumeQuotaSetting association WMI class relates disk quota settings with a specific disk volume.
-ms.assetid: 'ef43c414-0f45-460b-9b3e-e0b9402e36d1'
-keywords: ["Win32_VolumeQuotaSetting class", "Win32_VolumeQuotaSetting class, described"]
+ms.assetid: ef43c414-0f45-460b-9b3e-e0b9402e36d1
+keywords:
+- Win32_VolumeQuotaSetting class
+- Win32_VolumeQuotaSetting class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Wmipdskq.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_VolumeQuotaSetting class
@@ -26,7 +33,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_VolumeQuotaSetting : CIM_ElementSetting
 {
-  Win32_LogicalDisk   REF Element;
+  Win32_LogicalDisk   REF Element;
   Win32_QuotaSettings REF Setting;
 };
 ```
@@ -85,8 +92,8 @@ The **Win32\_VolumeQuotaSetting** is derived from [**CIM\_ElementSetting**](http
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipdskq.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipdskq.dll</dt> </dl> |
@@ -100,9 +107,9 @@ The **Win32\_VolumeQuotaSetting** is derived from [**CIM\_ElementSetting**](http
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: About DirectShow
 description: About DirectShow
-ms.assetid: '1a0b68c7-9444-4389-8d81-dc734e95634d'
-keywords: ["Windows Media Format SDK,DirectShow", "Advanced Systems Format (ASF),DirectShow", "ASF (Advanced Systems Format),DirectShow", "DirectShow,about"]
+ms.assetid: 1a0b68c7-9444-4389-8d81-dc734e95634d
+keywords:
+- Windows Media Format SDK,DirectShow
+- Advanced Systems Format (ASF),DirectShow
+- ASF (Advanced Systems Format),DirectShow
+- DirectShow,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About DirectShow

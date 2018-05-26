@@ -1,7 +1,12 @@
 ---
 Description: DV Splitter Filter
-ms.assetid: '099d1cc7-f0c5-4c50-a1d5-f2defde7e104'
+ms.assetid: 099d1cc7-f0c5-4c50-a1d5-f2defde7e104
 title: DV Splitter Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DV Splitter Filter
@@ -12,11 +17,11 @@ This filter splits an interleaved digital video (DV) stream into its component v
 
 |                                          |                                                                                                                                                    |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IBaseFilter**](ibasefilter.md), [**IDVSplitter**](idvsplitter.md)                                                                             |
+| Filter Interfaces                        | [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [**IDVSplitter**](/windows/win32/Strmif/nn-strmif-idvsplitter?branch=master)                                                                             |
 | Input Pin Media Types                    | MEDIATYPE\_Interleaved, MEDIASUBTYPE\_dvsd, FORMAT\_DvInfo                                                                                         |
-| Input Pin Interfaces                     | [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                             |
+| Input Pin Interfaces                     | [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                             |
 | Output Pin Media Types                   | **Video**: MEDIATYPE\_Video, FORMAT\_DvInfo<br/> **Audio**: MEDIATYPE\_Audio, MEDIASUBTYPE\_PCM, FORMAT\_WaveFormatEx<br/>             |
-| Output Pin Interfaces                    | [**IMediaPosition**](imediaposition.md), [**IMediaSeeking**](imediaseeking.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md) |
+| Output Pin Interfaces                    | [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master), [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master) |
 | Filter CLSID                             | CLSID\_DVSplitter                                                                                                                                  |
 | Property Page CLSID                      | No property page.                                                                                                                                  |
 | Executable                               | qdv.dll                                                                                                                                            |
@@ -25,13 +30,13 @@ This filter splits an interleaved digital video (DV) stream into its component v
 
 
 
- 
+ 
 
 ## Remarks
 
 DV frames contain audio and video in the same frame. The DV Splitter filter extracts the audio data and delivers it as one or two audio streams, from the audio output pins. The original DV frame is delivered from the video output pin, as a video frame. The media type on the video frame is changed from MEDIATYPE\_Interleaved to MEDIATYPE\_Video, but otherwise the data is not modified. The media type is changed to signal that the audio data into the frame should be ignored. The DV Splitter does not set a media time on its output samples; if you are writing a downstream filter that requires the media times, then you can derive the times from the frame count.
 
-Only one output pin at a time exposes the [**IMediaPosition**](imediaposition.md) and [**IMediaSeeking**](imediaseeking.md) interfaces.
+Only one output pin at a time exposes the [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master) and [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) interfaces.
 
 The DV Splitter filter can accept dynamic format changes in the audio stream. However, if the [AVI Mux](avi-mux-filter.md) filter is downstream, it will reject the format change. If this happens, the DV Splitter stops producing an audio stream. This limitation only affects type-2 file capture. For type-1 files, the interleaved stream is not split in the first place. For preview, there is no AVI Mux filter downstream.
 
@@ -49,9 +54,9 @@ Each DV frame contains metadata, in addition to the audio and video data. This m
 [Digital Video in DirectShow](digital-video-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Prevents the generation of import statements for specified targets named in a &lt;wsdl:import&gt; element in a WSDL file.'
-ms.assetid: '9a50ee38-fadf-4112-8430-cb5a07ae04ce'
+Description: Prevents the generation of import statements for specified targets named in a &lt;wsdlimport&gt; element in a WSDL file.
+ms.assetid: 9a50ee38-fadf-4112-8430-cb5a07ae04ce
 title: excludeImport element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # excludeImport element
@@ -40,14 +45,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

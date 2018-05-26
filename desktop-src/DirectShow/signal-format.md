@@ -1,7 +1,12 @@
 ---
 Description: Signal Format
-ms.assetid: '8684972c-3233-49bf-8c34-ca644aca432a'
+ms.assetid: 8684972c-3233-49bf-8c34-ca644aca432a
 title: Signal Format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signal Format
@@ -10,7 +15,7 @@ A DV camcorder's signal format can be NTSC or PAL, standard or long-play.
 
 **MSDV Driver**
 
-To get the input signal format from the MSDV driver, call the [**IAMExtTransport::GetTransportBasicParameters**](iamexttransport-gettransportbasicparameters.md) method and pass in the ED\_TRANSBASIC\_INPUT\_SIGNAL flag. The method returns a defined constant, indicating the format.
+To get the input signal format from the MSDV driver, call the [**IAMExtTransport::GetTransportBasicParameters**](/windows/win32/Strmif/nf-strmif-iamexttransport-gettransportbasicparameters?branch=master) method and pass in the ED\_TRANSBASIC\_INPUT\_SIGNAL flag. The method returns a defined constant, indicating the format.
 
 The following code checks the signal format, and uses this value to calculates the average time per frame. The variable Mode receives the signal-format constant.
 
@@ -49,7 +54,7 @@ To get the output signal format, call the same method with the ED\_TRANSBASIC\_O
 
 **UVC Driver**
 
-To get the input or output signal format from the UVC driver, call [**IAMStreamConfig::GetFormat**](iamstreamconfig-getformat.md) on the pin and examine the video format block. (For UVC devices, the code shown in the previous example usually returns ED\_TRANSBASIC\_SIGNAL\_UNKNOWN, so it is not reliable.)
+To get the input or output signal format from the UVC driver, call [**IAMStreamConfig::GetFormat**](/windows/win32/Strmif/nf-strmif-iamstreamconfig-getformat?branch=master) on the pin and examine the video format block. (For UVC devices, the code shown in the previous example usually returns ED\_TRANSBASIC\_SIGNAL\_UNKNOWN, so it is not reliable.)
 
 ## Related topics
 

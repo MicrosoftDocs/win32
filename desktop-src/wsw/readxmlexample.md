@@ -1,8 +1,16 @@
 ---
 title: ReadXmlExample
 description: This example reads XML node by node.
-ms.assetid: '938825f6-43dd-4e24-a04d-c46290509a64'
-keywords: ["ReadXmlExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 938825f6-43dd-4e24-a04d-c46290509a64
+keywords:
+- ReadXmlExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadXmlExample

@@ -1,14 +1,22 @@
 ---
 title: ITfContextRenderingMarkup GetRenderingMarkup method
 description: The ITfContextRenderingMarkup GetRenderingMarkup method retrieves an enumerator of the rendering markups for the given range.
-ms.assetid: 'fe060eab-8a6b-4eb7-9c7f-353b887657d8'
-keywords: ["GetRenderingMarkup method Text Services Framework", "GetRenderingMarkup method Text Services Framework , ITfContextRenderingMarkup interface", "ITfContextRenderingMarkup interface Text Services Framework , GetRenderingMarkup method"]
+ms.assetid: fe060eab-8a6b-4eb7-9c7f-353b887657d8
+keywords:
+- GetRenderingMarkup method Text Services Framework
+- GetRenderingMarkup method Text Services Framework , ITfContextRenderingMarkup interface
+- ITfContextRenderingMarkup interface Text Services Framework , GetRenderingMarkup method
 topic_type:
 - apiref
 api_name:
 - ITfContextRenderingMarkup.GetRenderingMarkup
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITfContextRenderingMarkup::GetRenderingMarkup method
@@ -20,10 +28,10 @@ The **ITfContextRenderingMarkup::GetRenderingMarkup** method retrieves an enumer
 
 ```C++
 HRESULT GetRenderingMarkup(
-  [in]  TfEditCookie           ec,
-  [in]  DWORD                  dwFlags,
-  [in]  ITfRange               *pRangeCover,
-  [out] IEnumTfRenderingMarkup **ppEnum
+  [in]  TfEditCookie           ec,
+  [in]  DWORD                  dwFlags,
+  [in]  ITfRange               *pRangeCover,
+  [out] IEnumTfRenderingMarkup **ppEnum
 );
 ```
 
@@ -53,14 +61,14 @@ HRESULT GetRenderingMarkup(
 
 
 
- 
+ 
 
 </dd> <dt>
 
 *pRangeCover* \[in\]
 </dt> <dd>
 
-\[in\] A pointer to an [ITfRange](itfrange.md) interface of the range to enumerate the rendering markups.
+\[in\] A pointer to an [ITfRange](/windows/win32/Msctf/nn-msctf-itfrange?branch=master) interface of the range to enumerate the rendering markups.
 
 </dd> <dt>
 
@@ -83,18 +91,18 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > This method is not currently in the public header files. To use this API, you must MIDL-compile the [prototype](prototypes.md).
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

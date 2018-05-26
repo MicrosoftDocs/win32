@@ -1,8 +1,16 @@
 ---
 title: MSWMExt Parameter (deprecated)
 description: MSWMExt Parameter (deprecated)
-ms.assetid: 'cc52da1a-26d1-4321-b421-b0d6f44635cc'
-keywords: ["Windows Media metafiles,MSWMExt parameter", "metafiles,MSWMExt parameter", "MSWMExt parameter"]
+ms.assetid: cc52da1a-26d1-4321-b421-b0d6f44635cc
+keywords:
+- Windows Media metafiles,MSWMExt parameter
+- metafiles,MSWMExt parameter
+- MSWMExt parameter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSWMExt Parameter (deprecated)

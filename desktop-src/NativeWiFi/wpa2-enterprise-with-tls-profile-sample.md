@@ -1,7 +1,12 @@
 ---
-Description: 'Uses Extensible Authentication Protocol Transport Level Security (EAP-TLS) with certificates to authenticate to the network.'
-ms.assetid: 'ded07fda-ea7f-4c5a-9433-60196c3f14af'
-title: 'WPA2-Enterprise with TLS Profile Sample'
+Description: Uses Extensible Authentication Protocol Transport Level Security (EAP-TLS) with certificates to authenticate to the network.
+ms.assetid: ded07fda-ea7f-4c5a-9433-60196c3f14af
+title: WPA2-Enterprise with TLS Profile Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPA2-Enterprise with TLS Profile Sample

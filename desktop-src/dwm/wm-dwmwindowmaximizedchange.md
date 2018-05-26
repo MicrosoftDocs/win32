@@ -1,8 +1,9 @@
 ---
 title: WM\_DWMWINDOWMAXIMIZEDCHANGE message
 description: Sent when a Desktop Window Manager (DWM) composed window is maximized.
-ms.assetid: 'db8cd104-388e-4211-9e4e-f169aef9651c'
-keywords: ["WM_DWMWINDOWMAXIMIZEDCHANGE message Desktop Window Manager"]
+ms.assetid: db8cd104-388e-4211-9e4e-f169aef9651c
+keywords:
+- WM_DWMWINDOWMAXIMIZEDCHANGE message Desktop Window Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DWMWINDOWMAXIMIZEDCHANGE message
@@ -49,15 +55,15 @@ A window receives this message through its [**WindowProc**](https://msdn.microso
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

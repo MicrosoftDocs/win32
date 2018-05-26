@@ -1,14 +1,20 @@
 ---
 title: ProcessTriTessFactorsAvg function
 description: Generates the corrected tessellation factors for a tri patch.
-ms.assetid: '005a63b6-f35d-42d6-bb29-f4ebb374080e'
-keywords: ["ProcessTriTessFactorsAvg function HLSL"]
+ms.assetid: 005a63b6-f35d-42d6-bb29-f4ebb374080e
+keywords:
+- ProcessTriTessFactorsAvg function HLSL
 topic_type:
 - apiref
 api_name:
 - ProcessTriTessFactorsAvg
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProcessTriTessFactorsAvg function

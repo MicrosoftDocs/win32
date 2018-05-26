@@ -1,8 +1,9 @@
 ---
 title: LVM\_ISGROUPVIEWENABLED message
 description: Checks whether the list-view control has group view enabled.
-ms.assetid: '7c6ffa1f-300c-4e5e-900f-93a41e06c951'
-keywords: ["LVM_ISGROUPVIEWENABLED message Windows Controls"]
+ms.assetid: 7c6ffa1f-300c-4e5e-900f-93a41e06c951
+keywords:
+- LVM_ISGROUPVIEWENABLED message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_ISGROUPVIEWENABLED message
@@ -36,7 +42,7 @@ Returns **TRUE** if group view is enabled, or **FALSE** otherwise.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -44,15 +50,15 @@ Returns **TRUE** if group view is enabled, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

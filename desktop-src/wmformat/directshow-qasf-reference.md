@@ -1,8 +1,17 @@
 ---
 title: DirectShow QASF Reference
 description: DirectShow QASF Reference
-ms.assetid: '66f483b5-3886-48b4-bc43-7c3517abd20d'
-keywords: ["Windows Media Format SDK,QASF", "Windows Media Format SDK,DirectShow", "DirectShow,QASF reference", "QASF filters,reference"]
+ms.assetid: 66f483b5-3886-48b4-bc43-7c3517abd20d
+keywords:
+- Windows Media Format SDK,QASF
+- Windows Media Format SDK,DirectShow
+- DirectShow,QASF reference
+- QASF filters,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectShow QASF Reference
@@ -30,10 +39,10 @@ The following interfaces are defined for use with the DirectShow QASF components
 
 | Interface                                                  | Description                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IAMWMBufferPass**](iamwmbufferpass.md)                 | Provides a method that enables applications to register for callbacks from the input pins of the [WM ASF Writer](wm-asf-writer-filter.md) or the output pins of the [WM ASF Reader](wm-asf-reader-filter.md) filter. Used in indexing and when adding data unit extensions. |
-| [**IAMWMBufferPassCallback**](iamwmbufferpasscallback.md) | Implemented by applications and called by the filters. Applications use the one method on this interface to obtain information about individual samples in the stream. Used in indexing and when adding data unit extensions.                                                 |
-| [**IConfigAsfWriter**](iconfigasfwriter.md)               | Implemented on the WM ASF Writer. Used by applications to specify profiles and indexing parameters for the file.                                                                                                                                                              |
-| [**IConfigAsfWriter2**](iconfigasfwriter2.md)             | Provides additional configuration functions on the WM ASF Writer.                                                                                                                                                                                                             |
+| [**IAMWMBufferPass**](/windows/win32/dshowasf/?branch=master)                 | Provides a method that enables applications to register for callbacks from the input pins of the [WM ASF Writer](wm-asf-writer-filter.md) or the output pins of the [WM ASF Reader](wm-asf-reader-filter.md) filter. Used in indexing and when adding data unit extensions. |
+| [**IAMWMBufferPassCallback**](/windows/win32/dshowasf/?branch=master) | Implemented by applications and called by the filters. Applications use the one method on this interface to obtain information about individual samples in the stream. Used in indexing and when adding data unit extensions.                                                 |
+| [**IConfigAsfWriter**](/windows/win32/dshowasf/?branch=master)               | Implemented on the WM ASF Writer. Used by applications to specify profiles and indexing parameters for the file.                                                                                                                                                              |
+| [**IConfigAsfWriter2**](/windows/win32/dshowasf/?branch=master)             | Provides additional configuration functions on the WM ASF Writer.                                                                                                                                                                                                             |
 
 
 
@@ -45,7 +54,7 @@ The following enumeration, structure, and events are defined for use with the Di
 
 | Enumeration                                                               | Description                                                                                                                                                                       |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [\_AM\_ASFWRITERCONFIG\_PARAM](-am-asfwriterconfig-param-enumeration.md) | Defines filter configuration parameters used in the [**IConfigAsfWriter2::GetParam**](iconfigasfwriter2-getparam.md) and [**SetParam**](iconfigasfwriter2-setparam.md) methods. |
+| [\_AM\_ASFWRITERCONFIG\_PARAM](/windows/win32/Dshowasf/?branch=master) | Defines filter configuration parameters used in the [**IConfigAsfWriter2::GetParam**](iconfigasfwriter2-getparam.md) and [**SetParam**](iconfigasfwriter2-setparam.md) methods. |
 
 
 
@@ -55,7 +64,7 @@ The following enumeration, structure, and events are defined for use with the Di
 
 | Structure                                         | Description                                                                                                                                           |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AM\_WMT\_EVENT\_DATA**](am-wmt-event-data.md) | Contains information pertaining to a [**WMT\_STATUS**](wmt-status.md) event and the associated status code returned by the Windows Media Format SDK. |
+| [**AM\_WMT\_EVENT\_DATA**](/windows/win32/Evcode/?branch=master) | Contains information pertaining to a [**WMT\_STATUS**](/windows/win32/Wmsdkidl/ne-wmsdkidl-wmt_status?branch=master) event and the associated status code returned by the Windows Media Format SDK. |
 
 
 

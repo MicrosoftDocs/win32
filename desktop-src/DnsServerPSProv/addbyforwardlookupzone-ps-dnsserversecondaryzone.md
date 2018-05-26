@@ -2,13 +2,16 @@
 title: AddByForwardLookupZone method of the PS\_DnsServerSecondaryZone class
 description: Creates a standard secondary zone.
 audience: developer
-ms.assetid: 'f4a753e7-0b32-4622-9214-7d6823e1738a'
-ms.prod: 'windows-server-dev'
+ms.assetid: f4a753e7-0b32-4622-9214-7d6823e1738a
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByForwardLookupZone method", "AddByForwardLookupZone method, PS_DnsServerSecondaryZone class", "PS_DnsServerSecondaryZone class, AddByForwardLookupZone method"]
+keywords:
+- AddByForwardLookupZone method
+- AddByForwardLookupZone method, PS_DnsServerSecondaryZone class
+- PS_DnsServerSecondaryZone class, AddByForwardLookupZone method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByForwardLookupZone method of the PS\_DnsServerSecondaryZone class
@@ -28,13 +34,13 @@ Creates a standard secondary zone.
 
 ```mof
 uint32 AddByForwardLookupZone(
-  [in]  boolean                LoadExisting,
-  [in]  string                 MasterServers[],
-  [in]  string                 Name,
-  [in]  string                 ZoneFile,
-  [in]  string                 ComputerName,
-  [in]  boolean                PassThru,
-  [out] DnsServerSecondaryZone cmdletOutput
+  [in]  boolean                LoadExisting,
+  [in]  string                 MasterServers[],
+  [in]  string                 Name,
+  [in]  string                 ZoneFile,
+  [in]  string                 ComputerName,
+  [in]  boolean                PassThru,
+  [out] DnsServerSecondaryZone cmdletOutput
 );
 ```
 
@@ -100,7 +106,7 @@ Receives and embedded instance of the [**DnsServerSecondaryZone**](dnsserverseco
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -114,9 +120,9 @@ Receives and embedded instance of the [**DnsServerSecondaryZone**](dnsserverseco
 [**PS\_DnsServerSecondaryZone**](ps-dnsserversecondaryzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

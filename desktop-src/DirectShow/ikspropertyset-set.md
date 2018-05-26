@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Set method sets a property identified by a property set GUID and a property ID.'
-ms.assetid: '78f506dc-7fb4-446d-863e-cffee9da5280'
-title: 'IKsPropertySet::Set method'
+---
+Description: The Set method sets a property identified by a property set GUID and a property ID.
+ms.assetid: 78f506dc-7fb4-446d-863e-cffee9da5280
+title: IKsPropertySetSet method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IKsPropertySet::Set method

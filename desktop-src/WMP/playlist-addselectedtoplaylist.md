@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.addSelectedToPlaylist
 description: The addSelectedToPlaylist method adds the selected item to a playlist.
-ms.assetid: '02ce8553-4ffc-44c1-b260-f41d0877137f'
-keywords: ["PLAYLIST.addSelectedToPlaylist Windows Media Player"]
+ms.assetid: 02ce8553-4ffc-44c1-b260-f41d0877137f
+keywords:
+- PLAYLIST.addSelectedToPlaylist Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.addSelectedToPlaylist
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.addSelectedToPlaylist
@@ -51,9 +57,9 @@ This method does not return a value.
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

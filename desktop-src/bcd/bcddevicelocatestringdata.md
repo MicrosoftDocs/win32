@@ -1,8 +1,10 @@
 ---
 title: BcdDeviceLocateStringData class
-description: Represents the parent of a virtual hard disk (VHD) file's parent device and specifies the string to search for a VPART+PPART locate device.
-ms.assetid: 'c4af04f6-9f56-4fb7-9dfd-ba7f72753435'
-keywords: ["BcdDeviceLocateStringData class Boot Config", "BcdDeviceLocateStringData class Boot Config , described"]
+description: Represents the parent of a virtual hard disk (VHD) files parent device and specifies the string to search for a VPART+PPART locate device.
+ms.assetid: c4af04f6-9f56-4fb7-9dfd-ba7f72753435
+keywords:
+- BcdDeviceLocateStringData class Boot Config
+- BcdDeviceLocateStringData class Boot Config , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdDeviceLocateStringData class
@@ -62,8 +69,8 @@ If the disk signature and partition identifier within the VHD are omitted, it is
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -79,9 +86,9 @@ If the disk signature and partition identifier within the VHD are omitted, it is
 [**SetVhdDeviceElement**](setvhddeviceelement-bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

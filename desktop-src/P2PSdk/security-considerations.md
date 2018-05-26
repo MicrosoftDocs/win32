@@ -1,7 +1,12 @@
 ---
-Description: 'This topic discusses specific security considerations when using the Peer Infrastructure.'
-ms.assetid: '088a2111-f4ee-4bec-98a9-ac138950958b'
+Description: This topic discusses specific security considerations when using the Peer Infrastructure.
+ms.assetid: 088a2111-f4ee-4bec-98a9-ac138950958b
 title: Security Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Considerations

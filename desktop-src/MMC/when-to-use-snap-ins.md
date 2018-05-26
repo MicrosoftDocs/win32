@@ -4,10 +4,13 @@ description: Helps to decide whether a task is appropriate for snap-in developme
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5d5ebd37-0249-48f7-928d-c42a4da1c701'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5d5ebd37-0249-48f7-928d-c42a4da1c701
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # When to Use Snap-ins

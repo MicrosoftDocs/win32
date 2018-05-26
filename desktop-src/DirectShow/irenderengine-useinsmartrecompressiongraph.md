@@ -1,7 +1,12 @@
 ---
-Description: 'Not supported.'
-ms.assetid: '77c51c19-c67b-472d-87d7-9adc274b20ca'
-title: 'IRenderEngine::UseInSmartRecompressionGraph method'
+Description: Not supported.
+ms.assetid: 77c51c19-c67b-472d-87d7-9adc274b20ca
+title: IRenderEngineUseInSmartRecompressionGraph method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::UseInSmartRecompressionGraph method

@@ -1,8 +1,10 @@
 ---
 title: BitsCompactServerUrlGroup class
 description: The BitsCompactServerUrlGroup class provides methods to manage URLs and URL groups for the Background Intelligent Transfer Service (BITS) Compact Server.
-ms.assetid: 'c9a49726-b636-49cf-b514-13f53387579e'
-keywords: ["BitsLightweightServerUrlGroup class", "BitsLightweightServerUrlGroup class, described"]
+ms.assetid: c9a49726-b636-49cf-b514-13f53387579e
+keywords:
+- BitsLightweightServerUrlGroup class
+- BitsLightweightServerUrlGroup class, described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BitsCompactServerUrlGroup class
@@ -59,7 +66,7 @@ The **BitsLightweightServerUrlGroup** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -87,16 +94,16 @@ This property specifies the URL group that is associated with the class.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

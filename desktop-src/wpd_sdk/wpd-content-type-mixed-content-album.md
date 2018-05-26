@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_MIXED\_CONTENT\_ALBUM'
-ms.assetid: '7b9d324c-8a9c-4764-9705-ea891e631ead'
-title: 'WPD\_CONTENT\_TYPE\_MIXED\_CONTENT\_ALBUM'
+Description: WPD\_CONTENT\_TYPE\_MIXED\_CONTENT\_ALBUM
+ms.assetid: 7b9d324c-8a9c-4764-9705-ea891e631ead
+title: WPD\_CONTENT\_TYPE\_MIXED\_CONTENT\_ALBUM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_MIXED\_CONTENT\_ALBUM

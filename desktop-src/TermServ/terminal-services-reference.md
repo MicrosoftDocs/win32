@@ -4,11 +4,15 @@ description: Documentation of property methods that you can use to examine and c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9436857f-8243-42a6-b72e-50f5ccca2716'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9436857f-8243-42a6-b72e-50f5ccca2716
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , reference"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Services reference

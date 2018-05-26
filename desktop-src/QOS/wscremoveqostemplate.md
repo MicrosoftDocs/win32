@@ -1,8 +1,9 @@
 ---
 title: WSCRemoveQOSTemplate function
 description: The WSCRemoveQOSTemplate function removes a QOS template. Note that the caller of this function must have administrative rights.
-ms.assetid: 'd697c5bf-efdc-47e6-93c7-1fc4937246e0'
-keywords: ["WSCRemoveQOSTemplate function QOS"]
+ms.assetid: d697c5bf-efdc-47e6-93c7-1fc4937246e0
+keywords:
+- WSCRemoveQOSTemplate function QOS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Qosname.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WSCRemoveQOSTemplate function
 
-\[ This function is not supported as of Windows Vista.\]
+\[ This function is not supported as of Windows Vista.\]
 
 The **WSCRemoveQOSTemplate** function removes a QOS template. Note that the caller of this function must have administrative rights.
 
@@ -24,8 +30,8 @@ The **WSCRemoveQOSTemplate** function removes a QOS template. Note that the call
 
 ```C++
 BOOL WSCRemoveQOSTemplate(
-  _In_ const LPGUID   lpProviderId,
-  _In_       LPWSABUF lpQOSName
+  _In_ const LPGUID   lpProviderId,
+  _In_       LPWSABUF lpQOSName
 );
 ```
 
@@ -63,11 +69,11 @@ If **WSCRemoveQOSTemplate** succeeds, the return value is **TRUE**. If the funct
 
 
 
- 
+ 
 
 ## Remarks
 
-In Windows Vista and later, this function always returns with an error.
+In Windows Vista and later, this function always returns with an error.
 
 The **WSCRemoveQOSTemplate** function deletes a QOS template previously installed with [**WSCInstallQOSTemplate**](wscinstallqostemplate.md). If *lpProviderId* is **NULL**, **WSCRemoveQOSTemplate** attempts to find and delete a QOS template from the global list of QOS names. Otherwise, **WSCRemoveQOSTemplate** attempts to find and delete a QOS template specific to the service provider associated with *lpProviderId*. You cannot delete the base set of QOS names included with Windows Sockets 2. The **WSAEINVAL** error code will be returned if such an attempt is made.
 
@@ -77,10 +83,10 @@ The **WSCRemoveQOSTemplate** function deletes a QOS template previously installe
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| End of client support<br/>    | Windows XP<br/>                                                                  |
-| End of server support<br/>    | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| End of client support<br/>    | Windows XP<br/>                                                                  |
+| End of server support<br/>    | Windows Server 2003<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Qosname.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Qosname.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qosname.dll</dt> </dl> |
@@ -100,9 +106,9 @@ The **WSCRemoveQOSTemplate** function deletes a QOS template previously installe
 [**WSCInstallQOSTemplate**](wscinstallqostemplate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

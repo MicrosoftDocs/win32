@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckMediaType method determines if the pin accepts a specific media type.'
-ms.assetid: '6a138679-02b7-4ccc-8881-a0d496f84f93'
-title: 'CBasePin.CheckMediaType method'
+Description: The CheckMediaType method determines if the pin accepts a specific media type.
+ms.assetid: 6a138679-02b7-4ccc-8881-a0d496f84f93
+title: CBasePin.CheckMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.CheckMediaType method
@@ -13,7 +18,7 @@ The `CheckMediaType` method determines if the pin accepts a specific media type.
 
 ```C++
 virtual HRESULT CheckMediaType(
-   const CMediaType *pmt
+   const CMediaType *pmt
 ) = 0;
 ```
 
@@ -56,9 +61,9 @@ The derived class must override this pure virtual method.
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

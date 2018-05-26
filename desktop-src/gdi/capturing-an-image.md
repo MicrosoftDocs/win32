@@ -1,7 +1,12 @@
 ---
-Description: 'You can use a bitmap to capture an image, and you can store the captured image in memory, display it at a different location in your application''s window, or display it in another window.'
-ms.assetid: '672fc2e4-c35c-4d5d-98fa-85f2ad56d9b0'
+Description: You can use a bitmap to capture an image, and you can store the captured image in memory, display it at a different location in your applications window, or display it in another window.
+ms.assetid: 672fc2e4-c35c-4d5d-98fa-85f2ad56d9b0
 title: Capturing an Image
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capturing an Image
@@ -10,9 +15,9 @@ You can use a bitmap to capture an image, and you can store the captured image i
 
 In some cases, you may want your application to capture images and store them only temporarily. For example, when you scale or zoom a picture created in a drawing application, the application must temporarily save the normal view of the image and display the zoomed view. Later, when the user selects the normal view, the application must replace the zoomed image with a copy of the normal view that it temporarily saved.
 
-To store an image temporarily, your application must call [**CreateCompatibleDC**](createcompatibledc.md) to create a DC that is compatible with the current window DC. After you create a compatible DC, you create a bitmap with the appropriate dimensions by calling the [**CreateCompatibleBitmap**](createcompatiblebitmap.md) function and then select it into this device context by calling the [**SelectObject**](selectobject.md) function.
+To store an image temporarily, your application must call [**CreateCompatibleDC**](/windows/win32/Wingdi/nf-wingdi-createcompatibledc?branch=master) to create a DC that is compatible with the current window DC. After you create a compatible DC, you create a bitmap with the appropriate dimensions by calling the [**CreateCompatibleBitmap**](/windows/win32/Wingdi/nf-wingdi-createcompatiblebitmap?branch=master) function and then select it into this device context by calling the [**SelectObject**](/windows/win32/Wingdi/nf-wingdi-selectobject?branch=master) function.
 
-After the compatible device context is created and the appropriate bitmap has been selected into it, you can capture the image. The [**BitBlt**](bitblt.md) function captures images. This function performs a bit block transfer that is, it copies data from a source bitmap into a destination bitmap. However, the two arguments to this function are not bitmap handles. Instead, **BitBlt** receives handles that identify two device contexts and copies the bitmap data from a bitmap selected into the source DC into a bitmap selected into the target DC. In this case, the target DC is the compatible DC, so when **BitBlt** completes the transfer, the image has been stored in memory. To redisplay the image, call **BitBlt** a second time, specifying the compatible DC as the source DC and a window (or printer) DC as the target DC.
+After the compatible device context is created and the appropriate bitmap has been selected into it, you can capture the image. The [**BitBlt**](/windows/win32/Wingdi/nf-wingdi-bitblt?branch=master) function captures images. This function performs a bit block transfer that is, it copies data from a source bitmap into a destination bitmap. However, the two arguments to this function are not bitmap handles. Instead, **BitBlt** receives handles that identify two device contexts and copies the bitmap data from a bitmap selected into the source DC into a bitmap selected into the target DC. In this case, the target DC is the compatible DC, so when **BitBlt** completes the transfer, the image has been stored in memory. To redisplay the image, call **BitBlt** a second time, specifying the compatible DC as the source DC and a window (or printer) DC as the target DC.
 
 The following example code is from an application that captures an image of the entire desktop, scales it down to the current window size and then saves it to a file.
 

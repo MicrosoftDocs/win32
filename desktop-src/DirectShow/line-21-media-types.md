@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following tablea describe the media types used for line 21 data.'
-ms.assetid: 'ac851882-df33-4905-a507-12044c7d576d'
+---
+Description: The following tablea describe the media types used for line 21 data.
+ms.assetid: ac851882-df33-4905-a507-12044c7d576d
 title: Line 21 Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Line 21 Media Types

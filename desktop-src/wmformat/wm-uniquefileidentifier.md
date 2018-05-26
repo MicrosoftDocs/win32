@@ -1,14 +1,20 @@
 ---
 title: WM/UniqueFileIdentifier
 description: The WM/UniqueFileIdentifier attribute contains a unique file identifier for the content.
-ms.assetid: '3f90dd5c-0f3d-451a-a454-f8d7f25b6201'
-keywords: ["WM/UniqueFileIdentifier windows Media Format"]
+ms.assetid: 3f90dd5c-0f3d-451a-a454-f8d7f25b6201
+keywords:
+- WM/UniqueFileIdentifier windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/UniqueFileIdentifier
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/UniqueFileIdentifier

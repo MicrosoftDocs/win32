@@ -2,13 +2,19 @@
 title: propputref attribute
 description: The \ propputref\ attribute specifies a property-setting function that uses a reference instead of a value.
 ms.assetid: 84f1cd08-3c42-4a6d-bb1d-0bfd3f4c33f2
-keywords: ["propputref attribute MIDL"]
+keywords:
+- propputref attribute MIDL
 topic_type:
 - apiref
 api_name:
 - propputref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # propputref attribute

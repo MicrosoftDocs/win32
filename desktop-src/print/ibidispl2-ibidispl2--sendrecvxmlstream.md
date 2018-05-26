@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SendRecvXMLStream method sends a bidirectional printer communication request and receives the response as IStream objects formatted in accordance with the Bidirectional Communication Schemas.'
-ms.assetid: '2daf99a8-42dc-4739-8e7e-80d3c9a084b7'
-title: 'IBidiSpl2::SendRecvXMLStream method'
+---
+Description: The SendRecvXMLStream method sends a bidirectional printer communication request and receives the response as IStream objects formatted in accordance with the Bidirectional Communication Schemas.
+ms.assetid: 2daf99a8-42dc-4739-8e7e-80d3c9a084b7
+title: IBidiSpl2SendRecvXMLStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiSpl2::SendRecvXMLStream method

@@ -1,7 +1,12 @@
 ---
 title: Command Object Dynamic Properties
 description: Command Object Dynamic Properties
-ms.assetid: '0ae52e14-1e42-4668-b0ce-1b5afc1c126f'
+ms.assetid: 0ae52e14-1e42-4668-b0ce-1b5afc1c126f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Object Dynamic Properties

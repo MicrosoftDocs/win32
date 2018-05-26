@@ -1,7 +1,12 @@
 ---
 title: endif (sm4 - asm)
 description: Ends an if statement.
-ms.assetid: '9F4CF9E0-4D9D-4300-B432-432C560F34BB'
+ms.assetid: 9F4CF9E0-4D9D-4300-B432-432C560F34BB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # endif (sm4 - asm)

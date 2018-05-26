@@ -1,7 +1,12 @@
 ---
 title: Hide Method
 description: Hide Method
-ms.assetid: 'c30eda78-0951-43b4-8ae1-daccbd41170d'
+ms.assetid: c30eda78-0951-43b4-8ae1-daccbd41170d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hide Method
@@ -30,7 +35,7 @@ Hides the specified character.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -45,16 +50,16 @@ Hiding a character can also result in triggering the [**ActivateInput**](activat
 > [!Note]  
 > Hidden characters cannot access the audio channel. The server will pass back a failure status in the [**RequestComplete**](requestcomplete-event.md) event if you generate an animation request and the character is hidden.
 
- 
+ 
 
 ## See Also
 
 [**Show method**](show-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

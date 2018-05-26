@@ -1,7 +1,12 @@
 ---
-Description: 'The Add method adds an item to the collection.'
-ms.assetid: 'e9e8975f-f9b8-4940-b967-020cf3812582'
-title: 'IPortableDevicePropVariantCollection::Add method'
+Description: The Add method adds an item to the collection.
+ms.assetid: e9e8975f-f9b8-4940-b967-020cf3812582
+title: IPortableDevicePropVariantCollectionAdd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDevicePropVariantCollection::Add method
@@ -13,7 +18,7 @@ The **Add** method adds an item to the collection.
 
 ```C++
 HRESULT Add(
-  [in] const PROPVARIANT *pValue
+  [in] const PROPVARIANT *pValue
 );
 ```
 
@@ -42,7 +47,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,9 +83,9 @@ For an example of how to use this method, see [Retrieving an Object Identifier f
 [Retrieving an Object Identifier from a Persistent Unique Identifier](retrieving-an-object-identifier-from-a-persistent-unique-identifier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,20 +1,25 @@
 ---
-Description: 'The following samples demonstrate using the Compression API in buffer mode.'
-ms.assetid: '0A062E5D-E5FA-4098-B76E-E136FC74D853'
+Description: The following samples demonstrate using the Compression API in buffer mode.
+ms.assetid: 0A062E5D-E5FA-4098-B76E-E136FC74D853
 title: Using the Compression API in buffer mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Compression API in buffer mode
 
-The following samples demonstrate using the Compression API in buffer mode. Buffer mode was developed for ease of use and automatically splits up the input buffer into blocks of a size that is appropriate for the selected compression algorithm. Buffer mode automatically formats and stores the uncompressed buffer size in the compressed buffer where it is available to the decompressor. The size of the compressed buffer is not automatically saved, and the application needs to save this for decompression. Do not include the **COMPRESS\_RAW** flag when calling [**CreateCompressor**](createcompressor.md) or [**CreateDecompressor**](createdecompressor.md) if you want to use the Compression API in buffer mode.
+The following samples demonstrate using the Compression API in buffer mode. Buffer mode was developed for ease of use and automatically splits up the input buffer into blocks of a size that is appropriate for the selected compression algorithm. Buffer mode automatically formats and stores the uncompressed buffer size in the compressed buffer where it is available to the decompressor. The size of the compressed buffer is not automatically saved, and the application needs to save this for decompression. Do not include the **COMPRESS\_RAW** flag when calling [**CreateCompressor**](/windows/win32/compressapi/nf-compressapi-createcompressor?branch=master) or [**CreateDecompressor**](/windows/win32/compressapi/nf-compressapi-createdecompressor?branch=master) if you want to use the Compression API in buffer mode.
 
 Buffer mode is recommended for most cases. For more information about how to use block mode, see [Using the Compression API in block mode](using-the-compression-api-in-block-mode.md)
 
-Applications using buffer or block mode have the option to specify a custom memory allocation routine when calling [**CreateCompressor**](createcompressor.md) or [**CreateDecompressor**](createdecompressor.md). See the [Using the Compression API in block mode](using-the-compression-api-in-block-mode.md) section for an example of a simple customized allocation routine.
+Applications using buffer or block mode have the option to specify a custom memory allocation routine when calling [**CreateCompressor**](/windows/win32/compressapi/nf-compressapi-createcompressor?branch=master) or [**CreateDecompressor**](/windows/win32/compressapi/nf-compressapi-createdecompressor?branch=master). See the [Using the Compression API in block mode](using-the-compression-api-in-block-mode.md) section for an example of a simple customized allocation routine.
 
 **Windows 8 and Windows Server 2012:** To use the following example code, you must be running Windows 8 or Windows Server 2012 and have "compressapi.h" and "cabinet.dll" and link to the "Cabinet.lib".
 
-The following code snippet demonstrates file compression with the XPRESS compression algorithm and Huffman encoding using the Compression API in buffer mode. The application accepts a file, compresses its contents and generates a compressed file. First the application calls [**CreateCompressor**](createcompressor.md) with **COMPRESS\_ALGORITHM\_XPRESS\_HUFF** to generate a compressor. Then it calls [**Compress**](compress.md), with *CompressedBufferSize* set to 0, to query for the required size of the compressed buffer. It allocates an output buffer to the *CompressedBufferSize* value. The application calls **Compress** a second time to perform the actual compression. Finally, the application writes the compressed data to the output file.
+The following code snippet demonstrates file compression with the XPRESS compression algorithm and Huffman encoding using the Compression API in buffer mode. The application accepts a file, compresses its contents and generates a compressed file. First the application calls [**CreateCompressor**](/windows/win32/compressapi/nf-compressapi-createcompressor?branch=master) with **COMPRESS\_ALGORITHM\_XPRESS\_HUFF** to generate a compressor. Then it calls [**Compress**](/windows/win32/compressapi/nf-compressapi-compress?branch=master), with *CompressedBufferSize* set to 0, to query for the required size of the compressed buffer. It allocates an output buffer to the *CompressedBufferSize* value. The application calls **Compress** a second time to perform the actual compression. Finally, the application writes the compressed data to the output file.
 
 
 ```C++

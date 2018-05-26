@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the luma quantization matrix for intra macroblocks. This property applies to MPEG video encoders.'
-ms.assetid: '65e6e276-1da7-47ee-b337-0ff64a9c4cff'
+Description: Specifies the luma quantization matrix for intra macroblocks. This property applies to MPEG video encoders.
+ms.assetid: 65e6e276-1da7-47ee-b337-0ff64a9c4cff
 title: AVEncMPVQuantMatrixIntra property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncMPVQuantMatrixIntra property
@@ -28,8 +33,8 @@ The value of this property is a string that contains the 64 8-bit coefficients e
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ The value of this property is a string that contains the 64 8-bit coefficients e
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

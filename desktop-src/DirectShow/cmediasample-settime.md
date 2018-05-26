@@ -1,20 +1,25 @@
 ---
-Description: 'The SetTime method sets the stream times when this sample should begin and finish. This method implements the IMediaSample::SetTime method.'
-ms.assetid: 'cab4907f-eb6f-4444-9b41-1f95a6ecffed'
-title: 'CMediaSample.SetTime method'
+Description: The SetTime method sets the stream times when this sample should begin and finish. This method implements the IMediaSampleSetTime method.
+ms.assetid: cab4907f-eb6f-4444-9b41-1f95a6ecffed
+title: CMediaSample.SetTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.SetTime method
 
-The `SetTime` method sets the stream times when this sample should begin and finish. This method implements the [**IMediaSample::SetTime**](imediasample-settime.md) method.
+The `SetTime` method sets the stream times when this sample should begin and finish. This method implements the [**IMediaSample::SetTime**](/windows/win32/Strmif/nf-strmif-imediasample-settime?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetTime(
-   REFERENCE_TIME *pTimeStart,
-   REFERENCE_TIME *pTimeEnd
+   REFERENCE_TIME *pTimeStart,
+   REFERENCE_TIME *pTimeEnd
 );
 ```
 
@@ -66,9 +71,9 @@ For information about time stamps, see [Time and Clocks in DirectShow](time-and-
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

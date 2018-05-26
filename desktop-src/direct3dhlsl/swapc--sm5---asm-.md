@@ -1,7 +1,12 @@
 ---
 title: swapc (sm5 - asm)
 description: Performs a component-wise conditional swap of the values between two input registers.
-ms.assetid: '3DFCEB82-076E-4AFA-915F-47390A355B7C'
+ms.assetid: 3DFCEB82-076E-4AFA-915F-47390A355B7C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # swapc (sm5 - asm)
@@ -15,7 +20,7 @@ Performs a component-wise conditional swap of the values between two input regis
 
 
 
- 
+ 
 
 
 
@@ -29,7 +34,7 @@ Performs a component-wise conditional swap of the values between two input regis
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -48,7 +53,7 @@ The semantics of this instruction can be described by the equivalent operations 
 
                 expands to:
 
-                movc temp[dest0’s mask], 
+                movc temp[dest0 s mask], 
                      src0[.swizzle], 
                      src2[.swizzle], src1[.swizzle]
 
@@ -73,7 +78,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -92,7 +97,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -101,9 +106,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

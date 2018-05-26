@@ -1,7 +1,12 @@
 ---
-Description: 'A specialized class that contains information about the severity, cause, recommended actions and other data related to the failure of a CIM Operation. Instances of this type MAY be included as part of the response to a CIM Operation.'
-ms.assetid: 'a7dc450d-7dbd-4097-a186-0e42f100fbfe'
-title: 'CIM\_Error class'
+Description: A specialized class that contains information about the severity, cause, recommended actions and other data related to the failure of a CIM Operation. Instances of this type MAY be included as part of the response to a CIM Operation.
+ms.assetid: a7dc450d-7dbd-4097-a186-0e42f100fbfe
+title: CIM\_Error class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_Error class
@@ -95,11 +100,11 @@ The possible values are.
 | <span id="CIM_ERR_SERVER_LIMITS_EXCEEDED"></span><span id="cim_err_server_limits_exceeded"></span><dl> <dt>**CIM\_ERR\_SERVER\_LIMITS\_EXCEEDED**</dt> <dt>27</dt> </dl>                                          | The WBEM Server limits have been exceeded (e.g. memory, connections, ...)<br/>      |
 | <span id="CIM_ERR_SERVER_IS_SHUTTING_DOWN"></span><span id="cim_err_server_is_shutting_down"></span><dl> <dt>**CIM\_ERR\_SERVER\_IS\_SHUTTING\_DOWN**</dt> <dt>28</dt> </dl>                                      | The WBEM Server is shutting down.<br/>                                              |
 | <span id="CIM_ERR_QUERY_FEATURE_NOT_SUPPORTED"></span><span id="cim_err_query_feature_not_supported"></span><dl> <dt>**CIM\_ERR\_QUERY\_FEATURE\_NOT\_SUPPORTED**</dt> <dt>29</dt> </dl>                          | The specified Query Feature is not supported.<br/>                                  |
-| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>30–65535</dt> </dl>                                                           | Reserved for future use.<br/>                                                       |
+| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>30 65535</dt> </dl>                                                           | Reserved for future use.<br/>                                                       |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -158,11 +163,11 @@ The possible values are.
 | <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl> <dt>**Unknown**</dt> <dt>0</dt> </dl>                               | The format is unknown or not meaningfully interpretable by a CIM client application. <br/> |
 | <span id="Other"></span><span id="other"></span><span id="OTHER"></span><dl> <dt>**Other**</dt> <dt>1</dt> </dl>                                       | The format is defined by the value of the OtherErrorSourceFormat property.<br/>            |
 | <span id="CIMObjectPath"></span><span id="cimobjectpath"></span><span id="CIMOBJECTPATH"></span><dl> <dt>**CIMObjectPath**</dt> <dt>2</dt> </dl>       | A CIM Object Path as defined in the CIM Infrastructure specification.<br/>                 |
-| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>3–65535</dt> </dl> | Reserved for future use.<br/>                                                              |
+| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>3 65535</dt> </dl> | Reserved for future use.<br/>                                                              |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -197,11 +202,11 @@ The possible values are.
 | <span id="Oversubscription_Error"></span><span id="oversubscription_error"></span><span id="OVERSUBSCRIPTION_ERROR"></span><dl> <dt>**Oversubscription Error**</dt> <dt>8</dt> </dl>                      | Errors of this type are principally associated with the failure to allocate sufficient resources to complete the operation.<br/>                   |
 | <span id="Unavailable_Resource_Error"></span><span id="unavailable_resource_error"></span><span id="UNAVAILABLE_RESOURCE_ERROR"></span><dl> <dt>**Unavailable Resource Error**</dt> <dt>9</dt> </dl>      | Errors of this type are principally associated with the failure to access a required resource.<br/>                                                |
 | <span id="Unsupported_Operation_Error"></span><span id="unsupported_operation_error"></span><span id="UNSUPPORTED_OPERATION_ERROR"></span><dl> <dt>**Unsupported Operation Error**</dt> <dt>10</dt> </dl> | Errors of this type are principally associated with requests that are not supported.<br/>                                                          |
-| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>11–65535</dt> </dl>                                                   |                                                                                                                                                          |
+| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>11 65535</dt> </dl>                                                   |                                                                                                                                                          |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -323,11 +328,11 @@ The possible values are.
 | <span id="Major"></span><span id="major"></span><span id="MAJOR"></span><dl> <dt>**Major**</dt> <dt>5</dt> </dl>                                                             | Action is needed immediately.<br/>                                       |
 | <span id="Critical"></span><span id="critical"></span><span id="CRITICAL"></span><dl> <dt>**Critical**</dt> <dt>6</dt> </dl>                                                 | Action is needed immediately, and the scope is broad.<br/>               |
 | <span id="Fatal_NonRecoverable"></span><span id="fatal_nonrecoverable"></span><span id="FATAL_NONRECOVERABLE"></span><dl> <dt>**Fatal/NonRecoverable**</dt> <dt>7</dt> </dl> | An error has occurred, but it too late to take action.<br/>              |
-| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>8–65535</dt> </dl>                       | Reserved for future use.<br/>                                            |
+| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>8 65535</dt> </dl>                       | Reserved for future use.<br/>                                            |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -482,11 +487,11 @@ The possible values are.
 | <span id="Out_of_Service"></span><span id="out_of_service"></span><span id="OUT_OF_SERVICE"></span><dl> <dt>**Out of Service**</dt> <dt>128</dt> </dl>                                                                                                                |                                     |
 | <span id="Procedural_Error"></span><span id="procedural_error"></span><span id="PROCEDURAL_ERROR"></span><dl> <dt>**Procedural Error**</dt> <dt>129</dt> </dl>                                                                                                        |                                     |
 | <span id="Unexpected_Information"></span><span id="unexpected_information"></span><span id="UNEXPECTED_INFORMATION"></span><dl> <dt>**Unexpected Information**</dt> <dt>130</dt> </dl>                                                                                |                                     |
-| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>131–65535</dt> </dl>                                                                                                              | Reserved for future use.<br/> |
+| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>131 65535</dt> </dl>                                                                                                              | Reserved for future use.<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -525,17 +530,17 @@ A free-form string describing recommended actions to take to resolve the error.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

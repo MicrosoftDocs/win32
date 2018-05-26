@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_LinkHasConnector class associates cables and links used as physical connectors, which connect the physical elements. This association explicitly defines the relationship of connectors for CIM\_PhysicalLink.'
+Description: The CIM\_LinkHasConnector class associates cables and links used as physical connectors, which connect the physical elements. This association explicitly defines the relationship of connectors for CIM\_PhysicalLink.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c8244b93-749a-424a-ab40-ce5ce79c8b02'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c8244b93-749a-424a-ab40-ce5ce79c8b02
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_LinkHasConnector class'
+title: CIM\_LinkHasConnector class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LinkHasConnector class
@@ -19,7 +22,7 @@ The **CIM\_LinkHasConnector** class associates cables and links used as physical
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -30,7 +33,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_LinkHasConnector : CIM_Component
 {
   CIM_PhysicalConnector REF PartComponent;
-  CIM_PhysicalLink      REF GroupComponent;
+  CIM_PhysicalLink      REF GroupComponent;
 };
 ```
 
@@ -90,8 +93,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -105,9 +108,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Controls the arbitration interval (in seconds) used by the persiste
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e1e5df7f-2ffa-4935-a5c0-acefc083c5fb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e1e5df7f-2ffa-4935-a5c0-acefc083c5fb
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DiskArbInterval Failover Cluster , for Physical Disk private properties", "DiskArbInterval Failover Cluster"]
+keywords:
+- DiskArbInterval Failover Cluster , for Physical Disk private properties
+- DiskArbInterval Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DiskArbInterval
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DiskArbInterval
@@ -28,14 +33,14 @@ Controls the arbitration interval (in seconds) used by the persistent reservatio
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 1                                         |
 | Maximum   | 0xFFFFFFFF                                |
 | Default   | 3                                         |
 
 
 
- 
+ 
 
 ## Examples
 
@@ -60,7 +65,7 @@ DiskArbIntervalValue.dw        = DiskArbIntervalData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -71,12 +76,12 @@ DiskArbIntervalValue.dw        = DiskArbIntervalData;
 [Physical Disk Private Properties](physical-disk-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

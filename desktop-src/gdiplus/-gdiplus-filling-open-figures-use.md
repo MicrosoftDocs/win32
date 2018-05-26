@@ -1,14 +1,19 @@
 ---
-Description: 'You can fill a path by passing the address of a GraphicsPath object to the Graphics::FillPath method.'
-ms.assetid: '4cf293cf-5155-4ce2-afeb-cc9ca9395764'
+Description: You can fill a path by passing the address of a GraphicsPath object to the GraphicsFillPath method.
+ms.assetid: 4cf293cf-5155-4ce2-afeb-cc9ca9395764
 title: Filling Open Figures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filling Open Figures
 
-You can fill a path by passing the address of a [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) object to the [**Graphics::FillPath**](-gdiplus-class-graphics-fillpath-brush-path-.md) method. The **Graphics::FillPath** method fills the path according to the fill mode (alternate or winding) currently set for the path. If the path has any open figures, the path is filled as if those figures were closed. GDI+ closes a figure by drawing a straight line from its ending point to its starting point.
+You can fill a path by passing the address of a [**GraphicsPath**](/windows/win32/gdipluspath/nl-gdipluspath-graphicspath?branch=master) object to the [**Graphics::FillPath**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpath?branch=master) method. The **Graphics::FillPath** method fills the path according to the fill mode (alternate or winding) currently set for the path. If the path has any open figures, the path is filled as if those figures were closed. GDI+ closes a figure by drawing a straight line from its ending point to its starting point.
 
-The following example creates a path that has one open figure (an arc) and one closed figure (an ellipse). The [**Graphics::FillPath**](-gdiplus-class-graphics-fillpath-brush-path-.md) method fills the path according to the default fill mode, which is FillModeAlternate.
+The following example creates a path that has one open figure (an arc) and one closed figure (an ellipse). The [**Graphics::FillPath**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpath?branch=master) method fills the path according to the default fill mode, which is FillModeAlternate.
 
 
 ```

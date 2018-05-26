@@ -1,14 +1,20 @@
 ---
 title: PackageInformation (Header) Element
 description: Identifies a troubleshooter within the troubleshooting package.
-ms.assetid: '5a68dc4a-188d-4843-8592-83d7ae7fc89b'
-keywords: ["PackageInformation element Windows Troubleshooting Toolkit"]
+ms.assetid: 5a68dc4a-188d-4843-8592-83d7ae7fc89b
+keywords:
+- PackageInformation element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - PackageInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PackageInformation (Header) Element
@@ -33,8 +39,8 @@ This node will contain three child **Data** elements that identify the propertie
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -48,9 +54,9 @@ This node will contain three child **Data** elements that identify the propertie
 [**Header (ResultReport)**](report-header-resultreport-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

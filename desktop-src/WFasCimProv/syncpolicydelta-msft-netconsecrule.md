@@ -1,7 +1,12 @@
 ---
-Description: 'Synchronize IPsec policy.'
-ms.assetid: 'b5e51ada-736f-41e8-beed-66dd4de41fc2'
-title: 'SyncPolicyDelta method of the MSFT\_NetConSecRule class'
+Description: Synchronize IPsec policy.
+ms.assetid: b5e51ada-736f-41e8-beed-66dd4de41fc2
+title: SyncPolicyDelta method of the MSFT\_NetConSecRule class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SyncPolicyDelta method of the MSFT\_NetConSecRule class
@@ -13,12 +18,12 @@ Synchronize IPsec policy
 
 ```mof
 uint32 SyncPolicyDelta(
-  [in]  string Servers[],
-  [in]  string Domains[],
-  [in]  uint16 EndpointType,
-  [in]  uint16 AddressType,
-  [in]  string DnsServers[],
-  [out] String Output[]
+  [in]  string Servers[],
+  [in]  string Domains[],
+  [in]  uint16 EndpointType,
+  [in]  uint16 AddressType,
+  [in]  string DnsServers[],
+  [out] String Output[]
 );
 ```
 
@@ -88,8 +93,8 @@ Delta collection
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
@@ -103,9 +108,9 @@ Delta collection
 [**MSFT\_NetConSecRule**](msft-netconsecrule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

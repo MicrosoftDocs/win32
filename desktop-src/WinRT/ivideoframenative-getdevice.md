@@ -1,7 +1,12 @@
 ---
-Description: 'This method returns a device associated with the video data.'
-ms.assetid: '9A61159B-C383-4770-AD8F-9F69F720E3E2'
-title: 'IVideoFrameNative::GetDevice method'
+Description: This method returns a device associated with the video data.
+ms.assetid: 9A61159B-C383-4770-AD8F-9F69F720E3E2
+title: IVideoFrameNativeGetDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVideoFrameNative::GetDevice method
@@ -46,7 +51,7 @@ Returns S\_OK on successful completion.
 
 <dl> <dt>
 
-[**IVideoFrameNative**](ivideoframenative.md)
+[**IVideoFrameNative**](/windows/win32/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative?branch=master)
 </dt> </dl>
 
  

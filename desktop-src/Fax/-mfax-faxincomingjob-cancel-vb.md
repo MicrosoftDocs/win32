@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Cancel method cancels the incoming fax job.'
-ms.assetid: '36e3f4a3-4957-473b-895e-99e2c5b68785'
-title: 'FaxIncomingJob.Cancel method'
+---
+Description: The Cancel method cancels the incoming fax job.
+ms.assetid: 36e3f4a3-4957-473b-895e-99e2c5b68785
+title: FaxIncomingJob.Cancel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob.Cancel method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [**farMANAGE\_JOBS**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farMANAGE\_JOBS**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -48,7 +53,7 @@ To use this method, a user must have the [**farMANAGE\_JOBS**](-mfax-fax-access-
 [**FaxIncomingJob**](-mfax-faxincomingjob.md)
 </dt> <dt>
 
-[**IFaxIncomingJob**](-mfax-faxincomingjob-cpp.md)
+[**IFaxIncomingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjob?branch=master)
 </dt> </dl>
 
  

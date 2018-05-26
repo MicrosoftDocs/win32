@@ -1,14 +1,20 @@
 ---
 title: COLUMN.columnID
 description: The columnID attribute specifies or retrieves a column ID in the PLAYLIST control.
-ms.assetid: 'c7b51f0b-e347-46be-a26d-aaa0bce83e0c'
-keywords: ["COLUMN.columnID Windows Media Player"]
+ms.assetid: c7b51f0b-e347-46be-a26d-aaa0bce83e0c
+keywords:
+- COLUMN.columnID Windows Media Player
 topic_type:
 - apiref
 api_name:
 - COLUMN.columnID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLUMN.columnID
@@ -40,7 +46,7 @@ The **columnID** values are the same values used with the **getItemInfo** method
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -71,9 +77,9 @@ The **columnID** values are the same values used with the **getItemInfo** method
 [**Media.getItemInfo**](media-getiteminfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

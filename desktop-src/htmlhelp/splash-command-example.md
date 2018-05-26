@@ -1,7 +1,12 @@
 ---
 title: Splash Command Example
 description: Splash Command Example
-ms.assetid: '5BCB0971-DF31-48a5-8348-3FA0823778B2'
+ms.assetid: 5BCB0971-DF31-48a5-8348-3FA0823778B2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Splash Command Example

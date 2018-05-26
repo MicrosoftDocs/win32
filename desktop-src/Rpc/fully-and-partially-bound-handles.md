@@ -1,7 +1,12 @@
 ---
 title: Fully and Partially Bound Handles
 description: When you use dynamic endpoints, the run-time libraries obtain endpoint information as they need it.
-ms.assetid: '13f2f783-2c10-4122-ba4d-a97b9c0378c1'
+ms.assetid: 13f2f783-2c10-4122-ba4d-a97b9c0378c1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fully and Partially Bound Handles
@@ -15,7 +20,7 @@ The client run-time library must convert the partially bound handle to a fully b
 
 If the client tries to use a partially bound handle when the endpoint information is not available in the interface specification and the server's endpoint-mapper does not have information about the server endpoint, the client will not have enough information to make its remote procedure call and that call will fail. To prevent this, you must register the endpoint in the endpoint mapper when your distributed application uses partially bound handles. For more information about the endpoint mapper, see [Specifying Dynamic Endpoints](specifying-endpoints.md#specifying-dynamic-endpoints).
 
-When a remote procedure call fails, the client application can call [**RpcBindingReset**](rpcbindingreset.md) to remove out-of-date endpoint information. When the client tries to call the remote procedure, the client run-time library again tries to convert the fully bound handle to a partially bound handle. This is useful when the server has been stopped and restarted using a different dynamic endpoint.
+When a remote procedure call fails, the client application can call [**RpcBindingReset**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingreset?branch=master) to remove out-of-date endpoint information. When the client tries to call the remote procedure, the client run-time library again tries to convert the fully bound handle to a partially bound handle. This is useful when the server has been stopped and restarted using a different dynamic endpoint.
 
  
 

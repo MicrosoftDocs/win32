@@ -1,8 +1,11 @@
 ---
 title: External.NavigateTaskPaneURL method
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: 'c3a888c0-6589-4d21-9d47-37372d9069f4'
-keywords: ["NavigateTaskPaneURL method Windows Media Player", "NavigateTaskPaneURL method Windows Media Player , External class", "External class Windows Media Player , NavigateTaskPaneURL method"]
+ms.assetid: c3a888c0-6589-4d21-9d47-37372d9069f4
+keywords:
+- NavigateTaskPaneURL method Windows Media Player
+- NavigateTaskPaneURL method Windows Media Player , External class
+- External class Windows Media Player , NavigateTaskPaneURL method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.NavigateTaskPaneURL method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **NavigateTaskPaneURL** method opens a webpage in the specified task pane, and changes focus to the specified pane.
 
@@ -82,7 +90,7 @@ The following table lists of valid values for *bstrTaskPane* and the associated 
 
 
 
- 
+ 
 
 Your webpage code should specify a value for [External.SelectedTaskPane](external-selectedtaskpane.md) when loading to ensure that the correct task pane button is highlighted after navigation is completed.
 
@@ -140,9 +148,9 @@ http://www.proseware.com/online store/html/navigate.asp?Pane=Store
 [**External.SelectedTaskPane**](external-selectedtaskpane.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

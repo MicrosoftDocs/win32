@@ -1,30 +1,35 @@
 ---
 Description: Reading a Table of Contents from a Video File
-ms.assetid: '10c4f4ca-cb30-453c-b18d-0470bfecc14e'
+ms.assetid: 10c4f4ca-cb30-453c-b18d-0470bfecc14e
 title: Reading a Table of Contents from a Video File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading a Table of Contents from a Video File
 
 This topic demonstrates how to read a table of contents that has already been embedded in a video file.
 
-Start by calling [**CoCreateInstance**](com.cocreateinstance) to create a TOC Parser object and obtain an [**ITocParser**](itocparser.md) interface. Then obtain the following interfaces by calling methods.
+Start by calling [**CoCreateInstance**](com.cocreateinstance) to create a TOC Parser object and obtain an [**ITocParser**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itocparser?branch=master) interface. Then obtain the following interfaces by calling methods.
 
--   [**IToc**](itoc.md)
--   [**ITocEntryList**](itocentrylist.md)
--   [**ITocEntry**](itocentry.md)
+-   [**IToc**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itoc?branch=master)
+-   [**ITocEntryList**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itocentrylist?branch=master)
+-   [**ITocEntry**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itocentry?branch=master)
 
-Use the methods of [**ITocEntry**](itocentry.md) to inspect an individual entry in the table of contents. For example, you can inspect the title, the start time, and the end time of the entry.
+Use the methods of [**ITocEntry**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itocentry?branch=master) to inspect an individual entry in the table of contents. For example, you can inspect the title, the start time, and the end time of the entry.
 
 The following list gives the steps in more detail.
 
-1.  Call [**CoCreateInstance**](com.cocreateinstance) to create a TOC Parser object and obtain an [**ITocParser**](itocparser.md) interface on it.
-2.  Call [**ITocParser::Init**](itocparser-init.md) to initialize the TOC parser and associate it with a video file.
-3.  Obtain an [**IToc**](itoc.md) interface by calling [**ITocParser::GetTocByIndex**](itocparser-gettocbyindex.md).
-4.  Obtain an [**ITocEntryList**](itocentrylist.md) interface by calling [**IToc::GetEntryListByIndex**](itoc-getentrylistbyindex.md).
-5.  Obtain an [**ITocEntry**](itocentry.md) interface by calling [**ITocEntryList::GetEntryByIndex**](itocentrylist-getentrybyindex.md).
-6.  Allocate a [**TOC\_ENTRY\_DESCRIPTOR**](toc-entry-descriptor.md) structure.
-7.  Populate the [**TOC\_ENTRY\_DESCRIPTOR**](toc-entry-descriptor.md) structure by calling [**ITocEntry::GetDescriptor**](itocentry-getdescriptor.md).
+1.  Call [**CoCreateInstance**](com.cocreateinstance) to create a TOC Parser object and obtain an [**ITocParser**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itocparser?branch=master) interface on it.
+2.  Call [**ITocParser::Init**](/windows/win32/wmcodecdsp/nf-wmcodecdsp-itocparser-init?branch=master) to initialize the TOC parser and associate it with a video file.
+3.  Obtain an [**IToc**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itoc?branch=master) interface by calling [**ITocParser::GetTocByIndex**](/windows/win32/wmcodecdsp/nf-wmcodecdsp-itocparser-gettocbyindex?branch=master).
+4.  Obtain an [**ITocEntryList**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itocentrylist?branch=master) interface by calling [**IToc::GetEntryListByIndex**](/windows/win32/wmcodecdsp/nf-wmcodecdsp-itoc-getentrylistbyindex?branch=master).
+5.  Obtain an [**ITocEntry**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-itocentry?branch=master) interface by calling [**ITocEntryList::GetEntryByIndex**](/windows/win32/wmcodecdsp/nf-wmcodecdsp-itocentrylist-getentrybyindex?branch=master).
+6.  Allocate a [**TOC\_ENTRY\_DESCRIPTOR**](/windows/win32/wmcodecdsp/ns-wmcodecdsp-_toc_entry_descriptor?branch=master) structure.
+7.  Populate the [**TOC\_ENTRY\_DESCRIPTOR**](/windows/win32/wmcodecdsp/ns-wmcodecdsp-_toc_entry_descriptor?branch=master) structure by calling [**ITocEntry::GetDescriptor**](/windows/win32/wmcodecdsp/nf-wmcodecdsp-itocentry-getdescriptor?branch=master).
 
 The following code demonstrates the steps in the preceding list.
 

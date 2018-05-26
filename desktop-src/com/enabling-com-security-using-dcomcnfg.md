@@ -1,7 +1,12 @@
 ---
 title: Enabling COM Security Using DCOMCNFG
 description: Dcomcnfg.exe provides a user interface for modifying certain settings in the registry.
-ms.assetid: '9aad6b71-47b8-4377-88e5-f463991d9e86'
+ms.assetid: 9aad6b71-47b8-4377-88e5-f463991d9e86
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling COM Security Using DCOMCNFG

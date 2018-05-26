@@ -1,7 +1,12 @@
 ---
 title: Client Enumerations
 description: Client Enumerations
-ms.assetid: '3BFF4459-BD31-47B9-9E53-C5184D8E2A38'
+ms.assetid: 3BFF4459-BD31-47B9-9E53-C5184D8E2A38
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Enumerations

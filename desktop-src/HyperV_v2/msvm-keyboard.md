@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a keyboard device.'
-ms.assetid: '4AEB732D-274E-42BB-AA97-9E4D30B81338'
-title: 'Msvm\_Keyboard class'
+Description: Represents a keyboard device.
+ms.assetid: 4AEB732D-274E-42BB-AA97-9E4D30B81338
+title: Msvm\_Keyboard class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Keyboard class
@@ -16,49 +21,49 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_Keyboard : CIM_UserDevice
 {
-  string   InstanceID;
-  string   Caption = "Keyboard";
-  string   Description = "Microsoft Virtual Keyboard";
-  string   ElementName = "Keyboard";
+  string   InstanceID;
+  string   Caption = "Keyboard";
+  string   Description = "Microsoft Virtual Keyboard";
+  string   ElementName = "Keyboard";
   datetime InstallDate;
-  string   Name = "Keyboard";
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "Keyboard";
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_Keyboard";
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = { 6 };
-  uint64   MaxQuiesceTime;
-  boolean  IsLocked = False;
-  string   Layout = "00000409";
-  uint16   NumberOfFunctionKeys = 12;
-  uint16   Password = 5;
-  boolean  UnicodeSupported;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_Keyboard";
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = { 6 };
+  uint64   MaxQuiesceTime;
+  boolean  IsLocked = False;
+  string   Layout = "00000409";
+  uint16   NumberOfFunctionKeys = 12;
+  uint16   Password = 5;
+  boolean  UnicodeSupported;
 };
 ```
 
@@ -95,7 +100,7 @@ The **Msvm\_Keyboard** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -307,7 +312,7 @@ An administrator's default or startup configuration for the enabled state of an 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -337,12 +342,12 @@ Indicates the enabled and disabled states of an element. It can also indicate th
 | <span id="Deferred"></span><span id="deferred"></span><span id="DEFERRED"></span><dl> <dt>**Deferred**</dt> <dt>8</dt> </dl>                                             | The element might be completing commands, but it will queue any new requests.<br/>                                                                                                                        |
 | <span id="Quiesce"></span><span id="quiesce"></span><span id="QUIESCE"></span><dl> <dt>**Quiesce**</dt> <dt>9</dt> </dl>                                                 | The element is enabled but in a restricted mode. The behavior of the element is similar to the Enabled state (2), but it processes only a restricted set of commands. All other requests are queued.<br/> |
 | <span id="Starting"></span><span id="starting"></span><span id="STARTING"></span><dl> <dt>**Starting**</dt> <dt>10</dt> </dl>                                            | The element is in the process of going to an Enabled state (2). New requests are queued.<br/>                                                                                                             |
-| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>11–32767</dt> </dl>                  | This value is reserved.<br/>                                                                                                                                                                              |
-| <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span><dl> <dt>**Vendor Reserved**</dt> <dt>32768–65535</dt> </dl>       | This value is reserved.<br/>                                                                                                                                                                              |
+| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>11 32767</dt> </dl>                  | This value is reserved.<br/>                                                                                                                                                                              |
+| <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span><dl> <dt>**Vendor Reserved**</dt> <dt>32768 65535</dt> </dl>       | This value is reserved.<br/>                                                                                                                                                                              |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -732,7 +737,7 @@ The last requested state for the element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -866,7 +871,7 @@ Indicates if the virtual keyboard supports Unicode characters. This can be one o
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -880,8 +885,8 @@ Access to the **Msvm\_Keyboard** class might be restricted by UAC Filtering. For
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -901,9 +906,9 @@ Access to the **Msvm\_Keyboard** class might be restricted by UAC Filtering. For
 [Input Classes](input-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

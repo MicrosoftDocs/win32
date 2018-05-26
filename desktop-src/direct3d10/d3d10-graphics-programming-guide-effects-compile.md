@@ -1,7 +1,12 @@
 ---
-Description: 'Once an effect has been authored, the first step is to compile the code to check for syntax problems.'
-ms.assetid: 'b8d8a0b7-b520-44e4-8691-6eb46202c092'
-title: 'Compile an Effect (Direct3D 10)'
+Description: Once an effect has been authored, the first step is to compile the code to check for syntax problems.
+ms.assetid: b8d8a0b7-b520-44e4-8691-6eb46202c092
+title: Compile an Effect (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compile an Effect (Direct3D 10)
@@ -57,7 +62,7 @@ D3D10_SHADER_MACRO Shader_Macros[3] = { "zero", "0", "one", "1.0f", NULL, NULL }
 
 
 
-The macros are a NULL terminated array of macros; where each macro is defined with a [**D3D10\_SHADER\_MACRO**](d3d10-shader-macro.md) struct.
+The macros are a NULL terminated array of macros; where each macro is defined with a [**D3D10\_SHADER\_MACRO**](/windows/win32/D3D10Shader/?branch=master) struct.
 
 Lastly, modify the compile effect call to take a pointer to the macros.
 

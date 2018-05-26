@@ -1,8 +1,9 @@
 ---
 title: TTM\_GETTITLE message
 description: Retrieve information concerning the title of a tooltip control.
-ms.assetid: 'd8992dd1-1610-44e8-8c0f-8ae1ac4b5898'
-keywords: ["TTM_GETTITLE message Windows Controls"]
+ms.assetid: d8992dd1-1610-44e8-8c0f-8ae1ac4b5898
+keywords:
+- TTM_GETTITLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_GETTITLE message
@@ -27,7 +33,7 @@ Retrieve information concerning the title of a tooltip control.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TTGETTITLE**](ttgettitle.md) structure that contains information about a tooltip title.
+Pointer to a [**TTGETTITLE**](/windows/win32/Commctrl/ns-commctrl-_ttgettitle?branch=master) structure that contains information about a tooltip title.
 
 </dd> </dl>
 
@@ -40,7 +46,7 @@ The return value is not used.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -48,15 +54,15 @@ The return value is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

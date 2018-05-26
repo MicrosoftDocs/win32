@@ -4,12 +4,15 @@ description: The Distributed Transaction Coordinator (DTC) WMI Provider enables 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4385b350-f358-4127-87d2-03487c082390'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4385b350-f358-4127-87d2-03487c082390
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-transaction-coordinator'
-- 'windows-management-instrumentation'
+- distributed-transaction-coordinator
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Distributed Transaction Coordinator WMI Provider

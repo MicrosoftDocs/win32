@@ -4,11 +4,15 @@ description: This topic contains C++ code examples to use to perform a VLV searc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9bad8f71-80e3-446f-9be3-c00defbe1ea5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 9bad8f71-80e3-446f-9be3-c00defbe1ea5
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Using a VLV Search"]
+keywords:
+- Example Code for Using a VLV Search
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Using a VLV Search

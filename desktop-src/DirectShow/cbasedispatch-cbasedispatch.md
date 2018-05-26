@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'c88638ca-929e-4135-b15c-110229f4a4de'
-title: 'CBaseDispatch.CBaseDispatch constructor'
+Description: Constructor method.
+ms.assetid: c88638ca-929e-4135-b15c-110229f4a4de
+title: CBaseDispatch.CBaseDispatch constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseDispatch.CBaseDispatch constructor
@@ -39,9 +44,9 @@ This constructor has no parameters.
 [**CBaseDispatch Class**](cbasedispatch.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

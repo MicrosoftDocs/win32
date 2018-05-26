@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Tsid property is a null-terminated string that contains the transmitting station identifier (TSID)) associated with the fax job.'
-ms.assetid: '54c1e533-1846-4858-961d-ff0744473d50'
-title: 'FaxJob.Tsid property'
+---
+Description: The Tsid property is a null-terminated string that contains the transmitting station identifier (TSID)) associated with the fax job.
+ms.assetid: 54c1e533-1846-4858-961d-ff0744473d50
+title: FaxJob.Tsid property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.Tsid property
@@ -59,10 +64,10 @@ Note that the T.30 specification of the International Telecommunication Union (I
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> <dt>
 
 [**UseDeviceTsid**](-mfax-ifaxserver-get-usedevicetsid-vb.md)

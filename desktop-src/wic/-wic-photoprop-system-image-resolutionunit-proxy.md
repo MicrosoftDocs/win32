@@ -1,7 +1,12 @@
 ---
-Description: 'The property proxy for the System.Image.ResolutionUnit photo metadata policy.'
-ms.assetid: 'a4fe3958-c4b9-4989-b3b9-395464ba1cc2'
-title: 'System.Image.ResolutionUnit Proxy'
+Description: The property proxy for the System.Image.ResolutionUnit photo metadata policy.
+ms.assetid: a4fe3958-c4b9-4989-b3b9-395464ba1cc2
+title: System.Image.ResolutionUnit Proxy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.ResolutionUnit Proxy

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Decrypts enveloped content.'
-ms.assetid: '717d0595-e8bb-4725-bd53-fc1281cbc8ee'
-title: 'EnvelopedData.Decrypt method'
+---
+Description: Decrypts enveloped content.
+ms.assetid: 717d0595-e8bb-4725-bd53-fc1281cbc8ee
+title: EnvelopedData.Decrypt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnvelopedData.Decrypt method

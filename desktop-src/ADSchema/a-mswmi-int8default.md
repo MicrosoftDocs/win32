@@ -4,17 +4,22 @@ description: Default value for WMI 64-bit integer parameter objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'de8c4178-0d27-440f-88ab-a86f34400f3a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: de8c4178-0d27-440f-88ab-a86f34400f3a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-int8Default attribute AD Schema", "msWMI-Int8Default attribute AD Schema"]
+keywords:
+- ms-WMI-int8Default attribute AD Schema
+- msWMI-Int8Default attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-int8Default
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-int8Default attribute

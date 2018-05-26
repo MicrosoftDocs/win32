@@ -1,7 +1,12 @@
 ---
 title: ODL File Syntax
 description: The general syntax for an .ODL file is as follows
-ms.assetid: 'df7aa86f-1453-4409-939e-788d469d611e'
+ms.assetid: df7aa86f-1453-4409-939e-788d469d611e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ODL File Syntax
@@ -31,13 +36,13 @@ The following table summarizes the elements that can appear in definitions. Each
 |                                                                          | typedef \[attributes\] [struct](struct.md)<br/>       | A structure declared using the C keywordstypedefand struct.<br/>                                                                                                                        |
 |                                                                          | typedef \[attributes\] [union](union.md)<br/>         | A union declared using the C keywordstypedefand union.<br/>                                                                                                                             |
 | Describes functions that enable querying the DLL.<br/>             | \[attributes\] [module](module.md)<br/>               | Constants and general data functions whose actions are not restricted to any specified class of objects.<br/>                                                                           |
-| Describes interfaces.<br/>                                         | \[attributes\] [dispinterface](dispinterface.md)<br/> | An interface describing the methods and properties for an object that must be accessed through [**IDispatch::Invoke**](idispatch-invoke.md).<br/>                                      |
-|                                                                          | \[attributes\] [interface](interface.md)<br/>         | An interface describing the methods and properties for an object that can be accessed through VTBL entries or possibly also through [**IDispatch::Invoke**](idispatch-invoke.md).<br/> |
+| Describes interfaces.<br/>                                         | \[attributes\] [dispinterface](dispinterface.md)<br/> | An interface describing the methods and properties for an object that must be accessed through [**IDispatch::Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master).<br/>                                      |
+|                                                                          | \[attributes\] [interface](interface.md)<br/>         | An interface describing the methods and properties for an object that can be accessed through VTBL entries or possibly also through [**IDispatch::Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master).<br/> |
 | Describes OLE classes.<br/>                                        | \[attributes\] [coclass](coclass.md)<br/>             | Specifies a top-level object with all of its interfaces and dispinterfaces.<br/>                                                                                                        |
 
 
 
- 
+ 
 
 In the library description, modules, interfaces, dispinterfaces, and coclasses follow the same general syntax:
 
@@ -70,7 +75,7 @@ For these types, the attributes follow the typedefkeyword, and the typekind indi
 > [!Note]  
 > The square brackets (\[ \]) and braces ({ }) in these descriptions are part of the syntax, and are not descriptive symbols. The semicolon after the closing brace (}) that terminates the library definition (and all other type definitions) is optional.
 
- 
+ 
 
 ## Related topics
 
@@ -79,9 +84,9 @@ For these types, the attributes follow the typedefkeyword, and the typekind indi
 [Type Libraries and the Object Description Language](type-libraries-and-the-object-description-language.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

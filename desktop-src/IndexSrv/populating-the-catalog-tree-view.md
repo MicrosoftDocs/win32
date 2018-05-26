@@ -1,7 +1,12 @@
 ---
 title: Populating the Catalog Tree View
 description: Populating the Catalog Tree View
-ms.assetid: '0acd38e7-f02f-406f-98b6-93045725b457'
+ms.assetid: 0acd38e7-f02f-406f-98b6-93045725b457
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Populating the Catalog Tree View

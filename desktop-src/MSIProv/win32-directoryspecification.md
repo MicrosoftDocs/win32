@@ -1,8 +1,10 @@
 ---
 title: Win32\_DirectorySpecification class
 description: The Win32\_DirectorySpecification class represents the directory layout for the product. Each instance of the class represents a directory in both the source image and the destination image.
-ms.assetid: 'c298bdba-342d-4330-9dd3-7b6aaec9b2d9'
-keywords: ["Win32_DirectorySpecification class", "Win32_DirectorySpecification class, described"]
+ms.assetid: c298bdba-342d-4330-9dd3-7b6aaec9b2d9
+keywords:
+- Win32_DirectorySpecification class
+- Win32_DirectorySpecification class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_DirectorySpecification class
@@ -45,19 +52,19 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_DirectorySpecification : CIM_DirectorySpecification
 {
-  string  Caption;
-  string  CheckID;
+  string  Caption;
+  string  CheckID;
   boolean CheckMode;
-  string  DefaultDir;
-  string  Description;
-  string  Directory;
-  string  DirectoryPath;
-  uint16  DirectoryType;
-  string  Name;
-  string  SoftwareElementID;
-  uint16  SoftwareElementState;
-  uint16  TargetOperatingSystem;
-  string  Version;
+  string  DefaultDir;
+  string  Description;
+  string  Directory;
+  string  DirectoryPath;
+  uint16  DirectoryType;
+  string  Name;
+  string  SoftwareElementID;
+  uint16  SoftwareElementState;
+  uint16  TargetOperatingSystem;
+  string  Version;
 };
 ```
 
@@ -193,7 +200,7 @@ Type of directory being described.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -245,7 +252,7 @@ State of a software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -325,7 +332,7 @@ Target operating system of the owning software element. The possible values for 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -352,8 +359,8 @@ The **Win32\_DirectorySpecification** class is derived from [**CIM\_DirectorySpe
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -367,9 +374,9 @@ The **Win32\_DirectorySpecification** class is derived from [**CIM\_DirectorySpe
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

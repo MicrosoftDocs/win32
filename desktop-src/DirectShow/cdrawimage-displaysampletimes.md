@@ -1,7 +1,12 @@
 ---
-Description: 'The DisplaySampleTimes method draws the time stamps of a media sample on top of the video image.'
-ms.assetid: '3741dc74-5311-4cb1-9e6b-4a8bf6113477'
-title: 'CDrawImage.DisplaySampleTimes method'
+Description: The DisplaySampleTimes method draws the time stamps of a media sample on top of the video image.
+ms.assetid: 3741dc74-5311-4cb1-9e6b-4a8bf6113477
+title: CDrawImage.DisplaySampleTimes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.DisplaySampleTimes method
@@ -13,7 +18,7 @@ The `DisplaySampleTimes` method draws the time stamps of a media sample on top o
 
 ```C++
 void DisplaySampleTimes(
-   IMediaSample *pSample
+   IMediaSample *pSample
 );
 ```
 
@@ -26,7 +31,7 @@ void DisplaySampleTimes(
 *pSample* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface of the sample.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface of the sample.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ This method is called only in debug builds.
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

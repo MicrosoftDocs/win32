@@ -1,21 +1,26 @@
 ---
-Description: 'Occurs when the InkRecognizerContext has generated results from the BackgroundRecognize method.'
-ms.assetid: '0cc319af-cd0b-4089-928b-cae6c86f6f61'
-title: 'InkRecognizerContext.Recognition event'
+Description: Occurs when the InkRecognizerContext has generated results from the BackgroundRecognize method.
+ms.assetid: 0cc319af-cd0b-4089-928b-cae6c86f6f61
+title: InkRecognizerContext.Recognition event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkRecognizerContext.Recognition event
 
-Occurs when the [**InkRecognizerContext**](inkrecognizercontext-class.md) has generated results from the [**BackgroundRecognize**](inkrecognizercontext-backgroundrecognize.md) method.
+Occurs when the [**InkRecognizerContext**](/windows/win32/msinkaut/?branch=master) has generated results from the [**BackgroundRecognize**](/windows/win32/msinkaut/?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 void Recognition(
-  [in] BSTR                 RecognizedString,
-  [in] VARIANT              CustomData,
-  [in] InkRecognitionStatus RecognitionStatus
+  [in] BSTR                 RecognizedString,
+  [in] VARIANT              CustomData,
+  [in] InkRecognitionStatus RecognitionStatus
 );
 ```
 
@@ -56,7 +61,7 @@ This event does not return a value.
 
 ## Remarks
 
-The behavior of the application programming interface (API) is unpredictable if you try to gain access to the original [**InkRecognizerContext**](inkrecognizercontext-class.md) object from the recognition event handler. Do not attempt to do this. Instead, if you need to do this, create a flag and set it in the [Recognition](ink-recognition.md) event handler. Then you can poll that flag to determine when to change the **InkRecognizerContext** properties outside of the event handler.
+The behavior of the application programming interface (API) is unpredictable if you try to gain access to the original [**InkRecognizerContext**](/windows/win32/msinkaut/?branch=master) object from the recognition event handler. Do not attempt to do this. Instead, if you need to do this, create a flag and set it in the [Recognition](ink-recognition.md) event handler. Then you can poll that flag to determine when to change the **InkRecognizerContext** properties outside of the event handler.
 
 This event method is defined in the \_IInkEvents interface. The \_IInkEvents interface implements the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface with an identifier of DISPID\_IRERecognition.
 
@@ -66,7 +71,7 @@ This event method is defined in the \_IInkEvents interface. The \_IInkEvents int
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -77,24 +82,24 @@ This event method is defined in the \_IInkEvents interface. The \_IInkEvents int
 
 <dl> <dt>
 
-[**InkRecognizerContext Class**](inkrecognizercontext-class.md)
+[**InkRecognizerContext Class**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
-[**BackgroundRecognize Method**](inkrecognizercontext-backgroundrecognize.md)
+[**BackgroundRecognize Method**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
-[**InkRecognitionStatus Enumeration**](inkrecognitionstatus.md)
+[**InkRecognitionStatus Enumeration**](/windows/win32/msinkaut/ne-msinkaut-inkrecognitionstatus?branch=master)
 </dt> <dt>
 
-[**Recognize Method**](inkrecognizercontext-recognize.md)
+[**Recognize Method**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
-[**IInkRecognitionResult Interface**](iinkrecognitionresult.md)
+[**IInkRecognitionResult Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionresult?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WcsGetUsePerUserProfiles function determines whether the user has chosen to use a per-user profile association list for the specified device.'
-ms.assetid: '6a970bec-c773-498e-b93a-2bd9f625e194'
+---
+Description: The WcsGetUsePerUserProfiles function determines whether the user has chosen to use a per-user profile association list for the specified device.
+ms.assetid: 6a970bec-c773-498e-b93a-2bd9f625e194
 title: WcsGetUsePerUserProfiles function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsGetUsePerUserProfiles function

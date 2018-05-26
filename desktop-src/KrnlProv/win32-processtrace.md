@@ -4,11 +4,13 @@ description: The base event for process events.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b3c1df1f-916b-4f67-8002-572d639e95f4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: b3c1df1f-916b-4f67-8002-572d639e95f4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_ProcessTrace class", "Win32_ProcessTrace class, described"]
+keywords:
+- Win32_ProcessTrace class
+- Win32_ProcessTrace class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - Krnlprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ProcessTrace class
@@ -38,13 +43,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [AMENDMENT]
 class Win32_ProcessTrace : Win32_SystemTrace
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   uint32 ProcessID;
   uint32 ParentProcessID;
   string ProcessName;
   uint32 SessionID;
-  uint8  Sid[];
+  uint8  Sid[];
 };
 ```
 
@@ -163,8 +168,8 @@ The **Win32\_ProcessTrace** class is derived from [**Win32\_SystemTrace**](win32
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Krnlprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Krnlprov.dll</dt> </dl> |
@@ -184,9 +189,9 @@ The **Win32\_ProcessTrace** class is derived from [**Win32\_SystemTrace**](win32
 [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

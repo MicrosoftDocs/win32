@@ -1,8 +1,9 @@
 ---
 title: WM\_ENTERIDLE message
 description: Sent to the owner window of a modal dialog box or menu that is entering an idle state. A modal dialog box or menu enters an idle state when no messages are waiting in its queue after it has processed one or more previous messages.
-ms.assetid: '11b1f942-185f-4de4-90a2-e2934bb1394f'
-keywords: ["WM_ENTERIDLE message Dialog Boxes"]
+ms.assetid: 11b1f942-185f-4de4-90a2-e2934bb1394f
+keywords:
+- WM_ENTERIDLE message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_ENTERIDLE message
@@ -42,7 +48,7 @@ This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -67,8 +73,8 @@ You can suppress the **WM\_ENTERIDLE** message for a dialog box by creating the 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -89,9 +95,9 @@ You can suppress the **WM\_ENTERIDLE** message for a dialog box by creating the 
 [Dialog Boxes](dialog-boxes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

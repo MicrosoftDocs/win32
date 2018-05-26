@@ -1,7 +1,12 @@
 ---
 Description: Smart Render Engine
-ms.assetid: '279be879-9728-4fa1-bdf7-6b48485fc75f'
+ms.assetid: 279be879-9728-4fa1-bdf7-6b48485fc75f
 title: Smart Render Engine
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Smart Render Engine

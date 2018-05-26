@@ -1,7 +1,12 @@
 ---
-Description: 'Number of buffers currently allocated.'
-ms.assetid: '6a3d0948-7e03-4f41-8014-fa15d4578014'
-title: 'CBaseAllocator::m\_lAllocated member'
+Description: Number of buffers currently allocated.
+ms.assetid: 6a3d0948-7e03-4f41-8014-fa15d4578014
+title: CBaseAllocatorm\_lAllocated member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator::m\_lAllocated member
@@ -35,9 +40,9 @@ long m_lAllocated;
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

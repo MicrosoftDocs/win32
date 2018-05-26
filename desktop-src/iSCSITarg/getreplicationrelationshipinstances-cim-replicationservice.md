@@ -4,13 +4,16 @@ description: Get (or start a job to get) all of the synchronization relationship
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '04e319c7-9b35-4ac6-a606-f3ad51ea2c98'
-ms.prod: 'windows-server-dev'
+ms.assetid: 04e319c7-9b35-4ac6-a606-f3ad51ea2c98
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetReplicationRelationshipInstances method iSCSI Software Target API", "GetReplicationRelationshipInstances method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , GetReplicationRelationshipInstances method"]
+keywords:
+- GetReplicationRelationshipInstances method iSCSI Software Target API
+- GetReplicationRelationshipInstances method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , GetReplicationRelationshipInstances method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetReplicationRelationshipInstances method of the CIM\_ReplicationService class
@@ -30,13 +36,13 @@ Get (or start a job to get) all of the synchronization relationships known to th
 
 ```mof
 uint32 GetReplicationRelationshipInstances(
-  [in]  uint16              Type,
-  [in]  uint16              SyncType,
-  [in]  uint16              Mode,
-  [in]  uint16              Locality,
-  [in]  uint16              CopyState,
-  [out] CIM_ConcreteJob REF Job,
-  [out] string              Synchronizations[]
+  [in]  uint16              Type,
+  [in]  uint16              SyncType,
+  [in]  uint16              Mode,
+  [in]  uint16              Locality,
+  [in]  uint16              CopyState,
+  [out] CIM_ConcreteJob REF Job,
+  [out] string              Synchronizations[]
 );
 ```
 
@@ -72,14 +78,14 @@ The type of synchronization relationships, for example, StorageSynchronized or G
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *SyncType* \[in\]
 </dt> <dd>
@@ -93,7 +99,7 @@ Describes the desired synchronization type. If this parameter is not specified, 
 **DMTF Reserved**
 
 
-</dt> <dd>0–5</dd> <dt>
+</dt> <dd>0 5</dd> <dt>
 
 <span id="Mirror"></span><span id="mirror"></span><span id="MIRROR"></span>
 
@@ -121,14 +127,14 @@ Describes the desired synchronization type. If this parameter is not specified, 
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Mode* \[in\]
 </dt> <dd>
@@ -156,14 +162,14 @@ Describes the desired mode. If this parameter is not supplied, both synchronous 
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Locality* \[in\]
 </dt> <dd>
@@ -191,14 +197,14 @@ Describes the desired locality. If this parameter is not supplied, all replicati
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *CopyState* \[in\]
 </dt> <dd>
@@ -246,16 +252,16 @@ An array of instances found.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -265,7 +271,7 @@ An array of instances found.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -279,9 +285,9 @@ An array of instances found.
 **CIM\_ReplicationService**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

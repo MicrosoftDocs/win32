@@ -1,8 +1,16 @@
 ---
 title: Frame Interpolation
 description: Frame Interpolation
-ms.assetid: '74dbe855-361c-42ba-b21b-322ccd1c91d0'
-keywords: ["Windows Media Format SDK,frame interpolation", "codecs,frame interpolation", "frame interpolation"]
+ms.assetid: 74dbe855-361c-42ba-b21b-322ccd1c91d0
+keywords:
+- Windows Media Format SDK,frame interpolation
+- codecs,frame interpolation
+- frame interpolation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Frame Interpolation
@@ -20,7 +28,7 @@ Only the Windows Media Video 9 codec supports frame interpolation.
 [**Codec Features**](codec-features.md)
 </dt> <dt>
 
-[**IWMReaderAdvanced2::SetOutputSetting**](iwmreaderadvanced2-setoutputsetting.md)
+[**IWMReaderAdvanced2::SetOutputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting?branch=master)
 </dt> <dt>
 
 [**Output Settings**](output-settings.md)

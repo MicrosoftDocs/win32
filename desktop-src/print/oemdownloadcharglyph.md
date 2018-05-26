@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMDownloadCharGlyph function
-ms.assetid: 'da9a4058-1a0e-484b-afcd-9d4558810acd'
+ms.assetid: da9a4058-1a0e-484b-afcd-9d4558810acd
 title: OEMDownloadCharGlyph function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMDownloadCharGlyph function

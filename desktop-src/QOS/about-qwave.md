@@ -1,7 +1,12 @@
 ---
 title: About qWAVE
 description: About qWAVE
-ms.assetid: 'd227d181-1ae9-48bf-bb54-0a0633490ff0'
+ms.assetid: d227d181-1ae9-48bf-bb54-0a0633490ff0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About qWAVE

@@ -1,7 +1,12 @@
 ---
 title: Agglutinative Languages
 description: Agglutinative Languages
-ms.assetid: '426b28d6-2534-4e4a-95cb-adf1c610689a'
+ms.assetid: 426b28d6-2534-4e4a-95cb-adf1c610689a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Agglutinative Languages

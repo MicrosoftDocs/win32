@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '5e9bdfff-d91c-4e21-ae2d-7920103bdb5c'
+Description: .
+ms.assetid: 5e9bdfff-d91c-4e21-ae2d-7920103bdb5c
 title: Window Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Messages

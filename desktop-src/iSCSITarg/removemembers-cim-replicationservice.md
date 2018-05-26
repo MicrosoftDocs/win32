@@ -4,13 +4,16 @@ description: Remove members from a replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eaf39373-1db8-4d51-b7c8-2bee41e94483'
-ms.prod: 'windows-server-dev'
+ms.assetid: eaf39373-1db8-4d51-b7c8-2bee41e94483
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveMembers method iSCSI Software Target API", "RemoveMembers method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , RemoveMembers method"]
+keywords:
+- RemoveMembers method iSCSI Software Target API
+- RemoveMembers method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , RemoveMembers method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveMembers method of the CIM\_ReplicationService class
@@ -30,11 +36,11 @@ Remove members from a replication group.
 
 ```mof
 uint32 RemoveMembers(
-  [in] CIM_LogicalElement     REF Members[],
-  [in] boolean                    DeleteOnEmptyElement,
-  [in] CIM_ReplicationGroup   REF ReplicationGroup,
-  [in] CIM_ServiceAccessPoint REF ServiceAccessPoint,
-  [in] string                     ReplicationSettingData
+  [in] CIM_LogicalElement     REF Members[],
+  [in] boolean                    DeleteOnEmptyElement,
+  [in] CIM_ReplicationGroup   REF ReplicationGroup,
+  [in] CIM_ServiceAccessPoint REF ServiceAccessPoint,
+  [in] string                     ReplicationSettingData
 );
 ```
 
@@ -110,10 +116,10 @@ If supplied, it provides additional replication settings for the method. For exa
 **Member not in group** (8)
 </dt> <dt>
 
-**DMTF Reserved** (9–32767)
+**DMTF Reserved** (9 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -123,7 +129,7 @@ If supplied, it provides additional replication settings for the method. For exa
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -137,9 +143,9 @@ If supplied, it provides additional replication settings for the method. For exa
 **CIM\_ReplicationService**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

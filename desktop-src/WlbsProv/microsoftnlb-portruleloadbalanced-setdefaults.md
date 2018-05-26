@@ -1,16 +1,19 @@
 ---
 title: SetDefaults method of the MicrosoftNLB\_PortRuleLoadbalanced class
-description: Resets the node's port rule configuration to the default.
+description: Resets the nodes port rule configuration to the default.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bab75806-7fe1-4516-9bc0-bfa50c24acb1'
-ms.prod: 'windows-server-dev'
+ms.assetid: bab75806-7fe1-4516-9bc0-bfa50c24acb1
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetDefaults method", "SetDefaults method, MicrosoftNLB_PortRuleLoadbalanced class", "MicrosoftNLB_PortRuleLoadbalanced class, SetDefaults method"]
+keywords:
+- SetDefaults method
+- SetDefaults method, MicrosoftNLB_PortRuleLoadbalanced class
+- MicrosoftNLB_PortRuleLoadbalanced class, SetDefaults method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetDefaults method of the MicrosoftNLB\_PortRuleLoadbalanced class
@@ -30,7 +36,7 @@ Resets the [*node's*](https://msdn.microsoft.com/library/aa371764#mscs-n---z-5-g
 
 ```mof
 void SetDefaults(
-  [in] MicrosoftNLB_Node REF Node
+  [in] MicrosoftNLB_Node REF Node
 );
 ```
 
@@ -67,7 +73,7 @@ Use the [**LoadAllSettings**](https://msdn.microsoft.com/library/aa371012) metho
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -84,9 +90,9 @@ Use the [**LoadAllSettings**](https://msdn.microsoft.com/library/aa371012) metho
 [**MicrosoftNLB\_PortRuleLoadbalanced**](microsoftnlb-portruleloadbalanced.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

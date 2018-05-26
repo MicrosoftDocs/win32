@@ -1,13 +1,16 @@
 ---
-Description: 'Use the WMI classes that obtain data from performance counters to access and refresh data about computer performance.'
+Description: Use the WMI classes that obtain data from performance counters to access and refresh data about computer performance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4c88de96-992e-4d34-ba93-35d2b6e73c1d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4c88de96-992e-4d34-ba93-35d2b6e73c1d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WMI Tasks: Performance Monitoring'
+title: WMI Tasks Performance Monitoring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Tasks: Performance Monitoring
@@ -30,7 +33,7 @@ The following procedure describes how to run a script.
 > [!Note]  
 > By default, cscript displays the output of a script in the command prompt window. Because WMI scripts can produce large amounts of output, you might want to redirect the output to a file. Type **cscript filename.vbs &gt; outfile.txt** at the command prompt to redirect the output of the *filename.vbs* script to *outfile.txt*.
 
- 
+ 
 
 The following table lists script examples that can be used to obtain various types of data from the local computer.
 
@@ -54,7 +57,7 @@ The following table lists script examples that can be used to obtain various typ
 </tr>
 <tr class="even">
 <td>...get on-going performance data for a single process, disk drive, and other data?</td>
-<td>Use the [<strong>Win32_PerfFormattedData_PerfProc_Process</strong>](https://msdn.microsoft.com/library/dn750765)—or the appropriate formatted [Performance Counter Class](https://msdn.microsoft.com/library/aa392738)—and the [<strong>SWbemObjectEx.Refresh_</strong>](swbemobjectex-refresh-.md) method. For more information, see [Scripting with SWbemObject](scripting-with-swbemobject.md).<br/> In C++, use [<strong>IWbemConfigureRefresher::AddObjectByPath</strong>](iwbemconfigurerefresher-addobjectbypath.md) and [<strong>IWbemRefresher::Refresh</strong>](iwbemrefresher-refresh.md). For more information, see [Monitoring Performance Data](monitoring-performance-data.md).<br/> The following script runs until the computer is restarted, WMI is stopped, or the script is stopped. To stop the script manually, use Task Manager to stop the process. To stop it programmatically, use the [<strong>Terminate</strong>](https://msdn.microsoft.com/library/aa393907) method in the [<strong>Win32_Process</strong>](https://msdn.microsoft.com/library/aa394372) class.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the [<strong>Win32_PerfFormattedData_PerfProc_Process</strong>](https://msdn.microsoft.com/library/dn750765) or the appropriate formatted [Performance Counter Class](https://msdn.microsoft.com/library/aa392738) and the [<strong>SWbemObjectEx.Refresh_</strong>](swbemobjectex-refresh-.md) method. For more information, see [Scripting with SWbemObject](scripting-with-swbemobject.md).<br/> In C++, use [<strong>IWbemConfigureRefresher::AddObjectByPath</strong>](/windows/win32/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addobjectbypath?branch=master) and [<strong>IWbemRefresher::Refresh</strong>](/windows/win32/Wbemcli/nf-wbemcli-iwbemrefresher-refresh?branch=master). For more information, see [Monitoring Performance Data](monitoring-performance-data.md).<br/> The following script runs until the computer is restarted, WMI is stopped, or the script is stopped. To stop the script manually, use Task Manager to stop the process. To stop it programmatically, use the [<strong>Terminate</strong>](https://msdn.microsoft.com/library/aa393907) method in the [<strong>Win32_Process</strong>](https://msdn.microsoft.com/library/aa394372) class.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -175,7 +178,7 @@ Wend</code></pre></td>
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -190,9 +193,9 @@ Wend</code></pre></td>
 [TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

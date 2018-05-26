@@ -1,7 +1,12 @@
 ---
-Description: 'The COM+ queued components service enhances the COM programming model by providing an environment in which a component can be invoked either synchronously (real-time) or asynchronously (queued).'
-ms.assetid: 'fd455679-b2b3-487f-8494-9ea296ce2c89'
+Description: The COM+ queued components service enhances the COM programming model by providing an environment in which a component can be invoked either synchronously (real-time) or asynchronously (queued).
+ms.assetid: fd455679-b2b3-487f-8494-9ea296ce2c89
 title: Queued Components Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Queued Components Architecture

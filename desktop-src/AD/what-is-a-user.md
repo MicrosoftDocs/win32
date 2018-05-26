@@ -4,11 +4,16 @@ description: User accounts are created and stored as objects in Active Directory
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'da13d21a-1d8b-4d03-8880-7146e6fc4ba9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: da13d21a-1d8b-4d03-8880-7146e6fc4ba9
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["What is a User Active Directory", "users Active Directory , what is a user"]
+keywords:
+- What is a User Active Directory
+- users Active Directory , what is a user
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What is a User?

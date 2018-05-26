@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'edf719b7-9bd9-4e23-9bba-d0d7c3c5dbf5'
+---
+Description: .
+ms.assetid: edf719b7-9bd9-4e23-9bba-d0d7c3c5dbf5
 title: Application Verifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Verifier

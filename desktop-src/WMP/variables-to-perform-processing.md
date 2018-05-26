@@ -1,8 +1,19 @@
 ---
 title: Variables to Perform Processing
 description: Variables to Perform Processing
-ms.assetid: '02f194ea-cac0-410f-886f-2894dd6971c8'
-keywords: ["Windows Media Player plug-ins,Echo sample DoProcessOutput method", "plug-ins,Echo sample DoProcessOutput method", "digital signal processing plug-ins,Echo sample DoProcessOutput method", "DSP plug-ins,Echo sample DoProcessOutput method", "Echo DSP plug-in sample,DoProcessOutput method", "Echo DSP plug-in sample,processing variables"]
+ms.assetid: 02f194ea-cac0-410f-886f-2894dd6971c8
+keywords:
+- Windows Media Player plug-ins,Echo sample DoProcessOutput method
+- plug-ins,Echo sample DoProcessOutput method
+- digital signal processing plug-ins,Echo sample DoProcessOutput method
+- DSP plug-ins,Echo sample DoProcessOutput method
+- Echo DSP plug-in sample,DoProcessOutput method
+- Echo DSP plug-in sample,processing variables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Variables to Perform Processing

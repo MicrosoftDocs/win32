@@ -1,13 +1,16 @@
 ---
-Description: 'The WMI application examples in this section are written in C++.'
+Description: The WMI application examples in this section are written in C++.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5c4c4c4c-adbc-4702-a6fe-5f98a6db3ba1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5c4c4c4c-adbc-4702-a6fe-5f98a6db3ba1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI C++ Application Examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI C++ Application Examples

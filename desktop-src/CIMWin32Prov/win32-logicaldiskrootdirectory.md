@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_LogicalDiskRootDirectory association WMI class relates a logical disk and its directory structure.'
+Description: The Win32\_LogicalDiskRootDirectory association WMI class relates a logical disk and its directory structure.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '860cd28a-2a59-4ce3-be26-8fdc869c70d1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 860cd28a-2a59-4ce3-be26-8fdc869c70d1
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LogicalDiskRootDirectory class'
+title: Win32\_LogicalDiskRootDirectory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LogicalDiskRootDirectory class
@@ -25,7 +28,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_LogicalDiskRootDirectory : CIM_Component
 {
   Win32_LogicalDisk REF GroupComponent;
-  Win32_Directory   REF PartComponent;
+  Win32_Directory   REF PartComponent;
 };
 ```
 
@@ -83,8 +86,8 @@ The **Win32\_LogicalDiskRootDirectory** class is derived from [**CIM\_Component*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -101,9 +104,9 @@ The **Win32\_LogicalDiskRootDirectory** class is derived from [**CIM\_Component*
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

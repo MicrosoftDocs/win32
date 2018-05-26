@@ -1,7 +1,12 @@
 ---
-Description: 'Provides additional information to be used with the ExportSystemDefinition method of the Msvm\_VirtualSystemManagementService class.'
-ms.assetid: '86396A76-83EC-476E-86A9-83861A002152'
-title: 'Msvm\_VirtualSystemExportSettingData class'
+Description: Provides additional information to be used with the ExportSystemDefinition method of the Msvm\_VirtualSystemManagementService class.
+ms.assetid: 86396A76-83EC-476E-86A9-83861A002152
+title: Msvm\_VirtualSystemExportSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemExportSettingData class
@@ -16,21 +21,21 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemExportSettingData : CIM_SettingData
 {
-  uint8   CaptureLiveState;
-  string  InstanceID;
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  uint8   CopySnapshotConfiguration;
+  uint8   CaptureLiveState;
+  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  uint8   CopySnapshotConfiguration;
   boolean CopyVmRuntimeInformation;
   boolean CopyVmStorage;
   boolean CreateVmExportSubdirectory;
-  string  SnapshotVirtualSystem;
-  uint8   BackupIntent;
+  string  SnapshotVirtualSystem;
+  uint8   BackupIntent;
   boolean ExportForLiveMigration;
   boolean DisableDifferentialOfIgnoredStorage;
-  string  ExcludedVirtualHardDisks[];
-  string  DifferentialBackupBase;
+  string  ExcludedVirtualHardDisks[];
+  string  DifferentialBackupBase;
 };
 ```
 
@@ -58,9 +63,9 @@ Access type: Read/write
 Indicates the intent on how the exported backup sets would be used.
 
 > [!Note]  
-> This property was added in Windows 10 and Windows Server 2016.
+> This property was added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 <dt>
 
@@ -149,9 +154,9 @@ Saved state files for the running VM will be exported along with the VM configur
 Application-consistent state of the running VM will be exported.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> </dl>
 
@@ -213,9 +218,9 @@ The snapshots identified by the **SnapshotVirtualSystem** property will be expor
 The snapshot identified by the **SnapshotVirtualSystem** property will be exported for the purpose of backing up the VM. The exported configuration will use ID of the VM.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> </dl>
 
@@ -241,7 +246,7 @@ Indicates whether the virtual machine run-time information will be copied when t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -265,7 +270,7 @@ Indicates whether the virtual machine storage will be copied when the virtual ma
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -289,7 +294,7 @@ Indicates whether a subdirectory with the name of the virtual machine will be cr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -318,9 +323,9 @@ Access type: Read/write
 Base for differential export. This is either path to a [**Msvm\_VirtualSystemReferencePoint**](msvm-virtualsystemreferencepoint.md) instance that represents the reference point or path to a [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md) instance that represents the snapshot to be used as a base for differential export. If the **CopySnapshotConfiguration** property is not set to 3(**ExportOneSnapshotForBackup**), this property is ignored.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -336,9 +341,9 @@ Access type: Read/write
 Indicates whether differencing disks will be created or not for storage ignored during export. By default this is set to false, which means that differencing disks are created for the storage that is not going to be copied over to the export destination.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -371,9 +376,9 @@ The virtual hard disks referenced by this property may be from the VM and/or fro
 Note that the RASD instance ID for virtual hard disks represents the location they are attached to, and excluding through this ID excludes all virtual hard disks attached in that location throughout the virtual machine's snapshot tree, regardless of them really being a valid virtual hard disk chain.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -389,9 +394,9 @@ Access type: Read/write
 Indicates whether the exported VM is intended to be used in live migration.
 
 > [!Note]  
-> Added in Windows 10, version 1703 and Windows Server 2016.
+> Added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -434,8 +439,8 @@ Access to the **Msvm\_VirtualSystemExportSettingData** class might be restricted
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -455,9 +460,9 @@ Access to the **Msvm\_VirtualSystemExportSettingData** class might be restricted
 [**ExportSystemDefinition**](exportsystemdefinition-msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

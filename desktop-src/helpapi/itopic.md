@@ -1,8 +1,10 @@
 ---
 title: ITopic interface
 description: Help topic interface, contains methods to retrieve topic information
-ms.assetid: '02f45f6a-1e5b-4ba1-93a5-2e594f8ef06d'
-keywords: ["ITopic interface HelpAPI", "ITopic interface HelpAPI , described"]
+ms.assetid: 02f45f6a-1e5b-4ba1-93a5-2e594f8ef06d
+keywords:
+- ITopic interface HelpAPI
+- ITopic interface HelpAPI , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITopic interface
@@ -39,7 +46,7 @@ The **ITopic** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -68,7 +75,7 @@ The **ITopic** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,15 +83,15 @@ The **ITopic** interface has these properties.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

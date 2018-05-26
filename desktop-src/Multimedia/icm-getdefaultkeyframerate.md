@@ -1,8 +1,9 @@
 ---
 title: ICM\_GETDEFAULTKEYFRAMERATE message
 description: The ICM\_GETDEFAULTKEYFRAMERATE message queries a video compression driver for its default (or preferred) key-frame spacing. You can send this message explicitly or by using the ICGetDefaulteyFrameRate macro.
-ms.assetid: '2ebe37cc-3ec2-4b52-bd8f-71c44b704647'
-keywords: ["ICM_GETDEFAULTKEYFRAMERATE message Windows Multimedia"]
+ms.assetid: 2ebe37cc-3ec2-4b52-bd8f-71c44b704647
+keywords:
+- ICM_GETDEFAULTKEYFRAMERATE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_GETDEFAULTKEYFRAMERATE message
 
-The **ICM\_GETDEFAULTKEYFRAMERATE** message queries a video compression driver for its default (or preferred) key-frame spacing. You can send this message explicitly or by using the [**ICGetDefaulteyFrameRate**](icgetdefaultkeyframerate.md) macro.
+The **ICM\_GETDEFAULTKEYFRAMERATE** message queries a video compression driver for its default (or preferred) key-frame spacing. You can send this message explicitly or by using the [**ICGetDefaulteyFrameRate**](/windows/win32/Vfw/nf-vfw-icgetdefaultkeyframerate?branch=master) macro.
 
 
 ```C++
@@ -47,8 +53,8 @@ Returns ICERR\_OK if the driver supports this message or ICERR\_UNSUPPORTED othe
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -63,9 +69,9 @@ Returns ICERR\_OK if the driver supports this message or ICERR\_UNSUPPORTED othe
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

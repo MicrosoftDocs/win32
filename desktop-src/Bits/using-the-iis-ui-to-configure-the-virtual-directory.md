@@ -1,7 +1,12 @@
 ---
 title: Using the IIS UI to Configure the Virtual Directory
 description: Using the IIS UI to Configure the Virtual Directory
-ms.assetid: '461e5c6f-1a46-426b-bac9-c20cd49e4de0'
+ms.assetid: 461e5c6f-1a46-426b-bac9-c20cd49e4de0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the IIS UI to Configure the Virtual Directory

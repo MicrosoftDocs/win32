@@ -1,8 +1,17 @@
 ---
 title: Registry Settings
 description: Registry Settings
-ms.assetid: 'ded2b492-7755-4ba5-87cf-720a79ec79de'
-keywords: ["Windows Media Player,registry", "registry,settings for Windows Media Player", "SDK (software development kit),registry", "software development kit (SDK),registry"]
+ms.assetid: ded2b492-7755-4ba5-87cf-720a79ec79de
+keywords:
+- Windows Media Player,registry
+- registry,settings for Windows Media Player
+- SDK (software development kit),registry
+- software development kit (SDK),registry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Settings

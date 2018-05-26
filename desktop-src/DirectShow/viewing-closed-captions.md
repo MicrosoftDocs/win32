@@ -1,7 +1,12 @@
 ---
 Description: Viewing Closed Captions
-ms.assetid: '86c0c553-af35-4ad1-8918-63d9e4577c73'
+ms.assetid: 86c0c553-af35-4ad1-8918-63d9e4577c73
 title: Viewing Closed Captions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Viewing Closed Captions
@@ -12,7 +17,7 @@ To support closed captions in analog television, the capture filter exposes a pi
 -   CC pin (PIN\_CATEGORY\_CC). Delivers closed-caption byte pairs, extracted from the line-21 data.
 -   Hardware slicing CC pin (PINNAME\_VIDEO\_CC\_CAPTURE).
 
-To preview closed captions, call [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) with the VBI pin category, and if that fails, call it again with the CC category.
+To preview closed captions, call [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) with the VBI pin category, and if that fails, call it again with the CC category.
 
 
 ```C++
@@ -35,7 +40,7 @@ This graph uses the following filters for closed caption display:
 -   [CC Decoder](cc-decoder-filter.md). Decodes CC data from the sampled VBI waveforms provided by the capture filter.
 -   [Line 21 Decoder](line-21-decoder-filter.md). Translates the CC byte pairs and draws the caption text onto bitmaps. The downstream filter (in this case the Overlay Mixer) overlays the bitmaps onto the video.
 
-The Capture Graph Builder's [**RenderStream**](icapturegraphbuilder2-renderstream.md) method adds these filters automatically. If the capture filter has a CC pin instead of a VBI pin, the CC pin is connected directly to the Line 21 Decoder filter.
+The Capture Graph Builder's [**RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) method adds these filters automatically. If the capture filter has a CC pin instead of a VBI pin, the CC pin is connected directly to the Line 21 Decoder filter.
 
 > [!Note]  
 > If you are using the Video Mixing Renderer (VMR) filter for rendering, use the Line 21 Decoder Filter 2. This filter has the same functionality as the Line 21 Decoder, but the CLSID is CLSID\_Line21Decoder2.
@@ -47,13 +52,13 @@ The Capture Graph Builder's [**RenderStream**](icapturegraphbuilder2-renderstrea
 
  
 
-If the capture device uses a video port, the capture filter might have a video port VBI pin (PIN\_CATEGORY\_VIDEOPORT\_VBI). This pin must be connected to the [VBI Surface Allocator](vbi-surface-allocator.md) filter, which allocates surfaces to hold the captured VBI data. The [**RenderStream**](icapturegraphbuilder2-renderstream.md) method adds this filter if it is required. The following diagram shows a filter graph with the VBI Surface Allocator.
+If the capture device uses a video port, the capture filter might have a video port VBI pin (PIN\_CATEGORY\_VIDEOPORT\_VBI). This pin must be connected to the [VBI Surface Allocator](vbi-surface-allocator.md) filter, which allocates surfaces to hold the captured VBI data. The [**RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) method adds this filter if it is required. The following diagram shows a filter graph with the VBI Surface Allocator.
 
 ![closed captioning preview graph with vbi surface allocator](images/vidcap09.png)
 
 ### Enabling and Disabling the Captions
 
-To control the captioning display, use the [**IAMLine21Decoder**](iamline21decoder.md) interface on the Line 21 Decoder filter. For example, you can turn off the captioning display using the [**IAMLine21Decoder::SetServiceState**](iamline21decoder-setservicestate.md) method, as follows:
+To control the captioning display, use the [**IAMLine21Decoder**](/windows/win32/il21dec/nn-il21dec-iamline21decoder?branch=master) interface on the Line 21 Decoder filter. For example, you can turn off the captioning display using the [**IAMLine21Decoder::SetServiceState**](/windows/win32/il21dec/nf-il21dec-iamline21decoder-setservicestate?branch=master) method, as follows:
 
 
 ```C++
@@ -74,7 +79,7 @@ if (SUCCEEDED(hr))
 
 
 
-This example uses the [**ICaptureGraphBuilder2::FindInterface**](icapturegraphbuilder2-findinterface.md) method to locate the [**IAMLine21Decoder**](iamline21decoder.md) interface. The first parameter to **FindInterface** is **&LOOK\_DOWNSTREAM\_ONLY**, which specifies to search downstream from the capture filter (*pCap*).
+This example uses the [**ICaptureGraphBuilder2::FindInterface**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findinterface?branch=master) method to locate the [**IAMLine21Decoder**](/windows/win32/il21dec/nn-il21dec-iamline21decoder?branch=master) interface. The first parameter to **FindInterface** is **&LOOK\_DOWNSTREAM\_ONLY**, which specifies to search downstream from the capture filter (*pCap*).
 
 ### Capturing Closed Caption Bitmaps
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'cb4cb590-527b-406c-9706-1e85a2b8076b'
-title: 'COARefTime.COARefTime constructor'
+Description: Constructor method.
+ms.assetid: cb4cb590-527b-406c-9706-1e85a2b8076b
+title: COARefTime.COARefTime constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COARefTime.COARefTime constructor
@@ -43,9 +48,9 @@ The reference time defaults to zero.
 [**COARefTime Class**](coareftime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: BitsClientJob Methods
 description: The BitsClientJob class exposes the following methods.
-ms.assetid: 'A14CEBA9-ECDE-4C1F-9F2B-76EE6F314541'
+ms.assetid: A14CEBA9-ECDE-4C1F-9F2B-76EE6F314541
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BitsClientJob Methods

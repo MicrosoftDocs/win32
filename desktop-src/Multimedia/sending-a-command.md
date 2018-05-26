@@ -1,13 +1,19 @@
 ---
 title: Sending a Command
 description: Sending a Command
-ms.assetid: '28c38f36-b6a7-44da-95e2-25b3dccefc84'
-keywords: ["mciSendString function"]
+ms.assetid: 28c38f36-b6a7-44da-95e2-25b3dccefc84
+keywords:
+- mciSendString function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending a Command
 
-The following example function sends the [**play**](play.md) command with the "from" and "to" flags using the [**mciSendString**](mcisendstring.md) function.
+The following example function sends the [**play**](play.md) command with the "from" and "to" flags using the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function.
 
 
 ```C++

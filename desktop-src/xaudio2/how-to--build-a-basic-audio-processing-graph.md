@@ -1,7 +1,12 @@
 ---
-Description: 'The minimum requirement for enabling XAudio2 to play audio data is an audio processing graph, which is constructed from a single mastering voice and a single source voice.'
-ms.assetid: '40f79959-23c9-4513-363b-2f2fc85e4c0a'
-title: 'How to: Build a Basic Audio Processing Graph'
+Description: The minimum requirement for enabling XAudio2 to play audio data is an audio processing graph, which is constructed from a single mastering voice and a single source voice.
+ms.assetid: 40f79959-23c9-4513-363b-2f2fc85e4c0a
+title: How to Build a Basic Audio Processing Graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Build a Basic Audio Processing Graph
@@ -11,7 +16,7 @@ The minimum requirement for enabling XAudio2 to play audio data is an audio proc
 ## To build a basic audio processing graph
 
 1.  Initialize the XAudio2 engine by following the steps described in [How to: Initialize XAudio2](how-to--initialize-xaudio2.md).
-2.  Populate a **WAVEFORMATEX** and [**XAUDIO2\_BUFFER**](xaudio2-buffer.md) structure by following the steps described in [How to: Load Audio Data Files in XAudio2](how-to--load-audio-data-files-in-xaudio2.md).
+2.  Populate a **WAVEFORMATEX** and [**XAUDIO2\_BUFFER**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_buffer?branch=master) structure by following the steps described in [How to: Load Audio Data Files in XAudio2](how-to--load-audio-data-files-in-xaudio2.md).
 3.  Create a source voice using the [**CreateSourceVoice**](ixaudio2-interface-createsourcevoice.md) function.
 
     When you specify NULL for the pSendList argument of [**CreateSourceVoice**](ixaudio2-interface-createsourcevoice.md), the source voice's output goes to the mastering voice created in step 1.
@@ -30,7 +35,7 @@ The minimum requirement for enabling XAudio2 to play audio data is an audio proc
 
     ![a simple audio graph.](images/xaudio2-audio-graph.png)
 
-4.  Use the function [**SubmitSourceBuffer**](ixaudio2sourcevoice-interface-submitsourcebuffer.md) to submit an [**XAUDIO2\_BUFFER**](xaudio2-buffer.md) to the source voice.
+4.  Use the function [**SubmitSourceBuffer**](ixaudio2sourcevoice-interface-submitsourcebuffer.md) to submit an [**XAUDIO2\_BUFFER**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_buffer?branch=master) to the source voice.
 
     ```
     if( FAILED(hr = pSourceVoice->SubmitSourceBuffer( &amp;buffer ) ) )

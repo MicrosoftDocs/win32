@@ -1,8 +1,14 @@
 ---
 title: Programming Tips
 description: Programming Tips
-ms.assetid: '2cf3abf2-de9e-4825-8c21-b8af3db04ea0'
-keywords: ["OpenGL,programming tips"]
+ms.assetid: 2cf3abf2-de9e-4825-8c21-b8af3db04ea0
+keywords:
+- OpenGL,programming tips
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Tips

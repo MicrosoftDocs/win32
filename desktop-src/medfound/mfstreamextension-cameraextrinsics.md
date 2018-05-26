@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the camera extrinsics for the stream.'
-ms.assetid: '2236C135-BA3D-4C1B-8A39-5E23EF67425A'
-title: 'MFStreamExtension\_CameraExtrinsics attribute'
+---
+Description: Contains the camera extrinsics for the stream.
+ms.assetid: 2236C135-BA3D-4C1B-8A39-5E23EF67425A
+title: MFStreamExtension\_CameraExtrinsics attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFStreamExtension\_CameraExtrinsics attribute
@@ -14,11 +19,11 @@ Byte array
 
 ## Get/set
 
-To get this attribute, call [**IMFMediaSourceEx::GetStreamAttributes**](imfmediasourceex-getstreamattributes.md).
+To get this attribute, call [**IMFMediaSourceEx::GetStreamAttributes**](/windows/win32/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes?branch=master).
 
 ## Remarks
 
-The value of the attribute is a [**MFCameraExtrinsics**](mfcameraextrinsics.md).
+The value of the attribute is a [**MFCameraExtrinsics**](/windows/win32/mfapi/ns-mfapi-_mfcameraextrinsics?branch=master).
 
 ## Requirements
 

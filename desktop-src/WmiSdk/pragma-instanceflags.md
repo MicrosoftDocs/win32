@@ -1,13 +1,16 @@
 ---
-Description: 'Controls the way instances are created or updated depending on the flags specified.'
+Description: Controls the way instances are created or updated depending on the flags specified.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9932edf2-2e5f-4c5e-9889-f2be4af11bf2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9932edf2-2e5f-4c5e-9889-f2be4af11bf2
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: pragma instanceflags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # pragma instanceflags
@@ -34,7 +37,7 @@ The following describes the syntax:
 
 
 
- 
+ 
 
 ## Examples
 
@@ -53,8 +56,8 @@ The following example shows how to use this command.
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -65,9 +68,9 @@ The following example shows how to use this command.
 [Preprocessor Commands](preprocessor-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

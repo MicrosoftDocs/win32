@@ -1,7 +1,12 @@
-﻿---
-Description: 'The print spooler''s IsValidDevmode function verifies that the contents of a DEVMODE structure are valid.'
-ms.assetid: '74da159d-7edc-44fc-abd9-aa068c4de7f2'
+---
+Description: The print spoolers IsValidDevmode function verifies that the contents of a DEVMODE structure are valid.
+ms.assetid: 74da159d-7edc-44fc-abd9-aa068c4de7f2
 title: IsValidDevmodeA function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsValidDevmodeA function

@@ -1,14 +1,22 @@
 ---
 title: servicesCollection.Count property
 description: The Count property gets the number of Service objects in the collection.
-ms.assetid: '13b08aec-3853-4615-b03c-ee29cee0df8d'
-keywords: ["Count property WPD Automation", "Count property WPD Automation , servicesCollection object", "servicesCollection object WPD Automation , Count property"]
+ms.assetid: 13b08aec-3853-4615-b03c-ee29cee0df8d
+keywords:
+- Count property WPD Automation
+- Count property WPD Automation , servicesCollection object
+- servicesCollection object WPD Automation , Count property
 topic_type:
 - apiref
 api_name:
 - servicesCollection.Count
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # servicesCollection.Count property
@@ -54,8 +62,8 @@ for (i=0; i < services.Count; i++)
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +77,9 @@ for (i=0; i < services.Count; i++)
 [**Service Object**](service-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

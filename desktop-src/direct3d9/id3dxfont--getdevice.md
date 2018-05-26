@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the Direct3D device associated with the font object.'
-ms.assetid: 'c713cbe2-6e6e-476b-a995-14fa149cb088'
-title: 'ID3DXFont::GetDevice method'
+---
+Description: Retrieves the Direct3D device associated with the font object.
+ms.assetid: c713cbe2-6e6e-476b-a995-14fa149cb088
+title: ID3DXFontGetDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFont::GetDevice method
@@ -26,9 +31,9 @@ HRESULT GetDevice(
 *ppDevice* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)\***
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the Direct3D device object associated with the font object.
+Address of a pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the Direct3D device object associated with the font object.
 
 </dd> </dl>
 
@@ -41,7 +46,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 ## Remarks
 
 > [!Note]  
-> Calling this method will increase the internal reference count on the [**IDirect3DDevice9**](idirect3ddevice9.md) interface. Be sure to call [**IUnknown**](com.iunknown) when you are done using this **IDirect3DDevice9** interface or you will have a memory leak.
+> Calling this method will increase the internal reference count on the [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface. Be sure to call [**IUnknown**](com.iunknown) when you are done using this **IDirect3DDevice9** interface or you will have a memory leak.
 
  
 

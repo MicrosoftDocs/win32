@@ -1,8 +1,11 @@
 ---
 title: IMessengerService MySigninName property
-description: Retrieves the local user's sign-in name that corresponds to the selected service.
-ms.assetid: 'f0793434-a952-452f-a9e1-d94725200b25'
-keywords: ["MySigninName property Windows Messenger", "MySigninName property Windows Messenger , IMessengerService interface", "IMessengerService interface Windows Messenger , MySigninName property"]
+description: Retrieves the local users sign-in name that corresponds to the selected service.
+ms.assetid: f0793434-a952-452f-a9e1-d94725200b25
+keywords:
+- MySigninName property Windows Messenger
+- MySigninName property Windows Messenger , IMessengerService interface
+- IMessengerService interface Windows Messenger , MySigninName property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerService::MySigninName property
 
-\[**MySigninName** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MySigninName** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves the local user's sign-in name that corresponds to the selected service.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MySigninName(
-  [out, retval] BSTR *pbstrName
+  [out, retval] BSTR *pbstrName
 );
 ```
 
@@ -39,7 +47,7 @@ HRESULT get_MySigninName(
 
 ## Error codes
 
-Returns one of the following values. 
+Returns one of the following values. 
 
 
 
@@ -67,14 +75,14 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 For a table of MSGR\_E\_\* constants, see [**MSGRConstants**](im-msgrconstants.md).
 
 > [!Note]  
 > This property is not available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -100,8 +108,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -124,9 +132,9 @@ End Sub
 [**MyFriendlyName**](im-imessengerservice-myfriendlyname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

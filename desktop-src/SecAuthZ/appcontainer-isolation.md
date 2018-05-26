@@ -1,7 +1,12 @@
 ---
-Description: 'Isolation is the primary goal of an AppContainer execution environment.'
-ms.assetid: '13C579F9-7F9F-4602-9B03-08CD820C3BBA'
+Description: Isolation is the primary goal of an AppContainer execution environment.
+ms.assetid: 13C579F9-7F9F-4602-9B03-08CD820C3BBA
 title: AppContainer Isolation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AppContainer Isolation

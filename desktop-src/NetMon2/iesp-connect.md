@@ -1,7 +1,12 @@
 ---
-Description: 'The Connect method connects the NPP to the network by using a specified NIC and provides configuration information about the connection.'
-ms.assetid: '48189b2b-9889-4bd8-8972-26005fb7c341'
-title: 'IESP::Connect method'
+Description: The Connect method connects the NPP to the network by using a specified NIC and provides configuration information about the connection.
+ms.assetid: 48189b2b-9889-4bd8-8972-26005fb7c341
+title: IESPConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IESP::Connect method
@@ -13,10 +18,10 @@ The **Connect** method connects the NPP to the network by using a specified NIC 
 
 ```C++
 HRESULT STDMETHODCALLTYPE Connect(
-  [in]  HBLOB hInputBlob,
-  [in]  DWORD StatusCallbackProc,
-  [in]  DWORD UserContext,
-  [out] HBLOB hErrorBlob
+  [in]  HBLOB hInputBlob,
+  [in]  DWORD StatusCallbackProc,
+  [in]  DWORD UserContext,
+  [out] HBLOB hErrorBlob
 );
 ```
 
@@ -124,7 +129,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -144,7 +149,7 @@ The error BLOB returned by *hErrorBlob* contains entries that Network Monitor co
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -152,8 +157,8 @@ The error BLOB returned by *hErrorBlob* contains entries that Network Monitor co
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -175,9 +180,9 @@ The error BLOB returned by *hErrorBlob* contains entries that Network Monitor co
 [IESP::Start](iesp-start.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

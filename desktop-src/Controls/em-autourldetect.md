@@ -1,8 +1,9 @@
 ---
 title: EM\_AUTOURLDETECT message
 description: Enables or disables automatic detection of hyperlinks by a rich edit control.
-ms.assetid: '6970ff36-ff3f-4413-a471-9389a76c8f38'
-keywords: ["EM_AUTOURLDETECT message Windows Controls"]
+ms.assetid: 6970ff36-ff3f-4413-a471-9389a76c8f38
+keywords:
+- EM_AUTOURLDETECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_AUTOURLDETECT message
@@ -30,17 +36,17 @@ Specify 0 to disable automatic link detection, or one of the following values to
 
 | Value                                                                                                                                                                                       | Meaning                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="AURL_DISABLEMIXEDLGC"></span><span id="aurl_disablemixedlgc"></span><dl> <dt>**AURL\_DISABLEMIXEDLGC**</dt> </dl>          | **Windows 8**: Disable recognition of domain names that contain labels with characters belonging to more than one of the following scripts: Latin, Greek, and Cyrillic. <br/> |
-| <span id="AURL_ENABLEDRIVELETTERS"></span><span id="aurl_enabledriveletters"></span><dl> <dt>**AURL\_ENABLEDRIVELETTERS**</dt> </dl> | **Windows 8**: Recognize file names that have a leading drive specification, such as c:\\temp.<br/>                                                                           |
+| <span id="AURL_DISABLEMIXEDLGC"></span><span id="aurl_disablemixedlgc"></span><dl> <dt>**AURL\_DISABLEMIXEDLGC**</dt> </dl>          | **Windows 8**: Disable recognition of domain names that contain labels with characters belonging to more than one of the following scripts: Latin, Greek, and Cyrillic. <br/> |
+| <span id="AURL_ENABLEDRIVELETTERS"></span><span id="aurl_enabledriveletters"></span><dl> <dt>**AURL\_ENABLEDRIVELETTERS**</dt> </dl> | **Windows 8**: Recognize file names that have a leading drive specification, such as c:\\temp.<br/>                                                                           |
 | <span id="AURL_ENABLEEA"></span><span id="aurl_enableea"></span><dl> <dt>**AURL\_ENABLEEA**</dt> </dl>                               | This value is deprecated; use **AURL\_ENABLEEAURLS** instead.<br/>                                                                                                            |
 | <span id="AURL_ENABLEEAURLS"></span><span id="aurl_enableeaurls"></span><dl> <dt>**AURL\_ENABLEEAURLS**</dt> </dl>                   | Recognize URLs that contain East Asian characters. <br/>                                                                                                                      |
-| <span id="AURL_ENABLEEMAILADDR"></span><span id="aurl_enableemailaddr"></span><dl> <dt>**AURL\_ENABLEEMAILADDR**</dt> </dl>          | **Windows 8**: Recognize email addresses.<br/>                                                                                                                                |
-| <span id="AURL_ENABLETELNO"></span><span id="aurl_enabletelno"></span><dl> <dt>**AURL\_ENABLETELNO**</dt> </dl>                      | **Windows 8**: Recognize telephone numbers.<br/>                                                                                                                              |
-| <span id="AURL_ENABLEURL"></span><span id="aurl_enableurl"></span><dl> <dt>**AURL\_ENABLEURL**</dt> </dl>                            | **Windows 8**: Recognize URLs that include the path.<br/>                                                                                                                     |
+| <span id="AURL_ENABLEEMAILADDR"></span><span id="aurl_enableemailaddr"></span><dl> <dt>**AURL\_ENABLEEMAILADDR**</dt> </dl>          | **Windows 8**: Recognize email addresses.<br/>                                                                                                                                |
+| <span id="AURL_ENABLETELNO"></span><span id="aurl_enabletelno"></span><dl> <dt>**AURL\_ENABLETELNO**</dt> </dl>                      | **Windows 8**: Recognize telephone numbers.<br/>                                                                                                                              |
+| <span id="AURL_ENABLEURL"></span><span id="aurl_enableurl"></span><dl> <dt>**AURL\_ENABLEURL**</dt> </dl>                            | **Windows 8**: Recognize URLs that include the path.<br/>                                                                                                                     |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -61,7 +67,7 @@ If *lParam* contains more than 50 scheme names, the message fails with a return 
 
 ## Remarks
 
-If automatic URL detection is enabled (that is, *wParam* includes **AURL\_ENABLEURL**), the rich edit control scans any modified text to determine whether the text matches the format of a URL (or more generally in Windows 8 or later an IRI—International Resource Identifier). If *lParam* is NULL, the control detects URLs that begin with the following scheme names:
+If automatic URL detection is enabled (that is, *wParam* includes **AURL\_ENABLEURL**), the rich edit control scans any modified text to determine whether the text matches the format of a URL (or more generally in Windows 8 or later an IRI International Resource Identifier). If *lParam* is NULL, the control detects URLs that begin with the following scheme names:
 
 -   callto
 -   file
@@ -91,8 +97,8 @@ A rich edit control sends the [EN\_LINK](en-link.md) notification when it receiv
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -101,15 +107,15 @@ A rich edit control sends the [EN\_LINK](en-link.md) notification when it receiv
 
 <dl> <dt>
 
-[**CHARFORMAT2**](charformat2.md)
+[**CHARFORMAT2**](/windows/win32/Richedit/ns-richedit-charformat2a?branch=master)
 </dt> <dt>
 
 [EN\_LINK](en-link.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

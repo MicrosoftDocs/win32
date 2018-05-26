@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables the use of an asynchronous Media Foundation transform (MFT).'
-ms.assetid: 'e12ab57e-ebc2-46af-afdf-d78d4db16fcf'
-title: 'MF\_TRANSFORM\_ASYNC\_UNLOCK attribute'
+---
+Description: Enables the use of an asynchronous Media Foundation transform (MFT).
+ms.assetid: e12ab57e-ebc2-46af-afdf-d78d4db16fcf
+title: MF\_TRANSFORM\_ASYNC\_UNLOCK attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TRANSFORM\_ASYNC\_UNLOCK attribute
@@ -14,9 +19,9 @@ Enables the use of an asynchronous Media Foundation transform (MFT).
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 

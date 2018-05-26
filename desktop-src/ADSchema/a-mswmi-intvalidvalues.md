@@ -4,17 +4,22 @@ description: The valid values for a WMI 32-bit integer parameter object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1371b8ee-5712-471b-a1c9-aafe44517dfb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 1371b8ee-5712-471b-a1c9-aafe44517dfb
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-intValidValues attribute AD Schema", "msWMI-IntValidValues attribute AD Schema"]
+keywords:
+- ms-WMI-intValidValues attribute AD Schema
+- msWMI-IntValidValues attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-intValidValues
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-intValidValues attribute

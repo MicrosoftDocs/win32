@@ -1,7 +1,12 @@
 ---
-Description: 'Type-1 vs.'
-ms.assetid: '3f1cf981-f678-46a6-9784-ffb389438b6d'
-title: 'Type-1 vs. Type-2 DV AVI Files'
+Description: Type-1 vs.
+ms.assetid: 3f1cf981-f678-46a6-9784-ffb389438b6d
+title: Type-1 vs. Type-2 DV AVI Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type-1 vs. Type-2 DV AVI Files

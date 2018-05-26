@@ -1,14 +1,20 @@
 ---
 title: OutputPatch
 description: OutputPatch
-ms.assetid: '24841938-6c84-4e1f-ba8a-a81b589bdd51'
-keywords: ["OutputPatch HLSL"]
+ms.assetid: 24841938-6c84-4e1f-ba8a-a81b589bdd51
+keywords:
+- OutputPatch HLSL
 topic_type:
 - apiref
 api_name:
 - OutputPatch
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OutputPatch

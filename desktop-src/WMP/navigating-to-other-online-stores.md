@@ -1,8 +1,17 @@
 ---
 title: Navigating to Other Online Stores
 description: Navigating to Other Online Stores
-ms.assetid: 'e88164ef-0f8e-4c54-be34-422662796c63'
-keywords: ["Windows Media Player online stores,navigating", "online stores,navigating", "type 2 online stores,navigating", "navigating type 2 online stores"]
+ms.assetid: e88164ef-0f8e-4c54-be34-422662796c63
+keywords:
+- Windows Media Player online stores,navigating
+- online stores,navigating
+- type 2 online stores,navigating
+- navigating type 2 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Navigating to Other Online Stores

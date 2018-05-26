@@ -4,30 +4,35 @@ description: Contains information about media formats.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cd1a8295-22b7-4d75-8325-94da4d7380d0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: cd1a8295-22b7-4d75-8325-94da4d7380d0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["TSMF_SUPPORT_DATA_IN structure Remote Desktop Services", "PTSMF_SUPPORT_DATA_IN structure pointer Remote Desktop Services"]
+keywords:
+- TSMF_SUPPORT_DATA_IN structure Remote Desktop Services
+- PTSMF_SUPPORT_DATA_IN structure pointer Remote Desktop Services
 topic_type:
 - apiref
 api_name:
 - TSMF_SUPPORT_DATA_IN
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # TSMF\_SUPPORT\_DATA\_IN structure
 
-Contains information about media formats. This structure is used by the [**QueryProperty**](iwrdsprotocolconnection-queryproperty.md) method during **WRDS\_QUERY\_MF\_FORMAT\_SUPPORT** queries.
+Contains information about media formats. This structure is used by the [**QueryProperty**](/windows/win32/Wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-queryproperty?branch=master) method during **WRDS\_QUERY\_MF\_FORMAT\_SUPPORT** queries.
 
 ## Syntax
 
 
 ```C++
 typedef struct tagTSMF_SUPPORT_DATA_IN {
-  GUID                     guidMfSession;
-  UINT32                   numEntries;
+  GUID                     guidMfSession;
+  UINT32                   numEntries;
   TSMF_SUPPORT_NODEDATA_IN ...;
 } TSMF_SUPPORT_DATA_IN, *PTSMF_SUPPORT_DATA_IN;
 ```
@@ -66,7 +71,7 @@ A variable number of structures containing media format data.
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
 
 
 
@@ -74,15 +79,15 @@ A variable number of structures containing media format data.
 
 <dl> <dt>
 
-[**QueryProperty**](iwrdsprotocolconnection-queryproperty.md)
+[**QueryProperty**](/windows/win32/Wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-queryproperty?branch=master)
 </dt> <dt>
 
 [**TSMF\_SUPPORT\_NODEDATA\_IN**](tsmf-support-nodedata-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

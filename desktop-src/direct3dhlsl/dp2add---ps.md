@@ -1,7 +1,12 @@
 ---
 title: dp2add - ps
 description: Performs a 2D dot product and a scalar addition.
-ms.assetid: '4226ee34-2e68-4536-b171-68f3b967182e'
+ms.assetid: 4226ee34-2e68-4536-b171-68f3b967182e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dp2add - ps

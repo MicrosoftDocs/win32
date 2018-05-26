@@ -1,8 +1,17 @@
 ---
 title: Mixer Device Queries
 description: Mixer Device Queries
-ms.assetid: '3b453802-954b-4356-9ad5-0f8376b6199d'
-keywords: ["multimedia audio,mixer device queries", "audio,mixer device queries", "audio mixers,device queries", "mixers,device queries"]
+ms.assetid: 3b453802-954b-4356-9ad5-0f8376b6199d
+keywords:
+- multimedia audio,mixer device queries
+- audio,mixer device queries
+- audio mixers,device queries
+- mixers,device queries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mixer Device Queries

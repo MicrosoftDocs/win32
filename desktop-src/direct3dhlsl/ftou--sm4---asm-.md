@@ -1,7 +1,12 @@
 ---
 title: ftou (sm4 - asm)
 description: Floating point to unsigned integer conversion.
-ms.assetid: '0E3E090B-72C0-4CED-AFA5-2DDCF67D7263'
+ms.assetid: 0E3E090B-72C0-4CED-AFA5-2DDCF67D7263
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ftou (sm4 - asm)
@@ -15,7 +20,7 @@ Floating point to unsigned integer conversion.
 
 
 
- 
+ 
 
 
 
@@ -24,7 +29,7 @@ Floating point to unsigned integer conversion.
 
 
 
- 
+ 
 
 
 
@@ -35,7 +40,7 @@ Floating point to unsigned integer conversion.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,7 +62,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -76,7 +81,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -85,9 +90,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

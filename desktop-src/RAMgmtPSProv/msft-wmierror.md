@@ -2,13 +2,15 @@
 title: MSFT\_WmiError class
 description: A Windows error object that encapsulates what is in CIM\_Error as well as includes error code, errorCategory, errorMessage and errorType.
 audience: developer
-ms.assetid: 'ead65019-2acc-4c9c-b269-3c20f88be01c'
-ms.prod: 'windows-server-dev'
+ms.assetid: ead65019-2acc-4c9c-b269-3c20f88be01c
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiError class", "MSFT_WmiError class, described"]
+keywords:
+- MSFT_WmiError class
+- MSFT_WmiError class, described
 topic_type:
 - apiref
 api_name:
@@ -36,6 +38,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiError class
@@ -1894,7 +1899,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>131–65535</dd> </dl>
+</dt> <dd>131 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1938,7 +1943,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -1952,9 +1957,9 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 [**CIM\_Error**](cim-error.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

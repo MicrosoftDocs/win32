@@ -1,7 +1,12 @@
 ---
 title: Combo Box Features
 description: This document discusses features of the combo box.
-ms.assetid: '7102beff-7f67-4e4e-a32b-9ccae1522ebd'
+ms.assetid: 7102beff-7f67-4e4e-a32b-9ccae1522ebd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Combo Box Features
@@ -29,9 +34,9 @@ There are special-purpose messages and functions that enable an application to d
 
 An application can add the names of files or subdirectories to a combo box by sending the [**CB\_DIR**](cb-dir.md) message to it. The *wParam* parameter for this message specifies the attributes of the files to add, and the *lParam* parameter is a pointer to the text string that defines the file specification.
 
-You can use the [**DlgDirListComboBox**](dlgdirlistcombobox.md) function to replace the contents of a combo box in a dialog box. The function fills the combo box with the names of drives, directories, and files that match a specified set of criteria. The [**DlgDirSelectComboBoxEx**](dlgdirselectcomboboxex.md) function retrieves the current selection in a combo box initialized by **DlgDirListComboBox**. These functions make it possible for the user to select a drive, directory, or file from a combo box without typing the location and name of the file.
+You can use the [**DlgDirListComboBox**](/windows/win32/Winuser/nf-winuser-dlgdirlistcomboboxa?branch=master) function to replace the contents of a combo box in a dialog box. The function fills the combo box with the names of drives, directories, and files that match a specified set of criteria. The [**DlgDirSelectComboBoxEx**](/windows/win32/Winuser/nf-winuser-dlgdirselectcomboboxexa?branch=master) function retrieves the current selection in a combo box initialized by **DlgDirListComboBox**. These functions make it possible for the user to select a drive, directory, or file from a combo box without typing the location and name of the file.
 
-The [**DlgDirListComboBox**](dlgdirlistcombobox.md) and [**DlgDirSelectComboBoxEx**](dlgdirselectcomboboxex.md) functions and the [**CB\_DIR**](cb-dir.md) message are similar to the [**DlgDirList**](dlgdirlist.md) and [**DlgDirSelectEx**](dlgdirselectex.md) functions and the [**LB\_DIR**](lb-dir.md) message used with list boxes.
+The [**DlgDirListComboBox**](/windows/win32/Winuser/nf-winuser-dlgdirlistcomboboxa?branch=master) and [**DlgDirSelectComboBoxEx**](/windows/win32/Winuser/nf-winuser-dlgdirselectcomboboxexa?branch=master) functions and the [**CB\_DIR**](cb-dir.md) message are similar to the [**DlgDirList**](/windows/win32/Winuser/nf-winuser-dlgdirlista?branch=master) and [**DlgDirSelectEx**](/windows/win32/Winuser/nf-winuser-dlgdirselectexa?branch=master) functions and the [**LB\_DIR**](lb-dir.md) message used with list boxes.
 
 ### Data Associated with List Items
 
@@ -144,7 +149,7 @@ This following table describes the messages specifically handled by the predefin
 | [**WM\_LBUTTONDBLCLK**](https://msdn.microsoft.com/library/windows/desktop/ms645606)            | Same as [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607).                                                                                                                                                                                                                                                                                                                              |
 | [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607)                | Sets the focus to the combo box and, for drop-down combo boxes and drop-down lists, can open or close the list. If it opens the list, the window procedure captures the mouse to enable selection by dragging and releasing the mouse button.                                                                                                                                        |
 | [**WM\_LBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms645608)                    | Releases the mouse capture if the mouse opened the list.                                                                                                                                                                                                                                                                                                                             |
-| [**WM\_MEASUREITEM**](wm-measureitem.md)                     | Posts the message to the parent window, enabling the application to modify the contents of the specified [**MEASUREITEMSTRUCT**](measureitemstruct.md) structure. The combo box window receives this message from the list window.                                                                                                                                                  |
+| [**WM\_MEASUREITEM**](wm-measureitem.md)                     | Posts the message to the parent window, enabling the application to modify the contents of the specified [**MEASUREITEMSTRUCT**](/windows/win32/Winuser/ns-winuser-tagmeasureitemstruct?branch=master) structure. The combo box window receives this message from the list window.                                                                                                                                                  |
 | [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616)                    | Posts the message to the list window if the mouse has opened the list and the mouse button is still down. This enables a user to select an item by dragging the mouse pointer to a list item and then releasing the button.                                                                                                                                                          |
 | [**WM\_NCCREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632635)                        | Allocates an internal data structure used by the combo box window procedure.                                                                                                                                                                                                                                                                                                         |
 | [**WM\_NCDESTROY**](https://msdn.microsoft.com/library/windows/desktop/ms632636)                      | Frees resources allocated in response to the [**WM\_NCCREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632635) message.                                                                                                                                                                                                                                                                                         |

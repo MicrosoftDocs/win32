@@ -1,7 +1,12 @@
 ---
-Description: 'Array of device status strings.'
-ms.assetid: 'bdba41b5-63e6-4534-83ac-90a799365419'
-title: 'System.Devices.Status'
+Description: Array of device status strings.
+ms.assetid: bdba41b5-63e6-4534-83ac-90a799365419
+title: System.Devices.Status
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Status

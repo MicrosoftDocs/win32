@@ -1,7 +1,12 @@
 ---
 title: vararg
 description: Indicates a variable number of arguments.
-ms.assetid: '114aca20-c748-43f1-bc46-fe877df35ac6'
+ms.assetid: 114aca20-c748-43f1-bc46-fe877df35ac6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # vararg

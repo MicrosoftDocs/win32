@@ -1,14 +1,20 @@
 ---
 title: refract
 description: Returns a refraction vector using an entering ray, a surface normal, and a refraction index.
-ms.assetid: '9f9467d7-dd9b-472a-bbdc-752394d382c6'
-keywords: ["refract HLSL"]
+ms.assetid: 9f9467d7-dd9b-472a-bbdc-752394d382c6
+keywords:
+- refract HLSL
 topic_type:
 - apiref
 api_name:
 - refract
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # refract
@@ -22,7 +28,7 @@ Returns a refraction vector using an entering ray, a surface normal, and a refra
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Returns a refraction vector using an entering ray, a surface normal, and a refra
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -55,7 +61,7 @@ A floating-point, refraction vector. If the angle between the entering ray i and
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

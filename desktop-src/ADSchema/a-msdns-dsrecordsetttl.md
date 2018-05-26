@@ -4,17 +4,22 @@ description: An attribute that defines the time-to-live (TTL) value assigned to 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fd8eca7c-9b54-4a18-80a3-c01f9053f4a0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: fd8eca7c-9b54-4a18-80a3-c01f9053f4a0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-DS-Record-Set-TTL attribute AD Schema", "msDNS-DSRecordSetTTL attribute AD Schema"]
+keywords:
+- ms-DNS-DS-Record-Set-TTL attribute AD Schema
+- msDNS-DSRecordSetTTL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-DS-Record-Set-TTL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-DS-Record-Set-TTL attribute
@@ -38,7 +43,7 @@ An attribute that defines the time-to-live (TTL) value assigned to DS records wh
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute that defines the time-to-live (TTL) value assigned to DS records wh
 
 
 
- 
+ 
 
- 
+ 
 
 
 

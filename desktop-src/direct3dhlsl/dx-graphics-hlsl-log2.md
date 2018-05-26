@@ -1,8 +1,9 @@
 ---
 title: log2
 description: Returns the base-2 logarithm of the specified value.
-ms.assetid: '0bc75697-92c0-4de5-89bd-2ce824baa03e'
-keywords: ["log2 HLSL"]
+ms.assetid: 0bc75697-92c0-4de5-89bd-2ce824baa03e
+keywords:
+- log2 HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # log2
@@ -24,7 +30,7 @@ Returns the base-2 logarithm of the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Returns the base-2 logarithm of the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The base-2 logarithm of the *x* parameter. If the *x* parameter is negative, thi
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +74,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,9 +93,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

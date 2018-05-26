@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections describe the processes that form the event-logging model.'
-ms.assetid: '7f38af18-c8fd-4af9-8423-c73e95b14deb'
+Description: The following sections describe the processes that form the event-logging model.
+ms.assetid: 7f38af18-c8fd-4af9-8423-c73e95b14deb
 title: Event Logging Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Logging Model

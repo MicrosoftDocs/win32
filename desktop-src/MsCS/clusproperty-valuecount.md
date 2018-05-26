@@ -4,11 +4,14 @@ description: Number of property values associated with a cluster object property
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '894b4ce9-422e-481f-81a5-8cccae3140a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 894b4ce9-422e-481f-81a5-8cccae3140a6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ValueCount property Failover Cluster", "ValueCount property Failover Cluster , ClusProperty object", "ClusProperty object Failover Cluster , ValueCount property"]
+keywords:
+- ValueCount property Failover Cluster
+- ValueCount property Failover Cluster , ClusProperty object
+- ClusProperty object Failover Cluster , ValueCount property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusProperty.ValueCount property
@@ -45,7 +51,7 @@ ClusProperty.ValueCount As Long
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -67,9 +73,9 @@ ClusProperty.ValueCount As Long
 [**ClusProperty.Values**](clusproperty-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

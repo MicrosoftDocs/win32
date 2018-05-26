@@ -1,14 +1,22 @@
 ---
 title: WPDObject.GetChildrenByFormat method
 description: The GetChildrenByFormat method returns a collection of the immediate children of this WPDObject filtered by one or more object formats.
-ms.assetid: '51d383a4-ac01-4f42-a39c-9d4d59705a4a'
-keywords: ["GetChildrenByFormat method WPD Automation", "GetChildrenByFormat method WPD Automation , WPDObject object", "WPDObject object WPD Automation , GetChildrenByFormat method"]
+ms.assetid: 51d383a4-ac01-4f42-a39c-9d4d59705a4a
+keywords:
+- GetChildrenByFormat method WPD Automation
+- GetChildrenByFormat method WPD Automation , WPDObject object
+- WPDObject object WPD Automation , GetChildrenByFormat method
 topic_type:
 - apiref
 api_name:
 - WPDObject.GetChildrenByFormat
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPDObject.GetChildrenByFormat method
@@ -47,8 +55,8 @@ Returns a [**childrenCollection**](childrencollection-object.md) that contains a
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -62,9 +70,9 @@ Returns a [**childrenCollection**](childrencollection-object.md) that contains a
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Calculates per-triangle IMT''s from a custom application-specified signal that varies over the surface of the mesh (generally at a higher frequency than vertex data). The signal is evaluated via a user-specified callback function.'
-ms.assetid: 'f1d96021-0b7d-43e6-b51b-71a90d2f5ad8'
+---
+Description: Calculates per-triangle IMTs from a custom application-specified signal that varies over the surface of the mesh (generally at a higher frequency than vertex data). The signal is evaluated via a user-specified callback function.
+ms.assetid: f1d96021-0b7d-43e6-b51b-71a90d2f5ad8
 title: D3DXComputeIMTFromSignal function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXComputeIMTFromSignal function

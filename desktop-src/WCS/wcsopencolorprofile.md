@@ -1,8 +1,9 @@
 ---
 title: WcsOpenColorProfile function
 description: Creates a handle to a specified color profile.
-ms.assetid: '4ceb81d0-dc43-46dd-a455-ec00c8e2140c'
-keywords: ["WcsOpenColorProfile function Windows Color System"]
+ms.assetid: 4ceb81d0-dc43-46dd-a455-ec00c8e2140c
+keywords:
+- WcsOpenColorProfile function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsOpenColorProfile function
@@ -22,13 +28,13 @@ Creates a handle to a specified color profile.
 
 ```C++
 HPROFILE WINAPI WcsOpenColorProfile(
-  _In_     PPROFILE pCDMPProfile,
-  _In_opt_ PPROFILE pCAMPProfile,
-  _In_opt_ PPROFILE pGMMPProfile,
-  _In_     DWORD    dwDesiredAccess,
-  _In_     DWORD    dwShareMode,
-  _In_     DWORD    dwCreationMode,
-  _In_     DWORD    dwFlags
+  _In_     PPROFILE pCDMPProfile,
+  _In_opt_ PPROFILE pCAMPProfile,
+  _In_opt_ PPROFILE pGMMPProfile,
+  _In_     DWORD    dwDesiredAccess,
+  _In_     DWORD    dwShareMode,
+  _In_     DWORD    dwCreationMode,
+  _In_     DWORD    dwFlags
 );
 ```
 
@@ -73,7 +79,7 @@ A flag value that specifies how to access the specified color profile. This para
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -91,7 +97,7 @@ A flag value that specifies actions to take while opening a color profile contai
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -112,7 +118,7 @@ A flag value that specifies the actions to take while opening a color profile if
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -121,7 +127,7 @@ A flag value that specifies the actions to take while opening a color profile if
 
 A flag value that specifies whether to use the embedded WCS profile. This parameter has no effect unless *pCDMProfile* specifies an ICC profile that contains an embedded WCS profile.
 
- 
+ 
 
 This parameter takes one of the following values:
 
@@ -134,7 +140,7 @@ This parameter takes one of the following values:
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -168,8 +174,8 @@ Use the [**CloseColorProfile**](closecolorprofile.md) function to close an objec
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -189,9 +195,9 @@ Use the [**CloseColorProfile**](closecolorprofile.md) function to close an objec
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

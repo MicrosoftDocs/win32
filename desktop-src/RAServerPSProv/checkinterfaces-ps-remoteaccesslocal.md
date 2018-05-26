@@ -2,13 +2,16 @@
 title: CheckInterfaces method of the PS\_RemoteAccessLocal class
 description: This method validates the interfaces that are passed here are of profile what they say they are.
 audience: developer
-ms.assetid: 'a728539b-85f6-4f37-a8b4-032025b9d951'
-ms.prod: 'windows-server-dev'
+ms.assetid: a728539b-85f6-4f37-a8b4-032025b9d951
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CheckInterfaces method", "CheckInterfaces method, PS_RemoteAccessLocal class", "PS_RemoteAccessLocal class, CheckInterfaces method"]
+keywords:
+- CheckInterfaces method
+- CheckInterfaces method, PS_RemoteAccessLocal class
+- PS_RemoteAccessLocal class, CheckInterfaces method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CheckInterfaces method of the PS\_RemoteAccessLocal class
@@ -28,12 +34,12 @@ This method validates the interfaces that are passed here are of profile what th
 
 ```mof
 uint32 CheckInterfaces(
-  [in]  string  IntranetInterface,
-  [in]  string  InternetInterface,
-  [in]  boolean BehindNat,
-  [in]  string  ConnectTo,
-  [in]  boolean isNlbDeployed,
-  [out] boolean Status
+  [in]  string  IntranetInterface,
+  [in]  string  InternetInterface,
+  [in]  boolean BehindNat,
+  [in]  string  ConnectTo,
+  [in]  boolean isNlbDeployed,
+  [out] boolean Status
 );
 ```
 
@@ -92,7 +98,7 @@ Indication whether the method has succeeded or failed.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ Indication whether the method has succeeded or failed.
 [**PS\_RemoteAccessLocal**](ps-remoteaccesslocal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

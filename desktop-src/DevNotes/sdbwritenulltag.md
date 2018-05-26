@@ -1,7 +1,12 @@
-﻿---
-Description: 'Writes a NULL entry to the specified database.'
-ms.assetid: '2a29389b-d4f6-4527-a429-c9459b095f2f'
+---
+Description: Writes a NULL entry to the specified database.
+ms.assetid: 2a29389b-d4f6-4527-a429-c9459b095f2f
 title: SdbWriteNULLTag function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbWriteNULLTag function

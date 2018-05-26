@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UnregisterInboundRoutingExtension method unregisters an existing inbound routing extension. Unregistration will take place only after the fax server is restarted.'
-ms.assetid: '982e5a78-d37a-4156-8882-2f8ab4d1d04a'
-title: 'FaxServer.UnregisterInboundRoutingExtension method'
+---
+Description: The UnregisterInboundRoutingExtension method unregisters an existing inbound routing extension. Unregistration will take place only after the fax server is restarted.
+ms.assetid: 982e5a78-d37a-4156-8882-2f8ab4d1d04a
+title: FaxServer.UnregisterInboundRoutingExtension method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.UnregisterInboundRoutingExtension method
@@ -36,7 +41,7 @@ String value that specifies the internal name of the fax routing extension DLL.
 
 Only an administrator can unregister a routing extension. Also, this method works only on the local fax server.
 
-To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farMANAGE\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -58,7 +63,7 @@ To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-acces
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

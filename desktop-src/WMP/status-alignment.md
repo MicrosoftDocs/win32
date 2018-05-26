@@ -1,8 +1,17 @@
 ---
 title: Status Alignment
 description: Status Alignment
-ms.assetid: '8d23fa32-2a5f-4306-affd-76b50e717a6c'
-keywords: ["Windows Media Player Mobile skins,status display", "skins,status display", "reference for skins,status display", "status display in skins,alignment"]
+ms.assetid: 8d23fa32-2a5f-4306-affd-76b50e717a6c
+keywords:
+- Windows Media Player Mobile skins,status display
+- skins,status display
+- reference for skins,status display
+- status display in skins,alignment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Status Alignment

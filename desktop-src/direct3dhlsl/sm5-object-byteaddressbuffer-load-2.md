@@ -1,14 +1,20 @@
 ---
 title: Load(int, uint) function
 description: Gets one value and the status of the operation.
-ms.assetid: '8F90671B-CEEB-4F8C-9469-D85940568872'
-keywords: ["Load function HLSL"]
+ms.assetid: 8F90671B-CEEB-4F8C-9469-D85940568872
+keywords:
+- Load function HLSL
 topic_type:
 - apiref
 api_name:
 - Load
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load(int, uint) function

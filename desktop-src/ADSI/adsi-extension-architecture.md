@@ -4,11 +4,15 @@ description: ADSI extensions are based on the COM aggregation model with several
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '59e39273-1f66-4bdd-89ed-31947a268d1f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 59e39273-1f66-4bdd-89ed-31947a268d1f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["extensions ADSI ,extension architecture"]
+keywords:
+- extensions ADSI ,extension architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI Extension Architecture
@@ -39,7 +43,7 @@ The following figure shows the ADSI Extension Model architecture.
 ADSI supports two levels of extension:
 
 -   Early Binding Support. This is the first level of extension. An extension must support registration and implement new interfaces. The extension consumers must use tools or scripting hosts that support early binding, for example, Visual C++ , Visual Basic.
--   Late Binding Support. This happens when an extension satisfies all early binding requirements, and implements an additional interface, [**IADsExtension**](iadsextension.md). Extension implementers can use any tool that operates as an Automation controller, such as the Windows Script Host, Active Server Pages, or HTML with VBScript.
+-   Late Binding Support. This happens when an extension satisfies all early binding requirements, and implements an additional interface, [**IADsExtension**](/windows/win32/Iads/nn-iads-iadsextension?branch=master). Extension implementers can use any tool that operates as an Automation controller, such as the Windows Script Host, Active Server Pages, or HTML with VBScript.
 
  
 

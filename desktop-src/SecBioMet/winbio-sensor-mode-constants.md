@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_SENSOR\_MODE Constants
 description: Set the sensor adapter mode.
-ms.assetid: 'fceaed5c-de59-4da7-9d7a-adeef353292f'
+ms.assetid: fceaed5c-de59-4da7-9d7a-adeef353292f
 topic_type:
 - apiref
 api_name:
@@ -14,11 +14,16 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_SENSOR\_MODE Constants
 
-The following values are used in the [**SensorAdapterSetMode**](sensoradaptersetmode.md) function to set the sensor adapter mode.
+The following values are used in the [**SensorAdapterSetMode**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_sensor_set_mode_fn?branch=master) function to set the sensor adapter mode.
 
 
 
@@ -38,8 +43,8 @@ The following values are used in the [**SensorAdapterSetMode**](sensoradapterset
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -51,9 +56,9 @@ The following values are used in the [**SensorAdapterSetMode**](sensoradapterset
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

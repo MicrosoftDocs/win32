@@ -4,11 +4,14 @@ description: The size, in characters, of the GatewayEncryptedAuthCookie property
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '52e24bef-5afa-4954-b639-08ea8701404a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 52e24bef-5afa-4954-b639-08ea8701404a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GatewayEncryptedAuthCookieSize property Remote Desktop Services", "GatewayEncryptedAuthCookieSize property Remote Desktop Services , IMsRdpClientTransportSettings3 interface", "IMsRdpClientTransportSettings3 interface Remote Desktop Services , GatewayEncryptedAuthCookieSize property"]
+keywords:
+- GatewayEncryptedAuthCookieSize property Remote Desktop Services
+- GatewayEncryptedAuthCookieSize property Remote Desktop Services , IMsRdpClientTransportSettings3 interface
+- IMsRdpClientTransportSettings3 interface Remote Desktop Services , GatewayEncryptedAuthCookieSize property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings3::GatewayEncryptedAuthCookieSize property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GatewayEncryptedAuthCookieSize(
-  [in]          ULONG ulEncryptedAuthCookieSize
+  [in]          ULONG ulEncryptedAuthCookieSize
 );
 
 HRESULT get_GatewayEncryptedAuthCookieSize(
-  [out, retval] ULONG *ulEncryptedAuthCookieSize
+  [out, retval] ULONG *ulEncryptedAuthCookieSize
 );
 ```
 
@@ -52,8 +58,8 @@ A **ULONG** value that contains the new size value.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows 7<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
@@ -66,9 +72,9 @@ A **ULONG** value that contains the new size value.
 [**IMsRdpClientTransportSettings3**](imsrdpclienttransportsettings3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

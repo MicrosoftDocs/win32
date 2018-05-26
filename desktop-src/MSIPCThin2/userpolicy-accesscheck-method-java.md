@@ -4,17 +4,21 @@ description: Does the user policy have the given right.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'A2E247BA-C6B8-464C-9191-972C27B8187B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: A2E247BA-C6B8-464C-9191-972C27B8187B
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserPolicy.accessCheck method"]
+keywords:
+- UserPolicy.accessCheck method
 topic_type:
 - apiref
 api_name:
 - UserPolicy.accessCheck method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.accessCheck method
@@ -37,7 +41,7 @@ public boolean accessCheck(String right)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -57,11 +61,11 @@ UserPolicy.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

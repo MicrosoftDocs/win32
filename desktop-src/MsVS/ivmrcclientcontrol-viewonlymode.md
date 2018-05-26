@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl ViewOnlyMode property
-description: The ViewOnlyMode property indicates whether the client's view-only mode is enabled.
-ms.assetid: '41b903d9-2b0c-455f-858b-23b50c9ba787'
-keywords: ["ViewOnlyMode property Virtual Server", "ViewOnlyMode property Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , ViewOnlyMode property", "ViewOnlyMode property Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , ViewOnlyMode property"]
+description: The ViewOnlyMode property indicates whether the clients view-only mode is enabled.
+ms.assetid: 41b903d9-2b0c-455f-858b-23b50c9ba787
+keywords:
+- ViewOnlyMode property Virtual Server
+- ViewOnlyMode property Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , ViewOnlyMode property
+- ViewOnlyMode property Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , ViewOnlyMode property
 topic_type:
 - apiref
 api_name:
@@ -15,6 +20,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::ViewOnlyMode property
@@ -28,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ViewOnlyMode(
-  [in]  VARIANT_BOOL viewOnlyMode
+  [in]  VARIANT_BOOL viewOnlyMode
 );
 
 HRESULT get_ViewOnlyMode(
-  [out] VARIANT_BOOL *viewOnlyMode
+  [out] VARIANT_BOOL *viewOnlyMode
 );
 ```
 
@@ -87,8 +97,8 @@ When the client's view-only mode is enabled, no user input is sent from the clie
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -101,9 +111,9 @@ When the client's view-only mode is enabled, no user input is sent from the clie
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

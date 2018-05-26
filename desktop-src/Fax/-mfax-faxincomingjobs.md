@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxIncomingJobs collection is used by a fax client application to manage the inbound fax jobs in a fax server''s job queue. Each incoming job is represented by a FaxIncomingJob object.'
-ms.assetid: '05b2ceec-d8e9-4ee8-be0c-e31bb12edfc8'
+---
+Description: The FaxIncomingJobs collection is used by a fax client application to manage the inbound fax jobs in a fax servers job queue. Each incoming job is represented by a FaxIncomingJob object.
+ms.assetid: 05b2ceec-d8e9-4ee8-be0c-e31bb12edfc8
 title: FaxIncomingJobs object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJobs object
@@ -61,7 +66,7 @@ To create a **FaxIncomingJobs** object in Microsoft Visual Basic, call the [**Ge
 [**FaxIncomingQueue**](-mfax-faxincomingqueue.md)
 </dt> <dt>
 
-[**IFaxIncomingJobs**](-mfax-faxincomingjobs-cpp.md)
+[**IFaxIncomingJobs**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjobs?branch=master)
 </dt> </dl>
 
  

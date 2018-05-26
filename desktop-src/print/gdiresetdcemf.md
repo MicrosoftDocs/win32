@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GdiResetDCEMF function resets a printer''s device context during playback of a spooled EMF print job.'
-ms.assetid: 'ea97cc22-6057-427d-90c1-4f23ced932aa'
+---
+Description: The GdiResetDCEMF function resets a printers device context during playback of a spooled EMF print job.
+ms.assetid: ea97cc22-6057-427d-90c1-4f23ced932aa
 title: GdiResetDCEMF function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GdiResetDCEMF function

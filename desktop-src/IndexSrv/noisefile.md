@@ -1,7 +1,12 @@
 ---
 title: NoiseFile
 description: NoiseFile
-ms.assetid: 'e1093bd7-9dbd-4ad4-b9c5-b34d4192aa28'
+ms.assetid: e1093bd7-9dbd-4ad4-b9c5-b34d4192aa28
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NoiseFile

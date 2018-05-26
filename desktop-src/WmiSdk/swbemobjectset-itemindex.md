@@ -1,13 +1,16 @@
 ---
-Description: 'Returns the SWbemObject associated with the specified index into the collection.'
+Description: Returns the SWbemObject associated with the specified index into the collection.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '75830f78-0489-4fae-bf9c-2eee8526232e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 75830f78-0489-4fae-bf9c-2eee8526232e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObjectSet.ItemIndex method'
+title: SWbemObjectSet.ItemIndex method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectSet.ItemIndex method
@@ -151,8 +154,8 @@ Win32_AutochkSetting.SettingID="Windows Server 2008
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -168,9 +171,9 @@ Win32_AutochkSetting.SettingID="Windows Server 2008
 [**SWbemObjectSet**](swbemobjectset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

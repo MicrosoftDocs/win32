@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes the protocol-specific Quality of Service (QOS) structure for ATM, which is contained in the ProviderSpecific field of the QOS structure.'
-ms.assetid: 'ec7882f7-7197-439a-82a4-ff081505a9d7'
+Description: This section describes the protocol-specific Quality of Service (QOS) structure for ATM, which is contained in the ProviderSpecific field of the QOS structure.
+ms.assetid: ec7882f7-7197-439a-82a4-ff081505a9d7
 title: Winsock ATM QoS Extension
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Winsock ATM QoS Extension

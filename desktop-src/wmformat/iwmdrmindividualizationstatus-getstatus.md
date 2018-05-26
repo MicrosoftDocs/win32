@@ -1,8 +1,11 @@
 ---
 title: IWMDRMIndividualizationStatus GetStatus method
 description: The GetStatus method retrieves detailed information about individualization progress.
-ms.assetid: '8985f3cc-006d-4fd5-b218-d3af3473b8e3'
-keywords: ["GetStatus method windows Media Format", "GetStatus method windows Media Format , IWMDRMIndividualizationStatus interface", "IWMDRMIndividualizationStatus interface windows Media Format , GetStatus method"]
+ms.assetid: 8985f3cc-006d-4fd5-b218-d3af3473b8e3
+keywords:
+- GetStatus method windows Media Format
+- GetStatus method windows Media Format , IWMDRMIndividualizationStatus interface
+- IWMDRMIndividualizationStatus interface windows Media Format , GetStatus method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMIndividualizationStatus::GetStatus method
@@ -22,7 +30,7 @@ The **GetStatus** method retrieves detailed information about individualization 
 
 ```C++
 HRESULT GetStatus(
-  [out] WM_INDIVIDUALIZE_STATUS *pStatus
+  [out] WM_INDIVIDUALIZE_STATUS *pStatus
 );
 ```
 
@@ -51,7 +59,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,9 +82,9 @@ None.
 [**IWMDRMIndividualizationStatus Interface**](iwmdrmindividualizationstatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

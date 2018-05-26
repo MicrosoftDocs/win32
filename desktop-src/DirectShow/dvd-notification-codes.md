@@ -1,7 +1,12 @@
 ---
 Description: DVD Event Notification Codes
-ms.assetid: 'c028918e-aba2-49b2-a6ce-c620ab38b558'
+ms.assetid: c028918e-aba2-49b2-a6ce-c620ab38b558
 title: DVD Event Notification Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD Event Notification Codes
@@ -22,11 +27,11 @@ For other non-DVD event codes, see [Event Notification Codes](event-notification
 | [**EC\_DVD\_BeginNavigationCommands**](ec-dvd-beginnavigationcommands.md)     | Sent when a set of DVD navigation commands are starting.                                                                                                                  |
 | [**EC\_DVD\_BUTTON\_AUTO\_ACTIVATED**](ec-dvd-button-auto-activated.md)       | Signals that a menu button has been automatically activated per instructions on the disc.                                                                                 |
 | [**EC\_DVD\_BUTTON\_CHANGE**](ec-dvd-button-change.md)                        | Signals that either the number of available buttons changed or that the currently selected button number changed.                                                         |
-| [**EC\_DVD\_CHAPTER\_AUTOSTOP**](ec-dvd-chapter-autostop.md)                  | Indicates that playback stopped as the result of a call to the [**IDvdControl2::PlayChaptersAutoStop**](idvdcontrol2-playchaptersautostop.md) method.                    |
+| [**EC\_DVD\_CHAPTER\_AUTOSTOP**](ec-dvd-chapter-autostop.md)                  | Indicates that playback stopped as the result of a call to the [**IDvdControl2::PlayChaptersAutoStop**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-playchaptersautostop?branch=master) method.                    |
 | [**EC\_DVD\_CHAPTER\_START**](ec-dvd-chapter-start.md)                        | Signals that the DVD Navigator started playback of a new chapter in the current title.                                                                                    |
 | [**EC\_DVD\_CMD\_START**](ec-dvd-cmd-start.md)                                | Signals that a particular command has begun.                                                                                                                              |
 | [**EC\_DVD\_CMD\_END**](ec-dvd-cmd-end.md)                                    | Signals that a particular command has completed.                                                                                                                          |
-| [**EC\_DVD\_CURRENT\_HMSF\_TIME**](ec-dvd-current-hmsf-time.md)               | Signals the current time in [**DVD\_HMSF\_TIMECODE**](dvd-hmsf-timecode.md) format at the beginning of every video object unit (VOBU).                                   |
+| [**EC\_DVD\_CURRENT\_HMSF\_TIME**](ec-dvd-current-hmsf-time.md)               | Signals the current time in [**DVD\_HMSF\_TIMECODE**](/windows/win32/strmif/ns-strmif-tagdvd_hmsf_timecode?branch=master) format at the beginning of every video object unit (VOBU).                                   |
 | [**EC\_DVD\_CURRENT\_TIME**](ec-dvd-current-time.md)                          | Signals the beginning of every VOBU.                                                                                                                                      |
 | [**EC\_DVD\_DISC\_EJECTED**](ec-dvd-disc-ejected.md)                          | Signals that a disc has been ejected from the drive.                                                                                                                      |
 | [**EC\_DVD\_DISC\_INSERTED**](ec-dvd-disc-inserted.md)                        | Signals that a disc has been inserted into the drive.                                                                                                                     |
@@ -48,7 +53,7 @@ For other non-DVD event codes, see [Event Notification Codes](event-notification
 | [**EC\_DVD\_SUBPICTURE\_STREAM\_CHANGE**](ec-dvd-subpicture-stream-change.md) | Signals that the current subpicture stream number changed for the main title.                                                                                             |
 | [**EC\_DVD\_TITLE\_SET\_CHANGE**](ec-dvd-title-set-change.md)                 | Sent when current Video Title Set (VTS) changes.                                                                                                                          |
 | [**EC\_DVD\_TITLE\_CHANGE**](ec-dvd-title-change.md)                          | Indicates when the current title number changes.                                                                                                                          |
-| [**EC\_DVD\_VALID\_UOPS\_CHANGE**](ec-dvd-valid-uops-change.md)               | Signals that the available set of [**IDvdControl2**](idvdcontrol2.md) interface methods has changed.                                                                     |
+| [**EC\_DVD\_VALID\_UOPS\_CHANGE**](ec-dvd-valid-uops-change.md)               | Signals that the available set of [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master) interface methods has changed.                                                                     |
 | [**EC\_DVD\_VOBU\_Offset**](ec-dvd-vobu-offset.md)                            | Sent when the [DVD Navigator](dvd-navigator-filter.md) parses a PCI packet.                                                                                              |
 | [**EC\_DVD\_VOBU\_Timestamp**](ec-dvd-vobu-timestamp.md)                      | Sent when the [DVD Navigator](dvd-navigator-filter.md) parses a PCI packet.                                                                                              |
 | [**EC\_DVD\_WARNING**](ec-dvd-warning.md)                                     | Signals a DVD warning condition.                                                                                                                                          |

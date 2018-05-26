@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies whether related event arguments are included in the generated functions.'
-ms.assetid: '60be4680-c434-4fdb-8449-c040969d2f59'
+Description: Specifies whether related event arguments are included in the generated functions.
+ms.assetid: 60be4680-c434-4fdb-8449-c040969d2f59
 title: eventArg element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # eventArg element
@@ -43,14 +48,14 @@ Possible values are 1 (event arguments included) and 0 (default, event arguments
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,16 @@ description: DSML Services for Windows requires a server running Windows 2000 o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '62ccfa25-3a0f-4277-957d-98fbcf66cd42'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 62ccfa25-3a0f-4277-957d-98fbcf66cd42
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Installing and Configuring DSML Services for Windows DSML", "DSML Services for Windows, installing"]
+keywords:
+- Installing and Configuring DSML Services for Windows DSML
+- DSML Services for Windows, installing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Installing and Configuring DSML Services for Windows

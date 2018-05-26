@@ -4,11 +4,15 @@ description: File Classification Infrastructure (FCI) uses storage plug-ins or m
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '50DCE296-619C-46F5-8E85-1CB10C176D6B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'dynamic-access-control'
+ms.assetid: 50DCE296-619C-46F5-8E85-1CB10C176D6B
+ms.prod: windows-server-dev
+ms.technology: dynamic-access-control
 ms.tgt_platform: multiple
-keywords: ["Dynamic Access Control developer extensibility DACx , create a custom storage plug-in"]
+keywords:
+- Dynamic Access Control developer extensibility DACx , create a custom storage plug-in
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to create a custom storage plug-in

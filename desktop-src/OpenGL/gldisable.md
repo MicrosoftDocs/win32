@@ -1,8 +1,9 @@
 ---
 title: glDisable function
 description: The glEnable and glDisable functions enable or disable OpenGL capabilities.
-ms.assetid: '094f730e-5e2b-485e-8d9d-fee2902d3d5f'
-keywords: ["glDisable function OpenGL"]
+ms.assetid: 094f730e-5e2b-485e-8d9d-fee2902d3d5f
+keywords:
+- glDisable function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glDisable function
@@ -22,7 +28,7 @@ The [**glEnable**](glenable.md) and **glDisable** functions enable or disable Op
 
 ```C++
 void WINAPI glDisable(
-   GLenum cap
+   GLenum cap
 );
 ```
 
@@ -133,7 +139,7 @@ Both [**glEnable**](glenable.md) and **glDisable** take a single argument, *cap*
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -141,8 +147,8 @@ Both [**glEnable**](glenable.md) and **glDisable** take a single argument, *cap*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -276,9 +282,9 @@ Both [**glEnable**](glenable.md) and **glDisable** take a single argument, *cap*
 [**glTexImage2D**](glteximage2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

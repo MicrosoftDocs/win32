@@ -4,17 +4,21 @@ description: Initializes a new instance of the NoConsumptionRightsContentRevoked
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '91643E36-DEA8-42EB-A7F8-0085C7172236'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 91643E36-DEA8-42EB-A7F8-0085C7172236
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["NoConsumptionRightsContentRevokedException(String) method"]
+keywords:
+- NoConsumptionRightsContentRevokedException(String) method
 topic_type:
 - apiref
 api_name:
 - NoConsumptionRightsContentRevokedException(String) method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NoConsumptionRightsContentRevokedException(String) method
@@ -39,7 +43,7 @@ public NoConsumptionRightsException(String documentOwner)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -60,9 +64,9 @@ The tag and message are also logged.
 [**NoConsumptionRightsContentRevokedException**](noconsumptionrightscontentrevokedexception-class-java.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

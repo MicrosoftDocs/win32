@@ -1,7 +1,12 @@
 ---
 Description: DirectDraw Streaming Interfaces
-ms.assetid: '8f91d90d-0b9f-4d04-bc10-4b82c1b0e062'
+ms.assetid: 8f91d90d-0b9f-4d04-bc10-4b82c1b0e062
 title: DirectDraw Streaming Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectDraw Streaming Interfaces
@@ -17,8 +22,8 @@ If you use DirectDraw-supported video formats in your streams, the following int
 
 | Interface                                                  | Description                                                                                                                                                                                                                 |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IDirectDrawMediaStream**](idirectdrawmediastream.md)   | Sets and retrieves the stream format and the DirectDraw object associated with the media stream; this interface derives from [**IMediaStream**](imediastream.md). You can also use this interface to create video samples. |
-| [**IDirectDrawStreamSample**](idirectdrawstreamsample.md) | Enables you to attach video samples to DirectDraw surfaces; this interface derives from the [**IStreamSample**](istreamsample.md) interface. Each attached surface includes a clipping rectangle to make rendering easier. |
+| [**IDirectDrawMediaStream**](/windows/win32/ddstream/nn-ddstream-idirectdrawmediastream?branch=master)   | Sets and retrieves the stream format and the DirectDraw object associated with the media stream; this interface derives from [**IMediaStream**](/windows/win32/mmstream/nn-mmstream-imediastream?branch=master). You can also use this interface to create video samples. |
+| [**IDirectDrawStreamSample**](/windows/win32/ddstream/nn-ddstream-idirectdrawstreamsample?branch=master) | Enables you to attach video samples to DirectDraw surfaces; this interface derives from the [**IStreamSample**](/windows/win32/mmstream/nn-mmstream-istreamsample?branch=master) interface. Each attached surface includes a clipping rectangle to make rendering easier. |
 
 
 

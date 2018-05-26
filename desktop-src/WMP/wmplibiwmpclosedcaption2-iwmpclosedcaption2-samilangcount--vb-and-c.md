@@ -1,8 +1,11 @@
 ---
 title: IWMPClosedCaption2 SAMILangCount property
 description: The SAMILangCount property gets the number of languages supported by the current SAMI file.
-ms.assetid: 'e3c7203d-66cb-49e2-9204-795c0f27248f'
-keywords: ["SAMILangCount property Windows Media Player", "SAMILangCount property Windows Media Player , IWMPClosedCaption2 interface", "IWMPClosedCaption2 interface Windows Media Player , SAMILangCount property"]
+ms.assetid: e3c7203d-66cb-49e2-9204-795c0f27248f
+keywords:
+- SAMILangCount property Windows Media Player
+- SAMILangCount property Windows Media Player , IWMPClosedCaption2 interface
+- IWMPClosedCaption2 interface Windows Media Player , SAMILangCount property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPClosedCaption2::SAMILangCount property
@@ -83,9 +91,9 @@ This property returns 0 unless a digital media file is open (AxWindowsMediaPlaye
 [**IWMPClosedCaption2.getSAMILangName (VB and C#)**](wmplibiwmpclosedcaption2-iwmpclosedcaption2-getsamilangname--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

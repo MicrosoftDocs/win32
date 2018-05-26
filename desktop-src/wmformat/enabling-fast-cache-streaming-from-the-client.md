@@ -1,8 +1,21 @@
 ---
 title: Enabling Fast Cache Streaming from the Client
 description: Enabling Fast Cache Streaming from the Client
-ms.assetid: '2a850d6f-8e1d-4aeb-9791-c51c3debf118'
-keywords: ["Windows Media Format SDK,enabling Fast Cache streaming", "Windows Media Format SDK,Fast Cache streaming", "Advanced Systems Format (ASF),enabling Fast Cache streaming", "ASF (Advanced Systems Format),enabling Fast Cache streaming", "Advanced Systems Format (ASF),Fast Cache streaming", "ASF (Advanced Systems Format),Fast Cache streaming", "streams,enabling Fast Cache streaming", "Fast Cache streaming,enabling"]
+ms.assetid: 2a850d6f-8e1d-4aeb-9791-c51c3debf118
+keywords:
+- Windows Media Format SDK,enabling Fast Cache streaming
+- Windows Media Format SDK,Fast Cache streaming
+- Advanced Systems Format (ASF),enabling Fast Cache streaming
+- ASF (Advanced Systems Format),enabling Fast Cache streaming
+- Advanced Systems Format (ASF),Fast Cache streaming
+- ASF (Advanced Systems Format),Fast Cache streaming
+- streams,enabling Fast Cache streaming
+- Fast Cache streaming,enabling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling Fast Cache Streaming from the Client
@@ -13,7 +26,7 @@ If the available bandwidth is higher than the bit rate of the content, Fast Cach
 
 Fast Cache streaming is supported only for on-demand content. In addition, the server must be configured to use Fast Cache streaming.
 
-To enable Fast Cache in the reader object, call the [**IWMReaderNetworkConfig2::SetEnableContentCaching**](iwmreadernetworkconfig2-setenablecontentcaching.md) and [**IWMReaderNetworkConfig2::SetEnableFastCache**](iwmreadernetworkconfig2-setenablefastcache.md) methods with the value **TRUE**. The first method enables the reader to cache streamed content. The second enables the use of Fast Cache in particular.
+To enable Fast Cache in the reader object, call the [**IWMReaderNetworkConfig2::SetEnableContentCaching**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablecontentcaching?branch=master) and [**IWMReaderNetworkConfig2::SetEnableFastCache**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablefastcache?branch=master) methods with the value **TRUE**. The first method enables the reader to cache streamed content. The second enables the use of Fast Cache in particular.
 
 With these settings, the reader will activate Fast Cache by default if the network bandwidth is significantly higher or lower than the bit rate of the content, and if the server supports it. The user can also control whether the reader object uses Fast Cache by adding one or more of the following modifiers to the URL.
 
@@ -22,7 +35,7 @@ With these settings, the reader will activate Fast Cache by default if the netwo
 | Modifier         | Description                                                                                                                                                                                                                                                                                                                                      |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | WMCache          | If this modifier is present, the value '0' explicitly disables Fast Cache, while the value '1' explicitly enables it.                                                                                                                                                                                                                            |
-| WMBitrate        | This modifier specifies the maximum bit rate from the server. This modifier can be used to restrict Fast Cache to a certain bandwidth limit. This modifier is ignored if an explicit connection bandwidth is already set with a call to [**IWMReaderNetworkConfig::SetConnectionBandwidth**](iwmreadernetworkconfig-setconnectionbandwidth.md). |
+| WMBitrate        | This modifier specifies the maximum bit rate from the server. This modifier can be used to restrict Fast Cache to a certain bandwidth limit. This modifier is ignored if an explicit connection bandwidth is already set with a call to [**IWMReaderNetworkConfig::SetConnectionBandwidth**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setconnectionbandwidth?branch=master). |
 | WMContentBitrate | This modifier specifies the bit rate for the content. The reader uses this modifier, if present, when it selects streams from a multiple bit rate (MBR) file. This can cause the reader to receive high bit rate content over a slow connection, which results in very long buffering times and delays.                                          |
 
 

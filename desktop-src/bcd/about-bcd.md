@@ -1,8 +1,14 @@
 ---
 title: About the BCD WMI Provider
 description: The BCD Windows Management Instrumentation (WMI) provider consists of classes exposed as COM objects that support programmatic access to BCD stores. The BcdElement class is the base for all elements. Each BCD element represents a specific boot option.
-ms.assetid: 'f0c9f54b-b178-44cf-aa70-607a167972be'
-keywords: ["Boot Configuration Data WMI Provider Boot Config , about"]
+ms.assetid: f0c9f54b-b178-44cf-aa70-607a167972be
+keywords:
+- Boot Configuration Data WMI Provider Boot Config , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the BCD WMI Provider

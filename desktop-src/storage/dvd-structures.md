@@ -1,7 +1,12 @@
 ---
 title: DVD Structures
 description: DVD Structures
-ms.assetid: 'af1e3284-d537-4cd0-b58f-7dff7885c703'
+ms.assetid: af1e3284-d537-4cd0-b58f-7dff7885c703
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD Structures

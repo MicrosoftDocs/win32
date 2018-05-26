@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an array of pointers to nontransposed matrices.'
-ms.assetid: '1b985e03-b5cb-48e5-969f-115ca165acdc'
-title: 'ID3DXConstantTable::SetMatrixPointerArray method'
+---
+Description: Sets an array of pointers to nontransposed matrices.
+ms.assetid: 1b985e03-b5cb-48e5-969f-115ca165acdc
+title: ID3DXConstantTableSetMatrixPointerArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXConstantTable::SetMatrixPointerArray method
@@ -29,9 +34,9 @@ HRESULT SetMatrixPointerArray(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device associated with the constant table.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device associated with the constant table.
 
 </dd> <dt>
 

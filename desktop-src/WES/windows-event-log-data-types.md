@@ -1,8 +1,16 @@
 ---
 title: Windows Event Log Data Types
 description: Windows Event Log defines the following data types
-ms.assetid: '1aad25fe-7503-4ef8-a40a-63457bd9a007'
-keywords: ["EVT_HANDLE", "PEVT_HANDLE", "EVT_OBJECT_ARRAY_PROPERTY_HANDLE"]
+ms.assetid: 1aad25fe-7503-4ef8-a40a-63457bd9a007
+keywords:
+- EVT_HANDLE
+- PEVT_HANDLE
+- EVT_OBJECT_ARRAY_PROPERTY_HANDLE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Event Log Data Types
@@ -47,15 +55,15 @@ A handle to an array of Windows Event Log objects.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>WinEvt.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

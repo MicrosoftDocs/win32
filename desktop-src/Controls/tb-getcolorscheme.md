@@ -1,8 +1,9 @@
 ---
 title: TB\_GETCOLORSCHEME message
 description: Retrieves the color scheme information from the toolbar control.
-ms.assetid: 'af172631-309e-4181-a690-05946cd6e143'
-keywords: ["TB_GETCOLORSCHEME message Windows Controls"]
+ms.assetid: af172631-309e-4181-a690-05946cd6e143
+keywords:
+- TB_GETCOLORSCHEME message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETCOLORSCHEME message
@@ -27,7 +33,7 @@ Retrieves the color scheme information from the toolbar control.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**COLORSCHEME**](colorscheme.md) structure that will receive the color scheme information. You must set the **cbSize** member of this structure to **sizeof**(COLORSCHEME) before sending this message.
+Pointer to a [**COLORSCHEME**](/windows/win32/Commctrl/ns-commctrl-tagcolorscheme?branch=master) structure that will receive the color scheme information. You must set the **cbSize** member of this structure to **sizeof**(COLORSCHEME) before sending this message.
 
 </dd> </dl>
 
@@ -41,8 +47,8 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ Returns nonzero if successful, or zero otherwise.
 [**TB\_SETCOLORSCHEME**](tb-setcolorscheme.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

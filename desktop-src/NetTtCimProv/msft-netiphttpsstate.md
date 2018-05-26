@@ -1,7 +1,12 @@
 ---
-Description: 'Represents per-interface IP-HTTPs configuration settings.'
-ms.assetid: '14ce0ade-3c93-4244-b9fb-d91a3e2eb1ef'
-title: 'MSFT\_NetIpHTTPsState class'
+Description: Represents per-interface IP-HTTPs configuration settings.
+ms.assetid: 14ce0ade-3c93-4244-b9fb-d91a3e2eb1ef
+title: MSFT\_NetIpHTTPsState class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetIpHTTPsState class
@@ -16,10 +21,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetTtCim")]
 class MSFT_NetIpHTTPsState : CIM_ElementSettingData
 {
-  MSFT_NetIPInterface       REF ManagedElement;
+  MSFT_NetIPInterface       REF ManagedElement;
   MSFT_Net6to4Configuration REF SettingData;
-  string                        InterfaceStatus;
-  uint32                        LastErrorCode;
+  string                        InterfaceStatus;
+  uint32                        LastErrorCode;
 };
 ```
 
@@ -99,17 +104,17 @@ Defines the global 6to4 settings.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCIMV2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

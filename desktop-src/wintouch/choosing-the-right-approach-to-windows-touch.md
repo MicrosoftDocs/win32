@@ -1,8 +1,19 @@
 ---
 title: Choosing the Right Approach to Windows Touch
 description: This section explains the different approaches to Windows Touch that you can use.
-ms.assetid: '983023e4-355b-45ba-8572-d93c460d2ff8'
-keywords: ["Windows Touch,different approaches", "Windows Touch,choosing approaches", "Windows Touch,enhancing applications", "Windows Touch,zoom support", "Windows Touch,legacy support", "Windows Touch,RealTimeStylus plug-in"]
+ms.assetid: 983023e4-355b-45ba-8572-d93c460d2ff8
+keywords:
+- Windows Touch,different approaches
+- Windows Touch,choosing approaches
+- Windows Touch,enhancing applications
+- Windows Touch,zoom support
+- Windows Touch,legacy support
+- Windows Touch,RealTimeStylus plug-in
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing the Right Approach to Windows Touch

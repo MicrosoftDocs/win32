@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.MakerNote property.'
-ms.assetid: 'e1018bc6-3fd2-4212-afee-6811bfe99f14'
-title: 'System.Photo.MakerNote Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.MakerNote property.
+ms.assetid: e1018bc6-3fd2-4212-afee-6811bfe99f14
+title: System.Photo.MakerNote Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.MakerNote Photo Metadata Policy

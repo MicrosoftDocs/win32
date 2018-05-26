@@ -1,7 +1,12 @@
 ---
-Description: 'The Send method sends an HTTP request to an HTTP server.'
-ms.assetid: '4f30d6b7-d1c3-43f1-9829-260b7c84518f'
-title: 'IWinHttpRequest::Send method'
+Description: The Send method sends an HTTP request to an HTTP server.
+ms.assetid: 4f30d6b7-d1c3-43f1-9829-260b7c84518f
+title: IWinHttpRequestSend method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::Send method
@@ -13,7 +18,7 @@ The **Send** method sends an HTTP request to an HTTP server.
 
 ```C++
 HRESULT Send(
-  [in, optional] VARIANT Body
+  [in, optional] VARIANT Body
 );
 ```
 
@@ -39,9 +44,9 @@ The return value is **S\_OK** on success or an error value otherwise.
 The request to be sent was defined in a prior call to the [**Open**](iwinhttprequest-open.md) method. The calling application can provide data to be sent to the server through the *Body* parameter. If the [*HTTP verb*](glossary.md#term-http-verb) of the object's [**Open**](iwinhttprequest-open.md) is "GET", this method sends the request without *Body*, even if it is provided by the calling application.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.
 
- 
+ 
 
 ## Examples
 
@@ -174,9 +179,9 @@ WinHttpReq.Send("Post data");
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -196,9 +201,9 @@ WinHttpReq.Send("Post data");
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

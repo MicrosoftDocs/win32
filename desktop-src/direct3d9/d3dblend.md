@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the supported blend mode.'
-ms.assetid: '60ff384c-15a0-4c6f-9e2c-59fdea76b7a1'
+---
+Description: Defines the supported blend mode.
+ms.assetid: 60ff384c-15a0-4c6f-9e2c-59fdea76b7a1
 title: D3DBLEND enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DBLEND enumeration
@@ -134,14 +139,14 @@ Blend factor is (f, f, f, 1); where f = min(Aₛ, 1 - A<sub>d</sub>).
 <span id="D3DBLEND_BLENDFACTOR"></span><span id="d3dblend_blendfactor"></span>**D3DBLEND\_BLENDFACTOR**
 </dt> <dd>
 
-Constant color blending factor used by the frame-buffer blender. This blend mode is supported only if D3DPBLENDCAPS\_BLENDFACTOR is set in the **SrcBlendCaps** or **DestBlendCaps** members of [**D3DCAPS9**](d3dcaps9.md).
+Constant color blending factor used by the frame-buffer blender. This blend mode is supported only if D3DPBLENDCAPS\_BLENDFACTOR is set in the **SrcBlendCaps** or **DestBlendCaps** members of [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 </dd> <dt>
 
 <span id="D3DBLEND_INVBLENDFACTOR"></span><span id="d3dblend_invblendfactor"></span>**D3DBLEND\_INVBLENDFACTOR**
 </dt> <dd>
 
-Inverted constant color-blending factor used by the frame-buffer blender. This blend mode is supported only if the D3DPBLENDCAPS\_BLENDFACTOR bit is set in the **SrcBlendCaps** or **DestBlendCaps** members of [**D3DCAPS9**](d3dcaps9.md).
+Inverted constant color-blending factor used by the frame-buffer blender. This blend mode is supported only if the D3DPBLENDCAPS\_BLENDFACTOR bit is set in the **SrcBlendCaps** or **DestBlendCaps** members of [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 </dd> <dt>
 

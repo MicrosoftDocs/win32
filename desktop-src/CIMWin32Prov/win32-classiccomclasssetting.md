@@ -1,15 +1,18 @@
 ---
-Description: 'Represents the settings of a Component Object Model (COM) component.'
+Description: Represents the settings of a Component Object Model (COM) component.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '18d9ddf2-184d-4680-8d56-f012c608ff7d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 18d9ddf2-184d-4680-8d56-f012c608ff7d
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ClassicCOMClassSetting class'
+title: Win32\_ClassicCOMClassSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ClassicCOMClassSetting class
@@ -24,32 +27,32 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{E5D8A562-F6C0-11d2-B35E-00105A1F8569}"), AMENDMENT]
 class Win32_ClassicCOMClassSetting : Win32_COMSetting
 {
-  string  Caption;
-  string  Description;
-  string  SettingID;
-  string  AppID;
-  string  AutoConvertToClsid;
-  string  AutoTreatAsClsid;
-  string  ComponentId;
+  string  Caption;
+  string  Description;
+  string  SettingID;
+  string  AppID;
+  string  AutoConvertToClsid;
+  string  AutoTreatAsClsid;
+  string  ComponentId;
   boolean Control;
-  string  DefaultIcon;
-  string  InprocHandler;
-  string  InprocHandler32;
-  string  InprocServer;
-  string  InprocServer32;
+  string  DefaultIcon;
+  string  InprocHandler;
+  string  InprocHandler32;
+  string  InprocServer;
+  string  InprocServer32;
   boolean Insertable;
   boolean JavaClass;
-  string  LocalServer;
-  string  LocalServer32;
-  string  LongDisplayName;
-  string  ProgId;
-  string  ShortDisplayName;
-  string  ThreadingModel;
-  string  ToolBoxBitmap32;
-  string  TreatAsClsid;
-  string  TypeLibraryId;
-  string  Version;
-  string  VersionIndependentProgId;
+  string  LocalServer;
+  string  LocalServer32;
+  string  LongDisplayName;
+  string  ProgId;
+  string  ShortDisplayName;
+  string  ThreadingModel;
+  string  ToolBoxBitmap32;
+  string  TreatAsClsid;
+  string  TypeLibraryId;
+  string  Version;
+  string  VersionIndependentProgId;
 };
 ```
 
@@ -527,8 +530,8 @@ The **Win32\_ClassicCOMClassSetting** class is derived from [**Win32\_COMSetting
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -545,9 +548,9 @@ The **Win32\_ClassicCOMClassSetting** class is derived from [**Win32\_COMSetting
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

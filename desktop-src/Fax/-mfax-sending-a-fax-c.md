@@ -1,7 +1,12 @@
 ---
-Description: 'The following code example sends a fax:'
-ms.assetid: 'a3ab2f07-3e08-4c33-bbb5-1f55b43d8116'
-title: 'Sending a Fax (C++)'
+Description: The following code example sends a fax
+ms.assetid: a3ab2f07-3e08-4c33-bbb5-1f55b43d8116
+title: Sending a Fax (C++)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending a Fax (C++)

@@ -4,13 +4,15 @@ description: Represents network and security configuration settings for a DTC in
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f9f04679-e4cd-4c6e-83d5-1ef1d837aeb2'
-ms.prod: 'windows-server-dev'
+ms.assetid: f9f04679-e4cd-4c6e-83d5-1ef1d837aeb2
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-transaction-coordinator'
-- 'windows-management-instrumentation'
+- distributed-transaction-coordinator
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DtcNetworkSettings class", "DtcNetworkSettings class, described"]
+keywords:
+- DtcNetworkSettings class
+- DtcNetworkSettings class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - MsDtcWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DtcNetworkSettings class
@@ -46,7 +51,7 @@ class DtcNetworkSettings
   boolean RemoteAdministrationAccessEnabled;
   boolean XATransactionsEnabled;
   boolean LUTransactionsEnabled;
-  string  AuthenticationLevel;
+  string  AuthenticationLevel;
 };
 ```
 
@@ -159,8 +164,8 @@ Access type: Read-only
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\MsDTC<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Msdtcwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsDtcWmi.dll</dt> </dl> |
@@ -174,9 +179,9 @@ Access type: Read-only
 [Distributed Transaction Coordinator WMI Provider](distributed-transaction-coordinator-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

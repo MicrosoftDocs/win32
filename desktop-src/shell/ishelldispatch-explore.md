@@ -1,7 +1,12 @@
-﻿---
-Description: 'Opens a specified folder in a Windows Explorer window.'
-ms.assetid: 'DB434D02-56B2-4e8f-9E43-BBF47C7BE377'
-title: 'IShellDispatch.Explore method'
+---
+Description: Opens a specified folder in a Windows Explorer window.
+ms.assetid: DB434D02-56B2-4e8f-9E43-BBF47C7BE377
+title: IShellDispatch.Explore method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch.Explore method
@@ -48,7 +53,7 @@ IShellDispatch.Explore(
 
 Type: **Variant**
 
-The folder to be displayed. This can be a string that specifies the path of the folder or one of the [**ShellSpecialFolderConstants**](shellspecialfolderconstants.md) values. Note that the constant names found in **ShellSpecialFolderConstants** are available in Visual Basic, but not in VBScript or JScript. In those cases, the numeric values must be used in their place.
+The folder to be displayed. This can be a string that specifies the path of the folder or one of the [**ShellSpecialFolderConstants**](/windows/win32/Shldisp/ne-shldisp-shellspecialfolderconstants?branch=master) values. Note that the constant names found in **ShellSpecialFolderConstants** are available in Visual Basic, but not in VBScript or JScript. In those cases, the numeric values must be used in their place.
 
 </dd> </dl>
 

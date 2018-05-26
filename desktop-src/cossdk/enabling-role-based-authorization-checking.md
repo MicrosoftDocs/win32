@@ -1,7 +1,12 @@
 ---
-Description: 'To use role-based security in your COM+ application, you must first enable role-based authorization checking for the application.'
-ms.assetid: 'd391a0d4-fe5d-4587-b0b1-b3aa294b7ad7'
-title: 'Enabling Role-Based Authorization Checking'
+Description: To use role-based security in your COM+ application, you must first enable role-based authorization checking for the application.
+ms.assetid: d391a0d4-fe5d-4587-b0b1-b3aa294b7ad7
+title: Enabling Role-Based Authorization Checking
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling Role-Based Authorization Checking

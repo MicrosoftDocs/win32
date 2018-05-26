@@ -1,8 +1,9 @@
 ---
 title: SB\_SETMINHEIGHT message
-description: Sets the minimum height of a status window's drawing area.
-ms.assetid: '346fe654-f808-4191-9c3d-f9a4def08df1'
-keywords: ["SB_SETMINHEIGHT message Windows Controls"]
+description: Sets the minimum height of a status windows drawing area.
+ms.assetid: 346fe654-f808-4191-9c3d-f9a4def08df1
+keywords:
+- SB_SETMINHEIGHT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SB\_SETMINHEIGHT message
@@ -45,15 +51,15 @@ The minimum height is the sum of *wParam* and twice the width, in pixels, of the
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

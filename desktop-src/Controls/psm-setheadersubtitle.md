@@ -1,8 +1,9 @@
 ---
 title: PSM\_SETHEADERSUBTITLE message
-description: Sets the subtitle text for the header of a wizard's interior page. You can send this message explicitly or use the PropSheet\_SetHeaderSubTitle macro.
-ms.assetid: '6ef3017b-8a20-4d62-a604-135410d8bdf7'
-keywords: ["PSM_SETHEADERSUBTITLE message Windows Controls"]
+description: Sets the subtitle text for the header of a wizards interior page. You can send this message explicitly or use the PropSheet\_SetHeaderSubTitle macro.
+ms.assetid: 6ef3017b-8a20-4d62-a604-135410d8bdf7
+keywords:
+- PSM_SETHEADERSUBTITLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_SETHEADERSUBTITLE message
 
-Sets the subtitle text for the header of a wizard's interior page. You can send this message explicitly or use the [**PropSheet\_SetHeaderSubTitle**](propsheet-setheadersubtitle.md) macro.
+Sets the subtitle text for the header of a wizard's interior page. You can send this message explicitly or use the [**PropSheet\_SetHeaderSubTitle**](/windows/win32/Prsht/nf-prsht-propsheet_setheadersubtitle?branch=master) macro.
 
 ## Parameters
 
@@ -46,9 +52,9 @@ No return value.
 If you specify the current page, it will immediately be repainted to display the new subtitle.
 
 > [!Note]  
-> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](propsheetheader.md)).
+> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master)).
 
- 
+ 
 
 ## Requirements
 
@@ -56,8 +62,8 @@ If you specify the current page, it will immediately be repainted to display the
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl>      |
 | Unicode and ANSI names<br/>   | **PSM\_SETHEADERSUBTITLEW** (Unicode) and **PSM\_SETHEADERSUBTITLEA** (ANSI)<br/> |
 
@@ -79,9 +85,9 @@ If you specify the current page, it will immediately be repainted to display the
 [**PSM\_PAGETOINDEX**](psm-pagetoindex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

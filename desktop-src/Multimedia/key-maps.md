@@ -1,8 +1,17 @@
 ---
 title: Key Maps
 description: Key Maps
-ms.assetid: '5d0367b0-bbf1-4a4b-98b2-dbca6f2f8b0c'
-keywords: ["Musical Instrument Digital Interface (MIDI),MIDI Mapper", "MIDI (Musical Instrument Digital Interface),MIDI Mapper", "MIDI Mapper,key maps", "key maps"]
+ms.assetid: 5d0367b0-bbf1-4a4b-98b2-dbca6f2f8b0c
+keywords:
+- Musical Instrument Digital Interface (MIDI),MIDI Mapper
+- MIDI (Musical Instrument Digital Interface),MIDI Mapper
+- MIDI Mapper,key maps
+- key maps
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Key Maps

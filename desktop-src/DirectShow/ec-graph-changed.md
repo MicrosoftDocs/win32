@@ -1,7 +1,12 @@
 ---
-Description: 'The filter graph has changed.'
-ms.assetid: '621591d2-74ac-4b1f-b065-247582b05efc'
-title: 'EC\_GRAPH\_CHANGED'
+Description: The filter graph has changed.
+ms.assetid: 621591d2-74ac-4b1f-b065-247582b05efc
+title: EC\_GRAPH\_CHANGED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_GRAPH\_CHANGED
@@ -54,9 +59,9 @@ This event code is intended for debugging. It is not sent for all graph changes.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

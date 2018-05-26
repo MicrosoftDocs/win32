@@ -1,12 +1,17 @@
 ---
 title: About Help Window Types
 description: About Help Window Types
-ms.assetid: 'DCDB5594-1742-4fd4-84F0-8B4F01AFD99F'
+ms.assetid: DCDB5594-1742-4fd4-84F0-8B4F01AFD99F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Help Window Types
 
-Pop-up windows are based on an [**HH\_POPUP**](hh-popup-structure.md) structure and include the following default properties:
+Pop-up windows are based on an [**HH\_POPUP**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_popup?branch=master) structure and include the following default properties:
 
 -   The pop-up window is positioned relative to the mouse. The calling program can override this with a specific position.
 -   The width and height of the pop-up window are determined by the amount of text. The help author or the program can specify an exact width or height.

@@ -1,8 +1,11 @@
 ---
 title: ICatalogRead GetIndexedTopic method
 description: method GetIndexedTopic - returns a data stream containing the XHTML data for a topic identified by its topic id in an open catalog
-ms.assetid: '9c16d88b-4ca3-4553-aa3b-d3f1b7e7e2f0'
-keywords: ["GetIndexedTopic method HelpAPI", "GetIndexedTopic method HelpAPI , ICatalogRead interface", "ICatalogRead interface HelpAPI , GetIndexedTopic method"]
+ms.assetid: 9c16d88b-4ca3-4553-aa3b-d3f1b7e7e2f0
+keywords:
+- GetIndexedTopic method HelpAPI
+- GetIndexedTopic method HelpAPI , ICatalogRead interface
+- ICatalogRead interface HelpAPI , GetIndexedTopic method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICatalogRead::GetIndexedTopic method
@@ -22,10 +30,10 @@ method GetIndexedTopic - returns a data stream containing the XHTML data for a t
 
 ```C++
 HRESULT GetIndexedTopic(
-  [in]          ICatalog    *Catalog,
-  [in]          BSTR        topicId,
-  [in]          IHelpFilter *filter,
-  [out, retval] IUnknown    **pRetVal
+  [in]          ICatalog    *Catalog,
+  [in]          BSTR        topicId,
+  [in]          IHelpFilter *filter,
+  [out, retval] IUnknown    **pRetVal
 );
 ```
 
@@ -57,8 +65,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -70,9 +78,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ICatalogRead**](icatalogread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

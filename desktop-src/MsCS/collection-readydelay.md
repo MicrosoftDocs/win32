@@ -4,17 +4,21 @@ description: Indicates how much time (in seconds) should be pass after the Ready
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '457DD069-D300-40C1-8AA9-25B9018DFC3D'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 457DD069-D300-40C1-8AA9-25B9018DFC3D
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ReadyDelay Failover Cluster"]
+keywords:
+- ReadyDelay Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ReadyDelay
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ReadyDelay
@@ -27,14 +31,14 @@ Indicates how much time (in seconds) should be pass after the [**ReadySetting**]
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | 0<br/>                                         |
 | Maximum<br/>   | 0xFFFFFFFF<br/>                                |
 | Default<br/>   | 0<br/>                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_COLLECTION\_READY\_DELAY**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_COLLECTION\_READY\_DELAY**.
 [Collection Common Properties](collection-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

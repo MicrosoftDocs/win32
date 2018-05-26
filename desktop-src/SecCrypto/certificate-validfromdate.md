@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the beginning date for the validity of the certificate.'
-ms.assetid: 'd1caa7d3-ed5c-4637-bcb6-5a3fda8b978e'
-title: 'Certificate.ValidFromDate property'
+---
+Description: Retrieves the beginning date for the validity of the certificate.
+ms.assetid: d1caa7d3-ed5c-4637-bcb6-5a3fda8b978e
+title: Certificate.ValidFromDate property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate.ValidFromDate property

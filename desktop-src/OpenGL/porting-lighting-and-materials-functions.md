@@ -1,8 +1,23 @@
 ---
 title: Porting Lighting and Materials Functions
 description: OpenGL functions for lighting and materials differ substantially from the IRIS GL functions. Unlike IRIS GL, OpenGL has separate functions for setting lights, light models and materials.
-ms.assetid: 'de57d041-1ea1-46d0-b584-009608625ea5'
-keywords: ["IRIS GL porting,lighting", "porting from IRIS GL,lighting", "porting to OpenGL from IRIS GL,lighting", "OpenGL porting from IRIS GL,lighting", "IRIS GL porting,materials", "porting from IRIS GL,materials", "porting to OpenGL from IRIS GL,materials", "OpenGL porting from IRIS GL,materials", "lighting", "materials"]
+ms.assetid: de57d041-1ea1-46d0-b584-009608625ea5
+keywords:
+- IRIS GL porting,lighting
+- porting from IRIS GL,lighting
+- porting to OpenGL from IRIS GL,lighting
+- OpenGL porting from IRIS GL,lighting
+- IRIS GL porting,materials
+- porting from IRIS GL,materials
+- porting to OpenGL from IRIS GL,materials
+- OpenGL porting from IRIS GL,materials
+- lighting
+- materials
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Lighting and Materials Functions
@@ -32,7 +47,7 @@ The following table lists IRIS GL lighting and materials functions and their equ
 
 
 
- 
+ 
 
 The following table lists various IRIS GL material parameters and their equivalent OpenGL parameters.
 
@@ -49,7 +64,7 @@ The following table lists various IRIS GL material parameters and their equivale
 
 
 
- 
+ 
 
 When the first parameter of **Imdef** is DEFMODEL, the equivalent OpenGL translation is the function [**glLightModel**](gllightmodel-functions.md). The exception is when the parameter following DEFMODEL is ATTENUATION: then the equivalent OpenGL function is [**glLight**](gllight-functions.md).
 
@@ -66,7 +81,7 @@ The following table lists the equivalent lighting model parameters for IRIS GL a
 
 
 
- 
+ 
 
 When the first parameter of **Imdef** is DEFLIGHT, the equivalent OpenGL translation is the [**glLight**](gllight-functions.md) function.
 
@@ -85,11 +100,11 @@ The following table lists the equivalent lighting parameters for IRIS GL and Ope
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

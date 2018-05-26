@@ -1,7 +1,12 @@
 ---
-Description: 'The ChangeRate method is called when the playback rate changes.'
-ms.assetid: 'c4f1f9d0-6c09-4cab-8a37-dd1ff3f5619f'
-title: 'CSourceSeeking.ChangeRate method'
+Description: The ChangeRate method is called when the playback rate changes.
+ms.assetid: c4f1f9d0-6c09-4cab-8a37-dd1ff3f5619f
+title: CSourceSeeking.ChangeRate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.ChangeRate method
@@ -67,9 +72,9 @@ HRESULT CMyStream::ChangeRate( )
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

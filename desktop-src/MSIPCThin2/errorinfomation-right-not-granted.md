@@ -4,11 +4,14 @@ description: You have not been granted the rights necessary to complete the spec
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ErrorInfomation.RIGHT\_NOT\_GRANTED'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ErrorInfomation.RIGHT\_NOT\_GRANTED
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["RIGHT_NOT_GRANTED property", "RIGHT_NOT_GRANTED property, ErrorInfomation class", "ErrorInfomation class, RIGHT_NOT_GRANTED property"]
+keywords:
+- RIGHT_NOT_GRANTED property
+- RIGHT_NOT_GRANTED property, ErrorInfomation class
+- ErrorInfomation class, RIGHT_NOT_GRANTED property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ErrorInfomation.RIGHT\_NOT\_GRANTED property
@@ -61,9 +67,9 @@ static property ErrorInfomation RIGHT_NOT_GRANTED {
 [**ErrorInfomation**](errorinfomation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

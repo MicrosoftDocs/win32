@@ -1,7 +1,12 @@
 ---
 title: Pattern-Matching Queries
 description: Pattern-Matching Queries
-ms.assetid: '9197fc70-f427-40ce-91c1-4f1e90bfc857'
+ms.assetid: 9197fc70-f427-40ce-91c1-4f1e90bfc857
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pattern-Matching Queries

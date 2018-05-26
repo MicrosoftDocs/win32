@@ -1,8 +1,17 @@
 ---
 title: Enumeration Types
 description: Enumeration Types
-ms.assetid: '205fe651-a712-4d9a-9ebf-bf7e8ec05ed0'
-keywords: ["Windows Media Device Manager,enumerations", "Device Manager,enumerations", "programming reference,enumerations", "reference for Windows Media Device Manager,enumerations"]
+ms.assetid: 205fe651-a712-4d9a-9ebf-bf7e8ec05ed0
+keywords:
+- Windows Media Device Manager,enumerations
+- Device Manager,enumerations
+- programming reference,enumerations
+- reference for Windows Media Device Manager,enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumeration Types

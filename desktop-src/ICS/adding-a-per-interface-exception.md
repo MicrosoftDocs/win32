@@ -1,7 +1,12 @@
 ---
 title: Adding a per Interface Rule
-description: The following example adds a per interface rule using the Windows Firewall with Advanced Security APIs.VB' This VBScript file includes sample code that adds a ' per interface rule using the Microsoft Windows Firewall APIs.
-ms.assetid: '433656b1-9aff-4d5c-b8bd-d7cce7e03d13'
+description: The following example adds a per interface rule using the Windows Firewall with Advanced Security APIs.VB This VBScript file includes sample code that adds a  per interface rule using the Microsoft Windows Firewall APIs.
+ms.assetid: 433656b1-9aff-4d5c-b8bd-d7cce7e03d13
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a per Interface Rule

@@ -1,7 +1,12 @@
 ---
-Description: 'A MainMode SA.'
-ms.assetid: '90b7771a-2460-40cf-802a-7dade1deabe7'
-title: 'MSFT\_NetMainModeSA class'
+Description: A MainMode SA.
+ms.assetid: 90b7771a-2460-40cf-802a-7dade1deabe7
+title: MSFT\_NetMainModeSA class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetMainModeSA class
@@ -15,64 +20,64 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetMainModeSA : CIM_IKESAEndpoint
 {
-  uint16   KeyModule;
-  string   LocalEndpoint;
-  string   RemoteEndpoint;
-  uint32   MaxQMSAs;
-  string   LocalFirstId;
-  string   LocalSecondId;
-  string   RemoteFirstId;
-  string   RemoteSecondId;
-  string   OtherGroupId;
-  uint64   ExtendedFilterId;
-  uint16   LocalUdpEncapsulationPort;
-  uint16   RemoteUdpEncapsulationPort;
-  string   IkePolicyKey;
-  uint64   VirtualIfTunnelId;
-  uint16   AuthenticationMethod;
-  uint16   CipherAlgorithm;
-  uint16   GroupId;
-  uint16   HashAlgorithm;
-  uint64   InitiatorCookie;
-  string   OtherAuthenticationMethod;
-  string   OtherCipherAlgorithm;
-  string   OtherHashAlgorithm;
-  uint64   ResponderCookie;
-  string   VendorID;
-  uint64   IdleDurationSeconds;
-  uint64   LifetimeKilobytes;
-  uint64   LifetimeSeconds;
-  boolean  PacketLoggingActive;
-  uint8    RefreshThresholdSecondsPercentage;
-  uint8    RefreshThresholdKbytesPercentage;
-  string   NameFormat;
-  string   OtherTypeDescription;
-  uint16   ProtocolIFType;
-  uint16   ProtocolType;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   Name;
-  uint16   AvailableRequestedStates[];
-  uint16   EnabledDefault;
-  uint16   EnabledState;
-  string   OtherEnabledState;
-  uint16   RequestedState;
+  uint16   KeyModule;
+  string   LocalEndpoint;
+  string   RemoteEndpoint;
+  uint32   MaxQMSAs;
+  string   LocalFirstId;
+  string   LocalSecondId;
+  string   RemoteFirstId;
+  string   RemoteSecondId;
+  string   OtherGroupId;
+  uint64   ExtendedFilterId;
+  uint16   LocalUdpEncapsulationPort;
+  uint16   RemoteUdpEncapsulationPort;
+  string   IkePolicyKey;
+  uint64   VirtualIfTunnelId;
+  uint16   AuthenticationMethod;
+  uint16   CipherAlgorithm;
+  uint16   GroupId;
+  uint16   HashAlgorithm;
+  uint64   InitiatorCookie;
+  string   OtherAuthenticationMethod;
+  string   OtherCipherAlgorithm;
+  string   OtherHashAlgorithm;
+  uint64   ResponderCookie;
+  string   VendorID;
+  uint64   IdleDurationSeconds;
+  uint64   LifetimeKilobytes;
+  uint64   LifetimeSeconds;
+  boolean  PacketLoggingActive;
+  uint8    RefreshThresholdSecondsPercentage;
+  uint8    RefreshThresholdKbytesPercentage;
+  string   NameFormat;
+  string   OtherTypeDescription;
+  uint16   ProtocolIFType;
+  uint16   ProtocolType;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   Name;
+  uint16   AvailableRequestedStates[];
+  uint16   EnabledDefault;
+  uint16   EnabledState;
+  string   OtherEnabledState;
+  uint16   RequestedState;
   datetime TimeOfLastStateChange;
-  uint16   TransitioningToState;
+  uint16   TransitioningToState;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
 };
 ```
 
@@ -932,17 +937,17 @@ ID/Handle to virtual interface tunneling state
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

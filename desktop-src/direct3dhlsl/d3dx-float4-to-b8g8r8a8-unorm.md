@@ -1,8 +1,9 @@
 ---
 title: D3DX\_FLOAT4\_to\_B8G8R8A8\_UNORM function
 description: Packs the given XMFLOAT4 back into a DXGI\_FORMAT\_B8G8R8A8\_UNORM.
-ms.assetid: '5b7452ed-446a-4760-83e6-f3209ac8daf4'
-keywords: ["D3DX_FLOAT4_to_B8G8R8A8_UNORM function HLSL"]
+ms.assetid: 5b7452ed-446a-4760-83e6-f3209ac8daf4
+keywords:
+- D3DX_FLOAT4_to_B8G8R8A8_UNORM function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_FLOAT4\_to\_B8G8R8A8\_UNORM function
@@ -21,7 +27,7 @@ Packs the given XMFLOAT4 back into a DXGI\_FORMAT\_B8G8R8A8\_UNORM.
 
 ``` syntax
 UINT D3DX_FLOAT4_to_B8G8R8A8_UNORM(
-   hlsl_precise XMFLOAT4 unpackedInput
+   hlsl_precise XMFLOAT4 unpackedInput
 );
 ```
 
@@ -60,9 +66,9 @@ The packed shader data.
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

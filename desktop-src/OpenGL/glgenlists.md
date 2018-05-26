@@ -1,8 +1,9 @@
 ---
 title: glGenLists function
 description: The glGenLists function generates a contiguous set of empty display lists.
-ms.assetid: '07a97e89-1fbe-4405-b1b0-c4c47b098633'
-keywords: ["glGenLists function OpenGL"]
+ms.assetid: 07a97e89-1fbe-4405-b1b0-c4c47b098633
+keywords:
+- glGenLists function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGenLists function
@@ -22,7 +28,7 @@ The **glGenLists** function generates a contiguous set of empty display lists.
 
 ```C++
 GLuint WINAPI glGenLists(
-   GLsizei range
+   GLsizei range
 );
 ```
 
@@ -79,8 +85,8 @@ The following function retrieves information related to **glGenLists**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -112,9 +118,9 @@ The following function retrieves information related to **glGenLists**:
 [**glNewList**](glnewlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

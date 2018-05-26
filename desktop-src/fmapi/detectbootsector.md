@@ -1,8 +1,9 @@
 ---
 title: DetectBootSector function
 description: Validates the correctness of the volume boot sector and provides data that is used to access the internal on-disk structures of the file system.
-ms.assetid: '245641cb-1ee8-4ce5-84db-1d29489d2c3f'
-keywords: ["DetectBootSector function Files"]
+ms.assetid: 245641cb-1ee8-4ce5-84db-1d29489d2c3f
+keywords:
+- DetectBootSector function Files
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Fmapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DetectBootSector function
@@ -18,17 +24,17 @@ api_type:
 Validates the correctness of the volume boot sector and provides data that is used to access the internal on-disk structures of the file system.
 
 > [!Note]  
-> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
+> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 BOOL WINAPI DetectBootSector(
-  _In_  CONST UCHAR*      BootSector,
-  _Out_ PBOOT_SECTOR_INFO BootSectorParams
+  _In_  CONST UCHAR*      BootSector,
+  _Out_ PBOOT_SECTOR_INFO BootSectorParams
 );
 ```
 
@@ -70,8 +76,8 @@ The **DetectBootSector** function supports FAT and NTFS file systems.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Fmapi.dll</dt> </dl> |
 
 
@@ -83,9 +89,9 @@ The **DetectBootSector** function supports FAT and NTFS file systems.
 [**BOOT\_SECTOR\_INFO**](boot-sector-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

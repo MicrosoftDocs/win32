@@ -1,7 +1,12 @@
 ---
 title: WinSNMP Data Types
 description: The standard WinSNMP data types are defined in the WINSNMP.H file.
-ms.assetid: '20f1bbc3-5a08-4206-980d-22a794cda402'
+ms.assetid: 20f1bbc3-5a08-4206-980d-22a794cda402
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinSNMP Data Types

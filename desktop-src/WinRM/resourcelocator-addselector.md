@@ -4,11 +4,14 @@ description: Adds a selector to the ResourceLocator object. The selector specifi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4b513d39-a377-487f-a03b-f3c5ab0f0b5a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 4b513d39-a377-487f-a03b-f3c5ab0f0b5a
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["AddSelector method Windows Remote Management", "AddSelector method Windows Remote Management , ResourceLocator object", "ResourceLocator object Windows Remote Management , AddSelector method"]
+keywords:
+- AddSelector method Windows Remote Management
+- AddSelector method Windows Remote Management , ResourceLocator object
+- ResourceLocator object Windows Remote Management , AddSelector method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ResourceLocator.AddSelector method
@@ -63,8 +69,8 @@ The selector value. For example, for WMI data, this parameter contains a value f
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -79,9 +85,9 @@ The selector value. For example, for WMI data, this parameter contains a value f
 [**ResourceLocator**](resourcelocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

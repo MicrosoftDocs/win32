@@ -4,11 +4,17 @@ description: The systemFlags attribute of attributeSchema and classSchema object
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5cc8f296-df3e-4643-9694-543f069a2cc7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5cc8f296-df3e-4643-9694-543f069a2cc7
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Querying for Category 1 or 2 Schema Objects AD", "object AD , querying for category 1 or 2 schema objects", "schema AD , querying for category 1 or 2 schema objects"]
+keywords:
+- Querying for Category 1 or 2 Schema Objects AD
+- object AD , querying for category 1 or 2 schema objects
+- schema AD , querying for category 1 or 2 schema objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Querying for Category 1 or 2 Schema Objects

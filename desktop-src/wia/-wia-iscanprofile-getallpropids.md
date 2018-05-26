@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets all available property IDs in a profile.'
-ms.assetid: '9ef2abdd-0b33-4be3-a124-7795f42d5e55'
-title: 'IScanProfile::GetAllPropIDs method'
+---
+Description: Gets all available property IDs in a profile.
+ms.assetid: 9ef2abdd-0b33-4be3-a124-7795f42d5e55
+title: IScanProfileGetAllPropIDs method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfile::GetAllPropIDs method

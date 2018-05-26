@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '55103a8c-3e3c-4615-8a08-d7aba1a7c692'
-title: 'System.IsDeleted'
+Description: .
+ms.assetid: 55103a8c-3e3c-4615-8a08-d7aba1a7c692
+title: System.IsDeleted
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.IsDeleted

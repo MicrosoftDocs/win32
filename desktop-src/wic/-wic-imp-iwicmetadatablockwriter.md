@@ -1,7 +1,12 @@
 ---
 Description: Implementing IWICMetadataBlockWriter
-ms.assetid: '31824f21-04b1-45ca-adfa-15fd348e14a1'
+ms.assetid: 31824f21-04b1-45ca-adfa-15fd348e14a1
 title: Implementing IWICMetadataBlockWriter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing IWICMetadataBlockWriter
@@ -14,7 +19,7 @@ title: Implementing IWICMetadataBlockWriter
 -   [SetWriterByIndex](#setwriterbyindex)
 -   [RemoveWriterByIndex](#removewriterbyindex)
 
-The frame-level encoding class implements this interface to expose all the metadata blocks and request the appropriate metadata writer for each block. If your image format supports global metadata, outside of any individual frame, you should also implement this interface on the container-level encoder class. For a more detailed discussion of metadata handlers, refer to the section on the [**IWICMetadataBlockReader**](-wic-codec-iwicmetadatablockreader.md) in the section on Implementing a WIC-Enabled Decoder.
+The frame-level encoding class implements this interface to expose all the metadata blocks and request the appropriate metadata writer for each block. If your image format supports global metadata, outside of any individual frame, you should also implement this interface on the container-level encoder class. For a more detailed discussion of metadata handlers, refer to the section on the [**IWICMetadataBlockReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader?branch=master) in the section on Implementing a WIC-Enabled Decoder.
 
 ``` syntax
 interface IWICMetadataBlockWriter : IWICMetadataBlockReader
@@ -30,7 +35,7 @@ interface IWICMetadataBlockWriter : IWICMetadataBlockReader
 
 ### InitializeFromBlockReader
 
-[**InitializeFromBlockReader**](-wic-codec-iwicmetadatablockwriter-initializefromblockreader.md) uses an [**IWICMetadataBlockReader**](-wic-codec-iwicmetadatablockreader.md) to initialize the block writer. You can get the **IWICMetadataBlockReader** from the decoder that decoded the image.
+[**InitializeFromBlockReader**](/windows/win32/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-initializefromblockreader?branch=master) uses an [**IWICMetadataBlockReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader?branch=master) to initialize the block writer. You can get the **IWICMetadataBlockReader** from the decoder that decoded the image.
 
 
 ```C++
@@ -52,23 +57,23 @@ for (UINT x=0; x < blockCount; x++)
 
 
 
-Because initializing the [**IWICMetadataBlockWriter**](-wic-codec-iwicmetadatablockwriter.md) with an [**IWICMetadataBlockReader**](-wic-codec-iwicmetadatablockreader.md) instantiates a metadata writer for each metadata reader exposed by the **IWICMetadataBlockReader** object, the application doesn’t have to explicitly request a writer for each block of metadata.
+Because initializing the [**IWICMetadataBlockWriter**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter?branch=master) with an [**IWICMetadataBlockReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader?branch=master) instantiates a metadata writer for each metadata reader exposed by the **IWICMetadataBlockReader** object, the application doesn’t have to explicitly request a writer for each block of metadata.
 
 ### GetWriterByIndex
 
-[**GetWriterByIndex**](-wic-codec-iwicmetadatablockwriter-getwriterbyindex.md) returns the [**IWICMetadataWriter**](-wic-codec-iwicmetadatawriter.md) object for the nth metadata block, where n is the value passed in the *nIndex* parameter. If there is no metadata writer registered that can handle the type of metadata in the nth block, the component factory will return the Unknown Metadata Handler, which will treat the block of metadata as a binary large object (BLOB). It will serialize it out as a bit stream without attempting to parse it.
+[**GetWriterByIndex**](/windows/win32/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-getwriterbyindex?branch=master) returns the [**IWICMetadataWriter**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter?branch=master) object for the nth metadata block, where n is the value passed in the *nIndex* parameter. If there is no metadata writer registered that can handle the type of metadata in the nth block, the component factory will return the Unknown Metadata Handler, which will treat the block of metadata as a binary large object (BLOB). It will serialize it out as a bit stream without attempting to parse it.
 
 ### AddWriter
 
-[**AddWriter**](-wic-codec-iwicmetadatablockwriter-addwriter.md) allows a caller to add a new metadata writer. This is required if an application wants to add metadata of a different format than any of the existing metadata blocks. For example, an application may want to add some XMP metadata. If there is no existing XMP metadata block, the application must instantiate an XMP metadata writer and use the **AddWriter** method to include it in the collection of metadata writers.
+[**AddWriter**](/windows/win32/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-addwriter?branch=master) allows a caller to add a new metadata writer. This is required if an application wants to add metadata of a different format than any of the existing metadata blocks. For example, an application may want to add some XMP metadata. If there is no existing XMP metadata block, the application must instantiate an XMP metadata writer and use the **AddWriter** method to include it in the collection of metadata writers.
 
 ### SetWriterByIndex
 
-[**SetWriterByIndex**](-wic-codec-iwicmetadatablockwriter-setwriterbyindex.md) is used to add a metadata writer at a specific index in the collection. If a metadata writer is currently exists at that index, the new one should replace it.
+[**SetWriterByIndex**](/windows/win32/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-setwriterbyindex?branch=master) is used to add a metadata writer at a specific index in the collection. If a metadata writer is currently exists at that index, the new one should replace it.
 
 ### RemoveWriterByIndex
 
-[**RemoveWriterByIndex**](-wic-codec-iwicmetadatablockwriter-removewriterbyindex.md) is used to remove a metadata writer from the collection.
+[**RemoveWriterByIndex**](/windows/win32/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockwriter-removewriterbyindex?branch=master) is used to remove a metadata writer from the collection.
 
 ## Related topics
 

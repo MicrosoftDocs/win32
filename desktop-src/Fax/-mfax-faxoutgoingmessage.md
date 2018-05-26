@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxOutgoingMessage object is used by a fax client application to retrieve information about a fax message in the archive of outbound faxes.'
-ms.assetid: 'fb06254f-f37b-4783-b4fd-42b5c5a28496'
+---
+Description: The FaxOutgoingMessage object is used by a fax client application to retrieve information about a fax message in the archive of outbound faxes.
+ms.assetid: fb06254f-f37b-4783-b4fd-42b5c5a28496
 title: FaxOutgoingMessage object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage object
@@ -226,7 +231,7 @@ A **FaxOutgoingMessage** object is accessed through a [**FaxOutgoingArchive**](-
 
 To create a **FaxOutgoingMessage** object in Microsoft Visual Basic, call the [**GetMessage**](-mfax-faxoutgoingarchive-getmessage.md) method of the [**FaxOutgoingArchive**](-mfax-faxoutgoingarchive.md) object, or retrieve the [**Message**](-mfax-faxoutgoingmessageiterator-message.md) property of the [**FaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator.md) object.
 
-To create a **FaxOutgoingMessage** object in C++, call the [**GetMessage**](-mfax-faxoutgoingarchive-getmessage-cpp.md) method, or the [**Message**](-mfax-faxoutgoingmessageiterator-message-cpp.md) method.
+To create a **FaxOutgoingMessage** object in C++, call the [**GetMessage**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxoutgoingarchive-getmessage?branch=master) method, or the [**Message**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxoutgoingmessageiterator-get_message?branch=master) method.
 
 ## Requirements
 

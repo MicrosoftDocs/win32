@@ -1,8 +1,11 @@
 ---
 title: IRangeList Cardinality method
 description: Counts the members in the message range list.
-ms.assetid: '86af4a86-986a-4b56-821e-e3d127d05ae3'
-keywords: ["Cardinality method Windows Mail (formerly Outlook Express)", "Cardinality method Windows Mail (formerly Outlook Express) , IRangeList interface", "IRangeList interface Windows Mail (formerly Outlook Express) , Cardinality method"]
+ms.assetid: 86af4a86-986a-4b56-821e-e3d127d05ae3
+keywords:
+- Cardinality method Windows Mail (formerly Outlook Express)
+- Cardinality method Windows Mail (formerly Outlook Express) , IRangeList interface
+- IRangeList interface Windows Mail (formerly Outlook Express) , Cardinality method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRangeList::Cardinality method
@@ -24,7 +32,7 @@ Counts the members in the message range list.
 
 ```C++
 HRESULT Cardinality(
-   ULONG *pulCardinality
+   ULONG *pulCardinality
 );
 ```
 
@@ -51,7 +59,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-For example, for the range list "10–20,31,44,50–65", **Cardinality**(&pulCardinality) returns 29.
+For example, for the range list "10 20,31,44,50 65", **Cardinality**(&pulCardinality) returns 29.
 
 ## Requirements
 
@@ -59,8 +67,8 @@ For example, for the range list "10–20,31,44,50–65", **Cardinality**(&pulCardina
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -68,9 +76,9 @@ For example, for the range list "10–20,31,44,50–65", **Cardinality**(&pulCardina
 
 
 
- 
+ 
 
- 
+ 
 
 
 

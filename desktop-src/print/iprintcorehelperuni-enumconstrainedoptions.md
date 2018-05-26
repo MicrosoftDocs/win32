@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelperUni::EnumConstrainedOptions method provides a list of all of the options that are constrained in a particular feature, based on current settings.'
-ms.assetid: '362d858a-5087-4cd2-8778-e6564297bc8f'
-title: 'IPrintCoreHelperUni::EnumConstrainedOptions method'
+---
+Description: The IPrintCoreHelperUniEnumConstrainedOptions method provides a list of all of the options that are constrained in a particular feature, based on current settings.
+ms.assetid: 362d858a-5087-4cd2-8778-e6564297bc8f
+title: IPrintCoreHelperUniEnumConstrainedOptions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperUni::EnumConstrainedOptions method

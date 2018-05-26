@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_DEVICE\_TYPES enumeration type describes the different Windows Portable Device (WPD) types commonly used to determine the basic classification and visual appearance of a portable device.'
-ms.assetid: '51714e0f-e9b7-4474-a8bb-da3875ef5399'
-title: 'WPD\_DEVICE\_TYPES enumeration'
+Description: The WPD\_DEVICE\_TYPES enumeration type describes the different Windows Portable Device (WPD) types commonly used to determine the basic classification and visual appearance of a portable device.
+ms.assetid: 51714e0f-e9b7-4474-a8bb-da3875ef5399
+title: WPD\_DEVICE\_TYPES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_DEVICE\_TYPES enumeration
@@ -13,13 +18,13 @@ The **WPD\_DEVICE\_TYPES** enumeration type describes the different Windows Port
 
 ```C++
 typedef enum tagWPD_DEVICE_TYPES { 
-  WPD_DEVICE_TYPE_GENERIC                       = 0,
-  WPD_DEVICE_TYPE_CAMERA                        = 1,
-  WPD_DEVICE_TYPE_MEDIA_PLAYER                  = 2,
-  WPD_DEVICE_TYPE_PHONE                         = 3,
-  WPD_DEVICE_TYPE_VIDEO                         = 4,
-  WPD_DEVICE_TYPE_PERSONAL_INFORMATION_MANAGER  = 5,
-  WPD_DEVICE_TYPE_AUDIO_RECORDER                = 6
+  WPD_DEVICE_TYPE_GENERIC                       = 0,
+  WPD_DEVICE_TYPE_CAMERA                        = 1,
+  WPD_DEVICE_TYPE_MEDIA_PLAYER                  = 2,
+  WPD_DEVICE_TYPE_PHONE                         = 3,
+  WPD_DEVICE_TYPE_VIDEO                         = 4,
+  WPD_DEVICE_TYPE_PERSONAL_INFORMATION_MANAGER  = 5,
+  WPD_DEVICE_TYPE_AUDIO_RECORDER                = 6
 } WPD_DEVICE_TYPES;
 ```
 
@@ -80,12 +85,12 @@ An audio recorder device.
 
 ## Remarks
 
-**WPD\_DEVICE\_TYPES** are read using the [**IPortableDeviceManager**](iportabledevicemanager.md) interface. WPD applications may use these values to determine the generic visual appearance of the device. That is, a camera picture is displayed for camera-like devices, a mobile phone picture is displayed for phone-like devices, and so on.
+**WPD\_DEVICE\_TYPES** are read using the [**IPortableDeviceManager**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicemanager?branch=master) interface. WPD applications may use these values to determine the generic visual appearance of the device. That is, a camera picture is displayed for camera-like devices, a mobile phone picture is displayed for phone-like devices, and so on.
 
 > [!Note]  
 > WPD applications must use the capabilities of the portable device to determine functionally, not the **WPD\_DEVICE\_TYPES** value.
 
- 
+ 
 
 ## Requirements
 
@@ -104,9 +109,9 @@ An audio recorder device.
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

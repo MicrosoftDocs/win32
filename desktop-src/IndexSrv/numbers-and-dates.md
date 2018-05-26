@@ -1,7 +1,12 @@
 ---
 title: Numbers and Dates
 description: Numbers and Dates
-ms.assetid: '5e93c1aa-a521-4d87-bacd-e5c78fde3b61'
+ms.assetid: 5e93c1aa-a521-4d87-bacd-e5c78fde3b61
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Numbers and Dates

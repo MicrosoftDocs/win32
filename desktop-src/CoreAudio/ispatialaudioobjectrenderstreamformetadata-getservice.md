@@ -1,12 +1,17 @@
-﻿---
-Description: 'Gets additional services from the ISpatialAudioObjectRenderStreamForMetadata.'
-ms.assetid: '568F3D03-7296-475B-880B-E6FD0C2BD863'
-title: 'ISpatialAudioObjectRenderStreamForMetadata::GetService method'
+---
+Description: Gets additional services from the ISpatialAudioObjectRenderStreamForMetadata.
+ms.assetid: 568F3D03-7296-475B-880B-E6FD0C2BD863
+title: ISpatialAudioObjectRenderStreamForMetadataGetService method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISpatialAudioObjectRenderStreamForMetadata::GetService method
 
-Gets additional services from the [**ISpatialAudioObjectRenderStreamForMetadata**](ispatialaudioobjectrenderstreamformetadata.md).
+Gets additional services from the [**ISpatialAudioObjectRenderStreamForMetadata**](/windows/win32/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudioobjectrenderstreamformetadata?branch=master).
 
 ## Syntax
 
@@ -61,15 +66,15 @@ If the method succeeds, it returns S\_OK. If it fails, possible return codes inc
 
 The **GetService** method supports the following service interfaces:
 
--   [**IAudioClock**](iaudioclock.md)
--   [**IAudioClock2**](iaudioclock2.md)
--   [**IAudioStreamVolume**](iaudiostreamvolume.md)
+-   [**IAudioClock**](/windows/win32/Audioclient/nn-audioclient-iaudioclock?branch=master)
+-   [**IAudioClock2**](/windows/win32/audioclient/nn-audioclient-iaudioclock2?branch=master)
+-   [**IAudioStreamVolume**](/windows/win32/Audioclient/nn-audioclient-iaudiostreamvolume?branch=master)
 
 ## See also
 
 <dl> <dt>
 
-[**ISpatialAudioObjectRenderStreamForMetadata**](ispatialaudioobjectrenderstreamformetadata.md)
+[**ISpatialAudioObjectRenderStreamForMetadata**](/windows/win32/SpatialAudioMetadata/nn-spatialaudiometadata-ispatialaudioobjectrenderstreamformetadata?branch=master)
 </dt> </dl>
 
  

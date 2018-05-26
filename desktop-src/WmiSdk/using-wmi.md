@@ -1,13 +1,16 @@
 ---
-Description: 'Roadmap to using WMI to obtain data for client scripts and applications or to provide data to WMI from an application.'
+Description: Roadmap to using WMI to obtain data for client scripts and applications or to provide data to WMI from an application.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd9a3741c-313f-4b63-8588-696a10d370f5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d9a3741c-313f-4b63-8588-696a10d370f5
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Using WMI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using WMI
@@ -17,7 +20,7 @@ You can use WMI from client applications and scripts. It provides an infrastruct
 > [!Note]  
 > The next-generation version of WMI for writing applications and scripts is available through the Windows Management Infrastructure (MI). For more information, see [MI Providers and Clients](https://msdn.microsoft.com/library/dn313132).
 
- 
+ 
 
 The following topics are discussed in this section:
 
@@ -83,7 +86,7 @@ The following procedure describes how to obtain data from WMI by writing a scrip
 
     
 
-     
+     
 
 2.  Ensure that your connections to remote computers work.
 
@@ -101,7 +104,7 @@ The following procedure describes how to obtain data from WMI by writing a scrip
 
     
 
-     
+     
 
 4.  After connecting to WMI, you can obtain data through queries and enumerations.
 
@@ -157,7 +160,7 @@ The following procedure describes how to supply data to WMI by writing a provide
 
     
 
-     
+     
 
 ## Important Tasks for WMI
 
@@ -177,11 +180,11 @@ The following topics provide information about using WMI to monitor and control 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

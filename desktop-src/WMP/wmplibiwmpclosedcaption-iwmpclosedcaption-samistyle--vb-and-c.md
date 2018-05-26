@@ -1,8 +1,11 @@
 ---
 title: IWMPClosedCaption SAMIStyle property
 description: The SAMIStyle property gets or sets the closed captioning style.
-ms.assetid: '0b1f92c6-b659-4ade-90c8-62a06e475f5c'
-keywords: ["SAMIStyle property Windows Media Player", "SAMIStyle property Windows Media Player , IWMPClosedCaption interface", "IWMPClosedCaption interface Windows Media Player , SAMIStyle property"]
+ms.assetid: 0b1f92c6-b659-4ade-90c8-62a06e475f5c
+keywords:
+- SAMIStyle property Windows Media Player
+- SAMIStyle property Windows Media Player , IWMPClosedCaption interface
+- IWMPClosedCaption interface Windows Media Player , SAMIStyle property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPClosedCaption::SAMIStyle property
@@ -90,9 +98,9 @@ If no SAMI style is specified, the first style defined in the SAMI file is used 
 [**IWMPClosedCaption2 Interface (VB and C#)**](iwmpclosedcaption2--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

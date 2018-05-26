@@ -1,14 +1,20 @@
 ---
 title: MetricDefinitionProgrammaticName element
 description: Each metric threshold must be associated with one metric definition.
-ms.assetid: '8FA8E5FE-4596-45D2-A844-CF414A2FCA33'
-keywords: ["MetricDefinitionProgrammaticName element Access Execution Engine"]
+ms.assetid: 8FA8E5FE-4596-45D2-A844-CF414A2FCA33
+keywords:
+- MetricDefinitionProgrammaticName element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MetricDefinitionProgrammaticName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricDefinitionProgrammaticName element
@@ -66,9 +72,9 @@ Only one metric threshold per combination of metric definition and test case key
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,18 +1,23 @@
 ---
-Description: 'A named pipe transaction is a client/server communication that combines a write operation and a read operation into a single network operation. Transactions improve the performance of network communications between a client and a remote server.'
-ms.assetid: 'aedce207-7dea-4670-b6dd-0c61b3f6f690'
+Description: A named pipe transaction is a client/server communication that combines a write operation and a read operation into a single network operation. Transactions improve the performance of network communications between a client and a remote server.
+ms.assetid: aedce207-7dea-4670-b6dd-0c61b3f6f690
 title: Transactions on Named Pipes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transactions on Named Pipes
 
-A named pipe transaction is a client/server communication that combines a write operation and a read operation into a single network operation. A transaction can be used only on a duplex, message-type pipe. Transactions improve the performance of network communications between a client and a remote server. Processes can use the [**TransactNamedPipe**](transactnamedpipe.md) and [**CallNamedPipe**](callnamedpipe.md) functions to perform named pipe transactions.
+A named pipe transaction is a client/server communication that combines a write operation and a read operation into a single network operation. A transaction can be used only on a duplex, message-type pipe. Transactions improve the performance of network communications between a client and a remote server. Processes can use the [**TransactNamedPipe**](/windows/win32/Winbase/?branch=master) and [**CallNamedPipe**](/windows/win32/Winbase/nf-winbase-callnamedpipea?branch=master) functions to perform named pipe transactions.
 
-The [**TransactNamedPipe**](transactnamedpipe.md) function is most commonly used by a pipe client to write a request message to the named pipe server and read the server's response message. The pipe client must specify GENERIC\_READ \| GENERIC\_WRITE access when it opens its pipe handle by calling the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function. Then, the pipe client sets the pipe handle to message-read mode by calling the [**SetNamedPipeHandleState**](setnamedpipehandlestate.md) function. If the read buffer specified in the call to **TransactNamedPipe** is not large enough to hold the entire message written by the server, the function returns zero and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns ERROR\_MORE\_DATA. The client can read the remainder of the message by calling either the [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467), [**ReadFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365468), or [**PeekNamedPipe**](peeknamedpipe.md) function.
+The [**TransactNamedPipe**](/windows/win32/Winbase/?branch=master) function is most commonly used by a pipe client to write a request message to the named pipe server and read the server's response message. The pipe client must specify GENERIC\_READ \| GENERIC\_WRITE access when it opens its pipe handle by calling the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function. Then, the pipe client sets the pipe handle to message-read mode by calling the [**SetNamedPipeHandleState**](/windows/win32/Winbase/?branch=master) function. If the read buffer specified in the call to **TransactNamedPipe** is not large enough to hold the entire message written by the server, the function returns zero and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns ERROR\_MORE\_DATA. The client can read the remainder of the message by calling either the [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467), [**ReadFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365468), or [**PeekNamedPipe**](/windows/win32/Winbase/?branch=master) function.
 
-[**TransactNamedPipe**](transactnamedpipe.md) is typically called by pipe clients, but can also be used by a pipe server.
+[**TransactNamedPipe**](/windows/win32/Winbase/?branch=master) is typically called by pipe clients, but can also be used by a pipe server.
 
-The following example shows a pipe client using [**TransactNamedPipe**](transactnamedpipe.md). This pipe client can be used with any of the pipe servers listed under See Also.
+The following example shows a pipe client using [**TransactNamedPipe**](/windows/win32/Winbase/?branch=master). This pipe client can be used with any of the pipe servers listed under See Also.
 
 
 ```C++
@@ -130,7 +135,7 @@ int _tmain(int argc, TCHAR *argv[])
 
 
 
-A pipe client uses [**CallNamedPipe**](callnamedpipe.md) to combine the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858), [**WaitNamedPipe**](waitnamedpipe.md) (if necessary), [**TransactNamedPipe**](transactnamedpipe.md), and [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) function calls into a single call. Because the pipe handle is closed before the function returns, any additional bytes in the message are lost if the message is larger than the specified size of the read buffer. The following example is the previous example rewritten to use **CallNamedPipe**.
+A pipe client uses [**CallNamedPipe**](/windows/win32/Winbase/nf-winbase-callnamedpipea?branch=master) to combine the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858), [**WaitNamedPipe**](/windows/win32/Winbase/nf-winbase-waitnamedpipea?branch=master) (if necessary), [**TransactNamedPipe**](/windows/win32/Winbase/?branch=master), and [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) function calls into a single call. Because the pipe handle is closed before the function returns, any additional bytes in the message are lost if the message is larger than the specified size of the read buffer. The following example is the previous example rewritten to use **CallNamedPipe**.
 
 
 ```C++

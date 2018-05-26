@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides information about the enumerations that enable the new print driver in Windows 8.'
-ms.assetid: '274283C8-6FE0-4AFE-9293-A78F90644C54'
+Description: This section provides information about the enumerations that enable the new print driver in Windows 8.
+ms.assetid: 274283C8-6FE0-4AFE-9293-A78F90644C54
 title: Print Schema Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Print Schema Enumerations

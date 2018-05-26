@@ -1,8 +1,11 @@
 ---
 title: IOERulesManager EnumRules method
-description: IOERulesManager EnumRules is no longer available for use as of Windows Vista.
-ms.assetid: 'cdb9c8b5-c613-46ea-bb24-c683214d8123'
-keywords: ["EnumRules method Windows Mail (formerly Outlook Express)", "EnumRules method Windows Mail (formerly Outlook Express) , IOERulesManager interface", "IOERulesManager interface Windows Mail (formerly Outlook Express) , EnumRules method"]
+description: IOERulesManager EnumRules is no longer available for use as of Windows Vista.
+ms.assetid: cdb9c8b5-c613-46ea-bb24-c683214d8123
+keywords:
+- EnumRules method Windows Mail (formerly Outlook Express)
+- EnumRules method Windows Mail (formerly Outlook Express) , IOERulesManager interface
+- IOERulesManager interface Windows Mail (formerly Outlook Express) , EnumRules method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msoe.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOERulesManager::EnumRules method
 
-\[**IOERulesManager::EnumRules** is no longer available for use as of Windows Vista.\]
+\[**IOERulesManager::EnumRules** is no longer available for use as of Windows Vista.\]
 
 Creates a new [**IOEEnumRules**](oe-ioeenumrules.md) object for the specified rule type.
 
@@ -24,9 +32,9 @@ Creates a new [**IOEEnumRules**](oe-ioeenumrules.md) object for the specified ru
 
 ```C++
 HRESULT EnumRules(
-  [in]  DWORD        dwFlags,
-  [in]  RULE_TYPE    type,
-  [out] IOEEnumRules **ppIEnumRules
+  [in]  DWORD        dwFlags,
+  [in]  RULE_TYPE    type,
+  [out] IOEEnumRules **ppIEnumRules
 );
 ```
 
@@ -101,7 +109,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -113,10 +121,10 @@ This method can also return an **HRESULT** derived from the Microsoft Win32 erro
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
-| End of client support<br/>    | Windows XP<br/>                                                                                      |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
+| End of client support<br/>    | Windows XP<br/>                                                                                      |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                             |
 | Header<br/>                   | <dl> <dt>Fsrmpipeline.h</dt> </dl>                  |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl>                     |
@@ -124,9 +132,9 @@ This method can also return an **HRESULT** derived from the Microsoft Win32 erro
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: InterlockedXor function
 description: Performs a guaranteed atomic xor.
-ms.assetid: '844ca31f-d051-4713-b9e1-dd6712ad36ca'
-keywords: ["InterlockedXor function HLSL"]
+ms.assetid: 844ca31f-d051-4713-b9e1-dd6712ad36ca
+keywords:
+- InterlockedXor function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedXor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedXor function

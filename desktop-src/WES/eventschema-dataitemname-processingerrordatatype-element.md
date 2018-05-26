@@ -1,14 +1,20 @@
 ---
 title: DataItemName (ProcessingErrorDataType) Element
 description: Contains the name of the event data item that caused an error when the event data was processed.
-ms.assetid: '929ff7f1-a8fa-490b-aa58-ccaba05179dc'
-keywords: ["DataItemName element EventLog"]
+ms.assetid: 929ff7f1-a8fa-490b-aa58-ccaba05179dc
+keywords:
+- DataItemName element EventLog
 topic_type:
 - apiref
 api_name:
 - DataItemName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DataItemName (ProcessingErrorDataType) Element
@@ -29,8 +35,8 @@ The **DataItemName** element is defined by the [**ProcessingErrorDataType**](eve
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **DataItemName** element is defined by the [**ProcessingErrorDataType**](eve
 [**ProcessingErrorData (EventType)**](eventschema-processingerrordata-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

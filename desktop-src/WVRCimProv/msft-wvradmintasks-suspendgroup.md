@@ -4,13 +4,16 @@ description: Pauses replication for a replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b1b120bc-30f3-42a2-a857-5e5dbe60be50'
-ms.prod: 'windows-server-dev'
+ms.assetid: b1b120bc-30f3-42a2-a857-5e5dbe60be50
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SuspendGroup method", "SuspendGroup method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, SuspendGroup method"]
+keywords:
+- SuspendGroup method
+- SuspendGroup method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, SuspendGroup method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WvrCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SuspendGroup method of the MSFT\_WvrAdminTasks class
@@ -30,8 +36,8 @@ Pauses replication for a replication group.
 
 ```mof
 uint32 SuspendGroup(
-  [in] string ComputerName,
-  [in] string Name
+  [in] string ComputerName,
+  [in] string Name
 );
 ```
 
@@ -62,7 +68,7 @@ The name of the replication group to suspend.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | Header<br/>                   | <dl> <dt>Qmgr.h</dt> </dl>         |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
@@ -77,9 +83,9 @@ The name of the replication group to suspend.
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

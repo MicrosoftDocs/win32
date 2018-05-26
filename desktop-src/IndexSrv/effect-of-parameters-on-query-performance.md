@@ -1,7 +1,12 @@
 ---
 title: Effect of Parameters on Query Performance
 description: Effect of Parameters on Query Performance
-ms.assetid: '03cf02c6-b21a-42a7-944d-06fce8a052cf'
+ms.assetid: 03cf02c6-b21a-42a7-944d-06fce8a052cf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect of Parameters on Query Performance

@@ -4,11 +4,16 @@ description: Extension snap-ins are COM in-process DLLs that implement and expos
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a893c4a7-1d11-4afd-9490-fea79b54e41e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a893c4a7-1d11-4afd-9490-fea79b54e41e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["requirements for extension snap-ins MMC", "requirements MMC , extension snap-ins"]
+keywords:
+- requirements for extension snap-ins MMC
+- requirements MMC , extension snap-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Requirements for Extension Snap-ins

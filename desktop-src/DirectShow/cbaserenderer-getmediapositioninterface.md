@@ -1,20 +1,25 @@
 ---
-Description: 'The GetMediaPositionInterface method retrieves the filter''s IMediaPosition and IMediaSeeking interface pointers.'
-ms.assetid: 'aeca4484-cecc-4d07-aa77-56221ff75699'
-title: 'CBaseRenderer.GetMediaPositionInterface method'
+Description: The GetMediaPositionInterface method retrieves the filters IMediaPosition and IMediaSeeking interface pointers.
+ms.assetid: aeca4484-cecc-4d07-aa77-56221ff75699
+title: CBaseRenderer.GetMediaPositionInterface method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.GetMediaPositionInterface method
 
-The `GetMediaPositionInterface` method retrieves the filter's [**IMediaPosition**](imediaposition.md) and [**IMediaSeeking**](imediaseeking.md) interface pointers.
+The `GetMediaPositionInterface` method retrieves the filter's [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master) and [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) interface pointers.
 
 ## Syntax
 
 
 ```C++
 virtual HRESULT GetMediaPositionInterface(
-   REFIID riid,
-   void   **ppv
+   REFIID riid,
+   void   **ppv
 );
 ```
 
@@ -52,7 +57,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,9 +83,9 @@ The [**CBaseRenderer::m\_pPosition**](cbaserenderer-m-pposition.md) member varia
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

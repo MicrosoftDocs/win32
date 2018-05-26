@@ -4,11 +4,14 @@ description: Retrieves the drive at the specified index.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '28bb2a44-00ac-4892-881d-fdd3fe6adb6b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 28bb2a44-00ac-4892-881d-fdd3fe6adb6b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DriveByIndex property Remote Desktop Services", "DriveByIndex property Remote Desktop Services , IMsRdpDriveCollection interface", "IMsRdpDriveCollection interface Remote Desktop Services , DriveByIndex property"]
+keywords:
+- DriveByIndex property Remote Desktop Services
+- DriveByIndex property Remote Desktop Services , IMsRdpDriveCollection interface
+- IMsRdpDriveCollection interface Remote Desktop Services , DriveByIndex property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDriveCollection::DriveByIndex property
@@ -31,8 +37,8 @@ This property is read-only.
 
 ```C++
 HRESULT get_DriveByIndex(
-  [in]          ULONG index,
-  [out, retval] IMsRdpDrive **ppDevice
+  [in]          ULONG index,
+  [out, retval] IMsRdpDrive **ppDevice
 );
 ```
 
@@ -52,8 +58,8 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | IID<br/>                      | IID\_IMsRdpDriveCollection is defined as 7ff17599-da2c-4677-ad35-f60c04fe1585<br/> |
@@ -67,9 +73,9 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 [**IMsRdpDriveCollection**](imsrdpdrivecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

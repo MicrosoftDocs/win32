@@ -1,8 +1,9 @@
 ---
 title: D3DCompile2 function
 description: Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target.
-ms.assetid: '0CE217EA-44F4-4017-B2ED-95E8B122CA95'
-keywords: ["D3DCompile2 function HLSL"]
+ms.assetid: 0CE217EA-44F4-4017-B2ED-95E8B122CA95
+keywords:
+- D3DCompile2 function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DCompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCompile2 function
@@ -21,20 +27,20 @@ Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a gi
 
 ``` syntax
 HRESULT WINAPI D3DCompile2(
-  in      LPCVOID pSrcData,
-  in      SIZE_T SrcDataSize,
-  in_opt  LPCSTR pSourceName,
-  in_opt  const D3D_SHADER_MACRO pDefines,
-  in_opt  ID3DInclude pInclude,
-  in      LPCSTR pEntrypoint,
-  in      LPCSTR pTarget,
-  in      UINT Flags1,
-  in      UINT Flags2,
-  in      UINT SecondaryDataFlags,
-  in_opt  LPCVOID pSecondaryData,
-  in      SIZE_T SecondaryDataSize,
-  out     ID3DBlob ppCode,
-  out_opt ID3DBlob ppErrorMsgs
+  in      LPCVOID pSrcData,
+  in      SIZE_T SrcDataSize,
+  in_opt  LPCSTR pSourceName,
+  in_opt  const D3D_SHADER_MACRO pDefines,
+  in_opt  ID3DInclude pInclude,
+  in      LPCSTR pEntrypoint,
+  in      LPCSTR pTarget,
+  in      UINT Flags1,
+  in      UINT Flags2,
+  in      UINT SecondaryDataFlags,
+  in_opt  LPCVOID pSecondaryData,
+  in      SIZE_T SecondaryDataSize,
+  out     ID3DBlob ppCode,
+  out_opt ID3DBlob ppErrorMsgs
 );
 ```
 
@@ -147,7 +153,7 @@ A combination of the following flags that are combined by using a bitwise **OR**
 
 
 
- 
+ 
 
 If *pSecondaryData* is **NULL**, set to zero.
 
@@ -158,7 +164,7 @@ If *pSecondaryData* is **NULL**, set to zero.
 
 Type: **[**LPCVOID**](https://msdn.microsoft.com/library/windows/desktop/aa383751)**
 
-A pointer to secondary data. If you don't pass secondary data, set to **NULL**. Use this secondary data to align UAV slots in two shaders. Suppose shader A has UAVs and they are bound to some slots. To compile shader B such that UAVs with the same names are mapped in B to the same slots as in A, pass A’s byte code to **D3DCompile2** as the secondary data.
+A pointer to secondary data. If you don't pass secondary data, set to **NULL**. Use this secondary data to align UAV slots in two shaders. Suppose shader A has UAVs and they are bound to some slots. To compile shader B such that UAVs with the same names are mapped in B to the same slots as in A, pass A s byte code to **D3DCompile2** as the secondary data.
 
 </dd> <dt>
 
@@ -282,9 +288,9 @@ To compile offline shaders the recommend approach is to use the [Effect-Compiler
 [Specifying D3D12 Root Signatures in HLSL](https://msdn.microsoft.com/library/windows/desktop/dn913202)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

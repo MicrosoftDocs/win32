@@ -1,8 +1,22 @@
 ---
 title: Calling Functions
 description: Calling Functions
-ms.assetid: 'c5a675f2-86fc-4f53-8d09-604ab4752d7b'
-keywords: ["Windows Media Player skins,calling functions in JScript", "skins,calling functions in JScript", "calling functions in JScript", "JScript files for skins,calling functions", "Windows Media Player skins,scriptFile attribute in JScript", "skins,scriptFile attribute in JScript", "attributes,scriptFile in JScript", "scriptFile attribute in JScript", "JScript files for skins,scriptFile attribute"]
+ms.assetid: c5a675f2-86fc-4f53-8d09-604ab4752d7b
+keywords:
+- Windows Media Player skins,calling functions in JScript
+- skins,calling functions in JScript
+- calling functions in JScript
+- JScript files for skins,calling functions
+- Windows Media Player skins,scriptFile attribute in JScript
+- skins,scriptFile attribute in JScript
+- attributes,scriptFile in JScript
+- scriptFile attribute in JScript
+- JScript files for skins,scriptFile attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calling Functions

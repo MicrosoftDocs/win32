@@ -4,11 +4,14 @@ description: Specifies if the device is optional for USB redirection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a7226c40-7e22-48af-9895-b1fb1f861b58'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a7226c40-7e22-48af-9895-b1fb1f861b58
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IsOptionalDevice property Remote Desktop Services", "IsOptionalDevice property Remote Desktop Services , IMsRdpDeviceV2 interface", "IMsRdpDeviceV2 interface Remote Desktop Services , IsOptionalDevice property"]
+keywords:
+- IsOptionalDevice property Remote Desktop Services
+- IsOptionalDevice property Remote Desktop Services , IMsRdpDeviceV2 interface
+- IMsRdpDeviceV2 interface Remote Desktop Services , IsOptionalDevice property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDeviceV2::IsOptionalDevice property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_IsOptionalDevice(
-  [out, retval] VARIANT_BOOL *pvboolOptionalDevice
+  [out, retval] VARIANT_BOOL *pvboolOptionalDevice
 );
 ```
 
@@ -47,8 +53,8 @@ HRESULT get_IsOptionalDevice(
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 with SP1<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                             |
+| Minimum supported client<br/> | Windows 7 with SP1<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                             |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpDeviceV2 is defined as 5fb94466-7661-42a8-98b7-01904c11668f<br/>      |
@@ -62,9 +68,9 @@ HRESULT get_IsOptionalDevice(
 [**IMsRdpDeviceV2**](imsrdpdevicev2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

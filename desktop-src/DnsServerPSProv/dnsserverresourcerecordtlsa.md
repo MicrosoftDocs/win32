@@ -2,13 +2,15 @@
 title: DnsServerResourceRecordTLSA class
 description: Represents a TLSA resource record for a DNS server database.
 audience: developer
-ms.assetid: 'aec9af86-d882-4b7d-abe5-9b864b1157e0'
-ms.prod: 'windows-server-dev'
+ms.assetid: aec9af86-d882-4b7d-abe5-9b864b1157e0
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerResourceRecordTLSA class", "DnsServerResourceRecordTLSA class, described"]
+keywords:
+- DnsServerResourceRecordTLSA class
+- DnsServerResourceRecordTLSA class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerResourceRecordTLSA class
@@ -184,7 +189,7 @@ The selector.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -198,9 +203,9 @@ The selector.
 [**DnsServerResourceRecordData**](dnsserverresourcerecorddata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

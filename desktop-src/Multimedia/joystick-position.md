@@ -1,8 +1,15 @@
 ---
 title: Joystick Position
 description: Joystick Position
-ms.assetid: 'db0d1125-e39f-445b-bd65-373633cad578'
-keywords: ["joysticks,position", "joysticks,buttons"]
+ms.assetid: db0d1125-e39f-445b-bd65-373633cad578
+keywords:
+- joysticks,position
+- joysticks,buttons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Joystick Position

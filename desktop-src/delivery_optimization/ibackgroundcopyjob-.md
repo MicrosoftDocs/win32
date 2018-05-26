@@ -1,8 +1,10 @@
 ---
 title: IBackgroundCopyJob interface
 description: Use the IBackgroundCopyJob interface to add files to the job, set the priority level of the job, determine the state of the job, and to start and stop the job.
-ms.assetid: '0D1EAC8D-0013-4FBC-A07F-14CD5D709549'
-keywords: ["IBackgroundCopyJob interface", "IBackgroundCopyJob interface, described"]
+ms.assetid: 0D1EAC8D-0013-4FBC-A07F-14CD5D709549
+keywords:
+- IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob interface
@@ -56,7 +63,7 @@ The **IBackgroundCopyJob** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,7 +71,7 @@ The **IBackgroundCopyJob** interface has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -84,9 +91,9 @@ The **IBackgroundCopyJob** interface has these methods.
 [**IBackgroundCopyManager**](ibackgroundcopymanager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

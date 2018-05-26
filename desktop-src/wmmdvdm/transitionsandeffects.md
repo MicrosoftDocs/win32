@@ -1,14 +1,20 @@
 ---
 title: TransitionsAndEffects element
 description: The boundary tag for the entire custom XML file.
-ms.assetid: '4438ef3d-d9f3-4acf-a347-4d6b5293ad16'
-keywords: ["TransitionsAndEffects element Windows Movie Maker and DVD Maker"]
+ms.assetid: 4438ef3d-d9f3-4acf-a347-4d6b5293ad16
+keywords:
+- TransitionsAndEffects element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - TransitionsAndEffects
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TransitionsAndEffects element
@@ -39,7 +45,7 @@ There are no parent elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -51,9 +57,9 @@ There are no parent elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

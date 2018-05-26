@@ -1,7 +1,12 @@
 ---
-Description: 'Notifies an application of a change to the hardware configuration of a device or the computer.'
-ms.assetid: 'b64a3983-ee75-4199-9778-1e5b7cec59e4'
-title: 'WM\_DEVICECHANGE message'
+Description: Notifies an application of a change to the hardware configuration of a device or the computer.
+ms.assetid: b64a3983-ee75-4199-9778-1e5b7cec59e4
+title: WM\_DEVICECHANGE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DEVICECHANGE message
@@ -62,7 +67,7 @@ The event that has occurred. This parameter can be one of the following values f
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -89,8 +94,8 @@ For devices that offer software-controllable features, such as ejection and lock
 
 |                                     |                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                                                    |
+| Minimum supported client<br/> | Windows XP<br/>                                                                                             |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                                                    |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h or Dbt.h)</dt> </dl> |
 
 
@@ -135,9 +140,9 @@ For devices that offer software-controllable features, such as ejection and lock
 [DBT\_USERDEFINED](dbt-userdefined.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

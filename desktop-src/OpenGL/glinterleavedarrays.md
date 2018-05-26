@@ -1,8 +1,9 @@
 ---
 title: glInterleavedArrays function
 description: The glInterleavedArrays function simultaneously specifies and enables several interleaved arrays in a larger aggregate array.
-ms.assetid: 'f1133949-d755-43e3-bf29-8e4c7fb17980'
-keywords: ["glInterleavedArrays function OpenGL"]
+ms.assetid: f1133949-d755-43e3-bf29-8e4c7fb17980
+keywords:
+- glInterleavedArrays function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glInterleavedArrays function
@@ -22,9 +28,9 @@ The **glInterleavedArrays** function simultaneously specifies and enables severa
 
 ```C++
 void WINAPI glInterleavedArrays(
-         GLenum  format,
-         GLsizei stride,
-   const GLvoid  *pointer
+         GLenum  format,
+         GLsizei stride,
+   const GLvoid  *pointer
 );
 ```
 
@@ -110,7 +116,7 @@ You cannot include calls to **glInterleavedArrays** in **glDisableClientState** 
 > [!Note]  
 > The **glInterleavedArrays** function is only available in OpenGL version 1.1 or later.
 
- 
+ 
 
 The **glInterleavedArrays** function is implemented on the client side with no protocol. Because the vertex array parameters are client-side state, they are not saved or restored by [**glPushAttrib**](glpushattrib.md) and **glPopAttrib**. Use [**glPushClientAttrib**](glpushclientattrib.md) and **glPopClientAttrib** instead.
 
@@ -120,8 +126,8 @@ The **glInterleavedArrays** function is implemented on the client side with no p
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -171,9 +177,9 @@ The **glInterleavedArrays** function is implemented on the client side with no p
 [**glVertexPointer**](glvertexpointer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

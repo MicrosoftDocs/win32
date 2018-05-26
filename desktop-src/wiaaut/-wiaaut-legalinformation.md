@@ -1,8 +1,28 @@
 ---
 title: Legal Information
 description: Legal Information
-ms.assetid: '93fdf442-48e2-4dfb-8342-d28d6ce05b2e'
-keywords: ["Windows Image Acquisition (WIA),legal information", "WIA (Windows Image Acquisition),legal information", "Windows Image Acquisition Automation Layer,legal information", "WIA Automation Layer,legal information", "Image Acquisition Automation Layer,legal information", "Windows Image Acquisition (WIA),copyrights", "WIA (Windows Image Acquisition),copyrights", "Windows Image Acquisition Automation Layer,copyrights", "WIA Automation Layer,copyrights", "Image Acquisition Automation Layer,copyrights", "Windows Image Acquisition (WIA),trademarks", "WIA (Windows Image Acquisition),trademarks", "Windows Image Acquisition Automation Layer,trademarks", "WIA Automation Layer,trademarks", "Image Acquisition Automation Layer,trademarks"]
+ms.assetid: 93fdf442-48e2-4dfb-8342-d28d6ce05b2e
+keywords:
+- Windows Image Acquisition (WIA),legal information
+- WIA (Windows Image Acquisition),legal information
+- Windows Image Acquisition Automation Layer,legal information
+- WIA Automation Layer,legal information
+- Image Acquisition Automation Layer,legal information
+- Windows Image Acquisition (WIA),copyrights
+- WIA (Windows Image Acquisition),copyrights
+- Windows Image Acquisition Automation Layer,copyrights
+- WIA Automation Layer,copyrights
+- Image Acquisition Automation Layer,copyrights
+- Windows Image Acquisition (WIA),trademarks
+- WIA (Windows Image Acquisition),trademarks
+- Windows Image Acquisition Automation Layer,trademarks
+- WIA Automation Layer,trademarks
+- Image Acquisition Automation Layer,trademarks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Legal Information

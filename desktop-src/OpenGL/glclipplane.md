@@ -1,8 +1,9 @@
 ---
 title: glClipPlane function
 description: The glClipPlane function specifies a plane against which all geometry is clipped.
-ms.assetid: 'b70d2c30-7502-4399-8c08-5ec9a2a1919c'
-keywords: ["glClipPlane function OpenGL"]
+ms.assetid: b70d2c30-7502-4399-8c08-5ec9a2a1919c
+keywords:
+- glClipPlane function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glClipPlane function
@@ -22,8 +28,8 @@ The **glClipPlane** function specifies a plane against which all geometry is cli
 
 ```C++
 void WINAPI glClipPlane(
-         GLenum   plane,
-   const GLdouble *equation
+         GLenum   plane,
+   const GLdouble *equation
 );
 ```
 
@@ -101,8 +107,8 @@ The following functions retrieve information related to **glClipPlane**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -131,9 +137,9 @@ The following functions retrieve information related to **glClipPlane**:
 [**glIsEnabled**](glisenabled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,11 +2,13 @@
 title: ThirdPartyVpnConnection class
 description: The ThirdPartyVpnConnection class represents third party VPN profiles.
 audience: developer
-ms.assetid: '26A926C2-C218-4362-A090-9E4D3F5BB38F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 26A926C2-C218-4362-A090-9E4D3F5BB38F
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ThirdPartyVpnConnection class", "ThirdPartyVpnConnection class, described"]
+keywords:
+- ThirdPartyVpnConnection class
+- ThirdPartyVpnConnection class, described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ThirdPartyVpnConnection class
@@ -47,24 +52,24 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [ClassVersion("1.0.0"), dynamic, provider("VpnClientPSProvider"), AMENDMENT]
 class ThirdPartyVpnConnection : VpnCommonConfig
 {
-  string  ServerAddress;
-  string  ProvisioningAuthority;
+  string  ServerAddress;
+  string  ProvisioningAuthority;
   boolean RememberCredential;
   boolean SplitTunneling;
   boolean IsAutoTriggerEnabled;
-  string  Name;
-  string  ProfileType;
-  string  Guid;
-  string  ConnectionStatus;
-  uint32  IdleDisconnectSeconds;
-  string  ServerList[];
-  string  Routes[];
-  string  VpnTrigger;
-  string  DnsSuffix;
-  string  Proxy;
-  string  VpnConfigurationXml;
-  string  PlugInApplicationID;
-  string  CustomConfiguration;
+  string  Name;
+  string  ProfileType;
+  string  Guid;
+  string  ConnectionStatus;
+  uint32  IdleDisconnectSeconds;
+  string  ServerList[];
+  string  Routes[];
+  string  VpnTrigger;
+  string  DnsSuffix;
+  string  Proxy;
+  string  VpnConfigurationXml;
+  string  PlugInApplicationID;
+  string  CustomConfiguration;
 };
 ```
 
@@ -223,7 +228,7 @@ Access type: Read-only
 
 This property is inherited from [**VpnCommonConfig**](vpncommonconfig.md).
 
-**Windows 8 and Windows Server 2012:** The property is not available before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** The property is not available before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -307,7 +312,7 @@ The provisioning authority of the VPN profile.
 
 This property is inherited from [**VpnCommonConfig**](vpncommonconfig.md).
 
-**Windows 8 and Windows Server 2012:** The property is not available before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** The property is not available before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -447,8 +452,8 @@ This property is inherited from [**VpnCommonConfig**](vpncommonconfig.md).
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -462,9 +467,9 @@ This property is inherited from [**VpnCommonConfig**](vpncommonconfig.md).
 [**VpnCommonConfig**](vpncommonconfig.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

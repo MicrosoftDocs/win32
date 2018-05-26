@@ -4,11 +4,16 @@ description: Interfaces that you can use to create and deploy scriptable virtual
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8258411e-eef6-4dcf-a7a2-7d04b0ea3744'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8258411e-eef6-4dcf-a7a2-7d04b0ea3744
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , Remote Desktop Protocol (RDP) interfaces", "Remote Desktop Protocol (RDP) Remote Desktop Services , interfaces"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , Remote Desktop Protocol (RDP) interfaces
+- Remote Desktop Protocol (RDP) Remote Desktop Services , interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop ActiveX control interfaces
@@ -334,14 +339,14 @@ Includes methods to retrieve and set properties of the Remote Desktop ActiveX co
 
 </dd> <dt>
 
-[**IRemoteDesktopClient**](iremotedesktopclient.md)
+[**IRemoteDesktopClient**](/windows/win32/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient?branch=master)
 </dt> <dd>
 
 Provides methods and properties used to configure and use the Remote Desktop Protocol (RDP) app container client control.
 
 </dd> <dt>
 
-[**IRemoteDesktopClientActions**](iremotedesktopclientactions.md)
+[**IRemoteDesktopClientActions**](/windows/win32/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientactions?branch=master)
 </dt> <dd>
 
 Provides the methods used to interact with the Remote Desktop Protocol (RDP) app container client control.
@@ -355,16 +360,16 @@ Provides methods that receive information from the server that are related to cl
 
 </dd> <dt>
 
-[**IRemoteDesktopClientSettings**](iremotedesktopclientsettings.md)
+[**IRemoteDesktopClientSettings**](/windows/win32/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientsettings?branch=master)
 </dt> <dd>
 
 Provides the methods needed to configure the connection settings for the Remote Desktop Protocol (RDP) app container client control.
 
-Use the [**IRemoteDesktopClient**](iremotedesktopclient.md)[**Settings**](iremotedesktopclient-settings.md) property to obtain a pointer to this interface.
+Use the [**IRemoteDesktopClient**](/windows/win32/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient?branch=master)[**Settings**](iremotedesktopclient-settings.md) property to obtain a pointer to this interface.
 
 </dd> <dt>
 
-[**IRemoteDesktopClientTouchPointer**](iremotedesktopclienttouchpointer.md)
+[**IRemoteDesktopClientTouchPointer**](/windows/win32/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer?branch=master)
 </dt> <dd>
 
 Provides the properties needed to control the touch pointer feature of the Remote Desktop Protocol (RDP) app container client control.

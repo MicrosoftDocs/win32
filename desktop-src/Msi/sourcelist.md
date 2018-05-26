@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SOURCELIST property is a semicolon-delimited list of network or URL source paths to the application''s installation package.'
-ms.assetid: 'a4e4beb2-a4d7-48e7-9c8d-dd1ae19fe92a'
+---
+Description: The SOURCELIST property is a semicolon-delimited list of network or URL source paths to the applications installation package.
+ms.assetid: a4e4beb2-a4d7-48e7-9c8d-dd1ae19fe92a
 title: SOURCELIST property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SOURCELIST property
@@ -16,7 +21,7 @@ The installer only checks the **SOURCELIST** property if the product has not alr
 
 Sources added using the **SOURCELIST** property are added directly to the end of the list for each type of source and always come after the default source specified by the [**SourceDir**](sourcedir.md) property.
 
-For Windows Installer the number of sources in the **SOURCELIST** property is unlimited. [**MsiSourceListAddSource**](msisourcelistaddsource.md) can be used to add network sources.
+For Windows Installer the number of sources in the **SOURCELIST** property is unlimited. [**MsiSourceListAddSource**](/windows/win32/Msi/nf-msi-msisourcelistaddsourcea?branch=master) can be used to add network sources.
 
 ## Requirements
 

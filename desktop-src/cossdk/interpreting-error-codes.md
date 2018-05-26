@@ -1,7 +1,12 @@
 ---
 Description: Interpreting Error Codes
-ms.assetid: 'df2fe03b-2f5f-4958-926f-17e3a025a9b5'
+ms.assetid: df2fe03b-2f5f-4958-926f-17e3a025a9b5
 title: Interpreting Error Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interpreting Error Codes
@@ -15,7 +20,7 @@ In the Java language, an instance of com.ms.com.ComFailException is thrown to in
 > [!Note]  
 > COM+ application server processes that are hosting Visual J++ objects will not idle down (even with zero active objects) unless you turn off JIT debugging in the VJ6 IDE. For information on how to do so, see the Visual J++ documentation.
 
- 
+ 
 
 In Visual Basic, you can retrieve **HRESULT** values by examining the Err.Number property. A description of the error can be retrieved with the Err.Description property.
 
@@ -123,7 +128,7 @@ The following table provides descriptions of common error codes in COM+.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -144,9 +149,9 @@ The following table provides descriptions of common error codes in COM+.
 [Troubleshooting](troubleshooting-the-com--crm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

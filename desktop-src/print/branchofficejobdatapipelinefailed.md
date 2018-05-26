@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the necessary data for logging a branch office job Pipeline Rendering Failed event on a remote server. This is based on standard job-related data available to the spooler.'
-ms.assetid: '3F5DB2F5-40B6-4A8D-983C-065D17E62AE6'
+---
+Description: Contains the necessary data for logging a branch office job Pipeline Rendering Failed event on a remote server. This is based on standard job-related data available to the spooler.
+ms.assetid: 3F5DB2F5-40B6-4A8D-983C-065D17E62AE6
 title: BranchOfficeJobDataPipelineFailed structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BranchOfficeJobDataPipelineFailed structure

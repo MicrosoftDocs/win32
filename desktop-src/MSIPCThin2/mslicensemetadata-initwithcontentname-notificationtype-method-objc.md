@@ -4,17 +4,21 @@ description: Initialize an MSLicenseMeta object with the content name and notifi
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'A0C67BB1-5079-43E5-AD3F-994A0A7035C2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: A0C67BB1-5079-43E5-AD3F-994A0A7035C2
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSLicenseMetadata initWithContentName notificationType method"]
+keywords:
+- MSLicenseMetadata initWithContentName notificationType method
 topic_type:
 - apiref
 api_name:
 - MSLicenseMetadata initWithContentName notificationType method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSLicenseMetadata initWithContentName:notificationType method
@@ -39,7 +43,7 @@ notificationType:(MSNotificationType) notificationType;
 
 
 
- 
+ 
 
 ## Returns
 
@@ -59,11 +63,11 @@ MSLicenseMetadata.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

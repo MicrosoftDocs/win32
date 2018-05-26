@@ -4,13 +4,16 @@ description: Updates a cluster DTC mapping for a service.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '29fa80dc-d82f-4984-bfa4-c583465054dd'
-ms.prod: 'windows-server-dev'
+ms.assetid: 29fa80dc-d82f-4984-bfa4-c583465054dd
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-transaction-coordinator'
-- 'windows-management-instrumentation'
+- distributed-transaction-coordinator
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByServiceSet method", "SetByServiceSet method, MSFT_DtcClusterTMMappingTask class", "MSFT_DtcClusterTMMappingTask class, SetByServiceSet method"]
+keywords:
+- SetByServiceSet method
+- SetByServiceSet method, MSFT_DtcClusterTMMappingTask class
+- MSFT_DtcClusterTMMappingTask class, SetByServiceSet method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsDtcWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByServiceSet method of the MSFT\_DtcClusterTMMappingTask class
@@ -30,10 +36,10 @@ Updates a cluster DTC mapping for a service.
 
 ```mof
 uint32 SetByServiceSet(
-  [in] string  Name,
-  [in] string  Service,
-  [in] string  ClusterResourceName,
-  [in] boolean Local
+  [in] string  Name,
+  [in] string  Service,
+  [in] string  ClusterResourceName,
+  [in] boolean Local
 );
 ```
 
@@ -81,8 +87,8 @@ Returns "0" on success, otherwise returns a WMI error code.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\MsDTC<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Msdtcwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsDtcWmi.dll</dt> </dl> |
@@ -96,9 +102,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**MSFT\_DtcClusterTMMappingTask**](msft-dtcclustertmmappingtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

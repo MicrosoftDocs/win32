@@ -4,10 +4,13 @@ description: The MI Reference contains the following topics that discuss the cor
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5EC9E680-F8F1-46E1-A0CF-B9AC91193E87'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 5EC9E680-F8F1-46E1-A0CF-B9AC91193E87
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MI Reference

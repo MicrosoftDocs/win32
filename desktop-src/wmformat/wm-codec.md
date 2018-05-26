@@ -1,14 +1,20 @@
 ---
 title: WM/Codec
 description: The WM/Codec attribute contains the name of the codec used to encode the content.
-ms.assetid: '07e7828c-5a8d-4f68-84c0-acf37916a32c'
-keywords: ["WM/Codec windows Media Format"]
+ms.assetid: 07e7828c-5a8d-4f68-84c0-acf37916a32c
+keywords:
+- WM/Codec windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/Codec
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Codec

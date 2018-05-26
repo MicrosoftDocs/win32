@@ -1,7 +1,12 @@
 ---
-Description: 'This application is based on the InkCollector object and demonstrates the collection of ink.'
-ms.assetid: 'e799fb16-5a1e-4d57-a033-554f72e2e685'
+Description: This application is based on the InkCollector object and demonstrates the collection of ink.
+ms.assetid: e799fb16-5a1e-4d57-a033-554f72e2e685
 title: Ink Collection Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Collection Sample

@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySinkEx AgentPropertyChange
 description: IAgentNotifySinkEx AgentPropertyChange
-ms.assetid: '8293cd77-320a-4b57-b3d8-52bc450d6aa0'
+ms.assetid: 8293cd77-320a-4b57-b3d8-52bc450d6aa0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySinkEx::AgentPropertyChange

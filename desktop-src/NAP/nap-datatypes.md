@@ -1,16 +1,32 @@
 ---
 title: NAP Datatypes
-description: Note The Network Access Protection platform is not available starting with Windows 10 The datatypes for the Network Access Protection (NAP) API are as follows.
-ms.assetid: '54f2866b-4333-4fc8-bb25-b7d4ae72b7dc'
-keywords: ["ProbationTime", "ProtocolMaxSize", "NapComponentId", "SystemHealthEntityId", "EnforcementEntityId", "SystemHealthEntityCount", "EnforcementEntityCount", "StringCorrelationId", "ConnectionId", "Percentage", "MessageId"]
+description: Note The Network Access Protection platform is not available starting with Windows 10 The datatypes for the Network Access Protection (NAP) API are as follows.
+ms.assetid: 54f2866b-4333-4fc8-bb25-b7d4ae72b7dc
+keywords:
+- ProbationTime
+- ProtocolMaxSize
+- NapComponentId
+- SystemHealthEntityId
+- EnforcementEntityId
+- SystemHealthEntityCount
+- EnforcementEntityCount
+- StringCorrelationId
+- ConnectionId
+- Percentage
+- MessageId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NAP Datatypes
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The datatypes for the Network Access Protection (NAP) API are as follows.
 
@@ -43,7 +59,7 @@ A [FILETIME](http://go.microsoft.com/fwlink/p/?linkid=90006) structure that cont
 **ProtocolMaxSize**
 </dt> <dd>
 
-A value that specifies the range of possible values for the maximum size, in bytes, of an [**SoH**](soh-struct.md) packet as defined by range([**minProtocolMaxSize, maxProtocolMaxSize**](nap-type-constants.md)).
+A value that specifies the range of possible values for the maximum size, in bytes, of an [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) packet as defined by range([**minProtocolMaxSize, maxProtocolMaxSize**](nap-type-constants.md)).
 
 </dd> <dt>
 
@@ -85,7 +101,7 @@ A value that specifies the number of enforcement clients in the NAP system in th
 **StringCorrelationId**
 </dt> <dd>
 
-The [**CountedString**](countedstring-struct.md) version of a [**CorrelationId**](correlationid-struct.md) structure used to pair [**SoHRequests**](soh-struct.md) to **SoHResponses**.
+The [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) version of a [**CorrelationId**](/windows/win32/NapTypes/ns-naptypes-tagcorrelationid?branch=master) structure used to pair [**SoHRequests**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) to **SoHResponses**.
 
 </dd> <dt>
 
@@ -116,15 +132,15 @@ A unique value used to identify NAP system messages.
 
 |                                     |                                                                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                |
 | Header<br/>                   | <dl> <dt>NapTypes.h; </dt> <dt>NapEnforcementClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

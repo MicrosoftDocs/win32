@@ -1,14 +1,20 @@
 ---
 title: Command.LargeHighContrastImages property
 description: Represents a container of images; in this case, large images for use with high-contrast system settings.
-ms.assetid: 'e25f207f-ac3f-4a5f-8104-c928b38a52a8'
-keywords: ["Command.LargeHighContrastImages property Windows Ribbon"]
+ms.assetid: e25f207f-ac3f-4a5f-8104-c928b38a52a8
+keywords:
+- Command.LargeHighContrastImages property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Command.LargeHighContrastImages
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command.LargeHighContrastImages property
@@ -109,8 +115,8 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -124,9 +130,9 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 [UI\_PKEY\_LargeHighContrastImage](windowsribbon-reference-properties-uipkey-largehighcontrastimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

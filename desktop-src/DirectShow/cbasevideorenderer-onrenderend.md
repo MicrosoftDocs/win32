@@ -1,7 +1,12 @@
 ---
-Description: 'The OnRenderEnd method performs smoothing for cases where the rendering time varies due to interruptions.'
-ms.assetid: '561b3306-0c41-4f04-b73a-78e7b4038e86'
-title: 'CBaseVideoRenderer.OnRenderEnd method'
+Description: The OnRenderEnd method performs smoothing for cases where the rendering time varies due to interruptions.
+ms.assetid: 561b3306-0c41-4f04-b73a-78e7b4038e86
+title: CBaseVideoRenderer.OnRenderEnd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.OnRenderEnd method
@@ -13,7 +18,7 @@ The `OnRenderEnd` method performs smoothing for cases where the rendering time v
 
 ```C++
 void OnRenderEnd(
-   IMediaSample *pMediaSample
+   IMediaSample *pMediaSample
 );
 ```
 
@@ -58,9 +63,9 @@ This member function overrides [**CBaseRenderer::OnRenderEnd**](cbaserenderer-on
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,21 +1,27 @@
 ---
 title: where command
 description: The where command retrieves the rectangle specifying the source or destination area. This rectangle was specified using the put command. Digital-video, and video-overlay devices recognize this command.
-ms.assetid: 'f64a7e49-4ee1-4836-ba9a-0bbdc47626b3'
-keywords: ["where command Windows Multimedia"]
+ms.assetid: f64a7e49-4ee1-4836-ba9a-0bbdc47626b3
+keywords:
+- where command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - where
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # where command
 
 The where command retrieves the rectangle specifying the source or destination area. This rectangle was specified using the [put](put.md) command. Digital-video, and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ Flag that identifies the rectangle whose dimensions are retrieved. The following
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszRequestRect** parameter and their meanings.
 
@@ -73,7 +79,7 @@ The following table lists the flags that can be specified in the **lpszRequestRe
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -86,7 +92,7 @@ Can be "wait", "notify", or both. For digital-video devices, "test" can also be 
 
 ## Return Value
 
-Returns a rectangle in the *lpszReturnString* parameter of the [**mciSendString**](mcisendstring.md) function. The rectangle describes the area specified in the *lpszRequestRect* parameter of this command. The rectangle is specified as *X1 Y1 X2 Y2*. The coordinates *X1 Y1* specify the upper left corner of the rectangle, and the coordinates *X2 Y2* specify the width and height.
+Returns a rectangle in the *lpszReturnString* parameter of the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function. The rectangle describes the area specified in the *lpszRequestRect* parameter of this command. The rectangle is specified as *X1 Y1 X2 Y2*. The coordinates *X1 Y1* specify the upper left corner of the rectangle, and the coordinates *X2 Y2* specify the width and height.
 
 ## Examples
 
@@ -102,8 +108,8 @@ where movie destination
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -120,9 +126,9 @@ where movie destination
 [put](put.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

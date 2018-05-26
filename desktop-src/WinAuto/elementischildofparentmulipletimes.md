@@ -1,7 +1,12 @@
 ---
 title: ElementIsChildOfParentMulipleTimes
 description: ElementIsChildOfParentMulipleTimes
-ms.assetid: 'B966ABE0-5109-4DAD-8125-EB4A3B3A5F61'
+ms.assetid: B966ABE0-5109-4DAD-8125-EB4A3B3A5F61
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ElementIsChildOfParentMulipleTimes
@@ -16,7 +21,7 @@ Error
 
 ## Description
 
-When [**get\_accParent**](iaccessible-iaccessible--get-accparent.md) is called on the target element, it reports being a child of the same parent multiple times.
+When [**get\_accParent**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accparent?branch=master) is called on the target element, it reports being a child of the same parent multiple times.
 
 This issue can cause navigation problems for automated tools because traversing elements might be erratic and unpredictable.
 
@@ -28,7 +33,7 @@ An incorrect or invalid MSAA implementation.
 
 <dl> <dt>
 
-[**IAccessible::get\_accParent**](iaccessible-iaccessible--get-accparent.md)
+[**IAccessible::get\_accParent**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accparent?branch=master)
 </dt> </dl>
 
  

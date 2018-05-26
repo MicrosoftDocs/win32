@@ -1,7 +1,12 @@
 ---
-Description: 'The position, velocity, and orientation of sound sources and listeners in 3D space are represented by Cartesian coordinates, which are values on three axes: the x-axis, the y-axis, and the z-axis.'
-ms.assetid: 'b6315e21-0758-e4c8-195f-4b83c7b61784'
+Description: The position, velocity, and orientation of sound sources and listeners in 3D space are represented by Cartesian coordinates, which are values on three axes the x-axis, the y-axis, and the z-axis.
+ms.assetid: b6315e21-0758-e4c8-195f-4b83c7b61784
 title: Coordinates of 3D Space
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Coordinates of 3D Space

@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'D53BD414-F140-496E-884F-5A4EC4F0AAC4'
+ms.assetid: D53BD414-F140-496E-884F-5A4EC4F0AAC4
 title: Memory Management Tracing Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory Management Tracing Events

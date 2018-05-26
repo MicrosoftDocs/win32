@@ -1,8 +1,14 @@
 ---
 title: IP Version 6 Support
 description: Starting with IE7 and above, WinINet supports IPv6 literals in the hostname, and the authority component of the URI.
-ms.assetid: 'cbbb9f93-15b0-4017-ac39-8a396203532e'
-keywords: ["IP Version 6 Support"]
+ms.assetid: cbbb9f93-15b0-4017-ac39-8a396203532e
+keywords:
+- IP Version 6 Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IP Version 6 Support
@@ -17,9 +23,9 @@ WinINet implements IPv6 literals according to the specifications in RFC 3513. As
 
 The IPv6 literal address in the URI may include a scope ID. A scope ID can be an interface ID such as \[FE80::1%1\]. The URI standard, documented in RFC 3986, does not define the syntax for the scope ID, and the URI is considered non-uniform when the scope ID is present. However, WinINet accepts a scope ID in the authority component of the URI, and in the hostname IPv6 literal.
 
-The percent character (%) in the IPv6 literal address must be percent escaped when present in the URI. For example, the scope ID FE80::2%3, must appear in the URI as "http://\[FE80::2%253\]/", where %25 is the hex encoded percent character (%). If the application retrieves the URI from a Unicode API, such as the Winsock [**WSAAddressToString**](https://msdn.microsoft.com/library/windows/desktop/ms741516) API, the application must add the escaped version of the percent character (%) in the hostname of the URI. To create the escaped version of the URI, applications call [**InternetCreateUrl**](internetcreateurl.md) with the *dwFlags* parameter set to **ICU\_ESCAPE\_AUTHORITY**, and the IPv6 hostname specified in the URL components structure specified in the *lpUrlComponents* parameter.
+The percent character (%) in the IPv6 literal address must be percent escaped when present in the URI. For example, the scope ID FE80::2%3, must appear in the URI as "http://\[FE80::2%253\]/", where %25 is the hex encoded percent character (%). If the application retrieves the URI from a Unicode API, such as the Winsock [**WSAAddressToString**](https://msdn.microsoft.com/library/windows/desktop/ms741516) API, the application must add the escaped version of the percent character (%) in the hostname of the URI. To create the escaped version of the URI, applications call [**InternetCreateUrl**](/windows/win32/Wininet/nf-wininet-internetcreateurla?branch=master) with the *dwFlags* parameter set to **ICU\_ESCAPE\_AUTHORITY**, and the IPv6 hostname specified in the URL components structure specified in the *lpUrlComponents* parameter.
 
-For all sockets operations, WinINet uses the scope ID. However, because the scope ID has only local host significance, it is not sent as part of the HTTP protocol headers in the request. For example, the call to [**InternetOpenUrl**](internetopenurl.md) is called with the following URL in the *lpszUrl* parameter.
+For all sockets operations, WinINet uses the scope ID. However, because the scope ID has only local host significance, it is not sent as part of the HTTP protocol headers in the request. For example, the call to [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) is called with the following URL in the *lpszUrl* parameter.
 
 ``` syntax
 http://[fec0::2%251]:80/path.htm

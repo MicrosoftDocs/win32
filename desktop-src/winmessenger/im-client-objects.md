@@ -1,7 +1,12 @@
 ---
 title: Client Objects
 description: Client Objects
-ms.assetid: '17735A48-3A06-49E4-890B-40EF92254570'
+ms.assetid: 17735A48-3A06-49E4-890B-40EF92254570
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Objects

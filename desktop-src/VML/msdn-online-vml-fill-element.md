@@ -1,7 +1,12 @@
 ---
 title: VML Fill Element
 description: VML Fill Element
-ms.assetid: 'ea790017-5aaa-4e75-8fc7-77fc94fd1d1e'
+ms.assetid: ea790017-5aaa-4e75-8fc7-77fc94fd1d1e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Fill Element

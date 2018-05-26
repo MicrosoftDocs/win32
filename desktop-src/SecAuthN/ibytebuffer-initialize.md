@@ -1,12 +1,17 @@
 ---
-Description: 'The Initialize method prepares the IByteBuffer object for use. This method must be called prior to calling any other methods in the IByteBuffer interface.'
-ms.assetid: '1b22e693-0add-4b80-a2c4-925ebd3ab3a6'
-title: 'IByteBuffer::Initialize method'
+Description: The Initialize method prepares the IByteBuffer object for use. This method must be called prior to calling any other methods in the IByteBuffer interface.
+ms.assetid: 1b22e693-0add-4b80-a2c4-925ebd3ab3a6
+title: IByteBufferInitialize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IByteBuffer::Initialize method
 
-\[The **Initialize** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
+\[The **Initialize** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
 
 The **Initialize** method prepares the [**IByteBuffer**](ibytebuffer.md) object for use. This method must be called prior to calling any other methods in the **IByteBuffer** interface.
 
@@ -15,8 +20,8 @@ The **Initialize** method prepares the [**IByteBuffer**](ibytebuffer.md) object 
 
 ```C++
 HRESULT Initialize(
-  [in] LONG lSize,
-  [in] BYTE *pData
+  [in] LONG lSize,
+  [in] BYTE *pData
 );
 ```
 
@@ -71,10 +76,10 @@ if (FAILED(hr))
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Scardssp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Scardssp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scardssp.dll</dt> </dl> |
@@ -82,9 +87,9 @@ if (FAILED(hr))
 
 
 
- 
+ 
 
- 
+ 
 
 
 

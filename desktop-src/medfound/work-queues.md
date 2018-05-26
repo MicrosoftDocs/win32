@@ -1,7 +1,12 @@
-﻿---
-Description: 'In Microsoft Media Foundation, a work queue is an efficient way to perform asynchronous operations on another thread.'
-ms.assetid: '6be05df7-e8ff-4110-8f73-a62eb31fd414'
+---
+Description: In Microsoft Media Foundation, a work queue is an efficient way to perform asynchronous operations on another thread.
+ms.assetid: 6be05df7-e8ff-4110-8f73-a62eb31fd414
 title: Work Queues
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Work Queues
@@ -34,10 +39,10 @@ This section contains the following topics.
 </tr>
 <tr class="odd">
 <td>[Custom Asynchronous Result Objects](custom-asynchronous-result-objects.md)</td>
-<td>Describes how to create a custom implementation of the [<strong>IMFAsyncResult</strong>](imfasyncresult.md) interface.<br/>
+<td>Describes how to create a custom implementation of the [<strong>IMFAsyncResult</strong>](/windows/win32/mfobjects/nn-mfobjects-imfasyncresult?branch=master) interface.<br/>
 <blockquote>
 [!Note]<br />
-Most applications should use the stock implementation provided by [<strong>MFCreateAsyncResult</strong>](mfcreateasyncresult.md). This topic is for applications with advanced requirements.
+Most applications should use the stock implementation provided by [<strong>MFCreateAsyncResult</strong>](/windows/win32/mfapi/nf-mfapi-mfcreateasyncresult?branch=master). This topic is for applications with advanced requirements.
 </blockquote>
 <br/></td>
 </tr>

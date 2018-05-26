@@ -1,7 +1,12 @@
 ---
-Description: 'Represents information on the NAP Client implemented in the Network Access Protection (NAP) Agent service on a Windows system.'
-ms.assetid: '7623f0d2-980c-4af5-8031-078121bf72e7'
-title: 'NAP\_Client class'
+Description: Represents information on the NAP Client implemented in the Network Access Protection (NAP) Agent service on a Windows system.
+ms.assetid: 7623f0d2-980c-4af5-8031-078121bf72e7
+title: NAP\_Client class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NAP\_Client class
@@ -15,13 +20,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class NAP_Client
 {
-  string  name;
-  string  description;
+  string  name;
+  string  description;
   boolean napEnabled;
-  string  napProtocolVersion;
-  uint32  systemIsolationState;
-  string  probationTime;
-  string  fixupURL;
+  string  napProtocolVersion;
+  uint32  systemIsolationState;
+  string  probationTime;
+  string  fixupURL;
 };
 ```
 
@@ -134,8 +139,8 @@ The isolation state of the system. This value can be one of the enumeration valu
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                           |
 | Namespace<br/>                | Root\\NAP<br/>                                                                           |
 | MOF<br/>                      | <dl> <dt>Napclientschema.mof</dt> </dl> |
 
@@ -151,9 +156,9 @@ The isolation state of the system. This value can be one of the enumeration valu
 [Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

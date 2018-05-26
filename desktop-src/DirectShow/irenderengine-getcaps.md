@@ -1,7 +1,12 @@
 ---
-Description: 'Not implemented.'
-ms.assetid: 'ad48a817-a69a-419c-9186-25f45b02d8f5'
-title: 'IRenderEngine::GetCaps method'
+Description: Not implemented.
+ms.assetid: ad48a817-a69a-419c-9186-25f45b02d8f5
+title: IRenderEngineGetCaps method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::GetCaps method

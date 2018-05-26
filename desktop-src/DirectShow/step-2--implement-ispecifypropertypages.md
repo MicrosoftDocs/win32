@@ -1,7 +1,12 @@
 ---
-Description: 'Step 2.'
-ms.assetid: '8be83564-07ad-47cf-9538-73136f42ba79'
-title: 'Step 2. Implement ISpecifyPropertyPages'
+Description: Step 2.
+ms.assetid: 8be83564-07ad-47cf-9538-73136f42ba79
+title: Step 2. Implement ISpecifyPropertyPages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 2. Implement ISpecifyPropertyPages

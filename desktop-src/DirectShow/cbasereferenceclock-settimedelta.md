@@ -1,7 +1,12 @@
 ---
-Description: 'The SetTimeDelta method adjusts the internal clock time.'
-ms.assetid: '51534c92-5573-4e2a-baeb-b1a82ccf88de'
-title: 'CBaseReferenceClock.SetTimeDelta method'
+Description: The SetTimeDelta method adjusts the internal clock time.
+ms.assetid: 51534c92-5573-4e2a-baeb-b1a82ccf88de
+title: CBaseReferenceClock.SetTimeDelta method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseReferenceClock.SetTimeDelta method
@@ -13,7 +18,7 @@ The `SetTimeDelta` method adjusts the internal clock time.
 
 ```C++
 HRESULT SetTimeDelta(
-  [ref] const REFERENCE_TIME &amp;TimeDelta
+  [ref] const REFERENCE_TIME &amp;TimeDelta
 );
 ```
 
@@ -58,9 +63,9 @@ The [**CBaseReferenceClock::GetTime**](cbasereferenceclock-gettime.md) method ne
 [**CBaseReferenceClock Class**](cbasereferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

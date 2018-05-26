@@ -1,7 +1,12 @@
 ---
 Description: EVR Attributes
-ms.assetid: '33f9bb09-625f-4bbb-a884-70c6bba3700b'
+ms.assetid: 33f9bb09-625f-4bbb-a884-70c6bba3700b
 title: EVR Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EVR Attributes

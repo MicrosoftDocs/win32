@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the color primaries for a video media type.'
-ms.assetid: '56f31c1a-b610-4da0-9df4-76e15add672c'
-title: 'MF\_MT\_VIDEO\_PRIMARIES attribute'
+---
+Description: Specifies the color primaries for a video media type.
+ms.assetid: 56f31c1a-b610-4da0-9df4-76e15add672c
+title: MF\_MT\_VIDEO\_PRIMARIES attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_VIDEO\_PRIMARIES attribute
@@ -14,9 +19,9 @@ Specifies the color primaries for a video media type.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFVideoPrimaries**](mfvideoprimaries.md) enumeration.
+The value of this attribute is a member of the [**MFVideoPrimaries**](/windows/win32/mfobjects/ne-mfobjects-_mfvideoprimaries?branch=master) enumeration.
 
-The [**MFVideoPrimaries**](mfvideoprimaries.md) enumeration identifies color primaries associated with certain common video standards. If the media type uses color primaries that are not identified in the **MFVideoPrimaries** enumeration, set the [**MF\_MT\_CUSTOM\_VIDEO\_PRIMARIES**](mf-mt-custom-video-primaries-attribute.md) attribute instead of this attribute.
+The [**MFVideoPrimaries**](/windows/win32/mfobjects/ne-mfobjects-_mfvideoprimaries?branch=master) enumeration identifies color primaries associated with certain common video standards. If the media type uses color primaries that are not identified in the **MFVideoPrimaries** enumeration, set the [**MF\_MT\_CUSTOM\_VIDEO\_PRIMARIES**](mf-mt-custom-video-primaries-attribute.md) attribute instead of this attribute.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -39,13 +44,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type Attributes](media-type-attributes.md)

@@ -1,8 +1,11 @@
 ---
 title: ITransformPropertiesConfig SetPropertyValue method
 description: The SetPropertyValue method assigns a property with a time point to a collection.
-ms.assetid: '84a8c993-fba4-46f7-bd2a-ebe7c86991ca'
-keywords: ["SetPropertyValue method Windows Movie Maker and DVD Maker", "SetPropertyValue method Windows Movie Maker and DVD Maker , ITransformPropertiesConfig interface", "ITransformPropertiesConfig interface Windows Movie Maker and DVD Maker , SetPropertyValue method"]
+ms.assetid: 84a8c993-fba4-46f7-bd2a-ebe7c86991ca
+keywords:
+- SetPropertyValue method Windows Movie Maker and DVD Maker
+- SetPropertyValue method Windows Movie Maker and DVD Maker , ITransformPropertiesConfig interface
+- ITransformPropertiesConfig interface Windows Movie Maker and DVD Maker , SetPropertyValue method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformPropertiesConfig::SetPropertyValue method
@@ -25,9 +33,9 @@ The **SetPropertyValue** method assigns a property with a time point to a collec
 
 ```C++
 HRESULT SetPropertyValue(
-  [in] LPCTSTR     szName,
-  [in] double      dblTime,
-  [in] PROPVARIANT varValue
+  [in] LPCTSTR     szName,
+  [in] double      dblTime,
+  [in] PROPVARIANT varValue
 );
 ```
 
@@ -74,8 +82,8 @@ An alternate way of creating a new property is [**ITransformPropertiesConfig::Cr
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -88,9 +96,9 @@ An alternate way of creating a new property is [**ITransformPropertiesConfig::Cr
 [**ITransformPropertiesConfig Interface**](itransformpropertiesconfig.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

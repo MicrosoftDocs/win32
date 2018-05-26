@@ -1,7 +1,12 @@
-﻿---
-Description: 'The JobType property describes the type of fax job; for example, the job can be a receive job, a send job, or a routing job.'
-ms.assetid: '53768e23-f93c-4fa7-b16e-23292f5a4380'
-title: 'FaxIncomingJob.JobType property'
+---
+Description: The JobType property describes the type of fax job; for example, the job can be a receive job, a send job, or a routing job.
+ms.assetid: 53768e23-f93c-4fa7-b16e-23292f5a4380
+title: FaxIncomingJob.JobType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob.JobType property
@@ -81,7 +86,7 @@ The incoming job has been received, and is now in routing mode (modem is not use
 [**FaxIncomingJob**](-mfax-faxincomingjob.md)
 </dt> <dt>
 
-[**get\_JobType**](-mfax-faxincomingjob-jobtype-cpp.md)
+[**get\_JobType**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxincomingjob-get_jobtype?branch=master)
 </dt> </dl>
 
  

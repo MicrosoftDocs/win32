@@ -4,11 +4,15 @@ description: The following topics provide information about extensible nodes and
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7e0785e3-c452-4a45-aab3-a8977f738fb5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 7e0785e3-c452-4a45-aab3-a8977f738fb5
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Extending Microsoft Snap-ins"]
+keywords:
+- Extending Microsoft Snap-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending Microsoft Snap-ins

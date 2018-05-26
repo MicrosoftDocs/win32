@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides relevant code samples for the major steps of developing a chat application with the Peer Grouping API, providing a context for each API call.'
-ms.assetid: '47bb8606-0b7b-4e71-9d6f-c400d6a82e43'
+Description: This topic provides relevant code samples for the major steps of developing a chat application with the Peer Grouping API, providing a context for each API call.
+ms.assetid: 47bb8606-0b7b-4e71-9d6f-c400d6a82e43
 title: Creating a Group Chat Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Group Chat Application
@@ -15,7 +20,7 @@ This topic provides relevant code samples for the major steps of developing a ch
 
 ## Initializing a Group
 
-The first step when constructing a chat application is to initialize the Peer Grouping Infrastructure by calling [**PeerGroupStartup**](peergroupstartup.md) with the highest supported version. In this case, **PEER\_GROUP\_VERSION** will be defined in the application header file. The version actually supported by the infrastructure is returned in **peerVersion**.
+The first step when constructing a chat application is to initialize the Peer Grouping Infrastructure by calling [**PeerGroupStartup**](/windows/win32/P2P/nf-p2p-peergroupstartup?branch=master) with the highest supported version. In this case, **PEER\_GROUP\_VERSION** will be defined in the application header file. The version actually supported by the infrastructure is returned in **peerVersion**.
 
 
 ```C++
@@ -32,7 +37,7 @@ The first step when constructing a chat application is to initialize the Peer Gr
 
 ## Creating a Group
 
-A chat application must be able to create a peer group if no group is available to join, or if the application user wants to create a new one. To do this, you must create a [**PEER\_GROUP\_PROPERTIES**](peer-group-properties.md) structure and populate it with the initial settings for the group, including the classifier for the peer group, the friendly name, the creator's peer name, and the presence lifetime. Once this structure has been populated, you pass it to [**PeerGroupCreate**](peergroupcreate.md).
+A chat application must be able to create a peer group if no group is available to join, or if the application user wants to create a new one. To do this, you must create a [**PEER\_GROUP\_PROPERTIES**](/windows/win32/P2P/ns-p2p-peer_group_properties_tag?branch=master) structure and populate it with the initial settings for the group, including the classifier for the peer group, the friendly name, the creator's peer name, and the presence lifetime. Once this structure has been populated, you pass it to [**PeerGroupCreate**](/windows/win32/P2P/nf-p2p-peergroupcreate?branch=master).
 
 
 ```C++
@@ -86,7 +91,7 @@ HRESULT CreateGroup(PCWSTR pwzName, PCWSTR pwzIdentity)
 
 ## Issuing Invitations
 
-When issuing an invitation, the GMCs of the invitees must be obtained. These can obtained by calling [**PeerIdentityGetXML**](peeridentitygetxml.md) on the invitee with their identity name. If successful, the identity information (the XML that contains the base-64 encoded certificate with the RSA public key) is written to an external location (a file, in this sample) where the inviter can obtain it and use it to create an invitation.
+When issuing an invitation, the GMCs of the invitees must be obtained. These can obtained by calling [**PeerIdentityGetXML**](/windows/win32/P2P/nf-p2p-peeridentitygetxml?branch=master) on the invitee with their identity name. If successful, the identity information (the XML that contains the base-64 encoded certificate with the RSA public key) is written to an external location (a file, in this sample) where the inviter can obtain it and use it to create an invitation.
 
 At this point, a mechanism for the delivery of the invitation to the invitee must be established. This can be email or another secure method of file exchange. In the sample below, the invitation is written to a file which can then be transferred to the invitee's computer.
 
@@ -139,7 +144,7 @@ HRESULT SaveIdentityInfo(PCWSTR pwzIdentity, PCWSTR pwzFile)
 
 
 
-Invitations, like identities, are also issued externally. In this example, the invitation is written to a file with **fputws** where the invitee can obtain it and use it when it calls [**PeerGroupJoin**](peergroupjoin.md).
+Invitations, like identities, are also issued externally. In this example, the invitation is written to a file with **fputws** where the invitee can obtain it and use it when it calls [**PeerGroupJoin**](/windows/win32/P2P/nf-p2p-peergroupjoin?branch=master).
 
 
 ```C++
@@ -219,7 +224,7 @@ HRESULT CreateInvitation(PCWSTR wzIdentityInfoPath, PCWSTR wzInvitationPath)
 
 ## Joining a Peer Group
 
-If the peer is attempting to join a peer group created by another peer, it will need an invitation from that peer. Invitations are delivered by an external process or application to the invitee and saved to a local file, specified in the sample below as *pwzFileName*. The invitation XML blob is read from the file into **wzInvitation** and passed to [**PeerGroupJoin**](peergroupjoin.md).
+If the peer is attempting to join a peer group created by another peer, it will need an invitation from that peer. Invitations are delivered by an external process or application to the invitee and saved to a local file, specified in the sample below as *pwzFileName*. The invitation XML blob is read from the file into **wzInvitation** and passed to [**PeerGroupJoin**](/windows/win32/P2P/nf-p2p-peergroupjoin?branch=master).
 
 
 ```C++
@@ -330,11 +335,11 @@ HRESULT RegisterForEvents(void)
 
 ## Connecting to a Peer Group
 
-Having either created or joined the group and registered for the appropriate events, it's time to go online and begin an active chat session. To do this, you call [**PeerGroupConnect**](peergroupconnect.md) and pass in the group handle obtained from [**PeerGroupCreate**](peergroupcreate.md) or [**PeerGroupJoin**](peergroupjoin.md). After calling this, chat messages will be received as PEER\_GROUP\_EVENT\_RECORD\_CHANGED events.
+Having either created or joined the group and registered for the appropriate events, it's time to go online and begin an active chat session. To do this, you call [**PeerGroupConnect**](/windows/win32/P2P/nf-p2p-peergroupconnect?branch=master) and pass in the group handle obtained from [**PeerGroupCreate**](/windows/win32/P2P/nf-p2p-peergroupcreate?branch=master) or [**PeerGroupJoin**](/windows/win32/P2P/nf-p2p-peergroupjoin?branch=master). After calling this, chat messages will be received as PEER\_GROUP\_EVENT\_RECORD\_CHANGED events.
 
 ## Obtaining a List of Peer Group Members
 
-Obtaining a list of members connected to the peer group is simple: call [**PeerGroupEnumMembers**](peergroupenummembers.md) to retrieve the list of group members, and then iteratively call [**PeerGetNextItem**](peergetnextitem.md) until all members are retrieved. You should call [**PeerFreeData**](peerfreedata.md) after you process each member structure, and you must close the enumeration by calling [**PeerEndEnumeration**](peerendenumeration.md) when processing is complete.
+Obtaining a list of members connected to the peer group is simple: call [**PeerGroupEnumMembers**](/windows/win32/P2P/nf-p2p-peergroupenummembers?branch=master) to retrieve the list of group members, and then iteratively call [**PeerGetNextItem**](/windows/win32/P2P/nf-p2p-peergetnextitem?branch=master) until all members are retrieved. You should call [**PeerFreeData**](/windows/win32/P2P/nf-p2p-peerfreedata?branch=master) after you process each member structure, and you must close the enumeration by calling [**PeerEndEnumeration**](/windows/win32/P2P/nf-p2p-peerendenumeration?branch=master) when processing is complete.
 
 
 ```C++
@@ -393,7 +398,7 @@ void UpdateParticipantList(void)
 
 ## Sending a Chat Message
 
-In this example, a chat message is sent by placing it in the **data** field of a [**PEER\_RECORD**](peer-record.md) structure. The record is added to the peer group records by calling [**PeerGroupAddRecord**](peergroupaddrecord.md), which will publish it and raise the PEER\_GROUP\_EVENT\_RECORD\_CHANGED event on all peers participating in the peer group.
+In this example, a chat message is sent by placing it in the **data** field of a [**PEER\_RECORD**](/windows/win32/P2P/ns-p2p-peer_record_tag?branch=master) structure. The record is added to the peer group records by calling [**PeerGroupAddRecord**](/windows/win32/P2P/nf-p2p-peergroupaddrecord?branch=master), which will publish it and raise the PEER\_GROUP\_EVENT\_RECORD\_CHANGED event on all peers participating in the peer group.
 
 
 ```C++
@@ -443,7 +448,7 @@ HRESULT AddChatRecord(PCWSTR pwzMessage)
 
 ## Receiving a Chat Message
 
-To receive the chat message, create a callback function for the PEER\_GROUP\_EVENT\_RECORD\_CHANGED event that calls a function similar to one below. The record is obtained by calling [**PeerGroupGetRecord**](peergroupgetrecord.md) on the event data received by a previous call to [**PeerGroupGetEventData**](peergroupgeteventdata.md) in the callback function. The chat message is stored in the **data** field of this record.
+To receive the chat message, create a callback function for the PEER\_GROUP\_EVENT\_RECORD\_CHANGED event that calls a function similar to one below. The record is obtained by calling [**PeerGroupGetRecord**](/windows/win32/P2P/nf-p2p-peergroupgetrecord?branch=master) on the event data received by a previous call to [**PeerGroupGetEventData**](/windows/win32/P2P/nf-p2p-peergroupgeteventdata?branch=master) in the callback function. The chat message is stored in the **data** field of this record.
 
 
 ```C++

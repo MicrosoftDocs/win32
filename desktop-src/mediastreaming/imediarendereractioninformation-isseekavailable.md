@@ -1,14 +1,22 @@
 ---
 title: IMediaRendererActionInformation IsSeekAvailable method
 description: Retrieves a value that indicates whether the DMR is currently accepting the SeekAsync method.
-ms.assetid: 'F0817184-70F2-43AC-A2BE-A15F4B195085'
-keywords: ["IsSeekAvailable method Media Streaming API", "IsSeekAvailable method Media Streaming API , IMediaRendererActionInformation interface", "IMediaRendererActionInformation interface Media Streaming API , IsSeekAvailable method"]
+ms.assetid: F0817184-70F2-43AC-A2BE-A15F4B195085
+keywords:
+- IsSeekAvailable method Media Streaming API
+- IsSeekAvailable method Media Streaming API , IMediaRendererActionInformation interface
+- IMediaRendererActionInformation interface Media Streaming API , IsSeekAvailable method
 topic_type:
 - apiref
 api_name:
 - IMediaRendererActionInformation.IsSeekAvailable
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaRendererActionInformation::IsSeekAvailable method
@@ -20,7 +28,7 @@ Retrieves a value that indicates whether the DMR is currently accepting the [**S
 
 ```C++
 HRESULT IsSeekAvailable(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IMediaRendererActionInformation**](imediarendereractioninformation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

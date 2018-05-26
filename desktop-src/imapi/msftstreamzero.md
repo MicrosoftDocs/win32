@@ -1,8 +1,10 @@
 ---
 title: MsftStreamZero object
 description: Use this object to create a read-only data stream whose data is initialized to zeros. You must call the SetSize method to set the requested size of the stream.
-ms.assetid: 'de0d93e7-d63a-43dc-942e-b913668b78ad'
-keywords: ["MsftStreamZero object IMAPI", "MsftStreamZero object IMAPI , described"]
+ms.assetid: de0d93e7-d63a-43dc-942e-b913668b78ad
+keywords:
+- MsftStreamZero object IMAPI
+- MsftStreamZero object IMAPI , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - imapi2.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsftStreamZero object
@@ -27,15 +34,15 @@ The **MsftStreamZero** object does not define any members.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows XP with SP2 \[desktop apps only\]<br/>                 |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista, Windows XP with SP2 \[desktop apps only\]<br/>                 |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Imapi2.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

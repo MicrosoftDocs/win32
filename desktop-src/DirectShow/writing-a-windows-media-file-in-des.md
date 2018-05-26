@@ -1,7 +1,12 @@
 ---
 Description: Writing a Windows Media File in DES
-ms.assetid: '741ebcbc-62fb-4c7f-845f-a361f5b63f8c'
+ms.assetid: 741ebcbc-62fb-4c7f-845f-a361f5b63f8c
 title: Writing a Windows Media File in DES
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing a Windows Media File in DES
@@ -20,12 +25,12 @@ To write a Windows Media file, do the following:
 1.  Call **SetSite** on the render engine, with a pointer to your key provider.
 2.  Build the front end of the graph. (See [Rendering a Project](rendering-a-project.md).)
 3.  Create the [WM ASF Writer](wm-asf-writer-filter.md) filter and add it to the graph.
-4.  Use the [**IFileSinkFilter**](ifilesinkfilter.md) interface on the WM ASF Writer filter to set the file name.
+4.  Use the [**IFileSinkFilter**](/windows/win32/Strmif/nn-strmif-ifilesinkfilter?branch=master) interface on the WM ASF Writer filter to set the file name.
 5.  Configure the WM ASF Writer to use a Windows Media profile. Each profile has a predefined number of streams. You must choose a profile that matches the groups in your project.
 
-    The [**IConfigAsfWriter**](iconfigasfwriter.md) interface contains a few different methods for setting the profile. For example, the **ConfigureFilterUsingProfileGuid** method specifies a system profile as a GUID. Or, you can use Windows Media Format methods to get an **IWMProfile** pointer and then call [**IConfigAsfWriter::ConfigureFilterUsingProfile**](iconfigasfwriter-configurefilterusingprofile.md). For more information, see [Configuring the ASF Writer](configuring-the-asf-writer.md).
+    The [**IConfigAsfWriter**](/windows/win32/Dshowasf/nn-dshowasf-iconfigasfwriter?branch=master) interface contains a few different methods for setting the profile. For example, the **ConfigureFilterUsingProfileGuid** method specifies a system profile as a GUID. Or, you can use Windows Media Format methods to get an **IWMProfile** pointer and then call [**IConfigAsfWriter::ConfigureFilterUsingProfile**](/windows/win32/Dshowasf/nf-dshowasf-iconfigasfwriter-configurefilterusingprofile?branch=master). For more information, see [Configuring the ASF Writer](configuring-the-asf-writer.md).
 
-6.  Connect the front end to the ASF Writer. The front end of the graph contains one output pin for each group. Assuming that you specified a compatible profile, the ASF Writer should have a matching set of input pins. Connect each output pin to the corresponding input pin. The easiest way to do this is using the [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) method. First, create a new instance of the [Capture Graph Builder](capture-graph-builder.md) and initialize it with a pointer to the Filter Graph Manager:
+6.  Connect the front end to the ASF Writer. The front end of the graph contains one output pin for each group. Assuming that you specified a compatible profile, the ASF Writer should have a matching set of input pins. Connect each output pin to the corresponding input pin. The easiest way to do this is using the [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) method. First, create a new instance of the [Capture Graph Builder](capture-graph-builder.md) and initialize it with a pointer to the Filter Graph Manager:
 
     ```C++
     ICaptureGraphBuilder2 *pBuild = 0;

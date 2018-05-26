@@ -1,7 +1,12 @@
 ---
 title: default (sm4 - asm)
 description: An optional label in a switch statement.
-ms.assetid: 'DB10F654-4A98-4ED8-A3B4-CA9FE1DFE6CD'
+ms.assetid: DB10F654-4A98-4ED8-A3B4-CA9FE1DFE6CD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # default (sm4 - asm)

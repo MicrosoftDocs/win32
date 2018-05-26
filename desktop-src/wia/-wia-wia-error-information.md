@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Image Acquisition (WIA)APIs return their completion status in an HRESULT return value.'
-ms.assetid: '4f3b4292-7aad-4a0a-9cd7-ef8438e57ab3'
+Description: The Windows Image Acquisition (WIA)APIs return their completion status in an HRESULT return value.
+ms.assetid: 4f3b4292-7aad-4a0a-9cd7-ef8438e57ab3
 title: WIA Error Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIA Error Information

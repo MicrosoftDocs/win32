@@ -1,7 +1,12 @@
 ---
 Description: Searching for Assembly Files
-ms.assetid: '6e6c1104-5cde-4c07-9ee2-d87062675dac'
+ms.assetid: 6e6c1104-5cde-4c07-9ee2-d87062675dac
 title: Searching for Assembly Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Searching for Assembly Files

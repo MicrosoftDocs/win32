@@ -1,7 +1,12 @@
-﻿---
-Description: 'The value of the VersionDatabase property is the numeric database version of the current installation.'
-ms.assetid: 'e75185a5-1b47-470f-b780-fba30740f499'
+---
+Description: The value of the VersionDatabase property is the numeric database version of the current installation.
+ms.assetid: e75185a5-1b47-470f-b780-fba30740f499
 title: VersionDatabase property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VersionDatabase property

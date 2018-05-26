@@ -4,11 +4,15 @@ description: All snap-ins must have their own key in the SnapIns key.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dbaa70f0-685d-42c9-bc33-aad8e616ecc5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: dbaa70f0-685d-42c9-bc33-aad8e616ecc5
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["SnapIns Key"]
+keywords:
+- SnapIns Key
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SnapIns Key

@@ -1,12 +1,17 @@
 ---
 title: Authentication with Multiple Known Headers
 description: The HTTP\_MULTIPLE\_KNOWN\_HEADERS structure enables server applications to send multiple authentication challenges to the client.
-ms.assetid: 'd517fd61-9547-4e1c-b0fd-1eb3d0098db2'
+ms.assetid: d517fd61-9547-4e1c-b0fd-1eb3d0098db2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication with Multiple Known Headers
 
-The [**HTTP\_MULTIPLE\_KNOWN\_HEADERS**](http-multiple-known-headers.md) structure enables server applications to send multiple authentication challenges to the client. Applications can challenge the client with a single authentication scheme by supplying the **HttpHeaderWwwAuthenticate** enumeration type in the **KnownHeaders** member of the [**HTTP\_RESPONSE\_HEADERS**](http-response-headers.md) structure contained in [**HTTP\_RESPONSE**](http-response.md). However, when the server challenges with multiple authentication schemes, the application uses the [**HTTP\_MULTIPLE\_KNOWN\_HEADERS**](http-multiple-known-headers.md) structure to provide the authentication types.
+The [**HTTP\_MULTIPLE\_KNOWN\_HEADERS**](/windows/win32/Http/ns-http-_http_multiple_known_headers?branch=master) structure enables server applications to send multiple authentication challenges to the client. Applications can challenge the client with a single authentication scheme by supplying the **HttpHeaderWwwAuthenticate** enumeration type in the **KnownHeaders** member of the [**HTTP\_RESPONSE\_HEADERS**](/windows/win32/Http/ns-http-_http_response_headers?branch=master) structure contained in [**HTTP\_RESPONSE**](http-response.md). However, when the server challenges with multiple authentication schemes, the application uses the [**HTTP\_MULTIPLE\_KNOWN\_HEADERS**](/windows/win32/Http/ns-http-_http_multiple_known_headers?branch=master) structure to provide the authentication types.
 
 When the **HTTP\_RESPONSE\_INFO\_FLAGS\_PRESERVE\_ORDER** flag is present, HTTP sends the authentication headers in the specified order. If the flag is not present, HTTP orders the authentication schemes from strongest to weakest as follows:
 
@@ -17,7 +22,7 @@ When the **HTTP\_RESPONSE\_INFO\_FLAGS\_PRESERVE\_ORDER** flag is present, HTTP 
 
 If the authentication scheme is not one of these schemes, the application must specify the **HTTP\_RESPONSE\_INFO\_FLAGS\_PRESERVE\_ORDER** flag.
 
-The **KnownHeader** member of [**HTTP\_MULTIPLE\_KNOWN\_HEADERS**](http-multiple-known-headers.md) points to an array of [**HTTP\_KNOWN\_HEADER**](http-known-header.md) structures. The **pRawValue** member of the **HTTP\_KNOWN\_HEADER** structure must point to a string that specifies the scheme name. HTTP parses the string to determine the scheme and performs one of the following actions:
+The **KnownHeader** member of [**HTTP\_MULTIPLE\_KNOWN\_HEADERS**](/windows/win32/Http/ns-http-_http_multiple_known_headers?branch=master) points to an array of [**HTTP\_KNOWN\_HEADER**](/windows/win32/Http/ns-http-_http_known_header?branch=master) structures. The **pRawValue** member of the **HTTP\_KNOWN\_HEADER** structure must point to a string that specifies the scheme name. HTTP parses the string to determine the scheme and performs one of the following actions:
 
 -   If the string contains an unknown authentication type, or if the authentication type is not enabled on the configuration group (either the URL group or server session) associated with the request, the HTTP Server API appends the string in **pRawValue** to the WWW-Authenticate header. For example, if the application specifies an unsupported authentication scheme, and **pRawValue** contains the string "CustomAuthString", the following text is appended to the authentication header:
 
@@ -31,7 +36,7 @@ The **KnownHeader** member of [**HTTP\_MULTIPLE\_KNOWN\_HEADERS**](http-multiple
 
     WWW-Authenticate: Digest realm="testrealm@host.com"
 
-If the scheme in the **pRawValue** member of [**HTTP\_KNOWN\_HEADER**](http-known-header.md) is Negotiate or NTLM, the authentication scheme name is sufficient. If the specified scheme is Basic, the realm name is appended to the scheme name; the application doesn't need to supply the realm name in **pRawValue**. If the specified scheme is Digest, HTTP calls [**AcceptSecurityContext**](https://msdn.microsoft.com/library/windows/desktop/aa374703) to generate the challenge that is appended to the scheme name. The parameters for Basic (realm) and Digest (realm and domain name) scheme are obtained from the corresponding configuration group authentication information.
+If the scheme in the **pRawValue** member of [**HTTP\_KNOWN\_HEADER**](/windows/win32/Http/ns-http-_http_known_header?branch=master) is Negotiate or NTLM, the authentication scheme name is sufficient. If the specified scheme is Basic, the realm name is appended to the scheme name; the application doesn't need to supply the realm name in **pRawValue**. If the specified scheme is Digest, HTTP calls [**AcceptSecurityContext**](https://msdn.microsoft.com/library/windows/desktop/aa374703) to generate the challenge that is appended to the scheme name. The parameters for Basic (realm) and Digest (realm and domain name) scheme are obtained from the corresponding configuration group authentication information.
 
 When the application sends multiple authentication challenges to the client in Unknown request headers, the HTTP Server API sends these to the client without intervention. However this usage is not recommended.
 

@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.getAll method
 description: The getAll method retrieves a playlist containing all media items in the library.
-ms.assetid: 'db06194c-36e2-4494-b464-c08f6983bdc1'
-keywords: ["getAll method Windows Media Player", "getAll method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , getAll method"]
+ms.assetid: db06194c-36e2-4494-b464-c08f6983bdc1
+keywords:
+- getAll method Windows Media Player
+- getAll method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , getAll method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.getAll method
@@ -90,9 +98,9 @@ Player.currentMedia = Player.mediaCollection.getAll().item(rand);
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

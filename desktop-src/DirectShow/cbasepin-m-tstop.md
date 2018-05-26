@@ -1,7 +1,12 @@
 ---
-Description: 'Segment stop time.'
-ms.assetid: '8724c608-28ab-4ae9-982c-6e53c03601a1'
-title: 'CBasePin::m\_tStop member'
+Description: Segment stop time.
+ms.assetid: 8724c608-28ab-4ae9-982c-6e53c03601a1
+title: CBasePinm\_tStop member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin::m\_tStop member
@@ -35,9 +40,9 @@ CRefTime m_tStop;
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

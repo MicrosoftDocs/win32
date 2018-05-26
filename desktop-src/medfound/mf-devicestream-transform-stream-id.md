@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the Microsoft Media Foundation Transform (MFT) stream id of the stream.'
-ms.assetid: '2C2590DC-8031-400D-8D48-A61D46F14618'
-title: 'MF\_DEVICESTREAM\_TRANSFORM\_STREAM\_ID attribute'
+---
+Description: Represents the Microsoft Media Foundation Transform (MFT) stream id of the stream.
+ms.assetid: 2C2590DC-8031-400D-8D48-A61D46F14618
+title: MF\_DEVICESTREAM\_TRANSFORM\_STREAM\_ID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_DEVICESTREAM\_TRANSFORM\_STREAM\_ID attribute

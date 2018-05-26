@@ -1,7 +1,12 @@
 ---
-Description: 'The following example shows how to use the GetNPPBlobTable function to retrieve a NPP BLOB table that represents the registered network interface cards on the local computer.'
-ms.assetid: '7267f658-103d-4290-8ebf-b78866bd1fe8'
+Description: The following example shows how to use the GetNPPBlobTable function to retrieve a NPP BLOB table that represents the registered network interface cards on the local computer.
+ms.assetid: 7267f658-103d-4290-8ebf-b78866bd1fe8
 title: Using GetNPPBlobTable
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using GetNPPBlobTable

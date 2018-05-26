@@ -4,11 +4,17 @@ description: A primary snap-in has the opportunity to enable MMC standard verbs 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bfb239bb-0f46-47bc-addf-ea5db8088c6a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bfb239bb-0f46-47bc-addf-ea5db8088c6a
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["enabling MMC 2.0 standard verbs", "enabling MMC 2.0 standard verbs", "verbs MMC 2.0"]
+keywords:
+- enabling MMC 2.0 standard verbs
+- enabling MMC 2.0 standard verbs
+- verbs MMC 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enabling MMC 2.0 Standard Verbs

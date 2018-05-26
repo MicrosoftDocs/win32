@@ -1,7 +1,12 @@
-﻿---
-Description: 'Instructs an IME window to set the style of the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.'
-ms.assetid: '19b99228-a1fc-4cd5-8f37-5462bf767f85'
-title: 'IMC\_SETCOMPOSITIONWINDOW command'
+---
+Description: Instructs an IME window to set the style of the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
+ms.assetid: 19b99228-a1fc-4cd5-8f37-5462bf767f85
+title: IMC\_SETCOMPOSITIONWINDOW command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMC\_SETCOMPOSITIONWINDOW command
@@ -29,7 +34,7 @@ Set to IMC\_SETCOMPOSITIONWINDOW.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**COMPOSITIONFORM**](compositionform.md) structure that contains the style information.
+Pointer to a [**COMPOSITIONFORM**](/windows/win32/Imm/ns-imm-tagcompositionform?branch=master) structure that contains the style information.
 
 </dd> </dl>
 
@@ -65,7 +70,7 @@ By default, the IME window has the CFS\_POINT style. With this style, the IME wi
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**COMPOSITIONFORM**](compositionform.md)
+[**COMPOSITIONFORM**](/windows/win32/Imm/ns-imm-tagcompositionform?branch=master)
 </dt> <dt>
 
 [**WM\_IME\_CONTROL**](wm-ime-control.md)

@@ -1,7 +1,12 @@
 ---
-Description: 'To sign a file and create a catalog for it, you must first have a process for signing files, a certificate, and a public key.'
-ms.assetid: '61337ea6-2d6b-4080-9128-5b8527512ce6'
+Description: To sign a file and create a catalog for it, you must first have a process for signing files, a certificate, and a public key.
+ms.assetid: 61337ea6-2d6b-4080-9128-5b8527512ce6
 title: Creating Signed Files and Catalogs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Signed Files and Catalogs

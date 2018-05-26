@@ -4,10 +4,13 @@ description: Typical organizations store data in multiple heterogeneous database
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '45281b42-5cb2-42f9-9c7c-f3e3174b0f9d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 45281b42-5cb2-42f9-9c7c-f3e3174b0f9d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Joining Heterogeneous Data

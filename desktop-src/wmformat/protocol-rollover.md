@@ -1,8 +1,17 @@
 ---
 title: Protocol Rollover
 description: Protocol Rollover
-ms.assetid: '61db5e2b-4858-446e-9a27-e0305b46683d'
-keywords: ["Windows Media Format SDK,protocol rollover", "Advanced Systems Format (ASF),protocol rollover", "ASF (Advanced Systems Format),protocol rollover", "protocol rollover"]
+ms.assetid: 61db5e2b-4858-446e-9a27-e0305b46683d
+keywords:
+- Windows Media Format SDK,protocol rollover
+- Advanced Systems Format (ASF),protocol rollover
+- ASF (Advanced Systems Format),protocol rollover
+- protocol rollover
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Protocol Rollover
@@ -33,9 +42,9 @@ Windows Media Services 9 Series in Microsoft Windows Server 2003 will reject any
 
 Protocol rollover does not apply if the URL scheme gives a specific protocol, such as "rtspu://" for RTSPU or "http://" for HTTP. If the URL scheme is "rtsp://", the reader tries RTSPU and RTSPT, but no others.
 
-After the reader opens a file, you can query which protocol it is using by calling the [**IWMReaderAdvanced2::GetProtocolName**](iwmreaderadvanced2-getprotocolname.md) method on the reader. While the content is being streamed or downloaded, this method returns the name as soon as the content is completely cached, the **GetProtocolName** method returns the string "Cache."
+After the reader opens a file, you can query which protocol it is using by calling the [**IWMReaderAdvanced2::GetProtocolName**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getprotocolname?branch=master) method on the reader. While the content is being streamed or downloaded, this method returns the name as soon as the content is completely cached, the **GetProtocolName** method returns the string "Cache."
 
-To get the names of all the Windows Media server protocols that the reader supports, call the [**IWMReaderNetworkConfig::GetSupportedProtocolName**](iwmreadernetworkconfig-getsupportedprotocolname.md) method on the reader. You can disable one or more of the protocols in the reader's protocol rollover list, using **IWMReaderNetworkConfig** interface. For example, the [**IWMReaderNetworkConfig::SetEnableTCP**](iwmreadernetworkconfig-setenabletcp.md) method enables or disables the TCP-based protocols, and [**IWMReaderNetworkConfig::SetEnableUDP**](iwmreadernetworkconfig-setenableudp.md) enables or disables the UDP-based protocols. These methods apply only to protocol rollover; the protocols are still available if the URL scheme contains a specific protocol. There is usually no reason to disable any of the protocols used in protocol rollover; doing so can degrade performance. However, it might be useful for testing.
+To get the names of all the Windows Media server protocols that the reader supports, call the [**IWMReaderNetworkConfig::GetSupportedProtocolName**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getsupportedprotocolname?branch=master) method on the reader. You can disable one or more of the protocols in the reader's protocol rollover list, using **IWMReaderNetworkConfig** interface. For example, the [**IWMReaderNetworkConfig::SetEnableTCP**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenabletcp?branch=master) method enables or disables the TCP-based protocols, and [**IWMReaderNetworkConfig::SetEnableUDP**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenableudp?branch=master) enables or disables the UDP-based protocols. These methods apply only to protocol rollover; the protocols are still available if the URL scheme contains a specific protocol. There is usually no reason to disable any of the protocols used in protocol rollover; doing so can degrade performance. However, it might be useful for testing.
 
  
 

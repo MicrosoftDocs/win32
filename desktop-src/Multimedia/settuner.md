@@ -1,21 +1,27 @@
 ---
 title: settuner command
 description: The settuner command changes the current tuner or the channel setting of the current tuner. VCR devices recognize this command.
-ms.assetid: 'd9f4d6b8-ba73-40ec-a2f9-76adab0fd6f4'
-keywords: ["settuner command Windows Multimedia"]
+ms.assetid: d9f4d6b8-ba73-40ec-a2f9-76adab0fd6f4
+keywords:
+- settuner command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - settuner
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # settuner command
 
 The settuner command changes the current tuner or the channel setting of the current tuner. VCR devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -54,7 +60,7 @@ One of the following flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -75,8 +81,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -90,9 +96,9 @@ Returns zero if successful or an error otherwise.
 [MCI Command Strings](mci-command-strings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

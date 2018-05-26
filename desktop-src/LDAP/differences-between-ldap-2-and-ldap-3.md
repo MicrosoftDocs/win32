@@ -4,11 +4,15 @@ description: LDAP 3 defines a number of improvements that allow a more efficient
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0103829a-a562-4196-93b8-615cd4043b69'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 0103829a-a562-4196-93b8-615cd4043b69
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Differences between LDAP 2 and LDAP 3 LDAP"]
+keywords:
+- Differences between LDAP 2 and LDAP 3 LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Differences between LDAP 2 and LDAP 3

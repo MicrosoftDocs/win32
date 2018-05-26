@@ -1,8 +1,11 @@
 ---
 title: Optimize method of the MSFT\_Volume class
 description: Optimizes the volume.
-ms.assetid: 'ef56d743-1b6b-421c-8ffc-82c08cc9dee1'
-keywords: ["Optimize method Windows Storage Management API", "Optimize method Windows Storage Management API , MSFT_Volume class", "MSFT_Volume class Windows Storage Management API , Optimize method"]
+ms.assetid: ef56d743-1b6b-421c-8ffc-82c08cc9dee1
+keywords:
+- Optimize method Windows Storage Management API
+- Optimize method Windows Storage Management API , MSFT_Volume class
+- MSFT_Volume class Windows Storage Management API , Optimize method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Optimize method of the MSFT\_Volume class
@@ -22,12 +30,12 @@ Optimizes the volume.
 
 ```mof
 UInt32 Optimize(
-  [in]  Boolean ReTrim,
-  [in]  Boolean Analyze,
-  [in]  Boolean Defrag,
-  [in]  Boolean SlabConsolidate,
-  [in]  Boolean TierOptimize,
-  [out] String  ExtendedStatus
+  [in]  Boolean ReTrim,
+  [in]  Boolean Analyze,
+  [in]  Boolean Defrag,
+  [in]  Boolean SlabConsolidate,
+  [in]  Boolean TierOptimize,
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -112,8 +120,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -126,9 +134,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_Volume**](msft-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

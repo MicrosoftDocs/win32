@@ -1,7 +1,12 @@
-﻿---
-Description: 'The print spooler''s RouterFreePrinterNotifyInfo function deallocates a specified PRINTER\_NOTIFY\_INFO structure and its associated PRINTER\_NOTIFY\_INFO\_DATA structure array.'
-ms.assetid: '11beef0b-061a-4d73-b723-d0214f479503'
+---
+Description: The print spoolers RouterFreePrinterNotifyInfo function deallocates a specified PRINTER\_NOTIFY\_INFO structure and its associated PRINTER\_NOTIFY\_INFO\_DATA structure array.
+ms.assetid: 11beef0b-061a-4d73-b723-d0214f479503
 title: RouterFreePrinterNotifyInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RouterFreePrinterNotifyInfo function

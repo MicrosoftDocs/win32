@@ -1,7 +1,12 @@
-﻿---
-Description: 'Set the effect state manager.'
-ms.assetid: '87409687-03f1-4593-ae58-3a8ba08e592b'
-title: 'ID3DXEffect::SetStateManager method'
+---
+Description: Set the effect state manager.
+ms.assetid: 87409687-03f1-4593-ae58-3a8ba08e592b
+title: ID3DXEffectSetStateManager method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::SetStateManager method

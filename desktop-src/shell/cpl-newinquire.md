@@ -1,11 +1,16 @@
-﻿---
-Description: 'Sent to the CPlApplet function of a Control Panel application to request information about a dialog box that the application supports.'
-title: 'CPL\_NEWINQUIRE message'
+---
+Description: Sent to the CPlApplet function of a Control Panel application to request information about a dialog box that the application supports.
+title: CPL\_NEWINQUIRE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPL\_NEWINQUIRE message
 
-Sent to the [**CPlApplet**](cplapplet.md) function of a Control Panel application to request information about a dialog box that the application supports.
+Sent to the [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) function of a Control Panel application to request information about a dialog box that the application supports.
 
 ## Parameters
 
@@ -21,13 +26,13 @@ The dialog box number. This number must be in the range zero through one less th
 *lpncpli* 
 </dt> <dd>
 
-The address of a [**NEWCPLINFO**](newcplinfo.md) structure. The Control Panel application should fill this structure with information about the dialog box.
+The address of a [**NEWCPLINFO**](/windows/win32/Cpl/ns-cpl-tagnewcplinfoa?branch=master) structure. The Control Panel application should fill this structure with information about the dialog box.
 
 </dd> </dl>
 
 ## Return value
 
-If the [**CPlApplet**](cplapplet.md) function processes this message successfully, it should return zero.
+If the [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) function processes this message successfully, it should return zero.
 
 ## Remarks
 
@@ -39,7 +44,7 @@ You can perform initialization for the dialog box when you receive [**CPL\_INQUI
 
 [**CPL\_INQUIRE**](cpl-inquire.md) is the preferred message. This is because **CPL\_NEWINQUIRE** returns information in a form that the system cannot cache. Consequently, applications that process **CPL\_NEWINQUIRE** must be loaded each time the Control Panel needs the information, resulting in a significant reduction in performance.
 
-The only applications that should use **CPL\_NEWINQUIRE** are those that need to change their icon or display strings based on the state of the computer. In this case, your [**CPL\_INQUIRE**](cpl-inquire.md) handler should specify the CPL\_DYNAMIC\_RES value for the **idIcon**, **idName**, or **idInfo** members of the [**CPLINFO**](cplinfo.md) structure, rather than specifying a valid resource identifier. This causes the Control Panel to send the **CPL\_NEWINQUIRE** message each time it needs the icon and display strings, allowing you to specify information based on the current state of the computer. Of course, this is significantly slower than using cached information.
+The only applications that should use **CPL\_NEWINQUIRE** are those that need to change their icon or display strings based on the state of the computer. In this case, your [**CPL\_INQUIRE**](cpl-inquire.md) handler should specify the CPL\_DYNAMIC\_RES value for the **idIcon**, **idName**, or **idInfo** members of the [**CPLINFO**](/windows/win32/Cpl/ns-cpl-tagcplinfo?branch=master) structure, rather than specifying a valid resource identifier. This causes the Control Panel to send the **CPL\_NEWINQUIRE** message each time it needs the icon and display strings, allowing you to specify information based on the current state of the computer. Of course, this is significantly slower than using cached information.
 
 ## Requirements
 

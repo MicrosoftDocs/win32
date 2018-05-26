@@ -1,19 +1,24 @@
 ---
-Description: 'The EnumMediaTypes method enumerates the pin''s preferred media types. This method implements the IPin::EnumMediaTypes method.'
-ms.assetid: '942c6594-3053-484a-a0f7-286dcd3f7550'
-title: 'CTransInPlaceOutputPin.EnumMediaTypes method'
+Description: The EnumMediaTypes method enumerates the pins preferred media types. This method implements the IPinEnumMediaTypes method.
+ms.assetid: 942c6594-3053-484a-a0f7-286dcd3f7550
+title: CTransInPlaceOutputPin.EnumMediaTypes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceOutputPin.EnumMediaTypes method
 
-The `EnumMediaTypes` method enumerates the pin's preferred media types. This method implements the [**IPin::EnumMediaTypes**](ipin-enummediatypes.md) method.
+The `EnumMediaTypes` method enumerates the pin's preferred media types. This method implements the [**IPin::EnumMediaTypes**](/windows/win32/Strmif/nf-strmif-ipin-enummediatypes?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT EnumMediaTypes(
-   IEnumMediaTypes **ppEnum
+   IEnumMediaTypes **ppEnum
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT EnumMediaTypes(
 *ppEnum* 
 </dt> <dd>
 
-Receives a pointer to the [**IEnumMediaTypes**](ienummediatypes.md) interface.
+Receives a pointer to the [**IEnumMediaTypes**](/windows/win32/Strmif/nn-strmif-ienummediatypes?branch=master) interface.
 
 </dd> </dl>
 
@@ -45,7 +50,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,9 +74,9 @@ This method returns the **IEnumMediaTypes** interface from the upstream output p
 [**CTransInPlaceOutputPin Class**](ctransinplaceoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

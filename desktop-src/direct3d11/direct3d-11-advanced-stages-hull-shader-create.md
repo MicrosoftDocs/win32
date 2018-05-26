@@ -1,7 +1,12 @@
 ---
 title: How To Create a Hull Shader
 description: This topic shows how to create a hull shader.
-ms.assetid: '221cb578-fcfc-411a-8515-7880a96e32ce'
+ms.assetid: 221cb578-fcfc-411a-8515-7880a96e32ce
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To: Create a Hull Shader
@@ -16,7 +21,7 @@ A hull shader also outputs patch constant information, such as tessellation fact
 
 1.  Design a hull shader. See [How To: Design a Hull Shader](direct3d-11-advanced-stages-hull-shader-design.md).
 2.  Compile the shader code
-3.  Create a hull-shader object using [**ID3D11Device::CreateHullShader**](id3d11device-createhullshader.md).
+3.  Create a hull-shader object using [**ID3D11Device::CreateHullShader**](/windows/win32/D3D11/nf-d3d11-id3d11device-createhullshader?branch=master).
     ```
     HRESULT CreateHullShader(
       const void *pShaderBytecode,  
@@ -28,7 +33,7 @@ A hull shader also outputs patch constant information, such as tessellation fact
 
     
 
-4.  Initialize the pipeline stage using [**ID3D11DeviceContext::HSSetShader**](id3d11devicecontext-hssetshader.md).
+4.  Initialize the pipeline stage using [**ID3D11DeviceContext::HSSetShader**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-hssetshader?branch=master).
     ```
     void HSSetShader(
       ID3D11HullShader *pHullShader,  

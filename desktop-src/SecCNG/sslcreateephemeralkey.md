@@ -1,7 +1,12 @@
 ---
-Description: 'Creates an ephemeral key for use during the authentication that occurs during the Secure Sockets Layer protocol (SSL) handshake.'
-ms.assetid: 'faad9b3b-e476-4e61-b978-bcb517ecaeb7'
+Description: Creates an ephemeral key for use during the authentication that occurs during the Secure Sockets Layer protocol (SSL) handshake.
+ms.assetid: faad9b3b-e476-4e61-b978-bcb517ecaeb7
 title: SslCreateEphemeralKey function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslCreateEphemeralKey function
@@ -13,15 +18,15 @@ The **SslCreateEphemeralKey** function creates an ephemeral key for use during t
 
 ```C++
 SECURITY_STATUS WINAPI SslCreateEphemeralKey(
-  _In_  NCRYPT_PROV_HANDLE hSslProvider,
-  _Out_ NCRYPT_KEY_HANDLE  *phEphemeralKey,
-  _In_  DWORD              dwProtocol,
-  _In_  DWORD              dwCipherSuite,
-  _In_  DWORD              dwKeyType,
-  _In_  DWORD              dwKeyBitLen,
-  _In_  PBYTE              pbParams,
-  _In_  DWORD              cbParams,
-  _In_  DWORD              dwFlags
+  _In_  NCRYPT_PROV_HANDLE hSslProvider,
+  _Out_ NCRYPT_KEY_HANDLE  *phEphemeralKey,
+  _In_  DWORD              dwProtocol,
+  _In_  DWORD              dwCipherSuite,
+  _In_  DWORD              dwKeyType,
+  _In_  DWORD              dwKeyBitLen,
+  _In_  PBYTE              pbParams,
+  _In_  DWORD              cbParams,
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -110,13 +115,13 @@ If the function fails, it returns a nonzero error value.
 
 
 
- 
+ 
 
 ## Remarks
 
 When using a DHE cipher suite, the internal SSL implementation passes server *p* and *g* parameters to the **SslCreateEphemeralKey** function in the *pbParams* and *cbParams* parameters.
 
-The format of the data in the *pbParams* buffer is the same as that used when setting the [**BCRYPT\_DH\_PARAMETERS**](cng-property-identifiers.md) property, and it starts with a [**BCRYPT\_DH\_PARAMETER\_HEADER**](bcrypt-dh-parameter-header.md) structure.
+The format of the data in the *pbParams* buffer is the same as that used when setting the [**BCRYPT\_DH\_PARAMETERS**](cng-property-identifiers.md) property, and it starts with a [**BCRYPT\_DH\_PARAMETER\_HEADER**](/windows/win32/Bcrypt/ns-bcrypt-_bcrypt_dh_parameter_header?branch=master) structure.
 
 ## Requirements
 
@@ -124,16 +129,16 @@ The format of the data in the *pbParams* buffer is the same as that used when se
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: Server Timeouts Property
 description: .
-ms.assetid: '5525c226-3786-41c4-86a2-3e077682313d'
-keywords: ["Server Timeouts Property HTTP"]
+ms.assetid: 5525c226-3786-41c4-86a2-3e077682313d
+keywords:
+- Server Timeouts Property HTTP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server Timeouts Property

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets or sets the keyboard shortcut for the link.'
-ms.assetid: 'edc65fe8-c7f3-46d0-86ca-1c0c93e7ca64'
-title: 'ShellLinkObject.Hotkey property'
+---
+Description: Gets or sets the keyboard shortcut for the link.
+ms.assetid: edc65fe8-c7f3-46d0-86ca-1c0c93e7ca64
+title: ShellLinkObject.Hotkey property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellLinkObject.Hotkey property

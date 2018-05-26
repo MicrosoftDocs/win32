@@ -1,7 +1,12 @@
 ---
-Description: 'Lists and describes the access types of the Policy object.'
-ms.assetid: '592dea65-9da1-4e49-82e4-8e08c451e026'
+Description: Lists and describes the access types of the Policy object.
+ms.assetid: 592dea65-9da1-4e49-82e4-8e08c451e026
 title: Policy Object Access Rights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Policy Object Access Rights

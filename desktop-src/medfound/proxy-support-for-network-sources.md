@@ -1,16 +1,21 @@
 ---
 Description: Proxy Support for Network Sources
-ms.assetid: 'e739746d-2a09-4237-a7c1-0aed4e4516d7'
+ms.assetid: e739746d-2a09-4237-a7c1-0aed4e4516d7
 title: Proxy Support for Network Sources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Proxy Support for Network Sources
 
 A proxy server is an intermediate server between your intranet and the Internet, which routes requests from the client application to the media server and retrieves files from the media server.
 
-Media Foundation implicitly creates a *proxy locator* object when a client application tries to access a source URL. The proxy locator object exposes the [**IMFNetProxyLocator**](imfnetproxylocator.md) interface. During source resolution, Media Foundation checks the property store passed to the source resolver method.
+Media Foundation implicitly creates a *proxy locator* object when a client application tries to access a source URL. The proxy locator object exposes the [**IMFNetProxyLocator**](/windows/win32/mfidl/nn-mfidl-imfnetproxylocator?branch=master) interface. During source resolution, Media Foundation checks the property store passed to the source resolver method.
 
-If the property store contains the [MFNETSOURCE\_PROXYLOCATORFACTORY](mfnetsource-proxylocatorfactory-property.md) property set to a proxy locator factory object implemented by the application then, it invokes the [**IMFNetProxyLocatorFactory::CreateProxyLocator**](imfnetproxylocatorfactory-createproxylocator.md) method to create a proxy locator with custom configuration settings.
+If the property store contains the [MFNETSOURCE\_PROXYLOCATORFACTORY](mfnetsource-proxylocatorfactory-property.md) property set to a proxy locator factory object implemented by the application then, it invokes the [**IMFNetProxyLocatorFactory::CreateProxyLocator**](/windows/win32/mfidl/nf-mfidl-imfnetproxylocatorfactory-createproxylocator?branch=master) method to create a proxy locator with custom configuration settings.
 
 If the property store is not set, then Media Foundation creates the proxy locator with default configuration. These settings are as follows:
 

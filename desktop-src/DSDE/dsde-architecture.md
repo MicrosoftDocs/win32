@@ -1,13 +1,16 @@
 ---
-Description: 'The DSDE utility takes input from either the command line or a DSML request file. It processes inputs and sends requests to the LDAP server or DSML Services for Windows server.'
+Description: The DSDE utility takes input from either the command line or a DSML request file. It processes inputs and sends requests to the LDAP server or DSML Services for Windows server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '6ccdbc79-7ad3-441f-81ef-ef5a478f80d3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 6ccdbc79-7ad3-441f-81ef-ef5a478f80d3
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 title: DSDE Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DSDE Architecture

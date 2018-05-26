@@ -1,7 +1,12 @@
 ---
 title: AeDebug
 description: The AeDebug defines remote debugging options for COM.
-ms.assetid: '0708a6e5-7bb0-4bbe-a4fd-efeaa9f4a701'
+ms.assetid: 0708a6e5-7bb0-4bbe-a4fd-efeaa9f4a701
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AeDebug

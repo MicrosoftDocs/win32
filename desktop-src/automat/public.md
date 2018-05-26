@@ -1,7 +1,12 @@
 ---
 title: public
 description: Includes an alias declared with the typedefkeyword in the type library.
-ms.assetid: 'c25e777e-9dae-46eb-a578-21b97781491d'
+ms.assetid: c25e777e-9dae-46eb-a578-21b97781491d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # public

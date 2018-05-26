@@ -1,7 +1,12 @@
 ---
-Description: 'Creating DLLs presents a number of challenges for developers.'
-ms.assetid: '44EFC4B5-7A2F-43A6-914E-D4EB7446AC35'
-title: 'Dynamic-Link Library Best Practices'
+Description: Creating DLLs presents a number of challenges for developers.
+ms.assetid: 44EFC4B5-7A2F-43A6-914E-D4EB7446AC35
+title: Dynamic-Link Library Best Practices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic-Link Library Best Practices
@@ -13,7 +18,7 @@ title: 'Dynamic-Link Library Best Practices'
 **Important APIs**
 
 -   [**DllMain**](dllmain.md)
--   [**LoadLibraryEx**](loadlibraryex.md)
+-   [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master)
 -   [**CreateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms682425)
 
 Creating DLLs presents a number of challenges for developers. DLLs do not have system-enforced versioning. When multiple versions of a DLL exist on a system, the ease of being overwritten coupled with the lack of a versioning schema creates dependency and API conflicts. Complexity in the development environment, the loader implementation, and the DLL dependencies has created fragility in load order and application behavior. Lastly, many applications rely on DLLs and have complex sets of dependencies that must be honored for the applications to function properly. This document provides guidelines for DLL developers to help in building more robust, portable, and extensible DLLs.
@@ -32,11 +37,11 @@ Some initialization tasks cannot be postponed. For example, a DLL that depends o
 
 You should never perform the following tasks from within [**DllMain**](dllmain.md):
 
--   Call [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](loadlibraryex.md) (either directly or indirectly). This can cause a deadlock or a crash.
+-   Call [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master) (either directly or indirectly). This can cause a deadlock or a crash.
 -   Call [**GetStringTypeA**](https://msdn.microsoft.com/library/windows/desktop/dd318117), [**GetStringTypeEx**](https://msdn.microsoft.com/library/windows/desktop/dd318118), or [**GetStringTypeW**](https://msdn.microsoft.com/library/windows/desktop/dd318119) (either directly or indirectly). This can cause a deadlock or a crash.
 -   Synchronize with other threads. This can cause a deadlock.
 -   Acquire a synchronization object that is owned by code that is waiting to acquire the loader lock. This can cause a deadlock.
--   Initialize COM threads by using [**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279). Under certain conditions, this function can call [**LoadLibraryEx**](loadlibraryex.md).
+-   Initialize COM threads by using [**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279). Under certain conditions, this function can call [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master).
 -   Call the registry functions. These functions are implemented in Advapi32.dll. If Advapi32.dll is not initialized before your DLL, the DLL can access uninitialized memory and cause the process to crash.
 -   Call [**CreateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms682425). Creating a process can load another DLL.
 -   Call [**ExitThread**](freelibraryandexitthread.md). Exiting a thread during DLL detach can cause the loader lock to be acquired again, causing a deadlock or a crash.

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the OpenGL-style line-drawing mode.'
-ms.assetid: '80b33c05-d081-45f3-83d8-71a3555cc8ef'
-title: 'ID3DXLine::GetGLLines method'
+---
+Description: Gets the OpenGL-style line-drawing mode.
+ms.assetid: 80b33c05-d081-45f3-83d8-71a3555cc8ef
+title: ID3DXLineGetGLLines method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXLine::GetGLLines method

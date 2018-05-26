@@ -1,8 +1,11 @@
 ---
 title: IWMPLibrary mediaCollection property
 description: The mediaCollection property gets an IWMPMediaCollection interface for the current library.
-ms.assetid: '6ac92b0d-d634-4e99-8946-b10363d4be47'
-keywords: ["mediaCollection property Windows Media Player", "mediaCollection property Windows Media Player , IWMPLibrary interface", "IWMPLibrary interface Windows Media Player , mediaCollection property"]
+ms.assetid: 6ac92b0d-d634-4e99-8946-b10363d4be47
+keywords:
+- mediaCollection property Windows Media Player
+- mediaCollection property Windows Media Player , IWMPLibrary interface
+- IWMPLibrary interface Windows Media Player , mediaCollection property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPLibrary::mediaCollection property
@@ -70,9 +78,9 @@ A WMPLib.IWMPMediaCollection interface for the current library.
 [**IWMPMediaCollection Interface (VB and C#)**](iwmpmediacollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

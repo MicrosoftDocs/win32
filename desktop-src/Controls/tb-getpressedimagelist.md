@@ -1,8 +1,9 @@
 ---
 title: TB\_GETPRESSEDIMAGELIST message
 description: Gets the image list that a toolbar control uses to display buttons in a pressed state.
-ms.assetid: '116d4212-48ea-4b00-a752-21e5e1f10e36'
-keywords: ["TB_GETPRESSEDIMAGELIST message Windows Controls"]
+ms.assetid: 116d4212-48ea-4b00-a752-21e5e1f10e36
+keywords:
+- TB_GETPRESSEDIMAGELIST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETPRESSEDIMAGELIST message
@@ -45,15 +51,15 @@ Returns the handle to the image list, or **NULL** if no image list is set.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

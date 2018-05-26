@@ -1,7 +1,12 @@
-﻿---
-Description: 'Configures a protected output object.'
-ms.assetid: 'd22a378e-2d4e-4ff4-a18e-136932c24d2b'
+---
+Description: Configures a protected output object.
+ms.assetid: d22a378e-2d4e-4ff4-a18e-136932c24d2b
 title: ConfigureOPMProtectedOutput function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConfigureOPMProtectedOutput function
@@ -65,7 +70,7 @@ If the method succeeds, it returns **STATUS\_SUCCESS**. Otherwise, it returns an
 
 ## Remarks
 
-Applications should call [**IOPMVideoOutput::Configure**](iopmvideooutput-iopmvideooutput--configure.md) instead of calling this function.
+Applications should call [**IOPMVideoOutput::Configure**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-configure?branch=master) instead of calling this function.
 
 This function has no associated import library. To call this function, you must use the [**LoadLibrary**](base.loadlibrary) and [**GetProcAddress**](base.getprocaddress) functions to dynamically link to Gdi32.dll.
 

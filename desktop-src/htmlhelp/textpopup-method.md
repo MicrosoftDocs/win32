@@ -1,7 +1,12 @@
 ---
 title: TextPopup Method
 description: Use the TextPopup method to open a pop-up window.
-ms.assetid: '039C0F02-37D4-4e60-B45E-BBACC900A410'
+ms.assetid: 039C0F02-37D4-4e60-B45E-BBACC900A410
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextPopup Method

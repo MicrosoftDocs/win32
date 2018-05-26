@@ -1,12 +1,18 @@
 ---
 title: Support ReportProgress methods
 description: Reports the progress of the assessment to the AXE engine and can inform the assessment if it should stop running.
-ms.assetid: '95985530-48C3-4CA5-9FFC-2930DC6C8803'
-keywords: ["ReportProgress methods Access Execution Engine"]
+ms.assetid: 95985530-48C3-4CA5-9FFC-2930DC6C8803
+keywords:
+- ReportProgress methods Access Execution Engine
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support::ReportProgress methods
@@ -31,9 +37,9 @@ Reports the progress of the assessment to the AXE engine and can inform the asse
 [**Support**](support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

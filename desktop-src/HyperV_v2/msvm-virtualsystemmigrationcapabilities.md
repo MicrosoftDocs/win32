@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the means by which a client can discover the methods provided by the migration service, and valid range of virtual system migration setting data.'
-ms.assetid: '704fa81d-54a4-4d12-9b85-8836581d2784'
-title: 'Msvm\_VirtualSystemMigrationCapabilities class'
+Description: Defines the means by which a client can discover the methods provided by the migration service, and valid range of virtual system migration setting data.
+ms.assetid: 704fa81d-54a4-4d12-9b85-8836581d2784
+title: Msvm\_VirtualSystemMigrationCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemMigrationCapabilities class
@@ -124,7 +129,7 @@ An array of name formats that are supported for the *DestinationHost* parameter 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -193,17 +198,17 @@ Identifies the methods whose implementation may be synchronous; that is, the ope
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

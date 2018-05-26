@@ -1,8 +1,9 @@
 ---
 title: TunerLockType enumeration
 description: The TunerLockType enumeration type specifies how well a television tuner has locked onto a signal.
-ms.assetid: '657dfd46-b01c-41aa-af0c-0d07235f15fc'
-keywords: ["TunerLockType enumeration Microsoft TV Technologies"]
+ms.assetid: 657dfd46-b01c-41aa-af0c-0d07235f15fc
+keywords:
+- TunerLockType enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Ksmedia.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TunerLockType enumeration
@@ -22,9 +28,9 @@ The **TunerLockType** enumeration type specifies how well a television tuner has
 
 ```C++
 typedef enum _TunerDecoderLockType { 
-  Tuner_LockType_None                       = 0x00,
-  Tuner_LockType_Within_Scan_Sensing_Range  = 0x01,
-  Tuner_LockType_Locked                     = 0x02
+  Tuner_LockType_None                       = 0x00,
+  Tuner_LockType_Within_Scan_Sensing_Range  = 0x01,
+  Tuner_LockType_Locked                     = 0x02
 } TunerLockType;
 ```
 
@@ -72,9 +78,9 @@ The tuner locked onto an exact frequency. This value indicates that the tuner wa
 [BDA Enumeration Types](bda-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '54c0ebd1-d270-4e8b-88e6-d58698ddd208'
-title: 'System.OriginalFileName'
+Description: .
+ms.assetid: 54c0ebd1-d270-4e8b-88e6-d58698ddd208
+title: System.OriginalFileName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.OriginalFileName

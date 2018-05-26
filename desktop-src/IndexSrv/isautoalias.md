@@ -1,7 +1,12 @@
 ---
 title: IsAutoAlias
 description: IsAutoAlias
-ms.assetid: 'c5ff0c61-6f35-48e4-9bef-88ae7383de9e'
+ms.assetid: c5ff0c61-6f35-48e4-9bef-88ae7383de9e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsAutoAlias

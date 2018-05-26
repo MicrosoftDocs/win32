@@ -1,8 +1,11 @@
 ---
 title: ICatalog Open method
 description: method Open - opens a catalog given a valid catalog directory path and list of prioritized languages for fallback
-ms.assetid: '83700b68-2a5d-4ae0-9ef3-82ebd3aa369b'
-keywords: ["Open method HelpAPI", "Open method HelpAPI , ICatalog interface", "ICatalog interface HelpAPI , Open method"]
+ms.assetid: 83700b68-2a5d-4ae0-9ef3-82ebd3aa369b
+keywords:
+- Open method HelpAPI
+- Open method HelpAPI , ICatalog interface
+- ICatalog interface HelpAPI , Open method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICatalog::Open method
@@ -22,8 +30,8 @@ method Open - opens a catalog given a valid catalog directory path and list of p
 
 ```C++
 HRESULT Open(
-  [in] BSTR      path,
-  [in] SAFEARRAY BSTR
+  [in] BSTR      path,
+  [in] SAFEARRAY BSTR
 );
 ```
 
@@ -49,8 +57,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -62,9 +70,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ICatalog**](icatalog.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

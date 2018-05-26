@@ -4,10 +4,13 @@ description: This topic explains how to report user access to a server by using 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8A4EF5D9-4BCF-42F9-AB76-A74E9F57A8E4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'user-access-logging'
+ms.assetid: 8A4EF5D9-4BCF-42F9-AB76-A74E9F57A8E4
+ms.prod: windows-server-dev
+ms.technology: user-access-logging
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to report user access to a server.
@@ -22,11 +25,11 @@ This topic explains how to report user access to a server by using [User Access 
 
 ### 
 
-1.  Register the server role by calling the [**UalRegisterProduct**](ualregisterproduct.md) function. Call this function either at application setup or at first launch.
-2.  Allocate and populate a [**UAL\_DATA\_BLOB**](ual-data-blob.md) structure.
-3.  Start a UAL session by calling the [**UalStart**](ualstart.md) function. Call this function each time the application starts.
-4.  Call the [**UalInstrument**](ualinstrument.md) function to log user access.
-5.  Call the [**UalStop**](ualstop.md) function to stop the UAL session and clean up resources.
+1.  Register the server role by calling the [**UalRegisterProduct**](/windows/previous-versions/Ual/nf-ual-ualregisterproduct?branch=master) function. Call this function either at application setup or at first launch.
+2.  Allocate and populate a [**UAL\_DATA\_BLOB**](/windows/previous-versions/Ual/ns-ual-tagual_data_blob?branch=master) structure.
+3.  Start a UAL session by calling the [**UalStart**](/windows/previous-versions/Ual/nf-ual-ualstart?branch=master) function. Call this function each time the application starts.
+4.  Call the [**UalInstrument**](/windows/previous-versions/Ual/nf-ual-ualinstrument?branch=master) function to log user access.
+5.  Call the [**UalStop**](/windows/previous-versions/Ual/nf-ual-ualstop?branch=master) function to stop the UAL session and clean up resources.
 
 ## Remarks
 

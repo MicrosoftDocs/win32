@@ -1,7 +1,12 @@
 ---
-Description: 'The AsynchronousBlockOutputPin method blocks the pin. The method might return before the pin is blocked.'
-ms.assetid: '14cdc973-f0d3-4d1b-8491-67c1421f630b'
-title: 'CDynamicOutputPin.AsynchronousBlockOutputPin method'
+Description: The AsynchronousBlockOutputPin method blocks the pin. The method might return before the pin is blocked.
+ms.assetid: 14cdc973-f0d3-4d1b-8491-67c1421f630b
+title: CDynamicOutputPin.AsynchronousBlockOutputPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.AsynchronousBlockOutputPin method
@@ -13,7 +18,7 @@ The `AsynchronousBlockOutputPin` method blocks the pin. The method might return 
 
 ```C++
 HRESULT AsynchronousBlockOutputPin(
-   HANDLE hNotifyCallerPinBlockedEvent
+   HANDLE hNotifyCallerPinBlockedEvent
 );
 ```
 
@@ -44,7 +49,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,9 +75,9 @@ If no streaming thread is using the pin, this method immediately blocks the pin.
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The defaultfx attribute specifies the class identifier (CLSID) of a default effect for the timeline.'
-ms.assetid: '892de9fe-8fb9-419e-a18b-8f20148f4ee0'
+Description: The defaultfx attribute specifies the class identifier (CLSID) of a default effect for the timeline.
+ms.assetid: 892de9fe-8fb9-419e-a18b-8f20148f4ee0
 title: defaultfx Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # defaultfx Attribute

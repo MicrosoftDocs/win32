@@ -1,7 +1,12 @@
-﻿---
-Description: 'Load mesh child data from a .x file.'
-ms.assetid: '5ed338f9-48a6-44e6-95da-1bed9ecd6ebf'
-title: 'ID3DXLoadUserData::LoadMeshChildData method'
+---
+Description: Load mesh child data from a .x file.
+ms.assetid: 5ed338f9-48a6-44e6-95da-1bed9ecd6ebf
+title: ID3DXLoadUserDataLoadMeshChildData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXLoadUserData::LoadMeshChildData method

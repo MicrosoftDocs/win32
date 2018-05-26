@@ -1,14 +1,20 @@
 ---
 title: SourceURL Attribute
 description: The SourceURL attribute is the address of the item.
-ms.assetid: '2be88d9b-4fd8-4e70-9a4d-114a2bf8b23c'
-keywords: ["SourceURL Attribute Windows Media Player"]
+ms.assetid: 2be88d9b-4fd8-4e70-9a4d-114a2bf8b23c
+keywords:
+- SourceURL Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SourceURL
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SourceURL Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

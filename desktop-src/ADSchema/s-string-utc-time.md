@@ -4,17 +4,21 @@ description: A time string format defined by ASN.1 standards.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0fd52c59-a940-4d61-a16b-cd1853f5c348'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0fd52c59-a940-4d61-a16b-cd1853f5c348
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["String(UTC-Time) syntax AD Schema"]
+keywords:
+- String(UTC-Time) syntax AD Schema
 topic_type:
 - apiref
 api_name:
 - String(UTC-Time)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # String(UTC-Time) syntax

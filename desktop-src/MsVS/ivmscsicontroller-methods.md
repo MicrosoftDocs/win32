@@ -1,7 +1,12 @@
 ---
 title: IVMSCSIController Methods
 description: The IVMSCSIController interface defines the following methods
-ms.assetid: '43ea878c-15fd-4266-b713-b4accbb75e7a'
+ms.assetid: 43ea878c-15fd-4266-b713-b4accbb75e7a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSCSIController Methods

@@ -1,7 +1,12 @@
 ---
-Description: 'A DLL can optionally specify an entry-point function.'
-ms.assetid: 'ec035fc6-0a6f-4e52-a4cc-8d7a25a94366'
-title: 'Dynamic-Link Library Entry-Point Function'
+Description: A DLL can optionally specify an entry-point function.
+ms.assetid: ec035fc6-0a6f-4e52-a4cc-8d7a25a94366
+title: Dynamic-Link Library Entry-Point Function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic-Link Library Entry-Point Function
@@ -16,7 +21,7 @@ If you are providing your own entry-point, see the [**DllMain**](dllmain.md) fun
 
 The system calls the entry-point function whenever any one of the following events occurs:
 
--   A process loads the DLL. For processes using load-time dynamic linking, the DLL is loaded during process initialization. For processes using run-time linking, the DLL is loaded before [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](loadlibraryex.md) returns.
+-   A process loads the DLL. For processes using load-time dynamic linking, the DLL is loaded during process initialization. For processes using run-time linking, the DLL is loaded before [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master) returns.
 -   A process unloads the DLL. The DLL is unloaded when the process terminates or calls the [**FreeLibrary**](freelibrary.md) function and the reference count becomes zero. If the process terminates as a result of the [**TerminateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms686714) or [**TerminateThread**](https://msdn.microsoft.com/library/windows/desktop/ms686717) function, the system does not call the DLL entry-point function.
 -   A new thread is created in a process that has loaded the DLL. You can use the [**DisableThreadLibraryCalls**](disablethreadlibrarycalls.md) function to disable notification when threads are created.
 -   A thread of a process that has loaded the DLL terminates normally, not using [**TerminateThread**](https://msdn.microsoft.com/library/windows/desktop/ms686717) or [**TerminateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms686714). When a process unloads the DLL, the entry-point function is called only once for the entire process, rather than once for each existing thread of the process. You can use [**DisableThreadLibraryCalls**](disablethreadlibrarycalls.md) to disable notification when threads are terminated.
@@ -36,7 +41,7 @@ In the body of the function, you may handle any combination of the following sce
 -   A thread exits normally (**DLL\_THREAD\_DETACH**).
 -   A process unloads the DLL (**DLL\_PROCESS\_DETACH**).
 
-The entry-point function should perform only simple initialization tasks. It must not call the [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](loadlibraryex.md) function (or a function that calls these functions), because this may create dependency loops in the DLL load order. This can result in a DLL being used before the system has executed its initialization code. Similarly, the entry-point function must not call the [**FreeLibrary**](freelibrary.md) function (or a function that calls **FreeLibrary**) during process termination, because this can result in a DLL being used after the system has executed its termination code.
+The entry-point function should perform only simple initialization tasks. It must not call the [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master) function (or a function that calls these functions), because this may create dependency loops in the DLL load order. This can result in a DLL being used before the system has executed its initialization code. Similarly, the entry-point function must not call the [**FreeLibrary**](freelibrary.md) function (or a function that calls **FreeLibrary**) during process termination, because this can result in a DLL being used after the system has executed its termination code.
 
 Because Kernel32.dll is guaranteed to be loaded in the process address space when the entry-point function is called, calling functions in Kernel32.dll does not result in the DLL being used before its initialization code has been executed. Therefore, the entry-point function can create [synchronization objects](https://msdn.microsoft.com/library/windows/desktop/ms686364) such as critical sections and mutexes, and use TLS, because these functions are located in Kernel32.dll. It is not safe to call the registry functions, for example, because they are located in Advapi32.dll.
 
@@ -76,7 +81,7 @@ BOOL WINAPI DllMain(
 
 ## Entry-Point Function Return Value
 
-When a DLL entry-point function is called because a process is loading, the function returns **TRUE** to indicate success. For processes using load-time linking, a return value of **FALSE** causes the process initialization to fail and the process terminates. For processes using run-time linking, a return value of FALSE causes the [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](loadlibraryex.md) function to return **NULL**, indicating failure. (The system immediately calls your entry-point function with **DLL\_PROCESS\_DETACH** and unloads the DLL.) The return value of the entry-point function is disregarded when the function is called for any other reason.
+When a DLL entry-point function is called because a process is loading, the function returns **TRUE** to indicate success. For processes using load-time linking, a return value of **FALSE** causes the process initialization to fail and the process terminates. For processes using run-time linking, a return value of FALSE causes the [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master) function to return **NULL**, indicating failure. (The system immediately calls your entry-point function with **DLL\_PROCESS\_DETACH** and unloads the DLL.) The return value of the entry-point function is disregarded when the function is called for any other reason.
 
  
 

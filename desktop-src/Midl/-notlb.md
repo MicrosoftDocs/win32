@@ -2,13 +2,19 @@
 title: /notlb switch
 description: The /notlb switch prevents the MIDL compiler from generating a type library (TLB) file.
 ms.assetid: 58f4210d-d3c3-42ce-b311-4ddd85bc396a
-keywords: ["/notlb switch MIDL"]
+keywords:
+- /notlb switch MIDL
 topic_type:
 - apiref
 api_name:
 - /notlb
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /notlb switch

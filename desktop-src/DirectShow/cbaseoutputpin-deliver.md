@@ -1,7 +1,12 @@
 ---
-Description: 'The Deliver method delivers a media sample to the connected input pin.'
-ms.assetid: 'b871df84-c69e-42eb-9da9-c25996bf08c3'
-title: 'CBaseOutputPin.Deliver method'
+Description: The Deliver method delivers a media sample to the connected input pin.
+ms.assetid: b871df84-c69e-42eb-9da9-c25996bf08c3
+title: CBaseOutputPin.Deliver method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin.Deliver method
@@ -13,7 +18,7 @@ The `Deliver` method delivers a media sample to the connected input pin.
 
 ```C++
 virtual HRESULT Deliver(
-   IMediaSample *pSample
+   IMediaSample *pSample
 );
 ```
 
@@ -26,7 +31,7 @@ virtual HRESULT Deliver(
 *pSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -43,15 +48,15 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
-This method calls the [**IMemInputPin::Receive**](imeminputpin-receive.md) method on the input pin. **Receive** can block if the [**IMemInputPin::ReceiveCanBlock**](imeminputpin-receivecanblock.md) method returns S\_OK.
+This method calls the [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method on the input pin. **Receive** can block if the [**IMemInputPin::ReceiveCanBlock**](/windows/win32/Strmif/nf-strmif-imeminputpin-receivecanblock?branch=master) method returns S\_OK.
 
 Release the sample after calling this method. The input pin might hold a reference count on the sample, so do not reuse the sample. Always call the [**CBaseOutputPin::GetDeliveryBuffer**](cbaseoutputpin-getdeliverybuffer.md) method to obtain a new sample.
 
-Hold the filter's critical section before calling this method. Otherwise, the pin might get disconnected during the method call. If the filter uses a worker thread to deliver samples, hold the critical section when the filter is ready to deliver a sample. Otherwise, you can hold the critical section in the filter's [**IMemInputPin::Receive**](imeminputpin-receive.md) method, where the filter processes samples.
+Hold the filter's critical section before calling this method. Otherwise, the pin might get disconnected during the method call. If the filter uses a worker thread to deliver samples, hold the critical section when the filter is ready to deliver a sample. Otherwise, you can hold the critical section in the filter's [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method, where the filter processes samples.
 
 Worker threads can create a potential deadlock. When the thread holds the critical section, it might wait on a state change in the filter. At the same time, the state change might be waiting for the thread to complete. To prevent this, the state-change code should signal an event that terminates the thread, and then wait for the thread to signal completion.
 
@@ -73,9 +78,9 @@ Worker threads can create a potential deadlock. When the thread holds the critic
 [**CBaseOutputPin Class**](cbaseoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

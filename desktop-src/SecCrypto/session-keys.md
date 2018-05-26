@@ -1,7 +1,12 @@
 ---
-Description: 'Session keys are keys that are generated to be used in a single communication session.'
-ms.assetid: '18bf2023-084d-400d-b60d-1ba51ce6a2bc'
+Description: Session keys are keys that are generated to be used in a single communication session.
+ms.assetid: 18bf2023-084d-400d-b60d-1ba51ce6a2bc
 title: Session Keys
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session Keys

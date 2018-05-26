@@ -1,14 +1,22 @@
 ---
 title: Service.onGetChildrenByFormatComplete event
 description: The onGetChildrenByFormatComplete event occurs, and a callback handler is invoked, when a Service.GetChildrenByFormat method operation is completed.
-ms.assetid: '8c185284-d3b2-4074-af55-2544f1f81aeb'
-keywords: ["onGetChildrenByFormatComplete event WPD Automation", "onGetChildrenByFormatComplete event WPD Automation , Service object", "Service object WPD Automation , onGetChildrenByFormatComplete event"]
+ms.assetid: 8c185284-d3b2-4074-af55-2544f1f81aeb
+keywords:
+- onGetChildrenByFormatComplete event WPD Automation
+- onGetChildrenByFormatComplete event WPD Automation , Service object
+- Service object WPD Automation , onGetChildrenByFormatComplete event
 topic_type:
 - apiref
 api_name:
 - Service.onGetChildrenByFormatComplete
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.onGetChildrenByFormatComplete event
@@ -78,8 +86,8 @@ Service.onGetChildrenByFormatComplete = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -96,9 +104,9 @@ Service.onGetChildrenByFormatComplete = HandlerFunction;
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

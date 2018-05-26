@@ -4,11 +4,14 @@ description: Retrieves the basic inventory information of the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3444d7fa-f3f3-40a0-82bc-2f6f99939975'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 3444d7fa-f3f3-40a0-82bc-2f6f99939975
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetServerInventory method", "GetServerInventory method, MSFT_ServerManagerTasks class", "MSFT_ServerManagerTasks class, GetServerInventory method"]
+keywords:
+- GetServerInventory method
+- GetServerInventory method, MSFT_ServerManagerTasks class
+- MSFT_ServerManagerTasks class, GetServerInventory method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetServerInventory method of the MSFT\_ServerManagerTasks class
@@ -28,12 +34,12 @@ Retrieves the basic inventory information of the server.
 
 ```mof
 uint32 GetServerInventory(
-  [in]  string                        SMServerId,
-  [out] MSFT_ServerInventory          ServerInventory,
-  [out] MSFT_ServerOperatingSystem    OperatingSystem,
-  [out] MSFT_ServerClusterInformation ClusterInformation,
-  [out] MSFT_ServerNetworkAdapter     NetworkAdapters[],
-  [out] MSFT_ServerEventLog           EventLogs[]
+  [in]  string                        SMServerId,
+  [out] MSFT_ServerInventory          ServerInventory,
+  [out] MSFT_ServerOperatingSystem    OperatingSystem,
+  [out] MSFT_ServerClusterInformation ClusterInformation,
+  [out] MSFT_ServerNetworkAdapter     NetworkAdapters[],
+  [out] MSFT_ServerEventLog           EventLogs[]
 );
 ```
 
@@ -92,7 +98,7 @@ An array of embedded instances of the [**MSFT\_ServerEventLog**](msft-servereven
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
@@ -121,9 +127,9 @@ An array of embedded instances of the [**MSFT\_ServerEventLog**](msft-servereven
 [**MSFT\_ServerEventLog**](msft-servereventlog.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

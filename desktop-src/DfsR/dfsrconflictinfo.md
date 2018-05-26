@@ -4,13 +4,15 @@ description: This class provides details about the files and folders that were m
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '14b21820-9631-435e-8990-ef518a52bea8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 14b21820-9631-435e-8990-ef518a52bea8
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrConflictInfo class Distributed File System Replication", "DfsrConflictInfo class Distributed File System Replication , described"]
+keywords:
+- DfsrConflictInfo class Distributed File System Replication
+- DfsrConflictInfo class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrConflictInfo class
@@ -49,24 +54,24 @@ This class provides details about the files and folders that were moved to the C
 [Dynamic, Provider("DfsrMonitorProv")]
 class DfsrConflictInfo : CIM_LogicalElement
 {
-  string       Caption;
-  string       Description;
+  string       Caption;
+  string       Description;
   datetime REF InstallDate;
-  string       Name;
-  string       Status;
-  string       GVsn;
-  string       Uid;
-  string       FileName;
-  uint32       FileAttributes;
-  uint32       ConflictFileCount;
-  uint64       ConflictSizeInBytes;
-  datetime     ConflictTime;
-  string       ConflictPath;
-  uint8        ConflictType;
-  string       ReplicatedFolderGuid;
-  string       ReplicationGroupGuid;
-  string       MemberGuid;
-  string       PartnerGuid;
+  string       Name;
+  string       Status;
+  string       GVsn;
+  string       Uid;
+  string       FileName;
+  uint32       FileAttributes;
+  uint32       ConflictFileCount;
+  uint64       ConflictSizeInBytes;
+  datetime     ConflictTime;
+  string       ConflictPath;
+  uint8        ConflictType;
+  string       ReplicatedFolderGuid;
+  string       ReplicationGroupGuid;
+  string       MemberGuid;
+  string       PartnerGuid;
 };
 ```
 
@@ -89,7 +94,7 @@ The **DfsrConflictInfo** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -513,9 +518,9 @@ The unique identifier and version of the conflicted file or folder.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -532,9 +537,9 @@ The unique identifier and version of the conflicted file or folder.
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

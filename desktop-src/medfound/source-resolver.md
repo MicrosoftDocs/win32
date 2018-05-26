@@ -1,7 +1,12 @@
 ---
 Description: Source Resolver
-ms.assetid: '93eecf10-308b-4bb4-92f9-fd32d6ecdb04'
+ms.assetid: 93eecf10-308b-4bb4-92f9-fd32d6ecdb04
 title: Source Resolver
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source Resolver

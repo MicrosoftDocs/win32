@@ -1,8 +1,18 @@
 ---
 title: Example of Registry Redirection on WOW64
 description: The following example code demonstrates the separate views of the registry provided by the registry redirector on 64-bit Windows.
-ms.assetid: 'b3ca2a47-402d-4e91-88bc-ddda6c776468'
-keywords: ["examples 64-bit Windows Programming", "64-bit Windows programming guide examples 64-bit Windows Programming", "64-bit Windows programming guide examples 64-bit Windows Programming , registry redirection on WOW64", "registry redirection example 64-bit Windows Programming", "64-bit Windows programming guide 64-bit Windows Programming , examples See 64-bit Windows programming guide examples"]
+ms.assetid: b3ca2a47-402d-4e91-88bc-ddda6c776468
+keywords:
+- examples 64-bit Windows Programming
+- 64-bit Windows programming guide examples 64-bit Windows Programming
+- 64-bit Windows programming guide examples 64-bit Windows Programming , registry redirection on WOW64
+- registry redirection example 64-bit Windows Programming
+- 64-bit Windows programming guide 64-bit Windows Programming , examples See 64-bit Windows programming guide examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example of Registry Redirection on WOW64

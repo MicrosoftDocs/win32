@@ -1,7 +1,12 @@
 ---
 title: Language-Specific Registry Entries
 description: Language-Specific Registry Entries
-ms.assetid: 'bc03bdfd-55ab-4cc5-96fe-fdf7bf591d9e'
+ms.assetid: bc03bdfd-55ab-4cc5-96fe-fdf7bf591d9e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Language-Specific Registry Entries

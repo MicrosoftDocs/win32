@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectVariable GetElement method
 description: Get an array element.
-ms.assetid: '3edf2084-570a-4423-8205-0b94a2a0cfde'
-keywords: ["GetElement method Direct3D 11", "GetElement method Direct3D 11 , ID3DX11EffectVariable interface", "ID3DX11EffectVariable interface Direct3D 11 , GetElement method"]
+ms.assetid: 3edf2084-570a-4423-8205-0b94a2a0cfde
+keywords:
+- GetElement method Direct3D 11
+- GetElement method Direct3D 11 , ID3DX11EffectVariable interface
+- ID3DX11EffectVariable interface Direct3D 11 , GetElement method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectVariable::GetElement method
@@ -23,7 +31,7 @@ Get an array element.
 
 ```C++
 ID3DX11EffectVariable* GetElement(
-   UINT Index
+   UINT Index
 );
 ```
 
@@ -55,7 +63,7 @@ If the effect variable is an array, use this method to return one of the element
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ If the effect variable is an array, use this method to return one of the element
 [ID3DX11EffectVariable](id3dx11effectvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

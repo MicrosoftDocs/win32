@@ -1,8 +1,16 @@
 ---
 title: Porting Applications from IRIS GL
 description: Porting Applications from IRIS GL
-ms.assetid: 'd410b516-76a1-4cab-a843-801aa6215db5'
-keywords: ["OpenGL on Windows,IRIS GL porting", "porting to OpenGL,IRIS GL", "OpenGL porting,IRIS GL"]
+ms.assetid: d410b516-76a1-4cab-a843-801aa6215db5
+keywords:
+- OpenGL on Windows,IRIS GL porting
+- porting to OpenGL,IRIS GL
+- OpenGL porting,IRIS GL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Applications from IRIS GL

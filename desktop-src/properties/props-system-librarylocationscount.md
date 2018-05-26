@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the number of library locations.'
-ms.assetid: '35D49432-E734-4EE7-AE17-1FE92764D19F'
-title: 'System.LibraryLocationsCount'
+Description: Indicates the number of library locations.
+ms.assetid: 35D49432-E734-4EE7-AE17-1FE92764D19F
+title: System.LibraryLocationsCount
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.LibraryLocationsCount

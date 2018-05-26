@@ -1,8 +1,11 @@
 ---
 title: EnableEndPoints method of the Msvm\_RdvComponent class
 description: Requests the Remote Desktop Services Virtual Device to Start a Pipe connection with the virtual machine.
-ms.assetid: '16590d10-6307-437d-a3bb-6cf8c86c75d9'
-keywords: ["EnableEndPoints method Hyper-V", "EnableEndPoints method Hyper-V , Msvm_RdvComponent class", "Msvm_RdvComponent class Hyper-V , EnableEndPoints method"]
+ms.assetid: 16590d10-6307-437d-a3bb-6cf8c86c75d9
+keywords:
+- EnableEndPoints method Hyper-V
+- EnableEndPoints method Hyper-V , Msvm_RdvComponent class
+- Msvm_RdvComponent class Hyper-V , EnableEndPoints method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableEndPoints method of the Msvm\_RdvComponent class
@@ -105,9 +113,9 @@ If zero (0) is returned, then the operation was successful. Any other return cod
 [**Msvm\_RdvComponent**](msvm-rdvcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

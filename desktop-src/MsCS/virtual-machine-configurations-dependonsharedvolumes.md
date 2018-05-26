@@ -4,17 +4,22 @@ description: Used by the virtual machine (VM) configuration resource type to sto
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1e8cfc1f-af38-48b8-91f8-291f0c0f7b74'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1e8cfc1f-af38-48b8-91f8-291f0c0f7b74
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DependOnSharedVolumes Failover Cluster ,for virtual machine configurations", "DependsOnSharedVolumes Failover Cluster"]
+keywords:
+- DependOnSharedVolumes Failover Cluster ,for virtual machine configurations
+- DependsOnSharedVolumes Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DependsOnSharedVolumes
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DependsOnSharedVolumes
@@ -28,18 +33,18 @@ Used by the virtual machine (VM) configuration resource type to store informatio
 | Data type<br/> | MULTI-SZ<br/>                                           |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>            |
 | Status<br/>    | Required<br/>                                           |
-| Structure<br/> | [**CLUSPROP\_MULTI\_SZ**](clusprop-multi-sz.md)<br/>   |
+| Structure<br/> | [**CLUSPROP\_MULTI\_SZ**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_sz?branch=master)<br/>   |
 | Minimum<br/>   | **NULL**<br/>                                           |
 | Maximum<br/>   | see [Maximum String Size](maximum-string-size.md)<br/> |
 | Default<br/>   | **NULL**<br/>                                           |
 
 
 
- 
+ 
 
 ## Remarks
 
-The format of each string within the [**CLUSPROP\_MULTI\_SZ**](clusprop-multi-sz.md) structure is the [resource identifier](resource-identifiers.md) of the cluster shared volume, a colon ':', and the offset (in decimal) of the volume (partition) used by the VM.
+The format of each string within the [**CLUSPROP\_MULTI\_SZ**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_sz?branch=master) structure is the [resource identifier](resource-identifiers.md) of the cluster shared volume, a colon ':', and the offset (in decimal) of the volume (partition) used by the VM.
 
 ## Examples
 
@@ -68,7 +73,7 @@ CopyMemory( (PVOID)DOSVValue.sz, (PVOID)szDOSVData, sizeof(szDOSVData) );
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
 
 
 
@@ -79,12 +84,12 @@ CopyMemory( (PVOID)DOSVValue.sz, (PVOID)szDOSVData, sizeof(szDOSVData) );
 [Virtual Machine Configuration Private Properties](virtual-machine-configuration-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_MULTI\_SZ**](clusprop-multi-sz.md)
+[**CLUSPROP\_MULTI\_SZ**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_sz?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

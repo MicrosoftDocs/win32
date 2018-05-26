@@ -1,8 +1,9 @@
 ---
 title: MCI\_SAVE\_PARMS structure
 description: The MCI\_SAVE\_PARMS structure contains the filename information for the MCI\_SAVE command.
-ms.assetid: 'fbaff175-e521-4b93-853a-f444726932d3'
-keywords: ["MCI_SAVE_PARMS structure Windows Multimedia"]
+ms.assetid: fbaff175-e521-4b93-853a-f444726932d3
+keywords:
+- MCI_SAVE_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_SAVE\_PARMS structure
@@ -23,7 +29,7 @@ The **MCI\_SAVE\_PARMS** structure contains the filename information for the [**
 ```C++
 typedef struct {
   DWORD_PTR dwCallback;
-  LPCTSTR   lpfilename;
+  LPCTSTR   lpfilename;
 } MCI_SAVE_PARMS;
 ```
 
@@ -49,7 +55,7 @@ Name of file to save.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](mcisendcommand.md) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to validate the members.
 
 ## Requirements
 
@@ -57,8 +63,8 @@ When assigning data to the members of this structure, set the corresponding flag
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -76,12 +82,12 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_SAVE**](mci-save.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

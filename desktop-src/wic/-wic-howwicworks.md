@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'c233e25b-bec6-4e67-8fbf-2bf9b70c7522'
+ms.assetid: c233e25b-bec6-4e67-8fbf-2bf9b70c7522
 title: How the Windows Imaging Component Works
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How the Windows Imaging Component Works
@@ -21,7 +26,7 @@ Before an image can be decoded, an appropriate codec must be found that can deco
 
 To support run-time discovery, each image format must have an identifying pattern that can be used to identify the appropriate decoder for that format. (It is strongly recommended that, for new file formats, you use a GUID for the identifying pattern, because it is guaranteed to be unique.) The identifying pattern must be embedded in each image file that conforms to that image format. Each decoder has a registry entry that specifies the identifying pattern or patterns of the image formats it can decode. When an application needs to open an image, it requests a decoder from WIC. WIC looks up the available decoders in the registry, and checks each registry entry for an identifying pattern that matches the pattern embedded in the image file. For more information on decoder registry entries, see [Encoder-Specific Registry Entries](-wic-decoderregentries.md)
 
-When WIC finds a single decoder that matches the identifying pattern in the image, it creates an instance of the decoder and passes the image file to it. If WIC finds more than one match, it invokes a method called [**QueryCapability**](-wic-codec-iwicbitmapdecoder-querycapability.md) on each matching decoder to arbitrate among them and find the best match. For more information, see the [QueryCapabilities](-wic-imp-iwicbitmapdecoder.md) section in the [Implementing IWICBitmapDecoder](-wic-imp-iwicbitmapdecoder.md).
+When WIC finds a single decoder that matches the identifying pattern in the image, it creates an instance of the decoder and passes the image file to it. If WIC finds more than one match, it invokes a method called [**QueryCapability**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-querycapability?branch=master) on each matching decoder to arbitrate among them and find the best match. For more information, see the [QueryCapabilities](-wic-imp-iwicbitmapdecoder.md) section in the [Implementing IWICBitmapDecoder](-wic-imp-iwicbitmapdecoder.md).
 
 ## Decoding
 

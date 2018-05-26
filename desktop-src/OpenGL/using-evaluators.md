@@ -1,8 +1,15 @@
 ---
 title: Using Evaluators
 description: Using Evaluators
-ms.assetid: 'a5a99d0a-526e-4492-90c4-a6b9fdbdff16'
-keywords: ["OpenGL,evaluators", "evaluators OpenGL"]
+ms.assetid: a5a99d0a-526e-4492-90c4-a6b9fdbdff16
+keywords:
+- OpenGL,evaluators
+- evaluators OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Evaluators

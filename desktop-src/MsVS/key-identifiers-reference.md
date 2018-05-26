@@ -1,7 +1,12 @@
 ---
 title: Key Identifiers Reference
 description: The Key Identifiers Reference lists the valid key identifiers used to simulate keystrokes in a virtual machine.
-ms.assetid: 'ed0a7a43-0837-45b4-b727-520064ac56fb'
+ms.assetid: ed0a7a43-0837-45b4-b727-520064ac56fb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Key Identifiers Reference

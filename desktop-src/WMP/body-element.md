@@ -1,14 +1,20 @@
 ---
 title: body Element
 description: The body element contains the elements that define the contents of a playlist.
-ms.assetid: '96d09635-c360-4a36-a56e-6cecbbd4ff30'
-keywords: ["body Element Windows Media Player"]
+ms.assetid: 96d09635-c360-4a36-a56e-6cecbbd4ff30
+keywords:
+- body Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - body Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # body Element
@@ -35,7 +41,7 @@ This element has no attributes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -91,9 +97,9 @@ The contents of a playlist are organized within a **seq** element that is contai
 [**Windows Media Playlist Elements Reference**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

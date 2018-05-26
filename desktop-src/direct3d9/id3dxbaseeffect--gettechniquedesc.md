@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a technique description.'
-ms.assetid: '12122858-1e54-446c-8f12-20cc62499d74'
-title: 'ID3DXBaseEffect::GetTechniqueDesc method'
+---
+Description: Gets a technique description.
+ms.assetid: 12122858-1e54-446c-8f12-20cc62499d74
+title: ID3DXBaseEffectGetTechniqueDesc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetTechniqueDesc method

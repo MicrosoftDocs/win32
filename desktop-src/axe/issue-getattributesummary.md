@@ -1,8 +1,11 @@
 ---
 title: Issue GetAttributeSummary method
 description: Returns the summary of the Issue.
-ms.assetid: '788EFB3C-D43F-4BD6-9FB3-7A53165C019A'
-keywords: ["GetAttributeSummary method Access Execution Engine", "GetAttributeSummary method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , GetAttributeSummary method"]
+ms.assetid: 788EFB3C-D43F-4BD6-9FB3-7A53165C019A
+keywords:
+- GetAttributeSummary method Access Execution Engine
+- GetAttributeSummary method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , GetAttributeSummary method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::GetAttributeSummary method
@@ -22,7 +30,7 @@ Returns the summary of the **Issue**.
 
 ```C++
 virtual HRESULT GetAttributeSummary(
-  [out] LPCWSTR *attributeSummary
+  [out] LPCWSTR *attributeSummary
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The summary is attribute **Summary** of element **Issue**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The summary is attribute **Summary** of element **Issue**.
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

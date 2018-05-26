@@ -1,22 +1,27 @@
 ---
 Description: Event Notification Codes
-ms.assetid: '339ffcd9-7724-4c92-b241-afbed81d9380'
+ms.assetid: 339ffcd9-7724-4c92-b241-afbed81d9380
 title: Event Notification Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Notification Codes
 
 This sections lists the DirectShow events that are not specific to DVD. For events specific to DVD, see [DVD Event Notification Codes](dvd-notification-codes.md).
 
-Filters send events to the Filter Graph Manager by calling the [**IMediaEventSink::Notify**](imediaeventsink-notify.md) method. The Filter Graph Manager handles some events and queues others for the application. The application retrieves them by calling the [**IMediaEvent::GetEvent**](imediaevent-getevent.md) method.
+Filters send events to the Filter Graph Manager by calling the [**IMediaEventSink::Notify**](/windows/win32/Strmif/nf-strmif-imediaeventsink-notify?branch=master) method. The Filter Graph Manager handles some events and queues others for the application. The application retrieves them by calling the [**IMediaEvent::GetEvent**](/windows/win32/Control/nf-control-imediaevent-getevent?branch=master) method.
 
-In the sections that follow, each entry lists the event code, the meaning of the event parameters, and the Filter Graph Manager's default action for the event, if any. To override the default action, call [**IMediaEvent::CancelDefaultHandling**](imediaevent-canceldefaulthandling.md). Event codes are defined in the header files Evcode.h and Audevcod.h. If there is no default action, the Filter Graph Manager automatically forwards the event to the application (through the event queue).
+In the sections that follow, each entry lists the event code, the meaning of the event parameters, and the Filter Graph Manager's default action for the event, if any. To override the default action, call [**IMediaEvent::CancelDefaultHandling**](/windows/win32/Control/nf-control-imediaevent-canceldefaulthandling?branch=master). Event codes are defined in the header files Evcode.h and Audevcod.h. If there is no default action, the Filter Graph Manager automatically forwards the event to the application (through the event queue).
 
 **Custom Events**
 
 Filters can define custom events with event codes in the range EC\_USER and higher. The Filter Graph Manager will place these directly in the event queue. However, the following caveats apply:
 
--   The Filter Graph Manager cannot free the event parameters using the normal [**IMediaEvent::FreeEventParams**](imediaevent-freeeventparams.md) method. The application must free any memory or reference counts associated with the event parameters.
+-   The Filter Graph Manager cannot free the event parameters using the normal [**IMediaEvent::FreeEventParams**](/windows/win32/Control/nf-control-imediaevent-freeeventparams?branch=master) method. The application must free any memory or reference counts associated with the event parameters.
 -   The filter should only send the event from within an application that is prepared to handle the event. (Possibly the application can set a custom property on the filter to indicate that it is safe to send the event.)
 
 

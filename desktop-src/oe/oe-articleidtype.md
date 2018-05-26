@@ -1,8 +1,10 @@
 ---
 title: ARTICLEIDTYPE enumeration
 description: Defined as part of INNTPTransport.
-ms.assetid: '38684d7d-b4ac-48eb-b4ba-c10028ca0120'
-keywords: ["ARTICLEIDTYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 38684d7d-b4ac-48eb-b4ba-c10028ca0120
+keywords:
+- ARTICLEIDTYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARTICLEIDTYPE enumeration
@@ -24,8 +31,8 @@ Defined as part of [**INNTPTransport**](oe-inntptransport.md).
 
 ```C++
 typedef enum tagARTICLEIDTYPE { 
-  AID_MSGID       = 0,
-  AID_ARTICLENUM  = 1
+  AID_MSGID       = 0,
+  AID_ARTICLENUM  = 1
 } ACCESSTYPE;
 ```
 
@@ -47,17 +54,17 @@ typedef enum tagARTICLEIDTYPE {
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The SetMediaType method sets the media type for the connection. This method overrides the CBasePin::SetMediaType method.'
-ms.assetid: 'b2668bb1-0739-413c-bea8-ec5541acfb3e'
-title: 'CRendererInputPin.SetMediaType method'
+Description: The SetMediaType method sets the media type for the connection. This method overrides the CBasePinSetMediaType method.
+ms.assetid: b2668bb1-0739-413c-bea8-ec5541acfb3e
+title: CRendererInputPin.SetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererInputPin.SetMediaType method
@@ -13,7 +18,7 @@ The `SetMediaType` method sets the media type for the connection. This method ov
 
 ```C++
 HRESULT SetMediaType(
-   const CMediaType *pmt
+   const CMediaType *pmt
 );
 ```
 
@@ -52,9 +57,9 @@ Returns an **HRESULT** value.
 [**CRendererInputPin Class**](crendererinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

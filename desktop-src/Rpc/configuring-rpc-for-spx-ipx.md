@@ -1,7 +1,12 @@
 ---
 title: Configuring RPC for SPX/IPX
 description: When using the ncacn\_spx and ncadg\_ipx transports, the server name is exactly the same as the server name on Windows.
-ms.assetid: 'b2543046-8cdc-4cba-94e4-40188701fad3'
+ms.assetid: b2543046-8cdc-4cba-94e4-40188701fad3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring RPC for SPX/IPX

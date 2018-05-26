@@ -1,7 +1,12 @@
 ---
-Description: 'This following elements are used with network DDE:'
-ms.assetid: '4b512100-54cb-4e32-9f56-6571a71dfa86'
+Description: This following elements are used with network DDE
+ms.assetid: 4b512100-54cb-4e32-9f56-6571a71dfa86
 title: Network DDE Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network DDE Reference

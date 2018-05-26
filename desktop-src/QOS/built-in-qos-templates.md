@@ -1,7 +1,12 @@
 ---
 title: Built-in QOS Templates
 description: The RSVP SP provides a set of built-in QOS templates that enable applications to apply well-known codecs to QOS-connection requests.
-ms.assetid: 'd1cc5634-25c9-42cf-923f-25c70c74dc2c'
+ms.assetid: d1cc5634-25c9-42cf-923f-25c70c74dc2c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Built-in QOS Templates

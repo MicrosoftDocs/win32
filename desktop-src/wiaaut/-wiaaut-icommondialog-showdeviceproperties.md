@@ -1,8 +1,11 @@
 ---
 title: CommonDialog.ShowDeviceProperties method
 description: Displays the Properties dialog box for the specified Device.
-ms.assetid: '0c9617a1-d373-4017-bd5d-33882d40be71'
-keywords: ["ShowDeviceProperties method WIA Automation", "ShowDeviceProperties method WIA Automation , CommonDialog object", "CommonDialog object WIA Automation , ShowDeviceProperties method"]
+ms.assetid: 0c9617a1-d373-4017-bd5d-33882d40be71
+keywords:
+- ShowDeviceProperties method WIA Automation
+- ShowDeviceProperties method WIA Automation , CommonDialog object
+- CommonDialog object WIA Automation , ShowDeviceProperties method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CommonDialog.ShowDeviceProperties method
@@ -58,7 +66,7 @@ Type: **VARIANT\_BOOL**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -87,8 +95,8 @@ CommonDialog1.ShowDeviceProperties dev
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -122,9 +130,9 @@ CommonDialog1.ShowDeviceProperties dev
 [**Device (VideoPreview)**](-wiaaut-ivideopreview-device.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

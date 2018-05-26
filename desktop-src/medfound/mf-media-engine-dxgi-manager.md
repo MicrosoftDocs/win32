@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager on the Media Engine.'
-ms.assetid: 'CB952492-0ACF-4501-BD8B-133E26FCE8F7'
-title: 'MF\_MEDIA\_ENGINE\_DXGI\_MANAGER attribute'
+---
+Description: Sets the Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager on the Media Engine.
+ms.assetid: CB952492-0ACF-4501-BD8B-133E26FCE8F7
+title: MF\_MEDIA\_ENGINE\_DXGI\_MANAGER attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MEDIA\_ENGINE\_DXGI\_MANAGER attribute
@@ -14,13 +19,13 @@ Sets the Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager on the 
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUnknown**](imfattributes-getunknown.md).
+To get this attribute, call [**IMFAttributes::GetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getunknown?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUnknown**](imfattributes-setunknown.md).
+To set this attribute, call [**IMFAttributes::SetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setunknown?branch=master).
 
 ## Remarks
 
-The value of this attribute is a pointer to the [**IMFDXGIDeviceManager**](imfdxgidevicemanager.md) interface.
+The value of this attribute is a pointer to the [**IMFDXGIDeviceManager**](/windows/win32/mfobjects/nn-mfobjects-imfdxgidevicemanager?branch=master) interface.
 
 In frame-server mode, this attribute enables the Media Engine to use hardware acceleration for video decoding and video processing. If the attribute is not set, the Media Engine uses software decoding and processing.
 
@@ -43,7 +48,7 @@ In frame-server mode, this attribute enables the Media Engine to use hardware ac
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFMediaEngineClassFactory::CreateInstance**](imfmediaengineclassfactory-createinstance.md)
+[**IMFMediaEngineClassFactory::CreateInstance**](/windows/win32/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance?branch=master)
 </dt> </dl>
 
  

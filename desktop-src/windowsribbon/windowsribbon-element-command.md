@@ -1,14 +1,20 @@
 ---
 title: Command element
 description: Represents a Command definition.
-ms.assetid: 'f332423d-d258-488d-9233-71687288b462'
-keywords: ["Command element Windows Ribbon"]
+ms.assetid: f332423d-d258-488d-9233-71687288b462
+keywords:
+- Command element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Command
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command element
@@ -165,7 +171,7 @@ In cases where Command properties, such as labels and images, cannot be set with
 > [!Note]  
 > A resource cannot be reinstated from the markup resource table after it has been invalidated.
 
- 
+ 
 
 A Command definition is added to the Ribbon markup header file for each **Command** declared in markup.
 
@@ -261,14 +267,14 @@ The following example shows a manifest of **Command** elements for a **Home** ta
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

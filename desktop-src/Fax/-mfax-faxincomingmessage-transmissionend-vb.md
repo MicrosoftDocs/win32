@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TransmissionEnd property indicates the time that the inbound fax message completed transmission.'
-ms.assetid: '0a1a89fa-520d-4fb1-b0ca-7d231d9d7ff6'
-title: 'FaxIncomingMessage.TransmissionEnd property'
+---
+Description: The TransmissionEnd property indicates the time that the inbound fax message completed transmission.
+ms.assetid: 0a1a89fa-520d-4fb1-b0ca-7d231d9d7ff6
+title: FaxIncomingMessage.TransmissionEnd property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.TransmissionEnd property
@@ -46,7 +51,7 @@ A **Date** that receives the hour and minute, expressed in local system time, th
 [**FaxIncomingMessage**](-mfax-faxincomingmessage.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage**](-mfax-faxincomingmessage-cpp.md)
+[**IFaxIncomingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage?branch=master)
 </dt> </dl>
 
  

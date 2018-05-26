@@ -4,11 +4,15 @@ description: To extend the Active Directory Manager, register the node type that
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '26e4a44b-b71b-47c2-b796-379cd5676cec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 26e4a44b-b71b-47c2-b796-379cd5676cec
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["extendable node types MMC"]
+keywords:
+- extendable node types MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extendable Node Types

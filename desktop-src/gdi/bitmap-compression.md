@@ -1,7 +1,12 @@
 ---
-Description: 'Windows supports formats for compressing bitmaps that define their colors with 8 or 4 bits-per-pixel. Compression reduces the disk and memory storage required for the bitmap.'
-ms.assetid: '14d14662-910a-4f3f-914e-6ccfc602c822'
+Description: Windows supports formats for compressing bitmaps that define their colors with 8 or 4 bits-per-pixel. Compression reduces the disk and memory storage required for the bitmap.
+ms.assetid: 14d14662-910a-4f3f-914e-6ccfc602c822
 title: Bitmap Compression
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bitmap Compression

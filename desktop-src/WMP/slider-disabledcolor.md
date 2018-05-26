@@ -1,14 +1,20 @@
 ---
 title: SLIDER.disabledColor
 description: The disabledColor attribute specifies or retrieves the color of the slider control when it is disabled.
-ms.assetid: '47b9f5c6-12ea-4654-a9c0-d15d41ea2766'
-keywords: ["SLIDER.disabledColor Windows Media Player"]
+ms.assetid: 47b9f5c6-12ea-4654-a9c0-d15d41ea2766
+keywords:
+- SLIDER.disabledColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.disabledColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.disabledColor
@@ -50,9 +56,9 @@ When the slider control is specified using foreground and background colors, the
 [**AmbientAttributes.enabled**](ambientattributes-enabled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

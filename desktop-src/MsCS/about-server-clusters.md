@@ -4,11 +4,19 @@ description: A failover cluster is one of two types of clusters included as part
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fd0ebc00-9839-48cc-ad35-3e84cda213e7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: fd0ebc00-9839-48cc-ad35-3e84cda213e7
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["failover clusters Failover Cluster", "failover clusters Failover Cluster ,(See also clusters Failover Cluster ) failover clusters Failover Cluster ,about", "clusters Failover Cluster", "clusters Failover Cluster ,(See also failover clusters Failover Cluster )", "clusters Failover Cluster ,failover clusters"]
+keywords:
+- failover clusters Failover Cluster
+- failover clusters Failover Cluster ,(See also clusters Failover Cluster ) failover clusters Failover Cluster ,about
+- clusters Failover Cluster
+- clusters Failover Cluster ,(See also failover clusters Failover Cluster )
+- clusters Failover Cluster ,failover clusters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Failover Clusters
@@ -29,13 +37,13 @@ The following sections describe failover cluster architecture and implementation
 
 
 
- 
+ 
 
 Note that the information in all of the sections listed above is also presented in the documentation included with the operating system. If you are already familiar with how a failover cluster operates, you might want to start with either the [Failover Cluster API](the-server-cluster-api.md) or the [Cluster Automation Server](https://msdn.microsoft.com/library/aa372940).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Enabling Access Checks at the Component Level
-ms.assetid: 'b9ff5296-9076-4492-833c-7402b7090f8f'
+ms.assetid: b9ff5296-9076-4492-833c-7402b7090f8f
 title: Enabling Access Checks at the Component Level
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling Access Checks at the Component Level

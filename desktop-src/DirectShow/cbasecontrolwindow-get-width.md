@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_Width method retrieves the current window width.'
-ms.assetid: '8c5fbb0b-da80-4cfe-9c52-8ed4d9e52888'
-title: 'CBaseControlWindow.get\_Width method'
+Description: The get\_Width method retrieves the current window width.
+ms.assetid: 8c5fbb0b-da80-4cfe-9c52-8ed4d9e52888
+title: CBaseControlWindow.get\_Width method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.get\_Width method
@@ -13,7 +18,7 @@ The `get_Width` method retrieves the current window width.
 
 ```C++
 HRESULT get_Width(
-   long *pWidth
+   long *pWidth
 );
 ```
 
@@ -58,9 +63,9 @@ Setting the left or top coordinates moves the window left or up, respectively; t
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

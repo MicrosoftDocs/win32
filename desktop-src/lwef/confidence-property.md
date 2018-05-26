@@ -1,7 +1,12 @@
 ---
 title: Confidence Property
 description: Confidence Property
-ms.assetid: '28a57970-4649-4a9a-9fb2-bf3f0b2f54ce'
+ms.assetid: 28a57970-4649-4a9a-9fb2-bf3f0b2f54ce
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Confidence Property

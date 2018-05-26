@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates the specified type with the specified name.'
-ms.assetid: 'eb85477c-d750-46d2-8b32-450f672e7601'
-title: 'IPStore::CreateType method'
+---
+Description: Creates the specified type with the specified name.
+ms.assetid: eb85477c-d750-46d2-8b32-450f672e7601
+title: IPStoreCreateType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPStore::CreateType method

@@ -1,7 +1,12 @@
 ---
-Description: 'The ServiceControl table is used to control installed or uninstalled services.Note   Services that rely on the presence of an assembly in the Global Assembly Cache (GAC) cannot be installed or started using the ServiceInstall and ServiceControl tables.'
-ms.assetid: 'c51cd9bd-3c55-4eec-ab67-172765adc51c'
+Description: The ServiceControl table is used to control installed or uninstalled services.Note   Services that rely on the presence of an assembly in the Global Assembly Cache (GAC) cannot be installed or started using the ServiceInstall and ServiceControl tables.
+ms.assetid: c51cd9bd-3c55-4eec-ab67-172765adc51c
 title: ServiceControl Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServiceControl Table

@@ -4,13 +4,15 @@ description: Represents the settings for the virtualization service present on a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '793858d1-7375-40ae-81d6-adbbfc7dee2f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 793858d1-7375-40ae-81d6-adbbfc7dee2f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_VirtualSystemManagementServiceSettingData class", "Msvm_VirtualSystemManagementServiceSettingData class, described"]
+keywords:
+- Msvm_VirtualSystemManagementServiceSettingData class
+- Msvm_VirtualSystemManagementServiceSettingData class, described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_VirtualSystemManagementServiceSettingData class
@@ -53,24 +58,24 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  string  BiosLockString;
-  string  DefaultExternalDataRoot;
-  string  DefaultVirtualHardDiskPath = "root\Users\Public\Documents\Virtual Hard Disks";
-  string  MaximumMacAddress;
-  string  MinimumMacAddress;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  string  BiosLockString;
+  string  DefaultExternalDataRoot;
+  string  DefaultVirtualHardDiskPath = "root\Users\Public\Documents\Virtual Hard Disks";
+  string  MaximumMacAddress;
+  string  MinimumMacAddress;
   boolean NumaSpanningEnabled;
   boolean EnhancedSessionModeEnabled;
-  string  PrimaryOwnerContact = "Administrators";
-  string  PrimaryOwnerName = "Administrators";
-  uint32  HbaLunTimeout;
-  string  MaximumWWPNAddress;
-  string  MinimumWWPNAddress;
-  string  CurrentWWNNAddress;
-  uint16  DefaultVirtualHardDiskCachingMode;
+  string  PrimaryOwnerContact = "Administrators";
+  string  PrimaryOwnerName = "Administrators";
+  uint32  HbaLunTimeout;
+  string  MaximumWWPNAddress;
+  string  MinimumWWPNAddress;
+  string  CurrentWWNNAddress;
+  uint16  DefaultVirtualHardDiskCachingMode;
 };
 ```
 
@@ -293,7 +298,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 > -   If the above pattern is not used, the defining entity must assure that the resultant **InstanceID** value is not re-used across any **InstanceID** properties that are produced by this provider or other providers for this namespace.
 > -   For DMTF defined instances, the pattern must be used with the *OrgID* set to "CIM".
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -433,7 +438,7 @@ This is a read-only property, but it can be changed by using the [**ModifyServic
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -450,9 +455,9 @@ This is a read-only property, but it can be changed by using the [**ModifyServic
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

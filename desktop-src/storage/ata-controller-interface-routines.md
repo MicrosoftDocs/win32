@@ -1,7 +1,12 @@
 ---
 title: ATA Controller Interface Routines
 description: ATA Controller Interface Routines
-ms.assetid: 'e6d57edc-705c-4c99-850f-83cfde02ff35'
+ms.assetid: e6d57edc-705c-4c99-850f-83cfde02ff35
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Controller Interface Routines

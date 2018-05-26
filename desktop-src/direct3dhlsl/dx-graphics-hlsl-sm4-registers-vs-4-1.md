@@ -1,7 +1,12 @@
 ---
 title: Registers - vs\_4\_1
 description: This section contains reference information for the input and output registers implemented by vertex shader version 4\_1.
-ms.assetid: 'ea449195-d012-4a14-9760-b738a8623343'
+ms.assetid: ea449195-d012-4a14-9760-b738a8623343
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registers - vs\_4\_1

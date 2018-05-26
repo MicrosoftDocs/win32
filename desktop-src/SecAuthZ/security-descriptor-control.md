@@ -1,7 +1,12 @@
 ---
-Description: 'Set of bit flags that qualify the meaning of a security descriptor or its components.'
-ms.assetid: '9a4ef57e-c374-4ef6-99dc-1a8dd250f2c2'
-title: 'SECURITY\_DESCRIPTOR\_CONTROL'
+Description: Set of bit flags that qualify the meaning of a security descriptor or its components.
+ms.assetid: 9a4ef57e-c374-4ef6-99dc-1a8dd250f2c2
+title: SECURITY\_DESCRIPTOR\_CONTROL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SECURITY\_DESCRIPTOR\_CONTROL
@@ -44,7 +49,7 @@ The control value retrieved by the [**GetSecurityDescriptorControl**](getsecurit
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -52,8 +57,8 @@ The control value retrieved by the [**GetSecurityDescriptorControl**](getsecurit
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Winnt.h (include Windows.h)</dt> </dl> |
 
 
@@ -101,9 +106,9 @@ The control value retrieved by the [**GetSecurityDescriptorControl**](getsecurit
 [**SetSecurityDescriptorSacl**](setsecuritydescriptorsacl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

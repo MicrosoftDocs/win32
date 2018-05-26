@@ -1,14 +1,20 @@
 ---
 title: AVOffWarn element
 description: If present then this assessment prefers to have anti-virus software installed and enabled.
-ms.assetid: '57AF54C8-C89D-406E-B1E0-F1C3688B523C'
-keywords: ["AVOffWarn element Access Execution Engine"]
+ms.assetid: 57AF54C8-C89D-406E-B1E0-F1C3688B523C
+keywords:
+- AVOffWarn element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AVOffWarn
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVOffWarn element
@@ -56,9 +62,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

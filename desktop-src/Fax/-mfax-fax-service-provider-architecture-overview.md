@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides a graphical overview of the fax service provider environment.'
-ms.assetid: 'c6e492ea-59fc-472f-b29b-84819a5232dd'
+Description: This topic provides a graphical overview of the fax service provider environment.
+ms.assetid: c6e492ea-59fc-472f-b29b-84819a5232dd
 title: Fax Service Provider Architecture Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Provider Architecture Overview

@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_ColorType
 description: Identifies the UI\_PKEY\_ColorType property.
-ms.assetid: '7eaa9d8b-0c21-487c-9093-79ddffcae131'
+ms.assetid: 7eaa9d8b-0c21-487c-9093-79ddffcae131
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_ColorType

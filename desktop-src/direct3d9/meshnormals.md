@@ -1,7 +1,12 @@
 ---
-Description: 'Defines normals for a mesh.'
-ms.assetid: '05f17128-dfc9-4a78-b23c-0420a1c3d1bd'
+Description: Defines normals for a mesh.
+ms.assetid: 05f17128-dfc9-4a78-b23c-0420a1c3d1bd
 title: MeshNormals
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MeshNormals

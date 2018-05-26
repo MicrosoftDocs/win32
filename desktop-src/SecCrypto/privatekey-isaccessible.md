@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a Boolean value that indicates whether the private key is accessible.'
-ms.assetid: 'ee5e89af-745e-4a4d-9943-fecbaee5d3e3'
-title: 'PrivateKey.IsAccessible method'
+---
+Description: Returns a Boolean value that indicates whether the private key is accessible.
+ms.assetid: ee5e89af-745e-4a4d-9943-fecbaee5d3e3
+title: PrivateKey.IsAccessible method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrivateKey.IsAccessible method

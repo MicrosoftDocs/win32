@@ -1,7 +1,12 @@
 ---
-Description: 'The CountSetBits method returns the number of bits set to 1 in a specified bit field.'
-ms.assetid: 'fc5701b8-88ff-4c23-9d26-854bb65cc55c'
-title: 'CImageDisplay.CountSetBits method'
+Description: The CountSetBits method returns the number of bits set to 1 in a specified bit field.
+ms.assetid: fc5701b8-88ff-4c23-9d26-854bb65cc55c
+title: CImageDisplay.CountSetBits method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageDisplay.CountSetBits method
@@ -13,7 +18,7 @@ The `CountSetBits` method returns the number of bits set to 1 in a specified bit
 
 ```C++
 DWORD CountSetBits(
-   const DWORD Field
+   const DWORD Field
 );
 ```
 
@@ -52,9 +57,9 @@ Returns the number of bits that are set to 1.
 [**CImageDisplay Class**](cimagedisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

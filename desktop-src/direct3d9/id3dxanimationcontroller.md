@@ -1,7 +1,12 @@
-﻿---
-Description: 'This interface is used to control animation functionality, connecting animation sets with the transformation frames that are being animated.'
-ms.assetid: 'a485e4d2-82e1-45db-8496-dd743904c34d'
+---
+Description: This interface is used to control animation functionality, connecting animation sets with the transformation frames that are being animated.
+ms.assetid: a485e4d2-82e1-45db-8496-dd743904c34d
 title: ID3DXAnimationController interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController interface

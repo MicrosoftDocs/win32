@@ -1,8 +1,9 @@
 ---
 title: UninstallColorProfile function
 description: UninstallColorProfile removes a specified color profile from a specified computer. Associated files are optionally deleted from the system.
-ms.assetid: '2c5a2055-9f5f-4e21-bcbb-a9aa50105598'
-keywords: ["UninstallColorProfile function Windows Color System"]
+ms.assetid: 2c5a2055-9f5f-4e21-bcbb-a9aa50105598
+keywords:
+- UninstallColorProfile function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UninstallColorProfile function
@@ -24,9 +30,9 @@ api_type:
 
 ```C++
 BOOL WINAPI UninstallColorProfile(
-   PCTSTR pMachineName,
-   PCTSTR pProfileName,
-   BOOL   bDelete
+   PCTSTR pMachineName,
+   PCTSTR pProfileName,
+   BOOL   bDelete
 );
 ```
 
@@ -69,8 +75,8 @@ If this function fails, the return value is **FALSE**. For extended error inform
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>      |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl>  |
@@ -88,9 +94,9 @@ If this function fails, the return value is **FALSE**. For extended error inform
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IMessengerWindow Left property
 description: Sets or retrieves the left screen position of a Messenger window, in pixels.
-ms.assetid: 'a83b972d-e5de-4547-9b0e-3a060aa99674'
-keywords: ["Left property Windows Messenger", "Left property Windows Messenger , IMessengerWindow interface", "IMessengerWindow interface Windows Messenger , Left property"]
+ms.assetid: a83b972d-e5de-4547-9b0e-3a060aa99674
+keywords:
+- Left property Windows Messenger
+- Left property Windows Messenger , IMessengerWindow interface
+- IMessengerWindow interface Windows Messenger , Left property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerWindow::Left property
 
-\[**Left** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Left** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Sets or retrieves the left screen position of a Messenger window, in pixels.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Left(
-  [in]          LONG lLeft
+  [in]          LONG lLeft
 );
 
 HRESULT get_Left(
-  [out, retval] LONG *plLeft
+  [out, retval] LONG *plLeft
 );
 ```
 
@@ -68,7 +76,7 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 If the Messenger window is minimized, the value retrieved will appear to be out of range (&gt;= -32000). If the Messenger window is closed through application programming interface (API) or user action, this method fails to get a value.
 
@@ -79,7 +87,7 @@ There is no bounds-checking on input values for *lLeft*. Negative integer values
 > [!Note]  
 > This property is not available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -106,17 +114,17 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

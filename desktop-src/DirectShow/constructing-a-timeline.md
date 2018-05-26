@@ -1,7 +1,12 @@
 ---
 Description: Constructing a Timeline
-ms.assetid: '4909f797-d296-4c9f-83fb-543e48bbe75d'
+ms.assetid: 4909f797-d296-4c9f-83fb-543e48bbe75d
 title: Constructing a Timeline
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constructing a Timeline

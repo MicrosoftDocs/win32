@@ -1,7 +1,12 @@
 ---
-Description: 'Uses the Microsoft Win32 GetThreadPriority function to retrieve the priority of the current worker thread.'
-ms.assetid: 'a9db15cf-2c22-4c61-a817-20af5ade434b'
-title: 'CMsgThread.GetThreadPriority method'
+Description: Uses the Microsoft Win32 GetThreadPriority function to retrieve the priority of the current worker thread.
+ms.assetid: a9db15cf-2c22-4c61-a817-20af5ade434b
+title: CMsgThread.GetThreadPriority method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMsgThread.GetThreadPriority method
@@ -43,9 +48,9 @@ Returns the thread priority as an integer.
 [**CMsgThread Class**](cmsgthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,7 +2,15 @@
 title: Targeting Stubs for Specific 32-bit or 64-bit Platforms
 description: Some of the features of Microsoft RPC and the MIDL 3.0 and later compilers are platform-specific.
 ms.assetid: bb1bee56-7f39-406c-bdbf-b73bda568247
-keywords: ["32-bit platforms MIDL", "64-bit platforms MIDL", "stubs MIDL"]
+keywords:
+- 32-bit platforms MIDL
+- 64-bit platforms MIDL
+- stubs MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Targeting Stubs for Specific 32-bit or 64-bit Platforms

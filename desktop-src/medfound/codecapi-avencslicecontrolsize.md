@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the size of the slice in units of megabyte (MB), bits, or MB row.'
-ms.assetid: '42E7DB19-9FB9-4226-B0B5-97AD6B9C0E12'
-title: 'CODECAPI\_AVEncSliceControlSize property'
+Description: Specifies the size of the slice in units of megabyte (MB), bits, or MB row.
+ms.assetid: 42E7DB19-9FB9-4226-B0B5-97AD6B9C0E12
+title: CODECAPI\_AVEncSliceControlSize property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVEncSliceControlSize property
@@ -32,7 +37,7 @@ The meaning of the value of CODECAPI\_AVEncSliceControlSize is controlled by the
 
 
 
- 
+ 
 
 If the application does not set a value for [CODECAPI\_AVEncSliceControlMode](codecapi-avencslicecontrolmode.md), the encoder should return an error.
 
@@ -48,8 +53,8 @@ The slice control settings are dynamic and can be changed during the encoding se
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -61,9 +66,9 @@ The slice control settings are dynamic and can be changed during the encoding se
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

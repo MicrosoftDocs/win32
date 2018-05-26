@@ -1,7 +1,12 @@
 ---
 title: SCSI Enclosure Services Structures
 description: This section contains structures used to manage and sense the state of the power supplies, the cooling devices, the displays, the indicators, the individual storage devices, and other non-SCSI elements installed in a SCSI enclosure.
-ms.assetid: '4C0FC40C-2785-4D2A-81FE-0F17BD79F8FF'
+ms.assetid: 4C0FC40C-2785-4D2A-81FE-0F17BD79F8FF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCSI Enclosure Services Structures

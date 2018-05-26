@@ -1,8 +1,15 @@
 ---
 title: Registry Reflection
 description: The registry redirector isolates 32-bit and 64-bit applications by providing separate logical views of certain portions of the registry on WOW64. However, the values of some registry keys must be the same in both the 32-bit and 64-bit views.
-ms.assetid: 'eac9038b-9f59-4ac7-8974-f94a4a62a257'
-keywords: ["registry reflection 64-bit Windows Programming", "reflection 64-bit Windows Programming"]
+ms.assetid: eac9038b-9f59-4ac7-8974-f94a4a62a257
+keywords:
+- registry reflection 64-bit Windows Programming
+- reflection 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Reflection

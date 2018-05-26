@@ -1,8 +1,23 @@
 ---
 title: Using Timed Levels
 description: Using Timed Levels
-ms.assetid: '4a253521-3036-488a-98bc-62596b538f68'
-keywords: ["visualizations,timed events", "custom visualizations,timed events", "visualizations,frequency array", "custom visualizations,frequency array", "visualizations,waveform array", "custom visualizations,waveform array", "visualizations,state variable", "custom visualizations,state variable", "visualizations,timeStamp variable", "custom visualizations,timeStamp variable"]
+ms.assetid: 4a253521-3036-488a-98bc-62596b538f68
+keywords:
+- visualizations,timed events
+- custom visualizations,timed events
+- visualizations,frequency array
+- custom visualizations,frequency array
+- visualizations,waveform array
+- custom visualizations,waveform array
+- visualizations,state variable
+- custom visualizations,state variable
+- visualizations,timeStamp variable
+- custom visualizations,timeStamp variable
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Timed Levels

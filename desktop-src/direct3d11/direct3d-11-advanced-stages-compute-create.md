@@ -1,7 +1,12 @@
 ---
 title: How To Create a Compute Shader
 description: This topic shows how to create a compute shader.
-ms.assetid: '6114dd90-626b-4c9e-9da5-7d2d33153e79'
+ms.assetid: 6114dd90-626b-4c9e-9da5-7d2d33153e79
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To: Create a Compute Shader
@@ -32,7 +37,7 @@ A compute shader is an Microsoft High Level Shader Language (HLSL) programmable 
 
     
 
-2.  Create a compute shader using [**ID3D11Device::CreateComputeShader**](id3d11device-createcomputeshader.md).
+2.  Create a compute shader using [**ID3D11Device::CreateComputeShader**](/windows/win32/D3D11/nf-d3d11-id3d11device-createcomputeshader?branch=master).
     ```
     ID3D11ComputeShader* g_pFinalPassCS = NULL;
     pd3dDevice->CreateComputeShader( pBlobFinalPassCS->GetBufferPointer(), 

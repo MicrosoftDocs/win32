@@ -1,7 +1,12 @@
 ---
-Description: 'Virtualization WMI classes related to virtual machine management.'
-ms.assetid: 'CE1BC344-CA27-4744-ACD7-0623CC54E532'
+Description: Virtualization WMI classes related to virtual machine management.
+ms.assetid: CE1BC344-CA27-4744-ACD7-0623CC54E532
 title: Virtual system management classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual system management classes
@@ -35,11 +40,11 @@ The following are virtualization WMI classes related to virtual machine manageme
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

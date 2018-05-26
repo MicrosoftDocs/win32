@@ -1,8 +1,10 @@
 ---
 title: Msvm\_DeviceSAPImplementation class
 description: An association between a service access point (SAP) and how it is implemented.
-ms.assetid: '6944ecd4-6618-4ef7-9f4a-b6d6bff7aab9'
-keywords: ["Msvm_DeviceSAPImplementation class Hyper-V", "Msvm_DeviceSAPImplementation class Hyper-V , described"]
+ms.assetid: 6944ecd4-6618-4ef7-9f4a-b6d6bff7aab9
+keywords:
+- Msvm_DeviceSAPImplementation class Hyper-V
+- Msvm_DeviceSAPImplementation class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_DeviceSAPImplementation class
@@ -27,7 +34,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_DeviceSAPImplementation : CIM_DeviceSAPImplementation
 {
-  CIM_LogicalDevice      REF Antecedent;
+  CIM_LogicalDevice      REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
 };
 ```
@@ -89,9 +96,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -110,9 +117,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

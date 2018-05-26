@@ -4,11 +4,16 @@ description: The following code example presents a scenario with early binding s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3ca955cc-a9cd-4309-8617-89fe50b65c3d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3ca955cc-a9cd-4309-8617-89fe50b65c3d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["extensions ADSI , early binding support", "binding AD , early binding support"]
+keywords:
+- extensions ADSI , early binding support
+- binding AD , early binding support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Early Binding Support
@@ -52,7 +57,7 @@ Follow the COM specification for adding aggregation to your component. In summar
 
 ## Step 2: Register Your Extension
 
-Now you must decide which directory class to extend. You cannot use the same interfaces to accomplish this that you would use for an ADSI interface, for example, [**IADsUser**](iadsuser.md), [**IADsComputer**](iadscomputer.md). Directory objects are persisted in the directory, while your extension and ADSI are running on the client computer. Directory object examples are **user**, **computer**, **printQueue**, **serviceConnectionPoint**, and **nTDSService**. You can add a new class in Active Directory and create a new extension for this new class as well.
+Now you must decide which directory class to extend. You cannot use the same interfaces to accomplish this that you would use for an ADSI interface, for example, [**IADsUser**](/windows/win32/Iads/nn-iads-iadsuser?branch=master), [**IADsComputer**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master). Directory objects are persisted in the directory, while your extension and ADSI are running on the client computer. Directory object examples are **user**, **computer**, **printQueue**, **serviceConnectionPoint**, and **nTDSService**. You can add a new class in Active Directory and create a new extension for this new class as well.
 
 You use registry keys to associate a directory class name with the ADSI extension components. The following figure represents the existing registry layout, as a well as new keys.
 

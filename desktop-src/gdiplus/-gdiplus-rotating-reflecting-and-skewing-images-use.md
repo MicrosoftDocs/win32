@@ -1,7 +1,12 @@
 ---
-Description: 'You can rotate, reflect, and skew an image by specifying destination points for the upper-left, upper-right, and lower-left corners of the original image.'
-ms.assetid: '1e982d84-8749-451b-89a8-81440fcee439'
-title: 'Rotating, Reflecting, and Skewing Images'
+Description: You can rotate, reflect, and skew an image by specifying destination points for the upper-left, upper-right, and lower-left corners of the original image.
+ms.assetid: 1e982d84-8749-451b-89a8-81440fcee439
+title: Rotating, Reflecting, and Skewing Images
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rotating, Reflecting, and Skewing Images

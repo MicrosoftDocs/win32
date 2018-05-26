@@ -1,7 +1,12 @@
 ---
-Description: 'The medium confidence keywords for the item.'
-ms.assetid: '8350c7c1-da61-4011-b588-444054eff850'
-title: 'System.MediumKeywords'
+Description: The medium confidence keywords for the item.
+ms.assetid: 8350c7c1-da61-4011-b588-444054eff850
+title: System.MediumKeywords
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.MediumKeywords

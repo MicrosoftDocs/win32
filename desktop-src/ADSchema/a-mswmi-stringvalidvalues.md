@@ -4,17 +4,22 @@ description: The set of strings that belong to a string set parameter object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2c75818d-f8db-47ed-b125-e1b800b1139a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 2c75818d-f8db-47ed-b125-e1b800b1139a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-stringValidValues attribute AD Schema", "msWMI-StringValidValues attribute AD Schema"]
+keywords:
+- ms-WMI-stringValidValues attribute AD Schema
+- msWMI-StringValidValues attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-stringValidValues
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-stringValidValues attribute

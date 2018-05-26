@@ -4,13 +4,16 @@ description: TBD.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '12f2876b-8a2c-49a4-8bc4-649b565892e0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 12f2876b-8a2c-49a4-8bc4-649b565892e0
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WvrRemoveReplicaSet method", "WvrRemoveReplicaSet method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, WvrRemoveReplicaSet method"]
+keywords:
+- WvrRemoveReplicaSet method
+- WvrRemoveReplicaSet method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, WvrRemoveReplicaSet method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WvrCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WvrRemoveReplicaSet method of the MSFT\_WvrAdminTasks class
@@ -30,11 +36,11 @@ TBD
 
 ```mof
 uint32 WvrRemoveReplicaSet(
-  [in] string SourceReplicationGroupName,
-  [in] string SourcePartitionId,
-  [in] string TargetComputerName,
-  [in] string TargetReplicationGroupName,
-  [in] string TargetPartitionId
+  [in] string SourceReplicationGroupName,
+  [in] string SourcePartitionId,
+  [in] string TargetComputerName,
+  [in] string TargetReplicationGroupName,
+  [in] string TargetPartitionId
 );
 ```
 
@@ -86,7 +92,7 @@ Identifies the target partition.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -100,9 +106,9 @@ Identifies the target partition.
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

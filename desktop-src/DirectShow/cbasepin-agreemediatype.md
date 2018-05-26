@@ -1,7 +1,12 @@
 ---
-Description: 'The AgreeMediaType method searches for a media type to make a pin connection.'
-ms.assetid: '545186d2-b5e8-4833-b0ff-11160c1dd53b'
-title: 'CBasePin.AgreeMediaType method'
+Description: The AgreeMediaType method searches for a media type to make a pin connection.
+ms.assetid: 545186d2-b5e8-4833-b0ff-11160c1dd53b
+title: CBasePin.AgreeMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.AgreeMediaType method
@@ -13,8 +18,8 @@ The `AgreeMediaType` method searches for a media type to make a pin connection.
 
 ```C++
 virtual HRESULT AgreeMediaType(
-         IPin       *pReceivePin,
-   const CMediaType *pmt
+         IPin       *pReceivePin,
+   const CMediaType *pmt
 );
 ```
 
@@ -27,7 +32,7 @@ virtual HRESULT AgreeMediaType(
 *pReceivePin* 
 </dt> <dd>
 
-Pointer to the receiving pin's [**IPin**](ipin.md) interface.
+Pointer to the receiving pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 </dd> <dt>
 
@@ -51,7 +56,7 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,9 +87,9 @@ Preferred media types are enumerated with the [**CBasePin::EnumMediaTypes**](cba
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

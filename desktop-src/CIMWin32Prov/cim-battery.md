@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Battery class represents the capabilities and management of the battery logical device. This class applies to batteries in laptop systems and other internal and external batteries.'
+Description: The CIM\_Battery class represents the capabilities and management of the battery logical device. This class applies to batteries in laptop systems and other internal and external batteries.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'af127b7a-021b-4cd8-af1b-176aff760858'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: af127b7a-021b-4cd8-af1b-176aff760858
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Battery class'
+title: CIM\_Battery class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Battery class
@@ -19,7 +22,7 @@ The **CIM\_Battery** class represents the capabilities and management of the bat
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,37 +32,37 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C548-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_Battery : CIM_LogicalDevice
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint16   Availability;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   DeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  uint32   LastErrorCode;
-  string   PNPDeviceID;
-  boolean  PowerManagementSupported;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint16   BatteryStatus;
-  uint16   Chemistry;
-  uint32   DesignCapacity;
-  uint64   DesignVoltage;
-  uint16   EstimatedChargeRemaining;
-  uint32   EstimatedRunTime;
-  uint32   ExpectedLife;
-  uint32   FullChargeCapacity;
-  uint32   MaxRechargeTime;
-  string   SmartBatteryVersion;
-  uint32   TimeOnBattery;
-  uint32   TimeToFullCharge;
+  string   Name;
+  string   Status;
+  uint16   Availability;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   DeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  uint32   LastErrorCode;
+  string   PNPDeviceID;
+  boolean  PowerManagementSupported;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint16   BatteryStatus;
+  uint16   Chemistry;
+  uint32   DesignCapacity;
+  uint64   DesignVoltage;
+  uint16   EstimatedChargeRemaining;
+  uint32   EstimatedRunTime;
+  uint32   ExpectedLife;
+  uint32   FullChargeCapacity;
+  uint32   MaxRechargeTime;
+  string   SmartBatteryVersion;
+  uint32   TimeOnBattery;
+  uint32   TimeToFullCharge;
 };
 ```
 
@@ -83,7 +86,7 @@ The **CIM\_Battery** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1467,8 +1470,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1482,9 +1485,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

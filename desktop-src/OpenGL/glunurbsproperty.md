@@ -1,8 +1,9 @@
 ---
 title: gluNurbsProperty function
 description: The gluNurbsProperty function sets a Non-Uniform Rational B-Spline (NURBS) property.
-ms.assetid: 'c8c3b0c3-11b8-4123-91b6-75fed78932ce'
-keywords: ["gluNurbsProperty function OpenGL"]
+ms.assetid: c8c3b0c3-11b8-4123-91b6-75fed78932ce
+keywords:
+- gluNurbsProperty function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluNurbsProperty function
@@ -22,9 +28,9 @@ The **gluNurbsProperty** function sets a Non-Uniform Rational B-Spline ([NURBS](
 
 ```C++
 void WINAPI gluNurbsProperty(
-   GLUnurbs *nobj,
-   GLenum   property,
-   GLfloat  value
+   GLUnurbs *nobj,
+   GLenum   property,
+   GLfloat  value
 );
 ```
 
@@ -61,7 +67,7 @@ The property to be set. The following values are valid:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,7 +86,7 @@ The value to which to set the indicated property. The *value* parameter can be a
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -96,7 +102,7 @@ Use **gluNurbsProperty** to control properties stored in a NURBS object. These p
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -104,8 +110,8 @@ Use **gluNurbsProperty** to control properties stored in a NURBS object. These p
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -128,9 +134,9 @@ Use **gluNurbsProperty** to control properties stored in a NURBS object. These p
 [**gluNewNurbsRenderer**](glunewnurbsrenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

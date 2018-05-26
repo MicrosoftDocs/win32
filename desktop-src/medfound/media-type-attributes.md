@@ -1,7 +1,12 @@
 ---
 Description: Media Type Attributes
-ms.assetid: 'e84ba3f6-4857-4340-baca-5847650ea7b8'
+ms.assetid: e84ba3f6-4857-4340-baca-5847650ea7b8
 title: Media Type Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Type Attributes
@@ -159,7 +164,7 @@ The following attributes apply to MPEG-4 files.
 
 <dl> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Foundation Attributes](media-foundation-attributes.md)

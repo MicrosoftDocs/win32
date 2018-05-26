@@ -1,13 +1,16 @@
 ---
-Description: 'Use the WHERE clause to narrow the scope of a data, event, or schema query.'
+Description: Use the WHERE clause to narrow the scope of a data, event, or schema query.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b275f8e0-773d-422c-be21-b427e7a1fb6b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b275f8e0-773d-422c-be21-b427e7a1fb6b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WHERE Clause
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WHERE Clause

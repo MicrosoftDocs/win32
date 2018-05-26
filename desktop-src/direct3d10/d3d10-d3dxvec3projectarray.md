@@ -1,7 +1,12 @@
-﻿---
-Description: 'Projects an array (x, y, z, 0) from object space into screen space.'
-ms.assetid: '33f0f65a-c027-4a31-83a7-f5f6b2a2f72f'
+---
+Description: Projects an array (x, y, z, 0) from object space into screen space.
+ms.assetid: 33f0f65a-c027-4a31-83a7-f5f6b2a2f72f
 title: D3DXVec3ProjectArray function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec3ProjectArray function
@@ -70,9 +75,9 @@ Stride between vectors in the input data stream.
 *pViewport* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_VIEWPORT**](d3d10-viewport.md)\***
+Type: **const [**D3D10\_VIEWPORT**](/windows/win32/D3D10/ns-d3d10-d3d10_viewport?branch=master)\***
 
-Pointer to a [**D3D10\_VIEWPORT**](d3d10-viewport.md), representing the viewport.
+Pointer to a [**D3D10\_VIEWPORT**](/windows/win32/D3D10/ns-d3d10-d3d10_viewport?branch=master), representing the viewport.
 
 </dd> <dt>
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the filter that created the pin.'
-ms.assetid: 'feeb5bef-6eed-4f7c-823c-fadf3d51df80'
-title: 'CBasePin::m\_pFilter member'
+Description: Pointer to the filter that created the pin.
+ms.assetid: feeb5bef-6eed-4f7c-823c-fadf3d51df80
+title: CBasePinm\_pFilter member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin::m\_pFilter member
@@ -35,9 +40,9 @@ CBaseFilter *m_pFilter;
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

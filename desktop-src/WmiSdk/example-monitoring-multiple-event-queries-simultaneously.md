@@ -1,13 +1,16 @@
 ---
-Description: 'The following script example shows asynchronous event notification, making use of the SWbemServices.ExecNotificationQueryAsync method and SWbemSink object.'
+Description: The following script example shows asynchronous event notification, making use of the SWbemServices.ExecNotificationQueryAsync method and SWbemSink object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8beb9804-088e-4dd1-adc8-a29ca450a220'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8beb9804-088e-4dd1-adc8-a29ca450a220
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Example: Monitoring Multiple Event Queries Simultaneously'
+title: Example Monitoring Multiple Event Queries Simultaneously
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example: Monitoring Multiple Event Queries Simultaneously

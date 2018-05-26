@@ -1,8 +1,9 @@
 ---
 title: D3DX\_FLOAT4\_to\_B8G8R8A8\_UNORM\_SRGB function
 description: Packs the given XMFLOAT4 into a DXGI\_FORMAT\_B8G8R8A8\_UNORM\_SRGB UINT.
-ms.assetid: '2fc36f19-44ce-43ba-9d9f-e8061f94a207'
-keywords: ["D3DX_FLOAT4_to_B8G8R8A8_UNORM_SRGB function HLSL"]
+ms.assetid: 2fc36f19-44ce-43ba-9d9f-e8061f94a207
+keywords:
+- D3DX_FLOAT4_to_B8G8R8A8_UNORM_SRGB function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_FLOAT4\_to\_B8G8R8A8\_UNORM\_SRGB function
@@ -21,7 +27,7 @@ Packs the given XMFLOAT4 into a DXGI\_FORMAT\_B8G8R8A8\_UNORM\_SRGB UINT.
 
 ``` syntax
 UINT D3DX_FLOAT4_to_B8G8R8A8_UNORM_SRGB(
-   hlsl_precise XMFLOAT4 unpackedInput
+   hlsl_precise XMFLOAT4 unpackedInput
 );
 ```
 
@@ -60,9 +66,9 @@ The packed shader data.
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Graphics Interchange Format (GIF) and Tagged Image File Format (TIFF) image file formats enable you to store multiple frames in a single image file.'
-ms.assetid: '36fa4e77-0813-4f0e-a802-86be95caaf38'
+Description: The Graphics Interchange Format (GIF) and Tagged Image File Format (TIFF) image file formats enable you to store multiple frames in a single image file.
+ms.assetid: 36fa4e77-0813-4f0e-a802-86be95caaf38
 title: Image Frame Dimension Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image Frame Dimension Constants

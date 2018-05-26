@@ -4,10 +4,13 @@ description: This topic provides an overview of how to retrieve the instances of
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5158AC47-6DA6-4D0C-82F5-4952E5205367'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 5158AC47-6DA6-4D0C-82F5-4952E5205367
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting object instances through querying and filtering

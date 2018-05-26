@@ -1,8 +1,10 @@
 ---
 title: IVMVirtualMachine interface
 description: The IVMVirtualMachine interface defines the interface for a virtual machine.
-ms.assetid: '3ced0877-82b8-4e2d-b17b-b73b87137f6d'
-keywords: ["IVMVirtualMachine interface Virtual Server", "IVMVirtualMachine interface Virtual Server , described"]
+ms.assetid: 3ced0877-82b8-4e2d-b17b-b73b87137f6d
+keywords:
+- IVMVirtualMachine interface Virtual Server
+- IVMVirtualMachine interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine interface
@@ -62,7 +69,7 @@ The **IVMVirtualMachine** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -113,7 +120,7 @@ The **IVMVirtualMachine** interface has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -221,15 +228,15 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

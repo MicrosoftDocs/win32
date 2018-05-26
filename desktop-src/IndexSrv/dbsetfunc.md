@@ -1,8 +1,14 @@
 ---
 title: DBSETFUNC
 description: DBSETFUNC
-ms.assetid: '8d2f5482-1e65-4b1c-8743-414041d27b0f'
-keywords: ["DBSETFUNC"]
+ms.assetid: 8d2f5482-1e65-4b1c-8743-414041d27b0f
+keywords:
+- DBSETFUNC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBSETFUNC

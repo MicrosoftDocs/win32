@@ -1,7 +1,12 @@
 ---
 title: Opening Heap Graphs
 description: Opening Heap Graphs
-ms.assetid: 'd4120355-4400-4628-b19b-c52250e3b127'
+ms.assetid: d4120355-4400-4628-b19b-c52250e3b127
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening Heap Graphs

@@ -4,13 +4,15 @@ description: Describes the restrictions on the properties of an associated CIM\_
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '45a75dc7-be87-41bd-963e-4118db8ac0c8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 45a75dc7-be87-41bd-963e-4118db8ac0c8
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_EnabledLogicalElementCapabilities class", "CIM_EnabledLogicalElementCapabilities class, described"]
+keywords:
+- CIM_EnabledLogicalElementCapabilities class
+- CIM_EnabledLogicalElementCapabilities class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_EnabledLogicalElementCapabilities class
@@ -41,14 +46,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.22.0"), UMLPackagePath("CIM::Core::Capabilities")]
 class CIM_EnabledLogicalElementCapabilities : CIM_Capabilities
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
   boolean ElementNameEditSupported;
-  uint16  MaxElementNameLen;
-  uint16  RequestedStatesSupported[];
-  string  ElementNameMask;
+  uint16  MaxElementNameLen;
+  uint16  RequestedStatesSupported[];
+  string  ElementNameMask;
 };
 ```
 
@@ -148,7 +153,7 @@ A regular expression that indicates the restrictions on the **ElementName** prop
 > [!Note]  
 > If this property and the **ElementNameMask** property of the enable logical element describe the maximum length of **ElementName**, the smaller value is used.
 
- 
+ 
 
 </dd> <dt>
 
@@ -178,7 +183,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_Capabilities**](cim-capabilities.md).
 
@@ -290,7 +295,7 @@ The possible values are.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -307,9 +312,9 @@ The possible values are.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

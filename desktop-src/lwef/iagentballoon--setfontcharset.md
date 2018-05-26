@@ -1,7 +1,12 @@
 ---
 title: IAgentBalloon SetFontCharSet
 description: IAgentBalloon SetFontCharSet
-ms.assetid: 'ce1b152d-c8af-47ec-9e6b-5768dbcf3566'
+ms.assetid: ce1b152d-c8af-47ec-9e6b-5768dbcf3566
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentBalloon::SetFontCharSet

@@ -1,7 +1,12 @@
 ---
-Description: 'The Registry table, and related tables, of the installation database holds the registry information the application needs written in the system registry.'
-ms.assetid: 'e4695018-e9c3-400c-b4bb-6160e154d2cf'
+Description: The Registry table, and related tables, of the installation database holds the registry information the application needs written in the system registry.
+ms.assetid: e4695018-e9c3-400c-b4bb-6160e154d2cf
 title: Adding Registry Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Registry Information

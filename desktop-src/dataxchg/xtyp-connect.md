@@ -1,8 +1,9 @@
 ---
 title: XTYP\_CONNECT transaction
 description: A client uses the XTYP\_CONNECT transaction to establish a conversation.
-ms.assetid: '74f43b10-f7ac-4370-9caa-7b9ddf3413ed'
-keywords: ["XTYP_CONNECT transaction Data Exchange"]
+ms.assetid: 74f43b10-f7ac-4370-9caa-7b9ddf3413ed
+keywords:
+- XTYP_CONNECT transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_CONNECT transaction
 
-A client uses the **XTYP\_CONNECT** transaction to establish a conversation. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](ddecallback.md), receives this transaction when a client specifies a service name that the server supports (and a topic name that is not **NULL**) in a call to the [**DdeConnect**](ddeconnect.md) function.
+A client uses the **XTYP\_CONNECT** transaction to establish a conversation. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](ddecallback.md), receives this transaction when a client specifies a service name that the server supports (and a topic name that is not **NULL**) in a call to the [**DdeConnect**](/windows/win32/Ddeml/nf-ddeml-ddeconnect?branch=master) function.
 
 
 ```C++
@@ -75,7 +81,7 @@ Not used.
 *dwData1* 
 </dt> <dd>
 
-A pointer to a [**CONVCONTEXT**](convcontext-str.md) structure that contains context information for the conversation. If the client is not a DDEML application, this parameter is 0.
+A pointer to a [**CONVCONTEXT**](/windows/win32/Ddeml/ns-ddeml-tagconvcontext?branch=master) structure that contains context information for the conversation. If the client is not a DDEML application, this parameter is 0.
 
 </dd> <dt>
 
@@ -88,11 +94,11 @@ Specifies whether the client is the same application instance as the server. If 
 
 ## Return value
 
-A server callback function should return **TRUE** to allow the client to establish a conversation on the specified service name and topic name pair, or the function should return **FALSE** to deny the conversation. If the callback function returns **TRUE** and a conversation is successfully established, the system passes the conversation handle to the server by issuing an [**XTYP\_CONNECT\_CONFIRM**](xtyp-connect-confirm.md) transaction to the server's callback function (unless the server specified the **CBF\_SKIP\_CONNECT\_CONFIRMS** flag in the [**DdeInitialize**](ddeinitialize.md) function).
+A server callback function should return **TRUE** to allow the client to establish a conversation on the specified service name and topic name pair, or the function should return **FALSE** to deny the conversation. If the callback function returns **TRUE** and a conversation is successfully established, the system passes the conversation handle to the server by issuing an [**XTYP\_CONNECT\_CONFIRM**](xtyp-connect-confirm.md) transaction to the server's callback function (unless the server specified the **CBF\_SKIP\_CONNECT\_CONFIRMS** flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function).
 
 ## Remarks
 
-This transaction is filtered if the server application specified the **CBF\_FAIL\_CONNECTIONS** flag in the [**DdeInitialize**](ddeinitialize.md) function.
+This transaction is filtered if the server application specified the **CBF\_FAIL\_CONNECTIONS** flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function.
 
 A server cannot block this transaction type; the **CBR\_BLOCK** return code is ignored.
 
@@ -102,8 +108,8 @@ A server cannot block this transaction type; the **CBR\_BLOCK** return code is i
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -115,13 +121,13 @@ A server cannot block this transaction type; the **CBR\_BLOCK** return code is i
 **Reference**
 </dt> <dt>
 
-[**CONVCONTEXT**](convcontext-str.md)
+[**CONVCONTEXT**](/windows/win32/Ddeml/ns-ddeml-tagconvcontext?branch=master)
 </dt> <dt>
 
-[**DdeConnect**](ddeconnect.md)
+[**DdeConnect**](/windows/win32/Ddeml/nf-ddeml-ddeconnect?branch=master)
 </dt> <dt>
 
-[**DdeInitialize**](ddeinitialize.md)
+[**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -130,9 +136,9 @@ A server cannot block this transaction type; the **CBR\_BLOCK** return code is i
 [Dynamic Data Exchange Management Library](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

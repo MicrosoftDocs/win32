@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics describe the registry entries for use with end-user-defined characters (EUDCs):'
-ms.assetid: 'da41aa73-6ad6-4c78-a289-d3c9b0166d5a'
+Description: The following topics describe the registry entries for use with end-user-defined characters (EUDCs)
+ms.assetid: da41aa73-6ad6-4c78-a289-d3c9b0166d5a
 title: EUDC Registry Entries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EUDC Registry Entries

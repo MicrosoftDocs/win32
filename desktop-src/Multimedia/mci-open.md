@@ -1,8 +1,9 @@
 ---
 title: MCI\_OPEN command
 description: The MCI\_OPEN command initializes a device or file. All devices recognize this command.
-ms.assetid: 'e2ee92b5-b10b-4408-950e-3002fe775b25'
-keywords: ["MCI_OPEN command Windows Multimedia"]
+ms.assetid: e2ee92b5-b10b-4408-950e-3002fe775b25
+keywords:
+- MCI_OPEN command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_OPEN command
 
 The MCI\_OPEN command initializes a device or file. All devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -62,7 +68,7 @@ Returns zero if successful or an error otherwise.
 
 ## Remarks
 
-The MCI\_OPEN\_TYPE flag must be used whenever a device is specified in the [**mciSendCommand**](mcisendcommand.md) function. If you open a device by specifying a device-type constant, you must specify the MCI\_OPEN\_TYPE\_ID flag in addition to MCI\_OPEN\_TYPE. For a list of device-type constants, see [MCI Device Types](mci-device-types.md).
+The MCI\_OPEN\_TYPE flag must be used whenever a device is specified in the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function. If you open a device by specifying a device-type constant, you must specify the MCI\_OPEN\_TYPE\_ID flag in addition to MCI\_OPEN\_TYPE. For a list of device-type constants, see [MCI Device Types](mci-device-types.md).
 
 If the MCI\_OPEN\_SHAREABLE flag is not specified when a device or file is initially opened, all subsequent MCI\_OPEN commands to the device or file will fail. If the device or file is already open and this flag is not specified, the call will fail even if the first open command specified MCI\_OPEN\_SHAREABLE. Files opened for the MCISEQ.DRV and MCIWAVE.DRV devices are nonsharable.
 
@@ -159,7 +165,7 @@ Indicates a preference for 32-bit MCI device support.
 
 </dd> </dl>
 
-For digital-video devices, the *lpOpen* parameter points to an [**MCI\_DGV\_OPEN\_PARMS**](mci-dgv-open-parms.md) structure.
+For digital-video devices, the *lpOpen* parameter points to an [**MCI\_DGV\_OPEN\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_open_parmsa?branch=master) structure.
 
 The following additional flags are used with the **overlay** device type:
 
@@ -200,8 +206,8 @@ For waveform-audio devices, the *lpOpen* parameter points to an [**MCI\_WAVE\_OP
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -216,9 +222,9 @@ For waveform-audio devices, the *lpOpen* parameter points to an [**MCI\_WAVE\_OP
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GETINFO\_GLYPHSTRING structure is used as input to the UNIFONTOBJ\_GetInfo callback function.'
-ms.assetid: 'ebcc1ada-af6f-46c3-a025-97079eb08816'
-title: 'GETINFO\_GLYPHSTRING structure'
+---
+Description: The GETINFO\_GLYPHSTRING structure is used as input to the UNIFONTOBJ\_GetInfo callback function.
+ms.assetid: ebcc1ada-af6f-46c3-a025-97079eb08816
+title: GETINFO\_GLYPHSTRING structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GETINFO\_GLYPHSTRING structure

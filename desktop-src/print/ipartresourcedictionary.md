@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPartResourceDictionary interface is the abstraction for an XPS resource dictionary.'
-ms.assetid: '96e3d5ab-f5d0-46a8-a797-6ec8a369e522'
+---
+Description: The IPartResourceDictionary interface is the abstraction for an XPS resource dictionary.
+ms.assetid: 96e3d5ab-f5d0-46a8-a797-6ec8a369e522
 title: IPartResourceDictionary interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartResourceDictionary interface

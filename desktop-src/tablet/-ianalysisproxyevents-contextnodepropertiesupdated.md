@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs after the IInkAnalyzer updates one or more properties of an IContextNode object.'
-ms.assetid: 'f626c263-31a4-45ee-ae04-3251eac0d652'
-title: '\_IAnalysisProxyEvents::ContextNodePropertiesUpdated event'
+Description: Occurs after the IInkAnalyzer updates one or more properties of an IContextNode object.
+ms.assetid: f626c263-31a4-45ee-ae04-3251eac0d652
+title: '\_IAnalysisProxyEventsContextNodePropertiesUpdated event'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_IAnalysisProxyEvents::ContextNodePropertiesUpdated event
@@ -13,8 +18,8 @@ Occurs after the [**IInkAnalyzer**](iinkanalyzer.md) updates one or more propert
 
 ```C++
 HRESULT ContextNodePropertiesUpdated(
-  [in] IInkAnalyzer *pInkAnalyzer,
-  [in] IContextNode *pContextNodeUpdated
+  [in] IInkAnalyzer *pInkAnalyzer,
+  [in] IContextNode *pContextNodeUpdated
 );
 ```
 
@@ -54,7 +59,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -86,9 +91,9 @@ For more information about synchronizing your application data with the [**IInkA
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

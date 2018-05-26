@@ -1,7 +1,12 @@
-﻿---
-Description: 'Queries event tracing session settings for the specified information class.'
-ms.assetid: '3CC91F7C-7F82-4B3B-AA50-FE03CFEC0278'
+---
+Description: Queries event tracing session settings for the specified information class.
+ms.assetid: 3CC91F7C-7F82-4B3B-AA50-FE03CFEC0278
 title: TraceQueryInformation function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TraceQueryInformation function

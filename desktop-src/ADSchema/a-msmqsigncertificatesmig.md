@@ -1,25 +1,30 @@
 ---
 title: MSMQ-Sign-Certificates-Mig attribute
-description: In MSMQ mixed-mode, the attribute contains the previous value of mSMQSignCertificates. MSMQ supports migration from the MSMQ 1.0 DS to the Windows 2000 DS, and mixed mode specifies a state in which some of the DS severs were not upgraded to Windows 2000.
+description: In MSMQ mixed-mode, the attribute contains the previous value of mSMQSignCertificates. MSMQ supports migration from the MSMQ 1.0 DS to the Windows 2000 DS, and mixed mode specifies a state in which some of the DS severs were not upgraded to Windows 2000.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0dbc5d97-39e6-4863-a386-541ea2abaadc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0dbc5d97-39e6-4863-a386-541ea2abaadc
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MSMQ-Sign-Certificates-Mig attribute AD Schema", "mSMQSignCertificatesMig attribute AD Schema"]
+keywords:
+- MSMQ-Sign-Certificates-Mig attribute AD Schema
+- mSMQSignCertificatesMig attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MSMQ-Sign-Certificates-Mig
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMQ-Sign-Certificates-Mig attribute
 
-In MSMQ mixed-mode, the attribute contains the previous value of mSMQSignCertificates. MSMQ supports migration from the MSMQ 1.0 DS to the Windows 2000 DS, and mixed mode specifies a state in which some of the DS severs were not upgraded to Windows 2000.
+In MSMQ mixed-mode, the attribute contains the previous value of mSMQSignCertificates. MSMQ supports migration from the MSMQ 1.0 DS to the Windows 2000 DS, and mixed mode specifies a state in which some of the DS severs were not upgraded to Windows 2000.
 
 
 
@@ -38,12 +43,12 @@ In MSMQ mixed-mode, the attribute contains the previous value of mSMQSignCertifi
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ In MSMQ mixed-mode, the attribute contains the previous value of mSMQSignCertifi
 
 
 
- 
+ 
 
- 
+ 
 
 
 

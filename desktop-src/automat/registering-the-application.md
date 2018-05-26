@@ -1,7 +1,12 @@
 ---
 title: Registering the Application
 description: Registration maps the ProgID of the application to a unique CLSID, so that you can create instances of the application by name, rather than by CLSID.
-ms.assetid: '93375c04-c3cd-44d6-bb9d-3faed4d62282'
+ms.assetid: 93375c04-c3cd-44d6-bb9d-3faed4d62282
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering the Application

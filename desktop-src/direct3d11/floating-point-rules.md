@@ -1,7 +1,12 @@
 ---
 title: Floating-point rules
 description: Direct3D 11 supports several floating-point representations. All floating-point computations operate under a defined subset of the IEEE 754 32-bit single precision floating-point rules.
-ms.assetid: '33F21BD0-FDF8-4D35-95C0-0A3920814CB6'
+ms.assetid: 33F21BD0-FDF8-4D35-95C0-0A3920814CB6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Floating-point rules
@@ -78,7 +83,7 @@ Some of these rules are a single option where IEEE-754 offers choices.
 
 ## 64-bit (double precision) floating point rules
 
-Hardware and display drivers optionally support double-precision floating-point. To indicate support, when you call [**ID3D11Device::CheckFeatureSupport**](id3d11device-checkfeaturesupport.md) with [**D3D11\_FEATURE\_DOUBLES**](d3d11-feature.md#d3d11-feature-doubles), the driver sets **DoublePrecisionFloatShaderOps** of [**D3D11\_FEATURE\_DATA\_DOUBLES**](d3d11-feature-data-doubles.md) to TRUE. The driver and hardware must then support all double-precision floating-point instructions.
+Hardware and display drivers optionally support double-precision floating-point. To indicate support, when you call [**ID3D11Device::CheckFeatureSupport**](/windows/win32/D3D11/nf-d3d11-id3d11device-checkfeaturesupport?branch=master) with [**D3D11\_FEATURE\_DOUBLES**](d3d11-feature.md#d3d11-feature-doubles), the driver sets **DoublePrecisionFloatShaderOps** of [**D3D11\_FEATURE\_DATA\_DOUBLES**](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_doubles?branch=master) to TRUE. The driver and hardware must then support all double-precision floating-point instructions.
 
 Double-precision instructions follow IEEE 754R behavior requirements.
 

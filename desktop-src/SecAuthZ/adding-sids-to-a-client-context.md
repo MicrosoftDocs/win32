@@ -1,12 +1,17 @@
 ---
-Description: 'An application can add security identifiers (SIDs) to an existing client context by calling the AuthzAddSidsToContext function.'
-ms.assetid: 'd49ce47b-e91a-452b-b423-07e8d282d28a'
+Description: An application can add security identifiers (SIDs) to an existing client context by calling the AuthzAddSidsToContext function.
+ms.assetid: d49ce47b-e91a-452b-b423-07e8d282d28a
 title: Adding SIDs to a Client Context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding SIDs to a Client Context
 
-An application can add [*security identifiers*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) (SIDs) to an existing client context by calling the [**AuthzAddSidsToContext**](authzaddsidstocontext.md) function. The [**AuthzAddSidsToContext**](authzaddsidstocontext.md) function allows an application to specify both a list of SIDs and a list of restricting SIDs to the specified client context.
+An application can add [*security identifiers*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) (SIDs) to an existing client context by calling the [**AuthzAddSidsToContext**](/windows/win32/Authz/nf-authz-authzaddsidstocontext?branch=master) function. The [**AuthzAddSidsToContext**](/windows/win32/Authz/nf-authz-authzaddsidstocontext?branch=master) function allows an application to specify both a list of SIDs and a list of restricting SIDs to the specified client context.
 
 The system uses the list of restricting SIDs when it checks the token's access to a securable object. When a restricted process or thread tries to access a securable object, the system performs two access checks: one using the token's enabled SIDs, and another using the list of restricting SIDs. Access is granted only if both access checks allow the requested access rights.
 

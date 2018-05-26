@@ -1,8 +1,11 @@
 ---
 title: System.Shell.Item.metadata method
 description: Retrieves the metadata value for a canonical property name key of the System.Shell.Item.
-ms.assetid: 'b3947176-3a5c-4f0d-a358-570419a9f65c'
-keywords: ["metadata method Windows Sidebar", "metadata method Windows Sidebar , System.Shell.Item object", "System.Shell.Item object Windows Sidebar , metadata method"]
+ms.assetid: b3947176-3a5c-4f0d-a358-570419a9f65c
+keywords:
+- metadata method Windows Sidebar
+- metadata method Windows Sidebar , System.Shell.Item object
+- System.Shell.Item object Windows Sidebar , metadata method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.Item.metadata method
@@ -68,7 +76,7 @@ Metadata keys can be obtained from the **Details** tab of the **Properties** dia
 >
 >     Author, Title, Subject, Owner
 >
- 
+ 
 
 ## Examples
 
@@ -119,18 +127,18 @@ function GetItemFromDrop()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

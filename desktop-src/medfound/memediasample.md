@@ -1,22 +1,27 @@
-﻿---
-Description: 'Sent when a media stream delivers a new sample in response to a call to IMFMediaStream::RequestSample.'
-ms.assetid: '01610053-786f-44b5-90d6-2cb2668cd632'
+---
+Description: Sent when a media stream delivers a new sample in response to a call to IMFMediaStreamRequestSample.
+ms.assetid: 01610053-786f-44b5-90d6-2cb2668cd632
 title: MEMediaSample event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEMediaSample event
 
-Sent when a media stream delivers a new sample in response to a call to [**IMFMediaStream::RequestSample**](imfmediastream-requestsample.md).
+Sent when a media stream delivers a new sample in response to a call to [**IMFMediaStream::RequestSample**](/windows/win32/mfidl/nf-mfidl-imfmediastream-requestsample?branch=master).
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
 | VARTYPE                | Description                                                                                   |
 |------------------------|-----------------------------------------------------------------------------------------------|
-| VT\_UNKNOWN<br/> | Pointer to the [**IMFSample**](imfsample.md) interface of the sample.<br/> <br/> |
+| VT\_UNKNOWN<br/> | Pointer to the [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) interface of the sample.<br/> <br/> |
 
 
 

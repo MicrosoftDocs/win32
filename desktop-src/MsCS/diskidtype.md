@@ -4,17 +4,22 @@ description: Describes the partition type of the physical disk resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5a47208b-1642-42ec-8725-aa760139afa7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5a47208b-1642-42ec-8725-aa760139afa7
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DiskIdType Failover Cluster , for Physical Disk private properties", "DiskIdType Failover Cluster"]
+keywords:
+- DiskIdType Failover Cluster , for Physical Disk private properties
+- DiskIdType Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DiskIdType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DiskIdType
@@ -28,14 +33,14 @@ Describes the partition type of the physical disk resource. The following table 
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Required                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 5000                                      |
 | Default   | 5000                                      |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,7 +56,7 @@ The **DiskIdType** property can be set to one of the following values.
 
 
 
- 
+ 
 
 **PARTITION\_STYLE\_MBR** and **PARTITION\_STYLE\_GPT** are defined in WinIoCtl.h.
 
@@ -78,7 +83,7 @@ DiskIdTypeValue.dw        = DiskIdTypeData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -89,9 +94,9 @@ DiskIdTypeValue.dw        = DiskIdTypeData;
 [Physical Disk Private Properties](physical-disk-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

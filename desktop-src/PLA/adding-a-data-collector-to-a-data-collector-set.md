@@ -1,7 +1,12 @@
 ---
 title: Adding a Data Collector to a Data Collector Set
 description: To collect data, the data collector set must contain one or more data collectors.
-ms.assetid: '0495cab6-d9d7-496f-8150-e36ff75210da'
+ms.assetid: 0495cab6-d9d7-496f-8150-e36ff75210da
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Data Collector to a Data Collector Set

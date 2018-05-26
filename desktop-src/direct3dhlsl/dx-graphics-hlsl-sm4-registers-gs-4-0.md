@@ -1,7 +1,12 @@
 ---
 title: Registers - gs\_4\_0
 description: This section contains reference information for the input and output registers implemented by geometry shader version 4\_0.
-ms.assetid: '1f3ebd71-19de-4e26-87f0-4fb5c8e2a343'
+ms.assetid: 1f3ebd71-19de-4e26-87f0-4fb5c8e2a343
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registers - gs\_4\_0

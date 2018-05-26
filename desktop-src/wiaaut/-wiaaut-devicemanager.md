@@ -1,8 +1,10 @@
 ---
 title: DeviceManager object
 description: Manages the imaging devices connected to the computer. The DeviceManager control is an invisible-at-runtime control that you can create using \ 0034;WIA.DeviceManager \ 0034; as the ProgID in a call to CreateObject, or by dropping a DeviceManager object on a form.
-ms.assetid: '47a12fe1-f4f9-4b59-b157-513ae159a787'
-keywords: ["DeviceManager object WIA Automation", "DeviceManager object WIA Automation , described"]
+ms.assetid: 47a12fe1-f4f9-4b59-b157-513ae159a787
+keywords:
+- DeviceManager object WIA Automation
+- DeviceManager object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceManager object
@@ -37,7 +44,7 @@ The **DeviceManager** object has these events.
 
 
 
- 
+ 
 
 ### Methods
 
@@ -54,7 +61,7 @@ The **DeviceManager** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -68,7 +75,7 @@ The **DeviceManager** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,8 +89,8 @@ For example code, see [List all Available Devices by Name and DeviceID](-wiaaut-
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -96,9 +103,9 @@ For example code, see [List all Available Devices by Name and DeviceID](-wiaaut-
 [**OnEvent**](-wiaaut--idevicemanagerevents-onevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

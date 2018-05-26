@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetMediaTypeForVB method specifies the group media type, for Automation clients.'
-ms.assetid: '86f52088-a0dd-40be-98a0-8adc09b264dd'
-title: 'IAMTimelineGroup::SetMediaTypeForVB method'
+---
+Description: The SetMediaTypeForVB method specifies the group media type, for Automation clients.
+ms.assetid: 86f52088-a0dd-40be-98a0-8adc09b264dd
+title: IAMTimelineGroupSetMediaTypeForVB method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::SetMediaTypeForVB method

@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientConnection GetFlags method
 description: Is used to differentiate first-time responses from responses due to SoHRequests cached by the enforcers.
-ms.assetid: 'e8399615-5190-46f7-a3bf-3070de548953'
-keywords: ["GetFlags method NAP", "GetFlags method NAP , INapEnforcementClientConnection interface", "INapEnforcementClientConnection interface NAP , GetFlags method"]
+ms.assetid: e8399615-5190-46f7-a3bf-3070de548953
+keywords:
+- GetFlags method NAP
+- GetFlags method NAP , INapEnforcementClientConnection interface
+- INapEnforcementClientConnection interface NAP , GetFlags method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientConnection::GetFlags method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientConnection::GetFlags** method is used to differentiate first-time responses from responses due to SoHRequests cached by the enforcers.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientConnection::GetFlags** method is used to differentiat
 
 ```C++
 HRESULT GetFlags(
-  [out] UINT8 *flags
+  [out] UINT8 *flags
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT GetFlags(
 *flags* \[out\]
 </dt> <dd>
 
-A pointer to a flag that determines if the [**SoHResponse**](soh-struct.md) is due to a cached **SoHRequest**. If *flags* has a value of [**freshSoHRequest**](nap-type-constants.md), it is a new request; otherwise it is a cached request.
+A pointer to a flag that determines if the [**SoHResponse**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) is due to a cached **SoHRequest**. If *flags* has a value of [**freshSoHRequest**](nap-type-constants.md), it is a new request; otherwise it is a cached request.
 
 </dd> </dl>
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Other COM-specific error codes also may be returned.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -81,9 +89,9 @@ Other COM-specific error codes also may be returned.
 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

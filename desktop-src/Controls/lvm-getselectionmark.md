@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETSELECTIONMARK message
 description: Retrieves the selection mark from a list-view control. You can send this message explicitly or use the ListView\_GetSelectionMark macro.
-ms.assetid: '21daf7d7-1217-4608-93f9-c390546f1591'
-keywords: ["LVM_GETSELECTIONMARK message Windows Controls"]
+ms.assetid: 21daf7d7-1217-4608-93f9-c390546f1591
+keywords:
+- LVM_GETSELECTIONMARK message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETSELECTIONMARK message
 
-Retrieves the selection mark from a list-view control. You can send this message explicitly or use the [**ListView\_GetSelectionMark**](listview-getselectionmark.md) macro.
+Retrieves the selection mark from a list-view control. You can send this message explicitly or use the [**ListView\_GetSelectionMark**](/windows/win32/Commctrl/nf-commctrl-listview_getselectionmark?branch=master) macro.
 
 ## Parameters
 
@@ -41,8 +47,8 @@ The *selection mark* is the item index from which a multiple selection starts.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ The *selection mark* is the item index from which a multiple selection starts.
 [**LVM\_SETSELECTIONMARK**](lvm-setselectionmark.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

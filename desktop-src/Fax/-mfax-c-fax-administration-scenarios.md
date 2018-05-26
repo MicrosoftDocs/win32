@@ -1,7 +1,12 @@
 ---
-Description: 'The following scenarios provide examples of C++ code that perform administrative fax service functions. Each code example will work as a Windows Console Application.'
-ms.assetid: 'b68f6e1c-16d3-4562-995f-c59b013b64b3'
+Description: The following scenarios provide examples of C++ code that perform administrative fax service functions. Each code example will work as a Windows Console Application.
+ms.assetid: b68f6e1c-16d3-4562-995f-c59b013b64b3
 title: C++ Fax Administration Scenarios
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C++ Fax Administration Scenarios

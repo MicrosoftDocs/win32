@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GeneralEventsLevel property indicates the level of detail at which the fax service logs general events in the application log.'
-ms.assetid: '2906d487-b4fc-4821-872b-ab1702bf17be'
-title: 'FaxEventLogging.GeneralEventsLevel property'
+---
+Description: The GeneralEventsLevel property indicates the level of detail at which the fax service logs general events in the application log.
+ms.assetid: 2906d487-b4fc-4821-872b-ab1702bf17be
+title: FaxEventLogging.GeneralEventsLevel property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxEventLogging.GeneralEventsLevel property
@@ -21,11 +26,11 @@ Property GeneralEventsLevel As Integer
 
 ## Property value
 
-A variable of type [**FAX\_LOG\_LEVEL\_ENUM**](-mfax-fax-log-level-enum.md) that specifies or receives the logging level. For possible values, see [**FAX\_LOG\_LEVEL\_ENUM**](-mfax-fax-log-level-enum.md).
+A variable of type [**FAX\_LOG\_LEVEL\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_log_level_enum?branch=master) that specifies or receives the logging level. For possible values, see [**FAX\_LOG\_LEVEL\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_log_level_enum?branch=master).
 
 ## Remarks
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxEventLogging**](-mfax-faxeventlogging.md)
 </dt> <dt>
 
-[**IFaxEventLogging**](-mfax-faxeventlogging-cpp.md)
+[**IFaxEventLogging**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxeventlogging?branch=master)
 </dt> </dl>
 
  

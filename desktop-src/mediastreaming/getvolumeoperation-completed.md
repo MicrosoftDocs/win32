@@ -1,14 +1,22 @@
 ---
 title: GetVolumeOperation.Completed property
 description: Gets or sets an event handler that is invoked when the asynchronous operation started by GetVolumeAsync is completed.
-ms.assetid: '34100EE7-C4CB-4AE0-BD3E-9E23A643F87E'
-keywords: ["Completed property Media Streaming API", "Completed property Media Streaming API , GetVolumeOperation interface", "GetVolumeOperation interface Media Streaming API , Completed property"]
+ms.assetid: 34100EE7-C4CB-4AE0-BD3E-9E23A643F87E
+keywords:
+- Completed property Media Streaming API
+- Completed property Media Streaming API , GetVolumeOperation interface
+- GetVolumeOperation interface Media Streaming API , Completed property
 topic_type:
 - apiref
 api_name:
 - GetVolumeOperation.Completed
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetVolumeOperation.Completed property

@@ -1,7 +1,12 @@
 ---
-Description: 'What''s New in DirectShow'
-ms.assetid: '675a34d4-7a33-4125-86af-cd4ed73ad430'
-title: 'What''s New in DirectShow'
+Description: Whats New in DirectShow
+ms.assetid: 675a34d4-7a33-4125-86af-cd4ed73ad430
+title: Whats New in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in DirectShow
@@ -10,8 +15,8 @@ title: 'What''s New in DirectShow'
 
 New interfaces:
 
--   [**IAMAsyncReaderTimestampScaling**](iamasyncreadertimestampscaling.md)
--   [**IAMPluginControl**](iamplugincontrol.md)
+-   [**IAMAsyncReaderTimestampScaling**](/windows/win32/Strmif/nn-strmif-iamasyncreadertimestampscaling?branch=master)
+-   [**IAMPluginControl**](/windows/win32/Strmif/nn-strmif-iamplugincontrol?branch=master)
 
 New or updated filters:
 
@@ -20,7 +25,7 @@ New or updated filters:
 
 The "intelligent connect" algorithms have been modified to support preferred and blocked filters. For details, see [Intelligent Connect](intelligent-connect.md).
 
-DVD playback: New options for the [**IDvdControl2::SetOption**](idvdcontrol2-setoption.md) method.
+DVD playback: New options for the [**IDvdControl2::SetOption**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-setoption?branch=master) method.
 
 ## What's New for DirectShow in Windows Vista
 
@@ -38,7 +43,7 @@ DVD playback: New options for the [**IDvdControl2::SetOption**](idvdcontrol2-set
 -   The MPEG-1 Layer II audio decoder now uses floating-point arithmetic, for improved decoding quality.
 -   DVD playback enhancements. For details, see [DVD Playback Enhancements in Windows Vista](dvd-playback-enhancements-in-windows-vista.md).
     -   Better trick-mode support: Smooth transitions between rates; transitions between forward and reverse playback; support for audio playback during fast-forward and reverse.
-    -   Enhanced caching. Applications can set how much data the DVD Navigator reads in advance. Setting a larger cache can extend battery life and enable silent playback (after the drive spins down). For more information, see [**DVD\_OPTION\_FLAG**](dvd-option-flag.md).
+    -   Enhanced caching. Applications can set how much data the DVD Navigator reads in advance. Setting a larger cache can extend battery life and enable silent playback (after the drive spins down). For more information, see [**DVD\_OPTION\_FLAG**](/windows/win32/strmif/ne-strmif-__midl___midl_itf_strmif_0000_0132_0003?branch=master).
 -   Audio end-point devices: Applications can associate the [DirectSound Renderer Filter](directsound-renderer-filter.md) with a particular audio end-point device. Applications can use the Multimedia Device (MMDevice) API to enumerate and select the end-point device. For more information, see the Core Audio API documentation in the Windows SDK.
 -   The following filters have been removed from Windows Vista:
     -   [BDA IP Sink Filter](mstv.bda_ip_sink_filter)

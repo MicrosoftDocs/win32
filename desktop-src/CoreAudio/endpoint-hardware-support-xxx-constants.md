@@ -1,7 +1,12 @@
 ---
-Description: 'The ENDPOINT\_HARDWARE\_SUPPORT\_XXX constants are hardware support flags for an audio endpoint device.'
-ms.assetid: '54032f75-2287-4589-bda5-e005ee077c41'
-title: 'ENDPOINT\_HARDWARE\_SUPPORT\_XXX Constants'
+Description: The ENDPOINT\_HARDWARE\_SUPPORT\_XXX constants are hardware support flags for an audio endpoint device.
+ms.assetid: 54032f75-2287-4589-bda5-e005ee077c41
+title: ENDPOINT\_HARDWARE\_SUPPORT\_XXX Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ENDPOINT\_HARDWARE\_SUPPORT\_XXX Constants
@@ -20,7 +25,7 @@ The ENDPOINT\_HARDWARE\_SUPPORT\_XXX constants are hardware support flags for an
 
 ## Remarks
 
-The [**IAudioEndpointVolume::QueryHardwareSupport**](iaudioendpointvolume-queryhardwaresupport.md) and [**IAudioMeterInformation::QueryHardwareSupport**](iaudiometerinformation-queryhardwaresupport.md) methods use the ENDPOINT\_HARDWARE\_SUPPORT\_XXX constants.
+The [**IAudioEndpointVolume::QueryHardwareSupport**](/windows/win32/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-queryhardwaresupport?branch=master) and [**IAudioMeterInformation::QueryHardwareSupport**](/windows/win32/Endpointvolume/nf-endpointvolume-iaudiometerinformation-queryhardwaresupport?branch=master) methods use the ENDPOINT\_HARDWARE\_SUPPORT\_XXX constants.
 
 A hardware support mask indicates which functions an audio endpoint device implements in hardware. The mask can be either 0 or the bitwise-OR combination of one or more ENDPOINT\_HARDWARE\_SUPPORT\_XXX constants. If a bit that corresponds to a particular ENDPOINT\_HARDWARE\_SUPPORT\_XXX constant is set in the mask, then the meaning is that the function represented by that constant is implemented in hardware by the device.
 
@@ -30,8 +35,8 @@ A hardware support mask indicates which functions an audio endpoint device imple
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Mmdeviceapi.h</dt> </dl> |
 
 
@@ -43,15 +48,15 @@ A hardware support mask indicates which functions an audio endpoint device imple
 [Core Audio Constants](core-audio-constants.md)
 </dt> <dt>
 
-[**IAudioEndpointVolume::QueryHardwareSupport**](iaudioendpointvolume-queryhardwaresupport.md)
+[**IAudioEndpointVolume::QueryHardwareSupport**](/windows/win32/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-queryhardwaresupport?branch=master)
 </dt> <dt>
 
-[**IAudioMeterInformation::QueryHardwareSupport**](iaudiometerinformation-queryhardwaresupport.md)
+[**IAudioMeterInformation::QueryHardwareSupport**](/windows/win32/Endpointvolume/nf-endpointvolume-iaudiometerinformation-queryhardwaresupport?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

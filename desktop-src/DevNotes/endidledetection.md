@@ -1,7 +1,12 @@
-﻿---
-Description: 'Ends monitoring of inactivity.'
-ms.assetid: '26e52341-77cd-46cd-8b32-e786dfac870e'
+---
+Description: Ends monitoring of inactivity.
+ms.assetid: 26e52341-77cd-46cd-8b32-e786dfac870e
 title: EndIdleDetection function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EndIdleDetection function

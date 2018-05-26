@@ -1,6 +1,11 @@
 ---
-Description: 'Registers or unregisters an autohide appbar for a given edge of the screen. This message extends ABM\_SETAUTOHIDEBAR by enabling you to specify a particular monitor, for use in multiple monitor situations.'
-title: 'ABM\_SETAUTOHIDEBAREX message'
+Description: Registers or unregisters an autohide appbar for a given edge of the screen. This message extends ABM\_SETAUTOHIDEBAR by enabling you to specify a particular monitor, for use in multiple monitor situations.
+title: ABM\_SETAUTOHIDEBAREX message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ABM\_SETAUTOHIDEBAREX message
@@ -21,7 +26,7 @@ fSuccess = (BOOL) SHAppBarMessage(ABM_SETAUTOHIDEBAR, pabd);
 *pabd* 
 </dt> <dd>
 
-A pointer to an [**APPBARDATA**](appbardata.md) structure. Set the **lParam** member is to **TRUE** to register the appbar or **FALSE** to unregister it. You must specify the **cbSize**, **hWnd**, **uEdge**, **rc**, and **lParam** members when sending this message; all other members are ignored.
+A pointer to an [**APPBARDATA**](/windows/win32/Shellapi/ns-shellapi-_appbardata?branch=master) structure. Set the **lParam** member is to **TRUE** to register the appbar or **FALSE** to unregister it. You must specify the **cbSize**, **hWnd**, **uEdge**, **rc**, and **lParam** members when sending this message; all other members are ignored.
 
 </dd> </dl>
 
@@ -31,7 +36,7 @@ Returns **TRUE** if successful, or **FALSE** if an error occurs or if an autohid
 
 ## Remarks
 
-The system allows only one autohide appbar for each edge of each monitor. The monitor is determined by the **rc** member and the edge is determined by the **uEdge** member of the [**APPBARDATA**](appbardata.md) structure.
+The system allows only one autohide appbar for each edge of each monitor. The monitor is determined by the **rc** member and the edge is determined by the **uEdge** member of the [**APPBARDATA**](/windows/win32/Shellapi/ns-shellapi-_appbardata?branch=master) structure.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ The system allows only one autohide appbar for each edge of each monitor. The mo
 [**ABM\_SETAUTOHIDEBAR**](abm-setautohidebar.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

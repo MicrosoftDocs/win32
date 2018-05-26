@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.getSelectionStart
 description: The getSelectionStart method retrieves the starting position of the selected text in the editbox control.
-ms.assetid: '2d7efe14-549c-4f73-96a7-b8ce88b881ad'
-keywords: ["EDITBOX.getSelectionStart Windows Media Player"]
+ms.assetid: 2d7efe14-549c-4f73-96a7-b8ce88b881ad
+keywords:
+- EDITBOX.getSelectionStart Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.getSelectionStart
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.getSelectionStart
@@ -61,9 +67,9 @@ This method can only be called after the control becomes visible.
 [**EDITBOX.setSelection**](editbox-setselection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

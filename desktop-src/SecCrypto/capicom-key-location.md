@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CAPICOM\_KEY\_LOCATION enumeration defines key location types.'
-ms.assetid: 'd6261906-66aa-4c18-8305-b7998bbe53d5'
-title: 'CAPICOM\_KEY\_LOCATION enumeration'
+---
+Description: The CAPICOM\_KEY\_LOCATION enumeration defines key location types.
+ms.assetid: d6261906-66aa-4c18-8305-b7998bbe53d5
+title: CAPICOM\_KEY\_LOCATION enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_KEY\_LOCATION enumeration

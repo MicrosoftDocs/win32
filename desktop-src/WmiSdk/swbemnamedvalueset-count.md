@@ -1,13 +1,16 @@
 ---
-Description: 'Use the Count property of the SWbemNamedValueSet object to determine how many items are in the collection. This property is read-only.'
+Description: Use the Count property of the SWbemNamedValueSet object to determine how many items are in the collection. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4086cf91-69cd-4bce-a6e0-f223b18cd18d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4086cf91-69cd-4bce-a6e0-f223b18cd18d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemNamedValueSet.Count property'
+title: SWbemNamedValueSet.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemNamedValueSet.Count property
@@ -35,8 +38,8 @@ SWbemNamedValueSet.Count As Integer
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -52,9 +55,9 @@ SWbemNamedValueSet.Count As Integer
 [**SWbemNamedValueSet**](swbemnamedvalueset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

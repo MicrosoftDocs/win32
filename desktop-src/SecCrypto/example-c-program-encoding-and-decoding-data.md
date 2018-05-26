@@ -1,20 +1,25 @@
 ---
-Description: 'Encodes and decodes simple, general data, and illustrates the following tasks and CryptoAPI functions.'
-ms.assetid: '7634bd05-fca0-4538-94da-7af6e3d8e6b8'
-title: 'Example C Program: Encoding and Decoding Data'
+Description: Encodes and decodes simple, general data, and illustrates the following tasks and CryptoAPI functions.
+ms.assetid: 7634bd05-fca0-4538-94da-7af6e3d8e6b8
+title: Example C Program Encoding and Decoding Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Encoding and Decoding Data
 
 The following example encodes and decodes simple, general data, and illustrates the following tasks and CryptoAPI functions.
 
--   Determining the length needed for the buffer to hold the encoded data using [**CryptMsgCalculateEncodedLength**](cryptmsgcalculateencodedlength.md).
--   Opening a message for encoding using [**CryptMsgOpenToEncode**](cryptmsgopentoencode.md).
--   Adding content to the encoded message using [**CryptMsgUpdate**](cryptmsgupdate.md).
--   Copying the encoded message into a buffer using [**CryptMsgGetParam**](cryptmsggetparam.md).
--   Closing the encoded message using [**CryptMsgClose**](cryptmsgclose.md).
--   Opening a message to decode using [**CryptMsgOpenToDecode**](cryptmsgopentodecode.md).
--   Using [**CryptMsgUpdate**](cryptmsgupdate.md) and [**CryptMsgGetParam**](cryptmsggetparam.md) to get the decoded data.
+-   Determining the length needed for the buffer to hold the encoded data using [**CryptMsgCalculateEncodedLength**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgcalculateencodedlength?branch=master).
+-   Opening a message for encoding using [**CryptMsgOpenToEncode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentoencode?branch=master).
+-   Adding content to the encoded message using [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master).
+-   Copying the encoded message into a buffer using [**CryptMsgGetParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsggetparam?branch=master).
+-   Closing the encoded message using [**CryptMsgClose**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgclose?branch=master).
+-   Opening a message to decode using [**CryptMsgOpenToDecode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentodecode?branch=master).
+-   Using [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master) and [**CryptMsgGetParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsggetparam?branch=master) to get the decoded data.
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

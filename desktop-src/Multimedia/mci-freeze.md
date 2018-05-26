@@ -1,8 +1,9 @@
 ---
 title: MCI\_FREEZE command
 description: The MCI\_FREEZE command freezes motion on the display. Digital-video, video-overlay, and VCR devices recognize this command.
-ms.assetid: '6f90984a-24dc-4046-8234-986b2125bab4'
-keywords: ["MCI_FREEZE command Windows Multimedia"]
+ms.assetid: 6f90984a-24dc-4046-8234-986b2125bab4
+keywords:
+- MCI_FREEZE command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_FREEZE command
 
 The MCI\_FREEZE command freezes motion on the display. Digital-video, video-overlay, and VCR devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -80,7 +86,7 @@ The area outside the region specified for the MCI\_DGV\_FREEZE\_AT flag is froze
 
 </dd> </dl>
 
-For digital-video devices, the *lpFreeze* parameter points to an [**MCI\_DGV\_FREEZE\_PARMS**](mci-dgv-freeze-parms.md) structure.
+For digital-video devices, the *lpFreeze* parameter points to an [**MCI\_DGV\_FREEZE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_rect_parms?branch=master) structure.
 
 The following additional flags are used by the **vcr** device type:
 
@@ -135,8 +141,8 @@ For video-overlay devices, the *lpFreeze* parameter points to an [**MCI\_OVLY\_R
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -151,9 +157,9 @@ For video-overlay devices, the *lpFreeze* parameter points to an [**MCI\_OVLY\_R
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

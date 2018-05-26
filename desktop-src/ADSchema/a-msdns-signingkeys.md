@@ -4,17 +4,22 @@ description: An attribute that contains the set of encrypted DNSSEC signing keys
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '99aa1541-eb3f-48ee-b449-a16c17e9c002'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 99aa1541-eb3f-48ee-b449-a16c17e9c002
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-Signing-Keys attribute AD Schema", "msDNS-SigningKeys attribute AD Schema"]
+keywords:
+- ms-DNS-Signing-Keys attribute AD Schema
+- msDNS-SigningKeys attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-Signing-Keys
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-Signing-Keys attribute
@@ -38,7 +43,7 @@ An attribute that contains the set of encrypted DNSSEC signing keys used by the 
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute that contains the set of encrypted DNSSEC signing keys used by the 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

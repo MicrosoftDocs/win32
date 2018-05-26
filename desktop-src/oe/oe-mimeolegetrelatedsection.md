@@ -1,8 +1,9 @@
 ---
 title: MimeOleGetRelatedSection function
 description: Do not use. Returns handle to the first body in the message tree that has the related content type. Also returns whether other instances were found. If related content type is not found, method argument specifies whether it should be created.
-ms.assetid: '5293465b-a58f-45c0-8005-26fdd073f940'
-keywords: ["MimeOleGetRelatedSection function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 5293465b-a58f-45c0-8005-26fdd073f940
+keywords:
+- MimeOleGetRelatedSection function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleGetRelatedSection function
@@ -22,10 +28,10 @@ Do not use. Returns handle to the first body in the message tree that has the re
 
 ```C++
 HRESULT MimeOleGetRelatedSection(
-  _In_  IMimeMessageTree *pTree,
-  _In_  boolean          fCreate,
-  _Out_ LPHBODY          phRelated,
-  _Out_ boolean          *pfMultiple
+  _In_  IMimeMessageTree *pTree,
+  _In_  boolean          fCreate,
+  _Out_ LPHBODY          phRelated,
+  _Out_ boolean          *pfMultiple
 );
 ```
 
@@ -87,7 +93,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -95,8 +101,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -104,9 +110,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

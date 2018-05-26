@@ -1,7 +1,12 @@
-﻿---
-Description: 'Lists the 3D vector functions provided by DirectXMath.'
-ms.assetid: 'cd5c0fb1-3d61-3246-3567-5c12da9b3862'
+---
+Description: Lists the 3D vector functions provided by DirectXMath.
+ms.assetid: cd5c0fb1-3d61-3246-3567-5c12da9b3862
 title: DirectXMath Library 3D Vector Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectXMath Library 3D Vector Functions

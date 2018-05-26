@@ -1,7 +1,12 @@
-﻿---
-Description: 'Secures the volume''s encryption key with a 256-bit external key.'
-ms.assetid: '768cef38-a00f-4faa-bbe3-9d4a19be2f6d'
-title: 'ProtectKeyWithExternalKey method of the Win32\_EncryptableVolume class'
+---
+Description: Secures the volumes encryption key with a 256-bit external key.
+ms.assetid: 768cef38-a00f-4faa-bbe3-9d4a19be2f6d
+title: ProtectKeyWithExternalKey method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProtectKeyWithExternalKey method of the Win32\_EncryptableVolume class

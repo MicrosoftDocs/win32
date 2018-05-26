@@ -4,11 +4,15 @@ description: The objectClassCategory attribute of a classSchema object can have 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5af740cb-b292-4d80-abe5-3e3d194758f3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5af740cb-b292-4d80-abe5-3e3d194758f3
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Structural, Abstract, and Auxiliary Classes AD"]
+keywords:
+- Structural, Abstract, and Auxiliary Classes AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Structural, Abstract, and Auxiliary Classes

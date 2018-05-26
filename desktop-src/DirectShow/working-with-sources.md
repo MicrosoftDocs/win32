@@ -1,7 +1,12 @@
 ---
 Description: Working with Sources
-ms.assetid: 'add946ec-604c-4bfe-aff8-2f172ba44f73'
+ms.assetid: add946ec-604c-4bfe-aff8-2f172ba44f73
 title: Working with Sources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Sources

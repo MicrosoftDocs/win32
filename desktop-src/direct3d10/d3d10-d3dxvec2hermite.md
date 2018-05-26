@@ -1,7 +1,12 @@
-﻿---
-Description: 'Performs a Hermite spline interpolation, using the specified 2D vectors.'
-ms.assetid: '2d6ff836-a1a7-4cd0-aea3-4fe344f4e211'
+---
+Description: Performs a Hermite spline interpolation, using the specified 2D vectors.
+ms.assetid: 2d6ff836-a1a7-4cd0-aea3-4fe344f4e211
 title: D3DXVec2Hermite function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec2Hermite function

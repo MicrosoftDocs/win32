@@ -1,14 +1,20 @@
 ---
 title: Author (registrationInfoType) Element
 description: Specifies the author of the task.
-ms.assetid: '1faa4952-0737-4313-afa5-4a9bad5daaff'
-keywords: ["Author element Task Scheduler"]
+ms.assetid: 1faa4952-0737-4313-afa5-4a9bad5daaff
+keywords:
+- Author element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Author
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Author (registrationInfoType) Element
@@ -38,7 +44,7 @@ The **Author** element is defined by the [**registrationInfoType**](taskschedule
 
 For scripting development, the author of the task is specified using the [**RegistrationInfo.Author**](registrationinfo-author.md) property.
 
-For C++ development, the author of the task is specified using the [**IRegistrationInfo::Author**](iregistrationinfo-author.md) property.
+For C++ development, the author of the task is specified using the [**IRegistrationInfo::Author**](/windows/win32/taskschd/nf-taskschd-iregistrationinfo-get_author?branch=master) property.
 
 ## Examples
 
@@ -59,8 +65,8 @@ The following XML defines the author of a task.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -74,9 +80,9 @@ The following XML defines the author of a task.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

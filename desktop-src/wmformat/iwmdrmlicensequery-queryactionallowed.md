@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseQuery QueryActionAllowed method
 description: The QueryActionAllowed method performs a query on the local license store to retrieve the license status for one or more DRM actions that apply to a specified Key ID.
-ms.assetid: '814c2850-c036-4c44-a64e-861e88f16fb1'
-keywords: ["QueryActionAllowed method windows Media Format", "QueryActionAllowed method windows Media Format , IWMDRMLicenseQuery interface", "IWMDRMLicenseQuery interface windows Media Format , QueryActionAllowed method"]
+ms.assetid: 814c2850-c036-4c44-a64e-861e88f16fb1
+keywords:
+- QueryActionAllowed method windows Media Format
+- QueryActionAllowed method windows Media Format , IWMDRMLicenseQuery interface
+- IWMDRMLicenseQuery interface windows Media Format , QueryActionAllowed method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseQuery::QueryActionAllowed method
@@ -23,11 +31,11 @@ The **QueryActionAllowed** method performs a query on the local license store to
 
 ```C++
 HRESULT QueryActionAllowed(
-  [in]  BSTR  bstrKID,
-  [in]  BSTR  bstrMinReqIndivVersion,
-  [in]  DWORD cActionsToQuery,
-  [in]  BSTR  rgbstrActionsToQuery[],
-  [out] DWORD rgdwQueryResult[]
+  [in]  BSTR  bstrKID,
+  [in]  BSTR  bstrMinReqIndivVersion,
+  [in]  DWORD cActionsToQuery,
+  [in]  BSTR  rgbstrActionsToQuery[],
+  [out] DWORD rgdwQueryResult[]
 );
 ```
 
@@ -75,7 +83,7 @@ Array of one or more rights for which to query. This array must contain as many 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -98,7 +106,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -127,9 +135,9 @@ The results returned by the **QueryActionAllowed** method are aggregated from ze
 [**Querying for Simple Rights Information**](querying-for-simple-rights-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

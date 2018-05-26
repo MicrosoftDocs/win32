@@ -4,11 +4,14 @@ description: Enumerates all registered authorization plug-ins.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '525b4001-b89c-43cc-986a-00db47dd5518'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 525b4001-b89c-43cc-986a-00db47dd5518
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["EnumAuthorizationPlugins method Remote Desktop Services", "EnumAuthorizationPlugins method Remote Desktop Services , Win32_TSGatewayServerSettings class", "Win32_TSGatewayServerSettings class Remote Desktop Services , EnumAuthorizationPlugins method"]
+keywords:
+- EnumAuthorizationPlugins method Remote Desktop Services
+- EnumAuthorizationPlugins method Remote Desktop Services , Win32_TSGatewayServerSettings class
+- Win32_TSGatewayServerSettings class Remote Desktop Services , EnumAuthorizationPlugins method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnumAuthorizationPlugins method of the Win32\_TSGatewayServerSettings class
@@ -28,9 +34,9 @@ Enumerates all registered authorization plug-ins.
 
 ```mof
 uint32 EnumAuthorizationPlugins(
-  [out] string PluginNames[],
-  [out] string CLSIDs[],
-  [out] string Descriptions[]
+  [out] string PluginNames[],
+  [out] string CLSIDs[],
+  [out] string Descriptions[]
 );
 ```
 
@@ -86,7 +92,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -100,9 +106,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayServerSettings**](win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

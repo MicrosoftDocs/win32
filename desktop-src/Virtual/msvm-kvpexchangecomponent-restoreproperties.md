@@ -1,8 +1,11 @@
 ---
 title: RestoreProperties method of the Msvm\_KvpExchangeComponent class
 description: Restores a previous configuration and state of the logical device.
-ms.assetid: '29161c9a-1d20-4a92-b714-ef385bf39b1a'
-keywords: ["RestoreProperties method Hyper-V", "RestoreProperties method Hyper-V , Msvm_KvpExchangeComponent class", "Msvm_KvpExchangeComponent class Hyper-V , RestoreProperties method"]
+ms.assetid: 29161c9a-1d20-4a92-b714-ef385bf39b1a
+keywords:
+- RestoreProperties method Hyper-V
+- RestoreProperties method Hyper-V , Msvm_KvpExchangeComponent class
+- Msvm_KvpExchangeComponent class Hyper-V , RestoreProperties method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RestoreProperties method of the Msvm\_KvpExchangeComponent class
@@ -82,9 +90,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_KvpExchangeComponent**](msvm-kvpexchangecomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

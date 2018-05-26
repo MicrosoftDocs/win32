@@ -1,12 +1,17 @@
-﻿---
-Description: 'Gets the number of IMFSourceBuffer objects in the list.'
-ms.assetid: '551d2f40-85ad-45af-9191-9fb2b2c44913'
-title: 'IMFSourceBufferList::GetLength method'
+---
+Description: Gets the number of IMFSourceBuffer objects in the list.
+ms.assetid: 551d2f40-85ad-45af-9191-9fb2b2c44913
+title: IMFSourceBufferListGetLength method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFSourceBufferList::GetLength method
 
-Gets the number of [**IMFSourceBuffer**](imfsourcebuffer.md) objects in the list.
+Gets the number of [**IMFSourceBuffer**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfsourcebuffer?branch=master) objects in the list.
 
 ## Syntax
 
@@ -41,7 +46,7 @@ The number of source buffers in the list.
 
 <dl> <dt>
 
-[**IMFSourceBufferList**](imfsourcebufferlist.md)
+[**IMFSourceBufferList**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfsourcebufferlist?branch=master)
 </dt> </dl>
 
  

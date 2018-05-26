@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_RemoteFileSystem class represents a remote file system that is accessed by way of a network-related service. In this case, the file store is hosted by a computer, which acts as a file server.'
+Description: The CIM\_RemoteFileSystem class represents a remote file system that is accessed by way of a network-related service. In this case, the file store is hosted by a computer, which acts as a file server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '932970a8-0ab3-45d8-912d-c4ba7cf433b5'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 932970a8-0ab3-45d8-912d-c4ba7cf433b5
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_RemoteFileSystem class'
+title: CIM\_RemoteFileSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_RemoteFileSystem class
@@ -19,7 +22,7 @@ The **CIM\_RemoteFileSystem** class represents a remote file system that is acce
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,25 +32,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{75BCF4F9-DB46-11D2-B4C8-80080C7B6371}"), AMENDMENT]
 class CIM_RemoteFileSystem : CIM_FileSystem
 {
-  uint64   AvailableSpace;
-  uint64   BlockSize;
-  string   Caption;
-  boolean  CasePreserved;
-  boolean  CaseSensitive;
-  uint16   CodeSet[];
-  string   CompressionMethod;
-  string   CreationClassName;
-  string   CSCreationClassName;
-  string   CSName;
-  string   Description;
-  string   EncryptionMethod;
-  uint64   FileSystemSize;
+  uint64   AvailableSpace;
+  uint64   BlockSize;
+  string   Caption;
+  boolean  CasePreserved;
+  boolean  CaseSensitive;
+  uint16   CodeSet[];
+  string   CompressionMethod;
+  string   CreationClassName;
+  string   CSCreationClassName;
+  string   CSName;
+  string   Description;
+  string   EncryptionMethod;
+  uint64   FileSystemSize;
   datetime InstallDate;
-  uint32   MaxFileNameLength;
-  string   Name;
-  boolean  ReadOnly;
-  string   Root;
-  string   Status;
+  uint32   MaxFileNameLength;
+  string   Name;
+  boolean  ReadOnly;
+  string   Root;
+  string   Status;
 };
 ```
 
@@ -562,8 +565,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -577,9 +580,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_FileSystem**](cim-filesystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

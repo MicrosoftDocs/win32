@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETCALLBACKMASK message
 description: Changes the callback mask for a list-view control. You can send this message explicitly or by using the ListView\_SetCallbackMask macro.
-ms.assetid: 'd7828bab-9897-408c-99ca-fad42b431be8'
-keywords: ["LVM_SETCALLBACKMASK message Windows Controls"]
+ms.assetid: d7828bab-9897-408c-99ca-fad42b431be8
+keywords:
+- LVM_SETCALLBACKMASK message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETCALLBACKMASK message
 
-Changes the callback mask for a list-view control. You can send this message explicitly or by using the [**ListView\_SetCallbackMask**](listview-setcallbackmask.md) macro.
+Changes the callback mask for a list-view control. You can send this message explicitly or by using the [**ListView\_SetCallbackMask**](/windows/win32/Commctrl/nf-commctrl-listview_setcallbackmask?branch=master) macro.
 
 ## Parameters
 
@@ -39,7 +45,7 @@ Value of the callback mask. The bits of the mask indicate the item states or ima
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -64,8 +70,8 @@ For more information on list-view callbacks, see [Callback Items and the Callbac
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -77,9 +83,9 @@ For more information on list-view callbacks, see [Callback Items and the Callbac
 [**LVN\_GETDISPINFO**](lvn-getdispinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

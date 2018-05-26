@@ -1,8 +1,9 @@
 ---
 title: UDM\_GETPOS32 message
 description: Returns the 32-bit position of an up-down control.
-ms.assetid: '90feffbd-a472-446f-8a67-5da408cde002'
-keywords: ["UDM_GETPOS32 message Windows Controls"]
+ms.assetid: 90feffbd-a472-446f-8a67-5da408cde002
+keywords:
+- UDM_GETPOS32 message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UDM\_GETPOS32 message
@@ -51,8 +57,8 @@ When it processes this message, the up-down control updates its current position
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -73,9 +79,9 @@ When it processes this message, the up-down control updates its current position
 [**UDM\_SETPOS32**](udm-setpos32.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

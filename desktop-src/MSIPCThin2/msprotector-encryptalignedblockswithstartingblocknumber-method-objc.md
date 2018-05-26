@@ -4,17 +4,21 @@ description: Used to encrypt a block of unencrypted data.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'F8125664-C274-4C35-9BDD-F05A850AB256'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: F8125664-C274-4C35-9BDD-F05A850AB256
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSProtector encryptAlignedBlocksWithStartingBlockNumber method"]
+keywords:
+- MSProtector encryptAlignedBlocksWithStartingBlockNumber method
 topic_type:
 - apiref
 api_name:
 - MSProtector encryptAlignedBlocksWithStartingBlockNumber method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSProtector encryptAlignedBlocksWithStartingBlockNumber method
@@ -45,7 +49,7 @@ Used to encrypt a block of unencrypted data.
 
 
 
- 
+ 
 
 ## Returns
 
@@ -65,15 +69,15 @@ MSProtection.h
 
 
 
- 
+ 
 
 ## Remarks
 
 [**templateListWithUserId**](mstemplatedescriptor-templatelistwithuserid-userid-authenticationcallback-completionblock-method-objc.md) should be invoked from the main thread.
 
- 
+ 
 
- 
+ 
 
 
 

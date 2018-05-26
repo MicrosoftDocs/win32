@@ -1,7 +1,12 @@
 ---
 title: Checking if a Rule is Enabled
 description: This example checks if the rule group is enabled in the current profile using the Windows Firewall with Advanced Security APIs.
-ms.assetid: '7bf055ee-e8f6-4083-9599-c96ddf811923'
+ms.assetid: 7bf055ee-e8f6-4083-9599-c96ddf811923
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Checking if a Rule is Enabled

@@ -1,7 +1,12 @@
 ---
 title: IVMAccountant Properties
 description: The IVMAccountant interface exposes the following properties.
-ms.assetid: '3297D239-86B9-4DD3-A828-FFE22BAFFDE7'
+ms.assetid: 3297D239-86B9-4DD3-A828-FFE22BAFFDE7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccountant Properties

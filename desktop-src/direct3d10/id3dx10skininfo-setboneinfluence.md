@@ -1,7 +1,12 @@
-﻿---
-Description: 'Set the amount of influence a given bone has over a given vertex.'
-ms.assetid: 'adbdc784-c6b4-4e10-85c8-5e0b794d946f'
-title: 'ID3DX10SkinInfo::SetBoneInfluence method'
+---
+Description: Set the amount of influence a given bone has over a given vertex.
+ms.assetid: adbdc784-c6b4-4e10-85c8-5e0b794d946f
+title: ID3DX10SkinInfoSetBoneInfluence method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10SkinInfo::SetBoneInfluence method

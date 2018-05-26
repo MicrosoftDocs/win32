@@ -1,7 +1,12 @@
 ---
-Description: 'The HideCursor method hides or displays the cursor.'
-ms.assetid: '80175d1b-9874-4295-9ebc-b0d78961a263'
-title: 'CBaseControlWindow.HideCursor method'
+Description: The HideCursor method hides or displays the cursor.
+ms.assetid: 80175d1b-9874-4295-9ebc-b0d78961a263
+title: CBaseControlWindow.HideCursor method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.HideCursor method
@@ -13,7 +18,7 @@ The `HideCursor` method hides or displays the cursor.
 
 ```C++
 HRESULT HideCursor(
-   long HideCursor
+   long HideCursor
 );
 ```
 
@@ -52,9 +57,9 @@ Returns an **HRESULT** value.
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

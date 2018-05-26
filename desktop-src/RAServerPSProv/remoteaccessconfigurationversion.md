@@ -2,13 +2,15 @@
 title: RemoteAccessConfigurationVersion class
 description: Defines the object containing the server GPO versioning information.
 audience: developer
-ms.assetid: '89d9c8cb-432b-47ac-a70c-f0e50681b668'
-ms.prod: 'windows-server-dev'
+ms.assetid: 89d9c8cb-432b-47ac-a70c-f0e50681b668
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessConfigurationVersion class", "RemoteAccessConfigurationVersion class, described"]
+keywords:
+- RemoteAccessConfigurationVersion class
+- RemoteAccessConfigurationVersion class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessConfigurationVersion class
@@ -37,11 +42,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAServerPSProvider"), AMENDMENT]
 class RemoteAccessConfigurationVersion
 {
-  string   ReceivedConfigGlobalVersion;
-  string   ReceivedConfigSiteVersion;
+  string   ReceivedConfigGlobalVersion;
+  string   ReceivedConfigSiteVersion;
   datetime ReceivedConfigTimestamp;
-  string   AppliedConfigGlobalVersion;
-  string   AppliedConfigSiteVersion;
+  string   AppliedConfigGlobalVersion;
+  string   AppliedConfigSiteVersion;
   datetime AppliedConfigTimestamp;
 };
 ```
@@ -143,16 +148,16 @@ Received configuration timestamp
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\microsoft\\windows\\remoteaccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

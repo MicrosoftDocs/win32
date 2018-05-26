@@ -1,8 +1,14 @@
 ---
 title: File IO
 description: File IO
-ms.assetid: '92800141-99e2-4cba-96a5-be982bd97246'
-keywords: ["histogram"]
+ms.assetid: 92800141-99e2-4cba-96a5-be982bd97246
+keywords:
+- histogram
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File IO

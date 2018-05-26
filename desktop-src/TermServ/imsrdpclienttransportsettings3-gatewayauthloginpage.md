@@ -4,11 +4,14 @@ description: The address of the login webpage to use to authenticate a user.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd7a5e0d8-353e-416d-a9e0-11ef5072f9ff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d7a5e0d8-353e-416d-a9e0-11ef5072f9ff
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GatewayAuthLoginPage property Remote Desktop Services", "GatewayAuthLoginPage property Remote Desktop Services , IMsRdpClientTransportSettings3 interface", "IMsRdpClientTransportSettings3 interface Remote Desktop Services , GatewayAuthLoginPage property"]
+keywords:
+- GatewayAuthLoginPage property Remote Desktop Services
+- GatewayAuthLoginPage property Remote Desktop Services , IMsRdpClientTransportSettings3 interface
+- IMsRdpClientTransportSettings3 interface Remote Desktop Services , GatewayAuthLoginPage property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings3::GatewayAuthLoginPage property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GatewayAuthLoginPage(
-  [in]          BSTR bstrProxyAuthLoginPage
+  [in]          BSTR bstrProxyAuthLoginPage
 );
 
 HRESULT get_GatewayAuthLoginPage(
-  [out, retval] BSTR *pbstrProxyAuthLoginPage
+  [out, retval] BSTR *pbstrProxyAuthLoginPage
 );
 ```
 
@@ -52,8 +58,8 @@ The new login webpage address.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows 7<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
@@ -66,9 +72,9 @@ The new login webpage address.
 [**IMsRdpClientTransportSettings3**](imsrdpclienttransportsettings3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

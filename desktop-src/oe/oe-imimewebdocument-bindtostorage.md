@@ -1,8 +1,11 @@
 ---
 title: IMimeWebDocument BindToStorage method
 description: Obtains an interface that can be used to read the data associated with the Web document.
-ms.assetid: '44fc40a4-79d4-490e-aa60-870ae1f0ae69'
-keywords: ["BindToStorage method Windows Mail (formerly Outlook Express)", "BindToStorage method Windows Mail (formerly Outlook Express) , IMimeWebDocument interface", "IMimeWebDocument interface Windows Mail (formerly Outlook Express) , BindToStorage method"]
+ms.assetid: 44fc40a4-79d4-490e-aa60-870ae1f0ae69
+keywords:
+- BindToStorage method Windows Mail (formerly Outlook Express)
+- BindToStorage method Windows Mail (formerly Outlook Express) , IMimeWebDocument interface
+- IMimeWebDocument interface Windows Mail (formerly Outlook Express) , BindToStorage method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeWebDocument::BindToStorage method
@@ -24,8 +32,8 @@ Obtains an interface that can be used to read the data associated with the Web d
 
 ```C++
 HRESULT BindToStorage(
-  [in]  REFIID riid,
-  [out] LPVOID *ppvObject
+  [in]  REFIID riid,
+  [out] LPVOID *ppvObject
 );
 ```
 
@@ -70,7 +78,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -78,8 +86,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -87,9 +95,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

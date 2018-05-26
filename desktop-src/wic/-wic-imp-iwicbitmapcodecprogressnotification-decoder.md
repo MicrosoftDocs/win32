@@ -1,14 +1,19 @@
 ---
-Description: 'Implementing IWICBitmapCodecProgressNotification (Decoder)'
-ms.assetid: '686b0875-c7ec-45ee-bd3e-94bfd9e5dcda'
-title: 'Implementing IWICBitmapCodecProgressNotification (Decoder)'
+Description: Implementing IWICBitmapCodecProgressNotification (Decoder)
+ms.assetid: 686b0875-c7ec-45ee-bd3e-94bfd9e5dcda
+title: Implementing IWICBitmapCodecProgressNotification (Decoder)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing IWICBitmapCodecProgressNotification (Decoder)
 
 ## IWICBitmapCodecProgressNotification
 
-When a codec is performing an I/O operation such as [**CopyPixels**](-wic-codec-iwicbitmapsource-copypixels.md) on a large image, it may take several seconds or even minutes to complete. When end users are unable to interrupt a long-running operation, they may think the application has hung. Users will often close an application, or even restart their computers, in an attempt to regain control of their computer when an application becomes unresponsive.
+When a codec is performing an I/O operation such as [**CopyPixels**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsource-copypixels?branch=master) on a large image, it may take several seconds or even minutes to complete. When end users are unable to interrupt a long-running operation, they may think the application has hung. Users will often close an application, or even restart their computers, in an attempt to regain control of their computer when an application becomes unresponsive.
 
 This interface enables an application to specify a callback function that the codec can call at specified intervals to notify the caller of the progress of the current operation. The application can use this callback function to display an indication of progress in the user interface to notify the user of the status of the operation. If a user clicks the **Cancel** button on the **Progress** dialog box, the application returns **WINCODEC\_ERR\_ABORTED** from the callback function. When this happens, the codec must cancel the specified operation and propagate this **HRESULT** back to the caller of the method that was performing the operation.
 
@@ -32,11 +37,11 @@ interface IWICBitmapCodecProgressNotification : public IUnknown
 
 ### RegisterProgressNotification
 
-[**RegisterProgressNotification**](-wic-codec-iwicbitmapcodecprogressnotification-registerprogressnotification.md) is invoked by an application to register a callback function that the codec can call at specified intervals. The first parameter, *pfnProgressNotification*, is a pointer to the callback function that the codec should call at regular intervals.
+[**RegisterProgressNotification**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapcodecprogressnotification-registerprogressnotification?branch=master) is invoked by an application to register a callback function that the codec can call at specified intervals. The first parameter, *pfnProgressNotification*, is a pointer to the callback function that the codec should call at regular intervals.
 
 The *pvData* parameter points to some object that the caller wants the codec to pass back to the callback function whenever the callback function is invoked. This object may be anything at all and has no particular significance to the codec.
 
-The *dwProgressFlags* parameter specifies when the codec should call the callback function. An OR function can be performed with two enumerations for this parameter. The [**WICProgressOperation**](-wic-codec-wicprogressoperation.md) enum specifies whether to call the callback function during decoding (**WICProgressOperationCopyPixels**), encoding (**WICProgerssOperationWritePixels**), or both (**WICProgressOperationAll**).
+The *dwProgressFlags* parameter specifies when the codec should call the callback function. An OR function can be performed with two enumerations for this parameter. The [**WICProgressOperation**](/windows/win32/Wincodec/ne-wincodec-wicprogressoperation?branch=master) enum specifies whether to call the callback function during decoding (**WICProgressOperationCopyPixels**), encoding (**WICProgerssOperationWritePixels**), or both (**WICProgressOperationAll**).
 
 
 ```C++
@@ -50,7 +55,7 @@ enum WICProgressOperation
 
 
 
-The codec should call the callback function at regular intervals throughout the operation, but the caller may specify certain requirements. The [**WICProgressNotification**](-wic-codec-wicprogressnotification.md) enum indicates at which point in the operation to call the callback function. If the caller specifies **WICProgressNotificationBegin**, you must call it at the beginning of the operation (0.0). If the caller does not specify this, it is optional. Likewise, if the caller specifies **WICProgerssNotificationEnd**, you must call it when the operation is completed (1.0). If the caller specifies **WICProgressNotificationAll**, you must call it at the beginning and end, as well as at regular intervals throughout the operation. The caller may also specify **WICProgerssNotificationFrequent**, which indicates that they want to be called back at frequent intervals, perhaps after every couple of scan lines. (A caller will usually use this flag only for a very large image.) Otherwise, you should usually call back at intervals of approximately 10 percent increments of the total number of scan lines to be processed.
+The codec should call the callback function at regular intervals throughout the operation, but the caller may specify certain requirements. The [**WICProgressNotification**](/windows/win32/Wincodec/ne-wincodec-wicprogressnotification?branch=master) enum indicates at which point in the operation to call the callback function. If the caller specifies **WICProgressNotificationBegin**, you must call it at the beginning of the operation (0.0). If the caller does not specify this, it is optional. Likewise, if the caller specifies **WICProgerssNotificationEnd**, you must call it when the operation is completed (1.0). If the caller specifies **WICProgressNotificationAll**, you must call it at the beginning and end, as well as at regular intervals throughout the operation. The caller may also specify **WICProgerssNotificationFrequent**, which indicates that they want to be called back at frequent intervals, perhaps after every couple of scan lines. (A caller will usually use this flag only for a very large image.) Otherwise, you should usually call back at intervals of approximately 10 percent increments of the total number of scan lines to be processed.
 
 
 ```C++
@@ -65,11 +70,11 @@ enum WICProgressNotification
 
 
 
-Only one callback function at a time can be registered for a specific decoder or encoder instance. If an application calls [**RegisterProgressNotification**](-wic-codec-iwicbitmapcodecprogressnotification-registerprogressnotification.md) more than once, replace the previously registered callback function with the new one. To cancel a callback registration, a caller will set the *pfnProgressNotification* parameter to **NULL**.
+Only one callback function at a time can be registered for a specific decoder or encoder instance. If an application calls [**RegisterProgressNotification**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapcodecprogressnotification-registerprogressnotification?branch=master) more than once, replace the previously registered callback function with the new one. To cancel a callback registration, a caller will set the *pfnProgressNotification* parameter to **NULL**.
 
 ### PFNProgressNotification
 
-[**PFNProgressNotification**](-wic-codec-progressnotificationcallback.md) is the callback function with the following signature.
+[**PFNProgressNotification**](/windows/win32/Wincodec/nc-wincodec-pfnprogressnotification?branch=master) is the callback function with the following signature.
 
 
 ```C++
@@ -97,10 +102,10 @@ The *dblProgress* parameter should be a number between 0.0 (the beginning of the
 **Reference**
 </dt> <dt>
 
-[**ProgressNotificationCallback**](-wic-codec-progressnotificationcallback.md)
+[**ProgressNotificationCallback**](/windows/win32/Wincodec/nc-wincodec-pfnprogressnotification?branch=master)
 </dt> <dt>
 
-[**IWICBitmapCodecProgressNotification**](-wic-codec-iwicbitmapcodecprogressnotification.md)
+[**IWICBitmapCodecProgressNotification**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapcodecprogressnotification?branch=master)
 </dt> <dt>
 
 **Conceptual**

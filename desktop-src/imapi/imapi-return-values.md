@@ -1,7 +1,7 @@
 ---
 title: IMAPI Return Values
 description: The IMAPI methods return non-negative values, (typically S\_OK) if the method was successful. The IMAPI methods return success or error codes from Winerror.h, Imapi2error.h, or Imapi2fserror.h, on failure.
-ms.assetid: '0e62ed6c-4810-4d36-a759-9b02b68face6'
+ms.assetid: 0e62ed6c-4810-4d36-a759-9b02b68face6
 topic_type:
 - apiref
 api_name:
@@ -159,6 +159,11 @@ api_location:
 - Imapi2fserror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAPI Return Values
@@ -215,7 +220,7 @@ The following success and error codes are defined.
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="E_IMAPI_RAW_IMAGE_IS_READ_ONLY"></span><span id="e_imapi_raw_image_is_read_only"></span><dl> <dt><strong>E_IMAPI_RAW_IMAGE_IS_READ_ONLY</strong></dt> <dt>(HRESULT)0x80AA0A00L</dt> </dl></td>
-<td style="text-align: left;">The image has become read-only due to a call to [<strong>IRawCDImageCreator::CreateResultImage</strong>](irawcdimagecreator-createresultimage.md). As a result the object can no longer be modified.<br/></td>
+<td style="text-align: left;">The image has become read-only due to a call to [<strong>IRawCDImageCreator::CreateResultImage</strong>](/windows/win32/imapi2/nf-imapi2-irawcdimagecreator-createresultimage?branch=master). As a result the object can no longer be modified.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="E_IMAPI_RAW_IMAGE_TOO_MANY_TRACKS"></span><span id="e_imapi_raw_image_too_many_tracks"></span><dl> <dt><strong>E_IMAPI_RAW_IMAGE_TOO_MANY_TRACKS</strong></dt> <dt>(HRESULT)0x80AA0A01L</dt> </dl></td>
@@ -518,7 +523,7 @@ The following success and error codes are defined.
 <td style="text-align: left;">The drive did not complete the erase in one hour. The drive may require a power cycle, media removal, or other manual intervention to resume proper operation.<br/>
 <blockquote>
 [!Note]<br />
-Currently, this value will also be returned if an attempt to perform an erase on CD-RW or DVD-RW media via the [<strong>IDiscFormat2Erase</strong>](idiscformat2erase.md) interface fails as a result of the media being bad.
+Currently, this value will also be returned if an attempt to perform an erase on CD-RW or DVD-RW media via the [<strong>IDiscFormat2Erase</strong>](/windows/win32/imapi2/nn-imapi2-idiscformat2erase?branch=master) interface fails as a result of the media being bad.
 </blockquote>
 <br/></td>
 </tr>
@@ -657,7 +662,7 @@ The following success and error codes are defined in Imapi2fserror.h.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="IMAPI_E_IMAGEMANAGER_NO_IMAGE"></span><span id="imapi_e_imagemanager_no_image"></span><dl> <dt><strong>IMAPI_E_IMAGEMANAGER_NO_IMAGE</strong></dt> <dt>(HRESULT)0xC0AAB202L</dt> </dl></td>
-<td style="text-align: left;">The image has not been set using the [<strong>IIsoImageManager::SetPath</strong>](iisoimagemanager-setpath.md) or [<strong>IIsoImageManager::SetStream</strong>](iisoimagemanager-setstream.md) methods prior to calling the [<strong>IIsoImageManager::Validate</strong>](iisoimagemanager-validate.md) method.<br/></td>
+<td style="text-align: left;">The image has not been set using the [<strong>IIsoImageManager::SetPath</strong>](/windows/win32/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath?branch=master) or [<strong>IIsoImageManager::SetStream</strong>](/windows/win32/imapi2fs/nf-imapi2fs-iisoimagemanager-setstream?branch=master) methods prior to calling the [<strong>IIsoImageManager::Validate</strong>](/windows/win32/imapi2fs/nf-imapi2fs-iisoimagemanager-validate?branch=master) method.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="IMAPI_E_IMAGEMANAGER_IMAGE_TOO_BIG"></span><span id="imapi_e_imagemanager_image_too_big"></span><dl> <dt><strong>IMAPI_E_IMAGEMANAGER_IMAGE_TOO_BIG</strong></dt> <dt>(HRESULT)0xC0AAB203L</dt> </dl></td>
@@ -788,7 +793,7 @@ The following success and error codes are defined in Imapi2fserror.h.
 <td style="text-align: left;">IMAPI supports none of the multisession type(s) provided on the current media.<br/>
 <blockquote>
 [!Note]<br />
-[<strong>IFileSystemImage::ImportFileSystem</strong>](ifilesystemimage-importfilesystem.md) method returns this error if there is no media in the recording device.
+[<strong>IFileSystemImage::ImportFileSystem</strong>](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem?branch=master) method returns this error if there is no media in the recording device.
 </blockquote>
 <br/></td>
 </tr>
@@ -819,15 +824,15 @@ The following success and error codes are defined in Imapi2fserror.h.
 
 |                                     |                                                                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                            |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                            |
 | Header<br/>                   | <dl> <dt>Imapi2error.h; </dt> <dt>Imapi2fserror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

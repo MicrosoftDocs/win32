@@ -1,7 +1,12 @@
 ---
-Description: 'The optional &lt;property&gt; element specifies the properties used by the location provider.'
-ms.assetid: 'c1120dea-cb0b-4746-a5c1-4c83cda6dd7c'
-title: 'property Element of locationProvider (Search Connector Schema)'
+Description: The optional &lt;property&gt; element specifies the properties used by the location provider.
+ms.assetid: c1120dea-cb0b-4746-a5c1-4c83cda6dd7c
+title: property Element of locationProvider (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # property Element of locationProvider (Search Connector Schema)

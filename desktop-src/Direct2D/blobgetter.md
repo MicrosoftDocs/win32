@@ -1,8 +1,9 @@
 ---
 title: BlobGetter
 description: Calls a member-function property getter callback for a blob-type property.
-ms.assetid: '55A41BE4-2AAE-480B-A143-86E8E7533210'
-keywords: ["BlobGetter Direct2D"]
+ms.assetid: 55A41BE4-2AAE-480B-A143-86E8E7533210
+keywords:
+- BlobGetter Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d2d1effecthelpers.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BlobGetter
@@ -44,9 +50,9 @@ HRESULT CALLBACK BlobGetter(
 [**Direct2D::BlobSetter**](blobsetter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

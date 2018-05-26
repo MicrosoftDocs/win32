@@ -1,8 +1,11 @@
 ---
 title: INapClientManagement UnregisterEnforcementClient method
 description: Unregisters an enforcement client with the NAP system.
-ms.assetid: '549683de-7f2c-4da6-9616-862e0e99d21f'
-keywords: ["UnregisterEnforcementClient method NAP", "UnregisterEnforcementClient method NAP , INapClientManagement interface", "INapClientManagement interface NAP , UnregisterEnforcementClient method"]
+ms.assetid: 549683de-7f2c-4da6-9616-862e0e99d21f
+keywords:
+- UnregisterEnforcementClient method NAP
+- UnregisterEnforcementClient method NAP , INapClientManagement interface
+- INapClientManagement interface NAP , UnregisterEnforcementClient method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapClientManagement::UnregisterEnforcementClient method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **UnregisterEnforcementClient** method unregisters an enforcement client with the NAP system.
 
@@ -27,7 +35,7 @@ The **UnregisterEnforcementClient** method unregisters an enforcement client wit
 
 ```C++
 HRESULT UnregisterEnforcementClient(
-  [in] EnforcementEntityId id
+  [in] EnforcementEntityId id
 );
 ```
 
@@ -59,7 +67,7 @@ The method returns an HRESULT status code including but not limited to one of th
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,8 +75,8 @@ The method returns an HRESULT status code including but not limited to one of th
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>NapManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |
@@ -82,9 +90,9 @@ The method returns an HRESULT status code including but not limited to one of th
 [**INapClientManagement**](inapclientmanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

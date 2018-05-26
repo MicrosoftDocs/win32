@@ -1,7 +1,12 @@
 ---
-Description: 'The GetAt method retrieves an item from the collection by a zero-based index.'
-ms.assetid: 'b219b052-a74b-466a-a2ee-d2e9c466f393'
-title: 'IPortableDeviceValuesCollection::GetAt method'
+Description: The GetAt method retrieves an item from the collection by a zero-based index.
+ms.assetid: b219b052-a74b-466a-a2ee-d2e9c466f393
+title: IPortableDeviceValuesCollectionGetAt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValuesCollection::GetAt method
@@ -13,8 +18,8 @@ The **GetAt** method retrieves an item from the collection by a zero-based index
 
 ```C++
 HRESULT GetAt(
-  [in]  const DWORD                 dwIndex,
-  [out]       IPortableDeviceValues **ppValues
+  [in]  const DWORD                 dwIndex,
+  [out]       IPortableDeviceValues **ppValues
 );
 ```
 
@@ -53,7 +58,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +82,9 @@ Any changes that are made to values in the retrieved interface will be made to t
 [**IPortableDeviceValuesCollection Interface**](iportabledevicevaluescollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

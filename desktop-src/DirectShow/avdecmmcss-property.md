@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the Multimedia Class Scheduler Service (MMCSS) class for the decoding thread.'
-ms.assetid: '77724879-62e4-439e-9dd0-3642cd7f75ca'
+Description: Specifies the Multimedia Class Scheduler Service (MMCSS) class for the decoding thread.
+ms.assetid: 77724879-62e4-439e-9dd0-3642cd7f75ca
 title: AVDecMmcss property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVDecMmcss property
@@ -47,12 +52,12 @@ If the MMCSS service is not available or the specified MMCSS class does not exis
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IVMSerialPort \_ID method
 description: Internal identifier of the serial port.
-ms.assetid: 'c26c18dc-5491-4edf-9338-e4f3bf431084'
-keywords: ["_ID method Virtual PC", "_ID method Virtual PC , IVMSerialPort interface", "IVMSerialPort interface Virtual PC , _ID method"]
+ms.assetid: c26c18dc-5491-4edf-9338-e4f3bf431084
+keywords:
+- _ID method Virtual PC
+- _ID method Virtual PC , IVMSerialPort interface
+- IVMSerialPort interface Virtual PC , _ID method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSerialPort::\_ID method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the internal identifier of the serial port.
 
@@ -24,7 +32,7 @@ Retrieves the internal identifier of the serial port.
 
 ```C++
 HRESULT _ID(
-  [out] long *portID
+  [out] long *portID
 );
 ```
 
@@ -56,7 +64,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +76,9 @@ This property is not usable by scripting languages.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMSerialPort is defined as 2ce4460d-1d3f-4458-bf8b-44084b816815<br/>              |
@@ -84,9 +92,9 @@ This property is not usable by scripting languages.
 [**IVMSerialPort**](ivmserialport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

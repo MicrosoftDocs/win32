@@ -1,14 +1,21 @@
 ---
 title: RegistrationTrigger (triggerGroup) Element
 description: Specifies a trigger that starts a task when the task is registered.
-ms.assetid: '8f028ed0-93e6-4423-be2f-9a02be99122b'
-keywords: ["registration trigger Task Scheduler , XML element", "RegistrationTrigger element Task Scheduler"]
+ms.assetid: 8f028ed0-93e6-4423-be2f-9a02be99122b
+keywords:
+- registration trigger Task Scheduler , XML element
+- RegistrationTrigger element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - RegistrationTrigger
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegistrationTrigger (triggerGroup) Element
@@ -62,7 +69,7 @@ The **RegistrationTrigger** element is defined by the [**registrationTriggerType
 
 For scripting development, a registration trigger is specified using the [**RegistrationTrigger**](registrationtrigger.md) object.
 
-For C++ development, a registration trigger is specified using the [**IRegistrationTrigger**](iregistrationtrigger.md) interface.
+For C++ development, a registration trigger is specified using the [**IRegistrationTrigger**](/windows/win32/taskschd/nn-taskschd-iregistrationtrigger?branch=master) interface.
 
 The child elements listed above are defined by the [**triggerBaseType**](taskschedulerschema-triggerbasetype-complextype.md) and [**registrationTriggerType**](taskschedulerschema-registrationtriggertype-complextype.md) complex element types. These elements must be added in the sequence shown below.
 
@@ -83,8 +90,8 @@ For a complete example of the XML for a task that specifies a boot trigger, see 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -98,9 +105,9 @@ For a complete example of the XML for a task that specifies a boot trigger, see 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

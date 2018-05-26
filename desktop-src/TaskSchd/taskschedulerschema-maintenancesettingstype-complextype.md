@@ -1,14 +1,20 @@
 ---
 title: maintenanceSettingsType Complex Type
 description: Defines the child elements and sequencing information for the MaintenanceSettings element.
-ms.assetid: 'CA4C452E-CA25-4E2D-B5E2-ED64C59AB3AD'
-keywords: ["maintenanceSettingsType complex type Task Scheduler"]
+ms.assetid: CA4C452E-CA25-4E2D-B5E2-ED64C59AB3AD
+keywords:
+- maintenanceSettingsType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - maintenanceSettingsType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # maintenanceSettingsType Complex Type
@@ -73,8 +79,8 @@ Defines the child elements and sequencing information for the [**MaintenanceSett
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
 
 
 
@@ -88,9 +94,9 @@ Defines the child elements and sequencing information for the [**MaintenanceSett
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

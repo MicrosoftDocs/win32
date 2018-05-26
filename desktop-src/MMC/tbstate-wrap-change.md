@@ -4,10 +4,13 @@ description: The TBSTATE\_WRAP flag is not supported by MMC.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e4c356b3-7485-4294-8d28-ff1bad4d2c9d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e4c356b3-7485-4294-8d28-ff1bad4d2c9d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TBSTATE\_WRAP Change

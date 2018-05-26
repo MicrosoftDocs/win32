@@ -1,14 +1,20 @@
 ---
 title: VBRPeak
 description: The VBRPeak attribute contains the highest momentary bit rate in a variable bit rate (VBR) encoded stream.
-ms.assetid: '7b735145-8235-4efb-986f-952989b739bc'
-keywords: ["VBRPeak windows Media Format"]
+ms.assetid: 7b735145-8235-4efb-986f-952989b739bc
+keywords:
+- VBRPeak windows Media Format
 topic_type:
 - apiref
 api_name:
 - VBRPeak
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VBRPeak

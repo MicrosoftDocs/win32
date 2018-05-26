@@ -4,11 +4,14 @@ description: The SetClientWallPaper method sets the ClientWallPaper property.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '08c41df4-5a3c-4799-bb64-61f414814d0c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 08c41df4-5a3c-4799-bb64-61f414814d0c
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetClientWallPaper method Remote Desktop Services", "SetClientWallPaper method Remote Desktop Services , Win32_TSEnvironmentSetting class", "Win32_TSEnvironmentSetting class Remote Desktop Services , SetClientWallPaper method"]
+keywords:
+- SetClientWallPaper method Remote Desktop Services
+- SetClientWallPaper method Remote Desktop Services , Win32_TSEnvironmentSetting class
+- Win32_TSEnvironmentSetting class Remote Desktop Services , SetClientWallPaper method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetClientWallPaper method of the Win32\_TSEnvironmentSetting class
@@ -28,7 +34,7 @@ The **SetClientWallPaper** method sets the **ClientWallPaper** property.
 
 ```mof
 uint32 SetClientWallPaper(
-  [in] uint32 ClientWallPaper
+  [in] uint32 ClientWallPaper
 );
 ```
 
@@ -81,8 +87,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -96,9 +102,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSEnvironmentSetting**](win32-tsenvironmentsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

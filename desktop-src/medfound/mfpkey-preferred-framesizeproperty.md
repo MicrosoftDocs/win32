@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the preferred number of samples per frame.'
-ms.assetid: 'ad629dbd-49d8-43d0-95a8-03f2043e397e'
-title: 'MFPKEY\_PREFERRED\_FRAMESIZE Property'
+---
+Description: Specifies the preferred number of samples per frame.
+ms.assetid: ad629dbd-49d8-43d0-95a8-03f2043e397e
+title: MFPKEY\_PREFERRED\_FRAMESIZE Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_PREFERRED\_FRAMESIZE Property

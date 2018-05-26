@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the sub-type of an item.'
-ms.assetid: '7b949b2a-77c9-41d3-90f3-f2ba4cfa2762'
-title: 'System.ItemSubType'
+Description: Describes the sub-type of an item.
+ms.assetid: 7b949b2a-77c9-41d3-90f3-f2ba4cfa2762
+title: System.ItemSubType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ItemSubType

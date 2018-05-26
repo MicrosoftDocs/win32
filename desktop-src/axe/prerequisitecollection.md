@@ -1,8 +1,10 @@
 ---
 title: PrerequisiteCollection class
 description: This interface represents a collection of prerequisites for running a job that failed.
-ms.assetid: '35894ECB-11CA-4AA0-95FD-3366A4238814'
-keywords: ["PrerequisiteCollection class Access Execution Engine", "PrerequisiteCollection class Access Execution Engine , described"]
+ms.assetid: 35894ECB-11CA-4AA0-95FD-3366A4238814
+keywords:
+- PrerequisiteCollection class Access Execution Engine
+- PrerequisiteCollection class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrerequisiteCollection class
@@ -43,7 +50,7 @@ The **PrerequisiteCollection** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,8 +58,8 @@ The **PrerequisiteCollection** class has these methods.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>AxeCore.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl> |
 
@@ -65,9 +72,9 @@ The **PrerequisiteCollection** class has these methods.
 [**Execution Solution Interfaces**](execution-solution-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

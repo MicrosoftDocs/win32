@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer VMRCAdminAddress property
 description: The VMRCAdminAddress property contains the TCP/IP address of the host network adapter over which VMRC connections are accepted.
-ms.assetid: '9f960363-6c2e-4ed2-b3cb-3dc72fbed318'
-keywords: ["VMRCAdminAddress property Virtual Server", "VMRCAdminAddress property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , VMRCAdminAddress property", "VMRCAdminAddress property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , VMRCAdminAddress property"]
+ms.assetid: 9f960363-6c2e-4ed2-b3cb-3dc72fbed318
+keywords:
+- VMRCAdminAddress property Virtual Server
+- VMRCAdminAddress property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , VMRCAdminAddress property
+- VMRCAdminAddress property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , VMRCAdminAddress property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::VMRCAdminAddress property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_VMRCAdminAddress(
-  [in]  BSTR vmrcAdminAddress
+  [in]  BSTR vmrcAdminAddress
 );
 
 HRESULT get_VMRCAdminAddress(
-  [out] BSTR *vmrcAdminAddress
+  [out] BSTR *vmrcAdminAddress
 );
 ```
 
@@ -109,8 +119,8 @@ End If
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -122,9 +132,9 @@ End If
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

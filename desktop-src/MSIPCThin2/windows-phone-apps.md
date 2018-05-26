@@ -4,10 +4,13 @@ description: Windows Phone applications can use the Rights Management SDK 4.2 t
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e25a446e-b977-4736-9c65-7711171fb0e1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: e25a446e-b977-4736-9c65-7711171fb0e1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Phone setup

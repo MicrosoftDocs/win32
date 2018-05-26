@@ -4,11 +4,16 @@ description: This guide provides essential information for integrating Microsoft
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cc6c63dd-ae22-40a7-8312-0a4648bb92bd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: cc6c63dd-ae22-40a7-8312-0a4648bb92bd
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Active Directory , about", "Active Directory Domain Services Active Directory , about"]
+keywords:
+- Active Directory Active Directory , about
+- Active Directory Domain Services Active Directory , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Active Directory Domain Services
@@ -17,16 +22,16 @@ keywords: ["Active Directory Active Directory , about", "Active Directory Domain
 
 This guide provides essential information for integrating Active Directory Domain Services in distributed applications designed for operating systems that support Active Directory Domain Services, including:
 
--   Windows Server 2008
--   Windows Server 2008 R2
--   Windows Server 2012
--   Windows Server 2012 R2
--   Windows Server 2016
+-   Windows Server 2008
+-   Windows Server 2008 R2
+-   Windows Server 2012
+-   Windows Server 2012 R2
+-   Windows Server 2016
 
 > [!Note]  
 > These topics are for software developers. For support issues, see [Microsoft Support](http://windows.microsoft.com/windows/support#1tc). For information about administering Active Directory, see [Active Directory Domain Services](https://technet.microsoft.com/library/cc770946.aspx) at TechNet.
 
- 
+ 
 
 ## Fundamental Directory Features
 
@@ -43,7 +48,7 @@ A directory service is a fundamental service for distributed applications. A dir
 
 
 
- 
+ 
 
 ## Advanced Features of Active Directory Domain Services
 
@@ -99,7 +104,7 @@ Active Directory Domain Services provides the features listed in the following t
 
 
 
- 
+ 
 
 For more information about Active Directory Domain Services, see:
 
@@ -107,9 +112,9 @@ For more information about Active Directory Domain Services, see:
 -   [Active Directory Architecture](active-directory-domain-services-architecture.md)
 -   [Active Directory Schema](active-directory-schema.md)
 
- 
+ 
 
- 
+ 
 
 
 

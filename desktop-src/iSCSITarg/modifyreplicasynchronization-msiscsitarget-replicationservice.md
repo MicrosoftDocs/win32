@@ -4,13 +4,16 @@ description: Modifies to modify the synchronization association between two stor
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b464a74f-b5b1-4890-a49a-f44352bc6d20'
-ms.prod: 'windows-server-dev'
+ms.assetid: b464a74f-b5b1-4890-a49a-f44352bc6d20
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ModifyReplicaSynchronization method iSCSI Software Target API", "ModifyReplicaSynchronization method iSCSI Software Target API , MSISCSITARGET_ReplicationService class", "MSISCSITARGET_ReplicationService class iSCSI Software Target API , ModifyReplicaSynchronization method"]
+keywords:
+- ModifyReplicaSynchronization method iSCSI Software Target API
+- ModifyReplicaSynchronization method iSCSI Software Target API , MSISCSITARGET_ReplicationService class
+- MSISCSITARGET_ReplicationService class iSCSI Software Target API , ModifyReplicaSynchronization method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ModifyReplicaSynchronization method of the MSISCSITARGET\_ReplicationService class
@@ -32,14 +38,14 @@ This method overrides the method that is inherited from the **CIM\_ReplicationSe
 
 ```mof
 uint32 ModifyReplicaSynchronization(
-  [in]  uint16                      Operation,
-  [in]  CIM_Synchronized        REF Synchronization,
-  [in]  string                      ReplicationSettingData,
-  [in]  CIM_StorageSynchronized REF SyncPair[],
-  [out] CIM_ConcreteJob         REF Job,
-  [out] CIM_SettingsDefineState REF SettingsState,
-  [in]  boolean                     Force,
-  [in]  uint16                      WaitForCopyState
+  [in]  uint16                      Operation,
+  [in]  CIM_Synchronized        REF Synchronization,
+  [in]  string                      ReplicationSettingData,
+  [in]  CIM_StorageSynchronized REF SyncPair[],
+  [out] CIM_ConcreteJob         REF Job,
+  [out] CIM_SettingsDefineState REF SettingsState,
+  [in]  boolean                     Force,
+  [in]  uint16                      WaitForCopyState
 );
 ```
 
@@ -405,13 +411,13 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
 **Vendor Specific** (32768 = *value* )
@@ -424,7 +430,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -438,9 +444,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_ReplicationService**](msiscsitarget-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

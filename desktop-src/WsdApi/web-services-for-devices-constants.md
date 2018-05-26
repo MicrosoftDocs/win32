@@ -1,7 +1,12 @@
 ---
-Description: 'The following constants are used by Web Services on Devices.'
-ms.assetid: 'ef3df24a-46a1-49de-b2f7-bfccdc793462'
+Description: The following constants are used by Web Services on Devices.
+ms.assetid: ef3df24a-46a1-49de-b2f7-bfccdc793462
 title: Web Services on Devices Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Web Services on Devices Constants
@@ -24,15 +29,15 @@ The following constants are used by Web Services on Devices.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Wsdutil.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

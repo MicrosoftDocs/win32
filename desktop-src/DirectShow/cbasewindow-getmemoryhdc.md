@@ -1,7 +1,12 @@
 ---
-Description: 'The GetMemoryHDC method retrieves a handle to the memory device context (DC).'
-ms.assetid: '2c22015f-5948-4e1a-92c7-36f232816175'
-title: 'CBaseWindow.GetMemoryHDC method'
+Description: The GetMemoryHDC method retrieves a handle to the memory device context (DC).
+ms.assetid: 2c22015f-5948-4e1a-92c7-36f232816175
+title: CBaseWindow.GetMemoryHDC method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.GetMemoryHDC method
@@ -43,9 +48,9 @@ Returns a handle to the memory DC.
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

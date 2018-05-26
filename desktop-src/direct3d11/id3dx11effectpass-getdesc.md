@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectPass GetDesc method
 description: Get a pass description.
-ms.assetid: '423766be-96b2-4038-834e-34125789e8b1'
-keywords: ["GetDesc method Direct3D 11", "GetDesc method Direct3D 11 , ID3DX11EffectPass interface", "ID3DX11EffectPass interface Direct3D 11 , GetDesc method"]
+ms.assetid: 423766be-96b2-4038-834e-34125789e8b1
+keywords:
+- GetDesc method Direct3D 11
+- GetDesc method Direct3D 11 , ID3DX11EffectPass interface
+- ID3DX11EffectPass interface Direct3D 11 , GetDesc method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectPass::GetDesc method
@@ -23,7 +31,7 @@ Get a pass description.
 
 ```C++
 HRESULT GetDesc(
-   D3DX11_PASS_DESC *pDesc
+   D3DX11_PASS_DESC *pDesc
 );
 ```
 
@@ -55,7 +63,7 @@ A pass is a block of code that sets render state and shaders (which in turn sets
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ A pass is a block of code that sets render state and shaders (which in turn sets
 [ID3DX11EffectPass](id3dx11effectpass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

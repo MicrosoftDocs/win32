@@ -1,8 +1,10 @@
 ---
 title: POP3TOP structure
 description: Contains the response data from the TOP command.
-ms.assetid: '507ccfeb-28ec-4ddf-a185-5107abc6b889'
-keywords: ["POP3TOP structure Windows Mail (formerly Outlook Express)", "LPPOP3TOP structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 507ccfeb-28ec-4ddf-a185-5107abc6b889
+keywords:
+- POP3TOP structure Windows Mail (formerly Outlook Express)
+- LPPOP3TOP structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # POP3TOP structure
@@ -24,8 +31,8 @@ Contains the response data from the TOP command.
 
 ```C++
 typedef struct tagPOP3TOP {
-  BOOL  fHeader;
-  BOOL  fBody;
+  BOOL  fHeader;
+  BOOL  fBody;
   DWORD dwPopId;
   DWORD cPreviewLines;
   DWORD cbSoFar;
@@ -123,17 +130,17 @@ Contains a **ULONG** that holds the number of bytes in **pszLines**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

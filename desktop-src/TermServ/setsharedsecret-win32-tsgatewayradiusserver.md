@@ -4,11 +4,14 @@ description: Sets the SharedSecret property for this Remote Authentication Dial-
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b4f7afb7-862f-4c30-b60a-aa6a8dbbe3e9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b4f7afb7-862f-4c30-b60a-aa6a8dbbe3e9
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetSharedSecret method Remote Desktop Services", "SetSharedSecret method Remote Desktop Services , Win32_TSGatewayRADIUSServer class", "Win32_TSGatewayRADIUSServer class Remote Desktop Services , SetSharedSecret method"]
+keywords:
+- SetSharedSecret method Remote Desktop Services
+- SetSharedSecret method Remote Desktop Services , Win32_TSGatewayRADIUSServer class
+- Win32_TSGatewayRADIUSServer class Remote Desktop Services , SetSharedSecret method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSharedSecret method of the Win32\_TSGatewayRADIUSServer class
@@ -28,7 +34,7 @@ Sets the **SharedSecret** property for this Remote Authentication Dial-In User S
 
 ```mof
 uint32 SetSharedSecret(
-  [in] string SharedSecret
+  [in] string SharedSecret
 );
 ```
 
@@ -62,7 +68,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -76,9 +82,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayRADIUSServer**](win32-tsgatewayradiusserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

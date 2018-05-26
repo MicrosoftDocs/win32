@@ -1,8 +1,14 @@
 ---
 title: ATA Port Library Routines
 description: ATA Port Library Routines
-ms.assetid: 'd8fd9a5c-593f-44df-93f9-66fb469e7351'
-keywords: ["ATA library routines WDK"]
+ms.assetid: d8fd9a5c-593f-44df-93f9-66fb469e7351
+keywords:
+- ATA library routines WDK
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Port Library Routines

@@ -1,12 +1,17 @@
 ---
-Description: 'This example demonstrates how to initialize an array of security buffers.'
-ms.assetid: 'f8196a9c-786a-49a3-85a4-1bd5f414a653'
+Description: This example demonstrates how to initialize an array of security buffers.
+ms.assetid: f8196a9c-786a-49a3-85a4-1bd5f414a653
 title: SecBuffer and SecBufferDesc Example Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SecBuffer and SecBufferDesc Example Code
 
-This example demonstrates how to initialize an array of security buffers. It shows input security buffers initialized by the server side of a connection to prepare for a call to [**AcceptSecurityContext (General)**](acceptsecuritycontext--general-.md). Note that the last buffer contains the opaque security token received by the client and that the SECBUFFER\_READONLY flag is set on [**SecBuffer**](secbuffer.md).
+This example demonstrates how to initialize an array of security buffers. It shows input security buffers initialized by the server side of a connection to prepare for a call to [**AcceptSecurityContext (General)**](/windows/win32/Sspi/?branch=master). Note that the last buffer contains the opaque security token received by the client and that the SECBUFFER\_READONLY flag is set on [**SecBuffer**](/windows/win32/Sspi/ns-sspi-_secbuffer?branch=master).
 
 
 ```C++

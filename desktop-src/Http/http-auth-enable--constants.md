@@ -1,7 +1,7 @@
 ---
 title: HTTP\_AUTH\_ENABLE\_ Constants
 description: Define authentication schemes that can be enabled on a URL Group.
-ms.assetid: 'db22645f-c9e4-427e-b3d5-91d568aec7c5'
+ms.assetid: db22645f-c9e4-427e-b3d5-91d568aec7c5
 topic_type:
 - apiref
 api_name:
@@ -17,13 +17,18 @@ api_location:
 - http.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP\_AUTH\_ENABLE\_ Constants
 
 The **HTTP\_AUTH\_ENABLE** constants define authentication schemes that can be enabled on a URL Group.
 
-These constants are used in the [**HTTP\_SERVER\_AUTHENTICATION\_INFO**](http-server-authentication-info.md) structure.
+These constants are used in the [**HTTP\_SERVER\_AUTHENTICATION\_INFO**](/windows/win32/Http/ns-http-_http_server_authentication_info?branch=master) structure.
 
 <dl> <dt>
 
@@ -64,7 +69,7 @@ The Kerberos authentication scheme is enabled.
 
 Kerberos credential caching is enabled.
 
-**Windows Server 2003 and before:** Not available.
+**Windows Server 2003 and before:** Not available.
 
 
 </dt> </dl> </dd> <dt>
@@ -76,7 +81,7 @@ Kerberos credential caching is enabled.
 
 The HTTP Server API captures the caller identity and uses it for authentication for Negotiate and Kerberos schemes only.
 
-**Windows Server 2003 and before:** Not available.
+**Windows Server 2003 and before:** Not available.
 
 
 </dt> </dl> </dd> <dt>
@@ -117,8 +122,8 @@ All authentication schemes are enabled.
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Http.h</dt> </dl> |
 
 
@@ -130,24 +135,24 @@ All authentication schemes are enabled.
 [HTTP Server API Version 2.0 Constants](http-server-api-version-2-0-constants.md)
 </dt> <dt>
 
-[**HTTP\_SERVER\_AUTHENTICATION\_INFO**](http-server-authentication-info.md)
+[**HTTP\_SERVER\_AUTHENTICATION\_INFO**](/windows/win32/Http/ns-http-_http_server_authentication_info?branch=master)
 </dt> <dt>
 
-[**HttpSetUrlGroupProperty**](httpseturlgroupproperty.md)
+[**HttpSetUrlGroupProperty**](/windows/win32/Http/nf-http-httpseturlgroupproperty?branch=master)
 </dt> <dt>
 
-[**HttpSetServerSessionProperty**](httpsetserversessionproperty.md)
+[**HttpSetServerSessionProperty**](/windows/win32/Http/nf-http-httpsetserversessionproperty?branch=master)
 </dt> <dt>
 
-[**HttpQueryUrlGroupProperty**](httpqueryurlgroupproperty.md)
+[**HttpQueryUrlGroupProperty**](/windows/win32/Http/nf-http-httpqueryurlgroupproperty?branch=master)
 </dt> <dt>
 
-[**HttpQueryServerSessionProperty**](httpqueryserversessionproperty.md)
+[**HttpQueryServerSessionProperty**](/windows/win32/Http/nf-http-httpqueryserversessionproperty?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

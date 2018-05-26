@@ -1,7 +1,12 @@
 ---
 Description: Creating Installation Packages for COM+ Applications
-ms.assetid: '3ef7b280-b521-4cd2-9906-013c9dfe16ab'
+ms.assetid: 3ef7b280-b521-4cd2-9906-013c9dfe16ab
 title: Creating Installation Packages for COM+ Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Installation Packages for COM+ Applications

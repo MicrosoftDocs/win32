@@ -1,8 +1,11 @@
 ---
 title: Player.MediaCollectionMediaRemoved event
 description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library.
-ms.assetid: 'a1df6faf-38dc-4f5f-8f8a-953c91ea026c'
-keywords: ["MediaCollectionMediaRemoved event Windows Media Player", "MediaCollectionMediaRemoved event Windows Media Player , Player class", "Player class Windows Media Player , MediaCollectionMediaRemoved event"]
+ms.assetid: a1df6faf-38dc-4f5f-8f8a-953c91ea026c
+keywords:
+- MediaCollectionMediaRemoved event Windows Media Player
+- MediaCollectionMediaRemoved event Windows Media Player , Player class
+- Player class Windows Media Player , MediaCollectionMediaRemoved event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.MediaCollectionMediaRemoved event
@@ -73,9 +81,9 @@ This event only occurs for the local library.
 [**Player.mediaCollection**](player-mediacollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TVM\_ENSUREVISIBLE message
 description: Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can send this message explicitly or by using the TreeView\_EnsureVisible macro.
-ms.assetid: '7053438a-f9ca-4c4c-9da6-46b99fe1e4f8'
-keywords: ["TVM_ENSUREVISIBLE message Windows Controls"]
+ms.assetid: 7053438a-f9ca-4c4c-9da6-46b99fe1e4f8
+keywords:
+- TVM_ENSUREVISIBLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_ENSUREVISIBLE message
 
-Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can send this message explicitly or by using the [**TreeView\_EnsureVisible**](treeview-ensurevisible.md) macro.
+Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can send this message explicitly or by using the [**TreeView\_EnsureVisible**](/windows/win32/Commctrl/nf-commctrl-treeview_ensurevisible?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ If the TVM\_ENSUREVISIBLE message expands the parent item, the parent window rec
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_RecentColorsCategoryLabel
 description: Identifies the UI\_PKEY\_RecentColorsCategoryLabel property.
-ms.assetid: 'e9336b98-59ae-4118-8535-009fc0fda4b9'
+ms.assetid: e9336b98-59ae-4118-8535-009fc0fda4b9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_RecentColorsCategoryLabel

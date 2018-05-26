@@ -1,7 +1,12 @@
 ---
 title: Event Schema
-ms.assetid: '36037697-b777-4e5c-99af-77964200a3e4'
+ms.assetid: 36037697-b777-4e5c-99af-77964200a3e4
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Schema
@@ -16,7 +21,7 @@ The elements section contains the names of the elements that you would find in a
 
 The Windows SDK includes the schema in the \\Include\\Event.xsd file.
 
-You can use this schema to identify the elements and attributes when calling the [**EvtRender**](evtrender.md) function to render specific sections or properties of the event. For an example that shows how to use this schema when rendering events, see [Rendering Events](rendering-events.md).
+You can use this schema to identify the elements and attributes when calling the [**EvtRender**](/windows/win32/WinEvt/nf-winevt-evtrender?branch=master) function to render specific sections or properties of the event. For an example that shows how to use this schema when rendering events, see [Rendering Events](rendering-events.md).
 
 In addition to the Event schema, Windows Event Log also defines the following schemas:
 

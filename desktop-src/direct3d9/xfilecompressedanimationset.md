@@ -1,7 +1,12 @@
-﻿---
-Description: 'Identifies compressed key frame animation data.'
-ms.assetid: '2aab46db-e0ad-4bbb-b1c5-a254ec6cb984'
+---
+Description: Identifies compressed key frame animation data.
+ms.assetid: 2aab46db-e0ad-4bbb-b1c5-a254ec6cb984
 title: XFILECOMPRESSEDANIMATIONSET structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XFILECOMPRESSEDANIMATIONSET structure

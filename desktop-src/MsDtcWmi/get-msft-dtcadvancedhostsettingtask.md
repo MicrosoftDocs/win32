@@ -4,13 +4,16 @@ description: Retrieves a DTC host level property from the registry.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '600449de-6860-49f2-a4e5-e219deed43a6'
-ms.prod: 'windows-server-dev'
+ms.assetid: 600449de-6860-49f2-a4e5-e219deed43a6
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-transaction-coordinator'
-- 'windows-management-instrumentation'
+- distributed-transaction-coordinator
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, MSFT_DtcAdvancedHostSettingTask class", "MSFT_DtcAdvancedHostSettingTask class, Get method"]
+keywords:
+- Get method
+- Get method, MSFT_DtcAdvancedHostSettingTask class
+- MSFT_DtcAdvancedHostSettingTask class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsDtcWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the MSFT\_DtcAdvancedHostSettingTask class
@@ -30,9 +36,9 @@ Retrieves a DTC host level property from the registry.
 
 ```mof
 uint32 Get(
-  [in]  string Name,
-  [in]  string Subkey,
-  [out] string cmdletOutput
+  [in]  string Name,
+  [in]  string Subkey,
+  [out] string cmdletOutput
 );
 ```
 
@@ -73,8 +79,8 @@ Returns "0" on success, otherwise returns a WMI error code.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\MsDTC<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>Wbemcli.h</dt> </dl>    |
 | MOF<br/>                      | <dl> <dt>Msdtcwmi.mof</dt> </dl> |
@@ -89,9 +95,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**MSFT\_DtcAdvancedHostSettingTask**](msft-dtcadvancedhostsettingtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySink VisibleState
 description: IAgentNotifySink VisibleState
-ms.assetid: 'b0346296-74e9-448f-aa6d-a9fb1e645f05'
+ms.assetid: b0346296-74e9-448f-aa6d-a9fb1e645f05
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySink::VisibleState
@@ -57,7 +62,7 @@ Cause of last change to the character's visibility state. The parameter may be o
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -66,9 +71,9 @@ Cause of last change to the character's visibility state. The parameter may be o
 [**IAgentCharacter::GetVisible**](iagentcharacter--getvisible.md), [**IAgentCharacter::GetVisibilityCause**](iagentcharacter--getvisibilitycause.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

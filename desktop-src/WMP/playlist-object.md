@@ -1,14 +1,20 @@
 ---
 title: Playlist Object
 description: The Playlist object provides a way to organize media items in a list for easy manipulation by using the following properties and methods.
-ms.assetid: 'c2d2f265-b207-4b82-bb76-aee467f00659'
-keywords: ["Playlist Object Windows Media Player"]
+ms.assetid: c2d2f265-b207-4b82-bb76-aee467f00659
+keywords:
+- Playlist Object Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Playlist Object
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist Object

@@ -1,7 +1,12 @@
 ---
-Description: 'The working set of a process is the set of pages in the virtual address space of the process that are currently resident in physical memory.'
-ms.assetid: 'ff05276a-1d40-4844-b649-10e32e3f1937'
+Description: The working set of a process is the set of pages in the virtual address space of the process that are currently resident in physical memory.
+ms.assetid: ff05276a-1d40-4844-b649-10e32e3f1937
 title: Working Set
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working Set

@@ -1,7 +1,12 @@
 ---
 Description: Windows Color System
-ms.assetid: '9297de48-c327-4e8b-9563-b2c7b15408fa'
+ms.assetid: 9297de48-c327-4e8b-9563-b2c7b15408fa
 title: Windows Color System
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Color System

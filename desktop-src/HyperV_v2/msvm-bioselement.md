@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the low-level software that is loaded into RAM to configure and start the system.'
-ms.assetid: 'D123601A-DEE6-43EA-BD95-1F7F0F2C2B43'
-title: 'Msvm\_BIOSElement class'
+Description: Represents the low-level software that is loaded into RAM to configure and start the system.
+ms.assetid: D123601A-DEE6-43EA-BD95-1F7F0F2C2B43
+title: Msvm\_BIOSElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_BIOSElement class
@@ -16,46 +21,46 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_BIOSElement : CIM_BIOSElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   Name = "BIOS";
-  uint16   SoftwareElementState = 2;
-  string   SoftwareElementID = "Microsoft:GUID\device-specific data";
-  uint16   TargetOperatingSystem = 0;
-  string   OtherTargetOS;
-  string   BuildNumber = 14;
-  string   SerialNumber;
-  string   CodeSet;
-  string   IdentificationCode;
-  string   LanguageEdition;
-  string   Version = "8.02.00";
-  string   Manufacturer = "Microsoft Corporation";
-  boolean  PrimaryBIOS = True;
-  string   ListOfLanguages[] = "en|US|iso8859-1";
-  string   CurrentLanguage = "en|US|iso8859-1";
-  unit64   LoadedStartingAddress = 0xE0000;
-  unit64   LoadedEndingAddress = 0xFFFFF;
-  string   LoadUtilityInformation;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   Name = "BIOS";
+  uint16   SoftwareElementState = 2;
+  string   SoftwareElementID = "Microsoft:GUID\device-specific data";
+  uint16   TargetOperatingSystem = 0;
+  string   OtherTargetOS;
+  string   BuildNumber = 14;
+  string   SerialNumber;
+  string   CodeSet;
+  string   IdentificationCode;
+  string   LanguageEdition;
+  string   Version = "8.02.00";
+  string   Manufacturer = "Microsoft Corporation";
+  boolean  PrimaryBIOS = True;
+  string   ListOfLanguages[] = "en|US|iso8859-1";
+  string   CurrentLanguage = "en|US|iso8859-1";
+  unit64   LoadedStartingAddress = 0xE0000;
+  unit64   LoadedEndingAddress = 0xFFFFF;
+  string   LoadUtilityInformation;
   datetime ReleaseDate;
-  string   RegistryURIs[];
-  string   BIOSGUID;
-  string   BIOSSerialNumber;
-  string   BaseBoardSerialNumber;
-  string   ChassisSerialNumber;
-  string   ChassisAssetTag;
-  boolean  BIOSNumLock;
-  uint16   BootOrder[];
+  string   RegistryURIs[];
+  string   BIOSGUID;
+  string   BIOSSerialNumber;
+  string   BaseBoardSerialNumber;
+  string   ChassisSerialNumber;
+  string   ChassisAssetTag;
+  boolean  BIOSNumLock;
+  uint16   BootOrder[];
 };
 ```
 
@@ -303,7 +308,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.mic
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -489,7 +494,7 @@ An array that contains the current statuses of the object. This property is inhe
 
 
 
- 
+ 
 
 The value at index one (1) is optional and contains secondary status information. A client should use the primary status from index zero (0) to determine whether a new request can be issued to the virtual machine. If **OperationalStatus**\[0\] is 2 (OK), then the operation indicated by **OperationalStatus**\[1\] can be interrupted.
 
@@ -509,7 +514,7 @@ The value at **OperationalStatus**\[1\] is one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -694,8 +699,8 @@ Access to the **Msvm\_BIOSElement** class might be restricted by UAC Filtering. 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -715,9 +720,9 @@ Access to the **Msvm\_BIOSElement** class might be restricted by UAC Filtering. 
 [**CIM\_BIOSElement**](https://msdn.microsoft.com/library/aa387191)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

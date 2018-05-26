@@ -1,7 +1,12 @@
 ---
-Description: 'Security flags associated with the item to indicate whether the item is encrypted, signed, or DRM enabled.'
-ms.assetid: 'ff13a941-4e62-4c13-9c74-99b39fb031e1'
-title: 'System.Communication.SecurityFlags'
+Description: Security flags associated with the item to indicate whether the item is encrypted, signed, or DRM enabled.
+ms.assetid: ff13a941-4e62-4c13-9c74-99b39fb031e1
+title: System.Communication.SecurityFlags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Communication.SecurityFlags

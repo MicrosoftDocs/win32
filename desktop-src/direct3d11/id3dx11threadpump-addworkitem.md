@@ -1,8 +1,11 @@
 ---
 title: ID3DX11ThreadPump AddWorkItem method
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Adds a work item to the thread pump.
-ms.assetid: '2578506c-6175-457a-bf10-94929bb3c0c4'
-keywords: ["AddWorkItem method Direct3D 11", "AddWorkItem method Direct3D 11 , ID3DX11ThreadPump interface", "ID3DX11ThreadPump interface Direct3D 11 , AddWorkItem method"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Adds a work item to the thread pump.
+ms.assetid: 2578506c-6175-457a-bf10-94929bb3c0c4
+keywords:
+- AddWorkItem method Direct3D 11
+- AddWorkItem method Direct3D 11 , ID3DX11ThreadPump interface
+- ID3DX11ThreadPump interface Direct3D 11 , AddWorkItem method
 topic_type:
 - apiref
 api_name:
@@ -12,14 +15,19 @@ api_location:
 - D3DX11.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11ThreadPump::AddWorkItem method
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 Adds a work item to the thread pump.
 
@@ -28,10 +36,10 @@ Adds a work item to the thread pump.
 
 ```C++
 HRESULT AddWorkItem(
-  [in]  ID3DX11DataLoader    *pDataLoader,
-  [in]  ID3DX11DataProcessor *pDataProcessor,
-  [in]  HRESULT              *pHResult,
-  [out] void                 **ppDeviceObject
+  [in]  ID3DX11DataLoader    *pDataLoader,
+  [in]  ID3DX11DataProcessor *pDataProcessor,
+  [in]  HRESULT              *pHResult,
+  [out] void                 **ppDeviceObject
 );
 ```
 
@@ -104,9 +112,9 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

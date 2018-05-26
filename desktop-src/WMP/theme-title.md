@@ -1,14 +1,20 @@
 ---
 title: THEME.title
 description: The title attribute specifies or retrieves the title of the skin.
-ms.assetid: 'd0940d5a-d256-47f3-b222-ceba1c829540'
-keywords: ["THEME.title Windows Media Player"]
+ms.assetid: d0940d5a-d256-47f3-b222-ceba1c829540
+keywords:
+- THEME.title Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.title
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.title
@@ -40,9 +46,9 @@ This attribute is a read/write **String** with no default value.
 [**THEME Element**](theme-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

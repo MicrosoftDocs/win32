@@ -1,7 +1,12 @@
 ---
 Description: Receiving a Response
-ms.assetid: '48919608-a102-43e2-9ca0-80b17344b5eb'
+ms.assetid: 48919608-a102-43e2-9ca0-80b17344b5eb
 title: Receiving a Response
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving a Response

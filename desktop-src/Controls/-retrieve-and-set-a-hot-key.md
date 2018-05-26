@@ -1,7 +1,12 @@
 ---
 title: How to Retrieve and Set a Hot Key
 description: This topic demonstrates how to retrieve or set the key combination for a hot key control.
-ms.assetid: 'F3643196-F847-4EE4-97ED-75AF52D4FF8D'
+ms.assetid: F3643196-F847-4EE4-97ED-75AF52D4FF8D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Retrieve and Set a Hot Key

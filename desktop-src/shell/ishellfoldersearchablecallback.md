@@ -1,6 +1,11 @@
-﻿---
-Description: 'Exposes callback routines to monitor the search process.'
+---
+Description: Exposes callback routines to monitor the search process.
 title: IShellFolderSearchableCallback interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellFolderSearchableCallback interface

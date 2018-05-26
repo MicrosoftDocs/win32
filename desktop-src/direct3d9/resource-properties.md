@@ -1,7 +1,12 @@
 ---
-Description: 'All resources share the following properties.'
-ms.assetid: '6ef6ce68-44fa-4964-8b61-2a37382eda1c'
-title: 'Resource Properties (Direct3D 9)'
+Description: All resources share the following properties.
+ms.assetid: 6ef6ce68-44fa-4964-8b61-2a37382eda1c
+title: Resource Properties (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Properties (Direct3D 9)
@@ -23,7 +28,7 @@ For information about the surface format of resources, see the [D3DFORMAT](d3dfo
 
 The class of memory that holds a resource's buffers is called a pool. Pool values are defined by the [**D3DPOOL**](direct3d9.d3dpool) enumerated type. A pool cannot be mixed for different objects contained in a single resource - that is, mip levels in a mipmap - and, when a pool is chosen for a resource, the pool cannot be changed.
 
-The resources types are set implicitly at run time when the application calls a resource creation method such as [**IDirect3DDevice9::CreateCubeTexture**](idirect3ddevice9--createcubetexture.md). Resource types are defined by the [**D3DRESOURCETYPE**](direct3d9.d3dresourcetype) enumerated type. Applications can query these types at run time; however, it is expected that most scenarios will not require run-time type checking.
+The resources types are set implicitly at run time when the application calls a resource creation method such as [**IDirect3DDevice9::CreateCubeTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createcubetexture?branch=master). Resource types are defined by the [**D3DRESOURCETYPE**](direct3d9.d3dresourcetype) enumerated type. Applications can query these types at run time; however, it is expected that most scenarios will not require run-time type checking.
 
 ## Related topics
 

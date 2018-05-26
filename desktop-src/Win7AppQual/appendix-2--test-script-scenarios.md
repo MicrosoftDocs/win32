@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'BDF7CF8D-26B0-4B4D-AF7D-9DC64B4667F0'
-title: 'Appendix 2: Test Script Scenarios'
+Description: .
+ms.assetid: BDF7CF8D-26B0-4B4D-AF7D-9DC64B4667F0
+title: Appendix 2 Test Script Scenarios
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Appendix 2: Test Script Scenarios

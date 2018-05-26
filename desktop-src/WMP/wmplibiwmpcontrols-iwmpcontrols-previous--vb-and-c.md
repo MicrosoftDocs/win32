@@ -1,8 +1,11 @@
 ---
 title: IWMPControls previous method
 description: The previous method sets the previous item in the playlist as the current item.
-ms.assetid: '380524f5-e8b6-45c4-9f6c-3dbb49b1ac9f'
-keywords: ["previous method Windows Media Player", "previous method Windows Media Player , IWMPControls interface", "IWMPControls interface Windows Media Player , previous method"]
+ms.assetid: 380524f5-e8b6-45c4-9f6c-3dbb49b1ac9f
+keywords:
+- previous method Windows Media Player
+- previous method Windows Media Player , IWMPControls interface
+- IWMPControls interface Windows Media Player , previous method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls::previous method
@@ -135,9 +143,9 @@ End Sub</code></pre></td>
 [**IWMPControls.stop (VB and C#)**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

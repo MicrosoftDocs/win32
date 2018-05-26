@@ -1,12 +1,17 @@
 ---
-Description: 'Used with the BCryptGetProperty and BCryptSetProperty functions to identify a property.'
-ms.assetid: 'ebcc8202-94b4-47ad-9918-e5bc843a258f'
+Description: Used with the BCryptGetProperty and BCryptSetProperty functions to identify a property.
+ms.assetid: ebcc8202-94b4-47ad-9918-e5bc843a258f
 title: Cryptography Primitive Property Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cryptography Primitive Property Identifiers
 
-The following values are used with the [**BCryptGetProperty**](bcryptgetproperty-func.md) and [**BCryptSetProperty**](bcryptsetproperty-func.md) functions to identify a property.
+The following values are used with the [**BCryptGetProperty**](/windows/win32/Bcrypt/nf-bcrypt-bcryptgetproperty?branch=master) and [**BCryptSetProperty**](/windows/win32/Bcrypt/nf-bcrypt-bcryptsetproperty?branch=master) functions to identify a property.
 
 <dl> <dt>
 
@@ -31,7 +36,7 @@ L"AuthTagLength"
 
 
 
-The authentication tag lengths that are supported by the algorithm. This property is a [**BCRYPT\_AUTH\_TAG\_LENGTHS\_STRUCT**](bcrypt-key-lengths-struct.md) structure. This property only applies to algorithms.
+The authentication tag lengths that are supported by the algorithm. This property is a [**BCRYPT\_AUTH\_TAG\_LENGTHS\_STRUCT**](/windows/win32/Bcrypt/ns-bcrypt-__bcrypt_key_lengths_struct?branch=master) structure. This property only applies to algorithms.
 
 
 </dt> </dl> </dd> <dt>
@@ -77,15 +82,15 @@ A pointer to a null-terminated Unicode string that represents the chaining mode 
 | Identifier                   | Value                         | Description                                                                                                                                                                    |
 |------------------------------|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **BCRYPT\_CHAIN\_MODE\_CBC** | L"ChainingModeCBC"<br/> | Sets the algorithm's chaining mode to [*cipher block chaining*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-cipher-block-chaining-gly).<br/>            |
-| **BCRYPT\_CHAIN\_MODE\_CCM** | L"ChainingModeCCM"<br/> | Sets the algorithm's chaining mode to counter with CBC-MAC mode (CCM).**Windows Vista:** This value is supported beginning with Windows Vista with SP1.<br/> <br/> |
+| **BCRYPT\_CHAIN\_MODE\_CCM** | L"ChainingModeCCM"<br/> | Sets the algorithm's chaining mode to counter with CBC-MAC mode (CCM).**Windows Vista:** This value is supported beginning with Windows Vista with SP1.<br/> <br/> |
 | **BCRYPT\_CHAIN\_MODE\_CFB** | L"ChainingModeCFB"<br/> | Sets the algorithm's chaining mode to [*cipher feedback*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-cipher-feedback-gly).<br/>                              |
 | **BCRYPT\_CHAIN\_MODE\_ECB** | L"ChainingModeECB"<br/> | Sets the algorithm's chaining mode to [*electronic codebook*](https://msdn.microsoft.com/library/windows/desktop/ms721575#-security-electronic-codebook-gly).<br/>                  |
-| **BCRYPT\_CHAIN\_MODE\_GCM** | L"ChainingModeGCM"<br/> | Sets the algorithm's chaining mode to Galois/counter mode (GCM).**Windows Vista:** This value is supported beginning with Windows Vista with SP1.<br/> <br/>       |
+| **BCRYPT\_CHAIN\_MODE\_GCM** | L"ChainingModeGCM"<br/> | Sets the algorithm's chaining mode to Galois/counter mode (GCM).**Windows Vista:** This value is supported beginning with Windows Vista with SP1.<br/> <br/>       |
 | **BCRYPT\_CHAIN\_MODE\_NA**  | L"ChainingModeN/A"<br/> | The algorithm does not support chaining.<br/>                                                                                                                            |
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -98,7 +103,7 @@ L"DHParameters"
 
 
 
-Specifies parameters to use with a Diffie-Hellman key. This data type is a pointer to a [**BCRYPT\_DH\_PARAMETER\_HEADER**](bcrypt-dh-parameter-header.md) structure. This property can only be set and must be set for the key before the key is completed.
+Specifies parameters to use with a Diffie-Hellman key. This data type is a pointer to a [**BCRYPT\_DH\_PARAMETER\_HEADER**](/windows/win32/Bcrypt/ns-bcrypt-_bcrypt_dh_parameter_header?branch=master) structure. This property can only be set and must be set for the key before the key is completed.
 
 
 </dt> </dl> </dd> <dt>
@@ -111,9 +116,9 @@ L"DSAParameters"
 
 
 
-Specifies parameters to use with a DSA key. This property is a [**BCRYPT\_DSA\_PARAMETER\_HEADER**](bcrypt-dsa-parameter-header.md) or a [**BCRYPT\_DSA\_PARAMETER\_HEADER\_V2**](bcrypt-dsa-parameter-header-v2.md) structure. This property can only be set and must be set for the key before the key is completed.
+Specifies parameters to use with a DSA key. This property is a [**BCRYPT\_DSA\_PARAMETER\_HEADER**](/windows/win32/Bcrypt/ns-bcrypt-_bcrypt_dsa_parameter_header?branch=master) or a [**BCRYPT\_DSA\_PARAMETER\_HEADER\_V2**](/windows/win32/Bcrypt/ns-bcrypt-_bcrypt_dsa_parameter_header_v2?branch=master) structure. This property can only be set and must be set for the key before the key is completed.
 
-**Windows 8:** Beginning with Windows 8, this property can be a [**BCRYPT\_DSA\_PARAMETER\_HEADER\_V2**](bcrypt-dsa-parameter-header-v2.md) structure. Use this structure if the key size exceeds 1024 bits and is less than or equal to 3072 bits. If the key size is greater than or equal to 512 but less than or equal to 1024 bits, use the [**BCRYPT\_DSA\_PARAMETER\_HEADER**](bcrypt-dsa-parameter-header.md) structure.
+**Windows 8:** Beginning with Windows 8, this property can be a [**BCRYPT\_DSA\_PARAMETER\_HEADER\_V2**](/windows/win32/Bcrypt/ns-bcrypt-_bcrypt_dsa_parameter_header_v2?branch=master) structure. Use this structure if the key size exceeds 1024 bits and is less than or equal to 3072 bits. If the key size is greater than or equal to 512 but less than or equal to 1024 bits, use the [**BCRYPT\_DSA\_PARAMETER\_HEADER**](/windows/win32/Bcrypt/ns-bcrypt-_bcrypt_dsa_parameter_header?branch=master) structure.
 
 
 </dt> </dl> </dd> <dt>
@@ -165,7 +170,7 @@ L"HashOIDList"
 
 
 
-The list of [*DER*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-der-gly)-encoded hashing [*object identifiers*](https://msdn.microsoft.com/library/windows/desktop/ms721599#-security-object-identifier-gly) (OIDs). This property is a [**BCRYPT\_OID\_LIST**](bcrypt-oid-list.md) structure. This property can only be read.
+The list of [*DER*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-der-gly)-encoded hashing [*object identifiers*](https://msdn.microsoft.com/library/windows/desktop/ms721599#-security-object-identifier-gly) (OIDs). This property is a [**BCRYPT\_OID\_LIST**](/windows/win32/Bcrypt/ns-bcrypt-_bcrypt_oid_list?branch=master) structure. This property can only be read.
 
 
 </dt> </dl> </dd> <dt>
@@ -204,7 +209,7 @@ L"KeyLengths"
 
 
 
-The key lengths that are supported by the algorithm. This property is a [**BCRYPT\_KEY\_LENGTHS\_STRUCT**](bcrypt-key-lengths-struct.md) structure. This property only applies to algorithms.
+The key lengths that are supported by the algorithm. This property is a [**BCRYPT\_KEY\_LENGTHS\_STRUCT**](/windows/win32/Bcrypt/ns-bcrypt-__bcrypt_key_lengths_struct?branch=master) structure. This property only applies to algorithms.
 
 
 </dt> </dl> </dd> <dt>
@@ -256,7 +261,7 @@ L"MultiObjectLength"
 
 
 
-This property returns a [**BCRYPT\_MULTI\_OBJECT\_LENGTH\_STRUCT**](bcrypt-multi-object-length-struct.md), which contains information necessary to calculate the size of an object buffer. This property is only supported on operating system versions that support the [**BCryptCreateMultiHash**](bcryptcreatemultihash.md) function.
+This property returns a [**BCRYPT\_MULTI\_OBJECT\_LENGTH\_STRUCT**](/windows/win32/Bcrypt/ns-bcrypt-_bcrypt_multi_object_length_struct?branch=master), which contains information necessary to calculate the size of an object buffer. This property is only supported on operating system versions that support the [**BCryptCreateMultiHash**](/windows/win32/Bcrypt/nf-bcrypt-bcryptcreatemultihash?branch=master) function.
 
 
 </dt> </dl> </dd> <dt>
@@ -269,7 +274,7 @@ L"ObjectLength"
 
 
 
-The size, in bytes, of the subobject of a provider. This data type is a **DWORD**. Currently, the hash and symmetric cipher algorithm providers use caller-allocated buffers to store their subobjects. For example, the hash provider requires you to allocate memory for the hash object obtained with the [**BCryptCreateHash**](bcryptcreatehash-func.md) function. This property provides the buffer size for a provider's object so you can allocate memory for the object created by the provider.
+The size, in bytes, of the subobject of a provider. This data type is a **DWORD**. Currently, the hash and symmetric cipher algorithm providers use caller-allocated buffers to store their subobjects. For example, the hash provider requires you to allocate memory for the hash object obtained with the [**BCryptCreateHash**](/windows/win32/Bcrypt/nf-bcrypt-bcryptcreatehash?branch=master) function. This property provides the buffer size for a provider's object so you can allocate memory for the object created by the provider.
 
 
 </dt> </dl> </dd> <dt>
@@ -296,7 +301,7 @@ Represents the padding scheme of the RSA algorithm provider. This data type is a
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -333,15 +338,15 @@ The size, in bytes, of the length of a signature for a key. This data type is a 
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Bcrypt.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

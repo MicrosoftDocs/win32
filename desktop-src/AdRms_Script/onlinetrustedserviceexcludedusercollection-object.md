@@ -1,13 +1,16 @@
 ---
-Description: 'Contains a collection of users excluded from the Windows Live ID user domain.'
+Description: Contains a collection of users excluded from the Windows Live ID user domain.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'f5514bdb-19f3-4c09-a997-3e21f5704819'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: f5514bdb-19f3-4c09-a997-3e21f5704819
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: OnlineTrustedServiceExcludedUserCollection object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # OnlineTrustedServiceExcludedUserCollection object
@@ -41,7 +44,7 @@ The **OnlineTrustedServiceExcludedUserCollection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +59,7 @@ The **OnlineTrustedServiceExcludedUserCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -160,7 +163,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -175,9 +178,9 @@ END SUB
 [**OnlineTrustedServiceUserDomain**](onlinetrustedserviceuserdomain-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

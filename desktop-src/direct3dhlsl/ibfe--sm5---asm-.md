@@ -1,7 +1,12 @@
 ---
 title: ibfe (sm5 - asm)
 description: Given a range of bits in a number, shift those bits to the LSB and sign extend the MSB of the range.
-ms.assetid: '1ED39812-A89F-4325-82A0-DA2CCC55A99A'
+ms.assetid: 1ED39812-A89F-4325-82A0-DA2CCC55A99A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ibfe (sm5 - asm)
@@ -15,7 +20,7 @@ Given a range of bits in a number, shift those bits to the LSB and sign extend t
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Given a range of bits in a number, shift those bits to the LSB and sign extend t
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,7 +72,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -86,7 +91,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -95,9 +100,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

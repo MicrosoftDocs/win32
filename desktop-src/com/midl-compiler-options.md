@@ -1,7 +1,12 @@
 ---
 title: MIDL Compiler Options
 description: MIDL Compiler Options
-ms.assetid: 'a78505cf-cda6-4b41-abd1-2609aec4dcb3'
+ms.assetid: a78505cf-cda6-4b41-abd1-2609aec4dcb3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL Compiler Options
@@ -26,7 +31,7 @@ You can use the following command-line options to override some of the default b
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -35,9 +40,9 @@ You can use the following command-line options to override some of the default b
 [MIDL Compilation](midl-compilation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

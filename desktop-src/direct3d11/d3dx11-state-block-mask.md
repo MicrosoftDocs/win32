@@ -1,8 +1,9 @@
 ---
 title: D3DX11\_STATE\_BLOCK\_MASK structure
 description: Indicates the device state.
-ms.assetid: '42044a6d-6a11-4f90-889a-82e7954da6c7'
-keywords: ["D3DX11_STATE_BLOCK_MASK structure Direct3D 11"]
+ms.assetid: 42044a6d-6a11-4f90-889a-82e7954da6c7
+keywords:
+- D3DX11_STATE_BLOCK_MASK structure Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_STATE\_BLOCK\_MASK structure
@@ -580,9 +586,9 @@ A state-block mask indicates the device states that a pass or a technique change
 [Effects 11 Structures](d3d11-graphics-reference-effects11-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

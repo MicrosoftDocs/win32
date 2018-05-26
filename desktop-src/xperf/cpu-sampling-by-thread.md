@@ -1,7 +1,12 @@
 ---
 title: CPU Sampling by Thread
 description: CPU Sampling by Thread
-ms.assetid: 'def5484a-e4d0-4c83-a32f-63a986ed8c13'
+ms.assetid: def5484a-e4d0-4c83-a32f-63a986ed8c13
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPU Sampling by Thread

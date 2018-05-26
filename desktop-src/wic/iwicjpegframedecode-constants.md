@@ -1,12 +1,17 @@
-﻿---
-Description: 'Flags used by the WICJpegScanHeader and WICJpegFrameHeader.'
-ms.assetid: '6C0139F3-DA3E-4D7C-80D5-BC8C2D76C6A9'
+---
+Description: Flags used by the WICJpegScanHeader and WICJpegFrameHeader.
+ms.assetid: 6C0139F3-DA3E-4D7C-80D5-BC8C2D76C6A9
 title: IWICJpegFrameDecode Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICJpegFrameDecode Constants
 
-Flags used by the [**WICJpegScanHeader**](wicjpegscanheader.md) and [**WICJpegFrameHeader**](wicjpegframeheader.md).
+Flags used by the [**WICJpegScanHeader**](/windows/win32/wincodec/ns-wincodec-wicjpegscanheader?branch=master) and [**WICJpegFrameHeader**](/windows/win32/wincodec/ns-wincodec-wicjpegframeheader?branch=master).
 
 <dl> <dt>
 

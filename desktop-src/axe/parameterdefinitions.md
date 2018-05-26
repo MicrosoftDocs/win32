@@ -1,14 +1,20 @@
 ---
 title: ParameterDefinitions element
 description: A collection of ParameterDefinition elements.
-ms.assetid: '843B8FC1-C43C-45BA-A06E-EE8685D1BAF4'
-keywords: ["ParameterDefinitions element Access Execution Engine"]
+ms.assetid: 843B8FC1-C43C-45BA-A06E-EE8685D1BAF4
+keywords:
+- ParameterDefinitions element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ParameterDefinitions
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParameterDefinitions element
@@ -70,9 +76,9 @@ ParameterDefinition
 [**AXE Assessment Manifest**](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

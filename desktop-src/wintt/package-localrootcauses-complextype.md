@@ -1,14 +1,20 @@
 ---
 title: LocalRootcauses Complex Type
 description: Defines a collection of local root causes.
-ms.assetid: '94c00ae3-e59d-4ae0-80c4-1a1d7c76dd8f'
-keywords: ["LocalRootcauses complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 94c00ae3-e59d-4ae0-80c4-1a1d7c76dd8f
+keywords:
+- LocalRootcauses complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - LocalRootcauses
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LocalRootcauses Complex Type
@@ -43,8 +49,8 @@ Defines a collection of local root causes.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -55,9 +61,9 @@ Defines a collection of local root causes.
 [**Rootcauses (LocalDiagnosticPackage) Element**](package-rootcauses-localdiagnosticpackage-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

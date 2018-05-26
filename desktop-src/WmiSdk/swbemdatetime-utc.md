@@ -1,13 +1,16 @@
 ---
-Description: 'Gets or sets the Coordinated Universal Times (UTC) representation of the datetime value.'
+Description: Gets or sets the Coordinated Universal Times (UTC) representation of the datetime value.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '43d9d0c8-5521-410f-825b-6b00c3dd0039'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 43d9d0c8-5521-410f-825b-6b00c3dd0039
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemDateTime.UTC property'
+title: SWbemDateTime.UTC property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemDateTime.UTC property
@@ -52,8 +55,8 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -75,9 +78,9 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 [**DATETIME**](datetime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

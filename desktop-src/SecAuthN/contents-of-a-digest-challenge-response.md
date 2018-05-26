@@ -1,7 +1,12 @@
 ---
-Description: 'The client must send the server a Digest challenge response when it receives a Digest challenge in response to a request for a resource.'
-ms.assetid: 'a9a30255-a78a-41aa-9dfd-340902f4c550'
+Description: The client must send the server a Digest challenge response when it receives a Digest challenge in response to a request for a resource.
+ms.assetid: a9a30255-a78a-41aa-9dfd-340902f4c550
 title: Contents of a Digest Challenge Response
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Contents of a Digest Challenge Response

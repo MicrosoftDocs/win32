@@ -1,7 +1,12 @@
 ---
-Description: 'You can use the following instructions to configure COM+ application pooling values for your COM+ application.'
-ms.assetid: 'faba5cb7-745e-4fdf-a3e0-62132da4a843'
+Description: You can use the following instructions to configure COM+ application pooling values for your COM+ application.
+ms.assetid: faba5cb7-745e-4fdf-a3e0-62132da4a843
 title: Configuring COM+ Application Pooling Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring COM+ Application Pooling Values

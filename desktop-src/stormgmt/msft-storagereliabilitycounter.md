@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageReliabilityCounter class
 description: The MSFT\_StorageReliabilityCounter class provides reliability statistics or counters reported by a storage device.
-ms.assetid: 'A64126B3-0399-47A3-95E3-0755EE34C2C4'
-keywords: ["MSFT_StorageReliabilityCounter class Windows Storage Management API", "MSFT_StorageReliabilityCounter class Windows Storage Management API , described"]
+ms.assetid: A64126B3-0399-47A3-95E3-0755EE34C2C4
+keywords:
+- MSFT_StorageReliabilityCounter class Windows Storage Management API
+- MSFT_StorageReliabilityCounter class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageReliabilityCounter class
@@ -46,8 +53,8 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class MSFT_StorageReliabilityCounter : MSFT_StorageObject
 {
   String DeviceId;
-  UInt8  Temperature;
-  UInt8  TemperatureMax;
+  UInt8  Temperature;
+  UInt8  TemperatureMax;
   UInt64 ReadErrorsTotal;
   UInt64 ReadErrorsCorrected;
   UInt64 ReadErrorsUncorrected;
@@ -59,7 +66,7 @@ class MSFT_StorageReliabilityCounter : MSFT_StorageObject
   UInt32 StartStopCycleCountMax;
   UInt32 LoadUnloadCycleCount;
   UInt32 LoadUnloadCycleCountMax;
-  UInt8  Wear;
+  UInt8  Wear;
   UInt16 PowerOnHours;
   UInt64 ReadLatencyMax;
   UInt64 WriteLatencyMax;
@@ -86,7 +93,7 @@ The **MSFT\_StorageReliabilityCounter** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -347,8 +354,8 @@ Maximum latency experienced by a write request, in milliseconds. A value greater
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -367,9 +374,9 @@ Maximum latency experienced by a write request, in milliseconds. A value greater
 [**MSFT\_PhysicalDiskToStorageReliabilityCounter**](msft-physicaldisktostoragereliabilitycounter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

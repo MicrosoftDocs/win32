@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckConnect method determines whether a pin connection is suitable.'
-ms.assetid: '3dae5c6d-720e-4445-b601-3bdfe32f4c21'
-title: 'CTransformOutputPin.CheckConnect method'
+Description: The CheckConnect method determines whether a pin connection is suitable.
+ms.assetid: 3dae5c6d-720e-4445-b601-3bdfe32f4c21
+title: CTransformOutputPin.CheckConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformOutputPin.CheckConnect method
@@ -13,7 +18,7 @@ The `CheckConnect` method determines whether a pin connection is suitable.
 
 ```C++
 HRESULT CheckConnect(
-   IPin *pPin
+   IPin *pPin
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT CheckConnect(
 *pPin* 
 </dt> <dd>
 
-Pointer to the output pin's [**IPin**](ipin.md) interface.
+Pointer to the output pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 </dd> </dl>
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,9 +65,9 @@ This method overrides the [**CBaseOutputPin::CheckConnect**](cbaseoutputpin-chec
 
 
 
- 
+ 
 
- 
+ 
 
 
 

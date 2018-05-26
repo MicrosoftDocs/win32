@@ -1,7 +1,12 @@
 ---
-Description: 'Link to navigation page topic on using IP Helper.'
-ms.assetid: 'f852626d-1977-4a6a-8ef5-851b9effe6c6'
+Description: Link to navigation page topic on using IP Helper.
+ms.assetid: f852626d-1977-4a6a-8ef5-851b9effe6c6
 title: Using IP Helper
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using IP Helper

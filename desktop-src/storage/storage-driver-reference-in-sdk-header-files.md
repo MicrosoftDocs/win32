@@ -1,7 +1,12 @@
 ---
 title: Storage driver reference in SDK header files
 description: This section lists header files and reference used in storage drivers. The header files in this section are included in the Windows Software Development Kit (SDK).
-ms.assetid: 'D5C0A938-4A0C-4609-98ED-08FBD76B596B'
+ms.assetid: D5C0A938-4A0C-4609-98ED-08FBD76B596B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage driver reference in SDK header files

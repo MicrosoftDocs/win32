@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetXpsPart method retrieves several objects that make up an XPS document.'
-ms.assetid: '7e36cf90-a84a-447c-bec3-2b5175fffd7c'
-title: 'IXpsDocumentProvider::GetXpsPart method'
+---
+Description: The GetXpsPart method retrieves several objects that make up an XPS document.
+ms.assetid: 7e36cf90-a84a-447c-bec3-2b5175fffd7c
+title: IXpsDocumentProviderGetXpsPart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsDocumentProvider::GetXpsPart method

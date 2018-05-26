@@ -1,7 +1,12 @@
 ---
-Description: 'ICE73 verifies that your package does not reuse package codes, upgrade codes, or product codes of the Windows Installer SDK samples. Packages should never reuse the package, upgrade, or product codes of another product.'
-ms.assetid: 'a04429c2-ff9e-4ec8-8d07-faf1479f4920'
+Description: ICE73 verifies that your package does not reuse package codes, upgrade codes, or product codes of the Windows Installer SDK samples. Packages should never reuse the package, upgrade, or product codes of another product.
+ms.assetid: a04429c2-ff9e-4ec8-8d07-faf1479f4920
 title: ICE73
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE73

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ProductCode property of the Product object returns the ProductCode GUID of the product.'
-ms.assetid: 'f8edbaf3-1694-4049-8cbd-ded03bd5c336'
-title: 'Product.ProductCode property'
+---
+Description: The ProductCode property of the Product object returns the ProductCode GUID of the product.
+ms.assetid: f8edbaf3-1694-4049-8cbd-ded03bd5c336
+title: Product.ProductCode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product.ProductCode property

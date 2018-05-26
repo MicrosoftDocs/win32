@@ -1,12 +1,17 @@
 ---
 Description: Initializing the ContentInfo Object of a New ASF File
-ms.assetid: 'a4f6c90e-1b38-4c70-8bc5-e2e16af3d87a'
+ms.assetid: a4f6c90e-1b38-4c70-8bc5-e2e16af3d87a
 title: Initializing the ContentInfo Object of a New ASF File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Initializing the ContentInfo Object of a New ASF File
 
-After creating an empty ContentInfo object by calling the [**MFCreateASFContentInfo**](mfcreateasfcontentinfo.md) function, the application must call [**IMFASFContentInfo::SetProfile**](imfasfcontentinfo-setprofile.md) to provide the encoding profile. For information about creating a profile, see [Creating an ASF Profile](creating-an-asf-profile.md).
+After creating an empty ContentInfo object by calling the [**MFCreateASFContentInfo**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfcontentinfo?branch=master) function, the application must call [**IMFASFContentInfo::SetProfile**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-setprofile?branch=master) to provide the encoding profile. For information about creating a profile, see [Creating an ASF Profile](creating-an-asf-profile.md).
 
 Before information can be read from the profile, the **SetProfile** method must validate the specified profile object by checking the stream identifiers or media types. If the profile passes the validation, various header objects are generated, such as the File Properties Object, the Stream Bitrate Properties Object, the Stream Properties Object, and the Mutual Exclusion Object.
 
@@ -18,7 +23,7 @@ The specified profile object replaces any existing profile associated with the C
 
 The **SetProfile** method also creates the data object that represents the ASF Data Object. If you reuse a ContentInfo object that includes information about any data packets, **SetProfile** fails and returns the MF\_E\_ALREADY\_INITIALIZED error indicating that it is already associated with an existing ASF Data Object. By default, for a new ContentInfo object, the data packet count is set to zero and the data object size is set to 50 bytes. If you use the multiplexer to generate data packets, the multiplexer updates the ContentInfo object to reflect new values such as the data packet count. For more information about data packet generation, see [Generating New ASF Data Packets](generating-new-asf-data-packets.md).
 
-After all the Header Objects are added to the final ASF Header Object, the total header size can be retrieved by calling [**IMFASFContentInfo::GetHeaderSize**](imfasfcontentinfo-getheadersize.md). This size includes the initial data object size.
+After all the Header Objects are added to the final ASF Header Object, the total header size can be retrieved by calling [**IMFASFContentInfo::GetHeaderSize**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getheadersize?branch=master). This size includes the initial data object size.
 
 ## Related topics
 

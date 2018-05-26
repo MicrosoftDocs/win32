@@ -1,8 +1,11 @@
 ---
 title: Network.setProxySettings method
 description: The setProxySettings method specifies the proxy setting for a given protocol.
-ms.assetid: '3ce07bf8-8521-4240-9859-3bf790ccbf48'
-keywords: ["setProxySettings method Windows Media Player", "setProxySettings method Windows Media Player , Network class", "Network class Windows Media Player , setProxySettings method"]
+ms.assetid: 3ce07bf8-8521-4240-9859-3bf790ccbf48
+keywords:
+- setProxySettings method Windows Media Player
+- setProxySettings method Windows Media Player , Network class
+- Network class Windows Media Player , setProxySettings method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.setProxySettings method
@@ -56,7 +64,7 @@ Network.setProxySettings(
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -114,9 +122,9 @@ The following example uses JScript with an HTML SELECT **element to allow the us
 [**Network Object**](network-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

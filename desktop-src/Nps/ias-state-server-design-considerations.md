@@ -4,10 +4,13 @@ description: Depending on your design, you may need a server to track the users 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2f8d268b-5518-4ad2-aed6-5971c913db6d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 2f8d268b-5518-4ad2-aed6-5971c913db6d
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # State Server Design Considerations

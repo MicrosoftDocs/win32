@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_Thread&\#8194;WMI class represents a thread of execution.'
+---
+Description: The Win32\_Thread&\#8194;WMI class represents a thread of execution.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a284616c-1977-441a-9173-dff4f56b2d39'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a284616c-1977-441a-9173-dff4f56b2d39
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_Thread class'
+title: Win32\_Thread class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_Thread class

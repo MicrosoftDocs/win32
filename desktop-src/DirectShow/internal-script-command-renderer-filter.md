@@ -1,7 +1,12 @@
 ---
 Description: Internal Script Command Renderer Filter
-ms.assetid: '264cc7c3-987c-4832-85a2-087278a4d024'
+ms.assetid: 264cc7c3-987c-4832-85a2-087278a4d024
 title: Internal Script Command Renderer Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Internal Script Command Renderer Filter
@@ -27,7 +32,7 @@ For an example of how to use this filter, see [SAMI (CC) Parser](sami--cc--parse
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IBaseFilter</strong>](ibasefilter.md), [<strong>IMediaPosition</strong>](imediaposition.md), [<strong>IMediaSeeking</strong>](imediaseeking.md)</td>
+<td>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [<strong>IMediaPosition</strong>](/windows/win32/Control/nn-control-imediaposition?branch=master), [<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -38,7 +43,7 @@ For an example of how to use this filter, see [SAMI (CC) Parser](sami--cc--parse
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IMemInputPin</strong>](imeminputpin.md), [<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IMemInputPin</strong>](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>

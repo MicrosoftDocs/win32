@@ -1,8 +1,11 @@
 ---
 title: IAdminIndexServer IsRunning method
 description: Determines whether Indexing Service is currently running.
-ms.assetid: '83974ab8-2424-4b66-a16d-fa10d29b1f0f'
-keywords: ["IsRunning method Indexing Service", "IsRunning method Indexing Service , IAdminIndexServer interface", "IAdminIndexServer interface Indexing Service , IsRunning method"]
+ms.assetid: 83974ab8-2424-4b66-a16d-fa10d29b1f0f
+keywords:
+- IsRunning method Indexing Service
+- IsRunning method Indexing Service , IAdminIndexServer interface
+- IAdminIndexServer interface Indexing Service , IsRunning method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Ciodm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAdminIndexServer::IsRunning method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Determines whether Indexing Service is currently running.
 
@@ -24,7 +32,7 @@ Determines whether Indexing Service is currently running.
 
 ```C++
 HRESULT IsRunning(
-  [out, retval] VARIANT_BOOL *pfIsRunning
+  [out, retval] VARIANT_BOOL *pfIsRunning
 );
 ```
 
@@ -51,10 +59,10 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -66,9 +74,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IAdminIndexServer**](iadminindexserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

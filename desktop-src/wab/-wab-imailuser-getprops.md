@@ -1,8 +1,11 @@
 ---
 title: IMailUser GetProps method
 description: Retrieves property values from a mail user object.
-ms.assetid: '40b09d3a-693d-4760-ae51-0d9f3ee28947'
-keywords: ["GetProps method Windows Address Book", "GetProps method Windows Address Book , IMailUser interface", "IMailUser interface Windows Address Book , GetProps method"]
+ms.assetid: 40b09d3a-693d-4760-ae51-0d9f3ee28947
+keywords:
+- GetProps method Windows Address Book
+- GetProps method Windows Address Book , IMailUser interface
+- IMailUser interface Windows Address Book , GetProps method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMailUser::GetProps method
@@ -22,10 +30,10 @@ Retrieves property values from a mail user object.
 
 ```C++
 HRESULT GetProps(
-   SPropTagArray *lpPropTagArray,
-   ULONG         ulFlags,
-   ULONG         *lpcValues,
-   SPropValue    **lppPropArray
+   SPropTagArray *lpPropTagArray,
+   ULONG         ulFlags,
+   ULONG         *lpcValues,
+   SPropValue    **lppPropArray
 );
 ```
 
@@ -38,9 +46,9 @@ HRESULT GetProps(
 *lpPropTagArray* 
 </dt> <dd>
 
-Type: **[**SPropTagArray**](-wab-sproptagarray.md)\***
+Type: **[**SPropTagArray**](/windows/previous-versions/Wabdefs/ns-wabdefs-_sproptagarray?branch=master)\***
 
-Pointer to a variable of type [**SPropTagArray**](-wab-sproptagarray.md) that specifies the properties to be retrieved.
+Pointer to a variable of type [**SPropTagArray**](/windows/previous-versions/Wabdefs/ns-wabdefs-_sproptagarray?branch=master) that specifies the properties to be retrieved.
 
 <dt>
 
@@ -98,9 +106,9 @@ May be passed if no count is desired.
 *lppPropArray* 
 </dt> <dd>
 
-Type: **[**SPropValue**](-wab-spropvalue.md)\*\***
+Type: **[**SPropValue**](/windows/previous-versions/Wabdefs/ns-wabdefs-_spropvalue?branch=master)\*\***
 
-Address of a pointer to a variable of type [**SPropValue**](-wab-spropvalue.md) that receives the property values. The variable must be freed by the client.
+Address of a pointer to a variable of type [**SPropValue**](/windows/previous-versions/Wabdefs/ns-wabdefs-_spropvalue?branch=master) that receives the property values. The variable must be freed by the client.
 
 </dd> </dl>
 
@@ -119,11 +127,11 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
-If zero was passed in the cValues member of the [**SPropTagArray**](-wab-sproptagarray.md) structure to which *lpPropTagArray* points, the method returns MAPI\_E\_INVALID\_PARAMETER.
+If zero was passed in the cValues member of the [**SPropTagArray**](/windows/previous-versions/Wabdefs/ns-wabdefs-_sproptagarray?branch=master) structure to which *lpPropTagArray* points, the method returns MAPI\_E\_INVALID\_PARAMETER.
 
 ## Requirements
 
@@ -131,8 +139,8 @@ If zero was passed in the cValues member of the [**SPropTagArray**](-wab-spropta
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Internet Explorer 4.0<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Wabtmp.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Wab32.dll</dt> </dl> |
@@ -143,15 +151,15 @@ If zero was passed in the cValues member of the [**SPropTagArray**](-wab-spropta
 
 <dl> <dt>
 
-[**IMailUser**](-wab-imailuser.md)
+[**IMailUser**](/windows/previous-versions/wabdefs/?branch=master)
 </dt> <dt>
 
 [**SetProps**](-wab-idistlist-setprops.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

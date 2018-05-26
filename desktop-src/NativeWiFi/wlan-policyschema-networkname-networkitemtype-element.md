@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the service set identifier (SSID) of a wireless network.'
-ms.assetid: '103808f2-9e5f-4605-b42a-337a13455294'
-title: 'networkName (networkItemType) Element'
+---
+Description: Specifies the service set identifier (SSID) of a wireless network.
+ms.assetid: 103808f2-9e5f-4605-b42a-337a13455294
+title: networkName (networkItemType) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # networkName (networkItemType) Element

@@ -4,11 +4,14 @@ description: The GetHalfLlightRGB method derives a \ 0034;lighter \ 0034; color 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6f74847d-2a9a-409a-a3ff-3f5e49c9a5e6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 6f74847d-2a9a-409a-a3ff-3f5e49c9a5e6
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetHalfLightRGB method MMC", "GetHalfLightRGB method MMC , SysColorCtrl class", "SysColorCtrl class MMC , GetHalfLightRGB method"]
+keywords:
+- GetHalfLightRGB method MMC
+- GetHalfLightRGB method MMC , SysColorCtrl class
+- SysColorCtrl class MMC , GetHalfLightRGB method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SysColorCtrl.GetHalfLightRGB method
@@ -101,9 +107,9 @@ An integer that is the RGB value for the derived color specified by the method's
 
 
 
- 
+ 
 
- 
+ 
 
 
 

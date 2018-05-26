@@ -1,8 +1,9 @@
 ---
 title: WM\_DDE\_REQUEST message
 description: A Dynamic Data Exchange (DDE) client application posts a WM\_DDE\_REQUEST message to a DDE server application to request the value of a data item. To post this message, call the PostMessage function with the following parameters.
-ms.assetid: '922452d2-455c-43e1-a8a8-e3c52b0fab51'
-keywords: ["WM_DDE_REQUEST message Data Exchange"]
+ms.assetid: 922452d2-455c-43e1-a8a8-e3c52b0fab51
+keywords:
+- WM_DDE_REQUEST message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Dde.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DDE\_REQUEST message
@@ -50,7 +56,7 @@ The high-order word contains an atom that identifies the data item requested fro
 
 ### Posting
 
-The client application allocates the atom by calling the [**GlobalAddAtom**](globaladdatom.md) function.
+The client application allocates the atom by calling the [**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master) function.
 
 ### Receiving
 
@@ -64,8 +70,8 @@ When responding with either a [**WM\_DDE\_DATA**](wm-dde-data.md) or [**WM\_DDE\
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>Dde.h (include Windows.h)</dt> </dl> |
 
 
@@ -77,22 +83,22 @@ When responding with either a [**WM\_DDE\_DATA**](wm-dde-data.md) or [**WM\_DDE\
 **Reference**
 </dt> <dt>
 
-[**GlobalAddAtom**](globaladdatom.md)
+[**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master)
 </dt> <dt>
 
-[**PackDDElParam**](packddelparam.md)
+[**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master)
 </dt> <dt>
 
 [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944)
 </dt> <dt>
 
-[**ReuseDDElParam**](reuseddelparam.md)
+[**ReuseDDElParam**](/windows/win32/Dde/nf-dde-reuseddelparam?branch=master)
 </dt> <dt>
 
 [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
 </dt> <dt>
 
-[**UnpackDDElParam**](unpackddelparam.md)
+[**UnpackDDElParam**](/windows/win32/Dde/nf-dde-unpackddelparam?branch=master)
 </dt> <dt>
 
 [**WM\_DDE\_ACK**](wm-dde-ack.md)
@@ -107,9 +113,9 @@ When responding with either a [**WM\_DDE\_DATA**](wm-dde-data.md) or [**WM\_DDE\
 [About Dynamic Data Exchange](about-dynamic-data-exchange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

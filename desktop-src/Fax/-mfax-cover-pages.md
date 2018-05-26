@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes cover pages.'
-ms.assetid: '37bbff77-08a8-486f-ac26-d7b69a936e05'
+Description: This topic describes cover pages.
+ms.assetid: 37bbff77-08a8-486f-ac26-d7b69a936e05
 title: Cover Pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cover Pages
@@ -22,9 +27,9 @@ Users can add personal cover page files using the fax control panel application.
 
 CSIDL\_PERSONAL\\Fax\\Personal Coverpages
 
-Additionally, in the Microsoft Win32 environment, if the user specifies a common cover page file, you must set the **UseServerCoverPage** member of the [**FAX\_COVERPAGE\_INFO**](-mfax-fax-coverpage-info-str.md) structure to **TRUE**. In the Component Object Model (COM) implementation environment, you must set the [**FaxDoc.ServerCoverpage Property**](-mfax-ifaxdoc-get-servercoverpage-vb.md) equal to **TRUE**.
+Additionally, in the Microsoft Win32 environment, if the user specifies a common cover page file, you must set the **UseServerCoverPage** member of the [**FAX\_COVERPAGE\_INFO**](/windows/previous-versions/Winfax/ns-winfax-_fax_coverpage_infoa?branch=master) structure to **TRUE**. In the Component Object Model (COM) implementation environment, you must set the [**FaxDoc.ServerCoverpage Property**](-mfax-ifaxdoc-get-servercoverpage-vb.md) equal to **TRUE**.
 
-A fax client application can call the [**FaxPrintCoverPage**](-mfax-faxprintcoverpage.md) function to print a cover page to a fax printer device context. For more information, see [Printing a Fax to a Device Context](-mfax-printing-a-fax-to-a-device-context.md) and [Sending a Cover Page](-mfax-sending-a-cover-page.md). For more information about folders in the user profile, see [SHGetSpecialFolderLocation](http://msdn.microsoft.com/library/en-us/shellcc/platform/shell/reference/functions/shgetspecialfolderlocation.asp).
+A fax client application can call the [**FaxPrintCoverPage**](/windows/previous-versions/Winfax/nf-winfax-faxprintcoverpagea?branch=master) function to print a cover page to a fax printer device context. For more information, see [Printing a Fax to a Device Context](-mfax-printing-a-fax-to-a-device-context.md) and [Sending a Cover Page](-mfax-sending-a-cover-page.md). For more information about folders in the user profile, see [SHGetSpecialFolderLocation](http://msdn.microsoft.com/library/en-us/shellcc/platform/shell/reference/functions/shgetspecialfolderlocation.asp).
 
  
 

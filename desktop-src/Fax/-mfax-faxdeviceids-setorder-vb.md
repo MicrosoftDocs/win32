@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetOrder method changes the order of a device in the ordered FaxDeviceIds collection.'
-ms.assetid: '02b4bc41-7c7c-4c4d-a2dc-e86fec6aaa19'
-title: 'FaxDeviceIds.SetOrder method'
+---
+Description: The SetOrder method changes the order of a device in the ordered FaxDeviceIds collection.
+ms.assetid: 02b4bc41-7c7c-4c4d-a2dc-e86fec6aaa19
+title: FaxDeviceIds.SetOrder method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceIds.SetOrder method
@@ -48,7 +53,7 @@ You identify the device with its device ID, and then choose a new place for it i
 
 In a fax device group, the relative order of the devices within the group is significant. When the fax service initiates an outgoing job, it attempts to select the first fax device in the device group. If that device is not available, the service selects the next available device that follows in rank order, and so on. For more information, see [Fax Device Groups](-mfax-fax-device-groups.md).
 
-To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farMANAGE\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -73,7 +78,7 @@ To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-a
 [**FaxDeviceIds**](-mfax-faxdeviceids.md)
 </dt> <dt>
 
-[**IFaxDeviceIds**](-mfax-faxdeviceids-cpp.md)
+[**IFaxDeviceIds**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceids?branch=master)
 </dt> </dl>
 
  

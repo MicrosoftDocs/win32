@@ -1,7 +1,12 @@
 ---
 Description: Obtaining the DVD Interface Pointers
-ms.assetid: '3d9315fc-dcfb-483a-9437-55c440813dc2'
+ms.assetid: 3d9315fc-dcfb-483a-9437-55c440813dc2
 title: Obtaining the DVD Interface Pointers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining the DVD Interface Pointers

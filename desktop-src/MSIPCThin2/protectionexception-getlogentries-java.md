@@ -4,17 +4,21 @@ description: Gets the available log entries and removes them from the internal q
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '468E75E1-15E4-4C77-8D81-B3FD4FEAE890'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 468E75E1-15E4-4C77-8D81-B3FD4FEAE890
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectionException.getLogEntries method"]
+keywords:
+- ProtectionException.getLogEntries method
 topic_type:
 - apiref
 api_name:
 - ProtectionException.getLogEntries method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectionException.getLogEntries method
@@ -52,15 +56,15 @@ ProtectionException.java
 
 
 
- 
+ 
 
 ## Package
 
 com.microsoft.rightsmanagement.exceptions
 
- 
+ 
 
- 
+ 
 
 
 

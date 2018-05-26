@@ -1,7 +1,12 @@
 ---
-Description: 'Texture format DXT1 is for textures that are opaque or have a single transparent color.'
-ms.assetid: 'a890ed0a-1f68-45b8-93cb-b621d1908d9f'
-title: 'Opaque and 1-Bit Alpha Textures (Direct3D 9)'
+Description: Texture format DXT1 is for textures that are opaque or have a single transparent color.
+ms.assetid: a890ed0a-1f68-45b8-93cb-b621d1908d9f
+title: Opaque and 1-Bit Alpha Textures (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opaque and 1-Bit Alpha Textures (Direct3D 9)

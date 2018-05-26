@@ -1,12 +1,17 @@
 ---
-Description: 'Retrieves the list of available DDE shares.'
-ms.assetid: 'ce5aeddd-d9d1-40a2-a807-1a9c9f98f171'
+Description: Retrieves the list of available DDE shares.
+ms.assetid: ce5aeddd-d9d1-40a2-a807-1a9c9f98f171
 title: NDdeShareEnum function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDdeShareEnum function
 
-\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
+\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
 
 Retrieves the list of available DDE shares.
 
@@ -15,12 +20,12 @@ Retrieves the list of available DDE shares.
 
 ```C++
 UINT NDdeShareEnum(
-  _In_  LPTSTR  lpszServer,
-  _In_  UINT    nLevel,
-  _Out_ LPBYTE  lpBuffer,
-  _In_  DWORD   cBufSize,
-  _Out_ LPDWORD lpnEntriesRead,
-  _Out_ LPDWORD lpcbTotalAvailable
+  _In_  LPTSTR  lpszServer,
+  _In_  UINT    nLevel,
+  _Out_ LPBYTE  lpBuffer,
+  _In_  DWORD   cBufSize,
+  _Out_ LPDWORD lpnEntriesRead,
+  _Out_ LPDWORD lpcbTotalAvailable
 );
 ```
 
@@ -84,8 +89,8 @@ If the function fails, the return value is an error code, which can be translate
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Nddeapi.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Nddeapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nddeapi.dll</dt> </dl> |
@@ -103,9 +108,9 @@ If the function fails, the return value is an error code, which can be translate
 [Network DDE Functions](network-dde-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

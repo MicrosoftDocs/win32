@@ -1,7 +1,12 @@
 ---
-Description: 'Determines whether an input device supports multitouch.'
-ms.assetid: '4fef7060-2235-4bee-a37b-40d827732b30'
-title: 'ITablet3::IsMultiTouch method'
+Description: Determines whether an input device supports multitouch.
+ms.assetid: 4fef7060-2235-4bee-a37b-40d827732b30
+title: ITablet3IsMultiTouch method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITablet3::IsMultiTouch method
@@ -13,7 +18,7 @@ Determines whether an input device supports multitouch.
 
 ```C++
 HRESULT IsMultiTouch(
-  [out] BOOL *bIsMultiTouch
+  [out] BOOL *bIsMultiTouch
 );
 ```
 
@@ -36,7 +41,7 @@ Returns **S\_OK** on success, otherwise returns an error code such as **E\_FAIL*
 
 ## Remarks
 
-After determining through [**IRealTimeStylus3::MultiTouchEnabled**](irealtimestylus3-multitouchenabled.md) or **ITablet3::IsMultiTouch** that multitouch is available, an application may choose to opt in for multitouch input messages. Additional information on filtering multitouch methods is available in the **IRealTimeStylus3::MultiTouchEnabled** property section.
+After determining through [**IRealTimeStylus3::MultiTouchEnabled**](/windows/win32/rtscom/nf-rtscom-irealtimestylus3-get_multitouchenabled?branch=master) or **ITablet3::IsMultiTouch** that multitouch is available, an application may choose to opt in for multitouch input messages. Additional information on filtering multitouch methods is available in the **IRealTimeStylus3::MultiTouchEnabled** property section.
 
 ## Examples
 
@@ -55,8 +60,8 @@ spITablet3->get_IsMultiTouch(&amp;b);
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
 
@@ -68,12 +73,12 @@ spITablet3->get_IsMultiTouch(&amp;b);
 [**ITablet3**](itablet3.md)
 </dt> <dt>
 
-[**MultiTouchEnabled**](irealtimestylus3-multitouchenabled.md)
+[**MultiTouchEnabled**](/windows/win32/rtscom/nf-rtscom-irealtimestylus3-get_multitouchenabled?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

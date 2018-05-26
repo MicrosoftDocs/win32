@@ -1,8 +1,9 @@
 ---
 title: DVBSystemType enumeration
 description: Specifies the type of Digital Video Broadcasting (DVB) system supported in a tuning space.
-ms.assetid: 'b547ace8-5c6d-43c1-bfa8-2dd162227730'
-keywords: ["DVBSystemType enumeration Microsoft TV Technologies"]
+ms.assetid: b547ace8-5c6d-43c1-bfa8-2dd162227730
+keywords:
+- DVBSystemType enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVBSystemType enumeration
@@ -22,9 +28,9 @@ Specifies the type of Digital Video Broadcasting (DVB) system supported in a tun
 
 ```C++
 typedef enum DVBSystemType { 
-  DVB_Cable        = 0,
-  DVB_Terrestrial  = 1,
-  DVB_Satellite    = 2
+  DVB_Cable        = 0,
+  DVB_Terrestrial  = 1,
+  DVB_Satellite    = 2
 } DVBSystemType;
 ```
 
@@ -69,15 +75,15 @@ Indicates a satellite DVB system (DVB-S).
 
 <dl> <dt>
 
-[**IDVBTuningSpace::get\_SystemType**](idvbtuningspace-get-systemtype.md)
+[**IDVBTuningSpace::get\_SystemType**](/windows/previous-versions/tuner/nf-tuner-idvbtuningspace-get_systemtype?branch=master)
 </dt> <dt>
 
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

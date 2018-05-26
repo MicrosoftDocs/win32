@@ -1,8 +1,14 @@
 ---
 title: The type\_UserSize Function
 description: The type \_UserSize function is a helper function for the \ wire\_marshal\ and \ user\_marshal\ attributes.
-ms.assetid: '74a46418-1a02-47ed-a3ab-35f3364cc38f'
-keywords: ["type_UserSize"]
+ms.assetid: 74a46418-1a02-47ed-a3ab-35f3364cc38f
+keywords:
+- type_UserSize
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The type\_UserSize Function

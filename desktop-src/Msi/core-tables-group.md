@@ -1,7 +1,12 @@
 ---
-Description: 'For more information about the following diagram, see the entity relationship diagram legend.'
-ms.assetid: 'ec4f585d-cbd5-4c25-aaf4-1c1333fd4587'
+Description: For more information about the following diagram, see the entity relationship diagram legend.
+ms.assetid: ec4f585d-cbd5-4c25-aaf4-1c1333fd4587
 title: Core Tables Group
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Core Tables Group

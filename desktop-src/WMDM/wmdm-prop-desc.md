@@ -1,8 +1,9 @@
 ---
 title: WMDM\_PROP\_DESC structure
 description: The WMDM\_PROP\_DESC structure describes valid values of a property in a particular property configuration.
-ms.assetid: 'e4766e1e-6c1b-4a2d-ad2e-c07035ca2be2'
-keywords: ["WMDM_PROP_DESC structure windows Media Device Manager"]
+ms.assetid: e4766e1e-6c1b-4a2d-ad2e-c07035ca2be2
+keywords:
+- WMDM_PROP_DESC structure windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDM\_PROP\_DESC structure
@@ -22,12 +28,12 @@ The **WMDM\_PROP\_DESC** structure describes valid values of a property in a par
 
 ```C++
 typedef struct _WMDM_PROP_DESC {
-  LPWSTR                           pwszPropName;
+  LPWSTR                           pwszPropName;
   WMDM_ENUM_PROP_VALID_VALUES_FORM ValidValuesForm;
   union  {
     WMDM_PROP_VALUES_RANGE ValidValuesRange;
-    WMDM_PROP_VALUES_ENUM  EnumeratedValidValues;
-  } ValidValues;
+    WMDM_PROP_VALUES_ENUM  EnumeratedValidValues;
+  } ValidValues;
 } WMDM_PROP_DESC;
 ```
 
@@ -92,7 +98,7 @@ The caller is required to free the memory used by **ValidValuesRange** or **Enum
 
 <dl> <dt>
 
-[**IWMDMDevice3::GetFormatCapability**](iwmdmdevice3-getformatcapability.md)
+[**IWMDMDevice3::GetFormatCapability**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability?branch=master)
 </dt> <dt>
 
 [**WMDM\_ENUM\_PROP\_VALID\_VALUES\_FORM**](wmdm-enum-prop-valid-values-form.md)
@@ -113,9 +119,9 @@ The caller is required to free the memory used by **ValidValuesRange** or **Enum
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

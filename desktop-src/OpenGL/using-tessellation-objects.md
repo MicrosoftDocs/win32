@@ -1,8 +1,16 @@
 ---
 title: Using Tessellation Objects
 description: As a complex polygon is being described and tessellated, it requires associated data, such as the vertices, edges, and callback functions.
-ms.assetid: 'b6102e25-280c-4d0d-9350-d0038d1a0306'
-keywords: ["OpenGL Utility (GLU),tessellation objects", "GLU (OpenGL Utility),tessellation objects", "tessellation objects OpenGL"]
+ms.assetid: b6102e25-280c-4d0d-9350-d0038d1a0306
+keywords:
+- OpenGL Utility (GLU),tessellation objects
+- GLU (OpenGL Utility),tessellation objects
+- tessellation objects OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Tessellation Objects

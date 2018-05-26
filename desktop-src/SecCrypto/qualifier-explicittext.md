@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the content of the user notice.'
-ms.assetid: 'dcf73357-253d-4160-be4e-f826296f5eaa'
-title: 'Qualifier.ExplicitText property'
+---
+Description: Retrieves the content of the user notice.
+ms.assetid: dcf73357-253d-4160-be4e-f826296f5eaa
+title: Qualifier.ExplicitText property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Qualifier.ExplicitText property

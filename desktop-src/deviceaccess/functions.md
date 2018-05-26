@@ -1,7 +1,12 @@
 ---
 title: Functions
 description: Functions in the Device Access API.
-ms.assetid: 'DCD5DAD6-E8C2-4EA4-AE66-A47AE0759ED0'
+ms.assetid: DCD5DAD6-E8C2-4EA4-AE66-A47AE0759ED0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Functions
@@ -14,11 +19,11 @@ Functions in the Device Access API.
 
 | Topic                                                                       | Description                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateDeviceAccessInstance**](createdeviceaccessinstance.md)<br/> | Creates the object that's used to access a device. The instantiated object implements the [**IDeviceIoControl**](ideviceiocontrol.md) and [**ICreateDeviceAccessAsync**](icreatedeviceaccessasync.md) interfaces.<br/> |
+| [**CreateDeviceAccessInstance**](/windows/previous-versions/deviceaccess/nf-deviceaccess-createdeviceaccessinstance?branch=master)<br/> | Creates the object that's used to access a device. The instantiated object implements the [**IDeviceIoControl**](/windows/previous-versions/Deviceaccess/nn-deviceaccess-ideviceiocontrol?branch=master) and [**ICreateDeviceAccessAsync**](/windows/previous-versions/Deviceaccess/nn-deviceaccess-icreatedeviceaccessasync?branch=master) interfaces.<br/> |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -45,9 +50,9 @@ Functions in the Device Access API.
 [Device Experience for Windows 8](http://go.microsoft.com/fwlink/p/?linkid=241442)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

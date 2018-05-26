@@ -1,7 +1,12 @@
 ---
 title: Best Practices
 description: This section contains a list of best practices for ensuring that Indexing Service is configured for optimal performance and security.
-ms.assetid: 'c379bceb-18f4-48ec-b1df-d78859d45f86'
+ms.assetid: c379bceb-18f4-48ec-b1df-d78859d45f86
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Best Practices

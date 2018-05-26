@@ -1,14 +1,20 @@
 ---
 title: VIEW.maximize
 description: The maximize method maximizes the VIEW.
-ms.assetid: 'c419f7a8-e340-4b67-a5f0-967ed6794aa6'
-keywords: ["VIEW.maximize Windows Media Player"]
+ms.assetid: c419f7a8-e340-4b67-a5f0-967ed6794aa6
+keywords:
+- VIEW.maximize Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.maximize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.maximize
@@ -62,9 +68,9 @@ This method does not return a value.
 [**VIEW.minimize**](view-minimize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

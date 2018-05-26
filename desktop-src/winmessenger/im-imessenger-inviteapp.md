@@ -1,8 +1,11 @@
 ---
 title: IMessenger InviteApp method
 description: Issues an invitation to a user to use a specified application.
-ms.assetid: '5190329f-9f36-41f8-be6c-bf808a515c9a'
-keywords: ["InviteApp method Windows Messenger", "InviteApp method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , InviteApp method"]
+ms.assetid: 5190329f-9f36-41f8-be6c-bf808a515c9a
+keywords:
+- InviteApp method Windows Messenger
+- InviteApp method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , InviteApp method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::InviteApp method
 
-\[**InviteApp** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**InviteApp** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Issues an invitation to a user to use a specified application.
 
@@ -24,9 +32,9 @@ Issues an invitation to a user to use a specified application.
 
 ```C++
 HRESULT InviteApp(
-  [in]          VARIANT   vContact,
-  [in]          BSTR      bstrAppID,
-  [out, retval] IDispatch **ppMWindow
+  [in]          VARIANT   vContact,
+  [in]          BSTR      bstrAppID,
+  [out, retval] IDispatch **ppMWindow
 );
 ```
 
@@ -43,8 +51,8 @@ Type: **VARIANT**
 
 A **VARIANT** that designates a particular contact. This **VARIANT** should be either:
 
--   A **VT\_BSTR** **VARIANT** that contains the sign-in name of the contact.
--   A **VT\_DISPATCH** **VARIANT** that contains a pointer to a [**MessengerContact**](im-messengercontact.md) object that has already been established for a particular contact.
+-   A **VT\_BSTR** **VARIANT** that contains the sign-in name of the contact.
+-   A **VT\_DISPATCH** **VARIANT** that contains a pointer to a [**MessengerContact**](im-messengercontact.md) object that has already been established for a particular contact.
 
 </dd> <dt>
 
@@ -55,7 +63,7 @@ Type: **BSTR**
 
 The GUID in **BSTR** form used to register the application that the remote user is being invited to share. This corresponds to the values set in the system registry during the installation of that application.
 
-**Important**  To parse the GUID, you must include the curly braces { } on either side as part of this string. This parameter is a string, not a GUID structure, so it works in scripting.
+**Important**  To parse the GUID, you must include the curly braces { } on either side as part of this string. This parameter is a string, not a GUID structure, so it works in scripting.
 
 </dd> <dt>
 
@@ -86,11 +94,11 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
-This interface is supported for contacts on Microsoft .NET Messenger Service as well as Microsoft Exchange Instant Messaging Service (IM).
+This interface is supported for contacts on Microsoft .NET Messenger Service as well as Microsoft Exchange Instant Messaging Service (IM).
 
 If a conversation window is already open to a session with the user specified by *vContact* (and *ppMWindow* has not been released), no new window is displayed, no specific HResult is returned (returns S\_OK), and the existing window instance will be referenced by the [IDispatch](c1accca9-971c-4435-8a5e-e25404a3fb25) pointer in the return value.
 
@@ -100,14 +108,14 @@ All windows will be closed if the client signs out. If the client goes offline, 
 
 A client cannot open a message or invitation to the local client user. This will result in E\_FAIL. This is also enforced by the UI. Check [**IsSelf**](im-imessengercontact-isself.md) or do a string comparison of *vContact* and [**MySigninName**](im-imessenger-mysigninname.md).
 
-To determine valid applications on the inviting client, Windows Messenger code scans the registry and checks for DirectPlay compatibility associated with the given GUID. Currently, the only application not compatible with DirectPlay that can be used for invitations is Microsoft NetMeeting. Use the Windows 95 Active Setup GUID, {44BBA842-CC51-11CF-AAFA-00AA00B6015C}, even if the client platform is Microsoft Windows NT or Windows 2000 (which normally registers a Windows NT-specific GUID for NetMeeting).
+To determine valid applications on the inviting client, Windows Messenger code scans the registry and checks for DirectPlay compatibility associated with the given GUID. Currently, the only application not compatible with DirectPlay that can be used for invitations is Microsoft NetMeeting. Use the Windows 95 Active Setup GUID, {44BBA842-CC51-11CF-AAFA-00AA00B6015C}, even if the client platform is Microsoft Windows NT or Windows 2000 (which normally registers a Windows NT-specific GUID for NetMeeting).
 
 *ppMWindow* should be released when it is no longer needed.
 
 > [!Note]  
 > This method is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -115,17 +123,17 @@ To determine valid applications on the inviting client, Windows Messenger code s
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

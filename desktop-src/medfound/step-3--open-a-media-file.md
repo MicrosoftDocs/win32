@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is step 3 of the tutorial How to Play Media Files with Media Foundation.'
-ms.assetid: 'cc0d2b60-64d7-49f3-844f-97487cab8466'
-title: 'Step 3: Open a Media File'
+Description: This topic is step 3 of the tutorial How to Play Media Files with Media Foundation.
+ms.assetid: cc0d2b60-64d7-49f3-844f-97487cab8466
+title: Step 3 Open a Media File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 3: Open a Media File
@@ -82,11 +87,11 @@ This method performs the following steps:
 
 1.  Calls **CPlayer::CreateSession** to create a new instance of the Media Session. See [Step 4: Create the Media Session](step-4--create-the-media-session.md).
 2.  Creates a media source from the URL. The complete code for this step is shown in the topic [Using the Source Resolver](using-the-source-resolver.md).
-3.  Calls [**IMFMediaSource::CreatePresentationDescriptor**](imfmediasource-createpresentationdescriptor.md) to get the media source's presentation descriptor. The presentation descriptor describes each streams in the source file.
+3.  Calls [**IMFMediaSource::CreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor?branch=master) to get the media source's presentation descriptor. The presentation descriptor describes each streams in the source file.
 4.  Creates the playback topology. Code for this step is shown in the topic [Creating Playback Topologies](creating-playback-topologies.md).
-5.  Calls [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) to set the topology on the Media Session.
+5.  Calls [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) to set the topology on the Media Session.
 
-The [**SetTopology**](imfmediasession-settopology.md) method completes asynchronously. When it completes, the CPlayer object's [**IMFAsyncCallback::Invoke**](imfasynccallback-invoke.md) method is called; see [Step 5: Handle Media Session Events](step-5--handle-media-session-events.md).
+The [**SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) method completes asynchronously. When it completes, the CPlayer object's [**IMFAsyncCallback::Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method is called; see [Step 5: Handle Media Session Events](step-5--handle-media-session-events.md).
 
 Next: [Step 4: Create the Media Session](step-4--create-the-media-session.md)
 

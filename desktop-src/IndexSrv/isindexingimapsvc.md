@@ -1,7 +1,12 @@
 ---
 title: IsIndexingIMAPSvc
 description: IsIndexingIMAPSvc
-ms.assetid: 'bbd99579-2ae0-425c-b02a-999a779c27d0'
+ms.assetid: bbd99579-2ae0-425c-b02a-999a779c27d0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsIndexingIMAPSvc

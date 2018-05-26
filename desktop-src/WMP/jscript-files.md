@@ -1,8 +1,17 @@
 ---
 title: JScript Files
 description: JScript Files
-ms.assetid: '5b862e52-5d49-44b4-811c-3dbca5552167'
-keywords: ["Windows Media Player skins,JScript files", "skins,JScript files", "files for skins,JScript", "JScript files for skins,about"]
+ms.assetid: 5b862e52-5d49-44b4-811c-3dbca5552167
+keywords:
+- Windows Media Player skins,JScript files
+- skins,JScript files
+- files for skins,JScript
+- JScript files for skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JScript Files

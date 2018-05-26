@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents the result from the ScanUpdates
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd55ca4f6-4d7f-4f50-9561-f162abff2a4e'
-ms.prod: 'windows-server-dev'
+ms.assetid: d55ca4f6-4d7f-4f50-9561-f162abff2a4e
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-aware-patching'
-- 'windows-management-instrumentation'
+- failover-cluster-aware-patching
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_CAU_ScanUpdateInfo class", "MSFT_CAU_ScanUpdateInfo class, described"]
+keywords:
+- MSFT_CAU_ScanUpdateInfo class
+- MSFT_CAU_ScanUpdateInfo class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - CauWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_CAU\_ScanUpdateInfo class
@@ -100,16 +105,16 @@ Gets the title of the update.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ClusterUpdate<br/>                                      |
 | MOF<br/>                      | <dl> <dt>CAUWMIv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CauWmiV2.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: VML Margin-Right Attribute
 description: VML Margin-Right Attribute
-ms.assetid: '7b635bea-df3f-4a24-aa22-cfca95575599'
+ms.assetid: 7b635bea-df3f-4a24-aa22-cfca95575599
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Margin-Right Attribute

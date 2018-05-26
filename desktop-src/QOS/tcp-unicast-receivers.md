@@ -1,7 +1,12 @@
 ---
 title: TCP Unicast Receivers
 description: TCP receivers are generally the active peer in a TCP connection.
-ms.assetid: 'f5f0c195-bbc0-4414-b92d-08125d9c445e'
+ms.assetid: f5f0c195-bbc0-4414-b92d-08125d9c445e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCP Unicast Receivers

@@ -1,8 +1,18 @@
 ---
 title: DRM Network Operations
 description: DRM Network Operations
-ms.assetid: '4a10c811-2aa1-4b97-8a72-61e8b04075a8'
-keywords: ["Windows Media Format SDK,DRM network operations", "Advanced Systems Format (ASF),DRM network operations", "ASF (Advanced Systems Format),DRM network operations", "digital rights management (DRM),network operations", "DRM (digital rights management),network operations"]
+ms.assetid: 4a10c811-2aa1-4b97-8a72-61e8b04075a8
+keywords:
+- Windows Media Format SDK,DRM network operations
+- Advanced Systems Format (ASF),DRM network operations
+- ASF (Advanced Systems Format),DRM network operations
+- digital rights management (DRM),network operations
+- DRM (digital rights management),network operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM Network Operations

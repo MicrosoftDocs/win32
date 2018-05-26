@@ -1,14 +1,20 @@
 ---
 title: Location Attribute
 description: The Location attribute is the geographic location of the radio station or \ 0034;Net only \ 0034;.
-ms.assetid: 'fdc0b68b-56a5-4027-a618-6811e7536766'
-keywords: ["Location Attribute Windows Media Player"]
+ms.assetid: fdc0b68b-56a5-4027-a618-6811e7536766
+keywords:
+- Location Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Location
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Location Attribute
@@ -42,9 +48,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

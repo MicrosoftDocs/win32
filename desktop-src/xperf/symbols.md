@@ -1,14 +1,20 @@
 ---
 title: symbols
 description: Enables and configures symbol decoding support.
-ms.assetid: '1a49cb0b-5757-4625-b555-0b7bb0c75a1d'
-keywords: ["symbols Windows Performance Analyzer"]
+ms.assetid: 1a49cb0b-5757-4625-b555-0b7bb0c75a1d
+keywords:
+- symbols Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
 - symbols
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # symbols
@@ -55,7 +61,7 @@ The symbol decoding support uses the following environment variables for further
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -69,9 +75,9 @@ Configure SymCache to always use the System drive: set \_NT\_SYMCACHE\_PATH=%Sys
 
 If you have any non-Microsoft applications installed, add the path to their symbols to the path for OS symbols: set \_NT\_SYMBOL\_PATH=srv\*%SystemDrive%\\symbols\*http://msdl.microsoft.com/download/symbols;C:\\MyPrivates.
 
- 
+ 
 
- 
+ 
 
 
 

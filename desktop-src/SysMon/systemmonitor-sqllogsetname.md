@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor SqlLogSetName property
 description: Retrieves or sets the friendly name of the log set.
-ms.assetid: 'a4593743-6b70-4f70-8e91-3324a808d97b'
-keywords: ["SqlLogSetName property SysMon", "SqlLogSetName property SysMon , SystemMonitor interface", "SystemMonitor interface SysMon , SqlLogSetName property"]
+ms.assetid: a4593743-6b70-4f70-8e91-3324a808d97b
+keywords:
+- SqlLogSetName property SysMon
+- SqlLogSetName property SysMon , SystemMonitor interface
+- SystemMonitor interface SysMon , SqlLogSetName property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor::SqlLogSetName property
@@ -32,7 +40,7 @@ Friendly name of the log set, which corresponds to a single log file containing 
 
 ## Remarks
 
-**Prior to Windows Vista:** You cannot modify this property if the value of [**SystemMonitor.DataSourceType**](systemmonitor-datasourcetype.md) is set to sysmonSqlLog.
+**Prior to Windows Vista:** You cannot modify this property if the value of [**SystemMonitor.DataSourceType**](systemmonitor-datasourcetype.md) is set to sysmonSqlLog.
 
 ## Requirements
 
@@ -40,8 +48,8 @@ Friendly name of the log set, which corresponds to a single log file containing 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -56,9 +64,9 @@ Friendly name of the log set, which corresponds to a single log file containing 
 [**SystemMonitor.SqlDsnName**](systemmonitor-sqllogsetname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

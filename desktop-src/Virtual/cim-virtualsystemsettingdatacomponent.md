@@ -1,8 +1,10 @@
 ---
 title: CIM\_VirtualSystemSettingDataComponent class
 description: Represents a portion of a relationship between a CIM\_VirtualSystemSettingData instance and a set of CIM\_ResourceAllocationSettingData instances.
-ms.assetid: 'fa032b37-9aee-4e5b-9cb1-e2cb90c58bf2'
-keywords: ["CIM_VirtualSystemSettingDataComponent class Hyper-V", "CIM_VirtualSystemSettingDataComponent class Hyper-V , described"]
+ms.assetid: fa032b37-9aee-4e5b-9cb1-e2cb90c58bf2
+keywords:
+- CIM_VirtualSystemSettingDataComponent class Hyper-V
+- CIM_VirtualSystemSettingDataComponent class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VirtualSystemSettingDataComponent class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Association, Aggregation, Version("2.12.0"), AMENDMENT]
 class CIM_VirtualSystemSettingDataComponent : CIM_Component
 {
-  CIM_VirtualSystemSettingData      REF GroupComponent;
+  CIM_VirtualSystemSettingData      REF GroupComponent;
   CIM_ResourceAllocationSettingData REF PartComponent;
 };
 ```
@@ -83,9 +90,9 @@ A reference the [**CIM\_ResourceAllocationSettingData**](cim-resourceallocations
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ A reference the [**CIM\_ResourceAllocationSettingData**](cim-resourceallocations
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

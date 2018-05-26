@@ -1,8 +1,18 @@
 ---
 title: Installable Driver Messages
 description: Installable Driver Messages
-ms.assetid: '8d5065bb-1b72-433c-976b-63859b121484'
-keywords: ["Windows multimedia,installable driver messages", "multimedia,installable driver messages", "installable drivers,messages", "installable driver reference,messages", "reference for installable drivers,messages"]
+ms.assetid: 8d5065bb-1b72-433c-976b-63859b121484
+keywords:
+- Windows multimedia,installable driver messages
+- multimedia,installable driver messages
+- installable drivers,messages
+- installable driver reference,messages
+- reference for installable drivers,messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installable Driver Messages

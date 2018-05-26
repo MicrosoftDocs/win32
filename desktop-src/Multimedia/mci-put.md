@@ -1,8 +1,9 @@
 ---
 title: MCI\_PUT command
 description: The MCI\_PUT command sets the source, destination, and frame rectangles. Digital-video and video-overlay devices recognize this command.
-ms.assetid: '9d81682b-6546-4e6d-a6df-e2de8c013b66'
-keywords: ["MCI_PUT command Windows Multimedia"]
+ms.assetid: 9d81682b-6546-4e6d-a6df-e2de8c013b66
+keywords:
+- MCI_PUT command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_PUT command
 
 The MCI\_PUT command sets the source, destination, and frame rectangles. Digital-video and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -117,7 +123,7 @@ The **rc** member of the structure identified by *lpDest* contains a valid recta
 
 </dd> </dl>
 
-For digital-video devices, *lpDest* points to an [**MCI\_DGV\_PUT\_PARMS**](mci-dgv-put-parms.md) structure.
+For digital-video devices, *lpDest* points to an [**MCI\_DGV\_PUT\_PARMS**](/windows/win32/Digitalv/?branch=master) structure.
 
 The following additional flags are used with the **overlay** device type:
 
@@ -166,8 +172,8 @@ For video-overlay devices, *lpDest* points to an [**MCI\_OVLY\_RECT\_PARMS**](mc
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -182,9 +188,9 @@ For video-overlay devices, *lpDest* points to an [**MCI\_OVLY\_RECT\_PARMS**](mc
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

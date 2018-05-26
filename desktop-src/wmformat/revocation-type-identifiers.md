@@ -1,8 +1,18 @@
 ---
 title: Revocation Type Identifiers
 description: Revocation Type Identifiers
-ms.assetid: 'a52d51bf-bbde-4ad5-8cd2-b86a232ac07e'
-keywords: ["Windows Media Format SDK,revocation type identifiers", "digital rights management (DRM),revocation type identifiers", "DRM (digital rights management),revocation type identifiers", "DRM Client Extended APIs,revocation type identifiers", "Client Extended APIs,revocation type identifiers"]
+ms.assetid: a52d51bf-bbde-4ad5-8cd2-b86a232ac07e
+keywords:
+- Windows Media Format SDK,revocation type identifiers
+- digital rights management (DRM),revocation type identifiers
+- DRM (digital rights management),revocation type identifiers
+- DRM Client Extended APIs,revocation type identifiers
+- Client Extended APIs,revocation type identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Revocation Type Identifiers

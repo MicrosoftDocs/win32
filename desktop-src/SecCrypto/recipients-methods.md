@@ -1,7 +1,12 @@
 ---
-Description: 'The Recipients object exposes the following methods.'
-ms.assetid: '7BD60C7F-0269-4EF0-AD4D-51D25D2219FF'
+Description: The Recipients object exposes the following methods.
+ms.assetid: 7BD60C7F-0269-4EF0-AD4D-51D25D2219FF
 title: Recipients Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recipients Methods

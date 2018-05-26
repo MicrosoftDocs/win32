@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an effect compiler from an ASCII effect description.'
-ms.assetid: '96e883f4-4055-4b8b-940a-164bbf893af4'
+---
+Description: Creates an effect compiler from an ASCII effect description.
+ms.assetid: 96e883f4-4055-4b8b-940a-164bbf893af4
 title: D3DXCreateEffectCompiler function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateEffectCompiler function

@@ -1,7 +1,12 @@
 ---
-Description: 'This guide describes how you can extend the fax service administration Microsoft Management Console (MMC) snap-in component.'
-ms.assetid: 'de36ca81-1b1f-49b7-b855-a27f29532ba1'
-title: 'MMC Snap-in Extensibility Guide'
+Description: This guide describes how you can extend the fax service administration Microsoft Management Console (MMC) snap-in component.
+ms.assetid: de36ca81-1b1f-49b7-b855-a27f29532ba1
+title: MMC Snap-in Extensibility Guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MMC Snap-in Extensibility Guide

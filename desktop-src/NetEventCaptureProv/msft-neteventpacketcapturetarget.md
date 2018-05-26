@@ -1,8 +1,10 @@
 ---
 title: MSFT\_NetEventPacketCaptureTarget class
 description: This class encapsulates a Packet Capture Target on a computer.
-ms.assetid: 'ceb765be-636f-4195-a128-b057a8c3e775'
-keywords: ["MSFT_NetEventPacketCaptureTarget class", "MSFT_NetEventPacketCaptureTarget class, described"]
+ms.assetid: ceb765be-636f-4195-a128-b057a8c3e775
+keywords:
+- MSFT_NetEventPacketCaptureTarget class
+- MSFT_NetEventPacketCaptureTarget class, described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,11 @@ api_location:
 - NetEventPacketCapture.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetEventPacketCaptureTarget class
@@ -42,23 +49,23 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), Abstract, ClassVersion("1.0"), AMENDMENT]
 class MSFT_NetEventPacketCaptureTarget : CIM_LogicalElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   Name;
-  string   Id;
-  string   ProviderName;
-  uint32   CaptureStatus;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   Name;
+  string   Id;
+  string   ProviderName;
+  uint32   CaptureStatus;
 };
 ```
 
@@ -144,7 +151,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -208,7 +215,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -273,7 +280,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -425,7 +432,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -495,7 +502,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -536,7 +543,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -595,7 +602,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -623,8 +630,8 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                                       |
 | MOF<br/>                      | <dl> <dt>NetEventPacketCapture.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetEventPacketCapture.dll</dt> </dl> |
@@ -638,9 +645,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

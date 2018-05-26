@@ -1,7 +1,12 @@
 ---
 title: Multi-Adapter
 description: Describes support in D3D12 for multi-engine adapter systems, covering scenarios where applications explicitly target multiple GPU adapters, and scenarios where drivers implicitly use multiple GPU adapters on behalf of an application.
-ms.assetid: 'CC4C6594-D48F-40C1-93EE-9F98532BC038'
+ms.assetid: CC4C6594-D48F-40C1-93EE-9F98532BC038
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multi-Adapter
@@ -34,63 +39,63 @@ Similar to previous D3D APIs, each set of linked adapters is enumerated as a sin
 
 ### Single nodes
 
-Applications can determine the number of physical adapters associated with a given device with a call to [**ID3D12Device::GetNodeCount**](id3d12device-getnodecount.md). Many APIs in D3D12 accept a *NodeMask*, which indicates the set of nodes which the API call refers to.
+Applications can determine the number of physical adapters associated with a given device with a call to [**ID3D12Device::GetNodeCount**](/windows/win32/d3d12/nf-d3d12-id3d12device-getnodecount?branch=master). Many APIs in D3D12 accept a *NodeMask*, which indicates the set of nodes which the API call refers to.
 
 When calling the following (single node) APIs, applications specify a single node that the API call will be associated with. Most of the time this is specified by a *NodeMask*. Each bit in the mask corresponds to a single node. For all of the APIs described in this section, exactly 1 bit must be set in the *NodeMask*.
 
--   [**D3D12\_COMMAND\_QUEUE\_DESC**](d3d12-command-queue-desc.md) : has a *NodeMask* member.
--   [**CreateCommandQueue**](id3d12device-createcommandqueue.md) : creates a queue from a [**D3D12\_COMMAND\_QUEUE\_DESC**](d3d12-command-queue-desc.md) structure.
--   [**CreateCommandList**](id3d12device-createcommandlist.md) : takes a *nodeMask* parameter.
--   [**D3D12\_DESCRIPTOR\_HEAP\_DESC**](d3d12-descriptor-heap-desc.md) : has a *NodeMask* member.
--   [**CreateDescriptorHeap**](id3d12device-createdescriptorheap.md) : creates a descriptor heap from a [**D3D12\_DESCRIPTOR\_HEAP\_DESC**](d3d12-descriptor-heap-desc.md) structure.
--   [**D3D12\_QUERY\_HEAP\_DESC**](d3d12-query-heap-desc.md) : has a *NodeMask* member.
--   [**CreateQueryHeap**](id3d12device-createqueryheap.md) : creates a query heap from a [**D3D12\_QUERY\_HEAP\_DESC**](d3d12-query-heap-desc.md) structure.
+-   [**D3D12\_COMMAND\_QUEUE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_command_queue_desc?branch=master) : has a *NodeMask* member.
+-   [**CreateCommandQueue**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommandqueue?branch=master) : creates a queue from a [**D3D12\_COMMAND\_QUEUE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_command_queue_desc?branch=master) structure.
+-   [**CreateCommandList**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommandlist?branch=master) : takes a *nodeMask* parameter.
+-   [**D3D12\_DESCRIPTOR\_HEAP\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_descriptor_heap_desc?branch=master) : has a *NodeMask* member.
+-   [**CreateDescriptorHeap**](/windows/win32/D3D12/nf-d3d12-id3d12device-createdescriptorheap?branch=master) : creates a descriptor heap from a [**D3D12\_DESCRIPTOR\_HEAP\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_descriptor_heap_desc?branch=master) structure.
+-   [**D3D12\_QUERY\_HEAP\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_query_heap_desc?branch=master) : has a *NodeMask* member.
+-   [**CreateQueryHeap**](/windows/win32/D3D12/nf-d3d12-id3d12device-createqueryheap?branch=master) : creates a query heap from a [**D3D12\_QUERY\_HEAP\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_query_heap_desc?branch=master) structure.
 
 ### Multiple nodes
 
 When calling the following APIs, applications specify a set of nodes that the API call will be associated with. Node affinity is specified as a bit mask. If the application passes 0 for the bit mask, then the D3D12 driver converts this to the bit mask 1 (indicating that the object is associated with node 0).
 
--   [**D3D12\_CROSS\_NODE\_SHARING\_TIER**](d3d12-cross-node-sharing-tier.md) : determines the support for cross node sharing.
--   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](d3d12-feature-data-d3d12-options.md) : structure referencing [**D3D12\_CROSS\_NODE\_SHARING\_TIER**](d3d12-cross-node-sharing-tier.md).
--   [**D3D12\_FEATURE\_DATA\_ARCHITECTURE**](d3d12-feature-data-architecture.md) : contains a *NodeIndex* member.
--   [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](d3d12-graphics-pipeline-state-desc.md) : has a *NodeMask* member.
--   [**CreateGraphicsPipelineState**](id3d12device-creategraphicspipelinestate.md) : creates a graphics pipeline state object from a [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](d3d12-graphics-pipeline-state-desc.md) structure.
--   [**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](d3d12-compute-pipeline-state-desc.md) : has a *NodeMask* member.
--   [**CreateComputePipelineState**](id3d12device-createcomputepipelinestate.md) : creates a compute pipeline state object from a [**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](d3d12-compute-pipeline-state-desc.md) structure.
--   [**CreateRootSignature**](id3d12device-createrootsignature.md): takes a *nodeMask* parameter.
--   [**D3D12\_COMMAND\_SIGNATURE\_DESC**](d3d12-command-signature-desc.md): has a *NodeMask* member.
--   [**CreateCommandSignature**](id3d12device-createcommandsignature.md) : creates a command signature object from a [**D3D12\_COMMAND\_SIGNATURE\_DESC**](d3d12-command-signature-desc.md) structure.
+-   [**D3D12\_CROSS\_NODE\_SHARING\_TIER**](/windows/win32/d3d12/ne-d3d12-d3d12_cross_node_sharing_tier?branch=master) : determines the support for cross node sharing.
+-   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_d3d12_options?branch=master) : structure referencing [**D3D12\_CROSS\_NODE\_SHARING\_TIER**](/windows/win32/d3d12/ne-d3d12-d3d12_cross_node_sharing_tier?branch=master).
+-   [**D3D12\_FEATURE\_DATA\_ARCHITECTURE**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_architecture?branch=master) : contains a *NodeIndex* member.
+-   [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_graphics_pipeline_state_desc?branch=master) : has a *NodeMask* member.
+-   [**CreateGraphicsPipelineState**](/windows/win32/D3D12/nf-d3d12-id3d12device-creategraphicspipelinestate?branch=master) : creates a graphics pipeline state object from a [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_graphics_pipeline_state_desc?branch=master) structure.
+-   [**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_compute_pipeline_state_desc?branch=master) : has a *NodeMask* member.
+-   [**CreateComputePipelineState**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcomputepipelinestate?branch=master) : creates a compute pipeline state object from a [**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_compute_pipeline_state_desc?branch=master) structure.
+-   [**CreateRootSignature**](/windows/win32/D3D12/nf-d3d12-id3d12device-createrootsignature?branch=master): takes a *nodeMask* parameter.
+-   [**D3D12\_COMMAND\_SIGNATURE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_command_signature_desc?branch=master): has a *NodeMask* member.
+-   [**CreateCommandSignature**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommandsignature?branch=master) : creates a command signature object from a [**D3D12\_COMMAND\_SIGNATURE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_command_signature_desc?branch=master) structure.
 
 ### Resource creation APIs
 
 The following APIs reference node masks:
 
--   [**D3D12\_HEAP\_PROPERTIES**](d3d12-heap-properties.md) : has both *CreationNodeMask* and *VisibleNodeMask* members.
--   [**GetResourceAllocationInfo**](id3d12device-getresourceallocationinfo.md) : has a *visibleMask* parameter.
--   [**GetCustomHeapProperties**](id3d12device-getcustomheapproperties.md) : has a *nodeMask* parameter.
+-   [**D3D12\_HEAP\_PROPERTIES**](/windows/win32/D3D12/ns-d3d12-d3d12_heap_properties?branch=master) : has both *CreationNodeMask* and *VisibleNodeMask* members.
+-   [**GetResourceAllocationInfo**](/windows/win32/D3D12/nf-d3d12-id3d12device-getresourceallocationinfo?branch=master) : has a *visibleMask* parameter.
+-   [**GetCustomHeapProperties**](/windows/win32/D3D12/nf-d3d12-id3d12device-getcustomheapproperties?branch=master) : has a *nodeMask* parameter.
 
 When creating reserved resource no node index or mask is specified. The reserved resource can be mapped onto a heap on any node (following the cross-node sharing rules).
 
-The method [**MakeResident**](id3d12device-makeresident.md) works internally with adapter queues, there is no need for the application to specify anything for this.
+The method [**MakeResident**](/windows/win32/D3D12/nf-d3d12-id3d12device-makeresident?branch=master) works internally with adapter queues, there is no need for the application to specify anything for this.
 
-When calling the following [**ID3D12Device**](id3d12device.md) APIs, applications do not need to specify a set of nodes that the API call will be associated with because the API call applies to all nodes:
+When calling the following [**ID3D12Device**](/windows/win32/D3D12/nn-d3d12-id3d12device?branch=master) APIs, applications do not need to specify a set of nodes that the API call will be associated with because the API call applies to all nodes:
 
--   [**CreateFence**](id3d12device-createfence.md)
--   [**GetDescriptorHandleIncrementSize**](id3d12device-getdescriptorhandleincrementsize.md)
--   [**SetStablePowerState**](id3d12device-setstablepowerstate.md)
--   [**CheckFeatureSupport**](id3d12device-checkfeaturesupport.md)
--   [**CreateSampler**](id3d12device-createsampler.md)
--   [**CopyDescriptors**](id3d12device-copydescriptors.md)
--   [**CopyDescriptorsSimple**](id3d12device-copydescriptorssimple.md)
--   [**CreateSharedHandle**](id3d12device-createsharedhandle.md)
--   [**OpenSharedHandleByName**](id3d12device-opensharedhandlebyname.md)
--   [**OpenSharedHandle**](id3d12device-opensharedhandle.md) : with a *fence* as a parameter. With a *resource* or a *heap* as parameters this method does not accept nodes as parameters because node masks are inherited from previously created objects.
--   [**CreateCommandAllocator**](id3d12device-createcommandallocator.md)
--   [**CreateConstantBufferView**](id3d12device-createconstantbufferview.md)
--   [**CreateRenderTargetView**](id3d12device-createrendertargetview.md)
--   [**CreateUnorderedAccessView**](id3d12device-createunorderedaccessview.md)
--   [**CreateDepthStencilView**](id3d12device-createdepthstencilview.md)
--   [**CreateShaderResourceView**](id3d12device-createshaderresourceview.md)
+-   [**CreateFence**](/windows/win32/D3D12/nf-d3d12-id3d12device-createfence?branch=master)
+-   [**GetDescriptorHandleIncrementSize**](/windows/win32/D3D12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize?branch=master)
+-   [**SetStablePowerState**](/windows/win32/D3D12/nf-d3d12-id3d12device-setstablepowerstate?branch=master)
+-   [**CheckFeatureSupport**](/windows/win32/D3D12/nf-d3d12-id3d12device-checkfeaturesupport?branch=master)
+-   [**CreateSampler**](/windows/win32/D3D12/nf-d3d12-id3d12device-createsampler?branch=master)
+-   [**CopyDescriptors**](/windows/win32/D3D12/nf-d3d12-id3d12device-copydescriptors?branch=master)
+-   [**CopyDescriptorsSimple**](/windows/win32/D3D12/nf-d3d12-id3d12device-copydescriptorssimple?branch=master)
+-   [**CreateSharedHandle**](/windows/win32/D3D12/nf-d3d12-id3d12device-createsharedhandle?branch=master)
+-   [**OpenSharedHandleByName**](/windows/win32/D3D12/nf-d3d12-id3d12device-opensharedhandlebyname?branch=master)
+-   [**OpenSharedHandle**](/windows/win32/D3D12/nf-d3d12-id3d12device-opensharedhandle?branch=master) : with a *fence* as a parameter. With a *resource* or a *heap* as parameters this method does not accept nodes as parameters because node masks are inherited from previously created objects.
+-   [**CreateCommandAllocator**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommandallocator?branch=master)
+-   [**CreateConstantBufferView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createconstantbufferview?branch=master)
+-   [**CreateRenderTargetView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createrendertargetview?branch=master)
+-   [**CreateUnorderedAccessView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createunorderedaccessview?branch=master)
+-   [**CreateDepthStencilView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createdepthstencilview?branch=master)
+-   [**CreateShaderResourceView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createshaderresourceview?branch=master)
 
 ## Related topics
 

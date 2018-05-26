@@ -1,7 +1,12 @@
-﻿---
-Description: 'The NAME macro generates a debug-only string.'
-ms.assetid: '50762bce-a78c-4009-8552-94b2849c2b24'
+---
+Description: The NAME macro generates a debug-only string.
+ms.assetid: 50762bce-a78c-4009-8552-94b2849c2b24
 title: NAME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NAME

@@ -1,14 +1,19 @@
 ---
 Description: Setting the Graph Clock
-ms.assetid: '23deab26-6c9a-4f94-b750-11c9b1a14ce3'
+ms.assetid: 23deab26-6c9a-4f94-b750-11c9b1a14ce3
 title: Setting the Graph Clock
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Graph Clock
 
 When you build a filter graph, the Filter Graph Manager automatically chooses a reference clock for the graph. All filters in the graph are synchronized to the reference clock. In particular, renderer filters use the reference clock to determine the presentation time of each sample.
 
-There is usually no reason for an application to override the Filter Graph Manager's choice of reference clock. However, you can do so by calling the [**IMediaFilter::SetSyncSource**](imediafilter-setsyncsource.md) method on the Filter Graph Manager. This method takes a pointer to the clock's **IReferenceClock** interface. Call the method while the graph is stopped.
+There is usually no reason for an application to override the Filter Graph Manager's choice of reference clock. However, you can do so by calling the [**IMediaFilter::SetSyncSource**](/windows/win32/Strmif/nf-strmif-imediafilter-setsyncsource?branch=master) method on the Filter Graph Manager. This method takes a pointer to the clock's **IReferenceClock** interface. Call the method while the graph is stopped.
 
 If a filter provides a clock, you can get the **IReferenceClock** pointer by calling **QueryInterface** on the filter. Alternatively, you can implement an external reference clock that is not provided by a filter, as long as your external clock implements **IReferenceClock**. The following example shows how to specify a clock:
 

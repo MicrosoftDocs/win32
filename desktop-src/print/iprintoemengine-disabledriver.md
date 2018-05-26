@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '1BCE08D6-B25E-4C1B-B0F7-A53BE0E705A1'
-title: 'IPrintOemEngine::DisableDriver method'
+---
+Description: .
+ms.assetid: 1BCE08D6-B25E-4C1B-B0F7-A53BE0E705A1
+title: IPrintOemEngineDisableDriver method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemEngine::DisableDriver method

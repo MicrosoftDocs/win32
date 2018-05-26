@@ -1,8 +1,22 @@
 ---
 title: Built-in Effects
 description: Built-in Effects
-ms.assetid: 'd96f0f0a-c715-4b10-be9e-8ce163016655'
-keywords: ["Windows Movie Maker,effects", "Movie Maker,effects", "programming guide,Windows Movie Maker effects", "creating custom transforms using XML,effects", "XML,effects", "transforms,effects", "custom transforms,effects", "effects", "built-in effects"]
+ms.assetid: d96f0f0a-c715-4b10-be9e-8ce163016655
+keywords:
+- Windows Movie Maker,effects
+- Movie Maker,effects
+- programming guide,Windows Movie Maker effects
+- creating custom transforms using XML,effects
+- XML,effects
+- transforms,effects
+- custom transforms,effects
+- effects
+- built-in effects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Built-in Effects

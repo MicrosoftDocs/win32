@@ -1,7 +1,12 @@
 ---
-Description: 'Determines whether the area of the IAnalysisRegion intersects with the specified rectangle.'
-ms.assetid: '683c3ad8-0236-474e-a16d-6164c2244cfb'
-title: 'IAnalysisRegion::IntersectsWith method'
+Description: Determines whether the area of the IAnalysisRegion intersects with the specified rectangle.
+ms.assetid: 683c3ad8-0236-474e-a16d-6164c2244cfb
+title: IAnalysisRegionIntersectsWith method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisRegion::IntersectsWith method
@@ -13,8 +18,8 @@ Determines whether the area of the [**IAnalysisRegion**](ianalysisregion.md) int
 
 ```C++
 HRESULT IntersectsWith(
-  [in]  RECT         *pRectangle,
-  [out] VARIANT_BOOL *pfIsIntersecting
+  [in]  RECT         *pRectangle,
+  [out] VARIANT_BOOL *pfIsIntersecting
 );
 ```
 
@@ -52,7 +57,7 @@ The comparison is in ink-space coordinates.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -69,9 +74,9 @@ The comparison is in ink-space coordinates.
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer CreateVirtualNetwork method
 description: The CreateVirtualNetwork method creates a new virtual network.
-ms.assetid: 'ec8f3026-9d0a-49ee-8dc5-16e886572ce4'
-keywords: ["CreateVirtualNetwork method Virtual Server", "CreateVirtualNetwork method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , CreateVirtualNetwork method"]
+ms.assetid: ec8f3026-9d0a-49ee-8dc5-16e886572ce4
+keywords:
+- CreateVirtualNetwork method Virtual Server
+- CreateVirtualNetwork method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , CreateVirtualNetwork method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::CreateVirtualNetwork method
@@ -22,9 +30,9 @@ The **CreateVirtualNetwork** method creates a new virtual network.
 
 ```C++
 HRESULT CreateVirtualNetwork(
-  [in]  BSTR              virtualNetworkName,
-  [in]  BSTR              virtualNetworkPath,
-  [out] IVMVirtualNetwork **virtualNetwork
+  [in]  BSTR              virtualNetworkName,
+  [in]  BSTR              virtualNetworkPath,
+  [out] IVMVirtualNetwork **virtualNetwork
 );
 ```
 
@@ -77,7 +85,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -89,8 +97,8 @@ By default, the adapter of the virtual network is set for guest-only networking,
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -102,9 +110,9 @@ By default, the adapter of the virtual network is set for guest-only networking,
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

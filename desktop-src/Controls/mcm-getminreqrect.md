@@ -1,8 +1,9 @@
 ---
 title: MCM\_GETMINREQRECT message
 description: Retrieves the minimum size required to display a full month in a month calendar control. You can send this message explicitly or by using the MonthCal\_GetMinReqRect macro.
-ms.assetid: 'f0378338-4809-48e9-9387-ed8b79356f95'
-keywords: ["MCM_GETMINREQRECT message Windows Controls"]
+ms.assetid: f0378338-4809-48e9-9387-ed8b79356f95
+keywords:
+- MCM_GETMINREQRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_GETMINREQRECT message
 
-Retrieves the minimum size required to display a full month in a month calendar control. You can send this message explicitly or by using the [**MonthCal\_GetMinReqRect**](monthcal-getminreqrect.md) macro.
+Retrieves the minimum size required to display a full month in a month calendar control. You can send this message explicitly or by using the [**MonthCal\_GetMinReqRect**](/windows/win32/Commctrl/nf-commctrl-monthcal_getminreqrect?branch=master) macro.
 
 ## Parameters
 
@@ -42,7 +48,7 @@ The minimum required window size for a month calendar control depends on the cur
 > [!Note]  
 > The rectangle returned by **MCM\_GETMINREQRECT** does not include the width of the "Today" string, if it is present. If the [**MCS\_NOTODAY**](month-calendar-control-styles.md#mcs-notoday) style is not set, your application should also retrieve the rectangle that defines the "Today" string width by sending a [**MCM\_GETMAXTODAYWIDTH**](mcm-getmaxtodaywidth.md) message. Use the larger of the two rectangles to ensure that the "Today" string is not clipped.
 
- 
+ 
 
 The **top** and **left** members of the structure pointed to by *lParam* will always be zero. The **right** and **bottom** members represent the minimum *cx* and *cy* required for the control.
 
@@ -52,15 +58,15 @@ The **top** and **left** members of the structure pointed to by *lParam* will al
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

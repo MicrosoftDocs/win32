@@ -4,10 +4,13 @@ description: Session-to-session activation (also called cross-session activation
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd405c276-040b-4cde-aeb2-482a25e2867f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d405c276-040b-4cde-aeb2-482a25e2867f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Session-to-Session Activation with a Session Moniker

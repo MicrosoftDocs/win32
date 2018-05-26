@@ -1,7 +1,12 @@
 ---
 title: Disabling Windows Firewall
 description: This example disables Windows Firewall using the Windows Firewall with Advanced Security APIs.C++/\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ++ Copyright (C) Microsoft.
-ms.assetid: 'dd8cd8ff-7d8c-45f0-87f3-256a4afd407c'
+ms.assetid: dd8cd8ff-7d8c-45f0-87f3-256a4afd407c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disabling Windows Firewall

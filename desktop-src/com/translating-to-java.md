@@ -1,7 +1,12 @@
 ---
 title: Translating to Java
 description: Translating to Java
-ms.assetid: 'b36bb34d-706e-455b-a4b5-d811654fc7fc'
+ms.assetid: b36bb34d-706e-455b-a4b5-d811654fc7fc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating to Java

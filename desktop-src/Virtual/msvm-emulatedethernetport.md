@@ -1,8 +1,10 @@
 ---
 title: Msvm\_EmulatedEthernetPort class
 description: Represents an emulated Ethernet adapter.
-ms.assetid: 'd2a92cb0-c1f1-45e7-965e-a1b895b827b3'
-keywords: ["Msvm_EmulatedEthernetPort class Hyper-V", "Msvm_EmulatedEthernetPort class Hyper-V , described"]
+ms.assetid: d2a92cb0-c1f1-45e7-965e-a1b895b827b3
+keywords:
+- Msvm_EmulatedEthernetPort class Hyper-V
+- Msvm_EmulatedEthernetPort class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -72,6 +74,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EmulatedEthernetPort class
@@ -86,59 +93,59 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_EmulatedEthernetPort : CIM_EthernetPort
 {
-  string   Caption = "Ethernet Port";
-  string   Description = "Microsoft Emulated Ethernet Port";
-  string   ElementName = "Legacy Network Adapter";
+  string   Caption = "Ethernet Port";
+  string   Description = "Microsoft Emulated Ethernet Port";
+  string   ElementName = "Legacy Network Adapter";
   datetime InstallDate;
-  string   Name = "Ethernet Port";
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = "OK";
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  uint16   RequestedState = 12;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_EmulatedEthernetPort";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  uint64   TotalPowerOnHours;
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint64   MaxSpeed = 1000000000;
-  uint64   RequestedSpeed = 1000000000;
-  string   OtherPortType = "Virtual Ethernet";
-  string   OtherNetworkPortType;
-  string   OtherLinkTechnology;
-  string   PermanentAddress;
-  boolean  FullDuplex = TRUE;
-  boolean  AutoSense = TRUE;
-  uint64   SupportedMaximumTransmissionUnit = 1500;
-  uint16   PortType = 1;
-  string   NetworkAddresses[];
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  uint16   EnabledCapabilities[];
-  string   OtherEnabledCapabilities[];
-  string   OtherEnabledState;
-  uint16   EnabledDefault = 2;
+  string   Name = "Ethernet Port";
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = "OK";
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  uint16   RequestedState = 12;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_EmulatedEthernetPort";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  uint64   TotalPowerOnHours;
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint64   MaxSpeed = 1000000000;
+  uint64   RequestedSpeed = 1000000000;
+  string   OtherPortType = "Virtual Ethernet";
+  string   OtherNetworkPortType;
+  string   OtherLinkTechnology;
+  string   PermanentAddress;
+  boolean  FullDuplex = TRUE;
+  boolean  AutoSense = TRUE;
+  uint64   SupportedMaximumTransmissionUnit = 1500;
+  uint16   PortType = 1;
+  string   NetworkAddresses[];
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  uint16   EnabledCapabilities[];
+  string   OtherEnabledCapabilities[];
+  string   OtherEnabledState;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   DeviceID = "Microsoft:GUID\device-specific data";
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   LocationIndicator = 4;
-  uint16   UsageRestriction = 4;
-  uint64   Speed = 1000000000;
-  uint16   PortNumber;
-  uint16   LinkTechnology = 2;
-  uint64   ActiveMaximumTransmissionUnit = 1500;
-  uint32   MaxDataSize = 1500;
+  string   DeviceID = "Microsoft:GUID\device-specific data";
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   LocationIndicator = 4;
+  uint16   UsageRestriction = 4;
+  uint64   Speed = 1000000000;
+  uint16   PortNumber;
+  uint16   LinkTechnology = 2;
+  uint64   ActiveMaximumTransmissionUnit = 1500;
+  uint32   MaxDataSize = 1500;
 };
 ```
 
@@ -168,7 +175,7 @@ The **Msvm\_EmulatedEthernetPort** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -790,7 +797,7 @@ Network ports are often numbered relative to either a logical module or a networ
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1069,9 +1076,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1090,9 +1097,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,19 @@
 title: defaultcollelem attribute
 description: The \ defaultcollelem\ attribute flags a property as an accessor function for an element of the default collection.
 ms.assetid: e409f845-3f26-4551-abda-86c4776160aa
-keywords: ["defaultcollelem attribute MIDL"]
+keywords:
+- defaultcollelem attribute MIDL
 topic_type:
 - apiref
 api_name:
 - defaultcollelem
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # defaultcollelem attribute

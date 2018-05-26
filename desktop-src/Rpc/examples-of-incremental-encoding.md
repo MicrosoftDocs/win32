@@ -1,8 +1,14 @@
 ---
 title: Examples of Incremental Encoding
 description: The following section provides an example of how to use the incremental style serializing handle for type encoding.
-ms.assetid: 'c50c0de3-aabb-4166-93dc-67b0fee66635'
-keywords: ["Remote Procedure Call RPC , tasks, using incremental encoding"]
+ms.assetid: c50c0de3-aabb-4166-93dc-67b0fee66635
+keywords:
+- Remote Procedure Call RPC , tasks, using incremental encoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Examples of Incremental Encoding

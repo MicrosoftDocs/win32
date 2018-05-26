@@ -1,7 +1,12 @@
 ---
 Description: Implementing DllRegisterServer
-ms.assetid: 'aaa4069e-0b6a-4a76-b950-1a85a9ed969d'
+ms.assetid: aaa4069e-0b6a-4a76-b950-1a85a9ed969d
 title: Implementing DllRegisterServer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing DllRegisterServer
@@ -31,12 +36,12 @@ g_Templates
 
 array. However, this function has some limitations. First, it assigns every filter to the "DirectShow Filters" category (CLSID\_LegacyAmFilterCategory), but not every filter belongs in this category. Capture filters and compression filters, for example, have their own categories. Second, if your filter supports a hardware device, you might need to register two additional pieces of information that **AMovieDLLRegisterServer2** does not handle: the *medium* and the *pin category*. A medium defines a method of communication in a hardware device, such as a bus. The pin category defines the function of a pin. For information on mediums, see "KSPIN\_MEDIUM" in the Microsoft Windows Driver Development Kit (DDK). For a list of pin categories, see [Pin Property Set](pin-property-set.md).
 
-If you want to specify a filter category, a medium, or a pin category, call the [**IFilterMapper2::RegisterFilter**](ifiltermapper2-registerfilter.md) method from within **DllRegisterServer**. This method takes a pointer to a [**REGFILTER2**](regfilter2.md) structure, which specifies information about the filter.
+If you want to specify a filter category, a medium, or a pin category, call the [**IFilterMapper2::RegisterFilter**](/windows/win32/Strmif/nf-strmif-ifiltermapper2-registerfilter?branch=master) method from within **DllRegisterServer**. This method takes a pointer to a [**REGFILTER2**](/windows/win32/strmif/ns-strmif-regfilter2?branch=master) structure, which specifies information about the filter.
 
 To complicate matters somewhat, the **REGFILTER2** structure supports two different formats for registering pins. The **dwVersion** member specifies the format:
 
 -   If **dwVersion** is 1, the pin format is **AMOVIESETUP\_PIN** (described previously).
--   If **dwVersion** is 2, the pin format is [**REGFILTERPINS2**](regfilterpins2.md).
+-   If **dwVersion** is 2, the pin format is [**REGFILTERPINS2**](/windows/win32/strmif/ns-strmif-regfilterpins2?branch=master).
 
 The **REGFILTERPINS2** structure includes entries for pin mediums and pin categories. Also, it uses bit flags for some items that **AMOVIESETUP\_PIN** declares as Boolean values.
 

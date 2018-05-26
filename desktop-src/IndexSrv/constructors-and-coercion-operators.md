@@ -1,7 +1,12 @@
 ---
 title: Constructors and Coercion Operators
 description: Constructors and Coercion Operators
-ms.assetid: '5637a576-fe51-4ca8-9132-a788f2300dd9'
+ms.assetid: 5637a576-fe51-4ca8-9132-a788f2300dd9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constructors and Coercion Operators

@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'e4595729-f0c7-4cf8-a156-29e670784d36'
+ms.assetid: e4595729-f0c7-4cf8-a156-29e670784d36
 title: Performance Counters Simple Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance Counters Simple Types

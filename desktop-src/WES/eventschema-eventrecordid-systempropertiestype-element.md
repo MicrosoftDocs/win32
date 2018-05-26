@@ -1,14 +1,20 @@
 ---
 title: EventRecordID (SystemPropertiesType) Element
 description: The record number assigned to the event when it was logged.
-ms.assetid: 'd042de4d-e532-432e-bba2-1876a26860a4'
-keywords: ["EventRecordID element EventLog"]
+ms.assetid: d042de4d-e532-432e-bba2-1876a26860a4
+keywords:
+- EventRecordID element EventLog
 topic_type:
 - apiref
 api_name:
 - EventRecordID
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventRecordID (SystemPropertiesType) Element
@@ -35,14 +41,14 @@ The **EventRecordID** element is defined by the [**SystemPropertiesType**](event
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

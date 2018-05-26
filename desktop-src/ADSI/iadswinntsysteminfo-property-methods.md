@@ -4,11 +4,12 @@ description: The property methods of the IADsWinNTSystemInfo interface get or se
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5ba36851-3d03-4179-8cee-dbebe24b7c4e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5ba36851-3d03-4179-8cee-dbebe24b7c4e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsWinNTSystemInfo Property Methods ADSI"]
+keywords:
+- IADsWinNTSystemInfo Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -25,11 +26,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsWinNTSystemInfo Property Methods
 
-The property methods of the [**IADsWinNTSystemInfo**](iadswinntsysteminfo.md) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsWinNTSystemInfo**](/windows/win32/Iads/nn-iads-iadswinntsysteminfo?branch=master) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -135,7 +139,7 @@ HRESULT get_UserName(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -230,8 +234,8 @@ Response.Write "PDC: " & ntsys.PDC
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsWinNTSystemInfo is defined as 6C6D65DC-AFD1-11D2-9CB9-0000F87A369E<br/>  |
@@ -242,12 +246,12 @@ Response.Write "PDC: " & ntsys.PDC
 
 <dl> <dt>
 
-[**IADsWinNTSystemInfo**](iadswinntsysteminfo.md)
+[**IADsWinNTSystemInfo**](/windows/win32/Iads/nn-iads-iadswinntsysteminfo?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

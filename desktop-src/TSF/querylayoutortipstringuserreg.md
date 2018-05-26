@@ -1,8 +1,9 @@
 ---
 title: QueryLayoutOrTipStringUserReg function
 description: Queries the specified string which represents the format of a keyboard layout list or text services profile list of the specified registry path.
-ms.assetid: 'b7b42fda-5a65-483a-b3f3-85157bb1a667'
-keywords: ["QueryLayoutOrTipStringUserReg function Text Services Framework"]
+ms.assetid: b7b42fda-5a65-483a-b3f3-85157bb1a667
+keywords:
+- QueryLayoutOrTipStringUserReg function Text Services Framework
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - input.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QueryLayoutOrTipStringUserReg function
@@ -22,11 +28,11 @@ Queries the specified string which represents the format of a keyboard layout li
 
 ```C++
 HRESULT CALLBACK QueryLayoutOrTipStringUserReg(
-  _In_ LPCWSTR pszUserReg,
-  _In_ LPCWSTR pszSystemReg,
-  _In_ LPCWSTR pszSoftwareReg,
-  _In_ LPCWSTR psz,
-  _In_ DWORD   dwFlags
+  _In_ LPCWSTR pszUserReg,
+  _In_ LPCWSTR pszSystemReg,
+  _In_ LPCWSTR pszSoftwareReg,
+  _In_ LPCWSTR psz,
+  _In_ DWORD   dwFlags
 );
 ```
 
@@ -84,7 +90,7 @@ This function can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -93,7 +99,7 @@ There is no import library available that defines this function, so it is necess
 > [!Note]  
 > Using [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to [Dynamic-Link Library Search Order](https://msdn.microsoft.com/library/windows/desktop/ms682586) for information on how to correctly load DLLs with different versions of Microsoft Windows.
 
- 
+ 
 
 The string format of the layout list is:
 
@@ -117,15 +123,15 @@ The following is an example of a value for the *psz* parameter:
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Input.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

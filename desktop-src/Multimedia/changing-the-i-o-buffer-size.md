@@ -1,8 +1,21 @@
 ---
 title: Changing the I/O Buffer Size
 description: Changing the I/O Buffer Size
-ms.assetid: 'eff97399-143e-477b-bb16-7305e83a2317'
-keywords: ["multimedia file I/O,changing buffer size", "file I/O,changing buffer size", "input and output (I/O),changing buffer size", "I/O (input and output),changing buffer size", "changing I/O buffer size", "unbuffered I/O", "buffered I/O", "mmioSetBuffer function"]
+ms.assetid: eff97399-143e-477b-bb16-7305e83a2317
+keywords:
+- multimedia file I/O,changing buffer size
+- file I/O,changing buffer size
+- input and output (I/O),changing buffer size
+- I/O (input and output),changing buffer size
+- changing I/O buffer size
+- unbuffered I/O
+- buffered I/O
+- mmioSetBuffer function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing the I/O Buffer Size

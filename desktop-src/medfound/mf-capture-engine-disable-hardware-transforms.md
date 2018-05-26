@@ -1,7 +1,12 @@
-﻿---
-Description: 'Disables the use of hardware-based Media Foundation transforms (MFTs) in the capture engine.'
-ms.assetid: '1C687FEC-276D-4759-A3B8-9A2A31CB0DE1'
-title: 'MF\_CAPTURE\_ENGINE\_DISABLE\_HARDWARE\_TRANSFORMS attribute'
+---
+Description: Disables the use of hardware-based Media Foundation transforms (MFTs) in the capture engine.
+ms.assetid: 1C687FEC-276D-4759-A3B8-9A2A31CB0DE1
+title: MF\_CAPTURE\_ENGINE\_DISABLE\_HARDWARE\_TRANSFORMS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_CAPTURE\_ENGINE\_DISABLE\_HARDWARE\_TRANSFORMS attribute
@@ -38,7 +43,7 @@ By default, the capture engine uses hardware decoders or encoders. To disable th
 [Capture Engine Attributes](capture-engine-attributes.md)
 </dt> <dt>
 
-[**IMFCaptureEngine::Initialize**](imfcaptureengine-initialize.md)
+[**IMFCaptureEngine::Initialize**](/windows/win32/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize?branch=master)
 </dt> </dl>
 
  

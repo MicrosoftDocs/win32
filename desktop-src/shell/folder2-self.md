@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the folder''s FolderItem object.'
-ms.assetid: '0964505d-4138-4444-91d4-46c707c45688'
-title: 'Folder2.Self property'
+---
+Description: Contains the folders FolderItem object.
+ms.assetid: 0964505d-4138-4444-91d4-46c707c45688
+title: Folder2.Self property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Folder2.Self property

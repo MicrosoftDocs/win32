@@ -1,7 +1,12 @@
 ---
-Description: 'Valid partition types used by disk drivers.'
-ms.assetid: 'b2e15b93-a02b-4d6f-b242-b5ec9a30c97b'
+Description: Valid partition types used by disk drivers.
+ms.assetid: b2e15b93-a02b-4d6f-b242-b5ec9a30c97b
 title: Disk Partition Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk Partition Types
@@ -34,8 +39,8 @@ There are several macros that can help you detect the partition type: **IsContai
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>WinIoCtl.h (include Windows.h)</dt> </dl> |
 
 
@@ -44,18 +49,18 @@ There are several macros that can help you detect the partition type: **IsContai
 
 <dl> <dt>
 
-[**PARTITION\_INFORMATION\_EX**](partition-information-ex-str.md)
+[**PARTITION\_INFORMATION\_EX**](/windows/win32/WinIoCtl/ns-winioctl-_partition_information_ex?branch=master)
 </dt> <dt>
 
-[**PARTITION\_INFORMATION\_MBR**](partition-information-mbr-str.md)
+[**PARTITION\_INFORMATION\_MBR**](/windows/win32/WinIoCtl/ns-winioctl-_partition_information_mbr?branch=master)
 </dt> <dt>
 
-[**SET\_PARTITION\_INFORMATION**](set-partition-information-str.md)
+[**SET\_PARTITION\_INFORMATION**](/windows/win32/WinIoCtl/ns-winioctl-_set_partition_information?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

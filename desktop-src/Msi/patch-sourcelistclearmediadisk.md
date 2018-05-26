@@ -1,12 +1,17 @@
-﻿---
-Description: 'The SourceListClearMediaDisk method of the Patch object removes a specified disk from the set of registered disks for a patch. Accepts Diskid as a parameter. This method calls MsiSourceListClearMediaDisk.'
-ms.assetid: 'fc52ecb9-2c79-497b-b551-0d3c4f584e86'
-title: 'Patch.SourceListClearMediaDisk method'
+---
+Description: The SourceListClearMediaDisk method of the Patch object removes a specified disk from the set of registered disks for a patch. Accepts Diskid as a parameter. This method calls MsiSourceListClearMediaDisk.
+ms.assetid: fc52ecb9-2c79-497b-b551-0d3c4f584e86
+title: Patch.SourceListClearMediaDisk method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch.SourceListClearMediaDisk method
 
-The **SourceListClearMediaDisk** method of the [**Patch**](patch-object.md) object removes a specified disk from the set of registered disks for a patch. Accepts *Diskid* as a parameter. This method calls [**MsiSourceListClearMediaDisk**](msisourcelistclearmediadisks.md).
+The **SourceListClearMediaDisk** method of the [**Patch**](patch-object.md) object removes a specified disk from the set of registered disks for a patch. Accepts *Diskid* as a parameter. This method calls [**MsiSourceListClearMediaDisk**](/windows/win32/Msi/nf-msi-msisourcelistclearmediadiska?branch=master).
 
 ## Syntax
 
@@ -53,7 +58,7 @@ This method does not return a value.
 [**Patch**](patch-object.md)
 </dt> <dt>
 
-[**MsiSourceListClearMediaDisk**](msisourcelistclearmediadisks.md)
+[**MsiSourceListClearMediaDisk**](/windows/win32/Msi/nf-msi-msisourcelistclearmediadiska?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

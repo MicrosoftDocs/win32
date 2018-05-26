@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a collection of virtual system reference points.'
-ms.assetid: 'dc293f94-a683-468f-af05-ba99824d773e'
-title: 'Msvm\_ReferencePointCollection class'
+Description: Represents a collection of virtual system reference points.
+ms.assetid: dc293f94-a683-468f-af05-ba99824d773e
+title: Msvm\_ReferencePointCollection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReferencePointCollection class
@@ -16,11 +21,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ReferencePointCollection : CIM_Collection
 {
-  string  CollectionID;
-  string  ElementName;
-  uint16  ReferencePointType;
-  uint16  ConsistencyLevel;
-  string  VirtualSystemCollectionId;
+  string  CollectionID;
+  string  ElementName;
+  uint16  ReferencePointType;
+  uint16  ConsistencyLevel;
+  string  VirtualSystemCollectionId;
   boolean HasAssociatedLog;
 };
 ```
@@ -209,8 +214,8 @@ The identifier of the [**Msvm\_VirtualSystemCollection**](msvm-virtualsystemcoll
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -224,9 +229,9 @@ The identifier of the [**Msvm\_VirtualSystemCollection**](msvm-virtualsystemcoll
 [**CIM\_Collection**](cim-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

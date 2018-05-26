@@ -1,8 +1,9 @@
 ---
 title: glFogf function
 description: The glFogf and function specifies fog parameters.
-ms.assetid: '69961d8f-385c-4353-aef3-38fb654c44f8'
-keywords: ["glFogf function OpenGL"]
+ms.assetid: 69961d8f-385c-4353-aef3-38fb654c44f8
+keywords:
+- glFogf function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glFogf function
@@ -22,8 +28,8 @@ The **glFogf** and function specifies fog parameters.
 
 ```C++
 void WINAPI glFogf(
-   GLenum  pname,
-   GLfloat param
+   GLenum  pname,
+   GLfloat param
 );
 ```
 
@@ -48,11 +54,11 @@ Accepts one of the following values.
 | <span id="GL_FOG_DENSITY"></span><span id="gl_fog_density"></span><dl> <dt>**GL\_FOG\_DENSITY**</dt> </dl> | The *params* parameter is a single floating-point value that specifies *density*, the fog density used in both exponential fog equations. Only nonnegative densities are accepted. The default fog density is 1.0.<br/>                                                                                                                                    |
 | <span id="GL_FOG_START"></span><span id="gl_fog_start"></span><dl> <dt>**GL\_FOG\_START**</dt> </dl>       | The *params* parameter is a single floating-point value that specifies *start*, the near distance used in the linear fog equation. The default near distance is 0.0.<br/>                                                                                                                                                                                  |
 | <span id="GL_FOG_END"></span><span id="gl_fog_end"></span><dl> <dt>**GL\_FOG\_END**</dt> </dl>             | The *params* parameter is a single floating-point value that specifies *end*, the far distance used in the linear fog equation. The default far distance is 1.0.<br/>                                                                                                                                                                                      |
-| <span id="GL_FOG_INDEX"></span><span id="gl_fog_index"></span><dl> <dt>**GL\_FOG\_INDEX**</dt> </dl>       | The *params* parameter is a single floating-point value that specifies *i*<sub>f</sub> , the fog color index. The default fog index is 0.0.<br/>                                                                                                                                                                                                           |
+| <span id="GL_FOG_INDEX"></span><span id="gl_fog_index"></span><dl> <dt>**GL\_FOG\_INDEX**</dt> </dl>       | The *params* parameter is a single floating-point value that specifies *i*<sub>f</sub> , the fog color index. The default fog index is 0.0.<br/>                                                                                                                                                                                                           |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -111,11 +117,11 @@ The equation for GL\_EXP2 fog is:
 
 ![](images/fog03.png)
 
-Regardless of the fog mode, *f* is clamped to the range \[0,1\] after it is computed. Then, if OpenGL is in RGBA color mode, the fragment's color *C*<sub>r</sub> is replaced by
+Regardless of the fog mode, *f* is clamped to the range \[0,1\] after it is computed. Then, if OpenGL is in RGBA color mode, the fragment's color *C*<sub>r</sub> is replaced by
 
 ![](images/fog04.png)
 
-In color-index mode, the fragment's color index *i*<sub>r</sub> is replaced by
+In color-index mode, the fragment's color index *i*<sub>r</sub> is replaced by
 
 ![](images/fog05.png)
 
@@ -141,8 +147,8 @@ The following functions retrieve information related to the **glFog** functions:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -171,9 +177,9 @@ The following functions retrieve information related to the **glFog** functions:
 [**glIsEnabled**](glisenabled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

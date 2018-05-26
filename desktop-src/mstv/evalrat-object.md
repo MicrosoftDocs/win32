@@ -1,7 +1,12 @@
 ---
 title: EvalRat Object
 description: EvalRat Object
-ms.assetid: '6a67cdb1-9a5c-4130-a29c-05c584702fd9'
+ms.assetid: 6a67cdb1-9a5c-4130-a29c-05c584702fd9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EvalRat Object
@@ -17,7 +22,7 @@ This object is created by third parties. It must support the **IEvalRat** interf
 |            |                              |
 |------------|------------------------------|
 | CLSID      | CLSID\_EvalRat               |
-| Interfaces | [**IEvalRat**](ievalrat.md) |
+| Interfaces | [**IEvalRat**](/windows/previous-versions/Tvratings/nn-tvratings-ievalrat?branch=master) |
 
 
 

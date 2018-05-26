@@ -1,7 +1,12 @@
 ---
-Description: 'The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.'
-ms.assetid: '4c1e48c1-dbef-4da1-affb-f902b58128ca'
-title: 'System.PropGroup.Origin'
+Description: The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
+ms.assetid: 4c1e48c1-dbef-4da1-affb-f902b58128ca
+title: System.PropGroup.Origin
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.PropGroup.Origin

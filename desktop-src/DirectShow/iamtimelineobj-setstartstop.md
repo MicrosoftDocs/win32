@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetStartStop method sets the object''s start and stop times, relative to the object''s parent.'
-ms.assetid: '6275a36b-f963-4916-bf60-ea68008ad153'
-title: 'IAMTimelineObj::SetStartStop method'
+---
+Description: The SetStartStop method sets the objects start and stop times, relative to the objects parent.
+ms.assetid: 6275a36b-f963-4916-bf60-ea68008ad153
+title: IAMTimelineObjSetStartStop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::SetStartStop method

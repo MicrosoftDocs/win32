@@ -1,7 +1,12 @@
-﻿---
-Description: 'Texture save options.'
-ms.assetid: 'c9ca47aa-7273-48b3-ba13-d603104ec1fd'
-title: 'D3DX10\_SAVE\_TEXTURE\_FLAG enumeration'
+---
+Description: Texture save options.
+ms.assetid: c9ca47aa-7273-48b3-ba13-d603104ec1fd
+title: D3DX10\_SAVE\_TEXTURE\_FLAG enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10\_SAVE\_TEXTURE\_FLAG enumeration

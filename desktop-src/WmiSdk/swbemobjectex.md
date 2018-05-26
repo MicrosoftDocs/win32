@@ -1,13 +1,16 @@
 ---
-Description: 'Provides extended functionality for SWbemObject. Like SWbemObject, the methods of this extended object can be used by all WMI objects.'
+Description: Provides extended functionality for SWbemObject. Like SWbemObject, the methods of this extended object can be used by all WMI objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '944d4cdc-ad35-4b53-b755-f10131a087fb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 944d4cdc-ad35-4b53-b755-f10131a087fb
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemObjectEx object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectEx object
@@ -35,7 +38,7 @@ The **SWbemObjectEx** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -49,7 +52,7 @@ The **SWbemObjectEx** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -57,8 +60,8 @@ The **SWbemObjectEx** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -77,12 +80,12 @@ The **SWbemObjectEx** object has these properties.
 [**SWbemObject**](swbemobject.md)
 </dt> <dt>
 
-[WbemObjectTextFormatEnum](wbemobjecttextformatenum.md)
+[WbemObjectTextFormatEnum](/windows/win32/Wbemdisp/ne-wbemdisp-wbemobjecttextformatenum?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

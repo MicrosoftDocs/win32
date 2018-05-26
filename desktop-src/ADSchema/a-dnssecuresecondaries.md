@@ -4,17 +4,22 @@ description: The Dns-Secure-Secondaries attribute is not currently used.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ba5110f1-e451-4f85-897e-e4223649dc10'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ba5110f1-e451-4f85-897e-e4223649dc10
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Dns-Secure-Secondaries attribute AD Schema", "dnsSecureSecondaries attribute AD Schema"]
+keywords:
+- Dns-Secure-Secondaries attribute AD Schema
+- dnsSecureSecondaries attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Dns-Secure-Secondaries
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Dns-Secure-Secondaries attribute
@@ -38,12 +43,12 @@ The **Dns-Secure-Secondaries** attribute is not currently used.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The **Dns-Secure-Secondaries** attribute is not currently used.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'An exception is an event that occurs during the execution of a program, and requires the execution of code outside the normal flow of control.'
-ms.assetid: 'ab5bc1bd-107f-4ed2-b471-a229a76637fe'
+Description: An exception is an event that occurs during the execution of a program, and requires the execution of code outside the normal flow of control.
+ms.assetid: ab5bc1bd-107f-4ed2-b471-a229a76637fe
 title: Structured Exception Handling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structured Exception Handling

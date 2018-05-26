@@ -4,17 +4,21 @@ description: Defines the roles supported by the SDK.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '79B032AE-AEF8-49CF-93FC-4926A139DB5D'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 79B032AE-AEF8-49CF-93FC-4926A139DB5D
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSRole class"]
+keywords:
+- MSRole class
 topic_type:
 - apiref
 api_name:
 - MSRole class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSRole class
@@ -40,7 +44,7 @@ Defines the roles supported by the SDK.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -56,15 +60,15 @@ MSRole.h
 
 
 
- 
+ 
 
 ## Thread Safety
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

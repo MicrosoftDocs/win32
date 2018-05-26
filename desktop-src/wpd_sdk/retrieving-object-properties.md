@@ -1,7 +1,12 @@
 ---
 Description: Retrieving Object Properties
-ms.assetid: '499644ee-9eef-4267-9c45-7c7ba9ef61af'
+ms.assetid: 499644ee-9eef-4267-9c45-7c7ba9ef61af
 title: Retrieving Object Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Object Properties

@@ -1,8 +1,21 @@
 ---
 title: Localized System Profiles
 description: Localized System Profiles
-ms.assetid: '2c218ab4-ecdb-414c-aa42-b71a42e340e5'
-keywords: ["Windows Media Format SDK,system profiles", "Advanced Systems Format (ASF),system profiles", "ASF (Advanced Systems Format),system profiles", "Windows Media Format SDK,localized system profiles", "Advanced Systems Format (ASF),localized system profiles", "ASF (Advanced Systems Format),localized system profiles", "system profiles,localized", "localized system profiles,list of"]
+ms.assetid: 2c218ab4-ecdb-414c-aa42-b71a42e340e5
+keywords:
+- Windows Media Format SDK,system profiles
+- Advanced Systems Format (ASF),system profiles
+- ASF (Advanced Systems Format),system profiles
+- Windows Media Format SDK,localized system profiles
+- Advanced Systems Format (ASF),localized system profiles
+- ASF (Advanced Systems Format),localized system profiles
+- system profiles,localized
+- localized system profiles,list of
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Localized System Profiles
@@ -43,7 +56,7 @@ The following table lists the localized system profile files included with the W
 
  
 
-You can set the language for the profile manager object by calling the [**IWMProfileManagerLanguage::SetUserLanguageID**](iwmprofilemanagerlanguage-setuserlanguageid.md) method. For most languages, only the primary language identifier in the LANGID is examined. The exceptions are for the Chinese and Portuguese languages, where the secondary language identifier is also used. The following table shows how to create a LANGID to specify in the **SetUserLanguageID** method.
+You can set the language for the profile manager object by calling the [**IWMProfileManagerLanguage::SetUserLanguageID**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofilemanagerlanguage-setuserlanguageid?branch=master) method. For most languages, only the primary language identifier in the LANGID is examined. The exceptions are for the Chinese and Portuguese languages, where the secondary language identifier is also used. The following table shows how to create a LANGID to specify in the **SetUserLanguageID** method.
 
 
 

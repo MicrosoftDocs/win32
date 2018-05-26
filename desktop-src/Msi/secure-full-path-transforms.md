@@ -1,7 +1,12 @@
 ---
-Description: 'Secure-full-path transforms must have a source located at the full path specified in the TRANSFORMS property.'
-ms.assetid: '9c1cd6c5-d246-49d8-a632-991274bb4511'
-title: 'Secure-Full-Path Transforms'
+Description: Secure-full-path transforms must have a source located at the full path specified in the TRANSFORMS property.
+ms.assetid: 9c1cd6c5-d246-49d8-a632-991274bb4511
+title: Secure-Full-Path Transforms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Secure-Full-Path Transforms

@@ -1,7 +1,12 @@
 ---
 title: dp4 (sm4 - asm)
 description: 4-dimensional vector dot-product of components rgba, POS-swizzle.
-ms.assetid: 'A41EC054-0060-49CA-90FB-A096E63DD27D'
+ms.assetid: A41EC054-0060-49CA-90FB-A096E63DD27D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dp4 (sm4 - asm)
@@ -15,7 +20,7 @@ ms.assetid: 'A41EC054-0060-49CA-90FB-A096E63DD27D'
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ ms.assetid: 'A41EC054-0060-49CA-90FB-A096E63DD27D'
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,7 +48,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -62,7 +67,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -71,9 +76,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

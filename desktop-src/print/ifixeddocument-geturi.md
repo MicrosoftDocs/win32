@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetUri method gets the URI of the fixed document.'
-ms.assetid: 'ed19deff-ecb3-4c6c-bbf5-a82a27b5934e'
-title: 'IFixedDocument::GetUri method'
+---
+Description: The GetUri method gets the URI of the fixed document.
+ms.assetid: ed19deff-ecb3-4c6c-bbf5-a82a27b5934e
+title: IFixedDocumentGetUri method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedDocument::GetUri method

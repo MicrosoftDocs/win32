@@ -1,14 +1,20 @@
 ---
 title: Delay (bootTriggerType) Element
 description: Specifies the amount of time between when the system is booted and when the task is started.
-ms.assetid: '2a583069-ad38-43b4-bcf2-f7c9101f1927'
-keywords: ["Delay element Task Scheduler"]
+ms.assetid: 2a583069-ad38-43b4-bcf2-f7c9101f1927
+keywords:
+- Delay element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Delay
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Delay (bootTriggerType) Element
@@ -37,7 +43,7 @@ The **Delay** element is defined by the [**bootTriggerType**](taskschedulerschem
 
 For script development, the event trigger delay is specified by the [**BootTrigger.Delay**](boottrigger-delay.md) property.
 
-For C++ development, the event trigger delay is specified by the [**IBootTrigger::Delay**](iboottrigger-delay.md) property.
+For C++ development, the event trigger delay is specified by the [**IBootTrigger::Delay**](/windows/win32/taskschd/nf-taskschd-iboottrigger-get_delay?branch=master) property.
 
 ## Requirements
 
@@ -45,8 +51,8 @@ For C++ development, the event trigger delay is specified by the [**IBootTrigger
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ For C++ development, the event trigger delay is specified by the [**IBootTrigger
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

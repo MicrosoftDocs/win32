@@ -1,14 +1,20 @@
 ---
 title: AuthorSortOrder Attribute
 description: The AuthorSortOrder attribute is the value to use for sorting the Author column in the library.
-ms.assetid: 'c8e15681-acca-408f-be52-1e980afddd0d'
-keywords: ["AuthorSortOrder Attribute Windows Media Player"]
+ms.assetid: c8e15681-acca-408f-be52-1e980afddd0d
+keywords:
+- AuthorSortOrder Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AuthorSortOrder
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AuthorSortOrder Attribute
@@ -43,9 +49,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the RecipientName property of a FaxDoc object. The RecipientName property is a null-terminated string that contains the name of the recipient of the fax transmission.'
-ms.assetid: '13756bf1-98b6-4339-9c00-d6cb6dc4edf3'
-title: 'FaxDoc.RecipientName property'
+---
+Description: Sets or retrieves the RecipientName property of a FaxDoc object. The RecipientName property is a null-terminated string that contains the name of the recipient of the fax transmission.
+ms.assetid: 13756bf1-98b6-4339-9c00-d6cb6dc4edf3
+title: FaxDoc.RecipientName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.RecipientName property
@@ -55,7 +60,7 @@ The **get\_RecipientName** method allocates the memory required for the buffer p
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

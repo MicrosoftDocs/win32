@@ -1,7 +1,12 @@
 ---
-Description: 'The SESSION structure contains information about the current session.'
-ms.assetid: 'e04571f9-eeb7-4612-8cb2-05aca7b5df06'
+Description: The SESSION structure contains information about the current session.
+ms.assetid: e04571f9-eeb7-4612-8cb2-05aca7b5df06
 title: SESSION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SESSION structure
@@ -155,7 +160,7 @@ A handle to the FDI context. This datatype is declared as follows:
 **erf**
 </dt> <dd>
 
-The FDI error structure. See [**ERF**](erf.md).
+The FDI error structure. See [**ERF**](/windows/win32/Fdi/ns-acpitabl-_firmware_boot_performance_table?branch=master).
 
 </dd> <dt>
 

@@ -4,13 +4,16 @@ description: KillJob is being deprecated because there is no distinction made be
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6da9110e-0d40-49b6-82bf-7ae0014698f0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6da9110e-0d40-49b6-82bf-7ae0014698f0
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["KillJob method iSCSI Software Target API", "KillJob method iSCSI Software Target API , CIM_ConcreteJob class", "CIM_ConcreteJob class iSCSI Software Target API , KillJob method"]
+keywords:
+- KillJob method iSCSI Software Target API
+- KillJob method iSCSI Software Target API , CIM_ConcreteJob class
+- CIM_ConcreteJob class iSCSI Software Target API , KillJob method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # KillJob method of the CIM\_ConcreteJob class
@@ -30,7 +36,7 @@ KillJob is being deprecated because there is no distinction made between an orde
 
 ```mof
 uint32 KillJob(
-  [in] boolean DeleteOnKill
+  [in] boolean DeleteOnKill
 );
 ```
 
@@ -72,10 +78,10 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 **Not Found** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–32767)
+**DMTF Reserved** (8 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -85,7 +91,7 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -99,9 +105,9 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Creating the VolumeThumb File
 description: Creating the VolumeThumb File
-ms.assetid: '1e096a38-5688-4f62-b58f-954e910c5259'
-keywords: ["Windows Media Player Mobile skins,VolumeThumb files", "skins,VolumeThumb files", "creating skins,VolumeThumb files", "VolumeThumb files in skins", "thumb,VolumeThumb files"]
+ms.assetid: 1e096a38-5688-4f62-b58f-954e910c5259
+keywords:
+- Windows Media Player Mobile skins,VolumeThumb files
+- skins,VolumeThumb files
+- creating skins,VolumeThumb files
+- VolumeThumb files in skins
+- thumb,VolumeThumb files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the VolumeThumb File

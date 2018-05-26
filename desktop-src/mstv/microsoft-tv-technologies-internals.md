@@ -1,7 +1,12 @@
 ---
 title: Microsoft TV Technologies Internals
 description: Microsoft TV Technologies Internals
-ms.assetid: '8e97052b-6140-4c6c-99e1-f250268141d1'
+ms.assetid: 8e97052b-6140-4c6c-99e1-f250268141d1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft TV Technologies Internals

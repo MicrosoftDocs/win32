@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '21faf809-1335-4d93-be06-628c5a05a4c8'
+Description: .
+ms.assetid: 21faf809-1335-4d93-be06-628c5a05a4c8
 title: OPM Certificate Revocation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM Certificate Revocation

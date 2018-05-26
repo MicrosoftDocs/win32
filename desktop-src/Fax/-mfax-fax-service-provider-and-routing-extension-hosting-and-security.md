@@ -1,7 +1,12 @@
 ---
-Description: 'Beginning with Windows Server 2003, FSPs and Routing Extensions are loaded into a provider subsystem with the NetworkService security account.'
-ms.assetid: 'd0a91e09-a71c-4e6b-a015-5f89e2e4d314'
+Description: Beginning with Windows Server 2003, FSPs and Routing Extensions are loaded into a provider subsystem with the NetworkService security account.
+ms.assetid: d0a91e09-a71c-4e6b-a015-5f89e2e4d314
 title: Fax Service Provider and Routing Extension Hosting and Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Provider and Routing Extension Hosting and Security

@@ -1,8 +1,9 @@
 ---
 title: CB\_SETLOCALE message
 description: An application sends a CB\_SETLOCALE message to set the current locale of the combo box. If the combo box has the CBS\_SORT style and strings are added using CB\_ADDSTRING, the locale of a combo box affects how list items are sorted.
-ms.assetid: '06f9c69d-1220-490f-bc67-6e125f696e87'
-keywords: ["CB_SETLOCALE message Windows Controls"]
+ms.assetid: 06f9c69d-1220-490f-bc67-6e125f696e87
+keywords:
+- CB_SETLOCALE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_SETLOCALE message
@@ -49,8 +55,8 @@ Use the [**MAKELCID**](https://msdn.microsoft.com/library/windows/desktop/dd3190
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -77,9 +83,9 @@ Use the [**MAKELCID**](https://msdn.microsoft.com/library/windows/desktop/dd3190
 [**MAKELCID**](https://msdn.microsoft.com/library/windows/desktop/dd319052)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

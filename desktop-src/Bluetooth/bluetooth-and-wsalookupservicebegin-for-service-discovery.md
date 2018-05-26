@@ -1,8 +1,14 @@
 ---
 title: Bluetooth and WSALookupServiceBegin for Service Discovery
 description: To discover the existence of a particular service on a Bluetooth server, clients use the WSALookupServiceBegin, WSALookupServiceNext, and WSALookupServiceEnd functions.
-ms.assetid: 'd9961600-cdca-42ec-92eb-118b8186ed2e'
-keywords: ["Bluetooth and WSALookupServiceBegin for Service Discovery Bluetooth"]
+ms.assetid: d9961600-cdca-42ec-92eb-118b8186ed2e
+keywords:
+- Bluetooth and WSALookupServiceBegin for Service Discovery Bluetooth
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and WSALookupServiceBegin for Service Discovery
@@ -29,9 +35,9 @@ The [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/deskt
 
 
 
- 
+ 
 
-The SDP connection to the remote device does not remain active after the [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/desktop/ms741633) function completes a service query; the connection is terminated before **WSALookupServiceBegin** returns. Applications that require the SDP connection to remain active after a service query completes should specify the service class UUID to which to connect by using the **serviceClassId** member of the [**SOCKADDR\_BTH**](sockaddr-bth.md) structure when issuing the Windows Sockets [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) function call.
+The SDP connection to the remote device does not remain active after the [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/desktop/ms741633) function completes a service query; the connection is terminated before **WSALookupServiceBegin** returns. Applications that require the SDP connection to remain active after a service query completes should specify the service class UUID to which to connect by using the **serviceClassId** member of the [**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master) structure when issuing the Windows Sockets [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) function call.
 
 The flags, listed in the following table, are used in the *dwControlFlags* parameter of the [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/desktop/ms741633) and [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641) functions to control the query results. The **LUP\_CONTAINERS** and **LUP\_FLUSHCACHE** flags are used by the **WSALookupServiceBegin** function; the rest of the flags are used in calls to the **WSALookupServiceNext** function.
 
@@ -97,7 +103,7 @@ Use of this flag is only applicable to the [<strong>WSALookupServiceBegin</stron
 
 
 
- 
+ 
 
 ## Advanced Service Queries
 
@@ -111,13 +117,13 @@ To perform an advanced query for services, Bluetooth clients must specify the fo
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **dwSize**           | Set to **sizeof**([**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679)).                                                                                                                                                                                                                                                                        |
 | **lpszContext**      | Set to the Bluetooth Device Address with which to establish an SDP connection to perform the query of services. This member must be a string that is converted by using the [**WSAAddressToString**](https://msdn.microsoft.com/library/windows/desktop/ms741516) function. If the local radio address is supplied, the local SDP records are searched.<br/> |
-| **lpBlob.pBlobData** | Pointer to a [**BTH\_QUERY\_SERVICE**](bth-query-service.md) structure that contains all parameters that limit the results of the query.                                                                                                                                                                                           |
+| **lpBlob.pBlobData** | Pointer to a [**BTH\_QUERY\_SERVICE**](/windows/win32/Ws2bth/ns-ws2bth-_bth_query_service?branch=master) structure that contains all parameters that limit the results of the query.                                                                                                                                                                                           |
 | **dwNameSpace**      | Set to **NS\_BTH**.                                                                                                                                                                                                                                                                                                                 |
 | Other members        | All other members of the [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure are ignored.                                                                                                                                                                                                                                            |
 
 
 
- 
+ 
 
 The following flags are passed in the *dwControlFlags* parameter of [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/desktop/ms741633) to control the results of an advanced query.
 
@@ -135,14 +141,14 @@ The following flags are passed in the *dwControlFlags* parameter of [**WSALookup
 
 
 
- 
+ 
 
-On input, **lpBlob**-&gt;**pBlobData** points to a [**BTH\_QUERY\_SERVICE**](bth-query-service.md) structure that contains the values listed in the following table.
+On input, **lpBlob**-&gt;**pBlobData** points to a [**BTH\_QUERY\_SERVICE**](/windows/win32/Ws2bth/ns-ws2bth-_bth_query_service?branch=master) structure that contains the values listed in the following table.
 
 > [!Note]  
 > The initial search request must be able to fit into one L2CAP packet. The response, however, may be broken into many L2CAP packets.
 
- 
+ 
 
 
 
@@ -156,7 +162,7 @@ On input, **lpBlob**-&gt;**pBlobData** points to a [**BTH\_QUERY\_SERVICE**](bth
 
 
 
- 
+ 
 
 After each successful call to the [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641) function, **lpBlob**-&gt;**pBlobData** points to a block of data that contains the values listed in the following table.
 
@@ -167,12 +173,12 @@ After each successful call to the [**WSALookupServiceNext**](https://msdn.micros
 
 
 
- 
+ 
 
 > [!Note]  
 > If the **lpBlob** member is not specified during input for a service query, a service and attribute search is performed for the service specified in the **lpServiceClassId** member on attributes from 0 through 0xFFFF.
 
- 
+ 
 
 ## Related topics
 
@@ -190,13 +196,13 @@ After each successful call to the [**WSALookupServiceNext**](https://msdn.micros
 [Bluetooth and WSALookupServiceBegin for Device Inquiry](bluetooth-and-wsalookupservicebegin-for-device-inquiry.md)
 </dt> <dt>
 
-[**BTH\_QUERY\_SERVICE**](bth-query-service.md)
+[**BTH\_QUERY\_SERVICE**](/windows/win32/Ws2bth/ns-ws2bth-_bth_query_service?branch=master)
 </dt> <dt>
 
 [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625)
 </dt> <dt>
 
-[**SOCKADDR\_BTH**](sockaddr-bth.md)
+[**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master)
 </dt> <dt>
 
 [**WSAAddressToString**](https://msdn.microsoft.com/library/windows/desktop/ms741516)
@@ -217,9 +223,9 @@ After each successful call to the [**WSALookupServiceNext**](https://msdn.micros
 [Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

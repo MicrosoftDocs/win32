@@ -1,7 +1,12 @@
 ---
 title: Allocating a DBCOMMANDTREE Structure
 description: Allocating a DBCOMMANDTREE Structure
-ms.assetid: '0e2afeef-48dc-4b08-a610-b2fde6774b4c'
+ms.assetid: 0e2afeef-48dc-4b08-a610-b2fde6774b4c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Allocating a DBCOMMANDTREE Structure

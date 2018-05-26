@@ -1,7 +1,12 @@
 ---
 title: VML CropTop Attribute
 description: VML CropTop Attribute
-ms.assetid: 'b54939b6-0505-43b0-bf82-c3df82dc2633'
+ms.assetid: b54939b6-0505-43b0-bf82-c3df82dc2633
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML CropTop Attribute

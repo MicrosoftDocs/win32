@@ -1,7 +1,12 @@
-﻿---
-Description: 'Suggests the security policy to be applied to the browser.'
-ms.assetid: '73541611-2024-4c33-ab03-e3204244c46c'
-title: 'IItemPreviewerExt::SuggestBrowserPolicy method'
+---
+Description: Suggests the security policy to be applied to the browser.
+ms.assetid: 73541611-2024-4c33-ab03-e3204244c46c
+title: IItemPreviewerExtSuggestBrowserPolicy method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IItemPreviewerExt::SuggestBrowserPolicy method

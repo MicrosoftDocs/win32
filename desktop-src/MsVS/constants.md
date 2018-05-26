@@ -1,8 +1,14 @@
 ---
 title: Virtual Server Constants
 description: Virtual Server Constants
-ms.assetid: '42b91256-4705-4072-8f34-28987be684d7'
-keywords: ["Virtual Server COM Interface Virtual Server , constants"]
+ms.assetid: 42b91256-4705-4072-8f34-28987be684d7
+keywords:
+- Virtual Server COM Interface Virtual Server , constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual Server Constants

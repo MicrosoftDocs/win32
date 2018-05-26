@@ -1,7 +1,12 @@
 ---
 title: The Difference Between Binary and Site Map Indexes
 description: There are two types of indexes available for help authors to use, a binary index or a site map index. Each type of index has its own unique features.
-ms.assetid: 'B5489B75-E4B9-44f4-9F16-9495C5825F56'
+ms.assetid: B5489B75-E4B9-44f4-9F16-9495C5825F56
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Difference Between Binary and Site Map Indexes

@@ -1,7 +1,12 @@
 ---
 title: FilterDirectories
 description: FilterDirectories
-ms.assetid: '64d06424-5fc1-44d7-9f84-5f9cdd8f3a5d'
+ms.assetid: 64d06424-5fc1-44d7-9f84-5f9cdd8f3a5d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterDirectories

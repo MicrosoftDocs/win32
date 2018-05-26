@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is step 1 of the tutorial How to Play Media Files with Media Foundation.'
-ms.assetid: '10767bbf-3b47-4df1-be73-18678397c0ab'
-title: 'Step 1: Declare the CPlayer Class'
+Description: This topic is step 1 of the tutorial How to Play Media Files with Media Foundation.
+ms.assetid: 10767bbf-3b47-4df1-be73-18678397c0ab
+title: Step 1 Declare the CPlayer Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 1: Declare the CPlayer Class
@@ -104,14 +109,14 @@ Here are some things to note about `CPlayer`:
 
 -   The constant **WM\_APP\_PLAYER\_EVENT** defines a private window message. This message is used to notify the application about Media Session events. See [Step 5: Handle Media Session Events](step-5--handle-media-session-events.md).
 -   The `PlayerState` enumeration defines the possible states of the `CPlayer` object.
--   The `CPlayer` class implements the [**IMFAsyncCallback**](imfasynccallback.md) interface, which is used to get event notifications from the Media Session.
+-   The `CPlayer` class implements the [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface, which is used to get event notifications from the Media Session.
 -   The `CPlayer` constructor is private. The application calls the static `CreateInstance` method to create an instance of the `CPlayer` class.
 -   The `CPlayer` destructor is also private. The `CPlayer` class implements **IUnknown**, so the object's lifetime is controlled through its reference count (*m\_nRefCount*). To destroy the object, the application calls **IUnknown::Release**, not **delete**.
 -   The `CPlayer` object manages both the Media Session and the media source.
 
 ## Implement IUnknown
 
-The `CPlayer` class implements [**IMFAsyncCallback**](imfasynccallback.md), which inherits **IUnknown**.
+The `CPlayer` class implements [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master), which inherits **IUnknown**.
 
 The code shown here is a fairly standard implementation of **IUnknown**. If you prefer, you can use the Active Template Library (ATL) to implement these methods. However, `CPlayer` does not support [**CoCreateInstance**](com.cocreateinstance) or any advanced COM features, so there is no overwhelming reason to use ATL here.
 

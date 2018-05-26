@@ -1,7 +1,12 @@
 ---
 title: MaxIdealIndexes
 description: MaxIdealIndexes
-ms.assetid: 'b9f5fc4a-a1db-44ce-9130-cbd7f4ea0a8d'
+ms.assetid: b9f5fc4a-a1db-44ce-9130-cbd7f4ea0a8d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxIdealIndexes

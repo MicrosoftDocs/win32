@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a mesh object using a declarator.'
-ms.assetid: 'ff977517-0a46-4c32-8d5e-f5fc3c1718c1'
+---
+Description: Creates a mesh object using a declarator.
+ms.assetid: ff977517-0a46-4c32-8d5e-f5fc3c1718c1
 title: D3DXCreateMesh function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateMesh function
@@ -67,9 +72,9 @@ Array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, describing the 
 *pD3DDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, the device object to be associated with the mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, the device object to be associated with the mesh.
 
 </dd> <dt>
 

@@ -1,7 +1,12 @@
 ---
 title: Default Property Names for a Web Catalog
 description: Default Property Names for a Web Catalog
-ms.assetid: '7285d091-e15b-481b-9a46-eb836005689e'
+ms.assetid: 7285d091-e15b-481b-9a46-eb836005689e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Default Property Names for a Web Catalog
@@ -11,7 +16,7 @@ ms.assetid: '7285d091-e15b-481b-9a46-eb836005689e'
 
  
 
-This list of properties includes all properties in the property store exposed by system [**IFilter**](ifilter.md) implementations. Additional properties can be indexed by using custom property features, if available, documented in each **IFilter** implementation or by installing additional **IFilter** implementations that expose additional properties.
+This list of properties includes all properties in the property store exposed by system [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) implementations. Additional properties can be indexed by using custom property features, if available, documented in each **IFilter** implementation or by installing additional **IFilter** implementations that expose additional properties.
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Side-by-side assemblies are used with the following types of manifest and configuration files. Manifests and configurations are XML files.'
-ms.assetid: '8b969a8f-586c-4556-87be-92db6c61e8ce'
+Description: Side-by-side assemblies are used with the following types of manifest and configuration files. Manifests and configurations are XML files.
+ms.assetid: 8b969a8f-586c-4556-87be-92db6c61e8ce
 title: Manifest Files Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manifest Files Reference

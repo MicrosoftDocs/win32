@@ -1,8 +1,15 @@
 ---
 title: Asynchronous RPC
 description: Asynchronous Remote Procedure Call (RPC) is a Microsoft extension that addresses several limitations of the traditional RPC model as defined by the Open Software Foundation \ 8211;Distributed Computing Environment (OSF-DCE).
-ms.assetid: 'a9105518-4130-4119-b8d1-e73064b077e9'
-keywords: ["Remote Procedure Call RPC , described, asynchronous RPC", "asynchronous RPC"]
+ms.assetid: a9105518-4130-4119-b8d1-e73064b077e9
+keywords:
+- Remote Procedure Call RPC , described, asynchronous RPC
+- asynchronous RPC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Asynchronous RPC

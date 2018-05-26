@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the &\#0034;leaky bucket&\#0034; parameters for a stream on an ASF media sink.'
-ms.assetid: 'b01e59b6-0a7f-4125-867c-532385a27c15'
-title: 'MFPKEY\_ASFSTREAMSINK\_CORRECTED\_LEAKYBUCKET property'
+---
+Description: Specifies the &\#0034;leaky bucket&\#0034; parameters for a stream on an ASF media sink.
+ms.assetid: b01e59b6-0a7f-4125-867c-532385a27c15
+title: MFPKEY\_ASFSTREAMSINK\_CORRECTED\_LEAKYBUCKET property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_ASFSTREAMSINK\_CORRECTED\_LEAKYBUCKET property
@@ -50,7 +55,7 @@ The value of this property is an array of three **DWORD** values in the followin
 
 <dl> <dt>
 
-[**IMFStreamSink**](imfstreamsink.md)
+[**IMFStreamSink**](/windows/win32/mfidl/nn-mfidl-imfstreamsink?branch=master)
 </dt> <dt>
 
 [Media Foundation Properties](media-foundation-properties.md)

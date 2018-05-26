@@ -1,21 +1,27 @@
 ---
 title: index command
-description: The index command controls a VCR's on-screen display. VCR devices recognize this command.
-ms.assetid: '16066acf-37aa-4bff-b97e-5eb2420ac3c4'
-keywords: ["index command Windows Multimedia"]
+description: The index command controls a VCRs on-screen display. VCR devices recognize this command.
+ms.assetid: 16066acf-37aa-4bff-b97e-5eb2420ac3c4
+keywords:
+- index command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - index
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # index command
 
 The index command controls a VCR's on-screen display. VCR devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ One of the following flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -73,8 +79,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -91,9 +97,9 @@ Returns zero if successful or an error otherwise.
 [set](set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

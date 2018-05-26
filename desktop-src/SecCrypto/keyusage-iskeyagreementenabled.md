@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a Boolean value that indicates whether the keyAgreement bit is set.'
-ms.assetid: '3dd1f6c7-893d-453e-92dc-ffeffd879519'
-title: 'KeyUsage.IsKeyAgreementEnabled property'
+---
+Description: Retrieves a Boolean value that indicates whether the keyAgreement bit is set.
+ms.assetid: 3dd1f6c7-893d-453e-92dc-ffeffd879519
+title: KeyUsage.IsKeyAgreementEnabled property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeyUsage.IsKeyAgreementEnabled property

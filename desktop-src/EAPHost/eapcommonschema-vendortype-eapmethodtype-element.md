@@ -1,14 +1,20 @@
 ---
 title: VendorType (EapMethodType) Element
 description: Is the vendor defined type for the method.
-ms.assetid: 'baa43e60-05e2-43f9-bb38-896725be76b4'
-keywords: ["VendorType element EAPHost"]
+ms.assetid: baa43e60-05e2-43f9-bb38-896725be76b4
+keywords:
+- VendorType element EAPHost
 topic_type:
 - apiref
 api_name:
 - VendorType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VendorType (EapMethodType) Element
@@ -31,8 +37,8 @@ The **VendorType** element is defined by the [**EapMethodType**](eapcommonschema
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -52,9 +58,9 @@ The **VendorType** element is defined by the [**EapMethodType**](eapcommonschema
 [eapcommon Schema](eapcommonschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

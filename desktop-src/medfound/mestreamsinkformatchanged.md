@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by a stream sink when the sink's media type is no longer valid.'
-ms.assetid: '9eeb4262-1593-4c5f-9341-ebd328b586e7'
+---
+Description: Raised by a stream sink when the sinks media type is no longer valid.
+ms.assetid: 9eeb4262-1593-4c5f-9341-ebd328b586e7
 title: MEStreamSinkFormatChanged event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEStreamSinkFormatChanged event
@@ -10,7 +15,7 @@ Raised by a stream sink when the sink's media type is no longer valid.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -24,7 +29,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getva
 
 A stream sink can raise this even if something happens that invalidates the stream sink's media type. For example, the enhanced video renderer (EVR) sends this event when the display changes.
 
-The **HRESULT** value retrieved by [**IMFMediaEvent::GetStatus**](imfmediaevent-getstatus.md) might indicate why the media type is no longer valid.
+The **HRESULT** value retrieved by [**IMFMediaEvent::GetStatus**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getstatus?branch=master) might indicate why the media type is no longer valid.
 
 ## Requirements
 

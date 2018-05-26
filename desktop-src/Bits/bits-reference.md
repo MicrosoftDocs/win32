@@ -1,8 +1,15 @@
 ---
 title: BITS Reference
 description: The Background Intelligent Transfer Service (BITS) reference section contains detailed information about the following API elements.
-ms.assetid: '84f9e075-7f54-4c05-bb40-a1118a96d71c'
-keywords: ["Background Intelligent Transfer Service", "Background Intelligent Transfer Service,reference"]
+ms.assetid: 84f9e075-7f54-4c05-bb40-a1118a96d71c
+keywords:
+- Background Intelligent Transfer Service
+- Background Intelligent Transfer Service,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITS Reference

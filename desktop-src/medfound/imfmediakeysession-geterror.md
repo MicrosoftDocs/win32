@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the error state associated with the media key session.'
-ms.assetid: '4693b7d5-59ee-472f-83fc-1ecbcc165dac'
-title: 'IMFMediaKeySession::GetError method'
+---
+Description: Gets the error state associated with the media key session.
+ms.assetid: 4693b7d5-59ee-472f-83fc-1ecbcc165dac
+title: IMFMediaKeySessionGetError method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFMediaKeySession::GetError method
@@ -58,7 +63,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IMFMediaKeySession**](imfmediakeysession.md)
+[**IMFMediaKeySession**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediakeysession?branch=master)
 </dt> </dl>
 
  

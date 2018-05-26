@@ -4,10 +4,13 @@ description: Every object in Active Directory Domain Services has two attributes
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bb46f165-8c6e-4af1-b387-e0e30a4c6226'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: bb46f165-8c6e-4af1-b387-e0e30a4c6226
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Determining the Classes Associated With an Object Instance

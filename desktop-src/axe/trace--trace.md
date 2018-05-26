@@ -1,8 +1,11 @@
 ---
 title: Trace ~Trace destructor
 description: Destructor method.
-ms.assetid: 'EF0F1602-FECD-40FD-BF09-BC0153858C66'
-keywords: ["~Trace destructor Access Execution Engine", "~Trace destructor Access Execution Engine , Trace interface", "Trace interface Access Execution Engine , ~Trace destructor"]
+ms.assetid: EF0F1602-FECD-40FD-BF09-BC0153858C66
+keywords:
+- ~Trace destructor Access Execution Engine
+- ~Trace destructor Access Execution Engine , Trace interface
+- Trace interface Access Execution Engine , ~Trace destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trace::~Trace destructor
@@ -36,8 +44,8 @@ virtual ~Trace();
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -50,9 +58,9 @@ virtual ~Trace();
 [**Trace**](trace-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

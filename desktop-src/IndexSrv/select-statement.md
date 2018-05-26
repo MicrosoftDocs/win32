@@ -1,7 +1,12 @@
 ---
 title: SELECT Statement
 description: SELECT Statement
-ms.assetid: '8791d086-ddb1-47fa-894e-a8099d0e632c'
+ms.assetid: 8791d086-ddb1-47fa-894e-a8099d0e632c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SELECT Statement

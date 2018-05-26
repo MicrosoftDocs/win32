@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_SERVICE'
-ms.assetid: '87c4c228-69e0-4b55-b91f-fe6e561f6d18'
-title: 'WPD\_CONTENT\_TYPE\_SERVICE'
+Description: WPD\_CONTENT\_TYPE\_SERVICE
+ms.assetid: 87c4c228-69e0-4b55-b91f-fe6e561f6d18
+title: WPD\_CONTENT\_TYPE\_SERVICE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_SERVICE

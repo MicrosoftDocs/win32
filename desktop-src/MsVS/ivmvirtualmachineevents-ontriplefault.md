@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachineEvents OnTripleFault method
 description: Called when a virtual machine has triple-faulted.
-ms.assetid: '97e871da-d1f2-4e7d-b4b6-c8842e324c2d'
-keywords: ["OnTripleFault method Virtual Server", "OnTripleFault method Virtual Server , IVMVirtualMachineEvents interface", "IVMVirtualMachineEvents interface Virtual Server , OnTripleFault method"]
+ms.assetid: 97e871da-d1f2-4e7d-b4b6-c8842e324c2d
+keywords:
+- OnTripleFault method Virtual Server
+- OnTripleFault method Virtual Server , IVMVirtualMachineEvents interface
+- IVMVirtualMachineEvents interface Virtual Server , OnTripleFault method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachineEvents::OnTripleFault method
@@ -44,8 +52,8 @@ This method is called when a virtual machine has triple-faulted. The client prog
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -57,9 +65,9 @@ This method is called when a virtual machine has triple-faulted. The client prog
 [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

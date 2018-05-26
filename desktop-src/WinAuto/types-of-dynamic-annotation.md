@@ -1,7 +1,12 @@
 ---
 title: Types of Dynamic Annotation
 description: There are three types of Dynamic Annotation supported in Microsoft Active Accessibility direct annotation, value-mapped annotation, and server annotation. Each type offers specific advantages, so it is important to understand the differences.
-ms.assetid: '113fea65-982e-4291-9d60-bbb57282f3f4'
+ms.assetid: 113fea65-982e-4291-9d60-bbb57282f3f4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Types of Dynamic Annotation
@@ -14,13 +19,13 @@ Direct annotation is the simplest form of Dynamic Annotation. It is most applica
 
 ## Value Map Annotation
 
-In addition to directly annotating [**IAccessible**](iaccessible.md) properties, there is often a need to convert a control-specific value into a string that can be understood by an end user. An example is the screen resolution slider control under the **Settings** tab on the **Display Properties** window (from **Control Panel**). While each slider position corresponds to a different resolution (for example, 640 x 480, 1024 x 768), the control has no knowledge of this relationship and cannot convey this information to Microsoft Active Accessibility.
+In addition to directly annotating [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) properties, there is often a need to convert a control-specific value into a string that can be understood by an end user. An example is the screen resolution slider control under the **Settings** tab on the **Display Properties** window (from **Control Panel**). While each slider position corresponds to a different resolution (for example, 640 x 480, 1024 x 768), the control has no knowledge of this relationship and cannot convey this information to Microsoft Active Accessibility.
 
 Value-mapped annotation makes this task easier. Using this form of annotation, you can specify strings for slider values and specify roles, states, and descriptions for icons in list and tree views. For more information, see [Value Map Annotation](value-map-annotation.md).
 
 ## Server Annotation
 
-Server annotation allows developers to register a callback object to service client requests for an element's annotated property. This callback object must implement the [**IAccPropServer**](iaccpropserver.md) interface and be registered with Microsoft Active Accessibility annotation services. Once registered, it will be asked to service all client requests for that accessible element's property value.
+Server annotation allows developers to register a callback object to service client requests for an element's annotated property. This callback object must implement the [**IAccPropServer**](/windows/win32/oleacc/nn-oleacc-iaccpropserver?branch=master) interface and be registered with Microsoft Active Accessibility annotation services. Once registered, it will be asked to service all client requests for that accessible element's property value.
 
 One particularly useful feature of server annotation is that a server can be registered once to handle requests for a container and all of its children. So, for example, a single server can be set up once to handle requests for all the items is a list box. For more information, see [Server Annotation](server-annotation.md).
 

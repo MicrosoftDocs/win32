@@ -1,7 +1,12 @@
 ---
 title: DPI and Device-Independent Pixels
-ms.assetid: 'd282de02-62f4-4a12-a77c-f602f6db0216'
+ms.assetid: d282de02-62f4-4a12-a77c-f602f6db0216
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DPI and Device-Independent Pixels

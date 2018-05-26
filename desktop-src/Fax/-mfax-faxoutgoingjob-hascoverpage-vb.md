@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies if the fax has a cover page.'
-ms.assetid: 'beaa5a29-e184-43e3-b532-d8a4a9b28a09'
-title: 'FaxOutgoingJob.HasCoverPage property'
+---
+Description: Specifies if the fax has a cover page.
+ms.assetid: beaa5a29-e184-43e3-b532-d8a4a9b28a09
+title: FaxOutgoingJob.HasCoverPage property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.HasCoverPage property
@@ -47,7 +52,7 @@ The value is VARIANT\_TRUE if there is a cover page; otherwise VARIANT\_FALSE.
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob2**](-mfax-faxoutgoingjob2-cpp.md)
+[**IFaxOutgoingJob2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob2?branch=master)
 </dt> </dl>
 
  

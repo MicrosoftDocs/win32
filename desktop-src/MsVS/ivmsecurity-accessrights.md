@@ -1,8 +1,13 @@
 ---
 title: IVMSecurity AccessRights property
 description: The AccessRights property represents the discretionary access control list.
-ms.assetid: 'a23a73dd-ba47-49ab-9e55-325fbfb3154e'
-keywords: ["AccessRights property Virtual Server", "AccessRights property Virtual Server , IVMSecurity interface", "IVMSecurity interface Virtual Server , AccessRights property", "AccessRights property Virtual Server , VMSecurity interface", "VMSecurity interface Virtual Server , AccessRights property"]
+ms.assetid: a23a73dd-ba47-49ab-9e55-325fbfb3154e
+keywords:
+- AccessRights property Virtual Server
+- AccessRights property Virtual Server , IVMSecurity interface
+- IVMSecurity interface Virtual Server , AccessRights property
+- AccessRights property Virtual Server , VMSecurity interface
+- VMSecurity interface Virtual Server , AccessRights property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSecurity::AccessRights property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_AccessRights(
-  [out] IVMAccessRightsCollection **accessRights
+  [out] IVMAccessRightsCollection **accessRights
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMSecurity**](ivmsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

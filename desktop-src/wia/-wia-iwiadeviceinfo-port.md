@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the port to which the Windows Image Acquisition (WIA) hardware device is connected.'
-ms.assetid: '74e3dd07-3034-4f03-8643-3844fd4ead0c'
-title: 'DeviceInfo.Port property'
+---
+Description: Retrieves the port to which the Windows Image Acquisition (WIA) hardware device is connected.
+ms.assetid: 74e3dd07-3034-4f03-8643-3844fd4ead0c
+title: DeviceInfo.Port property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceInfo.Port property

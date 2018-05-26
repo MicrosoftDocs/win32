@@ -4,13 +4,16 @@ description: Validates the configuration of a planned virtual machine and conver
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'caf69805-0534-4c11-9071-0b5aaeb7fd4a'
-ms.prod: 'windows-server-dev'
+ms.assetid: caf69805-0534-4c11-9071-0b5aaeb7fd4a
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RealizePlannedSystem method", "RealizePlannedSystem method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, RealizePlannedSystem method"]
+keywords:
+- RealizePlannedSystem method
+- RealizePlannedSystem method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, RealizePlannedSystem method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RealizePlannedSystem method of the Msvm\_VirtualSystemManagementService class
@@ -30,9 +36,9 @@ Validates the configuration of a planned virtual machine and converts it new vir
 
 ```mof
 uint32 RealizePlannedSystem(
-  [in]  Msvm_PlannedComputerSystem REF PlannedSystem,
-  [out] CIM_ComputerSystem         REF ResultingSystem,
-  [out] CIM_ConcreteJob            REF Job
+  [in]  Msvm_PlannedComputerSystem REF PlannedSystem,
+  [out] CIM_ComputerSystem         REF ResultingSystem,
+  [out] CIM_ConcreteJob            REF Job
 );
 ```
 
@@ -115,7 +121,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -129,9 +135,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

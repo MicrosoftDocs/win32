@@ -1,11 +1,16 @@
 ---
-Description: 'Adds a string to the top of the most recently used (MRU) list.'
+Description: Adds a string to the top of the most recently used (MRU) list.
 title: AddMRUStringW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddMRUStringW function
 
-\[This function is available through Windows XP with Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. \]
+\[This function is available through Windows XP with Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. \]
 
 Adds a string to the top of the most recently used (MRU) list.
 
@@ -14,8 +19,8 @@ Adds a string to the top of the most recently used (MRU) list.
 
 ```C++
 int AddMRUStringW(
-  _In_ HANDLE  hMRU,
-  _In_ LPCTSTR szString
+  _In_ HANDLE  hMRU,
+  _In_ LPCTSTR szString
 );
 ```
 
@@ -59,16 +64,16 @@ This function is not included in a public header or library. It can be accessed 
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (version 5.0 or later)</dt> </dl> |
 | Unicode and ANSI names<br/>   | **AddMRUStringW** (Unicode)<br/>                                                                         |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

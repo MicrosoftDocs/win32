@@ -1,7 +1,12 @@
 ---
 title: The DiskIdleHistogram Action
 description: The DiskIdleHistogram Action
-ms.assetid: '52ffd7e4-4d2e-4add-8405-d26a5c109ef8'
+ms.assetid: 52ffd7e4-4d2e-4add-8405-d26a5c109ef8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The DiskIdleHistogram Action
@@ -26,7 +31,7 @@ The DiskIdleHistogram records disk Reads, Writes, and Flushes. A *disk idle peri
 > [!Note]  
 > Because IO requests may be queued, delayed or reordered, the start time refers to when an IO actually hits the physical disk, not when a disk IO is requested.
 
- 
+ 
 
 ### Disk Idle Histogram:
 
@@ -43,7 +48,7 @@ A *Disk Idle Histogram* displays the distribution of disk idle time and the numb
 
 
 
- 
+ 
 
 -   The first row shows the histogram's buckets: different ranges of idle length.
 
@@ -76,7 +81,7 @@ Using a sequence of disk IO timestamps and a given idle timeout, we can compute 
 
 
 
- 
+ 
 
 The first row shows the idle timeout values of interest for estimating spun down time. The second row shows the estimated total spun down time corresponding to each timeout. In this example, a timeout of 5 seconds yielded the total spun down time of 3800 seconds. The third row shows the estimated number of times the disk is spun down for each given timeout value.
 
@@ -123,7 +128,7 @@ The default parameter values are listed in the following table.
 
 
 
- 
+ 
 
 All these parameters are configurable using the following action options.
 
@@ -147,7 +152,7 @@ To figure out which files are the top hitters, use Microsoft Excel to sort rows 
 > [!Note]  
 > Use both of these metrics and per-file histograms for a comprehensive picture of disk activity.
 
- 
+ 
 
 The following table shows the DiskIdleHistogram output imported into Excel.
 
@@ -176,9 +181,9 @@ It is important to note that there are a few system files whose disk IOs are in 
 
 It may be difficult to differentiate which disk IOs to other files cause which disk IOs to the above system files. Consequently, if you want to see the impact of the files you ignore, you also need to ignore these system files. Since these system files' disk IOs are in response to or piggyback with other disk IOs, ignoring only these system files themselves is not expected to change the disk idle histogram significantly.
 
- 
+ 
 
- 
+ 
 
 
 

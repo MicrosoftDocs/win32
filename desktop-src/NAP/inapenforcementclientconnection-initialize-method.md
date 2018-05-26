@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientConnection Initialize method
 description: Initializes the client connection.
-ms.assetid: 'da72bfc3-9551-4fb0-b9a5-2931c14f618f'
-keywords: ["Initialize method NAP", "Initialize method NAP , INapEnforcementClientConnection interface", "INapEnforcementClientConnection interface NAP , Initialize method"]
+ms.assetid: da72bfc3-9551-4fb0-b9a5-2931c14f618f
+keywords:
+- Initialize method NAP
+- Initialize method NAP , INapEnforcementClientConnection interface
+- INapEnforcementClientConnection interface NAP , Initialize method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientConnection::Initialize method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientConnection::Initialize** method initializes the client connection.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientConnection::Initialize** method initializes the clien
 
 ```C++
 HRESULT Initialize(
-  [in] EnforcementEntityId id
+  [in] EnforcementEntityId id
 );
 ```
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Other COM-specific error codes also may be returned.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -81,9 +89,9 @@ Other COM-specific error codes also may be returned.
 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A method to kill this job and any underlying processes, and to remove any 'dangling' associations. This method is deprecated; use RequestChangeState instead.'
-ms.assetid: 'b116631f-34b8-43ed-9c17-062b5e6058d0'
-title: 'KillJob method of the CIM\_Job class'
+Description: A method to kill this job and any underlying processes, and to remove any dangling associations. This method is deprecated; use RequestChangeState instead.
+ms.assetid: b116631f-34b8-43ed-9c17-062b5e6058d0
+title: KillJob method of the CIM\_Job class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KillJob method of the CIM\_Job class
@@ -13,7 +18,7 @@ A method to kill this job and any underlying processes, and to remove any 'dangl
 
 ```mof
 uint32 KillJob(
-  [in] boolean DeleteOnKill
+  [in] boolean DeleteOnKill
 );
 ```
 
@@ -69,8 +74,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_Job**](cim-job.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

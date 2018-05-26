@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to use audio/video effects with MFPlay.'
-ms.assetid: '90f34bf3-899f-46e0-80c8-af83caa4835d'
+Description: This topic describes how to use audio/video effects with MFPlay.
+ms.assetid: 90f34bf3-899f-46e0-80c8-af83caa4835d
 title: How to Add Audio or Video Effects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Add Audio or Video Effects
@@ -15,13 +20,13 @@ To use an effect with MFPlay, the effect must be implemented as a Media Foundati
 **To Add an Audio or Video Effect**
 
 1.  Create an instance of the MFT that implements the effect.
-2.  Call [**IMFPMediaPlayer::InsertEffect**](imfpmediaplayer-inserteffect.md).
+2.  Call [**IMFPMediaPlayer::InsertEffect**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-inserteffect?branch=master).
 
-Call [**InsertEffect**](imfpmediaplayer-inserteffect.md) before you open the media file for playback. MFPlay automatically determines whether the effect is a video effect or audio effect.
+Call [**InsertEffect**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-inserteffect?branch=master) before you open the media file for playback. MFPlay automatically determines whether the effect is a video effect or audio effect.
 
-The [**InsertEffect**](imfpmediaplayer-inserteffect.md) method also takes a Boolean parameter that specifies whether the effect is optional or required. If MFPlay cannot add a required effect (for example, because the stream format is incompatible), a playback error occurs. In most cases, it is better to set an effect as optional.
+The [**InsertEffect**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-inserteffect?branch=master) method also takes a Boolean parameter that specifies whether the effect is optional or required. If MFPlay cannot add a required effect (for example, because the stream format is incompatible), a playback error occurs. In most cases, it is better to set an effect as optional.
 
-MFPlay continues to use the effect for all subsequent playback. To remove the effect, call [**IMFPMediaPlayer::RemoveEffect**](imfpmediaplayer-removeeffect.md) or [**IMFPMediaPlayer::RemoveAllEffects**](imfpmediaplayer-removealleffects.md).
+MFPlay continues to use the effect for all subsequent playback. To remove the effect, call [**IMFPMediaPlayer::RemoveEffect**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-removeeffect?branch=master) or [**IMFPMediaPlayer::RemoveAllEffects**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-removealleffects?branch=master).
 
 
 ```C++

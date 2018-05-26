@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreUI2::GetOptions method retrieves the driver''s current feature settings in the format of a list of feature/option keyword pairs.'
-ms.assetid: 'd83b8520-6f31-403c-ac58-6d6a20cf8750'
-title: 'IPrintCoreUI2::GetOptions method'
+---
+Description: The IPrintCoreUI2GetOptions method retrieves the drivers current feature settings in the format of a list of feature/option keyword pairs.
+ms.assetid: d83b8520-6f31-403c-ac58-6d6a20cf8750
+title: IPrintCoreUI2GetOptions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreUI2::GetOptions method

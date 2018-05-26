@@ -1,7 +1,12 @@
-﻿---
-Description: 'ICE41 validates that the entries in the Class and Extension tables refer to entries in the Component table that implement the class object or extension of the component.'
-ms.assetid: '43572322-ba23-4f99-be34-e572d4c6e3eb'
+---
+Description: ICE41 validates that the entries in the Class and Extension tables refer to entries in the Component table that implement the class object or extension of the component.
+ms.assetid: 43572322-ba23-4f99-be34-e572d4c6e3eb
 title: ICE41
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE41

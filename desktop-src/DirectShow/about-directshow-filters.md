@@ -1,7 +1,12 @@
 ---
 Description: About DirectShow Filters
-ms.assetid: '57b7d32e-2073-46a2-91ec-a34072134489'
+ms.assetid: 57b7d32e-2073-46a2-91ec-a34072134489
 title: About DirectShow Filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About DirectShow Filters
@@ -32,7 +37,7 @@ Filters can be grouped into several broad categories:
 
 The distinctions between these categories are not absolute. For example, the ASF Reader filter acts as both a source filter and a splitter filter.
 
-All DirectShow filters expose the [**IBaseFilter**](ibasefilter.md) interface, and all pins expose the [**IPin**](ipin.md) interface. DirectShow also defines many other interfaces that support more specific functionality.
+All DirectShow filters expose the [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface, and all pins expose the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface. DirectShow also defines many other interfaces that support more specific functionality.
 
 ## Related topics
 

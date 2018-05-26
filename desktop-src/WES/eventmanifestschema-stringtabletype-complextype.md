@@ -1,14 +1,20 @@
 ---
 title: StringTableType Complex Type
 description: Defines a list of localized strings that you can reference in your manifest.
-ms.assetid: '47a59ff7-aaf6-4200-805b-0a8b5f57f101'
-keywords: ["StringTableType complex type EventLog"]
+ms.assetid: 47a59ff7-aaf6-4200-805b-0a8b5f57f101
+keywords:
+- StringTableType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - StringTableType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StringTableType Complex Type
@@ -79,14 +85,14 @@ You can reference the strings from any manifest type that contains the message a
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Error Messages
 description: An error message alerts users of a problem that has already occurred.
-ms.assetid: 'b02110e9-985d-4448-9c95-eb958b0059b1'
+ms.assetid: b02110e9-985d-4448-9c95-eb958b0059b1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Messages
@@ -93,7 +98,7 @@ In this example, the problem statement is clear, but the supplemental explanatio
 
 **Leading cause:** Explaining the problem from the code's point of view instead of the user's.
 
-**Recommended alternative:** Write error message text that your target users can easily understand. Provide solutions that users can actually perform. Design your program's error message experience—don't have programmers compose error messages on the spot.
+**Recommended alternative:** Write error message text that your target users can easily understand. Provide solutions that users can actually perform. Design your program's error message experience don't have programmers compose error messages on the spot.
 
 **Error messages that overcommunicate**
 
@@ -231,7 +236,7 @@ For example, suppose within an e-commerce program a user tries to find a product
 -   Automatically handle common problems such as misspellings, alternative spellings, and mismatching pluralization and verb cases.
 -   Indicate when the product will be in stock.
 
-As long as the user's request is reasonable, a well designed e-commerce program should return reasonable results—not errors.
+As long as the user's request is reasonable, a well designed e-commerce program should return reasonable results not errors.
 
 Another great way to avoid error messages is by preventing problems in the first place. You can prevent errors by:
 
@@ -243,7 +248,7 @@ Another great way to avoid error messages is by preventing problems in the first
 
 **Providing necessary error messages**
 
-Sometimes you really do need to provide an error message. Users make mistakes, networks and devices stop working, objects can't be found or modified, tasks can't be completed, and programs have bugs. Ideally, these problems would happen less often—for example, we can design our software to prevent many types of user mistakes—but it isn't realistic to prevent all of these problems. And when one of these problems does happen, a helpful error message gets users back on their feet quickly.
+Sometimes you really do need to provide an error message. Users make mistakes, networks and devices stop working, objects can't be found or modified, tasks can't be completed, and programs have bugs. Ideally, these problems would happen less often for example, we can design our software to prevent many types of user mistakes but it isn't realistic to prevent all of these problems. And when one of these problems does happen, a helpful error message gets users back on their feet quickly.
 
 A common belief is that error messages are the worst user experience and should be avoided at all costs, but it is more accurate to say that user confusion is the worst experience and should be avoided at all costs. Sometimes that cost is a helpful error message.
 
@@ -267,7 +272,7 @@ While crafting good error message text can be challenging, sometimes it is impos
 
 Chances are, the problem really is unknown because the program's error handling support is lacking.
 
-While it's possible that this is a very poorly written error message, it more likely reflects the lack of good error handling by the underlying code—there is no specific information known about the problem.
+While it's possible that this is a very poorly written error message, it more likely reflects the lack of good error handling by the underlying code there is no specific information known about the problem.
 
 In order to create specific, actionable, user-centered error messages, your program's error handling code must provide specific, high-level error information:
 
@@ -387,7 +392,7 @@ For more guidelines and examples on overcommunicating, see [User Interface Text]
 4.  Make sure the error message gives a problem, cause, and solution.
 5.  Make sure the error message is relevant, actionable, brief, clear, specific, courteous, and rare.
 6.  Design error messages from the user's point of view, not the program's point of view.
-7.  Avoid involving the user in troubleshooting—use a different error message for each detectable cause.
+7.  Avoid involving the user in troubleshooting use a different error message for each detectable cause.
 8.  Use the lightest weight presentation method that does the job well.
 
 **Usage patterns**
@@ -433,7 +438,7 @@ Error messages have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -536,7 +541,7 @@ For more guidelines, see [Dialog Boxes](win-dialog-box.md).
 ### Help
 
 -   **Design error messages to avoid the need for Help.** Ordinarily users shouldn't have to read external text to understand and solve the problem, unless the solution requires several steps.
--   **Make sure the Help content is relevant and helpful.** It shouldn't be a verbose restatement of the error message—rather, it should contain useful information that is beyond the scope of the error message, such as ways to avoid the problem in the future. Don't provide a Help link just because you can.
+-   **Make sure the Help content is relevant and helpful.** It shouldn't be a verbose restatement of the error message rather, it should contain useful information that is beyond the scope of the error message, such as ways to avoid the problem in the future. Don't provide a Help link just because you can.
 -   **Use specific, concise, relevant Help links to access Help content.** Don't use command buttons or progressive disclosure for this purpose.
 -   **For error messages that you can't make specific and actionable, consider providing links to online Help content.** By doing so, you can provide users with additional information that you can update after the program is released.
 
@@ -687,7 +692,7 @@ For more guidelines and examples, see [Style and Tone](text-style-tone.md).
 -   **Use the title to identify the command or feature from which the error originated.** Exceptions:
     -   If an error is displayed by many different commands, consider using the program name instead.
     -   If that title would be redundant or confusing with the main instruction, use the program name instead.
--   **Don't use the title to explain or summarize the problem**—that's the purpose of the main instruction.
+-   **Don't use the title to explain or summarize the problem** that's the purpose of the main instruction.
 
 **Incorrect:**
 
@@ -700,7 +705,7 @@ In this example, the title is being incorrectly used to explain the problem.
 **Main instructions**
 
 -   **Use the main instruction to describe the problem in clear, plain, specific language.**
--   **Be concise—use only a single, complete sentence.** Pare the main instruction down to the essential information. You can leave the subject implicit if it is your program or the user. Include the reason for the problem if you can do so concisely. If you must explain anything more, use a supplemental instruction.
+-   **Be concise use only a single, complete sentence.** Pare the main instruction down to the essential information. You can leave the subject implicit if it is your program or the user. Include the reason for the problem if you can do so concisely. If you must explain anything more, use a supplemental instruction.
 
 **Incorrect:**
 
@@ -708,7 +713,7 @@ In this example, the title is being incorrectly used to explain the problem.
 
 In this example, the entire error message is put in the main instruction, making it hard to read.
 
--   **Be specific—if there are objects involved, give their names.**
+-   **Be specific if there are objects involved, give their names.**
 -   **Avoid putting full file paths and URLs in the main instruction.** Rather, use a short name (such as the file name) and put the full name (such as the file path) in the supplemental instruction. However, you can put a single full file path or URL in the main instruction if the error message doesn't otherwise need a supplemental instruction.
 
 ![screen shot of message: can't delete fabrikam file ](images/mess-error-image57.png)
@@ -816,9 +821,9 @@ When referring to errors:
 
 **Example:** If you receive a **There is no CD disc in the drive** message, insert a new CD disc in the drive and try again.
 
- 
+ 
 
- 
+ 
 
 
 

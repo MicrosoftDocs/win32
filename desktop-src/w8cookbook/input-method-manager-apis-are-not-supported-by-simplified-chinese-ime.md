@@ -1,7 +1,12 @@
 ---
 title: Input Method manager APIs are not supported by Simplified Chinese IME
 description: Input Method manager APIs are not supported by Simplified Chinese IME
-ms.assetid: '829E1920-8A5C-4DBB-A844-72DA75D58B92'
+ms.assetid: 829E1920-8A5C-4DBB-A844-72DA75D58B92
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Method manager APIs are not supported by Simplified Chinese IME

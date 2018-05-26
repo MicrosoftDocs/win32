@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '9078b2f5-b11e-4780-8143-6738e9df4f4b'
-title: 'CSourceStream.CSourceStream constructor'
+Description: Constructor method.
+ms.assetid: 9078b2f5-b11e-4780-8143-6738e9df4f4b
+title: CSourceStream.CSourceStream constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.CSourceStream constructor
@@ -13,10 +18,10 @@ Constructor method.
 
 ```C++
 CSourceStream(
-   TCHAR   *pObjectName,
-   HRESULT *phr,
-   CSource *pms,
-   LPCWSTR pName
+   TCHAR   *pObjectName,
+   HRESULT *phr,
+   CSource *pms,
+   LPCWSTR pName
 );
 ```
 
@@ -58,7 +63,7 @@ Pointer to a string that contains the name of the pin.
 
 The string given in the *pObjectName* parameter is used only for debugging purposes. For more information, see [**CBaseObject**](cbaseobject.md).
 
-The string given in the *pName* parameter is the name returned by the [**IPin::QueryPinInfo**](ipin-querypininfo.md) method. The `CSourceStream` class does not use this name for the pin identifier returned by the [**CSourceStream::QueryId**](csourcestream-queryid.md) method. Instead, **QueryId** calculates a pin identifier based on the pin number. (Pin identifiers support graph persistence. For more information, see [**IPin::QueryId**](ipin-queryid.md).)
+The string given in the *pName* parameter is the name returned by the [**IPin::QueryPinInfo**](/windows/win32/Strmif/nf-strmif-ipin-querypininfo?branch=master) method. The `CSourceStream` class does not use this name for the pin identifier returned by the [**CSourceStream::QueryId**](csourcestream-queryid.md) method. Instead, **QueryId** calculates a pin identifier based on the pin number. (Pin identifiers support graph persistence. For more information, see [**IPin::QueryId**](/windows/win32/Strmif/nf-strmif-ipin-queryid?branch=master).)
 
 The constructor automatically adds the pin to the owning filter, by calling [**CSource::AddPin**](csource-addpin.md).
 
@@ -80,9 +85,9 @@ The constructor automatically adds the pin to the owning filter, by calling [**C
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

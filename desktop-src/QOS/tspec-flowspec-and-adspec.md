@@ -1,8 +1,16 @@
 ---
 title: Tspec, FlowSpec, and Adspec
 description: RSVP transmits request information for a QOS-enabled connection with RSVP PATH and RESV messages.
-ms.assetid: '67fbdebf-3dd9-4a05-b9a6-8a1e8f965aab'
-keywords: ["Tspec QOS", "FlowSpec QOS", "Adspec QOS"]
+ms.assetid: 67fbdebf-3dd9-4a05-b9a6-8a1e8f965aab
+keywords:
+- Tspec QOS
+- FlowSpec QOS
+- Adspec QOS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tspec, FlowSpec, and Adspec
@@ -10,7 +18,7 @@ keywords: ["Tspec QOS", "FlowSpec QOS", "Adspec QOS"]
 RSVP transmits request information for a QOS-enabled connection with RSVP PATH and RESV messages. Within such PATH and RESV messages, certain values are used to represent traffic and requested QOS parameters that enable a sender and receiver to establish service quality parameters for a given flow:
 
 -   The sender Tspec (T representing traffic) specifies parameters available for the flow. Both senders and receivers use Tspec (SenderTspec and ReceiverTspec, respectively).
--   The [**FLOWSPEC**](flowspec.md) specifies requested QOS parameters, and is used by the receiver in RESV messages.
+-   The [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master) specifies requested QOS parameters, and is used by the receiver in RESV messages.
 -   The Adspec (ad for advertisement) enables QOS-enabled network devices in the path between sender and receiver to advertise their service capabilities, resource availability, and transmission characteristics.
 
 ## RSVP Tspec
@@ -19,7 +27,7 @@ Both senders and receivers use Tspec, as part of SenderTspec and Receiverflowspe
 
 Sender provides the Tspec to describe the traffic it will originate, and the receiver provides the flowspec to describe the reservation it needs.
 
-The RSVP Tspec derives its parameters from the **SendingFlowspec** member of a [**QOS**](qos.md) structure (SendingFlowspec is of type [**FLOWSPEC**](flowspec.md)).
+The RSVP Tspec derives its parameters from the **SendingFlowspec** member of a [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure (SendingFlowspec is of type [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master)).
 
 The following table explains how members in **SendingFlowspec** map to Tspec parameters.
 
@@ -37,9 +45,9 @@ The following table explains how members in **SendingFlowspec** map to Tspec par
 
 
 
- 
+ 
 
- 
+ 
 
 ## SenderTspec Specifics
 
@@ -65,7 +73,7 @@ When a receiver requests GUARANTEED service, the RSVP SP copies SenderTspec from
 
 ## RSVP Rspec
 
-The RSVP Rspec specifies requested QOS parameters, and is used by the receiver in RESV messages to transmit requested reservation parameters only when GUARANTEED service is specified by the application. The Rspec derives its parameters from the ReceivingFlowspec member of a [**QOS**](qos.md) structure (ReceivingFlowspec is of type [**FLOWSPEC**](flowspec.md)).
+The RSVP Rspec specifies requested QOS parameters, and is used by the receiver in RESV messages to transmit requested reservation parameters only when GUARANTEED service is specified by the application. The Rspec derives its parameters from the ReceivingFlowspec member of a [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure (ReceivingFlowspec is of type [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master)).
 
 The following table explains how parameters in ReceivingFlowspec map to Rspec parameters.
 
@@ -83,7 +91,7 @@ The following table explains how parameters in ReceivingFlowspec map to Rspec pa
 
 
 
- 
+ 
 
 The application specifying GUARANTEED service is expected to provide two of the following three parameters:
 
@@ -108,15 +116,15 @@ In other words, providing TokenRate and Latency is not acceptable. If an applica
 
 
 
- 
+ 
 
 ## RSVP Adspec
 
-Each RSVP PATH message includes an Adspec, which enables QOS-enabled network devices in the path between sender and receiver to advertise the services they support, their resource availability and transmission characteristics. Such information can be useful in helping the receiving application select [**FLOWSPEC**](flowspec.md).
+Each RSVP PATH message includes an Adspec, which enables QOS-enabled network devices in the path between sender and receiver to advertise the services they support, their resource availability and transmission characteristics. Such information can be useful in helping the receiving application select [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master).
 
- 
+ 
 
- 
+ 
 
 
 

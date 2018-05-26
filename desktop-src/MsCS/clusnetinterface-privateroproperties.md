@@ -4,11 +4,14 @@ description: Read-only private properties of a network interface.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4a495832-d463-4390-b360-ce90fb5e6356'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4a495832-d463-4390-b360-ce90fb5e6356
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["PrivateROProperties property Failover Cluster", "PrivateROProperties property Failover Cluster , ClusNetInterface object", "ClusNetInterface object Failover Cluster , PrivateROProperties property"]
+keywords:
+- PrivateROProperties property Failover Cluster
+- PrivateROProperties property Failover Cluster , ClusNetInterface object
+- ClusNetInterface object Failover Cluster , PrivateROProperties property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusNetInterface.PrivateROProperties property
@@ -47,7 +53,7 @@ A [**ClusProperties**](clusproperties-collection.md) collection to receive the r
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -66,9 +72,9 @@ A [**ClusProperties**](clusproperties-collection.md) collection to receive the r
 [**ClusProperties**](clusproperties-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

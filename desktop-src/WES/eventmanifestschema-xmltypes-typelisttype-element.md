@@ -1,14 +1,20 @@
 ---
 title: xmlTypes (TypeListType) Element
 description: Defines a list of output types that the service uses to determine how to render an input data type.
-ms.assetid: '780f522c-d819-4b74-b7eb-4d154eeddebc'
-keywords: ["xmlTypes element EventLog"]
+ms.assetid: 780f522c-d819-4b74-b7eb-4d154eeddebc
+keywords:
+- xmlTypes element EventLog
 topic_type:
 - apiref
 api_name:
 - xmlTypes
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # xmlTypes (TypeListType) Element
@@ -29,8 +35,8 @@ The **xmlTypes** element is defined by the [**TypeListType**](eventmanifestschem
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **xmlTypes** element is defined by the [**TypeListType**](eventmanifestschem
 [**types (MetadataType)**](eventmanifestschema-types-metadatatype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

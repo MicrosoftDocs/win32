@@ -4,11 +4,13 @@ description: Represents the association between an instance of the Win32\_Termin
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4c206812-7549-4410-b6ba-1163f20d2bee'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4c206812-7549-4410-b6ba-1163f20d2bee
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TerminalServiceToSetting class Remote Desktop Services", "Win32_TerminalServiceToSetting class Remote Desktop Services , described"]
+keywords:
+- Win32_TerminalServiceToSetting class Remote Desktop Services
+- Win32_TerminalServiceToSetting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -24,11 +26,14 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TerminalServiceToSetting class
 
-The **Win32\_TerminalServiceToSetting** WMI class represents the association between an instance of the [**Win32\_TerminalService**](win32-terminalservice.md) class and the setting of a particular [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md) property. Configuration settings include Remote Desktop Session Host (RD Session Host) server mode, Licensing, Active Desktop, Permissions Capability, Deletion of Temporary Folders and Temporary Folders-Per-Session.
+The **Win32\_TerminalServiceToSetting** WMI class represents the association between an instance of the [**Win32\_TerminalService**](win32-terminalservice.md) class and the setting of a particular [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md) property. Configuration settings include Remote Desktop Session Host (RD Session Host) server mode, Licensing, Active Desktop, Permissions Capability, Deletion of Temporary Folders and Temporary Folders-Per-Session.
 
 The following syntax is simplified from MOF code and includes all defined properties.
 
@@ -38,12 +43,12 @@ The following syntax is simplified from MOF code and includes all defined proper
 [Dynamic, Provider("Win32_WIN32_TERMINALSERVICETOSETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer"), AMENDMENT]
 class Win32_TerminalServiceToSetting : CIM_ElementSetting
 {
-  string                           Caption;
-  string                           Description;
-  datetime                         InstallDate;
-  string                           Name;
-  string                           Status;
-  Win32_TerminalService        REF Element;
+  string                           Caption;
+  string                           Description;
+  datetime                         InstallDate;
+  string                           Name;
+  string                           Status;
+  Win32_TerminalService        REF Element;
   Win32_TerminalServiceSetting REF Setting;
 };
 ```
@@ -154,7 +159,7 @@ Access type: Read-only
 Qualifiers: [**Key**](https://msdn.microsoft.com/library/aa392157)
 </dt> </dl>
 
-Represents the Remote Desktop Services configuration settings that can be applied to the associated RD Session Host server.
+Represents the Remote Desktop Services configuration settings that can be applied to the associated RD Session Host server.
 
 </dd> <dt>
 
@@ -244,8 +249,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -268,9 +273,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**CIM\_ElementSetting**](https://msdn.microsoft.com/library/aa387263)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

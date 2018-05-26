@@ -2,13 +2,19 @@
 title: long attribute
 description: The long keyword designates a 32-bit integer.
 ms.assetid: 5619e482-e3c3-4898-a70b-afd337d2749a
-keywords: ["long attribute MIDL"]
+keywords:
+- long attribute MIDL
 topic_type:
 - apiref
 api_name:
 - long
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # long attribute

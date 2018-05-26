@@ -1,12 +1,17 @@
-﻿---
-Description: 'The XMSHORT4 structure exposes the following operators.'
-ms.assetid: 'b57fbd3a-a483-44fe-8604-28dd50e92f8e'
+---
+Description: The XMSHORT4 structure exposes the following operators.
+ms.assetid: b57fbd3a-a483-44fe-8604-28dd50e92f8e
 title: XMSHORT4 Operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMSHORT4 Operators
 
-The [**XMSHORT4**](xmshort4.md) structure exposes the following operators.
+The [**XMSHORT4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshort4?branch=master) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -35,7 +40,7 @@ The [**XMSHORT4**](xmshort4.md) structure exposes the following operators.
 **Reference**
 </dt> <dt>
 
-[**XMSHORT4**](xmshort4.md)
+[**XMSHORT4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshort4?branch=master)
 </dt> </dl>
 
  

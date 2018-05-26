@@ -4,11 +4,14 @@ description: Returns a storage volume name associated with a Job.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ab857e51-d152-45f1-ab18-6652074b24d1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: ab857e51-d152-45f1-ab18-6652074b24d1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetStorageVolumeNameFromJob method", "GetStorageVolumeNameFromJob method, MSFT_SMSystem class", "MSFT_SMSystem class, GetStorageVolumeNameFromJob method"]
+keywords:
+- GetStorageVolumeNameFromJob method
+- GetStorageVolumeNameFromJob method, MSFT_SMSystem class
+- MSFT_SMSystem class, GetStorageVolumeNameFromJob method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetStorageVolumeNameFromJob method of the MSFT\_SMSystem class
@@ -28,11 +34,11 @@ Returns a storage volume name associated with a Job.
 
 ```mof
 uint32 GetStorageVolumeNameFromJob(
-  [in]            MSFT_SMJob        REF Job,
-  [out]           string                StorageVolumeName,
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            MSFT_SMJob        REF Job,
+  [out]           string                StorageVolumeName,
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -118,9 +124,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | End of client support<br/>    | None supported<br/>                                                                     |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -134,9 +140,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMSystem**](msft-smsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

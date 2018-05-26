@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a set of cryptographic protocols and algorithms owned by the National Institute of Standards and Technology (NIST).'
-ms.assetid: '220cb6f5-28a6-4ea8-b7ed-3a9f77752b7d'
-title: 'PROV\_FORTEZZA'
+Description: Contains a set of cryptographic protocols and algorithms owned by the National Institute of Standards and Technology (NIST).
+ms.assetid: 220cb6f5-28a6-4ea8-b7ed-3a9f77752b7d
+title: PROV\_FORTEZZA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROV\_FORTEZZA

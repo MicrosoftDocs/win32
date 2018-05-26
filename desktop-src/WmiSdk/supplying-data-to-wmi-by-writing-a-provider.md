@@ -1,13 +1,16 @@
 ---
-Description: 'A WMI provider creates a group of supported classes, instances, and events to pass data to WMI. In turn, a management application or script can call provider methods to manipulate provider-supplied data.'
+Description: A WMI provider creates a group of supported classes, instances, and events to pass data to WMI. In turn, a management application or script can call provider methods to manipulate provider-supplied data.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '919dfa7c-4a36-4e59-8377-72cf9735eaec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 919dfa7c-4a36-4e59-8377-72cf9735eaec
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Supplying Data to WMI by Writing a Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Supplying Data to WMI by Writing a Provider
@@ -95,17 +98,17 @@ The following procedure describes how to create a simple provider that supports 
 
     1.  As with any COM object, you must implement a constructor and a deconstructor, as well as the [**QueryInterface**](_com_iunknown_queryinterface), [**AddRef**](_com_iunknown_addref), and [**Release**](_com_iunknown_release) methods.
 
-    2.  Implement the [**IWbemProviderInit::Initialize**](iwbemproviderinit-initialize.md) method in your COM object.
+    2.  Implement the [**IWbemProviderInit::Initialize**](/windows/win32/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize?branch=master) method in your COM object.
 
-        The main purpose of [**Initialize**](iwbemproviderinit-initialize.md) in this example is to set the **m\_pNamespace** member to the current namespace. For more information about namespaces, see [Creating Hierarchies Within WMI](creating-hierarchies-within-wmi.md).
+        The main purpose of [**Initialize**](/windows/win32/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize?branch=master) in this example is to set the **m\_pNamespace** member to the current namespace. For more information about namespaces, see [Creating Hierarchies Within WMI](creating-hierarchies-within-wmi.md).
 
-        A sink is passed in through the *pInitSink* parameter in the [**IWbemProviderInit::Initialize**](iwbemproviderinit-initialize.md) method to state that the provider has successfully initialized. For more information about sinks, see [**IWbemObjectSink**](iwbemobjectsink.md) and [Calling a Method](calling-a-method.md).
+        A sink is passed in through the *pInitSink* parameter in the [**IWbemProviderInit::Initialize**](/windows/win32/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize?branch=master) method to state that the provider has successfully initialized. For more information about sinks, see [**IWbemObjectSink**](iwbemobjectsink.md) and [Calling a Method](calling-a-method.md).
 
-    3.  Implement the [**IWbemServices::CreateInstanceEnumAsync**](iwbemservices-createinstanceenumasync.md) method within your COM object (although you can implement a variety of [**IWbemServices**](iwbemservices.md) interfaces, the example at the end of this topic implements only **CreateInstanceEnumAsync**). Specifically, **CreateInstanceEnumAsync** returns instances of specified objects to WMI.
+    3.  Implement the [**IWbemServices::CreateInstanceEnumAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync?branch=master) method within your COM object (although you can implement a variety of [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) interfaces, the example at the end of this topic implements only **CreateInstanceEnumAsync**). Specifically, **CreateInstanceEnumAsync** returns instances of specified objects to WMI.
 
-    4.  Implement the [**GetObjectAsync**](iwbemservices-getobjectasync.md) method within your COM object.
+    4.  Implement the [**GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master) method within your COM object.
 
-        In the example at the end of this topic, [**GetObjectAsync**](iwbemservices-getobjectasync.md) checks the parameters on the managed object, retrieves the specified object, performs error checking, and returns the appropriate codes to the sink.
+        In the example at the end of this topic, [**GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master) checks the parameters on the managed object, retrieves the specified object, performs error checking, and returns the appropriate codes to the sink.
 
 6.  Register your provider as a COM object, using RegSvr32.
 

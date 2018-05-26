@@ -1,14 +1,22 @@
 ---
 title: CreateMediaRendererOperation.Completed property
 description: Gets or sets an event handler that is invoked when the asynchronous operation started by CreateMediaRendererAsync or CreateMediaRendererFromBasicDeviceAsync is completed.
-ms.assetid: 'B62CF929-13D0-4665-89E4-DEC48A38DDF7'
-keywords: ["Completed property Media Streaming API", "Completed property Media Streaming API , CreateMediaRendererOperation interface", "CreateMediaRendererOperation interface Media Streaming API , Completed property"]
+ms.assetid: B62CF929-13D0-4665-89E4-DEC48A38DDF7
+keywords:
+- Completed property Media Streaming API
+- Completed property Media Streaming API , CreateMediaRendererOperation interface
+- CreateMediaRendererOperation interface Media Streaming API , Completed property
 topic_type:
 - apiref
 api_name:
 - CreateMediaRendererOperation.Completed
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateMediaRendererOperation.Completed property

@@ -1,7 +1,12 @@
 ---
 title: About Rich Edit Controls
 description: This section introduces rich edit controls.
-ms.assetid: 'ab9dcdf4-a311-4159-8f37-e67e144f31f6'
+ms.assetid: ab9dcdf4-a311-4159-8f37-e67e144f31f6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Rich Edit Controls
@@ -19,7 +24,7 @@ The following topics are discussed in this section.
 
 ## Versions of Rich Edit
 
-The original specification for rich edit controls is Microsoft Rich Edit 1.0; the current specification is Microsoft Rich Edit 4.1. Each version of rich edit is a superset of the preceding one, except that only Asian builds of Microsoft Rich Edit 1.0 have a vertical text option. Before creating a rich edit control, you should call the [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) function to verify which version of Microsoft Rich Edit is installed.
+The original specification for rich edit controls is Microsoft Rich Edit 1.0; the current specification is Microsoft Rich Edit 4.1. Each version of rich edit is a superset of the preceding one, except that only Asian builds of Microsoft Rich Edit 1.0 have a vertical text option. Before creating a rich edit control, you should call the [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) function to verify which version of Microsoft Rich Edit is installed.
 
 The following table shows which DLL corresponds with which version of Rich Edit. Note that the name of the file did not change from version 2.0 to version 3.0. This allows version 2.0 to be upgraded to version 3.0 without breaking existing code.
 
@@ -34,11 +39,11 @@ The following table shows which DLL corresponds with which version of Rich Edit.
 
 
 
- 
+ 
 
 ### Rich Edit Version 1.0
 
-Microsoft Rich Edit 1.0 includes the following features.
+Microsoft Rich Edit 1.0 includes the following features.
 
 
 
@@ -46,13 +51,13 @@ Microsoft Rich Edit 1.0 includes the following features.
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Text entry and selection                                                           | Mostly standard (system-edit control) selection and entry of text. Selection bar support (the selection bar is an unmarked area to the left of each paragraph that when clicked, selects the line). Word-wrap and auto-word-select options. Single-, double-, and triple-click selection. |
 | ANSI (single-byte character set (SBCS) and multibyte character set (MBCS)) editing | However, there is no Unicode editing.                                                                                                                                                                                                                                                     |
-| Basic set of character/paragraph formatting properties                             | See [**CHARFORMAT**](charformat.md) and [**PARAFORMAT**](paraformat.md).                                                                                                                                                                                                                |
+| Basic set of character/paragraph formatting properties                             | See [**CHARFORMAT**](/windows/win32/Richedit/ns-richedit-_charformat?branch=master) and [**PARAFORMAT**](/windows/win32/Richedit/ns-richedit-_paraformat?branch=master).                                                                                                                                                                                                                |
 | Character formatting properties                                                    | Font name and size, bold, italic, solid underline, strike-out, protected, link, offset, and text color.                                                                                                                                                                                   |
 | Paragraph formatting properties                                                    | Start indent, right indent, subsequent line offset, bullet, alignment (left, center, right), and tabs.                                                                                                                                                                                    |
 | Find forward                                                                       | Includes case-insensitive and match-whole-word options.                                                                                                                                                                                                                                   |
-| Message-based interface                                                            | Almost a superset of the system edit-control message set plus two interfaces, [**IRichEditOle**](iricheditole.md) and [**IRichEditOleCallback**](iricheditolecallback.md).                                                                                                              |
-| Embedded objects                                                                   | Requires client collaboration based on [**IRichEditOle**](iricheditole.md) and [**IRichEditOleCallback**](iricheditolecallback.md) interfaces.                                                                                                                                          |
-| Right-button menu support                                                          | Uses [**IRichEditOleCallback**](iricheditolecallback.md) interface.                                                                                                                                                                                                                      |
+| Message-based interface                                                            | Almost a superset of the system edit-control message set plus two interfaces, [**IRichEditOle**](/windows/win32/Richole/nn-richole-iricheditole?branch=master) and [**IRichEditOleCallback**](/windows/win32/Richole/nn-richole-iricheditolecallback?branch=master).                                                                                                              |
+| Embedded objects                                                                   | Requires client collaboration based on [**IRichEditOle**](/windows/win32/Richole/nn-richole-iricheditole?branch=master) and [**IRichEditOleCallback**](/windows/win32/Richole/nn-richole-iricheditolecallback?branch=master) interfaces.                                                                                                                                          |
+| Right-button menu support                                                          | Uses [**IRichEditOleCallback**](/windows/win32/Richole/nn-richole-iricheditolecallback?branch=master) interface.                                                                                                                                                                                                                      |
 | Drag-and-drop editing                                                              | Drag-and-drop editing is supported.                                                                                                                                                                                                                                                       |
 | Notifications                                                                      | [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) messages sent to client plus a number of others. This is a superset of common-control notifications.                                                                                                                                                 |
 | Single-level undo/redo                                                             | Behaves similarly to the system edit control. Selecting **Undo** reverses the last action, and that action then becomes the new **Redo** action.                                                                                                                                          |
@@ -61,27 +66,27 @@ Microsoft Rich Edit 1.0 includes the following features.
 | WYSIWYG editing using printer metrics                                              | This feature is needed for Microsoft WordPad, in particular.                                                                                                                                                                                                                              |
 | Cut/Copy/Paste/StreamIn/StreamOut                                                  | With plain text (**CF\_TEXT**) or Rich Text Format (RTF) with and without objects.                                                                                                                                                                                                        |
 | C code base                                                                        | The code is written in C, which provides a solid and versatile foundation.                                                                                                                                                                                                                |
-| Different builds for different scripts                                             | Microsoft Rich Edit 1.0 addresses localization issues with different builds.                                                                                                                                                                                                              |
+| Different builds for different scripts                                             | Microsoft Rich Edit 1.0 addresses localization issues with different builds.                                                                                                                                                                                                              |
 
 
 
- 
+ 
 
 ### Rich Edit Version 2.0
 
-Microsoft Rich Edit 2.0 incorporated several additional features, such as support for Unicode and Asian languages, multilevel Undo, Component Object Model (COM) interfaces, and numerous UI enhancements.
+Microsoft Rich Edit 2.0 incorporated several additional features, such as support for Unicode and Asian languages, multilevel Undo, Component Object Model (COM) interfaces, and numerous UI enhancements.
 
-Microsoft Rich Edit 2.0 includes the following features in addition to the features provided by [Microsoft Rich Edit 1.0](#rich-edit-version-10).
+Microsoft Rich Edit 2.0 includes the following features in addition to the features provided by [Microsoft Rich Edit 1.0](#rich-edit-version-10).
 
 
 
 |                                               |                                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Unicode                                       | Unicode eases the effort in handling international text. However effort is needed to maintain compatibility with existing non-Unicode documents—that is, the ability to convert to/from non-Unicode plain and rich text.                                                                                                                                                             |
+| Unicode                                       | Unicode eases the effort in handling international text. However effort is needed to maintain compatibility with existing non-Unicode documents that is, the ability to convert to/from non-Unicode plain and rich text.                                                                                                                                                             |
 | General international support                 | General line breaking algorithm (extension of Kinsoku rules), simple font linking, keyboard font switching.                                                                                                                                                                                                                                                                          |
 | Asian support                                 | Level 2 (dialog box) and 3 (inline) is supported in IMEs.                                                                                                                                                                                                                                                                                                                            |
 | Find Up/Find Down support                     | Searching forward and backward is supported.                                                                                                                                                                                                                                                                                                                                         |
-| Bidirectional support                         | This is included in Microsoft Rich Edit 2.1                                                                                                                                                                                                                                                                                                                                          |
+| Bidirectional support                         | This is included in Microsoft Rich Edit 2.1                                                                                                                                                                                                                                                                                                                                          |
 | Multilevel undo                               | An extensible Undo architecture allows client to participate in application-wide Undo model.                                                                                                                                                                                                                                                                                         |
 | Magellan mouse support                        | This is the mouse with a roller for scrolling.                                                                                                                                                                                                                                                                                                                                       |
 | Dual-font support                             | The keyboard can automatically switch fonts when the active font is inappropriate for current keyboard, for example, Kanji characters in Times New Roman.                                                                                                                                                                                                                            |
@@ -97,7 +102,7 @@ Microsoft Rich Edit 2.0 includes the following features in addition to the featu
 | Accelerator keys                              | Accelerator keys are supported.                                                                                                                                                                                                                                                                                                                                                      |
 | Password window style                         | Password edit controls are supplied through [**EM\_GETPASSWORDCHAR**](em-getpasswordchar.md) and [**EM\_SETPASSWORDCHAR**](em-setpasswordchar.md).                                                                                                                                                                                                                                 |
 | Scalable architecture                         | To reduce instance size.                                                                                                                                                                                                                                                                                                                                                             |
-| Windowless operation and interfaces           | This is provided through the [**ITextHost**](itexthost.md) and [**ITextServices**](itextservices.md) interfaces.                                                                                                                                                                                                                                                                   |
+| Windowless operation and interfaces           | This is provided through the [**ITextHost**](/windows/win32/Textserv/nl-textserv-itexthost?branch=master) and [**ITextServices**](/windows/win32/Textserv/nl-textserv-itextservices?branch=master) interfaces.                                                                                                                                                                                                                                                                   |
 | COM dual interfaces                           | Text Object Model (TOM) interfaces.                                                                                                                                                                                                                                                                                                                                                  |
 | CHARFORMAT2                                   | Added font weight, background color, locale identifier, underline type, superscript and subscript (in addition to offset), disabled effect. For RTF roundtripping only, added amount to space between letters, twip size above which to kern character pair, animated-text type, various effects: font shadow/outline, all caps, small caps, hidden, embossed, imprint, and revised. |
 | PARAFORMAT2                                   | Added space before and after and Word line spacing. For RTF roundtripping only, added shading weight/style, numbering start/style/tab, border space/width/sides, tab alignment/leaders, various Word paragraph effects: RTL paragraph, keep, keep-next, page-break-before, no-line-number, no-widow-control, do-not-hyphenate, side-by-side.                                         |
@@ -105,18 +110,18 @@ Microsoft Rich Edit 2.0 includes the following features in addition to the featu
 | Code stability and stabilization              | Examples: parameter and object validation, function invariants, reentrancy guards, object stabilization.                                                                                                                                                                                                                                                                             |
 | Strong testing infrastructure                 | Including extensive regressions tests.                                                                                                                                                                                                                                                                                                                                               |
 | Improved performance                          | Smaller working set, faster load and redisplay times, and so on.                                                                                                                                                                                                                                                                                                                     |
-| C++ code base                                 | The code is written in C++, which provides a solid foundation on which to build Microsoft Rich Edit 3.0.                                                                                                                                                                                                                                                                             |
+| C++ code base                                 | The code is written in C++, which provides a solid foundation on which to build Microsoft Rich Edit 3.0.                                                                                                                                                                                                                                                                             |
 
 
 
- 
+ 
 
-With a few exceptions, Microsoft Rich Edit 2.0 uses the same functions, structures, and messages as Microsoft Rich Edit 1.0. Note, however, the following differences:
+With a few exceptions, Microsoft Rich Edit 2.0 uses the same functions, structures, and messages as Microsoft Rich Edit 1.0. Note, however, the following differences:
 
--   The name of the Microsoft Rich Edit 1.0 window class is **RichEdit**. Microsoft Rich Edit 2.0 has both ANSI and Unicode window classes—**RichEdit20A** and **RichEdit20W,** respectively. To specify the appropriate rich edit window class, use the RICHEDIT\_CLASS constant, which the Richedit.h file defines depending on the definition of the UNICODE compile flag.
--   In Microsoft Rich Edit 2.0, if you create a Unicode rich edit control (one that expects Unicode text messages), you must specify only Unicode data in any window messages sent to the control. Similarly, if you create an ANSI rich edit control, send only ANSI or double-byte character set (DBCS) data. You can use the [**IsWindowUnicode**](https://msdn.microsoft.com/library/windows/desktop/ms633529) function to determine whether a rich edit control uses Unicode text messages. Note that the rich edit COM interfaces use Unicode text unless they encounter a code page argument.
--   Microsoft Rich Edit 1.0 used CR/LF character combinations for paragraph markers. Microsoft Rich Edit 2.0 used only a carriage return character ('\\r'). Microsoft Rich Edit 3.0 uses only a carriage return character but can emulate Microsoft Rich Edit 1.0 in this regard.
--   Microsoft Rich Edit 2.0 introduced the following new messages. 
+-   The name of the Microsoft Rich Edit 1.0 window class is **RichEdit**. Microsoft Rich Edit 2.0 has both ANSI and Unicode window classes **RichEdit20A** and **RichEdit20W,** respectively. To specify the appropriate rich edit window class, use the RICHEDIT\_CLASS constant, which the Richedit.h file defines depending on the definition of the UNICODE compile flag.
+-   In Microsoft Rich Edit 2.0, if you create a Unicode rich edit control (one that expects Unicode text messages), you must specify only Unicode data in any window messages sent to the control. Similarly, if you create an ANSI rich edit control, send only ANSI or double-byte character set (DBCS) data. You can use the [**IsWindowUnicode**](https://msdn.microsoft.com/library/windows/desktop/ms633529) function to determine whether a rich edit control uses Unicode text messages. Note that the rich edit COM interfaces use Unicode text unless they encounter a code page argument.
+-   Microsoft Rich Edit 1.0 used CR/LF character combinations for paragraph markers. Microsoft Rich Edit 2.0 used only a carriage return character ('\\r'). Microsoft Rich Edit 3.0 uses only a carriage return character but can emulate Microsoft Rich Edit 1.0 in this regard.
+-   Microsoft Rich Edit 2.0 introduced the following new messages. 
 
     | Message                                           | Description                                                             |
     |---------------------------------------------------|-------------------------------------------------------------------------|
@@ -135,20 +140,20 @@ With a few exceptions, Microsoft Rich Edit 2.0 uses the same functions, structur
 
     
 
-     
+     
 
--   Microsoft Rich Edit 2.0 introduced the following new structures. 
+-   Microsoft Rich Edit 2.0 introduced the following new structures. 
 
     | Structure                          | Description                                      |
     |------------------------------------|--------------------------------------------------|
-    | [**CHARFORMAT2**](charformat2.md) | Contains information about character formatting. |
-    | [**PARAFORMAT2**](paraformat2.md) | Contains information about paragraph formatting. |
+    | [**CHARFORMAT2**](/windows/win32/Richedit/ns-richedit-charformat2a?branch=master) | Contains information about character formatting. |
+    | [**PARAFORMAT2**](/windows/win32/Richedit/ns-richedit-paraformat2?branch=master) | Contains information about paragraph formatting. |
 
     
 
-     
+     
 
--   The following messages are supported only in Asian-language versions of Microsoft Rich Edit 1.0. They are not supported in any later versions of Rich Edit.
+-   The following messages are supported only in Asian-language versions of Microsoft Rich Edit 1.0. They are not supported in any later versions of Rich Edit.
 
     [**EM\_CONVPOSITION**](em-convposition.md)
 
@@ -170,9 +175,9 @@ With a few exceptions, Microsoft Rich Edit 2.0 uses the same functions, structur
 
 ### Rich Edit Version 3.0
 
-Microsoft Rich Edit 3.0 is a single, scalable, world-wide DLL that offers high performance and compatibility with Word in a small package. New features for Microsoft Rich Edit 3.0 include richer text, zoom, font binding, more powerful IME support, and rich complex script support (bidirectional, Indic, and Thai).
+Microsoft Rich Edit 3.0 is a single, scalable, world-wide DLL that offers high performance and compatibility with Word in a small package. New features for Microsoft Rich Edit 3.0 include richer text, zoom, font binding, more powerful IME support, and rich complex script support (bidirectional, Indic, and Thai).
 
-Microsoft Rich Edit 3.0 includes the following features in addition to the features provided by [Rich Edit Version 2.0](#rich-edit-version-20).
+Microsoft Rich Edit 3.0 includes the following features in addition to the features provided by [Rich Edit Version 2.0](#rich-edit-version-20).
 
 
 
@@ -192,7 +197,7 @@ Microsoft Rich Edit 3.0 includes the following features in addition to the featu
 </tr>
 <tr class="odd">
 <td>Simple tables</td>
-<td>Deleting and inserting rows is possible, but not resizing nor wrapping inside cells. With advanced typography turned on (see [<strong>EM_GETTYPOGRAPHYOPTIONS</strong>](em-gettypographyoptions.md)), Microsoft Rich Edit 3.0 can align columns centered or flush right, and include decimals. Cells are simulated by tabs, so text tabs and carriage returns are replaced by blanks.</td>
+<td>Deleting and inserting rows is possible, but not resizing nor wrapping inside cells. With advanced typography turned on (see [<strong>EM_GETTYPOGRAPHYOPTIONS</strong>](em-gettypographyoptions.md)), Microsoft Rich Edit 3.0 can align columns centered or flush right, and include decimals. Cells are simulated by tabs, so text tabs and carriage returns are replaced by blanks.</td>
 </tr>
 <tr class="even">
 <td>Normal and heading styles</td>
@@ -232,7 +237,7 @@ Microsoft Rich Edit 3.0 includes the following features in addition to the featu
 </tr>
 <tr class="odd">
 <td>Advanced typography option</td>
-<td>Microsoft Rich Edit 3.0 can use an advanced typography option for line breaking and display (see [<strong>EM_GETTYPOGRAPHYOPTIONS</strong>](em-gettypographyoptions.md)). This elegant option was added primarily to facilitate handling complex scripts (bidirectional, Indic, and Thai). In addition, a number of improvements occur for simple scripts. Examples are:
+<td>Microsoft Rich Edit 3.0 can use an advanced typography option for line breaking and display (see [<strong>EM_GETTYPOGRAPHYOPTIONS</strong>](em-gettypographyoptions.md)). This elegant option was added primarily to facilitate handling complex scripts (bidirectional, Indic, and Thai). In addition, a number of improvements occur for simple scripts. Examples are:
 <ul>
 <li>Center, right, decimal tabs</li>
 <li>Fully justified text</li>
@@ -241,11 +246,11 @@ Microsoft Rich Edit 3.0 includes the following features in addition to the featu
 </tr>
 <tr class="even">
 <td>Complex script support</td>
-<td>Microsoft Rich Edit 3.0 supports bidirectional (text with Arabic and/or Hebrew mixed with other scripts), Indic (Indian scripts like Devangari), and Thai text. For support of these complex scripts, the advanced typography and Uniscribe components are used.</td>
+<td>Microsoft Rich Edit 3.0 supports bidirectional (text with Arabic and/or Hebrew mixed with other scripts), Indic (Indian scripts like Devangari), and Thai text. For support of these complex scripts, the advanced typography and Uniscribe components are used.</td>
 </tr>
 <tr class="odd">
 <td>Font binding</td>
-<td>Microsoft Rich Edit 3.0 will automatically choose an appropriate font for characters that clearly do not belong to the current character set stamp. This is done by assigning character sets to text runs and associating fonts with those character sets. For more information, see [Font Binding](using-rich-edit-controls.md#re-font-binding).</td>
+<td>Microsoft Rich Edit 3.0 will automatically choose an appropriate font for characters that clearly do not belong to the current character set stamp. This is done by assigning character sets to text runs and associating fonts with those character sets. For more information, see [Font Binding](using-rich-edit-controls.md#re-font-binding).</td>
 </tr>
 <tr class="even">
 <td>Plain-text read/write options specific to character sets</td>
@@ -279,7 +284,7 @@ Microsoft Rich Edit 3.0 includes the following features in addition to the featu
 </tr>
 <tr class="even">
 <td>Improved 1.0 compatibility mode</td>
-<td>Microsoft Rich Edit 3.0 can emulate Microsoft Rich Edit 1.0 behavior. For example, it is possible to change between MBCS and Unicode character-position (cp) mappings.</td>
+<td>Microsoft Rich Edit 3.0 can emulate Microsoft Rich Edit 1.0 behavior. For example, it is possible to change between MBCS and Unicode character-position (cp) mappings.</td>
 </tr>
 <tr class="odd">
 <td>Increased freeze control</td>
@@ -298,13 +303,13 @@ Microsoft Rich Edit 3.0 includes the following features in addition to the featu
 
 
 
- 
+ 
 
 ### Rich Edit Version 4.1
 
-The window class for Microsoft Rich Edit 4.1 is MSFTEDIT\_CLASS. New features for Microsoft Rich Edit 4.1 include hyphenation, page rotation, and Text Services Framework (TSF) support.
+The window class for Microsoft Rich Edit 4.1 is MSFTEDIT\_CLASS. New features for Microsoft Rich Edit 4.1 include hyphenation, page rotation, and Text Services Framework (TSF) support.
 
-Microsoft Rich Edit 4.1 includes the following features in addition to the features provided by [Rich Edit Version 3.0](#rich-edit-version-30).
+Microsoft Rich Edit 4.1 includes the following features in addition to the features provided by [Rich Edit Version 3.0](#rich-edit-version-30).
 
 
 
@@ -316,7 +321,7 @@ Microsoft Rich Edit 4.1 includes the following features in addition to the featu
 <tbody>
 <tr class="odd">
 <td>Hyphenation</td>
-<td>Hyphenation is supported through the following APIs: [<em>HyphenateProc</em>](hyphenateproc.md), [<strong>EM_SETHYPHENATEINFO</strong>](em-sethyphenateinfo.md), and [<strong>EM_GETHYPHENATEINFO</strong>](em-gethyphenateinfo.md).</td>
+<td>Hyphenation is supported through the following APIs: [<em>HyphenateProc</em>](/windows/win32/Richedit/nf-richedit-hyphenateproc?branch=master), [<strong>EM_SETHYPHENATEINFO</strong>](em-sethyphenateinfo.md), and [<strong>EM_GETHYPHENATEINFO</strong>](em-gethyphenateinfo.md).</td>
 </tr>
 <tr class="even">
 <td>Page rotation</td>
@@ -376,7 +381,7 @@ Microsoft Rich Edit 4.1 includes the following features in addition to the featu
 
 
 
- 
+ 
 
 ## Unsupported Edit Control Functionality
 
@@ -394,15 +399,15 @@ The following messages are processed by edit controls but *not* by rich edit con
 | [**EM\_GETMARGINS**](em-getmargins.md)     | Not supported.                                                                                                              |
 | [**EM\_SETHANDLE**](em-sethandle.md)       | Rich edit controls do not store text as a simple array of characters.                                                       |
 | [**EM\_SETIMESTATUS**](em-setimestatus.md) | Not supported.                                                                                                              |
-| [**EM\_SETMARGINS**](em-setmargins.md)     | Supported in Microsoft Rich Edit 3.0.                                                                                       |
+| [**EM\_SETMARGINS**](em-setmargins.md)     | Supported in Microsoft Rich Edit 3.0.                                                                                       |
 | [**EM\_SETRECTNP**](em-setrectnp.md)       | Not supported.                                                                                                              |
-| [**EM\_SETTABSTOPS**](em-settabstops.md)   | The [**EM\_SETPARAFORMAT**](em-setparaformat.md) message is used instead. Supported in Microsoft Rich Edit 3.0.<br/> |
+| [**EM\_SETTABSTOPS**](em-settabstops.md)   | The [**EM\_SETPARAFORMAT**](em-setparaformat.md) message is used instead. Supported in Microsoft Rich Edit 3.0.<br/> |
 | [**WM\_CTLCOLOR**](https://msdn.microsoft.com/library/bb432504)    | The [**EM\_SETBKGNDCOLOR**](em-setbkgndcolor.md) message is used instead.                                                  |
 | [**WM\_GETFONT**](https://msdn.microsoft.com/library/windows/desktop/ms632624)        | The [**EM\_GETCHARFORMAT**](em-getcharformat.md) message is used instead.                                                  |
 
 
 
- 
+ 
 
 The following window styles are used with multiline edit controls but not with rich edit controls: [**ES\_LOWERCASE**](edit-control-styles.md#es-lowercase), [**ES\_UPPERCASE**](edit-control-styles.md#es-uppercase), and [**ES\_OEMCONVERT**](edit-control-styles.md#es-oemconvert).
 
@@ -472,7 +477,7 @@ Rich edit controls support the following shortcut keys.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -487,9 +492,9 @@ Rich edit controls support the following shortcut keys.
 [Windowless Rich Edit Controls](windowless-rich-edit-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

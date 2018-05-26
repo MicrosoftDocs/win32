@@ -1,7 +1,12 @@
 ---
-Description: 'The SelectOrActivatButton event is sent when the disc enables or disables the selection or activation of menu buttons.'
-ms.assetid: '23d49847-36d2-4cfe-bfcf-8b9ac4b920f3'
+Description: The SelectOrActivatButton event is sent when the disc enables or disables the selection or activation of menu buttons.
+ms.assetid: 23d49847-36d2-4cfe-bfcf-8b9ac4b920f3
 title: SelectOrActivatButton
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SelectOrActivatButton

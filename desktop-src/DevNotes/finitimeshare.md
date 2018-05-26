@@ -1,7 +1,12 @@
-﻿---
-Description: 'Initializes IME Share.'
-ms.assetid: '7f58564e-d660-4936-b74c-af4eb93e2442'
+---
+Description: Initializes IME Share.
+ms.assetid: 7f58564e-d660-4936-b74c-af4eb93e2442
 title: FInitIMEShare function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FInitIMEShare function

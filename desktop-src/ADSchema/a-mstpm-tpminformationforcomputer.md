@@ -4,17 +4,22 @@ description: This attribute links a Computer object to a TPM object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6b0711a6-ef7f-4afa-9bea-e09515b56882'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6b0711a6-ef7f-4afa-9bea-e09515b56882
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TPM-Tpm-Information-For-Computer attribute AD Schema", "msTPM-TpmInformationForComputer attribute AD Schema"]
+keywords:
+- ms-TPM-Tpm-Information-For-Computer attribute AD Schema
+- msTPM-TpmInformationForComputer attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TPM-Tpm-Information-For-Computer
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TPM-Tpm-Information-For-Computer attribute
@@ -38,7 +43,7 @@ This attribute links a Computer object to a TPM object.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ This attribute links a Computer object to a TPM object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

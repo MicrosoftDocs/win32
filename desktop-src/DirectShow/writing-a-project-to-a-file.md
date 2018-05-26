@@ -1,7 +1,12 @@
 ---
 Description: Writing a Project to a File
-ms.assetid: '84499e4f-4f45-4aa6-aa89-d95c3b6b47d0'
+ms.assetid: 84499e4f-4f45-4aa6-aa89-d95c3b6b47d0
 title: Writing a Project to a File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing a Project to a File
@@ -35,7 +40,7 @@ hr = pRender->ConnectFrontEnd( );
 
 
 
-Next, add multiplexer and file-writing filters to the filter graph. The easiest way to do this is with the [Capture Graph Builder](capture-graph-builder.md), a DirectShow component for building capture graphs. The capture graph builder exposes the [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md) interface. Perform the following steps:
+Next, add multiplexer and file-writing filters to the filter graph. The easiest way to do this is with the [Capture Graph Builder](capture-graph-builder.md), a DirectShow component for building capture graphs. The capture graph builder exposes the [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master) interface. Perform the following steps:
 
 1.  Create an instance of the capture graph builder.
 2.  Obtain a pointer to the graph and pass it to the graph builder.
@@ -67,7 +72,7 @@ Finally, connect the output pins on the front end to the mux filter.
 2.  For each pin, obtain a pointer to the pin.
 3.  Optionally, create an instance of a compression filter to compress the stream. The type of compressor will depend on the media type of the group. You can use the [System Device Enumerator](system-device-enumerator.md) to enumerate the available compression filters. For more information, see [Enumerating Devices and Filters](enumerating-devices-and-filters.md).
 4.  Optionally, set compression parameters such as the key-frame rate. This step is discussed in detail later in the article.
-5.  Call [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md). This method takes pointers to the pin, the compression filter (if any), and the multiplexer.
+5.  Call [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master). This method takes pointers to the pin, the compression filter (if any), and the multiplexer.
 
 The following code example shows how to connect the output pins.
 
@@ -96,9 +101,9 @@ for (i = 0; i < NumGroups; i++)
 
 
 
-To set compression parameters (step 4, previously), use the [**IAMVideoCompression**](iamvideocompression.md) interface. This interface is exposed on the output pins of compression filters. Enumerate the compression filter's pins, and query each output pin for **IAMVideoCompression**. (For information about enumerating pins, see [Enumerating Pins](enumerating-pins.md).) Be sure to release all the interface pointers that you obtained during this step.
+To set compression parameters (step 4, previously), use the [**IAMVideoCompression**](/windows/win32/Strmif/nn-strmif-iamvideocompression?branch=master) interface. This interface is exposed on the output pins of compression filters. Enumerate the compression filter's pins, and query each output pin for **IAMVideoCompression**. (For information about enumerating pins, see [Enumerating Pins](enumerating-pins.md).) Be sure to release all the interface pointers that you obtained during this step.
 
-After you build the filter graph, call the [**IMediaControl::Run**](imediacontrol-run.md) method on the filter graph manager. As the filter graph runs, it writes the data to a file. Use event notification to wait for playback to complete. (See [Responding to Events](responding-to-events.md).) When playback finishes, you must explicitly call [**IMediaControl::Stop**](imediacontrol-stop.md) to stop the filter graph. Otherwise, the file is not written correctly.
+After you build the filter graph, call the [**IMediaControl::Run**](/windows/win32/Control/nf-control-imediacontrol-run?branch=master) method on the filter graph manager. As the filter graph runs, it writes the data to a file. Use event notification to wait for playback to complete. (See [Responding to Events](responding-to-events.md).) When playback finishes, you must explicitly call [**IMediaControl::Stop**](/windows/win32/Control/nf-control-imediacontrol-stop?branch=master) to stop the filter graph. Otherwise, the file is not written correctly.
 
 **Using the Smart Render Engine**
 
@@ -111,7 +116,7 @@ To get the benefits of smart recompression, use the smart render engine in place
 
 Each video group has a property that specifies the compression format for that group. The compression format must exactly match the group's uncompressed format in height, width, bit depth, and frame rate. The smart render engine uses the compression format when it constructs the graph. Before you set the compression format, make sure to set the uncompressed format for that group by calling [**IAMTimelineGroup::SetMediaType**](iamtimelinegroup-setmediatype.md).
 
-To set a group's compression format, call the [**IAMTimelineGroup::SetSmartRecompressFormat**](iamtimelinegroup-setsmartrecompressformat.md) method. This method takes a pointer to an [**SCompFmt0**](scompfmt0.md) structure. The **SCompFmt0** structure has two members: **nFormatId**, which must be zero, and **MediaType**, which is an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure. Initialize the **AM\_MEDIA\_TYPE** structure with the format information.
+To set a group's compression format, call the [**IAMTimelineGroup::SetSmartRecompressFormat**](iamtimelinegroup-setsmartrecompressformat.md) method. This method takes a pointer to an [**SCompFmt0**](scompfmt0.md) structure. The **SCompFmt0** structure has two members: **nFormatId**, which must be zero, and **MediaType**, which is an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure. Initialize the **AM\_MEDIA\_TYPE** structure with the format information.
 
 > [!Note]  
 > If you want the final project to have the same format as one of your source files, you can get the AM\_MEDIA\_TYPE structure directly from the source file, using the media detector. See [**IMediaDet::get\_StreamMediaType**](imediadet-get-streammediatype.md).
@@ -138,7 +143,7 @@ The smart render engine automatically searches for a compatible compression filt
 To build the graph, use the same steps that were described for the Basic Render Engine in the previous section. The only differences are the following:
 
 -   Use the smart render engine, not the basic render engine. The class identifier is CLSID\_SmartRenderEngine.
--   Set compression parameters after you build the front end but before you render the output pins. Call the [**ISmartRenderEngine::GetGroupCompressor**](ismartrenderengine-getgroupcompressor.md) method to obtain a pointer to a group's compression filter. Then query for the [**IAMVideoCompression**](iamvideocompression.md) interface, as described previously.
+-   Set compression parameters after you build the front end but before you render the output pins. Call the [**ISmartRenderEngine::GetGroupCompressor**](ismartrenderengine-getgroupcompressor.md) method to obtain a pointer to a group's compression filter. Then query for the [**IAMVideoCompression**](/windows/win32/Strmif/nn-strmif-iamvideocompression?branch=master) interface, as described previously.
 -   When you render the output pins, there is no need to insert a compression filter. The stream is already compressed.
 
 ## Related topics

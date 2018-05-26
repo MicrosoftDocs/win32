@@ -1,7 +1,12 @@
 ---
 title: NAP Enumerated Types
 description: The following enumerated types support the NAP API FailureCategoryFixupStateHealthClassValueIsolationStateExtendedIsolationStateNapNotifyTypeRemoteConfigurationTypeSoHAttributeType
-ms.assetid: '93ea8c4c-ae94-416c-8c7b-870c78eb55c3'
+ms.assetid: 93ea8c4c-ae94-416c-8c7b-870c78eb55c3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NAP Enumerated Types
@@ -13,13 +18,13 @@ ms.assetid: '93ea8c4c-ae94-416c-8c7b-870c78eb55c3'
 
 The following enumerated types support the NAP API:
 
--   [**FailureCategory**](failurecategory-enum.md)
--   [**FixupState**](fixupstate-enum.md)
+-   [**FailureCategory**](/windows/win32/NapTypes/ne-naptypes-tagfailurecategory?branch=master)
+-   [**FixupState**](/windows/win32/NapTypes/ne-naptypes-tagfixupstate?branch=master)
 -   [**HealthClassValue**](healthclassvalue-enum.md)
--   [**IsolationState**](isolationstate-enum.md)
--   [**ExtendedIsolationState**](extendedisolationstate.md)
--   [**NapNotifyType**](napnotifytype.md)
--   [**RemoteConfigurationType**](remoteconfigurationtype.md)
+-   [**IsolationState**](/windows/win32/NapTypes/ne-naptypes-tagisolationstate?branch=master)
+-   [**ExtendedIsolationState**](/windows/win32/NapTypes/ne-naptypes-tagextendedisolationstate?branch=master)
+-   [**NapNotifyType**](/windows/win32/NapTypes/ne-naptypes-tagnapnotifytype?branch=master)
+-   [**RemoteConfigurationType**](/windows/win32/NapTypes/ne-naptypes-tagremoteconfigurationtype?branch=master)
 -   [**SoHAttributeType**](sohattributetype-enum.md)
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'The CBaseOutputPin class is an abstract base class that implements an output pin.'
-ms.assetid: '5279c8aa-6ec0-4a89-a1b3-6904d7b69a93'
+Description: The CBaseOutputPin class is an abstract base class that implements an output pin.
+ms.assetid: 5279c8aa-6ec0-4a89-a1b3-6904d7b69a93
 title: CBaseOutputPin class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin class
@@ -12,8 +17,8 @@ The `CBaseOutputPin` class is an abstract base class that implements an output p
 
 This class derives from [**CBasePin**](cbasepin.md). It differs from **CBasePin** in the following respects:
 
--   It connects only to input pins that support the [**IMemInputPin**](imeminputpin.md) interface.
--   It supports local memory transport through the [**IMemAllocator**](imemallocator.md) interface.
+-   It connects only to input pins that support the [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interface.
+-   It supports local memory transport through the [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface.
 -   It rejects end-of-stream, flush, and new-segment notifications. (These should not be sent to an output pin.)
 -   It provides methods for delivering samples downstream.
 
@@ -53,7 +58,7 @@ Your derived class must override the pure virtual [**CBasePin::CheckMediaType**]
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,9 +71,9 @@ Your derived class must override the pure virtual [**CBasePin::CheckMediaType**]
 
 
 
- 
+ 
 
- 
+ 
 
 
 

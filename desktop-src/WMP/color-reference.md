@@ -1,8 +1,17 @@
 ---
 title: Color Reference
 description: Color Reference
-ms.assetid: '01d05d18-7b24-4237-973b-b7b84315252d'
-keywords: ["Windows Media Player skins,color reference", "skins,color reference", "reference for skins,colors", "color reference for skins"]
+ms.assetid: 01d05d18-7b24-4237-973b-b7b84315252d
+keywords:
+- Windows Media Player skins,color reference
+- skins,color reference
+- reference for skins,colors
+- color reference for skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Reference

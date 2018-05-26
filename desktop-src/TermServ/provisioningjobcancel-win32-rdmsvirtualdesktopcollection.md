@@ -4,11 +4,14 @@ description: Cancels a virtual desktop provisioning job.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '933ea0f3-b916-4e70-89de-597f9eb23976'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 933ea0f3-b916-4e70-89de-597f9eb23976
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ProvisioningJobCancel method Remote Desktop Services", "ProvisioningJobCancel method Remote Desktop Services , Win32_RDMSVirtualDesktopCollection class", "Win32_RDMSVirtualDesktopCollection class Remote Desktop Services , ProvisioningJobCancel method"]
+keywords:
+- ProvisioningJobCancel method Remote Desktop Services
+- ProvisioningJobCancel method Remote Desktop Services , Win32_RDMSVirtualDesktopCollection class
+- Win32_RDMSVirtualDesktopCollection class Remote Desktop Services , ProvisioningJobCancel method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProvisioningJobCancel method of the Win32\_RDMSVirtualDesktopCollection class
@@ -28,7 +34,7 @@ Cancels a virtual desktop provisioning job.
 
 ```mof
 uint32 ProvisioningJobCancel(
-  [in] string JobGuid
+  [in] string JobGuid
 );
 ```
 
@@ -56,7 +62,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -70,9 +76,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSVirtualDesktopCollection**](win32-rdmsvirtualdesktopcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

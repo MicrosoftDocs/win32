@@ -1,18 +1,23 @@
 ---
-Description: 'The CBaseAllocator class is an abstract base class that implements an allocator. Allocators expose the IMemAllocator interface.'
-ms.assetid: '3c9003d8-f15c-4e85-9712-9aaa87dffdf3'
+Description: The CBaseAllocator class is an abstract base class that implements an allocator. Allocators expose the IMemAllocator interface.
+ms.assetid: 3c9003d8-f15c-4e85-9712-9aaa87dffdf3
 title: CBaseAllocator class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator class
 
 ![cbaseallocator class hierarchy](images/filter10.png)
 
-The **CBaseAllocator** class is an abstract base class that implements an allocator. Allocators expose the [**IMemAllocator**](imemallocator.md) interface.
+The **CBaseAllocator** class is an abstract base class that implements an allocator. Allocators expose the [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface.
 
 An *allocator* is an object that allocates memory buffers. The allocator maintains a list of available buffers. When a client (generally a filter) requests a buffer, the allocator retrieves one from the list. The client fills the buffer with data, and might pass the buffer to another object. Eventually the buffer is released and the allocator returns it to the list of available buffers.
 
-Each buffer is encapsulated by an object called a *media sample*. Media samples are a way to package pointers to memory blocks within the Component Object Model (COM) framework. Media samples expose the [**IMediaSample**](imediasample.md) interface, and are implemented using the [**CMediaSample**](cmediasample.md) class. A media sample contains a pointer to the associated buffer, which can be accessed by calling the [**IMediaSample::GetPointer**](imediasample-getpointer.md) method. For more information, see [Samples and Allocators](samples-and-allocators.md).
+Each buffer is encapsulated by an object called a *media sample*. Media samples are a way to package pointers to memory blocks within the Component Object Model (COM) framework. Media samples expose the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface, and are implemented using the [**CMediaSample**](cmediasample.md) class. A media sample contains a pointer to the associated buffer, which can be accessed by calling the [**IMediaSample::GetPointer**](/windows/win32/Strmif/nf-strmif-imediasample-getpointer?branch=master) method. For more information, see [Samples and Allocators](samples-and-allocators.md).
 
 To use this class, perform the following steps:
 
@@ -64,7 +69,7 @@ The [**CMemAllocator**](cmemallocator.md) base class derives from **CBaseAllocat
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -84,9 +89,9 @@ The [**CMemAllocator**](cmemallocator.md) base class derives from **CBaseAllocat
 [Providing a Custom Allocator](providing-a-custom-allocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

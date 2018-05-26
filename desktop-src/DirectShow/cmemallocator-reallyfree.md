@@ -1,7 +1,12 @@
 ---
-Description: 'The ReallyFree method releases the memory for the buffers.'
-ms.assetid: 'c5c5d09f-b4f2-4a06-9309-3b2a8b8f8f1f'
-title: 'CMemAllocator.ReallyFree method'
+Description: The ReallyFree method releases the memory for the buffers.
+ms.assetid: c5c5d09f-b4f2-4a06-9309-3b2a8b8f8f1f
+title: CMemAllocator.ReallyFree method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMemAllocator.ReallyFree method
@@ -47,9 +52,9 @@ The [**CMemAllocator**](cmemallocator.md) class holds memory until the object is
 [**CMemAllocator Class**](cmemallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

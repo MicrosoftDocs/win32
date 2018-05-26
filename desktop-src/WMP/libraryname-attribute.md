@@ -1,14 +1,20 @@
 ---
 title: LibraryName Attribute
 description: The LibraryName attribute is the name of the library that the item belongs to.
-ms.assetid: '70ce2de1-6c7b-427a-ba48-a9f69bacd015'
-keywords: ["LibraryName Attribute Windows Media Player"]
+ms.assetid: 70ce2de1-6c7b-427a-ba48-a9f69bacd015
+keywords:
+- LibraryName Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LibraryName
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LibraryName Attribute
@@ -26,7 +32,7 @@ The LibraryName attribute is the name of the library that the item belongs to.
 
 A media item might belong to the current user's local library or it might belong to a library that has been made available by another user on a home network.
 
-The value of this attribute is the same as the value returned by the [**IWMPLibrary::get\_name**](iwmplibrary-get-name.md) method.
+The value of this attribute is the same as the value returned by the [**IWMPLibrary::get\_name**](/windows/win32/wmp/nf-wmp-iwmplibrary-get_name?branch=master) method.
 
 ## Requirements
 
@@ -45,9 +51,9 @@ The value of this attribute is the same as the value returned by the [**IWMPLibr
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

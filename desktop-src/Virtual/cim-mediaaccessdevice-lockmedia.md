@@ -1,8 +1,11 @@
 ---
 title: LockMedia method of the CIM\_MediaAccessDevice class
 description: Represents a device that can use media to store and retrieve data.
-ms.assetid: '13a113b4-e3df-47d2-88bd-99a40cf1efa5'
-keywords: ["LockMedia method Hyper-V", "LockMedia method Hyper-V , CIM_MediaAccessDevice class", "CIM_MediaAccessDevice class Hyper-V , LockMedia method"]
+ms.assetid: 13a113b4-e3df-47d2-88bd-99a40cf1efa5
+keywords:
+- LockMedia method Hyper-V
+- LockMedia method Hyper-V , CIM_MediaAccessDevice class
+- CIM_MediaAccessDevice class Hyper-V , LockMedia method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LockMedia method of the CIM\_MediaAccessDevice class
@@ -22,7 +30,7 @@ Represents a device that can use media to store and retrieve data.
 
 ```mof
 uint32 LockMedia(
-  [in] boolean Lock
+  [in] boolean Lock
 );
 ```
 
@@ -61,9 +69,9 @@ This method returns "0" if successful, "1" if not supported, and any other value
 [**CIM\_MediaAccessDevice**](cim-mediaaccessdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

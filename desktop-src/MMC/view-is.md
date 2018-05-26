@@ -4,11 +4,16 @@ description: The Is method determines whether the view is the same as a specifie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '41627d45-501e-4be3-a721-78b10de078f6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 41627d45-501e-4be3-a721-78b10de078f6
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Is method MMC", "Is method MMC , View object", "View object MMC , Is method", "Is method MMC , View interface", "View interface MMC , Is method"]
+keywords:
+- Is method MMC
+- Is method MMC , View object
+- View object MMC , Is method
+- Is method MMC , View interface
+- View interface MMC , Is method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::Is method
@@ -69,8 +77,8 @@ End If
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -78,9 +86,9 @@ End If
 
 
 
- 
+ 
 
- 
+ 
 
 
 

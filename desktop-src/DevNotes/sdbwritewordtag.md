@@ -1,7 +1,12 @@
-﻿---
-Description: 'Writes a WORD value to the specified database.'
-ms.assetid: '8f921e14-4a82-4d8e-83fa-beb78118ecb8'
+---
+Description: Writes a WORD value to the specified database.
+ms.assetid: 8f921e14-4a82-4d8e-83fa-beb78118ecb8
 title: SdbWriteWORDTag function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbWriteWORDTag function

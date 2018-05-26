@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the CAPICOM-defined name for the identifier. This is the default property.'
-ms.assetid: '9a7c441d-e2c4-4c02-8910-b889f8a35e64'
-title: 'OID.Name property'
+---
+Description: Sets or retrieves the CAPICOM-defined name for the identifier. This is the default property.
+ms.assetid: 9a7c441d-e2c4-4c02-8910-b889f8a35e64
+title: OID.Name property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OID.Name property

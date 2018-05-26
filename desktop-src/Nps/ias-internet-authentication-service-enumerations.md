@@ -4,10 +4,13 @@ description: Use the following enumerated types when developing NPS Extension DL
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6bf9c421-f0f6-4c75-bb4d-dbe91dcb8d01'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 6bf9c421-f0f6-4c75-bb4d-dbe91dcb8d01
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NPS Extensions Enumerations

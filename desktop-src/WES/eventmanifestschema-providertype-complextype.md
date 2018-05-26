@@ -1,14 +1,20 @@
 ---
 title: ProviderType Complex Type
 description: Defines a provider and the metadata that it uses to define its events.
-ms.assetid: '70199cf5-a6d0-4780-9ff1-ed083a5b49ac'
-keywords: ["ProviderType complex type EventLog"]
+ms.assetid: 70199cf5-a6d0-4780-9ff1-ed083a5b49ac
+keywords:
+- ProviderType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - ProviderType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProviderType Complex Type
@@ -125,7 +131,7 @@ Defines a provider and the metadata that it uses to define its events.
 |-------------------------------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**channels**](eventmanifestschema-channels-providertype-element.md)         | [**ChannelListType**](eventmanifestschema-channellisttype-complextype.md)   | Defines a list of channels to which providers can log events.<br/>                                                                                                                                                                                      |
 | [**events**](eventmanifestschema-events-providertype-element.md)             | [**DefinitionType**](eventmanifestschema-definitiontype-complextype.md)     | Defines a list of event definitions of the events that the provider can log.<br/>                                                                                                                                                                       |
-| **filters**                                                                   | [**FilterListType**](eventmanifestschema-filterlisttype-complextype.md)     | Defines a list of filters that your provider supports. You can use the filters, as you would level and keywords, to determine if you want to write an event. <br/> **Windows Server 2008 and Windows Vista:** Not supported until Windows 7.<br/> |
+| **filters**                                                                   | [**FilterListType**](eventmanifestschema-filterlisttype-complextype.md)     | Defines a list of filters that your provider supports. You can use the filters, as you would level and keywords, to determine if you want to write an event. <br/> **Windows Server 2008 and Windows Vista:** Not supported until Windows 7.<br/> |
 | [**keywords**](eventmanifestschema-keywords-providertype-element.md)         | [**KeywordListType**](eventmanifestschema-keywordlisttype-complextype.md)   | Defines a list of keywords that categorize events.<br/>                                                                                                                                                                                                 |
 | [**levels**](eventmanifestschema-levels-providertype-element.md)             | [**LevelListType**](eventmanifestschema-levellisttype-complextype.md)       | Defines a list of levels that specify the severity of an event.<br/>                                                                                                                                                                                    |
 | [**maps**](eventmanifestschema-maps-providertype-element.md)                 | [**MapType**](eventmanifestschema-maptype-complextype.md)                   | Defines a list of name/value pairs that you can reference in the template section of the manifest.<br/>                                                                                                                                                 |
@@ -169,14 +175,14 @@ An event's message string can contain insertion strings and parameter strings. A
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

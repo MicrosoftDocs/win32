@@ -1,17 +1,22 @@
 ---
-Description: 'Gethostbyname function in the Winsock API.'
-ms.assetid: '015637ed-7a3e-49eb-96ef-8fe82d2902f5'
+Description: Gethostbyname function in the Winsock API.
+ms.assetid: 015637ed-7a3e-49eb-96ef-8fe82d2902f5
 title: gethostbyname Function in the API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gethostbyname Function in the API
 
-The [**gethostbyname**](gethostbyname-2.md) function uses the [**WSALookupServiceBegin**](wsalookupservicebegin-2.md) function to query SVCID\_INET\_HOSTADDRBYNAME as the service class GUID. The host name is supplied in the **lpszServiceInstanceName** member in the [**WSAQUERYSET**](wsaqueryset-2.md) structure passed to the **WSALookupServiceBegin** function. The Ws2\_32.dll specifies LUP\_RETURN\_BLOB and the name service provider places a [**HOSTENT**](hostent-2.md) structure in the blob (using offsets instead of pointers as described above). Name service providers should honor these other LUP\_RETURN\_\* flags as well.
+The [**gethostbyname**](/windows/win32/wsipv6ok/nf-winsock-gethostbyname?branch=master) function uses the [**WSALookupServiceBegin**](/windows/win32/Winsock2/nf-winsock2-wsalookupservicebegina?branch=master) function to query SVCID\_INET\_HOSTADDRBYNAME as the service class GUID. The host name is supplied in the **lpszServiceInstanceName** member in the [**WSAQUERYSET**](/windows/win32/Winsock2/ns-winsock2-_wsaquerysetw?branch=master) structure passed to the **WSALookupServiceBegin** function. The Ws2\_32.dll specifies LUP\_RETURN\_BLOB and the name service provider places a [**HOSTENT**](/windows/win32/winsock/ns-winsock-hostent?branch=master) structure in the blob (using offsets instead of pointers as described above). Name service providers should honor these other LUP\_RETURN\_\* flags as well.
 
 | Flag              | Description                                                                                                                                                                                                                                            |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| LUP\_RETURN\_NAME | Returns the **h\_name** member from the [**HOSTENT**](hostent-2.md) structure in *lpszServiceInstanceName*.                                                                                                                                           |
-| LUP\_RETURN\_ADDR | Returns addressing information from [**HOSTENT**](hostent-2.md) in [**CSADDR\_INFO**](csaddr-info-2.md) structures, port information is defaulted to zero. Note that this routine does not resolve host names that consist of a dotted IPv4 address. |
+| LUP\_RETURN\_NAME | Returns the **h\_name** member from the [**HOSTENT**](/windows/win32/winsock/ns-winsock-hostent?branch=master) structure in *lpszServiceInstanceName*.                                                                                                                                           |
+| LUP\_RETURN\_ADDR | Returns addressing information from [**HOSTENT**](/windows/win32/winsock/ns-winsock-hostent?branch=master) in [**CSADDR\_INFO**](/windows/win32/ws2def/ns-nspapi-_csaddr_info?branch=master) structures, port information is defaulted to zero. Note that this routine does not resolve host names that consist of a dotted IPv4 address. |
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMMEMORYUSAGE structure is used as an input parameter to a rendering plug-in''s IPrintOemUni::MemoryUsage method.'
-ms.assetid: 'a7a522b8-7aa2-45b6-9200-407471dca82f'
+---
+Description: The OEMMEMORYUSAGE structure is used as an input parameter to a rendering plug-ins IPrintOemUniMemoryUsage method.
+ms.assetid: a7a522b8-7aa2-45b6-9200-407471dca82f
 title: OEMMEMORYUSAGE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMMEMORYUSAGE structure

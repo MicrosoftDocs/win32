@@ -1,7 +1,12 @@
-﻿---
-Description: 'A user interface plug-in''s IPrintOemUI::GetInfo method returns identification information.'
-ms.assetid: 'be1eb547-f824-4d6d-818f-8ac1740d1d24'
-title: 'IPrintOemUI::GetInfo method'
+---
+Description: A user interface plug-ins IPrintOemUIGetInfo method returns identification information.
+ms.assetid: be1eb547-f824-4d6d-818f-8ac1740d1d24
+title: IPrintOemUIGetInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI::GetInfo method

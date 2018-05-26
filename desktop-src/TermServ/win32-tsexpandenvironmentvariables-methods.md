@@ -4,10 +4,13 @@ description: The Win32\_TSExpandEnvironmentVariables class exposes the following
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0D1E34D9-8C1A-44EC-9957-BB7B18B40FAC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0D1E34D9-8C1A-44EC-9957-BB7B18B40FAC
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSExpandEnvironmentVariables Methods

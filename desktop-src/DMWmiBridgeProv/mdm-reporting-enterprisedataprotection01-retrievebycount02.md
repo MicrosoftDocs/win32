@@ -1,8 +1,10 @@
 ---
 title: MDM\_Reporting\_EnterpriseDataProtection01\_RetrieveByCount02 class
 description: The MDM\_Reporting\_EnterpriseDataProtection01\_RetrieveByCount02 class is used to retrieve a specified number of logs from the StartTime.
-ms.assetid: '0a581d5a-129b-48c3-a7a1-3947cc1e2ee9'
-keywords: ["MDM_Reporting_EnterpriseDataProtection01_RetrieveByCount02 class", "MDM_Reporting_EnterpriseDataProtection01_RetrieveByCount02 class, described"]
+ms.assetid: 0a581d5a-129b-48c3-a7a1-3947cc1e2ee9
+keywords:
+- MDM_Reporting_EnterpriseDataProtection01_RetrieveByCount02 class
+- MDM_Reporting_EnterpriseDataProtection01_RetrieveByCount02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Mofs\DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Reporting\_EnterpriseDataProtection01\_RetrieveByCount02 class
@@ -132,7 +139,7 @@ Access type: Read/write
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                            |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl>      |
@@ -140,9 +147,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

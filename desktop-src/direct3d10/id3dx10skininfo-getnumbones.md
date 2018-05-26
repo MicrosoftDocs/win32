@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get the number of bones in ID3DX10SkinInfo.'
-ms.assetid: '373c8b42-a745-4c68-a93e-381602ca6e0d'
-title: 'ID3DX10SkinInfo::GetNumBones method'
+---
+Description: Get the number of bones in ID3DX10SkinInfo.
+ms.assetid: 373c8b42-a745-4c68-a93e-381602ca6e0d
+title: ID3DX10SkinInfoGetNumBones method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10SkinInfo::GetNumBones method

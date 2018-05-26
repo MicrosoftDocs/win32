@@ -1,7 +1,12 @@
 ---
-Description: 'Used to verify that a message has not been changed during transit.'
-ms.assetid: 'a4bb67fb-8217-4e76-b1bf-461ccd39f58a'
-title: 'Example C Program: Creating an HMAC'
+Description: Used to verify that a message has not been changed during transit.
+ms.assetid: a4bb67fb-8217-4e76-b1bf-461ccd39f58a
+title: Example C Program Creating an HMAC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Creating an HMAC
@@ -10,11 +15,11 @@ A hashed message authentication checksum (HMAC) is typically used to verify that
 
 This example demonstrates the following tasks and CryptoAPI functions:
 
--   Acquiring a handle to a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) by calling [**CryptAcquireContext**](cryptacquirecontext.md).
--   Deriving a symmetric key from a byte string by calling [**CryptCreateHash**](cryptcreatehash.md), [**CryptHashData**](crypthashdata.md), and [**CryptDeriveKey**](cryptderivekey.md).
--   Using the symmetric key to create an HMAC hash object by calling [**CryptCreateHash**](cryptcreatehash.md) and [**CryptSetHashParam**](cryptsethashparam.md).
--   Hashing a message by calling [**CryptHashData**](crypthashdata.md).
--   Retrieving the hash by calling [**CryptGetHashParam**](cryptgethashparam.md).
+-   Acquiring a handle to a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) by calling [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master).
+-   Deriving a symmetric key from a byte string by calling [**CryptCreateHash**](/windows/win32/Wincrypt/nf-wincrypt-cryptcreatehash?branch=master), [**CryptHashData**](/windows/win32/Wincrypt/nf-wincrypt-crypthashdata?branch=master), and [**CryptDeriveKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptderivekey?branch=master).
+-   Using the symmetric key to create an HMAC hash object by calling [**CryptCreateHash**](/windows/win32/Wincrypt/nf-wincrypt-cryptcreatehash?branch=master) and [**CryptSetHashParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptsethashparam?branch=master).
+-   Hashing a message by calling [**CryptHashData**](/windows/win32/Wincrypt/nf-wincrypt-crypthashdata?branch=master).
+-   Retrieving the hash by calling [**CryptGetHashParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptgethashparam?branch=master).
 
 
 ```C++

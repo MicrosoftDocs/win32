@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the status of the Output Protection Manager (OPM).'
-ms.assetid: '7C4D88F6-369B-4364-90C4-6D0F8DD1523B'
-title: 'MF\_MEDIA\_ENGINE\_OPM\_STATUS enumeration'
+---
+Description: Defines the status of the Output Protection Manager (OPM).
+ms.assetid: 7C4D88F6-369B-4364-90C4-6D0F8DD1523B
+title: MF\_MEDIA\_ENGINE\_OPM\_STATUS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MEDIA\_ENGINE\_OPM\_STATUS enumeration

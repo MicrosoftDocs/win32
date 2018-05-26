@@ -4,11 +4,14 @@ description: Returns an asynchronous byte reader object.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.ProtectedFileStream.ReadAsync(Windows.Storage.Streams.IBuffer,System.UInt32,Windows.Storage.Streams.InputStreamOptions)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.ProtectedFileStream.ReadAsync(Windows.Storage.Streams.IBuffer,System.UInt32,Windows.Storage.Streams.InputStreamOptions)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ReadAsync method", "ReadAsync method, ProtectedFileStream class", "ProtectedFileStream class, ReadAsync method"]
+keywords:
+- ReadAsync method
+- ReadAsync method, ProtectedFileStream class
+- ProtectedFileStream class, ReadAsync method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileStream.ReadAsync method
@@ -95,9 +101,9 @@ The asynchronous operation.
 [**ProtectedFileStream**](protectedfilestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,19 @@
 ---
 title: Porting Lines
 description: Porting IRIS GL code that draws lines is fairly straightforward, though you should note the differences in the way OpenGL stipples. The following table lists IRIS GL functions for drawing lines and their equivalent OpenGL functions.
-ms.assetid: 'de5fd544-5a64-44b5-8976-b96867e4006d'
-keywords: ["IRIS GL porting,lines", "porting from IRIS GL,lines", "porting to OpenGL from IRIS GL,lines", "OpenGL porting from IRIS GL,lines", "drawing functions,lines", "lines"]
+ms.assetid: de5fd544-5a64-44b5-8976-b96867e4006d
+keywords:
+- IRIS GL porting,lines
+- porting from IRIS GL,lines
+- porting to OpenGL from IRIS GL,lines
+- OpenGL porting from IRIS GL,lines
+- drawing functions,lines
+- lines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Lines
@@ -25,7 +36,7 @@ Porting IRIS GL code that draws lines is fairly straightforward, though you shou
 
 
 
- 
+ 
 
 OpenGL doesn't use tables for line stipples; it maintains only one line-stipple pattern. You can use [**glPushAttrib**](glpushattrib.md) and [**glPopAttrib**](glpopattrib.md) to switch between different stipple patterns.
 
@@ -35,9 +46,9 @@ For information on drawing antialiased lines, see [Porting Antialiasing Function
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

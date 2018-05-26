@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.openState property
 description: The openState property gets an enumeration value indicating the state of the content source.
-ms.assetid: '7a76814a-649f-4516-a92a-5f536fb1b147'
-keywords: ["openState property Windows Media Player", "openState property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , openState property"]
+ms.assetid: 7a76814a-649f-4516-a92a-5f536fb1b147
+keywords:
+- openState property Windows Media Player
+- openState property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , openState property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.openState property
@@ -76,12 +84,12 @@ Windows Media Player states are not guaranteed to occur in any particular order.
 [**AxWindowsMediaPlayer.OpenStateChange Event**](axwmplib-axwindowsmediaplayer-openstatechange.md)
 </dt> <dt>
 
-[**WMPLib.WMPOpenState**](wmpopenstate.md)
+[**WMPLib.WMPOpenState**](/windows/win32/wmp/ne-wmp-wmpopenstate?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

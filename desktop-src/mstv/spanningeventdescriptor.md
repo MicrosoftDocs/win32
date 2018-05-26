@@ -1,8 +1,9 @@
 ---
 title: SpanningEventDescriptor structure
 description: Contains information about an MPEG-2 descriptor.
-ms.assetid: 'd394b0c9-a61a-44e8-972d-0c12fd446e59'
-keywords: ["SpanningEventDescriptor structure Microsoft TV Technologies"]
+ms.assetid: d394b0c9-a61a-44e8-972d-0c12fd446e59
+keywords:
+- SpanningEventDescriptor structure Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdamedia.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SpanningEventDescriptor structure
@@ -75,15 +81,15 @@ The array is larger than the size given in the structure declaration. Use the va
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Bdamedia.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

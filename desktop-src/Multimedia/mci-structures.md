@@ -1,8 +1,15 @@
 ---
 title: MCI Structures
 description: MCI Structures
-ms.assetid: 'e86740e5-633e-465d-94ef-8065a8c05b31'
-keywords: ["MCI structures", "MCI reference,structures"]
+ms.assetid: e86740e5-633e-465d-94ef-8065a8c05b31
+keywords:
+- MCI structures
+- MCI reference,structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI Structures
@@ -10,37 +17,37 @@ keywords: ["MCI structures", "MCI reference,structures"]
 The following structures are used with MCI.
 
 -   [**MCI\_BREAK\_PARMS**](mci-break-parms.md)
--   [**MCI\_DGV\_CAPTURE\_PARMS**](mci-dgv-capture-parms.md)
--   [**MCI\_DGV\_COPY\_PARMS**](mci-dgv-copy-parms.md)
--   [**MCI\_DGV\_CUE\_PARMS**](mci-dgv-cue-parms.md)
--   [**MCI\_DGV\_CUT\_PARMS**](mci-dgv-cut-parms.md)
--   [**MCI\_DGV\_DELETE\_PARMS**](mci-dgv-delete-parms.md)
--   [**MCI\_DGV\_FREEZE\_PARMS**](mci-dgv-freeze-parms.md)
--   [**MCI\_DGV\_INFO\_PARMS**](mci-dgv-info-parms.md)
--   [**MCI\_DGV\_LIST\_PARMS**](mci-dgv-list-parms.md)
--   [**MCI\_DGV\_LOAD\_PARMS**](mci-dgv-load-parms.md)
--   [**MCI\_DGV\_MONITOR\_PARMS**](mci-dgv-monitor-parms.md)
--   [**MCI\_DGV\_OPEN\_PARMS**](mci-dgv-open-parms.md)
--   [**MCI\_DGV\_PASTE\_PARMS**](mci-dgv-paste-parms.md)
--   [**MCI\_DGV\_PAUSE\_PARMS**](mci-dgv-pause-parms.md)
--   [**MCI\_DGV\_PLAY\_PARMS**](mci-dgv-play-parms.md)
--   [**MCI\_DGV\_PUT\_PARMS**](mci-dgv-put-parms.md)
--   [**MCI\_DGV\_QUALITY\_PARMS**](mci-dgv-quality-parms.md)
--   [**MCI\_DGV\_RECORD\_PARMS**](mci-dgv-record-parms.md)
--   [**MCI\_DGV\_RECT\_PARMS**](mci-dgv-rect-parms.md)
--   [**MCI\_DGV\_RESERVE\_PARMS**](mci-dgv-reserve-parms.md)
--   [**MCI\_DGV\_RESTORE\_PARMS**](mci-dgv-restore-parms.md)
--   [**MCI\_DGV\_RESUME\_PARMS**](mci-dgv-resume-parms.md)
--   [**MCI\_DGV\_SAVE\_PARMS**](mci-dgv-save-parms.md)
--   [**MCI\_DGV\_SET\_PARMS**](mci-dgv-set-parms.md)
--   [**MCI\_DGV\_SETAUDIO\_PARMS**](mci-dgv-setaudio-parms.md)
--   [**MCI\_DGV\_SETVIDEO\_PARMS**](mci-dgv-setvideo-parms.md)
--   [**MCI\_DGV\_SIGNAL\_PARMS**](mci-dgv-signal-parms.md)
--   [**MCI\_DGV\_STATUS\_PARMS**](mci-dgv-status-parms.md)
--   [**MCI\_DGV\_STEP\_PARMS**](mci-dgv-step-parms.md)
--   [**MCI\_DGV\_STOP\_PARMS**](mci-dgv-stop-parms.md)
--   [**MCI\_DGV\_UPDATE\_PARMS**](mci-dgv-update-parms.md)
--   [**MCI\_DGV\_WINDOW\_PARMS**](mci-dgv-window-parms.md)
+-   [**MCI\_DGV\_CAPTURE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_capture_parmsa?branch=master)
+-   [**MCI\_DGV\_COPY\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_copy_parms?branch=master)
+-   [**MCI\_DGV\_CUE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_cue_parms?branch=master)
+-   [**MCI\_DGV\_CUT\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_cut_parms?branch=master)
+-   [**MCI\_DGV\_DELETE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_delete_parms?branch=master)
+-   [**MCI\_DGV\_FREEZE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_rect_parms?branch=master)
+-   [**MCI\_DGV\_INFO\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_info_parmsa?branch=master)
+-   [**MCI\_DGV\_LIST\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_list_parmsa?branch=master)
+-   [**MCI\_DGV\_LOAD\_PARMS**](/windows/win32/Digitalv/?branch=master)
+-   [**MCI\_DGV\_MONITOR\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_monitor_parms?branch=master)
+-   [**MCI\_DGV\_OPEN\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_open_parmsa?branch=master)
+-   [**MCI\_DGV\_PASTE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_paste_parms?branch=master)
+-   [**MCI\_DGV\_PAUSE\_PARMS**](/windows/win32/Digitalv/?branch=master)
+-   [**MCI\_DGV\_PLAY\_PARMS**](/windows/win32/Digitalv/?branch=master)
+-   [**MCI\_DGV\_PUT\_PARMS**](/windows/win32/Digitalv/?branch=master)
+-   [**MCI\_DGV\_QUALITY\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_quality_parmsa?branch=master)
+-   [**MCI\_DGV\_RECORD\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_record_parms?branch=master)
+-   [**MCI\_DGV\_RECT\_PARMS**](/windows/win32/Digitalv/?branch=master)
+-   [**MCI\_DGV\_RESERVE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_reserve_parmsa?branch=master)
+-   [**MCI\_DGV\_RESTORE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_restore_parmsa?branch=master)
+-   [**MCI\_DGV\_RESUME\_PARMS**](/windows/win32/Digitalv/?branch=master)
+-   [**MCI\_DGV\_SAVE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_save_parmsa?branch=master)
+-   [**MCI\_DGV\_SET\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_set_parms?branch=master)
+-   [**MCI\_DGV\_SETAUDIO\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_setaudio_parmsa?branch=master)
+-   [**MCI\_DGV\_SETVIDEO\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_setvideo_parmsa?branch=master)
+-   [**MCI\_DGV\_SIGNAL\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_signal_parms?branch=master)
+-   [**MCI\_DGV\_STATUS\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_status_parmsa?branch=master)
+-   [**MCI\_DGV\_STEP\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_step_parms?branch=master)
+-   [**MCI\_DGV\_STOP\_PARMS**](/windows/win32/Digitalv/?branch=master)
+-   [**MCI\_DGV\_UPDATE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_update_parms?branch=master)
+-   [**MCI\_DGV\_WINDOW\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_window_parmsa?branch=master)
 -   [**MCI\_GENERIC\_PARMS**](mci-generic-parms.md)
 -   [**MCI\_GETDEVCAPS\_PARMS**](mci-getdevcaps-parms.md)
 -   [**MCI\_INFO\_PARMS**](mci-info-parms.md)
@@ -49,7 +56,7 @@ The following structures are used with MCI.
 -   [**MCI\_OVLY\_LOAD\_PARMS**](mci-ovly-load-parms.md)
 -   [**MCI\_OVLY\_OPEN\_PARMS**](mci-ovly-open-parms.md)
 -   [**MCI\_OVLY\_RECT\_PARMS**](mci-ovly-rect-parms.md)
--   [**MCI\_OVLY\_SAVE\_PARMS**](mci-ovly-save-parms.md)
+-   [**MCI\_OVLY\_SAVE\_PARMS**](/windows/win32/Mmsystem/?branch=master)
 -   [**MCI\_OVLY\_WINDOW\_PARMS**](mci-ovly-window-parms.md)
 -   [**MCI\_PLAY\_PARMS**](mci-play-parms.md)
 -   [**MCI\_RECORD\_PARMS**](mci-record-parms.md)

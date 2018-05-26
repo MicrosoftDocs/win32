@@ -4,12 +4,15 @@ description: The Failover Cluster WMI Provider enables management of a failover 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '48a29d75-5fdc-49f4-8d34-d5a21dd83995'
-ms.prod: 'windows-server-dev'
+ms.assetid: 48a29d75-5fdc-49f4-8d34-d5a21dd83995
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster WMI Provider

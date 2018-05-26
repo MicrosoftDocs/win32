@@ -1,7 +1,7 @@
 ---
 title: Touch Hit Testing Scores
 description: The following constants identify the possible hit test scores for an object, relative to other objects that intersect the touch contact area.
-ms.assetid: 'EACDE6DB-ADBD-4F0C-8C31-7321AB6A73EA'
+ms.assetid: EACDE6DB-ADBD-4F0C-8C31-7321AB6A73EA
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Touch Hit Testing Scores
@@ -32,15 +37,15 @@ The following constants identify the possible hit test scores for an object, rel
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

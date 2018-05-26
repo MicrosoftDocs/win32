@@ -4,17 +4,22 @@ description: Specifies the time to live (TTL), in seconds, to be set for the res
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'AB74B5AF-5A26-4352-83FF-38D35DB143D6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: AB74B5AF-5A26-4352-83FF-38D35DB143D6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["HostRecordTTL Failover Cluster , for message queuings", "HostRecordTTL Failover Cluster"]
+keywords:
+- HostRecordTTL Failover Cluster , for message queuings
+- HostRecordTTL Failover Cluster
 topic_type:
 - apiref
 api_name:
 - HostRecordTTL
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # HostRecordTTL
@@ -28,14 +33,14 @@ Specifies the time to live (TTL), in seconds, to be set for the resource records
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 0xFFFFFFFF                                |
 | Default   | 1200                                      |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,7 +69,7 @@ HostRecordTTLValue.dw        = HostRecordTTLData;
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -75,12 +80,12 @@ HostRecordTTLValue.dw        = HostRecordTTLData;
 [Message Queuing Private Properties](message-queuing-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

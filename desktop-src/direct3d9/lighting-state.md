@@ -1,7 +1,12 @@
 ---
-Description: 'If you do not light with a vertex shader or a pixel shader, you may choose to use the lighting engine in the runtime.'
-ms.assetid: 'c5aa493e-09b8-433c-a21c-e39af795b3c9'
-title: 'Lighting State (Direct3D 9)'
+Description: If you do not light with a vertex shader or a pixel shader, you may choose to use the lighting engine in the runtime.
+ms.assetid: c5aa493e-09b8-433c-a21c-e39af795b3c9
+title: Lighting State (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Lighting State (Direct3D 9)

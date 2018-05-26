@@ -4,11 +4,16 @@ description: The OnViewClose event occurs when a view is closed (prior to being 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e61d0b3d-52b1-4b0e-a1cc-20b9c0e91a06'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e61d0b3d-52b1-4b0e-a1cc-20b9c0e91a06
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["OnViewClose event MMC", "OnViewClose event MMC , Application object", "Application object MMC , OnViewClose event", "OnViewClose event MMC , AppEvents interface", "AppEvents interface MMC , OnViewClose event"]
+keywords:
+- OnViewClose event MMC
+- OnViewClose event MMC , Application object
+- Application object MMC , OnViewClose event
+- OnViewClose event MMC , AppEvents interface
+- AppEvents interface MMC , OnViewClose event
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AppEvents::OnViewClose event
@@ -68,8 +76,8 @@ End Sub
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -78,9 +86,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

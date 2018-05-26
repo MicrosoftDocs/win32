@@ -4,11 +4,14 @@ description: Returns the nodes specified as possible owners of a resource type.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9437a940-bb61-4de1-9d4b-54876161e02c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 9437a940-bb61-4de1-9d4b-54876161e02c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["PossibleOwnerNodes property Failover Cluster", "PossibleOwnerNodes property Failover Cluster , ClusResType object", "ClusResType object Failover Cluster , PossibleOwnerNodes property"]
+keywords:
+- PossibleOwnerNodes property Failover Cluster
+- PossibleOwnerNodes property Failover Cluster , ClusResType object
+- ClusResType object Failover Cluster , PossibleOwnerNodes property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResType.PossibleOwnerNodes property
@@ -47,7 +53,7 @@ A [**ClusResTypePossibleOwnerNodes**](clusrestypepossibleownernodes-collection.m
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -66,9 +72,9 @@ A [**ClusResTypePossibleOwnerNodes**](clusrestypepossibleownernodes-collection.m
 [**ClusResTypePossibleOwnerNodes**](clusrestypepossibleownernodes-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

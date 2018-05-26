@@ -1,13 +1,18 @@
 ---
-Description: 'As of Windows Vista, greater use is made of file-specific thumbnail images than in earlier versions of Windows.'
+Description: As of Windows Vista, greater use is made of file-specific thumbnail images than in earlier versions of Windows.
 title: Building Thumbnail Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building Thumbnail Handlers
 
 As of Windows Vista, greater use is made of file-specific thumbnail images than in earlier versions of Windows. They are used in all views, in dialogs, and for any file type that provides them. Thumbnail display was also changed. A continuous spectrum of user-selectable sizes is available rather than the discrete sizes such as Icons and Thumbnails.
 
-The [**IThumbnailProvider**](ithumbnailprovider.md) interface makes providing a thumbnail more straightforward than the older [**IExtractImage**](iextractimage.md) or [**IExtractImage2**](iextractimage2.md). Note, however, that existing code that uses **IExtractImage** or **IExtractImage2** is still valid and supported.
+The [**IThumbnailProvider**](/windows/win32/Thumbcache/nn-thumbcache-ithumbnailprovider?branch=master) interface makes providing a thumbnail more straightforward than the older [**IExtractImage**](/windows/win32/shobjidl_core/nn-shobjidl_core-iextractimage?branch=master) or [**IExtractImage2**](/windows/win32/shobjidl_core/nn-shobjidl_core-iextractimage2?branch=master). Note, however, that existing code that uses **IExtractImage** or **IExtractImage2** is still valid and supported.
 
 ## The RecipeThumbnailProvider Sample
 
@@ -15,13 +20,13 @@ The [RecipeThumbnailProvider](samples-recipethumbnailprovider.md) sample dissect
 
 The [RecipeThumbnailProvider](samples-recipethumbnailprovider.md) sample demonstrates the implementation of a thumbnail handler for a new file type registered with a .recipe extension. The sample illustrates the use of the different thumbnail handler APIs to register thumbnail extraction Component Object Model (COM) servers for custom file types. This topic walks you through the sample code, highlighting coding choices and guidelines.
 
-A thumbnail handler must always implement [**IThumbnailProvider**](ithumbnailprovider.md) in concert with one of these interfaces:
+A thumbnail handler must always implement [**IThumbnailProvider**](/windows/win32/Thumbcache/nn-thumbcache-ithumbnailprovider?branch=master) in concert with one of these interfaces:
 
--   [**IInitializeWithStream**](iinitializewithstream.md)
--   [**IInitializeWithItem**](iinitializewithitem.md)
--   [**IInitializeWithFile**](iinitializewithfile.md)
+-   [**IInitializeWithStream**](/windows/win32/Propsys/nn-propsys-iinitializewithstream?branch=master)
+-   [**IInitializeWithItem**](/windows/win32/Shobjidl/nn-shobjidl_core-iinitializewithitem?branch=master)
+-   [**IInitializeWithFile**](/windows/win32/Propsys/nn-propsys-iinitializewithfile?branch=master)
 
-There are cases where initialization with streams is not possible. In scenarios where your thumbnail handler does not implement [**IInitializeWithStream**](iinitializewithstream.md), it must opt out of running in the isolated process where the system indexer places it by default when there is a change to the stream. To opt out of the process isolation feature, set the following registry value.
+There are cases where initialization with streams is not possible. In scenarios where your thumbnail handler does not implement [**IInitializeWithStream**](/windows/win32/Propsys/nn-propsys-iinitializewithstream?branch=master), it must opt out of running in the isolated process where the system indexer places it by default when there is a change to the stream. To opt out of the process isolation feature, set the following registry value.
 
 ```
 HKEY_CLASSES_ROOT
@@ -30,13 +35,13 @@ HKEY_CLASSES_ROOT
          DisableProcessIsolation = 1
 ```
 
-If you implement [**IInitializeWithStream**](iinitializewithstream.md) and do a stream-based initialization, your handler is more secure and reliable. Typically, disabling process isolation is only intended for legacy handlers; avoid disabling this feature for any new code. **IInitializeWithStream** should be your first choice of initialization interface whenever possible.
+If you implement [**IInitializeWithStream**](/windows/win32/Propsys/nn-propsys-iinitializewithstream?branch=master) and do a stream-based initialization, your handler is more secure and reliable. Typically, disabling process isolation is only intended for legacy handlers; avoid disabling this feature for any new code. **IInitializeWithStream** should be your first choice of initialization interface whenever possible.
 
-Because the image file in the sample is not embedded in the .recipe file and is not a part of its file stream, [**IInitializeWithItem**](iinitializewithitem.md) is used in the sample. The implementation of the [**IInitializeWithItem::Initialize**](iinitializewithitem-initialize.md) method simply passes its parameters to private class variables.
+Because the image file in the sample is not embedded in the .recipe file and is not a part of its file stream, [**IInitializeWithItem**](/windows/win32/Shobjidl/nn-shobjidl_core-iinitializewithitem?branch=master) is used in the sample. The implementation of the [**IInitializeWithItem::Initialize**](/windows/win32/shobjidl_core/nf-shobjidl_core-iinitializewithitem-initialize?branch=master) method simply passes its parameters to private class variables.
 
-[**IThumbnailProvider**](ithumbnailprovider.md) has only one method—[**GetThumbnail**](ithumbnailprovider-getthumbnail.md)—that is called with the largest desired size of the image, in pixels. Although the parameter is named *cx*, its value is used as the maximum size of both the x and y dimensions of the image. If the retrieved thumbnail is not square, then the longer axis is limited by *cx* and the aspect ratio of the original image is preserved.
+[**IThumbnailProvider**](/windows/win32/Thumbcache/nn-thumbcache-ithumbnailprovider?branch=master) has only one method—[**GetThumbnail**](/windows/win32/Thumbcache/nf-thumbcache-ithumbnailprovider-getthumbnail?branch=master)—that is called with the largest desired size of the image, in pixels. Although the parameter is named *cx*, its value is used as the maximum size of both the x and y dimensions of the image. If the retrieved thumbnail is not square, then the longer axis is limited by *cx* and the aspect ratio of the original image is preserved.
 
-When it returns, [**GetThumbnail**](ithumbnailprovider-getthumbnail.md) provides a handle to the retrieved image. It also provides a value that indicates the color format of the image and whether it has valid alpha information.
+When it returns, [**GetThumbnail**](/windows/win32/Thumbcache/nf-thumbcache-ithumbnailprovider-getthumbnail?branch=master) provides a handle to the retrieved image. It also provides a value that indicates the color format of the image and whether it has valid alpha information.
 
 The GetThumbnail implementation in the sample begins with a call to the private **\_GetBase64EncodedImageString** method.
 
@@ -54,7 +59,7 @@ IFACEMETHODIMP CRecipeThumbProvider::GetThumbnail(UINT cx,
 
 The .recipe file type is simply an XML file registered as a unique file name extension. It includes an element called **Picture** that provides the relative path and file name of the image to use as the thumbnail for this particular .recipe file. The **Picture** element consists of the **Source** attribute that specifies a base 64 encoded image, and an optional **Size** attribute.
 
-**Size** has two values, Small and Large. This allows you to provide multiple **Picture** nodes with separate images. The image retrieved then depends on the maximum size value (*cx*) provided in the call to [**GetThumbnail**](ithumbnailprovider-getthumbnail.md). Because Windows never sizes the image any larger than its maximum size, different images can be provided for different resolutions. However, for simplicity, the sample omits the **Size** attribute and provides only one image for all situations.
+**Size** has two values, Small and Large. This allows you to provide multiple **Picture** nodes with separate images. The image retrieved then depends on the maximum size value (*cx*) provided in the call to [**GetThumbnail**](/windows/win32/Thumbcache/nf-thumbcache-ithumbnailprovider-getthumbnail?branch=master). Because Windows never sizes the image any larger than its maximum size, different images can be provided for different resolutions. However, for simplicity, the sample omits the **Size** attribute and provides only one image for all situations.
 
 The **\_GetBase64EncodedImageString** method, whose implementation is shown here, uses XML Document Object Model (DOM) APIs to retrieve the **Picture** node. From that node it extracts the image from the **Source** attribute data.
 
@@ -115,7 +120,7 @@ HRESULT CRecipeThumbProvider::_GetBase64EncodedImageString(UINT /* cx */,
 
 
 
-[**GetThumbnail**](ithumbnailprovider-getthumbnail.md) then passes the retrieved string to **\_GetStreamFromString**.
+[**GetThumbnail**](/windows/win32/Thumbcache/nf-thumbcache-ithumbnailprovider-getthumbnail?branch=master) then passes the retrieved string to **\_GetStreamFromString**.
 
 
 ```C++
@@ -225,7 +230,7 @@ IFACEMETHODIMP CRecipeThumbProvider::GetThumbnail(UINT cx,
 [Thumbnail Handler Guidelines](thumbnail-provider-guidelines.md)
 </dt> <dt>
 
-[**IID\_PPV\_ARGS**](iid-ppv-args.md)
+[**IID\_PPV\_ARGS**](/windows/win32/Objbase/?branch=master)
 </dt> </dl>
 
  

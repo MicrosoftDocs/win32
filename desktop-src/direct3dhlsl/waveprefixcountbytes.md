@@ -1,14 +1,20 @@
 ---
 title: WavePrefixCountBits function
 description: Returns the sum of all the specified boolean variables set to true across all active lanes with indices smaller than the current lane.
-ms.assetid: 'AEC9AFD7-6478-4397-B531-73990D30AA48'
-keywords: ["WaveGetLaneIndex function HLSL"]
+ms.assetid: AEC9AFD7-6478-4397-B531-73990D30AA48
+keywords:
+- WaveGetLaneIndex function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveGetLaneIndex
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WavePrefixCountBits function

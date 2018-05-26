@@ -1,8 +1,9 @@
 ---
 title: StiCreateInstance function
 description: The StiCreateInstance function is used to obtain a pointer to the IStillImage interface.
-ms.assetid: 'dff6e565-8faa-4fb9-ab90-5106c4d977f2'
-keywords: ["StiCreateInstance function Still Image"]
+ms.assetid: dff6e565-8faa-4fb9-ab90-5106c4d977f2
+keywords:
+- StiCreateInstance function Still Image
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - sti.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StiCreateInstance function
@@ -24,10 +30,10 @@ The **StiCreateInstance** function is used to obtain a pointer to the **IStillIm
 
 ```C++
 HRESULT StiCreateInstance(
-  _In_  HINSTANCE hinst,
-  _In_  DWORD     dwVer,
-  _Out_ PSTI      *ppSti,
-  _In_  LPUNKNOWN punkOuter
+  _In_  HINSTANCE hinst,
+  _In_  DWORD     dwVer,
+  _Out_ PSTI      *ppSti,
+  _In_  LPUNKNOWN punkOuter
 );
 ```
 
@@ -68,7 +74,7 @@ Pointer to the controlling [**IUnknown**](https://msdn.microsoft.com/library/win
 > [!Note]  
 > If aggregation is requested, the object returned in *ppSti* is a pointer to an [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) rather than an **IStillImage** , as required by COM aggregation.
 
- 
+ 
 
 </dd> </dl>
 
@@ -90,8 +96,8 @@ Calling this function with *punkOuter* != **NULL** is similar to creating the ob
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Sti.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Sti.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sti.dll</dt> </dl> |
@@ -109,9 +115,9 @@ Calling this function with *punkOuter* != **NULL** is similar to creating the ob
 [Making an Application Still Image-Aware](making-an-application-still-image-aware.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

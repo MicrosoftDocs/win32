@@ -1,14 +1,19 @@
 ---
 title: Appendix G Active Accessibility Bridge to UI Automation
 description: This appendix contains information about the Microsoft Active Accessibility Bridge.
-ms.assetid: 'f19036c7-5a18-4faa-a98d-564e5e63a94f'
+ms.assetid: f19036c7-5a18-4faa-a98d-564e5e63a94f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Appendix G: Active Accessibility Bridge to UI Automation
 
 This appendix contains information about the Microsoft Active Accessibility Bridge. The Active Accessibility Bridge enables applications that implement Microsoft Active Accessibility to access applications that implement Microsoft UI Automation. By bridging Microsoft Active Accessibility and UI Automation together, Microsoft Active Accessibility-based clients, such as a screenreader on Windows XP, can programmatically interact with UI Automation-based providers of UI Automation, such as a Windows Presentation Foundation (WPF) application. It is part of the UI Automation Native Core API (UIAutomationCore.dll).
 
-The Active Accessibility Bridge maps UI Automation properties and events to those of Microsoft Active Accessibility. The following tables map the Microsoft Active Accessibility [**IAccessible**](iaccessible.md) interface methods and properties to UI Automation. Use these tables to determine appropriate coding practices for developing your Microsoft Active Accessibility-based client.
+The Active Accessibility Bridge maps UI Automation properties and events to those of Microsoft Active Accessibility. The following tables map the Microsoft Active Accessibility [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface methods and properties to UI Automation. Use these tables to determine appropriate coding practices for developing your Microsoft Active Accessibility-based client.
 
 ### Navigation and Hierarchy Properties
 
@@ -16,10 +21,10 @@ The Active Accessibility Bridge maps UI Automation properties and events to thos
 
 | IAccessible property                                                     | UI Automation property          |
 |--------------------------------------------------------------------------|---------------------------------|
-| [**get\_accChild**](iaccessible-iaccessible--get-accchild.md)           | Not implemented                 |
-| [**get\_accChildCount**](iaccessible-iaccessible--get-accchildcount.md) | Derived from UI Automation tree |
-| [**get\_accParent**](iaccessible-iaccessible--get-accparent.md)         | Derived from UI Automation tree |
-| [**accNavigate**](iaccessible-iaccessible--accnavigate.md)              | Not implemented                 |
+| [**get\_accChild**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accchild?branch=master)           | Not implemented                 |
+| [**get\_accChildCount**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accchildcount?branch=master) | Derived from UI Automation tree |
+| [**get\_accParent**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accparent?branch=master)         | Derived from UI Automation tree |
+| [**accNavigate**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accnavigate?branch=master)              | Not implemented                 |
 
 
 
@@ -31,17 +36,17 @@ The Active Accessibility Bridge maps UI Automation properties and events to thos
 
 | IAccessible                                                                          | UI Automation                                                                                                                                                                                                                                                                                                            |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**accDoDefaultAction**](iaccessible-iaccessible--accdodefaultaction.md)            | See the Control Types and accRole table for details.                                                                                                                                                                                                                                                                     |
-| [**get\_accDefaultAction**](iaccessible-iaccessible--get-accdefaultaction.md)       | See the Control Types and accRole table for details.                                                                                                                                                                                                                                                                     |
-| [**get\_accKeyboardShortcut**](iaccessible-iaccessible--get-acckeyboardshortcut.md) | AccessKeyPropertyor AcceleratorKeyProperty; if both present, AccessKeyProperty takes precedence.                                                                                                                                                                                                                         |
-| [**get\_accName**](iaccessible-iaccessible--get-accname.md)                         | NameProperty                                                                                                                                                                                                                                                                                                             |
-| [**get\_accRole**](iaccessible-iaccessible--get-accrole.md)                         | ControlTypeProperty. See the Control Types and accRole table for details.                                                                                                                                                                                                                                                |
-| [**get\_accState**](iaccessible-iaccessible--get-accstate.md)                       | See the Control Types and accRole table for details.                                                                                                                                                                                                                                                                     |
-| [**get\_accValue**](iaccessible-iaccessible--get-accvalue.md)                       | ValueProperty; supported on control types that support the [Value](uiauto-implementingvalue.md) control pattern or [RangeValue](uiauto-implementingrangevalue.md) control pattern control pattern. RangeValue values are consistent with Microsoft Active Accessibility behavior (0 to 100). Value items use a string. |
-| [**put\_accValue**](iaccessible-iaccessible--put-accvalue.md)                       | ValueProperty; supported on control types that support the [Value](uiauto-implementingvalue.md) control pattern or [RangeValue](uiauto-implementingrangevalue.md) control pattern                                                                                                                                      |
-| [**get\_accHelp**](iaccessible-iaccessible--get-acchelp.md)                         | HelpTextProperty                                                                                                                                                                                                                                                                                                         |
-| [**get\_accDescription**](iaccessible-iaccessible--get-accdescription.md)           | Not implemented                                                                                                                                                                                                                                                                                                          |
-| [**get\_accHelpTopic**](iaccessible-iaccessible--get-acchelptopic.md)               | Not implemented                                                                                                                                                                                                                                                                                                          |
+| [**accDoDefaultAction**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accdodefaultaction?branch=master)            | See the Control Types and accRole table for details.                                                                                                                                                                                                                                                                     |
+| [**get\_accDefaultAction**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accdefaultaction?branch=master)       | See the Control Types and accRole table for details.                                                                                                                                                                                                                                                                     |
+| [**get\_accKeyboardShortcut**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut?branch=master) | AccessKeyPropertyor AcceleratorKeyProperty; if both present, AccessKeyProperty takes precedence.                                                                                                                                                                                                                         |
+| [**get\_accName**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accname?branch=master)                         | NameProperty                                                                                                                                                                                                                                                                                                             |
+| [**get\_accRole**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accrole?branch=master)                         | ControlTypeProperty. See the Control Types and accRole table for details.                                                                                                                                                                                                                                                |
+| [**get\_accState**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accstate?branch=master)                       | See the Control Types and accRole table for details.                                                                                                                                                                                                                                                                     |
+| [**get\_accValue**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accvalue?branch=master)                       | ValueProperty; supported on control types that support the [Value](uiauto-implementingvalue.md) control pattern or [RangeValue](uiauto-implementingrangevalue.md) control pattern control pattern. RangeValue values are consistent with Microsoft Active Accessibility behavior (0 to 100). Value items use a string. |
+| [**put\_accValue**](/windows/win32/Oleacc/nf-oleacc-iaccessible-put_accvalue?branch=master)                       | ValueProperty; supported on control types that support the [Value](uiauto-implementingvalue.md) control pattern or [RangeValue](uiauto-implementingrangevalue.md) control pattern                                                                                                                                      |
+| [**get\_accHelp**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_acchelp?branch=master)                         | HelpTextProperty                                                                                                                                                                                                                                                                                                         |
+| [**get\_accDescription**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accdescription?branch=master)           | Not implemented                                                                                                                                                                                                                                                                                                          |
+| [**get\_accHelpTopic**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_acchelptopic?branch=master)               | Not implemented                                                                                                                                                                                                                                                                                                          |
 
 
 
@@ -104,7 +109,7 @@ The Microsoft Active Accessibility default role is [**ROLE\_SYSTEM\_CLIENT**](ob
 
 | accState                                                                                      | UI Automation property                                                                                                                                                        | Triggers state change |
 |-----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
-| [**STATE\_SYSTEM\_CHECKED**](object-state-constants.md#state-system-checked)                 | For ControlType = "checkbox" use ToggleState.On. For "radiobutton" use [**SelectionItemPattern::IsSelected**](uiauto-iuiautomationselectionitempattern-currentisselected.md) | Yes                   |
+| [**STATE\_SYSTEM\_CHECKED**](object-state-constants.md#state-system-checked)                 | For ControlType = "checkbox" use ToggleState.On. For "radiobutton" use [**SelectionItemPattern::IsSelected**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionitempattern-get_currentisselected?branch=master) | Yes                   |
 | [**STATE\_SYSTEM\_FOCUSABLE**](object-state-constants.md#state-system-focusable)             | IsKeyboardFocusableProperty                                                                                                                                                   | No                    |
 | [**STATE\_SYSTEM\_FOCUSED**](object-state-constants.md#state-system-focused)                 | HasKeyboardFocusProperty                                                                                                                                                      | No                    |
 | [**STATE\_SYSTEM\_PROTECTED**](object-state-constants.md#state-system-protected)             | IsPasswordProperty                                                                                                                                                            | No                    |
@@ -117,9 +122,9 @@ The Microsoft Active Accessibility default role is [**ROLE\_SYSTEM\_CLIENT**](ob
 | [**STATE\_SYSTEM\_EXPANDED**](object-state-constants.md#state-system-expanded)               | ExpandCollapseState = Expanded or PartiallyExpanded                                                                                                                           | Yes                   |
 | [**STATE\_SYSTEM\_HASPOPUP**](object-state-constants.md#state-system-haspopup)               | Menu items that support Expand/Collapse                                                                                                                                       | No                    |
 | [**STATE\_SYSTEM\_MIXED**](object-state-constants.md#state-system-mixed)                     | ToggleState = Indeterminate                                                                                                                                                   | No                    |
-| [**STATE\_SYSTEM\_SIZEABLE**](object-state-constants.md#state-system-sizeable)               | [**IUIAutomationTransformPattern::CanResize**](uiauto-iuiautomationtransformpattern-currentcanresize.md)                                                                     | No                    |
-| [**STATE\_SYSTEM\_MOVEABLE**](object-state-constants.md#state-system-moveable)               | [**IUIAutomationTransformPattern::CanMove**](uiauto-iuiautomationtransformpattern-currentcanmove.md)                                                                         | No                    |
-| [**STATE\_SYSTEM\_MULTISELECTABLE**](object-state-constants.md#state-system-multiselectable) | [**IUIAutomationSelectionPattern::CanSelectMultiple**](uiauto-iuiautomationselectionpattern-currentcanselectmultiple.md)                                                     | No                    |
+| [**STATE\_SYSTEM\_SIZEABLE**](object-state-constants.md#state-system-sizeable)               | [**IUIAutomationTransformPattern::CanResize**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtransformpattern-get_currentcanresize?branch=master)                                                                     | No                    |
+| [**STATE\_SYSTEM\_MOVEABLE**](object-state-constants.md#state-system-moveable)               | [**IUIAutomationTransformPattern::CanMove**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtransformpattern-get_currentcanmove?branch=master)                                                                         | No                    |
+| [**STATE\_SYSTEM\_MULTISELECTABLE**](object-state-constants.md#state-system-multiselectable) | [**IUIAutomationSelectionPattern::CanSelectMultiple**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionpattern-get_currentcanselectmultiple?branch=master)                                                     | No                    |
 
 
 
@@ -131,9 +136,9 @@ The Microsoft Active Accessibility default role is [**ROLE\_SYSTEM\_CLIENT**](ob
 
 | IAccessible                                                            | UI Automation                                                                          |
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [**get\_accFocus**](iaccessible-iaccessible--get-accfocus.md)         | [**IUIAutomation::FocusedElement**](uiauto-iuiautomation-getfocusedelement.md)        |
-| [**accSelect**](iaccessible-iaccessible--accselect.md)                | See the UI Automation Properties and accSelect SELFLAGs table for details.             |
-| [**get\_accSelection**](iaccessible-iaccessible--get-accselection.md) | [**SelectionPattern::GetSelection**](uiauto-iuiautomationtextpattern-getselection.md) |
+| [**get\_accFocus**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accfocus?branch=master)         | [**IUIAutomation::FocusedElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-getfocusedelement?branch=master)        |
+| [**accSelect**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accselect?branch=master)                | See the UI Automation Properties and accSelect SELFLAGs table for details.             |
+| [**get\_accSelection**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accselection?branch=master) | [**SelectionPattern::GetSelection**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-getselection?branch=master) |
 
 
 
@@ -146,10 +151,10 @@ The Microsoft Active Accessibility default role is [**ROLE\_SYSTEM\_CLIENT**](ob
 | accSelect SELFLAGs                                                  | UI Automation property                                                                                                         |
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | [**SELFLAG\_NONE**](selflag.md#selflag-none)                       | Not available                                                                                                                  |
-| SELFLAG\_TAKFOCUS                                                   | [**IUIAutomationElement::SetFocus**](uiauto-iuiautomationelement-setfocus.md)                                                 |
-| [**SELFLAG\_TAKESELECTION**](selflag.md#selflag-takeselection)     | [**IUIAutomationSelectionItemPattern::Select**](uiauto-iuiautomationselectionitempattern-select.md)                           |
-| [**SELFLAG\_ADDSELECTION**](selflag.md#selflag-addselection)       | [**IUIAutomationSelectionItemPattern::AddToSelection**](uiauto-iuiautomationselectionitempattern-addtoselection.md)           |
-| SELFLAG\_TAKEREMOVESELECTION                                        | [**IUIAutomationSelectionItemPattern::RemoveFromSelection**](uiauto-iuiautomationselectionitempattern-removefromselection.md) |
+| SELFLAG\_TAKFOCUS                                                   | [**IUIAutomationElement::SetFocus**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-setfocus?branch=master)                                                 |
+| [**SELFLAG\_TAKESELECTION**](selflag.md#selflag-takeselection)     | [**IUIAutomationSelectionItemPattern::Select**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionitempattern-select?branch=master)                           |
+| [**SELFLAG\_ADDSELECTION**](selflag.md#selflag-addselection)       | [**IUIAutomationSelectionItemPattern::AddToSelection**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionitempattern-addtoselection?branch=master)           |
+| SELFLAG\_TAKEREMOVESELECTION                                        | [**IUIAutomationSelectionItemPattern::RemoveFromSelection**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionitempattern-removefromselection?branch=master) |
 | [**SELFLAG\_EXTENDSELECTION**](selflag.md#selflag-extendselection) | Not available                                                                                                                  |
 
 
@@ -162,8 +167,8 @@ The Microsoft Active Accessibility default role is [**ROLE\_SYSTEM\_CLIENT**](ob
 
 | IAccessible                                                 | UI Automation                                                                                                                        |
 |-------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| [**accLocation**](iaccessible-iaccessible--acclocation.md) | BoundingRectangleProperty                                                                                                            |
-| [**accHitTest**](iaccessible-iaccessible--acchittest.md)   | [**IRawElementProviderFragmentRoot::ElementProviderFromPoint**](uiauto-irawelementproviderfragmentroot-elementproviderfrompoint.md) |
+| [**accLocation**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acclocation?branch=master) | BoundingRectangleProperty                                                                                                            |
+| [**accHitTest**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acchittest?branch=master)   | [**IRawElementProviderFragmentRoot::ElementProviderFromPoint**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragmentroot-elementproviderfrompoint?branch=master) |
 
 
 

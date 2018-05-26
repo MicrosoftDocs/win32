@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'b6696577-b67f-4cfb-a140-34ac3fb68eb7'
+---
+Description: .
+ms.assetid: b6696577-b67f-4cfb-a140-34ac3fb68eb7
 title: PropList
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PropList

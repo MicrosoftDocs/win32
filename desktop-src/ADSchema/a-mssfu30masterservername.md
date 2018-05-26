@@ -4,17 +4,22 @@ description: Contains the value that is returned when the NIS server processes a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2f68491a-7e0d-4d58-aaff-05503e296b53'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 2f68491a-7e0d-4d58-aaff-05503e296b53
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["msSFU-30-Master-Server-Name attribute AD Schema", "msSFU30MasterServerName attribute AD Schema"]
+keywords:
+- msSFU-30-Master-Server-Name attribute AD Schema
+- msSFU30MasterServerName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - msSFU-30-Master-Server-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msSFU-30-Master-Server-Name attribute
@@ -38,10 +43,10 @@ Contains the value that is returned when the NIS server processes a **yp\_master
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -127,9 +132,9 @@ Contains the value that is returned when the NIS server processes a **yp\_master
 
 
 
- 
+ 
 
- 
+ 
 
 
 

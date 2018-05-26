@@ -1,7 +1,12 @@
 ---
 title: Avoiding Lost Buffers
 description: Avoiding Lost Buffers
-ms.assetid: '45e4b47d-75b9-44d3-9366-0561b6638f61'
+ms.assetid: 45e4b47d-75b9-44d3-9366-0561b6638f61
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Avoiding Lost Buffers

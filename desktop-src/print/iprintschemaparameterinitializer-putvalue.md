@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Value (put\_Value) property modifies the value of the IPrintSchemaParameterInitializer object.'
-ms.assetid: 'B0F003B4-D82D-4110-B53A-CDE45B75DC8C'
-title: 'IPrintSchemaParameterInitializer::Value property'
+---
+Description: The Value (put\_Value) property modifies the value of the IPrintSchemaParameterInitializer object.
+ms.assetid: B0F003B4-D82D-4110-B53A-CDE45B75DC8C
+title: IPrintSchemaParameterInitializerValue property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaParameterInitializer::Value property

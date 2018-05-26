@@ -1,8 +1,9 @@
 ---
 title: MCM\_GETRANGE message
 description: Retrieves the minimum and maximum allowable dates set for a month calendar control. You can send this message explicitly or by using the MonthCal\_GetRange macro.
-ms.assetid: '5000053a-2975-4781-b3c9-83f9763f679a'
-keywords: ["MCM_GETRANGE message Windows Controls"]
+ms.assetid: 5000053a-2975-4781-b3c9-83f9763f679a
+keywords:
+- MCM_GETRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_GETRANGE message
 
-Retrieves the minimum and maximum allowable dates set for a month calendar control. You can send this message explicitly or by using the [**MonthCal\_GetRange**](monthcal-getrange.md) macro.
+Retrieves the minimum and maximum allowable dates set for a month calendar control. You can send this message explicitly or by using the [**MonthCal\_GetRange**](/windows/win32/Commctrl/nf-commctrl-monthcal_getrange?branch=master) macro.
 
 ## Parameters
 
@@ -44,7 +50,7 @@ Returns a **DWORD** that can be zero (no limits are set) or a combination of the
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -52,8 +58,8 @@ Returns a **DWORD** that can be zero (no limits are set) or a combination of the
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -65,9 +71,9 @@ Returns a **DWORD** that can be zero (no limits are set) or a combination of the
 [Times in the Month Calendar Control](month-calendar-controls.md#times-in-the-month-calendar-control)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

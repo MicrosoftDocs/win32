@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Modify method of the View object modifies a database row with a modified Record object obtained by the Fetch method.'
-ms.assetid: 'c3c500aa-070f-41d7-90f7-db979452d24f'
-title: 'View.Modify method'
+---
+Description: The Modify method of the View object modifies a database row with a modified Record object obtained by the Fetch method.
+ms.assetid: c3c500aa-070f-41d7-90f7-db979452d24f
+title: View.Modify method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # View.Modify method

@@ -1,7 +1,12 @@
 ---
 title: Transient Allocations
 description: Transient Allocations
-ms.assetid: '5967f082-3c59-4fc2-b4f8-29e88cd74a5d'
+ms.assetid: 5967f082-3c59-4fc2-b4f8-29e88cd74a5d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transient Allocations

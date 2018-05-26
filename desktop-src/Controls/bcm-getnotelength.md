@@ -1,8 +1,9 @@
 ---
 title: BCM\_GETNOTELENGTH message
 description: Gets the length of the note text that may be displayed in the description for a command link button. Send this message explicitly or by using the Button\_GetNoteLength macro.
-ms.assetid: '62385485-b553-47e9-9f15-696cc4694752'
-keywords: ["BCM_GETNOTELENGTH message Windows Controls"]
+ms.assetid: 62385485-b553-47e9-9f15-696cc4694752
+keywords:
+- BCM_GETNOTELENGTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCM\_GETNOTELENGTH message
 
-Gets the length of the note text that may be displayed in the description for a command link button. Send this message explicitly or by using the [**Button\_GetNoteLength**](button-getnotelength.md) macro.
+Gets the length of the note text that may be displayed in the description for a command link button. Send this message explicitly or by using the [**Button\_GetNoteLength**](/windows/win32/Commctrl/nf-commctrl-button_getnotelength?branch=master) macro.
 
 ## Parameters
 
@@ -51,8 +57,8 @@ The **BCM\_GETNOTELENGTH** message works only with the [**BS\_COMMANDLINK**](but
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -73,9 +79,9 @@ The **BCM\_GETNOTELENGTH** message works only with the [**BS\_COMMANDLINK**](but
 [Button Types](button-types-and-styles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

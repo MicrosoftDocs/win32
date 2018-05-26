@@ -1,8 +1,11 @@
 ---
 title: Media.getAttributeCountByType method
 description: The getAttributeCountByType method retrieves the number of attributes associated with the specified attribute name and language.
-ms.assetid: '5644e823-a9b1-4b02-9dd6-015e524fde64'
-keywords: ["getAttributeCountByType method Windows Media Player", "getAttributeCountByType method Windows Media Player , Media class", "Media class Windows Media Player , getAttributeCountByType method"]
+ms.assetid: 5644e823-a9b1-4b02-9dd6-015e524fde64
+keywords:
+- getAttributeCountByType method Windows Media Player
+- getAttributeCountByType method Windows Media Player , Media class
+- Media class Windows Media Player , getAttributeCountByType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.getAttributeCountByType method
@@ -86,9 +94,9 @@ To use this method, read access to the library is required. For more information
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

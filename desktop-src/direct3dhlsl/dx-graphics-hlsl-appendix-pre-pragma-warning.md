@@ -1,14 +1,20 @@
 ---
 title: warning pragma Directive
 description: Pragma directive that modifies the behavior of compiler warning messages.
-ms.assetid: '69488014-36e3-4c87-8b65-6123b5e87bcb'
-keywords: ["warning pragma Directive HLSL"]
+ms.assetid: 69488014-36e3-4c87-8b65-6123b5e87bcb
+keywords:
+- warning pragma Directive HLSL
 topic_type:
 - apiref
 api_name:
 - warning pragma Directive
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # warning pragma Directive
@@ -22,7 +28,7 @@ Pragma directive that modifies the behavior of compiler warning messages.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -74,7 +80,7 @@ Pragma directive that modifies the behavior of compiler warning messages.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td><p><span id="warning-number-list"></span><span id="WARNING-NUMBER-LIST"></span><em>warning-number-list</em></p></td>
@@ -85,7 +91,7 @@ Pragma directive that modifies the behavior of compiler warning messages.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -127,9 +133,9 @@ The preceding example is functionally equivalent to the following:
 [\#pragma Directive (DirectX HLSL)](dx-graphics-hlsl-appendix-pre-pragma.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

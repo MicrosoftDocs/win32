@@ -1,14 +1,20 @@
 ---
 title: SV\_StencilRef
 description: SV\_StencilRef represents the current pixel shader stencil reference value.
-ms.assetid: '0E27BF04-9DA0-4D6D-BD50-07553F80590E'
-keywords: ["SV_StencilRef HLSL"]
+ms.assetid: 0E27BF04-9DA0-4D6D-BD50-07553F80590E
+keywords:
+- SV_StencilRef HLSL
 topic_type:
 - apiref
 api_name:
 - SV_StencilRef
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SV\_StencilRef

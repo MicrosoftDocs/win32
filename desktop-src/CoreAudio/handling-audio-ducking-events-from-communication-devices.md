@@ -1,7 +1,12 @@
 ---
-Description: 'The Default Ducking Experience provided by the system ducks all non-communication streams available in the system when a communication stream opens.'
-ms.assetid: '1b92574e-7cde-49c0-a68e-223492412361'
+Description: The Default Ducking Experience provided by the system ducks all non-communication streams available in the system when a communication stream opens.
+ms.assetid: 1b92574e-7cde-49c0-a68e-223492412361
 title: Implementation Considerations for Ducking Notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementation Considerations for Ducking Notifications
@@ -10,9 +15,9 @@ The [Default Ducking Experience](stream-attenuation.md) provided by the system d
 
 Consider the scenario implemented by the media application in the [DuckingMediaPlayer](duckingmediaplayer.md) sample. The application pauses the audio stream that it is playing when it receives a duck notification and continues playback when it receives an unduck notification. The pause and continue events are reflected in the media application's user interface. This is supported through two application-defined window messages, WM\_APP\_SESSION\_DUCKED and WM\_APP\_SESSION\_UNDUCKED. The ducking notifications are received asynchronously in the background and the media application must not block the notification thread to process the window messages. The window messages must be processed on the user interface thread.
 
-The ducking behavior works through a notification mechanism. To provide a customized experience, the media application must implement the [**IAudioVolumeDuckNotification**](iaudiovolumeducknotification.md) interface and register the implementation with the audio system. Upon successful registration, the media application receives event notifications in the form of callbacks through the methods in the interface. The session manager handling the communication session calls [**IAudioVolumeDuckNotification::OnVolumeDuckNotification**](iaudiovolumeducknotification-onvolumeducknotification.md) when the communication stream opens and then calls [**IAudioVolumeDuckNotification::OnVolumeUnduckNotification**](iaudiovolumeducknotification-onvolumeunducknotification.md) when the stream is closed on the communication device.
+The ducking behavior works through a notification mechanism. To provide a customized experience, the media application must implement the [**IAudioVolumeDuckNotification**](/windows/win32/AudioPolicy/nn-audiopolicy-iaudiovolumeducknotification?branch=master) interface and register the implementation with the audio system. Upon successful registration, the media application receives event notifications in the form of callbacks through the methods in the interface. The session manager handling the communication session calls [**IAudioVolumeDuckNotification::OnVolumeDuckNotification**](/windows/win32/AudioPolicy/nf-audiopolicy-iaudiovolumeducknotification-onvolumeducknotification?branch=master) when the communication stream opens and then calls [**IAudioVolumeDuckNotification::OnVolumeUnduckNotification**](/windows/win32/AudioPolicy/nf-audiopolicy-iaudiovolumeducknotification-onvolumeunducknotification?branch=master) when the stream is closed on the communication device.
 
-The following code shows a sample implementation of the [**IAudioVolumeDuckNotification**](iaudiovolumeducknotification.md) interface. For the definition of CMediaPlayer::DuckingOptOut, see Getting Ducking Events from a Communication Device.
+The following code shows a sample implementation of the [**IAudioVolumeDuckNotification**](/windows/win32/AudioPolicy/nn-audiopolicy-iaudiovolumeducknotification?branch=master) interface. For the definition of CMediaPlayer::DuckingOptOut, see Getting Ducking Events from a Communication Device.
 
 
 ```C++

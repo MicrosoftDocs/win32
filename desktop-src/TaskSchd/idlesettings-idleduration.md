@@ -1,8 +1,11 @@
 ---
 title: IdleSettings.IdleDuration property
 description: For scripting, gets or sets a value that indicates the amount of time that the computer must be in an idle state before the task is run.
-ms.assetid: '32b9a14e-e37e-4e3a-81eb-041387f2017b'
-keywords: ["IdleDuration property Task Scheduler", "IdleDuration property Task Scheduler , IdleSettings object", "IdleSettings object Task Scheduler , IdleDuration property"]
+ms.assetid: 32b9a14e-e37e-4e3a-81eb-041387f2017b
+keywords:
+- IdleDuration property Task Scheduler
+- IdleDuration property Task Scheduler , IdleSettings object
+- IdleSettings object Task Scheduler , IdleDuration property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IdleSettings.IdleDuration property
@@ -40,8 +48,8 @@ When reading or writing XML for a task, this setting is specified in the [**Dura
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -57,9 +65,9 @@ When reading or writing XML for a task, this setting is specified in the [**Dura
 [**IdleSettings**](idlesettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Media Foundation H.265 video encoder is a Media Foundation Transform that supports encoding content into the H.265/HEVC format.'
-ms.assetid: '790CFB39-6FC0-432D-A434-5262C30EABF4'
-title: 'H.265 / HEVC Video Encoder'
+---
+Description: The Media Foundation H.265 video encoder is a Media Foundation Transform that supports encoding content into the H.265/HEVC format.
+ms.assetid: 790CFB39-6FC0-432D-A434-5262C30EABF4
+title: H.265 / HEVC Video Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # H.265 / HEVC Video Encoder
@@ -13,7 +18,7 @@ The Media Foundation H.265 video encoder is a [Media Foundation Transform](media
 The H.265 video encoder exposes the following interfaces:
 
 -   [**ICodecAPI**](dshow.icodecapi)
--   [**IMFTransform**](imftransform.md)
+-   [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)
 
 ## Input Types
 
@@ -26,7 +31,7 @@ The input media type must have one of the following subtypes:
 
 For more information about these subtypes, see [Video Subtype GUIDs](video-subtype-guids.md).
 
-The output type must be set before the input type. Until the output type is set, the encoder's [**IMFTransform::SetInputType**](imftransform-setinputtype.md) method returns **MF\_E\_TRANSFORM\_TYPE\_NOT\_SET**.
+The output type must be set before the input type. Until the output type is set, the encoder's [**IMFTransform::SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master) method returns **MF\_E\_TRANSFORM\_TYPE\_NOT\_SET**.
 
 ## Output Types
 
@@ -100,28 +105,28 @@ After the output type is set, the video encoder updates the type by adding the [
 
 ## Supported IMFTransform methods
 
-The following methods of the [**IMFTransform**](imftransform.md) interface are supported for the H.265/HEVC encoder:
+The following methods of the [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface are supported for the H.265/HEVC encoder:
 
--   [**GetAttributes**](imftransform-getattributes.md)
--   [**GetInputAvailableType**](imftransform-getinputavailabletype.md)
--   [**GetInputCurrentType**](imftransform-getinputcurrenttype.md)
--   [**GetInputStatus**](imftransform-getinputstatus.md)
--   [**GetInputStreamInfo**](imftransform-getinputstreaminfo.md)
--   [**GetOutputAvailableType**](imftransform-getoutputavailabletype.md)
--   [**GetOutputCurrentType**](imftransform-getoutputcurrenttype.md)
--   [**GetOutputStatus**](imftransform-getoutputstatus.md)
--   [**GetOutputStreamInfo**](imftransform-getoutputstreaminfo.md)
--   [**GetStreamCount**](imftransform-getstreamcount.md)
--   [**GetStreamLimits**](imftransform-getstreamlimits.md)
--   [**ProcessEvent**](imftransform-processevent.md)
--   [**ProcessMessage**](imftransform-processmessage.md)
--   [**ProcessInput**](imftransform-processinput.md)
--   [**ProcessOutput**](imftransform-processoutput.md)
--   [**SetInputType**](imftransform-setinputtype.md)
--   [**SetOutputType**](imftransform-setoutputtype.md)
--   [**SetOutputBounds**](imftransform-setoutputbounds.md)
+-   [**GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master)
+-   [**GetInputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputavailabletype?branch=master)
+-   [**GetInputCurrentType**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputcurrenttype?branch=master)
+-   [**GetInputStatus**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputstatus?branch=master)
+-   [**GetInputStreamInfo**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputstreaminfo?branch=master)
+-   [**GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master)
+-   [**GetOutputCurrentType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputcurrenttype?branch=master)
+-   [**GetOutputStatus**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstatus?branch=master)
+-   [**GetOutputStreamInfo**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstreaminfo?branch=master)
+-   [**GetStreamCount**](/windows/win32/mftransform/nf-mftransform-imftransform-getstreamcount?branch=master)
+-   [**GetStreamLimits**](/windows/win32/mftransform/nf-mftransform-imftransform-getstreamlimits?branch=master)
+-   [**ProcessEvent**](/windows/win32/mftransform/nf-mftransform-imftransform-processevent?branch=master)
+-   [**ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master)
+-   [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master)
+-   [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master)
+-   [**SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master)
+-   [**SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master)
+-   [**SetOutputBounds**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputbounds?branch=master)
 
-All other [**IMFTransform**](imftransform.md) methods will return the error E\_NOTIMPL.
+All other [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) methods will return the error E\_NOTIMPL.
 
 ## Supported ICodecAPI methods
 

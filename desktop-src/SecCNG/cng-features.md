@@ -1,7 +1,12 @@
 ---
-Description: 'CNG has the following features.'
-ms.assetid: '400a2b6e-6bbe-4ba4-abde-a2f625007517'
+Description: CNG has the following features.
+ms.assetid: 400a2b6e-6bbe-4ba4-abde-a2f625007517
 title: CNG Features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CNG Features
@@ -89,7 +94,7 @@ Any functions that modify the same area of memory at the same time (critical sec
 
 ## Mode of Operation
 
-CNG supports three modes of operations that can be used with symmetric block ciphers through the encryption APIs. These modes and their supportability are listed in the following table. The mode of operation can be changed by setting the [**BCRYPT\_CHAINING\_MODE**](cng-property-identifiers.md) property for the algorithm provider by using the [**BCryptSetProperty**](bcryptsetproperty-func.md) function.
+CNG supports three modes of operations that can be used with symmetric block ciphers through the encryption APIs. These modes and their supportability are listed in the following table. The mode of operation can be changed by setting the [**BCRYPT\_CHAINING\_MODE**](cng-property-identifiers.md) property for the algorithm provider by using the [**BCryptSetProperty**](/windows/win32/Bcrypt/nf-bcrypt-bcryptsetproperty?branch=master) function.
 
 
 

@@ -1,12 +1,17 @@
 ---
 title: How to save Direct2D content to an image file
 description: This topic shows how to use IWICImageEncoder to save content in the form of an ID2D1Image to an encoded image file such as JPEG.
-ms.assetid: 'F0D8BFC7-723A-4577-B2DF-4D656A18E2FC'
+ms.assetid: F0D8BFC7-723A-4577-B2DF-4D656A18E2FC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to save Direct2D content to an image file
 
-This topic shows how to use [**IWICImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880844) to save content in the form of an [**ID2D1Image**](id2d1image.md) to an encoded image file such as JPEG. If you are writing a Windows Store app, you can have the user select a destination file using [**Windows::Storage::Pickers::FileSavePicker**](https://msdn.microsoft.com/library/windows/apps/br207871).
+This topic shows how to use [**IWICImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880844) to save content in the form of an [**ID2D1Image**](/windows/win32/D2d1/?branch=master) to an encoded image file such as JPEG. If you are writing a Windows Store app, you can have the user select a destination file using [**Windows::Storage::Pickers::FileSavePicker**](https://msdn.microsoft.com/library/windows/apps/br207871).
 
 ## What you need to know
 
@@ -18,7 +23,7 @@ This topic shows how to use [**IWICImageEncoder**](https://msdn.microsoft.com/li
 
 ### Prerequisites
 
--   You need an [**ID2D1DeviceContext**](id2d1devicecontext.md) object and an object containing [Direct2D](direct2d.direct2d_portal.xml) content that implements [**ID2D1Image**](id2d1image.md) such as [**ID2D1Effect**](id2d1effect.md) or [**ID2D1Bitmap1**](id2d1bitmap1.md).
+-   You need an [**ID2D1DeviceContext**](/windows/win32/D2d1_1/?branch=master) object and an object containing [Direct2D](direct2d.direct2d_portal.xml) content that implements [**ID2D1Image**](/windows/win32/D2d1/?branch=master) such as [**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master) or [**ID2D1Bitmap1**](/windows/win32/D2d1_1/?branch=master).
 
 ## Instructions
 
@@ -150,7 +155,7 @@ DX::ThrowIfFailed(
 
 
 
-Call [**IWICImagingFactory2::CreateImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880849). The first parameter is an [**ID2D1Device**](id2d1device.md) and must be the device on which the image you want to encode was created – you cannot mix images from different resource domains within a single [**IWICImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880844).
+Call [**IWICImagingFactory2::CreateImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880849). The first parameter is an [**ID2D1Device**](/windows/win32/D2d1_1/?branch=master) and must be the device on which the image you want to encode was created – you cannot mix images from different resource domains within a single [**IWICImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880844).
 
 
 ```C++
@@ -169,7 +174,7 @@ Call [**IWICImagingFactory2::CreateImageEncoder**](https://msdn.microsoft.com/li
 
 [**IWICImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880844) can write a [Direct2D](direct2d.direct2d_portal.xml) image into an image frame, a frame thumbnail, or the container thumbnail. You can then use [IWICBitmapEncoder](https://msdn.microsoft.com/library/windows/desktop/ee719893) and [IWICBitmapFrameEncode](https://msdn.microsoft.com/library/windows/desktop/ee719895) to encode the imaging data to a file as normal.
 
-Write the [Direct2D](direct2d.direct2d_portal.xml) image to the frame. In this snippet we write an [**ID2D1Bitmap**](id2d1bitmap.md) that contains rasterized Direct2D content. However, you can provide any interface that implements [**ID2D1Image**](id2d1image.md).
+Write the [Direct2D](direct2d.direct2d_portal.xml) image to the frame. In this snippet we write an [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master) that contains rasterized Direct2D content. However, you can provide any interface that implements [**ID2D1Image**](/windows/win32/D2d1/?branch=master).
 
 
 ```C++
@@ -185,7 +190,7 @@ Write the [Direct2D](direct2d.direct2d_portal.xml) image to the frame. In this s
 
 
 > [!Note]  
-> The [**ID2D1Image**](id2d1image.md) parameter must have been created on the [**ID2D1Device**](id2d1device.md) that was passed into [**IWICImagingFactory2::CreateImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880849).
+> The [**ID2D1Image**](/windows/win32/D2d1/?branch=master) parameter must have been created on the [**ID2D1Device**](/windows/win32/D2d1_1/?branch=master) that was passed into [**IWICImagingFactory2::CreateImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880849).
 
  
 

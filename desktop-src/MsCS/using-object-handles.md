@@ -4,11 +4,15 @@ description: Most of the Cluster Object Management Functions require an object h
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '709effda-5ff1-439e-805a-9169ca63c182'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 709effda-5ff1-439e-805a-9169ca63c182
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["handles Failover Cluster ,using"]
+keywords:
+- handles Failover Cluster ,using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Object Handles
@@ -21,29 +25,29 @@ The following table lists cluster object handles and the functions used to obtai
 
 | Handle                                      | Function                                                                                                                                      |
 |---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [*Cluster*](c-gly.md#-wolf-cluster-gly)    | [**OpenCluster**](opencluster.md)<br/> [**CloseCluster**](closecluster.md)<br/>                                                 |
-| [Node](nodes.md)                           | [**OpenClusterNode**](openclusternode.md)<br/> [**CloseClusterNode**](closeclusternode.md)<br/>                                 |
-| [Network](networks.md)                     | [**OpenClusterNetwork**](openclusternetwork.md)<br/> [**CloseClusterNetwork**](closeclusternetwork.md)<br/>                     |
-| [Network interface](network-interfaces.md) | [**OpenClusterNetInterface**](openclusternetinterface.md)<br/> [**CloseClusterNetInterface**](closeclusternetinterface.md)<br/> |
-| [Group](groups.md)                         | [**OpenClusterGroup**](openclustergroup.md)<br/> [**CloseClusterGroup**](closeclustergroup.md)<br/>                             |
-| [Resource](resources.md)                   | [**OpenClusterResource**](openclusterresource.md)<br/> [**CloseClusterResource**](closeclusterresource.md)<br/>                 |
+| [*Cluster*](c-gly.md#-wolf-cluster-gly)    | [**OpenCluster**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster?branch=master)<br/> [**CloseCluster**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_close_cluster?branch=master)<br/>                                                 |
+| [Node](nodes.md)                           | [**OpenClusterNode**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster_node?branch=master)<br/> [**CloseClusterNode**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_close_cluster_node?branch=master)<br/>                                 |
+| [Network](networks.md)                     | [**OpenClusterNetwork**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster_network?branch=master)<br/> [**CloseClusterNetwork**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_close_cluster_network?branch=master)<br/>                     |
+| [Network interface](network-interfaces.md) | [**OpenClusterNetInterface**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster_net_interface?branch=master)<br/> [**CloseClusterNetInterface**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_close_cluster_net_interface?branch=master)<br/> |
+| [Group](groups.md)                         | [**OpenClusterGroup**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster_group?branch=master)<br/> [**CloseClusterGroup**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_close_cluster_group?branch=master)<br/>                             |
+| [Resource](resources.md)                   | [**OpenClusterResource**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster_resource?branch=master)<br/> [**CloseClusterResource**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_close_cluster_resource?branch=master)<br/>                 |
 
 
 
- 
+ 
 
 The following generalized procedure applies to opening a handle to any object. Substitute the name of the object (that is, [node](nodes.md), [network](networks.md), [network interface](network-interfaces.md), [group](groups.md), or [resource](resources.md)) for &lt;Object&gt;.
 
 **To open an object handle**
 
 1.  Review the [recommendations and cautions](recommendations-and-cautions.md) related to object handles. See [LPC and RPC Handles](lpc-and-rpc-handles.md).
-2.  Open a cluster handle by calling [**OpenCluster**](opencluster.md)
-3.  Open the object handle by calling [**OpenCluster**](opencluster.md). Pass the cluster handle obtained from step 1 as well as the name of the object.
+2.  Open a cluster handle by calling [**OpenCluster**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster?branch=master)
+3.  Open the object handle by calling [**OpenCluster**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster?branch=master). Pass the cluster handle obtained from step 1 as well as the name of the object.
 4.  Be sure to close any handles you no longer need. However, never close a cluster handle while object handles obtained from it are still in use.
 
 ## Example
 
-The following example provides two functions: *ClusDocEx\_OpenLocalClusterWithName* and *ClusDocEx\_ResAddPossibleOwner*. The first function returns an RPC cluster handle by using [**GetComputerName**](https://msdn.microsoft.com/library/windows/desktop/ms724295) to supply a name for [**OpenCluster**](opencluster.md). The second function illustrates a call to [**AddClusterResourceNode**](addclusterresourcenode.md), which requires a resource handle and a node handle.
+The following example provides two functions: *ClusDocEx\_OpenLocalClusterWithName* and *ClusDocEx\_ResAddPossibleOwner*. The first function returns an RPC cluster handle by using [**GetComputerName**](https://msdn.microsoft.com/library/windows/desktop/ms724295) to supply a name for [**OpenCluster**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster?branch=master). The second function illustrates a call to [**AddClusterResourceNode**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_add_cluster_resource_node?branch=master), which requires a resource handle and a node handle.
 
 
 ```C++
@@ -189,9 +193,9 @@ endf:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

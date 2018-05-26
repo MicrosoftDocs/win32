@@ -1,8 +1,23 @@
 ---
 title: Windows Media DRM-Implemented Interfaces
 description: Windows Media DRM-Implemented Interfaces
-ms.assetid: '4da673be-52b2-4532-8580-5d1946169099'
-keywords: ["Windows Media Device Manager,DRM-protected content", "Device Manager,DRM-protected content", "programming reference,DRM-protected content", "reference for Windows Media Device Manager,DRM-protected content", "DRM-protected content", "Windows Media Device Manager,DRM interfaces", "Device Manager,DRM interfaces", "programming reference,DRM interfaces", "reference for Windows Media Device Manager,DRM interfaces", "DRM interfaces"]
+ms.assetid: 4da673be-52b2-4532-8580-5d1946169099
+keywords:
+- Windows Media Device Manager,DRM-protected content
+- Device Manager,DRM-protected content
+- programming reference,DRM-protected content
+- reference for Windows Media Device Manager,DRM-protected content
+- DRM-protected content
+- Windows Media Device Manager,DRM interfaces
+- Device Manager,DRM interfaces
+- programming reference,DRM interfaces
+- reference for Windows Media Device Manager,DRM interfaces
+- DRM interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media DRM-Implemented Interfaces

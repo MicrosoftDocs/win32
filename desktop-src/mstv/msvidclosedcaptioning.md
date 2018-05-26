@@ -1,7 +1,12 @@
 ---
 title: MSVidClosedCaptioning
 description: MSVidClosedCaptioning
-ms.assetid: '070a208b-cf4c-41e1-9a5f-76cc444285c9'
+ms.assetid: 070a208b-cf4c-41e1-9a5f-76cc444285c9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSVidClosedCaptioning
@@ -14,7 +19,7 @@ The **MSVidClosedCaptioning** object represents the closed captioning feature.
 
 |                           |                                                                                                                                                                                  |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Interfaces                | [**IMSVidClosedCaptioning**](imsvidclosedcaptioning.md), [**IMSVidClosedCaptioning2**](imsvidclosedcaptioning2.md), [**IMSVidClosedCaptioning3**](imsvidclosedcaptioning3.md) |
+| Interfaces                | [**IMSVidClosedCaptioning**](/windows/win32/segment/nn-segment-imsvidclosedcaptioning?branch=master), [**IMSVidClosedCaptioning2**](/windows/win32/segment/nn-segment-imsvidclosedcaptioning2?branch=master), [**IMSVidClosedCaptioning3**](/windows/win32/segment/nn-segment-imsvidclosedcaptioning3?branch=master) |
 | Outgoing Event Interfaces | None.                                                                                                                                                                            |
 
 
@@ -23,7 +28,7 @@ The **MSVidClosedCaptioning** object represents the closed captioning feature.
 
 ## Remarks
 
-To obtain this object, call the [**IMSVidCtl::get\_FeaturesActive**](imsvidctl-get-featuresactive.md) method or the [**IMSVidCtl::get\_FeaturesAvailable**](imsvidctl-get-featuresavailable.md) method and enumerate the returned collection.
+To obtain this object, call the [**IMSVidCtl::get\_FeaturesActive**](/windows/previous-versions/msvidctl/nf-msvidctl-imsvidctl-get_featuresactive?branch=master) method or the [**IMSVidCtl::get\_FeaturesAvailable**](/windows/previous-versions/msvidctl/nf-msvidctl-imsvidctl-get_featuresavailable?branch=master) method and enumerate the returned collection.
 
 ## Related topics
 

@@ -1,8 +1,10 @@
 ---
 title: IBackgroundCopyFile interface
 description: IBackgroundCopyFile contains information about a file that is part of a job. For example, you can use IBackgroundCopyFile methods to retrieve the local and remote names of the file and transfer progress information.
-ms.assetid: '463ED61A-D7C5-4B44-97CF-FDAA138CE9E3'
-keywords: ["IBackgroundCopyFile interface", "IBackgroundCopyFile interface, described"]
+ms.assetid: 463ED61A-D7C5-4B44-97CF-FDAA138CE9E3
+keywords:
+- IBackgroundCopyFile interface
+- IBackgroundCopyFile interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyFile interface
@@ -39,7 +46,7 @@ The **IBackgroundCopyFile** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -47,7 +54,7 @@ The **IBackgroundCopyFile** interface has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -73,9 +80,9 @@ The **IBackgroundCopyFile** interface has these methods.
 [**IEnumBackgroundCopyFiles**](ienumbackgroundcopyfiles-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

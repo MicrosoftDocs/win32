@@ -4,11 +4,16 @@ description: This feature is introduced in MMC 1.1.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3100f43b-36ec-4627-ab55-fac3c6bb44c6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 3100f43b-36ec-4627-ab55-fac3c6bb44c6
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["wizard pages MMC", "wizard pages MMC"]
+keywords:
+- wizard pages MMC
+- wizard pages MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Wizard Pages
@@ -32,7 +37,7 @@ In addition to the [**CreatePropertySheet**](ipropertysheetprovider-createproper
 -   [**AddExtensionPages**](ipropertysheetprovider-addextensionpages.md) collects pages from extension snap-ins.
 -   [**Show**](ipropertysheetprovider-show.md) displays a specific property sheet frame.
 
-To define wizard pages with watermarks and header bitmaps, snap-ins must implement the [**IExtendPropertySheet2**](iextendpropertysheet2.md) interface. The [**CreatePropertyPages**](iextendpropertysheet2-createpropertypages.md) method defines the properties of one or more wizard pages using the [**PROPSHEETPAGE**](propsheetpage.md) structure. The [**GetWatermarks**](iextendpropertysheet2-getwatermarks.md) method is used to specify the watermark and header bitmaps for the wizard. MMC calls the [**QueryPagesFor**](iextendpropertysheet2-querypagesfor.md) method to verify that a wizard page exists for a particular scope or result item when the user clicks the **Properties** context menu item.
+To define wizard pages with watermarks and header bitmaps, snap-ins must implement the [**IExtendPropertySheet2**](iextendpropertysheet2.md) interface. The [**CreatePropertyPages**](iextendpropertysheet2-createpropertypages.md) method defines the properties of one or more wizard pages using the [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure. The [**GetWatermarks**](iextendpropertysheet2-getwatermarks.md) method is used to specify the watermark and header bitmaps for the wizard. MMC calls the [**QueryPagesFor**](iextendpropertysheet2-querypagesfor.md) method to verify that a wizard page exists for a particular scope or result item when the user clicks the **Properties** context menu item.
 
 ## Related topics
 

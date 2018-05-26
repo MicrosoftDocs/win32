@@ -1,7 +1,12 @@
 ---
-Description: 'If a client and host are using a secure channel (HTTPS) for communication, then the WinHTTP logs can be used to troubleshoot application failures.'
-ms.assetid: '2983780b-14da-48f2-b973-740a651181f1'
-title: 'Using WinHTTP Logging to Verify SSL/TLS Negotiation'
+Description: If a client and host are using a secure channel (HTTPS) for communication, then the WinHTTP logs can be used to troubleshoot application failures.
+ms.assetid: 2983780b-14da-48f2-b973-740a651181f1
+title: Using WinHTTP Logging to Verify SSL/TLS Negotiation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WinHTTP Logging to Verify SSL/TLS Negotiation
@@ -69,7 +74,7 @@ The CA certificate must be in the local computer store, not the current user sto
 
 
 
- 
+ 
 
 For more troubleshooting information, see [Troubleshooting HTTPS Secure Channel Communication](troubleshooting-https-secure-channel-communication.md). For more information about SSL, see [SSL in WinHTTP](https://msdn.microsoft.com/library/windows/desktop/aa384076).
 
@@ -95,9 +100,9 @@ For more troubleshooting information, see [Troubleshooting HTTPS Secure Channel 
 [Getting Started with WSDAPI Troubleshooting](getting-started-with-wsdapi-troubleshooting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckStreaming method determines whether the pin can accept samples.'
-ms.assetid: 'fa063966-4c72-466e-933c-def6a6818621'
-title: 'CTransformInputPin.CheckStreaming method'
+Description: The CheckStreaming method determines whether the pin can accept samples.
+ms.assetid: fa063966-4c72-466e-933c-def6a6818621
+title: CTransformInputPin.CheckStreaming method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformInputPin.CheckStreaming method
@@ -37,7 +42,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,9 +59,9 @@ This method overrides the [**CBaseInputPin::CheckStreaming**](cbaseinputpin-chec
 
 
 
- 
+ 
 
- 
+ 
 
 
 

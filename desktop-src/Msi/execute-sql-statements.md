@@ -1,7 +1,12 @@
 ---
-Description: 'The VBScript file WiRunSQL.vbs is provided in the Windows SDK Components for Windows Installer Developers.'
-ms.assetid: '1027b187-1237-43d1-9905-8fcdaec63903'
+Description: The VBScript file WiRunSQL.vbs is provided in the Windows SDK Components for Windows Installer Developers.
+ms.assetid: 1027b187-1237-43d1-9905-8fcdaec63903
 title: Execute SQL Statements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Execute SQL Statements

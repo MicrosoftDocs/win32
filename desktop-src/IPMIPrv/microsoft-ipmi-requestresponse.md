@@ -4,13 +4,17 @@ description: Sends a request for data from an IPMI provider to the IPMI driver.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e0adbc24-2aa5-48c9-b2da-7ba328da8cb9'
-ms.prod: 'windows-server-dev'
+ms.assetid: e0adbc24-2aa5-48c9-b2da-7ba328da8cb9
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["IPMI driver WS-Management", "RequestResponse method", "RequestResponse method, Microsoft_IPMI class", "Microsoft_IPMI class, RequestResponse method"]
+keywords:
+- IPMI driver WS-Management
+- RequestResponse method
+- RequestResponse method, Microsoft_IPMI class
+- Microsoft_IPMI class, RequestResponse method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +23,9 @@ api_location:
 - IpmiDrv.sys
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestResponse method of the Microsoft\_IPMI class
@@ -30,15 +37,15 @@ Sends a request for data from an IPMI provider to the IPMI driver.
 
 ```mof
 void RequestResponse(
-  [in]  uint8  Command,
-  [out] uint8  CompletionCode,
-  [in]  uint8  Lun,
-  [in]  uint8  NetworkFunction,
-  [in]  uint8  RequestData[],
-  [out] uint32 ResponseDataSize,
-  [in]  uint32 RequestDataSize,
-  [in]  uint8  ResponderAddress,
-  [out] uint8  ResponseData
+  [in]  uint8  Command,
+  [out] uint8  CompletionCode,
+  [in]  uint8  Lun,
+  [in]  uint8  NetworkFunction,
+  [in]  uint8  RequestData[],
+  [out] uint32 ResponseDataSize,
+  [in]  uint32 RequestDataSize,
+  [in]  uint8  ResponderAddress,
+  [out] uint8  ResponseData
 );
 ```
 
@@ -219,21 +226,21 @@ Cannot execute command. Command, or request parameters, not supported in present
 
 </dd> <dt>
 
-1–126
+1 126
 </dt> <dd>
 
 Unspecified error.
 
 </dd> <dt>
 
-128–190
+128 190
 </dt> <dd>
 
 Device-specific (OEM) completion codes.
 
 </dd> <dt>
 
-214–255
+214 255
 </dt> <dd>
 
 Standard command-specific codes. reserved.
@@ -299,8 +306,8 @@ This method does not return a value.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | DLL<br/>                      | <dl> <dt>IpmiDrv.sys</dt> </dl> |
 
@@ -316,9 +323,9 @@ This method does not return a value.
 [IPMI Provider](ipmi-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

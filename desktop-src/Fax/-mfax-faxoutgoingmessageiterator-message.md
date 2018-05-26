@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Message property retrieves the outbound fax message under the archive cursor.'
-ms.assetid: 'fe8aac1e-1438-4984-9802-97f0a44b2893'
-title: 'FaxOutgoingMessageIterator.Message property'
+---
+Description: The Message property retrieves the outbound fax message under the archive cursor.
+ms.assetid: fe8aac1e-1438-4984-9802-97f0a44b2893
+title: FaxOutgoingMessageIterator.Message property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessageIterator.Message property
@@ -25,7 +30,7 @@ A [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md) object.
 
 ## Remarks
 
-To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) and **farQUERY\_OUT\_ARCHIVE** access rights.
+To use this method, a user must have the [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) and **farQUERY\_OUT\_ARCHIVE** access rights.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-r
 [**FaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator-cpp.md)
+[**IFaxOutgoingMessageIterator**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessageiterator?branch=master)
 </dt> </dl>
 
  

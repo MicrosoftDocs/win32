@@ -1,14 +1,20 @@
 ---
 title: Data (RootCause) Element
 description: Identifies a property of a root cause.
-ms.assetid: 'e4043ab4-bef6-4adb-b151-b003a2529b01'
-keywords: ["Data element Windows Troubleshooting Toolkit"]
+ms.assetid: e4043ab4-bef6-4adb-b151-b003a2529b01
+keywords:
+- Data element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Data
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data (RootCause) Element
@@ -33,8 +39,8 @@ The [**RootCause (RootCauseInformation)**](report-rootcause-rootcauseinformation
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -48,9 +54,9 @@ The [**RootCause (RootCauseInformation)**](report-rootcause-rootcauseinformation
 [**RootCause (RootCauseInformation)**](report-rootcause-rootcauseinformation-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

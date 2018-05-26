@@ -4,11 +4,16 @@ description: The following HTML/VBScript example creates an HTML form that allow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'af8f3ab9-2ca5-48dd-bafd-829fb134e5a3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: af8f3ab9-2ca5-48dd-bafd-829fb134e5a3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Failover Cluster Automation Server Failover Cluster ,creating cluster objects", "Cluster Automation Server Failover Cluster ,creating cluster objects"]
+keywords:
+- Failover Cluster Automation Server Failover Cluster ,creating cluster objects
+- Cluster Automation Server Failover Cluster ,creating cluster objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Cluster Objects with the Failover Cluster Automation Server

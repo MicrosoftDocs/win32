@@ -1,14 +1,20 @@
 ---
 title: WM/ProviderStyle Attribute
 description: The WM/ProviderStyle attribute is the style of the item assigned by the provider of the attribute values.
-ms.assetid: '43994d6b-0d71-4f2c-834a-47bbcd32b461'
-keywords: ["WM/ProviderStyle Attribute Windows Media Player"]
+ms.assetid: 43994d6b-0d71-4f2c-834a-47bbcd32b461
+keywords:
+- WM/ProviderStyle Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/ProviderStyle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ProviderStyle Attribute
@@ -50,9 +56,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,13 @@ description: Represents a zone set.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dfca017f-653c-4cf5-bb94-35e54bc4c6b1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: dfca017f-653c-4cf5-bb94-35e54bc4c6b1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMZoneSet class", "MSFT_SMZoneSet class, described"]
+keywords:
+- MSFT_SMZoneSet class
+- MSFT_SMZoneSet class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMZoneSet class
@@ -37,12 +42,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMZoneSet
 {
-  String  ObjectId;
+  String  ObjectId;
   boolean Active;
-  uint16  ConnectivityStatus;
-  string  Caption;
-  string  Description;
-  string  ElementName;
+  uint16  ConnectivityStatus;
+  string  Caption;
+  string  Description;
+  string  ElementName;
 };
 ```
 
@@ -178,7 +183,7 @@ The ID of this class instance. This ID must be unique within the scope of the Wi
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -192,9 +197,9 @@ The ID of this class instance. This ID must be unique within the scope of the Wi
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

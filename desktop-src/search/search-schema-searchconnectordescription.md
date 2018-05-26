@@ -1,7 +1,12 @@
 ---
-Description: 'The &lt;searchConnectorDescriptionType&gt; element is the top level container for the search connector definition.'
-ms.assetid: 'a6b45864-210d-4099-804d-7548fd8eb562'
-title: 'searchConnectorDescriptionType Element (Search Connector Schema)'
+Description: The &lt;searchConnectorDescriptionType&gt; element is the top level container for the search connector definition.
+ms.assetid: a6b45864-210d-4099-804d-7548fd8eb562
+title: searchConnectorDescriptionType Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # searchConnectorDescriptionType Element (Search Connector Schema)

@@ -1,8 +1,11 @@
 ---
 title: IAssessmentEndEventHandler OnAssessmentEnd method
 description: The AXE Core raises this event to notify the solution that an assessment has ended.
-ms.assetid: 'A89E0F08-3E2B-470E-8BA4-66CDDA77FB18'
-keywords: ["OnAssessmentEnd method Access Execution Engine", "OnAssessmentEnd method Access Execution Engine , IAssessmentEndEventHandler interface", "IAssessmentEndEventHandler interface Access Execution Engine , OnAssessmentEnd method"]
+ms.assetid: A89E0F08-3E2B-470E-8BA4-66CDDA77FB18
+keywords:
+- OnAssessmentEnd method Access Execution Engine
+- OnAssessmentEnd method Access Execution Engine , IAssessmentEndEventHandler interface
+- IAssessmentEndEventHandler interface Access Execution Engine , OnAssessmentEnd method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAssessmentEndEventHandler::OnAssessmentEnd method
@@ -22,8 +30,8 @@ The AXE Core raises this event to notify the solution that an assessment has end
 
 ```C++
 virtual void OnAssessmentEnd(
-             Engine                 *sender,
-  [in] const AssessmentEndEventArgs *e
+             Engine                 *sender,
+  [in] const AssessmentEndEventArgs *e
 ) = 0;
 ```
 
@@ -61,8 +69,8 @@ Managed code uses the [**AssessmentEndEventHandler**](axe-assessmentendeventhand
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -84,9 +92,9 @@ Managed code uses the [**AssessmentEndEventHandler**](axe-assessmentendeventhand
 [**TerminateJob**](engine-terminatejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

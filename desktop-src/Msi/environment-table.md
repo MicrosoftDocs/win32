@@ -1,7 +1,12 @@
 ---
-Description: 'The Environment table is used to set the values of environment variables.'
-ms.assetid: 'f7106ed6-706f-4e57-989f-030066bcecd3'
+Description: The Environment table is used to set the values of environment variables.
+ms.assetid: f7106ed6-706f-4e57-989f-030066bcecd3
 title: Environment Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Environment Table
@@ -21,7 +26,7 @@ The Environment table has the following columns.
 
 
 
- 
+ 
 
 ## Columns
 
@@ -47,14 +52,14 @@ This column is the localizable name of the environment variable. The key values 
 | \+                             | Create the environment variable if it does not exist, then set it during installation. This has no effect on the value of the environment variable if it already exists.                                                                                                                                                                                                                                                                                                                         |
 | \-                             | Remove the environment variable when the component is removed. This symbol can be combined with any prefix.                                                                                                                                                                                                                                                                                                                                                                                      |
 | !                              | Remove the environment variable during an installation. The installer only removes an environment variable during an installation if the name and value of the variable match the entries in the Name and Value fields of the Environment table. If you want to remove an environment variable, regardless of its value, use the '!' syntax, and leave the Value field empty.                                                                                                                    |
-| \*                             | This prefix is used with Windows 2000 to indicate that the name refers to a system environment variable. If no asterisk is present, the installer writes the variable to the user's environment. This symbol can be combined with any prefix. A package that is used for installation in the per-machine [installation context](installation-context.md) should write environment variables to the machine's environment by including \* in the Name column. For more information, see Remarks. |
+| \*                             | This prefix is used with Windows 2000 to indicate that the name refers to a system environment variable. If no asterisk is present, the installer writes the variable to the user's environment. This symbol can be combined with any prefix. A package that is used for installation in the per-machine [installation context](installation-context.md) should write environment variables to the machine's environment by including \* in the Name column. For more information, see Remarks. |
 | =-                             | The environment variable is set on install and removed on uninstall. This is the usual behavior.                                                                                                                                                                                                                                                                                                                                                                                                 |
 | !-                             | Removes an environment variable during an install or uninstall.                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | =+ !+<br/> !=<br/> | These are not a valid prefixes                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 
 
- 
+ 
 
 If the Value field in the table includes a \[~\], then the prefix characters apply to only the specified portion of the string. The use of \[~\] is described below in the Value column section.
 
@@ -90,7 +95,7 @@ An external key to the first column of the [Component table](component-table.md)
 
 For the installer to set environment variables, the [WriteEnvironmentStrings action](writeenvironmentstrings-action.md) and [RemoveEnvironmentStrings action](removeenvironmentstrings-action.md) need to be listed in the [InstallExecuteSequence Table](installexecutesequence-table.md).
 
-Note that environment variables do not change for the installation in progress when either the [WriteEnvironmentStrings action](writeenvironmentstrings-action.md) or [RemoveEnvironmentStrings action](removeenvironmentstrings-action.md) are run. On Windows 2000, this information is stored in the registry and a message notifies the system of changes when the installation completes. A new process, or another process that checks for these messages, uses the new environment variables.
+Note that environment variables do not change for the installation in progress when either the [WriteEnvironmentStrings action](writeenvironmentstrings-action.md) or [RemoveEnvironmentStrings action](removeenvironmentstrings-action.md) are run. On Windows 2000, this information is stored in the registry and a message notifies the system of changes when the installation completes. A new process, or another process that checks for these messages, uses the new environment variables.
 
 When modifying the path environment variable with the Environment table, do not attempt to enter the entire new path explicitly into the Value field. Instead, extend the existing path by prefixing or appending a value and delimiter (;) to \[~\]. If \[~\] is not present in the Value field, the existing path information is lost and installing the .msi file may prevent the computer from booting. The path variable is mostly commonly set using the syntax: \[~\];Value.
 
@@ -109,9 +114,9 @@ When performing per-machine installations from a terminal server, the installer 
 [ICE80](ice80.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: How IUnknown Works
-ms.assetid: '926778a5-e941-4424-8bc0-b50c925fd08b'
+ms.assetid: 926778a5-e941-4424-8bc0-b50c925fd08b
 title: How IUnknown Works
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How IUnknown Works

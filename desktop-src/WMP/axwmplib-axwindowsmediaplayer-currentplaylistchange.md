@@ -1,8 +1,9 @@
 ---
 title: CurrentPlaylistChange Event of the AxWindowsMediaPlayer Object
 description: The CurrentPlaylistChange event occurs when something changes within the current playlist.
-ms.assetid: '1f9c99a4-7d10-48bf-b5ff-b1c1d6753b20'
-keywords: ["CurrentPlaylistChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 1f9c99a4-7d10-48bf-b5ff-b1c1d6753b20
+keywords:
+- CurrentPlaylistChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CurrentPlaylistChange Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cur
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -165,12 +171,12 @@ End Sub</code></pre></td>
 [**AxWindowsMediaPlayer.PlaylistChange Event (VB and C#)**](axwmplib-axwindowsmediaplayer-playlistchange.md)
 </dt> <dt>
 
-[**WMPPlaylistChangeEventType**](wmpplaylistchangeeventtype.md)
+[**WMPPlaylistChangeEventType**](/windows/win32/wmp/ne-wmp-wmpplaylistchangeeventtype?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

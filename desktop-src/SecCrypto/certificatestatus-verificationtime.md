@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the time that the certificate was verified.'
-ms.assetid: '1bd17df3-2fa1-4b99-ab00-659b4ad5fcd9'
-title: 'CertificateStatus.VerificationTime property'
+---
+Description: Sets or retrieves the time that the certificate was verified.
+ms.assetid: 1bd17df3-2fa1-4b99-ab00-659b4ad5fcd9
+title: CertificateStatus.VerificationTime property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertificateStatus.VerificationTime property

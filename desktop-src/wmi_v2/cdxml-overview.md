@@ -4,10 +4,13 @@ description: This topic defines CDXML and its terms and lists resources for furt
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '98514EC3-4D88-4B26-881F-01DD3DDFE996'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 98514EC3-4D88-4B26-881F-01DD3DDFE996
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CDXML definition and terms

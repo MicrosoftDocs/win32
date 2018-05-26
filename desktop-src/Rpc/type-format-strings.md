@@ -1,7 +1,12 @@
 ---
 title: Type Format Strings
 description: Format characters denote objects of interest to the NDR engine.
-ms.assetid: '71117082-07b0-4ba4-a920-09be8d8427ab'
+ms.assetid: 71117082-07b0-4ba4-a920-09be8d8427ab
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type Format Strings

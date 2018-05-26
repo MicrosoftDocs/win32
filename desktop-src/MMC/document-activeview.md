@@ -4,11 +4,16 @@ description: The ActiveView property returns a View object that represents the a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cb2f9924-fd54-46b7-8088-b3199fae0d4f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: cb2f9924-fd54-46b7-8088-b3199fae0d4f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ActiveView property MMC", "ActiveView property MMC , Document object", "Document object MMC , ActiveView property", "ActiveView property MMC , Document interface", "Document interface MMC , ActiveView property"]
+keywords:
+- ActiveView property MMC
+- ActiveView property MMC , Document object
+- Document object MMC , ActiveView property
+- ActiveView property MMC , Document interface
+- Document interface MMC , ActiveView property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Document::ActiveView property
@@ -60,8 +68,8 @@ Set objView = Nothing
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -76,9 +84,9 @@ Set objView = Nothing
 [**View object**](view-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Using Per-Application Configuration Files'
-ms.assetid: 'a600e5a4-b2bb-45a6-8b86-5ea3caf7aa78'
-title: 'Using Per-Application Configuration Files'
+Description: Using Per-Application Configuration Files
+ms.assetid: a600e5a4-b2bb-45a6-8b86-5ea3caf7aa78
+title: Using Per-Application Configuration Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Per-Application Configuration Files
@@ -49,7 +54,7 @@ Using COM+ per-application configuration files requires the following basic step
 8.  In the **Application Root Directory** text box, enter the path or browse to the directory where you want to store your application configuration files for this application.
 9.  Click **OK**.
 
-    Note that you can also specify the COM+ application root directory through the ApplicationDirectory property of the [**COMAdminCatalogObject**](comadmincatalogobject.md) class. For more information, see [**Applications**](applications.md).
+    Note that you can also specify the COM+ application root directory through the ApplicationDirectory property of the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) class. For more information, see [**Applications**](applications.md).
 
 10. In the directory you chose to store your application configuration files, create a file named *application*.manifest. With a text editor, add the following text to this file:
 

@@ -1,7 +1,12 @@
 ---
 title: Windowless Rich Edit Controls
 description: This section contains information about the programming elements used with windowless rich edit controls.
-ms.assetid: '880a704d-776a-49d3-be31-0328af408e3b'
+ms.assetid: 880a704d-776a-49d3-be31-0328af408e3b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windowless Rich Edit Controls
@@ -18,7 +23,7 @@ This section contains information about the programming elements used with windo
 
 
 
- 
+ 
 
 ### Functions
 
@@ -26,11 +31,11 @@ This section contains information about the programming elements used with windo
 
 | Topic                                            | Contents                                                                                                                                                                                                                                                             |
 |--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateTextServices**](createtextservices.md) | The [**CreateTextServices**](createtextservices.md) function creates an instance of a text services object. The text services object supports a variety of interfaces, including [**ITextServices**](itextservices.md) and the Text Object Model (TOM).<br/> |
+| [**CreateTextServices**](/windows/win32/Textserv/nf-textserv-createtextservices?branch=master) | The [**CreateTextServices**](/windows/win32/Textserv/nf-textserv-createtextservices?branch=master) function creates an instance of a text services object. The text services object supports a variety of interfaces, including [**ITextServices**](/windows/win32/Textserv/nl-textserv-itextservices?branch=master) and the Text Object Model (TOM).<br/> |
 
 
 
- 
+ 
 
 ### Interfaces
 
@@ -38,16 +43,16 @@ This section contains information about the programming elements used with windo
 
 | Topic                                  | Contents                                                                                                                |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [**ITextHost**](itexthost.md)         | The [**ITextHost**](itexthost.md) interface is used by a text services object to obtain text host services.<br/> |
-| [**ITextServices**](itextservices.md) | Extends the TOM to provide extra functionality for windowless operation.<br/>                                     |
+| [**ITextHost**](/windows/win32/Textserv/nl-textserv-itexthost?branch=master)         | The [**ITextHost**](/windows/win32/Textserv/nl-textserv-itexthost?branch=master) interface is used by a text services object to obtain text host services.<br/> |
+| [**ITextServices**](/windows/win32/Textserv/nl-textserv-itextservices?branch=master) | Extends the TOM to provide extra functionality for windowless operation.<br/>                                     |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

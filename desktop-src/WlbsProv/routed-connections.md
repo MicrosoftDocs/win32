@@ -4,13 +4,17 @@ description: In a routed connection, you specify an object path that resolves to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9243ec03-3fe6-49f9-b1e2-3eff7cf6d406'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9243ec03-3fe6-49f9-b1e2-3eff7cf6d406
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["connections Failover Cluster ,routed NLB connections"]
+keywords:
+- connections Failover Cluster ,routed NLB connections
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Routed Connections

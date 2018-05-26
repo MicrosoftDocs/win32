@@ -1,8 +1,9 @@
 ---
 title: HierarchyAlpha enumeration
 description: Specifies the hierarchy alpha on a Digital Video Broadcasting-Terrestrial (DVB-T) system.
-ms.assetid: 'e2804158-ffe3-4a9b-af6f-b3e4a3d5c1ea'
-keywords: ["HierarchyAlpha enumeration Microsoft TV Technologies"]
+ms.assetid: e2804158-ffe3-4a9b-af6f-b3e4a3d5c1ea
+keywords:
+- HierarchyAlpha enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HierarchyAlpha enumeration
@@ -22,12 +28,12 @@ Specifies the hierarchy alpha on a Digital Video Broadcasting-Terrestrial (DVB-T
 
 ```C++
 typedef enum HierarchyAlpha { 
-  BDA_HALPHA_NOT_SET      = -1,
-  BDA_HALPHA_NOT_DEFINED  = 0,
-  BDA_HALPHA_1            = 1,
-  BDA_HALPHA_2            = 2,
-  BDA_HALPHA_4            = 3,
-  BDA_HALPHA_MAX          = 4
+  BDA_HALPHA_NOT_SET      = -1,
+  BDA_HALPHA_NOT_DEFINED  = 0,
+  BDA_HALPHA_1            = 1,
+  BDA_HALPHA_2            = 2,
+  BDA_HALPHA_4            = 3,
+  BDA_HALPHA_MAX          = 4
 } HierarchyAlpha;
 ```
 
@@ -93,15 +99,15 @@ Reserved; do not use.
 
 <dl> <dt>
 
-[**IDVBTLocator::get\_HAlpha**](idvbtlocator-get-halpha.md)
+[**IDVBTLocator::get\_HAlpha**](/windows/previous-versions/tuner/nf-tuner-idvbtlocator-get_halpha?branch=master)
 </dt> <dt>
 
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The account name.'
-ms.assetid: '1699c269-d653-4f62-8cef-e1f7d9250e0c'
-title: 'System.Communication.AccountName'
+Description: The account name.
+ms.assetid: 1699c269-d653-4f62-8cef-e1f7d9250e0c
+title: System.Communication.AccountName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Communication.AccountName

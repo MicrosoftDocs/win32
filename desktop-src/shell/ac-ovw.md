@@ -1,6 +1,11 @@
 ---
-Description: 'Autocompletion expands strings that have been partially entered in an edit control into complete strings.'
+Description: Autocompletion expands strings that have been partially entered in an edit control into complete strings.
 title: Using Autocomplete
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Autocomplete
@@ -12,11 +17,11 @@ Autocompletion expands strings that have been partially entered in an [edit cont
 An application can add autocomplete functionality to an edit control in two ways:
 
 -   [**SHAutoComplete**](https://msdn.microsoft.com/library/windows/desktop/bb759862) is a simple function that can autocomplete a file path or URL.
--   [**IAutoComplete**](iautocomplete.md) interface is exposed by the autocomplete object (CLSID\_AutoComplete). It allows applications to initialize, enable, and disable the object. **IAutoComplete** allows more control over autocomplete sources, including the ability to add a custom source. The remainder of this topic discusses the use of **IAutoComplete**. See [How To Enable Autocomplete Manually](how-to-enable-autocomplete-manually.md) for specific usage examples.
+-   [**IAutoComplete**](/windows/win32/Shldisp/nn-shldisp-iautocomplete?branch=master) interface is exposed by the autocomplete object (CLSID\_AutoComplete). It allows applications to initialize, enable, and disable the object. **IAutoComplete** allows more control over autocomplete sources, including the ability to add a custom source. The remainder of this topic discusses the use of **IAutoComplete**. See [How To Enable Autocomplete Manually](how-to-enable-autocomplete-manually.md) for specific usage examples.
 
 ## Autocomplete Modes
 
-When using [**IAutoComplete**](iautocomplete.md), autocompletion can display the completed string in two modes: autoappend and autosuggest. The modes are independent; you can enable either or both. To specify the mode, call [**IAutoComplete2::SetOptions**](iautocomplete2-setoptions.md).
+When using [**IAutoComplete**](/windows/win32/Shldisp/nn-shldisp-iautocomplete?branch=master), autocompletion can display the completed string in two modes: autoappend and autosuggest. The modes are independent; you can enable either or both. To specify the mode, call [**IAutoComplete2::SetOptions**](/windows/win32/Shldisp/nf-shldisp-iautocomplete2-setoptions?branch=master).
 
 <dl> <dt>
 
@@ -30,7 +35,7 @@ In autoappend mode, autocompletion appends the remainder of the most likely cand
 <span id="Autosuggest"></span><span id="autosuggest"></span><span id="AUTOSUGGEST"></span>Autosuggest
 </dt> <dd>
 
-In autosuggest mode, autocompletion displays a drop-down list, with one or more suggested complete strings, beneath the edit control. The user can select one of the suggested strings or continue typing. As typing progresses, the drop-down list might be modified based on the current partial string. If you set the ACO\_SEARCH flag in [**IAutoComplete2::SetOptions**](iautocomplete2-setoptions.md), autocomplete provides an option, at the bottom of the drop-down list, to search for the current partial string. This option is displayed even if there are no suggested strings. If the user selects the search option, your application should launch a search engine to assist the user.
+In autosuggest mode, autocompletion displays a drop-down list, with one or more suggested complete strings, beneath the edit control. The user can select one of the suggested strings or continue typing. As typing progresses, the drop-down list might be modified based on the current partial string. If you set the ACO\_SEARCH flag in [**IAutoComplete2::SetOptions**](/windows/win32/Shldisp/nf-shldisp-iautocomplete2-setoptions?branch=master), autocomplete provides an option, at the bottom of the drop-down list, to search for the current partial string. This option is displayed even if there are no suggested strings. If the user selects the search option, your application should launch a search engine to assist the user.
 
 </dd> </dl>
 
@@ -61,16 +66,16 @@ An autocomplete source that matches against items in the Shell namespace: files 
 
 </dd> </dl>
 
-There are occasions when, rather than immediately freeing the resources, you might want to retain the interface pointers to the various objects involved in autocomplete. In particular, this is done when you want to adjust the autocomplete behavior dynamically. The most common instance of this occurs when using the CLSID\_ACListISF object, which autocompletes from the Shell namespace and has the option ([**ACLO\_CURRENTDIR**](iaclist2.md)) of enumerating from the current directory as well. For example, when you navigate to a new folder, Internet Explorer changes the Address bar's current directory and therefore the settings need to be changed dynamically. There are two ways to specify the directory that the CLSID\_ACListISF object should treat as the current directory:
+There are occasions when, rather than immediately freeing the resources, you might want to retain the interface pointers to the various objects involved in autocomplete. In particular, this is done when you want to adjust the autocomplete behavior dynamically. The most common instance of this occurs when using the CLSID\_ACListISF object, which autocompletes from the Shell namespace and has the option ([**ACLO\_CURRENTDIR**](/windows/win32/Shlobj_core/?branch=master)) of enumerating from the current directory as well. For example, when you navigate to a new folder, Internet Explorer changes the Address bar's current directory and therefore the settings need to be changed dynamically. There are two ways to specify the directory that the CLSID\_ACListISF object should treat as the current directory:
 
--   [**IPersistFolder**](ipersistfolder.md) specifies the directory through an [**ITEMIDLIST**](itemidlist.md).
--   [**ICurrentWorkingDirectory**](icurrentworkingdirectory.md) specifies the directory through a path string.
+-   [**IPersistFolder**](/windows/win32/shobjidl_core/nn-shobjidl_core-ipersistfolder?branch=master) specifies the directory through an [**ITEMIDLIST**](/windows/win32/Shtypes/ns-shtypes-_itemidlist?branch=master).
+-   [**ICurrentWorkingDirectory**](/windows/win32/Shlobj/?branch=master) specifies the directory through a path string.
 
-In the following, assume that **pal** is a pointer to the [**IACList**](iaclist.md) interface of a CLSID\_ACListISF object:
+In the following, assume that **pal** is a pointer to the [**IACList**](/windows/win32/Shlobj_core/?branch=master) interface of a CLSID\_ACListISF object:
 
--   Using [**IPersistFolder**](ipersistfolder.md):
+-   Using [**IPersistFolder**](/windows/win32/shobjidl_core/nn-shobjidl_core-ipersistfolder?branch=master):
 
-    To tell the CLSID\_ACListISF object that a particular [**ITEMIDLIST**](itemidlist.md) should be treated as the current directory, you can use the object's [**IPersistFolder**](ipersistfolder.md) interface. Since an **ITEMIDLIST** can refer to a virtual folder, this method is more flexible than using [**ICurrentWorkingDirectory**](icurrentworkingdirectory.md).
+    To tell the CLSID\_ACListISF object that a particular [**ITEMIDLIST**](/windows/win32/Shtypes/ns-shtypes-_itemidlist?branch=master) should be treated as the current directory, you can use the object's [**IPersistFolder**](/windows/win32/shobjidl_core/nn-shobjidl_core-ipersistfolder?branch=master) interface. Since an **ITEMIDLIST** can refer to a virtual folder, this method is more flexible than using [**ICurrentWorkingDirectory**](/windows/win32/Shlobj/?branch=master).
 
     Note that the following examples use the templatized QueryInterface, which allows for a simplified parameter list.
 
@@ -87,9 +92,9 @@ In the following, assume that **pal** is a pointer to the [**IACList**](iaclist.
 
     
 
--   Using [**ICurrentWorkingDirectory**](icurrentworkingdirectory.md):
+-   Using [**ICurrentWorkingDirectory**](/windows/win32/Shlobj/?branch=master):
 
-    To give the CLSID\_ACListISF object a path as the current directory, you can use the object's [**ICurrentWorkingDirectory**](icurrentworkingdirectory.md) interface.
+    To give the CLSID\_ACListISF object a path as the current directory, you can use the object's [**ICurrentWorkingDirectory**](/windows/win32/Shlobj/?branch=master) interface.
 
     ```C++
     WCHAR pwszDirectory[MAX_PATH] = L"C:\\Program Files";

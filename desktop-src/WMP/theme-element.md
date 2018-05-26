@@ -1,8 +1,18 @@
 ---
 title: THEME Element
 description: THEME Element
-ms.assetid: 'fe7e793e-1774-412c-aed2-721ed2cf1bb3'
-keywords: ["Windows Media Player skins,THEME element", "skins,THEME element", "THEME element", "reference for skins,THEME element", "elements,THEME"]
+ms.assetid: fe7e793e-1774-412c-aed2-721ed2cf1bb3
+keywords:
+- Windows Media Player skins,THEME element
+- skins,THEME element
+- THEME element
+- reference for skins,THEME element
+- elements,THEME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME Element

@@ -1,7 +1,12 @@
 ---
 Description: Alpha Setter Effect
-ms.assetid: 'dd3ab119-328b-4782-811a-f06909c17dec'
+ms.assetid: dd3ab119-328b-4782-811a-f06909c17dec
 title: Alpha Setter Effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Alpha Setter Effect

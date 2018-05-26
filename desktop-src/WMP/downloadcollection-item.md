@@ -1,8 +1,11 @@
 ---
 title: DownloadCollection.item method
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The item method retrieves a pending download object.
-ms.assetid: 'a79db9db-e80c-48db-aee6-9bd8f77a7dff'
-keywords: ["item method Windows Media Player", "item method Windows Media Player , DownloadCollection class", "DownloadCollection class Windows Media Player , item method"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The item method retrieves a pending download object.
+ms.assetid: a79db9db-e80c-48db-aee6-9bd8f77a7dff
+keywords:
+- item method Windows Media Player
+- item method Windows Media Player , DownloadCollection class
+- DownloadCollection class Windows Media Player , item method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadCollection.item method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **item** method retrieves a pending download object.
 
@@ -73,9 +81,9 @@ The *itemID* value is zero-based.
 [**DownloadItem Object**](downloaditem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

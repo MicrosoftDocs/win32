@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Status property is a value that indicates whether the fax routing extension loaded and initialized successfully.'
-ms.assetid: '73a12417-2b2e-40ad-b683-fc246ec389f6'
-title: 'FaxInboundRoutingExtension.Status property'
+---
+Description: The Status property is a value that indicates whether the fax routing extension loaded and initialized successfully.
+ms.assetid: 73a12417-2b2e-40ad-b683-fc246ec389f6
+title: FaxInboundRoutingExtension.Status property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingExtension.Status property
@@ -21,11 +26,11 @@ Property Status As Integer
 
 ## Property value
 
-A variable of type [**FAX\_PROVIDER\_STATUS\_ENUM**](-mfax-fax-provider-status-enum.md) that receives the status. For possible values, see **FAX\_PROVIDER\_STATUS\_ENUM**.
+A variable of type [**FAX\_PROVIDER\_STATUS\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_provider_status_enum?branch=master) that receives the status. For possible values, see **FAX\_PROVIDER\_STATUS\_ENUM**.
 
 ## Remarks
 
-If the extension did not load successfully, the property indicates the reason for the failure, and [**InitErrorCode**](-mfax-faxinboundroutingextension-initerrorcode-vb.md) holds the last error code value. For more information, see [**FAX\_PROVIDER\_STATUS\_ENUM**](-mfax-fax-provider-status-enum.md).
+If the extension did not load successfully, the property indicates the reason for the failure, and [**InitErrorCode**](-mfax-faxinboundroutingextension-initerrorcode-vb.md) holds the last error code value. For more information, see [**FAX\_PROVIDER\_STATUS\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_provider_status_enum?branch=master).
 
 ## Requirements
 
@@ -50,7 +55,7 @@ If the extension did not load successfully, the property indicates the reason fo
 [**FaxInboundRoutingExtension**](-mfax-faxinboundroutingextension.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingExtension**](-mfax-faxinboundroutingextension-cpp.md)
+[**IFaxInboundRoutingExtension**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingextension?branch=master)
 </dt> </dl>
 
  

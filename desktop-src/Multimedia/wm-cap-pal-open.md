@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_PAL\_OPEN message
 description: The WM\_CAP\_PAL\_OPEN message loads a new palette from a palette file and passes it to a capture driver.
-ms.assetid: 'e77b518e-ff03-4622-978f-d9ebaa49c6a4'
-keywords: ["WM_CAP_PAL_OPEN message Windows Multimedia"]
+ms.assetid: e77b518e-ff03-4622-978f-d9ebaa49c6a4
+keywords:
+- WM_CAP_PAL_OPEN message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_PAL\_OPEN message
 
-The **WM\_CAP\_PAL\_OPEN** message loads a new palette from a palette file and passes it to a capture driver. Palette files typically use the filename extension .PAL. A capture driver uses a palette when required by the specified digitized image format. You can send this message explicitly or by using the [**capPaletteOpen**](cappaletteopen.md) macro.
+The **WM\_CAP\_PAL\_OPEN** message loads a new palette from a palette file and passes it to a capture driver. Palette files typically use the filename extension .PAL. A capture driver uses a palette when required by the specified digitized image format. You can send this message explicitly or by using the [**capPaletteOpen**](/windows/win32/Vfw/nf-vfw-cappaletteopen?branch=master) macro.
 
 
 ```C++
@@ -49,8 +55,8 @@ If an error occurs and an error callback function is set using the [**WM\_CAP\_S
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -65,9 +71,9 @@ If an error occurs and an error callback function is set using the [**WM\_CAP\_S
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

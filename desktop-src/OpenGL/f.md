@@ -2,8 +2,21 @@
 title: F
 description: Definitions of OpenGL terms that begin with the letter F.
 Robots: noindex, nofollow
-ms.assetid: 'ba960409-84e0-4ece-967b-97f0e1183956'
-keywords: ["faces", "flat shading", "fog", "fonts", "fragments", "framebuffers", "front face", "frustum"]
+ms.assetid: ba960409-84e0-4ece-967b-97f0e1183956
+keywords:
+- faces
+- flat shading
+- fog
+- fonts
+- fragments
+- framebuffers
+- front face
+- frustum
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # F

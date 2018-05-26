@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'e720cf0d-b034-48e2-a13e-e97dd23b2beb'
+ms.assetid: e720cf0d-b034-48e2-a13e-e97dd23b2beb
 title: ORDER BY Clause
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ORDER BY Clause

@@ -1,8 +1,19 @@
 ---
 title: Event Tracing for Windows
 description: Event Tracing for Windows
-ms.assetid: 'ccd8022c-24fc-4c91-b56c-8ad4a89597d4'
-keywords: ["controllers", "providers", "consumers", "event data", "NT kernel logger", "Windows Event API"]
+ms.assetid: ccd8022c-24fc-4c91-b56c-8ad4a89597d4
+keywords:
+- controllers
+- providers
+- consumers
+- event data
+- NT kernel logger
+- Windows Event API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Tracing for Windows

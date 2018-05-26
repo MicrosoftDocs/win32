@@ -1,7 +1,12 @@
-﻿---
-Description: 'The parent class for log header events. This class is always the first event trace class sent to a consumer (this event is not sent to real-time consumers). The following syntax is simplified from MOF code.'
-ms.assetid: 'fb507d9a-6ed2-4cb1-8cea-85c0a3832e51'
+---
+Description: The parent class for log header events. This class is always the first event trace class sent to a consumer (this event is not sent to real-time consumers). The following syntax is simplified from MOF code.
+ms.assetid: fb507d9a-6ed2-4cb1-8cea-85c0a3832e51
 title: EventTraceEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventTraceEvent class

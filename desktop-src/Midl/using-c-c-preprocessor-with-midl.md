@@ -2,7 +2,14 @@
 title: Using C/C++-Preprocessor with MIDL
 description: The MIDL compiler does not preprocess source files.
 ms.assetid: 0f62d2a4-cfc3-42a7-b3a6-4e5c67c7c849
-keywords: ["MIDL compiler MIDL , C-preprocessor", "C-preprocessor MIDL"]
+keywords:
+- MIDL compiler MIDL , C-preprocessor
+- C-preprocessor MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using C/C++-Preprocessor with MIDL

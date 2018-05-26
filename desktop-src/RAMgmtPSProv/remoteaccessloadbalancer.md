@@ -2,13 +2,15 @@
 title: RemoteAccessLoadBalancer class
 description: Remote Access Load Balancing configuration.
 audience: developer
-ms.assetid: 'c1c49050-38ae-49a7-80f2-d99d4596afd3'
-ms.prod: 'windows-server-dev'
+ms.assetid: c1c49050-38ae-49a7-80f2-d99d4596afd3
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessLoadBalancer class", "RemoteAccessLoadBalancer class, described"]
+keywords:
+- RemoteAccessLoadBalancer class
+- RemoteAccessLoadBalancer class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessLoadBalancer class
@@ -36,9 +41,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class RemoteAccessLoadBalancer
 {
   RemoteAccessLoadBalancerNode NlbNodeStatus[];
-  string                       ThirdPartyLoadBalancer;
-  string                       InternetVirtualIPAddress[];
-  string                       InternalVirtualIPAddress[];
+  string                       ThirdPartyLoadBalancer;
+  string                       InternetVirtualIPAddress[];
+  string                       InternalVirtualIPAddress[];
 };
 ```
 
@@ -134,16 +139,16 @@ The possible values are.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

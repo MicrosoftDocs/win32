@@ -1,8 +1,9 @@
 ---
 title: RB\_DELETEBAND message
 description: Deletes a band from a rebar control.
-ms.assetid: '15f2ea78-5c3f-4fe1-a020-025c33f00703'
-keywords: ["RB_DELETEBAND message Windows Controls"]
+ms.assetid: 15f2ea78-5c3f-4fe1-a020-025c33f00703
+keywords:
+- RB_DELETEBAND message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_DELETEBAND message
@@ -41,15 +47,15 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

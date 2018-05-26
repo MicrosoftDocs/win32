@@ -1,18 +1,21 @@
 ---
-Description: 'One of the main tasks of IWbemLocator::ConnectServer for WMI is returning a pointer to an IWbemServices proxy.'
+Description: One of the main tasks of IWbemLocatorConnectServer for WMI is returning a pointer to an IWbemServices proxy.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bbff43b7-79f8-4c7b-a772-d3d962cf3859'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bbff43b7-79f8-4c7b-a772-d3d962cf3859
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting Authentication Using C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting Authentication Using C++
 
-One of the main tasks of [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md) for WMI is returning a pointer to an [**IWbemServices**](iwbemservices.md) proxy. Through the **IWbemServices** proxy, you can access the capabilities of the WMI infrastructure. However, the pointer to the **IWbemServices** proxy has the identity of the client application process and not the identity of the **IWbemServices** process. Therefore, if you attempt to access **IWbemServices** with the pointer, you can receive an access-denied code such as **E\_ACCESSDENIED**. To avoid the access-denied error, you must set the identity of the new pointer with a call to the [**CoSetProxyBlanket**](_com_cosetproxyblanket) interface.
+One of the main tasks of [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master) for WMI is returning a pointer to an [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) proxy. Through the **IWbemServices** proxy, you can access the capabilities of the WMI infrastructure. However, the pointer to the **IWbemServices** proxy has the identity of the client application process and not the identity of the **IWbemServices** process. Therefore, if you attempt to access **IWbemServices** with the pointer, you can receive an access-denied code such as **E\_ACCESSDENIED**. To avoid the access-denied error, you must set the identity of the new pointer with a call to the [**CoSetProxyBlanket**](_com_cosetproxyblanket) interface.
 
 A provider can set the security on a namespace so that no data is returned unless you use packet privacy (**PktPrivacy**) in your connection to that namespace. This ensures that data is encrypted as it crosses the network. If you try to set a lower authentication level, you will get an access denied message. For more information, see [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md).
 

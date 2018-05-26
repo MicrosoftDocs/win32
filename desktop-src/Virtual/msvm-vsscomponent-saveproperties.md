@@ -1,8 +1,11 @@
 ---
 title: SaveProperties method of the Msvm\_VssComponent class
 description: Saves the configuration and state of the logical device.
-ms.assetid: 'e81403dd-b6df-4df7-95af-5b70e72ee91c'
-keywords: ["SaveProperties method Hyper-V", "SaveProperties method Hyper-V , Msvm_VssComponent class", "Msvm_VssComponent class Hyper-V , SaveProperties method"]
+ms.assetid: e81403dd-b6df-4df7-95af-5b70e72ee91c
+keywords:
+- SaveProperties method Hyper-V
+- SaveProperties method Hyper-V , Msvm_VssComponent class
+- Msvm_VssComponent class Hyper-V , SaveProperties method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SaveProperties method of the Msvm\_VssComponent class
@@ -82,9 +90,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_VssComponent**](msvm-vsscomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This document presents common Shell data transfer scenarios and discusses how to implement each one in your application.'
-ms.assetid: '7fce555c-a93d-4414-9119-7ae9acdd4d89'
+Description: This document presents common Shell data transfer scenarios and discusses how to implement each one in your application.
+ms.assetid: 7fce555c-a93d-4414-9119-7ae9acdd4d89
 title: Handling Shell Data Transfer Scenarios
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Shell Data Transfer Scenarios
@@ -42,8 +47,8 @@ For data sources:
 -   Include as many formats as you can support. You generally do not know where the data object will be dropped. This practice improves the odds that the data object will contain a format that the drop target can accept.
 -   Existing files should be offered with the [CF\_HDROP](clipboard.md) format.
 -   Offer file-like data with [CFSTR\_FILECONTENTS](clipboard.md)/[CFSTR\_FILEDESCRIPTOR](clipboard.md) formats. This approach allows the target to create a file from a data object without needing to know anything about the underlying data storage. You should normally present the data as an [**IStream**](stg.istream) interface. This data transfer mechanism is more flexible than a global memory object and uses much less memory.
--   Drag sources should offer the [CFSTR\_SHELLIDLIST](clipboard.md) format when dragging Shell items. Data objects for items can be acquired through either the [**IShellFolder::GetUIObjectOf**](ishellfolder-getuiobjectof.md) or [**IShellItem::BindToHandler**](ishellitem-bindtohandler.md) methods. Data sources can create a standard data object implementation that supports the [CFSTR\_SHELLIDLIST](clipboard.md) format by using [**SHCreateDataObject**](shcreatedataobject.md).
--   Drop targets that want to reason about the items being dragged using the shell item programming model can convert an IDataObject into an [**IShellItemArray**](ishellitemarray.md) using [**SHCreateShellItemArrayFromDataObject**](shcreateshellitemarrayfromdataobject.md).
+-   Drag sources should offer the [CFSTR\_SHELLIDLIST](clipboard.md) format when dragging Shell items. Data objects for items can be acquired through either the [**IShellFolder::GetUIObjectOf**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof?branch=master) or [**IShellItem::BindToHandler**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellitem-bindtohandler?branch=master) methods. Data sources can create a standard data object implementation that supports the [CFSTR\_SHELLIDLIST](clipboard.md) format by using [**SHCreateDataObject**](/windows/win32/shlobj_core/nf-shlobj_core-shcreatedataobject?branch=master).
+-   Drop targets that want to reason about the items being dragged using the shell item programming model can convert an IDataObject into an [**IShellItemArray**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellitemarray?branch=master) using [**SHCreateShellItemArrayFromDataObject**](/windows/win32/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject?branch=master).
 -   Use standard feedback cursors.
 -   Support left and right drag.
 -   Use the data object itself from an embedded object. This approach allows your application to retrieve any extra formats the data object has to offer and avoids creating an extra layer of containment. For instance, an embedded object from server A is dragged from server/container B and dropped on container C. C should create an embedded object of server A, not an embedded object of server B containing an embedded object of server A.
@@ -88,9 +93,9 @@ The simplest way to retrieve file names from a data object is the [CF\_HDROP](cl
 
     When [**IDataObject::GetData**](com.idataobject_getdata) returns, the **hGlobal** member of the [**STGMEDIUM**](com.stgmedium) structure points to a global memory object that contains the data.
 
-2.  Create an HDROP variable and set it to the **hGlobal** member of the [**STGMEDIUM**](com.stgmedium) structure. The HDROP variable is now a handle to a [**DROPFILES**](dropfiles.md) structure followed by a double null-terminated string containing the fully qualified file paths of the copied files.
-3.  Determine how many file paths are in the list by calling [**DragQueryFile**](dragqueryfile.md) with the *iFile* parameter set to 0xFFFFFFFF. The function returns the number of file paths in the list. The file path's zero-based index in this list is used in the next step to identify a particular path.
-4.  Extract the file paths from the global memory object by calling [**DragQueryFile**](dragqueryfile.md) once for each file, with *iFile* set to the file's index.
+2.  Create an HDROP variable and set it to the **hGlobal** member of the [**STGMEDIUM**](com.stgmedium) structure. The HDROP variable is now a handle to a [**DROPFILES**](/windows/win32/shlobj_core/ns-shlobj_core-_dropfiles?branch=master) structure followed by a double null-terminated string containing the fully qualified file paths of the copied files.
+3.  Determine how many file paths are in the list by calling [**DragQueryFile**](/windows/win32/Shellapi/nf-shellapi-dragqueryfilea?branch=master) with the *iFile* parameter set to 0xFFFFFFFF. The function returns the number of file paths in the list. The file path's zero-based index in this list is used in the next step to identify a particular path.
+4.  Extract the file paths from the global memory object by calling [**DragQueryFile**](/windows/win32/Shellapi/nf-shellapi-dragqueryfilea?branch=master) once for each file, with *iFile* set to the file's index.
 5.  Process the file paths as needed and paste them into your application.
 6.  Call [**ReleaseStgMedium**](com.releasestgmedium) and pass in the pointer to the [**STGMEDIUM**](com.stgmedium) structure that you passed to [**IDataObject::GetData**](com.idataobject_getdata) in step 1. Once you have released the structure, the HDROP value that you created in step 2 is no longer valid and should not be used.
 
@@ -118,7 +123,7 @@ There are several different ways to extract the contents of a Shell object from 
 -   If the file contains a linked or embedded OLE object, the data object contains a CF\_EMBEDDEDOBJECT format. Use standard OLE techniques to extract the data. [Scrap files](#creating-and-importing-scrap-files) always contain a CF\_EMBEDDEDOBJECT format.
 -   If the Shell object is from the file system, the data object contains a [CF\_HDROP](clipboard.md) format with the names of the files. Extract the file name from [CF\_HDROP](clipboard.md) and call [**OleCreateFromFile**](com.olecreatefromfile) to create a new linked or embedded object. For a discussion of how to retrieve a file name from a [CF\_HDROP](clipboard.md) format, see [Copying File Names from the Clipboard to an Application](#copying-file-names-from-the-clipboard-to-an-application).
 -   If the data object contains a [CFSTR\_FILEDESCRIPTOR](clipboard.md) format, you can extract a file's contents from the file's [CFSTR\_FILECONTENTS](clipboard.md) format. For a discussion of this procedure, see [Using the CFSTR\_FILECONTENTS Format to Extract Data from a File](#using-the-cfstr-filecontents-format-to-extract-data-from-a-file).
--   Prior to Shell [version 4.71](versions.md), an application indicated that it was transferring a shortcut file type by setting **FD\_LINKUI** in the **dwFlags** member of the [**FILEDESCRIPTOR**](filedescriptor.md) structure. For later versions of the Shell, the preferred way to indicate that shortcuts are being transferred is to use the [CFSTR\_PREFERREDDROPEFFECT](clipboard.md) format set to DROPEFFECT\_LINK. This approach is much more efficient than extracting the **FILEDESCRIPTOR** structure just to check a flag.
+-   Prior to Shell [version 4.71](versions.md), an application indicated that it was transferring a shortcut file type by setting **FD\_LINKUI** in the **dwFlags** member of the [**FILEDESCRIPTOR**](/windows/win32/Shlobj/ns-shlobj_core-_filedescriptora?branch=master) structure. For later versions of the Shell, the preferred way to indicate that shortcuts are being transferred is to use the [CFSTR\_PREFERREDDROPEFFECT](clipboard.md) format set to DROPEFFECT\_LINK. This approach is much more efficient than extracting the **FILEDESCRIPTOR** structure just to check a flag.
 
 If the data extraction process will be lengthy, you might want to do the operation asynchronously on a background thread. Your primary thread can then proceed without unnecessary delays. For a discussion of how to handle asynchronous data extraction, see [Dragging and Dropping Shell Objects Asynchronously](#dragging-and-dropping-shell-objects-asynchronously).
 
@@ -136,8 +141,8 @@ To extract a [CFSTR\_FILECONTENTS](clipboard.md) format:
 
 1.  Extract the [CFSTR\_FILEDESCRIPTOR](clipboard.md) format as a [TYMED\_HGLOBAL](dataobject.md) value.
 2.  The **hGlobal** member of the returned [**STGMEDIUM**](com.stgmedium) structure points to a global memory object. Lock that object by passing the **hGlobal** value to [**GlobalLock**](base.globallock).
-3.  Cast the pointer returned by [**GlobalLock**](base.globallock) to a [**FILEGROUPDESCRIPTOR**](filegroupdescriptor.md) pointer. It will point to a **FILEGROUPDESCRIPTOR** structure followed by one or more [**FILEDESCRIPTOR**](filedescriptor.md) structures. Each **FILEDESCRIPTOR** structure contains a description of a file that is contained by one of the accompanying [CFSTR\_FILECONTENTS](clipboard.md) formats.
-4.  Examine the [**FILEDESCRIPTOR**](filedescriptor.md) structures to determine which one corresponds to the file you want to extract. The zero-based index of that **FILEDESCRIPTOR** structure is used to identify the file's [CFSTR\_FILECONTENTS](clipboard.md) format. Because the size of a global memory block is not byte-precise, use the structure's **nFileSizeLow** and **nFileSizeHigh** members to determine how many bytes represent the file in the global memory object.
+3.  Cast the pointer returned by [**GlobalLock**](base.globallock) to a [**FILEGROUPDESCRIPTOR**](/windows/win32/Shlobj/ns-shlobj_core-_filegroupdescriptora?branch=master) pointer. It will point to a **FILEGROUPDESCRIPTOR** structure followed by one or more [**FILEDESCRIPTOR**](/windows/win32/Shlobj/ns-shlobj_core-_filedescriptora?branch=master) structures. Each **FILEDESCRIPTOR** structure contains a description of a file that is contained by one of the accompanying [CFSTR\_FILECONTENTS](clipboard.md) formats.
+4.  Examine the [**FILEDESCRIPTOR**](/windows/win32/Shlobj/ns-shlobj_core-_filedescriptora?branch=master) structures to determine which one corresponds to the file you want to extract. The zero-based index of that **FILEDESCRIPTOR** structure is used to identify the file's [CFSTR\_FILECONTENTS](clipboard.md) format. Because the size of a global memory block is not byte-precise, use the structure's **nFileSizeLow** and **nFileSizeHigh** members to determine how many bytes represent the file in the global memory object.
 5.  Call [**IDataObject::GetData**](com.idataobject_getdata) with the **cfFormat** member of the [**FORMATETC**](com.formatetc) structure set to the [CFSTR\_FILECONTENTS](clipboard.md) value and the **lIndex** member set to the index that you determined in the previous step. The **tymed** member is typically set to [TYMED\_HGLOBAL](dataobject.md) \| TYMED\_ISTREAM \| TYMED\_ISTORAGE. The data object can then choose its preferred data transfer mechanism.
 6.  The [**STGMEDIUM**](com.stgmedium) structure that [**IDataObject::GetData**](com.idataobject_getdata) returns will contain a pointer to the file's data. Examine the **tymed** member of the structure to determine the data transfer mechanism.
 7.  If **tymed** is set to [TYMED\_ISTREAM](dataobject.md) or TYMED\_ISTORAGE, use the interface to extract the data. If **tymed** is set to TYMED\_HGLOBAL, the data is contained in a global memory object. For a discussion of how to extract data from a global memory object, see the *Extracting a global memory object from a data object* section of [Shell Data Object](dataobject.md).
@@ -149,7 +154,7 @@ To extract a [CFSTR\_FILECONTENTS](clipboard.md) format:
 
 In a conventional move operation, the target makes a copy of the data and the source deletes the original. This procedure can be inefficient because it requires two copies of the data. With large objects such as databases, a conventional move operation might not even be practical.
 
-With an optimized move, the target uses its understanding of how the data is stored to handle the entire move operation. There is never a second copy of the data, and there is no need for the source to delete the original data. Shell data is well suited to optimized moves because the target can handle the entire operation using the Shell API. A typical example is moving files. Once the target has the path of a file to be moved, it can use [**SHFileOperation**](shfileoperation.md) to move it. There is no need for the source to delete the original file.
+With an optimized move, the target uses its understanding of how the data is stored to handle the entire move operation. There is never a second copy of the data, and there is no need for the source to delete the original data. Shell data is well suited to optimized moves because the target can handle the entire operation using the Shell API. A typical example is moving files. Once the target has the path of a file to be moved, it can use [**SHFileOperation**](/windows/win32/Shellapi/nf-shellapi-shfileoperationa?branch=master) to move it. There is no need for the source to delete the original file.
 
 > [!Note]  
 > The Shell normally uses an optimized move to move files. To handle Shell data transfer properly, your application must be capable of detecting and handling an optimized move.
@@ -333,34 +338,34 @@ Normally, drag-and-drop is a synchronous operation. In brief:
 
 In short, synchronous data transfer can block the primary threads of both applications for a significant amount of time. In particular, both threads must wait while the target extracts the data. For small amounts of data, the time required to extract data is small and synchronous data transfer works quite well. However, synchronously extracting large amounts of data can cause lengthy delays and interfere with the UI of both target and source.
 
-The [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](idataobjectasynccapability.md) interface is an optional interface that can be implemented by a data object. It gives the drop target the ability to extract data from the data object asynchronously on a background thread. Once data extraction is handed off to the background thread, the primary threads of both applications are free to proceed.
+The [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](/windows/win32/Shldisp/nn-shldisp-idataobjectasynccapability?branch=master) interface is an optional interface that can be implemented by a data object. It gives the drop target the ability to extract data from the data object asynchronously on a background thread. Once data extraction is handed off to the background thread, the primary threads of both applications are free to proceed.
 
 ### Using IASyncOperation/IDataObjectAsyncCapability
 
 > [!Note]  
-> The interface was originally named [**IAsyncOperation**](shell.IAsyncOperation), but this was later changed to [**IDataObjectAsyncCapability**](idataobjectasynccapability.md). Otherwise, the two interfaces are identical.
+> The interface was originally named [**IAsyncOperation**](shell.IAsyncOperation), but this was later changed to [**IDataObjectAsyncCapability**](/windows/win32/Shldisp/nn-shldisp-idataobjectasynccapability?branch=master). Otherwise, the two interfaces are identical.
 
  
 
-The purpose of [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](idataobjectasynccapability.md) is to allow the drop source and drop target to negotiate whether data can be extracted asynchronously. The following procedure outlines how the drop source uses the interface:
+The purpose of [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](/windows/win32/Shldisp/nn-shldisp-idataobjectasynccapability?branch=master) is to allow the drop source and drop target to negotiate whether data can be extracted asynchronously. The following procedure outlines how the drop source uses the interface:
 
-1.  Create a data object that exposes [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](idataobjectasynccapability.md).
-2.  Call [**SetAsyncMode**](idataobjectasynccapability-setasyncmode.md) with *fDoOpAsync* set to **VARIANT\_TRUE** to indicate that an asynchronous operation is supported.
-3.  After [**DoDragDrop**](com.dodragdrop) returns, call [**InOperation**](idataobjectasynccapability-inoperation.md):
-    -   If [**InOperation**](idataobjectasynccapability-inoperation.md) fails or returns **VARIANT\_FALSE**, a normal synchronous data transfer has taken place and the data extraction process is finished. The source should do any cleanup that is required, and proceed.
-    -   If [**InOperation**](idataobjectasynccapability-inoperation.md) returns **VARIANT\_TRUE**, the data is being extracted asynchronously. Cleanup operations should be handled by [**EndOperation**](idataobjectasynccapability-endoperation.md).
+1.  Create a data object that exposes [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](/windows/win32/Shldisp/nn-shldisp-idataobjectasynccapability?branch=master).
+2.  Call [**SetAsyncMode**](/windows/win32/Shldisp/nf-shldisp-idataobjectasynccapability-setasyncmode?branch=master) with *fDoOpAsync* set to **VARIANT\_TRUE** to indicate that an asynchronous operation is supported.
+3.  After [**DoDragDrop**](com.dodragdrop) returns, call [**InOperation**](/windows/win32/Shldisp/nf-shldisp-idataobjectasynccapability-inoperation?branch=master):
+    -   If [**InOperation**](/windows/win32/Shldisp/nf-shldisp-idataobjectasynccapability-inoperation?branch=master) fails or returns **VARIANT\_FALSE**, a normal synchronous data transfer has taken place and the data extraction process is finished. The source should do any cleanup that is required, and proceed.
+    -   If [**InOperation**](/windows/win32/Shldisp/nf-shldisp-idataobjectasynccapability-inoperation?branch=master) returns **VARIANT\_TRUE**, the data is being extracted asynchronously. Cleanup operations should be handled by [**EndOperation**](/windows/win32/Shldisp/nf-shldisp-idataobjectasynccapability-endoperation?branch=master).
 4.  Release the data object.
 5.  When the asynchronous data transfer is complete, the data object normally notifies the source through a private interface.
 
-The following procedure outlines how the drop target uses the [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](idataobjectasynccapability.md) interface to extract data asynchronously:
+The following procedure outlines how the drop target uses the [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](/windows/win32/Shldisp/nn-shldisp-idataobjectasynccapability?branch=master) interface to extract data asynchronously:
 
-1.  When the system calls [**IDropTarget::Drop**](com.idroptarget_drop), call [**IDataObject::QueryInterface**](com.iunknown_queryinterface) and request an [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](idataobjectasynccapability.md) interface (IID\_IAsyncOperation/IID\_IDataObjectAsyncCapability) from the data object.
-2.  Call [**GetAsyncMode**](idataobjectasynccapability-getasyncmode.md). If the method returns **VARIANT\_TRUE**, the data object supports asynchronous data extraction.
-3.  Create a separate thread to handle data extraction and call [**StartOperation**](idataobjectasynccapability-startoperation.md).
+1.  When the system calls [**IDropTarget::Drop**](com.idroptarget_drop), call [**IDataObject::QueryInterface**](com.iunknown_queryinterface) and request an [**IAsyncOperation**](shell.IAsyncOperation)/[**IDataObjectAsyncCapability**](/windows/win32/Shldisp/nn-shldisp-idataobjectasynccapability?branch=master) interface (IID\_IAsyncOperation/IID\_IDataObjectAsyncCapability) from the data object.
+2.  Call [**GetAsyncMode**](/windows/win32/Shldisp/nf-shldisp-idataobjectasynccapability-getasyncmode?branch=master). If the method returns **VARIANT\_TRUE**, the data object supports asynchronous data extraction.
+3.  Create a separate thread to handle data extraction and call [**StartOperation**](/windows/win32/Shldisp/nf-shldisp-idataobjectasynccapability-startoperation?branch=master).
 4.  Return the [**IDropTarget::Drop**](com.idroptarget_drop) call, as you would for a normal data transfer operation. [**DoDragDrop**](com.dodragdrop) will return and unblock the drop source. Do not call [**IDataObject::SetData**](com.idataobject_setdata) to indicate the outcome of an optimized move or delete-on-paste operation. Wait until the operation is finished.
 5.  Extract the data on the background thread. The target's primary thread is unblocked and free to proceed.
 6.  If the data transfer was an [optimized move](#handling-optimized-move-operations) or [delete-on-paste](#handling-delete-on-paste-operations) operation, call [**IDataObject::SetData**](com.idataobject_setdata) to indicate the outcome.
-7.  Notify the data object that extraction is finished by calling [**EndOperation**](idataobjectasynccapability-endoperation.md).
+7.  Notify the data object that extraction is finished by calling [**EndOperation**](/windows/win32/Shldisp/nf-shldisp-idataobjectasynccapability-endoperation?branch=master).
 
  
 

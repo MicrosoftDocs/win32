@@ -1,8 +1,11 @@
 ---
 title: IWMPErrorItem errorDescription property
 description: The errorDescription property gets a description of the error.
-ms.assetid: 'a9914c24-1d10-422a-bcba-80be9fb85108'
-keywords: ["errorDescription property Windows Media Player", "errorDescription property Windows Media Player , IWMPErrorItem interface", "IWMPErrorItem interface Windows Media Player , errorDescription property"]
+ms.assetid: a9914c24-1d10-422a-bcba-80be9fb85108
+keywords:
+- errorDescription property Windows Media Player
+- errorDescription property Windows Media Player , IWMPErrorItem interface
+- IWMPErrorItem interface Windows Media Player , errorDescription property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPErrorItem::errorDescription property
@@ -118,9 +126,9 @@ End Sub</code></pre></td>
 [**IWMPSettings.enableErrorDialogs (VB and C#)**](wmplibiwmpsettings-iwmpsettings-enableerrordialogs--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: Importing Virtual Machines
 description: The following C\ and VBScript samples import a virtual machine (VM).
-ms.assetid: '453f053f-ecc8-42e3-9551-55c815c92eeb'
-keywords: ["Importing Virtual Machines Hyper-V"]
+ms.assetid: 453f053f-ecc8-42e3-9551-55c815c92eeb
+keywords:
+- Importing Virtual Machines Hyper-V
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Importing Virtual Machines

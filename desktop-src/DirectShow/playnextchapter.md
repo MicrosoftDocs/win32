@@ -1,7 +1,12 @@
 ---
-Description: 'The PlayNextChapter event is sent when the PlayNextChapter command has been enabled or disabled.'
-ms.assetid: '654841ce-6689-47cc-93fb-bd8de8f4dd3a'
+Description: The PlayNextChapter event is sent when the PlayNextChapter command has been enabled or disabled.
+ms.assetid: 654841ce-6689-47cc-93fb-bd8de8f4dd3a
 title: PlayNextChapter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayNextChapter

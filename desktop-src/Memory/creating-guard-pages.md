@@ -1,7 +1,12 @@
 ---
-Description: 'A guard page provides a one-shot alarm for memory page access.'
-ms.assetid: '763bc763-e178-481e-a81a-c15715e56901'
+Description: A guard page provides a one-shot alarm for memory page access.
+ms.assetid: 763bc763-e178-481e-a81a-c15715e56901
 title: Creating Guard Pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Guard Pages

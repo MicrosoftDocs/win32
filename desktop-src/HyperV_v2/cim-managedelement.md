@@ -1,7 +1,12 @@
 ---
-Description: 'The CIM\_ManagedElement class is an abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.'
-ms.assetid: '6655a480-37bd-403c-9673-4eaa3d381201'
-title: 'CIM\_ManagedElement class'
+Description: The CIM\_ManagedElement class is an abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
+ms.assetid: 6655a480-37bd-403c-9673-4eaa3d381201
+title: CIM\_ManagedElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ManagedElement class
@@ -98,7 +103,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 </dd> </dl>
 
@@ -108,17 +113,17 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

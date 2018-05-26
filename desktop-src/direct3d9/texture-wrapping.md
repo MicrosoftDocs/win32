@@ -1,7 +1,12 @@
 ---
-Description: 'In short, texture wrapping changes the basic way that Direct3D rasterizes textured polygons using the texture coordinates specified for each vertex.'
-ms.assetid: '00683d3f-3e3c-4ee4-9aec-a0d7fd9c8941'
-title: 'Texture Wrapping (Direct3D 9)'
+Description: In short, texture wrapping changes the basic way that Direct3D rasterizes textured polygons using the texture coordinates specified for each vertex.
+ms.assetid: 00683d3f-3e3c-4ee4-9aec-a0d7fd9c8941
+title: Texture Wrapping (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture Wrapping (Direct3D 9)
@@ -32,7 +37,7 @@ If texture wrapping isn't enabled, the rasterizer does not interpolate in the di
 
 ## Using Texture Wrapping
 
-To enable texture wrapping, call the [**IDirect3DDevice9::SetRenderState**](idirect3ddevice9--setrenderstate.md) method as shown in the code example below.
+To enable texture wrapping, call the [**IDirect3DDevice9::SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master) method as shown in the code example below.
 
 
 ```
@@ -41,7 +46,7 @@ d3dDevice->SetRenderState(D3DRS_WRAP0, D3DWRAPCOORD_0);
 
 
 
-The first parameter accepted by [**IDirect3DDevice9::SetRenderState**](idirect3ddevice9--setrenderstate.md) is a render state to set. Specify one of the D3DRS\_WRAP0 through D3DRS\_WRAP7 enumerated values which specify which texture level to set the wrapping for. Specify the D3DWRAPCOORD\_0 through D3DWRAPCOORD\_3 flags in the second parameter to enable texture wrapping in the corresponding direction, or combine them to enable wrapping in multiple directions. If you omit a flag, texture wrapping in the corresponding direction is disabled. To disable texture wrapping for a set of texture coordinates, set the value for the corresponding render state to 0.
+The first parameter accepted by [**IDirect3DDevice9::SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master) is a render state to set. Specify one of the D3DRS\_WRAP0 through D3DRS\_WRAP7 enumerated values which specify which texture level to set the wrapping for. Specify the D3DWRAPCOORD\_0 through D3DWRAPCOORD\_3 flags in the second parameter to enable texture wrapping in the corresponding direction, or combine them to enable wrapping in multiple directions. If you omit a flag, texture wrapping in the corresponding direction is disabled. To disable texture wrapping for a set of texture coordinates, set the value for the corresponding render state to 0.
 
 Do not confuse texture wrapping with the similarly named texture addressing modes. Texture wrapping is performed before texture addressing. Be sure the texture wrapping data does not contain any texture coordinates outside of the range of \[0.0, 1.0\] because this will produce undefined results. For more information about texture addressing, see [Texture Addressing Modes (Direct3D 9)](texture-addressing-modes.md).
 

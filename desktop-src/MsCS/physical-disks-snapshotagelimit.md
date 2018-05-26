@@ -4,17 +4,21 @@ description: The maximum age, in UTC, to keep a snapshot of a physical disk reso
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '09BC97FB-511C-47D3-8AB5-EB8B11AB5930'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 09BC97FB-511C-47D3-8AB5-EB8B11AB5930
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["SnapshotAgeLimit Failover Cluster"]
+keywords:
+- SnapshotAgeLimit Failover Cluster
 topic_type:
 - apiref
 api_name:
 - SnapshotAgeLimit
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SnapshotAgeLimit
@@ -27,13 +31,13 @@ The maximum age, in UTC, to keep a snapshot of a physical disk resource.
 |----------------------|------------------------------------------------------------------|
 | Data type<br/> | A null-terminated Unicode string<br/>                      |
 | Access<br/>    | [Read-only](read-only-properties.md)                            |
-| Structure<br/> | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure<br/> | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum<br/>   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default<br/>   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -46,7 +50,7 @@ The constant for this property is **CLUSREG\_NAME\_PHYSDISK\_CSVSNAPSHOTAGELIMIT
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -57,9 +61,9 @@ The constant for this property is **CLUSREG\_NAME\_PHYSDISK\_CSVSNAPSHOTAGELIMIT
 [Physical Disk Private Properties](physical-disk-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

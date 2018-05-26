@@ -1,7 +1,12 @@
 ---
-Description: 'The partition GUID of the event class object.'
-ms.assetid: '154849ac-350c-4b2f-bb51-ac6973f0a8fa'
-title: 'IEventSubscription3::EventClassPartitionID property'
+Description: The partition GUID of the event class object.
+ms.assetid: 154849ac-350c-4b2f-bb51-ac6973f0a8fa
+title: IEventSubscription3EventClassPartitionID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEventSubscription3::EventClassPartitionID property
@@ -15,11 +20,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_EventClassPartitionID(
-  [in]          BSTR bstrEventClassPartitionID
+  [in]          BSTR bstrEventClassPartitionID
 );
 
 HRESULT get_EventClassPartitionID(
-  [out, retval] BSTR *pbstrEventClassPartitionID
+  [out, retval] BSTR *pbstrEventClassPartitionID
 );
 ```
 
@@ -39,8 +44,8 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -51,9 +56,9 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 [**IEventSubscription3**](ieventsubscription3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

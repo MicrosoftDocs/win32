@@ -1,8 +1,10 @@
 ---
 title: IOEEnumRules interface
-description: IOEEnumRules is no longer available for use as of Windows Vista.
-ms.assetid: '95e46cb2-dbdc-4876-ad1d-db32c7f2a6b8'
-keywords: ["IOEEnumRules interface Windows Mail (formerly Outlook Express)", "IOEEnumRules interface Windows Mail (formerly Outlook Express) , described"]
+description: IOEEnumRules is no longer available for use as of Windows Vista.
+ms.assetid: 95e46cb2-dbdc-4876-ad1d-db32c7f2a6b8
+keywords:
+- IOEEnumRules interface Windows Mail (formerly Outlook Express)
+- IOEEnumRules interface Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msoe.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOEEnumRules interface
 
-\[**IOEEnumRules** is no longer available for use as of Windows Vista.\]
+\[**IOEEnumRules** is no longer available for use as of Windows Vista.\]
 
 The **IOEEnumRules** interface represents a collection of [**IOERule**](oe-ioerule.md) objects.
 
@@ -29,10 +36,10 @@ The **IOEEnumRules** interface inherits from the [**IUnknown**](https://msdn.mic
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
-| End of client support<br/>    | Windows XP<br/>                                                                                      |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
+| End of client support<br/>    | Windows XP<br/>                                                                                      |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                             |
 | Header<br/>                   | <dl> <dt>Oerules.h</dt> </dl>                       |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl>                     |
@@ -40,9 +47,9 @@ The **IOEEnumRules** interface inherits from the [**IUnknown**](https://msdn.mic
 
 
 
- 
+ 
 
- 
+ 
 
 
 

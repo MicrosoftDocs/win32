@@ -1,7 +1,12 @@
 ---
 title: Graphing a Specific Time Interval
 description: Graphing a Specific Time Interval
-ms.assetid: '61f634e8-ac50-44ac-a994-a1b3a2961862'
+ms.assetid: 61f634e8-ac50-44ac-a994-a1b3a2961862
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Graphing a Specific Time Interval

@@ -1,14 +1,22 @@
 ---
 title: Storage.RemoveChild method
 description: The RemoveChild method removes a child object from this Storage object.
-ms.assetid: 'ee63d337-a46d-4b97-9492-5f36e0dcf1fe'
-keywords: ["RemoveChild method WPD Automation", "RemoveChild method WPD Automation , Storage object", "Storage object WPD Automation , RemoveChild method"]
+ms.assetid: ee63d337-a46d-4b97-9492-5f36e0dcf1fe
+keywords:
+- RemoveChild method WPD Automation
+- RemoveChild method WPD Automation , Storage object
+- Storage object WPD Automation , RemoveChild method
 topic_type:
 - apiref
 api_name:
 - Storage.RemoveChild
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage.RemoveChild method
@@ -78,8 +86,8 @@ storage.RemoveChild(someFolder, true);
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -93,9 +101,9 @@ storage.RemoveChild(someFolder, true);
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

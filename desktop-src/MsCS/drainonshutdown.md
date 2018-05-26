@@ -4,17 +4,21 @@ description: Specifies whether to enable Node Drain for a cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6DDD569C-0EF9-4818-90AB-BA8396E13DDB'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6DDD569C-0EF9-4818-90AB-BA8396E13DDB
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DrainOnShutdown Failover Cluster"]
+keywords:
+- DrainOnShutdown Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DrainOnShutdown
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DrainOnShutdown
@@ -27,14 +31,14 @@ Specifies whether to enable Node Drain for a cluster.
 |----------------------|-------------------------------------------|
 | Data type<br/> | **DWORD**                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum<br/>   | 0<br/>                              |
 | Maximum<br/>   | 1<br/>                              |
 | Default<br/>   | 1<br/>                              |
 
 
 
- 
+ 
 
 " 0" disables Node Drain, "1" enables it.
 
@@ -51,7 +55,7 @@ When a cluster node is about to shut down for maintenance, Node Drain first paus
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
 
 
 
@@ -62,9 +66,9 @@ When a cluster node is about to shut down for maintenance, Node Drain first paus
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

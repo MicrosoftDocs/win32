@@ -1,7 +1,12 @@
 ---
-Description: 'A single-byte character set (SBCS) is a mapping of 256 individual characters to their identifying code values, implemented as a code page.'
-ms.assetid: '53f74132-91aa-4257-846a-f6e1f2f9ae0b'
-title: 'Single-byte Character Sets'
+Description: A single-byte character set (SBCS) is a mapping of 256 individual characters to their identifying code values, implemented as a code page.
+ms.assetid: 53f74132-91aa-4257-846a-f6e1f2f9ae0b
+title: Single-byte Character Sets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Single-byte Character Sets
@@ -13,7 +18,7 @@ A single-byte character set (SBCS) is a mapping of 256 individual characters to 
 
  
 
-Your applications use SBCS Windows code pages with the "A" versions of Windows functions. See [Conventions for Function Prototypes](conventions-for-function-prototypes.md) and [Code Pages](code-pages.md). To help identify an SBCS code page, an application can use the [**GetCPInfo**](getcpinfo.md) or [**GetCPInfoEx**](getcpinfoex.md) function. In addition, an application can use the [**MultiByteToWideChar**](multibytetowidechar.md) and [**WideCharToMultiByte**](widechartomultibyte.md) functions to map between Unicode and SBCS strings.
+Your applications use SBCS Windows code pages with the "A" versions of Windows functions. See [Conventions for Function Prototypes](conventions-for-function-prototypes.md) and [Code Pages](code-pages.md). To help identify an SBCS code page, an application can use the [**GetCPInfo**](/windows/win32/Winnls/nf-winnls-getcpinfo?branch=master) or [**GetCPInfoEx**](/windows/win32/Winnls/nf-winnls-getcpinfoexa?branch=master) function. In addition, an application can use the [**MultiByteToWideChar**](/windows/win32/Stringapiset/nf-stringapiset-multibytetowidechar?branch=master) and [**WideCharToMultiByte**](/windows/win32/Stringapiset/nf-stringapiset-widechartomultibyte?branch=master) functions to map between Unicode and SBCS strings.
 
 ## Related topics
 

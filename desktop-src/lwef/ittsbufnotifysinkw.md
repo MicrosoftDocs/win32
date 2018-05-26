@@ -1,7 +1,12 @@
 ---
 title: ITTSBufNotifySinkW
 description: ITTSBufNotifySinkW
-ms.assetid: '00f4a529-2db1-4cad-9340-ed95999448f7'
+ms.assetid: 00f4a529-2db1-4cad-9340-ed95999448f7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITTSBufNotifySinkW

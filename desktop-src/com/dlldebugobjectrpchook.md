@@ -1,8 +1,9 @@
 ---
 title: DllDebugObjectRPCHook function
 description: Exported by COM DLLs to enable remote debugging.
-ms.assetid: 'a0f8bf12-0889-452d-84d0-255c5c143bc1'
-keywords: ["DllDebugObjectRPCHook function COM"]
+ms.assetid: a0f8bf12-0889-452d-84d0-255c5c143bc1
+keywords:
+- DllDebugObjectRPCHook function COM
 topic_type:
 - apiref
 api_name:
@@ -14,6 +15,11 @@ api_location:
 - API-MS-Win-Core-COM-Private-l1-1-1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DllDebugObjectRPCHook function
@@ -25,8 +31,8 @@ Exported by COM DLLs to enable remote debugging.
 
 ```C++
 BOOL WINAPI DllDebugObjectRPCHook(
-   BOOL             fTrace,
-   LPORPC_INIT_ARGS lpOrpcInitArgs
+   BOOL             fTrace,
+   LPORPC_INIT_ARGS lpOrpcInitArgs
 );
 ```
 
@@ -60,8 +66,8 @@ A pointer to an [**ORPC\_INIT\_ARGS**](orpc-init-args.md) structure.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>N/A</dt> </dl>       |
 | Library<br/>                  | <dl> <dt>Ole32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ole32.dll</dt> </dl> |
@@ -84,9 +90,9 @@ A pointer to an [**ORPC\_INIT\_ARGS**](orpc-init-args.md) structure.
 [**IOrpcDebugNotify**](iorpcdebugnotify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

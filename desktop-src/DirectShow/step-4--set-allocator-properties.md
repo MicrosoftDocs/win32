@@ -1,7 +1,12 @@
 ---
-Description: 'Step 4.'
-ms.assetid: 'c2fd6d8b-b239-45e4-9c02-41edafa58762'
-title: 'Step 4. Set Allocator Properties'
+Description: Step 4.
+ms.assetid: c2fd6d8b-b239-45e4-9c02-41edafa58762
+title: Step 4. Set Allocator Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 4. Set Allocator Properties
@@ -20,9 +25,9 @@ In the **CTransformFilter** class, there are two allocators, one for the upstrea
 The transform filter's output pin selects the downstream allocator. It performs the following steps:
 
 1.  If the downstream filter can provide an allocator, the output pin uses that one. Otherwise, the output pin creates a new allocator.
-2.  The output pin gets the downstream filter's allocator requirements (if any) by calling [**IMemInputPin::GetAllocatorRequirements**](imeminputpin-getallocatorrequirements.md).
-3.  The output pin calls the transform filter's [**CTransformFilter::DecideBufferSize**](ctransformfilter-decidebuffersize.md) method, which is pure virtual. The parameters to this method are a pointer to the allocator and an [**ALLOCATOR\_PROPERTIES**](allocator-properties.md) structure with the downstream filter's requirements. If the downstream filter has no allocator requirements, the structure is zeroed out.
-4.  In the **DecideBufferSize** method, the derived class sets the allocator properties by calling [**IMemAllocator::SetProperties**](imemallocator-setproperties.md).
+2.  The output pin gets the downstream filter's allocator requirements (if any) by calling [**IMemInputPin::GetAllocatorRequirements**](/windows/win32/Strmif/nf-strmif-imeminputpin-getallocatorrequirements?branch=master).
+3.  The output pin calls the transform filter's [**CTransformFilter::DecideBufferSize**](ctransformfilter-decidebuffersize.md) method, which is pure virtual. The parameters to this method are a pointer to the allocator and an [**ALLOCATOR\_PROPERTIES**](/windows/win32/strmif/ns-strmif-_allocatorproperties?branch=master) structure with the downstream filter's requirements. If the downstream filter has no allocator requirements, the structure is zeroed out.
+4.  In the **DecideBufferSize** method, the derived class sets the allocator properties by calling [**IMemAllocator::SetProperties**](/windows/win32/Strmif/nf-strmif-imemallocator-setproperties?branch=master).
 
 Generally, the derived class will select allocator properties based on the output format, the downstream filter's requirements, and the filter's own requirements. Try to select properties that are compatible with the downstream filter's request. Otherwise, the downstream filter might reject the connection.
 

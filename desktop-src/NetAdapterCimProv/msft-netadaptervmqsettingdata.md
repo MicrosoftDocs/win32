@@ -1,7 +1,12 @@
 ---
-Description: 'Network adapter Vritual Machine Queue (VMQ) settings.'
-ms.assetid: 'd24cbc66-4b92-40bf-90b8-cf5719b8e0a5'
-title: 'MSFT\_NetAdapterVmqSettingData class'
+Description: Network adapter Vritual Machine Queue (VMQ) settings.
+ms.assetid: d24cbc66-4b92-40bf-90b8-cf5719b8e0a5
+title: MSFT\_NetAdapterVmqSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterVmqSettingData class
@@ -16,31 +21,31 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterVmqSettingData : MSFT_NetAdapterSettingData
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
-  string  Name;
-  string  InterfaceDescription;
-  uint32  Source;
-  string  SystemName;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
+  string  Name;
+  string  InterfaceDescription;
+  uint32  Source;
+  string  SystemName;
   boolean Enabled;
-  uint32  NumberOfReceiveQueues;
-  uint32  TotalNumberOfMacAddresses;
-  uint32  NumMacAddressesPerPort;
-  uint32  NumVlansPerPort;
+  uint32  NumberOfReceiveQueues;
+  uint32  TotalNumberOfMacAddresses;
+  uint32  NumMacAddressesPerPort;
+  uint32  NumVlansPerPort;
   boolean VlanFilteringSupported;
   boolean LookaheadSplitSupported;
-  uint32  MinLookaheadSplitSize;
-  uint32  MaxLookaheadSplitSize;
+  uint32  MinLookaheadSplitSize;
+  uint32  MaxLookaheadSplitSize;
   boolean AnyVlanSupported;
   boolean DynamicProcessorAffinityChangeSupported;
   boolean InterruptVectorCoalescingSupported;
-  uint16  BaseProcessorGroup;
-  uint8   BaseProcessorNumber;
-  uint32  MaxProcessors;
-  uint8   MaxProcessorNumber;
-  uint16  NumaNode;
+  uint16  BaseProcessorGroup;
+  uint8   BaseProcessorNumber;
+  uint32  MaxProcessors;
+  uint8   MaxProcessorNumber;
+  uint16  NumaNode;
 };
 ```
 
@@ -64,7 +69,7 @@ The **MSFT\_NetAdapterVmqSettingData** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -426,16 +431,16 @@ Indicates that the network adapter supports filtering received packets based on 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

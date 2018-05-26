@@ -1,7 +1,12 @@
 ---
 title: Identifiers
 description: Identifiers can be up to 255 characters long, and must conform to C-style syntax.
-ms.assetid: 'a802d92e-2116-4d7e-9a16-df3d889337a2'
+ms.assetid: a802d92e-2116-4d7e-9a16-df3d889337a2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Identifiers

@@ -1,7 +1,12 @@
 ---
 title: Default Tuning Spaces
 description: This topic lists the default tuning spaces that were introduced in Windows 7.
-ms.assetid: '627e8aaf-7638-4d17-97b5-0aeaad304b98'
+ms.assetid: 627e8aaf-7638-4d17-97b5-0aeaad304b98
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Default Tuning Spaces

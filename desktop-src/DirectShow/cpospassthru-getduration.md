@@ -1,19 +1,24 @@
 ---
-Description: 'The GetDuration method retrieves the duration of the stream. This method implements the IMediaSeeking::GetDuration method.'
-ms.assetid: '0552e7bb-4d7e-40a8-a8ad-89ae6fff8ccb'
-title: 'CPosPassThru.GetDuration method'
+Description: The GetDuration method retrieves the duration of the stream. This method implements the IMediaSeekingGetDuration method.
+ms.assetid: 0552e7bb-4d7e-40a8-a8ad-89ae6fff8ccb
+title: CPosPassThru.GetDuration method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.GetDuration method
 
-The `GetDuration` method retrieves the duration of the stream. This method implements the [**IMediaSeeking::GetDuration**](imediaseeking-getduration.md) method.
+The `GetDuration` method retrieves the duration of the stream. This method implements the [**IMediaSeeking::GetDuration**](/windows/win32/Strmif/nf-strmif-imediaseeking-getduration?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetDuration(
-   LONGLONG *pDuration
+   LONGLONG *pDuration
 );
 ```
 
@@ -52,9 +57,9 @@ Returns the **HRESULT** value from the connected pin.
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

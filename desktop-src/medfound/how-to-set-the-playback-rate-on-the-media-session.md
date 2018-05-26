@@ -1,7 +1,12 @@
 ---
 Description: How to Set the Playback Rate on the Media Session
-ms.assetid: '3663b63f-127c-49fc-923a-d05521fe3d35'
+ms.assetid: 3663b63f-127c-49fc-923a-d05521fe3d35
 title: How to Set the Playback Rate on the Media Session
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Set the Playback Rate on the Media Session
@@ -14,18 +19,18 @@ For information about playback rates, see [About Rate Control](about-rate-contro
 
 ## To set the playback rate
 
-1.  Call [**MFGetService**](mfgetservice.md) to get the rate control object from the Media Session.
+1.  Call [**MFGetService**](/windows/win32/mfidl/nf-mfidl-mfgetservice?branch=master) to get the rate control object from the Media Session.
 
-    Applications calling [**MFGetService**](mfgetservice.md) must ensure the following:
+    Applications calling [**MFGetService**](/windows/win32/mfidl/nf-mfidl-mfgetservice?branch=master) must ensure the following:
 
-    -   The *punkObject* parameter contains an initialized [**IMFMediaSession**](imfmediasession.md) interface pointer.
+    -   The *punkObject* parameter contains an initialized [**IMFMediaSession**](/windows/win32/mfidl/nn-mfidl-imfmediasession?branch=master) interface pointer.
     -   The rate control object received in the *ppvObject* parameter is released to avoid memory leaks.
 
-2.  Call the [**IMFRateControl::SetRate**](imfratecontrol-setrate.md) method to set the playback rate. After **SetRate** completes asynchronously, the application receives the [MESessionRateChanged](mesessionratechanged.md) event.
+2.  Call the [**IMFRateControl::SetRate**](/windows/win32/mfidl/nf-mfidl-imfratecontrol-setrate?branch=master) method to set the playback rate. After **SetRate** completes asynchronously, the application receives the [MESessionRateChanged](mesessionratechanged.md) event.
 
 ## Example
 
-The following code shows how to set the playback rate by calling the [**SetRate**](imfclockstatesink-onclocksetrate.md) method.
+The following code shows how to set the playback rate by calling the [**SetRate**](/windows/win32/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate?branch=master) method.
 
 
 ```C++

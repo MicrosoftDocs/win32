@@ -1,8 +1,13 @@
 ---
 title: IVMDVDDriveEvents OnMediaInsert method
 description: Called when media has been inserted into the drive.
-ms.assetid: '11e167bd-34f8-4983-bff3-c1f482593c36'
-keywords: ["OnMediaInsert method Virtual Server", "OnMediaInsert method Virtual Server , IVMDVDDriveEvents interface", "IVMDVDDriveEvents interface Virtual Server , OnMediaInsert method", "OnMediaInsert method Virtual Server , VMDVDDrive interface", "VMDVDDrive interface Virtual Server , OnMediaInsert method"]
+ms.assetid: 11e167bd-34f8-4983-bff3-c1f482593c36
+keywords:
+- OnMediaInsert method Virtual Server
+- OnMediaInsert method Virtual Server , IVMDVDDriveEvents interface
+- IVMDVDDriveEvents interface Virtual Server , OnMediaInsert method
+- OnMediaInsert method Virtual Server , VMDVDDrive interface
+- VMDVDDrive interface Virtual Server , OnMediaInsert method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDriveEvents::OnMediaInsert method
@@ -23,7 +33,7 @@ The **OnMediaInsert** method is called when media has been inserted into the dri
 
 ```C++
 HRESULT OnMediaInsert(
-  [in] BSTR     mediaPath
+  [in] BSTR     mediaPath
 );
 ```
 
@@ -54,8 +64,8 @@ This method is called when media (an ISO image or a disc in a host drive) is ins
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -67,9 +77,9 @@ This method is called when media (an ISO image or a disc in a host drive) is ins
 [**IVMDVDDriveEvents**](ivmdvddriveevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine GetConfigurationValue method
 description: Retrieves the value of the specified configuration setting for this virtual machine.
-ms.assetid: 'fd3c509e-8a40-4828-b866-6bd2cb455ab2'
-keywords: ["GetConfigurationValue method Virtual PC", "GetConfigurationValue method Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , GetConfigurationValue method"]
+ms.assetid: fd3c509e-8a40-4828-b866-6bd2cb455ab2
+keywords:
+- GetConfigurationValue method Virtual PC
+- GetConfigurationValue method Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , GetConfigurationValue method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::GetConfigurationValue method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the value of the specified configuration setting for this virtual machine.
 
@@ -24,8 +32,8 @@ Retrieves the value of the specified configuration setting for this virtual mach
 
 ```C++
 HRESULT GetConfigurationValue(
-  [in]          BSTR    configurationKey,
-  [out, retval] VARIANT *configurationValue
+  [in]          BSTR    configurationKey,
+  [out, retval] VARIANT *configurationValue
 );
 ```
 
@@ -66,13 +74,13 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
 This method provides low-level access to any configuration value. It can be used to read configuration values for customer-defined keys.
 
-Configuration keys are located in the virtual machine's "\*.vmc" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark–delimited format.
+Configuration keys are located in the virtual machine's "\*.vmc" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark delimited format.
 
 For example, to read the value of the "ram\_size" key located in the following key tree:
 
@@ -114,9 +122,9 @@ The *configurationKey* path string would be specified as follows:
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -130,9 +138,9 @@ The *configurationKey* path string would be specified as follows:
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

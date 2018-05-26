@@ -1,13 +1,16 @@
 ---
-Description: 'Decommissions a server.'
+Description: Decommissions a server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '659536dc-0cf6-4bdd-8512-fd9f09841485'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 659536dc-0cf6-4bdd-8512-fd9f09841485
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'SecurityPolicy.DecommissionNow method'
+title: SecurityPolicy.DecommissionNow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SecurityPolicy.DecommissionNow method
@@ -105,7 +108,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -117,9 +120,9 @@ END FUNCTION
 [**SecurityPolicy**](securitypolicy-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

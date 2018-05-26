@@ -1,12 +1,17 @@
 ---
 title: Gadgets for Windows Sidebar - Gadget Object Reference
 description: This section describes the Windows Sidebar scripting elements that provide gadget functionality, such as Sidebar and gadget state and event handling.
-ms.assetid: 'e7416c26-c194-4317-a1aa-4e473b64bbd3'
+ms.assetid: e7416c26-c194-4317-a1aa-4e473b64bbd3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gadgets for Windows Sidebar - Gadget Object Reference
 
-\[ The Windows Gadget Platform/Sidebar is available for use in the following versions of Windows: Windows 7, Windows Vista, and Windows Server 2008. It may be altered or unavailable in subsequent versions. \]
+\[ The Windows Gadget Platform/Sidebar is available for use in the following versions of Windows: Windows 7, Windows Vista, and Windows Server 2008. It may be altered or unavailable in subsequent versions. \]
 
 This section describes the Windows Sidebar scripting elements that provide gadget functionality, such as Sidebar and gadget state and event handling.
 
@@ -74,18 +79,18 @@ The Windows Gadget Platform/Sidebar is available for use in the operating system
 [!Note]<br />
 The Windows Gadget Platform/Sidebar is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.
 </blockquote>
-<br/> Defines the properties, methods, and events that provide Sidebar functionality on Windows Vista SideShow devices. <br/></td>
+<br/> Defines the properties, methods, and events that provide Sidebar functionality on Windows Vista SideShow devices. <br/></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

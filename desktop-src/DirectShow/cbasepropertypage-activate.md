@@ -1,7 +1,12 @@
 ---
-Description: 'The Activate method creates the dialog box window. This method implements the IPropertyPage::Activate method.'
-ms.assetid: '8f030dc5-1d14-46b5-9d40-7f07a1177dbe'
-title: 'CBasePropertyPage.Activate method'
+Description: The Activate method creates the dialog box window. This method implements the IPropertyPageActivate method.
+ms.assetid: 8f030dc5-1d14-46b5-9d40-7f07a1177dbe
+title: CBasePropertyPage.Activate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.Activate method
@@ -13,9 +18,9 @@ The `Activate` method creates the dialog box window. This method implements the 
 
 ```C++
 HRESULT Activate(
-   HWND    hwndParent,
-   LPCRECT prect,
-   BOOL    fModal
+   HWND    hwndParent,
+   LPCRECT prect,
+   BOOL    fModal
 );
 ```
 
@@ -61,7 +66,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -84,9 +89,9 @@ Returns an **HRESULT** value. Possible values include the following.
 [**CBasePropertyPage::OnActivate**](cbasepropertypage-onactivate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

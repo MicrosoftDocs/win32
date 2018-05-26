@@ -1,8 +1,11 @@
 ---
 title: ISoftKbd GetSoftKeyboardColors method
 description: The ISoftKbd GetSoftKeyboardColors method retrieves the soft keyboard color corresponding to the supplied color type.
-ms.assetid: 'd59d249c-a1c4-4d6a-add6-632be55a7549'
-keywords: ["GetSoftKeyboardColors method Text Services Framework", "GetSoftKeyboardColors method Text Services Framework , ISoftKbd interface", "ISoftKbd interface Text Services Framework , GetSoftKeyboardColors method"]
+ms.assetid: d59d249c-a1c4-4d6a-add6-632be55a7549
+keywords:
+- GetSoftKeyboardColors method Text Services Framework
+- GetSoftKeyboardColors method Text Services Framework , ISoftKbd interface
+- ISoftKbd interface Text Services Framework , GetSoftKeyboardColors method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISoftKbd::GetSoftKeyboardColors method
@@ -22,8 +30,8 @@ The **ISoftKbd::GetSoftKeyboardColors** method retrieves the soft keyboard color
 
 ```C++
 HRESULT GetSoftKeyboardColors(
-  [in]  COLORTYPE colorType,
-  [out] COLORREF  *lpColor
+  [in]  COLORTYPE colorType,
+  [out] COLORREF  *lpColor
 );
 ```
 
@@ -60,7 +68,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,9 +76,9 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
 | Header<br/>                   | <dl> <dt>Softkbdc.h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Softkbd.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
@@ -93,9 +101,9 @@ This method can return one of these values.
 [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd183449)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

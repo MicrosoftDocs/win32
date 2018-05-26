@@ -1,34 +1,37 @@
 ---
-Description: 'A property provider uses the IWbemPropertyProvider methods as the primary interface to WMI. With IWbemPropertyProvider, you can implement the code to retrieve and modify class and instance properties.'
+Description: A property provider uses the IWbemPropertyProvider methods as the primary interface to WMI. With IWbemPropertyProvider, you can implement the code to retrieve and modify class and instance properties.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd08c2ca4-9f8a-4a27-80fc-688d7c56f5eb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d08c2ca4-9f8a-4a27-80fc-688d7c56f5eb
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Implementing the Primary Interface for a Property Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Implementing the Primary Interface for a Property Provider
 
-A property provider uses the [**IWbemPropertyProvider**](iwbempropertyprovider.md) methods as the primary interface to WMI. With **IWbemPropertyProvider**, you can implement the code to retrieve and modify class and instance properties.
+A property provider uses the [**IWbemPropertyProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbempropertyprovider?branch=master) methods as the primary interface to WMI. With **IWbemPropertyProvider**, you can implement the code to retrieve and modify class and instance properties.
 
-The following table lists the [**IWbemPropertyProvider**](iwbempropertyprovider.md) methods that you can implement for a property provider.
+The following table lists the [**IWbemPropertyProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbempropertyprovider?branch=master) methods that you can implement for a property provider.
 
 
 
 | Method                                                   | Feature      |
 |----------------------------------------------------------|--------------|
-| [**GetProperty**](iwbempropertyprovider-getproperty.md) | Retrieval    |
-| [**PutProperty**](iwbempropertyprovider-putproperty.md) | Modification |
+| [**GetProperty**](/windows/win32/Wbemprov/nf-wbemprov-iwbempropertyprovider-getproperty?branch=master) | Retrieval    |
+| [**PutProperty**](/windows/win32/Wbemprov/nf-wbemprov-iwbempropertyprovider-putproperty?branch=master) | Modification |
 
 
 
  
 
 > [!Note]  
-> You must implement a property provider as an in-process provider. WMI will initialize property providers written as services or executable files but will never call their [**GetProperty**](iwbempropertyprovider-getproperty.md) and [**PutProperty**](iwbempropertyprovider-putproperty.md) methods.
+> You must implement a property provider as an in-process provider. WMI will initialize property providers written as services or executable files but will never call their [**GetProperty**](/windows/win32/Wbemprov/nf-wbemprov-iwbempropertyprovider-getproperty?branch=master) and [**PutProperty**](/windows/win32/Wbemprov/nf-wbemprov-iwbempropertyprovider-putproperty?branch=master) methods.
 
  
 
@@ -44,7 +47,7 @@ Your property provider must be prepared to handle the following types of context
 
 These qualifiers can work together. You can designate both an **InstanceContext** and **PropertyContext** value to tell the provider how to treat particular types of instances. For example, you might want to mark instances the provider will recognize as readable but having only one writeable property.
 
-The most common qualifier used is **PropertyContext**. Therefore, WMI provides the **DynProps** qualifier as a shortcut. WMI considers each property in an instance marked with **DynProps** to also have the **Dynamic**, [**Provider**](provider.md), and **PropertyContext** qualifiers.
+The most common qualifier used is **PropertyContext**. Therefore, WMI provides the **DynProps** qualifier as a shortcut. WMI considers each property in an instance marked with **DynProps** to also have the **Dynamic**, [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master), and **PropertyContext** qualifiers.
 
  
 

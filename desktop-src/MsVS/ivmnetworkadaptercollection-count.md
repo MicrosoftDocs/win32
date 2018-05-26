@@ -1,8 +1,13 @@
 ---
 title: IVMNetworkAdapterCollection Count property
 description: The Count property contains the number of network interfaces in the collection.
-ms.assetid: '28979b5a-5d55-4370-84ee-d64374d32eac'
-keywords: ["Count property Virtual Server", "Count property Virtual Server , IVMNetworkAdapterCollection interface", "IVMNetworkAdapterCollection interface Virtual Server , Count property", "Count property Virtual Server , IVMNetworkAdapterCollection interface", "IVMNetworkAdapterCollection interface Virtual Server , Count property"]
+ms.assetid: 28979b5a-5d55-4370-84ee-d64374d32eac
+keywords:
+- Count property Virtual Server
+- Count property Virtual Server , IVMNetworkAdapterCollection interface
+- IVMNetworkAdapterCollection interface Virtual Server , Count property
+- Count property Virtual Server , IVMNetworkAdapterCollection interface
+- IVMNetworkAdapterCollection interface Virtual Server , Count property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMNetworkAdapterCollection::Count property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Count(
-  [out] long *count
+  [out] long *count
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMNetworkAdapterCollection**](ivmnetworkadaptercollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

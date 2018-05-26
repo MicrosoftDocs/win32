@@ -4,11 +4,14 @@ description: Removes the provider from the cache.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a0df23cc-cf04-4b24-97f5-2624d73fbf33'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a0df23cc-cf04-4b24-97f5-2624d73fbf33
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, MSFT_SMProvider class", "MSFT_SMProvider class, Remove method"]
+keywords:
+- Remove method
+- Remove method, MSFT_SMProvider class
+- MSFT_SMProvider class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the MSFT\_SMProvider class
@@ -28,10 +34,10 @@ Removes the provider from the cache.
 
 ```mof
 Uint32 Remove(
-  [in]            String                username,
-  [in]            String                password,
-  [in, optional]  Boolean               force,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            String                username,
+  [in]            String                password,
+  [in, optional]  Boolean               force,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -60,7 +66,7 @@ The password to use to authenticate the SMI-S provider. If this parameter is not
 
 Indicates whether this method uses the default confirmation prompt before performing the operation. **True** to use the default confirmation prompt, otherwise **false**. The default value for this parameter is **True**.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -82,7 +88,7 @@ Returns "0" on success, otherwise returns a WMI error code.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -99,9 +105,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

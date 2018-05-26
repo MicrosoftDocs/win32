@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '0ab74bf1-67ef-4b97-810f-3e6f34876052'
-title: 'System.Contact.JobInfo2OfficeLocation'
+Description: .
+ms.assetid: 0ab74bf1-67ef-4b97-810f-3e6f34876052
+title: System.Contact.JobInfo2OfficeLocation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.JobInfo2OfficeLocation

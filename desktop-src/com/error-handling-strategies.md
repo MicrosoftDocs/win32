@@ -1,7 +1,12 @@
 ---
 title: Error Handling Strategies
 description: Error Handling Strategies
-ms.assetid: '8d03ede8-0661-43dc-adaf-3c1f5fc1687e'
+ms.assetid: 8d03ede8-0661-43dc-adaf-3c1f5fc1687e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Handling Strategies
@@ -23,7 +28,7 @@ The return value of COM functions and methods is an **HRESULT**. The values of s
 | E\_FAIL<br/>         | 0x80004005<br/> | An unspecified failure has occurred.<br/>                                                                                                    |
 | E\_HANDLE<br/>       | 0x80070006<br/> | An invalid handle was used.<br/>                                                                                                             |
 | E\_INVALIDARG<br/>   | 0x80070057<br/> | One or more arguments are invalid.<br/>                                                                                                      |
-| E\_NOINTERFACE<br/>  | 0x80004002<br/> | The [**QueryInterface**](iunknown-queryinterface.md) method did not recognize the requested interface. The interface is not supported.<br/> |
+| E\_NOINTERFACE<br/>  | 0x80004002<br/> | The [**QueryInterface**](/windows/win32/Unknwn/nf-unknwn-iunknown-queryinterface(q,)?branch=master) method did not recognize the requested interface. The interface is not supported.<br/> |
 | E\_NOTIMPL<br/>      | 0x80004001<br/> | The method is not implemented.<br/>                                                                                                          |
 | E\_OUTOFMEMORY<br/>  | 0x8007000E<br/> | The method failed to allocate necessary memory.<br/>                                                                                         |
 | E\_PENDING<br/>      | 0x8000000A<br/> | The data necessary to complete the operation is not yet available.<br/>                                                                      |
@@ -34,7 +39,7 @@ The return value of COM functions and methods is an **HRESULT**. The values of s
 
 
 
- 
+ 
 
 ## Network Errors
 
@@ -55,9 +60,9 @@ The net command returns the error description: "The specified domain did not exi
 [Error Handling in COM](error-handling-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

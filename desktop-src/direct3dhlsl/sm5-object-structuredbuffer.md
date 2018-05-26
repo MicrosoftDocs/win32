@@ -1,14 +1,20 @@
 ---
 title: StructuredBuffer
 description: A read-only buffer, which can take a T type that is a structure.
-ms.assetid: 'fe2ec0b8-0e19-42b6-9dad-c992ecdeb19e'
-keywords: ["StructuredBuffer HLSL"]
+ms.assetid: fe2ec0b8-0e19-42b6-9dad-c992ecdeb19e
+keywords:
+- StructuredBuffer HLSL
 topic_type:
 - apiref
 api_name:
 - StructuredBuffer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StructuredBuffer
@@ -25,7 +31,7 @@ A read-only buffer, which can take a T type that is a structure.
 
 
 
- 
+ 
 
 The UAV format bound to this resource needs to be created with the DXGI\_FORMAT\_UNKNOWN format.
 
@@ -43,7 +49,7 @@ This object is supported in the following shader models.
 
 
 
- 
+ 
 
 This object is supported for the following types of shaders.
 
@@ -55,7 +61,7 @@ This object is supported for the following types of shaders.
 
 
 
- 
+ 
 
 ## See also
 
@@ -64,9 +70,9 @@ This object is supported for the following types of shaders.
 [Shader Model 5 Objects](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Callback function for Precomputed Radiance Transfer (PRT) simulation and compression.'
-ms.assetid: '1d7e2149-d2ca-47da-be1f-8273fd9bd30a'
+Description: Callback function for Precomputed Radiance Transfer (PRT) simulation and compression.
+ms.assetid: 1d7e2149-d2ca-47da-be1f-8273fd9bd30a
 title: LPD3DXSHPRTSIMCB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LPD3DXSHPRTSIMCB

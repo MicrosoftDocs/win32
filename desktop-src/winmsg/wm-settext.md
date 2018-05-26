@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the text of a window.'
-ms.assetid: '1b48c309-6903-4139-bf42-e8526963e681'
-title: 'WM\_SETTEXT message'
+---
+Description: Sets the text of a window.
+ms.assetid: 1b48c309-6903-4139-bf42-e8526963e681
+title: WM\_SETTEXT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_SETTEXT message

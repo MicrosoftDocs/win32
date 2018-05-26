@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_ResourceRecord class
 description: The MicrosoftDNS\_ResourceRecord class represents the general properties of a DNS RR.The following syntax is simplified from MOF code.
-ms.assetid: '84d6d106-fcc9-44ae-8db2-181c60489aec'
-keywords: ["MicrosoftDNS_ResourceRecord class DNS", "MicrosoftDNS_ResourceRecord class DNS , described"]
+ms.assetid: 84d6d106-fcc9-44ae-8db2-181c60489aec
+keywords:
+- MicrosoftDNS_ResourceRecord class DNS
+- MicrosoftDNS_ResourceRecord class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_ResourceRecord class
@@ -67,7 +74,7 @@ The **MicrosoftDNS\_ResourceRecord** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -136,7 +143,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 This string represents the class of the Resource Record. Valid values include:
 
@@ -209,7 +216,7 @@ Time, in seconds, that the RR can be cached by a DNS [*resolver*](r-gly.md#-dns-
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -225,9 +232,9 @@ Time, in seconds, that the RR can be cached by a DNS [*resolver*](r-gly.md#-dns-
 [**GetObjectByTextRepresentation Method of the MicrosoftDNS\_ResourceRecord Class**](microsoftdns-resourcerecord-getobjectbytextrepresentation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

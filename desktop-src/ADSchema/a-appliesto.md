@@ -4,17 +4,22 @@ description: Contains the list of object classes that the extended right applies
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8333e508-627c-42ce-865b-db061a5603db'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8333e508-627c-42ce-865b-db061a5603db
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Applies-To attribute AD Schema", "appliesTo attribute AD Schema"]
+keywords:
+- Applies-To attribute AD Schema
+- appliesTo attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Applies-To
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Applies-To attribute
@@ -38,13 +43,13 @@ Contains the list of object classes that the extended right applies to. In the l
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ Contains the list of object classes that the extended right applies to. In the l
 
 
 
- 
+ 
 
- 
+ 
 
 
 

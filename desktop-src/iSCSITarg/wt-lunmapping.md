@@ -4,13 +4,15 @@ description: Represents a mapping of a virtual disk (WT\_Disk) to an iSCSI targe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bc5803d3-3c52-4715-922e-92420c0ad063'
-ms.prod: 'windows-server-dev'
+ms.assetid: bc5803d3-3c52-4715-922e-92420c0ad063
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WT_LUNMapping class iSCSI Software Target API", "WT_LUNMapping class iSCSI Software Target API , described"]
+keywords:
+- WT_LUNMapping class iSCSI Software Target API
+- WT_LUNMapping class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WT\_LUNMapping class
@@ -109,16 +114,16 @@ To establish a new LUN mapping, you can create a new instance of this class and 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,21 @@
 ---
 title: Preloading Patches with Internal MIDI Synthesizers
 description: Preloading Patches with Internal MIDI Synthesizers
-ms.assetid: 'c200aa91-ab91-48e8-b3b5-8e7f36e511be'
-keywords: ["Musical Instrument Digital Interface (MIDI),internal synthesizers", "MIDI (Musical Instrument Digital Interface),internal synthesizers", "playing MIDI files,internal synthesizers", "internal MIDI synthesizers", "Musical Instrument Digital Interface (MIDI),preloading patches", "MIDI (Musical Instrument Digital Interface),preloading patches", "playing MIDI files,preloading patches", "preloading MIDI patches"]
+ms.assetid: c200aa91-ab91-48e8-b3b5-8e7f36e511be
+keywords:
+- Musical Instrument Digital Interface (MIDI),internal synthesizers
+- MIDI (Musical Instrument Digital Interface),internal synthesizers
+- playing MIDI files,internal synthesizers
+- internal MIDI synthesizers
+- Musical Instrument Digital Interface (MIDI),preloading patches
+- MIDI (Musical Instrument Digital Interface),preloading patches
+- playing MIDI files,preloading patches
+- preloading MIDI patches
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preloading Patches with Internal MIDI Synthesizers

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Rotates (relative to the object''s local coordinate space) around an arbitrary axis.'
-ms.assetid: 'c69f5ea7-5d14-4187-9405-1ceff8230185'
-title: 'ID3DXMATRIXStack::RotateYawPitchRollLocal method'
+---
+Description: Rotates (relative to the objects local coordinate space) around an arbitrary axis.
+ms.assetid: c69f5ea7-5d14-4187-9405-1ceff8230185
+title: ID3DXMATRIXStackRotateYawPitchRollLocal method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXMATRIXStack::RotateYawPitchRollLocal method

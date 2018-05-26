@@ -1,14 +1,20 @@
 ---
 title: daysOfWeekType Complex Type
 description: Defines the child elements and sequencing information for the DaysOfWeek (weeklyScheduleType) and DaysOfWeek (monthlyDayOfWeekScheduleType) elements.
-ms.assetid: 'b3315582-af7a-4d4c-8f6f-61de12a85f46'
-keywords: ["daysOfWeekType complex type Task Scheduler"]
+ms.assetid: b3315582-af7a-4d4c-8f6f-61de12a85f46
+keywords:
+- daysOfWeekType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - daysOfWeekType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # daysOfWeekType Complex Type
@@ -79,8 +85,8 @@ Defines the child elements and sequencing information for the [**DaysOfWeek (wee
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -94,9 +100,9 @@ Defines the child elements and sequencing information for the [**DaysOfWeek (wee
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

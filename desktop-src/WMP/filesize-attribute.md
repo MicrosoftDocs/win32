@@ -1,14 +1,20 @@
 ---
 title: FileSize Attribute
 description: The FileSize attribute is the size of the file in bytes.
-ms.assetid: 'e845cc82-6975-4fd9-800f-a66f59a5fb39'
-keywords: ["FileSize Attribute Windows Media Player"]
+ms.assetid: e845cc82-6975-4fd9-800f-a66f59a5fb39
+keywords:
+- FileSize Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - FileSize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileSize Attribute
@@ -50,9 +56,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

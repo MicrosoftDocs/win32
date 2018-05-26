@@ -1,8 +1,9 @@
 ---
 title: VMMouseButton enumeration
 description: Specifies the mouse button.
-ms.assetid: 'd09e63cb-9dc5-424f-b130-c0b0dd07fe11'
-keywords: ["VMMouseButton enumeration Virtual PC"]
+ms.assetid: d09e63cb-9dc5-424f-b130-c0b0dd07fe11
+keywords:
+- VMMouseButton enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMMouseButton enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies the mouse button.
 
@@ -24,9 +30,9 @@ Specifies the mouse button.
 
 ```C++
 typedef enum  { 
-  vmMouseButton_Left    = 1,
-  vmMouseButton_Right   = 2,
-  vmMouseButton_Center  = 3
+  vmMouseButton_Left    = 1,
+  vmMouseButton_Right   = 2,
+  vmMouseButton_Center  = 3
 } VMMouseButton;
 ```
 
@@ -63,9 +69,9 @@ The center mouse button.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -78,9 +84,9 @@ The center mouse button.
 [**IVMMouse**](ivmmouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

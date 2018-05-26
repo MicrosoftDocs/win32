@@ -1,8 +1,10 @@
 ---
 title: MPNIS\_PRIVATE\_DATA structure
 description: Private NIS notifications.
-ms.assetid: '19B4928F-BC78-4DEA-A563-1516B6454465'
-keywords: ["MPNIS_PRIVATE_DATA structure Legacy Windows Environment Features", "PMPNIS_PRIVATE_DATA structure pointer Legacy Windows Environment Features"]
+ms.assetid: 19B4928F-BC78-4DEA-A563-1516B6454465
+keywords:
+- MPNIS_PRIVATE_DATA structure Legacy Windows Environment Features
+- PMPNIS_PRIVATE_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPNIS\_PRIVATE\_DATA structure
@@ -24,7 +31,7 @@ Private NIS notifications.
 typedef struct tagMPNIS_PRIVATE_DATA {
   DWORD dwNotificationType;
   DWORD cbDataSize;
-  BYTE  *pbData;
+  BYTE  *pbData;
 } MPNIS_PRIVATE_DATA, *PMPNIS_PRIVATE_DATA;
 ```
 
@@ -73,15 +80,15 @@ Pointer to reserved data.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

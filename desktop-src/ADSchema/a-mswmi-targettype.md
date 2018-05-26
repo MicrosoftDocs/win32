@@ -4,17 +4,22 @@ description: WMI reference to a type definition for a policy object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0757d903-37f7-4830-9ba0-a971cf1bda04'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0757d903-37f7-4830-9ba0-a971cf1bda04
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-TargetType attribute AD Schema", "msWMI-TargetType attribute AD Schema"]
+keywords:
+- ms-WMI-TargetType attribute AD Schema
+- msWMI-TargetType attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-TargetType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-TargetType attribute
@@ -38,11 +43,11 @@ WMI reference to a type definition for a policy object.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ WMI reference to a type definition for a policy object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

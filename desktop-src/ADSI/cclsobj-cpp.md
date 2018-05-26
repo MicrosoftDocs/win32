@@ -4,11 +4,15 @@ description: In the example provider component, the functions for the schema cla
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e8cdef8e-c031-49e0-9496-871064aec8bd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e8cdef8e-c031-49e0-9496-871064aec8bd
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["CSampleDSClass"]
+keywords:
+- CSampleDSClass
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CCLSOBJ.CPP
@@ -27,8 +31,8 @@ The **CSampleDSClass** class is defined in this file. **CSampleDSClass** is defi
 | **CreateClass**             | Create a schema class object, given the attribute definitions, setting known attributes, such as those listed in [**IADsClass::MandatoryAttributes**](iadsclass-property-methods.md).                     |
 | **AllocateClassObject**     | Create a schema class object and load its type data.                                                                                                                                                       |
 | **QueryInterface**          | Return the requested interface pointer, if available.                                                                                                                                                      |
-| Standard IADs methods.      | Standard [**IADs**](iads.md) interface methods included in this file.                                                                                                                                     |
-| Standard IADsClass methods. | Standard [**IADsClass**](iadsclass.md) interface methods included in this file.                                                                                                                           |
+| Standard IADs methods.      | Standard [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) interface methods included in this file.                                                                                                                                     |
+| Standard IADsClass methods. | Standard [**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master) interface methods included in this file.                                                                                                                           |
 | **CreatePropertyList**      | Create a list of properties associated with this schema class by calling **CreatePropertyEntry**.                                                                                                          |
 | **CreatePropertyEntry**     | Create one property object in this schema class.                                                                                                                                                           |
 | **FreePropertyEntry**       | Free the entry made in **CreatePropertyEntry**.                                                                                                                                                            |

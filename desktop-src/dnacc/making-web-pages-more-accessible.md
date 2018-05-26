@@ -1,7 +1,12 @@
 ---
 Description: Daniel Odievich
-ms.assetid: '4cb5126f-895a-4dfd-8848-9c405c9d4a00'
+ms.assetid: 4cb5126f-895a-4dfd-8848-9c405c9d4a00
 title: Making Webpages More Accessible
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Making Webpages More Accessible
@@ -29,7 +34,7 @@ November 2000
 
 In today's web world, it is essential to provide clean and accessible web applications for the exponentially increasing number of users who go online every day. By using the techniques described in this article, with minimal effort you will be able to make webpages more accessible to people with disabilities.
 
-Most of us remember times when a graphical user interface (GUI) operating system was just wishful thinking. The world was driven by text-based interfaces. Everything you wanted to do with a computer program could be done with a keyboard; and a mouse was an unwieldy two-kilogram device—more of a novelty than of any real use.
+Most of us remember times when a graphical user interface (GUI) operating system was just wishful thinking. The world was driven by text-based interfaces. Everything you wanted to do with a computer program could be done with a keyboard; and a mouse was an unwieldy two-kilogram device more of a novelty than of any real use.
 
 Things sure have changed since then. Almost every program allows you to click hyperlinks to connect to websites. DHTML allows unprecedented flexibility and richness in GUI applications. Things are looking good on the Net!
 
@@ -51,7 +56,7 @@ The following terms will be used in this article:
 
 
 
- 
+ 
 
 ## Using Native HTML 3.2 Elements
 
@@ -70,7 +75,7 @@ You will save time and work if your site uses the standard HTML elements listed 
 
 
 
- 
+ 
 
 Other standard HTML elements can be made accessible by adding **tabIndex** and **accessKey** attributes to HTML tags.
 
@@ -87,13 +92,13 @@ Other standard HTML elements can be made accessible by adding **tabIndex** and *
 
 
 
- 
+ 
 
 ## Using the LABEL Object
 
 HTML 4.0 specifications introduce the **LABEL** object, which you can use to associate text with any other HTML object or intrinsic control. Linked **LABEL** and HTML objects act identically when causing and receiving events, whether the user clicks the **LABEL** or the HTML object. To link the **LABEL** and HTML objects, set the **FOR** attribute of the **LABEL** equal to the **ID** attribute of the HTML object.
 
-The following example associates the **LABEL** control with the text box. When the user clicks the **LABEL** control—or presses the ALT+T key combination—the **LABEL** control sets the focus to the text box.
+The following example associates the **LABEL** control with the text box. When the user clicks the **LABEL** control or presses the ALT+T key combination the **LABEL** control sets the focus to the text box.
 
 ``` syntax
 <LABEL FOR="txtInputBox"><U>T</U>ype value:</LABEL>
@@ -127,7 +132,7 @@ Of course, in today's web world, it is difficult to build a good-looking applica
 
 
 
- 
+ 
 
 ## Example 1: Anchor Navigation Cancel
 
@@ -1115,9 +1120,9 @@ KeyPress, KeyDown and KeyUp event return values:
 </HTML>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

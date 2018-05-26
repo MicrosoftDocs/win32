@@ -2,13 +2,19 @@
 title: float attribute
 description: The float keyword designates a 32-bit floating-point number.
 ms.assetid: dfc94378-13a4-4d34-a254-7ff68f4f9d40
-keywords: ["float attribute MIDL"]
+keywords:
+- float attribute MIDL
 topic_type:
 - apiref
 api_name:
 - float
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # float attribute

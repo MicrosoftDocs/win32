@@ -4,11 +4,16 @@ description: Characteristics of Attributes
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7c75edc4-0d94-438e-bbfc-5e10badb24c5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7c75edc4-0d94-438e-bbfc-5e10badb24c5
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Characteristics of Attributes AD", "Attributes AD , Characteristics"]
+keywords:
+- Characteristics of Attributes AD
+- Attributes AD , Characteristics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Characteristics of Attributes
@@ -48,7 +53,7 @@ The following table lists the [**lDAPDisplayName**](https://msdn.microsoft.com/l
 
 
 
- 
+ 
 
 For more information about attributes, see:
 
@@ -57,9 +62,9 @@ For more information about attributes, see:
 -   [Attributes Included in the Global Catalog](attributes-included-in-the-global-catalog.md)
 -   [Linked Attributes](linked-attributes.md)
 
- 
+ 
 
- 
+ 
 
 
 

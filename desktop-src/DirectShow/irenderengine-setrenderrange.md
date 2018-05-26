@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetRenderRange method sets the range of time on the timeline to be rendered. Objects that lie outside the specified range are not rendered, and resources are not allocated for them.'
-ms.assetid: '2dcdca6b-2bae-4a27-bfbc-19a9b2ea633a'
-title: 'IRenderEngine::SetRenderRange method'
+---
+Description: The SetRenderRange method sets the range of time on the timeline to be rendered. Objects that lie outside the specified range are not rendered, and resources are not allocated for them.
+ms.assetid: 2dcdca6b-2bae-4a27-bfbc-19a9b2ea633a
+title: IRenderEngineSetRenderRange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::SetRenderRange method

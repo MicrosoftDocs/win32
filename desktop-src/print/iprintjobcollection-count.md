@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the number of jobs in the print queue.'
-ms.assetid: 'B44C8023-CB5F-4381-8A75-CA086E989BAC'
-title: 'IPrintJobCollection::Count property'
+---
+Description: Gets the number of jobs in the print queue.
+ms.assetid: B44C8023-CB5F-4381-8A75-CA086E989BAC
+title: IPrintJobCollectionCount property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintJobCollection::Count property

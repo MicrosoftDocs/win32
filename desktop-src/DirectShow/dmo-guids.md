@@ -1,14 +1,19 @@
 ---
-Description: 'The following table lists the globally unique identifiers (GUIDs) defined for Microsoft DirectX Media Object (DMO) categories. These GUIDs are defined in the header file Dmoreg.h and exported by the Dmoguids.lib library.'
-ms.assetid: 'd67debd0-8ecb-41ab-bc6c-b27cba97c65a'
+Description: The following table lists the globally unique identifiers (GUIDs) defined for Microsoft DirectX Media Object (DMO) categories. These GUIDs are defined in the header file Dmoreg.h and exported by the Dmoguids.lib library.
+ms.assetid: d67debd0-8ecb-41ab-bc6c-b27cba97c65a
 title: DMO GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMO GUIDs
 
 The following table lists the globally unique identifiers (GUIDs) defined for Microsoft DirectX Media Object (DMO) categories. These GUIDs are defined in the header file Dmoreg.h and exported by the Dmoguids.lib library.
 
-To enumerate the DMOs registered in a category, pass the corresponding GUID to the [**DMOEnum**](dmoenum.md) function.
+To enumerate the DMOs registered in a category, pass the corresponding GUID to the [**DMOEnum**](/windows/win32/Dmoreg/nf-dmoreg-dmoenum?branch=master) function.
 
 
 
@@ -41,9 +46,9 @@ To enumerate the DMOs registered in a category, pass the corresponding GUID to t
 [DMO Constants](dmo-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

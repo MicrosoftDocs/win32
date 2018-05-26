@@ -4,17 +4,21 @@ description: The associatedName attribute type specifies an entry in the organiz
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c9df20d0-8ab4-463c-ac03-93af648bfbb1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c9df20d0-8ab4-463c-ac03-93af648bfbb1
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["associatedName attribute AD Schema"]
+keywords:
+- associatedName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - associatedName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # associatedName attribute

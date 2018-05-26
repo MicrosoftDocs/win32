@@ -1,8 +1,9 @@
 ---
 title: TVM\_GETITEMRECT message
 description: Retrieves the bounding rectangle for a tree-view item and indicates whether the item is visible. You can send this message explicitly or by using the TreeView\_GetItemRect macro.
-ms.assetid: 'f2d7d7b1-cfe7-4361-bd90-e3e99dbcd99c'
-keywords: ["TVM_GETITEMRECT message Windows Controls"]
+ms.assetid: f2d7d7b1-cfe7-4361-bd90-e3e99dbcd99c
+keywords:
+- TVM_GETITEMRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_GETITEMRECT message
 
-Retrieves the bounding rectangle for a tree-view item and indicates whether the item is visible. You can send this message explicitly or by using the [**TreeView\_GetItemRect**](treeview-getitemrect.md) macro.
+Retrieves the bounding rectangle for a tree-view item and indicates whether the item is visible. You can send this message explicitly or by using the [**TreeView\_GetItemRect**](/windows/win32/Commctrl/nf-commctrl-treeview_getitemrect?branch=master) macro.
 
 ## Parameters
 
@@ -60,15 +66,15 @@ SendMessage(hwndTreeView, TVM_GETITEMRECT, FALSE, (LPARAM)&amp;rc);
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

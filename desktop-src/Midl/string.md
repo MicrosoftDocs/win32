@@ -2,13 +2,19 @@
 title: string attribute
 description: The \ string\ attribute indicates that the one-dimensional char, wchar\_t, byte (or equivalent) array or the pointer to such an array must be treated as a string.
 ms.assetid: 379cd59e-7540-4188-9b5c-6c25a8928999
-keywords: ["string attribute MIDL"]
+keywords:
+- string attribute MIDL
 topic_type:
 - apiref
 api_name:
 - string
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # string attribute

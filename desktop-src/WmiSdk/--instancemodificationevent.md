@@ -1,13 +1,16 @@
 ---
-Description: 'Reports an instance modification event, which is a type of intrinsic event generated when an instance changes in the namespace.'
+Description: Reports an instance modification event, which is a type of intrinsic event generated when an instance changes in the namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'aa35f349-8b57-435f-bf82-76daf2b43ec9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: aa35f349-8b57-435f-bf82-76daf2b43ec9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_InstanceModificationEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_InstanceModificationEvent class
@@ -22,7 +25,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class __InstanceModificationEvent : __InstanceOperationEvent
 {
   object PreviousInstance;
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   object TargetInstance;
   uint64 TIME_CREATED;
 };
@@ -118,8 +121,8 @@ The [Monitor process modification event](https://Gallery.TechNet.Microsoft.Com/d
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -134,9 +137,9 @@ The [Monitor process modification event](https://Gallery.TechNet.Microsoft.Com/d
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

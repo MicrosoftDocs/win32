@@ -1,7 +1,12 @@
 ---
 title: Querying Networking Objects
 description: The following JScript sample retrieves and displays physical and virtual network information of the current system.
-ms.assetid: '2021825e-ae4f-4816-9106-42b0536a22af'
+ms.assetid: 2021825e-ae4f-4816-9106-42b0536a22af
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying Networking Objects

@@ -1,7 +1,12 @@
 ---
 title: Accessing OLE DB with the OLE DB Provider for Indexing Service
 description: Accessing OLE DB with the OLE DB Provider for Indexing Service
-ms.assetid: '9f0e2224-f652-4645-bcce-d8e82dbf6682'
+ms.assetid: 9f0e2224-f652-4645-bcce-d8e82dbf6682
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing OLE DB with the OLE DB Provider for Indexing Service

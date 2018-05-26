@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves templates to a DirectX file. Deprecated.'
-ms.assetid: '7a45565a-8c04-4fa1-a424-294b847d3a2f'
-title: 'IDirectXFileSaveObject::SaveTemplates method'
+---
+Description: Saves templates to a DirectX file. Deprecated.
+ms.assetid: 7a45565a-8c04-4fa1-a424-294b847d3a2f
+title: IDirectXFileSaveObjectSaveTemplates method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileSaveObject::SaveTemplates method

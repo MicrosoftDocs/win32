@@ -1,7 +1,12 @@
 ---
 title: Help API Reference
 description: The Help API enables opening help catalogs and retrieving help content items such as indexed help topics (XHTML, HTML)non-indexed imagesCSS filesJavaScriptaudio/video elements.
-ms.assetid: '0F12204C-0451-4883-B28B-15C2312147B2'
+ms.assetid: 0F12204C-0451-4883-B28B-15C2312147B2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Help API Reference
@@ -33,11 +38,11 @@ The Help API enables opening help catalogs and retrieving help content items suc
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

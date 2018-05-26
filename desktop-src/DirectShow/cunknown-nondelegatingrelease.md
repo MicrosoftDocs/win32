@@ -1,7 +1,12 @@
 ---
-Description: 'Decrements the reference count on the object. This method implements the INonDelegatingUnknown::NonDelegatingRelease method.'
-ms.assetid: '58610f7d-5524-450f-a0f8-b299944abc78'
-title: 'CUnknown.NonDelegatingRelease method'
+Description: Decrements the reference count on the object. This method implements the INonDelegatingUnknownNonDelegatingRelease method.
+ms.assetid: 58610f7d-5524-450f-a0f8-b299944abc78
+title: CUnknown.NonDelegatingRelease method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUnknown.NonDelegatingRelease method
@@ -40,9 +45,9 @@ When the reference count reaches zero, the object deletes itself.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

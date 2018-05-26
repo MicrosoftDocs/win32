@@ -1,7 +1,12 @@
 ---
-Description: 'Convert an existing virtual system snapshot to a reference point. The snapshot gets deleted as a side effect. Only recovery snapshots can be converted to reference points.'
-ms.assetid: 'c634d749-e18f-4a11-a574-2aee705c0722'
-title: 'ConvertToReferencePoint method of the Msvm\_VirtualSystemSnapshotService class'
+Description: Convert an existing virtual system snapshot to a reference point. The snapshot gets deleted as a side effect. Only recovery snapshots can be converted to reference points.
+ms.assetid: c634d749-e18f-4a11-a574-2aee705c0722
+title: ConvertToReferencePoint method of the Msvm\_VirtualSystemSnapshotService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConvertToReferencePoint method of the Msvm\_VirtualSystemSnapshotService class
@@ -13,10 +18,10 @@ Convert an existing virtual system snapshot to a reference point. The snapshot g
 
 ```mof
 uint32 ConvertToReferencePoint(
-  [in]      CIM_VirtualSystemSettingData     REF AffectedSnapshot,
-  [in]      string                               ReferencePointSettings,
-  [in, out] Msvm_VirtualSystemReferencePoint REF ResultingReferencePoint,
-  [out]     CIM_ConcreteJob                  REF Job
+  [in]      CIM_VirtualSystemSettingData     REF AffectedSnapshot,
+  [in]      string                               ReferencePointSettings,
+  [in, out] Msvm_VirtualSystemReferencePoint REF ResultingReferencePoint,
+  [out]     CIM_ConcreteJob                  REF Job
 );
 ```
 
@@ -99,8 +104,8 @@ Returns a 0 on success; otherwise, returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -114,9 +119,9 @@ Returns a 0 on success; otherwise, returns one of the following values:
 [**Msvm\_VirtualSystemSnapshotService**](msvm-virtualsystemsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Network Bandwidth
-description: Background transfers use only idle network bandwidth in an effort to preserve the user's interactive experience with other network applications, such as Internet Explorer.
-ms.assetid: 'c0b92a33-7afc-4250-8549-54cc46013239'
+description: Background transfers use only idle network bandwidth in an effort to preserve the users interactive experience with other network applications, such as Internet Explorer.
+ms.assetid: c0b92a33-7afc-4250-8549-54cc46013239
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Bandwidth

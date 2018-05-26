@@ -1,8 +1,14 @@
 ---
 title: ARIA Label Error
 description: ARIA Label Error
-ms.assetid: 'DF45E38D-9AD3-48C8-911E-8C6233F17F43'
-keywords: ["AriaLabelErrorId"]
+ms.assetid: DF45E38D-9AD3-48C8-911E-8C6233F17F43
+keywords:
+- AriaLabelErrorId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARIA Label Error

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to create a transcoding topology in TopoEdit.'
-ms.assetid: '9a7b57f9-f606-4874-9fd3-aa37215f6f20'
+Description: This topic describes how to create a transcoding topology in TopoEdit.
+ms.assetid: 9a7b57f9-f606-4874-9fd3-aa37215f6f20
 title: Building a Transcode Topology with TopoEdit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building a Transcode Topology with TopoEdit
@@ -9,9 +14,9 @@ title: Building a Transcode Topology with TopoEdit
 This topic describes how to create a transcoding topology in TopoEdit.
 
 > [!Note]  
-> This feature requires Windows 7
+> This feature requires Windows 7
 
- 
+ 
 
 ## To build a transcoding topology
 
@@ -23,7 +28,7 @@ This topic describes how to create a transcoding topology in TopoEdit.
     > [!Note]  
     > The profiles are loaded from the file TranscodeProfiles.xml.
 
-     
+     
 
 5.  In the **Choose target file** dialog, select the name of the output file.
 6.  TopoEdit creates the transcode topology and displays the topology nodes in main application window.
@@ -62,7 +67,7 @@ The file begins with a **TedTranscodeProfiles** element. Each profile begins wit
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -71,9 +76,9 @@ The file begins with a **TedTranscodeProfiles** element. Each profile begins wit
 [TopoEdit](topoedit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

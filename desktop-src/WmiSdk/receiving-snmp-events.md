@@ -1,13 +1,16 @@
 ---
-Description: 'The SNMP event providers support SNMPv1 traps and SNMPv2 notifications.'
+Description: The SNMP event providers support SNMPv1 traps and SNMPv2 notifications.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '715b2925-b01d-4631-86e3-a6239ff1dba7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 715b2925-b01d-4631-86e3-a6239ff1dba7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving SNMP Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Receiving SNMP Events

@@ -1,14 +1,22 @@
 ---
 title: BasicDevice.IpAddresses property
 description: Gets a vector of IP addresses.
-ms.assetid: '00096782-E1A8-41A2-86CE-EA2296A1C047'
-keywords: ["IpAddresses property Media Streaming API", "IpAddresses property Media Streaming API , BasicDevice interface", "BasicDevice interface Media Streaming API , IpAddresses property"]
+ms.assetid: 00096782-E1A8-41A2-86CE-EA2296A1C047
+keywords:
+- IpAddresses property Media Streaming API
+- IpAddresses property Media Streaming API , BasicDevice interface
+- BasicDevice interface Media Streaming API , IpAddresses property
 topic_type:
 - apiref
 api_name:
 - BasicDevice.IpAddresses
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BasicDevice.IpAddresses property

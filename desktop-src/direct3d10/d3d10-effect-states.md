@@ -1,7 +1,12 @@
 ---
-Description: 'Effect states are name value pairs in the form of an expression.'
-ms.assetid: '4612c6bd-bc1f-42ad-8465-c0d4b577d1db'
-title: 'Effect State Groups (Direct3D 10)'
+Description: Effect states are name value pairs in the form of an expression.
+ms.assetid: 4612c6bd-bc1f-42ad-8465-c0d4b577d1db
+title: Effect State Groups (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect State Groups (Direct3D 10)
@@ -22,7 +27,7 @@ Effect states are name value pairs in the form of an expression.
 
 |                                                                                                                       |                                                           |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| ALPHATOCOVERAGEENABLEBLENDENABLESRCBLENDDESTBLENDBLENDOP SRCBLENDALPHADESTBLENDALPHABLENDOPALPHARENDERTARGETWRITEMASK | Members of [**D3D10\_BLEND\_DESC**](d3d10-blend-desc.md) |
+| ALPHATOCOVERAGEENABLEBLENDENABLESRCBLENDDESTBLENDBLENDOP SRCBLENDALPHADESTBLENDALPHABLENDOPALPHARENDERTARGETWRITEMASK | Members of [**D3D10\_BLEND\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_blend_desc?branch=master) |
 
 
 
@@ -34,8 +39,8 @@ Effect states are name value pairs in the form of an expression.
 
 |                                                                                                                                                                |                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| DEPTHENABLEDEPTHWRITEMASKDEPTHFUNCSTENCILENABLESTENCILREADMASKSTENCILWRITEMASK                                                                                 | Members of [**D3D10\_DEPTH\_STENCIL\_DESC**](d3d10-depth-stencil-desc.md)    |
-| FRONTFACESTENCILFAILFRONTFACESTENCILZFAILFRONTFACESTENCILPASSFRONTFACESTENCILFUNCBACKFACESTENCILFAILBACKFACESTENCILZFAILBACKFACESTENCILPASSBACKFACESTENCILFUNC | Member of [**D3D10\_DEPTH\_STENCILOP\_DESC**](d3d10-depth-stencilop-desc.md) |
+| DEPTHENABLEDEPTHWRITEMASKDEPTHFUNCSTENCILENABLESTENCILREADMASKSTENCILWRITEMASK                                                                                 | Members of [**D3D10\_DEPTH\_STENCIL\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_depth_stencil_desc?branch=master)    |
+| FRONTFACESTENCILFAILFRONTFACESTENCILZFAILFRONTFACESTENCILPASSFRONTFACESTENCILFUNCBACKFACESTENCILFAILBACKFACESTENCILZFAILBACKFACESTENCILPASSBACKFACESTENCILFUNC | Member of [**D3D10\_DEPTH\_STENCILOP\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_depth_stencilop_desc?branch=master) |
 
 
 
@@ -47,9 +52,9 @@ Effect states are name value pairs in the form of an expression.
 
 |                                                                                                                                 |                                                                     |
 |---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| FILLMODE                                                                                                                        | [**D3D10\_FILL\_MODE**](d3d10-fill-mode.md)                        |
-| CULLMODE                                                                                                                        | [**D3D10\_CULL\_MODE**](d3d10-cull-mode.md)                        |
-| FRONTCOUNTERCLOCKWISEDEPTHBIASDEPTHBIASCLAMPSLOPESCALEDDEPTHBIAS ZCLIPENABLESCISSORENABLEMULTISAMPLEENABLEANTIALIASEDLINEENABLE | Members of [**D3D10\_RASTERIZER\_DESC**](d3d10-rasterizer-desc.md) |
+| FILLMODE                                                                                                                        | [**D3D10\_FILL\_MODE**](/windows/win32/D3D10/ne-d3d10-d3d10_fill_mode?branch=master)                        |
+| CULLMODE                                                                                                                        | [**D3D10\_CULL\_MODE**](/windows/win32/D3D10/ne-d3d10-d3d10_cull_mode?branch=master)                        |
+| FRONTCOUNTERCLOCKWISEDEPTHBIASDEPTHBIASCLAMPSLOPESCALEDDEPTHBIAS ZCLIPENABLESCISSORENABLEMULTISAMPLEENABLEANTIALIASEDLINEENABLE | Members of [**D3D10\_RASTERIZER\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_rasterizer_desc?branch=master) |
 
 
 
@@ -61,7 +66,7 @@ Effect states are name value pairs in the form of an expression.
 
 |                                                                                                     |                                                               |
 |-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| Filter AddressU AddressV AddressW MipLODBias MaxAnisotropy ComparisonFunc BorderColor MinLOD MaxLOD | Members of [**D3D10\_SAMPLER\_DESC**](d3d10-sampler-desc.md) |
+| Filter AddressU AddressV AddressW MipLODBias MaxAnisotropy ComparisonFunc BorderColor MinLOD MaxLOD | Members of [**D3D10\_SAMPLER\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_sampler_desc?branch=master) |
 
 
 
@@ -81,7 +86,7 @@ See [Sampler Type (DirectX HLSL)](direct3dhlsl.dx_graphics_hlsl_sampler) for exa
 | VERTEXSHADER                                | A compiled vertex shader object.                                    |
 | PIXELSHADER                                 | A compiled pixel shader object.                                     |
 | GEOMETRYSHADER                              | A compiled geometry shader object.                                  |
-| DS\_STENCILREFAB\_BLENDFACTORAB\_SAMPLEMASK | Members of [**D3D10\_PASS\_DESC**](d3d10-pass-desc.md).            |
+| DS\_STENCILREFAB\_BLENDFACTORAB\_SAMPLEMASK | Members of [**D3D10\_PASS\_DESC**](/windows/win32/d3d10effect/ns-d3d10effect-_d3d10_pass_desc?branch=master).            |
 
 
 

@@ -4,13 +4,15 @@ description: A dynamic association WMI class that provides access to the nodes i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fb764dc7-ea9c-49d2-99a6-54b1055136a3'
-ms.prod: 'windows-server-dev'
+ms.assetid: fb764dc7-ea9c-49d2-99a6-54b1055136a3
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ClusterToNode class", "MSCluster_ClusterToNode class, described"]
+keywords:
+- MSCluster_ClusterToNode class
+- MSCluster_ClusterToNode class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ClusterToNode class
@@ -37,10 +42,10 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association, Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{1DA51F43-8562-4093-9C3A-D9CBB35CF6D2}"), AMENDMENT]
 class MSCluster_ClusterToNode : CIM_ParticipatingCS
 {
-  uint16                StateOfNode;
-  uint16                RoleOfNode;
+  uint16                StateOfNode;
+  uint16                RoleOfNode;
   MSCluster_Cluster REF Antecedent;
-  MSCluster_Node    REF Dependent;
+  MSCluster_Node    REF Dependent;
 };
 ```
 
@@ -238,7 +243,7 @@ The **MSCluster\_ClusterToNode** class is derived from the **CIM\_ParticipatingC
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -261,9 +266,9 @@ The **MSCluster\_ClusterToNode** class is derived from the **CIM\_ParticipatingC
 [**MSCluster\_Node**](mscluster-node.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: An association between two managed elements that represent differen
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ac9052d1-b8ee-4573-96f0-2eda96d4ff85'
-ms.prod: 'windows-server-dev'
+ms.assetid: ac9052d1-b8ee-4573-96f0-2eda96d4ff85
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_ConcreteIdentity class", "Msvm_ConcreteIdentity class, described"]
+keywords:
+- Msvm_ConcreteIdentity class
+- Msvm_ConcreteIdentity class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_ConcreteIdentity class
@@ -89,7 +94,7 @@ This property is inherited from [**CIM\_ConcreteIdentity**](cim-concreteidentity
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -106,9 +111,9 @@ This property is inherited from [**CIM\_ConcreteIdentity**](cim-concreteidentity
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

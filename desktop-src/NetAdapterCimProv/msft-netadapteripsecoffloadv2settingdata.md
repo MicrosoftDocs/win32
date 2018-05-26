@@ -1,7 +1,12 @@
 ---
-Description: 'IPsec Task Offload v2 settings for a network adapter.'
-ms.assetid: '195f4ab2-6dc0-4d14-9194-a76ba0f2b163'
-title: 'MSFT\_NetAdapterIPsecOffloadV2SettingData class'
+Description: IPsec Task Offload v2 settings for a network adapter.
+ms.assetid: 195f4ab2-6dc0-4d14-9194-a76ba0f2b163
+title: MSFT\_NetAdapterIPsecOffloadV2SettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterIPsecOffloadV2SettingData class
@@ -16,14 +21,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterIPsecOffloadV2SettingData : MSFT_NetAdapterSettingData
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
-  string  Name;
-  string  InterfaceDescription;
-  uint32  Source;
-  string  SystemName;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
+  string  Name;
+  string  InterfaceDescription;
+  uint32  Source;
+  string  SystemName;
   boolean Enabled;
   boolean IPv6Supported;
   boolean IPv4OptionsSupported;
@@ -34,10 +39,10 @@ class MSFT_NetAdapterIPsecOffloadV2SettingData : MSFT_NetAdapterSettingData
   boolean TransportSupported;
   boolean TunnelSupported;
   boolean LsoSupported;
-  uint32  UdpEspSupported;
-  uint32  AuthenticationAlgorithmsSupported;
-  uint32  EncryptionAlgorithmsSupported;
-  uint32  SaOffloadCapacitySupported;
+  uint32  UdpEspSupported;
+  uint32  AuthenticationAlgorithmsSupported;
+  uint32  EncryptionAlgorithmsSupported;
+  uint32  SaOffloadCapacitySupported;
   boolean IPv6Enabled;
   boolean IPv4OptionsEnabled;
   boolean IPv6NonIPsecExtensionHeadersEnabled;
@@ -47,10 +52,10 @@ class MSFT_NetAdapterIPsecOffloadV2SettingData : MSFT_NetAdapterSettingData
   boolean TransportEnabled;
   boolean TunnelEnabled;
   boolean LsoEnabled;
-  uint32  UdpEspEnabled;
-  uint32  AuthenticationAlgorithmsEnabled;
-  uint32  EncryptionAlgorithmsEnabled;
-  uint32  SaOffloadCapacityEnabled;
+  uint32  UdpEspEnabled;
+  uint32  AuthenticationAlgorithmsEnabled;
+  uint32  EncryptionAlgorithmsEnabled;
+  uint32  SaOffloadCapacityEnabled;
 };
 ```
 
@@ -75,7 +80,7 @@ The **MSFT\_NetAdapterIPsecOffloadV2SettingData** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -567,16 +572,16 @@ Supports UDP and ESP.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

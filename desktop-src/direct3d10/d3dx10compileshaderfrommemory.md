@@ -1,7 +1,12 @@
 ---
-Description: 'Deprecated. See D3DX10CompileFromMemory.'
-ms.assetid: '863d471f-b8c4-4670-85fc-cd8535a1ff78'
+Description: Deprecated. See D3DX10CompileFromMemory.
+ms.assetid: 863d471f-b8c4-4670-85fc-cd8535a1ff78
 title: D3DX10CompileShaderFromMemory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CompileShaderFromMemory

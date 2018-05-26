@@ -1,8 +1,17 @@
 ---
 title: Using Monitor Configuration
 description: Using Monitor Configuration
-ms.assetid: '2a868890-cc0c-4625-a87c-cafb1ecd5210'
-keywords: ["monitor,functions", "monitor configuration,functions", "monitor,about", "monitor configuration,about"]
+ms.assetid: 2a868890-cc0c-4625-a87c-cafb1ecd5210
+keywords:
+- monitor,functions
+- monitor configuration,functions
+- monitor,about
+- monitor configuration,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Monitor Configuration

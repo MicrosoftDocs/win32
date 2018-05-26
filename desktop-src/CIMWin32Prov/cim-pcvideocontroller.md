@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_PCVideoController represents the capabilities and management of a personal computer video controller, a subtype of a video controller.'
+Description: The CIM\_PCVideoController represents the capabilities and management of a personal computer video controller, a subtype of a video controller.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bf937727-a332-445b-9397-7d87d58c4a5b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bf937727-a332-445b-9397-7d87d58c4a5b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_PCVideoController class'
+title: CIM\_PCVideoController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PCVideoController class
@@ -19,7 +22,7 @@ The **CIM\_PCVideoController** represents the capabilities and management of a p
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,47 +32,47 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{1008CCE6-7BFF-11D2-AAD2-006008C78BC7}"), AMENDMENT]
 class CIM_PCVideoController : CIM_VideoController
 {
-  uint16   AcceleratorCapabilities[];
-  uint16   Availability;
-  string   CapabilityDescriptions[];
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  uint32   CurrentBitsPerPixel;
-  uint32   CurrentHorizontalResolution;
-  uint64   CurrentNumberOfColors;
-  uint32   CurrentNumberOfColumns;
-  uint32   CurrentNumberOfRows;
-  uint32   CurrentRefreshRate;
-  uint16   CurrentScanMode;
-  uint32   CurrentVerticalResolution;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
+  uint16   AcceleratorCapabilities[];
+  uint16   Availability;
+  string   CapabilityDescriptions[];
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  uint32   CurrentBitsPerPixel;
+  uint32   CurrentHorizontalResolution;
+  uint64   CurrentNumberOfColors;
+  uint32   CurrentNumberOfColumns;
+  uint32   CurrentNumberOfRows;
+  uint32   CurrentRefreshRate;
+  uint16   CurrentScanMode;
+  uint32   CurrentVerticalResolution;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  uint32   MaxMemorySupported;
-  uint32   MaxNumberControlled;
-  uint32   MaxRefreshRate;
-  uint32   MinRefreshRate;
-  string   Name;
-  uint16   NumberOfColorPlanes;
-  uint32   NumberOfVideoPages;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint16   ProtocolSupported;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  uint32   LastErrorCode;
+  uint32   MaxMemorySupported;
+  uint32   MaxNumberControlled;
+  uint32   MaxRefreshRate;
+  uint32   MinRefreshRate;
+  string   Name;
+  uint16   NumberOfColorPlanes;
+  uint32   NumberOfVideoPages;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint16   ProtocolSupported;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
   datetime TimeOfLastReset;
-  uint16   VideoArchitecture;
-  uint16   VideoMemoryType;
-  uint16   VideoMode;
-  string   VideoProcessor;
+  uint16   VideoArchitecture;
+  uint16   VideoMemoryType;
+  uint16   VideoMode;
+  string   VideoProcessor;
 };
 ```
 
@@ -93,7 +96,7 @@ The **CIM\_PCVideoController** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -373,7 +376,7 @@ Free-form strings that provide detailed explanations for video accelerator featu
 > [!Note]  
 > Each array entry is related to the entry in the **AcceleratorCapabilities** array that is located at the same index.
 
- 
+ 
 
 This property is inherited from [**CIM\_VideoController**](cim-videocontroller.md).
 
@@ -2135,8 +2138,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -2150,9 +2153,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_VideoController**](cim-videocontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,21 @@
 ---
 title: Registering Application Dependency
 description: Registering Application Dependency
-ms.assetid: '966683d6-e082-448d-8473-baae2311c082'
-keywords: ["Windows Media Player,application dependency registry settings", "Windows Media Player,dependency registry settings", "Windows Media Player,registry", "registry,application dependency settings", "registry,dependency settings", "registry,settings for Windows Media Player", "dependency registry settings", "application dependency registry settings"]
+ms.assetid: 966683d6-e082-448d-8473-baae2311c082
+keywords:
+- Windows Media Player,application dependency registry settings
+- Windows Media Player,dependency registry settings
+- Windows Media Player,registry
+- registry,application dependency settings
+- registry,dependency settings
+- registry,settings for Windows Media Player
+- dependency registry settings
+- application dependency registry settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Application Dependency

@@ -2,13 +2,19 @@
 title: nocode attribute
 description: The \ nocode\ attribute is used in ACF headers or with individual functions to prevent the generation of client stub code.
 ms.assetid: d3b6e4c8-103c-4ea2-8748-11d844fdda97
-keywords: ["nocode attribute MIDL"]
+keywords:
+- nocode attribute MIDL
 topic_type:
 - apiref
 api_name:
 - nocode
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # nocode attribute

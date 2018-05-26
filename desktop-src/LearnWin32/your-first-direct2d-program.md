@@ -1,7 +1,12 @@
 ---
 title: Your First Direct2D Program
-description: Let's create our first Direct2D program. The program does not do anything fancy \ 8212; it just draws a circle that fills the client area of the window. But this program introduces many essential Direct2D concepts.
-ms.assetid: '940cc5e4-2952-4714-bf32-c611a965f819'
+description: Lets create our first Direct2D program. The program does not do anything fancy \ 8212; it just draws a circle that fills the client area of the window. But this program introduces many essential Direct2D concepts.
+ms.assetid: 940cc5e4-2952-4714-bf32-c611a965f819
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Your First Direct2D Program

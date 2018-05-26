@@ -1,12 +1,17 @@
 ---
-Description: 'Notifies applications that the battery power is low.'
-ms.assetid: 'ef24b8cf-d801-4452-a03c-3f2bdbdd7e5d'
-title: 'PBT\_APMBATTERYLOW event'
+Description: Notifies applications that the battery power is low.
+ms.assetid: ef24b8cf-d801-4452-a03c-3f2bdbdd7e5d
+title: PBT\_APMBATTERYLOW event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBT\_APMBATTERYLOW event
 
-\[PBT\_APMBATTERYLOW is available for use in the operating systems specified in the Requirements section. Support for this event was removed in Windows Vista. Use [PBT\_APMPOWERSTATUSCHANGE](pbt-apmpowerstatuschange.md) instead.\]
+\[PBT\_APMBATTERYLOW is available for use in the operating systems specified in the Requirements section. Support for this event was removed in Windows Vista. Use [PBT\_APMPOWERSTATUSCHANGE](pbt-apmpowerstatuschange.md) instead.\]
 
 Notifies applications that the battery power is low.
 
@@ -41,7 +46,7 @@ A handle to the window.
 
 
 
- 
+ 
 
 </dd> <dt>*wParam* </dt> <dd> 
 
@@ -51,7 +56,7 @@ A handle to the window.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,10 +81,10 @@ This event is broadcast when a system's APM BIOS signals an APM battery low noti
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
-| End of client support<br/>    | Windows XP<br/>                                                                                    |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| End of client support<br/>    | Windows XP<br/>                                                                                    |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                           |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
 
@@ -94,9 +99,9 @@ This event is broadcast when a system's APM BIOS signals an APM battery low noti
 [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

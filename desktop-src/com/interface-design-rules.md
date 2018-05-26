@@ -1,20 +1,25 @@
 ---
 title: Interface Design Rules
 description: This section provides a short summary of interface design rules and guidelines.
-ms.assetid: 'c43fc385-bcd6-45fc-91b2-ad9827fdb15c'
+ms.assetid: c43fc385-bcd6-45fc-91b2-ad9827fdb15c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interface Design Rules
 
 This section provides a short summary of interface design rules and guidelines. Some of these rules are specific to the COM architecture, while others are restrictions imposed by the interface design language, MIDL. For details of COM interface design, see [Anatomy of an IDL File](anatomy-of-an-idl-file.md).
 
-By definition, an object is not a COM object unless it implements either the [**IUnknown**](iunknown.md) interface or an interface that is derived from **IUnknown**. In addition, the following rules apply to all interfaces implemented on a COM object:
+By definition, an object is not a COM object unless it implements either the [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) interface or an interface that is derived from **IUnknown**. In addition, the following rules apply to all interfaces implemented on a COM object:
 
 -   They must have a unique interface identifier (IID).
 -   They must be immutable. Once they are created and published, no part of their definition may change.
 -   All interface methods must return an **HRESULT** value so that the portions of the system that handle remote processing can report RPC errors.
 -   All string parameters in interface methods must be Unicode.
--   Your data types must be remotable. If you cannot convert a data type to a remotable type, you will have to create your own marshaling and unmarshaling routines. Also, **LPVOID**, or **void \***, has no meaning on a remote computer. Use a pointer to [**IUnknown**](iunknown.md), if necessary.
+-   Your data types must be remotable. If you cannot convert a data type to a remotable type, you will have to create your own marshaling and unmarshaling routines. Also, **LPVOID**, or **void \***, has no meaning on a remote computer. Use a pointer to [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master), if necessary.
 
 > [!Note]  
 > The current implementation of MIDL does not handle function overloading or multiple inheritance.

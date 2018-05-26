@@ -1,8 +1,9 @@
 ---
 title: VMFloppyDiskImageType enumeration
 description: Specifies the floppy disk formats.
-ms.assetid: '7eb504c0-dfb7-45eb-a943-b453b5f8ca63'
-keywords: ["VMFloppyDiskImageType enumeration Virtual PC"]
+ms.assetid: 7eb504c0-dfb7-45eb-a943-b453b5f8ca63
+keywords:
+- VMFloppyDiskImageType enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMFloppyDiskImageType enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies the floppy disk formats.
 
@@ -24,13 +30,13 @@ Specifies the floppy disk formats.
 
 ```C++
 typedef enum  { 
-  vmFloppyDiskImage_Unknown                = 0,
-  vmFloppyDiskImage_LowDensity             = 1,
-  vmFloppyDiskImage_HighDensity            = 2,
-  vmFloppyDiskImage_DMF                    = 3,
-  vmFloppyDiskImage_LowDensitySingleSided  = 4,
-  vmFloppyDiskImage_MediumDensity          = 5,
-  vmFloppyDiskImage_HighDensityMSS         = 6
+  vmFloppyDiskImage_Unknown                = 0,
+  vmFloppyDiskImage_LowDensity             = 1,
+  vmFloppyDiskImage_HighDensity            = 2,
+  vmFloppyDiskImage_DMF                    = 3,
+  vmFloppyDiskImage_LowDensitySingleSided  = 4,
+  vmFloppyDiskImage_MediumDensity          = 5,
+  vmFloppyDiskImage_HighDensityMSS         = 6
 } VMFloppyDiskImageType;
 ```
 
@@ -95,9 +101,9 @@ A high-density Multiple Sector Size (MSS), used by eXtended Distribution Format 
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -113,9 +119,9 @@ A high-density Multiple Sector Size (MSS), used by eXtended Distribution Format 
 [**IVMVirtualPC::GetFloppyDiskImageType**](ivmvirtualpc-getfloppydiskimagetype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

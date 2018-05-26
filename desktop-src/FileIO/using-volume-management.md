@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics demonstrate the use of the volume management functions.'
-ms.assetid: '2fefe12f-6dd3-4ca3-8c3a-1521d8fb2fef'
+Description: The following topics demonstrate the use of the volume management functions.
+ms.assetid: 2fefe12f-6dd3-4ca3-8c3a-1521d8fb2fef
 title: Using Volume Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Volume Management
@@ -21,11 +26,11 @@ The following topics demonstrate the use of the volume management functions.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

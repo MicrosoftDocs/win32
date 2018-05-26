@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_DibData member variable is a DIBDATA structure that contains information about a GDI device-independent bitmap (DIB).'
-ms.assetid: 'a7fd79c9-d041-4888-a898-11252d9d8131'
-title: 'CImageSample::m\_DibData member'
+Description: The m\_DibData member variable is a DIBDATA structure that contains information about a GDI device-independent bitmap (DIB).
+ms.assetid: a7fd79c9-d041-4888-a898-11252d9d8131
+title: CImageSamplem\_DibData member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageSample::m\_DibData member
@@ -35,9 +40,9 @@ DIBDATA m_DibData;
 [**CImageSample Class**](cimagesample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

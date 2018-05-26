@@ -1,7 +1,12 @@
 ---
 title: dp2 (sm4 - asm)
 description: 2-dimensional vector dot-product of components rg, POS-swizzle.
-ms.assetid: 'E35F6A8B-6D8E-4660-B0F3-95B76BC19229'
+ms.assetid: E35F6A8B-6D8E-4660-B0F3-95B76BC19229
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dp2 (sm4 - asm)
@@ -15,7 +20,7 @@ ms.assetid: 'E35F6A8B-6D8E-4660-B0F3-95B76BC19229'
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ ms.assetid: 'E35F6A8B-6D8E-4660-B0F3-95B76BC19229'
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,7 +48,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -62,7 +67,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -71,9 +76,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

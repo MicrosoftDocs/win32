@@ -1,7 +1,12 @@
 ---
 title: To move topics to the root during compile
 description: To move topics to the root during compile
-ms.assetid: 'C02A6FC9-7095-4645-B768-13EC44DA3834'
+ms.assetid: C02A6FC9-7095-4645-B768-13EC44DA3834
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To move topics to the root during compile
@@ -16,7 +21,7 @@ ms.assetid: 'C02A6FC9-7095-4645-B768-13EC44DA3834'
 
     
 
-     
+     
 
 2.  Select the **Don't include folders in compiled file** check box.
 
@@ -32,9 +37,9 @@ ms.assetid: 'C02A6FC9-7095-4645-B768-13EC44DA3834'
 [About Compiling a Help Project](compile-a-help-project.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

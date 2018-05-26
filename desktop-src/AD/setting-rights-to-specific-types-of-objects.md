@@ -4,11 +4,17 @@ description: The following procedure shows how to set an ACE that can be inherit
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '42712458-69c7-4fe1-bfb3-b3fb28092a56'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 42712458-69c7-4fe1-bfb3-b3fb28092a56
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["setting rights to types of objects AD", "objects AD , setting rights to", "Active Directory, using, security, setting rights to types of objects"]
+keywords:
+- setting rights to types of objects AD
+- objects AD , setting rights to
+- Active Directory, using, security, setting rights to types of objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting Rights to Specific Types of Objects

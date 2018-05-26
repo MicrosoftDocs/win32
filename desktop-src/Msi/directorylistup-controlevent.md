@@ -1,7 +1,12 @@
 ---
-Description: 'This event notifies the DirectoryList control that the user wants to select the parent of the present directory. For related information, see Browse Dialog.'
-ms.assetid: '83fdb160-ce3b-42e1-8688-42d3ba39d6dd'
+Description: This event notifies the DirectoryList control that the user wants to select the parent of the present directory. For related information, see Browse Dialog.
+ms.assetid: 83fdb160-ce3b-42e1-8688-42d3ba39d6dd
 title: DirectoryListUp ControlEvent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectoryListUp ControlEvent

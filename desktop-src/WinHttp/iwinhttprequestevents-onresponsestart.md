@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the response data starts to be received.'
-ms.assetid: '7245725b-40dd-4282-b681-f0b2c191db94'
-title: 'IWinHttpRequestEvents::OnResponseStart event'
+Description: Occurs when the response data starts to be received.
+ms.assetid: 7245725b-40dd-4282-b681-f0b2c191db94
+title: IWinHttpRequestEventsOnResponseStart event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequestEvents::OnResponseStart event
@@ -13,8 +18,8 @@ The **OnResponseStart** event occurs when the response data starts to be receive
 
 ```C++
 void OnResponseStart(
-  [in] long Status,
-  [in] BSTR ContentType
+  [in] long Status,
+  [in] BSTR ContentType
 );
 ```
 
@@ -49,9 +54,9 @@ For this event to occur, use [**Open**](iwinhttprequest-open.md) to send an HTTP
 This is the first WinHTTP event to occur after the [**Send**](iwinhttprequest-send.md).
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 ## Requirements
 
@@ -59,9 +64,9 @@ This is the first WinHTTP event to occur after the [**Send**](iwinhttprequest-se
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 
 
@@ -79,9 +84,9 @@ This is the first WinHTTP event to occur after the [**Send**](iwinhttprequest-se
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

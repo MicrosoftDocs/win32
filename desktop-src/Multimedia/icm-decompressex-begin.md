@@ -1,8 +1,9 @@
 ---
 title: ICM\_DECOMPRESSEX\_BEGIN message
 description: The ICM\_DECOMPRESSEX\_BEGIN message notifies a video compression driver to prepare to decompress data.
-ms.assetid: '35298274-91b5-4df0-b4b0-4a71d6a49990'
-keywords: ["ICM_DECOMPRESSEX_BEGIN message Windows Multimedia"]
+ms.assetid: 35298274-91b5-4df0-b4b0-4a71d6a49990
+keywords:
+- ICM_DECOMPRESSEX_BEGIN message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_DECOMPRESSEX\_BEGIN message
@@ -33,14 +39,14 @@ lParam = sizeof(ICDECOMPRESSEX);
 <span id="icdex"></span><span id="ICDEX"></span>*icdex*
 </dt> <dd>
 
-Pointer to a [**ICDECOMPRESSEX**](icdecompressex-struct.md) structure containing the input and output formats.
+Pointer to a [**ICDECOMPRESSEX**](/windows/win32/Vfw/ns-vfw-icdecompressex?branch=master) structure containing the input and output formats.
 
 </dd> <dt>
 
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Size, in bytes, of [**ICDECOMPRESSEX**](icdecompressex-struct.md).
+Size, in bytes, of [**ICDECOMPRESSEX**](/windows/win32/Vfw/ns-vfw-icdecompressex?branch=master).
 
 </dd> </dl>
 
@@ -62,8 +68,8 @@ The **ICM\_DECOMPRESSEX\_BEGIN** and [**ICM\_DECOMPRESSEX\_END**](icm-decompress
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -78,9 +84,9 @@ The **ICM\_DECOMPRESSEX\_BEGIN** and [**ICM\_DECOMPRESSEX\_END**](icm-decompress
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

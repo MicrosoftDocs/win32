@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the memory class that holds the buffers for a resource.'
-ms.assetid: '29720b5f-16d7-4bd9-a7bd-e4dbfb00070b'
+---
+Description: Defines the memory class that holds the buffers for a resource.
+ms.assetid: 29720b5f-16d7-4bd9-a7bd-e4dbfb00070b
 title: D3DPOOL enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DPOOL enumeration
@@ -30,7 +35,7 @@ typedef enum D3DPOOL {
 <span id="D3DPOOL_DEFAULT"></span><span id="d3dpool_default"></span>**D3DPOOL\_DEFAULT**
 </dt> <dd>
 
-Resources are placed in the memory pool most appropriate for the set of usages requested for the given resource. This is usually video memory, including both local video memory and AGP memory. The D3DPOOL\_DEFAULT pool is separate from D3DPOOL\_MANAGED and D3DPOOL\_SYSTEMMEM, and it specifies that the resource is placed in the preferred memory for device access. Note that D3DPOOL\_DEFAULT never indicates that either D3DPOOL\_MANAGED or D3DPOOL\_SYSTEMMEM should be chosen as the memory pool type for this resource. Textures placed in the D3DPOOL\_DEFAULT pool cannot be locked unless they are dynamic textures or they are private, FOURCC, driver formats. To access unlockable textures, you must use functions such as [**IDirect3DDevice9::UpdateSurface**](idirect3ddevice9--updatesurface.md), [**IDirect3DDevice9::UpdateTexture**](idirect3ddevice9--updatetexture.md), [**IDirect3DDevice9::GetFrontBufferData**](idirect3ddevice9--getfrontbufferdata.md), and [**IDirect3DDevice9::GetRenderTargetData**](idirect3ddevice9--getrendertargetdata.md). D3DPOOL\_MANAGED is probably a better choice than D3DPOOL\_DEFAULT for most applications. Note that some textures created in driver-proprietary pixel formats, unknown to the Direct3D runtime, can be locked. Also note that - unlike textures - swap chain back buffers, render targets, vertex buffers, and index buffers can be locked. When a device is lost, resources created using D3DPOOL\_DEFAULT must be released before calling [**IDirect3DDevice9::Reset**](idirect3ddevice9--reset.md). For more information, see [Lost Devices (Direct3D 9)](lost-devices.md).
+Resources are placed in the memory pool most appropriate for the set of usages requested for the given resource. This is usually video memory, including both local video memory and AGP memory. The D3DPOOL\_DEFAULT pool is separate from D3DPOOL\_MANAGED and D3DPOOL\_SYSTEMMEM, and it specifies that the resource is placed in the preferred memory for device access. Note that D3DPOOL\_DEFAULT never indicates that either D3DPOOL\_MANAGED or D3DPOOL\_SYSTEMMEM should be chosen as the memory pool type for this resource. Textures placed in the D3DPOOL\_DEFAULT pool cannot be locked unless they are dynamic textures or they are private, FOURCC, driver formats. To access unlockable textures, you must use functions such as [**IDirect3DDevice9::UpdateSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-updatesurface?branch=master), [**IDirect3DDevice9::UpdateTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-updatetexture?branch=master), [**IDirect3DDevice9::GetFrontBufferData**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getfrontbufferdata?branch=master), and [**IDirect3DDevice9::GetRenderTargetData**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getrendertargetdata?branch=master). D3DPOOL\_MANAGED is probably a better choice than D3DPOOL\_DEFAULT for most applications. Note that some textures created in driver-proprietary pixel formats, unknown to the Direct3D runtime, can be locked. Also note that - unlike textures - swap chain back buffers, render targets, vertex buffers, and index buffers can be locked. When a device is lost, resources created using D3DPOOL\_DEFAULT must be released before calling [**IDirect3DDevice9::Reset**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-reset?branch=master). For more information, see [Lost Devices (Direct3D 9)](lost-devices.md).
 
 When creating resources with D3DPOOL\_DEFAULT, if video card memory is already committed, managed resources will be evicted to free enough memory to satisfy the request.
 
@@ -45,7 +50,7 @@ Resources are copied automatically to device-accessible memory as needed. Manage
 
 |                                                                                                                                                                                                                                     |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 9Ex:<br/> D3DPOOL\_MANAGED is valid with [**IDirect3DDevice9**](idirect3ddevice9.md); however, it is not valid with [**IDirect3DDevice9Ex**](idirect3ddevice9ex.md).<br/> |
+| Differences between Direct3D 9 and Direct3D 9Ex:<br/> D3DPOOL\_MANAGED is valid with [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master); however, it is not valid with [**IDirect3DDevice9Ex**](/windows/win32/d3d9/nn-d3d9-idirect3ddevice9ex?branch=master).<br/> |
 
 
 
@@ -56,7 +61,7 @@ Resources are copied automatically to device-accessible memory as needed. Manage
 <span id="D3DPOOL_SYSTEMMEM"></span><span id="d3dpool_systemmem"></span>**D3DPOOL\_SYSTEMMEM**
 </dt> <dd>
 
-Resources are placed in memory that is not typically accessible by the Direct3D device. This memory allocation consumes system RAM but does not reduce pageable RAM. These resources do not need to be recreated when a device is lost. Resources in this pool can be locked and can be used as the source for a [**IDirect3DDevice9::UpdateSurface**](idirect3ddevice9--updatesurface.md) or [**IDirect3DDevice9::UpdateTexture**](idirect3ddevice9--updatetexture.md) operation to a memory resource created with D3DPOOL\_DEFAULT.
+Resources are placed in memory that is not typically accessible by the Direct3D device. This memory allocation consumes system RAM but does not reduce pageable RAM. These resources do not need to be recreated when a device is lost. Resources in this pool can be locked and can be used as the source for a [**IDirect3DDevice9::UpdateSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-updatesurface?branch=master) or [**IDirect3DDevice9::UpdateTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-updatetexture?branch=master) operation to a memory resource created with D3DPOOL\_DEFAULT.
 
 </dd> <dt>
 
@@ -112,7 +117,7 @@ Pools cannot be mixed for different objects contained within one resource (mip l
 
 Applications should use D3DPOOL\_MANAGED for most static resources because this saves the application from having to deal with lost devices. (Managed resources are restored by the runtime.) This is especially beneficial for unified memory architecture (UMA) systems. Other dynamic resources are not a good match for D3DPOOL\_MANAGED. In fact, index buffers and vertex buffers cannot be created using D3DPOOL\_MANAGED together with D3DUSAGE\_DYNAMIC.
 
-For dynamic textures, it is sometimes desirable to use a pair of video memory and system memory textures, allocating the video memory using D3DPOOL\_DEFAULT and the system memory using D3DPOOL\_SYSTEMMEM. You can lock and modify the bits of the system memory texture using a locking method. Then you can update the video memory texture using [**IDirect3DDevice9::UpdateTexture**](idirect3ddevice9--updatetexture.md).
+For dynamic textures, it is sometimes desirable to use a pair of video memory and system memory textures, allocating the video memory using D3DPOOL\_DEFAULT and the system memory using D3DPOOL\_SYSTEMMEM. You can lock and modify the bits of the system memory texture using a locking method. Then you can update the video memory texture using [**IDirect3DDevice9::UpdateTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-updatetexture?branch=master).
 
 ## Requirements
 
@@ -134,19 +139,19 @@ For dynamic textures, it is sometimes desirable to use a pair of video memory an
 [**D3DUSAGE**](d3dusage.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::CreateCubeTexture**](idirect3ddevice9--createcubetexture.md)
+[**IDirect3DDevice9::CreateCubeTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createcubetexture?branch=master)
 </dt> <dt>
 
-[**IDirect3DDevice9::CreateIndexBuffer**](idirect3ddevice9--createindexbuffer.md)
+[**IDirect3DDevice9::CreateIndexBuffer**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createindexbuffer?branch=master)
 </dt> <dt>
 
-[**IDirect3DDevice9::CreateTexture**](idirect3ddevice9--createtexture.md)
+[**IDirect3DDevice9::CreateTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createtexture?branch=master)
 </dt> <dt>
 
-[**IDirect3DDevice9::CreateVolumeTexture**](idirect3ddevice9--createvolumetexture.md)
+[**IDirect3DDevice9::CreateVolumeTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createvolumetexture?branch=master)
 </dt> <dt>
 
-[**IDirect3DDevice9::CreateVertexBuffer**](idirect3ddevice9--createvertexbuffer.md)
+[**IDirect3DDevice9::CreateVertexBuffer**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createvertexbuffer?branch=master)
 </dt> <dt>
 
 [**D3DINDEXBUFFER\_DESC**](d3dindexbuffer-desc.md)

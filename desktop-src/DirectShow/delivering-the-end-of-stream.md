@@ -1,7 +1,12 @@
 ---
 Description: Delivering the End of Stream
-ms.assetid: '23afdb2e-93b0-4a74-94bd-e38eb82a5995'
+ms.assetid: 23afdb2e-93b0-4a74-94bd-e38eb82a5995
 title: Delivering the End of Stream
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Delivering the End of Stream
@@ -28,7 +33,7 @@ HRESULT CMyInputPin::EndOfStream()
 
 
 
-The [**CBaseOutputPin::DeliverEndOfStream**](cbaseoutputpin-deliverendofstream.md) method calls [**IPin::EndOfStream**](ipin-endofstream.md) on the downstream input pin.
+The [**CBaseOutputPin::DeliverEndOfStream**](cbaseoutputpin-deliverendofstream.md) method calls [**IPin::EndOfStream**](/windows/win32/Strmif/nf-strmif-ipin-endofstream?branch=master) on the downstream input pin.
 
 ## Related topics
 

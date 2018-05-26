@@ -1,14 +1,19 @@
 ---
-title: \_Application VersionMinor property
+title: '\_Application VersionMinor property'
 description: The VersionMinor property returns the minor version number of MMC. This property is read-only.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dda02f3b-b326-4181-8923-3a4ad9f62e0d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: dda02f3b-b326-4181-8923-3a4ad9f62e0d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["VersionMinor property MMC", "VersionMinor property MMC , Application object", "Application object MMC , VersionMinor property", "VersionMinor property MMC , _Application interface", "_Application interface MMC , VersionMinor property"]
+keywords:
+- VersionMinor property MMC
+- VersionMinor property MMC , Application object
+- Application object MMC , VersionMinor property
+- VersionMinor property MMC , _Application interface
+- _Application interface MMC , VersionMinor property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_Application::VersionMinor property
@@ -53,8 +61,8 @@ VerMinor = objMMC.VersionMinor
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -63,9 +71,9 @@ VerMinor = objMMC.VersionMinor
 
 
 
- 
+ 
 
- 
+ 
 
 
 

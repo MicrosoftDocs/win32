@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the virtualization-specific settings for a virtual machine.'
-ms.assetid: 'BE81405E-E773-41CE-9441-33D60B63550E'
-title: 'Msvm\_VirtualSystemSettingData class'
+Description: Represents the virtualization-specific settings for a virtual machine.
+ms.assetid: BE81405E-E773-41CE-9441-33D60B63550E
+title: Msvm\_VirtualSystemSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemSettingData class
@@ -16,66 +21,66 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemSettingData : CIM_VirtualSystemSettingData
 {
-  string   InstanceID;
-  string   Caption = "Virtual Machine Settings";
-  string   Description;
-  string   ElementName;
-  string   VirtualSystemIdentifier;
-  string   VirtualSystemType;
-  string   Notes[];
+  string   InstanceID;
+  string   Caption = "Virtual Machine Settings";
+  string   Description;
+  string   ElementName;
+  string   VirtualSystemIdentifier;
+  string   VirtualSystemType;
+  string   Notes[];
   datetime CreationTime;
-  string   ConfigurationID;
-  string   ConfigurationDataRoot;
-  string   ConfigurationFile;
-  string   SnapshotDataRoot;
-  string   SuspendDataRoot;
-  string   SwapFileDataRoot;
-  string   LogDataRoot;
-  uint16   AutomaticStartupAction;
+  string   ConfigurationID;
+  string   ConfigurationDataRoot;
+  string   ConfigurationFile;
+  string   SnapshotDataRoot;
+  string   SuspendDataRoot;
+  string   SwapFileDataRoot;
+  string   LogDataRoot;
+  uint16   AutomaticStartupAction;
   datetime AutomaticStartupActionDelay;
-  uint16   AutomaticStartupActionSequenceNumber;
-  uint16   AutomaticShutdownAction;
-  uint16   AutomaticRecoveryAction;
-  string   RecoveryFile;
-  string   BIOSGUID;
-  string   BIOSSerialNumber;
-  string   BaseBoardSerialNumber;
-  string   ChassisSerialNumber;
-  string   Architecture;
-  string   ChassisAssetTag;
-  boolean  BIOSNumLock;
-  uint16   BootOrder[];
-  string   Parent;
-  uint16   UserSnapshotType;
-  boolean  IsSaved;
-  string   AdditionalRecoveryInformation;
-  boolean  AllowFullSCSICommandSet;
-  uint32   DebugChannelId;
-  uint16   DebugPortEnabled;
-  uint32   DebugPort;
-  string   Version;
-  boolean  IncrementalBackupEnabled;
-  boolean  VirtualNumaEnabled;
-  boolean  AllowReducedFcRedundancy = False;
-  string   VirtualSystemSubType;
-  string   BootSourceOrder[];
-  boolean  PauseAfterBootFailure;
-  uint16   NetworkBootPreferredProtocol;
-  boolean  GuestControlledCacheTypes;
-  boolean  AutomaticSnapshotsEnabled;
-  boolean  IsAutomaticSnapshot;
-  string   GuestStateFile;
-  string   GuestStateDataRoot;
-  boolean  LockOnDisconnect;
-  string   ParentPackage;
+  uint16   AutomaticStartupActionSequenceNumber;
+  uint16   AutomaticShutdownAction;
+  uint16   AutomaticRecoveryAction;
+  string   RecoveryFile;
+  string   BIOSGUID;
+  string   BIOSSerialNumber;
+  string   BaseBoardSerialNumber;
+  string   ChassisSerialNumber;
+  string   Architecture;
+  string   ChassisAssetTag;
+  boolean  BIOSNumLock;
+  uint16   BootOrder[];
+  string   Parent;
+  uint16   UserSnapshotType;
+  boolean  IsSaved;
+  string   AdditionalRecoveryInformation;
+  boolean  AllowFullSCSICommandSet;
+  uint32   DebugChannelId;
+  uint16   DebugPortEnabled;
+  uint32   DebugPort;
+  string   Version;
+  boolean  IncrementalBackupEnabled;
+  boolean  VirtualNumaEnabled;
+  boolean  AllowReducedFcRedundancy = False;
+  string   VirtualSystemSubType;
+  string   BootSourceOrder[];
+  boolean  PauseAfterBootFailure;
+  uint16   NetworkBootPreferredProtocol;
+  boolean  GuestControlledCacheTypes;
+  boolean  AutomaticSnapshotsEnabled;
+  boolean  IsAutomaticSnapshot;
+  string   GuestStateFile;
+  string   GuestStateDataRoot;
+  boolean  LockOnDisconnect;
+  string   ParentPackage;
   datetime AutomaticCriticalErrorActionTimeout;
-  uint16   AutomaticCriticalErrorAction;
-  uint16   ConsoleMode;
-  boolean  SecureBootEnabled;
-  string   SecureBootTemplateId;
-  uint64   LowMmioGapSize;
-  uint64   HighMmioGapSize;
-  uint16   EnhancedSessionTransportType;
+  uint16   AutomaticCriticalErrorAction;
+  uint16   ConsoleMode;
+  boolean  SecureBootEnabled;
+  string   SecureBootTemplateId;
+  uint64   LowMmioGapSize;
+  uint64   HighMmioGapSize;
+  uint16   EnhancedSessionTransportType;
 };
 ```
 
@@ -137,7 +142,7 @@ Specifies whether live migration of a virtual machine that is configured with a 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -153,9 +158,9 @@ Access type: Read-only
 The architecture of this system.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 <dt>
 
@@ -187,9 +192,9 @@ Access type: Read/write
 Identifies the action to be taken on VM, when a critical error happens, like storage disconnect.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 <dt>
 
@@ -232,9 +237,9 @@ Qualifiers: [**SubType**](https://msdn.microsoft.com/library/aa393651) ("interva
 Identifies the maximum duration for which the **AutomaticCriticalErrorAction** will be performed to resolve the critical error. This is applicable only when the value of the **AutomaticCriticalErrorAction** property is not 0 (None). Once the timeout expires, the VM will be powered off. The value will be rounded up to the nearest minute. A value of 0 implies that the VM should be powered off immediately when it encounters a critical error condition.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -262,7 +267,7 @@ This can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -290,7 +295,7 @@ This can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -306,9 +311,9 @@ Access type: Read/write
 Indicates whether this virtual machine should have automatic snapshots enabled.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -336,7 +341,7 @@ This can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -505,7 +510,7 @@ Access type: Read/write
 
 The boot source order for the virtual machine.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -599,9 +604,9 @@ Access type: Read/write
 Identifies the Console Mode for the VM.
 
 > [!Note]  
-> This property was added in Windows 10 and Windows Server 2016.
+> This property was added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 <dt>
 
@@ -734,7 +739,7 @@ A description of the object. This property is inherited from [**CIM\_ManagedElem
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -763,9 +768,9 @@ Access type: Read/write
 Indicates the transport type to use when connecting to an enhanced session.
 
 > [!Note]  
-> This property was added in Windows 10, version 1803.
+> This property was added in Windows 10, version 1803.
 
- 
+ 
 
 <dt>
 
@@ -797,9 +802,9 @@ Access type: Read/write
 Indicates whether the guest can control cache types.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -815,9 +820,9 @@ Access type: Read-only
 Filepath of a directory where information about the guest runtime state is stored.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -833,9 +838,9 @@ Access type: Read-only
 Filepath of a file where information about the guest runtime state is stored. A relative path appends to the value of the **GuestStateDataRoot** property.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -851,9 +856,9 @@ Access type: Read/write
 The size of the High (above 4GB) Memory-Mapped IO Gap in MB
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -898,9 +903,9 @@ Access type: Read-only
 Indicates whether this is a snapshot created automatically for the user.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -929,9 +934,9 @@ Access type: Read/write
 Lock the console when disconnecting from vmconnect.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -959,9 +964,9 @@ Access type: Read/write
 
 Configures the size, in megabytes, of the first MMIO gap for a virtual machine (VM).
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
-Range: 128–3584
+Range: 128 3584
 
 </dd> <dt>
 
@@ -976,7 +981,7 @@ Access type: Read/write
 
 Determines if the preferred protocol for PXE boot is IPv4 or IPv6.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 <dt>
 
@@ -1034,9 +1039,9 @@ Access type: Read/write
 If this system is a container, the path to the Msvm\_ContainerPackage from which this system is based.
 
 > [!Note]  
-> Added in Windows 10; removed in Windows 10, version 1703.
+> Added in Windows 10; removed in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1051,7 +1056,7 @@ Access type: Read/write
 
 Indicates whether the BIOS pauses after every boot entry failure waiting for the user to press a key. **True** if the BIOS pauses; otherwise, **False**.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -1082,9 +1087,9 @@ Indicates whether secure boot is enabled for the virtual machine (VM). **True** 
 > [!Note]  
 > Secure boot can only be enabled for generation 2 VMs.
 
- 
+ 
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -1102,9 +1107,9 @@ The globally-unique identifier of the template of intial values of UEFI Secure B
 This is a read-only property, but it can be changed using the [**ModifyVirtualSystem**](virtual-cim_virtualsystemmanagementservice_modifyvirtualsystem) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1159,9 +1164,9 @@ Access type: Read/write
 Indicates the user-defined snapshot type.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 <dt>
 
@@ -1265,9 +1270,9 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The valid values for this property are Microsoft:Hyper-V:SubType:1 and Microsoft:Hyper-V:SubType:2. A “Generation 1” VM is subtype 1. A “Generation 2” VM is subtype 2.
+The valid values for this property are Microsoft:Hyper-V:SubType:1 and Microsoft:Hyper-V:SubType:2. A  Generation 1  VM is subtype 1. A  Generation 2  VM is subtype 2.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 <dt>
 
@@ -1314,7 +1319,7 @@ Specifies the type of virtual machine the setting data represents. This property
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -1328,8 +1333,8 @@ Access to the **Msvm\_VirtualSystemSettingData** class might be restricted by UA
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1349,9 +1354,9 @@ Access to the **Msvm\_VirtualSystemSettingData** class might be restricted by UA
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

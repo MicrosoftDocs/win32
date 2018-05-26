@@ -2,13 +2,19 @@
 title: coclass attribute
 description: The coclass statement provides a listing of the supported interfaces for a component object.
 ms.assetid: 2c636327-ad18-4087-b495-d1aa84a07f48
-keywords: ["coclass attribute MIDL"]
+keywords:
+- coclass attribute MIDL
 topic_type:
 - apiref
 api_name:
 - coclass
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # coclass attribute

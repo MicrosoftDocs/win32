@@ -2,7 +2,15 @@
 title: Application Configuration File (ACF)
 description: There may be aspects of your distributed application that affect one component, but have nothing to do with another.
 ms.assetid: 017d93fd-1701-4713-a786-752a7695b5a6
-keywords: ["ACF MIDL", "Microsoft Interface Definition Language MIDL , described, application configuration file", "application configuration file MIDL"]
+keywords:
+- ACF MIDL
+- Microsoft Interface Definition Language MIDL , described, application configuration file
+- application configuration file MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Configuration File (ACF)

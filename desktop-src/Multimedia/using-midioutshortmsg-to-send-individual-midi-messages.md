@@ -1,8 +1,19 @@
 ---
 title: Using midiOutShortMsg to Send Individual MIDI Messages
 description: Using midiOutShortMsg to Send Individual MIDI Messages
-ms.assetid: '7a8f7c6c-28ac-4aa6-9073-969fc8e59f4e'
-keywords: ["Musical Instrument Digital Interface (MIDI),sending messages", "MIDI (Musical Instrument Digital Interface),sending messages", "sending MIDI messages", "Musical Instrument Digital Interface (MIDI),midiOutShortMsg function", "MIDI (Musical Instrument Digital Interface),midiOutShortMsg function", "midiOutShortMsg function"]
+ms.assetid: 7a8f7c6c-28ac-4aa6-9073-969fc8e59f4e
+keywords:
+- Musical Instrument Digital Interface (MIDI),sending messages
+- MIDI (Musical Instrument Digital Interface),sending messages
+- sending MIDI messages
+- Musical Instrument Digital Interface (MIDI),midiOutShortMsg function
+- MIDI (Musical Instrument Digital Interface),midiOutShortMsg function
+- midiOutShortMsg function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using midiOutShortMsg to Send Individual MIDI Messages

@@ -4,13 +4,16 @@ description: Returns the IPv6 address ranges excluded from the specified IPv6 su
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e9e04dde-4494-40d9-a543-7086d970f4f6'
-ms.prod: 'windows-server-dev'
+ms.assetid: e9e04dde-4494-40d9-a543-7086d970f4f6
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv6ExclusionRange class", "PS_DhcpServerv6ExclusionRange class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv6ExclusionRange class
+- PS_DhcpServerv6ExclusionRange class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv6ExclusionRange class
@@ -30,9 +36,9 @@ Returns the IPv6 address ranges excluded from the specified IPv6 subnet prefix.
 
 ```mof
 uint32 Get(
-  [in]  string                     ComputerName,
-  [in]  string                     Prefix[],
-  [out] DhcpServerv6ExclusionRange cmdletOutput[]
+  [in]  string                     ComputerName,
+  [in]  string                     Prefix[],
+  [out] DhcpServerv6ExclusionRange cmdletOutput[]
 );
 ```
 
@@ -70,7 +76,7 @@ An embedded instance of the [**DhcpServerv6ExclusionRange**](dhcpserverv6exclusi
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -84,9 +90,9 @@ An embedded instance of the [**DhcpServerv6ExclusionRange**](dhcpserverv6exclusi
 [**PS\_DhcpServerv6ExclusionRange**](ps-dhcpserverv6exclusionrange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: Retrieves a list of the read/write common property names for nodes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '57b755e2-6f0d-4b06-aca4-6ce57627d8a3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 57b755e2-6f0d-4b06-aca4-6ce57627d8a3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_NODE_ENUM_COMMON_PROPERTIES control code Failover Cluster"]
+keywords:
+- CLUSCTL_NODE_ENUM_COMMON_PROPERTIES control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_NODE\_ENUM\_COMMON\_PROPERTIES control code
 
-Retrieves a list of the read/write [common property](common-properties.md) names for [nodes](nodes.md). Applications use this [control code](about-control-codes.md) as a [**ClusterNodeControl**](clusternodecontrol.md) parameter.
+Retrieves a list of the read/write [common property](common-properties.md) names for [nodes](nodes.md). Applications use this [control code](about-control-codes.md) as a [**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master) parameter.
 
 
 ```C++
@@ -40,7 +44,7 @@ ClusterNodeControl(
 
 ## Parameters
 
-The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterNodeControl**](clusternodecontrol.md).
+The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master).
 
 <dl> <dt>
 
@@ -53,7 +57,7 @@ On a successful return, contains an array of null-terminated Unicode strings wit
 
 ## Return value
 
-[**ClusterNodeControl**](clusternodecontrol.md) returns one of the following values.
+[**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -92,17 +96,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_NODE\_ENUM\_COMMON\_PROPERTIES as foll
 
 | Component      | Bit location | Value                                                 |
 |----------------|--------------|-------------------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_NODE** (0x4)<br/>               |
+| Object code    | 24 31        | **CLUS\_OBJECT\_NODE** (0x4)<br/>               |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)<br/>                |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)<br/>                 |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>             |
 | Type bit       | 20           | External (0x0)<br/>                             |
-| Operation code | 0–23         | **CLCTL\_ENUM\_COMMON\_PROPERTIES** (0x51)<br/> |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)<br/>               |
+| Operation code | 0 23         | **CLCTL\_ENUM\_COMMON\_PROPERTIES** (0x51)<br/> |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)<br/>               |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -111,7 +115,7 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_NODE\_ENUM\_COMMON\_PROPERTIES as foll
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -129,12 +133,12 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_NODE\_ENUM\_COMMON\_PROPERTIES as foll
 [CLUSCTL\_NODE\_GET\_RO\_COMMON\_PROPERTIES](clusctl-node-get-ro-common-properties.md)
 </dt> <dt>
 
-[**ClusterNodeControl**](clusternodecontrol.md)
+[**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

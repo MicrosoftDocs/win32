@@ -1,7 +1,12 @@
 ---
 title: struct
 description: This statement defines a C-style structure.
-ms.assetid: 'df2aa076-5ad0-4479-ac6b-d3be6b81480a'
+ms.assetid: df2aa076-5ad0-4479-ac6b-d3be6b81480a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # struct

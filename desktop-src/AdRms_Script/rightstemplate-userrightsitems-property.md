@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a UserRightsItemCollection object that contains a collection of user IDs and associated rights.'
+Description: Retrieves a UserRightsItemCollection object that contains a collection of user IDs and associated rights.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'e6a3eaee-a2b8-45d5-a3d8-12206ac62dc3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: e6a3eaee-a2b8-45d5-a3d8-12206ac62dc3
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'RightsTemplate.UserRightsItems property'
+title: RightsTemplate.UserRightsItems property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RightsTemplate.UserRightsItems property
@@ -129,7 +132,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -144,9 +147,9 @@ END SUB
 [**UserRightsItemCollection**](userrightsitemcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

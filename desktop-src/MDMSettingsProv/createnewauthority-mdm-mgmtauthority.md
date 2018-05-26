@@ -1,8 +1,11 @@
 ---
 title: CreateNewAuthority method of the MDM\_MgmtAuthority class
 description: Creates a new management authority.
-ms.assetid: '910983f3-107e-467e-8aa6-7ac1b3e73f33'
-keywords: ["CreateNewAuthority method MDM Settings", "CreateNewAuthority method MDM Settings , MDM_MgmtAuthority class", "MDM_MgmtAuthority class MDM Settings , CreateNewAuthority method"]
+ms.assetid: 910983f3-107e-467e-8aa6-7ac1b3e73f33
+keywords:
+- CreateNewAuthority method MDM Settings
+- CreateNewAuthority method MDM Settings , MDM_MgmtAuthority class
+- MDM_MgmtAuthority class MDM Settings , CreateNewAuthority method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateNewAuthority method of the MDM\_MgmtAuthority class
@@ -22,7 +30,7 @@ Creates a new management authority.
 
 ```mof
 uint32 CreateNewAuthority(
-  [in] string AuthorityName
+  [in] string AuthorityName
 );
 ```
 
@@ -45,7 +53,7 @@ The authority name.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -60,9 +68,9 @@ The authority name.
 [**MDM\_MgmtAuthority**](https://msdn.microsoft.com/library/dn610391)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: D2D1 Namespace
 description: The D2D1 namespace provides helper classes, functions, and structures that simplify common tasks, such as creating an identity matrix or creating a color.
-ms.assetid: '8c3e2848-5923-4019-926a-c76eef7e2491'
-keywords: ["D2D1 namespace,about"]
+ms.assetid: 8c3e2848-5923-4019-926a-c76eef7e2491
+keywords:
+- D2D1 namespace,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2D1 Namespace
@@ -21,11 +27,11 @@ The D2D1 namespace provides helper classes, functions, and structures that simpl
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

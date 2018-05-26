@@ -1,14 +1,20 @@
 ---
 title: tex2Dlod
 description: Samples a 2D texture with mipmaps. The mipmap LOD is specified in t.w.
-ms.assetid: '689eff39-f6ac-4c25-8b92-ca68707ae8ad'
-keywords: ["tex2Dlod HLSL"]
+ms.assetid: 689eff39-f6ac-4c25-8b92-ca68707ae8ad
+keywords:
+- tex2Dlod HLSL
 topic_type:
 - apiref
 api_name:
 - tex2Dlod
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tex2Dlod
@@ -22,7 +28,7 @@ Samples a 2D texture with mipmaps. The mipmap LOD is specified in t.w.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Samples a 2D texture with mipmaps. The mipmap LOD is specified in t.w.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The value of the texture data.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -69,11 +75,11 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Remarks
 
-Starting with Direct3D 10, you can use new HLSL syntax to access textures and other resources. You can replace intrinsic-style texture lookup functions, such as **tex2Dlod**, with a more object-oriented style. In this object-oriented style, textures are decoupled from samplers and have methods for loading and sampling.
+Starting with Direct3D 10, you can use new HLSL syntax to access textures and other resources. You can replace intrinsic-style texture lookup functions, such as **tex2Dlod**, with a more object-oriented style. In this object-oriented style, textures are decoupled from samplers and have methods for loading and sampling.
 
 To sample a 2D texture, instead of using **tex2Dlod** as in this code:
 
@@ -107,9 +113,9 @@ To use the intrinsic-style texture lookup functions, such as **tex2Dlod**, with 
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

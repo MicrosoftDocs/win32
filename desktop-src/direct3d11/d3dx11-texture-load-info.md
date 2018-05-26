@@ -1,8 +1,9 @@
 ---
 title: D3DX11\_TEXTURE\_LOAD\_INFO structure
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Describes parameters used to load a texture from another texture.
-ms.assetid: '2fe24752-d1bc-4666-bf0f-cc397394da56'
-keywords: ["D3DX11_TEXTURE_LOAD_INFO structure Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Describes parameters used to load a texture from another texture.
+ms.assetid: 2fe24752-d1bc-4666-bf0f-cc397394da56
+keywords:
+- D3DX11_TEXTURE_LOAD_INFO structure Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,14 +12,19 @@ api_location:
 - D3DX11tex.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_TEXTURE\_LOAD\_INFO structure
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 Describes parameters used to load a texture from another texture.
 
@@ -29,14 +35,14 @@ Describes parameters used to load a texture from another texture.
 typedef struct _D3DX11_TEXTURE_LOAD_INFO {
   D3D11_BOX *pSrcBox;
   D3D11_BOX *pDstBox;
-  UINT      SrcFirstMip;
-  UINT      DstFirstMip;
-  UINT      NumMips;
-  UINT      SrcFirstElement;
-  UINT      DstFirstElement;
-  UINT      NumElements;
-  UINT      Filter;
-  UINT      MipFilter;
+  UINT      SrcFirstMip;
+  UINT      DstFirstMip;
+  UINT      NumMips;
+  UINT      SrcFirstElement;
+  UINT      DstFirstElement;
+  UINT      NumElements;
+  UINT      Filter;
+  UINT      MipFilter;
 } D3DX11_TEXTURE_LOAD_INFO;
 ```
 
@@ -49,22 +55,22 @@ typedef struct _D3DX11_TEXTURE_LOAD_INFO {
 **pSrcBox**
 </dt> <dd>
 
-Type: **[**D3D11\_BOX**](d3d11-box.md)\***
+Type: **[**D3D11\_BOX**](/windows/win32/D3D11/ns-d3d11-d3d11_box?branch=master)\***
 
 </dd> <dd>
 
-Source texture box (see [**D3D11\_BOX**](d3d11-box.md)).
+Source texture box (see [**D3D11\_BOX**](/windows/win32/D3D11/ns-d3d11-d3d11_box?branch=master)).
 
 </dd> <dt>
 
 **pDstBox**
 </dt> <dd>
 
-Type: **[**D3D11\_BOX**](d3d11-box.md)\***
+Type: **[**D3D11\_BOX**](/windows/win32/D3D11/ns-d3d11-d3d11_box?branch=master)\***
 
 </dd> <dd>
 
-Destination texture box (see [**D3D11\_BOX**](d3d11-box.md)).
+Destination texture box (see [**D3D11\_BOX**](/windows/win32/D3D11/ns-d3d11-d3d11_box?branch=master)).
 
 </dd> <dt>
 
@@ -75,7 +81,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)*
 
 </dd> <dd>
 
-Source texture mipmap level, see [**D3D11CalcSubresource**](d3d11calcsubresource.md) for more detail.
+Source texture mipmap level, see [**D3D11CalcSubresource**](/windows/win32/D3D11/nf-d3d11-d3d11calcsubresource?branch=master) for more detail.
 
 </dd> <dt>
 
@@ -86,7 +92,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)*
 
 </dd> <dd>
 
-Destination texture mipmap level, see [**D3D11CalcSubresource**](d3d11calcsubresource.md) for more detail.
+Destination texture mipmap level, see [**D3D11CalcSubresource**](/windows/win32/D3D11/nf-d3d11-d3d11calcsubresource?branch=master) for more detail.
 
 </dd> <dt>
 
@@ -195,9 +201,9 @@ The default values are:
 [D3DX Structures](d3d11-graphics-reference-d3dx11-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

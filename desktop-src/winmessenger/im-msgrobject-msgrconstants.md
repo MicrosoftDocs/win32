@@ -1,8 +1,10 @@
 ---
 title: MSGRConstants enumeration
 description: Do not use.
-ms.assetid: 'c7cf3d42-85ba-47ed-a28c-39abff8e6a70'
-keywords: ["MSGRConstants enumeration Windows Messenger", "LockError enumeration Windows Messenger"]
+ms.assetid: c7cf3d42-85ba-47ed-a28c-39abff8e6a70
+keywords:
+- MSGRConstants enumeration Windows Messenger
+- LockError enumeration Windows Messenger
 topic_type:
 - apiref
 api_name:
@@ -11,146 +13,151 @@ api_location:
 - Mdisp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSGRConstants enumeration
 
-\[**MSGRConstants** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MSGRConstants** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
-Do not use. The following are constants used for error or success returns of methods and properties of the Windows Messenger APIs.
+Do not use. The following are constants used for error or success returns of methods and properties of the Windows Messenger APIs.
 
 > [!Note]  
 > The **MSGRConstants** enumerated type is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger. You should use [**MSGRConstants**](im-msgrconstants.md) instead.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 typedef enum  { 
-  MSGR_E_CONNECT                             = MSGR_E(0x0001),
-  MSGR_E_INVALID_SERVER_NAME                 = MSGR_E(0x0002),
-  MSGR_E_INVALID_PASSWORD                    = MSGR_E(0x0003),
-  MSGR_E_ALREADY_LOGGED_ON                   = MSGR_E(0x0004),
-  MSGR_E_SERVER_VERSION                      = MSGR_E(0x0005),
-  MSGR_E_LOGON_TIMEOUT                       = MSGR_E(0x0006),
-  MSGR_E_LIST_FULL                           = MSGR_E(0x0007),
-  MSGR_E_AI_REJECT                           = MSGR_E(0x0008),
-  MSGR_E_AI_REJECT_NOT_INST                  = MSGR_E(0x0009),
-  MSGR_E_USER_NOT_FOUND                      = MSGR_E(0x000A),
-  MSGR_E_ALREADY_IN_LIST                     = MSGR_E(0x000B),
-  MSGR_E_DISCONNECTED                        = MSGR_E(0x000C),
-  MSGR_E_UNEXPECTED                          = MSGR_E(0x000D),
-  MSGR_E_SERVER_TOO_BUSY                     = MSGR_E(0x000E),
-  MSGR_E_INVALID_AUTH_PACKAGES               = MSGR_E(0x000F),
-  MSGR_E_NEWER_CLIENT_AVAILABLE              = MSGR_E(0x0010),
-  MSGR_E_AI_TIMEOUT                          = MSGR_E(0x0011),
-  MSGR_E_CANCEL                              = MSGR_E(0x0012),
-  MSGR_E_TOO_MANY_MATCHES                    = MSGR_E(0x0013),
-  MSGR_E_SERVER_UNAVAILABLE                  = MSGR_E(0x0014),
-  MSGR_E_LOGON_UI_ACTIVE                     = MSGR_E(0x0015),
-  MSGR_E_OPTION_UI_ACTIVE                    = MSGR_E(0x0016),
-  MSGR_E_CONTACT_UI_ACTIVE                   = MSGR_E(0x0017),
-  MSGR_E_PRIMARY_SERVICE_NOT_LOGGED_ON       = MSGR_E(0x0018),
-  MSGR_E_LOGGED_ON                           = MSGR_E(0x0019),
-  MSGR_E_CONNECT_PROXY                       = MSGR_E(0x001A),
-  MSGR_E_PROXY_AUTH                          = MSGR_E(0x001B),
-  MSGR_E_PROXY_AUTH_TYPE                     = MSGR_E(0x001C),
-  MSGR_E_INVALID_PROXY_NAME                  = MSGR_E(0x001D),
-  MSGR_E_NOT_LOGGED_ON                       = MSGR_E(0x001E),
-  MSGR_E_NOT_PRIMARY_SERVICE                 = MSGR_E(0x0020),
-  MSGR_E_TOO_MANY_SESSIONS                   = MSGR_E(0x0021),
-  MSGR_E_TOO_MANY_MESSAGES                   = MSGR_E(0x0022),
-  MSGR_E_REMOTE_LOGIN                        = MSGR_E(0x0023),
-  MSGR_E_INVALID_FRIENDLY_NAME               = MSGR_E(0x0024),
-  MSGR_E_SESSION_FULL                        = MSGR_E(0x0025),
-  MSGR_E_NOT_ALLOWING_NEW_USERS              = MSGR_E(0x0026),
-  MSGR_E_INVALID_DOMAIN                      = MSGR_E(0x0027),
-  MSGR_E_TCP_ERROR                           = MSGR_E(0x0028),
-  MSGR_E_SESSION_TIMEOUT                     = MSGR_E(0x0029),
-  MSGR_E_MULTIPOINT_SESSION_BEGIN_TIMEOUT    = MSGR_E(0x002a),
-  MSGR_E_MULTIPOINT_SESSION_END_TIMEOUT      = MSGR_E(0x002b),
-  MSGR_E_REVERSE_LIST_FULL                   = MSGR_E(0x002c),
-  MSGR_E_SERVER_ERROR                        = MSGR_E(0x002d),
-  MSGR_E_SYSTEM_CONFIG                       = MSGR_E(0x002e),
-  MSGR_E_NO_DIRECTORY                        = MSGR_E(0x002f),
-  MSGR_E_RETRY_SET                           = MSGR_E(0x0030),
-  MSGR_E_CHILD_WITHOUT_CONSENT               = MSGR_E(0x0031),
-  MSGR_E_USER_CANCELLED                      = MSGR_E(0x0032),
-  MSGR_E_CANCEL_BEFORE_CONNECT               = MSGR_E(0x0033),
-  MSGR_E_VOICE_IM_TIMEOUT                    = MSGR_E(0x0034),
-  MSGR_E_NOT_ACCEPTING_PAGES                 = MSGR_E(0x0035),
-  MSGR_E_EMAIL_PASSPORT_NOT_VALIDATED        = MSGR_E(0x0036),
-  MSGR_E_AUDIO_UI_ACTIVE                     = MSGR_E(0x0037),
-  MSGR_E_NO_HARDWARE                         = MSGR_E(0x0038),
-  MSGR_E_PAGING_UNAVAILABLE                  = MSGR_E(0x0039),
-  MSGR_E_PHONE_INVALID_NUMBER                = MSGR_E(0x003a),
-  MSGR_E_PHONE_NO_FUNDS                      = MSGR_E(0x003b),
-  MSGR_E_VOICE_NO_ANSWER                     = MSGR_E(0x003c),
-  MSGR_E_VOICE_WAVEIN_DEVICE                 = MSGR_E(0x003d),
-  MSGR_E_FT_TIMEOUT                          = MSGR_E(0x003e),
-  MSGR_E_MESSAGE_TOO_LONG                    = MSGR_E(0x003f),
-  MSGR_E_VOICE_FIREWALL                      = MSGR_E(0x0040),
-  MSGR_E_VOICE_NETCONN                       = MSGR_E(0x0041),
-  MSGR_E_PHONE_CIRCUITS_BUSY                 = MSGR_E(0x0042),
-  MSGR_E_SERVER_PROTOCOL                     = MSGR_E(0x0043),
-  MSGR_E_UNAVAILABLE_VIA_HTTP                = MSGR_E(0x0044),
-  MSGR_E_PHONE_INVALID_PIN                   = MSGR_E(0x0045),
-  MSGR_E_PHONE_PINPROCEED_TIMEOUT            = MSGR_E(0x0046),
-  MSGR_E_SERVER_SHUTDOWN                     = MSGR_E(0x0047),
-  MSGR_E_CLIENT_DISALLOWED                   = MSGR_E(0x0048),
-  MSGR_E_PHONE_CALL_NOT_COMPLETE             = MSGR_E(0x0049),
-  MSGR_E_GROUPS_NOT_ENABLED                  = MSGR_E(0x004a),
-  MSGR_E_GROUP_ALREADY_EXISTS                = MSGR_E(0x004b),
-  MSGR_E_TOO_MANY_GROUPS                     = MSGR_E(0x004c),
-  MSGR_E_GROUP_DOES_NOT_EXIST                = MSGR_E(0x004d),
-  MSGR_E_USER_NOT_GROUP_MEMBER               = MSGR_E(0x004e),
-  MSGR_E_GROUP_NAME_TOO_LONG                 = MSGR_E(0x004f),
-  MSGR_E_GROUP_NOT_EMPTY                     = MSGR_E(0x0050),
-  MSGR_E_BAD_GROUP_NAME                      = MSGR_E(0x0051),
-  MSGR_E_PHONESERVICE_UNAVAILABLE            = MSGR_E(0x0052),
-  MSGR_E_CANNOT_RENAME                       = MSGR_E(0x0053),
-  MSGR_E_CANNOT_DELETE                       = MSGR_E(0x0054),
-  MSGR_E_INVALID_SERVICE                     = MSGR_E(0x0055),
-  MSGR_E_POLICY_RESTRICTED                   = MSGR_E(0x0056),
-  MSGR_E_BUSY                                = MSGR_E(0x0057),
-  MSGR_E_DNS_SRV_FAIL                        = MSGR_E(0x0058),
-  MSGR_E_DNS_A_RES_FAIL                      = MSGR_E(0x0059),
-  MSGR_E_NO_SERVER_ADDRESS_SPECIFIED         = MSGR_E(0x0060),
-  MSGR_E_TLS_FAIL                            = MSGR_E(0x0061),
-  MSGR_E_INCOMPATIBLE_ENCRYPTION             = MSGR_E(0x0062),
-  MSGR_E_SSL_TUNNEL_FAILED                   = MSGR_E(0x0063),
-  MSGR_E_SIP_TIMEOUT                         = MSGR_E(0x0064),
-  MSGR_E_INCOMPATIBLE_IM                     = MSGR_E(0x0065),
-  MSGR_E_MIM_ADD_TO_CONTACTS_FAIL            = MSGR_E(0x0066),
-  MSGR_E_INVALID_ADDRESS_FORMAT              = MSGR_E(0x0067),
-  MSGR_E_INVALID_CERTIFICATE                 = MSGR_E(0x0068),
-  MSGR_E_AUTH_TIME_SKEW                      = MSGR_E(0x0069),
-  MSGR_E_CHANGED_CREDENTIALS                 = MSGR_E(0x0070),
-  MSGR_E_SIP_LOGIN_FORBIDDEN                 = MSGR_E(0x0071),
-  MSGR_E_SIP_HIGH_SECURITY_SET_TLS           = MSGR_E(0x0072),
-  MSGR_E_CALLEE_INSUFFICIENT_SECURITY_LEVEL  = MSGR_E(0x0073),
-  MSGR_E_CALLER_PEER2PEER_CALLS_NOT_ALLOWED  = MSGR_E(0x0074),
-  MSGR_E_SIP_UDP_UNSUPPORTED                 = MSGR_E(0x0075),
-  MSGR_E_SIP_SEARCH_FORBIDDEN                = MSGR_E(0x0076),
-  MSGR_E_SESSION_RESTRICTED                  = MSGR_E(0x0080),
-  MSGR_E_MANAGED_USER_INVALID_CVR            = MSGR_E(0x0081),
-  MSGR_E_RESTRICTED_USER                     = MSGR_E(0x0082),
-  MSGR_E_PROXY_AUTH_REQUIRED                 = MSGR_E(0x0083),
-  MSGR_E_PROXY_REALM_MISMATCH                = MSGR_E(0x0084),
-  MSGR_E_PROXY_PASSWORD_INCORRECT            = MSGR_E(0x0085),
-  MSGR_E_RESTRICTED_USER_LOGON_RESTRICED     = MSGR_E(0x0086),
-  MSGR_E_IE_OFFLINE                          = MSGR_E(0x0086),
-  MSGR_E_IE_CANT_CONNECT                     = MSGR_E(0x0088),
-  MSGR_S_ALREADY_IN_THE_MODE                 = MSGR_S(0x0001),
-  MSGR_S_TRANSFER_SEND_BEGUN                 = MSGR_S(0x0002),
-  MSGR_S_TRANSFER_SEND_FINISHED              = MSGR_S(0x0003),
-  MSGR_S_TRANSFER_RECEIVE_BEGUN              = MSGR_S(0x0004),
-  MSGR_S_TRANSFER_RECEIVE_FINISHED           = MSGR_S(0x0005),
-  MSGR_S_GROUP_ALREADY_EXISTS                = MSGR_S(0x0006),
-  MSGR_E_FAIL                                = E_FAIL,
-  MSGR_S_OK                                  = S_OK
+  MSGR_E_CONNECT                             = MSGR_E(0x0001),
+  MSGR_E_INVALID_SERVER_NAME                 = MSGR_E(0x0002),
+  MSGR_E_INVALID_PASSWORD                    = MSGR_E(0x0003),
+  MSGR_E_ALREADY_LOGGED_ON                   = MSGR_E(0x0004),
+  MSGR_E_SERVER_VERSION                      = MSGR_E(0x0005),
+  MSGR_E_LOGON_TIMEOUT                       = MSGR_E(0x0006),
+  MSGR_E_LIST_FULL                           = MSGR_E(0x0007),
+  MSGR_E_AI_REJECT                           = MSGR_E(0x0008),
+  MSGR_E_AI_REJECT_NOT_INST                  = MSGR_E(0x0009),
+  MSGR_E_USER_NOT_FOUND                      = MSGR_E(0x000A),
+  MSGR_E_ALREADY_IN_LIST                     = MSGR_E(0x000B),
+  MSGR_E_DISCONNECTED                        = MSGR_E(0x000C),
+  MSGR_E_UNEXPECTED                          = MSGR_E(0x000D),
+  MSGR_E_SERVER_TOO_BUSY                     = MSGR_E(0x000E),
+  MSGR_E_INVALID_AUTH_PACKAGES               = MSGR_E(0x000F),
+  MSGR_E_NEWER_CLIENT_AVAILABLE              = MSGR_E(0x0010),
+  MSGR_E_AI_TIMEOUT                          = MSGR_E(0x0011),
+  MSGR_E_CANCEL                              = MSGR_E(0x0012),
+  MSGR_E_TOO_MANY_MATCHES                    = MSGR_E(0x0013),
+  MSGR_E_SERVER_UNAVAILABLE                  = MSGR_E(0x0014),
+  MSGR_E_LOGON_UI_ACTIVE                     = MSGR_E(0x0015),
+  MSGR_E_OPTION_UI_ACTIVE                    = MSGR_E(0x0016),
+  MSGR_E_CONTACT_UI_ACTIVE                   = MSGR_E(0x0017),
+  MSGR_E_PRIMARY_SERVICE_NOT_LOGGED_ON       = MSGR_E(0x0018),
+  MSGR_E_LOGGED_ON                           = MSGR_E(0x0019),
+  MSGR_E_CONNECT_PROXY                       = MSGR_E(0x001A),
+  MSGR_E_PROXY_AUTH                          = MSGR_E(0x001B),
+  MSGR_E_PROXY_AUTH_TYPE                     = MSGR_E(0x001C),
+  MSGR_E_INVALID_PROXY_NAME                  = MSGR_E(0x001D),
+  MSGR_E_NOT_LOGGED_ON                       = MSGR_E(0x001E),
+  MSGR_E_NOT_PRIMARY_SERVICE                 = MSGR_E(0x0020),
+  MSGR_E_TOO_MANY_SESSIONS                   = MSGR_E(0x0021),
+  MSGR_E_TOO_MANY_MESSAGES                   = MSGR_E(0x0022),
+  MSGR_E_REMOTE_LOGIN                        = MSGR_E(0x0023),
+  MSGR_E_INVALID_FRIENDLY_NAME               = MSGR_E(0x0024),
+  MSGR_E_SESSION_FULL                        = MSGR_E(0x0025),
+  MSGR_E_NOT_ALLOWING_NEW_USERS              = MSGR_E(0x0026),
+  MSGR_E_INVALID_DOMAIN                      = MSGR_E(0x0027),
+  MSGR_E_TCP_ERROR                           = MSGR_E(0x0028),
+  MSGR_E_SESSION_TIMEOUT                     = MSGR_E(0x0029),
+  MSGR_E_MULTIPOINT_SESSION_BEGIN_TIMEOUT    = MSGR_E(0x002a),
+  MSGR_E_MULTIPOINT_SESSION_END_TIMEOUT      = MSGR_E(0x002b),
+  MSGR_E_REVERSE_LIST_FULL                   = MSGR_E(0x002c),
+  MSGR_E_SERVER_ERROR                        = MSGR_E(0x002d),
+  MSGR_E_SYSTEM_CONFIG                       = MSGR_E(0x002e),
+  MSGR_E_NO_DIRECTORY                        = MSGR_E(0x002f),
+  MSGR_E_RETRY_SET                           = MSGR_E(0x0030),
+  MSGR_E_CHILD_WITHOUT_CONSENT               = MSGR_E(0x0031),
+  MSGR_E_USER_CANCELLED                      = MSGR_E(0x0032),
+  MSGR_E_CANCEL_BEFORE_CONNECT               = MSGR_E(0x0033),
+  MSGR_E_VOICE_IM_TIMEOUT                    = MSGR_E(0x0034),
+  MSGR_E_NOT_ACCEPTING_PAGES                 = MSGR_E(0x0035),
+  MSGR_E_EMAIL_PASSPORT_NOT_VALIDATED        = MSGR_E(0x0036),
+  MSGR_E_AUDIO_UI_ACTIVE                     = MSGR_E(0x0037),
+  MSGR_E_NO_HARDWARE                         = MSGR_E(0x0038),
+  MSGR_E_PAGING_UNAVAILABLE                  = MSGR_E(0x0039),
+  MSGR_E_PHONE_INVALID_NUMBER                = MSGR_E(0x003a),
+  MSGR_E_PHONE_NO_FUNDS                      = MSGR_E(0x003b),
+  MSGR_E_VOICE_NO_ANSWER                     = MSGR_E(0x003c),
+  MSGR_E_VOICE_WAVEIN_DEVICE                 = MSGR_E(0x003d),
+  MSGR_E_FT_TIMEOUT                          = MSGR_E(0x003e),
+  MSGR_E_MESSAGE_TOO_LONG                    = MSGR_E(0x003f),
+  MSGR_E_VOICE_FIREWALL                      = MSGR_E(0x0040),
+  MSGR_E_VOICE_NETCONN                       = MSGR_E(0x0041),
+  MSGR_E_PHONE_CIRCUITS_BUSY                 = MSGR_E(0x0042),
+  MSGR_E_SERVER_PROTOCOL                     = MSGR_E(0x0043),
+  MSGR_E_UNAVAILABLE_VIA_HTTP                = MSGR_E(0x0044),
+  MSGR_E_PHONE_INVALID_PIN                   = MSGR_E(0x0045),
+  MSGR_E_PHONE_PINPROCEED_TIMEOUT            = MSGR_E(0x0046),
+  MSGR_E_SERVER_SHUTDOWN                     = MSGR_E(0x0047),
+  MSGR_E_CLIENT_DISALLOWED                   = MSGR_E(0x0048),
+  MSGR_E_PHONE_CALL_NOT_COMPLETE             = MSGR_E(0x0049),
+  MSGR_E_GROUPS_NOT_ENABLED                  = MSGR_E(0x004a),
+  MSGR_E_GROUP_ALREADY_EXISTS                = MSGR_E(0x004b),
+  MSGR_E_TOO_MANY_GROUPS                     = MSGR_E(0x004c),
+  MSGR_E_GROUP_DOES_NOT_EXIST                = MSGR_E(0x004d),
+  MSGR_E_USER_NOT_GROUP_MEMBER               = MSGR_E(0x004e),
+  MSGR_E_GROUP_NAME_TOO_LONG                 = MSGR_E(0x004f),
+  MSGR_E_GROUP_NOT_EMPTY                     = MSGR_E(0x0050),
+  MSGR_E_BAD_GROUP_NAME                      = MSGR_E(0x0051),
+  MSGR_E_PHONESERVICE_UNAVAILABLE            = MSGR_E(0x0052),
+  MSGR_E_CANNOT_RENAME                       = MSGR_E(0x0053),
+  MSGR_E_CANNOT_DELETE                       = MSGR_E(0x0054),
+  MSGR_E_INVALID_SERVICE                     = MSGR_E(0x0055),
+  MSGR_E_POLICY_RESTRICTED                   = MSGR_E(0x0056),
+  MSGR_E_BUSY                                = MSGR_E(0x0057),
+  MSGR_E_DNS_SRV_FAIL                        = MSGR_E(0x0058),
+  MSGR_E_DNS_A_RES_FAIL                      = MSGR_E(0x0059),
+  MSGR_E_NO_SERVER_ADDRESS_SPECIFIED         = MSGR_E(0x0060),
+  MSGR_E_TLS_FAIL                            = MSGR_E(0x0061),
+  MSGR_E_INCOMPATIBLE_ENCRYPTION             = MSGR_E(0x0062),
+  MSGR_E_SSL_TUNNEL_FAILED                   = MSGR_E(0x0063),
+  MSGR_E_SIP_TIMEOUT                         = MSGR_E(0x0064),
+  MSGR_E_INCOMPATIBLE_IM                     = MSGR_E(0x0065),
+  MSGR_E_MIM_ADD_TO_CONTACTS_FAIL            = MSGR_E(0x0066),
+  MSGR_E_INVALID_ADDRESS_FORMAT              = MSGR_E(0x0067),
+  MSGR_E_INVALID_CERTIFICATE                 = MSGR_E(0x0068),
+  MSGR_E_AUTH_TIME_SKEW                      = MSGR_E(0x0069),
+  MSGR_E_CHANGED_CREDENTIALS                 = MSGR_E(0x0070),
+  MSGR_E_SIP_LOGIN_FORBIDDEN                 = MSGR_E(0x0071),
+  MSGR_E_SIP_HIGH_SECURITY_SET_TLS           = MSGR_E(0x0072),
+  MSGR_E_CALLEE_INSUFFICIENT_SECURITY_LEVEL  = MSGR_E(0x0073),
+  MSGR_E_CALLER_PEER2PEER_CALLS_NOT_ALLOWED  = MSGR_E(0x0074),
+  MSGR_E_SIP_UDP_UNSUPPORTED                 = MSGR_E(0x0075),
+  MSGR_E_SIP_SEARCH_FORBIDDEN                = MSGR_E(0x0076),
+  MSGR_E_SESSION_RESTRICTED                  = MSGR_E(0x0080),
+  MSGR_E_MANAGED_USER_INVALID_CVR            = MSGR_E(0x0081),
+  MSGR_E_RESTRICTED_USER                     = MSGR_E(0x0082),
+  MSGR_E_PROXY_AUTH_REQUIRED                 = MSGR_E(0x0083),
+  MSGR_E_PROXY_REALM_MISMATCH                = MSGR_E(0x0084),
+  MSGR_E_PROXY_PASSWORD_INCORRECT            = MSGR_E(0x0085),
+  MSGR_E_RESTRICTED_USER_LOGON_RESTRICED     = MSGR_E(0x0086),
+  MSGR_E_IE_OFFLINE                          = MSGR_E(0x0086),
+  MSGR_E_IE_CANT_CONNECT                     = MSGR_E(0x0088),
+  MSGR_S_ALREADY_IN_THE_MODE                 = MSGR_S(0x0001),
+  MSGR_S_TRANSFER_SEND_BEGUN                 = MSGR_S(0x0002),
+  MSGR_S_TRANSFER_SEND_FINISHED              = MSGR_S(0x0003),
+  MSGR_S_TRANSFER_RECEIVE_BEGUN              = MSGR_S(0x0004),
+  MSGR_S_TRANSFER_RECEIVE_FINISHED           = MSGR_S(0x0005),
+  MSGR_S_GROUP_ALREADY_EXISTS                = MSGR_S(0x0006),
+  MSGR_E_FAIL                                = E_FAIL,
+  MSGR_S_OK                                  = S_OK
 } LockError;
 ```
 
@@ -1020,16 +1027,16 @@ Success.
 
 |                                  |                                                                                      |
 |----------------------------------|--------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                |
-| End of server support<br/> | Windows Server 2003<br/>                                                       |
+| End of client support<br/> | Windows XP<br/>                                                                |
+| End of server support<br/> | Windows Server 2003<br/>                                                       |
 | Header<br/>                | <dl> <dt>Mdisp.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Mdisp.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,18 @@
 ---
 title: Texture2D SampleCmp methods
 description: Samples a Texture2D, using a comparison value to reject samples.
-ms.assetid: '57CAF0F4-740A-440D-B1CC-05CFE748ECC0'
-keywords: ["SampleCmp methods HLSL"]
+ms.assetid: 57CAF0F4-740A-440D-B1CC-05CFE748ECC0
+keywords:
+- SampleCmp methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2D::SampleCmp methods
@@ -36,9 +42,9 @@ Refer to [Texture-Object](dx-graphics-hlsl-to-type.md).
 [Texture2D](sm5-object-texture2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

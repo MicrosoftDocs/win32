@@ -1,7 +1,12 @@
 ---
 title: dcl\_input vPrim (sm4 - asm)
 description: dcl\_input vPrim (sm4 - asm)
-ms.assetid: '75287673-21d6-4eb7-829f-7f2f340aec54'
+ms.assetid: 75287673-21d6-4eb7-829f-7f2f340aec54
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_input vPrim (sm4 - asm)
@@ -15,7 +20,7 @@ Declares that a geometry shader uses its scalar input-register vPrim.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declares that a geometry shader uses its scalar input-register vPrim.
 
 
 
- 
+ 
 
 The scalar cannot be applied to any adjacent primitives.
 
@@ -39,7 +44,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 This instruction is included to aid in debugging a shader in assembly; you cannot author a shader in assembly language using Shader Model 4.
 
@@ -60,7 +65,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -69,9 +74,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

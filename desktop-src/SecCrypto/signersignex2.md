@@ -1,7 +1,12 @@
-﻿---
-Description: 'Signs and time stamps the specified file, allowing multiple nested signatures.'
-ms.assetid: '216EFFCF-CD23-484A-ADBF-94B5AD52289F'
+---
+Description: Signs and time stamps the specified file, allowing multiple nested signatures.
+ms.assetid: 216EFFCF-CD23-484A-ADBF-94B5AD52289F
 title: SignerSignEx2 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SignerSignEx2 function
@@ -51,7 +56,7 @@ If the file to be signed is a portable executable (PE) file, this can be zero or
 
 | Value                                                                                                                                                                                                                                                                                    | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="SPC_EXC_PE_PAGE_HASHES_FLAG"></span><span id="spc_exc_pe_page_hashes_flag"></span><dl> <dt>**SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG**</dt> <dt>0x10</dt> </dl>                    | Exclude page hashes when creating SIP indirect data for the PE file. This flag takes precedence over the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag.<br/> If neither the **SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG** or the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag is specified, the value set with the [**WintrustSetDefaultIncludePEPageHashes**](wintrustsetdefaultincludepepagehashes.md) function is used for this setting. The default for this setting is to exclude page hashes when creating SIP indirect data for PE files.<br/> This value is defined in the Mssip.h header file.<br/> **Windows Server 2003 and Windows XP:** This value is not supported.<br/> |
+| <span id="SPC_EXC_PE_PAGE_HASHES_FLAG"></span><span id="spc_exc_pe_page_hashes_flag"></span><dl> <dt>**SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG**</dt> <dt>0x10</dt> </dl>                    | Exclude page hashes when creating SIP indirect data for the PE file. This flag takes precedence over the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag.<br/> If neither the **SPC\_EXC\_PE\_PAGE\_HASHES\_FLAG** or the **SPC\_INC\_PE\_PAGE\_HASHES\_FLAG** flag is specified, the value set with the [**WintrustSetDefaultIncludePEPageHashes**](/windows/win32/Wintrust/nf-wintrust-wintrustsetdefaultincludepepagehashes?branch=master) function is used for this setting. The default for this setting is to exclude page hashes when creating SIP indirect data for PE files.<br/> This value is defined in the Mssip.h header file.<br/> **Windows Server 2003 and Windows XP:** This value is not supported.<br/> |
 | <span id="SPC_INC_PE_IMPORT_ADDR_TABLE_FLAG"></span><span id="spc_inc_pe_import_addr_table_flag"></span><dl> <dt>**SPC\_INC\_PE\_IMPORT\_ADDR\_TABLE\_FLAG**</dt> <dt>0x20</dt> </dl> | This value is not supported.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | <span id="SPC_INC_PE_DEBUG_INFO_FLAG"></span><span id="spc_inc_pe_debug_info_flag"></span><dl> <dt>**SPC\_INC\_PE\_DEBUG\_INFO\_FLAG**</dt> <dt>0x40</dt> </dl>                       | This value is not supported.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | <span id="SPC_INC_PE_RESOURCES_FLAG"></span><span id="spc_inc_pe_resources_flag"></span><dl> <dt>**SPC\_INC\_PE\_RESOURCES\_FLAG**</dt> <dt>0x80</dt> </dl>                           | This value is not supported.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -131,7 +136,7 @@ URL of the time stamp server.
 *psRequest* \[in, optional\]
 </dt> <dd>
 
-Pointer to an array of [**CRYPT\_ATTRIBUTE**](crypt-attribute.md) structures that are added to a sign request. This parameter is ignored if the *pwszHttpTimeStamp* parameter does not contain a valid value or is **NULL**.
+Pointer to an array of [**CRYPT\_ATTRIBUTE**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_attribute?branch=master) structures that are added to a sign request. This parameter is ignored if the *pwszHttpTimeStamp* parameter does not contain a valid value or is **NULL**.
 
 </dd> <dt>
 
@@ -152,7 +157,7 @@ The address of a pointer to the [**SIGNER\_CONTEXT**](signer-context.md) structu
 *pCryptoPolicy* \[in, optional\]
 </dt> <dd>
 
-If present, a pointer to a [**CERT\_STRONG\_SIGN\_PARA**](cert-strong-sign-para.md) structure that contains the parameters used to check for strong signatures. If either a certificate or its chain does not pass, the file is not altered in any way. If a URL is passed in to specify a Time Stamping Authority (TSA), this policy is also applied to the time stamp.
+If present, a pointer to a [**CERT\_STRONG\_SIGN\_PARA**](/windows/win32/Wincrypt/ns-wincrypt-_cert_strong_sign_para?branch=master) structure that contains the parameters used to check for strong signatures. If either a certificate or its chain does not pass, the file is not altered in any way. If a URL is passed in to specify a Time Stamping Authority (TSA), this policy is also applied to the time stamp.
 
 </dd> <dt>
 

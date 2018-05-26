@@ -1,7 +1,12 @@
 ---
-Description: 'Adds stroke data for multiple strokes to the IInkAnalyzer and assigns the active input thread''s culture identifier to the strokes.'
-ms.assetid: '4a8d6828-699b-465d-b057-197866ff069f'
-title: 'IInkAnalyzer::AddStrokes method'
+Description: Adds stroke data for multiple strokes to the IInkAnalyzer and assigns the active input threads culture identifier to the strokes.
+ms.assetid: 4a8d6828-699b-465d-b057-197866ff069f
+title: IInkAnalyzerAddStrokes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::AddStrokes method
@@ -13,13 +18,13 @@ Adds stroke data for multiple strokes to the [**IInkAnalyzer**](iinkanalyzer.md)
 
 ```C++
 HRESULT AddStrokes(
-  [in]  ULONG        ulStrokeIdsCount,
-  [in]  LONG         *plStrokeIds,
-  [in]  ULONG        ulStrokePacketDescriptionCount,
-  [in]  GUID         *pStrokePacketDescriptionGuids,
-  [in]  ULONG        *pulPacketDataCountPerStroke,
-  [in]  LONG         *plStrokePacketData,
-  [out] IContextNode **ppContextNodeStrokeAddedTo
+  [in]  ULONG        ulStrokeIdsCount,
+  [in]  LONG         *plStrokeIds,
+  [in]  ULONG        ulStrokePacketDescriptionCount,
+  [in]  GUID         *pStrokePacketDescriptionGuids,
+  [in]  ULONG        *pulPacketDataCountPerStroke,
+  [in]  LONG         *plStrokePacketData,
+  [out] IContextNode **ppContextNodeStrokeAddedTo
 );
 ```
 
@@ -87,7 +92,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppContextNodeStrokeAddedTo* when you no longer need to use the object.
 
- 
+ 
 
 When *ppContextNodeStrokeAddedTo* is **NULL**, it indicates that the caller is not interested in the return value from the method.
 
@@ -100,7 +105,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) assigns the culture identifier of the ac
 > [!Note]  
 > Only strokes with the same packet descriptions can be added in a single call to **IInkAnalyzer::AddStrokes Method**.
 
- 
+ 
 
 This method expands the dirty region to the union of the region's current value and the bounding box of the added strokes.
 
@@ -112,7 +117,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) already contains a stroke with the sa
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -144,9 +149,9 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) already contains a stroke with the sa
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

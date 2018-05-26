@@ -1,8 +1,11 @@
 ---
 title: TypeText method of the Msvm\_Keyboard class
 description: Simulates a series of typed ASCII characters.
-ms.assetid: '493cff58-0d80-4844-a134-e2035f98ed43'
-keywords: ["TypeText method Hyper-V", "TypeText method Hyper-V , Msvm_Keyboard class", "Msvm_Keyboard class Hyper-V , TypeText method"]
+ms.assetid: 493cff58-0d80-4844-a134-e2035f98ed43
+keywords:
+- TypeText method Hyper-V
+- TypeText method Hyper-V , Msvm_Keyboard class
+- Msvm_Keyboard class Hyper-V , TypeText method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TypeText method of the Msvm\_Keyboard class
@@ -22,7 +30,7 @@ Simulates a series of typed ASCII characters. This routine may not be used to si
 
 ```mof
 uint32 TypeText(
-  [in] string asciiText
+  [in] string asciiText
 );
 ```
 
@@ -311,9 +319,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -326,9 +334,9 @@ End Function
 [**Msvm\_Keyboard**](msvm-keyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

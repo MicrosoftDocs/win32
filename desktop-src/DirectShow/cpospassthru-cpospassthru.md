@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'b258401c-158b-4eb8-8736-1e1ad9a8403a'
-title: 'CPosPassThru.CPosPassThru constructor'
+Description: Constructor method.
+ms.assetid: b258401c-158b-4eb8-8736-1e1ad9a8403a
+title: CPosPassThru.CPosPassThru constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.CPosPassThru constructor
@@ -51,7 +56,7 @@ Pointer to an **HRESULT** value. Ignored.
 *pPin* 
 </dt> <dd>
 
-Pointer to the [**IPin**](ipin.md) interface of the filter's input pin.
+Pointer to the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface of the filter's input pin.
 
 </dd> <dt>
 

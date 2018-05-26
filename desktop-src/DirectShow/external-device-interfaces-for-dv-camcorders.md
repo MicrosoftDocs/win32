@@ -1,7 +1,12 @@
 ---
 Description: External Device Interfaces for DV Camcorders
-ms.assetid: '001321c5-70c7-4baa-ba5a-1e424ca0d647'
+ms.assetid: 001321c5-70c7-4baa-ba5a-1e424ca0d647
 title: External Device Interfaces for DV Camcorders
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External Device Interfaces for DV Camcorders
@@ -12,9 +17,9 @@ The [WDM Video Capture](wdm-video-capture-filter.md) filter exposes three interf
 
 |                                                |                                                 |
 |------------------------------------------------|-------------------------------------------------|
-| [**IAMExtDevice**](iamextdevice.md)           | The base interface for external device control. |
-| [**IAMExtTransport**](iamexttransport.md)     | Controls the VCR functions.                     |
-| [**IAMTimecodeReader**](iamtimecodereader.md) | Reads timecode from the device.                 |
+| [**IAMExtDevice**](/windows/win32/Strmif/nn-strmif-iamextdevice?branch=master)           | The base interface for external device control. |
+| [**IAMExtTransport**](/windows/win32/Strmif/nn-strmif-iamexttransport?branch=master)     | Controls the VCR functions.                     |
+| [**IAMTimecodeReader**](/windows/win32/Strmif/nn-strmif-iamtimecodereader?branch=master) | Reads timecode from the device.                 |
 
 
 

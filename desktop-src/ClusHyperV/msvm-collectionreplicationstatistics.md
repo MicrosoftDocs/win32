@@ -4,13 +4,15 @@ description: Provides replication statistics for a virtual system collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4ff2154a-e766-4969-9af1-a03a0c53bcda'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4ff2154a-e766-4969-9af1-a03a0c53bcda
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_CollectionReplicationStatistics class", "Msvm_CollectionReplicationStatistics class, described"]
+keywords:
+- Msvm_CollectionReplicationStatistics class
+- Msvm_CollectionReplicationStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - clushyperv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_CollectionReplicationStatistics class
@@ -51,22 +56,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_CollectionReplicationStatistics : CIM_ManagedElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   DateTime StartStatisticTime;
   DateTime EndStatisticTime;
-  uint32   ReplicationWALSuccessCount;
-  uint32   ReplicationWALMissCount;
-  uint64   ReplicationSize;
-  uint64   MaxReplicationSize;
-  uint64   PendingReplicationSize;
-  uint32   NetworkFailureCount;
-  uint32   ReplicationFailureCount;
-  uint32   ApplicationConsistentSnapshotFailureCount;
-  uint32   ReplicationHealth;
-  uint32   MaxReplicationLatency;
+  uint32   ReplicationWALSuccessCount;
+  uint32   ReplicationWALMissCount;
+  uint64   ReplicationSize;
+  uint64   MaxReplicationSize;
+  uint64   PendingReplicationSize;
+  uint32   NetworkFailureCount;
+  uint32   ReplicationFailureCount;
+  uint32   ApplicationConsistentSnapshotFailureCount;
+  uint32   ReplicationHealth;
+  uint32   MaxReplicationLatency;
   DateTime LastWALReplicationTime;
   DateTime LastTestFailoverTime;
 };
@@ -181,7 +186,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedElement**](cim-managedelement.md).
 
@@ -350,7 +355,7 @@ The time when the Hyper-V Replica service started gathering replication statisti
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Clushyperv.dll</dt> </dl>              |
@@ -364,9 +369,9 @@ The time when the Hyper-V Replica service started gathering replication statisti
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

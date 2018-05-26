@@ -1,14 +1,20 @@
 ---
 title: Rootcauses (GlobalDiagnosticPackage) Element
 description: Contains a collection of root causes to detect.
-ms.assetid: '5797f3d2-7523-40b0-a350-6a787631421d'
-keywords: ["Rootcauses element Windows Troubleshooting Toolkit"]
+ms.assetid: 5797f3d2-7523-40b0-a350-6a787631421d
+keywords:
+- Rootcauses element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Rootcauses
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rootcauses (GlobalDiagnosticPackage) Element
@@ -36,14 +42,14 @@ The **Rootcauses** element is defined by the [**GlobalDiagnosticPackage**](packa
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

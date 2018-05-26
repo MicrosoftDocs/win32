@@ -1,7 +1,12 @@
 ---
-Description: 'Your application may need to prompt the user for user name and password information to avoid storing an administrator password or to verify that the token holds the appropriate privileges.'
-ms.assetid: '966de0cc-63de-4430-843f-668de2dfe0a6'
+Description: Your application may need to prompt the user for user name and password information to avoid storing an administrator password or to verify that the token holds the appropriate privileges.
+ms.assetid: 966de0cc-63de-4430-843f-668de2dfe0a6
 title: Asking the User for Credentials
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Asking the User for Credentials

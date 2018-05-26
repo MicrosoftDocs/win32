@@ -1,7 +1,12 @@
-﻿---
-Description: 'Lists the vector functions provided by DirectXMath that can be used on any vector type.'
-ms.assetid: '6c354159-8c90-d241-1aff-8f198097b83d'
+---
+Description: Lists the vector functions provided by DirectXMath that can be used on any vector type.
+ms.assetid: 6c354159-8c90-d241-1aff-8f198097b83d
 title: DirectXMath Library Vector Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectXMath Library Vector Functions

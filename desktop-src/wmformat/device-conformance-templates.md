@@ -1,8 +1,17 @@
 ---
 title: Device Conformance Templates
 description: Device Conformance Templates
-ms.assetid: 'dad3dd2c-595e-45ce-bd84-2a20bc656cfb'
-keywords: ["Windows Media Format SDK,device conformance templates", "codecs,device conformance templates", "device conformance templates,about", "templates,device conformance templates"]
+ms.assetid: dad3dd2c-595e-45ce-bd84-2a20bc656cfb
+keywords:
+- Windows Media Format SDK,device conformance templates
+- codecs,device conformance templates
+- device conformance templates,about
+- templates,device conformance templates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Conformance Templates

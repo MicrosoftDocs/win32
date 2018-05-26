@@ -1,7 +1,12 @@
 ---
-Description: 'Demonstrates the use of basic wireless network management functions.'
-ms.assetid: '63af0b88-c20b-4b06-9db3-e8510fc80053'
+Description: Demonstrates the use of basic wireless network management functions.
+ms.assetid: 63af0b88-c20b-4b06-9db3-e8510fc80053
 title: Native Wifi API Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Native Wifi API Sample
@@ -20,17 +25,17 @@ The Native Wifi sample can be compiled and run on Windows Vista and later, Wind
 
 The Native Wifi sample demonstrates how to perform the following tasks:
 
--   Enumerate wireless interfaces. See [**WlanEnumInterfaces**](wlanenuminterfaces.md).
--   Get the capabilities of an interface. See [**WlanGetInterfaceCapability**](wlangetinterfacecapability.md).
+-   Enumerate wireless interfaces. See [**WlanEnumInterfaces**](/windows/win32/wlanapi/nf-wlanapi-wlanenuminterfaces?branch=master).
+-   Get the capabilities of an interface. See [**WlanGetInterfaceCapability**](/windows/win32/wlanapi/nf-wlanapi-wlangetinterfacecapability?branch=master).
 
     **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  ** This feature is not supported.
 
--   Query an interface. See [**WlanQueryInterface**](wlanqueryinterface.md).
--   Set parameters for a network interface. See [**WlanSetInterface**](wlansetinterface.md). This function can be used to turn the wireless radio on and off (and therefore enable or disable wireless network connectivity).
--   Scan for available wireless networks. See [**WlanScan**](wlanscan.md).
--   Get the list of available or visible wireless networks. See [**WlanGetAvailableNetworkList**](wlangetavailablenetworklist.md).
--   Get, save, or delete a profile. See [**WlanGetProfile**](wlangetprofile.md), [**WlanSetProfile**](wlansetprofile.md), and [**WlanDeleteProfile**](wlandeleteprofile.md).
--   Connect to or disconnect from a wireless network. See [**WlanConnect**](wlanconnect.md) and [**WlanDisconnect**](wlandisconnect.md).
+-   Query an interface. See [**WlanQueryInterface**](/windows/win32/Wlanapi/nf-wlanapi-wlanqueryinterface?branch=master).
+-   Set parameters for a network interface. See [**WlanSetInterface**](/windows/win32/Wlanapi/nf-wlanapi-wlansetinterface?branch=master). This function can be used to turn the wireless radio on and off (and therefore enable or disable wireless network connectivity).
+-   Scan for available wireless networks. See [**WlanScan**](/windows/win32/wlanapi/nf-wlanapi-wlanscan?branch=master).
+-   Get the list of available or visible wireless networks. See [**WlanGetAvailableNetworkList**](/windows/win32/wlanapi/nf-wlanapi-wlangetavailablenetworklist?branch=master).
+-   Get, save, or delete a profile. See [**WlanGetProfile**](/windows/win32/wlanapi/nf-wlanapi-wlangetprofile?branch=master), [**WlanSetProfile**](/windows/win32/wlanapi/nf-wlanapi-wlansetprofile?branch=master), and [**WlanDeleteProfile**](/windows/win32/wlanapi/nf-wlanapi-wlandeleteprofile?branch=master).
+-   Connect to or disconnect from a wireless network. See [**WlanConnect**](/windows/win32/wlanapi/nf-wlanapi-wlanconnect?branch=master) and [**WlanDisconnect**](/windows/win32/wlanapi/nf-wlanapi-wlandisconnect?branch=master).
 
 ## Related topics
 

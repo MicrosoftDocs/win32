@@ -4,13 +4,16 @@ description: Gets and sets the following instance-specific/global NLB registry p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '36a2e7dd-717e-4c07-ba36-cf0d460262bf'
-ms.prod: 'windows-server-dev'
+ms.assetid: 36a2e7dd-717e-4c07-ba36-cf0d460262bf
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AccessNLBRegParam method", "AccessNLBRegParam method, MicrosoftNLB_ClusterSetting class", "MicrosoftNLB_ClusterSetting class, AccessNLBRegParam method"]
+keywords:
+- AccessNLBRegParam method
+- AccessNLBRegParam method, MicrosoftNLB_ClusterSetting class
+- MicrosoftNLB_ClusterSetting class, AccessNLBRegParam method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AccessNLBRegParam method of the MicrosoftNLB\_ClusterSetting class
@@ -30,10 +36,10 @@ Gets and sets the following instance-specific/global NLB registry parameters. Fo
 
 ```mof
 boolean AccessNLBRegParam(
-  [in]      boolean Get = ,
-  [in]      boolean InstanceOnly = ,
-  [in]      string  Name,
-  [in, out] uint32  Value
+  [in]      boolean Get = ,
+  [in]      boolean InstanceOnly = ,
+  [in]      string  Name,
+  [in, out] uint32  Value
 );
 ```
 
@@ -100,7 +106,7 @@ Value to be set
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -114,9 +120,9 @@ Value to be set
 [**MicrosoftNLB\_ClusterSetting**](microsoftnlb-clustersetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

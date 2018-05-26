@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a service to be hosted in a host builder function.'
-ms.assetid: '87ff447a-ced0-4079-b46d-239f0db37250'
+Description: Defines a service to be hosted in a host builder function.
+ms.assetid: 87ff447a-ced0-4079-b46d-239f0db37250
 title: hostedService element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # hostedService element
@@ -59,14 +64,14 @@ codeName(
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

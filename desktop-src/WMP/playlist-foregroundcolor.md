@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.foregroundColor
 description: The foregroundColor attribute specifies or retrieves the foreground color.
-ms.assetid: 'a83ceeec-033e-4060-b968-1d19bd7e391b'
-keywords: ["PLAYLIST.foregroundColor Windows Media Player"]
+ms.assetid: a83ceeec-033e-4060-b968-1d19bd7e391b
+keywords:
+- PLAYLIST.foregroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.foregroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.foregroundColor
@@ -43,9 +49,9 @@ This attribute is a read/write **String** containing any Microsoft Internet Expl
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

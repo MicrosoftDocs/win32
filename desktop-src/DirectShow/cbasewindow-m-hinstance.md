@@ -1,7 +1,12 @@
 ---
-Description: 'Handle to the module instance.'
-ms.assetid: 'ad889ebe-2bd8-4456-9517-9e2909697a02'
-title: 'CBaseWindow::m\_hInstance member'
+Description: Handle to the module instance.
+ms.assetid: ad889ebe-2bd8-4456-9517-9e2909697a02
+title: CBaseWindowm\_hInstance member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_hInstance member
@@ -39,9 +44,9 @@ The DLL entry point function sets a global variable with a handle to the module 
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

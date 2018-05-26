@@ -1,12 +1,17 @@
 ---
 title: Client Authentication Credentials
 description: Each authenticated client must provide authentication credentials to the server.
-ms.assetid: 'd567e944-8d68-4d95-be6a-840e30f57ba9'
+ms.assetid: d567e944-8d68-4d95-be6a-840e30f57ba9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Authentication Credentials
 
-Each authenticated client must provide authentication credentials to the server. Under RPC, the client stores its authentication credentials in the binding between the client and the server. To do this, the client calls [**RpcBindingSetAuthInfo**](rpcbindingsetauthinfo.md) or [**RpcBindingSetAuthInfoEx**](rpcbindingsetauthinfoex.md).
+Each authenticated client must provide authentication credentials to the server. Under RPC, the client stores its authentication credentials in the binding between the client and the server. To do this, the client calls [**RpcBindingSetAuthInfo**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo?branch=master) or [**RpcBindingSetAuthInfoEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa?branch=master).
 
 There are two types of credentials—implicit and explicit:
 
@@ -17,7 +22,7 @@ Clients should refrain from supplying explicit credentials because storing, mani
 
 To use implicit credentials, the client calls **RpcBindingSetAuthInfo**(*Ex*). The security system and RPC obtain credentials from the thread or process token for use in the authentication session.
 
-If the client uses explicit credentials, the fifth parameter of these two functions is of type [**RPC\_AUTH\_IDENTITY\_HANDLE**](rpc-auth-identity-handle.md). This is a flexible type that is a pointer to a data structure. The contents of the data structure can differ with each authentication service. Currently, the SSPs that RPC supports require that your application set **RPC\_AUTH\_IDENTITY\_HANDLE** to point to a [**SEC\_WINNT\_AUTH\_IDENTITY**](sec-winnt-auth-identity.md) structure. The **SEC\_WINNT\_AUTH\_IDENTITY** structure contains fields for a user name, domain, and password.
+If the client uses explicit credentials, the fifth parameter of these two functions is of type [**RPC\_AUTH\_IDENTITY\_HANDLE**](rpc-auth-identity-handle.md). This is a flexible type that is a pointer to a data structure. The contents of the data structure can differ with each authentication service. Currently, the SSPs that RPC supports require that your application set **RPC\_AUTH\_IDENTITY\_HANDLE** to point to a [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/win32/Rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a?branch=master) structure. The **SEC\_WINNT\_AUTH\_IDENTITY** structure contains fields for a user name, domain, and password.
 
  
 

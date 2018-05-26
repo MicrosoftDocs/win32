@@ -1,7 +1,12 @@
 ---
-Description: 'The HANDOFFTABLE structure defines the protocols of a handoff table.'
-ms.assetid: '6dbca2fa-33fb-48e8-b663-be59aec6264b'
+Description: The HANDOFFTABLE structure defines the protocols of a handoff table.
+ms.assetid: 6dbca2fa-33fb-48e8-b663-be59aec6264b
 title: HANDOFFTABLE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HANDOFFTABLE structure
@@ -15,8 +20,8 @@ This structure is filled in by Network Monitor based on information in a user su
 
 ```C++
 typedef struct HANDOFFTABLE {
-  DWORD          hot_sig;
-  DWORD          hot_NumEntries;
+  DWORD          hot_sig;
+  DWORD          hot_NumEntries;
   LPHANDOFFENTRY hot_Entries;
 } HANDOFFTABLE, *LPHANDOFFTABLE;
 ```
@@ -60,8 +65,8 @@ The protocol information that is used when creating a handoff table is provided 
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -76,9 +81,9 @@ The protocol information that is used when creating a handoff table is provided 
 [CreateHandoffTable](createhandofftable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

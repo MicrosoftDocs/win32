@@ -2,13 +2,19 @@
 title: char attribute
 description: The char keyword specifies an 8-bit data item.
 ms.assetid: 3c9ba8bb-5aea-4166-acf6-b251377e5384
-keywords: ["char attribute MIDL"]
+keywords:
+- char attribute MIDL
 topic_type:
 - apiref
 api_name:
 - char
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # char attribute

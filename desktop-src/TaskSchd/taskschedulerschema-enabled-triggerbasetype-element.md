@@ -1,14 +1,20 @@
 ---
 title: Enabled (triggerBaseType) Element
 description: Specifies that the trigger is enabled.
-ms.assetid: '14c98f40-0ec5-4dc1-978e-b02c08ee2384'
-keywords: ["Enabled element Task Scheduler"]
+ms.assetid: 14c98f40-0ec5-4dc1-978e-b02c08ee2384
+keywords:
+- Enabled element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Enabled
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabled (triggerBaseType) Element
@@ -43,7 +49,7 @@ The **Enabled** element is defined by the [**triggerBaseType**](taskschedulersch
 
 For scripting development, this information is accessed through the [**Trigger.Enabled**](trigger-enabled.md) property that is inherited by the all trigger objects.
 
-For C++ development, this information is accessed through the [**ITrigger::Enabled**](itrigger-enabled.md) property that is inherited by the all trigger interfaces.
+For C++ development, this information is accessed through the [**ITrigger::Enabled**](/windows/win32/taskschd/nf-taskschd-itrigger-get_enabled?branch=master) property that is inherited by the all trigger interfaces.
 
 ## Requirements
 
@@ -51,8 +57,8 @@ For C++ development, this information is accessed through the [**ITrigger::Enabl
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +72,9 @@ For C++ development, this information is accessed through the [**ITrigger::Enabl
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: Choosing Between RGBA and Color-Index Mode
 description: In general, use the RGBA mode for your OpenGL applications; it provides more flexibility than the color-index mode for effects such as shading, lighting, color mapping, fog, antialiasing, and blending.
-ms.assetid: '13644a7c-bdc6-4dac-ba16-4723c72b15e5'
-keywords: ["OpenGL on Windows,RGBA mode", "OpenGL on Windows,color-index mode", "RGBA mode OpenGL", "color-index mode OpenGL"]
+ms.assetid: 13644a7c-bdc6-4dac-ba16-4723c72b15e5
+keywords:
+- OpenGL on Windows,RGBA mode
+- OpenGL on Windows,color-index mode
+- RGBA mode OpenGL
+- color-index mode OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing Between RGBA and Color-Index Mode

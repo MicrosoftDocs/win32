@@ -1,7 +1,12 @@
 ---
 title: Defining Component Categories
 description: Defining Component Categories
-ms.assetid: '2d67a998-5200-4285-bd99-48cf59683569'
+ms.assetid: 2d67a998-5200-4285-bd99-48cf59683569
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining Component Categories

@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Server 2008 R2 and Windows 7 introduce the following changes to the Volume Shadow Copy Service.'
-ms.assetid: '1287f175-29e4-40be-804b-d78542e76efc'
-title: 'What''s New in VSS in Windows Server 2008 R2 and Windows 7'
+Description: Windows Server 2008 R2 and Windows 7 introduce the following changes to the Volume Shadow Copy Service.
+ms.assetid: 1287f175-29e4-40be-804b-d78542e76efc
+title: Whats New in VSS in Windows Server 2008 R2 and Windows 7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in VSS in Windows Server 2008 R2 and Windows 7
@@ -12,38 +17,38 @@ Windows Server 2008 R2 and Windows 7 introduce the following changes to the V
 
 <dl>
 
-[**IVssBackupComponentsEx3**](ivssbackupcomponentsex3.md)  
-[**IVssComponentEx2**](ivsscomponentex2.md)  
-[**IVssCreateExpressWriterMetadata**](ivsscreateexpresswritermetadata.md)  
-[**IVssExpressWriter**](ivssexpresswriter.md)  
+[**IVssBackupComponentsEx3**](/windows/win32/VsBackup/nl-vsbackup-ivssbackupcomponentsex3?branch=master)  
+[**IVssComponentEx2**](/windows/win32/VsWriter/nl-vswriter-ivsscomponentex2?branch=master)  
+[**IVssCreateExpressWriterMetadata**](/windows/win32/VsWriter/nl-vswriter-ivsscreateexpresswritermetadata?branch=master)  
+[**IVssExpressWriter**](/windows/win32/VsWriter/nl-vswriter-ivssexpresswriter?branch=master)  
 </dl>
 
 ## New VSS Classes
 
 <dl>
 
-[**CVssWriterEx2**](cvsswriterex2.md)  
+[**CVssWriterEx2**](/windows/win32/VsWriter/nl-vswriter-cvsswriterex2?branch=master)  
 </dl>
 
 ## New VSS Enumerations
 
 <dl>
 
-[**VSS\_RECOVERY\_OPTIONS**](vss-recovery-options.md)  
+[**VSS\_RECOVERY\_OPTIONS**](/windows/win32/Vss/ne-vss-_vss_recovery_options?branch=master)  
 </dl>
 
 ## New VSS Functions
 
 <dl>
 
-[**CreateVssExpressWriter**](createvssexpresswriter.md)  
+[**CreateVssExpressWriter**](/windows/win32/VsWriter/nf-vswriter-createvssexpresswriter?branch=master)  
 </dl>
 
 ## Existing VSS Interface Modifications
 
 <dl>
 
-[**IVssHardwareSnapshotProviderEx**](ivsshardwaresnapshotproviderex.md) interface<dl> Added method: [**ResyncLuns**](ivsshardwaresnapshotproviderex-resyncluns.md)  
+[**IVssHardwareSnapshotProviderEx**](/windows/win32/VsProv/nn-vsprov-ivsshardwaresnapshotproviderex?branch=master) interface<dl> Added method: [**ResyncLuns**](/windows/win32/VsProv/nf-vsprov-ivsshardwaresnapshotproviderex-resyncluns?branch=master)  
 </dl> </dd> </dl>
 
 ## VSS Event Tracing and Logging

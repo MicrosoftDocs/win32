@@ -1,7 +1,12 @@
 ---
-Description: 'The following example encrypts a data file. The example interactively requests the name of the file that contains plaintext to be encrypted and the name of a file where the encrypted data is to be written.'
-ms.assetid: 'a21dd25a-ac3c-483b-b270-6d86f10ae0a0'
-title: 'Example C Program: Encrypting a File'
+Description: The following example encrypts a data file. The example interactively requests the name of the file that contains plaintext to be encrypted and the name of a file where the encrypted data is to be written.
+ms.assetid: a21dd25a-ac3c-483b-b270-6d86f10ae0a0
+title: Example C Program Encrypting a File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Encrypting a File

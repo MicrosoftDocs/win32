@@ -4,13 +4,15 @@ description: This class provides statistical and operational information for eac
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '85235176-4291-477f-b2e8-fdde7de4e510'
-ms.prod: 'windows-server-dev'
+ms.assetid: 85235176-4291-477f-b2e8-fdde7de4e510
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrLocalMemberInfo class Distributed File System Replication", "DfsrLocalMemberInfo class Distributed File System Replication , described"]
+keywords:
+- DfsrLocalMemberInfo class Distributed File System Replication
+- DfsrLocalMemberInfo class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrLocalMemberInfo class
@@ -44,19 +49,19 @@ This class provides statistical and operational information for each replication
 [Dynamic, Provider("DfsrMonitorProv")]
 class DfsrLocalMemberInfo : CIM_LogicalElement
 {
-  string       Caption;
-  string       Description;
+  string       Caption;
+  string       Description;
   datetime REF InstallDate;
-  string       Name;
-  string       Status;
-  string       MemberGuid;
-  string       MemberName;
-  string       ReplicationGroupGuid;
-  string       ReplicationGroupName;
-  uint8        State;
-  datetime     LastConfigChangeTime;
-  uint32       LastErrorCode;
-  uint32       LastErrorMessageId;
+  string       Name;
+  string       Status;
+  string       MemberGuid;
+  string       MemberName;
+  string       ReplicationGroupGuid;
+  string       ReplicationGroupName;
+  uint8        State;
+  datetime     LastConfigChangeTime;
+  uint32       LastErrorCode;
+  uint32       LastErrorMessageId;
 };
 ```
 
@@ -409,9 +414,9 @@ Values include the following:
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                     |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                     |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -428,9 +433,9 @@ Values include the following:
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

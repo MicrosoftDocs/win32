@@ -1,14 +1,20 @@
 ---
 title: WM/ProviderStyle
 description: The WM/ProviderStyle attribute contains the style of the file as assigned by the metadata content provider.
-ms.assetid: '3bf6811e-a527-4ec7-b330-6e0eabab485a'
-keywords: ["WM/ProviderStyle windows Media Format"]
+ms.assetid: 3bf6811e-a527-4ec7-b330-6e0eabab485a
+keywords:
+- WM/ProviderStyle windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/ProviderStyle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ProviderStyle

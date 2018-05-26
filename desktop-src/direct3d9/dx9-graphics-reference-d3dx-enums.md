@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains information about the following enumerated types and flags used with D3DX.'
-ms.assetid: 'dff4c800-0db9-47b7-8e5c-61debbdf865a'
+Description: This section contains information about the following enumerated types and flags used with D3DX.
+ms.assetid: dff4c800-0db9-47b7-8e5c-61debbdf865a
 title: D3DX Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX Enumerations

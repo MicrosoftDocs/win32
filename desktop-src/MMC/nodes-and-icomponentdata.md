@@ -4,11 +4,15 @@ description: The IComponentData interface is closely associated with the functio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fa26a602-f27a-4244-811d-c768c9a9f94e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: fa26a602-f27a-4244-811d-c768c9a9f94e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["nodes and IComponentData MMC"]
+keywords:
+- nodes and IComponentData MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Nodes and IComponentData

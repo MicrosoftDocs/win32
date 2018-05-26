@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RecipientName property is a null-terminated string that contains the name of the recipient of the fax job.'
-ms.assetid: '01f621aa-4baf-4d77-a788-c5fff26c9c34'
-title: 'FaxJob.RecipientName property'
+---
+Description: The RecipientName property is a null-terminated string that contains the name of the recipient of the fax job.
+ms.assetid: 01f621aa-4baf-4d77-a788-c5fff26c9c34
+title: FaxJob.RecipientName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.RecipientName property
@@ -55,10 +60,10 @@ If the recipient's name is not available, the **RecipientName** property contain
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> </dl>
 
  

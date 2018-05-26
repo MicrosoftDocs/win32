@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PoweredOff property is a Boolean value that indicates whether the fax device is currently available for sending and receiving faxes.'
-ms.assetid: '3978e0d8-ed2b-47af-837c-a167326ba808'
-title: 'FaxDevice.PoweredOff property'
+---
+Description: The PoweredOff property is a Boolean value that indicates whether the fax device is currently available for sending and receiving faxes.
+ms.assetid: 3978e0d8-ed2b-47af-837c-a167326ba808
+title: FaxDevice.PoweredOff property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.PoweredOff property
@@ -55,7 +60,7 @@ If this property is equal to **True**, the fax device is currently offline and u
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

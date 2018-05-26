@@ -1,7 +1,12 @@
 ---
 Description: Video Color Source
-ms.assetid: 'e6addd55-06ca-4d4b-b2b0-fde281fab244'
+ms.assetid: e6addd55-06ca-4d4b-b2b0-fde281fab244
 title: Video Color Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Color Source

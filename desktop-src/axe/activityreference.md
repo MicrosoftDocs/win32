@@ -1,14 +1,20 @@
 ---
 title: ActivityReference element
 description: This element holds a reference to another related activity.
-ms.assetid: '5C3EC828-56D9-4962-B235-F7224B6173C4'
-keywords: ["ActivityReference element Access Execution Engine"]
+ms.assetid: 5C3EC828-56D9-4962-B235-F7224B6173C4
+keywords:
+- ActivityReference element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ActivityReference
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivityReference element
@@ -69,9 +75,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

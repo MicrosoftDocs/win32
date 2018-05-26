@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the power state of the Device. The use of this method has been deprecated. Instead, use the SetPowerState method in the associated PowerManagementService class.'
-ms.assetid: 'a8779485-4399-450c-bd4f-c8310bf8fe8f'
-title: 'SetPowerState method of the CIM\_LogicalPort class'
+Description: Sets the power state of the Device. The use of this method has been deprecated. Instead, use the SetPowerState method in the associated PowerManagementService class.
+ms.assetid: a8779485-4399-450c-bd4f-c8310bf8fe8f
+title: SetPowerState method of the CIM\_LogicalPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetPowerState method of the CIM\_LogicalPort class
@@ -13,8 +18,8 @@ Sets the power state of the Device. The use of this method has been deprecated. 
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -66,8 +71,8 @@ TBD
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -81,9 +86,9 @@ TBD
 [**CIM\_LogicalPort**](cim-logicalport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

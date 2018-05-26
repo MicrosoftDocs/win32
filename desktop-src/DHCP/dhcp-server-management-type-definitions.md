@@ -1,8 +1,19 @@
 ---
 title: DHCP Server Management API Type Definitions
 description: The following datatypes are used by the DHCP Server Management API.
-ms.assetid: '8e29f488-2978-43dd-b7ba-edad2e3e4b29'
-keywords: ["DHCP_IP_ADDRESS", "DHCP_OPTION_ID", "DHCP_IP_MASK", "DHCP_RESUME_HANDLE", "DHCP_ATTRIB_ID", "DHCP_RESUME_IPV6_HANDLE"]
+ms.assetid: 8e29f488-2978-43dd-b7ba-edad2e3e4b29
+keywords:
+- DHCP_IP_ADDRESS
+- DHCP_OPTION_ID
+- DHCP_IP_MASK
+- DHCP_RESUME_HANDLE
+- DHCP_ATTRIB_ID
+- DHCP_RESUME_IPV6_HANDLE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DHCP Server Management API Type Definitions
@@ -72,14 +83,14 @@ DHCP\_IPV6\_ADDRESS structure passed as a resume handle to enumeration operation
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Dhcpsapi.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

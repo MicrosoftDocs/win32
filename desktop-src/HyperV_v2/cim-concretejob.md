@@ -1,7 +1,12 @@
 ---
-Description: 'A concrete version of the CIM\_Job class. This class represent a generic instantiable unit of work to run, such as a batch or a print job.'
-ms.assetid: 'fad4d894-d1f5-428d-819f-74966dd9f410'
-title: 'CIM\_ConcreteJob class'
+Description: A concrete version of the CIM\_Job class. This class represent a generic instantiable unit of work to run, such as a batch or a print job.
+ms.assetid: fad4d894-d1f5-428d-819f-74966dd9f410
+title: CIM\_ConcreteJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ConcreteJob class
@@ -14,9 +19,9 @@ A concrete version of the [**CIM\_Job**](cim-job.md) class. This class represent
 [Abstract, Version("2.22.0"), UMLPackagePath("CIM::Core::CoreElements"), AMENDMENT]
 class CIM_ConcreteJob : CIM_Job
 {
-  string   InstanceID;
-  string   Name;
-  uint16   JobState;
+  string   InstanceID;
+  string   Name;
+  uint16   JobState;
   datetime TimeOfLastStateChange;
   datetime TimeBeforeRemoval = "00000000000500.000000:000";
 };
@@ -42,7 +47,7 @@ The **CIM\_ConcreteJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -76,7 +81,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 </dd> <dt>
 
@@ -247,7 +252,7 @@ The user-friendly name of the instance. In addition, the user-friendly name can 
 > [!Note]  
 > The name does not have to be unique within the namespace.
 
- 
+ 
 
 </dd> <dt>
 
@@ -281,7 +286,7 @@ The date or time when the state of the job last changed.
 > [!Note]  
 > If the state of the Job has not changed and this property is populated, then it must be set to a zero interval value.
 
- 
+ 
 
 </dd> </dl>
 
@@ -291,8 +296,8 @@ The date or time when the state of the job last changed.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -306,9 +311,9 @@ The date or time when the state of the job last changed.
 [**CIM\_Job**](cim-job.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

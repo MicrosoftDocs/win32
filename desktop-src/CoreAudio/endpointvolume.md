@@ -1,7 +1,12 @@
 ---
-Description: 'This sample application uses the Core Audio APIs to change the volume of the device, as specified by the user.'
-ms.assetid: '2597f3b1-5339-4fd4-9938-39ff917626b4'
+Description: This sample application uses the Core Audio APIs to change the volume of the device, as specified by the user.
+ms.assetid: 2597f3b1-5339-4fd4-9938-39ff917626b4
 title: EndpointVolume
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EndpointVolume

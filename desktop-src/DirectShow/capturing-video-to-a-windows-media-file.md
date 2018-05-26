@@ -1,7 +1,12 @@
 ---
 Description: Capturing Video to a Windows Media File
-ms.assetid: 'cc23bfce-34b9-4976-8602-e0602c7da2af'
+ms.assetid: cc23bfce-34b9-4976-8602-e0602c7da2af
 title: Capturing Video to a Windows Media File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capturing Video to a Windows Media File
@@ -10,7 +15,7 @@ To capture video and encode it to a Windows Media Video (WMV) file, connect the 
 
 ![windows media capture graph](images/vidcap03.png)
 
-The easiest way to build this graph is by specifing MEDIASUBTYPE\_Asf in the [**ICaptureGraphBuilder2::SetOutputFileName**](icapturegraphbuilder2-setoutputfilename.md) method:
+The easiest way to build this graph is by specifing MEDIASUBTYPE\_Asf in the [**ICaptureGraphBuilder2::SetOutputFileName**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-setoutputfilename?branch=master) method:
 
 
 ```C++
@@ -24,7 +29,7 @@ hr = pBuild->SetOutputFileName(
 
 
 
-The value MEDIASUBTYPE\_Asf tells the Capture Graph Builder to use the WM ASF Writer filter as the file sink. The Capture Graph Builder creates the filter, adds it to the graph, and calls [**IFileSinkFilter::SetFileName**](ifilesinkfilter-setfilename.md) to set the name of the output file. It returns a pointer to the filter as an outgoing parameter (
+The value MEDIASUBTYPE\_Asf tells the Capture Graph Builder to use the WM ASF Writer filter as the file sink. The Capture Graph Builder creates the filter, adds it to the graph, and calls [**IFileSinkFilter::SetFileName**](/windows/win32/Strmif/nf-strmif-ifilesinkfilter-setfilename?branch=master) to set the name of the output file. It returns a pointer to the filter as an outgoing parameter (
 
 
 ```
@@ -35,7 +40,7 @@ pASFWriter
 
 in the previous example).
 
-Use the [**IConfigAsfWriter**](iconfigasfwriter.md) interface on the WM ASF Writer to set the Windows Media profile. You must do this before you connect any pins on the WM ASF Writer.
+Use the [**IConfigAsfWriter**](/windows/win32/Dshowasf/nn-dshowasf-iconfigasfwriter?branch=master) interface on the WM ASF Writer to set the Windows Media profile. You must do this before you connect any pins on the WM ASF Writer.
 
 
 ```C++
@@ -52,7 +57,7 @@ if (SUCCEEDED(hr))
 
 For more information about setting the profile, see [Creating ASF Files in DirectShow](creating-asf-files-in-directshow.md).
 
-Call [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) to connect the capture filter to the ASF Writer:
+Call [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) to connect the capture filter to the ASF Writer:
 
 
 ```C++

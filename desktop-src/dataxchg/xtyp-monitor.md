@@ -1,8 +1,9 @@
 ---
 title: XTYP\_MONITOR transaction
-description: A Dynamic Data Exchange (DDE) debugger's DDE callback function, DdeCallback, receives the XTYP\_MONITOR transaction whenever a DDE event occurs in the system.
-ms.assetid: 'a27791b1-c1b4-4516-b050-71da164fa80a'
-keywords: ["XTYP_MONITOR transaction Data Exchange"]
+description: A Dynamic Data Exchange (DDE) debuggers DDE callback function, DdeCallback, receives the XTYP\_MONITOR transaction whenever a DDE event occurs in the system.
+ms.assetid: a27791b1-c1b4-4516-b050-71da164fa80a
+keywords:
+- XTYP_MONITOR transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_MONITOR transaction
 
-A Dynamic Data Exchange (DDE) debugger's DDE callback function, [*DdeCallback*](ddecallback.md), receives the **XTYP\_MONITOR** transaction whenever a DDE event occurs in the system. To receive this transaction, an application must specify the **APPCLASS\_MONITOR** value when it calls the [**DdeInitialize**](ddeinitialize.md) function.
+A Dynamic Data Exchange (DDE) debugger's DDE callback function, [*DdeCallback*](ddecallback.md), receives the **XTYP\_MONITOR** transaction whenever a DDE event occurs in the system. To receive this transaction, an application must specify the **APPCLASS\_MONITOR** value when it calls the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function.
 
 
 ```C++
@@ -68,7 +74,7 @@ Not used.
 *hdata* 
 </dt> <dd>
 
-A handle to a DDE object that contains information about the DDE event. The application should use the [**DdeAccessData**](ddeaccessdata.md) function to obtain a pointer to the object.
+A handle to a DDE object that contains information about the DDE event. The application should use the [**DdeAccessData**](/windows/win32/Ddeml/nf-ddeml-ddeaccessdata?branch=master) function to obtain a pointer to the object.
 
 </dd> <dt>
 
@@ -88,17 +94,17 @@ The DDE event. This parameter can be one of the following values.
 
 | Value                                                                                                                                                                                                                      | Meaning                                                                                                                                                                                                                                                                                                                                        |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="MF_CALLBACKS"></span><span id="mf_callbacks"></span><dl> <dt>**MF\_CALLBACKS**</dt> <dt>0x08000000</dt> </dl> | The system sent a transaction to a DDE callback function. The DDE object contains a [**MONCBSTRUCT**](moncbstruct-str.md) structure that provides information about the transaction.<br/>                                                                                                                                               |
-| <span id="MF_CONV"></span><span id="mf_conv"></span><dl> <dt>**MF\_CONV**</dt> <dt>0x40000000</dt> </dl>                | A DDE conversation was established or terminated. The DDE object contains a [**MONCONVSTRUCT**](monconvstruct-str.md) structure that provides information about the conversation.<br/>                                                                                                                                                  |
-| <span id="MF_ERRORS"></span><span id="mf_errors"></span><dl> <dt>**MF\_ERRORS**</dt> <dt>0x10000000</dt> </dl>          | A DDE error occurred. The DDE object contains a [**MONERRSTRUCT**](monerrstruct-str.md) structure that provides information about the error.<br/>                                                                                                                                                                                       |
-| <span id="MF_HSZ_INFO"></span><span id="mf_hsz_info"></span><dl> <dt>**MF\_HSZ\_INFO**</dt> <dt>0x01000000</dt> </dl>   | A DDE application created, freed, or incremented the usage count of a string handle, or a string handle was freed as a result of a call to the [**DdeUninitialize**](ddeuninitialize.md) function. The DDE object contains a [**MONHSZSTRUCT**](monhszstruct-str.md) structure that provides information about the string handle.<br/> |
-| <span id="MF_LINKS"></span><span id="mf_links"></span><dl> <dt>**MF\_LINKS**</dt> <dt>0x20000000</dt> </dl>             | A DDE application started or stopped an advise loop. The DDE object contains a [**MONLINKSTRUCT**](monlinkstruct-str.md) structure that provides information about the advise loop.<br/>                                                                                                                                                |
-| <span id="MF_POSTMSGS"></span><span id="mf_postmsgs"></span><dl> <dt>**MF\_POSTMSGS**</dt> <dt>0x04000000</dt> </dl>    | The system or an application posted a DDE message. The DDE object contains a [**MONMSGSTRUCT**](monmsgstruct-str.md) structure that provides information about the message.<br/>                                                                                                                                                        |
-| <span id="MF_SENDMSGS"></span><span id="mf_sendmsgs"></span><dl> <dt>**MF\_SENDMSGS**</dt> <dt>0x02000000</dt> </dl>    | The system or an application sent a DDE message. The DDE object contains a [**MONMSGSTRUCT**](monmsgstruct-str.md) structure that provides information about the message.<br/>                                                                                                                                                          |
+| <span id="MF_CALLBACKS"></span><span id="mf_callbacks"></span><dl> <dt>**MF\_CALLBACKS**</dt> <dt>0x08000000</dt> </dl> | The system sent a transaction to a DDE callback function. The DDE object contains a [**MONCBSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmoncbstruct?branch=master) structure that provides information about the transaction.<br/>                                                                                                                                               |
+| <span id="MF_CONV"></span><span id="mf_conv"></span><dl> <dt>**MF\_CONV**</dt> <dt>0x40000000</dt> </dl>                | A DDE conversation was established or terminated. The DDE object contains a [**MONCONVSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonconvstruct?branch=master) structure that provides information about the conversation.<br/>                                                                                                                                                  |
+| <span id="MF_ERRORS"></span><span id="mf_errors"></span><dl> <dt>**MF\_ERRORS**</dt> <dt>0x10000000</dt> </dl>          | A DDE error occurred. The DDE object contains a [**MONERRSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonerrstruct?branch=master) structure that provides information about the error.<br/>                                                                                                                                                                                       |
+| <span id="MF_HSZ_INFO"></span><span id="mf_hsz_info"></span><dl> <dt>**MF\_HSZ\_INFO**</dt> <dt>0x01000000</dt> </dl>   | A DDE application created, freed, or incremented the usage count of a string handle, or a string handle was freed as a result of a call to the [**DdeUninitialize**](/windows/win32/Ddeml/nf-ddeml-ddeuninitialize?branch=master) function. The DDE object contains a [**MONHSZSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonhszstructa?branch=master) structure that provides information about the string handle.<br/> |
+| <span id="MF_LINKS"></span><span id="mf_links"></span><dl> <dt>**MF\_LINKS**</dt> <dt>0x20000000</dt> </dl>             | A DDE application started or stopped an advise loop. The DDE object contains a [**MONLINKSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonlinkstruct?branch=master) structure that provides information about the advise loop.<br/>                                                                                                                                                |
+| <span id="MF_POSTMSGS"></span><span id="mf_postmsgs"></span><dl> <dt>**MF\_POSTMSGS**</dt> <dt>0x04000000</dt> </dl>    | The system or an application posted a DDE message. The DDE object contains a [**MONMSGSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonmsgstruct?branch=master) structure that provides information about the message.<br/>                                                                                                                                                        |
+| <span id="MF_SENDMSGS"></span><span id="mf_sendmsgs"></span><dl> <dt>**MF\_SENDMSGS**</dt> <dt>0x02000000</dt> </dl>    | The system or an application sent a DDE message. The DDE object contains a [**MONMSGSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonmsgstruct?branch=master) structure that provides information about the message.<br/>                                                                                                                                                          |
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -112,8 +118,8 @@ If the callback function processes this transaction, it should return 0.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -125,31 +131,31 @@ If the callback function processes this transaction, it should return 0.
 **Reference**
 </dt> <dt>
 
-[**DdeAccessData**](ddeaccessdata.md)
+[**DdeAccessData**](/windows/win32/Ddeml/nf-ddeml-ddeaccessdata?branch=master)
 </dt> <dt>
 
-[**DdeInitialize**](ddeinitialize.md)
+[**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master)
 </dt> <dt>
 
-[**DdeUninitialize**](ddeuninitialize.md)
+[**DdeUninitialize**](/windows/win32/Ddeml/nf-ddeml-ddeuninitialize?branch=master)
 </dt> <dt>
 
-[**MONCBSTRUCT**](moncbstruct-str.md)
+[**MONCBSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmoncbstruct?branch=master)
 </dt> <dt>
 
-[**MONCONVSTRUCT**](monconvstruct-str.md)
+[**MONCONVSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonconvstruct?branch=master)
 </dt> <dt>
 
-[**MONERRSTRUCT**](monerrstruct-str.md)
+[**MONERRSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonerrstruct?branch=master)
 </dt> <dt>
 
-[**MONHSZSTRUCT**](monhszstruct-str.md)
+[**MONHSZSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonhszstructa?branch=master)
 </dt> <dt>
 
-[**MONLINKSTRUCT**](monlinkstruct-str.md)
+[**MONLINKSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonlinkstruct?branch=master)
 </dt> <dt>
 
-[**MONMSGSTRUCT**](monmsgstruct-str.md)
+[**MONMSGSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonmsgstruct?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -158,9 +164,9 @@ If the callback function processes this transaction, it should return 0.
 [Dynamic Data Exchange Management Library](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

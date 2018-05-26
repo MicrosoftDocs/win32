@@ -1,14 +1,15 @@
 ---
 title: MMCN\_PROPERTY\_CHANGE message
-description: The MMCN\_PROPERTY\_CHANGE notification message is sent to the snap-in's IComponentData or IComponent implementation, whichever created the property pages, when the snap-in uses the MMCPropertyChangeNotify function to notify its views of changes.
+description: The MMCN\_PROPERTY\_CHANGE notification message is sent to the snap-ins IComponentData or IComponent implementation, whichever created the property pages, when the snap-in uses the MMCPropertyChangeNotify function to notify its views of changes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4b1c6d78-23b1-4b5a-b913-8a7153471785'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4b1c6d78-23b1-4b5a-b913-8a7153471785
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_PROPERTY_CHANGE message MMC"]
+keywords:
+- MMCN_PROPERTY_CHANGE message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_PROPERTY\_CHANGE message
 
-The **MMCN\_PROPERTY\_CHANGE** notification message is sent to the snap-in's [**IComponentData**](icomponentdata.md) or [**IComponent**](icomponent.md) implementation, whichever created the property pages, when the snap-in uses the [**MMCPropertyChangeNotify**](mmcpropertychangenotify.md) function to notify its views of changes.
+The **MMCN\_PROPERTY\_CHANGE** notification message is sent to the snap-in's [**IComponentData**](icomponentdata.md) or [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation, whichever created the property pages, when the snap-in uses the [**MMCPropertyChangeNotify**](mmcpropertychangenotify.md) function to notify its views of changes.
 
 ## Parameters
 
@@ -72,8 +76,8 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -91,9 +95,9 @@ The snap-in does not handle the notification. MMC then performs a default operat
 [**MMCPropertyChangeNotify**](mmcpropertychangenotify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

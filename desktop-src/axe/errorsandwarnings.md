@@ -1,14 +1,20 @@
 ---
 title: ErrorsAndWarnings element
 description: A container to hold assessment errors and warnings.
-ms.assetid: 'F2E9FC0F-F6F2-4176-8ABF-1760B0B3DB73'
-keywords: ["ErrorsAndWarnings element Access Execution Engine"]
+ms.assetid: F2E9FC0F-F6F2-4176-8ABF-1760B0B3DB73
+keywords:
+- ErrorsAndWarnings element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ErrorsAndWarnings
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorsAndWarnings element
@@ -80,9 +86,9 @@ It is possible for an assessment to produce only errors, warnings or messages an
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'affb4d7a-b8ef-432c-bcf4-18d90424f9b8'
+---
+Description: .
+ms.assetid: affb4d7a-b8ef-432c-bcf4-18d90424f9b8
 title: Music
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Music

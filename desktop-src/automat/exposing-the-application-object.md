@@ -1,7 +1,12 @@
 ---
 title: Exposing the Application Object
-description: The Application object identifies the application and provides a way for ActiveX clients to bind to and navigate the application's exposed objects.
-ms.assetid: '2eaf4b6f-300d-4697-aeaf-28078e5cdf75'
+description: The Application object identifies the application and provides a way for ActiveX clients to bind to and navigate the applications exposed objects.
+ms.assetid: 2eaf4b6f-300d-4697-aeaf-28078e5cdf75
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exposing the Application Object
@@ -18,19 +23,19 @@ The following chart shows how applications should expose their Application and D
 
 | Command line               | Multiple-document interface application                                                                                                                                                                                                     | Single-document interface application                                                                                                                                                                                                                 |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **/Embedding**<br/>  | Expose class factories for document classes, but not for the application.<br/> Call [**RegisterActiveObject**](registeractiveobject.md) for the Application object.<br/>                                                       | Expose class factories for document class, but not for the application.<br/> Call [**RegisterActiveObject**](registeractiveobject.md) for the Application object.<br/>                                                                   |
-| **/Automation**<br/> | Expose class factories for document classes.<br/> Expose class factory for the application using **RegisterClassObject**.<br/> Call [**RegisterActiveObject**](registeractiveobject.md) for the Application object.<br/> | Do not expose class factory for document class.<br/> Expose class factory for the Application object using **RegisterClassObject**.<br/> Call [**RegisterActiveObject**](registeractiveobject.md) for the Application object.<br/> |
-| No OLE switches<br/> | Expose class factories for document classes, but not for the application.<br/> Call [**RegisterActiveObject**](registeractiveobject.md) for the Application object.<br/>                                                       | Call [**RegisterActiveObject**](registeractiveobject.md) for the Application object. <br/>                                                                                                                                                     |
+| **/Embedding**<br/>  | Expose class factories for document classes, but not for the application.<br/> Call [**RegisterActiveObject**](/windows/previous-versions/OleAuto/nf-oleauto-registeractiveobject?branch=master) for the Application object.<br/>                                                       | Expose class factories for document class, but not for the application.<br/> Call [**RegisterActiveObject**](/windows/previous-versions/OleAuto/nf-oleauto-registeractiveobject?branch=master) for the Application object.<br/>                                                                   |
+| **/Automation**<br/> | Expose class factories for document classes.<br/> Expose class factory for the application using **RegisterClassObject**.<br/> Call [**RegisterActiveObject**](/windows/previous-versions/OleAuto/nf-oleauto-registeractiveobject?branch=master) for the Application object.<br/> | Do not expose class factory for document class.<br/> Expose class factory for the Application object using **RegisterClassObject**.<br/> Call [**RegisterActiveObject**](/windows/previous-versions/OleAuto/nf-oleauto-registeractiveobject?branch=master) for the Application object.<br/> |
+| No OLE switches<br/> | Expose class factories for document classes, but not for the application.<br/> Call [**RegisterActiveObject**](/windows/previous-versions/OleAuto/nf-oleauto-registeractiveobject?branch=master) for the Application object.<br/>                                                       | Call [**RegisterActiveObject**](/windows/previous-versions/OleAuto/nf-oleauto-registeractiveobject?branch=master) for the Application object. <br/>                                                                                                                                                     |
 
 
 
- 
+ 
 
 The call to **RegisterActiveObject** enters the Application object in OLE's running object table (ROT), so ActiveX clients can retrieve the active object instead of creating a new instance. Visual Basic applications can use the **GetObject** statement to access an existing object.
 
- 
+ 
 
- 
+ 
 
 
 

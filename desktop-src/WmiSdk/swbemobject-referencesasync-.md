@@ -1,13 +1,16 @@
 ---
-Description: 'The ReferencesAsync\_ method of SWbemObject supplies a collection of all association classes or instances that refer to the current object. This method performs the same function that the WQL REFERENCES OF query performs.'
+Description: The ReferencesAsync\_ method of SWbemObject supplies a collection of all association classes or instances that refer to the current object. This method performs the same function that the WQL REFERENCES OF query performs.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '44989726-3f68-453b-b9f5-e76fb0fbb152'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 44989726-3f68-453b-b9f5-e76fb0fbb152
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.ReferencesAsync\_ method'
+title: SWbemObject.ReferencesAsync\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.ReferencesAsync\_ method
@@ -63,7 +66,7 @@ String that contains a property name. If specified, this parameter indicates tha
 *bClassesOnly* \[in, optional\]
 </dt> <dd>
 
-Boolean value that indicates whether or not a list of class names should be returned—rather than actual instances of the classes. These are the classes to which the association objects belong. The default value for this parameter is **FALSE**.
+Boolean value that indicates whether or not a list of class names should be returned rather than actual instances of the classes. These are the classes to which the association objects belong. The default value for this parameter is **FALSE**.
 
 </dd> <dt>
 
@@ -187,8 +190,8 @@ For more information about the REFERENCES OF associated WQL query, source instan
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -216,9 +219,9 @@ For more information about the REFERENCES OF associated WQL query, source instan
 [**SWbemServices.ReferencesToAsync**](swbemservices-referencestoasync.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

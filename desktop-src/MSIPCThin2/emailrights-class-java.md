@@ -4,17 +4,21 @@ description: Rights that apply to emails.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '48b3083e-0b41-48b7-b58d-886c47da0764'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 48b3083e-0b41-48b7-b58d-886c47da0764
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["EmailRights class"]
+keywords:
+- EmailRights class
 topic_type:
 - apiref
 api_name:
 - EmailRights class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EmailRights class
@@ -42,7 +46,7 @@ public final class EmailRights
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -58,7 +62,7 @@ EmailRights.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -72,9 +76,9 @@ For more information about the built-in rights and the usage restrictions associ
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Sets the remote access rights for a list of individual users on computers running obsolete versions of Windows, where access control through Windows security descriptors is not available.'
+Description: Sets the remote access rights for a list of individual users on computers running obsolete versions of Windows, where access control through Windows security descriptors is not available.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f6da65d3-86dd-4fc8-b4c0-f7ddc8536d4e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f6da65d3-86dd-4fc8-b4c0-f7ddc8536d4e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: '\_\_SystemSecurity::Set9XUserList method'
+title: '\_\_SystemSecuritySet9XUserList method'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_SystemSecurity::Set9XUserList method
@@ -21,7 +24,7 @@ The list is specified as an array of embedded objects where each object is an in
 
 ```C++
 HRESULT Set9XUserList(
-  [in] __NTLMUser9X ul[]
+  [in] __NTLMUser9X ul[]
 );
 ```
 
@@ -57,8 +60,8 @@ This method is not supported.
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | all WMI namespaces<br/>  |
 
 
@@ -91,9 +94,9 @@ This method is not supported.
 [WMI Security Constants](wmi-security-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

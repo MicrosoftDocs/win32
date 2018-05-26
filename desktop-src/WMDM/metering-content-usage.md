@@ -1,8 +1,19 @@
 ---
 title: Metering Content Usage
 description: Metering Content Usage
-ms.assetid: 'f87b5d95-a497-4356-817f-49ac3819df08'
-keywords: ["Windows Media Device Manager,metering content usage", "Device Manager,metering content usage", "programming guide,metering content usage", "desktop applications,metering content usage", "creating Windows Media Device Manager applications,metering content usage", "metering content usage"]
+ms.assetid: f87b5d95-a497-4356-817f-49ac3819df08
+keywords:
+- Windows Media Device Manager,metering content usage
+- Device Manager,metering content usage
+- programming guide,metering content usage
+- desktop applications,metering content usage
+- creating Windows Media Device Manager applications,metering content usage
+- metering content usage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metering Content Usage

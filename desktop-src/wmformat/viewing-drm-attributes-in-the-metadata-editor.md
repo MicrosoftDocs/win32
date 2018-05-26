@@ -1,8 +1,25 @@
 ---
 title: Viewing DRM Attributes in the Metadata Editor
 description: Viewing DRM Attributes in the Metadata Editor
-ms.assetid: 'e25fb8c8-8f4d-40fd-aa6f-675921e0ccdd'
-keywords: ["Windows Media Format SDK,DRM attribute viewing", "digital rights management (DRM),attribute viewing", "DRM (digital rights management),attribute viewing", "Windows Media Format SDK,Metadata Editor", "digital rights management (DRM),Metadata Editor", "DRM (digital rights management),Metadata Editor", "Windows Media Format SDK,IWMDRMEditor interface", "digital rights management (DRM),IWMDRMEditor interface", "DRM (digital rights management),IWMDRMEditor interface", "Metadata Editor,DRM attribute viewing", "Metadata Editor,IWMDRMEditor interface", "IWMDRMEditor"]
+ms.assetid: e25fb8c8-8f4d-40fd-aa6f-675921e0ccdd
+keywords:
+- Windows Media Format SDK,DRM attribute viewing
+- digital rights management (DRM),attribute viewing
+- DRM (digital rights management),attribute viewing
+- Windows Media Format SDK,Metadata Editor
+- digital rights management (DRM),Metadata Editor
+- DRM (digital rights management),Metadata Editor
+- Windows Media Format SDK,IWMDRMEditor interface
+- digital rights management (DRM),IWMDRMEditor interface
+- DRM (digital rights management),IWMDRMEditor interface
+- Metadata Editor,DRM attribute viewing
+- Metadata Editor,IWMDRMEditor interface
+- IWMDRMEditor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Viewing DRM Attributes in the Metadata Editor
@@ -21,7 +38,7 @@ The Metadata Editor exposes the IWMDRMEditor interface, which enables editing ap
 [**Digital Rights Management Features**](digital-rights-management-features.md)
 </dt> <dt>
 
-[**IWMDRMEditor Interface**](iwmdrmeditor.md)
+[**IWMDRMEditor Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmdrmeditor?branch=master)
 </dt> </dl>
 
  

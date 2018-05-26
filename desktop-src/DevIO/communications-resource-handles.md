@@ -1,7 +1,12 @@
 ---
-Description: 'A process uses the CreateFile function to open a handle to a communications resource.'
-ms.assetid: 'eaef6067-97a6-40c4-84ec-c0d86af6bb4a'
+Description: A process uses the CreateFile function to open a handle to a communications resource.
+ms.assetid: eaef6067-97a6-40c4-84ec-c0d86af6bb4a
 title: Communications Resource Handles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Communications Resource Handles
@@ -20,7 +25,7 @@ When the process uses [**CreateFile**](https://msdn.microsoft.com/library/window
 -   The *fdwCreate* parameter must specify the OPEN\_EXISTING flag.
 -   The *hTemplateFile* parameter must be **NULL**.
 
-When using [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) to open a handle directly to a device, an application must use the special characters " \\\\ .\\" to identify the device. For example, to open a handle to drive A, specify \\\\ .\\a: for the *lpszName* parameter of **CreateFile**. The calling process can use the handle in the [**DeviceIoControl**](deviceiocontrol.md) function to send control codes to the device.
+When using [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) to open a handle directly to a device, an application must use the special characters " \\\\ .\\" to identify the device. For example, to open a handle to drive A, specify \\\\ .\\a: for the *lpszName* parameter of **CreateFile**. The calling process can use the handle in the [**DeviceIoControl**](/windows/win32/Winbase/nf-classpnp-classsenddeviceiocontrolsynchronous?branch=master) function to send control codes to the device.
 
  
 

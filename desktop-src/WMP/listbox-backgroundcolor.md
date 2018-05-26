@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.backgroundColor
 description: The backgroundColor attribute specifies or retrieves the background color in the list box control.
-ms.assetid: '1ffa51cc-6d28-4b83-8127-eb2a67d98c79'
-keywords: ["LISTBOX.backgroundColor Windows Media Player"]
+ms.assetid: 1ffa51cc-6d28-4b83-8127-eb2a67d98c79
+keywords:
+- LISTBOX.backgroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.backgroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.backgroundColor
@@ -46,9 +52,9 @@ This attribute is a read/write **String** containing any Microsoft Internet Expl
 [**LISTBOX.foregroundColor**](listbox-foregroundcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

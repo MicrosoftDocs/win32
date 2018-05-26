@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides the names for CAPICOM object identifiers.'
-ms.assetid: '6c1eb2cc-84ac-4920-99ba-56ac8de4a851'
-title: 'CAPICOM\_OID enumeration'
+---
+Description: Provides the names for CAPICOM object identifiers.
+ms.assetid: 6c1eb2cc-84ac-4920-99ba-56ac8de4a851
+title: CAPICOM\_OID enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_OID enumeration

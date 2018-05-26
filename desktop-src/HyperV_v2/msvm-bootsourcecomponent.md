@@ -1,7 +1,12 @@
 ---
-Description: 'Associates the Msvm\_BootSourceSettingData to the overall Msvm\_VirtualSystemSettingData.'
-ms.assetid: 'DB2E66F1-CC2C-49FC-96CE-D9DE441AA809'
-title: 'Msvm\_BootSourceComponent class'
+Description: Associates the Msvm\_BootSourceSettingData to the overall Msvm\_VirtualSystemSettingData.
+ms.assetid: DB2E66F1-CC2C-49FC-96CE-D9DE441AA809
+title: Msvm\_BootSourceComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_BootSourceComponent class
@@ -65,8 +70,8 @@ Reference to the child element in the association. This property is inherited fr
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -89,9 +94,9 @@ Reference to the child element in the association. This property is inherited fr
 [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

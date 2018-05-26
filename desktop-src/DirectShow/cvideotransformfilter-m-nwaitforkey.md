@@ -1,7 +1,12 @@
 ---
-Description: 'The current maximum number of delta frames to drop.'
-ms.assetid: 'd14c594e-55ab-42c2-bdb0-6829f71d02dd'
-title: 'CVideoTransformFilter::m\_nWaitForKey member'
+Description: The current maximum number of delta frames to drop.
+ms.assetid: d14c594e-55ab-42c2-bdb0-6829f71d02dd
+title: CVideoTransformFilterm\_nWaitForKey member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CVideoTransformFilter::m\_nWaitForKey member
@@ -35,9 +40,9 @@ int m_nWaitForKey;
 [**CVideoTransformFilter Class**](cvideotransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

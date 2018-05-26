@@ -1,7 +1,12 @@
 ---
-Description: 'The networking profile describes the objects used for configuring the system to allow virtual machines to communicate over the network.'
-ms.assetid: 'A5C4866B-0F65-47B5-8FC4-B92943842B86'
+Description: The networking profile describes the objects used for configuring the system to allow virtual machines to communicate over the network.
+ms.assetid: A5C4866B-0F65-47B5-8FC4-B92943842B86
 title: Networking service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Networking service

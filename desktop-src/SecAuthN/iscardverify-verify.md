@@ -1,7 +1,12 @@
-﻿---
-Description: 'Requests a verification of the user.'
-ms.assetid: 'e8b7155c-3444-4aa8-8a15-3b3624a44a77'
-title: 'ISCardVerify::Verify method'
+---
+Description: Requests a verification of the user.
+ms.assetid: e8b7155c-3444-4aa8-8a15-3b3624a44a77
+title: ISCardVerifyVerify method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardVerify::Verify method

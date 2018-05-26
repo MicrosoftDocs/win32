@@ -1,8 +1,11 @@
 ---
 title: CreateInternalEthernetPortDynamicMac method of the Msvm\_VirtualSwitchManagementService class
-description: Creates a new internal Ethernet port. It's almost the same as CreateInternalEthernetPort expect for the new internal Ethernet port's MAC address is created dynamically instead of being passed as a parameter.
-ms.assetid: 'afe5b876-5b88-4bdc-b197-c0dce6d6cbbf'
-keywords: ["CreateInternalEthernetPortDynamicMac method Hyper-V", "CreateInternalEthernetPortDynamicMac method Hyper-V , Msvm_VirtualSwitchManagementService class", "Msvm_VirtualSwitchManagementService class Hyper-V , CreateInternalEthernetPortDynamicMac method"]
+description: Creates a new internal Ethernet port. Its almost the same as CreateInternalEthernetPort expect for the new internal Ethernet ports MAC address is created dynamically instead of being passed as a parameter.
+ms.assetid: afe5b876-5b88-4bdc-b197-c0dce6d6cbbf
+keywords:
+- CreateInternalEthernetPortDynamicMac method Hyper-V
+- CreateInternalEthernetPortDynamicMac method Hyper-V , Msvm_VirtualSwitchManagementService class
+- Msvm_VirtualSwitchManagementService class Hyper-V , CreateInternalEthernetPortDynamicMac method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateInternalEthernetPortDynamicMac method of the Msvm\_VirtualSwitchManagementService class
@@ -22,9 +30,9 @@ Creates a new internal Ethernet port. It's almost the same as [**CreateInternalE
 
 ```mof
 uint32 CreateInternalEthernetPortDynamicMac(
-  [in]  string                        Name,
-  [in]  string                        FriendlyName,
-  [out] Msvm_InternalEthernetPort REF CreatedInternalEthernetPort
+  [in]  string                        Name,
+  [in]  string                        FriendlyName,
+  [out] Msvm_InternalEthernetPort REF CreatedInternalEthernetPort
 );
 ```
 
@@ -260,9 +268,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -275,9 +283,9 @@ End Function
 [**Msvm\_VirtualSwitchManagementService**](msvm-virtualswitchmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

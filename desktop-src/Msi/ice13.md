@@ -1,7 +1,12 @@
 ---
-Description: 'ICE13 validates that dialogs in sequence tables appear in the AdminUISequence, or InstallUISequence tables. Dialogs must not be listed in the InstallExecuteSequence, AdminExecuteSequence, or AdvtExecuteSequence tables.'
-ms.assetid: '51542a8f-2fb6-4021-b52d-6f7a2b0294d6'
+Description: ICE13 validates that dialogs in sequence tables appear in the AdminUISequence, or InstallUISequence tables. Dialogs must not be listed in the InstallExecuteSequence, AdminExecuteSequence, or AdvtExecuteSequence tables.
+ms.assetid: 51542a8f-2fb6-4021-b52d-6f7a2b0294d6
 title: ICE13
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE13

@@ -4,11 +4,15 @@ description: The procedures outlined in this section describe how to connect to 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '04b0daab-5843-4390-ae76-3d83df90d067'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 04b0daab-5843-4390-ae76-3d83df90d067
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC 2.0 and WMI MMC , implementation details"]
+keywords:
+- MMC 2.0 and WMI MMC , implementation details
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 and WMI: Implementation Details

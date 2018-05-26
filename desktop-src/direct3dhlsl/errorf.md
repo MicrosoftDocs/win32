@@ -1,14 +1,20 @@
 ---
 title: errorf function
 description: Submits an error message to the information queue.
-ms.assetid: 'bf4dc6dc-b36e-4b71-ad61-b7a5ba332879'
-keywords: ["errorf function HLSL"]
+ms.assetid: bf4dc6dc-b36e-4b71-ad61-b7a5ba332879
+keywords:
+- errorf function HLSL
 topic_type:
 - apiref
 api_name:
 - errorf
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # errorf function

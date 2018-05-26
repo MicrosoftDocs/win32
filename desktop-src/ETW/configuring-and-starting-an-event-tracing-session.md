@@ -1,7 +1,12 @@
 ---
-Description: 'To configure an event tracing session, use the EVENT\_TRACE\_PROPERTIES structure to specify the properties of the session.'
-ms.assetid: '8a6aa39c-ec81-42ac-a26e-29f1f6960220'
+Description: To configure an event tracing session, use the EVENT\_TRACE\_PROPERTIES structure to specify the properties of the session.
+ms.assetid: 8a6aa39c-ec81-42ac-a26e-29f1f6960220
 title: Configuring and Starting an Event Tracing Session
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring and Starting an Event Tracing Session
@@ -18,7 +23,7 @@ Up to eight trace sessions can enable and receive events from the same [manifest
 
 You can use any of the three functions to enable a provider but you may lose functionality if you use [**EnableTrace**](enabletrace.md) to enable a manifest-based provider because you will not be able to provide a MatchAllKeyword value, specify extended data items to include in the event, or provide provider-defined filter data. For more information, see the Remarks section of each function.
 
-On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the [**EnableTraceEx2**](enabletraceex2.md) function and the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) and [**EVENT\_FILTER\_DESCRIPTOR**](event-filter-descriptor.md) structures to filter on specific conditions in a logger session. For more information on event payload filters, see the [**TdhCreatePayloadFilter**](tdhcreatepayloadfilter.md), and [**TdhAggregatePayloadFilters**](tdhaggregatepayloadfilters.md) functions and the **ENABLE\_TRACE\_PARAMETERS**, **EVENT\_FILTER\_DESCRIPTOR**, and [**PAYLOAD\_FILTER\_PREDICATE**](payload-filter-predicate.md) structures.
+On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the [**EnableTraceEx2**](enabletraceex2.md) function and the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) and [**EVENT\_FILTER\_DESCRIPTOR**](/windows/win32/Evntprov/ns-evntprov-_event_filter_descriptor?branch=master) structures to filter on specific conditions in a logger session. For more information on event payload filters, see the [**TdhCreatePayloadFilter**](/windows/win32/Tdh/nf-tdh-tdhcreatepayloadfilter?branch=master), and [**TdhAggregatePayloadFilters**](/windows/win32/Tdh/nf-tdh-tdhaggregatepayloadfilters?branch=master) functions and the **ENABLE\_TRACE\_PARAMETERS**, **EVENT\_FILTER\_DESCRIPTOR**, and [**PAYLOAD\_FILTER\_PREDICATE**](/windows/win32/Tdh/ns-tdh-_payload_filter_predicate?branch=master) structures.
 
 To determine the level and keywords used to enable a manifest-based provider, use one of the following commands:
 
@@ -82,22 +87,22 @@ For details on starting a trace session, see one of the following:
 [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md)
 </dt> <dt>
 
-[**EVENT\_FILTER\_DESCRIPTOR**](event-filter-descriptor.md)
+[**EVENT\_FILTER\_DESCRIPTOR**](/windows/win32/Evntprov/ns-evntprov-_event_filter_descriptor?branch=master)
 </dt> <dt>
 
 [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md)
 </dt> <dt>
 
-[**PAYLOAD\_FILTER\_PREDICATE**](payload-filter-predicate.md)
+[**PAYLOAD\_FILTER\_PREDICATE**](/windows/win32/Tdh/ns-tdh-_payload_filter_predicate?branch=master)
 </dt> <dt>
 
 [**StartTrace**](starttrace.md)
 </dt> <dt>
 
-[**TdhAggregatePayloadFilters**](tdhaggregatepayloadfilters.md)
+[**TdhAggregatePayloadFilters**](/windows/win32/Tdh/nf-tdh-tdhaggregatepayloadfilters?branch=master)
 </dt> <dt>
 
-[**TdhCreatePayloadFilter**](tdhcreatepayloadfilter.md)
+[**TdhCreatePayloadFilter**](/windows/win32/Tdh/nf-tdh-tdhcreatepayloadfilter?branch=master)
 </dt> <dt>
 
 [Updating an Event Tracing Session](updating-an-event-tracing-session.md)

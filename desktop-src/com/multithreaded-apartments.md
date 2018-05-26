@@ -1,7 +1,12 @@
 ---
 title: Multithreaded Apartments
 description: Multithreaded Apartments
-ms.assetid: 'd3e6acd9-cd5c-4a2c-8526-4f43db3b606b'
+ms.assetid: d3e6acd9-cd5c-4a2c-8526-4f43db3b606b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multithreaded Apartments
@@ -20,11 +25,11 @@ Following are some important considerations regarding synchronization for multit
 -   Asynchronous calls are converted to synchronous calls in multithreaded apartments.
 -   The message filter is not called for any thread in a multithreaded apartment.
 
-To initialize a thread as free-threaded, call [**CoInitializeEx**](coinitializeex.md), specifying COINIT\_MULTITHREADED. For information on in-process server threading, see [In-Process Server Threading Issues](in-process-server-threading-issues.md).
+To initialize a thread as free-threaded, call [**CoInitializeEx**](/windows/win32/combaseapi/nf-combaseapi-coinitializeex?branch=master), specifying COINIT\_MULTITHREADED. For information on in-process server threading, see [In-Process Server Threading Issues](in-process-server-threading-issues.md).
 
 Multiple clients can simultaneously call, from different threads, an object that supports free-threading. In free-threaded out-of-process servers, COM, through the RPC subsystem, creates a pool of threads in the server process and a client call (or multiple client calls) can be delivered by any of these threads at any time. An out-of-process server must also implement synchronization in its class factory. Free-threaded, in-process objects can receive direct calls from multiple threads of the client.
 
-The client can do COM work in multiple threads. All threads belong to the same multithreaded apartment. Interface pointers are passed directly from thread to thread within a multithreaded apartment, so interface pointers are not marshaled between its threads. Message filters (implementations of [**IMessageFilter**](imessagefilter.md)) are not used in multithreaded apartments. The client thread will suspend when it makes a COM call to out-of-apartment objects and will resume when the call returns. Calls between processes are still handled by RPC.
+The client can do COM work in multiple threads. All threads belong to the same multithreaded apartment. Interface pointers are passed directly from thread to thread within a multithreaded apartment, so interface pointers are not marshaled between its threads. Message filters (implementations of [**IMessageFilter**](/windows/win32/ObjIdl/nn-objidl-imessagefilter?branch=master)) are not used in multithreaded apartments. The client thread will suspend when it makes a COM call to out-of-apartment objects and will resume when the call returns. Calls between processes are still handled by RPC.
 
 Threads initialized with the free-threaded model must implement their own synchronization. As mentioned earlier in this section, Windows enables this implementation through the following synchronization primitives:
 

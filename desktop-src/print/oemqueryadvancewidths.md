@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMQueryAdvanceWidths function returns character advance widths for a specified set of glyphs.'
-ms.assetid: '058ced7e-50bc-4847-b082-57608ac5ddd2'
+---
+Description: The OEMQueryAdvanceWidths function returns character advance widths for a specified set of glyphs.
+ms.assetid: 058ced7e-50bc-4847-b082-57608ac5ddd2
 title: OEMQueryAdvanceWidths function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMQueryAdvanceWidths function

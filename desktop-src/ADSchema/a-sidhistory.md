@@ -4,17 +4,22 @@ description: Contains previous SIDs used for the object if the object was moved 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd738002b-fc05-4c60-aaf9-b83be61ed5a9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d738002b-fc05-4c60-aaf9-b83be61ed5a9
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["SID-History attribute AD Schema", "sIDHistory attribute AD Schema"]
+keywords:
+- SID-History attribute AD Schema
+- sIDHistory attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - SID-History
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SID-History attribute
@@ -38,12 +43,12 @@ Contains previous SIDs used for the object if the object was moved from another 
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Contains previous SIDs used for the object if the object was moved from another 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

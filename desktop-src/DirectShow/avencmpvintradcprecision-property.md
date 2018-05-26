@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the precision of the DC coefficients, in bits. This property applies to MPEG video encoders.'
-ms.assetid: '2b4d11c1-767c-4466-8291-7959d841ae65'
+Description: Specifies the precision of the DC coefficients, in bits. This property applies to MPEG video encoders.
+ms.assetid: 2b4d11c1-767c-4466-8291-7959d841ae65
 title: AVEncMPVIntraDCPrecision property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncMPVIntraDCPrecision property
@@ -20,7 +25,7 @@ This property is read/write.
 
 ## Property value
 
-This property has a linear range of values. To get the supported range, call [**ICodecAPI::GetParameterRange**](icodecapi-getparameterrange.md).
+This property has a linear range of values. To get the supported range, call [**ICodecAPI::GetParameterRange**](/windows/win32/Strmif/nf-strmif-icodecapi-getparameterrange?branch=master).
 
 ## Remarks
 
@@ -32,8 +37,8 @@ The usual range for this property is 8 to 11 bits. If the value is zero, the enc
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -45,12 +50,12 @@ The usual range for this property is 8 to 11 bits. If the value is zero, the enc
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

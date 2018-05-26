@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates that a rule applies to a particular firewall profile.'
-ms.assetid: 'a48ed98c-2161-439d-a361-ecdd1ca76477'
-title: 'MSFT\_NetConSecRuleInProfile class'
+Description: Indicates that a rule applies to a particular firewall profile.
+ms.assetid: a48ed98c-2161-439d-a361-ecdd1ca76477
+title: MSFT\_NetConSecRuleInProfile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetConSecRuleInProfile class
@@ -15,9 +20,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetConSecRuleInProfile : MSFT_NetRuleInProfile
 {
-  MSFT_NetConSecRule      REF PartComponent;
+  MSFT_NetConSecRule      REF PartComponent;
   MSFT_NetFirewallProfile REF GroupComponent;
-  uint16                      Priority;
+  uint16                      Priority;
 };
 ```
 
@@ -84,17 +89,17 @@ This field is ignored.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

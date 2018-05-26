@@ -1,7 +1,12 @@
 ---
-Description: 'Wi-Fi Direct Services Service Name.'
-ms.assetid: 'e367b682-f2b9-4341-aac7-165ab055bd1e'
-title: 'System.Devices.WiFiDirectServices.ServiceName'
+Description: Wi-Fi Direct Services Service Name.
+ms.assetid: e367b682-f2b9-4341-aac7-165ab055bd1e
+title: System.Devices.WiFiDirectServices.ServiceName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.WiFiDirectServices.ServiceName

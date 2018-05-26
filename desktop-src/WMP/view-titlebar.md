@@ -1,14 +1,20 @@
 ---
 title: VIEW.titleBar
 description: The titleBar attribute retrieves a value indicating whether the window title bar is shown.
-ms.assetid: '996aa2e0-0313-4a48-adcb-b82f76f38b6a'
-keywords: ["VIEW.titleBar Windows Media Player"]
+ms.assetid: 996aa2e0-0313-4a48-adcb-b82f76f38b6a
+keywords:
+- VIEW.titleBar Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.titleBar
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.titleBar
@@ -32,7 +38,7 @@ This attribute is a read-only **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,9 +69,9 @@ If **titleBar** is set to true and the user attempts to change the value of **Vi
 [**VIDEO.zoom**](video-zoom.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

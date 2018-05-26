@@ -1,7 +1,12 @@
 ---
-Description: 'Resizes an existing virtual hard disk.'
-ms.assetid: '54FDCA3B-E12B-4E68-B7EE-893C9CD97E1A'
-title: 'ResizeVirtualHardDisk method of the Msvm\_ImageManagementService class'
+Description: Resizes an existing virtual hard disk.
+ms.assetid: 54FDCA3B-E12B-4E68-B7EE-893C9CD97E1A
+title: ResizeVirtualHardDisk method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResizeVirtualHardDisk method of the Msvm\_ImageManagementService class
@@ -13,9 +18,9 @@ Resizes an existing virtual hard disk. The virtual hard disk must be offline. Se
 
 ```mof
 uint32 ResizeVirtualHardDisk(
-  [in]  string              Path,
-  [in]  uint64              MaxInternalSize,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              Path,
+  [in]  uint64              MaxInternalSize,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -163,8 +168,8 @@ public static void ResizeVirtualHardDisk(string path, UInt64 maxInternalSize)
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -181,9 +186,9 @@ public static void ResizeVirtualHardDisk(string path, UInt64 maxInternalSize)
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

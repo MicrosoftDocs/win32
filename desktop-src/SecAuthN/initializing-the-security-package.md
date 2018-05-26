@@ -1,7 +1,12 @@
 ---
-Description: 'Lists and explains the steps necessary to initialize a security package.'
-ms.assetid: '60c11519-f7ca-4002-b3f6-d74f50310730'
+Description: Lists and explains the steps necessary to initialize a security package.
+ms.assetid: 60c11519-f7ca-4002-b3f6-d74f50310730
 title: Initializing the Security Package
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Initializing the Security Package
@@ -10,7 +15,7 @@ These steps are necessary before using SSPI:
 
 1.  The initialization function must be called to obtain the address of the security function table.
 
-    The client and server call [**InitSecurityInterface**](initsecurityinterface.md) for a pointer to a [**SecurityFunctionTable**](securityfunctiontable.md) dispatch table. This table contains pointers to callback functions declared in Sspi.h. These pointers provide access to the DLL's implementations of the various SSPI functions.
+    The client and server call [**InitSecurityInterface**](/windows/win32/Sspi/nf-sspi-initsecurityinterfacea?branch=master) for a pointer to a [**SecurityFunctionTable**](/windows/win32/Sspi/ns-sspi-_security_function_table_a?branch=master) dispatch table. This table contains pointers to callback functions declared in Sspi.h. These pointers provide access to the DLL's implementations of the various SSPI functions.
 
 2.  Information must be obtained about the supported security packages.
 

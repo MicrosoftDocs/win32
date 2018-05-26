@@ -1,14 +1,20 @@
 ---
 title: ReleaseDateDay Attribute
 description: The ReleaseDateDay attribute is the day part of the date of the original release of the item.
-ms.assetid: '5a38941f-9366-4995-9919-5f0025f0d778'
-keywords: ["ReleaseDateDay Attribute Windows Media Player"]
+ms.assetid: 5a38941f-9366-4995-9919-5f0025f0d778
+keywords:
+- ReleaseDateDay Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ReleaseDateDay
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReleaseDateDay Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

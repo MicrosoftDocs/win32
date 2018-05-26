@@ -1,7 +1,12 @@
 ---
-Description: 'This topic shows you how you can apply an effect chain to a voice to allow custom processing of the audio data for that voice. This topic describes how to use the reverb effect, which is one of the built-in XAudio2 effects.'
-ms.assetid: '4c33bd83-2654-cd6f-ea6c-bbc0d5872638'
-title: 'How to: Create an Effect Chain'
+Description: This topic shows you how you can apply an effect chain to a voice to allow custom processing of the audio data for that voice. This topic describes how to use the reverb effect, which is one of the built-in XAudio2 effects.
+ms.assetid: 4c33bd83-2654-cd6f-ea6c-bbc0d5872638
+title: How to Create an Effect Chain
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Create an Effect Chain
@@ -12,7 +17,7 @@ This topic shows you how you can apply an effect chain to a voice to allow custo
 
 1.  Create the effect.
 
-    In this example, the [**XAudio2CreateReverb**](xaudio2createreverb.md) function creates a reverb effect. See [XAudio2 Audio Effects](xaudio2-audio-effects.md) for a list of possible sources of effects for use with XAudio2.
+    In this example, the [**XAudio2CreateReverb**](/windows/win32/xaudio2fx/nf-xaudio2fx-xaudio2createreverb?branch=master) function creates a reverb effect. See [XAudio2 Audio Effects](xaudio2-audio-effects.md) for a list of possible sources of effects for use with XAudio2.
 
     ```
     IUnknown * pXAPO;
@@ -21,9 +26,9 @@ This topic shows you how you can apply an effect chain to a voice to allow custo
 
     
 
-2.  Populate an [**XAUDIO2\_EFFECT\_DESCRIPTOR**](xaudio2-effect-descriptor.md) structure with data.
+2.  Populate an [**XAUDIO2\_EFFECT\_DESCRIPTOR**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_effect_descriptor?branch=master) structure with data.
 
-    If there are multiple effects in the chain, each effect will need a [**XAUDIO2\_EFFECT\_DESCRIPTOR**](xaudio2-effect-descriptor.md) structure.
+    If there are multiple effects in the chain, each effect will need a [**XAUDIO2\_EFFECT\_DESCRIPTOR**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_effect_descriptor?branch=master) structure.
 
     ```
     XAUDIO2_EFFECT_DESCRIPTOR descriptor;
@@ -34,7 +39,7 @@ This topic shows you how you can apply an effect chain to a voice to allow custo
 
     
 
-3.  Populate an [**XAUDIO2\_EFFECT\_CHAIN**](xaudio2-effect-chain.md) structure with data. In this case, the chain only has one effect. If the chain has more than one effect, the EffectCount member will contain the count of effects, and the pEffectDescriptors member will point to an array of XAUDIO2\_EFFECT\_DESCRIPTOR structures.
+3.  Populate an [**XAUDIO2\_EFFECT\_CHAIN**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_effect_chain?branch=master) structure with data. In this case, the chain only has one effect. If the chain has more than one effect, the EffectCount member will contain the count of effects, and the pEffectDescriptors member will point to an array of XAUDIO2\_EFFECT\_DESCRIPTOR structures.
 
     ```
     XAUDIO2_EFFECT_CHAIN chain;
@@ -64,7 +69,7 @@ This topic shows you how you can apply an effect chain to a voice to allow custo
 
     
 
-6.  Populate the parameter structure, if any, associated with the effect. The reverb effect uses an [**XAUDIO2FX\_REVERB\_PARAMETERS**](xaudio2fx-reverb-parameters.md) structure.
+6.  Populate the parameter structure, if any, associated with the effect. The reverb effect uses an [**XAUDIO2FX\_REVERB\_PARAMETERS**](/windows/win32/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_parameters?branch=master) structure.
 
     ```
     XAUDIO2FX_REVERB_PARAMETERS reverbParameters;

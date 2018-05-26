@@ -1,19 +1,26 @@
 ---
 title: READERMODEINFO structure
 description: Contains information required to initialize the DoReaderMode function.
-ms.assetid: '7b9c73bc-b093-4592-befd-67508fb86fe0'
-keywords: ["READERMODEINFO structure Windows Controls", "PREADERMODEINFO structure pointer Windows Controls"]
+ms.assetid: 7b9c73bc-b093-4592-befd-67508fb86fe0
+keywords:
+- READERMODEINFO structure Windows Controls
+- PREADERMODEINFO structure pointer Windows Controls
 topic_type:
 - apiref
 api_name:
 - READERMODEINFO
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # READERMODEINFO structure
 
-\[**READERMODEINFO** is supported through Windows XP with Service Pack 2 (SP2). It might be unsupported in subsequent versions.\]
+\[**READERMODEINFO** is supported through Windows XP with Service Pack 2 (SP2). It might be unsupported in subsequent versions.\]
 
 Contains information required to initialize the [**DoReaderMode**](doreadermode.md) function.
 
@@ -22,13 +29,13 @@ Contains information required to initialize the [**DoReaderMode**](doreadermode.
 
 ```C++
 typedef struct tagReaderModeInfo {
-  UINT                       cbSize;
-  HWND                       hwnd;
-  DWORD                      fFlags;
-  LPRECT                     prc;
-  PFNREADERSCROLL            pfnScroll;
+  UINT                       cbSize;
+  HWND                       hwnd;
+  DWORD                      fFlags;
+  LPRECT                     prc;
+  PFNREADERSCROLL            pfnScroll;
   PFNREADERTRANSLATEDISPATCH fFlags;
-  LPARAM                     lParam;
+  LPARAM                     lParam;
 } READERMODEINFO, *PREADERMODEINFO;
 ```
 
@@ -79,7 +86,7 @@ Flags customizing the functionality of the reader mode window. This parameter ca
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -137,14 +144,14 @@ This structure is not declared in any public header. To use it, you must include
 
 |                                     |                                                               |
 |-------------------------------------|---------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows Vista \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>          |
+| Minimum supported client<br/> | Windows Vista, Windows Vista \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>          |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

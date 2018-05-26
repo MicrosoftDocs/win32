@@ -1,7 +1,12 @@
 ---
 title: In-Process Servers
 description: In-Process Servers
-ms.assetid: 'cc0c4350-fa75-4321-834f-711158776cb2'
+ms.assetid: cc0c4350-fa75-4321-834f-711158776cb2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # In-Process Servers

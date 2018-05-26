@@ -4,16 +4,21 @@ description: The ADS\_SEARCHPREF\_CACHE\_RESULTS preference caches the result se
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bb286879-7d84-4085-88e1-600c848b8af8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: bb286879-7d84-4085-88e1-600c848b8af8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Result Caching with IDirectorySearch ADSI", "ADSI, Searching, IDirectorySearch, Other Search Options, Result Caching"]
+keywords:
+- Result Caching with IDirectorySearch ADSI
+- ADSI, Searching, IDirectorySearch, Other Search Options, Result Caching
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Result Caching with IDirectorySearch
 
-The **ADS\_SEARCHPREF\_CACHE\_RESULTS** preference caches the result set on the client. Result caching enables an application to retain a retrieved result set and go through the retrieved rows again. It also enables cursor support where the [**IDirectorySearch::GetNextRow**](idirectorysearch-getnextrow.md) and [**IDirectorySearch::GetPreviousRow**](idirectorysearch-getpreviousrow.md) methods can be used to move up and down the result set.
+The **ADS\_SEARCHPREF\_CACHE\_RESULTS** preference caches the result set on the client. Result caching enables an application to retain a retrieved result set and go through the retrieved rows again. It also enables cursor support where the [**IDirectorySearch::GetNextRow**](/windows/win32/Iads/nf-iads-idirectorysearch-getnextrow?branch=master) and [**IDirectorySearch::GetPreviousRow**](/windows/win32/Iads/nf-iads-idirectorysearch-getpreviousrow?branch=master) methods can be used to move up and down the result set.
 
 By default, result caching is disabled. Result caching should be enabled if any one of the following is true:
 
@@ -25,7 +30,7 @@ Turn off caching if your application must reduce memory requirements for caching
 
 Result caching increases the memory requirements on the client, so result caching should be disabled if this is a concern.
 
-To enable result caching, set an **ADS\_SEARCHPREF\_CACHE\_RESULTS** search option with an **ADSTYPE\_BOOLEAN** value of **TRUE** in the [**ADS\_SEARCHPREF\_INFO**](ads-searchpref-info.md) array passed to the [**IDirectorySearch::SetSearchPreference**](idirectorysearch-setsearchpreference.md) method.
+To enable result caching, set an **ADS\_SEARCHPREF\_CACHE\_RESULTS** search option with an **ADSTYPE\_BOOLEAN** value of **TRUE** in the [**ADS\_SEARCHPREF\_INFO**](/windows/win32/Iads/ns-iads-ads_searchpref_info?branch=master) array passed to the [**IDirectorySearch::SetSearchPreference**](/windows/win32/Iads/nf-iads-idirectorysearch-setsearchpreference?branch=master) method.
 
 The following code example shows how to enable result caching.
 

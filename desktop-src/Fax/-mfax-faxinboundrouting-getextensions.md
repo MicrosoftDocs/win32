@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetExtensions method retrieves the collection of inbound routing extensions registered with the fax service.'
-ms.assetid: 'ecd9a5bb-1624-4cfe-a2d9-b9a5ed722fc4'
-title: 'FaxInboundRouting.GetExtensions method'
+---
+Description: The GetExtensions method retrieves the collection of inbound routing extensions registered with the fax service.
+ms.assetid: ecd9a5bb-1624-4cfe-a2d9-b9a5ed722fc4
+title: FaxInboundRouting.GetExtensions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRouting.GetExtensions method
@@ -29,7 +34,7 @@ A [**FaxInboundRoutingExtensions**](-mfax-faxinboundroutingextensions.md) object
 
 ## Remarks
 
-To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 

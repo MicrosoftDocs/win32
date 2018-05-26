@@ -1,7 +1,12 @@
 ---
 title: Hit-Highlighting of SQL Content Search Results
 description: Hit-Highlighting of SQL Content Search Results
-ms.assetid: 'a94ce14a-2082-483d-bdf6-c1cea8957b94'
+ms.assetid: a94ce14a-2082-483d-bdf6-c1cea8957b94
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hit-Highlighting of SQL Content Search Results

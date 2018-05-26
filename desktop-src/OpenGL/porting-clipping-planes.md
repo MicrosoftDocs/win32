@@ -1,8 +1,18 @@
 ---
 title: Porting Clipping Planes
 description: OpenGL implements clipping planes similarly to IRIS GL. In addition, in OpenGL you can query clipping planes. The following table lists IRIS GL clipping plane functions and their equivalent OpenGL functions.
-ms.assetid: 'bfca59c3-b7ef-4545-8b8d-022ea782569b'
-keywords: ["IRIS GL porting,clipping planes", "porting from IRIS GL,clipping planes", "porting to OpenGL from IRIS GL,clipping planes", "OpenGL porting from IRIS GL,clipping planes", "clipping planes"]
+ms.assetid: bfca59c3-b7ef-4545-8b8d-022ea782569b
+keywords:
+- IRIS GL porting,clipping planes
+- porting from IRIS GL,clipping planes
+- porting to OpenGL from IRIS GL,clipping planes
+- OpenGL porting from IRIS GL,clipping planes
+- clipping planes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Clipping Planes

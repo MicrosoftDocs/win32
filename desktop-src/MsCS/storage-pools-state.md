@@ -4,17 +4,21 @@ description: Specifies the state of the storage pool.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'F2579FEB-013A-4198-BCD5-6CA2D48CB266'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: F2579FEB-013A-4198-BCD5-6CA2D48CB266
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["State Failover Cluster"]
+keywords:
+- State Failover Cluster
 topic_type:
 - apiref
 api_name:
 - State
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # State
@@ -30,14 +34,14 @@ The following table summarizes the attributes of the **State** property.
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
 | Status    | Required                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 4                                         |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +59,7 @@ This property can be set to one of the following values:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,7 +68,7 @@ This property can be set to one of the following values:
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -75,9 +79,9 @@ This property can be set to one of the following values:
 [Storage Pool Private Properties](storage-pool-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

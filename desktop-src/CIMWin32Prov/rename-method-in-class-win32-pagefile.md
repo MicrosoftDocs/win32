@@ -1,15 +1,18 @@
 ---
-Description: 'Renames the paging file specified in the object path.'
+Description: Renames the paging file specified in the object path.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6a98e05f-337e-4224-a847-f01913031b20'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6a98e05f-337e-4224-a847-f01913031b20
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Rename method of the Win32\_PageFile class'
+title: Rename method of the Win32\_PageFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Rename method of the Win32\_PageFile class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Rename(
-  [in] string FileName
+  [in] string FileName
 );
 ```
 
@@ -145,8 +148,8 @@ A parameter specified is not valid.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -163,9 +166,9 @@ A parameter specified is not valid.
 [**Win32\_PageFile**](win32-pagefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

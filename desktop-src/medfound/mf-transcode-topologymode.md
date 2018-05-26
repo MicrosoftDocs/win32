@@ -1,24 +1,29 @@
-﻿---
-Description: 'Specifies for a transcode topology whether the topology loader will load hardware-based transforms.'
-ms.assetid: '33db8621-114a-4531-908f-f30034441973'
-title: 'MF\_TRANSCODE\_TOPOLOGYMODE attribute'
+---
+Description: Specifies for a transcode topology whether the topology loader will load hardware-based transforms.
+ms.assetid: 33db8621-114a-4531-908f-f30034441973
+title: MF\_TRANSCODE\_TOPOLOGYMODE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TRANSCODE\_TOPOLOGYMODE attribute
 
 Specifies for a transcode topology whether the topology loader will load hardware-based transforms.
 
-The topology mode specifies whether hardware transforms (such as hardware codecs) may be used in the transcode topology. The application can store this attribute in a transcode profile by calling [**IMFTranscodeProfile::SetContainerAttributes**](imftranscodeprofile-setcontainerattributes.md).
+The topology mode specifies whether hardware transforms (such as hardware codecs) may be used in the transcode topology. The application can store this attribute in a transcode profile by calling [**IMFTranscodeProfile::SetContainerAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes?branch=master).
 
 ## Data type
 
-**[**MF\_TRANSCODE\_TOPOLOGYMODE\_FLAGS**](mf-transcode-topologymode-flags.md)** stored as **UINT32**
+**[**MF\_TRANSCODE\_TOPOLOGYMODE\_FLAGS**](/windows/win32/mfidl/ne-mfidl-_mf_transcode_topologymode_flags?branch=master)** stored as **UINT32**
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
@@ -63,10 +68,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Transcode API](transcode-api.md)
 </dt> <dt>
 
-[**IMFTranscodeProfile::GetContainerAttributes**](imftranscodeprofile-getcontainerattributes.md)
+[**IMFTranscodeProfile::GetContainerAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-getcontainerattributes?branch=master)
 </dt> <dt>
 
-[**IMFTranscodeProfile::SetContainerAttributes**](imftranscodeprofile-setcontainerattributes.md)
+[**IMFTranscodeProfile::SetContainerAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes?branch=master)
 </dt> </dl>
 
  

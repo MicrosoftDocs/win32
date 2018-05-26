@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.Error property
 description: The Error property gets the IWMPError interface that provides access to a collection of IWMPErrorItem interfaces.
-ms.assetid: '9acc9252-d9c6-48a7-95a3-b1dddce93795'
-keywords: ["Error property Windows Media Player", "Error property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , Error property"]
+ms.assetid: 9acc9252-d9c6-48a7-95a3-b1dddce93795
+keywords:
+- Error property Windows Media Player
+- Error property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , Error property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.Error property
@@ -75,9 +83,9 @@ The WMPLib.IWMPError interface.
 [**IWMPErrorItem Interface (VB and C#)**](iwmperroritem--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

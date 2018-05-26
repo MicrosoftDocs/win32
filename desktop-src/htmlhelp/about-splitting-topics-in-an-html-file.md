@@ -1,7 +1,12 @@
 ---
 title: About Splitting Topics in an HTML File
 description: About Splitting Topics in an HTML File
-ms.assetid: 'B2DFD96A-B8F6-4cf9-BC15-70387B8596AF'
+ms.assetid: B2DFD96A-B8F6-4cf9-BC15-70387B8596AF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Splitting Topics in an HTML File

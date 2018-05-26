@@ -1,7 +1,12 @@
 ---
-Description: 'Not implemented.'
-ms.assetid: 'ed0aecfa-348c-4cf9-87c2-b701a552eec8'
-title: 'ISmartRenderEngine::SetFindCompressorCB method'
+Description: Not implemented.
+ms.assetid: ed0aecfa-348c-4cf9-87c2-b701a552eec8
+title: ISmartRenderEngineSetFindCompressorCB method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISmartRenderEngine::SetFindCompressorCB method

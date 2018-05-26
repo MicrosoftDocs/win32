@@ -1,7 +1,12 @@
 ---
-Description: 'Resets the virtual keyboard.'
-ms.assetid: '6D4A9F02-53BD-47C2-9C09-F22C3630312F'
-title: 'Reset method of the Msvm\_Keyboard class'
+Description: Resets the virtual keyboard.
+ms.assetid: 6D4A9F02-53BD-47C2-9C09-F22C3630312F
+title: Reset method of the Msvm\_Keyboard class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the Msvm\_Keyboard class
@@ -39,8 +44,8 @@ A return value of zero indicates success. A return value of one indicates a fail
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -54,9 +59,9 @@ A return value of zero indicates success. A return value of one indicates a fail
 [**Msvm\_Keyboard**](msvm-keyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

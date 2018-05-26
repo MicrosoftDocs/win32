@@ -3,6 +3,11 @@ title: S
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 0fde1909-895d-425a-81ae-a6e17f354b3f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # S

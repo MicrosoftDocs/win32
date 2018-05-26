@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the name of an animation, given its index.'
-ms.assetid: 'bcbdab21-ffaf-4c7e-96b9-f380dac284db'
-title: 'ID3DXAnimationSet::GetAnimationNameByIndex method'
+---
+Description: Gets the name of an animation, given its index.
+ms.assetid: bcbdab21-ffaf-4c7e-96b9-f380dac284db
+title: ID3DXAnimationSetGetAnimationNameByIndex method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationSet::GetAnimationNameByIndex method

@@ -1,7 +1,12 @@
 ---
-Description: 'The IWinHttpRequest interface provides all of the nonevent methods for Microsoft Windows HTTP Services (WinHTTP).'
-ms.assetid: '6417b3b5-b74a-4c7b-acf9-87e2e814a4df'
+Description: The IWinHttpRequest interface provides all of the nonevent methods for Microsoft Windows HTTP Services (WinHTTP).
+ms.assetid: 6417b3b5-b74a-4c7b-acf9-87e2e814a4df
 title: IWinHttpRequest interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest interface
@@ -23,7 +28,7 @@ The **IWinHttpRequest** interface has these methods.
 
 | Method                                                                 | Description                                                                                                                             |
 |:-----------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
-| [**Abort**](iwinhttprequest-abort.md)                                 | Aborts a [WinHTTP](about-winhttp.md) [**Send**](iwinhttprequest-send.md) method.<br/>                                           |
+| [**Abort**](iwinhttprequest-abort.md)                                 | Aborts a [WinHTTP](about-winhttp.md) [**Send**](iwinhttprequest-send.md) method.<br/>                                           |
 | [**GetAllResponseHeaders**](iwinhttprequest-getallresponseheaders.md) | Retrieves all HTTP response headers.<br/>                                                                                         |
 | [**GetResponseHeader**](iwinhttprequest-getresponseheader.md)         | Retrieves the HTTP response headers.<br/>                                                                                         |
 | [**Open**](iwinhttprequest-open.md)                                   | Opens an HTTP connection to an HTTP resource.<br/>                                                                                |
@@ -38,7 +43,7 @@ The **IWinHttpRequest** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -57,16 +62,16 @@ The **IWinHttpRequest** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
 The **IWinHttpRequest** interface defined in httprequest.idl is implemented by a class with id of **CLSID\_WinHttpRequest**. An application obtain this interface by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) with a class id of **CLSID\_WinHttpRequest** and an interface id of **IID\_IWinHttpRequest**.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.
 
- 
+ 
 
 ## Requirements
 
@@ -74,9 +79,9 @@ The **IWinHttpRequest** interface defined in httprequest.idl is implemented by a
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -93,9 +98,9 @@ The **IWinHttpRequest** interface defined in httprequest.idl is implemented by a
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

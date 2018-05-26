@@ -1,12 +1,17 @@
-﻿---
-Description: 'Holds the enumerator for the IFaxAccounts object.'
-ms.assetid: '88079467-6134-424e-9752-45bad883d038'
-title: 'FaxAccounts.NewEnum property'
+---
+Description: Holds the enumerator for the IFaxAccounts object.
+ms.assetid: 88079467-6134-424e-9752-45bad883d038
+title: FaxAccounts.NewEnum property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccounts.NewEnum property
 
-Holds the enumerator for the [**IFaxAccounts**](-mfax-faxaccounts-cpp.md) object.
+Holds the enumerator for the [**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master) object.
 
 This property is read-only.
 
@@ -43,7 +48,7 @@ Address of a pointer to an enumerator for the accounts.
 [**FaxAccounts**](-mfax-faxaccounts.md)
 </dt> <dt>
 
-[**IFaxAccounts**](-mfax-faxaccounts-cpp.md)
+[**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master)
 </dt> </dl>
 
  

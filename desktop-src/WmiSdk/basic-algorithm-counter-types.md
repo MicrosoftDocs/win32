@@ -1,13 +1,16 @@
 ---
-Description: 'Represent differences between samples over time, and often use a base value for the calculation.'
+Description: Represent differences between samples over time, and often use a base value for the calculation.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '613268ab-386b-421d-a5b5-aab6a065999c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 613268ab-386b-421d-a5b5-aab6a065999c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Basic Algorithm Counter Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Basic Algorithm Counter Types
@@ -28,7 +31,7 @@ The basic algorithms in the following table are provided.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -37,9 +40,9 @@ The basic algorithms in the following table are provided.
 [WMI Performance Counter Types](wmi-performance-counter-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

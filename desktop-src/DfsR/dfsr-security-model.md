@@ -4,13 +4,18 @@ description: The Distributed File System Replication (DFSR) service provides two
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '696a6ef6-2714-4064-8c5d-f5596adc8143'
-ms.prod: 'windows-server-dev'
+ms.assetid: 696a6ef6-2714-4064-8c5d-f5596adc8143
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication Files , security model", "security model for Distributed File System Replication Files"]
+keywords:
+- Distributed File System Replication Files , security model
+- security model for Distributed File System Replication Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DFSR Security Model
@@ -67,7 +72,7 @@ ADS_RIGHT_DS_SELF<br />
 
 
 
- 
+ 
 
 ## WMI Security
 
@@ -86,7 +91,7 @@ The following table summarizes the categories of operations provided by the DFSR
 
 
 
- 
+ 
 
 The following table summarizes the relationship between the DFSR permissions to AD objects and the related registry key access masks.
 
@@ -100,11 +105,11 @@ The following table summarizes the relationship between the DFSR permissions to 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

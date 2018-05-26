@@ -1,7 +1,12 @@
 ---
-Description: 'Associates the Msvm\_ReferencePointCollection to the contained Msvm\_VirtualSystemReferencePoint objects.'
-ms.assetid: '826125c3-0a89-4573-ac28-88588eac248d'
-title: 'Msvm\_CollectedReferencePoints class'
+Description: Associates the Msvm\_ReferencePointCollection to the contained Msvm\_VirtualSystemReferencePoint objects.
+ms.assetid: 826125c3-0a89-4573-ac28-88588eac248d
+title: Msvm\_CollectedReferencePoints class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_CollectedReferencePoints class
@@ -16,7 +21,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_CollectedReferencePoints : CIM_CollectedMSEs
 {
-  Msvm_ReferencePointCollection    REF Collection;
+  Msvm_ReferencePointCollection    REF Collection;
   Msvm_VirtualSystemReferencePoint REF Member;
 };
 ```
@@ -71,8 +76,8 @@ An [**Msvm\_VirtualSystemReferencePoint**](msvm-virtualsystemreferencepoint.md) 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -86,9 +91,9 @@ An [**Msvm\_VirtualSystemReferencePoint**](msvm-virtualsystemreferencepoint.md) 
 [**CIM\_CollectedMSEs**](cim-collectedmses.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

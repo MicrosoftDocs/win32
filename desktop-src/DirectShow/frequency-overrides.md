@@ -1,7 +1,12 @@
 ---
 Description: Frequency Overrides
-ms.assetid: '0e45d0a6-3c3e-462c-a8dc-c4f25b614b85'
+ms.assetid: 0e45d0a6-3c3e-462c-a8dc-c4f25b614b85
 title: Frequency Overrides
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Frequency Overrides
@@ -28,9 +33,9 @@ In this case, "TS0-1" indicates Tuning Space 0 for cable frequencies. The first 
 
 The subkey named "12" overrides the frequency value for the frequency at index 12 in the current frequency table. The value of the subkey is a **DWORD** that specifies the frequency in Hertz (Hz). In this example, the frequency is set to 67.25 MHz. Overrides can be defined for any channel numbers in the range of 1 to 999, inclusive. If the tuning hardware does not support a given frequency, the tune request will fail.
 
-This mechanism can also be used to create new channel numbers outside the existing range in the frequency table. The [**IAMTuner::ChannelMinMax**](iamtuner-channelminmax.md) method will return the extended channel range. For example, if the original channel range was 1 to 158, and a channel override of "200" is added to the registry, the **ChannelMinMax** method will return 200 as the maximum channel. In this case, channel numbers in the range of 159 to 199 will have no frequencies assigned to them, so any tuning requests in that range will automatically fail.
+This mechanism can also be used to create new channel numbers outside the existing range in the frequency table. The [**IAMTuner::ChannelMinMax**](/windows/win32/Strmif/nf-strmif-iamtuner-channelminmax?branch=master) method will return the extended channel range. For example, if the original channel range was 1 to 158, and a channel override of "200" is added to the registry, the **ChannelMinMax** method will return 200 as the maximum channel. In this case, channel numbers in the range of 159 to 199 will have no frequencies assigned to them, so any tuning requests in that range will automatically fail.
 
-The [**IAMTuner::put\_TuningSpace**](iamtuner-put-tuningspace.md) method allows the application to choose which set of overrides and fine-tuning information to use. Tuning space numbers are arbitrary. It is the application's responsibility to maintain the relationship between the tuning space and the frequency table. The most straightforward approach is to use the country/region code as the tuning space number. Then, every time the application switches to a new country/region code, it also switches to the same tuning space (in that order).
+The [**IAMTuner::put\_TuningSpace**](/windows/win32/Strmif/nf-strmif-iamtuner-put_tuningspace?branch=master) method allows the application to choose which set of overrides and fine-tuning information to use. Tuning space numbers are arbitrary. It is the application's responsibility to maintain the relationship between the tuning space and the frequency table. The most straightforward approach is to use the country/region code as the tuning space number. Then, every time the application switches to a new country/region code, it also switches to the same tuning space (in that order).
 
 ## Related topics
 

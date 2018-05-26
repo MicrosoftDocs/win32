@@ -1,14 +1,20 @@
 ---
 title: STOPELEMENT
 description: This is a predefined BUTTONELEMENT with the following default values.
-ms.assetid: '111cdb4e-0548-41be-8f40-c39bb74c865d'
-keywords: ["STOPELEMENT Windows Media Player"]
+ms.assetid: 111cdb4e-0548-41be-8f40-c39bb74c865d
+keywords:
+- STOPELEMENT Windows Media Player
 topic_type:
 - apiref
 api_name:
 - STOPELEMENT
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STOPELEMENT
@@ -43,9 +49,9 @@ All properties of this **BUTTONELEMENT** can be overridden by explicitly specify
 [**BUTTONELEMENT Element**](buttonelement-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

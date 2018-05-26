@@ -1,7 +1,12 @@
 ---
 title: Control Events
 description: In addition to providing properties and methods, a control also provides outgoing interfaces to notify its client of events.
-ms.assetid: 'e7085bc0-c087-4cc8-9c69-ba05b0923b74'
+ms.assetid: e7085bc0-c087-4cc8-9c69-ba05b0923b74
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Control Events
@@ -21,7 +26,7 @@ Controls support four kinds of events:
 
 The following dispids are defined for standard events that controls can support: Click, DblClick, KeyDown, KeyPress, KeyUp, MouseMove, MouseUp, and Error. All of these standard events have negative DISPID values, indicating their standard status.
 
-The [**IOleControl::FreezeEvents**](iolecontrol-freezeevents.md) method, when called with **TRUE**, tells a control whether the container will bother handling events from the control until **FreezeEvents** is again called with **FALSE**. During this time control cannot depend on the container actually handling any events. If an event must be handled, the control should queue the event in order to fire it when **FreezeEvents** is called with **FALSE**.
+The [**IOleControl::FreezeEvents**](/windows/win32/OCIdl/nf-ocidl-iolecontrol-freezeevents?branch=master) method, when called with **TRUE**, tells a control whether the container will bother handling events from the control until **FreezeEvents** is again called with **FALSE**. During this time control cannot depend on the container actually handling any events. If an event must be handled, the control should queue the event in order to fire it when **FreezeEvents** is called with **FALSE**.
 
 ## Related topics
 

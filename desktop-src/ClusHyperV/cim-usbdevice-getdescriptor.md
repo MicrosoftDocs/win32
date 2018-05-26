@@ -4,13 +4,16 @@ description: Retrieves the descriptor for a USB device.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'faa4c9c1-1a71-4a31-90b6-57c01ce4dd99'
-ms.prod: 'windows-server-dev'
+ms.assetid: faa4c9c1-1a71-4a31-90b6-57c01ce4dd99
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetDescriptor method", "GetDescriptor method, CIM_USBDevice class", "CIM_USBDevice class, GetDescriptor method"]
+keywords:
+- GetDescriptor method
+- GetDescriptor method, CIM_USBDevice class
+- CIM_USBDevice class, GetDescriptor method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetDescriptor method of the CIM\_USBDevice class
@@ -28,18 +34,18 @@ Retrieves the descriptor for a USB device.
 > [!Note]  
 > For more information on USB descriptors, see the *USB Specification*.
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 GetDescriptor(
-  [in]      uint8  RequestType,
-  [in]      uint16 RequestValue,
-  [in]      uint16 RequestIndex,
-  [in, out] uint16 RequestLength,
-  [out]     uint8  Buffer[]
+  [in]      uint8  RequestType,
+  [in]      uint16 RequestValue,
+  [in]      uint16 RequestIndex,
+  [in, out] uint16 RequestLength,
+  [out]     uint8  Buffer[]
 );
 ```
 
@@ -97,7 +103,7 @@ Returns "0" on success, "1" if the request is not supported. Otherwise, returns 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | Header<br/>                   | <dl> <dt>Wmcodecdsp.h</dt> </dl>                |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
@@ -112,9 +118,9 @@ Returns "0" on success, "1" if the request is not supported. Otherwise, returns 
 [**CIM\_USBDevice**](cim-usbdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

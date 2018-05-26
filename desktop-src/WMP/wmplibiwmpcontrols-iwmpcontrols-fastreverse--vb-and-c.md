@@ -1,8 +1,11 @@
 ---
 title: IWMPControls fastReverse method
 description: The fastReverse method starts fast play of the media item in the reverse direction.
-ms.assetid: '5c872e8d-2ffc-425f-a4dd-938ddd1426e0'
-keywords: ["fastReverse method Windows Media Player", "fastReverse method Windows Media Player , IWMPControls interface", "IWMPControls interface Windows Media Player , fastReverse method"]
+ms.assetid: 5c872e8d-2ffc-425f-a4dd-938ddd1426e0
+keywords:
+- fastReverse method Windows Media Player
+- fastReverse method Windows Media Player , IWMPControls interface
+- IWMPControls interface Windows Media Player , fastReverse method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls::fastReverse method
@@ -150,9 +158,9 @@ End Sub</code></pre></td>
 [**IWMPSettings.rate (VB and C#)**](wmplibiwmpsettings-iwmpsettings-rate--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: WMI Provider Reference for Active Directory Domain Services
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a96401a5-091c-4c8d-8a25-ab870fecc08c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a96401a5-091c-4c8d-8a25-ab870fecc08c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Provider Reference for Active Directory Domain Services

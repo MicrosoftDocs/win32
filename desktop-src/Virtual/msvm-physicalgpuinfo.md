@@ -1,8 +1,10 @@
 ---
 title: Msvm\_PhysicalGPUInfo class
 description: Contains information about a RemoteFX physical graphics processing unit (GPU).
-ms.assetid: '68F6F642-77FC-4F3D-A0AB-DC13BB0A0FA2'
-keywords: ["Msvm_PhysicalGPUInfo class Hyper-V", "Msvm_PhysicalGPUInfo class Hyper-V , described"]
+ms.assetid: 68F6F642-77FC-4F3D-A0AB-DC13BB0A0FA2
+keywords:
+- Msvm_PhysicalGPUInfo class Hyper-V
+- Msvm_PhysicalGPUInfo class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_PhysicalGPUInfo class
@@ -161,9 +168,9 @@ The total amount of video memory, in bytes, on the physical GPU that can be used
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                                           |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -176,9 +183,9 @@ The total amount of video memory, in bytes, on the physical GPU that can be used
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

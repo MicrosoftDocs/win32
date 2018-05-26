@@ -1,8 +1,10 @@
 ---
 title: HTTPCONTACTIDLIST structure
 description: Contains a list of HTTPCONTACTID structures.
-ms.assetid: '9c1f30ea-a501-41c7-9a77-57d8c38390f1'
-keywords: ["HTTPCONTACTIDLIST structure Windows Mail (formerly Outlook Express)", "LPHTTPCONTACTIDLIST structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 9c1f30ea-a501-41c7-9a77-57d8c38390f1
+keywords:
+- HTTPCONTACTIDLIST structure Windows Mail (formerly Outlook Express)
+- LPHTTPCONTACTIDLIST structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTPCONTACTIDLIST structure
@@ -24,7 +31,7 @@ Contains a list of [**HTTPCONTACTID**](oe-httpcontactid.md) structures.
 
 ```C++
 typedef struct tagHTTPCONTACTIDLIST {
-  ULONG           cContactId;
+  ULONG           cContactId;
   LPHTTPCONTACTID prgContactId;
 } HTTPCONTACTIDLIST, *LPHTTPCONTACTIDLIST;
 ```
@@ -63,17 +70,17 @@ Contains a pointer to an array of [**HTTPCONTACTID**](oe-httpcontactid.md) struc
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

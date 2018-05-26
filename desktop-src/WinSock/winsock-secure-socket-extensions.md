@@ -1,7 +1,12 @@
 ---
-Description: 'The secure socket extensions to Winsock allow a socket application to control the security of their traffic over a network.'
-ms.assetid: '023a9f96-814f-40c3-a186-ae0a0c9baef2'
+Description: The secure socket extensions to Winsock allow a socket application to control the security of their traffic over a network.
+ms.assetid: 023a9f96-814f-40c3-a186-ae0a0c9baef2
 title: Winsock Secure Socket Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Winsock Secure Socket Extensions
@@ -18,12 +23,12 @@ These secure socket extensions are available on Windows Vista and later.
 
 The secure socket extension functions are as follows:
 
--   [**WSADeleteSocketPeerTargetName**](wsadeletesocketpeertargetname.md)
--   [**WSAImpersonateSocketPeer**](wsaimpersonatesocketpeer.md)
--   [**WSAQuerySocketSecurity**](wsaquerysocketsecurity.md)
--   [**WSARevertImpersonation**](wsarevertimpersonation.md)
--   [**WSASetSocketPeerTargetName**](wsasetsocketpeertargetname.md)
--   [**WSASetSocketSecurity**](wsasetsocketsecurity.md)
+-   [**WSADeleteSocketPeerTargetName**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname?branch=master)
+-   [**WSAImpersonateSocketPeer**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsaimpersonatesocketpeer?branch=master)
+-   [**WSAQuerySocketSecurity**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity?branch=master)
+-   [**WSARevertImpersonation**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsarevertimpersonation?branch=master)
+-   [**WSASetSocketPeerTargetName**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname?branch=master)
+-   [**WSASetSocketSecurity**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity?branch=master)
 
 > [!Note]  
 > The secure socket functions currently support only the IPsec protocol and are available on Windows Vista and later.
@@ -32,34 +37,34 @@ The secure socket extension functions are as follows:
 
 The structures and enumerations used by the secure socket functions are as follows:
 
--   [**SOCKET\_PEER\_TARGET\_NAME**](socket-peer-target-name.md)
--   [**SOCKET\_SECURITY\_PROTOCOL**](socket-security-protocol.md)
--   [**SOCKET\_SECURITY\_QUERY\_INFO**](socket-security-query-info.md)
--   [**SOCKET\_SECURITY\_QUERY\_TEMPLATE**](socket-security-query-template.md)
--   [**SOCKET\_SECURITY\_SETTINGS**](socket-security-settings.md)
--   [**SOCKET\_SECURITY\_SETTINGS\_IPSEC**](socket-security-settings-ipsec.md)
+-   [**SOCKET\_PEER\_TARGET\_NAME**](/windows/win32/Mstcpip/ns-mstcpip-_socket_peer_target_name?branch=master)
+-   [**SOCKET\_SECURITY\_PROTOCOL**](/windows/win32/Mstcpip/ne-mstcpip-_socket_security_protocol?branch=master)
+-   [**SOCKET\_SECURITY\_QUERY\_INFO**](/windows/win32/Mstcpip/ns-mstcpip-_socket_security_query_info?branch=master)
+-   [**SOCKET\_SECURITY\_QUERY\_TEMPLATE**](/windows/win32/Mstcpip/ns-mstcpip-_socket_security_query_template?branch=master)
+-   [**SOCKET\_SECURITY\_SETTINGS**](/windows/win32/Mstcpip/ns-mstcpip-_socket_security_settings?branch=master)
+-   [**SOCKET\_SECURITY\_SETTINGS\_IPSEC**](/windows/win32/Mstcpip/ns-mstcpip-_socket_security_settings_ipsec?branch=master)
 
 The secure socket functions are simple to use for normal applications and are flexible enough for applications that need a high degree of control over their security. These functions make it possible to keep the underlying security mechanism hidden from the application. An application can specify generic security requirements and let the administrator control the security protocol that is used to support the requirements. While it is possible to extend these functions to add other security protocols, currently only IPsec integrates with the secure socket functions.
 
-The [**WSASetSocketSecurity**](wsasetsocketsecurity.md) function allows an application to enable security and apply security settings before a connection is established.
+The [**WSASetSocketSecurity**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity?branch=master) function allows an application to enable security and apply security settings before a connection is established.
 
-The [**WSASetSocketPeerTargetName**](wsasetsocketpeertargetname.md) function allows an application to specify the target name corresponding to a peer entity. The selected security protocol will use this information when authenticating the peer. This feature addresses concerns about trusted man-in-the-middle attacks.
+The [**WSASetSocketPeerTargetName**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname?branch=master) function allows an application to specify the target name corresponding to a peer entity. The selected security protocol will use this information when authenticating the peer. This feature addresses concerns about trusted man-in-the-middle attacks.
 
-The [**WSADeleteSocketPeerTargetName**](wsadeletesocketpeertargetname.md) function is used to delete a previously specified peer name for a socket.
+The [**WSADeleteSocketPeerTargetName**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname?branch=master) function is used to delete a previously specified peer name for a socket.
 
-After a connection is established, the [**WSAQuerySocketSecurity**](wsaquerysocketsecurity.md) function allows an application to query the security properties of the connection, which can include the peer access or computer access token.
+After a connection is established, the [**WSAQuerySocketSecurity**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity?branch=master) function allows an application to query the security properties of the connection, which can include the peer access or computer access token.
 
-After a connection is established, the [**WSAImpersonateSocketPeer**](wsaimpersonatesocketpeer.md) function allows an application to impersonate the security principal corresponding to a socket peer in order to perform application-level authorization.
+After a connection is established, the [**WSAImpersonateSocketPeer**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsaimpersonatesocketpeer?branch=master) function allows an application to impersonate the security principal corresponding to a socket peer in order to perform application-level authorization.
 
-The [**WSARevertImpersonation**](wsarevertimpersonation.md) allows an application to terminate the impersonation of a socket peer.
+The [**WSARevertImpersonation**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsarevertimpersonation?branch=master) allows an application to terminate the impersonation of a socket peer.
 
 ## Secure Socket Architecture
 
 ![basic architecture of the winsock secure socket extensions](images/ss-arch.png)
 
 -   An application calls the secure socket functions to set or query security settings for a socket.
--   The secure socket functions are a set of type-safe extension functions that wrap calls to the [**WSAIoctl**](wsaioctl-2.md) function using newly-defined values for the *dwIoControlCode* parameter available on Windows Vista and later. These IOCTLs are handled by the network stack.
--   The network stack will direct the call to [Application Layer Enforcement (ALE)](fwp.application_layer_enforcement__ale_) along with the endpoint handle. For the [**WSADeleteSocketPeerTargetName**](wsadeletesocketpeertargetname.md), [**WSASetSocketPeerTargetName**](wsasetsocketpeertargetname.md), and [**WSASetSocketSecurity**](wsasetsocketsecurity.md) functions, ALE will configure the application's settings on the local endpoint. For the [**WSAQuerySocketSecurity**](wsaquerysocketsecurity.md) function, ALE will read the requested information from applicable local and remote endpoints.
+-   The secure socket functions are a set of type-safe extension functions that wrap calls to the [**WSAIoctl**](/windows/win32/Winsock2/nf-winsock2-wsaioctl?branch=master) function using newly-defined values for the *dwIoControlCode* parameter available on Windows Vista and later. These IOCTLs are handled by the network stack.
+-   The network stack will direct the call to [Application Layer Enforcement (ALE)](fwp.application_layer_enforcement__ale_) along with the endpoint handle. For the [**WSADeleteSocketPeerTargetName**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname?branch=master), [**WSASetSocketPeerTargetName**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname?branch=master), and [**WSASetSocketSecurity**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity?branch=master) functions, ALE will configure the application's settings on the local endpoint. For the [**WSAQuerySocketSecurity**](/windows/win32/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity?branch=master) function, ALE will read the requested information from applicable local and remote endpoints.
 -   Based on socket events, Application Layer Enforcement (ALE) enforces policies for the secure socket architecture using the Windows Filtering Platform. For more information, see [About Windows Filtering Platform](fwp.about_windows_filtering_platform) and [Application Layer Enforcement (ALE)](fwp.application_layer_enforcement__ale_).
 
 ## Related topics

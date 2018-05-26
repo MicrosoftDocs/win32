@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectRasterizerVariable GetRasterizerState method
 description: Get a pointer to a rasterizer interface.
-ms.assetid: '4b8515e0-b79a-4572-9142-07c50a8839b8'
-keywords: ["GetRasterizerState method Direct3D 11", "GetRasterizerState method Direct3D 11 , ID3DX11EffectRasterizerVariable interface", "ID3DX11EffectRasterizerVariable interface Direct3D 11 , GetRasterizerState method"]
+ms.assetid: 4b8515e0-b79a-4572-9142-07c50a8839b8
+keywords:
+- GetRasterizerState method Direct3D 11
+- GetRasterizerState method Direct3D 11 , ID3DX11EffectRasterizerVariable interface
+- ID3DX11EffectRasterizerVariable interface Direct3D 11 , GetRasterizerState method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectRasterizerVariable::GetRasterizerState method
@@ -23,8 +31,8 @@ Get a pointer to a rasterizer interface.
 
 ```C++
 HRESULT GetRasterizerState(
-   UINT                  Index,
-   ID3D11RasterizerState **ppRasterizerState
+   UINT                  Index,
+   ID3D11RasterizerState **ppRasterizerState
 );
 ```
 
@@ -46,9 +54,9 @@ Index into an array of rasterizer interfaces. If there is only one rasterizer in
 *ppRasterizerState* 
 </dt> <dd>
 
-Type: **[**ID3D11RasterizerState**](id3d11rasterizerstate.md)\*\***
+Type: **[**ID3D11RasterizerState**](/windows/win32/D3D11/nn-d3d11-id3d11rasterizerstate?branch=master)\*\***
 
-The address of a pointer to a rasterizer interface (see [**ID3D11RasterizerState**](id3d11rasterizerstate.md)).
+The address of a pointer to a rasterizer interface (see [**ID3D11RasterizerState**](/windows/win32/D3D11/nn-d3d11-id3d11rasterizerstate?branch=master)).
 
 </dd> </dl>
 
@@ -63,7 +71,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -83,9 +91,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectRasterizerVariable](id3dx11effectrasterizervariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

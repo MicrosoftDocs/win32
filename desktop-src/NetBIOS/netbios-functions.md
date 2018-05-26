@@ -1,7 +1,12 @@
 ---
 title: NetBIOS Functions
 description: NetBIOS Functions
-ms.assetid: '08959d13-c807-48af-87e0-c9151851d3a4'
+ms.assetid: 08959d13-c807-48af-87e0-c9151851d3a4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetBIOS Functions
@@ -10,7 +15,7 @@ ms.assetid: '08959d13-c807-48af-87e0-c9151851d3a4'
 
 The following function is used in NetBIOS.
 
--   [**Netbios**](netbios.md)
+-   [**Netbios**](/windows/previous-versions/Nb30/nf-nb30-netbios?branch=master)
 
  
 

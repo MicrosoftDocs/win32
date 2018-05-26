@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create a new child item. Adds IWiaItem2 objects to a device''s IWiaItem2 tree.'
-ms.assetid: '525ee788-3ff4-4def-ae71-4a405c04c6a3'
-title: 'IWiaItem2::CreateChildItem method'
+---
+Description: Create a new child item. Adds IWiaItem2 objects to a devices IWiaItem2 tree.
+ms.assetid: 525ee788-3ff4-4def-ae71-4a405c04c6a3
+title: IWiaItem2CreateChildItem method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaItem2::CreateChildItem method

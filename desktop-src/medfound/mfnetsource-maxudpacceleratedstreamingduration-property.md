@@ -1,7 +1,12 @@
-﻿---
-Description: 'Maximum duration of accelerated streaming, in milliseconds, when the network source uses UDP transport.'
-ms.assetid: 'd5f3064a-b222-4f72-b889-cd88c14a239c'
-title: 'MFNETSOURCE\_MAXUDPACCELERATEDSTREAMINGDURATION property'
+---
+Description: Maximum duration of accelerated streaming, in milliseconds, when the network source uses UDP transport.
+ms.assetid: d5f3064a-b222-4f72-b889-cd88c14a239c
+title: MFNETSOURCE\_MAXUDPACCELERATEDSTREAMINGDURATION property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_MAXUDPACCELERATEDSTREAMINGDURATION property

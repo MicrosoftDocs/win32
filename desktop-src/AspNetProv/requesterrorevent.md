@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the RequestErrorEvent event.'
+---
+Description: The event type class for the RequestErrorEvent event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd46764d7-a9b0-4ea9-9a73-e10e22a2c8cc'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d46764d7-a9b0-4ea9-9a73-e10e22a2c8cc
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: RequestErrorEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestErrorEvent class

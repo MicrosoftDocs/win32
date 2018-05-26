@@ -4,11 +4,16 @@ description: This feature is introduced in MMC version 1.1.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e1e1e741-3bdb-4826-811b-177bb14bf476'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e1e1e741-3bdb-4826-811b-177bb14bf476
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["programmatic new window creation MMC", "window creation MMC"]
+keywords:
+- programmatic new window creation MMC
+- window creation MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Programmatic New Window Creation

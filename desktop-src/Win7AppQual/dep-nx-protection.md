@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '92F628E4-6106-42F7-B868-A3101C7A3F0A'
-title: 'DEP/NX Protection'
+Description: .
+ms.assetid: 92F628E4-6106-42F7-B868-A3101C7A3F0A
+title: DEP/NX Protection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DEP/NX Protection

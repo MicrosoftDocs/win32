@@ -1,7 +1,12 @@
 ---
 title: Remote Assistance Reference
 description: Remote Assistance Reference
-ms.assetid: '86042d53-25c6-48b1-990b-11a914654624'
+ms.assetid: 86042d53-25c6-48b1-990b-11a914654624
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remote Assistance Reference

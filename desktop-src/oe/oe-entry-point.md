@@ -1,7 +1,12 @@
 ---
 title: Windows Mail (formerly Outlook Express)
 description: Windows Mail (formerly Outlook Express)
-ms.assetid: '0ad673a6-acbe-4c08-9eff-9cbbc25d51ba'
+ms.assetid: 0ad673a6-acbe-4c08-9eff-9cbbc25d51ba
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Mail (formerly Outlook Express)

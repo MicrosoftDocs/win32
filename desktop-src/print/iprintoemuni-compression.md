@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::Compression method can be used with Unidrv-supported printers to provide a customized bitmap compression method.'
-ms.assetid: '02524493-3842-462e-86f6-2ab35998c65e'
-title: 'IPrintOemUni::Compression method'
+---
+Description: The IPrintOemUniCompression method can be used with Unidrv-supported printers to provide a customized bitmap compression method.
+ms.assetid: 02524493-3842-462e-86f6-2ab35998c65e
+title: IPrintOemUniCompression method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::Compression method

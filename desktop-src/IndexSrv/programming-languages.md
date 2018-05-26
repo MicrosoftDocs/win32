@@ -1,7 +1,12 @@
 ---
 title: Programming Languages
 description: You can use a broad variety of programming languages when programming an Indexing Service task. Each language typically has more than one API to interface it to Indexing Service.
-ms.assetid: '2d5b46e6-33b2-41d3-8763-5e1df6ae3a5c'
+ms.assetid: 2d5b46e6-33b2-41d3-8763-5e1df6ae3a5c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Languages

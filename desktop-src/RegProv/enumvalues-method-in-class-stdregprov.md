@@ -4,11 +4,14 @@ description: Enumerates the values of the given subkey.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c673911e-1b72-4ad5-a79d-ee32a1e4e90c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: c673911e-1b72-4ad5-a79d-ee32a1e4e90c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["EnumValues method", "EnumValues method, StdRegProv class", "StdRegProv class, EnumValues method"]
+keywords:
+- EnumValues method
+- EnumValues method, StdRegProv class
+- StdRegProv class, EnumValues method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Stdprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnumValues method of the StdRegProv class
@@ -30,10 +36,10 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 EnumValues(
-  [in]  uint32 hDefKey = HKEY_LOCAL_MACHINE,
-  [in]  string sSubKeyName,
-  [out] string sNames[],
-  [out] sint32 Types[]
+  [in]  uint32 hDefKey = HKEY_LOCAL_MACHINE,
+  [in]  string sSubKeyName,
+  [out] string sNames[],
+  [out] sint32 Types[]
 );
 ```
 
@@ -193,8 +199,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\default<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RegEvent.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Stdprov.dll</dt> </dl>  |
@@ -214,9 +220,9 @@ Next
 [WMI Tasks: Registry](https://msdn.microsoft.com/library/aa394600)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

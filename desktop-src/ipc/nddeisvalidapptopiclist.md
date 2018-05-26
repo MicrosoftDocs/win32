@@ -1,12 +1,17 @@
 ---
-Description: 'Determines whether an application and topic string (&\#0034;AppName\|TopicName&\#0034;) uses the proper syntax.'
-ms.assetid: 'bcf5442b-452e-4b42-95e9-f09bf885be40'
+Description: Determines whether an application and topic string (&\#0034;AppName\|TopicName&\#0034;) uses the proper syntax.
+ms.assetid: bcf5442b-452e-4b42-95e9-f09bf885be40
 title: NDdeIsValidAppTopicList function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDdeIsValidAppTopicList function
 
-\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
+\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
 
 Determines whether an application and topic string ("*AppName*\|*TopicName*") uses the proper syntax.
 
@@ -15,7 +20,7 @@ Determines whether an application and topic string ("*AppName*\|*TopicName*") us
 
 ```C++
 BOOL NDdeIsValidAppTopicList(
-  _In_ LPTSTR targetTopic
+  _In_ LPTSTR targetTopic
 );
 ```
 
@@ -48,8 +53,8 @@ This function is also called by [**NDdeShareAdd**](nddeshareadd.md) when it crea
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |
 | Header<br/>                   | <dl> <dt>Nddeapi.h</dt> </dl>      |
 | Library<br/>                  | <dl> <dt>Nddeapi.lib</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Nddeapi.dll</dt> </dl>    |
@@ -70,9 +75,9 @@ This function is also called by [**NDdeShareAdd**](nddeshareadd.md) when it crea
 [**NDdeShareAdd**](nddeshareadd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

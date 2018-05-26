@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '5276dc2b-a448-47b3-8f9e-4585b767a9c0'
-title: 'System.ProviderItemID'
+Description: .
+ms.assetid: 5276dc2b-a448-47b3-8f9e-4585b767a9c0
+title: System.ProviderItemID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ProviderItemID

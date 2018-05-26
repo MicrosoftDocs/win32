@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the index of the mesh face to which each texel belongs.'
-ms.assetid: '45d931bc-fb8b-48da-b30d-99d5dc183494'
-title: 'ID3DXTextureGutterHelper::SetFaceMap method'
+---
+Description: Sets the index of the mesh face to which each texel belongs.
+ms.assetid: 45d931bc-fb8b-48da-b30d-99d5dc183494
+title: ID3DXTextureGutterHelperSetFaceMap method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureGutterHelper::SetFaceMap method

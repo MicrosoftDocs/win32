@@ -1,6 +1,11 @@
-﻿---
-Description: 'Contains information that defines a new most recently used (MRU) list. Used by CreateMRUListW.'
+---
+Description: Contains information that defines a new most recently used (MRU) list. Used by CreateMRUListW.
 title: MRUINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MRUINFO structure

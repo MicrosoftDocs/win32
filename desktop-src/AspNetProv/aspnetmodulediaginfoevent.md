@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the DiagnosticTraceInfo event.'
+---
+Description: The event type class for the DiagnosticTraceInfo event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd0965e58-88c8-40fd-b995-795f8389ab1d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d0965e58-88c8-40fd-b995-795f8389ab1d
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetModuleDiagInfoEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetModuleDiagInfoEvent class

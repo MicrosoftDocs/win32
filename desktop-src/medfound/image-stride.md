@@ -1,7 +1,12 @@
 ---
 Description: Image Stride
-ms.assetid: '13cd1106-48b3-4522-ac09-8efbaab5c31d'
+ms.assetid: 13cd1106-48b3-4522-ac09-8efbaab5c31d
 title: Image Stride
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image Stride
@@ -65,7 +70,7 @@ The general idea is to process one row at a time, iterating over each pixel in t
 
 This example calls a hypothetical function named TransformPixelValue for each pixel. This could be any function that calculates a target pixel from a source pixel. Of course, the exact details will depend on the particular task. For example, if you have a planar YUV format, you must access the chroma planes independently from the luma plane; with interlaced video, you might need to process the fields separately; and so forth.
 
-To give a more concrete example, the following code converts a 32-bit RGB image into an AYUV image. The RGB pixels are accessed using an [**RGBQUAD**](gdi.rgbquad) structure, and the AYUV pixels are accessed using a [**DXVA2\_AYUVSample8**](dxva2-ayuvsample8.md) structure structure.
+To give a more concrete example, the following code converts a 32-bit RGB image into an AYUV image. The RGB pixels are accessed using an [**RGBQUAD**](gdi.rgbquad) structure, and the AYUV pixels are accessed using a [**DXVA2\_AYUVSample8**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_ayuvsample8?branch=master) structure structure.
 
 
 ```C++

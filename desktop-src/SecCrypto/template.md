@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the certificate extension template of the certificate.'
-ms.assetid: '84fbf984-b932-4794-a939-de01e529d891'
+---
+Description: Represents the certificate extension template of the certificate.
+ms.assetid: 84fbf984-b932-4794-a939-de01e529d891
 title: Template object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Template object

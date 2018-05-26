@@ -1,8 +1,13 @@
 ---
 title: IVMRCAuthenticator Name property
-description: The Name property contains the authenticator's name.
-ms.assetid: 'f29f5633-e832-4ba3-a3fd-80f557386fec'
-keywords: ["Name property Virtual Server", "Name property Virtual Server , IVMRCAuthenticator interface", "IVMRCAuthenticator interface Virtual Server , Name property", "Name property Virtual Server , VMRCAuthenticator interface", "VMRCAuthenticator interface Virtual Server , Name property"]
+description: The Name property contains the authenticators name.
+ms.assetid: f29f5633-e832-4ba3-a3fd-80f557386fec
+keywords:
+- Name property Virtual Server
+- Name property Virtual Server , IVMRCAuthenticator interface
+- IVMRCAuthenticator interface Virtual Server , Name property
+- Name property Virtual Server , VMRCAuthenticator interface
+- VMRCAuthenticator interface Virtual Server , Name property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCAuthenticator::Name property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Name(
-  [out] BSTR *name
+  [out] BSTR *name
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMRCAuthenticator**](ivmrcauthenticator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

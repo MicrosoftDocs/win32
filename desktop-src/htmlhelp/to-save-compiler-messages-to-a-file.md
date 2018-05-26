@@ -1,7 +1,12 @@
 ---
 title: To save compiler messages to a file
 description: To save compiler messages to a file
-ms.assetid: '41E5CB5A-11A2-4080-A0F6-5FA11DF37169'
+ms.assetid: 41E5CB5A-11A2-4080-A0F6-5FA11DF37169
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To save compiler messages to a file
@@ -16,14 +21,14 @@ ms.assetid: '41E5CB5A-11A2-4080-A0F6-5FA11DF37169'
 
     
 
-     
+     
 
 2.  In the **Log file** box, type the name of the file. If you want to save the file in a folder other than the one that contains the project file, type a path.
 
 > [!Note]  
 > You can save all the compiler messages, or [hide the ones](to-hide-compiler-messages.md) you don't want to appear in your report.
 
- 
+ 
 
 ## Related topics
 
@@ -32,9 +37,9 @@ ms.assetid: '41E5CB5A-11A2-4080-A0F6-5FA11DF37169'
 [About Compiling a Help Project](compile-a-help-project.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

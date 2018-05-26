@@ -1,8 +1,11 @@
 ---
 title: IOERule SaveReg method
-description: IOERule SaveReg is no longer available for use as of Windows Vista.
-ms.assetid: 'a8960137-7b5f-4049-b101-3d502f687230'
-keywords: ["SaveReg method Windows Mail (formerly Outlook Express)", "SaveReg method Windows Mail (formerly Outlook Express) , IOERule interface", "IOERule interface Windows Mail (formerly Outlook Express) , SaveReg method"]
+description: IOERule SaveReg is no longer available for use as of Windows Vista.
+ms.assetid: a8960137-7b5f-4049-b101-3d502f687230
+keywords:
+- SaveReg method Windows Mail (formerly Outlook Express)
+- SaveReg method Windows Mail (formerly Outlook Express) , IOERule interface
+- IOERule interface Windows Mail (formerly Outlook Express) , SaveReg method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msoe.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOERule::SaveReg method
 
-\[**IOERule::SaveReg** is no longer available for use as of Windows Vista.\]
+\[**IOERule::SaveReg** is no longer available for use as of Windows Vista.\]
 
 Writes the rule to the registry.
 
@@ -24,8 +32,8 @@ Writes the rule to the registry.
 
 ```C++
 HRESULT SaveReg(
-  [in] LPCSTR szRegPath,
-  [in] BOOL   fClearDirty
+  [in] LPCSTR szRegPath,
+  [in] BOOL   fClearDirty
 );
 ```
 
@@ -70,7 +78,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -78,19 +86,19 @@ Returns one of the following values.
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
-| End of client support<br/>    | Windows XP<br/>                                                                                      |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
+| End of client support<br/>    | Windows XP<br/>                                                                                      |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                             |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl>                     |
 | DLL<br/>                      | <dl> <dt>Msoe.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

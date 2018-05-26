@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EnableEvents method allows events to be generated for the specified printer driver until DisableEvents is called.'
-ms.assetid: '8DF89C18-10CA-4E8B-8E2A-B373C80F7B39'
-title: 'IPrinterExtensionManager::EnableEvents method'
+---
+Description: The EnableEvents method allows events to be generated for the specified printer driver until DisableEvents is called.
+ms.assetid: 8DF89C18-10CA-4E8B-8E2A-B373C80F7B39
+title: IPrinterExtensionManagerEnableEvents method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionManager::EnableEvents method

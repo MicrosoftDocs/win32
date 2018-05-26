@@ -1,7 +1,12 @@
 ---
 title: Proximity Operator
 description: Proximity Operator
-ms.assetid: 'd9b59fbf-0549-459c-94af-7627aadcc78e'
+ms.assetid: d9b59fbf-0549-459c-94af-7627aadcc78e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Proximity Operator

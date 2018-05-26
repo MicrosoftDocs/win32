@@ -1,8 +1,14 @@
 ---
 title: ServiceParameters
 description: Specifies the command-line parameters to be passed to an object installed for use by COM through the LocalService registry value.
-ms.assetid: 'da11e422-c0f2-4e44-9728-740ea6b61421'
-keywords: ["ServiceParameters registry value COM"]
+ms.assetid: da11e422-c0f2-4e44-9728-740ea6b61421
+keywords:
+- ServiceParameters registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServiceParameters

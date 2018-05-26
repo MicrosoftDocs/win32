@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes color values.'
-ms.assetid: '6af8c2ec-bc79-4dc6-b56d-7a7676a50b39'
+---
+Description: Describes color values.
+ms.assetid: 6af8c2ec-bc79-4dc6-b56d-7a7676a50b39
 title: D3DCOLORVALUE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCOLORVALUE structure

@@ -1,14 +1,20 @@
 ---
 title: BANNER Element
 description: The BANNER element defines a URL to a graphic file that will appear in the display panel.
-ms.assetid: '8b4a3369-a687-40a8-b5df-afb0e0518cd1'
-keywords: ["BANNER Element Windows Media Player"]
+ms.assetid: 8b4a3369-a687-40a8-b5df-afb0e0518cd1
+keywords:
+- BANNER Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BANNER Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BANNER Element
@@ -39,7 +45,7 @@ URL to a graphic file that is displayed in the display panel.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -99,9 +105,9 @@ The following is an example of a **BANNER** element containing **ABSTRACT** and 
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

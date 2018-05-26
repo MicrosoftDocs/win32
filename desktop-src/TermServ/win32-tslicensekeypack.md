@@ -4,11 +4,13 @@ description: Provides methods and properties for viewing and installing Remote D
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '27450646-c51f-4911-bb42-410794e32003'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 27450646-c51f-4911-bb42-410794e32003
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSLicenseKeyPack class Remote Desktop Services", "Win32_TSLicenseKeyPack class Remote Desktop Services , described"]
+keywords:
+- Win32_TSLicenseKeyPack class Remote Desktop Services
+- Win32_TSLicenseKeyPack class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSLicenseKeyPack class
@@ -41,18 +46,18 @@ Provides methods and properties for viewing and installing Remote Desktop Servic
 [dynamic, provider("Win32_WIN32_TERMSERVLICENSING_Prov"), AMENDMENT]
 class Win32_TSLicenseKeyPack
 {
-  uint32   KeyPackId;
-  string   Description;
-  uint32   KeyPackType;
-  uint32   ProductType;
-  string   ProductVersion;
-  uint32   ProductVersionID;
-  uint32   TotalLicenses;
-  uint32   IssuedLicenses;
-  uint32   AvailableLicenses;
+  uint32   KeyPackId;
+  string   Description;
+  uint32   KeyPackType;
+  uint32   ProductType;
+  string   ProductVersion;
+  uint32   ProductVersionID;
+  uint32   TotalLicenses;
+  uint32   IssuedLicenses;
+  uint32   AvailableLicenses;
   DATETIME ExpirationDate;
-  uint32   AccessRights;
-  string   TypeAndModel;
+  uint32   AccessRights;
+  string   TypeAndModel;
 };
 ```
 
@@ -90,7 +95,7 @@ The **Win32\_TSLicenseKeyPack** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -262,14 +267,14 @@ Product type of the Remote Desktop Services license key pack.
 0
 </dt> <dd>
 
-The Remote Desktop Services license key pack product type is per device. Therefore, each device that connects to the RD Session Host server must have a license.
+The Remote Desktop Services license key pack product type is per device. Therefore, each device that connects to the RD Session Host server must have a license.
 
 </dd> <dt>
 
 1
 </dt> <dd>
 
-The Remote Desktop Services license key pack product type is per user. Therefore, each user who connects to the RD Session Host server must have a license.
+The Remote Desktop Services license key pack product type is per user. Therefore, each user who connects to the RD Session Host server must have a license.
 
 </dd> <dt>
 
@@ -295,24 +300,24 @@ Product version for the Remote Desktop Services license key pack.
 
 <dt>
 
-"Windows Server 2012"
+"Windows Server 2012"
 </dt> <dd>
 
-Only servers running Windows Server 2012, Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
+Only servers running Windows Server 2012, Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
 
 </dd> <dt>
 
 "Windows Server 7"
 </dt> <dd>
 
-Only servers running Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
+Only servers running Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
 
 </dd> <dt>
 
 "Windows Server 2008"
 </dt> <dd>
 
-Only servers running Windows Server 2008 are supported by this key pack.
+Only servers running Windows Server 2008 are supported by this key pack.
 
 </dd> </dl>
 
@@ -334,21 +339,21 @@ Product version identifier for the Remote Desktop Services license key pack.
 4
 </dt> <dd>
 
-Windows Server 2012
+Windows Server 2012
 
 </dd> <dt>
 
 3
 </dt> <dd>
 
-Windows Server 2008 R2
+Windows Server 2008 R2
 
 </dd> <dt>
 
 2
 </dt> <dd>
 
-Windows Server 2008
+Windows Server 2008
 
 </dd> <dt>
 
@@ -407,7 +412,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -430,9 +435,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseServer**](win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

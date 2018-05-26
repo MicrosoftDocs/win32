@@ -4,11 +4,14 @@ description: Resizes the file system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '370d4e2e-e079-4696-a8ba-037cd5f20ae0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 370d4e2e-e079-4696-a8ba-037cd5f20ae0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ModifySize method", "ModifySize method, MSFT_SMFileSystem class", "MSFT_SMFileSystem class, ModifySize method"]
+keywords:
+- ModifySize method
+- ModifySize method, MSFT_SMFileSystem class
+- MSFT_SMFileSystem class, ModifySize method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ModifySize method of the MSFT\_SMFileSystem class
@@ -28,10 +34,10 @@ Resizes the file system.
 
 ```mof
 UInt32 ModifySize(
-  [in, out]       UInt64                Size,
-  [in]            Boolean               RunAsJob,
-  [out]           MSFT_SMJob        REF CreatedStorageJob,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in, out]       UInt64                Size,
+  [in]            Boolean               RunAsJob,
+  [out]           MSFT_SMJob        REF CreatedStorageJob,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -80,7 +86,7 @@ Returns "0" on success, otherwise returns a WMI error code.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -94,9 +100,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**MSFT\_SMFileSystem**](msft-smfilesystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

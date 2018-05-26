@@ -1,7 +1,12 @@
 ---
 title: Subresources
 description: This topic describes texture subresources, or portions of a resource.
-ms.assetid: '57444cb5-6c8b-4dac-8d6b-ca2b45eafac9'
+ms.assetid: 57444cb5-6c8b-4dac-8d6b-ca2b45eafac9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subresources
@@ -26,7 +31,7 @@ Think of this as a single texture that is made up of three subresources. A subre
 
 ## Selecting Subresources
 
-Some APIs access an entire resource (for example the [**ID3D11DeviceContext::CopyResource**](id3d11devicecontext-copyresource.md) method), others access a portion of a resource (for example the [**ID3D11DeviceContext::UpdateSubresource**](id3d11devicecontext-updatesubresource.md) method or the [**ID3D11DeviceContext::CopySubresourceRegion**](id3d11devicecontext-copysubresourceregion.md) method). The methods that access a portion of a resource generally use a view description (such as the [**D3D11\_TEX2D\_ARRAY\_DSV**](d3d11-tex2d-array-dsv.md) structure) to specify the subresources to access.
+Some APIs access an entire resource (for example the [**ID3D11DeviceContext::CopyResource**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-copyresource?branch=master) method), others access a portion of a resource (for example the [**ID3D11DeviceContext::UpdateSubresource**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-updatesubresource?branch=master) method or the [**ID3D11DeviceContext::CopySubresourceRegion**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-copysubresourceregion?branch=master) method). The methods that access a portion of a resource generally use a view description (such as the [**D3D11\_TEX2D\_ARRAY\_DSV**](/windows/win32/D3D11/ns-d3d11-d3d11_tex2d_array_dsv?branch=master) structure) to specify the subresources to access.
 
 The illustrations in the following sections show the terms used by a view description when accessing an array of textures.
 
@@ -55,7 +60,7 @@ Or you can use these two types of slices with the number of mipmap levels and/or
 ![illustration of choosing multiple subresource](images/d3d10-resource-subresources-2.png)
 
 > [!Note]  
-> A [**render-target view**](d3d11-render-target-view-desc.md) can only use a single subresource or mip slice and cannot include subresources from more than one mip slice. That is, every texture in a render-target view must be the same size. A [**shader-resource view**](d3d11-shader-resource-view-desc.md) can select any rectangular region of subresources, as shown in the figure.
+> A [**render-target view**](/windows/win32/D3D11/ns-d3d11-d3d11_render_target_view_desc?branch=master) can only use a single subresource or mip slice and cannot include subresources from more than one mip slice. That is, every texture in a render-target view must be the same size. A [**shader-resource view**](/windows/win32/d3d11/ns-d3d11-d3d11_shader_resource_view_desc?branch=master) can select any rectangular region of subresources, as shown in the figure.
 
  
 

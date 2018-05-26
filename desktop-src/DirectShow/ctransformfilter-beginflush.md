@@ -1,7 +1,12 @@
 ---
-Description: 'The BeginFlush method begins a flush operation.'
-ms.assetid: '15bea993-f862-4791-b784-0d0468c6c05c'
-title: 'CTransformFilter.BeginFlush method'
+Description: The BeginFlush method begins a flush operation.
+ms.assetid: 15bea993-f862-4791-b784-0d0468c6c05c
+title: CTransformFilter.BeginFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.BeginFlush method
@@ -49,9 +54,9 @@ If the derived class uses a worker thread to deliver samples, it should discard 
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

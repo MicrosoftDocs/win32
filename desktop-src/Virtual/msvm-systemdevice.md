@@ -1,8 +1,10 @@
 ---
 title: Msvm\_SystemDevice class
 description: Associates a logical device with the parent system.
-ms.assetid: '0be1695d-42a9-441a-b731-ca00868c085c'
-keywords: ["Msvm_SystemDevice class Hyper-V", "Msvm_SystemDevice class Hyper-V , described"]
+ms.assetid: 0be1695d-42a9-441a-b731-ca00868c085c
+keywords:
+- Msvm_SystemDevice class Hyper-V
+- Msvm_SystemDevice class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SystemDevice class
@@ -27,7 +34,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SystemDevice : CIM_SystemDevice
 {
-  CIM_System        REF GroupComponent;
+  CIM_System        REF GroupComponent;
   CIM_LogicalDevice REF PartComponent;
 };
 ```
@@ -87,9 +94,9 @@ Access to the **Msvm\_SystemDevice** class might be restricted by UAC Filtering.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -108,9 +115,9 @@ Access to the **Msvm\_SystemDevice** class might be restricted by UAC Filtering.
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

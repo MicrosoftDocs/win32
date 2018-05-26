@@ -1,7 +1,12 @@
-﻿---
-Description: 'Some applications, such as Microsoft Active Directory, Microsoft Exchange, and Microsoft Access, maintain a sortable database of locale and language strings indexed by name (UTF-16 string), and their associated sorting weights.'
-ms.assetid: 'c8fc32bd-02bd-4a40-a836-d9ad9f69c209'
+---
+Description: Some applications, such as Microsoft Active Directory, Microsoft Exchange, and Microsoft Access, maintain a sortable database of locale and language strings indexed by name (UTF-16 string), and their associated sorting weights.
+ms.assetid: c8fc32bd-02bd-4a40-a836-d9ad9f69c209
 title: Handling Sorting in Your Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Sorting in Your Applications
@@ -14,14 +19,14 @@ Some applications, such as Microsoft Active Directory, Microsoft Exchange, and M
 
 You can use a variety of sorting functions in your applications:
 
--   NLS string comparison functions. Examples are [**CompareString**](comparestring.md) and [**CompareStringEx**](comparestringex.md), [**CompareStringOrdinal**](comparestringordinal.md), [**LCMapString**](lcmapstring.md), [**LCMapStringEx**](lcmapstringex.md), [**FindNLSString**](findnlsstring.md), [**FindNLSStringEx**](findnlsstringex.md), and [**FindStringOrdinal**](findstringordinal.md). See [Security Considerations: International Features](security-considerations--international-features.md) for a discussion of security issues related to the string comparison functions.
--   Wrapper functions that internally call the string comparison functions. The most common functions are [**lstrcmp**](_win32_lstrcmp_cpp) and [**lstrcmpi**](_win32_lstrcmpi_cpp), which call [**CompareString**](comparestring.md).
+-   NLS string comparison functions. Examples are [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master) and [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master), [**CompareStringOrdinal**](/windows/win32/Stringapiset/nf-stringapiset-comparestringordinal?branch=master), [**LCMapString**](/windows/win32/Winnls/nf-winnls-lcmapstringa?branch=master), [**LCMapStringEx**](/windows/win32/Winnls/nf-winnls-lcmapstringex?branch=master), [**FindNLSString**](/windows/win32/Winnls/nf-winnls-findnlsstring?branch=master), [**FindNLSStringEx**](/windows/win32/Winnls/nf-winnls-findnlsstringex?branch=master), and [**FindStringOrdinal**](/windows/win32/Libloaderapi/nf-libloaderapi-findstringordinal?branch=master). See [Security Considerations: International Features](security-considerations--international-features.md) for a discussion of security issues related to the string comparison functions.
+-   Wrapper functions that internally call the string comparison functions. The most common functions are [**lstrcmp**](_win32_lstrcmp_cpp) and [**lstrcmpi**](_win32_lstrcmpi_cpp), which call [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master).
 
-Usually the sorting functions evaluate strings character by character. However, many languages have multiple-character elements, such as the two-character pair "CH" in traditional Spanish. [**CompareString**](comparestring.md) and [**CompareStringEx**](comparestringex.md) use the application-supplied locale identifier or name to identify multiple-character elements. In contrast, [**lstrcmp**](_win32_lstrcmp_cpp), and [**lstrcmpi**](_win32_lstrcmpi_cpp) use the user's locale.
+Usually the sorting functions evaluate strings character by character. However, many languages have multiple-character elements, such as the two-character pair "CH" in traditional Spanish. [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master) and [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master) use the application-supplied locale identifier or name to identify multiple-character elements. In contrast, [**lstrcmp**](_win32_lstrcmp_cpp), and [**lstrcmpi**](_win32_lstrcmpi_cpp) use the user's locale.
 
-Another example is Vietnamese, which contains many two-character elements, such as the valid uppercase, title case, and lowercase forms of "GI", which are "GI, "Gi", and "gi", respectively. Any of these forms is treated as a as a single sorting element and, if casing is ignored, compares as equal. However, because "gI" is not valid as a single element, [**CompareString**](comparestring.md), [**CompareStringEx**](comparestringex.md), [**lstrcmp**](_win32_lstrcmp_cpp), and [**lstrcmpi**](_win32_lstrcmpi_cpp) treat "gI" as two separate elements.
+Another example is Vietnamese, which contains many two-character elements, such as the valid uppercase, title case, and lowercase forms of "GI", which are "GI, "Gi", and "gi", respectively. Any of these forms is treated as a as a single sorting element and, if casing is ignored, compares as equal. However, because "gI" is not valid as a single element, [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master), [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master), [**lstrcmp**](_win32_lstrcmp_cpp), and [**lstrcmpi**](_win32_lstrcmpi_cpp) treat "gI" as two separate elements.
 
-The functions [**CompareString**](comparestring.md), [**CompareStringEx**](comparestringex.md), [**lstrcmp**](_win32_lstrcmp_cpp), [**lstrcmpi**](_win32_lstrcmpi_cpp), [**LCMapString**](lcmapstring.md), [**LCMapStringEx**](lcmapstringex.md), [**FindNLSString**](findnlsstring.md), and [**FindNLSStringEx**](findnlsstringex.md) all default to use of a "word sort" technique. For this type of sort, all punctuation marks and other nonalphanumeric characters, except for the hyphen and the apostrophe, come before any alphanumeric character. The hyphen and the apostrophe are treated differently from the other nonalphanumeric characters to ensure that words such as "coop" and "co-op" stay together in a sorted list.
+The functions [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master), [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master), [**lstrcmp**](_win32_lstrcmp_cpp), [**lstrcmpi**](_win32_lstrcmpi_cpp), [**LCMapString**](/windows/win32/Winnls/nf-winnls-lcmapstringa?branch=master), [**LCMapStringEx**](/windows/win32/Winnls/nf-winnls-lcmapstringex?branch=master), [**FindNLSString**](/windows/win32/Winnls/nf-winnls-findnlsstring?branch=master), and [**FindNLSStringEx**](/windows/win32/Winnls/nf-winnls-findnlsstringex?branch=master) all default to use of a "word sort" technique. For this type of sort, all punctuation marks and other nonalphanumeric characters, except for the hyphen and the apostrophe, come before any alphanumeric character. The hyphen and the apostrophe are treated differently from the other nonalphanumeric characters to ensure that words such as "coop" and "co-op" stay together in a sorted list.
 
 Instead of a word sort, the application can request a "string sort" technique from the sorting functions by specifying the SORT\_STRINGSORT flag. A string sort treats the hyphen and apostrophe just like any other nonalphanumeric character. Their positions in the sorting sequence are before the alphanumeric characters.
 
@@ -45,14 +50,14 @@ The following table compares the results of a word sort with the results of a st
 
 ## Sort Strings Linguistically
 
-The [**CompareString**](comparestring.md) and [**CompareStringEx**](comparestringex.md) functions test for linguistic equality. Your applications should use these functions with the correct locale for sorting strings linguistically.
+The [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master) and [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master) functions test for linguistic equality. Your applications should use these functions with the correct locale for sorting strings linguistically.
 
 > [!Note]  
-> For compatibility with Unicode, an application should prefer [**CompareStringEx**](comparestringex.md) or the Unicode version of [**CompareString**](comparestring.md). Another reason for preferring [**CompareStringEx**](comparestringex.md) is that Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales, for interoperability reasons. Any application that runs only on Windows Vista and later should use [**CompareStringEx**](comparestringex.md).
+> For compatibility with Unicode, an application should prefer [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master) or the Unicode version of [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master). Another reason for preferring [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master) is that Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales, for interoperability reasons. Any application that runs only on Windows Vista and later should use [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master).
 
  
 
-Another way of testing for linguistic equality is to use [**lstrcmp**](_win32_lstrcmp_cpp) or [**lstrcmpi**](_win32_lstrcmpi_cpp), which always use a word sort. The [**lstrcmpi**](_win32_lstrcmpi_cpp) function calls [**CompareString**](comparestring.md) with the NORM\_IGNORECASE flag, while [**lstrcmp**](_win32_lstrcmp_cpp) calls it without that flag. For an overview of the use of the wrapper functions, see [**Strings**](_win32_strings_cpp).
+Another way of testing for linguistic equality is to use [**lstrcmp**](_win32_lstrcmp_cpp) or [**lstrcmpi**](_win32_lstrcmpi_cpp), which always use a word sort. The [**lstrcmpi**](_win32_lstrcmpi_cpp) function calls [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master) with the NORM\_IGNORECASE flag, while [**lstrcmp**](_win32_lstrcmp_cpp) calls it without that flag. For an overview of the use of the wrapper functions, see [**Strings**](_win32_strings_cpp).
 
 The functions retrieve linguistically appropriate results for all locales. User expectations for different locales can differ significantly in sorting behavior, as shown in the following examples.
 
@@ -66,9 +71,9 @@ As almost all data entered using Windows keyboards and input method editors (IME
 When string comparison follows the user's language preference, for example, when sorting items for an ordered ListView control, the application can do one of the following:
 
 -   Call [**lstrcmp**](_win32_lstrcmp_cpp) or [**lstrcmpi**](_win32_lstrcmpi_cpp) with the user's locale.
--   Call [**CompareString**](comparestring.md) or [**CompareStringEx**](comparestringex.md) to define a locale for the comparison, to pass additional flags, to embed null characters, or to pass explicit lengths to match parts of a string.
+-   Call [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master) or [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master) to define a locale for the comparison, to pass additional flags, to embed null characters, or to pass explicit lengths to match parts of a string.
 
-When the results of the comparison should be consistent regardless of locale, for example, when comparing retrieved data against a predefined list or an internal value, the application should use [**CompareString**](comparestring.md) or [**CompareStringEx**](comparestringex.md) with the *Locale* parameter set to LOCALE\_INVARIANT. For [**CompareString**](comparestring.md), either of the following calls will match even if mystr is "INLAP". In this case, a locale-sensitive call to [**lstrcmpi**](_win32_lstrcmpi_cpp) will fail if the current locale is Vietnamese.
+When the results of the comparison should be consistent regardless of locale, for example, when comparing retrieved data against a predefined list or an internal value, the application should use [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master) or [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master) with the *Locale* parameter set to LOCALE\_INVARIANT. For [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master), either of the following calls will match even if mystr is "INLAP". In this case, a locale-sensitive call to [**lstrcmpi**](_win32_lstrcmpi_cpp) will fail if the current locale is Vietnamese.
 
 On Windows XP:
 
@@ -91,16 +96,16 @@ int iReturn = CompareString(lcid, NORM_IGNORECASE, mystr, -1, _T("InLap"), -1);
 
 ## Sort Strings Ordinally
 
-For ordinal (non-linguistic) sorting, your applications should always use the [**CompareStringOrdinal**](comparestringordinal.md) function.
+For ordinal (non-linguistic) sorting, your applications should always use the [**CompareStringOrdinal**](/windows/win32/Stringapiset/nf-stringapiset-comparestringordinal?branch=master) function.
 
 > [!Note]  
 > This function is only available for Windows Vista and later.
 
  
 
-[**CompareStringOrdinal**](comparestringordinal.md) compares two [Unicode](unicode.md) strings to test for binary equality, as opposed to linguistic equality. Examples of such non-linguistic strings are NTFS file names, environment variables, and the names of mutexes, named pipes, or mailslots. Except for the option of case-insensitivity, this function disregards all non-binary equivalences. Unlike some other sorting functions, it tests all code points for equality, including those that are not given any weight in linguistic sorting schemes.
+[**CompareStringOrdinal**](/windows/win32/Stringapiset/nf-stringapiset-comparestringordinal?branch=master) compares two [Unicode](unicode.md) strings to test for binary equality, as opposed to linguistic equality. Examples of such non-linguistic strings are NTFS file names, environment variables, and the names of mutexes, named pipes, or mailslots. Except for the option of case-insensitivity, this function disregards all non-binary equivalences. Unlike some other sorting functions, it tests all code points for equality, including those that are not given any weight in linguistic sorting schemes.
 
-All of the following statements apply to [**CompareStringOrdinal**](comparestringordinal.md) in binary comparisons, but not to [**CompareString**](comparestring.md), [**CompareStringEx**](comparestringex.md), [**lstrcmp**](_win32_lstrcmp_cpp), or [**lstrcmpi**](_win32_lstrcmpi_cpp).
+All of the following statements apply to [**CompareStringOrdinal**](/windows/win32/Stringapiset/nf-stringapiset-comparestringordinal?branch=master) in binary comparisons, but not to [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master), [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master), [**lstrcmp**](_win32_lstrcmp_cpp), or [**lstrcmpi**](_win32_lstrcmpi_cpp).
 
 -   Canonically equivalent sequences in Unicode, such as LATIN SMALL LETTER A WITH RING ABOVE (U+00e5) and LATIN SMALL LETTER A + COMBINING RING ABOVE (U+0061 U+030a), are not equal even though they appear identical ("å").
 -   Canonically similar strings in Unicode, such as LATIN LETTER SMALL CAPITAL Y (U+028f) and LATIN CAPITAL LETTER Y (U+0059), which look very similar ("ʏ" and "Y") and vary only by some special case weights in the linguistic tables, are considered to be entirely dissimilar characters. Even if the application sets *bIgnoreCase* to **TRUE**, these strings compare as different.
@@ -113,20 +118,20 @@ For more information about canonically equivalent sequences in Unicode and canon
 
 ## Sort Code Points
 
-Some Unicode code points have no weight, for example, ZERO WIDTH NON JOINER, U+200c. The sorting functions intentionally evaluate the no-weight code points as equivalent because they have no weight in sorting. On Windows Vista and later, the application can sort these code points by calling the NLS string comparison functions, particularly [**CompareStringOrdinal**](comparestringordinal.md), for evaluation of all code points in a literal, binary sense, for example, in password validation. On pre-Windows Vista operating systems, the application should use the C runtime function **strcmp** or **wcscmp**.
+Some Unicode code points have no weight, for example, ZERO WIDTH NON JOINER, U+200c. The sorting functions intentionally evaluate the no-weight code points as equivalent because they have no weight in sorting. On Windows Vista and later, the application can sort these code points by calling the NLS string comparison functions, particularly [**CompareStringOrdinal**](/windows/win32/Stringapiset/nf-stringapiset-comparestringordinal?branch=master), for evaluation of all code points in a literal, binary sense, for example, in password validation. On pre-Windows Vista operating systems, the application should use the C runtime function **strcmp** or **wcscmp**.
 
-Sorting functions ignore diacritics, such as NON SPACING BREVE, U+0306, when the application specifies the hlink\_NONSPACE flag. Similarly, these functions ignore symbols, for example, EQUALS SIGN, U+003d , when the hlink\_SYMBOLS flag is specified. On Windows Vista and later, the application calls [**CompareStringOrdinal**](comparestringordinal.md) for evaluation of diacritics and symbol code points in a literal, binary sense. On pre-Windows Vista operating systems, the application should use **strcmp** or **wcscmp**.
+Sorting functions ignore diacritics, such as NON SPACING BREVE, U+0306, when the application specifies the hlink\_NONSPACE flag. Similarly, these functions ignore symbols, for example, EQUALS SIGN, U+003d , when the hlink\_SYMBOLS flag is specified. On Windows Vista and later, the application calls [**CompareStringOrdinal**](/windows/win32/Stringapiset/nf-stringapiset-comparestringordinal?branch=master) for evaluation of diacritics and symbol code points in a literal, binary sense. On pre-Windows Vista operating systems, the application should use **strcmp** or **wcscmp**.
 
-Some code points, such as 0xFFFF and 0x058b, are currently not assigned in Unicode. These code points do not receive any weight in sorting, and should never be passed to the sorting functions. The application should use [**IsNLSDefinedString**](isnlsdefinedstring.md) to detect non-Unicode code points in a data stream.
+Some code points, such as 0xFFFF and 0x058b, are currently not assigned in Unicode. These code points do not receive any weight in sorting, and should never be passed to the sorting functions. The application should use [**IsNLSDefinedString**](/windows/win32/Winnls/nf-winnls-isnlsdefinedstring?branch=master) to detect non-Unicode code points in a data stream.
 
 > [!Note]  
-> Results of [**IsNLSDefinedString**](isnlsdefinedstring.md) might vary depending on the Unicode version passed if a character is added to Unicode in a later version and it is subsequently added to the Windows sorting tables. For more information, see [Use Sort Versioning](#use-sort-versioning).
+> Results of [**IsNLSDefinedString**](/windows/win32/Winnls/nf-winnls-isnlsdefinedstring?branch=master) might vary depending on the Unicode version passed if a character is added to Unicode in a later version and it is subsequently added to the Windows sorting tables. For more information, see [Use Sort Versioning](#use-sort-versioning).
 
  
 
 ## Sort Digits as Numbers
 
-On Windows 7 and later, the application can call [**CompareString**](comparestring.md), [**CompareStringEx**](comparestringex.md), [**LCMapString**](lcmapstring.md), or [**LCMapStringEx**](lcmapstringex.md) using the SORT\_DIGITSASNUMBERS flag. This flag supports sorting that treats digits as numbers, for example, sorting of "2" before "10".
+On Windows 7 and later, the application can call [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master), [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master), [**LCMapString**](/windows/win32/Winnls/nf-winnls-lcmapstringa?branch=master), or [**LCMapStringEx**](/windows/win32/Winnls/nf-winnls-lcmapstringex?branch=master) using the SORT\_DIGITSASNUMBERS flag. This flag supports sorting that treats digits as numbers, for example, sorting of "2" before "10".
 
 Note that the use of this flag is not appropriate for hexadecimal digits such as the following. <dl> 01AF  
 1BCD  
@@ -141,7 +146,7 @@ In this case the "numbers" are sorted in order, but the user perceives a poorly 
 
 ## Map Strings
 
-The application uses the [**LCMapString**](lcmapstring.md) or [**LCMapStringEx**](lcmapstringex.md) function to map strings, if LCMAP\_SORTKEY is not specified. A mapped string is null-terminated if the source string is null-terminated.
+The application uses the [**LCMapString**](/windows/win32/Winnls/nf-winnls-lcmapstringa?branch=master) or [**LCMapStringEx**](/windows/win32/Winnls/nf-winnls-lcmapstringex?branch=master) function to map strings, if LCMAP\_SORTKEY is not specified. A mapped string is null-terminated if the source string is null-terminated.
 
 When transforming between uppercase and lowercase, the function always maps a single character to a single character. For example, the LCMAP\_LOWERCASE and LCMAP\_UPPERCASE flags map the German Sharp S ("ß") to itself. The LCMAP\_UPPERCASE flag does not map "ß" to "SS". The LCMAP\_LOWERCASE flag never maps "SS" to "ß".
 
@@ -149,13 +154,13 @@ When transforming between uppercase and lowercase, the function is not sensitive
 
 By default, the function maps the lowercase "i" to the uppercase "I", even when the *Locale* parameter specifies Turkish or Azerbaijani. To override this behavior for Turkish or Azerbaijani, the application should specify LCMAP\_LINGUISTIC\_CASING. If this flag is specified with the appropriate locale, "ı" (lowercase dotless I) is the lowercase form of "I" (uppercase dotless I) and "i" (lowercase dotted I) is the lowercase form of "İ" (uppercase dotted I).
 
-If the LCMAP\_HIRAGANA flag is specified to map katakana characters to hiragana characters, and LCMAP\_FULLWIDTH is not specified, [**LCMapString**](lcmapstring.md) or [**LCMapStringEx**](lcmapstringex.md) only maps full-width characters to hiragana. In this case, any half-width katakana characters are placed as in the destination string, with no mapping to hiragana. The application must specify LCMAP\_FULLWIDTH to map half-width katakana characters to hiragana. The reason for this restriction is that all hiragana characters are full-width characters.
+If the LCMAP\_HIRAGANA flag is specified to map katakana characters to hiragana characters, and LCMAP\_FULLWIDTH is not specified, [**LCMapString**](/windows/win32/Winnls/nf-winnls-lcmapstringa?branch=master) or [**LCMapStringEx**](/windows/win32/Winnls/nf-winnls-lcmapstringex?branch=master) only maps full-width characters to hiragana. In this case, any half-width katakana characters are placed as in the destination string, with no mapping to hiragana. The application must specify LCMAP\_FULLWIDTH to map half-width katakana characters to hiragana. The reason for this restriction is that all hiragana characters are full-width characters.
 
 If the application needs to strip characters from the source string, it can call the mapping function with the NORM\_IGNORESYMBOLS and NORM\_IGNORENONSPACE flags set, and all other flags cleared. If the application does this with a source string that is not null-terminated, it is possible for the function to return an empty string and not return an error.
 
 ## Create Sort Keys
 
-When the application specifies LCMAP\_SORTKEY, [**LCMapString**](lcmapstring.md) or [**LCMapStringEx**](lcmapstringex.md) generates a sort key, a binary array of byte values. The sort key is not a true string and its values represent the sorting behavior of the source string, but are not meaningful display values.
+When the application specifies LCMAP\_SORTKEY, [**LCMapString**](/windows/win32/Winnls/nf-winnls-lcmapstringa?branch=master) or [**LCMapStringEx**](/windows/win32/Winnls/nf-winnls-lcmapstringex?branch=master) generates a sort key, a binary array of byte values. The sort key is not a true string and its values represent the sorting behavior of the source string, but are not meaningful display values.
 
 > [!Note]  
 > The function ignores the Arabic kashida during generation of a sort key. If an application calls the function to create a sort key for a string containing an Arabic kashida, the function creates no sort key value.
@@ -166,7 +171,7 @@ The sort key can contain an odd number of bytes. The LCMAP\_BYTEREV flag only re
 
 When generating the sort key, the function treats the hyphen and apostrophe differently from other punctuation symbols, so that words such as "coop" and "co-op" stay together in a list. All punctuation symbols other than the hyphen and apostrophe sort before alphanumeric characters. The application can change this behavior by setting the SORT\_STRINGSORT flag, as described in [Sorting Functions](#sorting-functions).
 
-When used in [memcmp](http://msdn.microsoft.com/en-us/library/zyaebf12.aspx), the sort key produces the same order as when the source string is used in [**CompareString**](comparestring.md) or [**CompareStringEx**](comparestringex.md). The [memcmp](http://msdn.microsoft.com/en-us/library/zyaebf12.aspx) function should be used instead of [strcmp](http://msdn.microsoft.com/en-us/library/e0z9k731.aspx), because the sort key can have embedded null bytes.
+When used in [memcmp](http://msdn.microsoft.com/en-us/library/zyaebf12.aspx), the sort key produces the same order as when the source string is used in [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master) or [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master). The [memcmp](http://msdn.microsoft.com/en-us/library/zyaebf12.aspx) function should be used instead of [strcmp](http://msdn.microsoft.com/en-us/library/e0z9k731.aspx), because the sort key can have embedded null bytes.
 
 ## Use Sort Versioning
 
@@ -186,9 +191,9 @@ The NLS version is specific to a [locale identifier](locale-identifiers.md) or [
 
  
 
-Both the defined and NLS versions apply to sortable code points retrieved using the [**LCMapString**](lcmapstring.md) or [**LCMapStringEx**](lcmapstringex.md) function with the LCMAP\_SORTKEY flag, and also used by the [**CompareString**](comparestring.md), [**CompareStringEx**](comparestringex.md), [**FindNLSString**](findnlsstring.md), and [**FindNLSStringEx**](findnlsstringex.md) functions. If one or more code points in a string are unsortable, then the [**IsNLSDefinedString**](isnlsdefinedstring.md) function returns **FALSE** when that string is passed to it as a parameter.
+Both the defined and NLS versions apply to sortable code points retrieved using the [**LCMapString**](/windows/win32/Winnls/nf-winnls-lcmapstringa?branch=master) or [**LCMapStringEx**](/windows/win32/Winnls/nf-winnls-lcmapstringex?branch=master) function with the LCMAP\_SORTKEY flag, and also used by the [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master), [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master), [**FindNLSString**](/windows/win32/Winnls/nf-winnls-findnlsstring?branch=master), and [**FindNLSStringEx**](/windows/win32/Winnls/nf-winnls-findnlsstringex?branch=master) functions. If one or more code points in a string are unsortable, then the [**IsNLSDefinedString**](/windows/win32/Winnls/nf-winnls-isnlsdefinedstring?branch=master) function returns **FALSE** when that string is passed to it as a parameter.
 
-The application can call either [**GetNLSVersion**](getnlsversion.md) or [**GetNLSVersionEx**](getnlsversionex.md) to retrieve both the defined version and the NLS version for a sorting table.
+The application can call either [**GetNLSVersion**](/windows/win32/Winnls/nf-winnls-getnlsversion?branch=master) or [**GetNLSVersionEx**](/windows/win32/Winnls/nf-winnls-getnlsversionex?branch=master) to retrieve both the defined version and the NLS version for a sorting table.
 
 ## Index the Database
 
@@ -197,7 +202,7 @@ For performance reasons, the application should follow this procedure when index
 **To properly index the database**
 
 1.  For each function, store the NLS version, the sort keys of that version, and an indication of sortability for each indexed string.
-2.  When the minor version increments, re-index previously unsortable strings. The strings affected in this update should be confined to the ones for which [**IsNLSDefinedString**](isnlsdefinedstring.md) has previously returned **FALSE**.
+2.  When the minor version increments, re-index previously unsortable strings. The strings affected in this update should be confined to the ones for which [**IsNLSDefinedString**](/windows/win32/Winnls/nf-winnls-isnlsdefinedstring?branch=master) has previously returned **FALSE**.
 3.  When the major version increments, re-index all strings because the updated weights might change the behavior of any string. Major version releases are very infrequent.
 
 Database indexing problems can arise for the following reasons:
@@ -205,7 +210,7 @@ Database indexing problems can arise for the following reasons:
 -   A later operating system can define code points that are undefined for an earlier operating system, thus changing the sort.
 -   Code points can have different sorting weights in different operating systems, due to corrections in language support.
 
-To minimize the necessity to re-index the database in these circumstances, the application can use [**IsNLSDefinedString**](isnlsdefinedstring.md) to differentiate defined from undefined strings so that the application can reject strings with undefined code points. Use of [**GetNLSVersion**](getnlsversion.md) or [**GetNLSVersionEx**](getnlsversionex.md) allows the application to determine if an NLS change affects the locale used for a particular index table. If the change has no effect on the locale, the application has no need to re-index the table.
+To minimize the necessity to re-index the database in these circumstances, the application can use [**IsNLSDefinedString**](/windows/win32/Winnls/nf-winnls-isnlsdefinedstring?branch=master) to differentiate defined from undefined strings so that the application can reject strings with undefined code points. Use of [**GetNLSVersion**](/windows/win32/Winnls/nf-winnls-getnlsversion?branch=master) or [**GetNLSVersionEx**](/windows/win32/Winnls/nf-winnls-getnlsversionex?branch=master) allows the application to determine if an NLS change affects the locale used for a particular index table. If the change has no effect on the locale, the application has no need to re-index the table.
 
 ## Examples
 
@@ -242,25 +247,25 @@ The following table illustrates the effects of certain flags used with the sorti
 [Security Considerations: International Features](security-considerations--international-features.md)
 </dt> <dt>
 
-[**CompareString**](comparestring.md)
+[**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master)
 </dt> <dt>
 
-[**CompareStringEx**](comparestringex.md)
+[**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master)
 </dt> <dt>
 
-[**CompareStringOrdinal**](comparestringordinal.md)
+[**CompareStringOrdinal**](/windows/win32/Stringapiset/nf-stringapiset-comparestringordinal?branch=master)
 </dt> <dt>
 
-[**FindNLSString**](findnlsstring.md)
+[**FindNLSString**](/windows/win32/Winnls/nf-winnls-findnlsstring?branch=master)
 </dt> <dt>
 
-[**FindNLSStringEx**](findnlsstringex.md)
+[**FindNLSStringEx**](/windows/win32/Winnls/nf-winnls-findnlsstringex?branch=master)
 </dt> <dt>
 
-[**LCMapString**](lcmapstring.md)
+[**LCMapString**](/windows/win32/Winnls/nf-winnls-lcmapstringa?branch=master)
 </dt> <dt>
 
-[**LCMapStringEx**](lcmapstringex.md)
+[**LCMapStringEx**](/windows/win32/Winnls/nf-winnls-lcmapstringex?branch=master)
 </dt> </dl>
 
  

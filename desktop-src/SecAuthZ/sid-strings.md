@@ -1,7 +1,12 @@
 ---
-Description: 'Explains the strings used by SDDLs.'
-ms.assetid: 'a531532f-afba-46a1-8576-90d4ff881b94'
+Description: Explains the strings used by SDDLs.
+ms.assetid: a531532f-afba-46a1-8576-90d4ff881b94
 title: SID Strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SID Strings
@@ -12,7 +17,7 @@ In the [security descriptor definition language](security-descriptor-definition-
 -   Primary group
 -   The [trustee](trustees.md) in an ACE
 
-A SID string in a security descriptor string can use either the standard string representation of a SID (S-*R*-*I*-*S*-*S*…) or one of the string constants defined in Sddl.h. For more information about the standard SID string notation, see [SID Components](sid-components.md).
+A SID string in a security descriptor string can use either the standard string representation of a SID (S-*R*-*I*-*S*-*S* ) or one of the string constants defined in Sddl.h. For more information about the standard SID string notation, see [SID Components](sid-components.md).
 
 The following SID string constants for well-known SIDs are defined in Sddl.h. For information about the corresponding [*relative IDs*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-relative-identifier-gly) (RIDs), see [Well-known SIDs](well-known-sids.md).
 
@@ -58,7 +63,7 @@ The following SID string constants for well-known SIDs are defined in Sddl.h. Fo
 | "RE"<br/> | SDDL\_REPLICATOR<br/>                      | Replicator. The corresponding RID is DOMAIN\_ALIAS\_RID\_REPLICATOR.<br/>                                                                                                                                                                            |
 | "RO"<br/> | SDDL\_ENTERPRISE\_RO\_DCs<br/>             | Enterprise Read-only domain controllers. The corresponding RID is DOMAIN\_GROUP\_RID\_ENTERPRISE\_READONLY\_DOMAIN\_CONTROLLERS.<br/>                                                                                                                |
 | "RS"<br/> | SDDL\_RAS\_SERVERS<br/>                    | RAS servers group. The corresponding RID is DOMAIN\_ALIAS\_RID\_RAS\_SERVERS.<br/>                                                                                                                                                                   |
-| "RU"<br/> | SDDL\_ALIAS\_PREW2KCOMPACC<br/>            | Alias to grant permissions to accounts that use applications compatible with operating systems previous to Windows 2000. The corresponding RID is DOMAIN\_ALIAS\_RID\_PREW2KCOMPACCESS.<br/>                                                         |
+| "RU"<br/> | SDDL\_ALIAS\_PREW2KCOMPACC<br/>            | Alias to grant permissions to accounts that use applications compatible with operating systems previous to Windows 2000. The corresponding RID is DOMAIN\_ALIAS\_RID\_PREW2KCOMPACCESS.<br/>                                                         |
 | "SA"<br/> | SDDL\_SCHEMA\_ADMINISTRATORS<br/>          | Schema administrators. The corresponding RID is DOMAIN\_GROUP\_RID\_SCHEMA\_ADMINS.<br/>                                                                                                                                                             |
 | "SI"<br/> | SDDL\_ML\_SYSTEM<br/>                      | System integrity level. The corresponding RID is SECURITY\_MANDATORY\_SYSTEM\_RID.<br/>                                                                                                                                                              |
 | "SO"<br/> | SDDL\_SERVER\_OPERATORS<br/>               | Server operators. The corresponding RID is DOMAIN\_ALIAS\_RID\_SYSTEM\_OPS.<br/>                                                                                                                                                                     |
@@ -68,9 +73,9 @@ The following SID string constants for well-known SIDs are defined in Sddl.h. Fo
 
 
 
- 
+ 
 
-The [**ConvertSidToStringSid**](convertsidtostringsid.md) and [**ConvertStringSidToSid**](convertstringsidtosid.md) functions always use the standard SID string notation and do not support SDDL SID string constants.
+The [**ConvertSidToStringSid**](/windows/win32/Sddl/nf-sddl-convertsidtostringsida?branch=master) and [**ConvertStringSidToSid**](/windows/win32/Sddl/nf-sddl-convertstringsidtosida?branch=master) functions always use the standard SID string notation and do not support SDDL SID string constants.
 
 For more information about well-known SIDs, see [Well-known SIDs](well-known-sids.md).
 
@@ -81,9 +86,9 @@ For more information about well-known SIDs, see [Well-known SIDs](well-known-sid
 [\[MS-DTYP\]: Security Descriptor Description Language](http://msdn.microsoft.com/library/cc230368(PROT.10).aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

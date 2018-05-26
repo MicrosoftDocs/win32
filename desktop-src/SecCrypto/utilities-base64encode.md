@@ -1,7 +1,12 @@
-﻿---
-Description: 'Encodes a string as base64.'
-ms.assetid: '73a279e3-40b0-4db8-89d3-95627f0878dd'
-title: 'Utilities.Base64Encode method'
+---
+Description: Encodes a string as base64.
+ms.assetid: 73a279e3-40b0-4db8-89d3-95627f0878dd
+title: Utilities.Base64Encode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Utilities.Base64Encode method

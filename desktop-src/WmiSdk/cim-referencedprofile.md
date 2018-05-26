@@ -1,13 +1,16 @@
 ---
-Description: 'Used to associate an instance CIM\_RegisteredProfile with an instance of CIM\_RegisteredProfile of another profile that references the dependent profile as a related profile.'
+Description: Used to associate an instance CIM\_RegisteredProfile with an instance of CIM\_RegisteredProfile of another profile that references the dependent profile as a related profile.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '631003de-477b-4447-9633-1601a7f8eadb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 631003de-477b-4447-9633-1601a7f8eadb
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ReferencedProfile class'
+title: CIM\_ReferencedProfile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ReferencedProfile class
@@ -17,7 +20,7 @@ Used to associate an instance [**CIM\_RegisteredProfile**](https://msdn.microsof
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties.
 
@@ -82,8 +85,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
+| Minimum supported client<br/> | Windows 7<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
 | Namespace<br/>                | Root\\interop<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Interop.mof</dt> </dl> |
 
@@ -96,9 +99,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

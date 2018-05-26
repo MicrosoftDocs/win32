@@ -4,11 +4,13 @@ description: Microsoft RDP Client Control - version 3.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'F4584E14-6389-49F0-808D-E95858986BCD'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: F4584E14-6389-49F0-808D-E95858986BCD
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["MsRdpClient2NotSafeForScripting class Remote Desktop Services", "MsRdpClient2NotSafeForScripting class Remote Desktop Services , described"]
+keywords:
+- MsRdpClient2NotSafeForScripting class Remote Desktop Services
+- MsRdpClient2NotSafeForScripting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # MsRdpClient2NotSafeForScripting class
@@ -86,12 +91,12 @@ The **MsRdpClient2NotSafeForScripting** class has these methods.
 | [**RequestClose**](imsrdpclient-requestclose.md)                                           | Requests a graceful shutdown of the client control.<br/>                                                                                                                                                                                                                                |
 | [**ResetPassword**](imstscnonscriptable-resetpassword.md)                                  | Resets all password states in the control.<br/>                                                                                                                                                                                                                                         |
 | [**SendKeys**](imsrdpclientnonscriptable-sendkeys.md)                                      | Sends a series of keystrokes to the control. The keystrokes are in scan code form, which is the keyboard data from the actual physical keys.<br/>                                                                                                                                       |
-| [**SendOnVirtualChannel**](imstscax-sendonvirtualchannel.md)                               | Sends data to the RD Session Host server over a virtual channel that was created previously by using the [**IMsTscAx::CreateVirtualChannels**](imstscax-createvirtualchannels.md) method.<br/>                                                                                         |
+| [**SendOnVirtualChannel**](imstscax-sendonvirtualchannel.md)                               | Sends data to the RD Session Host server over a virtual channel that was created previously by using the [**IMsTscAx::CreateVirtualChannels**](imstscax-createvirtualchannels.md) method.<br/>                                                                                         |
 | [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md)                   | Sets the virtual channel options for the client control.<br/>                                                                                                                                                                                                                           |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -126,14 +131,14 @@ The **MsRdpClient2NotSafeForScripting** class has these properties.
 | [**SecuredSettings2**](imsrdpclient-securedsettings2.md)<br/>                 | Read-only<br/>  | Pointer to the [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md) interface, used to set secured settings for the client control.<br/>    |
 | [**SecuredSettingsEnabled**](imstscax-securedsettingsenabled.md)<br/>         | Read-only<br/>  | Indicates whether the [**IMsTscSecuredSettings**](imstscsecuredsettings-interface.md) interface is available.<br/>                                                 |
 | [**Server**](imstscax-server.md)<br/>                                         | Read/write<br/> | The name of the server to which the current control is connected.<br/>                                                                                              |
-| [**StartConnected**](imstscax-startconnected.md)<br/>                         | Read/write<br/> | Indicates whether the control will establish the RD Session Host server connection immediately upon startup.<br/>                                                   |
+| [**StartConnected**](imstscax-startconnected.md)<br/>                         | Read/write<br/> | Indicates whether the control will establish the RD Session Host server connection immediately upon startup.<br/>                                                   |
 | [**UserName**](imstscax-username.md)<br/>                                     | Read/write<br/> | The user name logon credential.<br/>                                                                                                                                |
 | [**Version**](imstscax-version.md)<br/>                                       | Read-only<br/>  | The version number of the current control.<br/>                                                                                                                     |
 | [**VerticalScrollBarVisible**](imstscax-verticalscrollbarvisible.md)<br/>     | Read-only<br/>  | Indicates whether the control displays a vertical scroll bar.<br/>                                                                                                  |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -141,8 +146,8 @@ The **MsRdpClient2NotSafeForScripting** class has these properties.
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>               |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>               |
 | CLSID<br/>                    | CLSID\_MsRdpClient2NotSafeForScripting is defined as 3523C2FB-4031-44E4-9A3B-F1E94986EE7F<br/> |
@@ -156,9 +161,9 @@ The **MsRdpClient2NotSafeForScripting** class has these properties.
 [Remote Desktop ActiveX control classes](remote-desktop-activex-control-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

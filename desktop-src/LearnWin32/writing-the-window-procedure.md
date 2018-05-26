@@ -1,7 +1,12 @@
 ---
 title: Writing the Window Procedure
 description: .
-ms.assetid: 'f022bb88-6e4c-4ec4-9eef-f125ad92167e'
+ms.assetid: f022bb88-6e4c-4ec4-9eef-f125ad92167e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing the Window Procedure

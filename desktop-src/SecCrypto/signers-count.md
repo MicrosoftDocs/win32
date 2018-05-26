@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of Signer objects in the collection.'
-ms.assetid: '990e273a-8f3d-4a77-b0a4-243eeb32e6f3'
-title: 'Signers.Count property'
+---
+Description: Retrieves the number of Signer objects in the collection.
+ms.assetid: 990e273a-8f3d-4a77-b0a4-243eeb32e6f3
+title: Signers.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signers.Count property

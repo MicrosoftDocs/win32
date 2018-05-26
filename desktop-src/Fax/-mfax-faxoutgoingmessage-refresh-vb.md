@@ -1,7 +1,12 @@
-﻿---
-Description: 'Refreshes FaxOutgoingMessage object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.'
-ms.assetid: '4f39ead7-2546-4c38-af87-3c338342ebae'
-title: 'FaxOutgoingMessage.Refresh method'
+---
+Description: Refreshes FaxOutgoingMessage object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.
+ms.assetid: 4f39ead7-2546-4c38-af87-3c338342ebae
+title: FaxOutgoingMessage.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.Refresh method
@@ -28,7 +33,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [****far2QUERY\_CONFIG****](-mfax-fax-access-rights-enum-2.md) access rights.
+To use this method, a user must have the [****far2QUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master) access rights.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To use this method, a user must have the [****far2QUERY\_CONFIG****](-mfax-fax-a
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage2**](-mfax-faxoutgoingmessage2-cpp.md)
+[**IFaxOutgoingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage2?branch=master)
 </dt> </dl>
 
  

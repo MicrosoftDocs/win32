@@ -1,7 +1,12 @@
 ---
 title: def - vs
 description: Defines vertex shader constants.
-ms.assetid: '13274e16-990f-4de8-9c99-6c268c7c06ef'
+ms.assetid: 13274e16-990f-4de8-9c99-6c268c7c06ef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # def - vs

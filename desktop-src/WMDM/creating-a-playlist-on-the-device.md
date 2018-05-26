@@ -1,8 +1,19 @@
 ---
 title: Creating a Playlist on the Device
 description: Creating a Playlist on the Device
-ms.assetid: '9f803e1a-ff33-443a-9448-e8c875d77e51'
-keywords: ["Windows Media Device Manager,playlists", "Device Manager,playlists", "programming guide,playlists", "desktop applications,playlists", "creating Windows Media Device Manager applications,playlists", "abstract playlists"]
+ms.assetid: 9f803e1a-ff33-443a-9448-e8c875d77e51
+keywords:
+- Windows Media Device Manager,playlists
+- Device Manager,playlists
+- programming guide,playlists
+- desktop applications,playlists
+- creating Windows Media Device Manager applications,playlists
+- abstract playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Playlist on the Device
@@ -13,15 +24,15 @@ Other abstract items that can be created on the device include albums (essential
 
 **To create a playlist**
 
-1.  Acquire an [**IWMDMDevice3**](iwmdmdevice3.md) interface to the target device.
-2.  Call [**IWMDMDevice3::GetProperty**](iwmdmdevice3-getproperty.md) to obtain the g\_wszWMDMFormatsSupported property.
+1.  Acquire an [**IWMDMDevice3**](/windows/win32/mswmdm/nn-mswmdm-iwmdmdevice3?branch=master) interface to the target device.
+2.  Call [**IWMDMDevice3::GetProperty**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getproperty?branch=master) to obtain the g\_wszWMDMFormatsSupported property.
 3.  If no playlist formats are supported, disallow sending playlists to the device, and skip the following steps. Otherwise, choose the device-supported format code that matches most closely the intended object type. The generic WMDM\_FORMATCODE\_ABSTRACTAUDIOVIDEOPLAYLIST and WMDM\_FORMATCODE\_ABSTRACTAUDIOLAYLIST format codes are the most commonly supported.
-4.  Obtain an [**IWMDMStorage3**](iwmdmstorage3.md) interface for the storage (the root or a folder) where you want to create the object. Some devices work best if the playlist object is placed in a top level folder named "Playlists".
-5.  Create an empty metadata object by using [**IWMDMStorage3::CreateEmptyMetadataObject**](iwmdmstorage3-createemptymetadataobject.md).
-6.  Using the **IWMDMMetaData** interface obtained in the previous step, call [**IWMDMMetaData::AddItem**](iwmdmmetadata-additem.md) to add your chosen format code (from step 3) to the storage metadata properties.
-7.  Obtain the [**IWMDMStorageControl3**](iwmdmstoragecontrol3.md) interface from the **IWMDMStorage3** interface.
-8.  Call [**IWMDMStorageControl3::Insert3**](iwmdmstoragecontrol3-insert3.md) to insert a new playlist file in the selected storage. This file contains the metadata represented by the **IWMDMMetaData** interface you created in step 5 and passed to **Insert3**. The method returns an **IWMDMStorage** interface for the playlist file; you can query for the [**IWMDMStorage4**](iwmdmstorage4.md) interface.
-9.  Call [**IWMDMStorage4::SetReferences**](iwmdmstorage4-setreferences.md) to create references to the **IWMDMStorage** interfaces of the media files in the playlist.
+4.  Obtain an [**IWMDMStorage3**](/windows/win32/mswmdm/nn-mswmdm-iwmdmstorage3?branch=master) interface for the storage (the root or a folder) where you want to create the object. Some devices work best if the playlist object is placed in a top level folder named "Playlists".
+5.  Create an empty metadata object by using [**IWMDMStorage3::CreateEmptyMetadataObject**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage3-createemptymetadataobject?branch=master).
+6.  Using the **IWMDMMetaData** interface obtained in the previous step, call [**IWMDMMetaData::AddItem**](/windows/win32/mswmdm/nf-mswmdm-iwmdmmetadata-additem?branch=master) to add your chosen format code (from step 3) to the storage metadata properties.
+7.  Obtain the [**IWMDMStorageControl3**](/windows/win32/mswmdm/nn-mswmdm-iwmdmstoragecontrol3?branch=master) interface from the **IWMDMStorage3** interface.
+8.  Call [**IWMDMStorageControl3::Insert3**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3?branch=master) to insert a new playlist file in the selected storage. This file contains the metadata represented by the **IWMDMMetaData** interface you created in step 5 and passed to **Insert3**. The method returns an **IWMDMStorage** interface for the playlist file; you can query for the [**IWMDMStorage4**](/windows/win32/mswmdm/nn-mswmdm-iwmdmstorage4?branch=master) interface.
+9.  Call [**IWMDMStorage4::SetReferences**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage4-setreferences?branch=master) to create references to the **IWMDMStorage** interfaces of the media files in the playlist.
 
 For example code, see the \_OnCreatePlaylist function in the [Sample Desktop Application](sample-desktop-application.md).
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetEnumCount method gets the number of output results from the bidi request.'
-ms.assetid: '4c857ff4-02c1-487b-bdb0-44d62a4cf4a1'
-title: 'IBidiRequest::GetEnumCount method'
+---
+Description: The GetEnumCount method gets the number of output results from the bidi request.
+ms.assetid: 4c857ff4-02c1-487b-bdb0-44d62a4cf4a1
+title: IBidiRequestGetEnumCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiRequest::GetEnumCount method

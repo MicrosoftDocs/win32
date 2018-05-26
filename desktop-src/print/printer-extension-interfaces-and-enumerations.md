@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides information about the interfaces and enumerations that enable the creation of custom print experiences with the new print driver in Windows 8 (the v4 print driver).'
-ms.assetid: '82D95C75-D7E1-41D8-A127-602F26B165D4'
+Description: This section provides information about the interfaces and enumerations that enable the creation of custom print experiences with the new print driver in Windows 8 (the v4 print driver).
+ms.assetid: 82D95C75-D7E1-41D8-A127-602F26B165D4
 title: Printer Extension Interfaces and Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Printer Extension Interfaces and Enumerations

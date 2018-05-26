@@ -1,8 +1,25 @@
 ---
 title: Formats
 description: Formats
-ms.assetid: '44c4ed7e-b35e-4ab5-9975-021f343dab6a'
-keywords: ["Windows Media Format SDK,inputs", "Windows Media Format SDK,streams", "Windows Media Format SDK,outputs", "Windows Media Format SDK,formats", "Advanced Systems Format (ASF),inputs", "ASF (Advanced Systems Format),inputs", "Advanced Systems Format (ASF),streams", "ASF (Advanced Systems Format),streams", "Advanced Systems Format (ASF),outputs", "ASF (Advanced Systems Format),outputs", "Advanced Systems Format (ASF),formats", "ASF (Advanced Systems Format),formats"]
+ms.assetid: 44c4ed7e-b35e-4ab5-9975-021f343dab6a
+keywords:
+- Windows Media Format SDK,inputs
+- Windows Media Format SDK,streams
+- Windows Media Format SDK,outputs
+- Windows Media Format SDK,formats
+- Advanced Systems Format (ASF),inputs
+- ASF (Advanced Systems Format),inputs
+- Advanced Systems Format (ASF),streams
+- ASF (Advanced Systems Format),streams
+- Advanced Systems Format (ASF),outputs
+- ASF (Advanced Systems Format),outputs
+- Advanced Systems Format (ASF),formats
+- ASF (Advanced Systems Format),formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Formats

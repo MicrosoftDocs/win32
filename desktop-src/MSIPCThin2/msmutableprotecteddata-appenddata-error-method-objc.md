@@ -4,17 +4,21 @@ description: Appends the content of another plaintext object to the receiver.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b6c4c94c-eb53-453c-af58-a978b5f4a6b9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: b6c4c94c-eb53-453c-af58-a978b5f4a6b9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSMutableProtectedData appendData error method"]
+keywords:
+- MSMutableProtectedData appendData error method
 topic_type:
 - apiref
 api_name:
 - MSMutableProtectedData appendData error method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMutableProtectedData appendData:error method
@@ -38,7 +42,7 @@ Appends the content of another plaintext object to the receiver. First the data 
 
 
 
- 
+ 
 
 ## Returns
 
@@ -60,11 +64,11 @@ MSMutableProtectedData.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

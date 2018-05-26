@@ -1,12 +1,17 @@
 ---
-Description: 'The Write method writes a specified number from bytes into the stream object starting at the current seek pointer.'
-ms.assetid: '0019cd10-8f8a-4190-bae4-e134e7b76882'
-title: 'IByteBuffer::Write method'
+Description: The Write method writes a specified number from bytes into the stream object starting at the current seek pointer.
+ms.assetid: 0019cd10-8f8a-4190-bae4-e134e7b76882
+title: IByteBufferWrite method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IByteBuffer::Write method
 
-\[The **Write** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
+\[The **Write** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
 
 The **Write** method writes a specified number from bytes into the stream object starting at the current seek pointer.
 
@@ -15,9 +20,9 @@ The **Write** method writes a specified number from bytes into the stream object
 
 ```C++
 HRESULT Write(
-  [in]  BYTE *pByte,
-  [in]  LONG cb,
-  [out] LONG *pcbWritten
+  [in]  BYTE *pByte,
+  [in]  LONG cb,
+  [out] LONG *pcbWritten
 );
 ```
 
@@ -90,10 +95,10 @@ if (FAILED(hr))
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Scardssp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Scardssp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scardssp.dll</dt> </dl> |
@@ -101,9 +106,9 @@ if (FAILED(hr))
 
 
 
- 
+ 
 
- 
+ 
 
 
 

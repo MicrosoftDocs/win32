@@ -1,8 +1,15 @@
 ---
 title: NetShell and Command Inheritance
 description: NetShell is designed to provide command inheritance, which means that a command valid in a given context is also valid for all of its subcontexts. For example, if a command is valid in the ras context, it is also valid in its ip and ipx subcontexts.
-ms.assetid: 'b0b14217-3c99-4159-9f8b-96f90109d81c'
-keywords: ["command inheritance NetSh", "components NetSh , command inheritance"]
+ms.assetid: b0b14217-3c99-4159-9f8b-96f90109d81c
+keywords:
+- command inheritance NetSh
+- components NetSh , command inheritance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetShell and Command Inheritance

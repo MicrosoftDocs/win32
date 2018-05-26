@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientBinding NotifyConnectionStateDown method
 description: Is used to inform the NapAgent that a connection to an enforcement client has gone down.
-ms.assetid: '504c61c1-c8f9-46b8-87cd-c1f04846f0b3'
-keywords: ["NotifyConnectionStateDown method NAP", "NotifyConnectionStateDown method NAP , INapEnforcementClientBinding interface", "INapEnforcementClientBinding interface NAP , NotifyConnectionStateDown method"]
+ms.assetid: 504c61c1-c8f9-46b8-87cd-c1f04846f0b3
+keywords:
+- NotifyConnectionStateDown method NAP
+- NotifyConnectionStateDown method NAP , INapEnforcementClientBinding interface
+- INapEnforcementClientBinding interface NAP , NotifyConnectionStateDown method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientBinding::NotifyConnectionStateDown method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientBinding::NotifyConnectionStateDown** method is used to inform the NapAgent that a connection to an enforcement client has gone down.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientBinding::NotifyConnectionStateDown** method is used t
 
 ```C++
 HRESULT NotifyConnectionStateDown(
-  [in] INapEnforcementClientConnection *downCxn
+  [in] INapEnforcementClientConnection *downCxn
 );
 ```
 
@@ -59,7 +67,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -75,8 +83,8 @@ The enforcement client must call the [**INapEnforcementClientBinding::Initialize
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -93,9 +101,9 @@ The enforcement client must call the [**INapEnforcementClientBinding::Initialize
 [**INapEnforcementClientBinding**](inapenforcementclientbinding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

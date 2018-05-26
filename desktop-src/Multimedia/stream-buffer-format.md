@@ -1,8 +1,18 @@
 ---
 title: Stream Buffer Format
 description: Stream Buffer Format
-ms.assetid: '4b24c12e-b43f-492e-a000-af4f59d5e16f'
-keywords: ["Musical Instrument Digital Interface (MIDI),stream buffers", "MIDI (Musical Instrument Digital Interface),stream buffers", "stream buffers,format", "MIDIHDR structure", "MIDIEVENT structure"]
+ms.assetid: 4b24c12e-b43f-492e-a000-af4f59d5e16f
+keywords:
+- Musical Instrument Digital Interface (MIDI),stream buffers
+- MIDI (Musical Instrument Digital Interface),stream buffers
+- stream buffers,format
+- MIDIHDR structure
+- MIDIEVENT structure
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream Buffer Format

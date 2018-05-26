@@ -1,14 +1,19 @@
 ---
 title: StoServe Overview
 description: The StoServe code example shows how to use Structured Storage services as provided in the compound files implementation. The use of the standard IStorage and IStream interfaces is described.
-ms.assetid: '41ccd333-15c8-46b2-91c6-3e1929f7198c'
+ms.assetid: 41ccd333-15c8-46b2-91c6-3e1929f7198c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StoServe Overview
 
 ## Purpose
 
-The primary focus of this code example is the use of Structured Storage services as provided in the compound files implementation. The use of the standard [**IStorage**](istorage.md) and [**IStream**](istream.md) interfaces is described. **StoServe** works with the [StoClien](structured-storage-client-sample--stoclien-.md) code example to illustrate the joint use of compound file storage by client and server.
+The primary focus of this code example is the use of Structured Storage services as provided in the compound files implementation. The use of the standard [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) and [**IStream**](/windows/win32/Objidl/nn-objidl-istream?branch=master) interfaces is described. **StoServe** works with the [StoClien](structured-storage-client-sample--stoclien-.md) code example to illustrate the joint use of compound file storage by client and server.
 
 ## Functionality
 
@@ -16,7 +21,7 @@ The **StoServe** sample introduces the COPaper COM object, which virtually repre
 
 COPaper objects expose a set of features for free-form drawing on the paper surface using "ink" of specified color and width. The functionality is outwardly similar to the "scribble" tutorial samples in many versions of Microsoft Visual C++. The difference in the **StoServe**/**StoClien** samples is an architecture-based primarily on COM technology. The electronic drawing paper features of COPaper objects are available to clients through a custom [**IPaper**](ipaper-methods.md) interface. COPaper implements the **IPaper** interface. A clear architectural distinction is kept between client and server. No graphical user interface (GUI) is provided by COPaper. The design of the COPaper object relies on the client for all GUI behavior. COPaper encapsulates only the server-based capture and storage of the drawn ink data.
 
-The ink data that is drawn on the COPaper surface can be stored in and loaded from compound files. The [**IPaper**](ipaper-methods.md), [**Save**](ipaper--save.md) and [**Load**](ipaper--load.md) methods accept an [**IStorage**](istorage.md) interface pointer. COPaper uses this client-provided **IStorage** interface to store the drawing data.
+The ink data that is drawn on the COPaper surface can be stored in and loaded from compound files. The [**IPaper**](ipaper-methods.md), [**Save**](ipaper--save.md) and [**Load**](ipaper--load.md) methods accept an [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) interface pointer. COPaper uses this client-provided **IStorage** interface to store the drawing data.
 
 COPaper is housed in an in-process server and is made publicly available as a custom COM component. Similar to other servers in this tutorial series, StoServe is a self-registering COM server. It makes the COPaper object type available to clients as the DllPaper component using a CLSID\_DllPaper registration in the Registry.
 

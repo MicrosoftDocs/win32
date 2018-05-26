@@ -1,7 +1,12 @@
 ---
-Description: 'Other address state name of the contact.'
-ms.assetid: '9a6381c8-5228-445f-8f7a-a3cc69737e61'
-title: 'System.Contact.OtherAddressState'
+Description: Other address state name of the contact.
+ms.assetid: 9a6381c8-5228-445f-8f7a-a3cc69737e61
+title: System.Contact.OtherAddressState
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.OtherAddressState

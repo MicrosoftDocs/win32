@@ -1,8 +1,11 @@
 ---
 title: ImageProcess.Apply method
 description: Applies filters to an ImageFile object.
-ms.assetid: '8acc07b3-0e8a-44fa-a94d-5f55f2d9829a'
-keywords: ["Apply method WIA Automation", "Apply method WIA Automation , ImageProcess object", "ImageProcess object WIA Automation , Apply method"]
+ms.assetid: 8acc07b3-0e8a-44fa-a94d-5f55f2d9829a
+keywords:
+- Apply method WIA Automation
+- Apply method WIA Automation , ImageProcess object
+- ImageProcess object WIA Automation , Apply method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImageProcess.Apply method
@@ -57,8 +65,8 @@ For example code, see [Convert a File](-wiaaut-shared-samples.md#convert-a-file)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -83,9 +91,9 @@ For example code, see [Convert a File](-wiaaut-shared-samples.md#convert-a-file)
 [**ImageFile (Vector)**](-wiaaut-ivector-imagefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

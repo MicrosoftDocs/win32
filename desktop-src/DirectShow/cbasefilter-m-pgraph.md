@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the filter graph manager.'
-ms.assetid: 'ad736a2d-1dc5-4be9-8b9b-d2cfb87f2576'
-title: 'CBaseFilter::m\_pGraph member'
+Description: Pointer to the filter graph manager.
+ms.assetid: ad736a2d-1dc5-4be9-8b9b-d2cfb87f2576
+title: CBaseFilterm\_pGraph member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter::m\_pGraph member
@@ -35,9 +40,9 @@ IFilterGraph *m_pGraph;
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

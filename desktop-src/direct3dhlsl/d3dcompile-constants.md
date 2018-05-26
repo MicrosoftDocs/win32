@@ -1,7 +1,7 @@
 ---
 title: D3DCOMPILE Constants
 description: The D3DCOMPILE constants specify how the compiler compiles the HLSL code.
-ms.assetid: '039627DD-D6A4-4EA3-8E91-D2A20770E6FF'
+ms.assetid: 039627DD-D6A4-4EA3-8E91-D2A20770E6FF
 topic_type:
 - apiref
 api_name:
@@ -31,6 +31,11 @@ api_location:
 - D3DCompiler.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCOMPILE Constants
@@ -301,7 +306,7 @@ Directs the compiler to assume that unordered access views (UAVs) and shader res
 > [!Note]  
 > This compiler constant is new starting with the D3dcompiler\_47.dll.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -319,7 +324,7 @@ Directs the compiler to enable unbounded descriptor tables.
 > [!Note]  
 > This compiler constant is new starting with the D3dcompiler\_47.dll.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -337,7 +342,7 @@ Directs the compiler to ensure all resources are bound.
 > [!Note]  
 > This compiler constant is new starting with the D3dcompiler\_47.dll.
 
- 
+ 
 
 
 </dt> </dl> </dd> </dl>
@@ -359,9 +364,9 @@ Directs the compiler to ensure all resources are bound.
 [D3DCompiler Constants](dx-graphics-d3dcompiler-reference-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

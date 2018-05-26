@@ -1,7 +1,12 @@
 ---
-Description: 'The video palette has changed.'
-ms.assetid: '39f36efa-fe61-4310-b7ec-1ad6ef3f29fb'
-title: 'EC\_PALETTE\_CHANGED'
+Description: The video palette has changed.
+ms.assetid: 39f36efa-fe61-4310-b7ec-1ad6ef3f29fb
+title: EC\_PALETTE\_CHANGED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_PALETTE\_CHANGED
@@ -54,9 +59,9 @@ Video renderers send this event if they detect a palette change in the stream.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: RAS\_PPP\_NBFCP\_RESULT structure
 description: The RAS\_PPP\_NBFCP\_RESULT structure is used to report the result of a PPP NetBEUI Framer (NBF) projection operation for a port.
-ms.assetid: '670bf125-cad5-481f-89e4-858e636316bd'
-keywords: ["RAS_PPP_NBFCP_RESULT structure RAS"]
+ms.assetid: 670bf125-cad5-481f-89e4-858e636316bd
+keywords:
+- RAS_PPP_NBFCP_RESULT structure RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS\_PPP\_NBFCP\_RESULT structure
 
-\[The **RAS\_PPP\_NBFCP\_RESULT** structure is not supported as of Windows Vista.\]
+\[The **RAS\_PPP\_NBFCP\_RESULT** structure is not supported as of Windows Vista.\]
 
 The **RAS\_PPP\_NBFCP\_RESULT** structure is used to report the result of a PPP NetBEUI Framer (NBF) projection operation for a port.
 
@@ -26,7 +32,7 @@ The **RAS\_PPP\_NBFCP\_RESULT** structure is used to report the result of a PPP 
 typedef struct _RAS_PPP_NBFCP_RESULT {
   DWORD dwError;
   DWORD dwNetBiosError;
-  CHAR  szName[NETBIOS_NAME_LEN + 1];
+  CHAR  szName[NETBIOS_NAME_LEN + 1];
   WCHAR wszWksta[NETBIOS_NAME_LEN + 1];
 } RAS_PPP_NBFCP_RESULT;
 ```
@@ -71,10 +77,10 @@ A null-terminated Unicode string that specifies the NetBIOS name of the RAS clie
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Rassapi.h</dt> </dl> |
 
 
@@ -98,9 +104,9 @@ A null-terminated Unicode string that specifies the NetBIOS name of the RAS clie
 [**RasAdminPortGetInfo**](rasadminportgetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

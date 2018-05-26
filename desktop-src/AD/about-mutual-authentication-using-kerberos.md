@@ -4,11 +4,15 @@ description: In mutual authentication, the client and service must verify their 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5ce923d6-bede-4acb-b297-e93f2f506ea9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5ce923d6-bede-4acb-b297-e93f2f506ea9
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["About Mutual Authentication Using Kerberos AD"]
+keywords:
+- About Mutual Authentication Using Kerberos AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Mutual Authentication Using Kerberos

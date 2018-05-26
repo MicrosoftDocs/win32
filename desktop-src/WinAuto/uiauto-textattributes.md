@@ -1,15 +1,26 @@
 ---
 title: UI Automation Text Attributes
 description: This topic describes how Microsoft UI Automation exposes the format and style properties (text attributes) of textual content, and provides a list of supported text attributes.
-ms.assetid: '3a099cb6-d7ed-41bd-9091-7e39768b4581'
-keywords: ["UI Automation,text attributes", "text attributes,about", "text attributes,variant types", "text attributes,data types", "UI Automation,list of attributes", "UI Automation,list of text attributes"]
+ms.assetid: 3a099cb6-d7ed-41bd-9091-7e39768b4581
+keywords:
+- UI Automation,text attributes
+- text attributes,about
+- text attributes,variant types
+- text attributes,data types
+- UI Automation,list of attributes
+- UI Automation,list of text attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Text Attributes
 
 This topic describes how Microsoft UI Automation exposes the format and style properties (*text attributes*) of textual content, and provides a list of supported text attributes.
 
-UI Automation providers expose text attributes through the [**GetAttributeValue**](uiauto-itextrangeprovider-getattributevalue.md) and [**FindAttribute**](uiauto-itextrangeprovider-findattribute.md) methods of the [TextRange](uiauto-about-text-and-textrange-patterns.md) control pattern. Client applications use the [**IUIAutomationTextRange::GetAttributeValue**](uiauto-iuiautomationtextrange-getattributevalue.md) method to retrieve the value of a particular text attribute for a text range. Clients can use the [**IUIAutomationTextRange::FindAttribute**](uiauto-iuiautomationtextrange-findattribute.md) method to search a text range for text that has a particular attribute. If any matching text is found, the method creates a new text range that contains the matching text.
+UI Automation providers expose text attributes through the [**GetAttributeValue**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-getattributevalue?branch=master) and [**FindAttribute**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-findattribute?branch=master) methods of the [TextRange](uiauto-about-text-and-textrange-patterns.md) control pattern. Client applications use the [**IUIAutomationTextRange::GetAttributeValue**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getattributevalue?branch=master) method to retrieve the value of a particular text attribute for a text range. Clients can use the [**IUIAutomationTextRange::FindAttribute**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-findattribute?branch=master) method to search a text range for text that has a particular attribute. If any matching text is found, the method creates a new text range that contains the matching text.
 
 The text attributes in the following list are supported by the **TextRange** control pattern. The attribute names are derived from the UI Automation text attribute identifiers. For example, the **AnimationStyle** attribute is identified by clients as [**UIA\_AnimationStyleAttributeId**](uiauto-textattribute-ids.md#uia-animationstyleattributeid) (defined in Uiautomationclient.h) and by providers as **Text\_AnimationStyle\_Attribute\_GUID** (defined in Uiautomationcoreapi.h). For more information about each supported text attribute, see [**Text Attribute Identifiers**](uiauto-textattribute-ids.md).
 

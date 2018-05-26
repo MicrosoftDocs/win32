@@ -1,8 +1,14 @@
 ---
 title: WS\_CHANNEL
 description: An opaque type used to reference a channel.
-ms.assetid: '741636a4-5e0f-495a-bb1d-1a00cfd6f65a'
-keywords: ["WS_CHANNEL"]
+ms.assetid: 741636a4-5e0f-495a-bb1d-1a00cfd6f65a
+keywords:
+- WS_CHANNEL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WS\_CHANNEL
@@ -26,8 +32,8 @@ This object is thread safe. For more information see [thread safety](thread-safe
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>WebServices.h</dt> </dl> |
 
 
@@ -39,9 +45,9 @@ This object is thread safe. For more information see [thread safety](thread-safe
 [thread safety](thread-safety.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

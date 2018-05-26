@@ -1,13 +1,16 @@
 ---
-Description: 'Generates a report for the number of total, successful, and failed requests for a given user and domain.'
+Description: Generates a report for the number of total, successful, and failed requests for a given user and domain.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '88213638-4ce9-4adb-bed6-e577177977a1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 88213638-4ce9-4adb-bed6-e577177977a1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'AuditReport.ExportUserRequestSummary method'
+title: AuditReport.ExportUserRequestSummary method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AuditReport.ExportUserRequestSummary method
@@ -209,7 +212,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -221,9 +224,9 @@ END SUB
 [**AuditReport**](auditreport-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

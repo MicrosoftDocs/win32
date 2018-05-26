@@ -1,8 +1,11 @@
 ---
 title: IMimeAddressTable DeleteTypes method
 description: Deletes a group of addresses that match the specified set of address types.
-ms.assetid: 'c0e31cf6-cca2-4027-851f-5a3c722df884'
-keywords: ["DeleteTypes method Windows Mail (formerly Outlook Express)", "DeleteTypes method Windows Mail (formerly Outlook Express) , IMimeAddressTable interface", "IMimeAddressTable interface Windows Mail (formerly Outlook Express) , DeleteTypes method"]
+ms.assetid: c0e31cf6-cca2-4027-851f-5a3c722df884
+keywords:
+- DeleteTypes method Windows Mail (formerly Outlook Express)
+- DeleteTypes method Windows Mail (formerly Outlook Express) , IMimeAddressTable interface
+- IMimeAddressTable interface Windows Mail (formerly Outlook Express) , DeleteTypes method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeAddressTable::DeleteTypes method
@@ -22,7 +30,7 @@ Deletes a group of addresses that match the specified set of address types.
 
 ```C++
 HRESULT DeleteTypes(
-  [in] DWORD dwAdrTypes
+  [in] DWORD dwAdrTypes
 );
 ```
 
@@ -55,7 +63,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,8 +71,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -72,9 +80,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

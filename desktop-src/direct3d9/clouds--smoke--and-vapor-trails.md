@@ -1,7 +1,12 @@
 ---
-Description: 'Clouds, smoke, and vapor trails can all be created by an extension of the billboarding technique.'
-ms.assetid: 'c5607327-de46-4241-a01a-4adfe0bbf6fb'
-title: 'Clouds, Smoke, and Vapor Trails (Direct3D 9)'
+Description: Clouds, smoke, and vapor trails can all be created by an extension of the billboarding technique.
+ms.assetid: c5607327-de46-4241-a01a-4adfe0bbf6fb
+title: Clouds, Smoke, and Vapor Trails (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clouds, Smoke, and Vapor Trails (Direct3D 9)

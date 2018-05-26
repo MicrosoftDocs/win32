@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DiscountRateEnd property is a value that indicates the time at which the discount period for transmitting faxes ends. The discount period applies to outgoing faxes.'
-ms.assetid: '6fd58501-eddd-4634-8023-5a3266e7eade'
-title: 'FaxOutgoingQueue.DiscountRateEnd property'
+---
+Description: The DiscountRateEnd property is a value that indicates the time at which the discount period for transmitting faxes ends. The discount period applies to outgoing faxes.
+ms.assetid: 6fd58501-eddd-4634-8023-5a3266e7eade
+title: FaxOutgoingQueue.DiscountRateEnd property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingQueue.DiscountRateEnd property
@@ -25,7 +30,7 @@ A **Date** that specifies or receives the hour and minute, expressed in local sy
 
 ## Remarks
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -47,7 +52,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxOutgoingQueue**](-mfax-faxoutgoingqueue.md)
 </dt> <dt>
 
-[**IFaxOutgoingQueue**](-mfax-faxoutgoingqueue-cpp.md)
+[**IFaxOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingqueue?branch=master)
 </dt> <dt>
 
 [Setting the Outgoing Queue Properties](-mfax-setting-the-outgoing-queue-properties.md)

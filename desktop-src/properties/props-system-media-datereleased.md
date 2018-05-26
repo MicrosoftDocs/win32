@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '7a947320-ae05-4b17-82bc-f6100a0450da'
-title: 'System.Media.DateReleased'
+Description: .
+ms.assetid: 7a947320-ae05-4b17-82bc-f6100a0450da
+title: System.Media.DateReleased
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.DateReleased

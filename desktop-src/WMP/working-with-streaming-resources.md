@@ -1,8 +1,18 @@
 ---
 title: Working with Streaming Resources
 description: Working with Streaming Resources
-ms.assetid: '0258ad24-f1b9-4cb3-921c-068072fd2dbb'
-keywords: ["Windows Media Player plug-ins,Echo sample streaming resources", "plug-ins,Echo sample streaming resources", "digital signal processing plug-ins,Echo sample streaming resources", "DSP plug-ins,Echo sample streaming resources", "Echo DSP plug-in sample,streaming resources"]
+ms.assetid: 0258ad24-f1b9-4cb3-921c-068072fd2dbb
+keywords:
+- Windows Media Player plug-ins,Echo sample streaming resources
+- plug-ins,Echo sample streaming resources
+- digital signal processing plug-ins,Echo sample streaming resources
+- DSP plug-ins,Echo sample streaming resources
+- Echo DSP plug-in sample,streaming resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Streaming Resources

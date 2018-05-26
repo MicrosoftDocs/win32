@@ -1,7 +1,12 @@
 ---
 title: To clear help messages
 description: To clear help messages
-ms.assetid: 'A29FD6BE-112E-4c8c-A04D-DA04A59DCA79'
+ms.assetid: A29FD6BE-112E-4c8c-A04D-DA04A59DCA79
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To clear help messages

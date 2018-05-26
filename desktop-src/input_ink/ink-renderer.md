@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Ink renderer APIs enable the rendering of ink strokes onto the designated Direct2D device context of a Universal Windows app, instead of the default InkCanvas control.'
-ms.assetid: '8E532066-19EB-4FA6-823D-21823591742F'
+---
+Description: The Ink renderer APIs enable the rendering of ink strokes onto the designated Direct2D device context of a Universal Windows app, instead of the default InkCanvas control.
+ms.assetid: 8E532066-19EB-4FA6-823D-21823591742F
 title: Ink renderer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink renderer

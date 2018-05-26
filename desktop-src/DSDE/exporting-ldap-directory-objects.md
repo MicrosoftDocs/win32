@@ -1,13 +1,16 @@
 ---
-Description: 'This example uses DSDE to export employee data from one LDAP directory to a file. It reformats the data so that it can be imported to the fabrikam.com Active Directory.'
+Description: This example uses DSDE to export employee data from one LDAP directory to a file. It reformats the data so that it can be imported to the fabrikam.com Active Directory.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '79532ce9-f0c7-4e65-9655-b0081e39525f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 79532ce9-f0c7-4e65-9655-b0081e39525f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 title: Exporting LDAP Directory Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Exporting LDAP Directory Objects

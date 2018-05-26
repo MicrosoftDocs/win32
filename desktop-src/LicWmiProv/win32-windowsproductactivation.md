@@ -1,7 +1,12 @@
 ---
-Description: 'Contains properties and methods related to Windows Product Activation (WPA), such as activation state and grace period. This class also provides the ability to activate the customer's computer online and offline.'
-ms.assetid: 'aa267d03-7df9-418a-aa3d-5e4df20f5a08'
-title: 'Win32\_WindowsProductActivation class'
+Description: Contains properties and methods related to Windows Product Activation (WPA), such as activation state and grace period. This class also provides the ability to activate the customers computer online and offline.
+ms.assetid: aa267d03-7df9-418a-aa3d-5e4df20f5a08
+title: Win32\_WindowsProductActivation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_WindowsProductActivation class
@@ -11,9 +16,9 @@ The **Win32\_WindowsProductActivation** [WMI class](https://msdn.microsoft.com/l
 The following syntax is simplified from MOF code and includes all of the inherited properties, but excludes methods. For reference information about methods, see the table of methods later in this topic.
 
 > [!Note]  
-> This class is not supported on platforms beyond Windows XP or Windows Server 2003 R2. On those platforms, it is recommended that you use the [Software Licensing Classes](https://msdn.microsoft.com/library/dn622972) instead.
+> This class is not supported on platforms beyond Windows XP or Windows Server 2003 R2. On those platforms, it is recommended that you use the [Software Licensing Classes](https://msdn.microsoft.com/library/dn622972) instead.
 
- 
+ 
 
 ## Syntax
 
@@ -55,7 +60,7 @@ The **Win32\_WindowsProductActivation** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -116,7 +121,7 @@ Access type: Read-only
 
 If not equal to 0 (zero), and product activation is required, notification reminders (message balloons) are enabled and the activation icon appears in the notification tray. If 0 (zero), notification reminders and the activation icon are disabled.
 
-**Windows XP Professional :** This property is not available. It becomes available in Windows XP with SP1.
+**Windows XP Professional :** This property is not available. It becomes available in Windows XP with SP1.
 
 </dd> <dt>
 
@@ -201,7 +206,7 @@ The **Win32\_WindowsProductActivation** class is derived from [**CIM\_Setting**]
 > [!Note]  
 > Windows Product Activation is not available on the Itanium-based versions of the Windows operating system.
 
- 
+ 
 
 For more information on using this class, see [Deploying Windows XP Using Windows Product Activation](http://technet.microsoft.com/library/bb457096.aspx).
 
@@ -215,10 +220,10 @@ The [List Windows Product Activation Status](http://gallery.technet.microsoft.co
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows XP<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Licwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Licwmi.dll</dt> </dl> |
@@ -241,9 +246,9 @@ The [List Windows Product Activation Status](http://gallery.technet.microsoft.co
 [WMI Tasks: Operating Systems](https://msdn.microsoft.com/library/aa394596)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

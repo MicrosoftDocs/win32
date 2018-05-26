@@ -1,13 +1,16 @@
 ---
-Description: 'You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on a remote computer, gets data semisynchronously, and then cleans up.'
+Description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on a remote computer, gets data semisynchronously, and then cleans up.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '30e65b9e-9372-46d1-843a-bda0d6ec1c69'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 30e65b9e-9372-46d1-843a-bda0d6ec1c69
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Example: Getting WMI Data from a Remote Computer'
+title: Example Getting WMI Data from a Remote Computer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example: Getting WMI Data from a Remote Computer
@@ -35,30 +38,30 @@ The following procedure shows how to execute the WMI application. Steps 1 throug
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-4.  Obtain a pointer to [**IWbemServices**](iwbemservices.md) for the \\\\root\\cimv2 namespace on a remote computer by calling [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md). When connecting to a remote computer, you need to know the computer name, domain, user name, and password of the remote computer you are connecting to. These attributes are all passed into the **IWbemLocator::ConnectServer** method. Also, ensure the user name on the computer that is trying to connect to the remote computer has the correct access privileges on the remote computer. For more information, see [Connecting Through Windows Firewall](https://msdn.microsoft.com/library/aa822854). To connect to the local computer, see [Example: Getting WMI Data from the Local Computer](example--getting-wmi-data-from-the-local-computer.md) and [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
+4.  Obtain a pointer to [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) for the \\\\root\\cimv2 namespace on a remote computer by calling [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master). When connecting to a remote computer, you need to know the computer name, domain, user name, and password of the remote computer you are connecting to. These attributes are all passed into the **IWbemLocator::ConnectServer** method. Also, ensure the user name on the computer that is trying to connect to the remote computer has the correct access privileges on the remote computer. For more information, see [Connecting Through Windows Firewall](https://msdn.microsoft.com/library/aa822854). To connect to the local computer, see [Example: Getting WMI Data from the Local Computer](example--getting-wmi-data-from-the-local-computer.md) and [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-    When handling user names and passwords, it is recommended that the user be prompted for the information, use the information, and then delete the information, so that there is less of a chance of the information being intercepted by an unauthorized user. Step 4 in the example code below uses [**CredUIPromptForCredentials**](https://msdn.microsoft.com/library/windows/desktop/aa375177) to get the user name and password, and then uses [**SecureZeroMemory**](https://msdn.microsoft.com/library/windows/desktop/aa366877) to get rid of the information after it is used in [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md). For more information, see [Handling Passwords](https://msdn.microsoft.com/library/windows/desktop/ms717799) and [Asking the User for Credentials](https://msdn.microsoft.com/library/windows/desktop/ms717794) on MSDN.
+    When handling user names and passwords, it is recommended that the user be prompted for the information, use the information, and then delete the information, so that there is less of a chance of the information being intercepted by an unauthorized user. Step 4 in the example code below uses [**CredUIPromptForCredentials**](https://msdn.microsoft.com/library/windows/desktop/aa375177) to get the user name and password, and then uses [**SecureZeroMemory**](https://msdn.microsoft.com/library/windows/desktop/aa366877) to get rid of the information after it is used in [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master). For more information, see [Handling Passwords](https://msdn.microsoft.com/library/windows/desktop/ms717799) and [Asking the User for Credentials](https://msdn.microsoft.com/library/windows/desktop/ms717794) on MSDN.
 
 5.  Create a [COAUTHIDENTITY](http://go.microsoft.com/fwlink/p/?linkid=154001) structure to provide credentials for setting the proxy security.
-6.  Set [**IWbemServices**](iwbemservices.md) proxy security so WMI service can impersonate the client by calling [**CoSetProxyBlanket**](_com_cosetproxyblanket).
+6.  Set [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) proxy security so WMI service can impersonate the client by calling [**CoSetProxyBlanket**](_com_cosetproxyblanket).
 
     For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md).
 
-7.  Use the [**IWbemServices**](iwbemservices.md) pointer to make requests of WMI. A query is executed to obtain the name of the operating system and the amount of free physical memory by calling [**IWbemServices::ExecQuery**](iwbemservices-execquery.md).
+7.  Use the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) pointer to make requests of WMI. A query is executed to obtain the name of the operating system and the amount of free physical memory by calling [**IWbemServices::ExecQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execquery?branch=master).
 
     The following WQL query is one of the method arguments.
 
     `SELECT * FROM Win32_OperatingSystem`
 
-    The result of this query is stored in an [**IEnumWbemClassObject**](ienumwbemclassobject.md) pointer. This allows the data objects from the query to be retrieved semisynchronously with the **IEnumWbemClassObject** interface. For more information, see [Enumerating WMI](enumerating-wmi.md). For getting the data asynchronously, see [Example: Getting WMI Data from the Local Computer Asynchronously](example--getting-wmi-data-from-the-local-computer-asynchronously.md).
+    The result of this query is stored in an [**IEnumWbemClassObject**](/windows/win32/Wbemcli/nn-wbemcli-ienumwbemclassobject?branch=master) pointer. This allows the data objects from the query to be retrieved semisynchronously with the **IEnumWbemClassObject** interface. For more information, see [Enumerating WMI](enumerating-wmi.md). For getting the data asynchronously, see [Example: Getting WMI Data from the Local Computer Asynchronously](example--getting-wmi-data-from-the-local-computer-asynchronously.md).
 
     For more information about making requests of WMI, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md), [Querying WMI](querying-wmi.md), and [Calling a Method](calling-a-method.md).
 
-8.  Set [**IEnumWbemClassObject**](ienumwbemclassobject.md) enumerator proxy security. Make sure to erase the credentials from memory after you have finished using them.
+8.  Set [**IEnumWbemClassObject**](/windows/win32/Wbemcli/nn-wbemcli-ienumwbemclassobject?branch=master) enumerator proxy security. Make sure to erase the credentials from memory after you have finished using them.
 
     For more information, see [Setting the Security on IWbemServices and Other Proxies](setting-the-security-on-iwbemservices-and-other-proxies.md).
 
-9.  Get and display the data from the WQL query. The [**IEnumWbemClassObject**](ienumwbemclassobject.md) pointer is linked to the data objects that the query returned, and the data objects can be retrieved with the [**IEnumWbemClassObject::Next**](ienumwbemclassobject-next.md) method. This method links the data objects to an [**IWbemClassObject**](iwbemclassobject.md) pointer that is passed into the method. Use the [**IWbemClassObject::Get**](iwbemclassobject-get.md) method to get the desired information from the data objects.
+9.  Get and display the data from the WQL query. The [**IEnumWbemClassObject**](/windows/win32/Wbemcli/nn-wbemcli-ienumwbemclassobject?branch=master) pointer is linked to the data objects that the query returned, and the data objects can be retrieved with the [**IEnumWbemClassObject::Next**](/windows/win32/Wbemcli/nf-wbemcli-ienumwbemclassobject-next?branch=master) method. This method links the data objects to an [**IWbemClassObject**](/windows/win32/WbemCli/nn-wbemcli-iwbemclassobject?branch=master) pointer that is passed into the method. Use the [**IWbemClassObject::Get**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-get?branch=master) method to get the desired information from the data objects.
 
     The following code example is used to get the `Name` property from the data object, which provides the name of the operating system.
 

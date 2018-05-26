@@ -1,7 +1,12 @@
 ---
 title: Bookmarking Events
 description: A bookmark identifies an event in a channel or log file.
-ms.assetid: 'e7eeafc3-deb9-4cdc-9763-f784db7333be'
+ms.assetid: e7eeafc3-deb9-4cdc-9763-f784db7333be
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bookmarking Events
@@ -12,9 +17,9 @@ The following procedure describes how to create a bookmark from an event.
 
 **To create a bookmark from an event**
 
-1.  Call the [**EvtCreateBookmark**](evtcreatebookmark.md) function to create a bookmark. Pass **NULL** for the argument.
-2.  Call the [**EvtUpdateBookmark**](evtupdatebookmark.md) function to update the bookmark with the event. Pass the handle to the event as the argument.
-3.  Call the [**EvtRender**](evtrender.md) function to create an XML string that represents the bookmark. Pass EvtRenderBookmark as the rendering flag.
+1.  Call the [**EvtCreateBookmark**](/windows/win32/WinEvt/nf-winevt-evtcreatebookmark?branch=master) function to create a bookmark. Pass **NULL** for the argument.
+2.  Call the [**EvtUpdateBookmark**](/windows/win32/WinEvt/nf-winevt-evtupdatebookmark?branch=master) function to update the bookmark with the event. Pass the handle to the event as the argument.
+3.  Call the [**EvtRender**](/windows/win32/WinEvt/nf-winevt-evtrender?branch=master) function to create an XML string that represents the bookmark. Pass EvtRenderBookmark as the rendering flag.
 4.  Persist the XML string for use later (for example, you can persist the XML string in a file or the registry).
 
 The following procedure describes how to create a bookmark using an XML bookmark string that was persisted in the previous procedure.
@@ -22,15 +27,15 @@ The following procedure describes how to create a bookmark using an XML bookmark
 **To create a bookmark using an XML bookmark string**
 
 1.  Get the XML string that represents the bookmark that you previously persisted.
-2.  Call the [**EvtCreateBookmark**](evtcreatebookmark.md) function to create a bookmark. Pass the XML string for the argument.
+2.  Call the [**EvtCreateBookmark**](/windows/win32/WinEvt/nf-winevt-evtcreatebookmark?branch=master) function to create a bookmark. Pass the XML string for the argument.
 
 The following procedure describes how to use a bookmark in a query.
 
 **To use a bookmark in a query**
 
-1.  Call the [**EvtQuery**](evtquery.md) function to get events that match your query.
-2.  Call the [**EvtSeek**](evtseek.md) function to seek to the bookmarked event. Pass the handle to the bookmark and the EvtSeekRelativeToBookmark flag.
-3.  Call the [**EvtNext**](evtnext.md) function in a loop to enumerate the events that begin after the bookmarked event (depending on the offset you specified in [**EvtSeek**](evtseek.md)).
+1.  Call the [**EvtQuery**](/windows/win32/WinEvt/nf-winevt-evtquery?branch=master) function to get events that match your query.
+2.  Call the [**EvtSeek**](/windows/win32/WinEvt/nf-winevt-evtseek?branch=master) function to seek to the bookmarked event. Pass the handle to the bookmark and the EvtSeekRelativeToBookmark flag.
+3.  Call the [**EvtNext**](/windows/win32/WinEvt/nf-winevt-evtnext?branch=master) function in a loop to enumerate the events that begin after the bookmarked event (depending on the offset you specified in [**EvtSeek**](/windows/win32/WinEvt/nf-winevt-evtseek?branch=master)).
 
 For an example, see [Using a bookmark in a query](#using-a-bookmark-in-a-query).
 
@@ -38,9 +43,9 @@ The following procedure describes how to use a bookmark in a subscription.
 
 **To use a bookmark in a subscription**
 
-1.  Call the [**EvtSubscribe**](evtsubscribe.md) function to subscribe to events that match your query. Pass the handle to the bookmark and the EvtSubscribeStartAfterBookmark flag.
-2.  If you implemented the [**EVT\_SUBSCRIBE\_CALLBACK**](evt-subscribe-callback.md) function, your callback will receive events that begin after the bookmarked event.
-3.  If you did not implement the callback, call the [**EvtNext**](evtnext.md) function in a loop to enumerate the events that begin after the bookmarked event.
+1.  Call the [**EvtSubscribe**](/windows/win32/WinEvt/nf-winevt-evtsubscribe?branch=master) function to subscribe to events that match your query. Pass the handle to the bookmark and the EvtSubscribeStartAfterBookmark flag.
+2.  If you implemented the [**EVT\_SUBSCRIBE\_CALLBACK**](/windows/win32/WinEvt/nc-winevt-evt_subscribe_callback?branch=master) function, your callback will receive events that begin after the bookmarked event.
+3.  If you did not implement the callback, call the [**EvtNext**](/windows/win32/WinEvt/nf-winevt-evtnext?branch=master) function in a loop to enumerate the events that begin after the bookmarked event.
 
 For an example, see [Using a bookmark in a subscription](#using-a-bookmark-in-a-subscription).
 

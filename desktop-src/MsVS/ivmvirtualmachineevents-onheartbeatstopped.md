@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachineEvents OnHeartbeatStopped method
 description: Called when the heartbeat of a virtual machine has stopped.
-ms.assetid: 'ad1d6d37-75c1-4f3b-bdf8-1101b24d8683'
-keywords: ["OnHeartbeatStopped method Virtual Server", "OnHeartbeatStopped method Virtual Server , IVMVirtualMachineEvents interface", "IVMVirtualMachineEvents interface Virtual Server , OnHeartbeatStopped method"]
+ms.assetid: ad1d6d37-75c1-4f3b-bdf8-1101b24d8683
+keywords:
+- OnHeartbeatStopped method Virtual Server
+- OnHeartbeatStopped method Virtual Server , IVMVirtualMachineEvents interface
+- IVMVirtualMachineEvents interface Virtual Server , OnHeartbeatStopped method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachineEvents::OnHeartbeatStopped method
@@ -44,8 +52,8 @@ This method is called when the guest operating system for this virtual machine h
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -57,9 +65,9 @@ This method is called when the guest operating system for this virtual machine h
 [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

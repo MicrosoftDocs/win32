@@ -1,14 +1,19 @@
 ---
-Description: 'Retrieves information for applications that are imported.'
-ms.assetid: '9ed4bc3f-3490-4c36-ba94-bc803886a4d2'
+Description: Retrieves information for applications that are imported.
+ms.assetid: 9ed4bc3f-3490-4c36-ba94-bc803886a4d2
 title: FilesForImport collection
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilesForImport collection
 
 Retrieves information for applications that are imported.
 
-This collection supports the [**Add**](icatalogcollection-add.md) and [**Remove**](icatalogcollection-remove.md) methods of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object.
+This collection supports the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) and [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) methods of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object.
 
 ## Members
 
@@ -28,7 +33,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object within the collection:
 
 -   [ApplicationFileName](#applicationfilename)
 -   [ApplicationName](#applicationname)
@@ -95,7 +100,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                                                                                       |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | The name of the DLL or EXE file that contains the application. This property is returned when the [**Key**](icatalogobject-key.md) or [**Name**](icatalogobject-name.md) property method is called on an object of this collection. |
+| Description    | The name of the DLL or EXE file that contains the application. This property is returned when the [**Key**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_key?branch=master) or [**Name**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_name?branch=master) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                                                                                              |
 | Type           | String                                                                                                                                                                                                                                |
 | Default        | ""                                                                                                                                                                                                                                    |

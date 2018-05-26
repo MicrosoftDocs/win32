@@ -2,13 +2,19 @@
 title: /confirm switch
 description: The /confirm switch instructs the compiler to display all MIDL compiler options without processing the input IDL and optional ACF files.
 ms.assetid: 15a92062-1503-4cdc-91cb-9c125dbfe950
-keywords: ["/confirm switch MIDL"]
+keywords:
+- /confirm switch MIDL
 topic_type:
 - apiref
 api_name:
 - /confirm
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /confirm switch

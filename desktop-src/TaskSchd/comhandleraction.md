@@ -1,8 +1,11 @@
 ---
 title: ComHandlerAction object
 description: Scripting object that represents an action that fires a handler.
-ms.assetid: '47ffe52f-b7b7-4486-a00d-6105395f23c0'
-keywords: ["COM handler action Task Scheduler , object", "ComHandlerAction object Task Scheduler", "ComHandlerAction object Task Scheduler , described"]
+ms.assetid: 47ffe52f-b7b7-4486-a00d-6105395f23c0
+keywords:
+- COM handler action Task Scheduler , object
+- ComHandlerAction object Task Scheduler
+- ComHandlerAction object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComHandlerAction object
@@ -38,11 +46,11 @@ The **ComHandlerAction** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
-COM handlers must implement the [**ITaskHandler**](itaskhandler.md) interface for the Task Scheduler to start and stop the handler. In turn, the COM handler uses the methods of the [**TaskHandlerStatus**](itaskhandlerstatus.md) object to communicate the status back to the Task Scheduler.
+COM handlers must implement the [**ITaskHandler**](/windows/win32/taskschd/nn-taskschd-itaskhandler?branch=master) interface for the Task Scheduler to start and stop the handler. In turn, the COM handler uses the methods of the [**TaskHandlerStatus**](/windows/win32/taskschd/nn-taskschd-itaskhandlerstatus?branch=master) object to communicate the status back to the Task Scheduler.
 
 When reading or writing XML, a COM handler action is specified in the [**ComHandler**](taskschedulerschema-comhandler-actiongroup-element.md) element of the Task Scheduler schema.
 
@@ -52,8 +60,8 @@ When reading or writing XML, a COM handler action is specified in the [**ComHand
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -63,7 +71,7 @@ When reading or writing XML, a COM handler action is specified in the [**ComHand
 
 <dl> <dt>
 
-[**TaskHandlerStatus**](itaskhandlerstatus.md)
+[**TaskHandlerStatus**](/windows/win32/taskschd/nn-taskschd-itaskhandlerstatus?branch=master)
 </dt> <dt>
 
 [Task Scheduler Objects](task-scheduler-objects.md)
@@ -72,9 +80,9 @@ When reading or writing XML, a COM handler action is specified in the [**ComHand
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

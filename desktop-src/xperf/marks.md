@@ -1,8 +1,14 @@
 ---
 title: Marks
 description: Marks
-ms.assetid: 'f7b1d069-ba4b-4f79-aa0f-bd09da725687'
-keywords: ["event graph"]
+ms.assetid: f7b1d069-ba4b-4f79-aa0f-bd09da725687
+keywords:
+- event graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Marks

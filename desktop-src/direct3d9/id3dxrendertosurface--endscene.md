@@ -1,7 +1,12 @@
-﻿---
-Description: 'Ends a scene.'
-ms.assetid: 'f721593e-6cba-4569-8276-6a4ffc0fc37a'
-title: 'ID3DXRenderToSurface::EndScene method'
+---
+Description: Ends a scene.
+ms.assetid: f721593e-6cba-4569-8276-6a4ffc0fc37a
+title: ID3DXRenderToSurfaceEndScene method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXRenderToSurface::EndScene method

@@ -4,17 +4,22 @@ description: Affects the outcome of a call to the GetComputerName function.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3ef0eb0b-1472-450d-aa08-6622a7475793'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3ef0eb0b-1472-450d-aa08-6622a7475793
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["UseNetworkName Failover Cluster ,for generic applications", "UseNetworkName Failover Cluster"]
+keywords:
+- UseNetworkName Failover Cluster ,for generic applications
+- UseNetworkName Failover Cluster
 topic_type:
 - apiref
 api_name:
 - UseNetworkName
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UseNetworkName
@@ -30,14 +35,14 @@ Affects the outcome of a call to the [**GetComputerName**](https://msdn.microsof
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **FALSE**                                 |
 | Maximum   | **TRUE**                                  |
 | Default   | **FALSE**                                 |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -52,7 +57,7 @@ When an application being managed as a [Generic Application](generic-application
 
 
 
- 
+ 
 
 ## Examples
 
@@ -77,8 +82,8 @@ UseNetworkNameValue.dw        = UseNetworkNameData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
@@ -89,7 +94,7 @@ UseNetworkNameValue.dw        = UseNetworkNameData;
 [Generic Application Private Properties](generic-application-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**GetComputerName**](https://msdn.microsoft.com/library/windows/desktop/ms724295)
@@ -98,9 +103,9 @@ UseNetworkNameValue.dw        = UseNetworkNameData;
 [**Name**](network-names-name.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the frame width for the video stream.'
-ms.assetid: 'e44999c8-cd0e-4653-a191-a7a7ea8e6bec'
-title: 'System.Video.FrameWidth'
+Description: Indicates the frame width for the video stream.
+ms.assetid: e44999c8-cd0e-4653-a191-a7a7ea8e6bec
+title: System.Video.FrameWidth
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Video.FrameWidth

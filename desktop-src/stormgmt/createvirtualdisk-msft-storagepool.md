@@ -1,8 +1,11 @@
 ---
 title: CreateVirtualDisk method of the MSFT\_StoragePool class
 description: Creates a virtual disk using the resources of the storage pool.
-ms.assetid: '1a5bf78d-356c-44a7-8f76-2cad85d3c171'
-keywords: ["CreateVirtualDisk method Windows Storage Management API", "CreateVirtualDisk method Windows Storage Management API , MSFT_StoragePool class", "MSFT_StoragePool class Windows Storage Management API , CreateVirtualDisk method"]
+ms.assetid: 1a5bf78d-356c-44a7-8f76-2cad85d3c171
+keywords:
+- CreateVirtualDisk method Windows Storage Management API
+- CreateVirtualDisk method Windows Storage Management API , MSFT_StoragePool class
+- MSFT_StoragePool class Windows Storage Management API , CreateVirtualDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - vdssys.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateVirtualDisk method of the MSFT\_StoragePool class
@@ -22,28 +30,28 @@ Creates a virtual disk using the resources of the storage pool.
 
 ```mof
 UInt32 CreateVirtualDisk(
-  [in]  String              FriendlyName,
-  [in]  UInt64              Size,
-  [in]  Boolean             UseMaximumSize,
-  [in]  UInt16              ProvisioningType,
-  [in]  String              ResiliencySettingName,
-  [in]  UInt16              Usage,
-  [in]  String              OtherUsageDescription,
-  [in]  UInt16              NumberOfDataCopies,
-  [in]  UInt16              PhysicalDiskRedundancy,
-  [in]  UInt16              NumberOfColumns,
-  [in]  Boolean             AutoNumberOfColumns,
-  [in]  UInt64              Interleave,
-  [in]  Boolean             IsEnclosureAware,
-  [in]  String              PhysicalDisksToUse[],
-  [in]  String              StorageTiers[],
-  [in]  UInt64              StorageTierSizes[],
-  [in]  UInt64              WriteCacheSize,
-  [in]  Boolean             AutoWriteCacheSize,
-  [in]  Boolean             RunAsJob,
-  [out] String              CreatedVirtualDisk,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  String              FriendlyName,
+  [in]  UInt64              Size,
+  [in]  Boolean             UseMaximumSize,
+  [in]  UInt16              ProvisioningType,
+  [in]  String              ResiliencySettingName,
+  [in]  UInt16              Usage,
+  [in]  String              OtherUsageDescription,
+  [in]  UInt16              NumberOfDataCopies,
+  [in]  UInt16              PhysicalDiskRedundancy,
+  [in]  UInt16              NumberOfColumns,
+  [in]  Boolean             AutoNumberOfColumns,
+  [in]  UInt64              Interleave,
+  [in]  Boolean             IsEnclosureAware,
+  [in]  String              PhysicalDisksToUse[],
+  [in]  String              StorageTiers[],
+  [in]  UInt64              StorageTierSizes[],
+  [in]  UInt64              WriteCacheSize,
+  [in]  Boolean             AutoWriteCacheSize,
+  [in]  Boolean             RunAsJob,
+  [out] String              CreatedVirtualDisk,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -93,7 +101,7 @@ Specifies the provisioning type for the virtual disk.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -262,7 +270,7 @@ If **TRUE**, this method uses the *CreatedStorageJob* parameter when the request
 > [!Note]  
 > Even if *RunAsJob* is **TRUE**, this method can still return a result if it has finished in sufficient time.
 
- 
+ 
 
 If **FALSE** or **NULL**, this method will follow default WMI asynchronous behavior as determined by the client's method for invocation. In other words, it is synchronous unless requested otherwise.
 
@@ -421,8 +429,8 @@ Allocation can be further controlled by the *PhysicalDisksToUse* parameter. Ther
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | Header<br/>                   | <dl> <dt>Vdssys.h</dt> </dl>       |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
@@ -436,9 +444,9 @@ Allocation can be further controlled by the *PhysicalDisksToUse* parameter. Ther
 [**MSFT\_StoragePool**](msft-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

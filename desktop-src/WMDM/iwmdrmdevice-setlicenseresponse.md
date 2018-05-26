@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDevice SetLicenseResponse method
 description: The SetLicenseResponse method sets the license response.
-ms.assetid: '1ef3ba9d-d14c-4a20-92d6-0bcb604fd9e2'
-keywords: ["SetLicenseResponse method windows Media Device Manager", "SetLicenseResponse method windows Media Device Manager , IWMDRMDevice interface", "IWMDRMDevice interface windows Media Device Manager , SetLicenseResponse method"]
+ms.assetid: 1ef3ba9d-d14c-4a20-92d6-0bcb604fd9e2
+keywords:
+- SetLicenseResponse method windows Media Device Manager
+- SetLicenseResponse method windows Media Device Manager , IWMDRMDevice interface
+- IWMDRMDevice interface windows Media Device Manager , SetLicenseResponse method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice::SetLicenseResponse method
@@ -23,8 +31,8 @@ The **SetLicenseResponse** method sets the license response.
 
 ```C++
 HRESULT SetLicenseResponse(
-  [in] BYTE  *pbResponse,
-  [in] DWORD cbResponse
+  [in] BYTE  *pbResponse,
+  [in] DWORD cbResponse
 );
 ```
 
@@ -60,7 +68,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -80,9 +88,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWMDRMDevice Interface**](iwmdrmdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

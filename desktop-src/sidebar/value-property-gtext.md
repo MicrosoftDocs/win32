@@ -1,8 +1,11 @@
 ---
 title: text.value property
 description: Gets or sets the value of the g text element.
-ms.assetid: 'f16c288a-f36d-4789-b4ba-41a17a9cb01b'
-keywords: ["value property Windows Sidebar", "value property Windows Sidebar , text object", "text object Windows Sidebar , value property"]
+ms.assetid: f16c288a-f36d-4789-b4ba-41a17a9cb01b
+keywords:
+- value property Windows Sidebar
+- value property Windows Sidebar , text object
+- text object Windows Sidebar , value property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # text.value property
@@ -54,10 +62,10 @@ txtValue.value = "success";
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -79,9 +87,9 @@ txtValue.value = "success";
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

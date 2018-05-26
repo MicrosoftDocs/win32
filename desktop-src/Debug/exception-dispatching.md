@@ -1,14 +1,19 @@
 ---
-Description: 'When a hardware or software exception occurs, the processor stops execution at the point at which the exception occurred and transfers control to the system.'
-ms.assetid: '35a1b9bd-8da9-47e6-beda-e0b159bd840d'
+Description: When a hardware or software exception occurs, the processor stops execution at the point at which the exception occurred and transfers control to the system.
+ms.assetid: 35a1b9bd-8da9-47e6-beda-e0b159bd840d
 title: Exception Dispatching
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exception Dispatching
 
 When a hardware or software exception occurs, the processor stops execution at the point at which the exception occurred and transfers control to the system. First, the system saves both the machine state of the current thread and information that describes the exception. The system then attempts to find an exception handler to handle the exception.
 
-The machine state of the thread in which the exception occurred is saved in a [**CONTEXT**](context-str.md) structure. This information (called the *context record*) enables the system to continue execution at the point of the exception if the exception is successfully handled. The description of the exception (called the **exception record**) is saved in an [**EXCEPTION\_RECORD**](exception-record-str.md) structure. Because it stores the machine-dependent information of the context record separately from the machine-independent information of the exception record, the exception-handling mechanism is portable to different platforms.
+The machine state of the thread in which the exception occurred is saved in a [**CONTEXT**](/windows/win32/WinNT/ns-winnt-_arm64_nt_context?branch=master) structure. This information (called the *context record*) enables the system to continue execution at the point of the exception if the exception is successfully handled. The description of the exception (called the **exception record**) is saved in an [**EXCEPTION\_RECORD**](/windows/win32/WinNT/ns-winnt-_exception_record?branch=master) structure. Because it stores the machine-dependent information of the context record separately from the machine-independent information of the exception record, the exception-handling mechanism is portable to different platforms.
 
 The information in both the context and exception records is available by means of the [**GetExceptionInformation**](getexceptioninformation.md) function, and can be made available to any exception handlers that are executed as a result of the exception. The exception record includes the following information.
 

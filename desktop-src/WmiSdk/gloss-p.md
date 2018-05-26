@@ -1,14 +1,17 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: 'noindex, nofollow'
+Robots: noindex, nofollow
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd426673b-dea2-4f8b-9259-6a17543f70c0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d426673b-dea2-4f8b-9259-6a17543f70c0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: P
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # P
@@ -55,7 +58,7 @@ A name/value pair that describes a unit of data for a class. Property values mus
 <span id="wmi.gloss_property_provider"></span><span id="WMI.GLOSS_PROPERTY_PROVIDER"></span>**property provider**
 </dt> <dd>
 
-A COM server that supports the retrieval and modification of WMI properties. Property providers implement the [**IWbemProviderInit**](iwbemproviderinit.md) and [**IWbemPropertyProvider**](iwbempropertyprovider.md) interfaces.
+A COM server that supports the retrieval and modification of WMI properties. Property providers implement the [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) and [**IWbemPropertyProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbempropertyprovider?branch=master) interfaces.
 
 </dd> <dt>
 

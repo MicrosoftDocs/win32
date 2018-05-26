@@ -1,8 +1,10 @@
 ---
 title: Win32\_VolumeQuota class
 description: The Win32\_VolumeQuota association relates a volume to the per volume quota settings.
-ms.assetid: 'ba074afc-6d5e-4d75-866f-e8d6959ab890'
-keywords: ["Win32_VolumeQuota class", "Win32_VolumeQuota class, described"]
+ms.assetid: ba074afc-6d5e-4d75-866f-e8d6959ab890
+keywords:
+- Win32_VolumeQuota class
+- Win32_VolumeQuota class, described
 topic_type:
 - apiref
 api_name:
@@ -13,13 +15,18 @@ api_location:
 - Vdswmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_VolumeQuota class
 
 The **Win32\_VolumeQuota** association relates a volume to the per volume quota settings.
 
-**Windows XP and earlier:** This class is not available
+**Windows XP and earlier:** This class is not available
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -28,7 +35,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_VolumeQuota : CIM_ElementSetting
 {
-  Win32_Volume       REF Element;
+  Win32_Volume       REF Element;
   Win32_QuotaSetting REF Setting;
 };
 ```
@@ -78,7 +85,7 @@ Reference to the quota setting.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vds.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vdswmi.dll</dt> </dl> |
@@ -104,9 +111,9 @@ Reference to the quota setting.
 [**Win32\_MountPoint**](win32-mountpoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

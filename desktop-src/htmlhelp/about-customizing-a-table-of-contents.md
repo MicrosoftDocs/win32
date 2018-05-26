@@ -1,7 +1,12 @@
 ---
 title: About Customizing a Table of Contents
 description: About Customizing a Table of Contents
-ms.assetid: 'CFAC4EBC-FB2B-43cf-8AAA-48E2FE0C04E0'
+ms.assetid: CFAC4EBC-FB2B-43cf-8AAA-48E2FE0C04E0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Customizing a Table of Contents

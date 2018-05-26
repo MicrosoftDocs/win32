@@ -1,12 +1,17 @@
 ---
-Description: 'The following code demonstrates how to call the SymFromName function.'
-ms.assetid: 'd3a9d73e-fb77-4be3-a881-c258bcc587fe'
+Description: The following code demonstrates how to call the SymFromName function.
+ms.assetid: d3a9d73e-fb77-4be3-a881-c258bcc587fe
 title: Retrieving Symbol Information by Name
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Symbol Information by Name
 
-The following code demonstrates how to call the [**SymFromName**](symfromname.md) function. This function fills in a [**SYMBOL\_INFO**](symbol-info-str.md) structure. Because the name is variable in length, you must supply a buffer that is large enough to hold the name stored at the end of the **SYMBOL\_INFO** structure. Also, the **MaxNameLen** member must be set to the number of bytes reserved for the name. In this example, szSymbolName is a buffer that stores the name of the requested symbol. The example assumes you have initialized the symbol handler using the code in [Initializing the Symbol Handler](initializing-the-symbol-handler.md).
+The following code demonstrates how to call the [**SymFromName**](/windows/win32/Dbghelp/nf-dbghelp-symfromname?branch=master) function. This function fills in a [**SYMBOL\_INFO**](/windows/win32/DbgHelp/ns-dbghelp-_symbol_info?branch=master) structure. Because the name is variable in length, you must supply a buffer that is large enough to hold the name stored at the end of the **SYMBOL\_INFO** structure. Also, the **MaxNameLen** member must be set to the number of bytes reserved for the name. In this example, szSymbolName is a buffer that stores the name of the requested symbol. The example assumes you have initialized the symbol handler using the code in [Initializing the Symbol Handler](initializing-the-symbol-handler.md).
 
 
 ```C++
@@ -35,7 +40,7 @@ else
 
 
 
-If an application has a module or source file name as well as line number information, it can use [**SymGetLineFromName64**](symgetlinefromname64.md) to retrieve a virtual code address. This function requires a pointer to an [**IMAGEHLP\_LINE64**](imagehlp-line64-str.md) structure to receive the virtual code address. Note that the symbol handler can retrieve line number information only when SYMOPT\_LOAD\_LINES option is set using the [**SymSetOptions**](symsetoptions.md) function. This option must be set before loading the module. The szModuleName parameter contains the source module name; it is optional and can be **NULL**. The szFileName parameter should contain the source file name, and dwLineNumber parameter should contain the line number for which the virtual address will be retrieved.
+If an application has a module or source file name as well as line number information, it can use [**SymGetLineFromName64**](/windows/win32/Dbghelp/nf-dbghelp-symgetlinefromname?branch=master) to retrieve a virtual code address. This function requires a pointer to an [**IMAGEHLP\_LINE64**](/windows/win32/DbgHelp/ns-dbghelp-_imagehlp_line?branch=master) structure to receive the virtual code address. Note that the symbol handler can retrieve line number information only when SYMOPT\_LOAD\_LINES option is set using the [**SymSetOptions**](/windows/win32/Dbghelp/nf-dbghelp-symsetoptions?branch=master) function. This option must be set before loading the module. The szModuleName parameter contains the source module name; it is optional and can be **NULL**. The szFileName parameter should contain the source file name, and dwLineNumber parameter should contain the line number for which the virtual address will be retrieved.
 
 
 ```C++

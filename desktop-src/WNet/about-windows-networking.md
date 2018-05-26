@@ -1,8 +1,15 @@
 ---
 title: About Windows Networking
 description: Applications can use the WNet functions to add and cancel network connections and to retrieve information about the current configuration of the network.
-ms.assetid: '37ce0762-b0b2-4d68-9942-b7034f1b76b7'
-keywords: ["Windows networking WNet ,described", "WNet WNet ,described"]
+ms.assetid: 37ce0762-b0b2-4d68-9942-b7034f1b76b7
+keywords:
+- Windows networking WNet ,described
+- WNet WNet ,described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Windows Networking

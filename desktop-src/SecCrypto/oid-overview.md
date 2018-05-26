@@ -1,7 +1,12 @@
 ---
-Description: 'Extensibility is achieved by providing for the use of new object identifiers (OIDs), new encoding types, and new DLLs.'
-ms.assetid: '95e992fe-af30-4b4e-b20d-cfe5318d0a38'
+Description: Extensibility is achieved by providing for the use of new object identifiers (OIDs), new encoding types, and new DLLs.
+ms.assetid: 95e992fe-af30-4b4e-b20d-cfe5318d0a38
 title: OID Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OID Overview
@@ -14,7 +19,7 @@ CryptoAPI OIDs can take any of the following forms:
 -   An alphanumeric string such as *MyFunction*
 -   A constant with a value that is less than or equal to 0xFFFF. These constants are often associated with a name through the use of a **\#define** statement in a header file.
 
-Extensible functions accept OID and encoding type arguments. These functions search the system registry to find a DLL associated with the OID and encoding type arguments passed to the function. If a DLL for the OID, encoding type combination is found, the DLL is loaded and its function is called. The following illustration shows this flow for the [**CryptEncodeObject**](cryptencodeobject.md) function:
+Extensible functions accept OID and encoding type arguments. These functions search the system registry to find a DLL associated with the OID and encoding type arguments passed to the function. If a DLL for the OID, encoding type combination is found, the DLL is loaded and its function is called. The following illustration shows this flow for the [**CryptEncodeObject**](/windows/win32/Wincrypt/nf-wincrypt-cryptencodeobject?branch=master) function:
 
 ![oid flow](images/oidflow.png)
 

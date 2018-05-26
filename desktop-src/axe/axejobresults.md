@@ -1,14 +1,20 @@
 ---
 title: AxeJobResults element
 description: Assessments produce one or more XML files that contain individual results.
-ms.assetid: 'DBB2BAE8-55D0-4A08-B835-C68D049230DA'
-keywords: ["AxeJobResults element Access Execution Engine"]
+ms.assetid: DBB2BAE8-55D0-4A08-B835-C68D049230DA
+keywords:
+- AxeJobResults element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AxeJobResults
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxeJobResults element
@@ -68,9 +74,9 @@ There are no parent elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

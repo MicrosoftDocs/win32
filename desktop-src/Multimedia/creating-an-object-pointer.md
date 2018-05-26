@@ -1,7 +1,12 @@
 ---
 title: Creating an Object Pointer
 description: Creating an Object Pointer
-ms.assetid: 'b66a2725-6ba1-4aea-b165-fe3f4da00375'
+ms.assetid: b66a2725-6ba1-4aea-b165-fe3f4da00375
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Object Pointer

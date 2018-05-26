@@ -1,8 +1,9 @@
 ---
 title: CB\_SETTOPINDEX message
 description: An application sends the CB\_SETTOPINDEX message to ensure that a particular item is visible in the list box of a combo box.
-ms.assetid: '2be78f17-848f-435a-9c2c-df6108ee7d9e'
-keywords: ["CB_SETTOPINDEX message Windows Controls"]
+ms.assetid: 2be78f17-848f-435a-9c2c-df6108ee7d9e
+keywords:
+- CB_SETTOPINDEX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_SETTOPINDEX message
@@ -47,8 +53,8 @@ If the message fails, the return value is CB\_ERR.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ If the message fails, the return value is CB\_ERR.
 [**CB\_GETTOPINDEX**](cb-gettopindex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

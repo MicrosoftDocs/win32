@@ -1,8 +1,9 @@
 ---
 title: D3DPreprocess function
 description: Preprocesses uncompiled HLSL code.
-ms.assetid: 'cb49749f-d837-4a0c-8c6e-d67b0b6206a2'
-keywords: ["D3DPreprocess function HLSL"]
+ms.assetid: cb49749f-d837-4a0c-8c6e-d67b0b6206a2
+keywords:
+- D3DPreprocess function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dcompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DPreprocess function
@@ -21,13 +27,13 @@ Preprocesses uncompiled HLSL code.
 
 ``` syntax
 HRESULT WINAPI D3DPreprocess(
-  in      LPCVOID pSrcData,
-  in      SIZE_T SrcDataSize,
-  in_opt  LPCSTR pSourceName,
-  in_opt  const D3D_SHADER_MACRO pDefines,
-  in_opt  ID3DInclude pInclude,
-  out     ID3DBlob ppCodeText,
-  out_opt ID3DBlob ppErrorMsgs
+  in      LPCVOID pSrcData,
+  in      SIZE_T SrcDataSize,
+  in_opt  LPCSTR pSourceName,
+  in_opt  const D3D_SHADER_MACRO pDefines,
+  in_opt  ID3DInclude pInclude,
+  out     ID3DBlob ppCodeText,
+  out_opt ID3DBlob ppErrorMsgs
 );
 ```
 
@@ -134,9 +140,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

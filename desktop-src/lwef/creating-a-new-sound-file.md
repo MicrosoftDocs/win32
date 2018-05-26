@@ -1,7 +1,12 @@
 ---
 title: Creating a New Sound File
 description: Creating a New Sound File
-ms.assetid: 'ebaa0578-f5f0-4b36-bc5c-99178cc99299'
+ms.assetid: ebaa0578-f5f0-4b36-bc5c-99178cc99299
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a New Sound File

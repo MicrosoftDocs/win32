@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Config01\_ActiveXControls02 class
 description: This policy setting determines which ActiveX installation sites standard users in your organization can use to install ActiveX controls on their computers.
-ms.assetid: '242888ae-f07a-40b7-9539-29fcca9cfc40'
-keywords: ["MDM_Policy_Config01_ActiveXControls02 class", "MDM_Policy_Config01_ActiveXControls02 class, described"]
+ms.assetid: 242888ae-f07a-40b7-9539-29fcca9cfc40
+keywords:
+- MDM_Policy_Config01_ActiveXControls02 class
+- MDM_Policy_Config01_ActiveXControls02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Config01\_ActiveXControls02 class
@@ -92,7 +99,7 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -100,9 +107,9 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

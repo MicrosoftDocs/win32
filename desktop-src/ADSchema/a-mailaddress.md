@@ -4,17 +4,22 @@ description: Generic mail address attribute. Used in the box as an optional attr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '54fd710c-d140-4d46-9db3-0c72fb5fb08c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 54fd710c-d140-4d46-9db3-0c72fb5fb08c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["SMTP-Mail-Address attribute AD Schema", "mailAddress attribute AD Schema"]
+keywords:
+- SMTP-Mail-Address attribute AD Schema
+- mailAddress attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - SMTP-Mail-Address
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SMTP-Mail-Address attribute
@@ -38,13 +43,13 @@ Generic mail address attribute. Used in the box as an optional attribute of serv
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ Generic mail address attribute. Used in the box as an optional attribute of serv
 
 
 
- 
+ 
 
- 
+ 
 
 
 

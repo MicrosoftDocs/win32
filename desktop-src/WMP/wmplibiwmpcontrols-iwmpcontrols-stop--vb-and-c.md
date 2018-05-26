@@ -1,8 +1,11 @@
 ---
 title: IWMPControls stop method
 description: The stop method stops playback of the media item.
-ms.assetid: '4be601af-6321-4115-a94d-cfc9228991cb'
-keywords: ["stop method Windows Media Player", "stop method Windows Media Player , IWMPControls interface", "IWMPControls interface Windows Media Player , stop method"]
+ms.assetid: 4be601af-6321-4115-a94d-cfc9228991cb
+keywords:
+- stop method Windows Media Player
+- stop method Windows Media Player , IWMPControls interface
+- IWMPControls interface Windows Media Player , stop method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls::stop method
@@ -143,9 +151,9 @@ End Sub</code></pre></td>
 [**IWMPControls.previous (VB and C#)**](wmplibiwmpcontrols-iwmpcontrols-previous--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

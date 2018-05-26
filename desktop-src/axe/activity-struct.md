@@ -1,8 +1,10 @@
 ---
 title: Activity class
 description: This interfaces provides access to Activity objects.
-ms.assetid: '1584482D-C7A5-4062-9984-CB3416CB6C93'
-keywords: ["Activity class Access Execution Engine", "Activity class Access Execution Engine , described"]
+ms.assetid: 1584482D-C7A5-4062-9984-CB3416CB6C93
+keywords:
+- Activity class Access Execution Engine
+- Activity class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity class
@@ -76,7 +83,7 @@ The **Activity** class has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,16 +95,16 @@ The **Activity** class has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

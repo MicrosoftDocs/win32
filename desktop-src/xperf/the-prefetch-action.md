@@ -1,7 +1,12 @@
 ---
 title: The PreFetch Action
 description: The PreFetch Action
-ms.assetid: '098b9b6e-8953-459e-9381-3e681bfb93f0'
+ms.assetid: 098b9b6e-8953-459e-9381-3e681bfb93f0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The PreFetch Action
@@ -27,13 +32,13 @@ The PreFetch action produces a text file that summarizes the various metrics reg
 
 
 
- 
+ 
 
 If no activity is selected, summary is selected by default.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: WMDMRIGHTS structure
 description: The WMDMRIGHTS structure describes content-use rights.
-ms.assetid: '1be9167b-0d20-4a17-a42b-9696ada2b539'
-keywords: ["WMDMRIGHTS structure windows Media Device Manager", "PWMDMRIGHTS structure pointer windows Media Device Manager"]
+ms.assetid: 1be9167b-0d20-4a17-a42b-9696ada2b539
+keywords:
+- WMDMRIGHTS structure windows Media Device Manager
+- PWMDMRIGHTS structure pointer windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDMRIGHTS structure
@@ -22,12 +29,12 @@ The **WMDMRIGHTS** structure describes content-use rights.
 
 ```C++
 typedef struct __WMDMRIGHTS {
-  UINT         cbSize;
-  DWORD        dwContentType;
-  DWORD        fuFlags;
-  DWORD        fuRights;
-  DWORD        dwAppSec;
-  DWORD        dwPlaybackCount;
+  UINT         cbSize;
+  DWORD        dwContentType;
+  DWORD        fuFlags;
+  DWORD        fuRights;
+  DWORD        dwAppSec;
+  DWORD        dwPlaybackCount;
   WMDMDATETIME ExpirationDate;
 } WMDMRIGHTS, *PWMDMRIGHTS;
 ```
@@ -69,7 +76,7 @@ Bit field specifying the rights options in use for the content.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -89,7 +96,7 @@ Bit field containing the rights bits for the content.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -128,10 +135,10 @@ Byte array that specifies the minimum level of application security.
 
 <dl> <dt>
 
-[**IMDSPStorage::GetRights**](imdspstorage-getrights.md)
+[**IMDSPStorage::GetRights**](/windows/win32/mswmdm/nf-mswmdm-imdspstorage-getrights?branch=master)
 </dt> <dt>
 
-[**IWMDMStorage::GetRights**](iwmdmstorage-getrights.md)
+[**IWMDMStorage::GetRights**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage-getrights?branch=master)
 </dt> <dt>
 
 [**WMDMDATETIME**](wmdmdatetime.md)
@@ -140,9 +147,9 @@ Byte array that specifies the minimum level of application security.
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

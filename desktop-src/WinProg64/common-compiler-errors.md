@@ -1,8 +1,15 @@
 ---
 title: Common Compiler Errors
 description: This section illustrates the typical compiler errors that occur when migrating an existing code base. These examples happen to be from system-level HAL code, although the concepts are directly applicable to user-level code.
-ms.assetid: 'bbb6a57f-281a-4a6e-a4b6-15846d0cf21f'
-keywords: ["compiler errors 64-bit Windows Programming", "migration 64-bit Windows Programming"]
+ms.assetid: bbb6a57f-281a-4a6e-a4b6-15846d0cf21f
+keywords:
+- compiler errors 64-bit Windows Programming
+- migration 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Compiler Errors

@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_INEGATIVEPERCENT'
-ms.assetid: '3518bd71-631d-48f2-b17f-b2ed41d44484'
-title: 'LOCALE\_INEGATIVEPERCENT'
+Description: LOCALE\_INEGATIVEPERCENT
+ms.assetid: 3518bd71-631d-48f2-b17f-b2ed41d44484
+title: LOCALE\_INEGATIVEPERCENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_INEGATIVEPERCENT

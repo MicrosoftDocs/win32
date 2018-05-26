@@ -4,17 +4,21 @@ description: Determines whether or not the IP addresses of all provider IP addre
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1E4D7E95-3F4F-4A7B-9B3C-10DA424D9E6B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1E4D7E95-3F4F-4A7B-9B3C-10DA424D9E6B
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RegisterAllProvidersIP Failover Cluster"]
+keywords:
+- RegisterAllProvidersIP Failover Cluster
 topic_type:
 - apiref
 api_name:
 - RegisterAllProvidersIP
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RegisterAllProvidersIP
@@ -27,14 +31,14 @@ Determines whether or not the IP addresses of all provider IP address resources 
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 1                                         |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,7 +69,7 @@ RegisterAllProvidersIPValue.dw        = RegisterAllProvidersIPData;
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -76,12 +80,12 @@ RegisterAllProvidersIPValue.dw        = RegisterAllProvidersIPData;
 [Virtual Machine Replication Broker Private Properties](virtual-machine-replication-broker-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

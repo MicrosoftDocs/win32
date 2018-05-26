@@ -1,14 +1,20 @@
 ---
 title: typedef macro
 description: This statement creates an alias for a type.
-ms.assetid: '355001fb-ed63-49e6-9d72-0d56a5b558b4'
-keywords: ["typedef macro Automation"]
+ms.assetid: 355001fb-ed63-49e6-9d72-0d56a5b558b4
+keywords:
+- typedef macro Automation
 topic_type:
 - apiref
 api_name:
 - coclass
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # typedef macro

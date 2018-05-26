@@ -4,11 +4,13 @@ description: Represents a collection of device objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9731b16b-12e0-457e-a4e5-a55d8a6db582'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9731b16b-12e0-457e-a4e5-a55d8a6db582
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpDeviceCollection interface Remote Desktop Services", "IMsRdpDeviceCollection interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpDeviceCollection interface Remote Desktop Services
+- IMsRdpDeviceCollection interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDeviceCollection interface
@@ -42,7 +47,7 @@ The **IMsRdpDeviceCollection** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -58,7 +63,7 @@ The **IMsRdpDeviceCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +71,8 @@ The **IMsRdpDeviceCollection** interface has these properties.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | IID<br/>                      | IID\_IMsRdpDeviceCollection is defined as 56540617-d281-488c-8738-6a8fdf64a118<br/> |
@@ -84,9 +89,9 @@ The **IMsRdpDeviceCollection** interface has these properties.
 [**IMsRdpDevice**](imsrdpdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

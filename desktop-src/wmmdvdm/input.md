@@ -1,14 +1,20 @@
 ---
 title: Input element
 description: Creates a source (media node) in the pipeline graph.
-ms.assetid: '9c75c3ec-e0eb-412e-8790-189dc00fe9af'
-keywords: ["Input element Windows Movie Maker and DVD Maker"]
+ms.assetid: 9c75c3ec-e0eb-412e-8790-189dc00fe9af
+keywords:
+- Input element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Input
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input element
@@ -50,7 +56,7 @@ User-imported content is available for use in menu styles by using the "Backgrou
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -65,9 +71,9 @@ User-imported content is available for use in menu styles by using the "Backgrou
 [**UsesBackground Element**](usesbackground.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

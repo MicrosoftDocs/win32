@@ -1,7 +1,12 @@
 ---
-Description: 'Depending upon the application, localization may require modifying or adding resources such as files or registry keys.'
-ms.assetid: 'f5af0ecd-cb57-4858-88b4-4608893004f6'
+Description: Depending upon the application, localization may require modifying or adding resources such as files or registry keys.
+ms.assetid: f5af0ecd-cb57-4858-88b4-4608893004f6
 title: Adding Localized Resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Localized Resources

@@ -4,13 +4,15 @@ description: This class provides the configuration settings for a replication gr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '10d93ba4-1590-4ec5-a993-dba263500c20'
-ms.prod: 'windows-server-dev'
+ms.assetid: 10d93ba4-1590-4ec5-a993-dba263500c20
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrConnectionConfig class Distributed File System Replication", "DfsrConnectionConfig class Distributed File System Replication , described"]
+keywords:
+- DfsrConnectionConfig class Distributed File System Replication
+- DfsrConnectionConfig class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrConnectionConfig class
@@ -49,24 +54,24 @@ This class provides the configuration settings for a replication group connectio
 [Dynamic, Provider("DfsrConfigProv")]
 class DfsrConnectionConfig : CIM_Setting
 {
-  string  Caption;
-  string  Description;
-  string  SettingID;
-  string  ConnectionGuid;
-  string  ConnectionDn;
-  string  MemberGuid;
-  string  PartnerGuid;
-  string  PartnerName;
-  string  PartnerDn;
-  string  PartnerDns;
-  string  ReplicationGroupGuid;
+  string  Caption;
+  string  Description;
+  string  SettingID;
+  string  ConnectionGuid;
+  string  ConnectionDn;
+  string  MemberGuid;
+  string  PartnerGuid;
+  string  PartnerName;
+  string  PartnerDn;
+  string  PartnerDns;
+  string  ReplicationGroupGuid;
   boolean Inbound;
   boolean Enabled;
-  string  Keywords;
+  string  Keywords;
   boolean RdcEnabled;
-  uint32  RdcMinFileSizeInKb;
+  uint32  RdcMinFileSizeInKb;
   Boolean ScheduleInUtc;
-  uint8   Schedule[];
+  uint8   Schedule[];
 };
 ```
 
@@ -563,9 +568,9 @@ The [Get-DFSRBacklog](https://Gallery.TechNet.Microsoft.Com/dac62790-219d-4325-a
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -582,9 +587,9 @@ The [Get-DFSRBacklog](https://Gallery.TechNet.Microsoft.Com/dac62790-219d-4325-a
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

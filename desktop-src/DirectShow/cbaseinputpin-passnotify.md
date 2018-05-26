@@ -1,7 +1,12 @@
 ---
-Description: 'The PassNotify method passes a quality-control message to the appropriate object.'
-ms.assetid: 'dbc9a4b7-a522-4fbf-8e3a-af50e11c1d80'
-title: 'CBaseInputPin.PassNotify method'
+Description: The PassNotify method passes a quality-control message to the appropriate object.
+ms.assetid: dbc9a4b7-a522-4fbf-8e3a-af50e11c1d80
+title: CBaseInputPin.PassNotify method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin.PassNotify method
@@ -13,7 +18,7 @@ The `PassNotify` method passes a quality-control message to the appropriate obje
 
 ```C++
 HRESULT PassNotify(
-   Quality q
+   Quality q
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT PassNotify(
 *q* 
 </dt> <dd>
 
-[**Quality**](quality.md) structure that contains the quality-control message.
+[**Quality**](/windows/win32/strmif/ns-strmif-tagquality?branch=master) structure that contains the quality-control message.
 
 </dd> </dl>
 
@@ -43,13 +48,13 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
 Call this method if the filter does not handle quality-control messages. This method passes the message to one of the following objects, in order of preference:
 
--   An external quality-control manager, if the [**IQualityControl::SetSink**](iqualitycontrol-setsink.md) method was called.
+-   An external quality-control manager, if the [**IQualityControl::SetSink**](/windows/win32/Strmif/nf-strmif-iqualitycontrol-setsink?branch=master) method was called.
 -   The upstream output pin.
 
 ## Requirements
@@ -73,9 +78,9 @@ Call this method if the filter does not handle quality-control messages. This me
 [Quality-Control Management](quality-control-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

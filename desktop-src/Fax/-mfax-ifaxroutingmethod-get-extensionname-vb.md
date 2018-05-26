@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ExtensionName property is a null-terminated string that contains the user-friendly name for the fax routing extension DLL that implements the specified fax routing method.'
-ms.assetid: 'd0b42fc6-c797-4a51-a049-240ac0566b52'
-title: 'FaxRoutingMethod.ExtensionName property'
+---
+Description: The ExtensionName property is a null-terminated string that contains the user-friendly name for the fax routing extension DLL that implements the specified fax routing method.
+ms.assetid: d0b42fc6-c797-4a51-a049-240ac0566b52
+title: FaxRoutingMethod.ExtensionName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRoutingMethod.ExtensionName property
@@ -55,10 +60,10 @@ A fax client application can use the [**ImageName**](-mfax-ifaxroutingmethod-get
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxRoutingMethod**](-mfax-ifaxroutingmethod.md)
+[**IFaxRoutingMethod**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethod?branch=master)
 </dt> <dt>
 
-[**IFaxRoutingMethods**](-mfax-ifaxroutingmethods.md)
+[**IFaxRoutingMethods**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethods?branch=master)
 </dt> <dt>
 
 [**ImageName**](-mfax-ifaxroutingmethod-get-imagename-vb.md)

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Id property is a null-terminated string that contains a unique ID for the inbound fax job.'
-ms.assetid: '94bcfac7-3011-4b4c-86a7-60abda46bb94'
-title: 'FaxIncomingJob.Id property'
+---
+Description: The Id property is a null-terminated string that contains a unique ID for the inbound fax job.
+ms.assetid: 94bcfac7-3011-4b4c-86a7-60abda46bb94
+title: FaxIncomingJob.Id property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob.Id property
@@ -50,7 +55,7 @@ You can use the fax job's ID to retrieve the archived fax message after the job 
 [**FaxIncomingJob**](-mfax-faxincomingjob.md)
 </dt> <dt>
 
-[**IFaxIncomingJob**](-mfax-faxincomingjob-cpp.md)
+[**IFaxIncomingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjob?branch=master)
 </dt> </dl>
 
  

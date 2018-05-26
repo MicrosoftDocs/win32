@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Microsoft Media Foundation MPEG-2 audio encoder is a Media Foundation transform that encodes mono or stereo audio to MPEG-1 audio (ISO/IEC 11172-3) or MPEG-2 audio (ISO/IEC 13818-3).'
-ms.assetid: 'EBEFED1F-D0B8-4C7E-B1FB-CDE3BDFD99AA'
-title: 'MPEG-2 Audio Encoder'
+---
+Description: The Microsoft Media Foundation MPEG-2 audio encoder is a Media Foundation transform that encodes mono or stereo audio to MPEG-1 audio (ISO/IEC 11172-3) or MPEG-2 audio (ISO/IEC 13818-3).
+ms.assetid: EBEFED1F-D0B8-4C7E-B1FB-CDE3BDFD99AA
+title: MPEG-2 Audio Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-2 Audio Encoder
@@ -213,16 +218,16 @@ Each output buffer contains one raw MPEG frame. The size of each output buffer d
 To change any of the default settings on the encoder, perform the following steps:
 
 1.  Create an instance of the encoder MFT.
-2.  Call [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md) to get the list of the preferred output types. The encoder enumerates all sample rates for both mono and stereo. Select one of these media types, based on the sample rate and number of channels. The [MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND](mf-mt-audio-avg-bytes-per-second-attribute.md) attribute indicates the default bit rate, in bytes per second.
+2.  Call [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) to get the list of the preferred output types. The encoder enumerates all sample rates for both mono and stereo. Select one of these media types, based on the sample rate and number of channels. The [MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND](mf-mt-audio-avg-bytes-per-second-attribute.md) attribute indicates the default bit rate, in bytes per second.
 3.  Optional: You can override the default bit rate by setting a new value for [MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND](mf-mt-audio-avg-bytes-per-second-attribute.md) on the output media type. Valid bit rates depend on the sample rate, number of channels, and audio layer.
     > [!Note]  
     > At this point in the configuration process, the encoder defaults to Layer 2 audio and will only accept Layer 2 bit rates. You will be able to switch the encoder to Layer 1 in a later step (see step 7). In that case, leave the default bit rate for now; you can change it again in step 8.
 
      
 
-4.  Call [**IMFTransform::SetOutputType**](imftransform-setoutputtype.md) to set the output media type. If you set your own value for [MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND](mf-mt-audio-avg-bytes-per-second-attribute.md) and the MFT rejects the output media type, it is likely because you specified an invalid bit rate.
-5.  Call [**IMFTransform::GetInputAvailableType**](imftransform-getinputavailabletype.md) to enumerate the input media type. Because the sample rate and number of channels must be identical to the output type, only two options are enumerated: 32-bit floating-point PCM input and 16-bit integer PCM input. Select one of these.
-6.  Call [**IMFTransform::SetInputType**](imftransform-setinputtype.md) to set the input media type.
+4.  Call [**IMFTransform::SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master) to set the output media type. If you set your own value for [MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND](mf-mt-audio-avg-bytes-per-second-attribute.md) and the MFT rejects the output media type, it is likely because you specified an invalid bit rate.
+5.  Call [**IMFTransform::GetInputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputavailabletype?branch=master) to enumerate the input media type. Because the sample rate and number of channels must be identical to the output type, only two options are enumerated: 32-bit floating-point PCM input and 16-bit integer PCM input. Select one of these.
+6.  Call [**IMFTransform::SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master) to set the input media type.
 7.  Optional: To encode Layer 1 audio, set the [CODECAPI\_AVEncMPALayer](dshow.avencmpalayer_property) property to **eAVEncMPALayer\_1**.
 8.  Optional: To change the bit rate, set the [CODECAPI\_ AVEncCommonMeanBitRate](dshow.avenccommonmeanbitrate_property) property. The bit rate must be one of the valid bit rates listed in the MPEG-1 or MPEG-2 LSF specifications. Alternatively, you can call [**ICodecAPI::GetParameterValues**](dshow.icodecapi_getparametervalues) to get a list of valid bit rates, based on the current settings.
 9.  Optional: With 2-channel audio, you can set the [CODECAPI\_ AVEncMPACodingMode](dshow.avencmpacodingmode_property) property to change the coding mode to dual channel or joint stereo. You can call [**ICodecAPI::GetParameterRange**](dshow.icodecapi_getparameterrange) to get the valid options. (For 1-channel audio, the only option is mono.)

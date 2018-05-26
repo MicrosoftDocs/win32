@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_BIOMETRIC\_SUBTYPE Constants
 description: Provide information about a biometric measurement.
-ms.assetid: '019569A9-6184-4E75-9B82-C98F4F45F61A'
+ms.assetid: 019569A9-6184-4E75-9B82-C98F4F45F61A
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_BIOMETRIC\_SUBTYPE Constants
@@ -49,7 +54,7 @@ To find the available biometric subtypes for a particular biometric type, use th
 <td>[<strong>WINBIO_ANSI_385_FACE Constants</strong>](winbio-ansi-385-face-constants.md)
 <blockquote>
 [!Note]<br />
-These values apply only for Windows 10 and later.
+These values apply only for Windows 10 and later.
 </blockquote>
 <br/></td>
 </tr>
@@ -71,7 +76,7 @@ These values apply only for Windows 10 and later.
 <td>[<strong>WINBIO_IRIS Constants</strong>](winbio-iris-constants.md)
 <blockquote>
 [!Note]<br />
-These values apply only for Windows 10 and later.
+These values apply only for Windows 10 and later.
 </blockquote>
 <br/></td>
 </tr>
@@ -80,7 +85,7 @@ These values apply only for Windows 10 and later.
 <td>[<strong>WINBIO_VOICE Constants</strong>](secbiomet-winbio_voice_constants)
 <blockquote>
 [!Note]<br />
-These values apply only for Windows 10 and later.
+These values apply only for Windows 10 and later.
 </blockquote>
 <br/></td>
 </tr>
@@ -89,7 +94,7 @@ These values apply only for Windows 10 and later.
 
 
 
- 
+ 
 
 For more information, see [Client Application Constants](client-application-constants.md).
 
@@ -99,15 +104,15 @@ For more information, see [Client Application Constants](client-application-cons
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

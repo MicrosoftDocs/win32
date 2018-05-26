@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the proxy locator should use a proxy server for local addresses.'
-ms.assetid: '384343f5-5919-44da-b8ea-0c994b4743a8'
-title: 'MFNETSOURCE\_PROXYBYPASSFORLOCAL property'
+---
+Description: Specifies whether the proxy locator should use a proxy server for local addresses.
+ms.assetid: 384343f5-5919-44da-b8ea-0c994b4743a8
+title: MFNETSOURCE\_PROXYBYPASSFORLOCAL property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_PROXYBYPASSFORLOCAL property
@@ -28,7 +33,7 @@ VT\_I4
 
 The constant **MFNETSOURCE\_PROXYBYPASSFORLOCAL** defines the GUID for this property key. The property identifier (PID) is zero.
 
-Applications can use this property to configure the proxy locator when creating the proxy locator object. To set the property, pass an **IPropertyStore** pointer in the *pProxyConfig* parameter of the [**MFCreateProxyLocator**](mfcreateproxylocator.md) function. The value must be set to 0 if the proxy server is to be used for local addresses; otherwise a nonzero value configures the default proxy locator to skip the proxy server for local addresses.
+Applications can use this property to configure the proxy locator when creating the proxy locator object. To set the property, pass an **IPropertyStore** pointer in the *pProxyConfig* parameter of the [**MFCreateProxyLocator**](/windows/win32/mfidl/nf-mfidl-mfcreateproxylocator?branch=master) function. The value must be set to 0 if the proxy server is to be used for local addresses; otherwise a nonzero value configures the default proxy locator to skip the proxy server for local addresses.
 
 ## Requirements
 

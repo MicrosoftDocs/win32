@@ -1,12 +1,17 @@
-﻿---
-Description: 'XMUBYTEN2 describes a 2D vector for storing unsigned, normalized values as unsigned 8-bits (1 byte) integers.'
-ms.assetid: '138f5158-eb63-4af8-ac9e-d20f3092c111'
+---
+Description: XMUBYTEN2 describes a 2D vector for storing unsigned, normalized values as unsigned 8-bits (1 byte) integers.
+ms.assetid: 138f5158-eb63-4af8-ac9e-d20f3092c111
 title: XMUBYTEN2 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMUBYTEN2 Extensions
 
-[**XMUBYTEN2**](xmubyten2.md) describes a 2D vector for storing unsigned, normalized values as unsigned 8-bits (1 byte) integers.
+[**XMUBYTEN2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmubyten2?branch=master) describes a 2D vector for storing unsigned, normalized values as unsigned 8-bits (1 byte) integers.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -33,7 +38,7 @@ title: XMUBYTEN2 Extensions
 **Reference**
 </dt> <dt>
 
-[**XMUBYTEN2**](xmubyten2.md)
+[**XMUBYTEN2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmubyten2?branch=master)
 </dt> </dl>
 
  

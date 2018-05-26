@@ -1,13 +1,19 @@
 ---
 title: Recording with a Waveform-Audio Device
 description: Recording with a Waveform-Audio Device
-ms.assetid: 'b29a07d1-1b92-4d66-9f2d-ccfbf4074876'
-keywords: ["mciSendCommand function"]
+ms.assetid: b29a07d1-1b92-4d66-9f2d-ccfbf4074876
+keywords:
+- mciSendCommand function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recording with a Waveform-Audio Device
 
-The following example opens a waveform-audio device with a new file, records for the specified time, plays the recording, and prompts the user to save the recording if desired. It uses the [**mciSendCommand**](mcisendcommand.md) function.
+The following example opens a waveform-audio device with a new file, records for the specified time, plays the recording, and prompts the user to save the recording if desired. It uses the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function.
 
 
 ```C++

@@ -1,12 +1,17 @@
 ---
 title: Using Color in Direct2D
 description: Using Color in Direct2D
-ms.assetid: '74b1f12c-b1de-4df1-85ba-0cf7a0009499'
+ms.assetid: 74b1f12c-b1de-4df1-85ba-0cf7a0009499
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Color in Direct2D
 
-Direct2D uses the RGB color model, in which colors are formed by combining different values of red, green, and blue. A fourth component, alpha, measures the transparency of a pixel. In Direct2D, each of these components is a floating-point value with a range of \[0.0–1.0\]. For the three color components, the value measures the intensity of the color. For the alpha component, 0.0 means completely transparent, and 1.0 means completely opaque. The following table shows the colors that result from various combinations of 100% intensity.
+Direct2D uses the RGB color model, in which colors are formed by combining different values of red, green, and blue. A fourth component, alpha, measures the transparency of a pixel. In Direct2D, each of these components is a floating-point value with a range of \[0.0 1.0\]. For the three color components, the value measures the intensity of the color. For the alpha component, 0.0 means completely transparent, and 1.0 means completely opaque. The following table shows the colors that result from various combinations of 100% intensity.
 
 
 
@@ -23,7 +28,7 @@ Direct2D uses the RGB color model, in which colors are formed by combining diffe
 
 
 
- 
+ 
 
 ![an image that shows rgb colors.](images/graphics13.png)
 
@@ -57,14 +62,14 @@ You can also specify a color using the [**D2D1::ColorF**](https://msdn.microsoft
 
 Alpha blending creates translucent areas by blending the foreground color with the background color, using the following formula.
 
-<dl> color = af Cf + (1–af) Cb  
+<dl> color = af Cf + (1 af) Cb  
 </dl>
 
 where *Cb* is the background color, *Cf* is the foreground color, and af is the alpha value of the foreground color. This formula is applied pairwise to each color component. For example, suppose the foreground color is (R = 1.0, G= 0.4, B = 0.0), with alpha = 0.6, and the background color is (R = 0.0, G = 0.5, B = 1.0). The resulting alpha-blended color is:
 
-<dl> R = (1.0 × 0.6 + 0 × 0.4) = .6  
-G = (0.4 × 0.6 + 0.5 × 0.4) = .44  
-B = (0 × 0.6 + 1.0 × 0.4) = .40  
+<dl> R = (1.0   0.6 + 0   0.4) = .6  
+G = (0.4   0.6 + 0.5   0.4) = .44  
+B = (0   0.6 + 1.0   0.4) = .40  
 </dl>
 
 The following image shows the result of this blending operation.
@@ -87,7 +92,7 @@ The [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb1730
 
 
 
- 
+ 
 
 The following illustration shows BGRA pixel layout.
 
@@ -105,11 +110,11 @@ A render target also has an alpha mode, which defines how the alpha values are t
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **D2D1\_ALPHA\_MODE\_IGNORE**        | No alpha blending is performed. Alpha values are ignored.                                                                                                                                                                                                                                                                          |
 | **D2D1\_ALPHA\_MODE\_STRAIGHT**      | Straight alpha. The color components of the pixel represent the color intensity prior to alpha blending.                                                                                                                                                                                                                           |
-| **D2D1\_ALPHA\_MODE\_PREMULTIPLIED** | Premultiplied alpha. The color components of the pixel represent the color intensity multiplied by the alpha value. This format is more efficient to render than straight alpha, because the term (af × Cf) from the alpha-blending formula is pre-computed. However, this format is not appropriate for storing in an image file. |
+| **D2D1\_ALPHA\_MODE\_PREMULTIPLIED** | Premultiplied alpha. The color components of the pixel represent the color intensity multiplied by the alpha value. This format is more efficient to render than straight alpha, because the term (af   Cf) from the alpha-blending formula is pre-computed. However, this format is not appropriate for storing in an image file. |
 
 
 
- 
+ 
 
 Here is an example of the difference between straight alpha and premultiplied alpha. Suppose the desired color is pure red (100% intensity) with 50% alpha. As a Direct2D type, this color would be represented as (1, 0, 0, 0.5). Using straight alpha, and assuming 8-bit color components, the red component of the pixel is 0xFF. Using premultiplied alpha, the red component is scaled by 50% to equal 0x80.
 
@@ -121,9 +126,9 @@ If you know that your program will not perform any alpha blending, create the re
 
 [Applying Transforms in Direct2D](applying-transforms-in-direct2d.md)
 
- 
+ 
 
- 
+ 
 
 
 

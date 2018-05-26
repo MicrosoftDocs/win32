@@ -1,12 +1,17 @@
-﻿---
-Description: 'Extracts the per-sample principal component analysis (PCA) projection coefficients from an ID3DXPRTCompBuffer compressed data buffer and adds the data to an IDirect3DTexture9 object.'
-ms.assetid: '2159e57d-b8e5-421f-b20a-ac58b29e3c45'
-title: 'ID3DXPRTCompBuffer::ExtractTexture method'
+---
+Description: Extracts the per-sample principal component analysis (PCA) projection coefficients from an ID3DXPRTCompBuffer compressed data buffer and adds the data to an IDirect3DTexture9 object.
+ms.assetid: 2159e57d-b8e5-421f-b20a-ac58b29e3c45
+title: ID3DXPRTCompBufferExtractTexture method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTCompBuffer::ExtractTexture method
 
-Extracts the per-sample principal component analysis (PCA) projection coefficients from an [**ID3DXPRTCompBuffer**](id3dxprtcompbuffer.md) compressed data buffer and adds the data to an [**IDirect3DTexture9**](idirect3dtexture9.md) object.
+Extracts the per-sample principal component analysis (PCA) projection coefficients from an [**ID3DXPRTCompBuffer**](id3dxprtcompbuffer.md) compressed data buffer and adds the data to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) object.
 
 ## Syntax
 
@@ -46,9 +51,9 @@ Number of PCA coefficients to extract from the buffer.
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) texture object that will store PCA coefficients.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) texture object that will store PCA coefficients.
 
 </dd> </dl>
 

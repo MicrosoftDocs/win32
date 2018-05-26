@@ -1,7 +1,12 @@
 ---
-Description: 'Connects a switch port to the LAN endpoint to which the port is connected.'
-ms.assetid: '963EC004-6A67-4F75-BD93-1BCD17F32490'
-title: 'Msvm\_ActiveConnection class'
+Description: Connects a switch port to the LAN endpoint to which the port is connected.
+ms.assetid: 963EC004-6A67-4F75-BD93-1BCD17F32490
+title: Msvm\_ActiveConnection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ActiveConnection class
@@ -17,10 +22,10 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_ActiveConnection : CIM_ActiveConnection
 {
   Msvm_LANEndpoint REF Antecedent;
-  CIM_LANEndpoint  REF Dependent;
-  uint16               TrafficType;
-  string               OtherTrafficDescription;
-  boolean              IsUnidirectional;
+  CIM_LANEndpoint  REF Dependent;
+  uint16               TrafficType;
+  string               OtherTrafficDescription;
+  boolean              IsUnidirectional;
 };
 ```
 
@@ -121,8 +126,8 @@ See [Querying networking objects](querying-networking-objects.md).
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -139,9 +144,9 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_ActiveConnection**](https://msdn.microsoft.com/library/cc136779)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

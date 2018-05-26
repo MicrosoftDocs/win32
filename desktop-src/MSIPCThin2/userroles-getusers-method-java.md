@@ -4,17 +4,21 @@ description: Gets the set of users.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'AF74D7A5-ACB4-4CF6-98BC-E4E7C3CC5419'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: AF74D7A5-ACB4-4CF6-98BC-E4E7C3CC5419
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserRoles.getUsers method"]
+keywords:
+- UserRoles.getUsers method
 topic_type:
 - apiref
 api_name:
 - UserRoles.getUsers method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserRoles.getUsers method
@@ -45,11 +49,11 @@ UserRoles.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

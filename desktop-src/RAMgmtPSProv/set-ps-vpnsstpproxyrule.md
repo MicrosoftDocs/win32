@@ -2,13 +2,16 @@
 title: Set method of the PS\_VpnSstpProxyRule class
 description: Modifies a tenant ID to gateway mapping.
 audience: developer
-ms.assetid: '8312715b-41d8-4a8e-9742-ac5750b556e9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8312715b-41d8-4a8e-9742-ac5750b556e9
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_VpnSstpProxyRule class", "PS_VpnSstpProxyRule class, Set method"]
+keywords:
+- Set method
+- Set method, PS_VpnSstpProxyRule class
+- PS_VpnSstpProxyRule class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_VpnSstpProxyRule class
@@ -28,10 +34,10 @@ Modifies a tenant ID to gateway mapping.
 
 ```mof
 uint32 Set(
-  [in]  string           TenantID,
-  [in]  string           GatewayAddress[],
-  [in]  boolean          PassThru,
-  [out] VpnSstpProxyRule cmdletOutput
+  [in]  string           TenantID,
+  [in]  string           GatewayAddress[],
+  [in]  boolean          PassThru,
+  [out] VpnSstpProxyRule cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ If *PassThru* is **true**, returns an embedded instance of the current object.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Ramgmtpsprovider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ If *PassThru* is **true**, returns an embedded instance of the current object.
 [**PS\_VpnSstpProxyRule**](ps-vpnsstpproxyrule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

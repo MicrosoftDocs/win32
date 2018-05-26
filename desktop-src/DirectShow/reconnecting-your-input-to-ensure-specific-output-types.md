@@ -1,14 +1,19 @@
 ---
 Description: Reconnecting Your Input to Ensure Specific Output Types
-ms.assetid: 'c83d002e-59bf-4d03-9917-e39ceab9a4ce'
+ms.assetid: c83d002e-59bf-4d03-9917-e39ceab9a4ce
 title: Reconnecting Your Input to Ensure Specific Output Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reconnecting Your Input to Ensure Specific Output Types
 
-Filters implement the [**IAMStreamConfig::SetFormat**](iamstreamconfig-setformat.md) method to set the audio or video format before the filter's pins are connected. If your output pin is already connected and you can provide a new type, then reconnect your pin, but only if the other filter can accept the new type. If the other filter cannot accept the media type, fail the call to **SetFormat** and leave your connection alone.
+Filters implement the [**IAMStreamConfig::SetFormat**](/windows/win32/Strmif/nf-strmif-iamstreamconfig-setformat?branch=master) method to set the audio or video format before the filter's pins are connected. If your output pin is already connected and you can provide a new type, then reconnect your pin, but only if the other filter can accept the new type. If the other filter cannot accept the media type, fail the call to **SetFormat** and leave your connection alone.
 
-A transform filter may not have any preferred output types unless their input pin is connected. In that case, the **SetFormat** and [**IAMStreamConfig::GetStreamCaps**](iamstreamconfig-getstreamcaps.md) methods should return VFW\_E\_NOT\_CONNECTED until the input pin is connected. Otherwise, these methods can function as usual.
+A transform filter may not have any preferred output types unless their input pin is connected. In that case, the **SetFormat** and [**IAMStreamConfig::GetStreamCaps**](/windows/win32/Strmif/nf-strmif-iamstreamconfig-getstreamcaps?branch=master) methods should return VFW\_E\_NOT\_CONNECTED until the input pin is connected. Otherwise, these methods can function as usual.
 
 In certain cases it is useful to reconnect pins when you are offering a format on an established connection. For example, suppose that a filter can compress 24-bit RGB video into format X, and that it can compress 8-bit RGB video into format Y. The output pin can do either of the following:
 

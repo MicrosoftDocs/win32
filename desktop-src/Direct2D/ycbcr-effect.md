@@ -1,7 +1,12 @@
 ---
 title: YCbCr Effect
 description: Converts planar and chroma subsampled JPEG YCbCr data to RGB.
-ms.assetid: 'E4492996-54DA-4C5F-B44C-8FBE97C8DD7D'
+ms.assetid: E4492996-54DA-4C5F-B44C-8FBE97C8DD7D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # YCbCr Effect
@@ -29,7 +34,7 @@ The CLSID for this effect is CLSID\_D2D1YCbCr.
 
 
 
- 
+ 
 
 ## Subsampling modes
 
@@ -37,15 +42,15 @@ The CLSID for this effect is CLSID\_D2D1YCbCr.
 
 | Enumeration                                       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| D2D1\_YCBCR\_CHROMA\_SUBSAMPLING\_AUTO<br/> | This mode attempts to infer the chroma subsampling from the bounds of the input images. When this option is selected, the smaller plane is upsampled to the size of the larger plane and this effect’s output rectangle is the intersection of the two planes. When using this mode, care should be taken when applying effects to the input planes that change the image bounds, such as the border transform, so that the desired size ratio between the planes is maintained. <br/> |
-| D2D1\_YCBCR\_CHROMA\_SUBSAMPLING\_420<br/>  | The chroma plane is horizontally subsampled by ½ and vertically subsampled by ½. When this option is selected, the chroma plane is horizontally and vertically upsampled by 2x and this effect’s output rectangle is the intersection of the two planes.<br/>                                                                                                                                                                                                                          |
-| D2D1\_YCBCR\_CHROMA\_SUBSAMPLING\_422<br/>  | The chroma plane is horizontally subsampled by ½. When this option is selected, the chroma plane is horizontally upsampled by 2x and this effect’s output rectangle is the intersection of the two planes.<br/>                                                                                                                                                                                                                                                                        |
-| D2D1\_YCBCR\_CHROMA\_SUBSAMPLING\_444<br/>  | The chroma plane is not subsampled. When this option is selected this effect’s output rectangle is the intersection of the two planes.<br/>                                                                                                                                                                                                                                                                                                                                            |
-| D2D1\_YCBCR\_CHROMA\_SUBSAMPLING\_440<br/>  | The chroma plane is vertically subsampled by ½. When this option is selected, the chroma plane is vertically upsampled by 2x and this effect’s output rectangle is the intersection of the two planes.<br/>                                                                                                                                                                                                                                                                            |
+| D2D1\_YCBCR\_CHROMA\_SUBSAMPLING\_AUTO<br/> | This mode attempts to infer the chroma subsampling from the bounds of the input images. When this option is selected, the smaller plane is upsampled to the size of the larger plane and this effect s output rectangle is the intersection of the two planes. When using this mode, care should be taken when applying effects to the input planes that change the image bounds, such as the border transform, so that the desired size ratio between the planes is maintained. <br/> |
+| D2D1\_YCBCR\_CHROMA\_SUBSAMPLING\_420<br/>  | The chroma plane is horizontally subsampled by   and vertically subsampled by  . When this option is selected, the chroma plane is horizontally and vertically upsampled by 2x and this effect s output rectangle is the intersection of the two planes.<br/>                                                                                                                                                                                                                          |
+| D2D1\_YCBCR\_CHROMA\_SUBSAMPLING\_422<br/>  | The chroma plane is horizontally subsampled by  . When this option is selected, the chroma plane is horizontally upsampled by 2x and this effect s output rectangle is the intersection of the two planes.<br/>                                                                                                                                                                                                                                                                        |
+| D2D1\_YCBCR\_CHROMA\_SUBSAMPLING\_444<br/>  | The chroma plane is not subsampled. When this option is selected this effect s output rectangle is the intersection of the two planes.<br/>                                                                                                                                                                                                                                                                                                                                            |
+| D2D1\_YCBCR\_CHROMA\_SUBSAMPLING\_440<br/>  | The chroma plane is vertically subsampled by  . When this option is selected, the chroma plane is vertically upsampled by 2x and this effect s output rectangle is the intersection of the two planes.<br/>                                                                                                                                                                                                                                                                            |
 
 
 
- 
+ 
 
 ## Interpolation modes
 
@@ -62,7 +67,7 @@ The CLSID for this effect is CLSID\_D2D1YCbCr.
 
 
 
- 
+ 
 
 ## Output bitmap
 
@@ -76,20 +81,20 @@ The effect performs the transform operation and then applies a bounding box arou
 
 |                          |                                                               |
 |--------------------------|---------------------------------------------------------------|
-| Minimum supported client | Windows 8.1 \[desktop apps \| Windows Store apps\]            |
-| Minimum supported server | Windows Server 2012 R2 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8.1 \[desktop apps \| Windows Store apps\]            |
+| Minimum supported server | Windows Server 2012 R2 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects\_1.h                                              |
 | Library                  | d2d1.lib, dxguid.lib                                          |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> <dt>
 
 [JPEG YCbCr Support](https://msdn.microsoft.com/library/windows/desktop/dn424131)
@@ -98,9 +103,9 @@ The effect performs the transform operation and then applies a bounding box arou
 [**IWICPlanarBitmapSourceTransform**](https://msdn.microsoft.com/library/windows/desktop/dn302093)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

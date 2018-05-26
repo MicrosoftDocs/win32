@@ -4,11 +4,14 @@ description: Get child registry keys.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '738bb719-99a5-4855-a1c2-fe7f2f3eb904'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 738bb719-99a5-4855-a1c2-fe7f2f3eb904
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSubKeys method", "GetSubKeys method, MSFT_MTRegistryKey class", "MSFT_MTRegistryKey class, GetSubKeys method"]
+keywords:
+- GetSubKeys method
+- GetSubKeys method, MSFT_MTRegistryKey class
+- MSFT_MTRegistryKey class, GetSubKeys method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RegProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSubKeys method of the MSFT\_MTRegistryKey class
@@ -28,7 +34,7 @@ Get child registry keys.
 
 ```mof
 uint32 GetSubKeys(
-  [out] MSFT_MTRegistryKey Results[]
+  [out] MSFT_MTRegistryKey Results[]
 );
 ```
 
@@ -52,7 +58,7 @@ On success, returns an array containing embedded instances of the child [**MSFT\
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                   |
 | MOF<br/>                      | <dl> <dt>RegProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RegProv.dll</dt> </dl> |
@@ -66,9 +72,9 @@ On success, returns an array containing embedded instances of the child [**MSFT\
 [**MSFT\_MTRegistryKey**](msft-mtregistrykey.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

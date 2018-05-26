@@ -1,7 +1,12 @@
 ---
-Description: 'Multi-File Parser Filter'
-ms.assetid: '8ef06f49-fda4-49e2-9b07-70453a2e897c'
-title: 'Multi-File Parser Filter'
+Description: Multi-File Parser Filter
+ms.assetid: 8ef06f49-fda4-49e2-9b07-70453a2e897c
+title: Multi-File Parser Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multi-File Parser Filter
@@ -29,7 +34,7 @@ The use of this filter is deprecated. To render multiple files within the same f
 <tbody>
 <tr class="odd">
 <td>Filter interfaces</td>
-<td>[<strong>IBaseFilter</strong>](ibasefilter.md)</td>
+<td>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Input pin media types</td>
@@ -41,7 +46,7 @@ The use of this filter is deprecated. To render multiple files within the same f
 </tr>
 <tr class="odd">
 <td>Input pin interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output pin media types</td>
@@ -53,7 +58,7 @@ The use of this filter is deprecated. To render multiple files within the same f
 </tr>
 <tr class="odd">
 <td>Output pin interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -80,7 +85,7 @@ The use of this filter is deprecated. To render multiple files within the same f
 
 ## Remarks
 
-The filter creates one output pin for each file listed in the source file. The output type is MEDIATYPE\_File, and the format block for the output type is a wide-character string that contains the file name. Each pin connects to an instance of the [File Stream Renderer](file-stream-renderer-filter.md) filter. The File Stream Renderer filter creates one output pin, which exposes the [**IStreamBuilder**](istreambuilder.md) interface. The output pin renders the specified file. No media data travels between the Multi-File Parser and the File Stream Renderer.
+The filter creates one output pin for each file listed in the source file. The output type is MEDIATYPE\_File, and the format block for the output type is a wide-character string that contains the file name. Each pin connects to an instance of the [File Stream Renderer](file-stream-renderer-filter.md) filter. The File Stream Renderer filter creates one output pin, which exposes the [**IStreamBuilder**](/windows/win32/Strmif/nn-strmif-istreambuilder?branch=master) interface. The output pin renders the specified file. No media data travels between the Multi-File Parser and the File Stream Renderer.
 
 The filter's CLSID is not defined in Uuids.h. Use this macro in your own header file:
 

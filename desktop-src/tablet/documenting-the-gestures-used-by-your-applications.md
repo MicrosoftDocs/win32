@@ -1,7 +1,12 @@
 ---
-Description: 'If you are creating online help or other documentation for your application, Microsoft recommends that you use glyph illustrations and descriptions similar to those in System Gestures and Application Gestures.'
-ms.assetid: '83747e9b-f748-4e2c-8670-bf3fa2cb5a9d'
+Description: If you are creating online help or other documentation for your application, Microsoft recommends that you use glyph illustrations and descriptions similar to those in System Gestures and Application Gestures.
+ms.assetid: 83747e9b-f748-4e2c-8670-bf3fa2cb5a9d
 title: Documenting the Gestures Used by Your Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Documenting the Gestures Used by Your Applications

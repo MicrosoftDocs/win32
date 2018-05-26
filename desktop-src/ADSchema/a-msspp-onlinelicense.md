@@ -4,17 +4,22 @@ description: License used during online activation of the Active Directory fores
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f86a5b28-3690-4caf-ba22-f8b846337ca1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: f86a5b28-3690-4caf-ba22-f8b846337ca1
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-SPP-Online-License attribute AD Schema", "msSPP-OnlineLicense attribute AD Schema"]
+keywords:
+- ms-SPP-Online-License attribute AD Schema
+- msSPP-OnlineLicense attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-SPP-Online-License
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-SPP-Online-License attribute
@@ -38,7 +43,7 @@ License used during online activation of the Active Directory forest
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ License used during online activation of the Active Directory forest
 
 
 
- 
+ 
 
- 
+ 
 
 
 

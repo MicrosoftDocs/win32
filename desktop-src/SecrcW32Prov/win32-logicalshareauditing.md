@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_LogicalShareAuditing association WMI class relates the security settings of a share and one member of its system access control list (SACL).'
+Description: The Win32\_LogicalShareAuditing association WMI class relates the security settings of a share and one member of its system access control list (SACL).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '415b0160-02d5-4195-8d3d-afbf32f8c38d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 415b0160-02d5-4195-8d3d-afbf32f8c38d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LogicalShareAuditing class'
+title: Win32\_LogicalShareAuditing class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LogicalShareAuditing class
@@ -22,13 +25,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("SECRCW32"), UUID("{8502C594-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_LogicalShareAuditing : Win32_SecuritySettingAuditing
 {
-  uint32                                AuditedAccessMask;
-  string                                GuidInheritedObjectType;
-  string                                GuidObjectType;
-  uint32                                Inheritance;
-  uint32                                Type;
+  uint32                                AuditedAccessMask;
+  string                                GuidInheritedObjectType;
+  string                                GuidObjectType;
+  uint32                                Inheritance;
+  uint32                                Type;
   Win32_LogicalShareSecuritySetting REF SecuritySetting;
-  Win32_SID                         REF Trustee;
+  Win32_SID                         REF Trustee;
 };
 ```
 
@@ -333,8 +336,8 @@ The **Win32\_LogicalShareAuditing** class is derived from [**Win32\_SecuritySett
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -351,9 +354,9 @@ The **Win32\_LogicalShareAuditing** class is derived from [**Win32\_SecuritySett
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

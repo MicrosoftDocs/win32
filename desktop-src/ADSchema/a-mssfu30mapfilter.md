@@ -4,17 +4,22 @@ description: Contains a string used to filter data in a map. Can contain map key
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8849439c-e0c3-488d-a1dc-d64a8d748549'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8849439c-e0c3-488d-a1dc-d64a8d748549
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["msSFU-30-Map-Filter attribute AD Schema", "msSFU30MapFilter attribute AD Schema"]
+keywords:
+- msSFU-30-Map-Filter attribute AD Schema
+- msSFU30MapFilter attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - msSFU-30-Map-Filter
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msSFU-30-Map-Filter attribute
@@ -38,10 +43,10 @@ Contains a string used to filter data in a map. Can contain map keys, the domain
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -127,9 +132,9 @@ Contains a string used to filter data in a map. Can contain map keys, the domain
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,19 @@
 title: ncadg\_mq attribute
 description: The ncadg\_mq keyword identifies Microsoft Message Queuing Services (MSMQ) as the transport protocol for the endpoint. This protocol is obsolete and should not be used in new applications.
 ms.assetid: 7472fc47-c1f0-4578-8aef-b655505e0563
-keywords: ["ncadg_mq attribute MIDL"]
+keywords:
+- ncadg_mq attribute MIDL
 topic_type:
 - apiref
 api_name:
 - ncadg_mq
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ncadg\_mq attribute

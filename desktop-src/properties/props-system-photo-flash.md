@@ -1,7 +1,12 @@
 ---
-Description: 'An indicator of the flash status when the photo was taken, as read from the Exchangeable Image File (EXIF) info.'
-ms.assetid: 'e21de610-9916-4b3f-8e50-f0141b476346'
-title: 'System.Photo.Flash'
+Description: An indicator of the flash status when the photo was taken, as read from the Exchangeable Image File (EXIF) info.
+ms.assetid: e21de610-9916-4b3f-8e50-f0141b476346
+title: System.Photo.Flash
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.Flash

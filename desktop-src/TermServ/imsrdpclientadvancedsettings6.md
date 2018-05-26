@@ -4,11 +4,13 @@ description: Exposes properties that manage advanced ActiveX control settings.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '45b48cdf-3860-4359-99b2-8d2598146d1d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 45b48cdf-3860-4359-99b2-8d2598146d1d
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpClientAdvancedSettings6 interface Remote Desktop Services", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings6 interface
@@ -50,7 +55,7 @@ The **IMsRdpClientAdvancedSettings6** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,8 +67,8 @@ This interface has been extended by the [**IMsRdpClientAdvancedSettings7**](imsr
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings6 is defined as 222c4b5d-45d9-4df0-a7c6-60cf9089d285<br/> |
@@ -92,9 +97,9 @@ This interface has been extended by the [**IMsRdpClientAdvancedSettings7**](imsr
 [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

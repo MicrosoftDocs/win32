@@ -1,13 +1,16 @@
 ---
-Description: 'Scripts can access all WMI classes for hardware and software objects.'
+Description: Scripts can access all WMI classes for hardware and software objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'dbb29bc8-a675-4538-99f4-00613c83eeaa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: dbb29bc8-a675-4538-99f4-00613c83eeaa
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Scripting Access to WMI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scripting Access to WMI

@@ -4,18 +4,21 @@ description: Logging With Network Policy Server
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '903d89bd-c223-4f29-9eaf-1dc28d27a32a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 903d89bd-c223-4f29-9eaf-1dc28d27a32a
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Logging With Network Policy Server
 
 > [!Note]  
-> Internet Authentication Service (IAS) was renamed Network Policy Server (NPS) starting with Windows Server 2008. The content of this topic applies to both IAS and NPS. Throughout the text, NPS is used to refer to all versions of the service, including the versions originally referred to as IAS.
+> Internet Authentication Service (IAS) was renamed Network Policy Server (NPS) starting with Windows Server 2008. The content of this topic applies to both IAS and NPS. Throughout the text, NPS is used to refer to all versions of the service, including the versions originally referred to as IAS.
 
- 
+ 
 
 The following table describes only the most important aspects of the RADIUS accounting packets. The RADIUS Accounting Request for Comments document ([RFC 2866](Http://go.microsoft.com/fwlink/p/?linkid=84056)) provides detailed information on these packets.
 
@@ -23,7 +26,7 @@ RADIUS accounting packets can be divided into the following categories.
 
 
 
-| Accounting packet  | Description                                                                                                                                                                                                                |
+| Accounting packet  | Description                                                                                                                                                                                                                |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Accounting-On      | Sent by the Network Access Server (NAS) to indicate that it has restarted.<br/> Contains nas-identifier/ipaddress.<br/>                                                                                        |
 | Accounting-Off     | Sent by the NAS to indicate that it is being shutdown.<br/> Contains nas-identifier/ipaddress.<br/>                                                                                                            |
@@ -33,7 +36,7 @@ RADIUS accounting packets can be divided into the following categories.
 
 
 
- 
+ 
 
 The following issues are important to consider when collecting accounting information made available through RADIUS:
 
@@ -56,7 +59,7 @@ By default, NPS does not log any data. NPS can be configured, using the NPS user
 
 
 
- 
+ 
 
 Data logged by NPS can go to a text file on the NPS server or to a central SQL database. For more information on NPS SQL logging, see [SQL Programmability](sql-programmability.md).
 
@@ -73,9 +76,9 @@ Data logged by NPS can go to a text file on the NPS server or to a central SQL d
 [Working with a State Server](https://msdn.microsoft.com/library/bb892032)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

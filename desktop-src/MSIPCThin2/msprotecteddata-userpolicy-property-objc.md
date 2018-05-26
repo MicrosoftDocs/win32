@@ -4,17 +4,21 @@ description: Gets the user policy.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '4C36A8BF-FF87-425C-80C6-BC3406F049B9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 4C36A8BF-FF87-425C-80C6-BC3406F049B9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSProtectedData userPolicy property"]
+keywords:
+- MSProtectedData userPolicy property
 topic_type:
 - apiref
 api_name:
 - MSProtectedData userPolicy property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSProtectedData userPolicy property
@@ -37,7 +41,7 @@ Gets the user policy.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSProtectedData.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

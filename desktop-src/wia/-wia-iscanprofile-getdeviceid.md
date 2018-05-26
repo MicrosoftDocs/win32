@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the ID of the device.'
-ms.assetid: '72a0843d-36f2-463f-8269-0e91233f1931'
-title: 'IScanProfile::GetDeviceID method'
+---
+Description: Returns the ID of the device.
+ms.assetid: 72a0843d-36f2-463f-8269-0e91233f1931
+title: IScanProfileGetDeviceID method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfile::GetDeviceID method

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Exposes a Print Schema PageMediaSize Option element.'
-ms.assetid: '631F5ECF-EA1E-4483-99F8-67C9A8C42EDF'
+---
+Description: Exposes a Print Schema PageMediaSize Option element.
+ms.assetid: 631F5ECF-EA1E-4483-99F8-67C9A8C42EDF
 title: IPrintSchemaPageMediaSizeOption interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaPageMediaSizeOption interface

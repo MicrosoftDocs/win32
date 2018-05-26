@@ -2,13 +2,19 @@
 title: /app\_config switch
 description: The /app\_config switch selects application-configuration mode, which allows you to use some ACF keywords in the IDL file. With this MIDL compiler switch, you can omit the ACF and specify an interface in a single IDL file.
 ms.assetid: 8d12a0ed-7eaa-4ebc-a961-b726aefefadc
-keywords: ["/app_config switch MIDL"]
+keywords:
+- /app_config switch MIDL
 topic_type:
 - apiref
 api_name:
 - /app_config
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /app\_config switch

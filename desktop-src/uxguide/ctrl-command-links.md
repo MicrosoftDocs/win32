@@ -1,7 +1,12 @@
 ---
 title: Command Links
 description: With command links, users select a single response to a main instruction and by doing so, move on to the next step in a task.
-ms.assetid: 'a77819b1-9a32-4468-94fb-3f73a469fb81'
+ms.assetid: a77819b1-9a32-4468-94fb-3f73a469fb81
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Links
@@ -19,7 +24,7 @@ Command links are similar to [radio buttons](ctrl-radio-buttons.md) in that they
 > [!Note]  
 > Guidelines related to [links](ctrl-links.md) and [layout](vis-layout.md) are presented in separate articles.
 
- 
+ 
 
 ## Is this the right control?
 
@@ -46,10 +51,10 @@ To decide, consider these questions:
 
     ![screen shot of dialog box with list of commands ](images/ctrl-command-links-image4.png)
 
-    In this example, the AutoPlay feature in Microsoft Windows uses a list view.
+    In this example, the AutoPlay feature in Microsoft Windows uses a list view.
 
 -   **Would a combination of radio buttons and a commit button be a better choice?** Radio buttons are a better choice when any of the following are true:
-    -   **There is a strong default option that you want most users to select.** Users are less likely to change a default radio button than a default command link—especially in a wizard, where users are accustomed to clicking Next to accept appropriate defaults. On the other hand, command links are a better choice if you want to encourage users to make an explicit choice.
+    -   **There is a strong default option that you want most users to select.** Users are less likely to change a default radio button than a default command link especially in a wizard, where users are accustomed to clicking Next to accept appropriate defaults. On the other hand, command links are a better choice if you want to encourage users to make an explicit choice.
     -   **Users need to interact with the choices (perhaps to see additional information) before making a decision.** For example, selecting a radio button might display a description about the option dynamically.
 
         ![screen shot of dialog box with radio buttons ](images/ctrl-command-links-image5.png)
@@ -99,9 +104,9 @@ To decide, consider these questions:
     In this example, the command links are self-explanatory.
 
 > [!Note]  
-> Command links require Windows Vista or later, so they aren't suitable for earlier versions of Windows. You can use regular links as a substitute.
+> Command links require Windows Vista or later, so they aren't suitable for earlier versions of Windows. You can use regular links as a substitute.
 
- 
+ 
 
 ![screen shot of regular links with icons and text ](images/ctrl-command-links-image12.png)
 
@@ -163,7 +168,7 @@ Command links have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -228,7 +233,7 @@ Command links have several usage patterns:
 ### Default values
 
 -   **Select the safest (to prevent loss of data or system access) and most secure response to be the default.** If safety and security aren't factors, select the most likely or convenient response.
--   **When practical, make the first response the default option** because users often expect that—unless that order isn't logical.
+-   **When practical, make the first response the default option** because users often expect that unless that order isn't logical.
 -   **For dialog boxes, don't make a destructive action the default command link** unless there is an easy way to undo the action.
 
 ## Recommended sizing and spacing
@@ -240,7 +245,7 @@ Command links have several usage patterns:
 > [!Note]  
 > Because command links are responses to a main instruction, you should craft a [good main instruction](text-ui.md) before determining its responses.
 
- 
+ 
 
 **Command link labels**
 
@@ -296,9 +301,9 @@ When referring to command links:
 
 Click **Reset the network adapter**. (For a command link labeled "Reset the network adaptor *adaptor name*".)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: MENUEX\_TEMPLATE\_ITEM structure
 description: Defines a menu item in an extended menu template. This structure definition is for explanation only; it is not present in any standard header file.
-ms.assetid: 'f6e2fd0a-16b8-48e3-8597-341085a7adbd'
-keywords: ["MENUEX_TEMPLATE_ITEM structure Menus and Other Resources"]
+ms.assetid: f6e2fd0a-16b8-48e3-8597-341085a7adbd
+keywords:
+- MENUEX_TEMPLATE_ITEM structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - MENUEX_TEMPLATE_ITEM
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MENUEX\_TEMPLATE\_ITEM structure
@@ -24,7 +30,7 @@ typedef struct {
   DWORD dwType;
   DWORD dwState;
   DWORD menuId;
-  WORD  bResInfo;
+  WORD  bResInfo;
   WCHAR szText;
   DWORD dwHelpId;
 } MENUEX_TEMPLATE_ITEM;
@@ -54,7 +60,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The menu item type. This member can be a combination of the type (beginning with MFT) values listed with the [**MENUITEMINFO**](menuiteminfo.md) structure.
+The menu item type. This member can be a combination of the type (beginning with MFT) values listed with the [**MENUITEMINFO**](/windows/win32/Winuser/ns-winuser-tagmenuiteminfoa?branch=master) structure.
 
 </dd> <dt>
 
@@ -65,7 +71,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The menu item state. This member can be a combination of the state (beginning with MFS) values listed with the [**MENUITEMINFO**](menuiteminfo.md) structure.
+The menu item state. This member can be a combination of the state (beginning with MFS) values listed with the [**MENUITEMINFO**](/windows/win32/Winuser/ns-winuser-tagmenuiteminfoa?branch=master) structure.
 
 </dd> <dt>
 
@@ -129,7 +135,7 @@ A Help identifier for a drop-down menu or submenu. This member is located at the
 
 ## Remarks
 
-An extended menu template consists of a [**MENUEX\_TEMPLATE\_HEADER**](menuex-template-header.md) structure followed by one or more contiguous **MENUEX\_TEMPLATE\_ITEM** structures. The **MENUEX\_TEMPLATE\_ITEM** structures, which are variable in length, are aligned on **DWORD** boundaries. To create a menu from an extended menu template in memory, use the [**LoadMenuIndirect**](loadmenuindirect.md) function.
+An extended menu template consists of a [**MENUEX\_TEMPLATE\_HEADER**](menuex-template-header.md) structure followed by one or more contiguous **MENUEX\_TEMPLATE\_ITEM** structures. The **MENUEX\_TEMPLATE\_ITEM** structures, which are variable in length, are aligned on **DWORD** boundaries. To create a menu from an extended menu template in memory, use the [**LoadMenuIndirect**](/windows/win32/Winuser/nf-winuser-loadmenuindirecta?branch=master) function.
 
 ## Requirements
 
@@ -137,8 +143,8 @@ An extended menu template consists of a [**MENUEX\_TEMPLATE\_HEADER**](menuex-te
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -149,13 +155,13 @@ An extended menu template consists of a [**MENUEX\_TEMPLATE\_HEADER**](menuex-te
 **Reference**
 </dt> <dt>
 
-[**LoadMenuIndirect**](loadmenuindirect.md)
+[**LoadMenuIndirect**](/windows/win32/Winuser/nf-winuser-loadmenuindirecta?branch=master)
 </dt> <dt>
 
 [**MENUEX\_TEMPLATE\_HEADER**](menuex-template-header.md)
 </dt> <dt>
 
-[**MENUITEMINFO**](menuiteminfo.md)
+[**MENUITEMINFO**](/windows/win32/Winuser/ns-winuser-tagmenuiteminfoa?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -164,9 +170,9 @@ An extended menu template consists of a [**MENUEX\_TEMPLATE\_HEADER**](menuex-te
 [Menus](menus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

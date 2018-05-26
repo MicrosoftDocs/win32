@@ -1,8 +1,11 @@
 ---
 title: MetricThresholdValueCollection Clear method
 description: Deletes all MetricThresholdValue objects from the MetricThresholdValueCollection.
-ms.assetid: 'EC5AEC77-79C7-4BD7-830F-74014D49E47E'
-keywords: ["Clear method Access Execution Engine", "Clear method Access Execution Engine , MetricThresholdValueCollection interface", "MetricThresholdValueCollection interface Access Execution Engine , Clear method"]
+ms.assetid: EC5AEC77-79C7-4BD7-830F-74014D49E47E
+keywords:
+- Clear method Access Execution Engine
+- Clear method Access Execution Engine , MetricThresholdValueCollection interface
+- MetricThresholdValueCollection interface Access Execution Engine , Clear method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholdValueCollection::Clear method
@@ -46,8 +54,8 @@ The **MetricThresholdValue** elements hold data from **MetricThresholdValues/Met
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -60,9 +68,9 @@ The **MetricThresholdValue** elements hold data from **MetricThresholdValues/Met
 [**MetricThresholdValueCollection**](metricthresholdvaluecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

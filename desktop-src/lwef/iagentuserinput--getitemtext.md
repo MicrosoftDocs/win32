@@ -1,7 +1,12 @@
 ---
 title: IAgentUserInput GetItemText
 description: IAgentUserInput GetItemText
-ms.assetid: '69653806-c001-4015-bd05-3c261a312ede'
+ms.assetid: 69653806-c001-4015-bd05-3c261a312ede
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentUserInput::GetItemText

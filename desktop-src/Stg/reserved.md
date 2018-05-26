@@ -1,7 +1,12 @@
 ---
 title: Reserved
 description: The value of the DWORD data type is reserved for future use.
-ms.assetid: '3b49c064-43d0-4e76-b199-c2f6d1c153d5'
+ms.assetid: 3b49c064-43d0-4e76-b199-c2f6d1c153d5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reserved

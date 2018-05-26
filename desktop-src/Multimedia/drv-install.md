@@ -1,8 +1,9 @@
 ---
 title: DRV\_INSTALL message
 description: Notifies the driver that is it being installed. The driver should create and initialize any needed registry keys and values and verify that the supporting drivers and hardware are installed and properly configured.
-ms.assetid: '8ee7b30b-600b-49f3-93a7-8faa7b87cfd8'
-keywords: ["DRV_INSTALL message Windows Multimedia"]
+ms.assetid: 8ee7b30b-600b-49f3-93a7-8faa7b87cfd8
+keywords:
+- DRV_INSTALL message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRV\_INSTALL message
@@ -56,7 +62,7 @@ Returns one of these values:
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,8 +76,8 @@ Some installable drivers append configuration information to the value assigned 
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -86,9 +92,9 @@ Some installable drivers append configuration information to the value assigned 
 [Installable Driver Messages](installable-driver-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

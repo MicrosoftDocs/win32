@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the type of path being used as an argument.'
-ms.assetid: 'f308c638-b383-432e-9dd3-edc33b792139'
-title: 'PATH\_TYPE enumeration'
+---
+Description: Represents the type of path being used as an argument.
+ms.assetid: f308c638-b383-432e-9dd3-edc33b792139
+title: PATH\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PATH\_TYPE enumeration

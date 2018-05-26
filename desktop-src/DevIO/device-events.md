@@ -1,19 +1,24 @@
 ---
-Description: 'Applications, including services, can register to receive notification of device events.'
-ms.assetid: 'c89da4ac-57dd-4d95-ac86-3eb137dee0bc'
+Description: Applications, including services, can register to receive notification of device events.
+ms.assetid: c89da4ac-57dd-4d95-ac86-3eb137dee0bc
 title: Device Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Events
 
 Applications, including services, can register to receive notification of device events. For example, a catalog service can receive notice of volumes being mounted or dismounted so it can adjust the paths to files on the volume. The system notifies an application that a device event has occurred by sending the application a [**WM\_DEVICECHANGE**](wm-devicechange.md) message. The system notifies a service that a device event has occurred by invoking the service's event handler function, [**HandlerEx**](https://msdn.microsoft.com/library/windows/desktop/ms683241).
 
-To receive device event notices, call the [**RegisterDeviceNotification**](registerdevicenotification.md) function with a [**DEV\_BROADCAST\_HANDLE**](dev-broadcast-handle-str.md) structure. Be sure to set the **dbch\_handle** member to the device handle obtained from the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function. Also, set the **dbch\_devicetype** member to **DBT\_DEVTYP\_HANDLE**. The function returns a device notification handle. Note that this is not the same as the volume handle.
+To receive device event notices, call the [**RegisterDeviceNotification**](/windows/win32/Winuser/nf-winuser-registerdevicenotificationa?branch=master) function with a [**DEV\_BROADCAST\_HANDLE**](/windows/win32/Dbt/ns-dbt-_dev_broadcast_handle?branch=master) structure. Be sure to set the **dbch\_handle** member to the device handle obtained from the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function. Also, set the **dbch\_devicetype** member to **DBT\_DEVTYP\_HANDLE**. The function returns a device notification handle. Note that this is not the same as the volume handle.
 
 When your application receives notification, if the event type is [DBT\_CUSTOMEVENT](dbt-customevent.md), you may have received one of the device events defined in IoEvent.h. To determine if one of these events has occurred, use the following steps.
 
-1.  Treat the event data as a [**DEV\_BROADCAST\_HDR**](dev-broadcast-hdr-str.md) structure. Verify that the **dbch\_devicetype** member is set to **DBT\_DEVTYP\_HANDLE**.
-2.  If **dbch\_devicetype** is **DBT\_DEVTYP\_HANDLE**, the event data is really a pointer to a [**DEV\_BROADCAST\_HANDLE**](dev-broadcast-handle-str.md) structure.
+1.  Treat the event data as a [**DEV\_BROADCAST\_HDR**](/windows/win32/Dbt/ns-dbt-_dev_broadcast_hdr?branch=master) structure. Verify that the **dbch\_devicetype** member is set to **DBT\_DEVTYP\_HANDLE**.
+2.  If **dbch\_devicetype** is **DBT\_DEVTYP\_HANDLE**, the event data is really a pointer to a [**DEV\_BROADCAST\_HANDLE**](/windows/win32/Dbt/ns-dbt-_dev_broadcast_handle?branch=master) structure.
 3.  Compare the **dbch\_eventguid** member to the **GUID**s listed in the following table using the [**IsEqualGUID**](_com_isequalguid) function.
 
 <dl> <dt>
@@ -28,7 +33,7 @@ bc56c139-7a10-47ee-a294-4c6a38f0149a
 
 The CD-ROM device has been locked for exclusive access.
 
-**Windows Server 2003 and Windows XP:** Support for this value requires IMAPI 2.0. For more information, see [Image Mastering API](https://msdn.microsoft.com/library/windows/desktop/aa366450).
+**Windows Server 2003 and Windows XP:** Support for this value requires IMAPI 2.0. For more information, see [Image Mastering API](https://msdn.microsoft.com/library/windows/desktop/aa366450).
 
 
 </dt> </dl> </dd> <dt>
@@ -43,7 +48,7 @@ a3b6d27d-5e35-4885-81e5-ee18c00ed779
 
 A CD-ROM device that was locked for exclusive access has been unlocked.
 
-**Windows Server 2003 and Windows XP:** Support for this value requires IMAPI 2.0. For more information, see [Image Mastering API](https://msdn.microsoft.com/library/windows/desktop/aa366450).
+**Windows Server 2003 and Windows XP:** Support for this value requires IMAPI 2.0. For more information, see [Image Mastering API](https://msdn.microsoft.com/library/windows/desktop/aa366450).
 
 
 </dt> </dl> </dd> <dt>
@@ -82,9 +87,9 @@ d07433c0-a98e-11d2-917a-00a0c9068ff3
 
 
 
-Removable media has been added to the device. The **dbch\_data** member is a pointer to a [**CLASS\_MEDIA\_CHANGE\_CONTEXT**](class-media-change-context-str.md) structure. The **NewState** member provides status information. For example, a value of **MediaUnavailable** indicates that the media is not available (for example, due to an active recording session).
+Removable media has been added to the device. The **dbch\_data** member is a pointer to a [**CLASS\_MEDIA\_CHANGE\_CONTEXT**](/windows/win32/WinIoCtl/ns-winioctl-_class_media_change_context?branch=master) structure. The **NewState** member provides status information. For example, a value of **MediaUnavailable** indicates that the media is not available (for example, due to an active recording session).
 
-**Windows XP:** The **dbch\_data** member is a **ULONG** value that represents the number of times that media has been changed since system startup.
+**Windows XP:** The **dbch\_data** member is a **ULONG** value that represents the number of times that media has been changed since system startup.
 
 
 </dt> </dl> </dd> <dt>
@@ -110,9 +115,9 @@ d07433c1-a98e-11d2-917a-00a0c9068ff3
 
 
 
-Removable media has been removed from the device or is unavailable. The **dbch\_data** member is a pointer to a [**CLASS\_MEDIA\_CHANGE\_CONTEXT**](class-media-change-context-str.md) structure. The **NewState** member provides status information. For example, a value of **MediaUnavailable** indicates that the media is not available (for example, due to an active recording session).
+Removable media has been removed from the device or is unavailable. The **dbch\_data** member is a pointer to a [**CLASS\_MEDIA\_CHANGE\_CONTEXT**](/windows/win32/WinIoCtl/ns-winioctl-_class_media_change_context?branch=master) structure. The **NewState** member provides status information. For example, a value of **MediaUnavailable** indicates that the media is not available (for example, due to an active recording session).
 
-**Windows XP:** The **dbch\_data** member is a **ULONG** value that represents the number of times that media has been changed since system startup.
+**Windows XP:** The **dbch\_data** member is a **ULONG** value that represents the number of times that media has been changed since system startup.
 
 
 </dt> </dl> </dd> <dt>
@@ -140,7 +145,7 @@ The volume label has changed.
 
 The size of the file system on the volume has changed.
 
-**Windows Server 2003 and Windows XP:** This value is not supported.
+**Windows Server 2003 and Windows XP:** This value is not supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -181,7 +186,7 @@ An attempt to dismount a volume failed. This often happens because another proce
 
 The volume's BitLocker Drive Encryption status has changed. This event is signaled when BitLocker is enabled or disabled, or when encryption begins, ends, pauses, or resumes.
 
-**Windows Server 2003 and Windows XP:** This value is not supported.
+**Windows Server 2003 and Windows XP:** This value is not supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -248,7 +253,7 @@ The volume name has been changed.
 
 A file system has detected corruption on the volume. The application should run CHKDSK on the volume or notify the user to do so.
 
-**Windows Server 2003 and Windows XP:** This value is not supported.
+**Windows Server 2003 and Windows XP:** This value is not supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -276,7 +281,7 @@ c79eb16e-0dac-4e7a-a86c-b25ceeaa88f6
 
 The file system is preparing the disc to be ejected. For example, the file system is stopping a background formatting operation or closing the session on write-once media.
 
-**Windows Server 2003 and Windows XP:** This value is not supported.
+**Windows Server 2003 and Windows XP:** This value is not supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -291,7 +296,7 @@ af39da42-6622-41f5-970b-139d092fa3d9
 
 The volume's unique identifier has been changed. For more information about the unique identifier, see [**IOCTL\_MOUNTDEV\_QUERY\_UNIQUE\_ID**](https://msdn.microsoft.com/library/windows/hardware/ff560441).
 
-**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This value is not supported until Windows Server 2008 R2 and Windows 7.
+**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This value is not supported until Windows Server 2008 R2 and Windows 7.
 
 
 </dt> </dl> </dd> <dt>
@@ -319,7 +324,7 @@ The volume has been unlocked by another process. You may open one or more handle
 
 The media is wearing out. This event is sent when a file system determines that the error rate on a volume is too high, or its defect replacement space is almost exhausted.
 
-**Windows Server 2003 and Windows XP:** This value is not supported.
+**Windows Server 2003 and Windows XP:** This value is not supported.
 
 
 </dt> </dl> </dd> </dl>
@@ -328,7 +333,7 @@ The media is wearing out. This event is sent when a file system determines that 
 
 The **GUID\_IO\_VOLUME\_DISMOUNT** and **GUID\_IO\_VOLUME\_DISMOUNT\_FAILED** events are related, as are the **GUID\_IO\_VOLUME\_LOCK** and **GUID\_IO\_VOLUME\_LOCK\_FAILED** event. The **GUID\_IO\_VOLUME\_DISMOUNT** and **GUID\_IO\_VOLUME\_LOCK** events indicate that an operation is being attempted. You should act on the event notification, and record the action taken. The **GUID\_IO\_VOLUME\_DISMOUNT\_FAILED** and **GUID\_IO\_VOLUME\_LOCK\_FAILED** events indicate that the attempted operation failed. You may then use your record to undo the actions you made in response to the operation.
 
-The **dbch\_hdevnotify** member of the [**DEV\_BROADCAST\_HANDLE**](dev-broadcast-handle-str.md) structure indicates the affected device. Note that this is the device notification handle returned by [**RegisterDeviceNotification**](registerdevicenotification.md), not a volume handle. To perform operations on the volume, map this handle to the corresponding volume handle.
+The **dbch\_hdevnotify** member of the [**DEV\_BROADCAST\_HANDLE**](/windows/win32/Dbt/ns-dbt-_dev_broadcast_handle?branch=master) structure indicates the affected device. Note that this is the device notification handle returned by [**RegisterDeviceNotification**](/windows/win32/Winuser/nf-winuser-registerdevicenotificationa?branch=master), not a volume handle. To perform operations on the volume, map this handle to the corresponding volume handle.
 
 ## Requirements
 
@@ -336,15 +341,15 @@ The **dbch\_hdevnotify** member of the [**DEV\_BROADCAST\_HANDLE**](dev-broadcas
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Header<br/>                   | <dl> <dt>IoEvent.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

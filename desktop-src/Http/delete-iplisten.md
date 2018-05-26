@@ -1,14 +1,20 @@
 ---
 title: delete iplisten
 description: Specifies an IPv4 or IPv6 address to be deleted from the IP listen list.
-ms.assetid: '1d0935a5-77de-4fdf-8d3b-88c8578bd5c7'
-keywords: ["delete iplisten HTTP"]
+ms.assetid: 1d0935a5-77de-4fdf-8d3b-88c8578bd5c7
+keywords:
+- delete iplisten HTTP
 topic_type:
 - apiref
 api_name:
 - delete iplisten
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # delete iplisten

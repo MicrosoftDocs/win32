@@ -1,7 +1,12 @@
 ---
-Description: 'The reference clock has changed.'
-ms.assetid: 'f6de9e74-85fa-4f36-9d7d-3d95f2dbf873'
-title: 'EC\_CLOCK\_CHANGED'
+Description: The reference clock has changed.
+ms.assetid: f6de9e74-85fa-4f36-9d7d-3d95f2dbf873
+title: EC\_CLOCK\_CHANGED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_CLOCK\_CHANGED
@@ -32,7 +37,7 @@ None.
 
 ## Remarks
 
-The filter graph manager sends this event when its [**IMediaFilter::SetSyncSource**](imediafilter-setsyncsource.md) method is called.
+The filter graph manager sends this event when its [**IMediaFilter::SetSyncSource**](/windows/win32/Strmif/nf-strmif-imediafilter-setsyncsource?branch=master) method is called.
 
 ## Requirements
 
@@ -54,9 +59,9 @@ The filter graph manager sends this event when its [**IMediaFilter::SetSyncSourc
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

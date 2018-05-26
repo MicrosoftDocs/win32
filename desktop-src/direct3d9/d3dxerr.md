@@ -1,7 +1,12 @@
-﻿---
-Description: 'Errors are represented by negative values and cannot be combined.'
-ms.assetid: '2318278e-e1e1-4cd8-a5ce-5c99f3bc47ba'
+---
+Description: Errors are represented by negative values and cannot be combined.
+ms.assetid: 2318278e-e1e1-4cd8-a5ce-5c99f3bc47ba
 title: D3DXERR enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXERR enumeration

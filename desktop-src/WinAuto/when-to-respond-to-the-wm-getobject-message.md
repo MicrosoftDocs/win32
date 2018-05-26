@@ -1,7 +1,12 @@
 ---
 title: When to Respond to the WM\_GETOBJECT Message
 description: If an application supports Microsoft Active Accessibility or UI Automation for a UI element, the application must not respond to the WM\_GETOBJECT message before the object that represents the UI element is fully initialized, or after the application has begun to close.
-ms.assetid: 'cc99f7ef-1eb6-40c4-9ec0-8fb18cb4a3e5'
+ms.assetid: cc99f7ef-1eb6-40c4-9ec0-8fb18cb4a3e5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # When to Respond to the WM\_GETOBJECT Message

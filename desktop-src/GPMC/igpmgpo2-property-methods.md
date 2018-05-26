@@ -4,11 +4,12 @@ description: The property methods of the IGPMGPO2 interface get and set the prop
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6626e709-a78d-4df8-844b-aa1254d5ec0f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 6626e709-a78d-4df8-844b-aa1254d5ec0f
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMGPO2 Property Methods GPMC"]
+keywords:
+- IGPMGPO2 Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -20,6 +21,9 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMGPO2 Property Methods
@@ -58,7 +62,7 @@ HRESULT get_Description(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +70,8 @@ HRESULT get_Description(
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -79,15 +83,15 @@ HRESULT get_Description(
 
 <dl> <dt>
 
-[**IGPMGPO**](igpmgpo.md)
+[**IGPMGPO**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmgpo?branch=master)
 </dt> <dt>
 
-[**IGPMGPOCollection**](igpmgpocollection.md)
+[**IGPMGPOCollection**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmgpocollection?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

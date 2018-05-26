@@ -1,8 +1,10 @@
 ---
 title: Win32\_PowerMeter class
 description: Provides metering and budgeting information from an underlying power meter.
-ms.assetid: '71b82c73-739d-4a7c-bee5-f15b802ec933'
-keywords: ["Win32_PowerMeter class", "Win32_PowerMeter class, described"]
+ms.assetid: 71b82c73-739d-4a7c-bee5-f15b802ec933
+keywords:
+- Win32_PowerMeter class
+- Win32_PowerMeter class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,11 @@ api_location:
 - UmPoWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_PowerMeter class
@@ -41,22 +48,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("PowerMeterProvider"), Dynamic]
 class Win32_PowerMeter : CIM_NumericSensor
 {
-  string  Name;
-  string  DeviceID;
-  uint32  SupportCapabilities;
-  uint32  MeterType;
-  uint32  SamplingPeriod;
-  uint32  MinimumAveragingInterval;
-  uint32  MaximumAveragingInterval;
-  uint32  AveragingInterval;
-  uint32  MinOperatingBudget;
-  uint32  MaxOperatingBudget;
+  string  Name;
+  string  DeviceID;
+  uint32  SupportCapabilities;
+  uint32  MeterType;
+  uint32  SamplingPeriod;
+  uint32  MinimumAveragingInterval;
+  uint32  MaximumAveragingInterval;
+  uint32  AveragingInterval;
+  uint32  MinOperatingBudget;
+  uint32  MaxOperatingBudget;
   boolean BudgetWriteable;
   boolean BudgetEnabled;
-  uint32  ConfiguredBudget;
-  uint16  BaseUnits;
-  sint32  UnitModifier;
-  uint32  Hysteresis;
+  uint32  ConfiguredBudget;
+  uint16  BaseUnits;
+  sint32  UnitModifier;
+  uint32  Hysteresis;
 };
 ```
 
@@ -99,9 +106,9 @@ Access type: Read-only
 Specifies the base unit of the measurements.
 
 > [!Note]  
-> Starting in Windows 7 and Windows Server 2008 R2, the **Win32\_PowerMeter** class only supports base units in watts.
+> Starting in Windows 7 and Windows Server 2008 R2, the **Win32\_PowerMeter** class only supports base units in watts.
 
- 
+ 
 
 </dd> <dt>
 
@@ -216,7 +223,7 @@ Specifies the power measurements reported by the power meter. This property must
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -294,7 +301,7 @@ A bitmask that specifies the supported capabilities of the power meter. This pro
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -325,17 +332,17 @@ For more information, see [**CIM\_NumericSensor**](https://msdn.microsoft.com/li
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                 |
+| Minimum supported client<br/> | Windows 7<br/>                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                 |
 | Namespace<br/>                | Root\\CIMV2\\power<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>PowerMeterProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>UmPoWmi.dll</dt> </dl>            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

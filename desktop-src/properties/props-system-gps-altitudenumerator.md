@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_GPS\_Altitude.'
-ms.assetid: 'c7816d1b-d1c1-4b09-805c-1d33a8421d17'
-title: 'System.GPS.AltitudeNumerator'
+Description: The numerator of PKEY\_GPS\_Altitude.
+ms.assetid: c7816d1b-d1c1-4b09-805c-1d33a8421d17
+title: System.GPS.AltitudeNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.AltitudeNumerator

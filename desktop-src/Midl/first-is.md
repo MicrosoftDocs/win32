@@ -2,13 +2,19 @@
 title: first\_is attribute
 description: The \ first\_is\ attribute specifies the index of the first array element to be transmitted.
 ms.assetid: 1de7821c-19e7-4b2c-98fc-2fae3563831c
-keywords: ["first_is attribute MIDL"]
+keywords:
+- first_is attribute MIDL
 topic_type:
 - apiref
 api_name:
 - first_is
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # first\_is attribute

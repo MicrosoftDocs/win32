@@ -1,7 +1,12 @@
 ---
 title: Interactive User
 description: The interactive user is the user that is currently logged on to the computer where the COM server is running.
-ms.assetid: '6d43842c-0ad1-4563-b50c-5024bda480f1'
+ms.assetid: 6d43842c-0ad1-4563-b50c-5024bda480f1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interactive User
@@ -11,7 +16,7 @@ The *interactive user* is the user that is currently logged on to the computer w
 If a COM server is configured to run as the interactive user, in a terminal services environment, the server will be launched in the interactive session that matches the client's user identity. However, the client application can use the session moniker to reference an object provided by the server in a session that does not match the client identity. When this is used, the client application can specify any session, in which case the server will run as the user who owns the session, not the launching user. The default access permissions in this scenario would not allow the launching user to call methods on the server. However, the following security risks remain:
 
 -   If the COM server exposes interfaces that are not controlled by COM, such as TCP ports, named pipes, LPC ports, shared memory sections, and so on, these could be used by the launching user to influence the server. COM objects configured to run as the interactive user should reduce this attack surface as much as possible.
--   COM objects are free to set their own access permissions. If the object sets access permissions, either in its AppID registration or by calling [**CoInitializeSecurity**](coinitializesecurity.md), to allow the launching user access, the user would be able to launch the server to run as another user, then access the object.
+-   COM objects are free to set their own access permissions. If the object sets access permissions, either in its AppID registration or by calling [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master), to allow the launching user access, the user would be able to launch the server to run as another user, then access the object.
 
 ## Related topics
 

@@ -1,7 +1,12 @@
 ---
 title: IAgentBalloonEx GetStyle
 description: IAgentBalloonEx GetStyle
-ms.assetid: '7c6a7260-073b-4535-b8e7-a8cae9aae9ef'
+ms.assetid: 7c6a7260-073b-4535-b8e7-a8cae9aae9ef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentBalloonEx::GetStyle
@@ -36,7 +41,7 @@ Style settings for the word balloon, which can be a combination of any of the fo
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -57,9 +62,9 @@ The defaults for these style bits are based on the settings when the character i
 [**IAgentBalloonEx::SetStyle**](iagentballoonex--setstyle.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

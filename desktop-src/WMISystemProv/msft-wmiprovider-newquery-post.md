@@ -1,14 +1,16 @@
 ---
 title: MSFT\_WmiProvider\_NewQuery\_Post class
-description: Represents an event generated immediately following completion of the provider's implementation of IWbemEventProviderQuerySink NewQuery.
+description: Represents an event generated immediately following completion of the providers implementation of IWbemEventProviderQuerySink NewQuery.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '40bb0fc0-03e4-48bc-a3bb-926c71b0b44e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 40bb0fc0-03e4-48bc-a3bb-926c71b0b44e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiProvider_NewQuery_Post class", "MSFT_WmiProvider_NewQuery_Post class, described"]
+keywords:
+- MSFT_WmiProvider_NewQuery_Post class
+- MSFT_WmiProvider_NewQuery_Post class, described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiProvider\_NewQuery\_Post class
@@ -45,7 +50,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [AMENDMENT]
 class MSFT_WmiProvider_NewQuery_Post : Msft_WmiProvider_OperationEvent_Post
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   String TransactionIdentifer;
   string HostingGroup;
@@ -284,8 +289,8 @@ This property is inherited from [**Msft\_WmiProvider\_OperationEvent**](msft-wmi
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -314,9 +319,9 @@ WMI Troubleshooting
 [Receiving a WMI Event](https://msdn.microsoft.com/library/aa393013)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

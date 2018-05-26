@@ -1,7 +1,12 @@
-﻿---
-Description: 'Destroys a previously allocated kernel-mode Microsoft DirectDraw surface object that was created with the dwCaps member of the DDSCAPS structure set to DDSCAPS\_EXECUTEBUFFER.'
-ms.assetid: 'c737b706-25be-49b8-8d8c-35f48aea2889'
+---
+Description: Destroys a previously allocated kernel-mode Microsoft DirectDraw surface object that was created with the dwCaps member of the DDSCAPS structure set to DDSCAPS\_EXECUTEBUFFER.
+ms.assetid: c737b706-25be-49b8-8d8c-35f48aea2889
 title: NtGdiDdDestroyD3DBuffer function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdDestroyD3DBuffer function

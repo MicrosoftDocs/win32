@@ -4,11 +4,13 @@ description: Class that exposes Multi Machine Server Manager tasks.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c01d835e-8e88-43f4-8802-46c14fdcf4d9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: c01d835e-8e88-43f4-8802-46c14fdcf4d9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_ServerManagerTasks class", "MSFT_ServerManagerTasks class, described"]
+keywords:
+- MSFT_ServerManagerTasks class
+- MSFT_ServerManagerTasks class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_ServerManagerTasks class
@@ -54,7 +59,7 @@ The **MSFT\_ServerManagerTasks** class has these methods.
 | [**GetServerBpaResult**](getserverbparesult-msft-servermanagertasks.md)                     | Retrieves the BPA model results from the server.<br/>                                                                                                                                                          |
 | [**GetServerClusterName**](getserverclustername-msft-servermanagertasks.md)                 | Retrieves the access names and name of all the nodes in the cluster.<br/>                                                                                                                                      |
 | [**GetServerEventDetail**](getservereventdetail-msft-servermanagertasks.md)                 | Retrieves the details of events generated in an event log by a particular source.<br/>                                                                                                                         |
-| [**GetServerEventDetailEx**](getservereventdetailex-msft-servermanagertasks.md)             | Retrieves the details of events generated in an event log by a particular source.<br/> **Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.<br/> |
+| [**GetServerEventDetailEx**](getservereventdetailex-msft-servermanagertasks.md)             | Retrieves the details of events generated in an event log by a particular source.<br/> **Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.<br/> |
 | [**GetServerFeature**](getserverfeature-msft-servermanagertasks.md)                         | Gets the server features on the managed node.<br/>                                                                                                                                                             |
 | [**GetServerInventory**](getserverinventory-msft-servermanagertasks.md)                     | Retrieves the basic inventory information of the server.<br/>                                                                                                                                                  |
 | [**GetServerServiceDetail**](getserverservicedetail-msft-servermanagertasks.md)             | Retrieves the details of the specified Win32 services on the managed node.<br/>                                                                                                                                |
@@ -63,7 +68,7 @@ The **MSFT\_ServerManagerTasks** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -72,16 +77,16 @@ The **MSFT\_ServerManagerTasks** class has these methods.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

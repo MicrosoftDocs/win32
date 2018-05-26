@@ -1,7 +1,12 @@
 ---
-Description: 'The lines of a list box are not treated as individual controls, but they are part of a list box that functions as a control. The ListBox table defines the values for all list boxes.'
-ms.assetid: '1963adcf-f682-4371-ab44-f91e90105dc0'
+Description: The lines of a list box are not treated as individual controls, but they are part of a list box that functions as a control. The ListBox table defines the values for all list boxes.
+ms.assetid: 1963adcf-f682-4371-ab44-f91e90105dc0
 title: ListBox Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ListBox Table
@@ -57,7 +62,7 @@ The localizable, visible text to be assigned to the item. If this entry or the e
 
 ## Remarks
 
-The contents of the Value and Text fields are formatted by the [**MsiFormatRecord**](msiformatrecord.md) function when the control is created, therefore they can contain any expression that the **MsiFormatRecord** function can interpret. The formatting occurs only when the control is created, and it is not updated if a property involved in the expression is modified during the life of the control.
+The contents of the Value and Text fields are formatted by the [**MsiFormatRecord**](/windows/win32/Msiquery/nf-msiquery-msiformatrecorda?branch=master) function when the control is created, therefore they can contain any expression that the **MsiFormatRecord** function can interpret. The formatting occurs only when the control is created, and it is not updated if a property involved in the expression is modified during the life of the control.
 
 ## Validation
 

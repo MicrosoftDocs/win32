@@ -4,13 +4,16 @@ description: Adds an IPv6 vendor or user class to the DHCP Server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8a410a25-ba2e-4a85-af89-a71b85d5878d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8a410a25-ba2e-4a85-af89-a71b85d5878d
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DhcpServerv6Class class", "PS_DhcpServerv6Class class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DhcpServerv6Class class
+- PS_DhcpServerv6Class class, Add method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DhcpServerv6Class class
@@ -30,14 +36,14 @@ Adds an IPv6 vendor or user class to the DHCP Server.
 
 ```mof
 uint32 Add(
-  [in]  string            ComputerName,
-  [in]  string            Description,
-  [in]  uint32            VendorId,
-  [in]  string            Data,
-  [in]  string            Type,
-  [in]  string            Name,
-  [in]  boolean           PassThru,
-  [out] DhcpServerv6Class cmdletOutput
+  [in]  string            ComputerName,
+  [in]  string            Description,
+  [in]  uint32            VendorId,
+  [in]  string            Data,
+  [in]  string            Type,
+  [in]  string            Name,
+  [in]  boolean           PassThru,
+  [out] DhcpServerv6Class cmdletOutput
 );
 ```
 
@@ -124,7 +130,7 @@ An embedded instance of the [**DhcpServerv6Class**](dhcpserverv6class.md) class.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -138,9 +144,9 @@ An embedded instance of the [**DhcpServerv6Class**](dhcpserverv6class.md) class.
 [**PS\_DhcpServerv6Class**](ps-dhcpserverv6class.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

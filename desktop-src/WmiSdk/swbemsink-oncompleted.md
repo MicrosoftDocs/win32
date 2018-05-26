@@ -1,13 +1,16 @@
 ---
-Description: 'The OnCompleted event of an SWbemSink object is triggered when an asynchronous call is complete. This event indicates to the client application, the result of an asynchronous operation, and provides error information when the asynchronous call fails.'
+Description: The OnCompleted event of an SWbemSink object is triggered when an asynchronous call is complete. This event indicates to the client application, the result of an asynchronous operation, and provides error information when the asynchronous call fails.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2723185d-5b8b-4cc7-ada3-51c3275272a9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2723185d-5b8b-4cc7-ada3-51c3275272a9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ISWbemSinkEvents::OnCompleted event'
+title: ISWbemSinkEventsOnCompleted event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ISWbemSinkEvents::OnCompleted event
@@ -95,8 +98,8 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wbemdisp.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -105,9 +108,9 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

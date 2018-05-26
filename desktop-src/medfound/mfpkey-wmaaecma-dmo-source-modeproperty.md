@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the Voice Capture DSP uses source mode or filter mode.'
-ms.assetid: 'd1d3beba-678c-48fd-ad12-45e0418e1236'
-title: 'MFPKEY\_WMAAECMA\_DMO\_SOURCE\_MODE Property'
+---
+Description: Specifies whether the Voice Capture DSP uses source mode or filter mode.
+ms.assetid: d1d3beba-678c-48fd-ad12-45e0418e1236
+title: MFPKEY\_WMAAECMA\_DMO\_SOURCE\_MODE Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAAECMA\_DMO\_SOURCE\_MODE Property

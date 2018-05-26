@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the quantization parameter (QP) that was used to encode a video sample.'
-ms.assetid: 'F7C4FEFC-FEE7-4614-BC90-4F9D5D878F49'
-title: 'MFSampleExtension\_VideoEncodeQP attribute'
+---
+Description: Specifies the quantization parameter (QP) that was used to encode a video sample.
+ms.assetid: F7C4FEFC-FEE7-4614-BC90-4F9D5D878F49
+title: MFSampleExtension\_VideoEncodeQP attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_VideoEncodeQP attribute
@@ -14,13 +19,13 @@ Specifies the quantization parameter (QP) that was used to encode a video sample
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT64**](imfattributes-getuint64.md).
+To get this attribute, call [**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT64**](imfattributes-setuint64.md).
+To set this attribute, call [**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master).
 
 ## Applies to
 
-[**IMFSample**](imfsample.md)
+[**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master)
 
 ## Remarks
 

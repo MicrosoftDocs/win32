@@ -1,7 +1,12 @@
 ---
-Description: 'The system can use the transformed camera-space position or the normal from a vertex as texture coordinates, or it can compute the three element vectors used to address a cubic environment map.'
-ms.assetid: 'fb56f2a1-c535-467c-9df4-1012c56fd09a'
-title: 'Automatically Generated Texture Coordinates (Direct3D 9)'
+Description: The system can use the transformed camera-space position or the normal from a vertex as texture coordinates, or it can compute the three element vectors used to address a cubic environment map.
+ms.assetid: fb56f2a1-c535-467c-9df4-1012c56fd09a
+title: Automatically Generated Texture Coordinates (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automatically Generated Texture Coordinates (Direct3D 9)

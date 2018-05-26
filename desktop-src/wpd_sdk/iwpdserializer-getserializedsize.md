@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSerializedSize method calculates the buffer size that is required to hold a serialized IPortableDeviceValues interface.'
-ms.assetid: '12fa6ed1-ce3b-4c5d-920a-87ff693fe0ea'
-title: 'IWpdSerializer::GetSerializedSize method'
+Description: The GetSerializedSize method calculates the buffer size that is required to hold a serialized IPortableDeviceValues interface.
+ms.assetid: 12fa6ed1-ce3b-4c5d-920a-87ff693fe0ea
+title: IWpdSerializerGetSerializedSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWpdSerializer::GetSerializedSize method
@@ -13,8 +18,8 @@ The **GetSerializedSize** method calculates the buffer size that is required to 
 
 ```C++
 HRESULT GetSerializedSize(
-  [in]  IPortableDeviceValues *pSource,
-  [out] DWORD                 *pdwSize
+  [in]  IPortableDeviceValues *pSource,
+  [out] DWORD                 *pdwSize
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -72,9 +77,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWpdSerializer Interface**](iwpdserializer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

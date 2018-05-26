@@ -4,11 +4,18 @@ description: Specifies whether the mouse should use relative mode.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '29ae9575-ce60-4999-9601-18413ae739e6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 29ae9575-ce60-4999-9601-18413ae739e6
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RelativeMouseMode property Remote Desktop Services", "RelativeMouseMode property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , RelativeMouseMode property", "RelativeMouseMode property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , RelativeMouseMode property", "RelativeMouseMode property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , RelativeMouseMode property"]
+keywords:
+- RelativeMouseMode property Remote Desktop Services
+- RelativeMouseMode property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , RelativeMouseMode property
+- RelativeMouseMode property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , RelativeMouseMode property
+- RelativeMouseMode property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , RelativeMouseMode property
 topic_type:
 - apiref
 api_name:
@@ -25,6 +32,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings6::RelativeMouseMode property
@@ -38,11 +48,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_RelativeMouseMode(
-  [in]          VARIANT_BOOL fRelativeMouseMode
+  [in]          VARIANT_BOOL fRelativeMouseMode
 );
 
 HRESULT get_RelativeMouseMode(
-  [out, retval] VARIANT_BOOL *pfRelativeMouseMode
+  [out, retval] VARIANT_BOOL *pfRelativeMouseMode
 );
 ```
 
@@ -54,7 +64,7 @@ Contains the new property value.
 
 ## Remarks
 
-The mouse mode indicates how the ActiveX control calculates the mouse coordinates that it sends to the Remote Desktop Session Host (RD Session Host) server. When the mouse is in relative mode, the ActiveX control calculates mouse coordinates relative to the mouse's last position. When the mouse is in absolute mode, the ActiveX control calculates mouse coordinates relative to the desktop of the RD Session Host server.
+The mouse mode indicates how the ActiveX control calculates the mouse coordinates that it sends to the Remote Desktop Session Host (RD Session Host) server. When the mouse is in relative mode, the ActiveX control calculates mouse coordinates relative to the mouse's last position. When the mouse is in absolute mode, the ActiveX control calculates mouse coordinates relative to the desktop of the RD Session Host server.
 
 ## Requirements
 
@@ -62,8 +72,8 @@ The mouse mode indicates how the ActiveX control calculates the mouse coordinate
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings6 is defined as 222c4b5d-45d9-4df0-a7c6-60cf9089d285<br/> |
@@ -83,9 +93,9 @@ The mouse mode indicates how the ActiveX control calculates the mouse coordinate
 [**IMsRdpClientAdvancedSettings6**](imsrdpclientadvancedsettings6.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

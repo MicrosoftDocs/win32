@@ -1,15 +1,18 @@
 ---
-Description: 'If the current configuration is a result of the Undo/Redo/Restore, marks it as if it has been set explicitly, so that the history will preserve the time when it was set, and a backup file will be created for it on the next configuration change.'
+Description: If the current configuration is a result of the Undo/Redo/Restore, marks it as if it has been set explicitly, so that the history will preserve the time when it was set, and a backup file will be created for it on the next configuration change.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1b3d398a-c7f9-4e21-9e43-1245a13fe564'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1b3d398a-c7f9-4e21-9e43-1245a13fe564
+ms.prod: windows-server-dev
 ms.technology:
-- 'boot-event-collector'
-- 'windows-management-instrumentation'
+- boot-event-collector
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Checkpoint method of the Control class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Checkpoint method of the Control class
@@ -21,12 +24,12 @@ If the current configuration is a result of the Undo/Redo/Restore, marks it as i
 
 ```mof
 Uint32 Checkpoint(
-  [in]  Uint32 OldTimestampLow,
-  [in]  Uint32 OldTimestampHigh,
-  [out] string ErrorString,
-  [out] string WarningString,
-  [out] string InfoString,
-  [out] uint32 ErrorType
+  [in]  Uint32 OldTimestampLow,
+  [in]  Uint32 OldTimestampHigh,
+  [out] string ErrorString,
+  [out] string WarningString,
+  [out] string InfoString,
+  [out] uint32 ErrorType
 );
 ```
 
@@ -148,8 +151,8 @@ Success
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\BootEventCollector<br/>                                              |
 | Header<br/>                   | <dl> <dt>Srrestoreptapi.h</dt> </dl>          |
 | MOF<br/>                      | <dl> <dt>BootEventCollectorWMI.mof</dt> </dl> |
@@ -164,9 +167,9 @@ Success
 [**Control**](control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

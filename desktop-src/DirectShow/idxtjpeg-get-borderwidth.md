@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_BorderWidth method retrieves the width of the solid border along the edges of the wipe pattern.'
-ms.assetid: '85c62524-5936-475e-a73b-7a3c926bb5f0'
-title: 'IDxtJpeg::get\_BorderWidth method'
+---
+Description: The get\_BorderWidth method retrieves the width of the solid border along the edges of the wipe pattern.
+ms.assetid: 85c62524-5936-475e-a73b-7a3c926bb5f0
+title: IDxtJpegget\_BorderWidth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::get\_BorderWidth method

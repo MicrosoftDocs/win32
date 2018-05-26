@@ -1,14 +1,20 @@
 ---
 title: ScenesMenu6 element
 description: Defines a menu that has six or fewer scene buttons.
-ms.assetid: '8e75cd7a-a0be-49d5-bec7-22111e36fdc7'
-keywords: ["ScenesMenu6 element Windows Movie Maker and DVD Maker"]
+ms.assetid: 8e75cd7a-a0be-49d5-bec7-22111e36fdc7
+keywords:
+- ScenesMenu6 element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - ScenesMenu6
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScenesMenu6 element
@@ -49,7 +55,7 @@ This element is required in every menu style.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -61,9 +67,9 @@ This element is required in every menu style.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

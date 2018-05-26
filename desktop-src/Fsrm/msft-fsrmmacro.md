@@ -4,11 +4,13 @@ description: Represents a FSRM macro object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6058e27f-2157-465e-9881-99c28b282cb6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 6058e27f-2157-465e-9881-99c28b282cb6
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMMacro class File Server Resource Manager", "MSFT_FSRMMacro class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMMacro class File Server Resource Manager
+- MSFT_FSRMMacro class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMMacro class
@@ -150,7 +155,7 @@ The object is an Access Denied Remediation (ADR) object.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -164,9 +169,9 @@ The object is an Access Denied Remediation (ADR) object.
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

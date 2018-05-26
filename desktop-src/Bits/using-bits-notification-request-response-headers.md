@@ -1,7 +1,12 @@
 ---
 title: Using BITS Notification Request/Response Headers
 description: BITS can send the location of the upload file (by reference) to your server application or it can send the upload file in the body of the request (by value).
-ms.assetid: 'b80f9077-54e7-4d10-909a-dee7d8822627'
+ms.assetid: b80f9077-54e7-4d10-909a-dee7d8822627
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using BITS Notification Request/Response Headers

@@ -1,7 +1,12 @@
 ---
 title: Creating an Object in COM
 description: To use a COM interface, your program first creates an instance of an object that implements that interface.
-ms.assetid: '75f2115d-d49d-4e4e-8f99-67a231559ba6'
+ms.assetid: 75f2115d-d49d-4e4e-8f99-67a231559ba6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Object in COM

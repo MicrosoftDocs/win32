@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectMatrixVariable GetMatrix method
 description: Get a matrix.
-ms.assetid: '1d0b20f2-6e43-414d-a161-65ce13bef1e0'
-keywords: ["GetMatrix method Direct3D 11", "GetMatrix method Direct3D 11 , ID3DX11EffectMatrixVariable interface", "ID3DX11EffectMatrixVariable interface Direct3D 11 , GetMatrix method"]
+ms.assetid: 1d0b20f2-6e43-414d-a161-65ce13bef1e0
+keywords:
+- GetMatrix method Direct3D 11
+- GetMatrix method Direct3D 11 , ID3DX11EffectMatrixVariable interface
+- ID3DX11EffectMatrixVariable interface Direct3D 11 , GetMatrix method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectMatrixVariable::GetMatrix method
@@ -23,7 +31,7 @@ Get a matrix.
 
 ```C++
 HRESULT GetMatrix(
-   float *pData
+   float *pData
 );
 ```
 
@@ -53,7 +61,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -73,9 +81,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectMatrixVariable](id3dx11effectmatrixvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following flags are used to specify which channels in a texture to operate on.'
-ms.assetid: 'b592b42a-0af1-49df-b159-4b84e4e12c95'
-title: 'D3DX\_CHANNEL'
+Description: The following flags are used to specify which channels in a texture to operate on.
+ms.assetid: b592b42a-0af1-49df-b159-4b84e4e12c95
+title: D3DX\_CHANNEL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_CHANNEL

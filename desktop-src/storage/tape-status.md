@@ -1,8 +1,10 @@
 ---
 title: TAPE\_STATUS enumeration
 description: The TAPE\_STATUS enumeration provides a list of the status codes that the tape class driver uses to report the status of a tape device.
-ms.assetid: '45e85ad1-5b75-410e-b9dd-061051bbaa74'
-keywords: ["TAPE_STATUS enumeration Storage Devices", "PTAPE_STATUS enumeration pointer Storage Devices"]
+ms.assetid: 45e85ad1-5b75-410e-b9dd-061051bbaa74
+keywords:
+- TAPE_STATUS enumeration Storage Devices
+- PTAPE_STATUS enumeration pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - minitape.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TAPE\_STATUS enumeration
@@ -22,37 +29,37 @@ The TAPE\_STATUS enumeration provides a list of the status codes that the tape c
 
 ```C++
 typedef enum _TAPE_STATUS { 
-  TAPE_STATUS_SEND_SRB_AND_CALLBACK        = 0,
-  TAPE_STATUS_CALLBACK                     = 1,
-  TAPE_STATUS_CHECK_TEST_UNIT_READY        = 2,
-  TAPE_STATUS_SUCCESS                      = 3,
-  TAPE_STATUS_INSUFFICIENT_RESOURCES       = 4,
-  TAPE_STATUS_NOT_IMPLEMENTED              = 5,
-  TAPE_STATUS_INVALID_DEVICE_REQUEST       = 6,
-  TAPE_STATUS_INVALID_PARAMETER            = 7,
-  TAPE_STATUS_MEDIA_CHANGED                = 8,
-  TAPE_STATUS_BUS_RESET                    = 9,
-  TAPE_STATUS_SETMARK_DETECTED             = 10,
-  TAPE_STATUS_FILEMARK_DETECTED            = 11,
-  TAPE_STATUS_BEGINNING_OF_MEDIA           = 12,
-  TAPE_STATUS_END_OF_MEDIA                 = 13,
-  TAPE_STATUS_BUFFER_OVERFLOW              = 14,
-  TAPE_STATUS_NO_DATA_DETECTED             = 15,
-  TAPE_STATUS_EOM_OVERFLOW                 = 16,
-  TAPE_STATUS_NO_MEDIA                     = 17,
-  TAPE_STATUS_IO_DEVICE_ERROR              = 18,
-  TAPE_STATUS_UNRECOGNIZED_MEDIA           = 19,
-  TAPE_STATUS_DEVICE_NOT_READY             = 20,
-  TAPE_STATUS_MEDIA_WRITE_PROTECTED        = 21,
-  TAPE_STATUS_DEVICE_DATA_ERROR            = 22,
-  TAPE_STATUS_NO_SUCH_DEVICE               = 23,
-  TAPE_STATUS_INVALID_BLOCK_LENGTH         = 24,
-  TAPE_STATUS_IO_TIMEOUT                   = 25,
-  TAPE_STATUS_DEVICE_NOT_CONNECTED         = 26,
-  TAPE_STATUS_DATA_OVERRUN                 = 27,
-  TAPE_STATUS_DEVICE_BUSY                  = 28,
-  TAPE_STATUS_REQUIRES_CLEANING            = 29,
-  TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED  = 30
+  TAPE_STATUS_SEND_SRB_AND_CALLBACK        = 0,
+  TAPE_STATUS_CALLBACK                     = 1,
+  TAPE_STATUS_CHECK_TEST_UNIT_READY        = 2,
+  TAPE_STATUS_SUCCESS                      = 3,
+  TAPE_STATUS_INSUFFICIENT_RESOURCES       = 4,
+  TAPE_STATUS_NOT_IMPLEMENTED              = 5,
+  TAPE_STATUS_INVALID_DEVICE_REQUEST       = 6,
+  TAPE_STATUS_INVALID_PARAMETER            = 7,
+  TAPE_STATUS_MEDIA_CHANGED                = 8,
+  TAPE_STATUS_BUS_RESET                    = 9,
+  TAPE_STATUS_SETMARK_DETECTED             = 10,
+  TAPE_STATUS_FILEMARK_DETECTED            = 11,
+  TAPE_STATUS_BEGINNING_OF_MEDIA           = 12,
+  TAPE_STATUS_END_OF_MEDIA                 = 13,
+  TAPE_STATUS_BUFFER_OVERFLOW              = 14,
+  TAPE_STATUS_NO_DATA_DETECTED             = 15,
+  TAPE_STATUS_EOM_OVERFLOW                 = 16,
+  TAPE_STATUS_NO_MEDIA                     = 17,
+  TAPE_STATUS_IO_DEVICE_ERROR              = 18,
+  TAPE_STATUS_UNRECOGNIZED_MEDIA           = 19,
+  TAPE_STATUS_DEVICE_NOT_READY             = 20,
+  TAPE_STATUS_MEDIA_WRITE_PROTECTED        = 21,
+  TAPE_STATUS_DEVICE_DATA_ERROR            = 22,
+  TAPE_STATUS_NO_SUCH_DEVICE               = 23,
+  TAPE_STATUS_INVALID_BLOCK_LENGTH         = 24,
+  TAPE_STATUS_IO_TIMEOUT                   = 25,
+  TAPE_STATUS_DEVICE_NOT_CONNECTED         = 26,
+  TAPE_STATUS_DATA_OVERRUN                 = 27,
+  TAPE_STATUS_DEVICE_BUSY                  = 28,
+  TAPE_STATUS_REQUIRES_CLEANING            = 29,
+  TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED  = 30
 } TAPE_STATUS, *PTAPE_STATUS;
 ```
 
@@ -296,9 +303,9 @@ Indicates that the media currently in the drive is a cleaner cartridge.
 [**IOCTL\_TAPE\_GET\_STATUS**](ioctl-tape-get-status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20TAPE_STATUS%20enumeration%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

@@ -4,17 +4,22 @@ description: For the SAM builtin group object/ local policy synchronization, thi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b983210d-1c54-4355-bc37-771e51016175'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b983210d-1c54-4355-bc37-771e51016175
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Sync-With-SID attribute AD Schema", "syncWithSID attribute AD Schema"]
+keywords:
+- Sync-With-SID attribute AD Schema
+- syncWithSID attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Sync-With-SID
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Sync-With-SID attribute

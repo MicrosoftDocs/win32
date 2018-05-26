@@ -4,11 +4,16 @@ description: Generic Service resources have three private properties, one that i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '13379dba-582e-4a49-a655-e6e47d385857'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 13379dba-582e-4a49-a655-e6e47d385857
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Generic Service resource type Failover Cluster ,properties", "properties Failover Cluster ,generic service (private) properties"]
+keywords:
+- Generic Service resource type Failover Cluster ,properties
+- properties Failover Cluster ,generic service (private) properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Generic Service Private Properties

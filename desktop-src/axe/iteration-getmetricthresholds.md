@@ -1,8 +1,11 @@
 ---
 title: Iteration GetMetricThresholds method
 description: Returns the MetricThresholdCollection for the Iteration.
-ms.assetid: '48242467-76C2-49DF-BE5B-C3E6E1DB3FD3'
-keywords: ["GetMetricThresholds method Access Execution Engine", "GetMetricThresholds method Access Execution Engine , Iteration interface", "Iteration interface Access Execution Engine , GetMetricThresholds method"]
+ms.assetid: 48242467-76C2-49DF-BE5B-C3E6E1DB3FD3
+keywords:
+- GetMetricThresholds method Access Execution Engine
+- GetMetricThresholds method Access Execution Engine , Iteration interface
+- Iteration interface Access Execution Engine , GetMetricThresholds method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::GetMetricThresholds method
@@ -22,7 +30,7 @@ Returns the [**MetricThresholdCollection**](metricthresholdcollection.md) for th
 
 ```C++
 virtual HRESULT GetMetricThresholds(
-  [out] MetricThresholdCollection **metricThresholds
+  [out] MetricThresholdCollection **metricThresholds
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ The **MetricThresholdCollection** holds information from element **Iteration/Met
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The **MetricThresholdCollection** holds information from element **Iteration/Met
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

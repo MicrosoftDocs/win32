@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the methods defined for the IPrintOemDriverUni COM interface.'
-ms.assetid: 'efd13e9e-ba25-4d1c-894c-a275374f5266'
+---
+Description: This section describes the methods defined for the IPrintOemDriverUni COM interface.
+ms.assetid: efd13e9e-ba25-4d1c-894c-a275374f5266
 title: IPrintOemDriverUni interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemDriverUni interface

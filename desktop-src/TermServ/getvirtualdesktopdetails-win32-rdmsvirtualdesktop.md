@@ -4,11 +4,14 @@ description: Retrieves the additional information about the virtual desktop.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '487e3a02-4306-4639-a44e-5b9519163a67'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 487e3a02-4306-4639-a44e-5b9519163a67
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetVirtualDesktopDetails method Remote Desktop Services", "GetVirtualDesktopDetails method Remote Desktop Services , Win32_RDMSVirtualDesktop class", "Win32_RDMSVirtualDesktop class Remote Desktop Services , GetVirtualDesktopDetails method"]
+keywords:
+- GetVirtualDesktopDetails method Remote Desktop Services
+- GetVirtualDesktopDetails method Remote Desktop Services , Win32_RDMSVirtualDesktop class
+- Win32_RDMSVirtualDesktop class Remote Desktop Services , GetVirtualDesktopDetails method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetVirtualDesktopDetails method of the Win32\_RDMSVirtualDesktop class
@@ -28,9 +34,9 @@ Retrieves the additional information about the virtual desktop.
 
 ```mof
 uint32 GetVirtualDesktopDetails(
-  [out] uint32  RAMSizeInMB,
-  [out] boolean RemoteFXEnabled,
-  [out] string  OSVersion
+  [out] uint32  RAMSizeInMB,
+  [out] boolean RemoteFXEnabled,
+  [out] string  OSVersion
 );
 ```
 
@@ -72,7 +78,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -86,9 +92,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSVirtualDesktop**](win32-rdmsvirtualdesktop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

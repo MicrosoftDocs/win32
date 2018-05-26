@@ -1,8 +1,12 @@
 ---
 title: COLORPROFILESUBTYPE enumeration
 description: Specifies the subtype of the color profile.
-ms.assetid: 'b5cc965e-47b2-4309-8558-5208c7a2b587'
-keywords: ["COLORPROFILESUBTYPE enumeration Windows Color System", "COLORPROFILSUBTYPE enumeration Windows Color System", "COLORPROFILESUBTYPE PCOLORPROFILESUBTYPE enumeration pointer Windows Color System", "LPCOLORPROFILESUBTYPE enumeration pointer Windows Color System"]
+ms.assetid: b5cc965e-47b2-4309-8558-5208c7a2b587
+keywords:
+- COLORPROFILESUBTYPE enumeration Windows Color System
+- COLORPROFILSUBTYPE enumeration Windows Color System
+- COLORPROFILESUBTYPE PCOLORPROFILESUBTYPE enumeration pointer Windows Color System
+- LPCOLORPROFILESUBTYPE enumeration pointer Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +15,11 @@ api_location:
 - Icm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLORPROFILESUBTYPE enumeration
@@ -22,13 +31,13 @@ Specifies the subtype of the color profile.
 
 ```C++
 typedef enum tagCOLORPROFILSUBTYPE { 
-  CPST_NONE                   = 0x0000,
-  CPST_RGB_WORKING_SPACE      = 0x0001,
-  CPST_PERCEPTUAL             = 0x0002,
-  CPST_ABSOLUTE_COLORIMETRIC  = 0x0004,
-  CPST_RELATIVE_COLORIMETRIC  = 0x0008,
-  CPST_SATURATION             = 0x0010,
-  CPST_CUSTOM_WORKING_SPACE   = 0x0020
+  CPST_NONE                   = 0x0000,
+  CPST_RGB_WORKING_SPACE      = 0x0001,
+  CPST_PERCEPTUAL             = 0x0002,
+  CPST_ABSOLUTE_COLORIMETRIC  = 0x0004,
+  CPST_RELATIVE_COLORIMETRIC  = 0x0008,
+  CPST_SATURATION             = 0x0010,
+  CPST_CUSTOM_WORKING_SPACE   = 0x0020
 } COLORPROFILSUBTYPE, *COLORPROFILESUBTYPE PCOLORPROFILESUBTYPE, *LPCOLORPROFILESUBTYPE;
 ```
 
@@ -157,7 +166,7 @@ COLORPROFILESUBTYPE Global default can be or?d with WCS\_DEFAULT to set this GMM
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -165,8 +174,8 @@ COLORPROFILESUBTYPE Global default can be or?d with WCS\_DEFAULT to set this GMM
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl> |
 
 
@@ -181,9 +190,9 @@ COLORPROFILESUBTYPE Global default can be or?d with WCS\_DEFAULT to set this GMM
 [**WcsSetDefaultColorProfile**](wcssetdefaultcolorprofile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

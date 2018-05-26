@@ -1,14 +1,20 @@
 ---
 title: tex3Dgrad
 description: Samples a 3D texture using a gradient to select the mip level.
-ms.assetid: '230c42cc-31b7-4f57-ade4-14f069094d46'
-keywords: ["tex3Dgrad HLSL"]
+ms.assetid: 230c42cc-31b7-4f57-ade4-14f069094d46
+keywords:
+- tex3Dgrad HLSL
 topic_type:
 - apiref
 api_name:
 - tex3Dgrad
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tex3Dgrad
@@ -22,7 +28,7 @@ Samples a 3D texture using a gradient to select the mip level.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Samples a 3D texture using a gradient to select the mip level.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -57,7 +63,7 @@ The value of the texture data.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,13 +74,13 @@ This function is supported in the following shader models.
 | Shader Model                                              | Supported                |
 |-----------------------------------------------------------|--------------------------|
 | [Shader Model 4](dx-graphics-hlsl-sm4.md)                | yes (pixel shader only)  |
-| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | yes¹ (pixel shader only) |
-| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | yes² (pixel shader only) |
+| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | yes  (pixel shader only) |
+| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | yes  (pixel shader only) |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | no                       |
 
 
 
- 
+ 
 
 1.  Significant code reordering is done to move gradient computations outside of flow control.
 2.  If the D3DPSHADERCAPS2\_0 cap is set with D3DD3DPSHADERCAPS2\_0\_GRADIENTINSTRUCTIONS, the compiler maps this function to texldd.
@@ -90,9 +96,9 @@ When flow control is present in a shader, the result of a gradient calculation r
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

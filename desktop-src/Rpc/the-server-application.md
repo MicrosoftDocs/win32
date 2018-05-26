@@ -1,7 +1,12 @@
 ---
 title: The Server Application
-description: The example below is from the 'Hello World' application in the RPC\\Hello directory of the Platform Software Development Kit (SDK).
-ms.assetid: '9d310cfb-72ad-448f-a66a-db6ac2478824'
+description: The example below is from the Hello World application in the RPC\\Hello directory of the Platform Software Development Kit (SDK).
+ms.assetid: 9d310cfb-72ad-448f-a66a-db6ac2478824
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Server Application
@@ -12,7 +17,7 @@ Depending on the size of your application and your coding preferences, you can c
 
 The benefit of organizing the remote procedures in separate files is that the procedures can be linked with a standalone program to debug the code before it is converted to a distributed application. After the procedures work in the standalone program, you can compile and link the source files containing the remote procedures with the server application. As with the client-application source file, the server-application source file must include the Hello.h header file.
 
-The server calls the RPC run-time functions [**RpcServerUseProtseqEp**](rpcserveruseprotseqep.md) and [**RpcServerRegisterIf**](rpcserverregisterif.md) to make binding information available to the client. This example program passes the interface handle name to **RpcServerRegisterIf**. The other parameters are set to **NULL**. The server then calls the [**RpcServerListen**](rpcserverlisten.md) function to indicate that it is waiting for client requests.
+The server calls the RPC run-time functions [**RpcServerUseProtseqEp**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqep?branch=master) and [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master) to make binding information available to the client. This example program passes the interface handle name to **RpcServerRegisterIf**. The other parameters are set to **NULL**. The server then calls the [**RpcServerListen**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverlisten?branch=master) function to indicate that it is waiting for client requests.
 
 The server application must also include the two memory management functions that the server stub calls: [**midl\_user\_allocate**](the-midl-user-allocate-function.md) and [**midl\_user\_free**](the-midl-user-free-function.md). These functions allocate and free memory on the server when a remote procedure passes parameters to the server. In this example program, **midl\_user\_allocate** and **midl\_user\_free** are simply wrappers for the C-library functions [**malloc**](pointers-and-memory-allocation.md) and **free**. (Note that, in the MIDL compiler- generated forward declarations, "MIDL" is uppercase. The header file Rpcndr.h defines midl\_user\_free and midl\_user\_allocate to be MIDL\_user\_free and MIDL\_user\_allocate, respectively.)
 

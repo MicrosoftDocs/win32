@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the type and data for the specified registry value in an offline registry hive.'
-ms.assetid: '83604743-cb59-42a1-9951-620ad5bd8de7'
+---
+Description: Retrieves the type and data for the specified registry value in an offline registry hive.
+ms.assetid: 83604743-cb59-42a1-9951-620ad5bd8de7
 title: ORGetValue function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ORGetValue function

@@ -1,12 +1,17 @@
 ---
-Description: 'Not every output device supports the entire set of graphics functions.'
-ms.assetid: '7989d393-7be4-47fc-af8d-26dd549c48be'
+Description: Not every output device supports the entire set of graphics functions.
+ms.assetid: 7989d393-7be4-47fc-af8d-26dd549c48be
 title: Retrieving the Capabilities of a Printer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Capabilities of a Printer
 
-Not every output device supports the entire set of graphics functions. For example, because of hardware limitations, most vector plotters do not support bit-block transfers. An application can determine whether a device supports a particular graphics function by calling the [**GetDeviceCaps**](getdevicecaps.md) function, specifying the appropriate index, and examining the return value.
+Not every output device supports the entire set of graphics functions. For example, because of hardware limitations, most vector plotters do not support bit-block transfers. An application can determine whether a device supports a particular graphics function by calling the [**GetDeviceCaps**](/windows/win32/Wingdi/nf-wingdi-getdevicecaps?branch=master) function, specifying the appropriate index, and examining the return value.
 
 The following example shows how an application tests a printer to determine whether it supports bit-block transfers.
 

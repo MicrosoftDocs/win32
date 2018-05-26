@@ -1,8 +1,11 @@
 ---
 title: Parameter ToUInt32 method
 description: Retrieve the value of the parameter as a specific data type.
-ms.assetid: '4CD38037-D277-4742-AB82-0AC7B2301B1E'
-keywords: ["ToUInt32 method Access Execution Engine", "ToUInt32 method Access Execution Engine , Parameter interface", "Parameter interface Access Execution Engine , ToUInt32 method"]
+ms.assetid: 4CD38037-D277-4742-AB82-0AC7B2301B1E
+keywords:
+- ToUInt32 method Access Execution Engine
+- ToUInt32 method Access Execution Engine , Parameter interface
+- Parameter interface Access Execution Engine , ToUInt32 method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameter::ToUInt32 method
@@ -22,7 +30,7 @@ Retrieve the value of the parameter as a specific data type.
 
 ```C++
 virtual HRESULT ToUInt32(
-  [out] ULONG *paramValue
+  [out] ULONG *paramValue
 ) const = 0;
 ```
 
@@ -59,8 +67,8 @@ Managed code uses the [**Parameter.ToUInt32**](axe-parameter_touint32_om) method
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -73,9 +81,9 @@ Managed code uses the [**Parameter.ToUInt32**](axe-parameter_touint32_om) method
 [**Parameter**](parameter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

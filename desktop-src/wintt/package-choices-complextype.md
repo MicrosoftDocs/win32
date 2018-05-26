@@ -1,14 +1,20 @@
 ---
 title: Choices Complex Type
 description: Defines a collection of choices to display to the user.
-ms.assetid: 'ea186559-3e63-4ea1-a4ea-dca487062fe3'
-keywords: ["Choices complex type Windows Troubleshooting Toolkit"]
+ms.assetid: ea186559-3e63-4ea1-a4ea-dca487062fe3
+keywords:
+- Choices complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Choices
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choices Complex Type
@@ -43,8 +49,8 @@ Defines a collection of choices to display to the user.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -61,9 +67,9 @@ Defines a collection of choices to display to the user.
 [**Choices (SingleResponseInteraction) Element**](package-choices-singleresponseinteraction-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

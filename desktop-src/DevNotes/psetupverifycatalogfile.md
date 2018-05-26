@@ -1,7 +1,12 @@
-﻿---
-Description: 'Verifies a single catalog file using standard operating system code signing policy, such as driver signing.'
-ms.assetid: '1e2a18a5-506e-46a8-9309-666bec92182d'
+---
+Description: Verifies a single catalog file using standard operating system code signing policy, such as driver signing.
+ms.assetid: 1e2a18a5-506e-46a8-9309-666bec92182d
 title: pSetupVerifyCatalogFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # pSetupVerifyCatalogFile function

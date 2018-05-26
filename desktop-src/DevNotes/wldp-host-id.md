@@ -1,7 +1,12 @@
-﻿---
-Description: 'Identifies the host type of the WLDP caller.'
-ms.assetid: 'E8E603CC-9CB2-4C3B-9F06-9B06C7B5D752'
-title: 'WLDP\_HOST\_ID enumeration'
+---
+Description: Identifies the host type of the WLDP caller.
+ms.assetid: E8E603CC-9CB2-4C3B-9F06-9B06C7B5D752
+title: WLDP\_HOST\_ID enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WLDP\_HOST\_ID enumeration

@@ -1,14 +1,19 @@
 ---
-Description: 'Access to the keys from the LocalService or NetworkService accounts can be obtained programmatically by using the CryptSetProvParam function to modify the PP\_KEYSET\_SEC\_DESCR parameter.'
-ms.assetid: '22e8a153-c218-426a-bd81-7bdbb504c96f'
+Description: Access to the keys from the LocalService or NetworkService accounts can be obtained programmatically by using the CryptSetProvParam function to modify the PP\_KEYSET\_SEC\_DESCR parameter.
+ms.assetid: 22e8a153-c218-426a-bd81-7bdbb504c96f
 title: Modifying Key Container Access
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modifying Key Container Access
 
-The default key container that is created by CryptoAPI does not allow access to the keys from the LocalService or NetworkService accounts. This can be corrected programmatically by using the [**CryptSetProvParam**](cryptsetprovparam.md) function to modify the **PP\_KEYSET\_SEC\_DESCR** parameter.
+The default key container that is created by CryptoAPI does not allow access to the keys from the LocalService or NetworkService accounts. This can be corrected programmatically by using the [**CryptSetProvParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptsetprovparam?branch=master) function to modify the **PP\_KEYSET\_SEC\_DESCR** parameter.
 
-The following example shows how to use the [**CryptSetProvParam**](cryptsetprovparam.md) function to modify the **PP\_KEYSET\_SEC\_DESCR** to allow access to a key container to the LocalService or NetworkService accounts.
+The following example shows how to use the [**CryptSetProvParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptsetprovparam?branch=master) function to modify the **PP\_KEYSET\_SEC\_DESCR** to allow access to a key container to the LocalService or NetworkService accounts.
 
 > [!Note]  
 > The following code is given as a tool and should only be used if absolutely necessary. You should only have to run this code once on each computer to allow access to the keys.

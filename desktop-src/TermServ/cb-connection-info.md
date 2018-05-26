@@ -4,11 +4,13 @@ description: Contains information about an incoming connection request.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'BA908425-3B68-40AA-B1E3-153D6873EF2C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: BA908425-3B68-40AA-B1E3-153D6873EF2C
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["CB_CONNECTION_INFO structure Remote Desktop Services", "PCB_CONNECTION_INFO structure pointer Remote Desktop Services"]
+keywords:
+- CB_CONNECTION_INFO structure Remote Desktop Services
+- PCB_CONNECTION_INFO structure pointer Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - Cbclient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # CB\_CONNECTION\_INFO structure
@@ -28,14 +33,14 @@ Contains information about an incoming connection request. This structure is use
 
 ```C++
 typedef struct {
-  WCHAR            UserName[CB_USERNAME_LENGTH];
-  WCHAR            Domain[CB_DOMAINNAME_LENGTH];
-  WCHAR            InitialProgram[CB_INITAPP_LENGTH];
+  WCHAR            UserName[CB_USERNAME_LENGTH];
+  WCHAR            Domain[CB_DOMAINNAME_LENGTH];
+  WCHAR            InitialProgram[CB_INITAPP_LENGTH];
   CB_RESOURCE_TYPE Resource;
-  WCHAR            PluginName[CB_PLUGINNAME_LENGTH];
-  WCHAR            FarmName[CB_FARMNAME_LENGTH];
-  DWORD            dwVendorInfoLength;
-  PBYTE            pVendorSpecificInfo;
+  WCHAR            PluginName[CB_PLUGINNAME_LENGTH];
+  WCHAR            FarmName[CB_FARMNAME_LENGTH];
+  DWORD            dwVendorInfoLength;
+  PBYTE            pVendorSpecificInfo;
 } CB_CONNECTION_INFO, *PCB_CONNECTION_INFO;
 ```
 
@@ -107,8 +112,8 @@ This member is reserved for future use.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Cbclient.h</dt> </dl> |
 
 
@@ -120,9 +125,9 @@ This member is reserved for future use.
 [**IConnectionBrokerClient::GetTargetInfo**](iconnectionbrokerclient-gettargetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

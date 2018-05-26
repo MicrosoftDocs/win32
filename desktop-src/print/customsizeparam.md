@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CUSTOMSIZEPARAM structure holds information pertaining to a single custom page size parameter for a printer.'
-ms.assetid: '7ec0c38a-8614-417b-9ec3-678c7d80841f'
+---
+Description: The CUSTOMSIZEPARAM structure holds information pertaining to a single custom page size parameter for a printer.
+ms.assetid: 7ec0c38a-8614-417b-9ec3-678c7d80841f
 title: CUSTOMSIZEPARAM structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUSTOMSIZEPARAM structure

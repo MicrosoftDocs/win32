@@ -1,14 +1,20 @@
 ---
 title: ComplexDataType Complex Type
 description: Defines a structure that contains one or more data items.
-ms.assetid: '1495daef-1dfd-4f62-9543-569cc74102f4'
-keywords: ["ComplexDataType complex type EventLog"]
+ms.assetid: 1495daef-1dfd-4f62-9543-569cc74102f4
+keywords:
+- ComplexDataType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - ComplexDataType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComplexDataType Complex Type
@@ -53,7 +59,7 @@ Defines a structure that contains one or more data items.
 
 ## Remarks
 
-The [**EvtRender**](evtrender.md) function renders the contents of a structure as a binary blob; the function does not render the individual data items of the structure.
+The [**EvtRender**](/windows/win32/WinEvt/nf-winevt-evtrender?branch=master) function renders the contents of a structure as a binary blob; the function does not render the individual data items of the structure.
 
 ## Requirements
 
@@ -61,14 +67,14 @@ The [**EvtRender**](evtrender.md) function renders the contents of a structure a
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

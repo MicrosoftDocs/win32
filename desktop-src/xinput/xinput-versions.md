@@ -1,7 +1,12 @@
 ---
 title: XInput Versions
 description: XInput is a cross-platform API that has shipped for use on Xbox 360 as well as versions of Windows, including Windows XP, Windows Vista, Windows 7, and Windows 8.
-ms.assetid: 'e89a6c81-f170-4385-f942-3606f9747244'
+ms.assetid: e89a6c81-f170-4385-f942-3606f9747244
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XInput Versions
@@ -21,8 +26,8 @@ XInput 1.4 ships today as a system component in Windows 8 as XINPUT1\_4.DLL. It
 XInput 1.4 has these primary advantages over other versions of XInput:
 
 -   This is the only version that can be used in C++/DirectX Windows Store apps.
--   The new [**XInputGetAudioDeviceIds**](xinputgetaudiodeviceids.md) function provides an audio device ID string that you can use to open an XAudio2 mastering voice or audio device for a headset attached to an Xbox 360 common controller. The [**XInputGetDSoundAudioDeviceGuids**](xinputgetdsoundaudiodeviceguids.md) function is not available in this version.
--   Provides improved device capabilities reporting including XINPUT\_CAPS\_WIRELESS, XINPUT\_CAPS\_FFB\_SUPPORTED, XINPUT\_CAPS\_PMD\_SUPPORTED, and XINPUT\_CAPS\_NO\_NAVIGATION flags and more accurate reporting of XINPUT\_CAPS\_VOICE\_SUPPORTED. These flags are combined in the **Flags** member of the [**XINPUT\_CAPABILITIES**](xinput-capabilities.md) structure. The [**XInputGetCapabilities**](xinputgetcapabilities.md) function returns **XINPUT\_CAPABILITIES**.
+-   The new [**XInputGetAudioDeviceIds**](/windows/win32/XInput/nf-xinput-xinputgetaudiodeviceids?branch=master) function provides an audio device ID string that you can use to open an XAudio2 mastering voice or audio device for a headset attached to an Xbox 360 common controller. The [**XInputGetDSoundAudioDeviceGuids**](/windows/win32/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids?branch=master) function is not available in this version.
+-   Provides improved device capabilities reporting including XINPUT\_CAPS\_WIRELESS, XINPUT\_CAPS\_FFB\_SUPPORTED, XINPUT\_CAPS\_PMD\_SUPPORTED, and XINPUT\_CAPS\_NO\_NAVIGATION flags and more accurate reporting of XINPUT\_CAPS\_VOICE\_SUPPORTED. These flags are combined in the **Flags** member of the [**XINPUT\_CAPABILITIES**](/windows/win32/XInput/ns-xinput-_xinput_capabilities?branch=master) structure. The [**XInputGetCapabilities**](/windows/win32/XInput/nf-xinput-xinputgetcapabilities?branch=master) function returns **XINPUT\_CAPABILITIES**.
 
 ### XInput 9.1.0
 
@@ -32,9 +37,9 @@ The Windows SDK contains the header and import library for statically linking ag
 
 XInput 1.4 has these disadvantages over other versions of XInput:
 
--   For backward compatibility reasons, [**XInputGetCapabilities**](xinputgetcapabilities.md) in this version of XInput returns fixed capability information. Regardless of Xbox 360 common controller device attached, **XInputGetCapabilities** in XInput 1.4 will always report a device subtype of GAMEPAD. It will not return the XINPUT\_CAPS\_WIRELESS capability bit even if a wireless device is connected.
--   You can't determine the headset for a given user ID. The [**XInputGetAudioDeviceIds**](xinputgetaudiodeviceids.md) function is not available and [**XInputGetDSoundAudioDeviceGuids**](xinputgetdsoundaudiodeviceguids.md) function will return no results on Windows 8.
--   The [**XInputEnable**](xinputenable.md), [**XInputGetBatteryInformation**](xinputgetbatteryinformation.md), and [**XInputGetKeystroke**](xinputgetkeystroke.md) functions are not available.
+-   For backward compatibility reasons, [**XInputGetCapabilities**](/windows/win32/XInput/nf-xinput-xinputgetcapabilities?branch=master) in this version of XInput returns fixed capability information. Regardless of Xbox 360 common controller device attached, **XInputGetCapabilities** in XInput 1.4 will always report a device subtype of GAMEPAD. It will not return the XINPUT\_CAPS\_WIRELESS capability bit even if a wireless device is connected.
+-   You can't determine the headset for a given user ID. The [**XInputGetAudioDeviceIds**](/windows/win32/XInput/nf-xinput-xinputgetaudiodeviceids?branch=master) function is not available and [**XInputGetDSoundAudioDeviceGuids**](/windows/win32/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids?branch=master) function will return no results on Windows 8.
+-   The [**XInputEnable**](/windows/win32/XInput/nf-xinput-xinputenable?branch=master), [**XInputGetBatteryInformation**](/windows/win32/XInput/nf-xinput-xinputgetbatteryinformation?branch=master), and [**XInputGetKeystroke**](/windows/win32/XInput/nf-xinput-xinputgetkeystroke?branch=master) functions are not available.
 
 ### XInput 1.3
 

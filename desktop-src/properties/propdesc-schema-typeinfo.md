@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies a property''s type information.'
-ms.assetid: 'ae1f8835-ef6c-42bb-b44f-ad374337a012'
+Description: Specifies a propertys type information.
+ms.assetid: ae1f8835-ef6c-42bb-b44f-ad374337a012
 title: typeInfo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # typeInfo

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the type of hashing algorithm used.'
-ms.assetid: '3f8e83f2-0e46-494b-ac63-658e663680ea'
-title: 'HashedData.Algorithm property'
+---
+Description: Sets or retrieves the type of hashing algorithm used.
+ms.assetid: 3f8e83f2-0e46-494b-ac63-658e663680ea
+title: HashedData.Algorithm property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HashedData.Algorithm property

@@ -1,8 +1,11 @@
 ---
 title: Principal.DisplayName property
 description: For scripting, gets or sets the name of the principal..
-ms.assetid: '285a0e64-d796-4b0d-84b1-9ebd0728ddc0'
-keywords: ["DisplayName property Task Scheduler", "DisplayName property Task Scheduler , Principal object", "Principal object Task Scheduler , DisplayName property"]
+ms.assetid: 285a0e64-d796-4b0d-84b1-9ebd0728ddc0
+keywords:
+- DisplayName property Task Scheduler
+- DisplayName property Task Scheduler , Principal object
+- Principal object Task Scheduler , DisplayName property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Principal.DisplayName property
@@ -42,8 +50,8 @@ When setting this property value, the value can be text that is retrieved from a
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -59,9 +67,9 @@ When setting this property value, the value can be text that is retrieved from a
 [**Principal**](principal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

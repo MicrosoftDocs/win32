@@ -1,8 +1,14 @@
 ---
 title: Legal Information
 description: Information in this document, including URL and other Internet Web site references, is subject to change without notice.
-ms.assetid: 'c17525c3-b438-4529-abf7-a55f532398f8'
-keywords: ["OpenGL,legal information"]
+ms.assetid: c17525c3-b438-4529-abf7-a55f532398f8
+keywords:
+- OpenGL,legal information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Legal Information

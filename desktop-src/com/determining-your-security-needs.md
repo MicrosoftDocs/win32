@@ -1,7 +1,12 @@
 ---
 title: Determining Your Security Needs
 description: How you set up COM security for your application depends on what kind of security your application needs. There are several common situations that determine what you should do.
-ms.assetid: 'db5c9adb-b04b-4621-b738-2959cac40985'
+ms.assetid: db5c9adb-b04b-4621-b738-2959cac40985
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining Your Security Needs
@@ -16,7 +21,7 @@ For legacy or new applications, you can set process-wide security in the registr
 
 You can also override default security settings for calls to certain interfaces in the process while setting default security for the remainder of the process (to allow COM to handle the general cases). For more information, see [Setting Security at the Interface Proxy Level](setting-security-at-the-interface-proxy-level.md).
 
-For complex security requirements, you can handle all security programmatically rather than allowing COM to handle it for you. To do this, call [**CoInitializeSecurity**](coinitializesecurity.md) to disable automatic authentication, and then control all the security settings by setting security on a per-interface proxy basis. For more information, see [Setting Processwide Security with CoInitializeSecurity](setting-processwide-security-with-coinitializesecurity.md) and [Setting Security at the Interface Proxy Level](setting-security-at-the-interface-proxy-level.md).
+For complex security requirements, you can handle all security programmatically rather than allowing COM to handle it for you. To do this, call [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) to disable automatic authentication, and then control all the security settings by setting security on a per-interface proxy basis. For more information, see [Setting Processwide Security with CoInitializeSecurity](setting-processwide-security-with-coinitializesecurity.md) and [Setting Security at the Interface Proxy Level](setting-security-at-the-interface-proxy-level.md).
 
 In some scenarios, you might want to turn off security completely. You might decide that your application does not need any security, or you might want to disable security during development time so that you can enable security features individually. To learn how to disable COM security, see [Turning Off Security](turning-off-security.md).
 

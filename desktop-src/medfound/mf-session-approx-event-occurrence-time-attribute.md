@@ -1,7 +1,12 @@
-﻿---
-Description: 'The approximate time when the Media Session raised an event.'
-ms.assetid: '58083bc8-59cc-4503-8fae-36fcd864921a'
-title: 'MF\_SESSION\_APPROX\_EVENT\_OCCURRENCE\_TIME attribute'
+---
+Description: The approximate time when the Media Session raised an event.
+ms.assetid: 58083bc8-59cc-4503-8fae-36fcd864921a
+title: MF\_SESSION\_APPROX\_EVENT\_OCCURRENCE\_TIME attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SESSION\_APPROX\_EVENT\_OCCURRENCE\_TIME attribute
@@ -44,10 +49,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Event Attributes](event-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT64**](imfattributes-getuint64.md)
+[**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT64**](imfattributes-setuint64.md)
+[**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master)
 </dt> </dl>
 
  

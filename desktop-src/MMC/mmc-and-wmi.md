@@ -4,11 +4,16 @@ description: Windows Management Instrumentation (WMI) is the Microsoft implement
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b78778bf-b982-4f97-83c3-c3cae2ab2295'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b78778bf-b982-4f97-83c3-c3cae2ab2295
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC 2.0 and WMI MMC 2.0", "MMC 2.0 and WMI MMC 2.0"]
+keywords:
+- MMC 2.0 and WMI MMC 2.0
+- MMC 2.0 and WMI MMC 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 and WMI

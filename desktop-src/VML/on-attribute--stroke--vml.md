@@ -1,7 +1,12 @@
 ---
 title: On Attribute (Stroke)(VML)
 description: On Attribute (Stroke)(VML)
-ms.assetid: '8a966dc2-826b-4202-9c5c-c6afb00cd501'
+ms.assetid: 8a966dc2-826b-4202-9c5c-c6afb00cd501
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # On Attribute (Stroke)(VML)

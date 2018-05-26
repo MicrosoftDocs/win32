@@ -4,11 +4,16 @@ description: This topic contains examples of strings to use for the WinNT ADsPat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0fad4b34-5287-43a0-a172-a08955b8b132'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0fad4b34-5287-43a0-a172-a08955b8b132
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["WinNT service provider ADSI , WinNT ADsPath", "ADsPath ADSI , WinNT, description"]
+keywords:
+- WinNT service provider ADSI , WinNT ADsPath
+- ADsPath ADSI , WinNT, description
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WinNT ADsPath

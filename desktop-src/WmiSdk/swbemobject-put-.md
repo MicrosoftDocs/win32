@@ -1,13 +1,16 @@
 ---
-Description: 'The Put\_ method of SWbemObject creates or updates an instance or a class object to Windows Management Instrumentation (WMI). You can use this method after you modify any properties or methods in an SWbemObject, and your changes are written to WMI.'
+Description: The Put\_ method of SWbemObject creates or updates an instance or a class object to Windows Management Instrumentation (WMI). You can use this method after you modify any properties or methods in an SWbemObject, and your changes are written to WMI.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c636ff95-9f3e-4ba9-adf3-30b981be02a4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c636ff95-9f3e-4ba9-adf3-30b981be02a4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.Put\_ method'
+title: SWbemObject.Put\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.Put\_ method
@@ -226,8 +229,8 @@ Not enough memory to complete the operation.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -252,9 +255,9 @@ Not enough memory to complete the operation.
 [**SWbemQualifier**](swbemqualifier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

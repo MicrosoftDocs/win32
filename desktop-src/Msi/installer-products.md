@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Products property is a read-only property that returns a StringList object enumerating the set of all products installed or advertised for the current user and machine.'
-ms.assetid: '5c210827-a7cc-4358-bfe6-4d8e9767bd8c'
-title: 'Installer.Products property'
+---
+Description: The Products property is a read-only property that returns a StringList object enumerating the set of all products installed or advertised for the current user and machine.
+ms.assetid: 5c210827-a7cc-4358-bfe6-4d8e9767bd8c
+title: Installer.Products property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.Products property
@@ -41,7 +46,7 @@ To enumerate the products, an application iterates through the [**StringList**](
 
 <dl> <dt>
 
-[**MsiEnumProducts**](msienumproducts.md)
+[**MsiEnumProducts**](/windows/win32/Msi/nf-msi-msienumproductsa?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'Metrics are used to measure aspects of network and protocol performance.'
-ms.assetid: 'ee5faaf6-e230-4084-9829-e8cae8759587'
+Description: Metrics are used to measure aspects of network and protocol performance.
+ms.assetid: ee5faaf6-e230-4084-9829-e8cae8759587
 title: Network Terminology
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Terminology

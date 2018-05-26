@@ -4,11 +4,16 @@ description: It is common to find multiple administrative directories deployed w
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e6f05beb-d88d-46d5-85c7-3477a6af03c9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e6f05beb-d88d-46d5-85c7-3477a6af03c9
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["directory services ADSI", "directory services ADSI ,background for directory services"]
+keywords:
+- directory services ADSI
+- directory services ADSI ,background for directory services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Directory Services Today

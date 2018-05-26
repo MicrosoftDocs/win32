@@ -1,14 +1,21 @@
 ---
 title: IWMDRMEventGenerator interface
 description: The IWMDRMEventGenerator interface is an extension of the IMFMediaEventGenerator interface that provides a method to cancel asynchronous operations.
-ms.assetid: '38d8db83-b8f0-4cc2-b426-cb0e46bde51d'
-keywords: ["IWMDRMEventGenerator interface windows Media Format", "IWMDRMEventGenerator interface windows Media Format , described"]
+ms.assetid: 38d8db83-b8f0-4cc2-b426-cb0e46bde51d
+keywords:
+- IWMDRMEventGenerator interface windows Media Format
+- IWMDRMEventGenerator interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMEventGenerator
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMEventGenerator interface
@@ -33,7 +40,7 @@ The **IWMDRMEventGenerator** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -48,9 +55,9 @@ The **IWMDRMEventGenerator** interface has these methods.
 [Media Foundation SDK](http://msdn.microsoft.com/library/ms694197(VS.85).aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

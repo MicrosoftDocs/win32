@@ -1,8 +1,15 @@
 ---
 title: WinSNMP Communications Management Concepts
 description: The WinSNMP API provides network transport independence for SNMP-based network management applications that execute in the Microsoft Windows 2000 or later operating systems.
-ms.assetid: '6d060204-8f97-434e-9449-93b26cd35993'
-keywords: ["WinSNMP Communications Management Concepts SNMP", "Communications Management Concepts SNMP , WinSNMP"]
+ms.assetid: 6d060204-8f97-434e-9449-93b26cd35993
+keywords:
+- WinSNMP Communications Management Concepts SNMP
+- Communications Management Concepts SNMP , WinSNMP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinSNMP Communications Management Concepts

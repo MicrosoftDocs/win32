@@ -1,7 +1,12 @@
 ---
 title: About Rebar Controls
 description: A Rebar control acts as a container for child windows.
-ms.assetid: 'F17CC2A4-BDC6-48A6-9AF5-19FCF65CC39A'
+ms.assetid: F17CC2A4-BDC6-48A6-9AF5-19FCF65CC39A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Rebar Controls
@@ -19,9 +24,9 @@ The following screen shot shows a rebar control that has two bands. One contains
 
 ## Rebar Bands and Child Windows
 
-An application defines a rebar band's traits by using the [**RB\_INSERTBAND**](rb-insertband.md) and [**RB\_SETBANDINFO**](rb-setbandinfo.md) messages. These messages accept the address of a [**REBARBANDINFO**](rebarbandinfo.md) structure as the *lParam* parameter. The **REBARBANDINFO** structure members define the traits of a given band. To set a band's traits, set the **cbsize** member to indicate the size of the structure, in bytes. Then set the **fMask** member to indicate which structure members your application is filling.
+An application defines a rebar band's traits by using the [**RB\_INSERTBAND**](rb-insertband.md) and [**RB\_SETBANDINFO**](rb-setbandinfo.md) messages. These messages accept the address of a [**REBARBANDINFO**](/windows/win32/Commctrl/ns-commctrl-tagrebarbandinfoa?branch=master) structure as the *lParam* parameter. The **REBARBANDINFO** structure members define the traits of a given band. To set a band's traits, set the **cbsize** member to indicate the size of the structure, in bytes. Then set the **fMask** member to indicate which structure members your application is filling.
 
-To assign a child window to a band, include the RBBIM\_CHILD flag in the **fMask** member of the [**REBARBANDINFO**](rebarbandinfo.md) structure, and then set the **hwndChild** member to the child window's handle. Applications can set the minimum allowable width and height of a child window in the **cxMinChild** and **cyMinChild** members.
+To assign a child window to a band, include the RBBIM\_CHILD flag in the **fMask** member of the [**REBARBANDINFO**](/windows/win32/Commctrl/ns-commctrl-tagrebarbandinfoa?branch=master) structure, and then set the **hwndChild** member to the child window's handle. Applications can set the minimum allowable width and height of a child window in the **cxMinChild** and **cyMinChild** members.
 
 When a rebar control is destroyed, it destroys any child windows assigned to the bands within it. To prevent the control from destroying child windows assigned to its bands, remove the bands by sending the [**RB\_DELETEBAND**](rb-deleteband.md) message, and then use the [**RB\_SETPARENT**](rb-setparent.md) message to reset the parent to another window before destroying the rebar control.
 
@@ -31,7 +36,7 @@ All rebar control bands can be resized, except those that use the RBBS\_FIXEDSIZ
 
 ## The Rebar Control's Image List
 
-If an application is using an image list with a rebar control, it must send the [**RB\_SETBARINFO**](rb-setbarinfo.md) message before adding bands to the control. This message accepts the address of a [**REBARINFO**](rebarinfo.md) structure as the *lParam* parameter. Before sending the message, prepare the **REBARINFO** structure by setting the **cbSize** member to the size of the structure, in bytes. Then, if the rebar control is going to display images on the bands, set the **fMask** member to the RBIM\_IMAGELIST flag and assign an image list handle to the **himl** member. If the rebar will not use band images, set **fMask** to zero.
+If an application is using an image list with a rebar control, it must send the [**RB\_SETBARINFO**](rb-setbarinfo.md) message before adding bands to the control. This message accepts the address of a [**REBARINFO**](/windows/win32/Commctrl/ns-commctrl-tagrebarinfo?branch=master) structure as the *lParam* parameter. Before sending the message, prepare the **REBARINFO** structure by setting the **cbSize** member to the size of the structure, in bytes. Then, if the rebar control is going to display images on the bands, set the **fMask** member to the RBIM\_IMAGELIST flag and assign an image list handle to the **himl** member. If the rebar will not use band images, set **fMask** to zero.
 
 ## Rebar Control Message Forwarding
 

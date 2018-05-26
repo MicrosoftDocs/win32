@@ -4,10 +4,13 @@ description: The following types of classes are defined by Active Directory.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b5dc2319-8a0a-4c60-bac7-2d7d2efbebca'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b5dc2319-8a0a-4c60-bac7-2d7d2efbebca
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Classes

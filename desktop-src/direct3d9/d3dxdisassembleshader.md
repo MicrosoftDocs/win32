@@ -1,7 +1,12 @@
-﻿---
-Description: 'Disassemble a shader.'
-ms.assetid: '30159223-8f88-4929-8ef1-7a6acc13f485'
+---
+Description: Disassemble a shader.
+ms.assetid: 30159223-8f88-4929-8ef1-7a6acc13f485
 title: D3DXDisassembleShader function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXDisassembleShader function

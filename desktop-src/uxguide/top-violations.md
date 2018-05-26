@@ -1,7 +1,12 @@
 ---
 title: UX checklist for desktop applications
-description: Here's a collection of some of the important guidelines in UX Guide. You can use this as a checklist to make sure your program user interface gets these important items right.
-ms.assetid: '4705a807-5949-4957-8ea6-70871beaf8e0'
+description: Heres a collection of some of the important guidelines in UX Guide. You can use this as a checklist to make sure your program user interface gets these important items right.
+ms.assetid: 4705a807-5949-4957-8ea6-70871beaf8e0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UX checklist for desktop applications

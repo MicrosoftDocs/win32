@@ -1,7 +1,12 @@
 ---
 title: Binary or Null Filter
 description: Binary or Null Filter
-ms.assetid: 'e4e536e4-ec78-413f-99b3-1a2aea4410df'
+ms.assetid: e4e536e4-ec78-413f-99b3-1a2aea4410df
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Binary or Null Filter

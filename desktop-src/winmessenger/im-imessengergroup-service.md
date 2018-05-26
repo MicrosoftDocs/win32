@@ -1,8 +1,11 @@
 ---
 title: IMessengerGroup Service property
 description: Retrieves the service object from the group.
-ms.assetid: '6bdad54b-76a3-43b8-a37a-473f384494e9'
-keywords: ["Service property Windows Messenger", "Service property Windows Messenger , IMessengerGroup interface", "IMessengerGroup interface Windows Messenger , Service property"]
+ms.assetid: 6bdad54b-76a3-43b8-a37a-473f384494e9
+keywords:
+- Service property Windows Messenger
+- Service property Windows Messenger , IMessengerGroup interface
+- IMessengerGroup interface Windows Messenger , Service property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerGroup::Service property
 
-\[**Service** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Service** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves the service object from the group.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Service(
-  [out, retval] IDispatch **pService
+  [out, retval] IDispatch **pService
 );
 ```
 
@@ -57,7 +65,7 @@ This property returns no error codes.
 > [!Note]  
 > This property is available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -85,8 +93,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -100,9 +108,9 @@ End Sub
 [**IMessengerGroup**](im-imessengergroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

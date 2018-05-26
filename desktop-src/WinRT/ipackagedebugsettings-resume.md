@@ -1,7 +1,12 @@
-﻿---
-Description: 'Resumes the processes of the package if they are currently suspended.'
-ms.assetid: 'c5376e00-b4b7-4a81-a84c-3a46758fe130'
-title: 'IPackageDebugSettings::Resume method'
+---
+Description: Resumes the processes of the package if they are currently suspended.
+ms.assetid: c5376e00-b4b7-4a81-a84c-3a46758fe130
+title: IPackageDebugSettingsResume method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPackageDebugSettings::Resume method
@@ -58,7 +63,7 @@ Each process receives the [**Resuming**](w_appmod_core.coreapplication_resuming)
 
 <dl> <dt>
 
-[**IPackageDebugSettings**](ipackagedebugsettings.md)
+[**IPackageDebugSettings**](/windows/win32/shobjidl_core/?branch=master)
 </dt> </dl>
 
  

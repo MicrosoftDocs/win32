@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the cipher suite information for a specified protocol, cipher suite, and key type set.'
-ms.assetid: 'ab995d9a-48fa-491a-95b1-d15c5b92f1da'
+Description: Retrieves the cipher suite information for a specified protocol, cipher suite, and key type set.
+ms.assetid: ab995d9a-48fa-491a-95b1-d15c5b92f1da
 title: SslLookupCipherSuiteInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslLookupCipherSuiteInfo function
@@ -13,12 +18,12 @@ The **SslLookupCipherSuiteInfo** function retrieves the cipher suite information
 
 ```C++
 SECURITY_STATUS WINAPI SslLookupCipherSuiteInfo(
-  _In_  NCRYPT_PROV_HANDLE      hSslProvider,
-  _In_  DWORD                   dwProtocol,
-  _In_  DWORD                   dwCipherSuite,
-  _In_  DWORD                   dwKeyType,
-  _Out_ NCRYPT_SSL_CIPHER_SUITE *pCipherSuite,
-  _In_  DWORD                   dwFlags
+  _In_  NCRYPT_PROV_HANDLE      hSslProvider,
+  _In_  DWORD                   dwProtocol,
+  _In_  DWORD                   dwCipherSuite,
+  _In_  DWORD                   dwKeyType,
+  _Out_ NCRYPT_SSL_CIPHER_SUITE *pCipherSuite,
+  _In_  DWORD                   dwFlags
 );
 ```
 
@@ -86,7 +91,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -94,16 +99,16 @@ Possible return codes include, but are not limited to, the following.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

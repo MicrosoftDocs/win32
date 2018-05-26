@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WcsEnumColorProfiles function enumerates all color profiles that satisfy the enumeration criteria in the specified profile management scope.'
-ms.assetid: '54cb2647-5685-4856-9b70-97733758aac2'
+---
+Description: The WcsEnumColorProfiles function enumerates all color profiles that satisfy the enumeration criteria in the specified profile management scope.
+ms.assetid: 54cb2647-5685-4856-9b70-97733758aac2
 title: WcsEnumColorProfiles function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsEnumColorProfiles function

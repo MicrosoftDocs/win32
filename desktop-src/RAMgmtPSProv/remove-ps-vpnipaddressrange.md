@@ -2,13 +2,16 @@
 title: Remove method of the PS\_VpnIPAddressRange class
 description: This cmdlet removes an existing IPv4 address range from the pool for IP address assignment.
 audience: developer
-ms.assetid: '50dd0191-56ed-4d89-b6d3-e17cf934c7c4'
-ms.prod: 'windows-server-dev'
+ms.assetid: 50dd0191-56ed-4d89-b6d3-e17cf934c7c4
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_VpnIPAddressRange class", "PS_VpnIPAddressRange class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_VpnIPAddressRange class
+- PS_VpnIPAddressRange class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_VpnIPAddressRange class
@@ -28,12 +34,12 @@ This cmdlet removes an existing IPv4 address range from the pool for IP address 
 
 ```mof
 uint32 Remove(
-  [in]  string            IPAddress,
-  [in]  string            ComputerName,
-  [in]  boolean           PassThru,
-  [in]  boolean           Force,
-  [in]  string            RoutingDomain,
-  [out] VpnIPAddressRange cmdletOutput
+  [in]  string            IPAddress,
+  [in]  string            ComputerName,
+  [in]  boolean           PassThru,
+  [in]  boolean           Force,
+  [in]  string            RoutingDomain,
+  [out] VpnIPAddressRange cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ The cmdlet ensures that there is at least one address range always present by di
 
 The name of the routing domain of the IP address range.
 
-**Windows Server 2012:** This parameter was changed from *RoutingDomainName* in Windows Server 2012 R2.
+**Windows Server 2012:** This parameter was changed from *RoutingDomainName* in Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -94,7 +100,7 @@ Start and end IP address of the range that was deleted
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -108,9 +114,9 @@ Start and end IP address of the range that was deleted
 [**PS\_VpnIPAddressRange**](ps-vpnipaddressrange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

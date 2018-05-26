@@ -1,7 +1,12 @@
-﻿---
+---
 Description: DebugSetMute function
-ms.assetid: 'c480d56e-63e6-42f0-b02a-75599882cf65'
+ms.assetid: c480d56e-63e6-42f0-b02a-75599882cf65
 title: DebugSetMute function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DebugSetMute function

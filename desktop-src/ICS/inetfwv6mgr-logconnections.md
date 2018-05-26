@@ -1,8 +1,11 @@
 ---
 title: INetFwV6Mgr LogConnections property
 description: Specifies whether the firewall logs information about connections to the file location at LogfilePath.
-ms.assetid: '87362401-7686-4cb5-bbd2-e2c3e13ef9ab'
-keywords: ["LogConnections property ICS/ICF", "LogConnections property ICS/ICF , INetFwV6Mgr interface", "INetFwV6Mgr interface ICS/ICF , LogConnections property"]
+ms.assetid: 87362401-7686-4cb5-bbd2-e2c3e13ef9ab
+keywords:
+- LogConnections property ICS/ICF
+- LogConnections property ICS/ICF , INetFwV6Mgr interface
+- INetFwV6Mgr interface ICS/ICF , LogConnections property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Mgr::LogConnections property
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_LogConnections(
-  [in]  VARIANT_BOOL bvLogConnections
+  [in]  VARIANT_BOOL bvLogConnections
 );
 
 HRESULT get_LogConnections(
-  [out] VARIANT_BOOL *pbvLogConnections
+  [out] VARIANT_BOOL *pbvLogConnections
 );
 ```
 
@@ -69,10 +77,10 @@ If the method fails, the return value is one of the following error codes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -91,9 +99,9 @@ If the method fails, the return value is one of the following error codes.
 [**INetFwV6Mgr**](inetfwv6mgr.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

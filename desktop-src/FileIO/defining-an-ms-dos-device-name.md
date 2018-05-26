@@ -1,12 +1,17 @@
 ---
-Description: 'An MS-DOS device name is a junction that points to the path of an MS-DOS device. These junctions make up the MS-DOS device namespace.'
-ms.assetid: '7d802e9f-dc09-4e3d-b064-e9b57af396e2'
-title: 'Defining an MS-DOS Device Name'
+Description: An MS-DOS device name is a junction that points to the path of an MS-DOS device. These junctions make up the MS-DOS device namespace.
+ms.assetid: 7d802e9f-dc09-4e3d-b064-e9b57af396e2
+title: Defining an MS-DOS Device Name
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining an MS-DOS Device Name
 
-An MS-DOS device name is a junction that points to the path of an MS-DOS device. These junctions make up the MS-DOS device namespace. Call the [**DefineDosDevice**](definedosdevice.md) and [**SetVolumeMountPoint**](setvolumemountpoint.md) functions to create and modify these junctions. [**DeleteVolumeMountPoint**](deletevolumemountpoint.md) deletes a junction created by **SetVolumeMountPoint**, and **DefineDosDevice** deletes junctions it creates.
+An MS-DOS device name is a junction that points to the path of an MS-DOS device. These junctions make up the MS-DOS device namespace. Call the [**DefineDosDevice**](/windows/win32/FileAPI/nf-fileapi-definedosdevicew?branch=master) and [**SetVolumeMountPoint**](/windows/win32/WinBase/nf-winbase-setvolumemountpointa?branch=master) functions to create and modify these junctions. [**DeleteVolumeMountPoint**](/windows/win32/FileAPI/nf-fileapi-deletevolumemountpointw?branch=master) deletes a junction created by **SetVolumeMountPoint**, and **DefineDosDevice** deletes junctions it creates.
 
 After an MS-DOS device name is defined, it remains visible to all processes.
 
@@ -15,9 +20,9 @@ After an MS-DOS device name is defined, it remains visible to all processes.
 
 Multiple Local MS-DOS Device namespaces and only one Global MS-DOS Device namespace may exist at one time and on one machine.
 
-Note that only processes running in the LocalSystem context can call [**DefineDosDevice**](definedosdevice.md) to create an MS-DOS device in the Global MS-DOS device namespace. Also, the Local MS-DOS device namespace corresponding to a specific AuthenticationID is deleted when the last reference to that AuthenticationID is removed.
+Note that only processes running in the LocalSystem context can call [**DefineDosDevice**](/windows/win32/FileAPI/nf-fileapi-definedosdevicew?branch=master) to create an MS-DOS device in the Global MS-DOS device namespace. Also, the Local MS-DOS device namespace corresponding to a specific AuthenticationID is deleted when the last reference to that AuthenticationID is removed.
 
-When your code queries an existing MS-DOS device name by calling [**QueryDosDevice**](querydosdevice.md), it first searches the Local MS-DOS Device namespace. If it is not found there, the function will then search the Global MS-DOS Device namespace. When your code queries all existing MS-DOS device names through this function, the list of names that are returned is dependent on whether it is running in the LocalSystem context. If so, only the MS-DOS device names included in the Global MS-DOS Device namespace will be returned. If not, a concatenation of the device names in the Global and Local MS-DOS Device namespaces will be returned. If a device name exists in both namespaces, **QueryDosDevice** will return the entry in the Local MS-DOS Device namespace. This also applies to the list of all MS-DOS device names returned by [**GetLogicalDrives**](getlogicaldrives.md) and [**GetLogicalDriveStrings**](getlogicaldrivestrings.md).
+When your code queries an existing MS-DOS device name by calling [**QueryDosDevice**](/windows/win32/FileAPI/nf-fileapi-querydosdevicew?branch=master), it first searches the Local MS-DOS Device namespace. If it is not found there, the function will then search the Global MS-DOS Device namespace. When your code queries all existing MS-DOS device names through this function, the list of names that are returned is dependent on whether it is running in the LocalSystem context. If so, only the MS-DOS device names included in the Global MS-DOS Device namespace will be returned. If not, a concatenation of the device names in the Global and Local MS-DOS Device namespaces will be returned. If a device name exists in both namespaces, **QueryDosDevice** will return the entry in the Local MS-DOS Device namespace. This also applies to the list of all MS-DOS device names returned by [**GetLogicalDrives**](/windows/win32/FileAPI/nf-fileapi-getlogicaldrives?branch=master) and [**GetLogicalDriveStrings**](/windows/win32/FileAPI/nf-fileapi-getlogicaldrivestringsw?branch=master).
 
 Note that the following scenario may occur:
 
@@ -26,7 +31,7 @@ Note that the following scenario may occur:
 
 In this scenario, User A will not have access to the device name in the Global MS-DOS Device namespace until he or she removes or renames the device name in his or her Local MS-DOS Device namespace. To reduce the likelihood of this scenario occurring, MS-DOS drive letters should be allocated in the Global MS-DOS Device namespace starting with C: and ending with Z:. This sequence should be reversed for the allocation of MS-DOS drive letters in the Local MS-DOS Device namespace.
 
-If you are not running within the LocalSystem context, [**DefineDosDevice**](definedosdevice.md) will not allow you to define a device name in the Local MS-DOS Device namespace if that device name already exists in your Local or Global MS-DOS Device namespaces. Call [**QueryDosDevice**](querydosdevice.md) before calling **DefineDosDevice** to determine whether the device name you intend to define exists in your MS-DOS Device namespaces.
+If you are not running within the LocalSystem context, [**DefineDosDevice**](/windows/win32/FileAPI/nf-fileapi-definedosdevicew?branch=master) will not allow you to define a device name in the Local MS-DOS Device namespace if that device name already exists in your Local or Global MS-DOS Device namespaces. Call [**QueryDosDevice**](/windows/win32/FileAPI/nf-fileapi-querydosdevicew?branch=master) before calling **DefineDosDevice** to determine whether the device name you intend to define exists in your MS-DOS Device namespaces.
 
 ## Related topics
 

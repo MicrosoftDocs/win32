@@ -1,8 +1,9 @@
 ---
 title: D3DX11SHProjectCubeMap function
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the Spherical Harmonics Math library, SHProjectCubeMap.
-ms.assetid: '58c741a3-dd5d-4b18-b257-5e85a9b799fd'
-keywords: ["D3DX11SHProjectCubeMap function Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the Spherical Harmonics Math library, SHProjectCubeMap.
+ms.assetid: 58c741a3-dd5d-4b18-b257-5e85a9b799fd
+keywords:
+- D3DX11SHProjectCubeMap function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,19 +13,24 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11SHProjectCubeMap function
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 > [!Note]  
 > Instead of using this function, we recommend that you use the [Spherical Harmonics Math](http://go.microsoft.com/fwlink/p/?LinkId=262885) library, **SHProjectCubeMap**.
 
- 
+ 
 
 Projects a function represented in a cube map into spherical harmonics.
 
@@ -33,12 +39,12 @@ Projects a function represented in a cube map into spherical harmonics.
 
 ```C++
 HRESULT D3DX11SHProjectCubeMap(
-   ID3D11DeviceContext *pContext,
-   UINT                Order,
-   ID3D11Texture2D     *pCubeMap,
-   FLOAT               *pROut,
-   FLOAT               *pGOut,
-   FLOAT               *pBOut
+   ID3D11DeviceContext *pContext,
+   UINT                Order,
+   ID3D11Texture2D     *pCubeMap,
+   FLOAT               *pROut,
+   FLOAT               *pGOut,
+   FLOAT               *pBOut
 );
 ```
 
@@ -51,9 +57,9 @@ HRESULT D3DX11SHProjectCubeMap(
 *pContext* 
 </dt> <dd>
 
-Type: **[**ID3D11DeviceContext**](id3d11devicecontext.md)\***
+Type: **[**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master)\***
 
-A pointer to an [**ID3D11DeviceContext**](id3d11devicecontext.md) object.
+A pointer to an [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) object.
 
 </dd> <dt>
 
@@ -69,9 +75,9 @@ Order of the SH evaluation, generates Order^2 coefficients whose degree is Order
 *pCubeMap* 
 </dt> <dd>
 
-Type: **[**ID3D11Texture2D**](id3d11texture2d.md)\***
+Type: **[**ID3D11Texture2D**](/windows/win32/D3D11/nn-d3d11-id3d11texture2d?branch=master)\***
 
-A pointer to an [**ID3D11Texture2D**](id3d11texture2d.md) that represents a cubemap that is going to be projected into spherical harmonics.
+A pointer to an [**ID3D11Texture2D**](/windows/win32/D3D11/nn-d3d11-id3d11texture2d?branch=master) that represents a cubemap that is going to be projected into spherical harmonics.
 
 </dd> <dt>
 
@@ -126,9 +132,9 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Searches for a TAG match within the specified parent and returns the TAGID of the first match.'
-ms.assetid: 'ecbe216c-1e46-4472-b1d1-e2ac7ace82ab'
+---
+Description: Searches for a TAG match within the specified parent and returns the TAGID of the first match.
+ms.assetid: ecbe216c-1e46-4472-b1d1-e2ac7ace82ab
 title: SdbFindFirstTag function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbFindFirstTag function

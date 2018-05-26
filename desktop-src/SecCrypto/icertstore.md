@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides access to the context of a CAPICOM Store object. This context allows the CAPICOM certificate store to be used in other derivations of CryptoAPI.'
-ms.assetid: 'dc108e2d-d6ec-4972-9c8e-e6e738c25756'
+---
+Description: Provides access to the context of a CAPICOM Store object. This context allows the CAPICOM certificate store to be used in other derivations of CryptoAPI.
+ms.assetid: dc108e2d-d6ec-4972-9c8e-e6e738c25756
 title: ICertStore interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertStore interface

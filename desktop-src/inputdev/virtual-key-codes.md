@@ -1,7 +1,7 @@
 ---
 title: Virtual-Key Codes
 description: The following table shows the symbolic constant names, hexadecimal values, and mouse or keyboard equivalents for the virtual-key codes used by the system. The codes are listed in numeric order.
-ms.assetid: 'fa8926ad-41b2-4164-9ba3-ae501fd0eef2'
+ms.assetid: fa8926ad-41b2-4164-9ba3-ae501fd0eef2
 topic_type:
 - apiref
 api_name:
@@ -11,10 +11,13 @@ api_name:
 - VK_MBUTTON
 - VK_XBUTTON1
 - VK_XBUTTON2
+- - 
 - VK_BACK
 - VK_TAB
+- - 
 - VK_CLEAR
 - VK_RETURN
+- - 
 - VK_SHIFT
 - VK_CONTROL
 - VK_MENU
@@ -23,10 +26,12 @@ api_name:
 - VK_KANA
 - VK_HANGUEL
 - VK_HANGUL
+- - 
 - VK_JUNJA
 - VK_FINAL
 - VK_HANJA
 - VK_KANJI
+- - 
 - VK_ESCAPE
 - VK_CONVERT
 - VK_NONCONVERT
@@ -48,9 +53,11 @@ api_name:
 - VK_INSERT
 - VK_DELETE
 - VK_HELP
+- - 
 - VK_LWIN
 - VK_RWIN
 - VK_APPS
+- - 
 - VK_SLEEP
 - VK_NUMPAD0
 - VK_NUMPAD1
@@ -92,8 +99,10 @@ api_name:
 - VK_F22
 - VK_F23
 - VK_F24
+- - 
 - VK_NUMLOCK
 - VK_SCROLL
+- - 
 - VK_LSHIFT
 - VK_RSHIFT
 - VK_LCONTROL
@@ -118,6 +127,7 @@ api_name:
 - VK_LAUNCH_MEDIA_SELECT
 - VK_LAUNCH_APP1
 - VK_LAUNCH_APP2
+- - 
 - VK_OEM_1
 - VK_OEM_PLUS
 - VK_OEM_COMMA
@@ -125,14 +135,18 @@ api_name:
 - VK_OEM_PERIOD
 - VK_OEM_2
 - VK_OEM_3
+- - 
+- - 
 - VK_OEM_4
 - VK_OEM_5
 - VK_OEM_6
 - VK_OEM_7
 - VK_OEM_8
+- - 
 - VK_OEM_102
 - VK_PROCESSKEY
 - VK_PACKET
+- - 
 - VK_ATTN
 - VK_CRSEL
 - VK_EXSEL
@@ -146,6 +160,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual-Key Codes
@@ -357,15 +376,15 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows�2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows�2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
 
-�
+ 
 
-�
+ 
 
 
 

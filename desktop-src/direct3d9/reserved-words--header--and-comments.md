@@ -1,7 +1,12 @@
 ---
-Description: 'The table below shows which words are reserved and must not be used.'
-ms.assetid: '680211de-3f81-4ea7-b03e-741096b5dde0'
-title: 'Reserved Words, Header, and Comments'
+Description: The table below shows which words are reserved and must not be used.
+ms.assetid: 680211de-3f81-4ea7-b03e-741096b5dde0
+title: Reserved Words, Header, and Comments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reserved Words, Header, and Comments

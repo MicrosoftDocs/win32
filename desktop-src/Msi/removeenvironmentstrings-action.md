@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RemoveEnvironmentStrings action modifies the values of environment variables.'
-ms.assetid: '024a734a-2e40-45b6-9dec-73def89a417f'
+---
+Description: The RemoveEnvironmentStrings action modifies the values of environment variables.
+ms.assetid: 024a734a-2e40-45b6-9dec-73def89a417f
 title: RemoveEnvironmentStrings Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveEnvironmentStrings Action

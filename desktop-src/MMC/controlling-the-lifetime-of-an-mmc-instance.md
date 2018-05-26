@@ -4,10 +4,13 @@ description: A script (or other automation program) controls the lifetime of the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '039453b2-736d-4c24-9783-75a30596f3a0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 039453b2-736d-4c24-9783-75a30596f3a0
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Controlling the Lifetime of an MMC Instance

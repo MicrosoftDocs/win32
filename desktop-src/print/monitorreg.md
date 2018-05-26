@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MONITORREG structure supplies print monitors with the address of registry functions to use instead of Win32 registry API functions.'
-ms.assetid: '57c146bc-574f-4137-89bb-e891e005de05'
+---
+Description: The MONITORREG structure supplies print monitors with the address of registry functions to use instead of Win32 registry API functions.
+ms.assetid: 57c146bc-574f-4137-89bb-e891e005de05
 title: MONITORREG structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MONITORREG structure

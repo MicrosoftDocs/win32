@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.Settings.read method
 description: Retrieves a stored value of unspecified type associated with a gadget Settings key.
-ms.assetid: '39120787-6ae1-42de-ac65-1eedc8efcf9d'
-keywords: ["read method Windows Sidebar", "read method Windows Sidebar , System.Gadget.Settings object", "System.Gadget.Settings object Windows Sidebar , read method"]
+ms.assetid: 39120787-6ae1-42de-ac65-1eedc8efcf9d
+keywords:
+- read method Windows Sidebar
+- read method Windows Sidebar , System.Gadget.Settings object
+- System.Gadget.Settings object Windows Sidebar , read method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.Settings.read method
@@ -91,10 +99,10 @@ function SettingsClosed(event)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Corecrt\_io.h</dt> </dl>                       |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
@@ -111,9 +119,9 @@ function SettingsClosed(event)
 [**readString**](system-gadget-settings-readstring.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

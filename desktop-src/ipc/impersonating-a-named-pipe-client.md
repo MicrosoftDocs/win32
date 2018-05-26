@@ -1,7 +1,12 @@
 ---
-Description: 'Impersonation is the ability of a thread to execute in a security context different from that of the process that owns the thread.'
-ms.assetid: '1bde4d4d-958e-45f4-8cdb-0572adcaa3ac'
+Description: Impersonation is the ability of a thread to execute in a security context different from that of the process that owns the thread.
+ms.assetid: 1bde4d4d-958e-45f4-8cdb-0572adcaa3ac
 title: Impersonating a Named Pipe Client
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Impersonating a Named Pipe Client

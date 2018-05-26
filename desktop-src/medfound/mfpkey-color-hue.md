@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adjusts the hue.'
-ms.assetid: '8dc3c888-5ab8-40a1-8768-bec58b62eaf0'
-title: 'MFPKEY\_COLOR\_HUE Property'
+---
+Description: Adjusts the hue.
+ms.assetid: 8dc3c888-5ab8-40a1-8768-bec58b62eaf0
+title: MFPKEY\_COLOR\_HUE Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_COLOR\_HUE Property

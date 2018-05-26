@@ -4,10 +4,13 @@ description: ADSI incorporates several directory service providers, namely, LDAP
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bc7c37c5-2262-4b1b-a623-d6ce13fdec50'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: bc7c37c5-2262-4b1b-a623-d6ce13fdec50
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Interface Implementation of System Providers

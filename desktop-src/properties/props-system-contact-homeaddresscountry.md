@@ -1,7 +1,12 @@
 ---
-Description: 'Home address country name of the contact.'
-ms.assetid: 'd65a6718-0220-4b2f-a1fb-af0c08dbb135'
-title: 'System.Contact.HomeAddressCountry'
+Description: Home address country name of the contact.
+ms.assetid: d65a6718-0220-4b2f-a1fb-af0c08dbb135
+title: System.Contact.HomeAddressCountry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeAddressCountry

@@ -1,7 +1,12 @@
 ---
 Description: Point and Print DLL Functions and Structures
-ms.assetid: '0e7ce579-8142-4ee0-9f07-e9d6179b79e9'
+ms.assetid: 0e7ce579-8142-4ee0-9f07-e9d6179b79e9
 title: Point and Print DLL Functions and Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Point and Print DLL Functions and Structures

@@ -1,8 +1,10 @@
 ---
 title: IVMHostInfo interface
 description: The IVMHostInfo interface retrieves information about the host machine. An IVMHostInfo object is returned from the IVMVirtualServer HostInfo property.
-ms.assetid: '0bd8a1d7-7a60-4b55-b48e-a24873f6a8a7'
-keywords: ["IVMHostInfo interface Virtual Server", "IVMHostInfo interface Virtual Server , described"]
+ms.assetid: 0bd8a1d7-7a60-4b55-b48e-a24873f6a8a7
+keywords:
+- IVMHostInfo interface Virtual Server
+- IVMHostInfo interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo interface
@@ -37,7 +44,7 @@ The **IVMHostInfo** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -78,7 +85,7 @@ The **IVMHostInfo** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,8 +93,8 @@ The **IVMHostInfo** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -99,9 +106,9 @@ The **IVMHostInfo** interface has these properties.
 [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

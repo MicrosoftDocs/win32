@@ -1,8 +1,9 @@
 ---
 title: WMDM\_FORMATCODE enumeration
 description: The WMDM\_FORMATCODE enumeration type defines a list of format codes that describe types of content transferred to and from a device.
-ms.assetid: '203d9bdf-cbbd-4d06-8292-26c8a472e2aa'
-keywords: ["WMDM_FORMATCODE enumeration windows Media Device Manager"]
+ms.assetid: 203d9bdf-cbbd-4d06-8292-26c8a472e2aa
+keywords:
+- WMDM_FORMATCODE enumeration windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDM\_FORMATCODE enumeration
@@ -754,15 +760,15 @@ Format code for a 3G2A (3GPP2A) multimedia container format.
 
 ## Remarks
 
-To discover the formats supported by a device, an application can use [**IWMDMDevice3::GetProperty**](iwmdmdevice3-getproperty.md) to query the **g\_wszWMDMFormatsSupported** device property.
+To discover the formats supported by a device, an application can use [**IWMDMDevice3::GetProperty**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getproperty?branch=master) to query the **g\_wszWMDMFormatsSupported** device property.
 
-To discover device capabilities for a particular format, an application can call [**IWMDMDevice3::GetFormatCapability**](iwmdmdevice3-getformatcapability.md).
+To discover device capabilities for a particular format, an application can call [**IWMDMDevice3::GetFormatCapability**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability?branch=master).
 
-An application can set the format code while creating a storage on device by including the **g\_wszWMDMFormatCode** property in metadata passed in the *pMetaData* parameter of a call to [**IWMDMStorageControl3::Insert3**](iwmdmstoragecontrol3-insert3.md).
+An application can set the format code while creating a storage on device by including the **g\_wszWMDMFormatCode** property in metadata passed in the *pMetaData* parameter of a call to [**IWMDMStorageControl3::Insert3**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3?branch=master).
 
-An application can query the format code of a storage by calling [**IWMDMStorage3::GetMetadata**](iwmdmstorage3-getmetadata.md) or [**IWMDMStorage4::GetSpecifiedMetadata**](iwmdmstorage4-getspecifiedmetadata.md) and retrieving the **g\_wszWMDMFormatCode** property.
+An application can query the format code of a storage by calling [**IWMDMStorage3::GetMetadata**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage3-getmetadata?branch=master) or [**IWMDMStorage4::GetSpecifiedMetadata**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata?branch=master) and retrieving the **g\_wszWMDMFormatCode** property.
 
-If the device supports setting the format code after the creation of storage, an application can use [**IWMDMStorage3::SetMetadata**](iwmdmstorage3-setmetadata.md) to set the **g\_wszWMDMFormatCode** property. Some devices may not allow changing the format code after the storage is created on the device. Therefore, setting this property along with the metadata passed in [**IWMDMStorageControl3::Insert3**](iwmdmstoragecontrol3-insert3.md) is strongly recommended.
+If the device supports setting the format code after the creation of storage, an application can use [**IWMDMStorage3::SetMetadata**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage3-setmetadata?branch=master) to set the **g\_wszWMDMFormatCode** property. Some devices may not allow changing the format code after the storage is created on the device. Therefore, setting this property along with the metadata passed in [**IWMDMStorageControl3::Insert3**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3?branch=master) is strongly recommended.
 
 ## Requirements
 
@@ -781,30 +787,30 @@ If the device supports setting the format code after the creation of storage, an
 [**Enumeration Types**](enumeration-types.md)
 </dt> <dt>
 
-[**IWMDMDevice3::GetFormatCapability**](iwmdmdevice3-getformatcapability.md)
+[**IWMDMDevice3::GetFormatCapability**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability?branch=master)
 </dt> <dt>
 
-[**IWMDMDevice3::GetProperty**](iwmdmdevice3-getproperty.md)
+[**IWMDMDevice3::GetProperty**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getproperty?branch=master)
 </dt> <dt>
 
-[**IWMDMStorage3::GetMetadata**](iwmdmstorage3-getmetadata.md)
+[**IWMDMStorage3::GetMetadata**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage3-getmetadata?branch=master)
 </dt> <dt>
 
-[**IWMDMStorage3::SetMetadata**](iwmdmstorage3-setmetadata.md)
+[**IWMDMStorage3::SetMetadata**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage3-setmetadata?branch=master)
 </dt> <dt>
 
-[**IWMDMStorage4::GetSpecifiedMetadata**](iwmdmstorage4-getspecifiedmetadata.md)
+[**IWMDMStorage4::GetSpecifiedMetadata**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata?branch=master)
 </dt> <dt>
 
-[**IWMDMStorageControl3::Insert3**](iwmdmstoragecontrol3-insert3.md)
+[**IWMDMStorageControl3::Insert3**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3?branch=master)
 </dt> <dt>
 
 [**Metadata Constants**](metadata-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

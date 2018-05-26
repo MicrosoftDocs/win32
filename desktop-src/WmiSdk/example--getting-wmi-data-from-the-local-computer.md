@@ -1,13 +1,16 @@
 ---
-Description: 'You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, retrieves data semisynchronously, and then cleans up.'
+Description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, retrieves data semisynchronously, and then cleans up.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '35dc97aa-dcef-48c1-af8b-ce43e3cf1d3e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 35dc97aa-dcef-48c1-af8b-ce43e3cf1d3e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Example: Getting WMI Data from the Local Computer'
+title: Example Getting WMI Data from the Local Computer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example: Getting WMI Data from the Local Computer
@@ -28,25 +31,25 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-4.  Obtain a pointer to [**IWbemServices**](iwbemservices.md) for the root\\cimv2 namespace on the local computer by calling [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md). To connect to a remote computer, see [Example: Getting WMI Data from a Remote Computer](example--getting-wmi-data-from-a-remote-computer.md).
+4.  Obtain a pointer to [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) for the root\\cimv2 namespace on the local computer by calling [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master). To connect to a remote computer, see [Example: Getting WMI Data from a Remote Computer](example--getting-wmi-data-from-a-remote-computer.md).
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-5.  Set [**IWbemServices**](iwbemservices.md) proxy security so the WMI service can impersonate the client by calling [**CoSetProxyBlanket**](_com_cosetproxyblanket).
+5.  Set [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) proxy security so the WMI service can impersonate the client by calling [**CoSetProxyBlanket**](_com_cosetproxyblanket).
 
     For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md).
 
-6.  Use the [**IWbemServices**](iwbemservices.md) pointer to make requests of WMI. This example executes a query for the name of the operating system by calling [**IWbemServices::ExecQuery**](iwbemservices-execquery.md).
+6.  Use the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) pointer to make requests of WMI. This example executes a query for the name of the operating system by calling [**IWbemServices::ExecQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execquery?branch=master).
 
     The following WQL query is one of the method arguments.
 
     `SELECT * FROM Win32_OperatingSystem`
 
-    The result of this query is stored in an [**IEnumWbemClassObject**](ienumwbemclassobject.md) pointer. This allows the data objects from the query to be retrieved semisynchronously with the **IEnumWbemClassObject** interface. For more information, see [Enumerating WMI](enumerating-wmi.md). For getting the data asynchronously, see [Example: Getting WMI Data from the Local Computer Asynchronously](example--getting-wmi-data-from-the-local-computer-asynchronously.md).
+    The result of this query is stored in an [**IEnumWbemClassObject**](/windows/win32/Wbemcli/nn-wbemcli-ienumwbemclassobject?branch=master) pointer. This allows the data objects from the query to be retrieved semisynchronously with the **IEnumWbemClassObject** interface. For more information, see [Enumerating WMI](enumerating-wmi.md). For getting the data asynchronously, see [Example: Getting WMI Data from the Local Computer Asynchronously](example--getting-wmi-data-from-the-local-computer-asynchronously.md).
 
     For more information about making requests to WMI, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md), [Querying WMI](querying-wmi.md), and [Calling a Method](calling-a-method.md).
 
-7.  Get and display the data from the WQL query. The [**IEnumWbemClassObject**](ienumwbemclassobject.md) pointer is linked to the data objects that the query returned, and the data objects can be retrieved with the [**IEnumWbemClassObject::Next**](ienumwbemclassobject-next.md) method. This method links the data objects to an [**IWbemClassObject**](iwbemclassobject.md) pointer that is passed into the method. Use the [**IWbemClassObject::Get**](iwbemclassobject-get.md) method to get the desired information from the data objects.
+7.  Get and display the data from the WQL query. The [**IEnumWbemClassObject**](/windows/win32/Wbemcli/nn-wbemcli-ienumwbemclassobject?branch=master) pointer is linked to the data objects that the query returned, and the data objects can be retrieved with the [**IEnumWbemClassObject::Next**](/windows/win32/Wbemcli/nf-wbemcli-ienumwbemclassobject-next?branch=master) method. This method links the data objects to an [**IWbemClassObject**](/windows/win32/WbemCli/nn-wbemcli-iwbemclassobject?branch=master) pointer that is passed into the method. Use the [**IWbemClassObject::Get**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-get?branch=master) method to get the desired information from the data objects.
 
     The following code example is used to get the Name property from the data object, which provides the name of the operating system.
 

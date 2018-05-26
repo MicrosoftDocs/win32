@@ -1,8 +1,26 @@
 ---
 title: About the childrenCollection Object
 description: All Service and Storage objects contain a childrenCollection of child objects. Child objects can be retrieved in their entirety, read and enumerated directly, retrieved partially by a list of formats, added to, or removed from a childrenCollection.
-ms.assetid: '9339db79-db69-47d8-bcaa-2d40471932de'
-keywords: ["WPD Automation,WPDObject", "WPD Automation,Service object", "WPD Automation,Storage object", "WPD Automation,CreateNewObject", "WPD Automation,childrenCollection", "WPDObject,WPD Automation", "WPDObject,childrenCollection object", "childrenCollection,about", "childrenCollection,WPD Automation", "childrenCollection,WPDObject", "childrenCollection,CreateNewObject", "CreateNewObject", "GetChildrenByFormat"]
+ms.assetid: 9339db79-db69-47d8-bcaa-2d40471932de
+keywords:
+- WPD Automation,WPDObject
+- WPD Automation,Service object
+- WPD Automation,Storage object
+- WPD Automation,CreateNewObject
+- WPD Automation,childrenCollection
+- WPDObject,WPD Automation
+- WPDObject,childrenCollection object
+- childrenCollection,about
+- childrenCollection,WPD Automation
+- childrenCollection,WPDObject
+- childrenCollection,CreateNewObject
+- CreateNewObject
+- GetChildrenByFormat
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the childrenCollection Object

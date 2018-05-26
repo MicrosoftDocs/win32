@@ -1,8 +1,19 @@
 ---
 title: File Writing Features
 description: File Writing Features
-ms.assetid: '4514f463-26cf-48a4-aa0c-c25fc5a1979f'
-keywords: ["Windows Media Format SDK,file writing features", "Windows Media Format SDK,features", "Advanced Systems Format (ASF),file writing features", "ASF (Advanced Systems Format),file writing features", "Advanced Systems Format (ASF),features", "ASF (Advanced Systems Format),features"]
+ms.assetid: 4514f463-26cf-48a4-aa0c-c25fc5a1979f
+keywords:
+- Windows Media Format SDK,file writing features
+- Windows Media Format SDK,features
+- Advanced Systems Format (ASF),file writing features
+- ASF (Advanced Systems Format),file writing features
+- Advanced Systems Format (ASF),features
+- ASF (Advanced Systems Format),features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Writing Features

@@ -1,7 +1,12 @@
 ---
-Description: 'Business address state of the contact.'
-ms.assetid: '4e0af488-61af-4f1a-b0a2-eff8b9fbbc3a'
-title: 'System.Contact.BusinessAddressState'
+Description: Business address state of the contact.
+ms.assetid: 4e0af488-61af-4f1a-b0a2-eff8b9fbbc3a
+title: System.Contact.BusinessAddressState
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.BusinessAddressState

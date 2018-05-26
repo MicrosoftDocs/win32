@@ -1,14 +1,20 @@
 ---
 title: GlobalDiagnosticPackage Complex Type
 description: Defines the manifest as a global troubleshooting pack.
-ms.assetid: 'a91eba6b-bf4e-4b18-b167-a9492c43ae5a'
-keywords: ["GlobalDiagnosticPackage complex type Windows Troubleshooting Toolkit"]
+ms.assetid: a91eba6b-bf4e-4b18-b167-a9492c43ae5a
+keywords:
+- GlobalDiagnosticPackage complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - GlobalDiagnosticPackage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GlobalDiagnosticPackage Complex Type
@@ -135,7 +141,7 @@ Defines the manifest as a global troubleshooting pack.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td>Interactions</td>
@@ -179,13 +185,13 @@ Defines the manifest as a global troubleshooting pack.
 | Name          | Type                                                | Description                                                                                                                                                                                                                                                                                                                                          |
 |---------------|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Localized     | xs:boolean                                          | Determines whether the strings specified in the manifest are resource strings (true) or literals (false). If true, all UI elements in the manifest must specify a resource identifier (for example, @resource.dll,-123). For localization details, see [Localizing the Troubleshooting Pack](localizing-the-troubleshooting-package.md).<br/> |
-| SchemaVersion | [**dcmPS:Version**](package-version-simpletype.md) | The version of the troubleshooting pack schema used to write this manifest. For Windows 7, the version is 1.0. <br/>                                                                                                                                                                                                                           |
+| SchemaVersion | [**dcmPS:Version**](package-version-simpletype.md) | The version of the troubleshooting pack schema used to write this manifest. For Windows 7, the version is 1.0. <br/>                                                                                                                                                                                                                           |
 
 
 
 ## Remarks
 
-A manifest that contains this node contains a single troubleshooter that can detect multiple root causes. The troubleshooter script determines the order in which the root causes are detected—the script's logic can detect all the root causes or skip individual root causes (for example, the script might skip RootCauseB if RootCauseB depends on first detecting RootCauseA).
+A manifest that contains this node contains a single troubleshooter that can detect multiple root causes. The troubleshooter script determines the order in which the root causes are detected the script's logic can detect all the root causes or skip individual root causes (for example, the script might skip RootCauseB if RootCauseB depends on first detecting RootCauseA).
 
 ## Requirements
 
@@ -193,8 +199,8 @@ A manifest that contains this node contains a single troubleshooter that can det
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -205,9 +211,9 @@ A manifest that contains this node contains a single troubleshooter that can det
 [**DiagnosticPackage Element**](package-diagnosticpackage-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

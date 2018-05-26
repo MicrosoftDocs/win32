@@ -1,7 +1,12 @@
 ---
-Description: 'The system broadcasts the DBT\_DEVNODES\_CHANGED device event when a device has been added to or removed from the system. Applications that maintain lists of devices in the system should refresh their lists.'
-ms.assetid: '62acc633-7dad-4792-a5a2-1f95356479d1'
-title: 'DBT\_DEVNODES\_CHANGED event'
+Description: The system broadcasts the DBT\_DEVNODES\_CHANGED device event when a device has been added to or removed from the system. Applications that maintain lists of devices in the system should refresh their lists.
+ms.assetid: 62acc633-7dad-4792-a5a2-1f95356479d1
+title: DBT\_DEVNODES\_CHANGED event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBT\_DEVNODES\_CHANGED event
@@ -60,7 +65,7 @@ Return **TRUE**.
 
 ## Remarks
 
-There is no additional information about which device has been added to or removed from the system. Applications that require more information should register for device notification using the [**RegisterDeviceNotification**](registerdevicenotification.md) function.
+There is no additional information about which device has been added to or removed from the system. Applications that require more information should register for device notification using the [**RegisterDeviceNotification**](/windows/win32/Winuser/nf-winuser-registerdevicenotificationa?branch=master) function.
 
 ## Requirements
 
@@ -68,8 +73,8 @@ There is no additional information about which device has been added to or remov
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                   |
+| Minimum supported client<br/> | Windows XP<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Dbt.h</dt> </dl> |
 
 
@@ -84,15 +89,15 @@ There is no additional information about which device has been added to or remov
 [Device Management Events](device-management-events.md)
 </dt> <dt>
 
-[**DEV\_BROADCAST\_HDR**](dev-broadcast-hdr-str.md)
+[**DEV\_BROADCAST\_HDR**](/windows/win32/Dbt/ns-dbt-_dev_broadcast_hdr?branch=master)
 </dt> <dt>
 
 [**WM\_DEVICECHANGE**](wm-devicechange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

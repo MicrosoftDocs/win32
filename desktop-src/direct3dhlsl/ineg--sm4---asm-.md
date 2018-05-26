@@ -1,7 +1,12 @@
 ---
 title: ineg (sm4 - asm)
-description: 2's complement.
-ms.assetid: '20C1EEC8-E349-4398-8EE3-EDD01EBCD4B1'
+description: 2s complement.
+ms.assetid: 20C1EEC8-E349-4398-8EE3-EDD01EBCD4B1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ineg (sm4 - asm)
@@ -15,7 +20,7 @@ ms.assetid: '20C1EEC8-E349-4398-8EE3-EDD01EBCD4B1'
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ ms.assetid: '20C1EEC8-E349-4398-8EE3-EDD01EBCD4B1'
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -42,7 +47,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -61,7 +66,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -70,9 +75,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

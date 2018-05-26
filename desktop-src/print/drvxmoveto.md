@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DrvXMoveTo function is obsolete.'
-ms.assetid: '20bebaea-a542-4cdd-8661-4c452a50efe5'
-title: 'PFN\_DrvXMoveTo callback function'
+---
+Description: The DrvXMoveTo function is obsolete.
+ms.assetid: 20bebaea-a542-4cdd-8661-4c452a50efe5
+title: PFN\_DrvXMoveTo callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_DrvXMoveTo callback function

@@ -4,10 +4,13 @@ description: In the example provider component, a code example of the standard D
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'aa05fbd1-509d-4ed6-8a49-1ce11ce54c0e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: aa05fbd1-509d-4ed6-8a49-1ce11ce54c0e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LIBMAIN.CPP
@@ -22,15 +25,15 @@ In the example provider component, a code example of the standard DLL entry poin
 | **DllCanUnloadNow**<br/>        | Standard DLL entry point to determine if DLL can be unloaded.<br/> |
 | **LibMain**<br/>                | Standard DLL initialization entry point.<br/>                      |
 | **IsCompatibleOleVersion**<br/> | Verify compatibility with the OLE run time.<br/>                   |
-| **DllMain**<br/>                | Entry point for most Windows 2000 or Windows NT versions.<br/>     |
+| **DllMain**<br/>                | Entry point for most Windows 2000 or Windows NT versions.<br/>     |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

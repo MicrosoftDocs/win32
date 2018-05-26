@@ -1,7 +1,12 @@
 ---
 title: Tiled resource cross process and device sharing
 description: Tile pools can be shared with other processes just like traditional resources.
-ms.assetid: 'CADE009E-A71E-4ACA-A549-EFCE81F8EAD1'
+ms.assetid: CADE009E-A71E-4ACA-A549-EFCE81F8EAD1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tiled resource cross process and device sharing
@@ -20,7 +25,7 @@ Shared tile pools can't be resized.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ Shared tile pools can't be resized.
 [Creating tiled resources](creating-tiled-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

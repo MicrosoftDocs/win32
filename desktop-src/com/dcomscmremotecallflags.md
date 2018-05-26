@@ -1,8 +1,14 @@
 ---
 title: DCOMSCMRemoteCallFlags
 description: Controls the behavior of calls from the local DCOM Service Control Manager (DCOMSCM) to a remote DCOMSCM.
-ms.assetid: 'fb306da7-4b9a-4386-8525-7f78bd6bf728'
-keywords: ["DCOMSCMRemoteCallFlags registry value COM"]
+ms.assetid: fb306da7-4b9a-4386-8525-7f78bd6bf728
+keywords:
+- DCOMSCMRemoteCallFlags registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DCOMSCMRemoteCallFlags
@@ -44,7 +50,7 @@ By setting this flag, the local DCOMSCM on Windows Vista or higher can be made 
 
 ## DCOMSCM\_ACTIVATION\_DISALLOW\_UNSECURE\_CALL Description
 
-If the **DCOMSCM\_ACTIVATION\_DISALLOW\_UNSECURE\_CALL** flag is set, the local DCOMSCM does not make an unsecure activation RPC call. To enable clients to make activation requests with non-default security settings, specify the [**COAUTHINFO**](coauthinfo.md) structure when making the activation request. In this case, the **DCOMSCM\_ACTIVATION\_USE\_ALL\_AUTHNSERVICES** and **DCOMSCM\_ACTIVATION\_DISALLOW\_UNSECURE\_CALL** flags are ignored.
+If the **DCOMSCM\_ACTIVATION\_DISALLOW\_UNSECURE\_CALL** flag is set, the local DCOMSCM does not make an unsecure activation RPC call. To enable clients to make activation requests with non-default security settings, specify the [**COAUTHINFO**](/windows/win32/wtypesbase/ns-wtypesbase-_coauthinfo?branch=master) structure when making the activation request. In this case, the **DCOMSCM\_ACTIVATION\_USE\_ALL\_AUTHNSERVICES** and **DCOMSCM\_ACTIVATION\_DISALLOW\_UNSECURE\_CALL** flags are ignored.
 
 It is not recommended to set this flag unless all the clients and servers in the network are fully authenticated.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '7972fd88-ca99-4a42-8476-754b26eb118c'
+---
+Description: .
+ms.assetid: 7972fd88-ca99-4a42-8476-754b26eb118c
 title: DrvSplEndDoc function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvSplEndDoc function

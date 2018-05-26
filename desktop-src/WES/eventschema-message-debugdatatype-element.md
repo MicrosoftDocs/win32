@@ -1,14 +1,20 @@
 ---
 title: Message (DebugDataType) Element
 description: The message string. The XML contains this element if the WPP event specified the FormattedString field.
-ms.assetid: '9a18f576-a9c0-43f3-b7eb-71a78a67bb0c'
-keywords: ["Message element EventLog"]
+ms.assetid: 9a18f576-a9c0-43f3-b7eb-71a78a67bb0c
+keywords:
+- Message element EventLog
 topic_type:
 - apiref
 api_name:
 - Message
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Message (DebugDataType) Element
@@ -29,8 +35,8 @@ The **Message** element is defined by the [**DebugDataType**](eventschema-debugd
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **Message** element is defined by the [**DebugDataType**](eventschema-debugd
 [**DebugData (EventType)**](eventschema-debugdata-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

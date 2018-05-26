@@ -1,8 +1,18 @@
 ---
 title: UI Automation Tree Overview
 description: Assistive technology products and test scripts navigate the Microsoft UI Automation tree to gather information about the UI and its elements.
-ms.assetid: 'f3afe258-baa7-41b5-a27e-cdc94b467d73'
-keywords: ["UI Automation,tree overview", "UI Automation,view of tree", "UI Automation,raw view of tree", "UI Automation,control view of tree", "UI Automation,content view of tree"]
+ms.assetid: f3afe258-baa7-41b5-a27e-cdc94b467d73
+keywords:
+- UI Automation,tree overview
+- UI Automation,view of tree
+- UI Automation,raw view of tree
+- UI Automation,control view of tree
+- UI Automation,content view of tree
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Tree Overview
@@ -31,7 +41,7 @@ The UI Automation tree can be filtered to create views that contain only those U
 
 The client can customize the view by scoping and by filtering. Scoping is defining the extent of the view, starting from a base element. For example, the application might want to find only direct children of the desktop, or all descendants of an application window. Filtering is defining the types of elements that are included in the view.
 
-UI Automation providers support filtering by defining properties on elements, including the [**IUIAutomationElement::IsControlElement**](uiauto-iuiautomationelement-currentiscontrolelement.md) and [**IUIAutomationElement::IsContentElement**](uiauto-iuiautomationelement-currentiscontentelement.md) properties.
+UI Automation providers support filtering by defining properties on elements, including the [**IUIAutomationElement::IsControlElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentiscontrolelement?branch=master) and [**IUIAutomationElement::IsContentElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentiscontentelement?branch=master) properties.
 
 UI Automation provides three default views: raw view, control view, and content view. These views are defined by the type of filtering performed. The scope of any view is defined by the application. The application can apply other filters on properties; for example, to include only enabled controls in a control view.
 
@@ -39,11 +49,11 @@ UI Automation provides three default views: raw view, control view, and content 
 
 The raw view of the UI Automation tree is the full tree of automation elements for which the desktop is the root. The raw view closely follows the native programmatic structure of an application, and is the most detailed view available. It is also the base on which the other views of the tree are built. Because this view depends on the underlying UI framework, the raw view of a Windows Presentation Foundation (WPF) button has a different raw view than a Microsoft Win32 button.
 
-The raw view is obtained by searching for elements without specifying properties or by using the [**IUIAutomation::RawViewWalker**](uiauto-iuiautomation-rawviewwalker.md) to get an [**IUIAutomationTreeWalker**](uiauto-iuiautomationtreewalker.md) interface for navigating the tree.
+The raw view is obtained by searching for elements without specifying properties or by using the [**IUIAutomation::RawViewWalker**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-get_rawviewwalker?branch=master) to get an [**IUIAutomationTreeWalker**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationtreewalker?branch=master) interface for navigating the tree.
 
 ### Control View
 
-The control view is a subset of the raw view. It includes only those UI items that have the [**IUIAutomationElement::IsControlElement**](uiauto-iuiautomationelement-currentiscontrolelement.md) property set to **TRUE**.
+The control view is a subset of the raw view. It includes only those UI items that have the [**IUIAutomationElement::IsControlElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentiscontrolelement?branch=master) property set to **TRUE**.
 
 The control view includes the UI items that provide information to the user or enable the user to perform an action. These are the UI items that are most interesting to automated testing applications.
 
@@ -53,17 +63,17 @@ Noninteractive items used only for layout or decorative purposes, such as panels
 
 The control view of the UI Automation tree closely maps to the UI structure perceived by an end user. This makes it easier for the assistive technology product to describe the UI to the end user and help that end user interact with the application.
 
-The control view is obtained by searching for elements that have the [**IUIAutomationElement::IsControlElement**](uiauto-iuiautomationelement-currentiscontrolelement.md) property set to true, or by using [**ControlViewWalker**](uiauto-iuiautomation-controlviewwalker.md) to get an [**IUIAutomationTreeWalker**](uiauto-iuiautomationtreewalker.md) interface for navigating the tree.
+The control view is obtained by searching for elements that have the [**IUIAutomationElement::IsControlElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentiscontrolelement?branch=master) property set to true, or by using [**ControlViewWalker**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-get_controlviewwalker?branch=master) to get an [**IUIAutomationTreeWalker**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationtreewalker?branch=master) interface for navigating the tree.
 
 ### Content View
 
-The content view of the UI Automation tree is a subset of the control view. It includes only those UI items that have both the [**IUIAutomationElement::IsControlElement**](uiauto-iuiautomationelement-currentiscontrolelement.md) and the [**IUIAutomationElement::IsContentElement**](uiauto-iuiautomationelement-currentiscontentelement.md) property set to **TRUE**.
+The content view of the UI Automation tree is a subset of the control view. It includes only those UI items that have both the [**IUIAutomationElement::IsControlElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentiscontrolelement?branch=master) and the [**IUIAutomationElement::IsContentElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentiscontentelement?branch=master) property set to **TRUE**.
 
 The content view contains UI items that convey the actual information in a user interface, including UI items that can receive keyboard focus and some text that is not a label on a UI item. These are the UI items that are most interesting to a screen reader application. For example, the values in a drop-down combo box appear in the content view because the values represent information being used by an end user.
 
 In the content view, a combo box and a list box are both represented as a collection of UI items where one, or more than one, item can be selected. The fact that one item is always open and one item can expand and collapse is irrelevant in the content view because it is designed to show the data, or content, that is being presented to the user.
 
-The content view is obtained by searching for elements that have both the [**IsControlElement**](uiauto-iuiautomationelement-currentiscontrolelement.md) and the [**CurrentIsContentElement**](uiauto-iuiautomationelement-currentiscontentelement.md) property set to **TRUE**, or by using [**IUIAutomation::ContentViewWalker**](uiauto-iuiautomation-contentviewwalker.md) to get an [**IUIAutomationTreeWalker**](uiauto-iuiautomationtreewalker.md) interface for navigating the tree.
+The content view is obtained by searching for elements that have both the [**IsControlElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentiscontrolelement?branch=master) and the [**CurrentIsContentElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentiscontentelement?branch=master) property set to **TRUE**, or by using [**IUIAutomation::ContentViewWalker**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-get_contentviewwalker?branch=master) to get an [**IUIAutomationTreeWalker**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationtreewalker?branch=master) interface for navigating the tree.
 
 The following images show the differences between the control view and content view. The first image shows a simple combo box with three items in the dropdown list. The second image shows how the combo box UI items appear in the control and content views of the UISpy.exe application.
 

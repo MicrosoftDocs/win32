@@ -1,12 +1,17 @@
-﻿---
-Description: 'Stores the IUnknown pointer of the class that implements the IMFSSLCertificateManager interface.'
-ms.assetid: '13e05bda-96c2-4095-a266-74185760f33a'
-title: 'MFNETSOURCE\_SSLCERTIFICATE\_MANAGER property'
+---
+Description: Stores the IUnknown pointer of the class that implements the IMFSSLCertificateManager interface.
+ms.assetid: 13e05bda-96c2-4095-a266-74185760f33a
+title: MFNETSOURCE\_SSLCERTIFICATE\_MANAGER property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_SSLCERTIFICATE\_MANAGER property
 
-Stores the **IUnknown** pointer of the class that implements the [**IMFSSLCertificateManager**](imfsslcertificatemanager.md) interface. The client implemention provides methods to get the client SSL certificate when it is requested by the server.
+Stores the **IUnknown** pointer of the class that implements the [**IMFSSLCertificateManager**](/windows/win32/mfidl/nn-mfidl-imfsslcertificatemanager?branch=master) interface. The client implemention provides methods to get the client SSL certificate when it is requested by the server.
 
 
 

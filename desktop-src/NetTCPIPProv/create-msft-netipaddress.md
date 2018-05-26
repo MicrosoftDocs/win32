@@ -1,7 +1,12 @@
 ---
-Description: 'Creates the IPAddress.'
-ms.assetid: '5c4657fd-9cf6-4538-90ee-5aaa881e945b'
-title: 'Create method of the MSFT\_NetIPAddress class'
+Description: Creates the IPAddress.
+ms.assetid: 5c4657fd-9cf6-4538-90ee-5aaa881e945b
+title: Create method of the MSFT\_NetIPAddress class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create method of the MSFT\_NetIPAddress class
@@ -13,22 +18,22 @@ Creates the IPAddress.
 
 ```mof
 uint32 Create(
-  [in]  uint32            InterfaceIndex,
-  [in]  string            InterfaceAlias,
-  [in]  string            IPAddress,
-  [in]  uint16            AddressFamily,
-  [in]  uint8             PrefixLength,
-  [in]  uint8             Type,
-  [in]  uint16            PrefixOrigin,
-  [in]  uint16            SuffixOrigin,
-  [in]  uint16            AddressState,
-  [in]  datetime          ValidLifetime,
-  [in]  datetime          PreferredLifetime,
-  [in]  boolean           SkipAsSource,
-  [in]  string            DefaultGateway,
-  [in]  string            PolicyStore,
-  [in]  boolean           PassThru,
-  [out] MSFT_NetIPAddress CmdletOutput[]
+  [in]  uint32            InterfaceIndex,
+  [in]  string            InterfaceAlias,
+  [in]  string            IPAddress,
+  [in]  uint16            AddressFamily,
+  [in]  uint8             PrefixLength,
+  [in]  uint8             Type,
+  [in]  uint16            PrefixOrigin,
+  [in]  uint16            SuffixOrigin,
+  [in]  uint16            AddressState,
+  [in]  datetime          ValidLifetime,
+  [in]  datetime          PreferredLifetime,
+  [in]  boolean           SkipAsSource,
+  [in]  string            DefaultGateway,
+  [in]  string            PolicyStore,
+  [in]  boolean           PassThru,
+  [out] MSFT_NetIPAddress CmdletOutput[]
 );
 ```
 
@@ -73,7 +78,7 @@ Indicates whether the address family for this IP address is v4 or v6.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -91,7 +96,7 @@ The type of address.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -109,7 +114,7 @@ The type of address.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -237,8 +242,8 @@ An embedded instance of the [**MSFT\_NetIPAddress**](msft-netipaddress.md) class
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                           |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                           |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                           |
 | Header<br/>                   | <dl> <dt>Spcollec.h (include Dxtmpl.h)</dt> </dl> |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl>                  |
@@ -253,9 +258,9 @@ An embedded instance of the [**MSFT\_NetIPAddress**](msft-netipaddress.md) class
 [**MSFT\_NetIPAddress**](msft-netipaddress.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

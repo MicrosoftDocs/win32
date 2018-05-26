@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates if a flash was triggered for the captured frame.'
-ms.assetid: 'CF900CB4-8967-40F3-B60C-867192A641E9'
-title: 'MF\_CAPTURE\_METADATA\_PHOTO\_FRAME\_FLASH attribute'
+---
+Description: Indicates if a flash was triggered for the captured frame.
+ms.assetid: CF900CB4-8967-40F3-B60C-867192A641E9
+title: MF\_CAPTURE\_METADATA\_PHOTO\_FRAME\_FLASH attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_CAPTURE\_METADATA\_PHOTO\_FRAME\_FLASH attribute

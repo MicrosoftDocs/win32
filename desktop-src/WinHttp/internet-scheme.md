@@ -1,7 +1,12 @@
 ---
-Description: 'Internet schemes supported by WinHTTP.'
-ms.assetid: '31e45879-807e-4dd5-9f99-94a46011e55e'
-title: 'INTERNET\_SCHEME'
+Description: Internet schemes supported by WinHTTP.
+ms.assetid: 31e45879-807e-4dd5-9f99-94a46011e55e
+title: INTERNET\_SCHEME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INTERNET\_SCHEME
@@ -44,7 +49,7 @@ An HTTPS (SSL) internet scheme.
 
 
 
-An FTP internet scheme. This scheme is only supported for use in [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md) and [**WinHttpGetProxyForUrlEx**](winhttpgetproxyforurlex.md).
+An FTP internet scheme. This scheme is only supported for use in [**WinHttpGetProxyForUrl**](/windows/win32/Winhttp/nf-winhttp-winhttpgetproxyforurl?branch=master) and [**WinHttpGetProxyForUrlEx**](/windows/win32/Winhttp/nf-winhttp-winhttpgetproxyforurlex?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -57,7 +62,7 @@ An FTP internet scheme. This scheme is only supported for use in [**WinHttpGetPr
 
 
 
-A SOCKS internet scheme. This scheme is only supported for use in [**WINHTTP\_PROXY\_RESULT\_ENTRY**](winhttp-proxy-result-entry.md).
+A SOCKS internet scheme. This scheme is only supported for use in [**WINHTTP\_PROXY\_RESULT\_ENTRY**](/windows/win32/winhttp/ns-winhttp-_winhttp_proxy_result_entry?branch=master).
 
 
 </dt> </dl> </dd> </dl>
@@ -68,8 +73,8 @@ A SOCKS internet scheme. This scheme is only supported for use in [**WINHTTP\_PR
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>      |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>   |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>      |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>   |
 | Header<br/>                   | <dl> <dt>Winhttp.h</dt> </dl> |
 
 
@@ -78,12 +83,12 @@ A SOCKS internet scheme. This scheme is only supported for use in [**WINHTTP\_PR
 
 <dl> <dt>
 
-[**WINHTTP\_PROXY\_RESULT\_ENTRY**](winhttp-proxy-result-entry.md)
+[**WINHTTP\_PROXY\_RESULT\_ENTRY**](/windows/win32/winhttp/ns-winhttp-_winhttp_proxy_result_entry?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

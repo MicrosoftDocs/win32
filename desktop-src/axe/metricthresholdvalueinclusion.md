@@ -1,8 +1,9 @@
 ---
 title: MetricThresholdValueInclusion enumeration
 description: Indicates whether a comparison should be inclusive or exclusive.
-ms.assetid: 'EBBA7629-AA33-4F8B-93AA-94E827EFCC51'
-keywords: ["MetricThresholdValueInclusion enumeration Access Execution Engine"]
+ms.assetid: EBBA7629-AA33-4F8B-93AA-94E827EFCC51
+keywords:
+- MetricThresholdValueInclusion enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeRuntime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholdValueInclusion enumeration
@@ -22,7 +28,7 @@ Indicates whether a comparison should be inclusive or exclusive.
 
 ```C++
 typedef enum _MetricThresholdValueInclusion { 
-  MetricThresholdValueInclusion_NotSet    = 0,
+  MetricThresholdValueInclusion_NotSet    = 0,
   MetricThresholdValueInclusionInclusive,
   MetricThresholdValueInclusionExclusive,
   MetricThresholdValueInclusion_Max
@@ -73,15 +79,15 @@ This enumeration maps to the [**Inclusion (MetricThresholdValue)**](inclusion--m
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

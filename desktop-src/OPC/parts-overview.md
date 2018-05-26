@@ -1,8 +1,23 @@
 ---
 title: Parts Overview
 description: This topic describes the basics of using Packaging APIs to interact with parts.
-ms.assetid: '95da581d-3d30-4cd7-bd20-f44bf505ac0a'
-keywords: ["Packaging APIs,parts", "packaging,parts", "packages,parts", "parts,about", "parts,objects", "parts,physical model", "physical model", "parts,finding", "parts,relationship types", "relationships,parts"]
+ms.assetid: 95da581d-3d30-4cd7-bd20-f44bf505ac0a
+keywords:
+- Packaging APIs,parts
+- packaging,parts
+- packages,parts
+- parts,about
+- parts,objects
+- parts,physical model
+- physical model
+- parts,finding
+- parts,relationship types
+- relationships,parts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parts Overview
@@ -23,7 +38,7 @@ This topic contains the following sections.
 
 ## Introduction
 
-In the analogy of a package to a real–world filing system, the parts in a package are like the folders in a filing cabinet. Parts store application data, like folders store personal or business information. To further extend the analogy, the content of a part is data in the form of a byte stream like the content of a folder is information in the form of paperwork.
+In the analogy of a package to a real world filing system, the parts in a package are like the folders in a filing cabinet. Parts store application data, like folders store personal or business information. To further extend the analogy, the content of a part is data in the form of a byte stream like the content of a folder is information in the form of paperwork.
 
 In the logical model of a package, parts are resources that are URI-addressable data components inside a package. A part consists of a byte stream of data and properties which are specified in the *ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)*.
 
@@ -35,13 +50,13 @@ For a table of prerequisites, see [Packaging](packaging.md).
 
 ## Part Objects
 
-Windows 7 provides the part object implementation of the [**IOpcPart**](iopcpart.md) interface.
+Windows 7 provides the part object implementation of the [**IOpcPart**](/windows/previous-versions/msopc/nn-msopc-iopcpart?branch=master) interface.
 
-A part object is instantiated to represent a part. The object is created by calling the [**IOpcPartSet::CreatePart**](iopcpartset-createpart.md) method and accessed by calling the [**IOpcPartSet::GetPart**](iopcpartset-getpart.md) or [**IOpcPartEnumerator::GetCurrent**](iopcpartenumerator-getcurrent.md) method.
+A part object is instantiated to represent a part. The object is created by calling the [**IOpcPartSet::CreatePart**](/windows/previous-versions/msopc/nf-msopc-iopcpartset-createpart?branch=master) method and accessed by calling the [**IOpcPartSet::GetPart**](/windows/previous-versions/msopc/nf-msopc-iopcpartset-getpart?branch=master) or [**IOpcPartEnumerator::GetCurrent**](/windows/previous-versions/msopc/nf-msopc-iopcpartenumerator-getcurrent?branch=master) method.
 
-A part object is contained in a part set object that implements the [**IOpcPartSet**](iopcpartset.md) interface. This set can be retrieved by calling the [**IOpcPackage::GetPartSet**](iopcpackage-getpartset.md) method, and it represents all the parts that are not Relationships parts in a package. In addition to providing support for creating part objects, the set also provides support for deleting part objects and for getting an enumerator of the part objects contained in the set. For more information about part set objects, see the **IOpcPartSet** topic.
+A part object is contained in a part set object that implements the [**IOpcPartSet**](/windows/previous-versions/msopc/nn-msopc-iopcpartset?branch=master) interface. This set can be retrieved by calling the [**IOpcPackage::GetPartSet**](/windows/previous-versions/msopc/nf-msopc-iopcpackage-getpartset?branch=master) method, and it represents all the parts that are not Relationships parts in a package. In addition to providing support for creating part objects, the set also provides support for deleting part objects and for getting an enumerator of the part objects contained in the set. For more information about part set objects, see the **IOpcPartSet** topic.
 
-A pointer to the [**IOpcPart**](iopcpart.md) interface of a part object provides access to part information and an [**IOpcRelationshipSet**](iopcrelationshipset.md) interface. An **IOpcPart** provides access to part information through methods that allow access to the following properties: content, content type, name, and compression option. These properties are listed in the table that follows.
+A pointer to the [**IOpcPart**](/windows/previous-versions/msopc/nn-msopc-iopcpart?branch=master) interface of a part object provides access to part information and an [**IOpcRelationshipSet**](/windows/previous-versions/msopc/nn-msopc-iopcrelationshipset?branch=master) interface. An **IOpcPart** provides access to part information through methods that allow access to the following properties: content, content type, name, and compression option. These properties are listed in the table that follows.
 
 | Property     | Description                                                                          |
 |--------------|--------------------------------------------------------------------------------------|
@@ -52,13 +67,13 @@ A pointer to the [**IOpcPart**](iopcpart.md) interface of a part object provides
 
 
 
- 
+ 
 
-The part name is represented by a part URI object, which implements the [**IOpcPartUri**](iopcparturi.md) interface. The following diagram shows a part object and the part URI and relationship set objects that can be retrieved from it.
+The part name is represented by a part URI object, which implements the [**IOpcPartUri**](/windows/previous-versions/msopc/nn-msopc-iopcparturi?branch=master) interface. The following diagram shows a part object and the part URI and relationship set objects that can be retrieved from it.
 
 ![illustration showing a part object and the part uri and relationship set objects that can be retrieved from it](../images/part-object.png)
 
-The relationship set object retrieved with the [**IOpcPart::GetRelationshipSet**](iopcpart-getrelationshipset.md) represents the Relationships part that stores relationships that have the current part as their source. The object is an unordered set of [**IOpcRelationship**](iopcrelationship.md) interface pointers to relationship objects. Each relationship object represents one part relationship. For more information about relationship objects, see the [Relationships Overview](relationships-overview.md) topic.
+The relationship set object retrieved with the [**IOpcPart::GetRelationshipSet**](/windows/previous-versions/msopc/nf-msopc-iopcpart-getrelationshipset?branch=master) represents the Relationships part that stores relationships that have the current part as their source. The object is an unordered set of [**IOpcRelationship**](/windows/previous-versions/msopc/nn-msopc-iopcrelationship?branch=master) interface pointers to relationship objects. Each relationship object represents one part relationship. For more information about relationship objects, see the [Relationships Overview](relationships-overview.md) topic.
 
 ## Mapping Parts to a Physical Model
 
@@ -79,7 +94,7 @@ The following code shows example markup for a relationship, including the relati
 > [!Note]  
 > The example uses the default **TargetMode**: "Internal".
 
- 
+ 
 
 
 ```XML
@@ -117,7 +132,7 @@ For an example of how an application can use a relationship type to find a part,
         > \[!Important\]  
         > If the package format designer describes an expected number of relationships of the specified relationship type that can be stored in a Relationships part, check that the number of relationships retrieved conforms to that expectation. For information about the expected number of relationships for a specified relationship type, see the specification provided by the package format designer or the OPC.
 
-         
+         
 
 4.  To find the part, iterate through relationships of the specified relationship type.
 
@@ -143,7 +158,7 @@ While not required to use the Packaging API, knowledge of the following technolo
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -179,9 +194,9 @@ While not required to use the Packaging API, knowledge of the following technolo
 [ECMA-376 OpenXML](http://go.microsoft.com/fwlink/p/?linkid=123375)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

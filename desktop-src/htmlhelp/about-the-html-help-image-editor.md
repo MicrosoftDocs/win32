@@ -1,7 +1,12 @@
 ---
 title: About the HTML Help Image Editor
 description: About the HTML Help Image Editor
-ms.assetid: '52854992-6DAD-41f2-9F3F-5F43F70C6830'
+ms.assetid: 52854992-6DAD-41f2-9F3F-5F43F70C6830
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the HTML Help Image Editor

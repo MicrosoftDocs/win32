@@ -1,7 +1,12 @@
 ---
-Description: 'Extends properties defined for the Rowset APIs.'
-ms.assetid: 'C1A2DF19-C68D-42CC-9CB2-190F22CB4158'
-title: 'DBPROPSET\_MSIDXS\_ROWSETEXT'
+Description: Extends properties defined for the Rowset APIs.
+ms.assetid: C1A2DF19-C68D-42CC-9CB2-190F22CB4158
+title: DBPROPSET\_MSIDXS\_ROWSETEXT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPROPSET\_MSIDXS\_ROWSETEXT

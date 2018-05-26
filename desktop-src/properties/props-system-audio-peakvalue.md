@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '576070e9-8f7a-4df7-ba3a-0872aa96a0ab'
-title: 'System.Audio.PeakValue'
+Description: .
+ms.assetid: 576070e9-8f7a-4df7-ba3a-0872aa96a0ab
+title: System.Audio.PeakValue
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Audio.PeakValue

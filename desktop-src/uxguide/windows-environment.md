@@ -1,7 +1,12 @@
 ---
 title: Windows Environment
-description: The Windows environment is the onscreen work area provided by Windows, analogous to a physical desktop, and the operating system's core extension points.
-ms.assetid: '9485459D-AE46-43D1-941C-3B5EE784391F'
+description: The Windows environment is the onscreen work area provided by Windows, analogous to a physical desktop, and the operating systems core extension points.
+ms.assetid: 9485459D-AE46-43D1-941C-3B5EE784391F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Environment
@@ -18,16 +23,16 @@ The Windows environment is the onscreen work area provided by Windows, analogous
 | [Taskbar](winenv-taskbar.md)<br/>                | The taskbar is the access point for programs displayed on the desktop. With the new Windows 7 taskbar features, users can give commands, access resources, and view program status directly from the taskbar. <br/> |
 | [Notification Area](winenv-notification.md)<br/> | The notification area provides notifications and status. Well-designed programs use the notification area appropriately, without being annoying or distracting. <br/>                                               |
 | [Control Panels](winenv-ctrl-panels.md)<br/>     | Use control panel items to help users configure system-level features and perform related tasks. Programs that have a user interface should be configured directly from their UI instead. <br/>                     |
-| [Help](winenv-help.md)<br/>                      | Use Help as a secondary mechanism to help users complete and better understand tasks—the primary mechanism being the UI itself. Apply these guidelines to make the content truly helpful and easy to find. <br/>    |
+| [Help](winenv-help.md)<br/>                      | Use Help as a secondary mechanism to help users complete and better understand tasks the primary mechanism being the UI itself. Apply these guidelines to make the content truly helpful and easy to find. <br/>    |
 | [User Account Control](winenv-uac.md)<br/>       | A well designed User Account Control experience helps prevent unwanted system-wide changes in a way that is predictable and requires minimal effort. <br/>                                                          |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

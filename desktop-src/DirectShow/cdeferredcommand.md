@@ -1,18 +1,23 @@
 ---
-Description: 'Deferred commands are queued by calls to methods on the IQueueCommand interface and are exposed by the filter graph manager and by some filters.'
-ms.assetid: 'b2b177c6-af2b-4585-914f-001a6355a298'
+Description: Deferred commands are queued by calls to methods on the IQueueCommand interface and are exposed by the filter graph manager and by some filters.
+ms.assetid: b2b177c6-af2b-4585-914f-001a6355a298
 title: CDeferredCommand class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDeferredCommand class
 
 ![cdeferredcommand class hierarchy](images/cutil13.png)
 
-Deferred commands are queued by calls to methods on the [**IQueueCommand**](iqueuecommand.md) interface and are exposed by the filter graph manager and by some filters. A successful call to one of these methods returns an [**IDeferredCommand**](ideferredcommand.md) interface representing the queued command.
+Deferred commands are queued by calls to methods on the [**IQueueCommand**](/windows/win32/Control/nn-control-iqueuecommand?branch=master) interface and are exposed by the filter graph manager and by some filters. A successful call to one of these methods returns an [**IDeferredCommand**](/windows/win32/Control/nn-control-ideferredcommand?branch=master) interface representing the queued command.
 
-A `CDeferredCommand` object represents a single deferred command and exposes the [**IDeferredCommand**](ideferredcommand.md) interface as well as other methods that permit time checks and actual execution. A `CDeferredCommand` object contains a reference to the [**CCmdQueue**](ccmdqueue.md) object on which it is queued.
+A `CDeferredCommand` object represents a single deferred command and exposes the [**IDeferredCommand**](/windows/win32/Control/nn-control-ideferredcommand?branch=master) interface as well as other methods that permit time checks and actual execution. A `CDeferredCommand` object contains a reference to the [**CCmdQueue**](ccmdqueue.md) object on which it is queued.
 
-Reference counts control the lifetime of the `CDeferredCommand` class. When calling the [**CDeferredCommand::Invoke**](cdeferredcommand-invoke.md) member function, the calling application gets an interface pointer that is reference-counted, and the [**CCmdQueue**](ccmdqueue.md) object also holds a reference count on the deferred command. Calling the [**IDeferredCommand::Cancel**](ideferredcommand-cancel.md) member function takes the deferred command off the command queue and thus reduces the reference count by one. Once taken off the queue, the command cannot be put back on the queue.
+Reference counts control the lifetime of the `CDeferredCommand` class. When calling the [**CDeferredCommand::Invoke**](cdeferredcommand-invoke.md) member function, the calling application gets an interface pointer that is reference-counted, and the [**CCmdQueue**](ccmdqueue.md) object also holds a reference count on the deferred command. Calling the [**IDeferredCommand::Cancel**](/windows/win32/Control/nf-control-ideferredcommand-cancel?branch=master) member function takes the deferred command off the command queue and thus reduces the reference count by one. Once taken off the queue, the command cannot be put back on the queue.
 
 
 
@@ -24,7 +29,7 @@ Reference counts control the lifetime of the `CDeferredCommand` class. When call
 | m\_DispParams                                                 | [**CDispParams**](cdispparams.md) object containing the **DISPPARAMS** parameter list                                  |
 | m\_hrResult                                                   | Stores the returned **HRESULT** value.                                                                                  |
 | m\_iid                                                        | Globally unique identifier (**GUID**) of the interface.                                                                 |
-| m\_pQueue                                                     | Pointer to the [**CCmdQueue**](ccmdqueue.md) object that exposes the [**IQueueCommand**](iqueuecommand.md) interface. |
+| m\_pQueue                                                     | Pointer to the [**CCmdQueue**](ccmdqueue.md) object that exposes the [**IQueueCommand**](/windows/win32/Control/nn-control-iqueuecommand?branch=master) interface. |
 | m\_pUnk                                                       | **IUnknown** pointer to the interface on which the command will be run.                                                 |
 | m\_pvarResult                                                 | Resulting information, if any, from the invoked method.                                                                 |
 | m\_time                                                       | Time at which the command will be run.                                                                                  |

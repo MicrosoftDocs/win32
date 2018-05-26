@@ -1,8 +1,9 @@
 ---
 title: TBM\_GETSELSTART message
 description: Retrieves the starting position of the current selection range in a trackbar.
-ms.assetid: '0000df2a-c40d-40c2-b120-e5d4fe6c5016'
-keywords: ["TBM_GETSELSTART message Windows Controls"]
+ms.assetid: 0000df2a-c40d-40c2-b120-e5d4fe6c5016
+keywords:
+- TBM_GETSELSTART message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_GETSELSTART message
@@ -41,8 +47,8 @@ A trackbar can have a selection range only if you specified the [**TBS\_ENABLESE
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -66,9 +72,9 @@ A trackbar can have a selection range only if you specified the [**TBS\_ENABLESE
 [**TBM\_SETSELSTART**](tbm-setselstart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

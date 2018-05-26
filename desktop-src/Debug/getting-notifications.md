@@ -1,7 +1,12 @@
 ---
-Description: 'The following code shows how to obtain and report verbose status information from the symbol handler about searching for and loading of modules and the corresponding symbol files.'
-ms.assetid: '1dd8af0e-280b-4fc4-bf75-45c5c7517365'
+Description: The following code shows how to obtain and report verbose status information from the symbol handler about searching for and loading of modules and the corresponding symbol files.
+ms.assetid: 1dd8af0e-280b-4fc4-bf75-45c5c7517365
 title: Getting Notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Notifications
@@ -12,18 +17,18 @@ Many familiar with the WinDbg debugger may remember a command called "!sym noisy
 
 This same listing is also available to anyone developing a client to the DbgHelp symbol handler.
 
-First, call [**SymSetOptions**](symsetoptions.md) with **SYMOPT\_DEBUG**. This causes DbgHelp to turn on debug notifications.
+First, call [**SymSetOptions**](/windows/win32/Dbghelp/nf-dbghelp-symsetoptions?branch=master) with **SYMOPT\_DEBUG**. This causes DbgHelp to turn on debug notifications.
 
-After calling [**SymInitialize**](syminitialize.md), use [**SymRegisterCallback64**](symregistercallback64.md) to register a callback function that DbgHelp will call whenever an interesting event occurs. In this example, the callback function is called [*SymRegisterCallbackProc64*](symregistercallbackproc64.md). Symbol callback functions are passed an assortment of action codes that they can handle according to type. In this example, we are handling only the **CBA\_EVENT** action code. This function passes a string containing verbose information about an event that occurred in the process of loading a symbol. This event could be anything from an attempt to read the data within an executable image to the successful location of a symbol file. **SymRegisterCallbackProc64** displays that string and returns **TRUE**.
+After calling [**SymInitialize**](/windows/win32/Dbghelp/nf-dbghelp-syminitialize?branch=master), use [**SymRegisterCallback64**](/windows/win32/Dbghelp/nf-dbghelp-symregistercallback?branch=master) to register a callback function that DbgHelp will call whenever an interesting event occurs. In this example, the callback function is called [*SymRegisterCallbackProc64*](/windows/win32/DbgHelp/nc-dbghelp-psymbol_registered_callback?branch=master). Symbol callback functions are passed an assortment of action codes that they can handle according to type. In this example, we are handling only the **CBA\_EVENT** action code. This function passes a string containing verbose information about an event that occurred in the process of loading a symbol. This event could be anything from an attempt to read the data within an executable image to the successful location of a symbol file. **SymRegisterCallbackProc64** displays that string and returns **TRUE**.
 
 > \[!Important\]  
-> Make sure you return **FALSE** to every action code that you do not handle, otherwise you may experience undefined behavior. Refer to [*SymRegisterCallbackProc64*](symregistercallbackproc64.md) for a list of all the action codes and their implications.
+> Make sure you return **FALSE** to every action code that you do not handle, otherwise you may experience undefined behavior. Refer to [*SymRegisterCallbackProc64*](/windows/win32/DbgHelp/nc-dbghelp-psymbol_registered_callback?branch=master) for a list of all the action codes and their implications.
 
  
 
-Now that the callback is registered, it is time to load the module specified on the command line by calling [**SymLoadModuleEx**](symloadmoduleex.md).
+Now that the callback is registered, it is time to load the module specified on the command line by calling [**SymLoadModuleEx**](/windows/win32/Dbghelp/nf-dbghelp-symloadmoduleex?branch=master).
 
-Lastly, call [**SymCleanup**](symcleanup.md) before exiting.
+Lastly, call [**SymCleanup**](/windows/win32/Dbghelp/nf-dbghelp-symcleanup?branch=master) before exiting.
 
 
 ```C++
@@ -158,9 +163,9 @@ cleanup:
 
 
 
-Specifying **NULL** as the second parameter of [**SymInitialize**](syminitialize.md) indicates that the symbol handler should use the default search path to locate symbol files. For detailed information on how the symbol handler locates symbol files or how an application can specify a symbol search path, see [Symbol Paths](symbol-paths.md).
+Specifying **NULL** as the second parameter of [**SymInitialize**](/windows/win32/Dbghelp/nf-dbghelp-syminitialize?branch=master) indicates that the symbol handler should use the default search path to locate symbol files. For detailed information on how the symbol handler locates symbol files or how an application can specify a symbol search path, see [Symbol Paths](symbol-paths.md).
 
-Running this program shows how the symbol path is processed. As DbgHelp looks through the symbol path to find the symbol file, it repeatedly calls [*SymRegisterCallbackProc64*](symregistercallbackproc64.md) which, in turn, displays the following strings being passed by DbgHelp.
+Running this program shows how the symbol path is processed. As DbgHelp looks through the symbol path to find the symbol file, it repeatedly calls [*SymRegisterCallbackProc64*](/windows/win32/DbgHelp/nc-dbghelp-psymbol_registered_callback?branch=master) which, in turn, displays the following strings being passed by DbgHelp.
 
 ``` syntax
 d:\load.exe c:\home\dbghelp.dll

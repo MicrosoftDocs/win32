@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a cube texture from a file in memory. This is a more advanced function than D3DXCreateCubeTextureFromFileInMemory.'
-ms.assetid: '598016eb-9ea9-4dca-a297-5708a957da6a'
+---
+Description: Creates a cube texture from a file in memory. This is a more advanced function than D3DXCreateCubeTextureFromFileInMemory.
+ms.assetid: 598016eb-9ea9-4dca-a297-5708a957da6a
 title: D3DXCreateCubeTextureFromFileInMemoryEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateCubeTextureFromFileInMemoryEx function
@@ -39,9 +44,9 @@ HRESULT D3DXCreateCubeTextureFromFileInMemoryEx(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device to be associated with the cube texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device to be associated with the cube texture.
 
 </dd> <dt>
 
@@ -86,7 +91,7 @@ Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a comple
 
 Type: **[**DWORD**](winprog.windows_data_types)**
 
-0, D3DUSAGE\_RENDERTARGET, or D3DUSAGE\_DYNAMIC. Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the *pNewRenderTarget* parameter of the [**SetRenderTarget**](idirect3ddevice9--setrendertarget.md) method. If D3DUSAGE\_RENDERTARGET is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](idirect3d9--checkdeviceformat.md). For more information about using dynamic textures, see [Using Dynamic Textures](performance-optimizations.md).
+0, D3DUSAGE\_RENDERTARGET, or D3DUSAGE\_DYNAMIC. Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the *pNewRenderTarget* parameter of the [**SetRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget?branch=master) method. If D3DUSAGE\_RENDERTARGET is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master). For more information about using dynamic textures, see [Using Dynamic Textures](performance-optimizations.md).
 
 </dd> <dt>
 
@@ -147,18 +152,18 @@ Pointer to a [**D3DXIMAGE\_INFO**](d3dximage-info.md) structure to be filled wit
 *pPalette* \[out\]
 </dt> <dd>
 
-Type: **[**PALETTEENTRY**](paletteentry.md)\***
+Type: **[**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master)\***
 
-Pointer to a [**PALETTEENTRY**](paletteentry.md) structure, representing a 256-color palette to fill in, or **NULL**. See Remarks.
+Pointer to a [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master) structure, representing a 256-color palette to fill in, or **NULL**. See Remarks.
 
 </dd> <dt>
 
 *ppCubeTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](idirect3dcubetexture9.md)\***
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dcubetexture9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DCubeTexture9**](idirect3dcubetexture9.md) interface, representing the created cube texture object.
+Address of a pointer to an [**IDirect3DCubeTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dcubetexture9?branch=master) interface, representing the created cube texture object.
 
 </dd> </dl>
 
@@ -172,11 +177,11 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 This function supports the following file formats: .bmp, .dds, .dib, .hdr, .jpg, .pfm, .png, .ppm, and .tga. See [**D3DXIMAGE\_FILEFORMAT**](direct3d9.d3dximage_fileformat).
 
-Cube textures differ from other surfaces in that they are collections of surfaces. To call [**SetRenderTarget**](idirect3ddevice9--setrendertarget.md) with a cube texture, you must select an individual face using [**GetCubeMapSurface**](idirect3dcubetexture9--getcubemapsurface.md) and pass the resulting surface to **SetRenderTarget** .
+Cube textures differ from other surfaces in that they are collections of surfaces. To call [**SetRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget?branch=master) with a cube texture, you must select an individual face using [**GetCubeMapSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3dcubetexture9-getcubemapsurface?branch=master) and pass the resulting surface to **SetRenderTarget** .
 
 This method is designed to be used for loading image files stored as RT\_RCDATA, which is an application-defined resource (raw data). Otherwise this method will fail.
 
-For details on [**PALETTEENTRY**](paletteentry.md), see the Platform SDK. Note that as of DirectX 8.0, the peFlags member of the **PALETTEENTRY** structure does not function as documented in the Platform SDK. The peFlags member is now the alpha channel for 8-bit palettized formats.
+For details on [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master), see the Platform SDK. Note that as of DirectX 8.0, the peFlags member of the **PALETTEENTRY** structure does not function as documented in the Platform SDK. The peFlags member is now the alpha channel for 8-bit palettized formats.
 
 **D3DXCreateCubeTextureFromFileInMemoryEx** uses the DirectDraw surface (DDS) file format. The DirectX Texture Editor (Dxtex.exe) enables you to generate a cube map from other file formats and save it in the DDS file format. You can get Dxtex.exe and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](nodepage.directx_sdk__august_2009_).
 

@@ -1,7 +1,12 @@
 ---
 title: emit (sm4 - asm)
 description: Emit a vertex.
-ms.assetid: 'FDD18CCD-8088-46BD-897C-434B77FF81E6'
+ms.assetid: FDD18CCD-8088-46BD-897C-434B77FF81E6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # emit (sm4 - asm)

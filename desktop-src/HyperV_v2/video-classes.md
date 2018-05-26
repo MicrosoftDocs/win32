@@ -1,7 +1,12 @@
 ---
-Description: 'All virtual machines reflect the presence of an emulated S3 video controller and an accelerated, synthetic video controller.'
-ms.assetid: '93BDC827-E84A-4460-A2DD-18EE87254426'
+Description: All virtual machines reflect the presence of an emulated S3 video controller and an accelerated, synthetic video controller.
+ms.assetid: 93BDC827-E84A-4460-A2DD-18EE87254426
 title: Video classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video classes
@@ -29,11 +34,11 @@ The following are virtualization WMI classes related to video.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IWMDRMNonSilentLicenseAquisition GetChallenge method
 description: The GetChallenge method retrieves the license challenge that should be posted to the license server.
-ms.assetid: 'f2ff8484-8fe2-4c74-82c1-9bc14f8197e0'
-keywords: ["GetChallenge method windows Media Format", "GetChallenge method windows Media Format , IWMDRMNonSilentLicenseAquisition interface", "IWMDRMNonSilentLicenseAquisition interface windows Media Format , GetChallenge method"]
+ms.assetid: f2ff8484-8fe2-4c74-82c1-9bc14f8197e0
+keywords:
+- GetChallenge method windows Media Format
+- GetChallenge method windows Media Format , IWMDRMNonSilentLicenseAquisition interface
+- IWMDRMNonSilentLicenseAquisition interface windows Media Format , GetChallenge method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMNonSilentLicenseAquisition::GetChallenge method
@@ -23,7 +31,7 @@ The **GetChallenge** method retrieves the license challenge that should be poste
 
 ```C++
 HRESULT GetChallenge(
-  [out] BSTR *pbstrChallenge
+  [out] BSTR *pbstrChallenge
 );
 ```
 
@@ -52,7 +60,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,9 +84,9 @@ None.
 [**IWMDRMNonSilentLicenseAquisition Interface**](iwmdrmnonsilentlicenseaquisition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

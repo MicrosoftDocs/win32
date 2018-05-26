@@ -1,14 +1,20 @@
 ---
 title: VIEW.backgroundImageHueShift
 description: The backgroundImageHueShift attribute specifies or retrieves the amount by which the hue of the background image is shifted.
-ms.assetid: '13cedc87-f43a-4d33-9339-f317ea7b8d3b'
-keywords: ["VIEW.backgroundImageHueShift Windows Media Player"]
+ms.assetid: 13cedc87-f43a-4d33-9339-f317ea7b8d3b
+keywords:
+- VIEW.backgroundImageHueShift Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.backgroundImageHueShift
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.backgroundImageHueShift
@@ -50,9 +56,9 @@ This attribute changes the hue value of the images specified by the **background
 [**VIEW.backgroundImageSaturation**](view-backgroundimagesaturation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

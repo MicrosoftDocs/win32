@@ -1,8 +1,23 @@
 ---
 title: Photo Item Attributes
 description: Photo Item Attributes
-ms.assetid: '3d3ed3a8-09ac-4e3d-b52d-3614b3a3fc05'
-keywords: ["Windows Media Player,photo item attributes", "Windows Media Player Mobile,photo item attributes", "Windows Media Player object model,photo item attributes", "object model,photo item attributes", "ActiveX control,photo item attributes", "Windows Media Player ActiveX control,photo item attributes", "Windows Media Player Mobile ActiveX control,photo item attributes", "reference for object model,photo item attributes", "attributes,photo items", "photo item attributes"]
+ms.assetid: 3d3ed3a8-09ac-4e3d-b52d-3614b3a3fc05
+keywords:
+- Windows Media Player,photo item attributes
+- Windows Media Player Mobile,photo item attributes
+- Windows Media Player object model,photo item attributes
+- object model,photo item attributes
+- ActiveX control,photo item attributes
+- Windows Media Player ActiveX control,photo item attributes
+- Windows Media Player Mobile ActiveX control,photo item attributes
+- reference for object model,photo item attributes
+- attributes,photo items
+- photo item attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Photo Item Attributes

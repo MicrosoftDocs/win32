@@ -1,8 +1,9 @@
 ---
 title: PSM\_PAGETOINDEX message
 description: Takes the HPROPSHEETPAGE handle of the property sheet page and returns its zero-based index. You can send this message explicitly or use the PropSheet\_PageToIndex macro.
-ms.assetid: 'f893b504-7b46-4bce-9598-79522825d43c'
-keywords: ["PSM_PAGETOINDEX message Windows Controls"]
+ms.assetid: f893b504-7b46-4bce-9598-79522825d43c
+keywords:
+- PSM_PAGETOINDEX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_PAGETOINDEX message
 
-Takes the HPROPSHEETPAGE handle of the property sheet page and returns its zero-based index. You can send this message explicitly or use the [**PropSheet\_PageToIndex**](propsheet-pagetoindex.md) macro.
+Takes the HPROPSHEETPAGE handle of the property sheet page and returns its zero-based index. You can send this message explicitly or use the [**PropSheet\_PageToIndex**](/windows/win32/Prsht/nf-prsht-propsheet_pagetoindex?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Returns the zero-based index of the property sheet page specified by *lParam* if
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

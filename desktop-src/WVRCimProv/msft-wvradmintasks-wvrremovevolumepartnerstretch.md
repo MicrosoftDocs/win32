@@ -4,13 +4,19 @@ description: TBD.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9bdcc6d5-78d1-493f-8d85-5e179fa6d01e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9bdcc6d5-78d1-493f-8d85-5e179fa6d01e
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WvrRemoveVolumePartnerStretch method", "WvrRemoveVolumePartnerStretch method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, WvrRemoveVolumePartnerStretch method"]
+keywords:
+- WvrRemoveVolumePartnerStretch method
+- WvrRemoveVolumePartnerStretch method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, WvrRemoveVolumePartnerStretch method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WvrRemoveVolumePartnerStretch method of the MSFT\_WvrAdminTasks class
@@ -22,9 +28,9 @@ TBD
 
 ```mof
 uint32 WvrRemoveVolumePartnerStretch(
-  [in] string SourceReplicationGroupName,
-  [in] string SourceComputerName,
-  [in] string SourceVolumeName[]
+  [in] string SourceReplicationGroupName,
+  [in] string SourceComputerName,
+  [in] string SourceVolumeName[]
 );
 ```
 
@@ -62,7 +68,7 @@ TBD
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -76,9 +82,9 @@ TBD
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

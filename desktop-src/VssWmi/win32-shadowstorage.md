@@ -1,8 +1,10 @@
 ---
 title: Win32\_ShadowStorage class
 description: The Win32\_ShadowStorage class represents the association between a volume for which a shadow copy is made, and a volume to which differential data is written.
-ms.assetid: 'a27a55f3-8b4a-4221-93e9-69d2d3afe4cc'
-keywords: ["Win32_ShadowStorage class", "Win32_ShadowStorage class, described"]
+ms.assetid: a27a55f3-8b4a-4221-93e9-69d2d3afe4cc
+keywords:
+- Win32_ShadowStorage class
+- Win32_ShadowStorage class, described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - Vsswmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ShadowStorage class
@@ -29,10 +36,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_ShadowStorage
 {
-  uint64           AllocatedSpace;
+  uint64           AllocatedSpace;
   Win32_Volume REF DiffVolume;
-  uint64           MaxSpace;
-  uint64           UsedSpace;
+  uint64           MaxSpace;
+  uint64           UsedSpace;
   Win32_Volume REF Volume;
 };
 ```
@@ -56,7 +63,7 @@ The **Win32\_ShadowStorage** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -152,7 +159,7 @@ The [Get Remote Shadow Volume Information With Powershell](http://gallery.techne
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vss.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vsswmi.dll</dt> </dl> |
@@ -187,9 +194,9 @@ The [Get Remote Shadow Volume Information With Powershell](http://gallery.techne
 [**Win32\_ShadowDiffVolumeSupport**](win32-shadowdiffvolumesupport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

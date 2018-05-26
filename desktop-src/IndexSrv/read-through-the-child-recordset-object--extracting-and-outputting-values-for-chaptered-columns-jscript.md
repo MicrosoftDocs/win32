@@ -1,7 +1,12 @@
 ---
 title: Read through the Child Recordset Object, Extracting and Outputting Values for Chaptered Columns
 description: Read through the Child Recordset Object, Extracting and Outputting Values for Chaptered Columns
-ms.assetid: '40834941-b969-4ade-be82-aacd05ada5dc'
+ms.assetid: 40834941-b969-4ade-be82-aacd05ada5dc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Read through the Child Recordset Object, Extracting and Outputting Values for Chaptered Columns

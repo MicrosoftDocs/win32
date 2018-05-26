@@ -2,13 +2,19 @@
 title: handle attribute
 description: The \ handle\ attribute specifies a user-defined or \ 0034;customized \ 0034; handle type.
 ms.assetid: db5c6ea6-6081-4cea-9265-5e2f67fd8c14
-keywords: ["handle attribute MIDL"]
+keywords:
+- handle attribute MIDL
 topic_type:
 - apiref
 api_name:
 - handle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # handle attribute

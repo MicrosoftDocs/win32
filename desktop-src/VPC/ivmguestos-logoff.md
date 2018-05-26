@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS Logoff method
 description: Logs off all users from the guest operating system.
-ms.assetid: '224aa7cb-0892-4e8a-84bd-78dd5cb724df'
-keywords: ["Logoff method Virtual PC", "Logoff method Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , Logoff method"]
+ms.assetid: 224aa7cb-0892-4e8a-84bd-78dd5cb724df
+keywords:
+- Logoff method Virtual PC
+- Logoff method Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , Logoff method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::Logoff method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Logs off all users from the guest operating system.
 
@@ -24,7 +32,7 @@ Logs off all users from the guest operating system.
 
 ```C++
 HRESULT Logoff(
-  [out, retval] IVMTask **outLogoffTask
+  [out, retval] IVMTask **outLogoffTask
 );
 ```
 
@@ -60,7 +68,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -72,9 +80,9 @@ This method can return one of these values.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
@@ -88,9 +96,9 @@ This method can return one of these values.
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

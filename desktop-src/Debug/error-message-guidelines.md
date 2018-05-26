@@ -1,7 +1,12 @@
 ---
-Description: 'The guidelines in this topic are intended to help you write clear error messages that are easy to localize and useful for customers.'
-ms.assetid: '361833e4-b94f-4ef9-a8f5-adf543534a67'
+Description: The guidelines in this topic are intended to help you write clear error messages that are easy to localize and useful for customers.
+ms.assetid: 361833e4-b94f-4ef9-a8f5-adf543534a67
 title: Error Message Guidelines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Message Guidelines

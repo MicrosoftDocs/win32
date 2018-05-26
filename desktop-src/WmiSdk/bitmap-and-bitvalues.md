@@ -1,13 +1,16 @@
 ---
-Description: 'Is an integer linked to a property with the BitMap and BitValue qualifiers.'
+Description: Is an integer linked to a property with the BitMap and BitValue qualifiers.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '14c34909-2419-41a1-a1ed-3b647a3c5e75'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 14c34909-2419-41a1-a1ed-3b647a3c5e75
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: BitMap and BitValue Qualifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BitMap and BitValue Qualifiers

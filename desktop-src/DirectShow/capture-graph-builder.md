@@ -1,7 +1,12 @@
 ---
 Description: Capture Graph Builder
-ms.assetid: '9399a06e-7305-41e8-aefe-3d158052a8ed'
+ms.assetid: 9399a06e-7305-41e8-aefe-3d158052a8ed
 title: Capture Graph Builder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capture Graph Builder
@@ -13,7 +18,7 @@ The Capture Graph Builder is a helper object for building video and audio captur
 |                  |                                                        |
 |------------------|--------------------------------------------------------|
 | Class Identifier | CLSID\_CaptureGraphBuilder2                            |
-| Interfaces       | [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md) |
+| Interfaces       | [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master) |
 
 
 

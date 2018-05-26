@@ -1,8 +1,18 @@
 ---
 title: Hit RGB Color
 description: Hit RGB Color
-ms.assetid: 'b71a0a66-11aa-4a21-b78a-3bd90f80a428'
-keywords: ["Windows Media Player Mobile skins,button colors", "skins,button colors", "reference for skins,buttons", "buttons in skins,colors", "color reference for skins"]
+ms.assetid: b71a0a66-11aa-4a21-b78a-3bd90f80a428
+keywords:
+- Windows Media Player Mobile skins,button colors
+- skins,button colors
+- reference for skins,buttons
+- buttons in skins,colors
+- color reference for skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hit RGB Color

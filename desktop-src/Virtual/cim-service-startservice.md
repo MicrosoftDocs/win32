@@ -1,8 +1,11 @@
 ---
 title: StartService method of the CIM\_Service class
 description: Starts the service.
-ms.assetid: '226f63a1-f32b-481e-8493-dee1721e4e86'
-keywords: ["StartService method Hyper-V", "StartService method Hyper-V , CIM_Service class", "CIM_Service class Hyper-V , StartService method"]
+ms.assetid: 226f63a1-f32b-481e-8493-dee1721e4e86
+keywords:
+- StartService method Hyper-V
+- StartService method Hyper-V , CIM_Service class
+- CIM_Service class Hyper-V , StartService method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StartService method of the CIM\_Service class
@@ -54,9 +62,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**CIM\_Service**](cim-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

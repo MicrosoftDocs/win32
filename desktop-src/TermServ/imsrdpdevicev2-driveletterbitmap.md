@@ -4,11 +4,14 @@ description: Contains a bitfield that represents a map of drive letters containe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '13b7c9b9-a97f-4474-b5ad-833abff384f5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 13b7c9b9-a97f-4474-b5ad-833abff384f5
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DriveLetterBitmap property Remote Desktop Services", "DriveLetterBitmap property Remote Desktop Services , IMsRdpDeviceV2 interface", "IMsRdpDeviceV2 interface Remote Desktop Services , DriveLetterBitmap property"]
+keywords:
+- DriveLetterBitmap property Remote Desktop Services
+- DriveLetterBitmap property Remote Desktop Services , IMsRdpDeviceV2 interface
+- IMsRdpDeviceV2 interface Remote Desktop Services , DriveLetterBitmap property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDeviceV2::DriveLetterBitmap property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DriveLetterBitmap(
-  [out, retval] ULONG *pDriveLetterBitmap
+  [out, retval] ULONG *pDriveLetterBitmap
 );
 ```
 
@@ -47,8 +53,8 @@ A map of drive letters contained within the device. Each bit in the value repres
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 with SP1<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                             |
+| Minimum supported client<br/> | Windows 7 with SP1<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                             |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpDeviceV2 is defined as 5fb94466-7661-42a8-98b7-01904c11668f<br/>      |
@@ -62,9 +68,9 @@ A map of drive letters contained within the device. Each bit in the value repres
 [**IMsRdpDeviceV2**](imsrdpdevicev2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

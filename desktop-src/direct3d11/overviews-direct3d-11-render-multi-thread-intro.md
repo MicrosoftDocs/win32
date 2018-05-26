@@ -1,7 +1,12 @@
 ---
 title: Introduction to Multithreading in Direct3D 11
 description: Multithreading is designed to improve performance by performing work using one or more threads at the same time.
-ms.assetid: 'b4bef1e4-8d34-455c-8aed-01af974c66c8'
+ms.assetid: b4bef1e4-8d34-455c-8aed-01af974c66c8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction to Multithreading in Direct3D 11
@@ -10,9 +15,9 @@ Multithreading is designed to improve performance by performing work using one o
 
 In the past, this has often been done by generating a single main thread for rendering and one or more threads for doing preparation work such as object creation, loading, processing, and so on. However, with the built in synchronization in Direct3D 11, the goal behind multithreading is to utilize every CPU and GPU cycle without making a processor wait for another processor (particularly not making the GPU wait because it directly impacts frame rate). By doing so, you can generate the most amount of work while maintaining the best frame rate. The concept of a single frame for rendering is no longer as necessary since the API implements synchronization.
 
-Multithreading requires some form of synchronization. For example, if multiple threads that run in an application must access a single device context ([**ID3D11DeviceContext**](id3d11devicecontext.md)), that application must use some synchronization mechanism, such as critical sections, to synchronize access to that device context. This is because processing of the render commands (generally done on the GPU) and generating the render commands (generally done on the CPU through object creation, data loading, state changing, data processing) often use the same resources (textures, shaders, pipeline state, and so on). Organizing the work across multiple threads requires synchronization to prevent one thread from modifying or reading data that is being modified by another thread.
+Multithreading requires some form of synchronization. For example, if multiple threads that run in an application must access a single device context ([**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master)), that application must use some synchronization mechanism, such as critical sections, to synchronize access to that device context. This is because processing of the render commands (generally done on the GPU) and generating the render commands (generally done on the CPU through object creation, data loading, state changing, data processing) often use the same resources (textures, shaders, pipeline state, and so on). Organizing the work across multiple threads requires synchronization to prevent one thread from modifying or reading data that is being modified by another thread.
 
-While the use of a device context ([**ID3D11DeviceContext**](id3d11devicecontext.md)) is not thread-safe, the use of a Direct3D 11 device ([**ID3D11Device**](id3d11device.md)) is thread-safe. Because each **ID3D11DeviceContext** is single threaded, only one thread can call a **ID3D11DeviceContext** at a time. If multiple threads must access a single **ID3D11DeviceContext**, they must use some synchronization mechanism, such as critical sections, to synchronize access to that **ID3D11DeviceContext**. However, multiple threads are not required to use critical sections or synchronization primitives to access a single **ID3D11Device**. Therefore, if an application uses **ID3D11Device** to create resource objects, that application is not required to use synchronization to create multiple resource objects at the same time.
+While the use of a device context ([**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master)) is not thread-safe, the use of a Direct3D 11 device ([**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master)) is thread-safe. Because each **ID3D11DeviceContext** is single threaded, only one thread can call a **ID3D11DeviceContext** at a time. If multiple threads must access a single **ID3D11DeviceContext**, they must use some synchronization mechanism, such as critical sections, to synchronize access to that **ID3D11DeviceContext**. However, multiple threads are not required to use critical sections or synchronization primitives to access a single **ID3D11Device**. Therefore, if an application uses **ID3D11Device** to create resource objects, that application is not required to use synchronization to create multiple resource objects at the same time.
 
 Multithreading support divides the API into two distinct functional areas:
 

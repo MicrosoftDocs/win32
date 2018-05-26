@@ -1,7 +1,12 @@
 ---
-Description: 'The CUnknown class implements the IUnknown interface. Most Component Object Model (COM) objects in DirectShow derive from CUnknown.'
-ms.assetid: '9711d36b-6987-4fb0-a8df-eba94348dc7b'
+Description: The CUnknown class implements the IUnknown interface. Most Component Object Model (COM) objects in DirectShow derive from CUnknown.
+ms.assetid: 9711d36b-6987-4fb0-a8df-eba94348dc7b
 title: CUnknown class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUnknown class
@@ -34,7 +39,7 @@ For a detailed discussion of how to use this base class, see [How to Implement I
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,9 +59,9 @@ For a detailed discussion of how to use this base class, see [How to Implement I
 [DirectShow Base Classes](directshow-base-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

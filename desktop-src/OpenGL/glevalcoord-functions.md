@@ -1,8 +1,29 @@
 ---
 title: glEvalCoord Functions
 description: These functions evaluate enabled one-dimensional or two-dimensional maps.
-ms.assetid: 'a170a84f-780a-42a5-a085-9ce355cf8825'
-keywords: ["OpenGL,glEvalCoord functions", "OpenGL reference,glEvalCoord functions", "reference for OpenGL,glEvalCoord functions", "OpenGL,map evaluation", "OpenGL reference,map evaluation", "reference for OpenGL,map evaluation", "glEvalCoord functions", "map evaluation", "OpenGL,one-dimensional maps", "OpenGL reference,one-dimensional maps", "reference for OpenGL,one-dimensional maps", "OpenGL,two-dimensional maps", "OpenGL reference,two-dimensional maps", "reference for OpenGL,two-dimensional maps", "one-dimensional maps", "two-dimensional maps"]
+ms.assetid: a170a84f-780a-42a5-a085-9ce355cf8825
+keywords:
+- OpenGL,glEvalCoord functions
+- OpenGL reference,glEvalCoord functions
+- reference for OpenGL,glEvalCoord functions
+- OpenGL,map evaluation
+- OpenGL reference,map evaluation
+- reference for OpenGL,map evaluation
+- glEvalCoord functions
+- map evaluation
+- OpenGL,one-dimensional maps
+- OpenGL reference,one-dimensional maps
+- reference for OpenGL,one-dimensional maps
+- OpenGL,two-dimensional maps
+- OpenGL reference,two-dimensional maps
+- reference for OpenGL,two-dimensional maps
+- one-dimensional maps
+- two-dimensional maps
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glEvalCoord Functions

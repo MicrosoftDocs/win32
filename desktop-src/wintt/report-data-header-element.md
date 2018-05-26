@@ -1,14 +1,20 @@
 ---
 title: Data (Header) Element
 description: Identifies a property of the header section of the report.
-ms.assetid: '421cf389-e8de-4632-a318-bf3890080c53'
-keywords: ["Data element Windows Troubleshooting Toolkit"]
+ms.assetid: 421cf389-e8de-4632-a318-bf3890080c53
+keywords:
+- Data element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Data
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data (Header) Element
@@ -33,8 +39,8 @@ The [**Header (ResultReport)**](report-header-resultreport-element.md) node will
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -48,9 +54,9 @@ The [**Header (ResultReport)**](report-header-resultreport-element.md) node will
 [**Header (ResultReport)**](report-header-resultreport-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

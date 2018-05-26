@@ -4,17 +4,22 @@ description: Contains the time that the DHCP lease will expire.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f6d298e7-afce-4fa3-9560-22b47e4d29ec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f6d298e7-afce-4fa3-9560-22b47e4d29ec
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["LeaseExpiresTime Failover Cluster , for IPv4 Address private properties", "LeaseExpiresTime Failover Cluster"]
+keywords:
+- LeaseExpiresTime Failover Cluster , for IPv4 Address private properties
+- LeaseExpiresTime Failover Cluster
 topic_type:
 - apiref
 api_name:
 - LeaseExpiresTime
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LeaseExpiresTime
@@ -28,14 +33,14 @@ Contains the time that the DHCP lease will expire. The following table summarize
 | Data type | [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284)               |
 | Access    | [Read-only](read-only-properties.md)           |
 | Status    | Optional                                        |
-| Structure | [**CLUSPROP\_FILETIME**](clusprop-filetime.md) |
+| Structure | [**CLUSPROP\_FILETIME**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_filetime?branch=master) |
 | Minimum   | 0                                               |
 | Maximum   | 0                                               |
 | Default   | {{ 0, 0 },{ 0, 0 },{ 0xFFFFFFFF, 0xFFFFFFFF },} |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -44,7 +49,7 @@ Contains the time that the DHCP lease will expire. The following table summarize
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -55,15 +60,15 @@ Contains the time that the DHCP lease will expire. The following table summarize
 [IP Address Private Properties](ip-address-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_FILETIME**](clusprop-filetime.md)
+[**CLUSPROP\_FILETIME**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_filetime?branch=master)
 </dt> <dt>
 
 [**FILETIME**](https://msdn.microsoft.com/library/windows/desktop/ms724284)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

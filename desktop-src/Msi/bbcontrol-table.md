@@ -1,7 +1,12 @@
 ---
-Description: 'The BBControl table lists the controls to be displayed on each billboard.'
-ms.assetid: '2ab31a32-6d33-46b7-a295-199560efa7fb'
+Description: The BBControl table lists the controls to be displayed on each billboard.
+ms.assetid: 2ab31a32-6d33-46b7-a295-199560efa7fb
 title: BBControl Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BBControl Table
@@ -116,7 +121,7 @@ The integer values for x, y, width, and height are in the [installer units](inst
 
 <dl> <dt>
 
-[**MsiSetExternalUI**](msisetexternalui.md)
+[**MsiSetExternalUI**](/windows/win32/Msi/nf-msi-msisetexternaluia?branch=master)
 </dt> </dl>
 
  

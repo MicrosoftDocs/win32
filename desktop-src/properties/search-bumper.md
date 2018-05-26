@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '8a025bee-65e1-40a7-a269-72a93aca827b'
+---
+Description: .
+ms.assetid: 8a025bee-65e1-40a7-a269-72a93aca827b
 title: Search
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Search

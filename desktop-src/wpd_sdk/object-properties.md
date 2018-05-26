@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following object properties.'
-ms.assetid: '66d9802b-ad28-47a4-8151-9df7aff07d61'
+Description: Windows Portable Devices supports the following object properties.
+ms.assetid: 66d9802b-ad28-47a4-8151-9df7aff07d61
 title: Object Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Properties
@@ -32,7 +37,7 @@ Windows Portable Devices supports the following object properties.
 | <span id="wpd_object_name"></span><span id="WPD_OBJECT_NAME"></span>**WPD\_OBJECT\_NAME**                                                   | **VT\_LPWSTR**  | The display name for the object.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | <span id="wpd_object_non_consumable"></span><span id="WPD_OBJECT_NON_CONSUMABLE"></span>**WPD\_OBJECT\_NON\_CONSUMABLE**                    | **VT\_BOOL**    | A Boolean value that specifies whether this object is intended to be understood or merely stored by the device. If this property is not present, all data is assumed to be intended for consumption.                                                                                                                                                                                                                                                                                                                            |
 | <span id="wpd_object_original_file_name"></span><span id="WPD_OBJECT_ORIGINAL_FILE_NAME"></span>**WPD\_OBJECT\_ORIGINAL\_FILE\_NAME**       | **VT\_LPWSTR**  | A string name for the file.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| <span id="wpd_object_parent_id"></span><span id="WPD_OBJECT_PARENT_ID"></span>**WPD\_OBJECT\_PARENT\_ID**                                   | **VT\_LPWSTR**  | The object ID of the parent object. The only object that can return an empty string for this value is the root device object.To modify this property, call [**IPortableDevice::SendCommand**](iportabledevice-sendcommand.md) (**WPD\_COMMAND\_STORAGE\_MOVE**).<br/>                                                                                                                                                                                                                                                    |
+| <span id="wpd_object_parent_id"></span><span id="WPD_OBJECT_PARENT_ID"></span>**WPD\_OBJECT\_PARENT\_ID**                                   | **VT\_LPWSTR**  | The object ID of the parent object. The only object that can return an empty string for this value is the root device object.To modify this property, call [**IPortableDevice::SendCommand**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand?branch=master) (**WPD\_COMMAND\_STORAGE\_MOVE**).<br/>                                                                                                                                                                                                                                                    |
 | <span id="wpd_object_persistent_unique_id"></span><span id="WPD_OBJECT_PERSISTENT_UNIQUE_ID"></span>**WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID** | **VT\_LPWSTR**  | A string ID that uniquely identifies the object on the device, similar to [WPD\_OBJECT\_ID](#wpd-object-id), but it must be stored across sessions.If the object identifier (**WPD\_OBJECT\_ID**) is both unique and persistent, the driver may set both **WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID** and **WPD\_OBJECT\_ID** to the same value.<br/>                                                                                                                                                                          |
 | <span id="wpd_object_references"></span><span id="WPD_OBJECT_REFERENCES"></span>**WPD\_OBJECT\_REFERENCES**                                 | **VT\_UNKNOWN** | An [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) containing a collection of VT\_LPWSTR object IDs identifying the referenced objects. This is only required if the object is a reference object such as a folder or playlist.                                                                                                                                                                                                                                                            |
 | <span id="wpd_object_size"></span><span id="WPD_OBJECT_SIZE"></span>**WPD\_OBJECT\_SIZE**                                                   | **VT\_UI8**     | The size of the object resource data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -40,7 +45,7 @@ Windows Portable Devices supports the following object properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,9 +64,9 @@ Windows Portable Devices supports the following object properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

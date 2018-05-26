@@ -1,14 +1,20 @@
 ---
 title: RootCauseInformation (Problem) Element
 description: Contains the list of root causes that the troubleshooting pack can detect.
-ms.assetid: '87982ad0-5eb2-4809-be09-9f3f48366fd3'
-keywords: ["RootCauseInformation element Windows Troubleshooting Toolkit"]
+ms.assetid: 87982ad0-5eb2-4809-be09-9f3f48366fd3
+keywords:
+- RootCauseInformation element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - RootCauseInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RootCauseInformation (Problem) Element
@@ -29,8 +35,8 @@ The **RootCauseInformation** element is defined by the [**Problem**](report-prob
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **RootCauseInformation** element is defined by the [**Problem**](report-prob
 [**Problem (Package)**](report-problem-package-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

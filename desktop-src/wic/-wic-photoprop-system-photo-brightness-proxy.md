@@ -1,7 +1,12 @@
 ---
-Description: 'The property proxy for the System.Photo.Brightness photo metadata policy.'
-ms.assetid: 'a20f5b0a-9b99-4ebe-827b-6223788050f6'
-title: 'System.Photo.Brightness Proxy'
+Description: The property proxy for the System.Photo.Brightness photo metadata policy.
+ms.assetid: a20f5b0a-9b99-4ebe-827b-6223788050f6
+title: System.Photo.Brightness Proxy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.Brightness Proxy

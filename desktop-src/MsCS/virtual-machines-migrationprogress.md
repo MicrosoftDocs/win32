@@ -4,17 +4,22 @@ description: Provides the estimated percentage of the completion of the migratio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b99a2494-3962-467e-8934-e5f20528db94'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b99a2494-3962-467e-8934-e5f20528db94
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["MigrationProgress Failover Cluster ,for virtual machines", "MigrationProgress Failover Cluster"]
+keywords:
+- MigrationProgress Failover Cluster ,for virtual machines
+- MigrationProgress Failover Cluster
 topic_type:
 - apiref
 api_name:
 - MigrationProgress
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MigrationProgress
@@ -28,14 +33,14 @@ Provides the estimated percentage of the completion of the migration. The follow
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
 | Status    | Required                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 100                                       |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -44,7 +49,7 @@ Provides the estimated percentage of the completion of the migration. The follow
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
 
 
 
@@ -55,12 +60,12 @@ Provides the estimated percentage of the completion of the migration. The follow
 [Virtual Machine Private Properties](virtual-machine-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

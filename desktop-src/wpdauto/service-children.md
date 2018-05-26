@@ -1,14 +1,22 @@
 ---
 title: Service.Children property
 description: The Children property returns a collection of all of the immediate children of this Service object.
-ms.assetid: 'af41c0a2-6b0b-4b7e-9da7-55d43dc25977'
-keywords: ["Children property WPD Automation", "Children property WPD Automation , Service object", "Service object WPD Automation , Children property"]
+ms.assetid: af41c0a2-6b0b-4b7e-9da7-55d43dc25977
+keywords:
+- Children property WPD Automation
+- Children property WPD Automation , Service object
+- Service object WPD Automation , Children property
 topic_type:
 - apiref
 api_name:
 - Service.Children
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.Children property
@@ -40,8 +48,8 @@ To retrieve a collection of children from a service that is filtered by one or m
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -55,9 +63,9 @@ To retrieve a collection of children from a service that is filtered by one or m
 [**Service Object**](service-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

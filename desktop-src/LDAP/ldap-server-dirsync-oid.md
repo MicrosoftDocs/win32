@@ -4,11 +4,12 @@ description: Enables an application to search the directory for objects changed 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4cb5809a-61c7-41a1-8042-87909c26aa89'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 4cb5809a-61c7-41a1-8042-87909c26aa89
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_SERVER_DIRSYNC_OID control code LDAP"]
+keywords:
+- LDAP_SERVER_DIRSYNC_OID control code LDAP
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Ntldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_SERVER\_DIRSYNC\_OID control code
 
-The LDAP\_SERVER\_DIRSYNC\_OID control enables an application to search the directory for objects changed from a previous state. It is also used with the extended LDAP search functions such as [**ldap\_search\_ext**](ldap-search-ext.md).
+The LDAP\_SERVER\_DIRSYNC\_OID control enables an application to search the directory for objects changed from a previous state. It is also used with the extended LDAP search functions such as [**ldap\_search\_ext**](/windows/previous-versions/Winldap/nf-winldap-ldap_search_ext?branch=master).
 
-To use this control, set the members of the [**LDAPControl**](ldapcontrol.md) structure as follows:
+To use this control, set the members of the [**LDAPControl**](/windows/previous-versions/Winldap/ns-winldap-ldapcontrola?branch=master) structure as follows:
 
 ``` syntax
 PWCHAR ldctl_oid = LDAP_SERVER_DIRSYNC_OID;
@@ -45,7 +49,7 @@ LDAP\_SERVER\_DIRSYNC\_OID, defined as "1.2.840.113556.1.4.841".
 **ldctl\_value**
 </dt> <dd>
 
-Specifies a BER-encoded sequence of parameters that enables the application to limit the amount of data to be returned in a single call. The sequence also includes a "cookie" used for subsequent search calls. In the [**berval**](berval.md) structure, set **bv\_val** to a pointer to the sequence that contains the control and cookie data and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
+Specifies a BER-encoded sequence of parameters that enables the application to limit the amount of data to be returned in a single call. The sequence also includes a "cookie" used for subsequent search calls. In the [**berval**](/windows/previous-versions/Winldap/ns-winldap-berval?branch=master) structure, set **bv\_val** to a pointer to the sequence that contains the control and cookie data and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
 
 </dd> <dt>
 
@@ -58,7 +62,7 @@ Specifies a BER-encoded sequence of parameters that enables the application to l
 
 ## Remarks
 
-The LDAP\_SERVER\_DIRSYNC\_OID control is used with the extended search functions, such as [**ldap\_search\_ext**](ldap-search-ext.md), to search a directory for objects changed since a previous request. This control must be exclusively used with a **SearchRequest** message and is ignored if used otherwise. However, if the criticality field is set to **TRUE** and the control is used with other than the **SearchRequest** message, the request fails and returns an **UnsupportedCriticalExtension** error.
+The LDAP\_SERVER\_DIRSYNC\_OID control is used with the extended search functions, such as [**ldap\_search\_ext**](/windows/previous-versions/Winldap/nf-winldap-ldap_search_ext?branch=master), to search a directory for objects changed since a previous request. This control must be exclusively used with a **SearchRequest** message and is ignored if used otherwise. However, if the criticality field is set to **TRUE** and the control is used with other than the **SearchRequest** message, the request fails and returns an **UnsupportedCriticalExtension** error.
 
 On the first call to an extended LDAP search function that uses this control, the **ldctl\_value** is a BER-encoded version of the following.
 
@@ -84,14 +88,14 @@ Contains optional flags for use with the LDAP\_SERVER\_DIRSYNC\_OID control. Thi
 
 | Value                                      | Description                                                                                                                                                                                                                                         |
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **LDAP\_DIRSYNC\_OBJECT\_SECURITY**        | **Windows Server 2003:  **<br/>                                                                                                                                                                                                               |
+| **LDAP\_DIRSYNC\_OBJECT\_SECURITY**        | **Windows Server 2003:  **<br/>                                                                                                                                                                                                               |
 | **LDAP\_DIRSYNC\_ANCESTORS\_FIRST\_ORDER** | Return parent objects before child objects, when parent objects would otherwise appear later in the replication stream.<br/>                                                                                                                  |
 | **LDAP\_DIRSYNC\_PUBLIC\_DATA\_ONLY**      | Do not return private data in the search results.<br/>                                                                                                                                                                                        |
-| **LDAP\_DIRSYNC\_INCREMENTAL\_VALUES**     | **Windows Server 2003:** If this flag is not present, all of the values, up to a server-specified limit, in a multi-valued attribute are returned when any value changes. If this flag is present, only the changed values are returned.<br/> |
+| **LDAP\_DIRSYNC\_INCREMENTAL\_VALUES**     | **Windows Server 2003:** If this flag is not present, all of the values, up to a server-specified limit, in a multi-valued attribute are returned when any value changes. If this flag is present, only the changed values are returned.<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -113,7 +117,7 @@ An opaque Octet String that is implementation specific. It is updated during eac
 
 </dd> </dl>
 
-The result of a search with the LDAP\_SERVER\_DIRSYNC\_OID control is an [**LDAPControl**](ldapcontrol.md) structure that contains a BER-encoded version of the following data in the **ldctl\_value** member.
+The result of a search with the LDAP\_SERVER\_DIRSYNC\_OID control is an [**LDAPControl**](/windows/previous-versions/Winldap/ns-winldap-ldapcontrola?branch=master) structure that contains a BER-encoded version of the following data in the **ldctl\_value** member.
 
 
 ```C++
@@ -163,15 +167,15 @@ For more information about specific access rights required to use this control w
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Ntldap.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

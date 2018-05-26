@@ -4,13 +4,16 @@ description: Defines the desired power state.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4aa000a9-f189-4ef6-b9b0-2a165bfe43a9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4aa000a9-f189-4ef6-b9b0-2a165bfe43a9
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetPowerState method", "SetPowerState method, MSCluster_NetworkInterface class", "MSCluster_NetworkInterface class, SetPowerState method"]
+keywords:
+- SetPowerState method
+- SetPowerState method, MSCluster_NetworkInterface class
+- MSCluster_NetworkInterface class, SetPowerState method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPowerState method of the MSCluster\_NetworkInterface class
@@ -30,8 +36,8 @@ Defines the desired power state. The desired power state is specified by setting
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -98,7 +104,7 @@ Power Off
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -112,9 +118,9 @@ Power Off
 [**MSCluster\_NetworkInterface**](mscluster-networkinterface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

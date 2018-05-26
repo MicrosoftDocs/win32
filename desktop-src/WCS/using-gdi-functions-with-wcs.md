@@ -1,8 +1,20 @@
 ---
 title: Using GDI Functions With WCS
 description: There are various functions in the graphics device interface (GDI) that use or operate on color data.
-ms.assetid: 'a19ec8b9-11c9-4fde-a99a-7f4a112b49e7'
-keywords: ["Windows Color System (WCS),graphics device interface (GDI)", "WCS (Windows Color System),graphics device interface (GDI)", "image color management,graphics device interface (GDI)", "color management,graphics device interface (GDI)", "colors,graphics device interface (GDI)", "graphics device interface (GDI)", "GDI (graphics device interface)"]
+ms.assetid: a19ec8b9-11c9-4fde-a99a-7f4a112b49e7
+keywords:
+- Windows Color System (WCS),graphics device interface (GDI)
+- WCS (Windows Color System),graphics device interface (GDI)
+- image color management,graphics device interface (GDI)
+- color management,graphics device interface (GDI)
+- colors,graphics device interface (GDI)
+- graphics device interface (GDI)
+- GDI (graphics device interface)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using GDI Functions With WCS

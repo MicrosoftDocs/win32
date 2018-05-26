@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to an application when the operating system is about to change the current IME. A window receives this message through its WindowProc function.'
-ms.assetid: '5559b3ab-8d81-4f33-b0af-d05489371328'
-title: 'WM\_IME\_SELECT message'
+---
+Description: Sent to an application when the operating system is about to change the current IME. A window receives this message through its WindowProc function.
+ms.assetid: 5559b3ab-8d81-4f33-b0af-d05489371328
+title: WM\_IME\_SELECT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_IME\_SELECT message

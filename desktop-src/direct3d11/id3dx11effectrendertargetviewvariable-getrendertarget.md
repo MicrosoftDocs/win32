@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectRenderTargetViewVariable GetRenderTarget method
 description: Get a render-target.
-ms.assetid: '96984d0a-b8f4-444a-9683-3c37d8274d75'
-keywords: ["GetRenderTarget method Direct3D 11", "GetRenderTarget method Direct3D 11 , ID3DX11EffectRenderTargetViewVariable interface", "ID3DX11EffectRenderTargetViewVariable interface Direct3D 11 , GetRenderTarget method"]
+ms.assetid: 96984d0a-b8f4-444a-9683-3c37d8274d75
+keywords:
+- GetRenderTarget method Direct3D 11
+- GetRenderTarget method Direct3D 11 , ID3DX11EffectRenderTargetViewVariable interface
+- ID3DX11EffectRenderTargetViewVariable interface Direct3D 11 , GetRenderTarget method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectRenderTargetViewVariable::GetRenderTarget method
@@ -23,7 +31,7 @@ Get a render-target.
 
 ```C++
 HRESULT GetRenderTarget(
-   ID3D11RenderTargetView **ppResource
+   ID3D11RenderTargetView **ppResource
 );
 ```
 
@@ -36,9 +44,9 @@ HRESULT GetRenderTarget(
 *ppResource* 
 </dt> <dd>
 
-Type: **[**ID3D11RenderTargetView**](id3d11rendertargetview.md)\*\***
+Type: **[**ID3D11RenderTargetView**](/windows/win32/D3D11/nn-d3d11-id3d11rendertargetview?branch=master)\*\***
 
-The address of a pointer to a render-target-view interface. See [**ID3D11RenderTargetView**](id3d11rendertargetview.md).
+The address of a pointer to a render-target-view interface. See [**ID3D11RenderTargetView**](/windows/win32/D3D11/nn-d3d11-id3d11rendertargetview?branch=master).
 
 </dd> </dl>
 
@@ -53,7 +61,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -73,9 +81,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectRenderTargetViewVariable](id3dx11effectrendertargetviewvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

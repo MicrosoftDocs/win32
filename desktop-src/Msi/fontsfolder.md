@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the FontsFolder property to the full path of the system Fonts folder.'
-ms.assetid: 'a0a2200e-cae4-4c33-8ed3-376620e80467'
+---
+Description: The installer sets the FontsFolder property to the full path of the system Fonts folder.
+ms.assetid: a0a2200e-cae4-4c33-8ed3-376620e80467
 title: FontsFolder property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FontsFolder property

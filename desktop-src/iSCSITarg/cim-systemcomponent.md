@@ -1,16 +1,18 @@
 ---
 title: CIM\_SystemComponent class
-description: CIM\_SystemComponent is a specialization of the CIM\_Component association that establishes 'part of' relationships between a System and any ManagedSystemElements of which it is composed.
+description: CIM\_SystemComponent is a specialization of the CIM\_Component association that establishes part of relationships between a System and any ManagedSystemElements of which it is composed.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '005b9494-5efc-42d5-a5fe-724bc9a048f4'
-ms.prod: 'windows-server-dev'
+ms.assetid: 005b9494-5efc-42d5-a5fe-724bc9a048f4
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_SystemComponent class iSCSI Software Target API", "CIM_SystemComponent class iSCSI Software Target API , described"]
+keywords:
+- CIM_SystemComponent class iSCSI Software Target API
+- CIM_SystemComponent class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SystemComponent class
@@ -37,7 +42,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Aggregation, Version("2.10.0"), UMLPackagePath("CIM::Core::CoreElements")]
 class CIM_SystemComponent : CIM_Component
 {
-  CIM_System               REF GroupComponent;
+  CIM_System               REF GroupComponent;
   CIM_ManagedSystemElement REF PartComponent;
 };
 ```
@@ -93,7 +98,7 @@ The child element that is a component of a System.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -107,9 +112,9 @@ The child element that is a component of a System.
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

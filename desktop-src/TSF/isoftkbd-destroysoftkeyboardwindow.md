@@ -1,8 +1,11 @@
 ---
 title: ISoftKbd DestroySoftKeyboardWindow method
 description: The ISoftKbd DestroySoftKeyboardWindow method destroys a soft keyboard window.
-ms.assetid: '44030934-7b4a-46c1-95ea-709fc9004e43'
-keywords: ["DestroySoftKeyboardWindow method Text Services Framework", "DestroySoftKeyboardWindow method Text Services Framework , ISoftKbd interface", "ISoftKbd interface Text Services Framework , DestroySoftKeyboardWindow method"]
+ms.assetid: 44030934-7b4a-46c1-95ea-709fc9004e43
+keywords:
+- DestroySoftKeyboardWindow method Text Services Framework
+- DestroySoftKeyboardWindow method Text Services Framework , ISoftKbd interface
+- ISoftKbd interface Text Services Framework , DestroySoftKeyboardWindow method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISoftKbd::DestroySoftKeyboardWindow method
@@ -42,7 +50,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,9 +62,9 @@ This method removes a soft keyboard window previously created with a call to [**
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
 | Header<br/>                   | <dl> <dt>Softkbdc.h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Softkbd.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
@@ -73,9 +81,9 @@ This method removes a soft keyboard window previously created with a call to [**
 [**ISoftKbd::CreateSoftKeyboardWindow**](isoftkbd-createsoftkeyboardwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

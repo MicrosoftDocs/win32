@@ -1,7 +1,12 @@
 ---
-Description: 'A socket handle can optionally be a file handle in Windows Sockets 2. A socket handle from a Winsock provider can be used with other non-Winsock functions such as ReadFile, WriteFile, ReadFileEx, and WriteFileEx.'
-ms.assetid: '986dd9d8-52be-47aa-92b2-6cd40b83f5de'
+Description: A socket handle can optionally be a file handle in Windows Sockets 2. A socket handle from a Winsock provider can be used with other non-Winsock functions such as ReadFile, WriteFile, ReadFileEx, and WriteFileEx.
+ms.assetid: 986dd9d8-52be-47aa-92b2-6cd40b83f5de
 title: Socket Handles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Socket Handles
@@ -17,7 +22,7 @@ A socket handle should not be used with the [**DuplicateHandle**](base.duplicate
 
  
 
-Windows Sockets 2 has expanded certain functions that transfer data between sockets using handles. The functions offer advantages specific to sockets for transferring data and include [**WSARecv**](wsarecv-2.md), [**WSASend**](wsasend-2.md), and [**WSADuplicateSocket**](wsaduplicatesocket-2.md).
+Windows Sockets 2 has expanded certain functions that transfer data between sockets using handles. The functions offer advantages specific to sockets for transferring data and include [**WSARecv**](/windows/win32/Winsock2/nf-winsock2-wsarecv?branch=master), [**WSASend**](/windows/win32/Winsock2/nf-winsock2-wsasend?branch=master), and [**WSADuplicateSocket**](/windows/win32/Winsock2/nf-winsock2-wsaduplicatesocketa?branch=master).
 
  
 

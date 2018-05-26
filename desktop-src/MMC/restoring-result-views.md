@@ -4,10 +4,13 @@ description: A result view must be restored if it is revisited through the navig
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dee09c50-76f1-4186-846c-1cde3d05fd03'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: dee09c50-76f1-4186-846c-1cde3d05fd03
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Restoring Result Views

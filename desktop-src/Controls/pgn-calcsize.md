@@ -1,8 +1,9 @@
 ---
 title: PGN\_CALCSIZE notification code
 description: Sent by a pager control to obtain the scrollable dimensions of the contained window.
-ms.assetid: 'a15f4191-2f26-4139-bdaf-bab219449b78'
-keywords: ["PGN_CALCSIZE notification code Windows Controls"]
+ms.assetid: a15f4191-2f26-4139-bdaf-bab219449b78
+keywords:
+- PGN_CALCSIZE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PGN\_CALCSIZE notification code
@@ -33,7 +39,7 @@ PGN_CALCSIZE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMPGCALCSIZE**](nmpgcalcsize.md) structure that contains and receives information about the notification code. The **dwFlag** member of this structure indicates which dimension is being calculated. Depending on the value of **dwFlag**, you should place the desired dimension in the **iWidth** or **iHeight** member of this structure.
+Pointer to an [**NMPGCALCSIZE**](/windows/win32/Commctrl/ns-commctrl-nmpgcalcsize?branch=master) structure that contains and receives information about the notification code. The **dwFlag** member of this structure indicates which dimension is being calculated. Depending on the value of **dwFlag**, you should place the desired dimension in the **iWidth** or **iHeight** member of this structure.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ The return value is ignored.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

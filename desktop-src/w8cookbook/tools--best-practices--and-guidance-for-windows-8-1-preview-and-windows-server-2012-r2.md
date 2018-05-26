@@ -1,7 +1,12 @@
 ---
-title: Tools, best practices, and guidance for Windows 8.1 and Windows Server 2012 R2
-description: Tools, best practices, and guidance for Windows 8.1 and Windows Server 2012 R2
-ms.assetid: '5317C292-1C1F-45DB-B4A4-BCE59991B4B3'
+title: Tools, best practices, and guidance for Windows 8.1 and Windows Server 2012 R2
+description: Tools, best practices, and guidance for Windows 8.1 and Windows Server 2012 R2
+ms.assetid: 5317C292-1C1F-45DB-B4A4-BCE59991B4B3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tools, best practices, and guidance for Windows 8.1 and Windows Server 2012 R2
@@ -20,11 +25,11 @@ This section contains aids to help you confirm the continued compatibility of yo
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

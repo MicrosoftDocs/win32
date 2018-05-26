@@ -1,7 +1,12 @@
 ---
 title: Programming Guide
 description: This guide contains information on how to use the XInput API to interact with the Xbox 360 Controller when it is connected to a Windows PC.
-ms.assetid: '5eca9b7f-b3a8-6ee7-fbfb-69cfcc73a8e8'
+ms.assetid: 5eca9b7f-b3a8-6ee7-fbfb-69cfcc73a8e8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide

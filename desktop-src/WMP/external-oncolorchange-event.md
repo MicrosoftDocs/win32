@@ -1,8 +1,9 @@
 ---
 title: External.OnColorChange Event
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: 'f2cd44b1-c813-479b-b847-96ddb9572697'
-keywords: ["External.OnColorChange Event Windows Media Player"]
+ms.assetid: f2cd44b1-c813-479b-b847-96ddb9572697
+keywords:
+- External.OnColorChange Event Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.OnColorChange Event
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **OnColorChange** event occurs when the color of the Windows Media Player user interface changes.
 
@@ -56,9 +62,9 @@ Users can change the color of the Windows Media Player user interface. You can u
 [**External Object for Type 2 Online Stores**](external-object-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

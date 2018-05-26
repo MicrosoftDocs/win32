@@ -1,7 +1,12 @@
 ---
 title: Updating and Managing a Web Site
 description: Updating and Managing a Web Site
-ms.assetid: '7548D054-1618-41fd-B2A0-852A49C01D66'
+ms.assetid: 7548D054-1618-41fd-B2A0-852A49C01D66
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating and Managing a Web Site

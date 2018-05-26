@@ -1,7 +1,12 @@
-﻿---
+---
 Description: BoundingSphere Fields
-ms.assetid: '6691c022-0729-497b-8299-b355e09bdd9e'
+ms.assetid: 6691c022-0729-497b-8299-b355e09bdd9e
 title: BoundingSphere Fields
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingSphere Fields
@@ -21,7 +26,7 @@ title: BoundingSphere Fields
 
 <dl> <dt>
 
-[BoundingSphere](boundingsphere.md)
+[BoundingSphere](/windows/win32/DirectXCollision/ns-directxcollision-boundingsphere?branch=master)
 </dt> </dl>
 
  

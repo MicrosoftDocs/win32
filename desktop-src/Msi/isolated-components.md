@@ -1,7 +1,12 @@
 ---
-Description: 'Authors of installation packages can specify that the installer copy the shared files (commonly shared DLLs) of an application into that application''s folder rather than to a shared location.'
-ms.assetid: 'fbc5dd86-5d38-4ce8-ab38-03c84cc77e80'
+Description: Authors of installation packages can specify that the installer copy the shared files (commonly shared DLLs) of an application into that applications folder rather than to a shared location.
+ms.assetid: fbc5dd86-5d38-4ce8-ab38-03c84cc77e80
 title: Isolated Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Isolated Components

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Supports both Diffie-Hellman and Schannel protocols.'
-ms.assetid: '56291983-995f-4b77-82ce-b165cfff6939'
-title: 'PROV\_DH\_SCHANNEL'
+---
+Description: Supports both Diffie-Hellman and Schannel protocols.
+ms.assetid: 56291983-995f-4b77-82ce-b165cfff6939
+title: PROV\_DH\_SCHANNEL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROV\_DH\_SCHANNEL

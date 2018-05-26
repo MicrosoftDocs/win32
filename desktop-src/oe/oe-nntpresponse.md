@@ -1,8 +1,10 @@
 ---
 title: NNTPRESPONSE structure
 description: Do not use.
-ms.assetid: '35675f0f-d8df-4653-86aa-9f8be6327786'
-keywords: ["NNTPRESPONSE structure Windows Mail (formerly Outlook Express)", "LPNNTPRESPONSE structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 35675f0f-d8df-4653-86aa-9f8be6327786
+keywords:
+- NNTPRESPONSE structure Windows Mail (formerly Outlook Express)
+- LPNNTPRESPONSE structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NNTPRESPONSE structure
@@ -22,10 +29,10 @@ Do not use. This structure is the general holder for all of the data returned fr
 
 ```C++
 typedef struct tagNNTPRESPONSE {
-  NNTPSTATE      state;
-  BOOL           fMustRelease;
-  BOOL           fDone;
-  IXPRESULT      rIxpResult;
+  NNTPSTATE      state;
+  BOOL           fMustRelease;
+  BOOL           fDone;
+  IXPRESULT      rIxpResult;
   INNTPTransport *pTransport;
 } NNTPRESPONSE, *LPNNTPRESPONSE;
 ```
@@ -97,17 +104,17 @@ Pointer to the NNTP transport that generated the response
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

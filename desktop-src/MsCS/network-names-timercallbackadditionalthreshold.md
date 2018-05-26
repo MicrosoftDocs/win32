@@ -4,17 +4,22 @@ description: Provides the TBD of the network being managed by a Cluster Name res
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd102c63d-992d-41c2-b440-67821a841b4b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d102c63d-992d-41c2-b440-67821a841b4b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["TimerCallbackAdditionalThreshold Failover Cluster ,for cluster names", "TimerCallbackAdditionalThreshold Failover Cluster"]
+keywords:
+- TimerCallbackAdditionalThreshold Failover Cluster ,for cluster names
+- TimerCallbackAdditionalThreshold Failover Cluster
 topic_type:
 - apiref
 api_name:
 - TimerCallbackAdditionalThreshold
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TimerCallbackAdditionalThreshold
@@ -28,14 +33,14 @@ Provides the TBD of the [network](networks.md) being managed by a [Cluster Name]
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | TBD                                       |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 0x7FFFFFFF                                |
 | Default   | 5                                         |
 
 
 
- 
+ 
 
 ## Examples
 
@@ -60,7 +65,7 @@ TimerCallbackAdditionalThresholdValue.dw        = TimerCallbackAdditionalThresho
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -71,12 +76,12 @@ TimerCallbackAdditionalThresholdValue.dw        = TimerCallbackAdditionalThresho
 [Cluster Name Private Properties](network-name-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

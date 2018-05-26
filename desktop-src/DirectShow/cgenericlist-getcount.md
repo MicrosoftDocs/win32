@@ -1,7 +1,12 @@
 ---
-Description: 'The GetCount method retrieves the number of items in the list.'
-ms.assetid: 'a74fcddd-109f-4abf-abe0-e00f6e56ea0f'
-title: 'CGenericList.GetCount method'
+Description: The GetCount method retrieves the number of items in the list.
+ms.assetid: a74fcddd-109f-4abf-abe0-e00f6e56ea0f
+title: CGenericList.GetCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.GetCount method
@@ -43,9 +48,9 @@ Returns the number of items in the list.
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

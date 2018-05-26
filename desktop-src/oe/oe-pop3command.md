@@ -1,8 +1,10 @@
 ---
 title: POP3COMMAND enumeration
-description: Enumerates the Post Office Protocol version 3 (POP3) commands that have been issued to the server and the various states following an action.
-ms.assetid: '3e775faa-d0bc-4a16-824d-5534e063bb03'
-keywords: ["POP3COMMAND enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+description: Enumerates the Post Office Protocol version 3 (POP3) commands that have been issued to the server and the various states following an action.
+ms.assetid: 3e775faa-d0bc-4a16-824d-5534e063bb03
+keywords:
+- POP3COMMAND enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,35 +13,40 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # POP3COMMAND enumeration
 
 \[**POP3COMMAND** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-Enumerates the Post Office Protocol version 3 (POP3) commands that have been issued to the server and the various states following an action.
+Enumerates the Post Office Protocol version 3 (POP3) commands that have been issued to the server and the various states following an action.
 
 ## Syntax
 
 
 ```C++
 typedef enum tagPOP3COMMAND { 
-  POP3_NONE       = 0,
-  POP3_BANNER     = 1,
-  POP3_CONNECTED  = 2,
-  POP3_USER       = 3,
-  POP3_PASS       = 4,
-  POP3_AUTH       = 5,
-  POP3_UIDL       = 6,
-  POP3_STAT       = 7,
-  POP3_LIST       = 8,
-  POP3_DELE       = 9,
-  POP3_RETR       = 10,
-  POP3_TOP        = 11,
-  POP3_NOOP       = 12,
-  POP3_QUIT       = 13,
-  POP3_RSET       = 14,
-  POP3_CUSTOM     = 15
+  POP3_NONE       = 0,
+  POP3_BANNER     = 1,
+  POP3_CONNECTED  = 2,
+  POP3_USER       = 3,
+  POP3_PASS       = 4,
+  POP3_AUTH       = 5,
+  POP3_UIDL       = 6,
+  POP3_STAT       = 7,
+  POP3_LIST       = 8,
+  POP3_DELE       = 9,
+  POP3_RETR       = 10,
+  POP3_TOP        = 11,
+  POP3_NOOP       = 12,
+  POP3_QUIT       = 13,
+  POP3_RSET       = 14,
+  POP3_CUSTOM     = 15
 } ACCESSTYPE;
 ```
 
@@ -167,17 +174,17 @@ Indicates that a custom protocol command has been sent.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

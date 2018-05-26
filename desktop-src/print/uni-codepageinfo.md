@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UNI\_CODEPAGEINFO structure is one of the structures used to define the contents of glyph translation table files (.gtt files).'
-ms.assetid: '042362d3-d5bf-47af-957f-8f1eb7a9ca7a'
-title: 'UNI\_CODEPAGEINFO structure'
+---
+Description: The UNI\_CODEPAGEINFO structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
+ms.assetid: 042362d3-d5bf-47af-957f-8f1eb7a9ca7a
+title: UNI\_CODEPAGEINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UNI\_CODEPAGEINFO structure

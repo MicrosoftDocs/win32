@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the identifier for the IContextNode object.'
-ms.assetid: '7578bcc1-7c69-45fc-b3c2-7350ce4df99c'
-title: 'IContextNode::GetId method'
+Description: Retrieves the identifier for the IContextNode object.
+ms.assetid: 7578bcc1-7c69-45fc-b3c2-7350ce4df99c
+title: IContextNodeGetId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::GetId method
@@ -13,7 +18,7 @@ Retrieves the identifier for the [**IContextNode**](icontextnode.md) object.
 
 ```C++
 HRESULT GetId(
-  [out] GUID *pId
+  [out] GUID *pId
 );
 ```
 
@@ -125,7 +130,7 @@ HRESULT CMyClass::GetNodeInformation(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -142,9 +147,9 @@ HRESULT CMyClass::GetNodeInformation(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

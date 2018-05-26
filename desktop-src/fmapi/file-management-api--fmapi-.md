@@ -1,7 +1,12 @@
 ---
 title: File Management API (FMAPI)
 description: The File Management API (FMAPI) provides a way for developers to discover and restore deleted files from unencrypted volumes.
-ms.assetid: '7e349e24-136b-46f4-9bdb-d53994b2f6c6'
+ms.assetid: 7e349e24-136b-46f4-9bdb-d53994b2f6c6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Management API (FMAPI)

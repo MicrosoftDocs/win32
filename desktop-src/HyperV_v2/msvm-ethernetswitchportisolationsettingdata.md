@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the Isolation setting data.'
-ms.assetid: 'f6bf5fcf-61c4-4e69-8ba0-fff4c4873368'
-title: 'Msvm\_EthernetSwitchPortIsolationSettingData class'
+Description: Represents the Isolation setting data.
+ms.assetid: f6bf5fcf-61c4-4e69-8ba0-fff4c4873368
+title: Msvm\_EthernetSwitchPortIsolationSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortIsolationSettingData class
@@ -16,9 +21,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), UUID("83AF2CCB-72C9-4479-A285-94E58A98CAA6"), ExtensionId("11EC6134-128A-4A23-B12F-164184B48348"), InterfaceVersion("1"), InterfaceRevision("0"), DisplayName("Ethernet Switch Port Isolation Settings"), AMENDMENT]
 class Msvm_EthernetSwitchPortIsolationSettingData : Msvm_EthernetSwitchPortFeatureSettingData
 {
-  uint32  IsolationMode = 0;
+  uint32  IsolationMode = 0;
   boolean AllowUntaggedTraffic = FALSE;
-  uint32  DefaultIsolationId = 0;
+  uint32  DefaultIsolationId = 0;
   Boolean EnableMultiTenantStack = FALSE;
 };
 ```
@@ -135,8 +140,8 @@ Whether the port is using **VLAN** or **VirtualSubnetId** for isolation. **Nativ
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -150,9 +155,9 @@ Whether the port is using **VLAN** or **VirtualSubnetId** for isolation. **Nativ
 [**Msvm\_EthernetSwitchPortFeatureSettingData**](msvm-ethernetswitchportfeaturesettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

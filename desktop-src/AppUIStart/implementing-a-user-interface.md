@@ -1,7 +1,12 @@
 ---
 title: Implementing a User Interface
 description: This section describes some of the tasks associated with implementing a user interface for a Windows application.
-ms.assetid: '889791a7-d12c-4ec6-9b04-8fed14ecdb2c'
+ms.assetid: 889791a7-d12c-4ec6-9b04-8fed14ecdb2c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing a User Interface

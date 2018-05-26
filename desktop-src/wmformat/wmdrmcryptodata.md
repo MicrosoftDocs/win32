@@ -1,8 +1,10 @@
 ---
 title: WMDRMCryptoData structure
 description: The WMDRMCryptoData structure contains information about the cryptographic algorithm used to encrypt and decrypt content.
-ms.assetid: 'ad14c6d3-4305-47c0-8f67-7ef6d11cc326'
-keywords: ["WMDRMCryptoData structure windows Media Format", "structure windows Media Format"]
+ms.assetid: ad14c6d3-4305-47c0-8f67-7ef6d11cc326
+keywords:
+- WMDRMCryptoData structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRMCryptoData structure
@@ -22,7 +29,7 @@ The **WMDRMCryptoData** structure contains information about the cryptographic a
 
 ```C++
 typedef struct WMDRMCryptoData {
-  DRM_CRYPTO_TYPE  cryptoType;
+  DRM_CRYPTO_TYPE  cryptoType;
   unsigned __int64 qwCounterID;
   unsigned __int64 qwOffset;
 } ;
@@ -72,9 +79,9 @@ The low 64 bits of the 128-bit AES counter mode. This member is only used if the
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

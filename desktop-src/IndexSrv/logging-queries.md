@@ -1,7 +1,12 @@
 ---
 title: Logging Queries
 description: Logging Queries
-ms.assetid: 'c827f9d0-25ec-4799-81b3-513ee9f30610'
+ms.assetid: c827f9d0-25ec-4799-81b3-513ee9f30610
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Logging Queries

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Shuts down the user name resolution thread.'
-ms.assetid: '6c4544b9-81e7-4a72-aa00-70011e5cd85a'
-title: 'DiskQuotaControl.ShutdownNameResolution method'
+---
+Description: Shuts down the user name resolution thread.
+ms.assetid: 6c4544b9-81e7-4a72-aa00-70011e5cd85a
+title: DiskQuotaControl.ShutdownNameResolution method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DiskQuotaControl.ShutdownNameResolution method

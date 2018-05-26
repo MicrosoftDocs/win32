@@ -1,8 +1,21 @@
 ---
 title: Running the Sample Project
 description: Running the Sample Project
-ms.assetid: 'd0c32a75-4d30-408b-8da8-3917f6fd6ea4'
-keywords: ["Windows Media Player online stores,running sample projects", "online stores,running sample projects", "type 2 online stores,running sample projects", "Windows Media Player online stores,sample projects", "online stores,sample projects", "type 2 online stores,sample projects", "running sample projects", "samples,type 2 online stores"]
+ms.assetid: d0c32a75-4d30-408b-8da8-3917f6fd6ea4
+keywords:
+- Windows Media Player online stores,running sample projects
+- online stores,running sample projects
+- type 2 online stores,running sample projects
+- Windows Media Player online stores,sample projects
+- online stores,sample projects
+- type 2 online stores,sample projects
+- running sample projects
+- samples,type 2 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Running the Sample Project

@@ -1,8 +1,9 @@
 ---
 title: TVM\_SETIMAGELIST message
 description: Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can send this message explicitly or by using the TreeView\_SetImageList macro.
-ms.assetid: '1a7bf2f8-c7db-44a8-b234-0ffc498e9000'
-keywords: ["TVM_SETIMAGELIST message Windows Controls"]
+ms.assetid: 1a7bf2f8-c7db-44a8-b234-0ffc498e9000
+keywords:
+- TVM_SETIMAGELIST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_SETIMAGELIST message
 
-Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can send this message explicitly or by using the [**TreeView\_SetImageList**](treeview-setimagelist.md) macro.
+Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can send this message explicitly or by using the [**TreeView\_SetImageList**](/windows/win32/Commctrl/nf-commctrl-treeview_setimagelist?branch=master) macro.
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Type of image list to set. This parameter can be one of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -60,8 +66,8 @@ The tree-view control will not destroy the image list specified with this messag
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -73,9 +79,9 @@ The tree-view control will not destroy the image list specified with this messag
 [**TVM\_GETIMAGELIST**](tvm-getimagelist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

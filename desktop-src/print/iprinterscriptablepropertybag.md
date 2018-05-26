@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrinterScriptablePropertyBag interface is the property bag interface passed to script clients.'
-ms.assetid: 'E6F48895-7ED6-479B-BF16-42192461C56D'
+---
+Description: The IPrinterScriptablePropertyBag interface is the property bag interface passed to script clients.
+ms.assetid: E6F48895-7ED6-479B-BF16-42192461C56D
 title: IPrinterScriptablePropertyBag interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptablePropertyBag interface

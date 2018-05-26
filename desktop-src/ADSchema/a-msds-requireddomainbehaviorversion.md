@@ -4,17 +4,22 @@ description: Required domain function level for this feature.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c5fe973d-e091-42de-b2ea-2b10b9ee291f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c5fe973d-e091-42de-b2ea-2b10b9ee291f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Required-Domain-Behavior-Version attribute AD Schema", "msDS-RequiredDomainBehaviorVersion attribute AD Schema"]
+keywords:
+- ms-DS-Required-Domain-Behavior-Version attribute AD Schema
+- msDS-RequiredDomainBehaviorVersion attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Required-Domain-Behavior-Version
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Required-Domain-Behavior-Version attribute
@@ -38,8 +43,8 @@ Required domain function level for this feature.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ Required domain function level for this feature.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

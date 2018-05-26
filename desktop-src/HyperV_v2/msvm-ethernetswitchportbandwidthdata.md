@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the port bandwidth feature status data.'
-ms.assetid: '1f7be0dd-3d2f-49ef-aff0-cb162389194a'
-title: 'Msvm\_EthernetSwitchPortBandwidthData class'
+Description: Represents the port bandwidth feature status data.
+ms.assetid: 1f7be0dd-3d2f-49ef-aff0-cb162389194a
+title: Msvm\_EthernetSwitchPortBandwidthData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortBandwidthData class
@@ -215,17 +220,17 @@ The name of the virtual switch that scopes this port data instance. This propert
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

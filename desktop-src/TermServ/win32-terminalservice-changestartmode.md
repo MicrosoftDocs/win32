@@ -4,11 +4,14 @@ description: Modifies the start mode of a Win32\_TerminalService.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4F4B8CFC-B38C-47C6-A2BA-D498EC2B7F55'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4F4B8CFC-B38C-47C6-A2BA-D498EC2B7F55
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ChangeStartMode method Remote Desktop Services", "ChangeStartMode method Remote Desktop Services , Win32_Service class", "Win32_Service class Remote Desktop Services , ChangeStartMode method"]
+keywords:
+- ChangeStartMode method Remote Desktop Services
+- ChangeStartMode method Remote Desktop Services , Win32_Service class
+- Win32_Service class Remote Desktop Services , ChangeStartMode method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ChangeStartMode method of the Win32\_Service class
@@ -30,7 +36,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 ChangeStartMode(
-  [in] string StartMode
+  [in] string StartMode
 );
 ```
 
@@ -306,8 +312,8 @@ ELSE
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -330,9 +336,9 @@ ELSE
 [WMI Tasks: Services](https://msdn.microsoft.com/library/aa394602)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

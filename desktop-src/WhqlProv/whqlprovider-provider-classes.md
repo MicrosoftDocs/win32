@@ -1,7 +1,12 @@
 ---
 title: WhqlProvider Provider
 description: This section provides reference information for WhqlProvider provider classes.
-ms.assetid: '9EDBDB91-3E5B-4DB3-A1A1-1D8707CC3AB9'
+ms.assetid: 9EDBDB91-3E5B-4DB3-A1A1-1D8707CC3AB9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WhqlProvider Provider
@@ -19,11 +24,11 @@ This section provides reference information for **WhqlProvider** provider classe
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

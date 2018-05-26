@@ -1,8 +1,9 @@
 ---
 title: NM\_DBLCLK (list view) notification code
 description: Sent by a list-view control when the user double-clicks an item with the left mouse button. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '28455109-177e-4932-88c5-500a3a91c13a'
-keywords: ["NM_DBLCLK (list view) notification code Windows Controls"]
+ms.assetid: 28455109-177e-4932-88c5-500a3a91c13a
+keywords:
+- NM_DBLCLK (list view) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_DBLCLK (list view) notification code
@@ -33,7 +39,7 @@ NM_DBLCLK
 *lParam* 
 </dt> <dd>
 
-[Version 4.71](common-control-versions.md). Pointer to an [**NMITEMACTIVATE**](nmitemactivate.md) structure that contains additional information about this notification. The **iItem**, **iSubItem**, and **ptAction** members of this structure contain information about the item.
+[Version 4.71](common-control-versions.md). Pointer to an [**NMITEMACTIVATE**](/windows/win32/Commctrl/ns-commctrl-tagnmitemactivate?branch=master) structure that contains additional information about this notification. The **iItem**, **iSubItem**, and **ptAction** members of this structure contain information about the item.
 
 </dd> </dl>
 
@@ -51,15 +57,15 @@ The **iItem** member of *lParam* is only valid if the icon or first-column label
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

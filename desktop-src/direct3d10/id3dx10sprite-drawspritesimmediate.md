@@ -1,7 +1,12 @@
-﻿---
-Description: 'Draw an array of sprites.'
-ms.assetid: '3fcc7705-0d59-450e-b137-c9cb7ec6b1ea'
-title: 'ID3DX10Sprite::DrawSpritesImmediate method'
+---
+Description: Draw an array of sprites.
+ms.assetid: 3fcc7705-0d59-450e-b137-c9cb7ec6b1ea
+title: ID3DX10SpriteDrawSpritesImmediate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Sprite::DrawSpritesImmediate method

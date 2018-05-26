@@ -1,8 +1,18 @@
 ---
 title: Normal Tertiary Image Source
 description: Normal Tertiary Image Source
-ms.assetid: 'ce0b009a-b008-4e8b-875b-b2ff3c1c0b81'
-keywords: ["Windows Media Player Mobile skins,button image source", "skins,button image source", "reference for skins,buttons", "buttons in skins,image source", "image source for skins,buttons"]
+ms.assetid: ce0b009a-b008-4e8b-875b-b2ff3c1c0b81
+keywords:
+- Windows Media Player Mobile skins,button image source
+- skins,button image source
+- reference for skins,buttons
+- buttons in skins,image source
+- image source for skins,buttons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Normal Tertiary Image Source

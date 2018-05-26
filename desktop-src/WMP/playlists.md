@@ -1,8 +1,24 @@
 ---
 title: Playlists
 description: Playlists
-ms.assetid: '2e36e948-0762-4414-8fb9-0b37cc5f20e5'
-keywords: ["Windows Media Player,playlists", "Windows Media Player object model,playlists", "object model,playlists", "Windows Media Player ActiveX control,playlists", "ActiveX control,playlists", "Windows Media Player Mobile ActiveX control,playlists", "Windows Media Player Mobile,playlists", "playlists,migration", "Windows Media metafile playlists,migration", "metafile playlists,migration", "migration guide,playlists"]
+ms.assetid: 2e36e948-0762-4414-8fb9-0b37cc5f20e5
+keywords:
+- Windows Media Player,playlists
+- Windows Media Player object model,playlists
+- object model,playlists
+- Windows Media Player ActiveX control,playlists
+- ActiveX control,playlists
+- Windows Media Player Mobile ActiveX control,playlists
+- Windows Media Player Mobile,playlists
+- playlists,migration
+- Windows Media metafile playlists,migration
+- metafile playlists,migration
+- migration guide,playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlists

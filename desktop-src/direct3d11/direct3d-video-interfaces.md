@@ -1,12 +1,17 @@
 ---
 title: Direct3D Video Interfaces
-description: This topic lists the Direct3D video interfaces that are available in Direct3D 9Ex and that are supported on Windows 7 and later versions of Windows client operating systems and on Windows Server 2008 R2 and later versions of Windows server operating systems.
-ms.assetid: '922AC983-B9C0-494C-BADD-CEF20931FC26'
+description: This topic lists the Direct3D video interfaces that are available in Direct3D 9Ex and that are supported on Windows 7 and later versions of Windows client operating systems and on Windows Server 2008 R2 and later versions of Windows server operating systems.
+ms.assetid: 922AC983-B9C0-494C-BADD-CEF20931FC26
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D Video Interfaces
 
-This topic lists the Direct3D video interfaces that are available in Direct3D 9Ex and that are supported on Windows 7 and later versions of Windows client operating systems and on Windows Server 2008 R2 and later versions of Windows server operating systems. You can use these interfaces and their methods to obtain the video content protection capabilities of the graphics driver and the overlay hardware capabilities of a Direct3D device. You can also use these interfaces and their methods to protect video content. These interfaces and their methods are defined in D3d9.h and described in the [Microsoft Media Foundation](https://msdn.microsoft.com/library/windows/desktop/ms694197) section.
+This topic lists the Direct3D video interfaces that are available in Direct3D 9Ex and that are supported on Windows 7 and later versions of Windows client operating systems and on Windows Server 2008 R2 and later versions of Windows server operating systems. You can use these interfaces and their methods to obtain the video content protection capabilities of the graphics driver and the overlay hardware capabilities of a Direct3D device. You can also use these interfaces and their methods to protect video content. These interfaces and their methods are defined in D3d9.h and described in the [Microsoft Media Foundation](https://msdn.microsoft.com/library/windows/desktop/ms694197) section.
 
 
 
@@ -19,7 +24,7 @@ This topic lists the Direct3D video interfaces that are available in Direct3D 9E
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +36,9 @@ This topic lists the Direct3D video interfaces that are available in Direct3D 9E
 [Programming Guide for Direct3D 11](dx-graphics-overviews.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

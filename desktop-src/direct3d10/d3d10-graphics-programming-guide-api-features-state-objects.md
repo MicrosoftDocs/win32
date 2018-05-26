@@ -1,7 +1,12 @@
-﻿---
-Description: 'In Direct3D 10, device state is grouped into state objects which greatly reduce the cost of state changes.'
-ms.assetid: 'b2839da9-60ed-4f6c-9cc7-eac53647cca7'
-title: 'State Objects (Direct3D 10)'
+---
+Description: In Direct3D 10, device state is grouped into state objects which greatly reduce the cost of state changes.
+ms.assetid: b2839da9-60ed-4f6c-9cc7-eac53647cca7
+title: State Objects (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # State Objects (Direct3D 10)
@@ -18,31 +23,31 @@ In Direct3D 10, device state is grouped into state objects which greatly reduce 
 
 ## Input-Layout State
 
-This group of state (see [**D3D10\_INPUT\_ELEMENT\_DESC**](d3d10-input-element-desc.md)) dictates how the [input-assembler stage](direct3d11.d3d10_graphics_programming_guide_input_assembler_stage) reads data out of the input buffers and assembles it for use by the vertex shader. This includes state such as the number of elements in the input buffer and the signature of the input data. The input-assembler stage is a new stage in the pipeline whose job is to stream primitives from memory into the pipeline.
+This group of state (see [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_input_element_desc?branch=master)) dictates how the [input-assembler stage](direct3d11.d3d10_graphics_programming_guide_input_assembler_stage) reads data out of the input buffers and assembles it for use by the vertex shader. This includes state such as the number of elements in the input buffer and the signature of the input data. The input-assembler stage is a new stage in the pipeline whose job is to stream primitives from memory into the pipeline.
 
-To create a input-layout-state object, see [**CreateInputLayout**](id3d10device-createinputlayout.md).
+To create a input-layout-state object, see [**CreateInputLayout**](/windows/win32/D3D10/nf-d3d10-id3d10device-createinputlayout?branch=master).
 
 ## Rasterizer State
 
-This group of state (see [**D3D10\_RASTERIZER\_DESC**](d3d10-rasterizer-desc.md)) initializes the [rasterizer stage](direct3d11.d3d10_graphics_programming_guide_rasterizer_stage). This object includes state such as fill or cull modes, enabling a scissor rectangle for clipping, and setting multisample parameters. This stage rasterizes primitives into pixels, performing operations like clipping and mapping primitives to the viewport.
+This group of state (see [**D3D10\_RASTERIZER\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_rasterizer_desc?branch=master)) initializes the [rasterizer stage](direct3d11.d3d10_graphics_programming_guide_rasterizer_stage). This object includes state such as fill or cull modes, enabling a scissor rectangle for clipping, and setting multisample parameters. This stage rasterizes primitives into pixels, performing operations like clipping and mapping primitives to the viewport.
 
-To create a rasterizer-state object, see [**CreateRasterizerState**](id3d10device-createrasterizerstate.md).
+To create a rasterizer-state object, see [**CreateRasterizerState**](/windows/win32/D3D10/nf-d3d10-id3d10device-createrasterizerstate?branch=master).
 
 ## Depth-Stencil State
 
-This group of state (see [**D3D10\_DEPTH\_STENCIL\_DESC**](d3d10-depth-stencil-desc.md)) initializes the depth-stencil portion of the [output-merger stage](direct3d11.d3d10_graphics_programming_guide_output_merger_stage). More specifically, this object initializes depth and stencil testing.
+This group of state (see [**D3D10\_DEPTH\_STENCIL\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_depth_stencil_desc?branch=master)) initializes the depth-stencil portion of the [output-merger stage](direct3d11.d3d10_graphics_programming_guide_output_merger_stage). More specifically, this object initializes depth and stencil testing.
 
-To create a depth-stencil-state object, see [**CreateDepthStencilState**](id3d10device-createdepthstencilstate.md).
+To create a depth-stencil-state object, see [**CreateDepthStencilState**](/windows/win32/D3D10/nf-d3d10-id3d10device-createdepthstencilstate?branch=master).
 
 ## Blend State
 
-This group of state (see [**D3D10\_BLEND\_DESC**](d3d10-blend-desc.md)) initializes the blending portion of the [output-merger stage](direct3d11.d3d10_graphics_programming_guide_output_merger_stage).
+This group of state (see [**D3D10\_BLEND\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_blend_desc?branch=master)) initializes the blending portion of the [output-merger stage](direct3d11.d3d10_graphics_programming_guide_output_merger_stage).
 
-To create a blend-state object, see [**CreateBlendState**](id3d10device-createblendstate.md).
+To create a blend-state object, see [**CreateBlendState**](/windows/win32/D3D10/nf-d3d10-id3d10device-createblendstate?branch=master).
 
 ## Sampler State
 
-This group of state (see [**D3D10\_SAMPLER\_DESC**](d3d10-sampler-desc.md)) initializes a sampler object. A sampler object is used by the shader stages to filter textures in memory.
+This group of state (see [**D3D10\_SAMPLER\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_sampler_desc?branch=master)) initializes a sampler object. A sampler object is used by the shader stages to filter textures in memory.
 
 
 
@@ -54,7 +59,7 @@ This group of state (see [**D3D10\_SAMPLER\_DESC**](d3d10-sampler-desc.md)) init
 
  
 
-To create a sampler-state object, see [**CreateSamplerState**](id3d10device-createsamplerstate.md).
+To create a sampler-state object, see [**CreateSamplerState**](/windows/win32/D3D10/nf-d3d10-id3d10device-createsamplerstate?branch=master).
 
 ## Performance Considerations
 

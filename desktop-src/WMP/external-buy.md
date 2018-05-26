@@ -1,8 +1,11 @@
 ---
 title: External.buy method
-description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The buy method initiates the purchase of a set of media items.
-ms.assetid: '78496de6-214e-4712-8fbc-11e002adce88'
-keywords: ["buy method Windows Media Player", "buy method Windows Media Player , External class", "External class Windows Media Player , buy method"]
+description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The buy method initiates the purchase of a set of media items.
+ms.assetid: 78496de6-214e-4712-8fbc-11e002adce88
+keywords:
+- buy method Windows Media Player
+- buy method Windows Media Player , External class
+- External class Windows Media Player , buy method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.buy method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **buy** method initiates the purchase of a set of media items.
 
@@ -83,15 +91,15 @@ This method does not return a value.
 [**External.download**](external-download.md)
 </dt> <dt>
 
-[**IWMPContentPartner::Buy**](iwmpcontentpartner-buy.md)
+[**IWMPContentPartner::Buy**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-buy?branch=master)
 </dt> <dt>
 
 [**Purchasing Media Content**](purchasing-media-content.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: WNet Functions
 description: Windows Networking functions provide information and utilities for managing network resources.
-ms.assetid: '8a83186f-a912-4c61-8137-1f6be1f3afd6'
+ms.assetid: 8a83186f-a912-4c61-8137-1f6be1f3afd6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WNet Functions
@@ -93,7 +98,7 @@ Call the following WNet function to retrieve the name of the user associated wit
 
  
 
-Many of the WNet functions use a [**NETRESOURCE**](netresource-str.md) structure to store information about a network resource.
+Many of the WNet functions use a [**NETRESOURCE**](/windows/win32/Winnetwk/ns-winnetwk-_netresourcea?branch=master) structure to store information about a network resource.
 
  
 

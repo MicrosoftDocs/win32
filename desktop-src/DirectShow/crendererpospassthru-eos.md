@@ -1,7 +1,12 @@
 ---
-Description: 'The EOS method updates the cached time stamps after an end-of-stream notification.'
-ms.assetid: '7fb2f964-ec15-47f5-902b-29b9b121e876'
-title: 'CRendererPosPassThru.EOS method'
+Description: The EOS method updates the cached time stamps after an end-of-stream notification.
+ms.assetid: 7fb2f964-ec15-47f5-902b-29b9b121e876
+title: CRendererPosPassThru.EOS method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererPosPassThru.EOS method
@@ -34,11 +39,11 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
-The filter should call this method when it receives an end-of-stream notification ([**IPin::EndOfStream**](ipin-endofstream.md)). The method sets both cached time stamps equal to the stop position, ensuring that the [**IMediaSeeking:: GetCurrentPosition**](imediaseeking-getcurrentposition.md) method returns the correct values at the end of the stream.
+The filter should call this method when it receives an end-of-stream notification ([**IPin::EndOfStream**](/windows/win32/Strmif/nf-strmif-ipin-endofstream?branch=master)). The method sets both cached time stamps equal to the stop position, ensuring that the [**IMediaSeeking:: GetCurrentPosition**](/windows/win32/Strmif/nf-strmif-imediaseeking-getcurrentposition?branch=master) method returns the correct values at the end of the stream.
 
 ## Requirements
 
@@ -51,9 +56,9 @@ The filter should call this method when it receives an end-of-stream notificatio
 
 
 
- 
+ 
 
- 
+ 
 
 
 

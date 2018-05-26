@@ -1,8 +1,9 @@
 ---
 title: HDM\_SETITEM message
 description: Sets the attributes of the specified item in a header control. You can send this message explicitly or use the Header\_SetItem macro.
-ms.assetid: 'c8f0d526-3ebe-48c5-8aea-ea3703e2d983'
-keywords: ["HDM_SETITEM message Windows Controls"]
+ms.assetid: c8f0d526-3ebe-48c5-8aea-ea3703e2d983
+keywords:
+- HDM_SETITEM message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_SETITEM message
 
-Sets the attributes of the specified item in a header control. You can send this message explicitly or use the [**Header\_SetItem**](header-setitem.md) macro.
+Sets the attributes of the specified item in a header control. You can send this message explicitly or use the [**Header\_SetItem**](/windows/win32/Commctrl/nf-commctrl-header_setitem?branch=master) macro.
 
 ## Parameters
 
@@ -33,7 +39,7 @@ The current index of the item whose attributes are to be changed.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**HDITEM**](hditem.md) structure that contains item information. When this message is sent, the **mask** member of the structure must be set to indicate which attributes are being set.
+A pointer to an [**HDITEM**](/windows/win32/Commctrl/ns-commctrl-_hd_itema?branch=master) structure that contains item information. When this message is sent, the **mask** member of the structure must be set to indicate which attributes are being set.
 
 </dd> </dl>
 
@@ -43,7 +49,7 @@ Returns nonzero upon success, or zero otherwise.
 
 ## Remarks
 
-The [**HDITEM**](hditem.md) structure that supports this message supports item order and image list information. By using these members, you can control the order in which items are displayed and specify images to appear with items.
+The [**HDITEM**](/windows/win32/Commctrl/ns-commctrl-_hd_itema?branch=master) structure that supports this message supports item order and image list information. By using these members, you can control the order in which items are displayed and specify images to appear with items.
 
 ## Requirements
 
@@ -51,16 +57,16 @@ The [**HDITEM**](hditem.md) structure that supports this message supports item o
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **HDM\_SETITEMW** (Unicode) and **HDM\_SETITEMA** (ANSI)<br/>                   |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

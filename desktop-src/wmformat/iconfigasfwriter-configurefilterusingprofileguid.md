@@ -1,14 +1,22 @@
 ---
 title: IConfigAsfWriter ConfigureFilterUsingProfileGuid method
 description: The ConfigureFilterUsingProfileGuid method configures the filter to write an ASF file based on the specified predefined profile. (Deprecated.).
-ms.assetid: '94161ee7-1b74-47af-9d77-568abe6237c3'
-keywords: ["ConfigureFilterUsingProfileGuid method windows Media Format", "ConfigureFilterUsingProfileGuid method windows Media Format , IConfigAsfWriter interface", "IConfigAsfWriter interface windows Media Format , ConfigureFilterUsingProfileGuid method"]
+ms.assetid: 94161ee7-1b74-47af-9d77-568abe6237c3
+keywords:
+- ConfigureFilterUsingProfileGuid method windows Media Format
+- ConfigureFilterUsingProfileGuid method windows Media Format , IConfigAsfWriter interface
+- IConfigAsfWriter interface windows Media Format , ConfigureFilterUsingProfileGuid method
 topic_type:
 - apiref
 api_name:
 - IConfigAsfWriter.ConfigureFilterUsingProfileGuid
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IConfigAsfWriter::ConfigureFilterUsingProfileGuid method
@@ -20,7 +28,7 @@ The **ConfigureFilterUsingProfileGuid** method configures the filter to write an
 
 ```C++
 HRESULT ConfigureFilterUsingProfileGuid(
-  [in] REFGUID guidProfile
+  [in] REFGUID guidProfile
 );
 ```
 
@@ -51,7 +59,7 @@ Returns one of the following **HRESULT** values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,12 +69,12 @@ Beginning with the Windows Media Format 9 Series SDK, no new system profiles hav
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](iconfigasfwriter.md)
+[**IConfigAsfWriter Interface**](/windows/win32/dshowasf/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

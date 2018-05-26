@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the Bluetooth RFCOMM cache mode for the query.'
-ms.assetid: '04ba721b-614b-4621-a230-abc8ba2a568b'
-title: 'System.Devices.AepService.Bluetooth.RfcommService.CacheMode'
+Description: Sets the Bluetooth RFCOMM cache mode for the query.
+ms.assetid: 04ba721b-614b-4621-a230-abc8ba2a568b
+title: System.Devices.AepService.Bluetooth.RfcommService.CacheMode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepService.Bluetooth.RfcommService.CacheMode

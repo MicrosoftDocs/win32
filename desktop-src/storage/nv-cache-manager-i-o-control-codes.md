@@ -1,7 +1,12 @@
 ---
 title: NV Cache Manager I/O Control Codes
 description: NV Cache Manager I/O Control Codes
-ms.assetid: '82962466-6567-47f9-9b58-7c7fb56907be'
+ms.assetid: 82962466-6567-47f9-9b58-7c7fb56907be
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NV Cache Manager I/O Control Codes

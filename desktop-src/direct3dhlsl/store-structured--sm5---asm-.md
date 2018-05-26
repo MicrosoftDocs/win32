@@ -1,7 +1,12 @@
 ---
 title: store\_structured (sm5 - asm)
 description: Random-access write of 1-4 32-bit components into a structured buffer unordered access view (UAV).
-ms.assetid: '8080B2CA-5BDA-4F01-8B2B-B85BDD58C5AF'
+ms.assetid: 8080B2CA-5BDA-4F01-8B2B-B85BDD58C5AF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # store\_structured (sm5 - asm)
@@ -15,7 +20,7 @@ Random-access write of 1-4 32-bit components into a structured buffer unordered 
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Random-access write of 1-4 32-bit components into a structured buffer unordered 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -91,9 +96,9 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
-Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for the Direct3D 11.1 runtime, which is available starting with Windows 8.
+Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for the Direct3D 11.1 runtime, which is available starting with Windows 8.
 
 
 
@@ -103,7 +108,7 @@ Because UAVs are available at all shader stages for Direct3D 11.1, this instruct
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -122,7 +127,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -131,9 +136,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

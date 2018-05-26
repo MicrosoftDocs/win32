@@ -1,15 +1,18 @@
 ---
-Description: 'The RenewDHCPLease WMI class method renews the IP address on specific DHCP-enabled network adapters.'
+Description: The RenewDHCPLease WMI class method renews the IP address on specific DHCP-enabled network adapters.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b6e5d1fb-db3f-4491-bbac-46b1f2e7206e'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b6e5d1fb-db3f-4491-bbac-46b1f2e7206e
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'RenewDHCPLease method of the Win32\_NetworkAdapterConfiguration class'
+title: RenewDHCPLease method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RenewDHCPLease method of the Win32\_NetworkAdapterConfiguration class
@@ -382,7 +385,7 @@ DHCP not enabled on adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -402,8 +405,8 @@ The [Renew the DHCP Lease for a Network Adapter](https://Gallery.TechNet.Microso
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -429,9 +432,9 @@ The [Renew the DHCP Lease for a Network Adapter](https://Gallery.TechNet.Microso
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

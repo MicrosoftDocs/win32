@@ -2,13 +2,16 @@
 title: AddByDnsKey method of the PS\_DnsServerTrustAnchor class
 description: Adds a trust anchor with the specified key information to a DNS server.
 audience: developer
-ms.assetid: '646e0b50-8322-4ec0-88b3-68e6cfb6c581'
-ms.prod: 'windows-server-dev'
+ms.assetid: 646e0b50-8322-4ec0-88b3-68e6cfb6c581
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByDnsKey method", "AddByDnsKey method, PS_DnsServerTrustAnchor class", "PS_DnsServerTrustAnchor class, AddByDnsKey method"]
+keywords:
+- AddByDnsKey method
+- AddByDnsKey method, PS_DnsServerTrustAnchor class
+- PS_DnsServerTrustAnchor class, AddByDnsKey method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByDnsKey method of the PS\_DnsServerTrustAnchor class
@@ -28,13 +34,13 @@ Adds a trust anchor with the specified key information to a DNS server.
 
 ```mof
 uint32 AddByDnsKey(
-  [in]  string               Name,
-  [in]  string               KeyProtocol,
-  [in]  string               Base64Data,
-  [in]  string               ComputerName,
-  [in]  string               CryptoAlgorithm,
-  [in]  boolean              PassThru,
-  [out] DnsServerTrustAnchor cmdletOutput
+  [in]  string               Name,
+  [in]  string               KeyProtocol,
+  [in]  string               Base64Data,
+  [in]  string               ComputerName,
+  [in]  string               CryptoAlgorithm,
+  [in]  boolean              PassThru,
+  [out] DnsServerTrustAnchor cmdletOutput
 );
 ```
 
@@ -102,7 +108,7 @@ Microsoft.Management.Infrastructure.CimInstance\#DnsServerTrustAnchor
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -116,9 +122,9 @@ Microsoft.Management.Infrastructure.CimInstance\#DnsServerTrustAnchor
 [**PS\_DnsServerTrustAnchor**](ps-dnsservertrustanchor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

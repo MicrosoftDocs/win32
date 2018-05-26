@@ -2,13 +2,19 @@
 title: /char switch
 description: The /char switch helps to ensure that the MIDL compiler and C compiler operate together correctly for all char and small types.
 ms.assetid: 83f204cf-9cd0-42f3-bce7-b8f582e50e67
-keywords: ["/char switch MIDL"]
+keywords:
+- /char switch MIDL
 topic_type:
 - apiref
 api_name:
 - /char
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /char switch

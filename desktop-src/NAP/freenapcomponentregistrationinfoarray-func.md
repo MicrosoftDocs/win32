@@ -1,8 +1,9 @@
 ---
 title: FreeNapComponentRegistrationInfoArray function
 description: Frees a specified number of NapComponentRegistrationInfo data structures from an array.
-ms.assetid: '6fcb1394-04dd-4d8a-87f7-6b69b6ef29ff'
-keywords: ["FreeNapComponentRegistrationInfoArray function NAP"]
+ms.assetid: 6fcb1394-04dd-4d8a-87f7-6b69b6ef29ff
+keywords:
+- FreeNapComponentRegistrationInfoArray function NAP
 topic_type:
 - apiref
 api_name:
@@ -11,24 +12,29 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreeNapComponentRegistrationInfoArray function
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
-The **FreeNapComponentRegistrationInfoArray** function frees a specified number of [**NapComponentRegistrationInfo**](napcomponentregistrationinfo-struct.md) data structures from an array.
+The **FreeNapComponentRegistrationInfoArray** function frees a specified number of [**NapComponentRegistrationInfo**](/windows/win32/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo?branch=master) data structures from an array.
 
 ## Syntax
 
 
 ```C++
 NAPAPI VOID WINAPI FreeNapComponentRegistrationInfoArray(
-  _In_ UINT16                       count,
-  _In_ NapComponentRegistrationInfo **info
+  _In_ UINT16                       count,
+  _In_ NapComponentRegistrationInfo **info
 );
 ```
 
@@ -41,14 +47,14 @@ NAPAPI VOID WINAPI FreeNapComponentRegistrationInfoArray(
 *count* \[in\]
 </dt> <dd>
 
-The number of [**NapComponentRegistrationInfo**](napcomponentregistrationinfo-struct.md) structures in *info* to free.
+The number of [**NapComponentRegistrationInfo**](/windows/win32/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo?branch=master) structures in *info* to free.
 
 </dd> <dt>
 
 *info* \[in\]
 </dt> <dd>
 
-A pointer to an array of [**NapComponentRegistrationInfo**](napcomponentregistrationinfo-struct.md) data structures to be freed.
+A pointer to an array of [**NapComponentRegistrationInfo**](/windows/win32/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo?branch=master) data structures to be freed.
 
 </dd> </dl>
 
@@ -68,16 +74,16 @@ All NAP functions for freeing memory also free all embedded pointers.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>NapUtil.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

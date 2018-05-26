@@ -1,12 +1,17 @@
 ---
 Description: Uncompressed Audio Media Types
-ms.assetid: '130a18a9-1c86-4d16-a8ae-ed57bf50f9bb'
+ms.assetid: 130a18a9-1c86-4d16-a8ae-ed57bf50f9bb
 title: Uncompressed Audio Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uncompressed Audio Media Types
 
-To create a complete uncompressed audio type, set at least the following attributes on the [**IMFMediaType**](imfmediatype.md) interface pointer.
+To create a complete uncompressed audio type, set at least the following attributes on the [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) interface pointer.
 
 
 

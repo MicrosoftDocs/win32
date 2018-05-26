@@ -1,7 +1,12 @@
 ---
 title: UsnReadMinSize
 description: UsnReadMinSize
-ms.assetid: '406308f5-d87d-4935-8ee0-04ec995975ac'
+ms.assetid: 406308f5-d87d-4935-8ee0-04ec995975ac
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UsnReadMinSize

@@ -1,12 +1,17 @@
 ---
 title: Restore Point Description Text
 description: When an application calls the SRSetRestorePoint function, it can provide any text as a description for the restore point; however, the following table shows the recommended description text.
-ms.assetid: 'e6e1974b-c162-4019-9349-936f3786cb9b'
+ms.assetid: e6e1974b-c162-4019-9349-936f3786cb9b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Restore Point Description Text
 
-When an application calls the [**SRSetRestorePoint**](srsetrestorepoint.md) function, it can provide any text as a description for the restore point; however, the following table shows the recommended description text.
+When an application calls the [**SRSetRestorePoint**](/windows/win32/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa?branch=master) function, it can provide any text as a description for the restore point; however, the following table shows the recommended description text.
 
 
 

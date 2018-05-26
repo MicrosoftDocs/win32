@@ -1,14 +1,20 @@
 ---
 title: Activity element
 description: This element holds information about a category of related issues.
-ms.assetid: 'FF717CB0-A544-488D-B6E6-FA2D8105ED4B'
-keywords: ["Activity element Access Execution Engine"]
+ms.assetid: FF717CB0-A544-488D-B6E6-FA2D8105ED4B
+keywords:
+- Activity element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Activity
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity element
@@ -103,9 +109,9 @@ This element holds information about a category of related issues.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

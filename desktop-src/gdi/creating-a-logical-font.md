@@ -1,12 +1,17 @@
 ---
-Description: 'You can use the Font common dialog box to display available fonts.'
-ms.assetid: '317ea311-0592-432a-87b5-58296de003aa'
+Description: You can use the Font common dialog box to display available fonts.
+ms.assetid: 317ea311-0592-432a-87b5-58296de003aa
 title: Creating a Logical Font
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Logical Font
 
-You can use the **Font** common dialog box to display available fonts. The **ChooseFont** dialog box is displayed after an application initializes the members of a [**CHOOSEFONT**](_win32_choosefont_str_cpp) structure and calls the [**ChooseFont**](_win32_choosefont_cpp) function. After the user selects one of the available fonts and presses the **OK** button, the **ChooseFont** function initializes a [**LOGFONT**](logfont.md) structure with the relevant data. Your application can then call the [**CreateFontIndirect**](createfontindirect.md) function and create a logical font based on the user's request. The following example demonstrates how this is done.
+You can use the **Font** common dialog box to display available fonts. The **ChooseFont** dialog box is displayed after an application initializes the members of a [**CHOOSEFONT**](_win32_choosefont_str_cpp) structure and calls the [**ChooseFont**](_win32_choosefont_cpp) function. After the user selects one of the available fonts and presses the **OK** button, the **ChooseFont** function initializes a [**LOGFONT**](/windows/win32/Wingdi/ns-wingdi-taglogfonta?branch=master) structure with the relevant data. Your application can then call the [**CreateFontIndirect**](/windows/win32/Wingdi/nf-wingdi-createfontindirecta?branch=master) function and create a logical font based on the user's request. The following example demonstrates how this is done.
 
 
 ```C++

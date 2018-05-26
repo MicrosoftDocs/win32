@@ -1,8 +1,11 @@
 ---
 title: IMessengerContact Property property
 description: Reserved.
-ms.assetid: 'ad25b4f8-0304-4986-94a9-c7755dc9472f'
-keywords: ["Property property Windows Messenger", "Property property Windows Messenger , IMessengerContact interface", "IMessengerContact interface Windows Messenger , Property property"]
+ms.assetid: ad25b4f8-0304-4986-94a9-c7755dc9472f
+keywords:
+- Property property Windows Messenger
+- Property property Windows Messenger , IMessengerContact interface
+- IMessengerContact interface Windows Messenger , Property property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerContact::Property property
 
-\[**Property** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Property** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Reserved.
 
@@ -28,13 +36,13 @@ This property is read/write.
 
 ```C++
 HRESULT put_Property(
-  [in]          MPHONE_TYPE ePropType,
-  [in]          VARIANT     vPropVal
+  [in]          MPHONE_TYPE ePropType,
+  [in]          VARIANT     vPropVal
 );
 
 HRESULT get_Property(
-  [in]          MPHONE_TYPE ePropType,
-  [out, retval] VARIANT     *pvPropVal
+  [in]          MPHONE_TYPE ePropType,
+  [out, retval] VARIANT     *pvPropVal
 );
 ```
 
@@ -70,7 +78,7 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 The **Property** property is scriptable for MCONTACTPROPERTY = MCONTACTPROP\_GROUPS\_PROPERTY, but read-only. The **Property** property is not scriptable for MCONTACTPROPERTY = MCONTACTPROP\_EMAIL.
 
@@ -81,7 +89,7 @@ E\_FAIL HRESULT will be returned for a contact who does not have phone informati
 > [!Note]  
 > This property is not available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -118,8 +126,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -136,9 +144,9 @@ End Sub
 [**OnContactPagerChange**](im-dmessengerevents-oncontactpagerchange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

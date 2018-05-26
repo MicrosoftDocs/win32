@@ -1,13 +1,16 @@
 ---
-Description: 'Allows limits to be set on host process usage of system resources.'
+Description: Allows limits to be set on host process usage of system resources.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5f5ed1c6-bd1a-406d-a682-7a52059d9450'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5f5ed1c6-bd1a-406d-a682-7a52059d9450
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_ProviderHostQuotaConfiguration class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_ProviderHostQuotaConfiguration class
@@ -129,8 +132,8 @@ The host process polls handle usage and exits the process if the **HandlesPerHos
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -145,9 +148,9 @@ The host process polls handle usage and exits the process if the **HandlesPerHos
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

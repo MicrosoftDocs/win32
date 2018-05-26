@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine UndoAction property
 description: Default action to be performed on all undo drives when the VM is shut down.
-ms.assetid: 'fcdd5217-4909-435a-b11d-63578ab46e37'
-keywords: ["UndoAction property Virtual PC", "UndoAction property Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , UndoAction property"]
+ms.assetid: fcdd5217-4909-435a-b11d-63578ab46e37
+keywords:
+- UndoAction property Virtual PC
+- UndoAction property Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , UndoAction property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::UndoAction property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves and sets the default action to be performed on all undo drives when the virtual machine (VM) is turned off using the [**TurnOff**](ivmvirtualmachine-turnoff.md) method or shut down using the [**Shutdown**](ivmguestos-shutdown.md) method or turned off from within the guest operating system.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_UndoAction(
-  [in]          VMUndoAction undoAction
+  [in]          VMUndoAction undoAction
 );
 
 HRESULT get_UndoAction(
-  [out, retval] VMUndoAction *undoAction
+  [out, retval] VMUndoAction *undoAction
 );
 ```
 
@@ -62,9 +70,9 @@ Specifies the default action to be performed on all undo drives when the VM is s
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -78,9 +86,9 @@ Specifies the default action to be performed on all undo drives when the VM is s
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

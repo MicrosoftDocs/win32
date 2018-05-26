@@ -1,7 +1,12 @@
 ---
 title: Identifying Drivers That Allocate Contiguous Memory
 description: Identifying Drivers That Allocate Contiguous Memory
-ms.assetid: 'e5abed86-db9c-45a2-8ac8-3906868087d1'
+ms.assetid: e5abed86-db9c-45a2-8ac8-3906868087d1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Identifying Drivers That Allocate Contiguous Memory

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TransmissionStart property indicates the time that the fax outbound job began transmitting. This property will have a value only after the transmission has started.'
-ms.assetid: '874c1087-d45d-4d0d-a43c-41b88180f39a'
-title: 'FaxOutgoingJob.TransmissionStart property'
+---
+Description: The TransmissionStart property indicates the time that the fax outbound job began transmitting. This property will have a value only after the transmission has started.
+ms.assetid: 874c1087-d45d-4d0d-a43c-41b88180f39a
+title: FaxOutgoingJob.TransmissionStart property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.TransmissionStart property
@@ -52,7 +57,7 @@ In the case of a failed fax, this property will be assigned a value of zero. If 
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

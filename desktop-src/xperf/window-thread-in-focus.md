@@ -1,8 +1,14 @@
 ---
 title: Window Thread in Focus
 description: Window Thread in Focus
-ms.assetid: 'fa8d90f2-0a9f-4c45-8fc1-133ccfc1b945'
-keywords: ["event graph"]
+ms.assetid: fa8d90f2-0a9f-4c45-8fc1-133ccfc1b945
+keywords:
+- event graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Thread in Focus

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to specify the format of an Advanced Audio Coding (AAC) stream in Media Foundation.'
-ms.assetid: '82218bc5-6660-4253-b50c-b6d9f30be3d5'
+Description: This topic describes how to specify the format of an Advanced Audio Coding (AAC) stream in Media Foundation.
+ms.assetid: 82218bc5-6660-4253-b50c-b6d9f30be3d5
 title: AAC Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AAC Media Types
@@ -19,7 +24,7 @@ Two subtypes are defined for AAC audio:
 
 
 
- 
+ 
 
 <dl> <dt>
 
@@ -106,7 +111,7 @@ The following media type attributes apply to AAC audio.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -121,12 +126,12 @@ The following media type attributes apply to AAC audio.
 [MPEG-4 Support in Media Foundation](mpeg-4-support-in-media-foundation.md)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

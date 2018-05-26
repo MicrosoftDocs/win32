@@ -1,7 +1,12 @@
 ---
-Description: 'The IGrfCache interface is not supported.'
-ms.assetid: '9b450110-8b4d-451d-b19b-2784d4c6b905'
+Description: The IGrfCache interface is not supported.
+ms.assetid: 9b450110-8b4d-451d-b19b-2784d4c6b905
 title: IGrfCache interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IGrfCache interface

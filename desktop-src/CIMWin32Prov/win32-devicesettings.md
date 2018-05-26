@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_DeviceSettings abstract, association WMI class relates a logical device and a setting that can be applied to it.'
+Description: The Win32\_DeviceSettings abstract, association WMI class relates a logical device and a setting that can be applied to it.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4f6c4c26-8da9-4e2c-8b8c-cec658ac08d4'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4f6c4c26-8da9-4e2c-8b8c-cec658ac08d4
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_DeviceSettings class'
+title: Win32\_DeviceSettings class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DeviceSettings class
@@ -24,7 +27,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C4FD-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_DeviceSettings : CIM_ElementSetting
 {
-  CIM_Setting       REF Setting;
+  CIM_Setting       REF Setting;
   CIM_LogicalDevice REF Element;
 };
 ```
@@ -83,8 +86,8 @@ The **Win32\_DeviceSettings** class is derived from [**CIM\_ElementSetting**](ci
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -101,9 +104,9 @@ The **Win32\_DeviceSettings** class is derived from [**CIM\_ElementSetting**](ci
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

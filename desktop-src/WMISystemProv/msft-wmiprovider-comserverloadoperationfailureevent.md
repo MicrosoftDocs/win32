@@ -4,11 +4,13 @@ description: Defines the unsuccessful activation of a COM server instance associ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a80c23e7-e549-4ce3-af3a-3be65e546810'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a80c23e7-e549-4ce3-af3a-3be65e546810
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiProvider_ComServerLoadOperationFailureEvent class", "MSFT_WmiProvider_ComServerLoadOperationFailureEvent class, described"]
+keywords:
+- MSFT_WmiProvider_ComServerLoadOperationFailureEvent class
+- MSFT_WmiProvider_ComServerLoadOperationFailureEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiProvider\_ComServerLoadOperationFailureEvent class
@@ -48,23 +53,23 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [AMENDMENT]
 class MSFT_WmiProvider_ComServerLoadOperationFailureEvent : Msft_WmiProvider_OperationEvent
 {
-  uint8   SECURITY_DESCRIPTOR[];
-  uint64  TIME_CREATED;
-  String  TransactionIdentifer;
-  string  Clsid;
-  string  HostingGroup;
-  uint32  HostingSpecification;
+  uint8   SECURITY_DESCRIPTOR[];
+  uint64  TIME_CREATED;
+  String  TransactionIdentifer;
+  string  Clsid;
+  string  HostingGroup;
+  uint32  HostingSpecification;
   boolean InProcServer;
-  string  InProcServerPath;
-  string  Locale;
+  string  InProcServerPath;
+  string  Locale;
   boolean LocalServer;
-  string  LocalServerPath;
-  string  Namespace;
-  string  Provider;
-  uint32  ResultCode;
-  string  ServerName;
-  string  TransactionIdentifier;
-  string  User;
+  string  LocalServerPath;
+  string  Namespace;
+  string  Provider;
+  uint32  ResultCode;
+  string  ServerName;
+  string  TransactionIdentifier;
+  string  User;
 };
 ```
 
@@ -329,8 +334,8 @@ This property is inherited from [**Msft\_WmiProvider\_OperationEvent**](msft-wmi
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -359,9 +364,9 @@ WMI Troubleshooting
 [Receiving a WMI Event](https://msdn.microsoft.com/library/aa393013)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

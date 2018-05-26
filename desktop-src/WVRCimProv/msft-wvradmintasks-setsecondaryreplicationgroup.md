@@ -4,13 +4,19 @@ description: Assigns a source to a destination replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '197d2cb2-bea6-40ea-b925-090db0497102'
-ms.prod: 'windows-server-dev'
+ms.assetid: 197d2cb2-bea6-40ea-b925-090db0497102
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetSecondaryReplicationGroup method", "SetSecondaryReplicationGroup method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, SetSecondaryReplicationGroup method"]
+keywords:
+- SetSecondaryReplicationGroup method
+- SetSecondaryReplicationGroup method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, SetSecondaryReplicationGroup method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSecondaryReplicationGroup method of the MSFT\_WvrAdminTasks class
@@ -22,12 +28,12 @@ Assigns a source to a destination replication group.
 
 ```mof
 uint32 SetSecondaryReplicationGroup(
-  [in]  string ReplicationGroupName,
-  [in]  string PrimaryComputerName,
-  [in]  string PrimaryReplicationGroupId,
-  [in]  string PrimaryReplicationGroupName,
-  [in]  string PartnershipId,
-  [out] uint32 ReturnedErrorType
+  [in]  string ReplicationGroupName,
+  [in]  string PrimaryComputerName,
+  [in]  string PrimaryReplicationGroupId,
+  [in]  string PrimaryReplicationGroupName,
+  [in]  string PartnershipId,
+  [out] uint32 ReturnedErrorType
 );
 ```
 
@@ -102,7 +108,7 @@ The possible values are.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -116,9 +122,9 @@ The possible values are.
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

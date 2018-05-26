@@ -1,7 +1,12 @@
 ---
-Description: 'Activation contexts are visible throughout the entire process.'
-ms.assetid: '6eda00d5-9dac-4267-bf61-b481814201f8'
-title: 'Using Threads, Asynchronous Procedures, and Window Messages'
+Description: Activation contexts are visible throughout the entire process.
+ms.assetid: 6eda00d5-9dac-4267-bf61-b481814201f8
+title: Using Threads, Asynchronous Procedures, and Window Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Threads, Asynchronous Procedures, and Window Messages

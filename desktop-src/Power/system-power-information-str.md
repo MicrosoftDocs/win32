@@ -1,7 +1,12 @@
 ---
-Description: 'Contains information about the idleness of the system.'
-ms.assetid: 'f6349b7c-1835-4492-95e3-9ce142628804'
-title: 'SYSTEM\_POWER\_INFORMATION structure'
+Description: Contains information about the idleness of the system.
+ms.assetid: f6349b7c-1835-4492-95e3-9ce142628804
+title: SYSTEM\_POWER\_INFORMATION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SYSTEM\_POWER\_INFORMATION structure
@@ -62,7 +67,7 @@ The current system cooling mode. This member must one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -76,8 +81,8 @@ Note that this structure definition was accidentally omitted from WinNT.h. This 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
 
 
 
@@ -85,12 +90,12 @@ Note that this structure definition was accidentally omitted from WinNT.h. This 
 
 <dl> <dt>
 
-[**CallNtPowerInformation**](callntpowerinformation.md)
+[**CallNtPowerInformation**](/windows/win32/Powerbase/nf-powerbase-callntpowerinformation?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The WmiRevertToPolicyBrightness method is used to revert the brightness to the policy setting. This method has no effect on the ALS brightness settings.'
-ms.assetid: '9a520c3f-3563-4ef4-b397-14e487c8e8bb'
+Description: The WmiRevertToPolicyBrightness method is used to revert the brightness to the policy setting. This method has no effect on the ALS brightness settings.
+ms.assetid: 9a520c3f-3563-4ef4-b397-14e487c8e8bb
 title: WmiRevertToPolicyBrightness method of the WmiMonitorBrightnessMethods class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiRevertToPolicyBrightness method of the WmiMonitorBrightnessMethods class
@@ -31,8 +36,8 @@ Returns zero (0) to indicate success. Any other number indicates an error. For m
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -49,9 +54,9 @@ Returns zero (0) to indicate success. Any other number indicates an error. For m
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

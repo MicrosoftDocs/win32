@@ -1,8 +1,26 @@
 ---
 title: Configuring Profiles and Other File Properties (QASF)
 description: Configuring Profiles and Other File Properties (QASF)
-ms.assetid: 'a462fc8b-5a2e-4c93-828d-177d1965b734'
-keywords: ["Windows Media Format SDK,configuring profiles (QASF)", "Windows Media Format SDK,configuring file properties (QASF)", "Windows Media Format SDK,metadata (QASF)", "Advanced Systems Format (ASF),configuring profiles (QASF)", "ASF (Advanced Systems Format),configuring profiles (QASF)", "Advanced Systems Format (ASF),configuring file properties (QASF)", "ASF (Advanced Systems Format),configuring file properties (QASF)", "Advanced Systems Format (ASF),metadata (QASF)", "ASF (Advanced Systems Format),metadata (QASF)", "Windows Media Format SDK,QASF", "Advanced Systems Format (ASF),QASF", "ASF (Advanced Systems Format),QASF", "metadata,QASF"]
+ms.assetid: a462fc8b-5a2e-4c93-828d-177d1965b734
+keywords:
+- Windows Media Format SDK,configuring profiles (QASF)
+- Windows Media Format SDK,configuring file properties (QASF)
+- Windows Media Format SDK,metadata (QASF)
+- Advanced Systems Format (ASF),configuring profiles (QASF)
+- ASF (Advanced Systems Format),configuring profiles (QASF)
+- Advanced Systems Format (ASF),configuring file properties (QASF)
+- ASF (Advanced Systems Format),configuring file properties (QASF)
+- Advanced Systems Format (ASF),metadata (QASF)
+- ASF (Advanced Systems Format),metadata (QASF)
+- Windows Media Format SDK,QASF
+- Advanced Systems Format (ASF),QASF
+- ASF (Advanced Systems Format),QASF
+- metadata,QASF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Profiles and Other File Properties (QASF)
@@ -11,11 +29,11 @@ The following items describe how to perform various tasks related to the creatio
 
 ## Creating a Profile (QASF)
 
-To create a custom profile, use the Windows Media Format SDK directly to create a profile manager object by using the [**WMCreateProfileManager**](wmcreateprofilemanager.md) function. Next, create the profile, and pass it to the [WM ASF Writer](wm-asf-writer-filter.md) by using the [**IConfigASFWriter::ConfigureFilterUsingProfile**](iconfigasfwriter-configurefilterusingprofile.md) method. This is the only way to configure the filter with a profile that uses the Windows Media Audio and Video 9 Series codecs. System profiles for earlier versions of these codecs can be added by using the [**IConfigASFWriter::ConfigureFilterUsingProfileGuid**](iconfigasfwriter-configurefilterusingprofileguid.md) method.
+To create a custom profile, use the Windows Media Format SDK directly to create a profile manager object by using the [**WMCreateProfileManager**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreateprofilemanager?branch=master) function. Next, create the profile, and pass it to the [WM ASF Writer](wm-asf-writer-filter.md) by using the [**IConfigASFWriter::ConfigureFilterUsingProfile**](iconfigasfwriter-configurefilterusingprofile.md) method. This is the only way to configure the filter with a profile that uses the Windows Media Audio and Video 9 Series codecs. System profiles for earlier versions of these codecs can be added by using the [**IConfigASFWriter::ConfigureFilterUsingProfileGuid**](iconfigasfwriter-configurefilterusingprofileguid.md) method.
 
 ## Adding Metadata (QASF)
 
-To add metadata to a file, call **QueryInterface** from the **IBaseFilter** interface on the [WM ASF Writer](wm-asf-writer-filter.md) to retrieve the [**IWMHeaderInfo**](iwmheaderinfo.md) interface. After the filter has been given a profile, use the **IWMHeaderInfo** interface methods to write the metadata.
+To add metadata to a file, call **QueryInterface** from the **IBaseFilter** interface on the [WM ASF Writer](wm-asf-writer-filter.md) to retrieve the [**IWMHeaderInfo**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmheaderinfo?branch=master) interface. After the filter has been given a profile, use the **IWMHeaderInfo** interface methods to write the metadata.
 
 ## Indexing a File (QASF)
 
@@ -36,9 +54,9 @@ It is only necessary to call **IConfigAsfWriter::SetParam**(AM\_CONFIGASFWRITER\
 
 ## Getting and Setting Buffer Properties at Run Time (QASF)
 
-In some scenarios, for example if you want to force key-frame insertion when writing a file, an application may need to get or set information about a Windows Media buffer at run time. The [WM ASF Reader](wm-asf-reader-filter.md) and [WM ASF Writer](wm-asf-writer-filter.md) filters both support a callback mechanism that enables an application to access the [**INSSBuffer3**](inssbuffer3.md) interface on each individual media buffer during file reading or file writing. Applications can use this interface to designate specific samples as key frames, or [*cleanpoints*](wmformat-glossary.md#wmformat-cleanpoint), to set SMPTE time codes, to specify interlace settings, or add any type of private data to a stream.
+In some scenarios, for example if you want to force key-frame insertion when writing a file, an application may need to get or set information about a Windows Media buffer at run time. The [WM ASF Reader](wm-asf-reader-filter.md) and [WM ASF Writer](wm-asf-writer-filter.md) filters both support a callback mechanism that enables an application to access the [**INSSBuffer3**](/windows/win32/wmsbuffer/nn-wmsbuffer-inssbuffer3?branch=master) interface on each individual media buffer during file reading or file writing. Applications can use this interface to designate specific samples as key frames, or [*cleanpoints*](wmformat-glossary.md#wmformat-cleanpoint), to set SMPTE time codes, to specify interlace settings, or add any type of private data to a stream.
 
-Use the [**IAMWMBufferPass**](iamwmbufferpass.md) interface to register for callbacks from the pin that is handling the video stream. When the pin calls your [**IAMWMBufferPassCallback::Notify**](iamwmbufferpasscallback-notify.md) method, examine the time stamps on the buffer and, if appropriate, call [**INSSBuffer3::SetProperty**](inssbuffer3-setproperty.md) to set the **WM\_SampleExtensionGUID\_OutputCleanPoint** property on the buffer to **TRUE**.
+Use the [**IAMWMBufferPass**](/windows/win32/dshowasf/?branch=master) interface to register for callbacks from the pin that is handling the video stream. When the pin calls your [**IAMWMBufferPassCallback::Notify**](iamwmbufferpasscallback-notify.md) method, examine the time stamps on the buffer and, if appropriate, call [**INSSBuffer3::SetProperty**](/windows/win32/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty?branch=master) to set the **WM\_SampleExtensionGUID\_OutputCleanPoint** property on the buffer to **TRUE**.
 
 ## Non-Square Pixel Support (QASF)
 

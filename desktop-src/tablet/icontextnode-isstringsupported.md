@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether recognized string of this IContextNode came from the system dictionary, user dictionary, or word list.'
-ms.assetid: '9eaee549-ae78-4a67-a39e-2096c7d5d9cd'
-title: 'IContextNode::IsStringSupported method'
+Description: Indicates whether recognized string of this IContextNode came from the system dictionary, user dictionary, or word list.
+ms.assetid: 9eaee549-ae78-4a67-a39e-2096c7d5d9cd
+title: IContextNodeIsStringSupported method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::IsStringSupported method
@@ -13,7 +18,7 @@ Indicates whether recognized string of this [**IContextNode**](icontextnode.md) 
 
 ```C++
 HRESULT IsStringSupported(
-  [out, retval] VARIANT_BOOL *pfIsSupported
+  [out, retval] VARIANT_BOOL *pfIsSupported
 );
 ```
 
@@ -40,7 +45,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -54,9 +59,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [**IContextNode**](icontextnode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

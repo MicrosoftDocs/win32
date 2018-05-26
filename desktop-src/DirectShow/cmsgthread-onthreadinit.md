@@ -1,7 +1,12 @@
 ---
-Description: 'Provides initialization on a thread.'
-ms.assetid: 'a9c330bb-0a2b-45bf-9b24-d03dd61d7dbf'
-title: 'CMsgThread.OnThreadInit method'
+Description: Provides initialization on a thread.
+ms.assetid: a9c330bb-0a2b-45bf-9b24-d03dd61d7dbf
+title: CMsgThread.OnThreadInit method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMsgThread.OnThreadInit method
@@ -47,9 +52,9 @@ Override this function if you want to do your own specific initialization on thr
 [**CMsgThread Class**](cmsgthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

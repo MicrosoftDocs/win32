@@ -1,7 +1,12 @@
 ---
-Description: 'When the installer processes the installation script, it simultaneously generates a rollback script.'
-ms.assetid: '5b9bfc5a-6a78-4b0e-aed8-f25aba089af1'
+Description: When the installer processes the installation script, it simultaneously generates a rollback script.
+ms.assetid: 5b9bfc5a-6a78-4b0e-aed8-f25aba089af1
 title: Rollback Custom Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rollback Custom Actions
@@ -18,7 +23,7 @@ The complement to a rollback custom action is a [commit custom action](commit-cu
 
 Note that a rollback custom action may not be able to remove all of the changes made by commit custom actions. Although the installer writes both rollback and commit custom actions into the rollback script, commit custom actions only run after the installer has successfully processed the installation script. Commit custom actions are the first actions to run in the rollback script. If a commit custom action fails, the installer initiates rollback but can only rollback those operations already written to the rollback script. This means that depending on the commit custom action, a rollback may not be able to undo the changes made by the action. You can ignore failures in commit custom actions by authoring the custom action to ignore return codes.
 
-When the installer runs a rollback custom action, the only mode parameter it will set is MSIRUNMODE\_ROLLBACK. See [**MsiGetMode**](msigetmode.md) for a description of the run mode parameters.
+When the installer runs a rollback custom action, the only mode parameter it will set is MSIRUNMODE\_ROLLBACK. See [**MsiGetMode**](/windows/win32/Msiquery/nf-msiquery-msigetmode?branch=master) for a description of the run mode parameters.
 
 A rollback custom action can be specified by adding an option flag to the Type field of the [CustomAction table](customaction-table.md). See [Custom Action In-Script Execution Options](custom-action-in-script-execution-options.md) for the option flag designating a rollback custom action.
 

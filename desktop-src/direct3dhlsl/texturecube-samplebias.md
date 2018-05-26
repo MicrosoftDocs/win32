@@ -1,12 +1,18 @@
 ---
 title: TextureCube SampleBias methods
 description: Samples a texture, after applying the bias value to the mipmap level.
-ms.assetid: '6D63F216-2DF9-4B23-A741-8D7F7543E73C'
-keywords: ["SampleBias methods HLSL"]
+ms.assetid: 6D63F216-2DF9-4B23-A741-8D7F7543E73C
+keywords:
+- SampleBias methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCube::SampleBias methods
@@ -35,9 +41,9 @@ Samples a texture, after applying the bias value to the mipmap level.
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

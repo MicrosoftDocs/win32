@@ -1,7 +1,12 @@
-﻿---
-Description: 'ICE44 validates that the NewDialog, SpawnDialog, and SpawnWaitDialog ControlEvents reference valid dialog boxes in the Dialog table.'
-ms.assetid: '401bae25-a361-45f6-af3f-0f31be463c84'
+---
+Description: ICE44 validates that the NewDialog, SpawnDialog, and SpawnWaitDialog ControlEvents reference valid dialog boxes in the Dialog table.
+ms.assetid: 401bae25-a361-45f6-af3f-0f31be463c84
 title: ICE44
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE44

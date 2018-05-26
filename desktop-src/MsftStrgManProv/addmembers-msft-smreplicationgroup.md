@@ -4,11 +4,14 @@ description: Adds members to the replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2092578e-3f3a-405b-85ad-3585397d4574'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 2092578e-3f3a-405b-85ad-3585397d4574
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddMembers method", "AddMembers method, MSFT_SMReplicationGroup class", "MSFT_SMReplicationGroup class, AddMembers method"]
+keywords:
+- AddMembers method
+- AddMembers method, MSFT_SMReplicationGroup class
+- MSFT_SMReplicationGroup class, AddMembers method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddMembers method of the MSFT\_SMReplicationGroup class
@@ -28,11 +34,11 @@ Adds members to the replication group.
 
 ```mof
 UInt32 AddMembers(
-  [in]            MSFT_SMStorageObject REF StorageObjects[],
-  [in, optional]  String                   username,
-  [in, optional]  String                   password,
-  [out]           MSFT_SMJob           REF Job,
-  [out, optional] MSFT_SMExtendedStatus    ExtendedStatus
+  [in]            MSFT_SMStorageObject REF StorageObjects[],
+  [in, optional]  String                   username,
+  [in, optional]  String                   password,
+  [out]           MSFT_SMJob           REF Job,
+  [out, optional] MSFT_SMExtendedStatus    ExtendedStatus
 );
 ```
 
@@ -88,7 +94,7 @@ Returns "0" on success, otherwise returns a WMI error code.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -102,9 +108,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**MSFT\_SMReplicationGroup**](msft-smreplicationgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

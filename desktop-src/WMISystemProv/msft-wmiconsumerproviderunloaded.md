@@ -4,11 +4,13 @@ description: Defines the successful deactivation of the event consumer provider 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c978d461-3160-4980-88a5-f6efbf10f20b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: c978d461-3160-4980-88a5-f6efbf10f20b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiConsumerProviderUnloaded class", "MSFT_WmiConsumerProviderUnloaded class, described"]
+keywords:
+- MSFT_WmiConsumerProviderUnloaded class
+- MSFT_WmiConsumerProviderUnloaded class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiConsumerProviderUnloaded class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code, and in
 ``` syntax
 class MSFT_WmiConsumerProviderUnloaded : MSFT_WmiConsumerProviderEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   string Namespace;
   string ProviderName;
@@ -138,8 +143,8 @@ This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/libra
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -165,9 +170,9 @@ WMI Troubleshooting
 [Receiving a WMI Event](https://msdn.microsoft.com/library/aa393013)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Depth Bias
 description: Polygons that are coplanar in 3D space can be made to appear as if they are not coplanar by adding a z-bias (or depth bias) to each one.
-ms.assetid: 'ee904316-dc6d-48a4-bdb7-0f7dcdb9d9d6'
+ms.assetid: ee904316-dc6d-48a4-bdb7-0f7dcdb9d9d6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Depth Bias
@@ -12,7 +17,7 @@ This is a technique commonly used to ensure that shadows in a scene are displaye
 
 ## 
 
-An application can help ensure that coplanar polygons are rendered properly by adding the bias (from the **DepthBias** member of [**D3D11\_RASTERIZER\_DESC1**](d3d11-rasterizer-desc1.md)) to the z-values that the system uses when rendering the sets of coplanar polygons. Polygons with a larger z value will be drawn in front of polygons with a smaller z value.
+An application can help ensure that coplanar polygons are rendered properly by adding the bias (from the **DepthBias** member of [**D3D11\_RASTERIZER\_DESC1**](/windows/win32/D3D11_1/ns-d3d11_1-cd3d11_rasterizer_desc1?branch=master)) to the z-values that the system uses when rendering the sets of coplanar polygons. Polygons with a larger z value will be drawn in front of polygons with a smaller z value.
 
 There are two options for calculating depth bias.
 
@@ -23,7 +28,7 @@ There are two options for calculating depth bias.
 
     
 
-    where *r* is the minimum representable value &gt; 0 in the depth-buffer format converted to **float32**. The **DepthBias** and **SlopeScaledDepthBias** values are [**D3D11\_RASTERIZER\_DESC1**](d3d11-rasterizer-desc1.md) structure members. The **MaxDepthSlope** value is the maximum of the horizontal and vertical slopes of the depth value at the pixel.
+    where *r* is the minimum representable value &gt; 0 in the depth-buffer format converted to **float32**. The **DepthBias** and **SlopeScaledDepthBias** values are [**D3D11\_RASTERIZER\_DESC1**](/windows/win32/D3D11_1/ns-d3d11_1-cd3d11_rasterizer_desc1?branch=master) structure members. The **MaxDepthSlope** value is the maximum of the horizontal and vertical slopes of the depth value at the pixel.
 2.  If a floating-point depth buffer is bound to the output-merger stage the bias value is calculated like this:
     ```
     Bias = (float)DepthBias * 2**(exponent(max z in primitive) - r) +

@@ -1,7 +1,12 @@
-﻿---
-Description: 'MPEG-1 Audio Decoder Filter'
-ms.assetid: '2f695ac6-7d4b-41a8-b4c5-83fb9d20ab9d'
-title: 'MPEG-1 Audio Decoder Filter'
+---
+Description: MPEG-1 Audio Decoder Filter
+ms.assetid: 2f695ac6-7d4b-41a8-b4c5-83fb9d20ab9d
+title: MPEG-1 Audio Decoder Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-1 Audio Decoder Filter
@@ -18,7 +23,7 @@ Decodes MPEG-1 Layer I and Layer II audio to PCM.
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IBaseFilter</strong>](ibasefilter.md), <strong>ISpecifyPropertyPages</strong></td>
+<td>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), <strong>ISpecifyPropertyPages</strong></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -32,7 +37,7 @@ Decodes MPEG-1 Layer I and Layer II audio to PCM.
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IMemInputPin</strong>](imeminputpin.md), [<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IMemInputPin</strong>](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -40,7 +45,7 @@ Decodes MPEG-1 Layer I and Layer II audio to PCM.
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IMediaPosition</strong>](imediaposition.md), [<strong>IMediaSeeking</strong>](imediaseeking.md), [<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IMediaPosition</strong>](/windows/win32/Control/nn-control-imediaposition?branch=master), [<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>

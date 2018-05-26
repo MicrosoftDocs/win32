@@ -1,15 +1,18 @@
 ---
-Description: 'Represents the type of monitor or display device attached to the computer system.'
+Description: Represents the type of monitor or display device attached to the computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '922be3c1-3c7b-4418-a72f-ab5ada91a7a4'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 922be3c1-3c7b-4418-a72f-ab5ada91a7a4
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_DesktopMonitor class'
+title: Win32\_DesktopMonitor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DesktopMonitor class
@@ -26,34 +29,34 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{1008CCF0-7BFF-11D2-AAD2-006008C78BC7}"), AMENDMENT]
 class Win32_DesktopMonitor : CIM_DesktopMonitor
 {
-  uint16   Availability;
-  uint32   Bandwidth;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  uint16   DisplayType;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
+  uint16   Availability;
+  uint32   Bandwidth;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  uint16   DisplayType;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
   datetime InstallDate;
-  boolean  IsLocked;
-  uint32   LastErrorCode;
-  string   MonitorManufacturer;
-  string   MonitorType;
-  string   Name;
-  uint32   PixelsPerXLogicalInch;
-  uint32   PixelsPerYLogicalInch;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint32   ScreenHeight;
-  uint32   ScreenWidth;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  boolean  IsLocked;
+  uint32   LastErrorCode;
+  string   MonitorManufacturer;
+  string   MonitorType;
+  string   Name;
+  uint32   PixelsPerXLogicalInch;
+  uint32   PixelsPerYLogicalInch;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint32   ScreenHeight;
+  uint32   ScreenWidth;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -77,7 +80,7 @@ The **Win32\_DesktopMonitor** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1352,8 +1355,8 @@ The [PS Create a Computer Configuration Drawing using Visio](https://Gallery.Tec
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1373,9 +1376,9 @@ The [PS Create a Computer Configuration Drawing using Visio](https://Gallery.Tec
 [WMI Tasks: Desktop Management](https://msdn.microsoft.com/library/aa394591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

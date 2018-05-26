@@ -1,7 +1,12 @@
 ---
 title: Visible Property
 description: Visible Property
-ms.assetid: '0178a789-141b-4d4c-ba7c-05c7995f13bc'
+ms.assetid: 0178a789-141b-4d4c-ba7c-05c7995f13bc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visible Property
@@ -30,7 +35,7 @@ Returns or sets a value that determines whether your [**Commands**](https://msdn
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -38,9 +43,9 @@ Returns or sets a value that determines whether your [**Commands**](https://msdn
 
 For the caption to appear in the character's pop-up menu when your application is not the input-active client, this property must be set to **True** and the [**Caption**](caption-property.md) property set for your Commands collection. In addition, this property must be set to **True** for commands in your collection to appear in the pop-up menu when your application is input-active.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Event Schema Complex Types
 description: The following are the complex types that the Event schema defines.
-ms.assetid: 'bc995483-7e54-4224-a372-4e63b0dd764c'
+ms.assetid: bc995483-7e54-4224-a372-4e63b0dd764c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Schema Complex Types
@@ -24,11 +29,11 @@ The following are the complex types that the Event schema defines.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

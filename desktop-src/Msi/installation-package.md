@@ -1,7 +1,12 @@
 ---
-Description: 'An installation package contains all of the information that the Windows Installer requires to install or uninstall an application or product and to run the setup user interface.'
-ms.assetid: '532b3492-919f-4999-b86c-e3c210876141'
+Description: An installation package contains all of the information that the Windows Installer requires to install or uninstall an application or product and to run the setup user interface.
+ms.assetid: 532b3492-919f-4999-b86c-e3c210876141
 title: Installation Package
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installation Package

@@ -1,8 +1,10 @@
 ---
 title: CIM\_ManagedSystemElement class
-ms.assetid: 'f5ef0c49-5df9-4994-9d88-4b394ab2f554'
+ms.assetid: f5ef0c49-5df9-4994-9d88-4b394ab2f554
 description: 
-keywords: ["CIM_ManagedSystemElement class", "CIM_ManagedSystemElement class, described"]
+keywords:
+- CIM_ManagedSystemElement class
+- CIM_ManagedSystemElement class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,11 @@ api_location:
 - NetEventPacketCapture.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ManagedSystemElement class
@@ -47,20 +54,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), Abstract, Version("2.22.0"), AMENDMENT]
 class CIM_ManagedSystemElement : CIM_ManagedElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
 };
 ```
 
@@ -131,7 +138,7 @@ A Null return indicates the implementation (provider) does not implement this pr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -193,7 +200,7 @@ A Null return indicates the implementation (provider) does not implement this pr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -256,7 +263,7 @@ DMTF has reserved the unused portion of the continuum for additional HealthState
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -388,7 +395,7 @@ A Null return indicates the implementation (provider) does not implement this pr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -456,7 +463,7 @@ OperationalStatus replaces the Status property on ManagedSystemElement to provid
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -495,7 +502,7 @@ PrimaryStatus consists of one of the following values: Unknown, OK, Degraded or 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -539,7 +546,7 @@ A string indicating the current status of the object. Various operational and no
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -565,8 +572,8 @@ Strings describing the various OperationalStatus array values. For example, if "
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                                       |
 | MOF<br/>                      | <dl> <dt>NetEventPacketCapture.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetEventPacketCapture.dll</dt> </dl> |
@@ -580,9 +587,9 @@ Strings describing the various OperationalStatus array values. For example, if "
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

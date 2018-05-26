@@ -1,7 +1,12 @@
 ---
-Description: 'Cryptographic Message Syntax (CMS), derived from PKCS \#7 version 1.5, is the syntax used to hash, digitally sign, authenticate, and encrypt arbitrary messages.'
-ms.assetid: '4396d3e2-8e41-4864-a12a-a598fab82840'
+Description: Cryptographic Message Syntax (CMS), derived from PKCS \#7 version 1.5, is the syntax used to hash, digitally sign, authenticate, and encrypt arbitrary messages.
+ms.assetid: 4396d3e2-8e41-4864-a12a-a598fab82840
 title: CMS Additions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMS Additions

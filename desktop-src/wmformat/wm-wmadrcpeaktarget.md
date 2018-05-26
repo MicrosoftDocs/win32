@@ -1,14 +1,20 @@
 ---
 title: WM/WMADRCPeakTarget
 description: The WM/WMADRCPeakTarget attribute contains the maximum volume level requested by the user. This value is used by Windows Media Player for dynamic range control.
-ms.assetid: '94ef5db1-34f4-4cf8-ac56-c85cca10536b'
-keywords: ["WM/WMADRCPeakTarget windows Media Format"]
+ms.assetid: 94ef5db1-34f4-4cf8-ac56-c85cca10536b
+keywords:
+- WM/WMADRCPeakTarget windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/WMADRCPeakTarget
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/WMADRCPeakTarget

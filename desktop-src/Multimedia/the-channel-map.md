@@ -1,8 +1,20 @@
 ---
 title: The Channel Map
 description: The Channel Map
-ms.assetid: 'f35d8b76-dfbf-4453-baec-9c0b22f5278a'
-keywords: ["Musical Instrument Digital Interface (MIDI),MIDI Mapper", "MIDI (Musical Instrument Digital Interface),MIDI Mapper", "MIDI Mapper,channel map", "channel map", "MIDI Mapper,channel messages", "MIDI channel messages", "channel messages"]
+ms.assetid: f35d8b76-dfbf-4453-baec-9c0b22f5278a
+keywords:
+- Musical Instrument Digital Interface (MIDI),MIDI Mapper
+- MIDI (Musical Instrument Digital Interface),MIDI Mapper
+- MIDI Mapper,channel map
+- channel map
+- MIDI Mapper,channel messages
+- MIDI channel messages
+- channel messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Channel Map

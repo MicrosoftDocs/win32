@@ -1,8 +1,9 @@
 ---
 title: MimeOleGetCodePageCharset function
 description: Do no use. Finds a character set for the specified code page.
-ms.assetid: 'f4963e17-1311-4944-b6ab-cb6d7610cd14'
-keywords: ["MimeOleGetCodePageCharset function Windows Mail (formerly Outlook Express)"]
+ms.assetid: f4963e17-1311-4944-b6ab-cb6d7610cd14
+keywords:
+- MimeOleGetCodePageCharset function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleGetCodePageCharset function
@@ -22,9 +28,9 @@ Do no use. Finds a character set for the specified code page.
 
 ```C++
 HRESULT MimeOleGetCodePageCharset(
-  _In_  CODEPAGEID  cpiCodePage,
-  _In_  CHARSETTYPE ctCsetType,
-  _Out_ LPHCHARSET  phCharset
+  _In_  CODEPAGEID  cpiCodePage,
+  _In_  CHARSETTYPE ctCsetType,
+  _Out_ LPHCHARSET  phCharset
 );
 ```
 
@@ -81,7 +87,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -93,8 +99,8 @@ There are three different character set types for every code page, each type hav
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -102,9 +108,9 @@ There are three different character set types for every code page, each type hav
 
 
 
- 
+ 
 
- 
+ 
 
 
 

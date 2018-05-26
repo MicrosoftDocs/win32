@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections describe the installation of assemblies to the global assembly cache:'
-ms.assetid: 'c7d85f29-4ab9-4668-b199-f6a4afd58792'
+Description: The following sections describe the installation of assemblies to the global assembly cache
+ms.assetid: c7d85f29-4ab9-4668-b199-f6a4afd58792
 title: Installation of Common Language Runtime Assemblies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installation of Common Language Runtime Assemblies

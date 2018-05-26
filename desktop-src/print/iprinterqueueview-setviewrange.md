@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the range of print jobs being monitored.'
-ms.assetid: 'DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0'
-title: 'IPrinterQueueView::SetViewRange method'
+---
+Description: Sets the range of print jobs being monitored.
+ms.assetid: DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0
+title: IPrinterQueueViewSetViewRange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterQueueView::SetViewRange method

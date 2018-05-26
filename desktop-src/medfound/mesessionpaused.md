@@ -1,16 +1,21 @@
-﻿---
-Description: 'Raised when the IMFMediaSession::Pause method completes asynchronously.'
-ms.assetid: '72546082-83ec-4481-a24f-e82bd6c88859'
+---
+Description: Raised when the IMFMediaSessionPause method completes asynchronously.
+ms.assetid: 72546082-83ec-4481-a24f-e82bd6c88859
 title: MESessionPaused event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESessionPaused event
 
-Raised when the [**IMFMediaSession::Pause**](imfmediasession-pause.md) method completes asynchronously.
+Raised when the [**IMFMediaSession::Pause**](/windows/win32/mfidl/nf-mfidl-imfmediasession-pause?branch=master) method completes asynchronously.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

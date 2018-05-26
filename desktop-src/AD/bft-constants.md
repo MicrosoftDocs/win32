@@ -4,9 +4,9 @@ description: The BFT constants are used as bit flags to identify different file 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3658a657-d9e3-4fbf-9120-4b0205b81a36'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3658a657-d9e3-4fbf-9120-4b0205b81a36
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -24,6 +24,9 @@ api_location:
 - Ntdsbcli.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BFT Constants
@@ -155,15 +158,15 @@ The file cannot be recognized. The file does not coincide with the known file na
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Ntdsbcli.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

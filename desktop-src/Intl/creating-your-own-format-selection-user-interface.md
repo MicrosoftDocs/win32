@@ -1,7 +1,12 @@
 ---
 Description: International Text Display
-ms.assetid: 'e6cc5169-1a6e-40f8-b616-e76ec919195c'
+ms.assetid: e6cc5169-1a6e-40f8-b616-e76ec919195c
 title: International Text Display
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # International Text Display

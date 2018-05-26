@@ -1,15 +1,20 @@
 ---
 title: Implementing a Word Breaker
 description: Implementing a Word Breaker
-ms.assetid: 'c257db30-821a-44c0-8896-890090c9aedf'
+ms.assetid: c257db30-821a-44c0-8896-890090c9aedf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing a Word Breaker
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 Word breakers for Indexing Service implement the [**IWordBreaker**](iwordbreaker.md) interface. The [**BreakText**](iwordbreaker-breaktext.md) method performs all text processing and parsing. To implement a word breaker component, you must have language heuristics for your language. This includes information about syntax and morphology. You may also need a list of words to exclude or include. You build the file of noise words for your language locale from the list of excluded words. For more information about linguistic considerations and how these considerations affect word breaker implementations, see [Linguistic and Unicode Considerations](linguistic-and-unicode-considerations.md).
 
@@ -27,7 +32,7 @@ When a document is included in the index, each word is assigned an integer value
 
 
 
- 
+ 
 
 In this example, the word breaker stores alternative forms for "Kyle" ("Kyle's") and "database" ("data base") in the index. The word breaker generates and stores alternative words during the index creation process under the following conditions:
 
@@ -43,7 +48,7 @@ Generating alternative word forms increases the number of ways that queries repr
 
 ### WordSink and PhraseSink
 
-Word breakers use the [**WordSink**](iwordsink.md) and [**PhraseSink**](iphrasesink.md) objects to collect and store all words and phrases that they extract from text. A word breaker stores words in a form that is as close as possible to the original word form in the document. The **PhraseSink** stores phrases at query time. Phrases improve the relevance of query results because longer sequences of words are rarer and provide greater distinction than smaller phrases. When Indexing Service places a phrase in the **PhraseSink** at query time, it creates an instance of the word breaker to break the phrase into words. Indexing Service then evaluates the phrase by checking whether the words in the phrase occur adjacent to one another in the index. For example, if "ABCD" occurs in the index at positions *x*, *x*+1, *x*+2, and *x*+3, the phrase match will occur if any adjacent substring of "ABCD" is submitted in a query. This strategy is effective for character-based word breakers that split phrases and long words during index creation and that generate phrases during query time.
+Word breakers use the [**WordSink**](iwordsink.md) and [**PhraseSink**](/windows/win32/Indexsrv/nn-indexsrv-iphrasesink?branch=master) objects to collect and store all words and phrases that they extract from text. A word breaker stores words in a form that is as close as possible to the original word form in the document. The **PhraseSink** stores phrases at query time. Phrases improve the relevance of query results because longer sequences of words are rarer and provide greater distinction than smaller phrases. When Indexing Service places a phrase in the **PhraseSink** at query time, it creates an instance of the word breaker to break the phrase into words. Indexing Service then evaluates the phrase by checking whether the words in the phrase occur adjacent to one another in the index. For example, if "ABCD" occurs in the index at positions *x*, *x*+1, *x*+2, and *x*+3, the phrase match will occur if any adjacent substring of "ABCD" is submitted in a query. This strategy is effective for character-based word breakers that split phrases and long words during index creation and that generate phrases during query time.
 
 ### Breaks
 
@@ -81,9 +86,9 @@ For more information about troubleshooting word breakers, see [Troubleshooting L
 [Troubleshooting Language Resources](troubleshooting-language-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

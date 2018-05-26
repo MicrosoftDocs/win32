@@ -1,8 +1,11 @@
 ---
 title: IMimePropertySet EnumProps method
 description: Enumerates the properties in the property set.
-ms.assetid: '2c1449d3-9fbe-4562-bbbb-7b8935659315'
-keywords: ["EnumProps method Windows Mail (formerly Outlook Express)", "EnumProps method Windows Mail (formerly Outlook Express) , IMimePropertySet interface", "IMimePropertySet interface Windows Mail (formerly Outlook Express) , EnumProps method"]
+ms.assetid: 2c1449d3-9fbe-4562-bbbb-7b8935659315
+keywords:
+- EnumProps method Windows Mail (formerly Outlook Express)
+- EnumProps method Windows Mail (formerly Outlook Express) , IMimePropertySet interface
+- IMimePropertySet interface Windows Mail (formerly Outlook Express) , EnumProps method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimePropertySet::EnumProps method
@@ -22,8 +30,8 @@ Enumerates the properties in the property set.
 
 ```C++
 HRESULT EnumProps(
-  [in]  DWORD               dwFlags,
-  [out] IMimeEnumProperties **ppEnum
+  [in]  DWORD               dwFlags,
+  [out] IMimeEnumProperties **ppEnum
 );
 ```
 
@@ -48,7 +56,7 @@ Specifies a bitmask that indicates how the enumerator works.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -78,7 +86,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,8 +94,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -95,9 +103,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

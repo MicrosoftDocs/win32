@@ -1,14 +1,16 @@
 ---
 title: Win32\_SessionDirectoryVirtualDesktopServer class
-description: Represents a Remote Desktop Virtualization Host (RD Virtualization Host) server joined to a session broker.
+description: Represents a Remote Desktop Virtualization Host (RD Virtualization Host) server joined to a session broker.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a09221bd-d1b1-465b-91bb-9ca400a796b1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a09221bd-d1b1-465b-91bb-9ca400a796b1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_SessionDirectoryVirtualDesktopServer class Remote Desktop Services", "Win32_SessionDirectoryVirtualDesktopServer class Remote Desktop Services , described"]
+keywords:
+- Win32_SessionDirectoryVirtualDesktopServer class Remote Desktop Services
+- Win32_SessionDirectoryVirtualDesktopServer class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -18,11 +20,14 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SessionDirectoryVirtualDesktopServer class
 
-Represents a Remote Desktop Virtualization Host (RD Virtualization Host) server joined to a session broker.
+Represents a Remote Desktop Virtualization Host (RD Virtualization Host) server joined to a session broker.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -60,7 +65,7 @@ Access type: Read-only
 Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 </dt> </dl>
 
-The DNS name of the RD Virtualization Host server. This name takes the form "*MachineName*.*Domain*.com".
+The DNS name of the RD Virtualization Host server. This name takes the form "*MachineName*.*Domain*.com".
 
 </dd> </dl>
 
@@ -71,16 +76,16 @@ The DNS name of the RD Virtualization Host server. This name takes the form "*Ma
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                               |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

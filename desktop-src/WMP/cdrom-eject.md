@@ -1,8 +1,11 @@
 ---
 title: Cdrom.eject method
 description: The eject method ejects the CD or DVD from the drive.
-ms.assetid: 'f43c7f10-7de2-488c-833a-ecd3ac21744b'
-keywords: ["eject method Windows Media Player", "eject method Windows Media Player , Cdrom class", "Cdrom class Windows Media Player , eject method"]
+ms.assetid: f43c7f10-7de2-488c-833a-ecd3ac21744b
+keywords:
+- eject method Windows Media Player
+- eject method Windows Media Player , Cdrom class
+- Cdrom class Windows Media Player , eject method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cdrom.eject method
@@ -63,8 +71,8 @@ The following example creates an HTML button element that uses *Cdrom*.**eject**
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Version<br/>                  | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 
@@ -86,9 +94,9 @@ The following example creates an HTML button element that uses *Cdrom*.**eject**
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

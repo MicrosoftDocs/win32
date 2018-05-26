@@ -4,13 +4,16 @@ description: Deprecated description Enables or disables the numeric sensor.This 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '88f950d0-4f79-4c64-b84c-fd1659154364'
-ms.prod: 'windows-server-dev'
+ms.assetid: 88f950d0-4f79-4c64-b84c-fd1659154364
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["EnableDevice method", "EnableDevice method, CIM_DisketteDrive class", "CIM_DisketteDrive class, EnableDevice method"]
+keywords:
+- EnableDevice method
+- EnableDevice method, CIM_DisketteDrive class
+- CIM_DisketteDrive class, EnableDevice method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableDevice method of the CIM\_DisketteDrive class
@@ -32,7 +38,7 @@ This method is deprecated. Instead we recommend that you use the **RequestStateC
 
 ```mof
 uint32 EnableDevice(
-  [in] boolean Enabled
+  [in] boolean Enabled
 );
 ```
 
@@ -80,7 +86,7 @@ The operation was not completed because it is not supported.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -94,9 +100,9 @@ The operation was not completed because it is not supported.
 [**CIM\_DisketteDrive**](cim-diskettedrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

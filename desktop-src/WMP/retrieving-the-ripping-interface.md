@@ -1,17 +1,32 @@
 ---
 title: Retrieving the Ripping Interface
 description: Retrieving the Ripping Interface
-ms.assetid: '760610eb-e356-4b50-b865-53557ba9b815'
-keywords: ["Windows Media Player,CD ripping", "Windows Media Player object model,CD ripping", "object model,CD ripping", "Windows Media Player ActiveX control,CD ripping", "ActiveX control,CD ripping", "Windows Media Player Mobile ActiveX control,CD ripping", "Windows Media Player Mobile,CD ripping", "CD ripping,IWMPCdromRip interface", "ripping CDs,IWMPCdromRip interface", "IWMPCdromRip interface"]
+ms.assetid: 760610eb-e356-4b50-b865-53557ba9b815
+keywords:
+- Windows Media Player,CD ripping
+- Windows Media Player object model,CD ripping
+- object model,CD ripping
+- Windows Media Player ActiveX control,CD ripping
+- ActiveX control,CD ripping
+- Windows Media Player Mobile ActiveX control,CD ripping
+- Windows Media Player Mobile,CD ripping
+- CD ripping,IWMPCdromRip interface
+- ripping CDs,IWMPCdromRip interface
+- IWMPCdromRip interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Ripping Interface
 
-To enumerate the CD drives on the user's computer, use the **IWMPCdromCollection** interface. Retrieve a pointer to this interface by calling [IWMPCore::get\_cdromCollection](iwmpcore-get-cdromcollection.md).
+To enumerate the CD drives on the user's computer, use the **IWMPCdromCollection** interface. Retrieve a pointer to this interface by calling [IWMPCore::get\_cdromCollection](/windows/win32/wmp/nf-wmp-iwmpcore-get_cdromcollection?branch=master).
 
-By using the [get\_count](iwmpcdromcollection-get-count.md) and [item](iwmpcdromcollection-item.md) methods, you can iterate the collection to retrieve an [IWMPCdrom](iwmpcdrom.md) interface for each CD drive on the user's computer.
+By using the [get\_count](/windows/win32/wmp/nf-wmp-iwmpcdromcollection-get_count?branch=master) and [item](/windows/win32/wmp/nf-wmp-iwmpcdromcollection-item?branch=master) methods, you can iterate the collection to retrieve an [IWMPCdrom](/windows/win32/wmp/nn-wmp-iwmpcdrom?branch=master) interface for each CD drive on the user's computer.
 
-The **IWMPCdrom** interface represents an individual CD drive. Before you begin ripping a CD, you must first call **QueryInterface** through an **IWMPCdrom** pointer to retrieve the [IWMPCdromRip](iwmpcdromrip.md) interface.
+The **IWMPCdrom** interface represents an individual CD drive. Before you begin ripping a CD, you must first call **QueryInterface** through an **IWMPCdrom** pointer to retrieve the [IWMPCdromRip](/windows/win32/wmp/nn-wmp-iwmpcdromrip?branch=master) interface.
 
 The following code example demonstrates how to retrieve an interface for ripping a CD from a specific drive:
 
@@ -68,7 +83,7 @@ HRESULT CMainDlg::GetCdromRipInterface (long lIndex)
 [**Selecting Items for Ripping**](selecting-items-for-ripping.md)
 </dt> <dt>
 
-[**IWMPCdromCollection Interface**](iwmpcdromcollection.md)
+[**IWMPCdromCollection Interface**](/windows/win32/wmp/nn-wmp-iwmpcdromcollection?branch=master)
 </dt> </dl>
 
  

@@ -1,20 +1,23 @@
 ---
-Description: 'The Win32\_IRQResource &\#160;WMI class represents an interrupt request line (IRQ) number on a computer system running Windows.'
+Description: The Win32\_IRQResource &\#160;WMI class represents an interrupt request line (IRQ) number on a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bae0c28e-2b66-40ac-9679-b2dfe9269306'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bae0c28e-2b66-40ac-9679-b2dfe9269306
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_IRQResource class'
+title: Win32\_IRQResource class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_IRQResource class
 
-The **Win32\_IRQResource**  [WMI class](https://msdn.microsoft.com/library/aa393244) represents an interrupt request line (IRQ) number on a computer system running Windows. An interrupt request is a signal sent to the CPU by a device or program for time critical events. IRQ can be hardware-based or software-based.
+The **Win32\_IRQResource**  [WMI class](https://msdn.microsoft.com/library/aa393244) represents an interrupt request line (IRQ) number on a computer system running Windows. An interrupt request is a signal sent to the CPU by a device or program for time critical events. IRQ can be hardware-based or software-based.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -24,21 +27,21 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C4D3-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_IRQResource : CIM_IRQ
 {
-  uint16   Availability;
-  string   Caption;
-  string   CreationClassName;
-  string   CSCreationClassName;
-  string   CSName;
-  string   Description;
-  boolean  Hardware;
+  uint16   Availability;
+  string   Caption;
+  string   CreationClassName;
+  string   CSCreationClassName;
+  string   CSName;
+  string   Description;
+  boolean  Hardware;
   datetime InstallDate;
-  uint32   IRQNumber;
-  string   Name;
-  boolean  Shareable;
-  string   Status;
-  uint16   TriggerLevel;
-  uint16   TriggerType;
-  uint32   Vector;
+  uint32   IRQNumber;
+  string   Name;
+  boolean  Shareable;
+  string   Status;
+  uint16   TriggerLevel;
+  uint16   TriggerType;
+  uint32   Vector;
 };
 ```
 
@@ -152,7 +155,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -546,8 +549,8 @@ The **Win32\_IRQResource** class is derived from [**CIM\_IRQ**](cim-irq.md).
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -564,9 +567,9 @@ The **Win32\_IRQResource** class is derived from [**CIM\_IRQ**](cim-irq.md).
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

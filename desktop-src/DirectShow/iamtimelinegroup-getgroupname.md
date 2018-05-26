@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetGroupName method retrieves the application-defined name of the group.'
-ms.assetid: '402e97d9-abb5-4d8e-8735-1b06d60ab225'
-title: 'IAMTimelineGroup::GetGroupName method'
+---
+Description: The GetGroupName method retrieves the application-defined name of the group.
+ms.assetid: 402e97d9-abb5-4d8e-8735-1b06d60ab225
+title: IAMTimelineGroupGetGroupName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::GetGroupName method

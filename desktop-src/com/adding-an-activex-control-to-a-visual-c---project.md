@@ -1,7 +1,12 @@
 ---
 title: Adding an ActiveX Control to a Visual C++ Project
 description: The following procedure adds dispatch class and header files for an ActiveX control to a Visual C++ project.
-ms.assetid: 'f342d6af-2835-446f-8628-8b1008a2e613'
+ms.assetid: f342d6af-2835-446f-8628-8b1008a2e613
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding an ActiveX Control to a Visual C++ Project

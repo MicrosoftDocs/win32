@@ -1,7 +1,12 @@
 ---
 title: Messages
 description: The topics in this section provide the reference specifications for specific Pointer Input Messages and Notifications.
-ms.assetid: '65F4DCD0-DAE1-4AC2-AB36-23D114803138'
+ms.assetid: 65F4DCD0-DAE1-4AC2-AB36-23D114803138
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Messages
@@ -158,7 +163,7 @@ Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinat
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -167,9 +172,9 @@ Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinat
 [Pointer Input Message Reference](wmpointer-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

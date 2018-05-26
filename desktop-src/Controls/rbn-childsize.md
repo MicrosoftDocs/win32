@@ -1,8 +1,9 @@
 ---
 title: RBN\_CHILDSIZE notification code
-description: Sent by a rebar control when a band's child window is resized. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'ba64d21a-e568-4894-8007-be644ae4f54a'
-keywords: ["RBN_CHILDSIZE notification code Windows Controls"]
+description: Sent by a rebar control when a bands child window is resized. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: ba64d21a-e568-4894-8007-be644ae4f54a
+keywords:
+- RBN_CHILDSIZE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RBN\_CHILDSIZE notification code
@@ -33,7 +39,7 @@ RBN_CHILDSIZE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMREBARCHILDSIZE**](nmrebarchildsize.md) structure that contains information about the notification code.
+Pointer to an [**NMREBARCHILDSIZE**](/windows/win32/Commctrl/ns-commctrl-tagnmrebarchildsize?branch=master) structure that contains information about the notification code.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ The return value for this notification is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

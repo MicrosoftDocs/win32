@@ -1,13 +1,21 @@
 ---
 title: Requesting Time Formats
 description: Requesting Time Formats
-ms.assetid: '3492dfe3-ed54-405a-aa4f-b17abbd1e07f'
-keywords: ["Musical Instrument Digital Interface (MIDI),time formats", "MIDI (Musical Instrument Digital Interface),time formats", "MIDI services,time formats"]
+ms.assetid: 3492dfe3-ed54-405a-aa4f-b17abbd1e07f
+keywords:
+- Musical Instrument Digital Interface (MIDI),time formats
+- MIDI (Musical Instrument Digital Interface),time formats
+- MIDI services,time formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Requesting Time Formats
 
-Windows uses the [**MMTIME**](mmtime.md) structure to represent time in one or more different formats, including milliseconds, samples, SMPTE, and MIDI song pointer formats. The **wType** member specifies the time format.
+Windows uses the [**MMTIME**](/windows/win32/Mmsystem/?branch=master) structure to represent time in one or more different formats, including milliseconds, samples, SMPTE, and MIDI song pointer formats. The **wType** member specifies the time format.
 
 The [**midiStreamPosition**](midistreamposition.md) function uses the **MMTIME** structure. Before calling this function, you must set the **wType** member to indicate your requested time format. To see if the requested time format is supported, check **wType** after the call. If the requested time format is not supported, the time is specified in an alternate time format selected by the device driver and the **wType** member is changed to indicate the selected time format.
 

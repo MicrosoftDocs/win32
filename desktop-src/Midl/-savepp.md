@@ -2,13 +2,19 @@
 title: /savePP switch
 description: When the /savePP directive is specified, the MIDL compiler does not delete the output of the C/C++ preprocessor.
 ms.assetid: 65a687a5-55ec-4e76-bcfc-38c0a317b85b
-keywords: ["/savePP switch MIDL"]
+keywords:
+- /savePP switch MIDL
 topic_type:
 - apiref
 api_name:
 - /savePP
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /savePP switch

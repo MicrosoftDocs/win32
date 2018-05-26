@@ -1,8 +1,10 @@
 ---
 title: STORAGE\_MEDIA\_TYPE enumeration
 description: The STORAGE\_MEDIA\_TYPE enumeration is used in conjunction with the IOCTL\_STORAGE\_GET\_MEDIA\_TYPES\_EX request to query the class driver for the types of media that a device supports.
-ms.assetid: '70214b6e-92d2-418a-ad8a-8701df02fdc3'
-keywords: ["STORAGE_MEDIA_TYPE enumeration Storage Devices", "PSTORAGE_MEDIA_TYPE enumeration pointer Storage Devices"]
+ms.assetid: 70214b6e-92d2-418a-ad8a-8701df02fdc3
+keywords:
+- STORAGE_MEDIA_TYPE enumeration Storage Devices
+- PSTORAGE_MEDIA_TYPE enumeration pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - ntddstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STORAGE\_MEDIA\_TYPE enumeration
@@ -22,69 +29,69 @@ The STORAGE\_MEDIA\_TYPE enumeration is used in conjunction with the [**IOCTL\_S
 
 ```C++
 typedef enum _STORAGE_MEDIA_TYPE { 
-  DDS_4mm             = 0x20,
-  MiniQic             = 0x21,
-  Travan              = 0x22,
-  QIC                 = 0x23,
-  MP_8mm              = 0x24,
-  AME_8mm             = 0x25,
-  AIT1_8mm            = 0x26,
-  DLT                 = 0x27,
-  NCTP                = 0x28,
-  IBM_3480            = 0x29,
-  IBM_3490E           = 0x2A,
-  IBM_Magstar_3590    = 0x2B,
-  IBM_Magstar_MP      = 0x2C,
-  STK_DATA_D3         = 0x2D,
-  SONY_DTF            = 0x2E,
-  DV_6mm              = 0x2F,
-  DMI                 = 0x30,
-  SONY_D2             = 0x31,
-  CLEANER_CARTRIDGE   = 0x32,
-  CD_ROM              = 0x33,
-  CD_R                = 0x34,
-  CD_RW               = 0x35,
-  DVD_ROM             = 0x36,
-  DVD_R               = 0x37,
-  DVD_RW              = 0x38,
-  MO_3_RW             = 0x39,
-  MO_5_WO             = 0x3A,
-  MO_5_RW             = 0x3B,
-  MO_5_LIMDOW         = 0x3C,
-  PC_5_WO             = 0x3D,
-  PC_5_RW             = 0x3E,
-  PD_5_RW             = 0x3F,
-  ABL_5_WO            = 0x40,
-  PINNACLE_APEX_5_RW  = 0x41,
-  SONY_12_WO          = 0x42,
-  PHILIPS_12_WO       = 0x43,
-  HITACHI_12_WO       = 0x44,
-  CYGNET_12_WO        = 0x45,
-  KODAK_14_WO         = 0x46,
-  MO_NFR_525          = 0x47,
-  NIKON_12_RW         = 0x48,
-  IOMEGA_ZIP          = 0x49,
-  IOMEGA_JAZ          = 0x4A,
-  SYQUEST_EZ135       = 0x4B,
-  SYQUEST_EZFLYER     = 0x4C,
-  SYQUEST_SYJET       = 0x4D,
-  AVATAR_F2           = 0x4E,
-  MP2_8mm             = 0x4F,
-  DST_S               = 0x50,
-  DST_M               = 0x51,
-  DST_L               = 0x52,
-  VXATape_1           = 0x53,
-  VXATape_2           = 0x54,
-  STK_9840            = 0x55,
-  LTO_Ultrium         = 0x56,
-  LTO_Accelis         = 0x57,
-  DVD_RAM             = 0x58,
-  AIT_8mm             = 0x59,
-  ADR_1               = 0x5A,
-  ADR_2               = 0x5B,
-  STK_9940            = 0x5C,
-  SAIT                = 0x5D,
-  VXATape             = 0x5E
+  DDS_4mm             = 0x20,
+  MiniQic             = 0x21,
+  Travan              = 0x22,
+  QIC                 = 0x23,
+  MP_8mm              = 0x24,
+  AME_8mm             = 0x25,
+  AIT1_8mm            = 0x26,
+  DLT                 = 0x27,
+  NCTP                = 0x28,
+  IBM_3480            = 0x29,
+  IBM_3490E           = 0x2A,
+  IBM_Magstar_3590    = 0x2B,
+  IBM_Magstar_MP      = 0x2C,
+  STK_DATA_D3         = 0x2D,
+  SONY_DTF            = 0x2E,
+  DV_6mm              = 0x2F,
+  DMI                 = 0x30,
+  SONY_D2             = 0x31,
+  CLEANER_CARTRIDGE   = 0x32,
+  CD_ROM              = 0x33,
+  CD_R                = 0x34,
+  CD_RW               = 0x35,
+  DVD_ROM             = 0x36,
+  DVD_R               = 0x37,
+  DVD_RW              = 0x38,
+  MO_3_RW             = 0x39,
+  MO_5_WO             = 0x3A,
+  MO_5_RW             = 0x3B,
+  MO_5_LIMDOW         = 0x3C,
+  PC_5_WO             = 0x3D,
+  PC_5_RW             = 0x3E,
+  PD_5_RW             = 0x3F,
+  ABL_5_WO            = 0x40,
+  PINNACLE_APEX_5_RW  = 0x41,
+  SONY_12_WO          = 0x42,
+  PHILIPS_12_WO       = 0x43,
+  HITACHI_12_WO       = 0x44,
+  CYGNET_12_WO        = 0x45,
+  KODAK_14_WO         = 0x46,
+  MO_NFR_525          = 0x47,
+  NIKON_12_RW         = 0x48,
+  IOMEGA_ZIP          = 0x49,
+  IOMEGA_JAZ          = 0x4A,
+  SYQUEST_EZ135       = 0x4B,
+  SYQUEST_EZFLYER     = 0x4C,
+  SYQUEST_SYJET       = 0x4D,
+  AVATAR_F2           = 0x4E,
+  MP2_8mm             = 0x4F,
+  DST_S               = 0x50,
+  DST_M               = 0x51,
+  DST_L               = 0x52,
+  VXATape_1           = 0x53,
+  VXATape_2           = 0x54,
+  STK_9840            = 0x55,
+  LTO_Ultrium         = 0x56,
+  LTO_Accelis         = 0x57,
+  DVD_RAM             = 0x58,
+  AIT_8mm             = 0x59,
+  ADR_1               = 0x5A,
+  ADR_2               = 0x5B,
+  STK_9940            = 0x5C,
+  SAIT                = 0x5D,
+  VXATape             = 0x5E
 } STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE;
 ```
 
@@ -558,9 +565,9 @@ VXA (Ecrix 8mm) Tape
 [**IOCTL\_STORAGE\_GET\_MEDIA\_TYPES\_EX**](ioctl-storage-get-media-types-ex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20STORAGE_MEDIA_TYPE%20enumeration%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

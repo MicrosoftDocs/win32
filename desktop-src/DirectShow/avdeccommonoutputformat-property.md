@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the output format for the decoder.'
-ms.assetid: 'fdccdbfa-2814-4d21-9a7f-4121b79718e6'
+Description: Specifies the output format for the decoder.
+ms.assetid: fdccdbfa-2814-4d21-9a7f-4121b79718e6
 title: AVDecCommonOutputFormat property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVDecCommonOutputFormat property
@@ -33,7 +38,7 @@ This property is read/write.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -41,8 +46,8 @@ This property is read/write.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -54,12 +59,12 @@ This property is read/write.
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

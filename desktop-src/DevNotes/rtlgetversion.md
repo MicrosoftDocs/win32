@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets version information about the currently running operating system.'
-ms.assetid: 'F04F0981-A07D-4B38-9DE4-B8461EAFC19F'
+---
+Description: Gets version information about the currently running operating system.
+ms.assetid: F04F0981-A07D-4B38-9DE4-B8461EAFC19F
 title: RtlGetVersion function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtlGetVersion function

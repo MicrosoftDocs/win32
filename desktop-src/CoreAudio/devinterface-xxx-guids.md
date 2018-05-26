@@ -1,7 +1,12 @@
 ---
-Description: 'The DEVINTERFACE\_XXX GUIDs are used to represent the GUIDs for device interfaces.'
-ms.assetid: '2503463B-D7C6-4C82-8421-424D79FD1C2A'
-title: 'DEVINTERFACE\_XXX GUIDs'
+Description: The DEVINTERFACE\_XXX GUIDs are used to represent the GUIDs for device interfaces.
+ms.assetid: 2503463B-D7C6-4C82-8421-424D79FD1C2A
+title: DEVINTERFACE\_XXX GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DEVINTERFACE\_XXX GUIDs
@@ -17,7 +22,7 @@ The DEVINTERFACE\_XXX GUIDs are used to represent the GUIDs for device interface
 
 Specifies the query string used to enumerate all audio capture devices on the system. This value is returned by [**MediaDevice::GetAudioCaptureSelector**](https://msdn.microsoft.com/library/windows/apps/br226816).
 
-Passing this value to [**ActivateAudioInterfaceAsync**](activateaudiointerfaceasync.md) activates the requested interface on the default audio capture device.
+Passing this value to [**ActivateAudioInterfaceAsync**](/windows/win32/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync?branch=master) activates the requested interface on the default audio capture device.
 
 
 </dt> </dl> </dd> <dt>
@@ -29,7 +34,7 @@ Passing this value to [**ActivateAudioInterfaceAsync**](activateaudiointerfaceas
 
 Specifies the query string used to enumerate all audio render devices on the system. This value is returned by [**MediaDevice::GetAudioRenderSelector**](https://msdn.microsoft.com/library/windows/apps/br226817).
 
-Passing this value to [**ActivateAudioInterfaceAsync**](activateaudiointerfaceasync.md) activates the requested interface on the default audio render device.
+Passing this value to [**ActivateAudioInterfaceAsync**](/windows/win32/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync?branch=master) activates the requested interface on the default audio render device.
 
 
 </dt> </dl> </dd> <dt>
@@ -64,9 +69,9 @@ Specifies the query string used to enumerate all [**MidiOutPort**](https://msdn.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

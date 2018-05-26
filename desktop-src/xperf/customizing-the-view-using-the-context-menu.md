@@ -1,8 +1,15 @@
 ---
 title: Customizing the View Using the Context Menu
 description: Customizing the View Using the Context Menu
-ms.assetid: '0a4bdb53-52a6-4eaf-bdd3-dfea563fd66d'
-keywords: ["simple summary table", "summary table"]
+ms.assetid: 0a4bdb53-52a6-4eaf-bdd3-dfea563fd66d
+keywords:
+- simple summary table
+- summary table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customizing the View Using the Context Menu

@@ -1,14 +1,20 @@
 ---
 title: GetRenderTargetSamplePosition
 description: Gets the sampling position (x,y) for a given sample index.
-ms.assetid: '07f14d1c-4fe5-4838-acce-d664cdc641e6'
-keywords: ["GetRenderTargetSamplePosition HLSL"]
+ms.assetid: 07f14d1c-4fe5-4838-acce-d664cdc641e6
+keywords:
+- GetRenderTargetSamplePosition HLSL
 topic_type:
 - apiref
 api_name:
 - GetRenderTargetSamplePosition
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetRenderTargetSamplePosition
@@ -23,7 +29,7 @@ Gets the sampling position (x,y) for a given sample index.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Gets the sampling position (x,y) for a given sample index.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -60,7 +66,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -69,9 +75,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

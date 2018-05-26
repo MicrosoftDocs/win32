@@ -1,8 +1,21 @@
 ---
 title: Writing Code
 description: Writing Code
-ms.assetid: '0cd9604a-fa8b-466d-94bb-b76ee8f853b4'
-keywords: ["Windows Media Player,skins", "Windows Media Player skins,writing code", "skins,writing code", "Windows Media Player skins,events", "skins,events", "events,skins", "events,writing code", "writing code for skins,about"]
+ms.assetid: 0cd9604a-fa8b-466d-94bb-b76ee8f853b4
+keywords:
+- Windows Media Player,skins
+- Windows Media Player skins,writing code
+- skins,writing code
+- Windows Media Player skins,events
+- skins,events
+- events,skins
+- events,writing code
+- writing code for skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing Code

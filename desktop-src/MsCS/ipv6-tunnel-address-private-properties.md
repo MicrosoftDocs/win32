@@ -4,10 +4,13 @@ description: IPv6 Tunnel Address resources have the following private properties
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '710821da-e1b0-48b8-b6ca-d925fca1b181'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 710821da-e1b0-48b8-b6ca-d925fca1b181
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IPv6 Tunnel Address Private Properties
@@ -23,11 +26,11 @@ ms.tgt_platform: multiple
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Creating a Plug-in'
-ms.assetid: '9674839b-c6f9-4412-ad3b-7a68b03f9e0c'
-title: 'Creating a Plug-in'
+Description: Creating a Plug-in
+ms.assetid: 9674839b-c6f9-4412-ad3b-7a68b03f9e0c
+title: Creating a Plug-in
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Plug-in

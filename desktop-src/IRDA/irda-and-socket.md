@@ -1,8 +1,14 @@
 ---
 title: IrDA and socket
 description: The Windows Sockets socket function creates a connection endpoint of type SOCKET.
-ms.assetid: 'a43d0c18-3936-46f9-acec-232711420c93'
-keywords: ["IrDA and socket"]
+ms.assetid: a43d0c18-3936-46f9-acec-232711420c93
+keywords:
+- IrDA and socket
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrDA and socket

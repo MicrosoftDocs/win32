@@ -1,7 +1,12 @@
 ---
-Description: 'The SetFormatType method specifies the format type.'
-ms.assetid: 'e8ed9190-7169-4d51-ace7-597f43ff083e'
-title: 'CMediaType.SetFormatType method'
+Description: The SetFormatType method specifies the format type.
+ms.assetid: e8ed9190-7169-4d51-ace7-597f43ff083e
+title: CMediaType.SetFormatType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.SetFormatType method
@@ -13,7 +18,7 @@ The ``SetFormatType method specifies the format type.
 
 ```C++
 void SetFormatType(
-   const GUID *pformattype
+   const GUID *pformattype
 );
 ```
 
@@ -56,10 +61,9 @@ This method sets the **formattype** member. The format type defines the layout o
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
-
+ 
 
 
+``

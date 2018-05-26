@@ -1,8 +1,9 @@
 ---
 title: TB\_HASACCELERATOR message
 description: Retrieves a count of toolbar buttons that have the specified accelerator character.
-ms.assetid: '41167815-fb64-4203-a32c-b2a88ce7bce1'
-keywords: ["TB_HASACCELERATOR message Windows Controls"]
+ms.assetid: 41167815-fb64-4203-a32c-b2a88ce7bce1
+keywords:
+- TB_HASACCELERATOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_HASACCELERATOR message
@@ -55,15 +61,15 @@ First, the system queries all toolbar buttons for matching accelerators. If no m
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

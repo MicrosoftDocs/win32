@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the address of a function from a DLL.'
-ms.assetid: 'e425948c-5588-4a4f-994c-4e608af18439'
+---
+Description: Gets the address of a function from a DLL.
+ms.assetid: e425948c-5588-4a4f-994c-4e608af18439
 title: '\_GetProcAddress\_ function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_GetProcAddress\_ function

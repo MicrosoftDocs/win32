@@ -4,17 +4,22 @@ description: Backward link from Az-Task to the Az-Task objects that link to it.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ed5aaf19-bdb6-41f4-abb1-7954eebdca40'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ed5aaf19-bdb6-41f4-abb1-7954eebdca40
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Tasks-For-Az-Task-BL attribute AD Schema", "msDS-TasksForAzTaskBL attribute AD Schema"]
+keywords:
+- ms-DS-Tasks-For-Az-Task-BL attribute AD Schema
+- msDS-TasksForAzTaskBL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Tasks-For-Az-Task-BL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Tasks-For-Az-Task-BL attribute
@@ -38,11 +43,11 @@ Backward link from Az-Task to the Az-Task objects that link to it.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Backward link from Az-Task to the Az-Task objects that link to it.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

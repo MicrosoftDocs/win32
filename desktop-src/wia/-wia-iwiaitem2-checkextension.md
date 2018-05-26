@@ -1,7 +1,12 @@
-﻿---
-Description: 'Checks whether a specified extension is available on the machine and can be used by the IWiaItem2::GetExtension method.'
-ms.assetid: '672f6418-4ce3-4570-a412-fe639c9f5eb8'
-title: 'IWiaItem2::CheckExtension method'
+---
+Description: Checks whether a specified extension is available on the machine and can be used by the IWiaItem2GetExtension method.
+ms.assetid: 672f6418-4ce3-4570-a412-fe639c9f5eb8
+title: IWiaItem2CheckExtension method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaItem2::CheckExtension method

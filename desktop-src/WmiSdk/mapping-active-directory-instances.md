@@ -1,13 +1,16 @@
 ---
-Description: 'In general, each Active Directory object maps to exactly one WMI instance.'
+Description: In general, each Active Directory object maps to exactly one WMI instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c6c7f3c3-7174-4278-bf40-d99ed8bd0c8d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c6c7f3c3-7174-4278-bf40-d99ed8bd0c8d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Mapping Active Directory Instances
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Mapping Active Directory Instances

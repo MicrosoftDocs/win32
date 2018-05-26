@@ -4,11 +4,14 @@ description: Flushes the data asynchronously to the backing file.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.CustomProtection.CustomProtectedStream.FlushAsync'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.CustomProtection.CustomProtectedStream.FlushAsync
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["FlushAsync method", "FlushAsync method, CustomProtectedStream class", "CustomProtectedStream class, FlushAsync method"]
+keywords:
+- FlushAsync method
+- FlushAsync method, CustomProtectedStream class
+- CustomProtectedStream class, FlushAsync method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedStream.FlushAsync method
@@ -48,7 +54,7 @@ The stream flush operation. **null** is returned if an exception occurs. Upon co
 > \[!Warning\]  
 > To avoid data loss and/or corruption, **FlushAsync** must be called before object disposal.
 
- 
+ 
 
 ## Requirements
 
@@ -71,9 +77,9 @@ The stream flush operation. **null** is returned if an exception occurs. Upon co
 [**CustomProtectedStream**](customprotectedstream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

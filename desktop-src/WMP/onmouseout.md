@@ -1,14 +1,20 @@
 ---
 title: onmouseout
 description: The onmouseout event handler handles an event that occurs when the user moves the pointer off the element.
-ms.assetid: '8d4c5aec-0d4e-4912-a5e6-9aa1cf3e0971'
-keywords: ["onmouseout Windows Media Player"]
+ms.assetid: 8d4c5aec-0d4e-4912-a5e6-9aa1cf3e0971
+keywords:
+- onmouseout Windows Media Player
 topic_type:
 - apiref
 api_name:
 - onmouseout
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # onmouseout
@@ -40,9 +46,9 @@ This event handler is not applicable to the **PLAYLIST** element.
 [**Ambient Event Handlers**](ambient-event-handlers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: Code examples that enumerate schema classes, attributes, and syntax
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fca0b723-4582-4fe3-933d-b56c016fd324'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: fca0b723-4582-4fe3-933d-b56c016fd324
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory ,enumerating schema classes, attributes, and syntaxes"]
+keywords:
+- Active Directory examples Active Directory ,enumerating schema classes, attributes, and syntaxes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Enumerating Schema Classes, Attributes, and Syntaxes

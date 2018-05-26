@@ -1,7 +1,12 @@
 ---
-Description: 'The CNG API provides a set of functions that perform basic cryptographic operations such as creating hashes or encrypting and decrypting data. For more information about these functions, see CNG Cryptographic Primitive Functions.'
-ms.assetid: '925848ae-9f4f-444a-81ff-14a1997434b2'
+Description: The CNG API provides a set of functions that perform basic cryptographic operations such as creating hashes or encrypting and decrypting data. For more information about these functions, see CNG Cryptographic Primitive Functions.
+ms.assetid: 925848ae-9f4f-444a-81ff-14a1997434b2
 title: Cryptographic Primitives
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cryptographic Primitives
@@ -10,7 +15,7 @@ The CNG API provides a set of functions that perform basic cryptographic operati
 
 CNG implements numerous cryptographic algorithms. Each algorithm or class of algorithms exposes its own primitive API. Multiple implementations of a given algorithm can be installed at the same time; however, only one implementation will be the default at any given time.
 
-Each algorithm class in CNG is represented by a primitive router. Applications using the CNG primitive functions will link to the router binary file—Bcrypt.dll in user mode, or Ksecdd.sys in kernel mode—before calling the functions. Various router routines manage all of the algorithm primitives. These routers track each algorithm implementation installed on the system and route each function call to the appropriate primitive provider module.
+Each algorithm class in CNG is represented by a primitive router. Applications using the CNG primitive functions will link to the router binary file Bcrypt.dll in user mode, or Ksecdd.sys in kernel mode before calling the functions. Various router routines manage all of the algorithm primitives. These routers track each algorithm implementation installed on the system and route each function call to the appropriate primitive provider module.
 
 CNG provides primitives for the following classes of algorithms.
 
@@ -27,17 +32,17 @@ CNG provides primitives for the following classes of algorithms.
 
 
 
- 
+ 
 
 The following illustration shows the design and function of the CNG cryptographic primitives.
 
 ![design and function of cng cryptographic primitives](images/ssdk-cng1c.png)
 
-The header file Bcrypt.h defines the **MS\_PRIMITIVE\_PROVIDER** constant as "Microsoft Primitive Provider". To use the Microsoft Primitive Provider, pass this value to [**BCryptOpenAlgorithmProvider**](bcryptopenalgorithmprovider-func.md).
+The header file Bcrypt.h defines the **MS\_PRIMITIVE\_PROVIDER** constant as "Microsoft Primitive Provider". To use the Microsoft Primitive Provider, pass this value to [**BCryptOpenAlgorithmProvider**](/windows/win32/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider?branch=master).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: VML CoordSize Attribute
 description: VML CoordSize Attribute
-ms.assetid: '4e7a7eca-7db2-4522-be8e-e817601625ed'
+ms.assetid: 4e7a7eca-7db2-4522-be8e-e817601625ed
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML CoordSize Attribute

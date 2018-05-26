@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the IInkAnalyzer is ready to reconcile its background analysis results with its current state.'
-ms.assetid: '63cf48eb-9d1e-4017-a4eb-55d811f7e6cf'
-title: '\_IAnalysisEvents::ReadyToReconcile event'
+Description: Occurs when the IInkAnalyzer is ready to reconcile its background analysis results with its current state.
+ms.assetid: 63cf48eb-9d1e-4017-a4eb-55d811f7e6cf
+title: '\_IAnalysisEventsReadyToReconcile event'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_IAnalysisEvents::ReadyToReconcile event
@@ -47,7 +52,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) raises this event during background anal
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -82,9 +87,9 @@ The [**IInkAnalyzer**](iinkanalyzer.md) raises this event during background anal
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the resource allocation settings of a managed element for a specific resource type.'
-ms.assetid: 'f27910c7-a88a-4694-80fe-7761945782e0'
-title: 'CIM\_AllocationCapabilities class'
+Description: Represents the resource allocation settings of a managed element for a specific resource type.
+ms.assetid: f27910c7-a88a-4694-80fe-7761945782e0
+title: CIM\_AllocationCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_AllocationCapabilities class
@@ -695,8 +700,8 @@ The system states that are supported when a resource is removed.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -710,9 +715,9 @@ The system states that are supported when a resource is removed.
 [**CIM\_Capabilities**](cim-capabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

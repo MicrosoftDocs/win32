@@ -1,8 +1,24 @@
 ---
 title: Adding the Close BUTTONELEMENT
 description: Adding the Close BUTTONELEMENT
-ms.assetid: '18f0ee9d-b0d4-4134-8dd6-6ece480b2818'
-keywords: ["creating skins,BUTTONELEMENT element", "Windows Media Player skins,BUTTONELEMENT element", "skins,BUTTONELEMENT element", "skin definition files,BUTTONELEMENT element", "BUTTONELEMENT element", "elements,BUTTONELEMENT", "creating skins,Close buttons", "Windows Media Player skins,Close buttons", "skins,Close buttons", "skin definition files,Close buttons", "Close buttons"]
+ms.assetid: 18f0ee9d-b0d4-4134-8dd6-6ece480b2818
+keywords:
+- creating skins,BUTTONELEMENT element
+- Windows Media Player skins,BUTTONELEMENT element
+- skins,BUTTONELEMENT element
+- skin definition files,BUTTONELEMENT element
+- BUTTONELEMENT element
+- elements,BUTTONELEMENT
+- creating skins,Close buttons
+- Windows Media Player skins,Close buttons
+- skins,Close buttons
+- skin definition files,Close buttons
+- Close buttons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding the Close BUTTONELEMENT

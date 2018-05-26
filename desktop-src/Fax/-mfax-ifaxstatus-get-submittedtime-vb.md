@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the SubmittedTime property for the FaxStatus object of a parent FaxPort object. The SubmittedTime property is a number that represents the time the user submitted the active fax job.'
-ms.assetid: '0ee824af-f946-4fbd-9724-9e143a27fc54'
-title: 'FaxStatus.SubmittedTime property'
+---
+Description: Retrieves the SubmittedTime property for the FaxStatus object of a parent FaxPort object. The SubmittedTime property is a number that represents the time the user submitted the active fax job.
+ms.assetid: 0ee824af-f946-4fbd-9724-9e143a27fc54
+title: FaxStatus.SubmittedTime property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxStatus.SubmittedTime property
@@ -53,7 +58,7 @@ You can use the **SubmittedTime** property of a [FaxStatus](-mfax-faxstatus.md) 
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxStatus**](-mfax-ifaxstatus.md)
+[**IFaxStatus**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxstatus?branch=master)
 </dt> <dt>
 
 [**Send**](-mfax-ifaxstatus-get-send-vb.md)
@@ -62,10 +67,10 @@ You can use the **SubmittedTime** property of a [FaxStatus](-mfax-faxstatus.md) 
 [**StartTime**](-mfax-ifaxstatus-get-starttime-vb.md)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> </dl>
 
  

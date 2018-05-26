@@ -1,7 +1,12 @@
 ---
-Description: 'A filter is requesting that the graph be restarted.'
-ms.assetid: '58f17338-dd60-4b77-80d3-b6b6a76af9b2'
-title: 'EC\_NEED\_RESTART'
+Description: A filter is requesting that the graph be restarted.
+ms.assetid: 58f17338-dd60-4b77-80d3-b6b6a76af9b2
+title: EC\_NEED\_RESTART
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_NEED\_RESTART
@@ -54,9 +59,9 @@ If a filter rejects a sample in the middle of a stream, the upstream pin will st
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,25 +1,30 @@
 ---
 title: Performing an Attribute Scope Query
-description: The attribute scope query is a search preference that enables a search of an object's distinguished name valued attributes to be performed.
+description: The attribute scope query is a search preference that enables a search of an objects distinguished name valued attributes to be performed.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '026fbe17-5df7-4007-9d74-5c0abbe793b1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 026fbe17-5df7-4007-9d74-5c0abbe793b1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Performing an Attribute Scope Query ADSI", "ADSI, Searching, IDirectorySearch, Other Search Options, Attribute Scope Query"]
+keywords:
+- Performing an Attribute Scope Query ADSI
+- ADSI, Searching, IDirectorySearch, Other Search Options, Attribute Scope Query
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Performing an Attribute Scope Query
 
 The attribute scope query is a search preference that enables a search of an object's distinguished name valued attributes to be performed. The attribute to search can be either single or multi-valued, but must be of the **ADS\_DN\_STRING** type. When the search is performed, ADSI will enumerate the distinguished name values of the attribute and perform the search on the objects represented by the distinguished names. For example, if an attribute scoped search is performed of the [**member**](https://msdn.microsoft.com/library/ms677097) attribute of a group object, ADSI will enumerate the distinguished names in the **member** attribute and search each of the members of the group for the specified search criteria.
 
-If an attribute scoped query is performed on an attribute that is not of type **ADS\_DN\_STRING**, the search will fail. The attribute scoped query also requires that the **ADS\_SEARCHPREF\_SEARCH\_SCOPE** preference be set to **ADS\_SCOPE\_BASE**. The **ADS\_SEARCHPREF\_SEARCH\_SCOPE** preference will automatically be set to **ADS\_SCOPE\_BASE**, but if the **ADS\_SEARCHPREF\_SEARCH\_SCOPE** preference is set to any other value, [**IDirectorySearch::SetSearchPreference**](idirectorysearch-setsearchpreference.md) will fail with **E\_ADS\_BAD\_PARAMETER**.
+If an attribute scoped query is performed on an attribute that is not of type **ADS\_DN\_STRING**, the search will fail. The attribute scoped query also requires that the **ADS\_SEARCHPREF\_SEARCH\_SCOPE** preference be set to **ADS\_SCOPE\_BASE**. The **ADS\_SEARCHPREF\_SEARCH\_SCOPE** preference will automatically be set to **ADS\_SCOPE\_BASE**, but if the **ADS\_SEARCHPREF\_SEARCH\_SCOPE** preference is set to any other value, [**IDirectorySearch::SetSearchPreference**](/windows/win32/Iads/nf-iads-idirectorysearch-setsearchpreference?branch=master) will fail with **E\_ADS\_BAD\_PARAMETER**.
 
-The results of an attribute-scope query may span multiple servers and a server may not return all the data requested for the all the rows returned. If this occurs, when the last row is retrieved by calling [**IDirectorySearch::GetNextRow**](idirectorysearch-getnextrow.md) or [**IDirectorySearch::GetFirstRow**](idirectorysearch-getfirstrow.md), ADSI will return **S\_ADS\_ERRORSOCCURRED** instead of **S\_ADS\_NOMORE\_ROWS**.
+The results of an attribute-scope query may span multiple servers and a server may not return all the data requested for the all the rows returned. If this occurs, when the last row is retrieved by calling [**IDirectorySearch::GetNextRow**](/windows/win32/Iads/nf-iads-idirectorysearch-getnextrow?branch=master) or [**IDirectorySearch::GetFirstRow**](/windows/win32/Iads/nf-iads-idirectorysearch-getfirstrow?branch=master), ADSI will return **S\_ADS\_ERRORSOCCURRED** instead of **S\_ADS\_NOMORE\_ROWS**.
 
-To specify an attribute scope query, set an **ADS\_SEARCHPREF\_ATTRIBUTE\_QUERY** search option with an **ADSTYPE\_CASE\_IGNORE\_STRING** value set to the lDAPDisplayName of the attribute to search in the [**ADS\_SEARCHPREF\_INFO**](ads-searchpref-info.md) array passed to the [**IDirectorySearch::SetSearchPreference**](idirectorysearch-setsearchpreference.md) method. This operation is shown in the following code example.
+To specify an attribute scope query, set an **ADS\_SEARCHPREF\_ATTRIBUTE\_QUERY** search option with an **ADSTYPE\_CASE\_IGNORE\_STRING** value set to the lDAPDisplayName of the attribute to search in the [**ADS\_SEARCHPREF\_INFO**](/windows/win32/Iads/ns-iads-ads_searchpref_info?branch=master) array passed to the [**IDirectorySearch::SetSearchPreference**](/windows/win32/Iads/nf-iads-idirectorysearch-setsearchpreference?branch=master) method. This operation is shown in the following code example.
 
 
 ```C++
@@ -148,7 +153,7 @@ HRESULT SearchGroupMembers(LPCWSTR pwszGroupDN)
 
 When this search is executed and the results are enumerated, it would return the **name**, **telephone number**, and **office number** of all of the user objects contained in the group's **member** attribute list.
 
-Error handling: The results of an attribute-scope query may span multiple servers and a server may not return all the data requested for the all the rows returned. If this occurs, when the last row is retrieved by calling [**GetNextRow**](idirectorysearch-getnextrow.md) or [**GetFirstRow**](idirectorysearch-getfirstrow.md), ADSI will return **S\_ADS\_ERRORSOCCURRED**, instead of **S\_ADS\_NOMORE\_ROWS**.
+Error handling: The results of an attribute-scope query may span multiple servers and a server may not return all the data requested for the all the rows returned. If this occurs, when the last row is retrieved by calling [**GetNextRow**](/windows/win32/Iads/nf-iads-idirectorysearch-getnextrow?branch=master) or [**GetFirstRow**](/windows/win32/Iads/nf-iads-idirectorysearch-getfirstrow?branch=master), ADSI will return **S\_ADS\_ERRORSOCCURRED**, instead of **S\_ADS\_NOMORE\_ROWS**.
 
  
 

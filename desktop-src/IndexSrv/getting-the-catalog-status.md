@@ -1,7 +1,12 @@
 ---
 title: Getting the Catalog Status
 description: Getting the Catalog Status
-ms.assetid: '9101b46a-dd87-4df1-bec6-cf701a782b65'
+ms.assetid: 9101b46a-dd87-4df1-bec6-cf701a782b65
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting the Catalog Status

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This event type class is used to indicate that events were lost in a real-time session. The following syntax is simplified from MOF code.'
-ms.assetid: '19c747c0-2d9f-49c5-81e4-06a870371bac'
-title: 'RT\_LostEvent class'
+---
+Description: This event type class is used to indicate that events were lost in a real-time session. The following syntax is simplified from MOF code.
+ms.assetid: 19c747c0-2d9f-49c5-81e4-06a870371bac
+title: RT\_LostEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RT\_LostEvent class

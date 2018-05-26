@@ -1,7 +1,12 @@
 ---
 title: How To Design a Hull Shader
 description: This topics shows how to design a hull shader.
-ms.assetid: 'c11c5652-dd7d-433d-bfa2-9853618ba334'
+ms.assetid: c11c5652-dd7d-433d-bfa2-9853618ba334
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To: Design a Hull Shader

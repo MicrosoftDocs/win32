@@ -1,7 +1,12 @@
-﻿---
-Description: 'Validate a technique.'
-ms.assetid: 'd69eaafa-da4d-4599-86fb-83d72e1664cc'
-title: 'ID3DXEffect::ValidateTechnique method'
+---
+Description: Validate a technique.
+ms.assetid: d69eaafa-da4d-4599-86fb-83d72e1664cc
+title: ID3DXEffectValidateTechnique method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::ValidateTechnique method

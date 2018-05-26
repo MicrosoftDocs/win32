@@ -1,14 +1,20 @@
 ---
 title: SLIDER.slide
 description: The slide attribute specifies or retrieves a value indicating whether the foreground image slides over the background image or is gradually revealed in a static position over the background image.
-ms.assetid: 'dc68c2a0-d3fe-4984-9607-12703a27edbd'
-keywords: ["SLIDER.slide Windows Media Player"]
+ms.assetid: dc68c2a0-d3fe-4984-9607-12703a27edbd
+keywords:
+- SLIDER.slide Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.slide
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.slide
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,9 +67,9 @@ When the **thumbImage** slider is moved with the mouse, if **slide** is set to t
 [**SLIDER.foregroundImage**](slider-foregroundimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

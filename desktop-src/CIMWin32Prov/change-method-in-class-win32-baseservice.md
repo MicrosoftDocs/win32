@@ -1,15 +1,18 @@
 ---
-Description: 'Modifies a service object derived from Win32\_BaseService.'
+Description: Modifies a service object derived from Win32\_BaseService.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd5f4f472-e7d9-4664-9430-9c77034a5978'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d5f4f472-e7d9-4664-9430-9c77034a5978
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Change method of the Win32\_BaseService class'
+title: Change method of the Win32\_BaseService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Change method of the Win32\_BaseService class
@@ -23,17 +26,17 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Change(
-  [in] string  DisplayName,
-  [in] string  PathName,
-  [in] uint8   ServiceType,
-  [in] uint8   ErrorControl,
-  [in] string  StartMode,
-  [in] boolean DesktopInteract,
-  [in] string  StartName,
-  [in] string  StartPassword,
-  [in] string  LoadOrderGroup,
-  [in] string  LoadOrderGroupDependencies[],
-  [in] string  ServiceDependencies[]
+  [in] string  DisplayName,
+  [in] string  PathName,
+  [in] uint8   ServiceType,
+  [in] uint8   ErrorControl,
+  [in] string  StartMode,
+  [in] boolean DesktopInteract,
+  [in] string  StartName,
+  [in] string  StartPassword,
+  [in] string  LoadOrderGroup,
+  [in] string  LoadOrderGroupDependencies[],
+  [in] string  ServiceDependencies[]
 );
 ```
 
@@ -260,7 +263,7 @@ Password to the account name that the *StartName* parameter specifies. Specify *
 > [!Note]  
 > When you change a service from local system to network or from network to local system, *StartPassword* must be an empty string ("") and not **NULL**.
 
- 
+ 
 
 </dd> <dt>
 
@@ -519,7 +522,7 @@ The service is currently paused in the system.
 **Other**
 </dt> <dd>
 
-25–4294967295
+25 4294967295
 
 </dd> </dl>
 
@@ -551,8 +554,8 @@ StartPassword = "" // - empty string, not NULL
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>Mbnapi.h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
@@ -570,9 +573,9 @@ StartPassword = "" // - empty string, not NULL
 [**Win32\_BaseService**](win32-baseservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

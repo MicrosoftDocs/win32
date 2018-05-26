@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates when play rights expire.'
-ms.assetid: '11b173bc-545a-4e98-91c8-f97a4108a9e1'
-title: 'System.DRM.DatePlayExpires'
+Description: Indicates when play rights expire.
+ms.assetid: 11b173bc-545a-4e98-91c8-f97a4108a9e1
+title: System.DRM.DatePlayExpires
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DRM.DatePlayExpires

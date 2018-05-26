@@ -1,8 +1,10 @@
 ---
 title: MSFT\_VirtualDiskToVirtualDisk class
 description: Association between a source VirtualDisk and a target VirtualDisk.
-ms.assetid: '6C0F1564-E5C0-42D9-94DA-EFE0B32815B7'
-keywords: ["MSFT_VirtualDiskToVirtualDisk class Windows Storage Management API", "MSFT_VirtualDiskToVirtualDisk class Windows Storage Management API , described"]
+ms.assetid: 6C0F1564-E5C0-42D9-94DA-EFE0B32815B7
+keywords:
+- MSFT_VirtualDiskToVirtualDisk class Windows Storage Management API
+- MSFT_VirtualDiskToVirtualDisk class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_VirtualDiskToVirtualDisk class
@@ -44,19 +51,19 @@ class MSFT_VirtualDiskToVirtualDisk
 {
   MSFT_VirtualDisk REF SourceVirtualDisk;
   MSFT_VirtualDisk REF TargetVirtualDisk;
-  Datetime             SyncTime;
-  Boolean              SyncMaintained;
-  UInt16               CopyState;
-  UInt16               RequestedCopyState;
-  UInt16               SyncType;
-  UInt16               SyncMode;
-  UInt16               ProgressStatus;
-  UInt16               PercentSynced;
-  UInt16               CopyType;
-  UInt16               ReplicaType;
-  UInt16               SyncState;
-  UInt16               CopyPriority;
-  UInt16               CopyMethodology;
+  Datetime             SyncTime;
+  Boolean              SyncMaintained;
+  UInt16               CopyState;
+  UInt16               RequestedCopyState;
+  UInt16               SyncType;
+  UInt16               SyncMode;
+  UInt16               ProgressStatus;
+  UInt16               PercentSynced;
+  UInt16               CopyType;
+  UInt16               ReplicaType;
+  UInt16               SyncState;
+  UInt16               CopyPriority;
+  UInt16               CopyMethodology;
 };
 ```
 
@@ -104,7 +111,7 @@ One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -134,7 +141,7 @@ One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -172,7 +179,7 @@ The replication state of the association. One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -202,7 +209,7 @@ One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -262,7 +269,7 @@ One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -293,7 +300,7 @@ One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -409,7 +416,7 @@ One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -450,7 +457,7 @@ The intended outcome of the replication. One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -476,8 +483,8 @@ The target virtual disk.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -490,9 +497,9 @@ The target virtual disk.
 [**MSFT\_VirtualDisk**](msft-virtualdisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

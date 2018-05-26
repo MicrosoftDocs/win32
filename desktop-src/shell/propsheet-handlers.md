@@ -1,6 +1,11 @@
 ---
-Description: 'When a user right-clicks a Shell object, the shortcut menu that is displayed normally includes a Properties item.'
+Description: When a user right-clicks a Shell object, the shortcut menu that is displayed normally includes a Properties item.
 title: Property Sheet Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Sheet Handlers
@@ -25,11 +30,11 @@ Property sheet handlers are most commonly registered for a [file type](fa-file-t
 
 The other use for property sheet handlers is to replace pages in the property sheets displayed by Control Panel applications. A mouse manufacturer, for instance, can use a property sheet handler to replace the **Buttons** page on the Control Panel's **Mouse Properties** property sheet with a page that is customized for the characteristics of its mouse.
 
-Like all Shell extension handlers, property sheet handlers are in-process Component Object Model (COM) objects implemented as DLLs. They must export two interfaces in addition to [**IUnknown**](com.iunknown): [**IShellExtInit**](ishellextinit.md) and [**IShellPropSheetExt**](ishellpropsheetext.md).
+Like all Shell extension handlers, property sheet handlers are in-process Component Object Model (COM) objects implemented as DLLs. They must export two interfaces in addition to [**IUnknown**](com.iunknown): [**IShellExtInit**](/windows/win32/Shobjidl/nn-shobjidl_core-ishellextinit?branch=master) and [**IShellPropSheetExt**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellpropsheetext?branch=master).
 
-The [**IShellExtInit**](ishellextinit.md) interface is used by the Shell to initialize the handler. When the Shell calls [**IShellExtInit::Initialize**](ishellextinit-initialize.md), it passes in a data object with the object's name, and the pointer to an item identifier list (PIDL) of the folder that contains the file. The *hRegKey* parameter is not used with property sheet handlers. The **IShellExtInit::Initialize** method must extract the file name from the data object, and store the name and the folder's PIDL for later use. For further details, see the *Implementing IShellExtInit* section of [Creating Shell Extension Handlers](handlers.md).
+The [**IShellExtInit**](/windows/win32/Shobjidl/nn-shobjidl_core-ishellextinit?branch=master) interface is used by the Shell to initialize the handler. When the Shell calls [**IShellExtInit::Initialize**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize?branch=master), it passes in a data object with the object's name, and the pointer to an item identifier list (PIDL) of the folder that contains the file. The *hRegKey* parameter is not used with property sheet handlers. The **IShellExtInit::Initialize** method must extract the file name from the data object, and store the name and the folder's PIDL for later use. For further details, see the *Implementing IShellExtInit* section of [Creating Shell Extension Handlers](handlers.md).
 
-The remainder of the operation takes place through the handler's [**IShellPropSheetExt**](ishellpropsheetext.md) interface. If the property sheet is associated with a file type, the Shell calls [**IShellPropSheetExt::AddPages**](ishellpropsheetext-addpages.md) to allow the handler to add a page to the property sheet. If the property sheet is associated with a Control Panel application, the Shell calls [**IShellPropSheetExt::ReplacePage**](ishellpropsheetext-replacepage.md) to allow the handler to replace a page.
+The remainder of the operation takes place through the handler's [**IShellPropSheetExt**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellpropsheetext?branch=master) interface. If the property sheet is associated with a file type, the Shell calls [**IShellPropSheetExt::AddPages**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages?branch=master) to allow the handler to add a page to the property sheet. If the property sheet is associated with a Control Panel application, the Shell calls [**IShellPropSheetExt::ReplacePage**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-replacepage?branch=master) to allow the handler to replace a page.
 
 ## Registering and Implementing a Property Sheet Handler for a Mounted Drive
 
@@ -39,7 +44,7 @@ Each mounted drive has a Properties sheet that can be displayed by the user. The
 
 There are a wide variety of devices that can be mounted as drives. Because the default property sheet, designed for disk drives, might not be sufficient for some devices, a property sheet handler can be implemented to add a page that is specific to the mounted device. The basic implementation of this type of property sheet handler is identical to that discussed in [How to Register and Implement a Property Sheet Handler for a File Type](how-to-register-and-implement-a-property-sheet-handler-for-a-file-type.md), with two exceptions.
 
--   The data object passed to the handler's [**IShellExtInit::Initialize**](ishellextinit-initialize.md) method may contain the drive path in the [CFSTR\_MOUNTEDVOLUME](clipboard.md) format instead of the [CF\_HDROP](clipboard.md) format. The CF\_HDROP format is used when the device is mounted to a drive letter. The CFSTR\_MOUNTEDVOLUME format is used with NTFS file systems when the remote device is mounted to a folder rather than to a drive letter.
+-   The data object passed to the handler's [**IShellExtInit::Initialize**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize?branch=master) method may contain the drive path in the [CFSTR\_MOUNTEDVOLUME](clipboard.md) format instead of the [CF\_HDROP](clipboard.md) format. The CF\_HDROP format is used when the device is mounted to a drive letter. The CFSTR\_MOUNTEDVOLUME format is used with NTFS file systems when the remote device is mounted to a folder rather than to a drive letter.
 -   The handler's GUID is registered under the **HKEY\_CLASSES\_ROOT**\\**Drive**\\**shellex**\\**PropertySheetHandlers** key.
 
 ## Related topics

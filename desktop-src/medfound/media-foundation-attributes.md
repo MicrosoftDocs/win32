@@ -1,7 +1,12 @@
 ---
 Description: Media Foundation Attributes
-ms.assetid: '386ecdb9-dde5-470e-9ae8-d2e0acc065b1'
+ms.assetid: 386ecdb9-dde5-470e-9ae8-d2e0acc065b1
 title: Media Foundation Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Foundation Attributes
@@ -34,7 +39,7 @@ This section lists all of the attribute GUIDs that are defined for Media Foundat
 
 <dl> <dt>
 
-[**IMFAttributes**](imfattributes.md)
+[**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master)
 </dt> <dt>
 
 [Media Foundation Programming Reference](media-foundation-programming-reference.md)

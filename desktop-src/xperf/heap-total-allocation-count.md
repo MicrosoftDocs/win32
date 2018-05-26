@@ -1,7 +1,12 @@
 ---
 title: Heap Total Allocation Count
 description: Heap Total Allocation Count
-ms.assetid: 'cef9006d-6a18-4f37-8c06-f819fe64a3d8'
+ms.assetid: cef9006d-6a18-4f37-8c06-f819fe64a3d8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Heap Total Allocation Count

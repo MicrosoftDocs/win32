@@ -4,13 +4,16 @@ description: Requests the system to re-scan SCSI devices for changes in their co
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '64a18224-81e4-4621-af21-781fae613413'
-ms.prod: 'windows-server-dev'
+ms.assetid: 64a18224-81e4-4621-af21-781fae613413
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ScsiScan method iSCSI Software Target API", "ScsiScan method iSCSI Software Target API , MSISCSITARGET_StorageConfigurationService class", "MSISCSITARGET_StorageConfigurationService class iSCSI Software Target API , ScsiScan method"]
+keywords:
+- ScsiScan method iSCSI Software Target API
+- ScsiScan method iSCSI Software Target API , MSISCSITARGET_StorageConfigurationService class
+- MSISCSITARGET_StorageConfigurationService class iSCSI Software Target API , ScsiScan method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ScsiScan method of the MSISCSITARGET\_StorageConfigurationService class
@@ -32,12 +38,12 @@ This method is inherited from the **CIM\_StorageConfigurationService** class.
 
 ```mof
 uint32 ScsiScan(
-  [in, out] CIM_ConcreteJob Ref          Job,
-  [in]      uint16                       ConnectionType,
-  [in]      string                       OtherConnectionType,
-  [in]      CIM_SCSIProtocolEndpoint Ref Initiators[],
-  [in]      string                       Targets[],
-  [in, out] string                       LogicalUnits[]
+  [in, out] CIM_ConcreteJob Ref          Job,
+  [in]      uint16                       ConnectionType,
+  [in]      string                       OtherConnectionType,
+  [in]      CIM_SCSIProtocolEndpoint Ref Initiators[],
+  [in]      string                       Targets[],
+  [in, out] string                       LogicalUnits[]
 );
 ```
 
@@ -180,7 +186,7 @@ This method returns one of the following values.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Invalid connection type** (4096)
@@ -198,10 +204,10 @@ This method returns one of the following values.
 **Prohibited by name binding configuration** (4100)
 </dt> <dt>
 
-**Method Reserved** (4101–32767)
+**Method Reserved** (4101 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -211,7 +217,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -228,9 +234,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_iSCSIProtocolEndpoint**](msiscsitarget-iscsiprotocolendpoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

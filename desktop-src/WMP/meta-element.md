@@ -1,14 +1,20 @@
 ---
 title: meta Element
 description: The meta element specifies metadata that applies to the entire playlist.
-ms.assetid: '7248e1d9-ebd1-48cb-9019-89a35eac27ae'
-keywords: ["meta Element Windows Media Player"]
+ms.assetid: 7248e1d9-ebd1-48cb-9019-89a35eac27ae
+keywords:
+- meta Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - meta Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # meta Element
@@ -33,7 +39,7 @@ The **meta** element specifies metadata that applies to the entire playlist.
 
 
 
- 
+ 
 
 ## Parent/Child Elements
 
@@ -46,7 +52,7 @@ The **meta** element specifies metadata that applies to the entire playlist.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -92,9 +98,9 @@ The creator of a Windows Media Playlist can set the name attribute of a meta ele
 [**Windows Media Playlist Elements Reference**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

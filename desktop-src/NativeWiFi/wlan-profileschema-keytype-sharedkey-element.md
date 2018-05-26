@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether the shared key will be a network key or a pass phrase.'
-ms.assetid: '2cc909bb-7de6-492b-81ca-ddde93c17f63'
-title: 'keyType (sharedKey) Element'
+---
+Description: Indicates whether the shared key will be a network key or a pass phrase.
+ms.assetid: 2cc909bb-7de6-492b-81ca-ddde93c17f63
+title: keyType (sharedKey) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # keyType (sharedKey) Element

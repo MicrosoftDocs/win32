@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxDeviceProviders configuration collection contains the fax device providers on a connected fax server.'
-ms.assetid: '3abb80d7-fedf-469d-b17a-604ca78f4b8b'
+---
+Description: The FaxDeviceProviders configuration collection contains the fax device providers on a connected fax server.
+ms.assetid: 3abb80d7-fedf-469d-b17a-604ca78f4b8b
 title: FaxDeviceProviders object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceProviders object
@@ -60,7 +65,7 @@ To create a **FaxDeviceProviders** object in C++, call the [**GetDeviceProviders
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md)
+[**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master)
 </dt> </dl>
 
  

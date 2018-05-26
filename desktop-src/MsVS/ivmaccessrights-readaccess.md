@@ -1,8 +1,13 @@
 ---
 title: IVMAccessRights ReadAccess property
 description: The ReadAccess property determines whether this entry controls read access.
-ms.assetid: 'ac9ad224-5056-466e-b3de-3906e4303921'
-keywords: ["ReadAccess property Virtual Server", "ReadAccess property Virtual Server , IVMAccessRights interface", "IVMAccessRights interface Virtual Server , ReadAccess property", "ReadAccess property Virtual Server , VMAccessRights interface", "VMAccessRights interface Virtual Server , ReadAccess property"]
+ms.assetid: ac9ad224-5056-466e-b3de-3906e4303921
+keywords:
+- ReadAccess property Virtual Server
+- ReadAccess property Virtual Server , IVMAccessRights interface
+- IVMAccessRights interface Virtual Server , ReadAccess property
+- ReadAccess property Virtual Server , VMAccessRights interface
+- VMAccessRights interface Virtual Server , ReadAccess property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccessRights::ReadAccess property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ReadAccess(
-  [in]  VARIANT_BOOL readAccess
+  [in]  VARIANT_BOOL readAccess
 );
 
 HRESULT get_ReadAccess(
-  [out] VARIANT_BOOL *readAccess
+  [out] VARIANT_BOOL *readAccess
 );
 ```
 
@@ -105,8 +115,8 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -118,9 +128,9 @@ Next
 [**IVMAccessRights**](ivmaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

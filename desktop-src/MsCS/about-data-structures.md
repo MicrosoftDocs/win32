@@ -4,11 +4,15 @@ description: The Failover Cluster API defines a number of data structures that a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c66a507e-e36a-4471-8995-28169cf06cb3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: c66a507e-e36a-4471-8995-28169cf06cb3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["data Failover Cluster ,structures"]
+keywords:
+- data Failover Cluster ,structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Data Structures
@@ -25,9 +29,9 @@ This architecture is shown in the following diagram.
 
 When "stacked" contiguously in a buffer, data structures allow parsing routines to search for specific data values by reading the **Syntax** member, and advance past blocks of data by using the [**Length**](data-length.md) member.
 
-Note that the **Syntax** and [**Length**](data-length.md) members are actually members of the [**CLUSPROP\_VALUE**](clusprop-value.md) structure. The definition of each data structure in ClusAPI.h includes a **CLUSPROP\_VALUE** structure. Therefore, the actual architecture of a data structure consists of the following:
+Note that the **Syntax** and [**Length**](data-length.md) members are actually members of the [**CLUSPROP\_VALUE**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_value?branch=master) structure. The definition of each data structure in ClusAPI.h includes a **CLUSPROP\_VALUE** structure. Therefore, the actual architecture of a data structure consists of the following:
 
--   A [**CLUSPROP\_VALUE**](clusprop-value.md) member
+-   A [**CLUSPROP\_VALUE**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_value?branch=master) member
 -   A data value member
 
 However, when describing and using data structures, it is more convenient to refer to the **Syntax** and [**Length**](data-length.md) members explicitly as if they were data structure members.

@@ -1,7 +1,12 @@
 ---
-Description: 'The Hyper-V metrics API is used to monitor the health state of applications running in a virtual machine.'
-ms.assetid: '172B0554-8647-4486-9E33-C1F02A646E3B'
-title: 'Hyper-V metrics API'
+Description: The Hyper-V metrics API is used to monitor the health state of applications running in a virtual machine.
+ms.assetid: 172B0554-8647-4486-9E33-C1F02A646E3B
+title: Hyper-V metrics API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hyper-V metrics API
@@ -18,11 +23,11 @@ The Hyper-V metrics API is used to monitor the health state of applications runn
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

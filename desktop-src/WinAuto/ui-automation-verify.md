@@ -1,8 +1,19 @@
 ---
 title: UI Automation Verify
-description: UI Automation Verify (or UIA Verify) is a testing framework for manual and automated testing of a control's or application's implementation of Microsoft UI Automation.
-ms.assetid: 'C66AF411-2746-4695-A893-1552B3ED1066'
-keywords: ["UI Automation Verify", "UIA Verify", "UI Automation implementation,testing", "testing UI Automation", "UIA testing tools", "UI Automation testing tools"]
+description: UI Automation Verify (or UIA Verify) is a testing framework for manual and automated testing of a controls or applications implementation of Microsoft UI Automation.
+ms.assetid: C66AF411-2746-4695-A893-1552B3ED1066
+keywords:
+- UI Automation Verify
+- UIA Verify
+- UI Automation implementation,testing
+- testing UI Automation
+- UIA testing tools
+- UI Automation testing tools
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Verify

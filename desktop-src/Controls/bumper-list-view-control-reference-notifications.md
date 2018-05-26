@@ -1,7 +1,12 @@
 ---
 title: List View Notifications
 description: .
-ms.assetid: '6c5239ac-0599-4db8-9f44-c10fa0855b57'
+ms.assetid: 6c5239ac-0599-4db8-9f44-c10fa0855b57
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List View Notifications

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Page Count Summary property contains the minimum installer version required by the installation package.'
-ms.assetid: 'ee3aaeed-166c-4591-ae3e-642c1204a5ca'
+---
+Description: The Page Count Summary property contains the minimum installer version required by the installation package.
+ms.assetid: ee3aaeed-166c-4591-ae3e-642c1204a5ca
 title: Page Count Summary property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Page Count Summary property

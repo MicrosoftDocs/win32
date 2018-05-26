@@ -1,8 +1,9 @@
 ---
 title: FreePrivateData function
 description: Frees a PrivateData data structure.
-ms.assetid: '94b3618e-224f-4801-94f3-2faa1a298ec0'
-keywords: ["FreePrivateData function NAP"]
+ms.assetid: 94b3618e-224f-4801-94f3-2faa1a298ec0
+keywords:
+- FreePrivateData function NAP
 topic_type:
 - apiref
 api_name:
@@ -11,23 +12,28 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreePrivateData function
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
-The **FreePrivateData** function frees a [**PrivateData**](privatedata-struct.md) data structure.
+The **FreePrivateData** function frees a [**PrivateData**](/windows/win32/NapTypes/ns-naptypes-tagprivatedata?branch=master) data structure.
 
 ## Syntax
 
 
 ```C++
 NAPAPI VOID WINAPI FreePrivateData(
-  _In_ PrivateData *privateData
+  _In_ PrivateData *privateData
 );
 ```
 
@@ -40,7 +46,7 @@ NAPAPI VOID WINAPI FreePrivateData(
 *privateData* \[in\]
 </dt> <dd>
 
-A pointer to the [**PrivateData**](privatedata-struct.md) data structure to free.
+A pointer to the [**PrivateData**](/windows/win32/NapTypes/ns-naptypes-tagprivatedata?branch=master) data structure to free.
 
 </dd> </dl>
 
@@ -60,16 +66,16 @@ All NAP functions for freeing memory also free all embedded pointers.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>NapUtil.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

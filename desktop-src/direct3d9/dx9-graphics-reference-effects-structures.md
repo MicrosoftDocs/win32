@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains information about the structures used by effects.'
-ms.assetid: 'd87e3c3a-0dd0-4472-b023-71de570d69b8'
+Description: This section contains information about the structures used by effects.
+ms.assetid: d87e3c3a-0dd0-4472-b023-71de570d69b8
 title: Effect Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Structures

@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia durationString property
 description: The durationString property gets a string indicating the duration of the current media item in HH MM SS format.
-ms.assetid: 'de33c737-d73e-41f0-9c1b-944279194738'
-keywords: ["durationString property Windows Media Player", "durationString property Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , durationString property"]
+ms.assetid: de33c737-d73e-41f0-9c1b-944279194738
+keywords:
+- durationString property Windows Media Player
+- durationString property Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , durationString property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::durationString property
@@ -131,9 +139,9 @@ End Sub</code></pre></td>
 [**IWMPMedia.duration (VB and C#)**](wmplibiwmpmedia-iwmpmedia-duration--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

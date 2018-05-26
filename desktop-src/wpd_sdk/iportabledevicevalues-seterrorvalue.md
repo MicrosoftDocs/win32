@@ -1,7 +1,12 @@
 ---
-Description: 'The SetErrorValue method adds a new HRESULT value (type VT\_ERROR) or overwrites an existing one.'
-ms.assetid: '87369791-42bd-4523-b15a-acf0ea1e5af8'
-title: 'IPortableDeviceValues::SetErrorValue method'
+Description: The SetErrorValue method adds a new HRESULT value (type VT\_ERROR) or overwrites an existing one.
+ms.assetid: 87369791-42bd-4523-b15a-acf0ea1e5af8
+title: IPortableDeviceValuesSetErrorValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetErrorValue method
@@ -13,8 +18,8 @@ The **SetErrorValue** method adds a new **HRESULT** value (type VT\_ERROR) or ov
 
 ```C++
 HRESULT SetErrorValue(
-  [in]       REFPROPERTYKEY key,
-  [in] const HRESULT        Value
+  [in]       REFPROPERTYKEY key,
+  [in] const HRESULT        Value
 );
 ```
 
@@ -50,7 +55,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +82,9 @@ If an existing value has the same key specified by the *key* parameter, it overw
 [**IPortableDeviceValues::GetErrorValue**](iportabledevicevalues-geterrorvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ActivityLogging property retrieves the FaxActivityLogging configuration object.'
-ms.assetid: '979bcd48-fccc-4b47-9a6b-7d6b697a61a0'
-title: 'FaxLoggingOptions.ActivityLogging property'
+---
+Description: The ActivityLogging property retrieves the FaxActivityLogging configuration object.
+ms.assetid: 979bcd48-fccc-4b47-9a6b-7d6b697a61a0
+title: FaxLoggingOptions.ActivityLogging property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxLoggingOptions.ActivityLogging property
@@ -21,7 +26,7 @@ Property ActivityLogging As IFaxActivityLogging
 
 ## Property value
 
-A variable of type [**IFaxActivityLogging**](-mfax-faxactivitylogging-cpp.md) that receives a [**FaxActivityLogging**](-mfax-faxactivitylogging.md) object.
+A variable of type [**IFaxActivityLogging**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxactivitylogging?branch=master) that receives a [**FaxActivityLogging**](-mfax-faxactivitylogging.md) object.
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A variable of type [**IFaxActivityLogging**](-mfax-faxactivitylogging-cpp.md) th
 [**FaxLoggingOptions**](-mfax-faxloggingoptions.md)
 </dt> <dt>
 
-[**IFaxLoggingOptions**](-mfax-faxloggingoptions-cpp.md)
+[**IFaxLoggingOptions**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxloggingoptions?branch=master)
 </dt> </dl>
 
  

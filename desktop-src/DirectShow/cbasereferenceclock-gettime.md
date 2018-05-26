@@ -1,19 +1,24 @@
 ---
-Description: 'The GetTime method retrieves the current reference time. This method implements the IReferenceClock::GetTime method.'
-ms.assetid: '4e4e5954-b899-4741-8b7c-7bc98a3f0404'
-title: 'CBaseReferenceClock.GetTime method'
+Description: The GetTime method retrieves the current reference time. This method implements the IReferenceClockGetTime method.
+ms.assetid: 4e4e5954-b899-4741-8b7c-7bc98a3f0404
+title: CBaseReferenceClock.GetTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseReferenceClock.GetTime method
 
-The `GetTime` method retrieves the current reference time. This method implements the [**IReferenceClock::GetTime**](ireferenceclock-gettime.md) method.
+The `GetTime` method retrieves the current reference time. This method implements the [**IReferenceClock::GetTime**](/windows/win32/Strmif/nf-strmif-ireferenceclock-gettime?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetTime(
-   REFERENCE_TIME *pTime
+   REFERENCE_TIME *pTime
 );
 ```
 
@@ -44,7 +49,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +73,9 @@ This method calls the [**CBaseReferenceClock::GetPrivateTime**](cbasereferencecl
 [**CBaseReferenceClock Class**](cbasereferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

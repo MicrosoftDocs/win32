@@ -1,7 +1,12 @@
 ---
 title: Using RC (The RC Command Line)
 description: To start RC, use the following command.
-ms.assetid: 'da087e15-ecb5-4d03-b534-be872cf7d8b6'
+ms.assetid: da087e15-ecb5-4d03-b534-be872cf7d8b6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using RC (The RC Command Line)

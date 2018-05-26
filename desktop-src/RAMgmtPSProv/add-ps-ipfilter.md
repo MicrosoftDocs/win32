@@ -2,13 +2,16 @@
 title: Add method of the PS\_IPFilter class
 description: Adds an IP filter to a BGP router interface.
 audience: developer
-ms.assetid: '254f2a89-b576-498f-9869-ae6d65879112'
-ms.prod: 'windows-server-dev'
+ms.assetid: 254f2a89-b576-498f-9869-ae6d65879112
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_IPFilter class", "PS_IPFilter class, Add method"]
+keywords:
+- Add method
+- Add method, PS_IPFilter class
+- PS_IPFilter class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_IPFilter class
@@ -28,13 +34,13 @@ Adds an IP filter to a BGP router interface.
 
 ```mof
 uint32 Add(
-  [in]  string            InterfaceAlias,
-  [in]  uint32            Action,
-  [in]  string            List[],
-  [in]  uint32            Direction,
-  [in]  boolean           PassThru,
-  [in]  uint32            AddressFamily,
-  [out] InterfaceIpFilter cmdletOutput[]
+  [in]  string            InterfaceAlias,
+  [in]  uint32            Action,
+  [in]  string            List[],
+  [in]  uint32            Direction,
+  [in]  boolean           PassThru,
+  [in]  uint32            AddressFamily,
+  [out] InterfaceIpFilter cmdletOutput[]
 );
 ```
 
@@ -142,7 +148,7 @@ The [**InterfaceIpFilter**](interfaceipfilter.md) object that receives the added
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -156,9 +162,9 @@ The [**InterfaceIpFilter**](interfaceipfilter.md) object that receives the added
 [**PS\_IPFilter**](ps-ipfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

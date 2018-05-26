@@ -1,8 +1,26 @@
 ---
 title: Enumerating Synchronization Playlists
 description: Enumerating Synchronization Playlists
-ms.assetid: '830c3ea5-2937-48b5-b89f-ef68a6649ca3'
-keywords: ["Windows Media Player,synchronization playlists", "Windows Media Player object model,synchronization playlists", "object model,synchronization playlists", "Windows Media Player Mobile,synchronization playlists", "Windows Media Player ActiveX control,synchronization playlists", "Windows Media Player Mobile ActiveX control,synchronization playlists", "ActiveX control,synchronization playlists", "playlists,synchronization", "metafile playlists,synchronization", "Windows Media metafile playlists,synchronization", "synchronization playlists,enumerating", "portable devices,enumerating", "enumerations,synchronization playlists"]
+ms.assetid: 830c3ea5-2937-48b5-b89f-ef68a6649ca3
+keywords:
+- Windows Media Player,synchronization playlists
+- Windows Media Player object model,synchronization playlists
+- object model,synchronization playlists
+- Windows Media Player Mobile,synchronization playlists
+- Windows Media Player ActiveX control,synchronization playlists
+- Windows Media Player Mobile ActiveX control,synchronization playlists
+- ActiveX control,synchronization playlists
+- playlists,synchronization
+- metafile playlists,synchronization
+- Windows Media metafile playlists,synchronization
+- synchronization playlists,enumerating
+- portable devices,enumerating
+- enumerations,synchronization playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Synchronization Playlists
@@ -126,10 +144,10 @@ For the implementation of the SortPlaylist function, see [Sorting Playlists by S
 
 <dl> <dt>
 
-[**IWMPMedia::getItemInfo**](iwmpmedia-getiteminfo.md)
+[**IWMPMedia::getItemInfo**](/windows/win32/wmp/nf-wmp-iwmpmedia-getiteminfo?branch=master)
 </dt> <dt>
 
-[**IWMPMediaCollection::getByAttribute**](iwmpmediacollection-getbyattribute.md)
+[**IWMPMediaCollection::getByAttribute**](/windows/win32/wmp/nf-wmp-iwmpmediacollection-getbyattribute?branch=master)
 </dt> <dt>
 
 [**Managing Synchronization Playlists**](managing-synchronization-playlists.md)

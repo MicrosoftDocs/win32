@@ -1,8 +1,9 @@
 ---
 title: gluOrtho2D function
 description: The gluOrtho2D function defines a 2-D orthographic projection matrix.
-ms.assetid: 'ba83fb5c-e5c7-4486-a815-a1aff0469757'
-keywords: ["gluOrtho2D function OpenGL"]
+ms.assetid: ba83fb5c-e5c7-4486-a815-a1aff0469757
+keywords:
+- gluOrtho2D function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluOrtho2D function
@@ -22,10 +28,10 @@ The **gluOrtho2D** function defines a 2-D orthographic projection matrix.
 
 ```C++
 void WINAPI gluOrtho2D(
-   GLdouble left,
-   GLdouble right,
-   GLdouble top,
-   GLdouble bottom
+   GLdouble left,
+   GLdouble right,
+   GLdouble top,
+   GLdouble bottom
 );
 ```
 
@@ -69,7 +75,7 @@ This function does not return a value.
 
 ## Remarks
 
-The **gluOrtho2D** function sets up a two-dimensional orthographic viewing region. This is equivalent to calling [**glOrtho**](glortho.md) with near = –1 and far = 1.
+The **gluOrtho2D** function sets up a two-dimensional orthographic viewing region. This is equivalent to calling [**glOrtho**](glortho.md) with near =  1 and far = 1.
 
 ## Requirements
 
@@ -77,8 +83,8 @@ The **gluOrtho2D** function sets up a two-dimensional orthographic viewing regio
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -95,9 +101,9 @@ The **gluOrtho2D** function sets up a two-dimensional orthographic viewing regio
 [**gluPerspective**](gluperspective.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

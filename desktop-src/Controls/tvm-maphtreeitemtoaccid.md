@@ -1,8 +1,9 @@
 ---
 title: TVM\_MAPHTREEITEMTOACCID message
 description: Maps an HTREEITEM to an accessibility ID.
-ms.assetid: '87ef0785-88c1-49f4-8a05-872577e16fe4'
-keywords: ["TVM_MAPHTREEITEMTOACCID message Windows Controls"]
+ms.assetid: 87ef0785-88c1-49f4-8a05-872577e16fe4
+keywords:
+- TVM_MAPHTREEITEMTOACCID message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_MAPHTREEITEMTOACCID message
@@ -38,7 +44,7 @@ When you add an item to a tree-view control an **HTREEITEM** handle is returned 
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -46,8 +52,8 @@ When you add an item to a tree-view control an **HTREEITEM** handle is returned 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -56,12 +62,12 @@ When you add an item to a tree-view control an **HTREEITEM** handle is returned 
 
 <dl> <dt>
 
-[**TreeView\_MapHTREEITEMtoAccID**](treeview-maphtreeitemtoaccid.md)
+[**TreeView\_MapHTREEITEMtoAccID**](/windows/win32/Commctrl/nf-commctrl-treeview_maphtreeitemtoaccid?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

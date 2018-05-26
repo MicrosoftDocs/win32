@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the virtual LAN (VLAN) setting data.'
-ms.assetid: 'c3a49021-5256-4751-a5a5-81bf1c6d6e6d'
-title: 'Msvm\_EthernetSwitchPortVlanSettingData class'
+Description: Represents the virtual LAN (VLAN) setting data.
+ms.assetid: c3a49021-5256-4751-a5a5-81bf1c6d6e6d
+title: Msvm\_EthernetSwitchPortVlanSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortVlanSettingData class
@@ -295,17 +300,17 @@ Specifies the trunk VLAN identifier bitmap in trunk mode.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

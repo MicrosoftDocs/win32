@@ -4,13 +4,15 @@ description: Models the AD Syntax Octet String.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b61613d2-c203-42fa-8ace-1568ef78364a'
-ms.prod: 'windows-server-dev'
+ms.assetid: b61613d2-c203-42fa-8ace-1568ef78364a
+ms.prod: windows-server-dev
 ms.technology:
-- 'active-directory-domain-services'
-- 'windows-management-instrumentation'
+- active-directory-domain-services
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Uint8Array class", "Uint8Array class, described"]
+keywords:
+- Uint8Array class
+- Uint8Array class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - Dsprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Uint8Array class
@@ -69,17 +74,17 @@ An array of uint8 values for the Octet String.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Namespace<br/>                | Root\\directory\\LDAP<br/>                                                      |
 | MOF<br/>                      | <dl> <dt>DsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dsprov.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

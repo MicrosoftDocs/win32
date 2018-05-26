@@ -1,7 +1,12 @@
 ---
 title: MasterMergeTime
 description: MasterMergeTime
-ms.assetid: '5e8a823f-d059-463f-a22e-a84c0f73d65e'
+ms.assetid: 5e8a823f-d059-463f-a22e-a84c0f73d65e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MasterMergeTime

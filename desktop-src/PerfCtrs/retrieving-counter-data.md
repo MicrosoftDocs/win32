@@ -1,16 +1,21 @@
 ---
-Description: 'Performance objects can define one or more counters.'
-ms.assetid: 'a3a598b2-5623-4472-a814-620c6a003a7e'
+Description: Performance objects can define one or more counters.
+ms.assetid: a3a598b2-5623-4472-a814-620c6a003a7e
 title: Retrieving Counter Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Counter Data
 
-Performance objects can define one or more counters. The counter data for the counters is located in the [**PERF\_COUNTER\_BLOCK**](perf-counter-block-str.md) memory block. The location of the counter block within the object block depends on whether the object contains single instance counters or multiple instance counters. For details, see [Performance Data Format](performance-data-format.md).
+Performance objects can define one or more counters. The counter data for the counters is located in the [**PERF\_COUNTER\_BLOCK**](/windows/win32/Winperf/ns-winperf-_perf_counter_block?branch=master) memory block. The location of the counter block within the object block depends on whether the object contains single instance counters or multiple instance counters. For details, see [Performance Data Format](performance-data-format.md).
 
-You use the **CounterOffset** and **CounterSize** members of [**PERF\_COUNTER\_DEFINITION**](perf-counter-definition-str.md) to access the counter's data within the counter block. Currently, counter data is limited to **DWORD** and **ULONGLONG** data types (these are the only types that the Performance tool supports).
+You use the **CounterOffset** and **CounterSize** members of [**PERF\_COUNTER\_DEFINITION**](/windows/win32/Winperf/ns-winperf-_perf_counter_definition?branch=master) to access the counter's data within the counter block. Currently, counter data is limited to **DWORD** and **ULONGLONG** data types (these are the only types that the Performance tool supports).
 
-The **CounterType** member of [**PERF\_COUNTER\_DEFINITION**](perf-counter-definition-str.md) tells you what other information you need from the performance object in order to use the counter data. For some counters, you can use the counter data directly, but for others, you may need time base information or data from another counter in order to calculate a displayable value.
+The **CounterType** member of [**PERF\_COUNTER\_DEFINITION**](/windows/win32/Winperf/ns-winperf-_perf_counter_definition?branch=master) tells you what other information you need from the performance object in order to use the counter data. For some counters, you can use the counter data directly, but for others, you may need time base information or data from another counter in order to calculate a displayable value.
 
 The following example shows how to use the counter type to determine the information you need to retrieve from the performance data for a counter in order to calculate a displayable counter value. For an example that calculates a displayable value based on the counter type, see [Calculating Counter Values](calculating-counter-values.md).
 

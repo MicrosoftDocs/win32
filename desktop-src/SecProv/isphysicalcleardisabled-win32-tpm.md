@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IsPhysicalClearDisabled method of the Win32\_Tpm class indicates whether only the device owner may be able to clear the device.'
-ms.assetid: 'b87f1c4f-8735-45c5-9256-53dbb9579f95'
-title: 'IsPhysicalClearDisabled method of the Win32\_Tpm class'
+---
+Description: The IsPhysicalClearDisabled method of the Win32\_Tpm class indicates whether only the device owner may be able to clear the device.
+ms.assetid: b87f1c4f-8735-45c5-9256-53dbb9579f95
+title: IsPhysicalClearDisabled method of the Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsPhysicalClearDisabled method of the Win32\_Tpm class

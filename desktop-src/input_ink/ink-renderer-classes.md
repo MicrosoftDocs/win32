@@ -1,7 +1,12 @@
-﻿---
-Description: 'The topics contained in this section provide the reference specifications for Ink renderer classes.'
-ms.assetid: '5F093A11-C553-4779-B07D-374DA0FBC383'
+---
+Description: The topics contained in this section provide the reference specifications for Ink renderer classes.
+ms.assetid: 5F093A11-C553-4779-B07D-374DA0FBC383
 title: Ink renderer classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink renderer classes
@@ -14,7 +19,7 @@ The topics contained in this section provide the reference specifications for [I
 
 | Topic                                               | Description                                                                     |
 |-----------------------------------------------------|---------------------------------------------------------------------------------|
-| [**InkD2DRenderer**](inkd2drenderer.md)<br/> | Implements the [**IInkD2DRenderer**](iinkd2drenderer.md) interface.<br/> |
+| [**InkD2DRenderer**](/windows/win32/inkrenderer/?branch=master)<br/> | Implements the [**IInkD2DRenderer**](/windows/win32/inkrenderer/nn-inkrenderer-iinkd2drenderer?branch=master) interface.<br/> |
 
 
 

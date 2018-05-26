@@ -4,13 +4,16 @@ description: Migrates a virtual system to target system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3e940c37-8626-4c65-83d2-69311ac516ab'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3e940c37-8626-4c65-83d2-69311ac516ab
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MigrateVirtualSystemToSystem method", "MigrateVirtualSystemToSystem method, Msvm_VirtualSystemMigrationService class", "Msvm_VirtualSystemMigrationService class, MigrateVirtualSystemToSystem method"]
+keywords:
+- MigrateVirtualSystemToSystem method
+- MigrateVirtualSystemToSystem method, Msvm_VirtualSystemMigrationService class
+- Msvm_VirtualSystemMigrationService class, MigrateVirtualSystemToSystem method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MigrateVirtualSystemToSystem method of the Msvm\_VirtualSystemMigrationService class
@@ -30,13 +36,13 @@ Migrates a virtual system to target system.
 
 ```mof
 uint32 MigrateVirtualSystemToSystem(
-  [in]      CIM_ComputerSystem REF ComputerSystem,
-  [in]      CIM_System         REF DestinationSystem,
-  [in]      string                 MigrationSettingData,
-  [in]      string                 NewSystemSettingData,
-  [in]      string                 NewResourceSettingData[],
-  [in, out] CIM_ComputerSystem REF NewComputerSystem,
-  [in, out] CIM_ConcreteJob    REF Job
+  [in]      CIM_ComputerSystem REF ComputerSystem,
+  [in]      CIM_System         REF DestinationSystem,
+  [in]      string                 MigrationSettingData,
+  [in]      string                 NewSystemSettingData,
+  [in]      string                 NewResourceSettingData[],
+  [in, out] CIM_ComputerSystem REF NewComputerSystem,
+  [in, out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -167,7 +173,7 @@ Incompatible Parameters
 
 </dt> <dd>
 
-7–4095
+7 4095
 
 DMTF Reserved
 
@@ -185,7 +191,7 @@ Method Parameters Checked - Job Started
 
 </dt> <dd>
 
-4097–32767
+4097 32767
 
 Method Reserved
 
@@ -194,7 +200,7 @@ Method Reserved
 
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 Vendor Specific
 
@@ -207,7 +213,7 @@ Vendor Specific
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -221,9 +227,9 @@ Vendor Specific
 [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

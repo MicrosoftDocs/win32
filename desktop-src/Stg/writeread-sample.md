@@ -1,8 +1,14 @@
 ---
 title: WriteRead Sample
 description: The WriteRead.cpp creates a property set, writes a property, closes and reopens the property set, and reads back the property.
-ms.assetid: 'c5807dd9-2928-497b-9446-729dcaeebc8a'
-keywords: ["Structured Storage Strctd Stg , samples, WriteRead"]
+ms.assetid: c5807dd9-2928-497b-9446-729dcaeebc8a
+keywords:
+- Structured Storage Strctd Stg , samples, WriteRead
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WriteRead Sample

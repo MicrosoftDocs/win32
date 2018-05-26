@@ -4,11 +4,14 @@ description: Creates a new MSFT\_FSRMFMJAction instance.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd09b47d0-8a55-48ef-ac8c-35593a6cd9bd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: d09b47d0-8a55-48ef-ac8c-35593a6cd9bd
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["CreateFMJAction method File Server Resource Manager", "CreateFMJAction method File Server Resource Manager , MSFT_FSRMFMJAction class", "MSFT_FSRMFMJAction class File Server Resource Manager , CreateFMJAction method"]
+keywords:
+- CreateFMJAction method File Server Resource Manager
+- CreateFMJAction method File Server Resource Manager , MSFT_FSRMFMJAction class
+- MSFT_FSRMFMJAction class File Server Resource Manager , CreateFMJAction method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateFMJAction method of the MSFT\_FSRMFMJAction class
@@ -28,18 +34,18 @@ Creates a new [**MSFT\_FSRMFMJAction**](msft-fsrmfmjaction.md) instance.
 
 ```mof
 uint64 CreateFMJAction(
-  [in]  uint32             Type,
-  [in]  string             ExpirationFolder,
-  [in]  boolean            RMSFolderOwner,
-  [in]  string             RMSFullControlUser[],
-  [in]  string             RMSReadUser[],
-  [in]  string             RMSWriteUser[],
-  [in]  string             RMSTemplate,
-  [in]  string             Command,
-  [in]  string             WorkingDirectory,
-  [in]  string             CommandParameters,
-  [in]  uint32             SecurityLevel = LocalService,
-  [out] MSFT_FSRMFMJAction Action
+  [in]  uint32             Type,
+  [in]  string             ExpirationFolder,
+  [in]  boolean            RMSFolderOwner,
+  [in]  string             RMSFullControlUser[],
+  [in]  string             RMSReadUser[],
+  [in]  string             RMSWriteUser[],
+  [in]  string             RMSTemplate,
+  [in]  string             Command,
+  [in]  string             WorkingDirectory,
+  [in]  string             CommandParameters,
+  [in]  uint32             SecurityLevel = LocalService,
+  [out] MSFT_FSRMFMJAction Action
 );
 ```
 
@@ -237,7 +243,7 @@ On output contains a new instance of the [**MSFT\_FSRMFMJAction**](msft-fsrmfmja
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -251,9 +257,9 @@ On output contains a new instance of the [**MSFT\_FSRMFMJAction**](msft-fsrmfmja
 [**MSFT\_FSRMFMJAction**](msft-fsrmfmjaction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,26 @@
 ---
 title: Location and Selected Item
 description: Location and Selected Item
-ms.assetid: '9556e01f-1f75-4089-9e62-b41a9aa53e93'
-keywords: ["Windows Media Player online stores,locations", "online stores,locations", "type 1 online stores,locations", "Windows Media Player online stores,library locations", "online stores,library locations", "type 1 online stores,library locations", "Windows Media Player online stores,selected items", "online stores,selected items", "type 1 online stores,selected items", "Windows Media Player library,locations", "Windows Media Player library,selected items", "library,locations", "library,selected items"]
+ms.assetid: 9556e01f-1f75-4089-9e62-b41a9aa53e93
+keywords:
+- Windows Media Player online stores,locations
+- online stores,locations
+- type 1 online stores,locations
+- Windows Media Player online stores,library locations
+- online stores,library locations
+- type 1 online stores,library locations
+- Windows Media Player online stores,selected items
+- online stores,selected items
+- type 1 online stores,selected items
+- Windows Media Player library,locations
+- Windows Media Player library,selected items
+- library,locations
+- library,selected items
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Location and Selected Item

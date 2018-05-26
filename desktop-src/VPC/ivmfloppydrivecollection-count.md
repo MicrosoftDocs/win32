@@ -1,8 +1,11 @@
 ---
 title: IVMFloppyDriveCollection Count property
 description: Number of floppy drives in this collection.
-ms.assetid: 'd430e5ae-9782-4f88-a5a4-744e79545c7a'
-keywords: ["Count property Virtual PC", "Count property Virtual PC , IVMFloppyDriveCollection interface", "IVMFloppyDriveCollection interface Virtual PC , Count property"]
+ms.assetid: d430e5ae-9782-4f88-a5a4-744e79545c7a
+keywords:
+- Count property Virtual PC
+- Count property Virtual PC , IVMFloppyDriveCollection interface
+- IVMFloppyDriveCollection interface Virtual PC , Count property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDriveCollection::Count property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the number of floppy drives in this collection.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Count(
-  [out, retval] long *count
+  [out, retval] long *count
 );
 ```
 
@@ -56,9 +64,9 @@ The number of floppy media drives.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMFloppyDriveCollection is defined as 8ba70a25-f698-4ee5-85ce-3cc93a925516<br/>   |
@@ -72,9 +80,9 @@ The number of floppy media drives.
 [**IVMFloppyDriveCollection**](ivmfloppydrivecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

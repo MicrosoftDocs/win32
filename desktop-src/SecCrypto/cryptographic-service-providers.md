@@ -1,7 +1,12 @@
 ---
-Description: 'Important  This API is deprecated.'
-ms.assetid: '4e6eb2df-a917-4533-b9f1-8da39598d0b8'
+Description: Important  This API is deprecated.
+ms.assetid: 4e6eb2df-a917-4533-b9f1-8da39598d0b8
 title: Cryptographic Service Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cryptographic Service Providers

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UseForInboundRouting property sets or retrieves whether to use the FaxReceiptOptions settings for the Microsoft Routing Extension, which allows incoming faxes to be routed to email addresses.'
-ms.assetid: '8491a5c0-c46e-43a9-ab87-44b5ff03f83e'
-title: 'FaxReceiptOptions.UseForInboundRouting property'
+---
+Description: The UseForInboundRouting property sets or retrieves whether to use the FaxReceiptOptions settings for the Microsoft Routing Extension, which allows incoming faxes to be routed to email addresses.
+ms.assetid: 8491a5c0-c46e-43a9-ab87-44b5ff03f83e
+title: FaxReceiptOptions.UseForInboundRouting property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxReceiptOptions.UseForInboundRouting property
@@ -27,7 +32,7 @@ A **Boolean** that specifies or receives whether to use the [**FaxReceiptOptions
 
 If the settings are not used (property is set to **False**), then the Microsoft Routing Extension is disabled, and users will not be able to receive faxes to email addresses. If the settings are used (property is set to **True**), then the Microsoft Routing Extension is enabled, and users will be able to receive faxes to email addresses.
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -49,7 +54,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxReceiptOptions**](-mfax-faxreceiptoptions.md)
 </dt> <dt>
 
-[**IFaxReceiptOptions**](-mfax-faxreceiptoptions-cpp.md)
+[**IFaxReceiptOptions**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxreceiptoptions?branch=master)
 </dt> <dt>
 
 [Setting Receipt Options](-mfax-setting-receipt-options.md)

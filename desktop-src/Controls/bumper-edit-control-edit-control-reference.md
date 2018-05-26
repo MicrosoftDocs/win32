@@ -1,7 +1,12 @@
 ---
 title: Edit Control Reference
 description: .
-ms.assetid: '80e362e7-df31-4a87-ac4d-80d24bd95db0'
+ms.assetid: 80e362e7-df31-4a87-ac4d-80d24bd95db0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Edit Control Reference

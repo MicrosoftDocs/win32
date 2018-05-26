@@ -4,11 +4,16 @@ description: Implementing control code support in a resource DLL using the Failo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'acc7cbdd-7b4b-45d4-b1b6-5b566ef0d34c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: acc7cbdd-7b4b-45d4-b1b6-5b566ef0d34c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["control codes Failover Cluster ,supporting in a resource DLL", "resource DLLs Failover Cluster ,supporting control codes"]
+keywords:
+- control codes Failover Cluster ,supporting in a resource DLL
+- resource DLLs Failover Cluster ,supporting control codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Supporting Control Codes

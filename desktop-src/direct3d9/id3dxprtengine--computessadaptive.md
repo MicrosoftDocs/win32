@@ -1,7 +1,12 @@
-﻿---
-Description: 'Computes a transfer vector that maps source radiance to exit radiance resulting from subsurface scattering, using adaptive sampling and material properties set by ID3DXPRTEngine::SetMeshMaterials.'
-ms.assetid: '34e42271-703b-4b67-8153-2eca3f8dde92'
-title: 'ID3DXPRTEngine::ComputeSSAdaptive method'
+---
+Description: Computes a transfer vector that maps source radiance to exit radiance resulting from subsurface scattering, using adaptive sampling and material properties set by ID3DXPRTEngineSetMeshMaterials.
+ms.assetid: 34e42271-703b-4b67-8153-2eca3f8dde92
+title: ID3DXPRTEngineComputeSSAdaptive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTEngine::ComputeSSAdaptive method

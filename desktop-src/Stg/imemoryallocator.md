@@ -1,8 +1,10 @@
 ---
 title: IMemoryAllocator class
 description: Implemented by the memory allocator for the StgConvertPropertyToVariant function.
-ms.assetid: 'a0735b62-5ed3-42df-a320-b58c742645a8'
-keywords: ["IMemoryAllocator class Structured Storage", "IMemoryAllocator class Structured Storage , described"]
+ms.assetid: a0735b62-5ed3-42df-a320-b58c742645a8
+keywords:
+- IMemoryAllocator class Structured Storage
+- IMemoryAllocator class Structured Storage , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - Ole32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMemoryAllocator class
@@ -29,7 +36,7 @@ The **IMemoryAllocator** class is implemented by the memory allocator for the [*
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -41,15 +48,15 @@ This class is only used by the [**StgConvertPropertyToVariant**](https://msdn.mi
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Library<br/>                  | <dl> <dt>Ole32.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

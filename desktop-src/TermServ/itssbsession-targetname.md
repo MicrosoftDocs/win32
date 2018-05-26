@@ -4,11 +4,14 @@ description: Retrieves the name of the target on which this session was created.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5ab4cdd6-9f5f-4253-9b80-6cc35cff8b79'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 5ab4cdd6-9f5f-4253-9b80-6cc35cff8b79
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["TargetName property Remote Desktop Services", "TargetName property Remote Desktop Services , ITsSbSession interface", "ITsSbSession interface Remote Desktop Services , TargetName property"]
+keywords:
+- TargetName property Remote Desktop Services
+- TargetName property Remote Desktop Services , ITsSbSession interface
+- ITsSbSession interface Remote Desktop Services , TargetName property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbSession::TargetName property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_TargetName(
-  [out, retval] BSTR *targetName
+  [out, retval] BSTR *targetName
 );
 ```
 
@@ -48,7 +54,7 @@ A pointer to a **BSTR** variable that receives the name of the target on which t
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
 | IDL<br/>                      | <dl> <dt>Sbtsv.idl</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ A pointer to a **BSTR** variable that receives the name of the target on which t
 
 <dl> <dt>
 
-[**ITsSbSession**](itssbsession.md)
+[**ITsSbSession**](/windows/win32/sbtsv/nn-sbtsv-itssbsession?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

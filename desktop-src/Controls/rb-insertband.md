@@ -1,8 +1,9 @@
 ---
 title: RB\_INSERTBAND message
 description: Inserts a new band in a rebar control.
-ms.assetid: 'ac621f65-b8ab-41d6-928d-a48fbea572e7'
-keywords: ["RB_INSERTBAND message Windows Controls"]
+ms.assetid: ac621f65-b8ab-41d6-928d-a48fbea572e7
+keywords:
+- RB_INSERTBAND message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_INSERTBAND message
@@ -33,7 +39,7 @@ Zero-based index of the location where the band will be inserted. If you set thi
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**REBARBANDINFO**](rebarbandinfo.md) structure that defines the band to be inserted. You must set the **cbSize** member of this structure to **sizeof**(REBARBANDINFO) before sending this message.
+Pointer to a [**REBARBANDINFO**](/windows/win32/Commctrl/ns-commctrl-tagrebarbandinfoa?branch=master) structure that defines the band to be inserted. You must set the **cbSize** member of this structure to **sizeof**(REBARBANDINFO) before sending this message.
 
 </dd> </dl>
 
@@ -47,16 +53,16 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **RB\_INSERTBANDW** (Unicode) and **RB\_INSERTBANDA** (ANSI)<br/>               |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

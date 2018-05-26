@@ -4,11 +4,14 @@ description: Specifies the remote desktop protocol used between the client and t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'DD607D54-CAEA-43EE-94EB-F983AEA0CC1E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: DD607D54-CAEA-43EE-94EB-F983AEA0CC1E
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ClientProtocolSpec property Remote Desktop Services", "ClientProtocolSpec property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , ClientProtocolSpec property"]
+keywords:
+- ClientProtocolSpec property Remote Desktop Services
+- ClientProtocolSpec property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , ClientProtocolSpec property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings8::ClientProtocolSpec property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ClientProtocolSpec(
-  [in]  ClientSpec ClientMode
+  [in]  ClientSpec ClientMode
 );
 
 HRESULT get_ClientProtocolSpec(
-  [out] ClientSpec *pClientMode
+  [out] ClientSpec *pClientMode
 );
 ```
 
@@ -52,8 +58,8 @@ A value of the [**ClientSpec**](clientspec.md) enumeration that specifies the re
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
@@ -69,9 +75,9 @@ A value of the [**ClientSpec**](clientspec.md) enumeration that specifies the re
 [**IMsRdpClientAdvancedSettings8**](imsrdpclientadvancedsettings8.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

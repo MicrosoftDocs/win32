@@ -1,8 +1,11 @@
 ---
-title: \_PORT\_CONFIGURATION\_INFORMATION structure
+title: '\_PORT\_CONFIGURATION\_INFORMATION structure'
 description: The PORT\_CONFIGURATION\_INFORMATION contains configuration information for a host bus adapter (HBA).
-ms.assetid: 'ef710755-4437-4b17-b0ab-259a94d87545'
-keywords: ["_PORT_CONFIGURATION_INFORMATION structure Storage Devices", "PORT_CONFIGURATION_INFORMATION structure Storage Devices", "PPORT_CONFIGURATION_INFORMATION structure pointer Storage Devices"]
+ms.assetid: ef710755-4437-4b17-b0ab-259a94d87545
+keywords:
+- _PORT_CONFIGURATION_INFORMATION structure Storage Devices
+- PORT_CONFIGURATION_INFORMATION structure Storage Devices
+- PPORT_CONFIGURATION_INFORMATION structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Storport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_PORT\_CONFIGURATION\_INFORMATION structure
@@ -22,82 +30,82 @@ The **PORT\_CONFIGURATION\_INFORMATION** contains configuration information for 
 
 ```C++
 typedef struct _PORT_CONFIGURATION_INFORMATION {
-  ULONG                                  Length;
-  ULONG                                  SystemIoBusNumber;
-  INTERFACE_TYPE                         AdapterInterfaceType;
-  ULONG                                  BusInterruptLevel;
-  ULONG                                  BusInterruptVector;
-  KINTERRUPT_MODE                        InterruptMode;
-  ULONG                                  MaximumTransferLength;
-  ULONG                                  NumberOfPhysicalBreaks;
-  ULONG                                  DmaChannel;
-  ULONG                                  DmaPort;
-  DMA_WIDTH                              DmaWidth;
-  DMA_SPEED                              DmaSpeed;
-  ULONG                                  AlignmentMask;
-  ULONG                                  NumberOfAccessRanges;
-  ACCESS_RANGE                           (*AccessRanges)[];
+  ULONG                                  Length;
+  ULONG                                  SystemIoBusNumber;
+  INTERFACE_TYPE                         AdapterInterfaceType;
+  ULONG                                  BusInterruptLevel;
+  ULONG                                  BusInterruptVector;
+  KINTERRUPT_MODE                        InterruptMode;
+  ULONG                                  MaximumTransferLength;
+  ULONG                                  NumberOfPhysicalBreaks;
+  ULONG                                  DmaChannel;
+  ULONG                                  DmaPort;
+  DMA_WIDTH                              DmaWidth;
+  DMA_SPEED                              DmaSpeed;
+  ULONG                                  AlignmentMask;
+  ULONG                                  NumberOfAccessRanges;
+  ACCESS_RANGE                           (*AccessRanges)[];
 #if (NTDDI_VERSION >= NTDDI_WIN8)
-  PVOID                                  MiniportDumpData;
+  PVOID                                  MiniportDumpData;
 #else 
-  PVOID                                  Reserved;
+  PVOID                                  Reserved;
 #endif 
-  UCHAR                                  NumberOfBuses;
-  UCHAR                                  InitiatorBusId[8];
-  BOOLEAN                                ScatterGather;
-  BOOLEAN                                Master;
-  BOOLEAN                                CachesData;
-  BOOLEAN                                AdapterScansDown;
-  BOOLEAN                                AtdiskPrimaryClaimed;
-  BOOLEAN                                AtdiskSecondaryClaimed;
-  BOOLEAN                                Dma32BitAddresses;
-  BOOLEAN                                DemandMode;
-  UCHAR                                  MapBuffers;
-  BOOLEAN                                NeedPhysicalAddresses;
-  BOOLEAN                                TaggedQueuing;
-  BOOLEAN                                AutoRequestSense;
-  BOOLEAN                                MultipleRequestPerLu;
-  BOOLEAN                                ReceiveEvent;
-  BOOLEAN                                RealModeInitialized;
-  BOOLEAN                                BufferAccessScsiPortControlled;
-  UCHAR                                  MaximumNumberOfTargets;
+  UCHAR                                  NumberOfBuses;
+  UCHAR                                  InitiatorBusId[8];
+  BOOLEAN                                ScatterGather;
+  BOOLEAN                                Master;
+  BOOLEAN                                CachesData;
+  BOOLEAN                                AdapterScansDown;
+  BOOLEAN                                AtdiskPrimaryClaimed;
+  BOOLEAN                                AtdiskSecondaryClaimed;
+  BOOLEAN                                Dma32BitAddresses;
+  BOOLEAN                                DemandMode;
+  UCHAR                                  MapBuffers;
+  BOOLEAN                                NeedPhysicalAddresses;
+  BOOLEAN                                TaggedQueuing;
+  BOOLEAN                                AutoRequestSense;
+  BOOLEAN                                MultipleRequestPerLu;
+  BOOLEAN                                ReceiveEvent;
+  BOOLEAN                                RealModeInitialized;
+  BOOLEAN                                BufferAccessScsiPortControlled;
+  UCHAR                                  MaximumNumberOfTargets;
 #if (NTDDI_VERSION >= NTDDI_WIN8)
-  UCHAR                                  SrbType;
-  UCHAR                                  AddressType;
+  UCHAR                                  SrbType;
+  UCHAR                                  AddressType;
 #else 
-  UCHAR                                  ReservedUchars[2];
+  UCHAR                                  ReservedUchars[2];
 #endif 
-  ULONG                                  SlotNumber;
-  ULONG                                  BusInterruptLevel2;
-  ULONG                                  BusInterruptVector2;
-  KINTERRUPT_MODE                        InterruptMode2;
-  ULONG                                  DmaChannel2;
-  ULONG                                  DmaPort2;
-  DMA_WIDTH                              DmaWidth2;
-  DMA_SPEED                              DmaSpeed2;
-  ULONG                                  DeviceExtensionSize;
-  ULONG                                  SpecificLuExtensionSize;
-  ULONG                                  SrbExtensionSize;
-  UCHAR                                  Dma64BitAddresses;
-  BOOLEAN                                ResetTargetSupported;
-  UCHAR                                  MaximumNumberOfLogicalUnits;
-  BOOLEAN                                WmiDataProvider;
-  STOR_SYNCHRONIZATION_MODEL             SynchronizationModel;
+  ULONG                                  SlotNumber;
+  ULONG                                  BusInterruptLevel2;
+  ULONG                                  BusInterruptVector2;
+  KINTERRUPT_MODE                        InterruptMode2;
+  ULONG                                  DmaChannel2;
+  ULONG                                  DmaPort2;
+  DMA_WIDTH                              DmaWidth2;
+  DMA_SPEED                              DmaSpeed2;
+  ULONG                                  DeviceExtensionSize;
+  ULONG                                  SpecificLuExtensionSize;
+  ULONG                                  SrbExtensionSize;
+  UCHAR                                  Dma64BitAddresses;
+  BOOLEAN                                ResetTargetSupported;
+  UCHAR                                  MaximumNumberOfLogicalUnits;
+  BOOLEAN                                WmiDataProvider;
+  STOR_SYNCHRONIZATION_MODEL             SynchronizationModel;
   PHW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE HwMSInterruptRoutine;
-  INTERRUPT_SYNCHRONIZATION_MODE         InterruptSynchronizationMode;
-  MEMORY_REGION                          DumpRegion;
-  ULONG                                  RequestedDumpBufferSize;
-  BOOLEAN                                VirtualDevice;
+  INTERRUPT_SYNCHRONIZATION_MODE         InterruptSynchronizationMode;
+  MEMORY_REGION                          DumpRegion;
+  ULONG                                  RequestedDumpBufferSize;
+  BOOLEAN                                VirtualDevice;
 #if (NTDDI_VERSION >= NTDDI_WIN8)
-  UCHAR                                  DumpMode;
+  UCHAR                                  DumpMode;
 #endif 
-  ULONG                                  ExtendedFlags1;
-  ULONG                                  MaxNumberOfIO;
+  ULONG                                  ExtendedFlags1;
+  ULONG                                  MaxNumberOfIO;
 #if (NTDDI_VERSION >= NTDDI_WIN8)
-  ULONG                                  MaxIOsPerLun;
-  ULONG                                  InitialLunQueueDepth;
-  ULONG                                  BusResetHoldTime;
-  ULONG                                  FeatureSupport;
+  ULONG                                  MaxIOsPerLun;
+  ULONG                                  InitialLunQueueDepth;
+  ULONG                                  BusResetHoldTime;
+  ULONG                                  FeatureSupport;
 #endif 
 } PORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION;
 ```
@@ -146,7 +154,7 @@ Specifies the bus-relative vector returned by the HBA. The Storport driver makes
 **InterruptMode**
 </dt> <dd>
 
-Specifies whether the HBA uses **LevelSensitive** or **Latched** (sometimes called "edge-triggered") interrupts. The Storport driver initializes this member to an appropriate value for the bus and the device—for example, **LevelSensitive** for **PCIBus**. The Storport driver initializes this member and miniport drivers must not modify it.
+Specifies whether the HBA uses **LevelSensitive** or **Latched** (sometimes called "edge-triggered") interrupts. The Storport driver initializes this member to an appropriate value for the bus and the device for example, **LevelSensitive** for **PCIBus**. The Storport driver initializes this member and miniport drivers must not modify it.
 
 </dd> <dt>
 
@@ -278,7 +286,7 @@ Indicates the initiator bus ID. If the input **InitiatorBusId**\[0\] has the val
 
 Indicates, when **TRUE**, that the HBA supports scatter/gather. The Storport driver initializes this member to **TRUE**, because its miniport drivers must support scatter/gather. Miniport drivers that work with the Storport driver must *not* modify this value.
 
-Starting in Windows Server 2008 R2 and Windows 7, the Storport driver initializes this member to **TRUE**. In prior versions of Windows, however, the value is set to **FALSE**. In this case, miniport drivers must set this member to **TRUE**. Otherwise, not setting this member to **TRUE** will cause the HBA device to fail to start.
+Starting in Windows Server 2008 R2 and Windows 7, the Storport driver initializes this member to **TRUE**. In prior versions of Windows, however, the value is set to **FALSE**. In this case, miniport drivers must set this member to **TRUE**. Otherwise, not setting this member to **TRUE** will cause the HBA device to fail to start.
 
 </dd> <dt>
 
@@ -287,7 +295,7 @@ Starting in Windows Server 2008 R2 and Windows 7, the Storport driver initialize
 
 Indicates, when **TRUE**, that the HBA is a bus master. The Storport driver initializes this member to **TRUE**, because its miniport drivers must support bus-mastering DMA. Miniport drivers that work with the Storport driver must *not* modify this value.
 
-Starting in Windows Server 2008 R2 and Windows 7, the Storport driver initializes this member to **TRUE**. In prior versions of Windows, however, the value is set to **FALSE**. In this case, miniport drivers must set this member to **TRUE**. Otherwise, not setting this member to **TRUE** will cause the HBA device to fail to start.
+Starting in Windows Server 2008 R2 and Windows 7, the Storport driver initializes this member to **TRUE**. In prior versions of Windows, however, the value is set to **FALSE**. In this case, miniport drivers must set this member to **TRUE**. Otherwise, not setting this member to **TRUE** will cause the HBA device to fail to start.
 
 </dd> <dt>
 
@@ -327,7 +335,7 @@ Indicates, when **TRUE**, that the HBA has 32 address lines and can access memor
 > [!Note]  
 > If only 32 bit addresses are supported by the device hardware, then **Dma64BitAddresses** must be set to 0.
 
- 
+ 
 
 </dd> <dt>
 
@@ -350,11 +358,11 @@ Indicates whether the Storport driver maps SRB data buffer addresses to system v
 | <span id="STOR_MAP_NO_BUFFERS"></span><span id="stor_map_no_buffers"></span><dl> <dt>**STOR\_MAP\_NO\_BUFFERS**</dt> </dl>                                                                      | Maps the buffer only for SRB\_FUNCTION\_IO\_CONTROL and SRB\_FUNCTION\_WMI.<br/>                                                                                                                                                                                                                                                                                                                                                                  |
 | <span id="STOR_MAP_ALL_BUFFERS"></span><span id="stor_map_all_buffers"></span><dl> <dt>**STOR\_MAP\_ALL\_BUFFERS**</dt> </dl>                                                                   | Obsolete. This value has the same effect as STOR\_MAP\_NON\_READ\_WRITE\_BUFFERS.<br/>                                                                                                                                                                                                                                                                                                                                                            |
 | <span id="STOR_MAP_NON_READ_WRITE_BUFFERS"></span><span id="stor_map_non_read_write_buffers"></span><dl> <dt>**STOR\_MAP\_NON\_READ\_WRITE\_BUFFERS**</dt> </dl>                                | Maps the buffer all for IO except for read and write requests.<br/>                                                                                                                                                                                                                                                                                                                                                                               |
-| <span id="STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE"></span><span id="stor_map_all_buffers_including_read_write"></span><dl> <dt>**STOR\_MAP\_ALL\_BUFFERS\_INCLUDING\_READ\_WRITE**</dt> </dl> | Maps the buffer all for IO including read and write requests.<br/> Miniports supporting boot must handle a read or write request of PAGE\_SIZE in length. These read or write requests must always complete successfully.<br/> Storport may fail to map the buffer under low system memory conditions. In this case, the **DataBuffer** member in the SRB will be NULL. <br/> This value is valid starting with Windows 8.<br/> |
+| <span id="STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE"></span><span id="stor_map_all_buffers_including_read_write"></span><dl> <dt>**STOR\_MAP\_ALL\_BUFFERS\_INCLUDING\_READ\_WRITE**</dt> </dl> | Maps the buffer all for IO including read and write requests.<br/> Miniports supporting boot must handle a read or write request of PAGE\_SIZE in length. These read or write requests must always complete successfully.<br/> Storport may fail to map the buffer under low system memory conditions. In this case, the **DataBuffer** member in the SRB will be NULL. <br/> This value is valid starting with Windows 8.<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -428,7 +436,7 @@ The type of SRBs to be sent to the miniport driver. This is set to either of the
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -445,7 +453,7 @@ The address type used between Storport and the miniport driver. Currently, only 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -543,20 +551,20 @@ Indicates whether the HBA is able to access addresses greater than 4 GB. Storpor
 > [!Note]  
 > If the device hardware supports only 32 bit addresses, then **Dma64BitAddresses** must be set to 0.
 
- 
+ 
 
 
 
 | Value                                                                                                                                                                                                                                                                                             | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SCSI_DMA64_MINIPORT_SUPPORTED"></span><span id="scsi_dma64_miniport_supported"></span><dl> <dt>**SCSI\_DMA64\_MINIPORT\_SUPPORTED**</dt> </dl>                                                                                   | The miniport driver supports 64-bit physical addresses for I/O transfers.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| <span id="SCSI_DMA64_MINIPORT_FULL64BIT_SUPPORTED"></span><span id="scsi_dma64_miniport_full64bit_supported"></span><dl> <dt>**SCSI\_DMA64\_MINIPORT\_FULL64BIT\_SUPPORTED**</dt> </dl>                                                    | The miniport driver supports full 64-bit addressing. This indicates that I/O requests may have physical addresses &gt; 4GB. The uncached extension, SenseInfo, and Srb Extension may exist above 4GB. Allocations are restricted to 4GB boundary alignment in order to prevent them from crossing a 4GB boundary. <br/> This option is defined starting with Windows Server 2003 with SP1. This option is enabled starting in Windows 7 with Hotfix KB2468345 or Windows 7 with SP1 with Hotfix KB2468345.<br/> |
-| <span id="SCSI_DMA64_MINIPORT_FULL64BIT_NO_BOUNDARY_REQ_SUPPORTED"></span><span id="scsi_dma64_miniport_full64bit_no_boundary_req_supported"></span><dl> <dt>**SCSI\_DMA64\_MINIPORT\_FULL64BIT\_NO\_BOUNDARY\_REQ\_SUPPORTED**</dt> </dl> | The miniport driver supports full 64-bit addressing. This indicates that I/O requests may have physical addresses &gt; 4GB. The uncached extension, SenseInfo, and Srb Extension may exist above 4GB. Allocations have no boundary alignment requirement. <br/> This option is available in starting with Windows 8.<br/>                                                                                                                                                                                       |
-| <span id="SCSI_DMA64_MINIPORT_64BIT_ONE_4GB_SUPPORTED"></span><span id="scsi_dma64_miniport_64bit_one_4gb_supported"></span><dl> <dt>**SCSI\_DMA64\_MINIPORT\_64BIT\_ONE\_4GB\_SUPPORTED**</dt> </dl>                                      | The miniport driver support 64-bit addressing in a single 4GB region. This indicates that I/O requests, uncached extension, **SenseInfo**, and **SrbExtension** may have physical addresses &gt; 4GB in a single 4GB region.<br/> This option is available in starting with Windows 8.<br/>                                                                                                                                                                                                                     |
+| <span id="SCSI_DMA64_MINIPORT_FULL64BIT_SUPPORTED"></span><span id="scsi_dma64_miniport_full64bit_supported"></span><dl> <dt>**SCSI\_DMA64\_MINIPORT\_FULL64BIT\_SUPPORTED**</dt> </dl>                                                    | The miniport driver supports full 64-bit addressing. This indicates that I/O requests may have physical addresses &gt; 4GB. The uncached extension, SenseInfo, and Srb Extension may exist above 4GB. Allocations are restricted to 4GB boundary alignment in order to prevent them from crossing a 4GB boundary. <br/> This option is defined starting with Windows Server 2003 with SP1. This option is enabled starting in Windows 7 with Hotfix KB2468345 or Windows 7 with SP1 with Hotfix KB2468345.<br/> |
+| <span id="SCSI_DMA64_MINIPORT_FULL64BIT_NO_BOUNDARY_REQ_SUPPORTED"></span><span id="scsi_dma64_miniport_full64bit_no_boundary_req_supported"></span><dl> <dt>**SCSI\_DMA64\_MINIPORT\_FULL64BIT\_NO\_BOUNDARY\_REQ\_SUPPORTED**</dt> </dl> | The miniport driver supports full 64-bit addressing. This indicates that I/O requests may have physical addresses &gt; 4GB. The uncached extension, SenseInfo, and Srb Extension may exist above 4GB. Allocations have no boundary alignment requirement. <br/> This option is available in starting with Windows 8.<br/>                                                                                                                                                                                       |
+| <span id="SCSI_DMA64_MINIPORT_64BIT_ONE_4GB_SUPPORTED"></span><span id="scsi_dma64_miniport_64bit_one_4gb_supported"></span><dl> <dt>**SCSI\_DMA64\_MINIPORT\_64BIT\_ONE\_4GB\_SUPPORTED**</dt> </dl>                                      | The miniport driver support 64-bit addressing in a single 4GB region. This indicates that I/O requests, uncached extension, **SenseInfo**, and **SrbExtension** may have physical addresses &gt; 4GB in a single 4GB region.<br/> This option is available in starting with Windows 8.<br/>                                                                                                                                                                                                                     |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -597,7 +605,7 @@ Specifies the I/O synchronization model the miniport driver supports. The possib
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -639,7 +647,7 @@ Indicates, when **TRUE**, that there is no real hardware behind this device (for
 **DumpMode**
 </dt> <dd>
 
-A value indicating the use of the miniport during dump mode. This member is included starting with Windows 8. It can have one of the following values.
+A value indicating the use of the miniport during dump mode. This member is included starting with Windows 8. It can have one of the following values.
 
 
 
@@ -652,7 +660,7 @@ A value indicating the use of the miniport during dump mode. This member is incl
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -674,7 +682,7 @@ If the HBA can support more than 1000 outstanding I/O operations, this value can
 -   SCSI\_DMA64\_MINIPORT\_FULL64BIT\_NO\_BOUNDARY\_REQ\_SUPPORTED
 -   SCSI\_DMA64\_MINIPORT\_64BIT\_ONE\_4GB\_SUPPORTED
 
-Prior to Windows 8, this member is reserved.
+Prior to Windows 8, this member is reserved.
 
 </dd> <dt>
 
@@ -686,7 +694,7 @@ The maximum number of I/O requests supported on a LUN. The Storport driver will 
 > [!Note]  
 > **SrbType** must contain **SRB\_TYPE\_STORAGE\_REQUEST\_BLOCK** to support **MaxIOsPerLun** &gt; 255.
 
- 
+ 
 
 </dd> <dt>
 
@@ -718,9 +726,9 @@ Storport features requested for the adapter.
 
 
 
- 
+ 
 
-Prior to Windows 8, this member is reserved and must be set to 0.
+Prior to Windows 8, this member is reserved and must be set to 0.
 
 </dd> </dl>
 
@@ -765,9 +773,9 @@ The Storport driver does not support non-PnP devices, so [**HwStorFindAdapter**]
 [**StorPortSetDeviceQueueDepth**](storportsetdevicequeuedepth.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20_PORT_CONFIGURATION_INFORMATION%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

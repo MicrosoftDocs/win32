@@ -1,7 +1,12 @@
 ---
 title: FontCharSet Property
 description: FontCharSet Property
-ms.assetid: '2f23a242-d620-4766-8f59-cf158aa55969'
+ms.assetid: 2f23a242-d620-4766-8f59-cf158aa55969
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FontCharSet Property
@@ -30,7 +35,7 @@ Returns or sets the character set for the font displayed in the specified charac
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -43,16 +48,16 @@ This property applies only to your client application's use of the character; th
 > [!Note]  
 > If you are using a character that you did not compile, check the [**FontName**](fontname-property.md) and **FontCharSet** properties for the character to determine whether they are appropriate for your locale. You may need to set these values before using the [**Speak**](speak-method.md) method to ensure appropriate text display within the word balloon.
 
- 
+ 
 
 ## See Also
 
 [**FontName property**](fontname-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

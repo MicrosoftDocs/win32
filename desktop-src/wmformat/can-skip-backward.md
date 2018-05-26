@@ -1,14 +1,20 @@
 ---
 title: Can\_Skip\_Backward
 description: The Can\_Skip\_Backward attribute is a file-level attribute indicating whether you can skip to the previous item in the server-side playlist.
-ms.assetid: '91a8cfee-ccb6-4e0e-90f0-2e134fee56d1'
-keywords: ["Can_Skip_Backward windows Media Format"]
+ms.assetid: 91a8cfee-ccb6-4e0e-90f0-2e134fee56d1
+keywords:
+- Can_Skip_Backward windows Media Format
 topic_type:
 - apiref
 api_name:
 - Can_Skip_Backward
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Can\_Skip\_Backward

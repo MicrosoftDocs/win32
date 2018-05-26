@@ -1,8 +1,10 @@
 ---
 title: IMsgrObject interface
 description: Do not use.
-ms.assetid: '1697ac9d-6a52-456e-9303-b4a0bed6ef62'
-keywords: ["IMsgrObject interface Windows Messenger", "IMsgrObject interface Windows Messenger , described"]
+ms.assetid: 1697ac9d-6a52-456e-9303-b4a0bed6ef62
+keywords:
+- IMsgrObject interface Windows Messenger
+- IMsgrObject interface Windows Messenger , described
 topic_type:
 - apiref
 api_name:
@@ -11,18 +13,23 @@ api_location:
 - Msmsgs.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMsgrObject interface
 
-\[**IMsgrObject** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**IMsgrObject** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. The **IMsgrObject** interface provides methods and properties to handle the **Messenger Object**.
 
 > [!Note]  
 > The **IMsgrObject** interface is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger. You should use [**IMessenger**](im-imessenger.md) instead.
 
- 
+ 
 
 ## Members
 
@@ -111,7 +118,7 @@ The [<strong>Logoff</strong>](im-imsgrobject-logoff.md) method is available for 
 
 
 
- 
+ 
 
 ### Properties
 
@@ -193,7 +200,7 @@ The [<strong>LocalState</strong>](im-imsgrobject-localstate.md) property is avai
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -201,10 +208,10 @@ The [<strong>LocalState</strong>](im-imsgrobject-localstate.md) property is avai
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Mdisp.h</dt> </dl>    |
 | IDL<br/>                      | <dl> <dt>Mdisp.idl</dt> </dl>  |
@@ -222,9 +229,9 @@ The [<strong>LocalState</strong>](im-imsgrobject-localstate.md) property is avai
 [**IMsgrObject**](im-imsgrobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

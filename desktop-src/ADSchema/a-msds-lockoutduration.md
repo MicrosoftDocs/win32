@@ -4,17 +4,22 @@ description: Lockout duration for locked out user accounts.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '04aab345-6a79-4c03-8e6b-b2669ab4b672'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 04aab345-6a79-4c03-8e6b-b2669ab4b672
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Lockout-Duration attribute AD Schema", "msDS-LockoutDuration attribute AD Schema"]
+keywords:
+- ms-DS-Lockout-Duration attribute AD Schema
+- msDS-LockoutDuration attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Lockout-Duration
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Lockout-Duration attribute
@@ -38,9 +43,9 @@ Lockout duration for locked out user accounts.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Lockout duration for locked out user accounts.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

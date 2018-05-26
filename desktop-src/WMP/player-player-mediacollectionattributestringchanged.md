@@ -1,8 +1,11 @@
 ---
 title: Player.MediaCollectionAttributeStringChanged event
 description: The MediaCollectionAttributeStringChanged event occurs when an attribute value in the library is changed.
-ms.assetid: '9bc81cf2-50a9-41cf-8eff-25c9395dfdac'
-keywords: ["MediaCollectionAttributeStringChanged event Windows Media Player", "MediaCollectionAttributeStringChanged event Windows Media Player , Player class", "Player class Windows Media Player , MediaCollectionAttributeStringChanged event"]
+ms.assetid: 9bc81cf2-50a9-41cf-8eff-25c9395dfdac
+keywords:
+- MediaCollectionAttributeStringChanged event Windows Media Player
+- MediaCollectionAttributeStringChanged event Windows Media Player , Player class
+- Player class Windows Media Player , MediaCollectionAttributeStringChanged event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.MediaCollectionAttributeStringChanged event
@@ -91,9 +99,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player.mediaCollection**](player-mediacollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

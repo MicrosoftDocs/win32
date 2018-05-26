@@ -1,12 +1,17 @@
 ---
-Description: 'When a device is created, Windows Image Acquisition (WIA) creates a hierarchical tree of WIA items that represent the device and the folders and images associated with that device.'
-ms.assetid: 'ab7246e8-47bb-4b94-8d91-1c22010ebd9f'
+Description: When a device is created, Windows Image Acquisition (WIA) creates a hierarchical tree of WIA items that represent the device and the folders and images associated with that device.
+ms.assetid: ab7246e8-47bb-4b94-8d91-1c22010ebd9f
 title: Enumerating Items
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Items
 
-When a device is created, Windows Image Acquisition (WIA) creates a hierarchical tree of WIA items that represent the device and the folders and images associated with that device. Use the root item's (the item at the root of the tree that represents the device) [**IWiaItem::EnumChildItems**](-wia-iwiaitem-enumchilditems.md) (or [**IWiaItem2::EnumChildItems**](-wia-iwiaitem2-enumchilditems.md)) method to create an enumerator object and obtain a pointer to its [**IEnumWiaItem**](-wia-ienumwiaitem.md) (or [**IEnumWiaItem2**](-wia-ienumwiaitem2.md)) interface, which is used to navigate the item tree and gain access to the images or scanning beds associated with the device.
+When a device is created, Windows Image Acquisition (WIA) creates a hierarchical tree of WIA items that represent the device and the folders and images associated with that device. Use the root item's (the item at the root of the tree that represents the device) [**IWiaItem::EnumChildItems**](/windows/win32/wia_xp/nf-wia_xp-iwiaitem-enumchilditems?branch=master) (or [**IWiaItem2::EnumChildItems**](-wia-iwiaitem2-enumchilditems.md)) method to create an enumerator object and obtain a pointer to its [**IEnumWiaItem**](/windows/win32/wia_xp/nn-wia_xp-ienumwiaitem?branch=master) (or [**IEnumWiaItem2**](-wia-ienumwiaitem2.md)) interface, which is used to navigate the item tree and gain access to the images or scanning beds associated with the device.
 
 The following example shows a function that recursively enumerates all of the items of a tree, beginning with a root item that is passed to the function.
 
@@ -101,9 +106,9 @@ The following example shows a function that recursively enumerates all of the it
 
 
 
-The function takes the parameter **pWiaItem**, a pointer to the [**IWiaItem**](-wia-iwiaitem.md) (or [**IWiaItem2**](-wia-iwiaitem2.md)) interface of the root item of the item tree to enumerate.
+The function takes the parameter **pWiaItem**, a pointer to the [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) (or [**IWiaItem2**](-wia-iwiaitem2.md)) interface of the root item of the item tree to enumerate.
 
-First, the function checks to see whether the item is a folder or if it has attachments. If it does, it then calls the [**IWiaItem::EnumChildItems**](-wia-iwiaitem-enumchilditems.md) (or [**IWiaItem2::EnumChildItems**](-wia-iwiaitem2-enumchilditems.md)) method of **pWiaItem** to create an enumerator object for the item tree. If this call succeeds, and the enumerator is valid, the function iterates through the child items, and recursively calls itself on each item, treating each as a potential root item for the next level of child items.
+First, the function checks to see whether the item is a folder or if it has attachments. If it does, it then calls the [**IWiaItem::EnumChildItems**](/windows/win32/wia_xp/nf-wia_xp-iwiaitem-enumchilditems?branch=master) (or [**IWiaItem2::EnumChildItems**](-wia-iwiaitem2-enumchilditems.md)) method of **pWiaItem** to create an enumerator object for the item tree. If this call succeeds, and the enumerator is valid, the function iterates through the child items, and recursively calls itself on each item, treating each as a potential root item for the next level of child items.
 
 In this manner, the function enumerates all branches of the item tree below the root item passed to **EnumerateItems**.
 

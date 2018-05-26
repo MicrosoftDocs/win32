@@ -1,7 +1,12 @@
 ---
 title: How to Use Tile Views
 description: This topic demonstrates how to set the tile view for a list-view control.
-ms.assetid: 'BDE17F4B-3A15-48BB-8160-036AD0DC3B41'
+ms.assetid: BDE17F4B-3A15-48BB-8160-036AD0DC3B41
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use Tile Views
@@ -23,9 +28,9 @@ This topic demonstrates how to set the tile view for a list-view control. In til
 
 ### 
 
-Set the general display parameters for tile view by using the [**ListView\_SetTileViewInfo**](listview-settileviewinfo.md) macro. Use the [**LVTILEVIEWINFO**](lvtileviewinfo.md) structure that is passed to this macro to specify the position of the text in relation to the icon, the size of each tile (including accompanying text), and the maximum number of lines of text.
+Set the general display parameters for tile view by using the [**ListView\_SetTileViewInfo**](/windows/win32/Commctrl/nf-commctrl-listview_settileviewinfo?branch=master) macro. Use the [**LVTILEVIEWINFO**](/windows/win32/Commctrl/ns-commctrl-taglvtileviewinfo?branch=master) structure that is passed to this macro to specify the position of the text in relation to the icon, the size of each tile (including accompanying text), and the maximum number of lines of text.
 
-If you do not want tiles to be automatically sized, you must set **LVTVIF\_FIXEDSIZE** in the **dwFlags** member and **LVTVIM\_TILESIZE** in the **dwMask** member of [**LVTILEVIEWINFO**](lvtileviewinfo.md), as well as providing the dimensions in the **sizeTile** member.
+If you do not want tiles to be automatically sized, you must set **LVTVIF\_FIXEDSIZE** in the **dwFlags** member and **LVTVIM\_TILESIZE** in the **dwMask** member of [**LVTILEVIEWINFO**](/windows/win32/Commctrl/ns-commctrl-taglvtileviewinfo?branch=master), as well as providing the dimensions in the **sizeTile** member.
 
 The following C++ code example sets the tile view info for a list-view control so that a maximum of two subitems are displayed for each item. It also sets the size of each tile.
 
@@ -46,7 +51,7 @@ The following C++ code example sets the tile view info for a list-view control s
 
 
 
-For each item in the list, you can set further parameters when the item is inserted in the list, or later. The [**LVITEM**](lvitem.md) structure that is used with [**ListView\_InsertItem**](listview-insertitem.md) contains members that specify which columns of data to display below the item, and their alignment. These same display parameters are also found in the [**LVTILEINFO**](lvtileinfo.md) structure used with [**ListView\_SetTileInfo**](listview-settileinfo.md).
+For each item in the list, you can set further parameters when the item is inserted in the list, or later. The [**LVITEM**](/windows/win32/Commctrl/ns-commctrl-taglvitema?branch=master) structure that is used with [**ListView\_InsertItem**](/windows/win32/Commctrl/nf-commctrl-listview_insertitem?branch=master) contains members that specify which columns of data to display below the item, and their alignment. These same display parameters are also found in the [**LVTILEINFO**](/windows/win32/Commctrl/ns-commctrl-taglvtileinfo?branch=master) structure used with [**ListView\_SetTileInfo**](/windows/win32/Commctrl/nf-commctrl-listview_settileinfo?branch=master).
 
 > [!Note]  
 > "Columns" here refers not to display columns in tile view but rather to subitems, which are displayed in columns in details view.

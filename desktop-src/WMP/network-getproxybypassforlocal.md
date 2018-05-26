@@ -1,8 +1,11 @@
 ---
 title: Network.getProxyBypassForLocal method
 description: The getProxyBypassForLocal method retrieves a value indicating whether the proxy server is bypassed if the origin server is on a local network.
-ms.assetid: '33cc24ab-9eb4-48ef-9483-058a3af04983'
-keywords: ["getProxyBypassForLocal method Windows Media Player", "getProxyBypassForLocal method Windows Media Player , Network class", "Network class Windows Media Player , getProxyBypassForLocal method"]
+ms.assetid: 33cc24ab-9eb4-48ef-9483-058a3af04983
+keywords:
+- getProxyBypassForLocal method Windows Media Player
+- getProxyBypassForLocal method Windows Media Player , Network class
+- Network class Windows Media Player , getProxyBypassForLocal method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.getProxyBypassForLocal method
@@ -98,9 +106,9 @@ document.write("The current MMS proxy bypass for local value: " + proxyBypassFor
 [**Network.getProxySettings**](network-getproxysettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: SetupSwitch method of the Msvm\_VirtualSwitchManagementService class
 description: Sets up a switch such that the existing network architecture is maintained.
-ms.assetid: '787e5def-cdd1-4a80-be33-94a33b91e6b5'
-keywords: ["SetupSwitch method Hyper-V", "SetupSwitch method Hyper-V , Msvm_VirtualSwitchManagementService class", "Msvm_VirtualSwitchManagementService class Hyper-V , SetupSwitch method"]
+ms.assetid: 787e5def-cdd1-4a80-be33-94a33b91e6b5
+keywords:
+- SetupSwitch method Hyper-V
+- SetupSwitch method Hyper-V , Msvm_VirtualSwitchManagementService class
+- Msvm_VirtualSwitchManagementService class Hyper-V , SetupSwitch method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetupSwitch method of the Msvm\_VirtualSwitchManagementService class
@@ -22,12 +30,12 @@ Sets up a switch such that the existing network architecture is maintained.
 
 ```mof
 uint32 SetupSwitch(
-  [in]  Msvm_SwitchPort           REF ExternalSwitchPort,
-  [in]  Msvm_SwitchPort           REF InternalSwitchPort,
-  [in]  Msvm_ExternalEthernetPort REF ExternalEthernetPort,
-  [in]  string                        InternalEthernetPortName,
-  [in]  string                        InternalEthernetPortFriendlyName,
-  [out] Msvm_NetworkJob           REF Job
+  [in]  Msvm_SwitchPort           REF ExternalSwitchPort,
+  [in]  Msvm_SwitchPort           REF InternalSwitchPort,
+  [in]  Msvm_ExternalEthernetPort REF ExternalEthernetPort,
+  [in]  string                        InternalEthernetPortName,
+  [in]  string                        InternalEthernetPortFriendlyName,
+  [out] Msvm_NetworkJob           REF Job
 );
 ```
 
@@ -612,9 +620,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -627,9 +635,9 @@ End Function
 [**Msvm\_VirtualSwitchManagementService**](msvm-virtualswitchmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Chassis class represents the physical elements that enclose other elements and provide definable functionality, such as a desktop, processing node, UPS, disk or tape storage, or a combination of these.'
+Description: The CIM\_Chassis class represents the physical elements that enclose other elements and provide definable functionality, such as a desktop, processing node, UPS, disk or tape storage, or a combination of these.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4c55dbff-bc4a-4cc9-8f34-29636defaa56'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4c55dbff-bc4a-4cc9-8f34-29636defaa56
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Chassis class'
+title: CIM\_Chassis class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Chassis class
@@ -19,7 +22,7 @@ The **CIM\_Chassis** class represents the physical elements that enclose other e
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,41 +32,41 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, UUID("{FAF76B72-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_Chassis : CIM_PhysicalFrame
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   CreationClassName;
-  string   Manufacturer;
-  string   Model;
-  string   OtherIdentifyingInfo;
-  string   PartNumber;
-  boolean  PoweredOn;
-  string   SerialNumber;
-  string   SKU;
-  string   Tag;
-  string   Version;
-  real32   Depth;
-  real32   Height;
-  boolean  HotSwappable;
-  boolean  Removable;
-  boolean  Replaceable;
-  real32   Weight;
-  real32   Width;
-  boolean  AudibleAlarm;
-  string   BreachDescription;
-  string   CableManagementStrategy;
-  boolean  LockPresent;
-  uint16   SecurityBreach;
-  string   ServiceDescriptions[];
-  uint16   ServicePhilosophy[];
-  boolean  VisibleAlarm;
-  uint16   ChassisTypes[];
-  sint16   CurrentRequiredOrProduced;
-  uint16   HeatGeneration;
-  uint16   NumberOfPowerCords;
-  string   TypeDescriptions[];
+  string   Name;
+  string   Status;
+  string   CreationClassName;
+  string   Manufacturer;
+  string   Model;
+  string   OtherIdentifyingInfo;
+  string   PartNumber;
+  boolean  PoweredOn;
+  string   SerialNumber;
+  string   SKU;
+  string   Tag;
+  string   Version;
+  real32   Depth;
+  real32   Height;
+  boolean  HotSwappable;
+  boolean  Removable;
+  boolean  Replaceable;
+  real32   Weight;
+  real32   Width;
+  boolean  AudibleAlarm;
+  string   BreachDescription;
+  string   CableManagementStrategy;
+  boolean  LockPresent;
+  uint16   SecurityBreach;
+  string   ServiceDescriptions[];
+  uint16   ServicePhilosophy[];
+  boolean  VisibleAlarm;
+  uint16   ChassisTypes[];
+  sint16   CurrentRequiredOrProduced;
+  uint16   HeatGeneration;
+  uint16   NumberOfPowerCords;
+  string   TypeDescriptions[];
 };
 ```
 
@@ -86,7 +89,7 @@ The **CIM\_Chassis** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -829,7 +832,7 @@ Free-form strings that provide detailed explanations for entries in the **Servic
 > [!Note]  
 > Each entry of this array is related to the entry in **ServicePhilosophy** array that is located at the same index.
 
- 
+ 
 
 This property is inherited from [**CIM\_PhysicalFrame**](cim-physicalframe.md).
 
@@ -1079,7 +1082,7 @@ Array of free-form strings that provides information about the **ChassisTypes** 
 > [!Note]  
 > Each array entry is related to the entry in the **ChassisTypes** property, which is located at the same index.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1166,8 +1169,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1181,9 +1184,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_PhysicalFrame**](cim-physicalframe.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Using the Demux with PSI Streams
-ms.assetid: '355e905e-ff21-4bde-a018-ed9631ef5ed5'
+ms.assetid: 355e905e-ff21-4bde-a018-ed9631ef5ed5
 title: Using the Demux with PSI Streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Demux with PSI Streams
@@ -12,7 +17,7 @@ To get PSI information from an MPEG-2 transport stream using the MPEG-2 demux fi
 -   Subtype: MEDIASUBTYPE\_None
 -   Format type: GUID\_NULL
 
-Then call the output pin's [**IMPEG2PIDMap::MapPID**](impeg2pidmap-mappid.md) method with the desired PID and the flag MEDIA\_MPEG2\_PSI.
+Then call the output pin's [**IMPEG2PIDMap::MapPID**](/windows/win32/Bdaiface/nf-bdaiface-impeg2pidmap-mappid?branch=master) method with the desired PID and the flag MEDIA\_MPEG2\_PSI.
 
 
 ```C++
@@ -50,7 +55,7 @@ if (SUCCEEDED(hr))
 
 
 
-Each complete PSI section is delivered in one media sample. To retrieve the PID number associated with a table section, call [**IMediaSample2::GetProperties**](imediasample2-getproperties.md) on the media sample. The PID is given in the low 13 bits of the **dwTypeSpecificFlags** flag in the **AM\_SAMPLE2\_PROPERTIES** structure. This is useful if you map multiple PSI PIDs to the same output pin.
+Each complete PSI section is delivered in one media sample. To retrieve the PID number associated with a table section, call [**IMediaSample2::GetProperties**](/windows/win32/Strmif/nf-strmif-imediasample2-getproperties?branch=master) on the media sample. The PID is given in the low 13 bits of the **dwTypeSpecificFlags** flag in the **AM\_SAMPLE2\_PROPERTIES** structure. This is useful if you map multiple PSI PIDs to the same output pin.
 
 ## Related topics
 

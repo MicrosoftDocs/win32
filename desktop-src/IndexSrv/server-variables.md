@@ -1,7 +1,12 @@
 ---
 title: Server Variables
 description: Server Variables
-ms.assetid: '7f0a2b29-0b97-4c76-b69c-3434a2680dbb'
+ms.assetid: 7f0a2b29-0b97-4c76-b69c-3434a2680dbb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server Variables

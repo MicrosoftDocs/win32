@@ -1,7 +1,12 @@
 ---
-Description: 'The AdminUISequence table lists actions that the installer calls in sequence when the top-level ADMIN action is executed and the internal user interface level is set to full UI or reduced UI.'
-ms.assetid: '7227846d-b755-4af9-acc3-e27742a5097a'
+Description: The AdminUISequence table lists actions that the installer calls in sequence when the top-level ADMIN action is executed and the internal user interface level is set to full UI or reduced UI.
+ms.assetid: 7227846d-b755-4af9-acc3-e27742a5097a
 title: AdminUISequence Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AdminUISequence Table

@@ -1,7 +1,12 @@
 ---
 title: Tooltips and Infotips
 description: A tooltip is a small pop-up window that labels the unlabeled control being pointed to, such as unlabeled toolbar controls or command buttons.
-ms.assetid: '80979281-eefb-485a-b42f-7f9e05665357'
+ms.assetid: 80979281-eefb-485a-b42f-7f9e05665357
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tooltips and Infotips
@@ -29,15 +34,15 @@ Tips help users understand unknown or unfamiliar objects that aren't described d
 > [!Note]  
 > Guidelines related to [balloons](ctrl-balloons.md), [toolbars](cmd-toolbars.md), and [Help](winenv-help.md) are presented in separate articles.
 
- 
+ 
 
 ## Is this the right control?
 
 To decide, consider these questions:
 
--   **Is the information displayed based on pointer hover?** If not, use another control. Display tips only as the result of user interaction—never display them on their own. By contrast, [balloons](ctrl-balloons.md) can display on their own (as they do with notifications), so they have a tail that identifies their source.
+-   **Is the information displayed based on pointer hover?** If not, use another control. Display tips only as the result of user interaction never display them on their own. By contrast, [balloons](ctrl-balloons.md) can display on their own (as they do with notifications), so they have a tail that identifies their source.
 -   **Does a control have a text label?** If not, use a tooltip to provide the label. Note that most controls should be labeled and therefore not have tooltips. Toolbar controls and command buttons with graphic labels should have tooltips.
--   **Does an object benefit from a supplemental description or further information?** If so, use an infotip. However, the text must be supplemental—that is, not essential to the primary tasks. If it is essential, put it directly in the UI so that users don't have to discover or hunt for it.
+-   **Does an object benefit from a supplemental description or further information?** If so, use an infotip. However, the text must be supplemental that is, not essential to the primary tasks. If it is essential, put it directly in the UI so that users don't have to discover or hunt for it.
 -   **Is the supplemental information an error, warning, or status?** If so, use another UI element, such as a balloon, [error message](mess-error.md), or [status bar](ctrl-status-bars.md). Notification area icon infotips are an exception because they can be used to show status information.
 -   **Do users need to interact with the tip?** If so, use another control, such as a balloon. Users can't interact with tips because moving the mouse makes them disappear.
 -   **Do users need to print the supplemental information?** If so, use another control, such as a static comment field. However, you can also use infotips to provide more direct access to this information.
@@ -46,7 +51,7 @@ To decide, consider these questions:
 
     In this example, a static comment field in Microsoft Word allows users to print comments.
 
--   **Is the context such that users might find the tips annoying or distracting?** If so, consider using another solution—including doing nothing at all. If you do use tips in such contexts, allow users to turn them off.
+-   **Is the context such that users might find the tips annoying or distracting?** If so, consider using another solution including doing nothing at all. If you do use tips in such contexts, allow users to turn them off.
 
 When used appropriately, tips improve communication with the user. **Never use tips as a substitute for good design.** If a graphic, button, or other object requires users to keep checking a tip to understand it, the design is bad. Fix the design instead.
 
@@ -123,7 +128,7 @@ Tips have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -182,7 +187,7 @@ Tips have several usage patterns:
 -   Use sentence-style capitalization.
     -   **Exception:** This guideline is new for Windows Vista. For legacy applications, you may use title-style capitalization if necessary to avoid mixing capitalization styles.
 -   Add an [ellipsis](ctrl-command-buttons.md#design-concepts) if the label is for a command that needs additional information.
--   As with normal labels, **keep tooltips brief**—typically five words or less—but prefer specific labels over vague ones.
+-   As with normal labels, **keep tooltips brief** typically five words or less but prefer specific labels over vague ones.
 
     **Acceptable:**
 
@@ -376,9 +381,9 @@ When referring to tips:
 -   The following variations are incorrect: tool tip, Tooltip, and ToolTip.
 -   To describe user interaction, use hover.
 
- 
+ 
 
- 
+ 
 
 
 

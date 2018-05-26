@@ -1,12 +1,18 @@
 ---
 title: TextureCube SampleLevel methods
 description: Samples a texture on the specified mipmap level.
-ms.assetid: 'FB582800-0C0E-4F9F-9702-91049A2FEF6C'
-keywords: ["SampleLevel methods HLSL"]
+ms.assetid: FB582800-0C0E-4F9F-9702-91049A2FEF6C
+keywords:
+- SampleLevel methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCube::SampleLevel methods
@@ -34,9 +40,9 @@ Samples a texture on the specified mipmap level.
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

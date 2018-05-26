@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the desired quality level for quality based (1-pass) variable-bit-rate (VBR) encoding of audio streams.'
-ms.assetid: '0bbb4f51-78c3-4455-bd96-9a6d80110220'
-title: 'MFPKEY\_DESIRED\_VBRQUALITY Property'
+---
+Description: Specifies the desired quality level for quality based (1-pass) variable-bit-rate (VBR) encoding of audio streams.
+ms.assetid: 0bbb4f51-78c3-4455-bd96-9a6d80110220
+title: MFPKEY\_DESIRED\_VBRQUALITY Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_DESIRED\_VBRQUALITY Property

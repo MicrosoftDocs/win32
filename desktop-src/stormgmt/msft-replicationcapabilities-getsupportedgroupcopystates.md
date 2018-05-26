@@ -1,8 +1,11 @@
 ---
 title: GetSupportedGroupCopyStates method of the MSFT\_ReplicationCapabilities class
 description: Returns, for a given ReplicationType, the supported replication group copy states.
-ms.assetid: '47DA6025-D1F6-4840-883E-EBA63C5E37D0'
-keywords: ["GetSupportedGroupCopyStates method Windows Storage Management API", "GetSupportedGroupCopyStates method Windows Storage Management API , MSFT_ReplicationCapabilities class", "MSFT_ReplicationCapabilities class Windows Storage Management API , GetSupportedGroupCopyStates method"]
+ms.assetid: 47DA6025-D1F6-4840-883E-EBA63C5E37D0
+keywords:
+- GetSupportedGroupCopyStates method Windows Storage Management API
+- GetSupportedGroupCopyStates method Windows Storage Management API , MSFT_ReplicationCapabilities class
+- MSFT_ReplicationCapabilities class Windows Storage Management API , GetSupportedGroupCopyStates method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSupportedGroupCopyStates method of the MSFT\_ReplicationCapabilities class
@@ -22,9 +30,9 @@ Returns, for a given *ReplicationType*, the supported replication group copy sta
 
 ```mof
 UInt32 GetSupportedGroupCopyStates(
-  [in]  UInt16 ReplicationType,
-  [out] UInt16 SupportedCopyStates[],
-  [out] String ExtendedStatus
+  [in]  UInt16 ReplicationType,
+  [out] UInt16 SupportedCopyStates[],
+  [out] String ExtendedStatus
 );
 ```
 
@@ -69,7 +77,7 @@ The supported copy states. One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -119,8 +127,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -133,9 +141,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_ReplicationCapabilities**](msft-replicationcapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

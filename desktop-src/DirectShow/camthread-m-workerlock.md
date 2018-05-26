@@ -1,7 +1,12 @@
 ---
-Description: 'Critical section that locks data shared among threads.'
-ms.assetid: '87966d7d-6677-462f-93bc-fedda7f0bdcf'
-title: 'CAMThread::m\_WorkerLock member'
+Description: Critical section that locks data shared among threads.
+ms.assetid: 87966d7d-6677-462f-93bc-fedda7f0bdcf
+title: CAMThreadm\_WorkerLock member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread::m\_WorkerLock member
@@ -35,9 +40,9 @@ CCritSec m_WorkerLock;
 [**CAMThread Class**](camthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

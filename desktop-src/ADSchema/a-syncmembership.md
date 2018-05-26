@@ -4,17 +4,22 @@ description: List of members contained in a SAM builtin group for synchronizatio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '48635e12-8dc4-44f1-92cd-5bfe01904807'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 48635e12-8dc4-44f1-92cd-5bfe01904807
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Sync-Membership attribute AD Schema", "syncMembership attribute AD Schema"]
+keywords:
+- Sync-Membership attribute AD Schema
+- syncMembership attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Sync-Membership
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Sync-Membership attribute

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the average bit rate, in bits per second, for an encoder that is configured to use average-controllable VBR encoding.'
-ms.assetid: 'd689a34c-97f7-4b1c-82b6-863ce3b8403f'
-title: 'MFPKEY\_DYN\_VBR\_RAVG Property'
+---
+Description: Specifies the average bit rate, in bits per second, for an encoder that is configured to use average-controllable VBR encoding.
+ms.assetid: d689a34c-97f7-4b1c-82b6-863ce3b8403f
+title: MFPKEY\_DYN\_VBR\_RAVG Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_DYN\_VBR\_RAVG Property

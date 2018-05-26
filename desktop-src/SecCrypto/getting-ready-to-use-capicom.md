@@ -1,7 +1,12 @@
 ---
-Description: 'Applications that use CAPICOM objects must be created by using CAPICOM.dll. CAPICOM.dll must also be present and registered at run time to use CAPICOM objects.'
-ms.assetid: '69de5232-e2f9-4aed-935d-5fbcd7998cc9'
+Description: Applications that use CAPICOM objects must be created by using CAPICOM.dll. CAPICOM.dll must also be present and registered at run time to use CAPICOM objects.
+ms.assetid: 69de5232-e2f9-4aed-935d-5fbcd7998cc9
 title: Getting Ready to Use CAPICOM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Ready to Use CAPICOM

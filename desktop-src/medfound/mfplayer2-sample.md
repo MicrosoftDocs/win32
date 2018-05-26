@@ -1,7 +1,12 @@
 ---
-Description: 'Important  Deprecated.'
-ms.assetid: 'bb71e792-d09c-4338-9cf4-4854e14042f9'
+Description: Important  Deprecated.
+ms.assetid: bb71e792-d09c-4338-9cf4-4854e14042f9
 title: MFPlayer2 Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPlayer2 Sample
@@ -28,9 +33,9 @@ This sample demonstrates the following APIs.
 
 -   [**IAudioSessionControl**](coreaudio.iaudiosessioncontrol)
 -   [**IAudioSessionManager**](coreaudio.iaudiosessionmanager)
--   [**IMFPMediaItem**](imfpmediaitem.md)
--   [**IMFPMediaPlayer**](imfpmediaplayer.md)
--   [**IMFPMediaPlayerCallback**](imfpmediaplayercallback.md)
+-   [**IMFPMediaItem**](/windows/win32/mfplay/nn-mfplay-imfpmediaitem?branch=master)
+-   [**IMFPMediaPlayer**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayer?branch=master)
+-   [**IMFPMediaPlayerCallback**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayercallback?branch=master)
 -   [**IMMDevice**](coreaudio.immdevice)
 -   [**IMMDeviceEnumerator**](coreaudio.immdeviceenumerator)
 -   [**ISimpleAudioVolume**](coreaudio.isimpleaudiovolume)

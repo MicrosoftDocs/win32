@@ -4,11 +4,17 @@ description: Active Directory Service Interfaces (ADSI) abstracts the capabiliti
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6d601af5-7470-42c2-b99e-21174ea008b1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6d601af5-7470-42c2-b99e-21174ea008b1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["About Active Directory Service Interfaces ADSI", "ADSI ADSI , About", "Active Directory Service Interfaces ADSI , About"]
+keywords:
+- About Active Directory Service Interfaces ADSI
+- ADSI ADSI , About
+- Active Directory Service Interfaces ADSI , About
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Active Directory Service Interfaces

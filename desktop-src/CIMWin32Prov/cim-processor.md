@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Processor class represents the capabilities and management of the processor logical device.'
+Description: The CIM\_Processor class represents the capabilities and management of the processor logical device.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7af3208f-f1d5-4911-b6ab-46b54eec0b69'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7af3208f-f1d5-4911-b6ab-46b54eec0b69
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Processor class'
+title: CIM\_Processor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Processor class
@@ -19,7 +22,7 @@ The **CIM\_Processor** class represents the capabilities and management of the p
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,36 +32,36 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C54B-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_Processor : CIM_LogicalDevice
 {
-  uint16   AddressWidth;
-  uint16   Availability;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  uint32   CurrentClockSpeed;
-  uint16   DataWidth;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  uint16   Family;
+  uint16   AddressWidth;
+  uint16   Availability;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  uint32   CurrentClockSpeed;
+  uint16   DataWidth;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  uint16   Family;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  uint16   LoadPercentage;
-  uint32   MaxClockSpeed;
-  string   Name;
-  string   OtherFamilyDescription;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Role;
-  string   Status;
-  uint16   StatusInfo;
-  string   Stepping;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   UniqueId;
-  uint16   UpgradeMethod;
+  uint32   LastErrorCode;
+  uint16   LoadPercentage;
+  uint32   MaxClockSpeed;
+  string   Name;
+  string   OtherFamilyDescription;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Role;
+  string   Status;
+  uint16   StatusInfo;
+  string   Stepping;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   UniqueId;
+  uint16   UpgradeMethod;
 };
 ```
 
@@ -82,7 +85,7 @@ The **CIM\_Processor** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1007,7 +1010,7 @@ Pentium III
 
 </dt> <dd>
 
-AMD Duron™ Processor Family
+AMD Duron  Processor Family
 
 </dd> <dt>
 
@@ -1054,7 +1057,7 @@ AMD Athlon Processor Family
 
 </dt> <dd>
 
-AMD™ Duron Processor
+AMD  Duron Processor
 
 </dd> <dt>
 
@@ -1389,7 +1392,7 @@ Efficeon8000 Family
 
 </dt> <dd>
 
-Itanium™ Processor
+Itanium  Processor
 
 </dd> <dt>
 
@@ -1400,7 +1403,7 @@ Itanium™ Processor
 
 </dt> <dd>
 
-AMD Athlon™
+AMD Athlon 
 
 </dd> <dt>
 
@@ -1411,7 +1414,7 @@ AMD Athlon™
 
 </dt> <dd>
 
-AMD Opteron™ Family
+AMD Opteron  Family
 
 </dd> <dt>
 
@@ -2327,8 +2330,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -2342,9 +2345,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

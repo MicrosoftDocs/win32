@@ -1,8 +1,28 @@
 ---
 title: Media Sample Encryption Example
 description: Media Sample Encryption Example
-ms.assetid: 'f57f9ffc-47fd-47fb-b553-07b9cd6abb70'
-keywords: ["Windows Media Format SDK,media sample encryption", "Windows Media Format SDK,example code", "Windows Media Format SDK,code examples", "digital rights management (DRM),media sample encryption", "DRM (digital rights management),media sample encryption", "digital rights management (DRM),example code", "DRM (digital rights management),example code", "digital rights management (DRM),code examples", "DRM (digital rights management),code examples", "DRM Client Extended APIs,media sample encryption", "Client Extended APIs,media sample encryption", "DRM Client Extended APIs,example code", "Client Extended APIs,example code", "DRM Client Extended APIs,code examples", "Client Extended APIs,code examples"]
+ms.assetid: f57f9ffc-47fd-47fb-b553-07b9cd6abb70
+keywords:
+- Windows Media Format SDK,media sample encryption
+- Windows Media Format SDK,example code
+- Windows Media Format SDK,code examples
+- digital rights management (DRM),media sample encryption
+- DRM (digital rights management),media sample encryption
+- digital rights management (DRM),example code
+- DRM (digital rights management),example code
+- digital rights management (DRM),code examples
+- DRM (digital rights management),code examples
+- DRM Client Extended APIs,media sample encryption
+- Client Extended APIs,media sample encryption
+- DRM Client Extended APIs,example code
+- Client Extended APIs,example code
+- DRM Client Extended APIs,code examples
+- Client Extended APIs,code examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Sample Encryption Example

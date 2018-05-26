@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.EXIFVersion property.'
-ms.assetid: '0f9c5ea8-918f-4101-8492-3f408145a73e'
-title: 'System.Photo.EXIFVersion Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.EXIFVersion property.
+ms.assetid: 0f9c5ea8-918f-4101-8492-3f408145a73e
+title: System.Photo.EXIFVersion Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.EXIFVersion Photo Metadata Policy

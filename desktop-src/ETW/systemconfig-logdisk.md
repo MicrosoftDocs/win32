@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for logical disk configuration events.'
-ms.assetid: 'a11a8245-8ace-4061-b6c7-938002d8b9fc'
-title: 'SystemConfig\_LogDisk class'
+---
+Description: This class is the event type class for logical disk configuration events.
+ms.assetid: a11a8245-8ace-4061-b6c7-938002d8b9fc
+title: SystemConfig\_LogDisk class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemConfig\_LogDisk class

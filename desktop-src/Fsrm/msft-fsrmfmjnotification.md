@@ -4,11 +4,13 @@ description: Represents a file management job notification.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3a9fedf6-afe3-4be3-8d93-4766f7453bec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 3a9fedf6-afe3-4be3-8d93-4766f7453bec
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMFMJNotification class File Server Resource Manager", "MSFT_FSRMFMJNotification class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMFMJNotification class File Server Resource Manager
+- MSFT_FSRMFMJNotification class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMFMJNotification class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMFMJNotification
 {
-  uint32                         Days;
+  uint32                         Days;
   MSFT_FSRMFMJNotificationAction Action[];
 };
 ```
@@ -57,7 +62,7 @@ The **MSFT\_FSRMFMJNotification** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -103,7 +108,7 @@ The **Days** property specifies the number of days before the file is to expire.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -117,9 +122,9 @@ The **Days** property specifies the number of days before the file is to expire.
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

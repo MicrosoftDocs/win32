@@ -4,10 +4,13 @@ description: When installing a service to run under a domain user account, the a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1b217650-4397-4e28-b53e-8b03f3caf903'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1b217650-4397-4e28-b53e-8b03f3caf903
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Granting Logon as Service Right on the Host Computer

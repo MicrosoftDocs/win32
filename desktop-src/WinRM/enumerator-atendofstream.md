@@ -4,11 +4,14 @@ description: Gets a Boolean value that indicates whether there are any more item
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5e80674a-7889-4753-b0dd-4d7b44eba00a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 5e80674a-7889-4753-b0dd-4d7b44eba00a
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["AtEndOfStream property Windows Remote Management", "AtEndOfStream property Windows Remote Management , Enumerator object", "Enumerator object Windows Remote Management , AtEndOfStream property"]
+keywords:
+- AtEndOfStream property Windows Remote Management
+- AtEndOfStream property Windows Remote Management , Enumerator object
+- Enumerator object Windows Remote Management , AtEndOfStream property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerator.AtEndOfStream property
@@ -108,8 +114,8 @@ End Sub
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -127,9 +133,9 @@ End Sub
 [Enumerating or Listing All of the Instances of a Resource](enumerating-or-listing-all-instances-of-a-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

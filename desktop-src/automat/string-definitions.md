@@ -1,7 +1,12 @@
 ---
 title: String Definitions
 description: Strings can be declared using the LPSTR data type, which indicates a zero-terminated string, and with the BSTR data type, which indicates a length-prefixed string (as defined in Dispatch Interface and API Functions).
-ms.assetid: '6d29d17d-d329-4818-aa12-d2c201de295b'
+ms.assetid: 6d29d17d-d329-4818-aa12-d2c201de295b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # String Definitions

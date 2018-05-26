@@ -1,8 +1,13 @@
 ---
 title: IVMDVDDrive AttachHostDrive method
 description: The AttachHostDrive method attaches a host DVD drive to the DVD drive within the virtual machine.
-ms.assetid: '9a3b6dcd-b38d-4dba-9a5f-9fc1f835911e'
-keywords: ["AttachHostDrive method Virtual Server", "AttachHostDrive method Virtual Server , IVMDVDDrive interface", "IVMDVDDrive interface Virtual Server , AttachHostDrive method", "AttachHostDrive method Virtual Server , VMDVDDrive interface", "VMDVDDrive interface Virtual Server , AttachHostDrive method"]
+ms.assetid: 9a3b6dcd-b38d-4dba-9a5f-9fc1f835911e
+keywords:
+- AttachHostDrive method Virtual Server
+- AttachHostDrive method Virtual Server , IVMDVDDrive interface
+- IVMDVDDrive interface Virtual Server , AttachHostDrive method
+- AttachHostDrive method Virtual Server , VMDVDDrive interface
+- VMDVDDrive interface Virtual Server , AttachHostDrive method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDrive::AttachHostDrive method
@@ -23,7 +33,7 @@ The **AttachHostDrive** method attaches a host DVD drive to the DVD drive within
 
 ```C++
 HRESULT AttachHostDrive(
-  [in] BSTR driveLetter
+  [in] BSTR driveLetter
 );
 ```
 
@@ -57,7 +67,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +75,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -78,9 +88,9 @@ This method can return one of these values.
 [**IVMDVDDrive**](ivmdvddrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

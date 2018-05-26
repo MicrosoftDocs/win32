@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the encoding scheme.'
-ms.assetid: 'a26951d6-67fb-43fb-849f-331416e9d7c2'
+Description: Specifies the encoding scheme.
+ms.assetid: a26951d6-67fb-43fb-849f-331416e9d7c2
 title: AVEncCodecType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncCodecType property
@@ -48,7 +53,7 @@ The value of this property is a **BSTR** that contains the string representation
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,8 +65,8 @@ Applications can set this property to specify which encoding scheme to use. Code
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -73,12 +78,12 @@ Applications can set this property to specify which encoding scheme to use. Code
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
 Description: Supporting Multiple Callbacks
-ms.assetid: 'd57544cc-f16c-4415-9411-d06d6c16cb2f'
+ms.assetid: d57544cc-f16c-4415-9411-d06d6c16cb2f
 title: Supporting Multiple Callbacks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supporting Multiple Callbacks
 
-If you call more than one asynchronous method, each one requires a separate implementation of [**IMFAsyncCallback::Invoke**](imfasynccallback-invoke.md). However, you might want to implement the callbacks inside a single C++ class. The class can have only one **Invoke** method, so one solution is to provide a helper class that delegates **Invoke** calls to another method on a container class.
+If you call more than one asynchronous method, each one requires a separate implementation of [**IMFAsyncCallback::Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master). However, you might want to implement the callbacks inside a single C++ class. The class can have only one **Invoke** method, so one solution is to provide a helper class that delegates **Invoke** calls to another method on a container class.
 
 The following code shows a class template named `AsyncCallback`, which demonstrates this approach.
 
@@ -81,7 +86,7 @@ public:
 
 
 
-The template parameter is the name of container class. The `AsyncCallback` constructor has two parameters: a pointer to the container class, and the address of a callback method on the container class. The container class can have multiple instances of the `AsyncCallback` class as member variables, one for each asynchronous method. When the container class calls an asynchronous method, it use the [**IMFAsyncCallback**](imfasynccallback.md) interface of the appropriate `AsyncCallback` object. When the `AsyncCallback` object's [**Invoke**](imfasynccallback-invoke.md) method is called, the call is delegated to the correct method on the container class.
+The template parameter is the name of container class. The `AsyncCallback` constructor has two parameters: a pointer to the container class, and the address of a callback method on the container class. The container class can have multiple instances of the `AsyncCallback` class as member variables, one for each asynchronous method. When the container class calls an asynchronous method, it use the [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface of the appropriate `AsyncCallback` object. When the `AsyncCallback` object's [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method is called, the call is delegated to the correct method on the container class.
 
 The `AsyncCallback` object also delegates **AddRef** and **Release** calls to the container class, so the container class manages the lifetime of the `AsyncCallback` object. This guarantees that the `AsyncCallback` object will not be deleted until the container object itself is deleted.
 

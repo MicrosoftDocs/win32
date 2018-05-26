@@ -1,14 +1,20 @@
 ---
 title: AssessmentResult element
 description: Describes the result for an individual assessment.
-ms.assetid: '71F1C816-03E2-49FB-B73E-F55029A532BC'
-keywords: ["AssessmentResult element Access Execution Engine"]
+ms.assetid: 71F1C816-03E2-49FB-B73E-F55029A532BC
+keywords:
+- AssessmentResult element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AssessmentResult
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssessmentResult element
@@ -36,7 +42,7 @@ There are no attributes.
 | [**AnalysisInfo**](analysisinfo.md)<br/>           | Information about the execution of the assessment analysis.<br/> <br/>                                                                   |
 | [**ErrorsAndWarnings**](errorsandwarnings.md)<br/> | A container element to hold assessment errors and warnings. <br/> <br/>                                                                  |
 | [**ExecutionInfo**](executioninfo.md)<br/>         | Information about the execution of the assessment. <br/> <br/>                                                                           |
-| [**ExitCode**](exitcode.md)<br/>                   | This element holds the exit code for an assessment’s process.<br/> <br/>                                                                 |
+| [**ExitCode**](exitcode.md)<br/>                   | This element holds the exit code for an assessment s process.<br/> <br/>                                                                 |
 | [**Guid**](guid.md)<br/>                           | The unique identifier for the assessment run.<br/> <br/>                                                                                 |
 | [**Iterations**](iterations.md)<br/>               | A container element to hold [**Iteration**](iteration.md) elements.<br/> <br/>                                                          |
 | [**LogFiles**](logfiles.md)<br/>                   | A container to hold [**LogFile**](logfile.md) elements.<br/> <br/>                                                                      |
@@ -86,9 +92,9 @@ There are no attributes.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

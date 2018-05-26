@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine Display property
 description: Retrieves the video display for the virtual machine.
-ms.assetid: 'ca5a433d-4613-4b6d-9de7-d9c6a2038e38'
-keywords: ["Display property Virtual PC", "Display property Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , Display property"]
+ms.assetid: ca5a433d-4613-4b6d-9de7-d9c6a2038e38
+keywords:
+- Display property Virtual PC
+- Display property Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , Display property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Display property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the video display for the virtual machine.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Display(
-  [out, retval] IVMDisplay **display
+  [out, retval] IVMDisplay **display
 );
 ```
 
@@ -56,9 +64,9 @@ The [**IVMDisplay**](ivmdisplay.md) object.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -72,9 +80,9 @@ The [**IVMDisplay**](ivmdisplay.md) object.
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

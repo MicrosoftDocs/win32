@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '6b951418-9076-42ca-9ed5-4e260e8c19bc'
-title: 'System.Music.AlbumArtist'
+Description: .
+ms.assetid: 6b951418-9076-42ca-9ed5-4e260e8c19bc
+title: System.Music.AlbumArtist
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.AlbumArtist

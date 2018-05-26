@@ -1,8 +1,13 @@
 ---
 title: IVMRCAuthenticatorCollection Count property
 description: The Count property contains the number of authenticator objects contained in this collection.
-ms.assetid: 'e99bd37f-d866-44bd-a1af-e2a000bb824e'
-keywords: ["Count property Virtual Server", "Count property Virtual Server , IVMRCAuthenticatorCollection interface", "IVMRCAuthenticatorCollection interface Virtual Server , Count property", "Count property Virtual Server , IVMRCAuthenticatorCollection interface", "IVMRCAuthenticatorCollection interface Virtual Server , Count property"]
+ms.assetid: e99bd37f-d866-44bd-a1af-e2a000bb824e
+keywords:
+- Count property Virtual Server
+- Count property Virtual Server , IVMRCAuthenticatorCollection interface
+- IVMRCAuthenticatorCollection interface Virtual Server , Count property
+- Count property Virtual Server , IVMRCAuthenticatorCollection interface
+- IVMRCAuthenticatorCollection interface Virtual Server , Count property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCAuthenticatorCollection::Count property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Count(
-  [out] long *count
+  [out] long *count
 );
 ```
 
@@ -74,8 +84,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -87,9 +97,9 @@ This property value is read-only.
 [**IVMRCAuthenticatorCollection**](ivmrcauthenticatorcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Common Device Properties
 description: Common Device Properties
-ms.assetid: 'c5ff6dfe-ef47-47e8-8274-3dd7edb0359d'
-keywords: ["Windows Media Library Sharing Services (WMLSS),common device properties", "Windows Media Library Sharing Services (WMLSS),device properties", "Windows Media Library Sharing Services (WMLSS),properties", "common device properties", "device properties"]
+ms.assetid: c5ff6dfe-ef47-47e8-8274-3dd7edb0359d
+keywords:
+- Windows Media Library Sharing Services (WMLSS),common device properties
+- Windows Media Library Sharing Services (WMLSS),device properties
+- Windows Media Library Sharing Services (WMLSS),properties
+- common device properties
+- device properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Device Properties
@@ -97,11 +107,11 @@ If the device does not provide a UPnP device description document, it is likely 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

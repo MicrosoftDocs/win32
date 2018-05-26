@@ -1,8 +1,17 @@
 ---
 title: Using Callback Functions
 description: The GLU callback functions, gluBeginPolygon, gluTessVertex, gluNextContour, and gluEndPolygon, are similar to the OpenGL polygon functions.
-ms.assetid: 'e8277ba9-e270-4d7d-a29f-143f2f0d0324'
-keywords: ["OpenGL Utility (GLU),callback functions", "GLU (OpenGL Utility),callback functions", "OpenGL Utility (GLU),tessellation", "GLU (OpenGL Utility),tessellation"]
+ms.assetid: e8277ba9-e270-4d7d-a29f-143f2f0d0324
+keywords:
+- OpenGL Utility (GLU),callback functions
+- GLU (OpenGL Utility),callback functions
+- OpenGL Utility (GLU),tessellation
+- GLU (OpenGL Utility),tessellation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Callback Functions

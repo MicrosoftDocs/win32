@@ -1,7 +1,12 @@
-﻿---
-Description: 'Vertex cache optimization hints.'
-ms.assetid: '891624cd-03dd-4ddd-93f5-4899e1470325'
-title: 'D3DDEVINFO\_VCACHE structure'
+---
+Description: Vertex cache optimization hints.
+ms.assetid: 891624cd-03dd-4ddd-93f5-4899e1470325
+title: D3DDEVINFO\_VCACHE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDEVINFO\_VCACHE structure
@@ -87,7 +92,7 @@ Used by internal optimization methods to determine when to restart strips. This 
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetData**](idirect3dquery9--getdata.md)
+[**GetData**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-getdata?branch=master)
 </dt> </dl>
 
  

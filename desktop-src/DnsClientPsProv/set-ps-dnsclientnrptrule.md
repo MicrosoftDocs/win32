@@ -4,13 +4,16 @@ description: Modifies DNS client NRPT rule.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b036e39b-a172-42e2-a837-70abc640876e'
-ms.prod: 'windows-server-dev'
+ms.assetid: b036e39b-a172-42e2-a837-70abc640876e
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-client'
-- 'windows-management-instrumentation'
+- dns-client
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DnsClientNrptRule class", "PS_DnsClientNrptRule class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DnsClientNrptRule class
+- PS_DnsClientNrptRule class, Set method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DnsClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DnsClientNrptRule class
@@ -30,27 +36,27 @@ Modifies DNS client NRPT rule.
 
 ```mof
 uint32 Set(
-  [in]  boolean           DAEnable,
-  [in]  string            DAIPsecEncryptionType,
-  [in]  boolean           DAIPsecRequired,
-  [in]  string            DANameServers[],
-  [in]  string            DAProxyServerName,
-  [in]  string            DAProxyType,
-  [in]  string            Comment,
-  [in]  boolean           DnsSecEnable,
-  [in]  string            DnsSecIPsecEncryptionType,
-  [in]  boolean           DnsSecIPsecRequired,
-  [in]  boolean           DnsSecValidationRequired,
-  [in]  string            GpoName,
-  [in]  string            IPsecTrustAuthority,
-  [in]  string            Name,
-  [in]  string            NameEncoding,
-  [in]  string            NameServers[],
-  [in]  string            Namespace[],
-  [in]  string            Server,
-  [in]  string            DisplayName,
-  [in]  boolean           PassThru,
-  [out] DnsClientNrptRule cmdletOutput
+  [in]  boolean           DAEnable,
+  [in]  string            DAIPsecEncryptionType,
+  [in]  boolean           DAIPsecRequired,
+  [in]  string            DANameServers[],
+  [in]  string            DAProxyServerName,
+  [in]  string            DAProxyType,
+  [in]  string            Comment,
+  [in]  boolean           DnsSecEnable,
+  [in]  string            DnsSecIPsecEncryptionType,
+  [in]  boolean           DnsSecIPsecRequired,
+  [in]  boolean           DnsSecValidationRequired,
+  [in]  string            GpoName,
+  [in]  string            IPsecTrustAuthority,
+  [in]  string            Name,
+  [in]  string            NameEncoding,
+  [in]  string            NameServers[],
+  [in]  string            Namespace[],
+  [in]  string            Server,
+  [in]  string            DisplayName,
+  [in]  boolean           PassThru,
+  [out] DnsClientNrptRule cmdletOutput
 );
 ```
 
@@ -290,8 +296,8 @@ A [**DnsClientNrptRule**](ps-dnsclientnrptrule.md) object containing all the pro
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsClientPSProvider.dll</dt> </dl> |
@@ -305,9 +311,9 @@ A [**DnsClientNrptRule**](ps-dnsclientnrptrule.md) object containing all the pro
 [**PS\_DnsClientNrptRule**](ps-dnsclientnrptrule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

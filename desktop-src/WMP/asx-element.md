@@ -1,14 +1,20 @@
 ---
 title: ASX Element
 description: The ASX element defines a file as a metafile.
-ms.assetid: '130220a0-959c-4c13-aa7d-06b6bbebc9cc'
-keywords: ["ASX Element Windows Media Player"]
+ms.assetid: 130220a0-959c-4c13-aa7d-06b6bbebc9cc
+keywords:
+- ASX Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ASX Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASX Element
@@ -45,7 +51,7 @@ Must be one of the following values.
 
 
 
- 
+ 
 
 **BANNERBAR** (optional)
 
@@ -62,7 +68,7 @@ Must be one of the following values.
 
 
 
- 
+ 
 
 ## Parent/Child Elements
 
@@ -75,7 +81,7 @@ Must be one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -125,9 +131,9 @@ Windows Media Player renders the graphic beginning in the leftmost pixel of the 
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

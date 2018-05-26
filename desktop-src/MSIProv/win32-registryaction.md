@@ -1,8 +1,10 @@
 ---
 title: Win32\_RegistryAction class
 description: The Win32\_RegistryAction WMI class sets up registry information that the application requires in the system registry.
-ms.assetid: '5c389d37-de62-4bc3-8aa9-91dc3802e5c1'
-keywords: ["Win32_RegistryAction class", "Win32_RegistryAction class, described"]
+ms.assetid: 5c389d37-de62-4bc3-8aa9-91dc3802e5c1
+keywords:
+- Win32_RegistryAction class
+- Win32_RegistryAction class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_RegistryAction class
@@ -34,7 +41,7 @@ The **Win32\_RegistryAction** [WMI class](https://msdn.microsoft.com/library/aa3
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -80,7 +87,7 @@ The **Win32\_RegistryAction** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -147,7 +154,7 @@ Whether a particular [**CIM\_Action**](https://msdn.microsoft.com/library/aa3865
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -224,7 +231,7 @@ Registry value name. If the **EntryValue** property is null, then the following 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -243,8 +250,8 @@ State of a software element.
 
 | Value                                                                                                 | Meaning                             |
 |-------------------------------------------------------------------------------------------------------|-------------------------------------|
-| <span id="1"></span><dl> <dt>**–1**</dt> </dl> | **HKEY\_CURRENT\_USER**<br/>  |
-| <span id="1"></span><dl> <dt>**–1**</dt> </dl> | **HKEY\_LOCAL\_MACHINE**<br/> |
+| <span id="1"></span><dl> <dt>** 1**</dt> </dl> | **HKEY\_CURRENT\_USER**<br/>  |
+| <span id="1"></span><dl> <dt>** 1**</dt> </dl> | **HKEY\_LOCAL\_MACHINE**<br/> |
 | <span id="0"></span><dl> <dt>**0**</dt> </dl>  | **HKEY\_CLASSES\_ROOT**<br/>  |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl>  | **HKEY\_CURRENT\_USER**<br/>  |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl>  | **HKEY\_LOCAL\_MACHINE**<br/> |
@@ -252,7 +259,7 @@ State of a software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -291,7 +298,7 @@ State of a software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -371,7 +378,7 @@ Target operating system of the owning software element. The possible values for 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -398,8 +405,8 @@ The **Win32\_RegistryAction** class is derived from [**CIM\_Action**](https://ms
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -413,9 +420,9 @@ The **Win32\_RegistryAction** class is derived from [**CIM\_Action**](https://ms
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: CURRENTPOSITIONTEXT
 description: This is a predefined TEXT element with the following default values.
-ms.assetid: '00574ead-85f2-4321-9e4e-2836be058e8c'
-keywords: ["CURRENTPOSITIONTEXT Windows Media Player"]
+ms.assetid: 00574ead-85f2-4321-9e4e-2836be058e8c
+keywords:
+- CURRENTPOSITIONTEXT Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CURRENTPOSITIONTEXT
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CURRENTPOSITIONTEXT
@@ -42,9 +48,9 @@ This will create a **TEXT** element that will display the current time of the me
 [**TEXT Element**](text-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

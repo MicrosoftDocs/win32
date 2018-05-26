@@ -1,8 +1,11 @@
 ---
 title: IDatabase SeekRowset method
 description: Moves the current position within the rowset.
-ms.assetid: 'c7791e59-4849-4674-9e11-c36fd4eac745'
-keywords: ["SeekRowset method Windows Mail (formerly Outlook Express)", "SeekRowset method Windows Mail (formerly Outlook Express) , IDatabase interface", "IDatabase interface Windows Mail (formerly Outlook Express) , SeekRowset method"]
+ms.assetid: c7791e59-4849-4674-9e11-c36fd4eac745
+keywords:
+- SeekRowset method Windows Mail (formerly Outlook Express)
+- SeekRowset method Windows Mail (formerly Outlook Express) , IDatabase interface
+- IDatabase interface Windows Mail (formerly Outlook Express) , SeekRowset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabase::SeekRowset method
@@ -24,10 +32,10 @@ Moves the current position within the rowset.
 
 ```C++
 HRESULT SeekRowset(
-  [in]  HROWSET        hRowset,
-  [in]  SEEKROWSETTYPE tySeek,
-  [in]  LONG           cRows,
-  [out] LPROWORDINAL   piRowNew
+  [in]  HROWSET        hRowset,
+  [in]  SEEKROWSETTYPE tySeek,
+  [in]  LONG           cRows,
+  [out] LPROWORDINAL   piRowNew
 );
 ```
 
@@ -88,7 +96,7 @@ Returns one of the following codes. Use the SUCCEEDED macro to determine whether
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -96,17 +104,17 @@ Returns one of the following codes. Use the SUCCEEDED macro to determine whether
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

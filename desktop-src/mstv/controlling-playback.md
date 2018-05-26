@@ -1,7 +1,12 @@
 ---
 title: Controlling Playback
 description: Controlling Playback
-ms.assetid: '17384658-77f0-4e64-9e80-8e18571e9b59'
+ms.assetid: 17384658-77f0-4e64-9e80-8e18571e9b59
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controlling Playback

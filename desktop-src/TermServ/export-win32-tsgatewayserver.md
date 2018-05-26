@@ -1,14 +1,17 @@
 ---
 title: Export method of the Win32\_TSGatewayServer class
-description: Returns the Remote Desktop Gateway (RD Gateway) server configuration as an XML string.
+description: Returns the Remote Desktop Gateway (RD Gateway) server configuration as an XML string.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'abf3a616-2b86-4cfe-934f-f1f17ce3ce31'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: abf3a616-2b86-4cfe-934f-f1f17ce3ce31
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Export method Remote Desktop Services", "Export method Remote Desktop Services , Win32_TSGatewayServer class", "Win32_TSGatewayServer class Remote Desktop Services , Export method"]
+keywords:
+- Export method Remote Desktop Services
+- Export method Remote Desktop Services , Win32_TSGatewayServer class
+- Win32_TSGatewayServer class Remote Desktop Services , Export method
 topic_type:
 - apiref
 api_name:
@@ -17,19 +20,22 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Export method of the Win32\_TSGatewayServer class
 
-Returns the Remote Desktop Gateway (RD Gateway) server configuration as an XML string.
+Returns the Remote Desktop Gateway (RD Gateway) server configuration as an XML string.
 
 ## Syntax
 
 
 ```mof
 uint32 Export(
-  [in]  uint32 ExportType,
-  [out] string XmlString
+  [in]  uint32 ExportType,
+  [out] string XmlString
 );
 ```
 
@@ -42,7 +48,7 @@ uint32 Export(
 *ExportType* \[in\]
 </dt> <dd>
 
-The content to export. Set the export type by setting the corresponding bits in the *ExportType* parameter. You can set multiple export types. For example, if the 0 bit is set, Remote Desktop Services connection authorization policies (RD CAPs) will be exported. If both the 0 and the 2nd bit is set, both RD CAPs and Remote Desktop Services resource authorization policies (RD RAPs) will be exported.
+The content to export. Set the export type by setting the corresponding bits in the *ExportType* parameter. You can set multiple export types. For example, if the 0 bit is set, Remote Desktop Services connection authorization policies (RD CAPs) will be exported. If both the 0 and the 2nd bit is set, both RD CAPs and Remote Desktop Services resource authorization policies (RD RAPs) will be exported.
 
 <dt>
 
@@ -53,7 +59,7 @@ The content to export. Set the export type by setting the corresponding bits in 
 
 </dt> <dd>
 
-Export all RD CAPs.
+Export all RD CAPs.
 
 </dd> <dt>
 
@@ -75,7 +81,7 @@ Export a list of all Network Policy Server (NPS) servers.
 
 </dt> <dd>
 
-Export all RD RAPs.
+Export all RD RAPs.
 
 </dd> <dt>
 
@@ -108,7 +114,7 @@ Export a list of all load-balancing servers.
 
 </dt> <dd>
 
-Export all RD Gateway-related server settings.
+Export all RD Gateway-related server settings.
 
 </dd> <dt>
 
@@ -121,9 +127,9 @@ Export all RD Gateway-related server settings.
 
 Export all health policies.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is not supported before Windows Server 2016.
+This value is not supported before Windows Server 2016.
 
 </dd> </dl> </dd> <dt>
 
@@ -147,7 +153,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -161,9 +167,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayServer**](win32-tsgatewayserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

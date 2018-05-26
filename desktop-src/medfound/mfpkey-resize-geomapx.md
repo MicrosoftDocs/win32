@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the x-coordinate of the upper-left corner of the geometric aperture.'
-ms.assetid: 'b2c71e16-abd5-465c-a420-5b7675382025'
-title: 'MFPKEY\_RESIZE\_GEOMAPX Property'
+---
+Description: Specifies the x-coordinate of the upper-left corner of the geometric aperture.
+ms.assetid: b2c71e16-abd5-465c-a420-5b7675382025
+title: MFPKEY\_RESIZE\_GEOMAPX Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_GEOMAPX Property

@@ -1,8 +1,29 @@
 ---
 title: Enumerating Licenses in the Local License Store
 description: Enumerating Licenses in the Local License Store
-ms.assetid: '1f380b9e-85e4-4190-a809-65dfd4658b7c'
-keywords: ["Windows Media Format SDK,enumerating licenses", "Windows Media Format SDK,licenses", "Windows Media Format SDK,local license store", "digital rights management (DRM),enumerating licenses", "DRM (digital rights management),enumerating licenses", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "digital rights management (DRM),local license store", "DRM (digital rights management),local license store", "DRM Client Extended APIs,enumerating licenses", "Client Extended APIs,enumerating licenses", "DRM Client Extended APIs,licenses", "Client Extended APIs,licenses", "DRM Client Extended APIs,local license store", "Client Extended APIs,local license store", "licenses,enumerating"]
+ms.assetid: 1f380b9e-85e4-4190-a809-65dfd4658b7c
+keywords:
+- Windows Media Format SDK,enumerating licenses
+- Windows Media Format SDK,licenses
+- Windows Media Format SDK,local license store
+- digital rights management (DRM),enumerating licenses
+- DRM (digital rights management),enumerating licenses
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- digital rights management (DRM),local license store
+- DRM (digital rights management),local license store
+- DRM Client Extended APIs,enumerating licenses
+- Client Extended APIs,enumerating licenses
+- DRM Client Extended APIs,licenses
+- Client Extended APIs,licenses
+- DRM Client Extended APIs,local license store
+- Client Extended APIs,local license store
+- licenses,enumerating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Licenses in the Local License Store

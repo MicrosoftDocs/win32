@@ -1,13 +1,16 @@
 ---
-Description: 'Saves an object asynchronously to a namespace. When successful, this method sends an OnCompleted event to the SWbemSink object that is specified as an input parameter.'
+Description: Saves an object asynchronously to a namespace. When successful, this method sends an OnCompleted event to the SWbemSink object that is specified as an input parameter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '27da0c60-6dae-482d-a9bf-1aab016d3ae8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 27da0c60-6dae-482d-a9bf-1aab016d3ae8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemServicesEx.PutAsync method'
+title: SWbemServicesEx.PutAsync method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemServicesEx.PutAsync method
@@ -258,8 +261,8 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -268,9 +271,9 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Brings the resource online.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bafc16b5-1ea5-4d97-84e1-4f95a11eaf41'
-ms.prod: 'windows-server-dev'
+ms.assetid: bafc16b5-1ea5-4d97-84e1-4f95a11eaf41
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["BringOnline method", "BringOnline method, MSCluster_Resource class", "MSCluster_Resource class, BringOnline method"]
+keywords:
+- BringOnline method
+- BringOnline method, MSCluster_Resource class
+- MSCluster_Resource class, BringOnline method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BringOnline method of the MSCluster\_Resource class
@@ -30,7 +36,7 @@ Brings the [resource](https://msdn.microsoft.com/library/aa372152) online.
 
 ```mof
 void BringOnline(
-  [in] uint32 TimeOut
+  [in] uint32 TimeOut
 );
 ```
 
@@ -58,7 +64,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -72,9 +78,9 @@ This method does not return a value.
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

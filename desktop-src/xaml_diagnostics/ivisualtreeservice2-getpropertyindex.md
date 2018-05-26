@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the property index for the specified property name.'
-ms.assetid: 'E23FA0C6-7822-4CEA-AF0C-75B42941B143'
-title: 'IVisualTreeService2::GetPropertyIndex method'
+---
+Description: Gets the property index for the specified property name.
+ms.assetid: E23FA0C6-7822-4CEA-AF0C-75B42941B143
+title: IVisualTreeService2GetPropertyIndex method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVisualTreeService2::GetPropertyIndex method
@@ -69,7 +74,7 @@ This index can be passed to the [**GetProperty**](ivisualtreeservice2-getpropert
 
 <dl> <dt>
 
-[**IVisualTreeService2**](ivisualtreeservice2.md)
+[**IVisualTreeService2**](/windows/previous-versions/xamlom/nn-xamlom-ivisualtreeservice2?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'The Exit method signals the streaming thread to exit.'
-ms.assetid: '1bb59848-e405-40f9-87ec-33de8754e2dd'
-title: 'CSourceStream.Exit method'
+Description: The Exit method signals the streaming thread to exit.
+ms.assetid: 1bb59848-e405-40f9-87ec-33de8754e2dd
+title: CSourceStream.Exit method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.Exit method
@@ -47,9 +52,9 @@ The [**CSourceStream::Inactive**](csourcestream-inactive.md) method calls this m
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

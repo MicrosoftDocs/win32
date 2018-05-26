@@ -1,8 +1,11 @@
 ---
 title: ImageFile.LoadFile method
 description: Loads the ImageFile object with the specified file.
-ms.assetid: '2426556c-0397-44b0-8323-ff98507f417f'
-keywords: ["LoadFile method WIA Automation", "LoadFile method WIA Automation , ImageFile object", "ImageFile object WIA Automation , LoadFile method"]
+ms.assetid: 2426556c-0397-44b0-8323-ff98507f417f
+keywords:
+- LoadFile method WIA Automation
+- LoadFile method WIA Automation , ImageFile object
+- ImageFile object WIA Automation , LoadFile method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImageFile.LoadFile method
@@ -57,8 +65,8 @@ For example code, see [Display Detailed Image Information](-wiaaut-shared-sample
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -77,9 +85,9 @@ For example code, see [Display Detailed Image Information](-wiaaut-shared-sample
 [**SaveFile**](-wiaaut-iimagefile-savefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

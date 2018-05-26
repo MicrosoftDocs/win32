@@ -1,7 +1,12 @@
 ---
 title: Connecting to the Virtual Server COM Object
 description: The Virtual Server programming interface is a standard COM object.
-ms.assetid: '1f9d5911-99ca-4ed0-a56e-cdfb322b53dd'
+ms.assetid: 1f9d5911-99ca-4ed0-a56e-cdfb322b53dd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connecting to the Virtual Server COM Object

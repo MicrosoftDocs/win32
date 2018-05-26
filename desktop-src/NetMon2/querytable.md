@@ -1,7 +1,12 @@
 ---
-Description: 'The QUERYTABLE structure provides a list of the computers that are currently using Network Monitor to capture network data.'
-ms.assetid: 'b701a6d5-df6d-4ee9-b008-a568a410dc14'
+Description: The QUERYTABLE structure provides a list of the computers that are currently using Network Monitor to capture network data.
+ms.assetid: b701a6d5-df6d-4ee9-b008-a568a410dc14
 title: QUERYTABLE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QUERYTABLE structure
@@ -13,7 +18,7 @@ The **QUERYTABLE** structure provides a list of the computers that are currently
 
 ```C++
 typedef struct _QUERYTABLE {
-  DWORD        nStationQueries;
+  DWORD        nStationQueries;
   STATIONQUERY StationQuery[1];
 } QUERYTABLE, *LPQUERYTABLE;
 ```
@@ -52,8 +57,8 @@ The memory for this structure and the [STATIONQUERY](stationquery.md) array must
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -77,9 +82,9 @@ The memory for this structure and the [STATIONQUERY](stationquery.md) array must
 [STATIONQUERY](stationquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

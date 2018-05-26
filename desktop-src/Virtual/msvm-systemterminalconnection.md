@@ -1,8 +1,10 @@
 ---
 title: Msvm\_SystemTerminalConnection class
 description: Associates a virtual computer system with a terminal connection.
-ms.assetid: '7de615d4-f89f-42b2-a043-05c8a0f85f32'
-keywords: ["Msvm_SystemTerminalConnection class Hyper-V", "Msvm_SystemTerminalConnection class Hyper-V , described"]
+ms.assetid: 7de615d4-f89f-42b2-a043-05c8a0f85f32
+keywords:
+- Msvm_SystemTerminalConnection class Hyper-V
+- Msvm_SystemTerminalConnection class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SystemTerminalConnection class
@@ -27,7 +34,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SystemTerminalConnection : CIM_HostedDependency
 {
-  Msvm_ComputerSystem     REF Antecedent;
+  Msvm_ComputerSystem     REF Antecedent;
   Msvm_TerminalConnection REF Dependent;
 };
 ```
@@ -87,9 +94,9 @@ Access to the **Msvm\_SystemTerminalConnection** class might be restricted by UA
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -108,9 +115,9 @@ Access to the **Msvm\_SystemTerminalConnection** class might be restricted by UA
 [Video Classes](video-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

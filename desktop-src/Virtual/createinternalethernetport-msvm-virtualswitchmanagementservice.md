@@ -1,8 +1,11 @@
 ---
 title: CreateInternalEthernetPort method of the Msvm\_VirtualSwitchManagementService class
 description: Creates an internal Ethernet port.
-ms.assetid: 'e65e09d5-5767-4645-8602-2e98f9df0b44'
-keywords: ["CreateInternalEthernetPort method Hyper-V", "CreateInternalEthernetPort method Hyper-V , Msvm_VirtualSwitchManagementService class", "Msvm_VirtualSwitchManagementService class Hyper-V , CreateInternalEthernetPort method"]
+ms.assetid: e65e09d5-5767-4645-8602-2e98f9df0b44
+keywords:
+- CreateInternalEthernetPort method Hyper-V
+- CreateInternalEthernetPort method Hyper-V , Msvm_VirtualSwitchManagementService class
+- Msvm_VirtualSwitchManagementService class Hyper-V , CreateInternalEthernetPort method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateInternalEthernetPort method of the Msvm\_VirtualSwitchManagementService class
@@ -22,10 +30,10 @@ Creates an internal Ethernet port.
 
 ```mof
 uint32 CreateInternalEthernetPort(
-  [in]  string                        Name,
-  [in]  string                        FriendlyName,
-  [in]  string                        MacAddress,
-  [out] Msvm_InternalEthernetPort REF CreatedInternalEthernetPort
+  [in]  string                        Name,
+  [in]  string                        FriendlyName,
+  [in]  string                        MacAddress,
+  [out] Msvm_InternalEthernetPort REF CreatedInternalEthernetPort
 );
 ```
 
@@ -277,9 +285,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -292,9 +300,9 @@ End Function
 [**Msvm\_VirtualSwitchManagementService**](msvm-virtualswitchmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

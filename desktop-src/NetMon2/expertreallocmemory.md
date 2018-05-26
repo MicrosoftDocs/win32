@@ -1,7 +1,12 @@
 ---
-Description: 'The ExpertReallocMemory function increases or decreases the amount of memory allocated by Network Monitor.'
-ms.assetid: '78b99a66-692a-4e83-8b0d-d68caf156bb6'
+Description: The ExpertReallocMemory function increases or decreases the amount of memory allocated by Network Monitor.
+ms.assetid: 78b99a66-692a-4e83-8b0d-d68caf156bb6
 title: ExpertReallocMemory function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExpertReallocMemory function
@@ -13,10 +18,10 @@ The **ExpertReallocMemory** function increases or decreases the amount of memory
 
 ```C++
 LPVOID WINAPI ExpertReallocMemory(
-  _In_  HEXPERTKEY hExpertKey,
-  _In_  LPVOID     pOriginalMemory,
-  _In_  SIZE_T     nBytes,
-  _Out_ LPDWORD    pError
+  _In_  HEXPERTKEY hExpertKey,
+  _In_  LPVOID     pOriginalMemory,
+  _In_  SIZE_T     nBytes,
+  _Out_ LPDWORD    pError
 );
 ```
 
@@ -70,17 +75,17 @@ It is important to note that an expert should use the Network Monitor memory all
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

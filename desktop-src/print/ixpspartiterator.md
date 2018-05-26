@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IXpsPartIterator interface is an iterator for XPS parts.'
-ms.assetid: '6fd51647-e7e4-4c9a-ae87-00eb3e1d3fbb'
+---
+Description: The IXpsPartIterator interface is an iterator for XPS parts.
+ms.assetid: 6fd51647-e7e4-4c9a-ae87-00eb3e1d3fbb
 title: IXpsPartIterator interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsPartIterator interface

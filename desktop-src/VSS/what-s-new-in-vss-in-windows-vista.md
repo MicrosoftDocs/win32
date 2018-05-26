@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Vista.'
-ms.assetid: '3b16744d-b9c2-4462-a409-de94d9103c39'
-title: 'What''s New in VSS in Windows Vista'
+Description: Windows Vista.
+ms.assetid: 3b16744d-b9c2-4462-a409-de94d9103c39
+title: Whats New in VSS in Windows Vista
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in VSS in Windows Vista
@@ -12,29 +17,29 @@ Note that all changes for Windows Vista also apply to Windows Server 2008 and 
 
 ## New VSS Interfaces
 
-[**IVssBackupComponentsEx2**](ivssbackupcomponentsex2.md)
+[**IVssBackupComponentsEx2**](/windows/win32/VsBackup/nl-vsbackup-ivssbackupcomponentsex2?branch=master)
 
-[**IVssComponentEx**](ivsscomponentex.md)
+[**IVssComponentEx**](/windows/win32/VsWriter/nl-vswriter-ivsscomponentex?branch=master)
 
-[**IVssCreateWriterMetadataEx**](ivsscreatewritermetadataex.md)
+[**IVssCreateWriterMetadataEx**](/windows/win32/VsWriter/nl-vswriter-ivsscreatewritermetadataex?branch=master)
 
-[**IVssDifferentialSoftwareSnapshotMgmt2**](ivssdifferentialsoftwaresnapshotmgmt2.md)
+[**IVssDifferentialSoftwareSnapshotMgmt2**](/windows/win32/VsMgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2?branch=master)
 
-[**IVssExamineWriterMetadataEx2**](ivssexaminewritermetadataex2.md)
+[**IVssExamineWriterMetadataEx2**](/windows/win32/VsBackup/nl-vsbackup-ivssexaminewritermetadataex2?branch=master)
 
 ## New VSS Classes
 
-[**CVssWriterEx**](cvsswriterex.md)
+[**CVssWriterEx**](/windows/win32/VsWriter/nl-vswriter-cvsswriterex?branch=master)
 
 ## New VSS Enumerations
 
-[**VSS\_ROLLFORWARD\_TYPE**](vss-rollforward-type.md)
+[**VSS\_ROLLFORWARD\_TYPE**](/windows/win32/Vss/ne-vss-_vss_rollforward_type?branch=master)
 
 ## Existing VSS Enumeration Modifications
 
 <dl> <dt>
 
-<span id="VSS_BACKUP_SCHEMA_enumeration"></span><span id="vss_backup_schema_enumeration"></span><span id="VSS_BACKUP_SCHEMA_ENUMERATION"></span>[**VSS\_BACKUP\_SCHEMA**](vss-backup-schema.md) enumeration
+<span id="VSS_BACKUP_SCHEMA_enumeration"></span><span id="vss_backup_schema_enumeration"></span><span id="VSS_BACKUP_SCHEMA_ENUMERATION"></span>[**VSS\_BACKUP\_SCHEMA**](/windows/win32/Vss/ne-vss-_vss_backup_schema?branch=master) enumeration
 </dt> <dd>
 
 <dl> <dt>
@@ -54,7 +59,7 @@ VSS\_BS\_ROLLFORWARD\_RESTORE
 
 <dl> <dt>
 
-<span id="VSS_COMPONENT_FLAGS_enumeration"></span><span id="vss_component_flags_enumeration"></span><span id="VSS_COMPONENT_FLAGS_ENUMERATION"></span>[**VSS\_COMPONENT\_FLAGS**](vss-component-flags.md) enumeration
+<span id="VSS_COMPONENT_FLAGS_enumeration"></span><span id="vss_component_flags_enumeration"></span><span id="VSS_COMPONENT_FLAGS_ENUMERATION"></span>[**VSS\_COMPONENT\_FLAGS**](/windows/win32/VsWriter/ne-vswriter-vss_component_flags?branch=master) enumeration
 </dt> <dd>
 
 <dl> <dt>
@@ -68,7 +73,7 @@ VSS\_CF\_NOT\_SYSTEM\_STATE
 
 <dl> <dt>
 
-<span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_enumeration"></span><span id="_vss_volume_snapshot_attributes_enumeration"></span><span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_ENUMERATION"></span>[**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](-vss-volume-snapshot-attributes.md) enumeration
+<span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_enumeration"></span><span id="_vss_volume_snapshot_attributes_enumeration"></span><span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_ENUMERATION"></span>[**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](/windows/win32/Vss/ne-vss-_vss_volume_snapshot_attributes?branch=master) enumeration
 </dt> <dd>
 
 <dl> <dt>

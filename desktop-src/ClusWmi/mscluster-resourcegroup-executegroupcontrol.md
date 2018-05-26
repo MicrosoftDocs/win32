@@ -4,13 +4,16 @@ description: Executes a control code on the group. For a list of group control c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'aee5a22f-36b1-4aec-9c4d-613f54490b66'
-ms.prod: 'windows-server-dev'
+ms.assetid: aee5a22f-36b1-4aec-9c4d-613f54490b66
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ExecuteGroupControl method", "ExecuteGroupControl method, MSCluster_ResourceGroup class", "MSCluster_ResourceGroup class, ExecuteGroupControl method"]
+keywords:
+- ExecuteGroupControl method
+- ExecuteGroupControl method, MSCluster_ResourceGroup class
+- MSCluster_ResourceGroup class, ExecuteGroupControl method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExecuteGroupControl method of the MSCluster\_ResourceGroup class
@@ -30,10 +36,10 @@ Executes a control code on the group. For a list of group control codes, see [Gr
 
 ```mof
 void ExecuteGroupControl(
-  [in]  sint32 ControlCode,
-  [in]  uint8  InputBuffer[],
-  [out] uint8  OutputBuffer[],
-  [out] sint32 OutputBufferSize
+  [in]  sint32 ControlCode,
+  [in]  uint8  InputBuffer[],
+  [out] uint8  OutputBuffer[],
+  [out] sint32 OutputBufferSize
 );
 ```
 
@@ -90,7 +96,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -110,9 +116,9 @@ This method does not return a value.
 [Group Control Codes](https://msdn.microsoft.com/library/aa369684)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

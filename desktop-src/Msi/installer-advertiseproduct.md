@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AdvertiseProduct method of the Installer object advertises an installation package.'
-ms.assetid: 'a060ccb5-353f-439b-8d48-709c81da5f2c'
-title: 'Installer::AdvertiseProduct method'
+---
+Description: The AdvertiseProduct method of the Installer object advertises an installation package.
+ms.assetid: a060ccb5-353f-439b-8d48-709c81da5f2c
+title: InstallerAdvertiseProduct method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer::AdvertiseProduct method
@@ -90,7 +95,7 @@ This method does not return a value.
 
 ## Remarks
 
-The **AdvertiseProduct** method uses the [**MsiAdvertiseProductEx**](msiadvertiseproductex.md) function.
+The **AdvertiseProduct** method uses the [**MsiAdvertiseProductEx**](/windows/win32/Msi/nf-msi-msiadvertiseproductexa?branch=master) function.
 
 ## Examples
 

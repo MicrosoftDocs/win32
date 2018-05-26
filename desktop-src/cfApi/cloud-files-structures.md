@@ -1,7 +1,12 @@
 ---
-Description: 'The following structures are used in creating and maintaining placeholder files and directories.'
-ms.assetid: '50CCA8F5-7118-48E8-ADBF-337798FAF549'
+Description: The following structures are used in creating and maintaining placeholder files and directories.
+ms.assetid: 50CCA8F5-7118-48E8-ADBF-337798FAF549
 title: Cloud Filter Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cloud Filter Structures
@@ -38,11 +43,11 @@ The following structures are used in creating and maintaining placeholder files 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

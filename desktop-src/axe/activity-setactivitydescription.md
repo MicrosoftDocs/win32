@@ -1,8 +1,11 @@
 ---
 title: Activity SetActivityDescription method
 description: Sets the activity description of the Activity.
-ms.assetid: '459DCBE3-4E97-4078-B447-75CF26EFA98C'
-keywords: ["SetActivityDescription method Access Execution Engine", "SetActivityDescription method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , SetActivityDescription method"]
+ms.assetid: 459DCBE3-4E97-4078-B447-75CF26EFA98C
+keywords:
+- SetActivityDescription method Access Execution Engine
+- SetActivityDescription method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , SetActivityDescription method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::SetActivityDescription method
@@ -22,7 +30,7 @@ Sets the activity description of the **Activity**.
 
 ```C++
 virtual HRESULT SetActivityDescription(
-  [in] LPCWSTR activityDescription
+  [in] LPCWSTR activityDescription
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The activity description is the value of element **Activity/ActivityDescription*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The activity description is the value of element **Activity/ActivityDescription*
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

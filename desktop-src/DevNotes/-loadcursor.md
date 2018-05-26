@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads the specified cursor.'
-ms.assetid: '36caac30-0121-4866-9eac-5bb4e64ba517'
+---
+Description: Loads the specified cursor.
+ms.assetid: 36caac30-0121-4866-9eac-5bb4e64ba517
 title: '\_LoadCursor function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_LoadCursor function

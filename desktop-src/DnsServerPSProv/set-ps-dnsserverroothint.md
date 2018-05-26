@@ -2,13 +2,16 @@
 title: Set method of the PS\_DnsServerRootHint class
 description: Updates a DNS root hint.
 audience: developer
-ms.assetid: '0333ec95-d7f6-4478-9ad3-00c7f422ac9d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0333ec95-d7f6-4478-9ad3-00c7f422ac9d
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DnsServerRootHint class", "PS_DnsServerRootHint class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DnsServerRootHint class
+- PS_DnsServerRootHint class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DnsServerRootHint class
@@ -28,10 +34,10 @@ Updates a DNS root hint.
 
 ```mof
 uint32 Set(
-  [in]  DnsServerRootHint InputObject,
-  [in]  string            ComputerName,
-  [in]  boolean           PassThru,
-  [out] DnsServerRootHint cmdletOutput
+  [in]  DnsServerRootHint InputObject,
+  [in]  string            ComputerName,
+  [in]  boolean           PassThru,
+  [out] DnsServerRootHint cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ Receives the [**DnsServerRootHint**](dnsserverroothint.md) object returned by th
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ Receives the [**DnsServerRootHint**](dnsserverroothint.md) object returned by th
 [**PS\_DnsServerRootHint**](ps-dnsserverroothint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

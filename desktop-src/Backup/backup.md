@@ -1,8 +1,16 @@
 ---
 title: Backup
 description: Allow backup applications to communicate with other applications and services about backup and restore operations. Perform tape backup, initialize tape, and retrieve tape drive information. Maintain duplicate files with single-instance store (SIS).
-ms.assetid: '97c3e2c4-8214-4093-bd13-3c38c91e08bd'
-keywords: ["backup Backup", "backup Backup , home", "restore operations Backup"]
+ms.assetid: 97c3e2c4-8214-4093-bd13-3c38c91e08bd
+keywords:
+- backup Backup
+- backup Backup , home
+- restore operations Backup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Backup

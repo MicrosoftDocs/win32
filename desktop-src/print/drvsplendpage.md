@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '09c3db82-7890-48c8-a91f-3d1f3f01ef84'
+---
+Description: .
+ms.assetid: 09c3db82-7890-48c8-a91f-3d1f3f01ef84
 title: DrvSplEndPage function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvSplEndPage function

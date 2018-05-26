@@ -1,8 +1,20 @@
 ---
 title: Seeking in ASF Files
 description: Seeking in ASF Files
-ms.assetid: 'a1717cb4-9f41-4148-b088-a6517be7da9b'
-keywords: ["Windows Media Format SDK,seeking in ASF files", "Windows Media Format SDK,DirectShow", "Advanced Systems Format (ASF),DirectShow", "ASF (Advanced Systems Format),DirectShow", "Advanced Systems Format (ASF),seeking", "ASF (Advanced Systems Format),seeking", "DirectShow,seeking in ASF files"]
+ms.assetid: a1717cb4-9f41-4148-b088-a6517be7da9b
+keywords:
+- Windows Media Format SDK,seeking in ASF files
+- Windows Media Format SDK,DirectShow
+- Advanced Systems Format (ASF),DirectShow
+- ASF (Advanced Systems Format),DirectShow
+- Advanced Systems Format (ASF),seeking
+- ASF (Advanced Systems Format),seeking
+- DirectShow,seeking in ASF files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Seeking in ASF Files

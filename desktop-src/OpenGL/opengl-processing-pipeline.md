@@ -1,8 +1,17 @@
 ---
 title: OpenGL Processing Pipeline
 description: OpenGL Processing Pipeline
-ms.assetid: '98ac89d1-0d7b-45b2-8d6e-c421b9289d60'
-keywords: ["OpenGL,processing pipeline", "processing pipeline OpenGL", "pipeline OpenGL", "framebuffers,processing pipeline"]
+ms.assetid: 98ac89d1-0d7b-45b2-8d6e-c421b9289d60
+keywords:
+- OpenGL,processing pipeline
+- processing pipeline OpenGL
+- pipeline OpenGL
+- framebuffers,processing pipeline
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenGL Processing Pipeline

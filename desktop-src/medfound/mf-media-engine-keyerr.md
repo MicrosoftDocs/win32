@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines media key error codes for the media engine.'
-ms.assetid: 'F6E13260-74A2-40D0-A704-4E1CDB16B8D8'
-title: 'MF\_MEDIA\_ENGINE\_KEYERR enumeration'
+---
+Description: Defines media key error codes for the media engine.
+ms.assetid: F6E13260-74A2-40D0-A704-4E1CDB16B8D8
+title: MF\_MEDIA\_ENGINE\_KEYERR enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MEDIA\_ENGINE\_KEYERR enumeration
@@ -72,7 +77,7 @@ An error with the domain occurred.
 
 ## Remarks
 
-**MF\_MEDIA\_ENGINE\_KEYERR** is used with the *code* parameter of [**IMFMediaKeySessionNotify::KeyError**](imfmediakeysessionnotify-keyerror.md) and the *code* value returned from [**IMFMediaKeySession::GetError**](imfmediakeysession-geterror.md).
+**MF\_MEDIA\_ENGINE\_KEYERR** is used with the *code* parameter of [**IMFMediaKeySessionNotify::KeyError**](/windows/win32/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyerror?branch=master) and the *code* value returned from [**IMFMediaKeySession::GetError**](imfmediakeysession-geterror.md).
 
 ## Requirements
 

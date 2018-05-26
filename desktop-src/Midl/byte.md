@@ -2,13 +2,19 @@
 title: byte attribute
 description: The byte keyword specifies an 8-bit data item.
 ms.assetid: d6401e05-5498-4d66-8f70-2c794ed26527
-keywords: ["byte attribute MIDL"]
+keywords:
+- byte attribute MIDL
 topic_type:
 - apiref
 api_name:
 - byte
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # byte attribute

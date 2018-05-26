@@ -1,8 +1,9 @@
 ---
 title: gluPwlCurve function
 description: The gluPwlCurve function describes a piecewise linear Non-Uniform Rational B-Spline (NURBS) trimming curve.
-ms.assetid: '3d08e7e8-dfdf-447c-9795-bd73299412b5'
-keywords: ["gluPwlCurve function OpenGL"]
+ms.assetid: 3d08e7e8-dfdf-447c-9795-bd73299412b5
+keywords:
+- gluPwlCurve function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluPwlCurve function
@@ -22,11 +28,11 @@ The **gluPwlCurve** function describes a piecewise linear Non-Uniform Rational B
 
 ```C++
 void WINAPI gluPwlCurve(
-   GLUnurbs *nobj,
-   GLint    count,
-   GLfloat  *array,
-   GLint    stride,
-   GLenum   type
+   GLUnurbs *nobj,
+   GLint    count,
+   GLfloat  *array,
+   GLint    stride,
+   GLenum   type
 );
 ```
 
@@ -87,8 +93,8 @@ If *type* is GLU\_MAP1\_TRIM\_2, it describes a curve in two-dimensional (*u* an
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -111,9 +117,9 @@ If *type* is GLU\_MAP1\_TRIM\_2, it describes a curve in two-dimensional (*u* an
 [**gluNurbsCurve**](glunurbscurve.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

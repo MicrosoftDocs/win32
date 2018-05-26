@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains pointers to callback functions that can be used by cryptographic service provider (CSP) functions.'
-ms.assetid: '84a379e9-c6b9-4c1d-bbbb-9bed4a045d90'
+---
+Description: Contains pointers to callback functions that can be used by cryptographic service provider (CSP) functions.
+ms.assetid: 84a379e9-c6b9-4c1d-bbbb-9bed4a045d90
 title: VTableProvStruc structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VTableProvStruc structure
@@ -52,7 +57,7 @@ This is a version 1 member.
 **FuncReturnhWnd**
 </dt> <dd>
 
-The address of a [**FuncReturnhWnd**](funcreturnhwnd.md) callback function that returns the window handle that the CSP should use as the parent or owner of any user interface that is displayed. CSPs that do not communicate directly with the user and CSPs that use dedicated hardware for this purpose can ignore this entry. This window handle is zero by default, but an application can set this to a different value by using the [**CryptSetProvParam**](cryptsetprovparam.md) function to set the **PP\_CLIENT\_HWND** property.
+The address of a [**FuncReturnhWnd**](funcreturnhwnd.md) callback function that returns the window handle that the CSP should use as the parent or owner of any user interface that is displayed. CSPs that do not communicate directly with the user and CSPs that use dedicated hardware for this purpose can ignore this entry. This window handle is zero by default, but an application can set this to a different value by using the [**CryptSetProvParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptsetprovparam?branch=master) function to set the **PP\_CLIENT\_HWND** property.
 
 This function pointer can be stored and used until the CSP context is released.
 

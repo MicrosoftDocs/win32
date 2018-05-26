@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.foregroundColor
 description: The foregroundColor attribute specifies or retrieves the text color in the list box control.
-ms.assetid: 'a714a9b5-1735-4a62-b947-6dad194e3bb7'
-keywords: ["LISTBOX.foregroundColor Windows Media Player"]
+ms.assetid: a714a9b5-1735-4a62-b947-6dad194e3bb7
+keywords:
+- LISTBOX.foregroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.foregroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.foregroundColor
@@ -46,9 +52,9 @@ This attribute is a read/write **String** containing any Microsoft Internet Expl
 [**LISTBOX.backgroundColor**](listbox-backgroundcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: System.Sound object
 description: Defines the methods available for playing sounds.
-ms.assetid: 'e6170f59-0fad-4870-934e-54c51a942e72'
-keywords: ["System.Sound object Windows Sidebar", "System.Sound object Windows Sidebar , described"]
+ms.assetid: e6170f59-0fad-4870-934e-54c51a942e72
+keywords:
+- System.Sound object Windows Sidebar
+- System.Sound object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Sound object
@@ -38,7 +45,7 @@ The **System.Sound** object has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -46,18 +53,18 @@ The **System.Sound** object has these methods.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

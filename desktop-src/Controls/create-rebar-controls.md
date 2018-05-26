@@ -1,12 +1,17 @@
 ---
 title: How to Create Rebar Controls
 description: An application creates a rebar control by calling the CreateWindowEx function, specifying REBARCLASSNAME as the window class.
-ms.assetid: 'F17CC2A4-BDC6-48A6-9AF5-19FCF65CC39A'
+ms.assetid: F17CC2A4-BDC6-48A6-9AF5-19FCF65CC39A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create Rebar Controls
 
-An application creates a rebar control by calling the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying [**REBARCLASSNAME**](common-control-window-classes.md#rebarclassname) as the window class. The application must first register the window class by calling the [**InitCommonControlsEx**](initcommoncontrolsex.md) function, specifying the ICC\_COOL\_CLASSES bit in the accompanying [**INITCOMMONCONTROLSEX**](initcommoncontrolsex-4vvx.md) structure.
+An application creates a rebar control by calling the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying [**REBARCLASSNAME**](common-control-window-classes.md#rebarclassname) as the window class. The application must first register the window class by calling the [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) function, specifying the ICC\_COOL\_CLASSES bit in the accompanying [**INITCOMMONCONTROLSEX**](/windows/win32/Commctrl/ns-commctrl-taginitcommoncontrolsex?branch=master) structure.
 
 ## What you need to know
 

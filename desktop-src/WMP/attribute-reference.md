@@ -1,8 +1,27 @@
 ---
 title: Attribute Reference
 description: Attribute Reference
-ms.assetid: '12fdeba6-14db-4689-a3cb-cb36dbc9204f'
-keywords: ["Windows Media Player,attributes for media items", "Windows Media Player Mobile,attributes for media items", "Windows Media Player object model,reference", "object model,reference", "ActiveX control,reference", "Windows Media Player ActiveX control,reference", "Windows Media Player Mobile ActiveX control,reference", "reference for object model,attributes", "Windows Media Player object model,attributes for media items", "object model,attributes for media items", "Windows Media Player ActiveX control,attributes for media items", "Windows Media Player Mobile ActiveX control,attributes for media items", "ActiveX control,attributes for media items", "attributes,reference"]
+ms.assetid: 12fdeba6-14db-4689-a3cb-cb36dbc9204f
+keywords:
+- Windows Media Player,attributes for media items
+- Windows Media Player Mobile,attributes for media items
+- Windows Media Player object model,reference
+- object model,reference
+- ActiveX control,reference
+- Windows Media Player ActiveX control,reference
+- Windows Media Player Mobile ActiveX control,reference
+- reference for object model,attributes
+- Windows Media Player object model,attributes for media items
+- object model,attributes for media items
+- Windows Media Player ActiveX control,attributes for media items
+- Windows Media Player Mobile ActiveX control,attributes for media items
+- ActiveX control,attributes for media items
+- attributes,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attribute Reference

@@ -1,7 +1,12 @@
 ---
-Description: 'Lists additional available documentation on cryptography and authentication.'
-ms.assetid: 'c4cecc97-25eb-43e8-9f4d-9ed3fc4acf0a'
+Description: Lists additional available documentation on cryptography and authentication.
+ms.assetid: c4cecc97-25eb-43e8-9f4d-9ed3fc4acf0a
 title: Additional Documentation on Cryptography
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Additional Documentation on Cryptography

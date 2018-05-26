@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the latitude of the destination point.'
-ms.assetid: '63d8a3a3-76ec-4121-b48b-eb5034117d04'
-title: 'System.GPS.DestLatitude'
+Description: Indicates the latitude of the destination point.
+ms.assetid: 63d8a3a3-76ec-4121-b48b-eb5034117d04
+title: System.GPS.DestLatitude
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.DestLatitude

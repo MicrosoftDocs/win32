@@ -1,8 +1,9 @@
 ---
 title: TVM\_SETLINECOLOR message
 description: The TVM\_SETLINECOLOR message sets the current line color.
-ms.assetid: 'c5fc28af-5603-489f-aa6b-73e153f9aebc'
-keywords: ["TVM_SETLINECOLOR message Windows Controls"]
+ms.assetid: c5fc28af-5603-489f-aa6b-73e153f9aebc
+keywords:
+- TVM_SETLINECOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_SETLINECOLOR message
@@ -45,8 +51,8 @@ This message only changes line colors. To change the colors of the '+' and '-' i
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ This message only changes line colors. To change the colors of the '+' and '-' i
 [**TVM\_GETLINECOLOR**](tvm-getlinecolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

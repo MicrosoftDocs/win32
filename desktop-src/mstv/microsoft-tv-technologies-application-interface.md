@@ -1,7 +1,12 @@
 ---
 title: Microsoft TV Technologies Application Interface
 description: Microsoft TV Technologies Application Interface
-ms.assetid: '03aac331-3e90-4464-a502-d34a51a70b24'
+ms.assetid: 03aac331-3e90-4464-a502-d34a51a70b24
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft TV Technologies Application Interface

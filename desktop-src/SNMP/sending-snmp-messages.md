@@ -1,18 +1,23 @@
 ---
 title: Sending SNMP Messages
 description: A WinSNMP application initiates a transmission request by sending an SNMP message. SNMP messages include an SNMP protocol data unit. For more information, see Working with Protocol Data Units.
-ms.assetid: 'a7439cd2-af13-4e2b-a0a6-5cc271a011e1'
+ms.assetid: a7439cd2-af13-4e2b-a0a6-5cc271a011e1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending SNMP Messages
 
 A WinSNMP application initiates a transmission request by sending an SNMP message. SNMP messages include an SNMP protocol data unit. For more information, see [Working with Protocol Data Units](working-with-protocol-data-units.md).
 
-A WinSNMP application must call the [**SnmpSendMsg**](snmpsendmsg.md) function to request that the Microsoft WinSNMP implementation transmit the PDU, with the other required message elements defined by the relevant RFC. In addition to the destination entity, the application must specify the source entity and a context for the request. The [**SnmpSendMsg**](snmpsendmsg.md) function executes asynchronously.
+A WinSNMP application must call the [**SnmpSendMsg**](/windows/win32/Winsnmp/nf-winsnmp-snmpsendmsg?branch=master) function to request that the Microsoft WinSNMP implementation transmit the PDU, with the other required message elements defined by the relevant RFC. In addition to the destination entity, the application must specify the source entity and a context for the request. The [**SnmpSendMsg**](/windows/win32/Winsnmp/nf-winsnmp-snmpsendmsg?branch=master) function executes asynchronously.
 
-The WinSNMP application must call the [**SnmpRecvMsg**](snmprecvmsg.md) function to retrieve the response to an **SnmpSendMsg** request.
+The WinSNMP application must call the [**SnmpRecvMsg**](/windows/win32/Winsnmp/nf-winsnmp-snmprecvmsg?branch=master) function to retrieve the response to an **SnmpSendMsg** request.
 
-The implementation verifies the validity of the PDU and the other message elements when an application calls [**SnmpSendMsg**](snmpsendmsg.md).
+The implementation verifies the validity of the PDU and the other message elements when an application calls [**SnmpSendMsg**](/windows/win32/Winsnmp/nf-winsnmp-snmpsendmsg?branch=master).
 
  
 

@@ -4,11 +4,14 @@ description: An object that supports the ITSRemoteProgram3 interface.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'afb26152-32eb-45de-a228-a6f7ca7eea2b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: afb26152-32eb-45de-a228-a6f7ca7eea2b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RemoteProgram3 property Remote Desktop Services", "RemoteProgram3 property Remote Desktop Services , IMsRdpClient10 interface", "IMsRdpClient10 interface Remote Desktop Services , RemoteProgram3 property"]
+keywords:
+- RemoteProgram3 property Remote Desktop Services
+- RemoteProgram3 property Remote Desktop Services , IMsRdpClient10 interface
+- IMsRdpClient10 interface Remote Desktop Services , RemoteProgram3 property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient10::RemoteProgram3 property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_RemoteProgram3(
-  [out, retval] ITSRemoteProgram3 **ppRemoteProgram
+  [out, retval] ITSRemoteProgram3 **ppRemoteProgram
 );
 ```
 
@@ -47,8 +53,8 @@ Returns an [**ITSRemoteProgram3**](itsremoteprogram3.md) interface pointer.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
@@ -61,9 +67,9 @@ Returns an [**ITSRemoteProgram3**](itsremoteprogram3.md) interface pointer.
 [**IMsRdpClient10**](imsrdpclient10.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,16 @@
 title: GetByUnknown method of the PS\_DnsServerResourceRecord class
 description: Retrieves the resource record from a specified zone.
 audience: developer
-ms.assetid: 'a016bf03-9a7e-492b-85ef-c7464d0fdcda'
-ms.prod: 'windows-server-dev'
+ms.assetid: a016bf03-9a7e-492b-85ef-c7464d0fdcda
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetByUnknown method", "GetByUnknown method, PS_DnsServerResourceRecord class", "PS_DnsServerResourceRecord class, GetByUnknown method"]
+keywords:
+- GetByUnknown method
+- GetByUnknown method, PS_DnsServerResourceRecord class
+- PS_DnsServerResourceRecord class, GetByUnknown method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByUnknown method of the PS\_DnsServerResourceRecord class
@@ -28,14 +34,14 @@ Retrieves the resource record from a specified zone.
 
 ```mof
 uint32 GetByUnknown(
-  [in]  string                  Name,
-  [in]  string                  ComputerName,
-  [in]  string                  ZoneName,
-  [in]  boolean                 Node,
-  [in]  string                  ZoneScope,
-  [in]  string                  VirtualizationInstance,
-  [in]  uint16                  Type,
-  [out] DnsServerResourceRecord cmdletOutput[]
+  [in]  string                  Name,
+  [in]  string                  ComputerName,
+  [in]  string                  ZoneName,
+  [in]  boolean                 Node,
+  [in]  string                  ZoneScope,
+  [in]  string                  VirtualizationInstance,
+  [in]  uint16                  Type,
+  [out] DnsServerResourceRecord cmdletOutput[]
 );
 ```
 
@@ -108,7 +114,7 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -122,9 +128,9 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 [**PS\_DnsServerResourceRecord**](ps-dnsserverresourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

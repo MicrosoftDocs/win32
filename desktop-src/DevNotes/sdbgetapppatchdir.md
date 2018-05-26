@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the system AppPatch directory.'
-ms.assetid: '1c79411f-1f90-4b90-84c7-24a34cf0d91d'
+---
+Description: Retrieves the system AppPatch directory.
+ms.assetid: 1c79411f-1f90-4b90-84c7-24a34cf0d91d
 title: SdbGetAppPatchDir function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbGetAppPatchDir function

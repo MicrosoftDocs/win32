@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_ServerDomainContainment class
 description: Every instance of the MicrosoftDNS\_Server association WMI class may contain multiple instances of the MicrosoftDNS\_Domain class.
-ms.assetid: 'a16a11fb-65fc-4f12-903c-b3a61f6a4720'
-keywords: ["MicrosoftDNS_ServerDomainContainment class DNS", "MicrosoftDNS_ServerDomainContainment class DNS , described"]
+ms.assetid: a16a11fb-65fc-4f12-903c-b3a61f6a4720
+keywords:
+- MicrosoftDNS_ServerDomainContainment class DNS
+- MicrosoftDNS_ServerDomainContainment class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_ServerDomainContainment class
@@ -88,7 +95,7 @@ The **MicrosoftDNS\_ServerDomainContainment** class is derived from the **CIM\_C
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -107,9 +114,9 @@ The **MicrosoftDNS\_ServerDomainContainment** class is derived from the **CIM\_C
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

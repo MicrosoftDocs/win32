@@ -1,7 +1,12 @@
 ---
-Description: 'This page describes the behavior of multicast socket options based on various socket option settings states.'
-ms.assetid: 'a411e831-7b28-4ab5-a09a-650db99a7cd5'
+Description: This page describes the behavior of multicast socket options based on various socket option settings states.
+ms.assetid: a411e831-7b28-4ab5-a09a-650db99a7cd5
 title: Multicast Socket Option Behavior
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multicast Socket Option Behavior

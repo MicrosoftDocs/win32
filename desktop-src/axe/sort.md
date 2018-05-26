@@ -1,14 +1,20 @@
 ---
 title: Sort element
 description: The value of the Sort node gives the programmatic name of the metric the test case table should initially be sorted by.
-ms.assetid: 'D0EC3A71-8923-4198-9D4B-513B3264884F'
-keywords: ["Sort element Access Execution Engine"]
+ms.assetid: D0EC3A71-8923-4198-9D4B-513B3264884F
+keywords:
+- Sort element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Sort
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sort element
@@ -56,9 +62,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

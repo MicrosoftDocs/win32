@@ -4,11 +4,14 @@ description: Specifies if the remote monitor layout is identical to the local mo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8F3C6650-870C-417C-82FC-E145FC360012'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8F3C6650-870C-417C-82FC-E145FC360012
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RemoteMonitorLayoutMatchesLocal property Remote Desktop Services", "RemoteMonitorLayoutMatchesLocal property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , RemoteMonitorLayoutMatchesLocal property"]
+keywords:
+- RemoteMonitorLayoutMatchesLocal property Remote Desktop Services
+- RemoteMonitorLayoutMatchesLocal property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , RemoteMonitorLayoutMatchesLocal property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable5::RemoteMonitorLayoutMatchesLocal property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_RemoteMonitorLayoutMatchesLocal(
-  [out, retval] VARIANT_BOOL *pfRemoteMatchesLocal
+  [out, retval] VARIANT_BOOL *pfRemoteMatchesLocal
 );
 ```
 
@@ -47,8 +53,8 @@ Receives the property value.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |
+| Minimum supported client<br/> | Windows 7<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | IID<br/>                      | IID\_IMsRdpClientNonScriptable5 is defined as 4f6996d5-d7b1-412c-b0ff-063718566907<br/> |
@@ -62,9 +68,9 @@ Receives the property value.
 [**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

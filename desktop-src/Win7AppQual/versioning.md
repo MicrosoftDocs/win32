@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '974650d9-504a-4f19-bc71-90fbc92672d9'
+Description: .
+ms.assetid: 974650d9-504a-4f19-bc71-90fbc92672d9
 title: Versioning
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Versioning

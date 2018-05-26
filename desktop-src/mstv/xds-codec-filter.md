@@ -1,7 +1,12 @@
 ---
 title: XDS Codec Filter
 description: XDS Codec Filter
-ms.assetid: '5b04314e-76e4-48af-911f-707a5db2100c'
+ms.assetid: 5b04314e-76e4-48af-911f-707a5db2100c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XDS Codec Filter
@@ -16,7 +21,7 @@ This filter receives XDS data from the CC Decoder filter or some other source. I
 
 |                                            |                                                                                                                  |
 |--------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| Filter interfaces                          | [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526), [**IBroadcastEvent**](ibroadcastevent.md), [**IXDSCodec**](ixdscodec.md) |
+| Filter interfaces                          | [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526), [**IBroadcastEvent**](/windows/previous-versions/tuner/nn-tuner-ibroadcastevent?branch=master), [**IXDSCodec**](/windows/previous-versions/EncDec/nn-encdec-ixdscodec?branch=master) |
 | Input pin media types                      | Major type: MEDIATYPE\_AUXLine21DataSubtype: MEDIASUBTYPE\_Line21\_BytePair<br/>                           |
 | Input pin interfaces                       | [**IMemInputPin**](https://msdn.microsoft.com/library/windows/desktop/dd407073), [**IPin**](https://msdn.microsoft.com/library/windows/desktop/dd390397), [**IQualityControl**](https://msdn.microsoft.com/library/windows/desktop/dd376912)     |
 | Output pin media types                     | Not applicable                                                                                                   |
@@ -27,7 +32,7 @@ This filter receives XDS data from the CC Decoder filter or some other source. I
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -39,9 +44,9 @@ This filter receives XDS data from the CC Decoder filter or some other source. I
 [About the Stream Buffer Engine](about-the-stream-buffer-engine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

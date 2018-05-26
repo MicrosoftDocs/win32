@@ -1,7 +1,12 @@
 ---
-Description: 'Color can be used to communicate ideas, show relationships between items, and improve the appeal and quality of output.'
-ms.assetid: 'b47c1ed3-ce72-437e-a46d-2b59193987d6'
+Description: Color can be used to communicate ideas, show relationships between items, and improve the appeal and quality of output.
+ms.assetid: b47c1ed3-ce72-437e-a46d-2b59193987d6
 title: About Colors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Colors

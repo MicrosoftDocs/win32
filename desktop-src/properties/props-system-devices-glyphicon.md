@@ -1,7 +1,12 @@
 ---
-Description: 'Glyph Icon Path.'
-ms.assetid: '114dbfa2-7a83-4666-b4ad-6563fb8efaaa'
-title: 'System.Devices.GlyphIcon'
+Description: Glyph Icon Path.
+ms.assetid: 114dbfa2-7a83-4666-b4ad-6563fb8efaaa
+title: System.Devices.GlyphIcon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.GlyphIcon

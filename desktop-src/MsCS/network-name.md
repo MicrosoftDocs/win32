@@ -4,11 +4,20 @@ description: The Cluster Name resource type is used to provide an alternate comp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7b5b9d3f-98ab-419b-936e-26e9e5fc022d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7b5b9d3f-98ab-419b-936e-26e9e5fc022d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,Cluster Name", "Cluster Name resource type Failover Cluster", "Cluster Name resource type Failover Cluster ,resources", "resource types Failover Cluster ,Network Name", "Network Name resource type Failover Cluster", "Network Name resource type Failover Cluster ,resources"]
+keywords:
+- resource types Failover Cluster ,Cluster Name
+- Cluster Name resource type Failover Cluster
+- Cluster Name resource type Failover Cluster ,resources
+- resource types Failover Cluster ,Network Name
+- Network Name resource type Failover Cluster
+- Network Name resource type Failover Cluster ,resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Name

@@ -1,7 +1,12 @@
 ---
-Description: 'Description of conflicts between application gestures.'
-ms.assetid: '9d331961-5fb4-4bcb-93bc-9b53c7f83ff1'
+Description: Description of conflicts between application gestures.
+ms.assetid: 9d331961-5fb4-4bcb-93bc-9b53c7f83ff1
 title: Conflicts Between Application Gestures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Conflicts Between Application Gestures
@@ -22,11 +27,11 @@ The following table shows the set of conflicting application gestures with an X 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

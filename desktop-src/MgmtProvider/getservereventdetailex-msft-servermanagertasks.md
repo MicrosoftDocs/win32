@@ -4,11 +4,14 @@ description: Retrieves the details of events generated in an event log by a part
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5af8da79-fbfb-4057-827e-4eb72505ecf8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 5af8da79-fbfb-4057-827e-4eb72505ecf8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetServerEventDetailEx method", "GetServerEventDetailEx method, MSFT_ServerManagerTasks class", "MSFT_ServerManagerTasks class, GetServerEventDetailEx method"]
+keywords:
+- GetServerEventDetailEx method
+- GetServerEventDetailEx method, MSFT_ServerManagerTasks class
+- MSFT_ServerManagerTasks class, GetServerEventDetailEx method
 topic_type:
 - apiref
 api_name:
@@ -17,25 +20,28 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetServerEventDetailEx method of the MSFT\_ServerManagerTasks class
 
 Retrieves the details of events generated in an event log by a particular source.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.
 
 ## Syntax
 
 
 ```mof
 uint32 GetServerEventDetailEx(
-  [in]  string                 FilterXml,
-  [in]  uint64                 Skip,
-  [in]  uint64                 Top,
-  [in]  boolean                ReverseDirection,
-  [in]  uint32                 BatchSize,
-  [out] MSFT_ServerEventDetail cmdletOutput[]
+  [in]  string                 FilterXml,
+  [in]  uint64                 Skip,
+  [in]  uint64                 Top,
+  [in]  boolean                ReverseDirection,
+  [in]  uint32                 BatchSize,
+  [out] MSFT_ServerEventDetail cmdletOutput[]
 );
 ```
 
@@ -94,7 +100,7 @@ An array of embedded [**MSFT\_ServerEventDetail**](msft-servereventdetail.md) in
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
@@ -111,9 +117,9 @@ An array of embedded [**MSFT\_ServerEventDetail**](msft-servereventdetail.md) in
 [**MSFT\_ServerEventDetail**](msft-servereventdetail.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

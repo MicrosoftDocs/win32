@@ -1,7 +1,12 @@
 ---
-Description: 'The Receive method receives a media sample, processes it, and delivers an output sample to the downstream filter. This method overrides the CTransformFilter::Receive method.'
-ms.assetid: '35e22a63-471e-4ca8-be3b-d84920cec7cb'
-title: 'CVideoTransformFilter.Receive method'
+Description: The Receive method receives a media sample, processes it, and delivers an output sample to the downstream filter. This method overrides the CTransformFilterReceive method.
+ms.assetid: 35e22a63-471e-4ca8-be3b-d84920cec7cb
+title: CVideoTransformFilter.Receive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CVideoTransformFilter.Receive method
@@ -13,7 +18,7 @@ The `Receive` method receives a media sample, processes it, and delivers an outp
 
 ```C++
 HRESULT Receive(
-   IMediaSample *pSample
+   IMediaSample *pSample
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT Receive(
 *pSample* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface on the input sample.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface on the input sample.
 
 </dd> </dl>
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include the following:
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -53,7 +58,7 @@ This method calls [**CVideoTransformFilter::ShouldSkipFrame**](cvideotransformfi
 2.  Calls [**CTransformFilter::Transform**](ctransformfilter-transform.md) to process the input sample. This method is pure virtual, and must be implemented in the derived class.
 3.  Calls [**CBaseOutputPin::Deliver**](cbaseoutputpin-deliver.md) to deliver the output sample.
 
-Also, this method checks for format changes on the input or output sample, by calling [**IMediaSample::GetMediaType**](imediasample-getmediatype.md). If there is a format change, the method sets the connection type on the corresponding pin. Before it sets the new type, it calls **StopStreaming**. After it sets the new type, it calls **StartStreaming**. The derived class can use these methods to update its internal state. The derived class might also need to check for the new format in its **Transform** method.
+Also, this method checks for format changes on the input or output sample, by calling [**IMediaSample::GetMediaType**](/windows/win32/Strmif/nf-strmif-imediasample-getmediatype?branch=master). If there is a format change, the method sets the connection type on the corresponding pin. Before it sets the new type, it calls **StopStreaming**. After it sets the new type, it calls **StartStreaming**. The derived class can use these methods to update its internal state. The derived class might also need to check for the new format in its **Transform** method.
 
 ## Requirements
 
@@ -73,9 +78,9 @@ Also, this method checks for format changes on the input or output sample, by ca
 [**CVideoTransformFilter Class**](cvideotransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: iadd (sm4 - asm)
 description: Integer addition.
-ms.assetid: 'EF78EA65-DC16-469A-9E45-52844FF4BD93'
+ms.assetid: EF78EA65-DC16-469A-9E45-52844FF4BD93
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iadd (sm4 - asm)
@@ -15,7 +20,7 @@ Integer addition.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Integer addition.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -45,7 +50,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -64,7 +69,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -73,9 +78,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

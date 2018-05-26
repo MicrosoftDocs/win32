@@ -1,8 +1,18 @@
 ---
 title: NetShell Root Context
 description: The NetShell root context is the starting point for NetShell.
-ms.assetid: 'd58ab87c-3375-422d-bb9b-348482887114'
-keywords: ["NetShell NetSh , described, root context", "root context NetSh", "context NetSh", "context NetSh , root", "components NetSh , root context"]
+ms.assetid: d58ab87c-3375-422d-bb9b-348482887114
+keywords:
+- NetShell NetSh , described, root context
+- root context NetSh
+- context NetSh
+- context NetSh , root
+- components NetSh , root context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetShell Root Context

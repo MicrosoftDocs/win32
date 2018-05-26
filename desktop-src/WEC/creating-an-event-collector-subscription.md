@@ -2,10 +2,13 @@
 title: Creating a Collector Initiated Subscription
 description: You can subscribe to receive events on a local computer (the event collector) that are forwarded from remote computers (the event sources) by using a collector-initiated subscription.
 audience: developer
-ms.assetid: '76f14e01-7a84-4c94-aea6-91189573eb89'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-event-collector'
+ms.assetid: 76f14e01-7a84-4c94-aea6-91189573eb89
+ms.prod: windows-server-dev
+ms.technology: windows-event-collector
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a Collector Initiated Subscription
@@ -16,10 +19,10 @@ The following code example follows a series of steps to create a collector initi
 
 **To create a collector initiated subscription**
 
-1.  Open the subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](ecopensubscription.md) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
-2.  Set the properties of the subscription by calling the [**EcSetSubscriptionProperty**](ecsetsubscriptionproperty.md) function. For more information about subscription properties that can be set, see the [**EC\_SUBSCRIPTION\_PROPERTY\_ID**](ec-subscription-property-id.md) enumeration.
-3.  Save the subscription by calling the [**EcSaveSubscription**](ecsavesubscription.md) function.
-4.  Close the subscription by calling the [**EcClose**](ecclose.md) function.
+1.  Open the subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](/windows/win32/Evcoll/nf-evcoll-ecopensubscription?branch=master) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
+2.  Set the properties of the subscription by calling the [**EcSetSubscriptionProperty**](/windows/win32/Evcoll/nf-evcoll-ecsetsubscriptionproperty?branch=master) function. For more information about subscription properties that can be set, see the [**EC\_SUBSCRIPTION\_PROPERTY\_ID**](/windows/win32/Evcoll/ne-evcoll-_ec_subscription_property_id?branch=master) enumeration.
+3.  Save the subscription by calling the [**EcSaveSubscription**](/windows/win32/Evcoll/nf-evcoll-ecsavesubscription?branch=master) function.
+4.  Close the subscription by calling the [**EcClose**](/windows/win32/Evcoll/nf-evcoll-ecclose?branch=master) function.
 
 For more information about adding an event source, see [Adding an Event Source to an Event Collector Subscription](adding-an-event-source-to-an-event-collector-subscription.md).
 

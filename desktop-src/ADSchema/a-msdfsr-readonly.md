@@ -4,17 +4,22 @@ description: Specifies whether the content is read-only or read/write.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '178154ae-42dd-4e10-861b-75c3367b46cd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 178154ae-42dd-4e10-861b-75c3367b46cd
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-ReadOnly attribute AD Schema", "msDFSR-ReadOnly attribute AD Schema"]
+keywords:
+- ms-DFSR-ReadOnly attribute AD Schema
+- msDFSR-ReadOnly attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-ReadOnly
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-ReadOnly attribute
@@ -38,9 +43,9 @@ Specifies whether the content is read-only or read/write.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Specifies whether the content is read-only or read/write.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

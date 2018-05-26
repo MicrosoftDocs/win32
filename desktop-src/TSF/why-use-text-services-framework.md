@@ -1,8 +1,17 @@
 ---
 title: Why Use Text Services Framework
 description: Why Use Text Services Framework
-ms.assetid: '64b3b0a1-7740-49fa-b0a6-f80040147280'
-keywords: ["Text Services Framework (TSF),about", "TSF (Text Services Framework),about", "text services,about", "TSF-enabled applications,about"]
+ms.assetid: 64b3b0a1-7740-49fa-b0a6-f80040147280
+keywords:
+- Text Services Framework (TSF),about
+- TSF (Text Services Framework),about
+- text services,about
+- TSF-enabled applications,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Why Use Text Services Framework?

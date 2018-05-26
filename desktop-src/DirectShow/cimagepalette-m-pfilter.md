@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_pFilter member variable is a pointer to the owning filter.'
-ms.assetid: 'f1a75a75-5f5c-420d-a7ab-5f0f03c6afb1'
-title: 'CImagePalette::m\_pFilter member'
+Description: The m\_pFilter member variable is a pointer to the owning filter.
+ms.assetid: f1a75a75-5f5c-420d-a7ab-5f0f03c6afb1
+title: CImagePalettem\_pFilter member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImagePalette::m\_pFilter member
@@ -35,9 +40,9 @@ CBaseFilter *m_pFilter;
 [**CImagePalette Class**](cimagepalette.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

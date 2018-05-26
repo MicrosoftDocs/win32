@@ -1,14 +1,20 @@
 ---
 title: tex1D
 description: Samples a 1D texture.
-ms.assetid: '587be0fd-af12-4bf0-862b-84988435e90e'
-keywords: ["tex1D HLSL"]
+ms.assetid: 587be0fd-af12-4bf0-862b-84988435e90e
+keywords:
+- tex1D HLSL
 topic_type:
 - apiref
 api_name:
 - tex1D
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tex1D
@@ -22,7 +28,7 @@ Samples a 1D texture.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Samples a 1D texture.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The value of the texture data.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

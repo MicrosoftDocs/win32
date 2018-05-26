@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.enabled
 description: The enabled attribute specifies or retrieves a value indicating whether the control is enabled or disabled.
-ms.assetid: 'cf96ab7c-8acd-42b6-b7ca-d084a89c97e2'
-keywords: ["AmbientAttributes.enabled Windows Media Player"]
+ms.assetid: cf96ab7c-8acd-42b6-b7ca-d084a89c97e2
+keywords:
+- AmbientAttributes.enabled Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.enabled
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.enabled
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,9 +63,9 @@ This attribute is not supported for the **SUBVIEW** element.
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: HDM\_GETOVERFLOWRECT message
 description: Gets the bounding rectangle of the overflow button when the HDS\_OVERFLOW style is set on the header control and the overflow button is visible. Send this message explicitly or by using the Header\_GetOverflowRect macro.
-ms.assetid: '52fb3dc3-ce22-40da-8222-20fd75c005ae'
-keywords: ["HDM_GETOVERFLOWRECT message Windows Controls"]
+ms.assetid: 52fb3dc3-ce22-40da-8222-20fd75c005ae
+keywords:
+- HDM_GETOVERFLOWRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_GETOVERFLOWRECT message
 
-Gets the bounding rectangle of the overflow button when the [**HDS\_OVERFLOW**](header-control-styles.md#hds-overflow) style is set on the header control and the overflow button is visible. Send this message explicitly or by using the [**Header\_GetOverflowRect**](header-getoverflowrect.md) macro.
+Gets the bounding rectangle of the overflow button when the [**HDS\_OVERFLOW**](header-control-styles.md#hds-overflow) style is set on the header control and the overflow button is visible. Send this message explicitly or by using the [**Header\_GetOverflowRect**](/windows/win32/Commctrl/nf-commctrl-header_getoverflowrect?branch=master) macro.
 
 ## Parameters
 
@@ -49,8 +55,8 @@ The header control must have style **HDF\_SPLITBUTTON**.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -62,9 +68,9 @@ The header control must have style **HDF\_SPLITBUTTON**.
 [About Header Controls](header-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The DbgSetModuleLevel function sets the logging level for one or more message types. Ignored in retail builds.'
-ms.assetid: '89d25106-8018-4089-8b77-d3c87529e984'
+Description: The DbgSetModuleLevel function sets the logging level for one or more message types. Ignored in retail builds.
+ms.assetid: 89d25106-8018-4089-8b77-d3c87529e984
 title: DbgSetModuleLevel function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgSetModuleLevel function
@@ -13,8 +18,8 @@ The **DbgSetModuleLevel** function sets the logging level for one or more messag
 
 ```C++
 void DbgSetModuleLevel(
-   DWORD Types,
-   DWORD Level
+   DWORD Types,
+   DWORD Level
 );
 ```
 
@@ -60,9 +65,9 @@ This function does not return a value.
 [Debug Output Functions](debug-output-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

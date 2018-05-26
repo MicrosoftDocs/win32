@@ -1,8 +1,14 @@
 ---
 title: TfEditCookie
 description: The TfEditCookie data type identifies an edit session that has a lock.
-ms.assetid: '1de17286-5d56-4302-a144-5fe6ca7d5557'
-keywords: ["TfEditCookie"]
+ms.assetid: 1de17286-5d56-4302-a144-5fe6ca7d5557
+keywords:
+- TfEditCookie
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TfEditCookie
@@ -22,11 +28,11 @@ The **TfEditCookie** data type is supplied by the TSF manager and is used by a c
 
 A **TfEditCookie** value is obtained in one of the following ways.
 
--   The client calls [ITfDocumentMgr::CreateContext](itfdocumentmgr-createcontext.md).
--   The TSF manager calls the client [ITfEditSession::DoEditSession](itfeditsession-doeditsession.md) method.
--   The TSF manager calls the client [ITfCompositionSink::OnCompositionTerminated](itfcompositionsink-oncompositionterminated.md) method.
--   The TSF manager calls the client [ITfCleanupContextSink::OnCleanupContext](itfcleanupcontextsink-oncleanupcontext.md) method.
--   The TSF manager calls the client [ITfTextEditSink::OnEndEdit](itftexteditsink-onendedit.md) method.
+-   The client calls [ITfDocumentMgr::CreateContext](/windows/win32/Msctf/nf-msctf-itfdocumentmgr-createcontext?branch=master).
+-   The TSF manager calls the client [ITfEditSession::DoEditSession](/windows/win32/Msctf/nf-msctf-itfeditsession-doeditsession?branch=master) method.
+-   The TSF manager calls the client [ITfCompositionSink::OnCompositionTerminated](/windows/win32/Msctf/nf-msctf-itfcompositionsink-oncompositionterminated?branch=master) method.
+-   The TSF manager calls the client [ITfCleanupContextSink::OnCleanupContext](/windows/win32/Msctf/nf-msctf-itfcleanupcontextsink-oncleanupcontext?branch=master) method.
+-   The TSF manager calls the client [ITfTextEditSink::OnEndEdit](/windows/win32/Msctf/nf-msctf-itftexteditsink-onendedit?branch=master) method.
 
 ## Requirements
 
@@ -34,9 +40,9 @@ A **TfEditCookie** value is obtained in one of the following ways.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                    |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                          |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                    |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                          |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
 | Header<br/>                   | <dl> <dt>Msctf.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msctf.idl</dt> </dl> |
 
@@ -46,24 +52,24 @@ A **TfEditCookie** value is obtained in one of the following ways.
 
 <dl> <dt>
 
-[**ITfCleanupContextSink::OnCleanupContext**](itfcleanupcontextsink-oncleanupcontext.md)
+[**ITfCleanupContextSink::OnCleanupContext**](/windows/win32/Msctf/nf-msctf-itfcleanupcontextsink-oncleanupcontext?branch=master)
 </dt> <dt>
 
-[**ITfCompositionSink::OnCompositionTerminated**](itfcompositionsink-oncompositionterminated.md)
+[**ITfCompositionSink::OnCompositionTerminated**](/windows/win32/Msctf/nf-msctf-itfcompositionsink-oncompositionterminated?branch=master)
 </dt> <dt>
 
-[**ITfDocumentMgr::CreateContext**](itfdocumentmgr-createcontext.md)
+[**ITfDocumentMgr::CreateContext**](/windows/win32/Msctf/nf-msctf-itfdocumentmgr-createcontext?branch=master)
 </dt> <dt>
 
-[**ITfEditSession::DoEditSession**](itfeditsession-doeditsession.md)
+[**ITfEditSession::DoEditSession**](/windows/win32/Msctf/nf-msctf-itfeditsession-doeditsession?branch=master)
 </dt> <dt>
 
-[**ITfTextEditSink::OnEndEdit**](itftexteditsink-onendedit.md)
+[**ITfTextEditSink::OnEndEdit**](/windows/win32/Msctf/nf-msctf-itftexteditsink-onendedit?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

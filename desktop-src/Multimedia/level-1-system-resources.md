@@ -1,8 +1,18 @@
 ---
 title: Level 1 System Resources
 description: Level 1 System Resources
-ms.assetid: '5cd900dc-5f75-4254-8213-c7cd6a4a80ba'
-keywords: ["Multimedia PC (MPC),Level 1", "MPC (Multimedia PC),Level 1", "Multimedia PC Marketing Council,Level 1", "MPC Level 1,system resources", "MPC Level 1,minimum configuration"]
+ms.assetid: 5cd900dc-5f75-4254-8213-c7cd6a4a80ba
+keywords:
+- Multimedia PC (MPC),Level 1
+- MPC (Multimedia PC),Level 1
+- Multimedia PC Marketing Council,Level 1
+- MPC Level 1,system resources
+- MPC Level 1,minimum configuration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Level 1 System Resources

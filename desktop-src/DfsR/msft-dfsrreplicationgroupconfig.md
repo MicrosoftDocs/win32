@@ -4,13 +4,15 @@ description: An instance of this class is available for each replication group t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8c76ec1f-1139-45c0-97cc-3aacceb8861e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8c76ec1f-1139-45c0-97cc-3aacceb8861e
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsrReplicationGroupConfig class Distributed File System Replication", "MSFT_DfsrReplicationGroupConfig class Distributed File System Replication , described"]
+keywords:
+- MSFT_DfsrReplicationGroupConfig class Distributed File System Replication
+- MSFT_DfsrReplicationGroupConfig class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsrReplicationGroupConfig class
@@ -45,20 +50,20 @@ An instance of this class is available for each replication group that contains 
 [ClassVersion("1.0.0"), dynamic, provider("DfsrWMIV2"), AMENDMENT]
 class MSFT_DfsrReplicationGroupConfig
 {
-  string   ReplicationGroupGuid;
-  string   ReplicationGroupName;
-  string   ReplicationGroupDn;
-  uint32   ReplicationGroupType;
-  uint32   LastChangeNumber;
+  string   ReplicationGroupGuid;
+  string   ReplicationGroupName;
+  string   ReplicationGroupDn;
+  uint32   ReplicationGroupType;
+  uint32   LastChangeNumber;
   datetime LastChangeTime;
-  string   LastChangeSource;
-  uint32   TombstoneExpiryInMin;
-  string   Description;
-  Boolean  DefaultScheduleInUtc;
-  uint8    DefaultSchedule[];
-  string   ContainerComputerName;
-  boolean  IsClustered;
-  string   VcoResourceName;
+  string   LastChangeSource;
+  uint32   TombstoneExpiryInMin;
+  string   Description;
+  Boolean  DefaultScheduleInUtc;
+  uint8    DefaultSchedule[];
+  string   ContainerComputerName;
+  boolean  IsClustered;
+  string   VcoResourceName;
 };
 ```
 
@@ -529,7 +534,7 @@ If the replication group is configured against a virtual computer, this property
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -543,9 +548,9 @@ If the replication group is configured against a virtual computer, this property
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

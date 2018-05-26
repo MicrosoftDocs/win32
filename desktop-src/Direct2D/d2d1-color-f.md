@@ -1,8 +1,14 @@
 ---
 title: D2D1\_COLOR\_F
 description: Describes the red, green, blue, and alpha components of a color.
-ms.assetid: '564d4f41-2da7-49ed-b85a-d1070d662b40'
-keywords: ["D2D1_COLOR_F"]
+ms.assetid: 564d4f41-2da7-49ed-b85a-d1070d662b40
+keywords:
+- D2D1_COLOR_F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2D1\_COLOR\_F
@@ -20,11 +26,11 @@ typedef D2D_COLOR_F D2D1_COLOR_F;
 
 **D2D1\_COLOR\_F** is a typedef for [**D2D\_COLOR\_F**](d2d-color-f.md), which is itself a typedef for [D3DCOLORVALUE](http://msdn.microsoft.com/library/bb172520(VS.85).aspx). For information about the members provided by **D2D1\_COLOR\_F**, see [D3DCOLORVALUE](http://msdn.microsoft.com/library/bb172520(VS.85).aspx).
 
-The [**ColorF**](colorf.md) class provides a set of predefined colors and helper functions for defining colors. For more information, see the [**ColorF**](colorf.md) reference.
+The [**ColorF**](/windows/win32/d2d1/nl-d2d1helper-colorf?branch=master) class provides a set of predefined colors and helper functions for defining colors. For more information, see the [**ColorF**](/windows/win32/d2d1/nl-d2d1helper-colorf?branch=master) reference.
 
 ## Examples
 
-The following example uses the [**ColorF**](colorf.md) class to specify a predefined color (black) when creating an [**ID2D1SolidColorBrush**](id2d1solidcolorbrush.md).
+The following example uses the [**ColorF**](/windows/win32/d2d1/nl-d2d1helper-colorf?branch=master) class to specify a predefined color (black) when creating an [**ID2D1SolidColorBrush**](/windows/win32/d2d1/?branch=master).
 
 
 ```C++
@@ -36,7 +42,7 @@ hr = m_pRenderTarget->CreateSolidColorBrush(
 
 
 
-The following example uses the [**ColorF**](colorf.md) class to specify a color using red, green, blue, and alpha values.
+The following example uses the [**ColorF**](/windows/win32/d2d1/nl-d2d1helper-colorf?branch=master) class to specify a color using red, green, blue, and alpha values.
 
 
 ```C++
@@ -55,9 +61,9 @@ hr = pCompatibleRenderTarget->CreateSolidColorBrush(
 
 |                                     |                                                                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>D2DBaseTypes.h (include D2d1.h)</dt> </dl>                               |
 
 
@@ -69,12 +75,12 @@ hr = pCompatibleRenderTarget->CreateSolidColorBrush(
 [D3DCOLORVALUE](http://msdn.microsoft.com/library/bb172520(VS.85).aspx)
 </dt> <dt>
 
-[**ColorF**](colorf.md)
+[**ColorF**](/windows/win32/d2d1/nl-d2d1helper-colorf?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

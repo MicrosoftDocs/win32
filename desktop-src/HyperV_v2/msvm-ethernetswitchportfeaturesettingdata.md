@@ -1,7 +1,12 @@
 ---
-Description: 'Abstract base class for classes that represent settings for an Ethernet switch port feature.'
-ms.assetid: '26c40dd0-fe1e-4432-a177-8a565bf678e6'
-title: 'Msvm\_EthernetSwitchPortFeatureSettingData class'
+Description: Abstract base class for classes that represent settings for an Ethernet switch port feature.
+ms.assetid: 26c40dd0-fe1e-4432-a177-8a565bf678e6
+title: Msvm\_EthernetSwitchPortFeatureSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortFeatureSettingData class
@@ -96,17 +101,17 @@ Uniquely identifies an instance of this class. This property is inherited from [
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

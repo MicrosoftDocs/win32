@@ -1,8 +1,9 @@
 ---
 title: DRV\_ENABLE message
 description: Enables the driver. The driver should initialize any variables and locate devices with the input and output (I/O) interface.
-ms.assetid: '8aa36f3d-b36c-4460-859c-108a7a450ae5'
-keywords: ["DRV_ENABLE message Windows Multimedia"]
+ms.assetid: 8aa36f3d-b36c-4460-859c-108a7a450ae5
+keywords:
+- DRV_ENABLE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRV\_ENABLE message
@@ -44,8 +50,8 @@ Drivers are considered enabled from the time they receive this message until the
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ Drivers are considered enabled from the time they receive this message until the
 [Installable Driver Messages](installable-driver-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

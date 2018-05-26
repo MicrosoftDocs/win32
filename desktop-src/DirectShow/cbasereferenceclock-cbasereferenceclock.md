@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '0fbfdc68-e1df-449f-a7d1-739504db8a2f'
-title: 'CBaseReferenceClock.CBaseReferenceClock constructor'
+Description: Constructor method.
+ms.assetid: 0fbfdc68-e1df-449f-a7d1-739504db8a2f
+title: CBaseReferenceClock.CBaseReferenceClock constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseReferenceClock.CBaseReferenceClock constructor
@@ -13,10 +18,10 @@ Constructor method.
 
 ```C++
 CBaseReferenceClock(
-   TCHAR       *pName,
-   LPUNKNOWN   pUnk,
-   HRESULT     *phr,
-   CAMSchedule *pSched = NULL
+   TCHAR       *pName,
+   LPUNKNOWN   pUnk,
+   HRESULT     *phr,
+   CAMSchedule *pSched = NULL
 );
 ```
 
@@ -72,9 +77,9 @@ Pointer to a [**CAMSchedule**](camschedule.md) object. If **NULL**, this method 
 [**CBaseReferenceClock Class**](cbasereferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

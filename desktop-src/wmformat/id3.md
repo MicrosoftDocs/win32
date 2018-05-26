@@ -1,8 +1,18 @@
 ---
 title: ID3 Support
 description: ID3 is an organization that has defined a set of standards for including metadata in MPEG Layer-3 (MP3) audio files.
-ms.assetid: '8c1f1114-48d8-4dce-b7ab-0293265a875c'
-keywords: ["Windows Media Format SDK,ID3 support", "Advanced Systems Format (ASF),ID3 support", "ASF (Advanced Systems Format),ID3 support", "metadata,ID3", "ID3"]
+ms.assetid: 8c1f1114-48d8-4dce-b7ab-0293265a875c
+keywords:
+- Windows Media Format SDK,ID3 support
+- Advanced Systems Format (ASF),ID3 support
+- ASF (Advanced Systems Format),ID3 support
+- metadata,ID3
+- ID3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3 Support

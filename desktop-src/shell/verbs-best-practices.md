@@ -1,6 +1,11 @@
 ---
-Description: 'This topic is organized as follows:'
+Description: This topic is organized as follows
 title: Best Practices for Shortcut Menu Handlers and Multiple Verbs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Best Practices for Shortcut Menu Handlers and Multiple Verbs
@@ -23,20 +28,20 @@ The following list represents best practices for verb implementations:
 
 -   Always chose the simplest verb method that meets your needs.
 -   Use a static verb method, if possible.
--   Do not perform resource-intensive operations or I/O on the UI thread. Both [**IShellExtInit::Initialize**](ishellextinit-initialize.md) and [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md) need to be very conservative in the work they perform. [**IContextMenu::InvokeCommand**](icontextmenu-invokecommand.md) must be performed in another process, or you must create a new thread to avoid blocking the caller.
+-   Do not perform resource-intensive operations or I/O on the UI thread. Both [**IShellExtInit::Initialize**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize?branch=master) and [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master) need to be very conservative in the work they perform. [**IContextMenu::InvokeCommand**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand?branch=master) must be performed in another process, or you must create a new thread to avoid blocking the caller.
 -   Prefix verbs with the independent software vendor (ISV) name as follows, `ISVName.verb`. Using unqualified names can result in collisions with multiple ISVs that chose the same verb name.
 -   Always use an application-specific ProgID. Because some item types do not use this mapping, there is a need for vendor-unique names.
 -   Position the UI relative to the invoking method, but do not run on an invoker thread.
--   Do not accept the return value **S\_OK** for canonical verbs passed to the [**IContextMenu::InvokeCommand**](icontextmenu-invokecommand.md) method. Doing so causes a failure for the real verb implementation to be invoked, and returns a failure code for canonical verbs. If you do not support canonical verbs, then return failure when a nonzero HIWORD(lpVerb) value is encountered.
+-   Do not accept the return value **S\_OK** for canonical verbs passed to the [**IContextMenu::InvokeCommand**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand?branch=master) method. Doing so causes a failure for the real verb implementation to be invoked, and returns a failure code for canonical verbs. If you do not support canonical verbs, then return failure when a nonzero HIWORD(lpVerb) value is encountered.
 -   Avoid the use of **rundll32.exe** as the host for your verb.
--   When implementing [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md) be sure to return the number of verbs that have been added to the menu through the **HRESULT** value using the ResultFromShort macro.
+-   When implementing [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master) be sure to return the number of verbs that have been added to the menu through the **HRESULT** value using the ResultFromShort macro.
 -   If you register on one of the following registry key entries, then exercise caution and be sure to register your handler on the most specific type to reduce the possibly unintended consequences:
     -   **HKEY\_CLASSES\_ROOT\\\***
     -   **HKEY\_CLASSES\_ROOT\\AllFileSystemObjects**
     -   **HKEY\_CLASSES\_ROOT\\Folder**
     -   **HKEY\_CLASSES\_ROOT\\Directory**
 -   Set the **MayChangeDefaultMenu** key only if you anticipate that you might need to change the default verb in the shortcut menu. If your handler does not change the default verb, then you should not set this key because doing so causes the system to load your DLL unnecessarily.
--   Minimize the work you perform in [**IShellExtInit::Initialize**](ishellextinit-initialize.md). For shortcut menu handlers, capture the data object passed to **IShellExtInit::Initialize**, and then process it in [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md), or [**IContextMenu::InvokeCommand**](icontextmenu-invokecommand.md).
+-   Minimize the work you perform in [**IShellExtInit::Initialize**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize?branch=master). For shortcut menu handlers, capture the data object passed to **IShellExtInit::Initialize**, and then process it in [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master), or [**IContextMenu::InvokeCommand**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand?branch=master).
 
 ## Best Practices for Multiple Selection Verbs
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Formats a date as a date string for a specified locale.'
-ms.assetid: 'e45f6d1c-2890-44f6-8406-022c99c59e02'
+---
+Description: Formats a date as a date string for a specified locale.
+ms.assetid: e45f6d1c-2890-44f6-8406-022c99c59e02
 title: GetDateFormatWrapW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDateFormatWrapW function

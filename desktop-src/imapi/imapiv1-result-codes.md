@@ -1,7 +1,7 @@
 ---
 title: IMAPIv1 Result Codes
 description: The methods of the IMAPI interfaces return S\_OK if the method was successful. Otherwise, they return one of the following result codes.
-ms.assetid: '0143ad10-9b65-4621-9bed-71dadd38c3fc'
+ms.assetid: 0143ad10-9b65-4621-9bed-71dadd38c3fc
 topic_type:
 - apiref
 api_name:
@@ -46,6 +46,11 @@ api_location:
 - Imapierror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAPIv1 Result Codes
@@ -58,7 +63,7 @@ The methods of the IMAPI interfaces return S\_OK if the method was successful. O
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="IMAPI_S_PROPERTIESIGNORED"></span><span id="imapi_s_propertiesignored"></span><dl> <dt>**IMAPI\_S\_PROPERTIESIGNORED**</dt> <dt>0x40200</dt> </dl>                   | An unknown property was passed in a property set and it was ignored.<br/>                                                                                                                                                                              |
 | <span id="IMAPI_S_BUFFER_TO_SMALL"></span><span id="imapi_s_buffer_to_small"></span><dl> <dt>**IMAPI\_S\_BUFFER\_TO\_SMALL**</dt> <dt>0x40201</dt> </dl>                       | The output buffer is too small.<br/>                                                                                                                                                                                                                   |
-| <span id="IMAPI_E_NOTOPENED"></span><span id="imapi_e_notopened"></span><dl> <dt>**IMAPI\_E\_NOTOPENED**</dt> <dt>0x8004020b</dt> </dl>                                        | A call to [**IDiscMaster::Open**](idiscmaster-open.md) has not been made.<br/>                                                                                                                                                                        |
+| <span id="IMAPI_E_NOTOPENED"></span><span id="imapi_e_notopened"></span><dl> <dt>**IMAPI\_E\_NOTOPENED**</dt> <dt>0x8004020b</dt> </dl>                                        | A call to [**IDiscMaster::Open**](/windows/win32/Imapi/nf-imapi-idiscmaster-open?branch=master) has not been made.<br/>                                                                                                                                                                        |
 | <span id="IMAPI_E_NOTINITIALIZED"></span><span id="imapi_e_notinitialized"></span><dl> <dt>**IMAPI\_E\_NOTINITIALIZED**</dt> <dt>0x8004020c</dt> </dl>                         | A recorder object has not been initialized.<br/>                                                                                                                                                                                                       |
 | <span id="IMAPI_E_USERABORT"></span><span id="imapi_e_userabort"></span><dl> <dt>**IMAPI\_E\_USERABORT**</dt> <dt>0x8004020d</dt> </dl>                                        | The user canceled the operation.<br/>                                                                                                                                                                                                                  |
 | <span id="IMAPI_E_GENERIC"></span><span id="imapi_e_generic"></span><dl> <dt>**IMAPI\_E\_GENERIC**</dt> <dt>0x8004020e</dt> </dl>                                              | A generic error occurred.<br/>                                                                                                                                                                                                                         |
@@ -78,10 +83,10 @@ The methods of the IMAPI interfaces return S\_OK if the method was successful. O
 | <span id="IMAPI_E_DISCFULL"></span><span id="imapi_e_discfull"></span><dl> <dt>**IMAPI\_E\_DISCFULL**</dt> <dt>0x8004021c</dt> </dl>                                           | The disc cannot hold any more data.<br/>                                                                                                                                                                                                               |
 | <span id="IMAPI_E_BADJOLIETNAME"></span><span id="imapi_e_badjolietname"></span><dl> <dt>**IMAPI\_E\_BADJOLIETNAME**</dt> <dt>0x8004021d</dt> </dl>                            | The application tried to add a badly named element to a disc.<br/>                                                                                                                                                                                     |
 | <span id="IMAPI_E_INVALIDIMAGE"></span><span id="imapi_e_invalidimage"></span><dl> <dt>**IMAPI\_E\_INVALIDIMAGE**</dt> <dt>0x8004021e</dt> </dl>                               | The staged image is not suitable for a burn. It has been corrupted or cleared and has no usable content.<br/>                                                                                                                                          |
-| <span id="IMAPI_E_NOACTIVEFORMAT"></span><span id="imapi_e_noactiveformat"></span><dl> <dt>**IMAPI\_E\_NOACTIVEFORMAT**</dt> <dt>0x8004021f</dt> </dl>                         | An active format master has not been selected using [**IDiscMaster::SetActiveDiscMasterFormat**](idiscmaster-setactivediscmasterformat.md).<br/>                                                                                                      |
-| <span id="IMAPI_E_NOACTIVERECORDER"></span><span id="imapi_e_noactiverecorder"></span><dl> <dt>**IMAPI\_E\_NOACTIVERECORDER**</dt> <dt>0x80040220</dt> </dl>                   | An active disc recorder has not been selected using [**IDiscMaster::SetActiveDiscRecorder**](idiscmaster-setactivediscrecorder.md).<br/>                                                                                                              |
-| <span id="IMAPI_E_WRONGFORMAT"></span><span id="imapi_e_wrongformat"></span><dl> <dt>**IMAPI\_E\_WRONGFORMAT**</dt> <dt>0x80040221</dt> </dl>                                  | A call to [**IJolietDiscMaster**](ijolietdiscmaster.md) has been made when [**IRedbookDiscMaster**](iredbookdiscmaster.md) is the active format, or vice versa. To use a different format, change the format and clear the image file contents.<br/> |
-| <span id="IMAPI_E_ALREADYOPEN"></span><span id="imapi_e_alreadyopen"></span><dl> <dt>**IMAPI\_E\_ALREADYOPEN**</dt> <dt>0x80040222</dt> </dl>                                  | A call to [**IDiscMaster::Open**](idiscmaster-open.md) has already been made against this object by your application.<br/>                                                                                                                            |
+| <span id="IMAPI_E_NOACTIVEFORMAT"></span><span id="imapi_e_noactiveformat"></span><dl> <dt>**IMAPI\_E\_NOACTIVEFORMAT**</dt> <dt>0x8004021f</dt> </dl>                         | An active format master has not been selected using [**IDiscMaster::SetActiveDiscMasterFormat**](/windows/win32/Imapi/nf-imapi-idiscmaster-setactivediscmasterformat?branch=master).<br/>                                                                                                      |
+| <span id="IMAPI_E_NOACTIVERECORDER"></span><span id="imapi_e_noactiverecorder"></span><dl> <dt>**IMAPI\_E\_NOACTIVERECORDER**</dt> <dt>0x80040220</dt> </dl>                   | An active disc recorder has not been selected using [**IDiscMaster::SetActiveDiscRecorder**](/windows/win32/Imapi/nf-imapi-idiscmaster-setactivediscrecorder?branch=master).<br/>                                                                                                              |
+| <span id="IMAPI_E_WRONGFORMAT"></span><span id="imapi_e_wrongformat"></span><dl> <dt>**IMAPI\_E\_WRONGFORMAT**</dt> <dt>0x80040221</dt> </dl>                                  | A call to [**IJolietDiscMaster**](/windows/win32/Imapi/nn-imapi-ijolietdiscmaster?branch=master) has been made when [**IRedbookDiscMaster**](/windows/win32/Imapi/nn-imapi-iredbookdiscmaster?branch=master) is the active format, or vice versa. To use a different format, change the format and clear the image file contents.<br/> |
+| <span id="IMAPI_E_ALREADYOPEN"></span><span id="imapi_e_alreadyopen"></span><dl> <dt>**IMAPI\_E\_ALREADYOPEN**</dt> <dt>0x80040222</dt> </dl>                                  | A call to [**IDiscMaster::Open**](/windows/win32/Imapi/nf-imapi-idiscmaster-open?branch=master) has already been made against this object by your application.<br/>                                                                                                                            |
 | <span id="IMAPI_E_WRONGDISC"></span><span id="imapi_e_wrongdisc"></span><dl> <dt>**IMAPI\_E\_WRONGDISC**</dt> <dt>0x80040223</dt> </dl>                                        | The IMAPI multi-session disc has been removed from the active recorder.<br/>                                                                                                                                                                           |
 | <span id="IMAPI_E_FILEEXISTS"></span><span id="imapi_e_fileexists"></span><dl> <dt>**IMAPI\_E\_FILEEXISTS**</dt> <dt>0x80040224</dt> </dl>                                     | The file to add is already in the image file and the overwrite flag was not set.<br/>                                                                                                                                                                  |
 | <span id="IMAPI_E_STASHINUSE"></span><span id="imapi_e_stashinuse"></span><dl> <dt>**IMAPI\_E\_STASHINUSE**</dt> <dt>0x80040225</dt> </dl>                                     | Another application is already using the IMAPI stash file required to stage a disc image. Try again later.<br/>                                                                                                                                        |
@@ -102,15 +107,15 @@ The methods of the IMAPI interfaces return S\_OK if the method was successful. O
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Imapierror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

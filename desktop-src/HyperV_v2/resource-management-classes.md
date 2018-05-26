@@ -1,7 +1,12 @@
 ---
-Description: 'Virtualization WMI classes related to resource management.'
-ms.assetid: '70184AEA-EA2E-4CC8-8DB3-828833E7C4C2'
+Description: Virtualization WMI classes related to resource management.
+ms.assetid: 70184AEA-EA2E-4CC8-8DB3-828833E7C4C2
 title: Resource management classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource management classes
@@ -30,11 +35,11 @@ The following are virtualization WMI classes related to resource management.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

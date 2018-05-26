@@ -1,14 +1,21 @@
 ---
 title: IWMDRMDecrypt interface
 description: The IWMDRMDecrypt interface provides a method for decrypting content.
-ms.assetid: '361f0c2b-b011-4c76-a599-69a982d037e9'
-keywords: ["IWMDRMDecrypt interface windows Media Format", "IWMDRMDecrypt interface windows Media Format , described"]
+ms.assetid: 361f0c2b-b011-4c76-a599-69a982d037e9
+keywords:
+- IWMDRMDecrypt interface windows Media Format
+- IWMDRMDecrypt interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMDecrypt
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDecrypt interface
@@ -33,7 +40,7 @@ The **IWMDRMDecrypt** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -42,9 +49,9 @@ The **IWMDRMDecrypt** interface has these methods.
 [**Interfaces**](drm-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

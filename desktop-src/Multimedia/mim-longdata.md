@@ -1,8 +1,9 @@
 ---
 title: MIM\_LONGDATA message
 description: The MIM\_LONGDATA message is sent to a MIDI input callback function when a system-exclusive buffer has been filled with data and is being returned to the application.
-ms.assetid: '3a11ed21-e7c5-4b78-9536-f0d862e26a02'
-keywords: ["MIM_LONGDATA message Windows Multimedia"]
+ms.assetid: 3a11ed21-e7c5-4b78-9536-f0d862e26a02
+keywords:
+- MIM_LONGDATA message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIM\_LONGDATA message
@@ -58,8 +64,8 @@ The returned buffer might not be full. To determine the number of bytes recorded
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ The returned buffer might not be full. To determine the number of bytes recorded
 [MIDI Messages](midi-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

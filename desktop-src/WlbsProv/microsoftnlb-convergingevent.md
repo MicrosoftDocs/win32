@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_ConvergingEvent class is a WMI class that represe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9791222c-bdad-4f26-b3ad-fb06dc00b04b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9791222c-bdad-4f26-b3ad-fb06dc00b04b
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_ConvergingEvent class", "MicrosoftNLB_ConvergingEvent class, described"]
+keywords:
+- MicrosoftNLB_ConvergingEvent class
+- MicrosoftNLB_ConvergingEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_ConvergingEvent class
@@ -43,16 +48,16 @@ The following syntax is simplified from MOF code, and includes all inherited pro
 [WMI, Dynamic, Provider("WmiProv"), guid("{812C7978-7D1B-40dc-89D7-D3C9D36A77B4}"), AMENDMENT]
 class MicrosoftNLB_ConvergingEvent : WmiEvent
 {
-  uint8   SECURITY_DESCRIPTOR[];
-  uint64  TIME_CREATED;
-  string  InstanceName;
+  uint8   SECURITY_DESCRIPTOR[];
+  uint64  TIME_CREATED;
+  string  InstanceName;
   boolean Active;
-  string  AdapterGuid;
-  string  ClusterIPAddress;
-  uint32  HostPriority;
-  uint32  Cause;
-  string  InitiatorDedicatedIP;
-  uint32  InitiatorHostPriority;
+  string  AdapterGuid;
+  string  ClusterIPAddress;
+  uint32  HostPriority;
+  uint32  Cause;
+  string  InitiatorDedicatedIP;
+  uint32  InitiatorHostPriority;
 };
 ```
 
@@ -304,7 +309,7 @@ The **MicrosoftNLB\_ConvergingEvent** class is derived from the [**WMIEvent**](h
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -324,9 +329,9 @@ The **MicrosoftNLB\_ConvergingEvent** class is derived from the [**WMIEvent**](h
 [**WMIEvent**](https://msdn.microsoft.com/library/windows/desktop/aa394532)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

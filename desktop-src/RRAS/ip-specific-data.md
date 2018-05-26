@@ -1,8 +1,10 @@
 ---
 title: IP\_SPECIFIC\_DATA structure
 description: The IP\_SPECIFIC DATA structure contains IP-specific data.
-ms.assetid: '68f2f4cc-141b-4f22-94ac-cc72e8dcca0a'
-keywords: ["IP_SPECIFIC_DATA structure RAS", "PIP_SPECIFIC_DATA structure pointer RAS"]
+ms.assetid: 68f2f4cc-141b-4f22-94ac-cc72e8dcca0a
+keywords:
+- IP_SPECIFIC_DATA structure RAS
+- PIP_SPECIFIC_DATA structure pointer RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IP\_SPECIFIC\_DATA structure
@@ -60,7 +67,7 @@ Specifies the route type as defined in [RFC 1354](routing-protocols-request-for-
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -151,8 +158,8 @@ A routing protocol could use the **FSD\_Flags** to mark a route as invalid, if t
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
-| End of server support<br/>    | Windows Server 2003<br/>                                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| End of server support<br/>    | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl> |
 
 
@@ -170,9 +177,9 @@ A routing protocol could use the **FSD\_Flags** to mark a route as invalid, if t
 [**RTM\_IP\_ROUTE**](rtm-ip-route.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

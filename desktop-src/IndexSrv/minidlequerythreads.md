@@ -1,7 +1,12 @@
 ---
 title: MinIdleQueryThreads
 description: MinIdleQueryThreads
-ms.assetid: '31fa5be1-9721-408b-bd1f-3fdd5c1db028'
+ms.assetid: 31fa5be1-9721-408b-bd1f-3fdd5c1db028
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MinIdleQueryThreads

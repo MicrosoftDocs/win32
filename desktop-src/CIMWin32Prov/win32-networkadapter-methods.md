@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_NetworkAdapter class exposes the following methods.'
+Description: The Win32\_NetworkAdapter class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '38C9D674-5D79-4DD2-B6AC-9117AC86FA9B'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 38C9D674-5D79-4DD2-B6AC-9117AC86FA9B
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_NetworkAdapter Methods'
+title: Win32\_NetworkAdapter Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_NetworkAdapter Methods

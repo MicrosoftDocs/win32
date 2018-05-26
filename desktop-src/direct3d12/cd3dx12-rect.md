@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_RECT structure
 description: A helper structure to enable easy initialization of a D3D12\_RECT structure.
-ms.assetid: 'FBF01294-1448-4D9A-BA6B-27D5D59C2958'
-keywords: ["CD3DX12_RECT structure"]
+ms.assetid: FBF01294-1448-4D9A-BA6B-27D5D59C2958
+keywords:
+- CD3DX12_RECT structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_RECT structure
@@ -99,9 +105,9 @@ Defines the & pass-by-reference operator for the parent structure type.
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

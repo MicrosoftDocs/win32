@@ -1,7 +1,12 @@
 ---
-Description: 'PNRP uses the WSALookupServiceNext function to match queries specified in a previous call to WSALookupServiceBegin.'
-ms.assetid: 'b3e1abf4-ff59-481d-b96e-f8916a47cd52'
+Description: PNRP uses the WSALookupServiceNext function to match queries specified in a previous call to WSALookupServiceBegin.
+ms.assetid: b3e1abf4-ff59-481d-b96e-f8916a47cd52
 title: PNRP and WSALookupServiceNext
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PNRP and WSALookupServiceNext
@@ -219,13 +224,13 @@ Returns zero (0).
 <span id="lpBlob"></span><span id="lpblob"></span><span id="LPBLOB"></span>**lpBlob**
 </dt> <dd>
 
-Returns a pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPCLOUDINFO**](pnrpcloudinfo.md) structure—if **LUP\_RETURN\_BLOB**, **LUP\_RETURN\_ALL**, or **NULL** are specified.
+Returns a pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPCLOUDINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpcloudinfo?branch=master) structure—if **LUP\_RETURN\_BLOB**, **LUP\_RETURN\_ALL**, or **NULL** are specified.
 
 </dd> </dl>
 
 ## PNRPCLOUDINFO Structure
 
-When enumerating cloud names, the following values are returned in the [**PNRPCLOUDINFO**](pnrpcloudinfo.md) structure:
+When enumerating cloud names, the following values are returned in the [**PNRPCLOUDINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpcloudinfo?branch=master) structure:
 
 <dl> <dt>
 
@@ -246,14 +251,14 @@ The actual cloud value.
 <span id="enCloudState"></span><span id="encloudstate"></span><span id="ENCLOUDSTATE"></span>**enCloudState**
 </dt> <dd>
 
-The current state of a cloud. [**PNRP\_CLOUD\_STATE**](pnrp-cloud-state.md) specifies the valid values.
+The current state of a cloud. [**PNRP\_CLOUD\_STATE**](/windows/win32/Pnrpdef/ne-pnrpdef-_pnrp_cloud_state?branch=master) specifies the valid values.
 
 </dd> <dt>
 
 <span id="enCloudFlags"></span><span id="encloudflags"></span><span id="ENCLOUDFLAGS"></span>**enCloudFlags**
 </dt> <dd>
 
-Indicates that a cloud name is valid on a network, or only valid on a current computer. [**PNRP\_CLOUD\_FLAGS**](pnrp-cloud-flags.md) specifies the valid values. Some cloud names are valid on any computer on the same network. Other cloud names are valid only on a current computer, and may be valid only for a period of time.
+Indicates that a cloud name is valid on a network, or only valid on a current computer. [**PNRP\_CLOUD\_FLAGS**](/windows/win32/Pnrpdef/ne-pnrpdef-_pnrp_cloud_flags?branch=master) specifies the valid values. Some cloud names are valid on any computer on the same network. Other cloud names are valid only on a current computer, and may be valid only for a period of time.
 
 -   If **enCloudFlags** is set to **PNRP\_CLOUD\_NAME\_LOCAL,** the name is only valid locally.
 -   If **enCloudFlags** is not set, then the cloud name can be transferred to other computers.
@@ -276,10 +281,10 @@ Indicates that a cloud name is valid on a network, or only valid on a current co
 [PNRP and WSAQUERYSET](pnrp-and-wsaqueryset.md)
 </dt> <dt>
 
-[**PNRPCLOUDINFO**](pnrpcloudinfo.md)
+[**PNRPCLOUDINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpcloudinfo?branch=master)
 </dt> <dt>
 
-[**PNRPINFO**](pnrpinfo.md)
+[**PNRPINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpinfo_v1?branch=master)
 </dt> <dt>
 
 [PNRP NSP Error Codes](pnrp-nsp-error-codes.md)

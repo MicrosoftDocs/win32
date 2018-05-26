@@ -1,8 +1,26 @@
 ---
 title: Output Settings
 description: Output Settings
-ms.assetid: 'effe6c07-e6df-45b0-b865-2a025c466d6f'
-keywords: ["Windows Media Format SDK,global constants", "Advanced Systems Format (ASF),global constants", "ASF (Advanced Systems Format),global constants", "global constants,list of", "Windows Media Format SDK,constants", "Advanced Systems Format (ASF),constants", "ASF (Advanced Systems Format),constants", "constants,list of", "Windows Media Format SDK,output settings", "Advanced Systems Format (ASF),output settings", "ASF (Advanced Systems Format),output settings", "output settings", "synchronous readers,output settings"]
+ms.assetid: effe6c07-e6df-45b0-b865-2a025c466d6f
+keywords:
+- Windows Media Format SDK,global constants
+- Advanced Systems Format (ASF),global constants
+- ASF (Advanced Systems Format),global constants
+- global constants,list of
+- Windows Media Format SDK,constants
+- Advanced Systems Format (ASF),constants
+- ASF (Advanced Systems Format),constants
+- constants,list of
+- Windows Media Format SDK,output settings
+- Advanced Systems Format (ASF),output settings
+- ASF (Advanced Systems Format),output settings
+- output settings
+- synchronous readers,output settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Output Settings
@@ -38,16 +56,16 @@ The following global constants are used to identify output settings for the read
 
 <dl> <dt>
 
-[**IWMReaderAdvanced2::GetOutputSetting**](iwmreaderadvanced2-getoutputsetting.md)
+[**IWMReaderAdvanced2::GetOutputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getoutputsetting?branch=master)
 </dt> <dt>
 
-[**IWMReaderAdvanced2::SetOutputSetting**](iwmreaderadvanced2-setoutputsetting.md)
+[**IWMReaderAdvanced2::SetOutputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting?branch=master)
 </dt> <dt>
 
-[**IWMSyncReader::GetOutputSetting**](iwmsyncreader-getoutputsetting.md)
+[**IWMSyncReader::GetOutputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputsetting?branch=master)
 </dt> <dt>
 
-[**IWMSyncReader::SetOutputSetting**](iwmsyncreader-setoutputsetting.md)
+[**IWMSyncReader::SetOutputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting?branch=master)
 </dt> </dl>
 
  

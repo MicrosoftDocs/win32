@@ -1,7 +1,12 @@
 ---
 title: nop - ps
 description: No operation is performed.
-ms.assetid: 'db2a383e-9a4d-4409-8801-483622c124ae'
+ms.assetid: db2a383e-9a4d-4409-8801-483622c124ae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # nop - ps

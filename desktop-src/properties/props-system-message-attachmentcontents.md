@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'abef2e61-6cbe-46cc-ba2a-a0bb42164c8c'
-title: 'System.Message.AttachmentContents'
+Description: .
+ms.assetid: abef2e61-6cbe-46cc-ba2a-a0bb42164c8c
+title: System.Message.AttachmentContents
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.AttachmentContents

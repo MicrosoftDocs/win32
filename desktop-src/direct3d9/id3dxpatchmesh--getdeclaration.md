@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the vertex declaration.'
-ms.assetid: '53ff2fb5-68b6-4edd-b48f-e06df306ee3f'
-title: 'ID3DXPatchMesh::GetDeclaration method'
+---
+Description: Gets the vertex declaration.
+ms.assetid: 53ff2fb5-68b6-4edd-b48f-e06df306ee3f
+title: ID3DXPatchMeshGetDeclaration method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPatchMesh::GetDeclaration method

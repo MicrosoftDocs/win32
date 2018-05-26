@@ -1,7 +1,12 @@
 ---
-Description: 'The Format method retrieves a pointer to the format block.'
-ms.assetid: '368055cd-4592-4144-aef9-d7e830fc4de1'
-title: 'CMediaType.Format method'
+Description: The Format method retrieves a pointer to the format block.
+ms.assetid: 368055cd-4592-4144-aef9-d7e830fc4de1
+title: CMediaType.Format method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.Format method
@@ -43,9 +48,9 @@ Returns the **pbFormat** member.
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

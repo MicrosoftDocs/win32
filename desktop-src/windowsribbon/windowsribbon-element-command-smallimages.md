@@ -1,14 +1,20 @@
 ---
 title: Command.SmallImages property
 description: Represents a container of images; in this case, small images.
-ms.assetid: '15c00e61-543a-4cc8-b329-516985d02359'
-keywords: ["Command.SmallImages property Windows Ribbon"]
+ms.assetid: 15c00e61-543a-4cc8-b329-516985d02359
+keywords:
+- Command.SmallImages property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Command.SmallImages
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command.SmallImages property
@@ -109,8 +115,8 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -124,9 +130,9 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 [UI\_PKEY\_SmallImage](windowsribbon-reference-properties-uipkey-smallimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

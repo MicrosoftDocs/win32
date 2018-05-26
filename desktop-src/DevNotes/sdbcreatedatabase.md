@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a new shim database.'
-ms.assetid: '91fb180d-1a21-4011-821d-ea0fc999dc76'
+---
+Description: Creates a new shim database.
+ms.assetid: 91fb180d-1a21-4011-821d-ea0fc999dc76
 title: SdbCreateDatabase function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbCreateDatabase function

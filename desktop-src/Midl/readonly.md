@@ -2,13 +2,19 @@
 title: readonly attribute
 description: The \ readonly\ attribute prohibits assignment to a variable.
 ms.assetid: b81064e6-e788-48d1-9958-203f1e3c7e4d
-keywords: ["readonly attribute MIDL"]
+keywords:
+- readonly attribute MIDL
 topic_type:
 - apiref
 api_name:
 - readonly
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # readonly attribute

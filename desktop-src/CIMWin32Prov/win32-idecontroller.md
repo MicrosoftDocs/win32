@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_IDEController WMI class manages the capabilities of an integrated device electronics (IDE) controller device.'
+Description: The Win32\_IDEController WMI class manages the capabilities of an integrated device electronics (IDE) controller device.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9aff19df-8184-47d6-9d21-30376b6bc9b2'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9aff19df-8184-47d6-9d21-30376b6bc9b2
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_IDEController class'
+title: Win32\_IDEController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_IDEController class
@@ -24,28 +27,28 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{9ABA5122-C7A1-11d2-911D-0060081A46FD}"), AMENDMENT]
 class Win32_IDEController : CIM_Controller
 {
-  uint16   Availability;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
+  uint16   Availability;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  string   Manufacturer;
-  uint32   MaxNumberControlled;
-  string   Name;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint16   ProtocolSupported;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  uint32   LastErrorCode;
+  string   Manufacturer;
+  uint32   MaxNumberControlled;
+  string   Name;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint16   ProtocolSupported;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
   datetime TimeOfLastReset;
 };
 ```
@@ -70,7 +73,7 @@ The **Win32\_IDEController** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -293,7 +296,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -725,7 +728,7 @@ Access type: Read-only
 Qualifiers: [**Key**](https://msdn.microsoft.com/library/aa392157), [**Override**](https://msdn.microsoft.com/library/aa393650) ("DeviceId"), [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("WMI")
 </dt> </dl>
 
-Unique identifier of the IDE controller—with other devices on the system.
+Unique identifier of the IDE controller with other devices on the system.
 
 This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
@@ -970,7 +973,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-If **TRUE**, the device can be power-managed—put into suspend mode, and so on. The property does not indicate that power management features are currently enabled, only that the logical device is capable of power management.
+If **TRUE**, the device can be power-managed put into suspend mode, and so on. The property does not indicate that power management features are currently enabled, only that the logical device is capable of power management.
 
 This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
@@ -1547,8 +1550,8 @@ The **Win32\_IDEController** class is derived from [**CIM\_Controller**](cim-con
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1565,9 +1568,9 @@ The **Win32\_IDEController** class is derived from [**CIM\_Controller**](cim-con
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

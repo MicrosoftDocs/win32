@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::DownloadFontHeader method allows a rendering plug-in for Unidrv to send a font''s header information to a printer.'
-ms.assetid: '3d660d04-2872-44e6-ab76-719f5262bdd8'
-title: 'IPrintOemUni::DownloadFontHeader method'
+---
+Description: The IPrintOemUniDownloadFontHeader method allows a rendering plug-in for Unidrv to send a fonts header information to a printer.
+ms.assetid: 3d660d04-2872-44e6-ab76-719f5262bdd8
+title: IPrintOemUniDownloadFontHeader method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::DownloadFontHeader method

@@ -4,13 +4,15 @@ description: The base class which provides the common properties for cluster dis
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '71FC6737-FB98-4A42-ACEB-6B8A8131B988'
-ms.prod: 'windows-server-dev'
+ms.assetid: 71FC6737-FB98-4A42-ACEB-6B8A8131B988
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ClusterDiskPartition class", "MSCluster_ClusterDiskPartition class, described"]
+keywords:
+- MSCluster_ClusterDiskPartition class
+- MSCluster_ClusterDiskPartition class, described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ClusterDiskPartition class
@@ -51,24 +56,24 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, Provider("MS_CLUSTER_PROVIDER"), UUID("{1C6677C6-B636-4A27-9831-4FBCB3582F8A}"), AMENDMENT]
 class MSCluster_ClusterDiskPartition : MSCluster_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint32   Flags;
-  uint32   Characteristics;
-  string   Path;
-  string   VolumeLabel;
-  uint32   SerialNumber;
-  uint32   MaximumComponentLength;
-  uint32   FileSystemFlags;
-  string   FileSystem;
-  uint32   TotalSize;
-  uint32   FreeSpace;
-  uint32   PartitionNumber;
-  string   VolumeGuid;
-  string   MountPoints[];
+  string   Name;
+  string   Status;
+  uint32   Flags;
+  uint32   Characteristics;
+  string   Path;
+  string   VolumeLabel;
+  uint32   SerialNumber;
+  uint32   MaximumComponentLength;
+  uint32   FileSystemFlags;
+  string   FileSystem;
+  uint32   TotalSize;
+  uint32   FreeSpace;
+  uint32   PartitionNumber;
+  string   VolumeGuid;
+  string   MountPoints[];
 };
 ```
 
@@ -113,9 +118,9 @@ Access type: Read-only
 
 Provides the characteristics of the disk partition. The cluster defines characteristics only for [resources](https://msdn.microsoft.com/library/aa372152). For a description of these characteristics, see [CLUSCTL\_RESOURCE\_GET\_CHARACTERISTICS](https://msdn.microsoft.com/library/aa367466).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -205,9 +210,9 @@ Access type: Read-only
 
 Provides access to the flags set for the disk partition. The cluster defines flags only for resources. For a description of these flags, see [CLUSCTL\_RESOURCE\_GET\_FLAGS](https://msdn.microsoft.com/library/aa367471).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -466,7 +471,7 @@ Provides access to the [**VolumeLabel**](https://msdn.microsoft.com/library/aa36
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -483,9 +488,9 @@ Provides access to the [**VolumeLabel**](https://msdn.microsoft.com/library/aa36
 [Failover Cluster Provider Reference](server-cluster-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

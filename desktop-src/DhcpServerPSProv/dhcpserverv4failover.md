@@ -4,13 +4,15 @@ description: Dhcp Server v4 Failover.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '80af5edc-b450-45ea-ba07-ac2d3f8b6a4e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 80af5edc-b450-45ea-ba07-ac2d3f8b6a4e
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerv4Failover class", "DhcpServerv4Failover class, described"]
+keywords:
+- DhcpServerv4Failover class
+- DhcpServerv4Failover class, described
 topic_type:
 - apiref
 api_name:
@@ -36,6 +38,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerv4Failover class
@@ -50,23 +55,23 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DhcpServerPSProvider"), AMENDMENT]
 class DhcpServerv4Failover
 {
-  string   Name;
-  string   PartnerServer;
-  string   Mode;
-  string   ServerRole;
-  uint32   LoadBalancePercent;
-  uint32   ReservePercent;
-  string   ScopeId[];
+  string   Name;
+  string   PartnerServer;
+  string   Mode;
+  string   ServerRole;
+  uint32   LoadBalancePercent;
+  uint32   ReservePercent;
+  string   ScopeId[];
   Datetime MaxClientLeadTime;
-  boolean  AutoStateTransition;
+  boolean  AutoStateTransition;
   Datetime StateSwitchInterval;
-  string   State;
-  boolean  EnableAuth;
-  string   PrimaryServerIP;
-  string   SecondaryServerIP;
-  string   PrimaryServerName;
-  string   SecondaryServerName;
-  string   ServerType;
+  string   State;
+  boolean  EnableAuth;
+  string   PrimaryServerIP;
+  string   SecondaryServerIP;
+  string   PrimaryServerName;
+  string   SecondaryServerName;
+  string   ServerType;
 };
 ```
 
@@ -200,7 +205,7 @@ Access type: Read-only
 
 IP address of Primary Server.
 
-**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -215,7 +220,7 @@ Access type: Read-only
 
 Name of Primary Server.
 
-**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -256,7 +261,7 @@ Access type: Read-only
 
 IP addresses of Secondary Server.
 
-**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -271,7 +276,7 @@ Access type: Read-only
 
 Name of Secondary Server.
 
-**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -331,7 +336,7 @@ Indicates if server is primary or secondary.
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -454,16 +459,16 @@ Time period that the server will stay in CommunicationInterrupted state before a
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

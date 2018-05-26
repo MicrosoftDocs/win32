@@ -4,11 +4,14 @@ description: UpdateDirectConnectLicenseServer is no longer available.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0b6e0dba-e23b-4c8d-8021-93d802501359'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0b6e0dba-e23b-4c8d-8021-93d802501359
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["UpdateDirectConnectLicenseServer method Remote Desktop Services", "UpdateDirectConnectLicenseServer method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , UpdateDirectConnectLicenseServer method"]
+keywords:
+- UpdateDirectConnectLicenseServer method Remote Desktop Services
+- UpdateDirectConnectLicenseServer method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , UpdateDirectConnectLicenseServer method
 topic_type:
 - apiref
 api_name:
@@ -17,20 +20,23 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UpdateDirectConnectLicenseServer method of the Win32\_TerminalServiceSetting class
 
-\[**UpdateDirectConnectLicenseServer** is no longer available for use as of Windows Server 2008 R2.\]
+\[**UpdateDirectConnectLicenseServer** is no longer available for use as of Windows Server 2008 R2.\]
 
-**Windows Server 2008:** Updates the list of discovery license servers. The server list is delimited by semicolons (";").
+**Windows Server 2008:** Updates the list of discovery license servers. The server list is delimited by semicolons (";").
 
 ## Syntax
 
 
 ```mof
 uint32 UpdateDirectConnectLicenseServer(
-  [in] string LicenseServerList
+  [in] string LicenseServerList
 );
 ```
 
@@ -62,9 +68,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | End of client support<br/>    | None supported<br/>                                                               |
-| End of server support<br/>    | Windows Server 2008<br/>                                                          |
+| End of server support<br/>    | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -78,9 +84,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sent to verify the existence of a menu command.'
-title: 'DFM\_VALIDATECMD message'
+---
+Description: Sent to verify the existence of a menu command.
+title: DFM\_VALIDATECMD message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DFM\_VALIDATECMD message
@@ -36,7 +41,7 @@ Returns S\_OK if the command exists, or S\_FALSE otherwise.
 
 ## Remarks
 
-This message is sent to either the callback function or the callback object depending on how the default context menu object is constructed. There are two APIs for its construction, [**CDefFolderMenu\_Create2**](cdeffoldermenu-create2.md), [**SHCreateDefaultContextMenu**](shcreatedefaultcontextmenu.md).
+This message is sent to either the callback function or the callback object depending on how the default context menu object is constructed. There are two APIs for its construction, [**CDefFolderMenu\_Create2**](/windows/win32/shlobj_core/nf-shlobj_core-cdeffoldermenu_create2?branch=master), [**SHCreateDefaultContextMenu**](/windows/win32/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu?branch=master).
 
 [**DFM\_INVOKECOMMANDEX**](dfm-invokecommandex.md) is an extended version of this message and provides more information to the callback. Use **DFM\_INVOKECOMMANDEX** if the additional information provided by that interface is needed in your implementation.
 

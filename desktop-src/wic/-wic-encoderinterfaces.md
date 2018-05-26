@@ -1,7 +1,12 @@
 ---
 Description: Encoder Interfaces
-ms.assetid: '02365401-8648-4be1-a447-fabd2cb77355'
+ms.assetid: 02365401-8648-4be1-a447-fabd2cb77355
 title: Encoder Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encoder Interfaces

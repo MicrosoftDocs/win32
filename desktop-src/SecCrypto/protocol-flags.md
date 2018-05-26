@@ -1,7 +1,12 @@
-﻿---
-Description: 'Predefined constants for cryptography protocols. These values are defined in Wincrypt.h.'
-ms.assetid: '61dc0eff-2033-464a-a558-1798a92d48a2'
+---
+Description: Predefined constants for cryptography protocols. These values are defined in Wincrypt.h.
+ms.assetid: 61dc0eff-2033-464a-a558-1798a92d48a2
 title: Protocol Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Protocol Flags
@@ -37,7 +42,7 @@ The following are predefined constants for cryptography protocols. These values 
 
 <dl> <dt>
 
-[**PROV\_ENUMALGS\_EX**](prov-enumalgs-ex.md)
+[**PROV\_ENUMALGS\_EX**](/windows/win32/Wincrypt/ns-wincrypt-_prov_enumalgs_ex?branch=master)
 </dt> </dl>
 
  

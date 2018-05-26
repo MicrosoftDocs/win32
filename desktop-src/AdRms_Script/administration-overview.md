@@ -1,13 +1,16 @@
 ---
-Description: 'Illustration shows the infrastructure levels at which you can perform management tasks.'
+Description: Illustration shows the infrastructure levels at which you can perform management tasks.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '03eff7b1-d39e-49f3-bc1d-4252d1ba501e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 03eff7b1-d39e-49f3-bc1d-4252d1ba501e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: Administration Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Administration Overview

@@ -4,11 +4,14 @@ description: Creates a ResourceLocator object that can be used instead of specif
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1b04fe11-ec90-4374-9838-a0df313b722e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 1b04fe11-ec90-4374-9838-a0df313b722e
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["CreateResourceLocator method Windows Remote Management", "CreateResourceLocator method Windows Remote Management , WSMan object", "WSMan object Windows Remote Management , CreateResourceLocator method"]
+keywords:
+- CreateResourceLocator method Windows Remote Management
+- CreateResourceLocator method Windows Remote Management , WSMan object
+- WSMan object Windows Remote Management , CreateResourceLocator method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WSMan.CreateResourceLocator method
@@ -84,8 +90,8 @@ WScript.Echo Xml
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -106,9 +112,9 @@ WScript.Echo Xml
 [**Session**](session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

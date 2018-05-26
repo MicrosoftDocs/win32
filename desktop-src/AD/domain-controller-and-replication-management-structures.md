@@ -4,59 +4,62 @@ description: The domain controller and replication management functions use the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '42b20d3b-1799-4f5f-b74e-fe9284dd8ac3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 42b20d3b-1799-4f5f-b74e-fe9284dd8ac3
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Domain Controller and Replication Management Structures
 
 The domain controller and replication management functions use the following structures:
 
--   [**DS\_DOMAIN\_CONTROLLER\_INFO\_1**](ds-domain-controller-info-1.md)
--   [**DS\_DOMAIN\_CONTROLLER\_INFO\_2**](ds-domain-controller-info-2.md)
--   [**DS\_DOMAIN\_CONTROLLER\_INFO\_3**](ds-domain-controller-info-3.md)
--   [**DS\_NAME\_RESULT**](ds-name-result.md)
--   [**DS\_NAME\_RESULT\_ITEM**](ds-name-result-item.md)
--   [**DS\_REPL\_ATTR\_META\_DATA**](ds-repl-attr-meta-data.md)
--   [**DS\_REPL\_ATTR\_META\_DATA\_2**](ds-repl-attr-meta-data-2.md)
--   [**DS\_REPL\_ATTR\_META\_DATA\_BLOB**](ds-repl-attr-meta-data-blob.md)
--   [**DS\_REPL\_ATTR\_VALUE\_META\_DATA**](ds-repl-attr-value-meta-data.md)
--   [**DS\_REPL\_ATTR\_VALUE\_META\_DATA\_2**](ds-repl-attr-value-meta-data-2.md)
--   [**DS\_REPL\_ATTR\_VALUE\_META\_DATA\_EXT**](ds-repl-attr-value-meta-data-ext.md)
--   [**DS\_REPL\_CURSOR**](ds-repl-cursor.md)
--   [**DS\_REPL\_CURSOR\_2**](ds-repl-cursor-2.md)
--   [**DS\_REPL\_CURSOR\_3**](ds-repl-cursor-3.md)
--   [**DS\_REPL\_CURSOR\_BLOB**](ds-repl-cursor-blob.md)
--   [**DS\_REPL\_CURSORS**](ds-repl-cursors.md)
--   [**DS\_REPL\_CURSORS\_2**](ds-repl-cursors-2.md)
--   [**DS\_REPL\_CURSORS\_3**](ds-repl-cursors-3.md)
--   [**DS\_REPL\_KCC\_DSA\_FAILURE**](ds-repl-kcc-dsa-failure.md)
--   [**DS\_REPL\_KCC\_DSA\_FAILURES**](ds-repl-kcc-dsa-failures.md)
--   [**DS\_REPL\_KCC\_DSA\_FAILUREW\_BLOB**](ds-repl-kcc-dsa-failurew-blob.md)
--   [**DS\_REPL\_NEIGHBOR**](ds-repl-neighbor.md)
--   [**DS\_REPL\_NEIGHBORS**](ds-repl-neighbors.md)
--   [**DS\_REPL\_NEIGHBORW\_BLOB**](ds-repl-neighborw-blob.md)
--   [**DS\_REPL\_OBJ\_META\_DATA**](ds-repl-obj-meta-data.md)
--   [**DS\_REPL\_OBJ\_META\_DATA\_2**](ds-repl-obj-meta-data-2.md)
--   [**DS\_REPL\_OP**](ds-repl-op.md)
--   [**DS\_REPL\_OPW\_BLOB**](ds-repl-opw-blob.md)
--   [**DS\_REPL\_PENDING\_OPS**](ds-repl-pending-ops.md)
--   [**DS\_REPL\_QUEUE\_STATISTICSW**](ds-repl-queue-statisticsw.md)
+-   [**DS\_DOMAIN\_CONTROLLER\_INFO\_1**](/windows/win32/Ntdsapi/ns-ntdsapi-ds_domain_controller_info_1a?branch=master)
+-   [**DS\_DOMAIN\_CONTROLLER\_INFO\_2**](/windows/win32/Ntdsapi/ns-ntdsapi-ds_domain_controller_info_2a?branch=master)
+-   [**DS\_DOMAIN\_CONTROLLER\_INFO\_3**](/windows/win32/Ntdsapi/ns-ntdsapi-ds_domain_controller_info_3a?branch=master)
+-   [**DS\_NAME\_RESULT**](/windows/win32/Ntdsapi/ns-ntdsapi-ds_name_resulta?branch=master)
+-   [**DS\_NAME\_RESULT\_ITEM**](/windows/win32/Ntdsapi/ns-ntdsapi-ds_name_result_itema?branch=master)
+-   [**DS\_REPL\_ATTR\_META\_DATA**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_attr_meta_data?branch=master)
+-   [**DS\_REPL\_ATTR\_META\_DATA\_2**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_attr_meta_data_2?branch=master)
+-   [**DS\_REPL\_ATTR\_META\_DATA\_BLOB**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_attr_meta_data_blob?branch=master)
+-   [**DS\_REPL\_ATTR\_VALUE\_META\_DATA**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_attr_value_meta_data?branch=master)
+-   [**DS\_REPL\_ATTR\_VALUE\_META\_DATA\_2**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_attr_value_meta_data_2?branch=master)
+-   [**DS\_REPL\_ATTR\_VALUE\_META\_DATA\_EXT**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_attr_value_meta_data_ext?branch=master)
+-   [**DS\_REPL\_CURSOR**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_cursor?branch=master)
+-   [**DS\_REPL\_CURSOR\_2**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_cursor_2?branch=master)
+-   [**DS\_REPL\_CURSOR\_3**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_cursor_3w?branch=master)
+-   [**DS\_REPL\_CURSOR\_BLOB**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_cursor_blob?branch=master)
+-   [**DS\_REPL\_CURSORS**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_cursors?branch=master)
+-   [**DS\_REPL\_CURSORS\_2**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_cursors_2?branch=master)
+-   [**DS\_REPL\_CURSORS\_3**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_cursors_3w?branch=master)
+-   [**DS\_REPL\_KCC\_DSA\_FAILURE**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_kcc_dsa_failurew?branch=master)
+-   [**DS\_REPL\_KCC\_DSA\_FAILURES**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_kcc_dsa_failuresw?branch=master)
+-   [**DS\_REPL\_KCC\_DSA\_FAILUREW\_BLOB**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_kcc_dsa_failurew_blob?branch=master)
+-   [**DS\_REPL\_NEIGHBOR**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_neighborw?branch=master)
+-   [**DS\_REPL\_NEIGHBORS**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_neighborsw?branch=master)
+-   [**DS\_REPL\_NEIGHBORW\_BLOB**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_neighborw_blob?branch=master)
+-   [**DS\_REPL\_OBJ\_META\_DATA**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_obj_meta_data?branch=master)
+-   [**DS\_REPL\_OBJ\_META\_DATA\_2**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_obj_meta_data_2?branch=master)
+-   [**DS\_REPL\_OP**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_opw?branch=master)
+-   [**DS\_REPL\_OPW\_BLOB**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_opw_blob?branch=master)
+-   [**DS\_REPL\_PENDING\_OPS**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_pending_opsw?branch=master)
+-   [**DS\_REPL\_QUEUE\_STATISTICSW**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_queue_statisticsw?branch=master)
 -   [**DS\_REPL\_QUEUE\_STATISTICSW\_BLOB**](https://msdn.microsoft.com/library/ms676274)
--   [**DS\_REPL\_VALUE\_META\_DATA**](ds-repl-value-meta-data.md)
--   [**DS\_REPL\_VALUE\_META\_DATA\_2**](ds-repl-value-meta-data-2.md)
--   [**DS\_REPL\_VALUE\_META\_DATA\_EXT**](ds-repl-value-meta-data-ext.md)
--   [**DS\_REPL\_VALUE\_META\_DATA\_BLOB**](ds-repl-value-meta-data-blob.md)
--   [**DS\_REPL\_VALUE\_META\_DATA\_BLOB\_EXT**](ds-repl-value-meta-data-blob-ext.md)
--   [**DS\_REPSYNCALL\_ERRINFO**](ds-repsyncall-errinfo.md)
--   [**DS\_REPSYNCALL\_SYNC**](ds-repsyncall-sync.md)
--   [**DS\_REPSYNCALL\_UPDATE**](ds-repsyncall-update.md)
--   [**DS\_SCHEMA\_GUID\_MAP**](ds-schema-guid-map.md)
--   [**DS\_SITE\_COST\_INFO**](ds-site-cost-info.md)
--   [**SCHEDULE**](schedule.md)
--   [**SCHEDULE\_HEADER**](schedule-header.md)
+-   [**DS\_REPL\_VALUE\_META\_DATA**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data?branch=master)
+-   [**DS\_REPL\_VALUE\_META\_DATA\_2**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_2?branch=master)
+-   [**DS\_REPL\_VALUE\_META\_DATA\_EXT**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_ext?branch=master)
+-   [**DS\_REPL\_VALUE\_META\_DATA\_BLOB**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_blob?branch=master)
+-   [**DS\_REPL\_VALUE\_META\_DATA\_BLOB\_EXT**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_blob_ext?branch=master)
+-   [**DS\_REPSYNCALL\_ERRINFO**](/windows/win32/Ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa?branch=master)
+-   [**DS\_REPSYNCALL\_SYNC**](/windows/win32/Ntdsapi/ns-ntdsapi-ds_repsyncall_synca?branch=master)
+-   [**DS\_REPSYNCALL\_UPDATE**](/windows/win32/Ntdsapi/ns-ntdsapi-ds_repsyncall_updatea?branch=master)
+-   [**DS\_SCHEMA\_GUID\_MAP**](/windows/win32/Ntdsapi/ns-ntdsapi-ds_schema_guid_mapa?branch=master)
+-   [**DS\_SITE\_COST\_INFO**](/windows/win32/Ntdsapi/ns-ntdsapi-ds_site_cost_info?branch=master)
+-   [**SCHEDULE**](/windows/win32/Schedule/ns-schedule-_schedule?branch=master)
+-   [**SCHEDULE\_HEADER**](/windows/win32/Schedule/ns-schedule-_schedule_header?branch=master)
 
 ## Related topics
 

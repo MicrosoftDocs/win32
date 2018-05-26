@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the locale name for the parent of the supplied locale.'
-ms.assetid: 'a8db8107-822c-4bbc-acb8-40b25d2b41c4'
+---
+Description: Retrieves the locale name for the parent of the supplied locale.
+ms.assetid: a8db8107-822c-4bbc-acb8-40b25d2b41c4
 title: DownlevelGetParentLocaleName function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownlevelGetParentLocaleName function
@@ -9,7 +14,7 @@ title: DownlevelGetParentLocaleName function
 Retrieves the [locale name](locale-names.md) for the parent of the supplied locale.
 
 > [!Note]  
-> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires the download package. Applications that only run on Windows Vista and later should call [**GetLocaleInfo**](getlocaleinfo.md) with *LCType* set to [LOCALE\_SPARENT](locale-sparent.md).
+> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires the download package. Applications that only run on Windows Vista and later should call [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) with *LCType* set to [LOCALE\_SPARENT](locale-sparent.md).
 
  
 
@@ -33,7 +38,7 @@ int DownlevelGetParentLocaleName(
 *Locale* \[in\]
 </dt> <dd>
 
-[Locale identifier](locale-identifiers.md) of the locale. You can use the [**MAKELCID**](makelcid.md) macro to create a locale identifier or use one of the following predefined values.
+[Locale identifier](locale-identifiers.md) of the locale. You can use the [**MAKELCID**](/windows/win32/Winnt/nf-winnt-makelcid?branch=master) macro to create a locale identifier or use one of the following predefined values.
 
 -   [LOCALE\_INVARIANT](locale-invariant.md)
 -   [LOCALE\_SYSTEM\_DEFAULT](locale-system-default.md)
@@ -105,7 +110,7 @@ The required header file and DLL are part of the "Microsoft NLS Downlevel Data M
 [Mapping Locale Data](mapping-locale-data.md)
 </dt> <dt>
 
-[**GetLocaleInfo**](getlocaleinfo.md)
+[**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master)
 </dt> </dl>
 
  

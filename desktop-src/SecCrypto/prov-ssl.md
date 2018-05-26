@@ -1,7 +1,12 @@
 ---
-Description: 'Supports the Secure Sockets Layer (SSL) protocol.'
-ms.assetid: 'c94d8584-f01b-469b-a0d6-5fb14796b93e'
-title: 'PROV\_SSL'
+Description: Supports the Secure Sockets Layer (SSL) protocol.
+ms.assetid: c94d8584-f01b-469b-a0d6-5fb14796b93e
+title: PROV\_SSL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROV\_SSL

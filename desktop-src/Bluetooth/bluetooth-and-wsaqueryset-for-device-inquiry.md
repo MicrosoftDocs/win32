@@ -1,8 +1,15 @@
 ---
 title: Bluetooth and WSAQUERYSET for Device Inquiry
 description: Used to facilitate the discovery of devices and services in the Bluetooth namespace, NS\_BTH.
-ms.assetid: '0c0d26f7-b6c3-42a9-8c01-118278c381cc'
-keywords: ["Bluetooth and WSAQUERYSET for Device Inquiry Bluetooth", "WSAQUERYSET Bluetooth , for device inquiry"]
+ms.assetid: 0c0d26f7-b6c3-42a9-8c01-118278c381cc
+keywords:
+- Bluetooth and WSAQUERYSET for Device Inquiry Bluetooth
+- WSAQUERYSET Bluetooth , for device inquiry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and WSAQUERYSET for Device Inquiry
@@ -26,12 +33,12 @@ The [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/deskt
 | **lpafpProtocols**          | Not used.                                                                                                                                                                                                  | Not used.                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **lpszQueryString**         | Not used.                                                                                                                                                                                                  | Not used.                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **dwNumberOfCsAddrs**       | Not used.                                                                                                                                                                                                  | Indicates the number of elements in the array of [**CSADDR\_INFO**](https://msdn.microsoft.com/library/windows/desktop/ms737640) structures.                                                                                                                                                                                                                                                                                                                          |
-| **lpcsaBuffer**             | Not used.                                                                                                                                                                                                  | Pointer to a [**CSADDR\_INFO**](https://msdn.microsoft.com/library/windows/desktop/ms737640) structure with its **LocalAddr.lpSockaddr** member pointing to a [**SOCKADDR\_BTH**](sockaddr-bth.md) structure with the address of the remote device. Returned if **LUP\_RETURN\_ADDR** is specified.                                                                                                                                                                  |
-| **lpBlob**                  | Optional. May point to a [**BLOB**](https://msdn.microsoft.com/library/windows/desktop/ms737551) structure that points to a [**BTH\_QUERY\_DEVICE**](bth-query-device.md) structure that may limit the length of non-cached device inquiry operations. | Pointer to a [**BLOB**](https://msdn.microsoft.com/library/windows/desktop/ms737551) structure that points to a [**BTH\_DEVICE\_INFO**](bth-device-info.md) structure. **lpBlob** is returned if **LUP\_RETURN\_BLOB** is specified. Specify **LUP\_RETURN\_NAME** to retrieve the name field of **BTH\_DEVICE\_INFO**.                                                                                                                                                     |
+| **lpcsaBuffer**             | Not used.                                                                                                                                                                                                  | Pointer to a [**CSADDR\_INFO**](https://msdn.microsoft.com/library/windows/desktop/ms737640) structure with its **LocalAddr.lpSockaddr** member pointing to a [**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master) structure with the address of the remote device. Returned if **LUP\_RETURN\_ADDR** is specified.                                                                                                                                                                  |
+| **lpBlob**                  | Optional. May point to a [**BLOB**](https://msdn.microsoft.com/library/windows/desktop/ms737551) structure that points to a [**BTH\_QUERY\_DEVICE**](/windows/win32/Ws2bth/ns-ws2bth-_bth_query_device?branch=master) structure that may limit the length of non-cached device inquiry operations. | Pointer to a [**BLOB**](https://msdn.microsoft.com/library/windows/desktop/ms737551) structure that points to a [**BTH\_DEVICE\_INFO**](/windows/win32/Bthdef/ns-bthdef-_bth_device_info?branch=master) structure. **lpBlob** is returned if **LUP\_RETURN\_BLOB** is specified. Specify **LUP\_RETURN\_NAME** to retrieve the name field of **BTH\_DEVICE\_INFO**.                                                                                                                                                     |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -55,16 +62,16 @@ The [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/deskt
 [**BLOB**](https://msdn.microsoft.com/library/windows/desktop/ms737551)
 </dt> <dt>
 
-[**BTH\_DEVICE\_INFO**](bth-device-info.md)
+[**BTH\_DEVICE\_INFO**](/windows/win32/Bthdef/ns-bthdef-_bth_device_info?branch=master)
 </dt> <dt>
 
-[**BTH\_QUERY\_DEVICE**](bth-query-device.md)
+[**BTH\_QUERY\_DEVICE**](/windows/win32/Ws2bth/ns-ws2bth-_bth_query_device?branch=master)
 </dt> <dt>
 
 [**CSADDR\_INFO**](https://msdn.microsoft.com/library/windows/desktop/ms737640)
 </dt> <dt>
 
-[**SOCKADDR\_BTH**](sockaddr-bth.md)
+[**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master)
 </dt> <dt>
 
 [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679)
@@ -73,9 +80,9 @@ The [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/deskt
 [Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

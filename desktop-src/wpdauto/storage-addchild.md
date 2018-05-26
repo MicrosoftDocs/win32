@@ -1,14 +1,22 @@
 ---
 title: Storage.AddChild method
 description: The AddChild method adds a WPDObject obtained from the Storage.CreateNewObject method, as a child of this Storage object.
-ms.assetid: '5f744a97-5564-4f8d-8c7c-992bc7340ffe'
-keywords: ["AddChild method WPD Automation", "AddChild method WPD Automation , Storage object", "Storage object WPD Automation , AddChild method"]
+ms.assetid: 5f744a97-5564-4f8d-8c7c-992bc7340ffe
+keywords:
+- AddChild method WPD Automation
+- AddChild method WPD Automation , Storage object
+- Storage object WPD Automation , AddChild method
 topic_type:
 - apiref
 api_name:
 - Storage.AddChild
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage.AddChild method
@@ -75,8 +83,8 @@ folder.AddChild(contact);
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -93,9 +101,9 @@ folder.AddChild(contact);
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

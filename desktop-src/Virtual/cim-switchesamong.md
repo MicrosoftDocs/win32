@@ -1,8 +1,10 @@
 ---
 title: CIM\_SwitchesAmong class
 description: Represents a switch service, which switches frames between switch ports.
-ms.assetid: '3eb402f2-26e8-4fc5-a116-d3a83455cf75'
-keywords: ["CIM_SwitchesAmong class Hyper-V", "CIM_SwitchesAmong class Hyper-V , described"]
+ms.assetid: 3eb402f2-26e8-4fc5-a116-d3a83455cf75
+keywords:
+- CIM_SwitchesAmong class Hyper-V
+- CIM_SwitchesAmong class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SwitchesAmong class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Association, Version("2.6.0")]
 class CIM_SwitchesAmong : CIM_ForwardsAmong
 {
-  CIM_SwitchPort    REF Antecedent;
+  CIM_SwitchPort    REF Antecedent;
   CIM_SwitchService REF Dependent;
 };
 ```
@@ -83,9 +90,9 @@ A reference to the switching service.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ A reference to the switching service.
 [**CIM\_ForwardsAmong**](cim-forwardsamong.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

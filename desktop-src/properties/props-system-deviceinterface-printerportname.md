@@ -1,7 +1,12 @@
 ---
-Description: 'The port where the printer is located.'
-ms.assetid: '3FC1E36D-A03F-44ef-AD49-EE2F51703DBB'
-title: 'System.DeviceInterface.PrinterPortName'
+Description: The port where the printer is located.
+ms.assetid: 3FC1E36D-A03F-44ef-AD49-EE2F51703DBB
+title: System.DeviceInterface.PrinterPortName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.PrinterPortName

@@ -1,14 +1,20 @@
 ---
 title: TEXT.scrollingDelay
 description: The scrollingDelay attribute specifies or retrieves the time delay between scrolling movements.
-ms.assetid: 'b965fe8f-c809-431f-b8fe-f7c3060068ac'
-keywords: ["TEXT.scrollingDelay Windows Media Player"]
+ms.assetid: b965fe8f-c809-431f-b8fe-f7c3060068ac
+keywords:
+- TEXT.scrollingDelay Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.scrollingDelay
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.scrollingDelay
@@ -49,9 +55,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT.scrolling**](text-scrolling.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetGroupName method sets the application-defined name of the group.'
-ms.assetid: 'e1d8a91b-d5b9-42a4-9b98-582e1a57ac51'
-title: 'IAMTimelineGroup::SetGroupName method'
+---
+Description: The SetGroupName method sets the application-defined name of the group.
+ms.assetid: e1d8a91b-d5b9-42a4-9b98-582e1a57ac51
+title: IAMTimelineGroupSetGroupName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::SetGroupName method

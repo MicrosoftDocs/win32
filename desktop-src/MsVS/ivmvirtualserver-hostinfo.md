@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer HostInfo property
 description: The HostInfo property retrieves information about the physical PC.
-ms.assetid: 'f3e15110-7b01-4dd5-8105-33ac991adc9a'
-keywords: ["HostInfo property Virtual Server", "HostInfo property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , HostInfo property", "HostInfo property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , HostInfo property"]
+ms.assetid: f3e15110-7b01-4dd5-8105-33ac991adc9a
+keywords:
+- HostInfo property Virtual Server
+- HostInfo property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , HostInfo property
+- HostInfo property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , HostInfo property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::HostInfo property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HostInfo(
-  [out] IVMHostInfo **hostMachine
+  [out] IVMHostInfo **hostMachine
 );
 ```
 
@@ -96,8 +106,8 @@ Wscript.Echo "    Number of processors on host: " & _
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -109,9 +119,9 @@ Wscript.Echo "    Number of processors on host: " & _
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Enumerates all of the Remote Desktop license servers, and the metho
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0de2ee6f-6c56-4293-84da-131b433c6a9d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0de2ee6f-6c56-4293-84da-131b433c6a9d
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["FindLicenseServers method Remote Desktop Services", "FindLicenseServers method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , FindLicenseServers method"]
+keywords:
+- FindLicenseServers method Remote Desktop Services
+- FindLicenseServers method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , FindLicenseServers method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FindLicenseServers method of the Win32\_TerminalServiceSetting class
@@ -28,8 +34,8 @@ Enumerates all of the Remote Desktop license servers, and the method of discover
 
 ```mof
 uint32 FindLicenseServers(
-  [out] Win32_TSDiscoveredLicenseServer LicenseServersList[],
-  [out] uint32                          Count
+  [out] Win32_TSDiscoveredLicenseServer LicenseServersList[],
+  [out] uint32                          Count
 );
 ```
 
@@ -74,8 +80,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -89,9 +95,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

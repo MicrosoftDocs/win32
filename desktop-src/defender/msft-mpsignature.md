@@ -1,8 +1,15 @@
 ---
 title: MSFT\_MpSignature class
 description: The Windows Defender Signature Class.
-ms.assetid: '300713ca-fe5c-43f5-be72-b92acd95d6ec'
-keywords: ["MSFT_MpSignature class", "MSFT_MpSignature class, described"]
+ms.assetid: 300713ca-fe5c-43f5-be72-b92acd95d6ec
+keywords:
+- MSFT_MpSignature class
+- MSFT_MpSignature class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_MpSignature class
@@ -37,7 +44,7 @@ The **MSFT\_MpSignature** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,17 +52,17 @@ The **MSFT\_MpSignature** class has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Defender<br/>                                                       |
 | MOF<br/>                      | <dl> <dt>ProtectionManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ProtectionManagement.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

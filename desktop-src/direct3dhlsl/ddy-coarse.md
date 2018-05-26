@@ -1,14 +1,20 @@
 ---
 title: ddy\_coarse function
 description: Computes a low precision partial derivative with respect to the screen-space y-coordinate.
-ms.assetid: 'f6103cd3-f7ee-41c2-b3cf-9e72ca84b25e'
-keywords: ["ddy_coarse function HLSL"]
+ms.assetid: f6103cd3-f7ee-41c2-b3cf-9e72ca84b25e
+keywords:
+- ddy_coarse function HLSL
 topic_type:
 - apiref
 api_name:
 - ddy_coarse
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ddy\_coarse function

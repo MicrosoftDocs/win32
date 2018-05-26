@@ -1,7 +1,12 @@
 ---
-Description: 'In unidirectional text, the caret position has no ambiguity because the leading edge of a character is at the same place as the trailing edge of the previous character.'
-ms.assetid: '3bebb329-3dd7-4b2e-8ff3-878aaf337a2c'
+Description: In unidirectional text, the caret position has no ambiguity because the leading edge of a character is at the same place as the trailing edge of the previous character.
+ms.assetid: 3bebb329-3dd7-4b2e-8ff3-878aaf337a2c
 title: Displaying the Caret in Bidirectional Strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying the Caret in Bidirectional Strings
@@ -56,7 +61,7 @@ ScriptCPtoX(
 
 
 
-[**ScriptCPtoX**](scriptcptox.md) handles out-of-range positions logically. It returns the leading edge of the run for *iCharPos* &lt;0, and the trailing edge of the run for *iCharPos* &gt;= length. For more information, see [Managing Caret Placement and Hit Testing](managing-caret-placement-and-hit-testing.md)
+[**ScriptCPtoX**](/windows/win32/Usp10/nf-usp10-scriptcptox?branch=master) handles out-of-range positions logically. It returns the leading edge of the run for *iCharPos* &lt;0, and the trailing edge of the run for *iCharPos* &gt;= length. For more information, see [Managing Caret Placement and Hit Testing](managing-caret-placement-and-hit-testing.md)
 
 ## Related topics
 

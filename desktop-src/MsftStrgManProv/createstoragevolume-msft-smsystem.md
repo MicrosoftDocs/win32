@@ -4,11 +4,14 @@ description: Start a job to create a storage volume.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a6c7773f-3589-42f2-bb1e-b59d34afc9ef'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a6c7773f-3589-42f2-bb1e-b59d34afc9ef
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateStorageVolume method", "CreateStorageVolume method, MSFT_SMSystem class", "MSFT_SMSystem class, CreateStorageVolume method"]
+keywords:
+- CreateStorageVolume method
+- CreateStorageVolume method, MSFT_SMSystem class
+- MSFT_SMSystem class, CreateStorageVolume method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateStorageVolume method of the MSFT\_SMSystem class
@@ -28,18 +34,18 @@ Start a job to create a storage volume.
 
 ```mof
 uint32 CreateStorageVolume(
-  [in, optional]  string                   ElementName,
-  [in, out]       uint64                   Size,
-  [in, optional]  boolean                  NoSinglePointOfFailure,
-  [in, optional]  uint16                   PackageRedundancyGoal,
-  [in, optional]  uint16                   DataRedundancyGoal,
-  [in, optional]  uint16                   ParityLayout,
-  [in, optional]  boolean                  ThinlyProvisioned,
-  [in, optional]  String                   username,
-  [in, optional]  String                   password,
-  [out, optional] MSFT_SMStorageVolume REF CreatedStorageVolume,
-  [out]           MSFT_SMJob           REF Job,
-  [out, optional] MSFT_SMExtendedStatus    ExtendedStatus
+  [in, optional]  string                   ElementName,
+  [in, out]       uint64                   Size,
+  [in, optional]  boolean                  NoSinglePointOfFailure,
+  [in, optional]  uint16                   PackageRedundancyGoal,
+  [in, optional]  uint16                   DataRedundancyGoal,
+  [in, optional]  uint16                   ParityLayout,
+  [in, optional]  boolean                  ThinlyProvisioned,
+  [in, optional]  String                   username,
+  [in, optional]  String                   password,
+  [out, optional] MSFT_SMStorageVolume REF CreatedStorageVolume,
+  [out]           MSFT_SMJob           REF Job,
+  [out, optional] MSFT_SMExtendedStatus    ExtendedStatus
 );
 ```
 
@@ -206,7 +212,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 
 6
 
-**Windows Server 2012 R2 and Windows Server 2012:** This value is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This value is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -567,7 +573,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -581,9 +587,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMSystem**](msft-smsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

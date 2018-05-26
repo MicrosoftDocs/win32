@@ -4,11 +4,16 @@ description: To implement high availability for a server application or any othe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a9b44a2b-c2e7-4e4d-9bab-062e0a001208'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: a9b44a2b-c2e7-4e4d-9bab-062e0a001208
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["virtual servers Failover Cluster , creating", "failover cluster instances Failover Cluster , creating"]
+keywords:
+- virtual servers Failover Cluster , creating
+- failover cluster instances Failover Cluster , creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Failover Cluster Instances
@@ -18,7 +23,7 @@ To implement high availability for a server application or any other resource no
 **To create a failover cluster instance**
 
 1.  Create a [group](groups.md) (see [Creating Groups](creating-groups.md)) that contains an [IP Address](ip-address.md) resource, an [IPv6 Address](ipv6-address.md) resource, and/or an [IPv6 Tunnel Address](ipv6-tunnel-address.md) resource, a [Network Name](network-name.md) resource, your resource, and any other resources that must be in the same group.
-2.  Call [**AddClusterResourceDependency**](addclusterresourcedependency.md) to establish the following dependencies:
+2.  Call [**AddClusterResourceDependency**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_add_cluster_resource_dependency?branch=master) to establish the following dependencies:
 
     1.  Add the [IP Address](ip-address.md) resource, [IPv6 Address](ipv6-address.md) resource, and/or [IPv6 Tunnel Address](ipv6-tunnel-address.md) resource as dependencies of the [Network Name](network-name.md) resource.
     2.  Add either the [IP Address](ip-address.md) resource, [IPv6 Address](ipv6-address.md) resource, and/or [IPv6 Tunnel Address](ipv6-tunnel-address.md) resource or the [Network Name](network-name.md) resource as a dependencies of your resource.

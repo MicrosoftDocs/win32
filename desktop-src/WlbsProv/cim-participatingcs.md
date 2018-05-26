@@ -1,16 +1,18 @@
 ---
 title: CIM\_ParticipatingCS class
-description: A CIM\_Cluster is composed of two or more computer system's, operating together. A computer system may participate in multiple clusters.
+description: A CIM\_Cluster is composed of two or more computer systems, operating together. A computer system may participate in multiple clusters.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3aeb317f-b137-472c-ad6a-c791561c3114'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3aeb317f-b137-472c-ad6a-c791561c3114
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ParticipatingCS class", "CIM_ParticipatingCS class, described"]
+keywords:
+- CIM_ParticipatingCS class
+- CIM_ParticipatingCS class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ParticipatingCS class
@@ -40,9 +45,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ParticipatingCS : CIM_Dependency
 {
   CIM_ComputerSystem REF Antecedent;
-  CIM_Cluster        REF Dependent;
-  uint16                 StateOfNode;
-  uint16                 RoleOfNode;
+  CIM_Cluster        REF Dependent;
+  uint16                 StateOfNode;
+  uint16                 RoleOfNode;
 };
 ```
 
@@ -218,7 +223,7 @@ StateOfNode indicates the condition of the participating computer system in the 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -232,9 +237,9 @@ StateOfNode indicates the condition of the participating computer system in the 
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

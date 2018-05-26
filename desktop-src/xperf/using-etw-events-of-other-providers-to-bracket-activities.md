@@ -1,7 +1,12 @@
 ---
 title: Using ETW Events of Other Providers to Bracket Activities
 description: Using ETW Events of Other Providers to Bracket Activities
-ms.assetid: '4eb880a2-0fd0-4dc8-9962-d28cafa21be0'
+ms.assetid: 4eb880a2-0fd0-4dc8-9962-d28cafa21be0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using ETW Events of Other Providers to Bracket Activities

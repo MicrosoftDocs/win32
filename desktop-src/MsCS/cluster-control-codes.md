@@ -3,21 +3,27 @@ title: Cluster Control Codes
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cabd9d59-7ace-4081-9de1-7645c882a64d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: cabd9d59-7ace-4081-9de1-7645c882a64d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
 description: 
-keywords: ["cluster control codes Failover Cluster", "control codes Failover Cluster ,cluster", "clusters Failover Cluster ,control codes"]
+keywords:
+- cluster control codes Failover Cluster
+- control codes Failover Cluster ,cluster
+- clusters Failover Cluster ,control codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Control Codes
 
 The [Failover Cluster API](the-server-cluster-api.md) defines the following [*external control codes*](e-gly.md#-wolf-external-control-code-gly) for [*clusters*](c-gly.md#-wolf-cluster-gly) (there are no [*internal control codes*](i-gly.md#-wolf-internal-control-code-gly) defined for clusters):
 
-Cluster control codes use the **CLUS\_OBJECT\_CLUSTER** value of the [**CLUSTER\_CONTROL\_OBJECT**](cluster-control-object.md) enumeration to indicate that the control code applies to clusters. For more information about control codes, see [Control Code Architecture](control-code-architecture.md).
+Cluster control codes use the **CLUS\_OBJECT\_CLUSTER** value of the [**CLUSTER\_CONTROL\_OBJECT**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_control_object?branch=master) enumeration to indicate that the control code applies to clusters. For more information about control codes, see [Control Code Architecture](control-code-architecture.md).
 
-Cluster control codes are enumerated by the [**CLUSCTL\_CLUSTER\_CODES**](clusctl-cluster-codes.md) enumeration.
+Cluster control codes are enumerated by the [**CLUSCTL\_CLUSTER\_CODES**](/windows/previous-versions/ClusAPI/ne-clusapi-clusctl_cluster_codes?branch=master) enumeration.
 
 ## In this section
 
@@ -40,7 +46,7 @@ Queries the server for whether evicting the designated configured node from the 
 [CLUSCTL\_CLUSTER\_CLEAR\_NODE\_CONNECTION\_INFO](clusctl-cluster-clear-node-connection-info.md)
 </dt> <dd>
 
-TBD. Applications use this control code as a parameter to the [**ClusterControl**](clustercontrol.md) function.
+TBD. Applications use this control code as a parameter to the [**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master) function.
 
 </dd> <dt>
 
@@ -222,7 +228,7 @@ Verifies that a [property list](property-lists.md) contains valid cluster proper
 [CLUSCTL\_CLUSTER\_VALIDATE\_PRIVATE\_PROPERTIES](clusctl-cluster-validate-private-properties.md)
 </dt> <dd>
 
-Verifies that a [property list](property-lists.md) is properly formatted. Applications use this [control code](about-control-codes.md) as a [**ClusterControl**](clustercontrol.md) parameter.
+Verifies that a [property list](property-lists.md) is properly formatted. Applications use this [control code](about-control-codes.md) as a [**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master) parameter.
 
 </dd> </dl>
 
@@ -233,7 +239,7 @@ Verifies that a [property list](property-lists.md) is properly formatted. Applic
 [Failover Cluster Control Codes](control-codes.md)
 </dt> <dt>
 
-[**ClusterControl**](clustercontrol.md)
+[**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master)
 </dt> </dl>
 
  

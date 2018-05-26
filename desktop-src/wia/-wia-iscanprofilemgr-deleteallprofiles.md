@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deletes all the scan profiles associated with the specified device.'
-ms.assetid: '5abf101b-0442-47fc-8159-95db63f0af78'
-title: 'IScanProfileMgr::DeleteAllProfiles method'
+---
+Description: Deletes all the scan profiles associated with the specified device.
+ms.assetid: 5abf101b-0442-47fc-8159-95db63f0af78
+title: IScanProfileMgrDeleteAllProfiles method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfileMgr::DeleteAllProfiles method

@@ -4,17 +4,21 @@ description: Controls the amount of time, in seconds, that a node waits on other
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'F622C705-C953-41B4-80F1-1809724764C8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: F622C705-C953-41B4-80F1-1809724764C8
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusSvcRegroupStageTimeout Failover Cluster"]
+keywords:
+- ClusSvcRegroupStageTimeout Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ClusSvcRegroupStageTimeout
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusSvcRegroupStageTimeout
@@ -27,14 +31,14 @@ Controls the amount of time, in seconds, that a node waits on other nodes in a m
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 2                                         |
 | Maximum   | 30                                        |
 | Default   | 5                                         |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -43,7 +47,7 @@ Controls the amount of time, in seconds, that a node waits on other nodes in a m
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -54,9 +58,9 @@ Controls the amount of time, in seconds, that a node waits on other nodes in a m
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

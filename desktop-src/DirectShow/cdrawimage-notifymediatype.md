@@ -1,7 +1,12 @@
 ---
-Description: 'The NotifyMediaType method notifies the CDrawImage object of the current media type.'
-ms.assetid: '419d516f-4b96-47aa-80cc-ac785e65af8b'
-title: 'CDrawImage.NotifyMediaType method'
+Description: The NotifyMediaType method notifies the CDrawImage object of the current media type.
+ms.assetid: 419d516f-4b96-47aa-80cc-ac785e65af8b
+title: CDrawImage.NotifyMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.NotifyMediaType method
@@ -13,7 +18,7 @@ The `NotifyMediaType` method notifies the **CDrawImage** object of the current m
 
 ```C++
 void NotifyMediaType(
-   CMediaType *pMediaType
+   CMediaType *pMediaType
 );
 ```
 
@@ -58,9 +63,9 @@ The **CDrawImage** object stores the *pMediaType* pointer in the **m\_pMediaType
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine ChassisAssetTag property
 description: The ChassisAssetTag property contains the chassis asset tag.
-ms.assetid: '2858ff38-e5d6-4164-b934-4491234d472d'
-keywords: ["ChassisAssetTag property Virtual Server", "ChassisAssetTag property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , ChassisAssetTag property", "ChassisAssetTag property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , ChassisAssetTag property"]
+ms.assetid: 2858ff38-e5d6-4164-b934-4491234d472d
+keywords:
+- ChassisAssetTag property Virtual Server
+- ChassisAssetTag property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , ChassisAssetTag property
+- ChassisAssetTag property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , ChassisAssetTag property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::ChassisAssetTag property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ChassisAssetTag(
-  [in]  BSTR chassisAssetTag
+  [in]  BSTR chassisAssetTag
 );
 
 HRESULT get_ChassisAssetTag(
-  [out] BSTR *chassisAssetTag
+  [out] BSTR *chassisAssetTag
 );
 ```
 
@@ -108,8 +118,8 @@ End If
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -121,9 +131,9 @@ End If
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

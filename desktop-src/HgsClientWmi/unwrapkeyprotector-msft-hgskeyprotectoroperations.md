@@ -4,13 +4,16 @@ description: Unwraps an existing key protector returning the ingress key along w
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3e3e7c1b-1865-4da4-bc3f-89fd9f36e9e5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3e3e7c1b-1865-4da4-bc3f-89fd9f36e9e5
+ms.prod: windows-server-dev
 ms.technology:
-- 'host-guardian-service'
-- 'windows-management-instrumentation'
+- host-guardian-service
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["UnwrapKeyProtector method", "UnwrapKeyProtector method, MSFT_HgsKeyProtectorOperations class", "MSFT_HgsKeyProtectorOperations class, UnwrapKeyProtector method"]
+keywords:
+- UnwrapKeyProtector method
+- UnwrapKeyProtector method, MSFT_HgsKeyProtectorOperations class
+- MSFT_HgsKeyProtectorOperations class, UnwrapKeyProtector method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - HgsClientWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UnwrapKeyProtector method of the MSFT\_HgsKeyProtectorOperations class
@@ -30,11 +36,11 @@ Unwraps an existing key protector returning the ingress key along with a new egr
 
 ```mof
 uint32 UnwrapKeyProtector(
-  [in]  uint8 IngressKeyProtector[],
-  [out] uint8 EncryptedTransferKey[],
-  [out] uint8 EncryptedWrappingKey[],
-  [out] uint8 EncryptedKeys[],
-  [out] uint8 EgressKeyProtector[]
+  [in]  uint8 IngressKeyProtector[],
+  [out] uint8 EncryptedTransferKey[],
+  [out] uint8 EncryptedWrappingKey[],
+  [out] uint8 EncryptedKeys[],
+  [out] uint8 EgressKeyProtector[]
 );
 ```
 
@@ -85,8 +91,8 @@ On success, contains the new egress Key Protector that describes the egress key.
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Hgs<br/>                                                    |
 | MOF<br/>                      | <dl> <dt>HgsClientWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>HgsClientWmi.dll</dt> </dl> |
@@ -100,9 +106,9 @@ On success, contains the new egress Key Protector that describes the egress key.
 [**MSFT\_HgsKeyProtectorOperations**](msft-hgskeyprotectoroperations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: EmailAction.Subject property
 description: For scripting, gets or sets the subject of the email message.
-ms.assetid: 'ea398af1-9ae6-4bcf-9618-bb840b15127e'
-keywords: ["Subject property Task Scheduler", "Subject property Task Scheduler , EmailAction object", "EmailAction object Task Scheduler , Subject property"]
+ms.assetid: ea398af1-9ae6-4bcf-9618-bb840b15127e
+keywords:
+- Subject property Task Scheduler
+- Subject property Task Scheduler , EmailAction object
+- EmailAction object Task Scheduler , Subject property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EmailAction.Subject property
@@ -44,10 +52,10 @@ When setting this property value, the value can be text that is retrieved from a
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows 7<br/>                                                                    |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows 7<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -63,9 +71,9 @@ When setting this property value, the value can be text that is retrieved from a
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

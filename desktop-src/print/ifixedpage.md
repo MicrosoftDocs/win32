@@ -1,7 +1,12 @@
-﻿---
-Description: 'A filter uses the IFixedPage interface to work with fixed pages in an XPS document.'
-ms.assetid: 'e9e309ed-42e5-40cc-a230-6ca001f9fb1b'
+---
+Description: A filter uses the IFixedPage interface to work with fixed pages in an XPS document.
+ms.assetid: e9e309ed-42e5-40cc-a230-6ca001f9fb1b
 title: IFixedPage interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedPage interface

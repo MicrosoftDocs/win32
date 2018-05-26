@@ -1,8 +1,20 @@
 ---
 title: Windows Media Format 11 SDK
 description: Windows Media Format 11 SDK
-ms.assetid: '875e8914-b861-46f1-9391-8724ff77d26b'
-keywords: ["Windows Media Format SDK,about", "Windows Media SDK", "Windows Media Format SDK,Advanced Systems Format (ASF)", "Advanced Systems Format (ASF),about", "ASF (Advanced Systems Format),about", "Windows Media Format SDK,features", "Windows Media Format SDK,key features"]
+ms.assetid: 875e8914-b861-46f1-9391-8724ff77d26b
+keywords:
+- Windows Media Format SDK,about
+- Windows Media SDK
+- Windows Media Format SDK,Advanced Systems Format (ASF)
+- Advanced Systems Format (ASF),about
+- ASF (Advanced Systems Format),about
+- Windows Media Format SDK,features
+- Windows Media Format SDK,key features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Format 11 SDK

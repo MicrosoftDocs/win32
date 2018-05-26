@@ -1,6 +1,11 @@
-﻿---
-Description: 'Displays an error message in the balloon tip associated with the network address control.'
-title: 'NCM\_DISPLAYERRORTIP message'
+---
+Description: Displays an error message in the balloon tip associated with the network address control.
+title: NCM\_DISPLAYERRORTIP message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NCM\_DISPLAYERRORTIP message
@@ -54,7 +59,7 @@ Send this message to display an error message when an address typed into the con
 
 <dl> <dt>
 
-[**NetAddr\_DisplayErrorTip**](netaddr-displayerrortip.md)
+[**NetAddr\_DisplayErrorTip**](/windows/win32/Shellapi/nf-shellapi-netaddr_displayerrortip?branch=master)
 </dt> </dl>
 
  

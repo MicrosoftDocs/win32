@@ -1,7 +1,12 @@
 ---
-Description: 'The list of properties to show in the infotip. Properties with empty values will not be displayed.'
-ms.assetid: '52947832-e634-4ecb-861e-c84a84a45fc0'
-title: 'System.PropList.InfoTip'
+Description: The list of properties to show in the infotip. Properties with empty values will not be displayed.
+ms.assetid: 52947832-e634-4ecb-861e-c84a84a45fc0
+title: System.PropList.InfoTip
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.PropList.InfoTip

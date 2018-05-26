@@ -1,7 +1,12 @@
 ---
-Description: 'The ProvideTextData method is called by Mergemod.dll to retrieve text data from the client tool. Mergemod.dll provides the Name from the corresponding entry in the ModuleConfiguration table.'
-ms.assetid: '286b0b58-1b6a-4d41-89e1-eb9c23bdd788'
-title: 'ConfigureModule.ProvideTextData method'
+Description: The ProvideTextData method is called by Mergemod.dll to retrieve text data from the client tool. Mergemod.dll provides the Name from the corresponding entry in the ModuleConfiguration table.
+ms.assetid: 286b0b58-1b6a-4d41-89e1-eb9c23bdd788
+title: ConfigureModule.ProvideTextData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConfigureModule.ProvideTextData method
@@ -56,7 +61,7 @@ The client may be called no more than once for each record in the [ModuleConfigu
 
 ### C++
 
-See [**ProvideTextData function**](imsmconfiguremodule-providetextdata.md).
+See [**ProvideTextData function**](/windows/win32/Mergemod/nf-mergemod-imsmconfiguremodule-providetextdata?branch=master).
 
 ## Requirements
 
@@ -70,9 +75,9 @@ See [**ProvideTextData function**](imsmconfiguremodule-providetextdata.md).
 
 
 
- 
+ 
 
- 
+ 
 
 
 

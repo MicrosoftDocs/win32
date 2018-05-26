@@ -1,8 +1,9 @@
 ---
 title: TBM\_SETTIC message
 description: Sets a tick mark in a trackbar at the specified logical position.
-ms.assetid: '89b42cac-967e-40c7-9fab-2bd76f06f3f9'
-keywords: ["TBM_SETTIC message Windows Controls"]
+ms.assetid: 89b42cac-967e-40c7-9fab-2bd76f06f3f9
+keywords:
+- TBM_SETTIC message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_SETTIC message
@@ -45,8 +51,8 @@ A trackbar creates its own first and last tick marks. Do not use this message to
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ A trackbar creates its own first and last tick marks. Do not use this message to
 [**TBM\_GETTIC**](tbm-gettic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

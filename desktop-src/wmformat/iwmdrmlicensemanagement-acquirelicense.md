@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseManagement AcquireLicense method
 description: The AcquireLicense method asynchronously acquires a license from a specified URL.
-ms.assetid: '2e134f39-1f45-4d3a-b7c7-460aa0a250d0'
-keywords: ["AcquireLicense method windows Media Format", "AcquireLicense method windows Media Format , IWMDRMLicenseManagement interface", "IWMDRMLicenseManagement interface windows Media Format , AcquireLicense method"]
+ms.assetid: 2e134f39-1f45-4d3a-b7c7-460aa0a250d0
+keywords:
+- AcquireLicense method windows Media Format
+- AcquireLicense method windows Media Format , IWMDRMLicenseManagement interface
+- IWMDRMLicenseManagement interface windows Media Format , AcquireLicense method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseManagement::AcquireLicense method
@@ -23,11 +31,11 @@ The **AcquireLicense** method asynchronously acquires a license from a specified
 
 ```C++
 HRESULT AcquireLicense(
-  [in]  BSTR     bstrURL,
-  [in]  BSTR     bstrHeaderData,
-  [in]  BSTR     bstrActions,
-  [in]  DWORD    dwFlags,
-  [out] IUnknown **ppunkCancelationCookie
+  [in]  BSTR     bstrURL,
+  [in]  BSTR     bstrHeaderData,
+  [in]  BSTR     bstrActions,
+  [in]  DWORD    dwFlags,
+  [out] IUnknown **ppunkCancelationCookie
 );
 ```
 
@@ -84,7 +92,7 @@ License acquisition option flags. Set to one of the constants in the following t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -107,7 +115,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -136,9 +144,9 @@ For more information about using the asynchronous methods of the Windows Media D
 [**Silent License Acquisition**](silent-license-acquisition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

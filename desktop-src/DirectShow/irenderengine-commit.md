@@ -1,7 +1,12 @@
 ---
-Description: 'Not implemented.'
-ms.assetid: '4d52d11c-9629-4080-9c3e-7c11cf3842ed'
-title: 'IRenderEngine::Commit method'
+Description: Not implemented.
+ms.assetid: 4d52d11c-9629-4080-9c3e-7c11cf3842ed
+title: IRenderEngineCommit method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::Commit method

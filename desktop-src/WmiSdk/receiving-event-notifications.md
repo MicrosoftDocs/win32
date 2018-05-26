@@ -1,20 +1,23 @@
 ---
-Description: 'Event queries are used by temporary event consumers, permanent event consumers, and event providers. Event consumers use event queries to specify events of interest, and event providers use the queries to specify the events that they provide.'
+Description: Event queries are used by temporary event consumers, permanent event consumers, and event providers. Event consumers use event queries to specify events of interest, and event providers use the queries to specify the events that they provide.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '851ad9bd-2604-4988-8de0-8d29b5300b21'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 851ad9bd-2604-4988-8de0-8d29b5300b21
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving Event Notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Receiving Event Notifications
 
 Event queries are used by temporary event consumers, permanent event consumers, and event providers. Event consumers use event queries to specify events of interest, and event providers use the queries to specify the events that they provide.
 
-[Temporary consumers](receiving-events-for-the-duration-of-your-application.md) place queries in calls to the [**IWbemServices::ExecNotificationQuery**](iwbemservices-execnotificationquery.md) or [**IWbemServices::ExecNotificationQueryAsync**](iwbemservices-execnotificationqueryasync.md) method. [Permanent event consumers](receiving-events-at-all-times.md) place queries in the **Query** property of an instance of the [**\_\_EventFilter**](--eventfilter.md) system class.
+[Temporary consumers](receiving-events-for-the-duration-of-your-application.md) place queries in calls to the [**IWbemServices::ExecNotificationQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery?branch=master) or [**IWbemServices::ExecNotificationQueryAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync?branch=master) method. [Permanent event consumers](receiving-events-at-all-times.md) place queries in the **Query** property of an instance of the [**\_\_EventFilter**](--eventfilter.md) system class.
 
 [Event providers](writing-an-event-provider.md) use event queries to register to support one or more types of events. They place queries in the **EventQueryList** property of an instance of the [**\_\_EventProviderRegistration**](--eventproviderregistration.md) system class. All event providers create an **\_\_EventProviderRegistration** instance to register with Windows Management Instrumentation (WMI). For more information, see [Registering an Event Provider](registering-an-event-provider.md).
 

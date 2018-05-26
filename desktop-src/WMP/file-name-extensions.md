@@ -1,8 +1,19 @@
 ---
 title: File Name Extensions
 description: File Name Extensions
-ms.assetid: 'c17bf4e5-b469-45b6-bc22-2b451723d85e'
-keywords: ["Windows Media metafiles,extensions", "Windows Media metafiles,file name extensions", "metafiles,extensions", "metafiles,file name extensions", "Windows Media,metafiles", "file name extensions for Windows Media metafiles"]
+ms.assetid: c17bf4e5-b469-45b6-bc22-2b451723d85e
+keywords:
+- Windows Media metafiles,extensions
+- Windows Media metafiles,file name extensions
+- metafiles,extensions
+- metafiles,file name extensions
+- Windows Media,metafiles
+- file name extensions for Windows Media metafiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Name Extensions

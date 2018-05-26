@@ -1,6 +1,11 @@
 ---
-Description: 'The &lt;iconReference&gt; element specifies a custom icon for this library. This element is optional and has no attributes or child elements.'
-title: 'iconReference Element (Library Schema)'
+Description: The &lt;iconReference&gt; element specifies a custom icon for this library. This element is optional and has no attributes or child elements.
+title: iconReference Element (Library Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iconReference Element (Library Schema)
@@ -31,7 +36,7 @@ The &lt;iconReference&gt; element specifies a custom icon for this library. This
 
 ## Remarks
 
-The icon reference must be specified in a form suitable for the [**PathParseIconLocation**](pathparseiconlocation.md) function. For example: `ModuleFileName,IconResourceIndex`.
+The icon reference must be specified in a form suitable for the [**PathParseIconLocation**](/windows/win32/Shlwapi/nf-shlwapi-pathparseiconlocationa?branch=master) function. For example: `ModuleFileName,IconResourceIndex`.
 
 ## Related topics
 

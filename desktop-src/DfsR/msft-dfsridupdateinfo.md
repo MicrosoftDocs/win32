@@ -4,13 +4,15 @@ description: This class provides statistical and operational information about u
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7f25ed82-1f9c-46e1-a06e-1f44bb5e2cb1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7f25ed82-1f9c-46e1-a06e-1f44bb5e2cb1
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsrIdUpdateInfo class Distributed File System Replication", "MSFT_DfsrIdUpdateInfo class Distributed File System Replication , described"]
+keywords:
+- MSFT_DfsrIdUpdateInfo class Distributed File System Replication
+- MSFT_DfsrIdUpdateInfo class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsrIdUpdateInfo class
@@ -42,16 +47,16 @@ This class provides statistical and operational information about updates that a
 [ClassVersion("1.0.0"), dynamic, provider("DfsrWMIV2"), AMENDMENT]
 class MSFT_DfsrIdUpdateInfo
 {
-  string  UpdateGuid;
-  string  Uid;
-  string  GVsn;
-  string  ParentUid;
-  uint32  UpdateState;
-  string  FileName;
-  string  FullPathName;
-  string  ReplicatedFolderGuid;
-  string  ConnectionGuid;
-  string  PartnerName;
+  string  UpdateGuid;
+  string  Uid;
+  string  GVsn;
+  string  ParentUid;
+  uint32  UpdateState;
+  string  FileName;
+  string  FullPathName;
+  string  ReplicatedFolderGuid;
+  string  ConnectionGuid;
+  string  PartnerName;
   boolean Inbound;
 };
 ```
@@ -308,7 +313,7 @@ The update is blocked, because it depends on another update which has not been p
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -322,9 +327,9 @@ The update is blocked, because it depends on another update which has not been p
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

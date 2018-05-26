@@ -1,12 +1,17 @@
 ---
 Description: Controlling an External Device
-ms.assetid: '5347cd55-a27e-40b9-857c-09e3665a1817'
+ms.assetid: 5347cd55-a27e-40b9-857c-09e3665a1817
 title: Controlling an External Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controlling an External Device
 
-To control a video tape recorder (VTR) device, use the [**IAMExtTransport::put\_Mode**](iamexttransport-put-mode.md) method. Specify the new state by using one of the constants listed in the [Device Transport State](device-transport-state.md). For example, to stop the device, use the following:
+To control a video tape recorder (VTR) device, use the [**IAMExtTransport::put\_Mode**](/windows/win32/Strmif/nf-strmif-iamexttransport-put_mode?branch=master) method. Specify the new state by using one of the constants listed in the [Device Transport State](device-transport-state.md). For example, to stop the device, use the following:
 
 
 ```C++
@@ -49,7 +54,7 @@ hThread = CreateThread(NULL, 0, ThreadProc, 0, 0, &amp;ThreadId);
 
 
 
-In the worker thread, start by calling the [**IAMExtTransport::GetStatus**](iamexttransport-getstatus.md) method with the value ED\_NOTIFY\_HEVENT\_GET. This call returns a handle to an event that will be signaled when an operation completes:
+In the worker thread, start by calling the [**IAMExtTransport::GetStatus**](/windows/win32/Strmif/nf-strmif-iamexttransport-getstatus?branch=master) method with the value ED\_NOTIFY\_HEVENT\_GET. This call returns a handle to an event that will be signaled when an operation completes:
 
 
 ```C++

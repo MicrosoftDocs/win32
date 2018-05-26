@@ -1,7 +1,12 @@
 ---
 title: To create a header file
 description: To create a header file
-ms.assetid: '7E35EBCC-0F68-4aa8-8498-1B0CC1F1B909'
+ms.assetid: 7E35EBCC-0F68-4aa8-8498-1B0CC1F1B909
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a header file

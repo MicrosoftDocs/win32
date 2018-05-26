@@ -1,7 +1,12 @@
 ---
 title: VML Points Attribute
 description: VML Points Attribute
-ms.assetid: '343d843e-9a09-4c89-af54-fb079129429b'
+ms.assetid: 343d843e-9a09-4c89-af54-fb079129429b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Points Attribute

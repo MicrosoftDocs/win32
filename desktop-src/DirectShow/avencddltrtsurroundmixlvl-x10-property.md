@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the level shift that is applied to the Surround channels for Lt/Rt downmixing. This property applies to Dolby Digital audio encoders.'
-ms.assetid: '95fd8b3e-de30-4d0d-be3c-8d7e0c925bae'
-title: 'AVEncDDLtRtSurroundMixLvl\_x10 property'
+Description: Specifies the level shift that is applied to the Surround channels for Lt/Rt downmixing. This property applies to Dolby Digital audio encoders.
+ms.assetid: 95fd8b3e-de30-4d0d-be3c-8d7e0c925bae
+title: AVEncDDLtRtSurroundMixLvl\_x10 property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncDDLtRtSurroundMixLvl\_x10 property
@@ -28,8 +33,8 @@ The value is specified as decibels (dB) x 10.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ The value is specified as decibels (dB) x 10.
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

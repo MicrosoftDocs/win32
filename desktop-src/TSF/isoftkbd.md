@@ -1,8 +1,10 @@
 ---
 title: ISoftKbd interface
 description: The ISoftKbd interface is used by applications and text services to implement a soft keyboard.
-ms.assetid: '804634bd-646e-459f-9fbb-cd6929b11fab'
-keywords: ["ISoftKbd interface Text Services Framework", "ISoftKbd interface Text Services Framework , described"]
+ms.assetid: 804634bd-646e-459f-9fbb-cd6929b11fab
+keywords:
+- ISoftKbd interface Text Services Framework
+- ISoftKbd interface Text Services Framework , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISoftKbd interface
@@ -55,7 +62,7 @@ The **ISoftKbd** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,18 +70,18 @@ The **ISoftKbd** interface has these methods.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
 | Header<br/>                   | <dl> <dt>Softkbdc.h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Softkbd.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

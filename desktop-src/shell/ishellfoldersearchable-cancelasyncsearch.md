@@ -1,6 +1,11 @@
-﻿---
-Description: 'Begins the process of canceling a pending asynchronous search.'
-title: 'IShellFolderSearchable::CancelAsyncSearch method'
+---
+Description: Begins the process of canceling a pending asynchronous search.
+title: IShellFolderSearchableCancelAsyncSearch method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellFolderSearchable::CancelAsyncSearch method
@@ -28,7 +33,7 @@ HRESULT CancelAsyncSearch(
 
 Type: **LPCITEMIDLIST**
 
-A pointer to an [**ITEMIDLIST**](itemidlist.md) for the search.
+A pointer to an [**ITEMIDLIST**](/windows/win32/Shtypes/ns-shtypes-_itemidlist?branch=master) for the search.
 
 </dd> <dt>
 

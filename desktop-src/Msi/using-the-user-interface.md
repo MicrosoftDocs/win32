@@ -1,7 +1,12 @@
 ---
-Description: 'This section is concerned primarily with how developers of installation packages author an installation user interface (UI) using the installer''s database and internal UI.'
-ms.assetid: 'c04e32ba-08a9-49fe-9a4a-db258767f0b3'
+Description: This section is concerned primarily with how developers of installation packages author an installation user interface (UI) using the installers database and internal UI.
+ms.assetid: c04e32ba-08a9-49fe-9a4a-db258767f0b3
 title: Using the User Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the User Interface
@@ -18,7 +23,7 @@ Controls and text must be added to the dialog box, and these must be tied to [Co
 
 Windows Installer internal UI handler can selectively show or hide dialog boxes to control the level of end-user interactivity during the installation. These levels of end-user interactivity are referred to as full, reduced, basic, and none. See [User Interface Levels](user-interface-levels.md). for a full description of these UIlevels.
 
-There are two methods to set the UI level. The UI level can be set programmatically with a call to [**MsiSetInternalUI**](msisetinternalui.md), and the first parameter of **MsiSetInternalUI** specifies the UI level. Package developers can also set the UI level using the [command line option](command-line-options.md) "/q".
+There are two methods to set the UI level. The UI level can be set programmatically with a call to [**MsiSetInternalUI**](/windows/win32/Msi/nf-msi-msisetinternalui?branch=master), and the first parameter of **MsiSetInternalUI** specifies the UI level. Package developers can also set the UI level using the [command line option](command-line-options.md) "/q".
 
 The behavior of each of the UI levels is determined by the authoring of the .msi file by the package developer. The author of an internal UI has flexibility in how these levels behave for a package. The availability of these levels depends on the authoring of the installation package. The author must specify every dialog box and control in the user interface in the Dialog and Control tables.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'To avoid race conditions and deadlocks, it is necessary to synchronize access by multiple threads to shared resources. Synchronization is also necessary to ensure that interdependent code is executed in the proper sequence.'
-ms.assetid: '74af0502-dae1-438c-8e4b-7663093b3fe3'
+Description: To avoid race conditions and deadlocks, it is necessary to synchronize access by multiple threads to shared resources. Synchronization is also necessary to ensure that interdependent code is executed in the proper sequence.
+ms.assetid: 74af0502-dae1-438c-8e4b-7663093b3fe3
 title: Synchronizing Execution of Multiple Threads
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Synchronizing Execution of Multiple Threads
@@ -26,7 +31,7 @@ Other objects are useful in protecting shared resources from simultaneous access
 
 For the threads of a single process, critical-section objects provide a more efficient means of synchronization than mutexes. A critical section is used like a mutex to enable one thread at a time to use the protected resource. A thread can use the [**EnterCriticalSection**](base.entercriticalsection) function to request ownership of a critical section. If it is already owned by another thread, the requesting thread is blocked. A thread can use the [**TryEnterCriticalSection**](base.tryentercriticalsection) function to request ownership of a critical section, without blocking upon failure to obtain the critical section. After it receives ownership, the thread is free to use the protected resource. The execution of the other threads of the process is not affected unless they attempt to enter the same critical section.
 
-The [**WaitForInputIdle**](waitforinputidle.md) function makes a thread wait until a specified process is initialized and waiting for user input with no input pending. Calling **WaitForInputIdle** can be useful for synchronizing parent and child processes, because [**CreateProcess**](createprocess.md) returns without waiting for the child process to complete its initialization.
+The [**WaitForInputIdle**](/windows/win32/Winuser/nf-winuser-waitforinputidle?branch=master) function makes a thread wait until a specified process is initialized and waiting for user input with no input pending. Calling **WaitForInputIdle** can be useful for synchronizing parent and child processes, because [**CreateProcess**](/windows/win32/WinBase/nf-processthreadsapi-createprocessa?branch=master) returns without waiting for the child process to complete its initialization.
 
 For more information, see [Synchronization](base.synchronization).
 

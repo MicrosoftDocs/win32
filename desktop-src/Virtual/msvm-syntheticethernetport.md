@@ -1,8 +1,10 @@
 ---
 title: Msvm\_SyntheticEthernetPort class
 description: Represents a synthetic Ethernet adapter.
-ms.assetid: 'df4c5716-2aab-4109-94d4-72a2134e0591'
-keywords: ["Msvm_SyntheticEthernetPort class Hyper-V", "Msvm_SyntheticEthernetPort class Hyper-V , described"]
+ms.assetid: df4c5716-2aab-4109-94d4-72a2134e0591
+keywords:
+- Msvm_SyntheticEthernetPort class Hyper-V
+- Msvm_SyntheticEthernetPort class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -72,6 +74,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SyntheticEthernetPort class
@@ -86,59 +93,59 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SyntheticEthernetPort : CIM_EthernetPort
 {
-  string   Caption = "Ethernet Port";
-  string   Description = "Microsoft Synthetic Ethernet Port";
-  string   ElementName = "Network Adapter";
+  string   Caption = "Ethernet Port";
+  string   Description = "Microsoft Synthetic Ethernet Port";
+  string   ElementName = "Network Adapter";
   datetime InstallDate;
-  string   Name = "Ethernet Port";
-  uint16   OperationalStatus[] = 2;
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
+  string   Name = "Ethernet Port";
+  uint16   OperationalStatus[] = 2;
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint64   MaxSpeed = 1000000000;
-  uint64   RequestedSpeed = 1000000000;
-  string   OtherNetworkPortType;
-  uint16   PortNumber = 0;
-  string   OtherLinkTechnology;
-  string   PermanentAddress;
-  boolean  FullDuplex = True;
-  boolean  AutoSense = True;
-  uint64   SupportedMaximumTransmissionUnit = 1500;
-  string   NetworkAddresses[];
-  string   CapabilityDescriptions[];
-  uint16   EnabledCapabilities[];
-  string   OtherEnabledCapabilities[];
-  string   StatusDescriptions[] = "OK";
-  uint16   EnabledDefault = 2;
-  string   CreationClassName = "Msvm_SyntheticEthernetPort";
-  string   DeviceID = "Microsoft:GUID";
-  string   OtherIdentifyingInfo[];
-  uint16   LocationIndicator = 4;
-  uint16   UsageRestriction = 4;
-  string   OtherPortType = "Virtual Ethernet";
-  uint64   Speed = 1000000000;
-  uint16   LinkTechnology = 2;
-  uint64   ActiveMaximumTransmissionUnit = 1500;
-  uint16   PortType = 1;
-  uint32   MaxDataSize = 1500;
-  uint16   Capabilities[];
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint64   MaxSpeed = 1000000000;
+  uint64   RequestedSpeed = 1000000000;
+  string   OtherNetworkPortType;
+  uint16   PortNumber = 0;
+  string   OtherLinkTechnology;
+  string   PermanentAddress;
+  boolean  FullDuplex = True;
+  boolean  AutoSense = True;
+  uint64   SupportedMaximumTransmissionUnit = 1500;
+  string   NetworkAddresses[];
+  string   CapabilityDescriptions[];
+  uint16   EnabledCapabilities[];
+  string   OtherEnabledCapabilities[];
+  string   StatusDescriptions[] = "OK";
+  uint16   EnabledDefault = 2;
+  string   CreationClassName = "Msvm_SyntheticEthernetPort";
+  string   DeviceID = "Microsoft:GUID";
+  string   OtherIdentifyingInfo[];
+  uint16   LocationIndicator = 4;
+  uint16   UsageRestriction = 4;
+  string   OtherPortType = "Virtual Ethernet";
+  uint64   Speed = 1000000000;
+  uint16   LinkTechnology = 2;
+  uint64   ActiveMaximumTransmissionUnit = 1500;
+  uint16   PortType = 1;
+  uint32   MaxDataSize = 1500;
+  uint16   Capabilities[];
 };
 ```
 
@@ -168,7 +175,7 @@ The **Msvm\_SyntheticEthernetPort** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1146,9 +1153,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1167,9 +1174,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

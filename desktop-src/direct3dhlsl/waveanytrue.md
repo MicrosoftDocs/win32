@@ -1,14 +1,20 @@
 ---
 title: WaveActiveAnyTrue function
 description: Returns true if the expression is true in any of the active lanes in the current wave.
-ms.assetid: '203E2E1D-0AA2-4E4A-80F7-D1FE7579A742'
-keywords: ["WaveAnyTrue function HLSL"]
+ms.assetid: 203E2E1D-0AA2-4E4A-80F7-D1FE7579A742
+keywords:
+- WaveAnyTrue function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveAnyTrue
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveActiveAnyTrue function

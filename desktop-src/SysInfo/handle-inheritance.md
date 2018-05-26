@@ -1,7 +1,12 @@
 ---
-Description: 'A child process can inherit handles from its parent process. An inherited handle is valid only in the context of the child process. To enable a child process to inherit open handles from its parent process, use the following steps.'
-ms.assetid: '957cd369-bebf-4e04-9f7e-a936e2e97887'
+Description: A child process can inherit handles from its parent process. An inherited handle is valid only in the context of the child process. To enable a child process to inherit open handles from its parent process, use the following steps.
+ms.assetid: 957cd369-bebf-4e04-9f7e-a936e2e97887
 title: Handle Inheritance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handle Inheritance

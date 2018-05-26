@@ -1,8 +1,29 @@
 ---
 title: Still Image Run-Time Components
 description: The STI system is composed of two run-time components
-ms.assetid: '084ad33d-fee6-4cad-9402-4b81120b629b'
-keywords: ["architecture,STI run-time components", "STI architecture,run-time components", "Still Image (STI),run-time components", "STI (Still Image),run-time components", "Still Image API,run-time components", "still images,run-time components", "Still Image (STI),Event Monitor", "STI (Still Image),Event Monitor", "Still Image (STI),Control Panel", "STI (Still Image),Control Panel", "still images,Still Image Event Monitor", "still images,Still Image Control Panel", "Still Image Event Monitor", "Still Image Control Panel", "Still Image API,Event Monitor", "Still Image API,Control Panel"]
+ms.assetid: 084ad33d-fee6-4cad-9402-4b81120b629b
+keywords:
+- architecture,STI run-time components
+- STI architecture,run-time components
+- Still Image (STI),run-time components
+- STI (Still Image),run-time components
+- Still Image API,run-time components
+- still images,run-time components
+- Still Image (STI),Event Monitor
+- STI (Still Image),Event Monitor
+- Still Image (STI),Control Panel
+- STI (Still Image),Control Panel
+- still images,Still Image Event Monitor
+- still images,Still Image Control Panel
+- Still Image Event Monitor
+- Still Image Control Panel
+- Still Image API,Event Monitor
+- Still Image API,Control Panel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Still Image Run-Time Components

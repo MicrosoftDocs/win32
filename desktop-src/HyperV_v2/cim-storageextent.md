@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the capabilities and management of media that stores data and allows retrieval of the data. This super class is used to represent software and hardware RAID components, or a raw logical extent of physical media.'
-ms.assetid: '29d105fb-8c34-4824-8679-883aef02a0c9'
-title: 'CIM\_StorageExtent class'
+Description: Describes the capabilities and management of media that stores data and allows retrieval of the data. This super class is used to represent software and hardware RAID components, or a raw logical extent of physical media.
+ms.assetid: 29d105fb-8c34-4824-8679-883aef02a0c9
+title: CIM\_StorageExtent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_StorageExtent class
@@ -14,26 +19,26 @@ Describes the capabilities and management of media that stores data and allows r
 [Abstract, Version("2.13.0"), UMLPackagePath("CIM::Core::StorageExtent"), AMENDMENT]
 class CIM_StorageExtent : CIM_LogicalDevice
 {
-  uint16  DataOrganization;
-  string  Purpose;
-  uint16  Access;
-  string  ErrorMethodology;
-  uint64  BlockSize;
-  uint64  NumberOfBlocks;
-  uint64  ConsumableBlocks;
+  uint16  DataOrganization;
+  string  Purpose;
+  uint16  Access;
+  string  ErrorMethodology;
+  uint64  BlockSize;
+  uint64  NumberOfBlocks;
+  uint64  ConsumableBlocks;
   boolean IsBasedOnUnderlyingRedundancy;
   boolean SequentialAccess;
-  uint16  ExtentStatus[];
+  uint16  ExtentStatus[];
   boolean NoSinglePointOfFailure;
-  uint16  DataRedundancy;
-  uint16  PackageRedundancy;
-  uint8   DeltaReservation;
+  uint16  DataRedundancy;
+  uint16  PackageRedundancy;
+  uint8   DeltaReservation;
   boolean Primordial = FALSE;
-  string  Name;
-  uint16  NameFormat;
-  uint16  NameNamespace;
-  string  OtherNameNamespace;
-  string  OtherNameFormat;
+  string  Name;
+  uint16  NameFormat;
+  uint16  NameNamespace;
+  string  OtherNameNamespace;
+  string  OtherNameFormat;
 };
 ```
 
@@ -725,8 +730,8 @@ Access type: Read-only
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -740,9 +745,9 @@ Access type: Read-only
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

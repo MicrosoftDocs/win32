@@ -1,7 +1,12 @@
 ---
-Description: 'The following table describes which threads the InkEdit control events can fire on.EventThreadsChangeFires on the application''s user interface (UI) threadClickFires on the application''s UI threadDblClickFires on the application''s UI threadGestureFires on the application''s UI threadKeyDownFires on the application''s UI threadKeyPressFires on the application''s UI threadKeyUpFires on the application''s UI threadMouseDownFires on the application''s UI threadMouseMoveFires on the application''s UI threadMouseUpFires on the application''s UI threadRecognition (Managed Library only).Fires on the application''s UI threadRecognitionResultFires on the application''s UI threadSelChangeFires on the application''s UI threadStrokeFires on the application''s UI thread '
-ms.assetid: '8554a1ab-3288-4bdd-866b-dd2c25842b1f'
+Description: The following table describes which threads the InkEdit control events can fire on.EventThreadsChangeFires on the applications user interface (UI) threadClickFires on the applications UI threadDblClickFires on the applications UI threadGestureFires on the applications UI threadKeyDownFires on the applications UI threadKeyPressFires on the applications UI threadKeyUpFires on the applications UI threadMouseDownFires on the applications UI threadMouseMoveFires on the applications UI threadMouseUpFires on the applications UI threadRecognition (Managed Library only).Fires on the applications UI threadRecognitionResultFires on the applications UI threadSelChangeFires on the applications UI threadStrokeFires on the applications UI thread
+ms.assetid: 8554a1ab-3288-4bdd-866b-dd2c25842b1f
 title: InkEdit Control Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkEdit Control Events
@@ -29,11 +34,11 @@ The following table describes which threads the [InkEdit](inkedit-control-refere
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Access Control
 description: In Windows Filtering Platform (WFP), the Base Filtering Engine (BFE) service implements the standard Windows access control model based on access tokens and security descriptors.
-ms.assetid: '936ad5f0-d5cd-47ed-b9e5-a7d82a4da603'
+ms.assetid: 936ad5f0-d5cd-47ed-b9e5-a7d82a4da603
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Access Control
@@ -15,12 +20,12 @@ Security descriptors can be specified when adding new WFP objects, such as filte
 > [!Note]  
 > The **Fwpm\*SetSecurityInfo0** functions cannot be called from within an explicit transaction.
 
- 
+ 
 
 > [!Note]  
 > The **Fwpm\*SetSecurityInfo0** functions can only be called from within a dynamic session if they are being used to manage a dynamic object created within the same session.
 
- 
+ 
 
 The default security descriptor for the filter engine (the root Engine object in the diagram below) is as follows.
 
@@ -57,14 +62,14 @@ For the standard object types, BFE enforces all the generic and standard access 
 
 
 
- 
+ 
 
 BFE skips all access checks for kernel-mode callers.
 
 In order to prevent administrators from locking themselves out of BFE, members of the built-in administrators group are always granted **FWPM\_ACTRL\_OPEN** to the engine object. Thus, an administrator can regain access through the following steps.
 
 -   Enable the **SE\_TAKE\_OWNERSHIP\_NAME** privilege.
--   Call [**FwpmEngineOpen0**](fwpmengineopen0-func.md). The call succeeds because the caller is a member of Built-in Administrators.
+-   Call [**FwpmEngineOpen0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmengineopen0?branch=master). The call succeeds because the caller is a member of Built-in Administrators.
 -   Take ownership of the engine object. This succeeds because the caller has the **SE\_TAKE\_OWNERSHIP\_NAME** privilege.
 -   Update the DACL. This succeeds because the owner always has **WRITE\_DAC** access
 
@@ -82,139 +87,139 @@ Object Checked
 
 Access Required
 
-[**FwpmEngineOpen0**](fwpmengineopen0-func.md)
+[**FwpmEngineOpen0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmengineopen0?branch=master)
 
 Engine
 
 **FWPM\_ACTRL\_OPEN**
 
-[**FwpmEngineGetOption0**](fwpmenginegetoption0.md)
+[**FwpmEngineGetOption0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmenginegetoption0?branch=master)
 
 Engine
 
 **FWPM\_ACTRL\_READ**
 
-[**FwpmEngineSetOption0**](fwpmenginesetoption0.md)
+[**FwpmEngineSetOption0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmenginesetoption0?branch=master)
 
 Engine
 
 **FWPM\_ACTRL\_WRITE**
 
-[**FwpmSessionCreateEnumHandle0**](fwpmsessioncreateenumhandle0-func.md)
+[**FwpmSessionCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsessioncreateenumhandle0?branch=master)
 
 Engine
 
 **FWPM\_ACTRL\_ENUM**
 
-[**FwpmTransactionBegin0**](fwpmtransactionbegin0-func.md)
+[**FwpmTransactionBegin0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmtransactionbegin0?branch=master)
 
 Engine
 
 **FWPM\_ACTRL\_BEGIN\_READ\_TXN** & **FWPM\_ACTRL\_BEGIN\_WRITE\_TXN**
 
-[**FwpmFilterAdd0**](fwpmfilteradd0-func.md)
+[**FwpmFilterAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilteradd0?branch=master)
 
 Container Provider<br/> Layer<br/> Sub-Layer<br/> Callout<br/> Provider Context<br/>
 
 **FWPM\_ACTRL\_ADDFWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/> **FWPM\_ACTRL\_ADD\_LINK**<br/>
 
-[**FwpmFilterDeleteById0**](fwpmfilterdeletebyid0-func.md)[**FwpmFilterDeleteByKey0**](fwpmfilterdeletebykey0-func.md)<br/>
+[**FwpmFilterDeleteById0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilterdeletebyid0?branch=master)[**FwpmFilterDeleteByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilterdeletebykey0?branch=master)<br/>
 
 Filter
 
 **DELETE**
 
-[**FwpmFilterGetById0**](fwpmfiltergetbyid0-func.md)[**FwpmFilterGetByKey0**](fwpmfiltergetbykey0-func.md)<br/>
+[**FwpmFilterGetById0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfiltergetbyid0?branch=master)[**FwpmFilterGetByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfiltergetbykey0?branch=master)<br/>
 
 Filter
 
 **FWPM\_ACTRL\_READ**
 
-[**FwpmFilterCreateEnumHandle0**](fwpmfiltercreateenumhandle0-func.md)
+[**FwpmFilterCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfiltercreateenumhandle0?branch=master)
 
 Container Filter<br/>
 
 **FWPM\_ACTRL\_ENUMFWPM\_ACTRL\_READ**<br/>
 
-[**FwpmFilterSubscribeChanges0**](fwpmfiltersubscribechanges0-func.md)
+[**FwpmFilterSubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfiltersubscribechanges0?branch=master)
 
 Container
 
 **FWPM\_ACTRL\_SUBSCRIBE**
 
-[**FwpmFilterSubscriptionsGet0**](fwpmfiltersubscriptionsget0-func.md)
+[**FwpmFilterSubscriptionsGet0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfiltersubscriptionsget0?branch=master)
 
 Container
 
 **FWPM\_ACTRL\_READ**
 
-[**IPsecGetStatistics0**](ipsecgetstatistics0-func.md)
+[**IPsecGetStatistics0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecgetstatistics0?branch=master)
 
 IPsec SA DB
 
 **FWPM\_ACTRL\_READ\_STATS**
 
-[**IPsecSaContextCreate0**](ipsecsacontextcreate0.md)[**IPsecSaContextGetSpi0**](ipsecsacontextgetspi0.md)<br/> [**IPsecSaContextAddInbound0**](ipsecsacontextaddinbound0.md)<br/> [**IPsecSaContextAddOutbound0**](ipsecsacontextaddoutbound0.md)<br/>
+[**IPsecSaContextCreate0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextcreate0?branch=master)[**IPsecSaContextGetSpi0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextgetspi0?branch=master)<br/> [**IPsecSaContextAddInbound0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextaddinbound0?branch=master)<br/> [**IPsecSaContextAddOutbound0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextaddoutbound0?branch=master)<br/>
 
 IPsec SA DB
 
 **FWPM\_ACTRL\_ADD**
 
-[**IPsecSaContextDeleteById0**](ipsecsacontextdeletebyid0.md)[**IPsecSaContextExpire0**](ipsecsacontextexpire0.md)<br/>
+[**IPsecSaContextDeleteById0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextdeletebyid0?branch=master)[**IPsecSaContextExpire0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextexpire0?branch=master)<br/>
 
 IPsec SA DB
 
 **DELETE**
 
-[**IPsecSaContextGetById0**](ipsecsacontextgetbyid0.md)
+[**IPsecSaContextGetById0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextgetbyid0?branch=master)
 
 IPsec SA DB
 
 **FWPM\_ACTRL\_READ**
 
-[**IPsecSaContextCreateEnumHandle0**](ipsecsacontextcreateenumhandle0.md)[**IPsecSaCreateEnumHandle0**](ipsecsacreateenumhandle0-func.md)<br/>
+[**IPsecSaContextCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextcreateenumhandle0?branch=master)[**IPsecSaCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacreateenumhandle0?branch=master)<br/>
 
 IPsec SA DB
 
 **FWPM\_ACTRL\_ENUM** & **FWPM\_ACTRL\_READ**
 
-[**IkeextGetStatistics0**](ikeextgetstatistics0.md)
+[**IkeextGetStatistics0**](/windows/win32/Fwpmu/nf-fwpmu-ikeextgetstatistics0?branch=master)
 
 IKE SA DB
 
 **FWPM\_ACTRL\_READ\_STATS**
 
-[**IkeextSaDeleteById0**](ikeextsadeletebyid0.md)
+[**IkeextSaDeleteById0**](/windows/win32/Fwpmu/nf-fwpmu-ikeextsadeletebyid0?branch=master)
 
 IKE SA DB
 
 **DELETE**
 
-[**IkeextSaGetById0**](ikeextsagetbyid0.md)
+[**IkeextSaGetById0**](/windows/win32/Fwpmu/nf-fwpmu-ikeextsagetbyid0?branch=master)
 
 IKE SA DB
 
 **FWPM\_ACTRL\_READ**
 
-[**IkeextSaCreateEnumHandle0**](ikeextsacreateenumhandle0.md)
+[**IkeextSaCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-ikeextsacreateenumhandle0?branch=master)
 
 IKE SA DB
 
 **FWPM\_ACTRL\_ENUM** & **FWPM\_ACTRL\_READ**
 
-[**FwpmNetEventCreateEnumHandle0**](fwpmneteventcreateenumhandle0.md)
+[**FwpmNetEventCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventcreateenumhandle0?branch=master)
 
 Container
 
 **FWPM\_ACTRL\_ENUM**
 
-[**FwpmIPsecTunnelAdd0**](fwpmipsectunneladd0.md)[**FwpmIPsecTunnelDeleteByKey0**](fwpmipsectunneldeletebykey0.md)<br/>
+[**FwpmIPsecTunnelAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmipsectunneladd0?branch=master)[**FwpmIPsecTunnelDeleteByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmipsectunneldeletebykey0?branch=master)<br/>
 
 No additional access checks beyond those for the individual filters and provider contexts
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -229,9 +234,9 @@ No additional access checks beyond those for the individual filters and provider
 [**Windows Filtering Platform Access Rights Identifiers**](access-right-identifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

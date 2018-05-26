@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientConnection SetMaxSize method
 description: Sets the maximum size of the SoH packet for this client.
-ms.assetid: '30d3747d-bcf8-41b3-b0af-29f20d48417b'
-keywords: ["SetMaxSize method NAP", "SetMaxSize method NAP , INapEnforcementClientConnection interface", "INapEnforcementClientConnection interface NAP , SetMaxSize method"]
+ms.assetid: 30d3747d-bcf8-41b3-b0af-29f20d48417b
+keywords:
+- SetMaxSize method NAP
+- SetMaxSize method NAP , INapEnforcementClientConnection interface
+- INapEnforcementClientConnection interface NAP , SetMaxSize method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientConnection::SetMaxSize method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientConnection::SetMaxSize** method sets the maximum size of the SoH packet for this client.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientConnection::SetMaxSize** method sets the maximum size
 
 ```C++
 HRESULT SetMaxSize(
-  [in] ProtocolMaxSize maxSize
+  [in] ProtocolMaxSize maxSize
 );
 ```
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,8 +78,8 @@ This value is set by the enforcement client.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -85,9 +93,9 @@ This value is set by the enforcement client.
 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

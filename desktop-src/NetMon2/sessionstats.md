@@ -1,7 +1,12 @@
 ---
-Description: 'The SESSIONSTATS structure provides statistics about a session.'
-ms.assetid: '51a6a601-634e-4d97-8c85-d3961400a2d1'
+Description: The SESSIONSTATS structure provides statistics about a session.
+ms.assetid: 51a6a601-634e-4d97-8c85-d3961400a2d1
 title: SESSIONSTATS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SESSIONSTATS structure
@@ -69,7 +74,7 @@ Network Monitor stores session and station information in two associated arrays,
 > [!Note]  
 > The SESSIONSTATS array contains an element for each session in the current capture. The algorithm Network Monitor uses to add elements to the SESSIONSTATS array is based on efficiently recording information while the capture is in progress. Consequently, the next session for a specific owner station is not always the next element in the array.
 
- 
+ 
 
 ## Requirements
 
@@ -77,8 +82,8 @@ Network Monitor stores session and station information in two associated arrays,
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -96,9 +101,9 @@ Network Monitor stores session and station information in two associated arrays,
 [IStats::GetConversationStatistics](istats-getconversationstatistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

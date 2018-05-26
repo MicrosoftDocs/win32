@@ -1,6 +1,11 @@
-﻿---
-Description: 'Gets a FolderItems object that represents all of the selected items in the view.'
-title: 'ShellFolderView.SelectedItems method'
+---
+Description: Gets a FolderItems object that represents all of the selected items in the view.
+title: ShellFolderView.SelectedItems method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellFolderView.SelectedItems method

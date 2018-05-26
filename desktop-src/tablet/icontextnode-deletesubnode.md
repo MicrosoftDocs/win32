@@ -1,7 +1,12 @@
 ---
-Description: 'Removes a child IContextNode.'
-ms.assetid: 'ed1d7b35-f6ba-4eff-888d-5cc492f02832'
-title: 'IContextNode::DeleteSubNode method'
+Description: Removes a child IContextNode.
+ms.assetid: ed1d7b35-f6ba-4eff-888d-5cc492f02832
+title: IContextNodeDeleteSubNode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::DeleteSubNode method
@@ -13,7 +18,7 @@ Removes a child [**IContextNode**](icontextnode.md).
 
 ```C++
 HRESULT DeleteSubNode(
-  [in] IContextNode *pContextNodeToDelete
+  [in] IContextNode *pContextNodeToDelete
 );
 ```
 
@@ -44,7 +49,7 @@ E\_INVALIDARG is returned if the *pContextNodeToDelete* parameter is not a child
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -64,9 +69,9 @@ E\_INVALIDARG is returned if the *pContextNodeToDelete* parameter is not a child
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

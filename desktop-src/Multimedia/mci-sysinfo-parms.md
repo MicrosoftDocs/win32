@@ -1,8 +1,9 @@
 ---
 title: MCI\_SYSINFO\_PARMS structure
 description: The MCI\_SYSINFO\_PARMS structure contains information for the MCI\_SYSINFO command.
-ms.assetid: '433649ed-7c00-440d-84f3-164949e01cc4'
-keywords: ["MCI_SYSINFO_PARMS structure Windows Multimedia"]
+ms.assetid: 433649ed-7c00-440d-84f3-164949e01cc4
+keywords:
+- MCI_SYSINFO_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_SYSINFO\_PARMS structure
@@ -23,10 +29,10 @@ The **MCI\_SYSINFO\_PARMS** structure contains information for the [**MCI\_SYSIN
 ```C++
 typedef struct {
   DWORD_PTR dwCallback;
-  LPTSTR    lpstrReturn;
-  DWORD     dwRetSize;
-  DWORD     dwNumber;
-  UINT      wDeviceType;
+  LPTSTR    lpstrReturn;
+  DWORD     dwRetSize;
+  DWORD     dwNumber;
+  UINT      wDeviceType;
 } MCI_SYSINFO_PARMS;
 ```
 
@@ -73,7 +79,7 @@ Type of device. This member can be one of the values listed in [MCI Device Types
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](mcisendcommand.md) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to validate the members.
 
 ## Requirements
 
@@ -81,8 +87,8 @@ When assigning data to the members of this structure, set the corresponding flag
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -100,12 +106,12 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_SYSINFO**](mci-sysinfo.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

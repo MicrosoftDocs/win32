@@ -1,23 +1,28 @@
 ---
-Description: 'The WPD\_STREAM\_UNITS enumeration specifies the unit types to be used for IPortableDeviceUnitsStream operations.'
-ms.assetid: 'BE668696-7AF3-44AA-891A-9BFF67FB5544'
-title: 'WPD\_STREAM\_UNITS enumeration'
+Description: The WPD\_STREAM\_UNITS enumeration specifies the unit types to be used for IPortableDeviceUnitsStream operations.
+ms.assetid: BE668696-7AF3-44AA-891A-9BFF67FB5544
+title: WPD\_STREAM\_UNITS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_STREAM\_UNITS enumeration
 
-The **WPD\_STREAM\_UNITS** enumeration specifies the unit types to be used for [**IPortableDeviceUnitsStream**](iportabledeviceunitsstream.md) operations.
+The **WPD\_STREAM\_UNITS** enumeration specifies the unit types to be used for [**IPortableDeviceUnitsStream**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceunitsstream?branch=master) operations.
 
 ## Syntax
 
 
 ```C++
 typedef enum _WPD_STREAM_UNITS { 
-  WPD_STREAM_UNITS_BYTES         = 0,
-  WPD_STREAM_UNITS_FRAMES        = 1,
-  WPD_STREAM_UNITS_ROWS          = 2,
-  WPD_STREAM_UNITS_MILLISECONDS  = 3,
-  WPD_STREAM_UNITS_MICROSECONDS  = 4
+  WPD_STREAM_UNITS_BYTES         = 0,
+  WPD_STREAM_UNITS_FRAMES        = 1,
+  WPD_STREAM_UNITS_ROWS          = 2,
+  WPD_STREAM_UNITS_MILLISECONDS  = 3,
+  WPD_STREAM_UNITS_MICROSECONDS  = 4
 } WPD_STREAM_UNITS;
 ```
 
@@ -68,7 +73,7 @@ The stream units are specified in microseconds.
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                        |
 | Header<br/>                   | <dl> <dt>PortableDeviceTypes.h</dt> </dl> |
 
@@ -78,15 +83,15 @@ The stream units are specified in microseconds.
 
 <dl> <dt>
 
-[**IPortableDeviceUnitsStream**](iportabledeviceunitsstream.md)
+[**IPortableDeviceUnitsStream**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceunitsstream?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceUnitsStream::SeekInUnits**](iportabledeviceunitsstream-seekinunits.md)
+[**IPortableDeviceUnitsStream::SeekInUnits**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceunitsstream-seekinunits?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

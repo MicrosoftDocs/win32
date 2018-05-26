@@ -1,13 +1,24 @@
 ---
 title: Playing WAVE Resources
 description: Playing WAVE Resources
-ms.assetid: 'e6129bf4-b83f-4c38-8b96-21aed66ba605'
-keywords: ["waveform audio,playing WAVE resources", "auxiliary audio,playing WAVE resources", "playing WAVE resources", "PlaySound function,playing WAVE resources", "sndPlaySound function", "PlaySound function,compared to sndPlaySound function"]
+ms.assetid: e6129bf4-b83f-4c38-8b96-21aed66ba605
+keywords:
+- waveform audio,playing WAVE resources
+- auxiliary audio,playing WAVE resources
+- playing WAVE resources
+- PlaySound function,playing WAVE resources
+- sndPlaySound function
+- PlaySound function,compared to sndPlaySound function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playing WAVE Resources
 
-You can use the [**PlaySound**](playsound.md) function to play a sound that is stored as a resource. Although this is also possible using the [**sndPlaySound**](sndplaysound.md) function, **sndPlaySound** requires that you find, load, lock, unlock, and free the resource; **PlaySound** achieves all of this with a single line of code.
+You can use the [**PlaySound**](/windows/win32/Mmsystem/?branch=master) function to play a sound that is stored as a resource. Although this is also possible using the [**sndPlaySound**](/windows/win32/Mmsystem/?branch=master) function, **sndPlaySound** requires that you find, load, lock, unlock, and free the resource; **PlaySound** achieves all of this with a single line of code.
 
 ## PlaySound Example
 

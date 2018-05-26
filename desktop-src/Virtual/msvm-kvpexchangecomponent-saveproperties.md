@@ -1,8 +1,11 @@
 ---
 title: SaveProperties method of the Msvm\_KvpExchangeComponent class
 description: Saves the configuration and state of the logical device.
-ms.assetid: '5476490c-1bd2-429d-8557-00dcd51744ce'
-keywords: ["SaveProperties method Hyper-V", "SaveProperties method Hyper-V , Msvm_KvpExchangeComponent class", "Msvm_KvpExchangeComponent class Hyper-V , SaveProperties method"]
+ms.assetid: 5476490c-1bd2-429d-8557-00dcd51744ce
+keywords:
+- SaveProperties method Hyper-V
+- SaveProperties method Hyper-V , Msvm_KvpExchangeComponent class
+- Msvm_KvpExchangeComponent class Hyper-V , SaveProperties method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SaveProperties method of the Msvm\_KvpExchangeComponent class
@@ -82,9 +90,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_KvpExchangeComponent**](msvm-kvpexchangecomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

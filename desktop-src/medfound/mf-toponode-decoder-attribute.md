@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a topology node's underlying object is a decoder.'
-ms.assetid: 'b6d576dc-b12f-49bf-b938-db2c629df400'
-title: 'MF\_TOPONODE\_DECODER attribute'
+---
+Description: Specifies whether a topology nodes underlying object is a decoder.
+ms.assetid: b6d576dc-b12f-49bf-b938-db2c629df400
+title: MF\_TOPONODE\_DECODER attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPONODE\_DECODER attribute
@@ -43,13 +48,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> <dt>
 
 [Topology Node Attributes](topology-node-attributes.md)

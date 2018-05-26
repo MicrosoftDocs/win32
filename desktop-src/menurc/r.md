@@ -3,6 +3,11 @@ title: R
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
 ms.assetid: 1087b1ca-00d0-4eaf-9aab-33be6194928d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # R

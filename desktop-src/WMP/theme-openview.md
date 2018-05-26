@@ -1,14 +1,20 @@
 ---
 title: THEME.openView
 description: The openView method opens a VIEW in a new window.
-ms.assetid: '2aa63c29-dafe-4942-a010-076f1503862b'
-keywords: ["THEME.openView Windows Media Player"]
+ms.assetid: 2aa63c29-dafe-4942-a010-076f1503862b
+keywords:
+- THEME.openView Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.openView
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.openView
@@ -74,9 +80,9 @@ This method does not return a value.
 [**THEME.openViewRelative**](theme-openviewrelative.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

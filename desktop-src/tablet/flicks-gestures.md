@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Vista includes a set of eight basic flick gestures. Flicks are quick, linear pen movements associated with scrolling actions and commands.'
-ms.assetid: '004c7d76-90a9-4506-a70b-dbf8f9e1c616'
+Description: Windows Vista includes a set of eight basic flick gestures. Flicks are quick, linear pen movements associated with scrolling actions and commands.
+ms.assetid: 004c7d76-90a9-4506-a70b-dbf8f9e1c616
 title: Flicks Gestures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flicks Gestures
@@ -75,9 +80,9 @@ Following is a list of application commands that can be assigned to flicks, with
 
 
 
- 
+ 
 
-Editing commands such as Copy, Paste, Cut, and Delete might be directed against a selection or against the object located at the base of the flick gesture. If there is no selection, you can use the data in the [**FLICK\_POINT Structure**](flick-point.md) to determine what, if any, object might have been the target of the editing command.
+Editing commands such as Copy, Paste, Cut, and Delete might be directed against a selection or against the object located at the base of the flick gesture. If there is no selection, you can use the data in the [**FLICK\_POINT Structure**](/windows/win32/tabflicks/ns-tabflicks-flick_point?branch=master) to determine what, if any, object might have been the target of the editing command.
 
 ## Related topics
 
@@ -89,9 +94,9 @@ Editing commands such as Copy, Paste, Cut, and Delete might be directed against 
 [Responding to Flick Gestures](tablet-responding_to_pen_flicks)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

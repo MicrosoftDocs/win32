@@ -1,7 +1,12 @@
 ---
-Description: 'This topic explains how to add your mail client to Send on the File menu in applications that use Simple MAPI or MAPI.'
-ms.assetid: '0C4C935C-F223-4881-A699-138735B5E652'
-title: 'Adding Your Mail Client to the File.Send Menu'
+Description: This topic explains how to add your mail client to Send on the File menu in applications that use Simple MAPI or MAPI.
+ms.assetid: 0C4C935C-F223-4881-A699-138735B5E652
+title: Adding Your Mail Client to the File.Send Menu
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Your Mail Client to the File.Send Menu

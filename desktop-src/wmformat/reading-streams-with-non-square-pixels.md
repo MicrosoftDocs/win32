@@ -1,8 +1,30 @@
 ---
 title: Reading Streams with Non-Square Pixels
 description: Reading Streams with Non-Square Pixels
-ms.assetid: '32114c81-cb78-43de-9ea7-f210056f5aab'
-keywords: ["Windows Media Format SDK,reading video streams", "Windows Media Format SDK,video streams", "Windows Media Format SDK,non-square pixels", "Windows Media Format SDK,pixels (non-square)", "Advanced Systems Format (ASF),reading video streams", "ASF (Advanced Systems Format),reading video streams", "Advanced Systems Format (ASF),video streams", "ASF (Advanced Systems Format),video streams", "Advanced Systems Format (ASF),non-square pixels", "ASF (Advanced Systems Format),non-square pixels", "Advanced Systems Format (ASF),pixels (non-square)", "ASF (Advanced Systems Format),pixels (non-square)", "reading video streams", "video streams,reading", "video streams,non-square pixels", "non-square pixels", "pixels (non-square)"]
+ms.assetid: 32114c81-cb78-43de-9ea7-f210056f5aab
+keywords:
+- Windows Media Format SDK,reading video streams
+- Windows Media Format SDK,video streams
+- Windows Media Format SDK,non-square pixels
+- Windows Media Format SDK,pixels (non-square)
+- Advanced Systems Format (ASF),reading video streams
+- ASF (Advanced Systems Format),reading video streams
+- Advanced Systems Format (ASF),video streams
+- ASF (Advanced Systems Format),video streams
+- Advanced Systems Format (ASF),non-square pixels
+- ASF (Advanced Systems Format),non-square pixels
+- Advanced Systems Format (ASF),pixels (non-square)
+- ASF (Advanced Systems Format),pixels (non-square)
+- reading video streams
+- video streams,reading
+- video streams,non-square pixels
+- non-square pixels
+- pixels (non-square)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading Streams with Non-Square Pixels

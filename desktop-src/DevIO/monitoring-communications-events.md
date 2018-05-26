@@ -1,12 +1,17 @@
 ---
-Description: 'The following example code opens the serial port for overlapped I/O, creates an event mask to monitor CTS and DSR signals, and then waits for an event to occur.'
-ms.assetid: '23ebcb04-1571-4e93-a549-46ad6b9d4272'
+Description: The following example code opens the serial port for overlapped I/O, creates an event mask to monitor CTS and DSR signals, and then waits for an event to occur.
+ms.assetid: 23ebcb04-1571-4e93-a549-46ad6b9d4272
 title: Monitoring Communications Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Monitoring Communications Events
 
-The following example code opens the serial port for overlapped I/O, creates an event mask to monitor CTS and DSR signals, and then waits for an event to occur. The [**WaitCommEvent**](waitcommevent.md) function should be executed as an overlapped operation so the other threads of the process can perform I/O operations during the wait.
+The following example code opens the serial port for overlapped I/O, creates an event mask to monitor CTS and DSR signals, and then waits for an event to occur. The [**WaitCommEvent**](/windows/win32/Winbase/nf-winbase-waitcommevent?branch=master) function should be executed as an overlapped operation so the other threads of the process can perform I/O operations during the wait.
 
 
 ```C++

@@ -1,8 +1,9 @@
 ---
 title: AllocConnections function
 description: Allocates memory for a specified number of Connections structures.
-ms.assetid: '0e0075ed-6e4c-43f7-af40-c6dea2808d05'
-keywords: ["AllocConnections function NAP"]
+ms.assetid: 0e0075ed-6e4c-43f7-af40-c6dea2808d05
+keywords:
+- AllocConnections function NAP
 topic_type:
 - apiref
 api_name:
@@ -11,14 +12,19 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AllocConnections function
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **AllocConnections** function allocates memory for a specified number of [**Connections**](connections-struct.md) structures.
 
@@ -27,8 +33,8 @@ The **AllocConnections** function allocates memory for a specified number of [**
 
 ```C++
 NAPAPI HRESULT WINAPI AllocConnections(
-  _Inout_ Connections **connections,
-  _In_    UINT16      connectionsCount
+  _Inout_ Connections **connections,
+  _In_    UINT16      connectionsCount
 );
 ```
 
@@ -64,7 +70,7 @@ The number of structures to allocate to *connections*.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,8 +88,8 @@ All NAP functions for freeing memory also free all embedded pointers.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>NapUtil.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 
@@ -96,9 +102,9 @@ All NAP functions for freeing memory also free all embedded pointers.
 [**FreeConnections**](freeconnections-func.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

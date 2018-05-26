@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines some or all of the character attributes, glyphs, advance widths, x and y positions, character-to-glyph mappings, and so forth, for a string.'
-ms.assetid: 'aa93d631-3cfc-449d-9d04-c1f851129c6c'
-title: 'SCRIPT\_STRING\_ANALYSIS'
+---
+Description: Defines some or all of the character attributes, glyphs, advance widths, x and y positions, character-to-glyph mappings, and so forth, for a string.
+ms.assetid: aa93d631-3cfc-449d-9d04-c1f851129c6c
+title: SCRIPT\_STRING\_ANALYSIS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCRIPT\_STRING\_ANALYSIS
@@ -17,9 +22,9 @@ typedef void* SCRIPT_STRING_ANALYSIS;
 
 ## Remarks
 
-This is an opaque structure that is allocated dynamically and retrieved by [**ScriptStringAnalyse**](scriptstringanalyse.md). It is required for all other **ScriptString\*** functions, as well.
+This is an opaque structure that is allocated dynamically and retrieved by [**ScriptStringAnalyse**](/windows/win32/Usp10/nf-usp10-scriptstringanalyse?branch=master). It is required for all other **ScriptString\*** functions, as well.
 
-Since the analysis can be large, it is important for your application to call [**ScriptStringFree**](scriptstringfree.md) as soon as it has finished with the string.
+Since the analysis can be large, it is important for your application to call [**ScriptStringFree**](/windows/win32/Usp10/nf-usp10-scriptstringfree?branch=master) as soon as it has finished with the string.
 
 ## Requirements
 
@@ -44,7 +49,7 @@ Since the analysis can be large, it is important for your application to call [*
 [Uniscribe Structures](uniscribe-structures.md)
 </dt> <dt>
 
-[**ScriptStringAnalyse**](scriptstringanalyse.md)
+[**ScriptStringAnalyse**](/windows/win32/Usp10/nf-usp10-scriptstringanalyse?branch=master)
 </dt> <dt>
 
 [**ScriptStringFree**](script-string-analysis.md)

@@ -4,11 +4,14 @@ description: Specifies the bounding rectangle of the remote monitor.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4A8794F7-1DB4-4415-8538-6B2A365B22D3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4A8794F7-1DB4-4415-8538-6B2A365B22D3
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetRemoteMonitorsBoundingBox property Remote Desktop Services", "GetRemoteMonitorsBoundingBox property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , GetRemoteMonitorsBoundingBox property"]
+keywords:
+- GetRemoteMonitorsBoundingBox property Remote Desktop Services
+- GetRemoteMonitorsBoundingBox property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , GetRemoteMonitorsBoundingBox property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable5::GetRemoteMonitorsBoundingBox property
@@ -31,10 +37,10 @@ This property is read-only.
 
 ```C++
 HRESULT get_GetRemoteMonitorsBoundingBox(
-  [out] LONG *pLeft,
-  [out] LONG *pTop,
-  [out] LONG *pRight,
-  [out] LONG *pBottom
+  [out] LONG *pLeft,
+  [out] LONG *pTop,
+  [out] LONG *pRight,
+  [out] LONG *pBottom
 );
 ```
 
@@ -60,8 +66,8 @@ All coordinates are in virtual screen coordinates, which are relative to the upp
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |
+| Minimum supported client<br/> | Windows 7<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | IID<br/>                      | IID\_IMsRdpClientNonScriptable5 is defined as 4f6996d5-d7b1-412c-b0ff-063718566907<br/> |
@@ -75,9 +81,9 @@ All coordinates are in virtual screen coordinates, which are relative to the upp
 [**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

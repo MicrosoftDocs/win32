@@ -1,7 +1,12 @@
 ---
 title: endrep - vs
 description: End a rep - vs...endrep block.
-ms.assetid: '660c901a-b490-45f3-abc5-ec1a36525317'
+ms.assetid: 660c901a-b490-45f3-abc5-ec1a36525317
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # endrep - vs

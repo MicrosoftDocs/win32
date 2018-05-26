@@ -1,14 +1,19 @@
 ---
-Description: 'The SetNamedSecurityInfo and SetSecurityInfo functions support automatic propagation of inheritable access control entries (ACEs).'
-ms.assetid: '0aa49b9b-13e3-4ef9-921d-ea47a013e5a1'
+Description: The SetNamedSecurityInfo and SetSecurityInfo functions support automatic propagation of inheritable access control entries (ACEs).
+ms.assetid: 0aa49b9b-13e3-4ef9-921d-ea47a013e5a1
 title: Automatic Propagation of Inheritable ACEs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automatic Propagation of Inheritable ACEs
 
-The [**SetNamedSecurityInfo**](setnamedsecurityinfo.md) and [**SetSecurityInfo**](setsecurityinfo.md) functions support automatic propagation of inheritable [*access control entries*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACEs). For example, if you use these functions to add an inheritable ACE to a directory in an NTFS, the system applies the ACE as appropriate to the [*access control lists*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-list-gly) (ACLs) of any existing subdirectories or files.
+The [**SetNamedSecurityInfo**](/windows/win32/Aclapi/nf-aclapi-setnamedsecurityinfoa?branch=master) and [**SetSecurityInfo**](/windows/win32/Aclapi/nf-aclapi-setsecurityinfo?branch=master) functions support automatic propagation of inheritable [*access control entries*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACEs). For example, if you use these functions to add an inheritable ACE to a directory in an NTFS, the system applies the ACE as appropriate to the [*access control lists*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-list-gly) (ACLs) of any existing subdirectories or files.
 
-Directly applied ACEs have precedence over inherited ACEs. The system implements this precedence by placing directly applied ACEs ahead of inherited ACEs in a [*discretionary access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-discretionary-access-control-list-gly) (DACL). When you call the [**SetNamedSecurityInfo**](setnamedsecurityinfo.md) and [**SetSecurityInfo**](setsecurityinfo.md) functions to set the security information of an object, the system imposes the current inheritance model on the ACLs of all objects in the hierarchy below the target object. For objects that have been converted to the current inheritance model, the SE\_DACL\_AUTO\_INHERITED and SE\_SACL\_AUTO\_INHERITED bits are set in the control field of the [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) of the object.
+Directly applied ACEs have precedence over inherited ACEs. The system implements this precedence by placing directly applied ACEs ahead of inherited ACEs in a [*discretionary access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-discretionary-access-control-list-gly) (DACL). When you call the [**SetNamedSecurityInfo**](/windows/win32/Aclapi/nf-aclapi-setnamedsecurityinfoa?branch=master) and [**SetSecurityInfo**](/windows/win32/Aclapi/nf-aclapi-setsecurityinfo?branch=master) functions to set the security information of an object, the system imposes the current inheritance model on the ACLs of all objects in the hierarchy below the target object. For objects that have been converted to the current inheritance model, the SE\_DACL\_AUTO\_INHERITED and SE\_SACL\_AUTO\_INHERITED bits are set in the control field of the [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) of the object.
 
 When you build a new security descriptor that reflects the current inheritance model, care is taken not to change the semantics of the security descriptor. As such, allow and deny ACEs are never moved in relation to one another. If such movement is needed (for instance to place all noninherited ACEs at the front of an ACL), the ACL is marked as protected to prevent the semantic change.
 

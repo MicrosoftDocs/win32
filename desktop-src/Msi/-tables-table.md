@@ -1,7 +1,12 @@
 ---
-Description: 'The \_Tables table is a read-only system table that lists all the tables in the database. Query this table to find out if a table exists.'
-ms.assetid: 'd064855b-8c10-476e-9570-cc3ab48ae998'
+Description: The \_Tables table is a read-only system table that lists all the tables in the database. Query this table to find out if a table exists.
+ms.assetid: d064855b-8c10-476e-9570-cc3ab48ae998
 title: '\_Tables Table'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_Tables Table
@@ -33,7 +38,7 @@ Name of one of the tables.
 
 ## Remarks
 
-Because the \_Tables table is a system table that cannot be modified through SQL queries, you cannot obtain the primary keys with the [**MsiDatabaseGetPrimaryKeys**](msidatabasegetprimarykeys.md) function or the [**PrimaryKeys property**](database-primarykeys.md).
+Because the \_Tables table is a system table that cannot be modified through SQL queries, you cannot obtain the primary keys with the [**MsiDatabaseGetPrimaryKeys**](/windows/win32/Msiquery/nf-msiquery-msidatabasegetprimarykeysa?branch=master) function or the [**PrimaryKeys property**](database-primarykeys.md).
 
  
 

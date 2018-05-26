@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a hardware-based Media Foundation transform (MFT) is connected to another hardware-based MFT.'
-ms.assetid: '9166c43f-d2ae-4dc7-84e9-02146b67efe2'
-title: 'MFT\_CONNECTED\_TO\_HW\_STREAM attribute'
+---
+Description: Specifies whether a hardware-based Media Foundation transform (MFT) is connected to another hardware-based MFT.
+ms.assetid: 9166c43f-d2ae-4dc7-84e9-02146b67efe2
+title: MFT\_CONNECTED\_TO\_HW\_STREAM attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_CONNECTED\_TO\_HW\_STREAM attribute
@@ -14,9 +19,9 @@ Specifies whether a hardware-based Media Foundation transform (MFT) is connected
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
@@ -27,7 +32,7 @@ This attribute is used with hardware-based MFTs. When two hardware MFTs are conn
 -   The output stream of the upstream MFT
 -   The input stream of the downstream MFT
 
-To get the attribute store for the output stream, the topology loader calls [**IMFTransform::GetOutputStreamAttributes**](imftransform-getoutputstreamattributes.md) on the upstream MFT. To get the attribute store for the input stream, the topology loader calls [**IMFTransform::GetInputStreamAttributes**](imftransform-getinputstreamattributes.md) on the downstream MFT.
+To get the attribute store for the output stream, the topology loader calls [**IMFTransform::GetOutputStreamAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstreamattributes?branch=master) on the upstream MFT. To get the attribute store for the input stream, the topology loader calls [**IMFTransform::GetInputStreamAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputstreamattributes?branch=master) on the downstream MFT.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

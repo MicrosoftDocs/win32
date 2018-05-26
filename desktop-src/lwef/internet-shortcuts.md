@@ -1,8 +1,16 @@
 ---
 title: Internet Shortcuts
 description: The Internet shortcut object is used to create desktop shortcuts to Internet sites.
-ms.assetid: '367c003f-2362-408c-81e1-fda1ffc7e15b'
-keywords: ["Internet shortcut objects", "WebBrowser controls", "IPropertySetStorage"]
+ms.assetid: 367c003f-2362-408c-81e1-fda1ffc7e15b
+keywords:
+- Internet shortcut objects
+- WebBrowser controls
+- IPropertySetStorage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Internet Shortcuts

@@ -1,6 +1,6 @@
 ---
 title: Windows Web Services Return Values
-ms.assetid: '96285557-8317-4875-b634-e2eacd605901'
+ms.assetid: 96285557-8317-4875-b634-e2eacd605901
 description: 
 topic_type:
 - apiref
@@ -8,6 +8,11 @@ api_name:
 - Windows Web Services Return Values
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Web Services Return Values
@@ -31,7 +36,7 @@ The following codes are commonly returned by the Windows Web Services API:
 | <span id="WS_E_ENDPOINT_ACTION_NOT_SUPPORTED"></span><span id="ws_e_endpoint_action_not_supported"></span><dl> <dt>**WS\_E\_ENDPOINT\_ACTION\_NOT\_SUPPORTED**</dt> <dt>0x804d0011</dt> </dl>    | The remote endpoint indicates that the specified action is not supported. This is usually an indication of a mismatch in contract. This error will only be returned if the remote endpoint indicated this failure.<br/>                                                                                                                                                                                                  |
 | <span id="WS_E_ENDPOINT_DISCONNECTED"></span><span id="ws_e_endpoint_disconnected"></span><dl> <dt>**WS\_E\_ENDPOINT\_DISCONNECTED**</dt> <dt>0x804d0014</dt> </dl>                              | A connection existed with the remote endpoint, but it was actively terminated by the remote endpoint, or there was a lack of connectivity with remote endpoint. <br/>                                                                                                                                                                                                                                                    |
 | <span id="WS_E_ENDPOINT_FAILURE"></span><span id="ws_e_endpoint_failure"></span><dl> <dt>**WS\_E\_ENDPOINT\_FAILURE**</dt> <dt>0x804d000f</dt> </dl>                                             | General endpoint failures. This error will only be returned if the endpoint actually responded with an error indicating it could not process the request.<br/>                                                                                                                                                                                                                                                           |
-| <span id="WS_E_ENDPOINT_FAULT_RECEIVED"></span><span id="ws_e_endpoint_fault_received"></span><dl> <dt>**WS\_E\_ENDPOINT\_FAULT\_RECEIVED**</dt> <dt>0x804d0013</dt> </dl>                       | A message containing a fault was received, but a different message was expected. The actual fault information can be obtained from the error object using [**WS\_FAULT\_ERROR\_PROPERTY\_FAULT**](ws-fault-error-property-id.md). <br/>                                                                                                                                                                                 |
+| <span id="WS_E_ENDPOINT_FAULT_RECEIVED"></span><span id="ws_e_endpoint_fault_received"></span><dl> <dt>**WS\_E\_ENDPOINT\_FAULT\_RECEIVED**</dt> <dt>0x804d0013</dt> </dl>                       | A message containing a fault was received, but a different message was expected. The actual fault information can be obtained from the error object using [**WS\_FAULT\_ERROR\_PROPERTY\_FAULT**](/windows/win32/WebServices/ne-webservices-ws_fault_error_property_id?branch=master). <br/>                                                                                                                                                                                 |
 | <span id="WS_E_ENDPOINT_NOT_AVAILABLE"></span><span id="ws_e_endpoint_not_available"></span><dl> <dt>**WS\_E\_ENDPOINT\_NOT\_AVAILABLE**</dt> <dt>0x804d000e</dt> </dl>                          | The endpoint is no longer in service at this location, or is temporarily out of service. This error will only be returned if software on the remote machine indicated this failure. <br/>                                                                                                                                                                                                                                |
 | <span id="WS_E_ENDPOINT_NOT_FOUND"></span><span id="ws_e_endpoint_not_found"></span><dl> <dt>**WS\_E\_ENDPOINT\_NOT\_FOUND**</dt> <dt>0x804d000d</dt> </dl>                                      | The endpoint cannot be found, for example, if the host can be found, or there is not an endpoint listening at the particular URI. <br/>                                                                                                                                                                                                                                                                                  |
 | <span id="WS_E_ENDPOINT_TOO_BUSY"></span><span id="ws_e_endpoint_too_busy"></span><dl> <dt>**WS\_E\_ENDPOINT\_TOO\_BUSY**</dt> <dt>0x804d0012</dt> </dl>                                         | The remote endpoint indicates that the endpoint or the server the endpoint is hosted on is too busy to process the request. Although this is typically an indicator of an overloaded server, this error may also be returned when the endpoint or server is temporarily unavailable for other reasons. <br/>                                                                                                             |
@@ -62,15 +67,15 @@ The following codes are commonly returned by the Windows Web Services API:
 | <span id="WS_E_SERVER_REQUIRES_NEGOTIATE_AUTH"></span><span id="ws_e_server_requires_negotiate_auth"></span><dl> <dt>**WS\_E\_SERVER\_REQUIRES\_NEGOTIATE\_AUTH**</dt> <dt>0x803D001F</dt> </dl> | This error is returned when the remote endpoint did not accept the HTTP header authentication scheme chosen by the client and instead requires negotiate authentication. <br/>                                                                                                                                                                                                                                           |
 | <span id="WS_E_SERVER_REQUIRES_NTLM_AUTH"></span><span id="ws_e_server_requires_ntlm_auth"></span><dl> <dt>**WS\_E\_SERVER\_REQUIRES\_NTLM\_AUTH**</dt> <dt>0x803D001E</dt> </dl>                | This error is returned when the remote endpoint did not accept the HTTP header authentication scheme chosen by the client and instead requires NTLM authentication. <br/>                                                                                                                                                                                                                                                |
 | <span id="WS_S_ASYNC"></span><span id="ws_s_async"></span><dl> <dt>**WS\_S\_ASYNC**</dt> <dt>0x4d0000</dt> </dl>                                                                                 | A function is completing asynchronously. <br/>                                                                                                                                                                                                                                                                                                                                                                           |
-| <span id="WS_S_END"></span><span id="ws_s_end"></span><dl> <dt>**WS\_S\_END**</dt> <dt>0x4d0001</dt> </dl>                                                                                       | The end of input has been reached. This is returned when there are no more messages available on a channel. No more messages are available if the channel is of type [**WS\_CHANNEL\_TYPE\_REPLY**](ws-channel-type.md) and has already received a message, if the session was shut down, or if the channel filtered the message. For more information, see [Channel Layer Overview](channel-layer-overview.md). <br/> |
+| <span id="WS_S_END"></span><span id="ws_s_end"></span><dl> <dt>**WS\_S\_END**</dt> <dt>0x4d0001</dt> </dl>                                                                                       | The end of input has been reached. This is returned when there are no more messages available on a channel. No more messages are available if the channel is of type [**WS\_CHANNEL\_TYPE\_REPLY**](/windows/win32/WebServices/ne-webservices-ws_channel_type?branch=master) and has already received a message, if the session was shut down, or if the channel filtered the message. For more information, see [Channel Layer Overview](channel-layer-overview.md). <br/> |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

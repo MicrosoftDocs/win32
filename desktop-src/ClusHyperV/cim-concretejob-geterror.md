@@ -4,13 +4,16 @@ description: Retrieves error information for the operational status of a concret
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ff87846f-09bf-4358-aff2-8ee873990bb7'
-ms.prod: 'windows-server-dev'
+ms.assetid: ff87846f-09bf-4358-aff2-8ee873990bb7
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetError method", "GetError method, CIM_ConcreteJob class", "CIM_ConcreteJob class, GetError method"]
+keywords:
+- GetError method
+- GetError method, CIM_ConcreteJob class
+- CIM_ConcreteJob class, GetError method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetError method of the CIM\_ConcreteJob class
@@ -30,7 +36,7 @@ Retrieves error information for the operational status of a concrete job. This m
 
 ```mof
 uint32 GetError(
-  [out] string Error
+  [out] string Error
 );
 ```
 
@@ -72,10 +78,10 @@ An embedded [**CIM\_Error**](cim-error.md) instance if the job fails; otherwise 
 **Access Denied** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -85,7 +91,7 @@ An embedded [**CIM\_Error**](cim-error.md) instance if the job fails; otherwise 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -99,9 +105,9 @@ An embedded [**CIM\_Error**](cim-error.md) instance if the job fails; otherwise 
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

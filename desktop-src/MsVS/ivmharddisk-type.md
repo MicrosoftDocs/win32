@@ -1,8 +1,13 @@
 ---
 title: IVMHardDisk Type property
 description: The Type property contains the type of the current hard disk image.
-ms.assetid: 'be1b3612-d115-4d86-aa1d-ebe48d29037d'
-keywords: ["Type property Virtual Server", "Type property Virtual Server , IVMHardDisk interface", "IVMHardDisk interface Virtual Server , Type property", "Type property Virtual Server , VMHardDisk interface", "VMHardDisk interface Virtual Server , Type property"]
+ms.assetid: be1b3612-d115-4d86-aa1d-ebe48d29037d
+keywords:
+- Type property Virtual Server
+- Type property Virtual Server , IVMHardDisk interface
+- IVMHardDisk interface Virtual Server , Type property
+- Type property Virtual Server , VMHardDisk interface
+- VMHardDisk interface Virtual Server , Type property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk::Type property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Type(
-  [out] VMHardDiskType *type
+  [out] VMHardDiskType *type
 );
 ```
 
@@ -81,8 +91,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -97,9 +107,9 @@ This property value is read-only.
 [**VMHardDiskType**](vmharddisktype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

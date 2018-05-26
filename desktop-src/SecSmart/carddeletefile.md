@@ -1,8 +1,9 @@
 ---
 title: CardDeleteFile function
 description: Deletes a file from a smart card.
-ms.assetid: 'ea55bc59-c239-45a1-8a46-e0cfc3842695'
-keywords: ["CardDeleteFile function Security"]
+ms.assetid: ea55bc59-c239-45a1-8a46-e0cfc3842695
+keywords:
+- CardDeleteFile function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardDeleteFile function
@@ -24,10 +30,10 @@ The **CardDeleteFile** function, defined by a smart card module, deletes a file 
 
 ```C++
 DWORD WINAPI CardDeleteFile(
-  _In_ PCARD_DATA pCardData,
-  _In_ LPSTR      pszDirectoryName,
-  _In_ LPSTR      pszFileName,
-  _In_ DWORD      dwFlags
+  _In_ PCARD_DATA pCardData,
+  _In_ LPSTR      pszDirectoryName,
+  _In_ LPSTR      pszFileName,
+  _In_ DWORD      dwFlags
 );
 ```
 
@@ -81,7 +87,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,8 +95,8 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -111,9 +117,9 @@ If the function fails, it returns a nonzero error value or one of the following 
 [**CardCreateFile**](cardcreatefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

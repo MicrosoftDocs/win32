@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_ClassicCOMApplicationClasses association WMI class relates a COM application and a COM component grouped under it.'
+Description: The Win32\_ClassicCOMApplicationClasses association WMI class relates a COM application and a COM component grouped under it.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '77f24461-9ca0-4fc3-8728-4a4b9a1edbc3'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 77f24461-9ca0-4fc3-8728-4a4b9a1edbc3
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ClassicCOMApplicationClasses class'
+title: Win32\_ClassicCOMApplicationClasses class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ClassicCOMApplicationClasses class
@@ -83,8 +86,8 @@ The **Win32\_ClassicCOMApplicationClasses** class is derived from [**Win32\_COMA
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -101,9 +104,9 @@ The **Win32\_ClassicCOMApplicationClasses** class is derived from [**Win32\_COMA
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

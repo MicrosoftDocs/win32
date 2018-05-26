@@ -4,17 +4,22 @@ description: The Machine-Password-Change-Interval attribute is not currently use
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e101dc40-3a90-4ce3-9023-2d6077fdcbac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e101dc40-3a90-4ce3-9023-2d6077fdcbac
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Machine-Password-Change-Interval attribute AD Schema", "machinePasswordChangeInterval attribute AD Schema"]
+keywords:
+- Machine-Password-Change-Interval attribute AD Schema
+- machinePasswordChangeInterval attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Machine-Password-Change-Interval
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Machine-Password-Change-Interval attribute

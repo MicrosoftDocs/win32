@@ -1,8 +1,10 @@
 ---
 title: Msvm\_TerminalService class
 description: Manages all remote terminal connections to a particular host.
-ms.assetid: '2eb5ebab-4241-4d64-a32c-eaa87bfdb6f4'
-keywords: ["Msvm_TerminalService class Hyper-V", "Msvm_TerminalService class Hyper-V , described"]
+ms.assetid: 2eb5ebab-4241-4d64-a32c-eaa87bfdb6f4
+keywords:
+- Msvm_TerminalService class Hyper-V
+- Msvm_TerminalService class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -36,6 +38,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_TerminalService class
@@ -50,28 +57,28 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_TerminalService : CIM_Service
 {
-  string   Caption = ;
-  string   Description = "Microsoft Virtual Terminal Service";
-  string   ElementName = "Microsoft Virtual Terminal Connection Management Service";
+  string   Caption = ;
+  string   Description = "Microsoft Virtual Terminal Service";
+  string   ElementName = "Microsoft Virtual Terminal Connection Management Service";
   datetime InstallDate;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = { "The virtual terminal connection management service is fully operational" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = { "The virtual terminal connection management service is fully operational" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_TerminalService";
-  string   Name = "Microsoft Virtual Terminal Connection Management Service";
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   StartMode;
-  boolean  Started;
-  uint32   ListenerPort;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_TerminalService";
+  string   Name = "Microsoft Virtual Terminal Connection Management Service";
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   StartMode;
+  boolean  Started;
+  uint32   ListenerPort;
 };
 ```
 
@@ -96,7 +103,7 @@ The **Msvm\_TerminalService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -501,9 +508,9 @@ Access to the **Msvm\_TerminalService** class might be restricted by UAC Filteri
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -522,9 +529,9 @@ Access to the **Msvm\_TerminalService** class might be restricted by UAC Filteri
 [Video Classes](video-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IEnumNetFwV6Connections Skip method
 description: The Skip method skips the specified number of connections for this enumeration.
-ms.assetid: '9783d60e-2c2d-4377-bf1d-5895256a3b6c'
-keywords: ["Skip method ICS/ICF", "Skip method ICS/ICF , IEnumNetFwV6Connections interface", "IEnumNetFwV6Connections interface ICS/ICF , Skip method"]
+ms.assetid: 9783d60e-2c2d-4377-bf1d-5895256a3b6c
+keywords:
+- Skip method ICS/ICF
+- Skip method ICS/ICF , IEnumNetFwV6Connections interface
+- IEnumNetFwV6Connections interface ICS/ICF , Skip method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumNetFwV6Connections::Skip method
@@ -24,7 +32,7 @@ The **Skip** method skips the specified number of connections for this enumerati
 
 ```C++
 HRESULT Skip(
-  [in] ULONG cElt
+  [in] ULONG cElt
 );
 ```
 
@@ -60,7 +68,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,10 +76,10 @@ If the method fails, the return value is one of the following error codes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -87,9 +95,9 @@ If the method fails, the return value is one of the following error codes.
 [**INetFwV6Connection**](inetfwv6connection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

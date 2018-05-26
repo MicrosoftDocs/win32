@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the Csid property for a FaxTiff object. The Csid property is a string that contains called station identifier (CSID) information, which is typically the fax number of the device that received the specified fax file.'
-ms.assetid: '2e08d581-cb6d-43fa-b84f-413406ad0faf'
-title: 'FaxTiff.Csid property'
+---
+Description: Retrieves the Csid property for a FaxTiff object. The Csid property is a string that contains called station identifier (CSID) information, which is typically the fax number of the device that received the specified fax file.
+ms.assetid: 2e08d581-cb6d-43fa-b84f-413406ad0faf
+title: FaxTiff.Csid property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxTiff.Csid property
@@ -59,7 +64,7 @@ The **get\_Csid** method allocates the memory required for the buffer pointed to
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxTiff**](-mfax-ifaxtiff.md)
+[**IFaxTiff**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxtiff?branch=master)
 </dt> <dt>
 
 [**Image**](-mfax-ifaxtiff-get-image-vb.md)

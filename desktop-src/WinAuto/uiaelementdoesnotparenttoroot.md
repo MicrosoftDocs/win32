@@ -1,7 +1,12 @@
 ---
 title: UiaElementDoesNotParentToRoot
 description: UiaElementDoesNotParentToRoot
-ms.assetid: '0A1EDF46-420D-46ED-BD61-CA5E40847071'
+ms.assetid: 0A1EDF46-420D-46ED-BD61-CA5E40847071
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UiaElementDoesNotParentToRoot
@@ -28,7 +33,7 @@ Incorrect implementation of the UI tree parent child hierarchy.
 
 <dl> <dt>
 
-[**IUIAutomationTreeWalker**](uiauto-iuiautomationtreewalker.md)
+[**IUIAutomationTreeWalker**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationtreewalker?branch=master)
 </dt> </dl>
 
  

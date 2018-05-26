@@ -1,14 +1,20 @@
 ---
 title: Load(int,uint) function
 description: Reads buffer data and returns status about the operation.
-ms.assetid: '19FAA031-F31E-4B73-BC69-489CDF0CF184'
-keywords: ["Load function HLSL"]
+ms.assetid: 19FAA031-F31E-4B73-BC69-489CDF0CF184
+keywords:
+- Load function HLSL
 topic_type:
 - apiref
 api_name:
 - Load
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load(int,uint) function

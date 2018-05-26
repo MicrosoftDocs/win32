@@ -4,11 +4,14 @@ description: Apps must implement this method to authenticate and return an acces
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.IAuthenticationCallback.GetTokenAsync(Microsoft.RightsManagement.AuthenticationParameters)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.IAuthenticationCallback.GetTokenAsync(Microsoft.RightsManagement.AuthenticationParameters)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["GetTokenAsync method", "GetTokenAsync method, IAuthenticationCallback class", "IAuthenticationCallback class, GetTokenAsync method"]
+keywords:
+- GetTokenAsync method
+- GetTokenAsync method, IAuthenticationCallback class
+- IAuthenticationCallback class, GetTokenAsync method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IAuthenticationCallback.GetTokenAsync method
@@ -79,9 +85,9 @@ This method is modeled after the .NET method [AuthenticationContext.AcquireToken
 [**IAuthenticationCallback**](iauthenticationcallback.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

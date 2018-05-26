@@ -1,14 +1,20 @@
 ---
 title: CUSTOMSLIDER.max
 description: The max attribute specifies or retrieves the maximum value of the range defined by the custom slider.
-ms.assetid: '2b788b13-d9a8-4cf6-9397-a2fc8d5d19e1'
-keywords: ["CUSTOMSLIDER.max Windows Media Player"]
+ms.assetid: 2b788b13-d9a8-4cf6-9397-a2fc8d5d19e1
+keywords:
+- CUSTOMSLIDER.max Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CUSTOMSLIDER.max
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUSTOMSLIDER.max
@@ -51,9 +57,9 @@ See the [positionImage](customslider-positionimage.md) attribute for a sample il
 [**CUSTOMSLIDER.min**](customslider-min.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: SetFileDeviceElement method of the BcdObject class
 description: Sets the specified file device element.
-ms.assetid: '0501cf17-39bb-48fa-a581-3d6b18e24c38'
-keywords: ["SetFileDeviceElement method Boot Config", "SetFileDeviceElement method Boot Config , BcdObject class", "BcdObject class Boot Config , SetFileDeviceElement method"]
+ms.assetid: 0501cf17-39bb-48fa-a581-3d6b18e24c38
+keywords:
+- SetFileDeviceElement method Boot Config
+- SetFileDeviceElement method Boot Config , BcdObject class
+- BcdObject class Boot Config , SetFileDeviceElement method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetFileDeviceElement method of the BcdObject class
@@ -22,13 +30,13 @@ Sets the specified file device element.
 
 ```mof
 boolean SetFileDeviceElement(
-  [in] uint32 Type,
-  [in] uint32 DeviceType,
-  [in] string AdditionalOptions,
-  [in] string Path,
-  [in] uint32 ParentDeviceType,
-  [in] string ParentAdditionalOptions,
-  [in] string ParentPath
+  [in] uint32 Type,
+  [in] uint32 DeviceType,
+  [in] string AdditionalOptions,
+  [in] string Path,
+  [in] uint32 ParentDeviceType,
+  [in] string ParentAdditionalOptions,
+  [in] string ParentPath
 );
 ```
 
@@ -70,7 +78,7 @@ The device type. This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -105,7 +113,7 @@ The device type. This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -129,8 +137,8 @@ The path of the parent. This parameter can be an empty string ("") if the parent
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -143,9 +151,9 @@ The path of the parent. This parameter can be an empty string ("") if the parent
 [**BcdObject**](bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

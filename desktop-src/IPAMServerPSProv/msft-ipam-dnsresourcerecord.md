@@ -1,15 +1,18 @@
 ---
-Description: 'TBD.'
+Description: TBD.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '93ee5184-3f1c-4168-93cc-e1a43dd24e37'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 93ee5184-3f1c-4168-93cc-e1a43dd24e37
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_DnsResourceRecord class'
+title: MSFT\_IPAM\_DnsResourceRecord class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_DnsResourceRecord class
@@ -24,16 +27,16 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [ClassVersion("1.0.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_DnsResourceRecord
 {
-  string   InstanceID;
-  string   RecordName;
-  string   ZoneName;
-  uint16   RecordType;
-  string   RecordClass;
-  string   TimeToLive;
+  string   InstanceID;
+  string   RecordName;
+  string   ZoneName;
+  uint16   RecordType;
+  string   RecordClass;
+  string   TimeToLive;
   datetime Timestamp;
-  string   RecordData;
-  string   AccessScopePath;
-  boolean  IsInheritedAccessScope;
+  string   RecordData;
+  string   AccessScopePath;
+  boolean  IsInheritedAccessScope;
 };
 ```
 
@@ -354,16 +357,16 @@ Specifies the name of the DNS zone to which this DNS resource record belongs.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,16 +1,21 @@
 ---
-Description: 'Qualified components are a method of indirection and can be used to group components with parallel functionality into categories.'
-ms.assetid: '45a05ab2-d951-415d-bdb8-cb0a73eb9967'
+Description: Qualified components are a method of indirection and can be used to group components with parallel functionality into categories.
+ms.assetid: 45a05ab2-d951-415d-bdb8-cb0a73eb9967
 title: Using Qualified Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Qualified Components
 
 Qualified components are a method of indirection and can be used to group components with parallel functionality into categories.
 
-To return the full path and install a [qualified component](qualified-components.md), call [**MsiProvideQualifiedComponent**](msiprovidequalifiedcomponent.md) or [**MsiProvideQualifiedComponentEx**](msiprovidequalifiedcomponentex.md).
+To return the full path and install a [qualified component](qualified-components.md), call [**MsiProvideQualifiedComponent**](/windows/win32/Msi/nf-msi-msiprovidequalifiedcomponenta?branch=master) or [**MsiProvideQualifiedComponentEx**](/windows/win32/Msi/nf-msi-msiprovidequalifiedcomponentexa?branch=master).
 
-To enumerate all of the qualified component qualifiers and descriptive strings, call [**MsiEnumComponentQualifiers**](msienumcomponentqualifiers.md).
+To enumerate all of the qualified component qualifiers and descriptive strings, call [**MsiEnumComponentQualifiers**](/windows/win32/Msi/nf-msi-msienumcomponentqualifiersa?branch=master).
 
 **To group components together into a qualified-component category**
 

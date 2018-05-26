@@ -1,8 +1,9 @@
 ---
 title: D3DX12GetBaseSubobjectType function
 description: Returns the subobject type that corresponds to the base class of the passed-in subobject type.
-ms.assetid: '3744B042-094C-4EA4-8185-A018B728D843'
-keywords: ["D3DX12GetBaseSubobjectType function"]
+ms.assetid: 3744B042-094C-4EA4-8185-A018B728D843
+keywords:
+- D3DX12GetBaseSubobjectType function
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX12GetBaseSubobjectType function
@@ -22,7 +28,7 @@ Returns the subobject type that corresponds to the base class of the passed-in s
 
 ```C++
 D3D12_PIPELINE_STATE_SUBOBJECT_TYPE inline D3DX12GetBaseSubobjectType(
-   D3D12_PIPELINE_STATE_SUBOBJECT_TYPE SubobjectType
+   D3D12_PIPELINE_STATE_SUBOBJECT_TYPE SubobjectType
 );
 ```
 
@@ -68,9 +74,9 @@ If *SubobjectType* corresponds to a subobject data type that is derived from ano
 [Helper Functions for D3D12](helper-functions-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

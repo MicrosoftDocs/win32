@@ -4,11 +4,16 @@ description: The Scripting API in WinRM and the accompanying COM API for C++ are
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fda2042a-8fca-4cd8-bb55-fd1c3591921e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: fda2042a-8fca-4cd8-bb55-fd1c3591921e
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["Scripting in Windows Remote Management", "Windows Remote Management, scripting in"]
+keywords:
+- Scripting in Windows Remote Management
+- Windows Remote Management, scripting in
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scripting in Windows Remote Management

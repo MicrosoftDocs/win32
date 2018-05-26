@@ -1,7 +1,7 @@
 ---
 title: Package constants
 description: Specifies how packages are to be processed.
-ms.assetid: '72E565C3-6CFD-47E3-8BAC-17D6E86B99DA'
+ms.assetid: 72E565C3-6CFD-47E3-8BAC-17D6E86B99DA
 topic_type:
 - apiref
 api_name:
@@ -30,6 +30,11 @@ api_location:
 - AppModel.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Package constants
@@ -71,7 +76,7 @@ Specifies how packages are to be processed.
 <td style="text-align: left;">Process all packages in the dependency graph.<br/> This is equivalent to <strong>PACKAGE_FILTER_HEAD</strong> | <strong>PACKAGE_FILTER_DIRECT</strong>.<br/>
 <blockquote>
 [!Note]<br />
-<strong>PACKAGE_FILTER_ALL_LOADED</strong> may be altered or unavailable for releases after Windows 8.1. Instead, use <strong>PACKAGE_FILTER_HEAD</strong> | <strong>PACKAGE_FILTER_DIRECT</strong>.
+<strong>PACKAGE_FILTER_ALL_LOADED</strong> may be altered or unavailable for releases after Windows 8.1. Instead, use <strong>PACKAGE_FILTER_HEAD</strong> | <strong>PACKAGE_FILTER_DIRECT</strong>.
 </blockquote>
 <br/></td>
 </tr>
@@ -150,8 +155,8 @@ Specifies how packages are to be processed.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>AppModel.h</dt> </dl> |
 
 
@@ -160,18 +165,18 @@ Specifies how packages are to be processed.
 
 <dl> <dt>
 
-[**GetCurrentPackageInfo**](getcurrentpackageinfo.md)
+[**GetCurrentPackageInfo**](/windows/win32/AppModel/nf-appmodel-getcurrentpackageinfo?branch=master)
 </dt> <dt>
 
-[**GetPackageInfo**](getpackageinfo.md)
+[**GetPackageInfo**](/windows/win32/AppModel/nf-appmodel-getpackageinfo?branch=master)
 </dt> <dt>
 
-[**PackageIdFromFullName**](packageidfromfullname.md)
+[**PackageIdFromFullName**](/windows/win32/AppModel/nf-appmodel-packageidfromfullname?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the next specified number of data item names in the enumeration sequence.'
-ms.assetid: '6f30bf64-bd63-43d7-ab7e-f64e372c723b'
-title: 'IEnumPStoreItems::Next method'
+---
+Description: Gets the next specified number of data item names in the enumeration sequence.
+ms.assetid: 6f30bf64-bd63-43d7-ab7e-f64e372c723b
+title: IEnumPStoreItemsNext method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumPStoreItems::Next method

@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_AAAAType class
 description: Subclass of MicrosoftDNS\_ResourceRecord that represents an IPv6 Address (AAAA) record. The AAAA record is commonly pronounced \ 0034;quad-a record \ 0034;.
-ms.assetid: 'e16a7a69-18df-43dc-add9-700a702724ce'
-keywords: ["MicrosoftDNS_AAAAType class DNS", "MicrosoftDNS_AAAAType class DNS , described"]
+ms.assetid: e16a7a69-18df-43dc-add9-700a702724ce
+keywords:
+- MicrosoftDNS_AAAAType class DNS
+- MicrosoftDNS_AAAAType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_AAAAType class
@@ -51,7 +58,7 @@ The **MicrosoftDNS\_AAAAType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ IPv6 address for the host.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ IPv6 address for the host.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

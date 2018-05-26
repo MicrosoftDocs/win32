@@ -1,7 +1,12 @@
 ---
-Description: 'Returns the number of cursor objects associated with the tablet.'
-ms.assetid: '7aa5802c-1255-41a4-b1fa-23e5f56c0b80'
-title: 'ITablet::GetCursorCount method'
+Description: Returns the number of cursor objects associated with the tablet.
+ms.assetid: 7aa5802c-1255-41a4-b1fa-23e5f56c0b80
+title: ITabletGetCursorCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITablet::GetCursorCount method
@@ -13,7 +18,7 @@ Returns the number of cursor objects associated with the tablet.
 
 ```C++
 HRESULT GetCursorCount(
-  [out] ULONG *pcCurs
+  [out] ULONG *pcCurs
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -64,9 +69,9 @@ This method can return one of these values.
 [**ITablet Interface**](itablet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

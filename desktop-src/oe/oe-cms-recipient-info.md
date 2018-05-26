@@ -1,8 +1,10 @@
 ---
 title: CMS\_RECIPIENT\_INFO structure
 description: Contains key information for an encrypted message recipient.
-ms.assetid: 'aa84b0f3-08fb-4440-a9c6-7863e6bae3bf'
-keywords: ["CMS_RECIPIENT_INFO structure Windows Mail (formerly Outlook Express)", "PCMS_RECIPIENT_INFO structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: aa84b0f3-08fb-4440-a9c6-7863e6bae3bf
+keywords:
+- CMS_RECIPIENT_INFO structure Windows Mail (formerly Outlook Express)
+- PCMS_RECIPIENT_INFO structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMS\_RECIPIENT\_INFO structure
 
-\[The **CMS\_RECIPIENT\_INFO** structure is available for use in Windows XP. It might be altered or unavailable in subsequent versions.\]
+\[The **CMS\_RECIPIENT\_INFO** structure is available for use in Windows XP. It might be altered or unavailable in subsequent versions.\]
 
 Contains key information for an encrypted message recipient.
 
@@ -24,40 +31,40 @@ Contains key information for an encrypted message recipient.
 
 ```C++
 typedef struct tagCMS_RECIPIENT_INFO {
-  DWORD                       dwRecipientType;
-  PCCERT_CONTEXT              pccert;
-  CRYPT_ALGORITHM_IDENTIFIER  KeyEncryptionAlgorithm;
-  void                        *pvKeyEncryptionAuxInfo;
-  DWORD                       cbKeyEncryptionAuxInfo;
-  CRYPT_ALGORITHM_IDENTIFIER  KeyWrapAlgorithm;
-  void                        *pvKeyWrapAuxInfo;
-  DWORD                       cbKeyWrapAuxInfo;
-  DWORD                       dwU1;
+  DWORD                       dwRecipientType;
+  PCCERT_CONTEXT              pccert;
+  CRYPT_ALGORITHM_IDENTIFIER  KeyEncryptionAlgorithm;
+  void                        *pvKeyEncryptionAuxInfo;
+  DWORD                       cbKeyEncryptionAuxInfo;
+  CRYPT_ALGORITHM_IDENTIFIER  KeyWrapAlgorithm;
+  void                        *pvKeyWrapAuxInfo;
+  DWORD                       cbKeyWrapAuxInfo;
+  DWORD                       dwU1;
   union {
     CRYPT_BIT_BLOB SubjectPublicKey;
     struct {
       HCRYPTPROV hprov;
-      HCRYPTKEY  hkey;
-    } u2;
+      HCRYPTKEY  hkey;
+    } u2;
     struct {
-      CRYPT_DATA_BLOB            UserKeyingMaterial;
+      CRYPT_DATA_BLOB            UserKeyingMaterial;
       CRYPT_ALGORITHM_IDENTIFIER EphemeralAlgorithm;
-      CRYPT_BIT_BLOB             SubjectPublicKey;
-    } u3;
+      CRYPT_BIT_BLOB             SubjectPublicKey;
+    } u3;
     struct {
       CRYPT_DATA_BLOB UserKeyingMaterial;
-      HCRYPTPROV      hprov;
-      DWORD           dwKeySpec;
-      CERT_ID         senderCertId;
-      CRYPT_BIT_BLOB  SubjectPublicKey;
-    } u4;
-  } u1;
-  DWORD                       dwU3;
+      HCRYPTPROV      hprov;
+      DWORD           dwKeySpec;
+      CERT_ID         senderCertId;
+      CRYPT_BIT_BLOB  SubjectPublicKey;
+    } u4;
+  } u1;
+  DWORD                       dwU3;
   union {
     CERT_ISSUER_SERIAL_NUMBER IssuerSerial;
-    CRYPT_DATA_BLOB           KeyId;
-  } u3;
-  FILETIME                    filetime;
+    CRYPT_DATA_BLOB           KeyId;
+  } u3;
+  FILETIME                    filetime;
   PCRYPT_ATTRIBUTE_TYPE_VALUE pOtherAttr;
 } CMS_RECIPIENT_INFO, *PCMS_RECIPIENT_INFO;
 ```
@@ -88,7 +95,7 @@ Contains the recipient type.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -189,7 +196,7 @@ Contains a **DWORD** that is used as a switch flag that indicates which set of v
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -356,7 +363,7 @@ Contains a **DWORD** that is used as a switch flag that indicates which key ID t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -413,17 +420,17 @@ Contains a pointer to a [CRYPT\_ATTRIBUTE\_TYPE\_VALUE](http://msdn.microsoft.co
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

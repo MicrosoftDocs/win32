@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains configuration properties for an encoder.'
-ms.assetid: 'f9bd8a50-e43e-4668-86a0-c9d5f517f4cf'
-title: 'MFT\_PREFERRED\_ENCODER\_PROFILE attribute'
+---
+Description: Contains configuration properties for an encoder.
+ms.assetid: f9bd8a50-e43e-4668-86a0-c9d5f517f4cf
+title: MFT\_PREFERRED\_ENCODER\_PROFILE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_PREFERRED\_ENCODER\_PROFILE attribute
@@ -10,21 +15,21 @@ Contains configuration properties for an encoder.
 
 ## Data type
 
-**[**IMFAttributes**](imfattributes.md)\*** stored as **IUnknown\***
+**[**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master)\*** stored as **IUnknown\***
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUnknown**](imfattributes-getunknown.md).
+To get this attribute, call [**IMFAttributes::GetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getunknown?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUnknown**](imfattributes-setunknown.md).
+To set this attribute, call [**IMFAttributes::SetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setunknown?branch=master).
 
 ## Applies to
 
-[**IMFActivate**](imfactivate.md)
+[**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master)
 
 ## Remarks
 
-This attribute can be set on the activation object returned by the [**MFCreateTransformActivate**](mfcreatetransformactivate.md) function. The attribute applies only when the activation object is configured to create an encoder. The value of the attribute is a pointer to an attribute store, which itself contains properties to set on the encoder.
+This attribute can be set on the activation object returned by the [**MFCreateTransformActivate**](/windows/win32/mftransform/nf-mftransform-mfcreatetransformactivate?branch=master) function. The attribute applies only when the activation object is configured to create an encoder. The value of the attribute is a pointer to an attribute store, which itself contains properties to set on the encoder.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -47,7 +52,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**MFCreateTransformActivate**](mfcreatetransformactivate.md)
+[**MFCreateTransformActivate**](/windows/win32/mftransform/nf-mftransform-mfcreatetransformactivate?branch=master)
 </dt> <dt>
 
 [Transform Attributes](transform-attributes.md)

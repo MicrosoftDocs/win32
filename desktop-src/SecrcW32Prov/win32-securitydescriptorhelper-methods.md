@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_SecurityDescriptorHelper class exposes the following methods.'
+Description: The Win32\_SecurityDescriptorHelper class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'D78097D2-1A47-4F65-938B-BA192121C3DF'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: D78097D2-1A47-4F65-938B-BA192121C3DF
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SecurityDescriptorHelper Methods'
+title: Win32\_SecurityDescriptorHelper Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SecurityDescriptorHelper Methods

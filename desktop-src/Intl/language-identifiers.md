@@ -1,14 +1,19 @@
 ---
-Description: 'A language identifier is a standard international numeric abbreviation for the language in a country or geographical region.'
-ms.assetid: '076e2a43-256a-4646-a5c8-1d48ab08ce1a'
+Description: A language identifier is a standard international numeric abbreviation for the language in a country or geographical region.
+ms.assetid: 076e2a43-256a-4646-a5c8-1d48ab08ce1a
 title: Language Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Language Identifiers
 
 A language identifier is a standard international numeric abbreviation for the [language](locales-and-languages.md) in a country or geographical region. Each language has a unique language identifier (data type LANGID), a 16-bit value that consists of a primary language identifier and a sublanguage identifier. For details of language identifiers, see [Language Identifier Constants and Strings](language-identifier-constants-and-strings.md).
 
-A language identifier is constructed using the [**MAKELANGID**](makelangid.md) macro. The following illustration shows the format of the bits in a language identifier.
+A language identifier is constructed using the [**MAKELANGID**](/windows/win32/Winnt/nf-winnt-makelangid?branch=master) macro. The following illustration shows the format of the bits in a language identifier.
 
 ``` syntax
 +-------------------------+-------------------------+
@@ -37,7 +42,7 @@ Your application can retrieve the current language identifiers by using the [Mul
 [Multilingual User Interface](multilingual-user-interface.md)
 </dt> <dt>
 
-[**MAKELANGID**](makelangid.md)
+[**MAKELANGID**](/windows/win32/Winnt/nf-winnt-makelangid?branch=master)
 </dt> </dl>
 
  

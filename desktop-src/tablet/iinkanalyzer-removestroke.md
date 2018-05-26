@@ -1,7 +1,12 @@
 ---
-Description: 'Removes the specified stroke from the IInkAnalyzer.'
-ms.assetid: 'e182ae35-854e-401d-8e26-aee645c05430'
-title: 'IInkAnalyzer::RemoveStroke method'
+Description: Removes the specified stroke from the IInkAnalyzer.
+ms.assetid: e182ae35-854e-401d-8e26-aee645c05430
+title: IInkAnalyzerRemoveStroke method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::RemoveStroke method
@@ -13,7 +18,7 @@ Removes the specified stroke from the [**IInkAnalyzer**](iinkanalyzer.md).
 
 ```C++
 HRESULT RemoveStroke(
-  [in] LONG *plStrokeId
+  [in] LONG *plStrokeId
 );
 ```
 
@@ -50,7 +55,7 @@ If *plStrokeId* does not identify a stroke associated with the [**IInkAnalyzer**
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -85,9 +90,9 @@ If *plStrokeId* does not identify a stroke associated with the [**IInkAnalyzer**
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

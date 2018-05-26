@@ -1,7 +1,12 @@
-﻿---
-Description: 'Unlocks a vertex buffer.'
-ms.assetid: '31f9529c-f5ec-41f8-bd3a-a4484f95caf7'
-title: 'ID3DXBaseMesh::UnlockVertexBuffer method'
+---
+Description: Unlocks a vertex buffer.
+ms.assetid: 31f9529c-f5ec-41f8-bd3a-a4484f95caf7
+title: ID3DXBaseMeshUnlockVertexBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseMesh::UnlockVertexBuffer method

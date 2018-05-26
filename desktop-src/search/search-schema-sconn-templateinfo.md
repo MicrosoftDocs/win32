@@ -1,7 +1,12 @@
 ---
-Description: 'This optional &lt;templateInfo&gt; element specifies a folder type for displaying the results from a query over this search connector. This element has no attributes and only one mandatory child.'
-ms.assetid: 'fe42f589-5c47-4629-94eb-78dbaffa4112'
-title: 'templateInfo Element (Search Connector Schema)'
+Description: This optional &lt;templateInfo&gt; element specifies a folder type for displaying the results from a query over this search connector. This element has no attributes and only one mandatory child.
+ms.assetid: fe42f589-5c47-4629-94eb-78dbaffa4112
+title: templateInfo Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # templateInfo Element (Search Connector Schema)

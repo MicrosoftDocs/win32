@@ -1,7 +1,12 @@
 ---
 title: Tape I/O Control Codes
 description: Tape I/O Control Codes
-ms.assetid: '452bcdcb-9884-45d9-9887-f349f1e89b95'
+ms.assetid: 452bcdcb-9884-45d9-9887-f349f1e89b95
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tape I/O Control Codes

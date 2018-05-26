@@ -1,7 +1,12 @@
 ---
-Description: 'The NotifyEndDraw method is not supported.'
-ms.assetid: 'a71d0686-fee8-4adf-8a3b-da3854710ffd'
-title: 'CDrawImage.NotifyEndDraw method'
+Description: The NotifyEndDraw method is not supported.
+ms.assetid: a71d0686-fee8-4adf-8a3b-da3854710ffd
+title: CDrawImage.NotifyEndDraw method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.NotifyEndDraw method
@@ -47,9 +52,9 @@ In earlier versions of the base-class library, this method supported performance
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

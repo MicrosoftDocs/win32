@@ -1,7 +1,12 @@
 ---
-Description: 'The suggested action sequences for a basic InstalUISequence table in a Windows Installer database.'
-ms.assetid: 'f1ddad1e-c075-4054-aa24-f1acdc72da96'
+Description: The suggested action sequences for a basic InstalUISequence table in a Windows Installer database.
+ms.assetid: f1ddad1e-c075-4054-aa24-f1acdc72da96
 title: Suggested InstallUISequence
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Suggested InstallUISequence

@@ -1,8 +1,9 @@
 ---
 title: glTexParameteri function
 description: Sets texture parameters.
-ms.assetid: '67705f63-7f86-47c1-81f7-deecc0cd2e16'
-keywords: ["glTexParameteri function OpenGL"]
+ms.assetid: 67705f63-7f86-47c1-81f7-deecc0cd2e16
+keywords:
+- glTexParameteri function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glTexParameteri function
@@ -22,9 +28,9 @@ Sets texture parameters.
 
 ```C++
 void WINAPI glTexParameteri(
-   GLenum target,
-   GLenum pname,
-   GLint  param
+   GLenum target,
+   GLenum pname,
+   GLint  param
 );
 ```
 
@@ -57,7 +63,7 @@ The symbolic name of a single valued texture parameter. The following symbols ar
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -116,8 +122,8 @@ Suppose that texturing is enabled (by calling [**glEnable**](glenable.md) with a
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -182,9 +188,9 @@ Suppose that texturing is enabled (by calling [**glEnable**](glenable.md) with a
 [**glTexSubImage2D**](gltexsubimage2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

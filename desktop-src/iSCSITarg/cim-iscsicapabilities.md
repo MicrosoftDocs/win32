@@ -4,13 +4,15 @@ description: The capabilites for an iSCSI Network Entity.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '51e26ebd-7fb9-48cd-a538-a2cfd30a0532'
-ms.prod: 'windows-server-dev'
+ms.assetid: 51e26ebd-7fb9-48cd-a538-a2cfd30a0532
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_iSCSICapabilities class iSCSI Software Target API", "CIM_iSCSICapabilities class iSCSI Software Target API , described"]
+keywords:
+- CIM_iSCSICapabilities class iSCSI Software Target API
+- CIM_iSCSICapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_iSCSICapabilities class
@@ -44,8 +49,8 @@ class CIM_iSCSICapabilities : CIM_Capabilities
   string Description;
   string InstanceID;
   string ElementName;
-  uint8  MinimumSpecificationVersionSupported;
-  uint8  MaximumSpecificationVersionSupported;
+  uint8  MinimumSpecificationVersionSupported;
+  uint8  MaximumSpecificationVersionSupported;
   uint16 AuthenticationMethodsSupported[];
 };
 ```
@@ -216,7 +221,7 @@ The minimum version number of the iSCSI specification such that this iSCSI insta
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -230,9 +235,9 @@ The minimum version number of the iSCSI specification such that this iSCSI insta
 [**CIM\_Capabilities**](cim-capabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

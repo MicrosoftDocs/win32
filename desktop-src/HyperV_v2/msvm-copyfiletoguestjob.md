@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a guest file service operation job.'
-ms.assetid: '817AF83B-B601-4AE4-AB5B-CFEACB9A7F41'
-title: 'Msvm\_CopyFileToGuestJob class'
+Description: Represents a guest file service operation job.
+ms.assetid: 817AF83B-B601-4AE4-AB5B-CFEACB9A7F41
+title: Msvm\_CopyFileToGuestJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_CopyFileToGuestJob class
@@ -16,20 +21,20 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_CopyFileToGuestJob : CIM_ConcreteJob
 {
-  string   Caption;
-  string   CreationClassName;
-  string   Description;
+  string   Caption;
+  string   CreationClassName;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  boolean  Started;
-  string   StartMode;
-  string   Status;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CopyFileToGuestSettingData[];
-  boolean  Cancellable;
-  string   ErrorSummaryDescription;
-  string   VirtualSystemName;
+  string   Name;
+  boolean  Started;
+  string   StartMode;
+  string   Status;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CopyFileToGuestSettingData[];
+  boolean  Cancellable;
+  string   ErrorSummaryDescription;
+  string   VirtualSystemName;
 };
 ```
 
@@ -57,7 +62,7 @@ The **Msvm\_CopyFileToGuestJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -306,8 +311,8 @@ GUID of the affected virtual system.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -327,9 +332,9 @@ GUID of the affected virtual system.
 [**Msvm\_GuestService**](msvm-guestservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

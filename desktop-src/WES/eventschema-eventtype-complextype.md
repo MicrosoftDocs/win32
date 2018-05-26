@@ -1,14 +1,20 @@
 ---
 title: EventType Complex Type
 description: Defines the root node of the Event schema.
-ms.assetid: '1ff9299b-71ee-4bb3-8a9a-fb9880dbf577'
-keywords: ["EventType complex type EventLog"]
+ms.assetid: 1ff9299b-71ee-4bb3-8a9a-fb9880dbf577
+keywords:
+- EventType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - EventType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventType Complex Type
@@ -87,14 +93,14 @@ Typically, this section will contain with the **EventData** or **UserData** sect
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

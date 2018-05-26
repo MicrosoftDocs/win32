@@ -1,14 +1,20 @@
 ---
 title: Media Object
 description: The Media object provides a way to specify or retrieve properties of a media item, using the following properties and methods.
-ms.assetid: '45c1c760-808b-4d11-8e6b-057a2ca685d0'
-keywords: ["Media Object Windows Media Player"]
+ms.assetid: 45c1c760-808b-4d11-8e6b-057a2ca685d0
+keywords:
+- Media Object Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Media Object
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Object

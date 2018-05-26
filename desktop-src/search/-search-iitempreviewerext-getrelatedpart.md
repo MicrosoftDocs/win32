@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a related body part for embedding into the output MHTML stream.'
-ms.assetid: '7810568b-5fb7-4814-aa9f-d7ae805c97e1'
-title: 'IItemPreviewerExt::GetRelatedPart method'
+---
+Description: Gets a related body part for embedding into the output MHTML stream.
+ms.assetid: 7810568b-5fb7-4814-aa9f-d7ae805c97e1
+title: IItemPreviewerExtGetRelatedPart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IItemPreviewerExt::GetRelatedPart method

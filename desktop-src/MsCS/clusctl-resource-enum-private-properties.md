@@ -4,11 +4,12 @@ description: Retrieves a list of the read/write private and read-only resource p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd9fd9cbd-33ab-4473-95d8-ce1120cb0fa3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d9fd9cbd-33ab-4473-95d8-ce1120cb0fa3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_ENUM_PRIVATE_PROPERTIES control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_ENUM_PRIVATE_PROPERTIES control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_ENUM\_PRIVATE\_PROPERTIES control code
 
-Retrieves a list of the read/write [private](private-properties.md) and read-only [resource](resources.md) properties. Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](clusterresourcecontrol.md) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a [**ResourceControl**](resourcecontrol.md) parameter.
+Retrieves a list of the read/write [private](private-properties.md) and read-only [resource](resources.md) properties. Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) parameter.
 
 
 ```C++
@@ -40,7 +44,7 @@ ClusterResourceControl(
 
 ## Parameters
 
-The following control code function and DLL support parameter is specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](clusterresourcecontrol.md) or [**ResourceControl**](resourcecontrol.md).
+The following control code function and DLL support parameter is specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) or [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master).
 
 <dl> <dt>
 
@@ -53,7 +57,7 @@ On a successful return, contains an array of null-terminated Unicode strings wit
 
 ## Return value
 
-[**ClusterResourceControl**](clusterresourcecontrol.md) returns one of the following values.
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -82,7 +86,7 @@ If any other value is returned, then the operation failed. The value of *lpcbByt
 
 </dd> </dl>
 
-Implementations of [**ResourceControl**](resourcecontrol.md) can return the above values or the following value.
+Implementations of [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) can return the above values or the following value.
 
 <dl> <dt>
 
@@ -109,17 +113,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_ENUM\_PRIVATE\_PROPERTIES as
 
 | Component      | Bit location | Value                                       |
 |----------------|--------------|---------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_RESOURCE** (0x1)            |
+| Object code    | 24 31        | **CLUS\_OBJECT\_RESOURCE** (0x1)            |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)                 |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)                  |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)              |
 | Type bit       | 20           | External (0x0)                              |
-| Operation code | 0–23         | **CLCTL\_ENUM\_PRIVATE\_PROPERTIES** (0x79) |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)                |
+| Operation code | 0 23         | **CLCTL\_ENUM\_PRIVATE\_PROPERTIES** (0x79) |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)                |
 
 
 
- 
+ 
 
 ### Resource DLL Support
 
@@ -127,7 +131,7 @@ Required. Always support the CLUSCTL\_RESOURCE\_ENUM\_PRIVATE\_PROPERTIES contro
 
 As a general guideline, the Resource Monitor should handle all of the control codes for [common properties](common-properties.md), while your DLL should handle all control codes for [private properties](private-properties.md).
 
-For more information on the [**ResourceControl**](resourcecontrol.md) entry point, see [Implementing ResourceControl](implementing-resourcecontrol.md).
+For more information on the [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) entry point, see [Implementing ResourceControl](implementing-resourcecontrol.md).
 
 ## Requirements
 
@@ -136,7 +140,7 @@ For more information on the [**ResourceControl**](resourcecontrol.md) entry poin
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -154,15 +158,15 @@ For more information on the [**ResourceControl**](resourcecontrol.md) entry poin
 [CLUSCTL\_RESOURCE\_GET\_RO\_COMMON\_PROPERTIES](clusctl-resource-get-ro-common-properties.md)
 </dt> <dt>
 
-[**ClusterResourceControl**](clusterresourcecontrol.md)
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master)
 </dt> <dt>
 
-[**ResourceControl**](resourcecontrol.md)
+[**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

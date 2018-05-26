@@ -1,8 +1,16 @@
 ---
 title: MulticastUdpClientExample6
 description: This example shows a UDP client that multicasts a request and then waits for reply messages from servers, using IPv6.
-ms.assetid: 'bd19bd5f-0617-4524-aa48-3d0c28c97747'
-keywords: ["MulticastUdpClientExample6 Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: bd19bd5f-0617-4524-aa48-3d0c28c97747
+keywords:
+- MulticastUdpClientExample6 Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MulticastUdpClientExample6

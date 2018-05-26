@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.docked property
 description: Gets the dock state of the gadget in relation to the Windows Sidebar.
-ms.assetid: 'a7e7c720-1f16-49a3-a4df-2c30e3ff7916'
-keywords: ["docked property Windows Sidebar", "docked property Windows Sidebar , System.Gadget object", "System.Gadget object Windows Sidebar , docked property"]
+ms.assetid: a7e7c720-1f16-49a3-a4df-2c30e3ff7916
+keywords:
+- docked property Windows Sidebar
+- docked property Windows Sidebar , System.Gadget object
+- System.Gadget object Windows Sidebar , docked property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.docked property
@@ -126,10 +134,10 @@ function CheckDockState()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -142,9 +150,9 @@ function CheckDockState()
 [**System.Gadget**](system-gadget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

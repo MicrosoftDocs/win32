@@ -1,7 +1,12 @@
 ---
-Description: 'Replacement of protected resources is supported through the following mechanisms.'
-ms.assetid: 'a757e6cf-59df-4894-a0dc-40174b0aa147'
+Description: Replacement of protected resources is supported through the following mechanisms.
+ms.assetid: a757e6cf-59df-4894-a0dc-40174b0aa147
 title: Supported Resource Replacement Mechanisms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supported Resource Replacement Mechanisms

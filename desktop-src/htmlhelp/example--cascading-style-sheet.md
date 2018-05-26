@@ -1,7 +1,12 @@
 ---
 title: Example Cascading Style Sheet
 description: Example Cascading Style Sheet
-ms.assetid: '7CEBF45C-2262-405c-A65F-48651D51099B'
+ms.assetid: 7CEBF45C-2262-405c-A65F-48651D51099B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Cascading Style Sheet

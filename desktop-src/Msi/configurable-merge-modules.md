@@ -1,7 +1,12 @@
 ---
-Description: 'Merge modules (.msm files) may be authored to contain attributes that are configurable by the consumer of the merge module.'
-ms.assetid: '461436f0-3a91-4a49-934a-f975bf13df40'
+Description: Merge modules (.msm files) may be authored to contain attributes that are configurable by the consumer of the merge module.
+ms.assetid: 461436f0-3a91-4a49-934a-f975bf13df40
 title: Configurable Merge Modules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configurable Merge Modules

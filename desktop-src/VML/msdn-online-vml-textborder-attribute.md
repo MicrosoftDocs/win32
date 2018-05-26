@@ -1,7 +1,12 @@
 ---
 title: VML TextBorder Attribute
 description: VML TextBorder Attribute
-ms.assetid: '48cd0dce-9e7a-4d76-a655-b6022ed00f3b'
+ms.assetid: 48cd0dce-9e7a-4d76-a655-b6022ed00f3b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML TextBorder Attribute

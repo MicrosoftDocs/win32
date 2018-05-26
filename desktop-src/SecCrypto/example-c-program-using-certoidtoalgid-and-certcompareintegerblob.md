@@ -1,16 +1,21 @@
 ---
-Description: 'The following example demonstrates using the CertOIDToAlgId and CertCompareIntegerBlob functions.'
-ms.assetid: '89186d98-80a9-460a-be2b-3e328675c485'
-title: 'Example C Program: Using CertOIDToAlgId and CertCompareIntegerBlob'
+Description: The following example demonstrates using the CertOIDToAlgId and CertCompareIntegerBlob functions.
+ms.assetid: 89186d98-80a9-460a-be2b-3e328675c485
+title: Example C Program Using CertOIDToAlgId and CertCompareIntegerBlob
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Using CertOIDToAlgId and CertCompareIntegerBlob
 
-The following example demonstrates using the [**CertOIDToAlgId**](certoidtoalgid.md) and [**CertCompareIntegerBlob**](certcompareintegerblob.md) functions.
+The following example demonstrates using the [**CertOIDToAlgId**](/windows/win32/Wincrypt/nf-wincrypt-certoidtoalgid?branch=master) and [**CertCompareIntegerBlob**](/windows/win32/Wincrypt/nf-wincrypt-certcompareintegerblob?branch=master) functions.
 
-First, all available OIDs are enumerated using [**CryptEnumOIDInfo**](cryptenumoidinfo.md). Code used with this function also demonstrates the use of a callback function. The callback function demonstrates break logic to pause between each OID group and after presenting information on a set number of OIDs.
+First, all available OIDs are enumerated using [**CryptEnumOIDInfo**](/windows/win32/Wincrypt/nf-wincrypt-cryptenumoidinfo?branch=master). Code used with this function also demonstrates the use of a callback function. The callback function demonstrates break logic to pause between each OID group and after presenting information on a set number of OIDs.
 
-Second, three [*object identifier*](security.o_gly#-security-oid-gly) (OID) strings are converted into **DWORD** algorithm identifier integers using [**CertOIDToAlgId**](certoidtoalgid.md). The code also demonstrates that all OID strings do not have related algorithm identifiers.
+Second, three [*object identifier*](security.o_gly#-security-oid-gly) (OID) strings are converted into **DWORD** algorithm identifier integers using [**CertOIDToAlgId**](/windows/win32/Wincrypt/nf-wincrypt-certoidtoalgid?branch=master). The code also demonstrates that all OID strings do not have related algorithm identifiers.
 
 Finally, the example demonstrates comparing integer BLOBs. This example demonstrates the truncation of leading 0x00's from positive numbers and leading 0xFF's from negative numbers.
 

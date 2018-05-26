@@ -4,17 +4,22 @@ description: This attribute contains the DN of a user or OU and is the identity 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '00e6e2bd-aec8-426f-b89e-0661c15cfd46'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 00e6e2bd-aec8-426f-b89e-0661c15cfd46
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ACS-Identity-Name attribute AD Schema", "aCSIdentityName attribute AD Schema"]
+keywords:
+- ACS-Identity-Name attribute AD Schema
+- aCSIdentityName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ACS-Identity-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ACS-Identity-Name attribute
@@ -38,12 +43,12 @@ This attribute contains the DN of a user or OU and is the identity of a user or 
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ This attribute contains the DN of a user or OU and is the identity of a user or 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

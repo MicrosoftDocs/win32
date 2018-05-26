@@ -1,7 +1,12 @@
 ---
 title: texldl - vs
 description: Sample a texture with a particular sampler. The particular mipmap level-of-detail being sampled has to be specified as the fourth component of the texture coordinate.
-ms.assetid: '774c058d-7b3e-46a9-adce-c9a44efefd78'
+ms.assetid: 774c058d-7b3e-46a9-adce-c9a44efefd78
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # texldl - vs

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetPreviewMode method sets the preview mode for the group.'
-ms.assetid: '40b7e9ac-30b3-454e-82ac-10ac99f1b86f'
-title: 'IAMTimelineGroup::SetPreviewMode method'
+---
+Description: The SetPreviewMode method sets the preview mode for the group.
+ms.assetid: 40b7e9ac-30b3-454e-82ac-10ac99f1b86f
+title: IAMTimelineGroupSetPreviewMode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::SetPreviewMode method

@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMUpdateExternalFonts function
-ms.assetid: '04b0a34f-0aec-4f42-8a2e-a29168a699e3'
+ms.assetid: 04b0a34f-0aec-4f42-8a2e-a29168a699e3
 title: OEMUpdateExternalFonts function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMUpdateExternalFonts function

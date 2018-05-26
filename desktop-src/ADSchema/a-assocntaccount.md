@@ -4,17 +4,22 @@ description: The Windows NT account that applies to this object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '58aa877d-a627-48e9-8137-9dc7cd9b8ada'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 58aa877d-a627-48e9-8137-9dc7cd9b8ada
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Assoc-NT-Account attribute AD Schema", "assocNTAccount attribute AD Schema"]
+keywords:
+- Assoc-NT-Account attribute AD Schema
+- assocNTAccount attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Assoc-NT-Account
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Assoc-NT-Account attribute

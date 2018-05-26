@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer can determine when a reboot of the system is necessary and automatically prompt the user to reboot at the end of the installation.'
-ms.assetid: '10117d2c-c2c8-456f-9fce-a89c2d69d3c1'
+Description: The Windows Installer can determine when a reboot of the system is necessary and automatically prompt the user to reboot at the end of the installation.
+ms.assetid: 10117d2c-c2c8-456f-9fce-a89c2d69d3c1
 title: System Reboots
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Reboots
@@ -39,7 +44,7 @@ ERROR\_INSTALL\_SUSPEND means the installation did not complete or rollback. The
 
 The Windows Installer returns the error code ERROR\_INSTALL\_SUSPEND when the [ForceReboot action](forcereboot-action.md) is run. It returns ERROR\_SUCCESS\_REBOOT\_REQUIRED if a reboot is required before running the application, and it returns ERROR\_SUCCESS\_REBOOT\_INITIATED if the installer has actually started a reboot. Note that because reboots are asynchronous, the reboot may actually occur before the error code is returned. For more information, see [Error Codes](error-codes.md).
 
-Custom actions can force a prompt for reboot at the end of an installation by calling [**MsiSetMode**](msisetmode.md). Custom actions can also check for a pending reboot prompt by calling [**MsiGetMode**](msigetmode.md).
+Custom actions can force a prompt for reboot at the end of an installation by calling [**MsiSetMode**](/windows/win32/Msiquery/nf-msiquery-msisetmode?branch=master). Custom actions can also check for a pending reboot prompt by calling [**MsiGetMode**](/windows/win32/Msiquery/nf-msiquery-msigetmode?branch=master).
 
 ## FilesInUse Dialog
 

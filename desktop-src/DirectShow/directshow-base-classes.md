@@ -1,7 +1,12 @@
 ---
 Description: DirectShow Base Classes
-ms.assetid: '0e1b828f-1cdb-4199-bc42-5ad41af56222'
+ms.assetid: 0e1b828f-1cdb-4199-bc42-5ad41af56222
 title: DirectShow Base Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectShow Base Classes

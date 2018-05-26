@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SETRESULT\_INFO structure is used as an input parameter to an application''s PFNPROPSHEETUI-typed callback function.'
-ms.assetid: '54701f88-1145-4a50-bf5a-36be1d88355d'
-title: 'SETRESULT\_INFO structure'
+---
+Description: The SETRESULT\_INFO structure is used as an input parameter to an applications PFNPROPSHEETUI-typed callback function.
+ms.assetid: 54701f88-1145-4a50-bf5a-36be1d88355d
+title: SETRESULT\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SETRESULT\_INFO structure

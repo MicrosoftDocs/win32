@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a well-formed URL that points to the item.'
-ms.assetid: 'd592f12b-f8c2-406f-a031-eeb8212e64f7'
-title: 'System.ItemUrl'
+Description: Represents a well-formed URL that points to the item.
+ms.assetid: d592f12b-f8c2-406f-a031-eeb8212e64f7
+title: System.ItemUrl
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ItemUrl

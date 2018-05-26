@@ -1,8 +1,9 @@
 ---
 title: TBM\_SETSEL message
 description: Sets the starting and ending positions for the available selection range in a trackbar.
-ms.assetid: '71f5b9f8-4850-44a8-8acf-adca9bda84c3'
-keywords: ["TBM_SETSEL message Windows Controls"]
+ms.assetid: 71f5b9f8-4850-44a8-8acf-adca9bda84c3
+keywords:
+- TBM_SETSEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_SETSEL message
@@ -51,8 +57,8 @@ This message is ignored if the trackbar does not have the [**TBS\_ENABLESELRANGE
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ This message is ignored if the trackbar does not have the [**TBS\_ENABLESELRANGE
 [**TBM\_SETSELSTART**](tbm-setselstart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

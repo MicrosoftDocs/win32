@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections present an example of authoring an upgrade package for the application described in An Installation Example.'
-ms.assetid: '233302ea-abc3-4879-b868-425f2b10e02e'
+Description: The following sections present an example of authoring an upgrade package for the application described in An Installation Example.
+ms.assetid: 233302ea-abc3-4879-b868-425f2b10e02e
 title: An Upgrade Example
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # An Upgrade Example

@@ -1,8 +1,11 @@
 ---
 title: Subject SetClassDisplay method
 description: Sets the class display name of the Subject.
-ms.assetid: '474BD256-99A9-4E09-BBB0-5F0A0D3E40F3'
-keywords: ["SetClassDisplay method Access Execution Engine", "SetClassDisplay method Access Execution Engine , Subject interface", "Subject interface Access Execution Engine , SetClassDisplay method"]
+ms.assetid: 474BD256-99A9-4E09-BBB0-5F0A0D3E40F3
+keywords:
+- SetClassDisplay method Access Execution Engine
+- SetClassDisplay method Access Execution Engine , Subject interface
+- Subject interface Access Execution Engine , SetClassDisplay method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subject::SetClassDisplay method
@@ -22,7 +30,7 @@ Sets the class display name of the **Subject**.
 
 ```C++
 virtual HRESULT SetClassDisplay(
-  [in] LPCWSTR name
+  [in] LPCWSTR name
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The class display name is the value of element **Subject/Class/DisplayName**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The class display name is the value of element **Subject/Class/DisplayName**.
 [**Subject**](subject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

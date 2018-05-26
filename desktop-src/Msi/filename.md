@@ -1,7 +1,12 @@
 ---
-Description: 'The Filename data type is a text string containing a file name or folder.'
-ms.assetid: 'af59e1b8-0699-4031-895f-415752611e21'
+Description: The Filename data type is a text string containing a file name or folder.
+ms.assetid: af59e1b8-0699-4031-895f-415752611e21
 title: Filename
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filename

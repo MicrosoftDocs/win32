@@ -1,7 +1,12 @@
 ---
 Description: Reliability and Security
-ms.assetid: '1cbfabce-3d56-4e23-b9a7-02369c67e392'
+ms.assetid: 1cbfabce-3d56-4e23-b9a7-02369c67e392
 title: Reliability and Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reliability and Security

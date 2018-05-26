@@ -1,7 +1,12 @@
 ---
 title: To specify a title for a window from the command line
 description: To specify a title for a window from the command line
-ms.assetid: 'E1F64804-9049-4072-8F98-D42D112A6491'
+ms.assetid: E1F64804-9049-4072-8F98-D42D112A6491
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To specify a title for a window from the command line

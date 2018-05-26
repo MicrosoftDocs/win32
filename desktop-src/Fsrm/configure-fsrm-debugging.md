@@ -4,10 +4,13 @@ description: This PowerShell script, FSRMDebug.ps1, can be used to configure FSR
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '912c55b6-746b-4af8-85c8-d28163d38f8d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 912c55b6-746b-4af8-85c8-d28163d38f8d
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Configure FSRM Debugging

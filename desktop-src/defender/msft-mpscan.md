@@ -1,8 +1,15 @@
 ---
 title: MSFT\_MpScan class
 description: The Windows Defender Scan Class.
-ms.assetid: 'c4cc235a-540f-466f-b368-fe08d86d3d76'
-keywords: ["MSFT_MpScan class", "MSFT_MpScan class, described"]
+ms.assetid: c4cc235a-540f-466f-b368-fe08d86d3d76
+keywords:
+- MSFT_MpScan class
+- MSFT_MpScan class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_MpScan class
@@ -37,7 +44,7 @@ The **MSFT\_MpScan** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,17 +52,17 @@ The **MSFT\_MpScan** class has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Defender<br/>                                                       |
 | MOF<br/>                      | <dl> <dt>ProtectionManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ProtectionManagement.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

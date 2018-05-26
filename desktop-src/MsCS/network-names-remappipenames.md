@@ -4,17 +4,22 @@ description: Controls how named pipes are opened on the network managed by the N
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ca201852-b55d-4ce6-ab3b-c533f0ca6889'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ca201852-b55d-4ce6-ab3b-c533f0ca6889
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RemapPipeNames Failover Cluster ,for network names", "RemapPipeNames Failover Cluster"]
+keywords:
+- RemapPipeNames Failover Cluster ,for network names
+- RemapPipeNames Failover Cluster
 topic_type:
 - apiref
 api_name:
 - RemapPipeNames
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemapPipeNames
@@ -28,14 +33,14 @@ Controls how named pipes are opened on the [network](networks.md) managed by the
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **FALSE**                                 |
 | Maximum   | **TRUE**                                  |
 | Default   | **FALSE**                                 |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,7 +70,7 @@ RemapPipeNameValue.dw              = RemapPipeNameData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -76,12 +81,12 @@ RemapPipeNameValue.dw              = RemapPipeNameData;
 [Cluster Name Private Properties](network-name-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IsPhysicalPresenceHardwareEnabled method of the Win32\_Tpm class indicates whether physical presence on the platform can be set with a hardware signal.'
-ms.assetid: '65dabfa9-bfbe-4b9b-8e80-02269895c7ad'
-title: 'IsPhysicalPresenceHardwareEnabled method of the Win32\_Tpm class'
+---
+Description: The IsPhysicalPresenceHardwareEnabled method of the Win32\_Tpm class indicates whether physical presence on the platform can be set with a hardware signal.
+ms.assetid: 65dabfa9-bfbe-4b9b-8e80-02269895c7ad
+title: IsPhysicalPresenceHardwareEnabled method of the Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsPhysicalPresenceHardwareEnabled method of the Win32\_Tpm class

@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents a cluster resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd0d07dd9-e3ea-4306-8736-3a2b3dbfaf1d'
-ms.prod: 'windows-server-dev'
+ms.assetid: d0d07dd9-e3ea-4306-8736-3a2b3dbfaf1d
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_Resource class", "MSCluster_Resource class, described"]
+keywords:
+- MSCluster_Resource class
+- MSCluster_Resource class, described
 topic_type:
 - apiref
 api_name:
@@ -62,6 +64,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_Resource class
@@ -76,49 +81,49 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{C2862F9C-34DE-4b16-9EE3-099D078E9F59}"), AMENDMENT]
 class MSCluster_Resource : MSCluster_LogicalElement
 {
-  string             Caption;
-  datetime           InstallDate;
-  string             Status;
-  uint32             Flags;
-  uint32             Characteristics;
-  string             Name;
-  string             Id;
-  string             Description;
-  uint32             IsAlivePollInterval;
-  uint32             LooksAlivePollInterval;
-  uint32             PendingTimeout;
-  uint32             MonitorProcessId;
-  boolean            PersistentState;
-  uint32             RestartAction;
-  uint32             RestartPeriod;
-  uint32             RestartThreshold;
-  uint32             EmbeddedFailureAction;
-  uint32             RetryPeriodOnFailure;
-  boolean            SeparateMonitor;
-  string             Type;
-  uint32             State;
-  string             InternalState;
-  uint32             ResourceClass;
-  uint32             Subclass;
+  string             Caption;
+  datetime           InstallDate;
+  string             Status;
+  uint32             Flags;
+  uint32             Characteristics;
+  string             Name;
+  string             Id;
+  string             Description;
+  uint32             IsAlivePollInterval;
+  uint32             LooksAlivePollInterval;
+  uint32             PendingTimeout;
+  uint32             MonitorProcessId;
+  boolean            PersistentState;
+  uint32             RestartAction;
+  uint32             RestartPeriod;
+  uint32             RestartThreshold;
+  uint32             EmbeddedFailureAction;
+  uint32             RetryPeriodOnFailure;
+  boolean            SeparateMonitor;
+  string             Type;
+  uint32             State;
+  string             InternalState;
+  uint32             ResourceClass;
+  uint32             Subclass;
   MSCluster_Property PrivateProperties;
-  string             CryptoCheckpoints[];
-  string             RegistryCheckpoints[];
-  boolean            QuorumCapable;
-  boolean            LocalQuorumCapable;
-  boolean            DeleteRequiresAllNodes;
-  boolean            CoreResource;
-  uint32             DeadlockTimeout;
-  uint64             StatusInformation;
-  uint64             LastOperationStatusCode;
-  uint64             ResourceSpecificData1;
-  uint64             ResourceSpecificData2;
-  string             ResourceSpecificStatus;
-  uint32             RestartDelay;
-  boolean            IsClusterSharedVolume;
-  string             RequiredDependencyTypes[];
-  uint32             RequiredDependencyClasses[];
-  string             OwnerGroup;
-  string             OwnerNode;
+  string             CryptoCheckpoints[];
+  string             RegistryCheckpoints[];
+  boolean            QuorumCapable;
+  boolean            LocalQuorumCapable;
+  boolean            DeleteRequiresAllNodes;
+  boolean            CoreResource;
+  uint32             DeadlockTimeout;
+  uint64             StatusInformation;
+  uint64             LastOperationStatusCode;
+  uint64             ResourceSpecificData1;
+  uint64             ResourceSpecificData2;
+  string             ResourceSpecificStatus;
+  uint32             RestartDelay;
+  boolean            IsClusterSharedVolume;
+  string             RequiredDependencyTypes[];
+  uint32             RequiredDependencyClasses[];
+  string             OwnerGroup;
+  string             OwnerNode;
 };
 ```
 
@@ -141,15 +146,15 @@ The **MSCluster\_Resource** class has these methods.
 | [**AddDependency**](mscluster-resource-adddependency.md)                       | Creates a dependency relationship between two resources.<br/>                                                                                                                                                     |
 | [**AddPossibleOwner**](mscluster-resource-addpossibleowner.md)                 | Adds a possible owner (host) node to the list of possible owners for this resource.<br/>                                                                                                                          |
 | [**AddRegistryCheckpoint**](mscluster-resource-addregistrycheckpoint.md)       | Adds a registry checkpoint to the resource.<br/>                                                                                                                                                                  |
-| [**AttachStorageDevice**](mscluster-resource-attachstoragedevice.md)           | Attaches the underlying storage of a resource to another device.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>         |
+| [**AttachStorageDevice**](mscluster-resource-attachstoragedevice.md)           | Attaches the underlying storage of a resource to another device.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>         |
 | [**BringOnline**](mscluster-resource-bringonline.md)                           | Brings a resource online.<br/>                                                                                                                                                                                    |
 | [**CreateResource**](mscluster-resource-createresource.md)                     | Creates a resource.<br/>                                                                                                                                                                                          |
 | [**DeleteResource**](mscluster-resource-deleteresource.md)                     | Deletes a resource.<br/>                                                                                                                                                                                          |
 | [**ExecuteResourceControl**](mscluster-resource-executeresourcecontrol.md)     | Executes a control code on the resource.<br/>                                                                                                                                                                     |
 | [**FailResource**](mscluster-resource-failresource.md)                         | Forces this resource to become unavailable to simulate failure. This method is used by applications to test their failover configurations.<br/>                                                                   |
 | [**GetDependencies**](mscluster-resource-getdependencies.md)                   | Gets the resource dependency expression.<br/>                                                                                                                                                                     |
-| [**GetPossibleOwners**](mscluster-resource-getpossibleowners.md)               | Gets the list of nodes which can be an owner, host, of this resource.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>    |
-| [**MigrateVirtualMachine**](mscluster-resource-migratevirtualmachine.md)       | Migrates the virtual machine settings.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>                                   |
+| [**GetPossibleOwners**](mscluster-resource-getpossibleowners.md)               | Gets the list of nodes which can be an owner, host, of this resource.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>    |
+| [**MigrateVirtualMachine**](mscluster-resource-migratevirtualmachine.md)       | Migrates the virtual machine settings.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>                                   |
 | [**MoveToNewGroup**](mscluster-resource-movetonewgroup.md)                     | Moves the resource to a different group.<br/>                                                                                                                                                                     |
 | [**ReleaseAddress**](mscluster-resource-releaseaddress.md)                     | Releases the IPv4 address DHCP lease. Valid only for IP address resources.<br/>                                                                                                                                   |
 | [**RemoveCryptoCheckpoint**](mscluster-resource-removecryptocheckpoint.md)     | Removes a crypto key from the list of keys being checkpointed for the [resource](https://msdn.microsoft.com/library/aa372152).<br/>                                                                                                            |
@@ -160,12 +165,12 @@ The **MSCluster\_Resource** class has these methods.
 | [**RenewAddress**](mscluster-resource-renewaddress.md)                         | Renews the IPv4 address DHCP lease. Valid only for IP address resources.<br/>                                                                                                                                     |
 | [**SetDependencies**](mscluster-resource-setdependencies.md)                   | Sets the resource dependency expression.<br/>                                                                                                                                                                     |
 | [**TakeOffline**](mscluster-resource-takeoffline.md)                           | Takes the resource offline.<br/>                                                                                                                                                                                  |
-| [**TakeOfflineParams**](mscluster-resource-takeofflineparams.md)               | Take the resource offline with the parameters specified as a raw buffer.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/> |
-| [**UpdateVirtualMachine**](mscluster-resource-updatevirtualmachine.md)         | Updates the configuration of a clustered virtual machine.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>                |
+| [**TakeOfflineParams**](mscluster-resource-takeofflineparams.md)               | Take the resource offline with the parameters specified as a raw buffer.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/> |
+| [**UpdateVirtualMachine**](mscluster-resource-updatevirtualmachine.md)         | Updates the configuration of a clustered virtual machine.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>                |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -202,9 +207,9 @@ Access type: Read-only
 
 Provides the characteristics of the object. The cluster defines characteristics only for [resources](https://msdn.microsoft.com/library/aa372152). For a description of these characteristics, see [CLUSCTL\_RESOURCE\_GET\_CHARACTERISTICS](https://msdn.microsoft.com/library/aa367466).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -289,9 +294,9 @@ Access type: Read/write
 
 The time, in milliseconds, that a resource should remain in a failed state before the Cluster service attempts to restart it.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -306,9 +311,9 @@ Access type: Read-only
 
 Provides access to the flags set for the object. The cluster defines flags only for resources. For a description of these flags, see [CLUSCTL\_RESOURCE\_GET\_FLAGS](https://msdn.microsoft.com/library/aa367471).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -325,9 +330,9 @@ Access type: Read-only
 
 The Id of the resource.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -360,7 +365,7 @@ Access type: Read-only
 
 This property is not supported.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
 The current internal state of the resource.
 
@@ -393,9 +398,9 @@ Access type: Read-only
 
 Specifies if the resource is a cluster shared volume resource.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This property is not supported before Windows Server 2008 R2.
+This property is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -410,9 +415,9 @@ Access type: Read-only
 
 The last application-specific error code returned by the Resource DLL during a cluster operation.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -456,9 +461,9 @@ Access type: Read-only
 
 Provides the process ID of the resource host service that is currently hosting the resource.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property was read-write prior to Windows Server 2016.
+This property was read-write prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -489,9 +494,9 @@ Access type: Read-only
 
 The resource group which the resource belongs to.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This method is not supported before Windows Server 2012.
+This method is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -506,9 +511,9 @@ Access type: Read-only
 
 The node hosting the resource.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This method is not supported before Windows Server 2012.
+This method is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -620,9 +625,9 @@ The possible values are.
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -637,9 +642,9 @@ Access type: Read-only
 
 The resource types which the resource must depend on.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -697,9 +702,9 @@ Access type: Read-only
 
 Resource-specific information.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -714,9 +719,9 @@ Access type: Read-only
 
 Resource-specific information.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -856,9 +861,9 @@ The current state of the resource. The following are the possible values. For a 
 
 The operation was not successful.
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **StateUnknown** before Windows Server 2012 R2 .
+This value is **StateUnknown** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -1049,9 +1054,9 @@ Access type: Read-only
 
 Status flags for the resource that are set by cluster service.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -1088,16 +1093,16 @@ Provides access to the resource's [**Type**](https://msdn.microsoft.com/library/
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

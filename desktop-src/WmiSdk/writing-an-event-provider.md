@@ -1,13 +1,16 @@
 ---
-Description: 'An event provider is a COM object that supplies WMI with notifications of intrinsic and extrinsic events.'
+Description: An event provider is a COM object that supplies WMI with notifications of intrinsic and extrinsic events.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '075bdc65-4ea3-4f91-9823-1d2d0dc13423'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 075bdc65-4ea3-4f91-9823-1d2d0dc13423
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Writing an Event Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Writing an Event Provider
@@ -22,24 +25,24 @@ The following procedure describes how to implement an event provider.
 
     Class providers register with WMI by creating a [**\_\_Win32Provider**](--win32provider.md) instance and an [**\_\_EventProviderRegistration**](--eventproviderregistration.md) class. For more information, see [Registering an Event Provider](registering-an-event-provider.md).
 
-2.  Implement the [**IWbemProviderInit**](iwbemproviderinit.md) interface for your provider.
+2.  Implement the [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) interface for your provider.
 
-    The [**IWbemProviderInit**](iwbemproviderinit.md) interface is a common interface WMI uses to load and initialize all providers. For more information, see [Initializing a Provider](initializing-a-provider.md).
+    The [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) interface is a common interface WMI uses to load and initialize all providers. For more information, see [Initializing a Provider](initializing-a-provider.md).
 
-3.  Implement the [**IWbemEventProvider**](iwbemeventprovider.md) as the primary interface for your provider.
+3.  Implement the [**IWbemEventProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbemeventprovider?branch=master) as the primary interface for your provider.
 
-    The [**IWbemEventProvider**](iwbemeventprovider.md) interface uses the **ProviderEvents** method to supply events to WMI. For more information, see [Implementing the Primary Interface for an Event Provider](implementing-the-primary-interface-for-an-event-provider.md).
+    The [**IWbemEventProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbemeventprovider?branch=master) interface uses the **ProviderEvents** method to supply events to WMI. For more information, see [Implementing the Primary Interface for an Event Provider](implementing-the-primary-interface-for-an-event-provider.md).
 
     > [!Note]  
     > Event providers must use the multithreading model "Both".
 
      
 
-4.  Optionally, you may also implement the [**IWbemEventProviderQuerySink**](iwbemeventproviderquerysink.md) interface to increase the performance of your event provider.
+4.  Optionally, you may also implement the [**IWbemEventProviderQuerySink**](/windows/win32/Wbemprov/nn-wbemprov-iwbemeventproviderquerysink?branch=master) interface to increase the performance of your event provider.
 
-    The [**IWbemEventProviderQuerySink**](iwbemeventproviderquerysink.md) interface allows the provider to optimize queries before sending a response to WMI, and is most useful for a provider that supplies events of multiple types and that needs to perform as many internal optimizations as possible. For more information, see [Optimizing an Event Provider](optimizing-an-event-provider.md).
+    The [**IWbemEventProviderQuerySink**](/windows/win32/Wbemprov/nn-wbemprov-iwbemeventproviderquerysink?branch=master) interface allows the provider to optimize queries before sending a response to WMI, and is most useful for a provider that supplies events of multiple types and that needs to perform as many internal optimizations as possible. For more information, see [Optimizing an Event Provider](optimizing-an-event-provider.md).
 
-5.  Implement the [**IWbemEventProviderSecurity**](iwbemeventprovidersecurity.md) interface to limit consumers to certain security identifiers (SIDs) or implement [**IWbemEventSink::SetSinkSecurity**](iwbemeventsink-setsinksecurity.md) to secure the sink itself. The provider can also set the **SECURITY\_DESCRIPTOR** property in the event class to secure individual events in the MOF code. For more information, see [Securing WMI Events](securing-wmi-events.md).
+5.  Implement the [**IWbemEventProviderSecurity**](/windows/win32/Wbemprov/nn-wbemprov-iwbemeventprovidersecurity?branch=master) interface to limit consumers to certain security identifiers (SIDs) or implement [**IWbemEventSink::SetSinkSecurity**](/windows/win32/Wbemprov/nf-wbemprov-iwbemeventsink-setsinksecurity?branch=master) to secure the sink itself. The provider can also set the **SECURITY\_DESCRIPTOR** property in the event class to secure individual events in the MOF code. For more information, see [Securing WMI Events](securing-wmi-events.md).
 6.  Add any additional code necessary for your provider.
 
     When designing your provider, you most likely need to call WMI interfaces. For more information, see [Calling a Method](calling-a-method.md).

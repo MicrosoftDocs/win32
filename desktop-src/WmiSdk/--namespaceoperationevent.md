@@ -1,13 +1,16 @@
 ---
-Description: 'A base class for all intrinsic events that relate to a namespace.'
+Description: A base class for all intrinsic events that relate to a namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '168637b1-217e-4b6d-bd07-25127b9e9f6c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 168637b1-217e-4b6d-bd07-25127b9e9f6c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_NamespaceOperationEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_NamespaceOperationEvent class
@@ -21,9 +24,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __NamespaceOperationEvent : __Event
 {
-  uint8       SECURITY_DESCRIPTOR[];
+  uint8       SECURITY_DESCRIPTOR[];
   __Namespace TargetNamespace;
-  uint64      TIME_CREATED;
+  uint64      TIME_CREATED;
 };
 ```
 
@@ -98,8 +101,8 @@ Instances of this class are not created. WMI creates instances of one of the fol
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -117,9 +120,9 @@ Instances of this class are not created. WMI creates instances of one of the fol
 [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

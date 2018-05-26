@@ -1,13 +1,16 @@
 ---
-Description: 'A concrete version of Job. This class represents a generic and instantiable unit of work, such as a batch or a print job.'
+Description: A concrete version of Job. This class represents a generic and instantiable unit of work, such as a batch or a print job.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '53c9d39b-67a9-409c-80bc-af745be77ce0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 53c9d39b-67a9-409c-80bc-af745be77ce0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ConcreteJob class'
+title: CIM\_ConcreteJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ConcreteJob class
@@ -22,42 +25,42 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), Version("2.22.0"), AMENDMENT]
 class CIM_ConcreteJob : CIM_Job
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   JobStatus;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   JobStatus;
   datetime TimeSubmitted;
   datetime ScheduledStartTime;
   datetime StartTime;
   datetime ElapsedTime;
-  uint32   JobRunTimes = 1;
-  uint8    RunMonth;
-  sint8    RunDay;
-  sint8    RunDayOfWeek;
+  uint32   JobRunTimes = 1;
+  uint8    RunMonth;
+  sint8    RunDay;
+  sint8    RunDayOfWeek;
   datetime RunStartInterval;
-  uint16   LocalOrUtcTime;
+  uint16   LocalOrUtcTime;
   datetime UntilTime;
-  string   Notify;
-  string   Owner;
-  uint32   Priority;
-  uint16   PercentComplete;
-  boolean  DeleteOnCompletion;
-  uint16   ErrorCode;
-  string   ErrorDescription;
-  uint16   RecoveryAction;
-  string   OtherRecoveryAction;
-  string   InstanceID;
-  string   Name;
-  uint16   JobState;
+  string   Notify;
+  string   Owner;
+  uint32   Priority;
+  uint16   PercentComplete;
+  boolean  DeleteOnCompletion;
+  uint16   ErrorCode;
+  string   ErrorDescription;
+  uint16   RecoveryAction;
+  string   OtherRecoveryAction;
+  string   InstanceID;
+  string   Name;
+  uint16   JobState;
   datetime TimeOfLastStateChange;
   datetime TimeBeforeRemoval = 00000000000500.000000:000";
 };
@@ -84,7 +87,7 @@ The **CIM\_ConcreteJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -557,14 +560,14 @@ JobState is an integer enumeration that indicates the operational state of a Job
 
 </dt> <dd></dd> <dt>
 
-13–32767
+13 32767
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-32768–65535
+32768 65535
 </dt> <dd>
 
 Vendor Reserved
@@ -957,14 +960,14 @@ Power Mode
 
 </dd> <dt>
 
-..–..
+.. ..
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-0x8000..–0x8000..
+0x8000.. 0x8000..
 </dt> <dd>
 
 Vendor Reserved
@@ -1609,17 +1612,17 @@ This member is introduced in [**CIM\_Job**](https://msdn.microsoft.com/library/a
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>Pcsvdevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVdevice.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

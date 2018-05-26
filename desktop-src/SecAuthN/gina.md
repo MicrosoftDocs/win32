@@ -1,7 +1,12 @@
 ---
-Description: 'The purpose of a GINA DLL is to provide customizable user identification and authentication procedures. The default GINA does this by delegating SAS event monitoring to Winlogon, which receives and processes CTL+ALT+DEL secure attention sequences (SASs).'
-ms.assetid: '035e9c8b-2490-438d-8f02-7e0f039f960f'
+Description: The purpose of a GINA DLL is to provide customizable user identification and authentication procedures. The default GINA does this by delegating SAS event monitoring to Winlogon, which receives and processes CTL+ALT+DEL secure attention sequences (SASs).
+ms.assetid: 035e9c8b-2490-438d-8f02-7e0f039f960f
 title: GINA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GINA
@@ -9,9 +14,9 @@ title: GINA
 The [*GINA*](https://msdn.microsoft.com/library/windows/desktop/ms721584#-security-gina-gly) operates in the [*context*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-context-gly) of the [*Winlogon*](https://msdn.microsoft.com/library/windows/desktop/ms721635#-security-winlogon-gly) process and, as such, the GINA DLL is loaded very early in the boot process. The GINA DLL must follow rules so that the integrity of the system is maintained, particularly with respect to interaction with the user.
 
 > [!Note]  
-> GINA DLLs are ignored in Windows Vista.
+> GINA DLLs are ignored in Windows Vista.
 
- 
+ 
 
 The most common use of the GINA is to communicate with an external device such as a smart-card [*reader*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-reader-gly). It is essential to set the start parameter for the device driver to system (Winnt.h: SERVICE\_SYSTEM\_START) to ensure that the driver is loaded by the time the GINA is invoked.
 
@@ -28,11 +33,11 @@ For information about specific GINA export functions, see [GINA Export Functions
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

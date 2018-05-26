@@ -1,8 +1,19 @@
 ---
 title: Creating a Ribbon Application
 description: The Windows Ribbon framework is composed of two distinct, yet dependent, development platforms a markup language based on Extensible Application Markup Language (XAML) to declare controls and their visual layout, and a C++ Component Object Model (COM)-based set of interfaces to define command functionality and application hooks. This division of labor within the Ribbon framework architecture requires that a developer who wants to take advantage of the rich UI capabilities offered by the framework must design and describe the UI in markup, and then use the Ribbon framework COM interfaces to connect the framework to the host application.
-ms.assetid: '1bd3dbb5-822b-4551-8330-8b202a4cecdf'
-keywords: ["Windows Ribbon,creating applications", "Ribbon,creating applications", "Windows Ribbon,roadmap", "Ribbon,roadmap", "Windows Ribbon,markup", "Ribbon,markup"]
+ms.assetid: 1bd3dbb5-822b-4551-8330-8b202a4cecdf
+keywords:
+- Windows Ribbon,creating applications
+- Ribbon,creating applications
+- Windows Ribbon,roadmap
+- Ribbon,roadmap
+- Windows Ribbon,markup
+- Ribbon,markup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Ribbon Application

@@ -1,7 +1,12 @@
 ---
-Description: 'The style of a dialog box is specified in the Attributes column of the Dialog table by a 32-bit word composed of style bit flags.'
-ms.assetid: 'aad719e8-86b3-4b2b-b417-db55013f8d3a'
+Description: The style of a dialog box is specified in the Attributes column of the Dialog table by a 32-bit word composed of style bit flags.
+ms.assetid: aad719e8-86b3-4b2b-b417-db55013f8d3a
 title: Dialog Style Bits
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dialog Style Bits

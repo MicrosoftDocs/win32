@@ -1,8 +1,9 @@
 ---
 title: StorPortAllocateHostMemoryBuffer routine
 description: This function allocates one or more ranges of physically contiguous memory to be used as a Host Memory Buffer (HMB).
-ms.assetid: 'B8413B02-32A6-40AE-9DD2-C25AD2D2D45C'
-keywords: ["StorPortAllocateHostMemoryBuffer routine Storage Devices"]
+ms.assetid: B8413B02-32A6-40AE-9DD2-C25AD2D2D45C
+keywords:
+- StorPortAllocateHostMemoryBuffer routine Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - storport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StorPortAllocateHostMemoryBuffer routine
@@ -24,16 +30,16 @@ Depending on the allocation policy, this function may allocate as much as the de
 
 ```C++
 ULONG StorPortAllocateHostMemoryBuffer(
-  _In_     PVOID                                                                                 HwDeviceExtension,
-  _In_     SIZE_T                                                                                MinimumBytes,
-  _In_     SIZE_T                                                                                PreferredBytes,
-  _In_     ULONGLONG                                                                             UtilizationBytes,
-  _In_     ULONG                                                                                 AlignmentBytes,
-  _In_     PHYSICAL_ADDRESS                                                                      LowestAcceptableAddress,
-  _In_     PHYSICAL_ADDRESS                                                                      HighestAcceptableAddress,
-  _In_opt_ PHYSICAL_ADDRESS                                                                      BoundaryAddressMultiple,
-           _Out_writes_to_(*PhysicalAddressRangeCount, *PhysicalAddressRangeCount) PACCESS_RANGE PhysicalAddressRanges,
-  _Inout_  PULONG                                                                                PhysicalAddressRangeCount
+  _In_     PVOID                                                                                 HwDeviceExtension,
+  _In_     SIZE_T                                                                                MinimumBytes,
+  _In_     SIZE_T                                                                                PreferredBytes,
+  _In_     ULONGLONG                                                                             UtilizationBytes,
+  _In_     ULONG                                                                                 AlignmentBytes,
+  _In_     PHYSICAL_ADDRESS                                                                      LowestAcceptableAddress,
+  _In_     PHYSICAL_ADDRESS                                                                      HighestAcceptableAddress,
+  _In_opt_ PHYSICAL_ADDRESS                                                                      BoundaryAddressMultiple,
+           _Out_writes_to_(*PhysicalAddressRangeCount, *PhysicalAddressRangeCount) PACCESS_RANGE PhysicalAddressRanges,
+  _Inout_  PULONG                                                                                PhysicalAddressRangeCount
 );
 ```
 
@@ -100,7 +106,7 @@ The physical address multiple that this allocation must not cross.
 > [!Note]  
 > This parameter is currently not used and must be set to 0.
 
- 
+ 
 
 </dd> <dt>
 
@@ -132,7 +138,7 @@ The number of entries in **PhysicalAddressRanges**. This function will update th
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -157,9 +163,9 @@ The caller should subsequently call [**StorPortFreeHostMemoryBuffer**](https://m
 [**StorPortFreeHostMemoryBuffer**](https://msdn.microsoft.com/library/windows/hardware/mt795368)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20StorPortAllocateHostMemoryBuffer%20routine%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

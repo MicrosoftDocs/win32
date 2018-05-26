@@ -4,10 +4,13 @@ description: These topics contain reference content for the programming elements
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7ED6A732-D716-4F04-8972-FBFE9B2E7C3A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 7ED6A732-D716-4F04-8972-FBFE9B2E7C3A
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MultiPoint Services Developer Reference

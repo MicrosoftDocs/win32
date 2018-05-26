@@ -1,8 +1,9 @@
 ---
 title: TBM\_SETRANGE message
 description: Sets the range of minimum and maximum logical positions for the slider in a trackbar.
-ms.assetid: '9c225742-8e5e-4f47-af8c-8243b6c90c1d'
-keywords: ["TBM_SETRANGE message Windows Controls"]
+ms.assetid: 9c225742-8e5e-4f47-af8c-8243b6c90c1d
+keywords:
+- TBM_SETRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_SETRANGE message
@@ -51,8 +57,8 @@ Because this message takes two 16-bit unsigned integer values, the maximum range
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ Because this message takes two 16-bit unsigned integer values, the maximum range
 [**TBM\_SETRANGEMIN**](tbm-setrangemin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter S.'
-Robots: 'noindex, nofollow'
-ms.assetid: '3e9d7672-2314-45c8-8178-5a0afcfd0c50'
+Description: Contains definitions of security terms that begin with the letter S.
+Robots: noindex, nofollow
+ms.assetid: 3e9d7672-2314-45c8-8178-5a0afcfd0c50
 title: S
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # S

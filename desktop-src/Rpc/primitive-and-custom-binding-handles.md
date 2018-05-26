@@ -1,7 +1,12 @@
 ---
 title: Primitive and Custom Binding Handles
 description: All handles declared with the handle\_t or RPC\_BINDING\_HANDLE types are primitive binding handles.
-ms.assetid: '7a948aad-02fa-421d-b32c-f5dab071bd04'
+ms.assetid: 7a948aad-02fa-421d-b32c-f5dab071bd04
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Primitive and Custom Binding Handles
@@ -51,9 +56,9 @@ interface usrdef
 }
 ```
 
-If the bind routine encounters an error, it should raise an exception using the [**RpcRaiseException**](rpcraiseexception.md) function. The client stub will then clean up, and let the exception filter through to the exception block surrounding the remote procedure call on the client side. If the bind routine simply returns **NULL**, the client code gets error RPC\_S\_INVALID\_BINDING. While this might be acceptable in certain situations, other situations (such as being out of memory) do not respond well. The unbind routine should be designed so that it does not fail. The unbind routine should not raise exceptions.
+If the bind routine encounters an error, it should raise an exception using the [**RpcRaiseException**](/windows/win32/Rpcdce/nf-rpcdce-rpcraiseexception?branch=master) function. The client stub will then clean up, and let the exception filter through to the exception block surrounding the remote procedure call on the client side. If the bind routine simply returns **NULL**, the client code gets error RPC\_S\_INVALID\_BINDING. While this might be acceptable in certain situations, other situations (such as being out of memory) do not respond well. The unbind routine should be designed so that it does not fail. The unbind routine should not raise exceptions.
 
-The programmer-defined bind and unbind routines appear in the client application. In the following example, the bind routine calls [**RpcBindingFromStringBinding**](rpcbindingfromstringbinding.md) to convert the string-binding information to a binding handle. The unbind routine calls [**RpcBindingFree**](rpcbindingfree.md) to free the binding handle.
+The programmer-defined bind and unbind routines appear in the client application. In the following example, the bind routine calls [**RpcBindingFromStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding?branch=master) to convert the string-binding information to a binding handle. The unbind routine calls [**RpcBindingFree**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfree?branch=master) to free the binding handle.
 
 The name of the programmer-defined binding handle, DATA\_HANDLE\_TYPE, appears as part of the name of the functions. It is also used as the parameter type in the function parameters.
 

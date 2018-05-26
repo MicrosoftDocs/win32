@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following constants, defined in Gdipluspixelformats.h, specify various pixel formats used in bitmaps.'
-ms.assetid: '362204c5-5dd7-461a-b90b-15826c025689'
+---
+Description: The following constants, defined in Gdipluspixelformats.h, specify various pixel formats used in bitmaps.
+ms.assetid: 362204c5-5dd7-461a-b90b-15826c025689
 title: Image Pixel Format Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image Pixel Format Constants

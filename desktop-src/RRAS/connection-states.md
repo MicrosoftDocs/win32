@@ -1,12 +1,17 @@
 ---
 title: Connection States
 description: During the process of connecting to a remote server, the Remote Access Connection Manager and the RAS server on the remote computer perform several steps to establish the connection.
-ms.assetid: '7a8b0086-308b-47d2-888e-69ff473c6015'
+ms.assetid: 7a8b0086-308b-47d2-888e-69ff473c6015
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connection States
 
-During the process of connecting to a remote server, the Remote Access Connection Manager and the RAS server on the remote computer perform several steps to establish the connection. Each of these steps is identified by a connection state. The [**RASCONNSTATE**](rasconnstate.md) enumeration is a set of values that correspond to these connection states. The connection states can be divided into the following three groups:
+During the process of connecting to a remote server, the Remote Access Connection Manager and the RAS server on the remote computer perform several steps to establish the connection. Each of these steps is identified by a connection state. The [**RASCONNSTATE**](/windows/win32/Ras/?branch=master) enumeration is a set of values that correspond to these connection states. The connection states can be divided into the following three groups:
 
 <dl> <dt>
 
@@ -27,11 +32,11 @@ The [paused states](paused-states.md) occur when the remote server pauses the co
 <span id="Terminal_states"></span><span id="terminal_states"></span><span id="TERMINAL_STATES"></span>Terminal states
 </dt> <dd>
 
-The terminal states occur when the connection has been successfully established, the connection operation has failed, or the connection has been broken by a [**RasHangUp**](rashangup.md) call.
+The terminal states occur when the connection has been successfully established, the connection operation has failed, or the connection has been broken by a [**RasHangUp**](/windows/win32/Ras/nf-ras-rashangupa?branch=master) call.
 
 </dd> </dl>
 
-There are several mechanisms that a RAS client can use to determine the current state of a connection operation. When a RAS client executes the [**RasDial**](rasdial.md) function asynchronously, the Remote Access Connection Manager sends progress notifications to the client's [notification handler](notification-handlers.md) whenever the connection state changes. In addition, the client can use the [**RasGetConnectStatus**](rasgetconnectstatus.md) function to get the current state of any RAS connection operation.
+There are several mechanisms that a RAS client can use to determine the current state of a connection operation. When a RAS client executes the [**RasDial**](/windows/win32/Ras/nf-ras-rasdiala?branch=master) function asynchronously, the Remote Access Connection Manager sends progress notifications to the client's [notification handler](notification-handlers.md) whenever the connection state changes. In addition, the client can use the [**RasGetConnectStatus**](/windows/win32/Ras/nf-ras-rasgetconnectstatusa?branch=master) function to get the current state of any RAS connection operation.
 
  
 

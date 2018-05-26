@@ -4,17 +4,21 @@ description: Gets the user policy description.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ED3FB194-6615-4BC4-AB3D-75223AF19F4A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: ED3FB194-6615-4BC4-AB3D-75223AF19F4A
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserPolicy.getDescription method"]
+keywords:
+- UserPolicy.getDescription method
 topic_type:
 - apiref
 api_name:
 - UserPolicy.getDescription method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.getDescription method
@@ -45,11 +49,11 @@ UserPolicy.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

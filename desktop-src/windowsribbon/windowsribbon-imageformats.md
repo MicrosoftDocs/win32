@@ -1,8 +1,22 @@
 ---
 title: Specifying Ribbon Image Resources
 description: As a rich command presentation system, the Windows Ribbon framework is designed to support image resources extensively throughout the Ribbon user interface (UI). All image resources are declared in Ribbon markup or queried from a Ribbon host application.
-ms.assetid: '37b57992-8da8-4e6b-869d-72a136f6ad77'
-keywords: ["Windows Ribbon,image resources", "Ribbon,image resources", "Windows Ribbon,transparency", "Ribbon,transparency", "Windows Ribbon,color depth", "Ribbon,color depth", "Windows Ribbon,contrast", "Ribbon,contrast", "image resources in Windows Ribbon"]
+ms.assetid: 37b57992-8da8-4e6b-869d-72a136f6ad77
+keywords:
+- Windows Ribbon,image resources
+- Ribbon,image resources
+- Windows Ribbon,transparency
+- Ribbon,transparency
+- Windows Ribbon,color depth
+- Ribbon,color depth
+- Windows Ribbon,contrast
+- Ribbon,contrast
+- image resources in Windows Ribbon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying Ribbon Image Resources

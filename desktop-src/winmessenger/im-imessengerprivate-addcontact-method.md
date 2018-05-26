@@ -1,8 +1,11 @@
 ---
 title: IMessengerPrivate AddContact method
 description: Adds a contact to the contact list with no prompting or notification UI.
-ms.assetid: '8eb00cba-6a15-4b85-a82c-c45e67eca2bb'
-keywords: ["AddContact method Windows Messenger", "AddContact method Windows Messenger , IMessengerPrivate interface", "IMessengerPrivate interface Windows Messenger , AddContact method"]
+ms.assetid: 8eb00cba-6a15-4b85-a82c-c45e67eca2bb
+keywords:
+- AddContact method Windows Messenger
+- AddContact method Windows Messenger , IMessengerPrivate interface
+- IMessengerPrivate interface Windows Messenger , AddContact method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerPrivate::AddContact method
 
-\[**AddContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**AddContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Adds a contact to the contact list with no prompting or notification UI.
 
@@ -24,8 +32,8 @@ Adds a contact to the contact list with no prompting or notification UI.
 
 ```C++
 HRESULT AddContact(
-  [in] BSTR    bstrSiginName,
-  [in] VARIANT vService
+  [in] BSTR    bstrSiginName,
+  [in] VARIANT vService
 );
 ```
 
@@ -66,7 +74,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,12 +96,12 @@ The following table lists the error codes returned by this method.
 
 
 
- 
+ 
 
 > [!Note]  
 > This method is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -101,10 +109,10 @@ The following table lists the error codes returned by this method.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Product<br/>                  | Messenger 4.5<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl> |
@@ -131,9 +139,9 @@ The following table lists the error codes returned by this method.
 [Messenger Session Invite and Messenger Private APIs](im-session-invite-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Use the Count automation property of the SWbemPropertySet object to determine how many items are in the SWbemPropertySet collection. This property is read-only.'
+Description: Use the Count automation property of the SWbemPropertySet object to determine how many items are in the SWbemPropertySet collection. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '141d2577-da5e-4ada-abf8-5456ffd24244'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 141d2577-da5e-4ada-abf8-5456ffd24244
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemPropertySet.Count property'
+title: SWbemPropertySet.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemPropertySet.Count property
@@ -35,8 +38,8 @@ SWbemPropertySet.Count As Integer
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -45,9 +48,9 @@ SWbemPropertySet.Count As Integer
 
 
 
- 
+ 
 
- 
+ 
 
 
 

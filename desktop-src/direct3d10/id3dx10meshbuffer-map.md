@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get a pointer to the mesh buffer memory to modify its contents.'
-ms.assetid: 'd15ed47a-450e-404a-bcc2-a641abc2d02e'
-title: 'ID3DX10MeshBuffer::Map method'
+---
+Description: Get a pointer to the mesh buffer memory to modify its contents.
+ms.assetid: d15ed47a-450e-404a-bcc2-a641abc2d02e
+title: ID3DX10MeshBufferMap method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10MeshBuffer::Map method

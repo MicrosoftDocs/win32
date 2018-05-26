@@ -1,7 +1,12 @@
 ---
-Description: 'The ORDER IN GROUP clause is used in conjunction with the GROUP ON statement, which returns result sets in groups.'
-ms.assetid: 'edfa2037-3360-411d-8a12-cdb9680222f2'
+Description: The ORDER IN GROUP clause is used in conjunction with the GROUP ON statement, which returns result sets in groups.
+ms.assetid: edfa2037-3360-411d-8a12-cdb9680222f2
 title: ORDER IN GROUP Clause
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ORDER IN GROUP Clause

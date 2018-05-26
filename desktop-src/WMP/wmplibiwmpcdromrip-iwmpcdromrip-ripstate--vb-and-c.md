@@ -1,8 +1,11 @@
 ---
 title: IWMPCdromRip ripState property
 description: The ripState property gets an enumeration value that indicates the current state of the ripping process.
-ms.assetid: 'eacf36d9-725c-47cf-9f90-6241feeb67bc'
-keywords: ["ripState property Windows Media Player", "ripState property Windows Media Player , IWMPCdromRip interface", "IWMPCdromRip interface Windows Media Player , ripState property"]
+ms.assetid: eacf36d9-725c-47cf-9f90-6241feeb67bc
+keywords:
+- ripState property Windows Media Player
+- ripState property Windows Media Player , IWMPCdromRip interface
+- IWMPCdromRip interface Windows Media Player , ripState property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromRip::ripState property
@@ -70,12 +78,12 @@ A **WMPLib.WMPRipState** that is a value from the **WMPRipState** enumeration th
 [**Ripping a CD**](ripping-a-cd.md)
 </dt> <dt>
 
-[**WMPRipState**](wmpripstate.md)
+[**WMPRipState**](/windows/win32/wmp/ne-wmp-wmpripstate?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

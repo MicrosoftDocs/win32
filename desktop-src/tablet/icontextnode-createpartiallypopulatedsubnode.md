@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a child IContextNode object that contains only information about type, identifier, and location.'
-ms.assetid: '181028fb-f67c-4c90-bb09-94b68a887bd1'
-title: 'IContextNode::CreatePartiallyPopulatedSubNode method'
+Description: Creates a child IContextNode object that contains only information about type, identifier, and location.
+ms.assetid: 181028fb-f67c-4c90-bb09-94b68a887bd1
+title: IContextNodeCreatePartiallyPopulatedSubNode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::CreatePartiallyPopulatedSubNode method
@@ -13,10 +18,10 @@ Creates a child [**IContextNode**](icontextnode.md) object that contains only in
 
 ```C++
 HRESULT CreatePartiallyPopulatedSubNode(
-  [in]  const GUID            *pNodeType,
-  [in]  const GUID            *pNodeId,
-  [in]        IAnalysisRegion *pNodeLocation,
-  [out]       IContextNode    **pPartiallyPopulatedContextNodeCreated
+  [in]  const GUID            *pNodeType,
+  [in]  const GUID            *pNodeId,
+  [in]        IAnalysisRegion *pNodeLocation,
+  [out]       IContextNode    **pPartiallyPopulatedContextNodeCreated
 );
 ```
 
@@ -63,7 +68,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**pPartiallyPopulatedContextNodeCreated* when you no longer need to use the context node.
 
- 
+ 
 
 The new [**IContextNode**](icontextnode.md) is added to this context node's collection of child nodes (see [**IContextNode::GetSubNodes**](icontextnode-getsubnodes.md)). When there are existing child nodes, the newly created **IContextNode** is added as the last child node.
 
@@ -77,7 +82,7 @@ This method is used for data proxy as a way to create an [**IContextNode**](icon
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -103,9 +108,9 @@ This method is used for data proxy as a way to create an [**IContextNode**](icon
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

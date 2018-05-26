@@ -1,14 +1,20 @@
 ---
 title: WM/ProviderRating
 description: The WM/ProviderRating attribute contains the rating of the file as assigned by the metadata content provider.
-ms.assetid: '3fd6ec6e-568c-4568-9502-d02c1c9a894b'
-keywords: ["WM/ProviderRating windows Media Format"]
+ms.assetid: 3fd6ec6e-568c-4568-9502-d02c1c9a894b
+keywords:
+- WM/ProviderRating windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/ProviderRating
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ProviderRating

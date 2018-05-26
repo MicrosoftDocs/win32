@@ -1,7 +1,7 @@
 ---
 title: Filtering Layer Identifiers
 description: WFP API management filtering layer identifier constants.
-ms.assetid: '3b2daef1-558b-4e3a-a98a-f4dfa80a29c0'
+ms.assetid: 3b2daef1-558b-4e3a-a98a-f4dfa80a29c0
 topic_type:
 - apiref
 api_name:
@@ -60,6 +60,11 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filtering Layer Identifiers
@@ -368,9 +373,9 @@ This filtering layer allows for inspecting when an established TCP connection ha
 This filtering layer is located in the receive path after the MAC (802.3) layer processing has occurred but before the frame is processed by the framing layer. This is the layer after native in which all frames look like Ethernet frames.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available only in Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -383,9 +388,9 @@ This filtering layer is located in the receive path after the MAC (802.3) layer 
 This filtering layer is located in the send path after the framing layer processing has occurred but before the frame is processed by the MAC (802.3) layer. This is the layer after native in which all frames look like Ethernet frames.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available only in Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -398,9 +403,9 @@ This filtering layer is located in the send path after the framing layer process
 This filtering layer is located in the receive path after the MAC layer processing has occurred but before the frame is processed by the framing layer. It is the first layer after the Miniport delivers the frame to NDIS.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available only in Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -413,9 +418,9 @@ This filtering layer is located in the receive path after the MAC layer processi
 This filtering layer is located in the send path after the framing layer processing has occurred but before the frame is processed by the MAC (Native 802.11) layer. It is the first layer after the Miniport delivers the frame to NDIS.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available only in Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -428,9 +433,9 @@ This filtering layer is located in the send path after the framing layer process
 This filtering layer is located in the vSwitch ingress path just after the MAC header has been parsed, but before any MAC header processing takes place.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available only in Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -443,9 +448,9 @@ This filtering layer is located in the vSwitch ingress path just after the MAC h
 This filtering layer is located in the vSwitch egress path just after the MAC header has been parsed, but before any MAC header processing takes place.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available only in Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -462,9 +467,9 @@ If a vSwitchPort is in PVLAN or trunk mode, filters at this layer will be bypass
 If IPv4 is uninstalled in the host, filters in this layer will cause packets to be dropped.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available only in Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -481,9 +486,9 @@ If a vSwitchPort is in PVLAN or trunk mode, filters at this layer will be bypass
 If IPv4 is uninstalled in the host, filters in this layer will cause packets to be dropped.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available only in Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -662,9 +667,9 @@ These filtering layer identifiers are also referred to as management filtering l
 
 Management filtering layer identifiers and run-time filtering layer identifiers point to the same layers.
 
-Management filtering layer identifiers are used by functions that interact with the Base Filtering Engine (BFE) from either user mode or kernel mode (for example, [**FwpmFilterAdd0**](fwpmfilteradd0-func.md)).
+Management filtering layer identifiers are used by functions that interact with the Base Filtering Engine (BFE) from either user mode or kernel mode (for example, [**FwpmFilterAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilteradd0?branch=master)).
 
-Run-time filtering layer identifiers are used by functions that interact with the filter engine from kernel mode only (for example, [FwpsFlowAssociateContext0](http://go.microsoft.com/fwlink/p/?linkid=99624), [FwpsStreamInjectAsync0](http://go.microsoft.com/fwlink/p/?linkid=99625)), and in data structures that come directly from the kernel (for example, [**FWPM\_NET\_EVENT\_CLASSIFY\_DROP0**](fwpm-net-event-classify-drop0.md)).
+Run-time filtering layer identifiers are used by functions that interact with the filter engine from kernel mode only (for example, [FwpsFlowAssociateContext0](http://go.microsoft.com/fwlink/p/?linkid=99624), [FwpsStreamInjectAsync0](http://go.microsoft.com/fwlink/p/?linkid=99625)), and in data structures that come directly from the kernel (for example, [**FWPM\_NET\_EVENT\_CLASSIFY\_DROP0**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop0_?branch=master)).
 
 ## Requirements
 
@@ -672,8 +677,8 @@ Run-time filtering layer identifiers are used by functions that interact with th
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
 
 
@@ -688,9 +693,9 @@ Run-time filtering layer identifiers are used by functions that interact with th
 [WFP Architecture](windows-filtering-platform-architecture-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

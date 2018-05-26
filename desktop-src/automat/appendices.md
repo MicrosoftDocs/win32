@@ -1,7 +1,12 @@
 ---
 title: Appendices
 description: Additional technical details related to Automation.
-ms.assetid: '23afae14-f24a-4221-b65b-7478fc79ce34'
+ms.assetid: 23afae14-f24a-4221-b65b-7478fc79ce34
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Appendices
@@ -21,11 +26,11 @@ This section describes additional technical details related to Automation.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Retrieves details of Remote Desktop Services Per User client access
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '151ff95c-4ad3-4d19-936d-1cb08b4d5056'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 151ff95c-4ad3-4d19-936d-1cb08b4d5056
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["FetchReportEntries method Remote Desktop Services", "FetchReportEntries method Remote Desktop Services , Win32_TSLicenseReport class", "Win32_TSLicenseReport class Remote Desktop Services , FetchReportEntries method"]
+keywords:
+- FetchReportEntries method Remote Desktop Services
+- FetchReportEntries method Remote Desktop Services , Win32_TSLicenseReport class
+- Win32_TSLicenseReport class Remote Desktop Services , FetchReportEntries method
 topic_type:
 - apiref
 api_name:
@@ -17,20 +20,23 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FetchReportEntries method of the Win32\_TSLicenseReport class
 
-Retrieves details of Remote Desktop Services Per User client access licenses (RDS Per User CALs) from the report. Each entry represents a RDS Per User CAL that is currently in use.
+Retrieves details of Remote Desktop Services Per User client access licenses (RDS Per User CALs) from the report. Each entry represents a RDS Per User CAL that is currently in use.
 
 ## Syntax
 
 
 ```mof
 uint32 FetchReportEntries(
-  [in]      uint32                     StartIndex,
-  [in, out] uint32                     Count,
-  [out]     Win32_TSLicenseReportEntry ReportEntries[]
+  [in]      uint32                     StartIndex,
+  [in, out] uint32                     Count,
+  [out]     Win32_TSLicenseReportEntry ReportEntries[]
 );
 ```
 
@@ -80,7 +86,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -97,9 +103,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseReportEntry**](win32-tslicensereportentry.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

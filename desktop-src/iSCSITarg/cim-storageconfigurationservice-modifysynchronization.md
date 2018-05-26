@@ -4,13 +4,16 @@ description: Modify (or start a job to modify) the synchronization association b
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '11d9980a-f373-44f9-a44a-16e0bb9ca5d0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 11d9980a-f373-44f9-a44a-16e0bb9ca5d0
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ModifySynchronization method iSCSI Software Target API", "ModifySynchronization method iSCSI Software Target API , CIM_StorageConfigurationService class", "CIM_StorageConfigurationService class iSCSI Software Target API , ModifySynchronization method"]
+keywords:
+- ModifySynchronization method iSCSI Software Target API
+- ModifySynchronization method iSCSI Software Target API , CIM_StorageConfigurationService class
+- CIM_StorageConfigurationService class iSCSI Software Target API , ModifySynchronization method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ModifySynchronization method of the CIM\_StorageConfigurationService class
@@ -30,9 +36,9 @@ Modify (or start a job to modify) the synchronization association between two st
 
 ```mof
 uint32 ModifySynchronization(
-  [in]  uint16                      Operation,
-  [out] CIM_ConcreteJob         REF Job,
-  [in]  CIM_StorageSynchronized REF Synchronization
+  [in]  uint16                      Operation,
+  [out] CIM_ConcreteJob         REF Job,
+  [in]  CIM_StorageSynchronized REF Synchronization
 );
 ```
 
@@ -176,14 +182,14 @@ Reset To Async: Change the CopyType of the association to Async (e.g., from the 
 **DMTF Reserved**
 
 
-</dt> <dd>14–32767</dd> <dt>
+</dt> <dd>14 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
@@ -224,16 +230,16 @@ The referenced to the StorageSynchronized association describing the storage sou
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -243,7 +249,7 @@ The referenced to the StorageSynchronized association describing the storage sou
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -257,9 +263,9 @@ The referenced to the StorageSynchronized association describing the storage sou
 [**CIM\_StorageConfigurationService**](cim-storageconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

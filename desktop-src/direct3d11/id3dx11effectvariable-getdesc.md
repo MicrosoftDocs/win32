@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectVariable GetDesc method
 description: Get a description.
-ms.assetid: 'bf6339d7-8eb0-44da-893e-c805309a3cd3'
-keywords: ["GetDesc method Direct3D 11", "GetDesc method Direct3D 11 , ID3DX11EffectVariable interface", "ID3DX11EffectVariable interface Direct3D 11 , GetDesc method"]
+ms.assetid: bf6339d7-8eb0-44da-893e-c805309a3cd3
+keywords:
+- GetDesc method Direct3D 11
+- GetDesc method Direct3D 11 , ID3DX11EffectVariable interface
+- ID3DX11EffectVariable interface Direct3D 11 , GetDesc method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectVariable::GetDesc method
@@ -23,7 +31,7 @@ Get a description.
 
 ```C++
 HRESULT GetDesc(
-   D3DX11_EFFECT_VARIABLE_DESC *pDesc
+   D3DX11_EFFECT_VARIABLE_DESC *pDesc
 );
 ```
 
@@ -53,7 +61,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -73,9 +81,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectVariable](id3dx11effectvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

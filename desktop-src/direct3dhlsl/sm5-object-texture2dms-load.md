@@ -1,14 +1,20 @@
 ---
 title: Load(int,int) function
 description: Gets one value.
-ms.assetid: 'b49b94e0-5c49-4901-b49d-3e652d4fd2d1'
-keywords: ["Load function DXGI"]
+ms.assetid: b49b94e0-5c49-4901-b49d-3e652d4fd2d1
+keywords:
+- Load function DXGI
 topic_type:
 - apiref
 api_name:
 - Load
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load(int,int) function

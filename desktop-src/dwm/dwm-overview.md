@@ -2,7 +2,18 @@
 title: Desktop Window Manager
 description: The desktop composition feature, introduced in Windows Vista, fundamentally changed the way applications display pixels on the screen.
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\overviews\dwm_overview.htm
-keywords: ["Desktop Window Manager (DWM),about", "DWM (Desktop Window Manager),about", "Desktop Window Manager (DWM),composition", "DWM (Desktop Window Manager),composition", "desktop composition", "composition"]
+keywords:
+- Desktop Window Manager (DWM),about
+- DWM (Desktop Window Manager),about
+- Desktop Window Manager (DWM),composition
+- DWM (Desktop Window Manager),composition
+- desktop composition
+- composition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Desktop Window Manager

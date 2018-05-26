@@ -1,7 +1,12 @@
 ---
-Description: 'Shows how to use Microsoft Media Foundation to decode audio from a media file.'
-ms.assetid: '29822e6b-8598-4133-b181-7fb0854553b7'
+Description: Shows how to use Microsoft Media Foundation to decode audio from a media file.
+ms.assetid: 29822e6b-8598-4133-b181-7fb0854553b7
 title: Audio Clip Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Clip Sample
@@ -14,7 +19,7 @@ The Audio Clip sample application reads audio data from a media file and writes 
 
 This sample demonstrates the following Media Foundation interfaces:
 
--   [**IMFSourceReader**](imfsourcereader.md)
+-   [**IMFSourceReader**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsourcereader?branch=master)
 
 ## Usage
 

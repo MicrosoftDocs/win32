@@ -4,17 +4,22 @@ description: The file path of the printer separator page.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ef60a08a-5d32-43ab-aeb2-73e6eed2d01b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ef60a08a-5d32-43ab-aeb2-73e6eed2d01b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Print-Separator-File attribute AD Schema", "printSeparatorFile attribute AD Schema"]
+keywords:
+- Print-Separator-File attribute AD Schema
+- printSeparatorFile attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Print-Separator-File
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Print-Separator-File attribute
@@ -38,12 +43,12 @@ The file path of the printer separator page.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The file path of the printer separator page.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

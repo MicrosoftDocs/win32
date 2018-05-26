@@ -1,7 +1,12 @@
 ---
 title: CD-ROM I/O Control Codes
 description: CD-ROM I/O Control Codes
-ms.assetid: '11f10671-4ec8-4c6c-accf-71bf46466c2e'
+ms.assetid: 11f10671-4ec8-4c6c-accf-71bf46466c2e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD-ROM I/O Control Codes

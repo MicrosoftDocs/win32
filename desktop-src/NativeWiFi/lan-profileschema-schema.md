@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a wired (LAN) network profile.'
-ms.assetid: 'b9b415c9-b2c6-4888-bad0-b2daeffc4387'
-title: 'LAN\_profile Schema'
+Description: Defines a wired (LAN) network profile.
+ms.assetid: b9b415c9-b2c6-4888-bad0-b2daeffc4387
+title: LAN\_profile Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LAN\_profile Schema

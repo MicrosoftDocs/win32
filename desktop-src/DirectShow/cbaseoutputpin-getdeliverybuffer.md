@@ -1,7 +1,12 @@
 ---
-Description: 'The GetDeliveryBuffer method retrieves a media sample that contains an empty buffer.'
-ms.assetid: '5a20c11b-50f8-443e-a4d5-6bcffde741d5'
-title: 'CBaseOutputPin.GetDeliveryBuffer method'
+Description: The GetDeliveryBuffer method retrieves a media sample that contains an empty buffer.
+ms.assetid: 5a20c11b-50f8-443e-a4d5-6bcffde741d5
+title: CBaseOutputPin.GetDeliveryBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin.GetDeliveryBuffer method
@@ -13,10 +18,10 @@ The `GetDeliveryBuffer` method retrieves a media sample that contains an empty b
 
 ```C++
 virtual HRESULT GetDeliveryBuffer(
-   IMediaSample   **ppSample,
-   REFERENCE_TIME *pStartTime,
-   REFERENCE_TIME *pEndTime,
-   DWORD          dwFlags
+   IMediaSample   **ppSample,
+   REFERENCE_TIME *pStartTime,
+   REFERENCE_TIME *pEndTime,
+   DWORD          dwFlags
 );
 ```
 
@@ -29,7 +34,7 @@ virtual HRESULT GetDeliveryBuffer(
 *ppSample* 
 </dt> <dd>
 
-Address of a variable that receives a pointer to the buffer's [**IMediaSample**](imediasample.md) interface.
+Address of a variable that receives a pointer to the buffer's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> <dt>
 
@@ -50,7 +55,7 @@ Pointer to the ending time of the sample, or **NULL**.
 *dwFlags* 
 </dt> <dd>
 
-Bitwise combination of flags supported by the [**IMemAllocator::GetBuffer**](imemallocator-getbuffer.md) interface.
+Bitwise combination of flags supported by the [**IMemAllocator::GetBuffer**](/windows/win32/Strmif/nf-strmif-imemallocator-getbuffer?branch=master) interface.
 
 </dd> </dl>
 
@@ -67,7 +72,7 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -91,9 +96,9 @@ This method calls the **IMemAllocator::GetBuffer** method on the allocator, and 
 [**CBaseOutputPin Class**](cbaseoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

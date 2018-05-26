@@ -1,7 +1,12 @@
 ---
 title: WHERE Clause
 description: WHERE Clause
-ms.assetid: '1eabd5e6-afa3-4c08-b602-262271cb9099'
+ms.assetid: 1eabd5e6-afa3-4c08-b602-262271cb9099
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WHERE Clause

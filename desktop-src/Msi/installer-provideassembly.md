@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ProvideAssembly method of the Installer object returns the installed path of an assembly.'
-ms.assetid: 'c99b1934-3834-478b-ab1d-7e7583dba779'
-title: 'Installer::ProvideAssembly method'
+---
+Description: The ProvideAssembly method of the Installer object returns the installed path of an assembly.
+ms.assetid: c99b1934-3834-478b-ab1d-7e7583dba779
+title: InstallerProvideAssembly method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer::ProvideAssembly method
@@ -85,7 +90,7 @@ The path to the installed assembly.
 
 ## Remarks
 
-The **ProvideAssembly** method uses the [**MsiProvideAssembly**](msiprovideassembly.md) function.
+The **ProvideAssembly** method uses the [**MsiProvideAssembly**](/windows/win32/Msi/nf-msi-msiprovideassemblya?branch=master) function.
 
 ## Examples
 

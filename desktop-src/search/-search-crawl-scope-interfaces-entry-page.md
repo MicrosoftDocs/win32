@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '3e91974d-4868-4646-95fd-da6e63551973'
+Description: .
+ms.assetid: 3e91974d-4868-4646-95fd-da6e63551973
 title: Crawl Scope Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Crawl Scope Interfaces
@@ -10,17 +15,17 @@ title: Crawl Scope Interfaces
 
 This Windows Search reference section consists of the following crawl scope interfaces:
 
-[**IEnumSearchRoots**](-search-ienumsearchroots.md)
+[**IEnumSearchRoots**](/windows/win32/Searchapi/nn-searchapi-ienumsearchroots?branch=master)
 
-[**IEnumSearchScopeRules**](-search-ienumsearchscoperules.md)
+[**IEnumSearchScopeRules**](/windows/win32/Searchapi/nn-searchapi-ienumsearchscoperules?branch=master)
 
-[**ISearchCrawlScopeManager**](-search-isearchcrawlscopemanager.md)
+[**ISearchCrawlScopeManager**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager?branch=master)
 
-[**ISearchCrawlScopeManager2**](-search-isearchcrawlscopemanager2.md)
+[**ISearchCrawlScopeManager2**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager2?branch=master)
 
-[**ISearchRoot**](-search-isearchroot.md)
+[**ISearchRoot**](/windows/win32/Searchapi/nn-searchapi-isearchroot?branch=master)
 
-[**ISearchScopeRule**](-search-isearchscoperule.md)
+[**ISearchScopeRule**](/windows/win32/Searchapi/nn-searchapi-isearchscoperule?branch=master)
 
 [**ISearchItem**](-search-isearchitem.md)
 

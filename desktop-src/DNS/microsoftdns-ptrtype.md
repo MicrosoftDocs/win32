@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_PTRType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Pointer (PTR) record.
-ms.assetid: '2cb0f13b-e683-473b-9cdd-bc5d805b919d'
-keywords: ["MicrosoftDNS_PTRType class DNS", "MicrosoftDNS_PTRType class DNS , described"]
+ms.assetid: 2cb0f13b-e683-473b-9cdd-bc5d805b919d
+keywords:
+- MicrosoftDNS_PTRType class DNS
+- MicrosoftDNS_PTRType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_PTRType class
@@ -51,7 +58,7 @@ The **MicrosoftDNS\_PTRType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ FQDN of the PTR record data.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ FQDN of the PTR record data.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

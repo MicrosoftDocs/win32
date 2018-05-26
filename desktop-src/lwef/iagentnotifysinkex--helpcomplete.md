@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySinkEx HelpComplete
 description: IAgentNotifySinkEx HelpComplete
-ms.assetid: 'f8285d05-3b96-4046-a058-0e001e47b54b'
+ms.assetid: f8285d05-3b96-4046-a058-0e001e47b54b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySinkEx::HelpComplete
@@ -55,7 +60,7 @@ The cause for the event, which may be the following values:
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -72,9 +77,9 @@ This event is sent only to the client application that places the character into
 [**IAgentCharacterEx::SetHelpModeOn**](iagentcharacterex--sethelpmodeon.md), [**IAgentCharacterEx::SetHelpFileName**](iagentcharacterex--sethelpfilename.md), [**IAgentCharacterEx::SetHelpContextID**](iagentcharacterex--sethelpcontextid.md), [**IAgentCommandsEx::SetHelpContextID**](iagentcommandsex--sethelpcontextid.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

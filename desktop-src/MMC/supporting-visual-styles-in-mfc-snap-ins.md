@@ -4,10 +4,13 @@ description: To support visual themes in a snap-in built on the Microsoft Founda
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3af193d1-4cc8-4980-8dc5-0c84a1c63c6b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 3af193d1-4cc8-4980-8dc5-0c84a1c63c6b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Supporting Visual Styles in MFC Snap-ins

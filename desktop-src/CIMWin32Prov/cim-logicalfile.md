@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_LogicalFile class represents a named collection of data, which can be executable code, that is located in a file system on a storage extent.'
+Description: The CIM\_LogicalFile class represents a named collection of data, which can be executable code, that is located in a file system on a storage extent.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '96bf95a1-c8d7-4035-8d5a-38cdb9c75cce'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 96bf95a1-c8d7-4035-8d5a-38cdb9c75cce
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_LogicalFile class'
+title: CIM\_LogicalFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LogicalFile class
@@ -19,7 +22,7 @@ The **CIM\_LogicalFile** class represents a named collection of data, which can 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,37 +32,37 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [SupportsDelete, DeleteBy("DeleteInstance"), Abstract, Provider("CIMWin32"), UUID("{8502C559-5FBB-11D2-AAC1-006008C78BC7}"), DisplayName("Files (CIM)"), AMENDMENT]
 class CIM_LogicalFile : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  uint32   AccessMask;
-  boolean  Archive;
-  boolean  Compressed;
-  string   CompressionMethod;
-  string   CreationClassName;
+  string   Status;
+  uint32   AccessMask;
+  boolean  Archive;
+  boolean  Compressed;
+  string   CompressionMethod;
+  string   CreationClassName;
   datetime CreationDate;
-  string   CSCreationClassName;
-  string   CSName;
-  string   Drive;
-  string   EightDotThreeFileName;
-  boolean  Encrypted;
-  string   EncryptionMethod;
-  string   Name;
-  string   Extension;
-  string   FileName;
-  uint64   FileSize;
-  string   FileType;
-  string   FSCreationClassName;
-  string   FSName;
-  boolean  Hidden;
-  uint64   InUseCount;
+  string   CSCreationClassName;
+  string   CSName;
+  string   Drive;
+  string   EightDotThreeFileName;
+  boolean  Encrypted;
+  string   EncryptionMethod;
+  string   Name;
+  string   Extension;
+  string   FileName;
+  uint64   FileSize;
+  string   FileType;
+  string   FSCreationClassName;
+  string   FSName;
+  boolean  Hidden;
+  uint64   InUseCount;
   datetime LastAccessed;
   datetime LastModified;
-  string   Path;
-  boolean  Readable;
-  boolean  System;
-  boolean  Writeable;
+  string   Path;
+  boolean  Readable;
+  boolean  System;
+  boolean  Writeable;
 };
 ```
 
@@ -95,7 +98,7 @@ The **CIM\_LogicalFile** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -120,7 +123,7 @@ Bitmask that represents the access rights required to access or perform specific
 > [!Note]  
 > On FAT volumes, the **FULL\_ACCESS** value is returned instead, which indicates no security has been set on the object.
 
- 
+ 
 
 <dt>
 
@@ -820,8 +823,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -835,9 +838,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

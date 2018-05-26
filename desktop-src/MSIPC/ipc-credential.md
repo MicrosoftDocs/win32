@@ -4,11 +4,13 @@ description: Credential structure used to authenticate to a server running AD RM
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ce77fbc9-f1da-4556-b3d2-192dc24e0747'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: ce77fbc9-f1da-4556-b3d2-192dc24e0747
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_CREDENTIAL structure Active Directory Rights Management Services SDK 2.0", "PIPC_CREDENTIAL structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_CREDENTIAL structure Active Directory Rights Management Services SDK 2.0
+- PIPC_CREDENTIAL structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - Ipcbase.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPC\_CREDENTIAL structure
@@ -30,9 +35,9 @@ Credential structure used to authenticate to a server running AD RMS.
 typedef struct _IPC_CREDENTIAL {
   DWORD dwType;
   union {
-    PCCERT_CONTEXT                 pcCertContext;
+    PCCERT_CONTEXT                 pcCertContext;
     PCIPC_CREDENTIAL_SYMMETRIC_KEY pcSymmetricKey;
-    PIPC_OATH2_CALLBACK_INFO       pcOAuth2;
+    PIPC_OATH2_CALLBACK_INFO       pcOAuth2;
   };
 } IPC_CREDENTIAL, *PIPC_CREDENTIAL;
 ```
@@ -109,7 +114,7 @@ Callback for an OAuth credential represented by an [**IPC\_OAUTH2\_CALLBACK\_INF
 > \[!Important\]  
 > The union in this structure has been updated to work with compilers that do not support nameless unions. If your compiler does not support nameless unions, define the **NONAMELESSUNION** token before including the Msipc.h header file.
 
- 
+ 
 
 The value of the **dwType** member governs the interpretation of the union. The following list shows the possible values for **dwType**.
 
@@ -148,8 +153,8 @@ For more information on how to retrieve a token, see [Azure Active Directory Aut
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcbase.h (include Msipc.h)</dt> </dl> |
 
 
@@ -182,9 +187,9 @@ For more information on how to retrieve a token, see [Azure Active Directory Aut
 [Enable your service application to work with cloud based RMS](how-to-use-file-api-with-aadrm--cloud-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

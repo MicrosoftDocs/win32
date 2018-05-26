@@ -1,13 +1,16 @@
 ---
-Description: 'The IsLocal property of the SWbemProperty object is a Boolean value that can be used to determine if this property is local. A value of FALSE indicates that this property has been inherited from another class. This property is read-only.'
+Description: The IsLocal property of the SWbemProperty object is a Boolean value that can be used to determine if this property is local. A value of FALSE indicates that this property has been inherited from another class. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'eda1f962-03b5-4322-bb06-c27aedf94be1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: eda1f962-03b5-4322-bb06-c27aedf94be1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemProperty.IsLocal property'
+title: SWbemProperty.IsLocal property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemProperty.IsLocal property
@@ -35,8 +38,8 @@ SWbemProperty.IsLocal As Boolean
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -45,9 +48,9 @@ SWbemProperty.IsLocal As Boolean
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Level (SystemPropertiesType) Element
 description: Contains the severity level of the event.
-ms.assetid: '3936defc-c093-4f25-bc90-71a2405b76e1'
-keywords: ["Level element EventLog"]
+ms.assetid: 3936defc-c093-4f25-bc90-71a2405b76e1
+keywords:
+- Level element EventLog
 topic_type:
 - apiref
 api_name:
 - Level
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Level (SystemPropertiesType) Element
@@ -29,8 +35,8 @@ The **Level** element is defined by the [**SystemPropertiesType**](eventschema-s
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **Level** element is defined by the [**SystemPropertiesType**](eventschema-s
 [**System (EventType)**](eventschema-system-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

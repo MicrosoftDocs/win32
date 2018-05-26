@@ -1,7 +1,12 @@
-﻿---
-Description: 'Access the mesh''s adjacency buffer.'
-ms.assetid: '42b13f14-4edf-4b56-9198-60a548855542'
-title: 'ID3DX10Mesh::GetAdjacencyBuffer method'
+---
+Description: Access the meshs adjacency buffer.
+ms.assetid: 42b13f14-4edf-4b56-9198-60a548855542
+title: ID3DX10MeshGetAdjacencyBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::GetAdjacencyBuffer method

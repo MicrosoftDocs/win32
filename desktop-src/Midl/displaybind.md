@@ -2,13 +2,19 @@
 title: displaybind attribute
 description: The \ displaybind\ attribute indicates a property that should be displayed to the user as bindable.
 ms.assetid: 047a58b2-3ae2-437a-992f-a9d1541decbe
-keywords: ["displaybind attribute MIDL"]
+keywords:
+- displaybind attribute MIDL
 topic_type:
 - apiref
 api_name:
 - displaybind
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # displaybind attribute

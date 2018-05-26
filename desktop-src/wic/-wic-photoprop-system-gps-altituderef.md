@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.GPS.AltitudeRef property.'
-ms.assetid: 'abbb2441-25ca-484b-a744-620ff2794221'
-title: 'System.GPS.AltitudeRef Photo Metadata Policy'
+Description: The photo metadata policy for the System.GPS.AltitudeRef property.
+ms.assetid: abbb2441-25ca-484b-a744-620ff2794221
+title: System.GPS.AltitudeRef Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.AltitudeRef Photo Metadata Policy

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Removes all scheduled priority blend events from the animation controller.'
-ms.assetid: '4dea1998-4081-4c2c-929e-6fb440806c2a'
-title: 'ID3DXAnimationController::UnkeyAllPriorityBlends method'
+---
+Description: Removes all scheduled priority blend events from the animation controller.
+ms.assetid: 4dea1998-4081-4c2c-929e-6fb440806c2a
+title: ID3DXAnimationControllerUnkeyAllPriorityBlends method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::UnkeyAllPriorityBlends method

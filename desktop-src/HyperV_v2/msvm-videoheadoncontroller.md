@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a video head with the video controller that includes it.'
-ms.assetid: 'D072DF7C-D55B-4203-9FE5-B395D1EC1632'
-title: 'Msvm\_VideoHeadOnController class'
+Description: Associates a video head with the video controller that includes it.
+ms.assetid: D072DF7C-D55B-4203-9FE5-B395D1EC1632
+title: Msvm\_VideoHeadOnController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VideoHeadOnController class
@@ -17,7 +22,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_VideoHeadOnController : CIM_VideoHeadOnController
 {
   CIM_DisplayController REF Antecedent;
-  Msvm_VideoHead        REF Dependent;
+  Msvm_VideoHead        REF Dependent;
 };
 ```
 
@@ -75,8 +80,8 @@ Access to the **Msvm\_VideoHeadOnController** class might be restricted by UAC F
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -96,9 +101,9 @@ Access to the **Msvm\_VideoHeadOnController** class might be restricted by UAC F
 [Video Classes](video-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

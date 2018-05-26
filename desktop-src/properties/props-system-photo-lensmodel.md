@@ -1,7 +1,12 @@
 ---
-Description: 'A string indicating the model of the lens used to take the picture. Can be blank or not present.'
-ms.assetid: '11b5f668-28ef-4961-9739-2b102ec397bd'
-title: 'System.Photo.LensModel'
+Description: A string indicating the model of the lens used to take the picture. Can be blank or not present.
+ms.assetid: 11b5f668-28ef-4961-9739-2b102ec397bd
+title: System.Photo.LensModel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.LensModel

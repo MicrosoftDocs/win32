@@ -1,7 +1,12 @@
 ---
 title: UI Automation Clients
 description: This section describes the interfaces and functions for unmanaged, COM-based UI Automation clients.
-ms.assetid: 'f73acd55-2276-493a-93f7-35367ad8b3d9'
+ms.assetid: f73acd55-2276-493a-93f7-35367ad8b3d9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Clients

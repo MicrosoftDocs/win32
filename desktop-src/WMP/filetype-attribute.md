@@ -1,14 +1,20 @@
 ---
 title: FileType Attribute
 description: The FileType attribute is the three-letter file name extension, such as \ 0034;wma \ 0034; or \ 0034;mp3 \ 0034;.
-ms.assetid: '0ddfd368-1fb6-4053-bf6f-efda0d9c66ba'
-keywords: ["FileType Attribute Windows Media Player"]
+ms.assetid: 0ddfd368-1fb6-4053-bf6f-efda0d9c66ba
+keywords:
+- FileType Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - FileType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileType Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

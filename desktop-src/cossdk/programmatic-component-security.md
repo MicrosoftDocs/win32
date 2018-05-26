@@ -1,12 +1,17 @@
 ---
-Description: 'When you use role-based security in the COM+ application that contains your component, you have access to programmatic security functionality from within your component.'
-ms.assetid: '6117970c-5dbd-485e-978e-3aa96e42b359'
+Description: When you use role-based security in the COM+ application that contains your component, you have access to programmatic security functionality from within your component.
+ms.assetid: 6117970c-5dbd-485e-978e-3aa96e42b359
 title: Programmatic Component Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programmatic Component Security
 
-When you use role-based security in the COM+ application that contains your component, you have access to programmatic security functionality from within your component. You can check role membership to determine whether particular sections of code are executed, you can access security information using the security call context object, and you can determine whether security is enabled for the current call. You can perform all of these tasks by using a reference to a [**SecurityCallContext**](securitycallcontext.md) object (for Microsoft Visual Basic applications) or a pointer to the [**ISecurityCallContext**](isecuritycallcontext.md) interface (for C and Microsoft Visual C++ applications).
+When you use role-based security in the COM+ application that contains your component, you have access to programmatic security functionality from within your component. You can check role membership to determine whether particular sections of code are executed, you can access security information using the security call context object, and you can determine whether security is enabled for the current call. You can perform all of these tasks by using a reference to a [**SecurityCallContext**](/windows/win32/ComSvcs/?branch=master) object (for Microsoft Visual Basic applications) or a pointer to the [**ISecurityCallContext**](/windows/win32/ComSvcs/nn-comsvcs-isecuritycallcontext?branch=master) interface (for C and Microsoft Visual C++ applications).
 
 For more information regarding programmatic role-based security, see the following topics in this section:
 

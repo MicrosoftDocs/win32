@@ -1,7 +1,12 @@
 ---
 title: Installing a Provider
 description: Following sample code demonstrates the provider installation operation of the Windows Filtering Platform.
-ms.assetid: 'e39d97ba-2147-4d1e-a07c-c950a05c05f3'
+ms.assetid: e39d97ba-2147-4d1e-a07c-c950a05c05f3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing a Provider

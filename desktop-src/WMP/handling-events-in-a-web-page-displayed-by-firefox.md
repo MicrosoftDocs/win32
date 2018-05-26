@@ -1,8 +1,38 @@
 ---
 title: Handling Events in a Web Page Displayed by Firefox
 description: Handling Events in a Web Page Displayed by Firefox
-ms.assetid: '361c46ff-36e2-4497-a511-86b0439e9437'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player ActiveX control,Web pages", "Windows Media Player Mobile ActiveX control,Web pages", "ActiveX control,Web pages", "Windows Media Player ActiveX control,event handling", "Windows Media Player Mobile ActiveX control,event handling", "ActiveX control,event handling", "embedding,Web pages", "Web page embedding,event handling", "Windows Media Player,Firefox", "Windows Media Player object model,Firefox", "object model,Firefox", "Windows Media Player Mobile,Firefox", "Windows Media Player ActiveX control,Firefox", "Windows Media Player Mobile ActiveX control,Firefox", "ActiveX control,Firefox", "Firefox,event handling", "Web page embedding,Firefox", "events,Firefox"]
+ms.assetid: 361c46ff-36e2-4497-a511-86b0439e9437
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player ActiveX control,Web pages
+- Windows Media Player Mobile ActiveX control,Web pages
+- ActiveX control,Web pages
+- Windows Media Player ActiveX control,event handling
+- Windows Media Player Mobile ActiveX control,event handling
+- ActiveX control,event handling
+- embedding,Web pages
+- Web page embedding,event handling
+- Windows Media Player,Firefox
+- Windows Media Player object model,Firefox
+- object model,Firefox
+- Windows Media Player Mobile,Firefox
+- Windows Media Player ActiveX control,Firefox
+- Windows Media Player Mobile ActiveX control,Firefox
+- ActiveX control,Firefox
+- Firefox,event handling
+- Web page embedding,Firefox
+- events,Firefox
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Events in a Web Page Displayed by Firefox

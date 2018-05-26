@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ISCardISO7816 interface provides methods for implementing ISO 7816-4 functionality.'
-ms.assetid: 'c940c44f-0556-48ef-91f4-502f4c0dfc02'
+---
+Description: The ISCardISO7816 interface provides methods for implementing ISO 7816-4 functionality.
+ms.assetid: c940c44f-0556-48ef-91f4-502f4c0dfc02
 title: ISCardISO7816 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardISO7816 interface

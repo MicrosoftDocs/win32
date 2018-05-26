@@ -4,13 +4,15 @@ description: This class provides read-only access to the replication group confi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3ac929f4-382b-49b6-91b5-61339f99e337'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3ac929f4-382b-49b6-91b5-61339f99e337
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrReplicationGroupConfig class Distributed File System Replication", "DfsrReplicationGroupConfig class Distributed File System Replication , described"]
+keywords:
+- DfsrReplicationGroupConfig class Distributed File System Replication
+- DfsrReplicationGroupConfig class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -35,6 +37,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrReplicationGroupConfig class
@@ -47,22 +52,22 @@ An instance of this class is available for each replication group that contains 
 [Dynamic, Provider("DfsrConfigProv")]
 class DfsrReplicationGroupConfig : CIM_Setting
 {
-  string   Caption;
-  string   SettingID;
-  string   ReplicationGroupGuid;
-  string   ReplicationGroupName;
-  string   ReplicationGroupDn;
-  uint32   ReplicationGroupType;
-  uint32   LastChangeNumber;
+  string   Caption;
+  string   SettingID;
+  string   ReplicationGroupGuid;
+  string   ReplicationGroupName;
+  string   ReplicationGroupDn;
+  uint32   ReplicationGroupType;
+  uint32   LastChangeNumber;
   datetime LastChangeTime;
-  string   LastChangeSource;
-  uint32   TombstoneExpiryInMin;
-  string   Description;
-  Boolean  DefaultScheduleInUtc;
-  uint8    DefaultSchedule[];
-  string   ContainerComputerName;
-  boolean  IsClustered;
-  string   VcoResourceName;
+  string   LastChangeSource;
+  uint32   TombstoneExpiryInMin;
+  string   Description;
+  Boolean  DefaultScheduleInUtc;
+  uint8    DefaultSchedule[];
+  string   ContainerComputerName;
+  boolean  IsClustered;
+  string   VcoResourceName;
 };
 ```
 
@@ -110,7 +115,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Rep
 
 The name of the Active Directory computer object that holds the replication group information. Normally this name is same as the NETBIOS name of the local computer.
 
-**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
+**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -353,7 +358,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Is 
 
 Set to **TRUE** if the Active Directory server that holds the replicated folder is a virtual computer in a cluster, or **FALSE** if it is a local computer.
 
-**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
+**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -561,7 +566,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Con
 
 If the replication group is configured against a virtual computer, this property specifies the Network Name resource of the clustered replication group.
 
-**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
+**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
 
 </dd> </dl>
 
@@ -575,9 +580,9 @@ The [Get-DFSRBacklog](https://Gallery.TechNet.Microsoft.Com/dac62790-219d-4325-a
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -594,9 +599,9 @@ The [Get-DFSRBacklog](https://Gallery.TechNet.Microsoft.Com/dac62790-219d-4325-a
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

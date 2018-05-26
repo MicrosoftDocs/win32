@@ -1,7 +1,12 @@
 ---
-Description: 'Seeking capabilities.'
-ms.assetid: 'c849db20-7567-41e0-9a57-85070a6e6a3a'
-title: 'CSourceSeeking::m\_dwSeekingCaps member'
+Description: Seeking capabilities.
+ms.assetid: c849db20-7567-41e0-9a57-85070a6e6a3a
+title: CSourceSeekingm\_dwSeekingCaps member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking::m\_dwSeekingCaps member
@@ -47,9 +52,9 @@ If the filter supports a different set of capabilities, override this value.
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: SLIDER.backgroundEndColor
 description: The backgroundEndColor attribute specifies or retrieves the background ending color of the slider control.
-ms.assetid: '6406bb81-d5a7-4da1-abc3-51da1ff00a46'
-keywords: ["SLIDER.backgroundEndColor Windows Media Player"]
+ms.assetid: 6406bb81-d5a7-4da1-abc3-51da1ff00a46
+keywords:
+- SLIDER.backgroundEndColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.backgroundEndColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.backgroundEndColor
@@ -50,9 +56,9 @@ The **backgroundEndColor** is used in conjunction with a **backgroundColor**. Th
 [**SLIDER.backgroundColor**](slider-backgroundcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

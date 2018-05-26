@@ -1,14 +1,19 @@
 ---
-Description: 'To draw lines and rectangles, you need a Graphics object and a Pen object. The Graphics object provides the DrawLine method, and the Pen object stores features of the line, such as color and width.'
-ms.assetid: 'f2e4144f-f2f1-49db-bfdf-ffce3023b4cb'
+Description: To draw lines and rectangles, you need a Graphics object and a Pen object. The Graphics object provides the DrawLine method, and the Pen object stores features of the line, such as color and width.
+ms.assetid: f2e4144f-f2f1-49db-bfdf-ffce3023b4cb
 title: Using a Pen to Draw Lines and Rectangles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Pen to Draw Lines and Rectangles
 
-To draw lines and rectangles, you need a [**Graphics**](-gdiplus-class-graphics-class.md) object and a [**Pen**](-gdiplus-class-pen-class.md) object. The **Graphics** object provides the [DrawLine](-gdiplus-class-graphics-drawline-methods.md) method, and the **Pen** object stores features of the line, such as color and width.
+To draw lines and rectangles, you need a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object and a [**Pen**](/windows/win32/gdipluspen/nl-gdipluspen-pen?branch=master) object. The **Graphics** object provides the [DrawLine](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen,in const point &,in const point &)?branch=master) method, and the **Pen** object stores features of the line, such as color and width.
 
-The following example draws a line from (20, 10) to (300, 100). Assume **graphics** is an existing [**Graphics**](-gdiplus-class-graphics-class.md) object.
+The following example draws a line from (20, 10) to (300, 100). Assume **graphics** is an existing [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object.
 
 
 ```
@@ -18,9 +23,9 @@ graphics.DrawLine(&amp;pen, 20, 10, 300, 100);
 
 
 
-The first statement of code uses the [**Pen**](-gdiplus-class-pen-class.md) class constructor to create a black pen. The one argument passed to the **Pen** constructor is a [**Color**](-gdiplus-class-color-class.md) object. The values used to construct the **Color** object — (255, 0, 0, 0) — correspond to the alpha, red, green, and blue components of the color. These values define an opaque black pen.
+The first statement of code uses the [**Pen**](/windows/win32/gdipluspen/nl-gdipluspen-pen?branch=master) class constructor to create a black pen. The one argument passed to the **Pen** constructor is a [**Color**](/windows/win32/gdipluscolor/nl-gdipluscolor-color?branch=master) object. The values used to construct the **Color** object — (255, 0, 0, 0) — correspond to the alpha, red, green, and blue components of the color. These values define an opaque black pen.
 
-The following example draws a rectangle with its upper-left corner at (10, 10). The rectangle has a width of 100 and a height of 50. The second argument passed to the [**Pen**](-gdiplus-class-pen-class.md) constructor indicates that the pen width is 5 pixels.
+The following example draws a rectangle with its upper-left corner at (10, 10). The rectangle has a width of 100 and a height of 50. The second argument passed to the [**Pen**](/windows/win32/gdipluspen/nl-gdipluspen-pen?branch=master) constructor indicates that the pen width is 5 pixels.
 
 
 ```

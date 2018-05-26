@@ -1,7 +1,12 @@
 ---
-Description: 'Changes the extended replication relationship to the primary relationship for a replica virtual machine. The replica virtual machine must be in a failover committed state.'
-ms.assetid: 'B593A155-B5E6-44E5-8835-09DEB1FF868E'
-title: 'Msvm\_ReplicationService::ChangeReplicationModeToPrimary method'
+Description: Changes the extended replication relationship to the primary relationship for a replica virtual machine. The replica virtual machine must be in a failover committed state.
+ms.assetid: B593A155-B5E6-44E5-8835-09DEB1FF868E
+title: Msvm\_ReplicationServiceChangeReplicationModeToPrimary method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReplicationService::ChangeReplicationModeToPrimary method
@@ -13,9 +18,9 @@ Changes the extended replication relationship to the primary relationship for a 
 
 ```C++
 uint32 ChangeReplicationModeToPrimary(
-  [in]  CIM_ComputerSystem ComputerSystem,
-  [in]  string                 ReplicationRelationship,
-  [out] CIM_ConcreteJob    Job
+  [in]  CIM_ComputerSystem ComputerSystem,
+  [in]  string                 ReplicationRelationship,
+  [out] CIM_ConcreteJob    Job
 );
 ```
 
@@ -100,8 +105,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | \\\\Root\\Virtualization\\V2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -115,9 +120,9 @@ This method returns one of the following values.
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

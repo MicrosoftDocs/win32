@@ -4,13 +4,16 @@ description: Sets the power state of the computer. This method is deprecated. In
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1cf693ab-e8d9-4319-a023-7368b9afd855'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1cf693ab-e8d9-4319-a023-7368b9afd855
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetPowerState method iSCSI Software Target API", "SetPowerState method iSCSI Software Target API , MSFTSM_ComputerSystem class", "MSFTSM_ComputerSystem class iSCSI Software Target API , SetPowerState method"]
+keywords:
+- SetPowerState method iSCSI Software Target API
+- SetPowerState method iSCSI Software Target API , MSFTSM_ComputerSystem class
+- MSFTSM_ComputerSystem class iSCSI Software Target API , SetPowerState method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPowerState method of the MSFTSM\_ComputerSystem class
@@ -32,8 +38,8 @@ This method is inherited from the [**CIM\_ComputerSystem**](https://msdn.microso
 
 ```mof
 uint32 SetPowerState(
-  [in] uint32   PowerState,
-  [in] datetime Time
+  [in] uint32   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -126,7 +132,7 @@ Returns zero on success; otherwise returns an error code.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -140,9 +146,9 @@ Returns zero on success; otherwise returns an error code.
 [**MSFTSM\_ComputerSystem**](msftsm-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

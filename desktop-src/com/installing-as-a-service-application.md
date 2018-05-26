@@ -1,7 +1,12 @@
 ---
 title: Installing as a Service Application
 description: Installing as a Service Application
-ms.assetid: '0dd4b348-3d12-49ba-8098-4adb9df01a0e'
+ms.assetid: 0dd4b348-3d12-49ba-8098-4adb9df01a0e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing as a Service Application
@@ -12,13 +17,13 @@ An object written as a service is installed for use by COM by establishing a [Lo
 
 Classes may also be configured to run under a specific user account when activated by a remote client without being written as a service application. To do this, the class installs a user name and a password to be used when the SCM launches its local server process.
 
-When a class is configured in this fashion, calls to [**CoRegisterClassObject**](coregisterclassobject.md) with this CLSID will fail unless the process was launched by COM on behalf of an actual activation request. In other words, classes configured to run as a particular user may not be registered under any other identity.
+When a class is configured in this fashion, calls to [**CoRegisterClassObject**](/windows/win32/combaseapi/nf-combaseapi-coregisterclassobject?branch=master) with this CLSID will fail unless the process was launched by COM on behalf of an actual activation request. In other words, classes configured to run as a particular user may not be registered under any other identity.
 
 The user name is taken from the [RunAs](runas.md) named-value under the class's APPID key. If the user name is "Interactive User", the class code is run in the security context of the currently logged on user and is connected to the interactive window station.
 
 Otherwise, the password is retrieved from a hidden portion of the registry available only to administrators of the machine and to the system. The user name and password are then used to create a logon session in which the class code is run. When launched in this way, the class code runs with its own desktop and window-station and does not share window handles, the clipboard, or other user interface elements with the interactive user or other classes running in other user accounts.
 
-A server registered either with **LocalService** or **RunAs** can register an object in the running object table to allow any client to connect to it. To do so, the server's call to [**IRunningObjectTable::Register**](irunningobjecttable-register.md) must set the ROTFLAGS\_ALLOWANYCLIENT flag. A server setting this bit must have its executable name in the AppID section of the registry that refers to the AppID for the executable. An "activate as activator" server (not registered as either **LocalService** or **RunAs**) may not register an object with this flag.
+A server registered either with **LocalService** or **RunAs** can register an object in the running object table to allow any client to connect to it. To do so, the server's call to [**IRunningObjectTable::Register**](/windows/win32/ObjIdl/nf-objidl-irunningobjecttable-register?branch=master) must set the ROTFLAGS\_ALLOWANYCLIENT flag. A server setting this bit must have its executable name in the AppID section of the registry that refers to the AppID for the executable. An "activate as activator" server (not registered as either **LocalService** or **RunAs**) may not register an object with this flag.
 
 ## Related topics
 

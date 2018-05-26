@@ -1,18 +1,23 @@
-﻿---
-Description: 'Raised by the Media Session when it completes a scrubbing request.'
-ms.assetid: '1ae97022-3fb2-4c5e-9262-d5bdc2a62bee'
+---
+Description: Raised by the Media Session when it completes a scrubbing request.
+ms.assetid: 1ae97022-3fb2-4c5e-9262-d5bdc2a62bee
 title: MESessionScrubSampleComplete event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESessionScrubSampleComplete event
 
 Raised by the Media Session when it completes a scrubbing request.
 
-Scrubbing occurs when the playback rate is zero and the application calls [**IMFMediaSession::Start**](imfmediasession-start.md). This event is raised after every stream sink has completed the scrubbing request.
+Scrubbing occurs when the playback rate is zero and the application calls [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master). This event is raised after every stream sink has completed the scrubbing request.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

@@ -1,8 +1,24 @@
 ---
 title: Managing MIDI Data Blocks
 description: Managing MIDI Data Blocks
-ms.assetid: 'f29fbc08-ef67-489c-aedf-5a2bc65233f7'
-keywords: ["Musical Instrument Digital Interface (MIDI),managing data blocks", "MIDI (Musical Instrument Digital Interface),managing data blocks", "MIDI services,managing data blocks", "managing MIDI data blocks", "Musical Instrument Digital Interface (MIDI),processing driver messages", "MIDI (Musical Instrument Digital Interface),processing driver messages", "MIDI services,processing driver messages", "processing driver messages", "Musical Instrument Digital Interface (MIDI),data blocks", "MIDI (Musical Instrument Digital Interface),data blocks", "MIDI services,data blocks"]
+ms.assetid: f29fbc08-ef67-489c-aedf-5a2bc65233f7
+keywords:
+- Musical Instrument Digital Interface (MIDI),managing data blocks
+- MIDI (Musical Instrument Digital Interface),managing data blocks
+- MIDI services,managing data blocks
+- managing MIDI data blocks
+- Musical Instrument Digital Interface (MIDI),processing driver messages
+- MIDI (Musical Instrument Digital Interface),processing driver messages
+- MIDI services,processing driver messages
+- processing driver messages
+- Musical Instrument Digital Interface (MIDI),data blocks
+- MIDI (Musical Instrument Digital Interface),data blocks
+- MIDI services,data blocks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing MIDI Data Blocks

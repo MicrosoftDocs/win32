@@ -1,8 +1,19 @@
 ---
 title: Creating a Windows Media Download Package (deprecated)
 description: Creating a Windows Media Download Package (deprecated)
-ms.assetid: '95d6a214-9da6-496d-ba40-4476814b1d5a'
-keywords: ["Windows Media metafiles,Windows Media Download packages", "Windows Media Player,Windows Media Download packages", "metafiles,Windows Media Download packages", "Windows Media,Windows Media Download packages", "Windows Media Download packages,creating", "creating Windows Media Download packages"]
+ms.assetid: 95d6a214-9da6-496d-ba40-4476814b1d5a
+keywords:
+- Windows Media metafiles,Windows Media Download packages
+- Windows Media Player,Windows Media Download packages
+- metafiles,Windows Media Download packages
+- Windows Media,Windows Media Download packages
+- Windows Media Download packages,creating
+- creating Windows Media Download packages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Windows Media Download Package (deprecated)

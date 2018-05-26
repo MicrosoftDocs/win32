@@ -1,15 +1,18 @@
 ---
-Description: 'Renames a computer.'
+Description: Renames a computer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9d338ebe-caf0-42c4-995f-fd750e5664df'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9d338ebe-caf0-42c4-995f-fd750e5664df
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Rename method of the Win32\_ComputerSystem class'
+title: Rename method of the Win32\_ComputerSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Rename method of the Win32\_ComputerSystem class
@@ -23,9 +26,9 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Rename(
-  [in] string Name,
-  [in] string Password,
-  [in] string UserName
+  [in] string Name,
+  [in] string Password,
+  [in] string UserName
 );
 ```
 
@@ -52,7 +55,7 @@ Password to use when connecting to the domain controller if the *UserName* param
 *UserName* \[in\]
 </dt> <dd>
 
-String that specifies the account name to use when connecting to the domain controller. The string must be **null**-terminated, and must specify a domain NetBIOS name and user account—for example, "DOMAINNAME\\username" or "someone@domainname.com", which is a user principal name (UPN). If the **UserName** parameter is **NULL**, WMI uses the context of the caller. See the Remarks section of this topic for more information about *Password* and *UserName* parameters.
+String that specifies the account name to use when connecting to the domain controller. The string must be **null**-terminated, and must specify a domain NetBIOS name and user account for example, "DOMAINNAME\\username" or "someone@domainname.com", which is a user principal name (UPN). If the **UserName** parameter is **NULL**, WMI uses the context of the caller. See the Remarks section of this topic for more information about *Password* and *UserName* parameters.
 
 </dd> </dl>
 
@@ -65,12 +68,12 @@ Returns a 0 (zero) if successful. A nonzero return value indicates an error. If 
 **Success** (0)
 </dt> <dt>
 
-**Other** (1–4294967295)
+**Other** (1 4294967295)
 </dt> </dl>
 
 ## Remarks
 
-You can use the **Rename** method to rename a computer—if you are a member of the local administrator group. However, you cannot use the method remotely for domain computers.
+You can use the **Rename** method to rename a computer if you are a member of the local administrator group. However, you cannot use the method remotely for domain computers.
 
 If the *Password* and *UserName* parameters are specified, the connection to WMI must use the **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** (**wbemAuthenticationLevelPktPrivacy** for script and Visual Basic (VB)) authentication level.
 
@@ -402,8 +405,8 @@ return 0; // Program successfully completed.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -420,9 +423,9 @@ return 0; // Program successfully completed.
 [WMI Tasks: Accounts and Domains](https://msdn.microsoft.com/library/aa394586)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

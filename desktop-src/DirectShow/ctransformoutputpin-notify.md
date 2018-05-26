@@ -1,20 +1,25 @@
 ---
-Description: 'The Notify method notifies the pin that a quality change is requested. This method implements the IQualityControl::Notify method.'
-ms.assetid: 'cdb93eef-90d5-4111-a3d4-175903f44a13'
-title: 'CTransformOutputPin.Notify method'
+Description: The Notify method notifies the pin that a quality change is requested. This method implements the IQualityControlNotify method.
+ms.assetid: cdb93eef-90d5-4111-a3d4-175903f44a13
+title: CTransformOutputPin.Notify method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformOutputPin.Notify method
 
-The `Notify` method notifies the pin that a quality change is requested. This method implements the [**IQualityControl::Notify**](iqualitycontrol-notify.md) method.
+The `Notify` method notifies the pin that a quality change is requested. This method implements the [**IQualityControl::Notify**](/windows/win32/Strmif/nf-strmif-iqualitycontrol-notify?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT Notify(
-   IBaseFilter *pSelf,
-   Quality     q
+   IBaseFilter *pSelf,
+   Quality     q
 );
 ```
 
@@ -27,14 +32,14 @@ HRESULT Notify(
 *pSelf* 
 </dt> <dd>
 
-Pointer to the [**IBaseFilter**](ibasefilter.md) interface of the filter that delivered the quality control message.
+Pointer to the [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface of the filter that delivered the quality control message.
 
 </dd> <dt>
 
 *q* 
 </dt> <dd>
 
-[**Quality**](quality.md) structure that contains the quality control message.
+[**Quality**](/windows/win32/strmif/ns-strmif-tagquality?branch=master) structure that contains the quality control message.
 
 </dd> </dl>
 
@@ -51,7 +56,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +73,9 @@ This method calls the filter's [**CTransformFilter::AlterQuality**](ctransformfi
 
 
 
- 
+ 
 
- 
+ 
 
 
 

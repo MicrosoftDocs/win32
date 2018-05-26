@@ -1,8 +1,11 @@
 ---
 title: Activity GetActivityInstanceDisplayName method
 description: Returns the activity instance display name of the Activity.
-ms.assetid: '0E6BF330-478D-4A2D-B413-14ABB94E281C'
-keywords: ["GetActivityInstanceDisplayName method Access Execution Engine", "GetActivityInstanceDisplayName method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , GetActivityInstanceDisplayName method"]
+ms.assetid: 0E6BF330-478D-4A2D-B413-14ABB94E281C
+keywords:
+- GetActivityInstanceDisplayName method Access Execution Engine
+- GetActivityInstanceDisplayName method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , GetActivityInstanceDisplayName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::GetActivityInstanceDisplayName method
@@ -22,7 +30,7 @@ Returns the activity instance display name of the **Activity**.
 
 ```C++
 virtual HRESULT GetActivityInstanceDisplayName(
-  [out] LPCWSTR *activityInstanceDisplayName
+  [out] LPCWSTR *activityInstanceDisplayName
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The activity instance display name is the value of element **Activity/ActivityIn
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The activity instance display name is the value of element **Activity/ActivityIn
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

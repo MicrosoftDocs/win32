@@ -1,8 +1,11 @@
 ---
 title: ISystemMediaTransportControlsDisplayUpdater Update method
 description: Updates the currently displayed content.
-ms.assetid: 'BEB4AF00-92C5-4ECE-9D38-96F697E1A58B'
-keywords: ["Update method", "Update method, ISystemMediaTransportControlsDisplayUpdater interface", "ISystemMediaTransportControlsDisplayUpdater interface, Update method"]
+ms.assetid: BEB4AF00-92C5-4ECE-9D38-96F697E1A58B
+keywords:
+- Update method
+- Update method, ISystemMediaTransportControlsDisplayUpdater interface
+- ISystemMediaTransportControlsDisplayUpdater interface, Update method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Media.SystemMediaTransportControls.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISystemMediaTransportControlsDisplayUpdater::Update method
@@ -42,8 +50,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Windows.Media.SystemMediaTransportControls.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows.Media.SystemMediaTransportControls.idl</dt> </dl> |
 
@@ -56,9 +64,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ISystemMediaTransportControlsDisplayUpdater**](isystemmediatransportcontrolsdisplayupdater.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

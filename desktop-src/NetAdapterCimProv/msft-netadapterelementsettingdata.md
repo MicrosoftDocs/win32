@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a network port with its configuration data.'
-ms.assetid: '626ffadb-5bb3-47e5-9ede-a6dd0c614428'
-title: 'MSFT\_NetAdapterElementSettingData class'
+Description: Associates a network port with its configuration data.
+ms.assetid: 626ffadb-5bb3-47e5-9ede-a6dd0c614428
+title: MSFT\_NetAdapterElementSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterElementSettingData class
@@ -15,10 +20,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetAdapterElementSettingData : CIM_ElementSettingData
 {
-  uint16                     REF IsDefault;
-  uint16                     REF IsCurrent;
-  uint16                     REF IsNext;
-  MSFT_NetAdapter            REF ManagedElement;
+  uint16                     REF IsDefault;
+  uint16                     REF IsCurrent;
+  uint16                     REF IsNext;
+  MSFT_NetAdapter            REF ManagedElement;
   MSFT_NetAdapterSettingData REF SettingData;
 };
 ```
@@ -157,16 +162,16 @@ The SettingData object associated with the element. This property overrides the 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

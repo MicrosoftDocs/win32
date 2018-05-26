@@ -4,11 +4,15 @@ description: Searching
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1befd603-f7e3-412a-a033-747b9336d6da'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 1befd603-f7e3-412a-a033-747b9336d6da
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , searching AD LDS"]
+keywords:
+- AD LDS examples ADAM , searching AD LDS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Searching

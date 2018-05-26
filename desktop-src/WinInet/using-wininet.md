@@ -1,7 +1,12 @@
 ---
 title: Using WinINet
 description: This topic contains links to other topics that show you how to use the WinINet API.
-ms.assetid: '9dde3f8d-7e76-4424-82ae-a8d58d3185a7'
+ms.assetid: 9dde3f8d-7e76-4424-82ae-a8d58d3185a7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WinINet

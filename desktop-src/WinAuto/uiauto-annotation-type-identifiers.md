@@ -1,7 +1,7 @@
 ---
 title: Annotation Type Identifiers
 description: This topic describes the named constants that are used to identify types of annotations in a document.
-ms.assetid: '46948B7C-EC9F-4B55-B769-62EE8BE11D33'
+ms.assetid: 46948B7C-EC9F-4B55-B769-62EE8BE11D33
 topic_type:
 - apiref
 api_name:
@@ -33,6 +33,11 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Annotation Type Identifiers
@@ -76,8 +81,8 @@ This topic describes the named constants that are used to identify types of anno
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                            |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                            |
 | Header<br/>                   | <dl> <dt>UIAutomationClient.h</dt> </dl> |
 
 
@@ -113,9 +118,9 @@ This topic describes the named constants that are used to identify types of anno
 [UI Automation Support for Textual Content](uiauto-ui-automation-textpattern-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: enum
 description: This statement defines a C-style enumerated type.
-ms.assetid: 'd7d577e3-4a45-4dfc-be01-6018234a3cc9'
+ms.assetid: d7d577e3-4a45-4dfc-be01-6018234a3cc9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # enum

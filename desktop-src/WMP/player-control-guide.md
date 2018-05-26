@@ -1,8 +1,20 @@
 ---
 title: Player Control Guide
 description: Player Control Guide
-ms.assetid: 'dba2b2fe-6e40-4f44-99ff-7af31de9cd74'
-keywords: ["Windows Media Player,control guide", "Windows Media Player object model,control guide", "object model,control guide", "Windows Media Player Mobile,control guide", "Windows Media Player ActiveX control,about", "Windows Media Player Mobile ActiveX control,about", "ActiveX control,about"]
+ms.assetid: dba2b2fe-6e40-4f44-99ff-7af31de9cd74
+keywords:
+- Windows Media Player,control guide
+- Windows Media Player object model,control guide
+- object model,control guide
+- Windows Media Player Mobile,control guide
+- Windows Media Player ActiveX control,about
+- Windows Media Player Mobile ActiveX control,about
+- ActiveX control,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player Control Guide
@@ -23,7 +35,7 @@ The following topics describe several ways to use the embedded Windows Media Pla
 | [Creating Web-Based Presentations](creating-web-based-presentations.md)                                                                       | Describes how to use the Windows Media Player control for URL flipping.                                                      |
 | [Adding Closed Captions to Digital Media](adding-closed-captions-to-digital-media.md)                                                         | Describes how to use Synchronized Accessible Media Interchange (SAMI) format to supplement your digital media with captions. |
 | [Working with the Library](working-with-the-library.md)                                                                                       | Describes how to work with media items and playlists and their associated attributes.                                        |
-| [Burning a CD](burning-a-cd.md)                                                                                                               | Describes how to burn a CD by using the [IWMPCdromBurn](iwmpcdromburn.md) interface.                                        |
+| [Burning a CD](burning-a-cd.md)                                                                                                               | Describes how to burn a CD by using the [IWMPCdromBurn](/windows/win32/wmp/nn-wmp-iwmpcdromburn?branch=master) interface.                                        |
 | [Ripping a CD](ripping-a-cd.md)                                                                                                               | Describes how to rip a CD by using the Windows Media Player control.                                                         |
 | [Working with Portable Devices](working-with-portable-devices.md)                                                                             | Describes how to use functionality designed for portable device synchronization.                                             |
 | [Object Model Migration Guide](object-model-migration-guide.md)                                                                               | Describes how to upgrade pages designed for Windows Media Player 6.4 to make them work with the new object model.            |

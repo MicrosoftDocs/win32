@@ -4,11 +4,14 @@ description: The protection policy if the call succeeded.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.GetUserPolicyResult.Policy'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.GetUserPolicyResult.Policy
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Policy property", "Policy property, GetUserPolicyResult class", "GetUserPolicyResult class, Policy property"]
+keywords:
+- Policy property
+- Policy property, GetUserPolicyResult class
+- GetUserPolicyResult class, Policy property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetUserPolicyResult.Policy property
@@ -63,9 +69,9 @@ The protection policy if the call succeeded.
 [**GetUserPolicyResult**](getuserpolicyresult.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

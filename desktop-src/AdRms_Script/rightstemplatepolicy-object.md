@@ -1,13 +1,16 @@
 ---
-Description: 'Can be used to retrieve a collection of rights policy templates and specify the shared folder through which those templates are distributed.'
+Description: Can be used to retrieve a collection of rights policy templates and specify the shared folder through which those templates are distributed.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '4f83fc2e-3f49-4450-b5bf-168b9d88f0e1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 4f83fc2e-3f49-4450-b5bf-168b9d88f0e1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: RightsTemplatePolicy object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # RightsTemplatePolicy object
@@ -33,7 +36,7 @@ The **RightsTemplatePolicy** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -187,7 +190,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -199,9 +202,9 @@ END SUB
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

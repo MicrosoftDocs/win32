@@ -1,7 +1,12 @@
 ---
-Description: 'The width attribute specifies the width of the output video, in pixels.'
-ms.assetid: '3fcc28d8-b7ef-474b-8594-b31422974998'
+Description: The width attribute specifies the width of the output video, in pixels.
+ms.assetid: 3fcc28d8-b7ef-474b-8594-b31422974998
 title: width Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # width Attribute

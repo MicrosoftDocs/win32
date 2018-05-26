@@ -1,13 +1,16 @@
 ---
-Description: 'The SnmpExtendedNotification class is the base class for any class mapped from the NOTIFICATION-TYPE macro to a CIM class by the SNMP Provider.'
+Description: The SnmpExtendedNotification class is the base class for any class mapped from the NOTIFICATION-TYPE macro to a CIM class by the SNMP Provider.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '207966c1-14cf-4a47-8176-0f58838cfa1e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 207966c1-14cf-4a47-8176-0f58838cfa1e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SnmpExtendedNotification class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SnmpExtendedNotification class
@@ -17,7 +20,7 @@ The **SnmpExtendedNotification** class is the base class for any class mapped fr
 > [!Note]  
 > For more information about installing the provider, see [Setting up the WMI SNMP Environment](setting-up-the-wmi-snmp-environment.md).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -26,7 +29,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class SnmpExtendedNotification : __ExtrinsicEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   string AgentAddress;
   string AgentTransport;
@@ -187,8 +190,8 @@ A [NOTIFICATION-TYPE](notification-type-macro.md) macro that contains references
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\snmp\\SMIR<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>SnmpSmiR.mof</dt> </dl> |
 
@@ -204,9 +207,9 @@ A [NOTIFICATION-TYPE](notification-type-macro.md) macro that contains references
 [NOTIFICATION-TYPE Macro](notification-type-macro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

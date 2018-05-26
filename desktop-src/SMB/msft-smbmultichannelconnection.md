@@ -4,13 +4,15 @@ description: Represents an SMB connection network interface.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '07B58209-B8EF-45C0-8C66-4695F5C35C58'
-ms.prod: 'windows-server-dev'
+ms.assetid: 07B58209-B8EF-45C0-8C66-4695F5C35C58
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SmbMultichannelConnection class SMB", "MSFT_SmbMultichannelConnection class SMB , described"]
+keywords:
+- MSFT_SmbMultichannelConnection class SMB
+- MSFT_SmbMultichannelConnection class SMB , described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - SmbWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SmbMultichannelConnection class
@@ -51,24 +56,24 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [dynamic, provider("smbwmiv2"), ClassVersion("7")]
 class MSFT_SmbMultichannelConnection
 {
-  string  ServerName;
-  uint32  ClientInterfaceIndex;
-  uint32  ServerInterfaceIndex;
-  string  ServerIpAddress;
-  string  ClientIpAddress;
-  string  ClientInterfaceFriendlyName;
+  string  ServerName;
+  uint32  ClientInterfaceIndex;
+  uint32  ServerInterfaceIndex;
+  string  ServerIpAddress;
+  string  ClientIpAddress;
+  string  ClientInterfaceFriendlyName;
   boolean Selected;
   boolean ClientRSSCapable;
   boolean ServerRSSCapable;
   boolean ClientRdmaCapable;
   boolean ServerRdmaCapable;
-  uint64  ClientLinkSpeed;
-  uint64  ServerLinkSpeed;
-  uint32  MaxChannels;
-  uint32  CurrentChannels;
+  uint64  ClientLinkSpeed;
+  uint64  ServerLinkSpeed;
+  uint32  MaxChannels;
+  uint32  CurrentChannels;
   boolean Failed;
-  uint32  FailureCount;
-  uint32  SmbInstance;
+  uint32  FailureCount;
+  uint32  SmbInstance;
 };
 ```
 
@@ -91,7 +96,7 @@ The **MSFT\_SmbMultichannelConnection** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -343,7 +348,7 @@ Access type: Read-only
 
 The identifier of the SMB server instance that hosts the shares.
 
-**Windows Server 2012 and Windows 8:** This property is not supported before Windows Server 2012 R2 and Windows 8.1.
+**Windows Server 2012 and Windows 8:** This property is not supported before Windows Server 2012 R2 and Windows 8.1.
 
 <dt>
 
@@ -363,7 +368,7 @@ The identifier of the SMB server instance that hosts the shares.
 
 Represents a Cluster Shared Volume (CSV).
 
-**Windows 10 and Windows 8.1:** Cluster Shared Volumes are only supported on Windows Server systems.
+**Windows 10 and Windows 8.1:** Cluster Shared Volumes are only supported on Windows Server systems.
 
 </dd> <dt>
 
@@ -376,7 +381,7 @@ Represents a Cluster Shared Volume (CSV).
 
 Represents a Software Storage Bus used in Storage Spaces Direct.
 
-**Windows Server 2012 R2 and Windows 8.1:** This value is not supported before Windows Server 2016 and Windows 10.
+**Windows Server 2012 R2 and Windows 8.1:** This value is not supported before Windows Server 2016 and Windows 10.
 
 </dd> <dt>
 
@@ -389,9 +394,9 @@ Represents a Software Storage Bus used in Storage Spaces Direct.
 
 Represents a Storage Replica (SR).
 
-**Windows Server 2012 R2:** This value is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This value is not supported before Windows Server 2016.
 
-**Windows 10 and Windows 8.1:** Storage Replica is only supported on Windows Server systems.
+**Windows 10 and Windows 8.1:** Storage Replica is only supported on Windows Server systems.
 
 </dd> </dl>
 
@@ -403,17 +408,17 @@ Represents a Storage Replica (SR).
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>SmbWmiV2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

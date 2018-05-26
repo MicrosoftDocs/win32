@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EnvelopedData object provides properties and methods to envelop data for privacy by encryption.'
-ms.assetid: '7c5f3e3d-6a70-455d-8921-20495eec4b3e'
+---
+Description: The EnvelopedData object provides properties and methods to envelop data for privacy by encryption.
+ms.assetid: 7c5f3e3d-6a70-455d-8921-20495eec4b3e
 title: EnvelopedData object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnvelopedData object

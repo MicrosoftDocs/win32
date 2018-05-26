@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines whether a ray intersects the volume of a box''s bounding box.'
-ms.assetid: 'd3cdcf89-461b-44b0-b5d0-ca2e3869a5ad'
+---
+Description: Determines whether a ray intersects the volume of a boxs bounding box.
+ms.assetid: d3cdcf89-461b-44b0-b5d0-ca2e3869a5ad
 title: D3DXBoxBoundProbe function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXBoxBoundProbe function

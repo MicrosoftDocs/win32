@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EXTPUSH structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended push button, which can be added to a property sheet page option. When the button is pushed, a new dialog can be displayed.'
-ms.assetid: 'c38d7eca-6486-4bb1-b0a8-7f69fe13f7db'
+---
+Description: The EXTPUSH structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended push button, which can be added to a property sheet page option. When the button is pushed, a new dialog can be displayed.
+ms.assetid: c38d7eca-6486-4bb1-b0a8-7f69fe13f7db
 title: EXTPUSH structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXTPUSH structure

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a vector.'
-ms.assetid: '55f5512f-42f2-4588-abd4-1cdea530b9bf'
-title: 'ID3DXBaseEffect::GetVector method'
+---
+Description: Gets a vector.
+ms.assetid: 55f5512f-42f2-4588-abd4-1cdea530b9bf
+title: ID3DXBaseEffectGetVector method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetVector method

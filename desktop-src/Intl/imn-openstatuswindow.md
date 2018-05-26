@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies an application when an IME is about to create the status window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.'
-ms.assetid: 'bbd85c72-aa78-4e1d-8a7a-490650b2d782'
-title: 'IMN\_OPENSTATUSWINDOW notification code'
+---
+Description: Notifies an application when an IME is about to create the status window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+ms.assetid: bbd85c72-aa78-4e1d-8a7a-490650b2d782
+title: IMN\_OPENSTATUSWINDOW notification code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMN\_OPENSTATUSWINDOW notification code
@@ -41,7 +46,7 @@ This command has no return value.
 
 An application processes this command to display the status window for the IME by itself.
 
-The IME window creates a status window when it processes this command and sets the strings to display in the window into the input context. Applications can get information about the status window by using the [**ImmGetConversionStatus**](immgetconversionstatus.md) function.
+The IME window creates a status window when it processes this command and sets the strings to display in the window into the input context. Applications can get information about the status window by using the [**ImmGetConversionStatus**](/windows/win32/Imm/nf-imm-immgetconversionstatus?branch=master) function.
 
 ## Requirements
 
@@ -65,7 +70,7 @@ The IME window creates a status window when it processes this command and sets t
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**ImmGetConversionStatus**](immgetconversionstatus.md)
+[**ImmGetConversionStatus**](/windows/win32/Imm/nf-imm-immgetconversionstatus?branch=master)
 </dt> <dt>
 
 [**WM\_IME\_NOTIFY**](wm-ime-notify.md)

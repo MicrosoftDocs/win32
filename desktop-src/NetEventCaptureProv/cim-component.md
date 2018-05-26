@@ -1,8 +1,10 @@
 ---
 title: CIM\_Component class
-description: CIM\_Component is a generic association used to establish \\'part of\\' relationships between Managed Elements. For example, it could be used to define the components or parts of a System.
-ms.assetid: '44b82c0d-acf8-471c-91c4-4180a7705ac3'
-keywords: ["CIM_Component class", "CIM_Component class, described"]
+description: CIM\_Component is a generic association used to establish \\part of\\ relationships between Managed Elements. For example, it could be used to define the components or parts of a System.
+ms.assetid: 44b82c0d-acf8-471c-91c4-4180a7705ac3
+keywords:
+- CIM_Component class
+- CIM_Component class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - NetEventPacketCapture.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_Component class
@@ -82,17 +89,17 @@ The child element in the association.
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                                       |
 | MOF<br/>                      | <dl> <dt>NetEventPacketCapture.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetEventPacketCapture.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

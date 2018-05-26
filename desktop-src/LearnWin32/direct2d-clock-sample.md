@@ -1,7 +1,12 @@
 ---
 title: Direct2D Clock Sample
 description: This sample application shows how to use transforms in Direct2D to draw the hands of a clock.
-ms.assetid: '7A4B0985-977A-4AB2-B8AF-0586C8533F08'
+ms.assetid: 7A4B0985-977A-4AB2-B8AF-0586C8533F08
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct2D Clock Sample

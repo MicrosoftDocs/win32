@@ -1,8 +1,25 @@
 ---
 title: Porting Polygons and Quadrilaterals
 description: Keep the following points in mind when porting polygons and quadrilaterals
-ms.assetid: '2b752437-caf9-4336-a906-d06b2aa8bb04'
-keywords: ["IRIS GL porting,quadrilaterals", "porting from IRIS GL,quadrilaterals", "porting to OpenGL from IRIS GL,quadrilaterals", "OpenGL porting from IRIS GL,quadrilaterals", "drawing functions,quadrilaterals", "quadrilaterals", "IRIS GL porting,polygons", "porting from IRIS GL,polygons", "porting to OpenGL from IRIS GL,polygons", "OpenGL porting from IRIS GL,polygons", "drawing functions,polygons", "polygons,porting from IRIS GL"]
+ms.assetid: 2b752437-caf9-4336-a906-d06b2aa8bb04
+keywords:
+- IRIS GL porting,quadrilaterals
+- porting from IRIS GL,quadrilaterals
+- porting to OpenGL from IRIS GL,quadrilaterals
+- OpenGL porting from IRIS GL,quadrilaterals
+- drawing functions,quadrilaterals
+- quadrilaterals
+- IRIS GL porting,polygons
+- porting from IRIS GL,polygons
+- porting to OpenGL from IRIS GL,polygons
+- OpenGL porting from IRIS GL,polygons
+- drawing functions,polygons
+- polygons,porting from IRIS GL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Polygons and Quadrilaterals
@@ -31,7 +48,7 @@ The following table lists the IRIS GL polygon drawing functions and their equiva
 
 
 
- 
+ 
 
 ??
 
@@ -56,7 +73,7 @@ where face is one of:
 
 
 
- 
+ 
 
 The GL\_FRONT\_AND\_BACK mode is equivalent to the IRIS GL **polymode** function. The following table lists IRIS GL polygon modes and their equivalent OpenGL modes.
 
@@ -71,7 +88,7 @@ The GL\_FRONT\_AND\_BACK mode is equivalent to the IRIS GL **polymode** function
 
 
 
- 
+ 
 
 ## Porting Polygon Stipples
 
@@ -95,7 +112,7 @@ The following table lists IRIS GL polygon stipple functions and their equivalent
 
 
 
- 
+ 
 
 In OpenGL, you enable and disable polygon stippling by passing GL\_POLYGON\_STIPPLE as a parameter for [**glEnable**](glenable.md) and [**glDisable**](gldisable.md).
 
@@ -189,11 +206,11 @@ The following table lists the OpenGL functions for drawing tessellated polygons.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

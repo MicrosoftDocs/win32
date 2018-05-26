@@ -1,7 +1,12 @@
 ---
 title: IVMAccountant Methods
 description: The IVMAccountant interface defines the following methods
-ms.assetid: '938dcfe1-285b-4242-94ca-631c042e6adf'
+ms.assetid: 938dcfe1-285b-4242-94ca-631c042e6adf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccountant Methods

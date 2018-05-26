@@ -1,7 +1,12 @@
 ---
-Description: 'Deletes the logical file (or directory) specified in the Win32\_NTEventlogFile.Name property.'
-ms.assetid: 'a1e41c42-dea9-4f9f-9769-85719239ec88'
-title: 'DeleteEx method of the Win32\_NTEventlogFile class'
+Description: Deletes the logical file (or directory) specified in the Win32\_NTEventlogFile.Name property.
+ms.assetid: a1e41c42-dea9-4f9f-9769-85719239ec88
+title: DeleteEx method of the Win32\_NTEventlogFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteEx method of the Win32\_NTEventlogFile class
@@ -15,8 +20,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 DeleteEx(
-  [out]          string StopFileName,
-  [in, optional] string StartFileName
+  [out]          string StopFileName,
+  [in, optional] string StartFileName
 );
 ```
 
@@ -62,7 +67,7 @@ Names the child file or directory to use as a starting point for **DeleteEx**. T
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -70,8 +75,8 @@ Names the child file or directory to use as a starting point for **DeleteEx**. T
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntevt.dll</dt> </dl> |
@@ -88,9 +93,9 @@ Names the child file or directory to use as a starting point for **DeleteEx**. T
 [**Win32\_NTEventlogFile**](win32-nteventlogfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

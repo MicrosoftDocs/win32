@@ -1,7 +1,12 @@
 ---
 title: IIS Logging
 description: IIS logging is one type of server side logging that can be enabled on a URL group.
-ms.assetid: '2adfee73-090a-4bc1-827e-4b0e8075e2b3'
+ms.assetid: 2adfee73-090a-4bc1-827e-4b0e8075e2b3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIS Logging

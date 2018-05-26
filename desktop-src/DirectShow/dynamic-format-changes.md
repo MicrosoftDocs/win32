@@ -1,7 +1,12 @@
 ---
 Description: Dynamic Format Changes
-ms.assetid: 'ff60de5a-3edc-405d-aa02-8704b96d5e87'
+ms.assetid: ff60de5a-3edc-405d-aa02-8704b96d5e87
 title: Dynamic Format Changes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic Format Changes

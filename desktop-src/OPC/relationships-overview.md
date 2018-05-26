@@ -1,8 +1,19 @@
 ---
 title: Relationships Overview
 description: This topic describes the basics of using Packaging APIs to interact with relationships, which are directional associations.
-ms.assetid: '8e071847-7eb2-4528-8402-4aaa1f5cd216'
-keywords: ["Packaging APIs,relationships", "packaging,relationships", "packages,relationships", "relationships,about", "relationships,objects", "parts,relationships"]
+ms.assetid: 8e071847-7eb2-4528-8402-4aaa1f5cd216
+keywords:
+- Packaging APIs,relationships
+- packaging,relationships
+- packages,relationships
+- relationships,about
+- relationships,objects
+- parts,relationships
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Relationships Overview
@@ -20,11 +31,11 @@ This topic contains the following sections.
 
 ## Introduction
 
-In the analogy of a package to a real–world filing system, relationships can be used to navigate a package like information on a directory card can be used to navigate a filing system.
+In the analogy of a package to a real world filing system, relationships can be used to navigate a package like information on a directory card can be used to navigate a filing system.
 
 In the logical model of a package, relationships are the links that connect a source to a target. While the source is either the package or a part, the target can be any URI-addressable resource inside or outside of the package.
 
-If the relationship target is inside the package, the targeted resource is a part in the package. If the target is outside of the package, the targeted resource can be any URI-addressable resource.
+If the relationship target is inside the package, the targeted resource is a part in the package. If the target is outside of the package, the targeted resource can be any URI-addressable resource.
 
 ## Prerequisites
 
@@ -32,13 +43,13 @@ For a table of prerequisites, see [Packaging](packaging.md).
 
 ## Relationship Objects
 
-Windows 7 provides the relationship object implementation of the [**IOpcRelationship**](iopcrelationship.md) interface.
+Windows 7 provides the relationship object implementation of the [**IOpcRelationship**](/windows/previous-versions/msopc/nn-msopc-iopcrelationship?branch=master) interface.
 
-A relationship object is instantiated to represent a relationship. The object is created by calling the [**IOpcRelationshipSet::CreateRelationship**](iopcrelationshipset-createrelationship.md) method and accessed by calling the [**IOpcRelationshipSet::GetRelationship**](iopcrelationshipset-getrelationship.md) or [**IOpcRelationshipEnumerator::GetCurrent**](iopcrelationshipenumerator-getcurrent.md) method.
+A relationship object is instantiated to represent a relationship. The object is created by calling the [**IOpcRelationshipSet::CreateRelationship**](/windows/previous-versions/msopc/nf-msopc-iopcrelationshipset-createrelationship?branch=master) method and accessed by calling the [**IOpcRelationshipSet::GetRelationship**](/windows/previous-versions/msopc/nf-msopc-iopcrelationshipset-getrelationship?branch=master) or [**IOpcRelationshipEnumerator::GetCurrent**](/windows/previous-versions/msopc/nf-msopc-iopcrelationshipenumerator-getcurrent?branch=master) method.
 
-Relationship objects are contained in a relationship set object, which represents the Relationships part where all relationships that have the same source are stored. For more information about relationship set objects, see the [Relationship Set Objects](#relationship-set-objects) section and the [**IOpcRelationshipSet**](iopcrelationshipset.md) topic.
+Relationship objects are contained in a relationship set object, which represents the Relationships part where all relationships that have the same source are stored. For more information about relationship set objects, see the [Relationship Set Objects](#relationship-set-objects) section and the [**IOpcRelationshipSet**](/windows/previous-versions/msopc/nn-msopc-iopcrelationshipset?branch=master) topic.
 
-A pointer to the [**IOpcRelationship**](iopcrelationship.md) interface of a relationship object provides to relationship information through methods that enable access to the following properties: relationship identifier, relationship type, source URI, target resource URI, and target mode. These properties are listed in the following table.
+A pointer to the [**IOpcRelationship**](/windows/previous-versions/msopc/nn-msopc-iopcrelationship?branch=master) interface of a relationship object provides to relationship information through methods that enable access to the following properties: relationship identifier, relationship type, source URI, target resource URI, and target mode. These properties are listed in the following table.
 
 | Property                | Description                                                                                                                         |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
@@ -50,21 +61,21 @@ A pointer to the [**IOpcRelationship**](iopcrelationship.md) interface of a rela
 
 
 
- 
+ 
 
-The URI of the relationship source is represented by an OPC URI object, which implements the [**IOpcUri**](iopcuri.md) interface. The relative URI of the relationship target is represented by an implementation of the [IUri](http://go.microsoft.com/fwlink/p/?linkid=116163) interface. The following diagram shows a relationship object, the OPC URI object of the source, and the URI of the target URI that are retrieved from the relationship object.
+The URI of the relationship source is represented by an OPC URI object, which implements the [**IOpcUri**](/windows/previous-versions/msopc/nn-msopc-iopcuri?branch=master) interface. The relative URI of the relationship target is represented by an implementation of the [IUri](http://go.microsoft.com/fwlink/p/?linkid=116163) interface. The following diagram shows a relationship object, the OPC URI object of the source, and the URI of the target URI that are retrieved from the relationship object.
 
 ![illustration showing a relationship object, the opc uri object, and the uri that can be retrieved from it](../images/relationship-object.png)
 
 ## Relationship Set Objects
 
-Windows 7 provides the relationship set object implementation of the [**IOpcRelationshipSet**](iopcrelationshipset.md) interface.
+Windows 7 provides the relationship set object implementation of the [**IOpcRelationshipSet**](/windows/previous-versions/msopc/nn-msopc-iopcrelationshipset?branch=master) interface.
 
-A relationship set object represents a Relationships part that stores all relationships that have the same source. These set objects can be accessed by calling either the [**IOpcPackage::GetRelationshipSet**](iopcpackage-getrelationshipset.md) or [**IOpcPart::GetRelationshipSet**](iopcpart-getrelationshipset.md) method. If the set is retrieved using **IOpcPackage::GetRelationshipSet**, it represents the Relationships part that stores package relationships. If it is retrieved using **IOpcPart::GetRelationshipSet**, the set represents the Relationships part that stores part relationships that have the same source.
+A relationship set object represents a Relationships part that stores all relationships that have the same source. These set objects can be accessed by calling either the [**IOpcPackage::GetRelationshipSet**](/windows/previous-versions/msopc/nf-msopc-iopcpackage-getrelationshipset?branch=master) or [**IOpcPart::GetRelationshipSet**](/windows/previous-versions/msopc/nf-msopc-iopcpart-getrelationshipset?branch=master) method. If the set is retrieved using **IOpcPackage::GetRelationshipSet**, it represents the Relationships part that stores package relationships. If it is retrieved using **IOpcPart::GetRelationshipSet**, the set represents the Relationships part that stores part relationships that have the same source.
 
-A pointer to the [**IOpcRelationshipSet**](iopcrelationshipset.md) interface of a relationship set object provides access to relationship objects that represent the relationships stored in the corresponding Relationships part, and a part content stream of the relationship markup that defines the relationships in the Relationships part.
+A pointer to the [**IOpcRelationshipSet**](/windows/previous-versions/msopc/nn-msopc-iopcrelationshipset?branch=master) interface of a relationship set object provides access to relationship objects that represent the relationships stored in the corresponding Relationships part, and a part content stream of the relationship markup that defines the relationships in the Relationships part.
 
-The [**IOpcRelationshipSet**](iopcrelationshipset.md) interface provides methods to create, delete, and get enumerators for the relationship objects contained in the set.
+The [**IOpcRelationshipSet**](/windows/previous-versions/msopc/nn-msopc-iopcrelationshipset?branch=master) interface provides methods to create, delete, and get enumerators for the relationship objects contained in the set.
 
 ## Additional Resources
 
@@ -78,7 +89,7 @@ While not required to use the Packaging API, knowledge of the following technolo
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -111,9 +122,9 @@ While not required to use the Packaging API, knowledge of the following technolo
 [ECMA-376 OpenXML](http://go.microsoft.com/fwlink/p/?linkid=123375)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Thursday (daysOfWeekType) Element
 description: Specifies that the task runs on Thursday.
-ms.assetid: '01d0e7e8-7135-4f43-9d8f-b50c002b93bc'
-keywords: ["Thursday element Task Scheduler"]
+ms.assetid: 01d0e7e8-7135-4f43-9d8f-b50c002b93bc
+keywords:
+- Thursday element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Thursday
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thursday (daysOfWeekType) Element
@@ -53,8 +59,8 @@ The following XML defines a day of week calendar that starts a task on Thursday.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -68,9 +74,9 @@ The following XML defines a day of week calendar that starts a task on Thursday.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

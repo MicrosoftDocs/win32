@@ -1,8 +1,16 @@
 ---
 title: Functions
 description: Functions
-ms.assetid: '5d726c56-d0f3-4eb8-829f-3a0c1a0e0802'
-keywords: ["Windows Media Format SDK,functions", "Advanced Systems Format (ASF),functions", "ASF (Advanced Systems Format),functions"]
+ms.assetid: 5d726c56-d0f3-4eb8-829f-3a0c1a0e0802
+keywords:
+- Windows Media Format SDK,functions
+- Advanced Systems Format (ASF),functions
+- ASF (Advanced Systems Format),functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Functions
@@ -15,29 +23,29 @@ This SDK supports the following functions for initial creation of objects. If an
 
 | Function                                                                             | Description                                                                                                                                             |
 |--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**WMCheckURLExtension**](wmcheckurlextension.md)                                   | Examines the file name extension in the URL or file name that is passed in as an argument                                                               |
-| [**WMCheckURLScheme**](wmcheckurlscheme.md)                                         | Examines a network protocol and compares it to an internal list of supported schemes                                                                    |
-| [**WMCreateBackupRestorer**](wmcreatebackuprestorer.md)                             | Creates a backup restorer object.                                                                                                                       |
-| [**WMCreateCertificate**](wmcreatecertificate.md)                                   | Wraps the user's certificates into an object.                                                                                                           |
-| [**WMCreateDeviceRegistration**](wmcreatedeviceregistration.md)                     | Creates a device registration object.                                                                                                                   |
-| [**WMCreateDRMTranscryptor**](wmcreatedrmtranscryptor.md)                           | Creates a DRM transcryptor object.                                                                                                                      |
-| [**WMCreateEditor**](wmcreateeditor.md)                                             | Creates a metadata editor object.                                                                                                                       |
-| [**WMCreateIndexer**](wmcreateindexer.md)                                           | Creates an indexer object.                                                                                                                              |
-| [**WMCreateLicenseRevocationAgent**](wmcreatelicenserevocationagent.md)             | Creates a license revocation agent object.                                                                                                              |
-| [**WMCreateProfileManager**](wmcreateprofilemanager.md)                             | Creates a profile manager object.                                                                                                                       |
-| [**WMCreateReader**](wmcreatereader.md)                                             | Creates a reader object.                                                                                                                                |
-| [**WMCreateSecureChannel**](wmcreatesecurechannel.md)                               | Creates an object that implements [**IWMSecureChannel**](iwmsecurechannel.md).                                                                         |
-| [**WMCreateSecureChannel\_Certified**](wmcreatesecurechannel-certified.md)          | Creates an object that implements [**IWMSecureChannel**](iwmsecurechannel.md).                                                                         |
-| [**WMCreateSecureChannel\_Certified\_DES**](wmcreatesecurechannel-certified-des.md) | Creates an object that implements [**IWMSecureChannel**](iwmsecurechannel.md)..                                                                        |
-| [**WMCreateSecureChannel\_DES**](wmcreatesecurechannel-des.md)                      | Creates an object that implements [**IWMSecureChannel**](iwmsecurechannel.md).                                                                         |
-| [**WMCreateSyncReader**](wmcreatesyncreader.md)                                     | Creates a synchronous reader object.                                                                                                                    |
-| [**WMCreateWriter**](wmcreatewriter.md)                                             | Creates a writer object.                                                                                                                                |
-| [**WMCreateWriterFileSink**](wmcreatewriterfilesink.md)                             | Creates a writer file sink object.                                                                                                                      |
-| [**WMCreateWriterNetworkSink**](wmcreatewriternetworksink.md)                       | Creates a writer network sink object.                                                                                                                   |
-| [**WMCreateWriterPushSink**](wmcreatewriterpushsink.md)                             | Creates a writer push sink object.                                                                                                                      |
-| [**WMIsAvailableOffline**](wmisavailableoffline.md)                                 | Verifies that an ASF file can be played from a cached copy.                                                                                             |
-| [**WMIsContentProtected**](wmiscontentprotected.md)                                 | Checks a file for DRM-protected content.                                                                                                                |
-| [**WMValidateData**](wmvalidatedata.md)                                             | Verifies that data from the beginning of a file is consistent with the header section of a file type that is supported by the Windows Media Format SDK. |
+| [**WMCheckURLExtension**](/windows/win32/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension?branch=master)                                   | Examines the file name extension in the URL or file name that is passed in as an argument                                                               |
+| [**WMCheckURLScheme**](/windows/win32/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlscheme?branch=master)                                         | Examines a network protocol and compares it to an internal list of supported schemes                                                                    |
+| [**WMCreateBackupRestorer**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatebackuprestorer?branch=master)                             | Creates a backup restorer object.                                                                                                                       |
+| [**WMCreateCertificate**](/windows/win32/Wmsdkidl/?branch=master)                                   | Wraps the user's certificates into an object.                                                                                                           |
+| [**WMCreateDeviceRegistration**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatedeviceregistration?branch=master)                     | Creates a device registration object.                                                                                                                   |
+| [**WMCreateDRMTranscryptor**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatedrmtranscryptor?branch=master)                           | Creates a DRM transcryptor object.                                                                                                                      |
+| [**WMCreateEditor**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreateeditor?branch=master)                                             | Creates a metadata editor object.                                                                                                                       |
+| [**WMCreateIndexer**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreateindexer?branch=master)                                           | Creates an indexer object.                                                                                                                              |
+| [**WMCreateLicenseRevocationAgent**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatelicenserevocationagent?branch=master)             | Creates a license revocation agent object.                                                                                                              |
+| [**WMCreateProfileManager**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreateprofilemanager?branch=master)                             | Creates a profile manager object.                                                                                                                       |
+| [**WMCreateReader**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatereader?branch=master)                                             | Creates a reader object.                                                                                                                                |
+| [**WMCreateSecureChannel**](/windows/win32/Wmsecure/nf-wmsecure-wmcreatesecurechannel?branch=master)                               | Creates an object that implements [**IWMSecureChannel**](/windows/win32/Wmsecure/?branch=master).                                                                         |
+| [**WMCreateSecureChannel\_Certified**](/windows/win32/Wmsecure/nf-wmsecure-wmcreatesecurechannel_certified?branch=master)          | Creates an object that implements [**IWMSecureChannel**](/windows/win32/Wmsecure/?branch=master).                                                                         |
+| [**WMCreateSecureChannel\_Certified\_DES**](/windows/win32/Wmsecure/nf-wmsecure-wmcreatesecurechannel_certified_des?branch=master) | Creates an object that implements [**IWMSecureChannel**](/windows/win32/Wmsecure/?branch=master)..                                                                        |
+| [**WMCreateSecureChannel\_DES**](/windows/win32/Wmsecure/nf-wmsecure-wmcreatesecurechannel_des?branch=master)                      | Creates an object that implements [**IWMSecureChannel**](/windows/win32/Wmsecure/?branch=master).                                                                         |
+| [**WMCreateSyncReader**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatesyncreader?branch=master)                                     | Creates a synchronous reader object.                                                                                                                    |
+| [**WMCreateWriter**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatewriter?branch=master)                                             | Creates a writer object.                                                                                                                                |
+| [**WMCreateWriterFileSink**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatewriterfilesink?branch=master)                             | Creates a writer file sink object.                                                                                                                      |
+| [**WMCreateWriterNetworkSink**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatewriternetworksink?branch=master)                       | Creates a writer network sink object.                                                                                                                   |
+| [**WMCreateWriterPushSink**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink?branch=master)                             | Creates a writer push sink object.                                                                                                                      |
+| [**WMIsAvailableOffline**](/windows/win32/wmsdkvalidate/nf-wmsdkvalidate-wmisavailableoffline?branch=master)                                 | Verifies that an ASF file can be played from a cached copy.                                                                                             |
+| [**WMIsContentProtected**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmiscontentprotected?branch=master)                                 | Checks a file for DRM-protected content.                                                                                                                |
+| [**WMValidateData**](/windows/win32/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata?branch=master)                                             | Verifies that data from the beginning of a file is consistent with the header section of a file type that is supported by the Windows Media Format SDK. |
 
 
 
@@ -49,11 +57,11 @@ The following functions provide convenient shortcuts for analyzing files.
 
 | Function                                             | Description                                                                                                                                  |
 |------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**WMCheckURLExtension**](wmcheckurlextension.md)   | Tries to determine whether a file is readable by the objects of the Windows Media Format SDK, based on the file name extension.              |
-| [**WMCheckURLScheme**](wmcheckurlscheme.md)         | Determines whether a network protocol is supported by the objects of the Windows Media Format SDK.                                           |
-| [**WMIsAvailableOffline**](wmisavailableoffline.md) | Determines whether a file is available for playback offline.                                                                                 |
-| [**WMIsContentProtected**](wmiscontentprotected.md) | Checks a file for DRM-protected content.                                                                                                     |
-| [**WMValidateData**](wmvalidatedata.md)             | Tries to determine whether a file is readable by the objects of the Windows Media Format SDK by analyzing data at the beginning of the file. |
+| [**WMCheckURLExtension**](/windows/win32/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension?branch=master)   | Tries to determine whether a file is readable by the objects of the Windows Media Format SDK, based on the file name extension.              |
+| [**WMCheckURLScheme**](/windows/win32/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlscheme?branch=master)         | Determines whether a network protocol is supported by the objects of the Windows Media Format SDK.                                           |
+| [**WMIsAvailableOffline**](/windows/win32/wmsdkvalidate/nf-wmsdkvalidate-wmisavailableoffline?branch=master) | Determines whether a file is available for playback offline.                                                                                 |
+| [**WMIsContentProtected**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmiscontentprotected?branch=master) | Checks a file for DRM-protected content.                                                                                                     |
+| [**WMValidateData**](/windows/win32/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata?branch=master)             | Tries to determine whether a file is readable by the objects of the Windows Media Format SDK by analyzing data at the beginning of the file. |
 
 
 

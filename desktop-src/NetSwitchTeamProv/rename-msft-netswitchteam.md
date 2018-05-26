@@ -1,7 +1,12 @@
 ---
-Description: 'Renames a switch team.'
-ms.assetid: '62f6ac51-0388-4182-b258-ce8e31f36a69'
-title: 'Rename method of the MSFT\_NetSwitchTeam class'
+Description: Renames a switch team.
+ms.assetid: 62f6ac51-0388-4182-b258-ce8e31f36a69
+title: Rename method of the MSFT\_NetSwitchTeam class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rename method of the MSFT\_NetSwitchTeam class
@@ -13,8 +18,8 @@ Renames a switch team.
 
 ```mof
 uint32 Rename(
-  [in] string Name,
-  [in] string NewName
+  [in] string Name,
+  [in] string NewName
 );
 ```
 
@@ -44,8 +49,8 @@ The new name to give to the switch team.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported client<br/> | Windows 8<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>NetSwitchTeam.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>NetSwitchTeamCim.dll</dt> </dl> |
@@ -59,9 +64,9 @@ The new name to give to the switch team.
 [**MSFT\_NetSwitchTeam**](msft-netswitchteam.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

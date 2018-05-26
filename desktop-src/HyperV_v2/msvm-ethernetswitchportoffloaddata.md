@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the port offload feature status data.'
-ms.assetid: '1117b9e4-cff7-4c9e-bf5e-74499297e84e'
-title: 'Msvm\_EthernetSwitchPortOffloadData class'
+Description: Represents the port offload feature status data.
+ms.assetid: 1117b9e4-cff7-4c9e-bf5e-74499297e84e
+title: Msvm\_EthernetSwitchPortOffloadData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortOffloadData class
@@ -16,29 +21,29 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), UUID("C885BFD1-ABB7-418F-8163-9F379C9F7166"), ExtensionId("11EC6134-128A-4A23-B12F-164184B48348"), InterfaceVersion("3"), InterfaceRevision("0"), DisplayName("Ethernet Switch Port Offload Feature Status"), AMENDMENT]
 class Msvm_EthernetSwitchPortOffloadData : Msvm_EthernetPortData
 {
-  string  InstanceID;
-  string  Caption = "Ethernet Switch Port Offload Feature Status";
-  string  Description = "Represents the port offload feature status data.";
-  string  ElementName = "Ethernet Switch Port Offload Feature Status";
-  string  SystemCreationClassName = "Msvm_VirtualEthernetSwitch";
-  string  SystemName;
-  string  DeviceCreationClassName = "Msvm_EthernetSwitchPort";
-  string  DeviceID;
-  string  CreationClassName = "Msvm_EthernetSwitchPortOffloadData";
-  string  Name;
-  uint32  IpsecCurrentOffloadSaCount = 0;
-  uint32  IovOffloadUsage = 0;
-  uint32  VMQOffloadUsage = 0;
-  uint32  VMQId = 0;
-  uint16  IovVfId = 0;
+  string  InstanceID;
+  string  Caption = "Ethernet Switch Port Offload Feature Status";
+  string  Description = "Represents the port offload feature status data.";
+  string  ElementName = "Ethernet Switch Port Offload Feature Status";
+  string  SystemCreationClassName = "Msvm_VirtualEthernetSwitch";
+  string  SystemName;
+  string  DeviceCreationClassName = "Msvm_EthernetSwitchPort";
+  string  DeviceID;
+  string  CreationClassName = "Msvm_EthernetSwitchPortOffloadData";
+  string  Name;
+  uint32  IpsecCurrentOffloadSaCount = 0;
+  uint32  IovOffloadUsage = 0;
+  uint32  VMQOffloadUsage = 0;
+  uint32  VMQId = 0;
+  uint16  IovVfId = 0;
   boolean IovVfDataPathActive = FALSE;
-  uint32  IovQueuePairUsage = 0;
-  uint32  VmmqQueuePairs = 0;
-  uint32  VrssVmbusChannelAffinityPolicy = 0;
+  uint32  IovQueuePairUsage = 0;
+  uint32  VmmqQueuePairs = 0;
+  uint32  VrssVmbusChannelAffinityPolicy = 0;
   boolean VrssIndependentHostSpreading = FALSE;
   boolean VrssExcludePrimaryProcessor = FALSE;
-  uint32  VrssQueueSchedulingMode = 0;
-  uint32  VrssMinQueuePairs = 0;
+  uint32  VrssQueueSchedulingMode = 0;
+  uint32  VrssMinQueuePairs = 0;
   boolean VmmqEnabled = FALSE;
   boolean VrssEnabled = FALSE;
 };
@@ -302,9 +307,9 @@ Qualifiers: **WmiDataId** (9), **InterfaceVersion** (2), **InterfaceRevision** (
 Indicates if VMMQ is active.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -323,9 +328,9 @@ Qualifiers: **WmiDataId** (10), **InterfaceVersion** (2), **InterfaceRevision** 
 Indicates how many queues are used for VRSS/VMMQ.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703 and Windows Server 2016.
+> This property was added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -376,9 +381,9 @@ Qualifiers: **WmiDataId** (8), **InterfaceVersion** (2), **InterfaceRevision** (
 Indicates if vRSS is active.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -397,9 +402,9 @@ Qualifiers: **WmiDataId** (13), **InterfaceVersion** (3), **InterfaceRevision** 
 Indicates whether the primary VMQ CPU is excluded from the VRSS/VMMQ indirection table.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -418,9 +423,9 @@ Qualifiers: **WmiDataId** (14), **InterfaceVersion** (3), **InterfaceRevision** 
 Indicates whether host side VRSS/VMMQ spreading happens, regardless of RSS settings of the virtual NIC.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -439,9 +444,9 @@ Qualifiers: **WmiDataId** (11), **InterfaceVersion** (3), **InterfaceRevision** 
 Indicates minimum number of queues used for VRSS/VMMQ.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -460,9 +465,9 @@ Qualifiers: **WmiDataId** (12), **InterfaceVersion** (3), **InterfaceRevision** 
 Indicates how VRSS/VMMQ queues are steered to different host processors.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -481,9 +486,9 @@ Qualifiers: **WmiDataId** (15), **InterfaceVersion** (3), **InterfaceRevision** 
 Indicates how Vmbus channels are affinitized to host processors.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> </dl>
 
@@ -493,17 +498,17 @@ Indicates how Vmbus channels are affinitized to host processors.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

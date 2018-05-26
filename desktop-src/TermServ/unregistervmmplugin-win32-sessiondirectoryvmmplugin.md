@@ -4,11 +4,14 @@ description: Unregisters the plug-in.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd5fec317-8277-4154-ae16-1203d4d15246'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d5fec317-8277-4154-ae16-1203d4d15246
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["UnregisterVMMPlugin method Remote Desktop Services", "UnregisterVMMPlugin method Remote Desktop Services , Win32_SessionDirectoryVMMPlugin class", "Win32_SessionDirectoryVMMPlugin class Remote Desktop Services , UnregisterVMMPlugin method"]
+keywords:
+- UnregisterVMMPlugin method Remote Desktop Services
+- UnregisterVMMPlugin method Remote Desktop Services , Win32_SessionDirectoryVMMPlugin class
+- Win32_SessionDirectoryVMMPlugin class Remote Desktop Services , UnregisterVMMPlugin method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UnregisterVMMPlugin method of the Win32\_SessionDirectoryVMMPlugin class
@@ -43,7 +49,7 @@ This method has no parameters.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                               |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |
@@ -57,9 +63,9 @@ This method has no parameters.
 [**Win32\_SessionDirectoryVMMPlugin**](win32-sessiondirectoryvmmplugin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

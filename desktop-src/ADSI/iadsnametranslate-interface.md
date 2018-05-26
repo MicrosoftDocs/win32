@@ -4,16 +4,22 @@ description: The IADsNameTranslate interface is used to translate distinguished 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c5c6e821-f19b-4269-81de-34c79dd2731f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c5c6e821-f19b-4269-81de-34c79dd2731f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsNameTranslate Interface ADSI", "IADsTranslate ADSI , using", "ADSI ADSI , example code C/C++ , using IADsTranslate"]
+keywords:
+- IADsNameTranslate Interface ADSI
+- IADsTranslate ADSI , using
+- ADSI ADSI , example code C/C++ , using IADsTranslate
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsNameTranslate Interface
 
-The [**IADsNameTranslate**](iadsnametranslate.md) interface is used to translate distinguished names between various formats. Name translations are performed on the directory server, and this interface is currently available only to objects in Active Directory.
+The [**IADsNameTranslate**](/windows/win32/Iads/nn-iads-iadsnametranslate?branch=master) interface is used to translate distinguished names between various formats. Name translations are performed on the directory server, and this interface is currently available only to objects in Active Directory.
 
 The following code example converts an account name from Windows format into LDAP format.
 

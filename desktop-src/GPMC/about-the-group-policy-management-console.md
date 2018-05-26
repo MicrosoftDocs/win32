@@ -4,11 +4,15 @@ description: Integrates the Group Policy functionality provided by Active Direct
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b0f53731-dbf9-406f-830f-21b77e5485b2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: b0f53731-dbf9-406f-830f-21b77e5485b2
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["Group Policy Management Console, about"]
+keywords:
+- Group Policy Management Console, about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About the Group Policy Management Console

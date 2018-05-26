@@ -1,7 +1,12 @@
 ---
-Description: 'The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.'
-ms.assetid: '8354e1d1-9c8e-43d8-972f-b7c5c22bbc98'
-title: 'System.PropGroup.Camera'
+Description: The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
+ms.assetid: 8354e1d1-9c8e-43d8-972f-b7c5c22bbc98
+title: System.PropGroup.Camera
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.PropGroup.Camera

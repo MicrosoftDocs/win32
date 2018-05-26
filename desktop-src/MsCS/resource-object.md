@@ -4,17 +4,22 @@ description: The Resource object is an object automatically created by the Gener
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b9067ff8-af46-4efd-aa54-8f8b9d9d4c39'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b9067ff8-af46-4efd-aa54-8f8b9d9d4c39
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Resource object Failover Cluster", "Resource object Failover Cluster , described"]
+keywords:
+- Resource object Failover Cluster
+- Resource object Failover Cluster , described
 topic_type:
 - apiref
 api_name:
 - Resource
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Resource object
@@ -38,7 +43,7 @@ The **Resource** object has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -47,13 +52,13 @@ The **Resource** object has these methods.
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,13 @@ description: Provides access to the network interfaces available to a network.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8b99f752-8aee-4c43-b49a-8ebaf20220f2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 8b99f752-8aee-4c43-b49a-8ebaf20220f2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusNetworkNetInterfaces collection Failover Cluster", "ClusNetworkNetInterfaces collection Failover Cluster , described"]
+keywords:
+- ClusNetworkNetInterfaces collection Failover Cluster
+- ClusNetworkNetInterfaces collection Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusNetworkNetInterfaces collection
@@ -45,7 +50,7 @@ The **ClusNetworkNetInterfaces** collection has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -60,7 +65,7 @@ The **ClusNetworkNetInterfaces** collection has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,7 +81,7 @@ A **ClusNetworkNetInterfaces** collection:
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                     |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>           |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>         |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>         |
@@ -92,9 +97,9 @@ A **ClusNetworkNetInterfaces** collection:
 [Network Management Objects](network-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

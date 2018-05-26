@@ -1,7 +1,12 @@
 ---
 title: Quick Start
 description: Quick Start
-ms.assetid: '0da9d160-d7f2-4252-ad0a-7295c8f8eb4c'
+ms.assetid: 0da9d160-d7f2-4252-ad0a-7295c8f8eb4c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Start

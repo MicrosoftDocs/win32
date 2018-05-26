@@ -1,8 +1,15 @@
 ---
 title: Processor Affinity Under WOW64
 description: 32-bit Windows supports a maximum of 32 processors. Therefore, functions such as GetProcessAffinityMask simulate a computer with 32 processors when called under WOW64.
-ms.assetid: 'f50a03e8-1c23-4eb0-a1ff-471c28d6b611'
-keywords: ["processor affinity 64-bit Windows Programming", "WOW64 64-bit Windows Programming , processor affinity"]
+ms.assetid: f50a03e8-1c23-4eb0-a1ff-471c28d6b611
+keywords:
+- processor affinity 64-bit Windows Programming
+- WOW64 64-bit Windows Programming , processor affinity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processor Affinity Under WOW64

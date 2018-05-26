@@ -1,7 +1,12 @@
-﻿---
-Description: 'Set a contiguous range of shader constants with a memory copy.'
-ms.assetid: '8a3b5141-c67a-45b9-91c2-1877642164e3'
-title: 'ID3DXEffect::SetRawValue method'
+---
+Description: Set a contiguous range of shader constants with a memory copy.
+ms.assetid: 8a3b5141-c67a-45b9-91c2-1877642164e3
+title: ID3DXEffectSetRawValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::SetRawValue method

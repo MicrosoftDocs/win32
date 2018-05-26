@@ -1,8 +1,11 @@
 ---
 title: IWMDRMSecurity GetContentEnablersFromHashes method
 description: The GetContentEnablersFromHashes method retrieves content enabler interfaces that enable renewal of components based on hashed certificates.
-ms.assetid: 'd7429859-b609-49a2-a369-d02260bc15bf'
-keywords: ["GetContentEnablersFromHashes method windows Media Format", "GetContentEnablersFromHashes method windows Media Format , IWMDRMSecurity interface", "IWMDRMSecurity interface windows Media Format , GetContentEnablersFromHashes method"]
+ms.assetid: d7429859-b609-49a2-a369-d02260bc15bf
+keywords:
+- GetContentEnablersFromHashes method windows Media Format
+- GetContentEnablersFromHashes method windows Media Format , IWMDRMSecurity interface
+- IWMDRMSecurity interface windows Media Format , GetContentEnablersFromHashes method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMSecurity::GetContentEnablersFromHashes method
@@ -23,11 +31,11 @@ The **GetContentEnablersFromHashes** method retrieves content enabler interfaces
 
 ```C++
 HRESULT GetContentEnablersFromHashes(
-  [in]      BSTR              *rgpbCertHashes,
-  [in]      DWORD             cCerts,
-  [in]      HRESULT           hResultHint,
-  [out]     IMFContentEnabler **prgContentEnablers,
-  [in, out] DWORD             *pcContentEnablers
+  [in]      BSTR              *rgpbCertHashes,
+  [in]      DWORD             cCerts,
+  [in]      HRESULT           hResultHint,
+  [out]     IMFContentEnabler **prgContentEnablers,
+  [in, out] DWORD             *pcContentEnablers
 );
 ```
 
@@ -84,7 +92,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -110,9 +118,9 @@ When you call **IMFContentEnabler::AutomaticEnable**, the content enabler launch
 [**IWMDRMSecurity Interface**](iwmdrmsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

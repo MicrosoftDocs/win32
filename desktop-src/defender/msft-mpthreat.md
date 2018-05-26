@@ -1,8 +1,15 @@
 ---
 title: MSFT\_MpThreat class
 description: This is a singleton that represents the Microsoft Antimalware service infection status.
-ms.assetid: '11824095-9147-435e-b5f0-2d29ce620c04'
-keywords: ["MSFT_MpThreat class", "MSFT_MpThreat class, described"]
+ms.assetid: 11824095-9147-435e-b5f0-2d29ce620c04
+keywords:
+- MSFT_MpThreat class
+- MSFT_MpThreat class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_MpThreat class
@@ -16,14 +23,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_MpThreat : BaseStatus
 {
-  string  SchemaVersion = 1.0.0.0";
-  sint64  ThreatID;
-  string  ThreatName;
-  uint8   SeverityID;
-  uint8   CategoryID;
-  uint8   TypeID;
-  uint32  RollupStatus;
-  string  Resources[];
+  string  SchemaVersion = 1.0.0.0";
+  sint64  ThreatID;
+  string  ThreatName;
+  uint8   SeverityID;
+  uint8   CategoryID;
+  uint8   TypeID;
+  uint32  RollupStatus;
+  string  Resources[];
   boolean DidThreatExecute = false;
   boolean IsActive = false;
 };
@@ -48,7 +55,7 @@ The **MSFT\_MpThreat** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -369,17 +376,17 @@ Type ID - Enumeration
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Defender<br/>                                                       |
 | MOF<br/>                      | <dl> <dt>ProtectionManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ProtectionManagement.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

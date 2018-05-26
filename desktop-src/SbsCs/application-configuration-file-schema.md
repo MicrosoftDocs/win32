@@ -1,7 +1,12 @@
 ---
-Description: 'The following is the complete listing of the application configuration file schema.'
-ms.assetid: 'c673dbff-cb64-4e90-88a8-c5f2c259f1d3'
+Description: The following is the complete listing of the application configuration file schema.
+ms.assetid: c673dbff-cb64-4e90-88a8-c5f2c259f1d3
 title: Application Configuration File Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Configuration File Schema

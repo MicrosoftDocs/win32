@@ -1,7 +1,12 @@
 ---
 title: Programming Tools
 description: The phrase \ 0034;programming tool \ 0034; refers here to a variety of objects.
-ms.assetid: '3e2a3e10-4749-451b-abd2-ef554498eabc'
+ms.assetid: 3e2a3e10-4749-451b-abd2-ef554498eabc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Tools

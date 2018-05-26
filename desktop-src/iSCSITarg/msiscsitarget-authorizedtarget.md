@@ -4,13 +4,15 @@ description: An association used to tie the MSISCSITARGET\_AuthorizedPrivilege o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd20e2bac-c2a5-46a8-86dc-31a902605c02'
-ms.prod: 'windows-server-dev'
+ms.assetid: d20e2bac-c2a5-46a8-86dc-31a902605c02
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_AuthorizedTarget class iSCSI Software Target API", "MSISCSITARGET_AuthorizedTarget class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_AuthorizedTarget class iSCSI Software Target API
+- MSISCSITARGET_AuthorizedTarget class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_AuthorizedTarget class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSISCSITARGET_AuthorizedTarget : CIM_AuthorizedTarget
 {
   CIM_AuthorizedPrivilege REF Privilege;
-  CIM_ManagedElement      REF TargetElement;
+  CIM_ManagedElement      REF TargetElement;
 };
 ```
 
@@ -95,7 +100,7 @@ This property is inherited from [**CIM\_AuthorizedTarget**](cim-authorizedtarget
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -115,9 +120,9 @@ This property is inherited from [**CIM\_AuthorizedTarget**](cim-authorizedtarget
 [**MSISCSITARGET\_AuthorizedPrivilege**](msiscsitarget-authorizedprivilege.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

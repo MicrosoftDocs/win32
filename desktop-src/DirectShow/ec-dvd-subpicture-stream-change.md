@@ -1,7 +1,12 @@
 ---
-Description: 'Signals that the current subpicture stream number changed for the main title.'
-ms.assetid: 'b6da3201-55df-47dc-ad4f-5cd2e78073ee'
-title: 'EC\_DVD\_SUBPICTURE\_STREAM\_CHANGE'
+Description: Signals that the current subpicture stream number changed for the main title.
+ms.assetid: b6da3201-55df-47dc-ad4f-5cd2e78073ee
+title: EC\_DVD\_SUBPICTURE\_STREAM\_CHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_SUBPICTURE\_STREAM\_CHANGE
@@ -28,7 +33,7 @@ Boolean value that indicates the subpicture's on/off state.
 
 ## Remarks
 
-The subpicture can change automatically with a navigation command authored on disc as well as through application control using [**IDvdControl2**](idvdcontrol2.md).
+The subpicture can change automatically with a navigation command authored on disc as well as through application control using [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master).
 
 This event is raised in all domains.
 
@@ -55,9 +60,9 @@ This event is raised in all domains.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

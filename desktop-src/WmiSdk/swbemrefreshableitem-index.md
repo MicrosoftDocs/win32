@@ -1,13 +1,16 @@
 ---
-Description: 'Represents the index of the item in its parent SWbemRefresher object.'
+Description: Represents the index of the item in its parent SWbemRefresher object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f076eb01-1e71-487d-a1af-687a052b4d67'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f076eb01-1e71-487d-a1af-687a052b4d67
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemRefreshableItem.Index property'
+title: SWbemRefreshableItem.Index property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemRefreshableItem.Index property
@@ -35,8 +38,8 @@ SWbemRefreshableItem.Index As Long
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -55,9 +58,9 @@ SWbemRefreshableItem.Index As Long
 [**SWbemRefreshableItem**](swbemrefresher.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

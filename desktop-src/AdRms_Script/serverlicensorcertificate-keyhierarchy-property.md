@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a value that identifies the certificate hierarchy in which the application is enrolled.'
+Description: Retrieves a value that identifies the certificate hierarchy in which the application is enrolled.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'f5726214-f9f3-4b01-bc3c-096108547779'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: f5726214-f9f3-4b01-bc3c-096108547779
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ServerLicensorCertificate.KeyHierarchy property'
+title: ServerLicensorCertificate.KeyHierarchy property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ServerLicensorCertificate.KeyHierarchy property
@@ -148,7 +151,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -160,9 +163,9 @@ END FUNCTION
 [**ServerLicensorCertificate**](serverlicensorcertificate-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

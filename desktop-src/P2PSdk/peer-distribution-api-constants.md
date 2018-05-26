@@ -1,6 +1,11 @@
 ---
-ms.assetid: '61444677-2fd5-4599-a96e-be19fb019f34'
+ms.assetid: 61444677-2fd5-4599-a96e-be19fb019f34
 title: Peer Distribution API Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Peer Distribution API Constants
@@ -28,15 +33,15 @@ The current Peer Distribution API version information.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 Professional \[desktop apps only\]<br/>                               |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 Professional \[desktop apps only\]<br/>                               |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Peerdist.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

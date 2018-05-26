@@ -1,8 +1,11 @@
 ---
 title: Trigger.Enabled property
 description: For scripting, gets or sets a Boolean value that indicates whether the trigger is enabled.
-ms.assetid: '20300470-e434-4296-b3e2-98c65b16e9f2'
-keywords: ["Enabled property Task Scheduler", "Enabled property Task Scheduler , Trigger object", "Trigger object Task Scheduler , Enabled property"]
+ms.assetid: 20300470-e434-4296-b3e2-98c65b16e9f2
+keywords:
+- Enabled property Task Scheduler
+- Enabled property Task Scheduler , Trigger object
+- Trigger object Task Scheduler , Enabled property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trigger.Enabled property
@@ -40,8 +48,8 @@ When reading or writing XML for a task, the enabled property is specified using 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -54,9 +62,9 @@ When reading or writing XML for a task, the enabled property is specified using 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

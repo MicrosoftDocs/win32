@@ -1,8 +1,13 @@
 ---
 title: IVMAccessRights DeleteAccess property
 description: The DeleteAccess property determines whether this entry controls delete access.
-ms.assetid: 'c209e07a-d387-4787-aa0a-db6822abc89b'
-keywords: ["DeleteAccess property Virtual Server", "DeleteAccess property Virtual Server , IVMAccessRights interface", "IVMAccessRights interface Virtual Server , DeleteAccess property", "DeleteAccess property Virtual Server , VMAccessRights interface", "VMAccessRights interface Virtual Server , DeleteAccess property"]
+ms.assetid: c209e07a-d387-4787-aa0a-db6822abc89b
+keywords:
+- DeleteAccess property Virtual Server
+- DeleteAccess property Virtual Server , IVMAccessRights interface
+- IVMAccessRights interface Virtual Server , DeleteAccess property
+- DeleteAccess property Virtual Server , VMAccessRights interface
+- VMAccessRights interface Virtual Server , DeleteAccess property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccessRights::DeleteAccess property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_DeleteAccess(
-  [in]  VARIANT_BOOL deleteAccess
+  [in]  VARIANT_BOOL deleteAccess
 );
 
 HRESULT get_DeleteAccess(
-  [out] VARIANT_BOOL *deleteAccess
+  [out] VARIANT_BOOL *deleteAccess
 );
 ```
 
@@ -105,8 +115,8 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -118,9 +128,9 @@ Next
 [**IVMAccessRights**](ivmaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

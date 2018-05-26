@@ -1,7 +1,12 @@
 ---
-Description: 'Secured transforms are sometimes necessary for security reasons.'
-ms.assetid: 'c6019b28-b0a7-4104-9d78-b4b4228635b8'
+Description: Secured transforms are sometimes necessary for security reasons.
+ms.assetid: c6019b28-b0a7-4104-9d78-b4b4228635b8
 title: Secured Transforms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Secured Transforms

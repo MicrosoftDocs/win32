@@ -1,8 +1,9 @@
 ---
 title: RegisterPageWithPage function
 description: Registers external pages with existing pages in the Get Connected Wizard.
-ms.assetid: '20534226-1402-432b-9115-995c60bb3d11'
-keywords: ["RegisterPageWithPage function Get Connected Wizard API"]
+ms.assetid: 20534226-1402-432b-9115-995c60bb3d11
+keywords:
+- RegisterPageWithPage function Get Connected Wizard API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - connect.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisterPageWithPage function
@@ -22,13 +28,13 @@ The **RegisterPageWithPage** function registers external pages with existing pag
 
 ```C++
 HRESULT WINAPI RegisterPageWithPage(
-           const GUID   *pguidParentPage,
-           const GUID   *pguidChildPage,
-  _In_opt_ const LPWSTR pszChildModuleFileName,
-  _In_opt_ const LPWSTR pszFriendlyName,
-  _In_     const DWORD  dwBehaviorFlags,
-  _In_     const DWORD  dwUserFlags,
-  _In_opt_       LPWSTR pszCommandLine
+           const GUID   *pguidParentPage,
+           const GUID   *pguidChildPage,
+  _In_opt_ const LPWSTR pszChildModuleFileName,
+  _In_opt_ const LPWSTR pszFriendlyName,
+  _In_     const DWORD  dwBehaviorFlags,
+  _In_     const DWORD  dwUserFlags,
+  _In_opt_       LPWSTR pszCommandLine
 );
 ```
 
@@ -113,7 +119,7 @@ If the function fails, the return value is one of the standard error codes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -127,15 +133,15 @@ An import library containing the **RegisterPageWithPage** function is not includ
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Connect.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

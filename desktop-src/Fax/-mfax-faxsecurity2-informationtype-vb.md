@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the security information type.'
-ms.assetid: 'e3417211-c493-4206-af35-af01534f0499'
-title: 'FaxSecurity2.InformationType property'
+---
+Description: Retrieves the security information type.
+ms.assetid: e3417211-c493-4206-af35-af01534f0499
+title: FaxSecurity2.InformationType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSecurity2.InformationType property
@@ -64,7 +69,7 @@ Set the **InformationType** property before you get the [**Descriptor**](-mfax-f
 [**FaxSecurity2**](-mfax-faxsecurity2.md)
 </dt> <dt>
 
-[**IFaxSecurity2**](-mfax-faxsecurity2-cpp.md)
+[**IFaxSecurity2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsecurity2?branch=master)
 </dt> </dl>
 
  

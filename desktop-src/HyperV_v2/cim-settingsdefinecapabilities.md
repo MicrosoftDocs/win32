@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between properties of a CIM\_SettingData instance and a CIM\_Capabilities instance.'
-ms.assetid: 'f3364779-baeb-4b84-a0e6-b2a60d1661bd'
-title: 'CIM\_SettingsDefineCapabilities class'
+Description: Represents an association between properties of a CIM\_SettingData instance and a CIM\_Capabilities instance.
+ms.assetid: f3364779-baeb-4b84-a0e6-b2a60d1661bd
+title: CIM\_SettingsDefineCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SettingsDefineCapabilities class
@@ -15,10 +20,10 @@ Represents an association between properties of a [**CIM\_SettingData**](cim-set
 class CIM_SettingsDefineCapabilities : CIM_Component
 {
   CIM_Capabilities REF GroupComponent;
-  CIM_SettingData  REF PartComponent;
-  uint16               PropertyPolicy = 0;
-  uint16               ValueRole = 3;
-  uint16               ValueRange = 0;
+  CIM_SettingData  REF PartComponent;
+  uint16               PropertyPolicy = 0;
+  uint16               ValueRole = 3;
+  uint16               ValueRange = 0;
 };
 ```
 
@@ -223,8 +228,8 @@ Across instances of settingdata, for particular properties having the same seman
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -238,9 +243,9 @@ Across instances of settingdata, for particular properties having the same seman
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

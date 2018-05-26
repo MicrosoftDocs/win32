@@ -1,8 +1,10 @@
 ---
 title: Msvm\_TerminalConnection class
 description: Indicates the state of an active remote session interacting with a virtual computer system.
-ms.assetid: '5b853ff5-a5a4-4d4f-b53f-e9995ddddc88'
-keywords: ["Msvm_TerminalConnection class Hyper-V", "Msvm_TerminalConnection class Hyper-V , described"]
+ms.assetid: 5b853ff5-a5a4-4d4f-b53f-e9995ddddc88
+keywords:
+- Msvm_TerminalConnection class Hyper-V
+- Msvm_TerminalConnection class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_TerminalConnection class
@@ -41,21 +48,21 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_TerminalConnection : CIM_EnabledLogicalElement
 {
-  string   Caption = "Microsoft Virtual Machine Terminal Connection";
-  string   Description = "Microsoft Virtual Machine Terminal Connection";
-  string   ElementName = "Microsoft Virtual Machine Terminal Connection";
+  string   Caption = "Microsoft Virtual Machine Terminal Connection";
+  string   Description = "Microsoft Virtual Machine Terminal Connection";
+  string   ElementName = "Microsoft Virtual Machine Terminal Connection";
   datetime InstallDate;
-  string   Name = "Microsoft Virtual Machine Terminal Connection";
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "Microsoft Virtual Machine Terminal Connection";
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   ConnectionID = "Microsoft:VMID\Index";
+  string   ConnectionID = "Microsoft:VMID\Index";
 };
 ```
 
@@ -78,7 +85,7 @@ The **Msvm\_TerminalConnection** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -519,9 +526,9 @@ Access to the **Msvm\_TerminalConnection** class might be restricted by UAC Filt
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -540,9 +547,9 @@ Access to the **Msvm\_TerminalConnection** class might be restricted by UAC Filt
 [Video Classes](video-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

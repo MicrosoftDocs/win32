@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPS::DevMode method, provided by rendering plug-ins for Pscript5, performs operations on private DEVMODEW members.'
-ms.assetid: '72775113-435c-44cf-83e7-9aa62f7f252e'
-title: 'IPrintOemPS::DevMode method'
+---
+Description: The IPrintOemPSDevMode method, provided by rendering plug-ins for Pscript5, performs operations on private DEVMODEW members.
+ms.assetid: 72775113-435c-44cf-83e7-9aa62f7f252e
+title: IPrintOemPSDevMode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPS::DevMode method

@@ -1,7 +1,12 @@
 ---
-Description: 'Deletes a file. See DeleteFile.'
-ms.assetid: '8c1f4368-8b0e-41af-9bf8-f3d9f58c3700'
+Description: Deletes a file. See DeleteFile.
+ms.assetid: 8c1f4368-8b0e-41af-9bf8-f3d9f58c3700
 title: '\_DeleteFile function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_DeleteFile function
@@ -15,7 +20,7 @@ Deletes a file. See [**DeleteFile**](https://msdn.microsoft.com/library/windows/
 
 ```C++
 BOOL _DeleteFile(
-    ...
+    ...
 );
 ```
 
@@ -45,9 +50,9 @@ BOOL _DeleteFile(
 [**DeleteFile**](https://msdn.microsoft.com/library/windows/desktop/aa363915)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

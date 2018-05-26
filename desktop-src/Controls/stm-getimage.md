@@ -1,8 +1,9 @@
 ---
 title: STM\_GETIMAGE message
 description: An application sends an STM\_GETIMAGE message to retrieve a handle to the image (icon or bitmap) associated with a static control.
-ms.assetid: 'eb5fe67a-09be-4c13-89c6-0e2f23e8c081'
-keywords: ["STM_GETIMAGE message Windows Controls"]
+ms.assetid: eb5fe67a-09be-4c13-89c6-0e2f23e8c081
+keywords:
+- STM_GETIMAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STM\_GETIMAGE message
@@ -37,7 +43,7 @@ Specifies the type of image to retrieve. This parameter can be one of the follow
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -58,8 +64,8 @@ The return value is a handle to the image, if any; otherwise, it is **NULL**.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -71,9 +77,9 @@ The return value is a handle to the image, if any; otherwise, it is **NULL**.
 [**STM\_SETIMAGE**](stm-setimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

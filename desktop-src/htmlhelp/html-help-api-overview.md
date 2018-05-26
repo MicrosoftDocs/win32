@@ -1,7 +1,12 @@
 ---
 title: HTML Help API Overview
 description: HTML Help API Overview
-ms.assetid: 'F1FC7E13-7A29-45d4-8E2E-F21A3C885D04'
+ms.assetid: F1FC7E13-7A29-45d4-8E2E-F21A3C885D04
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Help API Overview

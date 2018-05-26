@@ -1,7 +1,12 @@
 ---
 title: The PnP Action
 description: The PnP Action
-ms.assetid: 'eeb9cac6-58bd-4144-a5f2-1eb644c252dd'
+ms.assetid: eeb9cac6-58bd-4144-a5f2-1eb644c252dd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The PnP Action
@@ -23,11 +28,11 @@ The PnP action produces a text file that summarizes the various metrics regardin
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

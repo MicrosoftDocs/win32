@@ -1,7 +1,12 @@
 ---
-Description: 'After you have registered an event class in the COM+ catalog, you can add subscribers to the event class and subscriptions to the subscribers.'
-ms.assetid: '101b1075-3724-4508-9c9e-2f12ac6ab65d'
+Description: After you have registered an event class in the COM+ catalog, you can add subscribers to the event class and subscriptions to the subscribers.
+ms.assetid: 101b1075-3724-4508-9c9e-2f12ac6ab65d
 title: Registering a Subscription
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Subscription

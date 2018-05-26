@@ -1,12 +1,17 @@
 ---
-Description: 'A system power management event is a change in the system power status, the operational mode of a device or the system, or the value of a power setting.'
-ms.assetid: 'f73b072a-1f69-4e26-9712-dab428edca18'
+Description: A system power management event is a change in the system power status, the operational mode of a device or the system, or the value of a power setting.
+ms.assetid: f73b072a-1f69-4e26-9712-dab428edca18
 title: System Power Management Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Power Management Events
 
-A system power management event is a change in the system power status, the operational mode of a device or the system, or the value of a power setting. Because these events can affect the operation of applications and installable drivers, the system notifies all applications and installable drivers by broadcasting a notification for each event. Applications and services register for notifications by using the [**RegisterPowerSettingNotification**](registerpowersettingnotification.md) function. Notifications are received via the [**WM\_POWERBROADCAST**](wm-powerbroadcast.md) message, which contains the power management event and any associated event-specific data.
+A system power management event is a change in the system power status, the operational mode of a device or the system, or the value of a power setting. Because these events can affect the operation of applications and installable drivers, the system notifies all applications and installable drivers by broadcasting a notification for each event. Applications and services register for notifications by using the [**RegisterPowerSettingNotification**](/windows/win32/WinUser/nf-winuser-registerpowersettingnotification?branch=master) function. Notifications are received via the [**WM\_POWERBROADCAST**](wm-powerbroadcast.md) message, which contains the power management event and any associated event-specific data.
 
 ## System Power Status Events
 

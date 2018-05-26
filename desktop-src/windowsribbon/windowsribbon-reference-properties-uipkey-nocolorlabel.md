@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_NoColorLabel
 description: Identifies the UI\_PKEY\_NoColorLabel property.
-ms.assetid: 'b5bf8b4e-1dc9-4d03-bbe3-c221057f6678'
+ms.assetid: b5bf8b4e-1dc9-4d03-bbe3-c221057f6678
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_NoColorLabel

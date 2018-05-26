@@ -1,7 +1,12 @@
 ---
-Description: 'The GetAt method retrieves an item from the collection by a zero-based index.'
-ms.assetid: 'c7119ba6-e6fc-4cb6-a8ab-3bf7b6bfe850'
-title: 'IPortableDevicePropVariantCollection::GetAt method'
+Description: The GetAt method retrieves an item from the collection by a zero-based index.
+ms.assetid: c7119ba6-e6fc-4cb6-a8ab-3bf7b6bfe850
+title: IPortableDevicePropVariantCollectionGetAt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDevicePropVariantCollection::GetAt method
@@ -13,8 +18,8 @@ The **GetAt** method retrieves an item from the collection by a zero-based index
 
 ```C++
 HRESULT GetAt(
-  [in]  const DWORD       dwIndex,
-  [out]       PROPVARIANT *pValue
+  [in]  const DWORD       dwIndex,
+  [out]       PROPVARIANT *pValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -103,9 +108,9 @@ For an example of how to use this method see [Retrieving the Functional Categori
 [Setting Properties for Multiple Objects](setting-properties-for-multiple-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

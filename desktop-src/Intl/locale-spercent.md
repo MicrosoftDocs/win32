@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SPERCENT'
-ms.assetid: '5ff6acb3-895e-4a2f-a3da-523f3e616e7c'
-title: 'LOCALE\_SPERCENT'
+Description: LOCALE\_SPERCENT
+ms.assetid: 5ff6acb3-895e-4a2f-a3da-523f3e616e7c
+title: LOCALE\_SPERCENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SPERCENT

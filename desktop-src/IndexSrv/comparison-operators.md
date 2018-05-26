@@ -1,7 +1,12 @@
 ---
 title: Comparison Operators
 description: Comparison Operators
-ms.assetid: '9343e7f6-67fd-422f-9364-bbdeabb2fb3a'
+ms.assetid: 9343e7f6-67fd-422f-9364-bbdeabb2fb3a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Comparison Operators

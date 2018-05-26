@@ -1,7 +1,12 @@
 ---
-Description: 'Returns the requested frame from a loaded capture.'
-ms.assetid: 'efd1cff5-a3a1-4910-b003-25b6e10dad6e'
+Description: Returns the requested frame from a loaded capture.
+ms.assetid: efd1cff5-a3a1-4910-b003-25b6e10dad6e
 title: ExpertGetFrame function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExpertGetFrame function
@@ -13,12 +18,12 @@ The **ExpertGetFrame** function returns the requested frame from a loaded captur
 
 ```C++
 DWORD WINAPI ExpertGetFrame(
-  _In_  HEXPERTKEY              hExpertKey,
-  _In_  DWORD                   Direction,
-  _In_  DWORD                   RequestFlags,
-  _In_  DWORD                   RequestedFrameNumber,
-  _In_  HFILTER                 hFilter,
-  _Out_ LPEXPERTFRAMEDESCRIPTOR pEFrameDescriptor
+  _In_  HEXPERTKEY              hExpertKey,
+  _In_  DWORD                   Direction,
+  _In_  DWORD                   RequestFlags,
+  _In_  DWORD                   RequestedFrameNumber,
+  _In_  HFILTER                 hFilter,
+  _Out_ LPEXPERTFRAMEDESCRIPTOR pEFrameDescriptor
 );
 ```
 
@@ -50,7 +55,7 @@ A value that identifies how Network Monitor searches for the frame.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -68,7 +73,7 @@ The flags that specify how Network Monitor should handle the request. Specify on
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -127,17 +132,17 @@ The **ExpertGetFrame** function can only be called by experts that implement the
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

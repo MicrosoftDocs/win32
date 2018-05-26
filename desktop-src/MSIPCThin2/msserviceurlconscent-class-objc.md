@@ -4,17 +4,21 @@ description: Defines the service URLs for the consent process.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '239DA577-273D-409B-A1CF-FF471177C28D'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 239DA577-273D-409B-A1CF-FF471177C28D
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSServiceURLConsent class"]
+keywords:
+- MSServiceURLConsent class
 topic_type:
 - apiref
 api_name:
 - MSServiceURLConsent class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSServiceURLConsent class
@@ -37,7 +41,7 @@ Defines the service URLs for the consent process.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,15 +57,15 @@ MSConsent.h
 
 
 
- 
+ 
 
 ## Thread Safety
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

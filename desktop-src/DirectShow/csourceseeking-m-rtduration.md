@@ -1,7 +1,12 @@
 ---
-Description: 'Duration of the stream. By default, the value is set to the value of the CSourceSeeking::m\_rtStop member variable.'
-ms.assetid: 'a87b321e-3179-4485-969b-bf12cb634b43'
-title: 'CSourceSeeking::m\_rtDuration member'
+Description: Duration of the stream. By default, the value is set to the value of the CSourceSeekingm\_rtStop member variable.
+ms.assetid: a87b321e-3179-4485-969b-bf12cb634b43
+title: CSourceSeekingm\_rtDuration member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking::m\_rtDuration member
@@ -39,9 +44,9 @@ Hold the **m\_pLock** critical section before accessing this variable.
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

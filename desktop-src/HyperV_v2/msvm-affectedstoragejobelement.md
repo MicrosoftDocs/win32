@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the association between a job and the managed elements that may be affected by its execution.'
-ms.assetid: '81849DE4-9039-426F-B7B1-45BB31A9132C'
-title: 'Msvm\_AffectedStorageJobElement class'
+Description: Represents the association between a job and the managed elements that may be affected by its execution.
+ms.assetid: 81849DE4-9039-426F-B7B1-45BB31A9132C
+title: Msvm\_AffectedStorageJobElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_AffectedStorageJobElement class
@@ -17,9 +22,9 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_AffectedStorageJobElement : CIM_AffectedJobElement
 {
   CIM_ManagedElement REF AffectedElement;
-  Msvm_StorageJob    REF AffectingElement;
-  uint16                 ElementEffects[];
-  string                 OtherElementEffectsDescriptions[];
+  Msvm_StorageJob    REF AffectingElement;
+  uint16                 ElementEffects[];
+  string                 OtherElementEffectsDescriptions[];
 };
 ```
 
@@ -120,8 +125,8 @@ Access to the **Msvm\_AffectedStorageJobElement** class might be restricted by U
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -141,9 +146,9 @@ Access to the **Msvm\_AffectedStorageJobElement** class might be restricted by U
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

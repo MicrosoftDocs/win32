@@ -4,13 +4,17 @@ description: VBScript example shows how to use an instance of the DfsrMachineCon
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2f9dea5a-105b-4f9c-b5da-fbc7520687b3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2f9dea5a-105b-4f9c-b5da-fbc7520687b3
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication examples Files , displaying and changing DFSR local computer settings"]
+keywords:
+- Distributed File System Replication examples Files , displaying and changing DFSR local computer settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Displaying and Changing DFSR Local Computer Settings

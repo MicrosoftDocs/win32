@@ -1,8 +1,9 @@
 ---
 title: TVM\_GETISEARCHSTRING message
 description: Retrieves the incremental search string for a tree-view control.
-ms.assetid: '71f9a9b6-e124-4655-80fc-dd23f441496d'
-keywords: ["TVM_GETISEARCHSTRING message Windows Controls"]
+ms.assetid: 71f9a9b6-e124-4655-80fc-dd23f441496d
+keywords:
+- TVM_GETISEARCHSTRING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_GETISEARCHSTRING message
 
-Retrieves the incremental search string for a tree-view control. The tree-view control uses the incremental search string to select an item based on characters typed by the user. You can send this message explicitly or by using the [**TreeView\_GetISearchString**](treeview-getisearchstring.md) macro.
+Retrieves the incremental search string for a tree-view control. The tree-view control uses the incremental search string to select an item based on characters typed by the user. You can send this message explicitly or by using the [**TreeView\_GetISearchString**](/windows/win32/Commctrl/nf-commctrl-treeview_getisearchstring?branch=master) macro.
 
 ## Parameters
 
@@ -49,16 +55,16 @@ If the tree-view control is not in incremental search mode, the return value is 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TVM\_GETISEARCHSTRINGW** (Unicode) and **TVM\_GETISEARCHSTRINGA** (ANSI)<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

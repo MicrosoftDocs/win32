@@ -4,16 +4,22 @@ description: After the port has been created (see Creating a Notification Port),
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '654f571d-ff7d-40d4-a52c-01fcbd1573ad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 654f571d-ff7d-40d4-a52c-01fcbd1573ad
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["notification ports Failover Cluster , adding events", "events Failover Cluster", "events Failover Cluster , adding to a notification port"]
+keywords:
+- notification ports Failover Cluster , adding events
+- events Failover Cluster
+- events Failover Cluster , adding to a notification port
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Events to a Notification Port
 
-After the port has been created (see [Creating a Notification Port](creating-a-notification-port.md)), applications can add other event types to the port by calling [**RegisterClusterNotify**](registerclusternotify.md). Like [**CreateClusterNotifyPort**](createclusternotifyport.md), **RegisterClusterNotify** allows you to specify the type of events (*dwFilter*) and associate those events with a key (*dwNotifyKey*). **RegisterClusterNotify** also allows you to specify an object handle in the *hObject* parameter, enabling you to receive event notifications on a per-handle basis.
+After the port has been created (see [Creating a Notification Port](creating-a-notification-port.md)), applications can add other event types to the port by calling [**RegisterClusterNotify**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_register_cluster_notify?branch=master). Like [**CreateClusterNotifyPort**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_create_cluster_notify_port?branch=master), **RegisterClusterNotify** allows you to specify the type of events (*dwFilter*) and associate those events with a key (*dwNotifyKey*). **RegisterClusterNotify** also allows you to specify an object handle in the *hObject* parameter, enabling you to receive event notifications on a per-handle basis.
 
 The following code fragment adds resource-specific events to an existing notification port. Any events of a type defined by *ResourceEvents* that involve *hMyResource* will generate notifications identified by a *dwNotifyKey* of *dwMyResource*:
 

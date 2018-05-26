@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a desired duty cycle percentage for a pin or channel in a Pulse Width Modulation (PWM) controller.'
-ms.assetid: 'CA699703-2D9B-4841-99AD-9C27FF428394'
-title: 'PWM\_PIN\_SET\_ACTIVE\_DUTY\_CYCLE\_PERCENTAGE\_INPUT structure'
+Description: Contains a desired duty cycle percentage for a pin or channel in a Pulse Width Modulation (PWM) controller.
+ms.assetid: CA699703-2D9B-4841-99AD-9C27FF428394
+title: PWM\_PIN\_SET\_ACTIVE\_DUTY\_CYCLE\_PERCENTAGE\_INPUT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PWM\_PIN\_SET\_ACTIVE\_DUTY\_CYCLE\_PERCENTAGE\_INPUT structure
@@ -38,8 +43,8 @@ The desired PWM signal duty cycle, as a PWM\_PERCENTAGE, which is a ULONGLONG va
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                             |
 | Minimum KMDF version<br/>     | 1.19<br/>                                                                                  |
 | Minimum UMDF version<br/>     | 2.19<br/>                                                                                  |
 | Header<br/>                   | <dl> <dt>Pwm.h (include Pwm.h)</dt> </dl> |
@@ -53,9 +58,9 @@ The desired PWM signal duty cycle, as a PWM\_PERCENTAGE, which is a ULONGLONG va
 [**IOCTL\_PWM\_PIN\_SET\_ACTIVE\_DUTY\_CYCLE\_PERCENTAGE**](base-ioctl_ioctl_pwm_pin_set_active_duty_cycle_percentage)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

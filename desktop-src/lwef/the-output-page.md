@@ -1,7 +1,12 @@
 ---
 title: The Output Page
 description: The Output Page
-ms.assetid: '75a4f7c5-f8a6-4519-989b-8499a8f46b92'
+ms.assetid: 75a4f7c5-f8a6-4519-989b-8499a8f46b92
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Output Page

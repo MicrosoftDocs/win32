@@ -1,7 +1,12 @@
-﻿---
-Description: 'The BIDI\_RESPONSE\_CONTAINER structure is a container for a list of bidi responses.'
-ms.assetid: '26924dd2-ac67-408c-87e0-5cfb3281fe75'
-title: 'BIDI\_RESPONSE\_CONTAINER structure'
+---
+Description: The BIDI\_RESPONSE\_CONTAINER structure is a container for a list of bidi responses.
+ms.assetid: 26924dd2-ac67-408c-87e0-5cfb3281fe75
+title: BIDI\_RESPONSE\_CONTAINER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BIDI\_RESPONSE\_CONTAINER structure

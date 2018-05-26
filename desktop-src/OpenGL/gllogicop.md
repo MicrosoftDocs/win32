@@ -1,8 +1,9 @@
 ---
 title: glLogicOp function
 description: The glLogicOp function specifies a logical pixel operation for color index rendering.
-ms.assetid: '29edf9bd-f3b8-4de7-9afb-07714f4efd92'
-keywords: ["glLogicOp function OpenGL"]
+ms.assetid: 29edf9bd-f3b8-4de7-9afb-07714f4efd92
+keywords:
+- glLogicOp function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glLogicOp function
@@ -22,7 +28,7 @@ The **glLogicOp** function specifies a logical pixel operation for color index r
 
 ```C++
 void WINAPI glLogicOp(
-   GLenum opcode
+   GLenum opcode
 );
 ```
 
@@ -60,7 +66,7 @@ A symbolic constant that selects a logical operation. The following symbols are 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -118,8 +124,8 @@ The following functions retrieve information related to **glLogicOp**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -154,9 +160,9 @@ The following functions retrieve information related to **glLogicOp**:
 [**glStencilOp**](glstencilop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

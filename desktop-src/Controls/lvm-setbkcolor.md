@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETBKCOLOR message
 description: Sets the background color of a list-view control. You can send this message explicitly or by using the ListView\_SetBkColor macro.
-ms.assetid: 'd579249d-421d-4e7e-8992-4c7fd7277593'
-keywords: ["LVM_SETBKCOLOR message Windows Controls"]
+ms.assetid: d579249d-421d-4e7e-8992-4c7fd7277593
+keywords:
+- LVM_SETBKCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETBKCOLOR message
 
-Sets the background color of a list-view control. You can send this message explicitly or by using the [**ListView\_SetBkColor**](listview-setbkcolor.md) macro.
+Sets the background color of a list-view control. You can send this message explicitly or by using the [**ListView\_SetBkColor**](/windows/win32/Commctrl/nf-commctrl-listview_setbkcolor?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

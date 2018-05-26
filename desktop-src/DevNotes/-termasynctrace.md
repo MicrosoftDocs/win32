@@ -1,7 +1,12 @@
-﻿---
-Description: 'Terminates the trace.'
-ms.assetid: 'e823ed82-1966-4e44-b062-0c8ab0fb5f6e'
+---
+Description: Terminates the trace.
+ms.assetid: e823ed82-1966-4e44-b062-0c8ab0fb5f6e
 title: TermAsyncTrace function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TermAsyncTrace function

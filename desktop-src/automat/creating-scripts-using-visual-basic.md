@@ -1,7 +1,12 @@
 ---
 title: Creating Scripts Using Visual Basic
 description: Visual Basic provides a complete programming environment for creating Windows applications with which you can manipulate the exposed ActiveX objects of other applications.
-ms.assetid: '85ec41e1-0a71-4180-89cb-b97398d211e2'
+ms.assetid: 85ec41e1-0a71-4180-89cb-b97398d211e2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Scripts Using Visual Basic

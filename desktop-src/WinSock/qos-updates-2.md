@@ -1,7 +1,12 @@
 ---
-Description: 'Information on where to find Quality of Service (QoS) implementation details.'
-ms.assetid: 'aaac8a91-2769-408c-8f58-de0519e38d5b'
+Description: Information on where to find Quality of Service (QoS) implementation details.
+ms.assetid: aaac8a91-2769-408c-8f58-de0519e38d5b
 title: QoS Updates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QoS Updates

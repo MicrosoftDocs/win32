@@ -1,7 +1,12 @@
-﻿---
-Description: 'Installs an owner for the TPM.'
-ms.assetid: '7b4c8785-0925-41a8-a878-7c1f38d31853'
-title: 'TakeOwnership method of the Win32\_Tpm class'
+---
+Description: Installs an owner for the TPM.
+ms.assetid: 7b4c8785-0925-41a8-a878-7c1f38d31853
+title: TakeOwnership method of the Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TakeOwnership method of the Win32\_Tpm class

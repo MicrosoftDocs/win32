@@ -1,15 +1,18 @@
 ---
-Description: 'Copies the logical device file (or directory) specified in the object path to the location specified by the FileName parameter.'
+Description: Copies the logical device file (or directory) specified in the object path to the location specified by the FileName parameter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '42cdb880-2431-4dcc-abdb-f271e2cd81a4'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 42cdb880-2431-4dcc-abdb-f271e2cd81a4
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CopyEx method of the CIM\_DeviceFile class'
+title: CopyEx method of the CIM\_DeviceFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CopyEx method of the CIM\_DeviceFile class
@@ -19,7 +22,7 @@ The **CopyEx** method copies the logical device file (or directory) specified in
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -28,10 +31,10 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 CopyEx(
-  [in]  string     FileName,
-  [out] string REF StopFileName,
-  [in]  string     StartFileName,
-  [in]  boolean    Recursive
+  [in]  string     FileName,
+  [out] string REF StopFileName,
+  [in]  string     StartFileName,
+  [in]  boolean    Recursive
 );
 ```
 
@@ -206,8 +209,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -224,9 +227,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_DeviceFile**](cim-devicefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

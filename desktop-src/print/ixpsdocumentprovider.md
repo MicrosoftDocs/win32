@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IxpsDocumentProvider interface provides interfaces to consume parts of a document.'
-ms.assetid: 'e1fac90f-5c21-4857-a52f-04c5366d7b18'
+---
+Description: The IxpsDocumentProvider interface provides interfaces to consume parts of a document.
+ms.assetid: e1fac90f-5c21-4857-a52f-04c5366d7b18
 title: IXpsDocumentProvider interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsDocumentProvider interface

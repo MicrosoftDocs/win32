@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the date of manufacture of a battery.'
-ms.assetid: '0cda66fc-bf4a-4a38-b43c-6eecde46c414'
-title: 'BATTERY\_MANUFACTURE\_DATE structure'
+Description: Contains the date of manufacture of a battery.
+ms.assetid: 0cda66fc-bf4a-4a38-b43c-6eecde46c414
+title: BATTERY\_MANUFACTURE\_DATE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BATTERY\_MANUFACTURE\_DATE structure
@@ -13,8 +18,8 @@ Contains the date of manufacture of a battery. This structure is used by the [**
 
 ```C++
 typedef struct _BATTERY_MANUFACTURE_DATE {
-  UCHAR  Day;
-  UCHAR  Month;
+  UCHAR  Day;
+  UCHAR  Month;
   USHORT Year;
 } BATTERY_MANUFACTURE_DATE, *PBATTERY_MANUFACTURE_DATE;
 ```
@@ -56,9 +61,9 @@ The date is encoded in the Gregorian or western calendar format.
 
 |                                     |                                                                                                                                                                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
+| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
 
 
 
@@ -72,9 +77,9 @@ The date is encoded in the Gregorian or western calendar format.
 [**IOCTL\_BATTERY\_QUERY\_INFORMATION**](ioctl-battery-query-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Contains an object that the NIS server uses for temporary storage.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c59580cd-8c6b-489e-94a8-49516a347e9a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c59580cd-8c6b-489e-94a8-49516a347e9a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["msSFU-30-Result-Attributes attribute AD Schema", "msSFU30ResultAttributes attribute AD Schema"]
+keywords:
+- msSFU-30-Result-Attributes attribute AD Schema
+- msSFU30ResultAttributes attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - msSFU-30-Result-Attributes
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msSFU-30-Result-Attributes attribute
@@ -38,10 +43,10 @@ Contains an object that the NIS server uses for temporary storage.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -127,9 +132,9 @@ Contains an object that the NIS server uses for temporary storage.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,17 @@ description: The Distributed File System Replication (DFSR) service is a multi-m
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '34a92c66-09a1-4600-9406-d1e36a45f2c7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 34a92c66-09a1-4600-9406-d1e36a45f2c7
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication Files , overview"]
+keywords:
+- Distributed File System Replication Files , overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DFSR Overview

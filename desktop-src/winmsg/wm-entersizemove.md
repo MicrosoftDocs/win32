@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent one time to a window after it enters the moving or sizing modal loop.'
-ms.assetid: 'fe09db71-2c79-47f2-b575-516e960915d4'
-title: 'WM\_ENTERSIZEMOVE message'
+---
+Description: Sent one time to a window after it enters the moving or sizing modal loop.
+ms.assetid: fe09db71-2c79-47f2-b575-516e960915d4
+title: WM\_ENTERSIZEMOVE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_ENTERSIZEMOVE message

@@ -1,8 +1,11 @@
 ---
 title: System.Shell.Drive.driveFormat property
-description: Gets whether the system storage device is formatted with Microsoft Windows NT File System (NTFS) or FAT32 permissions.
-ms.assetid: '16899639-08b0-428b-81cf-bb16aba80bbb'
-keywords: ["driveFormat property Windows Sidebar", "driveFormat property Windows Sidebar , System.Shell.Drive object", "System.Shell.Drive object Windows Sidebar , driveFormat property"]
+description: Gets whether the system storage device is formatted with Microsoft Windows NT File System (NTFS) or FAT32 permissions.
+ms.assetid: 16899639-08b0-428b-81cf-bb16aba80bbb
+keywords:
+- driveFormat property Windows Sidebar
+- driveFormat property Windows Sidebar , System.Shell.Drive object
+- System.Shell.Drive object Windows Sidebar , driveFormat property
 topic_type:
 - apiref
 api_name:
@@ -11,13 +14,18 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.Drive.driveFormat property
 
 \[ The Windows Gadget Platform/Sidebar is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. \]
 
-Gets whether the system storage device is formatted with Microsoft Windows NT File System (NTFS) or FAT32 permissions.
+Gets whether the system storage device is formatted with Microsoft Windows NT File System (NTFS) or FAT32 permissions.
 
 This property is read-only.
 
@@ -110,10 +118,10 @@ function GetDriveInfo(driveLetter)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -129,9 +137,9 @@ function GetDriveInfo(driveLetter)
 [**System.Shell**](system-shell.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

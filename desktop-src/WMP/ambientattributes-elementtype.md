@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.elementType
 description: The elementType attribute retrieves the type of the element (for instance, BUTTON).
-ms.assetid: 'afff5a23-d981-4a60-b709-a5b926ea1fc3'
-keywords: ["AmbientAttributes.elementType Windows Media Player"]
+ms.assetid: afff5a23-d981-4a60-b709-a5b926ea1fc3
+keywords:
+- AmbientAttributes.elementType Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.elementType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.elementType
@@ -44,9 +50,9 @@ This attribute is useful in determining the type of element that fired an event 
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

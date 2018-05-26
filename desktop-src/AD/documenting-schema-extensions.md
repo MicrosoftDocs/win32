@@ -4,10 +4,13 @@ description: In addition to providing a separate installation procedure for sche
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e9387368-aed4-4fb3-90e5-522580d90d99'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e9387368-aed4-4fb3-90e5-522580d90d99
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Documenting Schema Extensions

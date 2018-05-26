@@ -4,11 +4,17 @@ description: The following table lists all of examples in this documentation by 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '54be1f85-4593-4c4a-a8f2-176bfa86f188'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 54be1f85-4593-4c4a-a8f2-176bfa86f188
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["index of examples Failover Cluster", "Failover Cluster APIs Failover Cluster ,index of examples", "failover cluster examples Failover Cluster"]
+keywords:
+- index of examples Failover Cluster
+- Failover Cluster APIs Failover Cluster ,index of examples
+- failover cluster examples Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Index of Examples

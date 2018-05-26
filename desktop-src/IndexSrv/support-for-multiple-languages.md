@@ -1,7 +1,12 @@
 ---
 title: Support for Multiple Languages
 description: Support for Multiple Languages
-ms.assetid: '6bf12187-b8b0-4e83-aee5-bee03fab3370'
+ms.assetid: 6bf12187-b8b0-4e83-aee5-bee03fab3370
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support for Multiple Languages

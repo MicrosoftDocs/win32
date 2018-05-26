@@ -1,14 +1,17 @@
 ---
 title: IMsRdpClientTransportSettings GatewayUsageMethod property
-description: Specifies when to use a Remote Desktop Gateway (RD Gateway) server.
+description: Specifies when to use a Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0644c413-9ff7-42c1-a38e-e1ce546972ff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0644c413-9ff7-42c1-a38e-e1ce546972ff
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GatewayUsageMethod property Remote Desktop Services", "GatewayUsageMethod property Remote Desktop Services , IMsRdpClientTransportSettings interface", "IMsRdpClientTransportSettings interface Remote Desktop Services , GatewayUsageMethod property"]
+keywords:
+- GatewayUsageMethod property Remote Desktop Services
+- GatewayUsageMethod property Remote Desktop Services , IMsRdpClientTransportSettings interface
+- IMsRdpClientTransportSettings interface Remote Desktop Services , GatewayUsageMethod property
 topic_type:
 - apiref
 api_name:
@@ -19,11 +22,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings::GatewayUsageMethod property
 
-Specifies when to use a Remote Desktop Gateway (RD Gateway) server.
+Specifies when to use a Remote Desktop Gateway (RD Gateway) server.
 
 This property is read/write.
 
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GatewayUsageMethod(
-  [in]  ULONG ulProxyMethod
+  [in]  ULONG ulProxyMethod
 );
 
 HRESULT get_GatewayUsageMethod(
-  [out] ULONG *pulProxyUsageMethod
+  [out] ULONG *pulProxyUsageMethod
 );
 ```
 
@@ -44,7 +50,7 @@ HRESULT get_GatewayUsageMethod(
 
 ## Property value
 
-A **ULONG** variable that specifies the RD Gateway server usage method. This parameter can be one of the following values.
+A **ULONG** variable that specifies the RD Gateway server usage method. This parameter can be one of the following values.
 
 <dt>
 
@@ -55,7 +61,7 @@ A **ULONG** variable that specifies the RD Gateway server usage method. This par
 
 </dt> <dd>
 
-Do not use an RD Gateway server. In the Remote Desktop Connection (RDC) client UI, the **Bypass RD Gateway server for local addresses** check box is cleared.
+Do not use an RD Gateway server. In the Remote Desktop Connection (RDC) client UI, the **Bypass RD Gateway server for local addresses** check box is cleared.
 
 </dd> <dt>
 
@@ -66,7 +72,7 @@ Do not use an RD Gateway server. In the Remote Desktop Connection (RDC) client U
 
 </dt> <dd>
 
-Always use an RD Gateway server. In the RDC client UI, the **Bypass RD Gateway server for local addresses** check box is cleared.
+Always use an RD Gateway server. In the RDC client UI, the **Bypass RD Gateway server for local addresses** check box is cleared.
 
 </dd> <dt>
 
@@ -77,7 +83,7 @@ Always use an RD Gateway server. In the RDC client UI, the **Bypass RD Gateway s
 
 </dt> <dd>
 
-Use an RD Gateway server if a direct connection cannot be made to the RD Session Host server. In the RDC client UI, the **Bypass RD Gateway server for local addresses** check box is selected.
+Use an RD Gateway server if a direct connection cannot be made to the RD Session Host server. In the RDC client UI, the **Bypass RD Gateway server for local addresses** check box is selected.
 
 </dd> <dt>
 
@@ -88,7 +94,7 @@ Use an RD Gateway server if a direct connection cannot be made to the RD Session
 
 </dt> <dd>
 
-Use the default RD Gateway server settings.
+Use the default RD Gateway server settings.
 
 </dd> <dt>
 
@@ -99,7 +105,7 @@ Use the default RD Gateway server settings.
 
 </dt> <dd>
 
-Do not use an RD Gateway server. In the RDC client UI, the **Bypass RD Gateway server for local addresses** check box is selected.
+Do not use an RD Gateway server. In the RDC client UI, the **Bypass RD Gateway server for local addresses** check box is selected.
 
 </dd> </dl>
 
@@ -113,8 +119,8 @@ Returns **S\_OK** if successful.
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientTransportSettings is defined as 720298C0-A099-46f5-9F82-96921BAE4701<br/> |
@@ -128,9 +134,9 @@ Returns **S\_OK** if successful.
 [**IMsRdpClientTransportSettings**](imsrdpclienttransportsettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

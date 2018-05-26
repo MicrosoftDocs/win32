@@ -1,8 +1,21 @@
 ---
 title: To Configure Constrained VBR
 description: To Configure Constrained VBR
-ms.assetid: 'a39e7628-0211-48ad-94e5-5003203f30be'
-keywords: ["streams,configuring VBR streams", "streams,variable bit rate (VBR)", "variable bit rate (VBR),streams", "VBR (variable bit rate),streams", "streams,configuring constrained VBR", "variable bit rate (VBR),configuring constrained", "VBR (variable bit rate),configuring constrained", "profiles,configuring constrained VBR"]
+ms.assetid: a39e7628-0211-48ad-94e5-5003203f30be
+keywords:
+- streams,configuring VBR streams
+- streams,variable bit rate (VBR)
+- variable bit rate (VBR),streams
+- VBR (variable bit rate),streams
+- streams,configuring constrained VBR
+- variable bit rate (VBR),configuring constrained
+- VBR (variable bit rate),configuring constrained
+- profiles,configuring constrained VBR
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Configure Constrained VBR
@@ -15,13 +28,13 @@ Constrained VBR must be used in conjunction with two-pass encoding. Two-pass enc
 
 To configure a stream in a profile to use constrained VBR encoding, perform the following steps.
 
-1.  Create a profile manager object by calling the [**WMCreateProfileManager**](wmcreateprofilemanager.md) function.
+1.  Create a profile manager object by calling the [**WMCreateProfileManager**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreateprofilemanager?branch=master) function.
 2.  Open an existing profile to which you want to add VBR support. For more information about opening profiles, see [Working with Profiles](working-with-profiles.md).
-3.  Get a stream configuration object for the stream you want to use by calling either [**IWMProfile::GetStream**](iwmprofile-getstream.md) or [**IWMProfile::GetStreamByNumber**](iwmprofile-getstreambynumber.md).
-4.  Get a pointer to the [**IWMPropertyVault**](iwmpropertyvault.md) interface of the stream configuration object by calling **IWMStreamConfig::QueryInterface**.
-5.  Enable VBR encoding for the stream by calling [**IWMPropertyVault::SetProperty**](iwmpropertyvault-setproperty.md) for the **g\_wszVBREnabled** property.
+3.  Get a stream configuration object for the stream you want to use by calling either [**IWMProfile::GetStream**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstream?branch=master) or [**IWMProfile::GetStreamByNumber**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstreambynumber?branch=master).
+4.  Get a pointer to the [**IWMPropertyVault**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmpropertyvault?branch=master) interface of the stream configuration object by calling **IWMStreamConfig::QueryInterface**.
+5.  Enable VBR encoding for the stream by calling [**IWMPropertyVault::SetProperty**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty?branch=master) for the **g\_wszVBREnabled** property.
 6.  Use calls to **IWMPropertyVault::SetProperty** to set the desired maximum values for the **g\_wszVBRBitrateMax** and **g\_wszVBRBufferWindowMax** properties.
-7.  Save the changes made to the stream by calling [**IWMProfile::ReconfigStream**](iwmprofile-reconfigstream.md).
+7.  Save the changes made to the stream by calling [**IWMProfile::ReconfigStream**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile-reconfigstream?branch=master).
 8.  Save the profile, or pass it to the writer object.
 9.  Configure the writer to perform a preprocessing pass.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The IPX address family defines the addressing structure for protocols that use standard IPX socket addressing. For these transports, an endpoint address consists of a network number, node address, and socket number.'
-ms.assetid: 'cf749ae7-ab17-4c60-b00c-b34e092c6431'
-title: 'AF\_IPX Address Family'
+Description: The IPX address family defines the addressing structure for protocols that use standard IPX socket addressing. For these transports, an endpoint address consists of a network number, node address, and socket number.
+ms.assetid: cf749ae7-ab17-4c60-b00c-b34e092c6431
+title: AF\_IPX Address Family
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AF\_IPX Address Family

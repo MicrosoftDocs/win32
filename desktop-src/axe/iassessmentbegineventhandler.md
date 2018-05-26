@@ -1,8 +1,10 @@
 ---
 title: IAssessmentBeginEventHandler class
 description: The IAssessmentBeginEventHandler interface enables a solution to receive notification from the AXE engine when an assessment begins.
-ms.assetid: 'F7FE28E5-DF6B-4A24-A237-B0AF7C9AC7F2'
-keywords: ["IAssessmentBeginEventHandler class Access Execution Engine", "IAssessmentBeginEventHandler class Access Execution Engine , described"]
+ms.assetid: F7FE28E5-DF6B-4A24-A237-B0AF7C9AC7F2
+keywords:
+- IAssessmentBeginEventHandler class Access Execution Engine
+- IAssessmentBeginEventHandler class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAssessmentBeginEventHandler class
@@ -37,7 +44,7 @@ The **IAssessmentBeginEventHandler** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,8 +52,8 @@ The **IAssessmentBeginEventHandler** class has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -59,9 +66,9 @@ The **IAssessmentBeginEventHandler** class has these methods.
 [**Execution Solution Interfaces**](execution-solution-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

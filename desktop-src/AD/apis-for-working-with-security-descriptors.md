@@ -4,11 +4,15 @@ description: APIs for Working with Security Descriptors
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'eb5ee183-949c-41f5-9f74-f9c418fdf0a2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: eb5ee183-949c-41f5-9f74-f9c418fdf0a2
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["security descriptors AD"]
+keywords:
+- security descriptors AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # APIs for Working with Security Descriptors

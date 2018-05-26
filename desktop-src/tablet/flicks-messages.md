@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains details about Flicks messages.'
-ms.assetid: 'ac8b6b59-f553-4b68-943c-d52f04983356'
+Description: This section contains details about Flicks messages.
+ms.assetid: ac8b6b59-f553-4b68-943c-d52f04983356
 title: Flicks Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flicks Messages
@@ -17,11 +22,11 @@ This section contains details about Flicks messages.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

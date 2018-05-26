@@ -1,8 +1,11 @@
 ---
 title: Reset method of the Msvm\_HeartbeatComponent class
 description: Resets the logical device.
-ms.assetid: '4f1edd6e-c276-4757-ab22-5c7888b576ee'
-keywords: ["Reset method Hyper-V", "Reset method Hyper-V , Msvm_HeartbeatComponent class", "Msvm_HeartbeatComponent class Hyper-V , Reset method"]
+ms.assetid: 4f1edd6e-c276-4757-ab22-5c7888b576ee
+keywords:
+- Reset method Hyper-V
+- Reset method Hyper-V , Msvm_HeartbeatComponent class
+- Msvm_HeartbeatComponent class Hyper-V , Reset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the Msvm\_HeartbeatComponent class
@@ -91,9 +99,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_HeartbeatComponent**](msvm-heartbeatcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

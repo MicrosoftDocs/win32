@@ -1,8 +1,17 @@
 ---
 title: Matrix Transformations
-description: Vertices and normals are transformed by the modelview and projection matrices before they're used to produce an image in the framebuffer.
-ms.assetid: '9fd0b236-9152-4494-b5c7-dadb5943269e'
-keywords: ["OpenGL processing pipeline,matrices", "matrices OpenGL", "modelview matrix", "projection matrix"]
+description: Vertices and normals are transformed by the modelview and projection matrices before theyre used to produce an image in the framebuffer.
+ms.assetid: 9fd0b236-9152-4494-b5c7-dadb5943269e
+keywords:
+- OpenGL processing pipeline,matrices
+- matrices OpenGL
+- modelview matrix
+- projection matrix
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Matrix Transformations

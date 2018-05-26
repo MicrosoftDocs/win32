@@ -1,14 +1,19 @@
 ---
 Description: DVD Navigator Filter
-ms.assetid: '3b2c01a2-d52c-4497-8fc9-d1113e8507e8'
+ms.assetid: 3b2c01a2-d52c-4497-8fc9-d1113e8507e8
 title: DVD Navigator Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD Navigator Filter
 
 The DVD Navigator filter is the source filter for a DVD-Video playback filter graph. It opens all necessary files in a DVD-Video volume, navigates through the linear DVD-Video .vob files, and parses the resulting MPEG-2 program stream, splitting the stream into three (video, audio, subpicture) output pins.
 
-The DVD Navigator filter also implements the [**IDvdControl2**](idvdcontrol2.md) and [**IDvdInfo2**](idvdinfo2.md) interfaces that enable a DVD playback application to control DVD-Video playback.
+The DVD Navigator filter also implements the [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master) and [**IDvdInfo2**](/windows/win32/Strmif/nn-strmif-idvdinfo2?branch=master) interfaces that enable a DVD playback application to control DVD-Video playback.
 
 
 
@@ -20,7 +25,7 @@ The DVD Navigator filter also implements the [**IDvdControl2**](idvdcontrol2.md)
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IBaseFilter</strong>](ibasefilter.md), [<strong>IDvdControl2</strong>](idvdcontrol2.md), [<strong>IDvdInfo2</strong>](idvdinfo2.md), [<strong>IFileSourceFilter</strong>](ifilesourcefilter.md), <strong>ISpecifyPropertyPages</strong></td>
+<td>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [<strong>IDvdControl2</strong>](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master), [<strong>IDvdInfo2</strong>](/windows/win32/Strmif/nn-strmif-idvdinfo2?branch=master), [<strong>IFileSourceFilter</strong>](/windows/win32/Strmif/nn-strmif-ifilesourcefilter?branch=master), <strong>ISpecifyPropertyPages</strong></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -56,11 +61,11 @@ Subpicture:<br/>
 <li><strong>MEDIATYPE_Video</strong>, <strong>MEDIASUBTYPE_DVD_SUBPICTURE</strong></li>
 <li><strong>MEDIATYPE_MPEG2_PES</strong>, <strong>MEDIASUBTYPE_DVD_SUBPICTURE</strong></li>
 </ul>
-To enable the extended types, call [<strong>IDvdControl2::SetOption</strong>](idvdcontrol2-setoption.md) and set the <br/></td>
+To enable the extended types, call [<strong>IDvdControl2::SetOption</strong>](/windows/win32/Strmif/nf-strmif-idvdcontrol2-setoption?branch=master) and set the <br/></td>
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -87,7 +92,7 @@ To enable the extended types, call [<strong>IDvdControl2::SetOption</strong>](id
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -99,9 +104,9 @@ To enable the extended types, call [<strong>IDvdControl2::SetOption</strong>](id
 [DVD Applications](dvd-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

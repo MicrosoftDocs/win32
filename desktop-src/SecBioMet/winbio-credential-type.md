@@ -1,8 +1,9 @@
 ---
 title: WINBIO\_CREDENTIAL\_TYPE enumeration
 description: Defines flags that can be used to filter on the credential type.
-ms.assetid: '7ef2d4b3-e1f9-46a0-8fc2-0e8660805ac3'
-keywords: ["WINBIO_CREDENTIAL_TYPE enumeration Windows Biometric Framework API"]
+ms.assetid: 7ef2d4b3-e1f9-46a0-8fc2-0e8660805ac3
+keywords:
+- WINBIO_CREDENTIAL_TYPE enumeration Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,19 +12,24 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_CREDENTIAL\_TYPE enumeration
 
-Defines flags that can be used to filter on the credential type. This enumeration is used by the [**WinBioSetCredential**](winbiosetcredential.md), [**WinBioRemoveCredential**](winbioremovecredential.md), and [**WinBioGetCredentialState**](winbiogetcredentialstate.md) functions.
+Defines flags that can be used to filter on the credential type. This enumeration is used by the [**WinBioSetCredential**](/windows/win32/Winbio/nf-winbio-winbiosetcredential?branch=master), [**WinBioRemoveCredential**](/windows/win32/Winbio/nf-winbio-winbioremovecredential?branch=master), and [**WinBioGetCredentialState**](/windows/win32/Winbio/nf-winbio-winbiogetcredentialstate?branch=master) functions.
 
 ## Syntax
 
 
 ```C++
 typedef enum _WINBIO_CREDENTIAL_TYPE { 
-  WINBIO_CREDENTIAL_PASSWORD  = 0x00000001,
-  WINBIO_CREDENTIAL_ALL       = 0xffffffff
+  WINBIO_CREDENTIAL_PASSWORD  = 0x00000001,
+  WINBIO_CREDENTIAL_ALL       = 0xffffffff
 } WINBIO_CREDENTIAL_TYPE;
 ```
 
@@ -53,8 +59,8 @@ Filters all credentials.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -66,18 +72,18 @@ Filters all credentials.
 [Client Application Enumerations](client-application-enumerations.md)
 </dt> <dt>
 
-[**WinBioGetCredentialState**](winbiogetcredentialstate.md)
+[**WinBioGetCredentialState**](/windows/win32/Winbio/nf-winbio-winbiogetcredentialstate?branch=master)
 </dt> <dt>
 
-[**WinBioRemoveCredential**](winbioremovecredential.md)
+[**WinBioRemoveCredential**](/windows/win32/Winbio/nf-winbio-winbioremovecredential?branch=master)
 </dt> <dt>
 
-[**WinBioSetCredential**](winbiosetcredential.md)
+[**WinBioSetCredential**](/windows/win32/Winbio/nf-winbio-winbiosetcredential?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

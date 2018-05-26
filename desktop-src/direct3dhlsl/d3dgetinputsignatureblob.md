@@ -1,8 +1,9 @@
 ---
 title: D3DGetInputSignatureBlob function
-description: Note D3DGetInputSignatureBlob may be altered or unavailable for releases after Windows 8.1. Instead use D3DGetBlobPart with the D3D\_BLOB\_INPUT\_SIGNATURE\_BLOB value. Gets the input signature from a compilation result.
-ms.assetid: 'a3031513-ea13-434c-8379-2f3e11aae1a5'
-keywords: ["D3DGetInputSignatureBlob function HLSL"]
+description: Note D3DGetInputSignatureBlob may be altered or unavailable for releases after Windows 8.1. Instead use D3DGetBlobPart with the D3D\_BLOB\_INPUT\_SIGNATURE\_BLOB value. Gets the input signature from a compilation result.
+ms.assetid: a3031513-ea13-434c-8379-2f3e11aae1a5
+keywords:
+- D3DGetInputSignatureBlob function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,14 +12,19 @@ api_location:
 - d3dcompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DGetInputSignatureBlob function
 
 > [!Note]  
-> **D3DGetInputSignatureBlob** may be altered or unavailable for releases after Windows 8.1. Instead use [**D3DGetBlobPart**](d3dgetblobpart.md) with the [**D3D\_BLOB\_INPUT\_SIGNATURE\_BLOB**](d3d-blob-part.md#d3d-blob-input-signature-blob) value.
+> **D3DGetInputSignatureBlob** may be altered or unavailable for releases after Windows 8.1. Instead use [**D3DGetBlobPart**](d3dgetblobpart.md) with the [**D3D\_BLOB\_INPUT\_SIGNATURE\_BLOB**](d3d-blob-part.md#d3d-blob-input-signature-blob) value.
 
- 
+ 
 
 Gets the input signature from a compilation result.
 
@@ -26,9 +32,9 @@ Gets the input signature from a compilation result.
 
 ``` syntax
 HRESULT WINAPI D3DGetInputSignatureBlob(
-  in  LPCVOID pSrcData,
-  in  SIZE_T SrcDataSize,
-  out ID3DBlob ppSignatureBlob
+  in  LPCVOID pSrcData,
+  in  SIZE_T SrcDataSize,
+  out ID3DBlob ppSignatureBlob
 );
 ```
 
@@ -88,9 +94,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

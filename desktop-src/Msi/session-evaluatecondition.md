@@ -1,12 +1,17 @@
-﻿---
-Description: 'The EvaluateCondition method of the Session object evaluates a logical expression that contains symbols and values. This method uses the MsiEvaluateCondition function.'
-ms.assetid: '629f7efd-80fe-4a0e-95cc-b62d6258ae0a'
-title: 'Session.EvaluateCondition method'
+---
+Description: The EvaluateCondition method of the Session object evaluates a logical expression that contains symbols and values. This method uses the MsiEvaluateCondition function.
+ms.assetid: 629f7efd-80fe-4a0e-95cc-b62d6258ae0a
+title: Session.EvaluateCondition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session.EvaluateCondition method
 
-The **EvaluateCondition** method of the [**Session**](session-object.md) object evaluates a logical expression that contains symbols and values. This method uses the [**MsiEvaluateCondition**](msievaluatecondition.md) function.
+The **EvaluateCondition** method of the [**Session**](session-object.md) object evaluates a logical expression that contains symbols and values. This method uses the [**MsiEvaluateCondition**](/windows/win32/Msiquery/nf-msiquery-msievaluateconditiona?branch=master) function.
 
 ## Syntax
 

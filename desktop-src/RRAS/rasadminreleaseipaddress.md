@@ -1,19 +1,25 @@
 ---
 title: RasAdminReleaseIpAddress callback function
 description: The RasAdminReleaseIpAddress function is an application-defined function that is exported by a third-party RAS server administration DLL.
-ms.assetid: '86fd9173-f158-4de5-8166-483a652a52cc'
-keywords: ["RasAdminReleaseIpAddress callback function RAS"]
+ms.assetid: 86fd9173-f158-4de5-8166-483a652a52cc
+keywords:
+- RasAdminReleaseIpAddress callback function RAS
 topic_type:
 - apiref
 api_name:
 - RasAdminReleaseIpAddress
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RasAdminReleaseIpAddress callback function
 
-\[The **RasAdminReleaseIpAddress** function is available for use in Windows NT 4.0 and is unavailable in subsequent versions. Instead, use [**MprAdminReleaseIpAddress**](mpradminreleaseipaddress.md).\]
+\[The **RasAdminReleaseIpAddress** function is available for use in Windows NT 4.0 and is unavailable in subsequent versions. Instead, use [**MprAdminReleaseIpAddress**](/windows/win32/Mprapi/nf-mprapi-mpradminreleaseipaddress?branch=master).\]
 
 The **RasAdminReleaseIpAddress** function is an application-defined function that is exported by a third-party RAS server administration DLL. RAS calls this function to notify the DLL that the remote client was disconnected and that the IP address should be released.
 

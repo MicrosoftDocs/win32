@@ -1,8 +1,9 @@
 ---
 title: MCI\_HMS\_SECOND macro
 description: The MCI\_HMS\_SECOND macro retrieves the seconds component from a parameter containing packed hours/minutes/seconds (HMS) information.
-ms.assetid: 'b6895bec-524f-4345-ae65-e75168855df2'
-keywords: ["MCI_HMS_SECOND macro Windows Multimedia"]
+ms.assetid: b6895bec-524f-4345-ae65-e75168855df2
+keywords:
+- MCI_HMS_SECOND macro Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_HMS\_SECOND macro
@@ -22,7 +28,7 @@ The **MCI\_HMS\_SECOND** macro retrieves the seconds component from a parameter 
 
 ```C++
 BYTE MCI_HMS_SECOND(
-   DWORD dwHMS
+   DWORD dwHMS
 );
 ```
 
@@ -62,8 +68,8 @@ The **MCI\_HMS\_SECOND** macro is defined as follows:
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -78,9 +84,9 @@ The **MCI\_HMS\_SECOND** macro is defined as follows:
 [MCI Macros](mci-macros.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

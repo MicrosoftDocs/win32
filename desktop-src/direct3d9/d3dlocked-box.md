@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a locked box (volume).'
-ms.assetid: 'b371fb5e-2d65-453c-acd7-214de8aaa78a'
-title: 'D3DLOCKED\_BOX structure'
+---
+Description: Describes a locked box (volume).
+ms.assetid: b371fb5e-2d65-453c-acd7-214de8aaa78a
+title: D3DLOCKED\_BOX structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DLOCKED\_BOX structure
@@ -79,10 +84,10 @@ Volumes can be visualized as being organized into slices of width x height 2D su
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**IDirect3DVolume9::LockBox**](idirect3dvolume9--lockbox.md)
+[**IDirect3DVolume9::LockBox**](/windows/win32/d3d9helper/nf-d3d9-idirect3dvolume9-lockbox?branch=master)
 </dt> <dt>
 
-[**IDirect3DVolumeTexture9::LockBox**](idirect3dvolumetexture9--lockbox.md)
+[**IDirect3DVolumeTexture9::LockBox**](/windows/win32/d3d9helper/nf-d3d9-idirect3dvolumetexture9-lockbox?branch=master)
 </dt> </dl>
 
  

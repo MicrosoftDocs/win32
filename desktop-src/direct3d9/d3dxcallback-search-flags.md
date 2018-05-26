@@ -1,7 +1,12 @@
-﻿---
-Description: 'Flags used to obtain callback information.'
-ms.assetid: 'e8126ff0-db23-4da6-a999-0efb8c2647da'
-title: 'D3DXCALLBACK\_SEARCH\_FLAGS enumeration'
+---
+Description: Flags used to obtain callback information.
+ms.assetid: e8126ff0-db23-4da6-a999-0efb8c2647da
+title: D3DXCALLBACK\_SEARCH\_FLAGS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCALLBACK\_SEARCH\_FLAGS enumeration

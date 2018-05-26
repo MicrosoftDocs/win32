@@ -1,7 +1,12 @@
 ---
 title: IFilter Sample
 description: IFilter Sample
-ms.assetid: 'b6565c41-41f8-4e56-b166-d2d9abd00987'
+ms.assetid: b6565c41-41f8-4e56-b166-d2d9abd00987
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFilter Sample
@@ -11,7 +16,7 @@ ms.assetid: 'b6565c41-41f8-4e56-b166-d2d9abd00987'
 
  
 
-The **IFilter** sample (HtmlFilt) is an example [**IFilter**](ifilter.md) implementation for HTML files. It is more complex than the basic text filter, because it demonstrates techniques for filtering both text-type and value-type properties.
+The **IFilter** sample (HtmlFilt) is an example [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) implementation for HTML files. It is more complex than the basic text filter, because it demonstrates techniques for filtering both text-type and value-type properties.
 
 Source: mssdk\\samples\\winbase\\indexing\\ifilter\\
 
@@ -47,7 +52,7 @@ Source: mssdk\\samples\\winbase\\indexing\\ifilter\\
 
 ### Programming Notes
 
-HTMLFilt will extract text-type and value-type properties from HTML pages. In addition to the body of the text as a text-type property, headings (levels 1 to 6), title, and anchors are extracted as internal value-type properties available using the [**IFilter::GetValue**](ifilter-getvalue.md) method.
+HTMLFilt will extract text-type and value-type properties from HTML pages. In addition to the body of the text as a text-type property, headings (levels 1 to 6), title, and anchors are extracted as internal value-type properties available using the [**IFilter::GetValue**](/windows/win32/Filter/nf-filter-ifilter-getvalue?branch=master) method.
 
  
 

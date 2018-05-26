@@ -1,7 +1,12 @@
 ---
-Description: 'Schannel protocols require credentials to authenticate servers and optionally, clients.'
-ms.assetid: '8f912af8-fd64-467a-b154-28c60cb14929'
+Description: Schannel protocols require credentials to authenticate servers and optionally, clients.
+ms.assetid: 8f912af8-fd64-467a-b154-28c60cb14929
 title: Schannel Credentials
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Schannel Credentials

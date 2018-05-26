@@ -1,8 +1,16 @@
 ---
 title: Digital Rights Management Features
 description: Digital Rights Management Features
-ms.assetid: 'c3c1e59f-8ff9-496c-8e63-0c1cf4ce7092'
-keywords: ["Windows Media Format SDK,DRM features", "digital rights management (DRM),features", "DRM (digital rights management),features"]
+ms.assetid: c3c1e59f-8ff9-496c-8e63-0c1cf4ce7092
+keywords:
+- Windows Media Format SDK,DRM features
+- digital rights management (DRM),features
+- DRM (digital rights management),features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Digital Rights Management Features

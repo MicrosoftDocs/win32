@@ -4,11 +4,18 @@ description: A service principal name (SPN) is a unique identifier of a service 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '54b02853-4097-4e37-b7a2-6b5cfd168ece'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 54b02853-4097-4e37-b7a2-6b5cfd168ece
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Service Principal Names", "SPN see service principal names", "service principal name AD", "service principal name AD , about"]
+keywords:
+- Service Principal Names
+- SPN see service principal names
+- service principal name AD
+- service principal name AD , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Service Principal Names

@@ -4,17 +4,21 @@ description: Using the document tracking feature requires some simple understand
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '70E10936-7953-49B0-B0DC-A5E7C4772E60'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 70E10936-7953-49B0-B0DC-A5E7C4772E60
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["How to Use document tracking"]
+keywords:
+- How to Use document tracking
 topic_type:
 - apiref
 api_name:
 - How to Use document tracking
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Use document tracking

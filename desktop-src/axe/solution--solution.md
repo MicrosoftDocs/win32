@@ -1,8 +1,11 @@
 ---
 title: Solution ~Solution destructor
 description: Destructor method.
-ms.assetid: 'AF5C0841-ED54-494C-A30B-A3D308CEBF65'
-keywords: ["~Solution destructor Access Execution Engine", "~Solution destructor Access Execution Engine , Solution interface", "Solution interface Access Execution Engine , ~Solution destructor"]
+ms.assetid: AF5C0841-ED54-494C-A30B-A3D308CEBF65
+keywords:
+- ~Solution destructor Access Execution Engine
+- ~Solution destructor Access Execution Engine , Solution interface
+- Solution interface Access Execution Engine , ~Solution destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Solution::~Solution destructor
@@ -32,8 +40,8 @@ virtual ~Solution();
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>AxeCore.lib</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
@@ -47,9 +55,9 @@ virtual ~Solution();
 [**Solution**](solution.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

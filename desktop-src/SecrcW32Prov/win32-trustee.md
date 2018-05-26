@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_Trustee abstract WMI class specifies a trustee that can be a name or a security identifier (SID) byte array.'
+Description: The Win32\_Trustee abstract WMI class specifies a trustee that can be a name or a security identifier (SID) byte array.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e5394068-f05b-44dc-9089-ff7ffaa72348'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e5394068-f05b-44dc-9089-ff7ffaa72348
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_Trustee class'
+title: Win32\_Trustee class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_Trustee class
@@ -25,7 +28,7 @@ class Win32_Trustee : __Trustee
   uint64 TIME_CREATED;
   string Domain;
   string Name;
-  uint8  SID[];
+  uint8  SID[];
   uint32 SidLength;
   string SIDString;
 };
@@ -103,7 +106,7 @@ Access type: Read/write
 Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) (SidLength), [**WritePrivileges**](https://msdn.microsoft.com/library/aa393651) ("SeSecurityPrivilege", "SeRestorePrivilege")
 </dt> </dl>
 
-Length of a SID—in bytes.
+Length of a SID in bytes.
 
 </dd> <dt>
 
@@ -155,8 +158,8 @@ The **Win32\_Trustee** class is derived from the [**Win32\_MethodParameterClass*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -182,9 +185,9 @@ The **Win32\_Trustee** class is derived from the [**Win32\_MethodParameterClass*
 [Maintaining WMI Security](https://msdn.microsoft.com/library/aa392291)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DRIVER\_INFO\_8 structure contains printer driver information.'
-ms.assetid: '95f62d57-300a-4179-868b-f14f29c58b4d'
-title: 'DRIVER\_INFO\_8 structure'
+---
+Description: The DRIVER\_INFO\_8 structure contains printer driver information.
+ms.assetid: 95f62d57-300a-4179-868b-f14f29c58b4d
+title: DRIVER\_INFO\_8 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRIVER\_INFO\_8 structure

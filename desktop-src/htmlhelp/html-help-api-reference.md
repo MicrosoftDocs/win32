@@ -1,7 +1,12 @@
 ---
 title: HTML Help API Reference
 description: The HTML Help API Reference provides information on the HTML Help application programming interface (API), which enables a program to display a help window.
-ms.assetid: '88CB4C43-BCB0-4272-9E4C-9583050709DC'
+ms.assetid: 88CB4C43-BCB0-4272-9E4C-9583050709DC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Help API Reference

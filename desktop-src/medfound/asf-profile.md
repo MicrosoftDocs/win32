@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to work with ASF profiles in Microsoft Media Foundation.'
-ms.assetid: '03a0981b-29c3-450d-aa58-bc56a76e6cb6'
+Description: This topic describes how to work with ASF profiles in Microsoft Media Foundation.
+ms.assetid: 03a0981b-29c3-450d-aa58-bc56a76e6cb6
 title: ASF Profile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASF Profile
@@ -10,9 +15,9 @@ This topic describes how to work with ASF profiles in Microsoft Media Foundation
 
 An Advanced Systems Format (ASF) file contains one or more streams. For each stream, the ASF header contains a Stream Properties Header that describes the stream. At the [WMContainer](wmcontainer-asf-components.md) layer, the following objects are used to set or read the properties of the ASF streams:
 
--   *ASF profile* object: Describes the streams and their relationships with each other. The ASF profile object exposes the [**IMFASFProfile**](imfasfprofile.md) interface.
--   *Stream configuration* object: Describes one stream. The stream configuration object contains a media type that describes the format of the stream. For audio and video streams, the media type describes exactly how the stream is configured, and is used by codecs that encode or decode the stream. The stream configuration object exposes the [**IMFASFStreamConfig**](imfasfstreamconfig.md) interface. A valid ASF profile contains at least one stream configuration object.
--   *Mutual exclusion* object: Describes multiple streams that are not intended be read concurrently. A mutual exclusion object exposes the [**IMFASFMutualExclusion**](imfasfmutualexclusion.md) interface. An ASF profile contains zero or more mutual exclusion objects.
+-   *ASF profile* object: Describes the streams and their relationships with each other. The ASF profile object exposes the [**IMFASFProfile**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfprofile?branch=master) interface.
+-   *Stream configuration* object: Describes one stream. The stream configuration object contains a media type that describes the format of the stream. For audio and video streams, the media type describes exactly how the stream is configured, and is used by codecs that encode or decode the stream. The stream configuration object exposes the [**IMFASFStreamConfig**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfstreamconfig?branch=master) interface. A valid ASF profile contains at least one stream configuration object.
+-   *Mutual exclusion* object: Describes multiple streams that are not intended be read concurrently. A mutual exclusion object exposes the [**IMFASFMutualExclusion**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfmutualexclusion?branch=master) interface. An ASF profile contains zero or more mutual exclusion objects.
 
 The following diagram shows the relationship between the ASF profile and the objects that are contained in the profile.
 
@@ -34,7 +39,7 @@ The ASF profile is also used to configure the [ASF Media Sink](asf-media-sinks.m
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -52,9 +57,9 @@ The ASF profile is also used to configure the [ASF Media Sink](asf-media-sinks.m
 [WMContainer ASF Components](wmcontainer-asf-components.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

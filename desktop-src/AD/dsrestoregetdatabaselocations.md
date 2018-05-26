@@ -4,11 +4,12 @@ description: Obtains the locations where backup files should be copied during a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f91d701c-72cf-418a-8d1c-6bf6ef41c2c1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: f91d701c-72cf-418a-8d1c-6bf6ef41c2c1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DsRestoreGetDatabaseLocations function Active Directory"]
+keywords:
+- DsRestoreGetDatabaseLocations function Active Directory
 topic_type:
 - apiref
 api_name:
@@ -19,11 +20,14 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DsRestoreGetDatabaseLocations function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
 
 The **DsRestoreGetDatabaseLocations** function obtains the locations where backup files should be copied during a restore operation.
 
@@ -32,9 +36,9 @@ The **DsRestoreGetDatabaseLocations** function obtains the locations where backu
 
 ```C++
 HRESULT DsRestoreGetDatabaseLocations(
-  _In_  HBC     hbc,
-  _Out_ LPWSTR  *pszDatabaseLocationList,
-  _Out_ LPDWORD pcbSize
+  _In_  HBC     hbc,
+  _Out_ LPWSTR  *pszDatabaseLocationList,
+  _Out_ LPDWORD pcbSize
 );
 ```
 
@@ -139,8 +143,8 @@ The **DsRestoreGetDatabaseLocations** function can be used to obtain the restora
 
 |                                     |                                                                                                       |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                        |
 | Header<br/>                   | <dl> <dt>Ntdsbcli.h</dt> </dl>                 |
 | Library<br/>                  | <dl> <dt>Ntdsbcli.lib</dt> </dl>               |
 | DLL<br/>                      | <dl> <dt>Ntdsbcli.dll</dt> </dl>               |
@@ -164,9 +168,9 @@ The **DsRestoreGetDatabaseLocations** function can be used to obtain the restora
 [Restoring Active Directory](restoring-an-active-directory-server.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

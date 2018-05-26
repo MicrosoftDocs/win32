@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '36255598-C96B-428A-AB87-D0ED140FA6FD'
-title: 'Fixing Compatibility Issues in Web Applications and Add-Ons'
+Description: .
+ms.assetid: 36255598-C96B-428A-AB87-D0ED140FA6FD
+title: Fixing Compatibility Issues in Web Applications and Add-Ons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fixing Compatibility Issues in Web Applications and Add-Ons

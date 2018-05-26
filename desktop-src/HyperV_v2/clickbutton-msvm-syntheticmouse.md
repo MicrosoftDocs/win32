@@ -1,7 +1,12 @@
 ---
-Description: 'Simulates a button click of the specified device button.'
-ms.assetid: '1153BF91-F1F6-4E0A-8100-7625A3C73BB3'
-title: 'ClickButton method of the Msvm\_SyntheticMouse class'
+Description: Simulates a button click of the specified device button.
+ms.assetid: 1153BF91-F1F6-4E0A-8100-7625A3C73BB3
+title: ClickButton method of the Msvm\_SyntheticMouse class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClickButton method of the Msvm\_SyntheticMouse class
@@ -13,7 +18,7 @@ Simulates a button click of the specified device button.
 
 ```mof
 uint32 ClickButton(
-  [in] uint32 buttonIndex
+  [in] uint32 buttonIndex
 );
 ```
 
@@ -432,8 +437,8 @@ End Function
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -447,9 +452,9 @@ End Function
 [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

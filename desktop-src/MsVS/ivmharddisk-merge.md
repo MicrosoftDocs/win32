@@ -1,8 +1,13 @@
 ---
 title: IVMHardDisk Merge method
 description: The Merge method merges a differencing hard disk image with its parent disk image.
-ms.assetid: '9eff521b-6061-4f9b-8c84-30e526884604'
-keywords: ["Merge method Virtual Server", "Merge method Virtual Server , IVMHardDisk interface", "IVMHardDisk interface Virtual Server , Merge method", "Merge method Virtual Server , VMHardDisk interface", "VMHardDisk interface Virtual Server , Merge method"]
+ms.assetid: 9eff521b-6061-4f9b-8c84-30e526884604
+keywords:
+- Merge method Virtual Server
+- Merge method Virtual Server , IVMHardDisk interface
+- IVMHardDisk interface Virtual Server , Merge method
+- Merge method Virtual Server , VMHardDisk interface
+- VMHardDisk interface Virtual Server , Merge method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk::Merge method
@@ -23,7 +33,7 @@ The **Merge** method merges a differencing hard disk image with its parent disk 
 
 ```C++
 HRESULT Merge(
-  [out] IVMTask **mergeTask
+  [out] IVMTask **mergeTask
 );
 ```
 
@@ -59,7 +69,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,8 +77,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -80,9 +90,9 @@ This method supports standard return values, as well as the following. For infor
 [**IVMHardDisk**](ivmharddisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Menus
 description: Menus are hierarchical lists of commands or options available to users in the current context.
-ms.assetid: '3772ff8e-8057-476d-b62b-efbd5e07907f'
+ms.assetid: 3772ff8e-8057-476d-b62b-efbd5e07907f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Menus
@@ -19,7 +24,7 @@ A typical menu bar displaying a drop-down menu and submenu.
 > [!Note]  
 > Guidelines related to [command buttons](ctrl-command-buttons.md), [Toolbars](cmd-toolbars.md), and [keyboard](inter-keyboard.md) are presented in separate articles.
 
- 
+ 
 
 ## Usage patterns
 
@@ -38,7 +43,7 @@ Menus have several usage patterns:
 
 
 
- 
+ 
 
 ## Is this the right user interface?
 
@@ -436,7 +441,7 @@ In this example, the Print... command displays a Print dialog box to gather more
 
 **Proper use of ellipses is important to indicate that users can make further choices before performing the action, or even cancel the action entirely.** The visual cue offered by an ellipsis allows users to explore your software without fear.
 
-**This doesn't mean you should use an ellipsis whenever an action displays another window**—only when additional information is required to perform the action. For example, the commands About, Advanced, Help, Options, Properties, and Settings must display another window when clicked, but don't require additional information from the user. Therefore they don't need ellipses.
+**This doesn't mean you should use an ellipsis whenever an action displays another window** only when additional information is required to perform the action. For example, the commands About, Advanced, Help, Options, Properties, and Settings must display another window when clicked, but don't require additional information from the user. Therefore they don't need ellipses.
 
 **In case of ambiguity (for example, the command label lacks a verb), decide based on the most likely user action.** If simply viewing the window is a common action, don't use an ellipsis.
 
@@ -451,7 +456,7 @@ In the first example, users are most likely going to choose a color, so using an
 > [!Note]  
 > When determining if a menu command needs an ellipsis, don't use the need to [elevate privileges](winenv-uac.md) as a factor.
 
- 
+ 
 
 Elevation isn't information needed to perform a command (rather, it's for permission) and the need to elevate is indicated with the security shield.
 
@@ -534,9 +539,9 @@ Examples:
 -   On the **File** menu, click **Print** to print the document.
 -   On the **View** menu, point to **Toolbars**, and then click **Formatting**.
 
- 
+ 
 
- 
+ 
 
 
 

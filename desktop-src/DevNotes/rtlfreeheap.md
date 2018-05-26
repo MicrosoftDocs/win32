@@ -1,7 +1,12 @@
-﻿---
-Description: 'Frees a memory block that was allocated from a heap by RtlAllocateHeap.'
-ms.assetid: '0A08FB6B-23A3-450B-8745-AEB927CEB7BB'
+---
+Description: Frees a memory block that was allocated from a heap by RtlAllocateHeap.
+ms.assetid: 0A08FB6B-23A3-450B-8745-AEB927CEB7BB
 title: RtlFreeHeap function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtlFreeHeap function

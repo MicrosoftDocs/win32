@@ -1,8 +1,9 @@
 ---
 title: TVN\_SETDISPINFO notification code
-description: Notifies a tree-view control's parent window that it must update the information it maintains about an item. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '40fa61bc-c043-4001-ada9-b627d68bd737'
-keywords: ["TVN_SETDISPINFO notification code Windows Controls"]
+description: Notifies a tree-view controls parent window that it must update the information it maintains about an item. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 40fa61bc-c043-4001-ada9-b627d68bd737
+keywords:
+- TVN_SETDISPINFO notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVN\_SETDISPINFO notification code
@@ -35,7 +41,7 @@ TVN_SETDISPINFO
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTVDISPINFO**](nmtvdispinfo.md) structure that describes the item being updated. The **hItem** member of the [**TVITEM**](tvitem.md) structure specifies the item being updated, and the **mask** member specifies which attributes of the item are being updated.
+Pointer to an [**NMTVDISPINFO**](/windows/win32/Commctrl/ns-commctrl-tagtvdispinfoa?branch=master) structure that describes the item being updated. The **hItem** member of the [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure specifies the item being updated, and the **mask** member specifies which attributes of the item are being updated.
 
 </dd> </dl>
 
@@ -45,9 +51,9 @@ The return value is ignored.
 
 ## Remarks
 
-If the **pszText** member of the item's [**TVITEM**](tvitem.md) structure is the LPSTR\_TEXTCALLBACK value, the control sends this notification to set the item's text. In this case, the **mask** member of *lParam* will have the TVIF\_TEXT flag set.
+If the **pszText** member of the item's [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure is the LPSTR\_TEXTCALLBACK value, the control sends this notification to set the item's text. In this case, the **mask** member of *lParam* will have the TVIF\_TEXT flag set.
 
-If the **iImage** or **iSelectedImage** member of the item's [**TVITEM**](tvitem.md) structure is the I\_IMAGECALLBACK value, the control sends this notification to retrieve the index of the icon image to display. In this case, the **mask** member of *lParam* will have the TVIF\_IMAGE or TVIF\_SELECTEDIMAGE flag set.
+If the **iImage** or **iSelectedImage** member of the item's [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure is the I\_IMAGECALLBACK value, the control sends this notification to retrieve the index of the icon image to display. In this case, the **mask** member of *lParam* will have the TVIF\_IMAGE or TVIF\_SELECTEDIMAGE flag set.
 
 ## Requirements
 
@@ -55,8 +61,8 @@ If the **iImage** or **iSelectedImage** member of the item's [**TVITEM**](tvitem
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TVN\_SETDISPINFOW** (Unicode) and **TVN\_SETDISPINFOA** (ANSI)<br/>           |
 
@@ -66,18 +72,18 @@ If the **iImage** or **iSelectedImage** member of the item's [**TVITEM**](tvitem
 
 <dl> <dt>
 
-[**TVITEM**](tvitem.md)
+[**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master)
 </dt> <dt>
 
-[**TVITEMEX**](tvitemex.md)
+[**TVITEMEX**](/windows/win32/Commctrl/ns-commctrl-tagtvitemexa?branch=master)
 </dt> <dt>
 
 [TVN\_GETDISPINFO](tvn-getdispinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

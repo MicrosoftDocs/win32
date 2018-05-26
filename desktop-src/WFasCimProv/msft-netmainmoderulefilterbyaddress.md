@@ -1,7 +1,12 @@
 ---
-Description: 'Filters a main mode rule by address.'
-ms.assetid: 'fd4e2bfd-8fd3-4744-8f4c-1e6c40ee0637'
-title: 'MSFT\_NetMainModeRuleFilterByAddress class'
+Description: Filters a main mode rule by address.
+ms.assetid: fd4e2bfd-8fd3-4744-8f4c-1e6c40ee0637
+title: MSFT\_NetMainModeRuleFilterByAddress class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetMainModeRuleFilterByAddress class
@@ -15,7 +20,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetMainModeRuleFilterByAddress : MSFT_NetMainModeRuleFilters
 {
-  MSFT_NetMainModeRule  REF GroupComponent;
+  MSFT_NetMainModeRule  REF GroupComponent;
   MSFT_NetAddressFilter REF PartComponent;
 };
 ```
@@ -70,17 +75,17 @@ The address filter applied to the rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

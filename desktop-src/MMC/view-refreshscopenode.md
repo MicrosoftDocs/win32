@@ -4,11 +4,16 @@ description: The RefreshScopeNode method refreshes the specified node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1b6b2ad5-cb0a-4128-8982-d4114ebb949f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 1b6b2ad5-cb0a-4128-8982-d4114ebb949f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["RefreshScopeNode method MMC", "RefreshScopeNode method MMC , View object", "View object MMC , RefreshScopeNode method", "RefreshScopeNode method MMC , View interface", "View interface MMC , RefreshScopeNode method"]
+keywords:
+- RefreshScopeNode method MMC
+- RefreshScopeNode method MMC , View object
+- View object MMC , RefreshScopeNode method
+- RefreshScopeNode method MMC , View interface
+- View interface MMC , RefreshScopeNode method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::RefreshScopeNode method
@@ -56,8 +64,8 @@ This method does not return a value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -72,9 +80,9 @@ This method does not return a value.
 [**View.RefreshSelection**](view-refreshselection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

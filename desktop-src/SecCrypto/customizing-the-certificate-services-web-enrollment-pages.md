@@ -1,7 +1,12 @@
-﻿---
-Description: 'Certificate Services provides web enrollment pages that can be used to request certificates.'
-ms.assetid: '1e198bc8-c712-4d0f-9e3a-35a295445acf'
+---
+Description: Certificate Services provides web enrollment pages that can be used to request certificates.
+ms.assetid: 1e198bc8-c712-4d0f-9e3a-35a295445acf
 title: Customizing the Certificate Services Web Enrollment Pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customizing the Certificate Services Web Enrollment Pages
@@ -97,7 +102,7 @@ Finally, the Certrqtp.inc file contains a variable that represents the number of
 
 Note that merely adding [*certificate templates*](security.c_gly#-security-certificate-template-gly) and types to the Certrqtp.inc file does not guarantee that the user will be able to get a certificate with those traits; the CA must be authorized to issue a certificate for the specified certificate template or type.
 
-Installations can create their own applications or webpages to request and receive a certificate. The [**ICEnroll4**](icenroll4.md) and [**ICertRequest2**](icertrequest2.md) objects allow programmers or scripters to build [*certificate request*](security.c_gly#-security-certificate-request-gly) applications.
+Installations can create their own applications or webpages to request and receive a certificate. The [**ICEnroll4**](/windows/win32/Xenroll/nn-xenroll-icenroll4?branch=master) and [**ICertRequest2**](/windows/win32/Certcli/nn-certcli-icertrequest2?branch=master) objects allow programmers or scripters to build [*certificate request*](security.c_gly#-security-certificate-request-gly) applications.
 
 To request a certificate to be issued on a [*smart card*](security.s_gly#-security-smart-card-gly), you can use the Smart Card Enrollment Control. For details and example code, see [**ISCrdEnr**](iscrdenr.md).
 

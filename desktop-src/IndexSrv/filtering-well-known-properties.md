@@ -1,17 +1,22 @@
 ---
 title: Filtering Well-Known Properties
 description: Filtering Well-Known Properties
-ms.assetid: '74c0da33-d0a5-4718-b995-a309c2761c96'
+ms.assetid: 74c0da33-d0a5-4718-b995-a309c2761c96
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filtering Well-Known Properties
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
-Microsoft encourages all [**IFilter**](ifilter.md) interface implementers to adopt sets of well-known properties so that client applications can use one query to search for these properties on all file classes that have **IFilter** interface support. Clients calling **IFilter** interface implementations can request a set of properties they would like to see during the [**IFilter::Init**](ifilter-init.md) method call.
+Microsoft encourages all [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) interface implementers to adopt sets of well-known properties so that client applications can use one query to search for these properties on all file classes that have **IFilter** interface support. Clients calling **IFilter** interface implementations can request a set of properties they would like to see during the [**IFilter::Init**](/windows/win32/Filter/nf-filter-ifilter-init?branch=master) method call.
 
 Properties have unique identifiers made up of the globally unique identifier (GUID) of a property set, followed by a property ID. The property ID can be a unique number within the property set for properties with type PRSPEC\_PROPID or a unique string corresponding to the name of the property for properties of type PRSPEC\_LPWSTR. The following list describes the well-known properties used by Indexing Service.
 
@@ -29,11 +34,11 @@ Properties have unique identifiers made up of the globally unique identifier (GU
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

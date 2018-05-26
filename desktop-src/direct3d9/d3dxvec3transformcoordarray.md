@@ -1,7 +1,12 @@
-﻿---
-Description: 'Transforms an array (x, y, z, 1) by a given matrix, and projects the result back into w = 1.'
-ms.assetid: 'f1595861-d8cb-4787-8078-b9ba6f76507e'
+---
+Description: Transforms an array (x, y, z, 1) by a given matrix, and projects the result back into w = 1.
+ms.assetid: f1595861-d8cb-4787-8078-b9ba6f76507e
 title: D3DXVec3TransformCoordArray function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec3TransformCoordArray function

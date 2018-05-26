@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates taskbar icon overlays and progress bars.'
+Description: Demonstrates taskbar icon overlays and progress bars.
 title: Taskbar Peripheral Status Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Taskbar Peripheral Status Sample
@@ -18,9 +23,9 @@ This topic contains the following sections.
 
 ## Description
 
-This sample creates an example taskbar button on which it demonstrates the use of [**ITaskbarList3::SetOverlayIcon**](itaskbarlist3-setoverlayicon.md) by allowing you to apply various overlays chosen from a menu.
+This sample creates an example taskbar button on which it demonstrates the use of [**ITaskbarList3::SetOverlayIcon**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setoverlayicon?branch=master) by allowing you to apply various overlays chosen from a menu.
 
-The sample also provides the option of simulating a progress indicator on the button, demonstrating the use of [**ITaskbarList3::SetProgressState**](itaskbarlist3-setprogressstate.md) and [**ITaskbarList3::SetProgressValue**](itaskbarlist3-setprogressvalue.md) by showing at first an indeterminate progress indicator (TBPF\_INDETERMINATE), and then a normal proportional indicator (TBPF\_NORMAL).
+The sample also provides the option of simulating a progress indicator on the button, demonstrating the use of [**ITaskbarList3::SetProgressState**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressstate?branch=master) and [**ITaskbarList3::SetProgressValue**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressvalue?branch=master) by showing at first an indeterminate progress indicator (TBPF\_INDETERMINATE), and then a normal proportional indicator (TBPF\_NORMAL).
 
 ## Requirements
 

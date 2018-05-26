@@ -1,8 +1,11 @@
 ---
 title: System.Shell.RecycleBin.showRecycleSettings method
 description: Displays the Recycle Bin Properties dialog.
-ms.assetid: '11668a68-1b7a-4f42-a539-898480d12ad5'
-keywords: ["showRecycleSettings method Windows Sidebar", "showRecycleSettings method Windows Sidebar , System.Shell.RecycleBin object", "System.Shell.RecycleBin object Windows Sidebar , showRecycleSettings method"]
+ms.assetid: 11668a68-1b7a-4f42-a539-898480d12ad5
+keywords:
+- showRecycleSettings method Windows Sidebar
+- showRecycleSettings method Windows Sidebar , System.Shell.RecycleBin object
+- System.Shell.RecycleBin object Windows Sidebar , showRecycleSettings method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.RecycleBin.showRecycleSettings method
@@ -63,18 +71,18 @@ function RecycleBinProperties()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

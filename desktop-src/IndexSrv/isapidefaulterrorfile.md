@@ -1,7 +1,12 @@
 ---
 title: ISAPIDefaultErrorFile
 description: ISAPIDefaultErrorFile
-ms.assetid: 'a540d7d2-a238-4bbd-b0f7-d56c902a2db1'
+ms.assetid: a540d7d2-a238-4bbd-b0f7-d56c902a2db1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISAPIDefaultErrorFile

@@ -1,7 +1,12 @@
 ---
-Description: 'The Crawl Scope Manager (CSM) is a set of interfaces that provides methods to inform the Windows Search engine about containers to crawl and items under those containers to include or exclude in the catalog.'
-ms.assetid: '7d65d00a-7294-4718-b593-89394b2e416f'
+Description: The Crawl Scope Manager (CSM) is a set of interfaces that provides methods to inform the Windows Search engine about containers to crawl and items under those containers to include or exclude in the catalog.
+ms.assetid: 7d65d00a-7294-4718-b593-89394b2e416f
 title: Using the Crawl Scope Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Crawl Scope Manager
@@ -27,12 +32,12 @@ To understand the Crawl Scope Manager, you must understand the following terms:
 
 The **Crawl Scope Manager (CSM)** is a set of APIs that lets you add, remove, and enumerate search roots and scope rules for the Windows Search indexer. When you want the indexer to begin crawling a new container, you can use the CSM to set the search root(s) and scope rules for paths within the search root(s). For example, if you install a new protocol handler, you can create a search root and add one or more inclusion rules; then the indexer can start a crawl for the initial indexing. The CSM offers the following interfaces to help you do this programmatically.
 
--   [**IEnumSearchRoots**](-search-ienumsearchroots.md)
+-   [**IEnumSearchRoots**](/windows/win32/Searchapi/nn-searchapi-ienumsearchroots?branch=master)
 -   [IEnumSearchScopeRules](http://msdn.microsoft.com/en-us/library/bb266499(VS.85).aspx)
--   [**ISearchCrawlScopeManager**](-search-isearchcrawlscopemanager.md)
+-   [**ISearchCrawlScopeManager**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager?branch=master)
 -   [ISearchCrawlScopeManager2](http://msdn.microsoft.com/en-us/library/dd797832(VS.85).aspx)
--   [**ISearchRoot**](-search-isearchroot.md)
--   [**ISearchScopeRule**](-search-isearchscoperule.md)
+-   [**ISearchRoot**](/windows/win32/Searchapi/nn-searchapi-isearchroot?branch=master)
+-   [**ISearchScopeRule**](/windows/win32/Searchapi/nn-searchapi-isearchscoperule?branch=master)
 -   [ISearchItem](http://msdn.microsoft.com/en-us/library/dd756722(VS.85).aspx)
 
 While you can use the CSM APIs to define a crawl scope programmatically, the CSM was designed to support end users as well. For example, suppose you have developed a protocol handler for a new data store, and you want to let users or administrators manage which paths should be indexed. You can use the Crawl Scope Manager to set one or more search roots (for example, file:///C:\\MyContainer\\), and the Windows Search user interface for setting indexing options will display each search root with a check box. Users can then include or exclude that path or children of that path.

@@ -1,14 +1,20 @@
 ---
 title: TEXT.textWidth
 description: The textWidth attribute retrieves the width in pixels of the text contained in the value attribute.
-ms.assetid: '46c34659-f441-467c-8846-45785f7a2736'
-keywords: ["TEXT.textWidth Windows Media Player"]
+ms.assetid: 46c34659-f441-467c-8846-45785f7a2736
+keywords:
+- TEXT.textWidth Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.textWidth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.textWidth
@@ -58,9 +64,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT.value**](text-value.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

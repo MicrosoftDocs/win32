@@ -1,8 +1,17 @@
 ---
 title: Creating Custom Sliders
 description: Creating Custom Sliders
-ms.assetid: 'eb26ba44-a891-4cb6-be74-5acf881e896f'
-keywords: ["creating skins,sliders", "Windows Media Player skins,sliders", "skins,sliders", "sliders in skins"]
+ms.assetid: eb26ba44-a891-4cb6-be74-5acf881e896f
+keywords:
+- creating skins,sliders
+- Windows Media Player skins,sliders
+- skins,sliders
+- sliders in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Custom Sliders

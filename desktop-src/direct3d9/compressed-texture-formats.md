@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains information about the internal organization of compressed texture formats.'
-ms.assetid: 'a916d635-2be4-48be-ba70-a743b2969553'
-title: 'Compressed Texture Formats (Direct3D 9)'
+Description: This section contains information about the internal organization of compressed texture formats.
+ms.assetid: a916d635-2be4-48be-ba70-a743b2969553
+title: Compressed Texture Formats (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compressed Texture Formats (Direct3D 9)

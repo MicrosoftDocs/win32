@@ -1,7 +1,12 @@
 ---
-Description: 'Provides samples for WIC.'
-ms.assetid: '0714f720-f06f-4480-bc3c-5cd0337510d7'
+Description: Provides samples for WIC.
+ms.assetid: 0714f720-f06f-4480-bc3c-5cd0337510d7
 title: WIC Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIC Samples

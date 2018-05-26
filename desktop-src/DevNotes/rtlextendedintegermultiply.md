@@ -1,7 +1,12 @@
-﻿---
-Description: 'Multiplies extended integers.'
-ms.assetid: '6a59d211-4baf-4c7c-af2a-ffb0c5773445'
+---
+Description: Multiplies extended integers.
+ms.assetid: 6a59d211-4baf-4c7c-af2a-ffb0c5773445
 title: RtlExtendedIntegerMultiply function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtlExtendedIntegerMultiply function

@@ -4,17 +4,22 @@ description: This is part of an MSMQ object, it is set by calling API to MQCreat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '780d164f-c7fa-4c65-b46e-3a67ead92163'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 780d164f-c7fa-4c65-b46e-3a67ead92163
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MSMQ-Secured-Source attribute AD Schema", "MSMQ-SecuredSource attribute AD Schema"]
+keywords:
+- MSMQ-Secured-Source attribute AD Schema
+- MSMQ-SecuredSource attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MSMQ-Secured-Source
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMQ-Secured-Source attribute
@@ -38,11 +43,11 @@ This is part of an MSMQ object, it is set by calling API to MQCreateQueue or MQS
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ This is part of an MSMQ object, it is set by calling API to MQCreateQueue or MQS
 
 
 
- 
+ 
 
- 
+ 
 
 
 

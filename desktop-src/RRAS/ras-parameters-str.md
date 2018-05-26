@@ -1,8 +1,9 @@
 ---
 title: RAS\_PARAMETERS structure
 description: The RAS\_PARAMETERS structure is used by the RasAdminPortGetInfo function to return the name and value of a media-specific parameter associated with a port on a RAS server.
-ms.assetid: 'b46b6176-9a0c-4d9b-b961-b20fdc41653b'
-keywords: ["RAS_PARAMETERS structure RAS"]
+ms.assetid: b46b6176-9a0c-4d9b-b961-b20fdc41653b
+keywords:
+- RAS_PARAMETERS structure RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS\_PARAMETERS structure
 
-\[The **RAS\_PARAMETERS** structure is not supported as of Windows Vista.\]
+\[The **RAS\_PARAMETERS** structure is not supported as of Windows Vista.\]
 
 The **RAS\_PARAMETERS** structure is used by the [**RasAdminPortGetInfo**](rasadminportgetinfo.md) function to return the name and value of a media-specific parameter associated with a port on a RAS server.
 
@@ -24,10 +30,10 @@ The **RAS\_PARAMETERS** structure is used by the [**RasAdminPortGetInfo**](rasad
 
 ```C++
 typedef struct RAS_PARAMETERS {
-  CHAR              P_Key[RASSAPI_MAX_PARAM_KEY_SIZE];
+  CHAR              P_Key[RASSAPI_MAX_PARAM_KEY_SIZE];
   RAS_PARAMS_FORMAT P_Type;
-  BYTE              P_Attributes;
-  RAS_PARAMS_VALUE  P_Value;
+  BYTE              P_Attributes;
+  RAS_PARAMS_VALUE  P_Value;
 } RAS_PARAMETERS;
 ```
 
@@ -58,7 +64,7 @@ Identifies the type of data associated with the parameter. This member can be on
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -82,10 +88,10 @@ Specifies the value associated with the parameter. This member is a [**RAS\_PARA
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Rassapi.h</dt> </dl> |
 
 
@@ -109,9 +115,9 @@ Specifies the value associated with the parameter. This member is a [**RAS\_PARA
 [**RasAdminPortGetInfo**](rasadminportgetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

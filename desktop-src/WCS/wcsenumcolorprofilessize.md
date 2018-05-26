@@ -1,8 +1,9 @@
 ---
 title: WcsEnumColorProfilesSize function
 description: Returns the size, in bytes, of the buffer that is required by the WcsEnumColorProfiles function to enumerate color profiles.
-ms.assetid: '1fc76f8a-dad5-4447-bffc-2df58b4201de'
-keywords: ["WcsEnumColorProfilesSize function Windows Color System"]
+ms.assetid: 1fc76f8a-dad5-4447-bffc-2df58b4201de
+keywords:
+- WcsEnumColorProfilesSize function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsEnumColorProfilesSize function
@@ -22,9 +28,9 @@ Returns the size, in bytes, of the buffer that is required by the [**WcsEnumColo
 
 ```C++
 BOOL WINAPI WcsEnumColorProfilesSize(
-  _In_  WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
-  _In_  PENUMTYPEW                   pEnumRecord,
-  _Out_ PDWORD                       pdwSize
+  _In_  WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
+  _In_  PENUMTYPEW                   pEnumRecord,
+  _Out_ PDWORD                       pdwSize
 );
 ```
 
@@ -71,8 +77,8 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -98,9 +104,9 @@ This function is executable in Least-Privileged User Account (LUA) context.
 [**WCS\_PROFILE\_MANAGEMENT\_SCOPE**](wcs-profile-management-scope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

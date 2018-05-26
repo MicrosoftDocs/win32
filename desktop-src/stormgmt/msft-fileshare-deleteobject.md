@@ -1,8 +1,11 @@
 ---
 title: DeleteObject method of the MSFT\_FileShare class
 description: Deletes the file share.
-ms.assetid: '8A462AB0-00D1-43DF-ABB9-6374DDEA9639'
-keywords: ["DeleteObject method Windows Storage Management API", "DeleteObject method Windows Storage Management API , MSFT_FileShare class", "MSFT_FileShare class Windows Storage Management API , DeleteObject method"]
+ms.assetid: 8A462AB0-00D1-43DF-ABB9-6374DDEA9639
+keywords:
+- DeleteObject method Windows Storage Management API
+- DeleteObject method Windows Storage Management API , MSFT_FileShare class
+- MSFT_FileShare class Windows Storage Management API , DeleteObject method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteObject method of the MSFT\_FileShare class
@@ -22,8 +30,8 @@ Deletes the file share. Deleting the share does not delete the underlying files 
 
 ```mof
 UInt32 DeleteObject(
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -89,8 +97,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -103,9 +111,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_FileShare**](msft-fileshare.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

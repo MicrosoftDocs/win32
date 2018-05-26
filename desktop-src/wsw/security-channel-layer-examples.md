@@ -1,8 +1,17 @@
 ---
 title: Security Channel Layer Examples
 description: The following examples illustrate security in the Channel Layer.
-ms.assetid: 'ac4f0275-4783-411d-98da-2c5a1a169dcc'
-keywords: ["security examples", "security examples, setup", "WWSAPI", "WWS"]
+ms.assetid: ac4f0275-4783-411d-98da-2c5a1a169dcc
+keywords:
+- security examples
+- security examples, setup
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Channel Layer Examples

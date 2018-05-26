@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo ThreeDNow property
 description: The ThreeDNow property contains whether the host processor supports the 3DNow instruction set.
-ms.assetid: '4d7385d4-e1a7-4fd2-a2c8-5f77a1dc5b21'
-keywords: ["ThreeDNow property Virtual Server", "ThreeDNow property Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , ThreeDNow property", "ThreeDNow property Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , ThreeDNow property"]
+ms.assetid: 4d7385d4-e1a7-4fd2-a2c8-5f77a1dc5b21
+keywords:
+- ThreeDNow property Virtual Server
+- ThreeDNow property Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , ThreeDNow property
+- ThreeDNow property Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , ThreeDNow property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::ThreeDNow property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ThreeDNow(
-  [out] VARIANT_BOOL *threeDNowEnabled
+  [out] VARIANT_BOOL *threeDNowEnabled
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

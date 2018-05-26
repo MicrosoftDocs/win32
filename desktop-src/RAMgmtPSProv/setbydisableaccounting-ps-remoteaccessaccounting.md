@@ -2,13 +2,16 @@
 title: SetByDisableAccounting method of the PS\_RemoteAccessAccounting class
 description: This cmdlet does the following1. Enables inbox and RADIUS accounting (both external RADIUS and Windows accounting) and configures their settings2. Disables inbox and RADIUS accounting.
 audience: developer
-ms.assetid: 'e1132a4a-2085-4724-8b7a-feef13713ae9'
-ms.prod: 'windows-server-dev'
+ms.assetid: e1132a4a-2085-4724-8b7a-feef13713ae9
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByDisableAccounting method", "SetByDisableAccounting method, PS_RemoteAccessAccounting class", "PS_RemoteAccessAccounting class, SetByDisableAccounting method"]
+keywords:
+- SetByDisableAccounting method
+- SetByDisableAccounting method, PS_RemoteAccessAccounting class
+- PS_RemoteAccessAccounting class, SetByDisableAccounting method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByDisableAccounting method of the PS\_RemoteAccessAccounting class
@@ -28,10 +34,10 @@ This cmdlet does the following1. Enables inbox and RADIUS accounting (both exter
 
 ```mof
 uint32 SetByDisableAccounting(
-  [in]  string                 DisableAccountingType,
-  [in]  string                 ComputerName,
-  [in]  boolean                PassThru,
-  [out] RemoteAccessAccounting cmdletOutput
+  [in]  string                 DisableAccountingType,
+  [in]  string                 ComputerName,
+  [in]  boolean                PassThru,
+  [out] RemoteAccessAccounting cmdletOutput
 );
 ```
 
@@ -90,7 +96,7 @@ Returns the object that represents the accounting configuration for Remote Acces
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -104,9 +110,9 @@ Returns the object that represents the accounting configuration for Remote Acces
 [**PS\_RemoteAccessAccounting**](ps-remoteaccessaccounting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

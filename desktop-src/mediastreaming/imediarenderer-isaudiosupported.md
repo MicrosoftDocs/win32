@@ -1,14 +1,22 @@
 ---
 title: IMediaRenderer IsAudioSupported method
 description: Retrieves a value that indicates whether the DMR is capable of playing audio content.
-ms.assetid: 'D5F0C4ED-5778-4388-A7BD-E3923145D663'
-keywords: ["IsAudioSupported method Media Streaming API", "IsAudioSupported method Media Streaming API , IMediaRenderer interface", "IMediaRenderer interface Media Streaming API , IsAudioSupported method"]
+ms.assetid: D5F0C4ED-5778-4388-A7BD-E3923145D663
+keywords:
+- IsAudioSupported method Media Streaming API
+- IsAudioSupported method Media Streaming API , IMediaRenderer interface
+- IMediaRenderer interface Media Streaming API , IsAudioSupported method
 topic_type:
 - apiref
 api_name:
 - IMediaRenderer.IsAudioSupported
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaRenderer::IsAudioSupported method
@@ -20,7 +28,7 @@ Retrieves a value that indicates whether the DMR is capable of playing audio con
 
 ```C++
 HRESULT IsAudioSupported(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IMediaRenderer**](imediarenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

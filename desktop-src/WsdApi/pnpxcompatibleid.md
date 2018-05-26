@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the PnP-X Compatible Identifier of the service. Devices may have more than one compatible ID.'
-ms.assetid: '25f3d06e-460c-4338-b05d-a6d2c10c2a12'
+Description: Specifies the PnP-X Compatible Identifier of the service. Devices may have more than one compatible ID.
+ms.assetid: 25f3d06e-460c-4338-b05d-a6d2c10c2a12
 title: PnPXCompatibleId element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PnPXCompatibleId element
@@ -42,14 +47,14 @@ To specify more than one CompatibleID, separate the identifiers with a space cha
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

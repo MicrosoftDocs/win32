@@ -4,10 +4,13 @@ description: User Access Logging defines the following MOF classes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '39BF2276-A4F5-43B3-927E-81975396BCF2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'user-access-logging'
+ms.assetid: 39BF2276-A4F5-43B3-927E-81975396BCF2
+ms.prod: windows-server-dev
+ms.technology: user-access-logging
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # User Access Logging MOF classes

@@ -1,8 +1,9 @@
 ---
 title: MediaCollectionChange Event of the AxWindowsMediaPlayer Object
 description: The MediaCollectionChange event occurs when the media collection changes.
-ms.assetid: '99a6d512-ed8e-4f1b-856a-22ca8092741d'
-keywords: ["MediaCollectionChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 99a6d512-ed8e-4f1b-856a-22ca8092741d
+keywords:
+- MediaCollectionChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollectionChange Event of the AxWindowsMediaPlayer Object
@@ -60,9 +66,9 @@ This event does not contain data.
 [**IWMPMediaCollection Interface (VB and C#)**](iwmpmediacollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

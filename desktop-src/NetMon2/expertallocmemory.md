@@ -1,7 +1,12 @@
 ---
-Description: 'The ExpertAllocMemory function allocates memory for the expert.'
-ms.assetid: '9ada5d3f-5f1d-4d3a-b79a-d51e021240f6'
+Description: The ExpertAllocMemory function allocates memory for the expert.
+ms.assetid: 9ada5d3f-5f1d-4d3a-b79a-d51e021240f6
 title: ExpertAllocMemory function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExpertAllocMemory function
@@ -13,9 +18,9 @@ The **ExpertAllocMemory** function allocates memory for the expert.
 
 ```C++
 LPVOID WINAPI ExpertAllocMemory(
-        HEXPERTKEY hExpertKey,
-  _In_  SIZE_T     nBytes,
-  _Out_ LPDWORD    pError
+        HEXPERTKEY hExpertKey,
+  _In_  SIZE_T     nBytes,
+  _Out_ LPDWORD    pError
 );
 ```
 
@@ -62,17 +67,17 @@ It is important to note that an expert should use the Network Monitor memory all
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

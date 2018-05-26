@@ -1,17 +1,33 @@
 ---
 title: To Pause or Stop Playback
 description: To Pause or Stop Playback
-ms.assetid: '8e43ea80-36c7-4530-8ed3-dfdb64a3a2e3'
-keywords: ["Advanced Systems Format (ASF),pausing playback", "ASF (Advanced Systems Format),pausing playback", "Advanced Systems Format (ASF),asynchronous readers", "ASF (Advanced Systems Format),asynchronous readers", "Advanced Systems Format (ASF),stopping playback", "ASF (Advanced Systems Format),stopping playback", "Advanced Systems Format (ASF),playback pausing or stopping", "ASF (Advanced Systems Format),playback pausing or stopping", "asynchronous readers,pausing playback", "asynchronous readers,stopping playback", "asynchronous readers,playback pausing or stopping"]
+ms.assetid: 8e43ea80-36c7-4530-8ed3-dfdb64a3a2e3
+keywords:
+- Advanced Systems Format (ASF),pausing playback
+- ASF (Advanced Systems Format),pausing playback
+- Advanced Systems Format (ASF),asynchronous readers
+- ASF (Advanced Systems Format),asynchronous readers
+- Advanced Systems Format (ASF),stopping playback
+- ASF (Advanced Systems Format),stopping playback
+- Advanced Systems Format (ASF),playback pausing or stopping
+- ASF (Advanced Systems Format),playback pausing or stopping
+- asynchronous readers,pausing playback
+- asynchronous readers,stopping playback
+- asynchronous readers,playback pausing or stopping
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Pause or Stop Playback
 
-When you call [**IWMReader::Start**](iwmreader-start.md) to begin playing a file, the asynchronous reader will continue processing in its own separate threads until the end of the file is reached. You can pause or stop the delivery of samples using the [**IWMReader::Pause**](iwmreader-pause.md) or [**IWMReader::Stop**](iwmreader-stop.md) methods respectively.
+When you call [**IWMReader::Start**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-start?branch=master) to begin playing a file, the asynchronous reader will continue processing in its own separate threads until the end of the file is reached. You can pause or stop the delivery of samples using the [**IWMReader::Pause**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-pause?branch=master) or [**IWMReader::Stop**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-stop?branch=master) methods respectively.
 
 ## Pausing
 
-When you call **IWMReader::Pause** to pause playback of a file, the reader keeps track of the current position in the file. To resume playing after pausing, call [**IWMReader::Resume**](iwmreader-resume.md). Playback will resume from the point at which it paused.
+When you call **IWMReader::Pause** to pause playback of a file, the reader keeps track of the current position in the file. To resume playing after pausing, call [**IWMReader::Resume**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-resume?branch=master). Playback will resume from the point at which it paused.
 
 ## Stopping
 
@@ -21,7 +37,7 @@ When you call **IWMReader::Stop** to halt playback of a file, the reader does no
 
 <dl> <dt>
 
-[**IWMReader Interface**](iwmreader.md)
+[**IWMReader Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreader?branch=master)
 </dt> <dt>
 
 [**Reading Files with the Asynchronous Reader**](reading-files-with-the-asynchronous-reader.md)

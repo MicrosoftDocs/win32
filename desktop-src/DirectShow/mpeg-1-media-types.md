@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section lists the media types used for MPEG-1 data.'
-ms.assetid: '4ea1cb84-0558-4c4a-9483-1b0f2a8f76f8'
-title: 'MPEG-1 Media Types'
+---
+Description: This section lists the media types used for MPEG-1 data.
+ms.assetid: 4ea1cb84-0558-4c4a-9483-1b0f2a8f76f8
+title: MPEG-1 Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-1 Media Types
@@ -17,7 +22,7 @@ This section lists the media types used for MPEG-1 data.
 | Major type            | MEDIATYPE\_Stream                               |
 | Subtype               | MEDIASUBTYPE\_MPEG1System                       |
 | Format Type           | FORMAT\_MPEGStreams                             |
-| Format Structure      | [**AM\_MPEGSYSTEMTYPE**](am-mpegsystemtype.md) |
+| Format Structure      | [**AM\_MPEGSYSTEMTYPE**](/windows/win32/mpegtype/ns-mpegtype-tagam_mpegsystemtype?branch=master) |
 | Media Sample Contents | Byte stream; no alignment                       |
 
 
@@ -49,7 +54,7 @@ This section lists the media types used for MPEG-1 data.
 | Major type            | MEDIATYPE\_Audio                               |
 | Subtype               | MEDIASUBTYPE\_MPEG1Packet                      |
 | Format Type           | FORMAT\_WaveFormatEx                           |
-| Format Structure      | [**MPEG1WAVEFORMAT**](mpeg1waveformat.md)     |
+| Format Structure      | [**MPEG1WAVEFORMAT**](/windows/win32/mmreg/ns-mmreg-mpeg1waveformat_tag?branch=master)     |
 | Media Sample Contents | Single MPEG-1 packet, including packet header. |
 
 
@@ -65,7 +70,7 @@ This section lists the media types used for MPEG-1 data.
 | Major type            | MEDIATYPE\_Audio                           |
 | Subtype               | MEDIASUBTYPE\_MPEG1Payload                 |
 | Format Type           | FORMAT\_WaveFormatEx                       |
-| Format Structure      | [**MPEG1WAVEFORMAT**](mpeg1waveformat.md) |
+| Format Structure      | [**MPEG1WAVEFORMAT**](/windows/win32/mmreg/ns-mmreg-mpeg1waveformat_tag?branch=master) |
 | Media Sample Contents | Byte-aligned MPEG-1 audio data.            |
 
 
@@ -81,7 +86,7 @@ This section lists the media types used for MPEG-1 data.
 | Major type            | MEDIATYPE\_Video                               |
 | Subtype               | MEDIASUBTYPE\_MPEG1Packet                      |
 | Format Type           | FORMAT\_MPEGVideo                              |
-| Format Structure      | [**MPEG1VIDEOINFO**](mpeg1videoinfo.md)       |
+| Format Structure      | [**MPEG1VIDEOINFO**](/windows/win32/amvideo/ns-amvideo-tagmpeg1videoinfo?branch=master)       |
 | Media Sample Contents | Single MPEG-1 packet, including packet header. |
 
 
@@ -97,7 +102,7 @@ This section lists the media types used for MPEG-1 data.
 | Major type            | MEDIATYPE\_Video                         |
 | Subtype               | MEDIASUBTYPE\_MPEG1Payload               |
 | Format Type           | FORMAT\_MPEGVideo                        |
-| Format Structure      | [**MPEG1VIDEOINFO**](mpeg1videoinfo.md) |
+| Format Structure      | [**MPEG1VIDEOINFO**](/windows/win32/amvideo/ns-amvideo-tagmpeg1videoinfo?branch=master) |
 | Media Sample Contents | Byte-aligned MPEG-1 video data.          |
 
 

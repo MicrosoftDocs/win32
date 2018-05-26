@@ -1,8 +1,17 @@
 ---
 title: VCR Services
 description: VCR Services
-ms.assetid: '140220f7-df7b-46e2-8374-e1200d873f3b'
-keywords: ["Video System Control Architecture (VISCA)", "VISCA (Video System Control Architecture)", "MCI VISCA driver", "VISCA driver"]
+ms.assetid: 140220f7-df7b-46e2-8374-e1200d873f3b
+keywords:
+- Video System Control Architecture (VISCA)
+- VISCA (Video System Control Architecture)
+- MCI VISCA driver
+- VISCA driver
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VCR Services

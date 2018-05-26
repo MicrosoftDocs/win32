@@ -2,8 +2,14 @@
 title: J K
 description: Definitions of OpenGL terms that begin with the letter J.
 Robots: noindex, nofollow
-ms.assetid: '182cc66c-afff-490b-8338-e592ce43a083'
-keywords: ["jaggies"]
+ms.assetid: 182cc66c-afff-490b-8338-e592ce43a083
+keywords:
+- jaggies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # J K

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the analysis hint that caused this warning.'
-ms.assetid: '715aa4b2-6c45-414b-96f2-44c73a073213'
-title: 'IAnalysisWarning::GetHint method'
+Description: Retrieves the analysis hint that caused this warning.
+ms.assetid: 715aa4b2-6c45-414b-96f2-44c73a073213
+title: IAnalysisWarningGetHint method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisWarning::GetHint method
@@ -13,7 +18,7 @@ Retrieves the analysis hint that caused this warning.
 
 ```C++
 HRESULT GetHint(
-  [out] IContextNode **pAnalysisHint
+  [out] IContextNode **pAnalysisHint
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**pAnalysisHint* when you no longer need to use the analysis hint context node.
 
- 
+ 
 
 An example of an analysis hint that generates an [**IAnalysisWarning**](ianalysiswarning.md) is an analysis hint that contains an incorrectly spelled factoid. In this case, ink analysis returns an [**IAnalysisStatus**](ianalysisstatus.md) that contains an **IAnalysisWarning** that references the analysis hint context node with the misspelled factoid. Also, in this case, the analysis warning's [**IAnalysisWarning::GetWarningCode**](ianalysiswarning-getwarningcode.md) method returns an [**AnalysisWarningCode**](https://msdn.microsoft.com/library/windows/desktop/ms698513) value of **AnalysisWarningCode\_FactoidNotSupported**.
 
@@ -49,7 +54,7 @@ An example of an analysis hint that generates an [**IAnalysisWarning**](ianalysi
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -78,9 +83,9 @@ An example of an analysis hint that generates an [**IAnalysisWarning**](ianalysi
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

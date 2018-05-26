@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create a texture from another resource.'
-ms.assetid: '9758968a-652f-42bb-8c81-ad7816c57b17'
+---
+Description: Create a texture from another resource.
+ms.assetid: 9758968a-652f-42bb-8c81-ad7816c57b17
 title: D3DX10CreateTextureFromResource function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CreateTextureFromResource function
@@ -32,9 +37,9 @@ HRESULT D3DX10CreateTextureFromResource(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](id3d10device.md)\***
+Type: **[**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)\***
 
-A pointer to the device (see [**ID3D10Device Interface**](id3d10device.md)) that will use the resource.
+A pointer to the device (see [**ID3D10Device Interface**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)) that will use the resource.
 
 </dd> <dt>
 
@@ -77,9 +82,9 @@ A pointer to a thread pump interface (see [**ID3DX10ThreadPump Interface**](id3d
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Resource**](id3d10resource.md)\*\***
+Type: **[**ID3D10Resource**](/windows/win32/D3D10/nn-d3d10-id3d10resource?branch=master)\*\***
 
-The address of a pointer to the texture resource (see [**ID3D10Resource Interface**](id3d10resource.md)).
+The address of a pointer to the texture resource (see [**ID3D10Resource Interface**](/windows/win32/D3D10/nn-d3d10-id3d10resource?branch=master)).
 
 </dd> <dt>
 

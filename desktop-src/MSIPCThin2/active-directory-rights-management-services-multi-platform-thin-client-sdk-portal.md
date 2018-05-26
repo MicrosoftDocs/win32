@@ -4,11 +4,15 @@ description: Rights Management SDK 4.2 is a simplified next-generation API that
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '4ee4fa26-b4f7-478f-b360-be6f421c5718'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 4ee4fa26-b4f7-478f-b360-be6f421c5718
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Information Protection"]
+keywords:
+- Information Protection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Rights Management SDK 4.2

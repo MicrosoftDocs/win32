@@ -1,7 +1,12 @@
 ---
 title: m3x3 - ps
 description: Multiplies a 3-component vector by a 3x3 matrix.
-ms.assetid: '71342e05-69a6-41f4-bafb-643f0ceb0a59'
+ms.assetid: 71342e05-69a6-41f4-bafb-643f0ceb0a59
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # m3x3 - ps

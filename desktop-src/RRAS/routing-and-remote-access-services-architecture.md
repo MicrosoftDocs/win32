@@ -1,8 +1,14 @@
 ---
 title: Routing and Remote Access Services Architecture
 description: The following illustration presents a general architectural view of the Windows 2000 router.
-ms.assetid: '599435e2-e2f3-4632-8a79-441172aacf13'
-keywords: ["Routing and Remote Access Service RRAS , Routing and Remote Access Services Architecture RRAS"]
+ms.assetid: 599435e2-e2f3-4632-8a79-441172aacf13
+keywords:
+- Routing and Remote Access Service RRAS , Routing and Remote Access Services Architecture RRAS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing and Remote Access Services Architecture

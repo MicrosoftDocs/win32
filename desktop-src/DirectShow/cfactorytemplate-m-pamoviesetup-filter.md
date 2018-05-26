@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to an AMOVIESETUP\_FILTER structure.'
-ms.assetid: '72db601b-78a3-484a-a27f-147ec36022ab'
-title: 'CFactoryTemplate::m\_pAMovieSetup\_Filter member'
+Description: Pointer to an AMOVIESETUP\_FILTER structure.
+ms.assetid: 72db601b-78a3-484a-a27f-147ec36022ab
+title: CFactoryTemplatem\_pAMovieSetup\_Filter member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CFactoryTemplate::m\_pAMovieSetup\_Filter member
@@ -39,9 +44,9 @@ Use this structure to make a filter self-registering. If your component is not a
 [**CFactoryTemplate Class**](cfactorytemplate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

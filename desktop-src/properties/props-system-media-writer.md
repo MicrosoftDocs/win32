@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a9ef9c5b-dc7b-4d1a-b47f-093d4f37bba4'
-title: 'System.Media.Writer'
+Description: .
+ms.assetid: a9ef9c5b-dc7b-4d1a-b47f-093d4f37bba4
+title: System.Media.Writer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.Writer

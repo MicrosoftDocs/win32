@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an instance of an extension component installed on a host system.'
-ms.assetid: 'ad24fb08-36af-42a8-a910-63eae54fa5b8'
-title: 'Msvm\_InstalledEthernetSwitchExtension class'
+Description: Represents an instance of an extension component installed on a host system.
+ms.assetid: ad24fb08-36af-42a8-a910-63eae54fa5b8
+title: Msvm\_InstalledEthernetSwitchExtension class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_InstalledEthernetSwitchExtension class
@@ -16,23 +21,23 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_InstalledEthernetSwitchExtension : CIM_ManagedSystemElement
 {
-  string   InstanceID;
-  string   Caption = " System Virtual Ethernet Switch Extension";
-  string   Description = "Microsoft NDIS Packet Capture Filter Driver";
-  string   ElementName = "Microsoft NDIS Capture";
+  string   InstanceID;
+  string   Caption = " System Virtual Ethernet Switch Extension";
+  string   Description = "Microsoft NDIS Packet Capture Filter Driver";
+  string   ElementName = "Microsoft NDIS Capture";
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = "OK";
-  string   Status = "OK";
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint8    ExtensionType;
-  string   Vendor;
-  string   Version;
+  string   Name;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = "OK";
+  string   Status = "OK";
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint8    ExtensionType;
+  string   Vendor;
+  string   Version;
 };
 ```
 
@@ -369,17 +374,17 @@ The version of the extension in a format of "major.minor", for example "2.0".
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

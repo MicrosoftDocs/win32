@@ -1,8 +1,18 @@
 ---
 title: Using the MCIWnd Window Class
 description: Using the MCIWnd Window Class
-ms.assetid: '5b692dd8-a280-424b-b438-365412b484ff'
-keywords: ["MCI (Media Control Interface),MCIWnd window class", "MCIWnd window class,about", "MCIWnd window class,examples", "MCIWnd window,examples", "MCIWnd window,window class"]
+ms.assetid: 5b692dd8-a280-424b-b438-365412b484ff
+keywords:
+- MCI (Media Control Interface),MCIWnd window class
+- MCIWnd window class,about
+- MCIWnd window class,examples
+- MCIWnd window,examples
+- MCIWnd window,window class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the MCIWnd Window Class

@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '2340b39a-cab6-4524-b8cd-b22d4bdd24d0'
-title: 'CMemAllocator.CMemAllocator constructor'
+Description: Constructor method.
+ms.assetid: 2340b39a-cab6-4524-b8cd-b22d4bdd24d0
+title: CMemAllocator.CMemAllocator constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMemAllocator.CMemAllocator constructor
@@ -13,9 +18,9 @@ Constructor method.
 
 ```C++
 CMemAllocator(
-   TCHAR     *pName,
-   LPUNKNOWN pUnk,
-   HRESULT   *phr
+   TCHAR     *pName,
+   LPUNKNOWN pUnk,
+   HRESULT   *phr
 );
 ```
 
@@ -64,9 +69,9 @@ Pointer to a variable that receives an **HRESULT** value indicating the success 
 [**CMemAllocator Class**](cmemallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

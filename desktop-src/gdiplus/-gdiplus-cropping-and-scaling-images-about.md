@@ -1,12 +1,17 @@
 ---
-Description: 'You can use the DrawImage method of the Graphics class to draw and position images.'
-ms.assetid: '81d20adc-0481-4b1b-80aa-ae218fdecd84'
+Description: You can use the DrawImage method of the Graphics class to draw and position images.
+ms.assetid: 81d20adc-0481-4b1b-80aa-ae218fdecd84
 title: Cropping and Scaling Images
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cropping and Scaling Images
 
-You can use the [DrawImage](-gdiplus-class-graphics-drawimage-methods.md) method of the [**Graphics**](-gdiplus-class-graphics-class.md) class to draw and position images. DrawImage is an overloaded method, so there are several ways you can supply it with arguments. One variation of the [**Graphics::DrawImage**](-gdiplus-class-graphics-drawimage-image-image-rect-rect-.md) method receives the address of an [**Image**](-gdiplus-class-image-class.md) object and a reference to a [**Rect**](-gdiplus-class-rect-class.md) object. The rectangle specifies the destination for the drawing operation; that is, it specifies the rectangle in which the image will be drawn. If the size of the destination rectangle is different from the size of the original image, the image is scaled to fit the destination rectangle. The following example draws the same image three times: once with no scaling, once with an expansion, and once with a compression.
+You can use the [DrawImage](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(in image,in const point &)?branch=master) method of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class to draw and position images. DrawImage is an overloaded method, so there are several ways you can supply it with arguments. One variation of the [**Graphics::DrawImage**](/windows/win32/Gdiplusgraphics/?branch=master) method receives the address of an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object and a reference to a [**Rect**](/windows/win32/gdiplustypes/nl-gdiplustypes-rect?branch=master) object. The rectangle specifies the destination for the drawing operation; that is, it specifies the rectangle in which the image will be drawn. If the size of the destination rectangle is different from the size of the original image, the image is scaled to fit the destination rectangle. The following example draws the same image three times: once with no scaling, once with an expansion, and once with a compression.
 
 
 ```
@@ -26,9 +31,9 @@ The preceding code, along with a particular file, Spiral.png, produced the follo
 
 ![illustration showing three versions of an image: normal, stretched wide, and shrunk to half the original size](images/aboutgdip03-art06.png)
 
-Some variations of the [**Graphics::DrawImage**](-gdiplus-class-graphics-drawimage-image-image-rect-destrect-int-srcx-int-srcy-int-srcwidth-int-srche.md) method have a source-rectangle parameter as well as a destination-rectangle parameter. The source rectangle specifies the portion of the original image that will be drawn. The destination rectangle specifies where that portion of the image will be drawn. If the size of the destination rectangle is different from the size of the source rectangle, the image is scaled to fit the destination rectangle.
+Some variations of the [**Graphics::DrawImage**](/windows/win32/Gdiplusgraphics/?branch=master) method have a source-rectangle parameter as well as a destination-rectangle parameter. The source rectangle specifies the portion of the original image that will be drawn. The destination rectangle specifies where that portion of the image will be drawn. If the size of the destination rectangle is different from the size of the source rectangle, the image is scaled to fit the destination rectangle.
 
-The following example constructs a [**Bitmap**](-gdiplus-class-bitmap-class.md) object from the file Runner.jpg. The entire image is drawn with no scaling at (0, 0). Then a small portion of the image is drawn twice: once with a compression and once with an expansion.
+The following example constructs a [**Bitmap**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-bitmap?branch=master) object from the file Runner.jpg. The entire image is drawn with no scaling at (0, 0). Then a small portion of the image is drawn twice: once with a compression and once with an expansion.
 
 
 ```

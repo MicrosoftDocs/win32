@@ -1,13 +1,25 @@
 ---
 title: Managing Packet Size
 description: Managing Packet Size
-ms.assetid: '75ccda39-255a-4213-824e-1ca778a741dc'
-keywords: ["Windows Media Format SDK,managing packet sizes", "Windows Media Format SDK,packet sizes", "profiles,packet sizes", "profiles,managing packet sizes", "packets,sizes", "packets,IWMPacketSize interface", "IWMPacketSize"]
+ms.assetid: 75ccda39-255a-4213-824e-1ca778a741dc
+keywords:
+- Windows Media Format SDK,managing packet sizes
+- Windows Media Format SDK,packet sizes
+- profiles,packet sizes
+- profiles,managing packet sizes
+- packets,sizes
+- packets,IWMPacketSize interface
+- IWMPacketSize
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Packet Size
 
-The writer is designed to manage the size of packets internally. However, you may have specific requirements for your application that call for some manual control over the size of packets in the ASF files that you write. The Windows Media Format SDK provides two interfaces, [**IWMPacketSize**](iwmpacketsize.md) and [**IWMPacketSize2**](iwmpacketsize2.md) that enable you to control the maximum and minimum size of packets.
+The writer is designed to manage the size of packets internally. However, you may have specific requirements for your application that call for some manual control over the size of packets in the ASF files that you write. The Windows Media Format SDK provides two interfaces, [**IWMPacketSize**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmpacketsize?branch=master) and [**IWMPacketSize2**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmpacketsize2?branch=master) that enable you to control the maximum and minimum size of packets.
 
 Both packet size interfaces are exposed in the profile object. They are also available to the reader object. As with other profile-related interfaces, the reader can access only the reading methods.
 
@@ -17,10 +29,10 @@ The size of packets has some effect on performance. In general, the smaller the 
 
 <dl> <dt>
 
-[**IWMPacketSize Interface**](iwmpacketsize.md)
+[**IWMPacketSize Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmpacketsize?branch=master)
 </dt> <dt>
 
-[**IWMPacketSize2 Interface**](iwmpacketsize2.md)
+[**IWMPacketSize2 Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmpacketsize2?branch=master)
 </dt> <dt>
 
 [**Working with Profiles**](working-with-profiles.md)

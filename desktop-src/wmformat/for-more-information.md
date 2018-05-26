@@ -1,8 +1,19 @@
 ---
 title: For More Information
 description: For More Information
-ms.assetid: 'bed25d80-2c03-4bb1-b0f0-3aca1506b864'
-keywords: ["Windows Media Format SDK,additional information", "digital rights management (DRM),additional information", "DRM (digital rights management),additional information", "Windows Media Format SDK,resources", "digital rights management (DRM),resources", "DRM (digital rights management),resources"]
+ms.assetid: bed25d80-2c03-4bb1-b0f0-3aca1506b864
+keywords:
+- Windows Media Format SDK,additional information
+- digital rights management (DRM),additional information
+- DRM (digital rights management),additional information
+- Windows Media Format SDK,resources
+- digital rights management (DRM),resources
+- DRM (digital rights management),resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # For More Information

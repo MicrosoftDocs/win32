@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a new alternate class identifier in the application protocol data unit (APDU).'
-ms.assetid: '45a49699-41ce-439c-b896-e663a290b188'
-title: 'ISCardCmd::put\_AlternateClassId method'
+---
+Description: Specifies a new alternate class identifier in the application protocol data unit (APDU).
+ms.assetid: 45a49699-41ce-439c-b896-e663a290b188
+title: ISCardCmdput\_AlternateClassId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardCmd::put\_AlternateClassId method

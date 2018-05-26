@@ -1,7 +1,12 @@
 ---
 title: Webhits Parameters
 description: Webhits Parameters
-ms.assetid: '175e3710-cb3b-4a9e-b8d7-bbfa4a248a3d'
+ms.assetid: 175e3710-cb3b-4a9e-b8d7-bbfa4a248a3d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Webhits Parameters

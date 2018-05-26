@@ -1,7 +1,7 @@
 ---
 title: Package Consumption Error Group
 description: When you attempt to access a package that is loaded from an IStream interface, the following error codes may be returned.
-ms.assetid: '0ad335ff-57da-4d4a-95c0-6b9b513a9698'
+ms.assetid: 0ad335ff-57da-4d4a-95c0-6b9b513a9698
 topic_type:
 - apiref
 api_name:
@@ -10,6 +10,11 @@ api_location:
 - Msopc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Package Consumption Error Group
@@ -90,7 +95,7 @@ When you attempt to access a package that is loaded from an [**IStream**](https:
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -152,9 +157,9 @@ For more information about error handling in COM, see the [Error Handling (COM)]
 [ZIP File Format Specification from PKWARE, Inc., version 6.2.0 (2004)]( http://go.microsoft.com/fwlink/p/?linkid=144545)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,13 @@ description: Represents a network switch.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ab52d41f-b8ac-4be9-b734-6d5279ecc2c3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: ab52d41f-b8ac-4be9-b734-6d5279ecc2c3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMSwitch class", "MSFT_SMSwitch class, described"]
+keywords:
+- MSFT_SMSwitch class
+- MSFT_SMSwitch class, described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMSwitch class
@@ -45,20 +50,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMSwitch
 {
-  String   ObjectId;
-  String   ElementName;
-  String   Name;
-  string   NameFormat;
-  String   OtherIdentifyingInfo[];
-  String   IdentifyingDescriptions[];
-  String   ManagementServer;
-  uint16   OperationalStatus[];
+  String   ObjectId;
+  String   ElementName;
+  String   Name;
+  string   NameFormat;
+  String   OtherIdentifyingInfo[];
+  String   IdentifyingDescriptions[];
+  String   ManagementServer;
+  uint16   OperationalStatus[];
   datetime ManufactureDate;
-  string   Manufacturer;
-  string   Model;
-  string   SerialNumber;
-  string   Tag;
-  string   VersionString;
+  string   Manufacturer;
+  string   Model;
+  string   SerialNumber;
+  string   Tag;
+  string   VersionString;
 };
 ```
 
@@ -463,14 +468,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>19–32767</dd> <dt>
+</dt> <dd>19 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -533,7 +538,7 @@ The ID of the switch version.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -547,9 +552,9 @@ The ID of the switch version.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

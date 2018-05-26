@@ -1,7 +1,12 @@
 ---
 title: FilterBufferSize
 description: FilterBufferSize
-ms.assetid: 'e74b4859-bb18-438f-904f-84733119d1bc'
+ms.assetid: e74b4859-bb18-438f-904f-84733119d1bc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterBufferSize

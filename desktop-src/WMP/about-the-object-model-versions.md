@@ -1,15 +1,28 @@
 ---
 title: About the Object Model Versions
 description: About the Object Model Versions
-ms.assetid: '20bb1681-9079-4f8c-bb5e-5c98e3bdc76a'
-keywords: ["Windows Media Player,versions", "Windows Media Player object model,versions", "object model,versions", "Windows Media Player ActiveX control,versions for object model", "ActiveX control,versions for object model", "Windows Media Player Mobile ActiveX control,versions for object model", "Windows Media Player Mobile,versions for object model", "versions of Windows Media Player,object model"]
+ms.assetid: 20bb1681-9079-4f8c-bb5e-5c98e3bdc76a
+keywords:
+- Windows Media Player,versions
+- Windows Media Player object model,versions
+- object model,versions
+- Windows Media Player ActiveX control,versions for object model
+- ActiveX control,versions for object model
+- Windows Media Player Mobile ActiveX control,versions for object model
+- Windows Media Player Mobile,versions for object model
+- versions of Windows Media Player,object model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Object Model Versions
 
 Windows Media Player 7.0 introduced a new object model. This object model has been extended with Windows Media Player 7.1, Windows Media Player for Windows XP, Windows Media Player 9 Series, Windows Media Player 10, Windows Media Player 11, and Windows Media Player 12. Each topic in the Object Model Reference includes a Requirements section that details the minimum requirement for the individual property, method, or event. The following lists detail the new objects, methods, properties, and events that have been added for each version since version 7.0. These lists also include new C++ interfaces, methods, and events.
 
-Where a new or updated interface is also exposed as an object, only the object is listed. To locate the interface, refer to the [Object Model Reference for C++](object-model-reference-for-c.md). Usually, you will simply need to add the IWMP prefix to the object name. If a new interface extends an existing one, you may need to look for the latest version number. For example, Windows Media Player 9 Series introduced new properties and methods available from the [**Settings**](settings-object.md) object. In C++, these are available through the [**IWMPSettings2**](iwmpsettings2.md) interface, which extends [**IWMPSettings**](iwmpsettings.md).
+Where a new or updated interface is also exposed as an object, only the object is listed. To locate the interface, refer to the [Object Model Reference for C++](object-model-reference-for-c.md). Usually, you will simply need to add the IWMP prefix to the object name. If a new interface extends an existing one, you may need to look for the latest version number. For example, Windows Media Player 9 Series introduced new properties and methods available from the [**Settings**](settings-object.md) object. In C++, these are available through the [**IWMPSettings2**](/windows/win32/wmp/nn-wmp-iwmpsettings2?branch=master) interface, which extends [**IWMPSettings**](/windows/win32/wmp/nn-wmp-iwmpsettings?branch=master).
 
 ## Added for Windows Media Player 7.1
 
@@ -43,13 +56,13 @@ Where a new or updated interface is also exposed as an object, only the object i
 -   [**External.appColorLight Property**](external-appcolorlight.md)
 -   [**External.OnColorChange Event**](external-oncolorchange-event.md)
 -   [**External.version Property**](external-version.md)
--   [**IWMPEvents::PlayerDockedStateChange Event**](iwmpevents-iwmpevents--playerdockedstatechange.md)
--   [**IWMPEvents::PlayerReconnect Event**](iwmpevents-iwmpevents--playerreconnect.md)
--   [**IWMPEvents::SwitchedToControl Event**](iwmpevents-iwmpevents--switchedtocontrol.md)
--   [**IWMPEvents::SwitchedToPlayerApplication Event**](iwmpevents-iwmpevents--switchedtoplayerapplication.md)
--   [**IWMPPlayerServices Interface**](iwmpplayerservices.md)
--   [**IWMPRemoteMediaServices Interface**](iwmpremotemediaservices.md)
--   [**IWMPSkinManager Interface**](iwmpskinmanager.md)
+-   [**IWMPEvents::PlayerDockedStateChange Event**](/windows/win32/wmp/nf-wmp-iwmpevents-playerdockedstatechange?branch=master)
+-   [**IWMPEvents::PlayerReconnect Event**](/windows/win32/wmp/nf-wmp-iwmpevents-playerreconnect?branch=master)
+-   [**IWMPEvents::SwitchedToControl Event**](/windows/win32/wmp/nf-wmp-iwmpevents-switchedtocontrol?branch=master)
+-   [**IWMPEvents::SwitchedToPlayerApplication Event**](/windows/win32/wmp/nf-wmp-iwmpevents-switchedtoplayerapplication?branch=master)
+-   [**IWMPPlayerServices Interface**](/windows/win32/wmp/nn-wmp-iwmpplayerservices?branch=master)
+-   [**IWMPRemoteMediaServices Interface**](/windows/win32/wmp/nn-wmp-iwmpremotemediaservices?branch=master)
+-   [**IWMPSkinManager Interface**](/windows/win32/wmp/nn-wmp-iwmpskinmanager?branch=master)
 -   [**Media.getAttributeCountByType Method**](media-getattributecountbytype.md)
 -   [**Media.getItemInfoByType Method**](media-getiteminfobytype.md)
 -   [**MetadataPicture Object**](metadatapicture-object.md)
@@ -69,47 +82,47 @@ Where a new or updated interface is also exposed as an object, only the object i
 
 ## Added for Windows Media Player 10
 
--   [**IWMPGraphCreation Interface**](iwmpgraphcreation.md)
--   [**IWMPPlayerServices2 Interface**](iwmpplayerservices2.md)
--   [**IWMPSyncDevice Interface**](iwmpsyncdevice.md)
--   [**IWMPSyncServices Interface**](iwmpsyncservices.md)
--   [**WMPDeviceStatus Enumeration**](wmpdevicestatus.md)
--   [**WMPSyncState Enumeration**](wmpsyncstate.md)
+-   [**IWMPGraphCreation Interface**](/windows/win32/wmpservices/nn-wmpservices-iwmpgraphcreation?branch=master)
+-   [**IWMPPlayerServices2 Interface**](/windows/win32/wmp/nn-wmp-iwmpplayerservices2?branch=master)
+-   [**IWMPSyncDevice Interface**](/windows/win32/wmp/nn-wmp-iwmpsyncdevice?branch=master)
+-   [**IWMPSyncServices Interface**](/windows/win32/wmp/nn-wmp-iwmpsyncservices?branch=master)
+-   [**WMPDeviceStatus Enumeration**](/windows/win32/wmp/ne-wmp-wmpdevicestatus?branch=master)
+-   [**WMPSyncState Enumeration**](/windows/win32/wmp/ne-wmp-wmpsyncstate?branch=master)
 
 ## Added for Windows Media Player 11
 
--   [**IWMPCdromBurn Interface**](iwmpcdromburn.md)
+-   [**IWMPCdromBurn Interface**](/windows/win32/wmp/nn-wmp-iwmpcdromburn?branch=master)
 -   [**IWMPCdromBurn Interface (VB and C#)**](iwmpcdromburn--vb-and-c.md)
--   [**IWMPCdromRip Interface**](iwmpcdromrip.md)
+-   [**IWMPCdromRip Interface**](/windows/win32/wmp/nn-wmp-iwmpcdromrip?branch=master)
 -   [**IWMPCdromRip Interface (VB and C#)**](iwmpcdromrip--vb-and-c.md)
--   [**IWMPEvents3 Interface**](iwmpevents3.md)
--   [**IWMPFolderMonitorServices Interface**](iwmpfoldermonitorservices.md)
--   [**IWMPLibrary Interface**](iwmplibrary.md)
+-   [**IWMPEvents3 Interface**](/windows/win32/wmp/nn-wmp-iwmpevents3?branch=master)
+-   [**IWMPFolderMonitorServices Interface**](/windows/win32/wmp/nn-wmp-iwmpfoldermonitorservices?branch=master)
+-   [**IWMPLibrary Interface**](/windows/win32/wmp/nn-wmp-iwmplibrary?branch=master)
 -   [**IWMPLibrary Interface (VB and C#)**](iwmplibrary--vb-and-c.md)
--   [**IWMPLibraryServices Interface**](iwmplibraryservices.md)
+-   [**IWMPLibraryServices Interface**](/windows/win32/wmp/nn-wmp-iwmplibraryservices?branch=master)
 -   [**IWMPLibraryServices Interface (VB and C#)**](iwmplibraryservices--vb-and-c.md)
--   [**IWMPLibrarySharingServices Interface**](iwmplibrarysharingservices.md)
--   [**IWMPMediaCollection2 Interface**](iwmpmediacollection2.md)
+-   [**IWMPLibrarySharingServices Interface**](/windows/win32/wmp/nn-wmp-iwmplibrarysharingservices?branch=master)
+-   [**IWMPMediaCollection2 Interface**](/windows/win32/wmp/nn-wmp-iwmpmediacollection2?branch=master)
 -   [**IWMPMediaCollection2 Interface (VB and C#)**](iwmpmediacollection2--vb-and-c.md)
--   [**IWMPQuery Interface**](iwmpquery.md)
+-   [**IWMPQuery Interface**](/windows/win32/wmp/nn-wmp-iwmpquery?branch=master)
 -   [**IWMPQuery Interface (VB and C#)**](iwmpquery--vb-and-c.md)
--   [**IWMPRenderConfig Interface**](iwmprenderconfig.md)
--   [**IWMPStringCollection2 Interface**](iwmpstringcollection2.md)
+-   [**IWMPRenderConfig Interface**](/windows/win32/wmprealestate/nn-wmprealestate-iwmprenderconfig?branch=master)
+-   [**IWMPStringCollection2 Interface**](/windows/win32/wmp/nn-wmp-iwmpstringcollection2?branch=master)
 -   [**IWMPStringCollection2 Interface (VB and C#)**](iwmpstringcollection2--vb-and-c.md)
--   [**IWMPSyncDevice2 Interface**](iwmpsyncdevice2.md)
--   [**IWMPVideoRenderConfig Interface**](iwmpvideorenderconfig.md)
+-   [**IWMPSyncDevice2 Interface**](/windows/win32/wmp/nn-wmp-iwmpsyncdevice2?branch=master)
+-   [**IWMPVideoRenderConfig Interface**](/windows/win32/wmprealestate/nn-wmprealestate-iwmpvideorenderconfig?branch=master)
 -   [**Query Object**](query-object.md)
--   [**WMPBurnFormat Enumeration**](wmpburnformat.md)
--   [**WMPBurnState Enumeration**](wmpburnstate.md)
--   [**WMPLibraryType Enumeration**](wmplibrarytype.md)
--   [**WMPRipState Enumeration**](wmpripstate.md)
+-   [**WMPBurnFormat Enumeration**](/windows/win32/wmp/ne-wmp-wmpburnformat?branch=master)
+-   [**WMPBurnState Enumeration**](/windows/win32/wmp/ne-wmp-wmpburnstate?branch=master)
+-   [**WMPLibraryType Enumeration**](/windows/win32/wmp/ne-wmp-wmplibrarytype?branch=master)
+-   [**WMPRipState Enumeration**](/windows/win32/wmp/ne-wmp-wmpripstate?branch=master)
 
 ## Added for Windows Media Player 12
 
--   [**IWMPAudioRenderConfig Interface**](iwmpaudiorenderconfig.md)
--   [**IWMPEvents4 Interface**](iwmpevents4.md)
--   [**IWMPLibrary2 Interface**](iwmplibrary2.md)
--   [**IWMPSyncDevice3 Interface**](iwmpsyncdevice3.md)
+-   [**IWMPAudioRenderConfig Interface**](/windows/win32/wmprealestate/nn-wmprealestate-iwmpaudiorenderconfig?branch=master)
+-   [**IWMPEvents4 Interface**](/windows/win32/wmp/nn-wmp-iwmpevents4?branch=master)
+-   [**IWMPLibrary2 Interface**](/windows/win32/wmp/nn-wmp-iwmplibrary2?branch=master)
+-   [**IWMPSyncDevice3 Interface**](/windows/win32/wmp/nn-wmp-iwmpsyncdevice3?branch=master)
 
 ## Related topics
 

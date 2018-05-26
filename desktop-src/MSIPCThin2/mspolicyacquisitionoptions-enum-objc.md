@@ -4,17 +4,21 @@ description: System operation control options.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'D5DEB8AA-FC2A-4D57-8B1B-F5626503447C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: D5DEB8AA-FC2A-4D57-8B1B-F5626503447C
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSPolicyAcquisitionOptions enum"]
+keywords:
+- MSPolicyAcquisitionOptions enum
 topic_type:
 - apiref
 api_name:
 - MSPolicyAcquisitionOptions enum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSPolicyAcquisitionOptions enum
@@ -41,7 +45,7 @@ typedef enum MSPolicyAcquisitionOptions : NSUInteger {
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -57,11 +61,11 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

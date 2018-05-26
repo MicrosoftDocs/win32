@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.statusTextColor
 description: The statusTextColor attribute specifies or retrieves a value indicating the color of the status text.
-ms.assetid: 'b88d52d6-db0b-4c57-8085-c997bf3648a6'
-keywords: ["PLAYLIST.statusTextColor Windows Media Player"]
+ms.assetid: b88d52d6-db0b-4c57-8085-c997bf3648a6
+keywords:
+- PLAYLIST.statusTextColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.statusTextColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.statusTextColor
@@ -43,9 +49,9 @@ This attribute is a read/write **String** representing a color. The default valu
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

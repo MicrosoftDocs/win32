@@ -1,8 +1,11 @@
 ---
 title: IOEEnumRules Clone method
-description: IOEEnumRules Clone is no longer available for use as of Windows Vista.
-ms.assetid: '828f2dca-8e1a-484d-b297-3a9acd6eedd6'
-keywords: ["Clone method Windows Mail (formerly Outlook Express)", "Clone method Windows Mail (formerly Outlook Express) , IOEEnumRules interface", "IOEEnumRules interface Windows Mail (formerly Outlook Express) , Clone method"]
+description: IOEEnumRules Clone is no longer available for use as of Windows Vista.
+ms.assetid: 828f2dca-8e1a-484d-b297-3a9acd6eedd6
+keywords:
+- Clone method Windows Mail (formerly Outlook Express)
+- Clone method Windows Mail (formerly Outlook Express) , IOEEnumRules interface
+- IOEEnumRules interface Windows Mail (formerly Outlook Express) , Clone method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msoe.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOEEnumRules::Clone method
 
-\[**IOEEnumRules::Clone** is no longer available for use as of Windows Vista.\]
+\[**IOEEnumRules::Clone** is no longer available for use as of Windows Vista.\]
 
 Creates another enumerator that contains the same enumeration state as the current one.
 
@@ -24,7 +32,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 
 ```C++
 HRESULT Clone(
-  [out] IOEEnumRules **ppIEnumRules
+  [out] IOEEnumRules **ppIEnumRules
 );
 ```
 
@@ -59,7 +67,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,19 +75,19 @@ Returns one of the following values.
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
-| End of client support<br/>    | Windows XP<br/>                                                                                      |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
+| End of client support<br/>    | Windows XP<br/>                                                                                      |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                             |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl>                     |
 | DLL<br/>                      | <dl> <dt>Msoe.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

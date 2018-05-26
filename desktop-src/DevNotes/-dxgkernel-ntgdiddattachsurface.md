@@ -1,7 +1,12 @@
-﻿---
-Description: 'Attaches two kernel-mode surface representations.'
-ms.assetid: 'f1b1859f-8b62-4385-9e8a-296086446fe7'
+---
+Description: Attaches two kernel-mode surface representations.
+ms.assetid: f1b1859f-8b62-4385-9e8a-296086446fe7
 title: NtGdiDdAttachSurface function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdAttachSurface function

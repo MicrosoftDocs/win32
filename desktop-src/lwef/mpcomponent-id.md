@@ -1,8 +1,10 @@
 ---
 title: MPCOMPONENT\_ID enumeration
 description: Possible components for the malware protection manager.
-ms.assetid: '014B400A-880B-419D-9F50-F3354CE945D9'
-keywords: ["MPCOMPONENT_ID enumeration Legacy Windows Environment Features", "PMPCOMPONENT_ID enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 014B400A-880B-419D-9F50-F3354CE945D9
+keywords:
+- MPCOMPONENT_ID enumeration Legacy Windows Environment Features
+- PMPCOMPONENT_ID enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPCOMPONENT\_ID enumeration
@@ -22,18 +29,18 @@ Possible components for the malware protection manager.
 
 ```C++
 typedef enum tagMPCOMPONENT_ID { 
-  MPCOMPONENT_AS_SIGNATURE         = 0,
-  MPCOMPONENT_AV_SIGNATURE         = 1,
-  MPCOMPONENT_REALTIME_MONITOR     = 2,
-  MPCOMPONENT_ONACCESS_PROTECTION  = 3,
-  MPCOMPONENT_IOAV_PROTECTION      = 4,
-  MPCOMPONENT_BEHAVIOR_MONITOR     = 5,
-  MPCOMPONENT_AUTO_SCAN            = 6,
-  MPCOMPONENT_AUTO_SIGUPDATE       = 7,
-  MPCOMPONENT_IPC                  = 8,
-  MPCOMPONENT_NIS                  = 9,
-  MPCOMPONENT_ELAM                 = 10,
-  MPCOMPONENT_MAXVALUE             = 10
+  MPCOMPONENT_AS_SIGNATURE         = 0,
+  MPCOMPONENT_AV_SIGNATURE         = 1,
+  MPCOMPONENT_REALTIME_MONITOR     = 2,
+  MPCOMPONENT_ONACCESS_PROTECTION  = 3,
+  MPCOMPONENT_IOAV_PROTECTION      = 4,
+  MPCOMPONENT_BEHAVIOR_MONITOR     = 5,
+  MPCOMPONENT_AUTO_SCAN            = 6,
+  MPCOMPONENT_AUTO_SIGUPDATE       = 7,
+  MPCOMPONENT_IPC                  = 8,
+  MPCOMPONENT_NIS                  = 9,
+  MPCOMPONENT_ELAM                 = 10,
+  MPCOMPONENT_MAXVALUE             = 10
 } MPCOMPONENT_ID, *PMPCOMPONENT_ID;
 ```
 
@@ -85,15 +92,15 @@ typedef enum tagMPCOMPONENT_ID {
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

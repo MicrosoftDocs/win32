@@ -1,7 +1,12 @@
 ---
 title: Updating a Catalog
 description: Updating a Catalog
-ms.assetid: 'd432fdbb-5fd1-4571-98f8-c29f26a5a0e4'
+ms.assetid: d432fdbb-5fd1-4571-98f8-c29f26a5a0e4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating a Catalog

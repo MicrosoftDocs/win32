@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageNode class
 description: Represents a storage node in a cluster.
-ms.assetid: 'EAEDDC82-F170-48C4-BA93-A414C96C00D1'
-keywords: ["MSFT_StorageNode class Windows Storage Management API", "MSFT_StorageNode class Windows Storage Management API , described"]
+ms.assetid: EAEDDC82-F170-48C4-BA93-A414C96C00D1
+keywords:
+- MSFT_StorageNode class Windows Storage Management API
+- MSFT_StorageNode class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageNode class
@@ -102,7 +109,7 @@ The format of **Name**.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -132,7 +139,7 @@ The current status of the node.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -168,8 +175,8 @@ Descriptions of the format used in the custom identifiers in **OtherIdentifyingI
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -182,9 +189,9 @@ Descriptions of the format used in the custom identifiers in **OtherIdentifyingI
 [**MSFT\_StorageObject**](msft-storageobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

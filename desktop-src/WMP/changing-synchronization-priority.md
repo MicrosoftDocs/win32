@@ -1,8 +1,25 @@
 ---
 title: Changing Synchronization Priority
 description: Changing Synchronization Priority
-ms.assetid: '992781cb-5018-4b88-aa93-2f8a86468a42'
-keywords: ["Windows Media Player,synchronization playlists", "Windows Media Player object model,synchronization playlists", "object model,synchronization playlists", "Windows Media Player Mobile,synchronization playlists", "Windows Media Player ActiveX control,synchronization playlists", "Windows Media Player Mobile ActiveX control,synchronization playlists", "ActiveX control,synchronization playlists", "playlists,synchronization", "metafile playlists,synchronization", "Windows Media metafile playlists,synchronization", "portable devices,changing synchronization playlist priorities", "synchronization playlists,priorities"]
+ms.assetid: 992781cb-5018-4b88-aa93-2f8a86468a42
+keywords:
+- Windows Media Player,synchronization playlists
+- Windows Media Player object model,synchronization playlists
+- object model,synchronization playlists
+- Windows Media Player Mobile,synchronization playlists
+- Windows Media Player ActiveX control,synchronization playlists
+- Windows Media Player Mobile ActiveX control,synchronization playlists
+- ActiveX control,synchronization playlists
+- playlists,synchronization
+- metafile playlists,synchronization
+- Windows Media metafile playlists,synchronization
+- portable devices,changing synchronization playlist priorities
+- synchronization playlists,priorities
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing Synchronization Priority
@@ -66,10 +83,10 @@ void CSyncSettings::SetPriorities()
 
 <dl> <dt>
 
-[**IWMPMedia Interface**](iwmpmedia.md)
+[**IWMPMedia Interface**](/windows/win32/wmp/nn-wmp-iwmpmedia?branch=master)
 </dt> <dt>
 
-[**IWMPPlaylist Interface**](iwmpplaylist.md)
+[**IWMPPlaylist Interface**](/windows/win32/wmp/nn-wmp-iwmpplaylist?branch=master)
 </dt> <dt>
 
 [**Managing Synchronization Playlists**](managing-synchronization-playlists.md)

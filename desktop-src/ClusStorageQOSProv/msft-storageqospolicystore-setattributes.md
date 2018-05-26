@@ -4,13 +4,16 @@ description: Sets attributes for the policy store.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '664A37EF-725C-433D-9582-C777A5B8AAAF'
-ms.prod: 'windows-server-dev'
+ms.assetid: 664A37EF-725C-433D-9582-C777A5B8AAAF
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-storage-qos'
-- 'windows-management-instrumentation'
+- failover-cluster-storage-qos
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetAttributes method", "SetAttributes method, MSFT_StorageQoSPolicyStore interface", "MSFT_StorageQoSPolicyStore interface, SetAttributes method"]
+keywords:
+- SetAttributes method
+- SetAttributes method, MSFT_StorageQoSPolicyStore interface
+- MSFT_StorageQoSPolicyStore interface, SetAttributes method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - StorageQOS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetAttributes method of the MSFT\_StorageQoSPolicyStore class
@@ -30,7 +36,7 @@ Sets attributes for the policy store.
 
 ```mof
 sint32 SetAttributes(
-  [in] uint32 IOPSNormalizationSize
+  [in] uint32 IOPSNormalizationSize
 );
 ```
 
@@ -155,7 +161,7 @@ Reserved.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>StorageQOS.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>StorageQOS.dll</dt> </dl> |
@@ -169,9 +175,9 @@ Reserved.
 [**MSFT\_StorageQoSPolicyStore**](msft-storageqospolicystore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

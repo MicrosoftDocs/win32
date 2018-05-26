@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the vertical distance between the origin and the bounding limit of the canvas application media size.'
-ms.assetid: 'AA305230-B194-465F-936E-24FDE9929EAC'
-title: 'IPrintSchemaPageImageableSize::ExtentHeightInMicrons property'
+---
+Description: Gets the vertical distance between the origin and the bounding limit of the canvas application media size.
+ms.assetid: AA305230-B194-465F-936E-24FDE9929EAC
+title: IPrintSchemaPageImageableSizeExtentHeightInMicrons property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaPageImageableSize::ExtentHeightInMicrons property

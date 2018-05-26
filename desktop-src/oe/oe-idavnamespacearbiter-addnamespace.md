@@ -1,8 +1,11 @@
 ---
 title: IDAVNamespaceArbiter AddNamespace method
 description: Adds the specified namespace to a list of namespaces and generates an ID.
-ms.assetid: '9e5a9450-c7cd-4771-a7f4-5eb410fb8c35'
-keywords: ["AddNamespace method Windows Mail (formerly Outlook Express)", "AddNamespace method Windows Mail (formerly Outlook Express) , IDAVNamespaceArbiter interface", "IDAVNamespaceArbiter interface Windows Mail (formerly Outlook Express) , AddNamespace method"]
+ms.assetid: 9e5a9450-c7cd-4771-a7f4-5eb410fb8c35
+keywords:
+- AddNamespace method Windows Mail (formerly Outlook Express)
+- AddNamespace method Windows Mail (formerly Outlook Express) , IDAVNamespaceArbiter interface
+- IDAVNamespaceArbiter interface Windows Mail (formerly Outlook Express) , AddNamespace method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDAVNamespaceArbiter::AddNamespace method
@@ -24,8 +32,8 @@ Adds the specified namespace to a list of namespaces and generates an ID.
 
 ```C++
 HRESULT AddNamespace(
-  [in]  LPCSTR pszNamespace,
-  [out] DWORD  *pdwNamespaceID
+  [in]  LPCSTR pszNamespace,
+  [out] DWORD  *pdwNamespaceID
 );
 ```
 
@@ -69,7 +77,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -77,8 +85,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -86,9 +94,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

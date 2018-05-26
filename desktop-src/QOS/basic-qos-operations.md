@@ -1,8 +1,14 @@
 ---
 title: Basic QOS Operations
 description: The RSVP Service Provider (RSVP SP) is where developers can enable their applications to take advantage of the QOS capabilities built into Windows 2000.
-ms.assetid: '2856971a-7e60-4b24-a729-294b24bd52b0'
-keywords: ["Quality of Service QOS , tasks"]
+ms.assetid: 2856971a-7e60-4b24-a729-294b24bd52b0
+keywords:
+- Quality of Service QOS , tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic QOS Operations

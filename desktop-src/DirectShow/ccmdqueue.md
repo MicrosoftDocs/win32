@@ -1,12 +1,17 @@
 ---
-Description: 'The CCmdQueue class is a base class that provides a queue of CDeferredCommand objects and member functions to add, remove, check status, and invoke the queued commands.'
-ms.assetid: '6bd0f0f3-3c56-47d2-9fd8-e2863a2afa33'
+Description: The CCmdQueue class is a base class that provides a queue of CDeferredCommand objects and member functions to add, remove, check status, and invoke the queued commands.
+ms.assetid: 6bd0f0f3-3c56-47d2-9fd8-e2863a2afa33
 title: CCmdQueue class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCmdQueue class
 
-The `CCmdQueue` class is a base class that provides a queue of [**CDeferredCommand**](cdeferredcommand.md) objects and member functions to add, remove, check status, and invoke the queued commands. A `CCmdQueue` object is a part of an object that implements [**IQueueCommand**](iqueuecommand.md) methods. The filter graph manager implements **IQueueCommand** methods so that applications can queue commands to the filter graph. Filters that implement the **IQueueCommand** interface directly use this class. If you want to use **CDeferredCommand** objects, your queue must be derived from this class.
+The `CCmdQueue` class is a base class that provides a queue of [**CDeferredCommand**](cdeferredcommand.md) objects and member functions to add, remove, check status, and invoke the queued commands. A `CCmdQueue` object is a part of an object that implements [**IQueueCommand**](/windows/win32/Control/nn-control-iqueuecommand?branch=master) methods. The filter graph manager implements **IQueueCommand** methods so that applications can queue commands to the filter graph. Filters that implement the **IQueueCommand** interface directly use this class. If you want to use **CDeferredCommand** objects, your queue must be derived from this class.
 
 There are two modes of synchronization: coarse and accurate. In coarse mode, the application waits until a specified time arrives and then executes the command. In accurate mode, the application waits until processing begins on the sample that appears at the time, and then executes the command. The filter determines which one it will implement. The filter graph manager always implements coarse mode for commands that are queued at the filter graph manager.
 

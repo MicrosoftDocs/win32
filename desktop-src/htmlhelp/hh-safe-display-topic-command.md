@@ -1,7 +1,12 @@
 ---
 title: HH\_SAFE\_DISPLAY\_TOPIC command
 description: Opens a help topic in a specified help window, and disables all shortcuts in the current process. Shortcuts will remain disabled as long as the calling process is active. This command can be used in place of HH\_DISPLAY\_TOPIC Command.
-ms.assetid: 'F95B712A-1C01-4bab-B87C-5174D586AFB5'
+ms.assetid: F95B712A-1C01-4bab-B87C-5174D586AFB5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_SAFE\_DISPLAY\_TOPIC command
@@ -18,7 +23,7 @@ If a window type is not specified, a default window type is used. If the window 
 
 
 
- 
+ 
 
 ## Example
 
@@ -60,9 +65,9 @@ HWND hwnd =
 [HH\_DISPLAY\_TOPIC Command](hh-display-topic-command.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

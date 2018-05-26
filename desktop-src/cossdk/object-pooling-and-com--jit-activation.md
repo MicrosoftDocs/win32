@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ JIT activation essentially strikes a compromise between greedy clients and greedy servers for the sake of getting optimal performance. Clients get to keep object references, while servers can more closely manage memory utilization.'
-ms.assetid: '125d39f5-af38-4a87-a649-2f77a3e77c27'
+Description: COM+ JIT activation essentially strikes a compromise between greedy clients and greedy servers for the sake of getting optimal performance. Clients get to keep object references, while servers can more closely manage memory utilization.
+ms.assetid: 125d39f5-af38-4a87-a649-2f77a3e77c27
 title: Object Pooling and COM+ JIT Activation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Pooling and COM+ JIT Activation

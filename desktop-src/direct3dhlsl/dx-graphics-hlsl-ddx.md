@@ -1,14 +1,20 @@
 ---
 title: ddx
 description: Returns the partial derivative of the specified value with respect to the screen-space x-coordinate.
-ms.assetid: 'a21c2d2a-7c62-4dc6-8521-273690be1104'
-keywords: ["ddx HLSL"]
+ms.assetid: a21c2d2a-7c62-4dc6-8521-273690be1104
+keywords:
+- ddx HLSL
 topic_type:
 - apiref
 api_name:
 - ddx
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ddx
@@ -22,7 +28,7 @@ Returns the partial derivative of the specified value with respect to the screen
 
 
 
- 
+ 
 
 This function computes the partial derivative with respect to the screen-space x-coordinate. To compute the partial derivative with respect to the screen-space y-coordinate, use the [**ddy**](dx-graphics-hlsl-ddy.md) function.
 
@@ -38,7 +44,7 @@ This function is only supported in pixel shaders.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -55,7 +61,7 @@ The partial derivative of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -73,7 +79,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 This function is supported in the following types of shaders:
 
@@ -85,7 +91,7 @@ This function is supported in the following types of shaders:
 
 
 
- 
+ 
 
 ## See also
 
@@ -94,9 +100,9 @@ This function is supported in the following types of shaders:
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

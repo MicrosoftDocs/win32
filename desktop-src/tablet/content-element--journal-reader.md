@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the content for a Journal page.'
-ms.assetid: '1df78a17-1cd4-4e98-aed1-b09d2b357703'
-title: 'Content Element \[Journal Reader\]'
+Description: Contains the content for a Journal page.
+ms.assetid: 1df78a17-1cd4-4e98-aed1-b09d2b357703
+title: Content Element \[Journal Reader\]
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Content Element \[Journal Reader\]
@@ -69,7 +74,7 @@ Contains the content for a Journal page.
 
 
 
- 
+ 
 
 ## Element Information
 
@@ -83,11 +88,11 @@ Contains the content for a Journal page.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

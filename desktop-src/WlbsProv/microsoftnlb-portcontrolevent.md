@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_PortControlEvent class is a WMI class that repres
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2aae9f4e-9426-4a59-80f3-c7055c8fc7bf'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2aae9f4e-9426-4a59-80f3-c7055c8fc7bf
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_PortControlEvent class", "MicrosoftNLB_PortControlEvent class, described"]
+keywords:
+- MicrosoftNLB_PortControlEvent class
+- MicrosoftNLB_PortControlEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_PortControlEvent class
@@ -43,16 +48,16 @@ The following syntax is simplified from MOF code, and includes all inherited pro
 [WMI, Dynamic, Provider("WmiProv"), guid("{490BB97C-7D3B-4777-8216-DC11FCC02705}"), AMENDMENT]
 class MicrosoftNLB_PortControlEvent : WmiEvent
 {
-  uint8   SECURITY_DESCRIPTOR[];
-  uint64  TIME_CREATED;
-  string  InstanceName;
+  uint8   SECURITY_DESCRIPTOR[];
+  uint64  TIME_CREATED;
+  string  InstanceName;
   boolean Active;
-  string  AdapterGuid;
-  string  ClusterIPAddress;
-  uint32  HostPriority;
-  string  VirtualIPAddress;
-  uint32  Port;
-  uint32  Id;
+  string  AdapterGuid;
+  string  ClusterIPAddress;
+  uint32  HostPriority;
+  string  VirtualIPAddress;
+  uint32  Port;
+  uint32  Id;
 };
 ```
 
@@ -255,7 +260,7 @@ The **MicrosoftNLB\_PortControlEvent** class is derived from the [**WMIEvent**](
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -275,9 +280,9 @@ The **MicrosoftNLB\_PortControlEvent** class is derived from the [**WMIEvent**](
 [**WMIEvent**](https://msdn.microsoft.com/library/windows/desktop/aa394532)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

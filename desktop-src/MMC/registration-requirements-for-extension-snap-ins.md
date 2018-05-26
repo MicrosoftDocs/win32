@@ -4,11 +4,15 @@ description: Registration Requirements for Extension Snap-ins
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6edbd21d-2ec8-4142-97ec-be089d810b7e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 6edbd21d-2ec8-4142-97ec-be089d810b7e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["registration requirements for extension snap-ins MMC"]
+keywords:
+- registration requirements for extension snap-ins MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registration Requirements for Extension Snap-ins

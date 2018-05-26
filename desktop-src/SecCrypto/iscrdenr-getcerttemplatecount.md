@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of certificate templates.'
-ms.assetid: 'f56e6e72-1562-4c53-b0da-b4bc69511559'
-title: 'ISCrdEnr::getCertTemplateCount method'
+---
+Description: Retrieves the number of certificate templates.
+ms.assetid: f56e6e72-1562-4c53-b0da-b4bc69511559
+title: ISCrdEnrgetCertTemplateCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCrdEnr::getCertTemplateCount method

@@ -1,8 +1,14 @@
 ---
 title: Programming Guide
 description: This section contains conceptual programming topics that describe how to use the Direct2D API.
-ms.assetid: '428cc2f2-524a-4330-8916-7fa3c8c7c9b7'
-keywords: ["Direct2D,programming guide"]
+ms.assetid: 428cc2f2-524a-4330-8916-7fa3c8c7c9b7
+keywords:
+- Direct2D,programming guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide
@@ -19,7 +25,7 @@ This section contains conceptual programming topics that describe how to use the
 | [Devices and Device Contexts](devices-and-device-contexts.md)<br/>                         |                                                                                                                                                                                                                                                                                                                                                                 |
 | [Improving the performance of Direct2D apps](improving-direct2d-performance.md)<br/>       | Describes techniques for improving Direct2D performance.<br/>                                                                                                                                                                                                                                                                                             |
 | [Layers Overview](direct2d-layers-overview.md)<br/>                                        | Describes the basics of Direct2D layers.<br/>                                                                                                                                                                                                                                                                                                             |
-| [Printing and Command Lists](printing-and-command-lists.md)<br/>                           | The [Direct2D](direct2d.direct2d_portal.xml) [**print control**](id2d1printcontrol.md) is a new component in the Direct2D module in Windows 8. This component lets Direct2D apps reuse their Direct2D drawing calls (in terms of state changes and rending primitives) to deliver printing results that are similar to what you see on the screen. <br/> |
+| [Printing and Command Lists](printing-and-command-lists.md)<br/>                           | The [Direct2D](direct2d.direct2d_portal.xml) [**print control**](/windows/win32/D2d1_1/?branch=master) is a new component in the Direct2D module in Windows 8. This component lets Direct2D apps reuse their Direct2D drawing calls (in terms of state changes and rending primitives) to deliver printing results that are similar to what you see on the screen. <br/> |
 | [Multithreaded Direct2D Apps](multi-threaded-direct2d-apps.md)<br/>                        | Describes best practices for creating multithreaded Direct2D apps.<br/>                                                                                                                                                                                                                                                                                   |
 | [Profiling DirectX Applications](profiling-directx-applications.md)<br/>                   | Shows you how to measure some of the most important performance time measurements for a [DirectX](https://msdn.microsoft.com/library/windows/apps/jj262109) app using the **XPerf** and **GPUView** tools that ship as part of the Windows Performance Toolkit. <br/>                                                                                                |
 | [Block compression](block-compression.md)<br/>                                             | Describes how block compression works and how to use it in WIC and Direct2D.<br/>                                                                                                                                                                                                                                                                         |
@@ -39,11 +45,11 @@ This section contains conceptual programming topics that describe how to use the
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

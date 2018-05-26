@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.GetLogViewRange method
 description: Retrieves the starting date used to retrieve counter values from the log files.
-ms.assetid: 'c74c3a5b-d2ec-43d8-b715-e399f42e8ae5'
-keywords: ["GetLogViewRange method SysMon", "GetLogViewRange method SysMon , SystemMonitor object", "SystemMonitor object SysMon , GetLogViewRange method"]
+ms.assetid: c74c3a5b-d2ec-43d8-b715-e399f42e8ae5
+keywords:
+- GetLogViewRange method SysMon
+- GetLogViewRange method SysMon , SystemMonitor object
+- SystemMonitor object SysMon , GetLogViewRange method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.GetLogViewRange method
@@ -63,8 +71,8 @@ Using this method is the same as accessing the [**SystemMonitor.LogViewStart**](
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -79,9 +87,9 @@ Using this method is the same as accessing the [**SystemMonitor.LogViewStart**](
 [**SystemMonitor.SetLogViewRange**](systemmonitor-setlogviewrange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

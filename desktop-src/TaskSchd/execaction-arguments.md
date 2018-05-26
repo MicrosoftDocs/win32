@@ -1,8 +1,11 @@
 ---
 title: ExecAction.Arguments property
 description: For scripting, gets or sets the arguments associated with the command-line operation.
-ms.assetid: '911e720f-ea7b-474d-ac75-4cd4f9adee55'
-keywords: ["Arguments property Task Scheduler", "Arguments property Task Scheduler , ExecAction object", "ExecAction object Task Scheduler , Arguments property"]
+ms.assetid: 911e720f-ea7b-474d-ac75-4cd4f9adee55
+keywords:
+- Arguments property Task Scheduler
+- Arguments property Task Scheduler , ExecAction object
+- ExecAction object Task Scheduler , Arguments property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExecAction.Arguments property
@@ -40,8 +48,8 @@ When reading or writing XML, the command-line operation arguments are specified 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -57,9 +65,9 @@ When reading or writing XML, the command-line operation arguments are specified 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

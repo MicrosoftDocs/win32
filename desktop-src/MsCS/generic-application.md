@@ -4,11 +4,16 @@ description: The Generic Application resource type manages cluster-unaware appli
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '98e2476b-885f-46ae-974a-d0c93a033ef1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 98e2476b-885f-46ae-974a-d0c93a033ef1
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,Generic Application", "Generic Application resource type Failover Cluster"]
+keywords:
+- resource types Failover Cluster ,Generic Application
+- Generic Application resource type Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Generic Application

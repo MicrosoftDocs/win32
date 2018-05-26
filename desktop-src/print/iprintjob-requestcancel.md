@@ -1,7 +1,12 @@
-﻿---
-Description: 'Requests the cancellation of a print job.'
-ms.assetid: '13F8A151-F28A-4A0F-B143-F3DB2197A36B'
-title: 'IPrintJob::RequestCancel method'
+---
+Description: Requests the cancellation of a print job.
+ms.assetid: 13F8A151-F28A-4A0F-B143-F3DB2197A36B
+title: IPrintJobRequestCancel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintJob::RequestCancel method

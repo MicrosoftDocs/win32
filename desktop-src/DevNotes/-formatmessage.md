@@ -1,7 +1,12 @@
-﻿---
-Description: 'Formats a message string.'
-ms.assetid: 'e5513b0d-5f93-4bcd-a011-eb4a6fab91e1'
+---
+Description: Formats a message string.
+ms.assetid: e5513b0d-5f93-4bcd-a011-eb4a6fab91e1
 title: '\_FormatMessage function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_FormatMessage function

@@ -1,8 +1,9 @@
 ---
 title: SetColorProfileHeader function
 description: The SetColorProfileHeader function sets the header data in a specified ICC color profile.
-ms.assetid: 'a174712b-9977-4d3c-8baa-1b6e502db166'
-keywords: ["SetColorProfileHeader function Windows Color System"]
+ms.assetid: a174712b-9977-4d3c-8baa-1b6e502db166
+keywords:
+- SetColorProfileHeader function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetColorProfileHeader function
@@ -22,8 +28,8 @@ The **SetColorProfileHeader** function sets the header data in a specified ICC c
 
 ```C++
 BOOL WINAPI SetColorProfileHeader(
-   HPROFILE       hProfile,
-   PPROFILEHEADER pHeader
+   HPROFILE       hProfile,
+   PPROFILEHEADER pHeader
 );
 ```
 
@@ -69,8 +75,8 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -90,9 +96,9 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 [**PROFILEHEADER**](profileheader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

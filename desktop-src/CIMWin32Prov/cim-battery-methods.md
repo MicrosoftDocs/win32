@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Battery class exposes the following methods.'
+Description: The CIM\_Battery class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '60658CE1-CB06-4411-B809-BD5FE5558F6D'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 60658CE1-CB06-4411-B809-BD5FE5558F6D
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Battery Methods'
+title: CIM\_Battery Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Battery Methods

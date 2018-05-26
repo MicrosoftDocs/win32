@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachineEvents OnStateChange method
 description: The OnStateChange method is called when the state of a virtual machine has changed.
-ms.assetid: '13bb89e6-60d9-4361-a1e6-3107637525b1'
-keywords: ["OnStateChange method Virtual Server", "OnStateChange method Virtual Server , IVMVirtualMachineEvents interface", "IVMVirtualMachineEvents interface Virtual Server , OnStateChange method"]
+ms.assetid: 13bb89e6-60d9-4361-a1e6-3107637525b1
+keywords:
+- OnStateChange method Virtual Server
+- OnStateChange method Virtual Server , IVMVirtualMachineEvents interface
+- IVMVirtualMachineEvents interface Virtual Server , OnStateChange method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachineEvents::OnStateChange method
@@ -22,7 +30,7 @@ The **OnStateChange** method is called when the state of a virtual machine has c
 
 ```C++
 HRESULT OnStateChange(
-  [in] VMVMState virtualMachineState
+  [in] VMVMState virtualMachineState
 );
 ```
 
@@ -53,8 +61,8 @@ This method is called when the state for this virtual machine changes. The clien
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -69,9 +77,9 @@ This method is called when the state for this virtual machine changes. The clien
 [**VMVMState**](vmvmstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

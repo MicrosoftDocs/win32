@@ -1,8 +1,14 @@
 ---
 title: Opening the Playback Window
 description: Opening the Playback Window
-ms.assetid: '180f3fb9-cdcb-49ec-a708-84a597295b2f'
-keywords: ["MCI_OPEN command"]
+ms.assetid: 180f3fb9-cdcb-49ec-a708-84a597295b2f
+keywords:
+- MCI_OPEN command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening the Playback Window

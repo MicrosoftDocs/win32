@@ -1,14 +1,19 @@
 ---
-Description: 'For each application that uses an authorization policy store, you must create an IAzApplication object and then save it to a policy store.'
-ms.assetid: '5df964de-e5b6-427e-b859-efb5866f1578'
+Description: For each application that uses an authorization policy store, you must create an IAzApplication object and then save it to a policy store.
+ms.assetid: 5df964de-e5b6-427e-b859-efb5866f1578
 title: Creating an Application Object in Script
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Application Object in Script
 
-An authorization policy store contains authorization policy information for one or more applications. For each application that uses an authorization policy store, you must create an [**IAzApplication**](iazapplication.md) object and save it to a policy store.
+An authorization policy store contains authorization policy information for one or more applications. For each application that uses an authorization policy store, you must create an [**IAzApplication**](/windows/win32/Azroles/nn-azroles-iazapplication?branch=master) object and save it to a policy store.
 
-The following example shows how to create an [**IAzApplication**](iazapplication.md) object that represents an application and how to add the **IAzApplication** object to the authorization policy store the application uses. The example assumes that there is an existing XML policy store named MyStore.xml in the root directory of drive C.
+The following example shows how to create an [**IAzApplication**](/windows/win32/Azroles/nn-azroles-iazapplication?branch=master) object that represents an application and how to add the **IAzApplication** object to the authorization policy store the application uses. The example assumes that there is an existing XML policy store named MyStore.xml in the root directory of drive C.
 
 
 ```VB

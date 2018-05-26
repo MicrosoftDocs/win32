@@ -1,20 +1,24 @@
 ---
 title: TemplateDescriptor class
-description: Information associated with a user's tenant template policy.
+description: Information associated with a users tenant template policy.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '1ED36F7E-FC7D-474C-8B39-615C8AC4DEA5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 1ED36F7E-FC7D-474C-8B39-615C8AC4DEA5
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["TemplateDescriptor class"]
+keywords:
+- TemplateDescriptor class
 topic_type:
 - apiref
 api_name:
 - TemplateDescriptor class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TemplateDescriptor class
@@ -44,7 +48,7 @@ public class TemplateDescriptor implements Serializable
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -60,7 +64,7 @@ TemplateDescriptor.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -70,9 +74,9 @@ com.microsoft.rightsmanagement
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

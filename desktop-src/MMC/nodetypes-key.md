@@ -4,11 +4,15 @@ description: All node types that can be extended have their own subkey in the HK
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0745c385-dff7-41cb-ba74-a635a8cb77b2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 0745c385-dff7-41cb-ba74-a635a8cb77b2
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["NodeTypes Key"]
+keywords:
+- NodeTypes Key
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NodeTypes Key

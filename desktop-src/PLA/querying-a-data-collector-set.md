@@ -1,12 +1,17 @@
 ---
 title: Querying a Data Collector Set
 description: To retrieve a previously committed data collector set, call the IDataCollectorSet Query method.
-ms.assetid: '200c3f29-b109-4896-ad2a-40838cd2c444'
+ms.assetid: 200c3f29-b109-4896-ad2a-40838cd2c444
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying a Data Collector Set
 
-To retrieve a previously committed data collector set, call the [**IDataCollectorSet::Query**](idatacollectorset-query.md) method.
+To retrieve a previously committed data collector set, call the [**IDataCollectorSet::Query**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-query?branch=master) method.
 
 You can retrieve a data collector set from the local computer or from a remote computer. There can be a delay when retrieving the data collector set from a remote computer, so you should not query a remote set from a UI thread.
 

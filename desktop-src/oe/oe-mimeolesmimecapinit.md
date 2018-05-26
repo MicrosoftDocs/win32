@@ -1,8 +1,9 @@
 ---
 title: MimeOleSMimeCapInit function
 description: Do not use.
-ms.assetid: 'eeceb00c-7f26-4a75-b78b-82ab0e597e16'
-keywords: ["MimeOleSMimeCapInit function Windows Mail (formerly Outlook Express)"]
+ms.assetid: eeceb00c-7f26-4a75-b78b-82ab0e597e16
+keywords:
+- MimeOleSMimeCapInit function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleSMimeCapInit function
@@ -22,9 +28,9 @@ Do not use. Returns an equivalent of the cookie returned by [**MimeOleSMimeCapAd
 
 ```C++
 HRESULT MimeOleSMimeCapInit(
-  _In_  LPBYTE pbSMimeCap,
-  _In_  DWORD  cbSMimeCap,
-  _Out_ LPVOID *ppv
+  _In_  LPBYTE pbSMimeCap,
+  _In_  DWORD  cbSMimeCap,
+  _Out_ LPVOID *ppv
 );
 ```
 
@@ -78,7 +84,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -87,7 +93,7 @@ Using **NULL** values for *pbSMimeCap* and *cbSMimeCap* gives maximum results al
 > [!Note]  
 > Caller of this function is responsible for freeing what *ppv* points to.
 
- 
+ 
 
 ## Requirements
 
@@ -95,8 +101,8 @@ Using **NULL** values for *pbSMimeCap* and *cbSMimeCap* gives maximum results al
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -104,9 +110,9 @@ Using **NULL** values for *pbSMimeCap* and *cbSMimeCap* gives maximum results al
 
 
 
- 
+ 
 
- 
+ 
 
 
 

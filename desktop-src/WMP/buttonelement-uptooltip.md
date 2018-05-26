@@ -1,14 +1,20 @@
 ---
 title: BUTTONELEMENT.upToolTip
 description: The upToolTip attribute specifies or retrieves the ToolTip text that appears when the mouse is over the BUTTONELEMENT and the BUTTONELEMENT is in the up state.
-ms.assetid: 'ca9334df-8054-481d-966c-58c84d734adf'
-keywords: ["BUTTONELEMENT.upToolTip Windows Media Player"]
+ms.assetid: ca9334df-8054-481d-966c-58c84d734adf
+keywords:
+- BUTTONELEMENT.upToolTip Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONELEMENT.upToolTip
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONELEMENT.upToolTip
@@ -48,9 +54,9 @@ See the [mappingColor](buttonelement-mappingcolor.md) attribute for a sample ill
 [**BUTTONELEMENT Element**](buttonelement-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

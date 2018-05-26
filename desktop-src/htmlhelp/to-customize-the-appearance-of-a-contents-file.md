@@ -1,7 +1,12 @@
 ---
 title: To customize the appearance of a contents file
 description: To customize the appearance of a contents file
-ms.assetid: '9410D7B6-97A6-4b90-AD7E-8779F409C7CC'
+ms.assetid: 9410D7B6-97A6-4b90-AD7E-8779F409C7CC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To customize the appearance of a contents file
@@ -16,7 +21,7 @@ ms.assetid: '9410D7B6-97A6-4b90-AD7E-8779F409C7CC'
 
     
 
-     
+     
 
 2.  Click the **Styles** tab, and then click **Add** or **Remove** to specify the styles you want.
 
@@ -27,9 +32,9 @@ ms.assetid: '9410D7B6-97A6-4b90-AD7E-8779F409C7CC'
 [Customize a Table of Contents](customizing-a-table-of-contents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

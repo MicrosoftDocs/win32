@@ -1,7 +1,12 @@
-﻿---
-Description: 'Forces the Enhanced Video Renderer (EVR) to limit its output to match GPU bandwidth.'
-ms.assetid: 'e81e67d6-aa72-44c1-90e9-72ab18bca1c9'
-title: 'EVRConfig\_ForceThrottle attribute'
+---
+Description: Forces the Enhanced Video Renderer (EVR) to limit its output to match GPU bandwidth.
+ms.assetid: e81e67d6-aa72-44c1-90e9-72ab18bca1c9
+title: EVRConfig\_ForceThrottle attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EVRConfig\_ForceThrottle attribute
@@ -14,15 +19,15 @@ Forces the Enhanced Video Renderer (EVR) to limit its output to match GPU bandwi
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
-This attribute can be set on the EVR media sink. To set the attribute, use **IUnknown::QueryInterface** to query the EVR media sink for the [**IMFAttributes**](imfattributes.md) interface.
+This attribute can be set on the EVR media sink. To set the attribute, use **IUnknown::QueryInterface** to query the EVR media sink for the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface.
 
-Setting this attribute has the same effect as setting the **MFVideoRenderPrefs\_ForceOutputThrottling** flag on the EVR. See [**MFVideoRenderPrefs**](mfvideorenderprefs.md) for a description of this flag.
+Setting this attribute has the same effect as setting the **MFVideoRenderPrefs\_ForceOutputThrottling** flag on the EVR. See [**MFVideoRenderPrefs**](/windows/win32/evr/ne-evr-mfvideorenderprefs?branch=master) for a description of this flag.
 
 The GUID constant for this attribute is exported from strmiids.lib.
 

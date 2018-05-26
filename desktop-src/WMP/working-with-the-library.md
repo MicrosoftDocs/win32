@@ -1,8 +1,22 @@
 ---
 title: Working with the Library
 description: Working with the Library
-ms.assetid: '78590aff-c282-4236-afc5-9bad5e1a922f'
-keywords: ["Windows Media Player,library", "Windows Media Player object model,library", "object model,library", "Windows Media Player Mobile,library for object model", "Windows Media Player ActiveX control,library for object model", "Windows Media Player Mobile ActiveX control,library for object model", "ActiveX control,library for object model", "Windows Media Player library,about", "library,about"]
+ms.assetid: 78590aff-c282-4236-afc5-9bad5e1a922f
+keywords:
+- Windows Media Player,library
+- Windows Media Player object model,library
+- object model,library
+- Windows Media Player Mobile,library for object model
+- Windows Media Player ActiveX control,library for object model
+- Windows Media Player Mobile ActiveX control,library for object model
+- ActiveX control,library for object model
+- Windows Media Player library,about
+- library,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with the Library

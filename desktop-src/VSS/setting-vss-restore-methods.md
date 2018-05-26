@@ -1,7 +1,12 @@
 ---
-Description: 'The configuration of restore operations actually begins during data backup, when writers specify, in their Writer Metadata Documents, how their data should be restored.'
-ms.assetid: 'b1f948cd-d3b0-4637-b76d-b54a74bb5948'
+Description: The configuration of restore operations actually begins during data backup, when writers specify, in their Writer Metadata Documents, how their data should be restored.
+ms.assetid: b1f948cd-d3b0-4637-b76d-b54a74bb5948
 title: Setting VSS Restore Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting VSS Restore Methods
@@ -10,17 +15,17 @@ The configuration of restore operations actually begins during data backup, when
 
 These specifications, referred to either as [*restore methods*](vssgloss-r.md#base-vssgloss-restore-method) or original [*restore targets*](vssgloss-r.md#base-vssgloss-restore-target), can be modified during restore by writers setting new restore targets or by requesters restoring to new locations (see [Non-Default Backup and Restore Locations](non-default-backup-and-restore-locations.md)).
 
-By calling [**IVssCreateWriterMetadata::SetRestoreMethod**](ivsscreatewritermetadata-setrestoremethod.md), a writer indicates which restore method should be used in its Writer Metadata Document. The restore method is set writer wide and applied to all files in all components that a writer manages.
+By calling [**IVssCreateWriterMetadata::SetRestoreMethod**](/windows/win32/VsWriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod?branch=master), a writer indicates which restore method should be used in its Writer Metadata Document. The restore method is set writer wide and applied to all files in all components that a writer manages.
 
-A requester obtains (and must respect) this information by calling [**IVssExamineWriterMetadata::GetRestoreMethod**](ivssexaminewritermetadata-getrestoremethod.md).
+A requester obtains (and must respect) this information by calling [**IVssExamineWriterMetadata::GetRestoreMethod**](/windows/win32/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod?branch=master).
 
-The restore method is defined by a [**VSS\_RESTOREMETHOD\_ENUM**](vss-restoremethod-enum.md) enumeration, which is passed to [**IVssCreateWriterMetadata::SetRestoreMethod**](ivsscreatewritermetadata-setrestoremethod.md) and returned from [**IVssExamineWriterMetadata::GetRestoreMethod**](ivssexaminewritermetadata-getrestoremethod.md).
+The restore method is defined by a [**VSS\_RESTOREMETHOD\_ENUM**](/windows/win32/VsWriter/ne-vswriter-vss_restoremethod_enum?branch=master) enumeration, which is passed to [**IVssCreateWriterMetadata::SetRestoreMethod**](/windows/win32/VsWriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod?branch=master) and returned from [**IVssExamineWriterMetadata::GetRestoreMethod**](/windows/win32/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod?branch=master).
 
 The Writer Metadata Document supports the following valid restore methods (a restore method of VSS\_RME\_UNDEFINED indicates a writer error). The figures summarize how the various supported and defined restore methods should be implemented (VSS\_RME\_CUSTOM has no figure associated with it, because by definition it is specific to the writer and must follow the specific writer APIs and documentation):
 
--   VSS\_RME\_RESTORE\_IF\_NOT\_THERE. Restore component files to disk if none of the files are on the disk already. Target file status should be checked after a [**PreRestore**](ivssbackupcomponents-prerestore.md) event.
+-   VSS\_RME\_RESTORE\_IF\_NOT\_THERE. Restore component files to disk if none of the files are on the disk already. Target file status should be checked after a [**PreRestore**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore?branch=master) event.
     ![](images/rint.png)
--   VSS\_RME\_RESTORE\_IF\_CAN\_REPLACE. Restore files to disk if all the files can be replaced. Target file status should be checked after a [**PreRestore**](ivssbackupcomponents-prerestore.md) event.
+-   VSS\_RME\_RESTORE\_IF\_CAN\_REPLACE. Restore files to disk if all the files can be replaced. Target file status should be checked after a [**PreRestore**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore?branch=master) event.
     ![](images/ricr.png)
 -   VSS\_RME\_STOP\_RESTORE\_START. A service will be stopped prior to restoring the files.
     ![](images/srr.png)

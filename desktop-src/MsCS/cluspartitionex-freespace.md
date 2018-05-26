@@ -4,11 +4,14 @@ description: Gets the total disk space available to the partition in megabytes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'CFADEA62-389A-4CC7-AC2A-8F80652A3C71'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: CFADEA62-389A-4CC7-AC2A-8F80652A3C71
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["FreeSpace property Failover Cluster", "FreeSpace property Failover Cluster , ClusPartitionEx interface", "ClusPartitionEx interface Failover Cluster , FreeSpace property"]
+keywords:
+- FreeSpace property Failover Cluster
+- FreeSpace property Failover Cluster , ClusPartitionEx interface
+- ClusPartitionEx interface Failover Cluster , FreeSpace property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusPartitionEx.FreeSpace property
@@ -45,7 +51,7 @@ ClusPartitionEx.FreeSpace
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -57,12 +63,12 @@ ClusPartitionEx.FreeSpace
 
 <dl> <dt>
 
-[**ClusPartitionEx**](cluspartitionex.md)
+[**ClusPartitionEx**](/windows/previous-versions/MsClus/nn-msclus-iscluspartitionex?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: RB\_MOVEBAND message
 description: Moves a band from one index to another.
-ms.assetid: 'bb5b45de-957e-46fb-b59a-18b55b69c395'
-keywords: ["RB_MOVEBAND message Windows Controls"]
+ms.assetid: bb5b45de-957e-46fb-b59a-18b55b69c395
+keywords:
+- RB_MOVEBAND message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_MOVEBAND message
@@ -51,15 +57,15 @@ This message will most likely change the index of other bands in the rebar contr
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

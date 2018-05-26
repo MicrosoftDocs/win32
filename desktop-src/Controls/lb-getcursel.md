@@ -1,8 +1,9 @@
 ---
 title: LB\_GETCURSEL message
 description: Gets the index of the currently selected item, if any, in a single-selection list box.
-ms.assetid: '39ab7f77-6c8e-45a4-aad4-47eba0a11a11'
-keywords: ["LB_GETCURSEL message Windows Controls"]
+ms.assetid: 39ab7f77-6c8e-45a4-aad4-47eba0a11a11
+keywords:
+- LB_GETCURSEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_GETCURSEL message
@@ -51,8 +57,8 @@ If sent to a multiple-selection list box, **LB\_GETCURSEL** returns the index of
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ If sent to a multiple-selection list box, **LB\_GETCURSEL** returns the index of
 [**LB\_SETCURSEL**](lb-setcursel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

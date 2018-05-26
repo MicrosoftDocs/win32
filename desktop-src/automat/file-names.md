@@ -1,7 +1,12 @@
 ---
 title: File Names
 description: A file name is a string that represents either a full or partial path.
-ms.assetid: '7ccf1ae2-9060-4342-b5d3-0c00fcfb8677'
+ms.assetid: 7ccf1ae2-9060-4342-b5d3-0c00fcfb8677
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Names

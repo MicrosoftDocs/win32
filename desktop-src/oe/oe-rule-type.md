@@ -1,8 +1,10 @@
 ---
 title: RULE\_TYPE enumeration
-description: RULE\_TYPE is no longer available for use as of Windows Vista.
-ms.assetid: 'a9f11be8-525f-4505-acf6-e4fc4f6b5482'
-keywords: ["RULE_TYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+description: RULE\_TYPE is no longer available for use as of Windows Vista.
+ms.assetid: a9f11be8-525f-4505-acf6-e4fc4f6b5482
+keywords:
+- RULE_TYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Oerules.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RULE\_TYPE enumeration
 
-\[**RULE\_TYPE** is no longer available for use as of Windows Vista.\]
+\[**RULE\_TYPE** is no longer available for use as of Windows Vista.\]
 
 Identifies types of rules.
 
@@ -24,10 +31,10 @@ Identifies types of rules.
 
 ```C++
 typedef enum tagRULE_TYPE { 
-  RULE_TYPE_MAIL    = 0,
-  RULE_TYPE_NEWS    = 1,
-  RULE_TYPE_FILTER  = 2,
-  RULE_TYPE_MAX     = 3
+  RULE_TYPE_MAIL    = 0,
+  RULE_TYPE_NEWS    = 1,
+  RULE_TYPE_FILTER  = 2,
+  RULE_TYPE_MAX     = 3
 } ACCESSTYPE;
 ```
 
@@ -71,18 +78,18 @@ Total number of rule types.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
-| End of client support<br/>    | Windows XP<br/>                                                                  |
-| End of server support<br/>    | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| End of client support<br/>    | Windows XP<br/>                                                                  |
+| End of server support<br/>    | Windows Server 2003<br/>                                                         |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: CIM\_MediaAccessDevice class
 description: Represents a device that can use media to store and retrieve data.
-ms.assetid: 'd8e43c9b-0729-4fa2-855a-1b86c80f5eda'
-keywords: ["CIM_MediaAccessDevice class Hyper-V", "CIM_MediaAccessDevice class Hyper-V , described"]
+ms.assetid: d8e43c9b-0729-4fa2-855a-1b86c80f5eda
+keywords:
+- CIM_MediaAccessDevice class Hyper-V
+- CIM_MediaAccessDevice class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -66,6 +68,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_MediaAccessDevice class
@@ -80,61 +87,61 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.6.0"), AMENDMENT]
 class CIM_MediaAccessDevice : CIM_LogicalDevice
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator;
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  string   ErrorMethodology;
-  string   CompressionMethod;
-  uint32   NumberOfMediaSupported;
-  uint64   MaxMediaSize;
-  uint64   DefaultBlockSize;
-  uint64   MaxBlockSize;
-  uint64   MinBlockSize;
-  boolean  NeedsCleaning;
-  boolean  MediaIsLocked;
-  uint16   Security;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator;
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  string   ErrorMethodology;
+  string   CompressionMethod;
+  uint32   NumberOfMediaSupported;
+  uint64   MaxMediaSize;
+  uint64   DefaultBlockSize;
+  uint64   MaxBlockSize;
+  uint64   MinBlockSize;
+  boolean  NeedsCleaning;
+  boolean  MediaIsLocked;
+  uint16   Security;
   datetime LastCleaned;
-  uint64   MaxAccessTime;
-  uint32   UncompressedDataRate;
-  uint64   LoadTime;
-  uint64   UnloadTime;
-  uint64   MountCount;
+  uint64   MaxAccessTime;
+  uint32   UncompressedDataRate;
+  uint64   LoadTime;
+  uint64   UnloadTime;
+  uint64   MountCount;
   datetime TimeOfLastMount;
-  uint64   TotalMountTime;
-  string   UnitsDescription;
-  uint64   MaxUnitsBeforeCleaning;
-  uint64   UnitsUsed;
+  uint64   TotalMountTime;
+  string   UnitsDescription;
+  uint64   MaxUnitsBeforeCleaning;
+  uint64   UnitsUsed;
 };
 ```
 
@@ -165,7 +172,7 @@ The **CIM\_MediaAccessDevice** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -520,9 +527,9 @@ The name of the algorithm or tool used by the device to support compression.
 
 If a compression type is not specified, one of the following values can be used:
 
--   "Unknown" — compression support is unknown or not specified.
--   "Compressed" — compression is supported but the type is unknown or unspecified.
--   "Not Compressed" — the device does not support compression capabilities.
+-   "Unknown"   compression support is unknown or not specified.
+-   "Compressed"   compression is supported but the type is unknown or unspecified.
+-   "Not Compressed"   the device does not support compression capabilities.
 
 </dd> <dt>
 
@@ -672,14 +679,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1201,7 +1208,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 
 This property is deprecated and should not be used.
 
-**Deprecated description:** The maximum time in milliseconds, that a device can remain in a temporarily disabled state (**Availability** and **AdditionalAvailability** properties set to "21" — quiescent ). A value of "0" indicates that the logical device can remain in a temporarily disabled state indefinitely.
+**Deprecated description:** The maximum time in milliseconds, that a device can remain in a temporarily disabled state (**Availability** and **AdditionalAvailability** properties set to "21"   quiescent ). A value of "0" indicates that the logical device can remain in a temporarily disabled state indefinitely.
 
 This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
@@ -1300,7 +1307,7 @@ Access type: Read-only
 > [!Note]  
 > The **Capabilities** property indicates whether manual or automatic cleaning is possible.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1334,7 +1341,7 @@ Contains indicators of the current status of the element. The first value of the
 > [!Note]  
 > The **OperationalStatus** property replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, we strongly recommend that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status**, because it is a single-valued property, should also provide the primary status of the element.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1645,7 +1652,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("CIM\
 
 This property is deprecated. Instead, use the **PowerManagementCapabilities** class.
 
-**Deprecated description:  true** if the logical device can be power managed; otherwise, **false**.
+**Deprecated description:  true** if the logical device can be power managed; otherwise, **false**.
 
 This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
@@ -1686,7 +1693,7 @@ Indicates the last requested state for the element. The current state is indicat
 > [!Note]  
 > When the value of the **EnabledState** property is **Not Applicable**, this property has no meaning.
 
- 
+ 
 
 This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md).
 
@@ -1936,7 +1943,7 @@ Indicates the primary status of the object.
 > [!Note]  
 > This property is deprecated. It is replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility, it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -2146,9 +2153,9 @@ The time it takes, in milliseconds, for the device to transition from reading or
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -2161,9 +2168,9 @@ The time it takes, in milliseconds, for the device to transition from reading or
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

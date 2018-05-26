@@ -1,8 +1,10 @@
 ---
 title: HTTPMAILPOST structure
 description: Contains the response information for the CommandPOST, CommandPUT, and SendMessage methods.
-ms.assetid: 'a0deca93-ed85-4787-9813-2be773ac20d0'
-keywords: ["HTTPMAILPOST structure Windows Mail (formerly Outlook Express)", "LPHTTPMAILPOST structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: a0deca93-ed85-4787-9813-2be773ac20d0
+keywords:
+- HTTPMAILPOST structure Windows Mail (formerly Outlook Express)
+- LPHTTPMAILPOST structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTPMAILPOST structure
@@ -25,7 +32,7 @@ Contains the response information for the [**CommandPOST**](oe-ihttpmailtranspor
 ```C++
 typedef struct tagHTTPMAILPOST {
   LPSTR pszLocation;
-  BOOL  fResend;
+  BOOL  fResend;
   DWORD cbIncrement;
   DWORD cbCurrent;
   DWORD cbTotal;
@@ -99,17 +106,17 @@ Contains a **DWORD** that contains the size in bytes of the entire response.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

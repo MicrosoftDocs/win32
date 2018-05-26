@@ -1,7 +1,12 @@
 ---
 title: How to Apply Multiple Transforms to an Object
 description: Shows how to apply multiple transforms to an object.
-ms.assetid: 'a3875072-bb73-4698-944e-102ab5539d80'
+ms.assetid: a3875072-bb73-4698-944e-102ab5539d80
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Apply Multiple Transforms to an Object

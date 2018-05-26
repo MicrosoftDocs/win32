@@ -1,7 +1,12 @@
 ---
 title: How to Create an Internet Explorer-Style Menu Bar
 description: At first glance, the menu bar in Microsoft Internet Explorer 5 and later looks similar to a standard menu. However, it looks quite different when you begin using it.
-ms.assetid: 'e0fe25f2-3d49-4c5a-a3f9-2f468f2cfef2'
+ms.assetid: e0fe25f2-3d49-4c5a-a3f9-2f468f2cfef2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create an Internet Explorer-Style Menu Bar
@@ -42,7 +47,7 @@ To make a toolbar into a menu bar:
 
 -   Create a flat toolbar by including [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md#tbstyle-flat) with the other window style flags. The **TBSTYLE\_FLAT** style also enables hot-tracking. With this style, the menu bar looks much like a standard menu until the user activates a button. Then, the button appears to stand out from the toolbar and depress when it is clicked, just like a standard button. Because hot-tracking is enabled, all that is needed to activate a button is for the cursor to hover over it. If the cursor moves to another button, it will be activated and the old button deactivated.
 -   Create list-style buttons by including [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md#tbstyle-list) with the other window style flags. This style creates a thinner button that looks more like a standard top-level menu item.
--   Make the buttons text-only by setting the **iBitmap** member of the button's [**TBBUTTON**](tbbutton.md) structure to I\_IMAGENONE and the **iString** member to the button text.
+-   Make the buttons text-only by setting the **iBitmap** member of the button's [**TBBUTTON**](/windows/win32/Commctrl/ns-commctrl-_tbbutton?branch=master) structure to I\_IMAGENONE and the **iString** member to the button text.
 -   Give each button the [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md#btns-dropdown) style. When the button is clicked, the toolbar control sends your application a [TBN\_DROPDOWN](tbn-dropdown.md) notification to prompt it to display the button's menu.
 -   Incorporate the menu bar into a rebar band. Enable both grippers and chevrons, as discussed in [How to Create an Internet Explorer-Style Toolbar](cc-faq-ietoolbar.md).
 -   Implement a [TBN\_DROPDOWN](tbn-dropdown.md) handler to display the button's *drop-down menu* when it is clicked. The drop-down menu is a type of pop-up menu. It is created by using the [**TrackPopupMenu**](https://msdn.microsoft.com/library/windows/desktop/ms648002) function, with its upper-left corner aligned with the lower-left corner of the button.

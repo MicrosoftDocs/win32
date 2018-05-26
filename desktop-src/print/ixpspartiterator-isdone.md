@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IsDone method determines whether the iterator has finished the iteration.'
-ms.assetid: '80877e8e-378f-4849-a8ce-b0651fdc2755'
-title: 'IXpsPartIterator::IsDone method'
+---
+Description: The IsDone method determines whether the iterator has finished the iteration.
+ms.assetid: 80877e8e-378f-4849-a8ce-b0651fdc2755
+title: IXpsPartIteratorIsDone method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsPartIterator::IsDone method

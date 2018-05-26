@@ -2,13 +2,15 @@
 title: DnsServerTrustPoint class
 description: Retrieves settings for a trust point on a DNS server.
 audience: developer
-ms.assetid: '317aa5f3-41f4-4037-8b86-a47f61b96c91'
-ms.prod: 'windows-server-dev'
+ms.assetid: 317aa5f3-41f4-4037-8b86-a47f61b96c91
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerTrustPoint class", "DnsServerTrustPoint class, described"]
+keywords:
+- DnsServerTrustPoint class
+- DnsServerTrustPoint class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerTrustPoint class
@@ -38,13 +43,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerTrustPoint
 {
-  string   TrustPointName;
-  string   TrustPointState;
+  string   TrustPointName;
+  string   TrustPointState;
   datetime LastActiveRefreshTime;
   datetime NextActiveRefreshTime;
   datetime LastSuccessfulActiveRefreshTime;
-  uint32   LastActiveRefreshResult;
-  string   LastActiveRefreshResultDescription;
+  uint32   LastActiveRefreshResult;
+  string   LastActiveRefreshResultDescription;
 };
 ```
 
@@ -218,7 +223,7 @@ The possible values are.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -232,9 +237,9 @@ The possible values are.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

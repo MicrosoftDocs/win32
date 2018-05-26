@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Media Type Conversions
-ms.assetid: '6aee18b8-79b1-47fb-816f-d1c2c77b3a03'
+ms.assetid: 6aee18b8-79b1-47fb-816f-d1c2c77b3a03
 title: Media Type Conversions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Type Conversions
@@ -33,35 +38,35 @@ The following functions initialize a Media Foundation media type from a format s
 These structures are equivalent.
 </blockquote>
 <br/> <br/></td>
-<td>[<strong>MFInitMediaTypeFromAMMediaType</strong>](mfinitmediatypefromammediatype.md)</td>
+<td>[<strong>MFInitMediaTypeFromAMMediaType</strong>](/windows/win32/mfapi/nf-mfapi-mfinitmediatypefromammediatype?branch=master)</td>
 </tr>
 <tr class="even">
 <td>[<strong>BITMAPINFOHEADER</strong>](dshow.bitmapinfoheader)</td>
-<td>[<strong>MFCreateVideoMediaTypeFromBitMapInfoHeaderEx</strong>](mfcreatevideomediatypefrombitmapinfoheaderex.md)</td>
+<td>[<strong>MFCreateVideoMediaTypeFromBitMapInfoHeaderEx</strong>](/windows/win32/mfapi/nf-mfapi-mfcreatevideomediatypefrombitmapinfoheaderex?branch=master)</td>
 </tr>
 <tr class="odd">
-<td>[<strong>MFVIDEOFORMAT</strong>](mfvideoformat.md)</td>
-<td>[<strong>MFInitMediaTypeFromMFVideoFormat</strong>](mfinitmediatypefrommfvideoformat.md)</td>
+<td>[<strong>MFVIDEOFORMAT</strong>](/windows/win32/mfobjects/ns-mfobjects-_mfvideoformat?branch=master)</td>
+<td>[<strong>MFInitMediaTypeFromMFVideoFormat</strong>](/windows/win32/mfapi/nf-mfapi-mfinitmediatypefrommfvideoformat?branch=master)</td>
 </tr>
 <tr class="even">
 <td>[<strong>MPEG1VIDEOINFO</strong>](dshow.mpeg1videoinfo)</td>
-<td>[<strong>MFInitMediaTypeFromMPEG1VideoInfo</strong>](mfinitmediatypefrommpeg1videoinfo.md)</td>
+<td>[<strong>MFInitMediaTypeFromMPEG1VideoInfo</strong>](/windows/win32/mfapi/nf-mfapi-mfinitmediatypefrommpeg1videoinfo?branch=master)</td>
 </tr>
 <tr class="odd">
 <td>[<strong>MPEG2VIDEOINFO</strong>](dshow.mpeg2videoinfo)</td>
-<td>[<strong>MFInitMediaTypeFromMPEG2VideoInfo</strong>](mfinitmediatypefrommpeg2videoinfo.md)</td>
+<td>[<strong>MFInitMediaTypeFromMPEG2VideoInfo</strong>](/windows/win32/mfapi/nf-mfapi-mfinitmediatypefrommpeg2videoinfo?branch=master)</td>
 </tr>
 <tr class="even">
 <td>[<strong>VIDEOINFOHEADER2</strong>](dshow.videoinfoheader2)</td>
-<td>[<strong>MFInitMediaTypeFromVideoInfoHeader2</strong>](mfinitmediatypefromvideoinfoheader2.md)</td>
+<td>[<strong>MFInitMediaTypeFromVideoInfoHeader2</strong>](/windows/win32/mfapi/nf-mfapi-mfinitmediatypefromvideoinfoheader2?branch=master)</td>
 </tr>
 <tr class="odd">
 <td>[<strong>VIDEOINFOHEADER</strong>](dshow.videoinfoheader)</td>
-<td>[<strong>MFInitMediaTypeFromVideoInfoHeader</strong>](mfinitmediatypefromvideoinfoheader.md)</td>
+<td>[<strong>MFInitMediaTypeFromVideoInfoHeader</strong>](/windows/win32/mfapi/nf-mfapi-mfinitmediatypefromvideoinfoheader?branch=master)</td>
 </tr>
 <tr class="even">
 <td>[<strong>WAVEFORMATEX</strong>](dshow.waveformatex) or [<strong>WAVEFORMATEXTENSIBLE</strong>](dshow.waveformatextensible)</td>
-<td>[<strong>MFInitMediaTypeFromWaveFormatEx</strong>](mfinitmediatypefromwaveformatex.md)</td>
+<td>[<strong>MFInitMediaTypeFromWaveFormatEx</strong>](/windows/win32/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex?branch=master)</td>
 </tr>
 </tbody>
 </table>
@@ -78,11 +83,11 @@ The following functions create or initialize a format structure from a Media Fou
 
 | Function                                                                             | Target Structure                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IMFMediaType::GetRepresentation**](imfmediatype-getrepresentation.md)            | [**AM\_MEDIA\_TYPE**](dshow.am_media_type), [**MFVIDEOFORMAT**](mfvideoformat.md), [**VIDEOINFOHEADER**](dshow.videoinfoheader), or [**VIDEOINFOHEADER2**](dshow.videoinfoheader2) |
-| [**MFCreateAMMediaTypeFromMFMediaType**](mfcreateammediatypefrommfmediatype.md)     | [**AM\_MEDIA\_TYPE**](dshow.am_media_type)                                                                                                                                          |
-| [**MFCreateMFVideoFormatFromMFMediaType**](mfcreatemfvideoformatfrommfmediatype.md) | [**MFVIDEOFORMAT**](mfvideoformat.md)                                                                                                                                              |
-| [**MFCreateWaveFormatExFromMFMediaType**](mfcreatewaveformatexfrommfmediatype.md)   | [**WAVEFORMATEX**](dshow.waveformatex) or [**WAVEFORMATEXTENSIBLE**](dshow.waveformatextensible)                                                                                    |
-| [**MFInitAMMediaTypeFromMFMediaType**](mfinitammediatypefrommfmediatype.md)         | [**AM\_MEDIA\_TYPE**](dshow.am_media_type)                                                                                                                                          |
+| [**IMFMediaType::GetRepresentation**](/windows/win32/mfobjects/nf-mfobjects-imfmediatype-getrepresentation?branch=master)            | [**AM\_MEDIA\_TYPE**](dshow.am_media_type), [**MFVIDEOFORMAT**](/windows/win32/mfobjects/ns-mfobjects-_mfvideoformat?branch=master), [**VIDEOINFOHEADER**](dshow.videoinfoheader), or [**VIDEOINFOHEADER2**](dshow.videoinfoheader2) |
+| [**MFCreateAMMediaTypeFromMFMediaType**](/windows/win32/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype?branch=master)     | [**AM\_MEDIA\_TYPE**](dshow.am_media_type)                                                                                                                                          |
+| [**MFCreateMFVideoFormatFromMFMediaType**](/windows/win32/mfapi/nf-mfapi-mfcreatemfvideoformatfrommfmediatype?branch=master) | [**MFVIDEOFORMAT**](/windows/win32/mfobjects/ns-mfobjects-_mfvideoformat?branch=master)                                                                                                                                              |
+| [**MFCreateWaveFormatExFromMFMediaType**](/windows/win32/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype?branch=master)   | [**WAVEFORMATEX**](dshow.waveformatex) or [**WAVEFORMATEXTENSIBLE**](dshow.waveformatextensible)                                                                                    |
+| [**MFInitAMMediaTypeFromMFMediaType**](/windows/win32/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype?branch=master)         | [**AM\_MEDIA\_TYPE**](dshow.am_media_type)                                                                                                                                          |
 
 
 
@@ -136,7 +141,7 @@ The following tables list the Media Foundation attributes that correspond to var
 |------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **dwBitRate**                                  | [**MF\_MT\_AVG\_BITRATE**](mf-mt-avg-bitrate-attribute.md)                                                                                                                                                                                      |
 | **dwBitErrorRate**                             | [**MF\_MT\_AVG\_BIT\_ERROR\_RATE**](mf-mt-avg-bit-error-rate-attribute.md)                                                                                                                                                                      |
-| **AvgTimePerFrame**                            | [**MF\_MT\_FRAME\_RATE**](mf-mt-frame-rate-attribute.md); use [**MFAverageTimePerFrameToFrameRate**](mfaveragetimeperframetoframerate.md) to calculate this value.                                                                             |
+| **AvgTimePerFrame**                            | [**MF\_MT\_FRAME\_RATE**](mf-mt-frame-rate-attribute.md); use [**MFAverageTimePerFrameToFrameRate**](/windows/win32/mfapi/nf-mfapi-mfaveragetimeperframetoframerate?branch=master) to calculate this value.                                                                             |
 | **dwInterlaceFlags**                           | [**MF\_MT\_INTERLACE\_MODE**](mf-mt-interlace-mode-attribute.md)                                                                                                                                                                                |
 | **dwCopyProtectFlags**                         | No defined equivalent                                                                                                                                                                                                                            |
 | **dwPictAspectRatioX**, **dwPictAspectRatioY** | [**MF\_MT\_PIXEL\_ASPECT\_RATIO**](mf-mt-pixel-aspect-ratio-attribute.md); must convert from picture aspect ratio to picture aspect ratio.                                                                                                      |

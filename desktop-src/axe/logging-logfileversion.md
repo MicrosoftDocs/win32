@@ -1,8 +1,11 @@
 ---
 title: Logging LogFileVersion method
-description: Writes the four-part version number of an executable to Axe’s pre-configured ETW file.
-ms.assetid: '1d07d13e-cc49-40d3-a323-803d56ab2fb7'
-keywords: ["LogFileVersion method Access Execution Engine", "LogFileVersion method Access Execution Engine , Logging interface", "Logging interface Access Execution Engine , LogFileVersion method"]
+description: Writes the four-part version number of an executable to Axe s pre-configured ETW file.
+ms.assetid: 1d07d13e-cc49-40d3-a323-803d56ab2fb7
+keywords:
+- LogFileVersion method Access Execution Engine
+- LogFileVersion method Access Execution Engine , Logging interface
+- Logging interface Access Execution Engine , LogFileVersion method
 topic_type:
 - apiref
 api_name:
@@ -11,20 +14,25 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Logging::LogFileVersion method
 
-Writes the four-part version number of an executable to Axe’s pre-configured ETW file.
+Writes the four-part version number of an executable to Axe s pre-configured ETW file.
 
 ## Syntax
 
 
 ```C++
 virtual HRESULT LogFileVersion(
-  [in, optional] LPCWSTR message,
-  [in]           LPCWSTR fileName,
-  [in, optional] LPCWSTR extraInformation
+  [in, optional] LPCWSTR message,
+  [in]           LPCWSTR fileName,
+  [in, optional] LPCWSTR extraInformation
 ) = 0;
 ```
 
@@ -76,8 +84,8 @@ Managed code uses the [**Logging.LogFileVersion**](axe-logging_logfileversion_om
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>AxeCore.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl> |
 
@@ -90,9 +98,9 @@ Managed code uses the [**Logging.LogFileVersion**](axe-logging_logfileversion_om
 [**Logging**](logging.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

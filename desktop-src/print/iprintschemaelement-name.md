@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the base value of the &\#0034;name&\#0034; attribute of this node.'
-ms.assetid: '025DC5A0-4462-487E-9C5B-0FE359DAD41C'
-title: 'IPrintSchemaElement::Name property'
+---
+Description: Gets the base value of the &\#0034;name&\#0034; attribute of this node.
+ms.assetid: 025DC5A0-4462-487E-9C5B-0FE359DAD41C
+title: IPrintSchemaElementName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaElement::Name property

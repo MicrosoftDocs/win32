@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a75660e7-d417-46ba-8222-bc827ebb5d75'
-title: 'System.IsFlaggedComplete'
+Description: .
+ms.assetid: a75660e7-d417-46ba-8222-bc827ebb5d75
+title: System.IsFlaggedComplete
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.IsFlaggedComplete

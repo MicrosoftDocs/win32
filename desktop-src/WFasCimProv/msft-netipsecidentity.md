@@ -1,7 +1,12 @@
 ---
-Description: 'An identity used by IPsec.'
-ms.assetid: '64ba4a6f-abc8-4cc7-912d-730f80b8c7b4'
-title: 'MSFT\_NetIPsecIdentity class'
+Description: An identity used by IPsec.
+ms.assetid: 64ba4a6f-abc8-4cc7-912d-730f80b8c7b4
+title: MSFT\_NetIPsecIdentity class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetIPsecIdentity class
@@ -92,17 +97,17 @@ ImpersonationType
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

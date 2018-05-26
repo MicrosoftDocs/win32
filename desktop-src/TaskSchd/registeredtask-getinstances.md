@@ -1,8 +1,11 @@
 ---
 title: RegisteredTask.GetInstances method
 description: For scripting, returns all currently running instances of the registered task.
-ms.assetid: '4634851e-e868-4915-a7da-32a39f405974'
-keywords: ["GetInstances method Task Scheduler", "GetInstances method Task Scheduler , RegisteredTask object", "RegisteredTask object Task Scheduler , GetInstances method"]
+ms.assetid: 4634851e-e868-4915-a7da-32a39f405974
+keywords:
+- GetInstances method Task Scheduler
+- GetInstances method Task Scheduler , RegisteredTask object
+- RegisteredTask object Task Scheduler , GetInstances method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisteredTask.GetInstances method
@@ -20,7 +28,7 @@ For scripting, returns all currently running instances of the registered task.
 > [!Note]  
 > **RegisteredTask.GetInstances** will only return instances of the currently running registered task that are running at or below a user's security context. For example, for members of the Administrators group, **GetInstances** will return all instances of the currently running registered task, but for members of the Users group, **GetInstances** will only return instances of the currently running registered task that are running under the Users group security context.
 
- 
+ 
 
 ## Syntax
 
@@ -62,8 +70,8 @@ This method does not return a value.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -79,9 +87,9 @@ This method does not return a value.
 [**RegisteredTask**](registeredtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

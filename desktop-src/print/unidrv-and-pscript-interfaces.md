@@ -1,7 +1,12 @@
 ---
 Description: Unidrv and Pscript Interfaces
-ms.assetid: '476b464a-3803-4cc5-aa94-018b1a45bd6d'
+ms.assetid: 476b464a-3803-4cc5-aa94-018b1a45bd6d
 title: Unidrv and Pscript Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unidrv and Pscript Interfaces

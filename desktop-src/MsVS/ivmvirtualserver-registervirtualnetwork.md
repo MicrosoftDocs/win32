@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer RegisterVirtualNetwork method
 description: The RegisterVirtualNetwork method registers an existing virtual network configuration and returns the virtual network object.
-ms.assetid: '003f7df9-1256-4fbc-8bce-2faf6b6c12d1'
-keywords: ["RegisterVirtualNetwork method Virtual Server", "RegisterVirtualNetwork method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , RegisterVirtualNetwork method"]
+ms.assetid: 003f7df9-1256-4fbc-8bce-2faf6b6c12d1
+keywords:
+- RegisterVirtualNetwork method Virtual Server
+- RegisterVirtualNetwork method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , RegisterVirtualNetwork method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::RegisterVirtualNetwork method
@@ -22,9 +30,9 @@ The **RegisterVirtualNetwork** method registers an existing virtual network conf
 
 ```C++
 HRESULT RegisterVirtualNetwork(
-  [in]  BSTR              virtualNetworkName,
-  [in]  BSTR              virtualNetworkPath,
-  [out] IVMVirtualNetwork **virtualNetwork
+  [in]  BSTR              virtualNetworkName,
+  [in]  BSTR              virtualNetworkPath,
+  [out] IVMVirtualNetwork **virtualNetwork
 );
 ```
 
@@ -77,7 +85,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -89,8 +97,8 @@ The name must be unique with respect to the names of any existing virtual networ
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -102,9 +110,9 @@ The name must be unique with respect to the names of any existing virtual networ
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

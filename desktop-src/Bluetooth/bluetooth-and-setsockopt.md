@@ -1,8 +1,16 @@
 ---
 title: Bluetooth and setsockopt
 description: Bluetooth uses the setsockopt function to set various parameters associated with the server channel or the connection.
-ms.assetid: 'ab78baed-5556-4d7b-88a6-e3ceb93afa8c'
-keywords: ["Bluetooth", "setsockopt", "Bluetooth and setsockopt"]
+ms.assetid: ab78baed-5556-4d7b-88a6-e3ceb93afa8c
+keywords:
+- Bluetooth
+- setsockopt
+- Bluetooth and setsockopt
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and setsockopt

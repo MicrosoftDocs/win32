@@ -1,14 +1,19 @@
-﻿---
-Description: 'The FileHash method of the Installer Object takes the path to a file and returns a 128-bit hash of that file. The file hash information is returned as a Record Object. The entire 128-bit file hash is returned as four 32-bit IntegerData property fields.'
-ms.assetid: '065ffde1-4d7c-4e71-9315-7926d4cd38ed'
-title: 'Installer.FileHash method'
+---
+Description: The FileHash method of the Installer Object takes the path to a file and returns a 128-bit hash of that file. The file hash information is returned as a Record Object. The entire 128-bit file hash is returned as four 32-bit IntegerData property fields.
+ms.assetid: 065ffde1-4d7c-4e71-9315-7926d4cd38ed
+title: Installer.FileHash method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.FileHash method
 
 The **FileHash** method of the [**Installer Object**](installer-object.md) takes the path to a file and returns a 128-bit hash of that file. The file hash information is returned as a [**Record Object**](record-object.md). The entire 128-bit file hash is returned as four 32-bit [**IntegerData**](record-integerdata.md) property fields.
 
-The values returned in the [**Record Object**](record-object.md) correspond to the four fields of the [**MSIFILEHASHINFO**](msifilehashinfo.md) structure returned by [**MsiGetFileHash**](msigetfilehash.md). The numbering of four fields is 1-based in the [MsiFileHash Table](msifilehash-table.md).
+The values returned in the [**Record Object**](record-object.md) correspond to the four fields of the [**MSIFILEHASHINFO**](/windows/win32/Msi/ns-msi-_msifilehashinfo?branch=master) structure returned by [**MsiGetFileHash**](/windows/win32/Msi/nf-msi-msigetfilehasha?branch=master). The numbering of four fields is 1-based in the [MsiFileHash Table](msifilehash-table.md).
 
 -   Field 1 corresponds to the HashPart1 column.
 -   Field 2 corresponds to the HashPart2 column.
@@ -76,7 +81,7 @@ If successful, this method returns a [**Record Object**](record-object.md) that 
 [MsiFileHash Table](msifilehash-table.md)
 </dt> <dt>
 
-[**MsiGetFileHash**](msigetfilehash.md)
+[**MsiGetFileHash**](/windows/win32/Msi/nf-msi-msigetfilehasha?branch=master)
 </dt> </dl>
 
  

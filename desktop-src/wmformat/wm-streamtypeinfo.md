@@ -1,14 +1,20 @@
 ---
 title: WM/StreamTypeInfo
 description: The WM/StreamTypeInfo attribute contains the configuration information for the specified stream in the ASF file.
-ms.assetid: '4d7f18d4-d76d-4e2e-b8a9-eb96844a2fa1'
-keywords: ["WM/StreamTypeInfo windows Media Format"]
+ms.assetid: 4d7f18d4-d76d-4e2e-b8a9-eb96844a2fa1
+keywords:
+- WM/StreamTypeInfo windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/StreamTypeInfo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/StreamTypeInfo
@@ -21,7 +27,7 @@ g\_wszWMStreamTypeInfo
 
 ## Data Type
 
-[**WM\_STREAM\_TYPE\_INFO**](wm-stream-type-info.md) (**WMT\_TYPE\_BINARY**)
+[**WM\_STREAM\_TYPE\_INFO**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmstreamtypeinfo?branch=master) (**WMT\_TYPE\_BINARY**)
 
 ## Remarks
 

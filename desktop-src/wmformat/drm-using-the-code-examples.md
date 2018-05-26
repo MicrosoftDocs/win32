@@ -1,8 +1,20 @@
 ---
 title: Using the Code Examples
 description: Using the Code Examples
-ms.assetid: '75db2663-9eb8-406d-b1a9-8f6092c95f9d'
-keywords: ["Windows Media Format SDK,code examples", "Windows Media Format SDK,example code", "Windows Media Format SDK,DRM code examples", "digital rights management (DRM),code examples", "DRM (digital rights management),code examples", "digital rights management (DRM),example code", "DRM (digital rights management),example code"]
+ms.assetid: 75db2663-9eb8-406d-b1a9-8f6092c95f9d
+keywords:
+- Windows Media Format SDK,code examples
+- Windows Media Format SDK,example code
+- Windows Media Format SDK,DRM code examples
+- digital rights management (DRM),code examples
+- DRM (digital rights management),code examples
+- digital rights management (DRM),example code
+- DRM (digital rights management),example code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Code Examples

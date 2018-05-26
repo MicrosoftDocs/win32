@@ -1,7 +1,12 @@
 ---
-Description: 'A concrete superclass for CIM alert notifications.'
-ms.assetid: 'ec4cf41d-decd-4f21-b805-90db4a61376d'
-title: 'CIM\_AlertIndication class'
+Description: A concrete superclass for CIM alert notifications.
+ms.assetid: ec4cf41d-decd-4f21-b805-90db4a61376d
+title: CIM\_AlertIndication class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_AlertIndication class
@@ -14,26 +19,26 @@ A concrete superclass for CIM alert notifications. **CIM\_AlertIndication** is a
 [Indication, Version("2.22.0"), UMLPackagePath("CIM::Event"), AMENDMENT]
 class CIM_AlertIndication : CIM_ProcessIndication
 {
-  string   Description;
-  string   AlertingManagedElement;
-  uint16   AlertingElementFormat = 0;
-  string   OtherAlertingElementFormat;
-  uint16   AlertType;
-  string   OtherAlertType;
-  uint16   PerceivedSeverity;
-  uint16   ProbableCause;
-  string   ProbableCauseDescription;
-  uint16   Trending;
-  string   RecommendedActions[];
-  string   EventID;
+  string   Description;
+  string   AlertingManagedElement;
+  uint16   AlertingElementFormat = 0;
+  string   OtherAlertingElementFormat;
+  uint16   AlertType;
+  string   OtherAlertType;
+  uint16   PerceivedSeverity;
+  uint16   ProbableCause;
+  string   ProbableCauseDescription;
+  uint16   Trending;
+  string   RecommendedActions[];
+  string   EventID;
   datetime EventTime;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   ProviderName;
-  string   Message;
-  string   MessageArguments[];
-  string   MessageID;
-  string   OwningEntity;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   ProviderName;
+  string   Message;
+  string   MessageArguments[];
+  string   MessageID;
+  string   OwningEntity;
 };
 ```
 
@@ -1543,8 +1548,8 @@ Provides information on trending - trending up, down or no change.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1558,9 +1563,9 @@ Provides information on trending - trending up, down or no change.
 [**CIM\_ProcessIndication**](cim-processindication.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

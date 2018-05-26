@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the Direct3D enumerated types.'
-ms.assetid: 'ae64eb17-63a8-44c5-8d41-e021c49f338a'
+---
+Description: This section describes the Direct3D enumerated types.
+ms.assetid: ae64eb17-63a8-44c5-8d41-e021c49f338a
 title: Direct3D Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D Enumerations

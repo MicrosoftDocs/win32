@@ -1,7 +1,7 @@
 ---
 title: Change Info Identifiers
 description: This topic describes the named constants used to identify Microsoft UI Automation change information.
-ms.assetid: '583A1FA3-68E5-419E-8E38-2B239928FF75'
+ms.assetid: 583A1FA3-68E5-419E-8E38-2B239928FF75
 topic_type:
 - apiref
 api_name:
@@ -10,6 +10,11 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Change Info Identifiers
@@ -37,15 +42,15 @@ A string describing the meaning of the change from an application point of view.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                            |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                            |
 | Header<br/>                   | <dl> <dt>UIAutomationClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: AgeAllRecords method of the MicrosoftDNS\_Zone class
 description: The AgeAllRecords method enables aging for some or all non-NS and non-SOA records in a zone.
-ms.assetid: '0e0df1ab-6c7c-4bc4-b292-8f89095970eb'
-keywords: ["AgeAllRecords method DNS", "AgeAllRecords method DNS , MicrosoftDNS_Zone class", "MicrosoftDNS_Zone class DNS , AgeAllRecords method"]
+ms.assetid: 0e0df1ab-6c7c-4bc4-b292-8f89095970eb
+keywords:
+- AgeAllRecords method DNS
+- AgeAllRecords method DNS , MicrosoftDNS_Zone class
+- MicrosoftDNS_Zone class DNS , AgeAllRecords method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AgeAllRecords method of the MicrosoftDNS\_Zone class
@@ -22,8 +30,8 @@ The **AgeAllRecords** method enables aging for some or all non-NS and non-SOA re
 
 ```mof
 uint32 AgeAllRecords(
-  [in, optional] string  NodeName,
-  [in, optional] boolean ApplyToSubtree
+  [in, optional] string  NodeName,
+  [in, optional] boolean ApplyToSubtree
 );
 ```
 
@@ -66,7 +74,7 @@ If *NodeName* is specified and *ApplyToSubtree* is set to 1, all records of the 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -109,9 +117,9 @@ If *NodeName* is specified and *ApplyToSubtree* is set to 1, all records of the 
 [**WriteBackZone Method of the MicrosoftDNS\_Zone Class**](microsoftdns-zone-writebackzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

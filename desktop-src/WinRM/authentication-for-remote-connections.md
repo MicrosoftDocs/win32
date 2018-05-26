@@ -4,10 +4,13 @@ description: Windows Remote Management maintains security for communication betw
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '97a13b07-ae7a-4d2f-8841-77a22c91b204'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 97a13b07-ae7a-4d2f-8841-77a22c91b204
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Authentication for Remote Connections
@@ -24,7 +27,7 @@ The default credentials, user name, and password, are the credentials for the lo
 
 **To change to another account on a remote computer**
 
-1.  Specify the credentials in a [**ConnectionOptions**](connectionoptions.md) or [**IWSManConnectionOptions**](iwsmanconnectionoptions.md) object and supply that to the [**CreateSession**](wsman-createsession.md) call.
+1.  Specify the credentials in a [**ConnectionOptions**](connectionoptions.md) or [**IWSManConnectionOptions**](/windows/win32/WSManDisp/nn-wsmandisp-iwsmanconnectionoptions?branch=master) object and supply that to the [**CreateSession**](wsman-createsession.md) call.
 2.  Set the **WSManFlagCredUserNamePassword** in the *flags* parameter in the [**CreateSession**](wsman-createsession.md) call.
 
 The following list contains a list of what occurs when a script or application runs under the default credentials:
@@ -56,7 +59,7 @@ To explicitly establish [*Negotiate*](windows-remote-management-glossary.md#winr
 
 ## Kerberos Authentication
 
-To explicitly establish [*Kerberos*](windows-remote-management-glossary.md#winrm-gloss-kerberos-authentication) authentication in the call to [**WSMan.CreateSession**](wsman-createsession.md), set the **WSManFlagUseKerberos** flag in the *flags* parameter. Both the client and the server computers must be joined to a domain. If you use Kerberos as the authentication method, you cannot use an IP address in the call to [**WSMan.CreateSession**](wsman-createsession.md) or [**IWSMan::CreateSession**](iwsman-createsession.md).
+To explicitly establish [*Kerberos*](windows-remote-management-glossary.md#winrm-gloss-kerberos-authentication) authentication in the call to [**WSMan.CreateSession**](wsman-createsession.md), set the **WSManFlagUseKerberos** flag in the *flags* parameter. Both the client and the server computers must be joined to a domain. If you use Kerberos as the authentication method, you cannot use an IP address in the call to [**WSMan.CreateSession**](wsman-createsession.md) or [**IWSMan::CreateSession**](/windows/win32/WSManDisp/nf-wsmandisp-iwsman-createsession?branch=master).
 
 ## Client Certificate-based Authentication
 

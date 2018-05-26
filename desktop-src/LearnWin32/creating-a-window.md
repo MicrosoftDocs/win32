@@ -1,7 +1,12 @@
 ---
 title: Creating a Window
 description: .
-ms.assetid: 'e036519f-26b5-436c-b909-bb280d758e81'
+ms.assetid: e036519f-26b5-436c-b909-bb280d758e81
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Window

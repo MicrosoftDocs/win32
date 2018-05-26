@@ -1,7 +1,12 @@
 ---
 title: Programming Guide for DDS
 description: Direct3D implements the DDS file format for storing uncompressed or compressed (DXTn) textures.
-ms.assetid: '39f9847e-3b1c-4401-a253-74c183ffcc83'
+ms.assetid: 39f9847e-3b1c-4401-a253-74c183ffcc83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide for DDS
@@ -84,7 +89,7 @@ The D3DX library (for example, D3DX11.lib) and other similar libraries unreliabl
 > [!Note]  
 > The pitch value that you calculate does not always equal the pitch that the runtime supplies, which is DWORD-aligned in some situations and byte-aligned in other situations. Therefore, we recommend that you copy a scan line at a time rather than try to copy the whole image in one copy.
 
- 
+ 
 
 ## DDS Variants
 
@@ -144,7 +149,7 @@ for (int iArrayElement = 0; iArrayElement < header10.arraySize; iArrayElement++)
 
 
 
- 
+ 
 
 
 
@@ -176,7 +181,7 @@ for (int iArrayElement = 0; iArrayElement < header10.arraySize; iArrayElement++)
 
 
 
- 
+ 
 
 \* = A robust DDS reader must be able to handle these legacy format codes. However, such a DDS reader should prefer to use the "DX10" header extension when it writes these format codes to avoid ambiguity.
 
@@ -189,9 +194,9 @@ for (int iArrayElement = 0; iArrayElement < header10.arraySize; iArrayElement++)
 [DDS](dx-graphics-dds.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,16 @@ description: The Count property returns the number of Node objects that are in t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4f6a4276-4ba1-4a0d-8c26-d53231d77837'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4f6a4276-4ba1-4a0d-8c26-d53231d77837
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Count property MMC", "Count property MMC , Nodes object", "Nodes object MMC , Count property", "Count property MMC , Nodes interface", "Nodes interface MMC , Count property"]
+keywords:
+- Count property MMC
+- Count property MMC , Nodes object
+- Nodes object MMC , Count property
+- Count property MMC , Nodes interface
+- Nodes interface MMC , Count property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Nodes::Count property
@@ -55,8 +63,8 @@ MsgBox ("Number of Node objects: " & nCount)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -71,9 +79,9 @@ MsgBox ("Number of Node objects: " & nCount)
 [**Nodes.Item**](nodes-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

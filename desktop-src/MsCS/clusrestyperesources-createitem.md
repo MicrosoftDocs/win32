@@ -4,11 +4,14 @@ description: Creates a resource in the cluster and adds it to the ClusResTypeRes
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '215482f4-4357-462b-bf67-109cc36e22b7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 215482f4-4357-462b-bf67-109cc36e22b7
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CreateItem method Failover Cluster", "CreateItem method Failover Cluster , ClusResTypeResources class", "ClusResTypeResources class Failover Cluster , CreateItem method"]
+keywords:
+- CreateItem method Failover Cluster
+- CreateItem method Failover Cluster , ClusResTypeResources class
+- ClusResTypeResources class Failover Cluster , CreateItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResTypeResources.CreateItem method
@@ -59,7 +65,7 @@ ClusResTypeResources.CreateItem( _
 *lFlag* 
 </dt> <dd>
 
-**Long** indicating how to create the resource. *Flag* can be set to one of the following values enumerated from the [**CLUSTER\_RESOURCE\_CREATE\_FLAGS**](cluster-resource-create-flags.md) enumeration.
+**Long** indicating how to create the resource. *Flag* can be set to one of the following values enumerated from the [**CLUSTER\_RESOURCE\_CREATE\_FLAGS**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_resource_create_flags?branch=master) enumeration.
 
 <dt>
 
@@ -96,7 +102,7 @@ A [**ClusResource**](clusresource-object.md) object that receives the newly adde
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                 |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                 |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>       |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>     |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>     |
@@ -115,9 +121,9 @@ A [**ClusResource**](clusresource-object.md) object that receives the newly adde
 [**ClusResTypeResources**](clusrestyperesources-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

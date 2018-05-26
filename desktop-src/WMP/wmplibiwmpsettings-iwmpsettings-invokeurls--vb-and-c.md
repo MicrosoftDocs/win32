@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings invokeURLs property
 description: The invokeURLs property gets or sets a value indicating whether URL events should launch a Web browser.
-ms.assetid: 'e16c968d-a1b7-4c3a-9c1a-5748ed44cdac'
-keywords: ["invokeURLs property Windows Media Player", "invokeURLs property Windows Media Player , IWMPSettings interface", "IWMPSettings interface Windows Media Player , invokeURLs property"]
+ms.assetid: e16c968d-a1b7-4c3a-9c1a-5748ed44cdac
+keywords:
+- invokeURLs property Windows Media Player
+- invokeURLs property Windows Media Player , IWMPSettings interface
+- IWMPSettings interface Windows Media Player , invokeURLs property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings::invokeURLs property
@@ -74,9 +82,9 @@ Digital media files and streams can contain URL script commands. When a URL scri
 [**IWMPSettings Interface (VB and C#)**](iwmpsettings--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

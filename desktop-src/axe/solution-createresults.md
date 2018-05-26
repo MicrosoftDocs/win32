@@ -1,14 +1,20 @@
 ---
 title: Solution CreateResults methods
 description: Create a JobResults object from a results file.
-ms.assetid: 'A1E3B857-C66F-4068-B5EE-79FB0A2D79CE'
-keywords: ["CreateResults methods Access Execution Engine"]
+ms.assetid: A1E3B857-C66F-4068-B5EE-79FB0A2D79CE
+keywords:
+- CreateResults methods Access Execution Engine
 topic_type:
 - apiref
 api_location:
 - AxeCore.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Solution::CreateResults methods
@@ -32,8 +38,8 @@ Create a [**JobResults**](jobresults.md) object from a results file.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>AxeCore.lib</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
@@ -47,9 +53,9 @@ Create a [**JobResults**](jobresults.md) object from a results file.
 [**Solution**](solution-inf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

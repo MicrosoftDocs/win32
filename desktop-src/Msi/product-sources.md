@@ -1,12 +1,17 @@
-﻿---
-Description: 'The Sources property enumerates all the sources for the product instance.'
-ms.assetid: '26602099-d0e0-4269-91d9-82943859811a'
-title: 'Product.Sources property'
+---
+Description: The Sources property enumerates all the sources for the product instance.
+ms.assetid: 26602099-d0e0-4269-91d9-82943859811a
+title: Product.Sources property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product.Sources property
 
-The **Sources** property enumerates all the sources for the product instance. This property calls [**MsiSourceListEnumSources**](msisourcelistenumsources.md) and returns the array of strings, and accepts the source type as argument. The source type can be MSISOURCETYPE\_NETWORK or MSISOURCETYPE\_URL.
+The **Sources** property enumerates all the sources for the product instance. This property calls [**MsiSourceListEnumSources**](/windows/win32/Msi/nf-msi-msisourcelistenumsourcesa?branch=master) and returns the array of strings, and accepts the source type as argument. The source type can be MSISOURCETYPE\_NETWORK or MSISOURCETYPE\_URL.
 
 This property is read-only.
 
@@ -42,7 +47,7 @@ The type of source to enumerate. The value can be *msiInstallSourceTypeNetwork* 
 [**Product**](product-object.md)
 </dt> <dt>
 
-[**MsiSourceListEnumSources**](msisourcelistenumsources.md)
+[**MsiSourceListEnumSources**](/windows/win32/Msi/nf-msi-msisourcelistenumsourcesa?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

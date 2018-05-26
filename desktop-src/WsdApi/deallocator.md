@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the type of deallocator to be used by a stub function.'
-ms.assetid: '58228dfd-1d4b-41e5-b423-a54525021c22'
+Description: Specifies the type of deallocator to be used by a stub function.
+ms.assetid: 58228dfd-1d4b-41e5-b423-a54525021c22
 title: deallocator element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # deallocator element
@@ -50,14 +55,14 @@ The deallocator type should be enclosed in a pair of &lt;deallocator&gt;&lt;/dea
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

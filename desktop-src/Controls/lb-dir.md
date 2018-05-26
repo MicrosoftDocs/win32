@@ -1,8 +1,9 @@
 ---
 title: LB\_DIR message
 description: Adds names to the list displayed by a list box. The message adds the names of directories and files that match a specified string and set of file attributes. LB\_DIR can also add mapped drive letters to the list box.
-ms.assetid: '5ec134e9-fe42-4cc0-bdea-fa5e66c218f6'
-keywords: ["LB_DIR message Windows Controls"]
+ms.assetid: 5ec134e9-fe42-4cc0-bdea-fa5e66c218f6
+keywords:
+- LB_DIR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_DIR message
@@ -41,7 +47,7 @@ The attributes of the files or directories to be added to the list box. This par
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,8 +82,8 @@ For an ANSI application, the system converts the text in a list box to Unicode u
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -86,12 +92,12 @@ For an ANSI application, the system converts the text in a list box to Unicode u
 
 <dl> <dt>
 
-[**DlgDirList**](dlgdirlist.md)
+[**DlgDirList**](/windows/win32/Winuser/nf-winuser-dlgdirlista?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: NVMe Structures
 description: This sections describes structures that are used for non-volatile memory (NVMe) storage device operations.
-ms.assetid: 'E3FA2159-6038-4300-B576-84863527475C'
+ms.assetid: E3FA2159-6038-4300-B576-84863527475C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NVMe Structures

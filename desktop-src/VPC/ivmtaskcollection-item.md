@@ -1,8 +1,11 @@
 ---
 title: IVMTaskCollection Item property
 description: Retrieves the task object that corresponds to the specified index.
-ms.assetid: 'e4738b7a-12d6-4aed-992d-2f70c5cdd4d0'
-keywords: ["Item property Virtual PC", "Item property Virtual PC , IVMTaskCollection interface", "IVMTaskCollection interface Virtual PC , Item property"]
+ms.assetid: e4738b7a-12d6-4aed-992d-2f70c5cdd4d0
+keywords:
+- Item property Virtual PC
+- Item property Virtual PC , IVMTaskCollection interface
+- IVMTaskCollection interface Virtual PC , Item property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTaskCollection::Item property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the task object that corresponds to the specified index.
 
@@ -27,8 +35,8 @@ This property is read-only.
 
 ```C++
 HRESULT get_Item(
-  [in]          long    index,
-  [out, retval] IVMTask **task
+  [in]          long    index,
+  [out, retval] IVMTask **task
 );
 ```
 
@@ -57,9 +65,9 @@ The [**IVMTask**](ivmtask.md) object.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMTaskCollection is defined as 5c4387c8-0e8b-4b97-8058-84679adf4c40<br/>          |
@@ -76,9 +84,9 @@ The [**IVMTask**](ivmtask.md) object.
 [**IVMTaskCollection**](ivmtaskcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

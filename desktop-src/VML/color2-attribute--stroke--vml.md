@@ -1,7 +1,12 @@
 ---
 title: Color2 Attribute (Stroke)(VML)
 description: Color2 Attribute (Stroke)(VML)
-ms.assetid: '60b8035e-9477-4f8b-817b-dd6c41bdfa79'
+ms.assetid: 60b8035e-9477-4f8b-817b-dd6c41bdfa79
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color2 Attribute (Stroke)(VML)

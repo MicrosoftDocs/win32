@@ -4,11 +4,14 @@ description: Sets a MultiPoint station to an idle state, due inactive input devi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '812a59e4-46ac-4ad9-89b3-c1ad19bbd580'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 812a59e4-46ac-4ad9-89b3-c1ad19bbd580
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["EnterIdleState method", "EnterIdleState method, IWmsStationPresenter2 interface", "IWmsStationPresenter2 interface, EnterIdleState method"]
+keywords:
+- EnterIdleState method
+- EnterIdleState method, IWmsStationPresenter2 interface
+- IWmsStationPresenter2 interface, EnterIdleState method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IWmsStationPresenter2::EnterIdleState method
@@ -49,7 +55,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 
 
@@ -61,9 +67,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IWmsStationPresenter2**](iwmsstationpresenter2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Transforms the 2D vector normal by the given matrix.'
-ms.assetid: 'fc238bb1-155f-4018-9c92-16352726920d'
+---
+Description: Transforms the 2D vector normal by the given matrix.
+ms.assetid: fc238bb1-155f-4018-9c92-16352726920d
 title: D3DXVec2TransformNormal function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec2TransformNormal function

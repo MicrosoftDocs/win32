@@ -4,10 +4,13 @@ description: In MMC 2.0, a significant advantage to using a user mode console is
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'da632889-eb1a-421d-a466-39f768760e7d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: da632889-eb1a-421d-a466-39f768760e7d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Console File and User Mode Changes

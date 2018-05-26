@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '254A1C0D-B24B-4014-8D15-662FC7F2AB81'
+Description: .
+ms.assetid: 254A1C0D-B24B-4014-8D15-662FC7F2AB81
 title: Use the Meta Tag to Ensure Future Compatibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use the Meta Tag to Ensure Future Compatibility

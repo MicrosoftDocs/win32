@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets information about the operating system version.'
-ms.assetid: '1af2c320-6e0b-4692-858b-a2c921ed7ce7'
+---
+Description: Gets information about the operating system version.
+ms.assetid: 1af2c320-6e0b-4692-858b-a2c921ed7ce7
 title: '\_GetVersionEx function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_GetVersionEx function

@@ -1,7 +1,12 @@
 ---
 title: Using Descriptor Tables
 description: Descriptor tables, each identifying a range in a descriptor heap, are bound at slots defined by the current root signature on a command list.
-ms.assetid: '4ECEC07A-7ABC-4C5F-B23C-36F0D92643FE'
+ms.assetid: 4ECEC07A-7ABC-4C5F-B23C-36F0D92643FE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Descriptor Tables

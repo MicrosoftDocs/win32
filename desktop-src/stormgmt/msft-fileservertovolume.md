@@ -1,8 +1,10 @@
 ---
 title: MSFT\_FileServerToVolume class
 description: Association between MSFT\_FileServer and eligible MSFT\_Volume objects for file shares.
-ms.assetid: 'B59D8A8D-6CDC-4D3C-AE7F-AA1F8A433364'
-keywords: ["MSFT_FileServerToVolume class Windows Storage Management API", "MSFT_FileServerToVolume class Windows Storage Management API , described"]
+ms.assetid: B59D8A8D-6CDC-4D3C-AE7F-AA1F8A433364
+keywords:
+- MSFT_FileServerToVolume class Windows Storage Management API
+- MSFT_FileServerToVolume class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_FileServerToVolume class
@@ -28,7 +35,7 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 class MSFT_FileServerToVolume
 {
   MSFT_FileServer REF FileServer;
-  MSFT_Volume     REF Volume;
+  MSFT_Volume     REF Volume;
 };
 ```
 
@@ -78,8 +85,8 @@ Qualifiers: **Key**
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -95,9 +102,9 @@ Qualifiers: **Key**
 [**MSFT\_Volume**](msft-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

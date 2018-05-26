@@ -1,8 +1,10 @@
 ---
 title: PROPINFOMASK enumeration
 description: Do not use. Specifies the validity of a member of the MIMEPROPINFO structure.
-ms.assetid: 'ab81f4f9-57f7-4736-87f4-d415fc33ea52'
-keywords: ["PROPINFOMASK enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: ab81f4f9-57f7-4736-87f4-d415fc33ea52
+keywords:
+- PROPINFOMASK enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROPINFOMASK enumeration
@@ -22,14 +29,14 @@ Do not use. Specifies the validity of a member of the [**MIMEPROPINFO**](oe-mime
 
 ```C++
 typedef enum tagPROPINFOMASK { 
-  PIM_CHARSET       = 0x00000001,
-  PIM_ENCODINGTYPE  = 0x00000002,
-  PIM_ROWNUMBER     = 0x00000004,
-  PIM_FLAGS         = 0x00000008,
-  PIM_PROPID        = 0x00000010,
-  PIM_VALUES        = 0x00000020,
-  PIM_VTDEFAULT     = 0x00000040,
-  PIM_VTCURRENT     = 0x00000080
+  PIM_CHARSET       = 0x00000001,
+  PIM_ENCODINGTYPE  = 0x00000002,
+  PIM_ROWNUMBER     = 0x00000004,
+  PIM_FLAGS         = 0x00000008,
+  PIM_PROPID        = 0x00000010,
+  PIM_VALUES        = 0x00000020,
+  PIM_VTDEFAULT     = 0x00000040,
+  PIM_VTCURRENT     = 0x00000080
 } ACCESSTYPE;
 ```
 
@@ -101,17 +108,17 @@ Indicates that **vtCurrent** is valid.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Association between iSCSITarget and iSCSITargetPortal.'
-ms.assetid: '1066A33B-8D4B-4D8A-973B-BDAA14B441CF'
-title: 'MSFT\_iSCSITargetToiSCSITargetPortal class'
+---
+Description: Association between iSCSITarget and iSCSITargetPortal.
+ms.assetid: 1066A33B-8D4B-4D8A-973B-BDAA14B441CF
+title: MSFT\_iSCSITargetToiSCSITargetPortal class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_iSCSITargetToiSCSITargetPortal class

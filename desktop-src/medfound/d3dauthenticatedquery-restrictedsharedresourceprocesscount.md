@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the number of processes that are allowed to open shared resources with restricted access.'
-ms.assetid: 'e1b9ef18-fd08-4639-9ba9-4bccd33f5d16'
-title: 'D3DAUTHENTICATEDQUERY\_RESTRICTEDSHAREDRESOURCEPROCESSCOUNT'
+---
+Description: Returns the number of processes that are allowed to open shared resources with restricted access.
+ms.assetid: e1b9ef18-fd08-4639-9ba9-4bccd33f5d16
+title: D3DAUTHENTICATEDQUERY\_RESTRICTEDSHAREDRESOURCEPROCESSCOUNT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDQUERY\_RESTRICTEDSHAREDRESOURCEPROCESSCOUNT
@@ -49,7 +54,7 @@ The following channel types support this query:
 [GPU-Based Content Protection](gpu-based-content-protection.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md)
+[**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master)
 </dt> </dl>
 
  

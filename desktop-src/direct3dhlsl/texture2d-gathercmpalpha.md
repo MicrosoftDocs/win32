@@ -1,12 +1,18 @@
 ---
 title: Texture2D GatherCmpAlpha methods
 description: Samples and compares a Texture2D and returns the alpha component.
-ms.assetid: '6fa60604-1eac-405d-bffa-3055569b7a09'
-keywords: ["GatherCmpAlpha methods HLSL"]
+ms.assetid: 6fa60604-1eac-405d-bffa-3055569b7a09
+keywords:
+- GatherCmpAlpha methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2D::GatherCmpAlpha methods
@@ -33,9 +39,9 @@ Samples and compares a [**Texture2D**](sm5-object-texture2d.md) and returns the 
 [Texture2D](sm5-object-texture2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

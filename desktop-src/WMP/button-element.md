@@ -1,8 +1,18 @@
 ---
 title: BUTTON Element
 description: BUTTON Element
-ms.assetid: '2818ff6a-4fc5-4150-9ff9-ff143feb9204'
-keywords: ["Windows Media Player skins,BUTTON element", "skins,BUTTON element", "BUTTON element", "reference for skins,BUTTON element", "elements,BUTTON"]
+ms.assetid: 2818ff6a-4fc5-4150-9ff9-ff143feb9204
+keywords:
+- Windows Media Player skins,BUTTON element
+- skins,BUTTON element
+- BUTTON element
+- reference for skins,BUTTON element
+- elements,BUTTON
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTON Element

@@ -1,13 +1,16 @@
 ---
-Description: 'A namespace object path describes the location of a particular namespace on a server. A namespace object path contains server and namespace elements, and is formatted using either forward or backward slashes.'
+Description: A namespace object path describes the location of a particular namespace on a server. A namespace object path contains server and namespace elements, and is formatted using either forward or backward slashes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6d8da19e-0914-4267-870e-c203176b895e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6d8da19e-0914-4267-870e-c203176b895e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Describing a WMI Namespace Object Path
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Describing a WMI Namespace Object Path

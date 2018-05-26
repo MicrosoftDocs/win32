@@ -1,8 +1,11 @@
 ---
 title: IDatabase ModifyIndex method
 description: Will create or modify an index in the database.
-ms.assetid: 'deda7090-c5e6-4817-8ca0-ac7e864da706'
-keywords: ["ModifyIndex method Windows Mail (formerly Outlook Express)", "ModifyIndex method Windows Mail (formerly Outlook Express) , IDatabase interface", "IDatabase interface Windows Mail (formerly Outlook Express) , ModifyIndex method"]
+ms.assetid: deda7090-c5e6-4817-8ca0-ac7e864da706
+keywords:
+- ModifyIndex method Windows Mail (formerly Outlook Express)
+- ModifyIndex method Windows Mail (formerly Outlook Express) , IDatabase interface
+- IDatabase interface Windows Mail (formerly Outlook Express) , ModifyIndex method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabase::ModifyIndex method
@@ -24,9 +32,9 @@ Will create or modify an index in the database.
 
 ```C++
 HRESULT ModifyIndex(
-  [in] INDEXORDINAL iIndex,
-  [in] LPCSTR       ppszFilter,
-  [in] LPTABLEINDEX pIndex
+  [in] INDEXORDINAL iIndex,
+  [in] LPCSTR       ppszFilter,
+  [in] LPTABLEINDEX pIndex
 );
 ```
 
@@ -78,7 +86,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,17 +94,17 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

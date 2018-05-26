@@ -1,14 +1,20 @@
 ---
 title: MediaType Attribute
 description: The MediaType attribute is the type of content in the item.
-ms.assetid: '0d8a6937-32d8-4a4a-87e5-0002f077fefe'
-keywords: ["MediaType Attribute Windows Media Player"]
+ms.assetid: 0d8a6937-32d8-4a4a-87e5-0002f077fefe
+keywords:
+- MediaType Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - MediaType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaType Attribute
@@ -52,9 +58,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**MediaCollection.getByAttribute**](mediacollection-getbyattribute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

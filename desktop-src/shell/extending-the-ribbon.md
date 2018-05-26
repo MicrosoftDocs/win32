@@ -1,6 +1,11 @@
 ---
-Description: 'Learn how to extend the Windows Explorer Ribbon.'
+Description: Learn how to extend the Windows Explorer Ribbon.
 title: Extending the Ribbon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extending the Ribbon
@@ -17,7 +22,7 @@ This document describes how you can opt-in to get the Ribbon, and how to registe
 
 ## Opting in to the Ribbon
 
-To opt in to the Ribbon, your [**IShellFolder2**](ishellfolder2.md) implementation should specify **EP\_Ribbon** in [**IExplorerPaneVisibility::GetPaneState**](iexplorerpanevisibility-getpanestate.md) and return **EPS\_FORCE** \| **EPS\_DEFAULT\_ON**.
+To opt in to the Ribbon, your [**IShellFolder2**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellfolder2?branch=master) implementation should specify **EP\_Ribbon** in [**IExplorerPaneVisibility::GetPaneState**](/windows/win32/shobjidl_core/nf-shobjidl_core-iexplorerpanevisibility-getpanestate?branch=master) and return **EPS\_FORCE** \| **EPS\_DEFAULT\_ON**.
 
 ## Extending the Ribbon for File Extensions
 

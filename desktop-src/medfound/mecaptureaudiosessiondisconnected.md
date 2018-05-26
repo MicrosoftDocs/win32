@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent by an audio capture source when the audio dession is disconnected because the user logged off from a Windows Terminal Services (WTS) session.'
-ms.assetid: '88B24E79-FEB8-46AF-9A6C-3FB426089584'
+---
+Description: Sent by an audio capture source when the audio dession is disconnected because the user logged off from a Windows Terminal Services (WTS) session.
+ms.assetid: 88B24E79-FEB8-46AF-9A6C-3FB426089584
 title: MECaptureAudioSessionDisconnected event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MECaptureAudioSessionDisconnected event
@@ -10,7 +15,7 @@ Sent by an audio capture source when the audio dession is disconnected because t
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

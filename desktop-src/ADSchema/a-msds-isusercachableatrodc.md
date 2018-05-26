@@ -1,20 +1,25 @@
 ---
 title: ms-DS-Is-User-Cachable-At-Rodc attribute
-description: For a Read-Only Domain Controller (RODC), identifies whether the specified user's secrets can be cached.
+description: For a Read-Only Domain Controller (RODC), identifies whether the specified users secrets can be cached.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1118d0a9-2219-478a-82b0-8ea4bbeae47d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 1118d0a9-2219-478a-82b0-8ea4bbeae47d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Is-User-Cachable-At-Rodc attribute AD Schema", "msDS-IsUserCachableAtRodc attribute AD Schema"]
+keywords:
+- ms-DS-Is-User-Cachable-At-Rodc attribute AD Schema
+- msDS-IsUserCachableAtRodc attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Is-User-Cachable-At-Rodc
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Is-User-Cachable-At-Rodc attribute
@@ -38,9 +43,9 @@ For a Read-Only Domain Controller (RODC), identifies whether the specified user'
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ For a Read-Only Domain Controller (RODC), identifies whether the specified user'
 
 
 
- 
+ 
 
- 
+ 
 
 
 

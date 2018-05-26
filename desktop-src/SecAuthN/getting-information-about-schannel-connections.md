@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics describe the functions that return information on specified Schannel credentials and the security context securing a client/server connection.'
-ms.assetid: 'c30f0176-bb73-40b6-9be1-0d2334bbf830'
+Description: The following topics describe the functions that return information on specified Schannel credentials and the security context securing a client/server connection.
+ms.assetid: c30f0176-bb73-40b6-9be1-0d2334bbf830
 title: Getting Information About Schannel Connections
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Information About Schannel Connections
@@ -17,11 +22,11 @@ The following topics describe the functions that return information on specified
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

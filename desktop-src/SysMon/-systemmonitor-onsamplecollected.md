@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.OnSampleCollected event
 description: Notifies you when sample values for the counters have been collected.
-ms.assetid: 'ff9744bf-bb21-4b82-8cac-5b87baed80b5'
-keywords: ["OnSampleCollected event SysMon", "OnSampleCollected event SysMon , SystemMonitor class", "SystemMonitor class SysMon , OnSampleCollected event"]
+ms.assetid: ff9744bf-bb21-4b82-8cac-5b87baed80b5
+keywords:
+- OnSampleCollected event SysMon
+- OnSampleCollected event SysMon , SystemMonitor class
+- SystemMonitor class SysMon , OnSampleCollected event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.OnSampleCollected event
@@ -40,8 +48,8 @@ This event does not return a value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -59,9 +67,9 @@ This event does not return a value.
 [**SystemMonitor.UpdateGraph**](systemmonitor-updategraph.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

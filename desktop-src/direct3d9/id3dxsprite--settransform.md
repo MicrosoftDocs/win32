@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the sprite transform.'
-ms.assetid: '87dfc169-b647-4a96-897d-abbe765ea9e2'
-title: 'ID3DXSprite::SetTransform method'
+---
+Description: Sets the sprite transform.
+ms.assetid: 87dfc169-b647-4a96-897d-abbe765ea9e2
+title: ID3DXSpriteSetTransform method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSprite::SetTransform method

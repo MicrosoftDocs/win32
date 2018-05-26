@@ -1,8 +1,9 @@
 ---
 title: MpErrorMessageFormat function
 description: Returns a formatted error message based on an error code.
-ms.assetid: 'C125FCE4-3BB0-4608-BBF3-E7FEF17D0807'
-keywords: ["MpErrorMessageFormat function Legacy Windows Environment Features"]
+ms.assetid: C125FCE4-3BB0-4608-BBF3-E7FEF17D0807
+keywords:
+- MpErrorMessageFormat function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpErrorMessageFormat function
@@ -22,9 +28,9 @@ Returns a formatted error message based on an error code.
 
 ```C++
 HRESULT WINAPI MpErrorMessageFormat(
-  _In_  MPHANDLE hMpHandle,
-  _In_  HRESULT  hrError,
-  _Out_ LPWSTR   *pwszErrorDesc
+  _In_  MPHANDLE hMpHandle,
+  _In_  HRESULT  hrError,
+  _Out_ LPWSTR   *pwszErrorDesc
 );
 ```
 
@@ -88,7 +94,7 @@ This function is capable of formatting system error codes in addition to specifi
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -96,8 +102,8 @@ This function is capable of formatting system error codes in addition to specifi
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -116,9 +122,9 @@ This function is capable of formatting system error codes in addition to specifi
 [Forefront Client Security anti-malware engine error codes](http://support.microsoft.com/kb/939359)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

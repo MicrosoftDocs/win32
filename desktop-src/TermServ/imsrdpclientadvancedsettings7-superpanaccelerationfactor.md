@@ -4,11 +4,16 @@ description: Specifies or retrieves a value that indicates the SuperPan accelera
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ce04f109-8a48-48ee-a553-728f12c09dde'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ce04f109-8a48-48ee-a553-728f12c09dde
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SuperPanAccelerationFactor property Remote Desktop Services", "SuperPanAccelerationFactor property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , SuperPanAccelerationFactor property", "SuperPanAccelerationFactor property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , SuperPanAccelerationFactor property"]
+keywords:
+- SuperPanAccelerationFactor property Remote Desktop Services
+- SuperPanAccelerationFactor property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , SuperPanAccelerationFactor property
+- SuperPanAccelerationFactor property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , SuperPanAccelerationFactor property
 topic_type:
 - apiref
 api_name:
@@ -22,6 +27,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings7::SuperPanAccelerationFactor property
@@ -35,11 +43,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_SuperPanAccelerationFactor(
-  [in]          ULONG uAccelFactor
+  [in]          ULONG uAccelFactor
 );
 
 HRESULT get_SuperPanAccelerationFactor(
-  [out, retval] ULONG *puAccelFactor
+  [out, retval] ULONG *puAccelFactor
 );
 ```
 
@@ -59,8 +67,8 @@ For more information about SuperPan, see [**EnableSuperPan**](imsrdpclientadvanc
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
+| Minimum supported client<br/> | Windows 7<br/>                                                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings7 is defined as 26036036-4010-4578-8091-0db9a1edf9c3<br/> |
@@ -80,9 +88,9 @@ For more information about SuperPan, see [**EnableSuperPan**](imsrdpclientadvanc
 [**EnableSuperPan**](imsrdpclientadvancedsettings7-enablesuperpan.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

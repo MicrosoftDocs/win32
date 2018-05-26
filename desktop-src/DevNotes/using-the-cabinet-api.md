@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'facbcbee-46c2-4fb5-85f9-5d08244dcf86'
+ms.assetid: facbcbee-46c2-4fb5-85f9-5d08244dcf86
 title: Using the Cabinet API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Cabinet API

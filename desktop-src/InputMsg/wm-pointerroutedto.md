@@ -1,8 +1,9 @@
 ---
 title: WM\_POINTERROUTEDTO message
 description: Sent when ongoing pointer input, for an existing pointer ID, transitions from one process to another across content configured for cross-process chaining (AddContentWithCrossProcessChaining).
-ms.assetid: '163E2C31-4E29-4CBA-B079-1963D4762D7B'
-keywords: ["WM_POINTERROUTEDTO message Input Messages and Notifications"]
+ms.assetid: 163E2C31-4E29-4CBA-B079-1963D4762D7B
+keywords:
+- WM_POINTERROUTEDTO message Input Messages and Notifications
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_POINTERROUTEDTO message
@@ -60,8 +66,8 @@ A [**WM\_POINTERDOWN**](wm-pointerdown.md) message is not sent if a **WM\_POINTE
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ A [**WM\_POINTERDOWN**](wm-pointerdown.md) message is not sent if a **WM\_POINTE
 [**WM\_POINTERROUTEDAWAY**](wm-pointerroutedaway.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

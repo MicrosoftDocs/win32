@@ -1,8 +1,13 @@
 ---
 title: IVMDVDDrive SetBusLocation method
 description: The SetBusLocation method attaches the DVD drive to the specified bus location in the virtual machine.
-ms.assetid: '291bcdd4-f593-4521-9d35-76361033573d'
-keywords: ["SetBusLocation method Virtual Server", "SetBusLocation method Virtual Server , IVMDVDDrive interface", "IVMDVDDrive interface Virtual Server , SetBusLocation method", "SetBusLocation method Virtual Server , VMDVDDrive interface", "VMDVDDrive interface Virtual Server , SetBusLocation method"]
+ms.assetid: 291bcdd4-f593-4521-9d35-76361033573d
+keywords:
+- SetBusLocation method Virtual Server
+- SetBusLocation method Virtual Server , IVMDVDDrive interface
+- IVMDVDDrive interface Virtual Server , SetBusLocation method
+- SetBusLocation method Virtual Server , VMDVDDrive interface
+- VMDVDDrive interface Virtual Server , SetBusLocation method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDrive::SetBusLocation method
@@ -23,9 +33,9 @@ The **SetBusLocation** method attaches the DVD drive to the specified bus locati
 
 ```C++
 HRESULT SetBusLocation(
-  [in] VMDriveBusType busType,
-  [in] long           busNumber,
-  [in] long           deviceNumber
+  [in] VMDriveBusType busType,
+  [in] long           busNumber,
+  [in] long           deviceNumber
 );
 ```
 
@@ -76,7 +86,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,8 +98,8 @@ Virtual Server does not support attaching a DVD drive to a SCSI bus. A **E\_INVA
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -104,9 +114,9 @@ Virtual Server does not support attaching a DVD drive to a SCSI bus. A **E\_INVA
 [**VMDriveBusType**](vmdrivebustype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

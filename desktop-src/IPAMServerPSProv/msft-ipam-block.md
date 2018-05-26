@@ -1,15 +1,18 @@
 ---
-Description: 'Represents and IP address block in IPAM.'
+Description: Represents and IP address block in IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0daf03c8-1abd-421d-aa01-e7ecd00e83b9'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0daf03c8-1abd-421d-aa01-e7ecd00e83b9
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_Block class'
+title: MSFT\_IPAM\_Block class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_Block class
@@ -24,28 +27,28 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Network::Collections"), ClassVersion("1.0.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_Block : CIM_RangeOfIPAddresses
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   StartAddress;
-  string   EndAddress;
-  uint16   AddressType;
-  string   InstanceID;
-  uint16   AddressCategory;
-  string   Rir;
-  string   NetworkId;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   StartAddress;
+  string   EndAddress;
+  uint16   AddressType;
+  string   InstanceID;
+  uint16   AddressCategory;
+  string   Rir;
+  string   NetworkId;
   datetime RirReceivedDate;
   datetime LastAssignedDate;
   datetime LastModifiedTime;
-  string   Owner;
-  uint16   Utilization;
-  uint64   TotalAddresses;
-  uint64   AssignedAddresses;
-  uint64   UtilizedAddresses;
-  real32   PercentageUtilized;
-  real32   PercentageAssigned;
-  string   AccessScopePath;
-  boolean  IsInheritedAccessScope;
+  string   Owner;
+  uint16   Utilization;
+  uint64   TotalAddresses;
+  uint64   AssignedAddresses;
+  uint64   UtilizedAddresses;
+  real32   PercentageUtilized;
+  real32   PercentageAssigned;
+  string   AccessScopePath;
+  boolean  IsInheritedAccessScope;
 };
 ```
 
@@ -68,7 +71,7 @@ The **MSFT\_IPAM\_Block** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -87,7 +90,7 @@ Access type: Read-only
 
 Access scope path for this block.
 
-**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -274,7 +277,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 </dd> <dt>
 
@@ -289,7 +292,7 @@ Access type: Read-only
 
 Whether the access scope for this block is inherited from parent.
 
-**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -385,7 +388,7 @@ The Regional Internet Registries (RIR) for public IP addresses.
 > [!Note]  
 > This property is required for a public address block.
 
- 
+ 
 
 The possible values are.
 
@@ -422,7 +425,7 @@ Latin America and Caribbean Network Information Centre (LACNIC)
 RIPE
 </dt> <dd>
 
-Réseaux IP Européens Network Coordination Centre (RIPE NCC)
+R seaux IP Europ ens Network Coordination Centre (RIPE NCC)
 
 </dd> </dl>
 
@@ -537,7 +540,7 @@ The number of used IP addresses in the address block.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | RootMicrosoftIPAM<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -554,9 +557,9 @@ The number of used IP addresses in the address block.
 [IPAM Server WMI Provider Reference](ipam-server-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

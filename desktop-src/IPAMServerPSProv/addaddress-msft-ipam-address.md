@@ -1,15 +1,18 @@
 ---
-Description: 'Adds a new IP Address to IPAM.'
+Description: Adds a new IP Address to IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7bc81f20-a2ad-45ac-8400-2c8b0c951655'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7bc81f20-a2ad-45ac-8400-2c8b0c951655
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'AddAddress method of the MSFT\_IPAM\_Address class'
+title: AddAddress method of the MSFT\_IPAM\_Address class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddAddress method of the MSFT\_IPAM\_Address class
@@ -21,35 +24,35 @@ Adds a new IP Address to IPAM.
 
 ```mof
 uint32 AddAddress(
-  [in]  string            Address,
-  [in]  uint16            NetworkType,
-  [in]  string            AddressSpace,
-  [in]  string            ManagedByService,
-  [in]  string            ServiceInstance,
-  [in]  string            DeviceType = Host,
-  [in]  string            IPAddressState,
-  [in]  uint16            AssignmentType = Static,
-  [in]  string            MacAddress,
-  [in]  datetime          AssignmentDate,
-  [in]  datetime          ExpiryDate,
-  [in]  string            Description,
-  [in]  string            Owner,
-  [in]  string            AssetTag,
-  [in]  string            SerialNumber,
-  [in]  string            ClientID,
-  [in]  string            Duid,
-  [in]  uint32            Iaid,
-  [in]  string            ReservationServer,
-  [in]  string            ReservationName,
-  [in]  uint16            ReservationType,
-  [in]  string            ReservationDescription,
-  [in]  string            DeviceName,
-  [in]  string            ForwardLookupZone,
-  [in]  string            ForwardLookupPrimaryServer,
-  [in]  string            ReverseLookupZone,
-  [in]  string            ReverseLookupPrimaryServer,
-  [in]  string            CustomConfiguration,
-  [out] MSFT_IPAM_Address OutputAddress
+  [in]  string            Address,
+  [in]  uint16            NetworkType,
+  [in]  string            AddressSpace,
+  [in]  string            ManagedByService,
+  [in]  string            ServiceInstance,
+  [in]  string            DeviceType = Host,
+  [in]  string            IPAddressState,
+  [in]  uint16            AssignmentType = Static,
+  [in]  string            MacAddress,
+  [in]  datetime          AssignmentDate,
+  [in]  datetime          ExpiryDate,
+  [in]  string            Description,
+  [in]  string            Owner,
+  [in]  string            AssetTag,
+  [in]  string            SerialNumber,
+  [in]  string            ClientID,
+  [in]  string            Duid,
+  [in]  uint32            Iaid,
+  [in]  string            ReservationServer,
+  [in]  string            ReservationName,
+  [in]  uint16            ReservationType,
+  [in]  string            ReservationDescription,
+  [in]  string            DeviceName,
+  [in]  string            ForwardLookupZone,
+  [in]  string            ForwardLookupPrimaryServer,
+  [in]  string            ReverseLookupZone,
+  [in]  string            ReverseLookupPrimaryServer,
+  [in]  string            CustomConfiguration,
+  [out] MSFT_IPAM_Address OutputAddress
 );
 ```
 
@@ -372,7 +375,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -386,9 +389,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_Address**](msft-ipam-address.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

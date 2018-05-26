@@ -1,14 +1,20 @@
 ---
 title: NetworkSettings (settingsType) Element
 description: Contains the settings that the Task Scheduler service uses to obtain a network profile. The Task Scheduler service checks the availability of this network when the RunOnlyIfNetworkAvailable element is set to True.
-ms.assetid: '7452b788-a170-4afe-abc5-ebcd3722da0d'
-keywords: ["NetworkSettings element Task Scheduler"]
+ms.assetid: 7452b788-a170-4afe-abc5-ebcd3722da0d
+keywords:
+- NetworkSettings element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - NetworkSettings
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetworkSettings (settingsType) Element
@@ -36,7 +42,7 @@ The **NetworkSettings** element is defined by the [**settingsType**](taskschedul
 
 ## Remarks
 
-For C++ development, see [**NetworkSettings Property of ITaskSettings**](itasksettings-networksettings.md).
+For C++ development, see [**NetworkSettings Property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_networksettings?branch=master).
 
 For script development, see [**TaskSettings.NetworkSettings**](tasksettings-networksettings.md).
 
@@ -46,14 +52,14 @@ For script development, see [**TaskSettings.NetworkSettings**](tasksettings-netw
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

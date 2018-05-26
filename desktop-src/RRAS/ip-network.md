@@ -1,8 +1,10 @@
 ---
 title: IP\_NETWORK structure
 description: The IP\_NETWORK structure describes an IP network address.
-ms.assetid: '5dcc733f-c86f-407e-8727-64f3ae71dd48'
-keywords: ["IP_NETWORK structure RAS", "PIP_NETWORK structure pointer RAS"]
+ms.assetid: 5dcc733f-c86f-407e-8727-64f3ae71dd48
+keywords:
+- IP_NETWORK structure RAS
+- PIP_NETWORK structure pointer RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IP\_NETWORK structure
@@ -56,8 +63,8 @@ Specifies the network mask. Apply this mask to the IP address in order to extrac
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
-| End of server support<br/>    | Windows Server 2003<br/>                                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| End of server support<br/>    | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl> |
 
 
@@ -75,9 +82,9 @@ Specifies the network mask. Apply this mask to the IP address in order to extrac
 [**RTM\_IP\_ROUTE**](rtm-ip-route.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

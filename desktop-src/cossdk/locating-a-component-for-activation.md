@@ -1,7 +1,12 @@
 ---
 Description: Locating a Component for Activation
-ms.assetid: '2ba9484a-c646-4a35-8b32-268fe7a9520f'
+ms.assetid: 2ba9484a-c646-4a35-8b32-268fe7a9520f
 title: Locating a Component for Activation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Locating a Component for Activation

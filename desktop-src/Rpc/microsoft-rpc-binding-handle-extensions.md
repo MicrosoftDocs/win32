@@ -1,7 +1,12 @@
 ---
 title: Microsoft RPC Binding-Handle Extensions
 description: The Microsoft extensions to the IDL language support multiple handle parameters that appear in positions other than the first, leftmost, parameter.
-ms.assetid: '084b0d8e-0c8a-43b9-b3ae-4f69cab3a2c2'
+ms.assetid: 084b0d8e-0c8a-43b9-b3ae-4f69cab3a2c2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft RPC Binding-Handle Extensions

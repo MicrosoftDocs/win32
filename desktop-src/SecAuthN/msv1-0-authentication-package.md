@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft provides the MSV1\_0 authentication package for local machine logons that do not require custom authentication.'
-ms.assetid: '8b85588d-0a79-43af-b526-7a5fc8248f99'
-title: 'MSV1\_0 Authentication Package'
+Description: Microsoft provides the MSV1\_0 authentication package for local machine logons that do not require custom authentication.
+ms.assetid: 8b85588d-0a79-43af-b526-7a5fc8248f99
+title: MSV1\_0 Authentication Package
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSV1\_0 Authentication Package

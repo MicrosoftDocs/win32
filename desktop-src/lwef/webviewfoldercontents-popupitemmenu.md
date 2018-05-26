@@ -1,8 +1,11 @@
 ---
 title: WebViewFolderContents.PopupItemMenu method
 description: Creates a shortcut menu for the specified item and returns the selected command string.
-ms.assetid: '3c07500c-2fe9-4976-a1a8-b128e75f9325'
-keywords: ["PopupItemMenu method Legacy Windows Environment Features", "PopupItemMenu method Legacy Windows Environment Features , WebViewFolderContents object", "WebViewFolderContents object Legacy Windows Environment Features , PopupItemMenu method"]
+ms.assetid: 3c07500c-2fe9-4976-a1a8-b128e75f9325
+keywords:
+- PopupItemMenu method Legacy Windows Environment Features
+- PopupItemMenu method Legacy Windows Environment Features , WebViewFolderContents object
+- WebViewFolderContents object Legacy Windows Environment Features , PopupItemMenu method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Shell32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WebViewFolderContents.PopupItemMenu method
@@ -111,17 +119,17 @@ The following example shows the proper use of **PopupItemMenu** for JScript embe
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
 | Header<br/>                   | <dl> <dt>Shldisp.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Shldisp.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 4.71 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

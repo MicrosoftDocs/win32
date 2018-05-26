@@ -1,8 +1,19 @@
 ---
 title: Windows Ribbon Framework Overviews
 description: The topics contained in this section explore the fundamentals of the Windows Ribbon framework.
-ms.assetid: 'b01b3ec0-11a6-47ff-9453-a5c4717dc0cb'
-keywords: ["Windows Ribbon,framework", "Ribbon,framework", "Windows Ribbon,about", "Ribbon,about", "Windows Ribbon,fundamentals", "Ribbon,fundamentals"]
+ms.assetid: b01b3ec0-11a6-47ff-9453-a5c4717dc0cb
+keywords:
+- Windows Ribbon,framework
+- Ribbon,framework
+- Windows Ribbon,about
+- Ribbon,about
+- Windows Ribbon,fundamentals
+- Ribbon,fundamentals
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Ribbon Framework Overviews
@@ -20,11 +31,11 @@ The topics contained in this section explore the fundamentals of the Windows Rib
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

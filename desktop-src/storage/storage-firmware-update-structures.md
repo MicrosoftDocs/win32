@@ -1,7 +1,12 @@
 ---
 title: Storage Firmware Update Structures
 description: This section describes structures that are associated with storage firmware update.
-ms.assetid: '8372791A-4B87-42AF-8B21-6509D7D7C888'
+ms.assetid: 8372791A-4B87-42AF-8B21-6509D7D7C888
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage Firmware Update Structures

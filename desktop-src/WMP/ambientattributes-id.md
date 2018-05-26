@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.id
 description: The id attribute specifies or retrieves the identifier of a control. This attribute will support any name permitted by Microsoft Visual Basic for Applications. Can only be set at design time.
-ms.assetid: 'a1e8d493-ac11-46a0-9b79-18270d188427'
-keywords: ["AmbientAttributes.id Windows Media Player"]
+ms.assetid: a1e8d493-ac11-46a0-9b79-18270d188427
+keywords:
+- AmbientAttributes.id Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.id
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.id
@@ -44,9 +50,9 @@ where *elementtype* is the name of the control type, and *num* is a number corre
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

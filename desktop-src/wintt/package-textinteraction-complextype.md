@@ -1,14 +1,20 @@
 ---
 title: TextInteraction Complex Type
 description: Defines an interaction used to get text input from the user.
-ms.assetid: '8e496cdf-a9e9-4366-a410-2af25214878e'
-keywords: ["TextInteraction complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 8e496cdf-a9e9-4366-a410-2af25214878e
+keywords:
+- TextInteraction complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - TextInteraction
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextInteraction Complex Type
@@ -95,9 +101,9 @@ Defines an interaction used to get text input from the user.
 <td><strong>Browse</strong></td>
 <td>Includes a <strong>Browse</strong> button with a single-line text box. The <strong>Browse</strong> element can contain one of the following items:
 <ul>
-<li>Computer — used to select a computer on the network (network discovery must be turned on for this option to work)</li>
-<li>File — used to select a file in a folder</li>
-<li>Folder — used to select a folder on the computer</li>
+<li>Computer   used to select a computer on the network (network discovery must be turned on for this option to work)</li>
+<li>File   used to select a file in a folder</li>
+<li>Folder   used to select a folder on the computer</li>
 </ul>
 <br/> For File and Folder, the path used is %HOMEDRIVE%%HOMEPATH%.<br/> If you specify File, you must include the <strong>FilterText</strong> and <strong>FilterExtension</strong> attributes. For example, &lt;Browse FilterText=&quot;@diag.dll,-123&quot; FilterExtension=&quot;*.exe&quot;&gt;File&lt;/Browse&gt;. For a description of allowed values for FilterExtension, see the <strong>lpstrFilter</strong> member of the <strong>OPENFILENAME</strong> structure.<br/></td>
 </tr>
@@ -141,7 +147,7 @@ Defines an interaction used to get text input from the user.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td>ID</td>
@@ -172,8 +178,8 @@ The troubleshooting engine uses the regular expression to validate the text inpu
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -187,9 +193,9 @@ The troubleshooting engine uses the regular expression to validate the text inpu
 [**TextInteractions Complex Type**](package-textinteractions-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

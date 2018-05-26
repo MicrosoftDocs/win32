@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.normalization
 description: The normalization attribute specifies or retrieves a value indicating whether normalization is enabled.
-ms.assetid: 'd0819624-7bc5-447a-b890-c8af94faa7b0'
-keywords: ["EQUALIZERSETTINGS.normalization Windows Media Player"]
+ms.assetid: d0819624-7bc5-447a-b890-c8af94faa7b0
+keywords:
+- EQUALIZERSETTINGS.normalization Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.normalization
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.normalization
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,9 +67,9 @@ When normalization is enabled, the audio signal for an entire digital media file
 [**EQUALIZERSETTINGS.normalizationPeak**](equalizersettings-normalizationpeak.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

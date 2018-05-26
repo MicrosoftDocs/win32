@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the collection of inbound fax jobs in the queue for the current fax account.'
-ms.assetid: '2fd8a18c-391e-464d-886d-63cc3b0740dd'
-title: 'FaxAccountIncomingQueue.GetJobs method'
+---
+Description: Returns the collection of inbound fax jobs in the queue for the current fax account.
+ms.assetid: 2fd8a18c-391e-464d-886d-63cc3b0740dd
+title: FaxAccountIncomingQueue.GetJobs method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountIncomingQueue.GetJobs method
@@ -23,15 +28,15 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**IFaxIncomingJobs**](-mfax-faxincomingjobs-cpp.md)\*\***
+Type: **[**IFaxIncomingJobs**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjobs?branch=master)\*\***
 
 A [**FaxIncomingJobs**](-mfax-faxincomingjobs.md) object.
 
 ## Remarks
 
-To use this method, a user must have the [**far2SUBMIT\_LOW**](-mfax-fax-access-rights-enum-2.md) access rights.
+To use this method, a user must have the [**far2SUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master) access rights.
 
-If the setting "All incoming faxes are viewable by everyone" is true (see [**IncomingFaxesArePublic**](-mfax-ifaxconfiguration-incomingfaxesarepublic.md)) or if the current user has [****far2MANAGE\_RECEIVE\_FOLDER****](-mfax-fax-access-rights-enum-2.md) access rights, then the set returned includes all the messages present in the fax server incoming queue.
+If the setting "All incoming faxes are viewable by everyone" is true (see [**IncomingFaxesArePublic**](/windows/previous-versions/Faxcomex/nf-faxcomex-ifaxconfiguration-get_incomingfaxesarepublic?branch=master)) or if the current user has [****far2MANAGE\_RECEIVE\_FOLDER****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master) access rights, then the set returned includes all the messages present in the fax server incoming queue.
 
 ## Requirements
 
@@ -53,7 +58,7 @@ If the setting "All incoming faxes are viewable by everyone" is true (see [**Inc
 [**FaxAccountIncomingQueue**](-mfax-faxaccountincomingqueue.md)
 </dt> <dt>
 
-[**IFaxAccountIncomingQueue**](-mfax-faxaccountincomingqueue-cpp.md)
+[**IFaxAccountIncomingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountincomingqueue?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'The SetSignedLargeIntegerValue method adds a new LONGLONG value (type VT\_I8) or overwrites an existing one.'
-ms.assetid: '604b48ed-3e3f-4a06-91dd-7ece9f146824'
-title: 'IPortableDeviceValues::SetSignedLargeIntegerValue method'
+Description: The SetSignedLargeIntegerValue method adds a new LONGLONG value (type VT\_I8) or overwrites an existing one.
+ms.assetid: 604b48ed-3e3f-4a06-91dd-7ece9f146824
+title: IPortableDeviceValuesSetSignedLargeIntegerValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetSignedLargeIntegerValue method
@@ -13,8 +18,8 @@ The **SetSignedLargeIntegerValue** method adds a new **LONGLONG** value (type VT
 
 ```C++
 HRESULT SetSignedLargeIntegerValue(
-  [in]       REFPROPERTYKEY key,
-  [in] const LONGLONG       Value
+  [in]       REFPROPERTYKEY key,
+  [in] const LONGLONG       Value
 );
 ```
 
@@ -50,7 +55,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +82,9 @@ If an existing value has the same key that is specified by the *key* parameter, 
 [**IPortableDeviceValues::GetSignedLargeIntegerValue**](iportabledevicevalues-getsignedlargeintegervalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following example is the source code needed to create a simple DLL, Myputs.dll.'
-ms.assetid: '3b11a83b-9943-4b66-8d0d-4a236ad5ffb8'
-title: 'Creating a Simple Dynamic-Link Library'
+Description: The following example is the source code needed to create a simple DLL, Myputs.dll.
+ms.assetid: 3b11a83b-9943-4b66-8d0d-4a236ad5ffb8
+title: Creating a Simple Dynamic-Link Library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Simple Dynamic-Link Library

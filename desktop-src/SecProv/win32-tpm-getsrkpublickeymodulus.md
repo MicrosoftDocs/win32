@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the modulus of the public portion of the TPM Storage Root Key.'
-ms.assetid: '266AE378-8BF2-4F6E-A055-E15D95E218DC'
-title: 'Win32\_Tpm::GetSrkPublicKeyModulus method'
+---
+Description: Gets the modulus of the public portion of the TPM Storage Root Key.
+ms.assetid: 266AE378-8BF2-4F6E-A055-E15D95E218DC
+title: Win32\_TpmGetSrkPublicKeyModulus method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_Tpm::GetSrkPublicKeyModulus method

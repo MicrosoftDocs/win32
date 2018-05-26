@@ -1,7 +1,12 @@
 ---
-Description: 'In addition to normal Component Object Model (COM) registration, the following steps must be completed in order to register icon overlay handlers.'
-ms.assetid: '73EE5E69-969B-409E-9E8F-5837720EA0B3'
+Description: In addition to normal Component Object Model (COM) registration, the following steps must be completed in order to register icon overlay handlers.
+ms.assetid: 73EE5E69-969B-409E-9E8F-5837720EA0B3
 title: How to Register Icon Overlay Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Register Icon Overlay Handlers

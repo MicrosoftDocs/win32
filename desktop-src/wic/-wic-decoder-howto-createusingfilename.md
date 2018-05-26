@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to create a bitmap decoder by using an image filename.'
-ms.assetid: 'b384861d-4e71-4e07-8b44-5c1cbcb3a70f'
+Description: This topic describes how to create a bitmap decoder by using an image filename.
+ms.assetid: b384861d-4e71-4e07-8b44-5c1cbcb3a70f
 title: How to Create a Decoder Using an Image Filename
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Decoder Using an Image Filename
@@ -10,7 +15,7 @@ This topic describes how to create a bitmap decoder by using an image filename.
 
 To create a bitmap decoder by using an image filename
 
-1.  Create an [**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md) object to create Windows Imaging Component (WIC) objects.
+1.  Create an [**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master) object to create Windows Imaging Component (WIC) objects.
 
     ```C++
     // Create WIC factory
@@ -24,7 +29,7 @@ To create a bitmap decoder by using an image filename
 
     
 
-2.  Use the [**CreateDecoderFromFilename**](-wic-codec-iwicimagingfactory-createdecoderfromfilename.md) method to create an [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) from an image file.
+2.  Use the [**CreateDecoderFromFilename**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename?branch=master) method to create an [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) from an image file.
 
     ```C++
     HRESULT hr = S_OK;
@@ -43,7 +48,7 @@ To create a bitmap decoder by using an image filename
 
     
 
-3.  Get the first [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) of the image.
+3.  Get the first [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) of the image.
 
     ```C++
     // Retrieve the first bitmap frame.
@@ -57,7 +62,7 @@ To create a bitmap decoder by using an image filename
 
     The JPEG file format only supports a single frame. Because the file in this example is a JPEG file, the first frame (`0`) is used. For image formats that have multiple frames, see [How to Retrieve the Frames of an Image](-wic-bitmapsources-howto-retrieveimageframes.md) for accessing each frame of the image.
 
-4.  Process the image frame. For additional information about [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) objects, see the [Bitmap Sources Overview](-wic-bitmapsources.md).
+4.  Process the image frame. For additional information about [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) objects, see the [Bitmap Sources Overview](-wic-bitmapsources.md).
 
 ## See Also
 

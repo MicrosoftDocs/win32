@@ -1,14 +1,20 @@
 ---
 title: VIEW.category
 description: The category attribute specifies or retrieves the category for which the VIEW is intended.
-ms.assetid: 'ab724647-8898-4bbf-82a3-b5852faed858'
-keywords: ["VIEW.category Windows Media Player"]
+ms.assetid: ab724647-8898-4bbf-82a3-b5852faed858
+keywords:
+- VIEW.category Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.category
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.category
@@ -36,7 +42,7 @@ This attribute is a read/write **String** containing one of the following values
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -55,9 +61,9 @@ This attribute is a read/write **String** containing one of the following values
 [**VIEW Element**](view-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

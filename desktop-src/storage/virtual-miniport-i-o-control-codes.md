@@ -1,7 +1,12 @@
 ---
 title: Virtual Miniport I/O Control Codes
 description: Virtual Miniport I/O Control Codes
-ms.assetid: '14b9004a-7bbe-4a0a-b20c-c771bdc07910'
+ms.assetid: 14b9004a-7bbe-4a0a-b20c-c771bdc07910
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual Miniport I/O Control Codes

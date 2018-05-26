@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSampleSize method retrieves the sample size.'
-ms.assetid: '5cc98556-cca6-46ca-ad33-cd40011ff6f4'
-title: 'CMediaType.GetSampleSize method'
+Description: The GetSampleSize method retrieves the sample size.
+ms.assetid: 5cc98556-cca6-46ca-ad33-cd40011ff6f4
+title: CMediaType.GetSampleSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.GetSampleSize method
@@ -43,9 +48,9 @@ If the sample size is fixed, returns the sample size in bytes. Otherwise, return
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Overview of potential conflicts with application gestures.'
-ms.assetid: '23692348-96ed-4f59-b3b2-4e0e11ddcef5'
+Description: Overview of potential conflicts with application gestures.
+ms.assetid: 23692348-96ed-4f59-b3b2-4e0e11ddcef5
 title: Potential Conflicts with Application Gestures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Potential Conflicts with Application Gestures

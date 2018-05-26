@@ -1,12 +1,17 @@
-﻿---
-Description: 'Sent to the CPlApplet function of a Control Panel application to prompt it to perform global initialization, especially memory allocation.'
-ms.assetid: '0e7e9b14-9f44-496e-a518-5d3ae92868c5'
-title: 'CPL\_INIT message'
+---
+Description: Sent to the CPlApplet function of a Control Panel application to prompt it to perform global initialization, especially memory allocation.
+ms.assetid: 0e7e9b14-9f44-496e-a518-5d3ae92868c5
+title: CPL\_INIT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPL\_INIT message
 
-Sent to the [**CPlApplet**](cplapplet.md) function of a Control Panel application to prompt it to perform global initialization, especially memory allocation.
+Sent to the [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) function of a Control Panel application to prompt it to perform global initialization, especially memory allocation.
 
 
 ```C++
@@ -40,9 +45,9 @@ Sent to the [**CPlApplet**](cplapplet.md) function of a Control Panel applicatio
 
 ## Return value
 
-If initialization succeeds, the [**CPlApplet**](cplapplet.md) function should return nonzero. Otherwise, it should return zero.
+If initialization succeeds, the [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) function should return nonzero. Otherwise, it should return zero.
 
-If [**CPlApplet**](cplapplet.md) returns zero, the controlling application ends communication and releases the DLL containing the Control Panel application.
+If [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) returns zero, the controlling application ends communication and releases the DLL containing the Control Panel application.
 
 ## Remarks
 

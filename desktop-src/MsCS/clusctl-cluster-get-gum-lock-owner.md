@@ -4,11 +4,12 @@ description: Retrieves the name of the current Global Update Manager (GUM) lock 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'F16664D3-8CC1-4D12-ACA7-D3F81D7A2CF9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: F16664D3-8CC1-4D12-ACA7-D3F81D7A2CF9
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_CLUSTER_GET_GUM_LOCK_OWNER control code Failover Cluster"]
+keywords:
+- CLUSCTL_CLUSTER_GET_GUM_LOCK_OWNER control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_CLUSTER\_GET\_GUM\_LOCK\_OWNER control code
 
-Retrieves the name of the current [*Global Update Manager*](g-gly.md#-wolf-global-update-manager-gly) (GUM) lock owner for a [*cluster*](c-gly.md#-wolf-cluster-gly). Applications use this [control code](about-control-codes.md) as a [**ClusterControl**](clustercontrol.md) parameter.
+Retrieves the name of the current [*Global Update Manager*](g-gly.md#-wolf-global-update-manager-gly) (GUM) lock owner for a [*cluster*](c-gly.md#-wolf-cluster-gly). Applications use this [control code](about-control-codes.md) as a [**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master) parameter.
 
 
 ```C++
@@ -41,7 +45,7 @@ ClusterControl(
 
 ## Parameters
 
-The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterControl**](clustercontrol.md).
+The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master).
 
 <dl> <dt>
 
@@ -61,7 +65,7 @@ When this method returns, contains the combined size, in bytes, of a **DWORD** a
 
 ## Return value
 
-[**ClusterControl**](clustercontrol.md) returns one of the following values.
+[**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -100,17 +104,17 @@ The 32 bits of CLUSCTL\_CLUSTER\_GET\_GUM\_LOCK\_OWNER are defined as follows (f
 
 | Component      | Bit location | Value                                    |
 |----------------|--------------|------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_CLUSTER** (0x7)          |
+| Object code    | 24 31        | **CLUS\_OBJECT\_CLUSTER** (0x7)          |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)              |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)               |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)           |
 | Type bit       | 20           | External (0x0)                           |
-| Operation code | 0–23         | **CLCTL\_GET\_GUM\_LOCK\_OWNER** (0x2b9) |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)             |
+| Operation code | 0 23         | **CLCTL\_GET\_GUM\_LOCK\_OWNER** (0x2b9) |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)             |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -119,7 +123,7 @@ The 32 bits of CLUSCTL\_CLUSTER\_GET\_GUM\_LOCK\_OWNER are defined as follows (f
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/>      |
+| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/>      |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -134,12 +138,12 @@ The 32 bits of CLUSCTL\_CLUSTER\_GET\_GUM\_LOCK\_OWNER are defined as follows (f
 [Cluster Control Codes](cluster-control-codes.md)
 </dt> <dt>
 
-[**ClusterControl**](clustercontrol.md)
+[**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the DOT4\_DC\_CREATE\_DATA construct.'
-ms.assetid: '9C21732B-0AB1-4F3E-8F3D-F0B12007920A'
-title: 'DOT4\_DC\_CREATE\_DATA structure'
+---
+Description: Defines the DOT4\_DC\_CREATE\_DATA construct.
+ms.assetid: 9C21732B-0AB1-4F3E-8F3D-F0B12007920A
+title: DOT4\_DC\_CREATE\_DATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOT4\_DC\_CREATE\_DATA structure

@@ -4,11 +4,15 @@ description: The following C/C++ code example creates an ACE that assigns rights
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c36ae0c8-40ad-4afd-8552-4de77f4463e2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c36ae0c8-40ad-4afd-8552-4de77f4463e2
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , setting rights to specific types of objects"]
+keywords:
+- Active Directory examples Active Directory , setting rights to specific types of objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Setting Rights to Specific Types of Objects

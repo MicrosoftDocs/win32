@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a buffer object.'
-ms.assetid: '6f44fe84-3e0b-4fb8-821a-c997944fed37'
+---
+Description: Creates a buffer object.
+ms.assetid: 6f44fe84-3e0b-4fb8-821a-c997944fed37
 title: D3DXCreateBuffer function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateBuffer function

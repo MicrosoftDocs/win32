@@ -1,8 +1,19 @@
 ---
 title: Configuration
 description: Configuration
-ms.assetid: '677241d2-3ddd-423a-a1e7-b5fa3ce0a4eb'
-keywords: ["installable drivers,configuration", "installable drivers,DRV_CONFIGURE message", "DRV_CONFIGURE message", "DRV_QUERYCONFIGURE message", "DRVCONFIGINFO message", "configuring installable drivers"]
+ms.assetid: 677241d2-3ddd-423a-a1e7-b5fa3ce0a4eb
+keywords:
+- installable drivers,configuration
+- installable drivers,DRV_CONFIGURE message
+- DRV_CONFIGURE message
+- DRV_QUERYCONFIGURE message
+- DRVCONFIGINFO message
+- configuring installable drivers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuration

@@ -1,7 +1,12 @@
 ---
-Description: 'Mark of the Web zone, as URLZONE enumeration value.'
-ms.assetid: 'd6e81804-80c5-4b05-a256-6355ae109970'
-title: 'System.History.TargetUrlHostName'
+Description: Mark of the Web zone, as URLZONE enumeration value.
+ms.assetid: d6e81804-80c5-4b05-a256-6355ae109970
+title: System.History.TargetUrlHostName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.History.TargetUrlHostName

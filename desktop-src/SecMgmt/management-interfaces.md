@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the interfaces provided by the attachment engine.'
-ms.assetid: '451587bd-a7ab-446b-b647-be98de251915'
+Description: Lists the interfaces provided by the attachment engine.
+ms.assetid: 451587bd-a7ab-446b-b647-be98de251915
 title: Security Management Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Management Interfaces
@@ -16,8 +21,8 @@ This section contains reference pages for the following groups of interfaces:
 
 | Interface                                                            | Description                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ISceSvcAttachmentData**](iscesvcattachmentdata.md)               | Retrieves configuration and analysis data about a specified security service from the Security Configuration snap-ins. The Security Configuration snap-ins expose this interface, which attachment snap-in extensions call to query configuration or analysis information.                                                 |
-| [**ISceSvcAttachmentPersistInfo**](iscesvcattachmentpersistinfo.md) | Retrieves modified configuration or analysis information from an attachment snap-in. The Security Configuration snap-ins calls this interface to retrieve any modified information from the attachment snap-in extension. The Security Configuration snap-in then stores this data appropriately in the security database. |
+| [**ISceSvcAttachmentData**](/windows/win32/Scesvc/nn-scesvc-iscesvcattachmentdata?branch=master)               | Retrieves configuration and analysis data about a specified security service from the Security Configuration snap-ins. The Security Configuration snap-ins expose this interface, which attachment snap-in extensions call to query configuration or analysis information.                                                 |
+| [**ISceSvcAttachmentPersistInfo**](/windows/win32/Scesvc/nn-scesvc-iscesvcattachmentpersistinfo?branch=master) | Retrieves modified configuration or analysis information from an attachment snap-in. The Security Configuration snap-ins calls this interface to retrieve any modified information from the attachment snap-in extension. The Security Configuration snap-in then stores this data appropriately in the security database. |
 
 
 

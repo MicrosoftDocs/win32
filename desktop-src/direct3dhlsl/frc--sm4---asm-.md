@@ -1,7 +1,12 @@
 ---
 title: frc (sm4 - asm)
 description: Component-wise, extract fractional component.
-ms.assetid: '17C88BCE-7F2F-446C-9BB4-860098B5E42A'
+ms.assetid: 17C88BCE-7F2F-446C-9BB4-860098B5E42A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # frc (sm4 - asm)
@@ -15,7 +20,7 @@ Component-wise, extract fractional component.
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Component-wise, extract fractional component.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -41,7 +46,7 @@ The following table shows the results obtained when executing the instruction wi
 
 
 
- 
+ 
 
 F means finite-real number.
 
@@ -55,7 +60,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -74,7 +79,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -83,9 +88,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

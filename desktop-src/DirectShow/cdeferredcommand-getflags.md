@@ -1,7 +1,12 @@
 ---
-Description: 'The GetFlags method retrieves the context flags associated with the deferred command.'
-ms.assetid: '3a96299a-b157-419b-a23e-86241e10566f'
-title: 'CDeferredCommand.GetFlags method'
+Description: The GetFlags method retrieves the context flags associated with the deferred command.
+ms.assetid: 3a96299a-b157-419b-a23e-86241e10566f
+title: CDeferredCommand.GetFlags method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDeferredCommand.GetFlags method
@@ -36,7 +41,7 @@ Returns one of the following:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -56,9 +61,9 @@ Returns one of the following:
 [**CDeferredCommand Class**](cdeferredcommand.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

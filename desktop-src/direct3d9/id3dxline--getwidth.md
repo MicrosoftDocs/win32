@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the thickness of the line.'
-ms.assetid: '8e29fcfe-91bd-4389-8586-470f1ca1c29f'
-title: 'ID3DXLine::GetWidth method'
+---
+Description: Gets the thickness of the line.
+ms.assetid: 8e29fcfe-91bd-4389-8586-470f1ca1c29f
+title: ID3DXLineGetWidth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXLine::GetWidth method

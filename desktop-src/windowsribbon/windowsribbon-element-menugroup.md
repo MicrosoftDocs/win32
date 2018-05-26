@@ -1,14 +1,20 @@
 ---
 title: MenuGroup element
 description: Represents a container of controls to display in a gallery, menu, or toolbar.
-ms.assetid: '75da63fe-dd9e-46af-8f13-a8d8e7575641'
-keywords: ["MenuGroup element Windows Ribbon"]
+ms.assetid: 75da63fe-dd9e-46af-8f13-a8d8e7575641
+keywords:
+- MenuGroup element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - MenuGroup
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MenuGroup element
@@ -206,7 +212,7 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -221,9 +227,9 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 [Menu Group](windowsribbon-controls-menugroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

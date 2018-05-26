@@ -1,22 +1,25 @@
 ---
-title: What's New in WinRM 2.0
+title: Whats New in WinRM 2.0
 description: New features are available in Windows Remote Management version 2.0. (WinRM 2.0).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '402c179a-6dd7-4d75-9318-bb8194b5527d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 402c179a-6dd7-4d75-9318-bb8194b5527d
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What's New in WinRM 2.0
 
 New features are available in Windows Remote Management version 2.0. (WinRM 2.0)
 
-WinRM 2.0 is included in Windows Server 2008 R2 and Windows 7.
+WinRM 2.0 is included in Windows Server 2008 R2 and Windows 7.
 
-You can also download WinRM 2.0 for Windows Server 2008 with Service Pack 2 (SP2) and Windows Vista with Service Pack 2 (SP2). For information about downloading WinRM 2.0, see [KB968929](http://go.microsoft.com/fwlink/p/?linkid=151321).
+You can also download WinRM 2.0 for Windows Server 2008 with Service Pack 2 (SP2) and Windows Vista with Service Pack 2 (SP2). For information about downloading WinRM 2.0, see [KB968929](http://go.microsoft.com/fwlink/p/?linkid=151321).
 
 The following table lists the documentation for WinRM 2.0.
 
@@ -60,7 +63,7 @@ The following table lists the documentation for WinRM 2.0.
 </tr>
 <tr class="even">
 <td>[Multi-hop Support](multi-hop-support.md)<br/></td>
-<td>Functionality was added to WinRM 2.0 that supports delegating user credentials across multiple remote computers. <br/> The [<strong>Authentication Constants</strong>](authentication-constants.md) topic was updated to add the following constant: <strong>WSManFlagUseCredSsp</strong>.<br/> The following C++ API was added to provide multi-hop support: [<strong>IWSManEx3</strong>](iwsmanex3.md).<br/> The following scripting API was added to provide multi-hop support: [<strong>WSMan.SessionFlagUseCredSsp</strong>](wsman-sessionflagusecredssp.md).<br/></td>
+<td>Functionality was added to WinRM 2.0 that supports delegating user credentials across multiple remote computers. <br/> The [<strong>Authentication Constants</strong>](authentication-constants.md) topic was updated to add the following constant: <strong>WSManFlagUseCredSsp</strong>.<br/> The following C++ API was added to provide multi-hop support: [<strong>IWSManEx3</strong>](/windows/win32/WSManDisp/nn-wsmandisp-iwsmanex3?branch=master).<br/> The following scripting API was added to provide multi-hop support: [<strong>WSMan.SessionFlagUseCredSsp</strong>](wsman-sessionflagusecredssp.md).<br/></td>
 </tr>
 <tr class="odd">
 <td>[Quota Management for Remote Shells](quotas.md)<br/></td>
@@ -75,11 +78,11 @@ The following table lists the documentation for WinRM 2.0.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

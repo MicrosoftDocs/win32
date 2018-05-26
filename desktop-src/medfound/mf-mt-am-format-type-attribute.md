@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a DirectShow format GUID for a media type.'
-ms.assetid: 'dc532791-39e1-4acb-9e62-21d8f25be870'
-title: 'MF\_MT\_AM\_FORMAT\_TYPE attribute'
+---
+Description: Contains a DirectShow format GUID for a media type.
+ms.assetid: dc532791-39e1-4acb-9e62-21d8f25be870
+title: MF\_MT\_AM\_FORMAT\_TYPE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_AM\_FORMAT\_TYPE attribute
@@ -50,16 +55,16 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Media Types](media-types.md)
 </dt> <dt>
 
-[**IMFAttributes::GetGUID**](imfattributes-getguid.md)
+[**IMFAttributes::GetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getguid?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetGUID**](imfattributes-setguid.md)
+[**IMFAttributes::SetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setguid?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
-[**MFCreateMediaTypeFromRepresentation**](mfcreatemediatypefromrepresentation.md)
+[**MFCreateMediaTypeFromRepresentation**](/windows/win32/mfapi/nf-mfapi-mfcreatemediatypefromrepresentation?branch=master)
 </dt> </dl>
 
  

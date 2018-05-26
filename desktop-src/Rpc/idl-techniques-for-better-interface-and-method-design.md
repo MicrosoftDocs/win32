@@ -1,7 +1,12 @@
 ---
 title: IDL Techniques for Better Interface and Method Design
 description: Consider using the following IDL-specific techniques to improve security and performance when you are developing RPC interfaces and methods that handle both conformant and variant data.
-ms.assetid: '651bdb5c-ad56-4526-9b7d-7165141e7ceb'
+ms.assetid: 651bdb5c-ad56-4526-9b7d-7165141e7ceb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDL Techniques for Better Interface and Method Design

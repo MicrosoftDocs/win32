@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM\_RASTERIZER structure
 description: A helper structure used to describe a rasterizer description as a single object suitable for a stream description.
-ms.assetid: '650C2DA3-63FB-44D1-BE9A-E21E13DA24DB'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER structure"]
+ms.assetid: 650C2DA3-63FB-44D1-BE9A-E21E13DA24DB
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM\_RASTERIZER structure
@@ -22,10 +28,10 @@ A helper structure used to describe a rasterizer description as a single object 
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER {
-                                           CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER;
-                                           CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER(CD3DX12_RASTERIZER_DESC const &amp;i);
+                                           CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER;
+                                           CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER(CD3DX12_RASTERIZER_DESC const &amp;i);
   CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER operator=(CD3DX12_RASTERIZER_DESC const&amp; i);
-                                           operator CD3DX12_RASTERIZER_DESC() const;
+                                           operator CD3DX12_RASTERIZER_DESC() const;
 };
 ```
 
@@ -99,9 +105,9 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<CD3DX12_RASTERIZER_DESC, D3D12_P
 [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

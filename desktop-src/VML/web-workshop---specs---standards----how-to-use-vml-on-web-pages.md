@@ -1,8 +1,26 @@
 ---
 title: How to Use VML on Webpages
 description: How to Use VML on Webpages
-ms.assetid: 'ae20b789-1890-4560-bcc0-536f126c5a41'
-keywords: ["Vector Markup Language (VML),Web workshop", "VML (Vector Markup Language),Web workshop", "vector graphics,Web workshop", "Vector Markup Language (VML),designing Web pages", "VML (Vector Markup Language),designing Web pages", "vector graphics,designing Web pages", "designing Web pages,VML tasks", "Web workshop,VML tasks", "designing Web pages,Vector Markup Language (VML)", "Web workshop,Vector Markup Language (VML)", "Vector Markup Language (VML),World Wide Web Consortium (W3C)", "VML (Vector Markup Language),World Wide Web Consortium (W3C)", "vector graphics,World Wide Web Consortium (W3C)"]
+ms.assetid: ae20b789-1890-4560-bcc0-536f126c5a41
+keywords:
+- Vector Markup Language (VML),Web workshop
+- VML (Vector Markup Language),Web workshop
+- vector graphics,Web workshop
+- Vector Markup Language (VML),designing Web pages
+- VML (Vector Markup Language),designing Web pages
+- vector graphics,designing Web pages
+- designing Web pages,VML tasks
+- Web workshop,VML tasks
+- designing Web pages,Vector Markup Language (VML)
+- Web workshop,Vector Markup Language (VML)
+- Vector Markup Language (VML),World Wide Web Consortium (W3C)
+- VML (Vector Markup Language),World Wide Web Consortium (W3C)
+- vector graphics,World Wide Web Consortium (W3C)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use VML on Webpages

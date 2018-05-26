@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the capabilities and management of memory-related logical devices.'
-ms.assetid: '802c1c0e-7eab-4a17-9a29-6502ece6cb24'
-title: 'CIM\_Memory class'
+Description: Represents the capabilities and management of memory-related logical devices.
+ms.assetid: 802c1c0e-7eab-4a17-9a29-6502ece6cb24
+title: CIM\_Memory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_Memory class
@@ -14,22 +19,22 @@ Represents the capabilities and management of memory-related logical devices.
 [Abstract, Version("2.8.0"), UMLPackagePath("CIM::Device::Memory"), AMENDMENT]
 class CIM_Memory : CIM_StorageExtent
 {
-  boolean  Volatile;
-  string   ErrorMethodology;
-  uint64   StartingAddress;
-  uint64   EndingAddress;
-  uint16   ErrorInfo;
-  string   OtherErrorDescription;
-  boolean  CorrectableError;
+  boolean  Volatile;
+  string   ErrorMethodology;
+  uint64   StartingAddress;
+  uint64   EndingAddress;
+  uint16   ErrorInfo;
+  string   OtherErrorDescription;
+  boolean  CorrectableError;
   datetime ErrorTime;
-  uint16   ErrorAccess;
-  uint32   ErrorTransferSize;
-  uint8    ErrorData[];
-  uint16   ErrorDataOrder;
-  uint64   ErrorAddress;
-  boolean  SystemLevelAddress;
-  uint64   ErrorResolution;
-  uint8    AdditionalErrorData[];
+  uint16   ErrorAccess;
+  uint32   ErrorTransferSize;
+  uint8    ErrorData[];
+  uint16   ErrorDataOrder;
+  uint64   ErrorAddress;
+  boolean  SystemLevelAddress;
+  uint64   ErrorResolution;
+  uint8    AdditionalErrorData[];
 };
 ```
 
@@ -468,8 +473,8 @@ Access type: Read-only
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -483,9 +488,9 @@ Access type: Read-only
 [**CIM\_StorageExtent**](cim-storageextent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

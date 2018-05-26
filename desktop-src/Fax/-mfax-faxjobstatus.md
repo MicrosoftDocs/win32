@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxJobStatus object is used for notifications and to hold the dynamic information of the job.'
-ms.assetid: 'b4e2dc9e-6a32-4fc7-94fc-2132dedcec9e'
+---
+Description: The FaxJobStatus object is used for notifications and to hold the dynamic information of the job.
+ms.assetid: b4e2dc9e-6a32-4fc7-94fc-2132dedcec9e
 title: FaxJobStatus object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobStatus object
@@ -46,7 +51,7 @@ The **FaxJobStatus** object has these properties.
 
 ## Remarks
 
-You do not create the **FaxJobStatus** object. It is received as part of a notification when you implement [**FaxServerNotify.OnIncomingJobChanged**](-mfax-ifaxservernotify-onincomingjobchanged.md) or [**FaxServerNotify.OnOutgoingJobChanged**](-mfax-ifaxservernotify-onoutgoingjobchanged.md), which include a pointer to the **FaxJobStatus** object. When the event occurs and the implemented function is called, you receive this object containing the dynamic information.
+You do not create the **FaxJobStatus** object. It is received as part of a notification when you implement [**FaxServerNotify.OnIncomingJobChanged**](/windows/previous-versions/FaxComex/?branch=master) or [**FaxServerNotify.OnOutgoingJobChanged**](/windows/previous-versions/FaxComex/?branch=master), which include a pointer to the **FaxJobStatus** object. When the event occurs and the implemented function is called, you receive this object containing the dynamic information.
 
 ## Requirements
 
@@ -66,7 +71,7 @@ You do not create the **FaxJobStatus** object. It is received as part of a notif
 
 <dl> <dt>
 
-[**IFaxJobStatus**](-mfax-faxjobstatus-cpp.md)
+[**IFaxJobStatus**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxjobstatus?branch=master)
 </dt> </dl>
 
  

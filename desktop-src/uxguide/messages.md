@@ -1,7 +1,12 @@
 ---
 title: Messages
 description: Messages are any kind of message users need or want to see as they use your app. Learn how to present errors, warning, confirmations, and notifications in your app.
-ms.assetid: '700F1F1F-B41D-4C0A-B2EC-91C84E46E526'
+ms.assetid: 700F1F1F-B41D-4C0A-B2EC-91C84E46E526
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Messages
@@ -21,11 +26,11 @@ Messages are any kind of message users need or want to see as they use your app.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

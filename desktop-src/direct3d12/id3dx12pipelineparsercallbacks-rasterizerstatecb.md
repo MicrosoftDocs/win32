@@ -1,8 +1,11 @@
 ---
 title: ID3DX12PipelineParserCallbacks RasterizerStateCb method
 description: Calls the rasterizer state description subobject callback of an object that implements this interface.
-ms.assetid: '125FC6EC-B749-4EE2-9D34-14BD12993BDC'
-keywords: ["RasterizerStateCb method", "RasterizerStateCb method, ID3DX12PipelineParserCallbacks interface", "ID3DX12PipelineParserCallbacks interface, RasterizerStateCb method"]
+ms.assetid: 125FC6EC-B749-4EE2-9D34-14BD12993BDC
+keywords:
+- RasterizerStateCb method
+- RasterizerStateCb method, ID3DX12PipelineParserCallbacks interface
+- ID3DX12PipelineParserCallbacks interface, RasterizerStateCb method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX12PipelineParserCallbacks::RasterizerStateCb method
@@ -22,7 +30,7 @@ Calls the rasterizer state description subobject callback of an object that impl
 
 ```C++
 void RasterizerStateCb(
-  [ref] const D3D12_RASTERIZER_DESC &amp;RasterizerState
+  [ref] const D3D12_RASTERIZER_DESC &amp;RasterizerState
 );
 ```
 
@@ -35,7 +43,7 @@ void RasterizerStateCb(
 *RasterizerState* \[ref\]
 </dt> <dd>
 
-Type: **const [**D3D12\_RASTERIZER\_DESC**](d3d12-rasterizer-desc.md)**
+Type: **const [**D3D12\_RASTERIZER\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_rasterizer_desc?branch=master)**
 
 Details of the rasterizer state description subobject parsed from a pipeline state stream.
 
@@ -67,12 +75,12 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> <dt>
 
-[**D3D12\_RASTERIZER\_DESC**](d3d12-rasterizer-desc.md)
+[**D3D12\_RASTERIZER\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_rasterizer_desc?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

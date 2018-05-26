@@ -1,8 +1,9 @@
 ---
 title: glMaterialiv function
 description: The glMaterialiv function specifies material parameters for the lighting model.
-ms.assetid: '9d045202-e565-4cf7-946a-60299e1bc1b1'
-keywords: ["glMaterialfv function OpenGL"]
+ms.assetid: 9d045202-e565-4cf7-946a-60299e1bc1b1
+keywords:
+- glMaterialfv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glMaterialiv function
@@ -22,9 +28,9 @@ The **glMaterialiv** function specifies material parameters for the lighting mod
 
 ```C++
 void WINAPI glMaterialfv(
-         GLenum face,
-         GLenum pname,
-   const GLint  *params
+         GLenum face,
+         GLenum pname,
+   const GLint  *params
 );
 ```
 
@@ -60,7 +66,7 @@ The material parameter of the face or faces being updated. The parameters that c
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -121,8 +127,8 @@ The following function retrieves information related to [**glMaterialiv**](glmat
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -142,9 +148,9 @@ The following function retrieves information related to [**glMaterialiv**](glmat
 [**glLightModel**](gllightmodel-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

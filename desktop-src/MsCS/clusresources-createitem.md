@@ -4,11 +4,14 @@ description: Creates a resource and adds it to a ClusResources collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3ff2d33b-08aa-445b-930e-7fbe589f6269'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3ff2d33b-08aa-445b-930e-7fbe589f6269
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CreateItem method Failover Cluster", "CreateItem method Failover Cluster , ClusResources collection", "ClusResources collection Failover Cluster , CreateItem method"]
+keywords:
+- CreateItem method Failover Cluster
+- CreateItem method Failover Cluster , ClusResources collection
+- ClusResources collection Failover Cluster , CreateItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResources.CreateItem method
@@ -67,7 +73,7 @@ ClusResources.CreateItem( _
 *lFlag* 
 </dt> <dd>
 
-Value indicating how to create the resource. *lFlag* can be set to one of these values enumerated from the [**CLUSTER\_RESOURCE\_CREATE\_FLAGS**](cluster-resource-create-flags.md) enumeration.
+Value indicating how to create the resource. *lFlag* can be set to one of these values enumerated from the [**CLUSTER\_RESOURCE\_CREATE\_FLAGS**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_resource_create_flags?branch=master) enumeration.
 
 <dt>
 
@@ -108,7 +114,7 @@ For information on making constants defined by the Cluster Automation Server typ
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -127,12 +133,12 @@ For information on making constants defined by the Cluster Automation Server typ
 [**ClusResources**](clusresources-collection.md)
 </dt> <dt>
 
-[**CLUSTER\_RESOURCE\_CREATE\_FLAGS**](cluster-resource-create-flags.md)
+[**CLUSTER\_RESOURCE\_CREATE\_FLAGS**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_resource_create_flags?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

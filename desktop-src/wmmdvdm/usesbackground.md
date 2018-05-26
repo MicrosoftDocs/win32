@@ -1,14 +1,20 @@
 ---
 title: UsesBackground element
 description: Specifies whether the user will be able to override the specified background source.
-ms.assetid: '8eade6d1-cb2e-4865-b220-2489b5656fc1'
-keywords: ["UsesBackground element Windows Movie Maker and DVD Maker"]
+ms.assetid: 8eade6d1-cb2e-4865-b220-2489b5656fc1
+keywords:
+- UsesBackground element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - UsesBackground
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UsesBackground element
@@ -49,7 +55,7 @@ A background source is a sequence of portions of user-imported clips with crossf
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -64,9 +70,9 @@ A background source is a sequence of portions of user-imported clips with crossf
 [**Input Element**](input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

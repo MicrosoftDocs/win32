@@ -4,11 +4,15 @@ description: This section assumes you are familiar with the architecture describ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7af7f5a8-fe1f-4b2a-9332-fd2cefc18cc2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7af7f5a8-fe1f-4b2a-9332-fd2cefc18cc2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["value lists Failover Cluster ,creating"]
+keywords:
+- value lists Failover Cluster ,creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Value Lists
@@ -29,7 +33,7 @@ typedef struct DWORD_VALUE_LIST
 
 However, this method gets complicated when variable-length data is introduced.
 
-Another way to create a value list is to use [**CLUSPROP\_BUFFER\_HELPER**](clusprop-buffer-helper.md). (See [Building with CLUSPROP\_BUFFER\_HELPER](building-with-clusprop-buffer-helper.md).)
+Another way to create a value list is to use [**CLUSPROP\_BUFFER\_HELPER**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_buffer_helper?branch=master). (See [Building with CLUSPROP\_BUFFER\_HELPER](building-with-clusprop-buffer-helper.md).)
 
 ## Example
 

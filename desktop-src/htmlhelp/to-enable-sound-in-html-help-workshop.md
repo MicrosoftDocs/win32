@@ -1,7 +1,12 @@
 ---
 title: To enable sound in HTML Help Workshop
 description: To enable sound in HTML Help Workshop
-ms.assetid: '08EB563B-5F5B-40fd-845E-AC1482FDEA47'
+ms.assetid: 08EB563B-5F5B-40fd-845E-AC1482FDEA47
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To enable sound in HTML Help Workshop

@@ -1,7 +1,12 @@
 ---
 title: Manual SA Keying
 description: Following sample code demonstrates how to create Security Associations (SA) using Windows Filtering Platform.
-ms.assetid: 'a929456e-e824-44d3-97f7-be75716a1ecd'
+ms.assetid: a929456e-e824-44d3-97f7-be75716a1ecd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manual SA Keying

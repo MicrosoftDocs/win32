@@ -1,7 +1,12 @@
 ---
-Description: 'The following Tablet PC threading considerations are specific to the Managed Library.'
-ms.assetid: 'bcc398d3-22ea-466c-9206-92b0ac208def'
+Description: The following Tablet PC threading considerations are specific to the Managed Library.
+ms.assetid: bcc398d3-22ea-466c-9206-92b0ac208def
 title: Managed Library Threading Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managed Library Threading Considerations
@@ -61,7 +66,7 @@ void recoContext_Recognition(object sender,
 
 
 
-If you put a [UserControl](T:System.Web.UI.UserControl) onto awebpagein a browser (see [Web Controls](web-controls.md)), then it runs as an STA application. For smart client applications (see [No Touch Deployment](no-touch-deployment.md)), the developer has full control over the [ApartmentState](T:System.Threading.ApartmentState). (The default is generally STA, but may be MTA, depending on your version of CLR.) For threading issues involving the [**RealTimeStylus**](realtimestylus-class.md), see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
+If you put a [UserControl](T:System.Web.UI.UserControl) onto awebpagein a browser (see [Web Controls](web-controls.md)), then it runs as an STA application. For smart client applications (see [No Touch Deployment](no-touch-deployment.md)), the developer has full control over the [ApartmentState](T:System.Threading.ApartmentState). (The default is generally STA, but may be MTA, depending on your version of CLR.) For threading issues involving the [**RealTimeStylus**](/windows/win32/RTSCom/?branch=master), see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
 
 For more information about calling Windows Forms from an MTA application, see [Multithreaded Windows Forms Control Sample](7fe3956f-5b8f-4f78-8aae-c9eb0b28f13a).
 
@@ -85,7 +90,7 @@ To improve performance in your application, manually dispose of any Tablet PC ob
 
 ## StylusInput APIs
 
-For information about threading considerations for the [**RealTimeStylus**](realtimestylus-class.md) object and the StylusInput application programming interfaces (APIs) see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
+For information about threading considerations for the [**RealTimeStylus**](/windows/win32/RTSCom/?branch=master) object and the StylusInput application programming interfaces (APIs) see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
 
  
 

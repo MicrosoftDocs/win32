@@ -1,7 +1,12 @@
 ---
-Description: 'The WHERE clause in a query specifies a set of items to match results against.'
-ms.assetid: 'ed51edd5-6edc-4fcd-a69b-cb48c399ba7c'
+Description: The WHERE clause in a query specifies a set of items to match results against.
+ms.assetid: ed51edd5-6edc-4fcd-a69b-cb48c399ba7c
 title: ReuseWhere Function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReuseWhere Function

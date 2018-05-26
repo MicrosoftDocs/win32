@@ -1,7 +1,12 @@
 ---
-Description: 'If this bit is set, the dialog box is an error dialog.'
-ms.assetid: 'a8a95f6a-6465-433b-98a4-95281cddedd3'
+Description: If this bit is set, the dialog box is an error dialog.
+ms.assetid: a8a95f6a-6465-433b-98a4-95281cddedd3
 title: Error Dialog Style Bit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Dialog Style Bit

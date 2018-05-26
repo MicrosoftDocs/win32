@@ -1,13 +1,16 @@
 ---
-Description: 'Returns a collection of subclasses for a specified class.'
+Description: Returns a collection of subclasses for a specified class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a9d16ee9-992e-4ce5-9c03-0a2c9958588c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a9d16ee9-992e-4ce5-9c03-0a2c9958588c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemServices.SubclassesOfAsync method'
+title: SWbemServices.SubclassesOfAsync method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemServices.SubclassesOfAsync method
@@ -138,7 +141,7 @@ After the completion of the **SubclassesOfAsync** method, the [Err](https://msdn
 > [!Note]  
 > A returned collection with zero elements is not an error.
 
- 
+ 
 
 <dl> <dt>
 
@@ -189,8 +192,8 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -209,9 +212,9 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 [**SWbemObjectSet**](swbemobjectset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

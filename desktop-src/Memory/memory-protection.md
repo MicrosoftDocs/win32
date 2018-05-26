@@ -1,7 +1,12 @@
 ---
-Description: 'Memory that belongs to a process is implicitly protected by its private virtual address space.'
-ms.assetid: '70ded07a-7be6-4189-a1ae-281917f42a1e'
+Description: Memory that belongs to a process is implicitly protected by its private virtual address space.
+ms.assetid: 70ded07a-7be6-4189-a1ae-281917f42a1e
 title: Memory Protection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory Protection

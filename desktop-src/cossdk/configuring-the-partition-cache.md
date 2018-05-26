@@ -1,7 +1,12 @@
 ---
-Description: 'The COM+ partitions feature includes a partition cache. This cache stores user-to-partition mappings and is designed to avoid repetitive Active Directory access.'
-ms.assetid: '8c3a269d-1933-4df6-aefb-f1f5587f1f42'
+Description: The COM+ partitions feature includes a partition cache. This cache stores user-to-partition mappings and is designed to avoid repetitive Active Directory access.
+ms.assetid: 8c3a269d-1933-4df6-aefb-f1f5587f1f42
 title: Configuring the Partition Cache
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring the Partition Cache
@@ -27,11 +32,11 @@ To change these table sizes, administrators can modify the values of a registry 
 
 
 
- 
+ 
 
 ## Flushing the Cache
 
-Because COM+ caches the default partition for users, you might want to call this method after changing the default partition for a user in the Active Directory. Administrators can do this programmatically by calling the [**FlushPartitionCache**](icomadmincatalog2-flushpartitioncache.md) method.
+Because COM+ caches the default partition for users, you might want to call this method after changing the default partition for a user in the Active Directory. Administrators can do this programmatically by calling the [**FlushPartitionCache**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog2-flushpartitioncache?branch=master) method.
 
 ## Related topics
 
@@ -52,9 +57,9 @@ Because COM+ caches the default partition for users, you might want to call this
 [Setting Administrative Rights for a Partition](setting-administrative-rights-for-a-partition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

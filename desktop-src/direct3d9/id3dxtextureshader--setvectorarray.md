@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an array of 4D vectors.'
-ms.assetid: '45bc5cb1-b44a-468b-8c80-a639da8a033f'
-title: 'ID3DXTextureShader::SetVectorArray method'
+---
+Description: Sets an array of 4D vectors.
+ms.assetid: 45bc5cb1-b44a-468b-8c80-a639da8a033f
+title: ID3DXTextureShaderSetVectorArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureShader::SetVectorArray method

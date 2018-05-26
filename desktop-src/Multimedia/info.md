@@ -1,21 +1,27 @@
 ---
 title: info command
 description: The info command retrieves a hardware description from a device. All MCI devices recognize this command.
-ms.assetid: '10d7decf-a133-4d55-93d5-867952307819'
-keywords: ["info command Windows Multimedia"]
+ms.assetid: 10d7decf-a133-4d55-93d5-867952307819
+keywords:
+- info command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - info
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # info command
 
 The info command retrieves a hardware description from a device. All MCI devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -57,7 +63,7 @@ Flag that identifies the type of information required. The following table lists
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszInfoType** parameter and their meanings.
 
@@ -85,7 +91,7 @@ The following table lists the flags that can be specified in the **lpszInfoType*
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -114,8 +120,8 @@ info mysound product
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -132,9 +138,9 @@ info mysound product
 [load](load.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

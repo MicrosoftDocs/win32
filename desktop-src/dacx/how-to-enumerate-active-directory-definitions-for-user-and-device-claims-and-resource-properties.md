@@ -4,11 +4,15 @@ description: This code sample will enumerate all of the Dynamic Access Control o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '17425694-AFC9-448A-8C97-F841850F6ED8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'dynamic-access-control'
+ms.assetid: 17425694-AFC9-448A-8C97-F841850F6ED8
+ms.prod: windows-server-dev
+ms.technology: dynamic-access-control
 ms.tgt_platform: multiple
-keywords: ["Dynamic Access Control developer extensibility DACx , enumerate definitions"]
+keywords:
+- Dynamic Access Control developer extensibility DACx , enumerate definitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to read Dynamic Access Control objects using LDAP

@@ -1,12 +1,17 @@
 ---
 title: Registering COM Servers
 description: Registering COM Servers
-ms.assetid: 'aaa09a1b-deb8-424f-a911-ae22d39919d3'
+ms.assetid: aaa09a1b-deb8-424f-a911-ae22d39919d3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering COM Servers
 
-After you have defined a class in code (ensuring that it implements [**IClassFactory**](iclassfactory.md) or [**IClassFactory2**](iclassfactory2.md)) and assigned it a CLSID, you need to put information in the registry that will allow COM, on request of a client with the CLSID, to create instances of its objects. This information tells the system, for a given CLSID, where the DLL or EXE code for that class is located and how it is to be launched.
+After you have defined a class in code (ensuring that it implements [**IClassFactory**](/windows/win32/unknwnbase/nn-unknwn-iclassfactory?branch=master) or [**IClassFactory2**](/windows/win32/OCIdl/nn-ocidl-iclassfactory2?branch=master)) and assigned it a CLSID, you need to put information in the registry that will allow COM, on request of a client with the CLSID, to create instances of its objects. This information tells the system, for a given CLSID, where the DLL or EXE code for that class is located and how it is to be launched.
 
 There is more than one way of registering a class in the registry. In addition, there are other ways of "registering" a class with the system when it is running, so that the system is aware that a running object is currently in the system.
 

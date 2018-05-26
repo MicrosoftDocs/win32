@@ -1,8 +1,28 @@
 ---
 title: Automated Component Revocation and Renewal
 description: Automated Component Revocation and Renewal
-ms.assetid: 'be4899d7-1d87-4450-8c0e-75cf112ca66a'
-keywords: ["Windows Media Format SDK,automated revocation and renewal", "Windows Media Format SDK,revocation", "Windows Media Format SDK,renewal", "digital rights management (DRM),automated revocation and renewal", "DRM (digital rights management),automated revocation and renewal", "digital rights management (DRM),revocation", "DRM (digital rights management),revocation", "digital rights management (DRM),renewal", "DRM (digital rights management),renewal", "DRM Client Extended APIs,automated revocation and renewal", "Client Extended APIs,automated revocation and renewal", "DRM Client Extended APIs,revocation", "Client Extended APIs,revocation", "DRM Client Extended APIs,renewal", "Client Extended APIs,renewal"]
+ms.assetid: be4899d7-1d87-4450-8c0e-75cf112ca66a
+keywords:
+- Windows Media Format SDK,automated revocation and renewal
+- Windows Media Format SDK,revocation
+- Windows Media Format SDK,renewal
+- digital rights management (DRM),automated revocation and renewal
+- DRM (digital rights management),automated revocation and renewal
+- digital rights management (DRM),revocation
+- DRM (digital rights management),revocation
+- digital rights management (DRM),renewal
+- DRM (digital rights management),renewal
+- DRM Client Extended APIs,automated revocation and renewal
+- Client Extended APIs,automated revocation and renewal
+- DRM Client Extended APIs,revocation
+- Client Extended APIs,revocation
+- DRM Client Extended APIs,renewal
+- Client Extended APIs,renewal
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automated Component Revocation and Renewal

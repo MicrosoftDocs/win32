@@ -1,7 +1,12 @@
 ---
 title: Relational Operators
 description: Relational Operators
-ms.assetid: 'a147340d-bc96-419f-b3c7-8dd01411fb1b'
+ms.assetid: a147340d-bc96-419f-b3c7-8dd01411fb1b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Relational Operators

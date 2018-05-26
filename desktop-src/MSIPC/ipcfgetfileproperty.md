@@ -4,11 +4,12 @@ description: Queries the properties of an IPCF\_FILE\_HANDLE or the file represe
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '2aebb209-ddbc-4962-a447-b476e39c620b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 2aebb209-ddbc-4962-a447-b476e39c620b
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcfGetFileProperty function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcfGetFileProperty function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcfGetFileProperty function
@@ -28,9 +32,9 @@ Queries the properties of an **IPCF\_FILE\_HANDLE** or the file represented by i
 
 ```C++
 EXTERN_C HRESULT WINAPI IpcfGetFileProperty(
-  _In_  IPCF_FILE_HANDLE hFile,
-  _In_  DWORD            dwPropId,
-  _Out_ LPVOID           *ppvProperty
+  _In_  IPCF_FILE_HANDLE hFile,
+  _In_  DWORD            dwPropId,
+  _Out_ LPVOID           *ppvProperty
 );
 ```
 
@@ -68,7 +72,7 @@ Describes the file range indicating the offset and size of the protected file he
 > [!Note]  
 > For **IpcfGetFileProperty***ppvProperty* is of type **PIPCF\_FILE\_RANGE**\*.
 
- 
+ 
 
 </dd> <dt>
 
@@ -82,14 +86,14 @@ Describes the file range indicating the offset and size of the protected file he
 > \[!Important\]  
 > This is currently not implemented and returns **E\_NOTIMPL** if called.
 
- 
+ 
 
 Describes the handle to the key which is used to protect the content of the file specified by parameter *hFile*.
 
 > [!Note]  
 > For **IpcfGetFileProperty***ppvProperty* is of type **IPC\_KEY\_HANDLE**\*.
 
- 
+ 
 
 </dd> <dt>
 
@@ -105,7 +109,7 @@ Specifies the size of blocks with which the data will be accessed.
 > [!Note]  
 > For **IpcfGetFileProperty***ppvProperty* is of type **LPDWORD**\*.
 
- 
+ 
 
 </dd> <dt>
 
@@ -119,14 +123,14 @@ Specifies the size of blocks with which the data will be accessed.
 > \[!Important\]  
 > This is currently not implemented and returns **E\_NOTIMPL** if called.
 
- 
+ 
 
 Specifies the basic information about the file represented by the parameter *hFile*.
 
 > [!Note]  
 > For **IpcfGetFileProperty***ppvProperty* is of type **PIPCF\_FILE\_BASIC\_INFORMATION**\*.
 
- 
+ 
 
 </dd> </dl> </dd> <dt>
 
@@ -140,7 +144,7 @@ The structure of the property information depends on the *dwPropID* parameter.
 > [!Note]  
 > The buffer is allocated by the AD RMS SDK 2.1 and must be freed by calling [**IpcFreeMemory**](ipcfreememory.md).
 
- 
+ 
 
 </dd> </dl>
 
@@ -148,7 +152,7 @@ The structure of the property information depends on the *dwPropID* parameter.
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 ## Requirements
 
@@ -156,17 +160,17 @@ For more information, see [**Error codes**](error-codes.md) for a description of
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcfile.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

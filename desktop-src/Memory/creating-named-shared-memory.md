@@ -1,7 +1,12 @@
 ---
-Description: 'To share data, multiple processes can use memory-mapped files that the system paging file stores.'
-ms.assetid: '17458be2-3ef7-42f2-a717-abf73ac4846f'
+Description: To share data, multiple processes can use memory-mapped files that the system paging file stores.
+ms.assetid: 17458be2-3ef7-42f2-a717-abf73ac4846f
 title: Creating Named Shared Memory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Named Shared Memory
@@ -10,9 +15,9 @@ To share data, multiple processes can use memory-mapped files that the system pa
 
 ## First Process
 
-The first process creates the file mapping object by calling the [**CreateFileMapping**](createfilemapping.md) function with **INVALID\_HANDLE\_VALUE** and a name for the object. By using the **PAGE\_READWRITE** flag, the process has read/write permission to the memory through any file views that are created.
+The first process creates the file mapping object by calling the [**CreateFileMapping**](/windows/win32/WinBase/nf-winbase-createfilemappinga?branch=master) function with **INVALID\_HANDLE\_VALUE** and a name for the object. By using the **PAGE\_READWRITE** flag, the process has read/write permission to the memory through any file views that are created.
 
-Then the process uses the file mapping object handle that [**CreateFileMapping**](createfilemapping.md) returns in a call to [**MapViewOfFile**](mapviewoffile.md) to create a view of the file in the process address space. The **MapViewOfFile** function returns a pointer to the file view, `pBuf`. The process then uses the [**CopyMemory**](copymemory.md) function to write a string to the view that can be accessed by other processes.
+Then the process uses the file mapping object handle that [**CreateFileMapping**](/windows/win32/WinBase/nf-winbase-createfilemappinga?branch=master) returns in a call to [**MapViewOfFile**](mapviewoffile.md) to create a view of the file in the process address space. The **MapViewOfFile** function returns a pointer to the file view, `pBuf`. The process then uses the [**CopyMemory**](/windows/win32/WinBase/?branch=master) function to write a string to the view that can be accessed by other processes.
 
 Prefixing the file mapping object names with "Global\\" allows processes to communicate with each other even if they are in different terminal server sessions. This requires that the first process must have the [**SeCreateGlobalPrivilege**](security.privilege_constants) privilege.
 
@@ -80,7 +85,7 @@ int _tmain()
 
 ## Second Process
 
-A second process can access the string written to the shared memory by the first process by calling the [**OpenFileMapping**](openfilemapping.md) function specifying the same name for the mapping object as the first process. Then it can use the [**MapViewOfFile**](mapviewoffile.md) function to obtain a pointer to the file view, `pBuf`. The process can display this string as it would any other string. In this example, the message box displayed contains the message "Message from first process" that was written by the first process.
+A second process can access the string written to the shared memory by the first process by calling the [**OpenFileMapping**](/windows/win32/WinBase/nf-winbase-openfilemappinga?branch=master) function specifying the same name for the mapping object as the first process. Then it can use the [**MapViewOfFile**](mapviewoffile.md) function to obtain a pointer to the file view, `pBuf`. The process can display this string as it would any other string. In this example, the message box displayed contains the message "Message from first process" that was written by the first process.
 
 
 ```C++

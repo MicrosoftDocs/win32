@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_SET\_USER\_DATA message
 description: The WM\_CAP\_SET\_USER\_DATA message associates a LONG\_PTR data value with a capture window. You can send this message explicitly or by using the capSetUserData macro.
-ms.assetid: '067502e3-f009-4cf2-b612-4a0b64624416'
-keywords: ["WM_CAP_SET_USER_DATA message Windows Multimedia"]
+ms.assetid: 067502e3-f009-4cf2-b612-4a0b64624416
+keywords:
+- WM_CAP_SET_USER_DATA message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_SET\_USER\_DATA message
 
-The **WM\_CAP\_SET\_USER\_DATA** message associates a **LONG\_PTR** data value with a capture window. You can send this message explicitly or by using the [**capSetUserData**](capsetuserdata.md) macro.
+The **WM\_CAP\_SET\_USER\_DATA** message associates a **LONG\_PTR** data value with a capture window. You can send this message explicitly or by using the [**capSetUserData**](/windows/win32/Vfw/nf-vfw-capsetuserdata?branch=master) macro.
 
 
 ```C++
@@ -51,8 +57,8 @@ Typically this message is used to point to a block of data associated with a cap
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -67,9 +73,9 @@ Typically this message is used to point to a block of data associated with a cap
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

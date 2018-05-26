@@ -1,7 +1,12 @@
 ---
 Description: MSWebDVD Object
-ms.assetid: '74187af4-a86d-4dec-a1f4-203fda0c6309'
+ms.assetid: 74187af4-a86d-4dec-a1f4-203fda0c6309
 title: MSWebDVD Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSWebDVD Object

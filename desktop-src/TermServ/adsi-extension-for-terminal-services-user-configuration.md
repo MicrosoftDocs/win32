@@ -4,11 +4,15 @@ description: An Active Directory Service Interface (ADSI) extension is a special
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7d79eed4-0bb9-4053-9f88-caab74ca2f3b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 7d79eed4-0bb9-4053-9f88-caab74ca2f3b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , ADSI extension for"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , ADSI extension for
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI extension for Remote Desktop Services user configuration

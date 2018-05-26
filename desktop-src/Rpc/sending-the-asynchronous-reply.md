@@ -1,14 +1,19 @@
 ---
 title: Sending the Asynchronous Reply
 description: When the asynchronous call is complete, the server sends a reply to the client by calling the RpcAsyncCompleteCall function and passing it the asynchronous handle.
-ms.assetid: '458bc476-963e-4812-b4c2-9074ff0a8284'
+ms.assetid: 458bc476-963e-4812-b4c2-9074ff0a8284
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending the Asynchronous Reply
 
-When the asynchronous call is complete, the server sends a reply to the client by calling the [**RpcAsyncCompleteCall**](rpcasynccompletecall.md) function and passing it the asynchronous handle. This call is necessary even if the asynchronous call has a void return value and no \[out\] parameters. If the function has a return value, it is passed by reference to **RpcAsyncCompleteCall**.
+When the asynchronous call is complete, the server sends a reply to the client by calling the [**RpcAsyncCompleteCall**](/windows/win32/Rpcasync/nf-rpcasync-rpcasynccompletecall?branch=master) function and passing it the asynchronous handle. This call is necessary even if the asynchronous call has a void return value and no \[out\] parameters. If the function has a return value, it is passed by reference to **RpcAsyncCompleteCall**.
 
-When the server calls [**RpcAsyncCompleteCall**](rpcasynccompletecall.md) or **RpcAsyncAbortCall**, or a call completes because an exception was raised in the server-manager routine, the RPC run-time library automatically destroys the server's asynchronous handle.
+When the server calls [**RpcAsyncCompleteCall**](/windows/win32/Rpcasync/nf-rpcasync-rpcasynccompletecall?branch=master) or **RpcAsyncAbortCall**, or a call completes because an exception was raised in the server-manager routine, the RPC run-time library automatically destroys the server's asynchronous handle.
 
 > [!Note]  
 > The server must finish updating the \[in, out\] and \[out\] parameters before calling **RpcAsyncCompleteCall**. No changes can be made to those parameters or to the asynchronous handle after calling **RpcAsyncCompleteCall**. If the **RpcAsyncCompleteCall** function call fails, the RPC runtime frees the parameters.
@@ -92,16 +97,16 @@ For the sake of simplicity, this asynchronous server routine does not process ac
 
 <dl> <dt>
 
-[**RPC\_ASYNC\_STATE**](rpc-async-state.md)
+[**RPC\_ASYNC\_STATE**](/windows/win32/Rpcasync/ns-rpcasync-_rpc_async_state?branch=master)
 </dt> <dt>
 
-[**RpcAsyncCompleteCall**](rpcasynccompletecall.md)
+[**RpcAsyncCompleteCall**](/windows/win32/Rpcasync/nf-rpcasync-rpcasynccompletecall?branch=master)
 </dt> <dt>
 
-[**RpcAsyncAbortCall**](rpcasyncabortcall.md)
+[**RpcAsyncAbortCall**](/windows/win32/Rpcasync/nf-rpcasync-rpcasyncabortcall?branch=master)
 </dt> <dt>
 
-[**RpcServerTestCancel**](rpcservertestcancel.md)
+[**RpcServerTestCancel**](/windows/win32/Rpcdce/nf-rpcdce-rpcservertestcancel?branch=master)
 </dt> </dl>
 
  

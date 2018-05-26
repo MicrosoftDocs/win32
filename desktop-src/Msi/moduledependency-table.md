@@ -1,7 +1,12 @@
 ---
-Description: 'The ModuleDependency table keeps a list of other merge modules that are required for this merge module to operate properly.'
-ms.assetid: '36418331-bec7-40c9-8fdf-fe4b958a1443'
+Description: The ModuleDependency table keeps a list of other merge modules that are required for this merge module to operate properly.
+ms.assetid: 36418331-bec7-40c9-8fdf-fe4b958a1443
 title: ModuleDependency Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModuleDependency Table

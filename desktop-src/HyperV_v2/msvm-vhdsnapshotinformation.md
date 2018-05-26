@@ -1,7 +1,12 @@
 ---
-Description: 'Provides information about a snapshot within a VHD Set file.'
-ms.assetid: '922bf0b8-523d-488e-9a41-1a27594e2e44'
-title: 'Msvm\_VHDSnapshotInformation class'
+Description: Provides information about a snapshot within a VHD Set file.
+ms.assetid: 922bf0b8-523d-488e-9a41-1a27594e2e44
+title: Msvm\_VHDSnapshotInformation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VHDSnapshotInformation class
@@ -16,12 +21,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [AMENDMENT]
 class Msvm_VHDSnapshotInformation
 {
-  string   FilePath;
-  string   SnapshotId;
-  string   SnapshotPath;
-  string   ParentPathsList[];
+  string   FilePath;
+  string   SnapshotId;
+  string   SnapshotPath;
+  string   ParentPathsList[];
   DATETIME CreationTime;
-  string   ResilientChangeTrackingId;
+  string   ResilientChangeTrackingId;
 };
 ```
 
@@ -121,17 +126,17 @@ The path of the file represented by this snapshot. This field may be empty if th
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

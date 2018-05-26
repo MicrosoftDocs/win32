@@ -1,8 +1,17 @@
 ---
 title: Extensible Authentication Protocol
 description: The Extensible Authentication Protocol (EAP) is a standard supported by several system components. EAP is crucial for protecting the security of wireless (802.1X) and wired LANs, Dial-up, and Virtual Private Networks (VPNs).
-ms.assetid: 'bdbac41e-064c-445f-8f86-a6e2eff2a683'
-keywords: ["Extensible Authentication Protocol", "Extensible Authentication Protocol, start page", "EAP", "EAP, See Extensible Authentication Protocol"]
+ms.assetid: bdbac41e-064c-445f-8f86-a6e2eff2a683
+keywords:
+- Extensible Authentication Protocol
+- Extensible Authentication Protocol, start page
+- EAP
+- EAP, See Extensible Authentication Protocol
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extensible Authentication Protocol

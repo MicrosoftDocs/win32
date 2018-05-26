@@ -1,7 +1,12 @@
 ---
-Description: 'Describes current active sessions for NAT.'
-ms.assetid: '4b30006b-73ef-4a28-a80e-bd10bd4a6445'
-title: 'MSFT\_NetNatTransitionMonitoring class'
+Description: Describes current active sessions for NAT.
+ms.assetid: 4b30006b-73ef-4a28-a80e-bd10bd4a6445
+title: MSFT\_NetNatTransitionMonitoring class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetNatTransitionMonitoring class
@@ -93,17 +98,17 @@ Specifies the transport protocol being translated.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCIMV2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

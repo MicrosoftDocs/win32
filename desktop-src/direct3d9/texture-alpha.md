@@ -1,7 +1,12 @@
 ---
-Description: 'Alpha values can also be provided by textures.'
-ms.assetid: 'b9f53783-d4d8-4339-8cf3-5ad8305ff627'
-title: 'Texture Alpha (Direct3D 9)'
+Description: Alpha values can also be provided by textures.
+ms.assetid: b9f53783-d4d8-4339-8cf3-5ad8305ff627
+title: Texture Alpha (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture Alpha (Direct3D 9)

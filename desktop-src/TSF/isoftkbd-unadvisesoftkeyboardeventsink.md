@@ -1,8 +1,11 @@
 ---
 title: ISoftKbd UnadviseSoftKeyboardEventSink method
 description: The ISoftKbd UnadviseSoftKeyboardEventSink method removes a soft keyboard event sink.
-ms.assetid: '785340bd-c4f6-4c80-a492-6e60d1c1d552'
-keywords: ["UnadviseSoftKeyboardEventSink method Text Services Framework", "UnadviseSoftKeyboardEventSink method Text Services Framework , ISoftKbd interface", "ISoftKbd interface Text Services Framework , UnadviseSoftKeyboardEventSink method"]
+ms.assetid: 785340bd-c4f6-4c80-a492-6e60d1c1d552
+keywords:
+- UnadviseSoftKeyboardEventSink method Text Services Framework
+- UnadviseSoftKeyboardEventSink method Text Services Framework , ISoftKbd interface
+- ISoftKbd interface Text Services Framework , UnadviseSoftKeyboardEventSink method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISoftKbd::UnadviseSoftKeyboardEventSink method
@@ -22,7 +30,7 @@ The **ISoftKbd::UnadviseSoftKeyboardEventSink** method removes a soft keyboard e
 
 ```C++
 HRESULT UnadviseSoftKeyboardEventSink(
-  [in] TfClientId tid
+  [in] TfClientId tid
 );
 ```
 
@@ -53,7 +61,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -61,9 +69,9 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
 | Header<br/>                   | <dl> <dt>Softkbdc.h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Softkbd.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
@@ -80,9 +88,9 @@ This method can return one of these values.
 [ISoftKbd::AdviseSoftKeyboardEventSink](isoftkbd-advisesoftkeyboardeventsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: XInput and DirectInput
 description: XInput is an API that allows applications to receive input from the Xbox 360 Controller for Windows.
-ms.assetid: '0f29a47b-24ed-c0fa-e9e9-8a061619845c'
+ms.assetid: 0f29a47b-24ed-c0fa-e9e9-8a061619845c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XInput and DirectInput

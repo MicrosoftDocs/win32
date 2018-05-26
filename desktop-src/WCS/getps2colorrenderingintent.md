@@ -1,8 +1,9 @@
 ---
 title: GetPS2ColorRenderingIntent function
 description: The GetPS2ColorRenderingIntent function retrieves the PostScript Level 2 color rendering intent from an ICC color profile.
-ms.assetid: '2cb056d1-a3d5-4492-80ed-07c34f80c8db'
-keywords: ["GetPS2ColorRenderingIntent function Windows Color System"]
+ms.assetid: 2cb056d1-a3d5-4492-80ed-07c34f80c8db
+keywords:
+- GetPS2ColorRenderingIntent function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetPS2ColorRenderingIntent function
@@ -22,10 +28,10 @@ The **GetPS2ColorRenderingIntent** function retrieves the PostScript Level 2 col
 
 ```C++
 BOOL WINAPI GetPS2ColorRenderingIntent(
-   HPROFILE hProfile,
-   DWORD    dwIntent,
-   PBYTE    pBuffer,
-   PDWORD   pcbSize
+   HPROFILE hProfile,
+   DWORD    dwIntent,
+   PBYTE    pBuffer,
+   PDWORD   pcbSize
 );
 ```
 
@@ -49,15 +55,15 @@ Specifies the desired rendering intent to retrieve. Valid values are:
 
 INTENT\_PERCEPTUAL
 
- 
+ 
 
 INTENT\_SATURATION
 
- 
+ 
 
 INTENT\_RELATIVE\_COLORIMETRIC
 
- 
+ 
 
 INTENT\_ABSOLUTE\_COLORIMETRIC
 
@@ -97,8 +103,8 @@ This method does not support WCS profiles.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -115,9 +121,9 @@ This method does not support WCS profiles.
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

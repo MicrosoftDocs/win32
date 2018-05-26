@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPPARAMS structure is used as an input parameter to a rendering plug-in''s IPrintOemUni::ImageProcessing method.'
-ms.assetid: '14ed4180-9ac1-46dd-af76-8d79a2a1fd2d'
+---
+Description: The IPPARAMS structure is used as an input parameter to a rendering plug-ins IPrintOemUniImageProcessing method.
+ms.assetid: 14ed4180-9ac1-46dd-af76-8d79a2a1fd2d
 title: IPPARAMS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPPARAMS structure

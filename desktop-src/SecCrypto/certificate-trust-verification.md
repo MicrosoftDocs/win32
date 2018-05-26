@@ -1,7 +1,12 @@
 ---
-Description: 'A trust must exist between the recipient of a signed message and the signer of the message.'
-ms.assetid: '770e4674-8896-4062-a93a-a17bd30a9129'
+Description: A trust must exist between the recipient of a signed message and the signer of the message.
+ms.assetid: 770e4674-8896-4062-a93a-a17bd30a9129
 title: Certificate Trust Verification
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Trust Verification

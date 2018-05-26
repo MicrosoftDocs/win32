@@ -1,7 +1,12 @@
 ---
 title: Pit Tag
 description: Pit Tag
-ms.assetid: 'bad439e0-5e5d-4413-aed4-c29bf694cb2a'
+ms.assetid: bad439e0-5e5d-4413-aed4-c29bf694cb2a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pit Tag

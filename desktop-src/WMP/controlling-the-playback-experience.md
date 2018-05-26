@@ -1,8 +1,24 @@
 ---
 title: Controlling the Playback Experience
 description: Controlling the Playback Experience
-ms.assetid: 'f130eee1-10ef-4cbe-b6ac-8ad24e1f0f34'
-keywords: ["Windows Media metafile playlists,controlling playback", "playlists,controlling playback", "metafile playlists,controlling playback", "Windows Media metafile playlists,playback issues", "playlists,playback issues", "metafile playlists,playback issues", "controlling playback", "Windows Media Player,controlling playback", "Windows Media Player,playback issues", "HTMLView,playback issues", "HTMLView,controlling playback"]
+ms.assetid: f130eee1-10ef-4cbe-b6ac-8ad24e1f0f34
+keywords:
+- Windows Media metafile playlists,controlling playback
+- playlists,controlling playback
+- metafile playlists,controlling playback
+- Windows Media metafile playlists,playback issues
+- playlists,playback issues
+- metafile playlists,playback issues
+- controlling playback
+- Windows Media Player,controlling playback
+- Windows Media Player,playback issues
+- HTMLView,playback issues
+- HTMLView,controlling playback
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controlling the Playback Experience

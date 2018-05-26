@@ -1,12 +1,17 @@
 ---
-Description: 'The Commit method allocates the memory for the buffers. This method implements the IMemAllocator::Commit method.'
-ms.assetid: 'e8c36276-0229-428f-b030-978651ab7534'
-title: 'CBaseAllocator.Commit method'
+Description: The Commit method allocates the memory for the buffers. This method implements the IMemAllocatorCommit method.
+ms.assetid: e8c36276-0229-428f-b030-978651ab7534
+title: CBaseAllocator.Commit method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator.Commit method
 
-The `Commit` method allocates the memory for the buffers. This method implements the [**IMemAllocator::Commit**](imemallocator-commit.md) method.
+The `Commit` method allocates the memory for the buffers. This method implements the [**IMemAllocator::Commit**](/windows/win32/Strmif/nf-strmif-imemallocator-commit?branch=master) method.
 
 ## Syntax
 
@@ -34,7 +39,7 @@ Returns an **HRESULT** value. Possible values include those in the following lis
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,9 +67,9 @@ You must call this method before calling the [**CBaseAllocator::GetBuffer**](cba
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

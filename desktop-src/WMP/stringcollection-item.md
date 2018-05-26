@@ -1,8 +1,11 @@
 ---
 title: StringCollection.item method
 description: The item method retrieves the string at the specified index.
-ms.assetid: '05e7fd0c-1226-4680-a9aa-543111fd2bdf'
-keywords: ["item method Windows Media Player", "item method Windows Media Player , StringCollection class", "StringCollection class Windows Media Player , item method"]
+ms.assetid: 05e7fd0c-1226-4680-a9aa-543111fd2bdf
+keywords:
+- item method Windows Media Player
+- item method Windows Media Player , StringCollection class
+- StringCollection class Windows Media Player , item method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StringCollection.item method
@@ -76,9 +84,9 @@ To use this method, read access to the library is required. For more information
 [**StringCollection Object**](stringcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

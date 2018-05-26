@@ -1,14 +1,19 @@
 ---
 Description: AVI Mux Filter
-ms.assetid: '31d30c91-fc6a-45ec-a2e0-34e6a1e902a4'
+ms.assetid: 31d30c91-fc6a-45ec-a2e0-34e6a1e902a4
 title: AVI Mux Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVI Mux Filter
 
 The AVI Mux filter accepts multiple input streams and interleaves them into AVI format. The filter uses separate input pins for each input stream, and one output pin for the AVI stream.
 
-Video capture or authoring applications can use this filter to save files to disk in AVI format. The filter is typically connected to the [File Writer](file-writer-filter.md) filter, but it can connect to any filter whose input pin supports the IStream and [**IMemInputPin**](imeminputpin.md) interfaces.
+Video capture or authoring applications can use this filter to save files to disk in AVI format. The filter is typically connected to the [File Writer](file-writer-filter.md) filter, but it can connect to any filter whose input pin supports the IStream and [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interfaces.
 
 
 
@@ -20,7 +25,7 @@ Video capture or authoring applications can use this filter to save files to dis
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IBaseFilter</strong>](ibasefilter.md), [<strong>IConfigAviMux</strong>](iconfigavimux.md), [<strong>IConfigInterleaving</strong>](iconfiginterleaving.md), [<strong>IMediaSeeking</strong>](imediaseeking.md), [<strong>IPersistMediaPropertyBag</strong>](ipersistmediapropertybag.md), ISpecifyPropertyPages</td>
+<td>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [<strong>IConfigAviMux</strong>](/windows/win32/Strmif/nn-strmif-iconfigavimux?branch=master), [<strong>IConfigInterleaving</strong>](/windows/win32/Strmif/nn-strmif-iconfiginterleaving?branch=master), [<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [<strong>IPersistMediaPropertyBag</strong>](/windows/win32/Strmif/nn-strmif-ipersistmediapropertybag?branch=master), ISpecifyPropertyPages</td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -33,7 +38,7 @@ Video capture or authoring applications can use this filter to save files to dis
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IAMStreamControl</strong>](iamstreamcontrol.md), [<strong>IMemInputPin</strong>](imeminputpin.md), [<strong>IPin</strong>](ipin.md), IPropertyBag, [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IAMStreamControl</strong>](/windows/win32/Strmif/nn-strmif-iamstreamcontrol?branch=master), [<strong>IMemInputPin</strong>](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), IPropertyBag, [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -41,7 +46,7 @@ Video capture or authoring applications can use this filter to save files to dis
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -96,7 +101,7 @@ If the filter is running or paused, the IPropertyBag::Write method returns VFW\_
 
 Frame Rates
 
-If the upstream filter does not specify a frame rate in the **AvgTimePerFrame** member of the [**VIDEOINFOHEADER**](videoinfoheader.md) structure, the AVI Mux uses the time stamps on the first video frame. The AVI file format does not support variable frame rates.
+If the upstream filter does not specify a frame rate in the **AvgTimePerFrame** member of the [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure, the AVI Mux uses the time stamps on the first video frame. The AVI file format does not support variable frame rates.
 
 Dropped Frames
 
@@ -104,10 +109,10 @@ The AVI Mux filter calculates dropped frames based on each sample's media times,
 
 IMediaSeeking
 
-The AVI Mux filter implements the [**IMediaSeeking**](imediaseeking.md) interface as follows:
+The AVI Mux filter implements the [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) interface as follows:
 
--   The [**GetCurrentPosition**](imediaseeking-getcurrentposition.md) method returns the current progress of the multiplexing. If you are transcoding a file (slower than real time), this value is more accurate than the value returned by the Filter Graph Manager. For more information, see the Remarks section of the GetCurrentPosition reference page.
--   The [**GetDuration**](imediaseeking-getduration.md) method queries each upstream filter and returns the duration of the longest stream. If any of these filters fails the GetDuration call (or does not support IMediaSeeking), the AVI Mux returns a failure code and fills in the *pDuration* parameter with the longest duration found. However, the value of *pDuration* in this case is not necessarily the length of the longest input stream.
+-   The [**GetCurrentPosition**](/windows/win32/Strmif/nf-strmif-imediaseeking-getcurrentposition?branch=master) method returns the current progress of the multiplexing. If you are transcoding a file (slower than real time), this value is more accurate than the value returned by the Filter Graph Manager. For more information, see the Remarks section of the GetCurrentPosition reference page.
+-   The [**GetDuration**](/windows/win32/Strmif/nf-strmif-imediaseeking-getduration?branch=master) method queries each upstream filter and returns the duration of the longest stream. If any of these filters fails the GetDuration call (or does not support IMediaSeeking), the AVI Mux returns a failure code and fills in the *pDuration* parameter with the longest duration found. However, the value of *pDuration* in this case is not necessarily the length of the longest input stream.
 -   The AVI Mux does not implement the GetStopPosition, GetPositions, GetAvailable, GetRate, or GetPreroll methods; nor does it implement any Set\* methods for seeking.
 
 AVI 2.0 File Format Extensions

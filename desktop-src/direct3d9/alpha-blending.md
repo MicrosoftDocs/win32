@@ -1,7 +1,12 @@
 ---
-Description: 'Alpha blending is used to display an image that has transparent or semi-transparent pixels.'
-ms.assetid: '553b0bc8-1bd8-4282-9260-cdc5f2b8788d'
-title: 'Alpha Blending (Direct3D 9)'
+Description: Alpha blending is used to display an image that has transparent or semi-transparent pixels.
+ms.assetid: 553b0bc8-1bd8-4282-9260-cdc5f2b8788d
+title: Alpha Blending (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Alpha Blending (Direct3D 9)

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetPartCompression method sets the compression of the part.'
-ms.assetid: '4e407266-4789-4de7-bcc8-7e9bb54804ed'
-title: 'IPartBase::SetPartCompression method'
+---
+Description: The SetPartCompression method sets the compression of the part.
+ms.assetid: 4e407266-4789-4de7-bcc8-7e9bb54804ed
+title: IPartBaseSetPartCompression method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartBase::SetPartCompression method

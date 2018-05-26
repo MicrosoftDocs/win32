@@ -1,7 +1,12 @@
 ---
-Description: 'The RSM MMC snap-in is an administrative interface to RSM that is a snap-in for the Microsoft Management Console (MMC).'
-ms.assetid: '8a1e5272-bc31-4c23-8347-4e996acdac72'
-title: 'RSM MMC Snap-in'
+Description: The RSM MMC snap-in is an administrative interface to RSM that is a snap-in for the Microsoft Management Console (MMC).
+ms.assetid: 8a1e5272-bc31-4c23-8347-4e996acdac72
+title: RSM MMC Snap-in
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSM MMC Snap-in

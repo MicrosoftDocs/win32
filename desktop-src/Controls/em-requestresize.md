@@ -1,8 +1,9 @@
 ---
 title: EM\_REQUESTRESIZE message
 description: Forces a rich edit control to send an EN\_REQUESTRESIZE notification code to its parent window.
-ms.assetid: 'efc22771-9b9f-4a30-a906-f02095607c21'
-keywords: ["EM_REQUESTRESIZE message Windows Controls"]
+ms.assetid: efc22771-9b9f-4a30-a906-f02095607c21
+keywords:
+- EM_REQUESTRESIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_REQUESTRESIZE message
@@ -49,8 +55,8 @@ This message is useful during [**WM\_SIZE**](https://msdn.microsoft.com/library/
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -71,9 +77,9 @@ This message is useful during [**WM\_SIZE**](https://msdn.microsoft.com/library/
 [**WM\_SIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632646)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

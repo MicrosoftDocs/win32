@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies an application when the selected IME needs the converted string from the application. The application receives this command through the WM\_IME\_REQUEST message with parameters set as shown below.'
-ms.assetid: '1a007bed-15e5-4400-9d2f-32e37e1765d2'
-title: 'IMR\_DOCUMENTFEED notification code'
+---
+Description: Notifies an application when the selected IME needs the converted string from the application. The application receives this command through the WM\_IME\_REQUEST message with parameters set as shown below.
+ms.assetid: 1a007bed-15e5-4400-9d2f-32e37e1765d2
+title: IMR\_DOCUMENTFEED notification code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMR\_DOCUMENTFEED notification code
@@ -29,7 +34,7 @@ Set to IMR\_DOCUMENTFEED.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a buffer to contain the [**RECONVERTSTRING**](reconvertstring.md) structure.
+Pointer to a buffer to contain the [**RECONVERTSTRING**](/windows/win32/Imm/ns-imm-tagreconvertstring?branch=master) structure.
 
 </dd> </dl>
 
@@ -69,7 +74,7 @@ With the **IMR\_DOCUMENTFEED** command, the IME can refresh its cached strings a
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**RECONVERTSTRING**](reconvertstring.md)
+[**RECONVERTSTRING**](/windows/win32/Imm/ns-imm-tagreconvertstring?branch=master)
 </dt> <dt>
 
 [**WM\_IME\_REQUEST**](wm-ime-request.md)

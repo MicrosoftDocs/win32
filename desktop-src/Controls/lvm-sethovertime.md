@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETHOVERTIME message
 description: Sets the amount of time which the mouse cursor must hover over an item before it is selected. You can send this message explicitly or use the ListView\_SetHoverTime macro.
-ms.assetid: '454fbc38-f7fd-4dea-b223-56003b88528f'
-keywords: ["LVM_SETHOVERTIME message Windows Controls"]
+ms.assetid: 454fbc38-f7fd-4dea-b223-56003b88528f
+keywords:
+- LVM_SETHOVERTIME message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETHOVERTIME message
 
-Sets the amount of time which the mouse cursor must hover over an item before it is selected. You can send this message explicitly or use the [**ListView\_SetHoverTime**](listview-sethovertime.md) macro.
+Sets the amount of time which the mouse cursor must hover over an item before it is selected. You can send this message explicitly or use the [**ListView\_SetHoverTime**](/windows/win32/Commctrl/nf-commctrl-listview_sethovertime?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ The hover time only affects list-view controls that have the [**LVS\_EX\_TRACKSE
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

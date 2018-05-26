@@ -1,8 +1,10 @@
 ---
 title: WMDMDATETIME structure
 description: The WMDMDATETIME structure contains a date and time of day.
-ms.assetid: '47f3994d-66c6-47e4-803d-0c98c70eccc8'
-keywords: ["WMDMDATETIME structure windows Media Device Manager", "PWMDMDATETIME structure pointer windows Media Device Manager"]
+ms.assetid: 47f3994d-66c6-47e4-803d-0c98c70eccc8
+keywords:
+- WMDMDATETIME structure windows Media Device Manager
+- PWMDMDATETIME structure pointer windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDMDATETIME structure
@@ -93,10 +100,10 @@ Word containing the second (0-59).
 
 <dl> <dt>
 
-[**IMDSPStorage::GetDate**](imdspstorage-getdate.md)
+[**IMDSPStorage::GetDate**](/windows/win32/mswmdm/nf-mswmdm-imdspstorage-getdate?branch=master)
 </dt> <dt>
 
-[**IWMDMStorage::GetDate**](iwmdmstorage-getdate.md)
+[**IWMDMStorage::GetDate**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage-getdate?branch=master)
 </dt> <dt>
 
 [**WMDMRIGHTS**](wmdmrights.md)
@@ -105,9 +112,9 @@ Word containing the second (0-59).
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: D3DDisassemble function
 description: Disassembles compiled HLSL code.
-ms.assetid: '0b5cfe31-1277-4923-a6e2-7e020019b74c'
-keywords: ["D3DDisassemble function HLSL"]
+ms.assetid: 0b5cfe31-1277-4923-a6e2-7e020019b74c
+keywords:
+- D3DDisassemble function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dcompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDisassemble function
@@ -21,11 +27,11 @@ Disassembles compiled HLSL code.
 
 ``` syntax
 HRESULT WINAPI D3DDisassemble(
-  in     LPCVOID pSrcData,
-  in     SIZE_T SrcDataSize,
-  in     UINT Flags,
-  in_opt LPCSTR szComments,
-  out    ID3DBlob ppDisassembly
+  in     LPCVOID pSrcData,
+  in     SIZE_T SrcDataSize,
+  in     UINT Flags,
+  in_opt LPCSTR szComments,
+  out    ID3DBlob ppDisassembly
 );
 ```
 
@@ -73,7 +79,7 @@ Flags affecting the behavior of **D3DDisassemble**. *Flags* can be a combination
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -120,9 +126,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

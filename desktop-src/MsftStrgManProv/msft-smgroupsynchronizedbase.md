@@ -4,11 +4,13 @@ description: Represents the synchronization status of a replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd87dc717-5a8f-4165-b714-7ca3ba769279'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: d87dc717-5a8f-4165-b714-7ca3ba769279
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMGroupSynchronizedBase class", "MSFT_SMGroupSynchronizedBase class, described"]
+keywords:
+- MSFT_SMGroupSynchronizedBase class
+- MSFT_SMGroupSynchronizedBase class, described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMGroupSynchronizedBase class
@@ -56,29 +61,29 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_SMGroupSynchronizedBase : MSFT_SMSynchronizedBase
 {
   datetime WhenSynced;
-  boolean  SyncMaintained;
-  uint16   CopyState;
-  string   CopyStateDescription;
-  uint16   RequestedCopyState = 15;
-  uint16   SyncType;
-  string   SyncTypeDescription;
-  uint16   Mode;
-  string   ModeDescription;
-  uint16   ProgressStatus;
-  string   ProgressStatusDescription;
-  uint16   PercentSynced;
+  boolean  SyncMaintained;
+  uint16   CopyState;
+  string   CopyStateDescription;
+  uint16   RequestedCopyState = 15;
+  uint16   SyncType;
+  string   SyncTypeDescription;
+  uint16   Mode;
+  string   ModeDescription;
+  uint16   ProgressStatus;
+  string   ProgressStatusDescription;
+  uint16   PercentSynced;
   datetime WhenEstablished;
   datetime WhenSynchronized;
   datetime WhenActivated;
   datetime WhenDeactivated;
   datetime WhenSuspended;
-  uint16   CopyType;
-  string   CopyTypeDescription;
-  string   RelationshipName;
-  boolean  ConsistencyEnabled = FALSE;
-  uint16   ConsistencyType;
-  uint16   ConsistencyState = 2;
-  uint16   ConsistencyStatus;
+  uint16   CopyType;
+  string   CopyTypeDescription;
+  string   RelationshipName;
+  boolean  ConsistencyEnabled = FALSE;
+  uint16   ConsistencyType;
+  uint16   ConsistencyState = 2;
+  uint16   ConsistencyStatus;
 };
 ```
 
@@ -160,14 +165,14 @@ Indicates the current state of consistency.
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -231,14 +236,14 @@ Indicates the current status of consistency. Consistency may have been disabled 
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -267,14 +272,14 @@ Indicates the consistency type used by the source and its associated target grou
 **DMTF Reserved**
 
 
-</dt> <dd>3–32767</dd> <dt>
+</dt> <dd>3 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -401,14 +406,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>16–32767</dd> <dt>
+</dt> <dd>16 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -477,14 +482,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–...</dd> </dl>
+</dt> <dd>32768 ...</dd> </dl>
 
 </dd> <dt>
 
@@ -547,14 +552,14 @@ This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchroniz
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -763,14 +768,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>22–32767</dd> <dt>
+</dt> <dd>22 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–...</dd> </dl>
+</dt> <dd>32768 ...</dd> </dl>
 
 </dd> <dt>
 
@@ -925,14 +930,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>16–32767</dd> <dt>
+</dt> <dd>16 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -976,7 +981,7 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>0–5</dd> <dt>
+</dt> <dd>0 5</dd> <dt>
 
 <span id="Mirror"></span><span id="mirror"></span><span id="MIRROR"></span>
 
@@ -1004,14 +1009,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–...</dd> </dl>
+</dt> <dd>32768 ...</dd> </dl>
 
 </dd> <dt>
 
@@ -1142,7 +1147,7 @@ This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchroniz
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -1159,9 +1164,9 @@ This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchroniz
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

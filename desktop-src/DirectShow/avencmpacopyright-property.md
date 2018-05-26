@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the default setting for the copyright bit in the MPEG-1 audio stream. This property applies to MPEG audio encoders.'
-ms.assetid: '6029c96f-b1dd-402f-9bac-9021bd897ee4'
+Description: Specifies the default setting for the copyright bit in the MPEG-1 audio stream. This property applies to MPEG audio encoders.
+ms.assetid: 6029c96f-b1dd-402f-9bac-9021bd897ee4
 title: AVEncMPACopyright property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncMPACopyright property
@@ -31,7 +36,7 @@ This property can have the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,8 +48,8 @@ The encoder might override this setting, based on the contents of the input stre
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -56,12 +61,12 @@ The encoder might override this setting, based on the contents of the input stre
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

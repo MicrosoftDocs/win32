@@ -1,7 +1,12 @@
 ---
-Description: 'Use SasHostParameterValue Collection to define the collection of host application values, as well as their type and members, exposed to effects.'
-ms.assetid: '3fef353d-323a-4cc1-a8c9-2bf154754835'
+Description: Use SasHostParameterValue Collection to define the collection of host application values, as well as their type and members, exposed to effects.
+ms.assetid: 3fef353d-323a-4cc1-a8c9-2bf154754835
 title: Data Binding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Binding

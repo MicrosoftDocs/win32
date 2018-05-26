@@ -1,7 +1,12 @@
 ---
-Description: 'The Event Logging reference is divided into the following sections.'
-ms.assetid: '5724bc7a-ba6c-4d4e-b505-bfe10aa460be'
+Description: The Event Logging reference is divided into the following sections.
+ms.assetid: 5724bc7a-ba6c-4d4e-b505-bfe10aa460be
 title: Event Logging Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Logging Reference

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the RecipientNumber property for a FaxTiff object. The RecipientNumber property is a null-terminated string that contains the fax number to which a fax was transmitted.'
-ms.assetid: '5180cb6e-5489-4aeb-99fe-b5648fcabecb'
-title: 'FaxTiff.RecipientNumber property'
+---
+Description: Retrieves the RecipientNumber property for a FaxTiff object. The RecipientNumber property is a null-terminated string that contains the fax number to which a fax was transmitted.
+ms.assetid: 5180cb6e-5489-4aeb-99fe-b5648fcabecb
+title: FaxTiff.RecipientNumber property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxTiff.RecipientNumber property
@@ -61,7 +66,7 @@ The **get\_RecipientNumber** method allocates the memory required for the buffer
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxTiff**](-mfax-ifaxtiff.md)
+[**IFaxTiff**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxtiff?branch=master)
 </dt> <dt>
 
 [**Image**](-mfax-ifaxtiff-get-image-vb.md)

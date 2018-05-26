@@ -1,8 +1,19 @@
 ---
 title: Using the Download Manager
 description: Using the Download Manager
-ms.assetid: 'f332a981-727f-4abc-a84e-76ab3e72b7f2'
-keywords: ["Windows Media Player online stores,Download Manager", "online stores,Download Manager", "type 2 online stores,Download Manager", "Windows Media Player,Download Manager", "Windows Media Player Download Manager", "Download Manager"]
+ms.assetid: f332a981-727f-4abc-a84e-76ab3e72b7f2
+keywords:
+- Windows Media Player online stores,Download Manager
+- online stores,Download Manager
+- type 2 online stores,Download Manager
+- Windows Media Player,Download Manager
+- Windows Media Player Download Manager
+- Download Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Download Manager

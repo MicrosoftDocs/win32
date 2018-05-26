@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the structure of an Advanced Systems Format (ASF) file.'
-ms.assetid: '4a817efa-5452-46bf-8921-2ba199c21949'
+Description: This topic describes the structure of an Advanced Systems Format (ASF) file.
+ms.assetid: 4a817efa-5452-46bf-8921-2ba199c21949
 title: ASF File Structure
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASF File Structure
@@ -22,12 +27,12 @@ The base unit of organization for ASF files is called an *object*. An ASF file o
 
 
 
- 
+ 
 
 > [!Note]  
 > An ASF file object is simply a chunk of data. It is not an object in the computer programming sense.
 
- 
+ 
 
 An ASF file contains three types of top-level file objects.
 
@@ -41,7 +46,7 @@ An ASF file contains three types of top-level file objects.
 
 
 
- 
+ 
 
 The following diagram shows the ASF file structure.
 
@@ -65,7 +70,7 @@ The Header Object can contain additional optional information, including metadat
 
 The ASF Data Object contains all of the media data for the ASF file. This object is mandatory and must follow the ASF Header Object.
 
-The Data Object is divided into data *packets*. Each packet contains data for one or several streams in the file. A data packet contains a data packet header that provides packet parsing information, followed by the payload data—the actual digital media data. All of the data packets have a presentation time associated with it and are arranged in the order received.
+The Data Object is divided into data *packets*. Each packet contains data for one or several streams in the file. A data packet contains a data packet header that provides packet parsing information, followed by the payload data the actual digital media data. All of the data packets have a presentation time associated with it and are arranged in the order received.
 
 Information about the contents of the Data Object, such as the packet size and packet count, is stored in the Header Object.
 
@@ -82,9 +87,9 @@ A Simple Index Object is another type of index.
 [ASF Support in Media Foundation](asf-support-in-media-foundation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

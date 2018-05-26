@@ -1,7 +1,12 @@
-﻿---
-Description: 'Refreshes interface information for a specific wireless LAN interface.'
-ms.assetid: '584b95b7-3218-4e3e-b5d9-9542488af16b'
+---
+Description: Refreshes interface information for a specific wireless LAN interface.
+ms.assetid: 584b95b7-3218-4e3e-b5d9-9542488af16b
 title: WZCRefreshInterface function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WZCRefreshInterface function

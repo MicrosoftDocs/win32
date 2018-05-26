@@ -1,8 +1,9 @@
 ---
-title: \_WAVEFORMATEX structure
+title: '\_WAVEFORMATEX structure'
 description: The \_WAVEFORMATEX structure defines the format of waveform-audio data.
-ms.assetid: '2128f07a-4858-49b7-b031-16d4a84c9d32'
-keywords: ["_WAVEFORMATEX structure windows Media Device Manager"]
+ms.assetid: 2128f07a-4858-49b7-b031-16d4a84c9d32
+keywords:
+- _WAVEFORMATEX structure windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_WAVEFORMATEX structure
@@ -22,13 +28,13 @@ The **\_WAVEFORMATEX** structure defines the format of waveform-audio data.
 
 ```C++
 typedef struct _tWAVEFORMATEX {
-  WORD  wFormatTag;
-  WORD  nChannels;
+  WORD  wFormatTag;
+  WORD  nChannels;
   DWORD nSamplesPerSec;
   DWORD nAvgBytesPerSec;
-  WORD  nBlockAlign;
-  WORD  wBitsPerSample;
-  WORD  cbSize;
+  WORD  nBlockAlign;
+  WORD  wBitsPerSample;
+  WORD  cbSize;
 } _WAVEFORMATEX;
 ```
 
@@ -41,7 +47,7 @@ typedef struct _tWAVEFORMATEX {
 **wFormatTag**
 </dt> <dd>
 
-Must be set to a format or formats supported by the device. Note that previous versions of the Windows Media Device Manager recommended using WMDM\_WAVE\_FORMAT\_ALL to indicate support for all formats. However, this is no longer recommended, as different media players will interpret this in different ways, and few devices can truly play any file format. It is now recommended that you use the WMDM\_ENUM\_PROP\_VALID\_VALUES\_ANY value of the [**WMDM\_ENUM\_PROP\_VALID\_VALUES\_FORM**](wmdm-enum-prop-valid-values-form.md) enumeration, or—better yet—specify a range of formats with the [**WMDM\_PROP\_VALUES\_RANGE**](wmdm-prop-values-range.md) structure.
+Must be set to a format or formats supported by the device. Note that previous versions of the Windows Media Device Manager recommended using WMDM\_WAVE\_FORMAT\_ALL to indicate support for all formats. However, this is no longer recommended, as different media players will interpret this in different ways, and few devices can truly play any file format. It is now recommended that you use the WMDM\_ENUM\_PROP\_VALID\_VALUES\_ANY value of the [**WMDM\_ENUM\_PROP\_VALID\_VALUES\_FORM**](wmdm-enum-prop-valid-values-form.md) enumeration, or better yet specify a range of formats with the [**WMDM\_PROP\_VALUES\_RANGE**](wmdm-prop-values-range.md) structure.
 
 </dd> <dt>
 
@@ -101,33 +107,33 @@ This member is ignored.
 
 <dl> <dt>
 
-[**IMDSPDevice::GetFormatSupport**](imdspdevice-getformatsupport.md)
+[**IMDSPDevice::GetFormatSupport**](/windows/win32/mswmdm/nf-mswmdm-imdspdevice-getformatsupport?branch=master)
 </dt> <dt>
 
-[**IMDSPStorage::CreateStorage**](imdspstorage-createstorage.md)
+[**IMDSPStorage::CreateStorage**](/windows/win32/mswmdm/nf-mswmdm-imdspstorage-createstorage?branch=master)
 </dt> <dt>
 
-[**IMDSPStorage::GetAttributes**](imdspstorage-getattributes.md)
+[**IMDSPStorage::GetAttributes**](/windows/win32/mswmdm/nf-mswmdm-imdspstorage-getattributes?branch=master)
 </dt> <dt>
 
-[**IWMDMDevice::GetFormatSupport**](iwmdmdevice-getformatsupport.md)
+[**IWMDMDevice::GetFormatSupport**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice-getformatsupport?branch=master)
 </dt> <dt>
 
-[**IWMDMOperation::GetObjectAttributes**](iwmdmoperation-getobjectattributes.md)
+[**IWMDMOperation::GetObjectAttributes**](/windows/win32/mswmdm/nf-mswmdm-iwmdmoperation-getobjectattributes?branch=master)
 </dt> <dt>
 
-[**IWMDMOperation::SetObjectAttributes**](iwmdmoperation-setobjectattributes.md)
+[**IWMDMOperation::SetObjectAttributes**](/windows/win32/mswmdm/nf-mswmdm-iwmdmoperation-setobjectattributes?branch=master)
 </dt> <dt>
 
-[**IWMDMStorage::GetAttributes**](iwmdmstorage-getattributes.md)
+[**IWMDMStorage::GetAttributes**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage-getattributes?branch=master)
 </dt> <dt>
 
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

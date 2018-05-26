@@ -4,13 +4,15 @@ description: Associates a MSFTSM\_RegisteredSubProfile instance with a MSFTSM\_R
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'be2677c4-e65e-4ba6-a9a4-f75051d4f61b'
-ms.prod: 'windows-server-dev'
+ms.assetid: be2677c4-e65e-4ba6-a9a4-f75051d4f61b
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFTSM_SubProfileRequiresProfile class iSCSI Software Target API", "MSFTSM_SubProfileRequiresProfile class iSCSI Software Target API , described"]
+keywords:
+- MSFTSM_SubProfileRequiresProfile class iSCSI Software Target API
+- MSFTSM_SubProfileRequiresProfile class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFTSM\_SubProfileRequiresProfile class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Version("2.8.0"), provider("MSiSCSITargetProv")]
 class MSFTSM_SubProfileRequiresProfile : CIM_SubProfileRequiresProfile
 {
-  CIM_RegisteredProfile    REF Antecedent;
+  CIM_RegisteredProfile    REF Antecedent;
   CIM_RegisteredSubProfile REF Dependent;
 };
 ```
@@ -92,16 +97,16 @@ This property is inherited from [**CIM\_SubProfileRequiresProfile**](cim-subprof
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\Interop<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

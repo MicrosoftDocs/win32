@@ -1,8 +1,20 @@
 ---
 title: Generating Four-Character Codes
 description: Generating Four-Character Codes
-ms.assetid: 'dfb771f1-9273-4f60-a3af-3a62a3794e59'
-keywords: ["multimedia file I/O,four-character codes", "file I/O,four-character codes", "input and output (I/O),four-character codes", "I/O (input and output),four-character codes", "four-character codes", "mmioStringToFOURCC function", "mmioFOURCC macro"]
+ms.assetid: dfb771f1-9273-4f60-a3af-3a62a3794e59
+keywords:
+- multimedia file I/O,four-character codes
+- file I/O,four-character codes
+- input and output (I/O),four-character codes
+- I/O (input and output),four-character codes
+- four-character codes
+- mmioStringToFOURCC function
+- mmioFOURCC macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generating Four-Character Codes

@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_RecentItems
 description: Identifies the UI\_PKEY\_RecentItems property.
-ms.assetid: '54e7ad1f-86b3-45e0-a0f4-5ee0d08e9d4b'
+ms.assetid: 54e7ad1f-86b3-45e0-a0f4-5ee0d08e9d4b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_RecentItems

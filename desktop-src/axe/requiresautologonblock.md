@@ -1,14 +1,20 @@
 ---
 title: RequiresAutoLogOnBlock element
 description: If present then the operating system must be configured to log on automatically.
-ms.assetid: '81743FE7-7840-4A94-BA5A-692BD4E91CDB'
-keywords: ["RequiresAutoLogOnBlock element Access Execution Engine"]
+ms.assetid: 81743FE7-7840-4A94-BA5A-692BD4E91CDB
+keywords:
+- RequiresAutoLogOnBlock element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RequiresAutoLogOnBlock
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresAutoLogOnBlock element
@@ -49,9 +55,9 @@ There are no child elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

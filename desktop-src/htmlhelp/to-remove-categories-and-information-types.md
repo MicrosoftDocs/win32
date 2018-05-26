@@ -1,7 +1,12 @@
 ---
 title: To remove categories and information types
 description: To remove categories and information types
-ms.assetid: '9A00B2C8-9E75-4bc7-92D9-F61F059B63A0'
+ms.assetid: 9A00B2C8-9E75-4bc7-92D9-F61F059B63A0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To remove categories and information types

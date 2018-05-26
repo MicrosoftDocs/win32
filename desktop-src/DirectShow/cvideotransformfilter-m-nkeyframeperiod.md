@@ -1,7 +1,12 @@
 ---
-Description: 'The largest observed interval between key frames.'
-ms.assetid: '66a39b4f-9eed-4fc3-aa31-f832c951c8a1'
-title: 'CVideoTransformFilter::m\_nKeyFramePeriod member'
+Description: The largest observed interval between key frames.
+ms.assetid: 66a39b4f-9eed-4fc3-aa31-f832c951c8a1
+title: CVideoTransformFilterm\_nKeyFramePeriod member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CVideoTransformFilter::m\_nKeyFramePeriod member
@@ -35,9 +40,9 @@ int m_nKeyFramePeriod;
 [**CVideoTransformFilter Class**](cvideotransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

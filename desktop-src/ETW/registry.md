@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the parent class for registry events. The following syntax is simplified from MOF code.'
-ms.assetid: '362d7653-1ba0-45b7-80f3-0fccca0badf1'
+---
+Description: This class is the parent class for registry events. The following syntax is simplified from MOF code.
+ms.assetid: 362d7653-1ba0-45b7-80f3-0fccca0badf1
 title: Registry class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry class

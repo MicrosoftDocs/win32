@@ -1,7 +1,12 @@
 ---
-Description: 'The Program Information Tables group contain important information that used throughout the installation.'
-ms.assetid: '86e57708-8778-44fd-a4b4-6418652d8e50'
+Description: The Program Information Tables group contain important information that used throughout the installation.
+ms.assetid: 86e57708-8778-44fd-a4b4-6418652d8e50
 title: Program Information Tables Group
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Program Information Tables Group

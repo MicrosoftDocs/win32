@@ -1,7 +1,12 @@
 ---
 title: Getting the Virtual System DNS Name
 description: The following C\ and VBScript samples retrieve the DNS name of the virtual system.
-ms.assetid: '8362890a-ee82-49d8-a138-e7a84d9b3c10'
+ms.assetid: 8362890a-ee82-49d8-a138-e7a84d9b3c10
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting the Virtual System DNS Name

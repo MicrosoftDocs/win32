@@ -1,7 +1,12 @@
 ---
 title: Registration and Licensing
 description: Registration and Licensing
-ms.assetid: '8f61edda-41f9-41a2-8392-cb8cb5b758fa'
+ms.assetid: 8f61edda-41f9-41a2-8392-cb8cb5b758fa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registration and Licensing

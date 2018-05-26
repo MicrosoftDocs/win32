@@ -1,14 +1,20 @@
 ---
 title: WM/WMADRCAverageTarget
 description: The WM/WMADRCAverageTarget attribute contains the average volume level requested by the user. This value is used by Windows Media Player for dynamic range control.
-ms.assetid: '8173b5ab-27e4-4af9-aea8-6c1310f065f5'
-keywords: ["WM/WMADRCAverageTarget windows Media Format"]
+ms.assetid: 8173b5ab-27e4-4af9-aea8-6c1310f065f5
+keywords:
+- WM/WMADRCAverageTarget windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/WMADRCAverageTarget
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/WMADRCAverageTarget

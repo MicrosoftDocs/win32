@@ -1,7 +1,12 @@
 ---
-Description: 'The following API are used with H.264 UVC 1.5 camera encoders.'
-ms.assetid: 'B3D500DF-1FD4-4D7C-B6F8-8DE4B957ED5C'
-title: 'H.264 UVC 1.5 camera encoders'
+Description: The following API are used with H.264 UVC 1.5 camera encoders.
+ms.assetid: B3D500DF-1FD4-4D7C-B6F8-8DE4B957ED5C
+title: H.264 UVC 1.5 camera encoders
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # H.264 UVC 1.5 camera encoders
@@ -19,7 +24,7 @@ The following API are used with H.264 UVC 1.5 camera encoders.
 -   [CODECAPI\_AVEncVideoSupportedControls](codecapi-avencvideosupportedcontrols.md)
 -   [CODECAPI\_AVEncVideoTemporalLayerCount](codecapi-avencvideotemporallayercount.md)
 -   [CODECAPI\_AVEncVideoUsage](codecapi-avencvideousage.md)
--   [**eAVEncH264VProfile**](eavench264vprofile.md)
+-   [**eAVEncH264VProfile**](/windows/win32/codecapi/ne-codecapi-eavench264vprofile?branch=master)
 -   [**eAVEncCommonRateControlMode**](https://msdn.microsoft.com/library/windows/desktop/dd388772)
 -   [MF\_MT\_H264\_CAPABILITIES](mf-mt-h264-capabilities.md)
 -   [MF\_MT\_H264\_DYNAMIC\_RESOLUTION\_SCALING](mf-mf_mt_h264_dynamic_resolution_scaling)

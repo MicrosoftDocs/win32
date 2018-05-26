@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a caller-defined value for an METransformMarker event.'
-ms.assetid: 'c6ab20d9-c2bc-43ba-a018-2c6682bf0485'
-title: 'MF\_EVENT\_MFT\_CONTEXT attribute'
+---
+Description: Contains a caller-defined value for an METransformMarker event.
+ms.assetid: c6ab20d9-c2bc-43ba-a018-2c6682bf0485
+title: MF\_EVENT\_MFT\_CONTEXT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_EVENT\_MFT\_CONTEXT attribute
@@ -14,17 +19,17 @@ Contains a caller-defined value for an [METransformMarker](metransformmarker.md)
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT64**](imfattributes-getuint64.md).
+To get this attribute, call [**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT64**](imfattributes-setuint64.md).
+To set this attribute, call [**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master).
 
 ## Applies to
 
-[**IMFMediaEvent**](imfmediaevent.md)
+[**IMFMediaEvent**](/windows/win32/mfobjects/nn-mfobjects-imfmediaevent?branch=master)
 
 ## Remarks
 
-This attribute is used with the [METransformMarker](metransformmarker.md) event. The value of the attribute is taken from the *ulParam* parameter of the [**IMFTransform::ProcessMessage**](imftransform-processmessage.md) method.
+This attribute is used with the [METransformMarker](metransformmarker.md) event. The value of the attribute is taken from the *ulParam* parameter of the [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) method.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

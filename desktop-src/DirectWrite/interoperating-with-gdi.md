@@ -1,8 +1,18 @@
 ---
 title: Interoperating with GDI
-description: DirectWrite provides a migration path from, and some interoperability with, GDI's font model, as well as interfaces for rendering text to a bitmap that can then be drawn on a window.
-ms.assetid: 'fb73e07b-60fb-4726-bd5b-c14d61ace186'
-keywords: ["DirectWrite,GDI interoperation", "DirectWrite,interoperability", "interoperability", "Graphics Device Interface (GDI)", "GDI (Graphics Device Interface)"]
+description: DirectWrite provides a migration path from, and some interoperability with, GDIs font model, as well as interfaces for rendering text to a bitmap that can then be drawn on a window.
+ms.assetid: fb73e07b-60fb-4726-bd5b-c14d61ace186
+keywords:
+- DirectWrite,GDI interoperation
+- DirectWrite,interoperability
+- interoperability
+- Graphics Device Interface (GDI)
+- GDI (Graphics Device Interface)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interoperating with GDI
@@ -22,7 +32,7 @@ This overview contains the following parts:
 
 ## Part 1: IDWriteGdiInterop
 
-The [**IDWriteGdiInterop**](idwritegdiinterop.md) interface is used to convert between GDI font structures and [DirectWrite](direct-write-portal.md) font interfaces, and also to create an [**IDWriteBitmapRenderTarget**](idwritebitmaprendertarget.md) object. Get an **IDWriteGdiInterop** object by using the [**IDWriteFactory::GetGdiInterop**](idwritefactory-getgdiinterop.md) method, as shown in the following code.
+The [**IDWriteGdiInterop**](/windows/win32/dwrite/?branch=master) interface is used to convert between GDI font structures and [DirectWrite](direct-write-portal.md) font interfaces, and also to create an [**IDWriteBitmapRenderTarget**](/windows/win32/dwrite/?branch=master) object. Get an **IDWriteGdiInterop** object by using the [**IDWriteFactory::GetGdiInterop**](/windows/win32/dwrite/?branch=master) method, as shown in the following code.
 
 
 ```C++
@@ -37,7 +47,7 @@ if (SUCCEEDED(hr))
 
 ## Part 2: Font Objects
 
-GDI uses the LOGFONT structure to store information about the font and style of text. The [**IDWriteGdiInterop::CreateFontFromLOGFONT**](idwritegdiinterop-createfontfromlogfont.md) method will convert a LOGFONT structure to an [**IDWriteFont**](idwritefont.md) object, as seen in the following code.
+GDI uses the LOGFONT structure to store information about the font and style of text. The [**IDWriteGdiInterop::CreateFontFromLOGFONT**](/windows/win32/dwrite/?branch=master) method will convert a LOGFONT structure to an [**IDWriteFont**](/windows/win32/dwrite/?branch=master) object, as seen in the following code.
 
 
 ```C++
@@ -50,9 +60,9 @@ if (SUCCEEDED(hr))
 
 
 
-However, [**IDWriteFont**](idwritefont.md) does not encapsulate all of the same information that a LOGFONT does. A LOGFONT structure contains the font size, weight, style, underline, strikeout, font face name, and some other information. **IDWriteFont** objects contain information about a font and its weight and style, but not the font size, underline, and so on. With [DirectWrite](direct-write-portal.md), formatting information elements such as these are encapsulated by an [**IDWriteTextFormat**](idwritetextformat.md) object or, for specific ranges of text, an [**IDWriteTextLayout**](idwritetextlayout.md) object.
+However, [**IDWriteFont**](/windows/win32/dwrite/?branch=master) does not encapsulate all of the same information that a LOGFONT does. A LOGFONT structure contains the font size, weight, style, underline, strikeout, font face name, and some other information. **IDWriteFont** objects contain information about a font and its weight and style, but not the font size, underline, and so on. With [DirectWrite](direct-write-portal.md), formatting information elements such as these are encapsulated by an [**IDWriteTextFormat**](/windows/win32/dwrite/?branch=master) object or, for specific ranges of text, an [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master) object.
 
-You do have the option to convert a [**IDWriteFont**](idwritefont.md) to a LOGFONT by using the [**IDWriteGdiInterop::ConvertFontToLOGFONT**](idwritegdiinterop-convertfonttologfont.md).
+You do have the option to convert a [**IDWriteFont**](/windows/win32/dwrite/?branch=master) to a LOGFONT by using the [**IDWriteGdiInterop::ConvertFontToLOGFONT**](/windows/win32/dwrite/?branch=master).
 
 ## Part 3: Rendering
 

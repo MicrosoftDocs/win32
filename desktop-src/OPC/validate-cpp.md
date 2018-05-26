@@ -1,8 +1,25 @@
 ---
 title: validate.cpp
 description: validate.cpp
-ms.assetid: 'b349ac84-33c5-4e98-a8ed-09bfa015a62e'
-keywords: ["Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "Packaging APIs,music bundle signature sample", "packaging,music bundle signature sample", "packages,music bundle signature sample", "music bundle signature sample,validate.cpp", "Packaging APIs,validate.cpp", "packaging,validate.cpp", "packages,validate.cpp", "validate.cpp", "sample applications,music bundle signature"]
+ms.assetid: b349ac84-33c5-4e98-a8ed-09bfa015a62e
+keywords:
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- Packaging APIs,music bundle signature sample
+- packaging,music bundle signature sample
+- packages,music bundle signature sample
+- music bundle signature sample,validate.cpp
+- Packaging APIs,validate.cpp
+- packaging,validate.cpp
+- packages,validate.cpp
+- validate.cpp
+- sample applications,music bundle signature
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # validate.cpp

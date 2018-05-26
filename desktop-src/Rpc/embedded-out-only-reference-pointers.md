@@ -1,7 +1,12 @@
 ---
 title: Embedded Out-Only Reference Pointers
 description: Embedded Out-Only Reference Pointers
-ms.assetid: 'b0fcba9e-b285-4d29-9ffc-c8d6d7818824'
+ms.assetid: b0fcba9e-b285-4d29-9ffc-c8d6d7818824
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Embedded Out-Only Reference Pointers

@@ -1,7 +1,12 @@
 ---
-Description: 'The following examples demonstrate how two processes might access an existing file as named shared memory.'
-ms.assetid: '4da527b7-7e40-43b7-b6f4-989b5a7aa096'
+Description: The following examples demonstrate how two processes might access an existing file as named shared memory.
+ms.assetid: 4da527b7-7e40-43b7-b6f4-989b5a7aa096
 title: Using File Mapping
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using File Mapping

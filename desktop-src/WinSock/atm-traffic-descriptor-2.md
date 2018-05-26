@@ -1,7 +1,12 @@
 ---
-Description: 'This section lists the ATM traffic descriptor.'
-ms.assetid: '8d15af95-2003-416e-b3b0-a9201972a899'
+Description: This section lists the ATM traffic descriptor.
+ms.assetid: 8d15af95-2003-416e-b3b0-a9201972a899
 title: ATM Traffic Descriptor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATM Traffic Descriptor

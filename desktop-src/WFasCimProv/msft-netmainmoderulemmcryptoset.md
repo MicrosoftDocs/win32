@@ -1,7 +1,12 @@
 ---
-Description: 'Relates a main mode rule to its Main Mode Crypto Set.'
-ms.assetid: '8aef3a12-721e-4167-8a2b-c31fb68d1818'
-title: 'MSFT\_NetMainModeRuleMMCryptoSet class'
+Description: Relates a main mode rule to its Main Mode Crypto Set.
+ms.assetid: 8aef3a12-721e-4167-8a2b-c31fb68d1818
+title: MSFT\_NetMainModeRuleMMCryptoSet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetMainModeRuleMMCryptoSet class
@@ -15,9 +20,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetMainModeRuleMMCryptoSet : MSFT_NetSARuleMMCrypto
 {
-  MSFT_NetMainModeRule   REF GroupComponent;
+  MSFT_NetMainModeRule   REF GroupComponent;
   MSFT_NetIKEMMCryptoSet REF PartComponent;
-  uint16                     ActionOrder;
+  uint16                     ActionOrder;
 };
 ```
 
@@ -84,17 +89,17 @@ The main mode crypto set used in this rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

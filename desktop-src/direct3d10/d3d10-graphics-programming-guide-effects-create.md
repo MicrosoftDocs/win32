@@ -1,7 +1,12 @@
 ---
-Description: 'An effect is created by loading it into the effects framework.'
-ms.assetid: 'b0a12620-4f8f-44d9-bc73-2c3ab30f80af'
-title: 'Create an Effect (Direct3D 10)'
+Description: An effect is created by loading it into the effects framework.
+ms.assetid: b0a12620-4f8f-44d9-bc73-2c3ab30f80af
+title: Create an Effect (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create an Effect (Direct3D 10)

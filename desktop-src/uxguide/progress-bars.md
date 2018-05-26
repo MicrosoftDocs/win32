@@ -1,7 +1,12 @@
 ---
 title: Progress Bars
 description: With a progress bar, users can follow the progress of a lengthy operation. A progress bar may either show an approximate percentage of completion (determinate), or indicate that an operation is ongoing (indeterminate).
-ms.assetid: '067961fa-2fb1-4cd1-99a4-cbe2244c3913'
+ms.assetid: 067961fa-2fb1-4cd1-99a4-cbe2244c3913
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Progress Bars
@@ -17,7 +22,7 @@ A typical progress bar.
 > [!Note]  
 > Guidelines related to [layout](vis-layout.md) are presented in a separate article.
 
- 
+ 
 
 ## Is this the right control?
 
@@ -95,7 +100,7 @@ This pattern is usually unnecessary and should be avoided.
 
 
 
- 
+ 
 
 ### Indeterminate progress bars
 
@@ -108,7 +113,7 @@ This pattern is usually unnecessary and should be avoided.
 
 
 
- 
+ 
 
 ### Meters
 
@@ -120,7 +125,7 @@ This pattern is usually unnecessary and should be avoided.
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -389,9 +394,9 @@ Recommended sizing and spacing for progress bars.
 
 -   If the progress bar is displayed in a modeless dialog box, optimize the title for display on the taskbar by concisely placing the distinguishing information first. Example: "66% Complete."
 
- 
+ 
 
- 
+ 
 
 
 

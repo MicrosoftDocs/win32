@@ -4,10 +4,13 @@ description: The IMsRdpClientNonScriptable interface exposes the following metho
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '29F307C4-DBC4-4B01-BCBB-4056377200E4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 29F307C4-DBC4-4B01-BCBB-4056377200E4
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable Methods

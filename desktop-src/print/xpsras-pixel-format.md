@@ -1,7 +1,12 @@
-﻿---
-Description: 'XPSRAS\_PIXEL\_FORMAT allows a caller to select the pixel format used by the IWICBitmap interface that is returned by the IXpsRasterizer::RasterizeRect method. XPSRAS\_PIXEL\_FORMAT is provided with Windows 8 and later versions of Windows.'
-ms.assetid: '54EA7ED6-BBE1-4110-8405-DEC0C5EA1C27'
-title: 'XPSRAS\_PIXEL\_FORMAT enumeration'
+---
+Description: XPSRAS\_PIXEL\_FORMAT allows a caller to select the pixel format used by the IWICBitmap interface that is returned by the IXpsRasterizerRasterizeRect method. XPSRAS\_PIXEL\_FORMAT is provided with Windows 8 and later versions of Windows.
+ms.assetid: 54EA7ED6-BBE1-4110-8405-DEC0C5EA1C27
+title: XPSRAS\_PIXEL\_FORMAT enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XPSRAS\_PIXEL\_FORMAT enumeration

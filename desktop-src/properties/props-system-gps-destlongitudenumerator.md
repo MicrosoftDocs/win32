@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_GPS\_DestLongitude.'
-ms.assetid: '92573661-6b59-4eef-80f0-1d7088d67630'
-title: 'System.GPS.DestLongitudeNumerator'
+Description: The numerator of PKEY\_GPS\_DestLongitude.
+ms.assetid: 92573661-6b59-4eef-80f0-1d7088d67630
+title: System.GPS.DestLongitudeNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.DestLongitudeNumerator

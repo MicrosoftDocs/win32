@@ -1,8 +1,11 @@
 ---
 title: StopService method of the Msvm\_TerminalService class
 description: Stops the service.CIM\_Service.
-ms.assetid: '12eb71b6-4ed6-4992-a0e0-80626409f6df'
-keywords: ["StopService method Hyper-V", "StopService method Hyper-V , Msvm_TerminalService class", "Msvm_TerminalService class Hyper-V , StopService method"]
+ms.assetid: 12eb71b6-4ed6-4992-a0e0-80626409f6df
+keywords:
+- StopService method Hyper-V
+- StopService method Hyper-V , Msvm_TerminalService class
+- Msvm_TerminalService class Hyper-V , StopService method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StopService method of the Msvm\_TerminalService class
@@ -57,9 +65,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**Msvm\_TerminalService**](msvm-terminalservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

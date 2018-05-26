@@ -1,14 +1,22 @@
 ---
 title: IMediaRendererActionInformation IsStopAvailable method
 description: Retrieves a value that indicates whether the DMR is currently accepting the StopAsync method.
-ms.assetid: '6EE8F56D-2A5A-49B0-A9B2-0A7EE57D03FD'
-keywords: ["IsStopAvailable method Media Streaming API", "IsStopAvailable method Media Streaming API , IMediaRendererActionInformation interface", "IMediaRendererActionInformation interface Media Streaming API , IsStopAvailable method"]
+ms.assetid: 6EE8F56D-2A5A-49B0-A9B2-0A7EE57D03FD
+keywords:
+- IsStopAvailable method Media Streaming API
+- IsStopAvailable method Media Streaming API , IMediaRendererActionInformation interface
+- IMediaRendererActionInformation interface Media Streaming API , IsStopAvailable method
 topic_type:
 - apiref
 api_name:
 - IMediaRendererActionInformation.IsStopAvailable
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaRendererActionInformation::IsStopAvailable method
@@ -20,7 +28,7 @@ Retrieves a value that indicates whether the DMR is currently accepting the [**S
 
 ```C++
 HRESULT IsStopAvailable(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IMediaRendererActionInformation**](imediarendereractioninformation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

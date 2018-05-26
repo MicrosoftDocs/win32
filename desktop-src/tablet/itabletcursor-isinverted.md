@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates if the stylus is upside down.'
-ms.assetid: '04b05287-000d-455f-88e5-821c7fdb8119'
-title: 'ITabletCursor::IsInverted method'
+Description: Indicates if the stylus is upside down.
+ms.assetid: 04b05287-000d-455f-88e5-821c7fdb8119
+title: ITabletCursorIsInverted method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletCursor::IsInverted method
@@ -35,7 +40,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -59,9 +64,9 @@ This method can return one of these values.
 [**ITabletCursorButton Interface**](itabletcursorbutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

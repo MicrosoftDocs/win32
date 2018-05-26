@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the source rectangle for video mixer of the Enhanced Video Renderer (EVR). The source rectangle is the portion of the video frame that the mixer blits to the destination surface.'
-ms.assetid: '4364ff87-816e-4b64-b5e9-c53dd6c9bb33'
-title: 'VIDEO\_ZOOM\_RECT attribute'
+---
+Description: Specifies the source rectangle for video mixer of the Enhanced Video Renderer (EVR). The source rectangle is the portion of the video frame that the mixer blits to the destination surface.
+ms.assetid: 4364ff87-816e-4b64-b5e9-c53dd6c9bb33
+title: VIDEO\_ZOOM\_RECT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEO\_ZOOM\_RECT attribute
@@ -14,16 +19,16 @@ Byte array
 
 ## Remarks
 
-The value of this attribute is an [**MFVideoNormalizedRect**](mfvideonormalizedrect.md) structure.
+The value of this attribute is an [**MFVideoNormalizedRect**](/windows/win32/evr/ns-evr-mfvideonormalizedrect?branch=master) structure.
 
 The source rectangle is defined relative to a normalized coordinate system, in which the entire video frame occupies a rectangle with coordinates {0, 0, 1, 1}. The source rectangle must fit within the video frame; the coordinates of the source rectangle have a range of (0...1).
 
 The standard EVR presenter sets this attribute on the mixer. To set the attribute, do the following:
 
-1.  Call [**IMFTransform::GetAttributes**](imftransform-getattributes.md) on the mixer, to get the mixer's attribute store.
-2.  Call [**IMFAttributes::SetBlob**](imfattributes-setblob.md) to set the **VIDEO\_ZOOM\_RECT** attribute on the mixer. The value is an [**MFVideoNormalizedRect**](mfvideonormalizedrect.md) structure.
+1.  Call [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) on the mixer, to get the mixer's attribute store.
+2.  Call [**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master) to set the **VIDEO\_ZOOM\_RECT** attribute on the mixer. The value is an [**MFVideoNormalizedRect**](/windows/win32/evr/ns-evr-mfvideonormalizedrect?branch=master) structure.
 
-In a custom EVR presenter, you can use this attribute to implement the [**IMFVideoDisplayControl::SetVideoPosition**](imfvideodisplaycontrol-setvideoposition.md) method. For more information, see [Source and Destination Rectangles](how-to-write-an-evr-presenter.md#source-and-destination-rectangles).
+In a custom EVR presenter, you can use this attribute to implement the [**IMFVideoDisplayControl::SetVideoPosition**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-setvideoposition?branch=master) method. For more information, see [Source and Destination Rectangles](how-to-write-an-evr-presenter.md#source-and-destination-rectangles).
 
 The GUID constant for this attribute is exported from strmiids.lib.
 
@@ -79,10 +84,10 @@ HRESULT SetMixerSourceRect(IMFTransform *pMixer, const MFVideoNormalizedRect&amp
 [How to Write an EVR Presenter](how-to-write-an-evr-presenter.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> </dl>
 
  

@@ -1,14 +1,20 @@
 ---
 title: DeviceDeparture event
 description: Occurs when a new device is removed from the list of devices returned by the CachedDevices method.
-ms.assetid: '3ABA1C74-228C-46AF-9743-CC5F4345A974'
-keywords: ["DeviceDeparture event Media Streaming API"]
+ms.assetid: 3ABA1C74-228C-46AF-9743-CC5F4345A974
+keywords:
+- DeviceDeparture event Media Streaming API
 topic_type:
 - apiref
 api_name:
 - DeviceDeparture
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceDeparture event
@@ -34,7 +40,7 @@ This event does not return a value.
 
 ## Remarks
 
-To handle notifications from this event, register a [**DeviceControllerFinderHandler**](devicecontrollerfinderhandler.md) event handler function using the [**add\_DeviceDeparture**](idevicecontroller-add-devicedeparture.md) method. To unregister the event handler, use the [**remove\_DeviceDeparture**](idevicecontroller-remove-devicedeparture.md) method.
+To handle notifications from this event, register a [**DeviceControllerFinderHandler**](/windows/win32/mfidl/?branch=master) event handler function using the [**add\_DeviceDeparture**](idevicecontroller-add-devicedeparture.md) method. To unregister the event handler, use the [**remove\_DeviceDeparture**](idevicecontroller-remove-devicedeparture.md) method.
 
  
 

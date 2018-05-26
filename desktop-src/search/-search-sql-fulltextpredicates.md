@@ -1,7 +1,12 @@
 ---
-Description: 'The Microsoft Windows Search query language supports two full-text search predicates.'
-ms.assetid: 'c753dddb-57ed-40e6-8e49-ba5b6425fdd5'
-title: 'Full-Text Predicates'
+Description: The Microsoft Windows Search query language supports two full-text search predicates.
+ms.assetid: c753dddb-57ed-40e6-8e49-ba5b6425fdd5
+title: Full-Text Predicates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Full-Text Predicates

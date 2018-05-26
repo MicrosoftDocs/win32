@@ -1,13 +1,16 @@
 ---
-Description: 'Represents the configuration settings of a proxy server for the AD RMS installation.'
+Description: Represents the configuration settings of a proxy server for the AD RMS installation.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'f4859594-3e10-4ca2-870e-483ccd9f86ab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: f4859594-3e10-4ca2-870e-483ccd9f86ab
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ProxySettings object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ProxySettings object
@@ -34,7 +37,7 @@ The **ProxySettings** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -53,7 +56,7 @@ The **ProxySettings** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -160,7 +163,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -172,9 +175,9 @@ END FUNCTION
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

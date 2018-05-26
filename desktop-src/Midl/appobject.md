@@ -2,13 +2,19 @@
 title: appobject attribute
 description: The \ appobject\ attribute identifies the coclass as an application object, which is associated with a full EXE application.
 ms.assetid: f4fcdf55-7431-4d66-8a46-f741c52fbe56
-keywords: ["appobject attribute MIDL"]
+keywords:
+- appobject attribute MIDL
 topic_type:
 - apiref
 api_name:
 - appobject
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # appobject attribute

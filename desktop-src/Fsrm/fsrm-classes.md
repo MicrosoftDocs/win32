@@ -4,10 +4,13 @@ description: The following classes are part of the File Server Resource Manager 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a50f3702-bbbb-4549-b981-5110cdde93be'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: a50f3702-bbbb-4549-b981-5110cdde93be
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FSRM Classes
@@ -18,91 +21,91 @@ The following classes are part of the File Server Resource Manager (FSRM) API.
 
 <dl> <dt>
 
-[**FsrmClassificationManager**](fsrmclassificationmanager.md)
+[**FsrmClassificationManager**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dd>
 
 Represents the FSRM Classification Manager.
 
 </dd> <dt>
 
-[**FsrmExportImport**](fsrmexportimport.md)
+[**FsrmExportImport**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dd>
 
 Used to export and import FSRM objects.
 
 </dd> <dt>
 
-[**FsrmFileGroupManager**](fsrmfilegroupmanager.md)
+[**FsrmFileGroupManager**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dd>
 
 Used to manage file group objects.
 
 </dd> <dt>
 
-[**FsrmFileManagementJobManager**](fsrmfilemanagementjobmanager.md)
+[**FsrmFileManagementJobManager**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dd>
 
 Used to manage file management jobs.
 
 </dd> <dt>
 
-[**FsrmFileScreenManager**](fsrmfilescreenmanager.md)
+[**FsrmFileScreenManager**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dd>
 
 Used to manage file screen objects.
 
 </dd> <dt>
 
-[**FsrmFileScreenTemplateManager**](fsrmfilescreentemplatemanager.md)
+[**FsrmFileScreenTemplateManager**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dd>
 
 Used to manage file screen templates.
 
 </dd> <dt>
 
-[**FsrmPathMapper**](fsrmpathmapper.md)
+[**FsrmPathMapper**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dd>
 
 Used to retrieve the network share paths that are mapped to a local path.
 
 </dd> <dt>
 
-[**FsrmPipelineModuleConnector**](fsrmpipelinemoduleconnector.md)
+[**FsrmPipelineModuleConnector**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dd>
 
 Creates the communication channel between FSRM and your pipeline module implementation.
 
 </dd> <dt>
 
-[**FsrmQuotaManager**](fsrmquotamanager.md)
+[**FsrmQuotaManager**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dd>
 
 Used to manage quotas.
 
 </dd> <dt>
 
-[**FsrmQuotaTemplateManager**](fsrmquotatemplatemanager.md)
+[**FsrmQuotaTemplateManager**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dd>
 
 Used to manage quota templates.
 
 </dd> <dt>
 
-[**FsrmReportManager**](fsrmreportmanager.md)
+[**FsrmReportManager**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dd>
 
 Used to manage report jobs.
 
 </dd> <dt>
 
-[**FsrmReportScheduler**](fsrmreportscheduler.md)
+[**FsrmReportScheduler**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dd>
 
 Used to manage scheduled tasks for report jobs and file management jobs.
 
 </dd> <dt>
 
-[**FsrmSetting**](fsrmsetting.md)
+[**FsrmSetting**](/windows/previous-versions/FsrmTlb/?branch=master)
 </dt> <dd>
 
 Used to configure FSRM.

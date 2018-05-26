@@ -1,8 +1,9 @@
 ---
 title: LVM\_CREATEDRAGIMAGE message
 description: Creates a drag image list for the specified item. You can send this message explicitly or by using the ListView\_CreateDragImage macro.
-ms.assetid: 'face4c8f-01ff-4f5a-a468-e306a50dae35'
-keywords: ["LVM_CREATEDRAGIMAGE message Windows Controls"]
+ms.assetid: face4c8f-01ff-4f5a-a468-e306a50dae35
+keywords:
+- LVM_CREATEDRAGIMAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_CREATEDRAGIMAGE message
 
-Creates a drag image list for the specified item. You can send this message explicitly or by using the [**ListView\_CreateDragImage**](listview-createdragimage.md) macro.
+Creates a drag image list for the specified item. You can send this message explicitly or by using the [**ListView\_CreateDragImage**](/windows/win32/Commctrl/nf-commctrl-listview_createdragimage?branch=master) macro.
 
 ## Parameters
 
@@ -49,15 +55,15 @@ Your application is responsible for destroying the image list when it is no long
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

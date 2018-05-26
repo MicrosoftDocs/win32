@@ -1,7 +1,12 @@
 ---
-Description: 'These error codes are returned by the Windows Installer functions MsiExec.exe and InstMsi.exe.'
-ms.assetid: '9ea81ef3-a5b5-4d13-b0b8-3da6e919315e'
-title: 'MsiExec.exe and InstMsi.exe Error Messages'
+Description: These error codes are returned by the Windows Installer functions MsiExec.exe and InstMsi.exe.
+ms.assetid: 9ea81ef3-a5b5-4d13-b0b8-3da6e919315e
+title: MsiExec.exe and InstMsi.exe Error Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiExec.exe and InstMsi.exe Error Messages
@@ -11,12 +16,12 @@ These error codes are returned by the Windows Installer functions **MsiExec.exe*
 > [!Note]  
 > The error codes ERROR\_SUCCESS, ERROR\_SUCCESS\_REBOOT\_INITIATED, and ERROR\_SUCCESS\_REBOOT\_REQUIRED are indicative of success. If ERROR\_SUCCESS\_REBOOT\_REQUIRED is returned, the installation completed successfully but a reboot is required to complete the installation operation.
 
- 
+ 
 
 > [!Note]  
 > If you are a user experiencing difficulty with your computer either during or after installing or uninstalling an application, you should contact customer support for the software you are trying to install or remove. If you feel you are in need of support for a Microsoft product, please go to our technical support site at [support.microsoft.com](Http://go.microsoft.com/fwlink/p/?linkid=83978).
 
- 
+ 
 
 
 
@@ -84,11 +89,11 @@ These error codes are returned by the Windows Installer functions **MsiExec.exe*
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

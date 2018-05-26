@@ -1,8 +1,29 @@
 ---
 title: Document Control Type
 description: This topic provides information about Microsoft UI Automation support for the Document control type.
-ms.assetid: '62565f16-f0d6-42ff-bc36-897a2618c867'
-keywords: ["UI Automation,support for Document control type", "UI Automation,Document control type", "UI Automation,tree structure for Document control type", "UI Automation,properties for Document control type", "UI Automation,control patterns for Document control type", "UI Automation,events for Document control type", "tree structures,Document control type", "properties,Document control type", "control patterns,Document control type", "events,Document control type", "support for Document control type", "Document control type", "control types,tree structure for Document control type", "control types,control patterns for Document control type", "control types,support for Document", "control types,Document"]
+ms.assetid: 62565f16-f0d6-42ff-bc36-897a2618c867
+keywords:
+- UI Automation,support for Document control type
+- UI Automation,Document control type
+- UI Automation,tree structure for Document control type
+- UI Automation,properties for Document control type
+- UI Automation,control patterns for Document control type
+- UI Automation,events for Document control type
+- tree structures,Document control type
+- properties,Document control type
+- control patterns,Document control type
+- events,Document control type
+- support for Document control type
+- Document control type
+- control types,tree structure for Document control type
+- control types,control patterns for Document control type
+- control types,support for Document
+- control types,Document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Document Control Type
@@ -91,9 +112,9 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                  | Support/Value | Notes                                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IScrollProvider**](uiauto-iscrollprovider.md) | Depends       | The document control can span larger than that span of the viewport. The control should support the [Scroll](uiauto-implementingscroll.md) control pattern if the content is scrollable.                                                                                                                              |
-| [**ITextProvider**](uiauto-itextprovider.md)     | Required      | All document controls must support the [Text](uiauto-implementingtextandtextrange.md) control pattern.                                                                                                                                                                                                                |
-| [**IValueProvider**](uiauto-ivalueprovider.md)   | Depends       | While UI Automation clients can use [**IUIAutomationTextPattern**](uiauto-iuiautomationtextpattern.md) to obtain text information about a document, they need the [Value](uiauto-implementingvalue.md) control pattern to set the inner value. Simple text entry is possible only through the Value control pattern. |
+| [**IScrollProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iscrollprovider?branch=master) | Depends       | The document control can span larger than that span of the viewport. The control should support the [Scroll](uiauto-implementingscroll.md) control pattern if the content is scrollable.                                                                                                                              |
+| [**ITextProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itextprovider?branch=master)     | Required      | All document controls must support the [Text](uiauto-implementingtextandtextrange.md) control pattern.                                                                                                                                                                                                                |
+| [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master)   | Depends       | While UI Automation clients can use [**IUIAutomationTextPattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationtextpattern?branch=master) to obtain text information about a document, they need the [Value](uiauto-implementingvalue.md) control pattern to set the inner value. Simple text entry is possible only through the Value control pattern. |
 
 
 

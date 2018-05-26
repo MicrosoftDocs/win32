@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EnterBitmapGrabMode method switches the media detector to bitmap grab mode and seeks the filter graph to a specified time.'
-ms.assetid: '9351ce73-766c-4863-88a5-f974ede79ee6'
-title: 'IMediaDet::EnterBitmapGrabMode method'
+---
+Description: The EnterBitmapGrabMode method switches the media detector to bitmap grab mode and seeks the filter graph to a specified time.
+ms.assetid: 9351ce73-766c-4863-88a5-f974ede79ee6
+title: IMediaDetEnterBitmapGrabMode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaDet::EnterBitmapGrabMode method

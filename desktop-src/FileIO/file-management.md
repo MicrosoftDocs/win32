@@ -1,7 +1,12 @@
 ---
-Description: 'A file object provides a representation of a resource (either a physical device or a resource located on a physical device) that can be managed by the I/O system.'
-ms.assetid: 'cf4e69b9-86dd-43a4-9011-6209fc65f550'
+Description: A file object provides a representation of a resource (either a physical device or a resource located on a physical device) that can be managed by the I/O system.
+ms.assetid: cf4e69b9-86dd-43a4-9011-6209fc65f550
 title: File Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Management
@@ -20,11 +25,11 @@ A *file object* provides a representation of a resource (either a physical devic
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

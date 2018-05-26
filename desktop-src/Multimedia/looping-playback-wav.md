@@ -1,8 +1,21 @@
 ---
 title: Looping Playback
 description: Looping Playback
-ms.assetid: '8411290b-a3c5-4347-bee3-43c35188f736'
-keywords: ["waveform audio,looping sounds", "waveform-audio interface,looping sounds", "waveform audio,looping playback", "waveform-audio interface,looping playback", "looping waveform-audio sounds", "looping waveform-audio playback", "waveOutWrite function", "waveOutBreakLoop function"]
+ms.assetid: 8411290b-a3c5-4347-bee3-43c35188f736
+keywords:
+- waveform audio,looping sounds
+- waveform-audio interface,looping sounds
+- waveform audio,looping playback
+- waveform-audio interface,looping playback
+- looping waveform-audio sounds
+- looping waveform-audio playback
+- waveOutWrite function
+- waveOutBreakLoop function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Looping Playback

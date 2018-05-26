@@ -1,7 +1,12 @@
 ---
-Description: 'When a process tries to access a securable object, the system steps through the access control entries (ACEs) in the object's discretionary access control list (DACL) until it finds ACEs that allow or deny the requested access.'
-ms.assetid: 'fccf043e-e769-4f3f-b18c-252be20190d8'
+Description: When a process tries to access a securable object, the system steps through the access control entries (ACEs) in the objects discretionary access control list (DACL) until it finds ACEs that allow or deny the requested access.
+ms.assetid: fccf043e-e769-4f3f-b18c-252be20190d8
 title: Order of ACEs in a DACL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Order of ACEs in a DACL

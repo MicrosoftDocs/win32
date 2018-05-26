@@ -1,8 +1,10 @@
 ---
 title: INapSystemHealthAgentCallback interface
 description: Are declared by the system and implemented by the SHA writer so the NapAgent can communicate with the SHA.
-ms.assetid: 'f299e796-c81d-4a22-b9c8-f80990098044'
-keywords: ["INapSystemHealthAgentCallback interface NAP", "INapSystemHealthAgentCallback interface NAP , described"]
+ms.assetid: f299e796-c81d-4a22-b9c8-f80990098044
+keywords:
+- INapSystemHealthAgentCallback interface NAP
+- INapSystemHealthAgentCallback interface NAP , described
 topic_type:
 - apiref
 api_name:
@@ -11,14 +13,19 @@ api_location:
 - NapSystemHealthAgent.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthAgentCallback interface
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSystemHealthAgentCallback** interface provides callback methods that are declared by the system and implemented by the SHA writer so the NapAgent can communicate with the SHA.
 
@@ -45,7 +52,7 @@ The **INapSystemHealthAgentCallback** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,8 +60,8 @@ The **INapSystemHealthAgentCallback** interface has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapSystemHealthAgent.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthAgent.idl</dt> </dl> |
 
@@ -70,9 +77,9 @@ The **INapSystemHealthAgentCallback** interface has these methods.
 [NAP Reference](nap-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

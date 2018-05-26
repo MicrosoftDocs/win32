@@ -2,13 +2,19 @@
 title: void attribute
 description: The base type void indicates a procedure with no arguments or a procedure that does not return a result value.
 ms.assetid: a3eebfe7-bf43-4bab-b87b-9188a54ab9bf
-keywords: ["void attribute MIDL"]
+keywords:
+- void attribute MIDL
 topic_type:
 - apiref
 api_name:
 - void
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # void attribute

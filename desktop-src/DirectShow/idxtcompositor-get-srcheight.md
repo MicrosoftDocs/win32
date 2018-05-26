@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_SrcHeight method retrieves the height of the source rectangle.'
-ms.assetid: '3c6647b3-dfca-490d-a3d5-9aa6988e387d'
-title: 'IDxtCompositor::get\_SrcHeight method'
+---
+Description: The get\_SrcHeight method retrieves the height of the source rectangle.
+ms.assetid: 3c6647b3-dfca-490d-a3d5-9aa6988e387d
+title: IDxtCompositorget\_SrcHeight method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtCompositor::get\_SrcHeight method

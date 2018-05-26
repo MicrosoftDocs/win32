@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds two 3D vectors.'
-ms.assetid: '2979e291-786b-4bc9-b584-421f08db949a'
+---
+Description: Adds two 3D vectors.
+ms.assetid: 2979e291-786b-4bc9-b584-421f08db949a
 title: D3DXVec3Add function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec3Add function

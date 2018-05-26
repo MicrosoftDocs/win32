@@ -1,7 +1,12 @@
 ---
-Description: 'A scaling transformation multiplies one or more of the four color components by a number. The color matrix entries that represent scaling are given in the following table.'
-ms.assetid: '08347831-7100-4220-a83b-693bb7b98ccb'
+Description: A scaling transformation multiplies one or more of the four color components by a number. The color matrix entries that represent scaling are given in the following table.
+ms.assetid: 08347831-7100-4220-a83b-693bb7b98ccb
 title: Scaling Colors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scaling Colors
@@ -21,7 +26,7 @@ A scaling transformation multiplies one or more of the four color components by 
 
  
 
-The following example constructs an [**Image**](-gdiplus-class-image-class.md) object from the file ColorBars2.bmp. Then the code scales the blue component of each pixel in the image by a factor of 2. The original image is drawn alongside the transformed image.
+The following example constructs an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object from the file ColorBars2.bmp. Then the code scales the blue component of each pixel in the image by a factor of 2. The original image is drawn alongside the transformed image.
 
 
 ```
@@ -75,7 +80,7 @@ The following table shows the color vectors for the four bars before and after t
 
  
 
-The following example constructs an [**Image**](-gdiplus-class-image-class.md) object from the file ColorBars2.bmp. Then the code scales the red, green, and blue components of each pixel in the image. The red components are scaled down 25 percent, the green components are scaled down 35 percent, and the blue components are scaled down 50 percent.
+The following example constructs an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object from the file ColorBars2.bmp. Then the code scales the red, green, and blue components of each pixel in the image. The red components are scaled down 25 percent, the green components are scaled down 35 percent, and the blue components are scaled down 50 percent.
 
 
 ```

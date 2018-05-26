@@ -1,8 +1,10 @@
 ---
 title: MDM\_SecureAssessment class
 description: The MDM\_SecureAssessmentclass is used to provide configuration information for the secure assessment browser.
-ms.assetid: 'ad456f01-c77d-428b-a8bf-03e9ae106e60'
-keywords: ["MDM_SecureAssessment class", "MDM_SecureAssessment class, described"]
+ms.assetid: ad456f01-c77d-428b-a8bf-03e9ae106e60
+keywords:
+- MDM_SecureAssessment class
+- MDM_SecureAssessment class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Mofs\DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_SecureAssessment class
@@ -29,10 +36,10 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv1")]
 class MDM_SecureAssessment
 {
-  string  InstanceID;
-  string  ParentID;
-  string  LaunchURI;
-  string  TesterAccount;
+  string  InstanceID;
+  string  ParentID;
+  string  LaunchURI;
+  string  TesterAccount;
   boolean AllowTextSuggestions;
   boolean RequirePrinting;
   boolean AllowScreenMonitoring;
@@ -144,7 +151,7 @@ Access type: Read/write
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                            |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl>      |
@@ -152,9 +159,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

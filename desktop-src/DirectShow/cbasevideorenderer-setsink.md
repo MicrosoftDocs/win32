@@ -1,19 +1,24 @@
 ---
-Description: 'The SetSink method sets the IQualityControl object that will receive quality messages.'
-ms.assetid: 'f5789781-1871-4fea-9d1f-bd1a21b70439'
-title: 'CBaseVideoRenderer.SetSink method'
+Description: The SetSink method sets the IQualityControl object that will receive quality messages.
+ms.assetid: f5789781-1871-4fea-9d1f-bd1a21b70439
+title: CBaseVideoRenderer.SetSink method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.SetSink method
 
-The `SetSink` method sets the [**IQualityControl**](iqualitycontrol.md) object that will receive quality messages.
+The `SetSink` method sets the [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master) object that will receive quality messages.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetSink(
-   IQualityControl *piqc
+   IQualityControl *piqc
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT SetSink(
 *piqc* 
 </dt> <dd>
 
-Pointer to the [**IQualityControl**](iqualitycontrol.md) object to which the notifications should be sent.
+Pointer to the [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master) object to which the notifications should be sent.
 
 </dd> </dl>
 
@@ -36,7 +41,7 @@ Returns an **HRESULT** value.
 
 ## Remarks
 
-This member function implements the [**IQualityControl::SetSink**](iqualitycontrol-setsink.md) method on the video renderer.
+This member function implements the [**IQualityControl::SetSink**](/windows/win32/Strmif/nf-strmif-iqualitycontrol-setsink?branch=master) method on the video renderer.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ This member function implements the [**IQualityControl::SetSink**](iqualitycontr
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

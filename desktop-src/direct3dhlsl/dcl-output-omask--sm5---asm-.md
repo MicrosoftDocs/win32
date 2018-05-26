@@ -1,7 +1,12 @@
 ---
 title: dcl\_output oMask (sm5 - asm)
 description: Declare an output register to be written by the shader.
-ms.assetid: '23FC5FA3-F550-4CD1-9AA9-86738818686F'
+ms.assetid: 23FC5FA3-F550-4CD1-9AA9-86738818686F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_output oMask (sm5 - asm)
@@ -15,7 +20,7 @@ Declare an output register to be written by the shader.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declare an output register to be written by the shader.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -52,7 +57,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -71,7 +76,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -80,9 +85,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

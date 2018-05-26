@@ -1,8 +1,15 @@
 ---
 title: Cursors
 description: This section discusses cursors which are small pictures whose location on the screen is controlled by a pointing device, such as a mouse, pen, or trackball.
-ms.assetid: '0ca8e51c-1159-47e9-ba3f-5ced0667cadb'
-keywords: ["resources,cursors", "cursors,about"]
+ms.assetid: 0ca8e51c-1159-47e9-ba3f-5ced0667cadb
+keywords:
+- resources,cursors
+- cursors,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cursors
@@ -23,7 +30,7 @@ When the user moves the mouse, the system moves the cursor accordingly. The curs
 
 
 
- 
+ 
 
 ### Cursor Functions
 
@@ -31,26 +38,26 @@ When the user moves the mouse, the system moves the cursor accordingly. The curs
 
 | Name                                                 | Description                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ClipCursor**](clipcursor.md)                     | Confines the cursor to a rectangular area on the screen. If a subsequent cursor position (set by the [**SetCursorPos**](setcursorpos.md) function or the mouse) lies outside the rectangle, the system automatically adjusts the position to keep the cursor inside the rectangular area. <br/> |
-| [**CopyCursor**](copycursor.md)                     | Copies the specified cursor. <br/>                                                                                                                                                                                                                                                               |
-| [**CreateCursor**](createcursor.md)                 | Creates a cursor having the specified size, bit patterns, and hot spot. <br/>                                                                                                                                                                                                                    |
-| [**DestroyCursor**](destroycursor.md)               | Destroys a cursor and frees any memory the cursor occupied. Do not use this function to destroy a shared cursor.<br/>                                                                                                                                                                            |
-| [**GetClipCursor**](getclipcursor.md)               | Retrieves the screen coordinates of the rectangular area to which the cursor is confined. <br/>                                                                                                                                                                                                  |
-| [**GetCursor**](getcursor.md)                       | Retrieves a handle to the current cursor. <br/>                                                                                                                                                                                                                                                  |
-| [**GetCursorInfo**](getcursorinfo.md)               | Retrieves information about the global cursor.<br/>                                                                                                                                                                                                                                              |
-| [**GetCursorPos**](getcursorpos.md)                 | Retrieves the cursor's position, in screen coordinates.<br/>                                                                                                                                                                                                                                     |
-| [**GetPhysicalCursorPos**](getphysicalcursorpos.md) | Retrieves the position of the cursor in physical coordinates.<br/>                                                                                                                                                                                                                               |
-| [**LoadCursor**](loadcursor.md)                     | Loads the specified cursor resource from the executable (.EXE) file associated with an application instance.<br/>                                                                                                                                                                                |
-| [**LoadCursorFromFile**](loadcursorfromfile.md)     | Creates a cursor based on data contained in a file. <br/>                                                                                                                                                                                                                                        |
-| [**SetCursor**](setcursor.md)                       | Sets the cursor shape. <br/>                                                                                                                                                                                                                                                                     |
-| [**SetCursorPos**](setcursorpos.md)                 | Moves the cursor to the specified screen coordinates. If the new coordinates are not within the screen rectangle set by the most recent [**ClipCursor**](clipcursor.md) function call, the system automatically adjusts the coordinates so that the cursor stays within the rectangle. <br/>    |
-| [**SetPhysicalCursorPos**](setphysicalcursorpos.md) | Sets the position of the cursor in physical coordinates.<br/>                                                                                                                                                                                                                                    |
-| [**SetSystemCursor**](setsystemcursor.md)           | Enables an application to customize the system cursors. It replaces the contents of the system cursor specified by the *id* parameter with the contents of the cursor specified by the *hcur* parameter and then destroys *hcur*. <br/>                                                          |
-| [**ShowCursor**](showcursor.md)                     | Displays or hides the cursor. <br/>                                                                                                                                                                                                                                                              |
+| [**ClipCursor**](/windows/win32/Winuser/nf-winuser-clipcursor?branch=master)                     | Confines the cursor to a rectangular area on the screen. If a subsequent cursor position (set by the [**SetCursorPos**](/windows/win32/Winuser/nf-winuser-setcursorpos?branch=master) function or the mouse) lies outside the rectangle, the system automatically adjusts the position to keep the cursor inside the rectangular area. <br/> |
+| [**CopyCursor**](/windows/win32/Winuser/nf-winuser-copycursor?branch=master)                     | Copies the specified cursor. <br/>                                                                                                                                                                                                                                                               |
+| [**CreateCursor**](/windows/win32/Winuser/nf-winuser-createcursor?branch=master)                 | Creates a cursor having the specified size, bit patterns, and hot spot. <br/>                                                                                                                                                                                                                    |
+| [**DestroyCursor**](/windows/win32/Winuser/nf-winuser-destroycursor?branch=master)               | Destroys a cursor and frees any memory the cursor occupied. Do not use this function to destroy a shared cursor.<br/>                                                                                                                                                                            |
+| [**GetClipCursor**](/windows/win32/Winuser/nf-winuser-getclipcursor?branch=master)               | Retrieves the screen coordinates of the rectangular area to which the cursor is confined. <br/>                                                                                                                                                                                                  |
+| [**GetCursor**](/windows/win32/Winuser/nf-winuser-getcursor?branch=master)                       | Retrieves a handle to the current cursor. <br/>                                                                                                                                                                                                                                                  |
+| [**GetCursorInfo**](/windows/win32/Winuser/nf-winuser-getcursorinfo?branch=master)               | Retrieves information about the global cursor.<br/>                                                                                                                                                                                                                                              |
+| [**GetCursorPos**](/windows/win32/Winuser/nf-winuser-getcursorpos?branch=master)                 | Retrieves the cursor's position, in screen coordinates.<br/>                                                                                                                                                                                                                                     |
+| [**GetPhysicalCursorPos**](/windows/win32/Winuser/nf-winuser-getphysicalcursorpos?branch=master) | Retrieves the position of the cursor in physical coordinates.<br/>                                                                                                                                                                                                                               |
+| [**LoadCursor**](/windows/win32/Winuser/nf-winuser-loadcursora?branch=master)                     | Loads the specified cursor resource from the executable (.EXE) file associated with an application instance.<br/>                                                                                                                                                                                |
+| [**LoadCursorFromFile**](/windows/win32/Winuser/nf-winuser-loadcursorfromfilea?branch=master)     | Creates a cursor based on data contained in a file. <br/>                                                                                                                                                                                                                                        |
+| [**SetCursor**](/windows/win32/Winuser/nf-winuser-setcursor?branch=master)                       | Sets the cursor shape. <br/>                                                                                                                                                                                                                                                                     |
+| [**SetCursorPos**](/windows/win32/Winuser/nf-winuser-setcursorpos?branch=master)                 | Moves the cursor to the specified screen coordinates. If the new coordinates are not within the screen rectangle set by the most recent [**ClipCursor**](/windows/win32/Winuser/nf-winuser-clipcursor?branch=master) function call, the system automatically adjusts the coordinates so that the cursor stays within the rectangle. <br/>    |
+| [**SetPhysicalCursorPos**](/windows/win32/Winuser/nf-winuser-setphysicalcursorpos?branch=master) | Sets the position of the cursor in physical coordinates.<br/>                                                                                                                                                                                                                                    |
+| [**SetSystemCursor**](/windows/win32/Winuser/nf-winuser-setsystemcursor?branch=master)           | Enables an application to customize the system cursors. It replaces the contents of the system cursor specified by the *id* parameter with the contents of the cursor specified by the *hcur* parameter and then destroys *hcur*. <br/>                                                          |
+| [**ShowCursor**](/windows/win32/Winuser/nf-winuser-showcursor?branch=master)                     | Displays or hides the cursor. <br/>                                                                                                                                                                                                                                                              |
 
 
 
- 
+ 
 
 ### Cursor Notifications
 
@@ -62,7 +69,7 @@ When the user moves the mouse, the system moves the cursor accordingly. The curs
 
 
 
- 
+ 
 
 ### Cursor Structures
 
@@ -70,15 +77,15 @@ When the user moves the mouse, the system moves the cursor accordingly. The curs
 
 | Name                             | Description                                    |
 |----------------------------------|------------------------------------------------|
-| [**CURSORINFO**](cursorinfo.md) | Contains global cursor information.<br/> |
+| [**CURSORINFO**](/windows/win32/Winuser/ns-winuser-tagcursorinfo?branch=master) | Contains global cursor information.<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

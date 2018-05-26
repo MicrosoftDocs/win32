@@ -1,15 +1,18 @@
-﻿---
-Description: 'Represents a job created with the AT command.'
+---
+Description: Represents a job created with the AT command.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2fa69e3f-9a6c-4aa9-8a6c-ea28eb4342ca'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2fa69e3f-9a6c-4aa9-8a6c-ea28eb4342ca
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ScheduledJob class'
+title: Win32\_ScheduledJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ScheduledJob class

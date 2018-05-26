@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DOCEVENT\_FILTER structure contains a list of document events to which the printer driver will respond. See DrvDocumentEvent for a complete list of the document events.'
-ms.assetid: 'f486efdb-79fd-4c57-bff6-75a0dbd68cc0'
-title: 'DOCEVENT\_FILTER structure'
+---
+Description: The DOCEVENT\_FILTER structure contains a list of document events to which the printer driver will respond. See DrvDocumentEvent for a complete list of the document events.
+ms.assetid: f486efdb-79fd-4c57-bff6-75a0dbd68cc0
+title: DOCEVENT\_FILTER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOCEVENT\_FILTER structure

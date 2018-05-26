@@ -1,8 +1,11 @@
 ---
 title: System.Shell.RecycleBin.emptyAll method
 description: Deletes all items from the Recycle Bin.
-ms.assetid: 'b3c0267c-1f0a-4f01-8937-d0a189a6df2e'
-keywords: ["emptyAll method Windows Sidebar", "emptyAll method Windows Sidebar , System.Shell.RecycleBin object", "System.Shell.RecycleBin object Windows Sidebar , emptyAll method"]
+ms.assetid: b3c0267c-1f0a-4f01-8937-d0a189a6df2e
+keywords:
+- emptyAll method Windows Sidebar
+- emptyAll method Windows Sidebar , System.Shell.RecycleBin object
+- System.Shell.RecycleBin object Windows Sidebar , emptyAll method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.RecycleBin.emptyAll method
@@ -67,18 +75,18 @@ function EmptyRecycleBin()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

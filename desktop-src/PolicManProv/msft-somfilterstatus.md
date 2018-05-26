@@ -1,15 +1,18 @@
 ---
-Description: 'Represents the status of a MSFT\_SomFilter object.'
+Description: Represents the status of a MSFT\_SomFilter object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9D9824BB-9A07-40DC-973F-B38FF175A404'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9D9824BB-9A07-40DC-973F-B38FF175A404
+ms.prod: windows-server-dev
 ms.technology:
-- 'group-policy'
-- 'windows-management-instrumentation'
+- group-policy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_SomFilterStatus class'
+title: MSFT\_SomFilterStatus class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SomFilterStatus class
@@ -24,7 +27,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("PolicStatus")]
 class MSFT_SomFilterStatus
 {
-  string  Domain;
+  string  Domain;
   boolean SchemaAvailable;
   boolean ContainerAvailable;
 };
@@ -90,8 +93,8 @@ Indicates whether the schema of the [**MSFT\_SomFilter**](msft-somfilter.md) obj
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\policy<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>PolicMan.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PolicMan.dll</dt> </dl> |
@@ -105,9 +108,9 @@ Indicates whether the schema of the [**MSFT\_SomFilter**](msft-somfilter.md) obj
 [**MSFT\_Rule**](msft-rule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

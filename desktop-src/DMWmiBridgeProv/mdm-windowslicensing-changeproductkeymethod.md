@@ -1,8 +1,11 @@
 ---
 title: ChangeProductKeyMethod method of the MDM\_WindowsLicensing class
 description: This method installs a product key for Widows 10 desktop devices. Dot not reboot. See also ChangeProductKey.
-ms.assetid: '1d9e3243-2ca4-427b-bda2-d33e1e70c80d'
-keywords: ["ChangeProductKeyMethod method", "ChangeProductKeyMethod method, MDM_WindowsLicensing class", "MDM_WindowsLicensing class, ChangeProductKeyMethod method"]
+ms.assetid: 1d9e3243-2ca4-427b-bda2-d33e1e70c80d
+keywords:
+- ChangeProductKeyMethod method
+- ChangeProductKeyMethod method, MDM_WindowsLicensing class
+- MDM_WindowsLicensing class, ChangeProductKeyMethod method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChangeProductKeyMethod method of the MDM\_WindowsLicensing class
@@ -24,7 +32,7 @@ This method installs a product key for Widows 10 desktop devices. Dot not reboot
 
 ```mof
 uint32 ChangeProductKeyMethod(
-  [in] string param
+  [in] string param
 );
 ```
 
@@ -43,7 +51,7 @@ uint32 ChangeProductKeyMethod(
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -58,9 +66,9 @@ uint32 ChangeProductKeyMethod(
 [**MDM\_WindowsLicensing**](mdm-windowslicensing.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

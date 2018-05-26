@@ -1,7 +1,12 @@
 ---
 Description: Category Metadata Manifests
-ms.assetid: '66f107e9-3328-4d3d-9340-e7a55a60285b'
+ms.assetid: 66f107e9-3328-4d3d-9340-e7a55a60285b
 title: Category Metadata Manifests
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Category Metadata Manifests

@@ -1,7 +1,12 @@
 ---
 Description: DirectShow System Overview
-ms.assetid: 'aea1ab83-4c48-4b61-8a20-0ee6ad62ebe3'
+ms.assetid: aea1ab83-4c48-4b61-8a20-0ee6ad62ebe3
 title: DirectShow System Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectShow System Overview

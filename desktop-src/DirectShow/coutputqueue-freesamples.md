@@ -1,7 +1,12 @@
 ---
-Description: 'The FreeSamples method frees all pending samples.'
-ms.assetid: '61b7fe6e-41cc-4d5e-b083-bbc400d04e39'
-title: 'COutputQueue.FreeSamples method'
+Description: The FreeSamples method frees all pending samples.
+ms.assetid: 61b7fe6e-41cc-4d5e-b083-bbc400d04e39
+title: COutputQueue.FreeSamples method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue.FreeSamples method
@@ -47,9 +52,9 @@ This method removes any pending samples from the queue and from the sample array
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

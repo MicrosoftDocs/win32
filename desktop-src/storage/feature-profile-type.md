@@ -1,8 +1,10 @@
 ---
 title: FEATURE\_PROFILE\_TYPE enumeration
 description: The FEATURE\_PROFILE\_TYPE enumeration provides a list of the profile names that are defined by the SCSI Multimedia - 4 (MMC-4) specification.
-ms.assetid: '60cce78f-1025-41a7-861d-150ef28376cb'
-keywords: ["FEATURE_PROFILE_TYPE enumeration Storage Devices", "PFEATURE_PROFILE_TYPE enumeration pointer Storage Devices"]
+ms.assetid: 60cce78f-1025-41a7-861d-150ef28376cb
+keywords:
+- FEATURE_PROFILE_TYPE enumeration Storage Devices
+- PFEATURE_PROFILE_TYPE enumeration pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - ntddmmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FEATURE\_PROFILE\_TYPE enumeration
@@ -22,40 +29,40 @@ The FEATURE\_PROFILE\_TYPE enumeration provides a list of the profile names that
 
 ```C++
 typedef enum _FEATURE_PROFILE_TYPE { 
-  ProfileInvalid                = 0x0000,
-  ProfileNonRemovableDisk       = 0x0001,
-  ProfileRemovableDisk          = 0x0002,
-  ProfileMOErasable             = 0x0003,
-  ProfileMOWriteOnce            = 0x0004,
-  ProfileAS_MO                  = 0x0005,
-  ProfileCdrom                  = 0x0008,
-  ProfileCdRecordable           = 0x0009,
-  ProfileCdRewritable           = 0x000a,
-  ProfileDvdRom                 = 0x0010,
-  ProfileDvdRecordable          = 0x0011,
-  ProfileDvdRam                 = 0x0012,
-  ProfileDvdRewritable          = 0x0013,
-  ProfileDvdRWSequential        = 0x0014,
-  ProfileDvdDashRDualLayer      = 0x0015,
-  ProfileDvdDashRLayerJump      = 0x0016,
-  ProfileDvdPlusRW              = 0x001A,
-  ProfileDvdPlusR               = 0x001B,
-  ProfileDDCdrom                = 0x0020,
-  ProfileDDCdRecordable         = 0x0021,
-  ProfileDDCdRewritable         = 0x0022,
-  ProfileDvdPlusRWDualLayer     = 0x002A,
-  ProfileDvdPlusRDualLayer      = 0x002B,
-  ProfileBDRom                  = 0x0040,
-  ProfileBDRSequentialWritable  = 0x0041,
-  ProfileBDRRandomWritable      = 0x0042,
-  ProfileBDRewritable           = 0x0043,
-  ProfileHDDVDRom               = 0x0050,
-  ProfileHDDVDRecordable        = 0x0051,
-  ProfileHDDVDRam               = 0x0052,
-  ProfileHDDVDRewritable        = 0x0053,
-  ProfileHDDVDRDualLayer        = 0x0058,
-  ProfileHDDVDRWDualLayer       = 0x005A,
-  ProfileNonStandard            = 0xffff
+  ProfileInvalid                = 0x0000,
+  ProfileNonRemovableDisk       = 0x0001,
+  ProfileRemovableDisk          = 0x0002,
+  ProfileMOErasable             = 0x0003,
+  ProfileMOWriteOnce            = 0x0004,
+  ProfileAS_MO                  = 0x0005,
+  ProfileCdrom                  = 0x0008,
+  ProfileCdRecordable           = 0x0009,
+  ProfileCdRewritable           = 0x000a,
+  ProfileDvdRom                 = 0x0010,
+  ProfileDvdRecordable          = 0x0011,
+  ProfileDvdRam                 = 0x0012,
+  ProfileDvdRewritable          = 0x0013,
+  ProfileDvdRWSequential        = 0x0014,
+  ProfileDvdDashRDualLayer      = 0x0015,
+  ProfileDvdDashRLayerJump      = 0x0016,
+  ProfileDvdPlusRW              = 0x001A,
+  ProfileDvdPlusR               = 0x001B,
+  ProfileDDCdrom                = 0x0020,
+  ProfileDDCdRecordable         = 0x0021,
+  ProfileDDCdRewritable         = 0x0022,
+  ProfileDvdPlusRWDualLayer     = 0x002A,
+  ProfileDvdPlusRDualLayer      = 0x002B,
+  ProfileBDRom                  = 0x0040,
+  ProfileBDRSequentialWritable  = 0x0041,
+  ProfileBDRRandomWritable      = 0x0042,
+  ProfileBDRewritable           = 0x0043,
+  ProfileHDDVDRom               = 0x0050,
+  ProfileHDDVDRecordable        = 0x0051,
+  ProfileHDDVDRam               = 0x0052,
+  ProfileHDDVDRewritable        = 0x0053,
+  ProfileHDDVDRDualLayer        = 0x0058,
+  ProfileHDDVDRWDualLayer       = 0x005A,
+  ProfileNonStandard            = 0xffff
 } FEATURE_PROFILE_TYPE, *PFEATURE_PROFILE_TYPE;
 ```
 
@@ -296,9 +303,9 @@ Indicates that the device does not conform to any profile.
 [**FEATURE\_DATA\_PROFILE\_LIST**](feature-data-profile-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20FEATURE_PROFILE_TYPE%20enumeration%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

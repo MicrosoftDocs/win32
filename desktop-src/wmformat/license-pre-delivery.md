@@ -1,8 +1,23 @@
 ---
 title: License Pre-Delivery
 description: License Pre-Delivery
-ms.assetid: '184d9118-5b60-4871-a1e3-75c45153460d'
-keywords: ["Windows Media Format SDK,pre-delivery of licenses", "Windows Media Format SDK,licenses", "digital rights management (DRM),pre-delivery of licenses", "DRM (digital rights management),pre-delivery of licenses", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "DRM Client Extended APIs,pre-delivery of licenses", "Client Extended APIs,pre-delivery of licenses", "pre-delivery of licenses", "licenses,pre-delivery of licenses"]
+ms.assetid: 184d9118-5b60-4871-a1e3-75c45153460d
+keywords:
+- Windows Media Format SDK,pre-delivery of licenses
+- Windows Media Format SDK,licenses
+- digital rights management (DRM),pre-delivery of licenses
+- DRM (digital rights management),pre-delivery of licenses
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- DRM Client Extended APIs,pre-delivery of licenses
+- Client Extended APIs,pre-delivery of licenses
+- pre-delivery of licenses
+- licenses,pre-delivery of licenses
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # License Pre-Delivery

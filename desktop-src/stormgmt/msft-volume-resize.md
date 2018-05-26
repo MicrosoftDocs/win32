@@ -1,8 +1,11 @@
 ---
 title: Resize method of the MSFT\_Volume class
 description: Resizes the volume.
-ms.assetid: '9676FA96-D1FA-4435-87DE-72703B54D538'
-keywords: ["Resize method Windows Storage Management API", "Resize method Windows Storage Management API , MSFT_Volume class", "MSFT_Volume class Windows Storage Management API , Resize method"]
+ms.assetid: 9676FA96-D1FA-4435-87DE-72703B54D538
+keywords:
+- Resize method Windows Storage Management API
+- Resize method Windows Storage Management API , MSFT_Volume class
+- MSFT_Volume class Windows Storage Management API , Resize method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resize method of the MSFT\_Volume class
@@ -22,9 +30,9 @@ Resizes the volume.
 
 ```mof
 UInt32 Resize(
-  [in]  UInt64              Size,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  UInt64              Size,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -103,8 +111,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -117,9 +125,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_Volume**](msft-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Schema
 description: The schema documents the values and properties that the index uses to store data for indexing or sorting.
-ms.assetid: 'dfd8862c-8f84-441e-a4b4-4af3c76c48f9'
+ms.assetid: dfd8862c-8f84-441e-a4b4-4af3c76c48f9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Schema

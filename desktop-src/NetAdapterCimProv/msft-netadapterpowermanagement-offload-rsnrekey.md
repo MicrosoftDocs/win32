@@ -1,7 +1,12 @@
 ---
-Description: 'MSFT\_NetAdapterPowerManagement\_Offload\_RsnRekey contains parameters for offloading the RSN Rekey protocol.'
-ms.assetid: '599814d3-d073-426f-b3da-a72f2ef6468f'
-title: 'MSFT\_NetAdapterPowerManagement\_Offload\_RsnRekey class'
+Description: MSFT\_NetAdapterPowerManagement\_Offload\_RsnRekey contains parameters for offloading the RSN Rekey protocol.
+ms.assetid: 599814d3-d073-426f-b3da-a72f2ef6468f
+title: MSFT\_NetAdapterPowerManagement\_Offload\_RsnRekey class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterPowerManagement\_Offload\_RsnRekey class
@@ -16,8 +21,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterPowerManagement_Offload_RsnRekey : MSFT_NetAdapterPowerManagement_Offloa
 {
-  uint8  KCK[];
-  uint8  KEK[];
+  uint8  KCK[];
+  uint8  KEK[];
   uint64 ReplayCounter;
 };
 ```
@@ -80,16 +85,16 @@ Supplies the replay counter.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

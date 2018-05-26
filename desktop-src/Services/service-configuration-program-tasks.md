@@ -1,7 +1,12 @@
 ---
-Description: 'The following tasks are performed by service configuration programs:'
-ms.assetid: 'f5205814-0897-4a59-b6d3-49d5b8115d29'
+Description: The following tasks are performed by service configuration programs
+ms.assetid: f5205814-0897-4a59-b6d3-49d5b8115d29
 title: Service Configuration Program Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service Configuration Program Tasks

@@ -1,14 +1,20 @@
 ---
 title: GlobalRootcause Complex Type
 description: Specifies resolvers and verifiers that act on the root causes that a troubleshooter finds.
-ms.assetid: 'afa7245d-3581-4b24-a525-7082c4c5afd2'
-keywords: ["GlobalRootcause complex type Windows Troubleshooting Toolkit"]
+ms.assetid: afa7245d-3581-4b24-a525-7082c4c5afd2
+keywords:
+- GlobalRootcause complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - GlobalRootcause
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GlobalRootcause Complex Type
@@ -86,8 +92,8 @@ You must specify the resolver scripts; however, the verifier script is optional.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -101,9 +107,9 @@ You must specify the resolver scripts; however, the verifier script is optional.
 [**Rootcause (GlobalRootcauses) Element**](package-rootcause-globalrootcauses-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

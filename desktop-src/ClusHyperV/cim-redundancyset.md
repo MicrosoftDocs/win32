@@ -4,13 +4,15 @@ description: A collection of managed elements that provides redundancy.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f7f981e0-0eb4-4938-9b16-8c13749fe3ea'
-ms.prod: 'windows-server-dev'
+ms.assetid: f7f981e0-0eb4-4938-9b16-8c13749fe3ea
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_RedundancySet class", "CIM_RedundancySet class, described"]
+keywords:
+- CIM_RedundancySet class
+- CIM_RedundancySet class, described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_RedundancySet class
@@ -40,7 +45,7 @@ A collection of managed elements that provides redundancy.
 > [!Note]  
 > All of the elements in the collection should be of the same class type.
 
- 
+ 
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -84,7 +89,7 @@ The **CIM\_RedundancySet** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -432,14 +437,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -463,7 +468,7 @@ The vendor identifying data for the redundancy set. One example is the product n
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -477,9 +482,9 @@ The vendor identifying data for the redundancy set. One example is the product n
 [**CIM\_SystemSpecificCollection**](cim-systemspecificcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

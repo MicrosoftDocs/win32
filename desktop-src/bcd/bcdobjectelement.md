@@ -1,8 +1,10 @@
 ---
 title: BcdObjectElement class
 description: Represents an object element.
-ms.assetid: '94249c20-f500-4b20-821d-e4d083ffc58e'
-keywords: ["BcdObjectElement class Boot Config", "BcdObjectElement class Boot Config , described"]
+ms.assetid: 94249c20-f500-4b20-821d-e4d083ffc58e
+keywords:
+- BcdObjectElement class Boot Config
+- BcdObjectElement class Boot Config , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdObjectElement class
@@ -58,8 +65,8 @@ The **GUID** of the object.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -75,9 +82,9 @@ The **GUID** of the object.
 [**SetObjectElement**](setobjectelement-bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

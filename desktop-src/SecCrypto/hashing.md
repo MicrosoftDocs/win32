@@ -1,7 +1,12 @@
 ---
-Description: 'Lists procedures and examples that demonstrate creating, encoding, decoding, and signing hashes.'
-ms.assetid: '684b6cc7-6ed6-4894-95a0-3872a4983bce'
+Description: Lists procedures and examples that demonstrate creating, encoding, decoding, and signing hashes.
+ms.assetid: 684b6cc7-6ed6-4894-95a0-3872a4983bce
 title: Hashing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hashing

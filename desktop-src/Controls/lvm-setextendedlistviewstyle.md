@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETEXTENDEDLISTVIEWSTYLE message
 description: Sets extended styles in list-view controls. You can send this message explicitly or use the ListView\_SetExtendedListViewStyle or ListView\_SetExtendedListViewStyleEx macro.
-ms.assetid: 'eb3f47ed-484a-49a8-94b0-e50ee081bd69'
-keywords: ["LVM_SETEXTENDEDLISTVIEWSTYLE message Windows Controls"]
+ms.assetid: eb3f47ed-484a-49a8-94b0-e50ee081bd69
+keywords:
+- LVM_SETEXTENDEDLISTVIEWSTYLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETEXTENDEDLISTVIEWSTYLE message
 
-Sets extended styles in list-view controls. You can send this message explicitly or use the [**ListView\_SetExtendedListViewStyle**](listview-setextendedlistviewstyle.md) or [**ListView\_SetExtendedListViewStyleEx**](listview-setextendedlistviewstyleex.md) macro.
+Sets extended styles in list-view controls. You can send this message explicitly or use the [**ListView\_SetExtendedListViewStyle**](/windows/win32/Commctrl/nf-commctrl-listview_setextendedlistviewstyle?branch=master) or [**ListView\_SetExtendedListViewStyleEx**](/windows/win32/Commctrl/nf-commctrl-listview_setextendedlistviewstyleex?branch=master) macro.
 
 ## Parameters
 
@@ -43,9 +49,9 @@ Returns a **DWORD** value that contains the previous extended list-view control 
 
 The *wParam* parameter allows you to modify one or more extended styles without having to retrieve the existing styles first. For example, if you pass [**LVS\_EX\_FULLROWSELECT**](extended-list-view-styles.md#lvs-ex-fullrowselect) for *wParam* and 0 for *lParam*, the **LVS\_EX\_FULLROWSELECT** style will be cleared but all other styles will remain the same.
 
-For backward compatibility reasons, the [**ListView\_SetExtendedListViewStyle**](listview-setextendedlistviewstyle.md) macro has not been updated to use *wParam*. To use the *wParam* value, use the [**ListView\_SetExtendedListViewStyleEx**](listview-setextendedlistviewstyleex.md) macro.
+For backward compatibility reasons, the [**ListView\_SetExtendedListViewStyle**](/windows/win32/Commctrl/nf-commctrl-listview_setextendedlistviewstyle?branch=master) macro has not been updated to use *wParam*. To use the *wParam* value, use the [**ListView\_SetExtendedListViewStyleEx**](/windows/win32/Commctrl/nf-commctrl-listview_setextendedlistviewstyleex?branch=master) macro.
 
-When you use this message to set the [**LVS\_EX\_CHECKBOXES**](extended-list-view-styles.md#lvs-ex-checkboxes) style, any previously set state image index will be discarded. All check boxes will be initialized to the unchecked state. The state image index is contained in bits 12 through 15 of the **state** member of the [**LVITEM**](lvitem.md) structure.
+When you use this message to set the [**LVS\_EX\_CHECKBOXES**](extended-list-view-styles.md#lvs-ex-checkboxes) style, any previously set state image index will be discarded. All check boxes will be initialized to the unchecked state. The state image index is contained in bits 12 through 15 of the **state** member of the [**LVITEM**](/windows/win32/Commctrl/ns-commctrl-taglvitema?branch=master) structure.
 
 ## Requirements
 
@@ -53,15 +59,15 @@ When you use this message to set the [**LVS\_EX\_CHECKBOXES**](extended-list-vie
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

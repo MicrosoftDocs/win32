@@ -1,8 +1,11 @@
 ---
 title: IMessenger StartVoice method
 description: Launches a Messenger conversation window to initiate a voice message session with a particular contact, pending acceptance of the invitation.
-ms.assetid: 'ee6874f7-f9df-4d23-bddc-d0d5bbb0a26e'
-keywords: ["StartVoice method Windows Messenger", "StartVoice method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , StartVoice method"]
+ms.assetid: ee6874f7-f9df-4d23-bddc-d0d5bbb0a26e
+keywords:
+- StartVoice method Windows Messenger
+- StartVoice method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , StartVoice method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::StartVoice method
 
-\[**StartVoice** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**StartVoice** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Launches a Messenger conversation window to initiate a voice message session with a particular contact, pending acceptance of the invitation.
 
@@ -24,8 +32,8 @@ Launches a Messenger conversation window to initiate a voice message session wit
 
 ```C++
 HRESULT StartVoice(
-  [in]          VARIANT   vContact,
-  [out, retval] IDispatch **ppMWindow
+  [in]          VARIANT   vContact,
+  [out, retval] IDispatch **ppMWindow
 );
 ```
 
@@ -73,7 +81,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -104,7 +112,7 @@ have been established. These key locations may vary in different operating syste
 > [!Note]  
 > This method is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -112,8 +120,8 @@ have been established. These key locations may vary in different operating syste
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -136,9 +144,9 @@ have been established. These key locations may vary in different operating syste
 [**SendFile**](im-imessenger-sendfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

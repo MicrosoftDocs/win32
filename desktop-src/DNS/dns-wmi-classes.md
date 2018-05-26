@@ -1,8 +1,16 @@
 ---
 title: DNS WMI Classes
 description: The DNS WMI Provider defines the following DNS WMI classes.
-ms.assetid: '7a9d98e7-7249-4f1c-947f-058d6a87ba04'
-keywords: ["Domain Name System, reference, WMI classes", "WMI classes", "WMI classes, DNS"]
+ms.assetid: 7a9d98e7-7249-4f1c-947f-058d6a87ba04
+keywords:
+- Domain Name System, reference, WMI classes
+- WMI classes
+- WMI classes, DNS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DNS WMI Classes

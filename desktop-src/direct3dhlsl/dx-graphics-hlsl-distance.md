@@ -1,14 +1,20 @@
 ---
 title: distance
 description: Returns a distance scalar between two vectors.
-ms.assetid: 'dda8dc39-fd72-4e92-bf9d-e700db0ede9e'
-keywords: ["distance HLSL"]
+ms.assetid: dda8dc39-fd72-4e92-bf9d-e700db0ede9e
+keywords:
+- distance HLSL
 topic_type:
 - apiref
 api_name:
 - distance
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # distance
@@ -22,7 +28,7 @@ Returns a distance scalar between two vectors.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Returns a distance scalar between two vectors.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ A floating-point, scalar value that represents the distance between the *x* para
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +74,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -77,9 +83,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

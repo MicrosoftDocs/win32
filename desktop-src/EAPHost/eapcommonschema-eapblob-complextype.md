@@ -1,14 +1,20 @@
 ---
 title: EapBlob Complex Type
 description: Is not in use.
-ms.assetid: '6333daed-15f0-464d-848e-8c84a7ba16fa'
-keywords: ["EapBlob complex type EAPHost"]
+ms.assetid: 6333daed-15f0-464d-848e-8c84a7ba16fa
+keywords:
+- EapBlob complex type EAPHost
 topic_type:
 - apiref
 api_name:
 - EapBlob
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EapBlob Complex Type
@@ -25,8 +31,8 @@ The **EapBlob** complex type is not in use.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -40,9 +46,9 @@ The **EapBlob** complex type is not in use.
 [eapcommon Schema](eapcommonschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

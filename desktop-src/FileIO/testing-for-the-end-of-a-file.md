@@ -1,12 +1,17 @@
 ---
-Description: 'Example code that shows how to test for the end of file during a synchronous read operation and during an asynchronous read operation.'
-ms.assetid: '93fa9e29-1ff1-496d-9551-99ae88ba7253'
+Description: Example code that shows how to test for the end of file during a synchronous read operation and during an asynchronous read operation.
+ms.assetid: 93fa9e29-1ff1-496d-9551-99ae88ba7253
 title: Testing for the End of a File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing for the End of a File
 
-The [**ReadFile**](readfile.md) function checks for the end-of-file condition (EOF) differently for synchronous and asynchronous read operations. When a synchronous read operation gets to the end of a file, **ReadFile** returns **TRUE** and sets the variable pointed to by the *lpNumberOfBytesRead* parameter to zero. An asynchronous read operation can encounter the end of a file during the initiating call to **ReadFile** or during subsequent asynchronous operations if the file pointer is programmatically advanced beyond the end of the file.
+The [**ReadFile**](/windows/win32/FileAPI/nf-fileapi-readfile?branch=master) function checks for the end-of-file condition (EOF) differently for synchronous and asynchronous read operations. When a synchronous read operation gets to the end of a file, **ReadFile** returns **TRUE** and sets the variable pointed to by the *lpNumberOfBytesRead* parameter to zero. An asynchronous read operation can encounter the end of a file during the initiating call to **ReadFile** or during subsequent asynchronous operations if the file pointer is programmatically advanced beyond the end of the file.
 
 The following C++ example shows how to test for the end of a file during a synchronous read operation.
 

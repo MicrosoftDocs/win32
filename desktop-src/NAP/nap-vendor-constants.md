@@ -1,7 +1,7 @@
 ---
 title: NAP Vendor Constants
 description: The following internal Microsoft NAP component IDs are defined in NapMicrosoftVendorIds.h.
-ms.assetid: '16d87399-3d96-47c7-b865-c56cfacdeff8'
+ms.assetid: 16d87399-3d96-47c7-b865-c56cfacdeff8
 topic_type:
 - apiref
 api_name:
@@ -22,14 +22,19 @@ api_location:
 - NapMicrosoftVendorIds.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NAP Vendor Constants
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The following internal Microsoft NAP component IDs are defined in NapMicrosoftVendorIds.h. When implementing a SHA or SHV, do not use these ID values that are already assigned to internal Microsoft system health components.
 
@@ -158,15 +163,15 @@ The following internal Microsoft NAP component IDs are defined in NapMicrosoftVe
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>NapMicrosoftVendorIds.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine SetAccountNameAndPassword method
 description: The SetAccountNameAndPassword method sets the account name and password for the context in which this virtual machine will run.
-ms.assetid: 'e2733ca9-6c56-427b-ba42-4ef86fb5c01f'
-keywords: ["SetAccountNameAndPassword method Virtual Server", "SetAccountNameAndPassword method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , SetAccountNameAndPassword method"]
+ms.assetid: e2733ca9-6c56-427b-ba42-4ef86fb5c01f
+keywords:
+- SetAccountNameAndPassword method Virtual Server
+- SetAccountNameAndPassword method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , SetAccountNameAndPassword method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::SetAccountNameAndPassword method
@@ -22,8 +30,8 @@ The **SetAccountNameAndPassword** method sets the account name and password for 
 
 ```C++
 HRESULT SetAccountNameAndPassword(
-  [in] BSTR accountName,
-  [in] BSTR accountPassword
+  [in] BSTR accountName,
+  [in] BSTR accountPassword
 );
 ```
 
@@ -62,7 +70,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -70,8 +78,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -83,9 +91,9 @@ This method can return one of these values.
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

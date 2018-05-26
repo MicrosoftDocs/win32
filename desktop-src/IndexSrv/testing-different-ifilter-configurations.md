@@ -1,7 +1,12 @@
 ---
 title: Testing Different IFilter Configurations
 description: Testing Different IFilter Configurations
-ms.assetid: '5a0c9694-eb73-42c8-a264-4981e85cbc0f'
+ms.assetid: 5a0c9694-eb73-42c8-a264-4981e85cbc0f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing Different IFilter Configurations
@@ -11,7 +16,7 @@ ms.assetid: '5a0c9694-eb73-42c8-a264-4981e85cbc0f'
 
  
 
-The ifilttst.exe program releases the [**IFilter**](ifilter.md) interface and rebinds, this time initializing it with the next set of parameters. The test repeats the cycle: validation test, consistency test, and invalid input test, until all the desired **IFilter** configurations, as specified in [ifilttst.ini](the-ifilttst-ini-file.md), have been tested.
+The ifilttst.exe program releases the [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) interface and rebinds, this time initializing it with the next set of parameters. The test repeats the cycle: validation test, consistency test, and invalid input test, until all the desired **IFilter** configurations, as specified in [ifilttst.ini](the-ifilttst-ini-file.md), have been tested.
 
  
 

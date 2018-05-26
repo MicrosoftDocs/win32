@@ -1,7 +1,12 @@
 ---
 title: To merge multiple help files at run time
 description: To merge multiple help files at run time
-ms.assetid: '5C815B74-EFBE-4190-A8B9-1240157C1CCB'
+ms.assetid: 5C815B74-EFBE-4190-A8B9-1240157C1CCB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To merge multiple help files at run time
@@ -16,7 +21,7 @@ ms.assetid: '5C815B74-EFBE-4190-A8B9-1240157C1CCB'
 
     
 
-     
+     
 
 2.  On the **Merge Files** tab, click **Add**.
 3.  In the **Specify the name of the file to merge** box, enter the appropriate file name.
@@ -36,9 +41,9 @@ ms.assetid: '5C815B74-EFBE-4190-A8B9-1240157C1CCB'
 [About Merging Help Files at Run Time](merging-help-files-at-run-time.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

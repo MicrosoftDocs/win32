@@ -1,7 +1,12 @@
 ---
 title: CONTAINS Predicate
 description: CONTAINS Predicate
-ms.assetid: 'b7416c8f-3270-466a-89ac-32f7e30ccd48'
+ms.assetid: b7416c8f-3270-466a-89ac-32f7e30ccd48
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CONTAINS Predicate

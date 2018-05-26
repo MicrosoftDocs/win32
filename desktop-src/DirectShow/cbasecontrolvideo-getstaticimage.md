@@ -1,7 +1,12 @@
 ---
-Description: 'Pure virtual method that derived classes override.'
-ms.assetid: '05c73f6b-27f4-4930-b4d5-1688b6bf1791'
-title: 'CBaseControlVideo.GetStaticImage method'
+Description: Pure virtual method that derived classes override.
+ms.assetid: 05c73f6b-27f4-4930-b4d5-1688b6bf1791
+title: CBaseControlVideo.GetStaticImage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.GetStaticImage method
@@ -13,8 +18,8 @@ Pure virtual method that derived classes override.
 
 ```C++
 virtual HRESULT GetStaticImage(
-   long *pBufferSize,
-   long *pDIBImage
+   long *pBufferSize,
+   long *pDIBImage
 ) = 0;
 ```
 
@@ -44,7 +49,7 @@ Returns an **HRESULT** value.
 
 ## Remarks
 
-Through the [**IBasicVideo**](ibasicvideo.md) interface, an application can request that it be given a copy of the current image in a memory buffer (some renderers can return E\_NOTIMPL to this if they do not support it). The derived class determines how to retrieve the image. When the application calls **CBaseControlVideo::GetStaticImage**, it calls this pure virtual method that the derived class should override to implement it. This is also called by the [**CBaseControlVideo::GetCurrentImage**](cbasecontrolvideo-getcurrentimage.md) member function.
+Through the [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master) interface, an application can request that it be given a copy of the current image in a memory buffer (some renderers can return E\_NOTIMPL to this if they do not support it). The derived class determines how to retrieve the image. When the application calls **CBaseControlVideo::GetStaticImage**, it calls this pure virtual method that the derived class should override to implement it. This is also called by the [**CBaseControlVideo::GetCurrentImage**](cbasecontrolvideo-getcurrentimage.md) member function.
 
 The class provides a helper member function, [**CBaseControlVideo::CopyImage**](cbasecontrolvideo-copyimage.md), that can be given a sample that contains an image, and the member function will copy the relevant section of it (based on the current source rectangle) into the output buffer supplied by the application.
 
@@ -94,9 +99,9 @@ HRESULT CVideoText::GetStaticImage(long *pBufferSize,long *pDIBImage)
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

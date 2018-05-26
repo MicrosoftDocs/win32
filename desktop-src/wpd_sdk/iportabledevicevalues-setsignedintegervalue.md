@@ -1,7 +1,12 @@
 ---
-Description: 'The SetSignedIntegerValue method adds a new LONG value (type VT\_I4) or overwrites an existing one.'
-ms.assetid: 'b0bb2992-2906-446c-be9a-20bff13f8e1d'
-title: 'IPortableDeviceValues::SetSignedIntegerValue method'
+Description: The SetSignedIntegerValue method adds a new LONG value (type VT\_I4) or overwrites an existing one.
+ms.assetid: b0bb2992-2906-446c-be9a-20bff13f8e1d
+title: IPortableDeviceValuesSetSignedIntegerValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetSignedIntegerValue method
@@ -13,8 +18,8 @@ The **SetSignedIntegerValue** method adds a new **LONG** value (type VT\_I4) or 
 
 ```C++
 HRESULT SetSignedIntegerValue(
-  [in]       REFPROPERTYKEY key,
-  [in] const LONG           Value
+  [in]       REFPROPERTYKEY key,
+  [in] const LONG           Value
 );
 ```
 
@@ -50,7 +55,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +82,9 @@ If an existing value has the same key that is specified by the *key* parameter, 
 [**IPortableDeviceValues::GetSignedIntegerValue**](iportabledevicevalues-getsignedintegervalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

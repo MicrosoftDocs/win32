@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TransGetCount method retrieves the number of transitions on this object.'
-ms.assetid: 'f7fb4a99-c841-4680-b7f1-e4d887f12707'
-title: 'IAMTimelineTransable::TransGetCount method'
+---
+Description: The TransGetCount method retrieves the number of transitions on this object.
+ms.assetid: f7fb4a99-c841-4680-b7f1-e4d887f12707
+title: IAMTimelineTransableTransGetCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTransable::TransGetCount method

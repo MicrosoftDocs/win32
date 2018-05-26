@@ -1,7 +1,12 @@
 ---
 title: Use of the ProviderSpecific Buffer as a Sender
 description: Use of the ProviderSpecific buffer as a sender.
-ms.assetid: 'ce72fce0-a4de-4919-8fb0-76633c50d733'
+ms.assetid: ce72fce0-a4de-4919-8fb0-76633c50d733
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use of the ProviderSpecific Buffer as a Sender

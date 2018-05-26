@@ -1,6 +1,11 @@
-﻿---
-Description: 'Contains information about the drive selected in the active File Manager window (the directory window or the Search Results window).'
-title: 'FMS\_GETDRIVEINFO structure'
+---
+Description: Contains information about the drive selected in the active File Manager window (the directory window or the Search Results window).
+title: FMS\_GETDRIVEINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FMS\_GETDRIVEINFO structure

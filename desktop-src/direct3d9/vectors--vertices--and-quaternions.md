@@ -1,7 +1,12 @@
 ---
-Description: 'Throughout Direct3D, vertices describe position and orientation. Each vertex in a primitive is described by a vector that gives its position, color, texture coordinates, and a normal vector that gives its orientation.'
-ms.assetid: 'f18b235c-97ff-4779-8584-8e96b62c7ca3'
-title: 'Vectors, Vertices, and Quaternions (Direct3D 9)'
+Description: Throughout Direct3D, vertices describe position and orientation. Each vertex in a primitive is described by a vector that gives its position, color, texture coordinates, and a normal vector that gives its orientation.
+ms.assetid: f18b235c-97ff-4779-8584-8e96b62c7ca3
+title: Vectors, Vertices, and Quaternions (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vectors, Vertices, and Quaternions (Direct3D 9)

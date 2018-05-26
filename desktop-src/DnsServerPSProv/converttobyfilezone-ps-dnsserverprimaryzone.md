@@ -2,13 +2,16 @@
 title: ConvertToByFileZone method of the PS\_DnsServerPrimaryZone class
 description: Converts a zone to DNS server primary zone.
 audience: developer
-ms.assetid: '3501f194-06ed-4217-b59b-25f6d8eca2e6'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3501f194-06ed-4217-b59b-25f6d8eca2e6
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ConvertToByFileZone method", "ConvertToByFileZone method, PS_DnsServerPrimaryZone class", "PS_DnsServerPrimaryZone class, ConvertToByFileZone method"]
+keywords:
+- ConvertToByFileZone method
+- ConvertToByFileZone method, PS_DnsServerPrimaryZone class
+- PS_DnsServerPrimaryZone class, ConvertToByFileZone method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConvertToByFileZone method of the PS\_DnsServerPrimaryZone class
@@ -28,13 +34,13 @@ Converts a zone to DNS server primary zone.
 
 ```mof
 uint32 ConvertToByFileZone(
-  [in]  string               ComputerName,
-  [in]  string               Name,
-  [in]  boolean              LoadExisting,
-  [in]  boolean              PassThru,
-  [in]  string               ZoneFile,
-  [in]  boolean              Force,
-  [out] DnsServerPrimaryZone cmdletOutput
+  [in]  string               ComputerName,
+  [in]  string               Name,
+  [in]  boolean              LoadExisting,
+  [in]  boolean              PassThru,
+  [in]  string               ZoneFile,
+  [in]  boolean              Force,
+  [out] DnsServerPrimaryZone cmdletOutput
 );
 ```
 
@@ -100,7 +106,7 @@ Receives an embedded instance of the [**DnsServerPrimaryZone**](dnsserverprimary
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -114,9 +120,9 @@ Receives an embedded instance of the [**DnsServerPrimaryZone**](dnsserverprimary
 [**PS\_DnsServerPrimaryZone**](ps-dnsserverprimaryzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

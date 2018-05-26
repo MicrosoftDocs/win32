@@ -1,7 +1,12 @@
 ---
-Description: 'Omits an item from Shell views.'
-ms.assetid: '3dc94d18-626c-4626-8977-a93d41830ce7'
-title: 'System.Shell.OmitFromView'
+Description: Omits an item from Shell views.
+ms.assetid: 3dc94d18-626c-4626-8977-a93d41830ce7
+title: System.Shell.OmitFromView
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.OmitFromView

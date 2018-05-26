@@ -4,11 +4,16 @@ description: Starting with Windows Server 2012 FSRM uses WMI to schedule report
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '558ce579-2cde-4bd5-90f9-4dd6d0cf8207'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 558ce579-2cde-4bd5-90f9-4dd6d0cf8207
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , scheduling a report job using WMI", "reports File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , scheduling a report job using WMI
+- reports File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scheduling a Storage Report using WMI

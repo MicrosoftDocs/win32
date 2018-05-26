@@ -1,8 +1,16 @@
 ---
 title: HttpCustomHeaderPurchaseOrderServiceExample
 description: This example shows how to use service host for hosting a PurchaseOrder service over HTTP.
-ms.assetid: '7a86e0be-6e52-4ad2-bca4-0162a8030cdc'
-keywords: ["HttpCustomHeaderPurchaseOrderServiceExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 7a86e0be-6e52-4ad2-bca4-0162a8030cdc
+keywords:
+- HttpCustomHeaderPurchaseOrderServiceExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCustomHeaderPurchaseOrderServiceExample

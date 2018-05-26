@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a collection of the open windows that belong to the Shell. Methods associated with this objects can control and execute commands within the Shell, and obtain other Shell-related objects.'
-ms.assetid: 'e609c8b6-2b2e-4188-894c-5c85960206ea'
+---
+Description: Represents a collection of the open windows that belong to the Shell. Methods associated with this objects can control and execute commands within the Shell, and obtain other Shell-related objects.
+ms.assetid: e609c8b6-2b2e-4188-894c-5c85960206ea
 title: ShellWindows object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellWindows object

@@ -1,8 +1,11 @@
 ---
 title: Iteration GetMetricValues method
 description: Returns the MetricValueCollection for the Iteration.
-ms.assetid: 'E342A576-4B46-401F-9047-1AF211A0077A'
-keywords: ["GetMetricValues method Access Execution Engine", "GetMetricValues method Access Execution Engine , Iteration interface", "Iteration interface Access Execution Engine , GetMetricValues method"]
+ms.assetid: E342A576-4B46-401F-9047-1AF211A0077A
+keywords:
+- GetMetricValues method Access Execution Engine
+- GetMetricValues method Access Execution Engine , Iteration interface
+- Iteration interface Access Execution Engine , GetMetricValues method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::GetMetricValues method
@@ -22,7 +30,7 @@ Returns the [**MetricValueCollection**](metricvaluecollection.md) for the **Iter
 
 ```C++
 virtual HRESULT GetMetricValues(
-  [out] MetricValueCollection **metricValues
+  [out] MetricValueCollection **metricValues
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ The **MetricValueCollection** holds information from element **Iteration/MetricV
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The **MetricValueCollection** holds information from element **Iteration/MetricV
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

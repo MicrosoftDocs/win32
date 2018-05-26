@@ -1,12 +1,17 @@
 ---
-Description: 'The following example writes real time performance data to a log file.'
-ms.assetid: 'a1bc40ea-d928-495a-abc0-daf097202a12'
+Description: The following example writes real time performance data to a log file.
+ms.assetid: a1bc40ea-d928-495a-abc0-daf097202a12
 title: Writing Performance Data to a Log File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing Performance Data to a Log File
 
-The following example writes real time performance data to a log file. The example calls the [**PdhOpenQuery**](pdhopenquery.md) and [**PdhAddCounter**](pdhaddcounter.md) functions to create a query to collect Processor Time counter data. The example then calls the [**PdhOpenLog**](pdhopenlog.md) function to create the log file to write the data to. The example calls the [**PdhUpdateLog**](pdhupdatelog.md) function to collect a sample and update the log file once a second for 20 seconds.
+The following example writes real time performance data to a log file. The example calls the [**PdhOpenQuery**](/windows/win32/Pdh/nf-pdh-pdhopenquerya?branch=master) and [**PdhAddCounter**](/windows/win32/Pdh/nf-pdh-pdhaddcountera?branch=master) functions to create a query to collect Processor Time counter data. The example then calls the [**PdhOpenLog**](/windows/win32/Pdh/nf-pdh-pdhopenloga?branch=master) function to create the log file to write the data to. The example calls the [**PdhUpdateLog**](/windows/win32/Pdh/nf-pdh-pdhupdateloga?branch=master) function to collect a sample and update the log file once a second for 20 seconds.
 
 For an example that reads the generated log file, see [Reading Performance Data from a Log File](reading-performance-data-from-a-log-file.md).
 

@@ -1,17 +1,22 @@
 ---
 title: VML Object Model Reference
-description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
-ms.assetid: '68a84c68-3aac-4971-9611-45f52e057708'
+description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
+ms.assetid: 68a84c68-3aac-4971-9611-45f52e057708
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Object Model Reference
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
 > As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
 
- 
+ 
 
 In this topic:
 
@@ -200,7 +205,7 @@ VML provides predefined shapes:
 
 
 
- 
+ 
 
 ## Subelements of the Shape Element
 
@@ -235,7 +240,7 @@ Describes the fill of the background of a page using VML fills.
 
 
 
- 
+ 
 
 ### Extrusion element
 
@@ -402,7 +407,7 @@ Describes a 3-D extrusion of the shape.
 
 
 
- 
+ 
 
 ### Fill element
 
@@ -452,7 +457,7 @@ Describes how a path should be filled for fills more complex than a solid color.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td>Color</td>
@@ -539,7 +544,7 @@ Tile, Pattern, and Frame require the image attributes to be supplied. Gradient a
 
 
 
- 
+ 
 
 ### Group element
 
@@ -554,7 +559,7 @@ A group is a collection of individual shapes that can be positioned and transfor
 
 
 
- 
+ 
 
 ### Imagedata element
 
@@ -579,7 +584,7 @@ Describes a picture to be rendered on top of a shape.
 
 
 
- 
+ 
 
 ### Path element
 
@@ -695,14 +700,14 @@ Defines the path that makes up the shape, using a string that contains a rich se
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ### Shadow element
 
@@ -769,7 +774,7 @@ Describes a shadow effect on a shape.
 
 
 
- 
+ 
 
 ### Skew element
 
@@ -786,7 +791,7 @@ Describes a perspective skew effect on a shape. The skew is applied to vector gr
 
 
 
- 
+ 
 
 ### Stroke element
 
@@ -906,7 +911,7 @@ Describes how to draw the path if something beyond a solid line with a solid col
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="odd">
 <td>ImageSize</td>
@@ -988,7 +993,7 @@ The DashStyle attribute allows the user to specify a custom-defined dash pattern
 </blockquote>
 </div>
 <div>
- 
+ 
 </div>
 
 <table>
@@ -1024,14 +1029,14 @@ The DashStyle attribute allows the user to specify a custom-defined dash pattern
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ### TextPath element
 
@@ -1050,7 +1055,7 @@ Describes a vector path based on the text data, font, and styles supplied. The t
 
 
 
- 
+ 
 
 ## Data Types Used in the VML Object Model
 
@@ -1106,7 +1111,7 @@ Collection of adjustments to a shape that can be used to change the dimensions o
 
 
 
- 
+ 
 
 **IVgColor**
 
@@ -1179,7 +1184,7 @@ Specifies a color.
 
 
 
- 
+ 
 
 **IVgEquation**
 
@@ -1279,7 +1284,7 @@ Equations used for formulas.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td>Param1</td>
@@ -1311,7 +1316,7 @@ Equations used for formulas.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td>Param2</td>
@@ -1334,7 +1339,7 @@ Equations used for formulas.
 
 
 
- 
+ 
 
 **IVgFixedRectangle**
 
@@ -1352,7 +1357,7 @@ Specifies a fixed rectangle.
 
 
 
- 
+ 
 
 **IVgFixedRectangleArray**
 
@@ -1368,7 +1373,7 @@ Array of fixed rectangles.
 
 
 
- 
+ 
 
 **IVgFormula** data type
 
@@ -1382,7 +1387,7 @@ Definitions for formulas that can vary the path of a shape or be used for other 
 
 
 
- 
+ 
 
 **IVgFormulas data type**
 
@@ -1397,7 +1402,7 @@ A collection of formula objects.
 
 
 
- 
+ 
 
 **IVgGradientColorArray**
 
@@ -1412,7 +1417,7 @@ An array of colors that define a gradient (blended range of colors).
 
 
 
- 
+ 
 
 
 
@@ -1423,7 +1428,7 @@ An array of colors that define a gradient (blended range of colors).
 
 
 
- 
+ 
 
 **IVgPoints datatype**
 
@@ -1439,7 +1444,7 @@ Array of points that define a shape.
 
 
 
- 
+ 
 
 **IVgSkewMatrix datatype**
 
@@ -1458,7 +1463,7 @@ A matrix used for skewing shapes, a perspective transform matrix in the form, "*
 
 
 
- 
+ 
 
 **IVgSkewOffset**
 
@@ -1512,14 +1517,14 @@ Specifies the offset of the skew.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 **IVgVector2D data type**
 
@@ -1567,7 +1572,7 @@ Specifies a two-dimensional vector consisting of two **Double** numbers.
 
 
 
- 
+ 
 
 **IVgVector3D data type**
 
@@ -1615,7 +1620,7 @@ Specifies a three-dimensional vector consisting of three **Double** numbers.
 
 
 
- 
+ 
 
 **Length data type**
 
@@ -1657,9 +1662,9 @@ Enumeration used for values that can be one of three states:
 -   **FALSE**
 -   **MIXED**
 
- 
+ 
 
- 
+ 
 
 
 

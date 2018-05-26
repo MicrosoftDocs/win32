@@ -1,8 +1,10 @@
 ---
 title: ID3DX11EffectVariable interface
 description: The ID3DX11EffectVariable interface is the base class for all effect variables.The lifetime of an ID3DX11EffectVariable object is equal to the lifetime of its parent ID3DX11Effect object.
-ms.assetid: '07f1b7d7-c266-49ae-b79a-7a645521df89'
-keywords: ["ID3DX11EffectVariable interface Direct3D 11", "ID3DX11EffectVariable interface Direct3D 11 , described"]
+ms.assetid: 07f1b7d7-c266-49ae-b79a-7a645521df89
+keywords:
+- ID3DX11EffectVariable interface Direct3D 11
+- ID3DX11EffectVariable interface Direct3D 11 , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectVariable interface
@@ -61,14 +68,14 @@ The **ID3DX11EffectVariable** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -91,9 +98,9 @@ The **ID3DX11EffectVariable** interface has these methods.
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

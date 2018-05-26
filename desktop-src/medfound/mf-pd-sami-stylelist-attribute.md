@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the friendly names of the Synchronized Accessible Media Interchange (SAMI) styles defined in the SAMI file.'
-ms.assetid: 'bc679f0e-17f6-455c-8a00-1d435538ef86'
-title: 'MF\_PD\_SAMI\_STYLELIST attribute'
+---
+Description: Contains the friendly names of the Synchronized Accessible Media Interchange (SAMI) styles defined in the SAMI file.
+ms.assetid: bc679f0e-17f6-455c-8a00-1d435538ef86
+title: MF\_PD\_SAMI\_STYLELIST attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_SAMI\_STYLELIST attribute
@@ -50,7 +55,7 @@ Varies
 
  
 
-To set the style or retrieve the current style, use the [**IMFSAMIStyle**](imfsamistyle.md) interface.
+To set the style or retrieve the current style, use the [**IMFSAMIStyle**](/windows/win32/mfidl/nn-mfidl-imfsamistyle?branch=master) interface.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -107,13 +112,13 @@ HRESULT DisplaySAMIStyleNames(IMFPresentationDescriptor *pPD)
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

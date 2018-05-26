@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMDevQueryPrintEx function
-ms.assetid: '3d555be3-2a1b-40b4-adf4-b797bb4b09b7'
+ms.assetid: 3d555be3-2a1b-40b4-adf4-b797bb4b09b7
 title: OEMDevQueryPrintEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMDevQueryPrintEx function

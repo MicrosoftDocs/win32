@@ -1,15 +1,18 @@
 ---
-Description: 'The known destinations containing the collected data. Available only if the collector is running with the status log enabled.'
+Description: The known destinations containing the collected data. Available only if the collector is running with the status log enabled.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ab0d2949-9808-49c3-8a0c-f2ce9c300a2a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ab0d2949-9808-49c3-8a0c-f2ce9c300a2a
+ms.prod: windows-server-dev
 ms.technology:
-- 'boot-event-collector'
-- 'windows-management-instrumentation'
+- boot-event-collector
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: TargetForwardingDestination class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TargetForwardingDestination class
@@ -24,15 +27,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("BootEventCollectorWmiProvider"), Dynamic, AMENDMENT]
 class TargetForwardingDestination
 {
-  string   TargetEndpoint;
-  string   TargetMac;
-  string   TargetGuid;
-  string   CollectorEndpoint;
-  string   Computer;
-  string   ForwarderType;
-  string   Destination;
-  string   DestinationPattern;
-  string   Error;
+  string   TargetEndpoint;
+  string   TargetMac;
+  string   TargetGuid;
+  string   CollectorEndpoint;
+  string   Computer;
+  string   ForwarderType;
+  string   Destination;
+  string   DestinationPattern;
+  string   Error;
   DATETIME ConnectedSince;
   DATETIME DisconnectedSince;
   DATETIME WmiDateTime;
@@ -250,16 +253,16 @@ Timestamp of when this state change was recorded.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\BootEventCollector<br/>                                              |
 | MOF<br/>                      | <dl> <dt>BootEventCollectorWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>BEvtCol.exe</dt> </dl>               |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

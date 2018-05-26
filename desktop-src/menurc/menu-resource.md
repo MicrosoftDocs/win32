@@ -1,14 +1,20 @@
 ---
 title: MENU resource
 description: Defines the contents of a menu resource.
-ms.assetid: 'fcb420b6-d42e-4044-89ee-028eed1f21ee'
-keywords: ["MENU resource Menus and Other Resources"]
+ms.assetid: fcb420b6-d42e-4044-89ee-028eed1f21ee
+keywords:
+- MENU resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - MENU
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MENU resource

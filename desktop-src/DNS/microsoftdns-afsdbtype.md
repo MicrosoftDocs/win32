@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_AFSDBType class
 description: Subclass of MicrosoftDNS\_ResourceRecord that represents an Andrew File System Database Server (AFSDB) record.
-ms.assetid: '536f4df7-bd01-458b-b8f1-36f066e9ca04'
-keywords: ["MicrosoftDNS_AFSDBType class DNS", "MicrosoftDNS_AFSDBType class DNS , described"]
+ms.assetid: 536f4df7-bd01-458b-b8f1-36f066e9ca04
+keywords:
+- MicrosoftDNS_AFSDBType class DNS
+- MicrosoftDNS_AFSDBType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_AFSDBType class
@@ -53,7 +60,7 @@ The **MicrosoftDNS\_AFSDBType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -94,7 +101,7 @@ Subtype of the host AFS server. For subtype 1 (value=1), the host has an AFS ver
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -113,9 +120,9 @@ Subtype of the host AFS server. For subtype 1 (value=1), the host has an AFS ver
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

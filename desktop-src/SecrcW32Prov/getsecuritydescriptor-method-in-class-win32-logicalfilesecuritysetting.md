@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a Win32\_SecurityDescriptor representation of the Win32\_LogicalFileSecuritySetting object security descriptor in the form of a Win32\_SecurityDescriptor object.'
+Description: Retrieves a Win32\_SecurityDescriptor representation of the Win32\_LogicalFileSecuritySetting object security descriptor in the form of a Win32\_SecurityDescriptor object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c6736acd-5ef1-4f18-b32a-fca13142db9c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c6736acd-5ef1-4f18-b32a-fca13142db9c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetSecurityDescriptor method of the Win32\_LogicalFileSecuritySetting class'
+title: GetSecurityDescriptor method of the Win32\_LogicalFileSecuritySetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSecurityDescriptor method of the Win32\_LogicalFileSecuritySetting class
@@ -21,7 +24,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 GetSecurityDescriptor(
-  [out] Win32_SecurityDescriptor Descriptor
+  [out] Win32_SecurityDescriptor Descriptor
 );
 ```
 
@@ -59,7 +62,7 @@ The **GetSecurityDescriptor** method can return the error codes listed in the fo
 **Invalid parameter** (21)
 </dt> <dt>
 
-**Other** (22–4294967295)
+**Other** (22 4294967295)
 </dt> </dl>
 
 ## Examples
@@ -115,8 +118,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -142,9 +145,9 @@ Next
 [WMI Security Descriptor Objects](https://msdn.microsoft.com/library/aa394577)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

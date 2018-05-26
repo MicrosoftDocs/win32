@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that specifies whether the thread should terminate. If TRUE, the thread terminates.'
-ms.assetid: '4a49ad6f-8af8-4429-9ae0-cca334e307b3'
-title: 'COutputQueue::m\_bTerminate member'
+Description: Flag that specifies whether the thread should terminate. If TRUE, the thread terminates.
+ms.assetid: 4a49ad6f-8af8-4429-9ae0-cca334e307b3
+title: COutputQueuem\_bTerminate member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue::m\_bTerminate member
@@ -35,9 +40,9 @@ BOOL m_bTerminate;
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Be Efficient and Natural
 description: Be Efficient and Natural
-ms.assetid: '6642b41c-1833-41be-9de2-ef091cefaa45'
+ms.assetid: 6642b41c-1833-41be-9de2-ef091cefaa45
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Be Efficient and Natural

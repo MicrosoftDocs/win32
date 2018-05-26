@@ -1,7 +1,12 @@
 ---
 title: imm\_atomic\_iadd (sm5 - asm)
 description: Immediate atomic integer add to memory. Returns the value in memory before the add.
-ms.assetid: '24136B4C-D37C-4449-A318-57145BB8D8E9'
+ms.assetid: 24136B4C-D37C-4449-A318-57145BB8D8E9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # imm\_atomic\_iadd (sm5 - asm)
@@ -15,7 +20,7 @@ Immediate atomic integer add to memory. Returns the value in memory before the a
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Immediate atomic integer add to memory. Returns the value in memory before the a
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,9 +65,9 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
-Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for the Direct3D 11.1 runtime, which is available starting with Windows 8.
+Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for the Direct3D 11.1 runtime, which is available starting with Windows 8.
 
 
 
@@ -72,7 +77,7 @@ Because UAVs are available at all shader stages for Direct3D 11.1, this instruct
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -91,7 +96,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -100,9 +105,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

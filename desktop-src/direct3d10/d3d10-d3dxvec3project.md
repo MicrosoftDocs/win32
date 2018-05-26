@@ -1,7 +1,12 @@
-﻿---
-Description: 'Projects a 3D vector from object space into screen space.'
-ms.assetid: '6fc59788-c3f7-4f47-a345-9108105e820e'
+---
+Description: Projects a 3D vector from object space into screen space.
+ms.assetid: 6fc59788-c3f7-4f47-a345-9108105e820e
 title: D3DXVec3Project function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec3Project function
@@ -49,9 +54,9 @@ Pointer to the source D3DXVECTOR3 structure.
 *pViewport* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_VIEWPORT**](d3d10-viewport.md)\***
+Type: **const [**D3D10\_VIEWPORT**](/windows/win32/D3D10/ns-d3d10-d3d10_viewport?branch=master)\***
 
-Pointer to a [**D3D10\_VIEWPORT**](d3d10-viewport.md), representing the viewport.
+Pointer to a [**D3D10\_VIEWPORT**](/windows/win32/D3D10/ns-d3d10-d3d10_viewport?branch=master), representing the viewport.
 
 </dd> <dt>
 

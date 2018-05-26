@@ -4,11 +4,14 @@ description: Performs validations on the node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4ce3f8fe-83ff-46f5-ba9a-7736b39c70d4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 4ce3f8fe-83ff-46f5-ba9a-7736b39c70d4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Validate method", "Validate method, PS_NetworkControllerNode class", "PS_NetworkControllerNode class, Validate method"]
+keywords:
+- Validate method
+- Validate method, PS_NetworkControllerNode class
+- PS_NetworkControllerNode class, Validate method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - NCServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Validate method of the PS\_NetworkControllerNode class
@@ -28,9 +34,9 @@ Performs validations on the node.
 
 ```mof
 uint32 Validate(
-  [in] string                                    NodeName,
-  [in] NetworkControllerClusterConfiguration     ClusterConfiguration,
-  [in] NetworkControllerApplicationConfiguration ApplicationConfiguration
+  [in] string                                    NodeName,
+  [in] NetworkControllerClusterConfiguration     ClusterConfiguration,
+  [in] NetworkControllerApplicationConfiguration ApplicationConfiguration
 );
 ```
 
@@ -68,7 +74,7 @@ A [**NetworkControllerApplicationConfiguration**](networkcontrollerapplicationco
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\NetworkController\\Server<br/>                                    |
 | MOF<br/>                      | <dl> <dt>NCServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NCServerPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ A [**NetworkControllerApplicationConfiguration**](networkcontrollerapplicationco
 [**PS\_NetworkControllerNode**](ps-networkcontrollernode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

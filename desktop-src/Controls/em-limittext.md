@@ -1,8 +1,9 @@
 ---
 title: EM\_LIMITTEXT message
 description: Sets the text limit of an edit control.
-ms.assetid: '5a605de7-8dc7-4c54-8f18-e0b08c720856'
-keywords: ["EM_LIMITTEXT message Windows Controls"]
+ms.assetid: 5a605de7-8dc7-4c54-8f18-e0b08c720856
+keywords:
+- EM_LIMITTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_LIMITTEXT message
 
 Sets the text limit of an edit control. The text limit is the maximum amount of text, in **TCHAR**s, that the user can type into the edit control. You can send this message to either an edit control or a rich edit control.
 
-For edit controls and Microsoft Rich Edit 1.0, bytes are used. For Microsoft Rich Edit 2.0 and later, characters are used.
+For edit controls and Microsoft Rich Edit 1.0, bytes are used. For Microsoft Rich Edit 2.0 and later, characters are used.
 
 ## Parameters
 
@@ -53,7 +59,7 @@ Before **EM\_LIMITTEXT** is called, the default limit for the amount of text a u
 
 For single-line edit controls, the text limit is either 0x7FFFFFFE bytes or the value of the *wParam* parameter, whichever is smaller. For multiline edit controls, this value is either -1 byte or the value of the *wParam* parameter, whichever is smaller.
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. Use the message [**EM\_EXLIMITTEXT**](em-exlimittext.md) for text length values greater than 64,000. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. Use the message [**EM\_EXLIMITTEXT**](em-exlimittext.md) for text length values greater than 64,000. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -61,8 +67,8 @@ For single-line edit controls, the text limit is either 0x7FFFFFFE bytes or the 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -77,7 +83,7 @@ For single-line edit controls, the text limit is either 0x7FFFFFFE bytes or the 
 [**EM\_EXLIMITTEXT**](em-exlimittext.md)
 </dt> <dt>
 
-[**Edit\_LimitText**](edit-limittext.md)
+[**Edit\_LimitText**](/windows/win32/Windowsx/nf-windowsx-edit_limittext?branch=master)
 </dt> <dt>
 
 **Other Resources**
@@ -86,9 +92,9 @@ For single-line edit controls, the text limit is either 0x7FFFFFFE bytes or the 
 [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

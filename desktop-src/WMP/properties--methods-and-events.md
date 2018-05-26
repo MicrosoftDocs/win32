@@ -1,8 +1,37 @@
 ---
 title: Properties, Methods and Events
 description: Properties, Methods and Events
-ms.assetid: '9426d13b-42db-4a20-81f2-7a849a6e1f33'
-keywords: ["Windows Media Player,properties for object model", "Windows Media Player,methods for object model", "Windows Media Player,events for object model", "Windows Media Player object model,properties", "Windows Media Player object model,methods", "Windows Media Player object model,events", "object model,properties", "object model,methods", "object model,events", "Windows Media Player ActiveX control,properties for object model", "ActiveX control,properties for object model", "Windows Media Player Mobile ActiveX control,properties for object model", "Windows Media Player Mobile,properties for object model", "Windows Media Player ActiveX control,methods for object model", "ActiveX control,methods for object model", "Windows Media Player Mobile ActiveX control,methods for object model", "Windows Media Player Mobile,methods for object model", "Windows Media Player ActiveX control,events for object model", "ActiveX control,events for object model", "Windows Media Player Mobile ActiveX control,events for object model", "Windows Media Player Mobile,events for object model", "properties,Windows Media Player object model", "methods,Windows Media Player object model", "events,Windows Media Player object model"]
+ms.assetid: 9426d13b-42db-4a20-81f2-7a849a6e1f33
+keywords:
+- Windows Media Player,properties for object model
+- Windows Media Player,methods for object model
+- Windows Media Player,events for object model
+- Windows Media Player object model,properties
+- Windows Media Player object model,methods
+- Windows Media Player object model,events
+- object model,properties
+- object model,methods
+- object model,events
+- Windows Media Player ActiveX control,properties for object model
+- ActiveX control,properties for object model
+- Windows Media Player Mobile ActiveX control,properties for object model
+- Windows Media Player Mobile,properties for object model
+- Windows Media Player ActiveX control,methods for object model
+- ActiveX control,methods for object model
+- Windows Media Player Mobile ActiveX control,methods for object model
+- Windows Media Player Mobile,methods for object model
+- Windows Media Player ActiveX control,events for object model
+- ActiveX control,events for object model
+- Windows Media Player Mobile ActiveX control,events for object model
+- Windows Media Player Mobile,events for object model
+- properties,Windows Media Player object model
+- methods,Windows Media Player object model
+- events,Windows Media Player object model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties, Methods and Events

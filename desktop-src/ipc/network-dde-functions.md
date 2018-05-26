@@ -1,7 +1,12 @@
 ---
-Description: 'The following functions are used with network DDE.'
-ms.assetid: '5fd61759-1792-4db0-9ad4-adf112294b9c'
+Description: The following functions are used with network DDE.
+ms.assetid: 5fd61759-1792-4db0-9ad4-adf112294b9c
 title: Network DDE Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network DDE Functions

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPartFont interface is the abstraction for fonts in a part.'
-ms.assetid: 'bdb1ad56-de4c-4a9b-96b6-f9faff4abf65'
+---
+Description: The IPartFont interface is the abstraction for fonts in a part.
+ms.assetid: bdb1ad56-de4c-4a9b-96b6-f9faff4abf65
 title: IPartFont interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartFont interface

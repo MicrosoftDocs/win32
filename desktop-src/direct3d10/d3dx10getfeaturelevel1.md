@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get a Direct3D 10.1 device interface pointer from a Direct3D 10.0 interface pointer.'
-ms.assetid: 'cf31a67f-0493-4e79-8e73-0297ab93bbae'
+---
+Description: Get a Direct3D 10.1 device interface pointer from a Direct3D 10.0 interface pointer.
+ms.assetid: cf31a67f-0493-4e79-8e73-0297ab93bbae
 title: D3DX10GetFeatureLevel1 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10GetFeatureLevel1 function
@@ -27,18 +32,18 @@ HRESULT D3DX10GetFeatureLevel1(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](id3d10device.md)\***
+Type: **[**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)\***
 
-Pointer to the Direct3D 10.0 device (see the [**ID3D10Device**](id3d10device.md) interface).
+Pointer to the Direct3D 10.0 device (see the [**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master) interface).
 
 </dd> <dt>
 
 *ppDevice* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Device1**](id3d10device1.md)\*\***
+Type: **[**ID3D10Device1**](/windows/win32/D3D10_1/nn-d3d10_1-id3d10device1?branch=master)\*\***
 
-Pointer to the Direct3D 10.1 device (see the [**ID3D10Device1**](id3d10device1.md) interface).
+Pointer to the Direct3D 10.1 device (see the [**ID3D10Device1**](/windows/win32/D3D10_1/nn-d3d10_1-id3d10device1?branch=master) interface).
 
 </dd> </dl>
 
@@ -50,7 +55,7 @@ This function returns one of the following [Direct3D 10 Return Codes](d3d10-grap
 
 ## Remarks
 
-For this function to succeed, you must have acquired the supplied [**ID3D10Device**](id3d10device.md) pointer using a call to the [**D3DX10CreateDevice**](d3dx10createdevice.md) function, the [**D3DX10CreateDeviceAndSwapChain**](d3dx10createdeviceandswapchain.md) function, the [**D3D10CreateDevice1**](d3d10createdevice1.md) function, or the [**D3D10CreateDeviceAndSwapChain1**](d3d10createdeviceandswapchain1.md) function.
+For this function to succeed, you must have acquired the supplied [**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master) pointer using a call to the [**D3DX10CreateDevice**](d3dx10createdevice.md) function, the [**D3DX10CreateDeviceAndSwapChain**](d3dx10createdeviceandswapchain.md) function, the [**D3D10CreateDevice1**](/windows/win32/D3D10_1/nf-d3d10_1-d3d10createdevice1?branch=master) function, or the [**D3D10CreateDeviceAndSwapChain1**](/windows/win32/D3D10_1/nf-d3d10_1-d3d10createdeviceandswapchain1?branch=master) function.
 
 You can only create a Direct3D 10.1 device on computers running Windows Vista Service Pack 1 or later, and with Direct3D 10.1-compatible hardware installed. This function will return E\_FAIL on any computer not meeting these requirements. However, you can call this function on any version of Windows that has the D3DX10 DLL installed.
 

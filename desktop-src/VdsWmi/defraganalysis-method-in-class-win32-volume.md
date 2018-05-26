@@ -1,8 +1,11 @@
 ---
 title: DefragAnalysis method of the Win32\_Volume class
 description: The DefragAnalysis method generates a fragmentation analysis for a volume.This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see Calling a Method.
-ms.assetid: '22619e64-845c-4369-9d27-2ccbffed8ad4'
-keywords: ["DefragAnalysis method", "DefragAnalysis method, Win32_Volume class", "Win32_Volume class, DefragAnalysis method"]
+ms.assetid: 22619e64-845c-4369-9d27-2ccbffed8ad4
+keywords:
+- DefragAnalysis method
+- DefragAnalysis method, Win32_Volume class
+- Win32_Volume class, DefragAnalysis method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Vdswmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefragAnalysis method of the Win32\_Volume class
@@ -24,8 +32,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 DefragAnalysis(
-  [out] boolean DefragRecommended,
-  [out] object DefragAnalysis
+  [out] boolean DefragRecommended,
+  [out] object DefragAnalysis
 );
 ```
 
@@ -72,7 +80,7 @@ Embedded instance of a [**Win32\_DefragAnalysis**](win32-defraganalysis.md) cont
 
 
 
- 
+ 
 
 ## Examples
 
@@ -174,7 +182,7 @@ Volume Size (GB) : 63.9970664978027 GB
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vds.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vdswmi.dll</dt> </dl> |
@@ -188,9 +196,9 @@ Volume Size (GB) : 63.9970664978027 GB
 [**Win32\_Volume**](win32-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

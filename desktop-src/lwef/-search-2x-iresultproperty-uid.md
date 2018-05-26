@@ -1,8 +1,11 @@
 ---
 title: IResultProperty UID property
 description: Unique identifier for the property.
-ms.assetid: 'b5cee5b3-78b4-4d2a-b442-f6624497ef71'
-keywords: ["UID property Legacy Windows Environment Features", "UID property Legacy Windows Environment Features , IResultProperty interface", "IResultProperty interface Legacy Windows Environment Features , UID property"]
+ms.assetid: b5cee5b3-78b4-4d2a-b442-f6624497ef71
+keywords:
+- UID property Legacy Windows Environment Features
+- UID property Legacy Windows Environment Features , IResultProperty interface
+- IResultProperty interface Legacy Windows Environment Features , UID property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultProperty::UID property
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_UID(
-  [out, retval] long *uid
+  [out, retval] long *uid
 );
 ```
 
@@ -43,16 +51,16 @@ returns a pointer to the unique property identifier.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

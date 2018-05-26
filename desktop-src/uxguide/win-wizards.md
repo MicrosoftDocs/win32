@@ -1,7 +1,12 @@
 ---
 title: Wizards
 description: Despite that wonderful, whimsical name, wizards are not really a special form of user interface, and they have only a particular range of utility.
-ms.assetid: '122d6e65-92f0-4e8a-92f7-ecd7e90665c8'
+ms.assetid: 122d6e65-92f0-4e8a-92f7-ecd7e90665c8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wizards

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Prepares a device for drawing sprites.'
-ms.assetid: 'ec9eb069-0a41-4dd5-bbd5-5a31133550b6'
-title: 'ID3DXSprite::Begin method'
+---
+Description: Prepares a device for drawing sprites.
+ms.assetid: ec9eb069-0a41-4dd5-bbd5-5a31133550b6
+title: ID3DXSpriteBegin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSprite::Begin method
@@ -51,7 +56,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 ## Remarks
 
-This method must be called from inside a [**IDirect3DDevice9::BeginScene**](idirect3ddevice9--beginscene.md) . . . [**IDirect3DDevice9::EndScene**](idirect3ddevice9--endscene.md) sequence. **ID3DXSprite::Begin** cannot be used as a substitute for either **IDirect3DDevice9::BeginScene** or [**ID3DXRenderToSurface::BeginScene**](id3dxrendertosurface--beginscene.md).
+This method must be called from inside a [**IDirect3DDevice9::BeginScene**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-beginscene?branch=master) . . . [**IDirect3DDevice9::EndScene**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-endscene?branch=master) sequence. **ID3DXSprite::Begin** cannot be used as a substitute for either **IDirect3DDevice9::BeginScene** or [**ID3DXRenderToSurface::BeginScene**](id3dxrendertosurface--beginscene.md).
 
 This method will set the following states on the device.
 

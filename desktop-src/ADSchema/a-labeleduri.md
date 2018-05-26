@@ -4,17 +4,21 @@ description: A Uniform Resource Identifier followed by a label.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '214b5b4b-7389-4801-977c-24ffc2e025bd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 214b5b4b-7389-4801-977c-24ffc2e025bd
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["labeledURI attribute AD Schema"]
+keywords:
+- labeledURI attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - labeledURI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # labeledURI attribute
@@ -38,11 +42,11 @@ A Uniform Resource Identifier followed by a label. The label is used to describe
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +153,9 @@ A Uniform Resource Identifier followed by a label. The label is used to describe
 
 
 
- 
+ 
 
- 
+ 
 
 
 

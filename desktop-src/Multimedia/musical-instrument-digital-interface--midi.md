@@ -1,8 +1,19 @@
 ---
 title: Musical Instrument Digital Interface (MIDI)
 description: Musical Instrument Digital Interface (MIDI)
-ms.assetid: '5c81e1dc-ee6b-4a59-8992-8ec869264d4f'
-keywords: ["Windows multimedia,Musical Instrument Digital Interface (MIDI)", "multimedia,Musical Instrument Digital Interface (MIDI)", "multimedia audio,Musical Instrument Digital Interface (MIDI)", "audio,Musical Instrument Digital Interface (MIDI)", "Musical Instrument Digital Interface (MIDI),about", "MIDI (Musical Instrument Digital Interface),about"]
+ms.assetid: 5c81e1dc-ee6b-4a59-8992-8ec869264d4f
+keywords:
+- Windows multimedia,Musical Instrument Digital Interface (MIDI)
+- multimedia,Musical Instrument Digital Interface (MIDI)
+- multimedia audio,Musical Instrument Digital Interface (MIDI)
+- audio,Musical Instrument Digital Interface (MIDI)
+- Musical Instrument Digital Interface (MIDI),about
+- MIDI (Musical Instrument Digital Interface),about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Musical Instrument Digital Interface (MIDI)

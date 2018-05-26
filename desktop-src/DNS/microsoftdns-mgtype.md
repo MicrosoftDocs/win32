@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_MGType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Mail Group (MG) record.
-ms.assetid: 'ce5795d1-e575-46ef-ad82-62b329e261d6'
-keywords: ["MicrosoftDNS_MGType class DNS", "MicrosoftDNS_MGType class DNS , described"]
+ms.assetid: ce5795d1-e575-46ef-ad82-62b329e261d6
+keywords:
+- MicrosoftDNS_MGType class DNS
+- MicrosoftDNS_MGType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_MGType class
@@ -51,7 +58,7 @@ The **MicrosoftDNS\_MGType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ FQDN specifying a mailbox that is a member of the mail group specified by the re
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ FQDN specifying a mailbox that is a member of the mail group specified by the re
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

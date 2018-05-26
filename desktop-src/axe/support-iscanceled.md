@@ -1,8 +1,11 @@
 ---
 title: Support IsCanceled method
 description: Determines if there has been a request for the assessment to cancel its operation.
-ms.assetid: '472A845B-46A6-45C6-A52F-AB6D739B5E5E'
-keywords: ["IsCanceled method Access Execution Engine", "IsCanceled method Access Execution Engine , Support interface", "Support interface Access Execution Engine , IsCanceled method"]
+ms.assetid: 472A845B-46A6-45C6-A52F-AB6D739B5E5E
+keywords:
+- IsCanceled method Access Execution Engine
+- IsCanceled method Access Execution Engine , Support interface
+- Support interface Access Execution Engine , IsCanceled method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support::IsCanceled method
@@ -22,7 +30,7 @@ Determines if there has been a request for the assessment to cancel its operatio
 
 ```C++
 virtual HRESULT IsCanceled(
-  [out] BOOL *cancelAssessment
+  [out] BOOL *cancelAssessment
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ Managed code uses the [**Support.Canceled**](axe-support_canceled_om) property.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -72,9 +80,9 @@ Managed code uses the [**Support.Canceled**](axe-support_canceled_om) property.
 [**GetCancelEvent**](support-getcancelevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

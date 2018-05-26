@@ -1,14 +1,20 @@
 ---
 title: Ribbon.QuickAccessToolbar property
 description: Represents a container for the Quick Access Toolbar (QAT).
-ms.assetid: '8a873a48-4f8b-439d-acad-7da2081fbf40'
-keywords: ["Ribbon.QuickAccessToolbar property Windows Ribbon"]
+ms.assetid: 8a873a48-4f8b-439d-acad-7da2081fbf40
+keywords:
+- Ribbon.QuickAccessToolbar property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Ribbon.QuickAccessToolbar
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ribbon.QuickAccessToolbar property
@@ -79,14 +85,14 @@ The following example demonstrates the basic markup for the **Ribbon.QuickAccess
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

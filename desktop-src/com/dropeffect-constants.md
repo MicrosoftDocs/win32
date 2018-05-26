@@ -1,7 +1,7 @@
 ---
 title: DROPEFFECT Constants
 description: Represents information about the effects of a drag-and-drop operation.
-ms.assetid: 'd8e46899-3fbf-4012-8dd3-67fa627526d5'
+ms.assetid: d8e46899-3fbf-4012-8dd3-67fa627526d5
 topic_type:
 - apiref
 api_name:
@@ -14,11 +14,16 @@ api_location:
 - OleIdl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DROPEFFECT Constants
 
-Represents information about the effects of a drag-and-drop operation. The [**DoDragDrop**](dodragdrop.md) function and many of the methods in the [**IDropSource**](idropsource.md) and [**IDropTarget**](idroptarget.md) use the values of this enumeration.
+Represents information about the effects of a drag-and-drop operation. The [**DoDragDrop**](/windows/win32/Ole2/nf-ole2-dodragdrop?branch=master) function and many of the methods in the [**IDropSource**](/windows/win32/OleIdl/nn-oleidl-idropsource?branch=master) and [**IDropTarget**](/windows/win32/OleIdl/nn-oleidl-idroptarget?branch=master) use the values of this enumeration.
 
 
 
@@ -56,8 +61,8 @@ This allows for the definition of new drop effects, while preserving backward co
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>OleIdl.h</dt> </dl> |
 
 
@@ -66,18 +71,18 @@ This allows for the definition of new drop effects, while preserving backward co
 
 <dl> <dt>
 
-[**DoDragDrop**](dodragdrop.md)
+[**DoDragDrop**](/windows/win32/Ole2/nf-ole2-dodragdrop?branch=master)
 </dt> <dt>
 
-[**IDropSource**](idropsource.md)
+[**IDropSource**](/windows/win32/OleIdl/nn-oleidl-idropsource?branch=master)
 </dt> <dt>
 
-[**IDropTarget**](idroptarget.md)
+[**IDropTarget**](/windows/win32/OleIdl/nn-oleidl-idroptarget?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

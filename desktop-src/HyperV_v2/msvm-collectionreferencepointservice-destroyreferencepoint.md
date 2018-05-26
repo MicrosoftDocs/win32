@@ -1,7 +1,12 @@
 ---
-Description: 'Destroys an existing reference point collection. This method may as a side effect destroy other reference points that are dependent on the affected reference point collection.'
-ms.assetid: '72c116f4-f844-494c-96ea-e97c49a2af7e'
-title: 'DestroyReferencePoint method of the Msvm\_CollectionReferencePointService class'
+Description: Destroys an existing reference point collection. This method may as a side effect destroy other reference points that are dependent on the affected reference point collection.
+ms.assetid: 72c116f4-f844-494c-96ea-e97c49a2af7e
+title: DestroyReferencePoint method of the Msvm\_CollectionReferencePointService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DestroyReferencePoint method of the Msvm\_CollectionReferencePointService class
@@ -13,8 +18,8 @@ Destroys an existing reference point collection. This method may as a side effec
 
 ```mof
 uint32 DestroyReferencePoint(
-  [in]  CIM_Collection  REF AffectedReferencePointCollection,
-  [out] CIM_ConcreteJob REF Job
+  [in]  CIM_Collection  REF AffectedReferencePointCollection,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -83,8 +88,8 @@ If successful, returns either 0 (no error), or 4096 (job started); otherwise, re
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -98,9 +103,9 @@ If successful, returns either 0 (no error), or 4096 (job started); otherwise, re
 [**Msvm\_CollectionReferencePointService**](msvm-collectionreferencepointservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

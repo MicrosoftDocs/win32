@@ -1,8 +1,10 @@
 ---
 title: MPTHREAT\_ACTION enumeration
 description: Possible threat actions.
-ms.assetid: '142249A5-4C9D-4E3A-A06E-70C040F9C14F'
-keywords: ["MPTHREAT_ACTION enumeration Legacy Windows Environment Features", "PMPTHREAT_ACTION enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 142249A5-4C9D-4E3A-A06E-70C040F9C14F
+keywords:
+- MPTHREAT_ACTION enumeration Legacy Windows Environment Features
+- PMPTHREAT_ACTION enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPTHREAT\_ACTION enumeration
@@ -22,15 +29,15 @@ Possible threat actions.
 
 ```C++
 typedef enum tagMPTHREAT_ACTION { 
-  MP_THREAT_ACTION_UNKNOWN      = 0,
-  MP_THREAT_ACTION_CLEAN        = 1,
-  MP_THREAT_ACTION_QUARANTINE   = 2,
-  MP_THREAT_ACTION_REMOVE       = 3,
-  MP_THREAT_ACTION_ALLOW        = 6,
-  MP_THREAT_ACTION_USERDEFINED  = 8,
-  MP_THREAT_ACTION_NOACTION     = 9,
-  MP_THREAT_ACTION_BLOCK        = 10,
-  MP_THREAT_ACTION_MAX_VALUE    = 10
+  MP_THREAT_ACTION_UNKNOWN      = 0,
+  MP_THREAT_ACTION_CLEAN        = 1,
+  MP_THREAT_ACTION_QUARANTINE   = 2,
+  MP_THREAT_ACTION_REMOVE       = 3,
+  MP_THREAT_ACTION_ALLOW        = 6,
+  MP_THREAT_ACTION_USERDEFINED  = 8,
+  MP_THREAT_ACTION_NOACTION     = 9,
+  MP_THREAT_ACTION_BLOCK        = 10,
+  MP_THREAT_ACTION_MAX_VALUE    = 10
 } MPTHREAT_ACTION, *PMPTHREAT_ACTION;
 ```
 
@@ -73,15 +80,15 @@ typedef enum tagMPTHREAT_ACTION {
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

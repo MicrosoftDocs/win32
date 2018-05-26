@@ -2,13 +2,16 @@
 title: InstallByMultiTenant method of the PS\_RemoteAccess class
 description: Installs DirectAccess and multi-tenant site-to-site (S2S) VPN.
 audience: developer
-ms.assetid: 'cf22774b-47ce-42f5-9e09-4a691eab114c'
-ms.prod: 'windows-server-dev'
+ms.assetid: cf22774b-47ce-42f5-9e09-4a691eab114c
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["InstallByMultiTenant method", "InstallByMultiTenant method, PS_RemoteAccess class", "PS_RemoteAccess class, InstallByMultiTenant method"]
+keywords:
+- InstallByMultiTenant method
+- InstallByMultiTenant method, PS_RemoteAccess class
+- PS_RemoteAccess class, InstallByMultiTenant method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InstallByMultiTenant method of the PS\_RemoteAccess class
@@ -28,18 +34,18 @@ Installs DirectAccess and multi-tenant site-to-site (S2S) VPN.
 
 ```mof
 uint32 InstallByMultiTenant(
-  [in]  string             ComputerName,
-  [in]  boolean            MultiTenancy,
-  [in]  string             VpnType,
-  [in]  string             MsgAuthenticator,
-  [in]  boolean            PassThru,
-  [in]  uint16             RadiusPort,
-  [in]  uint8              RadiusScore,
-  [in]  string             RadiusServer,
-  [in]  uint32             RadiusTimeout,
-  [in]  string             SharedSecret,
-  [in]  uint64             CapacityKbps,
-  [out] RemoteAccessCommon cmdletOutput
+  [in]  string             ComputerName,
+  [in]  boolean            MultiTenancy,
+  [in]  string             VpnType,
+  [in]  string             MsgAuthenticator,
+  [in]  boolean            PassThru,
+  [in]  uint16             RadiusPort,
+  [in]  uint8              RadiusScore,
+  [in]  string             RadiusServer,
+  [in]  uint32             RadiusTimeout,
+  [in]  string             SharedSecret,
+  [in]  uint64             CapacityKbps,
+  [out] RemoteAccessCommon cmdletOutput
 );
 ```
 
@@ -66,7 +72,7 @@ Indicates whether to install the VPN as a multi-tenant service. **True** to inst
 *VpnType* \[in\]
 </dt> <dd>
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 The type of VPN to configure.
 
@@ -156,7 +162,7 @@ The [**RemoteAccessCommon**](remoteaccesscommon.md) object that receives the inf
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -170,9 +176,9 @@ The [**RemoteAccessCommon**](remoteaccesscommon.md) object that receives the inf
 [**PS\_RemoteAccess**](ps-remoteaccess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

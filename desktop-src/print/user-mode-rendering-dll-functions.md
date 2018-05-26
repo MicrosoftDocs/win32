@@ -1,7 +1,12 @@
 ---
-Description: 'User-Mode Rendering DLL Functions'
-ms.assetid: 'efda56a0-eaec-4b6f-b55c-14a77e90994f'
-title: 'User-Mode Rendering DLL Functions'
+Description: User-Mode Rendering DLL Functions
+ms.assetid: efda56a0-eaec-4b6f-b55c-14a77e90994f
+title: User-Mode Rendering DLL Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User-Mode Rendering DLL Functions

@@ -1,7 +1,12 @@
 ---
-Description: 'Enables the SRIOV properties on the network adapter.'
-ms.assetid: '9d85b00d-1fcd-4a36-9238-adbd6591bfed'
-title: 'Enable method of the MSFT\_NetAdapterSriovSettingData class'
+Description: Enables the SRIOV properties on the network adapter.
+ms.assetid: 9d85b00d-1fcd-4a36-9238-adbd6591bfed
+title: Enable method of the MSFT\_NetAdapterSriovSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enable method of the MSFT\_NetAdapterSriovSettingData class
@@ -13,7 +18,7 @@ Enables the SRIOV properties on the network adapter.
 
 ```mof
 uint32 Enable(
-  [out] string cmdletOutput
+  [out] string cmdletOutput
 );
 ```
 
@@ -37,7 +42,7 @@ Returns an embedded instance of a [**MSFT\_NetAdapterSriovSettingData**](msft-ne
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
@@ -51,9 +56,9 @@ Returns an embedded instance of a [**MSFT\_NetAdapterSriovSettingData**](msft-ne
 [**MSFT\_NetAdapterSriovSettingData**](msft-netadaptersriovsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

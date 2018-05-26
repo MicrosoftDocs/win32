@@ -1,8 +1,11 @@
 ---
 title: Create method of the Win32\_ShadowStorage class
 description: The Create method creates differential area storage for the specified Volume on the specified DiffVolume with the specified MaxSpace.
-ms.assetid: 'a27a55f3-8b4a-4221-93e9-69d2d3afe4cc'
-keywords: ["Create method", "Create method, Win32_ShadowStorage class", "Win32_ShadowStorage class, Create method"]
+ms.assetid: a27a55f3-8b4a-4221-93e9-69d2d3afe4cc
+keywords:
+- Create method
+- Create method, Win32_ShadowStorage class
+- Win32_ShadowStorage class, Create method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Vsswmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create method of the Win32\_ShadowStorage class
@@ -24,9 +32,9 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Create(
-  [in] string Volume,
-  [in] string DiffVolume,
-  [in] uint64 MaxSpace
+  [in] string Volume,
+  [in] string DiffVolume,
+  [in] uint64 MaxSpace
 );
 ```
 
@@ -78,7 +86,7 @@ Initial maximum size of the differential area.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,7 +95,7 @@ Initial maximum size of the differential area.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vss.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vsswmi.dll</dt> </dl> |
@@ -101,9 +109,9 @@ Initial maximum size of the differential area.
 [**Win32\_ShadowStorage**](win32-shadowstorage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

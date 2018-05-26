@@ -4,11 +4,15 @@ description: In the example provider component, a code example of packing and un
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4da8f191-5742-4618-86dd-e7031a67ac79'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 4da8f191-5742-4618-86dd-e7031a67ac79
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["pack.cpp ADSI"]
+keywords:
+- pack.cpp ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PACK.CPP

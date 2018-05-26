@@ -1,12 +1,17 @@
-﻿---
-Description: 'Describes the contents of an elementary stream within an MPEG-2 transport stream. This enumeration is used in the IMPEG2PIDMap interface, which is implemented on the output pins of the MPEG-2 Demultiplexer.'
-ms.assetid: '989ad56b-b5af-4811-889e-c79fcd3f7f01'
-title: 'MEDIA\_SAMPLE\_CONTENT enumeration'
+---
+Description: Describes the contents of an elementary stream within an MPEG-2 transport stream. This enumeration is used in the IMPEG2PIDMap interface, which is implemented on the output pins of the MPEG-2 Demultiplexer.
+ms.assetid: 989ad56b-b5af-4811-889e-c79fcd3f7f01
+title: MEDIA\_SAMPLE\_CONTENT enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEDIA\_SAMPLE\_CONTENT enumeration
 
-Describes the contents of an elementary stream within an MPEG-2 transport stream. This enumeration is used in the [**IMPEG2PIDMap**](impeg2pidmap.md) interface, which is implemented on the output pins of the [MPEG-2 Demultiplexer](mpeg-2-demultiplexer.md).
+Describes the contents of an elementary stream within an MPEG-2 transport stream. This enumeration is used in the [**IMPEG2PIDMap**](/windows/win32/Bdaiface/nn-bdaiface-impeg2pidmap?branch=master) interface, which is implemented on the output pins of the [MPEG-2 Demultiplexer](mpeg-2-demultiplexer.md).
 
 ## Syntax
 

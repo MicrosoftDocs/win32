@@ -1,7 +1,7 @@
 ---
 title: SNMP Constructor Syntax Values
 description: The SNMP Constructor Syntax Values describe types that are compliant with the Abstract Syntax Notation One (ASN.1) encoding standard.
-ms.assetid: '8e3b6e00-51cf-4e39-a68e-dcf8fbe8ab3b'
+ms.assetid: 8e3b6e00-51cf-4e39-a68e-dcf8fbe8ab3b
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - Snmp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SNMP Constructor Syntax Values
@@ -34,8 +39,8 @@ The SNMP Constructor Syntax Values describe types that are compliant with the Ab
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Snmp.h</dt> </dl> |
 
 
@@ -53,9 +58,9 @@ The SNMP Constructor Syntax Values describe types that are compliant with the Ab
 [SNMP Constants](snmp-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,18 @@ description: Information is presented in this document as follows.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '475adb8a-834e-4526-b3a3-d02f34bb88dc'
-ms.prod: 'windows-server-dev'
+ms.assetid: 475adb8a-834e-4526-b3a3-d02f34bb88dc
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Network Load Balancing Provider Failover Cluster ,finding what you need", "Windows Clustering Failover Cluster ,Network Load Balancing Provider,finding what you need"]
+keywords:
+- Network Load Balancing Provider Failover Cluster ,finding what you need
+- Windows Clustering Failover Cluster ,Network Load Balancing Provider,finding what you need
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Finding What You Need in Network Load Balancing
@@ -28,11 +33,11 @@ Information is presented in this document as follows.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

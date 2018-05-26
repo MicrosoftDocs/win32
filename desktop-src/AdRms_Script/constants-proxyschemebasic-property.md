@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a value that specifies Basic authentication for a proxy server.'
+Description: Retrieves a value that specifies Basic authentication for a proxy server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '0cc82912-c448-4f1c-937a-5b6b9c8d62b8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 0cc82912-c448-4f1c-937a-5b6b9c8d62b8
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Constants.ProxySchemeBasic property'
+title: Constants.ProxySchemeBasic property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Constants.ProxySchemeBasic property
@@ -113,7 +116,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -131,9 +134,9 @@ END FUNCTION
 [**ProxySchemeWindowsIntegrated**](constants-proxyschemewindowsintegrated-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

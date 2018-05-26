@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UpdateBinary method constructs an application protocol data unit (APDU) command that updates the bits present in an elementary file with the bits given in the APDU command.'
-ms.assetid: '14ac6ad9-efcf-48ea-8712-19caeee47521'
-title: 'ISCardISO7816::UpdateBinary method'
+---
+Description: The UpdateBinary method constructs an application protocol data unit (APDU) command that updates the bits present in an elementary file with the bits given in the APDU command.
+ms.assetid: 14ac6ad9-efcf-48ea-8712-19caeee47521
+title: ISCardISO7816UpdateBinary method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardISO7816::UpdateBinary method

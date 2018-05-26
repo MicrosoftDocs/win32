@@ -1,7 +1,12 @@
 ---
 title: Data Set Management Structures
 description: Data Set Management Structures
-ms.assetid: '2E0C5B00-A4CE-45D2-95DF-43D61FCC3C56'
+ms.assetid: 2E0C5B00-A4CE-45D2-95DF-43D61FCC3C56
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Set Management Structures

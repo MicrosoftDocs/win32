@@ -1,7 +1,12 @@
 ---
 title: Highlighting Search Hits
 description: Highlighting Search Hits
-ms.assetid: 'f0b2bcd2-d7e0-45d5-b3bf-ef9ab24b5fe4'
+ms.assetid: f0b2bcd2-d7e0-45d5-b3bf-ef9ab24b5fe4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Highlighting Search Hits

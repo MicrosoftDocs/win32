@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies whether parameters used to pass fault information are included in generated functions.'
-ms.assetid: 'aba78d50-f884-416a-b022-bb03416aad11'
+Description: Specifies whether parameters used to pass fault information are included in generated functions.
+ms.assetid: aba78d50-f884-416a-b022-bb03416aad11
 title: faultInfo element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # faultInfo element
@@ -45,14 +50,14 @@ Possible values are 1 (fault parameters included) and 0 (fault parameters exclud
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

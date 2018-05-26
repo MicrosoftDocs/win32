@@ -4,16 +4,21 @@ description: The WinNT provider makes available the following custom properties 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3b122424-ff24-4de7-bdaf-693fb4529b09'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3b122424-ff24-4de7-bdaf-693fb4529b09
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["WinNT Custom User Properties ADSI", "WinNT provider ADSI , user object, custom properties"]
+keywords:
+- WinNT Custom User Properties ADSI
+- WinNT provider ADSI , user object, custom properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WinNT Custom User Properties
 
-The WinNT provider makes available the following custom properties for the User class. They may be accessed through the [**IADs.Get**](iads-get.md) and [**IADs.Put**](iads-put.md) methods. For more information, see the [**USER\_INFO\_3**](https://msdn.microsoft.com/library/windows/desktop/aa371338) structure.
+The WinNT provider makes available the following custom properties for the User class. They may be accessed through the [**IADs.Get**](/windows/win32/Iads/nf-iads-iads-get?branch=master) and [**IADs.Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master) methods. For more information, see the [**USER\_INFO\_3**](https://msdn.microsoft.com/library/windows/desktop/aa371338) structure.
 
 
 
@@ -25,7 +30,7 @@ The WinNT provider makes available the following custom properties for the User 
 | **PasswordAge**     | Time         | Time duration of the password in use. This property indicates the number of seconds that have elapsed since the password was last changed.                                                                                                                                                                                                                    |
 | **PasswordExpired** | Integer      | Tells when the password was expired. When you use Get, it will return zero is the password has not expired, or nonzero if it has expired. See example in this topic.                                                                                                                                                                                          |
 | **PrimaryGroupID**  | Integer      | User's primary group ID, for example, domain user group ID. See example in this topic.                                                                                                                                                                                                                                                                        |
-| **UserFlags**       | Integer      | User Flag defined in [**ADS\_USER\_FLAG\_ENUM**](ads-user-flag-enum.md). For an example of how to use UserFlags, see [Password Never Expires (WinNT Provider)](winnt-password-never-expires.md)                                                                                                                                                             |
+| **UserFlags**       | Integer      | User Flag defined in [**ADS\_USER\_FLAG\_ENUM**](/windows/win32/Iads/ne-iads-ads_user_flag?branch=master). For an example of how to use UserFlags, see [Password Never Expires (WinNT Provider)](winnt-password-never-expires.md)                                                                                                                                                             |
 
 
 

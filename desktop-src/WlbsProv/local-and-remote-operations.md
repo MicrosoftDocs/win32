@@ -4,13 +4,18 @@ description: The Network Load Balancing cluster software with which the provider
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd7da5018-ac97-4fd6-9352-7937004bb854'
-ms.prod: 'windows-server-dev'
+ms.assetid: d7da5018-ac97-4fd6-9352-7937004bb854
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["local operations in NLB Failover Cluster", "remote operations in NLB Failover Cluster"]
+keywords:
+- local operations in NLB Failover Cluster
+- remote operations in NLB Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Local and Remote Operations

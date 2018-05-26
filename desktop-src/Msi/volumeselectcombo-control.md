@@ -1,7 +1,12 @@
-﻿---
-Description: 'The VolumeSelectCombo control enables the user to select a volume from an alphabetical list of volumes.'
-ms.assetid: '5d486ca8-4c8a-4a15-9d38-7430d0a169ed'
+---
+Description: The VolumeSelectCombo control enables the user to select a volume from an alphabetical list of volumes.
+ms.assetid: 5d486ca8-4c8a-4a15-9d38-7430d0a169ed
 title: VolumeSelectCombo Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VolumeSelectCombo Control

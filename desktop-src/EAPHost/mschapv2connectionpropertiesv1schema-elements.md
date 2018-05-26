@@ -1,7 +1,12 @@
 ---
 title: mschapv2connectionpropertiesv1 Schema Elements
 description: Consists of the following schema elements.
-ms.assetid: '59563bbd-3243-447c-b90a-e2cf3b889f69'
+ms.assetid: 59563bbd-3243-447c-b90a-e2cf3b889f69
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mschapv2connectionpropertiesv1 Schema Elements

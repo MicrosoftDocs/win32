@@ -1,7 +1,12 @@
 ---
-Description: 'Simulates a key press.'
-ms.assetid: '42C11F92-6143-40D7-9C07-56A6514EB4D1'
-title: 'PressKey method of the Msvm\_Keyboard class'
+Description: Simulates a key press.
+ms.assetid: 42C11F92-6143-40D7-9C07-56A6514EB4D1
+title: PressKey method of the Msvm\_Keyboard class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PressKey method of the Msvm\_Keyboard class
@@ -13,7 +18,7 @@ Simulates a key press. When successful the key will be in the down state.
 
 ```mof
 uint32 PressKey(
-  [in] uint32 keyCode
+  [in] uint32 keyCode
 );
 ```
 
@@ -307,8 +312,8 @@ End Function
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -325,9 +330,9 @@ End Function
 [**Virtual-Key Codes**](_win32_virtual_key_codes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

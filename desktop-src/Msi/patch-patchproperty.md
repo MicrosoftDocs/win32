@@ -1,12 +1,17 @@
-﻿---
-Description: 'The PatchProperty property gets information about a specific patch applied to a specific instance of the product. This property calls MsiGetPatchInfoEx.'
-ms.assetid: 'c58897de-c30b-4269-9926-040613052616'
-title: 'Patch.PatchProperty method'
+---
+Description: The PatchProperty property gets information about a specific patch applied to a specific instance of the product. This property calls MsiGetPatchInfoEx.
+ms.assetid: c58897de-c30b-4269-9926-040613052616
+title: Patch.PatchProperty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch.PatchProperty method
 
-The **PatchProperty** property gets information about a specific patch applied to a specific instance of the product. This property calls [**MsiGetPatchInfoEx**](msigetpatchinfoex.md).
+The **PatchProperty** property gets information about a specific patch applied to a specific instance of the product. This property calls [**MsiGetPatchInfoEx**](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master).
 
 ## Syntax
 
@@ -36,7 +41,7 @@ The *szProperty* parameter can be one of the following values.
 | Transforms    | Get the set of patch transforms applied to the product by the last patch installation. This value may not be available for per-user-unmanaged applications if the user is not logged in to the computer.                                                                                                                     |
 | InstallDate   | Get the date when the patch was applied to the product.                                                                                                                                                                                                                                                                      |
 | Uninstallable | Returns "1" if the patch is marked as possible to uninstall from the product. In this case, the installer can still block the uninstallation if this patch is required by another patch that cannot be uninstalled.                                                                                                          |
-| State         | Returns "1" if this patch is currently applied to the product. Returns "2" if this patch has been superseded by another patch. Returns "4" if this patch has been made obsolete by another patch. These values correspond to the constants used by the *dwFilter* parameter of [**MsiEnumPatchesEx**](msienumpatchesex.md). |
+| State         | Returns "1" if this patch is currently applied to the product. Returns "2" if this patch has been superseded by another patch. Returns "4" if this patch has been made obsolete by another patch. These values correspond to the constants used by the *dwFilter* parameter of [**MsiEnumPatchesEx**](/windows/win32/Msi/nf-msi-msienumpatchesexa?branch=master). |
 | DisplayName   | Get the registered display name for the patch. For patches that do not include the DisplayName property in the [MsiPatchMetadata](msipatchmetadata-table.md) table, the returned display name is an empty string ("").                                                                                                      |
 | MoreInfoURL   | Get the registered support information URL for the patch. For patches that do not include the MoreInfoURL property in the [MsiPatchMetadata](msipatchmetadata-table.md) table, the returned support information URL is an empty string ("").                                                                                |
 
@@ -73,10 +78,10 @@ This method can return ERROR\_UNKNOWN\_PATCH, if the [**Patch**](patch-object.md
 [**Patch**](patch-object.md)
 </dt> <dt>
 
-[**MsiEnumPatchesEx**](msienumpatchesex.md)
+[**MsiEnumPatchesEx**](/windows/win32/Msi/nf-msi-msienumpatchesexa?branch=master)
 </dt> <dt>
 
-[**MsiGetPatchInfoEx**](msigetpatchinfoex.md)
+[**MsiGetPatchInfoEx**](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

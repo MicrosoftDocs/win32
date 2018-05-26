@@ -1,8 +1,11 @@
 ---
 title: PlayerApplication.switchToControl method
 description: The switchToControl method switches a remoted Windows Media Player control to the docked state.
-ms.assetid: '15be3a28-4e51-46bf-bb64-e45e20ae3524'
-keywords: ["switchToControl method Windows Media Player", "switchToControl method Windows Media Player , PlayerApplication class", "PlayerApplication class Windows Media Player , switchToControl method"]
+ms.assetid: 15be3a28-4e51-46bf-bb64-e45e20ae3524
+keywords:
+- switchToControl method Windows Media Player
+- switchToControl method Windows Media Player , PlayerApplication class
+- PlayerApplication class Windows Media Player , switchToControl method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayerApplication.switchToControl method
@@ -61,9 +69,9 @@ This method is used only when remoting the Windows Media Player control.
 [**Remoting the Windows Media Player Control**](remoting-the-windows-media-player-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

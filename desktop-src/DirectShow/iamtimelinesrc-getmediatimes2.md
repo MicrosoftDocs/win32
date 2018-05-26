@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetMediaTimes2 method retrieves the media start and stop times. This method is equivalent to IAMTimelineSrc::GetMediaTimes, but takes REFTIME values.'
-ms.assetid: 'c3961c2c-7198-44bd-8734-7301a7c5b21e'
-title: 'IAMTimelineSrc::GetMediaTimes2 method'
+---
+Description: The GetMediaTimes2 method retrieves the media start and stop times. This method is equivalent to IAMTimelineSrcGetMediaTimes, but takes REFTIME values.
+ms.assetid: c3961c2c-7198-44bd-8734-7301a7c5b21e
+title: IAMTimelineSrcGetMediaTimes2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineSrc::GetMediaTimes2 method

@@ -1,7 +1,7 @@
 ---
 title: Privacy Templates
 description: The following are privacy levels that equate to rules for accepting, conditionally accepting, or not accepting cookies.
-ms.assetid: 'd8dd9c12-b159-4f95-820e-521aeb1526bf'
+ms.assetid: d8dd9c12-b159-4f95-820e-521aeb1526bf
 topic_type:
 - apiref
 api_name:
@@ -18,6 +18,11 @@ api_location:
 - Wininet.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Privacy Templates
@@ -148,7 +153,7 @@ Same as **PRIVACY\_TEMPLATE\_LOW**.
 > [!Note]  
 > WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).
 
- 
+ 
 
 ## Requirements
 
@@ -156,8 +161,8 @@ Same as **PRIVACY\_TEMPLATE\_LOW**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Wininet.h</dt> </dl> |
 
 
@@ -166,15 +171,15 @@ Same as **PRIVACY\_TEMPLATE\_LOW**.
 
 <dl> <dt>
 
-[**PrivacyGetZonePreferenceW**](privacygetzonepreferencew.md)
+[**PrivacyGetZonePreferenceW**](/windows/win32/winineti/nf-wininet-privacygetzonepreferencew?branch=master)
 </dt> <dt>
 
-[**PrivacySetZonePreferenceW**](privacysetzonepreferencew.md)
+[**PrivacySetZonePreferenceW**](/windows/win32/winineti/nf-wininet-privacysetzonepreferencew?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

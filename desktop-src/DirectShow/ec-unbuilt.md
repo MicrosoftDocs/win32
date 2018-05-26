@@ -1,7 +1,12 @@
 ---
-Description: 'The EC\_UNBUILT event is sent by the Video Control when a graph has been torn down. This event is not forwarded to applications.'
-ms.assetid: 'fb38ad3e-c2a8-4329-87a4-9e2437a7c4ca'
-title: 'EC\_UNBUILT'
+Description: The EC\_UNBUILT event is sent by the Video Control when a graph has been torn down. This event is not forwarded to applications.
+ms.assetid: fb38ad3e-c2a8-4329-87a4-9e2437a7c4ca
+title: EC\_UNBUILT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_UNBUILT
@@ -50,9 +55,9 @@ None.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

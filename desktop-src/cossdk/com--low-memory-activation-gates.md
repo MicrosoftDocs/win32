@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ Low-Memory Activation Gates'
-ms.assetid: '9805dc94-da38-4b2c-b18c-5f494b49691b'
-title: 'COM+ Low-Memory Activation Gates'
+Description: COM+ Low-Memory Activation Gates
+ms.assetid: 9805dc94-da38-4b2c-b18c-5f494b49691b
+title: COM+ Low-Memory Activation Gates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Low-Memory Activation Gates
@@ -19,11 +24,11 @@ The following topics provide background and task information about the COM+ low-
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

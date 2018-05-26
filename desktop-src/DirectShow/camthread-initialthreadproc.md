@@ -1,7 +1,12 @@
 ---
-Description: 'The InitialThreadProc method calls the main thread procedure.'
-ms.assetid: '1546c214-7ea9-4484-974b-dbd4b2b3e296'
-title: 'CAMThread.InitialThreadProc method'
+Description: The InitialThreadProc method calls the main thread procedure.
+ms.assetid: 1546c214-7ea9-4484-974b-dbd4b2b3e296
+title: CAMThread.InitialThreadProc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread.InitialThreadProc method
@@ -13,7 +18,7 @@ The `InitialThreadProc` method calls the main thread procedure.
 
 ```C++
 DWORD InitialThreadProc(
-   LPVOID pv
+   LPVOID pv
 );
 ```
 
@@ -58,9 +63,9 @@ This method calls the [**CAMThread::CoInitializeHelper**](camthread-coinitialize
 [**CAMThread Class**](camthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

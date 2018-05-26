@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines the version information of the TraceLogging session.'
-ms.assetid: 'E2B291DB-928F-4170-8684-4B26A7E067BD'
-title: 'TRACE\_VERSION\_INFO enumeration'
+---
+Description: Determines the version information of the TraceLogging session.
+ms.assetid: E2B291DB-928F-4170-8684-4B26A7E067BD
+title: TRACE\_VERSION\_INFO enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TRACE\_VERSION\_INFO enumeration

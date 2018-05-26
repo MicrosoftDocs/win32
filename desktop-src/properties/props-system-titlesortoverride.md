@@ -1,7 +1,12 @@
 ---
-Description: 'This optional string value allows for overriding the standard sort order of System.Title.This is very important for proper sorting of music files in Japanese which cannot becorrectly sorted phonetically (the user-expected ordering) without this field.It can also be used for customizing sorting in non-East Asian scenarios,such as allowing the user to remove articles for sorting purposes.'
-ms.assetid: '1ed18c7f-2dde-4347-a53c-30dfacbabb40'
-title: 'System.TitleSortOverride'
+Description: This optional string value allows for overriding the standard sort order of System.Title.This is very important for proper sorting of music files in Japanese which cannot becorrectly sorted phonetically (the user-expected ordering) without this field.It can also be used for customizing sorting in non-East Asian scenarios,such as allowing the user to remove articles for sorting purposes.
+ms.assetid: 1ed18c7f-2dde-4347-a53c-30dfacbabb40
+title: System.TitleSortOverride
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.TitleSortOverride

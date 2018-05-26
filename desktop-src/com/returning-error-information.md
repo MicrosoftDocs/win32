@@ -1,7 +1,12 @@
 ---
 title: Returning Error Information
 description: Returning Error Information
-ms.assetid: '4206f2e5-db01-458c-93cb-10c5cd4a4536'
+ms.assetid: 4206f2e5-db01-458c-93cb-10c5cd4a4536
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Returning Error Information

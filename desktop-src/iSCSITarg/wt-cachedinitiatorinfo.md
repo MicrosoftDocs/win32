@@ -4,13 +4,15 @@ description: Contains the iSCSI Qualified Name (IQN) of a cached initiator.The t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '289eb8f8-73e9-4572-afef-2058fd3670b2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 289eb8f8-73e9-4572-afef-2058fd3670b2
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WT_CachedInitiatorInfo class iSCSI Software Target API", "WT_CachedInitiatorInfo class iSCSI Software Target API , described"]
+keywords:
+- WT_CachedInitiatorInfo class iSCSI Software Target API
+- WT_CachedInitiatorInfo class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WT\_CachedInitiatorInfo class
@@ -78,16 +83,16 @@ Microsoft iSCSI Target Server caches the IQNs of all initiators that connect to 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

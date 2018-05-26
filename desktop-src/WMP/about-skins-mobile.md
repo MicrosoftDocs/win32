@@ -1,8 +1,18 @@
 ---
 title: About Skins
 description: About Skins
-ms.assetid: '105c11ce-705b-4a0c-8982-d0f9dd9ae3ac'
-keywords: ["Windows Media Player Mobile,skins", "Windows Media Player Mobile skins,about", "Windows Media Player Mobile skins,creating", "skins,Windows Media Player Mobile", "creating skins,Windows Media Player Mobile"]
+ms.assetid: 105c11ce-705b-4a0c-8982-d0f9dd9ae3ac
+keywords:
+- Windows Media Player Mobile,skins
+- Windows Media Player Mobile skins,about
+- Windows Media Player Mobile skins,creating
+- skins,Windows Media Player Mobile
+- creating skins,Windows Media Player Mobile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Skins

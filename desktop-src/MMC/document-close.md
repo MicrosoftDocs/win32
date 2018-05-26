@@ -4,11 +4,16 @@ description: The Close method closes the document.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3ff35bc9-e2dc-403c-b4f3-93d1e45d98a4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 3ff35bc9-e2dc-403c-b4f3-93d1e45d98a4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Close method MMC", "Close method MMC , Document object", "Document object MMC , Close method", "Close method MMC , Document interface", "Document interface MMC , Close method"]
+keywords:
+- Close method MMC
+- Close method MMC , Document object
+- Document object MMC , Close method
+- Close method MMC , Document interface
+- Document interface MMC , Close method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Document::Close method
@@ -66,8 +74,8 @@ objDoc.Close (1)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -88,9 +96,9 @@ objDoc.Close (1)
 [**Document.Save**](document-save.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

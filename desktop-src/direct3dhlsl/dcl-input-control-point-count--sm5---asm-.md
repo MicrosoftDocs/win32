@@ -1,7 +1,12 @@
 ---
 title: dcl\_input\_control\_point\_count (sm5 - asm)
 description: Declare the hull shader input control point count in the hull shader declaration section.
-ms.assetid: '2E524BF0-3DD0-446A-8437-0CF17B348D83'
+ms.assetid: 2E524BF0-3DD0-446A-8437-0CF17B348D83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_input\_control\_point\_count (sm5 - asm)
@@ -15,7 +20,7 @@ Declare the hull shader input control point count in the hull shader declaration
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declare the hull shader input control point count in the hull shader declaration
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -41,7 +46,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -60,7 +65,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -69,9 +74,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

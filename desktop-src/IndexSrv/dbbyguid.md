@@ -1,8 +1,14 @@
 ---
 title: DBBYGUID
 description: DBBYGUID
-ms.assetid: '2126f665-7bac-49b2-b0b9-edd70e269c06'
-keywords: ["DBBYGUID"]
+ms.assetid: 2126f665-7bac-49b2-b0b9-edd70e269c06
+keywords:
+- DBBYGUID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBBYGUID

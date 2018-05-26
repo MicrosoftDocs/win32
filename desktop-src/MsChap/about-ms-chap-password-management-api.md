@@ -1,7 +1,12 @@
 ---
 title: About MS-CHAP Password Management
 description: About MS-CHAP Password Management
-ms.assetid: '391dc384-fe6b-4535-933a-721085aa8e1b'
+ms.assetid: 391dc384-fe6b-4535-933a-721085aa8e1b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About MS-CHAP Password Management

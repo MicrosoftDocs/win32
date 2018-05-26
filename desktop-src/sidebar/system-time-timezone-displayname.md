@@ -1,8 +1,11 @@
 ---
 title: System.Time.timeZone.displayName property
 description: Gets the display name for a time zone.
-ms.assetid: 'e87ea721-9540-4fa6-bbd9-f7e41e69c5f2'
-keywords: ["displayName property Windows Sidebar", "displayName property Windows Sidebar , System.Time.timeZone object", "System.Time.timeZone object Windows Sidebar , displayName property"]
+ms.assetid: e87ea721-9540-4fa6-bbd9-f7e41e69c5f2
+keywords:
+- displayName property Windows Sidebar
+- displayName property Windows Sidebar , System.Time.timeZone object
+- System.Time.timeZone object Windows Sidebar , displayName property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Time.timeZone.displayName property
@@ -71,10 +79,10 @@ var sTimeZoneDetails = function()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -132,9 +140,9 @@ var sTimeZoneDetails = function()
 [**bias**](system-time-timezone-bias.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

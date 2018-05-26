@@ -1,7 +1,12 @@
 ---
 title: Translating to Visual Basic from C++
 description: Translating to Visual Basic from C++
-ms.assetid: 'fce7ea25-cb24-4cc4-8f36-0e8aed2f3ada'
+ms.assetid: fce7ea25-cb24-4cc4-8f36-0e8aed2f3ada
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating to Visual Basic from C++
@@ -38,7 +43,7 @@ The following table lists the data types are supported by Visual Basic and their
 
 
 
- 
+ 
 
 All parameters in Visual Basic, unless labeled with the keyword **ByVal**, are passed by reference (as pointers) instead of by value.
 
@@ -51,9 +56,9 @@ C++ and Visual Basic differ slightly in how they represent properties. In C++, p
 [Translating to Visual Basic](translating-to-visual-basic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

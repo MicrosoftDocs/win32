@@ -2,13 +2,16 @@
 title: FindNLSCertificate method of the PS\_RemoteAccessLocal class
 description: This method retrieves a Certificate for NLS from the local machine whose subject name does not match the ConnectTo addresses, but resolves to at least one IP from each site.
 audience: developer
-ms.assetid: 'd9fdb2fd-9613-4354-9d66-307c3a7b1c2e'
-ms.prod: 'windows-server-dev'
+ms.assetid: d9fdb2fd-9613-4354-9d66-307c3a7b1c2e
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["FindNLSCertificate method", "FindNLSCertificate method, PS_RemoteAccessLocal class", "PS_RemoteAccessLocal class, FindNLSCertificate method"]
+keywords:
+- FindNLSCertificate method
+- FindNLSCertificate method, PS_RemoteAccessLocal class
+- PS_RemoteAccessLocal class, FindNLSCertificate method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FindNLSCertificate method of the PS\_RemoteAccessLocal class
@@ -28,12 +34,12 @@ This method retrieves a Certificate for NLS from the local machine whose subject
 
 ```mof
 uint32 FindNLSCertificate(
-  [in]  DASiteAddresses      SiteAddresses[],
-  [in]  string               ConnectToAddress[],
-  [in]  string               MachineNamesForAllSites[],
-  [in]  boolean              IncludeSelfSigned,
-  [out] string               ResolvedAddress[],
-  [out] DACertificateContext EncodedCertificate
+  [in]  DASiteAddresses      SiteAddresses[],
+  [in]  string               ConnectToAddress[],
+  [in]  string               MachineNamesForAllSites[],
+  [in]  boolean              IncludeSelfSigned,
+  [out] string               ResolvedAddress[],
+  [out] DACertificateContext EncodedCertificate
 );
 ```
 
@@ -92,7 +98,7 @@ An embedded [**DACertificateContext**](dacertificatecontext.md) object containin
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ An embedded [**DACertificateContext**](dacertificatecontext.md) object containin
 [**PS\_RemoteAccessLocal**](ps-remoteaccesslocal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

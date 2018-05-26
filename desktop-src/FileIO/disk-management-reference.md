@@ -1,7 +1,12 @@
 ---
-Description: 'Elements used in disk management.'
-ms.assetid: 'baff3cae-d869-456b-981c-452973d0914d'
+Description: Elements used in disk management.
+ms.assetid: baff3cae-d869-456b-981c-452973d0914d
 title: Disk Management Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk Management Reference
@@ -23,11 +28,11 @@ The following elements are used in disk management.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

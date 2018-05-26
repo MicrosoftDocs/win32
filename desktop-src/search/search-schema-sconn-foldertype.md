@@ -1,7 +1,12 @@
 ---
-Description: 'The &lt;folderType&gt; element specifies GUID for the folder type. This element is required if the &lt;templateInfo&gt; element exists. It has no attributes and no child elements.'
-ms.assetid: '2361bbf5-adeb-4189-a8ff-5fdd1c9b0ec6'
-title: 'folderType Element (Search Connector Schema)'
+Description: The &lt;folderType&gt; element specifies GUID for the folder type. This element is required if the &lt;templateInfo&gt; element exists. It has no attributes and no child elements.
+ms.assetid: 2361bbf5-adeb-4189-a8ff-5fdd1c9b0ec6
+title: folderType Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # folderType Element (Search Connector Schema)

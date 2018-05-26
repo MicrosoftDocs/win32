@@ -1,8 +1,9 @@
 ---
 title: MCM\_GETMONTHDELTA message
 description: Retrieves the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can send this message explicitly or by using the MonthCal\_GetMonthDelta macro.
-ms.assetid: '6db02993-b22c-430f-8928-8bd5768b2151'
-keywords: ["MCM_GETMONTHDELTA message Windows Controls"]
+ms.assetid: 6db02993-b22c-430f-8928-8bd5768b2151
+keywords:
+- MCM_GETMONTHDELTA message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_GETMONTHDELTA message
 
-Retrieves the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can send this message explicitly or by using the [**MonthCal\_GetMonthDelta**](monthcal-getmonthdelta.md) macro.
+Retrieves the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can send this message explicitly or by using the [**MonthCal\_GetMonthDelta**](/windows/win32/Commctrl/nf-commctrl-monthcal_getmonthdelta?branch=master) macro.
 
 ## Parameters
 
@@ -37,15 +43,15 @@ If the month delta was previously set using the [**MCM\_SETMONTHDELTA**](mcm-set
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

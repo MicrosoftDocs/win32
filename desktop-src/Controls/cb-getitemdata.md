@@ -1,8 +1,9 @@
 ---
 title: CB\_GETITEMDATA message
 description: An application sends a CB\_GETITEMDATA message to a combo box to retrieve the application-supplied value associated with the specified item in the combo box.
-ms.assetid: '433b7f75-2831-4919-b931-c17ba651d145'
-keywords: ["CB_GETITEMDATA message Windows Controls"]
+ms.assetid: 433b7f75-2831-4919-b931-c17ba651d145
+keywords:
+- CB_GETITEMDATA message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_GETITEMDATA message
@@ -47,8 +53,8 @@ If the item is in an owner-drawn combo box created without the [**CBS\_HASSTRING
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -69,9 +75,9 @@ If the item is in an owner-drawn combo box created without the [**CBS\_HASSTRING
 [**CB\_SETITEMDATA**](cb-setitemdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

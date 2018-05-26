@@ -1,7 +1,12 @@
 ---
 title: Output Query Properties
 description: Output Query Properties
-ms.assetid: '3740e3ce-a452-4362-a4a9-9c80985f0f27'
+ms.assetid: 3740e3ce-a452-4362-a4a9-9c80985f0f27
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Output Query Properties

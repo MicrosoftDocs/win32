@@ -1,8 +1,16 @@
 ---
 title: Referencing Skins in URLs
 description: Referencing Skins in URLs
-ms.assetid: '9ae30c12-2dee-46b2-90e2-c101a83856fb'
-keywords: ["Windows Media Player skins,URL references", "skins,URL references", "URL references in skins"]
+ms.assetid: 9ae30c12-2dee-46b2-90e2-c101a83856fb
+keywords:
+- Windows Media Player skins,URL references
+- skins,URL references
+- URL references in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Referencing Skins in URLs

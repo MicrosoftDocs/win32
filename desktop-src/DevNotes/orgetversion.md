@@ -1,7 +1,12 @@
-﻿---
-Description: 'This function retrieves the version of the offline registry library.'
-ms.assetid: '625f088a-db5e-47ea-aa48-39b1c70cf15b'
+---
+Description: This function retrieves the version of the offline registry library.
+ms.assetid: 625f088a-db5e-47ea-aa48-39b1c70cf15b
 title: ORGetVersion function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ORGetVersion function

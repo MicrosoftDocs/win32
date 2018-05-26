@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the source address of a frame.'
-ms.assetid: '414f9e64-f1b2-46f1-822e-0fffacfad843'
+Description: Retrieves the source address of a frame.
+ms.assetid: 414f9e64-f1b2-46f1-822e-0fffacfad843
 title: GetFrameSourceAddress function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetFrameSourceAddress function
@@ -13,10 +18,10 @@ The **GetFrameSourceAddress** function retrieves the source address of a frame.
 
 ```C++
 DWORD WINAPI GetFrameSourceAddress(
-   HFRAME    hFrame,
-   LPADDRESS lpAddress,
-   DWORD     AddressType,
-   DWORD     Flags
+   HFRAME    hFrame,
+   LPADDRESS lpAddress,
+   DWORD     AddressType,
+   DWORD     Flags
 );
 ```
 
@@ -61,7 +66,7 @@ The flags used to modify returned source address data.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -80,7 +85,7 @@ If the function is unsuccessful, the return value is an error code.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -92,17 +97,17 @@ An address type of **ADDRESS\_TYPE\_FIND\_HIGHEST** is allowed. When this addres
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the name of the template.'
-ms.assetid: 'f92346bc-89b6-4063-aa66-85e2fb88d67d'
-title: 'Template.Name property'
+---
+Description: Retrieves the name of the template.
+ms.assetid: f92346bc-89b6-4063-aa66-85e2fb88d67d
+title: Template.Name property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Template.Name property

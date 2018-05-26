@@ -1,8 +1,9 @@
 ---
 title: glShadeModel function
 description: The glShadeModel function selects flat or smooth shading.
-ms.assetid: '52985ad7-1d6c-48fc-8f1e-4eb2c0324c8e'
-keywords: ["glShadeModel function OpenGL"]
+ms.assetid: 52985ad7-1d6c-48fc-8f1e-4eb2c0324c8e
+keywords:
+- glShadeModel function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glShadeModel function
@@ -22,7 +28,7 @@ The **glShadeModel** function selects flat or smooth shading.
 
 ```C++
 void WINAPI glShadeModel(
-   GLenum mode
+   GLenum mode
 );
 ```
 
@@ -88,7 +94,7 @@ Flat and smooth shading are indistinguishable for points. Counting vertices and 
 
 
 
- 
+ 
 
 Flat and smooth shading are specified by **glShadeModel** with *mode* set to GL\_FLAT and GL\_SMOOTH, respectively.
 
@@ -102,8 +108,8 @@ The following function retrieves information related to **glShadeModel**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -129,9 +135,9 @@ The following function retrieves information related to **glShadeModel**:
 [**glLightModel**](gllightmodel-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: The IMsTscAdvancedSettings interface exposes the following properti
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'D0BAD14F-91E2-4314-92E6-E4E9EE53F35C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: D0BAD14F-91E2-4314-92E6-E4E9EE53F35C
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAdvancedSettings Properties

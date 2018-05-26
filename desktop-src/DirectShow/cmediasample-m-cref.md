@@ -1,7 +1,12 @@
 ---
-Description: 'Reference count.'
-ms.assetid: '57b8498d-2aa4-414f-9e0a-3ddcb748fb38'
-title: 'CMediaSample::m\_cRef member'
+Description: Reference count.
+ms.assetid: 57b8498d-2aa4-414f-9e0a-3ddcb748fb38
+title: CMediaSamplem\_cRef member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample::m\_cRef member
@@ -35,9 +40,9 @@ LONG m_cRef;
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

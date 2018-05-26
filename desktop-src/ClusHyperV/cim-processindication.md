@@ -4,13 +4,15 @@ description: CIM\_ProcessIndication is an abstract superclass for specialized in
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '552c6eda-0082-4dc6-afd8-2d741d635169'
-ms.prod: 'windows-server-dev'
+ms.assetid: 552c6eda-0082-4dc6-afd8-2d741d635169
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ProcessIndication class", "CIM_ProcessIndication class, described"]
+keywords:
+- CIM_ProcessIndication class
+- CIM_ProcessIndication class, described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ProcessIndication class
@@ -43,16 +48,16 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Indication, Version("2.6.0"), UMLPackagePath("CIM::Event"), AMENDMENT]
 class CIM_ProcessIndication : CIM_Indication
 {
-  uint8    SECURITY_DESCRIPTOR[];
-  uint64   TIME_CREATED;
-  string   IndicationIdentifier;
-  string   CorrelatedIndications[];
+  uint8    SECURITY_DESCRIPTOR[];
+  uint64   TIME_CREATED;
+  string   IndicationIdentifier;
+  string   CorrelatedIndications[];
   datetime IndicationTime;
-  uint16   PerceivedSeverity;
-  string   OtherSeverity;
-  string   IndicationFilterName;
-  string   SequenceContext;
-  sint64   SequenceNumber;
+  uint16   PerceivedSeverity;
+  string   OtherSeverity;
+  string   IndicationFilterName;
+  string   SequenceContext;
+  sint64   SequenceNumber;
 };
 ```
 
@@ -149,7 +154,7 @@ The time and date when the indication was created. The property can be set to **
 > [!Note]  
 > The **IndicationTime** value can be the same for indications that are generated in rapid succession.
 
- 
+ 
 
 This property is inherited from [**CIM\_Indication**](cim-indication.md).
 
@@ -322,7 +327,7 @@ The sequence context of the sequence identifier for the indication. If a service
 > [!Note]  
 > The sequence identifier for the indication enables a listener to identify duplicate indications when the service attempts to redeliver indications, reorder indications that arrive out of order, and detect lost indications.
 
- 
+ 
 
 To ensure that **SequenceContext** is unique, it should use the following format:
 
@@ -352,7 +357,7 @@ The sequence number of the sequence identifier for the indication.
 > [!Note]  
 > The sequence identifier for the indication enables a listener to identify duplicate indications when the service attempts to redeliver indications, reorder indications that arrive out of order, and detect lost indications.
 
- 
+ 
 
 The sequence number has the following characteristics:
 
@@ -387,7 +392,7 @@ For more information about using **uint64** values in scripts, see [Scripting in
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -404,9 +409,9 @@ For more information about using **uint64** values in scripts, see [Scripting in
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

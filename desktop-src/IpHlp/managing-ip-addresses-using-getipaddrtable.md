@@ -1,16 +1,21 @@
 ---
-Description: 'The GetIpAddrTable function fills a pointer to an MIB\_IPADDRTABLE structure with information about the current IP addresses associated with the system.'
-ms.assetid: 'f041cb37-926d-4eeb-835c-f8b9d5ee4d2e'
+Description: The GetIpAddrTable function fills a pointer to an MIB\_IPADDRTABLE structure with information about the current IP addresses associated with the system.
+ms.assetid: f041cb37-926d-4eeb-835c-f8b9d5ee4d2e
 title: Managing IP Addresses Using GetIpAddrTable
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing IP Addresses Using GetIpAddrTable
 
-The [**GetIpAddrTable**](getipaddrtable.md) function fills a pointer to an [**MIB\_IPADDRTABLE**](rras.mib_ipaddrtable) structure with information about the current IP addresses associated with the system.
+The [**GetIpAddrTable**](/windows/win32/Iphlpapi/nf-iphlpapi-getipaddrtable?branch=master) function fills a pointer to an [**MIB\_IPADDRTABLE**](rras.mib_ipaddrtable) structure with information about the current IP addresses associated with the system.
 
 **To use GetIpAddrTable**
 
-1.  Declare a pointer to an [**MIB\_IPADDRTABLE**](rras.mib_ipaddrtable) object called *pIPAddrTable*, and a **DWORD** object called *dwSize*. These variables are passed as parameters to the [**GetIpAddrTable**](getipaddrtable.md) function. Also create a **DWORD** variable called *dwRetVal* (used for error checking).
+1.  Declare a pointer to an [**MIB\_IPADDRTABLE**](rras.mib_ipaddrtable) object called *pIPAddrTable*, and a **DWORD** object called *dwSize*. These variables are passed as parameters to the [**GetIpAddrTable**](/windows/win32/Iphlpapi/nf-iphlpapi-getipaddrtable?branch=master) function. Also create a **DWORD** variable called *dwRetVal* (used for error checking).
     ```C++
     MIB_IPADDRTABLE  *pIPAddrTable;
     DWORD            dwSize = 0;
@@ -33,7 +38,7 @@ The [**GetIpAddrTable**](getipaddrtable.md) function fills a pointer to an [**MI
 
     
 
-3.  Make an initial call to [**GetIpAddrTable**](getipaddrtable.md) to get the size needed into the *dwSize* variable.
+3.  Make an initial call to [**GetIpAddrTable**](/windows/win32/Iphlpapi/nf-iphlpapi-getipaddrtable?branch=master) to get the size needed into the *dwSize* variable.
     > [!Note]  
     > This call to the function is meant to fail, and is used to ensure that the *dwSize* variable specifies a size sufficient for holding all the information returned to *pIPAddrTable*. This is a common programming model for data structures and functions of this type.
 
@@ -49,7 +54,7 @@ The [**GetIpAddrTable**](getipaddrtable.md) function fills a pointer to an [**MI
 
     
 
-4.  Make a second call to [**GetIpAddrTable**](getipaddrtable.md) with general error checking and return its value to the **DWORD** variable *dwRetVal* (for more advanced error checking).
+4.  Make a second call to [**GetIpAddrTable**](/windows/win32/Iphlpapi/nf-iphlpapi-getipaddrtable?branch=master) with general error checking and return its value to the **DWORD** variable *dwRetVal* (for more advanced error checking).
     ```C++
     if ( (dwRetVal = GetIpAddrTable( pIPAddrTable, &amp;dwSize, 0 )) != NO_ERROR ) { 
         printf("GetIpAddrTable call failed with %d\n", dwRetVal);

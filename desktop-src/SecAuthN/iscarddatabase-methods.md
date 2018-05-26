@@ -1,7 +1,12 @@
 ---
-Description: 'The ISCardDatabase interface exposes the following methods.'
-ms.assetid: 'CE2BF60E-CBD3-445E-8F09-63BA6C39D538'
+Description: The ISCardDatabase interface exposes the following methods.
+ms.assetid: CE2BF60E-CBD3-445E-8F09-63BA6C39D538
 title: ISCardDatabase Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardDatabase Methods

@@ -1,19 +1,24 @@
 ---
-Description: 'The CreateMediaType function allocates a new AM\_MEDIA\_TYPE structure, including the format block.'
-ms.assetid: '841a8c51-6027-49d6-b3d8-b5e21e3d5f13'
+Description: The CreateMediaType function allocates a new AM\_MEDIA\_TYPE structure, including the format block.
+ms.assetid: 841a8c51-6027-49d6-b3d8-b5e21e3d5f13
 title: CreateMediaType function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateMediaType function
 
-The **CreateMediaType** function allocates a new [**AM\_MEDIA\_TYPE**](am-media-type.md) structure, including the format block.
+The **CreateMediaType** function allocates a new [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure, including the format block.
 
 ## Syntax
 
 
 ```C++
 AM_MEDIA_TYPE* WINAPI CreateMediaType(
-   AM_MEDIA_TYPE const *pSrc
+   AM_MEDIA_TYPE const *pSrc
 );
 ```
 
@@ -26,13 +31,13 @@ AM_MEDIA_TYPE* WINAPI CreateMediaType(
 *pSrc* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure. The method copies this structure into the new structure.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure. The method copies this structure into the new structure.
 
 </dd> </dl>
 
 ## Return value
 
-Returns a new [**AM\_MEDIA\_TYPE**](am-media-type.md) structure, or **NULL** if there is an error.
+Returns a new [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure, or **NULL** if there is an error.
 
 ## Remarks
 
@@ -56,9 +61,9 @@ To free the memory allocated by this function, call [**DeleteMediaType**](delete
 [**Media Type Functions**](media-type-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

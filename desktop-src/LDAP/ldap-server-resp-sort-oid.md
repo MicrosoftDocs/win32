@@ -4,11 +4,12 @@ description: Used by the server to indicate the results of a search function ini
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '33832380-e1c7-40c2-853d-dee0ee55dee9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 33832380-e1c7-40c2-853d-dee0ee55dee9
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_SERVER_RESP_SORT_OID control code LDAP"]
+keywords:
+- LDAP_SERVER_RESP_SORT_OID control code LDAP
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Winldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_SERVER\_RESP\_SORT\_OID control code
 
 The LDAP\_SERVER\_RESP\_SORT\_OID control is used by the server to indicate the results of a search function initiated using the [LDAP\_SERVER\_SORT\_OID](ldap-server-sort-oid.md) control. This control is returned only by the server and should not be sent to the server by a client application.
 
-The server returns results in the members of the [**LDAPControl**](ldapcontrol.md) structure as follows.
+The server returns results in the members of the [**LDAPControl**](/windows/previous-versions/Winldap/ns-winldap-ldapcontrola?branch=master) structure as follows.
 
 ``` syntax
 PWCHAR ldctl_oid = LDAP_SERVER_RESP_SORT_OID;
@@ -70,7 +74,7 @@ Sequence {
 
 
 
-Client applications should use the [**ldap\_parse\_result**](ldap-parse-result.md) and [**ldap\_parse\_sort\_control**](ldap-parse-sort-control.md) functions to parse the result fields of this returned control.
+Client applications should use the [**ldap\_parse\_result**](/windows/previous-versions/Winldap/nf-winldap-ldap_parse_result?branch=master) and [**ldap\_parse\_sort\_control**](/windows/previous-versions/Winldap/nf-winldap-ldap_parse_sort_control?branch=master) functions to parse the result fields of this returned control.
 
 The sortResult enumeration elements are listed in the following table.
 
@@ -92,7 +96,7 @@ The sortResult enumeration elements are listed in the following table.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -100,8 +104,8 @@ The sortResult enumeration elements are listed in the following table.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winldap.h</dt> </dl> |
 
 
@@ -113,15 +117,15 @@ The sortResult enumeration elements are listed in the following table.
 [Data Structures](data-structures.md)
 </dt> <dt>
 
-[**LDAPMessage**](ldapmessage.md)
+[**LDAPMessage**](/windows/previous-versions/Winldap/ns-winldap-ldapmsg?branch=master)
 </dt> <dt>
 
 [Using Controls](using-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

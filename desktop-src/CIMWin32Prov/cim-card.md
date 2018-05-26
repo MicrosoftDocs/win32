@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Card class represents a type of physical container that can be plugged into another card or hosting board, or is itself a hosting board/motherboard in a chassis.'
+Description: The CIM\_Card class represents a type of physical container that can be plugged into another card or hosting board, or is itself a hosting board/motherboard in a chassis.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'edbbfe43-c8e8-4cde-9507-e0a248c15ca7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: edbbfe43-c8e8-4cde-9507-e0a248c15ca7
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Card class'
+title: CIM\_Card class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Card class
@@ -19,7 +22,7 @@ The **CIM\_Card** class represents a type of physical container that can be plug
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,33 +32,33 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, UUID("{FAF76B76-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_Card : CIM_PhysicalPackage
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   CreationClassName;
-  string   Manufacturer;
-  string   Model;
-  string   OtherIdentifyingInfo;
-  string   PartNumber;
-  boolean  PoweredOn;
-  string   SerialNumber;
-  string   SKU;
-  string   Tag;
-  string   Version;
-  real32   Depth;
-  real32   Height;
-  boolean  HotSwappable;
-  boolean  Removable;
-  boolean  Replaceable;
-  real32   Weight;
-  real32   Width;
-  boolean  HostingBoard;
-  string   RequirementsDescription;
-  boolean  RequiresDaughterBoard;
-  string   SlotLayout;
-  boolean  SpecialRequirements;
+  string   Name;
+  string   Status;
+  string   CreationClassName;
+  string   Manufacturer;
+  string   Model;
+  string   OtherIdentifyingInfo;
+  string   PartNumber;
+  boolean  PoweredOn;
+  string   SerialNumber;
+  string   SKU;
+  string   Tag;
+  string   Version;
+  real32   Depth;
+  real32   Height;
+  boolean  HotSwappable;
+  boolean  Removable;
+  boolean  Replaceable;
+  real32   Weight;
+  real32   Width;
+  boolean  HostingBoard;
+  string   RequirementsDescription;
+  boolean  RequiresDaughterBoard;
+  string   SlotLayout;
+  boolean  SpecialRequirements;
 };
 ```
 
@@ -78,7 +81,7 @@ The **CIM\_Card** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -642,8 +645,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -657,9 +660,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_PhysicalPackage**](cim-physicalpackage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Step 2: Extending a Transaction Across Multiple Components'
-ms.assetid: '20a30e87-e209-45ae-bf1b-722568758c47'
-title: 'Step 2: Extending a Transaction Across Multiple Components'
+Description: Step 2 Extending a Transaction Across Multiple Components
+ms.assetid: 20a30e87-e209-45ae-bf1b-722568758c47
+title: Step 2 Extending a Transaction Across Multiple Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 2: Extending a Transaction Across Multiple Components
@@ -54,7 +59,7 @@ Voting also occurs implicitly, as is done in the `ValidateAuthorAddress` compone
 
 
 
-When `ValidateAuthorAddress` returns to its caller, COM+ reads its vote as a commit. COM+ doesn't count the votes until it deactivates the root object, which is the first object in the transaction—in this case, the `UpdateAuthorAddress` object.
+When `ValidateAuthorAddress` returns to its caller, COM+ reads its vote as a commit. COM+ doesn't count the votes until it deactivates the root object, which is the first object in the transaction in this case, the `UpdateAuthorAddress` object.
 
 ## Sample Code
 
@@ -98,20 +103,20 @@ End Function
 -   Setting a component's transaction attribute to **Supported** can result in the new object being created in the calling object's transaction. COM+ looks at the caller's context to determine the transactional status of the new object. If the caller is transactional, COM+ flows the transaction to the new object.
 -   All objects participating in the same transaction share a common transaction identifier, which COM+ reads from the object's context.
 -   Each object in a transaction votes independently of other objects. COM+ counts the votes when the root object is deactivated.
--   You can toggle an object's transaction vote between commit and abort until COM+ deactivates the object or until COM+ deactivates the root object and ends the transaction. Only the last vote setting counts. The [**IContextState**](icontextstate.md) and [**IObjectContext**](iobjectcontext.md) interfaces provide methods and that produce similar voting results as shown in the following table. You can use either interface to vote explicitly in a transaction. 
+-   You can toggle an object's transaction vote between commit and abort until COM+ deactivates the object or until COM+ deactivates the root object and ends the transaction. Only the last vote setting counts. The [**IContextState**](/windows/win32/ComSvcs/nn-comsvcs-icontextstate?branch=master) and [**IObjectContext**](/windows/win32/ComSvcs/nn-comsvcs-iobjectcontext?branch=master) interfaces provide methods and that produce similar voting results as shown in the following table. You can use either interface to vote explicitly in a transaction. 
 
-    | [**IContextState**](icontextstate.md) combination methods                                                                                                                                                      | [**IObjectContext**](iobjectcontext.md) equivalent method       |
+    | [**IContextState**](/windows/win32/ComSvcs/nn-comsvcs-icontextstate?branch=master) combination methods                                                                                                                                                      | [**IObjectContext**](/windows/win32/ComSvcs/nn-comsvcs-iobjectcontext?branch=master) equivalent method       |
     |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-    | [**SetMyTransactionVote**](icontextstate-setmytransactionvote.md) *txVote* = **TxCommit**<br/> [**SetDeactivateOnReturn**](icontextstate-setdeactivateonreturn.md) *bDeactivate* = **True**<br/>  | [**SetComplete**](iobjectcontext-setcomplete.md)<br/>     |
-    | [**SetMyTransactionVote**](icontextstate-setmytransactionvote.md) *txVote* = **TxCommit**<br/> [**SetDeactivateOnReturn**](icontextstate-setdeactivateonreturn.md) *bDeactivate* = **False**<br/> | [**EnableCommit**](iobjectcontext-enablecommit.md)<br/>   |
-    | [**SetMyTransactionVote**](icontextstate-setmytransactionvote.md) *txVote* = **TxAbort**<br/> [**SetDeactivateOnReturn**](icontextstate-setdeactivateonreturn.md) *bDeactivate* = **True**<br/>   | [**SetAbort**](iobjectcontext-setabort.md)<br/>           |
-    | [**SetMyTransactionVote**](icontextstate-setmytransactionvote.md) *txVote* = **TxAbort**<br/> [**SetDeactivateOnReturn**](icontextstate-setdeactivateonreturn.md) *bDeactivate* = **False**<br/>  | [**DisableCommit**](iobjectcontext-disablecommit.md)<br/> |
+    | [**SetMyTransactionVote**](/windows/win32/ComSvcs/nf-comsvcs-icontextstate-setmytransactionvote?branch=master) *txVote* = **TxCommit**<br/> [**SetDeactivateOnReturn**](/windows/win32/ComSvcs/nf-comsvcs-icontextstate-setdeactivateonreturn?branch=master) *bDeactivate* = **True**<br/>  | [**SetComplete**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete?branch=master)<br/>     |
+    | [**SetMyTransactionVote**](/windows/win32/ComSvcs/nf-comsvcs-icontextstate-setmytransactionvote?branch=master) *txVote* = **TxCommit**<br/> [**SetDeactivateOnReturn**](/windows/win32/ComSvcs/nf-comsvcs-icontextstate-setdeactivateonreturn?branch=master) *bDeactivate* = **False**<br/> | [**EnableCommit**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-enablecommit?branch=master)<br/>   |
+    | [**SetMyTransactionVote**](/windows/win32/ComSvcs/nf-comsvcs-icontextstate-setmytransactionvote?branch=master) *txVote* = **TxAbort**<br/> [**SetDeactivateOnReturn**](/windows/win32/ComSvcs/nf-comsvcs-icontextstate-setdeactivateonreturn?branch=master) *bDeactivate* = **True**<br/>   | [**SetAbort**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setabort?branch=master)<br/>           |
+    | [**SetMyTransactionVote**](/windows/win32/ComSvcs/nf-comsvcs-icontextstate-setmytransactionvote?branch=master) *txVote* = **TxAbort**<br/> [**SetDeactivateOnReturn**](/windows/win32/ComSvcs/nf-comsvcs-icontextstate-setdeactivateonreturn?branch=master) *bDeactivate* = **False**<br/>  | [**DisableCommit**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-disablecommit?branch=master)<br/> |
 
     
 
-     
+     
 
--   COM+ sets an object's vote to the equivalent of [**EnableCommit**](iobjectcontext-enablecommit.md) unless the component votes explicitly.
+-   COM+ sets an object's vote to the equivalent of [**EnableCommit**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-enablecommit?branch=master) unless the component votes explicitly.
 -   Voting explicitly can reduce the overall duration of the transaction and release expensive resource locks.
 
 ## Related topics
@@ -130,9 +135,9 @@ End Function
 [Managing Automatic Transactions in COM+](managing-automatic-transactions-in-com-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

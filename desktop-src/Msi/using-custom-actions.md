@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections describe using custom actions.'
-ms.assetid: 'dd2a0681-f50d-4232-bdcc-8aee6bb121a1'
+Description: The following sections describe using custom actions.
+ms.assetid: dd2a0681-f50d-4232-bdcc-8aee6bb121a1
 title: Using Custom Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Custom Actions

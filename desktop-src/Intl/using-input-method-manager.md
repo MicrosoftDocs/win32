@@ -1,7 +1,12 @@
 ---
 Description: Using Input Method Manager
-ms.assetid: 'd98d5273-7827-4d77-8a4a-cc93dcf9a497'
+ms.assetid: d98d5273-7827-4d77-8a4a-cc93dcf9a497
 title: Using Input Method Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Input Method Manager

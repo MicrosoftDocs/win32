@@ -1,8 +1,9 @@
 ---
 title: D3DX\_UINT2\_to\_R16G16\_UINT function
 description: Packs the given XMUINT2 back into a DXGI\_FORMAT\_R16G16\_UINT.
-ms.assetid: '1f8aef92-7f34-4020-8a7e-6204922fc6d4'
-keywords: ["D3DX_UINT2_to_R16G16_UINT function HLSL"]
+ms.assetid: 1f8aef92-7f34-4020-8a7e-6204922fc6d4
+keywords:
+- D3DX_UINT2_to_R16G16_UINT function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_UINT2\_to\_R16G16\_UINT function
@@ -21,7 +27,7 @@ Packs the given XMUINT2 back into a DXGI\_FORMAT\_R16G16\_UINT.
 
 ``` syntax
 UINT D3DX_UINT2_to_R16G16_UINT(
-   hlsl_precise XMUINT2 unpackedInput
+   hlsl_precise XMUINT2 unpackedInput
 );
 ```
 
@@ -60,9 +66,9 @@ The packed shader data.
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

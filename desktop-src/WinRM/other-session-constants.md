@@ -4,9 +4,9 @@ description: Specify encoding, encryption, and service principal name port.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a921b7bc-1f40-427c-971f-c0bc9c9f6887'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: a921b7bc-1f40-427c-971f-c0bc9c9f6887
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -19,6 +19,9 @@ api_location:
 - WSManDisp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Other Session Constants
@@ -37,7 +40,7 @@ Constants, listed in the following list, in the **\_\_WSManSessionFlags** enumer
 
 Sends the request in UTF8 rather than UTF16.
 
-The associated scripting method is [**WSMan.SessionFlagUTF8**](wsman-sessionflagutf8.md) and the C++ method is [**IWSManEx.SessionFlagUTF8**](iwsmanex-sessionflagutf8.md).
+The associated scripting method is [**WSMan.SessionFlagUTF8**](wsman-sessionflagutf8.md) and the C++ method is [**IWSManEx.SessionFlagUTF8**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagutf8?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -52,7 +55,7 @@ The associated scripting method is [**WSMan.SessionFlagUTF8**](wsman-sessionflag
 
 Do not encrypt the messages sent over the network. This setting is allowed only if the [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener) is configured so that **AllowUnencrypted** is set to **True**.
 
-The associated scripting method is [**WSMan.SessionFlagNoEncryption**](wsman-sessionflagnoencryption.md) and the C++ method is [**IWSManEx.SessionFlagNoEncryption**](iwsmanex-sessionflagnoencryption.md).
+The associated scripting method is [**WSMan.SessionFlagNoEncryption**](wsman-sessionflagnoencryption.md) and the C++ method is [**IWSManEx.SessionFlagNoEncryption**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagnoencryption?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -67,7 +70,7 @@ The associated scripting method is [**WSMan.SessionFlagNoEncryption**](wsman-ses
 
 Specify the Service Principal Name (SPN) port when connecting directly to remote BMC hardware, also known as an [*out-of-band*](windows-remote-management-glossary.md#winrm-gloss-out-of-band) connection. Because both the WinRM server computer and the BMC hardware can share the same IP address, this flag indicates that the SPN port number must be used to determine whether the connection is to the service or directly to the BMC. For more information, see [Name Formats for Unique SPNs](https://msdn.microsoft.com/library/ms677601).
 
-The associated scripting method is [**WSMan.SessionFlagEnableSPNServerPort**](wsman-sessionflagenablespnserverport.md) and the C++ method is [**IWSManEx.SessionFlagEnableSPNServerPort**](iwsmanex-sessionflagenablespnserverport.md).
+The associated scripting method is [**WSMan.SessionFlagEnableSPNServerPort**](wsman-sessionflagenablespnserverport.md) and the C++ method is [**IWSManEx.SessionFlagEnableSPNServerPort**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagenablespnserverport?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -91,8 +94,8 @@ Sends the request in UTF16.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 
@@ -105,9 +108,9 @@ Sends the request in UTF16.
 [Session Constants](session-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

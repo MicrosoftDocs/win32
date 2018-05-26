@@ -1,8 +1,16 @@
 ---
 title: RequestReplyTcpServerExample
 description: This example shows a TCP server that accepts a channel and receives and replies to messages.
-ms.assetid: 'da9a507b-952d-4378-a37f-c2c4407335e8'
-keywords: ["RequestReplyTcpServerExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: da9a507b-952d-4378-a37f-c2c4407335e8
+keywords:
+- RequestReplyTcpServerExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestReplyTcpServerExample

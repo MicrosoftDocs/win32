@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the target of a symbolic link.'
-ms.assetid: '10a6676c-96f7-4758-8868-bbccd37b5019'
+---
+Description: Retrieves the target of a symbolic link.
+ms.assetid: 10a6676c-96f7-4758-8868-bbccd37b5019
 title: NtQuerySymbolicLinkObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtQuerySymbolicLinkObject function

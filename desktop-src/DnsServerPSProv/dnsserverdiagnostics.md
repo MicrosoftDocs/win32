@@ -2,13 +2,15 @@
 title: DnsServerDiagnostics class
 description: Represents event logging details for a DNS server.
 audience: developer
-ms.assetid: '577bfa3d-19ab-42cb-b697-b1ea0e51e6b2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 577bfa3d-19ab-42cb-b697-b1ea0e51e6b2
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerDiagnostics class", "DnsServerDiagnostics class, described"]
+keywords:
+- DnsServerDiagnostics class
+- DnsServerDiagnostics class, described
 topic_type:
 - apiref
 api_name:
@@ -45,6 +47,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerDiagnostics class
@@ -59,10 +64,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerDiagnostics
 {
-  uint32  EventLogLevel;
-  string  LogFilePath;
-  uint32  MaxMBFileSize;
-  string  FilterIPAddressList[];
+  uint32  EventLogLevel;
+  string  LogFilePath;
+  uint32  MaxMBFileSize;
+  string  FilterIPAddressList[];
   boolean UseSystemEventLog;
   boolean Answers;
   boolean Notifications;
@@ -503,7 +508,7 @@ Access type: Read/write
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -517,9 +522,9 @@ Access type: Read/write
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

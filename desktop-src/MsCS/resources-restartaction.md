@@ -4,17 +4,22 @@ description: Describes the action to be taken by the cluster service if the reso
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '88be809b-a338-490a-82f3-886bfc2e3f37'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 88be809b-a338-490a-82f3-886bfc2e3f37
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RestartAction Failover Cluster ,for resources", "RestartAction Failover Cluster"]
+keywords:
+- RestartAction Failover Cluster ,for resources
+- RestartAction Failover Cluster
 topic_type:
 - apiref
 api_name:
 - RestartAction
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RestartAction
@@ -27,18 +32,18 @@ Describes the action to be taken by the [cluster service](cluster-service.md) if
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | **ClusterResourceDontRestart** (0)<br/>        |
 | Maximum<br/>   | **ClusterResourceRestartNotify** (2)<br/>      |
 | Default<br/>   | **ClusterResourceRestartNotify**<br/>          |
 
 
 
- 
+ 
 
 ## Remarks
 
-The data value for the **RestartAction** property can be set to the values of the [**CLUSTER\_RESOURCE\_RESTART\_ACTION**](cluster-resource-restart-action.md) enumeration. The following table summarizes the possible values:
+The data value for the **RestartAction** property can be set to the values of the [**CLUSTER\_RESOURCE\_RESTART\_ACTION**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_resource_restart_action?branch=master) enumeration. The following table summarizes the possible values:
 
 
 
@@ -50,7 +55,7 @@ The data value for the **RestartAction** property can be set to the values of th
 
 
 
- 
+ 
 
 ## Examples
 
@@ -75,7 +80,7 @@ RestartActionValue.dw        = RestartActionData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -86,15 +91,15 @@ RestartActionValue.dw        = RestartActionData;
 [Resource Common Properties](resource-common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**CLUSTER\_RESOURCE\_RESTART\_ACTION**](cluster-resource-restart-action.md)
+[**CLUSTER\_RESOURCE\_RESTART\_ACTION**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_resource_restart_action?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

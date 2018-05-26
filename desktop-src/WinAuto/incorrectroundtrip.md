@@ -1,7 +1,12 @@
 ---
 title: IncorrectRoundTrip
 description: IncorrectRoundTrip
-ms.assetid: '244537EB-E7DC-49E4-BEAF-CFE3ED25E0B2'
+ms.assetid: 244537EB-E7DC-49E4-BEAF-CFE3ED25E0B2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IncorrectRoundTrip
@@ -16,7 +21,7 @@ Error
 
 ## Description
 
-using [**accNavigate**](iaccessible-iaccessible--accnavigate.md) to traverse the element tree of the verification target does not return the same starting element when the direction of traversal is reversed.
+using [**accNavigate**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accnavigate?branch=master) to traverse the element tree of the verification target does not return the same starting element when the direction of traversal is reversed.
 
 ![example of an invalid msaa implementation that caused incorrect round-trip navigation](images/accchecker-invalid-round-trip.png)
 
@@ -30,7 +35,7 @@ An incorrect or invalid MSAA implementation.
 
 <dl> <dt>
 
-[**IAccessible::accNavigate**](iaccessible-iaccessible--accnavigate.md)
+[**IAccessible::accNavigate**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accnavigate?branch=master)
 </dt> </dl>
 
  

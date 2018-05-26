@@ -2,11 +2,13 @@
 title: MSFT\_NetRoute class
 description: Represents the Route class in TCPIP WMIv2 provider.
 audience: developer
-ms.assetid: '78b07a1c-971d-4d3f-9eed-4c9e5a9bd169'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 78b07a1c-971d-4d3f-9eed-4c9e5a9bd169
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_NetRoute class", "MSFT_NetRoute class, described"]
+keywords:
+- MSFT_NetRoute class
+- MSFT_NetRoute class, described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_NetRoute class
@@ -48,25 +53,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Network::Routes"), ClassVersion("1.0.0"), dynamic, provider("VpnClientPSProvider"), AMENDMENT]
 class MSFT_NetRoute : CIM_NextHopRoute
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   InstanceID;
-  string   DestinationAddress;
-  uint16   AdminDistance;
-  uint16   RouteMetric;
-  boolean  IsStatic;
-  uint16   TypeOfRoute = 3;
-  string   DestinationPrefix;
-  uint32   InterfaceIndex;
-  string   InterfaceAlias;
-  string   NextHop;
-  uint8    Publish;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   InstanceID;
+  string   DestinationAddress;
+  uint16   AdminDistance;
+  uint16   RouteMetric;
+  boolean  IsStatic;
+  uint16   TypeOfRoute = 3;
+  string   DestinationPrefix;
+  uint32   InterfaceIndex;
+  string   InterfaceAlias;
+  string   NextHop;
+  uint8    Publish;
   datetime ValidLifetime;
   datetime PreferredLifetime;
-  uint8    Store;
-  uint16   AddressFamily;
-  uint16   Protocol;
+  uint8    Store;
+  uint16   AddressFamily;
+  uint16   Protocol;
 };
 ```
 
@@ -90,7 +95,7 @@ The **MSFT\_NetRoute** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -598,8 +603,8 @@ Lifetime over which the route is valid. The default value is infinite.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -613,9 +618,9 @@ Lifetime over which the route is valid. The default value is infinite.
 [**CIM\_NextHopRoute**](cim-nexthoproute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

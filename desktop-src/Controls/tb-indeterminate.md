@@ -1,8 +1,9 @@
 ---
 title: TB\_INDETERMINATE message
 description: Sets or clears the indeterminate state of the specified button in a toolbar.
-ms.assetid: '6a0f2b82-8241-4c2e-b349-606975ba1a24'
-keywords: ["TB_INDETERMINATE message Windows Controls"]
+ms.assetid: 6a0f2b82-8241-4c2e-b349-606975ba1a24
+keywords:
+- TB_INDETERMINATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_INDETERMINATE message
@@ -47,15 +53,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

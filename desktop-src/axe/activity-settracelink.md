@@ -1,8 +1,11 @@
 ---
 title: Activity SetTraceLink method
 description: Sets the trace link of the Activity.
-ms.assetid: '2B628DCC-ED2C-48DB-9DB3-F6EAE4FCC4C0'
-keywords: ["SetTraceLink method Access Execution Engine", "SetTraceLink method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , SetTraceLink method"]
+ms.assetid: 2B628DCC-ED2C-48DB-9DB3-F6EAE4FCC4C0
+keywords:
+- SetTraceLink method Access Execution Engine
+- SetTraceLink method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , SetTraceLink method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::SetTraceLink method
@@ -22,7 +30,7 @@ Sets the trace link of the **Activity**.
 
 ```C++
 virtual HRESULT SetTraceLink(
-  [in] LPCWSTR traceLink
+  [in] LPCWSTR traceLink
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The trace link is the value of element **Activity/Trace/Link**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The trace link is the value of element **Activity/Trace/Link**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

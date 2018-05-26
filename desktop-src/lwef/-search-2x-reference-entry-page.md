@@ -1,7 +1,12 @@
 ---
 title: WDS 2.x Reference
 description: .
-ms.assetid: 'a6043e5c-1838-49dd-88a8-17f27456e186'
+ms.assetid: a6043e5c-1838-49dd-88a8-17f27456e186
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WDS 2.x Reference

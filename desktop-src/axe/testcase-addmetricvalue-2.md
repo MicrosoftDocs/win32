@@ -1,8 +1,11 @@
 ---
 title: TestCase AddMetricValue method
 description: Creates and adds a MetricValue whose value is an INT.
-ms.assetid: '7B53FD47-F2DB-4CFC-8DDD-843E8ED48501'
-keywords: ["AddMetricValue method Access Execution Engine", "AddMetricValue method Access Execution Engine , TestCase interface", "TestCase interface Access Execution Engine , AddMetricValue method"]
+ms.assetid: 7B53FD47-F2DB-4CFC-8DDD-843E8ED48501
+keywords:
+- AddMetricValue method Access Execution Engine
+- AddMetricValue method Access Execution Engine , TestCase interface
+- TestCase interface Access Execution Engine , AddMetricValue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCase::AddMetricValue method
@@ -22,9 +30,9 @@ Creates and adds a [**MetricValue**](metricvalue-struct.md) whose value is an **
 
 ```C++
 virtual HRESULT AddMetricValue(
-  [in]  LPCWSTR     programmaticName,
-  [in]  INT         value,
-  [out] MetricValue **metricValue
+  [in]  LPCWSTR     programmaticName,
+  [in]  INT         value,
+  [out] MetricValue **metricValue
 ) = 0;
 ```
 
@@ -75,8 +83,8 @@ The value is the value of element **MetricValue/Value**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -89,9 +97,9 @@ The value is the value of element **MetricValue/Value**.
 [**TestCase**](testcase-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

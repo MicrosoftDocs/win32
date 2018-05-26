@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sets or gets the user''s current quota limit.'
-title: 'DIDiskQuotaUser.QuotaLimit property'
+---
+Description: Sets or gets the users current quota limit.
+title: DIDiskQuotaUser.QuotaLimit property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIDiskQuotaUser.QuotaLimit property

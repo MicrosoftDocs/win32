@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the Le field of the application protocol data unit (APDU).'
-ms.assetid: '249e8105-273b-42f0-9427-9b3cda5bf0a1'
-title: 'ISCardCmd::get\_LeField method'
+---
+Description: Returns the Le field of the application protocol data unit (APDU).
+ms.assetid: 249e8105-273b-42f0-9427-9b3cda5bf0a1
+title: ISCardCmdget\_LeField method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardCmd::get\_LeField method

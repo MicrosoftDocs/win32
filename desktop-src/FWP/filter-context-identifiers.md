@@ -1,7 +1,7 @@
 ---
 title: Filter Context Identifiers
 description: Identifiers for the filter contexts that are built in to the Windows Filtering Platform.
-ms.assetid: 'bcfae832-5386-43c5-b916-89577765ee5d'
+ms.assetid: bcfae832-5386-43c5-b916-89577765ee5d
 topic_type:
 - apiref
 api_name:
@@ -15,6 +15,11 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filter Context Identifiers
@@ -41,9 +46,9 @@ IPsec transport filter contexts in inbound layer.
 IPsec transport filter contexts in outbound layer.
 
 > [!Note]  
-> For Windows 7, use **FWPM\_CONTEXT\_IPSEC\_OUTBOUND\_SUPPRESS\_NEGOTIATION**.
+> For Windows 7, use **FWPM\_CONTEXT\_IPSEC\_OUTBOUND\_SUPPRESS\_NEGOTIATION**.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -66,9 +71,9 @@ Filter contexts used in the ALE connect layer.
 Filter contexts used in the ALE connect or accept layer.
 
 > [!Note]  
-> For Windows 7, use **FWPM\_CONTEXT\_ALE\_SET\_CONNECTION\_ALLOW\_FIRST\_INBOUND\_PKT\_UNENCRYPTED** or **FWPM\_CONTEXT\_ALE\_ALLOW\_AUTH\_FW**.
+> For Windows 7, use **FWPM\_CONTEXT\_ALE\_SET\_CONNECTION\_ALLOW\_FIRST\_INBOUND\_PKT\_UNENCRYPTED** or **FWPM\_CONTEXT\_ALE\_ALLOW\_AUTH\_FW**.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -99,15 +104,15 @@ Contexts used in the RPC audit sublayer.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

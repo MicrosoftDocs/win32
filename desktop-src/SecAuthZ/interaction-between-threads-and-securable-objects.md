@@ -1,7 +1,12 @@
 ---
-Description: 'In an access check, the system compares the security information in the thread's access token against the security information in the object's security descriptor.'
-ms.assetid: '40871179-d383-43d0-810d-0805c88dbbd6'
+Description: In an access check, the system compares the security information in the threads access token against the security information in the objects security descriptor.
+ms.assetid: 40871179-d383-43d0-810d-0805c88dbbd6
 title: Interaction Between Threads and Securable Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interaction Between Threads and Securable Objects

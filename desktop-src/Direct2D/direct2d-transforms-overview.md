@@ -1,8 +1,22 @@
 ---
 title: Transforms Overview
 description: Introduces the Microsoft Direct2D transform API for Windows 7. Direct2D enables Win32 developers to perform 2-D graphics transformations.
-ms.assetid: 'eea8177d-c19e-4972-a9a6-ad5d541b090f'
-keywords: ["Direct2D,transforms overview", "Direct2D,coordinate systems", "Direct2D,render targets", "Direct2D,2-D transforms", "2-D transforms", "transforms,about", "transforms,render targets", "transforms,objects", "render targets,transforms"]
+ms.assetid: eea8177d-c19e-4972-a9a6-ad5d541b090f
+keywords:
+- Direct2D,transforms overview
+- Direct2D,coordinate systems
+- Direct2D,render targets
+- Direct2D,2-D transforms
+- 2-D transforms
+- transforms,about
+- transforms,render targets
+- transforms,objects
+- render targets,transforms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transforms Overview
@@ -51,9 +65,9 @@ Because Direct2D supports only affine (linear) transformations, its transformati
 
  
 
-In Direct2D, this 3-by-2 matrix is represented by the [**D2D1\_MATRIX\_3X2**](d2d-matrix-3x2-f.md) structure. To simplify common matrix operations, Direct2D also provides a class named [**Matrix3x2F**](matrix3x2f.md), which is derived from the **D2D1\_MATRIX\_3X2** structure.
+In Direct2D, this 3-by-2 matrix is represented by the [**D2D1\_MATRIX\_3X2**](/windows/win32/dcommon/ns-dcommon-d2d_matrix_3x2_f?branch=master) structure. To simplify common matrix operations, Direct2D also provides a class named [**Matrix3x2F**](/windows/win32/d2d1/nl-d2d1helper-matrix3x2f?branch=master), which is derived from the **D2D1\_MATRIX\_3X2** structure.
 
-The default constructor for [**Matrix3x2F**](matrix3x2f.md) leaves the object uninitialized. To retrieve an identity matrix, use [**Matrix3x2F::Identity**](identitymatrix.md).
+The default constructor for [**Matrix3x2F**](/windows/win32/d2d1/nl-d2d1helper-matrix3x2f?branch=master) leaves the object uninitialized. To retrieve an identity matrix, use [**Matrix3x2F::Identity**](/windows/win32/d2d1helper/nf-d2d1helper-identitymatrix?branch=master).
 
 When an identity transform is applied to an object, it does not change the position, shape, or size of the object. It is similar to the way that multiplying a number by 1 does not change the number. In other words, the identity transform leaves the coordinates of points alone and does not shift the points to a new position. Any transform other than the identity transform will modify the position, shape, and/or size of objects.
 
@@ -77,10 +91,10 @@ For creating rotation, scale, skew, and translation transformations, the [**Matr
 
 | Method                                                                   | Description                                                                                                     | Example                                            | Illustration                                                                                                                            |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**matrix3x2f::rotate**](matrix3x2f-rotate.md)                          | creates a rotation transformation that has the specified angle and center point.                                | [how to rotate an object](how-to-rotate.md)       | ![illustration of a square rotated 45 degrees clockwise about the center of the original square](images/rotate-ovw.png)                 |
-| [**matrix3x2f::scale**](matrix3x2f-scale-d2d1-size-f-d2d1-point-2f-.md) | creates a scale transformation that has the specified scale factors and center point.                           | [how to scale an object](how-to-scale.md)         | ![illustration of a square scaled 130%](images/scale-ovw.png)                                                                           |
-| [**matrix3x2f::skew**](matrix3x2f-skew.md)                              | creates a skew transformation that has the specified x-axis and y-axis values and center point.                 | [how to skew an object](how-to-skew.md)           | ![illustration of a square skewed 30 degrees counterclockwise from the y-axis](images/skew-ovw.png)                                     |
-| [**matrix3x2f::translation**](matrix3x2f-translation.md)                | creates a translation transformation and specifies the displacements in the direction of the x-axis and y-axis. | [how to translate an object](how-to-translate.md) | ![illustration of a square moved 20 units along the positive x-axis and 10 units along the positive y-axis](images/translation-ovw.png) |
+| [**matrix3x2f::rotate**](/windows/win32/d2d1helper/nf-d2d1helper-matrix3x2f-rotation?branch=master)                          | creates a rotation transformation that has the specified angle and center point.                                | [how to rotate an object](how-to-rotate.md)       | ![illustration of a square rotated 45 degrees clockwise about the center of the original square](images/rotate-ovw.png)                 |
+| [**matrix3x2f::scale**](/windows/win32/d2d1helper/nf-d2d1helper-matrix3x2f-scale?branch=master) | creates a scale transformation that has the specified scale factors and center point.                           | [how to scale an object](how-to-scale.md)         | ![illustration of a square scaled 130%](images/scale-ovw.png)                                                                           |
+| [**matrix3x2f::skew**](/windows/win32/d2d1helper/nf-d2d1helper-matrix3x2f-skew?branch=master)                              | creates a skew transformation that has the specified x-axis and y-axis values and center point.                 | [how to skew an object](how-to-skew.md)           | ![illustration of a square skewed 30 degrees counterclockwise from the y-axis](images/skew-ovw.png)                                     |
+| [**matrix3x2f::translation**](/windows/win32/d2d1helper/nf-d2d1helper-matrix3x2f-translation(float,float)?branch=master)                | creates a translation transformation and specifies the displacements in the direction of the x-axis and y-axis. | [how to translate an object](how-to-translate.md) | ![illustration of a square moved 20 units along the positive x-axis and 10 units along the positive y-axis](images/translation-ovw.png) |
 
 
 
@@ -88,13 +102,13 @@ For creating rotation, scale, skew, and translation transformations, the [**Matr
 
 ## Rendering Target Transforms
 
-A render target is a resource that inherits from the [**ID2D1RenderTarget**](id2d1rendertarget.md) interface. It creates resources for drawing and performs actual drawing operations. It also provides methods for transforming the coordinate space. You can call the [**ID2D1RenderTarget::SetTransform**](id2d1rendertarget-settransform.md) method to apply the specified transform to the render target. All subsequent drawing operations occur in the transformed space.
+A render target is a resource that inherits from the [**ID2D1RenderTarget**](/windows/win32/d2d1/?branch=master) interface. It creates resources for drawing and performs actual drawing operations. It also provides methods for transforming the coordinate space. You can call the [**ID2D1RenderTarget::SetTransform**](id2d1rendertarget-settransform.md) method to apply the specified transform to the render target. All subsequent drawing operations occur in the transformed space.
 
-To render content, use the render target's drawing methods. Before you begin drawing, call the [**BeginDraw**](id2d1rendertarget-begindraw.md) method. To finish rendering content, call the [**EndDraw**](id2d1rendertarget-enddraw.md) method. For an example, see [How to Apply Multiple Transforms to an Object](how-to-apply-multiple-transforms.md).
+To render content, use the render target's drawing methods. Before you begin drawing, call the [**BeginDraw**](/windows/win32/d2d1/?branch=master) method. To finish rendering content, call the [**EndDraw**](/windows/win32/d2d1/?branch=master) method. For an example, see [How to Apply Multiple Transforms to an Object](how-to-apply-multiple-transforms.md).
 
 ## Brush Transforms
 
-You can adjust the transform on the brush by calling [**SetTransform**](id2d1brush-settransform.md). For this transform, you can think of the brush as a large piece of paper and of the different rendering primitives (text, geometry, rectangle and so on) as stencils. When you adjust the brush transform, it is as if you were sliding the large piece of paper underneath the stencil, without changing the position of the stencil itself. You can use this technique to make the text fade from yellow to black away into 3D space.
+You can adjust the transform on the brush by calling [**SetTransform**](/windows/win32/d2d1_1/nf-d2d1-settransform?branch=master). For this transform, you can think of the brush as a large piece of paper and of the different rendering primitives (text, geometry, rectangle and so on) as stencils. When you adjust the brush transform, it is as if you were sliding the large piece of paper underneath the stencil, without changing the position of the stencil itself. You can use this technique to make the text fade from yellow to black away into 3D space.
 
 When the brush transform is the identity transform, brushes appear in the same coordinate space as the render target in which they are drawn. The brush transform enables a caller to alter how brush coordinates map to this space.
 
@@ -107,15 +121,15 @@ For more information about brush transforms, see [Direct2D Brushes Overview](dir
 When you scale, move, translate, or skew geometries, you can directly apply a transform to a specific geometry, not to a render target transform that would affect the entire screen. A render target transform generally affects the stroke and fill of a geometry. By contrast, a geometry transform only affects the fill of a geometry, because the transform is applied to a geometry before it is stroked.
 
 > [!Note]  
-> Starting with Windows 8, the world transform doesn't affect the stroke if you set the stroke type to [**D2D1\_STROKE\_TRANSFORM\_TYPE\_FIXED**](--d2d1-stroke-transform-type.md) or [**D2D1\_STROKE\_TRANSFORM\_TYPE\_HAIRLINE**](--d2d1-stroke-transform-type.md).
+> Starting with Windows 8, the world transform doesn't affect the stroke if you set the stroke type to [**D2D1\_STROKE\_TRANSFORM\_TYPE\_FIXED**](/windows/win32/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type?branch=master) or [**D2D1\_STROKE\_TRANSFORM\_TYPE\_HAIRLINE**](/windows/win32/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type?branch=master).
 
  
 
-You can adjust the transform on a geometry by calling [**ID2D1Factory::CreateTransformedGeometry**](id2d1factory-createtransformedgeometry-ptr-id2d1geometry-ptr-d2d-matrix-3x2-f-ptr-ptr-id2d1transformedgeometry.md) to create an [**ID2D1TransformedGeometry**](id2d1transformedgeometry.md) object. For more information about geometry transforms, see [Direct2D Geometries Overview](direct2d-geometries-overview.md).
+You can adjust the transform on a geometry by calling [**ID2D1Factory::CreateTransformedGeometry**](/windows/win32/d2d1/?branch=master) to create an [**ID2D1TransformedGeometry**](/windows/win32/d2d1/?branch=master) object. For more information about geometry transforms, see [Direct2D Geometries Overview](direct2d-geometries-overview.md).
 
 ## How a Render Target Transform Affects Clips
 
-The transform on a render target affects how the bounding box of an axis-aligned clip is computed. When the [**PushAxisAlignedClip**](id2d1rendertarget-pushaxisalignedclip-ref-d2d-rect-f-d2d1-antialias-mode.md) is called, the *clipRect* parameter is transformed by the current world transform that is set on the render target. After the transform is applied to the *clipRect*, the axis-aligned bounding box for the *clipRect* is computed. For efficiency, the contents are clipped to this axis-aligned bounding box and not to the original *clipRect* that is passed in. The following diagrams show how a rotation transform is applied to the render target, the resulting *clipRect*, and a calculated axis-aligned bounding box.
+The transform on a render target affects how the bounding box of an axis-aligned clip is computed. When the [**PushAxisAlignedClip**](/windows/win32/d2d1/?branch=master) is called, the *clipRect* parameter is transformed by the current world transform that is set on the render target. After the transform is applied to the *clipRect*, the axis-aligned bounding box for the *clipRect* is computed. For efficiency, the contents are clipped to this axis-aligned bounding box and not to the original *clipRect* that is passed in. The following diagrams show how a rotation transform is applied to the render target, the resulting *clipRect*, and a calculated axis-aligned bounding box.
 
 1.  Assume that the rectangle in the following illustration is a render target that is aligned to the screen pixels.
 
@@ -125,7 +139,7 @@ The transform on a render target affects how the bounding box of an axis-aligned
 
     ![illustration of the original rectangle and a rotated rectangle (transformed render target)](images/pushaxisalignedclip-step2-transformed.png)
 
-3.  After [**PushAxisAlignedClip**](id2d1rendertarget-pushaxisalignedclip-ref-d2d-rect-f-d2d1-antialias-mode.md) is called, the rotation transform is applied to the *clipRect*. In the following illustration, the blue rectangle represents the transformed *clipRect*.
+3.  After [**PushAxisAlignedClip**](/windows/win32/d2d1/?branch=master) is called, the rotation transform is applied to the *clipRect*. In the following illustration, the blue rectangle represents the transformed *clipRect*.
 
     ![illustration of a smaller blue rectangle (cliprect) inside the rotated rectangle (transformed render target)](images/pushaxisalignedclip-step3-cliprecttransformed.png)
 

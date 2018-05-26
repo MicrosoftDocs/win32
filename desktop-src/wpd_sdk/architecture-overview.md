@@ -1,7 +1,12 @@
 ---
 Description: Architecture Overview
-ms.assetid: 'ff20d83a-e9cd-46e9-95f7-3ebdf791e667'
+ms.assetid: ff20d83a-e9cd-46e9-95f7-3ebdf791e667
 title: Architecture Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Architecture Overview

@@ -1,8 +1,11 @@
 ---
 title: IRangeList Max method
 description: Returns the maximum value in the message range list.
-ms.assetid: '18a8937f-cf74-4d46-9fbf-475953caef3d'
-keywords: ["Max method Windows Mail (formerly Outlook Express)", "Max method Windows Mail (formerly Outlook Express) , IRangeList interface", "IRangeList interface Windows Mail (formerly Outlook Express) , Max method"]
+ms.assetid: 18a8937f-cf74-4d46-9fbf-475953caef3d
+keywords:
+- Max method Windows Mail (formerly Outlook Express)
+- Max method Windows Mail (formerly Outlook Express) , IRangeList interface
+- IRangeList interface Windows Mail (formerly Outlook Express) , Max method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRangeList::Max method
@@ -24,7 +32,7 @@ Returns the maximum value in the message range list.
 
 ```C++
 HRESULT Max(
-  [out] ULONG *pulMax
+  [out] ULONG *pulMax
 );
 ```
 
@@ -49,7 +57,7 @@ Receives a pointer to a **ULONG** that contains the maximum value in the range l
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -61,7 +69,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-For example, for the range list "10–20,31,44,50–65", **Max**() returns 65.
+For example, for the range list "10 20,31,44,50 65", **Max**() returns 65.
 
 ## Requirements
 
@@ -69,8 +77,8 @@ For example, for the range list "10–20,31,44,50–65", **Max**() returns 65.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -78,9 +86,9 @@ For example, for the range list "10–20,31,44,50–65", **Max**() returns 65.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

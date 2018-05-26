@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the secure modes (S modes) for a Windows device.'
-ms.assetid: 'CE50AC56-0295-477C-93CB-ABAB92482A59'
-title: 'WLDP\_WINDOWS\_LOCKDOWN\_MODE enumeration'
+---
+Description: Describes the secure modes (S modes) for a Windows device.
+ms.assetid: CE50AC56-0295-477C-93CB-ABAB92482A59
+title: WLDP\_WINDOWS\_LOCKDOWN\_MODE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WLDP\_WINDOWS\_LOCKDOWN\_MODE enumeration

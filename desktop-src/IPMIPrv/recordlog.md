@@ -4,13 +4,16 @@ description: Represents the system event log (SEL) of a Baseboard Management Con
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '821cf9e7-345c-4280-b861-00e1edbe6715'
-ms.prod: 'windows-server-dev'
+ms.assetid: 821cf9e7-345c-4280-b861-00e1edbe6715
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["IPMI provider Windows Remote Management", "RecordLog class", "RecordLog class, described"]
+keywords:
+- IPMI provider Windows Remote Management
+- RecordLog class
+- RecordLog class, described
 topic_type:
 - apiref
 api_name:
@@ -36,6 +39,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RecordLog class
@@ -50,22 +56,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("IPMIPrv"), UUID("{ec524523-0bda-434b-941e-8f296cbf97a6}"), AMENDMENT]
 class RecordLog : CIM_RecordLog
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
-  uint64   MaxNumberOfRecords;
-  uint64   CurrentNumberOfRecords;
-  string   InstanceID;
-  uint16   EnabledState = 5;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
+  uint64   MaxNumberOfRecords;
+  uint64   CurrentNumberOfRecords;
+  string   InstanceID;
+  uint16   EnabledState = 5;
   datetime TimeOfLastStateChange;
 };
 ```
@@ -90,7 +96,7 @@ The **RecordLog** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -221,14 +227,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>8–32767</dd> <dt>
+</dt> <dd>8 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -475,7 +481,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 **DMTF Reserved**
 
 
-</dt> <dd>31–65535</dd> </dl>
+</dt> <dd>31 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -736,14 +742,14 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 **DMTF Reserved**
 
 
-</dt> <dd>19–32767</dd> <dt>
+</dt> <dd>19 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -865,14 +871,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1026,8 +1032,8 @@ This method is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogica
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -1044,9 +1050,9 @@ This method is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogica
 [IPMI Provider](ipmi-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

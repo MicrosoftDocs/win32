@@ -4,10 +4,13 @@ description: This topic describes the Organizational Unit (OU) object property s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '105c0f01-55d5-4dc2-887e-5e204ba82c4c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 105c0f01-55d5-4dc2-887e-5e204ba82c4c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Organizational Unit User Interface Mapping

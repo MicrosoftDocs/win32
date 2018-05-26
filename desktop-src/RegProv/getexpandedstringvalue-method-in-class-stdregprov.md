@@ -4,11 +4,14 @@ description: The GetExpandedStringValue method returns the data value for a name
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '67d641cf-b648-4c22-9308-a2c9a380f638'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 67d641cf-b648-4c22-9308-a2c9a380f638
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetExpandedStringValue method", "GetExpandedStringValue method, StdRegProv class", "StdRegProv class, GetExpandedStringValue method"]
+keywords:
+- GetExpandedStringValue method
+- GetExpandedStringValue method, StdRegProv class
+- StdRegProv class, GetExpandedStringValue method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Stdprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetExpandedStringValue method of the StdRegProv class
@@ -30,10 +36,10 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 GetExpandedStringValue(
-  [in]  uint32 hDefKey = HKEY_LOCAL_MACHINE,
-  [in]  string sSubKeyName,
-  [in]  string sValueName,
-  [out] string sValue
+  [in]  uint32 hDefKey = HKEY_LOCAL_MACHINE,
+  [in]  string sSubKeyName,
+  [in]  string sValueName,
+  [out] string sValue
 );
 ```
 
@@ -162,17 +168,17 @@ End If
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\default<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RegEvent.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Stdprov.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

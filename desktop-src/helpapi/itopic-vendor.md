@@ -1,8 +1,11 @@
 ---
 title: ITopic Vendor property
 description: Returns the vendor name for the topic
-ms.assetid: '2f5fd641-f6af-4684-b616-097bc2d7f881'
-keywords: ["Vendor property HelpAPI", "Vendor property HelpAPI , ITopic interface", "ITopic interface HelpAPI , Vendor property"]
+ms.assetid: 2f5fd641-f6af-4684-b616-097bc2d7f881
+keywords:
+- Vendor property HelpAPI
+- Vendor property HelpAPI , ITopic interface
+- ITopic interface HelpAPI , Vendor property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITopic::Vendor property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Vendor(
-  [out, retval] BSTR *pRetVal
+  [out, retval] BSTR *pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ The name of the topic's vendor.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ The name of the topic's vendor.
 [**ITopic**](itopic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,29 @@
 ---
 title: Matching the Windows Media Player Colors
 description: Matching the Windows Media Player Colors
-ms.assetid: 'b4d1da08-a4cf-46dd-82a5-40562bb3c049'
-keywords: ["Windows Media Player online stores,matching Windows Media Player colors", "online stores,matching Windows Media Player colors", "type 1 online stores,matching Windows Media Player colors", "type 2 online stores,matching Windows Media Player colors", "Windows Media Player online stores,Windows Media Player color matching", "online stores,Windows Media Player color matching", "type 1 online stores,Windows Media Player color matching", "type 2 online stores,Windows Media Player color matching", "Windows Media Player online stores,color matching for Windows Media Player", "online stores,color matching for Windows Media Player", "type 1 online stores,color matching for Windows Media Player", "type 2 online stores,color matching for Windows Media Player", "color matching for Windows Media Player", "matching Windows Media Player colors", "Windows Media Player,matching colors", "Windows Media Player,color matching"]
+ms.assetid: b4d1da08-a4cf-46dd-82a5-40562bb3c049
+keywords:
+- Windows Media Player online stores,matching Windows Media Player colors
+- online stores,matching Windows Media Player colors
+- type 1 online stores,matching Windows Media Player colors
+- type 2 online stores,matching Windows Media Player colors
+- Windows Media Player online stores,Windows Media Player color matching
+- online stores,Windows Media Player color matching
+- type 1 online stores,Windows Media Player color matching
+- type 2 online stores,Windows Media Player color matching
+- Windows Media Player online stores,color matching for Windows Media Player
+- online stores,color matching for Windows Media Player
+- type 1 online stores,color matching for Windows Media Player
+- type 2 online stores,color matching for Windows Media Player
+- color matching for Windows Media Player
+- matching Windows Media Player colors
+- Windows Media Player,matching colors
+- Windows Media Player,color matching
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Matching the Windows Media Player Colors

@@ -1,8 +1,11 @@
 ---
 title: System.Network.Wireless.signalStrengthChanged event
 description: Event fired when the signal strength of a wireless connection changes.
-ms.assetid: 'b5175c2a-e509-40b0-ac81-bd80eca46070'
-keywords: ["signalStrengthChanged event Windows Sidebar", "signalStrengthChanged event Windows Sidebar , System.Network.Wireless object", "System.Network.Wireless object Windows Sidebar , signalStrengthChanged event"]
+ms.assetid: b5175c2a-e509-40b0-ac81-bd80eca46070
+keywords:
+- signalStrengthChanged event Windows Sidebar
+- signalStrengthChanged event Windows Sidebar , System.Network.Wireless object
+- System.Network.Wireless object Windows Sidebar , signalStrengthChanged event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Network.Wireless.signalStrengthChanged event
@@ -71,18 +79,18 @@ function SignalChanged()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

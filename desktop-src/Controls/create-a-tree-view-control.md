@@ -1,12 +1,17 @@
 ---
 title: How to Create a Tree-View Control
 description: To create a tree-view control, use the CreateWindowEx function, specifying the WC\_TREEVIEW value for the window class.
-ms.assetid: 'FEC3BF62-3085-47D4-B82E-7BD7B34B397D'
+ms.assetid: FEC3BF62-3085-47D4-B82E-7BD7B34B397D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Tree-View Control
 
-To create a tree-view control, use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the [**WC\_TREEVIEW**](common-control-window-classes.md#wc-treeview) value for the window class. The tree-view window class is registered in the application's address space when the common control DLL is loaded. To ensure that the DLL is loaded, use the [**InitCommonControls**](initcommoncontrols.md) function.
+To create a tree-view control, use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the [**WC\_TREEVIEW**](common-control-window-classes.md#wc-treeview) value for the window class. The tree-view window class is registered in the application's address space when the common control DLL is loaded. To ensure that the DLL is loaded, use the [**InitCommonControls**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrols?branch=master) function.
 
 ## What you need to know
 

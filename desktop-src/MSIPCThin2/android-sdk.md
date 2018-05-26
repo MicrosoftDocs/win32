@@ -4,11 +4,18 @@ description: Android applications can use the Rights Management SDK 4.2 to enab
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '986f6932-159b-4791-bd1a-7640a83ee792'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 986f6932-159b-4791-bd1a-7640a83ee792
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Android", "RMS", "rights", "Microsoft Information Protection Client thin"]
+keywords:
+- Android
+- RMS
+- rights
+- Microsoft Information Protection Client thin
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Android setup

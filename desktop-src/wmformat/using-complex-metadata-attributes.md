@@ -1,13 +1,23 @@
 ---
 title: Using Complex Metadata Attributes
 description: Using Complex Metadata Attributes
-ms.assetid: '8269efe4-331f-4b4b-b888-66b45c638153'
-keywords: ["Windows Media Format SDK,complex metadata attributes", "Advanced Systems Format (ASF),complex metadata attributes", "ASF (Advanced Systems Format),complex metadata attributes", "metadata,complex attributes", "complex metadata attributes"]
+ms.assetid: 8269efe4-331f-4b4b-b888-66b45c638153
+keywords:
+- Windows Media Format SDK,complex metadata attributes
+- Advanced Systems Format (ASF),complex metadata attributes
+- ASF (Advanced Systems Format),complex metadata attributes
+- metadata,complex attributes
+- complex metadata attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Complex Metadata Attributes
 
-The Windows Media Format SDK supports complex metadata attributes, which are attributes that have values represented by a structure. Because all attributes must have a data type defined in the [**WMT\_ATTR\_DATATYPE**](wmt-attr-datatype.md) enumeration, all complex metadata attributes are treated as **WMT\_TYPE\_BINARY**. When writing a complex attribute, cast the pointer to the structure as a byte pointer. When you retrieve a complex attribute, cast the array of bytes set by [**IWMHeaderInfo3::GetAttributeByIndexEx**](iwmheaderinfo3-getattributebyindexex.md) as the appropriate structure.
+The Windows Media Format SDK supports complex metadata attributes, which are attributes that have values represented by a structure. Because all attributes must have a data type defined in the [**WMT\_ATTR\_DATATYPE**](/windows/win32/Wmsdkidl/ne-wmsdkidl-wmt_attr_datatype?branch=master) enumeration, all complex metadata attributes are treated as **WMT\_TYPE\_BINARY**. When writing a complex attribute, cast the pointer to the structure as a byte pointer. When you retrieve a complex attribute, cast the array of bytes set by [**IWMHeaderInfo3::GetAttributeByIndexEx**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributebyindexex?branch=master) as the appropriate structure.
 
 The following code examples show how to set and retrieve a complex metadata attribute. The first function adds a user text attribute, the second function retrieves one. For more information about how to use these examples, see [Using the Code Examples](using-the-code-examples.md).
 

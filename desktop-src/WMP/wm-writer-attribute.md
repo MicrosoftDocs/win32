@@ -1,14 +1,20 @@
 ---
 title: WM/Writer Attribute
 description: The WM/Writer attribute is the name of the writer who wrote the words of the content.
-ms.assetid: 'e2035cf7-29f4-4642-9388-4cd7cb08149e'
-keywords: ["WM/Writer Attribute Windows Media Player"]
+ms.assetid: e2035cf7-29f4-4642-9388-4cd7cb08149e
+keywords:
+- WM/Writer Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/Writer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Writer Attribute
@@ -53,9 +59,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Media.getItemInfoByType**](media-getiteminfobytype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Rich Edit Control Styles
 description: The following window styles are unique to rich edit controls.
-ms.assetid: '0f1b3e01-01cb-4b3e-b959-6f32498f0394'
+ms.assetid: 0f1b3e01-01cb-4b3e-b959-6f32498f0394
 topic_type:
 - apiref
 api_name:
@@ -29,6 +29,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rich Edit Control Styles
@@ -87,9 +92,9 @@ Rich edit controls do not support the following edit control styles.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

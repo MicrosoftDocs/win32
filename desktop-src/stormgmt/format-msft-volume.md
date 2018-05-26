@@ -1,8 +1,11 @@
 ---
 title: Format method of the MSFT\_Volume class
 description: Formats the volume.
-ms.assetid: '007dd46a-4812-4273-beaa-74fbe9520c7d'
-keywords: ["Format method Windows Storage Management API", "Format method Windows Storage Management API , MSFT_Volume class", "MSFT_Volume class Windows Storage Management API , Format method"]
+ms.assetid: 007dd46a-4812-4273-beaa-74fbe9520c7d
+keywords:
+- Format method Windows Storage Management API
+- Format method Windows Storage Management API , MSFT_Volume class
+- MSFT_Volume class Windows Storage Management API , Format method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Format method of the MSFT\_Volume class
@@ -22,18 +30,18 @@ Formats the volume.
 
 ```mof
 UInt32 Format(
-  [in]  String  FileSystem,
-  [in]  String  FileSystemLabel,
-  [in]  UInt32  AllocationUnitSize,
-  [in]  Boolean Full,
-  [in]  Boolean Force,
-  [in]  Boolean Compress,
-  [in]  Boolean ShortFileNameSupport,
-  [in]  Boolean SetIntegrityStreams,
-  [in]  Boolean UseLargeFRS,
-  [in]  Boolean DisableHeatGathering,
-  [out] String  FormattedVolume,
-  [out] String  ExtendedStatus
+  [in]  String  FileSystem,
+  [in]  String  FileSystemLabel,
+  [in]  UInt32  AllocationUnitSize,
+  [in]  Boolean Full,
+  [in]  Boolean Force,
+  [in]  Boolean Compress,
+  [in]  Boolean ShortFileNameSupport,
+  [in]  Boolean SetIntegrityStreams,
+  [in]  Boolean UseLargeFRS,
+  [in]  Boolean DisableHeatGathering,
+  [out] String  FormattedVolume,
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -87,28 +95,28 @@ The allocation unit size, in bytes.
 *Compress* \[in\]
 </dt> <dd>
 
-**TRUE** to compress the volume; otherwise, **FALSE**. Leave undefined if *FileSystem* is set to “ReFS”.
+**TRUE** to compress the volume; otherwise, **FALSE**. Leave undefined if *FileSystem* is set to  ReFS .
 
 </dd> <dt>
 
 *ShortFileNameSupport* \[in\]
 </dt> <dd>
 
-**TRUE** if the volume should support short names; otherwise, **FALSE**. Leave undefined if *FileSystem* is set to “ReFS”.
+**TRUE** if the volume should support short names; otherwise, **FALSE**. Leave undefined if *FileSystem* is set to  ReFS .
 
 </dd> <dt>
 
 *SetIntegrityStreams* \[in\]
 </dt> <dd>
 
-**TRUE** to set integrity streams. Leave undefined unless *FileSystem* is set to “ReFS”.
+**TRUE** to set integrity streams. Leave undefined unless *FileSystem* is set to  ReFS .
 
 </dd> <dt>
 
 *UseLargeFRS* \[in\]
 </dt> <dd>
 
-**TRUE** to use large FRS; otherwise, **FALSE**. Leave undefined if *FileSystem* is set to “ReFS”.
+**TRUE** to use large FRS; otherwise, **FALSE**. Leave undefined if *FileSystem* is set to  ReFS .
 
 </dd> <dt>
 
@@ -199,8 +207,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -213,9 +221,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_Volume**](msft-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

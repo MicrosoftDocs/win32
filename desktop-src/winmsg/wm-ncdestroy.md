@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies a window that its nonclient area is being destroyed. The DestroyWindow function sends the WM\_NCDESTROY message to the window following the WM\_DESTROY message.'
-ms.assetid: '64ab268d-0e90-4401-81d3-a4da64196001'
-title: 'WM\_NCDESTROY message'
+---
+Description: Notifies a window that its nonclient area is being destroyed. The DestroyWindow function sends the WM\_NCDESTROY message to the window following the WM\_DESTROY message.
+ms.assetid: 64ab268d-0e90-4401-81d3-a4da64196001
+title: WM\_NCDESTROY message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_NCDESTROY message

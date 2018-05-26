@@ -4,17 +4,22 @@ description: Enabled optional features.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ede3a872-0a34-4d12-b5f0-ed13e32e8910'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ede3a872-0a34-4d12-b5f0-ed13e32e8910
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Enabled-Feature attribute AD Schema", "msDS-EnabledFeature attribute AD Schema"]
+keywords:
+- ms-DS-Enabled-Feature attribute AD Schema
+- msDS-EnabledFeature attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Enabled-Feature
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Enabled-Feature attribute
@@ -38,8 +43,8 @@ Enabled optional features.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ Enabled optional features.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

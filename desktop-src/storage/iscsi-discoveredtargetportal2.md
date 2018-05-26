@@ -1,8 +1,10 @@
 ---
 title: ISCSI\_DiscoveredTargetPortal2 structure
 description: The ISCSI\_DiscoveredTargetPortal2 structure provides information that is associated with a discovered target portal.
-ms.assetid: '68128d39-2490-4c6b-8780-e5aa542a4e3d'
-keywords: ["ISCSI_DiscoveredTargetPortal2 structure Storage Devices", "PISCSI_DiscoveredTargetPortal2 structure pointer Storage Devices"]
+ms.assetid: 68128d39-2490-4c6b-8780-e5aa542a4e3d
+keywords:
+- ISCSI_DiscoveredTargetPortal2 structure Storage Devices
+- PISCSI_DiscoveredTargetPortal2 structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - iscsifnd.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCSI\_DiscoveredTargetPortal2 structure
@@ -22,11 +29,11 @@ The ISCSI\_DiscoveredTargetPortal2 structure provides information that is associ
 
 ```C++
 typedef struct _ISCSI_DiscoveredTargetPortal2 {
-  USHORT           Socket;
+  USHORT           Socket;
   ISCSI_IP_Address Address;
-  ULONG            SecurityBitmap;
-  ULONG            KeySize;
-  UCHAR            Key[1];
+  ULONG            SecurityBitmap;
+  ULONG            KeySize;
+  UCHAR            Key[1];
 } ISCSI_DiscoveredTargetPortal2, *PISCSI_DiscoveredTargetPortal2;
 ```
 
@@ -69,7 +76,7 @@ A bitmap, which is defined in the *iSNS specification*, that indicates the secur
 
 
 
- 
+ 
 
 For more information about how to configure the default security characteristics that are assigned of the target portal in the registry, see the Remarks section.
 
@@ -124,9 +131,9 @@ The WMI tool suite automatically generates a declaration of the ISCSI\_Discovere
 [**ISCSI\_TargetPortal**](iscsi-targetportal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20ISCSI_DiscoveredTargetPortal2%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

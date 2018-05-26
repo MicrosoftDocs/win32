@@ -1,7 +1,12 @@
 ---
 title: Downlevel Kernel Trace Control API Reference
 description: Downlevel Kernel Trace Control API Reference
-ms.assetid: '41b397bc-6d97-4b38-92f9-ea44116a1571'
+ms.assetid: 41b397bc-6d97-4b38-92f9-ea44116a1571
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Downlevel Kernel Trace Control API Reference

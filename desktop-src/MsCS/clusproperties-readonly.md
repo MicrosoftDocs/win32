@@ -4,11 +4,14 @@ description: Indicates whether the properties in a ClusProperties collection are
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '879bd8a6-3203-4ff0-8277-88c92ea8dbf3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 879bd8a6-3203-4ff0-8277-88c92ea8dbf3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ReadOnly property Failover Cluster", "ReadOnly property Failover Cluster , ClusProperties collection", "ClusProperties collection Failover Cluster , ReadOnly property"]
+keywords:
+- ReadOnly property Failover Cluster
+- ReadOnly property Failover Cluster , ClusProperties collection
+- ClusProperties collection Failover Cluster , ReadOnly property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusProperties.ReadOnly property
@@ -47,7 +53,7 @@ A **Variant** set to either **VARIANT\_TRUE** if the properties are read-only an
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -63,9 +69,9 @@ A **Variant** set to either **VARIANT\_TRUE** if the properties are read-only an
 [**ClusProperties**](clusproperties-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

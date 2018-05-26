@@ -1,7 +1,12 @@
 ---
 title: Overview of Automation
 description: Automation enables software packages to expose their unique features to scripting tools and other applications.
-ms.assetid: '4e9d6769-d73e-4daa-88ef-3ab6fa9a1497'
+ms.assetid: 4e9d6769-d73e-4daa-88ef-3ab6fa9a1497
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of Automation
@@ -25,16 +30,16 @@ The objects an application or programming tool exposes are called ActiveX object
 | [Exposing Objects](exposing-objects.md)<br/>                                           | Exposing objects provides a way to manipulate an application's tools programmatically.<br/>                                                                                         |
 | [ActiveX Objects](activex-objects.md)<br/>                                             | An ActiveX object is an instance of a class that exposes properties, methods, and events to ActiveX clients.<br/>                                                                   |
 | [ActiveX Clients](activex-clients.md)<br/>                                             | An ActiveX client is an application or programming tool that manipulates one or more ActiveX objects. The objects can exist in the same application or in another application.<br/> |
-| [ActiveX Client and Object Interaction](activex-client-and-object-interaction.md)<br/> | ActiveX clients can access objects using [**IDispatch**](idispatch.md) or by calling one of the member functions in the objects's vtable.<br/>                                     |
+| [ActiveX Client and Object Interaction](activex-client-and-object-interaction.md)<br/> | ActiveX clients can access objects using [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) or by calling one of the member functions in the objects's vtable.<br/>                                     |
 | [Type Libraries](type-libraries.md)<br/>                                               | A *type library* is a file or part of a file that describes the type of one or more ActiveX objects.<br/>                                                                           |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

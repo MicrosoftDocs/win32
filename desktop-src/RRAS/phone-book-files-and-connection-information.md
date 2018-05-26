@@ -1,18 +1,23 @@
 ---
 title: Phone-Book Files and Connection Information
 description: A RasDial call must specify the information that the Remote Access Connection Manager needs to establish the connection.
-ms.assetid: 'bc3885a4-3c1e-47bc-b622-072b33ac3b51'
+ms.assetid: bc3885a4-3c1e-47bc-b622-072b33ac3b51
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Phone-Book Files and Connection Information
 
-A [**RasDial**](rasdial.md) call must specify the information that the Remote Access Connection Manager needs to establish the connection. Typically, the **RasDial** call provides the connection information by specifying a phone-book entry. The connection information in a phone-book entry includes phone numbers, bps rates, [user authentication information](user-authentication-information.md), and [other connection information](other-connection-information.md).
+A [**RasDial**](/windows/win32/Ras/nf-ras-rasdiala?branch=master) call must specify the information that the Remote Access Connection Manager needs to establish the connection. Typically, the **RasDial** call provides the connection information by specifying a phone-book entry. The connection information in a phone-book entry includes phone numbers, bps rates, [user authentication information](user-authentication-information.md), and [other connection information](other-connection-information.md).
 
-A RAS client uses the parameters of the [**RasDial**](rasdial.md) function to specify a phone-book file and an entry in that file. The *lpszPhonebookPath* parameter can specify the name of a phone-book file, or it can be **NULL** to indicate that the default phone-book file should be used. The *lpRasDialParams* parameter points to a [**RASDIALPARAMS**](rasdialparams-str.md) structure that specifies the name of the phone-book entry to use.
+A RAS client uses the parameters of the [**RasDial**](/windows/win32/Ras/nf-ras-rasdiala?branch=master) function to specify a phone-book file and an entry in that file. The *lpszPhonebookPath* parameter can specify the name of a phone-book file, or it can be **NULL** to indicate that the default phone-book file should be used. The *lpRasDialParams* parameter points to a [**RASDIALPARAMS**](/windows/win32/Ras/?branch=master) structure that specifies the name of the phone-book entry to use.
 
-To display a list of phone-book entries from which the user can select a connection, a RAS client can call the [**RasEnumEntries**](rasenumentries.md) function to enumerate the entries in a phone-book file.
+To display a list of phone-book entries from which the user can select a connection, a RAS client can call the [**RasEnumEntries**](/windows/win32/Ras/nf-ras-rasenumentriesa?branch=master) function to enumerate the entries in a phone-book file.
 
-To make a connection without using a phone-book entry, the [**RasDial**](rasdial.md) call can specify an empty string for the **szEntryName** member of the [**RASDIALPARAMS**](rasdialparams-str.md) structure. The **RASDIALPARAMS.szPhoneNumber** member must contain the number to call. In this case, the Remote Access Connection Manager uses the first available modem port and default values for all other settings.
+To make a connection without using a phone-book entry, the [**RasDial**](/windows/win32/Ras/nf-ras-rasdiala?branch=master) call can specify an empty string for the **szEntryName** member of the [**RASDIALPARAMS**](/windows/win32/Ras/?branch=master) structure. The **RASDIALPARAMS.szPhoneNumber** member must contain the number to call. In this case, the Remote Access Connection Manager uses the first available modem port and default values for all other settings.
 
  
 

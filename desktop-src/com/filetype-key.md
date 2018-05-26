@@ -1,13 +1,19 @@
 ---
 title: FileType Key
 description: Used by GetClassFile to match patterns against various file bytes in a non-compound file.
-ms.assetid: 'ced23cdb-c184-43fe-ba37-fe1af8664b66'
-keywords: ["FileType registry key COM"]
+ms.assetid: ced23cdb-c184-43fe-ba37-fe1af8664b66
+keywords:
+- FileType registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileType Key
 
-Used by [**GetClassFile**](getclassfile.md) to match patterns against various file bytes in a non-compound file.
+Used by [**GetClassFile**](/windows/win32/Objbase/nf-objbase-getclassfile?branch=master) to match patterns against various file bytes in a non-compound file.
 
 ## Registry Entry
 
@@ -49,7 +55,7 @@ Represents the pattern that must match for a file to be of this file type. The p
 
 ## Remarks
 
-Entries are used by the [**GetClassFile**](getclassfile.md) function to match patterns against various file bytes in a non-compound file. **FileType** has CLSID subkeys, each of which has a series of subkeys **0**, **1**, **2**, **3**. These values contain patterns that, if one matches, yield the indicated CLSID. For example, a value of "0, 4, FFFFFFFF, ABCD1234" indicates that the first 4 bytes must be ABCD1234, in that order. A value of "-4, 4, FEFEFEFE " indicates that the last four bytes in the file must be FEFEFEFE. If either pattern matches, the CLSID is returned.
+Entries are used by the [**GetClassFile**](/windows/win32/Objbase/nf-objbase-getclassfile?branch=master) function to match patterns against various file bytes in a non-compound file. **FileType** has CLSID subkeys, each of which has a series of subkeys **0**, **1**, **2**, **3**. These values contain patterns that, if one matches, yield the indicated CLSID. For example, a value of "0, 4, FFFFFFFF, ABCD1234" indicates that the first 4 bytes must be ABCD1234, in that order. A value of "-4, 4, FEFEFEFE " indicates that the last four bytes in the file must be FEFEFEFE. If either pattern matches, the CLSID is returned.
 
 The **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes** key corresponds to the **HKEY\_CLASSES\_ROOT** key, which was retained for compatibility with earlier versions of COM.
 
@@ -60,7 +66,7 @@ The **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes** key corresponds to the **HKEY\_C
 [**&lt;file\_extension&gt;**](-file-extension--key.md)
 </dt> <dt>
 
-[**GetClassFile**](getclassfile.md)
+[**GetClassFile**](/windows/win32/Objbase/nf-objbase-getclassfile?branch=master)
 </dt> </dl>
 
  

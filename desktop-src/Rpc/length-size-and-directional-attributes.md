@@ -1,7 +1,12 @@
 ---
 title: Length, Size, and Directional Attributes
 description: In passing arrays between the client and the server, the size-related attributes \ max\_is\ and \ size\_is\ determine how many array elements the server stub allocates.
-ms.assetid: '2c95cf47-6fc0-4ccd-bb4f-acf356596e56'
+ms.assetid: 2c95cf47-6fc0-4ccd-bb4f-acf356596e56
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Length, Size, and Directional Attributes
@@ -34,13 +39,13 @@ The MIDL compiler behavior for each combination of directional attributes is des
 
 
 
- 
+ 
 
 In general, you should not modify the length or size parameters on the server side. If you change the length parameter, you can orphan memory. For more information, see [Memory Orphaning](memory-orphaning.md).
 
- 
+ 
 
- 
+ 
 
 
 

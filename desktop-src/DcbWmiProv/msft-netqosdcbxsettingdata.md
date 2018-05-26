@@ -1,7 +1,12 @@
 ---
-Description: 'The DCB Willing state.'
-ms.assetid: '174673aa-9d38-451e-aae0-8be17832a06a'
-title: 'MSFT\_NetQosDcbxSettingData class'
+Description: The DCB Willing state.
+ms.assetid: 174673aa-9d38-451e-aae0-8be17832a06a
+title: MSFT\_NetQosDcbxSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetQosDcbxSettingData class
@@ -51,17 +56,17 @@ The local machine is Willing to accept remote DCBX settings.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                        |
 | MOF<br/>                      | <dl> <dt>Dcbwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DcbWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

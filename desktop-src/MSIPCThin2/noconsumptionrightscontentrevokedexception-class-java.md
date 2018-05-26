@@ -4,17 +4,21 @@ description: Signals that the user does not have consumption rights over the pro
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '7B96B421-4105-4A67-AA8E-0518FF6D393C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 7B96B421-4105-4A67-AA8E-0518FF6D393C
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["NoConsumptionRightsContentRevokedException class"]
+keywords:
+- NoConsumptionRightsContentRevokedException class
 topic_type:
 - apiref
 api_name:
 - NoConsumptionRightsContentRevokedException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NoConsumptionRightsContentRevokedException class
@@ -34,7 +38,7 @@ public class NoConsumptionRightsException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -45,7 +49,7 @@ public class NoConsumptionRightsException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -58,7 +62,7 @@ public class NoConsumptionRightsException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -76,9 +80,9 @@ The **NoConsumptionRightsContentRevokedException** class extends the [**Protecti
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: TaskSettings.MultipleInstances property
 description: For scripting, gets or sets the policy that defines how the Task Scheduler deals with multiple instances of the task.
-ms.assetid: '2a84b780-2378-4ee8-aaa4-3bc960e32206'
-keywords: ["MultipleInstances property Task Scheduler", "MultipleInstances property Task Scheduler , TaskSettings object", "TaskSettings object Task Scheduler , MultipleInstances property"]
+ms.assetid: 2a84b780-2378-4ee8-aaa4-3bc960e32206
+keywords:
+- MultipleInstances property Task Scheduler
+- MultipleInstances property Task Scheduler , TaskSettings object
+- TaskSettings object Task Scheduler , MultipleInstances property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskSettings.MultipleInstances property
@@ -30,7 +38,7 @@ TaskSettings.MultipleInstances As Integer
 
 ## Property value
 
-[**TASK\_INSTANCES\_POLICY**](task-instances-policy.md) constants.
+[**TASK\_INSTANCES\_POLICY**](/windows/win32/taskschd/ne-taskschd-_task_instances_policy?branch=master) constants.
 
 
 
@@ -43,7 +51,7 @@ TaskSettings.MultipleInstances As Integer
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,8 +63,8 @@ When reading or writing XML for a task, this setting is specified in the [**Mult
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -66,15 +74,15 @@ When reading or writing XML for a task, this setting is specified in the [**Mult
 
 <dl> <dt>
 
-[**TASK\_INSTANCES\_POLICY**](task-instances-policy.md)
+[**TASK\_INSTANCES\_POLICY**](/windows/win32/taskschd/ne-taskschd-_task_instances_policy?branch=master)
 </dt> <dt>
 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

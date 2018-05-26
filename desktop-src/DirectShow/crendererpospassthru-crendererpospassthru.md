@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '9d6f40ee-31bf-4334-bee5-4be834f1f269'
-title: 'CRendererPosPassThru.CRendererPosPassThru constructor'
+Description: Constructor method.
+ms.assetid: 9d6f40ee-31bf-4334-bee5-4be834f1f269
+title: CRendererPosPassThru.CRendererPosPassThru constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererPosPassThru.CRendererPosPassThru constructor
@@ -13,10 +18,10 @@ Constructor method.
 
 ```C++
 CRendererPosPassThru(
-   const TCHAR     *pName,
-         LPUNKNOWN pUnk,
-         HRESULT   *phr,
-         IPin      *pPin
+   const TCHAR     *pName,
+         LPUNKNOWN pUnk,
+         HRESULT   *phr,
+         IPin      *pPin
 );
 ```
 
@@ -50,7 +55,7 @@ Pointer to an **HRESULT** value. Ignored.
 *pPin* 
 </dt> <dd>
 
-Pointer to the [**IPin**](ipin.md) interface of the filter's input pin.
+Pointer to the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface of the filter's input pin.
 
 </dd> </dl>
 
@@ -65,9 +70,9 @@ Pointer to the [**IPin**](ipin.md) interface of the filter's input pin.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

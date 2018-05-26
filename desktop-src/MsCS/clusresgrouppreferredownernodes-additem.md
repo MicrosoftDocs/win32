@@ -4,11 +4,14 @@ description: Adds a node to the ClusResGroupPreferredOwnerNodes collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '001e2766-d489-4406-b11e-c19c6426dfd4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 001e2766-d489-4406-b11e-c19c6426dfd4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AddItem method Failover Cluster", "AddItem method Failover Cluster , ClusResGroupPreferredOwnerNodes class", "ClusResGroupPreferredOwnerNodes class Failover Cluster , AddItem method"]
+keywords:
+- AddItem method Failover Cluster
+- AddItem method Failover Cluster , ClusResGroupPreferredOwnerNodes class
+- ClusResGroupPreferredOwnerNodes class Failover Cluster , AddItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResGroupPreferredOwnerNodes.AddItem method
@@ -64,7 +70,7 @@ The **AddItem** method always adds a node at the end of the list, giving it the 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                            |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>                  |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>                |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>                |
@@ -86,9 +92,9 @@ The **AddItem** method always adds a node at the end of the list, giving it the 
 [**ClusResGroupPreferredOwnerNodes.InsertItem**](clusresgrouppreferredownernodes-insertitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,35 @@
 ---
 title: IMsTscAx SendOnVirtualChannel method
-description: Sends data to the Remote Desktop Session Host (RD Session Host) server over a virtual channel that was created previously by using the CreateVirtualChannels method.
+description: Sends data to the Remote Desktop Session Host (RD Session Host) server over a virtual channel that was created previously by using the CreateVirtualChannels method.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '795ef508-bdf7-4897-84b1-931615262293'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 795ef508-bdf7-4897-84b1-931615262293
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SendOnVirtualChannel method Remote Desktop Services", "SendOnVirtualChannel method Remote Desktop Services , IMsTscAx interface", "IMsTscAx interface Remote Desktop Services , SendOnVirtualChannel method", "SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient interface", "IMsRdpClient interface Remote Desktop Services , SendOnVirtualChannel method", "SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient2 interface", "IMsRdpClient2 interface Remote Desktop Services , SendOnVirtualChannel method", "SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient3 interface", "IMsRdpClient3 interface Remote Desktop Services , SendOnVirtualChannel method", "SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient4 interface", "IMsRdpClient4 interface Remote Desktop Services , SendOnVirtualChannel method", "SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient5 interface", "IMsRdpClient5 interface Remote Desktop Services , SendOnVirtualChannel method", "SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient6 interface", "IMsRdpClient6 interface Remote Desktop Services , SendOnVirtualChannel method", "SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , SendOnVirtualChannel method", "SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , SendOnVirtualChannel method", "SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , SendOnVirtualChannel method"]
+keywords:
+- SendOnVirtualChannel method Remote Desktop Services
+- SendOnVirtualChannel method Remote Desktop Services , IMsTscAx interface
+- IMsTscAx interface Remote Desktop Services , SendOnVirtualChannel method
+- SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient interface
+- IMsRdpClient interface Remote Desktop Services , SendOnVirtualChannel method
+- SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient2 interface
+- IMsRdpClient2 interface Remote Desktop Services , SendOnVirtualChannel method
+- SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient3 interface
+- IMsRdpClient3 interface Remote Desktop Services , SendOnVirtualChannel method
+- SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient4 interface
+- IMsRdpClient4 interface Remote Desktop Services , SendOnVirtualChannel method
+- SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient5 interface
+- IMsRdpClient5 interface Remote Desktop Services , SendOnVirtualChannel method
+- SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient6 interface
+- IMsRdpClient6 interface Remote Desktop Services , SendOnVirtualChannel method
+- SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , SendOnVirtualChannel method
+- SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , SendOnVirtualChannel method
+- SendOnVirtualChannel method Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , SendOnVirtualChannel method
 topic_type:
 - apiref
 api_name:
@@ -26,19 +47,22 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAx::SendOnVirtualChannel method
 
-Sends data to the Remote Desktop Session Host (RD Session Host) server over a virtual channel that was created previously by using the [**CreateVirtualChannels**](imstscax-createvirtualchannels.md) method.
+Sends data to the Remote Desktop Session Host (RD Session Host) server over a virtual channel that was created previously by using the [**CreateVirtualChannels**](imstscax-createvirtualchannels.md) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SendOnVirtualChannel(
-  [in] BSTR ChanName,
-  [in] BSTR ChanData
+  [in] BSTR ChanName,
+  [in] BSTR ChanData
 );
 ```
 
@@ -78,8 +102,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsTscAx is defined as 8C11EFAE-92C3-11D1-BC1E-00C04FA31489<br/>            |
@@ -123,9 +147,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscAx**](imstscax-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

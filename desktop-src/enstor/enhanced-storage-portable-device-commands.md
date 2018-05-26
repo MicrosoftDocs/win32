@@ -1,12 +1,17 @@
 ---
 title: Enhanced Storage Portable Device Commands
 description: The following Windows Portable Devices Enhanced Storage authentication, certificate, and password silo commands are passed via the IEnhancedStorageSilo SendCommand method.
-ms.assetid: 'b848a866-9fdf-4cb3-b289-6df5fc1bf723'
+ms.assetid: b848a866-9fdf-4cb3-b289-6df5fc1bf723
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enhanced Storage Portable Device Commands
 
-The following Windows Portable Devices Enhanced Storage authentication, certificate, and password silo commands are passed via the [**IEnhancedStorageSilo::SendCommand**](ienhancedstoragesilo-sendcommand.md) method. For details regarding the properties utilized by these commands, see [Enhanced Storage Properties](enhanced-storage-properties.md).
+The following Windows Portable Devices Enhanced Storage authentication, certificate, and password silo commands are passed via the [**IEnhancedStorageSilo::SendCommand**](/windows/previous-versions/EhStorAPI/nf-ehstorapi-ienhancedstoragesilo-sendcommand?branch=master) method. For details regarding the properties utilized by these commands, see [Enhanced Storage Properties](enhanced-storage-properties.md).
 
 ## Authentication Silo Commands
 
@@ -38,7 +43,7 @@ ENHANCED_STORAGE_PROPERTY_IS_AUTHENTICATION_SILO <strong>[VT_BOOLEAN]</strong><b
 
 
 
- 
+ 
 
 
 
@@ -74,7 +79,7 @@ DEVICE_ERROR: The silo timed out or a device error occurred.<br />
 
 
 
- 
+ 
 
 
 
@@ -103,7 +108,7 @@ DEVICE_ERROR: The silo timed out or a device error occurred.<br />
 
 
 
- 
+ 
 
 
 
@@ -132,7 +137,7 @@ DEVICE_ERROR: The silo timed out or a device error occurred.<br />
 
 
 
- 
+ 
 
 
 
@@ -162,7 +167,7 @@ ENHANCED_STORAGE_PROPERTY_QUERY_SILO_RESULTS <strong>[VT_VECTOR | VT_U1]</strong
 
 
 
- 
+ 
 
 ## Certificate Silo Commands
 
@@ -195,7 +200,7 @@ ENHANCED_STORAGE_PROPERTY_QUERY_SILO_RESULTS <strong>[VT_VECTOR | VT_U1]</strong
 
 
 
- 
+ 
 
 
 
@@ -225,7 +230,7 @@ ENHANCED_STORAGE_PROPERTY_QUERY_SILO_RESULTS <strong>[VT_VECTOR | VT_U1]</strong
 
 
 
- 
+ 
 
 
 
@@ -252,7 +257,7 @@ ENHANCED_STORAGE_PROPERTY_QUERY_SILO_RESULTS <strong>[VT_VECTOR | VT_U1]</strong
 
 
 
- 
+ 
 
 
 
@@ -281,7 +286,7 @@ ENHANCED_STORAGE_PROPERTY_QUERY_SILO_RESULTS <strong>[VT_VECTOR | VT_U1]</strong
 
 
 
- 
+ 
 
 
 
@@ -312,7 +317,7 @@ ENHANCED_STORAGE_PROPERTY_STORED_CERTIFICATE_COUNT <strong>[VT_UINT]</strong><br
 
 
 
- 
+ 
 
 
 
@@ -349,7 +354,7 @@ ENHANCED_STORAGE_PROPERTY_CERTIFICATE <strong>[VT_UINT | VT_UI1]</strong><br />
 
 
 
- 
+ 
 
 
 
@@ -391,7 +396,7 @@ The Validation Policy parameter is required if the certificate is of a type PCp 
 
 
 
- 
+ 
 
 
 
@@ -421,7 +426,7 @@ ENHANCED_STORAGE_PROPERTY_CERTIFICATE_REQUEST <strong>[VT_VECTOR | VT_UI1]</stro
 
 
 
- 
+ 
 
 
 
@@ -450,7 +455,7 @@ ENHANCED_STORAGE_PROPERTY_CERTIFICATE_REQUEST <strong>[VT_VECTOR | VT_UI1]</stro
 
 
 
- 
+ 
 
 
 
@@ -481,7 +486,7 @@ ENHANCED_STORAGE_PROPERTY_CERTIFICATE_SILO_CAPABILITY <strong>[VT_VECTOR | VT_UI
 
 
 
- 
+ 
 
 
 
@@ -515,7 +520,7 @@ ENHANCED_STORAGE_CAPABILITY_CERTIFICATE_EXTENSION_PARSING <strong>[VT_BOOL]</str
 
 
 
- 
+ 
 
 
 
@@ -545,7 +550,7 @@ ENHANCED_STORAGE_CAPABILITY_CERTIFICATE_EXTENSION_PARSING <strong>[VT_BOOL]</str
 
 
 
- 
+ 
 
 
 
@@ -575,7 +580,7 @@ ENHANCED_STORAGE_PROPERTY_CERTIFICATE_SILO_GUID <strong>[VT_LPWSTR]</strong><br 
 
 
 
- 
+ 
 
 ## Password Silo Commands
 
@@ -608,7 +613,7 @@ ENHANCED_STORAGE_PROPERTY_CERTIFICATE_SILO_GUID <strong>[VT_LPWSTR]</strong><br 
 
 
 
- 
+ 
 
 
 
@@ -639,7 +644,7 @@ ENHANCED_STORAGE_PROPERTY_CERTIFICATE_SILO_GUID <strong>[VT_LPWSTR]</strong><br 
 
 
 
- 
+ 
 
 
 
@@ -674,7 +679,7 @@ ENHANCED_STORAGE_PROPERTY_SILO_NAME <strong>[VT_LPWSTR]</strong><br />
 
 
 
- 
+ 
 
 
 
@@ -707,7 +712,7 @@ ENHANCED_STORAGE_PROPERTY_SILO_NAME <strong>[VT_LPWSTR]</strong><br />
 
 
 
- 
+ 
 
 
 
@@ -741,7 +746,7 @@ ENHANCED_STORAGE_PROPERTY_SILO_NAME <strong>[VT_LPWSTR]</strong><br />
 
 
 
- 
+ 
 
 
 
@@ -771,7 +776,7 @@ ENHANCED_STORAGE_PROPERTY_SILO_NAME <strong>[VT_LPWSTR]</strong><br />
 
 
 
- 
+ 
 
 
 
@@ -815,7 +820,7 @@ While this command must be provided with either a User Hint or Admin password hi
 
 
 
- 
+ 
 
 
 
@@ -847,7 +852,7 @@ While this command must be provided with either a User Hint or Admin password hi
 
 
 
- 
+ 
 
 
 
@@ -885,11 +890,11 @@ Depending on silo implementation, this parameter may be required in some scenari
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

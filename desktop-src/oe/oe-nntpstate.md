@@ -1,8 +1,10 @@
 ---
 title: NNTPSTATE enumeration
 description: These are the various states the NNTP Transport can be in.
-ms.assetid: 'adfaa0de-4bae-4560-9fa4-9da73f793ea7'
-keywords: ["NNTPSTATE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: adfaa0de-4bae-4560-9fa4-9da73f793ea7
+keywords:
+- NNTPSTATE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NNTPSTATE enumeration
@@ -24,26 +31,26 @@ These are the various states the NNTP Transport can be in. These states are also
 
 ```C++
 typedef enum tagNNTPSTATE { 
-  NS_DISCONNECTED  = 0,
-  NS_CONNECT       = 1,
-  NS_AUTHINFO      = 2,
-  NS_POST          = 3,
-  NS_IDLE          = 4,
-  NS_LIST          = 5,
-  NS_LISTGROUP     = 6,
-  NS_NEWGROUPS     = 7,
-  NS_GROUP         = 8,
-  NS_LAST          = 9,
-  NS_NEXT          = 10,
-  NS_STAT          = 11,
-  NS_ARTICLE       = 12,
-  NS_HEAD          = 13,
-  NS_BODY          = 14,
-  NS_DATE          = 15,
-  NS_MODE          = 16,
-  NS_QUIT          = 17,
-  NS_HEADERS       = 18,
-  NS_XHDR          = 19
+  NS_DISCONNECTED  = 0,
+  NS_CONNECT       = 1,
+  NS_AUTHINFO      = 2,
+  NS_POST          = 3,
+  NS_IDLE          = 4,
+  NS_LIST          = 5,
+  NS_LISTGROUP     = 6,
+  NS_NEWGROUPS     = 7,
+  NS_GROUP         = 8,
+  NS_LAST          = 9,
+  NS_NEXT          = 10,
+  NS_STAT          = 11,
+  NS_ARTICLE       = 12,
+  NS_HEAD          = 13,
+  NS_BODY          = 14,
+  NS_DATE          = 15,
+  NS_MODE          = 16,
+  NS_QUIT          = 17,
+  NS_HEADERS       = 18,
+  NS_XHDR          = 19
 } ACCESSTYPE;
 ```
 
@@ -199,17 +206,17 @@ awaiting XHDR data
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

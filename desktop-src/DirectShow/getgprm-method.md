@@ -1,7 +1,12 @@
 ---
-Description: 'The GetGPRM method retrieves the specified general parameter register.'
-ms.assetid: '66afd2a5-6aa1-4280-93cf-dd3cfed2499d'
+Description: The GetGPRM method retrieves the specified general parameter register.
+ms.assetid: 66afd2a5-6aa1-4280-93cf-dd3cfed2499d
 title: GetGPRM Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetGPRM Method

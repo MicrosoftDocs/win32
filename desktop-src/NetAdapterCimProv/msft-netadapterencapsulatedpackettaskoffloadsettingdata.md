@@ -1,7 +1,12 @@
 ---
-Description: 'Encapsulated packet task offload properties for a network adapter.'
-ms.assetid: '1ab0366a-dbf2-4b80-972f-3a7223f58e93'
-title: 'MSFT\_NetAdapterEncapsulatedPacketTaskOffloadSettingData class'
+Description: Encapsulated packet task offload properties for a network adapter.
+ms.assetid: 1ab0366a-dbf2-4b80-972f-3a7223f58e93
+title: MSFT\_NetAdapterEncapsulatedPacketTaskOffloadSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterEncapsulatedPacketTaskOffloadSettingData class
@@ -16,16 +21,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterEncapsulatedPacketTaskOffloadSettingData : MSFT_NetAdapterSettingData
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
-  string  Name;
-  string  InterfaceDescription;
-  uint32  Source;
-  string  SystemName;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
+  string  Name;
+  string  InterfaceDescription;
+  uint32  Source;
+  string  SystemName;
   boolean EncapsulatedPacketTaskOffloadEnabled;
-  string  EncapsulatedPacketTaskOffloadHardwareCapabilities;
+  string  EncapsulatedPacketTaskOffloadHardwareCapabilities;
 };
 ```
 
@@ -49,7 +54,7 @@ The **MSFT\_NetAdapterEncapsulatedPacketTaskOffloadSettingData** class has these
 
 
 
- 
+ 
 
 ### Properties
 
@@ -216,16 +221,16 @@ The scoping System\\'s Name. This property inherits from [**MSFT\_NetAdapterSett
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

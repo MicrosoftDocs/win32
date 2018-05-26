@@ -1,8 +1,9 @@
 ---
 title: MCM\_SETMAXSELCOUNT message
 description: Sets the maximum number of days that can be selected in a month calendar control. You can send this message explicitly or by using the MonthCal\_SetMaxSelCount macro.
-ms.assetid: '190453ab-e53b-4db7-82c1-f9d50188ad39'
-keywords: ["MCM_SETMAXSELCOUNT message Windows Controls"]
+ms.assetid: 190453ab-e53b-4db7-82c1-f9d50188ad39
+keywords:
+- MCM_SETMAXSELCOUNT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_SETMAXSELCOUNT message
 
-Sets the maximum number of days that can be selected in a month calendar control. You can send this message explicitly or by using the [**MonthCal\_SetMaxSelCount**](monthcal-setmaxselcount.md) macro.
+Sets the maximum number of days that can be selected in a month calendar control. You can send this message explicitly or by using the [**MonthCal\_SetMaxSelCount**](/windows/win32/Commctrl/nf-commctrl-monthcal_setmaxselcount?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ Returns nonzero if successful, or zero otherwise. This message will fail if appl
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

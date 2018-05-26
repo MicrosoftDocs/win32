@@ -1,7 +1,12 @@
 ---
 title: Top-Level and Embedded Pointers
 description: To understand how pointers and their associated data elements are allocated in Microsoft RPC, you have to differentiate between top-level pointers and embedded pointers.
-ms.assetid: '217b9200-827c-4d36-9412-5e65858b8a97'
+ms.assetid: 217b9200-827c-4d36-9412-5e65858b8a97
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Top-Level and Embedded Pointers

@@ -1,14 +1,20 @@
 ---
 title: sample.Operator\ \ \ \ function
 description: Retrieves a value from the resource at the location and sample index provided.
-ms.assetid: '5bc24129-b690-44dd-ae85-8533b10befaa'
-keywords: ["sample.Operator function HLSL"]
+ms.assetid: 5bc24129-b690-44dd-ae85-8533b10befaa
+keywords:
+- sample.Operator function HLSL
 topic_type:
 - apiref
 api_name:
 - sample.Operator
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sample.Operator\[\]\[\] function

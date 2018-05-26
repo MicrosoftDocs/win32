@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Priority property is a value associated with the order in which the fax service calls the routing method when the service receives a fax job.'
-ms.assetid: '23208ac4-68c8-4f62-b588-2d0a5575f87c'
-title: 'FaxInboundRoutingMethod.Priority property'
+---
+Description: The Priority property is a value associated with the order in which the fax service calls the routing method when the service receives a fax job.
+ms.assetid: 23208ac4-68c8-4f62-b588-2d0a5575f87c
+title: FaxInboundRoutingMethod.Priority property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingMethod.Priority property
@@ -31,7 +36,7 @@ You should assign a unique priority value to each routing method. After you call
 
 If you want a particular routing method to have the lowest possible priority, specify a very large value, such as 999999, and then call the [**Save**](-mfax-faxinboundroutingmethod-save-vb.md) method.
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -56,7 +61,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod-cpp.md)
+[**IFaxInboundRoutingMethod**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingmethod?branch=master)
 </dt> </dl>
 
  

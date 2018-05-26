@@ -1,7 +1,12 @@
 ---
-Description: 'Represents information about a user profile on a Windows system.'
-ms.assetid: 'a0ba12a6-6fe6-4e06-9346-a54cc19143e6'
-title: 'Win32\_UserProfile class'
+Description: Represents information about a user profile on a Windows system.
+ms.assetid: a0ba12a6-6fe6-4e06-9346-a54cc19143e6
+title: Win32\_UserProfile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_UserProfile class
@@ -15,22 +20,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_UserProfile
 {
-  string                        SID;
-  string                        LocalPath;
-  boolean                       Loaded;
-  uint32                    REF refCount;
-  boolean                       Special;
-  boolean                       RoamingConfigured;
-  string                        RoamingPath;
-  boolean                       RoamingPreference;
-  uint32                        Status;
-  DATETIME                      LastUseTime;
-  DATETIME                      LastDownloadTime;
-  DATETIME                      LastUploadTime;
-  uint8                         HealthStatus;
-  DATETIME                      LastAttemptedProfileDownloadTime;
-  DATETIME                      LastAttemptedProfileUploadTime;
-  DATETIME                      LastBackgroundRegistryUploadTime;
+  string                        SID;
+  string                        LocalPath;
+  boolean                       Loaded;
+  uint32                    REF refCount;
+  boolean                       Special;
+  boolean                       RoamingConfigured;
+  string                        RoamingPath;
+  boolean                       RoamingPreference;
+  uint32                        Status;
+  DATETIME                      LastUseTime;
+  DATETIME                      LastDownloadTime;
+  DATETIME                      LastUploadTime;
+  uint8                         HealthStatus;
+  DATETIME                      LastAttemptedProfileDownloadTime;
+  DATETIME                      LastAttemptedProfileUploadTime;
+  DATETIME                      LastBackgroundRegistryUploadTime;
   Win32_FolderRedirectionHealth AppDataRoaming;
   Win32_FolderRedirectionHealth Desktop;
   Win32_FolderRedirectionHealth StartMenu;
@@ -66,7 +71,7 @@ The **Win32\_UserProfile** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -85,7 +90,7 @@ Access type: Read-only
 
 A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object that contains the health status of the user's redirected AppData\\Roaming folder.
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -100,7 +105,7 @@ Access type: Read-only
 
 A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object that contains the health status of the user's redirected Contacts folder.
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -115,7 +120,7 @@ Access type: Read-only
 
 A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object that contains the health status of the user's redirected Desktop folder.
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -130,7 +135,7 @@ Access type: Read-only
 
 A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object that contains the health status of the user's redirected Documents folder.
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -145,7 +150,7 @@ Access type: Read-only
 
 A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object that contains the health status of the user's redirected Downloads folder.
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -160,7 +165,7 @@ Access type: Read-only
 
 A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object that contains the health status of the user's redirected Favorites folder.
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -191,7 +196,7 @@ This property contains one of the following values
 <span id="Not_Applicable"></span><span id="not_applicable"></span><span id="NOT_APPLICABLE"></span>**Not Applicable** (3)
 </dt> </dl>
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -206,7 +211,7 @@ Access type: Read-only
 
 If this is a roaming profile, the last time an attempt was made to download the profile; otherwise "0".
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -221,7 +226,7 @@ Access type: Read-only
 
 If this is a roaming profile, the last time an attempt was made to upload the profile; otherwise "0".
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -236,7 +241,7 @@ Access type: Read-only
 
 If this is a roaming profile, the last time the registry hive of the profile was uploaded; otherwise "0".
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -290,7 +295,7 @@ Access type: Read-only
 
 A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object that contains the health status of the user's redirected Links folder.
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -331,7 +336,7 @@ Access type: Read-only
 
 A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object that contains the health status of the user's redirected Music folder.
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -346,7 +351,7 @@ Access type: Read-only
 
 A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object that contains the health status of the user's redirected Pictures folder.
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -377,7 +382,7 @@ Whether the owner of this user profile has roaming configured on any of their us
 > [!Note]  
 > If a user has a roaming profile configured, it does not mean that this profile is a roaming profile. Other policies and user preferences can prevent the profile from roaming. For more information, see the **RoamingPreference** and Status properties.
 
- 
+ 
 
 </dd> <dt>
 
@@ -418,7 +423,7 @@ Access type: Read-only
 
 A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object that contains the health status of the user's redirected Saved Games folder.
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -433,7 +438,7 @@ Access type: Read-only
 
 A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object that contains the health status of the user's redirected Searches folder.
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -477,7 +482,7 @@ Access type: Read-only
 
 A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object that contains the health status of the user's redirected Start Menu folder.
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -506,7 +511,7 @@ This property contains one or more of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -521,13 +526,13 @@ Access type: Read-only
 
 A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object that contains the health status of the user's redirected Videos folder.
 
-**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
+**Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:** This property is not available before Windows 8 and Windows Server 2012.
 
 </dd> </dl>
 
 ## Examples
 
-To use **Win32\_UserProfile** to migrate a user to a new domain, see the following [Vista’s MoveUser.exe replacement](http://blogs.technet.com/b/askds/archive/2008/09/09/vista-s-moveuser-exe-replacement.aspx) article on TechNet.
+To use **Win32\_UserProfile** to migrate a user to a new domain, see the following [Vista s MoveUser.exe replacement](http://blogs.technet.com/b/askds/archive/2008/09/09/vista-s-moveuser-exe-replacement.aspx) article on TechNet.
 
 ## Requirements
 
@@ -535,8 +540,8 @@ To use **Win32\_UserProfile** to migrate a user to a new domain, see the followi
 
 |                                     |                                                                                                       |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                        |
+| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                                |
 | MOF<br/>                      | <dl> <dt>UserProfileWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Profprov.dll</dt> </dl>               |
@@ -550,9 +555,9 @@ To use **Win32\_UserProfile** to migrate a user to a new domain, see the followi
 [UserProfileProvider Provider Classes](userprofileprovider-provider-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

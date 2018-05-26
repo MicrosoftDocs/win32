@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetUri method gets the URI of the fixed document sequence.'
-ms.assetid: '45017249-2ea5-43f6-9712-787f52cb6e4b'
-title: 'IFixedDocumentSequence::GetUri method'
+---
+Description: The GetUri method gets the URI of the fixed document sequence.
+ms.assetid: 45017249-2ea5-43f6-9712-787f52cb6e4b
+title: IFixedDocumentSequenceGetUri method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedDocumentSequence::GetUri method

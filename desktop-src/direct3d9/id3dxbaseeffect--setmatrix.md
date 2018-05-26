@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a non-transposed matrix.'
-ms.assetid: '90329460-756e-4b3e-9ff3-be9dc556eb9f'
-title: 'ID3DXBaseEffect::SetMatrix method'
+---
+Description: Sets a non-transposed matrix.
+ms.assetid: 90329460-756e-4b3e-9ff3-be9dc556eb9f
+title: ID3DXBaseEffectSetMatrix method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::SetMatrix method

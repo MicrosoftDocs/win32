@@ -4,13 +4,16 @@ description: Generates an opaque BLOB of data that contains compatibility inform
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e307f95d-ccc4-4103-bce7-a7eba50a5765'
-ms.prod: 'windows-server-dev'
+ms.assetid: e307f95d-ccc4-4103-bce7-a7eba50a5765
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSystemCompatibilityInfo method", "GetSystemCompatibilityInfo method, Msvm_VirtualSystemMigrationService class", "Msvm_VirtualSystemMigrationService class, GetSystemCompatibilityInfo method"]
+keywords:
+- GetSystemCompatibilityInfo method
+- GetSystemCompatibilityInfo method, Msvm_VirtualSystemMigrationService class
+- Msvm_VirtualSystemMigrationService class, GetSystemCompatibilityInfo method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSystemCompatibilityInfo method of the Msvm\_VirtualSystemMigrationService class
@@ -30,8 +36,8 @@ Generates an opaque BLOB of data that contains compatibility information for the
 
 ```mof
 uint32 GetSystemCompatibilityInfo(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [out] uint8                  CompatibilityInfo[]
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [out] uint8                  CompatibilityInfo[]
 );
 ```
 
@@ -111,7 +117,7 @@ The **GetSystemCompatibilityInfo** method is used in conjunction with [**CheckSy
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -125,9 +131,9 @@ The **GetSystemCompatibilityInfo** method is used in conjunction with [**CheckSy
 [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: This method creates a CIM\_StorageHardwareID, it creates the associ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '05ac9ef3-27b8-436c-a89a-b41846b8a2ad'
-ms.prod: 'windows-server-dev'
+ms.assetid: 05ac9ef3-27b8-436c-a89a-b41846b8a2ad
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateStorageHardwareID method iSCSI Software Target API", "CreateStorageHardwareID method iSCSI Software Target API , CIM_StorageHardwareIDManagementService class", "CIM_StorageHardwareIDManagementService class iSCSI Software Target API , CreateStorageHardwareID method"]
+keywords:
+- CreateStorageHardwareID method iSCSI Software Target API
+- CreateStorageHardwareID method iSCSI Software Target API , CIM_StorageHardwareIDManagementService class
+- CIM_StorageHardwareIDManagementService class iSCSI Software Target API , CreateStorageHardwareID method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateStorageHardwareID method of the CIM\_StorageHardwareIDManagementService class
@@ -30,12 +36,12 @@ This method creates a CIM\_StorageHardwareID, it creates the association CIM\_Co
 
 ```mof
 uint32 CreateStorageHardwareID(
-  [in]  string                           ElementName,
-  [in]  string                           StorageID,
-  [in]  uint16                           IDType,
-  [in]  string                           OtherIDType,
-  [in]  CIM_StorageClientSettingData REF Setting,
-  [out] CIM_StorageHardwareID        REF HardwareID
+  [in]  string                           ElementName,
+  [in]  string                           StorageID,
+  [in]  uint16                           IDType,
+  [in]  string                           OtherIDType,
+  [in]  CIM_StorageClientSettingData REF Setting,
+  [out] CIM_StorageHardwareID        REF HardwareID
 );
 ```
 
@@ -144,7 +150,7 @@ REF to the new StorageHardwareID instance.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **ID already created** (4096)
@@ -153,10 +159,10 @@ REF to the new StorageHardwareID instance.
 **Hardware implementation does not support specified IDType** (4097)
 </dt> <dt>
 
-**Method Reserved** (4099–32767)
+**Method Reserved** (4099 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -166,7 +172,7 @@ REF to the new StorageHardwareID instance.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -180,9 +186,9 @@ REF to the new StorageHardwareID instance.
 [**CIM\_StorageHardwareIDManagementService**](cim-storagehardwareidmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

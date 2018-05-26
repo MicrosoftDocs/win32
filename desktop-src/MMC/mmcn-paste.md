@@ -1,14 +1,15 @@
 ---
 title: MMCN\_PASTE message
-description: The MMCN\_PASTE notification message is sent to a snap-in's IComponent implementation to tell the snap-in's scope item to paste the selected result items.
+description: The MMCN\_PASTE notification message is sent to a snap-ins IComponent implementation to tell the snap-ins scope item to paste the selected result items.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a2eedeb8-663a-43eb-9b8b-ab419a8b3f79'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a2eedeb8-663a-43eb-9b8b-ab419a8b3f79
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_PASTE message MMC"]
+keywords:
+- MMCN_PASTE message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_PASTE message
 
-The **MMCN\_PASTE** notification message is sent to a snap-in's [**IComponent**](icomponent.md) implementation to tell the snap-in's scope item to paste the selected result items.
+The **MMCN\_PASTE** notification message is sent to a snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation to tell the snap-in's scope item to paste the selected result items.
 
 ## Parameters
 
@@ -80,8 +84,8 @@ When the items to be pasted were cut or moved from the source, the snap-in has t
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -99,9 +103,9 @@ When the items to be pasted were cut or moved from the source, the snap-in has t
 [Multiselection](multiselection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

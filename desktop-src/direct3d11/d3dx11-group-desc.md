@@ -1,8 +1,9 @@
 ---
 title: D3DX11\_GROUP\_DESC structure
 description: Describes an effect group.
-ms.assetid: '9d4dd5f6-76a5-456d-b464-131b89953ef1'
-keywords: ["D3DX11_GROUP_DESC structure Direct3D 11"]
+ms.assetid: 9d4dd5f6-76a5-456d-b464-131b89953ef1
+keywords:
+- D3DX11_GROUP_DESC structure Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_GROUP\_DESC structure
@@ -23,8 +29,8 @@ Describes an effect group.
 ```C++
 typedef struct _D3DX11_GROUP_DESC {
   LPCSTR Name;
-  UINT   Techniques;
-  UINT   Annotations;
+  UINT   Techniques;
+  UINT   Annotations;
 } D3DX11_GROUP_DESC;
 ```
 
@@ -88,9 +94,9 @@ D3DX11\_GROUP\_DESC is used with [**ID3DX11EffectTechnique::GetDesc**](id3dx11ef
 [Effects 11 Structures](d3d11-graphics-reference-effects11-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

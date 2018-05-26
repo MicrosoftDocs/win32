@@ -1,8 +1,11 @@
 ---
 title: ApplyVirtualSystemSnapshotEx method of the Msvm\_VirtualSystemManagementService class
 description: Applies the disk state, run-time state, and configuration values for a snapshot to the virtual computer system.
-ms.assetid: '84dae118-7390-4ebc-8703-2843b470abf5'
-keywords: ["ApplyVirtualSystemSnapshotEx method Hyper-V", "ApplyVirtualSystemSnapshotEx method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , ApplyVirtualSystemSnapshotEx method"]
+ms.assetid: 84dae118-7390-4ebc-8703-2843b470abf5
+keywords:
+- ApplyVirtualSystemSnapshotEx method Hyper-V
+- ApplyVirtualSystemSnapshotEx method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , ApplyVirtualSystemSnapshotEx method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ApplyVirtualSystemSnapshotEx method of the Msvm\_VirtualSystemManagementService class
@@ -22,9 +30,9 @@ Applies the disk state, run-time state, and configuration values for a snapshot 
 
 ```mof
 uint32 ApplyVirtualSystemSnapshotEx(
-  [in]  CIM_ComputerSystem           REF ComputerSystem,
-  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_ComputerSystem           REF ComputerSystem,
+  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -119,9 +127,9 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -137,9 +145,9 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 [**ApplySnapshot (V2)**](https://msdn.microsoft.com/library/windows/desktop/hh850022)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the sample Visual Basic applications that are included with the Microsoft Core SDK.'
-ms.assetid: 'fc892ef0-6722-4d2e-9e9a-384c9a2e8ffa'
+Description: This topic describes the sample Visual Basic applications that are included with the Microsoft Core SDK.
+ms.assetid: fc892ef0-6722-4d2e-9e9a-384c9a2e8ffa
 title: Fax Service Extended COM Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Extended COM Samples

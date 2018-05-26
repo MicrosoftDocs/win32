@@ -1,8 +1,19 @@
 ---
 title: About Conversion Plug-ins
 description: About Conversion Plug-ins
-ms.assetid: 'bd6d1020-e8e1-492e-9c76-9f3cf04190de'
-keywords: ["Windows Media Player,conversion plug-ins", "Windows Media Player plug-ins,conversion", "plug-ins,conversion", "conversion plug-ins,about", "Advanced Systems Format (ASF)", "ASF (Advanced Systems Format)"]
+ms.assetid: bd6d1020-e8e1-492e-9c76-9f3cf04190de
+keywords:
+- Windows Media Player,conversion plug-ins
+- Windows Media Player plug-ins,conversion
+- plug-ins,conversion
+- conversion plug-ins,about
+- Advanced Systems Format (ASF)
+- ASF (Advanced Systems Format)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Conversion Plug-ins

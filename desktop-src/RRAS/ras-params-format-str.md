@@ -1,8 +1,9 @@
 ---
 title: RAS\_PARAMS\_FORMAT enumeration
 description: The RAS\_PARAMS\_FORMAT enumeration type is used in the RAS\_PARAMETERS structure to indicate the type of data associated with a media-specific key.
-ms.assetid: 'dd2c0110-1f27-4a8f-bc61-f15588ebc4ca'
-keywords: ["RAS_PARAMS_FORMAT enumeration RAS"]
+ms.assetid: dd2c0110-1f27-4a8f-bc61-f15588ebc4ca
+keywords:
+- RAS_PARAMS_FORMAT enumeration RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS\_PARAMS\_FORMAT enumeration
 
-\[The **RAS\_PARAMS\_FORMAT** enumeration is not supported as of Windows Vista.\]
+\[The **RAS\_PARAMS\_FORMAT** enumeration is not supported as of Windows Vista.\]
 
 The **RAS\_PARAMS\_FORMAT** enumeration type is used in the [**RAS\_PARAMETERS**](ras-parameters-str.md) structure to indicate the type of data associated with a media-specific key.
 
@@ -24,8 +30,8 @@ The **RAS\_PARAMS\_FORMAT** enumeration type is used in the [**RAS\_PARAMETERS**
 
 ```C++
 typedef enum RAS_PARAMS_FORMAT { 
-  ParamNumber  = 0,
-  ParamString  = 1
+  ParamNumber  = 0,
+  ParamString  = 1
 } RAS_PARAMS_FORMAT;
 ```
 
@@ -55,10 +61,10 @@ Indicates that the data associated with the key is a string.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Rassapi.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ Indicates that the data associated with the key is a string.
 [**RAS\_PARAMETERS**](ras-parameters-str.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

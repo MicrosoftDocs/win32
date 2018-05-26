@@ -1,7 +1,12 @@
 ---
-Description: 'Notifies the window when the Text Input Panel is opening.'
-ms.assetid: '6eadd648-bffb-4227-bdcd-cd733f692734'
-title: 'MICROSOFT\_TIP\_OPENING\_MSG message'
+Description: Notifies the window when the Text Input Panel is opening.
+ms.assetid: 6eadd648-bffb-4227-bdcd-cd733f692734
+title: MICROSOFT\_TIP\_OPENING\_MSG message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MICROSOFT\_TIP\_OPENING\_MSG message
@@ -37,7 +42,7 @@ This notification lets you know when the input panel is opening. If you want to 
 > [!Note]  
 > This message is also sent when the Text Input Panel is already visible and the user switches from the keyboard to the handwriting skin.
 
- 
+ 
 
 ## Requirements
 
@@ -45,14 +50,14 @@ This notification lets you know when the input panel is opening. If you want to 
 
 |                   |                                                                                            |
 |-------------------|--------------------------------------------------------------------------------------------|
-| Client<br/> | Windows Vista<br/>                                                                   |
+| Client<br/> | Windows Vista<br/>                                                                   |
 | Header<br/> | <dl> <dt>Peninputpanel.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

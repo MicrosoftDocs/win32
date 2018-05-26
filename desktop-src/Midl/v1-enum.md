@@ -2,13 +2,19 @@
 title: v1\_enum attribute
 description: The \ v1\_enum\ attribute directs that the specified enumerated type be transmitted as a 32-bit entity, rather than the 16-bit default.
 ms.assetid: 46016131-b78e-4a7f-94c8-41ff1780b0b8
-keywords: ["v1_enum attribute MIDL"]
+keywords:
+- v1_enum attribute MIDL
 topic_type:
 - apiref
 api_name:
 - v1_enum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # v1\_enum attribute

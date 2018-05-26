@@ -1,8 +1,11 @@
 ---
 title: IXMLHTTPRequest3 SetClientCertificate method
 description: Sets a client certificate to be used to authenticate against the URL specified in the Open method.
-ms.assetid: 'fc3e2645-666c-42af-babd-1f476b6356b8'
-keywords: ["SetClientCertificate method XMLHttpRequest2", "SetClientCertificate method XMLHttpRequest2 , IXMLHTTPRequest3 interface", "IXMLHTTPRequest3 interface XMLHttpRequest2 , SetClientCertificate method"]
+ms.assetid: fc3e2645-666c-42af-babd-1f476b6356b8
+keywords:
+- SetClientCertificate method XMLHttpRequest2
+- SetClientCertificate method XMLHttpRequest2 , IXMLHTTPRequest3 interface
+- IXMLHTTPRequest3 interface XMLHttpRequest2 , SetClientCertificate method
 topic_type:
 - apiref
 api_name:
@@ -11,20 +14,25 @@ api_location:
 - Msxml6.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXMLHTTPRequest3::SetClientCertificate method
 
-Sets a client certificate to be used to authenticate against the URL specified in the [**Open**](ixmlhttprequest2-open.md) method.
+Sets a client certificate to be used to authenticate against the URL specified in the [**Open**](/windows/previous-versions/msxml6/nf-msxml6-ixmlhttprequest2-open?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetClientCertificate(
-  [in]                                                 DWORD cbClientCertificateHash,
-  [in, size_is(cbClientCertificateHash), unique] const BYTE  *pbClientCertificateHash,
-  [in, unique]                                   const WCHAR *pwszPin
+  [in]                                                 DWORD cbClientCertificateHash,
+  [in, size_is(cbClientCertificateHash), unique] const BYTE  *pbClientCertificateHash,
+  [in, unique]                                   const WCHAR *pwszPin
 );
 ```
 
@@ -65,9 +73,9 @@ Returns S\_OK on success.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
 | IDL<br/>                      | <dl> <dt>Msxml6.idl</dt> </dl>   |
 
 
@@ -76,15 +84,15 @@ Returns S\_OK on success.
 
 <dl> <dt>
 
-[**IXMLHTTPRequest3**](ixmlhttprequest3.md)
+[**IXMLHTTPRequest3**](/windows/previous-versions/msxml6/nn-msxml6-ixmlhttprequest3?branch=master)
 </dt> <dt>
 
-[**Open**](ixmlhttprequest2-open.md)
+[**Open**](/windows/previous-versions/msxml6/nf-msxml6-ixmlhttprequest2-open?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

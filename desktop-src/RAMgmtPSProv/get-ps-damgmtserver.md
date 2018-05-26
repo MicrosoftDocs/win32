@@ -2,13 +2,16 @@
 title: Get method of the PS\_DAMgmtServer class
 description: This cmdlet displays the configured Management servers. Management server here refers to patch servers, Domain Controllers and other servers.
 audience: developer
-ms.assetid: 'bf7d8960-02ba-4d61-9c31-e4b6fd5ed446'
-ms.prod: 'windows-server-dev'
+ms.assetid: bf7d8960-02ba-4d61-9c31-e4b6fd5ed446
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DAMgmtServer class", "PS_DAMgmtServer class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DAMgmtServer class
+- PS_DAMgmtServer class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DAMgmtServer class
@@ -28,9 +34,9 @@ This cmdlet displays the configured Management servers. Management server here r
 
 ```mof
 uint32 Get(
-  [in]  string ComputerName,
-  [in]  string Type,
-  [out] string cmdletOutput[]
+  [in]  string ComputerName,
+  [in]  string Type,
+  [out] string cmdletOutput[]
 );
 ```
 
@@ -96,7 +102,7 @@ List of management servers configured
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -110,9 +116,9 @@ List of management servers configured
 [**PS\_DAMgmtServer**](ps-damgmtserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

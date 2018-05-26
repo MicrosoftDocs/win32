@@ -4,11 +4,15 @@ description: List of Failover Cluster API data structure categories.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '640359e9-ed65-46c1-a9d4-655e2f6a24df'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 640359e9-ed65-46c1-a9d4-655e2f6a24df
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["structures Failover Cluster"]
+keywords:
+- structures Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Structures

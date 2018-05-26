@@ -1,7 +1,12 @@
 ---
 title: IAgentCommandsEx SetFontSize
 description: IAgentCommandsEx SetFontSize
-ms.assetid: '095f78d2-ef91-4880-ad49-dd9a94f02891'
+ms.assetid: 095f78d2-ef91-4880-ad49-dd9a94f02891
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCommandsEx::SetFontSize

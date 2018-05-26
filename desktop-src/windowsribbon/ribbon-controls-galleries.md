@@ -1,8 +1,22 @@
 ---
 title: Working with Galleries
 description: The Windows Ribbon framework provides developers with a robust and consistent model for managing dynamic content across a variety of collection-based controls.
-ms.assetid: '447039f3-1428-4b6f-94cf-78cf81974041'
-keywords: ["Windows Ribbon,galleries", "Ribbon,galleries", "Windows Ribbon,DropDownGallery control", "Ribbon,DropDownGallery control", "Windows Ribbon,SplitButtonGallery control", "Ribbon,SplitButtonGallery control", "DropDownGallery control", "SplitButtonGallery control", "galleries for Windows Ribbon"]
+ms.assetid: 447039f3-1428-4b6f-94cf-78cf81974041
+keywords:
+- Windows Ribbon,galleries
+- Ribbon,galleries
+- Windows Ribbon,DropDownGallery control
+- Ribbon,DropDownGallery control
+- Windows Ribbon,SplitButtonGallery control
+- Ribbon,SplitButtonGallery control
+- DropDownGallery control
+- SplitButtonGallery control
+- galleries for Windows Ribbon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Galleries

@@ -4,13 +4,15 @@ description: This class provides access to ID Table records. The ID Table has a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'acdec72e-97ee-44fa-8f2a-481007ee21e9'
-ms.prod: 'windows-server-dev'
+ms.assetid: acdec72e-97ee-44fa-8f2a-481007ee21e9
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrIdRecordInfo class Distributed File System Replication", "DfsrIdRecordInfo class Distributed File System Replication , described"]
+keywords:
+- DfsrIdRecordInfo class Distributed File System Replication
+- DfsrIdRecordInfo class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrIdRecordInfo class
@@ -53,28 +58,28 @@ This class provides access to ID Table records. The ID Table has a record for ea
 [Dynamic, Provider("DfsrMonitorProv")]
 class DfsrIdRecordInfo : CIM_LogicalElement
 {
-  string       Caption;
-  string       Description;
+  string       Caption;
+  string       Description;
   datetime REF InstallDate;
-  string       Name;
-  string       Status;
-  string       Uid;
-  uint8        Flags;
-  uint32       Attributes;
-  string       GVsn;
-  string       Usn;
-  string       ParentUid;
-  uint64       Fid;
-  string       Volume;
-  string       Fence;
-  datetime     Clock;
-  datetime     CreateTime;
-  datetime     UpdateTime;
-  string       FileHash;
-  string       FileName;
-  string       FullPathName;
-  uint32       Index;
-  string       ReplicatedFolderGuid;
+  string       Name;
+  string       Status;
+  string       Uid;
+  uint8        Flags;
+  uint32       Attributes;
+  string       GVsn;
+  string       Usn;
+  string       ParentUid;
+  uint64       Fid;
+  string       Volume;
+  string       Fence;
+  datetime     Clock;
+  datetime     CreateTime;
+  datetime     UpdateTime;
+  string       FileHash;
+  string       FileName;
+  string       FullPathName;
+  uint32       Index;
+  string       ReplicatedFolderGuid;
 };
 ```
 
@@ -97,7 +102,7 @@ The **DfsrIdRecordInfo** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -396,7 +401,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Ful
 
 The complete path to the file or folder.
 
-**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
+**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -667,9 +672,9 @@ The volume where the file or folder is located. The volume format is either \\\\
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -686,9 +691,9 @@ The volume where the file or folder is located. The volume format is either \\\\
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

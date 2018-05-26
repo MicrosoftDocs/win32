@@ -4,17 +4,22 @@ description: The minimum value for a WMI 32-bit integer parameter object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '55f0f7ad-33d8-48e2-9924-49897085b078'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 55f0f7ad-33d8-48e2-9924-49897085b078
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-intMin attribute AD Schema", "msWMI-IntMin attribute AD Schema"]
+keywords:
+- ms-WMI-intMin attribute AD Schema
+- msWMI-IntMin attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-intMin
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-intMin attribute

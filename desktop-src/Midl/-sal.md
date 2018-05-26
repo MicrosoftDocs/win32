@@ -1,14 +1,20 @@
 ---
 title: /sal switch
 description: The /sal switch directs MIDL to generate SAL annotations in the generated stub files.
-ms.assetid: '452A19CA-6F72-416F-8059-77937412DA88'
-keywords: ["/sal switch MIDL"]
+ms.assetid: 452A19CA-6F72-416F-8059-77937412DA88
+keywords:
+- /sal switch MIDL
 topic_type:
 - apiref
 api_name:
 - /sal
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /sal switch

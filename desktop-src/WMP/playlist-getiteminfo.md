@@ -1,8 +1,11 @@
 ---
 title: Playlist.getItemInfo method
 description: The getItemInfo method retrieves the value of a playlist attribute.
-ms.assetid: 'c6763274-01e4-4a2f-9467-150e1964193a'
-keywords: ["getItemInfo method Windows Media Player", "getItemInfo method Windows Media Player , Playlist class", "Playlist class Windows Media Player , getItemInfo method"]
+ms.assetid: c6763274-01e4-4a2f-9467-150e1964193a
+keywords:
+- getItemInfo method Windows Media Player
+- getItemInfo method Windows Media Player , Playlist class
+- Playlist class Windows Media Player , getItemInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist.getItemInfo method
@@ -78,9 +86,9 @@ See the [attributeCount](playlist-attributecount.md) property for example code t
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

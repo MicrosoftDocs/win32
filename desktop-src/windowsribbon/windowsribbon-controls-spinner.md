@@ -1,7 +1,12 @@
 ---
 title: Spinner
 description: The Spinner is a composite control that consists of an increment button, a decrement button, and an edit control, all of which are used to provide decimal values to the application.
-ms.assetid: '63689ed3-7326-4f7a-b700-d89e9b501ef1'
+ms.assetid: 63689ed3-7326-4f7a-b700-d89e9b501ef1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Spinner
@@ -30,7 +35,7 @@ The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/w
 > [!Note]  
 > In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
 
- 
+ 
 
 The following table lists the property keys that are associated with the Spinner control.
 
@@ -122,7 +127,7 @@ If the Command associated with the control is invalidated through a call to [<st
 
 
 
- 
+ 
 
 The following section of code demonstrates how various properties of the Spinner control are updated in the [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371494) method.
 
@@ -210,7 +215,7 @@ If the minimum value ([UI\_PKEY\_MinValue](windowsribbon-reference-properties-ui
 > [!Note]  
 > If this test is not performed and the value left uncorrected, the edit field of the control displays the string "Auto".
 
- 
+ 
 
 
 ```C++
@@ -300,9 +305,9 @@ STDMETHODIMP CCommandHandler::Execute(
 [**Spinner markup element**](windowsribbon-element-spinner.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

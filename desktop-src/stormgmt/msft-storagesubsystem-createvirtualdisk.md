@@ -1,8 +1,11 @@
 ---
 title: CreateVirtualDisk method of the MSFT\_StorageSubSystem class
 description: Creates a new virtual disk.
-ms.assetid: 'D31EEC10-7DEA-4701-9025-FBD04A50E5F7'
-keywords: ["CreateVirtualDisk method Windows Storage Management API", "CreateVirtualDisk method Windows Storage Management API , MSFT_StorageSubSystem class", "MSFT_StorageSubSystem class Windows Storage Management API , CreateVirtualDisk method"]
+ms.assetid: D31EEC10-7DEA-4701-9025-FBD04A50E5F7
+keywords:
+- CreateVirtualDisk method Windows Storage Management API
+- CreateVirtualDisk method Windows Storage Management API , MSFT_StorageSubSystem class
+- MSFT_StorageSubSystem class Windows Storage Management API , CreateVirtualDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateVirtualDisk method of the MSFT\_StorageSubSystem class
@@ -22,23 +30,23 @@ Creates a new virtual disk.
 
 ```mof
 UInt32 CreateVirtualDisk(
-  [in]      String              FriendlyName,
-  [in]      UInt16              Usage,
-  [in]      String              OtherUsageDescription,
-  [in, out] UInt64              Size,
-  [in]      Boolean             UseMaximumSize,
-  [in]      UInt16              NumberOfDataCopies,
-  [in]      UInt16              PhysicalDiskRedundancy,
-  [in]      UInt16              NumberOfColumns,
-  [in]      UInt64              Interleave,
-  [in]      UInt16              ParityLayout,
-  [in]      Boolean             RequestNoSinglePointOfFailure,
-  [in]      Boolean             IsEnclosureAware,
-  [in]      UInt16              ProvisioningType,
-  [in]      Boolean             RunAsJob,
-  [out]     String              CreatedVirtualDisk,
-  [out]     MSFT_StorageJob REF CreatedStorageJob,
-  [out]     String              ExtendedStatus
+  [in]      String              FriendlyName,
+  [in]      UInt16              Usage,
+  [in]      String              OtherUsageDescription,
+  [in, out] UInt64              Size,
+  [in]      Boolean             UseMaximumSize,
+  [in]      UInt16              NumberOfDataCopies,
+  [in]      UInt16              PhysicalDiskRedundancy,
+  [in]      UInt16              NumberOfColumns,
+  [in]      UInt64              Interleave,
+  [in]      UInt16              ParityLayout,
+  [in]      Boolean             RequestNoSinglePointOfFailure,
+  [in]      Boolean             IsEnclosureAware,
+  [in]      UInt16              ProvisioningType,
+  [in]      Boolean             RunAsJob,
+  [out]     String              CreatedVirtualDisk,
+  [out]     MSFT_StorageJob REF CreatedStorageJob,
+  [out]     String              ExtendedStatus
 );
 ```
 
@@ -228,7 +236,7 @@ If **TRUE**, this method uses the *CreatedStorageJob* parameter when the request
 > [!Note]  
 > Even if *RunAsJob* is **TRUE**, this method can still return a result if it has finished in sufficient time.
 
- 
+ 
 
 If **FALSE** or **NULL**, this method will follow default WMI asynchronous behavior as determined by the client's method for invocation. In other words, it is synchronous unless requested otherwise.
 
@@ -342,8 +350,8 @@ Storage management providers can also choose to implement this method to "intell
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -356,9 +364,9 @@ Storage management providers can also choose to implement this method to "intell
 [**MSFT\_StorageSubSystem**](msft-storagesubsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

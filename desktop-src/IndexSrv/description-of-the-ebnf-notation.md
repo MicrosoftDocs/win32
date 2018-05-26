@@ -1,7 +1,12 @@
 ---
 title: Description of the EBNF Notation
 description: Description of the EBNF Notation
-ms.assetid: '225c8dea-ee94-4b36-9d28-4b3c5aefd36d'
+ms.assetid: 225c8dea-ee94-4b36-9d28-4b3c5aefd36d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Description of the EBNF Notation

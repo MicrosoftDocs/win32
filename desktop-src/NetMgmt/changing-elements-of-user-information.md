@@ -1,14 +1,19 @@
 ---
 title: Changing Elements of User Information
 description: The network management functions provide a variety of information levels to assist in changing user information.
-ms.assetid: 'dc126431-57b0-467b-9f56-1e66a647c7b1'
+ms.assetid: dc126431-57b0-467b-9f56-1e66a647c7b1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing Elements of User Information
 
 The network management functions provide a variety of information levels to assist in changing user information. Some levels require administrative privileges to execute successfully. For more information about calling functions that require administrator privileges, see [Running with Special Privileges](https://msdn.microsoft.com/library/windows/desktop/ms717802).
 
-The sample code in this topic demonstrates how to change several elements of user information by calling the [**NetUserSetInfo**](netusersetinfo.md) function. The code uses various network management information structures.
+The sample code in this topic demonstrates how to change several elements of user information by calling the [**NetUserSetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusersetinfo?branch=master) function. The code uses various network management information structures.
 
 When changing user information, it is best to use the specific level for that piece of information. This prevents the accidental resetting of unrelated information when using the lower level values.
 
@@ -48,7 +53,7 @@ DWORD netRet = 0;
 
 ## Setting the User Password, Level 1003
 
-The following code fragment illustrates how to set a user's password to a known value with a call to the [**NetUserSetInfo**](netusersetinfo.md) function. The [**USER\_INFO\_1003**](user-info-1003-str.md) topic contains additional information.
+The following code fragment illustrates how to set a user's password to a known value with a call to the [**NetUserSetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusersetinfo?branch=master) function. The [**USER\_INFO\_1003**](/windows/win32/Lmaccess/ns-lmaccess-_user_info_1003?branch=master) topic contains additional information.
 
 
 ```C++
@@ -74,7 +79,7 @@ else
 
 ## Setting the User Privilege, Level 1005
 
-The following code fragment illustrates how to specify the level of privilege assigned to a user with a call to the [**NetUserSetInfo**](netusersetinfo.md) function. The [**USER\_INFO\_1005**](user-info-1005-str.md) topic contains additional information. For more information about account privileges, see [Privileges](https://msdn.microsoft.com/library/windows/desktop/aa379306) and [Authorization Constants](https://msdn.microsoft.com/library/windows/desktop/aa375728).
+The following code fragment illustrates how to specify the level of privilege assigned to a user with a call to the [**NetUserSetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusersetinfo?branch=master) function. The [**USER\_INFO\_1005**](/windows/win32/Lmaccess/ns-lmaccess-_user_info_1005?branch=master) topic contains additional information. For more information about account privileges, see [Privileges](https://msdn.microsoft.com/library/windows/desktop/aa379306) and [Authorization Constants](https://msdn.microsoft.com/library/windows/desktop/aa375728).
 
 
 ```C++
@@ -98,7 +103,7 @@ else
 
 ## Setting the User Home Directory, Level 1006
 
-The following code fragment illustrates how to specify the path of a user's home directory with a call to the [**NetUserSetInfo**](netusersetinfo.md) function. The directory can be a hard-coded path or a valid Unicode path. The [**USER\_INFO\_1006**](user-info-1006-str.md) topic contains additional information.
+The following code fragment illustrates how to specify the path of a user's home directory with a call to the [**NetUserSetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusersetinfo?branch=master) function. The directory can be a hard-coded path or a valid Unicode path. The [**USER\_INFO\_1006**](/windows/win32/Lmaccess/ns-lmaccess-_user_info_1006?branch=master) topic contains additional information.
 
 
 ```C++
@@ -123,7 +128,7 @@ else
 
 ## Setting the User Comment Field, Level 1007
 
-The following code fragment illustrates how to associate a comment with a user by calling the [**NetUserSetInfo**](netusersetinfo.md) function. The [**USER\_INFO\_1007**](user-info-1007-str.md) topic contains additional information.
+The following code fragment illustrates how to associate a comment with a user by calling the [**NetUserSetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusersetinfo?branch=master) function. The [**USER\_INFO\_1007**](/windows/win32/Lmaccess/ns-lmaccess-_user_info_1007?branch=master) topic contains additional information.
 
 
 ```C++
@@ -148,9 +153,9 @@ else
 
 ## Setting the User Flags, Level 1008
 
-The following code fragment illustrates how to set user flags with a call to the [**NetUserSetInfo**](netusersetinfo.md) function. The [**USER\_INFO\_1008**](user-info-1008-str.md) topic contains a list of valid values for the flags and a description of each flag.
+The following code fragment illustrates how to set user flags with a call to the [**NetUserSetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusersetinfo?branch=master) function. The [**USER\_INFO\_1008**](/windows/win32/Lmaccess/ns-lmaccess-_user_info_1008?branch=master) topic contains a list of valid values for the flags and a description of each flag.
 
-Note that the UF\_SCRIPT flag must be set for Windows NT, Windows 2000, Windows XP, and LAN Manager networks. Trying to set other flags without setting UF\_SCRIPT on these networks will cause the [**NetUserSetInfo**](netusersetinfo.md) function to fail.
+Note that the UF\_SCRIPT flag must be set for Windows NT, Windows 2000, Windows XP, and LAN Manager networks. Trying to set other flags without setting UF\_SCRIPT on these networks will cause the [**NetUserSetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusersetinfo?branch=master) function to fail.
 
 
 ```C++
@@ -173,7 +178,7 @@ else
 
 ## Setting the User Script Path, Level 1009
 
-The following code fragment illustrates how to set the path for the logon script file of a particular user with a call to the [**NetUserSetInfo**](netusersetinfo.md) function. The script file can be a .CMD file, an .EXE file, or a .BAT file. The string can also be null. The [**USER\_INFO\_1009**](user-info-1009-str.md) topic contains additional information.
+The following code fragment illustrates how to set the path for the logon script file of a particular user with a call to the [**NetUserSetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusersetinfo?branch=master) function. The script file can be a .CMD file, an .EXE file, or a .BAT file. The string can also be null. The [**USER\_INFO\_1009**](/windows/win32/Lmaccess/ns-lmaccess-_user_info_1009?branch=master) topic contains additional information.
 
 
 ```C++
@@ -196,7 +201,7 @@ else
 
 ## Setting The User Authority Flags, Level 1010
 
-The following code fragment illustrates how to set the operator privilege flags for a user with a call to the [**NetUserSetInfo**](netusersetinfo.md) function. The [**USER\_INFO\_1010**](user-info-1010-str.md) topic contains a list of valid values for the flags and a description of each flag.
+The following code fragment illustrates how to set the operator privilege flags for a user with a call to the [**NetUserSetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusersetinfo?branch=master) function. The [**USER\_INFO\_1010**](/windows/win32/Lmaccess/ns-lmaccess-_user_info_1010?branch=master) topic contains a list of valid values for the flags and a description of each flag.
 
 
 ```C++
@@ -219,7 +224,7 @@ else
 
 ## Setting The User Full Name, Level 1011
 
-The following code fragment illustrates how to set a user's full name with a call to the [**NetUserSetInfo**](netusersetinfo.md) function. The [**USER\_INFO\_1011**](user-info-1011-str.md) topic contains additional information.
+The following code fragment illustrates how to set a user's full name with a call to the [**NetUserSetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusersetinfo?branch=master) function. The [**USER\_INFO\_1011**](/windows/win32/Lmaccess/ns-lmaccess-_user_info_1011?branch=master) topic contains additional information.
 
 
 ```C++

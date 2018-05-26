@@ -1,20 +1,25 @@
 ---
-Description: 'Proxy function for the CreatePalette method.'
-ms.assetid: 'c83b4239-ce6b-4a4c-ab70-df31dfcdd26c'
-title: 'IWICImagingFactory\_CreatePalette\_Proxy function'
+Description: Proxy function for the CreatePalette method.
+ms.assetid: c83b4239-ce6b-4a4c-ab70-df31dfcdd26c
+title: IWICImagingFactory\_CreatePalette\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICImagingFactory\_CreatePalette\_Proxy function
 
-Proxy function for the [**CreatePalette**](-wic-codec-iwicimagingfactory-createpalette.md) method.
+Proxy function for the [**CreatePalette**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createpalette?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICImagingFactory_CreatePalette_Proxy(
-  _In_  IWICImagingFactory *pFactory,
-  _Out_ IWICPalette        **ppIPalette
+  _In_  IWICImagingFactory *pFactory,
+  _Out_ IWICPalette        **ppIPalette
 );
 ```
 
@@ -27,16 +32,16 @@ HRESULT IWICImagingFactory_CreatePalette_Proxy(
 *pFactory* \[in\]
 </dt> <dd>
 
-Type: **[**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md)\***
+Type: **[**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master)\***
 
 </dd> <dt>
 
 *ppIPalette* \[out\]
 </dt> <dd>
 
-Type: **[**IWICPalette**](-wic-codec-iwicpalette.md)\*\***
+Type: **[**IWICPalette**](/windows/win32/Wincodec/nn-wincodec-iwicpalette?branch=master)\*\***
 
-A pointer that receives a pointer to a new [**IWICPalette**](-wic-codec-iwicpalette.md).
+A pointer that receives a pointer to a new [**IWICPalette**](/windows/win32/Wincodec/nn-wincodec-iwicpalette?branch=master).
 
 </dd> </dl>
 
@@ -54,15 +59,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

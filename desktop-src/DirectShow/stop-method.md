@@ -1,7 +1,12 @@
 ---
-Description: 'The Stop method stops playback.'
-ms.assetid: 'ede19f02-6eda-42da-a108-06d78dc2e8a9'
+Description: The Stop method stops playback.
+ms.assetid: ede19f02-6eda-42da-a108-06d78dc2e8a9
 title: Stop Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stop Method

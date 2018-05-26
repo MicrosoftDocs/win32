@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_SUBRESOURCE\_FOOTPRINT structure
 description: A helper structure to enable easy initialization of a D3D12\_SUBRESOURCE\_FOOTPRINT structure.
-ms.assetid: '17266FB0-41B5-4A70-A896-206B54F5E76F'
-keywords: ["CD3DX12_SUBRESOURCE_FOOTPRINT structure"]
+ms.assetid: 17266FB0-41B5-4A70-A896-206B54F5E76F
+keywords:
+- CD3DX12_SUBRESOURCE_FOOTPRINT structure
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_SUBRESOURCE\_FOOTPRINT structure
 
-A helper structure to enable easy initialization of a [**D3D12\_SUBRESOURCE\_FOOTPRINT**](d3d12-subresource-footprint.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_SUBRESOURCE\_FOOTPRINT**](/windows/win32/d3d12/ns-d3d12-d3d12_subresource_footprint?branch=master) structure.
 
 ## Syntax
 
@@ -46,7 +52,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_SUBRESOURCE\_FOOTPRINT.
 **explicit CD3DX12\_SUBRESOURCE\_FOOTPRINT(const D3D12\_SUBRESOURCE\_FOOTPRINT &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_SUBRESOURCE\_FOOTPRINT, initialized with the contents of another [**D3D12\_SUBRESOURCE\_FOOTPRINT**](d3d12-subresource-footprint.md) structure.
+Creates a new instance of a CD3DX12\_SUBRESOURCE\_FOOTPRINT, initialized with the contents of another [**D3D12\_SUBRESOURCE\_FOOTPRINT**](/windows/win32/d3d12/ns-d3d12-d3d12_subresource_footprint?branch=master) structure.
 
 </dd> <dt>
 
@@ -72,7 +78,7 @@ UINT rowPitch
 
 Creates a new instance of a CD3DX12\_SUBRESOURCE\_FOOTPRINT, initializing the following parameters:
 
-[**D3D12\_RESOURCE\_DESC**](d3d12-resource-desc.md)& resDesc
+[**D3D12\_RESOURCE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_resource_desc?branch=master)& resDesc
 
 UINT rowPitch
 
@@ -99,15 +105,15 @@ Defines the & pass-by-reference operator for the parent structure type.
 
 <dl> <dt>
 
-[**D3D12\_SUBRESOURCE\_FOOTPRINT**](d3d12-subresource-footprint.md)
+[**D3D12\_SUBRESOURCE\_FOOTPRINT**](/windows/win32/d3d12/ns-d3d12-d3d12_subresource_footprint?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

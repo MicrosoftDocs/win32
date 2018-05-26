@@ -1,7 +1,12 @@
 ---
-Description: 'Uses sequential calls to retrieve all of the strings within specified ranges.'
-ms.assetid: '4e819975-84a5-4b73-9a19-792d3607da9c'
+Description: Uses sequential calls to retrieve all of the strings within specified ranges.
+ms.assetid: 4e819975-84a5-4b73-9a19-792d3607da9c
 title: GetStringsFromBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetStringsFromBlob function
@@ -13,15 +18,15 @@ The **GetStringsFromBlob** function uses sequential calls to retrieve all of the
 
 ```C++
 DWORD GetStringsFromBlob(
-  _In_        HBLOB hBlob,
-  _In_  const char  *pRequestedOwnerName,
-  _In_  const char  *pRequestedCategoryName,
-  _In_  const char  *pRequestedTagName,
-  _Out_ const char  **ppReturnedOwnerName,
-  _Out_ const char  **ppReturnedCategoryName,
-  _Out_ const char  **ppReturnedTagName,
-  _Out_ const char  **ppReturnedString,
-  _Out_       DWORD *pRestartKey
+  _In_        HBLOB hBlob,
+  _In_  const char  *pRequestedOwnerName,
+  _In_  const char  *pRequestedCategoryName,
+  _In_  const char  *pRequestedTagName,
+  _Out_ const char  **ppReturnedOwnerName,
+  _Out_ const char  **ppReturnedCategoryName,
+  _Out_ const char  **ppReturnedTagName,
+  _Out_ const char  **ppReturnedString,
+  _Out_       DWORD *pRestartKey
 );
 ```
 
@@ -118,8 +123,8 @@ When the initial call to **GetStringsFromBlob** returns, *pRestartKey* points to
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -160,9 +165,9 @@ When the initial call to **GetStringsFromBlob** returns, *pRestartKey* points to
 [GetStringFromBlob](getstringfromblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

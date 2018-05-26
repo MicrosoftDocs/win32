@@ -1,8 +1,11 @@
 ---
 title: IMessenger InstantMessage method
 description: Launches a conversation window with the initial recipient specified as a parameter.
-ms.assetid: 'ea372150-165b-4b3a-95c1-67713d8ad69a'
-keywords: ["InstantMessage method Windows Messenger", "InstantMessage method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , InstantMessage method"]
+ms.assetid: ea372150-165b-4b3a-95c1-67713d8ad69a
+keywords:
+- InstantMessage method Windows Messenger
+- InstantMessage method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , InstantMessage method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::InstantMessage method
 
-\[**InstantMessage** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**InstantMessage** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Launches a conversation window with the initial recipient specified as a parameter.
 
@@ -24,8 +32,8 @@ Launches a conversation window with the initial recipient specified as a paramet
 
 ```C++
 HRESULT InstantMessage(
-  [in]          VARIANT   vContact,
-  [out, retval] IDispatch **ppMWindow
+  [in]          VARIANT   vContact,
+  [out, retval] IDispatch **ppMWindow
 );
 ```
 
@@ -59,7 +67,7 @@ A pointer to a pointer to the [IDispatch](c1accca9-971c-4435-8a5e-e25404a3fb25) 
 
 Type: **HRESULT**
 
-Returns one of the following values. 
+Returns one of the following values. 
 
 
 
@@ -74,7 +82,7 @@ Returns one of the following values. 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -90,12 +98,12 @@ A client cannot open a message to the local client user. This will result in E\_
 
 *ppMWindow* should be released when it is no longer needed.
 
-The Windows Messenger APIs cannot determine whether a message can be successfully delivered. The success or failure of delivery is known only to the client user in real time. The process of clicking the **Send** button (thereby submitting the message to the Messenger servers for distribution) is controlled by the client user and cannot be automated. Users of the **InstantMessage** API should still make their best effort to assure that the *vContact* string they pass specifies a legitimately addressable user. Validation and error checking for the supplied contact's name should be performed before it reaches this method. When this method is invoked, the conversation UI will always be displayed, even if the value entered for *vContact* is not a valid user or in a valid format.
+The Windows Messenger APIs cannot determine whether a message can be successfully delivered. The success or failure of delivery is known only to the client user in real time. The process of clicking the **Send** button (thereby submitting the message to the Messenger servers for distribution) is controlled by the client user and cannot be automated. Users of the **InstantMessage** API should still make their best effort to assure that the *vContact* string they pass specifies a legitimately addressable user. Validation and error checking for the supplied contact's name should be performed before it reaches this method. When this method is invoked, the conversation UI will always be displayed, even if the value entered for *vContact* is not a valid user or in a valid format.
 
 > [!Note]  
 > This method is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -103,8 +111,8 @@ The Windows Messenger APIs cannot determine whether a message can be successfull
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -121,9 +129,9 @@ The Windows Messenger APIs cannot determine whether a message can be successfull
 [**IMessengerContact**](im-imessengercontact.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

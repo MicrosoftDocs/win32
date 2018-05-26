@@ -4,11 +4,18 @@ description: An automatic quota is used to automatically create a quota for each
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2727655d-11d7-4d23-838b-028c46ee79e4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 2727655d-11d7-4d23-838b-028c46ee79e4
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , defining and using automatic quotas", "quotas File Server Resource Manager", "automatic quotas File Server Resource Manager", "defining automatic quotas File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , defining and using automatic quotas
+- quotas File Server Resource Manager
+- automatic quotas File Server Resource Manager
+- defining automatic quotas File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Defining and Using Automatic Quotas
@@ -17,7 +24,7 @@ An automatic quota is used to automatically create a quota for each new subdirec
 
 For example, if you apply an automatic quota to *folder*, and folder contains subdirectories *A*, *B*, and *C*, FSRM creates a quota for *folder*\\*A* and *folder*\\*C*, assuming *folder*\\*B* already contains the quota created in [Defining a Quota](defining-a-quota.md). If later you add *folder*\\*D*, FSRM will create a quota for it.
 
-To prevent FSRM from automatically creating a quota for one or more subdirectories, use the [**IFsrmAutoApplyQuota::ExcludeFolders**](ifsrmautoapplyquota-excludefolders.md) property to specify the subdirectories.
+To prevent FSRM from automatically creating a quota for one or more subdirectories, use the [**IFsrmAutoApplyQuota::ExcludeFolders**](/windows/previous-versions/FsrmQuota/nf-fsrmquota-ifsrmautoapplyquota-get_excludefolders?branch=master) property to specify the subdirectories.
 
 An automatic quota differs from a quota in the following ways:
 

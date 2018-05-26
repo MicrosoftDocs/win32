@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'F9907D49-F9FE-406A-BF5F-17C61706ADC1'
+Description: .
+ms.assetid: F9907D49-F9FE-406A-BF5F-17C61706ADC1
 title: AJAX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AJAX

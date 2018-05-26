@@ -1,7 +1,12 @@
 ---
 title: IDE Bus Structures
 description: IDE Bus Structures
-ms.assetid: 'df2839da-6793-4e6b-b347-da4db8a0ca65'
+ms.assetid: df2839da-6793-4e6b-b347-da4db8a0ca65
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDE Bus Structures

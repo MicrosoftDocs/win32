@@ -1,14 +1,20 @@
 ---
 title: determinant
 description: Returns the determinant of the specified floating-point, square matrix.
-ms.assetid: '9062b6f1-8518-4ee4-8d57-5aa9e2176d05'
-keywords: ["determinant HLSL"]
+ms.assetid: 9062b6f1-8518-4ee4-8d57-5aa9e2176d05
+keywords:
+- determinant HLSL
 topic_type:
 - apiref
 api_name:
 - determinant
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # determinant
@@ -22,7 +28,7 @@ Returns the determinant of the specified floating-point, square matrix.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the determinant of the specified floating-point, square matrix.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The floating-point, scalar value that represents the determinant of the *m* para
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

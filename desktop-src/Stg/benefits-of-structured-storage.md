@@ -1,8 +1,14 @@
 ---
 title: Benefits of Structured Storage
 description: COM provides a set of services collectively called structured storage.
-ms.assetid: 'd05d2dbc-d1d2-4ef8-a773-5337e2746da3'
-keywords: ["Structured Storage Strctd Stg , benefits"]
+ms.assetid: d05d2dbc-d1d2-4ef8-a773-5337e2746da3
+keywords:
+- Structured Storage Strctd Stg , benefits
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Benefits of Structured Storage

@@ -1,12 +1,17 @@
 ---
-Description: 'The CBaseInputPin method begins a flush operation. This method implements the IPin::BeginFlush method.'
-ms.assetid: '3f149d4f-765b-44c1-87e5-6313f6a4d50d'
-title: 'CBaseInputPin.BeginFlush method'
+Description: The CBaseInputPin method begins a flush operation. This method implements the IPinBeginFlush method.
+ms.assetid: 3f149d4f-765b-44c1-87e5-6313f6a4d50d
+title: CBaseInputPin.BeginFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin.BeginFlush method
 
-The `CBaseInputPin` method begins a flush operation. This method implements the [**IPin::BeginFlush**](ipin-beginflush.md) method.
+The `CBaseInputPin` method begins a flush operation. This method implements the [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) method.
 
 ## Syntax
 
@@ -31,7 +36,7 @@ This method sets the [**CBaseInputPin::m\_bFlushing**](cbaseinputpin-m-bflushing
 
 The derived class must override this method and perform the following steps:
 
-1.  Call the [**IPin::BeginFlush**](ipin-beginflush.md) method on downstream input pins. If the pin has not yet delivered any media samples downstream, you can skip this step. If your output pins derive from the [**CBaseOutputPin**](cbaseoutputpin.md) class, you can call the [**CBaseOutputPin::DeliverBeginFlush**](cbaseoutputpin-deliverbeginflush.md) method.
+1.  Call the [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) method on downstream input pins. If the pin has not yet delivered any media samples downstream, you can skip this step. If your output pins derive from the [**CBaseOutputPin**](cbaseoutputpin.md) class, you can call the [**CBaseOutputPin::DeliverBeginFlush**](cbaseoutputpin-deliverbeginflush.md) method.
 2.  Call the base class method.
 3.  Begin discarding queued data.
 4.  Return from any blocked calls to the **Receive** method.
@@ -54,9 +59,9 @@ The derived class must override this method and perform the following steps:
 [**CBaseInputPin Class**](cbaseinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

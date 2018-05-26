@@ -1,14 +1,20 @@
 ---
 title: PeapExtensions (EapType) Element
 description: Enables future enhancements to the schema.
-ms.assetid: 'f04d1361-c88e-4415-9a81-d1195b14de05'
-keywords: ["PeapExtensions element EAPHost"]
+ms.assetid: f04d1361-c88e-4415-9a81-d1195b14de05
+keywords:
+- PeapExtensions element EAPHost
 topic_type:
 - apiref
 api_name:
 - PeapExtensions
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PeapExtensions (EapType) Element
@@ -33,8 +39,8 @@ The **PeapExtensions (EapType)** element is optional.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ The **PeapExtensions (EapType)** element is optional.
 [mspeapuserpropertiesv1 Schema](mspeapuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

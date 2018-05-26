@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the name of the manufacturer.'
-ms.assetid: '7d73a4fe-6fd1-4d99-80fb-9aa5ddcdca12'
+Description: Specifies the name of the manufacturer.
+ms.assetid: 7d73a4fe-6fd1-4d99-80fb-9aa5ddcdca12
 title: manufacturer element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # manufacturer element
@@ -38,14 +43,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

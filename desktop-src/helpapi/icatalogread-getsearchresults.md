@@ -1,8 +1,11 @@
 ---
 title: ICatalogRead GetSearchResults method
 description: method GetSearchResults - returns an ITopicCollection for a given query within a catalog. filter is a collection of key/value pairs to refine the search results. Supports paging.
-ms.assetid: 'f547ed67-c2ff-4b5d-bc6e-7741157f1c18'
-keywords: ["GetSearchResults method HelpAPI", "GetSearchResults method HelpAPI , ICatalogRead interface", "ICatalogRead interface HelpAPI , GetSearchResults method"]
+ms.assetid: f547ed67-c2ff-4b5d-bc6e-7741157f1c18
+keywords:
+- GetSearchResults method HelpAPI
+- GetSearchResults method HelpAPI , ICatalogRead interface
+- ICatalogRead interface HelpAPI , GetSearchResults method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICatalogRead::GetSearchResults method
@@ -22,14 +30,14 @@ method GetSearchResults - returns an ITopicCollection for a given query within a
 
 ```C++
 HRESULT GetSearchResults(
-  [in]          ICatalog         *Catalog,
-  [in]          BSTR             query,
-  [in]          IHelpFilter      *filter,
-  [in]          long             options,
-  [in]          long             pageSize,
-  [in]          long             pageNumber,
-  [out]         long             *totalSearchResults,
-  [out, retval] ITopicCollection **pRetVal
+  [in]          ICatalog         *Catalog,
+  [in]          BSTR             query,
+  [in]          IHelpFilter      *filter,
+  [in]          long             options,
+  [in]          long             pageSize,
+  [in]          long             pageNumber,
+  [out]         long             *totalSearchResults,
+  [out, retval] ITopicCollection **pRetVal
 );
 ```
 
@@ -73,8 +81,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -86,9 +94,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ICatalogRead**](icatalogread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

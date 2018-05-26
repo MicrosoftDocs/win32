@@ -1,7 +1,12 @@
 ---
-Description: 'There might be times when you want to create an off-screen bitmap that has the following characteristics:'
-ms.assetid: '2a7590ce-daf4-4892-a838-603e3f89b1bb'
+Description: There might be times when you want to create an off-screen bitmap that has the following characteristics
+ms.assetid: 2a7590ce-daf4-4892-a838-603e3f89b1bb
 title: Using Compositing Mode to Control Alpha Blending
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Compositing Mode to Control Alpha Blending
@@ -12,11 +17,11 @@ There might be times when you want to create an off-screen bitmap that has the f
 -   Colors are not alpha blended with each other as you create the bitmap.
 -   When you display the finished bitmap, colors in the bitmap are alpha blended with the background colors on the display device.
 
-To create such a bitmap, construct a blank [**Bitmap**](-gdiplus-class-bitmap-class.md) object, and then construct a [**Graphics**](-gdiplus-class-graphics-class.md) object based on that bitmap. Set the compositing mode of the **Graphics** object to CompositingModeSourceCopy.
+To create such a bitmap, construct a blank [**Bitmap**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-bitmap?branch=master) object, and then construct a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object based on that bitmap. Set the compositing mode of the **Graphics** object to CompositingModeSourceCopy.
 
-The following example creates a [**Graphics**](-gdiplus-class-graphics-class.md) object based on a [**Bitmap**](-gdiplus-class-bitmap-class.md) object. The code uses the **Graphics** object along with two semitransparent brushes (alpha = 160) to paint on the bitmap. The code fills a red ellipse and a green ellipse using the semitransparent brushes. The green ellipse overlaps the red ellipse, but the green is not blended with the red because the compositing mode of the **Graphics** object is set to CompositingModeSourceCopy.
+The following example creates a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object based on a [**Bitmap**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-bitmap?branch=master) object. The code uses the **Graphics** object along with two semitransparent brushes (alpha = 160) to paint on the bitmap. The code fills a red ellipse and a green ellipse using the semitransparent brushes. The green ellipse overlaps the red ellipse, but the green is not blended with the red because the compositing mode of the **Graphics** object is set to CompositingModeSourceCopy.
 
-Next the code prepares to draw on the screen by calling [BeginPaint](http://msdn.microsoft.com/library/en-us/gdi/pantdraw_7b78.asp) and creating a [**Graphics**](-gdiplus-class-graphics-class.md) object based on a device context. The code draws the bitmap on the screen twice: once on a white background and once on a multicolored background. The pixels in the bitmap that are part of the two ellipses have an alpha component of 160, so the ellipses are blended with the background colors on the screen.
+Next the code prepares to draw on the screen by calling [BeginPaint](http://msdn.microsoft.com/library/en-us/gdi/pantdraw_7b78.asp) and creating a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object based on a device context. The code draws the bitmap on the screen twice: once on a white background and once on a multicolored background. The pixels in the bitmap that are part of the two ellipses have an alpha component of 160, so the ellipses are blended with the background colors on the screen.
 
 
 ```

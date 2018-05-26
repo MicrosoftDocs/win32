@@ -4,17 +4,21 @@ description: Specifies the root directory from which the cluster shared volumes 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '28D26F55-9276-47B3-B4DB-59477ADE89F9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 28D26F55-9276-47B3-B4DB-59477ADE89F9
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["SharedVolumesRoot Failover Cluster"]
+keywords:
+- SharedVolumesRoot Failover Cluster
 topic_type:
 - apiref
 api_name:
 - SharedVolumesRoot
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SharedVolumesRoot
@@ -27,13 +31,13 @@ Specifies the root directory from which the cluster shared volumes (CSVs) are li
 |-----------|------------------------------------------------------------------|
 | Data type | **NULL**-terminated Unicode string                               |
 | Access    | [Read-only](read-only-properties.md)                            |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -48,7 +52,7 @@ The entire path of a CSV share is stored if the share is part of a [scale out fi
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -59,9 +63,9 @@ The entire path of a CSV share is stored if the share is part of a [scale out fi
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

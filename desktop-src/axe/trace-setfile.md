@@ -1,8 +1,11 @@
 ---
 title: Trace SetFile method
 description: Sets the file name of the Trace.
-ms.assetid: '8A212615-4321-4745-9E8A-B15E17061FF3'
-keywords: ["SetFile method Access Execution Engine", "SetFile method Access Execution Engine , Trace interface", "Trace interface Access Execution Engine , SetFile method"]
+ms.assetid: 8A212615-4321-4745-9E8A-B15E17061FF3
+keywords:
+- SetFile method Access Execution Engine
+- SetFile method Access Execution Engine , Trace interface
+- Trace interface Access Execution Engine , SetFile method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trace::SetFile method
@@ -22,7 +30,7 @@ Sets the file name of the **Trace**.
 
 ```C++
 virtual HRESULT SetFile(
-  [in] LPCWSTR file
+  [in] LPCWSTR file
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The file name is the value of element **Trace/File**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The file name is the value of element **Trace/File**.
 [**Trace**](trace-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

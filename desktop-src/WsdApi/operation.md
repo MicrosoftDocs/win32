@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies an operation for which code is to be generated.'
-ms.assetid: '559c7fcd-9652-4dfa-b22a-45929b6aee14'
+Description: Specifies an operation for which code is to be generated.
+ms.assetid: 559c7fcd-9652-4dfa-b22a-45929b6aee14
 title: operation element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # operation element
@@ -76,14 +81,14 @@ This generates idl function declarations for all methods associated with the two
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

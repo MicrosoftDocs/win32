@@ -1,7 +1,12 @@
 ---
 title: Color2 Attribute (Fill)(VML)
 description: Color2 Attribute (Fill)(VML)
-ms.assetid: '971c8783-8c7b-43c7-8b94-01159336eef6'
+ms.assetid: 971c8783-8c7b-43c7-8b94-01159336eef6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color2 Attribute (Fill)(VML)

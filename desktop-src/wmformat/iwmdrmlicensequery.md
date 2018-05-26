@@ -1,14 +1,21 @@
 ---
 title: IWMDRMLicenseQuery interface
 description: The IWMDRMLicenseQuery interface enables applications to query the rights and license state for a protected file.
-ms.assetid: '4ec8ff9f-0acb-4389-8995-65f24736491b'
-keywords: ["IWMDRMLicenseQuery interface windows Media Format", "IWMDRMLicenseQuery interface windows Media Format , described"]
+ms.assetid: 4ec8ff9f-0acb-4389-8995-65f24736491b
+keywords:
+- IWMDRMLicenseQuery interface windows Media Format
+- IWMDRMLicenseQuery interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMLicenseQuery
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseQuery interface
@@ -37,7 +44,7 @@ The **IWMDRMLicenseQuery** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -50,9 +57,9 @@ The methods of **IWMDRMLicenseQuery** do not provide information about individua
 [**Interfaces**](drm-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

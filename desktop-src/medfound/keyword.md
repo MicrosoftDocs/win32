@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a key word for an MFTrace provider.'
-ms.assetid: '1ce4a5ee-c053-4d31-a984-dc11acebbf2a'
+---
+Description: Specifies a key word for an MFTrace provider.
+ms.assetid: 1ce4a5ee-c053-4d31-a984-dc11acebbf2a
 title: keyword element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # keyword element

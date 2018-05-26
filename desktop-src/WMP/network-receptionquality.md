@@ -1,8 +1,9 @@
 ---
 title: Network.receptionQuality
 description: The receptionQuality property retrieves the percentage of packets received in the last 30 seconds.
-ms.assetid: '432f7f0a-0130-4485-b4a3-daa80ce9bb36'
-keywords: ["Network.receptionQuality Windows Media Player"]
+ms.assetid: 432f7f0a-0130-4485-b4a3-daa80ce9bb36
+keywords:
+- Network.receptionQuality Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.receptionQuality
@@ -89,9 +95,9 @@ function UpdateRQ(){
 [**Player.URL**](player-url.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Using GraphEdit
-ms.assetid: '91a8f111-fce4-4284-afa2-e3ea0ec35bff'
+ms.assetid: 91a8f111-fce4-4284-afa2-e3ea0ec35bff
 title: Using GraphEdit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using GraphEdit
@@ -19,7 +24,7 @@ These DLLs enable GraphEdit to display property pages for some of the built-in D
 
 ## Build a File Playback Graph
 
-GraphEdit can build a filter graph for file playback. This feature is equivalent to calling the [**IGraphBuilder::RenderFile**](igraphbuilder-renderfile.md) method in an application. From the **File** menu, click **Render Media File**. GraphEdit displays an **Open File** dialog box. Select a multimedia file and click **Open**. GraphEdit builds a filter graph to play the file you've selected.
+GraphEdit can build a filter graph for file playback. This feature is equivalent to calling the [**IGraphBuilder::RenderFile**](/windows/win32/Strmif/nf-strmif-igraphbuilder-renderfile?branch=master) method in an application. From the **File** menu, click **Render Media File**. GraphEdit displays an **Open File** dialog box. Select a multimedia file and click **Open**. GraphEdit builds a filter graph to play the file you've selected.
 
 You can also render a media file located at a URL. From the **File** menu, click **Render URL**. GraphEdit displays a dialog box in which to type the URL.
 
@@ -35,16 +40,16 @@ To add a filter to the graph, select the name of the filter and click the **Inse
 
 ## Run the Graph
 
-Once you have built a filter graph in Graph Edit, you can run the graph to see whether it works as you expect. The **Graph** menu contains the menu commands **Play**, **Pause**, and **Stop**. These commands invoke to the [**IMediaControl**](imediacontrol.md) methods [**Run**](imediacontrol-run.md), [**Pause**](imediacontrol-pause.md), and [**Stop**](imediacontrol-stop.md), respectively. The GraphEdit toolbar has buttons for these commands, as well:
+Once you have built a filter graph in Graph Edit, you can run the graph to see whether it works as you expect. The **Graph** menu contains the menu commands **Play**, **Pause**, and **Stop**. These commands invoke to the [**IMediaControl**](/windows/win32/Control/nn-control-imediacontrol?branch=master) methods [**Run**](/windows/win32/Control/nf-control-imediacontrol-run?branch=master), [**Pause**](/windows/win32/Control/nf-control-imediacontrol-pause?branch=master), and [**Stop**](/windows/win32/Control/nf-control-imediacontrol-stop?branch=master), respectively. The GraphEdit toolbar has buttons for these commands, as well:
 
 ![pause, play, and stop buttons](images/gedit-toolbar.png)
 
 > [!Note]  
-> The GraphEdit **Stop** command first pauses the graph and seeks to time zero (assuming the graph is seekable). For file playback, this action resets the video window to the first frame. Then GraphEdit calls [**IMediaControl::Stop**](imediacontrol-stop.md).
+> The GraphEdit **Stop** command first pauses the graph and seeks to time zero (assuming the graph is seekable). For file playback, this action resets the video window to the first frame. Then GraphEdit calls [**IMediaControl::Stop**](/windows/win32/Control/nf-control-imediacontrol-stop?branch=master).
 
  
 
-If the graph is seekable, you can seek it by dragging the slider bar that appears below the toolbar. Dragging the slider bar invokes the [**IMediaSeeking::SetPositions**](imediaseeking-setpositions.md) method.
+If the graph is seekable, you can seek it by dragging the slider bar that appears below the toolbar. Dragging the slider bar invokes the [**IMediaSeeking::SetPositions**](/windows/win32/Strmif/nf-strmif-imediaseeking-setpositions?branch=master) method.
 
 ## View Property Pages
 

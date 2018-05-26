@@ -1,7 +1,12 @@
 ---
 title: Creating Descriptors
 description: Describes and shows examples for creating index, vertex, and constant buffer views; shader resource, render target, unordered access, stream output and depth-stencil views; and samplers. All methods for creating descriptors are free threaded.
-ms.assetid: '0D360A7C-8A2F-49E1-A5CC-98C958B59D1C'
+ms.assetid: 0D360A7C-8A2F-49E1-A5CC-98C958B59D1C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Descriptors
@@ -21,7 +26,7 @@ Describes and shows examples for creating index, vertex, and constant buffer vie
 
 ## Index Buffer View
 
-To create an index buffer view, fill out a [**D3D12\_INDEX\_BUFFER\_VIEW**](d3d12-index-buffer-view.md) structure:
+To create an index buffer view, fill out a [**D3D12\_INDEX\_BUFFER\_VIEW**](/windows/win32/D3D12/ns-d3d12-d3d12_index_buffer_view?branch=master) structure:
 
 ``` syntax
 typedef struct D3D12_INDEX_BUFFER_VIEW
@@ -32,7 +37,7 @@ typedef struct D3D12_INDEX_BUFFER_VIEW
 }   D3D12_INDEX_BUFFER_VIEW;
 ```
 
-Set the location (call [**GetGPUVirtualAddress**](id3d12resource-getgpuvirtualaddress.md)) and size of the buffer, noting that D3D12\_GPU\_VIRTUAL\_ADDRESS is defined as:
+Set the location (call [**GetGPUVirtualAddress**](/windows/win32/d3d12/nf-d3d12-id3d12resource-getgpuvirtualaddress?branch=master)) and size of the buffer, noting that D3D12\_GPU\_VIRTUAL\_ADDRESS is defined as:
 
 `typedef UINT64 D3D12_GPU_VIRTUAL_ADDRESS;`
 
@@ -40,7 +45,7 @@ Refer to the [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/deskt
 
 `const DXGI_FORMAT StandardIndexFormat = DXGI_FORMAT_R32_UINT;`
 
-Finally call [**ID3D12GraphicsCommandList::IASetIndexBuffer**](id3d12graphicscommandlist-iasetindexbuffer.md).
+Finally call [**ID3D12GraphicsCommandList::IASetIndexBuffer**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer?branch=master).
 
 For example,
 
@@ -56,7 +61,7 @@ m_indexBufferView.Format = SampleAssets::StandardIndexFormat;
 
 ## Vertex Buffer View
 
-To create a vertex buffer view, fill out a [**D3D12\_VERTEX\_BUFFER\_VIEW**](d3d12-vertex-buffer-view.md) structure:
+To create a vertex buffer view, fill out a [**D3D12\_VERTEX\_BUFFER\_VIEW**](/windows/win32/d3d12/ns-d3d12-d3d12_vertex_buffer_view?branch=master) structure:
 
 ``` syntax
 typedef struct D3D12_VERTEX_BUFFER_VIEW {
@@ -66,11 +71,11 @@ typedef struct D3D12_VERTEX_BUFFER_VIEW {
 } D3D12_VERTEX_BUFFER_VIEW;
 ```
 
-Set the location (call [**GetGPUVirtualAddress**](id3d12resource-getgpuvirtualaddress.md)) and size of the buffer, noting that D3D12\_GPU\_VIRTUAL\_ADDRESS is defined as:
+Set the location (call [**GetGPUVirtualAddress**](/windows/win32/d3d12/nf-d3d12-id3d12resource-getgpuvirtualaddress?branch=master)) and size of the buffer, noting that D3D12\_GPU\_VIRTUAL\_ADDRESS is defined as:
 
 `typedef UINT64 D3D12_GPU_VIRTUAL_ADDRESS;`
 
-The stride is typically the size of a single vertex data structure, such as `sizeof(Vertex);`, then call [**ID3D12GraphicsCommandList::IASetVertexBuffers**](id3d12graphicscommandlist-iasetvertexbuffers.md).
+The stride is typically the size of a single vertex data structure, such as `sizeof(Vertex);`, then call [**ID3D12GraphicsCommandList::IASetVertexBuffers**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers?branch=master).
 
 For example,
 
@@ -86,7 +91,7 @@ m_vertexBufferView.StrideInBytes = SampleAssets::StandardVertexStride;
 
 ## Shader Resource View
 
-To create a shader resource view, fill out a [**D3D12\_SHADER\_RESOURCE\_VIEW\_DESC**](d3d12-shader-resource-view-desc.md) structure:
+To create a shader resource view, fill out a [**D3D12\_SHADER\_RESOURCE\_VIEW\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_shader_resource_view_desc?branch=master) structure:
 
 ``` syntax
 typedef struct D3D12_SHADER_RESOURCE_VIEW_DESC  
@@ -110,25 +115,25 @@ typedef struct D3D12_SHADER_RESOURCE_VIEW_DESC
     }   D3D12_SHADER_RESOURCE_VIEW_DESC; 
 ```
 
-The `ViewDimension` field is set to zero, or one value of the [**D3D12\_BUFFER\_SRV\_FLAGS**](d3d12-buffer-srv-flags.md) enum.
+The `ViewDimension` field is set to zero, or one value of the [**D3D12\_BUFFER\_SRV\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_buffer_srv_flags?branch=master) enum.
 
-The enums and structures referenced by [**D3D12\_SHADER\_RESOURCE\_VIEW\_DESC**](d3d12-shader-resource-view-desc.md) are:
+The enums and structures referenced by [**D3D12\_SHADER\_RESOURCE\_VIEW\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_shader_resource_view_desc?branch=master) are:
 
 -   [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059)
--   [**D3D12\_BUFFER\_SRV**](d3d12-buffer-srv.md)
--   [**D3D12\_TEX1D\_SRV**](d3d12-tex1d-srv.md)
--   [**D3D12\_TEX1D\_ARRAY\_SRV**](d3d12-tex1d-array-srv.md)
--   [**D3D12\_TEX2D\_SRV**](d3d12-tex2d-srv.md)
--   [**D3D12\_TEX2D\_ARRAY\_SRV**](d3d12-tex2d-array-srv.md)
--   [**D3D12\_TEX2DMS\_SRV**](d3d12-tex2dms-srv.md)
--   [**D3D12\_TEX2DMS\_ARRAY\_SRV**](d3d12-tex2dms-array-srv.md)
--   [**D3D12\_TEX3D\_SRV**](d3d12-tex3d-srv.md)
--   [**D3D12\_TEXCUBE\_SRV**](d3d12-texcube-srv.md)
--   [**D3D12\_TEXCUBE\_ARRAY\_SRV**](d3d12-texcube-array-srv.md)
+-   [**D3D12\_BUFFER\_SRV**](/windows/win32/D3D12/ns-d3d12-d3d12_buffer_srv?branch=master)
+-   [**D3D12\_TEX1D\_SRV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex1d_srv?branch=master)
+-   [**D3D12\_TEX1D\_ARRAY\_SRV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex1d_array_srv?branch=master)
+-   [**D3D12\_TEX2D\_SRV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2d_srv?branch=master)
+-   [**D3D12\_TEX2D\_ARRAY\_SRV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2d_array_srv?branch=master)
+-   [**D3D12\_TEX2DMS\_SRV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2dms_srv?branch=master)
+-   [**D3D12\_TEX2DMS\_ARRAY\_SRV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2dms_array_srv?branch=master)
+-   [**D3D12\_TEX3D\_SRV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex3d_srv?branch=master)
+-   [**D3D12\_TEXCUBE\_SRV**](/windows/win32/D3D12/ns-d3d12-d3d12_texcube_srv?branch=master)
+-   [**D3D12\_TEXCUBE\_ARRAY\_SRV**](/windows/win32/D3D12/ns-d3d12-d3d12_texcube_array_srv?branch=master)
 
 Note below that float `ResourceMinLODClamp` has been added to SRVs for Tex1D/2D/3D/Cube. In D3D11, it was a property of a resource, but this did not match how it was implemented in hardware. `StructureByteStride` has been added to Buffer SRVs, where in D3D11 it was a property of the resource. If the stride is nonzero, that indicates a structured buffer view, and the format must be set to DXGI\_FORMAT\_UNKNOWN.
 
-Finally, to create the shader resource view, call [**ID3D12Device::CreateShaderResourceView**](id3d12device-createshaderresourceview.md).
+Finally, to create the shader resource view, call [**ID3D12Device::CreateShaderResourceView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createshaderresourceview?branch=master).
 
 For example,
 
@@ -149,7 +154,7 @@ m_device->CreateShaderResourceView(m_textures[i].Get(), &amp;srvDesc, cbvSrvHand
 
 ## Constant Buffer View
 
-To create a constant buffer view, fill out a [**D3D12\_CONSTANT\_BUFFER\_VIEW\_DESC**](d3d12-constant-buffer-view-desc.md) structure:
+To create a constant buffer view, fill out a [**D3D12\_CONSTANT\_BUFFER\_VIEW\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_constant_buffer_view_desc?branch=master) structure:
 
 ``` syntax
 typedef struct D3D12_CONSTANT_BUFFER_VIEW_DESC {
@@ -158,7 +163,7 @@ typedef struct D3D12_CONSTANT_BUFFER_VIEW_DESC {
 } D3D12_CONSTANT_BUFFER_VIEW_DESC;
 ```
 
-Then call [**ID3D12Device::CreateConstantBufferView**](id3d12device-createconstantbufferview.md).
+Then call [**ID3D12Device::CreateConstantBufferView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createconstantbufferview?branch=master).
 
 For example,
 
@@ -175,7 +180,7 @@ m_device->CreateConstantBufferView(&amp;cbvDesc, m_cbvHeap->GetCPUDescriptorHand
 
 ## Sampler
 
-To create a sample, fill out a [**D3D12\_SAMPLER\_DESC**](d3d12-sampler-desc.md) structure:
+To create a sample, fill out a [**D3D12\_SAMPLER\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_sampler_desc?branch=master) structure:
 
 ``` syntax
 typedef struct D3D12_SAMPLER_DESC
@@ -195,13 +200,13 @@ typedef struct D3D12_SAMPLER_DESC
 
 To fill out this structure, refer to the following enums:
 
--   [**D3D12\_FILTER**](d3d12-filter.md)
--   [**D3D12\_FILTER\_TYPE**](d3d12-filter-type.md)
--   [**D3D12\_FILTER\_REDUCTION\_TYPE**](d3d12-filter-reduction-type.md)
--   [**D3D12\_TEXTURE\_ADDRESS\_MODE**](d3d12-texture-address-mode.md)
--   [**D3D12\_COMPARISON\_FUNC**](d3d12-comparison-func.md)
+-   [**D3D12\_FILTER**](/windows/win32/D3D12/ne-d3d12-d3d12_filter?branch=master)
+-   [**D3D12\_FILTER\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_filter_type?branch=master)
+-   [**D3D12\_FILTER\_REDUCTION\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_filter_reduction_type?branch=master)
+-   [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_texture_address_mode?branch=master)
+-   [**D3D12\_COMPARISON\_FUNC**](/windows/win32/D3D12/ne-d3d12-d3d12_comparison_func?branch=master)
 
-Finally, call [**ID3D12Device::CreateSampler**](id3d12device-createsampler.md).
+Finally, call [**ID3D12Device::CreateSampler**](/windows/win32/D3D12/nf-d3d12-id3d12device-createsampler?branch=master).
 
 For example,
 
@@ -225,7 +230,7 @@ m_device->CreateSampler(&amp;samplerDesc, m_samplerHeap->GetCPUDescriptorHandleF
 
 ## Unordered Access View
 
-To create an unordered access view, fill out a [**D3D12\_UNORDERED\_ACCESS\_VIEW\_DESC**](d3d12-unordered-access-view-desc.md) structure:
+To create an unordered access view, fill out a [**D3D12\_UNORDERED\_ACCESS\_VIEW\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_unordered_access_view_desc?branch=master) structure:
 
 ``` syntax
 typedef struct D3D12_UNORDERED_ACCESS_VIEW_DESC
@@ -245,21 +250,21 @@ typedef struct D3D12_UNORDERED_ACCESS_VIEW_DESC
 } D3D12_UNORDERED_ACCESS_VIEW_DESC;
 ```
 
-The `ViewDimension` field is set to zero, or one value of the [**D3D12\_BUFFER\_UAV\_FLAGS**](d3d12-buffer-uav-flags.md) enum.
+The `ViewDimension` field is set to zero, or one value of the [**D3D12\_BUFFER\_UAV\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_buffer_uav_flags?branch=master) enum.
 
 Refer to the following enums and structures:
 
 -   [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059)
--   [**D3D12\_BUFFER\_UAV**](d3d12-buffer-uav.md)
--   [**D3D12\_TEX1D\_UAV**](d3d12-tex1d-uav.md)
--   [**D3D12\_TEX1D\_ARRAY\_UAV**](d3d12-tex1d-array-uav.md)
--   [**D3D12\_TEX2D\_UAV**](d3d12-tex2d-uav.md)
--   [**D3D12\_TEX2D\_ARRAY\_UAV**](d3d12-tex2d-array-uav.md)
--   [**D3D12\_TEX3D\_UAV**](d3d12-tex3d-uav.md)
+-   [**D3D12\_BUFFER\_UAV**](/windows/win32/D3D12/ns-d3d12-d3d12_buffer_uav?branch=master)
+-   [**D3D12\_TEX1D\_UAV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex1d_uav?branch=master)
+-   [**D3D12\_TEX1D\_ARRAY\_UAV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex1d_array_uav?branch=master)
+-   [**D3D12\_TEX2D\_UAV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2d_uav?branch=master)
+-   [**D3D12\_TEX2D\_ARRAY\_UAV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2d_array_uav?branch=master)
+-   [**D3D12\_TEX3D\_UAV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex3d_uav?branch=master)
 
 `StructureByteStride` has been added to Buffer UAVs, where in D3D11 it was a property of the resource. If the stride is nonzero, that indicates a structured buffer view, and the format must be set to DXGI\_FORMAT\_UNKNOWN.
 
-Finally call [**ID3D12Device::CreateUnorderedAccessView**](id3d12device-createunorderedaccessview.md).
+Finally call [**ID3D12Device::CreateUnorderedAccessView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createunorderedaccessview?branch=master).
 
 For example,
 
@@ -319,7 +324,7 @@ m_processedCommandBufferCounterReset->Unmap(0, nullptr);
 
 ## Stream Output View
 
-To create a stream output view, fill out a [**D3D12\_STREAM\_OUTPUT\_DESC**](d3d12-stream-output-desc.md) structure.
+To create a stream output view, fill out a [**D3D12\_STREAM\_OUTPUT\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_stream_output_desc?branch=master) structure.
 
 ``` syntax
 typedef struct D3D12_STREAM_OUTPUT_DESC  
@@ -332,11 +337,11 @@ typedef struct D3D12_STREAM_OUTPUT_DESC
     }   D3D12_STREAM_OUTPUT_DESC;  
 ```
 
-Then call [**ID3D12GraphicsCommandList::SOSetTargets**](id3d12graphicscommandlist-sosettargets.md).
+Then call [**ID3D12GraphicsCommandList::SOSetTargets**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-sosettargets?branch=master).
 
 ## Render Target View
 
-To create a render target view, fill out a [**D3D12\_RENDER\_TARGET\_VIEW\_DESC**](d3d12-render-target-view-desc.md) structure.
+To create a render target view, fill out a [**D3D12\_RENDER\_TARGET\_VIEW\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_render_target_view_desc?branch=master) structure.
 
 ``` syntax
 typedef struct D3D12_RENDER_TARGET_VIEW_DESC
@@ -358,21 +363,21 @@ typedef struct D3D12_RENDER_TARGET_VIEW_DESC
 } D3D12_RENDER_TARGET_VIEW_DESC;
 ```
 
-The `ViewDimension` field is set to zero, or one value of the [**D3D12\_RTV\_DIMENSION**](d3d12-rtv-dimension.md) enum.
+The `ViewDimension` field is set to zero, or one value of the [**D3D12\_RTV\_DIMENSION**](/windows/win32/D3D12/ne-d3d12-d3d12_rtv_dimension?branch=master) enum.
 
 Refer to the following enums and structures:
 
 -   [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059)
--   [**D3D12\_BUFFER\_RTV**](d3d12-buffer-rtv.md)
--   [**D3D12\_TEX1D\_RTV**](d3d12-tex1d-rtv.md)
--   [**D3D12\_TEX1D\_ARRAY\_RTV**](d3d12-tex1d-array-rtv.md)
--   [**D3D12\_TEX2D\_RTV**](d3d12-tex2d-rtv.md)
--   [**D3D12\_TEX2DMS\_RTV**](d3d12-tex2dms-rtv.md)
--   [**D3D12\_TEX2D\_ARRAY\_RTV**](d3d12-tex2d-array-rtv.md)
--   [**D3D12\_TEX2DMS\_ARRAY\_RTV**](d3d12-tex2dms-array-rtv.md)
--   [**D3D12\_TEX3D\_RTV**](d3d12-tex3d-rtv.md)
+-   [**D3D12\_BUFFER\_RTV**](/windows/win32/D3D12/ns-d3d12-d3d12_buffer_rtv?branch=master)
+-   [**D3D12\_TEX1D\_RTV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex1d_rtv?branch=master)
+-   [**D3D12\_TEX1D\_ARRAY\_RTV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex1d_array_rtv?branch=master)
+-   [**D3D12\_TEX2D\_RTV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2d_rtv?branch=master)
+-   [**D3D12\_TEX2DMS\_RTV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2dms_rtv?branch=master)
+-   [**D3D12\_TEX2D\_ARRAY\_RTV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2d_array_rtv?branch=master)
+-   [**D3D12\_TEX2DMS\_ARRAY\_RTV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2dms_array_rtv?branch=master)
+-   [**D3D12\_TEX3D\_RTV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex3d_rtv?branch=master)
 
-Finally, call [**ID3D12Device::CreateRenderTargetView**](id3d12device-createrendertargetview.md).
+Finally, call [**ID3D12Device::CreateRenderTargetView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createrendertargetview?branch=master).
 
 Note that an alternative way to create a render target view is to create a render target descriptor heap.
 
@@ -409,7 +414,7 @@ For example,
 
 ## Depth Stencil View
 
-To create a depth stencil view, fill out a [**D3D12\_DEPTH\_STENCIL\_VIEW\_DESC**](d3d12-depth-stencil-view-desc.md) structure:
+To create a depth stencil view, fill out a [**D3D12\_DEPTH\_STENCIL\_VIEW\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_depth_stencil_view_desc?branch=master) structure:
 
 ``` syntax
 typedef struct D3D12_DEPTH_STENCIL_VIEW_DESC  
@@ -429,19 +434,19 @@ typedef struct D3D12_DEPTH_STENCIL_VIEW_DESC
     }   D3D12_DEPTH_STENCIL_VIEW_DESC;  
 ```
 
-The `ViewDimension` field is set to zero, or one value of the [**D3D12\_DSV\_DIMENSION**](d3d12-dsv-dimension.md) enum. Refer to the [**D3D12\_DSV\_FLAGS**](d3d12-dsv-flags.md) enum for the flag settings.
+The `ViewDimension` field is set to zero, or one value of the [**D3D12\_DSV\_DIMENSION**](/windows/win32/D3D12/ne-d3d12-d3d12_dsv_dimension?branch=master) enum. Refer to the [**D3D12\_DSV\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_dsv_flags?branch=master) enum for the flag settings.
 
 Refer to the following enums and structures:
 
 -   [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059)
--   [**D3D12\_TEX1D\_DSV**](d3d12-tex1d-dsv.md)
--   [**D3D12\_TEX1D\_ARRAY\_DSV**](d3d12-tex1d-array-dsv.md)
--   [**D3D12\_TEX2D\_DSV**](d3d12-tex2d-dsv.md)
--   [**D3D12\_TEX2D\_ARRAY\_DSV**](d3d12-tex2d-array-dsv.md)
--   [**D3D12\_TEX2DMS\_DSV**](d3d12-tex2dms-dsv.md)
--   [**D3D12\_TEX2DMS\_ARRAY\_DSV**](d3d12-tex2dms-array-dsv.md)
+-   [**D3D12\_TEX1D\_DSV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex1d_dsv?branch=master)
+-   [**D3D12\_TEX1D\_ARRAY\_DSV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex1d_array_dsv?branch=master)
+-   [**D3D12\_TEX2D\_DSV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2d_dsv?branch=master)
+-   [**D3D12\_TEX2D\_ARRAY\_DSV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2d_array_dsv?branch=master)
+-   [**D3D12\_TEX2DMS\_DSV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2dms_dsv?branch=master)
+-   [**D3D12\_TEX2DMS\_ARRAY\_DSV**](/windows/win32/D3D12/ns-d3d12-d3d12_tex2dms_array_dsv?branch=master)
 
-Finally, call [**ID3D12Device::CreateDepthStencilView**](id3d12device-createdepthstencilview.md).
+Finally, call [**ID3D12Device::CreateDepthStencilView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createdepthstencilview?branch=master).
 
 For example,
 

@@ -1,8 +1,11 @@
 ---
 title: ID3DX11ThreadPump WaitForAllItems method
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Waits for all work items in the thread pump to finish.
-ms.assetid: '6dfdaee8-e563-4c37-a2c1-4b115e29c434'
-keywords: ["WaitForAllItems method Direct3D 11", "WaitForAllItems method Direct3D 11 , ID3DX11ThreadPump interface", "ID3DX11ThreadPump interface Direct3D 11 , WaitForAllItems method"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Waits for all work items in the thread pump to finish.
+ms.assetid: 6dfdaee8-e563-4c37-a2c1-4b115e29c434
+keywords:
+- WaitForAllItems method Direct3D 11
+- WaitForAllItems method Direct3D 11 , ID3DX11ThreadPump interface
+- ID3DX11ThreadPump interface Direct3D 11 , WaitForAllItems method
 topic_type:
 - apiref
 api_name:
@@ -12,14 +15,19 @@ api_location:
 - D3DX11.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11ThreadPump::WaitForAllItems method
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 Waits for all work items in the thread pump to finish.
 
@@ -63,9 +71,9 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: Represents an association between an instance of the CIM\_LogicalEl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '17fa1eed-f121-4eb4-8a39-71eb0e35fb53'
-ms.prod: 'windows-server-dev'
+ms.assetid: 17fa1eed-f121-4eb4-8a39-71eb0e35fb53
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_AllocatedFromStoragePool class iSCSI Software Target API", "MSISCSITARGET_AllocatedFromStoragePool class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_AllocatedFromStoragePool class iSCSI Software Target API
+- MSISCSITARGET_AllocatedFromStoragePool class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - WTWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_AllocatedFromStoragePool class
@@ -38,11 +43,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Association, Version("1.0.0")]
 class MSISCSITARGET_AllocatedFromStoragePool : CIM_AllocatedFromStoragePool
 {
-  CIM_StoragePool    REF Antecedent;
+  CIM_StoragePool    REF Antecedent;
   CIM_LogicalElement REF Dependent;
-  uint64                 SpaceConsumed;
-  uint64                 SpaceLimit = 0;
-  uint16                 SpaceLimitWarningThreshold;
+  uint64                 SpaceConsumed;
+  uint64                 SpaceLimit = 0;
+  uint16                 SpaceLimitWarningThreshold;
 };
 ```
 
@@ -153,7 +158,7 @@ This property is inherited from [**CIM\_AllocatedFromStoragePool**](cim-allocate
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WTWmiProv.dll</dt> </dl>     |
@@ -173,9 +178,9 @@ This property is inherited from [**CIM\_AllocatedFromStoragePool**](cim-allocate
 [**MSISCSITARGET\_StoragePool**](msiscsitarget-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

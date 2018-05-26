@@ -1,8 +1,10 @@
 ---
 title: IWMPLibraryServices (VB and C\ ) interface
 description: Provides methods to enumerate libraries.
-ms.assetid: 'f2a72731-6e61-4f78-b0ca-ae907004eb7d'
-keywords: ["IWMPLibraryServices (VB and C ) interface Windows Media Player", "IWMPLibraryServices (VB and C ) interface Windows Media Player , described"]
+ms.assetid: f2a72731-6e61-4f78-b0ca-ae907004eb7d
+keywords:
+- IWMPLibraryServices (VB and C ) interface Windows Media Player
+- IWMPLibraryServices (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPLibraryServices (VB and C#) interface
@@ -36,7 +43,7 @@ The **IWMPLibraryServices (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 Get an **IWMPLibraryServices** interface by casting the object returned from the **AxWindowsMediaPlayer.GetOcx** method.
 
@@ -60,9 +67,9 @@ Get an **IWMPLibraryServices** interface by casting the object returned from the
 [**IWMPLibrary Interface (VB and C#)**](iwmplibrary--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

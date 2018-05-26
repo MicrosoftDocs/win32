@@ -1,8 +1,9 @@
 ---
 title: MCI\_STEP command
 description: The MCI\_STEP command steps the player one or more frames. Digital-video, VCR, and CAV-format videodisc devices recognize this command.
-ms.assetid: '8d976840-fe9d-4393-b9fc-10f847166b1b'
-keywords: ["MCI_STEP command Windows Multimedia"]
+ms.assetid: 8d976840-fe9d-4393-b9fc-10f847166b1b
+keywords:
+- MCI_STEP command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_STEP command
 
 The MCI\_STEP command steps the player one or more frames. Digital-video, VCR, and CAV-format videodisc devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -82,7 +88,7 @@ Steps in reverse.
 
 </dd> </dl>
 
-For digital-video devices, the *lpStep* parameter points to an [**MCI\_DGV\_STEP\_PARMS**](mci-dgv-step-parms.md) structure.
+For digital-video devices, the *lpStep* parameter points to an [**MCI\_DGV\_STEP\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_step_parms?branch=master) structure.
 
 The following additional flags are used with the **vcr** device type:
 
@@ -130,8 +136,8 @@ For videodisc devices, the *lpStep* parameter points to an [**MCI\_VD\_STEP\_PAR
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -146,9 +152,9 @@ For videodisc devices, the *lpStep* parameter points to an [**MCI\_VD\_STEP\_PAR
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,21 @@ description: Gets the minimum block size that decryption and encryption calls sh
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '85E820A9-A185-4372-A2DC-6D5FDD3DE5DA'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 85E820A9-A185-4372-A2DC-6D5FDD3DE5DA
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectedBuffer.getBlockSize method"]
+keywords:
+- ProtectedBuffer.getBlockSize method
 topic_type:
 - apiref
 api_name:
 - ProtectedBuffer.getBlockSize method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedBuffer.getBlockSize method
@@ -45,11 +49,11 @@ ProtectedBuffer.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the length of a quaternion.'
-ms.assetid: 'daa835c2-2370-4427-a4ca-eddfb43d5c67'
+---
+Description: Returns the length of a quaternion.
+ms.assetid: daa835c2-2370-4427-a4ca-eddfb43d5c67
 title: D3DXQuaternionLength function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionLength function

@@ -1,7 +1,12 @@
 ---
-Description: 'Loads the filter''s data from a given stream.'
-ms.assetid: 'c2bfd379-2916-4698-bc41-653161723706'
-title: 'CPersistStream.Load method'
+Description: Loads the filters data from a given stream.
+ms.assetid: c2bfd379-2916-4698-bc41-653161723706
+title: CPersistStream.Load method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPersistStream.Load method
@@ -13,7 +18,7 @@ Loads the filter's data from a given stream.
 
 ```C++
 HRESULT Load(
-   LPSTREAM pStm
+   LPSTREAM pStm
 );
 ```
 
@@ -56,9 +61,9 @@ This member function implements the **IPersistStream::Load** method.
 [**CPersistStream Class**](cpersiststream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

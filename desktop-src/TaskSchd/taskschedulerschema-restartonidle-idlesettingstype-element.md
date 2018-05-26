@@ -1,14 +1,20 @@
 ---
 title: RestartOnIdle (idleSettingsType) Element
 description: Specifies whether the task is restarted when the computer cycles into an idle condition more than once.
-ms.assetid: '7a7a388c-8dc9-4106-82c1-3435d9f89866'
-keywords: ["RestartOnIdle element Task Scheduler"]
+ms.assetid: 7a7a388c-8dc9-4106-82c1-3435d9f89866
+keywords:
+- RestartOnIdle element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - RestartOnIdle
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RestartOnIdle (idleSettingsType) Element
@@ -41,7 +47,7 @@ This element is used only if the [**TerminateOnIdleEnd**](taskschedulerschema-te
 
 For script development, this task settings is specified using the [**IdleSettings.RestartOnIdle**](idlesettings-restartonidle.md) property.
 
-For C++ development, this task settings is specified using the [**IIdleSettings::RestartOnIdle**](iidlesettings-restartonidle.md) property.
+For C++ development, this task settings is specified using the [**IIdleSettings::RestartOnIdle**](/windows/win32/taskschd/nf-taskschd-iidlesettings-get_restartonidle?branch=master) property.
 
 ## Examples
 
@@ -63,8 +69,8 @@ The following XML defines an idle setting that indicates that the task should no
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -78,9 +84,9 @@ The following XML defines an idle setting that indicates that the task should no
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a value that specifies Windows Integrated authentication for a proxy server.'
+Description: Retrieves a value that specifies Windows Integrated authentication for a proxy server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '5b800826-16d8-4e0d-982e-6521506cd41b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 5b800826-16d8-4e0d-982e-6521506cd41b
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Constants.ProxySchemeWindowsIntegrated property'
+title: Constants.ProxySchemeWindowsIntegrated property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Constants.ProxySchemeWindowsIntegrated property
@@ -113,7 +116,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -131,9 +134,9 @@ END FUNCTION
 [**ProxySchemeDigest**](constants-proxyschemedigest-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

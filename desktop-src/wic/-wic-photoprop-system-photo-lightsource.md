@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.LightSource property.'
-ms.assetid: '051a49ad-bb4c-459f-ae52-dc359a03a14a'
-title: 'System.Photo.LightSource Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.LightSource property.
+ms.assetid: 051a49ad-bb4c-459f-ae52-dc359a03a14a
+title: System.Photo.LightSource Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.LightSource Photo Metadata Policy

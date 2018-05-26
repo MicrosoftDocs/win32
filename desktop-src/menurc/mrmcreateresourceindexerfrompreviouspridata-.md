@@ -1,8 +1,9 @@
 ---
 title: MrmCreateResourceIndexerFromPreviousPriData function
 description: Creates a resource indexer from PRI data created by a previous call to MrmCreateResourceFileInMemory. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
-ms.assetid: '945ED98C-8D73-404F-ACE3-7DD314FB405A'
-keywords: ["MrmCreateResourceIndexerFromPreviousPriData function Menus and Other Resources"]
+ms.assetid: 945ED98C-8D73-404F-ACE3-7DD314FB405A
+keywords:
+- MrmCreateResourceIndexerFromPreviousPriData function Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmCreateResourceIndexerFromPreviousPriData function
@@ -24,12 +30,12 @@ Creates a resource indexer from PRI data created by a previous call to [**MrmCre
 
 ```C++
 HRESULT HRESULT MrmCreateResourceIndexerFromPreviousPriData (
-  _In_     PCWSTR                   projectRoot,
-  _In_     MrmPlatformVersion       platformVersion,
-  _In_opt_ PCWSTR                   defaultQualifiers,
-  _In_     BYTE                     *priData,
-  _In_     ULONG                    priSize,
-  _Inout_  MrmResourceIndexerHandle *indexer
+  _In_     PCWSTR                   projectRoot,
+  _In_     MrmPlatformVersion       platformVersion,
+  _In_opt_ PCWSTR                   defaultQualifiers,
+  _In_     BYTE                     *priData,
+  _In_     ULONG                    priSize,
+  _Inout_  MrmResourceIndexerHandle *indexer
 );
 ```
 
@@ -109,7 +115,7 @@ Don't free *priData* until after you've finished using the resource indexer crea
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Mrmsupport.lib</dt> </dl>       |
@@ -124,9 +130,9 @@ Don't free *priData* until after you've finished using the resource indexer crea
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

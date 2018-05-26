@@ -1,7 +1,12 @@
 ---
-Description: 'The IFindCompressorCB interface is not supported.'
-ms.assetid: '5d5bc006-a13f-48e7-84e8-f4bd6e74e76c'
+Description: The IFindCompressorCB interface is not supported.
+ms.assetid: 5d5bc006-a13f-48e7-84e8-f4bd6e74e76c
 title: IFindCompressorCB interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFindCompressorCB interface

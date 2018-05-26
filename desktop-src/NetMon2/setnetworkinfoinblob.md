@@ -1,7 +1,12 @@
 ---
-Description: 'The SetNetworkInfoInBlob function fills in the NETWORKINFO structure in the BLOB.'
-ms.assetid: '1a511c26-2fa7-4fe4-a5a9-23188c59bc34'
+Description: The SetNetworkInfoInBlob function fills in the NETWORKINFO structure in the BLOB.
+ms.assetid: 1a511c26-2fa7-4fe4-a5a9-23188c59bc34
 title: SetNetworkInfoInBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetNetworkInfoInBlob function
@@ -13,8 +18,8 @@ The **SetNetworkInfoInBlob** function fills in the **NETWORKINFO** structure in 
 
 ```C++
 DWORD SetNetworkInfoInBlob(
-  _In_ HBLOB         hBlob,
-  _In_ LPNETWORKINFO lpNetworkInfo
+  _In_ HBLOB         hBlob,
+  _In_ LPNETWORKINFO lpNetworkInfo
 );
 ```
 
@@ -50,8 +55,8 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -89,9 +94,9 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 [SetStringInBlob](setstringinblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

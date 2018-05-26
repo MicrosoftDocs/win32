@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetTransAtTime method retrieves the transition nearest to the specified time, according to the specified boundary conditions.'
-ms.assetid: '33b3686b-5a9d-4eb2-bd40-4d6f569e7d89'
-title: 'IAMTimelineTransable::GetTransAtTime method'
+---
+Description: The GetTransAtTime method retrieves the transition nearest to the specified time, according to the specified boundary conditions.
+ms.assetid: 33b3686b-5a9d-4eb2-bd40-4d6f569e7d89
+title: IAMTimelineTransableGetTransAtTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTransable::GetTransAtTime method

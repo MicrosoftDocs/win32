@@ -1,7 +1,12 @@
 ---
-Description: 'An application-defined function that frees memory allocated by the AuthzComputeGroupsCallback function. AuthzFreeGroupsCallback is a placeholder for the application-defined function name.'
-ms.assetid: '5563311c-2bd1-4e96-ba0a-5a4225050f77'
+Description: An application-defined function that frees memory allocated by the AuthzComputeGroupsCallback function. AuthzFreeGroupsCallback is a placeholder for the application-defined function name.
+ms.assetid: 5563311c-2bd1-4e96-ba0a-5a4225050f77
 title: AuthzFreeGroupsCallback callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AuthzFreeGroupsCallback callback function
@@ -13,7 +18,7 @@ The **AuthzFreeGroupsCallback** function is an application-defined function that
 
 ```C++
 void CALLBACK AuthzFreeGroupsCallback(
-  _In_ PSID_AND_ATTRIBUTES pSidAttrArray
+  _In_ PSID_AND_ATTRIBUTES pSidAttrArray
 );
 ```
 
@@ -44,9 +49,9 @@ Attribute variables must be in the form of an expression when used with logical 
 
 |                                     |                                                                        |
 |-------------------------------------|------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                   |
-| Redistributable<br/>          | Windows Server 2003 Administration Tools Pack on Windows XP<br/> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                   |
+| Redistributable<br/>          | Windows Server 2003 Administration Tools Pack on Windows XP<br/> |
 
 
 
@@ -60,9 +65,9 @@ Attribute variables must be in the form of an expression when used with logical 
 [**AuthzComputeGroupsCallback**](authzcomputegroupscallback.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

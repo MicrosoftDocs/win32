@@ -4,17 +4,22 @@ description: This is the back link for ms-DS-Value-Type-Reference. It links a va
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4dd9f17d-4d05-4f7c-9aab-a854a726555e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4dd9f17d-4d05-4f7c-9aab-a854a726555e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Value-Type-Reference-BL attribute AD Schema", "msDS-ValueTypeReferenceBL attribute AD Schema"]
+keywords:
+- ms-DS-Value-Type-Reference-BL attribute AD Schema
+- msDS-ValueTypeReferenceBL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Value-Type-Reference-BL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Value-Type-Reference-BL attribute
@@ -38,7 +43,7 @@ This is the back link for ms-DS-Value-Type-Reference. It links a value type obje
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ This is the back link for ms-DS-Value-Type-Reference. It links a value type obje
 
 
 
- 
+ 
 
- 
+ 
 
 
 

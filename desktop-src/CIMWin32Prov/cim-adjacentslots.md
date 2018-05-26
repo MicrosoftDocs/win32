@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_AdjacentSlots association describes the layout of slots on a hosting board or adapter card.'
+Description: The CIM\_AdjacentSlots association describes the layout of slots on a hosting board or adapter card.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd604647f-7b2f-4f99-8d98-adf115ae9dfb'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d604647f-7b2f-4f99-8d98-adf115ae9dfb
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_AdjacentSlots class'
+title: CIM\_AdjacentSlots class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_AdjacentSlots class
@@ -19,7 +22,7 @@ The **CIM\_AdjacentSlots** association describes the layout of slots on a hostin
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,8 +32,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Association, UUID("{FAF76B88-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_AdjacentSlots
 {
-  real32       DistanceBetweenSlots;
-  boolean      SharedSlots;
+  real32       DistanceBetweenSlots;
+  boolean      SharedSlots;
   CIM_Slot REF SlotA;
   CIM_Slot REF SlotB;
 };
@@ -115,8 +118,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -130,9 +133,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [CIM Classes](https://msdn.microsoft.com/library/aa386179)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

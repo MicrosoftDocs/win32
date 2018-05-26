@@ -1,13 +1,16 @@
 ---
-Description: 'The HoursSpecified property of the SWbemDateTime object is a Boolean value that indicates whether the hours component in the CIM datetime value contains an interval or a wildcard value.'
+Description: The HoursSpecified property of the SWbemDateTime object is a Boolean value that indicates whether the hours component in the CIM datetime value contains an interval or a wildcard value.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '55211da6-cbd5-4e61-ab7d-ee20363e9d81'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 55211da6-cbd5-4e61-ab7d-ee20363e9d81
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemDateTime.HoursSpecified property'
+title: SWbemDateTime.HoursSpecified property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemDateTime.HoursSpecified property
@@ -39,8 +42,8 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -62,9 +65,9 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 [DATETIME](datetime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

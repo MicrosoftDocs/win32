@@ -1,7 +1,12 @@
 ---
 title: CMM Transform Creation Flags
 description: CMMs use transform creation flags as hints for how to create a color transform. It is up to the CMM to determine how best to use these flags.
-ms.assetid: 'f3942929-272c-4f08-98ac-a4d14d2f6ac4'
+ms.assetid: f3942929-272c-4f08-98ac-a4d14d2f6ac4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMM Transform Creation Flags

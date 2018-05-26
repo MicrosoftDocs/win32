@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the start time for a segment topology.'
-ms.assetid: 'd8902fb6-c758-4d3d-9230-e918948bda19'
-title: 'MF\_EVENT\_SOURCE\_PROJECTSTART attribute'
+---
+Description: Specifies the start time for a segment topology.
+ms.assetid: d8902fb6-c758-4d3d-9230-e918948bda19
+title: MF\_EVENT\_SOURCE\_PROJECTSTART attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_EVENT\_SOURCE\_PROJECTSTART attribute
@@ -44,10 +49,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Event Attributes](event-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT64**](imfattributes-getuint64.md)
+[**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT64**](imfattributes-setuint64.md)
+[**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master)
 </dt> </dl>
 
  

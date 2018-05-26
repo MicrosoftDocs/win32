@@ -1,24 +1,29 @@
-﻿---
-Description: 'Some image files contain metadata that you can read to determine features of the image.'
-ms.assetid: '2febea35-3fea-4a2d-baaf-7a4f935fc81f'
+---
+Description: Some image files contain metadata that you can read to determine features of the image.
+ms.assetid: 2febea35-3fea-4a2d-baaf-7a4f935fc81f
 title: Reading and Writing Metadata
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading and Writing Metadata
 
 Some image files contain metadata that you can read to determine features of the image. For example, a digital photograph might contain metadata that you can read to determine the make and model of the camera used to capture the image. With Windows GDI+, you can read existing metadata, and you can also write new metadata to image files.
 
-GDI+ provides a uniform way of storing and retrieving metadata from image files in various formats. In GDI+, a piece of metadata is called a *property item*. You can store and retrieve metadata by calling the **SetPropertyItem** and **GetPropertyItem** methods of the [**Image**](-gdiplus-class-image-class.md) class, and you don't have to be concerned about the details of how a particular file format stores that metadata.
+GDI+ provides a uniform way of storing and retrieving metadata from image files in various formats. In GDI+, a piece of metadata is called a *property item*. You can store and retrieve metadata by calling the **SetPropertyItem** and **GetPropertyItem** methods of the [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) class, and you don't have to be concerned about the details of how a particular file format stores that metadata.
 
 GDI+ currently supports metadata for the TIFF, JPEG, Exif, and PNG file formats. The Exif format, which specifies how to store images captured by digital still cameras, is built on top of the TIFF and JPEG formats. Exif uses the TIFF format for uncompressed pixel data and the JPEG format for compressed pixel data.
 
-GDI+ defines a set of property tags that identify property items. Certain tags are general-purpose; that is, they are supported by all of the file formats mentioned in the preceding paragraph. Other tags are special-purpose and apply only to certain formats. If you try to save a property item to a file that does not support that property item, GDI+ ignores the request. More specifically, the [**Image::SetPropertyItem**](-gdiplus-class-image-setpropertyitem-item-.md) method returns PropertyNotSupported.
+GDI+ defines a set of property tags that identify property items. Certain tags are general-purpose; that is, they are supported by all of the file formats mentioned in the preceding paragraph. Other tags are special-purpose and apply only to certain formats. If you try to save a property item to a file that does not support that property item, GDI+ ignores the request. More specifically, the [**Image::SetPropertyItem**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-setpropertyitem?branch=master) method returns PropertyNotSupported.
 
-You can determine the property items that are stored in an image file by calling [**Image::GetPropertyIdList**](-gdiplus-class-image-getpropertyidlist-numofproperty-list-.md). If you try to retrieve a property item that is not in the file, GDI+ ignores the request. More specifically, the [**Image::GetPropertyItem**](-gdiplus-class-image-getpropertyitem-propid-propsize-buffer-.md) method returns PropertyNotFound.
+You can determine the property items that are stored in an image file by calling [**Image::GetPropertyIdList**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getpropertyidlist?branch=master). If you try to retrieve a property item that is not in the file, GDI+ ignores the request. More specifically, the [**Image::GetPropertyItem**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getpropertyitem?branch=master) method returns PropertyNotFound.
 
 ## Reading Metadata from a File
 
-The following console application calls the **GetPropertySize** method of an [**Image**](-gdiplus-class-image-class.md) object to determine how many pieces of metadata are in the file FakePhoto.jpg.
+The following console application calls the **GetPropertySize** method of an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object to determine how many pieces of metadata are in the file FakePhoto.jpg.
 
 
 ```
@@ -57,9 +62,9 @@ The total size of the metadata is 436 bytes.
 
 
 
-GDI+ stores an individual piece of metadata in a [**PropertyItem**](-gdiplus-class-propertyitem-class.md) object. You can call the **GetAllPropertyItems** method of the [**Image**](-gdiplus-class-image-class.md) class to retrieve all the metadata from a file. The **GetAllPropertyItems** method returns an array of **PropertyItem** objects. Before you call **GetAllPropertyItems**, you must allocate a buffer large enough to receive that array. You can call the **GetPropertySize** method of the **Image** class to get the size (in bytes) of the required buffer.
+GDI+ stores an individual piece of metadata in a [**PropertyItem**](/windows/win32/Gdiplusimaging/?branch=master) object. You can call the **GetAllPropertyItems** method of the [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) class to retrieve all the metadata from a file. The **GetAllPropertyItems** method returns an array of **PropertyItem** objects. Before you call **GetAllPropertyItems**, you must allocate a buffer large enough to receive that array. You can call the **GetPropertySize** method of the **Image** class to get the size (in bytes) of the required buffer.
 
-A [**PropertyItem**](-gdiplus-class-propertyitem-class.md) object has the following four public members:
+A [**PropertyItem**](/windows/win32/Gdiplusimaging/?branch=master) object has the following four public members:
 
 
 
@@ -239,9 +244,9 @@ The exposure time is 1/125.
 
 ## Writing Metadata to a File
 
-To write an item of metadata to an [**Image**](-gdiplus-class-image-class.md) object, initialize a [**PropertyItem**](-gdiplus-class-propertyitem-class.md) object and then pass the address of that **PropertyItem** object to the **SetPropertyItem** method of the **Image** object.
+To write an item of metadata to an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object, initialize a [**PropertyItem**](/windows/win32/Gdiplusimaging/?branch=master) object and then pass the address of that **PropertyItem** object to the **SetPropertyItem** method of the **Image** object.
 
-The following console application writes one item (the image title) of metadata to an [**Image**](-gdiplus-class-image-class.md) object and then saves the image in the disk file FakePhoto2.jpg. The main function relies on the helper function GetEncoderClsid, which is shown in the topic [Retrieving the Class Identifier for an Encoder](-gdiplus-retrieving-the-class-identifier-for-an-encoder-use.md).
+The following console application writes one item (the image title) of metadata to an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object and then saves the image in the disk file FakePhoto2.jpg. The main function relies on the helper function GetEncoderClsid, which is shown in the topic [Retrieving the Class Identifier for an Encoder](-gdiplus-retrieving-the-class-identifier-for-an-encoder-use.md).
 
 
 ```

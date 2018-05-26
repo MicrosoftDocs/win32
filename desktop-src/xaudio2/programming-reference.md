@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section contains reference topics for the Microsoft XAudio2 application programming interface (API).'
-ms.assetid: 'f2f7c54d-85eb-a3c6-7333-d5adf16d95d9'
+---
+Description: This section contains reference topics for the Microsoft XAudio2 application programming interface (API).
+ms.assetid: f2f7c54d-85eb-a3c6-7333-d5adf16d95d9
 title: Programming Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Reference

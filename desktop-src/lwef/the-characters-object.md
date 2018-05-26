@@ -1,7 +1,12 @@
 ---
 title: The Characters Object
 description: The Characters Object
-ms.assetid: 'e98f1003-e438-48f0-ace0-e5d015043137'
+ms.assetid: e98f1003-e438-48f0-ace0-e5d015043137
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Characters Object

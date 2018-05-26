@@ -1,7 +1,12 @@
 ---
 title: Implementing the DLL Entry Points
 description: Implementing the DLL Entry Points
-ms.assetid: '0cdadf3c-989a-4c90-a450-dbede601a150'
+ms.assetid: 0cdadf3c-989a-4c90-a450-dbede601a150
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing the DLL Entry Points

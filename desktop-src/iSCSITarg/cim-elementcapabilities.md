@@ -4,13 +4,15 @@ description: ElementCapabilities represents the association between ManagedEleme
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6b525d0a-dbdf-4a73-be6c-02a92e0310fa'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6b525d0a-dbdf-4a73-be6c-02a92e0310fa
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ElementCapabilities class iSCSI Software Target API", "CIM_ElementCapabilities class iSCSI Software Target API , described"]
+keywords:
+- CIM_ElementCapabilities class iSCSI Software Target API
+- CIM_ElementCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ElementCapabilities class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ElementCapabilities
 {
   CIM_ManagedElement REF ManagedElement;
-  CIM_Capabilities   REF Capabilities;
+  CIM_Capabilities   REF Capabilities;
 };
 ```
 
@@ -91,16 +96,16 @@ A [**CIM\_ManagedElement**](cim-managedelement.md) containing the managed elemen
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintPipelinePropertyBag interface is implemented by the PrintFilterPipelineSvc service and is made available to filters through methods in the IPrintPipelineFilter interface. IprintPipelinePropertyBag inherits from the IUnknown interface.'
-ms.assetid: '3997291f-0af3-4fa8-8d36-20ff36551f42'
+---
+Description: The IPrintPipelinePropertyBag interface is implemented by the PrintFilterPipelineSvc service and is made available to filters through methods in the IPrintPipelineFilter interface. IprintPipelinePropertyBag inherits from the IUnknown interface.
+ms.assetid: 3997291f-0af3-4fa8-8d36-20ff36551f42
 title: IPrintPipelinePropertyBag interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintPipelinePropertyBag interface

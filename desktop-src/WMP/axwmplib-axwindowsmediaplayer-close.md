@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.close method
 description: The close method closes the current digital media file, stops playback in Windows Media Player and releases Windows Media Player resources.
-ms.assetid: '3e555086-c31c-42d7-b671-0fd824f66641'
-keywords: ["close method Windows Media Player", "close method Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , close method"]
+ms.assetid: 3e555086-c31c-42d7-b671-0fd824f66641
+keywords:
+- close method Windows Media Player
+- close method Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , close method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.close method
@@ -113,9 +121,9 @@ End Sub</code></pre></td>
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

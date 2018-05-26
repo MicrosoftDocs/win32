@@ -1,7 +1,12 @@
 ---
 Description: Debugging
-ms.assetid: '13C9C38D-2475-4E46-BE03-BE109C0802FB'
+ms.assetid: 13C9C38D-2475-4E46-BE03-BE109C0802FB
 title: Debugging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debugging
@@ -9,16 +14,16 @@ title: Debugging
 ## In this section
 
 -   [Virtual DOS Machine Debug](virtual-dos-machine-debug.md)
--   [**SymbolServer**](symbolserver.md)
--   [*SymbolServerCallback*](symbolservercallback.md)
+-   [**SymbolServer**](/windows/win32/DbgHelp/?branch=master)
+-   [*SymbolServerCallback*](/windows/win32/DbgHelp/nc-dbghelp-psymbolservercallbackproc?branch=master)
 -   [**SymbolServerClose**](symbolserverclose.md)
--   [**SymbolServerGetOptionData**](symbolservergetoptiondata.md)
+-   [**SymbolServerGetOptionData**](/windows/win32/DbgHelp/?branch=master)
 -   [**SymbolServerGetOptions**](symbolservergetoptions.md)
--   [**SymbolServerIsStore**](symbolserverisstore.md)
--   [**SymbolServerPingWEx**](symbolserverpingwex.md)
--   [**SymbolServerSetHttpAuthHeader**](symbolserversethttpauthheader-.md)
+-   [**SymbolServerIsStore**](/windows/win32/DbgHelp/?branch=master)
+-   [**SymbolServerPingWEx**](/windows/win32/DbgHelp/?branch=master)
+-   [**SymbolServerSetHttpAuthHeader**](/windows/win32/DbgHelp/?branch=master)
 -   [**SymbolServerSetOptions**](symbolserversetoptions.md)
--   [**SymbolServerStoreFile**](symbolserverstorefile.md)
+-   [**SymbolServerStoreFile**](/windows/win32/DbgHelp/?branch=master)
 
  
 

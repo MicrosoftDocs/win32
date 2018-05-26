@@ -1,7 +1,12 @@
 ---
 title: iSCSI WMI Structures That Manage Initiators, Ports, Sessions and Connections
 description: iSCSI WMI Structures That Manage Initiators, Ports, Sessions and Connections
-ms.assetid: '54fe0222-1f31-4010-97dd-ed9fb6008b72'
+ms.assetid: 54fe0222-1f31-4010-97dd-ed9fb6008b72
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iSCSI WMI Structures That Manage Initiators, Ports, Sessions and Connections

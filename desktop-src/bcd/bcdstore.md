@@ -1,8 +1,10 @@
 ---
 title: BcdStore class
 description: Represents a BCD store that contains a collection of BCD objects.
-ms.assetid: 'e5020c65-48e6-4e3c-8323-893bfb686fec'
-keywords: ["BcdStore class Boot Config", "BcdStore class Boot Config , described"]
+ms.assetid: e5020c65-48e6-4e3c-8323-893bfb686fec
+keywords:
+- BcdStore class Boot Config
+- BcdStore class Boot Config , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdStore class
@@ -59,7 +66,7 @@ The **BcdStore** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -95,16 +102,16 @@ The [**CreateStore**](createstore-bcdstore.md), [**OpenStore**](openstore-bcdsto
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

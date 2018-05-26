@@ -1,7 +1,12 @@
 ---
-Description: 'Outlines the introduction of libraries for Windows 7.'
-ms.assetid: '83c47963-4c8e-45ee-b707-bd45cfe048cd'
+Description: Outlines the introduction of libraries for Windows 7.
+ms.assetid: 83c47963-4c8e-45ee-b707-bd45cfe048cd
 title: Windows Shell Libraries in Windows 7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Shell Libraries in Windows 7

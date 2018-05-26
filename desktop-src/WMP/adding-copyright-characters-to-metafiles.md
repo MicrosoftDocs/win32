@@ -1,14 +1,20 @@
 ---
 title: Adding Copyright Characters to Metafiles
 description: The characters for copyright and trademark registration symbols ( \ 169; or \ 174; ) may not display correctly if the metafile is not encoded using the UTF-8 encoding scheme.
-ms.assetid: '9124c8d4-1fc1-4163-ada9-d96af58f8b98'
-keywords: ["Adding Copyright Characters to Metafiles Windows Media Player"]
+ms.assetid: 9124c8d4-1fc1-4163-ada9-d96af58f8b98
+keywords:
+- Adding Copyright Characters to Metafiles Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Adding Copyright Characters to Metafiles
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Copyright Characters to Metafiles

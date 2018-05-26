@@ -1,8 +1,19 @@
 ---
 title: DRM Import Examples
 description: DRM Import Examples
-ms.assetid: '074e71b6-076b-4608-982b-f91fc226a8b3'
-keywords: ["Windows Media Format SDK,DRM import", "Windows Media Format SDK,import", "digital rights management (DRM),import", "DRM (digital rights management),import", "DRM Client Extended APIs,import", "Client Extended APIs,import"]
+ms.assetid: 074e71b6-076b-4608-982b-f91fc226a8b3
+keywords:
+- Windows Media Format SDK,DRM import
+- Windows Media Format SDK,import
+- digital rights management (DRM),import
+- DRM (digital rights management),import
+- DRM Client Extended APIs,import
+- Client Extended APIs,import
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM Import Examples

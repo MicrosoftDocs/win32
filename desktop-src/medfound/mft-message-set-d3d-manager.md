@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or clears the Direct3D Device Manager for DirectX Video Accereration (DXVA).'
-ms.assetid: 'fd346d56-1f80-488a-94c8-4e4e36d72890'
-title: 'MFT\_MESSAGE\_SET\_D3D\_MANAGER'
+---
+Description: Sets or clears the Direct3D Device Manager for DirectX Video Accereration (DXVA).
+ms.assetid: fd346d56-1f80-488a-94c8-4e4e36d72890
+title: MFT\_MESSAGE\_SET\_D3D\_MANAGER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_MESSAGE\_SET\_D3D\_MANAGER
@@ -10,11 +15,11 @@ Sets or clears the [Direct3D Device Manager](direct3d-device-manager.md) for Dir
 
 ## Message Parameter
 
-When streaming begins, the *ulParam* parameter contains an **IUnknown** pointer. The MFT will query this pointer for the [**IDirect3DDeviceManager9**](idirect3ddevicemanager9.md) interface for Direct3D 9 and the [**IMFDXGIDeviceManager**](imfdxgidevicemanager.md) interface for Direct3D 11. When streaming stops, the *ulParameter* contains the value **NULL**.
+When streaming begins, the *ulParam* parameter contains an **IUnknown** pointer. The MFT will query this pointer for the [**IDirect3DDeviceManager9**](/windows/win32/dxva2api/nn-dxva2api-idirect3ddevicemanager9?branch=master) interface for Direct3D 9 and the [**IMFDXGIDeviceManager**](/windows/win32/mfobjects/nn-mfobjects-imfdxgidevicemanager?branch=master) interface for Direct3D 11. When streaming stops, the *ulParameter* contains the value **NULL**.
 
 ## Remarks
 
-To send this message, call [**IMFTransform::ProcessMessage**](imftransform-processmessage.md).
+To send this message, call [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master).
 
 This message applies only to video transforms. The client should not send this message unless the MFT returns **TRUE** for the [**MF\_SA\_D3D\_AWARE**](mf-sa-d3d-aware-attribute.md) attribute ([MF\_SA\_D3D11\_AWARE](mf-sa-d3d11-aware.md) for Direct3D 11).
 
@@ -24,9 +29,9 @@ Do not send this message to an MFT with multiple ouputs.
 
 An MFT should support this message only if the MFT uses DirectX Video Acceleration for video processing or decoding.
 
-If an MFT supports this message, it should also implement the [**IMFTransform::GetAttributes**](imftransform-getattributes.md) method and return the value **TRUE** for the [**MF\_SA\_D3D\_AWARE**](mf-sa-d3d-aware-attribute.md) attribute (([MF\_SA\_D3D11\_AWARE](mf-sa-d3d11-aware.md) for Direct3D 11). This attribute informs the client that the client should send the **MFT\_MESSAGE\_SET\_D3D\_MANAGER** message to the MFT before streaming begins.
+If an MFT supports this message, it should also implement the [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) method and return the value **TRUE** for the [**MF\_SA\_D3D\_AWARE**](mf-sa-d3d-aware-attribute.md) attribute (([MF\_SA\_D3D11\_AWARE](mf-sa-d3d11-aware.md) for Direct3D 11). This attribute informs the client that the client should send the **MFT\_MESSAGE\_SET\_D3D\_MANAGER** message to the MFT before streaming begins.
 
-If an MFT does not support this message, it should return **E\_NOTIMPL** from [**ProcessMessage**](imftransform-processmessage.md). This is an exception to the general rule that an MFT can return **S\_OK** from any message it ignores.
+If an MFT does not support this message, it should return **E\_NOTIMPL** from [**ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master). This is an exception to the general rule that an MFT can return **S\_OK** from any message it ignores.
 
 For more information, see [Direct3D-Aware MFTs](direct3d-aware-mfts.md).
 
@@ -55,7 +60,7 @@ For more information, see [Direct3D-Aware MFTs](direct3d-aware-mfts.md).
 [Supporting Direct3D 11 Video Decoding in Media Foundation](supporting-direct3d-11-video-decoding-in-media-foundation.md)
 </dt> <dt>
 
-[**MFT\_MESSAGE\_TYPE**](mft-message-type.md)
+[**MFT\_MESSAGE\_TYPE**](/windows/win32/mftransform/ne-mftransform-_mft_message_type?branch=master)
 </dt> </dl>
 
  

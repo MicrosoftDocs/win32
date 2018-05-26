@@ -1,7 +1,12 @@
 ---
-Description: 'The date the file item was last archived.'
-ms.assetid: 'c59f7029-934f-4b04-bab3-3ea2e3ac3a0e'
-title: 'System.DateArchived'
+Description: The date the file item was last archived.
+ms.assetid: c59f7029-934f-4b04-bab3-3ea2e3ac3a0e
+title: System.DateArchived
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DateArchived

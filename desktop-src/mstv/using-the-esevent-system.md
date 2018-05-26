@@ -1,7 +1,12 @@
 ---
 title: Using the Event Service
 description: Using the Event Service
-ms.assetid: '0e989af3-1378-4a15-b6be-df79512a702f'
+ms.assetid: 0e989af3-1378-4a15-b6be-df79512a702f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Event Service
@@ -12,28 +17,28 @@ Windows 7 offers new features for defining custom events and event services for 
 
 | Interface                                                            | Features                                                                                                                                                                                         |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IESEvent**](iesevent.md)                                         | Defines a generic event interface that can deliver and encapsulate events raised by devices in a media graph.                                                                                    |
-| [**IESEvents**](iesevents.md)                                       | Defines event handling features for devices in a media graph. Devices register to receive specific types of events sent by other devices, and are required to handle only those types of events. |
-| [**IESEventService**](ieseventservice.md)                           | Defines a custom event service that is attached to the media graph with the service id of **SID\_ESEventService**.                                                                               |
-| [**IESEventServiceConfiguration**](ieseventserviceconfiguration.md) | Configures a custom event service.                                                                                                                                                               |
+| [**IESEvent**](/windows/previous-versions/tuner/nn-tuner-iesevent?branch=master)                                         | Defines a generic event interface that can deliver and encapsulate events raised by devices in a media graph.                                                                                    |
+| [**IESEvents**](/windows/previous-versions/tuner/nn-tuner-iesevents?branch=master)                                       | Defines event handling features for devices in a media graph. Devices register to receive specific types of events sent by other devices, and are required to handle only those types of events. |
+| [**IESEventService**](/windows/previous-versions/tuner/nn-tuner-ieseventservice?branch=master)                           | Defines a custom event service that is attached to the media graph with the service id of **SID\_ESEventService**.                                                                               |
+| [**IESEventServiceConfiguration**](/windows/previous-versions/tuner/nn-tuner-ieseventserviceconfiguration?branch=master) | Configures a custom event service.                                                                                                                                                               |
 
 
 
  
 
-The rest of this document uses the term Event Service for a Windows event service that implements the [**IESEvent**](iesevent.md) and [**IESEvents**](iesevents.md) interfaces. Although the Event Service was initially developed to support the Protected Broadcast Driver Architecture (PBDA) in Windows 7, it is a generic event interface that can be used with non-PBDA media graphs, and non-PBDA events in Windows 7 implement these interfaces. For more information about PBDA, download the specification from <http://go.microsoft.com/fwlink/p/?linkid=132926>.
+The rest of this document uses the term Event Service for a Windows event service that implements the [**IESEvent**](/windows/previous-versions/tuner/nn-tuner-iesevent?branch=master) and [**IESEvents**](/windows/previous-versions/tuner/nn-tuner-iesevents?branch=master) interfaces. Although the Event Service was initially developed to support the Protected Broadcast Driver Architecture (PBDA) in Windows 7, it is a generic event interface that can be used with non-PBDA media graphs, and non-PBDA events in Windows 7 implement these interfaces. For more information about PBDA, download the specification from <http://go.microsoft.com/fwlink/p/?linkid=132926>.
 
 ### Registering to Receive Events
 
 An object that receives events from an Event Service must first register for the types of events it wants to receive. To register for events, the object must follow this procedure:
 
 1.  Query the media graph object to obtain a pointer to the media graph's service provider object. A pointer to the **IServiceProvider** interface is returned in the second parameter of the **QueryInterface** call.
-2.  Query the media graph's service provider object to obtain a pointer to the event service object. A pointer to [**IESEventService**](ieseventservice.md) interface is returned in the third parameter of the **QueryService** call.
-3.  Use the [**IESEventService**](ieseventservice.md) pointer from step 2 to obtain a pointer to the connection point container object. A pointer to the **IConnectionPointContainer** interface is returned in the second parameter of the **QueryInterface** call.
+2.  Query the media graph's service provider object to obtain a pointer to the event service object. A pointer to [**IESEventService**](/windows/previous-versions/tuner/nn-tuner-ieseventservice?branch=master) interface is returned in the third parameter of the **QueryService** call.
+3.  Use the [**IESEventService**](/windows/previous-versions/tuner/nn-tuner-ieseventservice?branch=master) pointer from step 2 to obtain a pointer to the connection point container object. A pointer to the **IConnectionPointContainer** interface is returned in the second parameter of the **QueryInterface** call.
 4.  Use the **IConnectionPointContainer** pointer from step 3 to find a connection point for each event type that the object wants to receive. The event type is specified as the first argument to the **FindConnectionPoint** method. A pointer to the corresponding **IConnectionPoint** interface is returned in the second argument to **FindConnectionPoint**.
 5.  Use the connection point pointer from step 4 to set up the standard COM advise mechanism, which notifies the object when the desired event is raised.
 
-The following example shows how an object of class **CListener** would register to receive the [**OpenMMIEvent**](iesopenmmievent.md) event (error checking code omitted for brevity):
+The following example shows how an object of class **CListener** would register to receive the [**OpenMMIEvent**](/windows/previous-versions/tuner/nn-tuner-iesopenmmievent?branch=master) event (error checking code omitted for brevity):
 
 
 ```C++
@@ -131,7 +136,7 @@ HRESULT CListener::RegisterForEvents (bool bListen)
 
 
 
-Once you have the registration process defined, the object can start listening for registered events by calling the registration method. The following example shows how a CListener object would start listening for an [**OpenMMIEvent**](iesopenmmievent.md) event by calling the **RegisterForEvents** method defined in the previous example:
+Once you have the registration process defined, the object can start listening for registered events by calling the registration method. The following example shows how a CListener object would start listening for an [**OpenMMIEvent**](/windows/previous-versions/tuner/nn-tuner-iesopenmmievent?branch=master) event by calling the **RegisterForEvents** method defined in the previous example:
 
 
 ```C++
@@ -154,7 +159,7 @@ HRESULT CListener::StartListening (IFilterGraph* pGraph)
 
 ### Receiving and Handling Events
 
-To handle events from the Event Service, an object must implement the [**IESEvents**](iesevents.md) interface, which defines a single event handler method named [**OnESEventReceived**](iesevents-oneseventreceived.md). The object must implement **OnESEventReceived** for each type of event it has registered to receive. The following example illustrates how the CListener object from the previous example would receive an [**OpenMMIEvent**](iesopenmmievent.md) event:
+To handle events from the Event Service, an object must implement the [**IESEvents**](/windows/previous-versions/tuner/nn-tuner-iesevents?branch=master) interface, which defines a single event handler method named [**OnESEventReceived**](/windows/previous-versions/tuner/nf-tuner-iesevents-oneseventreceived?branch=master). The object must implement **OnESEventReceived** for each type of event it has registered to receive. The following example illustrates how the CListener object from the previous example would receive an [**OpenMMIEvent**](/windows/previous-versions/tuner/nn-tuner-iesopenmmievent?branch=master) event:
 
 
 ```C++
@@ -178,22 +183,22 @@ HRESULT CListener::OnESEventReceived(GUID guidEventType, IESEvent* pESEvent)
 
 ### Getting Data from an Event
 
-To obtain data from an event, a receiving object must implement the [**IESEvent**](iesevent.md) interface. This interface defines the following methods for obtaining event data:
+To obtain data from an event, a receiving object must implement the [**IESEvent**](/windows/previous-versions/tuner/nn-tuner-iesevent?branch=master) interface. This interface defines the following methods for obtaining event data:
 
 
 
 | Method                                          | Feature                                            |
 |-------------------------------------------------|----------------------------------------------------|
-| [**GetEventType**](iesevent-geteventtype.md)   | Returns a GUID that indicates the event type.      |
-| [**GetData**](idvb-st-getdata.md)              | Returns a byte array that contains the event data. |
-| [**GetStringData**](iesevent-getstringdata.md) | Gets the event data in Unicode string format.      |
-| [**GetEventId**](iesevent-geteventid.md)       | Gets the unique identifier for the event.          |
+| [**GetEventType**](/windows/previous-versions/tuner/nf-tuner-iesevent-geteventtype?branch=master)   | Returns a GUID that indicates the event type.      |
+| [**GetData**](/windows/previous-versions/dvbsiparser/nf-dvbsiparser-idvb_st-getdata?branch=master)              | Returns a byte array that contains the event data. |
+| [**GetStringData**](/windows/previous-versions/tuner/nf-tuner-iesevent-getstringdata?branch=master) | Gets the event data in Unicode string format.      |
+| [**GetEventId**](/windows/previous-versions/tuner/nf-tuner-iesevent-geteventid?branch=master)       | Gets the unique identifier for the event.          |
 
 
 
  
 
-The following example shows how an object would implement the [**IESEvent**](iesevent.md) interface to obtain data from an event of type **MyEvent**:
+The following example shows how an object would implement the [**IESEvent**](/windows/previous-versions/tuner/nn-tuner-iesevent?branch=master) interface to obtain data from an event of type **MyEvent**:
 
 
 ```C++
@@ -314,8 +319,8 @@ HRESULT CMyEvent::SetCompletionStatus (DWORD dwResult)
 An object that raises events in an Event Service must follow this procedure:
 
 1.  Query the media graph object to obtain a pointer to the media graph's service provider object. A pointer to the **IServiceProvider** interface is returned in the second parameter of the **QueryInterface** call.
-2.  Query the media graph's service provider object to obtain a pointer to the event service object. A pointer to the [**IESEventService**](ieseventservice.md) interface is returned in the third parameter of the **QueryService** call.
-3.  Use the [**IESEventService**](ieseventservice.md) pointer from step 1 to call the [**FireESEvent**](ieseventservice-fireesevent.md) method and raise the desired event.
+2.  Query the media graph's service provider object to obtain a pointer to the event service object. A pointer to the [**IESEventService**](/windows/previous-versions/tuner/nn-tuner-ieseventservice?branch=master) interface is returned in the third parameter of the **QueryService** call.
+3.  Use the [**IESEventService**](/windows/previous-versions/tuner/nn-tuner-ieseventservice?branch=master) pointer from step 1 to call the [**FireESEvent**](/windows/previous-versions/tuner/nf-tuner-ieseventservice-fireesevent?branch=master) method and raise the desired event.
 
 The following example shows how an object of class CMyEvent would raise a custom event of type **MyEvent**. Error checking and cleanup code are not included here.
 
@@ -394,18 +399,18 @@ HRESULT CMyEvent::FireESEvent (IFilterGraph* pGraph)
 The Event Service allows you to define a custom event service to handle events that are sent by another event service. This process is known as *chaining* event services. The following process is used to define a custom event service and chain it to an existing Event Service:
 
 1.  Query the media graph object that implements the event service to which you are chaining your custom event service, and obtain a pointer to the media graph's service provider object. A pointer to **IServiceProvider** interface is returned in the second parameter of the **QueryInterface** call.
-2.  Instantiate an object that implements the [**IESEventService**](ieseventservice.md) interface for your custom event service. A pointer to the **IESEventService** interface for the custom event service is returned in the last parameter of the **CoCreateInstance** call that creates the custom event service object.
-3.  Query the event service object you created in step 2 to obtain a pointer to the event service configuration object for your custom event service. A pointer to the [**IESEventServiceConfiguration**](ieseventservice.md) interface is returned in the second parameter of the **QueryInterface** call.
-4.  Use the [**IESEventServiceConfiguration**](ieseventserviceconfiguration.md) pointer from step 3 to make the event service you are chaining to the parent or owner of your custom event service.
-    -   Use the [**IESEventServiceConfiguration::SetParent**](ieseventserviceconfiguration-setparent.md) method to make the chained-to event service the parent. The *parent* event service can pass events to your custom event service so that you can pass them to your clients.
-    -   If you make an object an *owner* of your custom event service, the owner object can examine data from any events it passes to your custom event service. Use the [**IESEventServiceConfiguration::SetOwner**](ieseventserviceconfiguration-setparent.md) method to make the object an owner. The object must implement the [**IESEvents**](iesevents.md) interface so that it can handle events that the parent event service passes to it.
+2.  Instantiate an object that implements the [**IESEventService**](/windows/previous-versions/tuner/nn-tuner-ieseventservice?branch=master) interface for your custom event service. A pointer to the **IESEventService** interface for the custom event service is returned in the last parameter of the **CoCreateInstance** call that creates the custom event service object.
+3.  Query the event service object you created in step 2 to obtain a pointer to the event service configuration object for your custom event service. A pointer to the [**IESEventServiceConfiguration**](/windows/previous-versions/tuner/nn-tuner-ieseventservice?branch=master) interface is returned in the second parameter of the **QueryInterface** call.
+4.  Use the [**IESEventServiceConfiguration**](/windows/previous-versions/tuner/nn-tuner-ieseventserviceconfiguration?branch=master) pointer from step 3 to make the event service you are chaining to the parent or owner of your custom event service.
+    -   Use the [**IESEventServiceConfiguration::SetParent**](/windows/previous-versions/tuner/nf-tuner-ieseventserviceconfiguration-setparent?branch=master) method to make the chained-to event service the parent. The *parent* event service can pass events to your custom event service so that you can pass them to your clients.
+    -   If you make an object an *owner* of your custom event service, the owner object can examine data from any events it passes to your custom event service. Use the [**IESEventServiceConfiguration::SetOwner**](/windows/previous-versions/tuner/nf-tuner-ieseventserviceconfiguration-setparent?branch=master) method to make the object an owner. The object must implement the [**IESEvents**](/windows/previous-versions/tuner/nn-tuner-iesevents?branch=master) interface so that it can handle events that the parent event service passes to it.
 
-A parent event service calls the [**IESEvents::OnESEventReceived**](iesevents-oneseventreceived.md) method of the owner object to allow the owner to examine the events. The can do can do any or any combination of the following:
+A parent event service calls the [**IESEvents::OnESEventReceived**](/windows/previous-versions/tuner/nf-tuner-iesevents-oneseventreceived?branch=master) method of the owner object to allow the owner to examine the events. The can do can do any or any combination of the following:
 
 -   Handle the event itself.
--   Pass the event to your custom event system without changes for handling. The owner returns "S\_OK" from the [**OnESEventReceived**](iesevents-oneseventreceived.md) method to accomplish this.
+-   Pass the event to your custom event system without changes for handling. The owner returns "S\_OK" from the [**OnESEventReceived**](/windows/previous-versions/tuner/nf-tuner-iesevents-oneseventreceived?branch=master) method to accomplish this.
 -   Modify the event or raise a different event before passing it to your custom event system.
--   Prevent the event from passing through to your custom event system. The owner returns "S\_FALSE" from the [**OnESEventReceived**](iesevents-oneseventreceived.md) method to accomplish this.
+-   Prevent the event from passing through to your custom event system. The owner returns "S\_FALSE" from the [**OnESEventReceived**](/windows/previous-versions/tuner/nf-tuner-iesevents-oneseventreceived?branch=master) method to accomplish this.
 
 The following example shows how to implement a simple custom event service named **MyEventService**, and set the filter graph's event service as the parent and set itself as the owner of the service. Error checking and cleanup code are not included here.
 

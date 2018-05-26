@@ -1,7 +1,12 @@
 ---
 title: Vector Rank Constants
 description: Vector Rank Constants
-ms.assetid: 'dc495ce3-4cae-48a9-8193-f13b64c3cc01'
+ms.assetid: dc495ce3-4cae-48a9-8193-f13b64c3cc01
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector Rank Constants

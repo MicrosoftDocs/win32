@@ -1,14 +1,31 @@
 ---
 title: IMsRdpClientAdvancedSettings LoadBalanceInfo property
-description: Specifies the load balancing cookie that will be placed in the X.224 Connection Request packet in the Remote Desktop Session Host (RD Session Host) server protocol connection sequence.
+description: Specifies the load balancing cookie that will be placed in the X.224 Connection Request packet in the Remote Desktop Session Host (RD Session Host) server protocol connection sequence.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '25f12a2e-00a2-42a8-afd3-81efcd94da94'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 25f12a2e-00a2-42a8-afd3-81efcd94da94
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["LoadBalanceInfo property Remote Desktop Services", "LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings interface", "IMsRdpClientAdvancedSettings interface Remote Desktop Services , LoadBalanceInfo property", "LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface", "IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , LoadBalanceInfo property", "LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface", "IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , LoadBalanceInfo property", "LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface", "IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , LoadBalanceInfo property", "LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , LoadBalanceInfo property", "LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , LoadBalanceInfo property", "LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , LoadBalanceInfo property", "LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , LoadBalanceInfo property"]
+keywords:
+- LoadBalanceInfo property Remote Desktop Services
+- LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings interface
+- IMsRdpClientAdvancedSettings interface Remote Desktop Services , LoadBalanceInfo property
+- LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface
+- IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , LoadBalanceInfo property
+- LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface
+- IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , LoadBalanceInfo property
+- LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface
+- IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , LoadBalanceInfo property
+- LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , LoadBalanceInfo property
+- LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , LoadBalanceInfo property
+- LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , LoadBalanceInfo property
+- LoadBalanceInfo property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , LoadBalanceInfo property
 topic_type:
 - apiref
 api_name:
@@ -40,11 +57,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings::LoadBalanceInfo property
 
-Specifies the load balancing cookie that will be placed in the X.224 Connection Request packet in the Remote Desktop Session Host (RD Session Host) server protocol connection sequence.
+Specifies the load balancing cookie that will be placed in the X.224 Connection Request packet in the Remote Desktop Session Host (RD Session Host) server protocol connection sequence.
 
 This property is read/write.
 
@@ -53,11 +73,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_LoadBalanceInfo(
-  [in]  BSTR newLBInfo
+  [in]  BSTR newLBInfo
 );
 
 HRESULT get_LoadBalanceInfo(
-  [out] BSTR *pLBInfo
+  [out] BSTR *pLBInfo
 );
 ```
 
@@ -73,7 +93,7 @@ Returns **S\_OK** if successful.
 
 ## Remarks
 
-The load balancing information is used by load balancing routers to choose the best server for the client when using farms of RD Session Host servers. The RD Session Host server itself does not use this information and will discard it.
+The load balancing information is used by load balancing routers to choose the best server for the client when using farms of RD Session Host servers. The RD Session Host server itself does not use this information and will discard it.
 
 The cookie uses the following, case-sensitive, syntax:
 
@@ -97,8 +117,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                  |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                        |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                  |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>          |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings is defined as 3c65b4ab-12b3-465b-acd4-b8dad3bff9e2<br/> |
@@ -133,9 +153,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClientAdvancedSettings**](imsrdpclientadvancedsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

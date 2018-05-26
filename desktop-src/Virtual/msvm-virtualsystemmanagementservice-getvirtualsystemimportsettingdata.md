@@ -1,8 +1,11 @@
 ---
 title: GetVirtualSystemImportSettingData method of the Msvm\_VirtualSystemManagementService class
 description: Returns an instance of the Msvm\_VirtualSystemImportSettingData class.
-ms.assetid: '7afbdbb2-1d71-4be5-86af-1aa53f9690b6'
-keywords: ["GetVirtualSystemImportSettingData method Hyper-V", "GetVirtualSystemImportSettingData method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , GetVirtualSystemImportSettingData method"]
+ms.assetid: 7afbdbb2-1d71-4be5-86af-1aa53f9690b6
+keywords:
+- GetVirtualSystemImportSettingData method Hyper-V
+- GetVirtualSystemImportSettingData method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , GetVirtualSystemImportSettingData method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetVirtualSystemImportSettingData method of the Msvm\_VirtualSystemManagementService class
@@ -22,9 +30,9 @@ Returns an instance of the [**Msvm\_VirtualSystemImportSettingData**](msvm-virtu
 
 ```mof
 uint32 GetVirtualSystemImportSettingData(
-  [in]  string                              ImportDirectory,
-  [out] Msvm_VirtualSystemImportSettingData ImportSettingData,
-  [out] CIM_ConcreteJob                 REF Job
+  [in]  string                              ImportDirectory,
+  [out] Msvm_VirtualSystemImportSettingData ImportSettingData,
+  [out] CIM_ConcreteJob                 REF Job
 );
 ```
 
@@ -119,7 +127,7 @@ The following C# sample imports a virtual system. The referenced utilities can b
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -188,7 +196,7 @@ The following VBScript sample imports a virtual system.
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -309,9 +317,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -324,9 +332,9 @@ End Function
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

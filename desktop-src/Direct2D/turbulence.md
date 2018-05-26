@@ -1,8 +1,14 @@
 ---
 title: Turbulence effect
 description: Use the turbulence effect to generate a bitmap based on the Perlin noise function.
-ms.assetid: '86C1990E-958C-46D7-840A-E4A17F1D1740'
-keywords: ["turbulence effect"]
+ms.assetid: 86C1990E-958C-46D7-840A-E4A17F1D1740
+keywords:
+- turbulence effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Turbulence effect
@@ -37,7 +43,7 @@ If you select the D2D1\_TURBULENCE\_NOISE\_TURBULENCE noise mode the effect uses
 > [!Note]  
 > The `PerlinNoise` function has a range of \[-1, 1\].
 
- 
+ 
 
 This effect outputs pixel values in premultiplied alpha.
 
@@ -86,8 +92,8 @@ The offset does not have the same effect as a translation because the noise func
 <td>Stitchable<br/> D2D1_TURBULENCE_PROP_STITCHABLE<br/></td>
 <td>Turns stitching on or off. The base frequency is adjusted so that output bitmap can be stitched. This is useful if you want to tile multiple copies of the turbulence effect output.
 <ul>
-<li>True – The output bitmap can be tiled (using the tile effect) without the appearance of seams. The base frequency is adjusted so that output bitmap can be stitched.</li>
-<li>False – The base frequency is not adjusted, so seams may appear between tiles if the bitmap is tiled.</li>
+<li>True   The output bitmap can be tiled (using the tile effect) without the appearance of seams. The base frequency is adjusted so that output bitmap can be stitched.</li>
+<li>False   The base frequency is not adjusted, so seams may appear between tiles if the bitmap is tiled.</li>
 </ul>
 <br/> The type is BOOL.<br/> The default value is FALSE.<br/></td>
 </tr>
@@ -96,7 +102,7 @@ The offset does not have the same effect as a translation because the noise func
 
 
 
- 
+ 
 
 ## Noise modes
 
@@ -109,12 +115,12 @@ The offset does not have the same effect as a translation because the noise func
 
 
 
- 
+ 
 
 > [!Note]  
 > Neither mode contains an explicit clamp of the output values.
 
- 
+ 
 
 ## Output bitmap
 
@@ -126,25 +132,25 @@ This effect generates a logically infinite sized bitmap.
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

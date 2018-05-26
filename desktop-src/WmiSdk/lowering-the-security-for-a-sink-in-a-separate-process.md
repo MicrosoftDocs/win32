@@ -1,24 +1,27 @@
 ---
-Description: 'Windows Management Instrumentation (WMI) can create the sink to receive asynchronous callbacks for a client application in a separate process.'
+Description: Windows Management Instrumentation (WMI) can create the sink to receive asynchronous callbacks for a client application in a separate process.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3d3111ac-7d83-48d6-94e4-36cb46a506fa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3d3111ac-7d83-48d6-94e4-36cb46a506fa
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Lowering the Security for a Sink in a Separate Process
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Lowering the Security for a Sink in a Separate Process
 
-Windows Management Instrumentation (WMI) can create the sink to receive asynchronous callbacks for a client application in a separate process. The separate process is Unsecapp.exe. Use the [**IWbemUnsecuredApartment**](iwbemunsecuredapartment.md) interface. **IWbemUnsecuredApartment** allows you to control whether Unsecapp.exe authenticates callbacks to the sink. For more information, see [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
+Windows Management Instrumentation (WMI) can create the sink to receive asynchronous callbacks for a client application in a separate process. The separate process is Unsecapp.exe. Use the [**IWbemUnsecuredApartment**](/windows/win32/Wbemcli/nn-wbemcli-iwbemunsecuredapartment?branch=master) interface. **IWbemUnsecuredApartment** allows you to control whether Unsecapp.exe authenticates callbacks to the sink. For more information, see [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
 
-You can then lower the security on that process and WMI can access the sink without restriction. To assist with this technique WMI provides the Unsecapp.exe process to function as the separate process. You can host Unsecapp.exe with a call to the [**IUnsecuredApartment**](iunsecuredapartment.md) interface.
+You can then lower the security on that process and WMI can access the sink without restriction. To assist with this technique WMI provides the Unsecapp.exe process to function as the separate process. You can host Unsecapp.exe with a call to the [**IUnsecuredApartment**](/windows/win32/Wbemcli/nn-wbemcli-iunsecuredapartment?branch=master) interface.
 
-The [**IUnsecuredApartment**](iunsecuredapartment.md) interface allows a client application to create a separate dedicated process running Unsecapp.exe for hosting a [**IWbemObjectSink**](iwbemobjectsink.md) implementation. The dedicated process can call [**CoInitializeSecurity**](_com_coinitializesecurity) to grant WMI access to the dedicated process without compromising the security of the main process. After initialization, the dedicated process acts as an intermediary between the main process and WMI.
+The [**IUnsecuredApartment**](/windows/win32/Wbemcli/nn-wbemcli-iunsecuredapartment?branch=master) interface allows a client application to create a separate dedicated process running Unsecapp.exe for hosting a [**IWbemObjectSink**](iwbemobjectsink.md) implementation. The dedicated process can call [**CoInitializeSecurity**](_com_coinitializesecurity) to grant WMI access to the dedicated process without compromising the security of the main process. After initialization, the dedicated process acts as an intermediary between the main process and WMI.
 
-The following procedure describes how to perform an asynchronous call with [**IUnsecuredApartment**](iunsecuredapartment.md).
+The following procedure describes how to perform an asynchronous call with [**IUnsecuredApartment**](/windows/win32/Wbemcli/nn-wbemcli-iunsecuredapartment?branch=master).
 
 **To perform an asynchronous call with IUnsecuredApartment**
 
@@ -51,7 +54,7 @@ The following procedure describes how to perform an asynchronous call with [**IU
 
     A stub is a wrapper function produced from the sink.
 
-    The following code example calls [**CreateObjectStub**](iunsecuredapartment-createobjectstub.md) to create a stub for the sink.
+    The following code example calls [**CreateObjectStub**](/windows/win32/Wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub?branch=master) to create a stub for the sink.
 
     ```C++
     IUnknown* pStubUnk = NULL; 
@@ -108,7 +111,7 @@ The following procedure describes how to perform an asynchronous call with [**IU
 
 7.  Release the local reference count when you are done using the asynchronous call.
 
-    Make sure to release the *pStubSink* pointer only after you confirm that the asynchronous call does not need to be canceled. Further, do not release *pStubSink* after WMI releases the *pSink* sink pointer. Releasing *pStubSink* after *pSink* creates a circular reference count in which both the sink and the stub stay in memory forever. Instead, a possible location to release the pointer is in the [**IWbemObjectSink::SetStatus**](iwbemobjectsink-setstatus.md) call, made by WMI to report that the original asynchronous call is complete.
+    Make sure to release the *pStubSink* pointer only after you confirm that the asynchronous call does not need to be canceled. Further, do not release *pStubSink* after WMI releases the *pSink* sink pointer. Releasing *pStubSink* after *pSink* creates a circular reference count in which both the sink and the stub stay in memory forever. Instead, a possible location to release the pointer is in the [**IWbemObjectSink::SetStatus**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus?branch=master) call, made by WMI to report that the original asynchronous call is complete.
 
 8.  When finished, uninitialize COM with a call to [**Release()**](_com_iunknown_release).
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the major version number.'
+Description: Specifies or retrieves the major version number.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'e7c6911b-7661-4e8b-9c85-866afd474719'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: e7c6911b-7661-4e8b-9c85-866afd474719
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Version.Major property'
+title: Version.Major property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Version.Major property
@@ -92,7 +95,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -119,9 +122,9 @@ END FUNCTION
 [**Version**](version-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Troubleshooting the COM+ CRM
-ms.assetid: '4d2d9372-b540-4e08-9b57-8687802610b6'
+ms.assetid: 4d2d9372-b540-4e08-9b57-8687802610b6
 title: Troubleshooting the COM+ CRM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting the COM+ CRM

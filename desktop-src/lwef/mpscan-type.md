@@ -1,8 +1,10 @@
 ---
 title: MPSCAN\_TYPE enumeration
 description: Type of scan performed.
-ms.assetid: '980A80FD-FF02-4338-B7FB-DAA141F65E89'
-keywords: ["MPSCAN_TYPE enumeration Legacy Windows Environment Features", "PMPSCAN_TYPE enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 980A80FD-FF02-4338-B7FB-DAA141F65E89
+keywords:
+- MPSCAN_TYPE enumeration Legacy Windows Environment Features
+- PMPSCAN_TYPE enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPSCAN\_TYPE enumeration
@@ -22,11 +29,11 @@ Type of scan performed.
 
 ```C++
 typedef enum tagMPSCAN_TYPE { 
-  MPSCAN_TYPE_UNKNOWN   = 0,
-  MPSCAN_TYPE_QUICK     = 1,
-  MPSCAN_TYPE_FULL      = 2,
-  MPSCAN_TYPE_RESOURCE  = 3,
-  MPSCAN_TYPE_MAXVALUE  = 3
+  MPSCAN_TYPE_UNKNOWN   = 0,
+  MPSCAN_TYPE_QUICK     = 1,
+  MPSCAN_TYPE_FULL      = 2,
+  MPSCAN_TYPE_RESOURCE  = 3,
+  MPSCAN_TYPE_MAXVALUE  = 3
 } MPSCAN_TYPE, *PMPSCAN_TYPE;
 ```
 
@@ -77,15 +84,15 @@ Maximum value possible.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

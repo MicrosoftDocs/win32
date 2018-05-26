@@ -1,7 +1,12 @@
 ---
 title: Programming Guide for HLSL
 description: Data enters the graphics pipeline as a stream of primitives and is processed by the shader stages.
-ms.assetid: '4894e085-30e7-4cc5-8ae6-a84b601e4ce3'
+ms.assetid: 4894e085-30e7-4cc5-8ae6-a84b601e4ce3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide for HLSL
@@ -25,14 +30,14 @@ HLSL shaders can be compiled at author-time or at runtime, and set at runtime in
 | [Compiling Shaders](dx-graphics-hlsl-part1.md)<br/>                                                                     | Let's now look at various ways to compile your shader code and conventions for file extensions for shader code.<br/>                                                                                                 |
 | [Specifying Compiler Targets](specifying-compiler-targets.md)<br/>                                                      | Here we list the targets for various profiles that the **D3DCompile\*** functions and the HLSL compiler support.<br/>                                                                                                |
 | [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)<br/> |                                                                                                                                                                                                                            |
-| [Using HLSL minimum precision](using-hlsl-minimum-precision.md)<br/>                                                    | Starting with Windows 8, graphics drivers can implement minimum precision [HLSL scalar data types](dx-graphics-hlsl-scalar.md) by using any precision greater than or equal to their specified bit precision. <br/> |
+| [Using HLSL minimum precision](using-hlsl-minimum-precision.md)<br/>                                                    | Starting with Windows 8, graphics drivers can implement minimum precision [HLSL scalar data types](dx-graphics-hlsl-scalar.md) by using any precision greater than or equal to their specified bit precision. <br/> |
 | [HLSL Shader Model 5](overviews-direct3d-11-hlsl.md)<br/>                                                               |                                                                                                                                                                                                                            |
 | [HLSL Shader Model 5.1](hlsl-shader-model-5-1-features-for-direct3d-12.md)<br/>                                         | This section describes the features of Shader Model 5.1 as they apply in practice to D3D12 and D3D11.3. All DirectX 12 hardware supports Shader Model 5.1.<br/>                                                      |
 | [HLSL Shader Model 6.0](hlsl-shader-model-6-0-features-for-direct3d-12.md)<br/>                                         | Describes the new wave operation intrinsics added to HLSL Shader Model 6.0.<br/>                                                                                                                                     |
 
 
 
- 
+ 
 
 ## Related Topics
 
@@ -46,9 +51,9 @@ HLSL shaders can be compiled at author-time or at runtime, and set at runtime in
 [HLSL](dx-graphics-hlsl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

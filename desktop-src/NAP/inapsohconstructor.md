@@ -1,8 +1,10 @@
 ---
 title: INapSoHConstructor interface
 description: Are used by SHAs to construct SoHRequests and by SHVs to construct SoHResponses.
-ms.assetid: 'ad79c80a-3003-4465-b350-77890c217d63'
-keywords: ["INapSoHConstructor interface NAP", "INapSoHConstructor interface NAP , described"]
+ms.assetid: ad79c80a-3003-4465-b350-77890c217d63
+keywords:
+- INapSoHConstructor interface NAP
+- INapSoHConstructor interface NAP , described
 topic_type:
 - apiref
 api_name:
@@ -11,16 +13,21 @@ api_location:
 - qutil.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSoHConstructor interface
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
-The **INapSoHConstructor** provides methods that are used by SHAs to construct [**SoHRequests**](soh-struct.md) and by SHVs to construct **SoHResponses**.
+The **INapSoHConstructor** provides methods that are used by SHAs to construct [**SoHRequests**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) and by SHVs to construct **SoHResponses**.
 
 ## Members
 
@@ -43,7 +50,7 @@ The **INapSoHConstructor** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,8 +58,8 @@ The **INapSoHConstructor** interface has these methods.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>NapProtocol.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapProtocol.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl>       |
@@ -69,9 +76,9 @@ The **INapSoHConstructor** interface has these methods.
 [NAP Reference](nap-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

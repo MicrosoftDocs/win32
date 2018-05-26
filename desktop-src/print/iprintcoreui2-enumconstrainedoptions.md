@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreUI2::EnumConstrainedOptions method determines which options of a feature are constrained.'
-ms.assetid: '815a20f4-9bd7-4f8d-8444-545097d1c4b3'
-title: 'IPrintCoreUI2::EnumConstrainedOptions method'
+---
+Description: The IPrintCoreUI2EnumConstrainedOptions method determines which options of a feature are constrained.
+ms.assetid: 815a20f4-9bd7-4f8d-8444-545097d1c4b3
+title: IPrintCoreUI2EnumConstrainedOptions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreUI2::EnumConstrainedOptions method

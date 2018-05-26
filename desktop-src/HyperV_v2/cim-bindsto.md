@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association where a CIM\_ServiceAccessPoint object requests protocol services from a CIM\_ProtocolEndpoint object.'
-ms.assetid: 'd1ef774d-f0e0-43e7-8a9d-63c2fad5ca4a'
-title: 'CIM\_BindsTo class'
+Description: Represents an association where a CIM\_ServiceAccessPoint object requests protocol services from a CIM\_ProtocolEndpoint object.
+ms.assetid: d1ef774d-f0e0-43e7-8a9d-63c2fad5ca4a
+title: CIM\_BindsTo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_BindsTo class
@@ -14,7 +19,7 @@ Represents an association where a [**CIM\_ServiceAccessPoint**](cim-serviceacces
 [Association, Abstract, Version("2.10.0"), UMLPackagePath("CIM::Core::Service"), AMENDMENT]
 class CIM_BindsTo : CIM_SAPSAPDependency
 {
-  CIM_ProtocolEndpoint   REF Antecedent;
+  CIM_ProtocolEndpoint   REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
 };
 ```
@@ -69,8 +74,8 @@ The access point or protocol endpoint that is dependent on the lower level endpo
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The access point or protocol endpoint that is dependent on the lower level endpo
 [**CIM\_SAPSAPDependency**](cim-sapsapdependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

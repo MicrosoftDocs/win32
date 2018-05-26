@@ -1,8 +1,14 @@
 ---
 title: Closing a Device
 description: Closing a Device
-ms.assetid: 'eef40f23-2c58-4deb-a6f0-3563d9c30d10'
-keywords: ["MCI_CLOSE command"]
+ms.assetid: eef40f23-2c58-4deb-a6f0-3563d9c30d10
+keywords:
+- MCI_CLOSE command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Closing a Device

@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_PAL\_PASTE message
 description: The WM\_CAP\_PAL\_PASTE message copies the palette from the clipboard and passes it to a capture driver. You can send this message explicitly or by using the capPalettePaste macro.
-ms.assetid: 'd49c7fd9-be40-4a07-8339-b85f7c4c331e'
-keywords: ["WM_CAP_PAL_PASTE message Windows Multimedia"]
+ms.assetid: d49c7fd9-be40-4a07-8339-b85f7c4c331e
+keywords:
+- WM_CAP_PAL_PASTE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_PAL\_PASTE message
 
-The **WM\_CAP\_PAL\_PASTE** message copies the palette from the clipboard and passes it to a capture driver. You can send this message explicitly or by using the [**capPalettePaste**](cappalettepaste.md) macro.
+The **WM\_CAP\_PAL\_PASTE** message copies the palette from the clipboard and passes it to a capture driver. You can send this message explicitly or by using the [**capPalettePaste**](/windows/win32/Vfw/nf-vfw-cappalettepaste?branch=master) macro.
 
 
 ```C++
@@ -42,8 +48,8 @@ A capture driver uses a palette when required by the specified digitized video f
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ A capture driver uses a palette when required by the specified digitized video f
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

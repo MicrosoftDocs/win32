@@ -4,11 +4,13 @@ description: Used to define a quota for a specified directory and to retrieve us
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9308f1de-ba8e-45f5-81ec-d8203839ee79'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 9308f1de-ba8e-45f5-81ec-d8203839ee79
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMQuota class File Server Resource Manager", "MSFT_FSRMQuota class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMQuota class File Server Resource Manager
+- MSFT_FSRMQuota class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMQuota class
@@ -41,15 +46,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMQuota
 {
-  string                  Path;
-  string                  Description = "";
-  uint64                  Size;
-  boolean                 SoftLimit = False;
-  boolean                 Disabled = False;
-  string                  Template;
-  boolean                 MatchesTemplate;
-  uint64                  Usage;
-  uint64                  PeakUsage;
+  string                  Path;
+  string                  Description = "";
+  uint64                  Size;
+  boolean                 SoftLimit = False;
+  boolean                 Disabled = False;
+  string                  Template;
+  boolean                 MatchesTemplate;
+  uint64                  Usage;
+  uint64                  PeakUsage;
   MSFT_FSRMQuotaThreshold Threshold[] = {};
 };
 ```
@@ -74,7 +79,7 @@ The **MSFT\_FSRMQuota** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -229,7 +234,7 @@ A quota limits the amount of data that the system or any user can store in a dir
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -243,9 +248,9 @@ A quota limits the amount of data that the system or any user can store in a dir
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

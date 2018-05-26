@@ -1,7 +1,12 @@
 ---
-Description: 'Lists a procedure and an example that demonstrate how to encode and decode messages.'
-ms.assetid: 'ab5829a0-2b01-4560-aa2d-0151f80a0f44'
+Description: Lists a procedure and an example that demonstrate how to encode and decode messages.
+ms.assetid: ab5829a0-2b01-4560-aa2d-0151f80a0f44
 title: Encoding and Decoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encoding and Decoding

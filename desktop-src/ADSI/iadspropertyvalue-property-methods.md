@@ -4,11 +4,12 @@ description: The property methods of the IADsPropertyValue interface provide acc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1039d4a9-bef8-457d-9a32-3743c14adef1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1039d4a9-bef8-457d-9a32-3743c14adef1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsPropertyValue Property Methods ADSI"]
+keywords:
+- IADsPropertyValue Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -53,11 +54,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsPropertyValue Property Methods
 
-The property methods of the [**IADsPropertyValue**](iadspropertyvalue.md) interface provide access to the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsPropertyValue**](/windows/win32/Iads/nn-iads-iadspropertyvalue?branch=master) interface provide access to the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -66,7 +70,7 @@ The property methods of the [**IADsPropertyValue**](iadspropertyvalue.md) interf
 **ADsType**
 </dt> <dd> <dl>
 
-The data type of the value of the property, taken from the [**ADSTYPEENUM**](adstypeenum.md) enumeration, of the value property.
+The data type of the value of the property, taken from the [**ADSTYPEENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001?branch=master) enumeration, of the value property.
 
 <dt>
 
@@ -234,7 +238,7 @@ HRESULT put_Integer(
 **LargeInteger**
 </dt> <dd> <dl>
 
-Pointer to the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface of the object implementing [**IADsLargeInteger**](iadslargeinteger.md) for this value.
+Pointer to the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface of the object implementing [**IADsLargeInteger**](/windows/win32/Iads/nn-iads-iadslargeinteger?branch=master) for this value.
 
 <dt>
 
@@ -346,7 +350,7 @@ HRESULT put_PrintableString(
 **SecurityDescriptor**
 </dt> <dd> <dl>
 
-Pointer to the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface of the object implementing [**IADsSecurityDescriptor**](iadssecuritydescriptor.md) for this value.
+Pointer to the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface of the object implementing [**IADsSecurityDescriptor**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master) for this value.
 
 <dt>
 
@@ -399,15 +403,15 @@ HRESULT put_UTCTime(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
-The [**IADsPropertyValue**](iadspropertyvalue.md) properties will only set or retrieve a property value of the specified type. For example, the **CaseIgnoreString** property on an attribute of type **ADSTYPE\_DN\_STRING**, like the **distinguishedName** attribute, will result in an error. The **CaseIgnoreString** property will only work on attributes of type **ADS\_CASE\_IGNORE\_STRING**. The following table maps the [**ADSTYPEENUM**](adstypeenum.md) value to the corresponding **IADsPropertyValue** property that can be used to access that attribute type. If an **ADSTYPEENUM** value is not listed in this table, it is not available from the **IADsPropertyValue** interface. The [**IADsPropertyValue2**](iadspropertyvalue2.md) interface should be used to obtain data in the other formats.
+The [**IADsPropertyValue**](/windows/win32/Iads/nn-iads-iadspropertyvalue?branch=master) properties will only set or retrieve a property value of the specified type. For example, the **CaseIgnoreString** property on an attribute of type **ADSTYPE\_DN\_STRING**, like the **distinguishedName** attribute, will result in an error. The **CaseIgnoreString** property will only work on attributes of type **ADS\_CASE\_IGNORE\_STRING**. The following table maps the [**ADSTYPEENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001?branch=master) value to the corresponding **IADsPropertyValue** property that can be used to access that attribute type. If an **ADSTYPEENUM** value is not listed in this table, it is not available from the **IADsPropertyValue** interface. The [**IADsPropertyValue2**](/windows/win32/Iads/nn-iads-iadspropertyvalue2?branch=master) interface should be used to obtain data in the other formats.
 
 
 
-| [**ADSTYPEENUM**](adstypeenum.md) value | [**IADsPropertyValue**](iadspropertyvalue.md) property |
+| [**ADSTYPEENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001?branch=master) value | [**IADsPropertyValue**](/windows/win32/Iads/nn-iads-iadspropertyvalue?branch=master) property |
 |------------------------------------------|---------------------------------------------------------|
 | **ADSTYPE\_DN\_STRING**                  | **DNString**                                            |
 | **ADSTYPE\_CASE\_EXACT\_STRING**         | **CaseExactString**                                     |
@@ -423,7 +427,7 @@ The [**IADsPropertyValue**](iadspropertyvalue.md) properties will only set or re
 
 
 
- 
+ 
 
 ## Examples
 
@@ -588,8 +592,8 @@ Cleanup:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsPropertyValue is defined as 79FA9AD0-A97C-11D0-8534-00C04FD8D503<br/>    |
@@ -600,30 +604,30 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsPropertyValue**](iadspropertyvalue.md)
+[**IADsPropertyValue**](/windows/win32/Iads/nn-iads-iadspropertyvalue?branch=master)
 </dt> <dt>
 
-[**ADSTYPEENUM**](adstypeenum.md)
+[**ADSTYPEENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001?branch=master)
 </dt> <dt>
 
-[**IADsPropertyEntry**](iadspropertyentry.md)
+[**IADsPropertyEntry**](/windows/win32/Iads/nn-iads-iadspropertyentry?branch=master)
 </dt> <dt>
 
-[**IADsPropertyList**](iadspropertylist.md)
+[**IADsPropertyList**](/windows/win32/Iads/nn-iads-iadspropertylist?branch=master)
 </dt> <dt>
 
-[**IADsPropertyValue2**](iadspropertyvalue2.md)
+[**IADsPropertyValue2**](/windows/win32/Iads/nn-iads-iadspropertyvalue2?branch=master)
 </dt> <dt>
 
-[**IADsSecurityDescriptor**](iadssecuritydescriptor.md)
+[**IADsSecurityDescriptor**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)
 </dt> <dt>
 
 [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

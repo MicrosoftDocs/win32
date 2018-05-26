@@ -1,7 +1,12 @@
 ---
-Description: 'The NotifySample method releases any threads that are waiting for samples.'
-ms.assetid: 'b09c48a0-9cd5-44a7-9267-d2a11e8cde4c'
-title: 'CBaseAllocator.NotifySample method'
+Description: The NotifySample method releases any threads that are waiting for samples.
+ms.assetid: b09c48a0-9cd5-44a7-9267-d2a11e8cde4c
+title: CBaseAllocator.NotifySample method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator.NotifySample method
@@ -49,9 +54,9 @@ This method is called from within the [**CBaseAllocator::ReleaseBuffer**](cbasea
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,16 @@
 ---
 title: Win32\_TSApplicationFileExtensions class
-description: The file name extensions that are handled by an application on a Remote Desktop Session Host (RD Session Host) server.
+description: The file name extensions that are handled by an application on a Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'beefc266-5ad6-49ee-b761-98764e2905d6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: beefc266-5ad6-49ee-b761-98764e2905d6
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSApplicationFileExtensions class Remote Desktop Services", "Win32_TSApplicationFileExtensions class Remote Desktop Services , described"]
+keywords:
+- Win32_TSApplicationFileExtensions class Remote Desktop Services
+- Win32_TSApplicationFileExtensions class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -22,22 +24,25 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSApplicationFileExtensions class
 
-Describes the file name extensions that are handled by an application on a Remote Desktop Session Host (RD Session Host) server.
+Describes the file name extensions that are handled by an application on a Remote Desktop Session Host (RD Session Host) server.
 
 ## Syntax
 
 ``` syntax
 class Win32_TSApplicationFileExtensions : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
+  string   Name;
+  string   Status;
 };
 ```
 
@@ -61,7 +66,7 @@ The **Win32\_TSApplicationFileExtensions** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -234,17 +239,17 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Tsallow.mof</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>TsPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

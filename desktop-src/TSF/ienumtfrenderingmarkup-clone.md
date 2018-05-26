@@ -1,14 +1,22 @@
 ---
 title: IEnumTfRenderingMarkup Clone method
 description: The IEnumTfRenderingMarkup Clone method creates a copy of the enumerator object.
-ms.assetid: 'f1b0ccf9-36d1-4eff-af7c-d7fb4f0e9104'
-keywords: ["Clone method Text Services Framework", "Clone method Text Services Framework , IEnumTfRenderingMarkup interface", "IEnumTfRenderingMarkup interface Text Services Framework , Clone method"]
+ms.assetid: f1b0ccf9-36d1-4eff-af7c-d7fb4f0e9104
+keywords:
+- Clone method Text Services Framework
+- Clone method Text Services Framework , IEnumTfRenderingMarkup interface
+- IEnumTfRenderingMarkup interface Text Services Framework , Clone method
 topic_type:
 - apiref
 api_name:
 - IEnumTfRenderingMarkup.Clone
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumTfRenderingMarkup::Clone method
@@ -20,7 +28,7 @@ The **IEnumTfRenderingMarkup::Clone** method creates a copy of the enumerator ob
 
 ```C++
 HRESULT Clone(
-  [out] IEnumTfRenderingMarkup **ppEnum
+  [out] IEnumTfRenderingMarkup **ppEnum
 );
 ```
 
@@ -51,18 +59,18 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > This method is not currently in the public header files. To use this API, you must MIDL-compile the [prototype](prototypes.md).
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

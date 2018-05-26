@@ -1,7 +1,12 @@
 ---
 title: WTP Reference
-ms.assetid: '4afe40d2-a6df-427e-93b0-8abac3664bd0'
+ms.assetid: 4afe40d2-a6df-427e-93b0-8abac3664bd0
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WTP Reference

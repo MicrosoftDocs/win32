@@ -1,7 +1,12 @@
 ---
-Description: 'The SetPalette method installs a palette for the window.'
-ms.assetid: '64fa0d3a-c2eb-4e58-8b8d-c8e5ec3bb479'
-title: 'CBaseWindow.SetPalette method'
+Description: The SetPalette method installs a palette for the window.
+ms.assetid: 64fa0d3a-c2eb-4e58-8b8d-c8e5ec3bb479
+title: CBaseWindow.SetPalette method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.SetPalette method
@@ -13,7 +18,7 @@ The `SetPalette` method installs a palette for the window.
 
 ```C++
 virtual HRESULT SetPalette(
-   HPALETTE hPalette
+   HPALETTE hPalette
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,9 +74,9 @@ Any thread can safely call this method, not just the thread that owns the window
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

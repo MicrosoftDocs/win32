@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the width of the pan/scan region, in pixels.'
-ms.assetid: 'c0dcf305-ec81-45df-891c-8aaacd95f620'
-title: 'MFPKEY\_RESIZE\_PANSCANAPWIDTH Property'
+---
+Description: Specifies the width of the pan/scan region, in pixels.
+ms.assetid: c0dcf305-ec81-45df-891c-8aaacd95f620
+title: MFPKEY\_RESIZE\_PANSCANAPWIDTH Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_PANSCANAPWIDTH Property

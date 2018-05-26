@@ -1,8 +1,9 @@
 ---
 title: MrmPackagingOptions enumeration
 description: Defines constants that specify options for the PRI file created by MrmCreateResourceFile and MrmCreateResourceFileInMemory.
-ms.assetid: '11FADCB2-CE6F-449E-8A85-DA50B52B26D0'
-keywords: ["MrmPackagingOptions enumeration Menus and Other Resources"]
+ms.assetid: 11FADCB2-CE6F-449E-8A85-DA50B52B26D0
+keywords:
+- MrmPackagingOptions enumeration Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MrmResourceIndexer.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmPackagingOptions enumeration
@@ -24,9 +30,9 @@ Defines constants that specify options for the PRI file created by [**MrmCreateR
 
 ```C++
 typedef enum _MrmPackagingOptions { 
-  MrmPackagingOptionsNone                         = 0x00,
-  MrmPackagingOptionsOmitSchemaFromResourcePacks  = 0x01,
-  MrmPackagingOptionsSplitLanguageVariants        = 0x02
+  MrmPackagingOptionsNone                         = 0x00,
+  MrmPackagingOptionsOmitSchemaFromResourcePacks  = 0x01,
+  MrmPackagingOptionsSplitLanguageVariants        = 0x02
 } MrmPackagingOptions;
 ```
 
@@ -63,7 +69,7 @@ Specifies that the PRI file should be automatically split by all supported quali
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 
@@ -76,9 +82,9 @@ Specifies that the PRI file should be automatically split by all supported quali
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectVectorVariable GetFloatVectorArray method
 description: Get an array of four-component vectors that contain floating-point data.
-ms.assetid: '30ecbd97-c16d-4ea9-b7d9-364887f42a04'
-keywords: ["GetFloatVectorArray method Direct3D 11", "GetFloatVectorArray method Direct3D 11 , ID3DX11EffectVectorVariable interface", "ID3DX11EffectVectorVariable interface Direct3D 11 , GetFloatVectorArray method"]
+ms.assetid: 30ecbd97-c16d-4ea9-b7d9-364887f42a04
+keywords:
+- GetFloatVectorArray method Direct3D 11
+- GetFloatVectorArray method Direct3D 11 , ID3DX11EffectVectorVariable interface
+- ID3DX11EffectVectorVariable interface Direct3D 11 , GetFloatVectorArray method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectVectorVariable::GetFloatVectorArray method
@@ -23,9 +31,9 @@ Get an array of four-component vectors that contain floating-point data.
 
 ```C++
 HRESULT GetFloatVectorArray(
-   float *pData,
-   UINT  Offset,
-   UINT  Count
+   float *pData,
+   UINT  Offset,
+   UINT  Count
 );
 ```
 
@@ -73,7 +81,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -93,9 +101,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectVectorVariable](id3dx11effectvectorvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

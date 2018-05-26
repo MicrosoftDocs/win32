@@ -1,7 +1,12 @@
 ---
 title: DefaultColumnFile
 description: DefaultColumnFile
-ms.assetid: '96326766-d661-4d7f-aea6-23421b0f608e'
+ms.assetid: 96326766-d661-4d7f-aea6-23421b0f608e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefaultColumnFile

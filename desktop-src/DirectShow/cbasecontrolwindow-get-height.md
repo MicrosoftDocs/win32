@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_Height method retrieves the current window height.'
-ms.assetid: '841c7d5d-f633-41fb-9cde-6126cd1cab9b'
-title: 'CBaseControlWindow.get\_Height method'
+Description: The get\_Height method retrieves the current window height.
+ms.assetid: 841c7d5d-f633-41fb-9cde-6126cd1cab9b
+title: CBaseControlWindow.get\_Height method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.get\_Height method
@@ -13,7 +18,7 @@ The `get_Height` method retrieves the current window height.
 
 ```C++
 HRESULT get_Height(
-   long *pHeight
+   long *pHeight
 );
 ```
 
@@ -58,9 +63,9 @@ Setting the left or top coordinates moves the window left or up, respectively; t
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

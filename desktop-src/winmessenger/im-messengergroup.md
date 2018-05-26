@@ -1,8 +1,10 @@
 ---
 title: MessengerGroup object
-description: Do not use. The MessengerGroup object corresponds to the IMessengerGroup interface. It represents a single group as stored in the Messenger object's internal group list.
-ms.assetid: '74c4ffca-ee4b-4347-bfd9-16c481edf953'
-keywords: ["MessengerGroup object Windows Messenger", "MessengerGroup object Windows Messenger , described"]
+description: Do not use. The MessengerGroup object corresponds to the IMessengerGroup interface. It represents a single group as stored in the Messenger objects internal group list.
+ms.assetid: 74c4ffca-ee4b-4347-bfd9-16c481edf953
+keywords:
+- MessengerGroup object Windows Messenger
+- MessengerGroup object Windows Messenger , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msgrua.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MessengerGroup object
 
-\[**MessengerGroup** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MessengerGroup** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. The **MessengerGroup** object corresponds to the [**IMessengerGroup**](im-imessengergroup.md) interface. It represents a single group as stored in the [**Messenger**](im-messenger.md) object's internal group list.
 
@@ -38,7 +45,7 @@ A **MessengerGroup** object is not intended to be created separately through [Co
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -46,19 +53,19 @@ A **MessengerGroup** object is not intended to be created separately through [Co
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.5<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

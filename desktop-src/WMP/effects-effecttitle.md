@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.effectTitle
 description: The effectTitle method retrieves the display title of the visualization with the specified registry index.
-ms.assetid: 'f3ea33f6-a8fc-4a18-993e-69b549fbea16'
-keywords: ["EFFECTS.effectTitle Windows Media Player"]
+ms.assetid: f3ea33f6-a8fc-4a18-993e-69b549fbea16
+keywords:
+- EFFECTS.effectTitle Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.effectTitle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.effectTitle
@@ -58,9 +64,9 @@ This method is used for displaying visualization titles in a user interface.
 [**EFFECTS.currentEffectTitle**](effects-currenteffecttitle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

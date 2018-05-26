@@ -1,8 +1,10 @@
 ---
 title: Msvm\_SwitchPortDynamicForwarding class
 description: Connects a switch port to a dynamic forward entry (learned MAC address).
-ms.assetid: 'a903b8d4-b42e-4cb6-96ea-f40ed29e266c'
-keywords: ["Msvm_SwitchPortDynamicForwarding class Hyper-V", "Msvm_SwitchPortDynamicForwarding class Hyper-V , described"]
+ms.assetid: a903b8d4-b42e-4cb6-96ea-f40ed29e266c
+keywords:
+- Msvm_SwitchPortDynamicForwarding class Hyper-V
+- Msvm_SwitchPortDynamicForwarding class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SwitchPortDynamicForwarding class
@@ -27,7 +34,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SwitchPortDynamicForwarding : CIM_SwitchPortDynamicForwarding
 {
-  Msvm_SwitchPort             REF Antecedent;
+  Msvm_SwitchPort             REF Antecedent;
   Msvm_DynamicForwardingEntry REF Dependent;
 };
 ```
@@ -91,9 +98,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -112,9 +119,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

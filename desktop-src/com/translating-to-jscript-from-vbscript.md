@@ -1,7 +1,12 @@
 ---
 title: Translating to JScript from VBScript
 description: Translating to JScript from VBScript
-ms.assetid: 'cdf04a01-8bc3-4f37-872b-3a0aae962f26'
+ms.assetid: cdf04a01-8bc3-4f37-872b-3a0aae962f26
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating to JScript from VBScript

@@ -1,7 +1,12 @@
 ---
 title: The Request Object
 description: The Request Object
-ms.assetid: 'd8b37164-6855-48c0-bcf8-a86c0f8b3a59'
+ms.assetid: d8b37164-6855-48c0-bcf8-a86c0f8b3a59
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Request Object

@@ -2,7 +2,13 @@
 title: Type Library Attributes
 description: The following keywords specify type library information within the context of a library statement in an IDL file.
 ms.assetid: 3dc689fe-5ef6-4919-893a-c0ff0df99d4b
-keywords: ["IDL MIDL , attributes, type library"]
+keywords:
+- IDL MIDL , attributes, type library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type Library Attributes

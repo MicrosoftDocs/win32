@@ -1,7 +1,12 @@
 ---
 title: Processing in Indexing Service
 description: Processing in Indexing Service
-ms.assetid: '49bb4010-7a8c-414f-af0f-5c6ff02d57df'
+ms.assetid: 49bb4010-7a8c-414f-af0f-5c6ff02d57df
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processing in Indexing Service

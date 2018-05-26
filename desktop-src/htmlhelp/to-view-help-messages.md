@@ -1,7 +1,12 @@
 ---
 title: To view help messages
 description: To view help messages
-ms.assetid: '27121FF2-A7C2-4c39-8055-EF6B4430AD4E'
+ms.assetid: 27121FF2-A7C2-4c39-8055-EF6B4430AD4E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To view help messages
@@ -28,7 +33,7 @@ HH_TP_HELP_WM_HELP/HH_TP_HELP_CONTEXTMENU: Control id = 1041, Help id = 1001, Fi
 
     
 
-     
+     
 
 -   When viewing help messages, you can [clear the message log at any time](to-clear-help-messages.md).
 -   This feature only displays help messages associated with the HTML Help API. Messages for interface elements such as the **OK** and **Cancel** buttons will not appear, since they are part of the Windows API.
@@ -40,9 +45,9 @@ HH_TP_HELP_WM_HELP/HH_TP_HELP_CONTEXTMENU: Control id = 1041, Help id = 1001, Fi
 [About Testing a Help System](test-a-help-system.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

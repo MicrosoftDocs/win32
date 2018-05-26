@@ -1,14 +1,20 @@
 ---
 title: Ping
 description: Use the Ping packet to establish a connection and negotiate security with the server.
-ms.assetid: '2e288564-d06f-4b45-b0c0-7aab1897da40'
-keywords: ["Ping BITS"]
+ms.assetid: 2e288564-d06f-4b45-b0c0-7aab1897da40
+keywords:
+- Ping BITS
 topic_type:
 - apiref
 api_name:
 - Ping
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ping

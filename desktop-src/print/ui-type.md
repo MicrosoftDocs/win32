@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '99C87D65-C633-4AA2-95DF-6AE74428C71D'
-title: 'UI\_TYPE enumeration'
+---
+Description: .
+ms.assetid: 99C87D65-C633-4AA2-95DF-6AE74428C71D
+title: UI\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_TYPE enumeration

@@ -1,13 +1,19 @@
 ---
 title: Retrieving Information About a Movie
 description: Retrieving Information About a Movie
-ms.assetid: '678272e0-67fe-4ec1-88a8-924a773445a7'
-keywords: ["mciSendCommand function"]
+ms.assetid: 678272e0-67fe-4ec1-88a8-924a773445a7
+keywords:
+- mciSendCommand function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Information About a Movie
 
-The following example sets the time format to frames and obtains the current position if the device is playing using the [**mciSendCommand**](mcisendcommand.md) function.
+The following example sets the time format to frames and obtains the current position if the device is playing using the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function.
 
 
 ```C++

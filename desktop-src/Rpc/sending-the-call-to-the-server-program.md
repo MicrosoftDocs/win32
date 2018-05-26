@@ -1,8 +1,14 @@
 ---
 title: Sending the Call to the Server Program
 description: Once the client side RPC run time has connected to the server endpoint, it marshalls the arguments and sends them to the server.
-ms.assetid: '170316b1-4185-45b1-845e-ca6f0285b7f9'
-keywords: ["Remote Procedure Call RPC , tasks, sending the call to the server"]
+ms.assetid: 170316b1-4185-45b1-845e-ca6f0285b7f9
+keywords:
+- Remote Procedure Call RPC , tasks, sending the call to the server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending the Call to the Server Program

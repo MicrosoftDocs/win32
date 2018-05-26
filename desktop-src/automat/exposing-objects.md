@@ -1,7 +1,12 @@
 ---
 title: Exposing Objects
-description: Exposing objects provides a way to manipulate an application's tools programmatically.
-ms.assetid: '097d9cd4-577a-48b8-befe-ccd370c98109'
+description: Exposing objects provides a way to manipulate an applications tools programmatically.
+ms.assetid: 097d9cd4-577a-48b8-befe-ccd370c98109
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exposing Objects

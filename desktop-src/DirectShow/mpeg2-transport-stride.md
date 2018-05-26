@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MPEG2\_TRANSPORT\_STRIDE structure describes the format of MPEG-2 transport stream (TS) packets.'
-ms.assetid: '269d5fba-2dea-4786-93d6-e52b56c8bb53'
-title: 'MPEG2\_TRANSPORT\_STRIDE structure'
+---
+Description: The MPEG2\_TRANSPORT\_STRIDE structure describes the format of MPEG-2 transport stream (TS) packets.
+ms.assetid: 269d5fba-2dea-4786-93d6-e52b56c8bb53
+title: MPEG2\_TRANSPORT\_STRIDE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG2\_TRANSPORT\_STRIDE structure

@@ -1,8 +1,10 @@
 ---
 title: POP3RETR structure
 description: Contains the response data from the RETR command.
-ms.assetid: '84c1d9ee-3b96-4d06-8dcd-6f0d05483ac9'
-keywords: ["POP3RETR structure Windows Mail (formerly Outlook Express)", "LPPOP3RETR structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 84c1d9ee-3b96-4d06-8dcd-6f0d05483ac9
+keywords:
+- POP3RETR structure Windows Mail (formerly Outlook Express)
+- LPPOP3RETR structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # POP3RETR structure
@@ -24,8 +31,8 @@ Contains the response data from the RETR command.
 
 ```C++
 typedef struct tagPOP3RETR {
-  BOOL  fHeader;
-  BOOL  fBody;
+  BOOL  fHeader;
+  BOOL  fBody;
   DWORD dwPopId;
   DWORD cbSoFar;
   LPSTR pszLines;
@@ -111,17 +118,17 @@ Contains a **ULONG** that holds the number of bytes in **pszLines**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This method is not supported.'
-ms.assetid: '082922fc-dda9-4970-979c-301178152502'
-title: 'IAMTimelineTrack::MoveEverythingBy2 method'
+---
+Description: This method is not supported.
+ms.assetid: 082922fc-dda9-4970-979c-301178152502
+title: IAMTimelineTrackMoveEverythingBy2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTrack::MoveEverythingBy2 method

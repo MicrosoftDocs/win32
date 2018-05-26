@@ -1,8 +1,11 @@
 ---
 title: IMsgrSession Accept method
 description: Recipient accepts the invitation.
-ms.assetid: '69505005-1e15-4768-8764-2fe51193596b'
-keywords: ["Accept method Windows Messenger", "Accept method Windows Messenger , IMsgrSession interface", "IMsgrSession interface Windows Messenger , Accept method"]
+ms.assetid: 69505005-1e15-4768-8764-2fe51193596b
+keywords:
+- Accept method Windows Messenger
+- Accept method Windows Messenger , IMsgrSession interface
+- IMsgrSession interface Windows Messenger , Accept method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMsgrSession::Accept method
 
-\[**Accept** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Accept** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Recipient accepts the invitation.
 
@@ -24,7 +32,7 @@ Recipient accepts the invitation.
 
 ```C++
 HRESULT Accept(
-  [in] BSTR bstrAppData
+  [in] BSTR bstrAppData
 );
 ```
 
@@ -59,7 +67,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,7 +88,7 @@ The following table lists the error codes returned by this method.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -88,10 +96,10 @@ The following table lists the error codes returned by this method.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Product<br/>                  | Messenger 4.0<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl> |
@@ -124,9 +132,9 @@ The following table lists the error codes returned by this method.
 [Messenger Lock and Key API](im-lock-and-key-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: ENTRY Element
 description: The ENTRY element specifies a Windows Media file to render as a clip.
-ms.assetid: '7fd16aff-2eed-4f95-92b3-b48a9d785e7c'
-keywords: ["ENTRY Element Windows Media Player"]
+ms.assetid: 7fd16aff-2eed-4f95-92b3-b48a9d785e7c
+keywords:
+- ENTRY Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ENTRY Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ENTRY Element
@@ -40,7 +46,7 @@ Possible values include the following.
 
 
 
- 
+ 
 
 **SKIPIFREF**
 
@@ -57,7 +63,7 @@ Possible values include the following.
 
 
 
- 
+ 
 
 ## Parent/Child Elements
 
@@ -70,7 +76,7 @@ Possible values include the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -122,9 +128,9 @@ The **SKIPIFREF** attribute pertains only to **ENTRY** elements that are include
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

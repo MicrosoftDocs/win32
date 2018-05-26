@@ -1,7 +1,12 @@
 ---
 title: List Views
 description: With a list view, users can view and interact with a collection of data objects, using either single selection or multiple selection.
-ms.assetid: '62a7bfc8-96a9-450d-9db9-ec9dab6687b7'
+ms.assetid: 62a7bfc8-96a9-450d-9db9-ec9dab6687b7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List Views
@@ -17,7 +22,7 @@ List views have more flexibility and functionality than list boxes. Unlike list 
 > [!Note]  
 > Guidelines related to [layout](vis-layout.md) and [list boxes](ctrl-list-boxes.md) are presented in separate articles.
 
- 
+ 
 
 ## Is this the right control?
 
@@ -35,7 +40,7 @@ A list view is more than just a more flexible and functional list box: its extra
 
 
 
- 
+ 
 
 To decide if this is the right control, consider these questions:
 
@@ -48,12 +53,12 @@ To decide if this is the right control, consider these questions:
 
 -   **Is the control used to choose zero or more items from a list of data?** To choose one item, use single selection instead.
 -   **Is multiple selection essential to the task or commonly used?** If so, use a check box list view to make multiple selection obvious, especially if your target users aren't advanced. If not, use a standard multiple-selection list view if the check boxes would draw too much attention to multiple selection or result in too much screen clutter.
--   **Is the stability of the multiple selection important?** If so, use a [check box list](ctrl-list-boxes.md#usage-patterns), list builder, or add/remove list because clicking changes only a single item at a time. With a standard multiple selection list, it's very easy to clear all the selections—even by accident.
+-   **Is the stability of the multiple selection important?** If so, use a [check box list](ctrl-list-boxes.md#usage-patterns), list builder, or add/remove list because clicking changes only a single item at a time. With a standard multiple selection list, it's very easy to clear all the selections even by accident.
 
 > [!Note]  
 > Sometimes a control that looks like a list view is implemented using a list box, and vice versa. In such cases, apply the guidelines based on the usage, not on the implementation.
 
- 
+ 
 
 ## Usage patterns
 
@@ -75,7 +80,7 @@ The list view control supports five standard views:
 
 
 
- 
+ 
 
 ### List view variations
 
@@ -109,7 +114,7 @@ The list view control supports five standard views:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -145,7 +150,7 @@ The list view control supports five standard views:
     In this example, the Sort By context menu changes the sort order. Clicking Name once sorts by name in ascending order. Clicking Name again sorts by name in descending order.
 
 -   **Make the list view column header accessible using the keyboard.**
-    -   **Developers:** You can do this by setting focus on the column header control. This capability is new to Windows Vista.
+    -   **Developers:** You can do this by setting focus on the column header control. This capability is new to Windows Vista.
 -   **When disabling a list view, also disable any associated labels and command buttons.**
 -   **Avoid horizontal scrolling.** The List mode uses horizontal scrolling. This mode is usually the most compact, but horizontal scrolling is generally harder to use than vertical scrolling. Consider using the Small Icon view instead if compactness isn't important. However, List mode is a good choice when there are many alphabetically sorted items and sufficient screen space for a wide control.
 
@@ -345,9 +350,9 @@ When referring to check boxes in a list view:
 
 Example: Select the **Underline** check box.
 
- 
+ 
 
- 
+ 
 
 
 

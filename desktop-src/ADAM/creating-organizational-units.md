@@ -4,11 +4,15 @@ description: To create an organizational unit, bind to the object that will cont
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '35fa566c-9742-4d63-bc97-8d2631256245'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 35fa566c-9742-4d63-bc97-8d2631256245
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , creating organizational units"]
+keywords:
+- AD LDS examples ADAM , creating organizational units
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Organizational Units

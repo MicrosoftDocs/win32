@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a team in the IM Platform.'
-ms.assetid: '5a22d0b3-a4bc-42a9-a95e-177068c62c20'
-title: 'MSFT\_NetImPlatTeam class'
+Description: Represents a team in the IM Platform.
+ms.assetid: 5a22d0b3-a4bc-42a9-a95e-177068c62c20
+title: MSFT\_NetImPlatTeam class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetImPlatTeam class
@@ -68,8 +73,8 @@ The name of the team.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported client<br/> | Windows 8<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>NetSwitchTeam.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>NetSwitchTeamCim.dll</dt> </dl> |
@@ -83,9 +88,9 @@ The name of the team.
 [NetSwitchTeam Provider Classes](network-switch-team-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

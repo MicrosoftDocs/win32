@@ -1,8 +1,13 @@
 ---
 title: IVMTask IsComplete property
 description: The IsComplete property indicates whether the task has completed.
-ms.assetid: '95e84969-8edb-4a84-b9ef-74df0413e8f7'
-keywords: ["IsComplete property Virtual Server", "IsComplete property Virtual Server , IVMTask interface", "IVMTask interface Virtual Server , IsComplete property", "IsComplete property Virtual Server , VMTask interface", "VMTask interface Virtual Server , IsComplete property"]
+ms.assetid: 95e84969-8edb-4a84-b9ef-74df0413e8f7
+keywords:
+- IsComplete property Virtual Server
+- IsComplete property Virtual Server , IVMTask interface
+- IVMTask interface Virtual Server , IsComplete property
+- IsComplete property Virtual Server , VMTask interface
+- VMTask interface Virtual Server , IsComplete property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask::IsComplete property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_IsComplete(
-  [in] VARIANT_BOOL *isComplete
+  [in] VARIANT_BOOL *isComplete
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMTask**](ivmtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: IAgentCommand SetConfidenceText
 description: IAgentCommand SetConfidenceText
-ms.assetid: 'e776a2ba-3592-4f26-a3e3-2c044eed7f0c'
+ms.assetid: e776a2ba-3592-4f26-a3e3-2c044eed7f0c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCommand::SetConfidenceText

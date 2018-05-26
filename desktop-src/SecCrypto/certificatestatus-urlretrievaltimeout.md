@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the length of time before a URL is determined to be unreachable.'
-ms.assetid: 'f39dafc4-6017-463c-aeee-948b6173862a'
-title: 'CertificateStatus.UrlRetrievalTimeout property'
+---
+Description: Sets or retrieves the length of time before a URL is determined to be unreachable.
+ms.assetid: f39dafc4-6017-463c-aeee-948b6173862a
+title: CertificateStatus.UrlRetrievalTimeout property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertificateStatus.UrlRetrievalTimeout property

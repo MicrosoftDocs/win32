@@ -1,12 +1,17 @@
 ---
 title: COM and Unicode Guidelines
 description: Because Microsoft Active Accessibility is based on Component Object Model (COM), developers need a moderate level of understanding about COM objects and interfaces and must know how to perform basic tasks (for example, how to initialize the COM library).
-ms.assetid: 'ed4bbef9-676a-4f4e-926a-044f71399c56'
+ms.assetid: ed4bbef9-676a-4f4e-926a-044f71399c56
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM and Unicode Guidelines
 
-Because Microsoft Active Accessibility is based on Component Object Model (COM), developers need a moderate level of understanding about COM objects and interfaces and must know how to perform basic tasks (for example, how to initialize the COM library). Server developers need to understand how to design classes that implement the [**IAccessible**](iaccessible.md) interface and how to create accessible objects.
+Because Microsoft Active Accessibility is based on Component Object Model (COM), developers need a moderate level of understanding about COM objects and interfaces and must know how to perform basic tasks (for example, how to initialize the COM library). Server developers need to understand how to design classes that implement the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface and how to create accessible objects.
 
 You also need a moderate level of understanding about Unicode to use many of the Microsoft Active Accessibility functions that return strings.
 

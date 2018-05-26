@@ -2,13 +2,19 @@
 title: out attribute
 description: The \ out\ attribute identifies pointer parameters that are returned from the called procedure to the calling procedure (from the server to the client).
 ms.assetid: f92ef78a-321b-460e-a18a-b63a5e199ad0
-keywords: ["out attribute MIDL"]
+keywords:
+- out attribute MIDL
 topic_type:
 - apiref
 api_name:
 - out
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # out attribute

@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseManagement DeleteLicense method
 description: The DeleteLicense method removes a license from the temporary local license store.
-ms.assetid: '0aa7143a-845a-41a4-8b3c-a04c68ee280a'
-keywords: ["DeleteLicense method windows Media Format", "DeleteLicense method windows Media Format , IWMDRMLicenseManagement interface", "IWMDRMLicenseManagement interface windows Media Format , DeleteLicense method"]
+ms.assetid: 0aa7143a-845a-41a4-8b3c-a04c68ee280a
+keywords:
+- DeleteLicense method windows Media Format
+- DeleteLicense method windows Media Format , IWMDRMLicenseManagement interface
+- IWMDRMLicenseManagement interface windows Media Format , DeleteLicense method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseManagement::DeleteLicense method
@@ -23,8 +31,8 @@ The **DeleteLicense** method removes a license from the temporary local license 
 
 ```C++
 HRESULT DeleteLicense(
-  [in] BSTR  bstrKID,
-  [in] DWORD dwFlags
+  [in] BSTR  bstrKID,
+  [in] DWORD dwFlags
 );
 ```
 
@@ -55,7 +63,7 @@ License deletion option flags. Set to one of the values in the following table.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -72,7 +80,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -96,9 +104,9 @@ To delete licenses from the permanent local license store, you must use license 
 [**IWMDRMLicenseManagement Interface**](iwmdrmlicensemanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

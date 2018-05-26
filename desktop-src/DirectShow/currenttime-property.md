@@ -1,7 +1,12 @@
 ---
-Description: 'The CurrentTime property retrieves the current playback time.'
-ms.assetid: '94f94eb1-49fa-4b8c-95a6-da307b0abd62'
+Description: The CurrentTime property retrieves the current playback time.
+ms.assetid: 94f94eb1-49fa-4b8c-95a6-da307b0abd62
 title: CurrentTime Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CurrentTime Property

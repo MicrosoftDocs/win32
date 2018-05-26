@@ -2,13 +2,16 @@
 title: Set method of the PS\_IPFilter class
 description: Updates the filtering action of an IP filter for a BGP router.
 audience: developer
-ms.assetid: '1f44a89a-1e9c-4fd2-b2fa-6996d2425d18'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1f44a89a-1e9c-4fd2-b2fa-6996d2425d18
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_IPFilter class", "PS_IPFilter class, Set method"]
+keywords:
+- Set method
+- Set method, PS_IPFilter class
+- PS_IPFilter class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_IPFilter class
@@ -28,12 +34,12 @@ Updates the filtering action of an IP filter for a BGP router.
 
 ```mof
 uint32 Set(
-  [in]  uint32            Action,
-  [in]  uint32            Direction,
-  [in]  string            InterfaceAlias,
-  [in]  uint32            AddressFamily,
-  [in]  boolean           PassThru,
-  [out] InterfaceIpFilter cmdletOutput[]
+  [in]  uint32            Action,
+  [in]  uint32            Direction,
+  [in]  string            InterfaceAlias,
+  [in]  uint32            AddressFamily,
+  [in]  boolean           PassThru,
+  [out] InterfaceIpFilter cmdletOutput[]
 );
 ```
 
@@ -48,7 +54,7 @@ uint32 Set(
 
 The action for the filter to perform. You can set this parameter to one of the following values.
 
-**Windows Server 2012:** This parameter was changed from a sting data type in Windows Server 2012 R2.
+**Windows Server 2012:** This parameter was changed from a sting data type in Windows Server 2012 R2.
 
 <dt>
 
@@ -99,7 +105,7 @@ The alias of interface that contains the filters to update.
 
 Indicates whether the filter is an IPv4 filter or IPv6.
 
-**Windows Server 2012:** This parameter replaced the *IpVersion* parameter in Windows Server 2012 R2.
+**Windows Server 2012:** This parameter replaced the *IpVersion* parameter in Windows Server 2012 R2.
 
 <dt>
 
@@ -129,7 +135,7 @@ Indicates wether the *cmdletOutput* parameter returns an object. **True** to ret
 
 The [**InterfaceIpFilter**](interfaceipfilter.md) object that receives the updated IP filter.
 
-**Windows Server 2012:** This parameter was changed to an array in Windows Server 2012 R2.
+**Windows Server 2012:** This parameter was changed to an array in Windows Server 2012 R2.
 
 </dd> </dl>
 
@@ -140,7 +146,7 @@ The [**InterfaceIpFilter**](interfaceipfilter.md) object that receives the updat
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -154,9 +160,9 @@ The [**InterfaceIpFilter**](interfaceipfilter.md) object that receives the updat
 [**PS\_IPFilter**](ps-ipfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

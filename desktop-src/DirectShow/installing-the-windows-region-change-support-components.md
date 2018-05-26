@@ -1,7 +1,12 @@
 ---
 Description: Installing the Windows Region Change Support Components
-ms.assetid: 'af0e5e19-f4de-4932-a42b-590a1131e0f6'
+ms.assetid: af0e5e19-f4de-4932-a42b-590a1131e0f6
 title: Installing the Windows Region Change Support Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing the Windows Region Change Support Components

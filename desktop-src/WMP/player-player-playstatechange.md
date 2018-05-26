@@ -1,8 +1,11 @@
 ---
 title: Player.PlayStateChange event
 description: The PlayStateChange event occurs when there is a change in the playState property.
-ms.assetid: 'd4c4b114-04b6-4079-b6a2-52b336fc6dc1'
-keywords: ["PlayStateChange event Windows Media Player", "PlayStateChange event Windows Media Player , Player class", "Player class Windows Media Player , PlayStateChange event"]
+ms.assetid: d4c4b114-04b6-4079-b6a2-52b336fc6dc1
+keywords:
+- PlayStateChange event Windows Media Player
+- PlayStateChange event Windows Media Player , Player class
+- Player class Windows Media Player , PlayStateChange event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.PlayStateChange event
@@ -102,9 +110,9 @@ switch (NewState){
 [**Player.playState**](player-playstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: SLIDER.backgroundHoverImage
 description: The backgroundHoverImage attribute specifies or retrieves the background image of the slider that appears when hovering over it with the mouse.
-ms.assetid: '292af0c4-d720-4f29-9778-6ae83539da70'
-keywords: ["SLIDER.backgroundHoverImage Windows Media Player"]
+ms.assetid: 292af0c4-d720-4f29-9778-6ae83539da70
+keywords:
+- SLIDER.backgroundHoverImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.backgroundHoverImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.backgroundHoverImage
@@ -46,9 +52,9 @@ The supported formats are BMP, JPG, PNG, and GIF (not including animated GIFs).
 [**SLIDER Element**](slider-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: INapSoHConstructor GetSoH method
 description: Retrieves the constructed SoHRequest or SoHResponse packet.
-ms.assetid: '402c72fd-9e23-453a-8c95-57615295e056'
-keywords: ["GetSoH method NAP", "GetSoH method NAP , INapSoHConstructor interface", "INapSoHConstructor interface NAP , GetSoH method"]
+ms.assetid: 402c72fd-9e23-453a-8c95-57615295e056
+keywords:
+- GetSoH method NAP
+- GetSoH method NAP , INapSoHConstructor interface
+- INapSoHConstructor interface NAP , GetSoH method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qutil.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSoHConstructor::GetSoH method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSoHConstructor::GetSoH** method retrieves the constructed SoHRequest or SoHResponse packet.
 
@@ -27,7 +35,7 @@ The **INapSoHConstructor::GetSoH** method retrieves the constructed SoHRequest o
 
 ```C++
 HRESULT GetSoH(
-  [out] SoH **soh
+  [out] SoH **soh
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT GetSoH(
 *soh* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to the constructed [**SoHRequest**](soh-struct.md) or **SoHResponse** packet.
+A pointer to a pointer to the constructed [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) or **SoHResponse** packet.
 
 </dd> </dl>
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Other COM-specific error codes also may be returned.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>NapProtocol.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapProtocol.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl>       |
@@ -81,9 +89,9 @@ Other COM-specific error codes also may be returned.
 [**INapSoHConstructor**](inapsohconstructor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

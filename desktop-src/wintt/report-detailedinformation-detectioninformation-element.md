@@ -1,14 +1,20 @@
 ---
 title: DetailedInformation (DetectionInformation) Element
 description: A section that contains the collection of custom details that the package author added to the report.
-ms.assetid: 'e7b83dfe-f6a6-4c03-a1d1-e75ba72ea513'
-keywords: ["DetailedInformation element Windows Troubleshooting Toolkit"]
+ms.assetid: e7b83dfe-f6a6-4c03-a1d1-e75ba72ea513
+keywords:
+- DetailedInformation element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - DetailedInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DetailedInformation (DetectionInformation) Element
@@ -29,8 +35,8 @@ The **DetailedInformation** element is defined by the [**DetectionInformation**]
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -47,9 +53,9 @@ The **DetailedInformation** element is defined by the [**DetectionInformation**]
 [**DetectionInformation (RootCause)**](https://msdn.microsoft.com/library/windows/desktop/ee692422)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

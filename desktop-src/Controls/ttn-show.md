@@ -1,8 +1,9 @@
 ---
 title: TTN\_SHOW notification code
 description: Notifies the owner window that a tooltip control is about to be displayed. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'ddfd18cd-0681-4e4a-b258-873f98da7479'
-keywords: ["TTN_SHOW notification code Windows Controls"]
+ms.assetid: ddfd18cd-0681-4e4a-b258-873f98da7479
+keywords:
+- TTN_SHOW notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTN\_SHOW notification code
@@ -33,7 +39,7 @@ TTN_SHOW
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMHDR**](nmhdr.md) structure.
+Pointer to an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure.
 
 </dd> </dl>
 
@@ -44,7 +50,7 @@ Pointer to an [**NMHDR**](nmhdr.md) structure.
 > [!Note]  
 > For versions earlier than 4.70, there is no return value.
 
- 
+ 
 
 ## Remarks
 
@@ -56,15 +62,15 @@ A tooltip window rectangle is somewhat larger than its text display rectangle, a
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

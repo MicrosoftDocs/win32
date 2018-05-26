@@ -1,14 +1,22 @@
 ---
 title: IBasicDevice remove\_ConnectionStatusChanged method
 description: Unregisters an event handler for the ConnectionStatusChanged event.
-ms.assetid: '577D9C50-486D-441A-A9FE-AF79D1FC2B52'
-keywords: ["remove_ConnectionStatusChanged method Media Streaming API", "remove_ConnectionStatusChanged method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , remove_ConnectionStatusChanged method"]
+ms.assetid: 577D9C50-486D-441A-A9FE-AF79D1FC2B52
+keywords:
+- remove_ConnectionStatusChanged method Media Streaming API
+- remove_ConnectionStatusChanged method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , remove_ConnectionStatusChanged method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.remove_ConnectionStatusChanged
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::remove\_ConnectionStatusChanged method
@@ -20,7 +28,7 @@ Unregisters an event handler for the [**ConnectionStatusChanged**](connectionsta
 
 ```C++
 HRESULT remove_ConnectionStatusChanged(
-  [in] EventRegistrationToken *token
+  [in] EventRegistrationToken *token
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

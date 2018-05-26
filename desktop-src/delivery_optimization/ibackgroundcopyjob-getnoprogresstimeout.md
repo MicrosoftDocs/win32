@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob GetNoProgressTimeout method
 description: Retrieves the length of time that the service tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
-ms.assetid: '3C31A15B-62EF-4807-8EC3-78BAEA3E23AE'
-keywords: ["GetNoProgressTimeout method", "GetNoProgressTimeout method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, GetNoProgressTimeout method"]
+ms.assetid: 3C31A15B-62EF-4807-8EC3-78BAEA3E23AE
+keywords:
+- GetNoProgressTimeout method
+- GetNoProgressTimeout method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, GetNoProgressTimeout method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::GetNoProgressTimeout method
@@ -22,7 +30,7 @@ Retrieves the length of time that the service tries to transfer the file after a
 
 ```C++
 HRESULT GetNoProgressTimeout(
-  [in] ULONG *pRetryPeriod
+  [in] ULONG *pRetryPeriod
 );
 ```
 
@@ -51,7 +59,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +67,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -79,9 +87,9 @@ This method returns the following **HRESULT** values, as well as others.
 [**IBackgroundCopyJob::SetNoProgressTimeout**](ibackgroundcopyjob-setnoprogresstimeout.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

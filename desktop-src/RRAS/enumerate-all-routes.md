@@ -1,7 +1,12 @@
 ---
 title: Enumerate All Routes
 description: The following procedure outlines the steps used to enumerate any of the entities used by the RTMv2 API. The sample code that follows shows how to enumerate all routes.
-ms.assetid: '78a50e4a-f3c7-4a0d-a528-18d35b66369d'
+ms.assetid: 78a50e4a-f3c7-4a0d-a528-18d35b66369d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerate All Routes
@@ -10,10 +15,10 @@ The following procedure outlines the steps used to enumerate any of the entities
 
 **The basic process for each enumeration is as follows**
 
-1.  Start the enumeration by obtaining a handle from the routing table manager. Call [**RtmCreateDestEnum**](rtmcreatedestenum.md), [**RtmCreateRouteEnum**](rtmcreaterouteenum.md) and [**RtmCreateNextHopEnum**](rtmcreatenexthopenum.md) to supply the criteria that specifies the kind of information being enumerated. This criteria includes, but is not limited to a range of destinations, a particular interface, and the views in which the information resides.
-2.  Call [**RtmGetEnumDests**](rtmgetenumdests.md), [**RtmGetEnumRoutes**](rtmgetenumroutes.md) and [**RtmGetEnumNextHops**](rtmgetenumnexthops.md) one or more times to retrieve data until the routing table manager returns ERROR\_NO\_MORE\_ITEMS. The route, destination, and next-hop data is returned in order of the address information (and the preference and metric values, if routes are being enumerated).
-3.  Call [**RtmReleaseDests**](rtmreleasedests.md), [**RtmReleaseRoutes**](rtmreleaseroutes.md) and [**RtmReleaseNextHops**](rtmreleasenexthops.md) when the handles or information structures associated with the enumeration are no longer required.
-4.  Call [**RtmDeleteEnumHandle**](rtmdeleteenumhandle.md) to release the enumeration handle that was returned when the enumeration was created. This function is used to release the handle for all types of enumerations.
+1.  Start the enumeration by obtaining a handle from the routing table manager. Call [**RtmCreateDestEnum**](/windows/win32/Rtmv2/nf-rtmv2-rtmcreatedestenum?branch=master), [**RtmCreateRouteEnum**](/windows/win32/Rtmv2/nf-rtmv2-rtmcreaterouteenum?branch=master) and [**RtmCreateNextHopEnum**](/windows/win32/Rtmv2/nf-rtmv2-rtmcreatenexthopenum?branch=master) to supply the criteria that specifies the kind of information being enumerated. This criteria includes, but is not limited to a range of destinations, a particular interface, and the views in which the information resides.
+2.  Call [**RtmGetEnumDests**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetenumdests?branch=master), [**RtmGetEnumRoutes**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetenumroutes?branch=master) and [**RtmGetEnumNextHops**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetenumnexthops?branch=master) one or more times to retrieve data until the routing table manager returns ERROR\_NO\_MORE\_ITEMS. The route, destination, and next-hop data is returned in order of the address information (and the preference and metric values, if routes are being enumerated).
+3.  Call [**RtmReleaseDests**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleasedests?branch=master), [**RtmReleaseRoutes**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleaseroutes?branch=master) and [**RtmReleaseNextHops**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleasenexthops?branch=master) when the handles or information structures associated with the enumeration are no longer required.
+4.  Call [**RtmDeleteEnumHandle**](/windows/win32/Rtmv2/nf-rtmv2-rtmdeleteenumhandle?branch=master) to release the enumeration handle that was returned when the enumeration was created. This function is used to release the handle for all types of enumerations.
 
 > [!Note]  
 > Routes that are in the hold-down state are only enumerated when a client requests data from all views using RTM\_VIEW\_MASK\_ANY.

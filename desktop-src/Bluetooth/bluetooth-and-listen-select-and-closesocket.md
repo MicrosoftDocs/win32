@@ -1,8 +1,21 @@
 ---
 title: Bluetooth and listen, select, and closesocket
 description: Bluetooth uses the listen, select, and closesocket functions without any modification from standard Windows Sockets programming.
-ms.assetid: 'b64440de-bc63-4e3b-bfd9-5cf783f36c23'
-keywords: ["Bluetooth", "closesocket", "listen", "select", "Bluetooth and listen", "Bluetooth and listen,select", "Bluetooth and listen,select,and closesocket", "listen"]
+ms.assetid: b64440de-bc63-4e3b-bfd9-5cf783f36c23
+keywords:
+- Bluetooth
+- closesocket
+- listen
+- select
+- Bluetooth and listen
+- Bluetooth and listen,select
+- Bluetooth and listen,select,and closesocket
+- listen
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and listen, select, and closesocket

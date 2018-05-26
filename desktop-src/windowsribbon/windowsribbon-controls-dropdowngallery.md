@@ -1,7 +1,12 @@
 ---
 title: Drop-Down Gallery
 description: The Drop-Down Gallery consists of a button that when clicked displays a drop-down list containing a collection of mutually exclusive items or Commands.
-ms.assetid: '10644e10-f903-49f6-aecd-1a63d97fe447'
+ms.assetid: 10644e10-f903-49f6-aecd-1a63d97fe447
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drop-Down Gallery
@@ -33,7 +38,7 @@ The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/w
 > [!Note]  
 > In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
 
- 
+ 
 
 The following table lists the property keys that are associated with the Drop-Down Gallery control.
 
@@ -109,7 +114,7 @@ If the Command associated with the control is invalidated through a call to [<st
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -127,9 +132,9 @@ If the Command associated with the control is invalidated through a call to [<st
 [Gallery Sample](windowsribbon-gallerysample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

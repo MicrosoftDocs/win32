@@ -1,31 +1,36 @@
 ---
 Description: Binding Output Nodes to Media Sinks
-ms.assetid: 'd4f93f34-0af1-431f-9333-70ea09691b64'
+ms.assetid: d4f93f34-0af1-431f-9333-70ea09691b64
 title: Binding Output Nodes to Media Sinks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Binding Output Nodes to Media Sinks
 
 This topic describes how to initialize the output nodes in a topology, if you are using the topology loader outside of the Media Session. An output node initially contains one of the following:
 
--   An [**IMFStreamSink**](imfstreamsink.md) pointer.
--   An [**IMFActivate**](imfactivate.md) pointer.
+-   An [**IMFStreamSink**](/windows/win32/mfidl/nn-mfidl-imfstreamsink?branch=master) pointer.
+-   An [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointer.
 
-In the latter case, the [**IMFActivate**](imfactivate.md) pointer must be converted to an [**IMFStreamSink**](imfstreamsink.md) pointer before the topology loader resolves the topology. In most scenarios, the process works as follows:
+In the latter case, the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointer must be converted to an [**IMFStreamSink**](/windows/win32/mfidl/nn-mfidl-imfstreamsink?branch=master) pointer before the topology loader resolves the topology. In most scenarios, the process works as follows:
 
 1.  The application queues a partial topology on the Media Session.
-2.  For all output nodes, the Media Session converts [**IMFActivate**](imfactivate.md) pointers to [**IMFStreamSink**](imfstreamsink.md) pointers. This process is called *binding* the output node to a media sink.
-3.  The Media Session sends the modified topology to the [**IMFTopoLoader::Load**](imftopoloader-load.md) method.
+2.  For all output nodes, the Media Session converts [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointers to [**IMFStreamSink**](/windows/win32/mfidl/nn-mfidl-imfstreamsink?branch=master) pointers. This process is called *binding* the output node to a media sink.
+3.  The Media Session sends the modified topology to the [**IMFTopoLoader::Load**](/windows/win32/mfidl/nf-mfidl-imftopoloader-load?branch=master) method.
 
-However, if you are using the topology loader directly (outside of the media sesssion), your application must bind the output nodes prior to calling [**IMFTopoLoader::Load**](imftopoloader-load.md). To bind an output node, do the following:
+However, if you are using the topology loader directly (outside of the media sesssion), your application must bind the output nodes prior to calling [**IMFTopoLoader::Load**](/windows/win32/mfidl/nf-mfidl-imftopoloader-load?branch=master). To bind an output node, do the following:
 
-1.  Call [**IMFTopologyNode::GetObject**](imftopologynode-getobject.md) to get the node's object pointer.
-2.  Query the object pointer for the [**IMFStreamSink**](imfstreamsink.md) interface. If this call succeeds, there is nothing more to do, so skip the remaining steps.
-3.  If the previous step failed, query the object pointer for the [**IMFActivate**](imfactivate.md) interface.
-4.  Create the media sink by calling [**IMFActivate::ActivateObject**](imfactivate-activateobject.md). Specify **IID\_IMFMediaSink** to get a pointer to the media sink's [**IMFMediaSink**](imfmediasink.md) interface.
+1.  Call [**IMFTopologyNode::GetObject**](/windows/win32/mfidl/nf-mfidl-imftopologynode-getobject?branch=master) to get the node's object pointer.
+2.  Query the object pointer for the [**IMFStreamSink**](/windows/win32/mfidl/nn-mfidl-imfstreamsink?branch=master) interface. If this call succeeds, there is nothing more to do, so skip the remaining steps.
+3.  If the previous step failed, query the object pointer for the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) interface.
+4.  Create the media sink by calling [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master). Specify **IID\_IMFMediaSink** to get a pointer to the media sink's [**IMFMediaSink**](/windows/win32/mfidl/nn-mfidl-imfmediasink?branch=master) interface.
 5.  Query the node for the [**MF\_TOPONODE\_STREAMID**](mf-toponode-streamid-attribute.md) attribute. The value of this attribute is the identifier of the stream sink for this node. If the **MF\_TOPONODE\_STREAMID** attribute is not set, the default stream identifier is zero.
-6.  The appropriate stream sink might already exist on the media sink. To check, call [**IMFMediaSink::GetStreamSinkById**](imfmediasink-getstreamsinkbyid.md) on the media sink. If the stream sink exists, the method returns a pointer to its [**IMFStreamSink**](imfstreamsink.md) interface. If this call fails, try to add a new stream sink by calling [**IMFMediaSink::AddStreamSink**](imfmediasink-addstreamsink.md). If both calls fail, it means the media sink does not support the requested stream identifier, and this topology node is not configured correctly. Return an error code and skip the next step.
-7.  Call [**IMFTopologyNode::SetObject**](imftopologynode-setobject.md), passing in the [**IMFStreamSink**](imfstreamsink.md) pointer from the previous step. This call replaces the node's object pointer, so that the node contains a pointer to the stream sink, instead of a pointer to the activation object.
+6.  The appropriate stream sink might already exist on the media sink. To check, call [**IMFMediaSink::GetStreamSinkById**](/windows/win32/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyid?branch=master) on the media sink. If the stream sink exists, the method returns a pointer to its [**IMFStreamSink**](/windows/win32/mfidl/nn-mfidl-imfstreamsink?branch=master) interface. If this call fails, try to add a new stream sink by calling [**IMFMediaSink::AddStreamSink**](/windows/win32/mfidl/nf-mfidl-imfmediasink-addstreamsink?branch=master). If both calls fail, it means the media sink does not support the requested stream identifier, and this topology node is not configured correctly. Return an error code and skip the next step.
+7.  Call [**IMFTopologyNode::SetObject**](/windows/win32/mfidl/nf-mfidl-imftopologynode-setobject?branch=master), passing in the [**IMFStreamSink**](/windows/win32/mfidl/nn-mfidl-imfstreamsink?branch=master) pointer from the previous step. This call replaces the node's object pointer, so that the node contains a pointer to the stream sink, instead of a pointer to the activation object.
 
 The following code shows how to bind an output node.
 
@@ -114,7 +119,7 @@ HRESULT BindOutputNode(IMFTopologyNode *pNode)
 
  
 
-The next example shows how to bind all of the output nodes in a topology. This example uses the [**IMFTopology::GetOutputNodeCollection**](imftopology-getoutputnodecollection.md) method to get a collection of output nodes from the topology. Then it calls the function shown in the previous example on each of those nodes in turn.
+The next example shows how to bind all of the output nodes in a topology. This example uses the [**IMFTopology::GetOutputNodeCollection**](/windows/win32/mfidl/nf-mfidl-imftopology-getoutputnodecollection?branch=master) method to get a collection of output nodes from the topology. Then it calls the function shown in the previous example on each of those nodes in turn.
 
 
 ```C++
@@ -176,7 +181,7 @@ HRESULT BindOutputNodes(IMFTopology *pTopology)
 [Media Sinks](media-sinks.md)
 </dt> <dt>
 
-[**IMFTopoLoader**](imftopoloader.md)
+[**IMFTopoLoader**](/windows/win32/mfidl/nn-mfidl-imftopoloader?branch=master)
 </dt> </dl>
 
  

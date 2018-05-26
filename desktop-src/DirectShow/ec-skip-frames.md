@@ -1,7 +1,12 @@
 ---
-Description: 'Sent by the DVD Navigator when it needs to skip frames.'
-ms.assetid: '252ffbcc-e81a-499d-9dd2-170be01f7ce1'
-title: 'EC\_SKIP\_FRAMES'
+Description: Sent by the DVD Navigator when it needs to skip frames.
+ms.assetid: 252ffbcc-e81a-499d-9dd2-170be01f7ce1
+title: EC\_SKIP\_FRAMES
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_SKIP\_FRAMES
@@ -50,9 +55,9 @@ This event is not sent to the application. Applications cannot override the defa
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

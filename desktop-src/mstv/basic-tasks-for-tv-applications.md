@@ -1,7 +1,12 @@
 ---
 title: Basic Tasks for TV Applications
 description: Basic Tasks for TV Applications
-ms.assetid: '90549f4a-3814-4c63-8858-2f15d2dbdf96'
+ms.assetid: 90549f4a-3814-4c63-8858-2f15d2dbdf96
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic Tasks for TV Applications
@@ -20,7 +25,7 @@ Application development using Microsoft TV Technologies is based on a few fundam
 5.  **Configure the Video Mixing Renderer for custom rendering.** (Optional) The Video Mixing Renderer (VMR) enables you to create custom mixing effects, such as alpha-blending a bitmap over the video rectangle. The application configures the VMR through the **MSVidVideoRenderer** object, which is obtained through the Video Control's **VideoRendererActive** property.
 6.  **Set up event notication.** (Optional) For most applications, it is useful to receive event notifications from the Video Control. The mechanism for receiving events depends on the programming language; details are given in the language-specific sections of the documentation.
 7.  **Access IP data in the broadcast stream.** (Optional) If the Data Services feature is enabled, IP data in the broadcast stream is routed to the NDIS stack. To receive this data, the application must open a socket using Winsock and listen on the specified multicast address, as it would for any other IP data.
-8.  **Create a default tune request.** (Required for script applications only) When Microsoft Internet Explorer encounters a "TV:" URL in a Web page, it automatically loads the Video Control and tunes it to the default tune request, which is stored in the system registry. This registry entry must be created by a C++ application, using the [**ICreatePropBagOnRegKey**](icreatepropbagonregkey.md) interface.
+8.  **Create a default tune request.** (Required for script applications only) When Microsoft Internet Explorer encounters a "TV:" URL in a Web page, it automatically loads the Video Control and tunes it to the default tune request, which is stored in the system registry. This registry entry must be created by a C++ application, using the [**ICreatePropBagOnRegKey**](/windows/previous-versions/regbag/nn-regbag-icreatepropbagonregkey?branch=master) interface.
 
 ## Related topics
 

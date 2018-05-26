@@ -4,13 +4,16 @@ description: Deletes the IPv6 Scopes from the DHCP Server corresponding to the s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2f27b3c6-1c5d-441d-b229-1eff79f6bd66'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2f27b3c6-1c5d-441d-b229-1eff79f6bd66
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DhcpServerv6Scope class", "PS_DhcpServerv6Scope class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DhcpServerv6Scope class
+- PS_DhcpServerv6Scope class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DhcpServerv6Scope class
@@ -30,11 +36,11 @@ Deletes the IPv6 Scopes from the DHCP Server corresponding to the specified pref
 
 ```mof
 uint32 Remove(
-  [in]  string            Prefix[],
-  [in]  boolean           Force,
-  [in]  boolean           Passthru,
-  [in]  string            ComputerName,
-  [out] DhcpServerv6Scope cmdletOutput[]
+  [in]  string            Prefix[],
+  [in]  boolean           Force,
+  [in]  boolean           Passthru,
+  [in]  string            ComputerName,
+  [out] DhcpServerv6Scope cmdletOutput[]
 );
 ```
 
@@ -86,7 +92,7 @@ An embedded instance of the [**DhcpServerv6Scope**](dhcpserverv6scope.md) class.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -100,9 +106,9 @@ An embedded instance of the [**DhcpServerv6Scope**](dhcpserverv6scope.md) class.
 [**PS\_DhcpServerv6Scope**](ps-dhcpserverv6scope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

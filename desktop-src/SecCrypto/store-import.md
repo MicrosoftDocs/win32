@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Import method copies into an open certificate store the contents of a previously exported certificate store. This method can only be used with a store that has been opened with read/write permission.'
-ms.assetid: '22db8f1c-469b-4baf-9039-4da35c9c6aa0'
-title: 'Store.Import method'
+---
+Description: The Import method copies into an open certificate store the contents of a previously exported certificate store. This method can only be used with a store that has been opened with read/write permission.
+ms.assetid: 22db8f1c-469b-4baf-9039-4da35c9c6aa0
+title: Store.Import method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Store.Import method

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GLYPHRUN structure is one of the structures used to define the contents of glyph translation table files (.gtt files).'
-ms.assetid: '21f6631c-dff1-459f-a83e-7aa1d5d2ab2b'
+---
+Description: The GLYPHRUN structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
+ms.assetid: 21f6631c-dff1-459f-a83e-7aa1d5d2ab2b
 title: GLYPHRUN structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GLYPHRUN structure

@@ -1,8 +1,10 @@
 ---
 title: MSFT\_MpWDOScan class
 description: Windows Defender Offline Scan Class.
-ms.assetid: 'C26C045C-BB04-4ECD-97E6-6EC3520F7F62'
-keywords: ["MSFT_MpWDOScan class", "MSFT_MpWDOScan class, described"]
+ms.assetid: C26C045C-BB04-4ECD-97E6-6EC3520F7F62
+keywords:
+- MSFT_MpWDOScan class
+- MSFT_MpWDOScan class, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - ProtectionManagement.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_MpWDOScan class
@@ -45,7 +52,7 @@ The **MSFT\_MpWDOScan** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,17 +60,17 @@ The **MSFT\_MpWDOScan** class has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Defender<br/>                                                       |
 | MOF<br/>                      | <dl> <dt>ProtectionManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ProtectionManagement.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

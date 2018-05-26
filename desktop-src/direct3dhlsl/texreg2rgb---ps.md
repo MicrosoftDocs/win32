@@ -1,7 +1,12 @@
 ---
 title: texreg2rgb - ps
 description: Interprets the red, green, and blue (RGB) color components of the source register as texture address data in order to sample the texture at the stage corresponding to the destination register number. The result is stored in the destination register.
-ms.assetid: '8ec44014-d796-407c-8fe0-036decaf2a3d'
+ms.assetid: 8ec44014-d796-407c-8fe0-036decaf2a3d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # texreg2rgb - ps

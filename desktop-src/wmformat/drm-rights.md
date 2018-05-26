@@ -1,14 +1,20 @@
 ---
 title: DRM\_Rights
 description: The DRM\_Rights property specifies the rights that the application will require in the next attempt to open a protected file.
-ms.assetid: 'fbf62e8d-069e-427b-9093-6c579cdaa96a'
-keywords: ["DRM_Rights windows Media Format"]
+ms.assetid: fbf62e8d-069e-427b-9093-6c579cdaa96a
+keywords:
+- DRM_Rights windows Media Format
 topic_type:
 - apiref
 api_name:
 - DRM_Rights
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_Rights
@@ -25,7 +31,7 @@ g\_wszWMDRM\_Rights
 
 ## Remarks
 
-This is a read-write property that is retrieved using [**IWMDRMReader::GetDRMProperty**](iwmdrmreader-getdrmproperty.md) and set using either [**IWMDRMReader::SetDRMProperty**](iwmdrmreader-setdrmproperty.md) or [**IWMDRMWriter::SetDRMAttribute**](iwmdrmwriter-setdrmattribute.md).
+This is a read-write property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty?branch=master) and set using either [**IWMDRMReader::SetDRMProperty**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty?branch=master) or [**IWMDRMWriter::SetDRMAttribute**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute?branch=master).
 
 The following table lists the supported rights.
 
@@ -43,7 +49,7 @@ The following table lists the supported rights.
 
 
 
- 
+ 
 
 This property contains a wide-character string of one or more rights separated by semicolons, for example: L"Playback;Copy;CollaborativePlay".
 
@@ -54,9 +60,9 @@ This property contains a wide-character string of one or more rights separated b
 [**DRM Properties**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

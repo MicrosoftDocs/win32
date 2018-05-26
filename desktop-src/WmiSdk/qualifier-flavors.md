@@ -1,13 +1,16 @@
 ---
-Description: 'Qualifier flavors provide more information about a qualifier, such as whether a derived class or instance can override the qualifier's original value.'
+Description: Qualifier flavors provide more information about a qualifier, such as whether a derived class or instance can override the qualifiers original value.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6a0769ac-e16c-45e1-92b6-26e4969bf23d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6a0769ac-e16c-45e1-92b6-26e4969bf23d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Qualifier Flavors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Qualifier Flavors

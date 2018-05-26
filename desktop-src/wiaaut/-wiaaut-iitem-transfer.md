@@ -1,8 +1,11 @@
 ---
 title: Item.Transfer method
 description: Retrieves an ImageFile object from an imaging device.
-ms.assetid: 'fb315c60-4a57-4b08-9ad2-dcbe3e58ee01'
-keywords: ["Transfer method WIA Automation", "Transfer method WIA Automation , Item object", "Item object WIA Automation , Transfer method"]
+ms.assetid: fb315c60-4a57-4b08-9ad2-dcbe3e58ee01
+keywords:
+- Transfer method WIA Automation
+- Transfer method WIA Automation , Item object
+- Item object WIA Automation , Transfer method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Item.Transfer method
@@ -47,7 +55,7 @@ Type: **BSTR**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -69,8 +77,8 @@ For example code, see [Implement a Windows Script Host Script that Runs Automati
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -95,9 +103,9 @@ For example code, see [Implement a Windows Script Host Script that Runs Automati
 [**Item**](-wiaaut-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OIEXT structure supplies additional, optional information about a property sheet page option that is described by an OPTITEM structure.'
-ms.assetid: '932e5520-0ebf-4cfa-893a-a7eb969cb697'
+---
+Description: The OIEXT structure supplies additional, optional information about a property sheet page option that is described by an OPTITEM structure.
+ms.assetid: 932e5520-0ebf-4cfa-893a-a7eb969cb697
 title: OIEXT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OIEXT structure

@@ -1,18 +1,21 @@
 ---
-Description: 'After you retrieve a pointer to an IWbemServices proxy, you must set the security on the proxy to access WMI through the proxy.'
+Description: After you retrieve a pointer to an IWbemServices proxy, you must set the security on the proxy to access WMI through the proxy.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'dd453e0e-aa1f-4ef1-ab21-613630b2758c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: dd453e0e-aa1f-4ef1-ab21-613630b2758c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting the Security Levels on a WMI Connection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting the Security Levels on a WMI Connection
 
-After you retrieve a pointer to an [**IWbemServices**](iwbemservices.md) proxy, you must set the security on the proxy to access WMI through the proxy. You must set the security because the **IWbemServices** proxy grants access to an out-of-process object. In general, COM security does not allow one process to access another process if you do not set the proper security properties. For more information, see [Setting the Security on IWbemServices and Other Proxies](setting-the-security-on-iwbemservices-and-other-proxies.md). Connections to different operating systems require varying levels of authentication and impersonation. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
+After you retrieve a pointer to an [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) proxy, you must set the security on the proxy to access WMI through the proxy. You must set the security because the **IWbemServices** proxy grants access to an out-of-process object. In general, COM security does not allow one process to access another process if you do not set the proper security properties. For more information, see [Setting the Security on IWbemServices and Other Proxies](setting-the-security-on-iwbemservices-and-other-proxies.md). Connections to different operating systems require varying levels of authentication and impersonation. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
 The code examples in this topic require the following references and \#include statements to compile correctly.
 
@@ -31,7 +34,7 @@ The following procedure describes how to set the security levels on a WMI connec
 
 **To set the security levels on a WMI connection**
 
--   Set the security levels on the [**IWbemServices**](iwbemservices.md) proxy with a call to [**CoSetProxyBlanket**](_com_cosetproxyblanket).
+-   Set the security levels on the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) proxy with a call to [**CoSetProxyBlanket**](_com_cosetproxyblanket).
 
     The following code example describes a common way of calling [**CoSetProxyBlanket**](_com_cosetproxyblanket).
 
@@ -64,7 +67,7 @@ The following procedure describes how to set the security levels on a WMI connec
 
     
 
-After you set the security levels for your [**IWbemServices**](iwbemservices.md) pointer, you can access the various capabilities of WMI. After you finish using WMI, you must shut down your application. For more information, see [Cleaning up and Shutting Down a WMI Application](cleaning-up-and-shutting-down-a-wmi-application.md).
+After you set the security levels for your [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) pointer, you can access the various capabilities of WMI. After you finish using WMI, you must shut down your application. For more information, see [Cleaning up and Shutting Down a WMI Application](cleaning-up-and-shutting-down-a-wmi-application.md).
 
  
 

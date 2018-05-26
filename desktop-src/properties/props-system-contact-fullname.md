@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the full name of the contact.'
-ms.assetid: '24b1cc89-092f-4186-a5d3-a2be7a405538'
-title: 'System.Contact.FullName'
+Description: Indicates the full name of the contact.
+ms.assetid: 24b1cc89-092f-4186-a5d3-a2be7a405538
+title: System.Contact.FullName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.FullName

@@ -1,14 +1,19 @@
-﻿---
-Description: 'SFVM\_GETDETAILSOF may be altered or unavailable.'
-ms.assetid: '46a81a7b-527c-4d41-8d25-ce65fd87416e'
-title: 'SFVM\_GETDETAILSOF message'
+---
+Description: SFVM\_GETDETAILSOF may be altered or unavailable.
+ms.assetid: 46a81a7b-527c-4d41-8d25-ce65fd87416e
+title: SFVM\_GETDETAILSOF message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_GETDETAILSOF message
 
 \[**SFVM\_GETDETAILSOF** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-Allows the callback object to provide the details for an item in a Shell folder. Use only if a call to [**IShellFolder2::GetDetailsOf**](ishellfolder2-getdetailsof.md) fails and there is no [**IShellDetails::GetDetailsOf**](ishelldetails-getdetailsof.md) method available to call. Used by [**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md).
+Allows the callback object to provide the details for an item in a Shell folder. Use only if a call to [**IShellFolder2::GetDetailsOf**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsof?branch=master) fails and there is no [**IShellDetails::GetDetailsOf**](/windows/win32/Shlobj_core/?branch=master) method available to call. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master).
 
 
 ```C++
@@ -34,7 +39,7 @@ The zero-based ID of the column.
 *pDi* \[out\]
 </dt> <dd>
 
-A pointer to a [**DETAILSINFO**](detailsinfo.md) structure filled with the requested information.
+A pointer to a [**DETAILSINFO**](/windows/win32/shlobj_core/ns-shlobj_core-_detailsinfo?branch=master) structure filled with the requested information.
 
 </dd> </dl>
 

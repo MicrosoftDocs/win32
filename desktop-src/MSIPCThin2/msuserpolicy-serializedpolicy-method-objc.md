@@ -4,17 +4,21 @@ description: Gets the content policy.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '6c402185-e76d-4b4e-b7a8-4e801ef228d3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 6c402185-e76d-4b4e-b7a8-4e801ef228d3
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy serializedPolicy property"]
+keywords:
+- MSUserPolicy serializedPolicy property
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy serializedPolicy property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy serializedPolicy property
@@ -41,11 +45,11 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

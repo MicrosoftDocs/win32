@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '20c3c4af-b22f-4b74-a6b6-5ee309de4eef'
-title: 'CBaseObject.CBaseObject constructor'
+Description: Constructor method.
+ms.assetid: 20c3c4af-b22f-4b74-a6b6-5ee309de4eef
+title: CBaseObject.CBaseObject constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseObject.CBaseObject constructor
@@ -13,7 +18,7 @@ Constructor method.
 
 ```C++
 CBaseObject(
-   const TCHAR *pName
+   const TCHAR *pName
 );
 ```
 
@@ -68,9 +73,9 @@ The [**NAME**](name.md) macro compiles to **NULL** in retail builds, so that sta
 [**CBaseObject Class**](cbaseobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

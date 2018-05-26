@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains information about a digital signature.'
-ms.assetid: '0b86fdf9-533f-4640-8c70-c3c8f4ef2c68'
-title: 'SIGNER\_SIGNATURE\_INFO structure'
+---
+Description: Contains information about a digital signature.
+ms.assetid: 0b86fdf9-533f-4640-8c70-c3c8f4ef2c68
+title: SIGNER\_SIGNATURE\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SIGNER\_SIGNATURE\_INFO structure

@@ -1,7 +1,12 @@
 ---
-Description: 'Home address city name of the contact.'
-ms.assetid: '00ed6b0d-0b59-43b4-a9ce-f5964f9268a3'
-title: 'System.Contact.HomeAddressCity'
+Description: Home address city name of the contact.
+ms.assetid: 00ed6b0d-0b59-43b4-a9ce-f5964f9268a3
+title: System.Contact.HomeAddressCity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeAddressCity

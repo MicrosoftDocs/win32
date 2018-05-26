@@ -1,7 +1,12 @@
-﻿---
-Description: 'The read-only Patches property of the Installer object returns a StringList object that contains all the patches applied to the product.'
-ms.assetid: 'a8d46073-399b-480e-b4b0-a7a2f832e160'
-title: 'Installer.Patches property'
+---
+Description: The read-only Patches property of the Installer object returns a StringList object that contains all the patches applied to the product.
+ms.assetid: a8d46073-399b-480e-b4b0-a7a2f832e160
+title: Installer.Patches property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.Patches property
@@ -43,7 +48,7 @@ To enumerate the patches, an application iterates through the [**StringList**](s
 
 <dl> <dt>
 
-[**MsiEnumPatches**](msisourcelistaddmediadisk.md)
+[**MsiEnumPatches**](/windows/win32/Msi/nf-msi-msisourcelistaddmediadiska?branch=master)
 </dt> </dl>
 
  

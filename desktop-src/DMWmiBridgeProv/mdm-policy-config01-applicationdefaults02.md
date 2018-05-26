@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Config01\_ApplicationDefaults02 class
 description: The MDM\_Policy\_Config01\_ApplicationDefaults02 class allows an administrator to set default file type and protocol associations. When set, default associations will be applied on sign-in to the PC.
-ms.assetid: '01a45151-bce3-47a7-bffe-1a3f5a1348ff'
-keywords: ["MDM_Policy_Config01_ApplicationDefaults02 class", "MDM_Policy_Config01_ApplicationDefaults02 class, described"]
+ms.assetid: 01a45151-bce3-47a7-bffe-1a3f5a1348ff
+keywords:
+- MDM_Policy_Config01_ApplicationDefaults02 class
+- MDM_Policy_Config01_ApplicationDefaults02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Config01\_ApplicationDefaults02 class
@@ -92,7 +99,7 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -100,9 +107,9 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

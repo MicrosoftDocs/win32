@@ -1,8 +1,11 @@
 ---
 title: DeviceEvent.Name property
 description: Retrieves the DeviceEvent name.
-ms.assetid: '78b93db1-71c7-4b39-acb7-a33700064898'
-keywords: ["Name property WIA Automation", "Name property WIA Automation , DeviceEvent object", "DeviceEvent object WIA Automation , Name property"]
+ms.assetid: 78b93db1-71c7-4b39-acb7-a33700064898
+keywords:
+- Name property WIA Automation
+- Name property WIA Automation , DeviceEvent object
+- DeviceEvent object WIA Automation , Name property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceEvent.Name property
@@ -43,8 +51,8 @@ For example code, see [Determine the Event Type](-wiaaut-shared-samples.md#deter
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -81,9 +89,9 @@ For example code, see [Determine the Event Type](-wiaaut-shared-samples.md#deter
 [**Name (Property)**](-wiaaut-iproperty-name.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

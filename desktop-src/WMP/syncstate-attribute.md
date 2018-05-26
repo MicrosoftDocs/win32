@@ -1,14 +1,20 @@
 ---
 title: SyncState Attribute
 description: The SyncState attribute is a string representation of a 32-bit value that Windows Media Player uses when it synchronizes playlists with portable devices.
-ms.assetid: 'affc3d1c-7fe6-4811-acfc-57285cb181ca'
-keywords: ["SyncState Attribute Windows Media Player"]
+ms.assetid: affc3d1c-7fe6-4811-acfc-57285cb181ca
+keywords:
+- SyncState Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SyncState
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SyncState Attribute
@@ -58,15 +64,15 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Determining Playlist Synchronization State**](determining-playlist-synchronization-state.md)
 </dt> <dt>
 
-[**IWMPSyncDevice::get\_partnershipIndex**](iwmpsyncdevice-get-partnershipindex.md)
+[**IWMPSyncDevice::get\_partnershipIndex**](/windows/win32/wmp/nf-wmp-iwmpsyncdevice-get_partnershipindex?branch=master)
 </dt> <dt>
 
-[**IWMPSyncDevice::get\_status**](iwmpsyncdevice-get-status.md)
+[**IWMPSyncDevice::get\_status**](/windows/win32/wmp/nf-wmp-iwmpsyncdevice-get_status?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

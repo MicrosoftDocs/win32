@@ -45,9 +45,9 @@
 ### [Windows Networking Structures](windows-networking-structures.md)
 #### [CONNECTDLGSTRUCT](connectdlgstruct-str.md)
 #### [DISCDLGSTRUCT](discdlgstruct-str.md)
-#### [NETCONNECTINFOSTRUCT](/windows/win32/content/Winnetwk/ns-winnetwk-_netconnectinfostruct?branch=dev)
+#### [NETCONNECTINFOSTRUCT](/windows/win32/Winnetwk/ns-winnetwk-_netconnectinfostruct?branch=master)
 #### [NETINFOSTRUCT](netinfostruct-str.md)
-#### [NETRESOURCE](/windows/win32/content/Winnetwk/ns-winnetwk-_netresourcea?branch=dev)
-#### [REMOTE_NAME_INFO](/windows/win32/content/Winnetwk/ns-winnetwk-_remote_name_infoa?branch=dev)
-#### [UNIVERSAL_NAME_INFO](/windows/win32/content/Winnetwk/ns-winnetwk-_universal_name_infoa?branch=dev)
+#### [NETRESOURCE](/windows/win32/Winnetwk/ns-winnetwk-_netresourcea?branch=master)
+#### [REMOTE_NAME_INFO](/windows/win32/Winnetwk/ns-winnetwk-_remote_name_infoa?branch=master)
+#### [UNIVERSAL_NAME_INFO](/windows/win32/Winnetwk/ns-winnetwk-_universal_name_infoa?branch=master)
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The LaunchConditions action queries the LaunchCondition table and evaluates each conditional statement recorded there. If any of these conditional statements fail, an error message is displayed to the user and the installation is terminated.'
-ms.assetid: 'b356987d-3efe-4a57-a745-91a1b34222e9'
+Description: The LaunchConditions action queries the LaunchCondition table and evaluates each conditional statement recorded there. If any of these conditional statements fail, an error message is displayed to the user and the installation is terminated.
+ms.assetid: b356987d-3efe-4a57-a745-91a1b34222e9
 title: LaunchConditions Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LaunchConditions Action

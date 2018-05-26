@@ -1,8 +1,18 @@
 ---
 title: Settings Area Plug-ins
 description: Settings Area Plug-ins
-ms.assetid: '55626c4b-524c-45d3-9024-4d8f0a79ef0c'
-keywords: ["Windows Media Player plug-ins,settings area", "plug-ins,settings area", "user interface plug-ins,settings area", "UI plug-ins,settings area", "settings area plug-ins"]
+ms.assetid: 55626c4b-524c-45d3-9024-4d8f0a79ef0c
+keywords:
+- Windows Media Player plug-ins,settings area
+- plug-ins,settings area
+- user interface plug-ins,settings area
+- UI plug-ins,settings area
+- settings area plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings Area Plug-ins

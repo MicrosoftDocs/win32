@@ -1,7 +1,12 @@
 ---
-Description: 'A server application can call the CreateProcessAsUser function to create a new process that runs in a client's security context.'
-ms.assetid: 'bd416109-fe76-4d55-bc63-3ebbcf32b92a'
+Description: A server application can call the CreateProcessAsUser function to create a new process that runs in a clients security context.
+ms.assetid: bd416109-fe76-4d55-bc63-3ebbcf32b92a
 title: Processes in the Client Security Context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processes in the Client Security Context
@@ -25,8 +30,8 @@ The following procedures describe two ways to create a client process.
 
 **To create a client process by impersonating the client**
 
-1.  Start the impersonation by using an impersonation function, such as [**ImpersonateNamedPipeClient**](impersonatenamedpipeclient.md).
-2.  Call the [**OpenThreadToken**](openthreadtoken.md) function to get an impersonation token that has the security context of the client.
+1.  Start the impersonation by using an impersonation function, such as [**ImpersonateNamedPipeClient**](/windows/win32/Winbase/?branch=master).
+2.  Call the [**OpenThreadToken**](/windows/win32/Winbase/nf-ntifs-ntopenthreadtoken?branch=master) function to get an impersonation token that has the security context of the client.
 3.  Call the [**DuplicateTokenEx**](duplicatetokenex.md) function to convert the impersonation token into a primary token.
 4.  Use the primary token in a call to the [**CreateProcessAsUser**](https://msdn.microsoft.com/library/windows/desktop/ms682429) function to create a process in the client's security context.
 

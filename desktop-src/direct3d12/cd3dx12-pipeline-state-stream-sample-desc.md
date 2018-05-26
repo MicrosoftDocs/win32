@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM\_SAMPLE\_DESC structure
 description: A helper structure used to describe a sample description as a single object suitable for a stream description.
-ms.assetid: 'D84C5373-AC0F-430A-97A1-6125611869B2'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC structure"]
+ms.assetid: D84C5373-AC0F-430A-97A1-6125611869B2
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM\_SAMPLE\_DESC structure
@@ -22,10 +28,10 @@ A helper structure used to describe a sample description as a single object suit
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC {
-                                            CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC;
-                                            CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC(DXGI_SAMPLE_DESC const &amp;i);
+                                            CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC;
+                                            CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC(DXGI_SAMPLE_DESC const &amp;i);
   CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC operator=(DXGI_SAMPLE_DESC const&amp; i);
-                                            operator DXGI_SAMPLE_DESC() const;
+                                            operator DXGI_SAMPLE_DESC() const;
 };
 ```
 
@@ -99,9 +105,9 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<DXGI_SAMPLE_DESC, D3D12_PIPELINE
 [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

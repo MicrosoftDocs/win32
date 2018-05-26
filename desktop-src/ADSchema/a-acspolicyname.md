@@ -4,17 +4,22 @@ description: String name of an ACS policy that applies to this user.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bfba5d58-5928-439d-896c-6d0f34b6d551'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bfba5d58-5928-439d-896c-6d0f34b6d551
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ACS-Policy-Name attribute AD Schema", "aCSPolicyName attribute AD Schema"]
+keywords:
+- ACS-Policy-Name attribute AD Schema
+- aCSPolicyName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ACS-Policy-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ACS-Policy-Name attribute
@@ -38,12 +43,12 @@ String name of an ACS policy that applies to this user.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ String name of an ACS policy that applies to this user.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

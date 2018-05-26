@@ -1,8 +1,9 @@
 ---
 title: VMSerialPortType enumeration
 description: The VMSerialPortType enumeration specifies the type of serial port.
-ms.assetid: '01ac8f48-fc7e-4b8f-9214-551a8526774d'
-keywords: ["VMSerialPortType enumeration Virtual Server"]
+ms.assetid: 01ac8f48-fc7e-4b8f-9214-551a8526774d
+keywords:
+- VMSerialPortType enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMSerialPortType enumeration
@@ -22,10 +28,10 @@ The **VMSerialPortType** enumeration specifies the type of serial port.
 
 ```C++
 typedef enum  { 
-  vmSerialPort_HostPort   = 0,
-  vmSerialPort_TextFile   = 1,
-  vmSerialPort_NamedPipe  = 2,
-  vmSerialPort_Null       = 3
+  vmSerialPort_HostPort   = 0,
+  vmSerialPort_TextFile   = 1,
+  vmSerialPort_NamedPipe  = 2,
+  vmSerialPort_Null       = 3
 } VMSerialPortType;
 ```
 
@@ -69,15 +75,15 @@ NULL serial port that discards all bits sent to it.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: TaskSettings.XmlText property
 description: For scripting, gets or sets an XML-formatted definition of the task settings.
-ms.assetid: '93133a74-36a6-49e6-91b0-4ad4fd778841'
-keywords: ["XmlText property Task Scheduler", "XmlText property Task Scheduler , TaskSettings object", "TaskSettings object Task Scheduler , XmlText property"]
+ms.assetid: 93133a74-36a6-49e6-91b0-4ad4fd778841
+keywords:
+- XmlText property Task Scheduler
+- XmlText property Task Scheduler , TaskSettings object
+- TaskSettings object Task Scheduler , XmlText property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskSettings.XmlText property
@@ -38,8 +46,8 @@ An XML-formatted definition of the task settings.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -52,9 +60,9 @@ An XML-formatted definition of the task settings.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

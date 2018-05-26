@@ -1,13 +1,16 @@
 ---
-Description: 'Describes WMI SNMP provider errors 1101 through 1110.'
+Description: Describes WMI SNMP provider errors 1101 through 1110.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ffb3da80-0ffa-4f05-a35e-c51dba38a7fe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ffb3da80-0ffa-4f05-a35e-c51dba38a7fe
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Errors 1101 through 1110
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Errors 1101 through 1110

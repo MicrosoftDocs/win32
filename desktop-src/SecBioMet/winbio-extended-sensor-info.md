@@ -1,8 +1,10 @@
 ---
 title: WINBIO\_EXTENDED\_SENSOR\_INFO structure
 description: Contains information about the capabilities and enrollment requirements of the sensor adapter for a biometric unit.
-ms.assetid: '37D8BC57-F68D-487A-98B0-94D62CC091C2'
-keywords: ["WINBIO_EXTENDED_SENSOR_INFO structure Windows Biometric Framework API", "PWINBIO_EXTENDED_SENSOR_INFO structure pointer Windows Biometric Framework API"]
+ms.assetid: 37D8BC57-F68D-487A-98B0-94D62CC091C2
+keywords:
+- WINBIO_EXTENDED_SENSOR_INFO structure Windows Biometric Framework API
+- PWINBIO_EXTENDED_SENSOR_INFO structure pointer Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_EXTENDED\_SENSOR\_INFO structure
@@ -22,27 +29,27 @@ Contains information about the capabilities and enrollment requirements of the s
 
 ```C++
 typedef struct _WINBIO_EXTENDED_SENSOR_INFO {
-  WINBIO_CAPABILITIES   GenericSensorCapabilities;
+  WINBIO_CAPABILITIES   GenericSensorCapabilities;
   WINBIO_BIOMETRIC_TYPE Factor;
   union {
     ULONG32 Null;
     struct {
-      RECT               FrameSize;
-      POINT              FrameOffset;
+      RECT               FrameSize;
+      POINT              FrameOffset;
       WINBIO_ORIENTATION MandatoryOrientation;
-    } FacialFeatures;
+    } FacialFeatures;
     struct {
       ULONG32 Reserved;
-    } Fingerprint;
+    } Fingerprint;
     struct {
-      RECT               FrameSize;
-      POINT              FrameOffset;
+      RECT               FrameSize;
+      POINT              FrameOffset;
       WINBIO_ORIENTATION MandatoryOrientation;
-    } Iris;
+    } Iris;
     struct {
       ULONG32 Reserved;
-    } Voice;
-  } Specific;
+    } Voice;
+  } Specific;
 } WINBIO_EXTENDED_SENSOR_INFO, *PWINBIO_EXTENDED_SENSOR_INFO;
 ```
 
@@ -170,8 +177,8 @@ Reserved.
 
 |                                     |                                                                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt> </dl> |
 
 
@@ -189,9 +196,9 @@ Reserved.
 [**WINBIO\_ORIENTATION Constants**](winbio-orientation-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

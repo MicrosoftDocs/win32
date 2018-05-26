@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MultiSendRecv method sends a list of bidi requests.'
-ms.assetid: 'd61d7f58-281c-4c82-a579-aaedbf507bae'
-title: 'IBidiSpl::MultiSendRecv method'
+---
+Description: The MultiSendRecv method sends a list of bidi requests.
+ms.assetid: d61d7f58-281c-4c82-a579-aaedbf507bae
+title: IBidiSplMultiSendRecv method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiSpl::MultiSendRecv method

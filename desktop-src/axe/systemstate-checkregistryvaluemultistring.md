@@ -1,8 +1,11 @@
 ---
 title: SystemState CheckRegistryValueMultistring method
 description: Retrieves a multi-string (REG\_MULTI\_SZ) value from the registry.
-ms.assetid: '72C78E4A-1A33-4D34-92BF-07636FB4F87C'
-keywords: ["CheckRegistryValueMultistring method Access Execution Engine", "CheckRegistryValueMultistring method Access Execution Engine , SystemState interface", "SystemState interface Access Execution Engine , CheckRegistryValueMultistring method"]
+ms.assetid: 72C78E4A-1A33-4D34-92BF-07636FB4F87C
+keywords:
+- CheckRegistryValueMultistring method Access Execution Engine
+- CheckRegistryValueMultistring method Access Execution Engine , SystemState interface
+- SystemState interface Access Execution Engine , CheckRegistryValueMultistring method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemState::CheckRegistryValueMultistring method
@@ -22,11 +30,11 @@ Retrieves a multi-string (REG\_MULTI\_SZ) value from the registry.
 
 ```C++
 virtual HRESULT CheckRegistryValueMultistring(
-  [in]  HKEY    keyRoot,
-  [in]  LPCWSTR keyPath,
-  [in]  LPCWSTR valueName,
-  [out] LPCWSTR *data,
-  [out] ULONG   *length
+  [in]  HKEY    keyRoot,
+  [in]  LPCWSTR keyPath,
+  [in]  LPCWSTR valueName,
+  [out] LPCWSTR *data,
+  [out] ULONG   *length
 ) = 0;
 ```
 
@@ -81,8 +89,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -95,9 +103,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**SystemState**](systemstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

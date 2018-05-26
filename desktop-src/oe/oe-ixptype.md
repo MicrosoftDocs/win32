@@ -1,8 +1,10 @@
 ---
 title: IXPTYPE enumeration
 description: Identifies Internet transport types.
-ms.assetid: 'a75416cf-67fe-4f1a-9171-d560c0cd9050'
-keywords: ["IXPTYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: a75416cf-67fe-4f1a-9171-d560c0cd9050
+keywords:
+- IXPTYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXPTYPE enumeration
@@ -24,12 +31,12 @@ Identifies Internet transport types.
 
 ```C++
 typedef enum tagIXPTYPE { 
-  IXP_NNTP      = 0,
-  IXP_SMTP      = 1,
-  IXP_POP3      = 2,
-  IXP_IMAP      = 3,
-  IXP_RAS       = 4,
-  IXP_HTTPMail  = 5
+  IXP_NNTP      = 0,
+  IXP_SMTP      = 1,
+  IXP_POP3      = 2,
+  IXP_IMAP      = 3,
+  IXP_RAS       = 4,
+  IXP_HTTPMail  = 5
 } ACCESSTYPE;
 ```
 
@@ -87,17 +94,17 @@ Indicates HTTPMail.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

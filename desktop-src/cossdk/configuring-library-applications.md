@@ -1,7 +1,12 @@
 ---
 Description: Configuring Library Applications
-ms.assetid: 'db375e0f-74ca-44df-918a-b0e48742a594'
+ms.assetid: db375e0f-74ca-44df-918a-b0e48742a594
 title: Configuring Library Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Library Applications
@@ -26,7 +31,7 @@ At the application level, several settings are either limited or unavailable for
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -35,9 +40,9 @@ At the application level, several settings are either limited or unavailable for
 [COM+ Application Overview](com--application-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

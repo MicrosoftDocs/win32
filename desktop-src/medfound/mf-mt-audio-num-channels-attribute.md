@@ -1,7 +1,12 @@
-﻿---
-Description: 'Number of audio channels in an audio media type.'
-ms.assetid: '524283fb-d046-4f8c-a30f-4fe7ddb43174'
-title: 'MF\_MT\_AUDIO\_NUM\_CHANNELS attribute'
+---
+Description: Number of audio channels in an audio media type.
+ms.assetid: 524283fb-d046-4f8c-a30f-4fe7ddb43174
+title: MF\_MT\_AUDIO\_NUM\_CHANNELS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_AUDIO\_NUM\_CHANNELS attribute
@@ -37,13 +42,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type Attributes](media-type-attributes.md)

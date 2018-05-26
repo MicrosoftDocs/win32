@@ -1,7 +1,12 @@
 ---
 title: Root Signature Version 1.1
 description: The purpose of Root Signature version 1.1 is to enable applications to indicate to drivers when descriptors in a descriptor heap won’t change or the data descriptors point to won’t change.
-ms.assetid: '8FE42C1C-7F1D-4E70-A7EE-D5EC67237327'
+ms.assetid: 8FE42C1C-7F1D-4E70-A7EE-D5EC67237327
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Root Signature Version 1.1
@@ -95,7 +100,7 @@ With this flag set, the data pointed to by descriptors cannot change starting fr
 
 Before a root descriptor or descriptor table has been set on the GPU, this data *can* be changed even by the same command list / bundle. The data can also be changed while a root descriptor or descriptor table pointing to it is still set on the command list / bundle, as long as draw/dispatches referencing it have completed. However, doing so requires the descriptor table be rebound to the command list again before the next time the root descriptor or descriptor table is dereferenced. This allows the driver to know that data pointed to by a root descriptor or descriptor table has changed.
 
-The essential difference between DATA\_STATIC\_WHILE\_SET\_AT\_EXECUTE and DATA\_VOLATILE is with DATA\_VOLATILE a driver can’t tell whether data copies in a command list have changed the data pointed to by a descriptor, without doing extra state tracking. So if, for instance, a driver can insert any sort of data pre-fetching commands into their command list (to make shader access to known data more efficient, for example), DATA\_STATIC\_WHILE\_SET\_AT\_EXECUTE lets the driver know it only needs to perform data pre-fetching at the moment it is set via [**SetGraphicsRootDescriptorTable**](id3d12graphicscommandlist-setgraphicsrootdescriptortable.md), [**SetComputeRootDescriptorTable**](id3d12graphicscommandlist-setcomputerootdescriptortable.md) or one of the methods to set the constant buffer view, shader resource view, or unordered access view.
+The essential difference between DATA\_STATIC\_WHILE\_SET\_AT\_EXECUTE and DATA\_VOLATILE is with DATA\_VOLATILE a driver can’t tell whether data copies in a command list have changed the data pointed to by a descriptor, without doing extra state tracking. So if, for instance, a driver can insert any sort of data pre-fetching commands into their command list (to make shader access to known data more efficient, for example), DATA\_STATIC\_WHILE\_SET\_AT\_EXECUTE lets the driver know it only needs to perform data pre-fetching at the moment it is set via [**SetGraphicsRootDescriptorTable**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable?branch=master), [**SetComputeRootDescriptorTable**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootdescriptortable?branch=master) or one of the methods to set the constant buffer view, shader resource view, or unordered access view.
 
 For bundles, the promise that data is static while set at execute applies uniquely to each execution of the bundle.
 
@@ -162,37 +167,37 @@ The following API calls enable version 1.1.
 
 These enumerations contain the key flags to specify descriptor and data volatility.
 
--   [**D3D\_ROOT\_SIGNATURE\_VERSION**](d3d-root-signature-version.md) : version ids.
--   [**D3D12\_DESCRIPTOR\_RANGE\_FLAGS**](d3d12-descriptor-range-flags.md) : a range of flags determining if descriptors or data are volatile or static.
--   [**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](d3d12-root-descriptor-flags.md) : a similar range of flags to [**D3D12\_DESCRIPTOR\_RANGE\_FLAGS**](d3d12-descriptor-range-flags.md), except that only data flags apply to root descriptors.
+-   [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/win32/D3D12/ne-d3d12-d3d_root_signature_version?branch=master) : version ids.
+-   [**D3D12\_DESCRIPTOR\_RANGE\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_descriptor_range_flags?branch=master) : a range of flags determining if descriptors or data are volatile or static.
+-   [**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_root_descriptor_flags?branch=master) : a similar range of flags to [**D3D12\_DESCRIPTOR\_RANGE\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_descriptor_range_flags?branch=master), except that only data flags apply to root descriptors.
 
 ### Structures
 
 Updated structures (from version 1.0) contain references to the volatility/static flags.
 
--   [**D3D12\_FEATURE\_DATA\_ROOT\_SIGNATURE**](d3d12-feature-data-root-signature.md) : pass this structure to [**CheckFeatureSupport**](id3d12device-checkfeaturesupport.md) to check for Root Signature Version 1.1 support.
--   [**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](d3d12-versioned-root-signature-desc.md) : can hold any version of a root signature description, and is designed to be used with the serialization/deserialization functions listed below.
+-   [**D3D12\_FEATURE\_DATA\_ROOT\_SIGNATURE**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_root_signature?branch=master) : pass this structure to [**CheckFeatureSupport**](/windows/win32/D3D12/nf-d3d12-id3d12device-checkfeaturesupport?branch=master) to check for Root Signature Version 1.1 support.
+-   [**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc?branch=master) : can hold any version of a root signature description, and is designed to be used with the serialization/deserialization functions listed below.
 -   These structures are equivalent to those used in version 1.0, with the addition of new flags fields for descriptor ranges and root descriptors:
 
-    -   [**D3D12\_ROOT\_SIGNATURE\_DESC1**](d3d12-root-signature-desc1.md)
-    -   [**D3D12\_DESCRIPTOR\_RANGE1**](d3d12-descriptor-range1.md)
-    -   [**D3D12\_ROOT\_DESCRIPTOR\_TABLE1**](d3d12-root-descriptor-table1.md)
-    -   [**D3D12\_ROOT\_DESCRIPTOR1**](d3d12-root-descriptor1.md)
-    -   [**D3D12\_ROOT\_PARAMETER1**](d3d12-root-parameter1.md)
+    -   [**D3D12\_ROOT\_SIGNATURE\_DESC1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_signature_desc1?branch=master)
+    -   [**D3D12\_DESCRIPTOR\_RANGE1**](/windows/win32/d3d12/ns-d3d12-d3d12_descriptor_range1?branch=master)
+    -   [**D3D12\_ROOT\_DESCRIPTOR\_TABLE1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_descriptor_table1?branch=master)
+    -   [**D3D12\_ROOT\_DESCRIPTOR1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_descriptor1?branch=master)
+    -   [**D3D12\_ROOT\_PARAMETER1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_parameter1?branch=master)
 
 ### Functions
 
-The methods listed here supersede the original [**D3D12SerializeRootSignature**](d3d12serializerootsignature.md) and [**D3D12CreateRootSignatureDeserializer**](d3d12createrootsignaturedeserializer.md) functions, as they are designed to work on any version of root signature. The serialized form is what is passed into the [**CreateRootSignature**](id3d12device-createrootsignature.md) API. If a shader has been authored with a root signature in it, the compiled shader will contain a serialized root signature in it already.
+The methods listed here supersede the original [**D3D12SerializeRootSignature**](/windows/win32/D3D12/nf-d3d12-d3d12serializerootsignature?branch=master) and [**D3D12CreateRootSignatureDeserializer**](/windows/win32/D3D12/nf-d3d12-d3d12createrootsignaturedeserializer?branch=master) functions, as they are designed to work on any version of root signature. The serialized form is what is passed into the [**CreateRootSignature**](/windows/win32/D3D12/nf-d3d12-id3d12device-createrootsignature?branch=master) API. If a shader has been authored with a root signature in it, the compiled shader will contain a serialized root signature in it already.
 
--   [**D3D12SerializeVersionedRootSignature**](d3d12serializeversionedrootsignature.md) : if an application procedurally generates the [**D3D12\_VERSIONED\_ROOT\_SIGNATURE**](d3d12-versioned-root-signature-desc.md) data structure, it must make the serialized form using this function.
--   [**D3D12CreateVersionedRootSignatureDeserializer**](d3d12createversionedrootsignaturedeserializer.md) : generates an interface that can return the deserialized data structure, via [**GetUnconvertedRootSignatureDesc**](id3d12versionedrootsignaturedeserializer-getunconvertedrootsignaturedesc.md).
+-   [**D3D12SerializeVersionedRootSignature**](/windows/win32/d3d12/nf-d3d12-d3d12serializeversionedrootsignature?branch=master) : if an application procedurally generates the [**D3D12\_VERSIONED\_ROOT\_SIGNATURE**](/windows/win32/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc?branch=master) data structure, it must make the serialized form using this function.
+-   [**D3D12CreateVersionedRootSignatureDeserializer**](/windows/win32/d3d12/nf-d3d12-d3d12createversionedrootsignaturedeserializer?branch=master) : generates an interface that can return the deserialized data structure, via [**GetUnconvertedRootSignatureDesc**](/windows/win32/d3d12/nf-d3d12-id3d12versionedrootsignaturedeserializer-getunconvertedrootsignaturedesc?branch=master).
 
 ### Methods
 
-The [**ID3D12VersionedRootSignatureDeserializer**](id3d12versionedrootsignaturedeserializer.md) interface is created to deserialize the root signature data structure.
+The [**ID3D12VersionedRootSignatureDeserializer**](/windows/win32/d3d12/nn-d3d12-id3d12versionedrootsignaturedeserializer?branch=master) interface is created to deserialize the root signature data structure.
 
--   [**GetRootSignatureDescAtVersion**](id3d12versionedrootsignaturedeserializer-getrootsignaturedescatversion.md) : converts root signature description structures to a requested version.
--   [**GetUnconvertedRootSignatureDesc**](id3d12versionedrootsignaturedeserializer-getunconvertedrootsignaturedesc.md) : returns a pointer to a [**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](d3d12-versioned-root-signature-desc.md) structure.
+-   [**GetRootSignatureDescAtVersion**](/windows/win32/d3d12/nf-d3d12-id3d12versionedrootsignaturedeserializer-getrootsignaturedescatversion?branch=master) : converts root signature description structures to a requested version.
+-   [**GetUnconvertedRootSignatureDesc**](/windows/win32/d3d12/nf-d3d12-id3d12versionedrootsignaturedeserializer-getunconvertedrootsignaturedesc?branch=master) : returns a pointer to a [**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc?branch=master) structure.
 
 ### Helper structures
 

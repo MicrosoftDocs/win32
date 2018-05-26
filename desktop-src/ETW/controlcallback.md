@@ -1,7 +1,12 @@
 ---
-Description: 'Providers implement this function to receive enable or disable notification requests from controllers. The WMIDPREQUEST type defines a pointer to this callback function. ControlCallback is a placeholder for the application-defined function name.'
-ms.assetid: 'e9f70ae6-906f-4e55-bca7-4355f1ca6091'
+Description: Providers implement this function to receive enable or disable notification requests from controllers. The WMIDPREQUEST type defines a pointer to this callback function. ControlCallback is a placeholder for the application-defined function name.
+ms.assetid: e9f70ae6-906f-4e55-bca7-4355f1ca6091
 title: WMIDPREQUEST callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMIDPREQUEST callback function
@@ -15,10 +20,10 @@ The **WMIDPREQUEST** type defines a pointer to this callback function. **Control
 
 ```C++
 ULONG WINAPI ControlCallback(
-  _In_ WMIDPREQUESTCODE RequestCode,
-  _In_ PVOID            Context,
-  _In_ ULONG            *Reserved,
-  _In_ PVOID            Buffer
+  _In_ WMIDPREQUESTCODE RequestCode,
+  _In_ PVOID            Context,
+  _In_ ULONG            *Reserved,
+  _In_ PVOID            Buffer
 );
 ```
 
@@ -42,7 +47,7 @@ Request code. Specify one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -93,8 +98,8 @@ For an example implementation of a **ControlCallback** function, see [Writing Cl
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Evntrace.h</dt> </dl> |
 
 
@@ -121,9 +126,9 @@ For an example implementation of a **ControlCallback** function, see [Writing Cl
 [**WNODE\_HEADER**](wnode-header.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

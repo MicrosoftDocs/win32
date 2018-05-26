@@ -1,7 +1,12 @@
-﻿---
-Description: 'Begins monitoring inactivity.'
-ms.assetid: 'fed5e4ae-2c2b-4b00-9230-b71aec9335c8'
+---
+Description: Begins monitoring inactivity.
+ms.assetid: fed5e4ae-2c2b-4b00-9230-b71aec9335c8
 title: BeginIdleDetection function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BeginIdleDetection function

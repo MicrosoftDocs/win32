@@ -1,7 +1,12 @@
 ---
 title: Group Policies
-description: Background Intelligent Transfer Service (BITS) uses the following Group Policies to configure BITS transfers and settings. For more information on which verison of BITS is used by different versions of Windows, see the What's New topic.
-ms.assetid: '32c7e2b1-bac2-4708-a30c-f6b2a816c1a4'
+description: Background Intelligent Transfer Service (BITS) uses the following Group Policies to configure BITS transfers and settings. For more information on which verison of BITS is used by different versions of Windows, see the Whats New topic.
+ms.assetid: 32c7e2b1-bac2-4708-a30c-f6b2a816c1a4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Group Policies
@@ -11,7 +16,7 @@ Background Intelligent Transfer Service (BITS) uses the following Group Policies
 > [!Note]  
 > If the policy value is not set, BITS uses the default policy value.
 
- 
+ 
 
 **To enable a BITS policy**
 
@@ -51,14 +56,14 @@ The group policies for BITS are located in the registry at **HKEY\_LOCAL\_MACHIN
 <td>Limits the network bandwidth that BITS uses for background transfers (this policy does not affect foreground transfers).<br/> Specify a limit to use during a specific time interval and a limit to use at all other times. For example, limit the use of network bandwidth to 10 kilobits per second (Kbps) from 8:00 A.M. to 5:00 P.M. and use all available unused bandwidth the rest of the time.
 <blockquote>
 [!Note]<br />
-Changing the system clock does not affect the bandwidth limitation time interval. For example, if the current time is 2:00 P.M. and the bandwidth limitation interval begins at 3:00 P.M., moving the system clock forward one hour does not mean BITS will enforce the bandwidth limitation an hour early—the bandwidth limitation will still occur in one hour. To reflect the system clock change in BITS, you must restart the computer or the BITS service.
+Changing the system clock does not affect the bandwidth limitation time interval. For example, if the current time is 2:00 P.M. and the bandwidth limitation interval begins at 3:00 P.M., moving the system clock forward one hour does not mean BITS will enforce the bandwidth limitation an hour early the bandwidth limitation will still occur in one hour. To reflect the system clock change in BITS, you must restart the computer or the BITS service.
 </blockquote>
 <br/> <br/> Specify the limit in kilobits per second. Base the limit on the size of the network link, not the size of the computer's network interface card (NIC). BITS uses approximately two kilobits if you specify a value less than two kilobits. To prevent BITS transfers from occurring, specify a limit of zero. If you specify a limit of zero, BITS places all background jobs in a transient error state. (The error code is set to BG_E_BLOCKED_BY_POLICY.) BITS places the jobs in the queued state after the time interval expires.<br/> If you disable or do not configure this policy, BITS uses all available unused bandwidth.<br/> Typically, you use this policy to prevent BITS transfers from competing for network bandwidth when the client has a fast network adapter (10 Mbps) but is connected to the network via a slow link (56 Kbps).<br/> For information on how BITS uses network bandwidth, see [Network Bandwidth](network-bandwidth.md).<br/></td>
 </tr>
 <tr class="odd">
 <td>MaxDownloadTime</td>
 <td>BITS 3.0</td>
-<td>Determines the length of time that BITS can spend actively transferring the files in the job. The default is 90 days.<br/> To override this policy for a specific job, call the [<strong>IBackgroundCopyJob4::SetMaximumDownloadTime</strong>](ibackgroundcopyjob4-setmaximumdownloadtime.md) method.<br/></td>
+<td>Determines the length of time that BITS can spend actively transferring the files in the job. The default is 90 days.<br/> To override this policy for a specific job, call the [<strong>IBackgroundCopyJob4::SetMaximumDownloadTime</strong>](/windows/win32/Bits3_0/nf-bits3_0-ibackgroundcopyjob4-setmaximumdownloadtime?branch=master) method.<br/></td>
 </tr>
 <tr class="even">
 <td>MaxJobsPerMachine</td>
@@ -85,7 +90,7 @@ Changing the system clock does not affect the bandwidth limitation time interval
 
 
 
- 
+ 
 
 BITS uses the following Group Policies to enable and configure the peer caching.
 
@@ -110,7 +115,7 @@ BITS uses the following Group Policies to enable and configure the peer caching.
 <tr class="odd">
 <td>EnablePeerCaching</td>
 <td>BITS 3.0</td>
-<td>By default, peer caching is disabled. To enable peer caching, set this policy. Enabling peer caching allows BITS to download content from peers and to serve the content to peers. <br/> To prevent BITS from downloading content from peers, set the DisablePeerCachingClient policy. To prevent BITS from serving content to peers, set the DisablePeerCachingServer.<br/> A job controls if it can download content from a peer or serve content to peers. For details, see the [<strong>IBackgroundCopyJob4::SetPeerCachingFlags</strong>](ibackgroundcopyjob4-setpeercachingflags.md) method.<br/> If this policy is not set, you can use the [<strong>IBitsPeerCacheAdministration::SetConfigurationFlags</strong>](ibitspeercacheadministration-setconfigurationflags.md) method to enable peer caching; however, if the policy is set later, the policy will override the preference set by the <strong>SetConfigurationFlags</strong> method.<br/></td>
+<td>By default, peer caching is disabled. To enable peer caching, set this policy. Enabling peer caching allows BITS to download content from peers and to serve the content to peers. <br/> To prevent BITS from downloading content from peers, set the DisablePeerCachingClient policy. To prevent BITS from serving content to peers, set the DisablePeerCachingServer.<br/> A job controls if it can download content from a peer or serve content to peers. For details, see the [<strong>IBackgroundCopyJob4::SetPeerCachingFlags</strong>](/windows/win32/Bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags?branch=master) method.<br/> If this policy is not set, you can use the [<strong>IBitsPeerCacheAdministration::SetConfigurationFlags</strong>](/windows/win32/Bits3_0/nf-bits3_0-ibitspeercacheadministration-setconfigurationflags?branch=master) method to enable peer caching; however, if the policy is set later, the policy will override the preference set by the <strong>SetConfigurationFlags</strong> method.<br/></td>
 </tr>
 <tr class="even">
 <td>DisablePeerCachingClient</td>
@@ -125,12 +130,12 @@ BITS uses the following Group Policies to enable and configure the peer caching.
 <tr class="even">
 <td>MaxContentAge</td>
 <td>BITS 3.0</td>
-<td>Specifies the maximum length of time that a file can remain in the peer cache without being accessed. The default is 90 days.<br/> If this policy is not set, you can use the [<strong>IBitsPeerCacheAdministration::SetMaximumContentAge</strong>](ibitspeercacheadministration-setmaximumcontentage.md) method to limit the time that a file can remain in the peer cache without being accessed; however, if the policy is set later, the policy will override the preference set by the method.<br/></td>
+<td>Specifies the maximum length of time that a file can remain in the peer cache without being accessed. The default is 90 days.<br/> If this policy is not set, you can use the [<strong>IBitsPeerCacheAdministration::SetMaximumContentAge</strong>](/windows/win32/Bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcontentage?branch=master) method to limit the time that a file can remain in the peer cache without being accessed; however, if the policy is set later, the policy will override the preference set by the method.<br/></td>
 </tr>
 <tr class="odd">
 <td>MaxCacheSize</td>
 <td>BITS 3.0</td>
-<td>Specifies the maximum amount of disk space to use for the peer cache. The default is 1% of the disk.<br/> If this policy is not set, you can use the [<strong>IBitsPeerCacheAdministration::SetMaximumCacheSize</strong>](ibitspeercacheadministration-setmaximumcachesize.md) method to set the size of the peer cache; however, if the policy is set later, the policy will override the preference set by the method.<br/></td>
+<td>Specifies the maximum amount of disk space to use for the peer cache. The default is 1% of the disk.<br/> If this policy is not set, you can use the [<strong>IBitsPeerCacheAdministration::SetMaximumCacheSize</strong>](/windows/win32/Bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcachesize?branch=master) method to set the size of the peer cache; however, if the policy is set later, the policy will override the preference set by the method.<br/></td>
 </tr>
 <tr class="even">
 <td>MaxBandwidthServed</td>
@@ -152,7 +157,7 @@ This setting does not affect the use of Windows BranchCache by applications othe
 
 
 
- 
+ 
 
 BITS uses the following Group Policies to configure bandwidth throttling.
 
@@ -190,11 +195,11 @@ The bandwidth limits that are set for the maintenance period supersede any limit
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

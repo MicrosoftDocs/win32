@@ -1,8 +1,11 @@
 ---
 title: GetDistinguishedName method of the MicrosoftDNS\_Cache class
 description: The GetDistinguishedName method retrieves the distinguished name for the zone.
-ms.assetid: '976858ec-f376-47e6-90b0-d946a1256c82'
-keywords: ["GetDistinguishedName method DNS", "GetDistinguishedName method DNS , MicrosoftDNS_Cache class", "MicrosoftDNS_Cache class DNS , GetDistinguishedName method"]
+ms.assetid: 976858ec-f376-47e6-90b0-d946a1256c82
+keywords:
+- GetDistinguishedName method DNS
+- GetDistinguishedName method DNS , MicrosoftDNS_Cache class
+- MicrosoftDNS_Cache class DNS , GetDistinguishedName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDistinguishedName method of the MicrosoftDNS\_Cache class
@@ -41,7 +49,7 @@ Returns the name of the zone.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -57,9 +65,9 @@ Returns the name of the zone.
 [**ClearCache Method of the MicrosoftDNS\_Cache Class**](microsoftdns-cache-clearcache.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

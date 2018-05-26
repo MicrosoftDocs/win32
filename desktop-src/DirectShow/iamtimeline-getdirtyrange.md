@@ -1,7 +1,12 @@
-﻿---
-Description: 'Not supported.'
-ms.assetid: '6e45b542-be3f-4da8-808a-6aa8b4299519'
-title: 'IAMTimeline::GetDirtyRange method'
+---
+Description: Not supported.
+ms.assetid: 6e45b542-be3f-4da8-808a-6aa8b4299519
+title: IAMTimelineGetDirtyRange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::GetDirtyRange method

@@ -1,14 +1,20 @@
 ---
 title: Evaluator State Variables
 description: Evaluator State Variables
-ms.assetid: 'e7d710be-de17-46a0-8ad8-0f65b943ece8'
-keywords: ["Evaluator State Variables OpenGL"]
+ms.assetid: e7d710be-de17-46a0-8ad8-0f65b943ece8
+keywords:
+- Evaluator State Variables OpenGL
 topic_type:
 - apiref
 api_name:
 - Evaluator State Variables
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Evaluator State Variables

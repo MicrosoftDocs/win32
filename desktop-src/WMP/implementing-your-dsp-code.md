@@ -1,8 +1,21 @@
 ---
 title: Implementing Your DSP Code
 description: Implementing Your DSP Code
-ms.assetid: 'e1feaaee-1127-4a3a-9a4c-a30584a7e8ff'
-keywords: ["Windows Media Player plug-ins,digital signal processing (DSP)", "plug-ins,digital signal processing (DSP)", "digital signal processing plug-ins,implementing code", "DSP plug-ins,implementing code", "digital signal processing plug-ins,modifying sample code", "DSP plug-ins,modifying sample code", "audio DSP plug-ins,implementing code", "video DSP plug-ins,implementing code"]
+ms.assetid: e1feaaee-1127-4a3a-9a4c-a30584a7e8ff
+keywords:
+- Windows Media Player plug-ins,digital signal processing (DSP)
+- plug-ins,digital signal processing (DSP)
+- digital signal processing plug-ins,implementing code
+- DSP plug-ins,implementing code
+- digital signal processing plug-ins,modifying sample code
+- DSP plug-ins,modifying sample code
+- audio DSP plug-ins,implementing code
+- video DSP plug-ins,implementing code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing Your DSP Code

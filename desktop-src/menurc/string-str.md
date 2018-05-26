@@ -1,14 +1,20 @@
 ---
 title: String structure
-description: Represents the organization of data in a file-version resource. It contains a string that describes a specific aspect of a file, for example, a file's version, its copyright notices, or its trademarks.
-ms.assetid: 'fcc5ac68-4aec-4a3b-aa92-96fc50cc4ca2'
-keywords: ["String structure Menus and Other Resources"]
+description: Represents the organization of data in a file-version resource. It contains a string that describes a specific aspect of a file, for example, a files version, its copyright notices, or its trademarks.
+ms.assetid: fcc5ac68-4aec-4a3b-aa92-96fc50cc4ca2
+keywords:
+- String structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - String
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # String structure
@@ -20,12 +26,12 @@ Represents the organization of data in a file-version resource. It contains a st
 
 ```C++
 typedef struct {
-  WORD  wLength;
-  WORD  wValueLength;
-  WORD  wType;
+  WORD  wLength;
+  WORD  wValueLength;
+  WORD  wType;
   WCHAR szKey;
-  WORD  Padding;
-  WORD  Value;
+  WORD  Padding;
+  WORD  Value;
 } String;
 ```
 
@@ -141,7 +147,7 @@ The **Value** member identifies the file's internal name, if one exists. For exa
 
 </dt> <dd>
 
-The **Value** member describes all copyright notices, trademarks, and registered trademarks that apply to the file. This should include the full text of all notices, legal symbols, copyright dates, trademark numbers, and so on. In English, this string should be in the format "Copyright Microsoft Corp. 1990 –1994".
+The **Value** member describes all copyright notices, trademarks, and registered trademarks that apply to the file. This should include the full text of all notices, legal symbols, copyright dates, trademark numbers, and so on. In English, this string should be in the format "Copyright Microsoft Corp. 1990  1994".
 
 </dd> <dt>
 
@@ -174,7 +180,7 @@ The **Value** member identifies the original name of the file, not including a p
 
 </dt> <dd>
 
-The **Value** member describes by whom, where, and why this private version of the file was built. This string should only be present if the **VS\_FF\_PRIVATEBUILD** flag is set in the **dwFileFlags** member of the [**VS\_FIXEDFILEINFO**](vs-fixedfileinfo.md) structure. For example, **Value** could be "Built by OSCAR on \\OSCAR2".
+The **Value** member describes by whom, where, and why this private version of the file was built. This string should only be present if the **VS\_FF\_PRIVATEBUILD** flag is set in the **dwFileFlags** member of the [**VS\_FIXEDFILEINFO**](/windows/win32/VerRsrc/ns-verrsrc-tagvs_fixedfileinfo?branch=master) structure. For example, **Value** could be "Built by OSCAR on \\OSCAR2".
 
 </dd> <dt>
 
@@ -207,7 +213,7 @@ The **Value** member identifies the version of the product with which this file 
 
 </dt> <dd>
 
-The **Value** member describes how this version of the file differs from the normal version. This entry should only be present if the **VS\_FF\_SPECIALBUILD** flag is set in the **dwFileFlags** member of the [**VS\_FIXEDFILEINFO**](vs-fixedfileinfo.md) structure. For example, **Value** could be "Private build for Olivetti solving mouse problems on M250 and M250E computers".
+The **Value** member describes how this version of the file differs from the normal version. This entry should only be present if the **VS\_FF\_SPECIALBUILD** flag is set in the **dwFileFlags** member of the [**VS\_FIXEDFILEINFO**](/windows/win32/VerRsrc/ns-verrsrc-tagvs_fixedfileinfo?branch=master) structure. For example, **Value** could be "Private build for Olivetti solving mouse problems on M250 and M250E computers".
 
 </dd> </dl> </dd> <dt>
 
@@ -237,7 +243,7 @@ A zero-terminated string. See the **szKey** member description for more informat
 
 This structure is not a true C-language structure because it contains variable-length members. This structure was created solely to depict the organization of data in a version resource and does not appear in any of the header files shipped with the Windows Software Development Kit (SDK).
 
-A **String** structure may have an **szKey** value of, for example, "CompanyName" and a **Value** of "Microsoft Corporation". Another **String** structure with the same **szKey** value could contain a **Value** of "Microsoft GmbH". This might occur if the second **String** structure were associated with a [**StringTable**](stringtable.md) structure whose **szKey** value is 040704b0 — that is, German/Unicode.
+A **String** structure may have an **szKey** value of, for example, "CompanyName" and a **Value** of "Microsoft Corporation". Another **String** structure with the same **szKey** value could contain a **Value** of "Microsoft GmbH". This might occur if the second **String** structure were associated with a [**StringTable**](stringtable.md) structure whose **szKey** value is 040704b0   that is, German/Unicode.
 
 ## Requirements
 
@@ -245,8 +251,8 @@ A **String** structure may have an **szKey** value of, for example, "CompanyName
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -260,7 +266,7 @@ A **String** structure may have an **szKey** value of, for example, "CompanyName
 [**StringTable**](stringtable.md)
 </dt> <dt>
 
-[**VS\_FIXEDFILEINFO**](vs-fixedfileinfo.md)
+[**VS\_FIXEDFILEINFO**](/windows/win32/VerRsrc/ns-verrsrc-tagvs_fixedfileinfo?branch=master)
 </dt> <dt>
 
 [**StringFileInfo**](stringfileinfo.md)
@@ -275,9 +281,9 @@ A **String** structure may have an **szKey** value of, for example, "CompanyName
 [Version Information](version-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

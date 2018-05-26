@@ -1,14 +1,20 @@
 ---
 title: WaveActiveAllTrue function
 description: Returns true if the expression is true in all active lanes in the current wave.
-ms.assetid: 'C4EC5A02-6070-4FF4-B855-F597FFFE66F0'
-keywords: ["WaveAllTrue function HLSL"]
+ms.assetid: C4EC5A02-6070-4FF4-B855-F597FFFE66F0
+keywords:
+- WaveAllTrue function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveAllTrue
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveActiveAllTrue function

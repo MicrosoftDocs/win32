@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deletes the specified scan profile.'
-ms.assetid: '31020528-3a96-492f-a3a1-e9075d4ffd14'
-title: 'IScanProfileMgr::DeleteProfile method'
+---
+Description: Deletes the specified scan profile.
+ms.assetid: 31020528-3a96-492f-a3a1-e9075d4ffd14
+title: IScanProfileMgrDeleteProfile method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfileMgr::DeleteProfile method

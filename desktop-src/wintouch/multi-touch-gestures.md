@@ -1,8 +1,15 @@
 ---
 title: Windows Touch Gestures
 description: This section describes the API used for handling Windows Touch gestures.
-ms.assetid: '0ffe222a-a0ac-498b-a4ca-85cfb1caba93'
-keywords: ["Windows Touch,gestures", "gestures,about"]
+ms.assetid: 0ffe222a-a0ac-498b-a4ca-85cfb1caba93
+keywords:
+- Windows Touch,gestures
+- gestures,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Touch Gestures
@@ -25,7 +32,7 @@ The programming reference for the Windows Touch gesture API contains the followi
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -34,9 +41,9 @@ The programming reference for the Windows Touch gesture API contains the followi
 [Windows Touch Programming Reference](windows-touch-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

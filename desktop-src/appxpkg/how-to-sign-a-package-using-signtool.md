@@ -1,7 +1,12 @@
 ---
 title: How to sign an app package using SignTool
 description: Learn how to use SignTool to sign your Windows Store app packages so they can be deployed.
-ms.assetid: '93541EB4-3419-45D1-AA63-563E6C6D3055'
+ms.assetid: 93541EB4-3419-45D1-AA63-563E6C6D3055
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to sign an app package using SignTool
@@ -9,16 +14,16 @@ ms.assetid: '93541EB4-3419-45D1-AA63-563E6C6D3055'
 > [!Note]  
 > For signing a UWP app package, see [Sign an app package using SignTool](https://aka.ms/sign-package-signtool).
 
- 
+ 
 
 Learn how to use [**SignTool**](https://msdn.microsoft.com/library/windows/hardware/ff551778) to sign your Windows Store app packages so they can be deployed. [**SignTool**](https://msdn.microsoft.com/library/windows/hardware/ff551778) is part of the Windows Software Development Kit (SDK).
 
-All Windows Store app packages must be digitally signed before they can be deployed. While Microsoft Visual Studio 2012 and later can sign an app package during its creation, packages that you create by using the [app packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) tool from the Windows SDK aren't signed.
+All Windows Store app packages must be digitally signed before they can be deployed. While Microsoft Visual Studio 2012 and later can sign an app package during its creation, packages that you create by using the [app packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) tool from the Windows SDK aren't signed.
 
 > [!Note]  
-> You can only use [**SignTool**](https://msdn.microsoft.com/library/windows/hardware/ff551778) to sign your Windows Store app packages on Windows 8 and later or Windows Server 2012 and later. You can't use **SignTool** to sign app packages on down level operating systems such as Windows 7 or Windows Server 2008 R2.
+> You can only use [**SignTool**](https://msdn.microsoft.com/library/windows/hardware/ff551778) to sign your Windows Store app packages on Windows 8 and later or Windows Server 2012 and later. You can't use **SignTool** to sign app packages on down level operating systems such as Windows 7 or Windows Server 2008 R2.
 
- 
+ 
 
 ## What you need to know
 
@@ -73,7 +78,7 @@ The preceding [**BlockMap**](https://msdn.microsoft.com/library/windows/apps/jj7
 
 
 
- 
+ 
 
 ### Step 2: Run SignTool.exe to sign the package
 
@@ -94,7 +99,7 @@ You can omit the /p *password* parameter if you use a .pfx file that isn't passw
 > [!Note]  
 > You can't use the [**SignTool**](https://msdn.microsoft.com/library/windows/hardware/ff551778) time stamp operation on a signed app package; the operation isn't supported.
 
- 
+ 
 
 If you want to time stamp the app package, you must do it during the sign operation. For example:
 
@@ -169,7 +174,7 @@ These names are specified in quotes and are both case and whitespace sensitive.
 
 
 
- 
+ 
 
 ## Security Considerations
 
@@ -203,9 +208,9 @@ After the package is signed, the certificate that you used to sign the package m
 [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

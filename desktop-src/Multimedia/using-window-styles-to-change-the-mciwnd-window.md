@@ -1,8 +1,14 @@
 ---
 title: Using Window Styles to Change the MCIWnd Window
 description: Using Window Styles to Change the MCIWnd Window
-ms.assetid: '85851c37-e3d3-45f8-9c0a-0e1392c414af'
-keywords: ["MCIWndCreate function"]
+ms.assetid: 85851c37-e3d3-45f8-9c0a-0e1392c414af
+keywords:
+- MCIWndCreate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Window Styles to Change the MCIWnd Window
@@ -14,9 +20,9 @@ As with any window, you can change the appearance and behavior of an MCIWnd wind
 -   Issue notification messages.
 -   Display information in the title bar.
 
-You can set window styles by specifying them in the [**MCIWndCreate**](mciwndcreate.md) function, or you can use the [**MCIWndChangeStyles**](mciwndchangestyles.md) macro to change the style of an existing MCIWnd window. You can also query an MCIWnd window for its current styles by using the [**MCIWndGetStyles**](mciwndgetstyles.md) macro.
+You can set window styles by specifying them in the [**MCIWndCreate**](/windows/win32/Vfw/nf-vfw-mciwndcreatea?branch=master) function, or you can use the [**MCIWndChangeStyles**](/windows/win32/Vfw/nf-vfw-mciwndchangestyles?branch=master) macro to change the style of an existing MCIWnd window. You can also query an MCIWnd window for its current styles by using the [**MCIWndGetStyles**](/windows/win32/Vfw/nf-vfw-mciwndgetstyles?branch=master) macro.
 
-For a list of the MCIWnd-specific window styles, see [**MCIWndCreate**](mciwndcreate.md).
+For a list of the MCIWnd-specific window styles, see [**MCIWndCreate**](/windows/win32/Vfw/nf-vfw-mciwndcreatea?branch=master).
 
  
 

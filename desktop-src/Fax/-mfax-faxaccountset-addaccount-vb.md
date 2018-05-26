@@ -1,12 +1,17 @@
-﻿---
-Description: 'Adds a fax account to the fax server and returns the new IFaxAccount object.'
-ms.assetid: '5df2598a-ecd1-4a1b-8422-59b1591a68fb'
-title: 'FaxAccountSet.AddAccount method'
+---
+Description: Adds a fax account to the fax server and returns the new IFaxAccount object.
+ms.assetid: 5df2598a-ecd1-4a1b-8422-59b1591a68fb
+title: FaxAccountSet.AddAccount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountSet.AddAccount method
 
-Adds a fax account to the fax server and returns the new [**IFaxAccount**](-mfax-faxaccount-cpp.md) object.
+Adds a fax account to the fax server and returns the new [**IFaxAccount**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccount?branch=master) object.
 
 ## Syntax
 
@@ -34,9 +39,9 @@ Specifies a null-terminated string that contains a name for the new account.
 
 ## Return value
 
-Type: **[**IFaxAccount**](-mfax-faxaccount-cpp.md)\*\***
+Type: **[**IFaxAccount**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccount?branch=master)\*\***
 
-The address of a pointer to an [**IFaxAccount**](-mfax-faxaccount-cpp.md) object.
+The address of a pointer to an [**IFaxAccount**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccount?branch=master) object.
 
 ## Remarks
 
@@ -64,7 +69,7 @@ When the new account is returned, all its values except the name are set to defa
 [**FaxAccountSet**](-mfax-faxaccountset.md)
 </dt> <dt>
 
-[**IFaxAccountSet**](-mfax-faxaccountset-cpp.md)
+[**IFaxAccountSet**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountset?branch=master)
 </dt> </dl>
 
  

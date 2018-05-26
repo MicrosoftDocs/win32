@@ -1,7 +1,12 @@
 ---
-Description: 'Try-except exception handler blocks protect all calls to the fax service provider (FSP) functions.'
-ms.assetid: 'db572ca9-677b-4d90-8322-b9fcb1d80c1c'
+Description: Try-except exception handler blocks protect all calls to the fax service provider (FSP) functions.
+ms.assetid: db572ca9-677b-4d90-8322-b9fcb1d80c1c
 title: Handling Exceptions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Exceptions

@@ -1,8 +1,22 @@
 ---
 title: About SAMI Files
 description: About SAMI Files
-ms.assetid: '39b1e8a8-bbeb-4376-89d9-03a147f4c4fd'
-keywords: ["Windows Media Player,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player object model,Synchronized Accessible Media Interchange (SAMI)", "object model,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player Mobile,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player Mobile ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "Synchronized Accessible Media Interchange (SAMI),files", "SAMI (Synchronized Accessible Media Interchange),files"]
+ms.assetid: 39b1e8a8-bbeb-4376-89d9-03a147f4c4fd
+keywords:
+- Windows Media Player,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player object model,Synchronized Accessible Media Interchange (SAMI)
+- object model,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player Mobile,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player Mobile ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- Synchronized Accessible Media Interchange (SAMI),files
+- SAMI (Synchronized Accessible Media Interchange),files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About SAMI Files

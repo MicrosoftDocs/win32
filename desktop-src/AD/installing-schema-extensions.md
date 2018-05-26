@@ -4,10 +4,13 @@ description: Schema updates will be strictly controlled at most customer sites -
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5e495175-51d3-477c-9ec4-51c30677e735'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5e495175-51d3-477c-9ec4-51c30677e735
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Installing Schema Extensions

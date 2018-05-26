@@ -4,11 +4,15 @@ description: This topic includes a code example used to get a security descripto
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '989abd3f-9043-4c3f-a99a-63fa95daf203'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 989abd3f-9043-4c3f-a99a-63fa95daf203
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , using IDirectoryObject to get a security descriptor"]
+keywords:
+- Active Directory examples Active Directory , using IDirectoryObject to get a security descriptor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using IDirectoryObject to Get a Security Descriptor

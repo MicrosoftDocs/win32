@@ -1,8 +1,18 @@
 ---
 title: Multimedia Messages
 description: Multimedia Messages
-ms.assetid: 'cf02e26a-899b-4677-a84e-c0ec196a8cfb'
-keywords: ["Windows multimedia,messages", "multimedia,messages", "multimedia reference,messages", "reference for multimedia,messages", "multimedia messages"]
+ms.assetid: cf02e26a-899b-4677-a84e-c0ec196a8cfb
+keywords:
+- Windows multimedia,messages
+- multimedia,messages
+- multimedia reference,messages
+- reference for multimedia,messages
+- multimedia messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia Messages

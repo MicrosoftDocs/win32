@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes how to enumerate Media Foundation transforms, and how to register a custom MFT so that applications can discover it.'
-ms.assetid: '76d2a703-4162-428e-a4ff-643e346eacfb'
+Description: This section describes how to enumerate Media Foundation transforms, and how to register a custom MFT so that applications can discover it.
+ms.assetid: 76d2a703-4162-428e-a4ff-643e346eacfb
 title: Registering and Enumerating MFTs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering and Enumerating MFTs
@@ -14,10 +19,10 @@ This section describes how to enumerate Media Foundation transforms, and how to 
 
 ## Enumerating MFTs
 
-To discover MFTs that are registered on the system, an application can call the [**MFTEnumEx**](mftenumex.md) function.
+To discover MFTs that are registered on the system, an application can call the [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master) function.
 
 > [!Note]  
-> This function requires to Windows 7. Prior to Windows 7, applications should use the [**MFTEnum**](mftenum.md) function instead.
+> This function requires to Windows 7. Prior to Windows 7, applications should use the [**MFTEnum**](/windows/win32/mfapi/nf-mfapi-mftenum?branch=master) function instead.
 
  
 
@@ -27,7 +32,7 @@ This function takes the following information as input:
 -   An input or output format to match.
 -   Flags that specify additional search conditions.
 
-The function returns an array of [**IMFActivate**](imfactivate.md) pointers, each of which represents an MFT that matches the enumeration criteria.
+The function returns an array of [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointers, each of which represents an MFT that matches the enumeration criteria.
 
 For example, the following code enumerates Windows Media Video decoders:
 
@@ -77,7 +82,7 @@ CoTaskMemFree(ppActivate);
 
 
 
-By default, some types of MFT are excluded from the enumeration, including asynchronous MFTs, hardware MFTs, and MFTs with field-of-use restructions. These are excluded because they all require special handling of some kind. Use the *Flags* parameter of [**MFTEnumEx**](mftenumex.md) to change the default. For example, to include hardware MFTs in the enumeration results, set the **MFT\_ENUM\_FLAG\_HARDWARE** flag:
+By default, some types of MFT are excluded from the enumeration, including asynchronous MFTs, hardware MFTs, and MFTs with field-of-use restructions. These are excluded because they all require special handling of some kind. Use the *Flags* parameter of [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master) to change the default. For example, to include hardware MFTs in the enumeration results, set the **MFT\_ENUM\_FLAG\_HARDWARE** flag:
 
 
 ```C++
@@ -104,12 +109,12 @@ When you register a Media Foundation transform (MFT), two types of information a
 -   The CLSID of the MFT, so that clients can call **CoCreateInstance** or **CoGetClassObject** to create an instance of the MFT. This registry entry follows the standard format for COM class factories. For more information, see the Windows SDK documentation for the Component Object Model (COM).
 -   Information that enables an application to enumerate MFTs by functional category.
 
-To create the MFT enumeration entries in the registry, call the [**MFTRegister**](mftregister.md) function. You can include the following information about the MFT:
+To create the MFT enumeration entries in the registry, call the [**MFTRegister**](/windows/win32/mfapi/nf-mfapi-mftregister?branch=master) function. You can include the following information about the MFT:
 
 -   The category of the MFT, such as video decoder or video encoder. For a list of categories, see [**MFT\_CATEGORY**](mft-category.md).
--   A list of input and output formats that the MFT supports. Each format is defined by a major type and a subtype. (To get more detailed format information, the client must create the MFT and call [**IMFTransform**](imftransform.md) methods.) The topology loader uses this information when it resolves a partial topology.
+-   A list of input and output formats that the MFT supports. Each format is defined by a major type and a subtype. (To get more detailed format information, the client must create the MFT and call [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) methods.) The topology loader uses this information when it resolves a partial topology.
 
-To remove the entries from the registry, call [**MFTUnregister**](mftunregister.md).
+To remove the entries from the registry, call [**MFTUnregister**](/windows/win32/mfapi/nf-mfapi-mftunregister?branch=master).
 
 The following code shows how to register an MFT. This example assumes that the MFT is a video effect that supports the same formats for both input and output.
 

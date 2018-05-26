@@ -1,8 +1,24 @@
 ---
 title: About SAMI URLs
 description: About SAMI URLs
-ms.assetid: '6898a0d5-cfd0-4ba5-8cd1-907cf110667c'
-keywords: ["Windows Media Player,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player object model,Synchronized Accessible Media Interchange (SAMI)", "object model,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player Mobile,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player Mobile ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "Synchronized Accessible Media Interchange (SAMI),files", "SAMI (Synchronized Accessible Media Interchange),files", "Synchronized Accessible Media Interchange (SAMI),URLs", "SAMI (Synchronized Accessible Media Interchange),URLs"]
+ms.assetid: 6898a0d5-cfd0-4ba5-8cd1-907cf110667c
+keywords:
+- Windows Media Player,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player object model,Synchronized Accessible Media Interchange (SAMI)
+- object model,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player Mobile,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player Mobile ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- Synchronized Accessible Media Interchange (SAMI),files
+- SAMI (Synchronized Accessible Media Interchange),files
+- Synchronized Accessible Media Interchange (SAMI),URLs
+- SAMI (Synchronized Accessible Media Interchange),URLs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About SAMI URLs

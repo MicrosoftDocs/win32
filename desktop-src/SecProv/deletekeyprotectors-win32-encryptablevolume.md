@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deletes all key protectors for the volume.'
-ms.assetid: '46f61899-87ff-4e86-8409-635117cff4de'
-title: 'DeleteKeyProtectors method of the Win32\_EncryptableVolume class'
+---
+Description: Deletes all key protectors for the volume.
+ms.assetid: 46f61899-87ff-4e86-8409-635117cff4de
+title: DeleteKeyProtectors method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteKeyProtectors method of the Win32\_EncryptableVolume class

@@ -1,7 +1,12 @@
 ---
 title: About Changing the Size and Position of a Window
 description: About Changing the Size and Position of a Window
-ms.assetid: '022669B8-7A59-471b-AAB8-4328EEC169CB'
+ms.assetid: 022669B8-7A59-471b-AAB8-4328EEC169CB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Changing the Size and Position of a Window

@@ -4,13 +4,16 @@ description: For systems that support a range of ExtentStripeLengths for volume 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a07694d6-b28c-43fc-9f5c-b7d5b7692c5c'
-ms.prod: 'windows-server-dev'
+ms.assetid: a07694d6-b28c-43fc-9f5c-b7d5b7692c5c
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedStripeLengthRange method iSCSI Software Target API", "GetSupportedStripeLengthRange method iSCSI Software Target API , CIM_StorageCapabilities class", "CIM_StorageCapabilities class iSCSI Software Target API , GetSupportedStripeLengthRange method"]
+keywords:
+- GetSupportedStripeLengthRange method iSCSI Software Target API
+- GetSupportedStripeLengthRange method iSCSI Software Target API , CIM_StorageCapabilities class
+- CIM_StorageCapabilities class iSCSI Software Target API , GetSupportedStripeLengthRange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedStripeLengthRange method of the CIM\_StorageCapabilities class
@@ -30,9 +36,9 @@ For systems that support a range of ExtentStripeLengths for volume or pool creat
 
 ```mof
 uint32 GetSupportedStripeLengthRange(
-  [out] uint16 MinimumStripeLength,
-  [out] uint16 MaximumStripeLength,
-  [out] uint32 StripeLengthDivisor
+  [out] uint16 MinimumStripeLength,
+  [out] uint16 MaximumStripeLength,
+  [out] uint32 StripeLengthDivisor
 );
 ```
 
@@ -86,7 +92,7 @@ A volume/pool ExtentStripeLength must be a multiple of this value which is speci
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -100,9 +106,9 @@ A volume/pool ExtentStripeLength must be a multiple of this value which is speci
 [**CIM\_StorageCapabilities**](cim-storagecapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

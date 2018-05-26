@@ -1,7 +1,12 @@
 ---
-Description: 'This attribute measures how far the progress indicator bar is filled.'
-ms.assetid: 'd2b64cdf-e0b4-4c92-9cce-7f50753b875f'
+Description: This attribute measures how far the progress indicator bar is filled.
+ms.assetid: d2b64cdf-e0b4-4c92-9cce-7f50753b875f
 title: Progress Control Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Progress Control Attribute

@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides reference information for NetTCPIP provider classes.'
-ms.assetid: '5767766E-5EAB-4606-B2AE-7245BAF655D4'
+Description: This section provides reference information for NetTCPIP provider classes.
+ms.assetid: 5767766E-5EAB-4606-B2AE-7245BAF655D4
 title: NetTCPIP Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetTCPIP Provider

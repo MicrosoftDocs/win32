@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDeviceApp QueryDeviceStatus method
 description: The QueryDeviceStatus method queries a device for its current DRM status and capabilities.
-ms.assetid: 'cd5a75d5-d7f8-4077-a9fc-6e7ddd7c796b'
-keywords: ["QueryDeviceStatus method windows Media Device Manager", "QueryDeviceStatus method windows Media Device Manager , IWMDRMDeviceApp interface", "IWMDRMDeviceApp interface windows Media Device Manager , QueryDeviceStatus method"]
+ms.assetid: cd5a75d5-d7f8-4077-a9fc-6e7ddd7c796b
+keywords:
+- QueryDeviceStatus method windows Media Device Manager
+- QueryDeviceStatus method windows Media Device Manager , IWMDRMDeviceApp interface
+- IWMDRMDeviceApp interface windows Media Device Manager , QueryDeviceStatus method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDeviceApp::QueryDeviceStatus method
@@ -23,8 +31,8 @@ The **QueryDeviceStatus** method queries a device for its current DRM status and
 
 ```C++
 HRESULT QueryDeviceStatus(
-  [in]  IWMDMDevice *pDevice,
-  [out] DWORD       *pdwStatus
+  [in]  IWMDMDevice *pDevice,
+  [out] DWORD       *pdwStatus
 );
 ```
 
@@ -37,7 +45,7 @@ HRESULT QueryDeviceStatus(
 *pDevice* \[in\]
 </dt> <dd>
 
-Pointer to an [**IWMDMDevice**](iwmdmdevice.md) object.
+Pointer to an [**IWMDMDevice**](/windows/win32/mswmdm/nn-mswmdm-iwmdmdevice?branch=master) object.
 
 </dd> <dt>
 
@@ -58,7 +66,7 @@ Zero or more of the following **DWORD** values describing the DRM aspects of the
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -77,7 +85,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -141,9 +149,9 @@ else if (status & WMDRM_DEVICE_NEEDCLOCK ||
 [**IWMDRMDeviceApp2::QueryDeviceStatus2**](iwmdrmdeviceapp2-querydevicestatus2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

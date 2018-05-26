@@ -1,17 +1,22 @@
 ---
-Description: 'Lists the CSPs available on a computer by using CryptoAPI.'
-ms.assetid: '10a5210d-7992-4832-9435-67ac2b851a97'
-title: 'Example C Program: Enumerating CSP Providers and Provider Types'
+Description: Lists the CSPs available on a computer by using CryptoAPI.
+ms.assetid: 10a5210d-7992-4832-9435-67ac2b851a97
+title: Example C Program Enumerating CSP Providers and Provider Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Enumerating CSP Providers and Provider Types
 
 The following example lists the CSPs available on a computer and uses the following [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
--   [**CryptEnumProviderTypes**](cryptenumprovidertypes.md)
--   [**CryptEnumProviders**](cryptenumproviders.md)
--   [**CryptGetDefaultProvider**](cryptgetdefaultprovider.md)
--   [**CryptGetProvParam**](cryptgetprovparam.md)
+-   [**CryptEnumProviderTypes**](/windows/win32/Wincrypt/nf-wincrypt-cryptenumprovidertypesa?branch=master)
+-   [**CryptEnumProviders**](/windows/win32/Wincrypt/nf-wincrypt-cryptenumprovidersa?branch=master)
+-   [**CryptGetDefaultProvider**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetdefaultprovidera?branch=master)
+-   [**CryptGetProvParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetprovparam?branch=master)
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included in this example. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

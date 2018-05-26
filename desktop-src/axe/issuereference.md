@@ -1,14 +1,20 @@
 ---
 title: IssueReference element
 description: Relates the impact of the activity back to the issue.
-ms.assetid: '2C68D5F7-664E-46E8-A876-44ED22675719'
-keywords: ["IssueReference element Access Execution Engine"]
+ms.assetid: 2C68D5F7-664E-46E8-A876-44ED22675719
+keywords:
+- IssueReference element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - IssueReference
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IssueReference element
@@ -63,9 +69,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

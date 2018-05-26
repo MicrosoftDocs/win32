@@ -1,8 +1,11 @@
 ---
 title: Query.addCondition method
 description: The addCondition method adds a condition to the Query object using AND logic.
-ms.assetid: 'd60474ce-a785-40b1-a4fb-80dc22fddedb'
-keywords: ["addCondition method Windows Media Player", "addCondition method Windows Media Player , Query class", "Query class Windows Media Player , addCondition method"]
+ms.assetid: d60474ce-a785-40b1-a4fb-80dc22fddedb
+keywords:
+- addCondition method Windows Media Player
+- addCondition method Windows Media Player , Query class
+- Query class Windows Media Player , addCondition method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query.addCondition method
@@ -86,7 +94,7 @@ The following table lists the supported values for *operator*.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -154,9 +162,9 @@ var Playlist = Player.mediaCollection.getPlaylistByQuery(
 [**Query.beginNextGroup**](query-beginnextgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

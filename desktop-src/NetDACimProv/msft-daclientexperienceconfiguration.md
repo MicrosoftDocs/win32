@@ -1,7 +1,12 @@
 ---
-Description: 'Provides access to DirectAccess client experience settings.'
-ms.assetid: '8b46c79d-0406-44dc-b3bf-54e6bb22bcc7'
-title: 'MSFT\_DAClientExperienceConfiguration class'
+Description: Provides access to DirectAccess client experience settings.
+ms.assetid: 8b46c79d-0406-44dc-b3bf-54e6bb22bcc7
+title: MSFT\_DAClientExperienceConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_DAClientExperienceConfiguration class
@@ -16,18 +21,18 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetDACim")]
 class MSFT_DAClientExperienceConfiguration : MSFT_NetSettingData
 {
-  string  CorporateResources[];
-  string  IPsecTunnelEndpoints[];
+  string  CorporateResources[];
+  string  IPsecTunnelEndpoints[];
   boolean PreferLocalNamesAllowed;
   boolean UserInterface;
-  string  SupportEmail;
-  string  FriendlyName;
+  string  SupportEmail;
+  string  FriendlyName;
   boolean PassiveMode;
-  string  CustomCommands[];
+  string  CustomCommands[];
   boolean ManualEntryPointSelectionAllowed;
-  string  GslbFqdn;
-  uint32  ForceTunneling;
-  string  PolicyStore;
+  string  GslbFqdn;
+  uint32  ForceTunneling;
+  string  PolicyStore;
 };
 ```
 
@@ -50,7 +55,7 @@ The **MSFT\_DAClientExperienceConfiguration** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -220,17 +225,17 @@ Specifies whether an entry for DirectAccess connectivity appears when the user c
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetDACim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetDACim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

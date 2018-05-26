@@ -1,8 +1,17 @@
 ---
 title: About Remote Access Service Administration
 description: Windows 2000 and later operating systems provide a set of functions for administering user permissions and ports on RAS servers.
-ms.assetid: '95c6dceb-e3a9-421e-b43f-88b18b9e64ff'
-keywords: ["Routing and Remote Access Service RRAS , RAS Administration", "Routing and Remote Access Service RRAS , RAS Administration, described", "RAS Administration RRAS", "RAS Administration RRAS , described"]
+ms.assetid: 95c6dceb-e3a9-421e-b43f-88b18b9e64ff
+keywords:
+- Routing and Remote Access Service RRAS , RAS Administration
+- Routing and Remote Access Service RRAS , RAS Administration, described
+- RAS Administration RRAS
+- RAS Administration RRAS , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Remote Access Service Administration

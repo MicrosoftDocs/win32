@@ -1,7 +1,12 @@
 ---
 title: MinWordlistBattery
 description: MinWordlistBattery
-ms.assetid: '23ea49c3-3607-415c-b086-a4a9ead7ce9e'
+ms.assetid: 23ea49c3-3607-415c-b086-a4a9ead7ce9e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MinWordlistBattery

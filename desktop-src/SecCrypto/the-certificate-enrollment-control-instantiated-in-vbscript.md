@@ -1,7 +1,12 @@
 ---
-Description: 'A Visual Basic Scripting Edition (VBScript) example that uses the OBJECT tag to create an instance of the Certificate Enrollment Control object.'
-ms.assetid: '6e2a230e-81c1-4b63-9ad5-3edfc239ad7c'
+Description: A Visual Basic Scripting Edition (VBScript) example that uses the OBJECT tag to create an instance of the Certificate Enrollment Control object.
+ms.assetid: 6e2a230e-81c1-4b63-9ad5-3edfc239ad7c
 title: The Certificate Enrollment Control Instantiated in VBScript
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Certificate Enrollment Control Instantiated in VBScript

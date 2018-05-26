@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example creates an outbound routing group and adds devices to the group. It then displays information about all of the outbound routing groups on the server, and allows you to remove a group.'
-ms.assetid: '5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae'
+Description: The following Microsoft Visual Basic code example creates an outbound routing group and adds devices to the group. It then displays information about all of the outbound routing groups on the server, and allows you to remove a group.
+ms.assetid: 5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae
 title: Managing Outbound Routing Groups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Outbound Routing Groups

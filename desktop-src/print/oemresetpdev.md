@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMResetPDEV function
-ms.assetid: '92ae8382-49f3-4bfc-917a-047991953809'
+ms.assetid: 92ae8382-49f3-4bfc-917a-047991953809
 title: OEMResetPDEV function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMResetPDEV function

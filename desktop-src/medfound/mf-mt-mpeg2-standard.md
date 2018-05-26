@@ -1,7 +1,12 @@
-﻿---
-Description: 'For a media type that describes an MPEG-2 program stream (PS) or transport stream (TS), specifies the standard that is used to multiplex the stream.'
-ms.assetid: '3D4C1A81-A9BA-427F-93DB-F522A0616EAB'
-title: 'MF\_MT\_MPEG2\_STANDARD attribute'
+---
+Description: For a media type that describes an MPEG-2 program stream (PS) or transport stream (TS), specifies the standard that is used to multiplex the stream.
+ms.assetid: 3D4C1A81-A9BA-427F-93DB-F522A0616EAB
+title: MF\_MT\_MPEG2\_STANDARD attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_MPEG2\_STANDARD attribute

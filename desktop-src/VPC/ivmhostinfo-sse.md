@@ -1,8 +1,11 @@
 ---
 title: IVMHostInfo SSE property
 description: Determines whether the processor supports the SSE instruction set.
-ms.assetid: '135704db-757a-45b1-884a-5e26ef7d65c7'
-keywords: ["SSE property Virtual PC", "SSE property Virtual PC , IVMHostInfo interface", "IVMHostInfo interface Virtual PC , SSE property"]
+ms.assetid: 135704db-757a-45b1-884a-5e26ef7d65c7
+keywords:
+- SSE property Virtual PC
+- SSE property Virtual PC , IVMHostInfo interface
+- IVMHostInfo interface Virtual PC , SSE property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::SSE property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Determines whether the processor supports the SSE instruction set.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_SSE(
-  [out, retval] VARIANT_BOOL *sseEnabled
+  [out, retval] VARIANT_BOOL *sseEnabled
 );
 ```
 
@@ -55,9 +63,9 @@ HRESULT get_SSE(
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMHostInfo is defined as 5b5cf343-05ad-453b-be99-adf4e27b2ebc<br/>                |
@@ -71,9 +79,9 @@ HRESULT get_SSE(
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

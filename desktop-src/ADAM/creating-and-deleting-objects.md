@@ -4,11 +4,16 @@ description: Creating and deleting Active Directory Lightweight Directory Servic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '94431787-fd37-4c9c-8f00-1885bba8833d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 94431787-fd37-4c9c-8f00-1885bba8833d
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["creating and deleting objects ADAM", "AD LDS examples ADAM , creating and deleting objects"]
+keywords:
+- creating and deleting objects ADAM
+- AD LDS examples ADAM , creating and deleting objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating and Deleting Objects

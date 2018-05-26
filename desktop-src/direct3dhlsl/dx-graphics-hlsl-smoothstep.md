@@ -1,14 +1,20 @@
 ---
 title: smoothstep
 description: Returns a smooth Hermite interpolation between 0 and 1, if x is in the range \ min, max\ .
-ms.assetid: '6a879d82-f5ab-4e9b-bc9c-8988cbe6aa82'
-keywords: ["smoothstep HLSL"]
+ms.assetid: 6a879d82-f5ab-4e9b-bc9c-8988cbe6aa82
+keywords:
+- smoothstep HLSL
 topic_type:
 - apiref
 api_name:
 - smoothstep
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # smoothstep
@@ -22,7 +28,7 @@ Returns a smooth Hermite interpolation between 0 and 1, if *x* is in the range \
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Returns a smooth Hermite interpolation between 0 and 1, if *x* is in the range \
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -59,7 +65,7 @@ Use the **smoothstep** HLSL intrinsic function to create a smooth transition bet
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -74,7 +80,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -83,9 +89,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

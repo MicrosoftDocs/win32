@@ -1,8 +1,11 @@
 ---
 title: Assessment GetFilePath method
 description: Returns the file path for the assessment.
-ms.assetid: '054DDBFB-EE95-4973-949D-D1107D2700C2'
-keywords: ["GetFilePath method Access Execution Engine", "GetFilePath method Access Execution Engine , Assessment interface", "Assessment interface Access Execution Engine , GetFilePath method"]
+ms.assetid: 054DDBFB-EE95-4973-949D-D1107D2700C2
+keywords:
+- GetFilePath method Access Execution Engine
+- GetFilePath method Access Execution Engine , Assessment interface
+- Assessment interface Access Execution Engine , GetFilePath method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assessment::GetFilePath method
@@ -22,7 +30,7 @@ Returns the file path for the assessment.
 
 ```C++
 virtual HRESULT GetFilePath(
-  [out, optional] LPCWSTR *assessmentPath
+  [out, optional] LPCWSTR *assessmentPath
 ) const = 0;
 ```
 
@@ -49,8 +57,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -63,9 +71,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**Assessment**](assessment-inf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

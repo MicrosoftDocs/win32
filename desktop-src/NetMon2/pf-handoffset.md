@@ -1,7 +1,12 @@
 ---
-Description: 'The PF\_HANDOFFSET structure defines the protocols that hand off to the parser, or the protocols that the parser hands off to.'
-ms.assetid: '2fda399d-a09e-47b4-bb2e-95996de9f950'
-title: 'PF\_HANDOFFSET structure'
+Description: The PF\_HANDOFFSET structure defines the protocols that hand off to the parser, or the protocols that the parser hands off to.
+ms.assetid: 2fda399d-a09e-47b4-bb2e-95996de9f950
+title: PF\_HANDOFFSET structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PF\_HANDOFFSET structure
@@ -13,7 +18,7 @@ The **PF\_HANDOFFSET** structure defines the protocols that hand off to the pars
 
 ```C++
 typedef struct _PF_HANDOFFSET {
-  DWORD           nEntries;
+  DWORD           nEntries;
   PF_HANDOFFENTRY Entry[];
 } PF_HANDOFFSET, *PPF_HANDOFFSET;
 ```
@@ -53,8 +58,8 @@ The **PF\_HANDOFFSET** structure must be allocated using **HeapAlloc**.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -69,9 +74,9 @@ The **PF\_HANDOFFSET** structure must be allocated using **HeapAlloc**.
 [PF\_HANDOFFENTRY](pf-handoffentry.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

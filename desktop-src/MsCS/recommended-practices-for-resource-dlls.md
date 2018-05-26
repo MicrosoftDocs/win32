@@ -4,11 +4,15 @@ description: The following items should be taken into account when implementing 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '66fd4a96-dac5-4306-827d-9ec09e5b6fc2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 66fd4a96-dac5-4306-827d-9ec09e5b6fc2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource DLLs Failover Cluster ,recommended practices"]
+keywords:
+- resource DLLs Failover Cluster ,recommended practices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Recommended Practices for Resource DLLs
@@ -27,7 +31,7 @@ See [Function Calls to Avoid in Resource DLLs](function-calls-to-avoid-in-resour
 <span id="For_optimal_performance_of_the_cluster_and_maximum_availability_for_your_resources__all_entry_points_________should_return_a_value_in_300_milliseconds_or_less."></span><span id="for_optimal_performance_of_the_cluster_and_maximum_availability_for_your_resources__all_entry_points_________should_return_a_value_in_300_milliseconds_or_less."></span><span id="FOR_OPTIMAL_PERFORMANCE_OF_THE_CLUSTER_AND_MAXIMUM_AVAILABILITY_FOR_YOUR_RESOURCES__ALL_ENTRY_POINTS_________SHOULD_RETURN_A_VALUE_IN_300_MILLISECONDS_OR_LESS."></span>For optimal performance of the cluster and maximum availability for your resources, all entry points should return a value in 300 milliseconds or less.
 </dt> <dd>
 
-If your implementation needs more time, create a worker thread to handle the operation asynchronously and return a value immediately. A [resource DLL](resource-dlls.md) is non-reentrant for all entry points except for the [**Terminate**](terminate.md) entry point function. Thus, while your DLL is processing an entry point function, your other entry points (except **Terminate**) are blocked. In general, the *Terminate* entry point function can be called concurrently with any entry point function (such as [*IsAlive*](isalive.md), [*LooksAlive*](looksalive.md), [*Offline*](offline.md), [*Online*](online.md), [*ResourceControl*](resourcecontrol.md), and [*ResourceTypeControl*](resourcetypecontrol.md)) except for initialization functions (such as [DllMain](implementing-dllmain.md) and [*Startup*](startup.md)) and resource instance management functions (such as [*Open*](open.md) and [*Close*](close.md)). Any resources that are accessed by these entry points must be properly guarded.
+If your implementation needs more time, create a worker thread to handle the operation asynchronously and return a value immediately. A [resource DLL](resource-dlls.md) is non-reentrant for all entry points except for the [**Terminate**](/windows/previous-versions/ResApi/nc-resapi-pterminate_routine?branch=master) entry point function. Thus, while your DLL is processing an entry point function, your other entry points (except **Terminate**) are blocked. In general, the *Terminate* entry point function can be called concurrently with any entry point function (such as [*IsAlive*](/windows/previous-versions/ResApi/nc-resapi-pis_alive_routine?branch=master), [*LooksAlive*](/windows/previous-versions/ResApi/nc-resapi-plooks_alive_routine?branch=master), [*Offline*](/windows/previous-versions/ResApi/nc-resapi-poffline_routine?branch=master), [*Online*](/windows/previous-versions/ResApi/nc-resapi-ponline_routine?branch=master), [*ResourceControl*](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master), and [*ResourceTypeControl*](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master)) except for initialization functions (such as [DllMain](implementing-dllmain.md) and [*Startup*](/windows/previous-versions/ResApi/nc-resapi-pstartup_routine?branch=master)) and resource instance management functions (such as [*Open*](/windows/previous-versions/ResApi/nc-resapi-popen_routine?branch=master) and [*Close*](/windows/previous-versions/ResApi/nc-resapi-pclose_routine?branch=master)). Any resources that are accessed by these entry points must be properly guarded.
 
 </dd> <dt>
 

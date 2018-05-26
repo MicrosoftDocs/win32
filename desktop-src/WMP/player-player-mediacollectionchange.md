@@ -1,8 +1,11 @@
 ---
 title: Player.MediaCollectionChange event
 description: The MediaCollectionChange event occurs when the media collection changes.
-ms.assetid: '1cc8f26d-ccd5-49ba-a2b3-0adfe9b51b11'
-keywords: ["MediaCollectionChange event Windows Media Player", "MediaCollectionChange event Windows Media Player , Player class", "Player class Windows Media Player , MediaCollectionChange event"]
+ms.assetid: 1cc8f26d-ccd5-49ba-a2b3-0adfe9b51b11
+keywords:
+- MediaCollectionChange event Windows Media Player
+- MediaCollectionChange event Windows Media Player , Player class
+- Player class Windows Media Player , MediaCollectionChange event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.MediaCollectionChange event
@@ -62,9 +70,9 @@ This event does not return a value.
 [**Player.mediaCollection**](player-mediacollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

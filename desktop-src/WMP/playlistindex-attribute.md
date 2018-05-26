@@ -1,14 +1,20 @@
 ---
 title: PlaylistIndex Attribute
 description: The PlaylistIndex attribute is the index of the media item in its parent playlist.
-ms.assetid: '65b629d4-115c-487c-b260-4bbea38dcea7'
-keywords: ["PlaylistIndex Attribute Windows Media Player"]
+ms.assetid: 65b629d4-115c-487c-b260-4bbea38dcea7
+keywords:
+- PlaylistIndex Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PlaylistIndex
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistIndex Attribute
@@ -45,9 +51,9 @@ Media items can be playlist elements. This attribute is the zero-based index tha
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

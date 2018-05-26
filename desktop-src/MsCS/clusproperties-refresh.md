@@ -4,11 +4,14 @@ description: Reads the cluster database and updates the data in the ClusProperti
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '900c9401-e8f4-423a-80df-598f5edb2935'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 900c9401-e8f4-423a-80df-598f5edb2935
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Refresh method Failover Cluster", "Refresh method Failover Cluster , ClusProperties collection", "ClusProperties collection Failover Cluster , Refresh method"]
+keywords:
+- Refresh method Failover Cluster
+- Refresh method Failover Cluster , ClusProperties collection
+- ClusProperties collection Failover Cluster , Refresh method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusProperties.Refresh method
@@ -55,7 +61,7 @@ The **Refresh** method causes the [**ClusProperties.Modified**](clusproperties-m
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -71,9 +77,9 @@ The **Refresh** method causes the [**ClusProperties.Modified**](clusproperties-m
 [**ClusProperties**](clusproperties-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

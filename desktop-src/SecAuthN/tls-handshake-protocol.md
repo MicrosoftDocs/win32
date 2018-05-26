@@ -1,7 +1,12 @@
 ---
-Description: 'The Transport Layer Security (TLS) Handshake Protocol is responsible for the authentication and key exchange necessary to establish or resume secure sessions.'
-ms.assetid: '65fb4db3-e505-457a-9159-dba0b506ea0b'
+Description: The Transport Layer Security (TLS) Handshake Protocol is responsible for the authentication and key exchange necessary to establish or resume secure sessions.
+ms.assetid: 65fb4db3-e505-457a-9159-dba0b506ea0b
 title: TLS Handshake Protocol
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TLS Handshake Protocol

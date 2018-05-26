@@ -4,11 +4,16 @@ description: This section covers how you can add functionality to your snap-in t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c6ae5910-30f7-467d-94db-c52d9e7a5e74'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: c6ae5910-30f7-467d-94db-c52d9e7a5e74
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["custom OCX controls MMC", "custom OCX controls MMC"]
+keywords:
+- custom OCX controls MMC
+- custom OCX controls MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Custom OCX Controls

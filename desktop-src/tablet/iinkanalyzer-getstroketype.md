@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the type of the specified stroke.'
-ms.assetid: 'bbd0bc23-89f9-4033-bc32-f9bd737c960c'
-title: 'IInkAnalyzer::GetStrokeType method'
+Description: Retrieves the type of the specified stroke.
+ms.assetid: bbd0bc23-89f9-4033-bc32-f9bd737c960c
+title: IInkAnalyzerGetStrokeType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::GetStrokeType method
@@ -13,8 +18,8 @@ Retrieves the type of the specified stroke.
 
 ```C++
 HRESULT GetStrokeType(
-  [in]  LONG       lStrokeId,
-  [out] StrokeType *pStrokeType
+  [in]  LONG       lStrokeId,
+  [out] StrokeType *pStrokeType
 );
 ```
 
@@ -54,7 +59,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) does not set the stroke type value as pa
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -77,9 +82,9 @@ The [**IInkAnalyzer**](iinkanalyzer.md) does not set the stroke type value as pa
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the specified color is a Windows color.'
-ms.assetid: '0d2b2039-938c-4f9d-8ddc-9eb711f55009'
+---
+Description: Specifies whether the specified color is a Windows color.
+ms.assetid: 0d2b2039-938c-4f9d-8ddc-9eb711f55009
 title: FWinIMEColorStyle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FWinIMEColorStyle function

@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SPERMILLE'
-ms.assetid: '319c512c-9a88-44d4-9207-ba7183a041eb'
-title: 'LOCALE\_SPERMILLE'
+Description: LOCALE\_SPERMILLE
+ms.assetid: 319c512c-9a88-44d4-9207-ba7183a041eb
+title: LOCALE\_SPERMILLE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SPERMILLE

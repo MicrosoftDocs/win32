@@ -1,7 +1,12 @@
 ---
-Description: 'Notifies applications that the system is resuming from sleep or hibernation. This event is delivered every time the system resumes and does not indicate whether a user is present.'
-ms.assetid: 'cd331f79-b64d-479e-aea8-5118ccc87224'
-title: 'PBT\_APMRESUMEAUTOMATIC event'
+Description: Notifies applications that the system is resuming from sleep or hibernation. This event is delivered every time the system resumes and does not indicate whether a user is present.
+ms.assetid: cd331f79-b64d-479e-aea8-5118ccc87224
+title: PBT\_APMRESUMEAUTOMATIC event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBT\_APMRESUMEAUTOMATIC event
@@ -11,9 +16,9 @@ Notifies applications that the system is resuming from sleep or hibernation. Thi
 A window receives this event through the [**WM\_POWERBROADCAST**](wm-powerbroadcast.md) message. The *wParam* and *lParam* parameters are set as described following.
 
 > [!Note]  
-> In Windows 10, version 1507 systems or later, if the system is resuming from sleep only to immediately enter hibernation, this event is not delivered. A [**WM\_POWERBROADCAST**](wm-powerbroadcast.md) message is not sent in this case.
+> In Windows 10, version 1507 systems or later, if the system is resuming from sleep only to immediately enter hibernation, this event is not delivered. A [**WM\_POWERBROADCAST**](wm-powerbroadcast.md) message is not sent in this case.
 
- 
+ 
 
 
 ```C++
@@ -44,7 +49,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>*wParam* </dt> <dd> 
 
@@ -54,7 +59,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -79,8 +84,8 @@ If the system detects any user activity after broadcasting PBT\_APMRESUMEAUTOMAT
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
 
@@ -101,9 +106,9 @@ If the system detects any user activity after broadcasting PBT\_APMRESUMEAUTOMAT
 [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

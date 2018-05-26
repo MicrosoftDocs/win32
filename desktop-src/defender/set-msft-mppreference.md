@@ -1,8 +1,11 @@
 ---
 title: Set method of the MSFT\_MpPreference class
 description: TBD.
-ms.assetid: 'efed53ac-40e0-45b4-bfc8-69b245eb8836'
-keywords: ["Set method", "Set method, MSFT_MpPreference class", "MSFT_MpPreference class, Set method"]
+ms.assetid: efed53ac-40e0-45b4-bfc8-69b245eb8836
+keywords:
+- Set method
+- Set method, MSFT_MpPreference class
+- MSFT_MpPreference class, Set method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - ProtectionManagement.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Set method of the MSFT\_MpPreference class
@@ -22,58 +30,58 @@ TBD
 
 ```mof
 uint32 Set(
-  [in] string   ExclusionPath[],
-  [in] string   ExclusionExtension[],
-  [in] string   ExclusionProcess[],
-  [in] uint32   QuarantinePurgeItemsAfterDelay,
-  [in] uint8    RealTimeScanDirection,
-  [in] uint8    RemediationScheduleDay,
-  [in] DateTime RemediationScheduleTime,
-  [in] uint32   ReportingAdditionalActionTimeOut,
-  [in] uint32   ReportingCriticalFailureTimeOut,
-  [in] uint32   ReportingNonCriticalTimeOut,
-  [in] uint8    ScanAvgCPULoadFactor,
-  [in] boolean  CheckForSignaturesBeforeRunningScan,
-  [in] uint32   ScanPurgeItemsAfterDelay,
-  [in] boolean  ScanOnlyIfIdleEnabled,
-  [in] uint8    ScanParameters,
-  [in] uint8    ScanScheduleDay,
-  [in] DateTime ScanScheduleQuickScanTime,
-  [in] DateTime ScanScheduleTime,
-  [in] uint32   SignatureFirstAuGracePeriod,
-  [in] uint32   SignatureAuGracePeriod,
-  [in] string   SignatureDefinitionUpdateFileSharesSources,
-  [in] boolean  SignatureDisableUpdateOnStartupWithoutEngine,
-  [in] string   SignatureFallbackOrder,
-  [in] uint8    SignatureScheduleDay,
-  [in] DateTime SignatureScheduleTime,
-  [in] uint32   SignatureUpdateCatchupInterval,
-  [in] uint32   SignatureUpdateInterval,
-  [in] uint8    MAPSReporting,
-       boolean  DisablePrivacyMode,
-  [in] boolean  RandomizeScheduleTaskTimes,
-  [in] boolean  DisableBehaviorMonitoring,
-  [in] boolean  DisableIntrusionPreventionSystem,
-  [in] boolean  DisableIOAVProtection,
-  [in] boolean  DisableRealtimeMonitoring,
-  [in] boolean  DisableScriptScanning,
-  [in] boolean  DisableArchiveScanning,
-  [in] boolean  DisableCatchupFullScan,
-  [in] boolean  DisableCatchupQuickScan,
-  [in] boolean  DisableEmailScanning,
-  [in] boolean  DisableRemovableDriveScanning,
-  [in] boolean  DisableRestorePoint,
-  [in] boolean  DisableScanningMappedNetworkDrivesForFullScan,
-  [in] boolean  DisableScanningNetworkFiles,
-  [in] boolean  UILockdown,
-  [in] sint64   ThreatIDDefaultAction_Ids[],
-  [in] uint8    ThreatIDDefaultAction_Actions[],
-  [in] uint8    UnknownThreatDefaultAction,
-  [in] uint8    LowThreatDefaultAction,
-  [in] uint8    ModerateThreatDefaultAction,
-  [in] uint8    HighThreatDefaultAction,
-  [in] uint8    SevereThreatDefaultAction,
-  [in] boolean  Force
+  [in] string   ExclusionPath[],
+  [in] string   ExclusionExtension[],
+  [in] string   ExclusionProcess[],
+  [in] uint32   QuarantinePurgeItemsAfterDelay,
+  [in] uint8    RealTimeScanDirection,
+  [in] uint8    RemediationScheduleDay,
+  [in] DateTime RemediationScheduleTime,
+  [in] uint32   ReportingAdditionalActionTimeOut,
+  [in] uint32   ReportingCriticalFailureTimeOut,
+  [in] uint32   ReportingNonCriticalTimeOut,
+  [in] uint8    ScanAvgCPULoadFactor,
+  [in] boolean  CheckForSignaturesBeforeRunningScan,
+  [in] uint32   ScanPurgeItemsAfterDelay,
+  [in] boolean  ScanOnlyIfIdleEnabled,
+  [in] uint8    ScanParameters,
+  [in] uint8    ScanScheduleDay,
+  [in] DateTime ScanScheduleQuickScanTime,
+  [in] DateTime ScanScheduleTime,
+  [in] uint32   SignatureFirstAuGracePeriod,
+  [in] uint32   SignatureAuGracePeriod,
+  [in] string   SignatureDefinitionUpdateFileSharesSources,
+  [in] boolean  SignatureDisableUpdateOnStartupWithoutEngine,
+  [in] string   SignatureFallbackOrder,
+  [in] uint8    SignatureScheduleDay,
+  [in] DateTime SignatureScheduleTime,
+  [in] uint32   SignatureUpdateCatchupInterval,
+  [in] uint32   SignatureUpdateInterval,
+  [in] uint8    MAPSReporting,
+       boolean  DisablePrivacyMode,
+  [in] boolean  RandomizeScheduleTaskTimes,
+  [in] boolean  DisableBehaviorMonitoring,
+  [in] boolean  DisableIntrusionPreventionSystem,
+  [in] boolean  DisableIOAVProtection,
+  [in] boolean  DisableRealtimeMonitoring,
+  [in] boolean  DisableScriptScanning,
+  [in] boolean  DisableArchiveScanning,
+  [in] boolean  DisableCatchupFullScan,
+  [in] boolean  DisableCatchupQuickScan,
+  [in] boolean  DisableEmailScanning,
+  [in] boolean  DisableRemovableDriveScanning,
+  [in] boolean  DisableRestorePoint,
+  [in] boolean  DisableScanningMappedNetworkDrivesForFullScan,
+  [in] boolean  DisableScanningNetworkFiles,
+  [in] boolean  UILockdown,
+  [in] sint64   ThreatIDDefaultAction_Ids[],
+  [in] uint8    ThreatIDDefaultAction_Actions[],
+  [in] uint8    UnknownThreatDefaultAction,
+  [in] uint8    LowThreatDefaultAction,
+  [in] uint8    ModerateThreatDefaultAction,
+  [in] uint8    HighThreatDefaultAction,
+  [in] uint8    SevereThreatDefaultAction,
+  [in] boolean  Force
 );
 ```
 
@@ -684,8 +692,8 @@ A user confirmation is sought by default by this cmdlet. If -Force is specified,
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Defender<br/>                                                       |
 | MOF<br/>                      | <dl> <dt>ProtectionManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ProtectionManagement.dll</dt> </dl> |
@@ -699,9 +707,9 @@ A user confirmation is sought by default by this cmdlet. If -Force is specified,
 [**MSFT\_MpPreference**](msft-mppreference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

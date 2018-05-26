@@ -1,7 +1,12 @@
 ---
-Description: 'The BeginFlush method begins a flush operation. This method overrides the CBaseInputPin::BeginFlush method.'
-ms.assetid: 'c41260d3-04b2-47dd-96e6-675f000c4e3b'
-title: 'CRendererInputPin.BeginFlush method'
+Description: The BeginFlush method begins a flush operation. This method overrides the CBaseInputPinBeginFlush method.
+ms.assetid: c41260d3-04b2-47dd-96e6-675f000c4e3b
+title: CRendererInputPin.BeginFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererInputPin.BeginFlush method
@@ -43,9 +48,9 @@ Returns an **HRESULT** value.
 [**CRendererInputPin Class**](crendererinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The QueryAllTraces function retrieves the properties and statistics for all event tracing sessions started on the computer for which the caller has permissions to query.'
-ms.assetid: '6b6144b0-9152-4b5e-863d-06e823fbe084'
+---
+Description: The QueryAllTraces function retrieves the properties and statistics for all event tracing sessions started on the computer for which the caller has permissions to query.
+ms.assetid: 6b6144b0-9152-4b5e-863d-06e823fbe084
 title: QueryAllTraces function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QueryAllTraces function

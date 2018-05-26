@@ -2,13 +2,19 @@
 title: ms\_union attribute
 description: The keyword \ ms\_union\ is used to control the NDR alignment of nonencapsulated unions.
 ms.assetid: 20ac2985-4552-4224-b03b-07378a2c0cdf
-keywords: ["ms_union attribute MIDL"]
+keywords:
+- ms_union attribute MIDL
 topic_type:
 - apiref
 api_name:
 - ms_union
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ms\_union attribute

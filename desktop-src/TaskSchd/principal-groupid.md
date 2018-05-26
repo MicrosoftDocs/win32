@@ -1,8 +1,11 @@
 ---
 title: Principal.GroupId property
 description: For scripting, gets or sets the identifier of the user group that is required to run the tasks that are associated with the principal.
-ms.assetid: 'df4bffa3-ee38-49cd-bec7-28edda48a953'
-keywords: ["GroupId property Task Scheduler", "GroupId property Task Scheduler , Principal object", "Principal object Task Scheduler , GroupId property"]
+ms.assetid: df4bffa3-ee38-49cd-bec7-28edda48a953
+keywords:
+- GroupId property Task Scheduler
+- GroupId property Task Scheduler , Principal object
+- Principal object Task Scheduler , GroupId property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Principal.GroupId property
@@ -42,8 +50,8 @@ When reading or writing XML for a task, the group identifier for a principal is 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -62,9 +70,9 @@ When reading or writing XML for a task, the group identifier for a principal is 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

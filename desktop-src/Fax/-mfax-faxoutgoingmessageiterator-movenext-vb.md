@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MoveNext method moves the archive cursor to the next fax message in the outbound archive.'
-ms.assetid: '300a794f-fa56-4bcb-b66e-a6e8d1d709ec'
-title: 'FaxOutgoingMessageIterator.MoveNext method'
+---
+Description: The MoveNext method moves the archive cursor to the next fax message in the outbound archive.
+ms.assetid: 300a794f-fa56-4bcb-b66e-a6e8d1d709ec
+title: FaxOutgoingMessageIterator.MoveNext method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessageIterator.MoveNext method
@@ -48,7 +53,7 @@ The method will fail if the [**AtEOF**](-mfax-faxoutgoingmessageiterator-ateof-v
 [**FaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator-cpp.md)
+[**IFaxOutgoingMessageIterator**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessageiterator?branch=master)
 </dt> </dl>
 
  

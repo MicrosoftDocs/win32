@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a thread.'
-ms.assetid: '40785522-dc6e-41af-8b27-9e8875a0dd84'
-title: 'CMsgThread.CreateThread method'
+Description: Creates a thread.
+ms.assetid: 40785522-dc6e-41af-8b27-9e8875a0dd84
+title: CMsgThread.CreateThread method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMsgThread.CreateThread method
@@ -34,7 +39,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +63,9 @@ The thread will loop, blocking until a request is queued (through the [**CMsgThr
 [**CMsgThread Class**](cmsgthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

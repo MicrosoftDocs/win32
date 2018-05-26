@@ -1,7 +1,12 @@
 ---
 title: How to build a simple visual tree
 description: This topic demonstrates how to build a simple Microsoft DirectComposition visual tree. The example in this topic builds and composes a visual tree that consists of a root visual and three child visuals.
-ms.assetid: '86006C3C-67A8-4931-BE76-D0CA9DB19505'
+ms.assetid: 86006C3C-67A8-4931-BE76-D0CA9DB19505
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to build a simple visual tree
@@ -32,7 +37,7 @@ For more information, see [How to initialize DirectComposition](initialize-direc
 
 ### Step 2: Create the visual objects and set the bitmap content
 
-Use the [**IDCompositionDevice::CreateVisual**](idcompositiondevice-createvisual.md) method to create the visuals, and the [**IDCompositionVisual::SetContent**](idcompositionvisual-setcontent.md) method to set the bitmap content of the visuals.
+Use the [**IDCompositionDevice::CreateVisual**](/windows/win32/Dcomp/?branch=master) method to create the visuals, and the [**IDCompositionVisual::SetContent**](/windows/win32/Dcomp/?branch=master) method to set the bitmap content of the visuals.
 
 > [!Note]  
 > In the following example, the first element of the `m_hBitmaps` array contains the bitmap for the root visual, and the remaining elements contain the bitmaps for the child visuals.
@@ -201,7 +206,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
 
 ### Step 3: Set the root visual
 
-Set the horizontal and vertical offsets of the root visual, and then add it to the visual tree by calling the [**IDCompositionTarget::SetRoot**](idcompositiontarget-setroot.md) method.
+Set the horizontal and vertical offsets of the root visual, and then add it to the visual tree by calling the [**IDCompositionTarget::SetRoot**](/windows/win32/Dcomp/?branch=master) method.
 
 
 ```C++
@@ -220,7 +225,7 @@ Set the horizontal and vertical offsets of the root visual, and then add it to t
 
 ### Step 4: Add the child visuals and commit the composition
 
-Use methods exposed by each child visual's [**IDCompositionVisual**](idcompositionvisual.md) interface to set the bitmap content and other properties, and then use the root visual's [**IDCompositionVisual::AddVisual**](idcompositionvisual-addvisual.md) method to add the child visuals to the root of the visual tree. Call [**IDCompositionDevice::Commit**](idcompositiondevice-commit.md) to commit the batch of commands to DirectComposition for processing. The resulting composition appears in the target window.
+Use methods exposed by each child visual's [**IDCompositionVisual**](/windows/win32/Dcomp/?branch=master) interface to set the bitmap content and other properties, and then use the root visual's [**IDCompositionVisual::AddVisual**](/windows/win32/Dcomp/?branch=master) method to add the child visuals to the root of the visual tree. Call [**IDCompositionDevice::Commit**](/windows/win32/Dcomp/?branch=master) to commit the batch of commands to DirectComposition for processing. The resulting composition appears in the target window.
 
 
 ```C++
@@ -917,22 +922,22 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
 
 <dl> <dt>
 
-[**DCompositionCreateDevice**](dcompositioncreatedevice.md)
+[**DCompositionCreateDevice**](/windows/win32/Dcomp/nf-dcomp-dcompositioncreatedevice?branch=master)
 </dt> <dt>
 
-[**IDCompositionDevice::Commit**](idcompositiondevice-commit.md)
+[**IDCompositionDevice::Commit**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
-[**IDCompositionDevice::CreateTargetForHwnd**](idcompositiondevice-createhwndtarget.md)
+[**IDCompositionDevice::CreateTargetForHwnd**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
-[**IDCompositionDevice::CreateVisual**](idcompositiondevice-createvisual.md)
+[**IDCompositionDevice::CreateVisual**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
-[**IDCompositionTarget::SetRoot**](idcompositiontarget-setroot.md)
+[**IDCompositionTarget::SetRoot**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
-[**IDCompositionVisual::SetContent**](idcompositionvisual-setcontent.md)
+[**IDCompositionVisual::SetContent**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
 [**SafeRelease**](https://msdn.microsoft.com/library/windows/desktop/dd940435)

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides the context associated with an asynchronous operation.'
-ms.assetid: 'AA862667-42D6-4A82-9698-1C43E9EEC434'
+---
+Description: Provides the context associated with an asynchronous operation.
+ms.assetid: AA862667-42D6-4A82-9698-1C43E9EEC434
 title: IPrinterExtensionAsyncOperation interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionAsyncOperation interface

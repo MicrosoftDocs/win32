@@ -1,14 +1,20 @@
 ---
 title: GatherCmpBlue(S,float,float,int,uint) function
 description: Samples a texture, tests the samples against a compare value, and returns the blue component along with status about the operation.
-ms.assetid: '05033555-32A8-4023-BDAB-00D5F7725CA9'
-keywords: ["GatherCmpBlue function HLSL"]
+ms.assetid: 05033555-32A8-4023-BDAB-00D5F7725CA9
+keywords:
+- GatherCmpBlue function HLSL
 topic_type:
 - apiref
 api_name:
 - GatherCmpBlue
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GatherCmpBlue(S,float,float,int,uint) function

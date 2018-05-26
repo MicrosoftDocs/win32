@@ -1,8 +1,11 @@
 ---
 title: Reinstall method of the Win32\_Product class
 description: Using the specified reinstallation mode, the Reinstall WMI class method reinstalls the associated instance of Win32\_Product.
-ms.assetid: '9b835c44-9efe-4131-b9ca-ef2efa567955'
-keywords: ["Reinstall method", "Reinstall method, Win32_Product class", "Win32_Product class, Reinstall method"]
+ms.assetid: 9b835c44-9efe-4131-b9ca-ef2efa567955
+keywords:
+- Reinstall method
+- Reinstall method, Win32_Product class
+- Win32_Product class, Reinstall method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reinstall method of the Win32\_Product class
@@ -20,7 +28,7 @@ Using the specified reinstallation mode, the **Reinstall** [WMI class](https://m
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method,see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -29,7 +37,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Reinstall(
-  [in] uint32 ReinstallMode
+  [in] uint32 ReinstallMode
 );
 ```
 
@@ -61,7 +69,7 @@ The reinstallation mode. Can be one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -76,7 +84,7 @@ The reinstallation mode. Can be one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -84,8 +92,8 @@ The reinstallation mode. Can be one of the following values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -105,9 +113,9 @@ The reinstallation mode. Can be one of the following values.
 [WMI Tasks: Computer Software](https://msdn.microsoft.com/library/aa394588)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

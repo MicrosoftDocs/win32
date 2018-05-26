@@ -1,8 +1,11 @@
 ---
 title: Parameter ToDuration method
 description: Retrieve the value of the parameter as a specific data type.
-ms.assetid: '268CC612-80E1-499B-81CD-3C49EE2B0EC7'
-keywords: ["ToDuration method Access Execution Engine", "ToDuration method Access Execution Engine , Parameter interface", "Parameter interface Access Execution Engine , ToDuration method"]
+ms.assetid: 268CC612-80E1-499B-81CD-3C49EE2B0EC7
+keywords:
+- ToDuration method Access Execution Engine
+- ToDuration method Access Execution Engine , Parameter interface
+- Parameter interface Access Execution Engine , ToDuration method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameter::ToDuration method
@@ -22,7 +30,7 @@ Retrieve the value of the parameter as a specific data type.
 
 ```C++
 virtual HRESULT ToDuration(
-  [out] LONGLONG *paramValue
+  [out] LONGLONG *paramValue
 ) const = 0;
 ```
 
@@ -59,8 +67,8 @@ Managed code uses the [**Parameter.ToDuration**](axe-parameter_toduration_om) me
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -73,9 +81,9 @@ Managed code uses the [**Parameter.ToDuration**](axe-parameter_toduration_om) me
 [**Parameter**](parameter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

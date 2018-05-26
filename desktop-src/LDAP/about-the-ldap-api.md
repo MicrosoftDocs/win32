@@ -4,11 +4,15 @@ description: The Lightweight Directory Access Protocol (LDAP) API provides a mec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7548ec51-dcc2-45c2-8912-c95c7e184324'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 7548ec51-dcc2-45c2-8912-c95c7e184324
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP LDAP , about"]
+keywords:
+- LDAP LDAP , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Lightweight Directory Access Protocol

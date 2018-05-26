@@ -2,13 +2,19 @@
 title: /o switch
 description: The /o switch redirects output, such as error messages and warnings, from standard output to the specified file.
 ms.assetid: 68398a38-bda6-499a-a4ee-6e90937eccd0
-keywords: ["/o switch MIDL"]
+keywords:
+- /o switch MIDL
 topic_type:
 - apiref
 api_name:
 - /o
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /o switch

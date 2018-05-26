@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SENG\* Constants'
-ms.assetid: 'a1990e5a-c2c2-4ecc-a206-f818b179fc80'
-title: 'LOCALE\_SENG\* Constants'
+Description: LOCALE\_SENG\* Constants
+ms.assetid: a1990e5a-c2c2-4ecc-a206-f818b179fc80
+title: LOCALE\_SENG\* Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SENG\* Constants

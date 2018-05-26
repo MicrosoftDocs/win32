@@ -4,9 +4,9 @@ description: Environment property constants are used to query and set properties
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '1DBB272A-E36B-4DBF-802F-771AC875A709'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 1DBB272A-E36B-4DBF-802F-771AC875A709
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -19,6 +19,9 @@ api_location:
 - Ipcprot.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Environment properties
@@ -26,9 +29,9 @@ api_type:
 Environment property constants are used to query and set properties using [**IpcGetGlobalProperty**](ipcgetglobalproperty.md) and [**IpcSetGlobalProperty**](ipcsetglobalproperty.md).
 
 > [!Note]  
-> Environment properties should be set after [**IpcInitialize**](ipcinitialize.md), but before calling any other Rights Management Services SDK 2.1 APIs.
+> Environment properties should be set after [**IpcInitialize**](ipcinitialize.md), but before calling any other Rights Management Services SDK 2.1 APIs.
 
- 
+ 
 
 <dl> <dt>
 
@@ -88,7 +91,7 @@ The value set for **IPC\_EI\_STORE\_NAME** should be a valid folder name that is
 > \[!Important\]  
 > We strongly recommend that this property be set to a valid value.
 
- 
+ 
 
 
 </dt> </dl> </dd> </dl>
@@ -99,8 +102,8 @@ The value set for **IPC\_EI\_STORE\_NAME** should be a valid folder name that is
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 
 
@@ -124,9 +127,9 @@ The value set for **IPC\_EI\_STORE\_NAME** should be a valid folder name that is
 [**API Mode Values**](api-mode-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

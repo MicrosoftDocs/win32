@@ -1,8 +1,11 @@
 ---
 title: RegisteredTask.LastTaskResult property
 description: For scripting, gets the results that were returned the last time the registered task was run.
-ms.assetid: 'a16b0b01-109b-44ae-8318-dbc5d6728e17'
-keywords: ["LastTaskResult property Task Scheduler", "LastTaskResult property Task Scheduler , RegisteredTask object", "RegisteredTask object Task Scheduler , LastTaskResult property"]
+ms.assetid: a16b0b01-109b-44ae-8318-dbc5d6728e17
+keywords:
+- LastTaskResult property Task Scheduler
+- LastTaskResult property Task Scheduler , RegisteredTask object
+- RegisteredTask object Task Scheduler , LastTaskResult property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisteredTask.LastTaskResult property
@@ -36,8 +44,8 @@ The results that were returned the last time the registered task was run.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -53,9 +61,9 @@ The results that were returned the last time the registered task was run.
 [**RegisteredTask**](registeredtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

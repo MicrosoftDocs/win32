@@ -1,7 +1,12 @@
 ---
 title: Internet Connection Sharing and Internet Connection Firewall Structures
 description: The Internet Connection Sharing (ICS) API uses the following structures for passing information to and from the ICS/ICF COM interfaces.
-ms.assetid: '483d7cd5-5db6-4af3-964b-3f7cd2e4f8a8'
+ms.assetid: 483d7cd5-5db6-4af3-964b-3f7cd2e4f8a8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Internet Connection Sharing and Internet Connection Firewall Structures
@@ -10,7 +15,7 @@ ms.assetid: '483d7cd5-5db6-4af3-964b-3f7cd2e4f8a8'
 
 The Internet Connection Sharing (ICS) API uses the following structures for passing information to and from the ICS/ICF COM interfaces.
 
--   [**NETCON\_PROPERTIES**](netcon-properties.md)
+-   [**NETCON\_PROPERTIES**](/windows/previous-versions/NetCon/ns-netcon-tagnetcon_properties?branch=master)
 
 ## Related topics
 

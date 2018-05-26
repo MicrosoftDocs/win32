@@ -1,7 +1,12 @@
 ---
-Description: 'As with all important operations under VSS, incremental and differential backups require close cooperation between requesters and writers.'
-ms.assetid: 'e9529aad-cf93-4b4c-811c-0ff0b708de6c'
+Description: As with all important operations under VSS, incremental and differential backups require close cooperation between requesters and writers.
+ms.assetid: e9529aad-cf93-4b4c-811c-0ff0b708de6c
 title: Incremental and Differential Backups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Incremental and Differential Backups

@@ -1,7 +1,12 @@
 ---
-Description: 'Used in the GetSummaryInformation and GetDefinitionFileSummaryInformation methods in the Msvm\_VirtualSystemManagementService class to quickly retrieve common information related to a virtual machine or snapshot.'
-ms.assetid: '8D188BB2-4A56-4738-94DD-64D9F9B90B73'
-title: 'Msvm\_SummaryInformation class'
+Description: Used in the GetSummaryInformation and GetDefinitionFileSummaryInformation methods in the Msvm\_VirtualSystemManagementService class to quickly retrieve common information related to a virtual machine or snapshot.
+ms.assetid: 8D188BB2-4A56-4738-94DD-64D9F9B90B73
+title: Msvm\_SummaryInformation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SummaryInformation class
@@ -16,48 +21,48 @@ The following syntax is simplified Managed Object Format (MOF) code.
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SummaryInformation : Msvm_SummaryInformationBase
 {
-  string                       InstanceID;
-  string                       AllocatedGPU;
-  boolean                      Shielded;
-  CIM_ConcreteJob              AsynchronousTasks[];
-  DateTime                     CreationTime;
-  string                       ElementName;
-  uint16                       EnabledState;
-  string                       OtherEnabledState;
-  string                       GuestOperatingSystem;
-  uint16                       HealthState;
-  uint16                       Heartbeat;
-  uint64                       MemoryUsage;
-  sint32                       MemoryAvailable;
-  sint32                       AvailableMemoryBuffer;
-  boolean                      SwapFilesInUse;
-  string                       Name;
-  string                       Notes;
-  string                       Version;
-  uint16                       NumberOfProcessors;
-  uint16                       OperationalStatus[];
-  uint16                       ProcessorLoad;
-  uint16                       ProcessorLoadHistory[];
+  string                       InstanceID;
+  string                       AllocatedGPU;
+  boolean                      Shielded;
+  CIM_ConcreteJob              AsynchronousTasks[];
+  DateTime                     CreationTime;
+  string                       ElementName;
+  uint16                       EnabledState;
+  string                       OtherEnabledState;
+  string                       GuestOperatingSystem;
+  uint16                       HealthState;
+  uint16                       Heartbeat;
+  uint64                       MemoryUsage;
+  sint32                       MemoryAvailable;
+  sint32                       AvailableMemoryBuffer;
+  boolean                      SwapFilesInUse;
+  string                       Name;
+  string                       Notes;
+  string                       Version;
+  uint16                       NumberOfProcessors;
+  uint16                       OperationalStatus[];
+  uint16                       ProcessorLoad;
+  uint16                       ProcessorLoadHistory[];
   CIM_VirtualSystemSettingData Snapshots[];
-  string                       StatusDescriptions[];
-  uint8                        ThumbnailImage[];
-  uint16                       ThumbnailImageHeight;
-  uint16                       ThumbnailImageWidth;
-  uint64                       UpTime;
-  uint16                       ReplicationState;
-  uint16                       ReplicationStateEx[];
-  uint16                       ReplicationHealth;
-  uint16                       ReplicationHealthEx[];
-  uint16                       ReplicationMode;
-  CIM_ComputerSystem       REF TestReplicaSystem;
-  uint16                       ApplicationHealth;
-  uint16                       IntegrationServicesVersionState;
-  boolean                      MemorySpansPhysicalNumaNodes;
-  string                       ReplicationProviderId[];
-  uint16                       EnhancedSessionModeState;
-  string                       VirtualSwitchNames[];
-  string                       VirtualSystemSubType;
-  string                       HostComputerSystemName;
+  string                       StatusDescriptions[];
+  uint8                        ThumbnailImage[];
+  uint16                       ThumbnailImageHeight;
+  uint16                       ThumbnailImageWidth;
+  uint64                       UpTime;
+  uint16                       ReplicationState;
+  uint16                       ReplicationStateEx[];
+  uint16                       ReplicationHealth;
+  uint16                       ReplicationHealthEx[];
+  uint16                       ReplicationMode;
+  CIM_ComputerSystem       REF TestReplicaSystem;
+  uint16                       ApplicationHealth;
+  uint16                       IntegrationServicesVersionState;
+  boolean                      MemorySpansPhysicalNumaNodes;
+  string                       ReplicationProviderId[];
+  uint16                       EnhancedSessionModeState;
+  string                       VirtualSwitchNames[];
+  string                       VirtualSystemSubType;
+  string                       HostComputerSystemName;
 };
 ```
 
@@ -205,7 +210,7 @@ Access type: Read-only
 
 Indicates whether enhanced mode connections are allowed by the host, and if allowed, whether they are available to the virtual machine.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 <dt>
 
@@ -297,9 +302,9 @@ Access type: Read-only
 The name of the computer hosting this virtual machine.
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -328,9 +333,9 @@ Where &lt;OrgID&gt; and &lt;LocalID&gt; are separated by a colon (:), and where 
 If not set to null for DMTF-defined instances, the "preferred" algorithm must be used with the &lt;OrgID&gt; set to CIM.
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -525,9 +530,9 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("**Ms
 The replication health for the virtual machine. See the **ReplicationHealth** property of the [**Msvm\_ComputerSystem**](msvm-computersystem.md) class for possible values.
 
 > [!Note]  
-> This property is deprecated starting with Windows 8.1; instead, use the **ReplicationHealthEx**.
+> This property is deprecated starting with Windows 8.1; instead, use the **ReplicationHealthEx**.
 
- 
+ 
 
 <dt>
 
@@ -671,7 +676,7 @@ Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/aa393650) ("Index
 
 For the primary or extended replica virtual machine, this is the primary replication provider ID. For a replica virtual machine and if extended replication is enabled, this is the provider ID for extended relationship.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -690,9 +695,9 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("**Ms
 The replication state for the virtual machine. See the **ReplicationState** property of the [**Msvm\_ComputerSystem**](msvm-computersystem.md) class for possible values.
 
 > [!Note]  
-> This property is deprecated starting with Windows 8.1; instead, use the **ReplicationStateEx**.
+> This property is deprecated starting with Windows 8.1; instead, use the **ReplicationStateEx**.
 
- 
+ 
 
 <dt>
 
@@ -918,9 +923,9 @@ The array of replication state values for the various replication relationships 
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10, version 1703 and Windows Server 2016.
+> Added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -932,9 +937,9 @@ The array of replication state values for the various replication relationships 
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10, version 1703 and Windows Server 2016.
+> Added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -946,9 +951,9 @@ The array of replication state values for the various replication relationships 
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10, version 1703 and Windows Server 2016.
+> Added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -960,9 +965,9 @@ The array of replication state values for the various replication relationships 
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10, version 1703 and Windows Server 2016.
+> Added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -974,9 +979,9 @@ The array of replication state values for the various replication relationships 
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10, version 1703 and Windows Server 2016.
+> Added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -988,9 +993,9 @@ The array of replication state values for the various replication relationships 
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10, version 1703 and Windows Server 2016.
+> Added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1002,9 +1007,9 @@ The array of replication state values for the various replication relationships 
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10, version 1703 and Windows Server 2016.
+> Added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> </dl>
 
@@ -1022,9 +1027,9 @@ Access type: Read-only
 Indicates whether or not shielding is configured for the virtual machine.
 
 > [!Note]  
-> Added in Windows 10, version 1703 and Windows Server 2016.
+> Added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1117,9 +1122,9 @@ Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa39365
 The height in pixels of the image in the ThumbnailImage property.
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1138,9 +1143,9 @@ Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa39365
 The width in pixels of the image in the ThumbnailImage property.
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1169,9 +1174,9 @@ Access type: Read-only
 The version of the virtual system in a format of "major.minor", for example "2.0".
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1189,7 +1194,7 @@ Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/aa393650) ("Index
 
 Strings that specify the friendly names of the virtual switches the virtual machine is connected to.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -1204,7 +1209,7 @@ Access type: Read-only
 
 The subtype of the virtual system.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 <dt>
 
@@ -1234,8 +1239,8 @@ Access to the **Msvm\_SummaryInformation** class might be restricted by UAC Filt
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1252,9 +1257,9 @@ Access to the **Msvm\_SummaryInformation** class might be restricted by UAC Filt
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

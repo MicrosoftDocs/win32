@@ -1,8 +1,17 @@
 ---
-title: What's Included with the SDK
-description: What's Included with the SDK
-ms.assetid: 'c17de30b-d4b4-4698-accf-721b6c267769'
-keywords: ["Windows Media Device Manager,software development kit (SDK)", "Device Manager,software development kit (SDK)", "Windows Media Device Manager SDK", "Device Manager SDK"]
+title: Whats Included with the SDK
+description: Whats Included with the SDK
+ms.assetid: c17de30b-d4b4-4698-accf-721b6c267769
+keywords:
+- Windows Media Device Manager,software development kit (SDK)
+- Device Manager,software development kit (SDK)
+- Windows Media Device Manager SDK
+- Device Manager SDK
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's Included with the SDK
@@ -16,15 +25,15 @@ The following table describes the contents of the Windows Media Device Manager S
 | WMDM\\                     | Top-level folder for the Windows Media Device Manager SDK. This folder includes the makefile for building all the sample applications.                                                                                                                                                                                                                                                                                                              |
 | idl\\                      | Folder that contains all the IDL files required to build headers needed for Windows Media Device Manager methods. However, instead of using these files, you can use the header files supplied in the inc\\ folder.<br/> To see a list of these IDL files, and to learn which header files are built from which IDL files, see [Compiling the IDL Files Supplied with the SDK](compiling-the-idl-files-supplied-with-the-sdk.md).<br/> |
 | inc\\....<br/>       | Folder that includes all the headers that define the interfaces and data types in this SDK.                                                                                                                                                                                                                                                                                                                                                         |
-| mswmdm.h                   | Defines all the application interfaces, service provider interfaces, secure content provider interfaces, error codes, constants, structures, and the [**IComponentAuthenticate**](icomponentauthenticate.md) interface.                                                                                                                                                                                                                            |
-| mswmdm\_i.c                | Defines the [**IWMDMNotification**](iwmdmnotification.md) interface.                                                                                                                                                                                                                                                                                                                                                                               |
-| MtpExt.h                   | Defines MTP-specific structures required for applications calling [**IWMDMDevice3::DeviceIoControl**](iwmdmdevice3-deviceiocontrol.md).                                                                                                                                                                                                                                                                                                            |
+| mswmdm.h                   | Defines all the application interfaces, service provider interfaces, secure content provider interfaces, error codes, constants, structures, and the [**IComponentAuthenticate**](/windows/win32/mswmdm/nn-mswmdm-icomponentauthenticate?branch=master) interface.                                                                                                                                                                                                                            |
+| mswmdm\_i.c                | Defines the [**IWMDMNotification**](/windows/win32/mswmdm/nn-mswmdm-iwmdmnotification?branch=master) interface.                                                                                                                                                                                                                                                                                                                                                                               |
+| MtpExt.h                   | Defines MTP-specific structures required for applications calling [**IWMDMDevice3::DeviceIoControl**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol?branch=master).                                                                                                                                                                                                                                                                                                            |
 | resource.h                 | Defines various resource constants used by the SDK samples.                                                                                                                                                                                                                                                                                                                                                                                         |
 | sac.h                      | Defines secure authenticated channel data required by all applications and service providers.                                                                                                                                                                                                                                                                                                                                                       |
 | scclient.h                 | Defines the [CSecureChannelClient](csecurechannelclient-class.md) class required by all applications.                                                                                                                                                                                                                                                                                                                                              |
 | scserver.h                 | Defines the [CSecureChannelServer](csecurechannelserver-class.md) class required by all service providers.                                                                                                                                                                                                                                                                                                                                         |
 | wmdm\_ver.h                | Optional version information about Windows Media Device Manager.                                                                                                                                                                                                                                                                                                                                                                                    |
-| wmdmlog.h, wmdmlog\_i.c    | Required for applications or service providers that use the [**IWMDMLogger**](iwmdmlogger.md) interface.                                                                                                                                                                                                                                                                                                                                           |
+| wmdmlog.h, wmdmlog\_i.c    | Required for applications or service providers that use the [**IWMDMLogger**](/windows/win32/wmdmlog/nn-wmdmlog-iwmdmlogger?branch=master) interface.                                                                                                                                                                                                                                                                                                                                           |
 | wmdrmdeviceapp.h           | Required for applications that handle content metering (see [Metering Content Usage](metering-content-usage.md)).                                                                                                                                                                                                                                                                                                                                  |
 | wmsstd.h                   | Defines helper macros used by the SDK samples.                                                                                                                                                                                                                                                                                                                                                                                                      |
 | lib\\                      | Folder that holds the Windows Media Device Manager libraries.                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -36,7 +45,7 @@ The following table describes the contents of the Windows Media Device Manager S
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -45,9 +54,9 @@ The following table describes the contents of the Windows Media Device Manager S
 [**Getting Started**](getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

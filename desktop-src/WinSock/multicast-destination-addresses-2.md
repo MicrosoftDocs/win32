@@ -1,7 +1,12 @@
 ---
-Description: 'When sending to a multicast destination address, the Microsoft IPv6 protocol normally requires that the application have an outgoing interface specified.'
-ms.assetid: 'dbfeaa1f-a7c5-4a15-90f0-4d1cdaf798e9'
+Description: When sending to a multicast destination address, the Microsoft IPv6 protocol normally requires that the application have an outgoing interface specified.
+ms.assetid: dbfeaa1f-a7c5-4a15-90f0-4d1cdaf798e9
 title: IPv6 Multicast Destination Addresses
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPv6 Multicast Destination Addresses

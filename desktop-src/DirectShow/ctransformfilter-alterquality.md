@@ -1,7 +1,12 @@
 ---
-Description: 'The AlterQuality method notifies the filter that a quality change is requested.'
-ms.assetid: '46743d6b-65cf-4d63-8913-114277d76da4'
-title: 'CTransformFilter.AlterQuality method'
+Description: The AlterQuality method notifies the filter that a quality change is requested.
+ms.assetid: 46743d6b-65cf-4d63-8913-114277d76da4
+title: CTransformFilter.AlterQuality method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.AlterQuality method
@@ -13,7 +18,7 @@ The `AlterQuality` method notifies the filter that a quality change is requested
 
 ```C++
 virtual HRESULT AlterQuality(
-   Quality q
+   Quality q
 );
 ```
 
@@ -26,7 +31,7 @@ virtual HRESULT AlterQuality(
 *q* 
 </dt> <dd>
 
-[**Quality**](quality.md) structure that contains the quality control message.
+[**Quality**](/windows/win32/strmif/ns-strmif-tagquality?branch=master) structure that contains the quality control message.
 
 </dd> </dl>
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ Override this method if the filter can perform quality control. For more informa
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

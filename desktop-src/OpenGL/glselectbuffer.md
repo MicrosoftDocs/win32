@@ -1,8 +1,9 @@
 ---
 title: glSelectBuffer function
 description: The glSelectBuffer function establishes a buffer for selection mode values.
-ms.assetid: 'b5c64364-1f47-4281-96b5-95c3f5c8e753'
-keywords: ["glSelectBuffer function OpenGL"]
+ms.assetid: b5c64364-1f47-4281-96b5-95c3f5c8e753
+keywords:
+- glSelectBuffer function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glSelectBuffer function
@@ -22,8 +28,8 @@ The **glSelectBuffer** function establishes a buffer for selection mode values.
 
 ```C++
 void WINAPI glSelectBuffer(
-   GLsizei size,
-   GLuint  *buffer
+   GLsizei size,
+   GLuint  *buffer
 );
 ```
 
@@ -107,8 +113,8 @@ The following function retrieves information related to **glSelectBuffer**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -140,9 +146,9 @@ The following function retrieves information related to **glSelectBuffer**:
 [**glRenderMode**](glrendermode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

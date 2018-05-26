@@ -1,24 +1,29 @@
 ---
-Description: 'Considerations for creating or opening a file by using the CreateFile function.'
-ms.assetid: '094cac29-c66d-409e-8928-878dc693d393'
+Description: Considerations for creating or opening a file by using the CreateFile function.
+ms.assetid: 094cac29-c66d-409e-8928-878dc693d393
 title: Creating and Opening Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating and Opening Files
 
-The [**CreateFile**](createfile.md) function can create a new file or open an existing file. You must specify the file name, creation instructions, and other attributes. When an application creates a new file, the operating system adds it to the specified directory.
+The [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function can create a new file or open an existing file. You must specify the file name, creation instructions, and other attributes. When an application creates a new file, the operating system adds it to the specified directory.
 
-The operating system assigns a unique identifier, called a *handle*, to each file that is opened or created using [**CreateFile**](createfile.md). An application can use this handle with functions that read from, write to, and describe the file. It is valid until all references to that handle are closed. When an application starts, it inherits all open handles from the process that started it if the handles were created as inheritable.
+The operating system assigns a unique identifier, called a *handle*, to each file that is opened or created using [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master). An application can use this handle with functions that read from, write to, and describe the file. It is valid until all references to that handle are closed. When an application starts, it inherits all open handles from the process that started it if the handles were created as inheritable.
 
-An application should check the value of the handle returned by [**CreateFile**](createfile.md) before attempting to use the handle to access the file. If an error occurs, the handle value will be **INVALID\_HANDLE\_VALUE** and the application can use the [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function for extended error information.
+An application should check the value of the handle returned by [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) before attempting to use the handle to access the file. If an error occurs, the handle value will be **INVALID\_HANDLE\_VALUE** and the application can use the [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function for extended error information.
 
-When an application uses [**CreateFile**](createfile.md), it must use the *dwDesiredAccess* parameter to specify whether it intends to read from the file, write to the file, both read and write, or neither. This is known as requesting an *access mode*. The application must also use the *dwCreationDisposition* parameter to specify what action to take if the file already exists, known as the *creation disposition*. For example, an application can call **CreateFile** with *dwCreationDisposition* set to **CREATE\_ALWAYS** to always create a new file, even if a file of the same name already exists (thus overwriting the existing file). Whether this succeeds or not depends on factors such as the previous file's attributes and security settings (see the following sections for more information).
+When an application uses [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master), it must use the *dwDesiredAccess* parameter to specify whether it intends to read from the file, write to the file, both read and write, or neither. This is known as requesting an *access mode*. The application must also use the *dwCreationDisposition* parameter to specify what action to take if the file already exists, known as the *creation disposition*. For example, an application can call **CreateFile** with *dwCreationDisposition* set to **CREATE\_ALWAYS** to always create a new file, even if a file of the same name already exists (thus overwriting the existing file). Whether this succeeds or not depends on factors such as the previous file's attributes and security settings (see the following sections for more information).
 
-An application also uses [**CreateFile**](createfile.md) to specify whether it wants to share the file for reading, writing, both, or neither. This is known as the *sharing mode*. An open file that is not shared (*dwShareMode* set to zero) cannot be opened again, either by the application that opened it or by another application, until its handle has been closed. This is also referred to as exclusive access.
+An application also uses [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) to specify whether it wants to share the file for reading, writing, both, or neither. This is known as the *sharing mode*. An open file that is not shared (*dwShareMode* set to zero) cannot be opened again, either by the application that opened it or by another application, until its handle has been closed. This is also referred to as exclusive access.
 
-When a process uses [**CreateFile**](createfile.md) to attempt to open a file that has already been opened in a sharing mode (*dwShareMode* set to a valid nonzero value), the system compares the requested access and sharing modes to those specified when the file was opened. If you specify an access or sharing mode that conflicts with the modes specified in the previous call, **CreateFile** fails.
+When a process uses [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) to attempt to open a file that has already been opened in a sharing mode (*dwShareMode* set to a valid nonzero value), the system compares the requested access and sharing modes to those specified when the file was opened. If you specify an access or sharing mode that conflicts with the modes specified in the previous call, **CreateFile** fails.
 
-The following table illustrates the valid combinations of two calls to [**CreateFile**](createfile.md) using various access modes and sharing modes (*dwDesiredAccess*, *dwShareMode* respectively). It does not matter in which order the **CreateFile** calls are made. However, any subsequent file I/O operations on each file handle will still be constrained by the current access and sharing modes associated with that particular file handle.
+The following table illustrates the valid combinations of two calls to [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) using various access modes and sharing modes (*dwDesiredAccess*, *dwShareMode* respectively). It does not matter in which order the **CreateFile** calls are made. However, any subsequent file I/O operations on each file handle will still be constrained by the current access and sharing modes associated with that particular file handle.
 
 
 
@@ -29,8 +34,8 @@ The following table illustrates the valid combinations of two calls to [**Create
 </colgroup>
 <thead>
 <tr class="header">
-<th>First call to [<strong>CreateFile</strong>](createfile.md)</th>
-<th>Valid second calls to [<strong>CreateFile</strong>](createfile.md)</th>
+<th>First call to [<strong>CreateFile</strong>](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master)</th>
+<th>Valid second calls to [<strong>CreateFile</strong>](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master)</th>
 </tr>
 </thead>
 <tbody>
@@ -109,15 +114,15 @@ The following table illustrates the valid combinations of two calls to [**Create
 
 
 
- 
+ 
 
-In addition to the standard file attributes, you can also specify security attributes by including a pointer to a [**SECURITY\_ATTRIBUTES**](https://msdn.microsoft.com/library/windows/desktop/aa379560) structure as the fourth parameter of [**CreateFile**](createfile.md). However, the underlying file system must support security for this to have any effect (for example, the NTFS file system supports it but the various FAT file systems do not). For more information about security attributes, see [Access Control](https://msdn.microsoft.com/library/windows/desktop/aa374860).
+In addition to the standard file attributes, you can also specify security attributes by including a pointer to a [**SECURITY\_ATTRIBUTES**](https://msdn.microsoft.com/library/windows/desktop/aa379560) structure as the fourth parameter of [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master). However, the underlying file system must support security for this to have any effect (for example, the NTFS file system supports it but the various FAT file systems do not). For more information about security attributes, see [Access Control](https://msdn.microsoft.com/library/windows/desktop/aa374860).
 
-An application creating a new file can supply an optional handle to a template file, from which [**CreateFile**](createfile.md) takes file attributes and extended attributes for creation of the new file.
+An application creating a new file can supply an optional handle to a template file, from which [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) takes file attributes and extended attributes for creation of the new file.
 
 ## CreateFile Scenarios
 
-There are several fundamental scenarios for initiating access to a file using the [**CreateFile**](createfile.md) function. These are summarized as:
+There are several fundamental scenarios for initiating access to a file using the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function. These are summarized as:
 
 -   Creating a new file when a file with that name does not already exist.
 -   Creating a new file even if a file of the same name already exists, clearing its data and starting empty.
@@ -127,23 +132,23 @@ There are several fundamental scenarios for initiating access to a file using th
 
 These scenarios are controlled by the proper use of the *dwCreationDisposition* parameter. Below is a breakdown of how these scenarios map to values for this parameter and what happens when they are used.
 
-When creating or opening a new file when a file with that name does not already exist (*dwCreationDisposition* set to either **CREATE\_NEW**, **CREATE\_ALWAYS**, or **OPEN\_ALWAYS**), the [**CreateFile**](createfile.md) function performs the following actions:
+When creating or opening a new file when a file with that name does not already exist (*dwCreationDisposition* set to either **CREATE\_NEW**, **CREATE\_ALWAYS**, or **OPEN\_ALWAYS**), the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function performs the following actions:
 
 -   Combines the file attributes and flags specified by *dwFlagsAndAttributes* with **FILE\_ATTRIBUTE\_ARCHIVE**.
 -   Sets the file length to zero.
 -   Copies the extended attributes supplied by the template file to the new file if the *hTemplateFile* parameter is specified (this overrides all **FILE\_ATTRIBUTE\_\*** flags specified earlier).
 -   Sets the inherit flag specified by the **bInheritHandle** member and the security descriptor specified by the **lpSecurityDescriptor** member of the *lpSecurityAttributes* parameter ([**SECURITY\_ATTRIBUTES**](https://msdn.microsoft.com/library/windows/desktop/aa379560) structure), if supplied.
 
-When creating a new file even if a file of the same name already exists (*dwCreationDisposition* set to **CREATE\_ALWAYS**), the [**CreateFile**](createfile.md) function performs the following actions:
+When creating a new file even if a file of the same name already exists (*dwCreationDisposition* set to **CREATE\_ALWAYS**), the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function performs the following actions:
 
 -   Checks current file attributes and security settings for write access, failing if denied.
 -   Combines the file attributes and flags specified by *dwFlagsAndAttributes* with **FILE\_ATTRIBUTE\_ARCHIVE** and the existing file attributes.
 -   Sets the file length to zero (that is, any data that was in the file is no longer available and the file is empty).
 -   Copies the extended attributes supplied by the template file to the new file if the *hTemplateFile* parameter is specified (this overrides all **FILE\_ATTRIBUTE\_\*** flags specified earlier).
 -   Sets the inherit flag specified by the **bInheritHandle** member of the *lpSecurityAttributes* parameter ([**SECURITY\_ATTRIBUTES**](https://msdn.microsoft.com/library/windows/desktop/aa379560) structure) if supplied, but ignores the **lpSecurityDescriptor** member of the **SECURITY\_ATTRIBUTES** structure.
--   If otherwise successful (that is, [**CreateFile**](createfile.md) returns a valid handle), calling [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) will yield the code **ERROR\_ALREADY\_EXISTS**, even though for this particular use-case it is not actually an error as such (if you intended to create a "new" (empty) file in place of the existing one).
+-   If otherwise successful (that is, [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) returns a valid handle), calling [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) will yield the code **ERROR\_ALREADY\_EXISTS**, even though for this particular use-case it is not actually an error as such (if you intended to create a "new" (empty) file in place of the existing one).
 
-When opening an existing file (*dwCreationDisposition* set to either **OPEN\_EXISTING**, **OPEN\_ALWAYS**, or **TRUNCATE\_EXISTING**), the [**CreateFile**](createfile.md) function performs the following actions:
+When opening an existing file (*dwCreationDisposition* set to either **OPEN\_EXISTING**, **OPEN\_ALWAYS**, or **TRUNCATE\_EXISTING**), the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function performs the following actions:
 
 -   Checks current file attributes and security settings for requested access, failing if denied.
 -   Combines the file flags (**FILE\_FLAG\_\***) specified by *dwFlagsAndAttributes* with existing file attributes, and ignores any file attributes (**FILE\_ATTRIBUTE\_\***) specified by *dwFlagsAndAttributes*.
@@ -157,24 +162,24 @@ File attributes are part of the metadata associated with a file or directory, ea
 
 Some file attributes can be set for a directory but have meaning only for files created in that directory, acting as default attributes. For example, **FILE\_ATTRIBUTE\_COMPRESSED** can be set on a directory object, but because the directory object itself contains no actual data, it is not truly compressed; however, directories marked with this attribute tell the file system to compress any new files added to that directory. Any file attribute that can be set on a directory and will also be set for new files added to that directory is referred to as an *inherited attribute*.
 
-The [**CreateFile**](createfile.md) function provides a parameter for setting certain file attributes when a file is created. In general, these attributes are the most common for an application to use at file creation time, but not all possible file attributes are available to **CreateFile**. Some file attributes require the use of other functions, such as [**SetFileAttributes**](setfileattributes.md), [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216), or [**DecryptFile**](decryptfile.md) after the file already exists. In the case of **FILE\_ATTRIBUTE\_DIRECTORY**, the [**CreateDirectory**](createdirectory.md) function is required at creation time because **CreateFile** cannot create directories. The other file attributes that require special handling are **FILE\_ATTRIBUTE\_REPARSE\_POINT** and **FILE\_ATTRIBUTE\_SPARSE\_FILE**, which require **DeviceIoControl**. For more information, see [**SetFileAttributes**](setfileattributes.md).
+The [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function provides a parameter for setting certain file attributes when a file is created. In general, these attributes are the most common for an application to use at file creation time, but not all possible file attributes are available to **CreateFile**. Some file attributes require the use of other functions, such as [**SetFileAttributes**](/windows/win32/FileAPI/nf-fileapi-setfileattributesa?branch=master), [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216), or [**DecryptFile**](/windows/win32/WinBase/nf-winbase-decryptfilea?branch=master) after the file already exists. In the case of **FILE\_ATTRIBUTE\_DIRECTORY**, the [**CreateDirectory**](/windows/win32/FileAPI/nf-fileapi-createdirectorya?branch=master) function is required at creation time because **CreateFile** cannot create directories. The other file attributes that require special handling are **FILE\_ATTRIBUTE\_REPARSE\_POINT** and **FILE\_ATTRIBUTE\_SPARSE\_FILE**, which require **DeviceIoControl**. For more information, see [**SetFileAttributes**](/windows/win32/FileAPI/nf-fileapi-setfileattributesa?branch=master).
 
-As stated previously, file attribute inheritance occurs when a file is created with file attributes read from the directory attributes where the file will be located. The following table summarizes these inherited attributes and how they relate to [**CreateFile**](createfile.md) capabilities.
+As stated previously, file attribute inheritance occurs when a file is created with file attributes read from the directory attributes where the file will be located. The following table summarizes these inherited attributes and how they relate to [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) capabilities.
 
 
 
-| Directory attribute state                                      | [**CreateFile**](createfile.md) inheritance override capability for new files      |
+| Directory attribute state                                      | [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) inheritance override capability for new files      |
 |----------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | **FILE\_ATTRIBUTE\_COMPRESSED** set.<br/>                | No control. Use [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216) to clear.<br/>    |
 | **FILE\_ATTRIBUTE\_COMPRESSED** not set.<br/>            | No control. Use [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216) to set.<br/>      |
-| **FILE\_ATTRIBUTE\_ENCRYPTED** set.<br/>                 | No control. Use [**DecryptFile**](decryptfile.md).<br/>                      |
-| **FILE\_ATTRIBUTE\_ENCRYPTED** not set.<br/>             | Can be set using [**CreateFile**](createfile.md).<br/>                       |
-| **FILE\_ATTRIBUTE\_NOT\_CONTENT\_INDEXED** set.<br/>     | No control. Use [**SetFileAttributes**](setfileattributes.md) to clear.<br/> |
-| **FILE\_ATTRIBUTE\_NOT\_CONTENT\_INDEXED** not set.<br/> | No control. Use [**SetFileAttributes**](setfileattributes.md) to set.<br/>   |
+| **FILE\_ATTRIBUTE\_ENCRYPTED** set.<br/>                 | No control. Use [**DecryptFile**](/windows/win32/WinBase/nf-winbase-decryptfilea?branch=master).<br/>                      |
+| **FILE\_ATTRIBUTE\_ENCRYPTED** not set.<br/>             | Can be set using [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master).<br/>                       |
+| **FILE\_ATTRIBUTE\_NOT\_CONTENT\_INDEXED** set.<br/>     | No control. Use [**SetFileAttributes**](/windows/win32/FileAPI/nf-fileapi-setfileattributesa?branch=master) to clear.<br/> |
+| **FILE\_ATTRIBUTE\_NOT\_CONTENT\_INDEXED** not set.<br/> | No control. Use [**SetFileAttributes**](/windows/win32/FileAPI/nf-fileapi-setfileattributesa?branch=master) to set.<br/>   |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -183,7 +188,7 @@ As stated previously, file attribute inheritance occurs when a file is created w
 [Access Control](https://msdn.microsoft.com/library/windows/desktop/aa374860)
 </dt> <dt>
 
-[**CreateFile**](createfile.md)
+[**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master)
 </dt> <dt>
 
 [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216)
@@ -210,12 +215,12 @@ As stated previously, file attribute inheritance occurs when a file is created w
 [Opening a File for Reading or Writing](opening-a-file-for-reading-or-writing.md)
 </dt> <dt>
 
-[**SetFileAttributes**](setfileattributes.md)
+[**SetFileAttributes**](/windows/win32/FileAPI/nf-fileapi-setfileattributesa?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

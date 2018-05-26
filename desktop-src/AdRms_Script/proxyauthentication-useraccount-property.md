@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves an object that can be used to set or return account credentials.'
+Description: Retrieves an object that can be used to set or return account credentials.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '7e456a3f-b7bf-4667-a9f9-33c7efcf1851'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 7e456a3f-b7bf-4667-a9f9-33c7efcf1851
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ProxyAuthentication.UserAccount property'
+title: ProxyAuthentication.UserAccount property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProxyAuthentication.UserAccount property
@@ -105,7 +108,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -117,9 +120,9 @@ END FUNCTION
 [**ProxyAuthentication**](proxyauthentication-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

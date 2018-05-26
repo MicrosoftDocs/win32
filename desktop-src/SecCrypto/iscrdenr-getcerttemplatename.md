@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the name of the certificate template.'
-ms.assetid: '26fd758a-b348-4efb-841b-c8f2ab88efea'
-title: 'ISCrdEnr::getCertTemplateName method'
+---
+Description: Retrieves the name of the certificate template.
+ms.assetid: 26fd758a-b348-4efb-841b-c8f2ab88efea
+title: ISCrdEnrgetCertTemplateName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCrdEnr::getCertTemplateName method

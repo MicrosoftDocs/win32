@@ -1,7 +1,12 @@
 ---
-Description: 'Provider Traits are a method of attaching more data to an individual provider registration.'
-ms.assetid: '97755D64-BF57-4C0D-8ED4-040FC375C4AF'
+Description: Provider Traits are a method of attaching more data to an individual provider registration.
+ms.assetid: 97755D64-BF57-4C0D-8ED4-040FC375C4AF
 title: Provider Traits
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Provider Traits
@@ -10,7 +15,7 @@ Provider Traits are a method of attaching more data to an individual provider re
 
 Traits can only be set once for a registration. Any further attempts to set the traits on that registration will fail.
 
-To set Provider Traits on a manifest-based provider, call the [**EventSetInformation**](eventsetinformation.md) function with the EventProviderSetTraits information class. The EventInformation buffer should contain a binary blob of the following format:
+To set Provider Traits on a manifest-based provider, call the [**EventSetInformation**](/windows/win32/Evntprov/nf-evntprov-eventsetinformation?branch=master) function with the EventProviderSetTraits information class. The EventInformation buffer should contain a binary blob of the following format:
 
 ``` syntax
 {
@@ -52,7 +57,7 @@ Although most of the 255 possible trait types are not yet defined, trait types 1
 
 A provider group is a GUID-defined controllable entity much like a provider itself. The key difference is that while a provider GUID is used to control registrations of just its provider, a group will control all of its member registrations. For example, enabling a provider group with a given keyword and level will enable all of the groups member registrations with that keyword and level.
 
-Group membership may be restricted by permissions. If the caller of [**EventSetInformation**](eventsetinformation.md) doesn't have permissions to join the specified group, then membership will be denied.
+Group membership may be restricted by permissions. If the caller of [**EventSetInformation**](/windows/win32/Evntprov/nf-evntprov-eventsetinformation?branch=master) doesn't have permissions to join the specified group, then membership will be denied.
 
 In some cases the trace session controller may want to exclude a few providers from its enable of a group. This can be done by setting a disallow list. A disallow list is a list of provider GUIDs that will not be enabled based on the group settings for a single logging session. Disallow lists can be changed dynamically with [**TraceSetInformation**](tracesetinformation.md) and the TraceSetDisallowList information class.
 

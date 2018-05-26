@@ -4,11 +4,16 @@ description: This topic explains the different searches that can be performed in
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4b7428c8-c246-41fc-8811-892220c4270f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 4b7428c8-c246-41fc-8811-892220c4270f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Deciding Where to Search AD", "Active Directory AD , Searching, Deciding Where to Search"]
+keywords:
+- Deciding Where to Search AD
+- Active Directory AD , Searching, Deciding Where to Search
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Deciding Where to Search

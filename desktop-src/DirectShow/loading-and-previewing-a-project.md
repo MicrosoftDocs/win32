@@ -1,7 +1,12 @@
 ---
 Description: Loading and Previewing a Project
-ms.assetid: '2385f898-e8ec-425f-8d86-eadbf96bf06d'
+ms.assetid: 2385f898-e8ec-425f-8d86-eadbf96bf06d
 title: Loading and Previewing a Project
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Loading and Previewing a Project

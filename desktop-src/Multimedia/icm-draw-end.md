@@ -1,8 +1,9 @@
 ---
 title: ICM\_DRAW\_END message
 description: The ICM\_DRAW\_END message notifies a rendering driver to decompress the current image to the screen and to release resources allocated for decompression and drawing. You can send this message explicitly or by using the ICDrawEnd macro.
-ms.assetid: '03910752-6122-4a5a-84ff-2cecf66cf439'
-keywords: ["ICM_DRAW_END message Windows Multimedia"]
+ms.assetid: 03910752-6122-4a5a-84ff-2cecf66cf439
+keywords:
+- ICM_DRAW_END message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_DRAW\_END message
 
-The **ICM\_DRAW\_END** message notifies a rendering driver to decompress the current image to the screen and to release resources allocated for decompression and drawing. You can send this message explicitly or by using the [**ICDrawEnd**](icdrawend.md) macro.
+The **ICM\_DRAW\_END** message notifies a rendering driver to decompress the current image to the screen and to release resources allocated for decompression and drawing. You can send this message explicitly or by using the [**ICDrawEnd**](/windows/win32/Vfw/nf-vfw-icdrawend?branch=master) macro.
 
 
 ```C++
@@ -40,8 +46,8 @@ The [**ICM\_DRAW\_BEGIN**](icm-draw-begin.md) and **ICM\_DRAW\_END** messages do
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -56,9 +62,9 @@ The [**ICM\_DRAW\_BEGIN**](icm-draw-begin.md) and **ICM\_DRAW\_END** messages do
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

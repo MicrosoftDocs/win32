@@ -1,8 +1,9 @@
 ---
 title: ScanRestorableFiles function
 description: Searches for files that are available to be restored.
-ms.assetid: '35dac36f-ea54-4392-994b-9d386ad9ee5a'
-keywords: ["ScanRestorableFiles function Files"]
+ms.assetid: 35dac36f-ea54-4392-994b-9d386ad9ee5a
+keywords:
+- ScanRestorableFiles function Files
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Fmapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScanRestorableFiles function
@@ -18,20 +24,20 @@ api_type:
 Searches for files that are available to be restored. The behavior of this function depends on the *Flags* parameter of the [**CreateFileRestoreContext**](createfilerestorecontext.md) function.
 
 > [!Note]  
-> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
+> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 BOOL WINAPI ScanRestorableFiles(
-  _In_  PFILE_RESTORE_CONTEXT Context,
-  _In_  PCWSTR                Path,
-  _In_  ULONG                 FileInfoSize,
-  _Out_ PRESTORABLE_FILE_INFO FileInfo,
-  _Out_ PULONG                FileInfoUsed
+  _In_  PFILE_RESTORE_CONTEXT Context,
+  _In_  PCWSTR                Path,
+  _In_  ULONG                 FileInfoSize,
+  _Out_ PRESTORABLE_FILE_INFO FileInfo,
+  _Out_ PULONG                FileInfoUsed
 );
 ```
 
@@ -110,8 +116,8 @@ If a restorable file is found, each call to **ScanRestorableFiles** returns a [*
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Fmapi.dll</dt> </dl> |
 
 
@@ -126,9 +132,9 @@ If a restorable file is found, each call to **ScanRestorableFiles** returns a [*
 [**CreateFileRestoreContext**](createfilerestorecontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

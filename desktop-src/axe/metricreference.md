@@ -1,14 +1,20 @@
 ---
 title: MetricReference element
 description: This element holds a reference to a metric related to this activity.
-ms.assetid: '68B75CD4-5BE1-4D12-B38B-BDBA403427A1'
-keywords: ["MetricReference element Access Execution Engine"]
+ms.assetid: 68B75CD4-5BE1-4D12-B38B-BDBA403427A1
+keywords:
+- MetricReference element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MetricReference
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricReference element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

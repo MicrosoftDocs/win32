@@ -4,11 +4,16 @@ description: In every failover cluster, a single resource is designated as the q
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4c2ee30e-4de2-44ba-93ba-d2d89196545e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4c2ee30e-4de2-44ba-93ba-d2d89196545e
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["quorum resource Failover Cluster", "resources Failover Cluster ,quorum"]
+keywords:
+- quorum resource Failover Cluster
+- resources Failover Cluster ,quorum
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Quorum Resource
@@ -34,10 +39,10 @@ For information on specific API elements related to quorum resources, see the fo
 -   [**Cluster.QuorumLogSize**](cluster-quorumlogsize.md)
 -   [**Cluster.QuorumPath**](cluster-quorumpath.md)
 -   [**Cluster.QuorumResource**](cluster-quorumresource.md)
--   [**GetClusterNodeState**](getclusternodestate.md)
--   [**GetClusterQuorumResource**](getclusterquorumresource.md)
--   [**QuorumResourceLost**](quorumresourcelost.md)
--   [**SetClusterQuorumResource**](setclusterquorumresource.md)
+-   [**GetClusterNodeState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_node_state?branch=master)
+-   [**GetClusterQuorumResource**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_quorum_resource?branch=master)
+-   [**QuorumResourceLost**](/windows/previous-versions/ResApi/nc-resapi-pquorum_resource_lost?branch=master)
+-   [**SetClusterQuorumResource**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_set_cluster_quorum_resource?branch=master)
 
  
 

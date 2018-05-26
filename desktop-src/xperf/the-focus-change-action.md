@@ -1,7 +1,12 @@
 ---
 title: The Focus Change Action
 description: The Focus Change Action
-ms.assetid: '98a6b17d-049e-4f51-8cf4-5ce1f1202f01'
+ms.assetid: 98a6b17d-049e-4f51-8cf4-5ce1f1202f01
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Focus Change Action
@@ -23,11 +28,11 @@ The focus change action produces a text report that summarizes the various focus
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

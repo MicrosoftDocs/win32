@@ -1,7 +1,12 @@
 ---
 title: NNTPSvcInstance
 description: NNTPSvcInstance
-ms.assetid: 'b61c1172-3642-4654-9b3c-514c3d21fa05'
+ms.assetid: b61c1172-3642-4654-9b3c-514c3d21fa05
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NNTPSvcInstance

@@ -1,14 +1,20 @@
 ---
 title: WM/Year
 description: The WM/Year attribute contains the year the content was published.
-ms.assetid: '02a4a2da-737c-4ac2-992c-4da9fc7ba26c'
-keywords: ["WM/Year windows Media Format"]
+ms.assetid: 02a4a2da-737c-4ac2-992c-4da9fc7ba26c
+keywords:
+- WM/Year windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/Year
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Year

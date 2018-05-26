@@ -1,7 +1,12 @@
 ---
-Description: 'Categories help you organize events so Event Viewer can filter them. Each event source can define its own numbered categories and the text strings to which they are mapped.'
-ms.assetid: 'ddba8066-b6b9-42a6-b49f-cbae8f97ef6d'
+Description: Categories help you organize events so Event Viewer can filter them. Each event source can define its own numbered categories and the text strings to which they are mapped.
+ms.assetid: ddba8066-b6b9-42a6-b49f-cbae8f97ef6d
 title: Event Categories
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Categories

@@ -1,7 +1,12 @@
 ---
-Description: 'This section presents general information about TCP/IP function details for multicast, raw sockets, and IPv6 support.MulticastTCP/IP Raw SocketsIPv6 SupportText Representation of IPv6 Addresses'
-ms.assetid: '977c7a75-4054-4bbf-bc34-686be68af9fc'
-title: 'Winsock TCP/IP Function Details'
+Description: This section presents general information about TCP/IP function details for multicast, raw sockets, and IPv6 support.MulticastTCP/IP Raw SocketsIPv6 SupportText Representation of IPv6 Addresses
+ms.assetid: 977c7a75-4054-4bbf-bc34-686be68af9fc
+title: Winsock TCP/IP Function Details
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Winsock TCP/IP Function Details

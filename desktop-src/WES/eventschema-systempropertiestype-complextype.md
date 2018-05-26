@@ -1,14 +1,20 @@
 ---
 title: SystemPropertiesType Complex Type
 description: Defines the information that identifies the provider and how it was enabled, the event, the channel to which the event was written, and system information such as the process and thread IDs.
-ms.assetid: 'f86f7940-86cf-49ba-8f09-bf6f473d60fd'
-keywords: ["SystemPropertiesType complex type EventLog"]
+ms.assetid: f86f7940-86cf-49ba-8f09-bf6f473d60fd
+keywords:
+- SystemPropertiesType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - SystemPropertiesType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemPropertiesType Complex Type
@@ -234,11 +240,11 @@ By default, the event contains the fully qualified domain name (FQDN) of a compu
 
 ```
 HKEY_LOCAL_MACHINE
-   SOFTWARE
-      Microsoft
-         Windows
-            CurrentVersion
-               WINEVT
+   SOFTWARE
+      Microsoft
+         Windows
+            CurrentVersion
+               WINEVT
 ```
 
 ## Requirements
@@ -247,14 +253,14 @@ HKEY_LOCAL_MACHINE
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

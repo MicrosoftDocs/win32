@@ -1,8 +1,14 @@
 ---
 title: WS\_XML\_BUFFER
 description: The opaque type used for a reference to an xml buffer.
-ms.assetid: '75f1df70-4dc9-4365-9005-5eaca6688f16'
-keywords: ["WS_XML_BUFFER"]
+ms.assetid: 75f1df70-4dc9-4365-9005-5eaca6688f16
+keywords:
+- WS_XML_BUFFER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WS\_XML\_BUFFER
@@ -26,8 +32,8 @@ This object is not thread safe. For more information, see [thread safety](thread
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>WebServices.h</dt> </dl> |
 
 
@@ -42,9 +48,9 @@ This object is not thread safe. For more information, see [thread safety](thread
 [Thread Safety](thread-safety.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

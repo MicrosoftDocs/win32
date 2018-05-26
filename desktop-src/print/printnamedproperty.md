@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'F7692594-DE13-4242-926C-F2706FF95E77'
+---
+Description: .
+ms.assetid: F7692594-DE13-4242-926C-F2706FF95E77
 title: PrintNamedProperty structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrintNamedProperty structure

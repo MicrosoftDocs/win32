@@ -1,7 +1,12 @@
 ---
 title: BypassNegotiation
 description: The BypassNegotiation registry key determines if capabilities negotiation between the server and client occurs or if pre-configured settings are used.
-ms.assetid: '51e21e9c-d6cb-454b-9584-3f48d76a649a'
+ms.assetid: 51e21e9c-d6cb-454b-9584-3f48d76a649a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BypassNegotiation

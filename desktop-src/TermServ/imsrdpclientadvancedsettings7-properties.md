@@ -4,10 +4,13 @@ description: The IMsRdpClientAdvancedSettings7 interface exposes the following p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5F4F7148-FCD0-4FBF-A67A-56B43CB4DE12'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 5F4F7148-FCD0-4FBF-A67A-56B43CB4DE12
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings7 Properties

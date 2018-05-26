@@ -1,7 +1,12 @@
 ---
 title: Initializing the COM Library
 description: Initializing the COM Library
-ms.assetid: 'b044e146-8409-4f8d-87d3-52f21ebc2255'
+ms.assetid: b044e146-8409-4f8d-87d3-52f21ebc2255
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Initializing the COM Library

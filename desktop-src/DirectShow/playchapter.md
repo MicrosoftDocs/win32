@@ -1,7 +1,12 @@
 ---
-Description: 'The PlayChapter event is sent when the PlayChapter command has been enabled or disabled.'
-ms.assetid: 'b624aa7e-ff88-417c-8536-4ac38e8ae1ca'
+Description: The PlayChapter event is sent when the PlayChapter command has been enabled or disabled.
+ms.assetid: b624aa7e-ff88-417c-8536-4ac38e8ae1ca
 title: PlayChapter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayChapter

@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.getNextCheckedItem
 description: The getNextCheckedItem method retrieves the index of the next checked item in the playlist following the specified index.
-ms.assetid: '474a497d-5efe-4c95-8eb5-2ba71bd29057'
-keywords: ["PLAYLIST.getNextCheckedItem Windows Media Player"]
+ms.assetid: 474a497d-5efe-4c95-8eb5-2ba71bd29057
+keywords:
+- PLAYLIST.getNextCheckedItem Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.getNextCheckedItem
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.getNextCheckedItem
@@ -36,7 +42,7 @@ This method returns a **Number** (**long**).
 
 ## Remarks
 
-When there are no further checked items, this method returns –1.
+When there are no further checked items, this method returns  1.
 
 This method has been replaced by **getNextCheckedItem2**, which supports nested playlists.
 
@@ -60,9 +66,9 @@ This method has been replaced by **getNextCheckedItem2**, which supports nested 
 [**PLAYLIST.getNextCheckedItem2**](playlist-getnextcheckeditem2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

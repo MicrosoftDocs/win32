@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyFile2 GetFileRanges method
 description: Retrieves the ranges that you want to download from the remote file.
-ms.assetid: '19B7B4FC-371F-482B-B997-C240B5483F4D'
-keywords: ["GetFileRanges method", "GetFileRanges method, IBackgroundCopyFile2 interface", "IBackgroundCopyFile2 interface, GetFileRanges method"]
+ms.assetid: 19B7B4FC-371F-482B-B997-C240B5483F4D
+keywords:
+- GetFileRanges method
+- GetFileRanges method, IBackgroundCopyFile2 interface
+- IBackgroundCopyFile2 interface, GetFileRanges method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyFile2::GetFileRanges method
@@ -22,8 +30,8 @@ Retrieves the ranges that you want to download from the remote file.
 
 ```C++
 HRESULT GetFileRanges(
-  [in, out] DWORD         *RangeCount,
-  [out]     BG_FILE_RANGE **Ranges
+  [in, out] DWORD         *RangeCount,
+  [out]     BG_FILE_RANGE **Ranges
 );
 ```
 
@@ -60,7 +68,7 @@ This method returns the following return values, as well as others.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,7 +76,7 @@ This method returns the following return values, as well as others.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -88,9 +96,9 @@ This method returns the following return values, as well as others.
 [**IBackgroundCopyFile2**](ibackgroundcopyfile2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: IAgentCommand SetEnabled
 description: IAgentCommand SetEnabled
-ms.assetid: 'e0a724b4-3613-400f-a801-efc8bf66e355'
+ms.assetid: e0a724b4-3613-400f-a801-efc8bf66e355
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCommand::SetEnabled

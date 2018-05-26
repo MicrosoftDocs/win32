@@ -2,13 +2,19 @@
 title: proxy attribute
 description: The \ proxy\ attribute prevents Automation from registering as a proxy/stub handler for a dual interface.
 ms.assetid: 88e59938-83c9-436a-931c-f4396fdcf653
-keywords: ["proxy attribute MIDL"]
+keywords:
+- proxy attribute MIDL
 topic_type:
 - apiref
 api_name:
 - proxy
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # proxy attribute

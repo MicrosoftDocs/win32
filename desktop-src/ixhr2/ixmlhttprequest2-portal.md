@@ -1,7 +1,12 @@
 ---
 title: XML HTTP Extended Request
 description: .
-ms.assetid: 'c9ff775f-f551-4845-b860-21904b9ab59c'
+ms.assetid: c9ff775f-f551-4845-b860-21904b9ab59c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XML HTTP Extended Request
@@ -22,26 +27,26 @@ The XML HTTP Extended Request interfaces allow an application to conduct HTTP re
 
 
 
- 
+ 
 
 ## Developer audience
 
-The XML HTTP Extended Request interfaces are designed for use in Windows Store apps or desktop apps written in C++. The [**IXMLHTTPRequest3**](ixmlhttprequest3.md) and [**IXMLHTTPRequest3Callback**](ixmlhttprequest3callback.md) interfaces supported on Windows 8.1, Windows Phone 8.1, and Windows Server 2012 R2 and later extend the features of the [**IXMLHTTPRequest2**](ixmlhttprequest2.md) and [**IXMLHTTPRequest2Callback**](ixmlhttprequest2callback.md) interfaces supported on Windows 8, Windows Phone 8.1, and Windows Server 2012.
+The XML HTTP Extended Request interfaces are designed for use in Windows Store apps or desktop apps written in C++. The [**IXMLHTTPRequest3**](/windows/previous-versions/msxml6/nn-msxml6-ixmlhttprequest3?branch=master) and [**IXMLHTTPRequest3Callback**](/windows/previous-versions/msxml6/nn-msxml6-ixmlhttprequest3callback?branch=master) interfaces supported on Windows 8.1, Windows Phone 8.1, and Windows Server 2012 R2 and later extend the features of the [**IXMLHTTPRequest2**](/windows/previous-versions/msxml6/nn-msxml6-ixmlhttprequest2?branch=master) and [**IXMLHTTPRequest2Callback**](/windows/previous-versions/msxml6/nn-msxml6-ixmlhttprequest2callback?branch=master) interfaces supported on Windows 8, Windows Phone 8.1, and Windows Server 2012.
 
 ## Related topics
 
 <dl> <dt>
 
-[**IXMLHTTPRequest2**](ixmlhttprequest2.md)
+[**IXMLHTTPRequest2**](/windows/previous-versions/msxml6/nn-msxml6-ixmlhttprequest2?branch=master)
 </dt> <dt>
 
-[**IXMLHTTPRequest2Callback**](ixmlhttprequest2callback.md)
+[**IXMLHTTPRequest2Callback**](/windows/previous-versions/msxml6/nn-msxml6-ixmlhttprequest2callback?branch=master)
 </dt> <dt>
 
-[**IXMLHTTPRequest3**](ixmlhttprequest3.md)
+[**IXMLHTTPRequest3**](/windows/previous-versions/msxml6/nn-msxml6-ixmlhttprequest3?branch=master)
 </dt> <dt>
 
-[**IXMLHTTPRequest3Callback**](ixmlhttprequest3callback.md)
+[**IXMLHTTPRequest3Callback**](/windows/previous-versions/msxml6/nn-msxml6-ixmlhttprequest3callback?branch=master)
 </dt> <dt>
 
 [Quickstart: Connecting using XML HTTP Request (IXHR2)](https://msdn.microsoft.com/library/windows/apps/xaml/hh770550)
@@ -50,9 +55,9 @@ The XML HTTP Extended Request interfaces are designed for use in Windows Store a
 [**Windows.Web.Http**](https://msdn.microsoft.com/library/windows/apps/dn279692)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

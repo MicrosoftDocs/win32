@@ -1,14 +1,19 @@
 ---
-Description: 'Attachment snap-in extensions must implement the ISceSvcAttachmentPersistInfo interface.'
-ms.assetid: 'fadd2e06-d27c-4938-ad0e-ae7beab25931'
+Description: Attachment snap-in extensions must implement the ISceSvcAttachmentPersistInfo interface.
+ms.assetid: fadd2e06-d27c-4938-ad0e-ae7beab25931
 title: Implementing ISceSvcAttachmentPersistInfo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing ISceSvcAttachmentPersistInfo
 
-Attachment snap-in extensions must implement the [**ISceSvcAttachmentPersistInfo**](iscesvcattachmentpersistinfo.md) interface. The Security Configuration snap-ins query this interface periodically, such as when saving the configuration or closing the snap-in. This allows the snap-in extension to save any modifications that the user may have made to the inspection database or to the associated configuration.
+Attachment snap-in extensions must implement the [**ISceSvcAttachmentPersistInfo**](/windows/win32/Scesvc/nn-scesvc-iscesvcattachmentpersistinfo?branch=master) interface. The Security Configuration snap-ins query this interface periodically, such as when saving the configuration or closing the snap-in. This allows the snap-in extension to save any modifications that the user may have made to the inspection database or to the associated configuration.
 
-The following example shows one way to implement [**ISceSvcAttachmentPersistInfo**](iscesvcattachmentpersistinfo.md).
+The following example shows one way to implement [**ISceSvcAttachmentPersistInfo**](/windows/win32/Scesvc/nn-scesvc-iscesvcattachmentpersistinfo?branch=master).
 
 
 ```C++

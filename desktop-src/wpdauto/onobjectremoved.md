@@ -1,14 +1,22 @@
 ---
 title: Service.onObjectRemoved event
 description: The onObjectRemoved event occurs after an object has been removed from this Service object.
-ms.assetid: '1d82d1a8-3137-42a5-aa0d-37fe9659ec5b'
-keywords: ["onObjectRemoved event WPD Automation", "onObjectRemoved event WPD Automation , Service object", "Service object WPD Automation , onObjectRemoved event"]
+ms.assetid: 1d82d1a8-3137-42a5-aa0d-37fe9659ec5b
+keywords:
+- onObjectRemoved event WPD Automation
+- onObjectRemoved event WPD Automation , Service object
+- Service object WPD Automation , onObjectRemoved event
 topic_type:
 - apiref
 api_name:
 - Service.onObjectRemoved
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.onObjectRemoved event
@@ -74,8 +82,8 @@ Service.onObjectRemoved = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -89,9 +97,9 @@ Service.onObjectRemoved = HandlerFunction;
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

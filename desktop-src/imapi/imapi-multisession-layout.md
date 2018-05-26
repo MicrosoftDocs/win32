@@ -1,7 +1,12 @@
 ---
 title: IMAPI Multisession Layout
 description: IMAPI provides application developers with the ability to create ISO 9660 and UDF file system images and burn them onto CD, DVD and Blu-Ray \ 8482; optical media.
-ms.assetid: '691fdc3a-e762-4d6d-9980-e2d9227100a5'
+ms.assetid: 691fdc3a-e762-4d6d-9980-e2d9227100a5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAPI Multisession Layout
@@ -67,7 +72,7 @@ When adding a new logical session to a rewritable disc, IMAPI first determines t
 [Creating a Multisession Disc](creating-a-multisession-disc.md)
 </dt> <dt>
 
-[**IMultisessionRandomWrite**](imultisessionrandomwrite.md)
+[**IMultisessionRandomWrite**](/windows/win32/imapi2/nn-imapi2-imultisessionrandomwrite?branch=master)
 </dt> </dl>
 
  

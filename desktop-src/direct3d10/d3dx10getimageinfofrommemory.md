@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get information about an image already loaded into memory.'
-ms.assetid: '6750116a-ad4f-4102-aba9-6ef32c367be4'
+---
+Description: Get information about an image already loaded into memory.
+ms.assetid: 6750116a-ad4f-4102-aba9-6ef32c367be4
 title: D3DX10GetImageInfoFromMemory function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10GetImageInfoFromMemory function

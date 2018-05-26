@@ -1,7 +1,7 @@
 ---
 title: BITS\_COST\_STATE
 description: The BITS\_COST\_STATE enumeration defines the constant values that specify the BITS cost state.
-ms.assetid: 'A8C36D4E-98B3-45C4-9ECD-9B5280133176'
+ms.assetid: A8C36D4E-98B3-45C4-9ECD-9B5280133176
 topic_type:
 - apiref
 api_name:
@@ -23,6 +23,11 @@ api_location:
 - Bits5_0.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITS\_COST\_STATE
@@ -167,16 +172,16 @@ Reserved.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Bits5\_0.h (include Bits.h)</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>Bits5\_0.idl</dt> </dl>                |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

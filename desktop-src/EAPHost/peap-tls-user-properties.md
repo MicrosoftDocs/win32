@@ -1,7 +1,12 @@
 ---
 title: PEAP-TLS User Properties
 description: Is an instance of the eaptlsuserpropertiesv1 legacy schema.
-ms.assetid: 'f0fb00fa-4cf8-4490-ac59-a8252ddcb5ee'
+ms.assetid: f0fb00fa-4cf8-4490-ac59-a8252ddcb5ee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PEAP-TLS User Properties

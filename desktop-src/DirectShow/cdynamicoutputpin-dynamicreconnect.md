@@ -1,7 +1,12 @@
 ---
-Description: 'The DynamicReconnect method performs a dynamic reconnection with a new media type. The reconnection can occur while the filter graph is running.'
-ms.assetid: '1fe9f1cc-1f5d-407e-8c80-fea6cd1cb16f'
-title: 'CDynamicOutputPin.DynamicReconnect method'
+Description: The DynamicReconnect method performs a dynamic reconnection with a new media type. The reconnection can occur while the filter graph is running.
+ms.assetid: 1fe9f1cc-1f5d-407e-8c80-fea6cd1cb16f
+title: CDynamicOutputPin.DynamicReconnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.DynamicReconnect method
@@ -13,7 +18,7 @@ The `DynamicReconnect` method performs a dynamic reconnection with a new media t
 
 ```C++
 HRESULT DynamicReconnect(
-   const CMediaType *pmt
+   const CMediaType *pmt
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT DynamicReconnect(
 *pmt* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure that specifies the media type.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure that specifies the media type.
 
 </dd> </dl>
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,9 +74,9 @@ Call [**CDynamicOutputPin::StartUsingOutputPin**](cdynamicoutputpin-startusingou
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the raw Machine Check Architecture (MCA) logs. This class is available only in 64-bit Windows systems.'
-ms.assetid: 'd465ba8d-14b2-4911-ae19-19ebeb32126e'
-title: 'MSMCAInfo\_RawMCAData class'
+Description: Specifies the raw Machine Check Architecture (MCA) logs. This class is available only in 64-bit Windows systems.
+ms.assetid: d465ba8d-14b2-4911-ae19-19ebeb32126e
+title: MSMCAInfo\_RawMCAData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAInfo\_RawMCAData class
@@ -15,9 +20,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSMCAInfo_RawMCAData : MSMCAInfo
 {
-  boolean         Active;
-  uint32          Count;
-  string          InstanceName;
+  boolean         Active;
+  uint32          Count;
+  string          InstanceName;
   MSMCAInfo_Entry Records[];
 };
 ```
@@ -99,8 +104,8 @@ The **MSMCAInfo\_RawMCAData** class is derived from [**MSMCAInfo**](msmcainfo.md
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -117,9 +122,9 @@ The **MSMCAInfo\_RawMCAData** class is derived from [**MSMCAInfo**](msmcainfo.md
 [**MSMCAInfo**](msmcainfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

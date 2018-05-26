@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts a height map into a normal map. The (x,y,z) components of each normal are mapped to the (r,g,b) channels of the output texture.'
-ms.assetid: '535033dd-f078-4d56-8e5d-cdda80ef5992'
+---
+Description: Converts a height map into a normal map. The (x,y,z) components of each normal are mapped to the (r,g,b) channels of the output texture.
+ms.assetid: 535033dd-f078-4d56-8e5d-cdda80ef5992
 title: D3DX10ComputeNormalMap function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10ComputeNormalMap function
@@ -30,7 +35,7 @@ HRESULT D3DX10ComputeNormalMap(
 *pSrcTexture* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Texture2D**](id3d10texture2d.md)\***
+Type: **[**ID3D10Texture2D**](/windows/win32/D3D10/nn-d3d10-id3d10texture2d?branch=master)\***
 
 Pointer to an ID3D10Texture2D interface, representing the source height-map texture.
 
@@ -66,7 +71,7 @@ Constant value multiplier that increases (or decreases) the values in the normal
 *pDestTexture* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Texture2D**](id3d10texture2d.md)\***
+Type: **[**ID3D10Texture2D**](/windows/win32/D3D10/nn-d3d10-id3d10texture2d?branch=master)\***
 
 Pointer to an ID3D10Texture2D interface, representing the destination texture.
 

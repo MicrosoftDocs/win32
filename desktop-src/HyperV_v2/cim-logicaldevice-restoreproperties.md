@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the Device re-establish its configuration, setup and/or state information from a backing store.'
-ms.assetid: '5a70f048-b335-4617-ae49-a99e728fa2e8'
-title: 'RestoreProperties method of the CIM\_LogicalDevice class'
+Description: Requests that the Device re-establish its configuration, setup and/or state information from a backing store.
+ms.assetid: 5a70f048-b335-4617-ae49-a99e728fa2e8
+title: RestoreProperties method of the CIM\_LogicalDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RestoreProperties method of the CIM\_LogicalDevice class
@@ -27,8 +32,8 @@ This method has no parameters.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -42,9 +47,9 @@ This method has no parameters.
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

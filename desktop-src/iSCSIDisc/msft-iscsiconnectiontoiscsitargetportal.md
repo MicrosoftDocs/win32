@@ -1,7 +1,12 @@
 ---
-Description: 'Association between iSCSIConnection and iSCSITargetPortal.'
-ms.assetid: '53A00446-AE06-4567-91B5-FA6FC768C6FA'
-title: 'MSFT\_iSCSIConnectionToiSCSITargetPortal class'
+Description: Association between iSCSIConnection and iSCSITargetPortal.
+ms.assetid: 53A00446-AE06-4567-91B5-FA6FC768C6FA
+title: MSFT\_iSCSIConnectionToiSCSITargetPortal class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_iSCSIConnectionToiSCSITargetPortal class
@@ -15,7 +20,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 ``` syntax
 class MSFT_iSCSIConnectionToiSCSITargetPortal
 {
-  MSFT_iSCSIConnection   REF iSCSIConnection;
+  MSFT_iSCSIConnection   REF iSCSIConnection;
   MSFT_iSCSITargetPortal REF iSCSITargetPortal;
 };
 ```
@@ -66,8 +71,8 @@ Qualifiers: **Key**
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Iscsiwmiv2.mof</dt> </dl> |
 
@@ -83,9 +88,9 @@ Qualifiers: **Key**
 [**MSFT\_iSCSITargetPortal**](msft-iscsitargetportal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

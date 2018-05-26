@@ -1,7 +1,12 @@
 ---
 title: Restrict these programs from being launched from Help
 description: Restrict these programs from being launched from Help
-ms.assetid: 'F419BE73-403C-4f14-BB8C-17D1DE4085E4'
+ms.assetid: F419BE73-403C-4f14-BB8C-17D1DE4085E4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Restrict these programs from being launched from Help

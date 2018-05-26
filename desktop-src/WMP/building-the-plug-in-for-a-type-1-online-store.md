@@ -1,13 +1,39 @@
 ---
 title: Building the Plug-in for a Type 1 Online Store
 description: Building the Plug-in for a Type 1 Online Store
-ms.assetid: '5d38a41f-9859-452b-953f-3449c2b0ce06'
-keywords: ["Windows Media Player online stores,plug-ins", "online stores,plug-ins", "type 1 online stores,plug-ins", "Windows Media Player online stores,building plug-ins", "online stores,building plug-ins", "type 1 online stores,building plug-ins", "Windows Media Player online stores,IWMPContentPartner interface", "online stores,IWMPContentPartner interface", "type 1 online stores,IWMPContentPartner interface", "plug-ins,Windows Media Player online stores", "plug-ins,online stores", "plug-ins,type 1 online stores", "plug-ins,IWMPContentPartner interface", "plug-ins,building", "Windows Media Player plug-ins,type 1 online stores", "Windows Media Player plug-ins,online stores", "Windows Media Player plug-ins,Windows Media Player online stores", "Windows Media Player plug-ins,IWMPContentPartner interface", "Windows Media Player plug-ins,building", "IWMPContentPartner", "building plug-ins,type 1 online stores"]
+ms.assetid: 5d38a41f-9859-452b-953f-3449c2b0ce06
+keywords:
+- Windows Media Player online stores,plug-ins
+- online stores,plug-ins
+- type 1 online stores,plug-ins
+- Windows Media Player online stores,building plug-ins
+- online stores,building plug-ins
+- type 1 online stores,building plug-ins
+- Windows Media Player online stores,IWMPContentPartner interface
+- online stores,IWMPContentPartner interface
+- type 1 online stores,IWMPContentPartner interface
+- plug-ins,Windows Media Player online stores
+- plug-ins,online stores
+- plug-ins,type 1 online stores
+- plug-ins,IWMPContentPartner interface
+- plug-ins,building
+- Windows Media Player plug-ins,type 1 online stores
+- Windows Media Player plug-ins,online stores
+- Windows Media Player plug-ins,Windows Media Player online stores
+- Windows Media Player plug-ins,IWMPContentPartner interface
+- Windows Media Player plug-ins,building
+- IWMPContentPartner
+- building plug-ins,type 1 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building the Plug-in for a Type 1 Online Store
 
-A type 1 online store must provide a plug-in that implements the [**IWMPContentPartner**](iwmpcontentpartner.md) interface. The plug-in runs in a separate process from Windows Media Player.
+A type 1 online store must provide a plug-in that implements the [**IWMPContentPartner**](/windows/win32/contentpartner/nn-contentpartner-iwmpcontentpartner?branch=master) interface. The plug-in runs in a separate process from Windows Media Player.
 
 The steps for creating a plug-in that runs out-of-process are as follows:
 

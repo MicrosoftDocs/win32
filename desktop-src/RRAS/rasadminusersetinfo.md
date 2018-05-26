@@ -1,8 +1,9 @@
 ---
 title: RasAdminUserSetInfo function
 description: The RasAdminUserSetInfo function sets the RAS permissions and call-back phone number for a specified user.
-ms.assetid: '5b049dfd-ecc8-47e4-82cc-71a875752714'
-keywords: ["RasAdminUserSetInfo function RAS"]
+ms.assetid: 5b049dfd-ecc8-47e4-82cc-71a875752714
+keywords:
+- RasAdminUserSetInfo function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RasAdminUserSetInfo function
 
-\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminUserSetInfo**](mpradminusersetinfo.md) function.\]
+\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminUserSetInfo**](/windows/win32/Mprapi/nf-mprapi-mpradminusersetinfo?branch=master) function.\]
 
 The **RasAdminUserSetInfo** function sets the RAS permissions and call-back phone number for a specified user.
 
@@ -24,9 +30,9 @@ The **RasAdminUserSetInfo** function sets the RAS permissions and call-back phon
 
 ```C++
 DWORD RasAdminUserSetInfo(
-  _In_ const WCHAR       *lpszUserAccountServer,
-  _In_ const WCHAR       *lpszUser,
-  _In_ const PRAS_USER_0 pRasUser0
+  _In_ const WCHAR       *lpszUserAccountServer,
+  _In_ const WCHAR       *lpszUser,
+  _In_ const PRAS_USER_0 pRasUser0
 );
 ```
 
@@ -73,7 +79,7 @@ If the function fails, the return value can be one of the following error codes.
 
 
 
- 
+ 
 
 There is no extended error information for this function; do not call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
 
@@ -87,8 +93,8 @@ When setting the RAS permissions for a user, the **bfPrivilege** member of the [
 
 |                                  |                                                                                        |
 |----------------------------------|----------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
-| End of server support<br/> | Windows 2000 Server<br/>                                                         |
+| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
+| End of server support<br/> | Windows 2000 Server<br/>                                                         |
 | Header<br/>                | <dl> <dt>Rassapi.h</dt> </dl>   |
 | Library<br/>               | <dl> <dt>Rassapi.lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
@@ -114,9 +120,9 @@ When setting the RAS permissions for a user, the **bfPrivilege** member of the [
 [**RasAdminUserGetInfo**](rasadminusergetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

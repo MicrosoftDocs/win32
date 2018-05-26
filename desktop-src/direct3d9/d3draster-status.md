@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the raster status.'
-ms.assetid: 'f7b5b714-8fc8-47b8-adec-1089b8d07081'
-title: 'D3DRASTER\_STATUS structure'
+---
+Description: Describes the raster status.
+ms.assetid: f7b5b714-8fc8-47b8-adec-1089b8d07081
+title: D3DRASTER\_STATUS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DRASTER\_STATUS structure
@@ -65,7 +70,7 @@ If InVBlank is **TRUE**, then this value is set to zero and can be ignored.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetRasterStatus**](idirect3ddevice9--getrasterstatus.md)
+[**GetRasterStatus**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getrasterstatus?branch=master)
 </dt> </dl>
 
  

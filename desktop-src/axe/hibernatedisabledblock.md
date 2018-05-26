@@ -1,14 +1,20 @@
 ---
 title: HibernateDisabledBlock element
 description: If present then the operating system must be configured to allow the system to go into hibernation.
-ms.assetid: 'DE850E4D-4BF6-4A56-92CB-CDA1F174A430'
-keywords: ["HibernateDisabledBlock element Access Execution Engine"]
+ms.assetid: DE850E4D-4BF6-4A56-92CB-CDA1F174A430
+keywords:
+- HibernateDisabledBlock element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - HibernateDisabledBlock
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HibernateDisabledBlock element
@@ -49,9 +55,9 @@ There are no child elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

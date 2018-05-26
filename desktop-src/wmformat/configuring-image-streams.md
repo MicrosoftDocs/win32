@@ -1,8 +1,16 @@
 ---
 title: Configuring Image Streams
 description: Configuring Image Streams
-ms.assetid: '29325834-8766-47f4-8b33-b5fcbcc494c1'
-keywords: ["streams,configuring image streams", "codecs,configuring image streams", "image streams,configuring"]
+ms.assetid: 29325834-8766-47f4-8b33-b5fcbcc494c1
+keywords:
+- streams,configuring image streams
+- codecs,configuring image streams
+- image streams,configuring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Image Streams

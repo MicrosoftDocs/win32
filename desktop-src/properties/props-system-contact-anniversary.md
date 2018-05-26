@@ -1,7 +1,12 @@
 ---
-Description: 'Anniversary of the contact.'
-ms.assetid: 'ec3c1c27-58c9-4ead-a362-7e3ddef203ea'
-title: 'System.Contact.Anniversary'
+Description: Anniversary of the contact.
+ms.assetid: ec3c1c27-58c9-4ead-a362-7e3ddef203ea
+title: System.Contact.Anniversary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.Anniversary

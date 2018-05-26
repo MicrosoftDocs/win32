@@ -1,12 +1,17 @@
 ---
-Description: 'When you create a securable object, you can assign a security descriptor to the new object.'
-ms.assetid: '5b276d27-31a4-4a83-83b0-c4044a427097'
+Description: When you create a securable object, you can assign a security descriptor to the new object.
+ms.assetid: 5b276d27-31a4-4a83-83b0-c4044a427097
 title: Security Descriptors for New Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Descriptors for New Objects
 
-When you create a securable object, you can assign a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) to the new object. The functions for creating securable objects, such as [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) or [**RegCreateKeyEx**](https://msdn.microsoft.com/library/windows/desktop/ms724844), have a parameter that points to the [**SECURITY\_ATTRIBUTES**](security-attributes.md) structure that can contain a pointer to the new object's security descriptor. For sample code that builds a security descriptor and then calls **RegCreateKeyEx** to assign the security descriptor to a new registry key, see [Creating a Security Descriptor for a New Object in C++](creating-a-security-descriptor-for-a-new-object-in-c--.md).
+When you create a securable object, you can assign a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) to the new object. The functions for creating securable objects, such as [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) or [**RegCreateKeyEx**](https://msdn.microsoft.com/library/windows/desktop/ms724844), have a parameter that points to the [**SECURITY\_ATTRIBUTES**](/windows/win32/Winbase/?branch=master) structure that can contain a pointer to the new object's security descriptor. For sample code that builds a security descriptor and then calls **RegCreateKeyEx** to assign the security descriptor to a new registry key, see [Creating a Security Descriptor for a New Object in C++](creating-a-security-descriptor-for-a-new-object-in-c--.md).
 
 The system component or server that manages the object can store the specified or default security descriptor to make it a persistent attribute of the object. If an object's creator does not specify a security descriptor, the system uses inherited or default security information to create a security descriptor. You can use functions to change the information in an object's security descriptor.
 

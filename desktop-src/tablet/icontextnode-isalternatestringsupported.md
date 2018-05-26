@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether the specified recognized string came from the system dictionary, user dictionary, or word list.'
-ms.assetid: '1504e633-5917-4ac6-b043-95d4bc75b020'
-title: 'IContextNode::IsAlternateStringSupported method'
+Description: Indicates whether the specified recognized string came from the system dictionary, user dictionary, or word list.
+ms.assetid: 1504e633-5917-4ac6-b043-95d4bc75b020
+title: IContextNodeIsAlternateStringSupported method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::IsAlternateStringSupported method
@@ -13,8 +18,8 @@ Indicates whether the specified recognized string came from the system dictionar
 
 ```C++
 HRESULT IsAlternateStringSupported(
-  [in]  BSTR         bstrAlternateString,
-  [out] VARIANT_BOOL *pfIsSupported
+  [in]  BSTR         bstrAlternateString,
+  [out] VARIANT_BOOL *pfIsSupported
 );
 ```
 
@@ -50,7 +55,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -64,9 +69,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [**IContextNode**](icontextnode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

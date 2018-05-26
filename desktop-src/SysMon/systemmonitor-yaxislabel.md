@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.YAxisLabel property
 description: Retrieves or sets the label of the vertical (Y) axis of the graph.
-ms.assetid: 'aa022be2-99e1-43b4-894a-e4963a4ebf8c'
-keywords: ["YAxisLabel property SysMon", "YAxisLabel property SysMon , SystemMonitor class", "SystemMonitor class SysMon , YAxisLabel property"]
+ms.assetid: aa022be2-99e1-43b4-894a-e4963a4ebf8c
+keywords:
+- YAxisLabel property SysMon
+- YAxisLabel property SysMon , SystemMonitor class
+- SystemMonitor class SysMon , YAxisLabel property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.YAxisLabel property
@@ -32,7 +40,7 @@ Property YAxisLabel As String
 
 Label of the vertical (Y) axis of the graph. The maximum length of the title is 128 characters. If the title exceeds 128 characters, the title is truncated.
 
-**Windows XP and Windows 2000:** There is no limit to the length of the title.
+**Windows XP and Windows 2000:** There is no limit to the length of the title.
 
 ## Requirements
 
@@ -40,8 +48,8 @@ Label of the vertical (Y) axis of the graph. The maximum length of the title is 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -53,9 +61,9 @@ Label of the vertical (Y) axis of the graph. The maximum length of the title is 
 [**SystemMonitor**](systemmonitor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ImageName property is a null-terminated string that contains the executable image name of the fax routing extension DLL that implements the fax routing method.'
-ms.assetid: 'f5dd15c5-7367-4b66-8403-731072f9607f'
-title: 'FaxRoutingMethod.ImageName property'
+---
+Description: The ImageName property is a null-terminated string that contains the executable image name of the fax routing extension DLL that implements the fax routing method.
+ms.assetid: f5dd15c5-7367-4b66-8403-731072f9607f
+title: FaxRoutingMethod.ImageName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRoutingMethod.ImageName property
@@ -55,10 +60,10 @@ A fax client application can use the **ImageName** property to uniquely identify
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxRoutingMethod**](-mfax-ifaxroutingmethod.md)
+[**IFaxRoutingMethod**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethod?branch=master)
 </dt> <dt>
 
-[**IFaxRoutingMethods**](-mfax-ifaxroutingmethods.md)
+[**IFaxRoutingMethods**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethods?branch=master)
 </dt> <dt>
 
 [**ExtensionName**](-mfax-ifaxroutingmethod-get-extensionname-vb.md)

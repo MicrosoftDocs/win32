@@ -1,7 +1,12 @@
 ---
 title: How to Create SysLink Controls
-description: You implement the SysLink control's hyperlinks through markup in the control's initialization string, or by sending it a LM\_SETITEM message.
-ms.assetid: 'CEE02A87-D85A-4F4D-931D-2B1371320814'
+description: You implement the SysLink controls hyperlinks through markup in the controls initialization string, or by sending it a LM\_SETITEM message.
+ms.assetid: CEE02A87-D85A-4F4D-931D-2B1371320814
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create SysLink Controls
@@ -9,7 +14,7 @@ ms.assetid: 'CEE02A87-D85A-4F4D-931D-2B1371320814'
 You implement the SysLink control's hyperlinks through markup in the control's initialization string, or by sending it a [**LM\_SETITEM**](lm-setitem.md) message.
 
 > [!Note]  
-> Before creating SysLink controls, you must call the [**InitCommonControlsEx**](initcommoncontrolsex.md) function, specifying the ICC\_LINK\_CLASS.
+> Before creating SysLink controls, you must call the [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) function, specifying the ICC\_LINK\_CLASS.
 
  
 
@@ -49,7 +54,7 @@ HWND CreateSysLink(HWND hDlg, HINSTANCE hInst, RECT rect)
 
 ## Remarks
 
-It is assumed that [**InitCommonControlsEx**](initcommoncontrolsex.md) has already been called.
+It is assumed that [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) has already been called.
 
 Specifying the [**WS\_TABSTOP**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-tabstop) style ensures that the user will be able to select a link by tabbing to it and pressing the Enter key.
 

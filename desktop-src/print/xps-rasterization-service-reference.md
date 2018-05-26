@@ -1,7 +1,12 @@
 ---
 Description: XPS Rasterization Service Reference
-ms.assetid: 'a0493b5f-d6f7-4f69-9c6e-e112c29250c9'
+ms.assetid: a0493b5f-d6f7-4f69-9c6e-e112c29250c9
 title: XPS Rasterization Service Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XPS Rasterization Service Reference

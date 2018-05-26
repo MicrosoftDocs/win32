@@ -1,7 +1,12 @@
 ---
-Description: 'The CBaseWindow class is a base class for managing windows.'
-ms.assetid: '212d179e-5b5e-49fb-bf0a-a12e0317c96a'
+Description: The CBaseWindow class is a base class for managing windows.
+ms.assetid: 212d179e-5b5e-49fb-bf0a-a12e0317c96a
 title: CBaseWindow class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow class
@@ -74,7 +79,7 @@ Before using an instance of the derived class, call the [**CBaseWindow::PrepareW
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -97,9 +102,9 @@ Before using an instance of the derived class, call the [**CBaseWindow::PrepareW
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

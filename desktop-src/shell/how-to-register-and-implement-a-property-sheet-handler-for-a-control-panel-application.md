@@ -1,6 +1,11 @@
 ---
-Description: 'Many Control Panel applications display a Properties property sheet to enable users to view and modify various device and system settings.'
+Description: Many Control Panel applications display a Properties property sheet to enable users to view and modify various device and system settings.
 title: How to Register and Implement a Property Sheet Handler for a Control Panel Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Register and Implement a Property Sheet Handler for a Control Panel Application
@@ -58,9 +63,9 @@ HKEY_LOCAL_MACHINE
 
 ### Step 2: Implementing a Property Sheet Handler for a Control Panel Application
 
-The procedure for implementing a Control Panel property sheet handler is very similar to that discussed in [How to Register and Implement a Property Sheet Handler for a File Type](how-to-register-and-implement-a-property-sheet-handler-for-a-file-type.md). The primary difference is that now [**IShellPropSheetExt::ReplacePage**](ishellpropsheetext-replacepage.md) needs a nontoken implementation instead of [**IShellPropSheetExt::AddPages**](ishellpropsheetext-addpages.md).
+The procedure for implementing a Control Panel property sheet handler is very similar to that discussed in [How to Register and Implement a Property Sheet Handler for a File Type](how-to-register-and-implement-a-property-sheet-handler-for-a-file-type.md). The primary difference is that now [**IShellPropSheetExt::ReplacePage**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-replacepage?branch=master) needs a nontoken implementation instead of [**IShellPropSheetExt::AddPages**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages?branch=master).
 
-When a Control Panel application is about to display its property sheet, it calls the property sheet handler's [**IShellPropSheetExt::ReplacePage**](ishellpropsheetext-replacepage.md) method once for each page that can be replaced. The *uPageID* parameter is set to the page's ID. The IDs for the available pages are defined in Cplext.h. The currently available IDs are listed in the following table. 
+When a Control Panel application is about to display its property sheet, it calls the property sheet handler's [**IShellPropSheetExt::ReplacePage**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-replacepage?branch=master) method once for each page that can be replaced. The *uPageID* parameter is set to the page's ID. The IDs for the available pages are defined in Cplext.h. The currently available IDs are listed in the following table. 
 
 | Page ID                      | Description         | Control Panel application |
 |------------------------------|---------------------|---------------------------|

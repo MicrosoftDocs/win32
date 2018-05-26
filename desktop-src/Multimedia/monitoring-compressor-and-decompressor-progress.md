@@ -1,13 +1,21 @@
 ---
 title: Monitoring Compressor and Decompressor Progress
 description: Monitoring Compressor and Decompressor Progress
-ms.assetid: '7c87c688-75b6-4d3e-9dd5-5f509ff2e473'
-keywords: ["video compression manager (VCM),monitoring", "VCM (video compression manager),monitoring", "ICSetStatusProc function"]
+ms.assetid: 7c87c688-75b6-4d3e-9dd5-5f509ff2e473
+keywords:
+- video compression manager (VCM),monitoring
+- VCM (video compression manager),monitoring
+- ICSetStatusProc function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Monitoring Compressor and Decompressor Progress
 
-The following example shows how the [**ICSetStatusProc**](icsetstatusproc.md) function is used to inform the compressor or decompressor of the callback function address:
+The following example shows how the [**ICSetStatusProc**](/windows/win32/Vfw/nf-vfw-icsetstatusproc?branch=master) function is used to inform the compressor or decompressor of the callback function address:
 
 
 ```C++

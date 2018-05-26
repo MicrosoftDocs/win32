@@ -4,17 +4,22 @@ description: Keeps track of attributes in the class changing. However, this will
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ff08b621-9a77-48a9-847d-f390ffb41326'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ff08b621-9a77-48a9-847d-f390ffb41326
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-PKI-Template-Minor-Revision attribute AD Schema", "msPKI-Template-Minor-Revision attribute AD Schema"]
+keywords:
+- ms-PKI-Template-Minor-Revision attribute AD Schema
+- msPKI-Template-Minor-Revision attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-PKI-Template-Minor-Revision
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-PKI-Template-Minor-Revision attribute
@@ -38,11 +43,11 @@ Keeps track of attributes in the class changing. However, this will not trigger 
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Keeps track of attributes in the class changing. However, this will not trigger 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: maxSize (ChannelLoggingType) Element
 description: The maximum size, in bytes, of the log file.
-ms.assetid: '94b5e4c9-9a7b-4950-8e23-b3b0aa0dd100'
-keywords: ["maxSize element EventLog"]
+ms.assetid: 94b5e4c9-9a7b-4950-8e23-b3b0aa0dd100
+keywords:
+- maxSize element EventLog
 topic_type:
 - apiref
 api_name:
 - maxSize
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # maxSize (ChannelLoggingType) Element
@@ -29,8 +35,8 @@ The **maxSize** element is defined by the [**ChannelLoggingType**](eventmanifest
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **maxSize** element is defined by the [**ChannelLoggingType**](eventmanifest
 [**logging (ChannelType)**](eventmanifestschema-logging-channeltype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

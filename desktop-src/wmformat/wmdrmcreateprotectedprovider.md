@@ -1,8 +1,9 @@
 ---
 title: WMDRMCreateProtectedProvider function
 description: The WMDRMCreateProtectedProvider function creates a class factory that can create the other objects of the Windows Media DRM Client Extended APIs.
-ms.assetid: '0882062f-48a2-43bc-8853-a8a3d6bc2f52'
-keywords: ["WMDRMCreateProtectedProvider function windows Media Format"]
+ms.assetid: 0882062f-48a2-43bc-8853-a8a3d6bc2f52
+keywords:
+- WMDRMCreateProtectedProvider function windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRMCreateProtectedProvider function
@@ -22,7 +28,7 @@ The **WMDRMCreateProtectedProvider** function creates a class factory that can c
 
 ```C++
 HRESULT STDMETHODCALLTYPE WMDRMCreateProtectedProvider(
-  _Out_ IWMDRMProvider **ppDRMProvider
+  _Out_ IWMDRMProvider **ppDRMProvider
 );
 ```
 
@@ -51,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +83,9 @@ None.
 [**WMDRMCreateProvider**](wmdrmcreateprovider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a handle to a cryptographic service provider (CSP) based on either a private key file or a key container name.'
-ms.assetid: '82cdaa6f-e747-4c9d-8d2d-5fa206891eed'
+---
+Description: Gets a handle to a cryptographic service provider (CSP) based on either a private key file or a key container name.
+ms.assetid: 82cdaa6f-e747-4c9d-8d2d-5fa206891eed
 title: PvkGetCryptProv function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PvkGetCryptProv function

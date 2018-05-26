@@ -1,7 +1,12 @@
 ---
 title: IAgent Load
 description: IAgent Load
-ms.assetid: '8f25e6b6-a117-4b37-969a-d8f80c7be224'
+ms.assetid: 8f25e6b6-a117-4b37-969a-d8f80c7be224
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgent::Load

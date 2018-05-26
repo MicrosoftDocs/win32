@@ -1,7 +1,12 @@
 ---
 title: Indexing Component
 description: Indexing Component
-ms.assetid: '54e663dd-0aed-4abc-b661-f3dfe8ea094e'
+ms.assetid: 54e663dd-0aed-4abc-b661-f3dfe8ea094e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing Component

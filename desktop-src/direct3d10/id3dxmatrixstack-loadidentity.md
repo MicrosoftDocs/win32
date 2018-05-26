@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads identity in the current matrix.'
-ms.assetid: '324b49c2-3aca-4bbb-90f3-62f3ffb2fa45'
-title: 'ID3DXMATRIXStack::LoadIdentity method'
+---
+Description: Loads identity in the current matrix.
+ms.assetid: 324b49c2-3aca-4bbb-90f3-62f3ffb2fa45
+title: ID3DXMATRIXStackLoadIdentity method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXMATRIXStack::LoadIdentity method

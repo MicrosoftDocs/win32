@@ -1,8 +1,18 @@
 ---
 title: Retrieving the Sequence Division Type
 description: Retrieving the Sequence Division Type
-ms.assetid: '9c7e3482-93a3-4f9c-8b70-a9c733de14fe'
-keywords: ["Musical Instrument Digital Interface (MIDI),sequence division type", "MIDI (Musical Instrument Digital Interface),sequence division type", "MCI MIDI sequencer,division type", "MCI_STATUS command", "sequence division type"]
+ms.assetid: 9c7e3482-93a3-4f9c-8b70-a9c733de14fe
+keywords:
+- Musical Instrument Digital Interface (MIDI),sequence division type
+- MIDI (Musical Instrument Digital Interface),sequence division type
+- MCI MIDI sequencer,division type
+- MCI_STATUS command
+- sequence division type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Sequence Division Type

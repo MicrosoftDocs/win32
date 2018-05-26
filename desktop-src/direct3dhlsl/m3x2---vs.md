@@ -1,7 +1,12 @@
 ---
 title: m3x2 - vs
 description: Multiplies a 3-component vector by a 3x2 matrix.
-ms.assetid: '4ef3bd47-3e38-4d9d-a8f5-6ee9c08de69c'
+ms.assetid: 4ef3bd47-3e38-4d9d-a8f5-6ee9c08de69c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # m3x2 - vs

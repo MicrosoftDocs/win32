@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a service access point and the logical device that implements it.'
-ms.assetid: '5510c179-09e6-4762-b9b3-68ed49eafd66'
-title: 'Msvm\_FcDeviceSAPImplementation class'
+Description: Represents an association between a service access point and the logical device that implements it.
+ms.assetid: 5510c179-09e6-4762-b9b3-68ed49eafd66
+title: Msvm\_FcDeviceSAPImplementation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_FcDeviceSAPImplementation class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_FcDeviceSAPImplementation : CIM_DeviceSAPImplementation
 {
-  CIM_FCPort      REF Antecedent;
+  CIM_FCPort      REF Antecedent;
   Msvm_FcEndpoint REF Dependent;
 };
 ```
@@ -71,17 +76,17 @@ A reference to an instance of the [**Msvm\_FcEndpoint**](msvm-fcendpoint.md) cla
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

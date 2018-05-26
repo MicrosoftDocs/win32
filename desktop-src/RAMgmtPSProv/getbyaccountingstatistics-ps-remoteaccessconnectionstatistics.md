@@ -2,13 +2,16 @@
 title: GetByAccountingStatistics method of the PS\_RemoteAccessConnectionStatistics class
 description: This cmdlet displays the following1. Statistics of current (real-time) active DirectAccess and VPN connections2. Statistics of DirectAccess and VPN historical connections for a specified time duration.
 audience: developer
-ms.assetid: 'f91eab49-e009-49b3-a3ac-69486b990ba7'
-ms.prod: 'windows-server-dev'
+ms.assetid: f91eab49-e009-49b3-a3ac-69486b990ba7
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetByAccountingStatistics method", "GetByAccountingStatistics method, PS_RemoteAccessConnectionStatistics class", "PS_RemoteAccessConnectionStatistics class, GetByAccountingStatistics method"]
+keywords:
+- GetByAccountingStatistics method
+- GetByAccountingStatistics method, PS_RemoteAccessConnectionStatistics class
+- PS_RemoteAccessConnectionStatistics class, GetByAccountingStatistics method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByAccountingStatistics method of the PS\_RemoteAccessConnectionStatistics class
@@ -28,10 +34,10 @@ This cmdlet displays the following1. Statistics of current (real-time) active Di
 
 ```mof
 uint32 GetByAccountingStatistics(
-  [in]  string                           ComputerName,
-  [in]  datetime                         StartDateTime,
-  [in]  datetime                         EndDateTime,
-  [out] RemoteAccessAccountingConnection cmdletOutput[]
+  [in]  string                           ComputerName,
+  [in]  datetime                         StartDateTime,
+  [in]  datetime                         EndDateTime,
+  [out] RemoteAccessAccountingConnection cmdletOutput[]
 );
 ```
 
@@ -76,7 +82,7 @@ Based on the input specified, the current (real-time) connection statistics or a
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ Based on the input specified, the current (real-time) connection statistics or a
 [**PS\_RemoteAccessConnectionStatistics**](ps-remoteaccessconnectionstatistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

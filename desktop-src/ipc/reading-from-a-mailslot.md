@@ -1,12 +1,17 @@
 ---
-Description: 'How to read from a mailslot. The process that creates a mailslot can read messages from it by using the mailslot handle in a call to the ReadFile function.'
-ms.assetid: 'e193dca9-3b77-4e41-be6d-90992e1a8fe3'
+Description: How to read from a mailslot. The process that creates a mailslot can read messages from it by using the mailslot handle in a call to the ReadFile function.
+ms.assetid: e193dca9-3b77-4e41-be6d-90992e1a8fe3
 title: Reading from a Mailslot
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading from a Mailslot
 
-The process that creates a mailslot can read messages from it by using the mailslot handle in a call to the [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467) function. The following example calls the [**GetMailslotInfo**](getmailslotinfo.md) function to determine whether there are messages in the mailslot. If messages are waiting, each is displayed along with the number of messages remaining to be read.
+The process that creates a mailslot can read messages from it by using the mailslot handle in a call to the [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467) function. The following example calls the [**GetMailslotInfo**](/windows/win32/Winbase/nf-winbase-getmailslotinfo?branch=master) function to determine whether there are messages in the mailslot. If messages are waiting, each is displayed along with the number of messages remaining to be read.
 
 A mailslot exists until the [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) function is called for all open server handles or until all server processes that own a mailslot handle exit. In both cases, any unread messages are deleted from the mailslot, all client handles to the mailslot are closed, and the mailslot itself is deleted from memory.
 

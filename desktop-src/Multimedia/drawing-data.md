@@ -1,13 +1,25 @@
 ---
 title: Drawing Data
 description: Drawing Data
-ms.assetid: 'cc4f383d-54d4-4027-ad6a-da19bb07c17f'
-keywords: ["video compression manager (VCM),drawing", "VCM (video compression manager),drawing", "ICDraw function", "ICDrawStart macro", "ICDrawStop macro", "ICDrawFlush macro", "ICDrawEnd macro"]
+ms.assetid: cc4f383d-54d4-4027-ad6a-da19bb07c17f
+keywords:
+- video compression manager (VCM),drawing
+- VCM (video compression manager),drawing
+- ICDraw function
+- ICDrawStart macro
+- ICDrawStop macro
+- ICDrawFlush macro
+- ICDrawEnd macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing Data
 
-The following example uses the [**ICDraw**](icdraw.md) function and the [**ICDrawStart**](icdrawstart.md), [**ICDrawStop**](icdrawstop.md), [**ICDrawFlush**](icdrawflush.md), and [**ICDrawEnd**](icdrawend.md) macros to draw data on the screen.
+The following example uses the [**ICDraw**](/windows/win32/Vfw/nf-vfw-icdraw?branch=master) function and the [**ICDrawStart**](/windows/win32/Vfw/nf-vfw-icdrawstart?branch=master), [**ICDrawStop**](/windows/win32/Vfw/nf-vfw-icdrawstop?branch=master), [**ICDrawFlush**](/windows/win32/Vfw/nf-vfw-icdrawflush?branch=master), and [**ICDrawEnd**](/windows/win32/Vfw/nf-vfw-icdrawend?branch=master) macros to draw data on the screen.
 
 
 ```C++

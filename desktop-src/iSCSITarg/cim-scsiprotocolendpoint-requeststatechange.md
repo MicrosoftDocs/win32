@@ -4,13 +4,16 @@ description: Requests that the state of the element be changed to the value spec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '95b77caa-68d9-4635-ae91-8fd14189a364'
-ms.prod: 'windows-server-dev'
+ms.assetid: 95b77caa-68d9-4635-ae91-8fd14189a364
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RequestStateChange method iSCSI Software Target API", "RequestStateChange method iSCSI Software Target API , CIM_SCSIProtocolEndpoint class", "CIM_SCSIProtocolEndpoint class iSCSI Software Target API , RequestStateChange method"]
+keywords:
+- RequestStateChange method iSCSI Software Target API
+- RequestStateChange method iSCSI Software Target API , CIM_SCSIProtocolEndpoint class
+- CIM_SCSIProtocolEndpoint class iSCSI Software Target API , RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the CIM\_SCSIProtocolEndpoint class
@@ -30,9 +36,9 @@ Requests that the state of the element be changed to the value specified in the 
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16                  RequestedState,
-  [out] CIM_ConcreteJob Ref REF Job,
-  [in]  datetime                TimeoutPeriod
+  [in]  uint16                  RequestedState,
+  [out] CIM_ConcreteJob Ref REF Job,
+  [in]  datetime                TimeoutPeriod
 );
 ```
 
@@ -117,14 +123,14 @@ The state requested for the element. This information will be placed into the Re
 **DMTF Reserved**
 
 
-</dt> <dd>12–32767</dd> <dt>
+</dt> <dd>12 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
@@ -165,7 +171,7 @@ A timeout period that specifies the maximum amount of time that the client expec
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
@@ -180,10 +186,10 @@ A timeout period that specifies the maximum amount of time that the client expec
 **Busy** (4099)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -193,7 +199,7 @@ A timeout period that specifies the maximum amount of time that the client expec
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -207,9 +213,9 @@ A timeout period that specifies the maximum amount of time that the client expec
 [**CIM\_SCSIProtocolEndpoint**](cim-scsiprotocolendpoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

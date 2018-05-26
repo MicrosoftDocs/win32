@@ -1,7 +1,12 @@
 ---
 title: Configuring SNMP Group Policy
 description: If you use the Microsoft Management Console (MMC) snap-in for Group Policy to administer registry-based policy settings that apply to SNMP, one or more of the following subkeys may exist.
-ms.assetid: 'de21d2f5-3337-47ba-afcf-347e289873d3'
+ms.assetid: de21d2f5-3337-47ba-afcf-347e289873d3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring SNMP Group Policy

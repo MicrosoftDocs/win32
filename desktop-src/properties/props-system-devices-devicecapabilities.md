@@ -1,7 +1,12 @@
 ---
-Description: 'Device Capabilities.'
-ms.assetid: 'e4a6658d-6905-4a27-8237-2ef89ccf2c40'
-title: 'System.Devices.DeviceCapabilities'
+Description: Device Capabilities.
+ms.assetid: e4a6658d-6905-4a27-8237-2ef89ccf2c40
+title: System.Devices.DeviceCapabilities
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.DeviceCapabilities

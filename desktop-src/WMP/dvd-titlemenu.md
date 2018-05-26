@@ -1,8 +1,11 @@
 ---
 title: DVD.titleMenu method
 description: The titleMenu method stops title playback and displays the title menu.
-ms.assetid: '3be3e7cd-5969-4051-ae63-ff070a19fe51'
-keywords: ["titleMenu method Windows Media Player", "titleMenu method Windows Media Player , DVD class", "DVD class Windows Media Player , titleMenu method"]
+ms.assetid: 3be3e7cd-5969-4051-ae63-ff070a19fe51
+keywords:
+- titleMenu method Windows Media Player
+- titleMenu method Windows Media Player , DVD class
+- DVD class Windows Media Player , titleMenu method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD.titleMenu method
@@ -46,8 +54,8 @@ Every DVD is authored differently. The DVD must contain a menu for this method t
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Version<br/>                  | Windows Media Player for Windows XP or later.<br/>                           |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 
@@ -63,9 +71,9 @@ Every DVD is authored differently. The DVD must contain a menu for this method t
 [**DVD.topMenu**](dvd-topmenu.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

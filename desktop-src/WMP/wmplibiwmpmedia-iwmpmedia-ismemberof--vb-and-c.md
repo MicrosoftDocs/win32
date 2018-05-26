@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia isMemberOf method
 description: The isMemberOf method returns a value indicating whether the specified media item is a member of the specified playlist.
-ms.assetid: '491e0dd5-38e5-47a5-9c94-f1d27d297f8d'
-keywords: ["isMemberOf method Windows Media Player", "isMemberOf method Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , isMemberOf method"]
+ms.assetid: 491e0dd5-38e5-47a5-9c94-f1d27d297f8d
+keywords:
+- isMemberOf method Windows Media Player
+- isMemberOf method Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , isMemberOf method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::isMemberOf method
@@ -144,9 +152,9 @@ End If</code></pre></td>
 [**IWMPPlaylistCollection.getByName (VB and C#)**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-getbyname--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

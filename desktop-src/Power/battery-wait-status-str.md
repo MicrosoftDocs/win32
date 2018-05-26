@@ -1,7 +1,12 @@
 ---
-Description: 'Contains information about the conditions under which the battery status is to be retrieved.'
-ms.assetid: '1750fe0f-ba3d-4118-938c-789c6d62c3f7'
-title: 'BATTERY\_WAIT\_STATUS structure'
+Description: Contains information about the conditions under which the battery status is to be retrieved.
+ms.assetid: 1750fe0f-ba3d-4118-938c-789c6d62c3f7
+title: BATTERY\_WAIT\_STATUS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BATTERY\_WAIT\_STATUS structure
@@ -59,7 +64,7 @@ Zero, one, or more of the following status bits, which indicate the state of the
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -97,9 +102,9 @@ Before using either of the two Capacity conditions, make sure the battery suppor
 
 |                                     |                                                                                                                                                                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
+| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
 
 
 
@@ -116,9 +121,9 @@ Before using either of the two Capacity conditions, make sure the battery suppor
 [**IOCTL\_BATTERY\_QUERY\_TAG**](ioctl-battery-query-tag.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: MinSizeMergeWordlists
 description: MinSizeMergeWordlists
-ms.assetid: '84650287-9aa1-4c57-89ce-d806bc8c0728'
+ms.assetid: 84650287-9aa1-4c57-89ce-d806bc8c0728
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MinSizeMergeWordlists

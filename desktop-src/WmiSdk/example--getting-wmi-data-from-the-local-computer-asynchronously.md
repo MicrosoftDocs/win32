@@ -1,13 +1,16 @@
 ---
-Description: 'You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, gets data asynchronously, and then cleans up.'
+Description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, gets data asynchronously, and then cleans up.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1e11ca27-e67d-486c-8fc5-a10382edfff3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1e11ca27-e67d-486c-8fc5-a10382edfff3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Example: Getting WMI Data from the Local Computer Asynchronously'
+title: Example Getting WMI Data from the Local Computer Asynchronously
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example: Getting WMI Data from the Local Computer Asynchronously
@@ -30,19 +33,19 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-4.  Obtain a pointer to [**IWbemServices**](iwbemservices.md) for the root\\cimv2 namespace on the local computer by calling [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md). For more information about how to connect to a remote computer, see [Example: Getting WMI Data from a Remote Computer](example--getting-wmi-data-from-a-remote-computer.md).
+4.  Obtain a pointer to [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) for the root\\cimv2 namespace on the local computer by calling [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master). For more information about how to connect to a remote computer, see [Example: Getting WMI Data from a Remote Computer](example--getting-wmi-data-from-a-remote-computer.md).
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-5.  Set [**IWbemServices**](iwbemservices.md) proxy security so the WMI service can impersonate the client by calling [**CoSetProxyBlanket**](_com_cosetproxyblanket).
+5.  Set [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) proxy security so the WMI service can impersonate the client by calling [**CoSetProxyBlanket**](_com_cosetproxyblanket).
 
     For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md).
 
-6.  Use the [**IWbemServices**](iwbemservices.md) pointer to make requests to WMI. This example uses the [**IWbemServices::ExecQueryAsync**](iwbemservices-execqueryasync.md) method to receive the data asynchronously. Whenever you receive data asynchronously, you must provide an implementation of [**IWbemObjectSink**](iwbemobjectsink.md). This example provides the implementation in the QuerySink class. The implementation code and header file code for this class are provided following the main example. The **IWbemServices::ExecQueryAsync** method calls the QuerySink::Indicate method whenever the data is received.
+6.  Use the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) pointer to make requests to WMI. This example uses the [**IWbemServices::ExecQueryAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execqueryasync?branch=master) method to receive the data asynchronously. Whenever you receive data asynchronously, you must provide an implementation of [**IWbemObjectSink**](iwbemobjectsink.md). This example provides the implementation in the QuerySink class. The implementation code and header file code for this class are provided following the main example. The **IWbemServices::ExecQueryAsync** method calls the QuerySink::Indicate method whenever the data is received.
 
     For more information about how to create a WMI request, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md) and [Calling a Method](calling-a-method.md).
 
-7.  Wait for the data to be retrieved asynchronously. Use the [**IWbemServices::CancelAsyncCall**](iwbemservices-cancelasynccall.md) method to manually stop the asynchronous call.
+7.  Wait for the data to be retrieved asynchronously. Use the [**IWbemServices::CancelAsyncCall**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-cancelasynccall?branch=master) method to manually stop the asynchronous call.
 
 The following code example gets WMI data from the local computer asynchronously.
 

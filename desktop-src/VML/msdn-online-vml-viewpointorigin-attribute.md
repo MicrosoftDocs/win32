@@ -1,7 +1,12 @@
 ---
 title: VML ViewpointOrigin Attribute
 description: VML ViewpointOrigin Attribute
-ms.assetid: '4ccb3e12-bae4-4cb2-b48b-80c155ae7e03'
+ms.assetid: 4ccb3e12-bae4-4cb2-b48b-80c155ae7e03
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML ViewpointOrigin Attribute

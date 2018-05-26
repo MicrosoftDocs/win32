@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_Viewable
 description: Identifies the UI\_PKEY\_Viewable property.
-ms.assetid: 'd52a6d95-a4b6-4efd-8e08-5fed50151455'
+ms.assetid: d52a6d95-a4b6-4efd-8e08-5fed50151455
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_Viewable

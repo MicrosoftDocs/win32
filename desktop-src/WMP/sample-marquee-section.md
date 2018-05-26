@@ -1,8 +1,18 @@
 ---
 title: Sample Marquee Section
 description: Sample Marquee Section
-ms.assetid: '44ed3257-2e1a-4b8d-9d55-a13b0400422d'
-keywords: ["Windows Media Player Mobile skins,marquees", "skins,marquees", "reference for skins,marquees", "marquees in skins,Marquee section", "skin definition files,Marquee section"]
+ms.assetid: 44ed3257-2e1a-4b8d-9d55-a13b0400422d
+keywords:
+- Windows Media Player Mobile skins,marquees
+- skins,marquees
+- reference for skins,marquees
+- marquees in skins,Marquee section
+- skin definition files,Marquee section
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Marquee Section

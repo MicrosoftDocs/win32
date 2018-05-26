@@ -4,17 +4,21 @@ description: The name of the building where an organization or organizational un
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b7c263cc-23cd-4ae8-9abe-ffd40f307162'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b7c263cc-23cd-4ae8-9abe-ffd40f307162
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["buildingName attribute AD Schema"]
+keywords:
+- buildingName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - buildingName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # buildingName attribute

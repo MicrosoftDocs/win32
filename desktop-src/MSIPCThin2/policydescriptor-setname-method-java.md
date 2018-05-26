@@ -4,17 +4,21 @@ description: Sets the name of the policy.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '0F928BF1-8B8C-409F-B201-7D7902FCC86F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 0F928BF1-8B8C-409F-B201-7D7902FCC86F
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["PolicyDescriptor.setName method"]
+keywords:
+- PolicyDescriptor.setName method
 topic_type:
 - apiref
 api_name:
 - PolicyDescriptor.setName method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor.setName method
@@ -37,7 +41,7 @@ public void setName(String name)
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ PolicyDescriptor.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

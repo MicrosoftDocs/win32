@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '6BB5AABC-6281-4575-8189-477C57DF4F4F'
+Description: .
+ms.assetid: 6BB5AABC-6281-4575-8189-477C57DF4F4F
 title: Introduction
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction

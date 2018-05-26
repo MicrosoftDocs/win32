@@ -4,13 +4,15 @@ description: Privilege is the base class for all types of activities which are g
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2bf66801-c269-46b0-a0d9-00db408549f5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2bf66801-c269-46b0-a0d9-00db408549f5
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Privilege class iSCSI Software Target API", "CIM_Privilege class iSCSI Software Target API , described"]
+keywords:
+- CIM_Privilege class iSCSI Software Target API
+- CIM_Privilege class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Privilege class
@@ -46,14 +51,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Version("2.20.0"), UMLPackagePath("CIM::User::Privilege")]
 class CIM_Privilege : CIM_ManagedElement
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
   boolean PrivilegeGranted = TRUE;
-  uint16  Activities[];
-  string  ActivityQualifiers[];
-  uint16  QualifierFormats[];
+  uint16  Activities[];
+  string  ActivityQualifiers[];
+  uint16  QualifierFormats[];
   boolean RepresentsAuthorizationRights = FALSE;
 };
 ```
@@ -140,14 +145,14 @@ An enumeration indicating the activities that are granted or denied. These activ
 **DMTF Reserved**
 
 
-</dt> <dd>8–15999</dd> <dt>
+</dt> <dd>8 15999</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>16000–65535</dd> </dl>
+</dt> <dd>16000 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -361,14 +366,14 @@ Defines the semantics of corresponding entries in the ActivityQualifiers array. 
 **DMTF Reserved**
 
 
-</dt> <dd>12–15999</dd> <dt>
+</dt> <dd>12 15999</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>16000–65535</dd> </dl>
+</dt> <dd>16000 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -392,7 +397,7 @@ The RepresentsAuthorizationRights flag indicates whether the rights defined by t
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -406,9 +411,9 @@ The RepresentsAuthorizationRights flag indicates whether the rights defined by t
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

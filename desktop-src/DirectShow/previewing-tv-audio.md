@@ -1,7 +1,12 @@
 ---
 Description: Previewing TV Audio
-ms.assetid: '25da8bcc-51c1-49f0-b4b5-885ff4f254d8'
+ms.assetid: 25da8bcc-51c1-49f0-b4b5-885ff4f254d8
 title: Previewing TV Audio
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Previewing TV Audio
@@ -12,9 +17,9 @@ To preview TV audio, route the Audio Decoder pin on the crossbar filter to the A
 
 The basic approach is as follows:
 
-1.  Use the [**ICaptureGraphBuilder2::FindInterface**](icapturegraphbuilder2-findinterface.md) method to locate the crossbar filter.
-2.  Use the [**IAMCrossbar::get\_CrossbarPinInfo**](iamcrossbar-get-crossbarpininfo.md) method to enumerate the crossbar filter's input and output pins. Search for an audio decoder output pin and an audio tuner input pin.
-3.  If you find the correct pins, call [**IAMCrossbar::Route**](iamcrossbar-route.md) to route the pins. If not, look upstream for another crossbar and repeat the process.
+1.  Use the [**ICaptureGraphBuilder2::FindInterface**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findinterface?branch=master) method to locate the crossbar filter.
+2.  Use the [**IAMCrossbar::get\_CrossbarPinInfo**](/windows/win32/Strmif/nf-strmif-iamcrossbar-get_crossbarpininfo?branch=master) method to enumerate the crossbar filter's input and output pins. Search for an audio decoder output pin and an audio tuner input pin.
+3.  If you find the correct pins, call [**IAMCrossbar::Route**](/windows/win32/Strmif/nf-strmif-iamcrossbar-route?branch=master) to route the pins. If not, look upstream for another crossbar and repeat the process.
 4.  To mute the audio, route the audio decoder pin to -1.
 
 Most TV tuners use a single crossbar filter, but some use two crossbar filters. Therefore, you might have to search for a second crossbar if the first one fails.

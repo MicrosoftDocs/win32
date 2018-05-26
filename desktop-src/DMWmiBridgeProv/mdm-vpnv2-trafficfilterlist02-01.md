@@ -1,8 +1,10 @@
 ---
 title: MDM\_VPNv2\_TrafficFilterList02\_01 class
 description: The MDM\_VPNv2\_TrafficFilterList02\_01 class contains an optional list of rules. Only traffic that matches these rules can be sent via the VPN Interface.
-ms.assetid: '3cffe96d-7454-43a1-aa5b-33e820369e7e'
-keywords: ["MDM_VPNv2_TrafficFilterList02_01 class", "MDM_VPNv2_TrafficFilterList02_01 class, described"]
+ms.assetid: 3cffe96d-7454-43a1-aa5b-33e820369e7e
+keywords:
+- MDM_VPNv2_TrafficFilterList02_01 class
+- MDM_VPNv2_TrafficFilterList02_01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_VPNv2\_TrafficFilterList02\_01 class
@@ -168,7 +175,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -183,9 +190,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

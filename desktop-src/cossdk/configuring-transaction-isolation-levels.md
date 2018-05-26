@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ gives developers more control over their applications by allowing configurable transaction isolation levels.'
-ms.assetid: 'a59e262c-41f2-4c80-a04c-50a39af8b009'
+Description: COM+ gives developers more control over their applications by allowing configurable transaction isolation levels.
+ms.assetid: a59e262c-41f2-4c80-a04c-50a39af8b009
 title: Configuring Transaction Isolation Levels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Transaction Isolation Levels

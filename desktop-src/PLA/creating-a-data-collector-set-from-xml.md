@@ -1,12 +1,17 @@
 ---
 title: Creating a Data Collector Set from XML
 description: You can use the properties of the IDataCollectorSet interface to specify the property values of the set, or you can use XML to specify the values. If you use XML, pass the XML string to the IDataCollectorSet SetXml method.
-ms.assetid: 'a8e1868c-3fd4-4859-a923-29877c3b99b6'
+ms.assetid: a8e1868c-3fd4-4859-a923-29877c3b99b6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Data Collector Set from XML
 
-You can use the properties of the [**IDataCollectorSet**](idatacollectorset.md) interface to specify the property values of the set, or you can use XML to specify the values. If you use XML, pass the XML string to the [**IDataCollectorSet::SetXml**](idatacollectorset-setxml.md) method.
+You can use the properties of the [**IDataCollectorSet**](/windows/previous-versions/Pla/nn-pla-idatacollectorset?branch=master) interface to specify the property values of the set, or you can use XML to specify the values. If you use XML, pass the XML string to the [**IDataCollectorSet::SetXml**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-setxml?branch=master) method.
 
 The following example shows how to use XML to create a data collector set. The example uses the data collector set to add a data collector, save the changes, and then run the data collector set.
 

@@ -1,8 +1,10 @@
 ---
 title: Win32\_FolderRedirectionUserConfiguration class
-description: Represents the user's folder redirection configuration settings.
-ms.assetid: '1b9ebf84-6caf-4ff8-bb86-11490a8ad7a2'
-keywords: ["Win32_FolderRedirectionUserConfiguration class User State Manageability API", "Win32_FolderRedirectionUserConfiguration class User State Manageability API , described"]
+description: Represents the users folder redirection configuration settings.
+ms.assetid: 1b9ebf84-6caf-4ff8-bb86-11490a8ad7a2
+keywords:
+- Win32_FolderRedirectionUserConfiguration class User State Manageability API
+- Win32_FolderRedirectionUserConfiguration class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_FolderRedirectionUserConfiguration class
@@ -39,8 +46,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_FolderRedirectionUserConfiguration
 {
-  boolean                 IsEffective;
-  boolean                 PrimaryComputerEnabled;
+  boolean                 IsEffective;
+  boolean                 PrimaryComputerEnabled;
   Win32_FolderRedirection AppDataRoaming;
   Win32_FolderRedirection Desktop;
   Win32_FolderRedirection StartMenu;
@@ -271,13 +278,13 @@ Folder redirection must be applied during logon, and the logon process cannot be
 -   The files are not being used by any application and can be freely redirected by the feature.
 -   The user's folders and files will be fully configured before the user accesses them.
 
-In Windows 7, Windows Server 2008 R2, and earlier Windows versions, folder redirection was implemented by a Group Policy Client Side Extension (GPCSE) that received the following data from the Group Policy Manager:
+In Windows 7, Windows Server 2008 R2, and earlier Windows versions, folder redirection was implemented by a Group Policy Client Side Extension (GPCSE) that received the following data from the Group Policy Manager:
 
 -   The list of folders to be redirected
 -   The user's logon state
 -   The user's impersonation token
 
-In Windows 8, Windows Server 2012, and later, folder redirection can be performed by WMI or by Group Policy. If it's performed by WMI, the **Win32\_FolderRedirectionUserConfiguration** class itself contains the list of folders to be redirected.
+In Windows 8, Windows Server 2012, and later, folder redirection can be performed by WMI or by Group Policy. If it's performed by WMI, the **Win32\_FolderRedirectionUserConfiguration** class itself contains the list of folders to be redirected.
 
 Because folder redirection must be applied during logon, and the logon process cannot be completed until folder redirection is complete, the user's logon must be blocked until Folder Redirection is applied. To ensure this behavior, you must implement a GPCSE. This GPCSE is invoked by the Group Policy Manager on every logon. The Group Policy Manager informs the GPCSE extension if the logon is blocked or not and passes a user token to the GPCSE that can be used for impersonation.
 
@@ -296,7 +303,7 @@ To pass the user's logon state and impersonation token, this class requires a co
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -304,8 +311,8 @@ To pass the user's logon state and impersonation token, this class requires a co
 
 |                                     |                                                                                                             |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                        |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                        |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                      |
 | MOF<br/>                      | <dl> <dt>FolderRedirectionWMIProvider.mof</dt> </dl> |
 
@@ -324,9 +331,9 @@ To pass the user's logon state and impersonation token, this class requires a co
 [**Win32\_FolderRedirectionHealthConfiguration**](win32-folderredirectionhealthconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

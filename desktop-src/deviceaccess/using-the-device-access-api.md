@@ -1,7 +1,12 @@
 ---
 title: How to Use the Device Access API
 description: This topic contains tasks and design considerations for using the Device Access API.
-ms.assetid: '8D951EB5-4AFB-4051-8F1F-30F847F1A757'
+ms.assetid: 8D951EB5-4AFB-4051-8F1F-30F847F1A757
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use the Device Access API
@@ -22,7 +27,7 @@ This topic contains tasks and design considerations for using the Device Access 
 
 
 
- 
+ 
 
 ## Additional resources
 
@@ -47,9 +52,9 @@ This topic contains tasks and design considerations for using the Device Access 
 [Custom Driver Access Sample](http://go.microsoft.com/fwlink/p/?linkid=242014)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

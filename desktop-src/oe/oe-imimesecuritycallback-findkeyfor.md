@@ -1,8 +1,11 @@
 ---
 title: IMimeSecurityCallback FindKeyFor method
 description: IMimeSecurityCallback FindKeyFor method
-ms.assetid: '4a108aa2-7fe7-4153-b900-013ae910e42c'
-keywords: ["FindKeyFor method Windows Mail (formerly Outlook Express)", "FindKeyFor method Windows Mail (formerly Outlook Express) , IMimeSecurityCallback interface", "IMimeSecurityCallback interface Windows Mail (formerly Outlook Express) , FindKeyFor method"]
+ms.assetid: 4a108aa2-7fe7-4153-b900-013ae910e42c
+keywords:
+- FindKeyFor method Windows Mail (formerly Outlook Express)
+- FindKeyFor method Windows Mail (formerly Outlook Express) , IMimeSecurityCallback interface
+- IMimeSecurityCallback interface Windows Mail (formerly Outlook Express) , FindKeyFor method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeSecurityCallback::FindKeyFor method
@@ -22,13 +30,13 @@ api_type:
 
 ```C++
 HRESULT FindKeyFor(
-  [in]            HWND                    hwnd,
-  [in]            DWORD                   dwFlags,
-  [in]            DWORD                   dwRecipientIndex,
-  [in]      const CMSG_CMS_RECIPIENT_INFO *pRecipInfo,
-  [out]           DWORD                   *pdwCtrl,
-  [in, out]       CMS_CTRL_DECRYPT_INFO   *pDecryptInfo,
-  [out]           PCCERT_CONTEXT          *ppccert
+  [in]            HWND                    hwnd,
+  [in]            DWORD                   dwFlags,
+  [in]            DWORD                   dwRecipientIndex,
+  [in]      const CMSG_CMS_RECIPIENT_INFO *pRecipInfo,
+  [out]           DWORD                   *pdwCtrl,
+  [in, out]       CMS_CTRL_DECRYPT_INFO   *pDecryptInfo,
+  [out]           PCCERT_CONTEXT          *ppccert
 );
 ```
 
@@ -103,8 +111,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeolepriv.idl</dt> </dl>                     |
@@ -112,9 +120,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

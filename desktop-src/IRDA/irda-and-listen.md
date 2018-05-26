@@ -1,8 +1,14 @@
 ---
 title: IrDA and listen
 description: The Windows Sockets listen function is used by IrDA server applications to place the stack in a mode to receive incoming connections on the specified socket. The listen function does not block.
-ms.assetid: '33e5476f-164a-496a-ae90-a08ce756d081'
-keywords: ["IrDA and listen"]
+ms.assetid: 33e5476f-164a-496a-ae90-a08ce756d081
+keywords:
+- IrDA and listen
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrDA and listen

@@ -1,14 +1,22 @@
 ---
 title: Storage.onAddChildComplete event
 description: The onAddChildComplete event occurs, and a callback handler is invoked, when a Storage.AddChild operation has completed.
-ms.assetid: '5b76c6ee-16a9-4927-bccf-affc35f3af31'
-keywords: ["onAddChildComplete event WPD Automation", "onAddChildComplete event WPD Automation , Storage object", "Storage object WPD Automation , onAddChildComplete event"]
+ms.assetid: 5b76c6ee-16a9-4927-bccf-affc35f3af31
+keywords:
+- onAddChildComplete event WPD Automation
+- onAddChildComplete event WPD Automation , Storage object
+- Storage object WPD Automation , onAddChildComplete event
 topic_type:
 - apiref
 api_name:
 - Storage.onAddChildComplete
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage.onAddChildComplete event
@@ -78,8 +86,8 @@ Storage.onAddChildComplete = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -93,9 +101,9 @@ Storage.onAddChildComplete = HandlerFunction;
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

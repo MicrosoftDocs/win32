@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the TAG associated with the specified TAGID.'
-ms.assetid: '194d2035-fc2c-445d-a730-90db2ccea8af'
+---
+Description: Retrieves the TAG associated with the specified TAGID.
+ms.assetid: 194d2035-fc2c-445d-a730-90db2ccea8af
 title: SdbGetTagFromTagID function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbGetTagFromTagID function

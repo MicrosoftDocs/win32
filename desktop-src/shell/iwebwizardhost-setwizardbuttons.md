@@ -1,6 +1,11 @@
-﻿---
-Description: 'Updates the Back, Next, and Finish buttons in the client''s wizard frame.'
-title: 'WebWizardHost.SetWizardButtons method'
+---
+Description: Updates the Back, Next, and Finish buttons in the clients wizard frame.
+title: WebWizardHost.SetWizardButtons method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WebWizardHost.SetWizardButtons method

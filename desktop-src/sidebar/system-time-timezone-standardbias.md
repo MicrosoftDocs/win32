@@ -1,8 +1,11 @@
 ---
 title: System.Time.timeZone.standardBias property
 description: Gets the Standard Time offset in minutes.
-ms.assetid: '5c8ffdb2-4e8d-484f-8033-ce7ab328a69f'
-keywords: ["standardBias property Windows Sidebar", "standardBias property Windows Sidebar , System.Time.timeZone object", "System.Time.timeZone object Windows Sidebar , standardBias property"]
+ms.assetid: 5c8ffdb2-4e8d-484f-8033-ce7ab328a69f
+keywords:
+- standardBias property Windows Sidebar
+- standardBias property Windows Sidebar , System.Time.timeZone object
+- System.Time.timeZone object Windows Sidebar , standardBias property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Time.timeZone.standardBias property
@@ -67,10 +75,10 @@ var sTimeZoneDetails = function()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -119,9 +127,9 @@ var sTimeZoneDetails = function()
 [**getLocalTime**](system-time-getlocaltime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

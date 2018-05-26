@@ -1,13 +1,16 @@
 ---
-Description: 'The Security\_ property of the SWbemServices object is used to get or set the security settings for an SWbemServices object. This property is an SWbemSecurity object.'
+Description: The Security\_ property of the SWbemServices object is used to get or set the security settings for an SWbemServices object. This property is an SWbemSecurity object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd8b1118b-b26d-4740-915e-484a83953b11'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d8b1118b-b26d-4740-915e-484a83953b11
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemServices.Security\_ property'
+title: SWbemServices.Security\_ property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemServices.Security\_ property
@@ -35,8 +38,8 @@ SWbemServices.Security_ As Object
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -55,9 +58,9 @@ SWbemServices.Security_ As Object
 [Creating a WMI Application or Script](creating-a-wmi-application-or-script.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

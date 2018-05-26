@@ -1,14 +1,20 @@
 ---
 title: Problem Complex Type
 description: Defines the section of the report that contains all the problems that the troubleshooting package is trying to detect and fix.
-ms.assetid: '86c2be71-9112-4b48-8dc2-7df070d5383e'
-keywords: ["Problem complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 86c2be71-9112-4b48-8dc2-7df070d5383e
+keywords:
+- Problem complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Problem
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Problem Complex Type
@@ -49,14 +55,14 @@ Defines the section of the report that contains all the problems that the troubl
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

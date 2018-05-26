@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UserName property is a null-terminated string that contains the name of the user who submitted the fax job to the job queue. The UserName property applies only to outgoing fax transmissions.'
-ms.assetid: '725bef60-dfe8-443b-a8ee-268944bd6569'
-title: 'FaxJob.UserName property'
+---
+Description: The UserName property is a null-terminated string that contains the name of the user who submitted the fax job to the job queue. The UserName property applies only to outgoing fax transmissions.
+ms.assetid: 725bef60-dfe8-443b-a8ee-268944bd6569
+title: FaxJob.UserName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.UserName property
@@ -55,10 +60,10 @@ You can use the **UserName** property to retrieve the name of the person who ini
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> <dt>
 
 [**SenderName**](-mfax-ifaxjob-get-sendername-vb.md)

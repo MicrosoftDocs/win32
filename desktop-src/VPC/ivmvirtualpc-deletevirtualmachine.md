@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualPC DeleteVirtualMachine method
 description: Deletes a virtual machine configuration.
-ms.assetid: 'fc2562f3-6a83-4a40-b800-0bc2692beae8'
-keywords: ["DeleteVirtualMachine method Virtual PC", "DeleteVirtualMachine method Virtual PC , IVMVirtualPC interface", "IVMVirtualPC interface Virtual PC , DeleteVirtualMachine method"]
+ms.assetid: fc2562f3-6a83-4a40-b800-0bc2692beae8
+keywords:
+- DeleteVirtualMachine method Virtual PC
+- DeleteVirtualMachine method Virtual PC , IVMVirtualPC interface
+- IVMVirtualPC interface Virtual PC , DeleteVirtualMachine method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPC::DeleteVirtualMachine method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Deletes a virtual machine configuration.
 
@@ -24,7 +32,7 @@ Deletes a virtual machine configuration.
 
 ```C++
 HRESULT DeleteVirtualMachine(
-  [in] IVMVirtualMachine *virtualMachine
+  [in] IVMVirtualMachine *virtualMachine
 );
 ```
 
@@ -58,7 +66,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,9 +78,9 @@ Only stopped virtual machines can be deleted. Note that any existing saved state
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualPC is defined as 236ba0d9-a24a-4292-a132-27c1421dfd01<br/>               |
@@ -86,9 +94,9 @@ Only stopped virtual machines can be deleted. Note that any existing saved state
 [**IVMVirtualPC**](ivmvirtualpc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

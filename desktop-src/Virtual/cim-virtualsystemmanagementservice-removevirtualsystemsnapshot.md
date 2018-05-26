@@ -1,8 +1,11 @@
 ---
 title: RemoveVirtualSystemSnapshot method of the CIM\_VirtualSystemManagementService class
 description: Removes the specified snapshot from the virtual computer system.
-ms.assetid: '1730a089-c3a4-445e-bfe0-490b95e11a6a'
-keywords: ["RemoveVirtualSystemSnapshot method Hyper-V", "RemoveVirtualSystemSnapshot method Hyper-V , CIM_VirtualSystemManagementService class", "CIM_VirtualSystemManagementService class Hyper-V , RemoveVirtualSystemSnapshot method"]
+ms.assetid: 1730a089-c3a4-445e-bfe0-490b95e11a6a
+keywords:
+- RemoveVirtualSystemSnapshot method Hyper-V
+- RemoveVirtualSystemSnapshot method Hyper-V , CIM_VirtualSystemManagementService class
+- CIM_VirtualSystemManagementService class Hyper-V , RemoveVirtualSystemSnapshot method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveVirtualSystemSnapshot method of the CIM\_VirtualSystemManagementService class
@@ -22,8 +30,8 @@ Removes the specified snapshot from the virtual computer system.
 
 ```mof
 uint32 RemoveVirtualSystemSnapshot(
-  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -110,9 +118,9 @@ If this method is executed synchronously, it returns 0 if it succeeds. If this m
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

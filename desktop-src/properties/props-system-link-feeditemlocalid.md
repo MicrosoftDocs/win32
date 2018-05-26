@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'abfe0b70-1890-4b42-a0b3-83a14462510e'
-title: 'System.Link.FeedItemLocalId'
+Description: .
+ms.assetid: abfe0b70-1890-4b42-a0b3-83a14462510e
+title: System.Link.FeedItemLocalId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Link.FeedItemLocalId

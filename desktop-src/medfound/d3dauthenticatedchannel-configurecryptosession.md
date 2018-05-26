@@ -1,14 +1,19 @@
-﻿---
-Description: 'Contains input data for a D3DAUTHENTICATEDCONFIGURE\_CRYPTOSESSION command.'
-ms.assetid: 'eed5591d-20b0-495c-8c05-b9cb3b91deab'
-title: 'D3DAUTHENTICATEDCHANNEL\_CONFIGURECRYPTOSESSION structure'
+---
+Description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_CRYPTOSESSION command.
+ms.assetid: eed5591d-20b0-495c-8c05-b9cb3b91deab
+title: D3DAUTHENTICATEDCHANNEL\_CONFIGURECRYPTOSESSION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCHANNEL\_CONFIGURECRYPTOSESSION structure
 
 Contains input data for a [**D3DAUTHENTICATEDCONFIGURE\_CRYPTOSESSION**](d3dauthenticatedconfigure-cryptosession.md) command.
 
-To send this query, call [**IDirect3DAuthenticatedChannel9::Configure**](idirect3dauthenticatedchannel9-configure.md).
+To send this query, call [**IDirect3DAuthenticatedChannel9::Configure**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure?branch=master).
 
 ## Syntax
 
@@ -75,7 +80,7 @@ A handle to the Direct3D device.
 [Direct3D Video Structures](direct3d-video-structures.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Configure**](idirect3dauthenticatedchannel9-configure.md)
+[**IDirect3DAuthenticatedChannel9::Configure**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure?branch=master)
 </dt> </dl>
 
  

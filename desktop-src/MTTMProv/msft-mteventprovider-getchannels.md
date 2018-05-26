@@ -4,11 +4,14 @@ description: Gets all the event channels that are exported by this event provide
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7f6a32dc-6bb2-4732-8ddd-382c5f564828'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 7f6a32dc-6bb2-4732-8ddd-382c5f564828
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetChannels method", "GetChannels method, MSFT_MTEventProvider class", "MSFT_MTEventProvider class, GetChannels method"]
+keywords:
+- GetChannels method
+- GetChannels method, MSFT_MTEventProvider class
+- MSFT_MTEventProvider class, GetChannels method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MtTmProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetChannels method of the MSFT\_MTEventProvider class
@@ -28,7 +34,7 @@ Gets all the event channels that are exported by this event provider.
 
 ```mof
 uint32 GetChannels(
-  [out] MSFT_MTEventChannel Result[]
+  [out] MSFT_MTEventChannel Result[]
 );
 ```
 
@@ -51,8 +57,8 @@ uint32 GetChannels(
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                    |
 | MOF<br/>                      | <dl> <dt>MtTmProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MtTmProv.dll</dt> </dl> |
@@ -66,9 +72,9 @@ uint32 GetChannels(
 [**MSFT\_MTEventProvider**](msft-mteventprovider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

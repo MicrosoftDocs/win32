@@ -1,7 +1,12 @@
 ---
 title: Checking Media Support
 description: The following script examines characteristics of the media loaded in the disc device.
-ms.assetid: '05d88612-ff4c-4894-b838-a1d76923430c'
+ms.assetid: 05d88612-ff4c-4894-b838-a1d76923430c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Checking Media Support
@@ -181,16 +186,16 @@ End Sub
 [Using IMAPI](using-imapi.md)
 </dt> <dt>
 
-[**IMAPI\_MEDIA\_PHYSICAL\_TYPE**](imapi-media-physical-type.md)
+[**IMAPI\_MEDIA\_PHYSICAL\_TYPE**](/windows/win32/imapi2/ne-imapi2-_imapi_media_physical_type?branch=master)
 </dt> <dt>
 
-[**IDiscMaster2**](idiscmaster2.md)
+[**IDiscMaster2**](/windows/win32/imapi2/nn-imapi2-idiscmaster2?branch=master)
 </dt> <dt>
 
-[**IDiscRecorder2**](idiscrecorder2.md)
+[**IDiscRecorder2**](/windows/win32/imapi2/nn-imapi2-idiscrecorder2?branch=master)
 </dt> <dt>
 
-[**IDiscFormat2Data**](idiscformat2data.md)
+[**IDiscFormat2Data**](/windows/win32/imapi2/nn-imapi2-idiscformat2data?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia markerCount property
 description: The markerCount property gets the number of markers in the media item.
-ms.assetid: 'd1ccaa9b-98fb-4c53-8064-ee4bf718d18a'
-keywords: ["markerCount property Windows Media Player", "markerCount property Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , markerCount property"]
+ms.assetid: d1ccaa9b-98fb-4c53-8064-ee4bf718d18a
+keywords:
+- markerCount property Windows Media Player
+- markerCount property Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , markerCount property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::markerCount property
@@ -148,9 +156,9 @@ End If</code></pre></td>
 [**IWMPMedia Interface (VB and C#)**](iwmpmedia--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

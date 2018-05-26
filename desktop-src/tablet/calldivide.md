@@ -1,12 +1,17 @@
 ---
-Description: 'Retrieves analysis information from the InkDivider object.'
-ms.assetid: '1b073da4-80f4-48f4-8ff6-b21793c173a8'
+Description: Retrieves analysis information from the InkDivider object.
+ms.assetid: 1b073da4-80f4-48f4-8ff6-b21793c173a8
 title: CallDivide function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CallDivide function
 
-Retrieves analysis information from the [**InkDivider**](inkdivider-class.md) object.
+Retrieves analysis information from the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 This function is not intended to be used by application code.
 
@@ -15,14 +20,14 @@ This function is not intended to be used by application code.
 
 ```C++
 HRESULT WINAPI CallDivide(
-  _In_  INT_PTR hDivider,
-  _In_  int     *pWordSize,
-  _In_  int     *pLineSize,
-  _In_  int     *pParagraphSize,
-  _In_  int     *pDrawingSize,
-  _Out_ int     *pWordCount,
-  _Out_ int     *pLineCount,
-  _Out_ int     *pParagraphCount
+  _In_  INT_PTR hDivider,
+  _In_  int     *pWordSize,
+  _In_  int     *pLineSize,
+  _In_  int     *pParagraphSize,
+  _In_  int     *pDrawingSize,
+  _Out_ int     *pWordCount,
+  _Out_ int     *pLineCount,
+  _Out_ int     *pParagraphCount
 );
 ```
 
@@ -35,35 +40,35 @@ HRESULT WINAPI CallDivide(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](inkdivider-class.md) object.
+A handle to the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 </dd> <dt>
 
 *pWordSize* \[in\]
 </dt> <dd>
 
-The size of the word returned by the [**InkDivider**](inkdivider-class.md) object.
+The size of the word returned by the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 </dd> <dt>
 
 *pLineSize* \[in\]
 </dt> <dd>
 
-The size of the line returned by the [**InkDivider**](inkdivider-class.md) object.
+The size of the line returned by the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 </dd> <dt>
 
 *pParagraphSize* \[in\]
 </dt> <dd>
 
-The size of the paragraph returned by the [**InkDivider**](inkdivider-class.md) object.
+The size of the paragraph returned by the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 </dd> <dt>
 
 *pDrawingSize* \[in\]
 </dt> <dd>
 
-The size of the drawing returned by the [**InkDivider**](inkdivider-class.md) object.
+The size of the drawing returned by the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 </dd> <dt>
 
@@ -101,7 +106,7 @@ This function can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -109,15 +114,15 @@ This function can return one of these values.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | None supported<br/>                                                             |
 | Library<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

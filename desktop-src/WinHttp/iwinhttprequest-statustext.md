@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the HTTP status text.'
-ms.assetid: '480babbd-432c-4722-98df-a73ba5928e1f'
-title: 'IWinHttpRequest::StatusText property'
+Description: Retrieves the HTTP status text.
+ms.assetid: 480babbd-432c-4722-98df-a73ba5928e1f
+title: IWinHttpRequestStatusText property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::StatusText property
@@ -15,7 +20,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_StatusText(
-  [out, retval] BSTR *Status
+  [out, retval] BSTR *Status
 );
 ```
 
@@ -52,9 +57,9 @@ The return value is **S\_OK** on success or an error value otherwise.
 Retrieves the text portion of the server response line, making available the "user-friendly" equivalent to the numeric HTTP status code. The results of this property are valid only after the [**Send**](iwinhttprequest-send.md) method has successfully completed.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 ## Examples
 
@@ -185,9 +190,9 @@ WScript.Echo( WinHttpReq.GetAllResponseHeaders());
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -210,9 +215,9 @@ WScript.Echo( WinHttpReq.GetAllResponseHeaders());
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

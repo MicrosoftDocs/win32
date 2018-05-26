@@ -1,7 +1,12 @@
 ---
-Description: '4-Gigabyte Tuning: BCDEdit and Boot.ini'
-ms.assetid: '991eb86f-9e6f-4084-8b6f-f979e42104b5'
-title: '4-Gigabyte Tuning: BCDEdit and Boot.ini'
+Description: 4-Gigabyte Tuning BCDEdit and Boot.ini
+ms.assetid: 991eb86f-9e6f-4084-8b6f-f979e42104b5
+title: 4-Gigabyte Tuning BCDEdit and Boot.ini
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 4-Gigabyte Tuning: BCDEdit and Boot.ini
@@ -28,7 +33,7 @@ On 64-bit editions of Windows, 32-bit applications marked with the [**IMAGE\_FIL
 Use the following guidelines to support 4GT in applications:
 
 -   Addresses near the 2-GB boundary are typically used by various system DLLs. Therefore, a 32-bit process cannot allocate more than 2 GB of contiguous memory, even if the entire 4-GB address space is available.
--   To retrieve the amount of total user virtual space, use the [**GlobalMemoryStatusEx**](globalmemorystatusex.md) function. To retrieve the highest possible user address, use the [**GetSystemInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724381) function. Always detect the real value at runtime, and avoid using hard-wired constant definitions such as: `#define HIGHEST_USER_ADDRESS 0xC0000000`.
+-   To retrieve the amount of total user virtual space, use the [**GlobalMemoryStatusEx**](/windows/win32/WinBase/?branch=master) function. To retrieve the highest possible user address, use the [**GetSystemInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724381) function. Always detect the real value at runtime, and avoid using hard-wired constant definitions such as: `#define HIGHEST_USER_ADDRESS 0xC0000000`.
 -   Avoid signed comparisons with pointers, because they might cause applications to crash on a 4GT-enabled system. A condition such as the following is false for a pointer that is above 2 GB: `if (pointer > 40000000)`.
 -   Code that uses the highest bit of a pointer for an application-defined purpose will fail when 4GT is enabled. For example, a 32-bit word might be considered a user-mode address if it is below 0x80000000, and an error code if above. This is not true with 4GT.
 

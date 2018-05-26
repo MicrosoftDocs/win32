@@ -1,8 +1,13 @@
 ---
-Description: 'Glossary of Network Monitor terms that begin with the letter P.'
-Robots: 'noindex, nofollow'
-ms.assetid: 'e5f4c030-eb2b-4cc9-9032-9ad4701b6503'
+Description: Glossary of Network Monitor terms that begin with the letter P.
+Robots: noindex, nofollow
+ms.assetid: e5f4c030-eb2b-4cc9-9032-9ad4701b6503
 title: P
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # P

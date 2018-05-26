@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the collected strokes of ink within an ink space.'
-ms.assetid: '7c064ff9-e0d9-4be4-be83-c10bbfd71134'
+Description: Represents the collected strokes of ink within an ink space.
+ms.assetid: 7c064ff9-e0d9-4be4-be83-c10bbfd71134
 title: InkClass Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkClass Element

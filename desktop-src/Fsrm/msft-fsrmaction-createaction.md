@@ -4,11 +4,14 @@ description: Creates a new MSFT\_FSRMAction instance.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6f234d63-7cb2-4a03-b611-d0fe6f5258e5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 6f234d63-7cb2-4a03-b611-d0fe6f5258e5
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["CreateAction method File Server Resource Manager", "CreateAction method File Server Resource Manager , MSFT_FSRMAction class", "MSFT_FSRMAction class File Server Resource Manager , CreateAction method"]
+keywords:
+- CreateAction method File Server Resource Manager
+- CreateAction method File Server Resource Manager , MSFT_FSRMAction class
+- MSFT_FSRMAction class File Server Resource Manager , CreateAction method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateAction method of the MSFT\_FSRMAction class
@@ -28,22 +34,22 @@ Creates a new [**MSFT\_FSRMAction**](msft-fsrmaction.md) instance.
 
 ```mof
 uint64 CreateAction(
-  [in]  uint32          Type,
-  [in]  string          MailTo,
-  [in]  string          MailCC,
-  [in]  string          MailBCC,
-  [in]  string          Subject,
-  [in]  string          Body,
-  [in]  uint32          EventType,
-  [in]  string          Command,
-  [in]  string          WorkingDirectory,
-  [in]  string          CommandParameters,
-  [in]  uint32          SecurityLevel = LocalService,
-  [in]  sint32          KillTimeOut,
-  [in]  boolean         ShouldLogError,
-  [in]  uint32          ReportTypes[],
-  [in]  sint32          RunLimitInterval,
-  [out] MSFT_FSRMAction Action
+  [in]  uint32          Type,
+  [in]  string          MailTo,
+  [in]  string          MailCC,
+  [in]  string          MailBCC,
+  [in]  string          Subject,
+  [in]  string          Body,
+  [in]  uint32          EventType,
+  [in]  string          Command,
+  [in]  string          WorkingDirectory,
+  [in]  string          CommandParameters,
+  [in]  uint32          SecurityLevel = LocalService,
+  [in]  sint32          KillTimeOut,
+  [in]  boolean         ShouldLogError,
+  [in]  uint32          ReportTypes[],
+  [in]  sint32          RunLimitInterval,
+  [out] MSFT_FSRMAction Action
 );
 ```
 
@@ -56,7 +62,7 @@ uint64 CreateAction(
 *Type* \[in\]
 </dt> <dd>
 
-The type of the action, which determines the action that is taken in response to a quota or file screen event. See the [**FsrmActionType**](fsrmactiontype.md) enumeration.
+The type of the action, which determines the action that is taken in response to a quota or file screen event. See the [**FsrmActionType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmactiontype?branch=master) enumeration.
 
 <dt>
 
@@ -142,7 +148,7 @@ The content of the event or email. This parameter is used if the *Type* paramete
 *EventType* \[in\]
 </dt> <dd>
 
-The event type of the action. This parameter is used if the *Type* parameter is 1 (Event.) See the [**FsrmEventType**](fsrmeventtype.md) enumeration.
+The event type of the action. This parameter is used if the *Type* parameter is 1 (Event.) See the [**FsrmEventType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmeventtype?branch=master) enumeration.
 
 <dt>
 
@@ -193,28 +199,28 @@ The event type is an error.
 *Command* \[in\]
 </dt> <dd>
 
-The full path to the executable program or script to run. This parameter is used if the *Type* parameter is 3 (Command.) See the [**ExecutablePath**](ifsrmactioncommand-executablepath.md) property of [**IFsrmActionCommand**](ifsrmactioncommand.md).
+The full path to the executable program or script to run. This parameter is used if the *Type* parameter is 3 (Command.) See the [**ExecutablePath**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactioncommand-get_executablepath?branch=master) property of [**IFsrmActionCommand**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactioncommand?branch=master).
 
 </dd> <dt>
 
 *WorkingDirectory* \[in\]
 </dt> <dd>
 
-The working directory in which the executable program or script will run. This parameter is used if the *Type* parameter is 3 (Command.) See the [**WorkingDirectory**](ifsrmactioncommand-workingdirectory.md) property of [**IFsrmActionCommand**](ifsrmactioncommand.md).
+The working directory in which the executable program or script will run. This parameter is used if the *Type* parameter is 3 (Command.) See the [**WorkingDirectory**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactioncommand-get_workingdirectory?branch=master) property of [**IFsrmActionCommand**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactioncommand?branch=master).
 
 </dd> <dt>
 
 *CommandParameters* \[in\]
 </dt> <dd>
 
-The parameters for the executable program or script to be run. This parameter is used if the *Type* parameter is 3 (Command.) See the [**Arguments**](ifsrmactioncommand-arguments.md) property of [**IFsrmActionCommand**](ifsrmactioncommand.md).
+The parameters for the executable program or script to be run. This parameter is used if the *Type* parameter is 3 (Command.) See the [**Arguments**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactioncommand-get_arguments?branch=master) property of [**IFsrmActionCommand**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactioncommand?branch=master).
 
 </dd> <dt>
 
 *SecurityLevel* \[in\]
 </dt> <dd>
 
-The account under which the executable program or script will be run. This parameter is used if the *Type* parameter is 3 (Command.) See the [**FsrmAccountType**](fsrmaccounttype.md) enumeration.
+The account under which the executable program or script will be run. This parameter is used if the *Type* parameter is 3 (Command.) See the [**FsrmAccountType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmaccounttype?branch=master) enumeration.
 
 <dt>
 
@@ -265,21 +271,21 @@ The command will be run by the "LocalSystem" account.
 *KillTimeOut* \[in\]
 </dt> <dd>
 
-The timeout period, in minutes, after which the process created by the action will be terminated, or -1 (0xffffffff, the default value) if the process is not to be terminated. This parameter is used if the *Type* parameter is 3 (Command.) See the [**KillTimeOut**](ifsrmactioncommand-killtimeout.md) property of [**IFsrmActionCommand**](ifsrmactioncommand.md).
+The timeout period, in minutes, after which the process created by the action will be terminated, or -1 (0xffffffff, the default value) if the process is not to be terminated. This parameter is used if the *Type* parameter is 3 (Command.) See the [**KillTimeOut**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactioncommand-get_killtimeout?branch=master) property of [**IFsrmActionCommand**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactioncommand?branch=master).
 
 </dd> <dt>
 
 *ShouldLogError* \[in\]
 </dt> <dd>
 
-If **true**, error codes from executed commands are logged in the event log. This parameter is used if the *Type* parameter is 3 (Command. See the [**LogResult**](ifsrmactioncommand-logresult.md) property of [**IFsrmActionCommand**](ifsrmactioncommand.md).
+If **true**, error codes from executed commands are logged in the event log. This parameter is used if the *Type* parameter is 3 (Command. See the [**LogResult**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactioncommand-get_logresult?branch=master) property of [**IFsrmActionCommand**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactioncommand?branch=master).
 
 </dd> <dt>
 
 *ReportTypes* \[in\]
 </dt> <dd>
 
-Specifies the type of the report to be generated by this action. This parameter is used if the *Type* parameter is 4 (Report.) See the [**FsrmReportType**](fsrmreporttype.md) enumeration type.
+Specifies the type of the report to be generated by this action. This parameter is used if the *Type* parameter is 4 (Report.) See the [**FsrmReportType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmreporttype?branch=master) enumeration type.
 
 <dt>
 
@@ -403,7 +409,7 @@ Receives a [**MSFT\_FSRMAction**](msft-fsrmaction.md) instance upon successful c
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | Header<br/>                   | <dl> <dt>Fsrmscreen.h</dt> </dl>   |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
@@ -418,9 +424,9 @@ Receives a [**MSFT\_FSRMAction**](msft-fsrmaction.md) instance upon successful c
 [**MSFT\_FSRMAction**](msft-fsrmaction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

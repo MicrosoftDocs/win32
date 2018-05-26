@@ -4,11 +4,14 @@ description: Signature of a Physical Disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f8fae469-9259-4191-8af4-a7d408ce6667'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f8fae469-9259-4191-8af4-a7d408ce6667
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Signature property Failover Cluster", "Signature property Failover Cluster , ClusDisk object", "ClusDisk object Failover Cluster , Signature property"]
+keywords:
+- Signature property Failover Cluster
+- Signature property Failover Cluster , ClusDisk object
+- ClusDisk object Failover Cluster , Signature property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusDisk.Signature property
@@ -47,7 +53,7 @@ ClusDisk.Signature
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -72,9 +78,9 @@ ClusDisk.Signature
 [**ClusDisk.ScsiAddress**](clusdisk-scsiaddress.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

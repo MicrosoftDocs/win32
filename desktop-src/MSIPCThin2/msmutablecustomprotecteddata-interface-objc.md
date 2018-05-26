@@ -4,17 +4,21 @@ description: Provides a mutable custom protected data object that can be used to
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fc7a8c55-da96-4937-8011-ff12e61ec231'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: fc7a8c55-da96-4937-8011-ff12e61ec231
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSMutableCustomProtectedData class"]
+keywords:
+- MSMutableCustomProtectedData class
 topic_type:
 - apiref
 api_name:
 - MSMutableCustomProtectedData class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMutableCustomProtectedData class
@@ -24,7 +28,7 @@ Provides a mutable custom protected data object that can be used to encrypt a bl
 > \[!Important\]  
 > RMS applications that use **MSMutableCustomProtectedData** may be incompatible with SharePoint, Exchange, and other RMS applications. For most applications, it is recommended that you use [**MSMutableProtectedData**](msmutableprotecteddata-interface-objc.md) instead.
 
- 
+ 
 
 ## Signature
 
@@ -42,7 +46,7 @@ Provides a mutable custom protected data object that can be used to encrypt a bl
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -58,7 +62,7 @@ MSMutableCustomProtectedData.h
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,9 +85,9 @@ Data written using this class must be 16-byte aligned.
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

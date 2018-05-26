@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a literal status of a parameter. A literal parameter has a value that doesn''t change during the lifetime of an effect.'
-ms.assetid: '417abbee-5193-462e-b0d1-b4928ad0a041'
-title: 'ID3DXEffectCompiler::GetLiteral method'
+---
+Description: Gets a literal status of a parameter. A literal parameter has a value that doesnt change during the lifetime of an effect.
+ms.assetid: 417abbee-5193-462e-b0d1-b4928ad0a041
+title: ID3DXEffectCompilerGetLiteral method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffectCompiler::GetLiteral method

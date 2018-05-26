@@ -1,7 +1,12 @@
 ---
-Description: 'Imports the initial replication for a virtual machine.'
-ms.assetid: '151211fe-e58e-4fd4-87cd-cdb2ad55c0b1'
-title: 'ImportInitialReplica method of the Msvm\_ReplicationService class'
+Description: Imports the initial replication for a virtual machine.
+ms.assetid: 151211fe-e58e-4fd4-87cd-cdb2ad55c0b1
+title: ImportInitialReplica method of the Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImportInitialReplica method of the Msvm\_ReplicationService class
@@ -13,9 +18,9 @@ Imports the initial replication for a virtual machine.
 
 ```mof
 uint32 ImportInitialReplica(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  string                 InitialReplicationImportLocation,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  string                 InitialReplicationImportLocation,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -100,8 +105,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -115,9 +120,9 @@ This method returns one of the following values.
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

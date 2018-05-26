@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WriteGrfFile method writes a filter graph to a file in .grf format.'
-ms.assetid: '2064d2d7-34ac-465c-ae09-d125c670d0e8'
-title: 'IXml2Dex::WriteGrfFile method'
+---
+Description: The WriteGrfFile method writes a filter graph to a file in .grf format.
+ms.assetid: 2064d2d7-34ac-465c-ae09-d125c670d0e8
+title: IXml2DexWriteGrfFile method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXml2Dex::WriteGrfFile method

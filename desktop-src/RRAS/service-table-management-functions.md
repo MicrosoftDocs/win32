@@ -1,34 +1,39 @@
 ---
 title: Service Table Management Functions
 description: Use the following functions for routing protocols that register for service handling.
-ms.assetid: 'eb31f1ad-5761-4112-8c05-51a627b9e0b7'
+ms.assetid: eb31f1ad-5761-4112-8c05-51a627b9e0b7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service Table Management Functions
 
 Use the following functions for routing protocols that register for service handling.
 
-[**BlockConvertServicesToStatic**](blockconvertservicestostatic.md)
+[**BlockConvertServicesToStatic**](/windows/win32/Stm/nc-stm-pblock_convert_services_to_static?branch=master)
 
-[**BlockDeleteStaticServices**](blockdeletestaticservices.md)
+[**BlockDeleteStaticServices**](/windows/win32/Stm/nc-stm-pblock_delete_static_services?branch=master)
 
-[**CloseServiceEnumerationHandle**](closeserviceenumerationhandle.md)
+[**CloseServiceEnumerationHandle**](/windows/win32/Stm/nc-stm-pclose_service_enumeration_handle?branch=master)
 
-[**CreateServiceEnumerationHandle**](createserviceenumerationhandle.md)
+[**CreateServiceEnumerationHandle**](/windows/win32/Stm/nc-stm-pcreate_service_enumeration_handle?branch=master)
 
-[**CreateStaticService**](createstaticservice.md)
+[**CreateStaticService**](/windows/win32/Stm/nc-stm-pcreate_static_service?branch=master)
 
-[**DeleteStaticService**](deletestaticservice.md)
+[**DeleteStaticService**](/windows/win32/Stm/nc-stm-pdelete_static_service?branch=master)
 
-[**EnumerateGetNextService**](enumerategetnextservice.md)
+[**EnumerateGetNextService**](/windows/win32/Stm/nc-stm-penumerate_get_next_service?branch=master)
 
-[**GetFirstOrderedService**](getfirstorderedservice.md)
+[**GetFirstOrderedService**](/windows/win32/Stm/nc-stm-pget_first_ordered_service?branch=master)
 
-[**GetNextOrderedService**](getnextorderedservice.md)
+[**GetNextOrderedService**](/windows/win32/Stm/nc-stm-pget_next_ordered_service?branch=master)
 
-[**GetServiceCount**](getservicecount.md)
+[**GetServiceCount**](/windows/win32/Stm/nc-stm-pget_service_count?branch=master)
 
-[**IsService**](isservice.md)
+[**IsService**](/windows/win32/Stm/nc-stm-pis_service?branch=master)
 
  
 

@@ -1,8 +1,9 @@
 ---
 title: ICM\_SETQUALITY message
 description: The ICM\_SETQUALITY message provides a video compression driver with a quality level to use during compression.
-ms.assetid: '487ff1de-7178-440a-b38d-0b82a30d7297'
-keywords: ["ICM_SETQUALITY message Windows Multimedia"]
+ms.assetid: 487ff1de-7178-440a-b38d-0b82a30d7297
+keywords:
+- ICM_SETQUALITY message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_SETQUALITY message
@@ -47,8 +53,8 @@ Returns ICERR\_OK if the driver supports this message or ICERR\_UNSUPPORTED othe
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -63,9 +69,9 @@ Returns ICERR\_OK if the driver supports this message or ICERR\_UNSUPPORTED othe
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

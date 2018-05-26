@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CreateEmptyNode method creates a new timeline object.'
-ms.assetid: '64184bfd-6f93-4865-81e7-b1ed7b7148aa'
-title: 'IAMTimeline::CreateEmptyNode method'
+---
+Description: The CreateEmptyNode method creates a new timeline object.
+ms.assetid: 64184bfd-6f93-4865-81e7-b1ed7b7148aa
+title: IAMTimelineCreateEmptyNode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::CreateEmptyNode method

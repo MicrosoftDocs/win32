@@ -1,20 +1,25 @@
 ---
-Description: 'Proxy function for the GetFrameCount method.'
-ms.assetid: '2103af73-60a2-4c1c-8db2-7dfd474440eb'
-title: 'IWICBitmapDecoder\_GetFrameCount\_Proxy function'
+Description: Proxy function for the GetFrameCount method.
+ms.assetid: 2103af73-60a2-4c1c-8db2-7dfd474440eb
+title: IWICBitmapDecoder\_GetFrameCount\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICBitmapDecoder\_GetFrameCount\_Proxy function
 
-Proxy function for the [**GetFrameCount**](-wic-codec-iwicbitmapdecoder-getframecount.md) method.
+Proxy function for the [**GetFrameCount**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-getframecount?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICBitmapDecoder_GetFrameCount_Proxy(
-  _In_  IWICBitmapDecoder *THIS_PTR,
-  _Out_ UINT              *pCount
+  _In_  IWICBitmapDecoder *THIS_PTR,
+  _Out_ UINT              *pCount
 );
 ```
 
@@ -27,9 +32,9 @@ HRESULT IWICBitmapDecoder_GetFrameCount_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md)\***
+Type: **[**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master)\***
 
-Pointer to this [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) object.
+Pointer to this [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) object.
 
 </dd> <dt>
 
@@ -56,15 +61,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

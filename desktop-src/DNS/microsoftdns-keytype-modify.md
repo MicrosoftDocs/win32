@@ -1,8 +1,11 @@
 ---
 title: Modify method of the MicrosoftDNS\_KEYType class
 description: The Modify method updates a KEY Resource Record.
-ms.assetid: '0ea1e0e5-ccd1-4800-b0c3-27795c36250c'
-keywords: ["Modify method DNS", "Modify method DNS , MicrosoftDNS_KEYType class", "MicrosoftDNS_KEYType class DNS , Modify method"]
+ms.assetid: 0ea1e0e5-ccd1-4800-b0c3-27795c36250c
+keywords:
+- Modify method DNS
+- Modify method DNS , MicrosoftDNS_KEYType class
+- MicrosoftDNS_KEYType class DNS , Modify method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modify method of the MicrosoftDNS\_KEYType class
@@ -22,12 +30,12 @@ The **Modify** method updates a KEY Resource Record.
 
 ```mof
 void Modify(
-  [in, optional] uint32               TTL,
-  [in, optional] uint16               Flags,
-  [in, optional] uint16               Protocol,
-  [in, optional] uint16               Algorithm,
-  [in, optional] string               PublicKey,
-  [out, ref]     MicrosoftDNS_KEYType &amp;RR
+  [in, optional] uint32               TTL,
+  [in, optional] uint16               Flags,
+  [in, optional] uint16               Protocol,
+  [in, optional] uint16               Algorithm,
+  [in, optional] string               PublicKey,
+  [out, ref]     MicrosoftDNS_KEYType &amp;RR
 );
 ```
 
@@ -68,7 +76,7 @@ Protocol for which the key specified in the RR can be used. The assigned values 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -88,7 +96,7 @@ Algorithm used with the key specified in the resource record. The assigned value
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -121,7 +129,7 @@ Any parameter not specified is left unchanged in the modified record.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -140,9 +148,9 @@ Any parameter not specified is left unchanged in the modified record.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

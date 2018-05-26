@@ -1,6 +1,11 @@
 ---
-Description: 'This section discusses the creation of shortcut (context) menus, and the implementation of shortcut menu (verb) handlers.'
-title: 'Shortcut (Context) Menus and Shortcut Menu Handlers'
+Description: This section discusses the creation of shortcut (context) menus, and the implementation of shortcut menu (verb) handlers.
+title: Shortcut (Context) Menus and Shortcut Menu Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shortcut (Context) Menus and Shortcut Menu Handlers
@@ -34,7 +39,7 @@ For related reference documenation, see the following topics:
 
 -   To execute a verb on a Shell item, see the [**InvokeVerb**](folderitem-invokeverb.md) method.
 -   To retrieve a collection of verbs that can be executed on a Shell item, see the [**Verbs**](folderitem-verbs.md) method.
--   To perform an operation on a specified file, see either the [**ShellExecute**](shellexecute.md) or [**ShellExecuteEx**](shellexecuteex.md) functions.
+-   To perform an operation on a specified file, see either the [**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master) or [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) functions.
 
  
 

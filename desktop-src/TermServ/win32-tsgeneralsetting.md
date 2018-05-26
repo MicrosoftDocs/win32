@@ -4,11 +4,13 @@ description: Represents general settings of the terminal such as the encryption 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a31d68c0-e446-4d78-85e0-5173e7870255'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a31d68c0-e446-4d78-85e0-5173e7870255
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSGeneralSetting class Remote Desktop Services", "Win32_TSGeneralSetting class Remote Desktop Services , described"]
+keywords:
+- Win32_TSGeneralSetting class Remote Desktop Services
+- Win32_TSGeneralSetting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSGeneralSetting class
@@ -51,26 +56,26 @@ The following syntax is simplified from MOF code and includes all defined and in
 [dynamic, provider("Win32_WIN32_TSGENERALSETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer\\WinStations"), AMENDMENT]
 class Win32_TSGeneralSetting : Win32_TerminalSetting
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   TerminalName;
-  string   CertificateName;
-  uint8    Certificates[];
-  string   Comment;
-  uint32   MinEncryptionLevel;
-  uint32   PolicySourceMinEncryptionLevel;
-  uint32   PolicySourceSecurityLayer;
-  uint32   PolicySourceUserAuthenticationRequired;
-  uint32   SecurityLayer;
-  string   SSLCertificateSHA1Hash;
-  uint32   SSLCertificateSHA1HashType;
-  string   TerminalProtocol;
-  string   Transport;
-  uint32   UserAuthenticationRequired;
-  uint32   WindowsAuthentication;
+  string   Name;
+  string   Status;
+  string   TerminalName;
+  string   CertificateName;
+  uint8    Certificates[];
+  string   Comment;
+  uint32   MinEncryptionLevel;
+  uint32   PolicySourceMinEncryptionLevel;
+  uint32   PolicySourceSecurityLayer;
+  uint32   PolicySourceUserAuthenticationRequired;
+  uint32   SecurityLayer;
+  string   SSLCertificateSHA1Hash;
+  uint32   SSLCertificateSHA1HashType;
+  string   TerminalProtocol;
+  string   Transport;
+  uint32   UserAuthenticationRequired;
+  uint32   WindowsAuthentication;
 };
 ```
 
@@ -95,7 +100,7 @@ The **Win32\_TSGeneralSetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -714,8 +719,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -729,9 +734,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalSetting**](win32-terminalsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

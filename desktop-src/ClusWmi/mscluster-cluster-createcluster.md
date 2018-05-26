@@ -4,13 +4,16 @@ description: Creates a cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0b4aee95-1752-43bf-9038-0d7e2cdba7e7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0b4aee95-1752-43bf-9038-0d7e2cdba7e7
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateCluster method", "CreateCluster method, MSCluster_Cluster class", "MSCluster_Cluster class, CreateCluster method"]
+keywords:
+- CreateCluster method
+- CreateCluster method, MSCluster_Cluster class
+- MSCluster_Cluster class, CreateCluster method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateCluster method of the MSCluster\_Cluster class
@@ -30,11 +36,11 @@ Creates a cluster.
 
 ```mof
 void CreateCluster(
-  [in] string ClusterName,
-  [in] string NodeNames[],
-  [in] string IPAddresses[],
-  [in] string SubnetMasks[],
-  [in] uint32 AdministrativeAccessPoint
+  [in] string ClusterName,
+  [in] string NodeNames[],
+  [in] string IPAddresses[],
+  [in] string SubnetMasks[],
+  [in] uint32 AdministrativeAccessPoint
 );
 ```
 
@@ -77,9 +83,9 @@ IP address subnet masks or prefix lengths that the cluster will use.
 
 The type of the cluster management point.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This parameter is not supported before Windows Server 2016.
+This parameter is not supported before Windows Server 2016.
 
 <dt>
 
@@ -221,7 +227,7 @@ End Function
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Clusapi.h</dt> </dl>   |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
@@ -236,9 +242,9 @@ End Function
 [**MSCluster\_Cluster**](mscluster-cluster.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

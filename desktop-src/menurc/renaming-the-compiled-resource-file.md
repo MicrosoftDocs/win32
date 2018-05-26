@@ -1,7 +1,12 @@
 ---
 title: Renaming the Compiled Resource File
 description: By default, when compiling resources, RC names the compiled resource (.res) file with the base name of the .rc file and places it in the same directory as the .rc file.
-ms.assetid: 'be120032-666f-4627-8f98-96bde7c55fa4'
+ms.assetid: be120032-666f-4627-8f98-96bde7c55fa4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Renaming the Compiled Resource File

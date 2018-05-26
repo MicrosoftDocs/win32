@@ -1,7 +1,12 @@
 ---
-Description: 'This topic contains code for the tutorial How to Play Media Files with Media Foundation.'
-ms.assetid: '18715721-f1cd-40c7-a6b7-4bd911ff999d'
-title: 'player.cpp'
+Description: This topic contains code for the tutorial How to Play Media Files with Media Foundation.
+ms.assetid: 18715721-f1cd-40c7-a6b7-4bd911ff999d
+title: player.cpp
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # player.cpp

@@ -1,14 +1,20 @@
 ---
 title: MINIMIZEBUTTON
 description: This is a predefined BUTTON with the following default values.
-ms.assetid: '4a4054d0-1879-4fa4-b925-341ea1111774'
-keywords: ["MINIMIZEBUTTON Windows Media Player"]
+ms.assetid: 4a4054d0-1879-4fa4-b925-341ea1111774
+keywords:
+- MINIMIZEBUTTON Windows Media Player
 topic_type:
 - apiref
 api_name:
 - MINIMIZEBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MINIMIZEBUTTON
@@ -41,9 +47,9 @@ This will create a **BUTTON** control that will minimize the Player. The ToolTip
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TDN\_HYPERLINK\_CLICKED notification code
 description: Sent by a task dialog when the user clicks a hyperlink in the task dialog content. This notification code is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
-ms.assetid: 'b769af31-32d0-463e-be15-6abf5dcb425c'
-keywords: ["TDN_HYPERLINK_CLICKED notification code Windows Controls"]
+ms.assetid: b769af31-32d0-463e-be15-6abf5dcb425c
+keywords:
+- TDN_HYPERLINK_CLICKED notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDN\_HYPERLINK\_CLICKED notification code
 
-Sent by a task dialog when the user clicks a hyperlink in the task dialog content. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method.
+Sent by a task dialog when the user clicks a hyperlink in the task dialog content. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method.
 
 
 ```C++
@@ -55,15 +61,15 @@ The return value is ignored.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

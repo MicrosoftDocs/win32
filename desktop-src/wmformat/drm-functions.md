@@ -1,8 +1,18 @@
 ---
 title: Functions
 description: Functions
-ms.assetid: '5d726c56-d0f3-4eb8-829f-3a0c1a0e0802'
-keywords: ["Windows Media Format SDK,functions", "digital rights management (DRM),functions", "DRM (digital rights management),functions", "DRM Client Extended APIs,functions", "Client Extended APIs,functions"]
+ms.assetid: 5d726c56-d0f3-4eb8-829f-3a0c1a0e0802
+keywords:
+- Windows Media Format SDK,functions
+- digital rights management (DRM),functions
+- DRM (digital rights management),functions
+- DRM Client Extended APIs,functions
+- Client Extended APIs,functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Functions

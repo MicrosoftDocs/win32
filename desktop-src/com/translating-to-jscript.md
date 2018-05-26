@@ -1,7 +1,12 @@
 ---
 title: Translating to JScript
 description: Translating to JScript
-ms.assetid: 'cf40a261-967a-47cc-970a-27e3178120c2'
+ms.assetid: cf40a261-967a-47cc-970a-27e3178120c2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating to JScript

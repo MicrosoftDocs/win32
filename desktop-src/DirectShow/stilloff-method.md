@@ -1,7 +1,12 @@
 ---
-Description: 'The StillOff method resumes playback, canceling still mode.'
-ms.assetid: '62091aad-8a78-4543-a844-a4227aed81df'
+Description: The StillOff method resumes playback, canceling still mode.
+ms.assetid: 62091aad-8a78-4543-a844-a4227aed81df
 title: StillOff Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StillOff Method

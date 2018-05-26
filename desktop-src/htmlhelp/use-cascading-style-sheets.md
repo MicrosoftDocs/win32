@@ -1,7 +1,12 @@
 ---
 title: Use Cascading Style Sheets
 description: Use Cascading Style Sheets
-ms.assetid: '85ADF426-A25A-4577-9612-CCF6F3DE20E3'
+ms.assetid: 85ADF426-A25A-4577-9612-CCF6F3DE20E3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use Cascading Style Sheets

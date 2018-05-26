@@ -1,14 +1,20 @@
 ---
 title: RequiresDisplay element
 description: The assessment must be displayed.
-ms.assetid: '9CB01AAD-BD82-4668-83A4-E9C9A489BEFE'
-keywords: ["RequiresDisplay element Access Execution Engine"]
+ms.assetid: 9CB01AAD-BD82-4668-83A4-E9C9A489BEFE
+keywords:
+- RequiresDisplay element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RequiresDisplay
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresDisplay element

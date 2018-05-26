@@ -2,7 +2,12 @@
 title: T
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: '9006a76f-11db-4e8c-9133-c335af7fe5ff'
+ms.assetid: 9006a76f-11db-4e8c-9133-c335af7fe5ff
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # T

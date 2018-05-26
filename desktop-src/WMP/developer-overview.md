@@ -1,8 +1,32 @@
 ---
 title: Developer Overview
 description: Developer Overview
-ms.assetid: '72a330b4-5957-4159-b5e8-0c9a4491b589'
-keywords: ["Windows Media Player plug-ins,visualizations", "plug-ins,visualizations", "visualizations,developer overview", "custom visualizations,developer overview", "visualizations,COM controls", "custom visualizations,COM controls", "visualizations,audio input", "custom visualizations,audio input", "visualizations,graphical output", "custom visualizations,graphical output", "visualizations,drawing tools", "custom visualizations,drawing tools", "visualizations,programming language", "custom visualizations,programming language", "visualizations,Visual C++", "custom visualizations,Visual C++", "visualizations,plug-in wizard", "custom visualizations,plug-in wizard", "plug-in wizard"]
+ms.assetid: 72a330b4-5957-4159-b5e8-0c9a4491b589
+keywords:
+- Windows Media Player plug-ins,visualizations
+- plug-ins,visualizations
+- visualizations,developer overview
+- custom visualizations,developer overview
+- visualizations,COM controls
+- custom visualizations,COM controls
+- visualizations,audio input
+- custom visualizations,audio input
+- visualizations,graphical output
+- custom visualizations,graphical output
+- visualizations,drawing tools
+- custom visualizations,drawing tools
+- visualizations,programming language
+- custom visualizations,programming language
+- visualizations,Visual C++
+- custom visualizations,Visual C++
+- visualizations,plug-in wizard
+- custom visualizations,plug-in wizard
+- plug-in wizard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developer Overview

@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.statusColor
 description: The statusColor attribute specifies or retrieves the color of the status line in the PLAYLIST element.
-ms.assetid: '31e32a69-1b77-42fe-9edc-45532ee51c27'
-keywords: ["PLAYLIST.statusColor Windows Media Player"]
+ms.assetid: 31e32a69-1b77-42fe-9edc-45532ee51c27
+keywords:
+- PLAYLIST.statusColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.statusColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.statusColor
@@ -46,9 +52,9 @@ This attribute is a read/write **String** containing any Microsoft Internet Expl
 [**PLAYLIST.backgroundImage**](playlist-backgroundimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

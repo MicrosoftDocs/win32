@@ -1,8 +1,9 @@
 ---
 title: LVN\_ENDSCROLL message
-description: Notifies a list-view control's parent window when a scrolling operation ends. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '2838dcd0-ac0f-48c7-94ba-dc36febedb94'
-keywords: ["LVN_ENDSCROLL message Windows Controls"]
+description: Notifies a list-view controls parent window when a scrolling operation ends. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 2838dcd0-ac0f-48c7-94ba-dc36febedb94
+keywords:
+- LVN_ENDSCROLL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVN\_ENDSCROLL message
@@ -33,7 +39,7 @@ LVN_ENDSCROLL
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**NMLVSCROLL**](nmlvscroll.md) structure that contains the horizontal or vertical position of where the scroll operation ends.
+Pointer to a [**NMLVSCROLL**](/windows/win32/Commctrl/ns-commctrl-tagnmlvscroll?branch=master) structure that contains the horizontal or vertical position of where the scroll operation ends.
 
 </dd> </dl>
 
@@ -46,7 +52,7 @@ Return value not used.
 > [!Note]  
 > To use this notification code, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -54,15 +60,15 @@ Return value not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Logging LogDiscreteOperation method
-description: This method logs a discrete event to the AXE engine’s pre-configured ETW session.
-ms.assetid: 'ee464a68-e707-4218-91ac-e3ab6bedbbf3'
-keywords: ["LogDiscreteOperation method Access Execution Engine", "LogDiscreteOperation method Access Execution Engine , Logging interface", "Logging interface Access Execution Engine , LogDiscreteOperation method"]
+description: This method logs a discrete event to the AXE engine s pre-configured ETW session.
+ms.assetid: ee464a68-e707-4218-91ac-e3ab6bedbbf3
+keywords:
+- LogDiscreteOperation method Access Execution Engine
+- LogDiscreteOperation method Access Execution Engine , Logging interface
+- Logging interface Access Execution Engine , LogDiscreteOperation method
 topic_type:
 - apiref
 api_name:
@@ -11,21 +14,26 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Logging::LogDiscreteOperation method
 
-This method logs a discrete event to the AXE engine’s pre-configured ETW session.
+This method logs a discrete event to the AXE engine s pre-configured ETW session.
 
 ## Syntax
 
 
 ```C++
 virtual HRESULT LogDiscreteOperation(
-  [in]           UINT    operationId,
-  [in, optional] LPCWSTR message,
-  [in]           UINT    blobSize,
-  [in, optional] BYTE    *blob
+  [in]           UINT    operationId,
+  [in, optional] LPCWSTR message,
+  [in]           UINT    blobSize,
+  [in, optional] BYTE    *blob
 ) = 0;
 ```
 
@@ -69,7 +77,7 @@ If the function succeeds, the return is **S\_OK**. If *blob* is not **NULL** whe
 
 ## Remarks
 
-Calling this API logs the *operationId*, *message* and the blob to AXE’s pre-configured ETW session as the session’s **ASSESSMENT\_DISCRETE\_OPERATION** event. Assessments should end the session with a call to [**LogEndOperation**](logging-logendoperation.md).
+Calling this API logs the *operationId*, *message* and the blob to AXE s pre-configured ETW session as the session s **ASSESSMENT\_DISCRETE\_OPERATION** event. Assessments should end the session with a call to [**LogEndOperation**](logging-logendoperation.md).
 
 It is strongly recommended that the Begin and End operation events be logged as pairs matched by Id. If they are not matched, ETW trace processing tools and data viewers will not be able to analyze paired events.
 
@@ -81,8 +89,8 @@ Managed code uses the [**Logging.LogDiscreteOperation**](axe-logging_logdiscrete
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>AxeCore.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl> |
 
@@ -95,9 +103,9 @@ Managed code uses the [**Logging.LogDiscreteOperation**](axe-logging_logdiscrete
 [**Logging**](logging.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: mips.Operator\ \ \ \ function
 description: Returns a read-only resource variable or a Texture1D.
-ms.assetid: '0b64f0d3-f9a1-474b-b229-d91d18922d5c'
-keywords: ["mips.Operator function HLSL"]
+ms.assetid: 0b64f0d3-f9a1-474b-b229-d91d18922d5c
+keywords:
+- mips.Operator function HLSL
 topic_type:
 - apiref
 api_name:
 - mips.Operator
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mips.Operator\[\]\[\] function

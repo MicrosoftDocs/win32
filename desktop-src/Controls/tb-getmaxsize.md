@@ -1,8 +1,9 @@
 ---
 title: TB\_GETMAXSIZE message
 description: Retrieves the total size of all of the visible buttons and separators in the toolbar.
-ms.assetid: '560e6ce2-00ef-46c3-b1d8-fbe0ac79c888'
-keywords: ["TB_GETMAXSIZE message Windows Controls"]
+ms.assetid: 560e6ce2-00ef-46c3-b1d8-fbe0ac79c888
+keywords:
+- TB_GETMAXSIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETMAXSIZE message
@@ -41,15 +47,15 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

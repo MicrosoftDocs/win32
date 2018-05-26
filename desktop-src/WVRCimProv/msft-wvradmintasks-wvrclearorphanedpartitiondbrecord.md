@@ -4,13 +4,19 @@ description: Removes orphaned Storage Replica metadata from the Storage Replica 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '61e5bb63-a735-49bb-9dae-8a888d801417'
-ms.prod: 'windows-server-dev'
+ms.assetid: 61e5bb63-a735-49bb-9dae-8a888d801417
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WvrClearOrphanedPartitionDbRecord method", "WvrClearOrphanedPartitionDbRecord method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, WvrClearOrphanedPartitionDbRecord method"]
+keywords:
+- WvrClearOrphanedPartitionDbRecord method
+- WvrClearOrphanedPartitionDbRecord method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, WvrClearOrphanedPartitionDbRecord method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WvrClearOrphanedPartitionDbRecord method of the MSFT\_WvrAdminTasks class
@@ -22,8 +28,8 @@ Removes orphaned Storage Replica metadata from the Storage Replica partition dat
 
 ```mof
 uint32 WvrClearOrphanedPartitionDbRecord(
-  [in]  MSFT_WvrPartitionDbRecord OrphanedDbRecord,
-  [out] boolean                   RebootRequired
+  [in]  MSFT_WvrPartitionDbRecord OrphanedDbRecord,
+  [out] boolean                   RebootRequired
 );
 ```
 
@@ -54,7 +60,7 @@ TBD
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>Wvrcimprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wvrcimprov.dll</dt> </dl> |
@@ -68,9 +74,9 @@ TBD
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

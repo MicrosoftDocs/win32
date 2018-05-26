@@ -1,7 +1,12 @@
 ---
-Description: 'Describes development considerations for developers writing applications for clients or devices communicating over a secure channel.'
-ms.assetid: 'c2180f42-bce5-420d-8a3e-b6e6f41e8339'
+Description: Describes development considerations for developers writing applications for clients or devices communicating over a secure channel.
+ms.assetid: c2180f42-bce5-420d-8a3e-b6e6f41e8339
 title: Using WSDAPI with a Secure Channel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WSDAPI with a Secure Channel
@@ -31,7 +36,7 @@ If a device requires authentication, the Windows Vista client must have a certi
 
 To receive event messages from the device over a secure channel, the Windows Vista client should also have a server certificate that can be used to accept an SSL/TLS connection from the device on the port used for event notifications. It is possible to have one certificate that is used for both roles.
 
-For more information about addressing and port selection when creating a device proxy for use in your client application, see [**WSDCreateDeviceProxy**](wsdcreatedeviceproxy.md) and [**WSDCreateDeviceProxyAdvanced**](wsdcreatedeviceproxyadvanced.md).
+For more information about addressing and port selection when creating a device proxy for use in your client application, see [**WSDCreateDeviceProxy**](/windows/win32/WsdClient/nf-wsdclient-wsdcreatedeviceproxy?branch=master) and [**WSDCreateDeviceProxyAdvanced**](/windows/win32/WsdClient/nf-wsdclient-wsdcreatedeviceproxyadvanced?branch=master).
 
 ## Implementation Considerations for Host Application Developers
 
@@ -39,7 +44,7 @@ You can create a host application using WSDAPI that accepts connections from cli
 
 If no port is specified in the device identifier advertised by a host application, then secure communication takes place over port 443 if the device ID is an HTTPS URL. It is recommended that the device identifier explicitly specify port 5358, as this port is reserved for secure connections with WSDAPI.
 
-For more information about addressing and port selection when creating a device host, see [**WSDCreateDeviceHost**](wsdcreatedevicehost.md) and [**WSDCreateDeviceHostAdvanced**](wsdcreatedevicehostadvanced.md).
+For more information about addressing and port selection when creating a device host, see [**WSDCreateDeviceHost**](/windows/win32/WsdHost/nf-wsdhost-wsdcreatedevicehost?branch=master) and [**WSDCreateDeviceHostAdvanced**](/windows/win32/WsdHost/nf-wsdhost-wsdcreatedevicehostadvanced?branch=master).
 
 ## Related topics
 

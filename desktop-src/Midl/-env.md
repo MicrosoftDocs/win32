@@ -2,13 +2,19 @@
 title: /env switch
 description: The /env switch selects the environment in which the application runs.
 ms.assetid: 70a548c8-fdc3-48f3-a865-14ba9b29fb02
-keywords: ["/env switch MIDL"]
+keywords:
+- /env switch MIDL
 topic_type:
 - apiref
 api_name:
 - /env
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /env switch

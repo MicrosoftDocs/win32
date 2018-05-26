@@ -4,17 +4,21 @@ description: Information for the document tracking feature.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '6D2AEF01-70A9-47BB-BAA4-70ADF7690C18'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 6D2AEF01-70A9-47BB-BAA4-70ADF7690C18
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["LicenseMetadata interface"]
+keywords:
+- LicenseMetadata interface
 topic_type:
 - apiref
 api_name:
 - LicenseMetadata interface
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LicenseMetadata interface
@@ -53,7 +57,7 @@ public class LicenseMetadata implements Serializable
 
 
 
- 
+ 
 
 ## Supported Platforms
 
@@ -65,7 +69,7 @@ public class LicenseMetadata implements Serializable
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -79,9 +83,9 @@ com.microsoft.rightsmanagement
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

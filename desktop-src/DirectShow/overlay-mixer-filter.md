@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Overlay Mixer Filter
-ms.assetid: 'e80938b7-31f0-467b-a3fa-c4511d14758d'
+ms.assetid: e80938b7-31f0-467b-a3fa-c4511d14758d
 title: Overlay Mixer Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overlay Mixer Filter
@@ -17,7 +22,7 @@ The Overlay Mixer uses DirectDraw for rendering. It requires an overlay surface 
 
 The Overlay Mixer uses the Video Renderer for window management. The Video Renderer connects to the Overlay Mixer's output pin.
 
-This filter is added to the filter graph automatically when applications use the [**IDvdGraphBuilder**](idvdgraphbuilder.md) and [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md) interfaces to create the graph. The Filter Graph Manager will not automatically add the Overlay Mixer to the graph.
+This filter is added to the filter graph automatically when applications use the [**IDvdGraphBuilder**](/windows/win32/Strmif/nn-strmif-idvdgraphbuilder?branch=master) and [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master) interfaces to create the graph. The Filter Graph Manager will not automatically add the Overlay Mixer to the graph.
 
 > [!Note]  
 > In the following table, the media subtypes accepted on input pin 0 are hardware dependent. The Overlay Mixer cannot determine whether a particular subtype is supported until it creates the DirectDraw surface. Therefore, the only way for an upstream filter to determine whether a subtype is supported is to attempt a connection with that subtype.
@@ -34,7 +39,7 @@ This filter is added to the filter graph automatically when applications use the
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IAMOverlayFX</strong>](iamoverlayfx.md), [<strong>IAMVideoDecimationProperties</strong>](iamvideodecimationproperties.md), [<strong>IBaseFilter</strong>](ibasefilter.md), [<strong>IDDrawExclModeVideo</strong>](iddrawexclmodevideo.md), [<strong>IKsPropertySet</strong>](ikspropertyset.md), [<strong>IMediaPosition</strong>](imediaposition.md), [<strong>IMediaSeeking</strong>](imediaseeking.md), [<strong>IMixerOCX</strong>](imixerocx.md), [<strong>IQualProp</strong>](iqualprop.md), [<strong>IVPNotify</strong>](ivpnotify.md), [<strong>IVPNotify2</strong>](ivpnotify2.md)</td>
+<td>[<strong>IAMOverlayFX</strong>](/windows/win32/Strmif/nn-strmif-iamoverlayfx?branch=master), [<strong>IAMVideoDecimationProperties</strong>](/windows/win32/Strmif/nn-strmif-iamvideodecimationproperties?branch=master), [<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [<strong>IDDrawExclModeVideo</strong>](/windows/win32/Strmif/nn-strmif-iddrawexclmodevideo?branch=master), [<strong>IKsPropertySet</strong>](ikspropertyset.md), [<strong>IMediaPosition</strong>](/windows/win32/Control/nn-control-imediaposition?branch=master), [<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [<strong>IMixerOCX</strong>](/windows/win32/Mixerocx/nn-mixerocx-imixerocx?branch=master), [<strong>IQualProp</strong>](/windows/win32/Amvideo/nn-amvideo-iqualprop?branch=master), [<strong>IVPNotify</strong>](/windows/win32/Vpnotify/nn-vpnotify-ivpnotify?branch=master), [<strong>IVPNotify2</strong>](/windows/win32/Vpnotify/nn-vpnotify-ivpnotify2?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -53,7 +58,7 @@ Format Types:<br/>
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IAMVideoAccelerator</strong>](iamvideoaccelerator.md), [<strong>IKsPin</strong>](ikspin.md), [<strong>IKsPropertySet</strong>](ikspropertyset.md), [<strong>IMemInputPin</strong>](imeminputpin.md), [<strong>IMixerPinConfig</strong>](imixerpinconfig.md), [<strong>IMixerPinConfig2</strong>](imixerpinconfig2.md), [<strong>IOverlay</strong>](ioverlay.md) (pin 0 only), [<strong>IPin</strong>](ipin.md), [<strong>IPinConnection</strong>](ipinconnection.md), [<strong>IQualityControl</strong>](iqualitycontrol.md), [<strong>IVPNotify</strong>](ivpnotify.md), [<strong>IVPNotify2</strong>](ivpnotify2.md)</td>
+<td>[<strong>IAMVideoAccelerator</strong>](/windows/win32/videoacc/nn-videoacc-iamvideoaccelerator?branch=master), [<strong>IKsPin</strong>](ikspin.md), [<strong>IKsPropertySet</strong>](ikspropertyset.md), [<strong>IMemInputPin</strong>](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [<strong>IMixerPinConfig</strong>](/windows/win32/Mpconfig/nn-mpconfig-imixerpinconfig?branch=master), [<strong>IMixerPinConfig2</strong>](/windows/win32/Mpconfig/nn-mpconfig-imixerpinconfig2?branch=master), [<strong>IOverlay</strong>](/windows/win32/Strmif/nn-strmif-ioverlay?branch=master) (pin 0 only), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IPinConnection</strong>](/windows/win32/Strmif/nn-strmif-ipinconnection?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master), [<strong>IVPNotify</strong>](/windows/win32/Vpnotify/nn-vpnotify-ivpnotify?branch=master), [<strong>IVPNotify2</strong>](/windows/win32/Vpnotify/nn-vpnotify-ivpnotify2?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -61,7 +66,7 @@ Format Types:<br/>
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IMediaPosition</strong>](imediaposition.md), [<strong>IMediaSeeking</strong>](imediaseeking.md), [<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IMediaPosition</strong>](/windows/win32/Control/nn-control-imediaposition?branch=master), [<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -96,7 +101,7 @@ The Overlay Mixer uses destination color keying to mix video surfaces with overl
 
 To test whether the graphics driver supports hardware overlay, call **IDirectDraw7::GetCaps**. If the **dwMaxVisibleOverlays** field in the **DDCAPS** structure is greater than zero, the driver supports hardware overlay.
 
-Applications can control some behaviors on the Overlay Mixer through the [**IMixerPinConfig2**](imixerpinconfig2.md) interface. Game developers can use the Overlay Mixer to display video in DirectDraw Exclusive Mode, as described later in this section. The [Video Mixing Renderer Filter 9](video-mixing-renderer-filter-9.md) (VMR-9) now provides better support for video in games, however. For more information, see [Using the Video Mixing Renderer](using-the-video-mixing-renderer.md).
+Applications can control some behaviors on the Overlay Mixer through the [**IMixerPinConfig2**](/windows/win32/Mpconfig/nn-mpconfig-imixerpinconfig2?branch=master) interface. Game developers can use the Overlay Mixer to display video in DirectDraw Exclusive Mode, as described later in this section. The [Video Mixing Renderer Filter 9](video-mixing-renderer-filter-9.md) (VMR-9) now provides better support for video in games, however. For more information, see [Using the Video Mixing Renderer](using-the-video-mixing-renderer.md).
 
 The following information is provided for the benefit of filter developers, and game developers who want to use the Overlay Mixer in DirectDraw Exclusive Mode.
 
@@ -113,13 +118,13 @@ On Windows Vista or later, the Overlay Mixer disables Desktop Window Manager (D
 
 **Upstream Connection with the Video Decoder**
 
-Typically the Overlay Mixer's input pins connect to an upstream video decoder. The primary video stream must connect to the pin 0. The line 21 or subpicture streams connect to pin 1 or greater. If the decoder is a software decoder that uses the host CPU exclusively, the connection between the decoder and the Pin 0 is an [**IMemInputPin**](imeminputpin.md) connection. If the decoder uses hardware acceleration, the connection to Pin 0 must use the [**IAMVideoAccelerator**](iamvideoaccelerator.md) inferface. These two types of connections are mutually exclusive.
+Typically the Overlay Mixer's input pins connect to an upstream video decoder. The primary video stream must connect to the pin 0. The line 21 or subpicture streams connect to pin 1 or greater. If the decoder is a software decoder that uses the host CPU exclusively, the connection between the decoder and the Pin 0 is an [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) connection. If the decoder uses hardware acceleration, the connection to Pin 0 must use the [**IAMVideoAccelerator**](/windows/win32/videoacc/nn-videoacc-iamvideoaccelerator?branch=master) inferface. These two types of connections are mutually exclusive.
 
-If the decoder draws directly onto the overlay surface, it should use the [**IOverlay**](ioverlay.md) interface on pin 0 and implement the [**IOverlayNotify**](ioverlaynotify.md) interface.
+If the decoder draws directly onto the overlay surface, it should use the [**IOverlay**](/windows/win32/Strmif/nn-strmif-ioverlay?branch=master) interface on pin 0 and implement the [**IOverlayNotify**](/windows/win32/Strmif/nn-strmif-ioverlaynotify?branch=master) interface.
 
-Filters that wrap a hardware decoder and connect to the Overlay Mixer through a video port must implement the [**IVPConfig**](ivpconfig.md) interface. The Overlay Mixer implements the [**IVPNotify**](ivpnotify.md) interface. These two interfaces enable the decoder to specify the overlay surfaces it requires, and they enable the Overlay Mixer to inform the decoder of the location of those surfaces in video memory.
+Filters that wrap a hardware decoder and connect to the Overlay Mixer through a video port must implement the [**IVPConfig**](/windows/win32/Vpconfig/nn-vpconfig-ivpconfig?branch=master) interface. The Overlay Mixer implements the [**IVPNotify**](/windows/win32/Vpnotify/nn-vpnotify-ivpnotify?branch=master) interface. These two interfaces enable the decoder to specify the overlay surfaces it requires, and they enable the Overlay Mixer to inform the decoder of the location of those surfaces in video memory.
 
-The Overlay Mixer also ensures that the video rectangle is scaled correctly. Video capture involves certain issues with respect to scaling the preview image and capturing interleaved video frames. If you are developing a filter or WDM driver for a hardware video capture device, refer to the [**IVPConfig**](ivpconfig.md) and [**IVPNotify**](ivpnotify.md) reference pages for more information on these topics.
+The Overlay Mixer also ensures that the video rectangle is scaled correctly. Video capture involves certain issues with respect to scaling the preview image and capturing interleaved video frames. If you are developing a filter or WDM driver for a hardware video capture device, refer to the [**IVPConfig**](/windows/win32/Vpconfig/nn-vpconfig-ivpconfig?branch=master) and [**IVPNotify**](/windows/win32/Vpnotify/nn-vpnotify-ivpnotify?branch=master) reference pages for more information on these topics.
 
 The Overlay Mixer is not used in 1394 or USB capture scenarios. It is used in video capture over the PCI bus.
 
@@ -127,13 +132,13 @@ The Overlay Mixer is not used in 1394 or USB capture scenarios. It is used in vi
 
 The Overlay Mixer has an output pin that connects to the [Video Renderer](video-renderer-filter.md) filter. The Video Renderer in this case does not render the video; it simply manages the video window.
 
-The pin connection uses the [**IOverlay**](ioverlay.md) interface rather than the [**IMemInputPin**](imeminputpin.md) interface. The Video Renderer passes its window handle through the Overlay Mixer to DirectDraw, which manages the rectangle clipping. Applications can control the Video Renderer through the [**IVideoWindow**](ivideowindow.md) and [**IBasicVideo2**](ibasicvideo2.md) interfaces on the Filter Graph Manager.
+The pin connection uses the [**IOverlay**](/windows/win32/Strmif/nn-strmif-ioverlay?branch=master) interface rather than the [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interface. The Video Renderer passes its window handle through the Overlay Mixer to DirectDraw, which manages the rectangle clipping. Applications can control the Video Renderer through the [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) and [**IBasicVideo2**](/windows/win32/Control/nn-control-ibasicvideo2?branch=master) interfaces on the Filter Graph Manager.
 
 **DirectDraw Exclusive Mode**
 
 The Overlay Mixer's DirectDraw exclusive mode enables games to display video on some part of the screen. In this mode, the Overlay Mixer renders the video directly to a DirectDraw surface created by the game application, rather than to a window provided by the Video Renderer. This enables games to control the color key. The Overlay Mixer exposes only one input pin in DirectDraw exclusive mode, which means that no mixing of Line 21 or DVD subpicture can be performed in this mode.
 
-To use the Overlay Mixer in DirectDraw exclusive mode, create an instance of the Overlay Mixer and query it for the [**IDDrawExclModeVideo**](iddrawexclmodevideo.md) interface before building the filter graph. Then call [**IDDrawExclModeVideo::SetDDrawSurface**](iddrawexclmodevideo-setddrawsurface.md) to specify the DirectDraw surface for rendering. One significant limitation of this mode is that the game does not get access to the actual video bits. If you use **IDDrawExclModeVideo**, your application creates the primary surface, and the Overlay Mixer creates the overlay surface.
+To use the Overlay Mixer in DirectDraw exclusive mode, create an instance of the Overlay Mixer and query it for the [**IDDrawExclModeVideo**](/windows/win32/Strmif/nn-strmif-iddrawexclmodevideo?branch=master) interface before building the filter graph. Then call [**IDDrawExclModeVideo::SetDDrawSurface**](/windows/win32/Strmif/nf-strmif-iddrawexclmodevideo-setddrawsurface?branch=master) to specify the DirectDraw surface for rendering. One significant limitation of this mode is that the game does not get access to the actual video bits. If you use **IDDrawExclModeVideo**, your application creates the primary surface, and the Overlay Mixer creates the overlay surface.
 
 You can also use DirectDraw exclusive mode to perform windowless rendering—for example, in a Web page—but this is not recommended, because the Overlay Mixer does not perform any mixing in this mode. This means that no line 21 or subpicture data can be displayed.
 

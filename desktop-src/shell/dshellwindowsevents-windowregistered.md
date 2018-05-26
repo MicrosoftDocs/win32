@@ -1,6 +1,11 @@
-﻿---
-Description: 'Called when a window is registered as a Shell window.'
-title: 'DShellWindowsEvents.WindowRegistered method'
+---
+Description: Called when a window is registered as a Shell window.
+title: DShellWindowsEvents.WindowRegistered method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DShellWindowsEvents.WindowRegistered method
@@ -37,7 +42,7 @@ This method does not return a value.
 
 ## Remarks
 
-A window is granted a cookie when it is registered as a Shell window. For more information, see [**Register**](ishellwindows-register.md).
+A window is granted a cookie when it is registered as a Shell window. For more information, see [**Register**](/windows/win32/Exdisp/nf-exdisp-ishellwindows-register?branch=master).
 
 ## Requirements
 
@@ -60,10 +65,10 @@ A window is granted a cookie when it is registered as a Shell window. For more i
 [**WindowRevoked**](dshellwindowsevents-windowrevoked.md)
 </dt> <dt>
 
-[**Register**](ishellwindows-register.md)
+[**Register**](/windows/win32/Exdisp/nf-exdisp-ishellwindows-register?branch=master)
 </dt> <dt>
 
-[**RegisterPending**](ishellwindows-registerpending.md)
+[**RegisterPending**](/windows/win32/Exdisp/nf-exdisp-ishellwindows-registerpending?branch=master)
 </dt> </dl>
 
  

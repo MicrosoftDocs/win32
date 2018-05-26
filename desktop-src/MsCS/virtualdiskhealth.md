@@ -4,17 +4,21 @@ description: Specifies the health of the virtual disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '79C0FD7B-C7F4-4EE1-8615-4D2058FB4FC3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 79C0FD7B-C7F4-4EE1-8615-4D2058FB4FC3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["VirtualDiskHealth Failover Cluster"]
+keywords:
+- VirtualDiskHealth Failover Cluster
 topic_type:
 - apiref
 api_name:
 - VirtualDiskHealth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VirtualDiskHealth
@@ -28,14 +32,14 @@ Specifies the health of the virtual disk.
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 4                                         |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +59,7 @@ This property can be set to one of the following values:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,7 +68,7 @@ This property can be set to one of the following values:
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -75,9 +79,9 @@ This property can be set to one of the following values:
 [Physical Disk Private Properties](physical-disk-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

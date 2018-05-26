@@ -1,7 +1,12 @@
 ---
-Description: 'If this per-user system policy is set to &\#0034;1&\#0034;; the installer searches for transform files in the root of any network sources in the source list for the product. By default, transforms are stored in the Application Data folder of a user''s profile.'
-ms.assetid: '24881078-1610-4a37-a52d-fcabd78e1738'
+Description: If this per-user system policy is set to &\#0034;1&\#0034;; the installer searches for transform files in the root of any network sources in the source list for the product. By default, transforms are stored in the Application Data folder of a users profile.
+ms.assetid: 24881078-1610-4a37-a52d-fcabd78e1738
 title: TransformsAtSource Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TransformsAtSource Policy

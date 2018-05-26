@@ -1,7 +1,12 @@
 ---
-Description: 'Concurrent Installations, also called Nested Installations, is a deprecated feature of the Windows Installer.'
-ms.assetid: '579ae4ee-47a0-440e-81ca-ea8bf60c5349'
+Description: Concurrent Installations, also called Nested Installations, is a deprecated feature of the Windows Installer.
+ms.assetid: 579ae4ee-47a0-440e-81ca-ea8bf60c5349
 title: Concurrent Installations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Concurrent Installations
@@ -34,7 +39,7 @@ Standard or custom actions that specify an automatic restart of the system, or r
 
 Once the installer begins a concurrent installation, it locks out all other installations until the concurrent installation is complete and before continuing the main installation. The installer can only execute concurrent installations as synchronous custom actions. See [Synchronous and Asynchronous Custom Actions](synchronous-and-asynchronous-custom-actions.md). The option flags described in [Custom Action Return Processing Options](custom-action-return-processing-options.md) must be set to none (+0) or **msidbCustomActionTypeContinue** (+64).
 
-A concurrent installation action can install an application to be run locally, to run from source, to be reinstalled, or to be removed in the same manner as when using [**MsiInstallProduct**](msiinstallproduct.md) for a regular installation. To specify the type of installation, pass either the [**ADDLOCAL**](addlocal.md), [**ADDSOURCE**](addsource.md), [**REINSTALL**](reinstall.md), or [**REMOVE**](remove.md) property to the concurrent installation action.
+A concurrent installation action can install an application to be run locally, to run from source, to be reinstalled, or to be removed in the same manner as when using [**MsiInstallProduct**](/windows/win32/Msi/nf-msi-msiinstallproducta?branch=master) for a regular installation. To specify the type of installation, pass either the [**ADDLOCAL**](addlocal.md), [**ADDSOURCE**](addsource.md), [**REINSTALL**](reinstall.md), or [**REMOVE**](remove.md) property to the concurrent installation action.
 
 Concurrent installation actions can be authored in pairs, one action used for installing and the other action used for removing the concurrent installation. A [Custom Action Type 7](custom-action-type-7.md) or [Custom Action Type 23](custom-action-type-23.md) is typically used to install. A [Custom Action Type 39](custom-action-type-39.md) is typically used to remove the concurrent installation when the parent product is uninstalled. The record for the removal custom action in the [CustomAction table](customaction-table.md) can have the product code GUID in the Source field and "REMOVE=ALL" in the Target field. The two custom actions need to be authored in the action sequence table with mutually exclusive conditions. For example, the custom action that installs the product can have "NOT Installed" in its Condition field and the custom action removes the concurrent installation can have REMOVE="ALL" in its Condition field.
 

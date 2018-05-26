@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.Settings.ClosingEvent.Action property
 description: Contains a value from the enumeration of closing actions for the Settings dialog.
-ms.assetid: 'a88f3ca3-6f81-48bd-9422-cf2d8af8c690'
-keywords: ["Action property Windows Sidebar", "Action property Windows Sidebar , System.Gadget.Settings.ClosingEvent object", "System.Gadget.Settings.ClosingEvent object Windows Sidebar , Action property"]
+ms.assetid: a88f3ca3-6f81-48bd-9422-cf2d8af8c690
+keywords:
+- Action property Windows Sidebar
+- Action property Windows Sidebar , System.Gadget.Settings.ClosingEvent object
+- System.Gadget.Settings.ClosingEvent object Windows Sidebar , Action property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.Settings.ClosingEvent.Action property
@@ -100,10 +108,10 @@ function SettingsClosing(event)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -134,9 +142,9 @@ function SettingsClosing(event)
 [**closeAction**](system-gadget-settings-closingevent-closeaction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

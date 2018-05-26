@@ -1,8 +1,9 @@
 ---
 title: RB\_SETTOOLTIPS message
 description: Associates a tooltip control with the rebar control.
-ms.assetid: 'b80e6a0d-2afe-45dd-8ab0-90e7bce00bc7'
-keywords: ["RB_SETTOOLTIPS message Windows Controls"]
+ms.assetid: b80e6a0d-2afe-45dd-8ab0-90e7bce00bc7
+keywords:
+- RB_SETTOOLTIPS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_SETTOOLTIPS message
@@ -41,15 +47,15 @@ The return value for this message is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

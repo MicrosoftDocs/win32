@@ -1,7 +1,12 @@
 ---
-Description: 'A Connection Security Rule.'
-ms.assetid: 'b418de78-1e79-4048-81ad-8f1809038cd7'
-title: 'MSFT\_NetConSecRule class'
+Description: A Connection Security Rule.
+ms.assetid: b418de78-1e79-4048-81ad-8f1809038cd7
+title: MSFT\_NetConSecRule class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetConSecRule class
@@ -15,54 +20,54 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetConSecRule : MSFT_NetSARule
 {
-  uint16  Mode;
+  uint16  Mode;
   boolean AllowSetKey;
   boolean AllowWatchKey;
-  uint32  MaxReturnPathLifetimeSeconds;
-  uint16  InboundSecurity;
-  uint16  OutboundSecurity;
-  uint16  KeyModule;
+  uint32  MaxReturnPathLifetimeSeconds;
+  uint16  InboundSecurity;
+  uint16  OutboundSecurity;
+  uint16  KeyModule;
   boolean RequireAuthorization;
-  string  Users;
-  string  Machines;
-  string  LocalTunnelEndpoint[];
-  string  RemoteTunnelEndpointDNSName;
-  string  RemoteTunnelEndpoint[];
+  string  Users;
+  string  Machines;
+  string  LocalTunnelEndpoint[];
+  string  RemoteTunnelEndpointDNSName;
+  string  RemoteTunnelEndpoint[];
   boolean BypassTunnelIfEncrypted;
-  string  Platforms[];
-  string  RuleGroup;
-  string  DisplayGroup;
-  uint16  Profiles;
-  string  MainModeCryptoSet;
-  string  QuickModeCryptoSet;
-  string  Phase1AuthSet;
-  string  Phase2AuthSet;
-  uint16  PrimaryStatus;
-  uint32  StatusCode;
-  string  Status;
-  uint16  EnforcementStatus[];
-  uint16  PolicyStoreSourceType;
-  string  PolicyStoreSource;
-  string  SystemCreationClassName;
-  string  SystemName;
-  string  CreationClassName;
-  string  PolicyRuleName;
-  uint16  ConditionListType;
-  string  RuleUsage;
-  uint16  Priority;
+  string  Platforms[];
+  string  RuleGroup;
+  string  DisplayGroup;
+  uint16  Profiles;
+  string  MainModeCryptoSet;
+  string  QuickModeCryptoSet;
+  string  Phase1AuthSet;
+  string  Phase2AuthSet;
+  uint16  PrimaryStatus;
+  uint32  StatusCode;
+  string  Status;
+  uint16  EnforcementStatus[];
+  uint16  PolicyStoreSourceType;
+  string  PolicyStoreSource;
+  string  SystemCreationClassName;
+  string  SystemName;
+  string  CreationClassName;
+  string  PolicyRuleName;
+  uint16  ConditionListType;
+  string  RuleUsage;
+  uint16  Priority;
   boolean Mandatory;
-  uint16  SequencedActions;
-  uint16  ExecutionStrategy;
-  uint16  PolicyDecisionStrategy;
-  string  PolicyRoles[];
-  uint16  Enabled = 1;
-  string  CommonName;
-  string  PolicyKeywords[];
-  string  InstanceID;
-  string  Caption;
-  string  DisplayName;
-  string  Description;
-  string  ElementName;
+  uint16  SequencedActions;
+  uint16  ExecutionStrategy;
+  uint16  PolicyDecisionStrategy;
+  string  PolicyRoles[];
+  uint16  Enabled = 1;
+  string  CommonName;
+  string  PolicyKeywords[];
+  string  InstanceID;
+  string  Caption;
+  string  DisplayName;
+  string  Description;
+  string  ElementName;
 };
 ```
 
@@ -92,7 +97,7 @@ The **MSFT\_NetConSecRule** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -890,17 +895,17 @@ Authorized users for transport mode, specified as an SDDL string.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

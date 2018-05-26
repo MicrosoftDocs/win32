@@ -1,14 +1,20 @@
 ---
 title: ParameterValues element
 description: Contains zero or more ParameterValue elements.
-ms.assetid: 'EE10ADCC-A774-4438-8258-C70FEE199294'
-keywords: ["ParameterValues element Access Execution Engine"]
+ms.assetid: EE10ADCC-A774-4438-8258-C70FEE199294
+keywords:
+- ParameterValues element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ParameterValues
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParameterValues element
@@ -70,9 +76,9 @@ ParameterValue
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

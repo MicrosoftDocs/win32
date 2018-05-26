@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the notification passed to the WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK function.'
-ms.assetid: '1CB91DD9-5B58-4FE0-B7B0-E6189760511A'
-title: 'WFD\_DISPLAY\_SINK\_NOTIFICATION structure'
+---
+Description: Describes the notification passed to the WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK function.
+ms.assetid: 1CB91DD9-5B58-4FE0-B7B0-E6189760511A
+title: WFD\_DISPLAY\_SINK\_NOTIFICATION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WFD\_DISPLAY\_SINK\_NOTIFICATION structure

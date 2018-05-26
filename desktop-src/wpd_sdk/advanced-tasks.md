@@ -1,7 +1,12 @@
 ---
 Description: Advanced Tasks
-ms.assetid: '8961ab3a-e82b-45bb-9dd2-c2ae196343fe'
+ms.assetid: 8961ab3a-e82b-45bb-9dd2-c2ae196343fe
 title: Advanced Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Tasks

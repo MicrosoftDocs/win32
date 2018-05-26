@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemObject scripting object is the generic WMI object, defining properties and methods that can be used regardless of the specific WMI object to which the SWbemObject object is bound.'
+Description: The SWbemObject scripting object is the generic WMI object, defining properties and methods that can be used regardless of the specific WMI object to which the SWbemObject object is bound.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '33252b49-00d4-4c43-8abe-9368ed82f34b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 33252b49-00d4-4c43-8abe-9368ed82f34b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Scripting with SWbemObject
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scripting with SWbemObject

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetFrameTimeStamp function returns the time stamp of a given frame.'
-ms.assetid: '4ac50400-6674-40fa-9a69-9c0ccb55b92c'
+Description: The GetFrameTimeStamp function returns the time stamp of a given frame.
+ms.assetid: 4ac50400-6674-40fa-9a69-9c0ccb55b92c
 title: GetFrameTimeStamp function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetFrameTimeStamp function
@@ -13,7 +18,7 @@ The **GetFrameTimeStamp** function returns the time stamp of a given frame.
 
 ```C++
 __int64 WINAPI GetFrameTimeStamp(
-  _In_ HFRAME hFrame
+  _In_ HFRAME hFrame
 );
 ```
 
@@ -32,7 +37,7 @@ Handle to the frame.
 
 ## Return value
 
-If the function is successful, the return value is the time stamp of the frame — in microseconds.
+If the function is successful, the return value is the time stamp of the frame   in microseconds.
 
 If the function is unsuccessful, the return value is minus one (-1).
 
@@ -48,17 +53,17 @@ The **GetFrameTimeStamp** function returns a time stamp that shows the elapsed t
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

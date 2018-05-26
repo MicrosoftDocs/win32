@@ -1,8 +1,10 @@
 ---
 title: CIM\_LANEndpoint class
 description: A communication endpoint that can connect to a LAN to send and receive data frames. LAN endpoints include ethernet, token Ring, and FDDI interfaces.
-ms.assetid: 'e6c36a5a-249c-47cd-aa9a-05c534f9be18'
-keywords: ["CIM_LANEndpoint class Hyper-V", "CIM_LANEndpoint class Hyper-V , described"]
+ms.assetid: e6c36a5a-249c-47cd-aa9a-05c534f9be18
+keywords:
+- CIM_LANEndpoint class Hyper-V
+- CIM_LANEndpoint class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_LANEndpoint class
@@ -55,35 +62,35 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.8.1000"), AMENDMENT]
 class CIM_LANEndpoint : CIM_ProtocolEndpoint
 {
-  string   Caption;
-  string   ElementName;
+  string   Caption;
+  string   ElementName;
   datetime InstallDate;
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   Description;
-  uint16   OperationalStatus[];
-  uint16   EnabledState;
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   Description;
+  uint16   OperationalStatus[];
+  uint16   EnabledState;
   datetime TimeOfLastStateChange;
-  string   Name;
-  string   NameFormat;
-  uint16   ProtocolType;
-  string   OtherTypeDescription;
-  boolean  BroadcastResetSupported;
-  string   LANID;
-  uint16   LANType;
-  string   OtherLANType;
-  string   MACAddress;
-  string   AliasAddresses[];
-  string   GroupAddresses[];
-  uint32   MaxDataSize;
-  uint16   ProtocolIFType;
+  string   Name;
+  string   NameFormat;
+  uint16   ProtocolType;
+  string   OtherTypeDescription;
+  boolean  BroadcastResetSupported;
+  string   LANID;
+  uint16   LANType;
+  string   OtherLANType;
+  string   MACAddress;
+  string   AliasAddresses[];
+  string   GroupAddresses[];
+  uint32   MaxDataSize;
+  uint16   ProtocolIFType;
 };
 ```
 
@@ -107,7 +114,7 @@ The **CIM\_LANEndpoint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -279,14 +286,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -622,7 +629,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("**CI
 > [!Note]  
 > Deprecated description: The kind of technology used on the LAN.
 
- 
+ 
 
 This property is deprecated. Instead we recommend that you use the **ProtocolType** property.
 
@@ -988,7 +995,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**C
 > [!Note]  
 > Deprecated description: The type of technology used on the LAN when the **LANType** property is set to "1" (Other).
 
- 
+ 
 
 This property is deprecated. Instead we recommend that you use the **OtherTypeDescription** property.
 
@@ -1094,7 +1101,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**C
 > [!Note]  
 > Deprecated description: An enumeration used to categorize and classify different instances of this class.
 
- 
+ 
 
 This property is deprecated. Instead, use the **ProtocolIFType** property.
 
@@ -1119,7 +1126,7 @@ Indicates the last requested state for the element. The current state is indicat
 > [!Note]  
 > When the value of the **EnabledState** property is **Not Applicable**, this property has no meaning.
 
- 
+ 
 
 This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md).
 
@@ -1300,7 +1307,7 @@ Indicates the primary status of the object.
 > [!Note]  
 > This property is deprecated. It is replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility, it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1385,9 +1392,9 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1400,9 +1407,9 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 [**CIM\_ProtocolEndpoint**](cim-protocolendpoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

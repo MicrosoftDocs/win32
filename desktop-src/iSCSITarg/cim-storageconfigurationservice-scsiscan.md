@@ -4,13 +4,16 @@ description: This method requests that the system rescan SCSI devices for change
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b55c9563-9368-48f7-8ed9-3716a7d4c085'
-ms.prod: 'windows-server-dev'
+ms.assetid: b55c9563-9368-48f7-8ed9-3716a7d4c085
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ScsiScan method iSCSI Software Target API", "ScsiScan method iSCSI Software Target API , CIM_StorageConfigurationService class", "CIM_StorageConfigurationService class iSCSI Software Target API , ScsiScan method"]
+keywords:
+- ScsiScan method iSCSI Software Target API
+- ScsiScan method iSCSI Software Target API , CIM_StorageConfigurationService class
+- CIM_StorageConfigurationService class iSCSI Software Target API , ScsiScan method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ScsiScan method of the CIM\_StorageConfigurationService class
@@ -32,12 +38,12 @@ This operation can be disruptive; optional parameters allow the caller to limit 
 
 ```mof
 uint32 ScsiScan(
-  [in, out] CIM_ConcreteJob          REF Job,
-  [in]      uint16                       ConnectionType,
-  [in]      string                       OtherConnectionType,
-  [in]      CIM_SCSIProtocolEndpoint REF Initiators[],
-  [in]      string                       Targets[],
-  [in, out] string                       LogicalUnits[]
+  [in, out] CIM_ConcreteJob          REF Job,
+  [in]      uint16                       ConnectionType,
+  [in]      string                       OtherConnectionType,
+  [in]      CIM_SCSIProtocolEndpoint REF Initiators[],
+  [in]      string                       Targets[],
+  [in, out] string                       LogicalUnits[]
 );
 ```
 
@@ -174,7 +180,7 @@ A list of SCSI logical unit numbers representing logical units hosted on the tar
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Invalid connection type** (4096)
@@ -192,10 +198,10 @@ A list of SCSI logical unit numbers representing logical units hosted on the tar
 **Prohibited by name binding configuration** (4100)
 </dt> <dt>
 
-**DMTF Reserved** (4101–32767)
+**DMTF Reserved** (4101 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -205,7 +211,7 @@ A list of SCSI logical unit numbers representing logical units hosted on the tar
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -219,9 +225,9 @@ A list of SCSI logical unit numbers representing logical units hosted on the tar
 [**CIM\_StorageConfigurationService**](cim-storageconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

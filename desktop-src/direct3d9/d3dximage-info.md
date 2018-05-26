@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a description of the original contents of an image file.'
-ms.assetid: 'd6cbd5b7-642e-43ce-a2ed-11a400c5bdc1'
-title: 'D3DXIMAGE\_INFO structure'
+---
+Description: Returns a description of the original contents of an image file.
+ms.assetid: d6cbd5b7-642e-43ce-a2ed-11a400c5bdc1
+title: D3DXIMAGE\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXIMAGE\_INFO structure

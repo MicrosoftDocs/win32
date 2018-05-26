@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_MagnetoOpticalDrive class represents the capabilities and management of a magneto-optical drive, a subtype of the media access device.'
+Description: The CIM\_MagnetoOpticalDrive class represents the capabilities and management of a magneto-optical drive, a subtype of the media access device.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '82a4604d-3bef-4378-812b-550849e30b8c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 82a4604d-3bef-4378-812b-550849e30b8c
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_MagnetoOpticalDrive class'
+title: CIM\_MagnetoOpticalDrive class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_MagnetoOpticalDrive class
@@ -19,7 +22,7 @@ The **CIM\_MagnetoOpticalDrive** class represents the capabilities and managemen
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,35 +32,35 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{F62037D8-E3D0-11d2-8601-0000F8102E5F}"), AMENDMENT]
 class CIM_MagnetoOpticalDrive : CIM_MediaAccessDevice
 {
-  uint16   Availability;
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  string   Caption;
-  string   CompressionMethod;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  uint64   DefaultBlockSize;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  string   ErrorMethodology;
+  uint16   Availability;
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  string   Caption;
+  string   CompressionMethod;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  uint64   DefaultBlockSize;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  string   ErrorMethodology;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  uint64   MaxBlockSize;
-  uint64   MaxMediaSize;
-  uint64   MinBlockSize;
-  string   Name;
-  boolean  NeedsCleaning;
-  uint32   NumberOfMediaSupported;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  uint32   LastErrorCode;
+  uint64   MaxBlockSize;
+  uint64   MaxMediaSize;
+  uint64   MinBlockSize;
+  string   Name;
+  boolean  NeedsCleaning;
+  uint32   NumberOfMediaSupported;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -81,7 +84,7 @@ The **CIM\_MagnetoOpticalDrive** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -468,7 +471,7 @@ Array of free-form strings that provides detailed explanations for access device
 > [!Note]  
 > Each array entry is related to the entry in the **Capabilities** array, located at the same index.
 
- 
+ 
 
 This property is inherited from [**CIM\_MediaAccessDevice**](cim-mediaaccessdevice.md).
 
@@ -1521,8 +1524,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1536,9 +1539,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_MediaAccessDevice**](cim-mediaaccessdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

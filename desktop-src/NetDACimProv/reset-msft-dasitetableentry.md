@@ -1,7 +1,12 @@
 ---
-Description: 'Resets the configuration of the entry in the Direct Access site table.'
-ms.assetid: '12caa0cd-9cd6-4933-b6c4-330858f9c3e8'
-title: 'Reset method of the MSFT\_DASiteTableEntry class'
+Description: Resets the configuration of the entry in the Direct Access site table.
+ms.assetid: 12caa0cd-9cd6-4933-b6c4-330858f9c3e8
+title: Reset method of the MSFT\_DASiteTableEntry class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the MSFT\_DASiteTableEntry class
@@ -13,11 +18,11 @@ Resets the configuration of the entry in the Direct Access site table.
 
 ```mof
 uint32 Reset(
-  [in]  boolean               TeredoServerIP,
-  [in]  boolean               IPHttpsProfile,
-  [in]  boolean               GslbIP,
-  [in]  boolean               PassThru,
-  [out] MSFT_DASiteTableEntry OutputObject
+  [in]  boolean               TeredoServerIP,
+  [in]  boolean               IPHttpsProfile,
+  [in]  boolean               GslbIP,
+  [in]  boolean               PassThru,
+  [out] MSFT_DASiteTableEntry OutputObject
 );
 ```
 
@@ -68,8 +73,8 @@ Receives a [**MSFT\_DASiteTableEntry**](msft-dasitetableentry.md) object for the
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetDACim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetDACim.dll</dt> </dl> |
@@ -83,9 +88,9 @@ Receives a [**MSFT\_DASiteTableEntry**](msft-dasitetableentry.md) object for the
 [**MSFT\_DASiteTableEntry**](msft-dasitetableentry.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

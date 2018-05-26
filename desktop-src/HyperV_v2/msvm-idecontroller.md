@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an IDE controller.'
-ms.assetid: 'DFD4D90E-CA91-42B3-AC88-9E9D26089C36'
-title: 'Msvm\_IDEController class'
+Description: Represents an IDE controller.
+ms.assetid: DFD4D90E-CA91-42B3-AC88-9E9D26089C36
+title: Msvm\_IDEController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_IDEController class
@@ -11,7 +16,7 @@ Represents an IDE controller. This class can support up to four drives attached 
 > [!Note]  
 > This class is not available to generation 2 virtual machines.
 
- 
+ 
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -21,48 +26,48 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_IDEController : CIM_IDEController
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description = "Microsoft Virtual IDE Controller";
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description = "Microsoft Virtual IDE Controller";
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_IDEController";
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = {6};
-  uint64   MaxQuiesceTime;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_IDEController";
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = {6};
+  uint64   MaxQuiesceTime;
   datetime TimeOfLastReset;
-  uint16   ProtocolSupported = 37;
-  uint32   MaxNumberControlled = 2;
-  string   ProtocolDescription = "IDE";
+  uint16   ProtocolSupported = 37;
+  uint32   MaxNumberControlled = 2;
+  string   ProtocolDescription = "IDE";
 };
 ```
 
@@ -92,7 +97,7 @@ The **Msvm\_IDEController** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -161,7 +166,7 @@ A short description of the object. This property is inherited from [**CIM\_Manag
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -250,7 +255,7 @@ A display name for the object. This property is inherited from [**CIM\_ManagedEl
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -549,7 +554,7 @@ The protocol used by the controller to access controlled devices. This property 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -693,8 +698,8 @@ Access to the **Msvm\_IDEController** class might be restricted by UAC Filtering
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -714,9 +719,9 @@ Access to the **Msvm\_IDEController** class might be restricted by UAC Filtering
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

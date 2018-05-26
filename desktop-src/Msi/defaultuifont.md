@@ -1,7 +1,12 @@
 ---
-Description: 'The DefaultUIFont property sets the default font style used for controls. To specify the default, set DefaultUIFont to one of the predefined styles in the TextStyle table in the Property table.'
-ms.assetid: '594183ce-ef13-47f6-a4ae-37ba09c06cbd'
+Description: The DefaultUIFont property sets the default font style used for controls. To specify the default, set DefaultUIFont to one of the predefined styles in the TextStyle table in the Property table.
+ms.assetid: 594183ce-ef13-47f6-a4ae-37ba09c06cbd
 title: DefaultUIFont property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefaultUIFont property
@@ -20,7 +25,7 @@ The text and font style of a control can be set as described in [Adding Controls
 
 |                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 
 
 
@@ -31,9 +36,9 @@ The text and font style of a control can be set as described in [Adding Controls
 [Properties](properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

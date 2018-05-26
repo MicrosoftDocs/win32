@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_EVENT Constants
 description: Specify the types of service provider event notifications to monitor.
-ms.assetid: '73805413-a8d9-4682-aa21-7032451d750a'
+ms.assetid: 73805413-a8d9-4682-aa21-7032451d750a
 topic_type:
 - apiref
 api_name:
@@ -11,11 +11,16 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_EVENT Constants
 
-The following constants can be used in the [**WinBioRegisterEventMonitor**](winbioregistereventmonitor.md) function to specify the types of service provider event notifications to monitor.
+The following constants can be used in the [**WinBioRegisterEventMonitor**](/windows/win32/Winbio/nf-winbio-winbioregistereventmonitor?branch=master) function to specify the types of service provider event notifications to monitor.
 
 
 
@@ -32,8 +37,8 @@ The following constants can be used in the [**WinBioRegisterEventMonitor**](winb
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -45,9 +50,9 @@ The following constants can be used in the [**WinBioRegisterEventMonitor**](winb
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

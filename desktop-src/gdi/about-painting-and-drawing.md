@@ -1,7 +1,12 @@
 ---
-Description: 'Nearly all applications use the screen to display the data they manipulate.'
-ms.assetid: '97d606a0-11d3-49c3-b045-8397f4bcfa54'
+Description: Nearly all applications use the screen to display the data they manipulate.
+ms.assetid: 97d606a0-11d3-49c3-b045-8397f4bcfa54
 title: About Painting and Drawing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Painting and Drawing

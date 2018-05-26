@@ -1,7 +1,12 @@
 ---
-Description: 'Sent when the VMR has selected its rendering mechanism.'
-ms.assetid: '815d1254-c6e3-4a6c-ba4a-bf3da7d35d1f'
-title: 'EC\_VMR\_RENDERDEVICE\_SET'
+Description: Sent when the VMR has selected its rendering mechanism.
+ms.assetid: 815d1254-c6e3-4a6c-ba4a-bf3da7d35d1f
+title: EC\_VMR\_RENDERDEVICE\_SET
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_VMR\_RENDERDEVICE\_SET
@@ -27,7 +32,7 @@ May be one of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -62,9 +67,9 @@ This event is sent by both the VMR-7 and the VMR-9 and it is forwarded to applic
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

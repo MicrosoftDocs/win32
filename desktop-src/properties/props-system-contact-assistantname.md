@@ -1,7 +1,12 @@
 ---
-Description: 'Contact''s assistant name.'
-ms.assetid: '79203485-68a4-4e8c-90f8-43ba08264cff'
-title: 'System.Contact.AssistantName'
+Description: Contacts assistant name.
+ms.assetid: 79203485-68a4-4e8c-90f8-43ba08264cff
+title: System.Contact.AssistantName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.AssistantName

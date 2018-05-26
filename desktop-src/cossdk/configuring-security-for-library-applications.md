@@ -1,7 +1,12 @@
 ---
-Description: 'There are special considerations in configuring role-based security and authentication for library applications.'
-ms.assetid: '1117ac64-653d-4640-97cd-f37b0949dc57'
+Description: There are special considerations in configuring role-based security and authentication for library applications.
+ms.assetid: 1117ac64-653d-4640-97cd-f37b0949dc57
 title: Configuring Security for Library Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Security for Library Applications

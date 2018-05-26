@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_ClusterSetting WMI class represents data that ide
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '280c56d3-f6c0-4f8d-9a28-7ff87104b181'
-ms.prod: 'windows-server-dev'
+ms.assetid: 280c56d3-f6c0-4f8d-9a28-7ff87104b181
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_ClusterSetting class", "MicrosoftNLB_ClusterSetting class, described"]
+keywords:
+- MicrosoftNLB_ClusterSetting class
+- MicrosoftNLB_ClusterSetting class, described
 topic_type:
 - apiref
 api_name:
@@ -39,6 +41,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_ClusterSetting class
@@ -53,22 +58,22 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("Microsoft|NLB_Provider|V1.0"), AMENDMENT]
 class MicrosoftNLB_ClusterSetting : CIM_Setting
 {
-  string  SettingID;
-  string  Caption;
-  string  Description;
-  string  Name;
-  string  ClusterName;
-  string  ClusterIPAddress;
-  string  ClusterNetworkMask;
-  string  ClusterMACAddress;
+  string  SettingID;
+  string  Caption;
+  string  Description;
+  string  Name;
+  string  ClusterName;
+  string  ClusterIPAddress;
+  string  ClusterNetworkMask;
+  string  ClusterMACAddress;
   Boolean MulticastSupportEnabled;
   Boolean RemoteControlEnabled;
   Boolean IGMPSupport;
   Boolean ClusterIPToMulticastIP;
-  string  MulticastIPAddress;
-  string  AdapterGuid;
+  string  MulticastIPAddress;
+  string  AdapterGuid;
   Boolean BDATeamActive;
-  string  BDATeamId;
+  string  BDATeamId;
   Boolean BDATeamMaster;
   Boolean BDAReverseHash;
   Boolean IdentityHeartbeatEnabled;
@@ -98,7 +103,7 @@ The **MicrosoftNLB\_ClusterSetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -432,7 +437,7 @@ The **MicrosoftNLB\_ClusterSetting** class is derived from the [**CIM\_Setting**
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -449,9 +454,9 @@ The **MicrosoftNLB\_ClusterSetting** class is derived from the [**CIM\_Setting**
 [**MicrosoftNLB\_NodeSetting**](microsoftnlb-nodesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,18 +1,40 @@
 ---
 title: Basic VML Types
-description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
-ms.assetid: '07c17e7b-5ac4-4a8d-a468-559307408d5b'
-keywords: ["Vector Markup Language (VML),basic types", "VML (Vector Markup Language),basic types", "vector graphics,basic VML types", "Vector Markup Language (VML),types", "VML (Vector Markup Language),types", "vector graphics,VML types", "basic VML types", "boolean type", "fraction type", "ordinate type", "length type", "measure type", "angle type", "color type", "font type", "bitmap type", "vector type"]
+description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
+ms.assetid: 07c17e7b-5ac4-4a8d-a468-559307408d5b
+keywords:
+- Vector Markup Language (VML),basic types
+- VML (Vector Markup Language),basic types
+- vector graphics,basic VML types
+- Vector Markup Language (VML),types
+- VML (Vector Markup Language),types
+- vector graphics,VML types
+- basic VML types
+- boolean type
+- fraction type
+- ordinate type
+- length type
+- measure type
+- angle type
+- color type
+- font type
+- bitmap type
+- vector type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic VML Types
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
 > As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
 
- 
+ 
 
 **Contents**
 
@@ -47,11 +69,11 @@ This proposal uses a small number of basic types, listed in the table below.
 | Type                  | Element           | Fundamental Representation | Description                                                                                          |
 |-----------------------|-------------------|----------------------------|------------------------------------------------------------------------------------------------------|
 | [boolean](#boolean)   |                   | 1 bit                      | A boolean value: true or false.                                                                      |
-| [fraction](#fraction) |                   | number·2¹6                 | A numeric value, scaled by 2¹6 (65536) and stored as a signed integer.                               |
+| [fraction](#fraction) |                   | number 2 6                 | A numeric value, scaled by 2 6 (65536) and stored as a signed integer.                               |
 | [ordinate](#ordinate) |                   | 30-bit integer plus sign   | Part of a coordinate (e.g., in a path ), the values defined by coord.                                |
 | [length](#length)     |                   | [EMU](#length)             | A physical length, such as the width of a line or the size of a font.                                |
-| [measure](#measure)   |                   | EMU or number·2¹6          | Either a physical length, including a number of device pixels, or a fraction of some other quantity. |
-| [angle](#angle)       |                   | degrees·2¹6                | An angle; positive is clockwise.                                                                     |
+| [measure](#measure)   |                   | EMU or number 2 6          | Either a physical length, including a number of device pixels, or a fraction of some other quantity. |
+| [angle](#angle)       |                   | degrees 2 6                | An angle; positive is clockwise.                                                                     |
 | [color](#color)       | [c](#color)       | complex                    | An element that allows a color to be derived.                                                        |
 | [font](#font)         | [font](#font)     | complex                    | A description of a font.                                                                             |
 | [bitmap](#bitmap)     | [bitmap](#bitmap) | href                       | A reference to an external picture file.                                                             |
@@ -59,7 +81,7 @@ This proposal uses a small number of basic types, listed in the table below.
 
 
 
- 
+ 
 
 The "fundamental representation" is the highest precision representation that the proposal requires a conforming implementation to maintain; data will be lost if the implementation is not able to represent the data to the precision required. The color, font, and vector types correspond to elements which themselves have structure -- in a sense, they are not basic types; however, it is convenient to treat them as such within this proposal.
 
@@ -103,7 +125,7 @@ A boolean value is represented as a keyword indicating the state of the flag. Th
 
 
 
- 
+ 
 
 An implementation may write any value and must recognize all values. An implementation is free to change values from one representation to another.
 
@@ -119,7 +141,7 @@ fraction
 
 
 
-All numeric values (i.e., values of dimensionless quantities) within this proposal can be stored as integers by scaling them by 2 ¹6 (65536). A number may be given either in this form, with the suffix f or as a decimal number with no suffix. Thus, the following hypothetical elements represent the same value.
+All numeric values (i.e., values of dimensionless quantities) within this proposal can be stored as integers by scaling them by 2  6 (65536). A number may be given either in this form, with the suffix f or as a decimal number with no suffix. Thus, the following hypothetical elements represent the same value.
 
 
 ```HTML
@@ -129,7 +151,7 @@ All numeric values (i.e., values of dimensionless quantities) within this propos
 
 
 
-A quantity with the f suffix must be a whole number; fractional numbers are not permitted. The resultant integer must be representable as a 32-bit 2's complement signed number; thus, the effective range of the representation is ±32768 (in fact, less than 32768 and greater than or equal to -32768.)
+A quantity with the f suffix must be a whole number; fractional numbers are not permitted. The resultant integer must be representable as a 32-bit 2's complement signed number; thus, the effective range of the representation is  32768 (in fact, less than 32768 and greater than or equal to -32768.)
 
 A conforming implementation is required to preserve values that are expressed as f values. Values represented as decimal numbers may be converted to an f value and stored that way. An application is permitted to record internally generated values in any appropriate unit; however, a value read in from an existing document must either be maintained to the full original precision or must be converted into an f value.
 
@@ -182,7 +204,7 @@ All the standard [CSS1](http://www.w3.org/pub/WWW/TR/REC-CSS1) unit qualifiers a
 
 
 
- 
+ 
 
 Fractional numbers of EMUs are not permitted. Any measurement must be representable as a 32-bit signed integral number of EMUs -- this limits the magnitude of a measurement to 2348 inches -- about 59 meters or 65 yards. Because the measurements always refer to the size of a rendering on a nominally screen- or page-sized output device, they will always be within this range.
 
@@ -240,34 +262,34 @@ angle
 
 
 
-The fundamental representation of an angle is a number of degrees multipled by 2¹6 (65536) and stored as an integer. Because the coordinate space is inverted (positive y axis is down), a clockwise angle is positive. A conforming implementation is required to preserve the full precision of such a value.
+The fundamental representation of an angle is a number of degrees multipled by 2 6 (65536) and stored as an integer. Because the coordinate space is inverted (positive y axis is down), a clockwise angle is positive. A conforming implementation is required to preserve the full precision of such a value.
 
-An implementation is permitted to use any range for angles and is permitted to normalise an angle (for example to -180° to +180° or 0 to 360°). Implementations are not required to be consistent; however, the integral representation of an angle must not exceed the range of a 32-bit signed integer.
+An implementation is permitted to use any range for angles and is permitted to normalise an angle (for example to -180  to +180  or 0 to 360 ). Implementations are not required to be consistent; however, the integral representation of an angle must not exceed the range of a 32-bit signed integer.
 
-The suffix fd is used to identify this representation of an angle (fractional degree). Notice that this is distinguished from the f suffix for a dimensionless fraction although identical arithmetic can be used to support it. The default for an angular value is simple degrees, i.e., an unscaled value. This may also be signalled with the suffix "°" (the degree symbol); however, use of this depends on having a suitable document encoding -- consequently, the suffix deg is also defined to mean degrees. The full set of possible suffices are as follows.
+The suffix fd is used to identify this representation of an angle (fractional degree). Notice that this is distinguished from the f suffix for a dimensionless fraction although identical arithmetic can be used to support it. The default for an angular value is simple degrees, i.e., an unscaled value. This may also be signalled with the suffix " " (the degree symbol); however, use of this depends on having a suitable document encoding -- consequently, the suffix deg is also defined to mean degrees. The full set of possible suffices are as follows.
 
 
 
 | Suffix       | Conversion Factor | Comments                               |
 |--------------|-------------------|----------------------------------------|
 | fd           | 1                 | High-precision internal representation |
-| none, deg, ° | 65536             | Degrees                                |
+| none, deg,   | 65536             | Degrees                                |
 | rad          | 65536pi/180       | Radians                                |
 
 
 
- 
+ 
 
 ### Alternative representations
 
-The scaling transformation has discontinuities at odd multiples of 45°. It is, therefore, extremely important for the conversion of any inexact quantity to be well defined. For this reason, the arithmetic of conversion is defined to round towards minus infinity.
+The scaling transformation has discontinuities at odd multiples of 45 . It is, therefore, extremely important for the conversion of any inexact quantity to be well defined. For this reason, the arithmetic of conversion is defined to round towards minus infinity.
 
 Because this may be difficult or impossible to guarantee in some implementations, the use of the following is defined to be a level 3 feature:
 
 1.  Any fractional degree value.
 2.  Any radian value
 
-Thus, values qualified fd and unqualified integral values, or integral values qualified deg or ° must be handled exactly by a conforming level 0 implementation; other values need not. It is strongly recommended that any implementation handle the conversion from a fractional degree value to a scaled (fd) degree value exactly. This can be done without floating point support.
+Thus, values qualified fd and unqualified integral values, or integral values qualified deg or   must be handled exactly by a conforming level 0 implementation; other values need not. It is strongly recommended that any implementation handle the conversion from a fractional degree value to a scaled (fd) degree value exactly. This can be done without floating point support.
 
 The more exacting requirements for conversion distinguish fd from f.
 
@@ -334,7 +356,7 @@ In the XPointer definitions, the location source is the element containing the c
 
 
 
- 
+ 
 
 The this color allows a color value to specify a modification to a color which is derived in some other way; in particular, a single operation may be specified for all the colors in a bitmap. The palette(*index*) color identifies a particular entry in a palette-mapped bitmap. Use of this is only defined for recording a color table entry that should be regarded as transparent in such a bitmap.
 
@@ -416,7 +438,7 @@ Aqua = "\#00FFFF"
 
 
 
- 
+ 
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -449,7 +471,7 @@ This tag allows up to eight scheme colors to be defined. Undefined colors should
 
 
 
- 
+ 
 
 A scheme color may be referred to either by name or by index, thus scheme.fill and scheme(4) are the same color.
 
@@ -532,7 +554,7 @@ The parameter of the first six operations is a single integral numeric value in 
 
 1.  If &lt;gray/&gt; is specified, the RGB value is replaced by yyy, where y is the luminance (y') value calculated from the sRGB value in following the ITU-r BT.709. This calculation is:
     ```HTML
-    y = 0·2125xr + 0·7154xg + 0·0721xb
+    y = 0 2125xr + 0 7154xg + 0 0721xb
     ```
 
     
@@ -550,7 +572,7 @@ The parameter of the first six operations is a single integral numeric value in 
 
     
 
-     
+     
 
     In each case, if the calculated component value, c, exceeds 255, then 255 is used, and if it is less than 0, then 0 is used.
 
@@ -626,7 +648,7 @@ The behavior attribute may be used to indicate how the bitmap should be handled 
 
 
 
- 
+ 
 
 These values are both hints as to the expected behavior. The separate option refers to the behavior of the data referred to by href. If both separate and original are given, the application is expected to disregard the href URI and regenerate the bitmap from the original data. If only original is given, the application is expected to use the href URI to find the bitmap but may give the user the option of regenerating it.
 
@@ -670,9 +692,9 @@ A vector graphic path is encoded as pcdata. The content of the v element is mixe
 
 [Back to the VML overview](web-workshop---specs---standards----how-to-use-vml-on-web-pages.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Error Object
 description: The Error object provides access to a collection of ErrorItem objects.
-ms.assetid: '1f026ad4-0240-48fe-90ad-739a24e8a7ca'
-keywords: ["Error Object Windows Media Player"]
+ms.assetid: 1f026ad4-0240-48fe-90ad-739a24e8a7ca
+keywords:
+- Error Object Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Error Object
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Object

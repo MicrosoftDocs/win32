@@ -4,11 +4,14 @@ description: Returns the value of the WSManFlagUseCredSsp authentication flag fo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bb167445-91d6-4e06-a976-bf869320784a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: bb167445-91d6-4e06-a976-bf869320784a
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["SessionFlagUseCredSsp method Windows Remote Management", "SessionFlagUseCredSsp method Windows Remote Management , WSMan object", "WSMan object Windows Remote Management , SessionFlagUseCredSsp method"]
+keywords:
+- SessionFlagUseCredSsp method Windows Remote Management
+- SessionFlagUseCredSsp method Windows Remote Management , WSMan object
+- WSMan object Windows Remote Management , SessionFlagUseCredSsp method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WSMan.SessionFlagUseCredSsp method
@@ -57,9 +63,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                             |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                                                        |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2<br/> |
+| Minimum supported client<br/> | Windows 7<br/>                                                                                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2<br/> |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>                                      |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl>                                    |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl>                                    |
@@ -77,9 +83,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**Session**](session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

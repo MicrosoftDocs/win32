@@ -1,7 +1,12 @@
 ---
-Description: 'Business address fax number of the contact.'
-ms.assetid: 'fbffd3f2-e032-4297-9fe9-4d141af2f9ea'
-title: 'System.Contact.BusinessFaxNumber'
+Description: Business address fax number of the contact.
+ms.assetid: fbffd3f2-e032-4297-9fe9-4d141af2f9ea
+title: System.Contact.BusinessFaxNumber
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.BusinessFaxNumber

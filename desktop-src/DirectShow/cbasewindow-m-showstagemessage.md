@@ -1,7 +1,12 @@
 ---
-Description: 'Private message that brings the window to the foreground.'
-ms.assetid: '88b28888-d729-4cf3-8b9d-618dbe150926'
-title: 'CBaseWindow::m\_ShowStageMessage member'
+Description: Private message that brings the window to the foreground.
+ms.assetid: 88b28888-d729-4cf3-8b9d-618dbe150926
+title: CBaseWindowm\_ShowStageMessage member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_ShowStageMessage member
@@ -39,9 +44,9 @@ The [**CBaseWindow::DoSetWindowForeground**](cbasewindow-dosetwindowforeground.m
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

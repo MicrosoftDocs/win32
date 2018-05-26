@@ -1,14 +1,19 @@
 ---
 title: Credential Caching
 description: Credential Caching
-ms.assetid: '6e411333-56fa-455b-a90a-f2b54f3c9545'
+ms.assetid: 6e411333-56fa-455b-a90a-f2b54f3c9545
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Credential Caching
 
 ## Credential Caching on NTLM KA Connections
 
-The HTTP Server API caches credentials only on Keep-Alive (KA) connections for NTLM authentication. By default, the HTTP Server API caches the credentials obtained on the first request sent on a KA connection. The client can send subsequent requests on KA connections without an authorization header and obtain authentication based on the previously established context. In this case, the HTTP Server API sends the token based on the cached credential to the application. Credentials for a request sent by a proxy are not cached. The application disables NTLM credential caching by setting the **DisableNTLMCredentialCaching** flag in the [**HTTP\_SERVER\_AUTHENTICATION\_INFO**](http-server-authentication-info.md) structure that is supplied in calls to HttpSetServerSessionProperty or HttpSetUrlGroupProperty. When credential caching is disabled, the HTTP Server API discards the cached credentials and performs authentication for each request
+The HTTP Server API caches credentials only on Keep-Alive (KA) connections for NTLM authentication. By default, the HTTP Server API caches the credentials obtained on the first request sent on a KA connection. The client can send subsequent requests on KA connections without an authorization header and obtain authentication based on the previously established context. In this case, the HTTP Server API sends the token based on the cached credential to the application. Credentials for a request sent by a proxy are not cached. The application disables NTLM credential caching by setting the **DisableNTLMCredentialCaching** flag in the [**HTTP\_SERVER\_AUTHENTICATION\_INFO**](/windows/win32/Http/ns-http-_http_server_authentication_info?branch=master) structure that is supplied in calls to HttpSetServerSessionProperty or HttpSetUrlGroupProperty. When credential caching is disabled, the HTTP Server API discards the cached credentials and performs authentication for each request
 
 ## NTLM Credential Caching for Specific URLs
 

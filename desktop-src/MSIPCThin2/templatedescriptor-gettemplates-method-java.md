@@ -1,20 +1,24 @@
 ---
 title: TemplateDescriptor getTemplates asynchronous method
-description: Asynchronously queries the server for the tenant's policy templates.
+description: Asynchronously queries the server for the tenants policy templates.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'F4308E31-7ECA-4A61-8CBA-1A0E25F65DDD'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: F4308E31-7ECA-4A61-8CBA-1A0E25F65DDD
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["TemplateDescriptor getTemplates asynchronous method"]
+keywords:
+- TemplateDescriptor getTemplates asynchronous method
 topic_type:
 - apiref
 api_name:
 - TemplateDescriptor getTemplates asynchronous method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TemplateDescriptor getTemplates asynchronous method
@@ -42,7 +46,7 @@ public static IAsyncControl getTemplates(String userId,
 
 
 
- 
+ 
 
 ## Returns
 
@@ -66,15 +70,15 @@ TemplateDescriptor.java
 
 
 
- 
+ 
 
 ## Remarks
 
 This method could launch the Authentication UI if no valid authentication token is present.
 
- 
+ 
 
- 
+ 
 
 
 

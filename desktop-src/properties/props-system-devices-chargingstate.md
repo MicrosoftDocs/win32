@@ -1,7 +1,12 @@
 ---
-Description: 'Device charging status.'
-ms.assetid: '33ef8ecb-29e3-4809-9d56-8d884f9c9ff6'
-title: 'System.Devices.ChargingState'
+Description: Device charging status.
+ms.assetid: 33ef8ecb-29e3-4809-9d56-8d884f9c9ff6
+title: System.Devices.ChargingState
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.ChargingState

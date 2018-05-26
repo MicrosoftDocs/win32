@@ -4,11 +4,16 @@ description: The Generic Script resource type works in conjunction with a script
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '21f67569-1b5c-4670-8b7b-a312f98ffd10'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 21f67569-1b5c-4670-8b7b-a312f98ffd10
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,Generic Script", "Generic Script resource type Failover Cluster"]
+keywords:
+- resource types Failover Cluster ,Generic Script
+- Generic Script resource type Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Generic Script

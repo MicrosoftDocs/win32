@@ -1,8 +1,9 @@
 ---
 title: STN\_DISABLE notification code
 description: The STN\_DISABLE notification code is sent when a static control is disabled.
-ms.assetid: '7ff0c191-4ff3-4a11-a418-8f45e16d0318'
-keywords: ["STN_DISABLE notification code Windows Controls"]
+ms.assetid: 7ff0c191-4ff3-4a11-a418-8f45e16d0318
+keywords:
+- STN_DISABLE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STN\_DISABLE notification code
@@ -51,8 +57,8 @@ Handle to the static control.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -85,9 +91,9 @@ Handle to the static control.
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
-﻿---
-Description: 'XMSHORT2 describes a 2D vector consisting of 16-bit signed and normalized integer components.'
-ms.assetid: 'cc0db281-e304-408a-8b3d-2d520bfa283e'
+---
+Description: XMSHORT2 describes a 2D vector consisting of 16-bit signed and normalized integer components.
+ms.assetid: cc0db281-e304-408a-8b3d-2d520bfa283e
 title: XMSHORT2 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMSHORT2 Extensions
 
-[**XMSHORT2**](xmshort2.md) describes a 2D vector consisting of 16-bit signed and normalized integer components.
+[**XMSHORT2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshort2?branch=master) describes a 2D vector consisting of 16-bit signed and normalized integer components.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -33,7 +38,7 @@ title: XMSHORT2 Extensions
 **Reference**
 </dt> <dt>
 
-[**XMSHORT2**](xmshort2.md)
+[**XMSHORT2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshort2?branch=master)
 </dt> </dl>
 
  

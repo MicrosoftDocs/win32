@@ -1,8 +1,9 @@
 ---
 title: EM\_STOPGROUPTYPING message
 description: Stops a rich edit control from collecting additional typing actions into the current undo action. The control stores the next typing action, if any, into a new action in the undo queue.
-ms.assetid: '3059826f-84d1-4b7b-b4a8-da17d5f41013'
-keywords: ["EM_STOPGROUPTYPING message Windows Controls"]
+ms.assetid: 3059826f-84d1-4b7b-b4a8-da17d5f41013
+keywords:
+- EM_STOPGROUPTYPING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_STOPGROUPTYPING message
@@ -57,8 +63,8 @@ You can send the **EM\_STOPGROUPTYPING** message to break consecutive typing act
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ You can send the **EM\_STOPGROUPTYPING** message to break consecutive typing act
 [**EM\_UNDO**](em-undo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

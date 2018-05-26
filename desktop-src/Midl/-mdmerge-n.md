@@ -1,14 +1,20 @@
 ---
 title: /n switch
 description: The /n switch specifies the composition depth for composing metadata files.
-ms.assetid: '7A1F8A9E-B3CC-4BB2-BF50-5662D4560280'
-keywords: ["/n switch MIDL"]
+ms.assetid: 7A1F8A9E-B3CC-4BB2-BF50-5662D4560280
+keywords:
+- /n switch MIDL
 topic_type:
 - apiref
 api_name:
 - /n
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /n switch
@@ -45,7 +51,7 @@ Here are the possible value formats that you can specify with the **/n** switch.
 
 
 
- 
+ 
 
 The following table shows the results from different combinations of the **/n** switch working on these namespaces.
 
@@ -65,7 +71,7 @@ The following table shows the results from different combinations of the **/n** 
 
 
 
- 
+ 
 
 Here are the rules for handling multiple instances of the **/n** switch.
 
@@ -83,8 +89,8 @@ Here are the rules for handling multiple instances of the **/n** switch.
 
 |                   |                                |
 |-------------------|--------------------------------|
-| Client<br/> | Windows 8<br/>           |
-| Server<br/> | Windows Server 2012<br/> |
+| Client<br/> | Windows 8<br/>           |
+| Server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -95,9 +101,9 @@ Here are the rules for handling multiple instances of the **/n** switch.
 [General MIDL Command-line Syntax](general-midl-command-line-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following sample demonstrates how to code a simple callback handler to receive Windows Installer progress messages during an installation.'
-ms.assetid: 'ae1589ae-0ad7-4314-8bf1-c8ad51eac5a2'
+Description: The following sample demonstrates how to code a simple callback handler to receive Windows Installer progress messages during an installation.
+ms.assetid: ae1589ae-0ad7-4314-8bf1-c8ad51eac5a2
 title: Handling Progress Messages Using MsiSetExternalUI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Progress Messages Using MsiSetExternalUI
@@ -9,7 +14,7 @@ title: Handling Progress Messages Using MsiSetExternalUI
 The following sample demonstrates how to code a simple callback handler to receive Windows Installer progress messages during an installation.
 
 > [!Note]  
-> When using [**MsiSetExternalUI**](msisetexternalui.md) with a message type of INSTALLMESSAGE\_FILESINUSE, the message sent to the external UI handler function does not contain any information about files in use or window titles used by the [FilesInUse](filesinuse-dialog.md) dialog box. You should use [**MsiSetExternalUIRecord**](msisetexternaluirecord.md) to obtain information.
+> When using [**MsiSetExternalUI**](/windows/win32/Msi/nf-msi-msisetexternaluia?branch=master) with a message type of INSTALLMESSAGE\_FILESINUSE, the message sent to the external UI handler function does not contain any information about files in use or window titles used by the [FilesInUse](filesinuse-dialog.md) dialog box. You should use [**MsiSetExternalUIRecord**](/windows/win32/Msi/nf-msi-msisetexternaluirecord?branch=master) to obtain information.
 
  
 

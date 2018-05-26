@@ -1,8 +1,15 @@
 ---
 title: Windows Virtual PC
 description: Use Windows Virtual PC COM interfaces to create virtual machine and install virtual machine; Windows Virtual PC is the latest Microsoft virtualization technology.
-ms.assetid: 'd47eee76-059b-43dc-a51f-7c08d932a1c7'
-keywords: ["Windows Virtual PC Virtual PC", "Windows Virtual PC Virtual PC , home page"]
+ms.assetid: d47eee76-059b-43dc-a51f-7c08d932a1c7
+keywords:
+- Windows Virtual PC Virtual PC
+- Windows Virtual PC Virtual PC , home page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Virtual PC

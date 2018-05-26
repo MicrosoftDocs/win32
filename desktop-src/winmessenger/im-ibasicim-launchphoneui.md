@@ -1,8 +1,16 @@
 ---
 title: IBasicIM LaunchPhoneUI method
 description: IBasicIM LaunchPhoneUI method
-ms.assetid: '52b61db5-969c-4f2d-9239-1713a01614b3'
-keywords: ["LaunchPhoneUI method Windows Messenger", "LaunchPhoneUI method Windows Messenger , IBasicIM interface", "IBasicIM interface Windows Messenger , LaunchPhoneUI method"]
+ms.assetid: 52b61db5-969c-4f2d-9239-1713a01614b3
+keywords:
+- LaunchPhoneUI method Windows Messenger
+- LaunchPhoneUI method Windows Messenger , IBasicIM interface
+- IBasicIM interface Windows Messenger , LaunchPhoneUI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicIM::LaunchPhoneUI method

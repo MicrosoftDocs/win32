@@ -1,7 +1,12 @@
-﻿---
-Description: 'IEnumUserIdentity::Next is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.'
-ms.assetid: '2c8dfe36-c1bb-49f8-8847-f355cfab2984'
-title: 'IEnumUserIdentity::Next method'
+---
+Description: IEnumUserIdentityNext is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+ms.assetid: 2c8dfe36-c1bb-49f8-8847-f355cfab2984
+title: IEnumUserIdentityNext method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumUserIdentity::Next method

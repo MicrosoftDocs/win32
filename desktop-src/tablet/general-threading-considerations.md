@@ -1,7 +1,12 @@
 ---
-Description: 'Overview of general threading considerations.'
-ms.assetid: 'cf35724f-5f80-4b3e-992a-a9d5ea99aae9'
+Description: Overview of general threading considerations.
+ms.assetid: cf35724f-5f80-4b3e-992a-a9d5ea99aae9
 title: General Threading Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Threading Considerations
@@ -36,23 +41,23 @@ The Tablet PC Platform application programming interface (API) has an interactiv
 
 ### AutoRedraw Property
 
-When your application is performing custom rendering or when your application is sensitive to painting issues, you can handle the repainting yourself and set the [**AutoRedraw**](inkcollector-autoredraw.md) property to **false** for the [**InkCollector**](inkcollector-class.md) object, the [**InkOverlay**](inkoverlay-class.md) object, or the [InkPicture](inkpicture-control.md) control. Use the events in the following table to handle the repainting.
+When your application is performing custom rendering or when your application is sensitive to painting issues, you can handle the repainting yourself and set the [**AutoRedraw**](/windows/win32/msinkaut/?branch=master) property to **false** for the [**InkCollector**](/windows/win32/msinkaut/?branch=master) object, the [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object, or the [InkPicture](inkpicture-control.md) control. Use the events in the following table to handle the repainting.
 
 
 
 | Object or Control                                            | Event                                                                                                                                                                                                                     |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InkCollector**](inkcollector-class.md) Object<br/> | The underlying control's [Control.Invalidated](frlrfSystemWindowsFormsControlClassInvalidatedTopic) and [Control.Paint](frlrfSystemWindowsFormsControlClassPaintTopic) events.<br/>                                 |
-| [**InkOverlay**](inkoverlay-class.md) Object<br/>     | The underlying control's [Control.Invalidated](frlrfSystemWindowsFormsControlClassInvalidatedTopic) and [Control.Paint](frlrfSystemWindowsFormsControlClassPaintTopic) events.<br/>                                 |
+| [**InkCollector**](/windows/win32/msinkaut/?branch=master) Object<br/> | The underlying control's [Control.Invalidated](frlrfSystemWindowsFormsControlClassInvalidatedTopic) and [Control.Paint](frlrfSystemWindowsFormsControlClassPaintTopic) events.<br/>                                 |
+| [**InkOverlay**](/windows/win32/msinkaut/?branch=master) Object<br/>     | The underlying control's [Control.Invalidated](frlrfSystemWindowsFormsControlClassInvalidatedTopic) and [Control.Paint](frlrfSystemWindowsFormsControlClassPaintTopic) events.<br/>                                 |
 | [InkPicture](inkpicture-control.md) Control<br/>      | [InkPicture](inkpicture-control.md) control's inherited [Control.Invalidated](frlrfSystemWindowsFormsControlClassInvalidatedTopic) and [Control.Paint](frlrfSystemWindowsFormsControlClassPaintTopic) events.<br/> |
 
 
 
- 
+ 
 
 ### DynamicRendering Property
 
-When your application is performing custom rendering or when you want the information, but not the ink, you can handle the laying down of ink yourself and turn off real-time rendering of ink by setting the [**DynamicRendering**](inkcollector-dynamicrendering.md) property to **false** for the [**InkCollector**](inkcollector-class.md) object, the [**InkOverlay**](inkoverlay-class.md) object, or the [InkPicture](inkpicture-control.md) control.
+When your application is performing custom rendering or when you want the information, but not the ink, you can handle the laying down of ink yourself and turn off real-time rendering of ink by setting the [**DynamicRendering**](/windows/win32/msinkaut/nf-msinkaut-iinkcollector-put_dynamicrendering?branch=master) property to **false** for the [**InkCollector**](/windows/win32/msinkaut/?branch=master) object, the [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object, or the [InkPicture](inkpicture-control.md) control.
 
 ## Event Threading Considerations
 
@@ -60,24 +65,24 @@ Tablet PC Platform API events are raised on various threads.
 
 ### InkCollector and InkOverlay Objects Events
 
-Most [**InkCollector**](inkcollector-class.md) and [**InkOverlay**](inkoverlay-class.md) object events are raised on the ink thread. Only the mouse events for these objects are raised on the UI thread. For example, for the **InkCollector** object, the [**MouseDown**](inkcollector-mousedown.md) event is raised on the UI thread, and the [**CursorDown**](inkcollector-cursordown.md) event is raised on the ink thread.
+Most [**InkCollector**](/windows/win32/msinkaut/?branch=master) and [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object events are raised on the ink thread. Only the mouse events for these objects are raised on the UI thread. For example, for the **InkCollector** object, the [**MouseDown**](inkcollector-mousedown.md) event is raised on the UI thread, and the [**CursorDown**](inkcollector-cursordown.md) event is raised on the ink thread.
 
 ### Ink Object and Strokes Collection Events
 
-The [**Ink**](inkdisp-class.md) object and [**Strokes**](inkstrokes-collection.md) collection events may come from the ink thread or the UI thread. When your application manipulates the **Ink** object or **Strokes** collection, the event is generated in the UI thread. When the [**InkCollector**](inkcollector-class.md) or the [**InkOverlay**](inkoverlay-class.md) object updates the **Ink** object or **Strokes** collection, the event is generated in the ink thread.
+The [**Ink**](/windows/win32/msinkaut/?branch=master) object and [**Strokes**](/windows/win32/msinkaut/?branch=master) collection events may come from the ink thread or the UI thread. When your application manipulates the **Ink** object or **Strokes** collection, the event is generated in the UI thread. When the [**InkCollector**](/windows/win32/msinkaut/?branch=master) or the [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object updates the **Ink** object or **Strokes** collection, the event is generated in the ink thread.
 
-The [InkPicture](inkpicture-control-reference.md) and [InkEdit](inkedit-control-reference.md) controls operate in a single-threaded apartment (STA). When the InkPicture or InkEdit control updates the [**Ink**](inkdisp-class.md) object or [**Strokes**](inkstrokes-collection.md) collection, the event is raised on the UI thread.
+The [InkPicture](inkpicture-control-reference.md) and [InkEdit](inkedit-control-reference.md) controls operate in a single-threaded apartment (STA). When the InkPicture or InkEdit control updates the [**Ink**](/windows/win32/msinkaut/?branch=master) object or [**Strokes**](/windows/win32/msinkaut/?branch=master) collection, the event is raised on the UI thread.
 
 ### Recognition Events
 
 Recognition events are raised on the UI thread or the background recognition thread.
 
--   The [InkEdit](inkedit-control-reference.md) control's [**Recognize**](inkedit-recognize.md) method raises the [Recognition](frlrfMicrosoftInkInkEditClassRecognitionTopic) (Managed Library only) or [**RecognitionResult**](inkedit-recognitionresult.md) (Automation only) event on the UI thread.
--   The [**RecognizerContext**](inkrecognizercontext-class.md) object's [**BackgroundRecognize**](inkrecognizercontext-backgroundrecognize.md) and [**BackgroundRecognizeWithAlternates**](inkrecognizercontext-backgroundrecognizewithalternates.md) methods raise the [**Recognition**](inkrecognizercontext-recognition.md) and [**RecognitionWithAlternates**](inkrecognizercontext-recognitionwithalternates.md) events on the background recognition thread.
+-   The [InkEdit](inkedit-control-reference.md) control's [**Recognize**](/windows/win32/inked/?branch=master) method raises the [Recognition](frlrfMicrosoftInkInkEditClassRecognitionTopic) (Managed Library only) or [**RecognitionResult**](inkedit-recognitionresult.md) (Automation only) event on the UI thread.
+-   The [**RecognizerContext**](/windows/win32/msinkaut/?branch=master) object's [**BackgroundRecognize**](/windows/win32/msinkaut/?branch=master) and [**BackgroundRecognizeWithAlternates**](inkrecognizercontext-backgroundrecognizewithalternates.md) methods raise the [**Recognition**](inkrecognizercontext-recognition.md) and [**RecognitionWithAlternates**](inkrecognizercontext-recognitionwithalternates.md) events on the background recognition thread.
 
 ### Pen Input Panel Events
 
-[**PenInputPanel**](peninputpanel-class.md) events are raised on the thread in which the **PenInputPanel** object is created.
+[**PenInputPanel**](/windows/win32/msinkaut/?branch=master) events are raised on the thread in which the **PenInputPanel** object is created.
 
 ## Related topics
 
@@ -101,9 +106,9 @@ Recognition events are raised on the UI thread or the background recognition thr
 [Microsoft.Ink.InkPicture.AutoRedraw](frlrfMicrosoftInkInkPictureClassAutoRedrawTopic)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

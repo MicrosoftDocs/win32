@@ -1,7 +1,12 @@
 ---
 title: UDP Unicast Receivers
 description: UDP unicast receivers can initiate a QOS-enabled connection by providing QOS parameters to the RSVP SP.
-ms.assetid: '60a43a6a-0b22-480a-9b32-a8bb8d4bf34d'
+ms.assetid: 60a43a6a-0b22-480a-9b32-a8bb8d4bf34d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UDP Unicast Receivers

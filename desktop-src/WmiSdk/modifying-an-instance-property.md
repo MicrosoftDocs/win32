@@ -1,13 +1,16 @@
 ---
-Description: 'After you create or locate an instance of a class, you probably want to modify the instance.'
+Description: After you create or locate an instance of a class, you probably want to modify the instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c0041274-5fcd-4108-961f-aeda6cb5fce8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c0041274-5fcd-4108-961f-aeda6cb5fce8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Modifying an Instance Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Modifying an Instance Property

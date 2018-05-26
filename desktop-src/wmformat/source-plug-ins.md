@@ -1,8 +1,17 @@
 ---
 title: Source Plug-ins
 description: Source Plug-ins
-ms.assetid: '9adc2d42-6273-4af0-b57f-2dde5738ed94'
-keywords: ["Windows Media Format SDK,source plug-ins", "Advanced Systems Format (ASF),source plug-ins", "ASF (Advanced Systems Format),source plug-ins", "source plug-ins"]
+ms.assetid: 9adc2d42-6273-4af0-b57f-2dde5738ed94
+keywords:
+- Windows Media Format SDK,source plug-ins
+- Advanced Systems Format (ASF),source plug-ins
+- ASF (Advanced Systems Format),source plug-ins
+- source plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source Plug-ins
@@ -25,7 +34,7 @@ Once the dll has been registered, the application can use the **IWMReader::Open*
 
 <dl> <dt>
 
-[**IWMReader::Open**](iwmreader-open.md)
+[**IWMReader::Open**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-open?branch=master)
 </dt> <dt>
 
 [**Programming Reference**](programming-reference.md)

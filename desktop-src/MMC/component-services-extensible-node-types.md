@@ -4,10 +4,13 @@ description: The Component Services snap-in allows extensions for the following 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8372086f-e406-433e-9e7e-2d1764a7d2c4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 8372086f-e406-433e-9e7e-2d1764a7d2c4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Component Services Extensible Node Types

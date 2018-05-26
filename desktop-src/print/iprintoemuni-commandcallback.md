@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::CommandCallback method is used to provide dynamically generated printer commands for Unidrv-supported printers.'
-ms.assetid: 'e1708017-a546-4770-8ad1-7052b3d4e264'
-title: 'IPrintOemUni::CommandCallback method'
+---
+Description: The IPrintOemUniCommandCallback method is used to provide dynamically generated printer commands for Unidrv-supported printers.
+ms.assetid: e1708017-a546-4770-8ad1-7052b3d4e264
+title: IPrintOemUniCommandCallback method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::CommandCallback method

@@ -4,11 +4,17 @@ description: Each domain controller in a domain forest controlled by Active Dire
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '77ac171c-2031-46d7-b81e-dd9ae0c70ccb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 77ac171c-2031-46d7-b81e-dd9ae0c70ccb
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Naming Contexts and Directory Partitions AD", "Naming Contexts AD , About", "Directory Partitions AD , About"]
+keywords:
+- Naming Contexts and Directory Partitions AD
+- Naming Contexts AD , About
+- Directory Partitions AD , About
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Naming Contexts and Directory Partitions

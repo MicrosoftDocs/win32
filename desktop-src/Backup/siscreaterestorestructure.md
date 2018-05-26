@@ -1,8 +1,9 @@
 ---
 title: SisCreateRestoreStructure function
 description: Creates a SIS restore structure based on the supplied information.
-ms.assetid: 'acdd4258-813d-42af-a2e1-e59a1426f86c'
-keywords: ["SisCreateRestoreStructure function Backup"]
+ms.assetid: acdd4258-813d-42af-a2e1-e59a1426f86c
+keywords:
+- SisCreateRestoreStructure function Backup
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Sisbkup.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SisCreateRestoreStructure function
@@ -22,11 +28,11 @@ The **SisCreateRestoreStructure** function creates a SIS restore structure based
 
 ```C++
 BOOL SisCreateRestoreStructure(
-  _In_  PWCHAR volumeRoot,
-  _Out_ PVOID  *sisRestoreStructure,
-  _Out_ PWCHAR *commonStoreRootPathname,
-  _Out_ PULONG countOfCommonStoreFilesToRestore,
-  _Out_ PWCHAR **commonStoreFilesToRestore
+  _In_  PWCHAR volumeRoot,
+  _Out_ PVOID  *sisRestoreStructure,
+  _Out_ PWCHAR *commonStoreRootPathname,
+  _Out_ PULONG countOfCommonStoreFilesToRestore,
+  _Out_ PWCHAR **commonStoreFilesToRestore
 );
 ```
 
@@ -91,8 +97,8 @@ After the restore operation is complete, deallocate the memory used by the *comm
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Sisbkup.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Sisbkup.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |
@@ -115,9 +121,9 @@ After the restore operation is complete, deallocate the memory used by the *comm
 [**SisFreeBackupStructure**](sisfreebackupstructure.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

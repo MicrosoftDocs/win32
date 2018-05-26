@@ -5,12 +5,15 @@ Robots: noindex, nofollow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '87178ae9-7314-4fca-a5dd-cd24948dcf75'
-ms.prod: 'windows-server-dev'
+ms.assetid: 87178ae9-7314-4fca-a5dd-cd24948dcf75
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # F - M

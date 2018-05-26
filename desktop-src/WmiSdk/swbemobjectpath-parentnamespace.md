@@ -1,13 +1,16 @@
 ---
-Description: 'The ParentNamespace property of the SWbemObjectPath object contains the name of the parent namespace that is part of the object path. This property is read-only.'
+Description: The ParentNamespace property of the SWbemObjectPath object contains the name of the parent namespace that is part of the object path. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '506cf172-2c8b-48fe-bcdd-572bdca754a8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 506cf172-2c8b-48fe-bcdd-572bdca754a8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObjectPath.ParentNamespace property'
+title: SWbemObjectPath.ParentNamespace property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectPath.ParentNamespace property
@@ -35,8 +38,8 @@ SWbemObjectPath.ParentNamespace As String
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -45,9 +48,9 @@ SWbemObjectPath.ParentNamespace As String
 
 
 
- 
+ 
 
- 
+ 
 
 
 

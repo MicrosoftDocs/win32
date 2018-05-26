@@ -4,13 +4,16 @@ description: Requests that the state of the element be changed to the specified 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6853e39f-6f46-4672-b2fa-8908686c7076'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6853e39f-6f46-4672-b2fa-8908686c7076
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RequestStateChange method iSCSI Software Target API", "RequestStateChange method iSCSI Software Target API , MSISCSITARGET_iSCSISession class", "MSISCSITARGET_iSCSISession class iSCSI Software Target API , RequestStateChange method"]
+keywords:
+- RequestStateChange method iSCSI Software Target API
+- RequestStateChange method iSCSI Software Target API , MSISCSITARGET_iSCSISession class
+- MSISCSITARGET_iSCSISession class iSCSI Software Target API , RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the MSISCSITARGET\_iSCSISession class
@@ -32,9 +38,9 @@ This method is inherited from the [**CIM\_EnabledLogicalElement**](https://msdn.
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob Ref Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob Ref Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -123,14 +129,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>12–32767</dd> <dt>
+</dt> <dd>12 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
@@ -173,7 +179,7 @@ A value of zero or **NULL** indicates that the client has no time requirements f
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Transition Started** (4096)
@@ -188,10 +194,10 @@ A value of zero or **NULL** indicates that the client has no time requirements f
 **Busy** (4099)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -201,7 +207,7 @@ A value of zero or **NULL** indicates that the client has no time requirements f
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -215,9 +221,9 @@ A value of zero or **NULL** indicates that the client has no time requirements f
 [**MSISCSITARGET\_iSCSISession**](msiscsitarget-iscsisession.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

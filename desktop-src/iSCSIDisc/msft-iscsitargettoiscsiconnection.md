@@ -1,7 +1,12 @@
-﻿---
-Description: 'Association between iSCSITarget and iSCSIConnection.'
-ms.assetid: 'DED9BDC6-CA89-491C-BD31-8BDDDD7C7D44'
-title: 'MSFT\_iSCSITargetToiSCSIConnection class'
+---
+Description: Association between iSCSITarget and iSCSIConnection.
+ms.assetid: DED9BDC6-CA89-491C-BD31-8BDDDD7C7D44
+title: MSFT\_iSCSITargetToiSCSIConnection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_iSCSITargetToiSCSIConnection class

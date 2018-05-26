@@ -1,8 +1,11 @@
 ---
 title: IInternetTransport GetStatus method
 description: Gets the current status of the transport.
-ms.assetid: 'fc22f913-768e-4426-a431-ecda4560da22'
-keywords: ["GetStatus method Windows Mail (formerly Outlook Express)", "GetStatus method Windows Mail (formerly Outlook Express) , IInternetTransport interface", "IInternetTransport interface Windows Mail (formerly Outlook Express) , GetStatus method"]
+ms.assetid: fc22f913-768e-4426-a431-ecda4560da22
+keywords:
+- GetStatus method Windows Mail (formerly Outlook Express)
+- GetStatus method Windows Mail (formerly Outlook Express) , IInternetTransport interface
+- IInternetTransport interface Windows Mail (formerly Outlook Express) , GetStatus method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInternetTransport::GetStatus method
@@ -24,7 +32,7 @@ Gets the current status of the transport.
 
 ```C++
 HRESULT GetStatus(
-  [out] IXPSTATUS *pCurrentStatus
+  [out] IXPSTATUS *pCurrentStatus
 );
 ```
 
@@ -55,8 +63,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -64,9 +72,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

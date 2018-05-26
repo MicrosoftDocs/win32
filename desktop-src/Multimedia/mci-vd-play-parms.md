@@ -1,8 +1,9 @@
 ---
 title: MCI\_VD\_PLAY\_PARMS structure
 description: The MCI\_VD\_PLAY\_PARMS structure contains position and speed information for the MCI\_PLAY command for videodisc devices.
-ms.assetid: '9fa8418f-3f69-4a9c-b23e-7d2e2c75c7af'
-keywords: ["MCI_VD_PLAY_PARMS structure Windows Multimedia"]
+ms.assetid: 9fa8418f-3f69-4a9c-b23e-7d2e2c75c7af
+keywords:
+- MCI_VD_PLAY_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_VD\_PLAY\_PARMS structure
@@ -23,9 +29,9 @@ The **MCI\_VD\_PLAY\_PARMS** structure contains position and speed information f
 ```C++
 typedef struct {
   DWORD_PTR dwCallback;
-  DWORD     dwFrom;
-  DWORD     dwTo;
-  DWORD     dwSpeed;
+  DWORD     dwFrom;
+  DWORD     dwTo;
+  DWORD     dwSpeed;
 } MCI_VD_PLAY_PARMS;
 ```
 
@@ -65,7 +71,7 @@ Playback speed in frames per second.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](mcisendcommand.md) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to validate the members.
 
 You can use the [**MCI\_PLAY\_PARMS**](mci-play-parms.md) structure instead of **MCI\_VD\_PLAY\_PARMS** if you are not using the extended data members.
 
@@ -75,8 +81,8 @@ You can use the [**MCI\_PLAY\_PARMS**](mci-play-parms.md) structure instead of *
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -97,12 +103,12 @@ You can use the [**MCI\_PLAY\_PARMS**](mci-play-parms.md) structure instead of *
 [**MCI\_PLAY\_PARMS**](mci-play-parms.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

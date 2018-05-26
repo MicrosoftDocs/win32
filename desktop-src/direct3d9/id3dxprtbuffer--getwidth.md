@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the width of the texture, in pixels.'
-ms.assetid: '0180e6e0-aef2-425d-b9d3-d3f7a64f8d5b'
-title: 'ID3DXPRTBuffer::GetWidth method'
+---
+Description: Retrieves the width of the texture, in pixels.
+ms.assetid: 0180e6e0-aef2-425d-b9d3-d3f7a64f8d5b
+title: ID3DXPRTBufferGetWidth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTBuffer::GetWidth method

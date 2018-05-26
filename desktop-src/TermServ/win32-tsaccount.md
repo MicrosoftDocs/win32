@@ -4,11 +4,13 @@ description: Allows deletion of an account that exists on the Win32\_Terminal an
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fd4d8a0f-685b-4619-84f1-faefbabd04ba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: fd4d8a0f-685b-4619-84f1-faefbabd04ba
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSAccount class Remote Desktop Services", "Win32_TSAccount class Remote Desktop Services , described"]
+keywords:
+- Win32_TSAccount class Remote Desktop Services
+- Win32_TSAccount class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSAccount class
@@ -43,18 +48,18 @@ The following syntax is simplified from MOF code and includes all defined and in
 [dynamic, overwrite, provider("Win32_WIN32_TSACCOUNT_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer\\WinStations"), AMENDMENT]
 class Win32_TSAccount : Win32_TerminalSetting
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   TerminalName;
-  string   AccountName;
-  uint32   AuditFail;
-  uint32   AuditSuccess;
-  uint32   PermissionsAllowed;
-  uint32   PermissionsDenied;
-  string   SID;
+  string   Name;
+  string   Status;
+  string   TerminalName;
+  string   AccountName;
+  uint32   AuditFail;
+  uint32   AuditSuccess;
+  uint32   PermissionsAllowed;
+  uint32   PermissionsDenied;
+  string   SID;
 };
 ```
 
@@ -79,7 +84,7 @@ The **Win32\_TSAccount** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -190,7 +195,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Specifies the RD Session Host server-specific permissions that are audited for a success condition. The value of this property is a bitmask, which can be set to one or more of the values of the **PermissionsAllowed** property.
+Specifies the RD Session Host server-specific permissions that are audited for a success condition. The value of this property is a bitmask, which can be set to one or more of the values of the **PermissionsAllowed** property.
 
 <dt>
 
@@ -452,7 +457,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Specifies the RD Session Host server-specific permissions disallowed for the account. The value of this property is a bitmask, which can be set to one or more of the values of the **PermissionsAllowed** property.
+Specifies the RD Session Host server-specific permissions disallowed for the account. The value of this property is a bitmask, which can be set to one or more of the values of the **PermissionsAllowed** property.
 
 <dt>
 
@@ -646,8 +651,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -661,9 +666,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalSetting**](win32-terminalsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

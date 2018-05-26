@@ -1,7 +1,12 @@
 ---
-Description: 'Stops the guest service.'
-ms.assetid: '67FFA46C-0B61-4845-A617-BA10F4D42CBC'
-title: 'Msvm\_GuestService::StopService method'
+Description: Stops the guest service.
+ms.assetid: 67FFA46C-0B61-4845-A617-BA10F4D42CBC
+title: Msvm\_GuestServiceStopService method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_GuestService::StopService method
@@ -34,7 +39,7 @@ This method returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -42,8 +47,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | \\\\Root\\Virtualization\\V2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -57,9 +62,9 @@ This method returns one of the following values.
 [**Msvm\_GuestService**](msvm-guestservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Opacity Masks Overview
 description: This topic describes how to use bitmaps and brushes to define opacity masks. It contains the following sections.
-ms.assetid: '869821b0-6ebe-46c2-aab6-93177d8a92c5'
+ms.assetid: 869821b0-6ebe-46c2-aab6-93177d8a92c5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opacity Masks Overview
@@ -28,14 +33,14 @@ An opacity mask is a mask, described by a brush or bitmap, that is applied to an
 There are several ways to apply an opacity mask:
 
 -   Use the [**ID2D1RenderTarget::FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) method. The **FillOpacityMask** method paints a rectangular region of a render target and then applies an opacity mask, defined by a bitmap. Use this method when your opacity mask is a bitmap and you want to fill a rectangular region.
--   Use the [**ID2D1RenderTarget::FillGeometry**](id2d1rendertarget-fillgeometry.md) method. The **FillGeometry** method paints the interior of geometry with the specified [**ID2D1BitmapBrush**](id2d1bitmapbrush.md), then applies an opacity mask, defined by a brush. Use this method when you want to apply an opacity mask to a geometry or you want to use a brush as an opacity mask.
--   Use an [**ID2D1Layer**](id2d1layer.md) to apply an opacity mask. Use this approach when you want to apply an opacity mask to a group of drawing content, not just a single shape or image. For details, see the [Layers Overview](direct2d-layers-overview.md).
+-   Use the [**ID2D1RenderTarget::FillGeometry**](/windows/win32/d2d1/?branch=master) method. The **FillGeometry** method paints the interior of geometry with the specified [**ID2D1BitmapBrush**](/windows/win32/d2d1/?branch=master), then applies an opacity mask, defined by a brush. Use this method when you want to apply an opacity mask to a geometry or you want to use a brush as an opacity mask.
+-   Use an [**ID2D1Layer**](/windows/win32/d2d1/?branch=master) to apply an opacity mask. Use this approach when you want to apply an opacity mask to a group of drawing content, not just a single shape or image. For details, see the [Layers Overview](direct2d-layers-overview.md).
 
 ## Use a Bitmap as an Opacity Mask with the FillOpacityMask Method
 
-The [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) method paints a rectangular region of a render target and then applies an opacity mask, defined by an [**ID2D1Bitmap**](id2d1bitmap.md). Use this method when you have a bitmap that you want to use as an opacity mask for a rectangular region.
+The [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) method paints a rectangular region of a render target and then applies an opacity mask, defined by an [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master). Use this method when you have a bitmap that you want to use as an opacity mask for a rectangular region.
 
-The following diagram shows an effect of applying the opacity mask (an [**ID2D1Bitmap**](id2d1bitmap.md) with an image of a flower) to an [**ID2D1BitmapBrush**](id2d1bitmapbrush.md) with an image of a fern plant. The resulting image is a bitmap of a plant clipped to the flower shape.
+The following diagram shows an effect of applying the opacity mask (an [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master) with an image of a flower) to an [**ID2D1BitmapBrush**](/windows/win32/d2d1/?branch=master) with an image of a fern plant. The resulting image is a bitmap of a plant clipped to the flower shape.
 
 ![diagram of a flower bitmap used as an opacity mask on a picture of a fern plant](images/brushes-ovw-bitmapopacity.png)
 
@@ -45,7 +50,7 @@ The first example loads the following bitmap, *m\_pBitmapMask*, for use as a bit
 
 ![illustration of the flower bitmap mask](images/bitmapmask.png)
 
-In this example, the [**ID2D1Bitmap**](id2d1bitmap.md) is loaded by a helper method, LoadResourceBitmap, defined elsewhere in the sample.
+In this example, the [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master) is loaded by a helper method, LoadResourceBitmap, defined elsewhere in the sample.
 
 
 ```C++
@@ -63,7 +68,7 @@ In this example, the [**ID2D1Bitmap**](id2d1bitmap.md) is loaded by a helper met
 
 
 
-The next example defines the brush, *m\_pFernBitmapBrush*, to which the opacity mask is applied. This example uses an [**ID2D1BitmapBrush**](id2d1bitmapbrush.md) that contains an image of a fern, but you could use an [**ID2D1SolidColorBrush**](id2d1solidcolorbrush.md), [**ID2D1LinearGradientBrush**](id2d1lineargradientbrush.md), or [**ID2D1RadialGradientBrush**](id2d1radialgradientbrush.md) instead. The following illustration shows the output that is produced.
+The next example defines the brush, *m\_pFernBitmapBrush*, to which the opacity mask is applied. This example uses an [**ID2D1BitmapBrush**](/windows/win32/d2d1/?branch=master) that contains an image of a fern, but you could use an [**ID2D1SolidColorBrush**](/windows/win32/d2d1/?branch=master), [**ID2D1LinearGradientBrush**](/windows/win32/d2d1/?branch=master), or [**ID2D1RadialGradientBrush**](/windows/win32/d2d1/?branch=master) instead. The following illustration shows the output that is produced.
 
 ![illustration of the bitmap used by the bitmap brush](images/fern.png)
 
@@ -104,14 +109,14 @@ The next example defines the brush, *m\_pFernBitmapBrush*, to which the opacity 
 
 
 
-Now that opacity mask and the brush are defined, you can use the [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) method in your application's rendering method. When you call the **FillOpacityMask** method, you must specify the type of opacity mask you are using: **D2D1\_OPACITY\_MASK\_CONTENT\_GRAPHICS**, **D2D1\_OPACITY\_MASK\_CONTENT\_TEXT\_NATURAL**, and **D2D1\_OPACITY\_MASK\_CONTENT\_TEXT\_GDI\_COMPATIBLE**. For the meanings of these three types, see [**D2D1\_OPACITY\_MASK\_CONTENT**](d2d1-opacity-mask-content.md).
+Now that opacity mask and the brush are defined, you can use the [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) method in your application's rendering method. When you call the **FillOpacityMask** method, you must specify the type of opacity mask you are using: **D2D1\_OPACITY\_MASK\_CONTENT\_GRAPHICS**, **D2D1\_OPACITY\_MASK\_CONTENT\_TEXT\_NATURAL**, and **D2D1\_OPACITY\_MASK\_CONTENT\_TEXT\_GDI\_COMPATIBLE**. For the meanings of these three types, see [**D2D1\_OPACITY\_MASK\_CONTENT**](/windows/win32/d2d1/ne-d2d1-d2d1_opacity_mask_content?branch=master).
 
 > [!Note]  
-> Starting with Windows 8, the [**D2D1\_OPACITY\_MASK\_CONTENT**](d2d1-opacity-mask-content.md) is not required. See the [**ID2D1DeviceContext::FillOpacityMask**](id2d1devicecontext-fillopacitymask.md) method, which has no **D2D1\_OPACITY\_MASK\_CONTENT** parameter.
+> Starting with Windows 8, the [**D2D1\_OPACITY\_MASK\_CONTENT**](/windows/win32/d2d1/ne-d2d1-d2d1_opacity_mask_content?branch=master) is not required. See the [**ID2D1DeviceContext::FillOpacityMask**](/windows/win32/D2d1_1/?branch=master) method, which has no **D2D1\_OPACITY\_MASK\_CONTENT** parameter.
 
  
 
-The next example sets the render target's antialiasing mode to [**D2D1\_ANTIALIAS\_MODE\_ALIASED**](d2d1-antialias-mode.md) so that the opacity mask will work properly. It then calls the [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) method and passes it the opacity mask (*m\_pBitmapMask*), the brush to which the opacity mask is applied (*m\_pFernBitmapBrush*), the type of content inside the opacity mask ([**D2D1\_OPACITY\_MASK\_CONTENT\_GRAPHICS**](d2d1-opacity-mask-content.md)), and the area to paint. The following illustration shows the output that is produced.
+The next example sets the render target's antialiasing mode to [**D2D1\_ANTIALIAS\_MODE\_ALIASED**](/windows/win32/d2d1/ne-d2d1-d2d1_antialias_mode?branch=master) so that the opacity mask will work properly. It then calls the [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) method and passes it the opacity mask (*m\_pBitmapMask*), the brush to which the opacity mask is applied (*m\_pFernBitmapBrush*), the type of content inside the opacity mask ([**D2D1\_OPACITY\_MASK\_CONTENT\_GRAPHICS**](/windows/win32/d2d1/ne-d2d1-d2d1_opacity_mask_content?branch=master)), and the area to paint. The following illustration shows the output that is produced.
 
 ![illustration of the fern plant picture with an opacity mask applied](images/opacitymaskoutput.png)
 
@@ -152,15 +157,15 @@ Code has been omitted from this example.
 
 ## Use a Brush as an Opacity Mask with the FillGeometry Method
 
-The preceding section described how to use an [**ID2D1Bitmap**](id2d1bitmap.md) as an opacity mask. Direct2D also provides the [**ID2D1RenderTarget::FillGeometry**](id2d1rendertarget-fillgeometry.md) method, which enables you to optionally specify brush as an opacity mask when you fill an [**ID2D1Geometry**](id2d1geometry.md). This enables you to create opacity masks from gradients (using [**ID2D1LinearGradientBrush**](id2d1lineargradientbrush.md) or [**ID2D1RadialGradientBrush**](id2d1radialgradientbrush.md)) and bitmaps (using **ID2D1Bitmap**).
+The preceding section described how to use an [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master) as an opacity mask. Direct2D also provides the [**ID2D1RenderTarget::FillGeometry**](/windows/win32/d2d1/?branch=master) method, which enables you to optionally specify brush as an opacity mask when you fill an [**ID2D1Geometry**](/windows/win32/d2d1/?branch=master). This enables you to create opacity masks from gradients (using [**ID2D1LinearGradientBrush**](/windows/win32/d2d1/?branch=master) or [**ID2D1RadialGradientBrush**](/windows/win32/d2d1/?branch=master)) and bitmaps (using **ID2D1Bitmap**).
 
-The [**FillGeometry**](id2d1rendertarget-fillgeometry.md) method takes three parameters:
+The [**FillGeometry**](/windows/win32/d2d1/?branch=master) method takes three parameters:
 
--   The first parameter, an [**ID2D1Geometry**](id2d1geometry.md), defines the shape to paint.
--   The second parameter, an [**ID2D1Brush**](id2d1brush.md), specifies the brush used to paint the geometry. This parameter must be an [**ID2D1BitmapBrush**](id2d1bitmapbrush.md) that has its x- and y-extend modes set to [**D2D1\_EXTEND\_MODE\_CLAMP**](d2d1-extend-mode.md).
--   The third parameter, an [**ID2D1Brush**](id2d1brush.md), specifies a brush to use as the opacity mask. This brush may be an [**ID2D1LinearGradientBrush**](id2d1lineargradientbrush.md), [**ID2D1RadialGradientBrush**](id2d1radialgradientbrush.md), or an [**ID2D1BitmapBrush**](id2d1bitmapbrush.md). (Technically, you may use an [**ID2D1SolidColorBrush**](id2d1solidcolorbrush.md), but using a solid color brush as an opacity mask doesn't produce interesting results.)
+-   The first parameter, an [**ID2D1Geometry**](/windows/win32/d2d1/?branch=master), defines the shape to paint.
+-   The second parameter, an [**ID2D1Brush**](/windows/win32/d2d1/?branch=master), specifies the brush used to paint the geometry. This parameter must be an [**ID2D1BitmapBrush**](/windows/win32/d2d1/?branch=master) that has its x- and y-extend modes set to [**D2D1\_EXTEND\_MODE\_CLAMP**](/windows/win32/d2d1/ne-d2d1-d2d1_extend_mode?branch=master).
+-   The third parameter, an [**ID2D1Brush**](/windows/win32/d2d1/?branch=master), specifies a brush to use as the opacity mask. This brush may be an [**ID2D1LinearGradientBrush**](/windows/win32/d2d1/?branch=master), [**ID2D1RadialGradientBrush**](/windows/win32/d2d1/?branch=master), or an [**ID2D1BitmapBrush**](/windows/win32/d2d1/?branch=master). (Technically, you may use an [**ID2D1SolidColorBrush**](/windows/win32/d2d1/?branch=master), but using a solid color brush as an opacity mask doesn't produce interesting results.)
 
-The following sections describe how to use [**ID2D1LinearGradientBrush**](id2d1lineargradientbrush.md) and [**ID2D1RadialGradientBrush**](id2d1radialgradientbrush.md) objects as opacity masks.
+The following sections describe how to use [**ID2D1LinearGradientBrush**](/windows/win32/d2d1/?branch=master) and [**ID2D1RadialGradientBrush**](/windows/win32/d2d1/?branch=master) objects as opacity masks.
 
 ### Use an Linear Gradient Brush as an Opacity Mask
 
@@ -170,7 +175,7 @@ The following diagram shows the effect of applying a linear gradient brush to a 
 
 The steps that follow describe how to re-create this effect.
 
-1.  Define the content to be masked. The following example creates an [**ID2D1BitmapBrush**](id2d1bitmapbrush.md), *m\_pLinearFadeFlowersBitmap*. The extend mode x- and y- for *m\_pLinearFadeFlowersBitmap* are set to [**D2D1\_EXTEND\_MODE\_CLAMP**](d2d1-extend-mode.md) so that it can be used with an opacity mask by the [**FillGeometry**](id2d1rendertarget-fillgeometry.md) method.
+1.  Define the content to be masked. The following example creates an [**ID2D1BitmapBrush**](/windows/win32/d2d1/?branch=master), *m\_pLinearFadeFlowersBitmap*. The extend mode x- and y- for *m\_pLinearFadeFlowersBitmap* are set to [**D2D1\_EXTEND\_MODE\_CLAMP**](/windows/win32/d2d1/ne-d2d1-d2d1_extend_mode?branch=master) so that it can be used with an opacity mask by the [**FillGeometry**](/windows/win32/d2d1/?branch=master) method.
     ```C++
                 if (SUCCEEDED(hr))
                 {
@@ -301,7 +306,7 @@ The steps that follow describe how to re-create this effect.
 
     
 
-3.  Use the [**FillGeometry**](id2d1rendertarget-fillgeometry.md) method. The final example uses the **FillGeometry** method to the content brush to fill a [**ID2D1RectangleGeometry**](id2d1rectanglegeometry.md) (*m\_pRectGeo*) with an [**ID2D1BitmapBrush**](id2d1bitmapbrush.md) (*m\_pLinearFadeFlowersBitmap*) and applies an opacity mask (*m\_pLinearGradientBrush*).
+3.  Use the [**FillGeometry**](/windows/win32/d2d1/?branch=master) method. The final example uses the **FillGeometry** method to the content brush to fill a [**ID2D1RectangleGeometry**](/windows/win32/d2d1/?branch=master) (*m\_pRectGeo*) with an [**ID2D1BitmapBrush**](/windows/win32/d2d1/?branch=master) (*m\_pLinearFadeFlowersBitmap*) and applies an opacity mask (*m\_pLinearGradientBrush*).
     ```C++
             m_pRenderTarget->FillGeometry(
                 m_pRectGeo, 
@@ -320,7 +325,7 @@ The following diagram shows the visual effect of applying a radial gradient brus
 
 ![diagram of a foliage bitmap with a radial gradient brush applied](images/brushes-ovw-radialgradient-opacitymask.png)
 
-The first example creates an [**ID2D1BitmapBrush**](id2d1bitmapbrush.md), *m\_pRadialFadeFlowersBitmapBrush*. So that it can be used with an opacity mask by the [**FillGeometry**](id2d1rendertarget-fillgeometry.md) method, the extend mode x- and y- for *m\_pRadialFadeFlowersBitmapBrush* are set to [**D2D1\_EXTEND\_MODE\_CLAMP**](d2d1-extend-mode.md).
+The first example creates an [**ID2D1BitmapBrush**](/windows/win32/d2d1/?branch=master), *m\_pRadialFadeFlowersBitmapBrush*. So that it can be used with an opacity mask by the [**FillGeometry**](/windows/win32/d2d1/?branch=master) method, the extend mode x- and y- for *m\_pRadialFadeFlowersBitmapBrush* are set to [**D2D1\_EXTEND\_MODE\_CLAMP**](/windows/win32/d2d1/ne-d2d1-d2d1_extend_mode?branch=master).
 
 
 ```C++
@@ -461,7 +466,7 @@ The next example defines the radial gradient brush that will be used as the opac
 
 
 
-The final code example uses the [**ID2D1BitmapBrush**](id2d1bitmapbrush.md) (*m\_pRadialFadeFlowersBitmapBrush*) and the opacity mask (*m\_pRadialGradientBrush*) to fill an [**ID2D1RectangleGeometry**](id2d1rectanglegeometry.md) (*m\_pRectGeo*).
+The final code example uses the [**ID2D1BitmapBrush**](/windows/win32/d2d1/?branch=master) (*m\_pRadialFadeFlowersBitmapBrush*) and the opacity mask (*m\_pRadialGradientBrush*) to fill an [**ID2D1RectangleGeometry**](/windows/win32/d2d1/?branch=master) (*m\_pRectGeo*).
 
 
 ```C++
@@ -478,7 +483,7 @@ Code has been omitted from this example.
 
 ## Apply an Opacity Mask to a Layer
 
-When you call [**PushLayer**](id2d1rendertarget-push-layer.md) to push an [**ID2D1Layer**](id2d1layer.md) onto an render target, you can use the [**D2D1\_LAYER\_PARAMETERS**](d2d1-layer-parameters.md) structure to apply a brush as an opacity mask. The following code example uses an [**ID2D1RadialGradientBrush**](id2d1radialgradientbrush.md) as an opacity mask.
+When you call [**PushLayer**](/windows/win32/d2d1_1/nf-d2d1-pushlayer?branch=master) to push an [**ID2D1Layer**](/windows/win32/d2d1/?branch=master) onto an render target, you can use the [**D2D1\_LAYER\_PARAMETERS**](/windows/win32/d2d1/ns-d2d1-d2d1_layer_parameters?branch=master) structure to apply a brush as an opacity mask. The following code example uses an [**ID2D1RadialGradientBrush**](/windows/win32/d2d1/?branch=master) as an opacity mask.
 
 
 ```C++

@@ -4,11 +4,13 @@ description: Represents an endpoint.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'feba50ff-7c6c-4682-89ca-11a984a2e93c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: feba50ff-7c6c-4682-89ca-11a984a2e93c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMEndpoint class", "MSFT_SMEndpoint class, described"]
+keywords:
+- MSFT_SMEndpoint class
+- MSFT_SMEndpoint class, described
 topic_type:
 - apiref
 api_name:
@@ -39,6 +41,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMEndpoint class
@@ -47,7 +52,7 @@ Represents an endpoint.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) which is new for Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) which is new for Windows Server 2016.
 
 ## Syntax
 
@@ -212,7 +217,7 @@ Access type: Read-only
 
 The name of the endpoint that is displayed to users.
 
-**Windows Server 2012:  **
+**Windows Server 2012:  **
 
 This property is not supported.
 
@@ -288,7 +293,7 @@ The ID of the logical instance of the object. This ID must be unique within the 
 
 This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
 
 </dd> <dt>
 
@@ -457,7 +462,7 @@ The ID of this class instance. This ID must be unique within the scope of the Wi
 
 This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
 
 </dd> <dt>
 
@@ -886,14 +891,14 @@ The possible values are.
 **DMTF Reserrved**
 
 
-</dt> <dd>112–15999</dd> <dt>
+</dt> <dd>112 15999</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>16000–65535</dd> </dl>
+</dt> <dd>16000 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1057,7 +1062,7 @@ The possible values are.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -1074,9 +1079,9 @@ The possible values are.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

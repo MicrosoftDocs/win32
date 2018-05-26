@@ -2,13 +2,16 @@
 title: Set method of the PS\_DAEntryPoint class
 description: Configures settings for the entry point.
 audience: developer
-ms.assetid: 'd0cd8c51-c4a7-4623-a0ac-a419e89b50ea'
-ms.prod: 'windows-server-dev'
+ms.assetid: d0cd8c51-c4a7-4623-a0ac-a419e89b50ea
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DAEntryPoint class", "PS_DAEntryPoint class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DAEntryPoint class
+- PS_DAEntryPoint class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DAEntryPoint class
@@ -28,12 +34,12 @@ Configures settings for the entry point.
 
 ```mof
 uint32 Set(
-  [in]  string       ComputerName,
-  [in]  string       Name,
-  [in]  string       GslbIP,
-  [in]  boolean      PassThru,
-  [in]  string       NewName,
-  [out] DAEntryPoint cmdletOutput
+  [in]  string       ComputerName,
+  [in]  string       Name,
+  [in]  string       GslbIP,
+  [in]  boolean      PassThru,
+  [in]  string       NewName,
+  [out] DAEntryPoint cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ Specifies the name of the entry point.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ Specifies the name of the entry point.
 [**PS\_DAEntryPoint**](ps-daentrypoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

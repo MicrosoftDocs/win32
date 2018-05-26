@@ -1,7 +1,12 @@
 ---
 title: VML AllowOverlap Attribute
 description: VML AllowOverlap Attribute
-ms.assetid: '7500c78c-5da8-45a9-8148-458b170c4cd0'
+ms.assetid: 7500c78c-5da8-45a9-8148-458b170c4cd0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML AllowOverlap Attribute

@@ -1,8 +1,9 @@
 ---
 title: CardQueryCapabilities function
 description: Retrieves information about the functionality provided by a smart card.
-ms.assetid: '0089535f-f591-41da-818d-297f8d15bb19'
-keywords: ["CardQueryCapabilities function Security"]
+ms.assetid: 0089535f-f591-41da-818d-297f8d15bb19
+keywords:
+- CardQueryCapabilities function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardQueryCapabilities function
@@ -24,8 +30,8 @@ The **CardQueryCapabilities** function, defined by a smart card module, retrieve
 
 ```C++
 DWORD WINAPI CardQueryCapabilities(
-  _In_    PCARD_DATA         pCardData,
-  _Inout_ PCARD_CAPABILITIES pCardCapabilities
+  _In_    PCARD_DATA         pCardData,
+  _Inout_ PCARD_CAPABILITIES pCardCapabilities
 );
 ```
 
@@ -61,8 +67,8 @@ If the function fails, it returns a nonzero value.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -83,9 +89,9 @@ If the function fails, it returns a nonzero value.
 [**CardAcquireContext**](cardacquirecontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

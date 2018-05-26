@@ -1,8 +1,21 @@
 ---
 title: About the ClosedCaption Object
 description: About the ClosedCaption Object
-ms.assetid: 'f536c062-fcf6-4ada-b485-6deeb4dd4d9d'
-keywords: ["Windows Media Player,ClosedCaption object", "Windows Media Player object model,ClosedCaption object", "object model,ClosedCaption object", "Windows Media Player ActiveX control,ClosedCaption object", "ActiveX control,ClosedCaption object", "Windows Media Player Mobile ActiveX control,ClosedCaption object", "Windows Media Player Mobile,ClosedCaption object", "ClosedCaption object"]
+ms.assetid: f536c062-fcf6-4ada-b485-6deeb4dd4d9d
+keywords:
+- Windows Media Player,ClosedCaption object
+- Windows Media Player object model,ClosedCaption object
+- object model,ClosedCaption object
+- Windows Media Player ActiveX control,ClosedCaption object
+- ActiveX control,ClosedCaption object
+- Windows Media Player Mobile ActiveX control,ClosedCaption object
+- Windows Media Player Mobile,ClosedCaption object
+- ClosedCaption object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the ClosedCaption Object

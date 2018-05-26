@@ -1,7 +1,12 @@
 ---
-Description: 'The GetFloatValue method retrieves a FLOAT value (type VT\_R4) specified by a key.'
-ms.assetid: '8a134dfb-f671-4cde-ae35-c8a41be270cf'
-title: 'IPortableDeviceValues::GetFloatValue method'
+Description: The GetFloatValue method retrieves a FLOAT value (type VT\_R4) specified by a key.
+ms.assetid: 8a134dfb-f671-4cde-ae35-c8a41be270cf
+title: IPortableDeviceValuesGetFloatValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetFloatValue method
@@ -13,8 +18,8 @@ The **GetFloatValue** method retrieves a **FLOAT** value (type VT\_R4) specified
 
 ```C++
 HRESULT GetFloatValue(
-  [in]  REFPROPERTYKEY key,
-  [out] FLOAT          *pValue
+  [in]  REFPROPERTYKEY key,
+  [out] FLOAT          *pValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +80,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IPortableDeviceValues::SetFloatValue**](iportabledevicevalues-setfloatvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

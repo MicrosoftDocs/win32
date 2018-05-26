@@ -1,7 +1,12 @@
 ---
 Description: Push Source Filters Sample
-ms.assetid: 'fc52f7bc-e9c7-4cd4-91e8-5c8f3450ca95'
+ms.assetid: fc52f7bc-e9c7-4cd4-91e8-5c8f3450ca95
 title: Push Source Filters Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Push Source Filters Sample

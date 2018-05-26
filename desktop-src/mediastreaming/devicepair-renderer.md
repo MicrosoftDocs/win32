@@ -1,8 +1,11 @@
 ---
 title: DevicePair Renderer property
 description: Gets the renderer for the active basic device pair.
-ms.assetid: 'DB2ED5D3-CCDF-4704-A29A-F1A13F7B953A'
-keywords: ["Renderer property Media Streaming API", "Renderer property Media Streaming API , DevicePair interface", "DevicePair interface Media Streaming API , Renderer property"]
+ms.assetid: DB2ED5D3-CCDF-4704-A29A-F1A13F7B953A
+keywords:
+- Renderer property Media Streaming API
+- Renderer property Media Streaming API , DevicePair interface
+- DevicePair interface Media Streaming API , Renderer property
 topic_type:
 - apiref
 api_name:
@@ -10,6 +13,11 @@ api_name:
 - DevicePair.get_Renderer
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DevicePair::Renderer property

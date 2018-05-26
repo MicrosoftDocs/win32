@@ -4,17 +4,22 @@ description: For a central access rule, this attribute defines the permission th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0b7e14b7-9f5d-4437-a0a7-a6ec329c4f80'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0b7e14b7-9f5d-4437-a0a7-a6ec329c4f80
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Authz-Effective-Security-Policy attribute AD Schema", "msAuthz-EffectiveSecurityPolicy attribute AD Schema"]
+keywords:
+- ms-Authz-Effective-Security-Policy attribute AD Schema
+- msAuthz-EffectiveSecurityPolicy attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Authz-Effective-Security-Policy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Authz-Effective-Security-Policy attribute
@@ -38,7 +43,7 @@ For a central access rule, this attribute defines the permission that is applyin
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For a central access rule, this attribute defines the permission that is applyin
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
 title: Preview Ribbon Sample
 description: Preview Ribbon is an open-source prototyping application for the Windows Ribbon framework that generates a functional preview of the ribbon command bar from a Ribbon framework markup file \ 8212;without the need to implement any underlying command code.
-ms.assetid: 'aec52d8d-d9e1-4a12-a4a9-cf25b9ca7cce'
+ms.assetid: aec52d8d-d9e1-4a12-a4a9-cf25b9ca7cce
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preview Ribbon Sample
 
-Preview Ribbon is an open-source prototyping application for the Windows Ribbon framework that generates a functional preview of the ribbon command bar from a Ribbon framework markup file—without the need to implement any underlying command code.
+Preview Ribbon is an open-source prototyping application for the Windows Ribbon framework that generates a functional preview of the ribbon command bar from a Ribbon framework markup file without the need to implement any underlying command code.
 
 -   [Description](#description)
 -   [Usage](#usage)
@@ -22,7 +27,7 @@ The markup file is compiled by the Preview Ribbon application into a standard Ri
 > [!Note]  
 > As a Windows Forms application, the Preview Ribbon code includes a sample implementation of lightweight managed wrappers for the Ribbon framework native APIs.
 
- 
+ 
 
 In addition to generating a preview of a ribbon command bar, Preview Ribbon supports the following functionality:
 
@@ -45,13 +50,13 @@ The [Preview Ribbon Code Sample](http://go.microsoft.com/fwlink/p/?linkid=177607
 
 Download the sample to your hard disk.
 
-Install the Windows Software Development Kit (SDK) for Windows 7 and open its build environment command window. On the Start menu, point to All Programs, Microsoft Windows SDK, and then click CMD Shell.
+Install the Windows Software Development Kit (SDK) for Windows 7 and open its build environment command window. On the Start menu, point to All Programs, Microsoft Windows SDK, and then click CMD Shell.
 
 To build the sample from the build environment command window, go to the source directory of the sample. At the command prompt, type MSBUILD.
 
 To build the sample in Microsoft Visual Studio, load the sample solution or project file and then press CTRL+SHIFT+B.
 
-The Preview Ribbon executable requires the Windows SDK for Windows 7. Specifically it requires access to three companion executables: UICC.exe, RC.exe, and link.exe. The application searches commonly used directories for these files and displays an error if they cannot be found.
+The Preview Ribbon executable requires the Windows SDK for Windows 7. Specifically it requires access to three companion executables: UICC.exe, RC.exe, and link.exe. The application searches commonly used directories for these files and displays an error if they cannot be found.
 
 ### Running the Sample
 
@@ -65,13 +70,13 @@ To run the compiled sample with debugging in Visual Studio, press F5.
     > [!Note]  
     > Fully qualified paths must be used.
 
-     
+     
 
 -   Custom ribbon color values can be specified in the PreviewRibbon.exe.config file (the Preview Ribbon application provides a selection of predefined color values). Remove the comment delimiters on the ColorizationValues line and replace the default values with custom values.
     > [!Note]  
     > Comment the ColorizationValues line in the PreviewRibbon.exe.config and restart the application to restore the Preview Ribbon default ribbon color values.
 
-     
+     
 
 **PreviewRibbon.exe**
 
@@ -87,7 +92,7 @@ To run the compiled sample with debugging in Visual Studio, press F5.
     > [!Note]  
     > Compiler messages are not displayed with this method.
 
-     
+     
 
 -   The Preview Ribbon application can be used as an external tool within Visual Studio 2008. On the Tools menu, click External Tools..., and add the Preview Ribbon application.
 
@@ -101,24 +106,24 @@ The [Windows Ribbon Development Forum](http://go.microsoft.com/fwlink/p/?linkid=
 
 |                          |                                                                                                                                                                          |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 7<br/> Windows Vista with Service Pack 2 (SP2) and [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/>         |
-| Minimum supported server | Windows Server 2008 R2<br/> Windows Server 2008 with SP2 and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/> |
+| Minimum supported client | Windows 7<br/> Windows Vista with Service Pack 2 (SP2) and [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/>         |
+| Minimum supported server | Windows Server 2008 R2<br/> Windows Server 2008 with SP2 and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/> |
 | Windows SDK              | 7.0                                                                                                                                                                      |
 | Visual Studio            | 2008                                                                                                                                                                     |
 | Header and IDL files     | uiribbon.h, uiribbon.idl                                                                                                                                                 |
 
 
 
- 
+ 
 
 > [!Note]  
-> The [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) are sets of run-time libraries that enable developers to target Windows Ribbon applications to both Windows Vista and Windows Server 2008. The platform updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) or [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) can have Windows Update detect whether the required update is installed. If it is not, Windows Update will download and install it in the background.
+> The [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) are sets of run-time libraries that enable developers to target Windows Ribbon applications to both Windows Vista and Windows Server 2008. The platform updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) or [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) can have Windows Update detect whether the required update is installed. If it is not, Windows Update will download and install it in the background.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

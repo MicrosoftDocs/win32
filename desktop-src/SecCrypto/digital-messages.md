@@ -1,7 +1,12 @@
 ---
-Description: 'A message will be defined as any data that has been encoded.'
-ms.assetid: 'f48f0458-6e27-4ef4-8bf2-949b41d414a2'
+Description: A message will be defined as any data that has been encoded.
+ms.assetid: f48f0458-6e27-4ef4-8bf2-949b41d414a2
 title: Digital Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Digital Messages

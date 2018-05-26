@@ -1,15 +1,20 @@
 ---
 title: ThreadPriorityFilter
 description: ThreadPriorityFilter
-ms.assetid: '2b72f367-95f7-49fc-ae3f-0b3f51d09305'
+ms.assetid: 2b72f367-95f7-49fc-ae3f-0b3f51d09305
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ThreadPriorityFilter
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 The **ThreadPriorityFilter** entry is the priority level of the filtering thread within the CiDaemon.exe process.
 
@@ -21,11 +26,11 @@ The **ThreadPriorityFilter** entry is the priority level of the filtering thread
 |---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type:<br/>    | **REG\_DWORD**<br/>                                                                                                                                                                                                                           |
 | Default:<br/> | 1 (**THREAD\_PRIORITY\_ABOVE\_NORMAL**)<br/>                                                                                                                                                                                                  |
-| Range:<br/>   | -2 (**THREAD\_PRIORITY\_LOWEST**),<br/> -1 (**THREAD\_PRIORITY\_BELOW\_NORMAL**),<br/>  0 (**THREAD\_PRIORITY\_NORMAL**),<br/>  1 (**THREAD\_PRIORITY\_ABOVE\_NORMAL**),<br/>  2 (**THREAD\_PRIORITY\_HIGHEST**)<br/> |
+| Range:<br/>   | -2 (**THREAD\_PRIORITY\_LOWEST**),<br/> -1 (**THREAD\_PRIORITY\_BELOW\_NORMAL**),<br/>  0 (**THREAD\_PRIORITY\_NORMAL**),<br/>  1 (**THREAD\_PRIORITY\_ABOVE\_NORMAL**),<br/>  2 (**THREAD\_PRIORITY\_HIGHEST**)<br/> |
 
 
 
- 
+ 
 
 ### Remarks
 
@@ -44,9 +49,9 @@ The combination of the value of the **ThreadPriorityFilter** entry and the value
 [**ThreadClassFilter**](threadclassfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

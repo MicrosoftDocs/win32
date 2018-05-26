@@ -1,8 +1,18 @@
 ---
 title: Carets
 description: This section discusses carets which are blinking lines, blocks, or bitmaps in the client area of a window.
-ms.assetid: '4487c93c-9a0f-467c-86b1-969f664d5526'
-keywords: ["resources,carets", "carets,about", "blinking lines", "blinking blocks", "blinking bitmaps"]
+ms.assetid: 4487c93c-9a0f-467c-86b1-969f664d5526
+keywords:
+- resources,carets
+- carets,about
+- blinking lines
+- blinking blocks
+- blinking bitmaps
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Carets
@@ -27,7 +37,7 @@ Applications can create a caret, change its blink time, and display, hide, or re
 
 
 
- 
+ 
 
 ### Caret Functions
 
@@ -35,22 +45,22 @@ Applications can create a caret, change its blink time, and display, hide, or re
 
 | Name                                           | Description                                                                                                                                                                                                                                                   |
 |------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateCaret**](createcaret.md)             | Creates a new shape for the system caret and assigns ownership of the caret to the specified window. The caret shape can be a line, a block, or a bitmap. <br/>                                                                                         |
-| [**DestroyCaret**](destroycaret.md)           | Destroys the caret's current shape, frees the caret from the window, and removes the caret from the screen. <br/>                                                                                                                                       |
-| [**GetCaretBlinkTime**](getcaretblinktime.md) | Retrieves the time required to invert the caret's pixels. The user can set this value. <br/>                                                                                                                                                            |
-| [**GetCaretPos**](getcaretpos.md)             | Copies the caret's position to the specified [**POINT**](https://msdn.microsoft.com/library/windows/desktop/dd162805) structure. <br/>                                                                                                                                                                    |
-| [**HideCaret**](hidecaret.md)                 | Removes the caret from the screen. Hiding a caret does not destroy its current shape or invalidate the insertion point. <br/>                                                                                                                           |
-| [**SetCaretBlinkTime**](setcaretblinktime.md) | Sets the caret blink time to the specified number of milliseconds. The blink time is the elapsed time, in milliseconds, required to invert the caret's pixels. <br/>                                                                                    |
-| [**SetCaretPos**](setcaretpos.md)             | Moves the caret to the specified coordinates. If the window that owns the caret was created with the **CS\_OWNDC** class style, then the specified coordinates are subject to the mapping mode of the device context associated with that window. <br/> |
-| [**ShowCaret**](showcaret.md)                 | Makes the caret visible on the screen at the caret's current position. When the caret becomes visible, it begins flashing automatically. <br/>                                                                                                          |
+| [**CreateCaret**](/windows/win32/Winuser/nf-winuser-createcaret?branch=master)             | Creates a new shape for the system caret and assigns ownership of the caret to the specified window. The caret shape can be a line, a block, or a bitmap. <br/>                                                                                         |
+| [**DestroyCaret**](/windows/win32/Winuser/nf-winuser-destroycaret?branch=master)           | Destroys the caret's current shape, frees the caret from the window, and removes the caret from the screen. <br/>                                                                                                                                       |
+| [**GetCaretBlinkTime**](/windows/win32/Winuser/nf-winuser-getcaretblinktime?branch=master) | Retrieves the time required to invert the caret's pixels. The user can set this value. <br/>                                                                                                                                                            |
+| [**GetCaretPos**](/windows/win32/Winuser/nf-winuser-getcaretpos?branch=master)             | Copies the caret's position to the specified [**POINT**](https://msdn.microsoft.com/library/windows/desktop/dd162805) structure. <br/>                                                                                                                                                                    |
+| [**HideCaret**](/windows/win32/Winuser/nf-winuser-hidecaret?branch=master)                 | Removes the caret from the screen. Hiding a caret does not destroy its current shape or invalidate the insertion point. <br/>                                                                                                                           |
+| [**SetCaretBlinkTime**](/windows/win32/Winuser/nf-winuser-setcaretblinktime?branch=master) | Sets the caret blink time to the specified number of milliseconds. The blink time is the elapsed time, in milliseconds, required to invert the caret's pixels. <br/>                                                                                    |
+| [**SetCaretPos**](/windows/win32/Winuser/nf-winuser-setcaretpos?branch=master)             | Moves the caret to the specified coordinates. If the window that owns the caret was created with the **CS\_OWNDC** class style, then the specified coordinates are subject to the mapping mode of the device context associated with that window. <br/> |
+| [**ShowCaret**](/windows/win32/Winuser/nf-winuser-showcaret?branch=master)                 | Makes the caret visible on the screen at the caret's current position. When the caret becomes visible, it begins flashing automatically. <br/>                                                                                                          |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

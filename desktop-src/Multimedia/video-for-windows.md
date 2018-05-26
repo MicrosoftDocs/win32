@@ -1,8 +1,15 @@
 ---
 title: Video for Windows
 description: Video for Windows
-ms.assetid: 'e09dbeaa-c167-41e5-bc23-dcabb1bb0e4d'
-keywords: ["Video for Windows (VFW),about", "VFW (Video for Windows),about"]
+ms.assetid: e09dbeaa-c167-41e5-bc23-dcabb1bb0e4d
+keywords:
+- Video for Windows (VFW),about
+- VFW (Video for Windows),about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video for Windows

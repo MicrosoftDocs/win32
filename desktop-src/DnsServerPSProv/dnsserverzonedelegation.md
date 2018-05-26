@@ -2,13 +2,15 @@
 title: DnsServerZoneDelegation class
 description: Retrieves information about a DNS zone delegation.
 audience: developer
-ms.assetid: '019a95cb-6c6f-4afe-b2fc-5a6a7ea38c41'
-ms.prod: 'windows-server-dev'
+ms.assetid: 019a95cb-6c6f-4afe-b2fc-5a6a7ea38c41
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerZoneDelegation class", "DnsServerZoneDelegation class, described"]
+keywords:
+- DnsServerZoneDelegation class
+- DnsServerZoneDelegation class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerZoneDelegation class
@@ -35,8 +40,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerZoneDelegation
 {
-  string                  ZoneName;
-  string                  ChildZoneName;
+  string                  ZoneName;
+  string                  ChildZoneName;
   DnsServerResourceRecord NameServer;
   DnsServerResourceRecord IPAddress[];
 };
@@ -119,7 +124,7 @@ The name of the parent DNS zone specified by the zone delegation.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -133,9 +138,9 @@ The name of the parent DNS zone specified by the zone delegation.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains information about the access clause for the protected storage.'
-ms.assetid: '59634ada-4879-4ae7-b757-dfa6a88549af'
-title: 'PST\_ACCESSCLAUSE structure'
+---
+Description: Contains information about the access clause for the protected storage.
+ms.assetid: 59634ada-4879-4ae7-b757-dfa6a88549af
+title: PST\_ACCESSCLAUSE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PST\_ACCESSCLAUSE structure

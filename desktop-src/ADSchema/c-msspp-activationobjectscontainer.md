@@ -4,17 +4,22 @@ description: Container for Activation Objects used by Active Directory based act
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3e43b439-91aa-4bdf-b1af-96d908c9a3eb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 3e43b439-91aa-4bdf-b1af-96d908c9a3eb
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-SPP-Activation-Objects-Container class AD Schema", "msSPP-ActivationObjectsContainer class AD Schema"]
+keywords:
+- ms-SPP-Activation-Objects-Container class AD Schema
+- msSPP-ActivationObjectsContainer class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-SPP-Activation-Objects-Container
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-SPP-Activation-Objects-Container class
@@ -35,7 +40,7 @@ Container for Activation Objects used by Active Directory based activation
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -62,7 +67,7 @@ Container for Activation Objects used by Active Directory based activation
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -189,9 +194,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Signals that a DVD disc was ejected.'
-ms.assetid: '031156c2-f0f0-4a9e-b792-4d656ec49aef'
-title: 'EC\_DVD\_DISC\_EJECTED'
+Description: Signals that a DVD disc was ejected.
+ms.assetid: 031156c2-f0f0-4a9e-b792-4d656ec49aef
+title: EC\_DVD\_DISC\_EJECTED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_DISC\_EJECTED
@@ -55,9 +60,9 @@ This event is raised in all domains.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

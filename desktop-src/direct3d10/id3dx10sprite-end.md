@@ -1,7 +1,12 @@
-﻿---
-Description: 'Call this after ID3DX10Sprite::Flush. If D3DX10\_SPRITE\_SAVE\_STATE was specified when ID3DX10Sprite::Begin was called, this API will restore the device state to how it was before ID3DX10Sprite::Begin was called.'
-ms.assetid: '71645edb-be4a-4d87-9fb0-557cf5cf10e5'
-title: 'ID3DX10Sprite::End method'
+---
+Description: Call this after ID3DX10SpriteFlush. If D3DX10\_SPRITE\_SAVE\_STATE was specified when ID3DX10SpriteBegin was called, this API will restore the device state to how it was before ID3DX10SpriteBegin was called.
+ms.assetid: 71645edb-be4a-4d87-9fb0-557cf5cf10e5
+title: ID3DX10SpriteEnd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Sprite::End method

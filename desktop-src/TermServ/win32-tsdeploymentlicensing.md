@@ -4,11 +4,13 @@ description: Licensing Settings for the Remote Desktop Virtualization (RDV) depl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '78e95629-6580-4aa1-bcbd-a79af44ddb54'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 78e95629-6580-4aa1-bcbd-a79af44ddb54
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSDeploymentLicensing class Remote Desktop Services", "Win32_TSDeploymentLicensing class Remote Desktop Services , described"]
+keywords:
+- Win32_TSDeploymentLicensing class Remote Desktop Services
+- Win32_TSDeploymentLicensing class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSDeploymentLicensing class
@@ -38,14 +43,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_TSDeploymentLicensing : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  boolean  UseCentralLicensingSettings;
-  String   LicenseServers[];
-  uint32   LicensingType;
+  string   Name;
+  string   Status;
+  boolean  UseCentralLicensingSettings;
+  String   LicenseServers[];
+  uint32   LicensingType;
 };
 ```
 
@@ -272,16 +277,16 @@ Specifies whether to use deployment-wide licensing settings. **True** to use the
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\cimv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TsAllow.mof</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>TsPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

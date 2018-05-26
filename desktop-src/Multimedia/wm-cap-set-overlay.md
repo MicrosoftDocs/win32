@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_SET\_OVERLAY message
 description: The WM\_CAP\_SET\_OVERLAY message enables or disables overlay mode. In overlay mode, video is displayed using hardware overlay. You can send this message explicitly or by using the capOverlay macro.
-ms.assetid: 'b74c0619-2b70-46e0-9acd-43d658529233'
-keywords: ["WM_CAP_SET_OVERLAY message Windows Multimedia"]
+ms.assetid: b74c0619-2b70-46e0-9acd-43d658529233
+keywords:
+- WM_CAP_SET_OVERLAY message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_SET\_OVERLAY message
 
-The **WM\_CAP\_SET\_OVERLAY** message enables or disables overlay mode. In overlay mode, video is displayed using hardware overlay. You can send this message explicitly or by using the [**capOverlay**](capoverlay.md) macro.
+The **WM\_CAP\_SET\_OVERLAY** message enables or disables overlay mode. In overlay mode, video is displayed using hardware overlay. You can send this message explicitly or by using the [**capOverlay**](/windows/win32/Vfw/nf-vfw-capoverlay?branch=master) macro.
 
 
 ```C++
@@ -45,7 +51,7 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 
 Using an overlay does not require CPU resources.
 
-The **fHasOverlay** member of the [**CAPDRIVERCAPS**](capdrivercaps.md) structure indicates whether the device is capable of overlay. The **fOverlayWindow** member of the [**CAPSTATUS**](capstatus.md) structure indicates whether overlay mode is currently enabled.
+The **fHasOverlay** member of the [**CAPDRIVERCAPS**](/windows/win32/Vfw/ns-vfw-tagcapdrivercaps?branch=master) structure indicates whether the device is capable of overlay. The **fOverlayWindow** member of the [**CAPSTATUS**](/windows/win32/Vfw/ns-vfw-tagcapstatus?branch=master) structure indicates whether overlay mode is currently enabled.
 
 Enabling overlay mode automatically disables preview mode.
 
@@ -55,8 +61,8 @@ Enabling overlay mode automatically disables preview mode.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -71,9 +77,9 @@ Enabling overlay mode automatically disables preview mode.
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Name resolution and registration model for the Windows Sockets (Winsock) SPI.'
-ms.assetid: 'b173b63e-42c7-4f85-b55f-1f7b3bff7c4f'
+Description: Name resolution and registration model for the Windows Sockets (Winsock) SPI.
+ms.assetid: b173b63e-42c7-4f85-b55f-1f7b3bff7c4f
 title: Name Resolution Model for the SPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name Resolution Model for the SPI

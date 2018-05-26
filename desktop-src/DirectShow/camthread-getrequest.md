@@ -1,7 +1,12 @@
 ---
-Description: 'The GetRequest method waits for the next request.'
-ms.assetid: '9f275ee6-cb78-455a-b924-7337c8d2a6dd'
-title: 'CAMThread.GetRequest method'
+Description: The GetRequest method waits for the next request.
+ms.assetid: 9f275ee6-cb78-455a-b924-7337c8d2a6dd
+title: CAMThread.GetRequest method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread.GetRequest method
@@ -47,9 +52,9 @@ This method blocks until another thread calls the [**CAMThread::CallWorker**](ca
 [**CAMThread Class**](camthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

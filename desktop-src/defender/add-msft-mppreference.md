@@ -1,8 +1,11 @@
 ---
 title: Add method of the MSFT\_MpPreference class
 description: TBD.
-ms.assetid: '3b3b6dfa-2387-44eb-9241-fe6cd3bd3062'
-keywords: ["Add method", "Add method, MSFT_MpPreference class", "MSFT_MpPreference class, Add method"]
+ms.assetid: 3b3b6dfa-2387-44eb-9241-fe6cd3bd3062
+keywords:
+- Add method
+- Add method, MSFT_MpPreference class
+- MSFT_MpPreference class, Add method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - ProtectionManagement.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Add method of the MSFT\_MpPreference class
@@ -22,12 +30,12 @@ TBD
 
 ```mof
 uint32 Add(
-  [in] string  ExclusionPath[],
-  [in] string  ExclusionExtension[],
-  [in] string  ExclusionProcess[],
-  [in] sint64  ThreatIDDefaultAction_Ids[],
-  [in] uint8   ThreatIDDefaultAction_Actions[],
-  [in] boolean Force
+  [in] string  ExclusionPath[],
+  [in] string  ExclusionExtension[],
+  [in] string  ExclusionProcess[],
+  [in] sint64  ThreatIDDefaultAction_Ids[],
+  [in] uint8   ThreatIDDefaultAction_Actions[],
+  [in] boolean Force
 );
 ```
 
@@ -106,8 +114,8 @@ A user confirmation is sought by default by this cmdlet. If -Force is specified,
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Defender<br/>                                                       |
 | MOF<br/>                      | <dl> <dt>ProtectionManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ProtectionManagement.dll</dt> </dl> |
@@ -121,9 +129,9 @@ A user confirmation is sought by default by this cmdlet. If -Force is specified,
 [**MSFT\_MpPreference**](msft-mppreference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Stores the key information about a wireless LAN interface managed by the Wireless Configuration Service.'
-ms.assetid: '5e689fd0-27d9-48eb-8983-96d7918be1cd'
-title: 'INTF\_KEY\_ENTRY structure'
+---
+Description: Stores the key information about a wireless LAN interface managed by the Wireless Configuration Service.
+ms.assetid: 5e689fd0-27d9-48eb-8983-96d7918be1cd
+title: INTF\_KEY\_ENTRY structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INTF\_KEY\_ENTRY structure

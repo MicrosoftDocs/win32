@@ -2,7 +2,12 @@
 title: S
 description: IrDA glossary terms beginning with S.
 Robots: noindex, nofollow
-ms.assetid: 'e1cbe7c6-5401-4d86-ab0f-84e1ea7038a4'
+ms.assetid: e1cbe7c6-5401-4d86-ab0f-84e1ea7038a4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # S

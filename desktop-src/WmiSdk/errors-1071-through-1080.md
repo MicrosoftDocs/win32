@@ -1,13 +1,16 @@
 ---
-Description: 'Describes WMI SNMP provider errors 1071 through 1080.'
+Description: Describes WMI SNMP provider errors 1071 through 1080.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c9161c96-6839-4b32-b1bd-b40af18ab314'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c9161c96-6839-4b32-b1bd-b40af18ab314
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Errors 1071 through 1080
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Errors 1071 through 1080

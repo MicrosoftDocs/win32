@@ -1,8 +1,11 @@
 ---
 title: IImnAccountManager ProcessNotification method
 description: Processes Internet Mail and News (IMN) account notifications.
-ms.assetid: '06bb4844-06d9-489d-ac0a-007e59e87d8e'
-keywords: ["ProcessNotification method Windows Mail (formerly Outlook Express)", "ProcessNotification method Windows Mail (formerly Outlook Express) , IImnAccountManager interface", "IImnAccountManager interface Windows Mail (formerly Outlook Express) , ProcessNotification method"]
+ms.assetid: 06bb4844-06d9-489d-ac0a-007e59e87d8e
+keywords:
+- ProcessNotification method Windows Mail (formerly Outlook Express)
+- ProcessNotification method Windows Mail (formerly Outlook Express) , IImnAccountManager interface
+- IImnAccountManager interface Windows Mail (formerly Outlook Express) , ProcessNotification method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccountManager::ProcessNotification method
@@ -22,16 +30,16 @@ Processes Internet Mail and News (IMN) account notifications.
 > [!Note]  
 > The parameters of this method are the same as those received by the client application's [WindowProc](http://msdn.microsoft.com/library/winui/WinUI/WindowsUserInterface/Windowing/WindowProcedures/WindowProcedureReference/WindowProcedureFunctions/WindowProc.asp) function. These values should be passed to this method without modification.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 HRESULT ProcessNotification(
-  [in] UINT   uMsg,
-  [in] WPARAM wParam,
-  [in] LPARAM lParam
+  [in] UINT   uMsg,
+  [in] WPARAM wParam,
+  [in] LPARAM lParam
 );
 ```
 
@@ -95,7 +103,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -109,8 +117,8 @@ A client must call this method to detect IMN account changes that are made in ot
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -118,9 +126,9 @@ A client must call this method to detect IMN account changes that are made in ot
 
 
 
- 
+ 
 
- 
+ 
 
 
 

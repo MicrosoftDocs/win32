@@ -1,7 +1,12 @@
 ---
-Description: 'The functions described in this overview retrieve a variety of data.'
-ms.assetid: '869912f0-cb3b-402d-8445-3b1df6546da5'
+Description: The functions described in this overview retrieve a variety of data.
+ms.assetid: 869912f0-cb3b-402d-8445-3b1df6546da5
 title: About System Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About System Information

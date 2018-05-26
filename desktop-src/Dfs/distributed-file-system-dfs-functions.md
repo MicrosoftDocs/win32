@@ -4,11 +4,15 @@ description: The Distributed File System (DFS) functions provide the ability to 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a29cde3e-483a-4658-94d4-27398f66abfb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-distributed-file-system-(dfs)'
+ms.assetid: a29cde3e-483a-4658-94d4-27398f66abfb
+ms.prod: windows-server-dev
+ms.technology: windows-distributed-file-system-(dfs)
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Files , description of functions"]
+keywords:
+- Distributed File System Files , description of functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Distributed File System (DFS) Functions

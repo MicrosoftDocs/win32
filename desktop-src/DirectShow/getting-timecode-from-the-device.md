@@ -1,12 +1,17 @@
 ---
 Description: Getting Timecode from the Device
-ms.assetid: 'e3d06e0c-a595-4bc3-be62-168bd5122397'
+ms.assetid: e3d06e0c-a595-4bc3-be62-168bd5122397
 title: Getting Timecode from the Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Timecode from the Device
 
-While a DV tape is playing or is in record-pause mode, you can retrieve the SMPTE timecode or the absolute track number. To do this, call the [**IAMTimecodeReader::GetTimecode**](iamtimecodereader-gettimecode.md) method. This method takes a pointer to a [**TIMECODE\_SAMPLE**](timecode-sample.md) structure, which describes the timecode. Before calling the method, initialize the **dwFlags** member of the structure. Use the value ED\_DEVCAP\_TIMECODE\_READ to retrieve the timecode or the value ED\_DEVCAP\_ATN\_READ to retrieve the absolute track number.
+While a DV tape is playing or is in record-pause mode, you can retrieve the SMPTE timecode or the absolute track number. To do this, call the [**IAMTimecodeReader::GetTimecode**](/windows/win32/Strmif/nf-strmif-iamtimecodereader-gettimecode?branch=master) method. This method takes a pointer to a [**TIMECODE\_SAMPLE**](/windows/win32/strmif/ns-strmif-tagtimecode_sample?branch=master) structure, which describes the timecode. Before calling the method, initialize the **dwFlags** member of the structure. Use the value ED\_DEVCAP\_TIMECODE\_READ to retrieve the timecode or the value ED\_DEVCAP\_ATN\_READ to retrieve the absolute track number.
 
 The **timecode** member of the **TIMECODE\_SAMPLE** structure is a TIMECODE structure. When the method returns, the **dwFrames** member of the TIMECODE structure contains the timecode or track number. For timecode, the hours, minutes, seconds, and frames are packed into a DWORD as binary coded decimal (BCD) values, with the format *hhmmssff*. Use bitmasks to extract the individual values.
 

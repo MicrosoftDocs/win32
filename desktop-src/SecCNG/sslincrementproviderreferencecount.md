@@ -1,7 +1,12 @@
 ---
-Description: 'Increments the reference count to a Secure Sockets Layer protocol (SSL) provider instance.'
-ms.assetid: '67e7b8b4-b073-4936-b1e0-3fc7c1c011a2'
+Description: Increments the reference count to a Secure Sockets Layer protocol (SSL) provider instance.
+ms.assetid: 67e7b8b4-b073-4936-b1e0-3fc7c1c011a2
 title: SslIncrementProviderReferenceCount function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslIncrementProviderReferenceCount function
@@ -13,7 +18,7 @@ The **SslIncrementProviderReferenceCount** function increments the reference cou
 
 ```C++
 SECURITY_STATUS WINAPI SslIncrementProviderReferenceCount(
-  _In_ NCRYPT_PROV_HANDLE hSslProvider
+  _In_ NCRYPT_PROV_HANDLE hSslProvider
 );
 ```
 
@@ -46,7 +51,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,16 +59,16 @@ Possible return codes include, but are not limited to, the following.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

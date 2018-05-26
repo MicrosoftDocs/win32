@@ -4,13 +4,15 @@ description: Dhcp Server v4 Scope.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '64325de3-0a3e-4955-825e-2baec0c4ddd1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 64325de3-0a3e-4955-825e-2baec0c4ddd1
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerv4Scope class", "DhcpServerv4Scope class, described"]
+keywords:
+- DhcpServerv4Scope class
+- DhcpServerv4Scope class, described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerv4Scope class
@@ -48,21 +53,21 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DhcpServerPSProvider"), AMENDMENT]
 class DhcpServerv4Scope
 {
-  string   ScopeId;
-  string   Name;
-  string   Description;
-  string   SubnetMask;
-  string   StartRange;
-  string   EndRange;
-  string   SuperscopeName;
+  string   ScopeId;
+  string   Name;
+  string   Description;
+  string   SubnetMask;
+  string   StartRange;
+  string   EndRange;
+  string   SuperscopeName;
   DateTime LeaseDuration;
-  string   NapProfile;
-  boolean  NapEnable;
-  uint16   Delay;
-  string   State;
-  string   Type;
-  uint32   MaxBootpClients;
-  boolean  ActivatePolicies;
+  string   NapProfile;
+  boolean  NapEnable;
+  uint16   Delay;
+  string   State;
+  string   Type;
+  uint32   MaxBootpClients;
+  boolean  ActivatePolicies;
 };
 ```
 
@@ -319,16 +324,16 @@ The type of clients to which given scope of Dhcp server leases out ipaddress
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

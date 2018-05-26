@@ -1,8 +1,13 @@
 ---
 title: IVMGuestOS CanShutdown property
 description: The CanShutdown property contains whether the guest operating system can be cleanly shut down.
-ms.assetid: '4626d972-7292-44dd-b393-d3361940f6a5'
-keywords: ["CanShutdown property Virtual Server", "CanShutdown property Virtual Server , IVMGuestOS interface", "IVMGuestOS interface Virtual Server , CanShutdown property", "CanShutdown property Virtual Server , VMGuestOS interface", "VMGuestOS interface Virtual Server , CanShutdown property"]
+ms.assetid: 4626d972-7292-44dd-b393-d3361940f6a5
+keywords:
+- CanShutdown property Virtual Server
+- CanShutdown property Virtual Server , IVMGuestOS interface
+- IVMGuestOS interface Virtual Server , CanShutdown property
+- CanShutdown property Virtual Server , VMGuestOS interface
+- VMGuestOS interface Virtual Server , CanShutdown property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::CanShutdown property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_CanShutdown(
-  [out] VARIANT_BOOL *canShutdown
+  [out] VARIANT_BOOL *canShutdown
 );
 ```
 
@@ -78,8 +88,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -91,9 +101,9 @@ This property value is read-only.
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

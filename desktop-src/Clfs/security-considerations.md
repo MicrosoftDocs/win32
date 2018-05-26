@@ -1,7 +1,12 @@
 ---
-Description: 'Security considerations for the Common Log File System API.'
-ms.assetid: '11da0e7c-28b9-4990-bf92-b7e6b06b95fb'
+Description: Security considerations for the Common Log File System API.
+ms.assetid: 11da0e7c-28b9-4990-bf92-b7e6b06b95fb
 title: Security Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Considerations

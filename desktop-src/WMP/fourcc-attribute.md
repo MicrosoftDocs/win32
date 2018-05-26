@@ -1,14 +1,20 @@
 ---
 title: FourCC Attribute
 description: The FourCC attribute is a hexadecimal value that identifies the codec required to render a video file.
-ms.assetid: '05424bd2-fffc-4c42-84d6-215458ccbf19'
-keywords: ["FourCC Attribute Windows Media Player"]
+ms.assetid: 05424bd2-fffc-4c42-84d6-215458ccbf19
+keywords:
+- FourCC Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - FourCC
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FourCC Attribute
@@ -40,9 +46,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

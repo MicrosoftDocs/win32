@@ -1,14 +1,20 @@
 ---
 title: MENUHELPID structure
 description: Contains the final data written to the RT\_MENU resource for a menu or submenu if the resInfo member of the POPUPMENUITEM structure is set to MFR\_POPUP.
-ms.assetid: 'f17fdaaa-b37c-4902-bad4-a1181ffee9f9'
-keywords: ["MENUHELPID structure Menus and Other Resources"]
+ms.assetid: f17fdaaa-b37c-4902-bad4-a1181ffee9f9
+keywords:
+- MENUHELPID structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - MENUHELPID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MENUHELPID structure
@@ -47,8 +53,8 @@ The identifier used to identify the menu during [**WM\_HELP**](https://msdn.micr
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -71,9 +77,9 @@ The identifier used to identify the menu during [**WM\_HELP**](https://msdn.micr
 [Resources](resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

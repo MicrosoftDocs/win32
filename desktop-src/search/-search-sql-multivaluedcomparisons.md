@@ -1,7 +1,12 @@
 ---
-Description: 'Columns stored in the content index can have multiple values, and those multivalued columns can be compared by using the ARRAY comparison predicate.'
-ms.assetid: 'bc3de1bd-b833-459d-81a3-c6b08314e26f'
-title: 'Multi-Valued (ARRAY) Comparisons'
+Description: Columns stored in the content index can have multiple values, and those multivalued columns can be compared by using the ARRAY comparison predicate.
+ms.assetid: bc3de1bd-b833-459d-81a3-c6b08314e26f
+title: Multi-Valued (ARRAY) Comparisons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multi-Valued (ARRAY) Comparisons

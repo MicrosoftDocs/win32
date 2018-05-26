@@ -4,17 +4,22 @@ description: Contains the name of the hash algorithm used to create the Thumbpri
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'eb1500e7-1b43-4dec-98d4-55005a8414c8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: eb1500e7-1b43-4dec-98d4-55005a8414c8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Imaging-Hash-Algorithm attribute AD Schema", "msImaging-HashAlgorithm attribute AD Schema"]
+keywords:
+- ms-Imaging-Hash-Algorithm attribute AD Schema
+- msImaging-HashAlgorithm attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Imaging-Hash-Algorithm
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Imaging-Hash-Algorithm attribute
@@ -38,7 +43,7 @@ Contains the name of the hash algorithm used to create the Thumbprint Hash for t
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ Contains the name of the hash algorithm used to create the Thumbprint Hash for t
 
 
 
- 
+ 
 
- 
+ 
 
 
 

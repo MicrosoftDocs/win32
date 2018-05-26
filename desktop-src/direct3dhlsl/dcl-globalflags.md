@@ -1,7 +1,12 @@
 ---
 title: dcl\_globalFlags (sm4 - asm)
 description: dcl\_globalFlags (sm4 - asm)
-ms.assetid: '7289db9e-f0cd-4849-854f-34aa38ec2c2d'
+ms.assetid: 7289db9e-f0cd-4849-854f-34aa38ec2c2d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_globalFlags (sm4 - asm)

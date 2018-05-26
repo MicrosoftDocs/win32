@@ -1,8 +1,16 @@
 ---
 title: Msvm\_SwitchPort class
 description: Represents a port on the switch.
-ms.assetid: '8ecd95b8-2bde-4ea5-8f38-04e8eadc41b9'
-keywords: ["RequestStateChange method Hyper-V", "RequestStateChange method Hyper-V , Msvm_Switchport class", "Msvm_Switchport class Hyper-V , RequestStateChange method", "BroadcastReset method Hyper-V", "BroadcastReset method Hyper-V , Msvm_Switchport class", "Msvm_Switchport class Hyper-V , BroadcastReset method", "Msvm_SwitchPort class Hyper-V", "Msvm_SwitchPort class Hyper-V , described"]
+ms.assetid: 8ecd95b8-2bde-4ea5-8f38-04e8eadc41b9
+keywords:
+- RequestStateChange method Hyper-V
+- RequestStateChange method Hyper-V , Msvm_Switchport class
+- Msvm_Switchport class Hyper-V , RequestStateChange method
+- BroadcastReset method Hyper-V
+- BroadcastReset method Hyper-V , Msvm_Switchport class
+- Msvm_Switchport class Hyper-V , BroadcastReset method
+- Msvm_SwitchPort class Hyper-V
+- Msvm_SwitchPort class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -47,6 +55,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SwitchPort class
@@ -61,40 +74,40 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SwitchPort : CIM_SwitchPort
 {
-  string   Caption = "Switch Port";
-  string   ElementName;
+  string   Caption = "Switch Port";
+  string   ElementName;
   datetime InstallDate;
-  uint16   HealthState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  string   SystemCreationClassName = "Msvm_VirtualSwitch";
-  string   SystemName;
-  string   CreationClassName = "Msvm_SwitchPort";
-  string   Description = "Microsoft Virtual Switch Port";
-  uint16   OperationalStatus[] = 2;
-  uint16   EnabledState = 5;
+  uint16   HealthState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  string   SystemCreationClassName = "Msvm_VirtualSwitch";
+  string   SystemName;
+  string   CreationClassName = "Msvm_SwitchPort";
+  string   Description = "Microsoft Virtual Switch Port";
+  uint16   OperationalStatus[] = 2;
+  uint16   EnabledState = 5;
   datetime TimeOfLastStateChange;
-  uint16   ProtocolType;
-  uint16   ProtocolIFType = 1;
-  uint16   PortNumber;
-  String   StatusDescriptions[] = "OK";
-  uint16   EnabledDefault = 2;
-  String   Name;
-  String   NameFormat;
-  String   OtherTypeDescription = "Virtual Ethernet";
-  boolean  BroadcastResetSupported = FALSE;
-  string   ScopeOfResidence;
-  string   Status;
-  uint32   VMQOffloadWeight = 100;
-  string   AllowedIPv6Addresses[];
-  string   AllowedIPv4Addresses[];
-  boolean  PreventIPSpoofing;
-  uint32   ChimneyOffloadWeight = 0;
-  uint32   VMQOffloadUsage;
-  uint32   ChimneyOffloadUsage;
-  uint32   VMQOffloadLimit;
-  uint32   ChimneyOffloadLimit;
-  boolean  AllowMacSpoofing;
+  uint16   ProtocolType;
+  uint16   ProtocolIFType = 1;
+  uint16   PortNumber;
+  String   StatusDescriptions[] = "OK";
+  uint16   EnabledDefault = 2;
+  String   Name;
+  String   NameFormat;
+  String   OtherTypeDescription = "Virtual Ethernet";
+  boolean  BroadcastResetSupported = FALSE;
+  string   ScopeOfResidence;
+  string   Status;
+  uint32   VMQOffloadWeight = 100;
+  string   AllowedIPv6Addresses[];
+  string   AllowedIPv4Addresses[];
+  boolean  PreventIPSpoofing;
+  uint32   ChimneyOffloadWeight = 0;
+  uint32   VMQOffloadUsage;
+  uint32   ChimneyOffloadUsage;
+  uint32   VMQOffloadLimit;
+  uint32   ChimneyOffloadLimit;
+  boolean  AllowMacSpoofing;
 };
 ```
 
@@ -118,7 +131,7 @@ The **Msvm\_SwitchPort** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -174,9 +187,9 @@ Indicates whether the port will allow MAC spoofing.
 
 
 
- 
+ 
 
-**Windows Server 2008:** The **AllowMacSpoofing** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **AllowMacSpoofing** property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -223,7 +236,7 @@ Access type: Read/write
 
 The current TCP Chimney Offloading resources limit on this port. The limit is the maximum usage of TCP Chimney Offloading resources on the port.
 
-**Windows Server 2008:** The **ChimneyOffloadLimit** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **ChimneyOffloadLimit** property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -238,7 +251,7 @@ Access type: Read/write
 
 The current TCP Chimney Offloading usage on this port. The usage is the amount of TCP Chimney Offloading resources in use on the port.
 
-**Windows Server 2008:** The **ChimneyOffloadUsage** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **ChimneyOffloadUsage** property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -253,7 +266,7 @@ Access type: Read/write
 
 The weight assigned to this port for TCP Chimney Offloading. The weight is the relative importance when assigning TCP Chimney Offloading resources. Setting the **ChimneyOffloadWeight** property to 0 disables TCP Chimney Offloading on the port. The default is 0.
 
-**Windows Server 2008:** The **ChimneyOffloadWeight** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **ChimneyOffloadWeight** property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -681,7 +694,7 @@ Access type: Read/write
 
 The current VMQ offloading limit on this port. The limit is the maximum usage of VMQ offloading resources on the port.
 
-**Windows Server 2008:** The **VMQOffloadLimit** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **VMQOffloadLimit** property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -696,7 +709,7 @@ Access type: Read/write
 
 The current VMQ offloading usage on this port. The usage is the amount of VMQ resources in use on the port.
 
-**Windows Server 2008:** The **VMQOffloadUsage** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **VMQOffloadUsage** property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -720,9 +733,9 @@ The weight assigned to this port for virtual machine queue (VMQ) offloading. The
 
 
 
- 
+ 
 
-**Windows Server 2008:** The **VMQOffloadWeight** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **VMQOffloadWeight** property is not supported until Windows Server 2008 R2.
 
 </dd> </dl>
 
@@ -741,9 +754,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -762,9 +775,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

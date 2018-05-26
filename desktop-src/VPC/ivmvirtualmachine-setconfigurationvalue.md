@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine SetConfigurationValue method
 description: Sets the value of the specified configuration setting for this virtual machine (VM).
-ms.assetid: '43c3ac88-2e25-4c9e-a2ac-fcae5add62c5'
-keywords: ["SetConfigurationValue method Virtual PC", "SetConfigurationValue method Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , SetConfigurationValue method"]
+ms.assetid: 43c3ac88-2e25-4c9e-a2ac-fcae5add62c5
+keywords:
+- SetConfigurationValue method Virtual PC
+- SetConfigurationValue method Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , SetConfigurationValue method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::SetConfigurationValue method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Sets the value of the specified configuration setting for this virtual machine (VM).
 
@@ -24,8 +32,8 @@ Sets the value of the specified configuration setting for this virtual machine (
 
 ```C++
 HRESULT SetConfigurationValue(
-  [in] BSTR    configurationKey,
-  [in] VARIANT configurationValue
+  [in] BSTR    configurationKey,
+  [in] VARIANT configurationValue
 );
 ```
 
@@ -43,7 +51,7 @@ The key used to identify the configuration value as stored in the "\*.vmc" file.
 > \[!Important\]  
 > Changes should be made to "\*.vmc" only using the **SetConfigurationValue** method. Changing "\*.vmc" using any other method is not supported.
 
- 
+ 
 
 </dd> <dt>
 
@@ -69,7 +77,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,15 +90,15 @@ The following values are supported for the *configurationKey* parameter.
 | "hardware/bios/time\_sync\_at\_boot"<br/>              | "true" if the VM CMOS clock is to be synchronized with the host clock at boot; "false" otherwise.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | "boolean"<br/> | "true"<br/> |
 | "integration/microsoft/host\_time\_sync/enabled""<br/> | "true" if host time synchronization is enabled in the integration components; "false" otherwise.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | "boolean"<br/> | "true"<br/> |
 | "ui\_options/auto\_app\_publish"<br/>                  | "true" if automatic publishing of applications is enabled in the integration components; "false" otherwise. This is also called virtual applications.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | "boolean"<br/> | "true"<br/> |
-| "ui\_options/seconds\_to\_save"<br/>                   | Number of seconds to wait before saving the VM after all applications are closed. However, values below 20 and more than 4,294,968 have special meanings. For details, see the following list<br/> <dl> <dt><span id="0"></span>0</dt> <dd> Never save the VM.<br/> </dd> <dt><span id="120"></span>1–20</dt> <dd> Wait 20 seconds before saving the VM.<br/> </dd> <dt><span id="214_294_967"></span>21–4,294,967</dt> <dd> Wait the specified number of seconds before saving the VM.<br/> </dd> <dt><span id="4_294_9684_294_967_295"></span>4,294,968–4,294,967,295</dt> <dd> Wait 4,294,968 seconds before saving the VM.<br/> </dd> </dl> | "integer"<br/> | 300<br/>    |
+| "ui\_options/seconds\_to\_save"<br/>                   | Number of seconds to wait before saving the VM after all applications are closed. However, values below 20 and more than 4,294,968 have special meanings. For details, see the following list<br/> <dl> <dt><span id="0"></span>0</dt> <dd> Never save the VM.<br/> </dd> <dt><span id="120"></span>1 20</dt> <dd> Wait 20 seconds before saving the VM.<br/> </dd> <dt><span id="214_294_967"></span>21 4,294,967</dt> <dd> Wait the specified number of seconds before saving the VM.<br/> </dd> <dt><span id="4_294_9684_294_967_295"></span>4,294,968 4,294,967,295</dt> <dd> Wait 4,294,968 seconds before saving the VM.<br/> </dd> </dl> | "integer"<br/> | 300<br/>    |
 
 
 
- 
+ 
 
 This method provides low-level access to any configuration value. It can be used to set configuration values for customer-defined keys. Be careful if you use this method to set system configuration values, because no error checking is performed on the configuration value. Also, some configuration values cannot be changed while the virtual machine is running.
 
-Configuration keys are located in the virtual machine's "\*.vmc" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark–delimited format.
+Configuration keys are located in the virtual machine's "\*.vmc" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark delimited format.
 
 For example, to set the value of the "ram\_size" key located in the following key tree:
 
@@ -134,9 +142,9 @@ The *configurationKey* path string would be specified as follows:
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -153,9 +161,9 @@ The *configurationKey* path string would be specified as follows:
 [**IVMVirtualPC::SetConfigurationValue**](ivmvirtualpc-setconfigurationvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

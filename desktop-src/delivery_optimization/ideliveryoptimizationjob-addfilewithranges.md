@@ -1,8 +1,11 @@
 ---
 title: IDeliveryOptimizationJob AddFileWithRanges method
 description: Adds a file to a download job and specifies the ranges of the file you want to download.
-ms.assetid: '23F0A39F-670F-4030-A3B3-4F9277FFA8AB'
-keywords: ["AddFileWithRanges method", "AddFileWithRanges method, IDeliveryOptimizationJob interface", "IDeliveryOptimizationJob interface, AddFileWithRanges method"]
+ms.assetid: 23F0A39F-670F-4030-A3B3-4F9277FFA8AB
+keywords:
+- AddFileWithRanges method
+- AddFileWithRanges method, IDeliveryOptimizationJob interface
+- IDeliveryOptimizationJob interface, AddFileWithRanges method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDeliveryOptimizationJob::AddFileWithRanges method
@@ -22,12 +30,12 @@ Adds a file to a download job and specifies the ranges of the file you want to d
 
 ```C++
 HRESULT AddFileWithRanges(
-  [in]           LPCWSTR       fileId,
-  [in]           LPCWSTR       remoteUrl,
-  [in]           LPCWSTR       localName,
-  [in, optional] DWORD         rangeCount,
-  [in, optional] BG_FILE_RANGE ranges[],
-  [in, optional] ULONG64       fileSize
+  [in]           LPCWSTR       fileId,
+  [in]           LPCWSTR       remoteUrl,
+  [in]           LPCWSTR       localName,
+  [in, optional] DWORD         rangeCount,
+  [in, optional] BG_FILE_RANGE ranges[],
+  [in, optional] ULONG64       fileSize
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT AddFileWithRanges(
 *fileId* \[in\]
 </dt> <dd>
 
-Null terminated string that’s an unique identifier of the published content. For non-published content, this can be any unique string that caller can use to identify files within a job.
+Null terminated string that s an unique identifier of the published content. For non-published content, this can be any unique string that caller can use to identify files within a job.
 
 </dd> <dt>
 
@@ -131,7 +139,7 @@ The ranges are sorted by the offset of the value, not the length. If ranges are 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -139,7 +147,7 @@ The ranges are sorted by the offset of the value, not the length. If ranges are 
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -156,9 +164,9 @@ The ranges are sorted by the offset of the value, not the length. If ranges are 
 [**IDeliveryOptimizationJob**](ideliveryoptimizationjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

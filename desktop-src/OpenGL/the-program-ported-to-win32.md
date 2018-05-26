@@ -1,8 +1,15 @@
 ---
 title: The Program Ported to Windows
 description: The following program is a Windows OpenGL program with the same OpenGL code used in the AUXDEMO.C sample program supplied with the Platform SDK. Compare this program with the X Window System OpenGL program in An X Window System OpenGL Program.
-ms.assetid: 'c42dce45-8f9e-4920-ac3d-ff7549aae3e9'
-keywords: ["porting to OpenGL,sample", "OpenGL porting,sample"]
+ms.assetid: c42dce45-8f9e-4920-ac3d-ff7549aae3e9
+keywords:
+- porting to OpenGL,sample
+- OpenGL porting,sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Program Ported to Windows

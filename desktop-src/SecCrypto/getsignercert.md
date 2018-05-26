@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSignerCert function goes through (enumerates) the certificates in a certificate store until a certificate with a signature key is found.'
-ms.assetid: 'a3279492-a154-418d-ab25-45ec458ad483'
+Description: The GetSignerCert function goes through (enumerates) the certificates in a certificate store until a certificate with a signature key is found.
+ms.assetid: a3279492-a154-418d-ab25-45ec458ad483
 title: GetSignerCert
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSignerCert
@@ -10,7 +15,7 @@ The **GetSignerCert** function goes through (enumerates) the certificates in a [
 
 -   Finding a certificate with a certificate property.
 -   Checking that property.
--   Returning a pointer to the [**CERT\_CONTEXT**](cert-context.md) where the attribute was found.
+-   Returning a pointer to the [**CERT\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master) where the attribute was found.
 
 This code uses an error handler called **MyHandleError**. To view the implementation for this error handler, see the [**MyHandleError**](myhandleerror.md) topic.
 

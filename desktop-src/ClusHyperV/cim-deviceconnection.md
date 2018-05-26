@@ -4,13 +4,15 @@ description: A relationship that indicates that two or more devices are connecte
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '237e2143-3342-4596-8528-ff911e255256'
-ms.prod: 'windows-server-dev'
+ms.assetid: 237e2143-3342-4596-8528-ff911e255256
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_DeviceConnection class", "CIM_DeviceConnection class, described"]
+keywords:
+- CIM_DeviceConnection class
+- CIM_DeviceConnection class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_DeviceConnection class
@@ -39,8 +44,8 @@ class CIM_DeviceConnection : CIM_Dependency
 {
   CIM_LogicalDevice REF Antecedent;
   CIM_LogicalDevice REF Dependent;
-  uint64                NegotiatedSpeed;
-  uint32                NegotiatedDataWidth;
+  uint64                NegotiatedSpeed;
+  uint32                NegotiatedDataWidth;
 };
 ```
 
@@ -127,7 +132,7 @@ When several bus and connection speeds are possible, this property defines the s
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -144,9 +149,9 @@ When several bus and connection speeds are possible, this property defines the s
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

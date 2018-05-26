@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '48C444CD-4D8B-491A-98EB-27B8796FD3A7'
-title: 'IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification method'
+---
+Description: .
+ms.assetid: 48C444CD-4D8B-491A-98EB-27B8796FD3A7
+title: IPrintUnidiAsyncNotifyRegistrationAsyncGetNotification method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification method

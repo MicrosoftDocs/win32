@@ -2,7 +2,13 @@
 title: Type-Conversion and Marshaling ACF Attributes
 description: Use these attributes to control how your data is transmitted over the network.
 ms.assetid: 6af635f6-eeee-4fa6-85db-5d60434a1235
-keywords: ["ACF MIDL , attributes, type conversion and marshaling"]
+keywords:
+- ACF MIDL , attributes, type conversion and marshaling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type-Conversion and Marshaling ACF Attributes

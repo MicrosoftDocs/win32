@@ -1,14 +1,22 @@
 ---
 title: GetPositionInformationOperation.GetResults method
 description: Returns the results of the asynchronous operation started by GetPositionInformationAsync.
-ms.assetid: '1DC7CD65-1F0F-44A5-9836-C77A5C23F91E'
-keywords: ["GetResults method Media Streaming API", "GetResults method Media Streaming API , GetPositionInformationOperation interface", "GetPositionInformationOperation interface Media Streaming API , GetResults method"]
+ms.assetid: 1DC7CD65-1F0F-44A5-9836-C77A5C23F91E
+keywords:
+- GetResults method Media Streaming API
+- GetResults method Media Streaming API , GetPositionInformationOperation interface
+- GetPositionInformationOperation interface Media Streaming API , GetResults method
 topic_type:
 - apiref
 api_name:
 - GetPositionInformationOperation.GetResults
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetPositionInformationOperation.GetResults method
@@ -20,7 +28,7 @@ Returns the results of the asynchronous operation started by [**GetPositionInfor
 
 ```C++
 HRESULT GetResults(
-  [out, retval] PositionInformation *value
+  [out, retval] PositionInformation *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,9 +70,9 @@ The **GetResults** method is typically called from the event handler that was re
 [**GetPositionInformationOperation**](getpositioninformationoperation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

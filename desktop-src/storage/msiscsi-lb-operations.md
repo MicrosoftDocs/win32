@@ -1,7 +1,12 @@
 ---
 title: MSiSCSI\_LB\_Operations
 description: MSiSCSI\_LB\_Operations
-ms.assetid: '2f2217b0-bbb1-4c08-9354-0613b6095f08'
+ms.assetid: 2f2217b0-bbb1-4c08-9354-0613b6095f08
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSiSCSI\_LB\_Operations

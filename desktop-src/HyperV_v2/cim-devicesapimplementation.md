@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a service access point (SAP) and a logical device that implements it.'
-ms.assetid: '40c8111a-d439-4c0f-805e-9c10d7182eb4'
-title: 'CIM\_DeviceSAPImplementation class'
+Description: Represents an association between a service access point (SAP) and a logical device that implements it.
+ms.assetid: 40c8111a-d439-4c0f-805e-9c10d7182eb4
+title: CIM\_DeviceSAPImplementation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_DeviceSAPImplementation class
@@ -14,7 +19,7 @@ Represents an association between a service access point (SAP) and a logical dev
 [Association, Abstract, Version("2.10.0"), UMLPackagePath("CIM::Core::Device"), AMENDMENT]
 class CIM_DeviceSAPImplementation : CIM_Dependency
 {
-  CIM_LogicalDevice      REF Antecedent;
+  CIM_LogicalDevice      REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
 };
 ```
@@ -69,8 +74,8 @@ The SAP implemented by the logical device.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The SAP implemented by the logical device.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

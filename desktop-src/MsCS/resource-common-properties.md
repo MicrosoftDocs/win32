@@ -4,11 +4,17 @@ description: Common properties for resources are data values stored in the clust
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b84fe8fe-a49e-4c3c-acbd-f9cfe5ac0782'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b84fe8fe-a49e-4c3c-acbd-f9cfe5ac0782
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource properties Failover Cluster", "properties Failover Cluster ,resource (common) properties", "resources Failover Cluster ,properties"]
+keywords:
+- resource properties Failover Cluster
+- properties Failover Cluster ,resource (common) properties
+- resources Failover Cluster ,properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resource Common Properties
@@ -57,7 +63,7 @@ Dump services.
 [**IsAlivePollInterval**](resources-isalivepollinterval.md)
 </dt> <dd>
 
-Provides the recommended interval in milliseconds at which the [Cluster service](cluster-service.md) should poll the resource to determine if it is operational. The polling occurs when the [Resource Monitor](resource-monitor.md) calls the [resource DLL's](resource-dlls.md) [**IsAlive**](isalive.md) entry point function. The following table summarizes the attributes of the [**IsAlivePollInterval**](resources-isalivepollinterval.md) property.
+Provides the recommended interval in milliseconds at which the [Cluster service](cluster-service.md) should poll the resource to determine if it is operational. The polling occurs when the [Resource Monitor](resource-monitor.md) calls the [resource DLL's](resource-dlls.md) [**IsAlive**](/windows/previous-versions/ResApi/nc-resapi-pis_alive_routine?branch=master) entry point function. The following table summarizes the attributes of the [**IsAlivePollInterval**](resources-isalivepollinterval.md) property.
 
 </dd> <dt>
 

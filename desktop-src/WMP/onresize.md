@@ -1,14 +1,20 @@
 ---
 title: onresize
 description: The onresize event handler handles an event that occurs when a control resizes.
-ms.assetid: '262ab63f-d957-460c-8259-e990a9268998'
-keywords: ["onresize Windows Media Player"]
+ms.assetid: 262ab63f-d957-460c-8259-e990a9268998
+keywords:
+- onresize Windows Media Player
 topic_type:
 - apiref
 api_name:
 - onresize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # onresize
@@ -36,9 +42,9 @@ onresize
 [**Ambient Event Handlers**](ambient-event-handlers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

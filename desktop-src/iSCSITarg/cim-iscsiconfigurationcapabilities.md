@@ -4,13 +4,15 @@ description: A subclass of Capabilities that defines the capabilities of a iSCSI
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '70849c8e-d22e-4fb4-8a37-8f054b47f94d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 70849c8e-d22e-4fb4-8a37-8f054b47f94d
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_iSCSIConfigurationCapabilities class iSCSI Software Target API", "CIM_iSCSIConfigurationCapabilities class iSCSI Software Target API , described"]
+keywords:
+- CIM_iSCSIConfigurationCapabilities class iSCSI Software Target API
+- CIM_iSCSIConfigurationCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_iSCSIConfigurationCapabilities class
@@ -40,10 +45,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Experimental, Version("2.10.0"), UMLPackagePath("CIM::Network::iSCSI")]
 class CIM_iSCSIConfigurationCapabilities : CIM_Capabilities
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
   boolean iSCSIProtocolEndpointCreationSupported = FALSE;
   boolean IdentifierSelectionSupported = FALSE;
   boolean iSCSINodeCreationSupported = FALSE;
@@ -177,7 +182,7 @@ iSCSI Ports are modeled by instances of iSCSIProtocolEndpoints. If true, this pr
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -191,9 +196,9 @@ iSCSI Ports are modeled by instances of iSCSIProtocolEndpoints. If true, this pr
 [**CIM\_Capabilities**](cim-capabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

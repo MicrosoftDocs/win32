@@ -1,7 +1,12 @@
 ---
-Description: 'Administrators can use COM+ to programmatically create and configure COM+ partitions.'
-ms.assetid: '15f0cd9a-cd40-49df-85b8-15c4e626f8ee'
+Description: Administrators can use COM+ to programmatically create and configure COM+ partitions.
+ms.assetid: 15f0cd9a-cd40-49df-85b8-15c4e626f8ee
 title: Creating and Configuring COM+ Partitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating and Configuring COM+ Partitions
@@ -19,14 +24,14 @@ Administrators can use COM+ to programmatically create and configure COM+ partit
 
 To accomplish partition-related tasks, COM+ provides the following programming elements:
 
--   Methods and properties of the [**ICOMAdminCatalog2**](icomadmincatalog2.md) interface on the [**COMAdminCatalog**](comadmincatalog.md) class:
-    -   [**CurrentPartition**](icomadmincatalog2-currentpartition.md) property.
-    -   [**CurrentPartitionID**](icomadmincatalog2-currentpartitionid.md) property.
-    -   [**CurrentPartitionName**](icomadmincatalog2-currentpartitionname.md) property.
-    -   [**FlushPartitionCache**](icomadmincatalog2-flushpartitioncache.md) method.
-    -   [**GetPartitionID**](icomadmincatalog2-getpartitionid.md) method.
-    -   [**GetPartitionName**](icomadmincatalog2-getpartitionname.md) method.
-    -   [**GlobalPartitionID**](icomadmincatalog2-globalpartitionid.md) property.
+-   Methods and properties of the [**ICOMAdminCatalog2**](/windows/win32/ComAdmin/nn-comadmin-icomadmincatalog2?branch=master) interface on the [**COMAdminCatalog**](/windows/win32/ComAdmin/?branch=master) class:
+    -   [**CurrentPartition**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog2-put_currentpartition?branch=master) property.
+    -   [**CurrentPartitionID**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog2-get_currentpartitionid?branch=master) property.
+    -   [**CurrentPartitionName**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog2-get_currentpartitionname?branch=master) property.
+    -   [**FlushPartitionCache**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog2-flushpartitioncache?branch=master) method.
+    -   [**GetPartitionID**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog2-getpartitionid?branch=master) method.
+    -   [**GetPartitionName**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog2-getpartitionname?branch=master) method.
+    -   [**GlobalPartitionID**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog2-get_globalpartitionid?branch=master) property.
 -   A set of COM+ objects for creating and managing partitions in Active Directory.
 -   A COM+ registry key, **PartitionCache**, for changing the partition cache size.
 -   A set of partitions-related [COM+ Administration Collections](com--administration-collections.md):

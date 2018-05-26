@@ -1,7 +1,12 @@
 ---
 title: IAgentUserInput
 description: IAgentUserInput
-ms.assetid: '59ce7337-6031-4449-8b29-fd0c6737c3e8'
+ms.assetid: 59ce7337-6031-4449-8b29-fd0c6737c3e8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentUserInput

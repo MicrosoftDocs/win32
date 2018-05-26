@@ -1,6 +1,11 @@
-﻿---
-Description: 'The PublicKey object represents a public key in a Certificate object.'
+---
+Description: The PublicKey object represents a public key in a Certificate object.
 title: PublicKey object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PublicKey object

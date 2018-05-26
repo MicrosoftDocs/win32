@@ -1,8 +1,11 @@
 ---
 title: DownloadCollection.startDownload method
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The startDownload method queues a download.
-ms.assetid: '54cf91fe-cef9-4424-9f99-629e773eade1'
-keywords: ["startDownload method Windows Media Player", "startDownload method Windows Media Player , DownloadCollection class", "DownloadCollection class Windows Media Player , startDownload method"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The startDownload method queues a download.
+ms.assetid: 54cf91fe-cef9-4424-9f99-629e773eade1
+keywords:
+- startDownload method Windows Media Player
+- startDownload method Windows Media Player , DownloadCollection class
+- DownloadCollection class Windows Media Player , startDownload method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadCollection.startDownload method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **startDownload** method queues a download.
 
@@ -59,7 +67,7 @@ retVal = DownloadCollection.startDownload(
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -107,9 +115,9 @@ Note that files may be renamed based upon metadata attributes contained in the f
 [**DownloadItem Object**](downloaditem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: Contains general information about the Microsoft iSCSI Target Serve
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd52cdb11-12ad-49e7-956a-d76068067a2e'
-ms.prod: 'windows-server-dev'
+ms.assetid: d52cdb11-12ad-49e7-956a-d76068067a2e
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WT_General class iSCSI Software Target API", "WT_General class iSCSI Software Target API , described"]
+keywords:
+- WT_General class iSCSI Software Target API
+- WT_General class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WT\_General class
@@ -40,13 +45,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class WT_General
 {
-  string  Version;
+  string  Version;
   boolean IsClustered;
-  string  Guid;
-  string  Name;
-  uint8   MinVersionSupported;
-  uint8   MaxVersionSupported;
-  uint16  AuthenticationMethodsSupported[];
+  string  Guid;
+  string  Name;
+  uint8   MinVersionSupported;
+  uint8   MaxVersionSupported;
+  uint16  AuthenticationMethodsSupported[];
   boolean IsRemoteManageable;
 };
 ```
@@ -146,7 +151,7 @@ Access type: Read/write
 
 Whether the Microsoft iSCSI Target can be managed remotely.
 
-**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
+**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -209,16 +214,16 @@ The Microsoft iSCSI Target Server version information.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

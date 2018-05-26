@@ -4,17 +4,22 @@ description: Backlink for ms-DS-Members-Of-Resource-Property-List. For a resourc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0737681a-863b-463f-8643-cc86784f77d4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0737681a-863b-463f-8643-cc86784f77d4
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Members-Of-Resource-Property-List-BL attribute AD Schema", "msDS-MembersOfResourcePropertyListBL attribute AD Schema"]
+keywords:
+- ms-DS-Members-Of-Resource-Property-List-BL attribute AD Schema
+- msDS-MembersOfResourcePropertyListBL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Members-Of-Resource-Property-List-BL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Members-Of-Resource-Property-List-BL attribute
@@ -38,7 +43,7 @@ Backlink for ms-DS-Members-Of-Resource-Property-List. For a resource property ob
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ Backlink for ms-DS-Members-Of-Resource-Property-List. For a resource property ob
 
 
 
- 
+ 
 
- 
+ 
 
 
 

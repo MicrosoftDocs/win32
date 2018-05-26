@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Subject property is a null-terminated string that contains the contents of the subject field on the cover page of the fax.'
-ms.assetid: '10aed55b-e57b-4ae1-8cda-bb54ecc8abdb'
-title: 'FaxDocument.Subject property'
+---
+Description: The Subject property is a null-terminated string that contains the contents of the subject field on the cover page of the fax.
+ms.assetid: 10aed55b-e57b-4ae1-8cda-bb54ecc8abdb
+title: FaxDocument.Subject property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.Subject property
@@ -46,7 +51,7 @@ A **String** that specifies or receives text that describes the subject of the f
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

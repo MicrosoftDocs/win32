@@ -1,8 +1,11 @@
 ---
 title: IMimeSecurity InitNew method
 description: Initializes an IMimeSecurity object.
-ms.assetid: '819e365f-336c-4620-bc43-8828523af58e'
-keywords: ["InitNew method Windows Mail (formerly Outlook Express)", "InitNew method Windows Mail (formerly Outlook Express) , IMimeSecurity interface", "IMimeSecurity interface Windows Mail (formerly Outlook Express) , InitNew method"]
+ms.assetid: 819e365f-336c-4620-bc43-8828523af58e
+keywords:
+- InitNew method Windows Mail (formerly Outlook Express)
+- InitNew method Windows Mail (formerly Outlook Express) , IMimeSecurity interface
+- IMimeSecurity interface Windows Mail (formerly Outlook Express) , InitNew method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeSecurity::InitNew method
@@ -45,7 +53,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,8 +65,8 @@ The client calls this method after the constructor.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -66,9 +74,9 @@ The client calls this method after the constructor.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

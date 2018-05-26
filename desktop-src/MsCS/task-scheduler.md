@@ -4,10 +4,13 @@ description: Manages a task scheduler.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '70764C3C-60CB-4D8F-973A-2BCF13F44881'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 70764C3C-60CB-4D8F-973A-2BCF13F44881
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Task Scheduler
@@ -26,11 +29,11 @@ The following table summarizes the characteristics of the this [resource type](r
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: For virtual machine snapshot resuming detection. This attribute rep
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '48a454b7-b1dc-40d0-af10-d19c810f25a9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 48a454b7-b1dc-40d0-af10-d19c810f25a9
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Generation-Id attribute AD Schema", "msDS-GenerationId attribute AD Schema"]
+keywords:
+- ms-DS-Generation-Id attribute AD Schema
+- msDS-GenerationId attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Generation-Id
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Generation-Id attribute
@@ -38,7 +43,7 @@ For virtual machine snapshot resuming detection. This attribute represents the V
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For virtual machine snapshot resuming detection. This attribute represents the V
 
 
 
- 
+ 
 
- 
+ 
 
 
 

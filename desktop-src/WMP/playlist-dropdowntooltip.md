@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.dropDownToolTip
 description: The dropDownToolTip attribute specifies or retrieves the ToolTip shown when the user hovers over the PLAYLIST element drop-down list.
-ms.assetid: '36eefea4-9f34-4428-bac6-e3e1a8b8f20d'
-keywords: ["PLAYLIST.dropDownToolTip Windows Media Player"]
+ms.assetid: 36eefea4-9f34-4428-bac6-e3e1a8b8f20d
+keywords:
+- PLAYLIST.dropDownToolTip Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.dropDownToolTip
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.dropDownToolTip
@@ -44,9 +50,9 @@ When this attribute is set to "" (empty string), no ToolTip is displayed.
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

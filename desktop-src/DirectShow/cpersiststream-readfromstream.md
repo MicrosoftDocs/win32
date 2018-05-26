@@ -1,7 +1,12 @@
 ---
-Description: 'Reads the filter''s data from the given stream.'
-ms.assetid: '009f4812-8cc6-436a-9553-3a3161d5e992'
-title: 'CPersistStream.ReadFromStream method'
+Description: Reads the filters data from the given stream.
+ms.assetid: 009f4812-8cc6-436a-9553-3a3161d5e992
+title: CPersistStream.ReadFromStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPersistStream.ReadFromStream method
@@ -13,7 +18,7 @@ Reads the filter's data from the given stream.
 
 ```C++
 virtual HRESULT ReadFromStream(
-   IStream *pStream
+   IStream *pStream
 );
 ```
 
@@ -56,9 +61,9 @@ The default version reads nothing; it can be overridden to read data specific to
 [**CPersistStream Class**](cpersiststream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

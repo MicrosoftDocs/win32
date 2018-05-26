@@ -1,7 +1,12 @@
 ---
-Description: 'Adjusts the color characteristics of a video stream.'
-ms.assetid: '738c1f0c-8417-4b12-a7f1-9bbf3c7e9dd3'
+Description: Adjusts the color characteristics of a video stream.
+ms.assetid: 738c1f0c-8417-4b12-a7f1-9bbf3c7e9dd3
 title: Color Control Transform DSP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Control Transform DSP
@@ -46,8 +51,8 @@ This DSP modifies the contents of the video stream. For playback, you might be a
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mfvdsp.dll</dt> </dl>   |
 
@@ -60,9 +65,9 @@ This DSP modifies the contents of the video stream. For playback, you might be a
 [Digital Signal Processors](windowsmediadigitalsignalprocessors.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

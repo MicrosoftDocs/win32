@@ -1,23 +1,28 @@
 ---
-Description: 'Proxy function for the CreateBitmapFromHBITMAP method.'
-ms.assetid: 'e4e9a6b4-00d9-4f87-aeec-f2c02c3f44ab'
-title: 'IWICImagingFactory\_CreateBitmapFromHBITMAP\_Proxy function'
+Description: Proxy function for the CreateBitmapFromHBITMAP method.
+ms.assetid: e4e9a6b4-00d9-4f87-aeec-f2c02c3f44ab
+title: IWICImagingFactory\_CreateBitmapFromHBITMAP\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICImagingFactory\_CreateBitmapFromHBITMAP\_Proxy function
 
-Proxy function for the [**CreateBitmapFromHBITMAP**](-wic-codec-iwicimagingfactory-createbitmapfromhbitmap.md) method.
+Proxy function for the [**CreateBitmapFromHBITMAP**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createbitmapfromhbitmap?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICImagingFactory_CreateBitmapFromHBITMAP_Proxy(
-  _In_  IWICImagingFactory          *pFactory,
-  _In_  HBITMAP                     hBitmap,
-  _In_  HPALETTE                    hPalette,
-  _In_  WICBitmapAlphaChannelOption options,
-  _Out_ IWICBitmap                  **ppIBitmap
+  _In_  IWICImagingFactory          *pFactory,
+  _In_  HBITMAP                     hBitmap,
+  _In_  HPALETTE                    hPalette,
+  _In_  WICBitmapAlphaChannelOption options,
+  _Out_ IWICBitmap                  **ppIBitmap
 );
 ```
 
@@ -30,7 +35,7 @@ HRESULT IWICImagingFactory_CreateBitmapFromHBITMAP_Proxy(
 *pFactory* \[in\]
 </dt> <dd>
 
-Type: **[**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md)\***
+Type: **[**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master)\***
 
 </dd> <dt>
 
@@ -55,7 +60,7 @@ A palette handle used to create the bitmap.
 *options* \[in\]
 </dt> <dd>
 
-Type: **[**WICBitmapAlphaChannelOption**](-wic-codec-wicbitmapalphachanneloption.md)**
+Type: **[**WICBitmapAlphaChannelOption**](/windows/win32/Wincodec/ne-wincodec-wicbitmapalphachanneloption?branch=master)**
 
 The alpha channel options to create the bitmap.
 
@@ -64,7 +69,7 @@ The alpha channel options to create the bitmap.
 *ppIBitmap* \[out\]
 </dt> <dd>
 
-Type: **[**IWICBitmap**](-wic-codec-iwicbitmap.md)\*\***
+Type: **[**IWICBitmap**](/windows/win32/Wincodec/nn-wincodec-iwicbitmap?branch=master)\*\***
 
 A pointer that receives a pointer to the new bitmap.
 
@@ -84,15 +89,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

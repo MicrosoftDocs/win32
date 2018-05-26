@@ -1,7 +1,12 @@
 ---
-Description: 'Returns the number of video frames that the encoder received.'
-ms.assetid: '3de49105-3c74-4a52-9cac-465b4abfcbf5'
+Description: Returns the number of video frames that the encoder received.
+ms.assetid: 3de49105-3c74-4a52-9cac-465b4abfcbf5
 title: AVEncStatVideoTotalFrames property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncStatVideoTotalFrames property
@@ -30,8 +35,8 @@ The value of this property is the total number of frames sent to the encoder, in
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -43,12 +48,12 @@ The value of this property is the total number of frames sent to the encoder, in
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

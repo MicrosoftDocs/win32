@@ -1,14 +1,20 @@
 ---
 title: WM/WMContentID
 description: The WM/WMContentID attribute contains a GUID identifying the content.
-ms.assetid: 'b46d02f4-04f5-430a-b3f7-0f80e03bed2c'
-keywords: ["WM/WMContentID windows Media Format"]
+ms.assetid: b46d02f4-04f5-430a-b3f7-0f80e03bed2c
+keywords:
+- WM/WMContentID windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/WMContentID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/WMContentID

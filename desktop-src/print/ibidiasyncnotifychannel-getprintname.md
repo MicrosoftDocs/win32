@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'DE84073F-8D87-4C72-B820-4CBCF1B9DF2F'
-title: 'IBidiAsyncNotifyChannel::GetPrintName method'
+---
+Description: .
+ms.assetid: DE84073F-8D87-4C72-B820-4CBCF1B9DF2F
+title: IBidiAsyncNotifyChannelGetPrintName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiAsyncNotifyChannel::GetPrintName method

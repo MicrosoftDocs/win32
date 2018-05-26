@@ -1,8 +1,16 @@
 ---
 title: OneWayTcpServerExample
 description: This example shows a TCP server that accepts a channel and receives one-way messages.
-ms.assetid: 'a43fc6a8-f1ee-4f6b-9737-bfe340bb67f0'
-keywords: ["OneWayTcpServerExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: a43fc6a8-f1ee-4f6b-9737-bfe340bb67f0
+keywords:
+- OneWayTcpServerExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OneWayTcpServerExample

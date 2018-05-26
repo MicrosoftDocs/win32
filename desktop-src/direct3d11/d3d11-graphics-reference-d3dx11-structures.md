@@ -1,8 +1,15 @@
 ---
 title: D3DX Structures
 description: This section contains information about the D3DX 11 structures.
-ms.assetid: 'a983813a-a31f-4eeb-b17a-654b7cfe5a55'
-keywords: ["D3DX structures, D3DX 11", "structures, D3DX 11"]
+ms.assetid: a983813a-a31f-4eeb-b17a-654b7cfe5a55
+keywords:
+- D3DX structures, D3DX 11
+- structures, D3DX 11
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX Structures
@@ -10,9 +17,9 @@ keywords: ["D3DX structures, D3DX 11", "structures, D3DX 11"]
 This section contains information about the D3DX 11 structures.
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 ## 
 
@@ -36,7 +43,7 @@ This section contains information about the D3DX 11 structures.
 <td>[<strong>D3DX11_IMAGE_INFO</strong>](d3dx11-image-info.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/> Optionally provide information to texture loader APIs to control how textures get loaded. A value of D3DX11_DEFAULT for any of these parameters will cause D3DX to automatically use the value from the source file.<br/></td>
 </tr>
@@ -44,7 +51,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td>[<strong>D3DX11_IMAGE_LOAD_INFO</strong>](d3dx11-image-load-info.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/> Optionally provide information to texture loader APIs to control how textures get loaded. A value of D3DX11_DEFAULT for any of these parameters will cause D3DX to automatically use the value from the source file.<br/></td>
 </tr>
@@ -52,7 +59,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td>[<strong>D3DX11_TEXTURE_LOAD_INFO</strong>](d3dx11-texture-load-info.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/> Describes parameters used to load a texture from another texture.<br/></td>
 </tr>
@@ -61,7 +68,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -70,9 +77,9 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 [D3DX 11 Reference](d3d11-graphics-reference-d3dx11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

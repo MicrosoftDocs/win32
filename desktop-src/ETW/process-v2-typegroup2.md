@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for process counter events. The following syntax is simplified from MOF code.'
-ms.assetid: '7f1fa1c4-a2ff-4a1c-ac9d-e922a13c99a1'
-title: 'Process\_V2\_TypeGroup2 class'
+---
+Description: This class is the event type class for process counter events. The following syntax is simplified from MOF code.
+ms.assetid: 7f1fa1c4-a2ff-4a1c-ac9d-e922a13c99a1
+title: Process\_V2\_TypeGroup2 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process\_V2\_TypeGroup2 class

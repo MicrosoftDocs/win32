@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the association between an Ethernet switch and a switch resource.'
-ms.assetid: 'fb29f4cb-50c4-4865-b267-21ff99bb4a8b'
-title: 'Msvm\_EthernetSwitchInfo class'
+Description: Defines the association between an Ethernet switch and a switch resource.
+ms.assetid: fb29f4cb-50c4-4865-b267-21ff99bb4a8b
+title: Msvm\_EthernetSwitchInfo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchInfo class
@@ -17,7 +22,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_EthernetSwitchInfo : CIM_Dependency
 {
   Msvm_VirtualEthernetSwitch REF Antecedent;
-  Msvm_EthernetSwitchData    REF Dependent;
+  Msvm_EthernetSwitchData    REF Dependent;
 };
 ```
 
@@ -71,17 +76,17 @@ A reference to the [**Msvm\_EthernetSwitchData**](msvm-ethernetswitchdata.md) cl
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

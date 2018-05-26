@@ -1,7 +1,12 @@
 ---
-Description: 'For an explanation of the following tables, see Tables and Assignments.'
-ms.assetid: 'a314d0b1-9e4f-42dd-914a-65a8f3610300'
+Description: For an explanation of the following tables, see Tables and Assignments.
+ms.assetid: a314d0b1-9e4f-42dd-914a-65a8f3610300
 title: New Zealand
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # New Zealand

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '7f339ee8-01e6-4bbb-8563-020ff0e02499'
-title: 'Setting DXVA-HD States'
+Description: .
+ms.assetid: 7f339ee8-01e6-4bbb-8563-020ff0e02499
+title: Setting DXVA-HD States
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting DXVA-HD States
@@ -56,7 +61,7 @@ The following blit states are defined:
 
  
 
-To set a stream state, call the [**IDXVAHD\_VideoProcessor::SetVideoProcessStreamState**](idxvahd-videoprocessor-setvideoprocessstreamstate.md) method. To set a blit state, call the [**IDXVAHD\_VideoProcessor::SetVideoProcessBltState**](idxvahd-videoprocessor-setvideoprocessbltstate.md) method. In both of these methods, an enumeration value specifies the state to set. The state data is given using a state-specific data structure, which the application casts to a **void\*** type.
+To set a stream state, call the [**IDXVAHD\_VideoProcessor::SetVideoProcessStreamState**](/windows/win32/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessstreamstate?branch=master) method. To set a blit state, call the [**IDXVAHD\_VideoProcessor::SetVideoProcessBltState**](/windows/win32/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessbltstate?branch=master) method. In both of these methods, an enumeration value specifies the state to set. The state data is given using a state-specific data structure, which the application casts to a **void\*** type.
 
 The following code example sets the input format and destination rectangle for stream 0, and sets the background color to black.
 

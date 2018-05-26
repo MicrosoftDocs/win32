@@ -1,7 +1,12 @@
 ---
-Description: 'This documentation specifically refers to the Windows Vista extensions for DirectX graphics.'
-ms.assetid: '3cc0b08c-e126-4f1b-b5d1-0d6c1ebeb0c5'
-title: 'Feature Summary (Direct3D 9 for Windows Vista)'
+Description: This documentation specifically refers to the Windows Vista extensions for DirectX graphics.
+ms.assetid: 3cc0b08c-e126-4f1b-b5d1-0d6c1ebeb0c5
+title: Feature Summary (Direct3D 9 for Windows Vista)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Feature Summary (Direct3D 9 for Windows Vista)
@@ -21,11 +26,11 @@ Discover the new DirectX graphics features in Windows Vista in one of these sect
 
 ## Device Behavior Changes
 
-Devices are now only lost under two circumstances; when the hardware is reset because it is hanging, and when the device driver is stopped. When hardware hangs, the device can be reset by calling [**ResetEx**](idirect3ddevice9ex-resetex.md). If hardware hangs, texture memory is lost.
+Devices are now only lost under two circumstances; when the hardware is reset because it is hanging, and when the device driver is stopped. When hardware hangs, the device can be reset by calling [**ResetEx**](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9ex-resetex?branch=master). If hardware hangs, texture memory is lost.
 
 After a driver is stopped, the IDirect9Ex object must be recreated to resume rendering.
 
-When the presentation area is obscured by another window in windowed mode, or when a fullscreen application is minimized, [**PresentEx**](idirect3ddevice9ex-presentex.md) will return S\_D3DPRESENTATIONOCCLUDED. Full screen applications can resume rendering when they receive a [**WM\_ACTIVATEAPP**](winmsg.wm_activateapp) callback message.
+When the presentation area is obscured by another window in windowed mode, or when a fullscreen application is minimized, [**PresentEx**](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9ex-presentex?branch=master) will return S\_D3DPRESENTATIONOCCLUDED. Full screen applications can resume rendering when they receive a [**WM\_ACTIVATEAPP**](winmsg.wm_activateapp) callback message.
 
 In previous versions of DirectX, when an application experienced a mode change, the only way to recover was to reset the device and re-create all video memory resources and swap chains. Now with DirectX for Windows Vista, calling Reset after a mode change does not cause texture memory surfaces, textures and state information to be lost and these resources do not need to be recreated.
 
@@ -46,7 +51,7 @@ There is a new one bit surface format type which can be especially useful for pr
 
 A one-bit surface has one bit per texel; therefore, a one would mean that all components (r,g,b,a) of a pixel are 1, and zero would mean that all components are equal to 0. You may use one-bit surfaces with the following APIs: ColorFill, UpdateSurface and UpdateTexture.
 
-When a one-bit surface is read, the runtime can perform either point sample or convolution filtering. The convolution filter is adjustable (see [**SetConvolutionMonoKernel**](idirect3ddevice9ex-setconvolutionmonokernel.md)).
+When a one-bit surface is read, the runtime can perform either point sample or convolution filtering. The convolution filter is adjustable (see [**SetConvolutionMonoKernel**](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9ex-setconvolutionmonokernel?branch=master)).
 
 There are some restrictions for one-bit surfaces:
 
@@ -83,11 +88,11 @@ To enable shared resources, the resource creation APIs have an additional handle
 -   To create a shared resource, call any resource creation API (see below) with an uninitialized handle (the pointer itself is not **NULL** (pSharedHandle != **NULL**), but the pointer points to a **NULL** value (\*pSharedHandle == **NULL**)). The API will generate a shared resource and return a valid handle.
 -   To open and access a previously created shared resource by using a nonNULL shared resource handle, set pSharedHandle to the address of that handle. After you open the previously created shared resource in this manner, you can use the returned interface in the Direct3D 9 or Direct3D 9Ex API as if the interface were a typical resource of that type.
 
-Resource creation APIs include - [**CreateTexture**](idirect3ddevice9--createtexture.md), [**CreateVolumeTexture**](idirect3ddevice9--createvolumetexture.md), [**CreateCubeTexture**](idirect3ddevice9--createcubetexture.md), [**CreateRenderTarget**](idirect3ddevice9--createrendertarget.md), [**CreateVertexBuffer**](idirect3ddevice9--createvertexbuffer.md), [**CreateIndexBuffer**](idirect3ddevice9--createindexbuffer.md), [**CreateDepthStencilSurface**](idirect3ddevice9--createdepthstencilsurface.md), [**CreateOffscreenPlainSurface**](idirect3ddevice9--createoffscreenplainsurface.md), [**CreateDepthStencilSurfaceEx**](idirect3ddevice9ex-createdepthstencilsurfaceex.md), [**CreateOffscreenPlainSurfaceEx**](idirect3ddevice9ex-createoffscreenplainsurfaceex.md), and [**CreateRenderTargetEx**](idirect3ddevice9ex-createrendertargetex.md).
+Resource creation APIs include - [**CreateTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createtexture?branch=master), [**CreateVolumeTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createvolumetexture?branch=master), [**CreateCubeTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createcubetexture?branch=master), [**CreateRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createrendertarget?branch=master), [**CreateVertexBuffer**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createvertexbuffer?branch=master), [**CreateIndexBuffer**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createindexbuffer?branch=master), [**CreateDepthStencilSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createdepthstencilsurface?branch=master), [**CreateOffscreenPlainSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createoffscreenplainsurface?branch=master), [**CreateDepthStencilSurfaceEx**](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9ex-createdepthstencilsurfaceex?branch=master), [**CreateOffscreenPlainSurfaceEx**](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9ex-createoffscreenplainsurfaceex?branch=master), and [**CreateRenderTargetEx**](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9ex-createrendertargetex?branch=master).
 
 There are some restrictions for using shared resources. These include:
 
--   The API that you use to open a shared resource must match the API that you used to create the shared resource. For example, if you used [**CreateTexture**](idirect3ddevice9--createtexture.md) to create a shared resource, you must use **CreateTexture** to open that shared resource; if you used [**CreateRenderTarget**](idirect3ddevice9--createrendertarget.md) to create a shared resource, you must use **CreateRenderTarget** to open that shared resource;and so on.
+-   The API that you use to open a shared resource must match the API that you used to create the shared resource. For example, if you used [**CreateTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createtexture?branch=master) to create a shared resource, you must use **CreateTexture** to open that shared resource; if you used [**CreateRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createrendertarget?branch=master) to create a shared resource, you must use **CreateRenderTarget** to open that shared resource;and so on.
 -   When you open a shared resource, you must specify D3DPOOL\_DEFAULT.
 -   Lockable resources (textures with D3DUSAGE\_DYNAMIC, vertex buffers and index buffers, for instance) can experience poor performance when shared. Lockable rendertargets will fail to be shared on some hardware.
 -   References to a cross-process shared resource must have the same dimensions as the original resource. When passing a handle across process, include the dimension information so that the reference can be created identically.

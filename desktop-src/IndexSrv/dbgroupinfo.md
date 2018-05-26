@@ -1,8 +1,14 @@
 ---
 title: DBGROUPINFO
 description: DBGROUPINFO
-ms.assetid: '37cea731-5289-4b5e-bcf5-2d29887aa31c'
-keywords: ["DBGROUPINFO"]
+ms.assetid: 37cea731-5289-4b5e-bcf5-2d29887aa31c
+keywords:
+- DBGROUPINFO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBGROUPINFO

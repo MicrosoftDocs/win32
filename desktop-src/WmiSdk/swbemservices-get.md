@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves an object, that is either a class definition or an instance, based on the object path.'
+Description: Retrieves an object, that is either a class definition or an instance, based on the object path.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3071aeb2-adab-47aa-a10c-9796766bb630'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3071aeb2-adab-47aa-a10c-9796766bb630
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemServices.Get method'
+title: SWbemServices.Get method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemServices.Get method
@@ -121,7 +124,7 @@ Not enough memory to complete the operation.
 
 ## Remarks
 
-Unlike the [**ExecQuery**](provider-execquery.md) and [**InstancesOf**](swbemservices-instancesof.md) methods, the Get method always returns an [**SWbemObject**](swbemobject.md) representing a specific instance of a WMI-managed resource. To obtain a specific instance of a WMI-managed resource using the Get method, you must tell Get the instance to retrieve by passing the method the object path, as shown in the following script.
+Unlike the [**ExecQuery**](/windows/win32/Provider/nf-provider-provider-execquery?branch=master) and [**InstancesOf**](swbemservices-instancesof.md) methods, the Get method always returns an [**SWbemObject**](swbemobject.md) representing a specific instance of a WMI-managed resource. To obtain a specific instance of a WMI-managed resource using the Get method, you must tell Get the instance to retrieve by passing the method the object path, as shown in the following script.
 
 
 ```VB
@@ -146,8 +149,8 @@ You can examine the repository with a viewing tool such as [CIM Studio](further-
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -166,9 +169,9 @@ You can examine the repository with a viewing tool such as [CIM Studio](further-
 [**SWbemObject**](swbemobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

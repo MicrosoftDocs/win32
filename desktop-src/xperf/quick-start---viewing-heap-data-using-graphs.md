@@ -1,7 +1,12 @@
 ---
 title: Quick Start - Viewing Heap Data Using Graphs
 description: Quick Start - Viewing Heap Data Using Graphs
-ms.assetid: '2806710b-17c7-4e0b-9c42-e955e740c67d'
+ms.assetid: 2806710b-17c7-4e0b-9c42-e955e740c67d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Start - Viewing Heap Data Using Graphs

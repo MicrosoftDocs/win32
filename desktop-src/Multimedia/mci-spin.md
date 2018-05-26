@@ -1,8 +1,9 @@
 ---
 title: MCI\_SPIN command
 description: The MCI\_SPIN command starts the device spinning up or down. Videodisc devices recognize this command.
-ms.assetid: '9e491455-d06d-44c6-8aca-6360384ec266'
-keywords: ["MCI_SPIN command Windows Multimedia"]
+ms.assetid: 9e491455-d06d-44c6-8aca-6360384ec266
+keywords:
+- MCI_SPIN command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_SPIN command
 
 The MCI\_SPIN command starts the device spinning up or down. Videodisc devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -86,8 +92,8 @@ Starts the disc spinning.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -102,9 +108,9 @@ Starts the disc spinning.
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

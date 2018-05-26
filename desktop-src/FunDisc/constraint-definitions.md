@@ -1,7 +1,12 @@
 ---
-Description: 'Most built-in providers support only a subset of the constraints defined below. For general information about query constraints, see Constraints.'
-ms.assetid: '13502fbd-bc88-4c28-939e-3e964ab6bb5d'
+Description: Most built-in providers support only a subset of the constraints defined below. For general information about query constraints, see Constraints.
+ms.assetid: 13502fbd-bc88-4c28-939e-3e964ab6bb5d
 title: Constraint Definitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constraint Definitions
@@ -61,7 +66,7 @@ L"COMClsContext"
 
 
 
-Specifies whether the provider used for the query should be launched inside of the caller's process or outside of the caller's process. A constraint value of FD\_QUERYCONSTRAINT\_COMCLSCONTEXT\_INPROC\_SERVER or FD\_QUERYCONSTRAINT\_COMCLSCONTEXT\_LOCAL\_SERVER must be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) method.
+Specifies whether the provider used for the query should be launched inside of the caller's process or outside of the caller's process. A constraint value of FD\_QUERYCONSTRAINT\_COMCLSCONTEXT\_INPROC\_SERVER or FD\_QUERYCONSTRAINT\_COMCLSCONTEXT\_LOCAL\_SERVER must be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) method.
 
 By default, queries for SSDP devices, WSD devices, and devices discovered using a custom provider will be launched outside of the caller's process.
 
@@ -156,7 +161,7 @@ L"RoutingScope"
 
 
 
-Specifies whether the provider should be used to search for resources that can be contacted through provider-specific discovery infrastructure. One of the following values must be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) method.
+Specifies whether the provider should be used to search for resources that can be contacted through provider-specific discovery infrastructure. One of the following values must be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) method.
 
 <dl> <dt>
 
@@ -188,7 +193,7 @@ L"Properties"
 
 
 
-Specifies the properties in the property store to be populated from the [**NETRESOURCE**](https://msdn.microsoft.com/library/windows/desktop/aa385353) structure supplied by the NetBIOS provider. A constraint value of WNET\_CONSTRAINTVALUE\_PROPERTIES\_ALL or WNET\_CONSTRAINTVALUE\_PROPERTIES\_LIMITED should be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) method.
+Specifies the properties in the property store to be populated from the [**NETRESOURCE**](https://msdn.microsoft.com/library/windows/desktop/aa385353) structure supplied by the NetBIOS provider. A constraint value of WNET\_CONSTRAINTVALUE\_PROPERTIES\_ALL or WNET\_CONSTRAINTVALUE\_PROPERTIES\_LIMITED should be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) method.
 
 If this constraint is not specified, then a default value of WNET\_CONSTRAINTVALUE\_PROPERTIES\_LIMITED is used.
 
@@ -203,7 +208,7 @@ L"ResourceType"
 
 
 
-Specifies the resource types to be queried. A constraint value of WNET\_CONSTRAINTVALUE\_RESOURCETYPE\_DISK, WNET\_CONSTRAINTVALUE\_RESOURCETYPE\_DISKORPRINTER, or WNET\_CONSTRAINTVALUE\_RESOURCETYPE\_PRINTER should be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) method.
+Specifies the resource types to be queried. A constraint value of WNET\_CONSTRAINTVALUE\_RESOURCETYPE\_DISK, WNET\_CONSTRAINTVALUE\_RESOURCETYPE\_DISKORPRINTER, or WNET\_CONSTRAINTVALUE\_RESOURCETYPE\_PRINTER should be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) method.
 
 This constraint is not used by default.
 
@@ -218,7 +223,7 @@ L"Type"
 
 
 
-Specifies the resource display types to be queried. A constraint value of WNET\_CONSTRAINTVALUE\_TYPE\_ALL, WNET\_CONSTRAINTVALUE\_TYPE\_DOMAIN, or WNET\_CONSTRAINTVALUE\_TYPE\_SERVER should be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) method.
+Specifies the resource display types to be queried. A constraint value of WNET\_CONSTRAINTVALUE\_TYPE\_ALL, WNET\_CONSTRAINTVALUE\_TYPE\_DOMAIN, or WNET\_CONSTRAINTVALUE\_TYPE\_SERVER should be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) method.
 
 If this constraint is not specified, then a default value of WNET\_CONSTRAINTVALUE\_TYPE\_SERVER is used.
 
@@ -354,7 +359,7 @@ L"TRUE"
 
 
 
-A query will send the appropriate notification to the [**IFunctionDiscoveryNotification**](ifunctiondiscoverynotification.md) object, and not populate the instance collection.
+A query will send the appropriate notification to the [**IFunctionDiscoveryNotification**](/windows/win32/FunctionDiscoveryNotification/nn-functiondiscoveryapi-ifunctiondiscoverynotification?branch=master) object, and not populate the instance collection.
 
 
 </dt> </dl> </dd> <dt>
@@ -380,7 +385,7 @@ L"NotifyOnly"
 
 
 
-Queries will not populate the [**IFunctionInstanceCollection**](ifunctioninstancecollection.md) passed into the [**IFunctionInstanceCollectionQuery::Execute**](ifunctioninstancecollectionquery-execute-method.md) method, but will send appropriate notifications to the [**IFunctionDiscoveryNotification**](ifunctiondiscoverynotification.md) object. See PNP\_CONSTRAINTVALUE\_NOTIFICATIONSONLY.
+Queries will not populate the [**IFunctionInstanceCollection**](/windows/win32/FunctionDiscoveryAPI/nn-functiondiscoveryapi-ifunctioninstancecollection?branch=master) passed into the [**IFunctionInstanceCollectionQuery::Execute**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute?branch=master) method, but will send appropriate notifications to the [**IFunctionDiscoveryNotification**](/windows/win32/FunctionDiscoveryNotification/nn-functiondiscoveryapi-ifunctiondiscoverynotification?branch=master) object. See PNP\_CONSTRAINTVALUE\_NOTIFICATIONSONLY.
 
 
 </dt> </dl> </dd> <dt>
@@ -412,7 +417,7 @@ L"Type"
 
 
 
-Query for SSDP devices of particular type. One of the SSDP constraint values specified below should be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) method.
+Query for SSDP devices of particular type. One of the SSDP constraint values specified below should be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) method.
 
 
 </dt> </dl> </dd> <dt>
@@ -637,7 +642,7 @@ L"RemoteAddress"
 
 
 
-Query for a WSD device discovered by directed discovery at a specified address. A string representing the device address should be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) method.
+Query for a WSD device discovered by directed discovery at a specified address. A string representing the device address should be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) method.
 
 
 </dt> </dl> </dd> <dt>
@@ -663,7 +668,7 @@ L"Type"
 
 
 
-Query for WSD devices of particular type. A string representing the device type to query should be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) method. The string must be a URI that specifies the namespace and the type.
+Query for WSD devices of particular type. A string representing the device type to query should be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) method. The string must be a URI that specifies the namespace and the type.
 
 For example, to query for WSD devices of type "IBlinds" defined in the namespace "http://www.fabrikam.com/remotecontrolhome/Multi", pass the string "http://www.fabrikam.com/remotecontrolhome/Multi/IBlinds" to *pszConstraintValue*.
 
@@ -678,7 +683,7 @@ L"SSLClientAuthCert"
 
 
 
-Specifies what client authentication certificate should be used for an HTTPS connection to a device that requires client authentication. The constraint value passed through the *pszConstraintValue* parameter of the [**AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) method must be a BASE-64-encoded value of the SHA1 hash of the certificate. The caller needs to have read access to the private key of this client certificate. This query constraint can be used only if the WSD provider is launched inside of the caller’s process (see **FD\_QUERYCONSTRAINT\_COMCLSCONTEXT**).
+Specifies what client authentication certificate should be used for an HTTPS connection to a device that requires client authentication. The constraint value passed through the *pszConstraintValue* parameter of the [**AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) method must be a BASE-64-encoded value of the SHA1 hash of the certificate. The caller needs to have read access to the private key of this client certificate. This query constraint can be used only if the WSD provider is launched inside of the caller s process (see **FD\_QUERYCONSTRAINT\_COMCLSCONTEXT**).
 
 
 </dt> </dl> </dd> <dt>
@@ -691,7 +696,7 @@ L"SecurityRequirements"
 
 
 
-Query for devices based on their security capabilities. One of the following values must be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) method.
+Query for devices based on their security capabilities. One of the following values must be passed to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) method.
 
 <dl> <dt>
 
@@ -717,8 +722,8 @@ Only devices that both sign their discovery messages using the compact signature
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>FunctionDiscoveryConstraints.h</dt> </dl> |
 
 
@@ -730,9 +735,9 @@ Only devices that both sign their discovery messages using the compact signature
 [Constraints](constraints.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

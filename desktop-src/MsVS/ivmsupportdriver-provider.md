@@ -1,8 +1,13 @@
 ---
 title: IVMSupportDriver Provider property
-description: The Provider property contains the name of the driver's provider.
-ms.assetid: '488e6568-3ab3-46dd-b34f-cfdd12abefe5'
-keywords: ["Provider property Virtual Server", "Provider property Virtual Server , IVMSupportDriver interface", "IVMSupportDriver interface Virtual Server , Provider property", "Provider property Virtual Server , VMSupportDriver interface", "VMSupportDriver interface Virtual Server , Provider property"]
+description: The Provider property contains the name of the drivers provider.
+ms.assetid: 488e6568-3ab3-46dd-b34f-cfdd12abefe5
+keywords:
+- Provider property Virtual Server
+- Provider property Virtual Server , IVMSupportDriver interface
+- IVMSupportDriver interface Virtual Server , Provider property
+- Provider property Virtual Server , VMSupportDriver interface
+- VMSupportDriver interface Virtual Server , Provider property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSupportDriver::Provider property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Provider(
-  [out] BSTR *provider
+  [out] BSTR *provider
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMSupportDriver**](ivmsupportdriver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FileIo\_V0\_Name class is an older version of the event type class for file I/O events. The following syntax is simplified from MOF code.'
-ms.assetid: 'dcbe37f2-6df0-41a5-b85f-dcd06cbd5901'
-title: 'FileIo\_V0\_Name class'
+---
+Description: The FileIo\_V0\_Name class is an older version of the event type class for file I/O events. The following syntax is simplified from MOF code.
+ms.assetid: dcbe37f2-6df0-41a5-b85f-dcd06cbd5901
+title: FileIo\_V0\_Name class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileIo\_V0\_Name class

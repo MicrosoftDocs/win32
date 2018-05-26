@@ -1,7 +1,12 @@
 ---
-Description: 'Multiple language modules can deliver components with several different languages as a single compound file.'
-ms.assetid: '36a2c785-2627-41ec-93c3-f3724d1826e7'
+Description: Multiple language modules can deliver components with several different languages as a single compound file.
+ms.assetid: 36a2c785-2627-41ec-93c3-f3724d1826e7
 title: Multiple Language Merge Modules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multiple Language Merge Modules

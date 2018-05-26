@@ -1,7 +1,12 @@
 ---
 title: Conformant Arrays
 description: The size of a conformant array can vary or conform each time the client passes it to a remote procedure on the server.
-ms.assetid: 'b4aaec77-b7ae-495d-8666-4702017e675f'
+ms.assetid: b4aaec77-b7ae-495d-8666-4702017e675f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Conformant Arrays

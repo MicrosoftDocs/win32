@@ -4,12 +4,15 @@ description: The CIMWin32a provider extends the classes available in the CIMWin3
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '72292141-14A1-48D1-9C8C-BEADC627143E'
-ms.prod: 'windows-server-dev'
+ms.assetid: 72292141-14A1-48D1-9C8C-BEADC627143E
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIMWin32a Provider

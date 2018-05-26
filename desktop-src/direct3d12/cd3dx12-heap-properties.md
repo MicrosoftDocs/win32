@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_HEAP\_PROPERTIES structure
 description: A helper structure to enable easy initialization of a D3D12\_HEAP\_PROPERTIES structure.
-ms.assetid: 'AC759F25-D643-412D-AA83-3A2C040BE64B'
-keywords: ["CD3DX12_HEAP_PROPERTIES structure"]
+ms.assetid: AC759F25-D643-412D-AA83-3A2C040BE64B
+keywords:
+- CD3DX12_HEAP_PROPERTIES structure
 topic_type:
 - apiref
 api_name:
@@ -11,22 +12,27 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_HEAP\_PROPERTIES structure
 
-A helper structure to enable easy initialization of a [**D3D12\_HEAP\_PROPERTIES**](d3d12-heap-properties.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_HEAP\_PROPERTIES**](/windows/win32/D3D12/ns-d3d12-d3d12_heap_properties?branch=master) structure.
 
 ## Syntax
 
 
 ```C++
 struct CD3DX12_HEAP_PROPERTIES  : public D3D12_HEAP_PROPERTIES{
-       CD3DX12_HEAP_PROPERTIES();
-       explicit CD3DX12_HEAP_PROPERTIES(const D3D12_HEAP_PROPERTIES &amp;o);
-       CD3DX12_HEAP_PROPERTIES(D3D12_CPU_PAGE_PROPERTY cpuPageProperty, D3D12_MEMORY_POOL memoryPoolPreference, UINT creationNodeMask = 1, UINT nodeMask = 1);
-       explicit CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE type, UINT creationNodeMask = 1, UINT nodeMask = 1);
-       operator const D3D12_HEAP_PROPERTIES&amp;() const;
+       CD3DX12_HEAP_PROPERTIES();
+       explicit CD3DX12_HEAP_PROPERTIES(const D3D12_HEAP_PROPERTIES &amp;o);
+       CD3DX12_HEAP_PROPERTIES(D3D12_CPU_PAGE_PROPERTY cpuPageProperty, D3D12_MEMORY_POOL memoryPoolPreference, UINT creationNodeMask = 1, UINT nodeMask = 1);
+       explicit CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE type, UINT creationNodeMask = 1, UINT nodeMask = 1);
+       operator const D3D12_HEAP_PROPERTIES&amp;() const;
   bool inline operator==( const D3D12_HEAP_PROPERTIES&amp; l, const D3D12_HEAP_PROPERTIES&amp; r );
   bool inline operator!=( const D3D12_HEAP_PROPERTIES&amp; l, const D3D12_HEAP_PROPERTIES&amp; r );
 };
@@ -48,7 +54,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_HEAP\_PROPERTIES.
 **explicit CD3DX12\_HEAP\_PROPERTIES(const D3D12\_HEAP\_PROPERTIES &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_HEAP\_PROPERTIES, initialized with the contents of another [**D3D12\_HEAP\_PROPERTIES**](d3d12-heap-properties.md) structure.
+Creates a new instance of a CD3DX12\_HEAP\_PROPERTIES, initialized with the contents of another [**D3D12\_HEAP\_PROPERTIES**](/windows/win32/D3D12/ns-d3d12-d3d12_heap_properties?branch=master) structure.
 
 </dd> <dt>
 
@@ -57,9 +63,9 @@ Creates a new instance of a CD3DX12\_HEAP\_PROPERTIES, initialized with the cont
 
 Creates a new instance of a CD3DX12\_HEAP\_PROPERTIES, initializing the following parameters:
 
-[**D3D12\_CPU\_PAGE\_PROPERTY**](d3d12-cpu-page-property.md) cpuPageProperty
+[**D3D12\_CPU\_PAGE\_PROPERTY**](/windows/win32/D3D12/ne-d3d12-d3d12_cpu_page_property?branch=master) cpuPageProperty
 
-[**D3D12\_MEMORY\_POOL**](d3d12-memory-pool.md) memoryPoolPreference
+[**D3D12\_MEMORY\_POOL**](/windows/win32/D3D12/ne-d3d12-d3d12_memory_pool?branch=master) memoryPoolPreference
 
 (opt) UINT creationNodeMask = 1
 
@@ -72,7 +78,7 @@ Creates a new instance of a CD3DX12\_HEAP\_PROPERTIES, initializing the followin
 
 Creates a new instance of a CD3DX12\_HEAP\_PROPERTIES, initializing the following parameters:
 
-[**D3D12\_HEAP\_TYPE**](d3d12-heap-type.md) type
+[**D3D12\_HEAP\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_heap_type?branch=master) type
 
 (opt) UINT creationNodeMask = 1
 
@@ -115,15 +121,15 @@ Tests for inequality between the specified D3D12\_HEAP\_PROPERTIES instances. Im
 
 <dl> <dt>
 
-[**D3D12\_HEAP\_PROPERTIES**](d3d12-heap-properties.md)
+[**D3D12\_HEAP\_PROPERTIES**](/windows/win32/D3D12/ns-d3d12-d3d12_heap_properties?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

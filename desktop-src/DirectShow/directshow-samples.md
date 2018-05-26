@@ -1,7 +1,12 @@
 ---
 Description: DirectShow Samples
-ms.assetid: '4166d5ca-5e02-49f6-bcb1-d448f8175a0c'
+ms.assetid: 4166d5ca-5e02-49f6-bcb1-d448f8175a0c
 title: DirectShow Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectShow Samples
@@ -171,7 +176,7 @@ If there is additional documentation for a sample, the first column of this tabl
 <tr class="even">
 <td>DDrawXCL Sample</td>
 <td>Playback</td>
-<td>Plays video in DirectDraw exclusive full-screen mode, using the [<strong>IDDrawExclModeVideo</strong>](iddrawexclmodevideo.md) interface on the [Overlay Mixer](overlay-mixer-filter.md) filter.</td>
+<td>Plays video in DirectDraw exclusive full-screen mode, using the [<strong>IDDrawExclModeVideo</strong>](/windows/win32/Strmif/nn-strmif-iddrawexclmodevideo?branch=master) interface on the [Overlay Mixer](overlay-mixer-filter.md) filter.</td>
 
 </tr>
 <tr class="odd">
@@ -238,7 +243,7 @@ Requires Windows Vista or later.
 
 
 
- 
+ 
 
 ## Additional Dependencies
 
@@ -255,9 +260,9 @@ Many of the DirectShow samples use a set of common headers and source files loca
 [Setting Up the Build Environment](setting-up-the-build-environment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft ClearType antialiasing is a smoothing method that improves font display resolution over traditional antialiasing.'
-ms.assetid: 'b9896934-1e4f-4ae1-922a-ef30e0edf94f'
+Description: Microsoft ClearType antialiasing is a smoothing method that improves font display resolution over traditional antialiasing.
+ms.assetid: b9896934-1e4f-4ae1-922a-ef30e0edf94f
 title: ClearType Antialiasing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClearType Antialiasing
@@ -56,10 +61,10 @@ You should consider the following details for application compatibility:
 -   Applications should not use XOR to display selected text. Applications should set the background color and redisplay the selected text.
 -   Applications should not paint the same text on top of itself in transparent mode. If this occurs, the edge pixels that are antialiased will color merge with themselves instead of with the background color. This results in darkened and colorful edges.
 -   Applications should not paint text by painting the characters individually when in opaque mode because the edge of a character may be clipped by the following character. This occurs because a character that is smoothed with ClearType may have a negative A or C width where the regular character has a positive A or C width. Only the B width of the character is guaranteed to be the same. Likewise, applications should be careful if smoothed text is next to unsmoothed text.
--   If an application renders text and then manipulates the bitmap, font smoothing should be turned off by setting the **lfQuality** member of the [**LOGFONT**](logfont.md) structure to NONANTIALIASED\_QUALITY. For example, a game may add a bitmap shadow effect, or text rendered into a bitmap may be scaled to produce a thumbview.
+-   If an application renders text and then manipulates the bitmap, font smoothing should be turned off by setting the **lfQuality** member of the [**LOGFONT**](/windows/win32/Wingdi/ns-wingdi-taglogfonta?branch=master) structure to NONANTIALIASED\_QUALITY. For example, a game may add a bitmap shadow effect, or text rendered into a bitmap may be scaled to produce a thumbview.
 -   If the user is running in portrait mode (that is, monitor striping is horizontal) ClearType antialiasing should be disabled.
 
-The *fdwQuality* parameter in [**CreateFont**](createfont.md) and the **lfQuality** member of [**LOGFONT**](logfont.md) accept the CLEARTYPE\_QUALITY flag. Rasterization of fonts created with this flag will use the ClearType rasterizer. This flag has no effect on previous versions of the operating system.
+The *fdwQuality* parameter in [**CreateFont**](/windows/win32/Wingdi/nf-wingdi-createfonta?branch=master) and the **lfQuality** member of [**LOGFONT**](/windows/win32/Wingdi/ns-wingdi-taglogfonta?branch=master) accept the CLEARTYPE\_QUALITY flag. Rasterization of fonts created with this flag will use the ClearType rasterizer. This flag has no effect on previous versions of the operating system.
 
  
 

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'EB0F515D-A2FF-4744-ABC8-8FFD9DD08F24'
-title: 'IBidiAsyncNotifyChannel::GetChannelNotificationType method'
+---
+Description: .
+ms.assetid: EB0F515D-A2FF-4744-ABC8-8FFD9DD08F24
+title: IBidiAsyncNotifyChannelGetChannelNotificationType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiAsyncNotifyChannel::GetChannelNotificationType method

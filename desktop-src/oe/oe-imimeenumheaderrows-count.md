@@ -1,8 +1,11 @@
 ---
 title: IMimeEnumHeaderRows Count method
 description: On success, obtains the total number of elements in the enumerator object.
-ms.assetid: '35f89513-a06e-43a1-aa6d-364facce0273'
-keywords: ["Count method Windows Mail (formerly Outlook Express)", "Count method Windows Mail (formerly Outlook Express) , IMimeEnumHeaderRows interface", "IMimeEnumHeaderRows interface Windows Mail (formerly Outlook Express) , Count method"]
+ms.assetid: 35f89513-a06e-43a1-aa6d-364facce0273
+keywords:
+- Count method Windows Mail (formerly Outlook Express)
+- Count method Windows Mail (formerly Outlook Express) , IMimeEnumHeaderRows interface
+- IMimeEnumHeaderRows interface Windows Mail (formerly Outlook Express) , Count method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeEnumHeaderRows::Count method
@@ -24,7 +32,7 @@ On success, obtains the total number of elements in the enumerator object.
 
 ```C++
 HRESULT Count(
-  [out] ULONG *pcItems
+  [out] ULONG *pcItems
 );
 ```
 
@@ -58,7 +66,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -75,9 +83,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

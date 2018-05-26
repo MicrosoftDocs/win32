@@ -1,14 +1,20 @@
 ---
 title: RWTexture2DArray
 description: A read/write resource.
-ms.assetid: '6a6f3655-f1c0-4d5b-91a2-d79da65858b8'
-keywords: ["RWTexture2DArray HLSL"]
+ms.assetid: 6a6f3655-f1c0-4d5b-91a2-d79da65858b8
+keywords:
+- RWTexture2DArray HLSL
 topic_type:
 - apiref
 api_name:
 - RWTexture2DArray
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RWTexture2DArray

@@ -4,11 +4,15 @@ description: When using ActiveX Directory Objects (ADO) with the LDAP dialect, t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'adda9cf7-6588-48ee-85e2-fddbaf28807b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: adda9cf7-6588-48ee-85e2-fddbaf28807b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ADO LDAP Ranging Dialect ADSI"]
+keywords:
+- ADO LDAP Ranging Dialect ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADO LDAP Ranging Dialect

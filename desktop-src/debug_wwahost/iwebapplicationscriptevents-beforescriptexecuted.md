@@ -1,7 +1,12 @@
 ---
-Description: 'Fired before any script is executed on the page.'
-ms.assetid: 'dfb3cc08-e166-455a-b26b-e6f36b394df0'
-title: 'IWebApplicationScriptEvents::BeforeScriptExecuted method'
+Description: Fired before any script is executed on the page.
+ms.assetid: dfb3cc08-e166-455a-b26b-e6f36b394df0
+title: IWebApplicationScriptEventsBeforeScriptExecuted method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWebApplicationScriptEvents::BeforeScriptExecuted method
@@ -13,8 +18,8 @@ Fired before any script is executed on the page.
 
 ```C++
 HRESULT BeforeScriptExecuted(
-  [in] IHTMLWindow2  *htmlWindow,
-  [in] IActiveScript *scriptEngine
+  [in] IHTMLWindow2  *htmlWindow,
+  [in] IActiveScript *scriptEngine
 );
 ```
 
@@ -54,8 +59,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                    |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                          |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                    |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                          |
 | IDL<br/>                      | <dl> <dt>Webapplication.idl</dt> </dl> |
 
 
@@ -64,12 +69,12 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IWebApplicationScriptEvents**](iwebapplicationscriptevents.md)
+[**IWebApplicationScriptEvents**](/windows/previous-versions/webapplication/nn-webapplication-iwebapplicationscriptevents?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

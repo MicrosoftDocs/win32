@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Count property returns the number of queued fax jobs associated with the connected fax server.'
-ms.assetid: 'a6760eb2-f98c-41f5-84c5-698a512038e2'
-title: 'FaxJobs.Count property'
+---
+Description: The Count property returns the number of queued fax jobs associated with the connected fax server.
+ms.assetid: a6760eb2-f98c-41f5-84c5-698a512038e2
+title: FaxJobs.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobs.Count property

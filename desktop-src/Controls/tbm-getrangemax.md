@@ -1,8 +1,9 @@
 ---
 title: TBM\_GETRANGEMAX message
 description: Retrieves the maximum position for the slider in a trackbar.
-ms.assetid: 'c0ae5f96-f4ce-46cd-84d0-9e7c473441a0'
-keywords: ["TBM_GETRANGEMAX message Windows Controls"]
+ms.assetid: c0ae5f96-f4ce-46cd-84d0-9e7c473441a0
+keywords:
+- TBM_GETRANGEMAX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_GETRANGEMAX message
@@ -37,8 +43,8 @@ Returns a 32-bit value that specifies the maximum position in the trackbar's ran
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -59,9 +65,9 @@ Returns a 32-bit value that specifies the maximum position in the trackbar's ran
 [**TBM\_SETRANGEMAX**](tbm-setrangemax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

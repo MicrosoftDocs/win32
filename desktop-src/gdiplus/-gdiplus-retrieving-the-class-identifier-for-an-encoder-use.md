@@ -1,7 +1,12 @@
 ---
-Description: 'The function GetEncoderClsid in the following example receives the MIME type of an encoder and returns the class identifier (CLSID) of that encoder.'
-ms.assetid: 'f78dac7c-4bc1-4614-8a26-d99d5619399a'
+Description: The function GetEncoderClsid in the following example receives the MIME type of an encoder and returns the class identifier (CLSID) of that encoder.
+ms.assetid: f78dac7c-4bc1-4614-8a26-d99d5619399a
 title: Retrieving the Class Identifier for an Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Class Identifier for an Encoder
@@ -14,7 +19,7 @@ The function GetEncoderClsid in the following example receives the MIME type of 
 -   image/tiff
 -   image/png
 
-The function calls [**GetImageEncoders**](-gdiplus-func-getimageencoders-numencoders-size-encoders-.md) to get an array of [**ImageCodecInfo**](-gdiplus-class-imagecodecinfo-class.md) objects. If one of the **ImageCodecInfo** objects in that array represents the requested encoder, the function returns the index of the **ImageCodecInfo** object and copies the **CLSID** into the variable pointed to by **pClsid**. If the function fails, it returns –1.
+The function calls [**GetImageEncoders**](/windows/win32/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders?branch=master) to get an array of [**ImageCodecInfo**](/windows/win32/Gdiplusimaging/?branch=master) objects. If one of the **ImageCodecInfo** objects in that array represents the requested encoder, the function returns the index of the **ImageCodecInfo** object and copies the **CLSID** into the variable pointed to by **pClsid**. If the function fails, it returns –1.
 
 
 ```

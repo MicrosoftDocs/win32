@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter GetMoveCause
 description: IAgentCharacter GetMoveCause
-ms.assetid: '36cdd3bc-65b6-469f-9344-93403c1d24e0'
+ms.assetid: 36cdd3bc-65b6-469f-9344-93403c1d24e0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::GetMoveCause
@@ -37,7 +42,7 @@ Address of a variable that receives the cause of the character's last move and w
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -46,9 +51,9 @@ Address of a variable that receives the cause of the character's last move and w
 [**IAgentNotifySink::Move**](iagentnotifysink--move.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

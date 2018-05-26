@@ -4,10 +4,13 @@ description: The Group Policy Management Console (GPMC) enables you to transfer 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f4a14a75-50f2-4f42-9c11-fc15856a469c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: f4a14a75-50f2-4f42-9c11-fc15856a469c
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Copying and Importing GPOs Across Domains

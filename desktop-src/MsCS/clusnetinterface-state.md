@@ -4,11 +4,14 @@ description: State of a network interface.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3bc6bec3-bfe4-4ab4-8ad3-c42eba6d7cba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3bc6bec3-bfe4-4ab4-8ad3-c42eba6d7cba
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["State property Failover Cluster", "State property Failover Cluster , ClusNetInterface object", "ClusNetInterface object Failover Cluster , State property"]
+keywords:
+- State property Failover Cluster
+- State property Failover Cluster , ClusNetInterface object
+- ClusNetInterface object Failover Cluster , State property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusNetInterface.State property
@@ -38,7 +44,7 @@ ClusNetInterface.State
 
 ## Property value
 
-**Long** representing the network interface's state with one of the following values enumerated by the [**CLUSTER\_NETINTERFACE\_STATE**](cluster-netinterface-state.md) enumeration.
+**Long** representing the network interface's state with one of the following values enumerated by the [**CLUSTER\_NETINTERFACE\_STATE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_netinterface_state?branch=master) enumeration.
 
 <dt>
 
@@ -108,7 +114,7 @@ For information on making constants defined by the Cluster Automation Server typ
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -124,15 +130,15 @@ For information on making constants defined by the Cluster Automation Server typ
 [**ClusNetInterface**](clusnetinterface-object.md)
 </dt> <dt>
 
-[**CLUSTER\_NETINTERFACE\_STATE**](cluster-netinterface-state.md)
+[**CLUSTER\_NETINTERFACE\_STATE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_netinterface_state?branch=master)
 </dt> <dt>
 
-[**GetClusterNetInterfaceState**](getclusternetinterfacestate.md)
+[**GetClusterNetInterfaceState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_net_interface_state?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

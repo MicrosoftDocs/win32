@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the flexible vertex format (FVF) type.'
-ms.assetid: 'e581dcd4-7e17-4c36-aac9-c2942924cf51'
-title: 'ID3DXSkinInfo::SetFVF method'
+---
+Description: Sets the flexible vertex format (FVF) type.
+ms.assetid: e581dcd4-7e17-4c36-aac9-c2942924cf51
+title: ID3DXSkinInfoSetFVF method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSkinInfo::SetFVF method

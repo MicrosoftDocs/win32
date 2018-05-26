@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a session between an iSCSI initiator and an iSCSI target.'
-ms.assetid: '810027C9-0C63-4FCA-9BFA-B2366A7F2BF7'
-title: 'Connect method of the MSFT\_iSCSITarget class'
+---
+Description: Creates a session between an iSCSI initiator and an iSCSI target.
+ms.assetid: 810027C9-0C63-4FCA-9BFA-B2366A7F2BF7
+title: Connect method of the MSFT\_iSCSITarget class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connect method of the MSFT\_iSCSITarget class

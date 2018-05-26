@@ -4,17 +4,21 @@ description: Contains the consent process type and result.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '12C3DEF6-4D54-43A0-9408-018529B3B323'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 12C3DEF6-4D54-43A0-9408-018529B3B323
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSConsent class"]
+keywords:
+- MSConsent class
 topic_type:
 - apiref
 api_name:
 - MSConsent class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSConsent class
@@ -38,7 +42,7 @@ Contains the consent process type and result.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -54,15 +58,15 @@ MSConsent.h
 
 
 
- 
+ 
 
 ## Thread Safety
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

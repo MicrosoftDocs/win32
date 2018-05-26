@@ -4,13 +4,16 @@ description: Enables deduplication on the specified volumes by using default set
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'E9F3E75B-E317-48BB-B841-BAF0D243AB6C'
-ms.prod: 'windows-server-dev'
+ms.assetid: E9F3E75B-E317-48BB-B841-BAF0D243AB6C
+ms.prod: windows-server-dev
 ms.technology:
-- 'data-deduplication'
-- 'windows-management-instrumentation'
+- data-deduplication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Enable method Data Deduplication API", "Enable method Data Deduplication API , MSFT_DedupVolume interface", "MSFT_DedupVolume interface Data Deduplication API , Enable method"]
+keywords:
+- Enable method Data Deduplication API
+- Enable method Data Deduplication API , MSFT_DedupVolume interface
+- MSFT_DedupVolume interface Data Deduplication API , Enable method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DdpWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enable method of the MSFT\_DedupVolume class
@@ -30,10 +36,10 @@ Enables deduplication on the specified volumes by using default settings.
 
 ```mof
 uint32 Enable(
-  [in]  string           Volume[],
-  [in]  boolean          DataAccess,
-  [in]  uint32           UsageType,
-  [out] MSFT_DedupVolume DedupVolume[]
+  [in]  string           Volume[],
+  [in]  boolean          DataAccess,
+  [in]  uint32           UsageType,
+  [out] MSFT_DedupVolume DedupVolume[]
 );
 ```
 
@@ -62,7 +68,7 @@ If **True**, grants data access to deduplicated files on the volume to be enable
 
 The type of data to store on the volume.
 
-**Windows Server 2012:** This parameter is not supported until Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is not supported until Windows Server 2012 R2.
 
 The possible values are:
 
@@ -99,7 +105,7 @@ Hyper-V storage.
 
 Backup storage.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This value is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This value is not supported before Windows Server 2016.
 
 </dd> </dl> </dd> <dt>
 
@@ -120,7 +126,7 @@ The [**MSFT\_DedupVolume**](msft-dedupvolume.md) object references that are retu
 
 Deduplication is disabled by default.
 
-Certain volumes are not supported for data deduplication—such as any volume that is not NTFS or any volume that is smaller than 100 MB. If you attempt to enable data deduplication for unsupported volumes, the call fails.
+Certain volumes are not supported for data deduplication such as any volume that is not NTFS or any volume that is smaller than 100 MB. If you attempt to enable data deduplication for unsupported volumes, the call fails.
 
 ## Examples
 
@@ -133,7 +139,7 @@ For an example that uses the **Enable** method, please see [Data deduplication b
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Deduplication<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>DeduplicationProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DdpWmi.dll</dt> </dl>                |
@@ -150,9 +156,9 @@ For an example that uses the **Enable** method, please see [Data deduplication b
 [**MSFT\_DedupVolume::Disable**](msft-dedupvolume-disable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

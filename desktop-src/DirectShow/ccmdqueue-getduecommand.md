@@ -1,7 +1,12 @@
 ---
-Description: 'The GetDueCommand method retrieves a pointer to the next command that is due.'
-ms.assetid: 'f23434a6-ad2c-4b64-90b1-2f486a16e7e6'
-title: 'CCmdQueue.GetDueCommand method'
+Description: The GetDueCommand method retrieves a pointer to the next command that is due.
+ms.assetid: f23434a6-ad2c-4b64-90b1-2f486a16e7e6
+title: CCmdQueue.GetDueCommand method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCmdQueue.GetDueCommand method
@@ -13,8 +18,8 @@ The `GetDueCommand` method retrieves a pointer to the next command that is due.
 
 ```C++
 virtual HRESULT GetDueCommand(
-   CDeferredCommand **ppCmd,
-   long             msTimeout
+   CDeferredCommand **ppCmd,
+   long             msTimeout
 );
 ```
 
@@ -64,9 +69,9 @@ This member function blocks until a pending command is due. The member function 
 [**CCmdQueue Class**](ccmdqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: Client Application Reference
 description: Functions, structures, and other types that you can use to build client applications that interact with the Windows Biometric Framework.
-ms.assetid: '3a4e1aec-b92e-445e-b597-886b01a1b267'
-keywords: ["Windows Biometric Framework API Windows Biometric Framework API , client application reference"]
+ms.assetid: 3a4e1aec-b92e-445e-b597-886b01a1b267
+keywords:
+- Windows Biometric Framework API Windows Biometric Framework API , client application reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Application Reference
@@ -24,7 +30,7 @@ The following topics contain functions, structures, and other types that you can
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -33,9 +39,9 @@ The following topics contain functions, structures, and other types that you can
 [Windows Biometric Framework API Reference](biometric-service-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

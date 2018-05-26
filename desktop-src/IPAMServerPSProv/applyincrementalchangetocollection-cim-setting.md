@@ -1,15 +1,18 @@
 ---
-Description: 'Applies the subset of the properties in the setting to a collection of managed system elements.'
+Description: Applies the subset of the properties in the setting to a collection of managed system elements.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7994165a-80cf-4cb0-b1c6-c86c4622cfa7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7994165a-80cf-4cb0-b1c6-c86c4622cfa7
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ApplyIncrementalChangeToCollection method of the CIM\_Setting class'
+title: ApplyIncrementalChangeToCollection method of the CIM\_Setting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ApplyIncrementalChangeToCollection method of the CIM\_Setting class
@@ -21,12 +24,12 @@ Applies the subset of the properties in the setting to a collection of managed s
 
 ```mof
 uint32 ApplyIncrementalChangeToCollection(
-  [in]  CIM_CollectionOfMSEs REF Collection,
-  [in]  datetime                 TimeToApply,
-  [in]  boolean                  ContinueOnError,
-  [in]  datetime                 MustBeCompletedBy,
-  [in]  string                   PropertiesToApply[],
-  [out] string                   CanNotApply[]
+  [in]  CIM_CollectionOfMSEs REF Collection,
+  [in]  datetime                 TimeToApply,
+  [in]  boolean                  ContinueOnError,
+  [in]  datetime                 MustBeCompletedBy,
+  [in]  string                   PropertiesToApply[],
+  [out] string                   CanNotApply[]
 );
 ```
 
@@ -58,7 +61,7 @@ The time or time interval to verify with the setting.
 > [!Note]  
 > For each failed application of the setting, the corresponding managed system element is added to the **CanNotApply** array.
 
- 
+ 
 
 </dd> <dt>
 
@@ -128,7 +131,7 @@ There was an error using the **ContinueOnError** property value.
 
 </dt> <dd>
 
-4–...
+4 ...
 
 Any other error.
 
@@ -141,7 +144,7 @@ Any other error.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -155,9 +158,9 @@ Any other error.
 [**CIM\_Setting**](cim-setting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

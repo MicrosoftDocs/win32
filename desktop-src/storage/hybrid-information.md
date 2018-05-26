@@ -1,8 +1,10 @@
 ---
 title: HYBRID\_INFORMATION structure
 description: The HYBRID\_INFORMATION structure contains hybrid disk capability information.
-ms.assetid: '5CD8E422-8CEE-43E8-9703-520FDBE6BF5E'
-keywords: ["HYBRID_INFORMATION structure Storage Devices", "PHYBRID_INFORMATION structure pointer Storage Devices"]
+ms.assetid: 5CD8E422-8CEE-43E8-9703-520FDBE6BF5E
+keywords:
+- HYBRID_INFORMATION structure Storage Devices
+- PHYBRID_INFORMATION structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Ntddscsi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HYBRID\_INFORMATION structure
@@ -22,26 +29,26 @@ The **HYBRID\_INFORMATION** structure contains hybrid disk capability informatio
 
 ```C++
 typedef struct _HYBRID_INFORMATION {
-  ULONG          Version;
-  ULONG          Size;
-  BOOLEAN        HybridSupported;
+  ULONG          Version;
+  ULONG          Size;
+  BOOLEAN        HybridSupported;
   NVCACHE_STATUS Status;
-  NVCACHE_TYPE   CacheTypeEffective;
-  NVCACHE_TYPE   CacheTypeDefault;
-  ULONG          FractionBase;
-  ULONGLONG      CacheSize;
+  NVCACHE_TYPE   CacheTypeEffective;
+  NVCACHE_TYPE   CacheTypeDefault;
+  ULONG          FractionBase;
+  ULONGLONG      CacheSize;
   struct {
     ULONG WriteCacheChangeable  :1;
     ULONG WriteThroughIoSupported  :1;
     ULONG FlushCacheSupported  :1;
     ULONG Removable  :1;
     ULONG ReservedBits  :28;
-  } Attributes;
+  } Attributes;
   struct {
-    UCHAR                             PriorityLevelCount;
-    BOOLEAN                           MaxPriorityBehavior;
-    ULONG                             DirtyThresholdLow;
-    ULONG                             DirtyThresholdHigh;
+    UCHAR                             PriorityLevelCount;
+    BOOLEAN                           MaxPriorityBehavior;
+    ULONG                             DirtyThresholdLow;
+    ULONG                             DirtyThresholdHigh;
     struct {
       ULONG CacheDisable  :1;
       ULONG SetDirtyThreshold  :1;
@@ -52,9 +59,9 @@ typedef struct _HYBRID_INFORMATION {
       ULONG MaxEvictCommands;
       ULONG MaxLbaRangeCountForEvict;
       ULONG MaxLbaRangeCountForChangeLba;
-    } SupportedCommands;
+    } SupportedCommands;
     NVCACHE_PRIORITY_LEVEL_DESCRIPTOR Priority[];
-  } Priorities;
+  } Priorities;
 } HYBRID_INFORMATION, *PHYBRID_INFORMATION;
 ```
 
@@ -101,7 +108,7 @@ The status of the hybrid disk cache. This contains one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -121,7 +128,7 @@ The non-volatile caching type currently set for hybrid disk. The effective cache
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -306,7 +313,7 @@ An array of priority level descriptors. The number of descriptors present in the
 
 |                    |                                                                                                            |
 |--------------------|------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Available starting with Windows 8.1.<br/>                                                            |
+| Version<br/> | Available starting with Windows 8.1.<br/>                                                            |
 | Header<br/>  | <dl> <dt>Ntddscsi.h (include Ntddscsi.h)</dt> </dl> |
 
 
@@ -318,9 +325,9 @@ An array of priority level descriptors. The number of descriptors present in the
 [**IOCTL\_SCSI\_MINIPORT\_HYBRID**](ioctl-scsi-miniport-hybrid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20HYBRID_INFORMATION%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

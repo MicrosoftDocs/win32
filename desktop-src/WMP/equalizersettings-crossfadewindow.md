@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.crossFadeWindow
 description: The crossFadeWindow attribute specifies or retrieves the amount of cross-fade overlap in milliseconds.
-ms.assetid: '312ec02a-8ac9-4011-945b-e56cf06c71c2'
-keywords: ["EQUALIZERSETTINGS.crossFadeWindow Windows Media Player"]
+ms.assetid: 312ec02a-8ac9-4011-945b-e56cf06c71c2
+keywords:
+- EQUALIZERSETTINGS.crossFadeWindow Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.crossFadeWindow
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.crossFadeWindow
@@ -43,9 +49,9 @@ This attribute is a read/write **Number** (**long**) ranging from 0 to 10,000 wi
 [**EQUALIZERSETTINGS.crossFade**](equalizersettings-crossfade.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

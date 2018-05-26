@@ -1,7 +1,12 @@
 ---
 title: System Pool Behavior
 description: Discussion about the actions taken by the system pool when event notices are sent and when no biometric operations are pending.
-ms.assetid: 'cc1f8ffa-ce69-48ff-8509-81d85807d12a'
+ms.assetid: cc1f8ffa-ce69-48ff-8509-81d85807d12a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Pool Behavior

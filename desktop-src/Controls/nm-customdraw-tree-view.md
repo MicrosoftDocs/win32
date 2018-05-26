@@ -1,8 +1,9 @@
 ---
 title: NM\_CUSTOMDRAW (tree view) notification code
 description: Sent by a tree-view control to notify its parent window about drawing operations. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'eafe2427-20eb-4f3b-9407-bece897ffe16'
-keywords: ["NM_CUSTOMDRAW (tree view) notification code Windows Controls"]
+ms.assetid: eafe2427-20eb-4f3b-9407-bece897ffe16
+keywords:
+- NM_CUSTOMDRAW (tree view) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_CUSTOMDRAW (tree view) notification code
@@ -33,13 +39,13 @@ NM_CUSTOMDRAW
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTVCUSTOMDRAW**](nmtvcustomdraw.md) structure that contains and receives information about the drawing operation. The **dwItemSpec** member of the **nmcd** member of this structure contains the handle of the item being drawn. The **lItemlParam** member of the **nmcd** member of this structure contains the *lParam* of the item being drawn.
+Pointer to an [**NMTVCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmtvcustomdraw?branch=master) structure that contains and receives information about the drawing operation. The **dwItemSpec** member of the **nmcd** member of this structure contains the handle of the item being drawn. The **lItemlParam** member of the **nmcd** member of this structure contains the *lParam* of the item being drawn.
 
 </dd> </dl>
 
 ## Return value
 
-The value your application can return depends on the current drawing stage. The **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](nmcustomdraw.md) structure holds a value that specifies the drawing stage. You must return one of the following values.
+The value your application can return depends on the current drawing stage. The **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmcustomdrawinfo?branch=master) structure holds a value that specifies the drawing stage. You must return one of the following values.
 
 
 
@@ -55,7 +61,7 @@ The value your application can return depends on the current drawing stage. The 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,8 +73,8 @@ The value your application can return depends on the current drawing stage. The 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -80,9 +86,9 @@ The value your application can return depends on the current drawing stage. The 
 [Using Custom Draw](custom-draw.md#customdraw-processingnm-customdraw)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

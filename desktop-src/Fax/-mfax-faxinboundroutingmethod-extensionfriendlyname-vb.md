@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ExtensionFriendlyName property is the user-friendly name for the fax routing extension that exports the inbound fax routing method.'
-ms.assetid: '18ac6da5-9411-4d38-a366-aacb046c7ec8'
-title: 'FaxInboundRoutingMethod.ExtensionFriendlyName property'
+---
+Description: The ExtensionFriendlyName property is the user-friendly name for the fax routing extension that exports the inbound fax routing method.
+ms.assetid: 18ac6da5-9411-4d38-a366-aacb046c7ec8
+title: FaxInboundRoutingMethod.ExtensionFriendlyName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingMethod.ExtensionFriendlyName property
@@ -46,7 +51,7 @@ A **String** that receives the user-friendly name for the fax routing extension 
 [**FaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod-cpp.md)
+[**IFaxInboundRoutingMethod**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingmethod?branch=master)
 </dt> </dl>
 
  

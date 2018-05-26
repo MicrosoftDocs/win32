@@ -4,11 +4,15 @@ description: When there is the possibility that the result set that will be retu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1439d6b8-50dd-4d37-bcc9-dd0f63af865f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1439d6b8-50dd-4d37-bcc9-dd0f63af865f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Retrieving Large Results Sets ADSI"]
+keywords:
+- Retrieving Large Results Sets ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Retrieving Large Results Sets

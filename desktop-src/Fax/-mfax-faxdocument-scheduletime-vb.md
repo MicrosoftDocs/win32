@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ScheduleTime property indicates the time to submit the fax for processing to the fax service.'
-ms.assetid: '5c86118c-c20b-4602-b195-a5cfc585ff68'
-title: 'FaxDocument.ScheduleTime property'
+---
+Description: The ScheduleTime property indicates the time to submit the fax for processing to the fax service.
+ms.assetid: 5c86118c-c20b-4602-b195-a5cfc585ff68
+title: FaxDocument.ScheduleTime property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.ScheduleTime property
@@ -27,7 +32,7 @@ A **Date** that specifies or receives the hour and minute, expressed in UTC, whe
 
 If the time specified has passed, the fax service sends the fax as soon as a device is available. By default, **ScheduleTime** is set to zero, meaning that no time is specified.
 
-Note that the fax service ignores this parameter unless you set the [**ScheduleType**](-mfax-faxdocument-scheduletype-vb.md) property to [****fstSpecific\_TIME****](-mfax-fax-schedule-type-enum.md).
+Note that the fax service ignores this parameter unless you set the [**ScheduleType**](-mfax-faxdocument-scheduletype-vb.md) property to [****fstSpecific\_TIME****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_schedule_type_enum?branch=master).
 
 > [!Note]  
 > The value of the **ScheduleTime** property must include the date and time for submitting the fax.
@@ -57,7 +62,7 @@ Note that the fax service ignores this parameter unless you set the [**ScheduleT
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

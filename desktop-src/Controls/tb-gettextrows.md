@@ -1,8 +1,9 @@
 ---
 title: TB\_GETTEXTROWS message
 description: Retrieves the maximum number of text rows that can be displayed on a toolbar button.
-ms.assetid: 'a7950e5f-c80a-4af2-9ccd-d8e3df5552d2'
-keywords: ["TB_GETTEXTROWS message Windows Controls"]
+ms.assetid: a7950e5f-c80a-4af2-9ccd-d8e3df5552d2
+keywords:
+- TB_GETTEXTROWS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETTEXTROWS message
@@ -37,8 +43,8 @@ Returns an INT value representing the maximum number of text rows that the contr
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns an INT value representing the maximum number of text rows that the contr
 [**TB\_SETMAXTEXTROWS**](tb-setmaxtextrows.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

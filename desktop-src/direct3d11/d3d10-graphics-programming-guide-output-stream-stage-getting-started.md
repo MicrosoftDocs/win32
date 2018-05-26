@@ -1,7 +1,12 @@
 ---
 title: Getting Started with the Stream-Output Stage
 description: This section describes how to use a geometry shader with the stream output stage.
-ms.assetid: '37146486-5922-4833-850c-cc4a51de0957'
+ms.assetid: 37146486-5922-4833-850c-cc4a51de0957
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with the Stream-Output Stage
@@ -148,7 +153,7 @@ defines the output to be a maximum of 12 vertices.</td>
 
 
 
- 
+ 
 
 The rest of the shader looks very similar to a vertex or pixel shader. The geometry shader uses a structure to declare input parameters and marks the position member with the SV\_POSITION semantic to tell the hardware that this is positional data. The input structure identifies the other two input parameters as texture coordinates (even though one of them will contain a face normal). You could use your own custom semantic for the face normal if you prefer.
 
@@ -170,7 +175,7 @@ Just like vertex and pixel shaders, you need a shader flag to tell the compiler 
 
 ## Create a Geometry-Shader Object with Stream Output
 
-Once you know that you will be streaming the data from the geometry, and you have successfully compiled the shader, the next step is to call [**ID3D11Device::CreateGeometryShaderWithStreamOutput**](id3d11device-creategeometryshaderwithstreamoutput.md) to create the geometry shader object.
+Once you know that you will be streaming the data from the geometry, and you have successfully compiled the shader, the next step is to call [**ID3D11Device::CreateGeometryShaderWithStreamOutput**](/windows/win32/D3D11/nf-d3d11-id3d11device-creategeometryshaderwithstreamoutput?branch=master) to create the geometry shader object.
 
 But first, you need to declare the steam output (SO) stage input signature. This signature matches or validates the GS outputs and the SO inputs at the time of object creation. The following code is an example of the SO declaration.
 
@@ -193,15 +198,15 @@ D3D11Device->CreateGeometryShaderWithStreamOut( pShaderBytecode, ShaderBytecodes
 This function takes several parameters including:
 
 -   A pointer to the compiled geometry shader (or vertex shader if no geometry shader will be present and data will be streamed out directly from the vertex shader). For information about how to get this pointer, see [Getting a Pointer to a Compiled Shader](https://msdn.microsoft.com/library/windows/desktop/bb509703).
--   A pointer to an array of declarations that describe the input data for the stream output stage. (See [**D3D11\_SO\_DECLARATION\_ENTRY**](d3d11-so-declaration-entry.md).) You can supply up to 64 declarations, one for each different type of element to be output from the SO stage. The array of declaration entries describes the data layout regardless of whether only a single buffer or multiple buffers are to be bound for stream output.
+-   A pointer to an array of declarations that describe the input data for the stream output stage. (See [**D3D11\_SO\_DECLARATION\_ENTRY**](/windows/win32/D3D11/ns-d3d11-d3d11_so_declaration_entry?branch=master).) You can supply up to 64 declarations, one for each different type of element to be output from the SO stage. The array of declaration entries describes the data layout regardless of whether only a single buffer or multiple buffers are to be bound for stream output.
 -   The number of elements that are written out by the SO stage.
--   A pointer to the geometry shader object that is created (see [**ID3D11GeometryShader**](id3d11geometryshader.md)).
+-   A pointer to the geometry shader object that is created (see [**ID3D11GeometryShader**](/windows/win32/D3D11/?branch=master)).
 
 In this situation, the buffer stride is NULL, the index of the stream to be sent to the rasterizer is 0, and the class linkage interface is NULL.
 
 The stream output declaration defines the way that data is written to a buffer resource. You can add as many components as you want to the output declaration. Use the SO stage to write to a single buffer resource or many buffer resources. For a single buffer, the SO stage can write many different elements per-vertex. For multiple buffers, the SO stage can only write a single element of per-vertex data to each buffer.
 
-To use the SO stage without using a geometry shader, call [**ID3D11Device::CreateGeometryShaderWithStreamOutput**](id3d11device-creategeometryshaderwithstreamoutput.md) and pass a pointer to a vertex shader to the *pShaderBytecode* parameter.
+To use the SO stage without using a geometry shader, call [**ID3D11Device::CreateGeometryShaderWithStreamOutput**](/windows/win32/D3D11/nf-d3d11-id3d11device-creategeometryshaderwithstreamoutput?branch=master) and pass a pointer to a vertex shader to the *pShaderBytecode* parameter.
 
 ## Set the Output Targets
 
@@ -226,9 +231,9 @@ D3D11Device->CreateBuffer( &amp;bufferDesc, NULL, &amp;m_pBuffer );
 
 
 
-Create a buffer by calling [**ID3D11Device::CreateBuffer**](id3d11device-createbuffer.md). This example illustrates default usage, which is typical for a buffer resource that is expected to be updated fairly frequently by the CPU. The binding flag identifies the pipeline stage that the resource can be bound to. Any resource used by the SO stage must also be created with the bind flag D3D10\_BIND\_STREAM\_OUTPUT.
+Create a buffer by calling [**ID3D11Device::CreateBuffer**](/windows/win32/D3D11/nf-d3d11-id3d11device-createbuffer?branch=master). This example illustrates default usage, which is typical for a buffer resource that is expected to be updated fairly frequently by the CPU. The binding flag identifies the pipeline stage that the resource can be bound to. Any resource used by the SO stage must also be created with the bind flag D3D10\_BIND\_STREAM\_OUTPUT.
 
-Once the buffer is successfully created, set it to the current device by calling [**ID3D11DeviceContext::SOSetTargets**](id3d11devicecontext-sosettargets.md):
+Once the buffer is successfully created, set it to the current device by calling [**ID3D11DeviceContext::SOSetTargets**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-sosettargets?branch=master):
 
 
 ```
@@ -238,7 +243,7 @@ D3D11Device->SOSetTargets( 1, &amp;m_pBuffer, offset );
 
 
 
-This call takes the number of buffers, a pointer to the buffers, and an array of offsets (one offset into each of the buffers that indicates where to begin writing data). Data will be written to these streaming-output buffers when a draw function is called. An internal variable keeps track of the position for where to begin writing data to the streaming-output buffers, and that variables will continue to increment until [**SOSetTargets**](id3d11devicecontext-sosettargets.md) is called again and a new offset value is specified.
+This call takes the number of buffers, a pointer to the buffers, and an array of offsets (one offset into each of the buffers that indicates where to begin writing data). Data will be written to these streaming-output buffers when a draw function is called. An internal variable keeps track of the position for where to begin writing data to the streaming-output buffers, and that variables will continue to increment until [**SOSetTargets**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-sosettargets?branch=master) is called again and a new offset value is specified.
 
 All data written out to the target buffers will be 32-bit values.
 
@@ -249,9 +254,9 @@ All data written out to the target buffers will be 32-bit values.
 [Stream-Output Stage](d3d10-graphics-programming-guide-output-stream-stage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

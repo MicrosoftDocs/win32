@@ -1,7 +1,12 @@
-﻿---
-Description: 'A flag that indicates if the fax has been read.'
-ms.assetid: '4ad2446d-a453-41f6-a891-8779a26e8d3a'
-title: 'FaxIncomingMessage.Read property'
+---
+Description: A flag that indicates if the fax has been read.
+ms.assetid: 4ad2446d-a453-41f6-a891-8779a26e8d3a
+title: FaxIncomingMessage.Read property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.Read property
@@ -54,7 +59,7 @@ A change to this value is not committed to the server until [**Save**](-mfax-fax
 [**FaxIncomingMessage**](-mfax-faxincomingmessage.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage2**](-mfax-faxincomingmessage2-cpp.md)
+[**IFaxIncomingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage2?branch=master)
 </dt> </dl>
 
  

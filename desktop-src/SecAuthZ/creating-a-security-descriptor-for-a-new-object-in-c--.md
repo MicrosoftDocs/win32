@@ -1,15 +1,20 @@
 ---
-Description: 'The following example creates a security descriptor for a new registry key using the following process. Similar code can be used to create a security descriptor for other object types.'
-ms.assetid: '866992a7-95c4-4094-87bb-e6d8eeb24317'
+Description: The following example creates a security descriptor for a new registry key using the following process. Similar code can be used to create a security descriptor for other object types.
+ms.assetid: 866992a7-95c4-4094-87bb-e6d8eeb24317
 title: Creating a Security Descriptor for a New Object in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Security Descriptor for a New Object in C++
 
 The following example creates a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) for a new registry key using the following process. Similar code can be used to create a security descriptor for other object types.
 
--   The example fills an array of [**EXPLICIT\_ACCESS**](explicit-access.md) structures with the information for two ACEs. One ACE allows read access to everyone; the other ACE allows full access to administrators.
--   The [**EXPLICIT\_ACCESS**](explicit-access.md) array is passed to the [**SetEntriesInAcl**](setentriesinacl.md) function to create a DACL for the security descriptor.
+-   The example fills an array of [**EXPLICIT\_ACCESS**](/windows/win32/AccCtrl/ns-accctrl-_explicit_access_a?branch=master) structures with the information for two ACEs. One ACE allows read access to everyone; the other ACE allows full access to administrators.
+-   The [**EXPLICIT\_ACCESS**](/windows/win32/AccCtrl/ns-accctrl-_explicit_access_a?branch=master) array is passed to the [**SetEntriesInAcl**](/windows/win32/Aclapi/nf-aclapi-setentriesinacla?branch=master) function to create a DACL for the security descriptor.
 -   After allocating memory for the security descriptor, the example calls the [**InitializeSecurityDescriptor**](initializesecuritydescriptor.md) and [**SetSecurityDescriptorDacl**](setsecuritydescriptordacl.md) functions to initialize the security descriptor and attach the DACL.
 -   The security descriptor is then stored in a SECURITY\_ATTRIBUTES structure and passed to the [**RegCreateKeyEx**](https://msdn.microsoft.com/library/windows/desktop/ms724844) function, which attaches the security descriptor to the newly created key.
 

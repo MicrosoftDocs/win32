@@ -1,8 +1,9 @@
 ---
 title: LVM\_APPROXIMATEVIEWRECT message
 description: Calculates the approximate width and height required to display a given number of items. You can send this message explicitly or use the ListView\_ApproximateViewRect macro.
-ms.assetid: 'a14331a8-217d-48c6-9489-fb90c4d31b91'
-keywords: ["LVM_APPROXIMATEVIEWRECT message Windows Controls"]
+ms.assetid: a14331a8-217d-48c6-9489-fb90c4d31b91
+keywords:
+- LVM_APPROXIMATEVIEWRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_APPROXIMATEVIEWRECT message
 
-Calculates the approximate width and height required to display a given number of items. You can send this message explicitly or use the [**ListView\_ApproximateViewRect**](listview-approximateviewrect.md) macro.
+Calculates the approximate width and height required to display a given number of items. You can send this message explicitly or use the [**ListView\_ApproximateViewRect**](/windows/win32/Commctrl/nf-commctrl-listview_approximateviewrect?branch=master) macro.
 
 ## Parameters
 
@@ -51,15 +57,15 @@ Setting the size of the list-view control based on the dimensions provided by th
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

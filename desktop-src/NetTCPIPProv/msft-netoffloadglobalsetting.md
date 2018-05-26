@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the settings for offloading features for Microsoft TCP/IP WMI v2 provider.'
-ms.assetid: 'e9e57c03-097e-4df2-9cc6-82fef81cb056'
-title: 'MSFT\_NetOffloadGlobalSetting class'
+Description: Represents the settings for offloading features for Microsoft TCP/IP WMI v2 provider.
+ms.assetid: e9e57c03-097e-4df2-9cc6-82fef81cb056
+title: MSFT\_NetOffloadGlobalSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetOffloadGlobalSetting class
@@ -20,13 +25,13 @@ class MSFT_NetOffloadGlobalSetting : MSFT_NetSettingData
   string Description;
   string InstanceID;
   string ElementName;
-  uint8  ReceiveSideScaling;
-  uint8  ReceiveSegmentCoalescing;
-  uint8  Chimney;
-  uint8  TaskOffload;
-  uint8  NetworkDirect;
-  uint8  PacketCoalescingFilter;
-  uint8  NetworkDirectAcrossIPSubnets;
+  uint8  ReceiveSideScaling;
+  uint8  ReceiveSegmentCoalescing;
+  uint8  Chimney;
+  uint8  TaskOffload;
+  uint8  NetworkDirect;
+  uint8  PacketCoalescingFilter;
+  uint8  NetworkDirectAcrossIPSubnets;
 };
 ```
 
@@ -81,7 +86,7 @@ Whether to turn on TCP chimney offload. For information on TCP chimney offload, 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -144,7 +149,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -170,7 +175,7 @@ Whether to turn on NetworkDirect.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -194,7 +199,7 @@ Whether to allow NetworkDirect connectivity outside of the local IP subnet.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -218,7 +223,7 @@ Whether to turn on packet coalescing filters. For information about packet coale
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -242,7 +247,7 @@ Whether to turn on receive segment coalescing (RSC). For information about RSC, 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -266,7 +271,7 @@ Whether to turn on receive side scaling (RSS). For more information about RSS, s
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -290,7 +295,7 @@ Whether to turn on TCP/IP task offload. For information about TCP/IP task offloa
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -300,8 +305,8 @@ Whether to turn on TCP/IP task offload. For information about TCP/IP task offloa
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -330,9 +335,9 @@ Whether to turn on TCP/IP task offload. For information about TCP/IP task offloa
 [NDIS Packet Coalescing](https://msdn.microsoft.com/library/windows/hardware/hh451601)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

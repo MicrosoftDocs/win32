@@ -1,8 +1,9 @@
 ---
 title: MCI\_TMSF\_TRACK macro
 description: The MCI\_TMSF\_TRACK macro retrieves the tracks component from a parameter containing packed tracks/minutes/seconds/frames (TMSF) information.
-ms.assetid: '3455442c-5c66-47c7-b06b-1a2de0e2dfed'
-keywords: ["MCI_TMSF_TRACK macro Windows Multimedia"]
+ms.assetid: 3455442c-5c66-47c7-b06b-1a2de0e2dfed
+keywords:
+- MCI_TMSF_TRACK macro Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_TMSF\_TRACK macro
@@ -22,7 +28,7 @@ The **MCI\_TMSF\_TRACK** macro retrieves the tracks component from a parameter c
 
 ```C++
 BYTE MCI_TMSF_TRACK(
-   DWORD dwTMSF
+   DWORD dwTMSF
 );
 ```
 
@@ -62,8 +68,8 @@ The **MCI\_TMSF\_TRACK** macro is defined as follows:
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -78,9 +84,9 @@ The **MCI\_TMSF\_TRACK** macro is defined as follows:
 [MCI Macros](mci-macros.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.editStyle
 description: The editStyle attribute specifies or retrieves the style of the edit box control.
-ms.assetid: '1b3052c4-3087-4d41-af03-d7758680cc3b'
-keywords: ["EDITBOX.editStyle Windows Media Player"]
+ms.assetid: 1b3052c4-3087-4d41-af03-d7758680cc3b
+keywords:
+- EDITBOX.editStyle Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.editStyle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.editStyle
@@ -36,7 +42,7 @@ This attribute is a read/write **String** containing one of the following values
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,9 +65,9 @@ This attribute can only be set to "password" or "multiline" at design time. If i
 [**EDITBOX Element**](editbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

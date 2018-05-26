@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor SqlDsnName property
 description: Retrieves or sets the ODBC data source name (DSN).
-ms.assetid: '7906204a-a208-42c7-855b-c29689b4d36a'
-keywords: ["SqlDsnName property SysMon", "SqlDsnName property SysMon , SystemMonitor interface", "SystemMonitor interface SysMon , SqlDsnName property"]
+ms.assetid: 7906204a-a208-42c7-855b-c29689b4d36a
+keywords:
+- SqlDsnName property SysMon
+- SqlDsnName property SysMon , SystemMonitor interface
+- SystemMonitor interface SysMon , SqlDsnName property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor::SqlDsnName property
@@ -34,7 +42,7 @@ ODBC data source name that points to a database that contains the correct Perfmo
 
 You must use the Perfmon.msc MMC snap-in to generate the SQL log file. The counter logs are located under **Performance Logs and Alerts**. To specify an SQL log, right-click the log file you created and select **Properties** from the menu. On the **Log Files** property page, select **SQL Database** from the **Log file type** drop-down list box.
 
-**Prior to Windows Vista:** You cannot modify this property if the value of [**SystemMonitor.DataSourceType**](systemmonitor-datasourcetype.md) is set to [**DataSourceTypeConstants.sysmonSqlLog**](datasourcetypeconstants.md). You must first specify the name and then set **SystemMonitor.DataSourceType** to **DataSourceTypeConstants.sysmonSqlLog**.
+**Prior to Windows Vista:** You cannot modify this property if the value of [**SystemMonitor.DataSourceType**](systemmonitor-datasourcetype.md) is set to [**DataSourceTypeConstants.sysmonSqlLog**](/windows/win32/ISysmon/ne-isysmon-edatasourcetypeconstant?branch=master). You must first specify the name and then set **SystemMonitor.DataSourceType** to **DataSourceTypeConstants.sysmonSqlLog**.
 
 ## Requirements
 
@@ -42,8 +50,8 @@ You must use the Perfmon.msc MMC snap-in to generate the SQL log file. The count
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -58,9 +66,9 @@ You must use the Perfmon.msc MMC snap-in to generate the SQL log file. The count
 [**SystemMonitor.SqlLogSetName**](systemmonitor-sqllogsetname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

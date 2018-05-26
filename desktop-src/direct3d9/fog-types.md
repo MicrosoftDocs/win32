@@ -1,7 +1,12 @@
 ---
-Description: 'There are two ways to add fog to a scene: with pixel fog and/or vertex fog.'
-ms.assetid: '96531830-2df1-40d4-af46-09b1ca153834'
-title: 'Fog Types (Direct3D 9)'
+Description: There are two ways to add fog to a scene with pixel fog and/or vertex fog.
+ms.assetid: 96531830-2df1-40d4-af46-09b1ca153834
+title: Fog Types (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fog Types (Direct3D 9)

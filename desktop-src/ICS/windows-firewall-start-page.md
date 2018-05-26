@@ -1,8 +1,16 @@
 ---
 title: Windows Firewall for Windows XP with SP2
 description: Microsoft Windows Firewall helps to protect computers from unsolicited network traffic.
-ms.assetid: '4043a85f-ebdc-424c-acf5-9097d1472773'
-keywords: ["Windows Firewall", "Windows Firewall,start page", "firewall"]
+ms.assetid: 4043a85f-ebdc-424c-acf5-9097d1472773
+keywords:
+- Windows Firewall
+- Windows Firewall,start page
+- firewall
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Firewall for Windows XP with SP2
@@ -12,9 +20,9 @@ keywords: ["Windows Firewall", "Windows Firewall,start page", "firewall"]
 Microsoft Windows Firewall helps to protect computers from unsolicited network traffic. The Windows Firewall APIs make it possible to programmatically manage the features of Windows Firewall by allowing applications to create, enable, and disable firewall exceptions.
 
 > [!Note]  
-> For Windows Vista and later, use of the [Windows Firewall with Advanced Security](windows-firewall-advanced-security-start-page.md) API is recommended.
+> For Windows Vista and later, use of the [Windows Firewall with Advanced Security](windows-firewall-advanced-security-start-page.md) API is recommended.
 
- 
+ 
 
 ## Where applicable
 
@@ -26,7 +34,7 @@ The Windows Firewall API is designed for use by programmers using C/C++, Microso
 
 ## Run-time requirements
 
-The Windows Firewall API is supported on Windows XP with Service Pack 2 (SP2). (For Windows Vista and later, use of the [Windows Firewall with Advanced Security](windows-firewall-advanced-security-start-page.md) API is recommended.) For more specific information about which operating systems support a particular programming element, refer to the Requirements sections in the documentation.
+The Windows Firewall API is supported on Windows XP with Service Pack 2 (SP2). (For Windows Vista and later, use of the [Windows Firewall with Advanced Security](windows-firewall-advanced-security-start-page.md) API is recommended.) For more specific information about which operating systems support a particular programming element, refer to the Requirements sections in the documentation.
 
 ## In this section
 
@@ -40,11 +48,11 @@ The Windows Firewall API is supported on Windows XP with Service Pack 2 (SP2). (
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: show urlacl
 description: Lists DACLs for the specified reserved URL or all reserved URLs.
-ms.assetid: '8428583c-b420-408f-974f-670b6809fa3c'
-keywords: ["show urlacl HTTP"]
+ms.assetid: 8428583c-b420-408f-974f-670b6809fa3c
+keywords:
+- show urlacl HTTP
 topic_type:
 - apiref
 api_name:
 - show urlacl
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # show urlacl

@@ -1,11 +1,14 @@
 ---
-Description: 'Asynchronously retrieves server components from a VHD for the specified deployment request.'
+Description: Asynchronously retrieves server components from a VHD for the specified deployment request.
 audience: developer
-ms.assetid: '118c85c1-03f5-4868-9d33-e928968c1809'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 118c85c1-03f5-4868-9d33-e928968c1809
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetServerComponentsVhdAsync method of the MSFT\_ServerManagerDeploymentTasks class'
+title: GetServerComponentsVhdAsync method of the MSFT\_ServerManagerDeploymentTasks class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetServerComponentsVhdAsync method of the MSFT\_ServerManagerDeploymentTasks class
@@ -17,10 +20,10 @@ Asynchronously retrieves server components from a VHD for the specified deployme
 
 ```mof
 uint32 GetServerComponentsVhdAsync(
-  [in]  MSFT_ServerManagerRequestGuid     RequestGuid,
-  [in]  String                            VhdPath,
-  [out] MSFT_ServerManagerRequestState    EnumerationState,
-  [out] MSFT_ServerManagerServerComponent ServerComponents[]
+  [in]  MSFT_ServerManagerRequestGuid     RequestGuid,
+  [in]  String                            VhdPath,
+  [out] MSFT_ServerManagerRequestState    EnumerationState,
+  [out] MSFT_ServerManagerServerComponent ServerComponents[]
 );
 ```
 
@@ -65,7 +68,7 @@ An array that receives the unique names of the server components.
 |                                     |                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                                  |
 | MOF<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.dll</dt> </dl> |
@@ -79,9 +82,9 @@ An array that receives the unique names of the server components.
 [**MSFT\_ServerManagerDeploymentTasks**](msft-servermanagerdeploymenttasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

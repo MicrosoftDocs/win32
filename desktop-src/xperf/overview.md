@@ -1,8 +1,14 @@
 ---
 title: Overview
 description: Overview
-ms.assetid: '6a3fa9a3-2326-41c1-b331-152e0c91cb28'
-keywords: ["trace files"]
+ms.assetid: 6a3fa9a3-2326-41c1-b331-152e0c91cb28
+keywords:
+- trace files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview

@@ -1,14 +1,20 @@
 ---
 title: weeksType Complex Type
 description: Defines the child element and sequencing information for the Week element.
-ms.assetid: 'c9e8814c-b8f9-426d-943d-ca3efa5d914b'
-keywords: ["weeksType complex type Task Scheduler"]
+ms.assetid: c9e8814c-b8f9-426d-943d-ca3efa5d914b
+keywords:
+- weeksType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - weeksType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # weeksType Complex Type
@@ -43,8 +49,8 @@ Defines the child element and sequencing information for the [**Week**](tasksche
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -55,9 +61,9 @@ Defines the child element and sequencing information for the [**Week**](tasksche
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

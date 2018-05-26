@@ -1,22 +1,27 @@
 ---
-Description: 'The SetPositions method sets the current position and the stop position. This method implements the IMediaSeeking::SetPositions method.'
-ms.assetid: '4359fe1f-f922-4a4d-beaa-8e13c72f407c'
-title: 'CSourceSeeking.SetPositions method'
+Description: The SetPositions method sets the current position and the stop position. This method implements the IMediaSeekingSetPositions method.
+ms.assetid: 4359fe1f-f922-4a4d-beaa-8e13c72f407c
+title: CSourceSeeking.SetPositions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.SetPositions method
 
-The `SetPositions` method sets the current position and the stop position. This method implements the [**IMediaSeeking::SetPositions**](imediaseeking-setpositions.md) method.
+The `SetPositions` method sets the current position and the stop position. This method implements the [**IMediaSeeking::SetPositions**](/windows/win32/Strmif/nf-strmif-imediaseeking-setpositions?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetPositions(
-   LONGLONG *pCurrent,
-   DWORD    CurrentFlags,
-   LONGLONG *pStop,
-   DWORD    StopFlags
+   LONGLONG *pCurrent,
+   DWORD    CurrentFlags,
+   LONGLONG *pStop,
+   DWORD    StopFlags
 );
 ```
 
@@ -68,7 +73,7 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,7 +84,7 @@ The following flags are supported:
 -   AM\_SEEKING\_RelativePositioning
 -   AM\_SEEKING\_IncrementalPositioning (*pStop* only)
 
-For more information, see [**IMediaSeeking::SetPositions**](imediaseeking-setpositions.md).
+For more information, see [**IMediaSeeking::SetPositions**](/windows/win32/Strmif/nf-strmif-imediaseeking-setpositions?branch=master).
 
 This method updates the values of the [**CSourceSeeking::m\_rtStart**](csourceseeking-m-rtstart.md) and [**CSourceSeeking::m\_rtStop**](csourceseeking-m-rtstop.md) member variables, and then calls the pure virtual methods [**CSourceSeeking::ChangeStart**](csourceseeking-changestart.md) and [**CSourceSeeking::ChangeStop**](csourceseeking-changestop.md).
 
@@ -101,9 +106,9 @@ This method updates the values of the [**CSourceSeeking::m\_rtStart**](csourcese
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

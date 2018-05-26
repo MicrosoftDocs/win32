@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DOCUMENTPROPERTYHEADER structure is used as an input parameter to a printer interface DLL''s DrvDocumentPropertySheets function.'
-ms.assetid: '5aaf1f90-fb75-4e5a-9316-9212a21b8fed'
+---
+Description: The DOCUMENTPROPERTYHEADER structure is used as an input parameter to a printer interface DLLs DrvDocumentPropertySheets function.
+ms.assetid: 5aaf1f90-fb75-4e5a-9316-9212a21b8fed
 title: DOCUMENTPROPERTYHEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOCUMENTPROPERTYHEADER structure

@@ -1,7 +1,12 @@
 ---
-Description: 'The following syntax illustrates the creation of a cabinet.'
-ms.assetid: 'd9d0e14a-f68c-4b3d-b91d-a3fa824031ea'
+Description: The following syntax illustrates the creation of a cabinet.
+ms.assetid: d9d0e14a-f68c-4b3d-b91d-a3fa824031ea
 title: Extracting Files from a Cabinet
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extracting Files from a Cabinet
@@ -233,13 +238,13 @@ LPCSTR FDIErrorToString(FDIERROR err)
 
 <dl> <dt>
 
-[**FDICreate**](fdicreate.md)
+[**FDICreate**](/windows/win32/Fdi/nf-fdi-fdicreate?branch=master)
 </dt> <dt>
 
-[**FDICopy**](fdicopy.md)
+[**FDICopy**](/windows/win32/Fdi/nf-fdi-fdicopy?branch=master)
 </dt> <dt>
 
-[**FDIDestroy**](fdidestroy.md)
+[**FDIDestroy**](/windows/win32/Fdi/nf-fdi-fdidestroy?branch=master)
 </dt> <dt>
 
 [Cabinet API Macros](cabinet-api-macros.md)

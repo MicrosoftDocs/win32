@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following page provides a basic outline of key differences between Direct3D 9 and Direct3D 10. The outline below provides some insight to assist developers with Direct3D 9 experience to explore and relate to Direct3D 10.'
-ms.assetid: '283b54e0-94cb-47a8-8cfc-5798e0538b9f'
-title: 'Direct3D 9 to Direct3D 10 Considerations (Direct3D 10)'
+---
+Description: The following page provides a basic outline of key differences between Direct3D 9 and Direct3D 10. The outline below provides some insight to assist developers with Direct3D 9 experience to explore and relate to Direct3D 10.
+ms.assetid: 283b54e0-94cb-47a8-8cfc-5798e0538b9f
+title: Direct3D 9 to Direct3D 10 Considerations (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 9 to Direct3D 10 Considerations (Direct3D 10)
@@ -66,14 +71,14 @@ The process of rendering using the Direct3D 10 device is structurally similar to
 -   Set shaders
 -   Draw
 
-The [**Draw**](id3d10device-draw.md) call ties the operations together; the ordering of calls prior to the Draw call is arbitrary. The major differences in the Direct3D 10 API design are as follows:
+The [**Draw**](/windows/win32/D3D10/nf-d3d10-id3d10device-draw?branch=master) call ties the operations together; the ordering of calls prior to the Draw call is arbitrary. The major differences in the Direct3D 10 API design are as follows:
 
 -   Removal of Fixed Function
 -   Removal of CAPS bits - Direct3D 10's base feature set is guaranteed
 -   Stricter management of: resource access, device state, shader constants, shader linkage (inputs and outputs to shaders) between stages
 -   API entry point name changes reflect the use of virtual GPU memory (Map() instead of Lock()).
 -   A debug layer can be added to the device at creation time
--   The primitive topology is now an explicit state (separated from the [**Draw**](id3d10device-draw.md) call)
+-   The primitive topology is now an explicit state (separated from the [**Draw**](/windows/win32/D3D10/nf-d3d10-id3d10device-draw?branch=master) call)
 -   Explicit shader constants are now stored in constant buffers
 -   Shader authoring is done entirely in HLSL. The HLSL compiler now resides in the primary Direct3D 10 DLL.
 -   New programmable stage - the geometry shader
@@ -224,7 +229,7 @@ The Direct3D 10 HLSL compiler brings enhancements to the HLSL language definitio
 The shader model 4.0 specific HLSL language semantics and intrinsic functions for Direct3D 10 can be found at [HLSL](direct3dhlsl.dx_graphics_hlsl). Major changes in syntax from Direct3D 9 HLSL to take the most notice of are in the area of texture access. The new syntax is the only form supported by the compiler outside of compatibility mode.
 
 > [!Note]  
-> The Direct3D 10 compiler-type APIs ([**D3D10CompileShader**](d3d10compileshader.md) and [**D3D10CompileEffectFromMemory**](d3d10compileeffectfrommemory.md)) are supplied by the Direct3D 10, 10.1, and 11 runtimes that run in Windows Vista and later. The Direct3D 10 compiler-type APIs have the same functionality as the HLSL compiler that is shipped in the DirectX SDK (December 2006). This HLSL compiler does not support the Direct3D 10.1 profiles (vs\_4\_1, ps\_4\_1, gs\_4\_1, fx\_4\_1), and is missing a number of optimizations and improvements. You can get an HLSL compiler that supports the Direct3D 10.1 profiles from the latest legacy [DirectX SDK release](http://go.microsoft.com/fwlink/p/?linkid=25276). For info about the legacy DirectX SDK, see [Where is the DirectX SDK?](nodepage.directx_sdk__august_2009_). You can get the latest HLSL Fxc.exe command-line compiler and [D3DCompiler](direct3dhlsl.dx_graphics_d3dcompiler_reference) APIs from the Windows SDK.
+> The Direct3D 10 compiler-type APIs ([**D3D10CompileShader**](/windows/win32/D3D10Shader/nf-d3d10shader-d3d10compileshader?branch=master) and [**D3D10CompileEffectFromMemory**](/windows/win32/D3D10Effect/nf-d3d10effect-d3d10compileeffectfrommemory?branch=master)) are supplied by the Direct3D 10, 10.1, and 11 runtimes that run in Windows Vista and later. The Direct3D 10 compiler-type APIs have the same functionality as the HLSL compiler that is shipped in the DirectX SDK (December 2006). This HLSL compiler does not support the Direct3D 10.1 profiles (vs\_4\_1, ps\_4\_1, gs\_4\_1, fx\_4\_1), and is missing a number of optimizations and improvements. You can get an HLSL compiler that supports the Direct3D 10.1 profiles from the latest legacy [DirectX SDK release](http://go.microsoft.com/fwlink/p/?linkid=25276). For info about the legacy DirectX SDK, see [Where is the DirectX SDK?](nodepage.directx_sdk__august_2009_). You can get the latest HLSL Fxc.exe command-line compiler and [D3DCompiler](direct3dhlsl.dx_graphics_d3dcompiler_reference) APIs from the Windows SDK.
 
  
 
@@ -236,7 +241,7 @@ The creation of compiled shader instances outside of the Direct3D 10 Effects sys
 
 The shader reflection layer is the interface by which information about the shader requirements may be obtained. This is particularly useful when creating Input Assembly linkages (see below) where you may need to traverse the shader input requirements to ensure you are supplying the correct input structure to the shader. You can create an instance of the reflection layer interface at the same time as creating an instance of a compiled shader.
 
-The shader reflection layer replaces D3DX9 methods that provide similar functionality. For example [**IsParameterUsed**](direct3d9.id3dxeffect__isparameterused) is replaced by the [**GetDesc**](id3d10shaderreflectionvariable-getdesc.md) method.
+The shader reflection layer replaces D3DX9 methods that provide similar functionality. For example [**IsParameterUsed**](direct3d9.id3dxeffect__isparameterused) is replaced by the [**GetDesc**](/windows/win32/D3D10Shader/nf-d3d10shader-id3d10shaderreflectionvariable-getdesc?branch=master) method.
 
 ### Input Assembler Layouts - Vertex Shader / Input Stream Linkage
 
@@ -528,7 +533,7 @@ Rendering full-screen quads is more straight-forward with Direct3D 10. Full-scre
 
 ### Reference Counting Behavior Changes
 
-Unlike previous Direct3D versions, the various Set functions will not hold a reference to the devices objects. This means that the application must ensure that it holds a reference on the object for as long as it would like that object to be bound to the pipeline. When the ref count of the object drops to zero, then the object will be unbound from the pipeline as it is destroyed. This style of reference holding is also known as weak-reference holding, so therefore each bind location on the Device object holds a weak-reference to the interface/ object. Unless explicitly mentioned otherwise, this behavior should be assumed for all Set methods. Whenever destruction of an object causes a bind point to be set to **NULL** out, the Debug Layer will issue a warning. Note, calls to device Get methods such as [**OMGetRenderTargets**](id3d10device-omgetrendertargets.md) will increase the reference count of objects being returned.
+Unlike previous Direct3D versions, the various Set functions will not hold a reference to the devices objects. This means that the application must ensure that it holds a reference on the object for as long as it would like that object to be bound to the pipeline. When the ref count of the object drops to zero, then the object will be unbound from the pipeline as it is destroyed. This style of reference holding is also known as weak-reference holding, so therefore each bind location on the Device object holds a weak-reference to the interface/ object. Unless explicitly mentioned otherwise, this behavior should be assumed for all Set methods. Whenever destruction of an object causes a bind point to be set to **NULL** out, the Debug Layer will issue a warning. Note, calls to device Get methods such as [**OMGetRenderTargets**](/windows/win32/D3D10/nf-d3d10-id3d10device-omgetrendertargets?branch=master) will increase the reference count of objects being returned.
 
 ### Test Cooperative Level
 
@@ -536,7 +541,7 @@ The functionality of the Direct3D 9 API [**TestCooperativeLevel**](direct3d9.idi
 
 ### StretchRect
 
-A function similar to the Direct3D 9 [**IDirect3DDevice9::StretchRect**](direct3d9.idirect3ddevice9__stretchrect) method is not available in Direct3D 10 and 10.1. To copy resource surfaces, use [**ID3D10Device::CopySubresourceRegion**](id3d10device-copysubresourceregion.md). For resizing operations, render to a texture by using texture filtering. For converting MSAA surfaces to non-MSAA surfaces, use [**ID3D10Device::ResolveSubresource**](id3d10device-resolvesubresource.md).
+A function similar to the Direct3D 9 [**IDirect3DDevice9::StretchRect**](direct3d9.idirect3ddevice9__stretchrect) method is not available in Direct3D 10 and 10.1. To copy resource surfaces, use [**ID3D10Device::CopySubresourceRegion**](/windows/win32/D3D10/nf-d3d10-id3d10device-copysubresourceregion?branch=master). For resizing operations, render to a texture by using texture filtering. For converting MSAA surfaces to non-MSAA surfaces, use [**ID3D10Device::ResolveSubresource**](/windows/win32/d3d10/nf-d3d10-id3d10device-resolvesubresource?branch=master).
 
 ## Additional Direct3D 10.1 Differences
 
@@ -550,15 +555,15 @@ Windows Vista with Service Pack 1 (SP1) included a minor update to Direct3D 10
 
 The Direct3D 10.1 update added support for the following new interfaces, which are derived from existing interfaces:
 
--   [**ID3D10Device1**](id3d10device1.md)
--   [**ID3D10BlendState1**](id3d10blendstate1.md)
--   [**ID3D10ShaderResourceView1**](id3d10shaderresourceview1.md)
+-   [**ID3D10Device1**](/windows/win32/D3D10_1/nn-d3d10_1-id3d10device1?branch=master)
+-   [**ID3D10BlendState1**](/windows/win32/D3D10_1/nn-d3d10_1-id3d10blendstate1?branch=master)
+-   [**ID3D10ShaderResourceView1**](/windows/win32/d3d10_1/nn-d3d10_1-id3d10shaderresourceview1?branch=master)
 
 The Direct3D 10.1 update also included the following additional structures:
 
--   [**D3D10\_RENDER\_TARGET\_BLEND\_DESC1**](d3d10-render-target-blend-desc1.md)
--   [**D3D10\_BLEND\_DESC1**](d3d10-blend-desc1.md)
--   [**D3D10\_SHADER\_RESOURCE\_VIEW\_DESC1**](d3d10-shader-resource-view-desc1.md)
+-   [**D3D10\_RENDER\_TARGET\_BLEND\_DESC1**](/windows/win32/d3d10_1/ns-d3d10_1-d3d10_render_target_blend_desc1?branch=master)
+-   [**D3D10\_BLEND\_DESC1**](/windows/win32/D3D10_1/ns-d3d10_1-d3d10_blend_desc1?branch=master)
+-   [**D3D10\_SHADER\_RESOURCE\_VIEW\_DESC1**](/windows/win32/d3d10_1/ns-d3d10_1-d3d10_shader_resource_view_desc1?branch=master)
 
 The Direct3D 10.1 API includes a new concept named feature level. This concept means that you can use the Direct3D 10.1 API to drive Direct3D 10.0 ([**D3D10\_FEATURE\_LEVEL\_10\_0**](d3d10-feature-level1.md#d3d10-feature-level-10-0)) or Direct3D 10.1 ([**D3D10\_FEATURE\_LEVEL\_10\_1**](d3d10-feature-level1.md#d3d10-feature-level-10-1)) hardware. Because the Direct3D 10.1 API is derived from the Direct3D 10 interfaces, applications can create a Direct3D 10.1 device, then use it as a Direct3D 10.0 device except where new 10.1-specific features are needed (provided that the **D3D10\_FEATURE\_LEVEL\_10\_1** feature-level is present and supports these features).
 
@@ -575,7 +580,7 @@ Windows 7 contained a minor update to the Direct3D 10.1 API that is included in
 
 Windows 7 also added support to Direct3D 10.1 for [Windows Advanced Rasterization Platform (WARP)](direct3darticles.directx_warp). You can specify a WARP driver by using [**D3D10\_DRIVER\_TYPE\_WARP**](d3d10-driver-type.md#d3d10-driver-type-warp).
 
-For more information about Direct3D 10.1, see [Direct3D 10.1 Features](d3d10-graphics-programming-guide-10-1.md) and the [**D3D10\_FEATURE\_LEVEL1**](d3d10-feature-level1.md) enumeration.
+For more information about Direct3D 10.1, see [Direct3D 10.1 Features](d3d10-graphics-programming-guide-10-1.md) and the [**D3D10\_FEATURE\_LEVEL1**](/windows/win32/D3D10_1/ne-d3d10_1-d3d10_feature_level1?branch=master) enumeration.
 
 ## Related topics
 

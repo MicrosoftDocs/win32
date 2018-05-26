@@ -1,15 +1,18 @@
 ---
-Description: 'The MSFT\_Rule class represents a single rule in a MSFT\_SomFilter object. The rule is expressed as a query. The MSFT\_Rule class is compiled in the \\root\\policy namespace.'
+Description: The MSFT\_Rule class represents a single rule in a MSFT\_SomFilter object. The rule is expressed as a query. The MSFT\_Rule class is compiled in the \\root\\policy namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '81e2a8b9-201a-4e38-90a3-163d589dbdfe'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 81e2a8b9-201a-4e38-90a3-163d589dbdfe
+ms.prod: windows-server-dev
 ms.technology:
-- 'group-policy'
-- 'windows-management-instrumentation'
+- group-policy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_Rule class'
+title: MSFT\_Rule class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_Rule class
@@ -96,8 +99,8 @@ Namespace in which the query is evaluated.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\policy<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>PolicMan.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PolicMan.dll</dt> </dl> |
@@ -111,9 +114,9 @@ Namespace in which the query is evaluated.
 [**MSFT\_SomFilter**](msft-somfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

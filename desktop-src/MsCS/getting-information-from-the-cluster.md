@@ -1,14 +1,18 @@
 ---
 title: Getting Information From the Cluster
-description: Each cluster object, including the cluster itself, is associated with several pieces of information that describe the object's identity, configuration, and relationships to other objects.
+description: Each cluster object, including the cluster itself, is associated with several pieces of information that describe the objects identity, configuration, and relationships to other objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8b3dc8be-77ad-4abe-846a-b09d90db825e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 8b3dc8be-77ad-4abe-846a-b09d90db825e
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["clusters Failover Cluster , getting information from"]
+keywords:
+- clusters Failover Cluster , getting information from
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting Information From the Cluster

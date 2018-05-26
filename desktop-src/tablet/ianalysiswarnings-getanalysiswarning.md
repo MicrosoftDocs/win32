@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the IAnalysisWarning object at the specified index.'
-ms.assetid: '8f5d5642-73ec-496e-bad7-9f636fc00217'
-title: 'IAnalysisWarnings::GetAnalysisWarning method'
+Description: Retrieves the IAnalysisWarning object at the specified index.
+ms.assetid: 8f5d5642-73ec-496e-bad7-9f636fc00217
+title: IAnalysisWarningsGetAnalysisWarning method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisWarnings::GetAnalysisWarning method
@@ -13,8 +18,8 @@ Retrieves the [**IAnalysisWarning**](ianalysiswarning.md) object at the specifie
 
 ```C++
 HRESULT GetAnalysisWarning(
-  [in]  ULONG            ulIndex,
-  [out] IAnalysisWarning **ppWarning
+  [in]  ULONG            ulIndex,
+  [out] IAnalysisWarning **ppWarning
 );
 ```
 
@@ -47,7 +52,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppWarning* when you no longer need to use the warning.
 
- 
+ 
 
 ## Examples
 
@@ -138,7 +143,7 @@ STDMETHODIMP CMyClass::Results(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -155,9 +160,9 @@ STDMETHODIMP CMyClass::Results(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

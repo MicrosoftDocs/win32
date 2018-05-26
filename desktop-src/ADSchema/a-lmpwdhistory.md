@@ -1,25 +1,30 @@
 ---
 title: Lm-Pwd-History attribute
-description: The password history of the user in LAN Manager (LM) one-way format (OWF). The LM OWF is used for compatibility with LAN Manager 2.x clients, Windows 95, and Windows 98.
+description: The password history of the user in LAN Manager (LM) one-way format (OWF). The LM OWF is used for compatibility with LAN Manager 2.x clients, Windows 95, and Windows 98.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c4cb2e74-b37d-4c76-8d21-d71bc9c19a4a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c4cb2e74-b37d-4c76-8d21-d71bc9c19a4a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Lm-Pwd-History attribute AD Schema", "lmPwdHistory attribute AD Schema"]
+keywords:
+- Lm-Pwd-History attribute AD Schema
+- lmPwdHistory attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Lm-Pwd-History
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Lm-Pwd-History attribute
 
-The password history of the user in LAN Manager (LM) one-way format (OWF). The LM OWF is used for compatibility with LAN Manager 2.*x* clients, Windows 95, and Windows 98.
+The password history of the user in LAN Manager (LM) one-way format (OWF). The LM OWF is used for compatibility with LAN Manager 2.*x* clients, Windows 95, and Windows 98.
 
 
 
@@ -38,12 +43,12 @@ The password history of the user in LAN Manager (LM) one-way format (OWF). The L
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The password history of the user in LAN Manager (LM) one-way format (OWF). The L
 
 
 
- 
+ 
 
- 
+ 
 
 
 

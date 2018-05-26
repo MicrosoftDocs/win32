@@ -1,8 +1,24 @@
 ---
 title: Media Control Interface (MCI)
 description: Media Control Interface (MCI)
-ms.assetid: 'e22f23b5-0fa6-4957-bbbf-b1b3a4c8bd31'
-keywords: ["Windows multimedia,Media Control Interface (MCI)", "multimedia,Media Control Interface (MCI)", "multimedia audio,Media Control Interface (MCI)", "audio,Media Control Interface (MCI)", "Musical Instrument Digital Interface (MIDI),Media Control Interface (MCI)", "MIDI (Musical Instrument Digital Interface),Media Control Interface (MCI)", "Media Control Interface (MCI),Musical Instrument Digital Interface (MIDI)", "MCI (Media Control Interface),Musical Instrument Digital Interface (MIDI)", "Media Control Interface (MCI),MIDI sequencer", "MCI (Media Control Interface),MIDI sequencer", "MCI MIDI sequencer,about"]
+ms.assetid: e22f23b5-0fa6-4957-bbbf-b1b3a4c8bd31
+keywords:
+- Windows multimedia,Media Control Interface (MCI)
+- multimedia,Media Control Interface (MCI)
+- multimedia audio,Media Control Interface (MCI)
+- audio,Media Control Interface (MCI)
+- Musical Instrument Digital Interface (MIDI),Media Control Interface (MCI)
+- MIDI (Musical Instrument Digital Interface),Media Control Interface (MCI)
+- Media Control Interface (MCI),Musical Instrument Digital Interface (MIDI)
+- MCI (Media Control Interface),Musical Instrument Digital Interface (MIDI)
+- Media Control Interface (MCI),MIDI sequencer
+- MCI (Media Control Interface),MIDI sequencer
+- MCI MIDI sequencer,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Control Interface (MCI)

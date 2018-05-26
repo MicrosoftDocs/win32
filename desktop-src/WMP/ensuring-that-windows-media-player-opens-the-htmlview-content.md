@@ -1,8 +1,23 @@
 ---
 title: Ensuring that Windows Media Player Opens the HTMLView Content
 description: Ensuring that Windows Media Player Opens the HTMLView Content
-ms.assetid: '4ec4e027-4f9c-4a86-9f70-b4014971c070'
-keywords: ["Windows Media metafile playlists,Windows Media Player opening HTMLView content", "playlists,Windows Media Player opening HTMLView content", "metafile playlists,Windows Media Player opening HTMLView content", "Windows Media metafile playlists,opening HTMLView content", "playlists,opening HTMLView content", "metafile playlists,opening HTMLView content", "opening HTMLView content", "Windows Media Player,opening HTMLView content", "Windows Media Player,HTMLView content", "HTMLView,opening content"]
+ms.assetid: 4ec4e027-4f9c-4a86-9f70-b4014971c070
+keywords:
+- Windows Media metafile playlists,Windows Media Player opening HTMLView content
+- playlists,Windows Media Player opening HTMLView content
+- metafile playlists,Windows Media Player opening HTMLView content
+- Windows Media metafile playlists,opening HTMLView content
+- playlists,opening HTMLView content
+- metafile playlists,opening HTMLView content
+- opening HTMLView content
+- Windows Media Player,opening HTMLView content
+- Windows Media Player,HTMLView content
+- HTMLView,opening content
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ensuring that Windows Media Player Opens the HTMLView Content

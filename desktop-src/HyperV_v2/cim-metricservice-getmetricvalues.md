@@ -1,7 +1,12 @@
 ---
-Description: 'Provides the ability to return a filtered list of CIM\_BaseMetricValue instances.'
-ms.assetid: 'c207a0ef-11f1-42c4-af77-3dcf3fbff8a7'
-title: 'GetMetricValues method of the CIM\_MetricService class'
+Description: Provides the ability to return a filtered list of CIM\_BaseMetricValue instances.
+ms.assetid: c207a0ef-11f1-42c4-af77-3dcf3fbff8a7
+title: GetMetricValues method of the CIM\_MetricService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetMetricValues method of the CIM\_MetricService class
@@ -13,10 +18,10 @@ Provides the ability to return a filtered list of [**CIM\_BaseMetricValue**](cim
 
 ```mof
 uint32 GetMetricValues(
-  [in]  CIM_BaseMetricDefinition REF Definition,
-  [in]  uint16                       Range,
-  [in]  uint16                       Count,
-  [out] CIM_BaseMetricValue      REF Values[]
+  [in]  CIM_BaseMetricDefinition REF Definition,
+  [in]  uint16                       Range,
+  [in]  uint16                       Count,
+  [out] CIM_BaseMetricValue      REF Values[]
 );
 ```
 
@@ -109,8 +114,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -124,9 +129,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_MetricService**](cim-metricservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

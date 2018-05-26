@@ -2,13 +2,16 @@
 title: Reset method of the PS\_DnsServerZoneKeyMasterRole class
 description: Performs a key master role transfer for an AD integrated zone.
 audience: developer
-ms.assetid: 'fbe23735-77a5-471a-be36-08139f4c2bee'
-ms.prod: 'windows-server-dev'
+ms.assetid: fbe23735-77a5-471a-be36-08139f4c2bee
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Reset method", "Reset method, PS_DnsServerZoneKeyMasterRole class", "PS_DnsServerZoneKeyMasterRole class, Reset method"]
+keywords:
+- Reset method
+- Reset method, PS_DnsServerZoneKeyMasterRole class
+- PS_DnsServerZoneKeyMasterRole class, Reset method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Reset method of the PS\_DnsServerZoneKeyMasterRole class
@@ -28,12 +34,12 @@ Performs a key master role transfer for an AD integrated zone.
 
 ```mof
 uint32 Reset(
-  [in]  string  ZoneName,
-  [in]  boolean Force,
-  [in]  string  KeyMasterServer,
-  [in]  boolean SeizeRole,
-  [in]  boolean PassThru,
-  [out] string  cmdletOutput
+  [in]  string  ZoneName,
+  [in]  boolean Force,
+  [in]  string  KeyMasterServer,
+  [in]  boolean SeizeRole,
+  [in]  boolean PassThru,
+  [out] string  cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ On return, contains an instance of the current object. This parameter returns a 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ On return, contains an instance of the current object. This parameter returns a 
 [**PS\_DnsServerZoneKeyMasterRole**](ps-dnsserverzonekeymasterrole.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

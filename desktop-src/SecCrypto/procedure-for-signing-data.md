@@ -1,12 +1,17 @@
 ---
-Description: 'Shows the relationship between those function parameters that point to structures or arrays and their initialized data.'
-ms.assetid: '89caf4d3-727f-472b-9a09-e81b4ff4d127'
+Description: Shows the relationship between those function parameters that point to structures or arrays and their initialized data.
+ms.assetid: 89caf4d3-727f-472b-9a09-e81b4ff4d127
 title: Procedure for Signing Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Procedure for Signing Data
 
-A single function, [**CryptSignMessage**](cryptsignmessage.md), performs all of the tasks listed in [Creating a Signed Message](creating-a-signed-message.md). However, initialization of structures and other data is still necessary. The following illustration shows the relationship between those function parameters that point to structures or arrays and their initialized data. The illustration shows only the function parameters and structure members that are derived from other structures or functions. The rest of the parameters are straightforward initializations.
+A single function, [**CryptSignMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptsignmessage?branch=master), performs all of the tasks listed in [Creating a Signed Message](creating-a-signed-message.md). However, initialization of structures and other data is still necessary. The following illustration shows the relationship between those function parameters that point to structures or arrays and their initialized data. The illustration shows only the function parameters and structure members that are derived from other structures or functions. The rest of the parameters are straightforward initializations.
 
 ![initialization map for a call to cryptsignmessage](images/crypsign.png)
 
@@ -19,9 +24,9 @@ A single function, [**CryptSignMessage**](cryptsignmessage.md), performs all of 
 5.  Get an address to the signer's certificate.
 6.  Assign the address of the certificate to the zero index of the *MsgCert* array.
 7.  Assign the addresses of any other certificates to be included with the message to the *MsgCert* array.
-8.  Initialize the [**CRYPT\_ALGORITHM\_IDENTIFIER**](crypt-algorithm-identifier.md) structure, initializing the **pszObjId** member to the desired hash algorithm and the other members as appropriate.
-9.  Initialize the [**CRYPT\_SIGN\_MESSAGE\_PARA**](crypt-sign-message-para.md) structure, initializing the **pSigningCert** member to the address of the signer's certificate, the **MsgCert** array member to the address of the signer's and other's certificates, the **HashAlgorithm** member to the address of the [**CRYPT\_ALGORITHM\_IDENTIFIER**](crypt-algorithm-identifier.md) structure, and the other members as appropriate.
-10. Call the [**CryptSignMessage**](cryptsignmessage.md) function, passing the [**CRYPT\_SIGN\_MESSAGE\_PARA**](crypt-sign-message-para.md) structure for the *pSignPara* parameter, the address of the "data to be signed" array for the *rgpbToBeSigned* parameter, an address for the *pbSignedBlob* output parameter, and values for the other parameters as appropriate.
+8.  Initialize the [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier?branch=master) structure, initializing the **pszObjId** member to the desired hash algorithm and the other members as appropriate.
+9.  Initialize the [**CRYPT\_SIGN\_MESSAGE\_PARA**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_sign_message_para?branch=master) structure, initializing the **pSigningCert** member to the address of the signer's certificate, the **MsgCert** array member to the address of the signer's and other's certificates, the **HashAlgorithm** member to the address of the [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier?branch=master) structure, and the other members as appropriate.
+10. Call the [**CryptSignMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptsignmessage?branch=master) function, passing the [**CRYPT\_SIGN\_MESSAGE\_PARA**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_sign_message_para?branch=master) structure for the *pSignPara* parameter, the address of the "data to be signed" array for the *rgpbToBeSigned* parameter, an address for the *pbSignedBlob* output parameter, and values for the other parameters as appropriate.
 
  
 

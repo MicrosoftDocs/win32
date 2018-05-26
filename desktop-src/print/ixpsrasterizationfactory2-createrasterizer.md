@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CreateRasterizer method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the XPS Rasterization Service. PWG Raster supports non-square DPIs.'
-ms.assetid: 'C31681A0-17C6-4255-9068-7486A2101AB7'
-title: 'IXpsRasterizationFactory2::CreateRasterizer method'
+---
+Description: The CreateRasterizer method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the XPS Rasterization Service. PWG Raster supports non-square DPIs.
+ms.assetid: C31681A0-17C6-4255-9068-7486A2101AB7
+title: IXpsRasterizationFactory2CreateRasterizer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsRasterizationFactory2::CreateRasterizer method

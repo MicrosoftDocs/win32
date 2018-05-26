@@ -1,8 +1,11 @@
 ---
 title: IMimeMessage CreateWebPage method
 description: Creates a moniker that can be used to bind to the HTML representation of the message object.
-ms.assetid: 'e25cfe34-f538-47d8-b6a4-5353b80d013d'
-keywords: ["CreateWebPage method Windows Mail (formerly Outlook Express)", "CreateWebPage method Windows Mail (formerly Outlook Express) , IMimeMessage interface", "IMimeMessage interface Windows Mail (formerly Outlook Express) , CreateWebPage method"]
+ms.assetid: e25cfe34-f538-47d8-b6a4-5353b80d013d
+keywords:
+- CreateWebPage method Windows Mail (formerly Outlook Express)
+- CreateWebPage method Windows Mail (formerly Outlook Express) , IMimeMessage interface
+- IMimeMessage interface Windows Mail (formerly Outlook Express) , CreateWebPage method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessage::CreateWebPage method
@@ -22,10 +30,10 @@ Creates a moniker that can be used to bind to the HTML representation of the mes
 
 ```C++
 HRESULT CreateWebPage(
-  [in]  IStream              *pRootStm,
-  [in]  LPWEBPAGEOPTIONS     pOptions,
-  [in]  IMimeMessageCallback *pCallback,
-  [out] IMoniker             **ppMoniker
+  [in]  IStream              *pRootStm,
+  [in]  LPWEBPAGEOPTIONS     pOptions,
+  [in]  IMimeMessageCallback *pCallback,
+  [out] IMoniker             **ppMoniker
 );
 ```
 
@@ -88,7 +96,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -100,8 +108,8 @@ The moniker returned from this method can be loaded into another object that sup
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -109,9 +117,9 @@ The moniker returned from this method can be loaded into another object that sup
 
 
 
- 
+ 
 
- 
+ 
 
 
 

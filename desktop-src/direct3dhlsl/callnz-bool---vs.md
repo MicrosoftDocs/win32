@@ -1,7 +1,12 @@
 ---
 title: callnz bool - vs
 description: Call if not zero. Performs a conditional call to the instruction marked by the label index.
-ms.assetid: '9be030b9-fa21-459f-bd6c-f34ad6f177fc'
+ms.assetid: 9be030b9-fa21-459f-bd6c-f34ad6f177fc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # callnz bool - vs

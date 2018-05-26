@@ -1,8 +1,26 @@
 ---
 title: Registry Keys and Values for Backup and Restore
-ms.assetid: '83449f78-cca1-449b-8c5f-3c8a91c8b3e7'
+ms.assetid: 83449f78-cca1-449b-8c5f-3c8a91c8b3e7
 description: 
-keywords: ["backup Backup , registry keys", "registry keys Backup", "CustomPerformanceSettings Backup", "DisableMonitoring Backup", "FilesNotToBackup Backup", "FilesNotToSnapshot Backup", "KeysNotToRestore Backup", "LastInstance Backup", "LastRestoreId Backup", "MaxShadowCopies Backup", "MinDiffAreaFileSize Backup", "OverallPerformanceSetting Backup", "SYSVOL Backup"]
+keywords:
+- backup Backup , registry keys
+- registry keys Backup
+- CustomPerformanceSettings Backup
+- DisableMonitoring Backup
+- FilesNotToBackup Backup
+- FilesNotToSnapshot Backup
+- KeysNotToRestore Backup
+- LastInstance Backup
+- LastRestoreId Backup
+- MaxShadowCopies Backup
+- MinDiffAreaFileSize Backup
+- OverallPerformanceSetting Backup
+- SYSVOL Backup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Keys and Values for Backup and Restore

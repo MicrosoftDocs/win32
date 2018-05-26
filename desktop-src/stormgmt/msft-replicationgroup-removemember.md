@@ -1,8 +1,11 @@
 ---
 title: RemoveMember method of the MSFT\_ReplicationGroup class
 description: Remove members from this replication group.
-ms.assetid: '52BED6E0-FCB3-49D9-9766-78B191DEB0C2'
-keywords: ["RemoveMember method Windows Storage Management API", "RemoveMember method Windows Storage Management API , MSFT_ReplicationGroup class", "MSFT_ReplicationGroup class Windows Storage Management API , RemoveMember method"]
+ms.assetid: 52BED6E0-FCB3-49D9-9766-78B191DEB0C2
+keywords:
+- RemoveMember method Windows Storage Management API
+- RemoveMember method Windows Storage Management API , MSFT_ReplicationGroup class
+- MSFT_ReplicationGroup class Windows Storage Management API , RemoveMember method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveMember method of the MSFT\_ReplicationGroup class
@@ -22,8 +30,8 @@ Remove members from this replication group.
 
 ```mof
 UInt32 RemoveMember(
-  [in]  String StorageObjects[],
-  [out] String ExtendedStatus
+  [in]  String StorageObjects[],
+  [out] String ExtendedStatus
 );
 ```
 
@@ -98,8 +106,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -112,9 +120,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_ReplicationGroup**](msft-replicationgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

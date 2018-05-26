@@ -1,7 +1,12 @@
 ---
 title: Property Sheet Reference
 description: .
-ms.assetid: 'd012ebe3-26cd-44b6-b6c5-89f51af60743'
+ms.assetid: d012ebe3-26cd-44b6-b6c5-89f51af60743
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Sheet Reference

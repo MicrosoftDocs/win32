@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'AB1EFF6E-4FF5-413E-A4E4-3EEC47CDEBD4'
+---
+Description: .
+ms.assetid: AB1EFF6E-4FF5-413E-A4E4-3EEC47CDEBD4
 title: IPartFont2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartFont2 interface

@@ -1,7 +1,12 @@
 ---
 Description: Surrogates and Supplementary Characters
-ms.assetid: '0dea39e2-a2b4-47fc-b44a-56af8ba1e346'
+ms.assetid: 0dea39e2-a2b4-47fc-b44a-56af8ba1e346
 title: Surrogates and Supplementary Characters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Surrogates and Supplementary Characters
@@ -33,7 +38,7 @@ The operating system supports supplementary characters in the following ways:
 
 UTF-16 handles supplementary characters as surrogate pairs. The operating system processes a surrogate pair similarly to the way it processes [nonspacing marks](using-nonspacing-characters-and-diacritics.md). At display time, the surrogate pair displays as one glyph by means of Uniscribe, as prescribed by the Unicode Standard.
 
-Windows Vista introduces three new macros to help identify surrogates and surrogate pairs in UTF-16 strings. These are [**IS\_HIGH\_SURROGATE**](is-high-surrogate.md), [**IS\_LOW\_SURROGATE**](is-low-surrogate.md), and [**IS\_SURROGATE\_PAIR**](is-surrogate-pair.md).
+Windows Vista introduces three new macros to help identify surrogates and surrogate pairs in UTF-16 strings. These are [**IS\_HIGH\_SURROGATE**](/windows/win32/Winnls/nf-winnls-is_high_surrogate?branch=master), [**IS\_LOW\_SURROGATE**](/windows/win32/Winnls/nf-winnls-is_low_surrogate?branch=master), and [**IS\_SURROGATE\_PAIR**](/windows/win32/Winnls/nf-winnls-is_surrogate_pair?branch=master).
 
 Applications automatically support supplementary characters if they support Unicode and use system controls and standard API functions, such as [**ExtTextOut**](gdi.exttextout) and [**DrawText**](gdi.drawtext). Thus, if your application uses standard system controls or uses general [**ExtTextOut**](gdi.exttextout)-type calls to display, supplementary characters should work without any special coding.
 

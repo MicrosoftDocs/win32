@@ -1,8 +1,11 @@
 ---
 title: Support GetErrorText method
 description: Retrieves an Axe error message given the Axe error code.
-ms.assetid: 'AA09D692-C5D1-4E77-978F-0EECECE7F2F8'
-keywords: ["GetErrorText method Access Execution Engine", "GetErrorText method Access Execution Engine , Support interface", "Support interface Access Execution Engine , GetErrorText method"]
+ms.assetid: AA09D692-C5D1-4E77-978F-0EECECE7F2F8
+keywords:
+- GetErrorText method Access Execution Engine
+- GetErrorText method Access Execution Engine , Support interface
+- Support interface Access Execution Engine , GetErrorText method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support::GetErrorText method
@@ -22,8 +30,8 @@ Retrieves an Axe error message given the Axe error code. This method allows an a
 
 ```C++
 virtual HRESULT GetErrorText(
-  [in]  HRESULT   axeError,
-  [out] ErrorList **errorList
+  [in]  HRESULT   axeError,
+  [out] ErrorList **errorList
 ) = 0;
 ```
 
@@ -63,8 +71,8 @@ Managed code uses [**Support.GetErrorText \| getErrorText**](axe-support_geterro
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -77,9 +85,9 @@ Managed code uses [**Support.GetErrorText \| getErrorText**](axe-support_geterro
 [**Support**](support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

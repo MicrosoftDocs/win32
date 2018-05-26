@@ -1,7 +1,12 @@
-﻿---
-Description: 'Called when user identities are switched.'
-ms.assetid: 'e88383fc-e58e-4987-be4b-8ce2ab1368db'
-title: 'IIdentityChangeNotify::SwitchIdentities method'
+---
+Description: Called when user identities are switched.
+ms.assetid: e88383fc-e58e-4987-be4b-8ce2ab1368db
+title: IIdentityChangeNotifySwitchIdentities method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIdentityChangeNotify::SwitchIdentities method

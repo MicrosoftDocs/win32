@@ -1,14 +1,20 @@
 ---
 title: EventTracing element
 description: Specifies a configuration for the use of Event Tracing for Windows (ETW) by AXE.
-ms.assetid: '8DD866D6-0EFE-4A73-8F3D-9264468DAC0E'
-keywords: ["EventTracing element Access Execution Engine"]
+ms.assetid: 8DD866D6-0EFE-4A73-8F3D-9264468DAC0E
+keywords:
+- EventTracing element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - EventTracing
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventTracing element
@@ -75,9 +81,9 @@ BufferSizeLoggingModeMaximumBuffersMinimumBuffers
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

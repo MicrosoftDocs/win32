@@ -1,7 +1,12 @@
 ---
-Description: 'Adds migration network subnets for the virtual system migration service.'
-ms.assetid: 'b0e0f187-beeb-4fdf-a91c-f6c5500f0f6d'
-title: 'AddNetworkSettings method of the Msvm\_VirtualSystemMigrationService class'
+Description: Adds migration network subnets for the virtual system migration service.
+ms.assetid: b0e0f187-beeb-4fdf-a91c-f6c5500f0f6d
+title: AddNetworkSettings method of the Msvm\_VirtualSystemMigrationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddNetworkSettings method of the Msvm\_VirtualSystemMigrationService class
@@ -13,8 +18,8 @@ Adds migration network subnets for the virtual system migration service.
 
 ```mof
 uint32 AddNetworkSettings(
-  [in]  string              NetworkSettings[],
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              NetworkSettings[],
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -89,8 +94,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -110,9 +115,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

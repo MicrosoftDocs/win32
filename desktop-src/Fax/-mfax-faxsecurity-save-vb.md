@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Save method saves the FaxSecurity object data.'
-ms.assetid: '114bb347-39fa-4001-a3ea-6cc94ff772c7'
-title: 'FaxSecurity.Save method'
+---
+Description: The Save method saves the FaxSecurity object data.
+ms.assetid: 114bb347-39fa-4001-a3ea-6cc94ff772c7
+title: FaxSecurity.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSecurity.Save method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-access-rights-enum.md) and [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access rights.
+To use this method, a user must have the [****farMANAGE\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) and [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access rights.
 
 ## Requirements
 
@@ -45,7 +50,7 @@ To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-a
 [**FaxSecurity**](-mfax-faxsecurity.md)
 </dt> <dt>
 
-[**IFaxSecurity**](-mfax-faxsecurity-cpp.md)
+[**IFaxSecurity**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsecurity?branch=master)
 </dt> </dl>
 
  

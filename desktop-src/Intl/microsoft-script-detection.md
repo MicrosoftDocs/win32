@@ -1,12 +1,17 @@
 ---
-Description: 'The ELS script detection service is called Microsoft Script Detection.'
-ms.assetid: 'daf9f549-1eff-4666-b777-227ec31fba30'
+Description: The ELS script detection service is called Microsoft Script Detection.
+ms.assetid: daf9f549-1eff-4666-b777-227ec31fba30
 title: Microsoft Script Detection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Script Detection
 
-The ELS script detection service is called Microsoft Script Detection. This service allows applications to detect the scripts in which text is written. The National Language Support (NLS) counterpart of a script detection service is the [GetStringScripts](getstringscripts.md) function. However, the ELS service additionally retrieves the text ranges that belong to each writing system.
+The ELS script detection service is called Microsoft Script Detection. This service allows applications to detect the scripts in which text is written. The National Language Support (NLS) counterpart of a script detection service is the [GetStringScripts](/windows/win32/Winnls/nf-winnls-getstringscripts?branch=master) function. However, the ELS service additionally retrieves the text ranges that belong to each writing system.
 
 ## Input to Microsoft Script Detection
 

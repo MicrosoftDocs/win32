@@ -1,6 +1,11 @@
-﻿---
-Description: 'Gets the name of the user''s account container.'
-title: 'DIDiskQuotaUser.AccountContainerName property'
+---
+Description: Gets the name of the users account container.
+title: DIDiskQuotaUser.AccountContainerName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIDiskQuotaUser.AccountContainerName property

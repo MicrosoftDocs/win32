@@ -4,11 +4,12 @@ description: The property methods of the IADsSession interface get or set the pr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b2366da7-c51c-4279-8931-2000d3110d72'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b2366da7-c51c-4279-8931-2000d3110d72
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsSession Property Methods ADSI"]
+keywords:
+- IADsSession Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -29,11 +30,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsSession Property Methods
 
-The property methods of the [**IADsSession**](iadssession.md) interface get or set the properties described in the following table. For more information and a general discussion about property methods, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsSession**](/windows/win32/Iads/nn-iads-iadssession?branch=master) interface get or set the properties described in the following table. For more information and a general discussion about property methods, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -189,7 +193,7 @@ HRESULT get_UserPath(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -292,8 +296,8 @@ Cleanup:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsSession is defined as 398B7DA0-4AAB-11CF-AE2C-00AA006EBFB9<br/>          |
@@ -304,15 +308,15 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsFileServiceOperations::Sessions**](iadsfileserviceoperations-sessions.md)
+[**IADsFileServiceOperations::Sessions**](/windows/win32/Iads/nf-iads-iadsfileserviceoperations-sessions?branch=master)
 </dt> <dt>
 
-[**IADsSession**](iadssession.md)
+[**IADsSession**](/windows/win32/Iads/nn-iads-iadssession?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

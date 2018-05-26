@@ -1,14 +1,20 @@
 ---
 title: event.y
 description: The y attribute retrieves the y-coordinate of the mouse pointer with respect to the application window.
-ms.assetid: 'b141bcc9-26aa-4743-8660-b0981d949c0e'
-keywords: ["event.y Windows Media Player"]
+ms.assetid: b141bcc9-26aa-4743-8660-b0981d949c0e
+keywords:
+- event.y Windows Media Player
 topic_type:
 - apiref
 api_name:
 - event.y
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # event.y
@@ -43,9 +49,9 @@ This attribute is a read-only **Number** (**long**).
 [**event.x**](event-x.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

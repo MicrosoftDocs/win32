@@ -1,7 +1,7 @@
 ---
 title: CERT\_TYPE
 description: The following constants indicate the type of certificate being used for validation.
-ms.assetid: '8ec2fe74-7078-424c-b376-9e7a304bbcc0'
+ms.assetid: 8ec2fe74-7078-424c-b376-9e7a304bbcc0
 topic_type:
 - apiref
 api_name:
@@ -15,6 +15,11 @@ api_location:
 - EhStorExtensions.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CERT\_TYPE
@@ -107,15 +112,15 @@ Signer Certificate
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2 \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista with SP2 \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>EhStorExtensions.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

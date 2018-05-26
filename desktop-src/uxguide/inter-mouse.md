@@ -1,7 +1,12 @@
 ---
 title: Mouse and Pointers
 description: The mouse is the primary input device used to interact with objects in Windows.
-ms.assetid: '4d99287d-e908-4c8b-b4f6-6e8c91c6c93e'
+ms.assetid: 4d99287d-e908-4c8b-b4f6-6e8c91c6c93e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mouse and Pointers
@@ -58,7 +63,7 @@ Selectable objects use single-click to perform selection, so they require a doub
 
 Interacting with objects directly is referred to as direct manipulation. Pointing, clicking, selecting, moving, resizing, splitting, scrolling, panning, and zooming are common direct manipulations. By contrast, interacting with an object through its properties window or other dialog box could be described as indirect manipulation.
 
-**However, where there is direct manipulation, there can be accidental manipulation—and therefore the need for forgiveness.** Forgiveness is the ability to reverse or correct an undesired action easily. You make direct manipulations forgiving by providing undo, giving good visual feedback, and allowing users to correct mistakes easily. Associated with forgiveness is preventing undesired actions from happening in the first place, which you can do by using constrained controls and confirmations for risky actions or commands that have unintended consequences.
+**However, where there is direct manipulation, there can be accidental manipulation and therefore the need for forgiveness.** Forgiveness is the ability to reverse or correct an undesired action easily. You make direct manipulations forgiving by providing undo, giving good visual feedback, and allowing users to correct mistakes easily. Associated with forgiveness is preventing undesired actions from happening in the first place, which you can do by using constrained controls and confirmations for risky actions or commands that have unintended consequences.
 
 ### Standard mouse button interactions
 
@@ -92,7 +97,7 @@ The following tables describe the common pointer shapes, along with their intera
 
 
 
- 
+ 
 
 **Pointers**
 
@@ -108,7 +113,7 @@ The following tables describe the common pointer shapes, along with their intera
 
 
 
- 
+ 
 
 **Compound mouse interactions**
 
@@ -124,7 +129,7 @@ The following tables describe the common pointer shapes, along with their intera
 
 
 
- 
+ 
 
 **Activity indicators**
 
@@ -140,7 +145,7 @@ The following table shows pointers that users see when performing an action that
 
 
 
- 
+ 
 
 ### Custom mouse shapes
 
@@ -210,7 +215,7 @@ For more information and guidelines, see [Accessibility](inter-accessibility.md)
 1.  Give mouse interactions behaviors consistent with their standard effects, using the standard pointers whenever appropriate.
 2.  Limit advanced mouse interactions (those requiring right clicks, multiple clicks, or modifier keys) to advanced tasks targeted at advanced users.
 3.  Assign advanced mouse interactions consistent, predictable behaviors so that they can be used effectively.
-4.  Make sure your program provides the ability to reverse or correct any undesired actions—especially for destructive commands. Accidental actions are more likely when using direct manipulation.
+4.  Make sure your program provides the ability to reverse or correct any undesired actions especially for destructive commands. Accidental actions are more likely when using direct manipulation.
 
 ## Guidelines
 
@@ -248,7 +253,7 @@ The following table summarizes the mouse button interactions that apply in most 
 
 
 
- 
+ 
 
 ### Mouse interaction
 
@@ -373,9 +378,9 @@ When referring to mouse pointers:
 -   Hold down Shift and click the right mouse button.
 -   When the pointer becomes a ![screen shot of arrow with two crossbars](images/inter-mouse-image18.png), drag the pointer to move the split line.
 
- 
+ 
 
- 
+ 
 
 
 

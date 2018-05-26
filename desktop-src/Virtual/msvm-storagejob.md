@@ -1,8 +1,10 @@
 ---
 title: Msvm\_StorageJob class
 description: Represents an image operation job created by the Microsoft Hyper-V Image Management Service.
-ms.assetid: '7fae95c2-90e6-4cf1-8351-a04ca72a3491'
-keywords: ["Msvm_StorageJob class Hyper-V", "Msvm_StorageJob class Hyper-V , described"]
+ms.assetid: 7fae95c2-90e6-4cf1-8351-a04ca72a3491
+keywords:
+- Msvm_StorageJob class Hyper-V
+- Msvm_StorageJob class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -54,6 +56,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_StorageJob class
@@ -68,46 +75,46 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_StorageJob : CIM_ConcreteJob
 {
-  string   Caption = "Storage Job";
-  string   Description;
-  string   ElementName = "Storage Job";
+  string   Caption = "Storage Job";
+  string   Description;
+  string   ElementName = "Storage Job";
   datetime InstallDate;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  string   JobStatus;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  string   JobStatus;
   datetime TimeSubmitted;
   datetime ScheduledStartTime;
   datetime StartTime;
   datetime ElapsedTime;
-  uint32   JobRunTimes = 1;
-  uint8    RunMonth;
-  sint8    RunDay;
-  sint8    RunDayOfWeek;
+  uint32   JobRunTimes = 1;
+  uint8    RunMonth;
+  sint8    RunDay;
+  sint8    RunDayOfWeek;
   datetime RunStartInterval;
-  uint16   LocalOrUtcTime;
+  uint16   LocalOrUtcTime;
   datetime UntilTime;
-  string   Notify;
-  string   Owner;
-  uint32   Priority;
-  uint16   PercentComplete;
-  boolean  DeleteOnCompletion;
-  uint16   ErrorCode;
-  string   ErrorDescription;
-  string   ErrorSummaryDescription;
-  uint16   RecoveryAction;
-  string   OtherRecoveryAction;
-  string   InstanceID;
-  string   Name = "Storage Job";
-  uint16   JobState;
+  string   Notify;
+  string   Owner;
+  uint32   Priority;
+  uint16   PercentComplete;
+  boolean  DeleteOnCompletion;
+  uint16   ErrorCode;
+  string   ErrorDescription;
+  string   ErrorSummaryDescription;
+  uint16   RecoveryAction;
+  string   OtherRecoveryAction;
+  string   InstanceID;
+  string   Name = "Storage Job";
+  uint16   JobState;
   datetime TimeOfLastStateChange;
   datetime TimeBeforeRemoval = "00000000000500.000000:000";
-  boolean  Cancellable;
-  uint16   Type;
-  UINT32   JobCompletionStatusCode;
-  string   Parent;
-  string   Child;
+  boolean  Cancellable;
+  uint16   Type;
+  UINT32   JobCompletionStatusCode;
+  string   Parent;
+  string   Child;
 };
 ```
 
@@ -133,7 +140,7 @@ The **Msvm\_StorageJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1394,9 +1401,9 @@ Access to the **Msvm\_StorageJob** class might be restricted by UAC Filtering. F
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1415,9 +1422,9 @@ Access to the **Msvm\_StorageJob** class might be restricted by UAC Filtering. F
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

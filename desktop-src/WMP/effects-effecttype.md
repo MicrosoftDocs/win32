@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.effectType
 description: The effectType method retrieves the registry name of the visualization with the specified registry index. This name is a unique ID defined by the visualization author.
-ms.assetid: '47da4f3f-8552-4404-ad46-5dc6afca849a'
-keywords: ["EFFECTS.effectType Windows Media Player"]
+ms.assetid: 47da4f3f-8552-4404-ad46-5dc6afca849a
+keywords:
+- EFFECTS.effectType Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.effectType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.effectType
@@ -58,9 +64,9 @@ This method is useful for switching between visualizations in script. A user int
 [**EFFECTS.currentEffectType**](effects-currenteffecttype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

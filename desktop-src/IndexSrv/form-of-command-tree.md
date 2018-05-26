@@ -1,7 +1,12 @@
 ---
 title: Form of Command Tree
 description: Form of Command Tree
-ms.assetid: '1c0bafa8-667e-4be1-ae3d-ed5bd56c6502'
+ms.assetid: 1c0bafa8-667e-4be1-ae3d-ed5bd56c6502
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Form of Command Tree

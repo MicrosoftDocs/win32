@@ -1,13 +1,16 @@
 ---
-Description: 'The system registry contains resource-related data.'
+Description: The system registry contains resource-related data.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e66f1db8-a5f3-41d3-9835-34b81b9da5ed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e66f1db8-a5f3-41d3-9835-34b81b9da5ed
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Describing a Resource for the Registry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Describing a Resource for the Registry
@@ -16,8 +19,8 @@ The system registry contains resource-related data. This data is located under t
 
 ```
 HKEY_LOCAL_MACHINE
-   Hardware
-      ResourceMap
+   Hardware
+      ResourceMap
 ```
 
 The following procedure describes how to store resource-related information in the system registry.
@@ -84,14 +87,14 @@ The following procedure describes how to store resource-related information in t
 
     
 
-     
+     
 
 2.  Place the string in the appropriate key under the registry key.
 
     ```
     HKEY_LOCAL_MACHINE
-       Hardware
-          ResourceMap
+       Hardware
+          ResourceMap
     ```
 
 The following code example describes a valid resource descriptor.
@@ -125,9 +128,9 @@ instance of MyRegProp
 };
 ```
 
- 
+ 
 
- 
+ 
 
 
 

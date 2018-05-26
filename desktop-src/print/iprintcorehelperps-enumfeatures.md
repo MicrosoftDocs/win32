@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelperPS::EnumFeatures method gets a list of all available features, including synthesized and core driver-implement features.'
-ms.assetid: 'c67c15a4-3dbf-4317-b6d5-e52f426e7619'
-title: 'IPrintCoreHelperPS::EnumFeatures method'
+---
+Description: The IPrintCoreHelperPSEnumFeatures method gets a list of all available features, including synthesized and core driver-implement features.
+ms.assetid: c67c15a4-3dbf-4317-b6d5-e52f426e7619
+title: IPrintCoreHelperPSEnumFeatures method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperPS::EnumFeatures method

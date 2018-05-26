@@ -1,20 +1,25 @@
 ---
-Description: 'Occurs when the InkOverlay object or InkPicture control has completed redrawing itself.'
-ms.assetid: 'de3c69de-4a33-46e4-96e5-462805681bda'
-title: 'InkOverlay.Painted event'
+Description: Occurs when the InkOverlay object or InkPicture control has completed redrawing itself.
+ms.assetid: de3c69de-4a33-46e4-96e5-462805681bda
+title: InkOverlay.Painted event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkOverlay.Painted event
 
-Occurs when the [**InkOverlay**](inkoverlay-class.md) object or [InkPicture](inkpicture-control-reference.md) control has completed redrawing itself.
+Occurs when the [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object or [InkPicture](inkpicture-control-reference.md) control has completed redrawing itself.
 
 ## Syntax
 
 
 ```C++
 void Painted(
-  [in] long         hDC,
-  [in] InkRectangle *Rect
+  [in] long         hDC,
+  [in] InkRectangle *Rect
 );
 ```
 
@@ -34,7 +39,7 @@ The device context on which the event occurred.
 *Rect* \[in\]
 </dt> <dd>
 
-The [**InkRectangle**](inkrectangle-class.md) that was repainted.
+The [**InkRectangle**](/windows/win32/msinkaut/?branch=master) that was repainted.
 
 </dd> </dl>
 
@@ -52,7 +57,7 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -63,12 +68,12 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 <dl> <dt>
 
-[**InkOverlay Class**](inkoverlay-class.md)
+[**InkOverlay Class**](/windows/win32/msinkaut/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

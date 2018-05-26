@@ -1,14 +1,20 @@
 ---
 title: AlbumInfo Element
 description: The AlbumInfo element specifies the URL for the webpage that Windows Media Player displays when the user chooses to view more information about a particular media item.
-ms.assetid: 'c872e95a-3723-4ce8-8d61-e2bc9e12c785'
-keywords: ["AlbumInfo Element Windows Media Player"]
+ms.assetid: c872e95a-3723-4ce8-8d61-e2bc9e12c785
+keywords:
+- AlbumInfo Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AlbumInfo Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AlbumInfo Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **AlbumInfo** element specifies the URL for the webpage that Windows Media Player displays when the user chooses to view more information about a particular media item.
 
@@ -49,7 +55,7 @@ URL for the webpage that Windows Media Player displays.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,7 +76,7 @@ When the user clicks a button in Windows Media Player to view additional informa
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -95,9 +101,9 @@ When the user clicks a button in Windows Media Player to view additional informa
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Extensions for Properties
 description: Extensions for Properties
-ms.assetid: '6f3379ea-bc19-4ed1-8356-e8d692341e5f'
+ms.assetid: 6f3379ea-bc19-4ed1-8356-e8d692341e5f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extensions for Properties

@@ -1,7 +1,12 @@
 ---
 title: Defining Filters
 description: A provider can define filters that a session uses to filter events based on event data.
-ms.assetid: 'b43912af-0e9c-414b-b3fa-03e7e35e493c'
+ms.assetid: b43912af-0e9c-414b-b3fa-03e7e35e493c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining Filters

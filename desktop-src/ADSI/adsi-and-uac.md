@@ -4,10 +4,13 @@ description: Windows and Windows Server have User Account Control, which has ram
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0b286252-8c24-4a18-9dc6-063ca158a8ff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0b286252-8c24-4a18-9dc6-063ca158a8ff
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI and User Account Control

@@ -1,7 +1,12 @@
 ---
 title: Transferring Data Between the Supplicant and EAP Methods
 description: Allows data to be exchanged between supplicants and EAP methods.
-ms.assetid: 'f1bcff61-286a-4f18-8a5d-93d5d1fd2b5b'
+ms.assetid: f1bcff61-286a-4f18-8a5d-93d5d1fd2b5b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transferring Data Between the Supplicant and EAP Methods
@@ -10,15 +15,15 @@ Using EAP attributes allows data to be exchanged between supplicants and EAP met
 
 ## Attribute Consumption
 
-[**EapHostPeerBeginSession**](eaphostpeerbeginsession.md) consumes EAP attributes that are passed directly to the configured EAP method. Similarly, EAP methods are free to return an action code that indicates to the supplicant that attributes are available and that it should collect the attributes using [**EapHostPeerGetResponseAttributes**](eaphostpeergetresponseattributes.md).
+[**EapHostPeerBeginSession**](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerbeginsession?branch=master) consumes EAP attributes that are passed directly to the configured EAP method. Similarly, EAP methods are free to return an action code that indicates to the supplicant that attributes are available and that it should collect the attributes using [**EapHostPeerGetResponseAttributes**](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeergetresponseattributes?branch=master).
 
 For more information, see the following topics.
 
--   [EAP Peer Supplicant Action Codes](eaphostpeerresponseaction.md).
--   [EAP Peer Supplicant Reason Codes](eaphostpeermethodresultreason.md).
--   [EAP Authenticator Method Action Codes](eap-method-authenticator-response-action.md).
+-   [EAP Peer Supplicant Action Codes](/windows/previous-versions/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerresponseaction?branch=master).
+-   [EAP Peer Supplicant Reason Codes](/windows/previous-versions/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeermethodresultreason?branch=master).
+-   [EAP Authenticator Method Action Codes](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-_eap_method_authenticator_response_action?branch=master).
 
-Supplicants are expected to ignore attributes that they do not recognize or cannot act upon. Using [**EapHostPeerSetResponseAttributes**](eaphostpeersetresponseattributes.md) these ignored attributes are sent back to EAPHost and the EAP method.
+Supplicants are expected to ignore attributes that they do not recognize or cannot act upon. Using [**EapHostPeerSetResponseAttributes**](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeersetresponseattributes?branch=master) these ignored attributes are sent back to EAPHost and the EAP method.
 
 ## Vendor Specific Attributes
 
@@ -27,7 +32,7 @@ By using the vendor-specific EAP attribute, EAP methods and supplicants can enga
 For more information, see the following topics.
 
 -   [EAP Attributes](about-eap-attributes.md).
--   [**EAP\_ATTRIBUTE\_TYPE**](eap-attribute-type.md).
+-   [**EAP\_ATTRIBUTE\_TYPE**](/windows/previous-versions/eaptypes/ne-eaptypes-_eap_attribute_type?branch=master).
 
 ## Related topics
 

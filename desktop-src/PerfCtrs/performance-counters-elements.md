@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'dc5dd33c-a2ed-4c0c-9f54-aca3df57d4fb'
+ms.assetid: dc5dd33c-a2ed-4c0c-9f54-aca3df57d4fb
 title: Performance Counters Elements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance Counters Elements

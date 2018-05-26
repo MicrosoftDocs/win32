@@ -4,17 +4,22 @@ description: Indicates the minimum private key size.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e38fbab5-14db-40d1-80c4-c14477c6f0da'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e38fbab5-14db-40d1-80c4-c14477c6f0da
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-PKI-Minimal-Key-Size attribute AD Schema", "msPKI-Minimal-Key-Size attribute AD Schema"]
+keywords:
+- ms-PKI-Minimal-Key-Size attribute AD Schema
+- msPKI-Minimal-Key-Size attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-PKI-Minimal-Key-Size
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-PKI-Minimal-Key-Size attribute
@@ -38,11 +43,11 @@ Indicates the minimum private key size.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Indicates the minimum private key size.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Using Visual J++ with Indexing Service APIs
 description: Using Visual J++ with Indexing Service APIs
-ms.assetid: 'a3060a49-5442-40e2-a1b1-992334838f92'
+ms.assetid: a3060a49-5442-40e2-a1b1-992334838f92
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Visual J++ with Indexing Service APIs

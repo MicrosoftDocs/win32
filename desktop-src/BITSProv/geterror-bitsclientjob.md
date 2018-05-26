@@ -1,8 +1,11 @@
 ---
 title: GetError method of the BitsClientJob class
 description: The GetError method gets the error codes and error context for a BITS transfer job error.
-ms.assetid: 'b18eb26f-e70f-49fb-a609-a12f4d039824'
-keywords: ["GetError method", "GetError method, BitsClientJob class", "BitsClientJob class, GetError method"]
+ms.assetid: b18eb26f-e70f-49fb-a609-a12f4d039824
+keywords:
+- GetError method
+- GetError method, BitsClientJob class
+- BitsClientJob class, GetError method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetError method of the BitsClientJob class
@@ -22,11 +30,11 @@ The **GetError** method gets the error codes and error context for a BITS transf
 
 ```mof
 uint32 GetError(
-  [in]  uint32 LanguageId,
-  [out] uint32 ErrorContext,
-  [out] uint32 ErrorCode,
-  [out] string ContextDescription,
-  [out] string ErrorDescription
+  [in]  uint32 LanguageId,
+  [out] uint32 ErrorContext,
+  [out] uint32 ErrorCode,
+  [out] string ContextDescription,
+  [out] string ErrorDescription
 );
 ```
 
@@ -63,7 +71,7 @@ Specifies the context in which the error occurred. The following values are poss
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -95,8 +103,8 @@ Specifies the description of the error code that resulted in the BITS transfer j
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
@@ -109,9 +117,9 @@ Specifies the description of the error code that resulted in the BITS transfer j
 [**BitsClientJob**](bitsclientjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

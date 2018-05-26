@@ -1,7 +1,12 @@
-﻿---
-Description: 'For a 3D video format, specifies which view is the base view.'
-ms.assetid: '11555BA0-D9BE-4239-A857-C9EEE86A8520'
-title: 'MF\_MT\_VIDEO\_3D\_LEFT\_IS\_BASE attribute'
+---
+Description: For a 3D video format, specifies which view is the base view.
+ms.assetid: 11555BA0-D9BE-4239-A857-C9EEE86A8520
+title: MF\_MT\_VIDEO\_3D\_LEFT\_IS\_BASE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_VIDEO\_3D\_LEFT\_IS\_BASE attribute

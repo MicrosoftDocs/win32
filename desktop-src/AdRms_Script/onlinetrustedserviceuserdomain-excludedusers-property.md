@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a collection of excluded Windows Live ID user identities.'
+Description: Retrieves a collection of excluded Windows Live ID user identities.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'eb4ae52e-842c-4857-a8c4-be1fd16eb1ea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: eb4ae52e-842c-4857-a8c4-be1fd16eb1ea
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'OnlineTrustedServiceUserDomain.ExcludedUsers property'
+title: OnlineTrustedServiceUserDomain.ExcludedUsers property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnlineTrustedServiceUserDomain.ExcludedUsers property
@@ -131,7 +134,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -146,9 +149,9 @@ END SUB
 [**OnlineTrustedServiceUserDomain**](onlinetrustedserviceuserdomain-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

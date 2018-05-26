@@ -1,7 +1,12 @@
 ---
 title: Microsoft Agent Speech Output Tags
 description: Microsoft Agent Speech Output Tags
-ms.assetid: 'b7939974-bc54-4dd8-8e79-3ebd24e76215'
+ms.assetid: b7939974-bc54-4dd8-8e79-3ebd24e76215
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Agent Speech Output Tags

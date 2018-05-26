@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMDevicePropertySheets function
-ms.assetid: '7042a08d-b45e-49f2-acd2-1f5b6146c1da'
+ms.assetid: 7042a08d-b45e-49f2-acd2-1f5b6146c1da
 title: OEMDevicePropertySheets function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMDevicePropertySheets function

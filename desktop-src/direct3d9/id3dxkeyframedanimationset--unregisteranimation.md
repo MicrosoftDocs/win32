@@ -1,7 +1,12 @@
-﻿---
-Description: 'Remove the animation data from the animation set.'
-ms.assetid: '9821d21e-fe8f-4742-b4f3-63b2578d29ec'
-title: 'ID3DXKeyframedAnimationSet::UnregisterAnimation method'
+---
+Description: Remove the animation data from the animation set.
+ms.assetid: 9821d21e-fe8f-4742-b4f3-63b2578d29ec
+title: ID3DXKeyframedAnimationSetUnregisterAnimation method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXKeyframedAnimationSet::UnregisterAnimation method

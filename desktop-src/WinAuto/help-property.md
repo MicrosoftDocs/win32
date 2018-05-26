@@ -1,14 +1,19 @@
 ---
 title: Help Property
 description: The Help property provides information that tells the user about the function of an object.
-ms.assetid: '3df0cc01-cc99-42a1-9d56-591e6e00e53d'
+ms.assetid: 3df0cc01-cc99-42a1-9d56-591e6e00e53d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Help Property
 
 The **Help** property provides information that tells the user about the function of an object.
 
-The **Help** property is retrieved by calling [**IAccessible::get\_accHelp**](iaccessible-iaccessible--get-acchelp.md).
+The **Help** property is retrieved by calling [**IAccessible::get\_accHelp**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_acchelp?branch=master).
 
 This property contains balloon-style information (as found in ToolTips) that is used either to describe what the object does or how to use it. For example, the **Help** property for a toolbar button that shows a printer might provide the following text: "Prints the current document."
 

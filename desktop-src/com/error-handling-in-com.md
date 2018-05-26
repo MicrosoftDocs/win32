@@ -1,7 +1,12 @@
 ---
 title: Error Handling in COM
 description: Error Handling in COM
-ms.assetid: '15f3ae3e-1794-4948-a7aa-6309a703364b'
+ms.assetid: 15f3ae3e-1794-4948-a7aa-6309a703364b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Handling in COM

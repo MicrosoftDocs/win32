@@ -1,8 +1,9 @@
 ---
 title: TB\_GETEXTENDEDSTYLE message
 description: Retrieves the extended styles for a toolbar control.
-ms.assetid: 'd9e31a8e-5e5a-4d2d-bc3b-65ac40e8592f'
-keywords: ["TB_GETEXTENDEDSTYLE message Windows Controls"]
+ms.assetid: d9e31a8e-5e5a-4d2d-bc3b-65ac40e8592f
+keywords:
+- TB_GETEXTENDEDSTYLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETEXTENDEDSTYLE message
@@ -37,8 +43,8 @@ Returns a **DWORD** that represents the styles currently in use for the toolbar 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns a **DWORD** that represents the styles currently in use for the toolbar 
 [**TB\_SETEXTENDEDSTYLE**](tb-setextendedstyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

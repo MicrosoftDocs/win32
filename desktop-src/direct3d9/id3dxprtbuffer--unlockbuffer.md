@@ -1,7 +1,12 @@
-﻿---
-Description: 'Ends the lifespan of the ppData pointer returned by ID3DXPRTBuffer::LockBuffer.'
-ms.assetid: '25464566-8a93-48a4-93fa-17828861f98c'
-title: 'ID3DXPRTBuffer::UnlockBuffer method'
+---
+Description: Ends the lifespan of the ppData pointer returned by ID3DXPRTBufferLockBuffer.
+ms.assetid: 25464566-8a93-48a4-93fa-17828861f98c
+title: ID3DXPRTBufferUnlockBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTBuffer::UnlockBuffer method

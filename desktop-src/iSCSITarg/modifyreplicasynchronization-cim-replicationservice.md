@@ -4,13 +4,16 @@ description: Modify (or start a job to modify) the synchronization association b
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7ab7dcf3-7e92-474b-bef8-c0b5666b93a3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7ab7dcf3-7e92-474b-bef8-c0b5666b93a3
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ModifyReplicaSynchronization method iSCSI Software Target API", "ModifyReplicaSynchronization method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , ModifyReplicaSynchronization method"]
+keywords:
+- ModifyReplicaSynchronization method iSCSI Software Target API
+- ModifyReplicaSynchronization method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , ModifyReplicaSynchronization method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ModifyReplicaSynchronization method of the CIM\_ReplicationService class
@@ -30,14 +36,14 @@ Modify (or start a job to modify) the synchronization association between two st
 
 ```mof
 uint32 ModifyReplicaSynchronization(
-  [in]  uint16                      Operation,
-  [in]  CIM_Synchronized        REF Synchronization,
-  [in]  string                      ReplicationSettingData,
-  [in]  CIM_StorageSynchronized REF SyncPair[],
-  [out] CIM_ConcreteJob         REF Job,
-  [out] CIM_SettingsDefineState REF SettingsState,
-  [in]  boolean                     Force,
-  [in]  uint16                      WaitForCopyState
+  [in]  uint16                      Operation,
+  [in]  CIM_Synchronized        REF Synchronization,
+  [in]  string                      ReplicationSettingData,
+  [in]  CIM_StorageSynchronized REF SyncPair[],
+  [out] CIM_ConcreteJob         REF Job,
+  [out] CIM_SettingsDefineState REF SettingsState,
+  [in]  boolean                     Force,
+  [in]  uint16                      WaitForCopyState
 );
 ```
 
@@ -213,14 +219,14 @@ Operation describes the type of modification to be made to the replica and/or to
 **DMTF Reserved**
 
 
-</dt> <dd>24–32767</dd> <dt>
+</dt> <dd>24 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Synchronization* \[in\]
 </dt> <dd>
@@ -296,16 +302,16 @@ Method must wait until this CopyState is reached before returning. Only a subset
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -315,7 +321,7 @@ Method must wait until this CopyState is reached before returning. Only a subset
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -329,9 +335,9 @@ Method must wait until this CopyState is reached before returning. Only a subset
 **CIM\_ReplicationService**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

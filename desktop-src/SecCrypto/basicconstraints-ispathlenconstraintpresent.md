@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a Boolean value that indicates whether the path length constraint is present.'
-ms.assetid: '25840a62-13d1-4b54-9b09-64f77a465e06'
-title: 'BasicConstraints.IsPathLenConstraintPresent property'
+---
+Description: Retrieves a Boolean value that indicates whether the path length constraint is present.
+ms.assetid: 25840a62-13d1-4b54-9b09-64f77a465e06
+title: BasicConstraints.IsPathLenConstraintPresent property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BasicConstraints.IsPathLenConstraintPresent property

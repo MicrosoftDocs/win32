@@ -4,17 +4,21 @@ description: Initialize an MSPolicyDescriptor with user roles.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'D7A52307-8EE2-45E8-BF2B-F1EB11FD9FAC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: D7A52307-8EE2-45E8-BF2B-F1EB11FD9FAC
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSPolicyDescriptor initWithUserRoles userRoles method"]
+keywords:
+- MSPolicyDescriptor initWithUserRoles userRoles method
 topic_type:
 - apiref
 api_name:
 - MSPolicyDescriptor initWithUserRoles userRoles method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSPolicyDescriptor initWithUserRoles:userRoles method
@@ -37,7 +41,7 @@ Initialize an [**MSPolicyDescriptor**](mspolicydescriptor-interface-objc.md) wit
 
 
 
- 
+ 
 
 ## Returns
 
@@ -57,11 +61,11 @@ MSPolicyDescriptor.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

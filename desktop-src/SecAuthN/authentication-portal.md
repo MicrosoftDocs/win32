@@ -1,7 +1,12 @@
 ---
-Description: 'Programmers use authentication technologies to create password management software, single sign on authentication, strong authentication, user authentication, and identity verification.'
-ms.assetid: '7863dbee-aa48-4024-886c-1056d7141e60'
+Description: Programmers use authentication technologies to create password management software, single sign on authentication, strong authentication, user authentication, and identity verification.
+ms.assetid: 7863dbee-aa48-4024-886c-1056d7141e60
 title: Authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication
@@ -14,7 +19,7 @@ Microsoft authentication technologies include LSA Authentication, Credentials Ma
 
 ## Developer audience
 
-Microsoft authentication technologies are intended for use by developers of applications that are based on the Windows Server, Windows Vista, and Windows operating systems that authenticate clients. Developers should be familiar with Windows-based programming. Although not required, an understanding of authentication or security-related subjects is advised.
+Microsoft authentication technologies are intended for use by developers of applications that are based on the Windows Server, Windows Vista, and Windows operating systems that authenticate clients. Developers should be familiar with Windows-based programming. Although not required, an understanding of authentication or security-related subjects is advised.
 
 ## Run-time requirements
 
@@ -32,11 +37,11 @@ For information about run-time requirements for a particular programming element
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

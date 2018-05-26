@@ -4,13 +4,15 @@ description: ElementSoftwareIdentity allows a Managed Element to report its soft
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '77d6c2a4-aebe-4e1e-9647-06175c000114'
-ms.prod: 'windows-server-dev'
+ms.assetid: 77d6c2a4-aebe-4e1e-9647-06175c000114
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ElementSoftwareIdentity class iSCSI Software Target API", "CIM_ElementSoftwareIdentity class iSCSI Software Target API , described"]
+keywords:
+- CIM_ElementSoftwareIdentity class iSCSI Software Target API
+- CIM_ElementSoftwareIdentity class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ElementSoftwareIdentity class
@@ -38,9 +43,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ElementSoftwareIdentity : CIM_Dependency
 {
   CIM_SoftwareIdentity REF Antecedent;
-  CIM_ManagedElement   REF Dependent;
-  uint16                   UpgradeCondition;
-  string                   OtherUpgradeCondition;
+  CIM_ManagedElement   REF Dependent;
+  uint16                   UpgradeCondition;
+  string                   OtherUpgradeCondition;
 };
 ```
 
@@ -167,14 +172,14 @@ Indicates the element's ability to upgrade this software asset. 'Resides off ele
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -185,16 +190,16 @@ Indicates the element's ability to upgrade this software asset. 'Resides off ele
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

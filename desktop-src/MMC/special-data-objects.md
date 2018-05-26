@@ -4,11 +4,15 @@ description: Demonstrates the use of a custom data object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '22db48da-3b94-40c6-9b0a-aff1ade33d7e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 22db48da-3b94-40c6-9b0a-aff1ade33d7e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["special data objects MMC"]
+keywords:
+- special data objects MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Special Data Objects

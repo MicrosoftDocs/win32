@@ -1,14 +1,22 @@
 ---
 title: Device.onDeviceReset event
 description: The onDeviceReset event occurs when the device is about to reset.
-ms.assetid: 'd9cf8bbb-594c-4a41-a1f3-ff4ed21b6add'
-keywords: ["onDeviceReset event WPD Automation", "onDeviceReset event WPD Automation , Device object", "Device object WPD Automation , onDeviceReset event"]
+ms.assetid: d9cf8bbb-594c-4a41-a1f3-ff4ed21b6add
+keywords:
+- onDeviceReset event WPD Automation
+- onDeviceReset event WPD Automation , Device object
+- Device object WPD Automation , onDeviceReset event
 topic_type:
 - apiref
 api_name:
 - Device.onDeviceReset
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device.onDeviceReset event
@@ -70,8 +78,8 @@ deviceObject.onDeviceReset = null;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -82,9 +90,9 @@ deviceObject.onDeviceReset = null;
 [**Device Object**](device-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

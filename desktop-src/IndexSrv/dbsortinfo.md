@@ -1,8 +1,14 @@
 ---
 title: DBSORTINFO
 description: DBSORTINFO
-ms.assetid: '4ab784d9-0458-4690-b5ba-f98c9df056a9'
-keywords: ["DBSORTINFO"]
+ms.assetid: 4ab784d9-0458-4690-b5ba-f98c9df056a9
+keywords:
+- DBSORTINFO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBSORTINFO

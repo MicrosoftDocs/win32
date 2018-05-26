@@ -1,7 +1,12 @@
 ---
 title: User Account Control
 description: A well designed User Account Control experience helps prevent unwanted system-wide changes in a way that is predictable and requires minimal effort.
-ms.assetid: 'c4b83537-c600-4b24-bda6-df7a82719ab1'
+ms.assetid: c4b83537-c600-4b24-bda6-df7a82719ab1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Account Control
@@ -56,7 +61,7 @@ A well designed User Account Control experience has the following goals:
 
 When a task requires elevation, it has the following steps:
 
-1.  **Entry point.** Tasks that require immediate elevation when UAC is fully enabled have entry points marked with the UAC shield. In this case, users should expect to see an Elevation UI immediately after clicking such commands—and they should be extra cautious when they see Elevation UI from tasks that don't have a shield.
+1.  **Entry point.** Tasks that require immediate elevation when UAC is fully enabled have entry points marked with the UAC shield. In this case, users should expect to see an Elevation UI immediately after clicking such commands and they should be extra cautious when they see Elevation UI from tasks that don't have a shield.
 
     ![screen shot of uac shield icons and their labels ](images/winenv-uac-image4.png)
 
@@ -204,7 +209,7 @@ User Account Control has several usage patterns (in order of preference):
 
     
 
-     
+     
 
 ### Elevation UI
 
@@ -250,9 +255,9 @@ In programming and other technical documentation:
 -   In the context of UAC, refer to administrators as Protected administrators when not elevated, and Elevated administrators after elevation.
 -   Refer to the dialog box used to enter passwords as the Credential UI. Refer to the dialog box used to give consent as the Consent UI. Refer to both generally as Elevation UI.
 
- 
+ 
 
- 
+ 
 
 
 

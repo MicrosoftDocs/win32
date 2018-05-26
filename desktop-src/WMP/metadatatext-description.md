@@ -1,8 +1,9 @@
 ---
 title: MetadataText.description
 description: The description property retrieves a description of the metadata text.
-ms.assetid: 'df8c9c0f-7ae9-42e8-bca6-9dc42e899212'
-keywords: ["MetadataText.description Windows Media Player"]
+ms.assetid: df8c9c0f-7ae9-42e8-bca6-9dc42e899212
+keywords:
+- MetadataText.description Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetadataText.description
@@ -55,9 +61,9 @@ To retrieve the value of this property, read access to the library is required. 
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

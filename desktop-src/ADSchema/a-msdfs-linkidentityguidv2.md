@@ -4,17 +4,22 @@ description: To be set only when the link is created. Stable across rename or mo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '019d2ca8-7b61-45ae-9032-a2501faedb2f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 019d2ca8-7b61-45ae-9032-a2501faedb2f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFS-Link-Identity-GUID-v2 attribute AD Schema", "msDFS-LinkIdentityGUIDv2 attribute AD Schema"]
+keywords:
+- ms-DFS-Link-Identity-GUID-v2 attribute AD Schema
+- msDFS-LinkIdentityGUIDv2 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFS-Link-Identity-GUID-v2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFS-Link-Identity-GUID-v2 attribute
@@ -38,9 +43,9 @@ To be set only when the link is created. Stable across rename or move as long as
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ To be set only when the link is created. Stable across rename or move as long as
 
 
 
- 
+ 
 
- 
+ 
 
 
 

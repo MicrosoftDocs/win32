@@ -1,20 +1,25 @@
 ---
 Description: Pull Model
-ms.assetid: 'b5246dfe-e6ee-4b91-bfe3-2ec8b8723938'
+ms.assetid: b5246dfe-e6ee-4b91-bfe3-2ec8b8723938
 title: Pull Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pull Model
 
-In the [**IMemInputPin**](imeminputpin.md) interface, the upstream filter determines what data to send, and it pushes the data to the downstream filter. For some filters, a *pull* model is more appropriate. Here, the downstream filter requests data from the upstream filter. Samples still travel downstream, from output pin to input pin, but the downstream filter initiates the data flow. This type of connection uses the [**IAsyncReader**](iasyncreader.md) interface.
+In the [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interface, the upstream filter determines what data to send, and it pushes the data to the downstream filter. For some filters, a *pull* model is more appropriate. Here, the downstream filter requests data from the upstream filter. Samples still travel downstream, from output pin to input pin, but the downstream filter initiates the data flow. This type of connection uses the [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) interface.
 
 The typical use for the pull model is in file playback. For example, in an AVI playback graph, the [Async File Source](file-source--async--filter.md) filter performs generic file reading operations and delivers the data as a byte stream, with no format information. The [AVI Splitter](avi-splitter-filter.md) filter reads the AVI headers and parses the stream into video and audio samples. The AVI Splitter can determine what data it needs better than the Async File Source filter, and therefore it uses **IAsyncReader** instead of **IMemInputPin**.
 
 To request data from the output pin, the input pin calls one of the following methods:
 
--   [**IAsyncReader::Request**](iasyncreader-request.md)
--   [**IAsyncReader::SyncRead**](iasyncreader-syncread.md)
--   [**IAsyncReader::SyncReadAligned**](iasyncreader-syncreadaligned.md).
+-   [**IAsyncReader::Request**](/windows/win32/Strmif/nf-strmif-iasyncreader-request?branch=master)
+-   [**IAsyncReader::SyncRead**](/windows/win32/Strmif/nf-strmif-iasyncreader-syncread?branch=master)
+-   [**IAsyncReader::SyncReadAligned**](/windows/win32/Strmif/nf-strmif-iasyncreader-syncreadaligned?branch=master).
 
 The first method is asynchronous, to support multiple overlapped reads. The others are synchronous.
 

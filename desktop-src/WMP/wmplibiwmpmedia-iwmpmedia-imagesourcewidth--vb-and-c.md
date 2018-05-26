@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia imageSourceWidth property
 description: The imageSourceWidth property gets the width of the current media item in pixels.
-ms.assetid: 'd3644217-6faf-415e-b0c0-23db85c31a3a'
-keywords: ["imageSourceWidth property Windows Media Player", "imageSourceWidth property Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , imageSourceWidth property"]
+ms.assetid: d3644217-6faf-415e-b0c0-23db85c31a3a
+keywords:
+- imageSourceWidth property Windows Media Player
+- imageSourceWidth property Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , imageSourceWidth property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::imageSourceWidth property
@@ -148,9 +156,9 @@ End Sub</code></pre></td>
 [**IWMPMedia Interface (VB and C#)**](iwmpmedia--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

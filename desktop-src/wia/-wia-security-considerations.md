@@ -1,7 +1,12 @@
 ---
-Description: 'This document provides information about security considerations related to Windows Image Acquisition (WIA).'
-ms.assetid: '35455320-7d08-49de-938d-40dc0873917b'
-title: 'Security Considerations: Windows Image Acquisition'
+Description: This document provides information about security considerations related to Windows Image Acquisition (WIA).
+ms.assetid: 35455320-7d08-49de-938d-40dc0873917b
+title: Security Considerations Windows Image Acquisition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Considerations: Windows Image Acquisition
@@ -15,7 +20,7 @@ This document provides information about security considerations related to Wind
 
 ## Use quotation marks around path names
 
-When using [**IWiaDevMgr::RegisterEventCallbackProgram**](-wia-iwiadevmgr-registereventcallbackprogram.md) to register an application to receive device events, be sure to surround the path and filename of the application with quotation marks. This avoids the possibility that the path is misinterpreted and an unauthorized application is run.
+When using [**IWiaDevMgr::RegisterEventCallbackProgram**](/windows/win32/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackprogram?branch=master) to register an application to receive device events, be sure to surround the path and filename of the application with quotation marks. This avoids the possibility that the path is misinterpreted and an unauthorized application is run.
 
 ## Place registered applications in secure locations
 

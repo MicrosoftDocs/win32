@@ -1,7 +1,12 @@
 ---
-Description: 'The Active method notifies the pin that the filter is now active.'
-ms.assetid: 'c2b8eb54-1bae-4f52-8324-dc70e3cac577'
-title: 'CDynamicOutputPin.Active method'
+Description: The Active method notifies the pin that the filter is now active.
+ms.assetid: c2b8eb54-1bae-4f52-8324-dc70e3cac577
+title: CDynamicOutputPin.Active method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.Active method
@@ -34,7 +39,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +63,9 @@ This method overrides the [**CBaseOutputPin::Active**](cbaseoutputpin-active.md)
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

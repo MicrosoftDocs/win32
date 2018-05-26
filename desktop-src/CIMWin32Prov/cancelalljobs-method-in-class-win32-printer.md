@@ -1,15 +1,18 @@
 ---
-Description: 'Removes all jobs, including the one currently printing from the queue.'
+Description: Removes all jobs, including the one currently printing from the queue.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd7466513-b123-43af-ab17-b3213ba80284'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d7466513-b123-43af-ab17-b3213ba80284
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CancelAllJobs method of the Win32\_Printer class'
+title: CancelAllJobs method of the Win32\_Printer class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CancelAllJobs method of the Win32\_Printer class
@@ -81,8 +84,8 @@ Next
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>Win32\_Printer.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl>       |
@@ -99,9 +102,9 @@ Next
 [**Win32\_Printer**](win32-printer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

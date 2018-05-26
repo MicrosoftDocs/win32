@@ -1,14 +1,21 @@
 ---
 title: actionGroup Group
 description: Defines the group of actions that a task can perform.
-ms.assetid: 'a43ba021-4a40-4e2c-a57f-bd6ee17706ba'
-keywords: ["actionGroup group Task Scheduler", "actionGroup Task Scheduler"]
+ms.assetid: a43ba021-4a40-4e2c-a57f-bd6ee17706ba
+keywords:
+- actionGroup group Task Scheduler
+- actionGroup Task Scheduler
 topic_type:
 - apiref
 api_name:
 - actionGroup
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # actionGroup Group
@@ -57,8 +64,8 @@ When reading or writing XML, the elements that are defined by this group are the
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +76,9 @@ When reading or writing XML, the elements that are defined by this group are the
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

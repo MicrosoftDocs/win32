@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the inheritance relationship for a service.'
-ms.assetid: 'e7f5314a-75e8-4f36-8e18-d614eda7a097'
-title: 'WPD\_SERVICE\_INHERITANCE\_TYPES enumeration'
+Description: Specifies the inheritance relationship for a service.
+ms.assetid: e7f5314a-75e8-4f36-8e18-d614eda7a097
+title: WPD\_SERVICE\_INHERITANCE\_TYPES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_SERVICE\_INHERITANCE\_TYPES enumeration
@@ -13,7 +18,7 @@ The **WPD\_SERVICE\_INHERITANCE\_TYPES** enumeration type specifies the inherita
 
 ```C++
 typedef enum tagWPD_SERVICE_INHERITANCE_TYPES { 
-  WPD_SERVICE_INHERITANCE_IMPLEMENTATION  = 0
+  WPD_SERVICE_INHERITANCE_IMPLEMENTATION  = 0
 } WPD_SERVICE_INHERITANCE_TYPES;
 ```
 
@@ -44,12 +49,12 @@ The service inherits by implementing an abstract service definition.
 
 <dl> <dt>
 
-[**IPortableDeviceServiceCapabilities::GetInheritedServices**](iportabledeviceservicecapabilities-getinheritedservices.md)
+[**IPortableDeviceServiceCapabilities::GetInheritedServices**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getinheritedservices?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

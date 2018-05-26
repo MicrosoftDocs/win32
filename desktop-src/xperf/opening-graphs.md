@@ -1,7 +1,12 @@
 ---
 title: Opening Graphs
 description: Opening Graphs
-ms.assetid: '23571bf3-be94-49b1-b137-43883876d3cd'
+ms.assetid: 23571bf3-be94-49b1-b137-43883876d3cd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening Graphs

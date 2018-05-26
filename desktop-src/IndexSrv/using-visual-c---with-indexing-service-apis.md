@@ -1,7 +1,12 @@
 ---
 title: Using Visual C++ with Indexing Service APIs
 description: Using Visual C++ with Indexing Service APIs
-ms.assetid: 'e310c803-fea6-4fd6-b535-12c5033f31b1'
+ms.assetid: e310c803-fea6-4fd6-b535-12c5033f31b1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Visual C++ with Indexing Service APIs

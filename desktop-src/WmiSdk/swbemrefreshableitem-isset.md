@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemRefreshableItem.IsSet property is a Boolean value that indicates whether the SWbemRefreshableItem object represents a single object or an object set.SWbemRefreshableItem object represents a single object or an object set.'
+Description: The SWbemRefreshableItem.IsSet property is a Boolean value that indicates whether the SWbemRefreshableItem object represents a single object or an object set.SWbemRefreshableItem object represents a single object or an object set.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4be5d27c-9020-4150-84ce-f9efc55be947'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4be5d27c-9020-4150-84ce-f9efc55be947
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemRefreshableItem.IsSet property'
+title: SWbemRefreshableItem.IsSet property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemRefreshableItem.IsSet property
@@ -39,8 +42,8 @@ If **SWbemRefreshableItem.IsSet** is **TRUE**, then the item represents an [**SW
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -59,9 +62,9 @@ If **SWbemRefreshableItem.IsSet** is **TRUE**, then the item represents an [**SW
 [**SWbemRefreshableItem**](swbemrefresher.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

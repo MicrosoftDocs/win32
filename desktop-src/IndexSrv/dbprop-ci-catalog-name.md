@@ -1,8 +1,14 @@
 ---
 title: DBPROP\_CI\_CATALOG\_NAME
 description: DBPROP\_CI\_CATALOG\_NAME
-ms.assetid: 'cdbef8a8-a6ce-4a80-abd6-712e247dccd7'
-keywords: ["DBPROP_CI_CATALOG_NAME"]
+ms.assetid: cdbef8a8-a6ce-4a80-abd6-712e247dccd7
+keywords:
+- DBPROP_CI_CATALOG_NAME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPROP\_CI\_CATALOG\_NAME

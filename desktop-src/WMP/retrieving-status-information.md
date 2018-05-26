@@ -1,8 +1,23 @@
 ---
 title: Retrieving Status Information
 description: Retrieving Status Information
-ms.assetid: '61561520-705a-4d06-a72c-c1cc6315f54e'
-keywords: ["Windows Media Player online stores,Download Manager", "online stores,Download Manager", "type 2 online stores,Download Manager", "Windows Media Player online stores,retrieving status", "online stores,retrieving status", "type 2 online stores,retrieving status", "Windows Media Player,Download Manager", "Windows Media Player Download Manager", "Download Manager", "retrieving status"]
+ms.assetid: 61561520-705a-4d06-a72c-c1cc6315f54e
+keywords:
+- Windows Media Player online stores,Download Manager
+- online stores,Download Manager
+- type 2 online stores,Download Manager
+- Windows Media Player online stores,retrieving status
+- online stores,retrieving status
+- type 2 online stores,retrieving status
+- Windows Media Player,Download Manager
+- Windows Media Player Download Manager
+- Download Manager
+- retrieving status
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Status Information

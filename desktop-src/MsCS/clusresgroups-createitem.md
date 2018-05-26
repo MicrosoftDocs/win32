@@ -4,11 +4,14 @@ description: Creates a group in the cluster and adds it to the ClusResGroups col
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1b43a7d4-db08-402d-9910-464ba3ea8d18'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1b43a7d4-db08-402d-9910-464ba3ea8d18
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CreateItem method Failover Cluster", "CreateItem method Failover Cluster , ClusResGroups collection", "ClusResGroups collection Failover Cluster , CreateItem method"]
+keywords:
+- CreateItem method Failover Cluster
+- CreateItem method Failover Cluster , ClusResGroups collection
+- ClusResGroups collection Failover Cluster , CreateItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResGroups.CreateItem method
@@ -58,7 +64,7 @@ A [**ClusResGroup**](clusresgroup-object.md) object that receives the new group.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -77,9 +83,9 @@ A [**ClusResGroup**](clusresgroup-object.md) object that receives the new group.
 [**ClusResGroups**](clusresgroups-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

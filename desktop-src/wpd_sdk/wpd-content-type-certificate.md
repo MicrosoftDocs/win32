@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_CERTIFICATE'
-ms.assetid: '5fcaf17b-f583-4ba7-aec3-cdb02dbf3bbc'
-title: 'WPD\_CONTENT\_TYPE\_CERTIFICATE'
+Description: WPD\_CONTENT\_TYPE\_CERTIFICATE
+ms.assetid: 5fcaf17b-f583-4ba7-aec3-cdb02dbf3bbc
+title: WPD\_CONTENT\_TYPE\_CERTIFICATE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_CERTIFICATE

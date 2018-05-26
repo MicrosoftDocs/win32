@@ -1,7 +1,12 @@
 ---
 title: VBScript
 description: VBScript
-ms.assetid: '83DE139E-13F8-404D-A195-2B54E26B2091'
+ms.assetid: 83DE139E-13F8-404D-A195-2B54E26B2091
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VBScript

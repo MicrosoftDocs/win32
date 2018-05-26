@@ -1,7 +1,12 @@
 ---
 Description: Building the Recompression Graph
-ms.assetid: '8f25c60e-30be-4cc4-b924-b8d6654604d3'
+ms.assetid: 8f25c60e-30be-4cc4-b924-b8d6654604d3
 title: Building the Recompression Graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building the Recompression Graph
@@ -38,7 +43,7 @@ The following sections explain each of these steps.
 
 Build the Rendering Section
 
-To build the rendering section of the graph, call the [**ICaptureGraphBuilder2::SetOutputFileName**](icapturegraphbuilder2-setoutputfilename.md) method. This method takes input parameters that specify the media subtype for the output and the name of the output file. It returns pointers to the MUX filter and the file writer. The MUX filter is needed for the next stage of graph building. The pointer to the file writer is not needed for this example, so that parameter can be **NULL**:
+To build the rendering section of the graph, call the [**ICaptureGraphBuilder2::SetOutputFileName**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-setoutputfilename?branch=master) method. This method takes input parameters that specify the media subtype for the output and the name of the output file. It returns pointers to the MUX filter and the file writer. The MUX filter is needed for the next stage of graph building. The pointer to the file writer is not needed for this example, so that parameter can be **NULL**:
 
 
 ```C++
@@ -60,12 +65,12 @@ The following diagram shows the filter graph at this point.
 
 The MUX filter exposes two interfaces for controlling the AVI format:
 
--   [**IConfigInterleaving Interface**](iconfiginterleaving.md): Sets the interleaving mode.
--   [**IConfigAviMux Interface**](iconfigavimux.md): Sets the master stream and the AVI compatibility index.
+-   [**IConfigInterleaving Interface**](/windows/win32/Strmif/nn-strmif-iconfiginterleaving?branch=master): Sets the interleaving mode.
+-   [**IConfigAviMux Interface**](/windows/win32/Strmif/nn-strmif-iconfigavimux?branch=master): Sets the master stream and the AVI compatibility index.
 
 Add the Source and Compression Filters
 
-The next step is to add the source and compression filters to the filter graph. The Capture Graph Builder automatically creates an instance of the Filter Graph Manager when you call SetOutputFileName. Get a pointer to it by calling the [**ICaptureGraphBuilder2::GetFiltergraph**](icapturegraphbuilder2-getfiltergraph.md) method:
+The next step is to add the source and compression filters to the filter graph. The Capture Graph Builder automatically creates an instance of the Filter Graph Manager when you call SetOutputFileName. Get a pointer to it by calling the [**ICaptureGraphBuilder2::GetFiltergraph**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-getfiltergraph?branch=master) method:
 
 
 ```C++
@@ -75,7 +80,7 @@ hr = pBuild->GetFiltergraph(&amp;pGraph);
 
 
 
-Now call the [**IGraphBuilder::AddSourceFilter**](igraphbuilder-addsourcefilter.md) method to add the Async File Source filter, and the [**IFilterGraph::AddFilter**](ifiltergraph-addfilter.md) method to add the video compressor:
+Now call the [**IGraphBuilder::AddSourceFilter**](/windows/win32/Strmif/nf-strmif-igraphbuilder-addsourcefilter?branch=master) method to add the Async File Source filter, and the [**IFilterGraph::AddFilter**](/windows/win32/Strmif/nf-strmif-ifiltergraph-addfilter?branch=master) method to add the video compressor:
 
 
 ```C++
@@ -92,7 +97,7 @@ At this point, the source filter and the compression filter are not connected to
 
 Connect the Source to the Mux
 
-The final step is to connect the source filter to the AVI Mux filter, through the video compressor. Use the [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) method, which connects an output pin on the source filter to a specified sink filter, optionally through a compression filter.
+The final step is to connect the source filter to the AVI Mux filter, through the video compressor. Use the [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) method, which connects an output pin on the source filter to a specified sink filter, optionally through a compression filter.
 
 The first two parameters specify which of the source filter's pins to connect, by designating a pin category and a media type. The Async File Source filter has only one output pin, so these parameters should be **NULL**. The next three parameters specify the source filter, the compression filter (if any), and the Mux filter.
 

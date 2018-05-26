@@ -1,7 +1,7 @@
 ---
 title: TS\_LF\_\ Constants
 description: The TS\_LF\_\ constants specify the type of document lock.
-ms.assetid: 'f0bb6ef9-a8fc-4331-9210-6c5ba1721a73'
+ms.assetid: f0bb6ef9-a8fc-4331-9210-6c5ba1721a73
 topic_type:
 - apiref
 api_name:
@@ -12,6 +12,11 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TS\_LF\_\* Constants
@@ -34,9 +39,9 @@ The TS\_LF\_\* constants specify the type of document lock.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
 | Header<br/>                   | <dl> <dt>Textstor.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Textstor.idl</dt> </dl> |
 
@@ -49,21 +54,21 @@ The TS\_LF\_\* constants specify the type of document lock.
 [Document Locks](document-locks.md)
 </dt> <dt>
 
-[ITextStoreACP::RequestLock](itextstoreacp-requestlock.md)
+[ITextStoreACP::RequestLock](/windows/win32/Textstor/nf-textstor-itextstoreacp-requestlock?branch=master)
 </dt> <dt>
 
-[ITextStoreACPSink::OnLockGranted](itextstoreacpsink-onlockgranted.md)
+[ITextStoreACPSink::OnLockGranted](/windows/win32/Textstor/nf-textstor-itextstoreacpsink-onlockgranted?branch=master)
 </dt> <dt>
 
-[ITextStoreAnchor::RequestLock](itextstoreanchor-requestlock.md)
+[ITextStoreAnchor::RequestLock](/windows/win32/Textstor/nf-textstor-itextstoreanchor-requestlock?branch=master)
 </dt> <dt>
 
-[ITextStoreAnchorSink::OnLockGranted](itextstoreanchorsink-onlockgranted.md)
+[ITextStoreAnchorSink::OnLockGranted](/windows/win32/Textstor/nf-textstor-itextstoreanchorsink-onlockgranted?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

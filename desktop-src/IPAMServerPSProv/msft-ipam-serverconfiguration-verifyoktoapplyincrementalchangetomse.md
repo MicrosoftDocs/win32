@@ -1,15 +1,18 @@
 ---
-Description: 'Indicates whether a subset of the properties in the setting can be applied to the managed system element during the specified time or time interval.'
+Description: Indicates whether a subset of the properties in the setting can be applied to the managed system element during the specified time or time interval.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0D2E9AC6-DCF7-4CC4-8DB3-908E5D241116'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0D2E9AC6-DCF7-4CC4-8DB3-908E5D241116
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'VerifyOKToApplyIncrementalChangeToMSE method of the MSFT\_IPAM\_ServerConfiguration class'
+title: VerifyOKToApplyIncrementalChangeToMSE method of the MSFT\_IPAM\_ServerConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VerifyOKToApplyIncrementalChangeToMSE method of the MSFT\_IPAM\_ServerConfiguration class
@@ -23,10 +26,10 @@ This method is inherited from the **CIM\_Setting** class.
 
 ```mof
 uint32 VerifyOKToApplyIncrementalChangeToMSE(
-  [in] CIM_ManagedSystemElement Ref MSE,
-  [in] datetime                     TimeToApply,
-  [in] datetime                     MustBeCompletedBy,
-  [in] string                       PropertiesToApply[]
+  [in] CIM_ManagedSystemElement Ref MSE,
+  [in] datetime                     TimeToApply,
+  [in] datetime                     MustBeCompletedBy,
+  [in] string                       PropertiesToApply[]
 );
 ```
 
@@ -100,7 +103,7 @@ The setting could not be applied by the specified time.
 
 </dt> <dd>
 
-3–...
+3 ...
 
 Any other error.
 
@@ -113,7 +116,7 @@ Any other error.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -127,9 +130,9 @@ Any other error.
 [**MSFT\_IPAM\_ServerConfiguration**](msft-ipam-serverconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

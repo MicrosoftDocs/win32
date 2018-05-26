@@ -1,7 +1,12 @@
 ---
-Description: 'This table describes initialization error codes and values.'
-ms.assetid: '5cce27ff-1143-4fe6-b4bd-727581431c07'
+Description: This table describes initialization error codes and values.
+ms.assetid: 5cce27ff-1143-4fe6-b4bd-727581431c07
 title: Initialization Errors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Initialization Errors

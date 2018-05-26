@@ -1,13 +1,16 @@
 ---
-Description: 'You cannot create instances of the amended classes in the localized namespace. Amended classes in the localized namespace are treated as if they are abstract although they do not contain the Abstract qualifier.'
+Description: You cannot create instances of the amended classes in the localized namespace. Amended classes in the localized namespace are treated as if they are abstract although they do not contain the Abstract qualifier.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a0583153-f5d2-4f4c-ab2e-6ec468e665c7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a0583153-f5d2-4f4c-ab2e-6ec468e665c7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Amended Class Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Amended Class Considerations

@@ -1,8 +1,17 @@
 ---
 title: DownloadManager Object
 description: DownloadManager Object
-ms.assetid: 'e6b07f3c-9254-41bb-9480-8167c3cd655b'
-keywords: ["Windows Media Player online stores,DownloadManager object", "online stores,DownloadManager object", "type 2 online stores,DownloadManager object", "DownloadManager"]
+ms.assetid: e6b07f3c-9254-41bb-9480-8167c3cd655b
+keywords:
+- Windows Media Player online stores,DownloadManager object
+- online stores,DownloadManager object
+- type 2 online stores,DownloadManager object
+- DownloadManager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadManager Object

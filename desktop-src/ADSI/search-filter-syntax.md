@@ -4,11 +4,16 @@ description: Search filters enable you to define search criteria and provide mor
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3ce4709c-5ef7-4713-8fb7-b46ab284339f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3ce4709c-5ef7-4713-8fb7-b46ab284339f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Search Filter Syntax ADSI", "queries, search filter syntax"]
+keywords:
+- Search Filter Syntax ADSI
+- queries, search filter syntax
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Search Filter Syntax
@@ -48,7 +53,7 @@ or
 
 
 
-The ADSI search filters are used in two ways. They form a part of the LDAP dialect for submitting queries through the OLE DB provider. They are also used with the [**IDirectorySearch**](idirectorysearch.md) interface.
+The ADSI search filters are used in two ways. They form a part of the LDAP dialect for submitting queries through the OLE DB provider. They are also used with the [**IDirectorySearch**](/windows/win32/Iads/nn-iads-idirectorysearch?branch=master) interface.
 
 ## Operators
 

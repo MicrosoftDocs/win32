@@ -1,7 +1,12 @@
 ---
 title: Distribute Help over an Intranet
 description: Help topics can be distributed over an intranet, which is a communications network based on the same technology as the World Wide Web that is available only to people within a certain organization or company.
-ms.assetid: '008313AB-D2DF-40e9-A1D2-0DE677D5D003'
+ms.assetid: 008313AB-D2DF-40e9-A1D2-0DE677D5D003
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Distribute Help over an Intranet

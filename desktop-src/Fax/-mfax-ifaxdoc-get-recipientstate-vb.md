@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the RecipientState property of a FaxDoc object. The RecipientState property is a null-terminated string that contains the state of the recipient of the fax transmission.'
-ms.assetid: '744bb597-644b-4d34-af72-190cda53af8a'
-title: 'FaxDoc.RecipientState property'
+---
+Description: Sets or retrieves the RecipientState property of a FaxDoc object. The RecipientState property is a null-terminated string that contains the state of the recipient of the fax transmission.
+ms.assetid: 744bb597-644b-4d34-af72-190cda53af8a
+title: FaxDoc.RecipientState property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.RecipientState property

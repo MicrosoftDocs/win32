@@ -4,10 +4,13 @@ description: This sample demonstrates using FSRM to classify multiple files at o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '94e382d6-3e18-4c80-aed2-4c2d58699236'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 94e382d6-3e18-4c80-aed2-4c2d58699236
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Classifying Files
@@ -706,31 +709,31 @@ private:
 [**DIFsrmClassificationEvents::OnFile**](difsrmclassificationevents-onfile.md)
 </dt> <dt>
 
-[**IFsrmClassificationManager2**](ifsrmclassificationmanager2.md)
+[**IFsrmClassificationManager2**](/windows/previous-versions/FsrmPipeline/nn-fsrmpipeline-ifsrmclassificationmanager2?branch=master)
 </dt> <dt>
 
-[**IFsrmClassificationManager2::ClassifyFiles**](ifsrmclassificationmanager2-classifyfiles.md)
+[**IFsrmClassificationManager2::ClassifyFiles**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager2-classifyfiles?branch=master)
 </dt> <dt>
 
-[**IFsrmCollection**](ifsrmcollection.md)
+[**IFsrmCollection**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmcollection?branch=master)
 </dt> <dt>
 
-[**IFsrmCollection::Count**](ifsrmcollection-count.md)
+[**IFsrmCollection::Count**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmcollection-get_count?branch=master)
 </dt> <dt>
 
-[**IFsrmCollection::Item**](ifsrmcollection-item.md)
+[**IFsrmCollection::Item**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmcollection-get_item?branch=master)
 </dt> <dt>
 
-[**IFsrmProperty**](ifsrmproperty.md)
+[**IFsrmProperty**](/windows/previous-versions/Fsrm/nn-fsrmpipeline-ifsrmproperty?branch=master)
 </dt> <dt>
 
-[**IFsrmProperty::Name**](ifsrmproperty-name.md)
+[**IFsrmProperty::Name**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmproperty-get_name?branch=master)
 </dt> <dt>
 
-[**IFsrmProperty::PropertyFlags**](ifsrmproperty-propertyflags.md)
+[**IFsrmProperty::PropertyFlags**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmproperty-get_propertyflags?branch=master)
 </dt> <dt>
 
-[**IFsrmProperty::Value**](ifsrmproperty-value.md)
+[**IFsrmProperty::Value**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmproperty-get_value?branch=master)
 </dt> </dl>
 
  

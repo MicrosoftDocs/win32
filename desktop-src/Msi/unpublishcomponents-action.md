@@ -1,7 +1,12 @@
 ---
-Description: 'The UnpublishComponents action manages the unadvertisement of components listed in the PublishComponent table.'
-ms.assetid: '3e50f668-6d08-405e-a5a4-f422041ef0b1'
+Description: The UnpublishComponents action manages the unadvertisement of components listed in the PublishComponent table.
+ms.assetid: 3e50f668-6d08-405e-a5a4-f422041ef0b1
 title: UnpublishComponents Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnpublishComponents Action

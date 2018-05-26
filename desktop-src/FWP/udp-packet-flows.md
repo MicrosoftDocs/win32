@@ -1,7 +1,12 @@
 ---
 title: UDP Packet Flows
 description: The order in which the layers of the Windows Filtering Platform (WFP) filter engine are traversed during a typical UDP session.
-ms.assetid: 'ab618c1f-3e7c-4f4b-b4ff-9e396d3258d9'
+ms.assetid: ab618c1f-3e7c-4f4b-b4ff-9e396d3258d9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UDP Packet Flows

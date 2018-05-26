@@ -1,13 +1,16 @@
 ---
-Description: 'An SWbemPropertySet object is a collection of SWbemProperty objects.'
+Description: An SWbemPropertySet object is a collection of SWbemProperty objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0edad17b-facc-4885-9ce4-561ca6f57a66'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0edad17b-facc-4885-9ce4-561ca6f57a66
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemPropertySet object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemPropertySet object
@@ -37,7 +40,7 @@ The **SWbemPropertySet** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -51,7 +54,7 @@ The **SWbemPropertySet** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -104,8 +107,8 @@ end if
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -121,9 +124,9 @@ end if
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

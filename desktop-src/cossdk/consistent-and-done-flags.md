@@ -1,7 +1,12 @@
 ---
 Description: Consistent and Done Flags
-ms.assetid: 'a641fa95-5587-4362-9869-e5c27c6dd2ce'
+ms.assetid: a641fa95-5587-4362-9869-e5c27c6dd2ce
 title: Consistent and Done Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Consistent and Done Flags

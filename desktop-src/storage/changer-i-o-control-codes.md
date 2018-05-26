@@ -1,8 +1,14 @@
 ---
 title: Changer I/O Control Codes
 description: Changer I/O Control Codes
-ms.assetid: '35f64d28-7bf7-4127-8e97-3a0255ebf241'
-keywords: ["changer drivers WDK storage , I/O control codes"]
+ms.assetid: 35f64d28-7bf7-4127-8e97-3a0255ebf241
+keywords:
+- changer drivers WDK storage , I/O control codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changer I/O Control Codes

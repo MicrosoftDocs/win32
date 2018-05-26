@@ -1,7 +1,12 @@
 ---
 title: Designing Help Topics
 description: Designing Help Topics
-ms.assetid: '44659CB7-C071-4629-B63D-77DFE9115888'
+ms.assetid: 44659CB7-C071-4629-B63D-77DFE9115888
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing Help Topics

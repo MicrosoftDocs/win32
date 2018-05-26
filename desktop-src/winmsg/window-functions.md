@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '6303b0c8-5172-41d7-bd0e-40d3a7d024ba'
+Description: .
+ms.assetid: 6303b0c8-5172-41d7-bd0e-40d3a7d024ba
 title: Window Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Functions
@@ -21,7 +26,7 @@ title: Window Functions
 -   [**ChildWindowFromPoint**](childwindowfrompoint.md)
 -   [**ChildWindowFromPointEx**](childwindowfrompointex.md)
 -   [**CloseWindow**](closewindow.md)
--   [**CreateWindow**](createwindow.md)
+-   [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master)
 -   [**CreateWindowEx**](createwindowex.md)
 -   [**DeferWindowPos**](deferwindowpos.md)
 -   [**DeregisterShellHookWindow**](deregistershellhookwindow.md)
@@ -45,13 +50,13 @@ title: Window Functions
 -   [**GetLastActivePopup**](getlastactivepopup.md)
 -   [**GetLayeredWindowAttributes**](getlayeredwindowattributes.md)
 -   [**GetNextWindow**](getnextwindow.md)
--   [**GetParent**](getparent.md)
+-   [**GetParent**](/windows/win32/Winuser/nf-wia_lh-iwiaitem2-getparentitem?branch=master)
 -   [**GetProcessDefaultLayout**](getprocessdefaultlayout.md)
 -   [**GetShellWindow**](getshellwindow.md)
 -   [**GetSysColor**](winui.getsyscolor)
 -   [**GetTitleBarInfo**](gettitlebarinfo.md)
 -   [**GetTopWindow**](gettopwindow.md)
--   [**GetWindow**](getwindow.md)
+-   [**GetWindow**](/windows/win32/Winuser/nf-winuser-getwindowcontexthelpid?branch=master)
 -   [**GetWindowDisplayAffinity**](getwindowdisplayaffinity.md)
 -   [**GetWindowInfo**](getwindowinfo.md)
 -   [**GetWindowModuleFileName**](getwindowmodulefilename.md)
@@ -71,16 +76,16 @@ title: Window Functions
 -   [**IsWindowVisible**](iswindowvisible.md)
 -   [**IsZoomed**](iszoomed.md)
 -   [**LockSetForegroundWindow**](locksetforegroundwindow.md)
--   [**LogicalToPhysicalPoint**](logicaltophysicalpoint.md)
+-   [**LogicalToPhysicalPoint**](/windows/win32/Winuser/nf-winuser-logicaltophysicalpointforpermonitordpi?branch=master)
 -   [**MoveWindow**](movewindow.md)
 -   [**OpenIcon**](openicon.md)
--   [**PhysicalToLogicalPoint**](physicaltologicalpoint.md)
+-   [**PhysicalToLogicalPoint**](/windows/win32/Winuser/nf-winuser-physicaltologicalpointforpermonitordpi?branch=master)
 -   [**RealChildWindowFromPoint**](realchildwindowfrompoint.md)
 -   [**RealGetWindowClass**](realgetwindowclass.md)
 -   [**RegisterShellHookWindow**](registershellhookwindow.md)
 -   [**SetForegroundWindow**](setforegroundwindow.md)
 -   [**SetLayeredWindowAttributes**](setlayeredwindowattributes.md)
--   [**SetParent**](setparent.md)
+-   [**SetParent**](/windows/win32/Winuser/nf-dbghelp-symsetparentwindow?branch=master)
 -   [**SetProcessDefaultLayout**](setprocessdefaultlayout.md)
 -   [**SetProcessDPIAware**](setprocessdpiaware.md)
 -   [**SetSysColors**](winui.setsyscolors)

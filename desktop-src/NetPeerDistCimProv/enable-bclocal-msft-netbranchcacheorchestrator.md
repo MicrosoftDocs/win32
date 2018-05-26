@@ -1,7 +1,12 @@
 ---
-Description: 'Enables the BranchCache service in local caching mode.'
-ms.assetid: '24b6f1d0-1fd6-4785-a879-482a5017949e'
-title: 'Enable\_BCLocal method of the MSFT\_NetBranchCacheOrchestrator class'
+Description: Enables the BranchCache service in local caching mode.
+ms.assetid: 24b6f1d0-1fd6-4785-a879-482a5017949e
+title: Enable\_BCLocal method of the MSFT\_NetBranchCacheOrchestrator class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enable\_BCLocal method of the MSFT\_NetBranchCacheOrchestrator class
@@ -13,8 +18,8 @@ Enables the BranchCache service in local caching mode.
 
 ```mof
 uint32 Enable_BCLocal(
-  [in] string  PolicyStore,
-  [in] boolean Force
+  [in] string  PolicyStore,
+  [in] boolean Force
 );
 ```
 
@@ -44,8 +49,8 @@ Indicates the operation should not prompt for confirmation
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported client<br/> | Windows 8<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>NetPeerDistCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetPeerDistCim.dll</dt> </dl> |
@@ -59,9 +64,9 @@ Indicates the operation should not prompt for confirmation
 [**MSFT\_NetBranchCacheOrchestrator**](msft-netbranchcacheorchestrator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

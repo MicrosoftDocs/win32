@@ -1,7 +1,12 @@
 ---
 title: DO Structures and Unions
 description: The Delivery Optimization (DO) interfaces use the following structures.
-ms.assetid: '58A5361E-871A-4911-85BD-83F18CB9A2F5'
+ms.assetid: 58A5361E-871A-4911-85BD-83F18CB9A2F5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DO Structures and Unions
@@ -24,11 +29,11 @@ The Delivery Optimization (DO) [interfaces](do-interfaces.md) use the following 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

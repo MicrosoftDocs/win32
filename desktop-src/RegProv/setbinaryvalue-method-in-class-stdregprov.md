@@ -4,11 +4,14 @@ description: The SetBinaryValue method sets the data value for a named value who
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '47e46838-7ad5-41c1-b46e-3af199f29f71'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 47e46838-7ad5-41c1-b46e-3af199f29f71
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetBinaryValue method", "SetBinaryValue method, StdRegProv class", "StdRegProv class, SetBinaryValue method"]
+keywords:
+- SetBinaryValue method
+- SetBinaryValue method, StdRegProv class
+- StdRegProv class, SetBinaryValue method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Stdprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetBinaryValue method of the StdRegProv class
@@ -30,10 +36,10 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetBinaryValue(
-  [in] uint32 hDefKey = HKEY_LOCAL_MACHINE,
-  [in] string sSubKeyName,
-  [in] string sValueName,
-  [in] uint8  uValue[]
+  [in] uint32 hDefKey = HKEY_LOCAL_MACHINE,
+  [in] string sSubKeyName,
+  [in] string sValueName,
+  [in] uint8  uValue[]
 );
 ```
 
@@ -148,8 +154,8 @@ End If
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\default<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RegEvent.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Stdprov.dll</dt> </dl>  |
@@ -169,9 +175,9 @@ End If
 [WMI Tasks: Registry](https://msdn.microsoft.com/library/aa394600)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

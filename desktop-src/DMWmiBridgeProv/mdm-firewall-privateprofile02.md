@@ -1,8 +1,10 @@
 ---
 title: MDM\_Firewall\_PrivateProfile02 class
 description: The MDM\_Firewall\_PrivateProfile02 class is used to configure the Windows Defender Firewall settings.
-ms.assetid: '9d25c181-e9a8-4f63-b276-b22676842667'
-keywords: ["MDM_Firewall_PrivateProfile02 class", "MDM_Firewall_PrivateProfile02 class, described"]
+ms.assetid: 9d25c181-e9a8-4f63-b276-b22676842667
+keywords:
+- MDM_Firewall_PrivateProfile02 class
+- MDM_Firewall_PrivateProfile02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Firewall\_PrivateProfile02 class
@@ -224,7 +231,7 @@ Access type: Read/write
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                       |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl> |
@@ -232,9 +239,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

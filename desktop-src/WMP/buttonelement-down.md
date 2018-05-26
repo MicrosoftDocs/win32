@@ -1,14 +1,20 @@
 ---
 title: BUTTONELEMENT.down
 description: The down attribute specifies or retrieves a value indicating whether the button element is in the up or down position.
-ms.assetid: '6b3633c5-84c1-48a0-bd2f-94660890d9a6'
-keywords: ["BUTTONELEMENT.down Windows Media Player"]
+ms.assetid: 6b3633c5-84c1-48a0-bd2f-94660890d9a6
+keywords:
+- BUTTONELEMENT.down Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONELEMENT.down
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONELEMENT.down
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,9 +66,9 @@ If an invalid value is specified, the previous state is maintained.
 [**BUTTONELEMENT.downToolTip**](buttonelement-downtooltip.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_BITRATE\_TYPES enumeration type describes an audio file's compression type.'
-ms.assetid: '9905b189-00c5-469b-ae48-10c79b9ac903'
-title: 'WPD\_BITRATE\_TYPES enumeration'
+Description: The WPD\_BITRATE\_TYPES enumeration type describes an audio files compression type.
+ms.assetid: 9905b189-00c5-469b-ae48-10c79b9ac903
+title: WPD\_BITRATE\_TYPES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_BITRATE\_TYPES enumeration
@@ -13,10 +18,10 @@ The **WPD\_BITRATE\_TYPES** enumeration type describes an audio file's compressi
 
 ```C++
 typedef enum WPD_BITRATE_TYPES { 
-  WPD_BITRATE_TYPE_UNUSED    = 0,
-  WPD_BITRATE_TYPE_DISCRETE  = 1,
-  WPD_BITRATE_TYPE_VARIABLE  = 2,
-  WPD_BITRATE_TYPE_FREE      = 3
+  WPD_BITRATE_TYPE_UNUSED    = 0,
+  WPD_BITRATE_TYPE_DISCRETE  = 1,
+  WPD_BITRATE_TYPE_VARIABLE  = 2,
+  WPD_BITRATE_TYPE_FREE      = 3
 } ;
 ```
 
@@ -71,9 +76,9 @@ Free format bit rate. This is a constant bit rate that is lower than the maximum
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

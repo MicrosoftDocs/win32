@@ -4,11 +4,15 @@ description: An extension snap-in can support any or all of the following extens
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cc084730-091f-4132-a25b-deab5aa3d9c4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: cc084730-091f-4132-a25b-deab5aa3d9c4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["extension snap-ins MMC"]
+keywords:
+- extension snap-ins MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extension Snap-ins

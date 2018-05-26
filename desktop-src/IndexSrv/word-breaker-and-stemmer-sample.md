@@ -1,7 +1,12 @@
 ---
 title: Word Breaker and Stemmer Sample
 description: Word Breaker and Stemmer Sample
-ms.assetid: 'ba252bb4-18bf-4837-9c11-b4a2c76b9964'
+ms.assetid: ba252bb4-18bf-4837-9c11-b4a2c76b9964
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Word Breaker and Stemmer Sample

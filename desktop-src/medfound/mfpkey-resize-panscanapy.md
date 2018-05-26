@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the y-coordinate of the upper-left corner of the pan/scan region.'
-ms.assetid: '9286d9eb-b390-4e7b-b0e8-3cd35dfab60c'
-title: 'MFPKEY\_RESIZE\_PANSCANAPY Property'
+---
+Description: Specifies the y-coordinate of the upper-left corner of the pan/scan region.
+ms.assetid: 9286d9eb-b390-4e7b-b0e8-3cd35dfab60c
+title: MFPKEY\_RESIZE\_PANSCANAPY Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_PANSCANAPY Property

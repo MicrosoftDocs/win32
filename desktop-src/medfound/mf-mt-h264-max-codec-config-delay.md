@@ -1,7 +1,12 @@
-﻿---
-Description: 'The maximum number of frames the H.264 encoder takes to respond to a command.'
-ms.assetid: 'C856B2B0-4A06-436D-B589-B01DA86DB53D'
-title: 'MF\_MT\_H264\_MAX\_CODEC\_CONFIG\_DELAY attribute'
+---
+Description: The maximum number of frames the H.264 encoder takes to respond to a command.
+ms.assetid: C856B2B0-4A06-436D-B589-B01DA86DB53D
+title: MF\_MT\_H264\_MAX\_CODEC\_CONFIG\_DELAY attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_H264\_MAX\_CODEC\_CONFIG\_DELAY attribute
@@ -14,13 +19,13 @@ The maximum number of frames the H.264 encoder takes to respond to a command.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 
 ## Remarks
 

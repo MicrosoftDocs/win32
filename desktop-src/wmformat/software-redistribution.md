@@ -1,8 +1,21 @@
 ---
 title: Software Redistribution
 description: Software Redistribution
-ms.assetid: '443df640-e74c-4903-b801-f4bd42a04659'
-keywords: ["Windows Media Format SDK,software redistribution", "Advanced Systems Format (ASF),software redistribution", "ASF (Advanced Systems Format),software redistribution", "Windows Media Format SDK,redistribution", "Advanced Systems Format (ASF),redistribution", "ASF (Advanced Systems Format),redistribution", "software redistribution,about", "redistribution,about"]
+ms.assetid: 443df640-e74c-4903-b801-f4bd42a04659
+keywords:
+- Windows Media Format SDK,software redistribution
+- Advanced Systems Format (ASF),software redistribution
+- ASF (Advanced Systems Format),software redistribution
+- Windows Media Format SDK,redistribution
+- Advanced Systems Format (ASF),redistribution
+- ASF (Advanced Systems Format),redistribution
+- software redistribution,about
+- redistribution,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Software Redistribution

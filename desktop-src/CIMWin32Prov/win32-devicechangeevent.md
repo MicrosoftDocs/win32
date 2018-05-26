@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_DeviceChangeEvent abstract WMI class represents device change events that result from the addition, removal, or modification of devices on the computer system.'
+Description: The Win32\_DeviceChangeEvent abstract WMI class represents device change events that result from the addition, removal, or modification of devices on the computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '78155357-4231-4ded-980e-89feeb864ef2'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 78155357-4231-4ded-980e-89feeb864ef2
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_DeviceChangeEvent class'
+title: Win32\_DeviceChangeEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DeviceChangeEvent class
@@ -24,7 +27,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("0DE6AAF8-49F1-4868-B3D4-61CB69BA4322"), AMENDMENT]
 class Win32_DeviceChangeEvent : __ExtrinsicEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   uint16 EventType;
 };
@@ -128,8 +131,8 @@ The **Win32\_DeviceChangeEvent** is an abstract class derived from [**\_\_Extrin
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -146,9 +149,9 @@ The **Win32\_DeviceChangeEvent** is an abstract class derived from [**\_\_Extrin
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

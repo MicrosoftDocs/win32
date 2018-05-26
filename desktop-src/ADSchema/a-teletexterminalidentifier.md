@@ -4,17 +4,22 @@ description: Specifies the Teletex terminal identifier and, optionally, paramete
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c31bac0e-feb7-46ff-a867-326affb41918'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c31bac0e-feb7-46ff-a867-326affb41918
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Teletex-Terminal-Identifier attribute AD Schema", "teletexTerminalIdentifier attribute AD Schema"]
+keywords:
+- Teletex-Terminal-Identifier attribute AD Schema
+- teletexTerminalIdentifier attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Teletex-Terminal-Identifier
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Teletex-Terminal-Identifier attribute
@@ -38,13 +43,13 @@ Specifies the Teletex terminal identifier and, optionally, parameters, for a tel
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ Specifies the Teletex terminal identifier and, optionally, parameters, for a tel
 
 
 
- 
+ 
 
- 
+ 
 
 
 

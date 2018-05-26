@@ -1,7 +1,12 @@
 ---
-Description: 'The Microsoft Windows HTTP Services (WinHTTP) exposes a set of C/C++ functions that enable your application to access HTTP resources on the Web. This topic provides an overview of how these functions are used to interact with an HTTP server.'
-ms.assetid: '66a1616b-0cf3-45c7-880b-e36728b5a9c4'
+Description: The Microsoft Windows HTTP Services (WinHTTP) exposes a set of C/C++ functions that enable your application to access HTTP resources on the Web. This topic provides an overview of how these functions are used to interact with an HTTP server.
+ms.assetid: 66a1616b-0cf3-45c7-880b-e36728b5a9c4
 title: WinHTTP Sessions Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinHTTP Sessions Overview
@@ -25,28 +30,28 @@ The following diagram shows the order in which WinHTTP functions are typically c
 
 ## Initializing WinHTTP
 
-Before interacting with a server, WinHTTP must be initialized by calling [**WinHttpOpen**](winhttpopen.md). [**WinHttpOpen**](winhttpopen.md) creates a session context to maintain details about the HTTP session, and returns a session handle. Using this handle, the [**WinHttpConnect**](winhttpconnect.md) function is then able to specify a target HTTP or Secure Hypertext Transfer Protocol (HTTPS) server.
+Before interacting with a server, WinHTTP must be initialized by calling [**WinHttpOpen**](/windows/win32/Winhttp/nf-winhttp-winhttpopen?branch=master). [**WinHttpOpen**](/windows/win32/Winhttp/nf-winhttp-winhttpopen?branch=master) creates a session context to maintain details about the HTTP session, and returns a session handle. Using this handle, the [**WinHttpConnect**](/windows/win32/Winhttp/nf-winhttp-winhttpconnect?branch=master) function is then able to specify a target HTTP or Secure Hypertext Transfer Protocol (HTTPS) server.
 
 > [!Note]  
-> A call to [**WinHttpConnect**](winhttpconnect.md) does not result in an actual connection to the HTTP server until a request is made for a specific resource.
+> A call to [**WinHttpConnect**](/windows/win32/Winhttp/nf-winhttp-winhttpconnect?branch=master) does not result in an actual connection to the HTTP server until a request is made for a specific resource.
 
  
 
 ## Opening a Request
 
-The [**WinHttpOpenRequest**](winhttpopenrequest.md) function opens an HTTP request for a particular resource and returns an [HINTERNET](hinternet-handles-in-winhttp.md) handle that can be used by the other HTTP functions. [**WinHttpOpenRequest**](winhttpopenrequest.md) does not send the request to the server when called. The [**WinHttpSendRequest**](winhttpsendrequest.md) function actually establishes a connection over the network and sends the request.
+The [**WinHttpOpenRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpopenrequest?branch=master) function opens an HTTP request for a particular resource and returns an [HINTERNET](hinternet-handles-in-winhttp.md) handle that can be used by the other HTTP functions. [**WinHttpOpenRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpopenrequest?branch=master) does not send the request to the server when called. The [**WinHttpSendRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpsendrequest?branch=master) function actually establishes a connection over the network and sends the request.
 
-The following example shows a sample call to [**WinHttpOpenRequest**](winhttpopenrequest.md) that uses the default options.
+The following example shows a sample call to [**WinHttpOpenRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpopenrequest?branch=master) that uses the default options.
 
 `HINTERNET hRequest = WinHttpOpenRequest( hConnect, L"GET", NULL, NULL, NULL, NULL, 0);`
 
 ## Adding Request Headers
 
-The [**WinHttpAddRequestHeaders**](winhttpaddrequestheaders.md) function allows an application to append additional free-format request headers to the HTTP request handle. It is intended for use by sophisticated applications that require precise control over the requests sent to the HTTP server.
+The [**WinHttpAddRequestHeaders**](/windows/win32/Winhttp/nf-winhttp-winhttpaddrequestheaders?branch=master) function allows an application to append additional free-format request headers to the HTTP request handle. It is intended for use by sophisticated applications that require precise control over the requests sent to the HTTP server.
 
-The [**WinHttpAddRequestHeaders**](winhttpaddrequestheaders.md) function requires an HTTP request handle created by [**WinHttpOpenRequest**](winhttpopenrequest.md), a string that contains the headers, the length of the headers, and any modifiers.
+The [**WinHttpAddRequestHeaders**](/windows/win32/Winhttp/nf-winhttp-winhttpaddrequestheaders?branch=master) function requires an HTTP request handle created by [**WinHttpOpenRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpopenrequest?branch=master), a string that contains the headers, the length of the headers, and any modifiers.
 
-The following modifiers can be used with [**WinHttpAddRequestHeaders**](winhttpaddrequestheaders.md).
+The following modifiers can be used with [**WinHttpAddRequestHeaders**](/windows/win32/Winhttp/nf-winhttp-winhttpaddrequestheaders?branch=master).
 
 
 
@@ -65,27 +70,27 @@ The following modifiers can be used with [**WinHttpAddRequestHeaders**](winhttpa
 
 ## Sending a Request
 
-The [**WinHttpSendRequest**](winhttpsendrequest.md) function establishes a connection to the server and sends the request to the specified site. This function requires an [HINTERNET](hinternet-handles-in-winhttp.md) handle created by [**WinHttpOpenRequest**](winhttpopenrequest.md). [**WinHttpSendRequest**](winhttpsendrequest.md) can also send additional headers or optional information. The optional information is generally used for operations that write information to the server, such as PUT and POST.
+The [**WinHttpSendRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpsendrequest?branch=master) function establishes a connection to the server and sends the request to the specified site. This function requires an [HINTERNET](hinternet-handles-in-winhttp.md) handle created by [**WinHttpOpenRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpopenrequest?branch=master). [**WinHttpSendRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpsendrequest?branch=master) can also send additional headers or optional information. The optional information is generally used for operations that write information to the server, such as PUT and POST.
 
-After the [**WinHttpSendRequest**](winhttpsendrequest.md) function sends the request, the application can use the [**WinHttpReadData**](winhttpreaddata.md) and [**WinHttpQueryDataAvailable**](winhttpquerydataavailable.md) functions on the [HINTERNET](hinternet-handles-in-winhttp.md) handle to download the server's resources.
+After the [**WinHttpSendRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpsendrequest?branch=master) function sends the request, the application can use the [**WinHttpReadData**](/windows/win32/Winhttp/nf-winhttp-winhttpreaddata?branch=master) and [**WinHttpQueryDataAvailable**](/windows/win32/Winhttp/nf-winhttp-winhttpquerydataavailable?branch=master) functions on the [HINTERNET](hinternet-handles-in-winhttp.md) handle to download the server's resources.
 
 ## Posting Data to the Server
 
-To post data to a server, the [*HTTP verb*](glossary.md#term-http-verb) in the call to [**WinHttpOpenRequest**](winhttpopenrequest.md) must be either POST or PUT. When [**WinHttpSendRequest**](winhttpsendrequest.md) is called, the *dwTotalLength* parameter should be set to the size of the data in bytes. Then use [**WinHttpWriteData**](winhttpwritedata.md) to post the data to the server.
+To post data to a server, the [*HTTP verb*](glossary.md#term-http-verb) in the call to [**WinHttpOpenRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpopenrequest?branch=master) must be either POST or PUT. When [**WinHttpSendRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpsendrequest?branch=master) is called, the *dwTotalLength* parameter should be set to the size of the data in bytes. Then use [**WinHttpWriteData**](/windows/win32/Winhttp/nf-winhttp-winhttpwritedata?branch=master) to post the data to the server.
 
-Alternatively, set the *lpOptional* parameter of [**WinHttpSendRequest**](winhttpsendrequest.md) to the address of a buffer that contains data to post to the server. When using this technique, you must set both the *dwOptionalLength* and *dwTotalLength* parameters of [**WinHttpSendRequest**](winhttpsendrequest.md) to be the size of the data being posted. Calling [**WinHttpSendRequest**](winhttpsendrequest.md) in this manner eliminates the need to call [**WinHttpWriteData**](winhttpwritedata.md).
+Alternatively, set the *lpOptional* parameter of [**WinHttpSendRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpsendrequest?branch=master) to the address of a buffer that contains data to post to the server. When using this technique, you must set both the *dwOptionalLength* and *dwTotalLength* parameters of [**WinHttpSendRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpsendrequest?branch=master) to be the size of the data being posted. Calling [**WinHttpSendRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpsendrequest?branch=master) in this manner eliminates the need to call [**WinHttpWriteData**](/windows/win32/Winhttp/nf-winhttp-winhttpwritedata?branch=master).
 
 ## Getting Information About a Request
 
-The [**WinHttpQueryHeaders**](winhttpqueryheaders.md) function allows an application to retrieve information about an HTTP request. The function requires an [HINTERNET](hinternet-handles-in-winhttp.md) handle created by [**WinHttpOpenRequest**](winhttpopenrequest.md), an information level value, and a buffer length. [**WinHttpQueryHeaders**](winhttpqueryheaders.md) also accepts a buffer that stores the information and a zero-based header index that enumerates multiple headers with the same name.
+The [**WinHttpQueryHeaders**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryheaders?branch=master) function allows an application to retrieve information about an HTTP request. The function requires an [HINTERNET](hinternet-handles-in-winhttp.md) handle created by [**WinHttpOpenRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpopenrequest?branch=master), an information level value, and a buffer length. [**WinHttpQueryHeaders**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryheaders?branch=master) also accepts a buffer that stores the information and a zero-based header index that enumerates multiple headers with the same name.
 
-Use any of the information level values found on the [**Query Info Flags**](query-info-flags.md) page with a modifier to control the format in which the information is stored in the *lpvBuffer* parameter of [**WinHttpQueryHeaders**](winhttpqueryheaders.md).
+Use any of the information level values found on the [**Query Info Flags**](query-info-flags.md) page with a modifier to control the format in which the information is stored in the *lpvBuffer* parameter of [**WinHttpQueryHeaders**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryheaders?branch=master).
 
 ## Downloading Resources from the Web
 
-After opening a request with the [**WinHttpOpenRequest**](winhttpopenrequest.md) function, sending it to the server with [**WinHttpSendRequest**](winhttpsendrequest.md), and preparing the request handle to receive a response with [**WinHttpReceiveResponse**](winhttpreceiveresponse.md), the application can use the [**WinHttpReadData**](winhttpreaddata.md) and [**WinHttpQueryDataAvailable**](winhttpquerydataavailable.md) functions to download the resource from the HTTP server.
+After opening a request with the [**WinHttpOpenRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpopenrequest?branch=master) function, sending it to the server with [**WinHttpSendRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpsendrequest?branch=master), and preparing the request handle to receive a response with [**WinHttpReceiveResponse**](/windows/win32/Winhttp/nf-winhttp-winhttpreceiveresponse?branch=master), the application can use the [**WinHttpReadData**](/windows/win32/Winhttp/nf-winhttp-winhttpreaddata?branch=master) and [**WinHttpQueryDataAvailable**](/windows/win32/Winhttp/nf-winhttp-winhttpquerydataavailable?branch=master) functions to download the resource from the HTTP server.
 
-The following sample code shows how to download a resource with secure transaction semantics. The sample code initializes the WinHTTP application programming interface (API), selects a target HTTPS server, and then opens and sends a request for this secure resource. [**WinHttpQueryDataAvailable**](winhttpquerydataavailable.md) is used with the request handle to determine how much data is available for download, and then [**WinHttpReadData**](winhttpreaddata.md) is used to read that data. This process is repeated until the entire document has been retrieved and displayed.
+The following sample code shows how to download a resource with secure transaction semantics. The sample code initializes the WinHTTP application programming interface (API), selects a target HTTPS server, and then opens and sends a request for this secure resource. [**WinHttpQueryDataAvailable**](/windows/win32/Winhttp/nf-winhttp-winhttpquerydataavailable?branch=master) is used with the request handle to determine how much data is available for download, and then [**WinHttpReadData**](/windows/win32/Winhttp/nf-winhttp-winhttpreaddata?branch=master) is used to read that data. This process is repeated until the entire document has been retrieved and displayed.
 
 
 ```C++

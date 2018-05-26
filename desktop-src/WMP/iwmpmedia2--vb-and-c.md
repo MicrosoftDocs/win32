@@ -1,8 +1,10 @@
 ---
 title: IWMPMedia2 (VB and C\ ) interface
 description: Provides access to an additional media item property.
-ms.assetid: '7d9f8304-ae26-4175-b9d4-9f272861ef87'
-keywords: ["IWMPMedia2 (VB and C ) interface Windows Media Player", "IWMPMedia2 (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 7d9f8304-ae26-4175-b9d4-9f272861ef87
+keywords:
+- IWMPMedia2 (VB and C ) interface Windows Media Player
+- IWMPMedia2 (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia2 (VB and C#) interface
@@ -27,7 +34,7 @@ In addition to the properties and methods inherited from **IWMPMedia**, the **IW
 
 
 
- 
+ 
 
 Get an **IWMPMedia2** interface by casting the value returned by one of the following properties or methods accessed through the following object or interface.
 
@@ -41,7 +48,7 @@ Get an **IWMPMedia2** interface by casting the value returned by one of the foll
 
 
 
- 
+ 
 
 ## Members
 
@@ -73,9 +80,9 @@ The **IWMPMedia2 (VB and C#)** interface does not define any members.
 [**IWMPMedia3 Interface (VB and C#)**](iwmpmedia3--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

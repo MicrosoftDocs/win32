@@ -1,8 +1,14 @@
 ---
 title: Remote Procedure Calls Using RPC over HTTP
 description: Internet browser programs commonly employ the Hypertext Transport Protocol (HTTP) as the primary means of browsing the World Wide Web.
-ms.assetid: 'f87262f6-fd82-4e8c-bf83-8f93791deec0'
-keywords: ["Remote Procedure Call RPC , tasks, using RPC/http"]
+ms.assetid: f87262f6-fd82-4e8c-bf83-8f93791deec0
+keywords:
+- Remote Procedure Call RPC , tasks, using RPC/http
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remote Procedure Calls Using RPC over HTTP

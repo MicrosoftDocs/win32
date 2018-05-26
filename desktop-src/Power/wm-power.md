@@ -1,7 +1,12 @@
 ---
-Description: 'Notifies applications that the system, typically a battery-powered personal computer, is about to enter a suspended mode.'
-ms.assetid: 'ceaa5ca4-799e-4801-96cd-aeea3dfd7d52'
-title: 'WM\_POWER message'
+Description: Notifies applications that the system, typically a battery-powered personal computer, is about to enter a suspended mode.
+ms.assetid: ceaa5ca4-799e-4801-96cd-aeea3dfd7d52
+title: WM\_POWER message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_POWER message
@@ -11,7 +16,7 @@ Notifies applications that the system, typically a battery-powered personal comp
 > [!Note]  
 > The **WM\_POWER** message is obsolete. It is provided only for compatibility with 16-bit Windows-based applications. Applications should use the [**WM\_POWERBROADCAST**](wm-powerbroadcast.md) message.
 
- 
+ 
 
 A window receives this message through its **WindowProc** function.
 
@@ -56,11 +61,11 @@ The power-event notification. This parameter can be one of the following values.
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="PWR_CRITICALRESUME"></span><span id="pwr_criticalresume"></span><dl> <dt>**PWR\_CRITICALRESUME**</dt> </dl> | Indicates that the system is resuming operation after entering suspended mode without first broadcasting a **PWR\_SUSPENDREQUEST** notification message to the application. An application should perform any necessary recovery actions.<br/>                                                   |
 | <span id="PWR_SUSPENDREQUEST"></span><span id="pwr_suspendrequest"></span><dl> <dt>**PWR\_SUSPENDREQUEST**</dt> </dl> | Indicates that the system is about to enter suspended mode.<br/>                                                                                                                                                                                                                                 |
-| <span id="PWR_SUSPENDRESUME"></span><span id="pwr_suspendresume"></span><dl> <dt>**PWR\_SUSPENDRESUME**</dt> </dl>    | Indicates that the system is resuming operation after having entered suspended mode normally—that is, the system broadcast a **PWR\_SUSPENDREQUEST** notification message to the application before the system was suspended. An application should perform any necessary recovery actions.<br/> |
+| <span id="PWR_SUSPENDRESUME"></span><span id="pwr_suspendresume"></span><dl> <dt>**PWR\_SUSPENDRESUME**</dt> </dl>    | Indicates that the system is resuming operation after having entered suspended mode normally that is, the system broadcast a **PWR\_SUSPENDREQUEST** notification message to the application before the system was suspended. An application should perform any necessary recovery actions.<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -87,8 +92,8 @@ The suspended mode is the state in which the greatest amount of power savings oc
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
 
@@ -100,9 +105,9 @@ The suspended mode is the state in which the greatest amount of power savings oc
 [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

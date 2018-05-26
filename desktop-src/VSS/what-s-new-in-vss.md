@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics describe the changes in each release of the VSS API:'
-ms.assetid: 'd411c117-e34f-4a4f-8ecf-f6c42978739e'
-title: 'What''s New in VSS'
+Description: The following topics describe the changes in each release of the VSS API
+ms.assetid: d411c117-e34f-4a4f-8ecf-f6c42978739e
+title: Whats New in VSS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in VSS

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the bounds of the region of interest which indicates the region of the frame that requires different quality.'
-ms.assetid: 'F06CACF0-AE75-4707-8CD0-7BA7D51BB80A'
-title: 'MFSampleExtension\_ROIRectangle attribute'
+---
+Description: Specifies the bounds of the region of interest which indicates the region of the frame that requires different quality.
+ms.assetid: F06CACF0-AE75-4707-8CD0-7BA7D51BB80A
+title: MFSampleExtension\_ROIRectangle attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_ROIRectangle attribute
@@ -10,7 +15,7 @@ Specifies the bounds of the region of interest which indicates the region of the
 
 ## Data type
 
-**[**ROI\_AREA**](roi-area.md)** stored as **BLOB**
+**[**ROI\_AREA**](/windows/win32/mfapi/ns-mfapi-_roi_area?branch=master)** stored as **BLOB**
 
 ## Remarks
 
@@ -20,7 +25,7 @@ If [CODECAPI\_AVEncVideoROIEnabled](codecapi-avencvideoroienabled.md) is not set
 
 MFSampleExtension\_ROIRectangle is set on an input sample and is only applied to the current input sample.
 
-The **QPDelta** field on the [**ROI\_AREA**](roi-area.md) structure specifies the quantization parameter delta for the specified region from the rest of the frame. If **QPDelta** is positive, this indicates the application wants the rectangle to have lower quality than the rest of the frame.
+The **QPDelta** field on the [**ROI\_AREA**](/windows/win32/mfapi/ns-mfapi-_roi_area?branch=master) structure specifies the quantization parameter delta for the specified region from the rest of the frame. If **QPDelta** is positive, this indicates the application wants the rectangle to have lower quality than the rest of the frame.
 
 **H.264/AVC encoders:** **QPDelta** shall be between \[-25, +25\]. The encoder shall ensure that the final QP is in a valid range for the video standard.
 

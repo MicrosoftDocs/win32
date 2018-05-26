@@ -4,17 +4,22 @@ description: This attribute determines the user home directory relative to the f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '99b22b79-1d42-440d-b92b-33bac3e811cb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 99b22b79-1d42-440d-b92b-33bac3e811cb
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-IIS-FTP-Dir attribute AD Schema", "msIIS-FTPDir attribute AD Schema"]
+keywords:
+- ms-IIS-FTP-Dir attribute AD Schema
+- msIIS-FTPDir attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-IIS-FTP-Dir
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-IIS-FTP-Dir attribute
@@ -38,11 +43,11 @@ This attribute determines the user home directory relative to the file server sh
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ This attribute determines the user home directory relative to the file server sh
 
 
 
- 
+ 
 
- 
+ 
 
 
 

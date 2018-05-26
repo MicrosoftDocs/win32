@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetFilterGraph method specifies a filter graph for the render engine to use.'
-ms.assetid: '6a245864-7d22-4608-995b-b28662a6ab90'
-title: 'IRenderEngine::SetFilterGraph method'
+---
+Description: The SetFilterGraph method specifies a filter graph for the render engine to use.
+ms.assetid: 6a245864-7d22-4608-995b-b28662a6ab90
+title: IRenderEngineSetFilterGraph method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::SetFilterGraph method
@@ -31,7 +36,7 @@ HRESULT SetFilterGraph(
 *pFG* 
 </dt> <dd>
 
-Pointer to the [**IGraphBuilder**](igraphbuilder.md) interface of the filter graph.
+Pointer to the [**IGraphBuilder**](/windows/win32/Strmif/nn-strmif-igraphbuilder?branch=master) interface of the filter graph.
 
 </dd> </dl>
 

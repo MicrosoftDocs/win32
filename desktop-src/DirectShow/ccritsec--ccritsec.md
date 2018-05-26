@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: 'cade850c-391c-41dc-adfe-56de8b2bbfff'
-title: 'CCritSec.~CCritSec destructor'
+Description: Destructor method.
+ms.assetid: cade850c-391c-41dc-adfe-56de8b2bbfff
+title: CCritSec.~CCritSec destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCritSec.~CCritSec destructor
@@ -39,9 +44,9 @@ This method calls the [**DeleteCriticalSection**](https://msdn.microsoft.com/lib
 [**CCritSec Class**](ccritsec.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

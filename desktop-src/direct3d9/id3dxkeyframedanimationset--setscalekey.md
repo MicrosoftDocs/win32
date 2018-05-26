@@ -1,7 +1,12 @@
-﻿---
-Description: 'Set scale information for a specific key frame in the animation set.'
-ms.assetid: 'b606e5d3-11c9-4997-ad3c-d3ae21c32e10'
-title: 'ID3DXKeyframedAnimationSet::SetScaleKey method'
+---
+Description: Set scale information for a specific key frame in the animation set.
+ms.assetid: b606e5d3-11c9-4997-ad3c-d3ae21c32e10
+title: ID3DXKeyframedAnimationSetSetScaleKey method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXKeyframedAnimationSet::SetScaleKey method

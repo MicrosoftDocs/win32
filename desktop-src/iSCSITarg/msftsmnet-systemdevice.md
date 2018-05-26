@@ -4,13 +4,15 @@ description: Associates logical devices to a system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5e8fb6b8-9101-4efc-9980-ffd9046ff28a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5e8fb6b8-9101-4efc-9980-ffd9046ff28a
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFTSMNET_SystemDevice class iSCSI Software Target API", "MSFTSMNET_SystemDevice class iSCSI Software Target API , described"]
+keywords:
+- MSFTSMNET_SystemDevice class iSCSI Software Target API
+- MSFTSMNET_SystemDevice class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFTSMNET\_SystemDevice class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Association, Aggregation, Composition, Version("1.0.0")]
 class MSFTSMNET_SystemDevice : CIM_SystemDevice
 {
-  CIM_System        REF GroupComponent;
+  CIM_System        REF GroupComponent;
   CIM_LogicalDevice REF PartComponent;
 };
 ```
@@ -95,7 +100,7 @@ This property is inherited from [**CIM\_SystemDevice**](cim-systemdevice.md).
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -112,9 +117,9 @@ This property is inherited from [**CIM\_SystemDevice**](cim-systemdevice.md).
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

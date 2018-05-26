@@ -1,7 +1,12 @@
 ---
 title: Creating and Deleting Objects
 description: Both types of WPDObject objects, Service objects and Storage objects, support the creation and deletion of child objects.
-ms.assetid: 'fb4b669b-fba6-4e5f-adfb-9de8da0f2b08'
+ms.assetid: fb4b669b-fba6-4e5f-adfb-9de8da0f2b08
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating and Deleting Objects

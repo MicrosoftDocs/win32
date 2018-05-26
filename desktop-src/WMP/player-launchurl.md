@@ -1,8 +1,11 @@
 ---
 title: Player.launchURL method
-description: The launchURL method sends a URL to the user's default browser to be rendered.
-ms.assetid: '3e8dfdbb-b5ad-44ea-97a6-e860386b7fb4'
-keywords: ["launchURL method Windows Media Player", "launchURL method Windows Media Player , Player class", "Player class Windows Media Player , launchURL method"]
+description: The launchURL method sends a URL to the users default browser to be rendered.
+ms.assetid: 3e8dfdbb-b5ad-44ea-97a6-e860386b7fb4
+keywords:
+- launchURL method Windows Media Player
+- launchURL method Windows Media Player , Player class
+- Player class Windows Media Player , launchURL method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.launchURL method
@@ -83,9 +91,9 @@ The following example creates an HTML BUTTON element that, when clicked, display
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

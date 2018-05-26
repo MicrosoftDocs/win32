@@ -1,7 +1,12 @@
 ---
 title: Automatic Maintenance
 description: Automatic Maintenance
-ms.assetid: 'D3B61105-D118-42A4-8F3D-ED92EFAF597F'
+ms.assetid: D3B61105-D118-42A4-8F3D-ED92EFAF597F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automatic Maintenance

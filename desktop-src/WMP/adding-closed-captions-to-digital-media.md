@@ -1,8 +1,32 @@
 ---
 title: Adding Closed Captions to Digital Media
 description: Adding Closed Captions to Digital Media
-ms.assetid: '0fdd2cdc-32d4-4fda-9596-b050107abd5f'
-keywords: ["Windows Media Player,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player object model,Synchronized Accessible Media Interchange (SAMI)", "object model,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player Mobile,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player Mobile ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "Synchronized Accessible Media Interchange (SAMI),about", "SAMI (Synchronized Accessible Media Interchange),about", "Windows Media Player,adding closed captions", "Windows Media Player object model,adding closed captions", "object model,adding closed captions", "Windows Media Player Mobile,adding closed captions", "Windows Media Player ActiveX control,adding closed captions", "Windows Media Player Mobile ActiveX control,adding closed captions", "ActiveX control,adding closed captions", "Synchronized Accessible Media Interchange (SAMI),adding closed captions", "SAMI (Synchronized Accessible Media Interchange),adding closed captions", "adding closed captions"]
+ms.assetid: 0fdd2cdc-32d4-4fda-9596-b050107abd5f
+keywords:
+- Windows Media Player,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player object model,Synchronized Accessible Media Interchange (SAMI)
+- object model,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player Mobile,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player Mobile ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- Synchronized Accessible Media Interchange (SAMI),about
+- SAMI (Synchronized Accessible Media Interchange),about
+- Windows Media Player,adding closed captions
+- Windows Media Player object model,adding closed captions
+- object model,adding closed captions
+- Windows Media Player Mobile,adding closed captions
+- Windows Media Player ActiveX control,adding closed captions
+- Windows Media Player Mobile ActiveX control,adding closed captions
+- ActiveX control,adding closed captions
+- Synchronized Accessible Media Interchange (SAMI),adding closed captions
+- SAMI (Synchronized Accessible Media Interchange),adding closed captions
+- adding closed captions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Closed Captions to Digital Media

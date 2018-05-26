@@ -1,7 +1,12 @@
 ---
-Description: 'The DirectX .x file format is not specific to any application. It uses templates that don''t depend on how the file is used. This allows the .x file format to be used by any client application.'
-ms.assetid: 'fe74f65a-ed9f-4669-82fd-ccd9181df517'
+Description: The DirectX .x file format is not specific to any application. It uses templates that dont depend on how the file is used. This allows the .x file format to be used by any client application.
+ms.assetid: fe74f65a-ed9f-4669-82fd-ccd9181df517
 title: Text Encoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Encoding

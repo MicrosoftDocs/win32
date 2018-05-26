@@ -1,7 +1,12 @@
 ---
 title: Retrieving Network Errors
 description: The WNet functions return error codes for compatibility with Windows for Workgroups. Each WNet function also sets the error code value returned by GetLastError.
-ms.assetid: '8188304a-8ab3-4c43-a6d6-2806043cc195'
+ms.assetid: 8188304a-8ab3-4c43-a6d6-2806043cc195
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Network Errors

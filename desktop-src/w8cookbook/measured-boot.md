@@ -1,7 +1,12 @@
 ---
 title: Measured Boot
 description: Measured Boot
-ms.assetid: 'D7ED02FA-6D0F-4753-AC07-BD7DCE55B3FD'
+ms.assetid: D7ED02FA-6D0F-4753-AC07-BD7DCE55B3FD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Measured Boot

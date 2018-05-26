@@ -1,7 +1,12 @@
 ---
-Description: 'Model number of the device.'
-ms.assetid: '9428EE6E-79B3-4081-ACF3-4164C60924CA'
-title: 'System.Devices.ModelNumber'
+Description: Model number of the device.
+ms.assetid: 9428EE6E-79B3-4081-ACF3-4164C60924CA
+title: System.Devices.ModelNumber
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.ModelNumber

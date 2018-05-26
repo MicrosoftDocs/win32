@@ -1,8 +1,11 @@
 ---
 title: IMessenger OptionsPages method
 description: Launches the Options dialog box with a specified tab displayed.
-ms.assetid: '62b37eb0-dc7e-4f58-8063-ef42943b0d8d'
-keywords: ["OptionsPages method Windows Messenger", "OptionsPages method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , OptionsPages method"]
+ms.assetid: 62b37eb0-dc7e-4f58-8063-ef42943b0d8d
+keywords:
+- OptionsPages method Windows Messenger
+- OptionsPages method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , OptionsPages method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::OptionsPages method
 
-\[**OptionsPages** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OptionsPages** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Launches the **Options** dialog box with a specified tab displayed.
 
@@ -24,8 +32,8 @@ Launches the **Options** dialog box with a specified tab displayed.
 
 ```C++
 HRESULT OptionsPages(
-  [in] long        hwndParent,
-  [in] MOPTIONPAGE mOptionPage
+  [in] long        hwndParent,
+  [in] MOPTIONPAGE mOptionPage
 );
 ```
 
@@ -66,7 +74,7 @@ A value of the [**MOPTIONPAGE**](im-moptionpage.md) enumeration. Allowed values 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -92,7 +100,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -101,7 +109,7 @@ Because some options can be checked or changed while the client is offline, this
 > [!Note]  
 > This method is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -109,17 +117,17 @@ Because some options can be checked or changed while the client is offline, this
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

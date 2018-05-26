@@ -1,6 +1,11 @@
 ---
-Description: 'Intsafe.h Functions'
-title: 'Intsafe.h Functions'
+Description: Intsafe.h Functions
+title: Intsafe.h Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Intsafe.h Functions

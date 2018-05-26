@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_Top method retrieves the top window coordinate.'
-ms.assetid: '1e7910bd-e38e-4586-9dd6-701f69c0f6e7'
-title: 'CBaseControlWindow.get\_Top method'
+Description: The get\_Top method retrieves the top window coordinate.
+ms.assetid: 1e7910bd-e38e-4586-9dd6-701f69c0f6e7
+title: CBaseControlWindow.get\_Top method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.get\_Top method
@@ -13,7 +18,7 @@ The `get_Top` method retrieves the top window coordinate.
 
 ```C++
 HRESULT get_Top(
-   long *pTop
+   long *pTop
 );
 ```
 
@@ -58,9 +63,9 @@ Setting the left or top coordinates moves the window left or up, respectively; t
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

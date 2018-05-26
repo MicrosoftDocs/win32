@@ -1,7 +1,12 @@
 ---
-Description: 'The following example illustrates the use of the VirtualAlloc and VirtualFree functions in reserving and committing memory as needed for a dynamic array.'
-ms.assetid: 'f46bd57d-7684-4a08-8ac7-de204aecb207'
+Description: The following example illustrates the use of the VirtualAlloc and VirtualFree functions in reserving and committing memory as needed for a dynamic array.
+ms.assetid: f46bd57d-7684-4a08-8ac7-de204aecb207
 title: Reserving and Committing Memory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reserving and Committing Memory

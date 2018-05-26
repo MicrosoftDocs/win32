@@ -4,17 +4,22 @@ description: The minimum value for a WMI 64-bit integer parameter object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0505e64c-ba42-4df1-a3b4-ce0deb5591ff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0505e64c-ba42-4df1-a3b4-ce0deb5591ff
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-int8Min attribute AD Schema", "msWMI-Int8Min attribute AD Schema"]
+keywords:
+- ms-WMI-int8Min attribute AD Schema
+- msWMI-Int8Min attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-int8Min
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-int8Min attribute

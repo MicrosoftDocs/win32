@@ -1,7 +1,12 @@
 ---
 title: Running a Compiled Help File from the Web
 description: Running a Compiled Help File from the Web
-ms.assetid: 'AAF72D35-9FBA-40bd-B719-7E7BF0A08355'
+ms.assetid: AAF72D35-9FBA-40bd-B719-7E7BF0A08355
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Running a Compiled Help File from the Web

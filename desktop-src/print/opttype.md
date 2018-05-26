@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OPTTYPE structure is used by CPSUI applications (including printer interface DLLs) for describing the type and other characteristics of a property sheet option, if the option is specified by an OPTITEM structure.'
-ms.assetid: '041dd438-e837-4912-bda7-de654204198b'
+---
+Description: The OPTTYPE structure is used by CPSUI applications (including printer interface DLLs) for describing the type and other characteristics of a property sheet option, if the option is specified by an OPTITEM structure.
+ms.assetid: 041dd438-e837-4912-bda7-de654204198b
 title: OPTTYPE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPTTYPE structure

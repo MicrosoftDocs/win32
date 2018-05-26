@@ -1,8 +1,14 @@
 ---
 title: Create Animation Variables
 description: An application must create an animation variable for each visual characteristic that is to be animated using Windows Animation.
-ms.assetid: '360aa157-cb50-400a-b373-45885410469d'
-keywords: ["animation variables Windows Animation ,creating"]
+ms.assetid: 360aa157-cb50-400a-b373-45885410469d
+keywords:
+- animation variables Windows Animation ,creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create Animation Variables
@@ -24,7 +30,7 @@ Animation variables are passed as parameters when storyboards are constructed, s
 
 ### Animating Colors
 
-The following example code is taken from MainWindow.cpp in the Windows Animation samples [Application-Driven Animation](application-driven-animation-sample.md) and [Timer-Driven Animation](timer-driven-animation-sample.md). In the example, three animation variables are created using [**CreateAnimationVariable**](iuianimationmanager-createanimationvariable.md) to represent background colors. The code also uses the [**SetLowerBound**](iuianimationvariable-setlowerbound.md) and [**SetUpperBound**](iuianimationvariable-setupperbound.md) methods to control the value of the animation variable.
+The following example code is taken from MainWindow.cpp in the Windows Animation samples [Application-Driven Animation](application-driven-animation-sample.md) and [Timer-Driven Animation](timer-driven-animation-sample.md). In the example, three animation variables are created using [**CreateAnimationVariable**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-createanimationvariable?branch=master) to represent background colors. The code also uses the [**SetLowerBound**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-setlowerbound?branch=master) and [**SetUpperBound**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-setupperbound?branch=master) methods to control the value of the animation variable.
 
 
 ```
@@ -151,7 +157,7 @@ public:
 
 
 
-Animation variables are floating-point numbers, but their values can be fetched as integers, too. By default, each value will be rounded to the nearest integer, but it is possible to override the rounding mode used for a variable. The following example code uses the [**SetRoundingMode**](iuianimationvariable-setroundingmode.md) method to specify that the values should always be rounded down.
+Animation variables are floating-point numbers, but their values can be fetched as integers, too. By default, each value will be rounded to the nearest integer, but it is possible to override the rounding mode used for a variable. The following example code uses the [**SetRoundingMode**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-setroundingmode?branch=master) method to specify that the values should always be rounded down.
 
 
 ```C++
@@ -183,16 +189,16 @@ After completing this step, the next step is: [Update the Animation Manager and 
 
 <dl> <dt>
 
-[**IUIAnimationManager::CreateAnimationVariable**](iuianimationmanager-createanimationvariable.md)
+[**IUIAnimationManager::CreateAnimationVariable**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-createanimationvariable?branch=master)
 </dt> <dt>
 
-[**IUIAnimationVariable::SetLowerBound**](iuianimationvariable-setlowerbound.md)
+[**IUIAnimationVariable::SetLowerBound**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-setlowerbound?branch=master)
 </dt> <dt>
 
-[**IUIAnimationVariable::SetRoundingMode**](iuianimationvariable-setroundingmode.md)
+[**IUIAnimationVariable::SetRoundingMode**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-setroundingmode?branch=master)
 </dt> <dt>
 
-[**IUIAnimationVariable::SetUpperBound**](iuianimationvariable-setupperbound.md)
+[**IUIAnimationVariable::SetUpperBound**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-setupperbound?branch=master)
 </dt> <dt>
 
 [Windows Animation Overview](scenic-animation-api-overview.md)

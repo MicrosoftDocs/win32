@@ -1,8 +1,37 @@
 ---
 title: Windows Color System Common Profile Types schema, Versioning and Localization Strategies
 description: Windows Color System Common Profile Types schema, Versioning and Localization Strategies
-ms.assetid: '295522c6-7c53-47f6-9b98-aeee2b0e34fc'
-keywords: ["Windows Color System (WCS),common profile types", "WCS (Windows Color System),common profile types", "image color management,common profile types", "color management,common profile types", "colors,common profile types", "Windows Color System (WCS),profiles", "WCS (Windows Color System),profiles", "image color management,profiles", "color management,profiles", "colors,profiles", "Windows Color System (WCS),versioning", "WCS (Windows Color System),versioning", "image color management,versioning", "color management,versioning", "colors,versioning", "Windows Color System (WCS),localization", "WCS (Windows Color System),localization", "image color management,localization", "color management,localization", "colors,localization", "WCS common profile types", "profile consumers", "common profile types", "schemas,common profile types"]
+ms.assetid: 295522c6-7c53-47f6-9b98-aeee2b0e34fc
+keywords:
+- Windows Color System (WCS),common profile types
+- WCS (Windows Color System),common profile types
+- image color management,common profile types
+- color management,common profile types
+- colors,common profile types
+- Windows Color System (WCS),profiles
+- WCS (Windows Color System),profiles
+- image color management,profiles
+- color management,profiles
+- colors,profiles
+- Windows Color System (WCS),versioning
+- WCS (Windows Color System),versioning
+- image color management,versioning
+- color management,versioning
+- colors,versioning
+- Windows Color System (WCS),localization
+- WCS (Windows Color System),localization
+- image color management,localization
+- color management,localization
+- colors,localization
+- WCS common profile types
+- profile consumers
+- common profile types
+- schemas,common profile types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Color System Common Profile Types schema, Versioning and Localization Strategies

@@ -1,8 +1,16 @@
 ---
 title: MIDLRT and Windows Runtime components
 description: Shows how to create metadata (.winmd) files that represent the API for custom Windows Runtime components.
-ms.assetid: '7830A5DB-9696-4A93-948B-51DA46A5143C'
-keywords: ["MIDL compiler MIDL", "MIDL compiler MIDL , MIDL and Windows Runtime winrt", "Windows Runtime MIDL"]
+ms.assetid: 7830A5DB-9696-4A93-948B-51DA46A5143C
+keywords:
+- MIDL compiler MIDL
+- MIDL compiler MIDL , MIDL and Windows Runtime winrt
+- Windows Runtime MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDLRT and Windows Runtime components

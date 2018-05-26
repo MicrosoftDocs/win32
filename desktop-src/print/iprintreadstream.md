@@ -1,7 +1,12 @@
-﻿---
-Description: 'Filters use the IPrintReadStream interface to read data as a raw stream of bytes.'
-ms.assetid: 'f31a6547-44ec-4331-8f9b-e46192f4966a'
+---
+Description: Filters use the IPrintReadStream interface to read data as a raw stream of bytes.
+ms.assetid: f31a6547-44ec-4331-8f9b-e46192f4966a
 title: IPrintReadStream interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintReadStream interface

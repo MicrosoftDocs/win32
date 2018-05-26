@@ -1,7 +1,12 @@
 ---
 title: Redistributing Windows Media Player 11
 description: Redistributing Windows Media Player 11
-ms.assetid: '3348821f-6d72-40c2-954b-0046ce502401'
+ms.assetid: 3348821f-6d72-40c2-954b-0046ce502401
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Redistributing Windows Media Player 11

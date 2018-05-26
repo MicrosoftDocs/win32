@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Microsoft MPEG Audio Decoder is a synchronous Media Foundation Transform (MFT) that enables decoding MPEG audio elementary stream formats using the Media Foundation (MF) pipeline.'
-ms.assetid: '29A0491D-CA0D-4909-96F0-5640D5EE77F9'
+---
+Description: The Microsoft MPEG Audio Decoder is a synchronous Media Foundation Transform (MFT) that enables decoding MPEG audio elementary stream formats using the Media Foundation (MF) pipeline.
+ms.assetid: 29A0491D-CA0D-4909-96F0-5640D5EE77F9
 title: MPEG Audio Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG Audio Decoder
@@ -67,7 +72,7 @@ The decoder supports the following output media type attributes.
 
 ## Transform Attributes
 
-The MPEG Audio decoder implements the [**IMFTransform::GetAttributes**](imftransform-getattributes.md) method. Applications can use this method to get or set the following attributes.
+The MPEG Audio decoder implements the [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) method. Applications can use this method to get or set the following attributes.
 
 
 

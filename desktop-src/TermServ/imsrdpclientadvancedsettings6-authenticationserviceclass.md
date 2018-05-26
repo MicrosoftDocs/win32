@@ -4,11 +4,18 @@ description: Specifies the service principal name (SPN) to use for authenticatio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '65d10b1f-295a-44b8-a790-306ae4e3e5e2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 65d10b1f-295a-44b8-a790-306ae4e3e5e2
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AuthenticationServiceClass property Remote Desktop Services", "AuthenticationServiceClass property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , AuthenticationServiceClass property", "AuthenticationServiceClass property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , AuthenticationServiceClass property", "AuthenticationServiceClass property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , AuthenticationServiceClass property"]
+keywords:
+- AuthenticationServiceClass property Remote Desktop Services
+- AuthenticationServiceClass property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , AuthenticationServiceClass property
+- AuthenticationServiceClass property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , AuthenticationServiceClass property
+- AuthenticationServiceClass property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , AuthenticationServiceClass property
 topic_type:
 - apiref
 api_name:
@@ -25,6 +32,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings6::AuthenticationServiceClass property
@@ -38,11 +48,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_AuthenticationServiceClass(
-  [in]          BSTR bstrAuthServiceClass
+  [in]          BSTR bstrAuthServiceClass
 );
 
 HRESULT get_AuthenticationServiceClass(
-  [out, retval] BSTR *pbstrAuthServiceClass
+  [out, retval] BSTR *pbstrAuthServiceClass
 );
 ```
 
@@ -64,8 +74,8 @@ Service principal names (SPNs) are associated with the security principal (user 
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings6 is defined as 222c4b5d-45d9-4df0-a7c6-60cf9089d285<br/> |
@@ -85,9 +95,9 @@ Service principal names (SPNs) are associated with the security principal (user 
 [**IMsRdpClientAdvancedSettings6**](imsrdpclientadvancedsettings6.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'You can use the DACL of a container object to control who is allowed to create child objects within the container.'
-ms.assetid: '95f2f058-f847-4f58-b469-090bf599ae98'
+Description: You can use the DACL of a container object to control who is allowed to create child objects within the container.
+ms.assetid: 95f2f058-f847-4f58-b469-090bf599ae98
 title: Controlling Child Object Creation in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controlling Child Object Creation in C++
@@ -12,9 +17,9 @@ The various types of container objects have specific access rights that control 
 
 The ADS\_RIGHT\_DS\_CREATE\_CHILD access right controls the creation of child objects in a directory service (DS) object. However, DS objects can contain different types of objects, so the system supports a finer granularity of control. You can use [object-specific ACEs](object-specific-aces.md) to allow or deny the right to create a specified type of child object. You can allow a user to create one type of child object while preventing the user from creating other types of child objects.
 
-The following example uses the [**SetEntriesInAcl**](setentriesinacl.md) function to add an object-specific ACE to an ACL. The ACE grants permission to create a specified type of child object. The **grfAccessPermissions** member of the [**EXPLICIT\_ACCESS**](explicit-access.md) structure is set to ADS\_RIGHT\_DS\_CREATE\_CHILD to indicate that the ACE controls the child object creation. The **ObjectsPresent** member of the [**OBJECTS\_AND\_SID**](objects-and-sid.md) structure is set to ACE\_OBJECT\_TYPE\_PRESENT to indicate that the **ObjectTypeGuid** member contains a valid GUID. The GUID identifies a type of child object whose creation is being controlled.
+The following example uses the [**SetEntriesInAcl**](/windows/win32/Aclapi/nf-aclapi-setentriesinacla?branch=master) function to add an object-specific ACE to an ACL. The ACE grants permission to create a specified type of child object. The **grfAccessPermissions** member of the [**EXPLICIT\_ACCESS**](/windows/win32/AccCtrl/ns-accctrl-_explicit_access_a?branch=master) structure is set to ADS\_RIGHT\_DS\_CREATE\_CHILD to indicate that the ACE controls the child object creation. The **ObjectsPresent** member of the [**OBJECTS\_AND\_SID**](/windows/win32/AccCtrl/ns-accctrl-_objects_and_sid?branch=master) structure is set to ACE\_OBJECT\_TYPE\_PRESENT to indicate that the **ObjectTypeGuid** member contains a valid GUID. The GUID identifies a type of child object whose creation is being controlled.
 
-In the following example, pOldDACL must be a valid pointer to an existing [**ACL**](acl.md) structure. For information about how to create an **ACL** structure for an object, see [Creating a Security Descriptor for a New Object in C++](creating-a-security-descriptor-for-a-new-object-in-c--.md).
+In the following example, pOldDACL must be a valid pointer to an existing [**ACL**](/windows/win32/Winnt/ns-winnt-_acl?branch=master) structure. For information about how to create an **ACL** structure for an object, see [Creating a Security Descriptor for a New Object in C++](creating-a-security-descriptor-for-a-new-object-in-c--.md).
 
 
 ```C++

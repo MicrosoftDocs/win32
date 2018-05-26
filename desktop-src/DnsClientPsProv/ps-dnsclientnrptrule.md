@@ -4,13 +4,15 @@ description: DNS Client NRPT Rule.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9c77fe36-9bec-45e6-882d-0fea56f7cca2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9c77fe36-9bec-45e6-882d-0fea56f7cca2
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-client'
-- 'windows-management-instrumentation'
+- dns-client
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DnsClientNrptRule class", "PS_DnsClientNrptRule class, described"]
+keywords:
+- PS_DnsClientNrptRule class
+- PS_DnsClientNrptRule class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - DnsClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DnsClientNrptRule class
@@ -57,7 +62,7 @@ The **PS\_DnsClientNrptRule** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,17 +70,17 @@ The **PS\_DnsClientNrptRule** class has these methods.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

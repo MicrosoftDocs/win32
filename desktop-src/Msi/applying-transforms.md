@@ -1,7 +1,12 @@
 ---
-Description: 'The TRANSFORMS property contains the list of transforms for an installation package. The installer applies all the transforms in the transforms list at every installation, advertisement, installation-on-demand, or maintenance installation of the package.'
-ms.assetid: 'dde2ef55-7794-4eb1-984a-ed13e990c97f'
+Description: The TRANSFORMS property contains the list of transforms for an installation package. The installer applies all the transforms in the transforms list at every installation, advertisement, installation-on-demand, or maintenance installation of the package.
+ms.assetid: dde2ef55-7794-4eb1-984a-ed13e990c97f
 title: Applying Transforms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Applying Transforms
@@ -15,7 +20,7 @@ Note that the transforms list cannot be modified once installed and can only be 
 > [!Note]  
 > A Windows Installer package can apply no more than 255 transforms when installing an application or update. When many transforms are necessary, they should be combined and previous obsolete transforms should be eliminated.
 
- 
+ 
 
 The following table provides examples of various transforms strings that could be added to the transforms list.
 
@@ -30,11 +35,11 @@ The following table provides examples of various transforms strings that could b
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

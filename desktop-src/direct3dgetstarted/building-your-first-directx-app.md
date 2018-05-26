@@ -1,8 +1,14 @@
 ---
 title: Create your first Windows app using DirectX
 description: This section describes why you would use the C++ model for Windows Store app development, and provides basic tutorials and procedures for getting started with DirectX app development.
-ms.assetid: 'b632ba9c-1c30-4d21-ac79-7f2a193956fe'
-keywords: ["DirectX app, getting started"]
+ms.assetid: b632ba9c-1c30-4d21-ac79-7f2a193956fe
+keywords:
+- DirectX app, getting started
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create your first Windows app using DirectX
@@ -13,7 +19,7 @@ Use this basic tutorial to get started with DirectX app development, then use th
 
 ## Windows desktop app with C++ and DirectX
 
-A Windows desktop app with DirectX is an app developed using native C++ and DirectX APIs. This model is more complex than an app written in a managed framework, but it provides greater flexibility and greater access to system resources—especially graphics devices. So, it is a good model for the experienced developer.
+A Windows desktop app with DirectX is an app developed using native C++ and DirectX APIs. This model is more complex than an app written in a managed framework, but it provides greater flexibility and greater access to system resources especially graphics devices. So, it is a good model for the experienced developer.
 
 ## Why develop a Windows app with DirectX?
 
@@ -35,11 +41,11 @@ If you are confident, or simply have a dream of making a game with high-fidelity
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

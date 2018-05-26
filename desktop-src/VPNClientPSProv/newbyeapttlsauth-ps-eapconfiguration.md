@@ -2,11 +2,14 @@
 title: NewByEapTtlsAuth method of the PS\_EapConfiguration class
 description: Creates an Extensible Authentication Protocol (EAP) configuration object that uses the EAP Tunneled Transport Layer Security (EAP-TTLS) secure protocol.
 audience: developer
-ms.assetid: '6d387570-0fb1-428f-9e48-4f5ce6d2af00'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 6d387570-0fb1-428f-9e48-4f5ce6d2af00
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["NewByEapTtlsAuth method", "NewByEapTtlsAuth method, PS_EapConfiguration class", "PS_EapConfiguration class, NewByEapTtlsAuth method"]
+keywords:
+- NewByEapTtlsAuth method
+- NewByEapTtlsAuth method, PS_EapConfiguration class
+- PS_EapConfiguration class, NewByEapTtlsAuth method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NewByEapTtlsAuth method of the PS\_EapConfiguration class
@@ -26,11 +32,11 @@ Creates an Extensible Authentication Protocol (EAP) configuration object that us
 
 ```mof
 static uint32 NewByEapTtlsAuth(
-  [in]  boolean          Ttls,
-  [in]  boolean          UseWinlogonCredential,
-  [in]  string           TunnledNonEapAuthMethod,
-  [in]  string           TunnledEapAuthMethod,
-  [out] EapConfiguration cmdletOutput
+  [in]  boolean          Ttls,
+  [in]  boolean          UseWinlogonCredential,
+  [in]  string           TunnledNonEapAuthMethod,
+  [in]  string           TunnledEapAuthMethod,
+  [out] EapConfiguration cmdletOutput
 );
 ```
 
@@ -125,8 +131,8 @@ When this method returns, contains the [**EapConfiguration**](eapconfiguration.m
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -140,9 +146,9 @@ When this method returns, contains the [**EapConfiguration**](eapconfiguration.m
 [**PS\_EapConfiguration**](ps-eapconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

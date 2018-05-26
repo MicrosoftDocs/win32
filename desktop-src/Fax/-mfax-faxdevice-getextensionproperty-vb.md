@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetExtensionProperty method retrieves an extension configuration property stored at the device level.'
-ms.assetid: '5522b69f-c726-475f-9d36-0365196c47c1'
-title: 'FaxDevice.GetExtensionProperty method'
+---
+Description: The GetExtensionProperty method retrieves an extension configuration property stored at the device level.
+ms.assetid: 5522b69f-c726-475f-9d36-0365196c47c1
+title: FaxDevice.GetExtensionProperty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.GetExtensionProperty method
@@ -45,7 +50,7 @@ Type: **Variant\***
 
  
 
-To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -70,7 +75,7 @@ To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-ac
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

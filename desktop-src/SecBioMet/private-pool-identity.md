@@ -1,7 +1,12 @@
 ---
 title: Private Pool Identity
 description: Contains the identification console project.
-ms.assetid: '1A96A20D-6991-4D8D-B7EC-7AF84B550920'
+ms.assetid: 1A96A20D-6991-4D8D-B7EC-7AF84B550920
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Private Pool Identity

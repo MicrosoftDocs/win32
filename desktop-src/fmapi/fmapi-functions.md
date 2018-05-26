@@ -1,7 +1,12 @@
 ---
 title: FMAPI Functions
 description: The following functions are used with FMAPI.
-ms.assetid: 'f992b2d0-a132-487a-9e9d-fac359acc766'
+ms.assetid: f992b2d0-a132-487a-9e9d-fac359acc766
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FMAPI Functions

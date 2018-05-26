@@ -1,14 +1,15 @@
 ---
 title: MMCN\_BTN\_CLICK message
-description: Sent to the snap-in's IComponent, IComponentData, or IExtendControlbar implementation when a user clicks a toolbar button.
+description: Sent to the snap-ins IComponent, IComponentData, or IExtendControlbar implementation when a user clicks a toolbar button.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '166488ab-942f-4e25-9007-b9b79aac5995'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 166488ab-942f-4e25-9007-b9b79aac5995
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_BTN_CLICK message MMC"]
+keywords:
+- MMCN_BTN_CLICK message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_BTN\_CLICK message
 
-The **MMCN\_BTN\_CLICK** notification message is sent to the snap-in's [**IComponent**](icomponent.md), [**IComponentData**](icomponentdata.md), or [**IExtendControlbar**](iextendcontrolbar.md) implementation when a user clicks a toolbar button.
+The **MMCN\_BTN\_CLICK** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master), [**IComponentData**](icomponentdata.md), or [**IExtendControlbar**](iextendcontrolbar.md) implementation when a user clicks a toolbar button.
 
 ## Parameters
 
@@ -76,8 +80,8 @@ For a custom view (custom OCX or webpage) for which the MMC\_VERB\_PROPERTIES ve
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -95,9 +99,9 @@ For a custom view (custom OCX or webpage) for which the MMC\_VERB\_PROPERTIES ve
 [**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

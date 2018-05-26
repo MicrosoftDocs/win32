@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DataSize property of the Record object is a read-only property that returns the size of the data for the designated field.'
-ms.assetid: '6f89321e-bdb2-4c18-bdf8-01dea38b47c9'
-title: 'Record.DataSize property'
+---
+Description: The DataSize property of the Record object is a read-only property that returns the size of the data for the designated field.
+ms.assetid: 6f89321e-bdb2-4c18-bdf8-01dea38b47c9
+title: Record.DataSize property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Record.DataSize property

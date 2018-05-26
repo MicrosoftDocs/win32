@@ -1,7 +1,12 @@
 ---
 Description: WST Decoder Filter
-ms.assetid: '2d33ae3f-565d-4e69-8fb0-117ff582a4d0'
+ms.assetid: 2d33ae3f-565d-4e69-8fb0-117ff582a4d0
 title: WST Decoder Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WST Decoder Filter
@@ -15,17 +20,17 @@ This component has been removed from Windows Vista and later operating systems.
 
 The WST Decoder is a kernel-mode filter that accepts decoded World Standard Teletext data from the [WST Codec](wst-codec-filter.md) and delivers the bitmaps to Pin 2 on the [Overlay Mixer](overlay-mixer-filter.md) using fonts supplied by Microsoft. Only Western European languages are supported at this time; no Unicode fonts are currently provided.
 
-This filter can be added to the graph automatically by calling [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md), using the output pin of the WST Codec.
+This filter can be added to the graph automatically by calling [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master), using the output pin of the WST Codec.
 
 
 
 |                                          |                                                               |
 |------------------------------------------|---------------------------------------------------------------|
-| Filter Interfaces                        | ISpecifyPropertyPages, [**IAMWstDecoder**](iamwstdecoder.md) |
+| Filter Interfaces                        | ISpecifyPropertyPages, [**IAMWstDecoder**](/windows/win32/Iwstdec/nn-iwstdec-iamwstdecoder?branch=master) |
 | Input Pin Media Types                    | MEDIATYPE\_VBI, MEDIASUBTYPE\_TELETEXT                        |
-| Input Pin Interfaces                     | [**IPin**](ipin.md)                                          |
+| Input Pin Interfaces                     | [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)                                          |
 | Output Pin Media Types                   | MEDIATYPE\_Video                                              |
-| Output Pin Interfaces                    | [**IPin**](ipin.md)                                          |
+| Output Pin Interfaces                    | [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)                                          |
 | Filter CLSID                             | CLSID\_WSTDecoder                                             |
 | Property Page CLSID                      | CLSID\_WstDecoderPropertyPage                                 |
 | Executable                               | Wstdecod.DLL                                                  |

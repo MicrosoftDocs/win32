@@ -1,7 +1,12 @@
-﻿---
-Description: 'During a Windows Installer installation, the installer can search all fixed drives for a file.'
-ms.assetid: 'c8aa84a8-5525-4a12-898f-63dc30113b13'
+---
+Description: During a Windows Installer installation, the installer can search all fixed drives for a file.
+ms.assetid: c8aa84a8-5525-4a12-898f-63dc30113b13
 title: Searching All Fixed Drives for a File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Searching All Fixed Drives for a File

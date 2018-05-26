@@ -1,7 +1,12 @@
-﻿---
-Description: 'Policy-based management of log files.'
-ms.assetid: '50e25a66-e30c-4bc2-8943-bf0612d8ce18'
-title: 'Policy-Based Management'
+---
+Description: Policy-based management of log files.
+ms.assetid: 50e25a66-e30c-4bc2-8943-bf0612d8ce18
+title: Policy-Based Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Policy-Based Management
@@ -12,28 +17,28 @@ The policy-based management of log files provides several benefits. The setting 
 
 | Policy                                                                          | Description                                                                                                              |
 |---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| [**ClfsMgmtPolicyAutoGrow**](clfs-mgmt-policy-type.md)<br/>              | Controls the auto-grow feature.<br/>                                                                               |
-| [**ClfsMgmtPolicyAutoShrink**](clfs-mgmt-policy-type.md)<br/>            | Controls the timing of the log-shrinking feature.<br/>                                                             |
-| [**ClfsMgmtPolicyGrowthRate**](clfs-mgmt-policy-type.md)<br/>            | Controls the rate of growth of a log.<br/>                                                                         |
-| [**ClfsMgmtPolicyLogTail**](clfs-mgmt-policy-type.md)<br/>               | Controls the amount of space that [**LOG\_TAIL\_ADVANCE\_CALLBACK**](log-tail-advance-callback.md) requests.<br/> |
-| [**ClfsMgmtPolicyMaximumSize**](clfs-mgmt-policy-type.md)<br/>           | Specifies the maximum size of a log.<br/>                                                                          |
-| [**ClfsMgmtPolicyMinimumSize**](clfs-mgmt-policy-type.md)<br/>           | Specifies the minimum size of a log.<br/>                                                                          |
-| [**ClfsMgmtPolicyNewContainerExtension**](clfs-mgmt-policy-type.md)<br/> | Controls the extension that is given to a new container.<br/>                                                      |
-| [**ClfsMgmtPolicyNewContainerPrefix**](clfs-mgmt-policy-type.md)<br/>    | Controls the prefix that is given to a new container.<br/>                                                         |
-| [**ClfsMgmtPolicyNewContainerSize**](clfs-mgmt-policy-type.md)<br/>      | Controls the size of a new container.<br/>                                                                         |
-| [**ClfsMgmtPolicyNewContainerSuffix**](clfs-mgmt-policy-type.md)<br/>    | Controls the suffix that is given to a new container.<br/>                                                         |
+| [**ClfsMgmtPolicyAutoGrow**](/windows/win32/Clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type?branch=master)<br/>              | Controls the auto-grow feature.<br/>                                                                               |
+| [**ClfsMgmtPolicyAutoShrink**](/windows/win32/Clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type?branch=master)<br/>            | Controls the timing of the log-shrinking feature.<br/>                                                             |
+| [**ClfsMgmtPolicyGrowthRate**](/windows/win32/Clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type?branch=master)<br/>            | Controls the rate of growth of a log.<br/>                                                                         |
+| [**ClfsMgmtPolicyLogTail**](/windows/win32/Clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type?branch=master)<br/>               | Controls the amount of space that [**LOG\_TAIL\_ADVANCE\_CALLBACK**](/windows/win32/Clfsmgmtw32/nc-clfsmgmtw32-plog_tail_advance_callback?branch=master) requests.<br/> |
+| [**ClfsMgmtPolicyMaximumSize**](/windows/win32/Clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type?branch=master)<br/>           | Specifies the maximum size of a log.<br/>                                                                          |
+| [**ClfsMgmtPolicyMinimumSize**](/windows/win32/Clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type?branch=master)<br/>           | Specifies the minimum size of a log.<br/>                                                                          |
+| [**ClfsMgmtPolicyNewContainerExtension**](/windows/win32/Clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type?branch=master)<br/> | Controls the extension that is given to a new container.<br/>                                                      |
+| [**ClfsMgmtPolicyNewContainerPrefix**](/windows/win32/Clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type?branch=master)<br/>    | Controls the prefix that is given to a new container.<br/>                                                         |
+| [**ClfsMgmtPolicyNewContainerSize**](/windows/win32/Clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type?branch=master)<br/>      | Controls the size of a new container.<br/>                                                                         |
+| [**ClfsMgmtPolicyNewContainerSuffix**](/windows/win32/Clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type?branch=master)<br/>    | Controls the suffix that is given to a new container.<br/>                                                         |
 
 
 
  
 
-To use the log manager, your application must call the [**RegisterManageableLogClient**](registermanageablelogclient.md) function and provide any necessary callbacks. You must have the permissions to set policies.
+To use the log manager, your application must call the [**RegisterManageableLogClient**](/windows/win32/Clfsmgmtw32/nf-clfsmgmtw32-registermanageablelogclient?branch=master) function and provide any necessary callbacks. You must have the permissions to set policies.
 
 ## Resolving Log-Full Conditions
 
-When an application has a log-full condition, the application can call either the [**HandleLogFull**](handlelogfull.md) or [**SetLogFileWithPolicy**](setlogfilesizewithpolicy.md) function to request that the log manager resolve a log-full situation on behalf of the application.
+When an application has a log-full condition, the application can call either the [**HandleLogFull**](/windows/win32/Clfsmgmtw32/nf-clfsmgmtw32-handlelogfull?branch=master) or [**SetLogFileWithPolicy**](/windows/win32/Clfsmgmtw32/nf-clfsmgmtw32-setlogfilesizewithpolicy?branch=master) function to request that the log manager resolve a log-full situation on behalf of the application.
 
-When the [**HandleLogFull**](handlelogfull.md) function is used to resolve a log-full condition, the log manager can either add containers or request other managed clients to move their respective log tails to a new position. When the [**SetLogFileWithPolicy**](setlogfilesizewithpolicy.md) function is called, the log file grows based on the policy. The **SetLogFileWithPolicy** function can also be used to shrink the log. When adding and removing containers using **HandleLogFull** or **SetLogFileWithPolicy**, CLFS Management uses the calling application's security context.
+When the [**HandleLogFull**](/windows/win32/Clfsmgmtw32/nf-clfsmgmtw32-handlelogfull?branch=master) function is used to resolve a log-full condition, the log manager can either add containers or request other managed clients to move their respective log tails to a new position. When the [**SetLogFileWithPolicy**](/windows/win32/Clfsmgmtw32/nf-clfsmgmtw32-setlogfilesizewithpolicy?branch=master) function is called, the log file grows based on the policy. The **SetLogFileWithPolicy** function can also be used to shrink the log. When adding and removing containers using **HandleLogFull** or **SetLogFileWithPolicy**, CLFS Management uses the calling application's security context.
 
 ## Avoiding Log-Full Scenarios
 

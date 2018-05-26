@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a hard disk drive inside of a virtual machine.'
-ms.assetid: 'BF03CD02-7CDE-45E2-84D1-EC8E4457094A'
-title: 'Msvm\_DiskDrive class'
+Description: Represents a hard disk drive inside of a virtual machine.
+ms.assetid: BF03CD02-7CDE-45E2-84D1-EC8E4457094A
+title: Msvm\_DiskDrive class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_DiskDrive class
@@ -16,68 +21,68 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_DiskDrive : CIM_DiskDrive
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState;
-  uint16   EnabledDefault;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState;
+  uint16   EnabledDefault;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint16   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = { 6 };
-  uint64   MaxQuiesceTime;
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  string   ErrorMethodology = "None";
-  string   CompressionMethod = "Not Compressed";
-  uint32   NumberOfMediaSupported = 1;
-  uint64   MaxMediaSize = 2000000000;
-  uint64   DefaultBlockSize = 512;
-  uint64   MaxBlockSize;
-  uint64   MinBlockSize = 512;
-  boolean  NeedsCleaning = False;
-  boolean  MediaIsLocked = True;
-  uint16   Security = 3;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint16   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = { 6 };
+  uint64   MaxQuiesceTime;
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  string   ErrorMethodology = "None";
+  string   CompressionMethod = "Not Compressed";
+  uint32   NumberOfMediaSupported = 1;
+  uint64   MaxMediaSize = 2000000000;
+  uint64   DefaultBlockSize = 512;
+  uint64   MaxBlockSize;
+  uint64   MinBlockSize = 512;
+  boolean  NeedsCleaning = False;
+  boolean  MediaIsLocked = True;
+  uint16   Security = 3;
   datetime LastCleaned;
-  uint64   MaxAccessTime = 0;
-  uint32   UncompressedDataRate;
-  uint64   LoadTime = 0;
-  uint64   UnloadTime = 0;
-  uint64   MountCount = 0;
+  uint64   MaxAccessTime = 0;
+  uint32   UncompressedDataRate;
+  uint64   LoadTime = 0;
+  uint64   UnloadTime = 0;
+  uint64   MountCount = 0;
   datetime TimeOfLastMount;
-  uint64   TotalMountTime = 0;
-  string   UnitsDescription;
-  uint64   MaxUnitsBeforeCleaning = 0xffffffffffffffff;
-  uint64   UnitsUsed = 0;
-  uint32   DriveNumber;
+  uint64   TotalMountTime = 0;
+  string   UnitsDescription;
+  uint64   MaxUnitsBeforeCleaning = 0xffffffffffffffff;
+  uint64   UnitsUsed = 0;
+  uint32   DriveNumber;
 };
 ```
 
@@ -108,7 +113,7 @@ The **Msvm\_DiskDrive** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -175,7 +180,7 @@ The capabilities of the media access device. This property is inherited from [**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -413,7 +418,7 @@ The enabled and disabled states of an element. It can also indicate the transiti
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1094,8 +1099,8 @@ Access to the **Msvm\_DiskDrive** class might be restricted by UAC Filtering. Fo
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1115,9 +1120,9 @@ Access to the **Msvm\_DiskDrive** class might be restricted by UAC Filtering. Fo
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

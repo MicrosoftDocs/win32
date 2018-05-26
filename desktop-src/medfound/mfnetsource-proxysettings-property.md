@@ -1,12 +1,17 @@
-﻿---
-Description: 'Specifies the configuration setting for the default proxy locator.'
-ms.assetid: '85f2bd02-8a2f-46b5-b765-1a0bc5b6ccc3'
-title: 'MFNETSOURCE\_PROXYSETTINGS property'
+---
+Description: Specifies the configuration setting for the default proxy locator.
+ms.assetid: 85f2bd02-8a2f-46b5-b765-1a0bc5b6ccc3
+title: MFNETSOURCE\_PROXYSETTINGS property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_PROXYSETTINGS property
 
-Specifies the configuration setting for the default proxy locator. The value of this property is a member of the [**MFNET\_PROXYSETTINGS**](mfnet-proxysettings.md) enumeration.
+Specifies the configuration setting for the default proxy locator. The value of this property is a member of the [**MFNET\_PROXYSETTINGS**](/windows/win32/mfidl/ne-mfidl-_mfnet_proxysettings?branch=master) enumeration.
 
 
 
@@ -28,7 +33,7 @@ VT\_I4
 
 The constant **MFNETSOURCE\_PROXYSETTINGS** defines the GUID for this property key. The property identifier (PID) is zero.
 
-Applications can use this property to configure the proxy locator when creating the default proxy locator object. To set the property, pass an **IPropertyStore** pointer in the *pProxyConfig* parameter of the [**MFCreateProxyLocator**](mfcreateproxylocator.md) function.
+Applications can use this property to configure the proxy locator when creating the default proxy locator object. To set the property, pass an **IPropertyStore** pointer in the *pProxyConfig* parameter of the [**MFCreateProxyLocator**](/windows/win32/mfidl/nf-mfidl-mfcreateproxylocator?branch=master) function.
 
 ## Requirements
 

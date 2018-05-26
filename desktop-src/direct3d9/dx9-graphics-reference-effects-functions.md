@@ -1,7 +1,12 @@
 ---
-Description: 'There are several functions that help create and compile effects.'
-ms.assetid: '8aa68b19-d248-448a-9364-42913253c55f'
+Description: There are several functions that help create and compile effects.
+ms.assetid: 8aa68b19-d248-448a-9364-42913253c55f
 title: Effect Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Functions

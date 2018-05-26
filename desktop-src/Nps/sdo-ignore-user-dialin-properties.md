@@ -1,13 +1,16 @@
 ---
 title: Ignore-User-Dialin-Properties
-description: Ignore the user's dial-in properties.
+description: Ignore the users dial-in properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b28ba418-1d1e-40a6-99bd-ab082a16c141'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: b28ba418-1d1e-40a6-99bd-ab082a16c141
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Ignore-User-Dialin-Properties

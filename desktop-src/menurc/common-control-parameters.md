@@ -1,7 +1,12 @@
 ---
 title: Common Control Parameters
 description: The following describes the general syntax for a control resource-definition statement.
-ms.assetid: 'e7a49a9f-93b5-4221-8006-3d1864b7a6a1'
+ms.assetid: e7a49a9f-93b5-4221-8006-3d1864b7a6a1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Control Parameters

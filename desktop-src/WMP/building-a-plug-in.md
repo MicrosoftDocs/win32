@@ -1,8 +1,17 @@
 ---
 title: Building a Plug-in
 description: Building a Plug-in
-ms.assetid: 'eaea6c36-2b73-419c-9a0b-27ac3570a010'
-keywords: ["Windows Media Player,plug-ins", "Windows Media Player plug-ins,building", "plug-ins,building", "building plug-ins,about"]
+ms.assetid: eaea6c36-2b73-419c-9a0b-27ac3570a010
+keywords:
+- Windows Media Player,plug-ins
+- Windows Media Player plug-ins,building
+- plug-ins,building
+- building plug-ins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building a Plug-in

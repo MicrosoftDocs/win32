@@ -1,7 +1,12 @@
 ---
-Description: 'Requests a state change.'
-ms.assetid: '34d70ff2-4545-4ab7-8c84-6532c342768b'
-title: 'RequestStateChange method of the Msvm\_CollectionReferencePointExportJob class'
+Description: Requests a state change.
+ms.assetid: 34d70ff2-4545-4ab7-8c84-6532c342768b
+title: RequestStateChange method of the Msvm\_CollectionReferencePointExportJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the Msvm\_CollectionReferencePointExportJob class
@@ -13,8 +18,8 @@ Requests a state change.
 
 ```mof
 uint32 RequestStateChange(
-  [in] uint16   RequestedState,
-  [in] datetime TimeoutPeriod
+  [in] uint16   RequestedState,
+  [in] datetime TimeoutPeriod
 );
 ```
 
@@ -155,8 +160,8 @@ Returns 0 on success; otherwise, returns one of the following errors.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -170,9 +175,9 @@ Returns 0 on success; otherwise, returns one of the following errors.
 [**Msvm\_CollectionReferencePointExportJob**](msvm-collectionreferencepointexportjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: CPU Usage by Process \ Thread Priority 0\
 description: CPU Usage by Process \ Thread Priority 0\
-ms.assetid: '94fc33bd-b3d3-4bf6-88b7-f68d43c8d79b'
-keywords: ["usage graph"]
+ms.assetid: 94fc33bd-b3d3-4bf6-88b7-f68d43c8d79b
+keywords:
+- usage graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPU Usage by Process \[Thread Priority &gt;= 0\]

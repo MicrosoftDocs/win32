@@ -1,12 +1,17 @@
 ---
-Description: 'The Clone method creates a new object with its own seek pointer that references the same bytes as the original IByteBuffer object.'
-ms.assetid: '41530f1d-81e5-4bea-a254-d7d741976904'
-title: 'IByteBuffer::Clone method'
+Description: The Clone method creates a new object with its own seek pointer that references the same bytes as the original IByteBuffer object.
+ms.assetid: 41530f1d-81e5-4bea-a254-d7d741976904
+title: IByteBufferClone method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IByteBuffer::Clone method
 
-\[The **Clone** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
+\[The **Clone** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
 
 The **Clone** method creates a new object with its own seek pointer that references the same bytes as the original [**IByteBuffer**](ibytebuffer.md) object.
 
@@ -15,7 +20,7 @@ The **Clone** method creates a new object with its own seek pointer that referen
 
 ```C++
 HRESULT Clone(
-  [out] LPBYTEBUFFER *ppByteBuffer
+  [out] LPBYTEBUFFER *ppByteBuffer
 );
 ```
 
@@ -64,10 +69,10 @@ if (FAILED(hr))
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Scardssp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Scardssp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scardssp.dll</dt> </dl> |
@@ -75,9 +80,9 @@ if (FAILED(hr))
 
 
 
- 
+ 
 
- 
+ 
 
 
 

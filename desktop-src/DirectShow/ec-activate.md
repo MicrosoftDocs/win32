@@ -1,7 +1,12 @@
 ---
-Description: 'A video window is being activated or deactivated.'
-ms.assetid: '2e004899-bb2b-4127-b606-e2a979275836'
-title: 'EC\_ACTIVATE'
+Description: A video window is being activated or deactivated.
+ms.assetid: 2e004899-bb2b-4127-b606-e2a979275836
+title: EC\_ACTIVATE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_ACTIVATE
@@ -22,13 +27,13 @@ A video window is being activated or deactivated.
 <span id="lParam2"></span><span id="lparam2"></span><span id="LPARAM2"></span>*lParam2*
 </dt> <dd>
 
-(**IUnknown**\*) Pointer to the renderer's [**IBaseFilter**](ibasefilter.md) interface.
+(**IUnknown**\*) Pointer to the renderer's [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface.
 
 </dd> </dl>
 
 ## Default Action
 
-The filter graph manager sets the focus, through the [**IResourceManager**](iresourcemanager.md) interface. It does not send the event notification to the application.
+The filter graph manager sets the focus, through the [**IResourceManager**](/windows/win32/Strmif/nn-strmif-iresourcemanager?branch=master) interface. It does not send the event notification to the application.
 
 ## Remarks
 
@@ -56,9 +61,9 @@ This event enables the filter graph manager to allocate resources that depend on
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

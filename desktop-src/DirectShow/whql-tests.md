@@ -1,7 +1,12 @@
 ---
 Description: WHQL tests
-ms.assetid: 'ca24fe89-d2fe-4aa9-8643-319ed16ba1a3'
+ms.assetid: ca24fe89-d2fe-4aa9-8643-319ed16ba1a3
 title: WHQL tests
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WHQL tests

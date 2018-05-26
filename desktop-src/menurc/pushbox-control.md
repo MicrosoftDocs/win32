@@ -1,14 +1,20 @@
 ---
 title: PUSHBOX control
 description: Defines a push-box control, which is identical to a PUSHBUTTON, except that it does not display a button face or frame; only the text appears.
-ms.assetid: 'b4e9d3f5-fcc4-40e1-90af-53d14e4638bf'
-keywords: ["PUSHBOX control Menus and Other Resources"]
+ms.assetid: b4e9d3f5-fcc4-40e1-90af-53d14e4638bf
+keywords:
+- PUSHBOX control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - PUSHBOX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PUSHBOX control

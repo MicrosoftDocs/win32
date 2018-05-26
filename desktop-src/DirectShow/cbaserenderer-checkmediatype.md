@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckMediaType method determines if the filter accepts a specific media type.'
-ms.assetid: '90d26cf6-443c-4a06-98c6-ffa14e27ee41'
-title: 'CBaseRenderer.CheckMediaType method'
+Description: The CheckMediaType method determines if the filter accepts a specific media type.
+ms.assetid: 90d26cf6-443c-4a06-98c6-ffa14e27ee41
+title: CBaseRenderer.CheckMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.CheckMediaType method
@@ -13,7 +18,7 @@ The `CheckMediaType` method determines if the filter accepts a specific media ty
 
 ```C++
 virtual HRESULT CheckMediaType(
-   const CMediaType *pmt
+   const CMediaType *pmt
 ) = 0;
 ```
 
@@ -56,9 +61,9 @@ The input pin calls this method from its own [**CBasePin::CheckMediaType**](cbas
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

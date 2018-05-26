@@ -1,12 +1,17 @@
 ---
-Description: 'Used to identify standard encryption algorithms in various CNG functions and structures, such as the CRYPT\_INTERFACE\_REG structure.'
-ms.assetid: 'a05ae7e6-d882-4287-9990-23e4cd340b05'
+Description: Used to identify standard encryption algorithms in various CNG functions and structures, such as the CRYPT\_INTERFACE\_REG structure.
+ms.assetid: a05ae7e6-d882-4287-9990-23e4cd340b05
 title: CNG Algorithm Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CNG Algorithm Identifiers
 
-The following identifiers are used to identify standard encryption algorithms in various CNG functions and structures, such as the [**CRYPT\_INTERFACE\_REG**](crypt-interface-reg.md) structure. Third party providers may have additional algorithms that they support.
+The following identifiers are used to identify standard encryption algorithms in various CNG functions and structures, such as the [**CRYPT\_INTERFACE\_REG**](/windows/win32/Bcrypt/ns-bcrypt-_crypt_interface_reg?branch=master) structure. Third party providers may have additional algorithms that they support.
 
 
 
@@ -36,15 +41,15 @@ The following identifiers are used to identify standard encryption algorithms in
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_AES_CMAC_ALGORITHM"></span><span id="bcrypt_aes_cmac_algorithm"></span><dl> <dt><strong>BCRYPT_AES_CMAC_ALGORITHM</strong></dt> <dt>&quot;AES-CMAC&quot;</dt> </dl></td>
-<td style="text-align: left;">The advanced encryption standard (AES) cipher based message authentication code (CMAC) symmetric encryption algorithm.<br/> Standard: SP 800-38B<br/> <strong>Windows 8:</strong> Support for this algorithm begins.<br/> <br/></td>
+<td style="text-align: left;">The advanced encryption standard (AES) cipher based message authentication code (CMAC) symmetric encryption algorithm.<br/> Standard: SP 800-38B<br/> <strong>Windows 8:</strong> Support for this algorithm begins.<br/> <br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_AES_GMAC_ALGORITHM"></span><span id="bcrypt_aes_gmac_algorithm"></span><dl> <dt><strong>BCRYPT_AES_GMAC_ALGORITHM</strong></dt> <dt>&quot;AES-GMAC&quot;</dt> </dl></td>
-<td style="text-align: left;">The advanced encryption standard (AES) Galois message authentication code (GMAC) symmetric encryption algorithm.<br/> Standard: SP800-38D<br/> <strong>Windows Vista:</strong> This algorithm is supported beginning with Windows Vista with SP1.<br/></td>
+<td style="text-align: left;">The advanced encryption standard (AES) Galois message authentication code (GMAC) symmetric encryption algorithm.<br/> Standard: SP800-38D<br/> <strong>Windows Vista:</strong> This algorithm is supported beginning with Windows Vista with SP1.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_CAPI_KDF_ALGORITHM"></span><span id="bcrypt_capi_kdf_algorithm"></span><dl> <dt><strong>BCRYPT_CAPI_KDF_ALGORITHM</strong></dt> <dt>L&quot;CAPI_KDF&quot;</dt> </dl></td>
-<td style="text-align: left;">Crypto API (CAPI) key derivation function algorithm. Used by the [<strong>BCryptKeyDerivation</strong>](bcryptkeyderivation.md) and [<strong>NCryptKeyDerivation</strong>](ncryptkeyderivation.md) functions.<br/></td>
+<td style="text-align: left;">Crypto API (CAPI) key derivation function algorithm. Used by the [<strong>BCryptKeyDerivation</strong>](/windows/win32/Bcrypt/nf-bcrypt-bcryptkeyderivation?branch=master) and [<strong>NCryptKeyDerivation</strong>](/windows/win32/Ncrypt/nf-ncrypt-ncryptkeyderivation?branch=master) functions.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_DES_ALGORITHM"></span><span id="bcrypt_des_algorithm"></span><dl> <dt><strong>BCRYPT_DES_ALGORITHM</strong></dt> <dt>&quot;DES&quot;</dt> </dl></td>
@@ -60,7 +65,7 @@ The following identifiers are used to identify standard encryption algorithms in
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_DSA_ALGORITHM"></span><span id="bcrypt_dsa_algorithm"></span><dl> <dt><strong>BCRYPT_DSA_ALGORITHM</strong></dt> <dt>&quot;DSA&quot;</dt> </dl></td>
-<td style="text-align: left;">The digital signature algorithm.<br/> Standard: FIPS 186-2<br/> <strong>Windows 8:</strong> Beginning with Windows 8, this algorithm supports FIPS 186-3. Keys less than or equal to 1024 bits adhere to FIPS 186-2 and keys greater than 1024 to FIPS 186-3.<br/></td>
+<td style="text-align: left;">The digital signature algorithm.<br/> Standard: FIPS 186-2<br/> <strong>Windows 8:</strong> Beginning with Windows 8, this algorithm supports FIPS 186-3. Keys less than or equal to 1024 bits adhere to FIPS 186-2 and keys greater than 1024 to FIPS 186-3.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_ECDH_P256_ALGORITHM"></span><span id="bcrypt_ecdh_p256_algorithm"></span><dl> <dt><strong>BCRYPT_ECDH_P256_ALGORITHM</strong></dt> <dt>&quot;ECDH_P256&quot;</dt> </dl></td>
@@ -111,17 +116,17 @@ The following identifiers are used to identify standard encryption algorithms in
 <td style="text-align: left;">The random-number generator algorithm.<br/> Standard: FIPS 186-2, FIPS 140-2, NIST SP 800-90<br/>
 <blockquote>
 [!Note]<br />
-Beginning with Windows Vista with SP1 and Windows Server 2008, the random number generator is based on the AES counter mode specified in the NIST SP 800-90 standard.
+Beginning with Windows Vista with SP1 and Windows Server 2008, the random number generator is based on the AES counter mode specified in the NIST SP 800-90 standard.
 </blockquote>
-<br/> <strong>Windows Vista:</strong> The random number generator is based on the hash-based random number generator specified in the FIPS 186-2 standard.<br/> <strong>Windows 8:</strong> Beginning with Windows 8, the RNG algorithm supports FIPS 186-3. Keys less than or equal to 1024 bits adhere to FIPS 186-2 and keys greater than 1024 to FIPS 186-3.<br/></td>
+<br/> <strong>Windows Vista:</strong> The random number generator is based on the hash-based random number generator specified in the FIPS 186-2 standard.<br/> <strong>Windows 8:</strong> Beginning with Windows 8, the RNG algorithm supports FIPS 186-3. Keys less than or equal to 1024 bits adhere to FIPS 186-2 and keys greater than 1024 to FIPS 186-3.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_RNG_DUAL_EC_ALGORITHM"></span><span id="bcrypt_rng_dual_ec_algorithm"></span><dl> <dt><strong>BCRYPT_RNG_DUAL_EC_ALGORITHM</strong></dt> <dt>&quot;DUALECRNG&quot;</dt> </dl></td>
-<td style="text-align: left;">The dual elliptic curve random-number generator algorithm. <br/> Standard: SP800-90.<br/> <strong>Windows 8:</strong> Beginning with Windows 8, the EC RNG algorithm supports FIPS 186-3. Keys less than or equal to 1024 bits adhere to FIPS 186-2 and keys greater than 1024 to FIPS 186-3.<br/> <strong>Windows 10:</strong> Beginning with Windows 10, the dual elliptic curve random number generator algorithm has been removed. Existing uses of this algorithm will continue to work; however, the random number generator is based on the AES counter mode specified in the NIST SP 800-90 standard. New code should use <strong>BCRYPT_RNG_ALGORITHM</strong>, and it is recommended that existing code be changed to use <strong>BCRYPT_RNG_ALGORITHM</strong>. <br/></td>
+<td style="text-align: left;">The dual elliptic curve random-number generator algorithm. <br/> Standard: SP800-90.<br/> <strong>Windows 8:</strong> Beginning with Windows 8, the EC RNG algorithm supports FIPS 186-3. Keys less than or equal to 1024 bits adhere to FIPS 186-2 and keys greater than 1024 to FIPS 186-3.<br/> <strong>Windows 10:</strong> Beginning with Windows 10, the dual elliptic curve random number generator algorithm has been removed. Existing uses of this algorithm will continue to work; however, the random number generator is based on the AES counter mode specified in the NIST SP 800-90 standard. New code should use <strong>BCRYPT_RNG_ALGORITHM</strong>, and it is recommended that existing code be changed to use <strong>BCRYPT_RNG_ALGORITHM</strong>. <br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_RNG_FIPS186_DSA_ALGORITHM"></span><span id="bcrypt_rng_fips186_dsa_algorithm"></span><dl> <dt><strong>BCRYPT_RNG_FIPS186_DSA_ALGORITHM</strong></dt> <dt>&quot;FIPS186DSARNG&quot;</dt> </dl></td>
-<td style="text-align: left;">The random-number generator algorithm suitable for DSA (Digital Signature Algorithm). <br/> Standard: FIPS 186-2.<br/> <strong>Windows 8:</strong> Support for FIPS 186-3 begins.<br/></td>
+<td style="text-align: left;">The random-number generator algorithm suitable for DSA (Digital Signature Algorithm). <br/> Standard: FIPS 186-2.<br/> <strong>Windows 8:</strong> Support for FIPS 186-3 begins.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_RSA_ALGORITHM"></span><span id="bcrypt_rsa_algorithm"></span><dl> <dt><strong>BCRYPT_RSA_ALGORITHM</strong></dt> <dt>&quot;RSA&quot;</dt> </dl></td>
@@ -149,15 +154,15 @@ Beginning with Windows Vista with SP1 and Windows Server 2008, the random number
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="BCRYPT_SP800108_CTR_HMAC_ALGORITHM"></span><span id="bcrypt_sp800108_ctr_hmac_algorithm"></span><dl> <dt><strong>BCRYPT_SP800108_CTR_HMAC_ALGORITHM</strong></dt> <dt>L&quot;SP800_108_CTR_HMAC&quot;</dt> </dl></td>
-<td style="text-align: left;">Counter mode, hash-based message authentication code (HMAC) key derivation function algorithm. Used by the [<strong>BCryptKeyDerivation</strong>](bcryptkeyderivation.md) and [<strong>NCryptKeyDerivation</strong>](ncryptkeyderivation.md) functions.<br/></td>
+<td style="text-align: left;">Counter mode, hash-based message authentication code (HMAC) key derivation function algorithm. Used by the [<strong>BCryptKeyDerivation</strong>](/windows/win32/Bcrypt/nf-bcrypt-bcryptkeyderivation?branch=master) and [<strong>NCryptKeyDerivation</strong>](/windows/win32/Ncrypt/nf-ncrypt-ncryptkeyderivation?branch=master) functions.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_SP80056A_CONCAT_ALGORITHM"></span><span id="bcrypt_sp80056a_concat_algorithm"></span><dl> <dt><strong>BCRYPT_SP80056A_CONCAT_ALGORITHM</strong></dt> <dt>L&quot;SP800_56A_CONCAT&quot;</dt> </dl></td>
-<td style="text-align: left;">SP800-56A key derivation function algorithm. Used by the [<strong>BCryptKeyDerivation</strong>](bcryptkeyderivation.md) and [<strong>NCryptKeyDerivation</strong>](ncryptkeyderivation.md) functions.<br/></td>
+<td style="text-align: left;">SP800-56A key derivation function algorithm. Used by the [<strong>BCryptKeyDerivation</strong>](/windows/win32/Bcrypt/nf-bcrypt-bcryptkeyderivation?branch=master) and [<strong>NCryptKeyDerivation</strong>](/windows/win32/Ncrypt/nf-ncrypt-ncryptkeyderivation?branch=master) functions.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="_BCRYPT_PBKDF2_ALGORITHM"></span><span id="_bcrypt_pbkdf2_algorithm"></span><dl> <dt> <strong>BCRYPT_PBKDF2_ALGORITHM</strong></dt> <dt>L&quot;PBKDF2&quot;</dt> </dl></td>
-<td style="text-align: left;">Password-based key derivation function 2 (PBKDF2) algorithm. Used by the [<strong>BCryptKeyDerivation</strong>](bcryptkeyderivation.md) and [<strong>NCryptKeyDerivation</strong>](ncryptkeyderivation.md) functions.<br/></td>
+<td style="text-align: left;">Password-based key derivation function 2 (PBKDF2) algorithm. Used by the [<strong>BCryptKeyDerivation</strong>](/windows/win32/Bcrypt/nf-bcrypt-bcryptkeyderivation?branch=master) and [<strong>NCryptKeyDerivation</strong>](/windows/win32/Ncrypt/nf-ncrypt-ncryptkeyderivation?branch=master) functions.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_ECDSA_ALGORITHM"></span><span id="bcrypt_ecdsa_algorithm"></span><dl> <dt><strong>BCRYPT_ECDSA_ALGORITHM</strong></dt> <dt>&quot;ECDSA&quot;</dt> </dl></td>
@@ -169,7 +174,7 @@ Beginning with Windows Vista with SP1 and Windows Server 2008, the random number
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="BCRYPT_XTS_AES_ALGORITHM"></span><span id="bcrypt_xts_aes_algorithm"></span><dl> <dt><strong>BCRYPT_XTS_AES_ALGORITHM</strong></dt> <dt>&quot;XTS-AES&quot;</dt> </dl></td>
-<td style="text-align: left;">The advanced encryption standard symmetric encryption algorithm in XTS mode. <br/> Standard: SP-800-38E, IEEE Std 1619-2007.<br/> <strong>Windows 10:</strong> Support for this algorithm begins.<br/></td>
+<td style="text-align: left;">The advanced encryption standard symmetric encryption algorithm in XTS mode. <br/> Standard: SP-800-38E, IEEE Std 1619-2007.<br/> <strong>Windows 10:</strong> Support for this algorithm begins.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -178,9 +183,9 @@ Beginning with Windows Vista with SP1 and Windows Server 2008, the random number
 
 ## Remarks
 
-To use **BCRYPT\_ECDSA\_ALGORITM**or **BCRYPT\_ECDH\_ALGORITHM**, call [**BCryptOpenAlgorithmProvider**](bcryptopenalgorithmprovider-func.md) with either **BCRYPT\_ECDSA\_ALGORITHM** or **BCRYPT\_ECDH\_ALGORITHM** as the *pszAlgId*. Then use [**BCryptSetProperty**](bcryptsetproperty-func.md) to set the **BCRYPT\_ECC\_CURVE\_NAME** property to a named algorithm listed in CNG Named Curves.
+To use **BCRYPT\_ECDSA\_ALGORITM**or **BCRYPT\_ECDH\_ALGORITHM**, call [**BCryptOpenAlgorithmProvider**](/windows/win32/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider?branch=master) with either **BCRYPT\_ECDSA\_ALGORITHM** or **BCRYPT\_ECDH\_ALGORITHM** as the *pszAlgId*. Then use [**BCryptSetProperty**](/windows/win32/Bcrypt/nf-bcrypt-bcryptsetproperty?branch=master) to set the **BCRYPT\_ECC\_CURVE\_NAME** property to a named algorithm listed in CNG Named Curves.
 
-To provider user-defined elliptic curve parameters directly, use [**BCryptSetProperty**](bcryptsetproperty-func.md) to set the **BCRYPT\_ECC\_PARAMETERS** property. Download the [Windows 10 Cryptographic Provider Developer Kit (CPDK)](https://www.microsoft.com/download/details.aspx?id=30688) for more information.
+To provider user-defined elliptic curve parameters directly, use [**BCryptSetProperty**](/windows/win32/Bcrypt/nf-bcrypt-bcryptsetproperty?branch=master) to set the **BCRYPT\_ECC\_PARAMETERS** property. Download the [Windows 10 Cryptographic Provider Developer Kit (CPDK)](https://www.microsoft.com/download/details.aspx?id=30688) for more information.
 
 ## Requirements
 
@@ -188,8 +193,8 @@ To provider user-defined elliptic curve parameters directly, use [**BCryptSetPro
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Bcrypt.h</dt> </dl> |
 
 
@@ -198,15 +203,15 @@ To provider user-defined elliptic curve parameters directly, use [**BCryptSetPro
 
 <dl> <dt>
 
-[**BCryptOpenAlgorithmProvider**](bcryptopenalgorithmprovider-func.md)
+[**BCryptOpenAlgorithmProvider**](/windows/win32/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider?branch=master)
 </dt> <dt>
 
-[**NCryptCreatePersistedKey**](ncryptcreatepersistedkey-func.md)
+[**NCryptCreatePersistedKey**](/windows/win32/Ncrypt/nf-ncrypt-ncryptcreatepersistedkey?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

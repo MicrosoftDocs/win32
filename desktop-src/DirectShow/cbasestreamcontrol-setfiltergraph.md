@@ -1,7 +1,12 @@
 ---
-Description: 'The SetFilterGraph method specifies the event sink for stream control events.'
-ms.assetid: 'a4c3dca6-6c80-4eca-87d6-875e746e9ed3'
-title: 'CBaseStreamControl.SetFilterGraph method'
+Description: The SetFilterGraph method specifies the event sink for stream control events.
+ms.assetid: a4c3dca6-6c80-4eca-87d6-875e746e9ed3
+title: CBaseStreamControl.SetFilterGraph method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseStreamControl.SetFilterGraph method
@@ -13,7 +18,7 @@ The `SetFilterGraph` method specifies the event sink for stream control events.
 
 ```C++
 void SetFilterGraph(
-   IMediaEventSink *pSink
+   IMediaEventSink *pSink
 );
 ```
 
@@ -26,7 +31,7 @@ void SetFilterGraph(
 *pSink* 
 </dt> <dd>
 
-Pointer to the Filter Graph Manager's [**IMediaEventSink**](imediaeventsink.md) interface, or **NULL** when the filter leaves the filter graph.
+Pointer to the Filter Graph Manager's [**IMediaEventSink**](/windows/win32/Strmif/nn-strmif-imediaeventsink?branch=master) interface, or **NULL** when the filter leaves the filter graph.
 
 </dd> </dl>
 
@@ -36,7 +41,7 @@ This method does not return a value.
 
 ## Remarks
 
-Call this method from inside the filter's [**IBaseFilter::JoinFilterGraph**](ibasefilter-joinfiltergraph.md) method. The **CBaseStreamControl** class uses the **IMediaEventSink** interface to send [**EC\_STREAM\_CONTROL\_STARTED**](ec-stream-control-started.md) and [**EC\_STREAM\_CONTROL\_STOPPED**](ec-stream-control-stopped.md) events.
+Call this method from inside the filter's [**IBaseFilter::JoinFilterGraph**](/windows/win32/Strmif/nf-strmif-ibasefilter-joinfiltergraph?branch=master) method. The **CBaseStreamControl** class uses the **IMediaEventSink** interface to send [**EC\_STREAM\_CONTROL\_STARTED**](ec-stream-control-started.md) and [**EC\_STREAM\_CONTROL\_STOPPED**](ec-stream-control-stopped.md) events.
 
 If your filter derives from **CBaseFilter**, first call the [**CBaseFilter::JoinFilterGraph**](cbasefilter-joinfiltergraph.md) method, which sets the [**CBaseFilter::m\_pSink**](cbasefilter-m-psink.md) member variable. Then pass **m\_pSink** to the `SetFilterGraph` method. Note that **m\_pSink** is **NULL** when the filter leaves the graph, which is correct.
 
@@ -77,9 +82,9 @@ STDMETHODIMP CMyFilter::JoinFilterGraph(IFilterGraph * pGraph, LPCWSTR pName)
 [**CBaseStreamControl Class**](cbasestreamcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

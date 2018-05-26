@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies the provider hosting model. Setting this property causes the provider to be loaded into a shared host process that has a specified level of privilege.'
+Description: Specifies the provider hosting model. Setting this property causes the provider to be loaded into a shared host process that has a specified level of privilege.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1e5c778d-cd29-449b-88e2-fe0c90d0edcd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1e5c778d-cd29-449b-88e2-fe0c90d0edcd
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Provider Hosting and Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Provider Hosting and Security
@@ -16,7 +19,7 @@ The [**HostingModel**](--win32provider.md) property in the **\_\_Win32Provider**
 
 ## Shared Provider Host Process
 
-WMI resides in a shared service host with several other services. To avoid stopping all the services when a provider fails, providers are loaded into a separate host process named "Wmiprvse.exe". More than one process with this name can be running. Each can run under a different account with varying security. Be aware that, starting with Windows Vista, use the [**winmgmt**](winmgmt.md) command to run WMI in a separate process by itself using a fixed port. For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md).
+WMI resides in a shared service host with several other services. To avoid stopping all the services when a provider fails, providers are loaded into a separate host process named "Wmiprvse.exe". More than one process with this name can be running. Each can run under a different account with varying security. Be aware that, starting with Windows Vista, use the [**winmgmt**](winmgmt.md) command to run WMI in a separate process by itself using a fixed port. For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md).
 
 The shared host can run under one of the following system accounts in a Wmiprvse.exe host process:
 
@@ -96,15 +99,15 @@ The following list lists the provider hosting model values to use in the [**\_\_
 | Value in [**\_\_Win32Provider.HostingModel**](--win32provider.md) | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **SelfHost**                                                       | The provider starts using the local server implementation instead of in-process. The security context of the process in which the provider runs determines the provider security context.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| **LocalSystemHost**                                                | The provider, if implemented as in-process, is loaded into a shared provider host running under [LocalSystem](https://msdn.microsoft.com/library/windows/desktop/ms684190) context. Starting with Windows Vista, **LocalSystemHost** is no longer the default hosting model if the [**HostingModel**](--win32provider.md) of a WMI provider (**\_\_Win32Provider**.**HostingModel** property) is unspecified. For more information, see [Security of Hosting Models](#provider-hosting-and-security).                                                                                                                                                                                                                                                                               |
+| **LocalSystemHost**                                                | The provider, if implemented as in-process, is loaded into a shared provider host running under [LocalSystem](https://msdn.microsoft.com/library/windows/desktop/ms684190) context. Starting with Windows Vista, **LocalSystemHost** is no longer the default hosting model if the [**HostingModel**](--win32provider.md) of a WMI provider (**\_\_Win32Provider**.**HostingModel** property) is unspecified. For more information, see [Security of Hosting Models](#provider-hosting-and-security).                                                                                                                                                                                                                                                                               |
 | **LocalSystemHostOrSelfHost**                                      | The provider is self-hosted or loaded into the Wmiprvse.exe process running under the [LocalSystem](https://msdn.microsoft.com/library/windows/desktop/ms684190) account. Because LocalSystem is a highly privileged account, an entry is generated in the Security NT Event Log to notify administrators of a provider running in this trusted status.                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **NetworkServiceHost**                                             | The provider, if implemented as in-process, is loaded into the Wmiprvse.exe process running under [NetworkService](https://msdn.microsoft.com/library/windows/desktop/ms684272) account. Starting with Windows Vista, this is the default hosting model if the [**HostingModel**](--win32provider.md) of a WMI provider (**\_\_Win32Provider**.**HostingModel** property) is unspecified. For more information, see [Security of Hosting Models](#provider-hosting-and-security).<br/> **NetworkServiceHost** has limited privileges and therefore reduces the possibility of an elevation of privilege attack. If the provider only operates within the local computer, then set the [**HostingModel**](--win32provider.md) property to **LocalServiceHost**.<br/> |
-| **NetworkServiceHostOrSelfHost**                                   | The provider is self-hosted or loaded into the WmiPrvse.exe process running under the [NetworkService](https://msdn.microsoft.com/library/windows/desktop/ms684272) account. **NetworkServiceHostOrSelfHost** is the default configuration when the [**HostingModel**](--win32provider.md) property in **\_\_Win32Provider** is **NULL**. Because **NetworkServiceHostOrSelfHost** is the default, providers from earlier operating systems can continue to work in Windows Vista, Windows Server 2008, and later operating systems.                                                                                                                                                                                                                                             |
+| **NetworkServiceHost**                                             | The provider, if implemented as in-process, is loaded into the Wmiprvse.exe process running under [NetworkService](https://msdn.microsoft.com/library/windows/desktop/ms684272) account. Starting with Windows Vista, this is the default hosting model if the [**HostingModel**](--win32provider.md) of a WMI provider (**\_\_Win32Provider**.**HostingModel** property) is unspecified. For more information, see [Security of Hosting Models](#provider-hosting-and-security).<br/> **NetworkServiceHost** has limited privileges and therefore reduces the possibility of an elevation of privilege attack. If the provider only operates within the local computer, then set the [**HostingModel**](--win32provider.md) property to **LocalServiceHost**.<br/> |
+| **NetworkServiceHostOrSelfHost**                                   | The provider is self-hosted or loaded into the WmiPrvse.exe process running under the [NetworkService](https://msdn.microsoft.com/library/windows/desktop/ms684272) account. **NetworkServiceHostOrSelfHost** is the default configuration when the [**HostingModel**](--win32provider.md) property in **\_\_Win32Provider** is **NULL**. Because **NetworkServiceHostOrSelfHost** is the default, providers from earlier operating systems can continue to work in Windows Vista, Windows Server 2008, and later operating systems.                                                                                                                                                                                                                                             |
 | **LocalServiceHost**                                               | The provider, if implemented as in-process, is loaded into the Wmiprvse.exe process running under the [LocalService](https://msdn.microsoft.com/library/windows/desktop/ms684188) account. This is the recommended hosting model for services because LocalService has limited privileges.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 
 
- 
+ 
 
 ## HostingModel Values for Decoupled Providers
 
@@ -142,7 +145,7 @@ For internal use only. Not supported.
 
 ## Security of Hosting Models
 
-For most situations, **LocalSystem** is unnecessary and the **NetworkServiceHost** context is more appropriate. Most WMI Providers must impersonate the client security context to perform requested operations on behalf of the WMI client. Starting with Windows Vista, a WMI provider that lacks a hosting model definition and executes as if it is running under **LocalSystem** will not run properly. To correct this situation, change the expected hosting model and ensure that the WMI provider code performs the operations in the client security context by impersonating the WMI client. LocalSystem is rarely an requirement. If your provider must have that level of privilege, specify the hosting model with the following statement in the MOF file.
+For most situations, **LocalSystem** is unnecessary and the **NetworkServiceHost** context is more appropriate. Most WMI Providers must impersonate the client security context to perform requested operations on behalf of the WMI client. Starting with Windows Vista, a WMI provider that lacks a hosting model definition and executes as if it is running under **LocalSystem** will not run properly. To correct this situation, change the expected hosting model and ensure that the WMI provider code performs the operations in the client security context by impersonating the WMI client. LocalSystem is rarely an requirement. If your provider must have that level of privilege, specify the hosting model with the following statement in the MOF file.
 
 ``` syntax
 HostingModel=LocalSystemHost
@@ -170,9 +173,9 @@ HostingModel=LocalSystemHost
 [Maintaining WMI Security](maintaining-wmi-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

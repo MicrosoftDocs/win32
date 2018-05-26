@@ -4,13 +4,15 @@ description: Defines the masking-related capabilities of a protocol controller.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '326803b4-4945-4140-959f-4cc873111145'
-ms.prod: 'windows-server-dev'
+ms.assetid: 326803b4-4945-4140-959f-4cc873111145
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_ProtocolControllerMaskingCapabilities class iSCSI Software Target API", "MSISCSITARGET_ProtocolControllerMaskingCapabilities class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_ProtocolControllerMaskingCapabilities class iSCSI Software Target API
+- MSISCSITARGET_ProtocolControllerMaskingCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -40,6 +42,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_ProtocolControllerMaskingCapabilities class
@@ -54,13 +59,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Static, Version("1.0.0")]
 class MSISCSITARGET_ProtocolControllerMaskingCapabilities : CIM_ProtocolControllerMaskingCapabilities
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  uint16  ValidHardwareIdTypes[];
-  string  OtherValidHardwareIDTypes[];
-  uint16  PortsPerView = 2;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  uint16  ValidHardwareIdTypes[];
+  string  OtherValidHardwareIDTypes[];
+  uint16  PortsPerView = 2;
   boolean ClientSelectableDeviceNumbers = TRUE;
   boolean AttachDeviceSupported;
   boolean OneHardwareIDPerView = FALSE;
@@ -70,7 +75,7 @@ class MSISCSITARGET_ProtocolControllerMaskingCapabilities : CIM_ProtocolControll
   boolean ProtocolControllerSupportsCollections = FALSE;
   boolean ExposePathsSupported;
   boolean CreateProtocolControllerSupported;
-  uint16  MaximumMapCount = 0;
+  uint16  MaximumMapCount = 0;
   boolean SPCAllowsNoLUs = FALSE;
   boolean SPCAllowsNoTargets = FALSE;
   boolean SPCAllowsNoInitiators = FALSE;
@@ -490,7 +495,7 @@ This property is inherited from [**CIM\_ProtocolControllerMaskingCapabilities**]
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -519,9 +524,9 @@ This property is inherited from [**CIM\_ProtocolControllerMaskingCapabilities**]
 [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/cc136871)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

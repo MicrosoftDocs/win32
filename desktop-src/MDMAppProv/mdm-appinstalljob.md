@@ -1,8 +1,10 @@
 ---
 title: MDM\_AppInstallJob class
 description: Represents a job that manages the installation, upgrade, or uninstallation of an application on a device that is registered with the Mobile Device Management (MDM) service.
-ms.assetid: '5ee99bd5-893e-4df9-9619-0dbd71eb888d'
-keywords: ["MDM_AppInstallJob class MDM App Management", "MDM_AppInstallJob class MDM App Management , described"]
+ms.assetid: 5ee99bd5-893e-4df9-9619-0dbd71eb888d
+keywords:
+- MDM_AppInstallJob class MDM App Management
+- MDM_AppInstallJob class MDM App Management , described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,11 @@ api_location:
 - MDMAppProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_AppInstallJob class
@@ -40,19 +47,19 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), Deprecated("No value"), dynamic, provider("MDMAppProv"), AMENDMENT]
 class MDM_AppInstallJob
 {
-  string   JobID;
-  string   PackageFullName;
-  uint32   Status;
-  uint32   LastError;
-  uint32   Progress;
+  string   JobID;
+  string   PackageFullName;
+  uint32   Status;
+  uint32   LastError;
+  uint32   Progress;
   datetime CreationTime;
-  string   DownloadUrlList[];
-  string   Dependencies[];
-  string   DependencyUrlLists[];
-  string   LicenseXml;
-  uint32   ActionType;
-  uint32   JobType;
-  uint32   DeploymentOptions;
+  string   DownloadUrlList[];
+  string   Dependencies[];
+  string   DependencyUrlLists[];
+  string   LicenseXml;
+  uint32   ActionType;
+  uint32   JobType;
+  uint32   DeploymentOptions;
 };
 ```
 
@@ -75,7 +82,7 @@ The **MDM\_AppInstallJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -188,7 +195,7 @@ Access type: Read-only
 
 Gets the application type, which specifies that the job is for a Windows Store App, web application, or remote application.
 
-**Windows 8:** This property is not supported before Windows 8.1.
+**Windows 8:** This property is not supported before Windows 8.1.
 
 </dd> <dt>
 
@@ -216,7 +223,7 @@ Access type: Read-only
 
 The package license.
 
-**Windows 8.1 and Windows 8:** This property is not supported before Windows 8.1 Update.
+**Windows 8.1 and Windows 8:** This property is not supported before Windows 8.1 Update.
 
 </dd> <dt>
 
@@ -265,7 +272,7 @@ Status of the job.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                      |
+| Minimum supported client<br/> | Windows 8<br/>                                                                      |
 | Minimum supported server<br/> | None supported<br/>                                                                 |
 | Namespace<br/>                | Root\\cimv2\\mdm<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>MDMAppProv.Mof</dt> </dl> |
@@ -280,9 +287,9 @@ Status of the job.
 [Mobile Device Management Application Provider Classes](https://msdn.microsoft.com/library/dn610374)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
-﻿---
-Description: 'Represents a PnP device property of type Uint8.'
+---
+Description: Represents a PnP device property of type Uint8.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '56DCA3FD-45FD-4E87-909D-BE4CEFE2DF5A'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 56DCA3FD-45FD-4E87-909D-BE4CEFE2DF5A
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_PnPDevicePropertyUint8 class'
+title: Win32\_PnPDevicePropertyUint8 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PnPDevicePropertyUint8 class

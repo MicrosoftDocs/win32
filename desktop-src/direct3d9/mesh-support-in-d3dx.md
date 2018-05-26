@@ -1,7 +1,12 @@
 ---
-Description: 'D3DX is a utility library that provides helper services. It is a layer above the Direct3D component.'
-ms.assetid: '7892370f-0807-4ab7-b7cd-a7e1182e3f9c'
-title: 'Mesh Support in D3DX (Direct3D 9)'
+Description: D3DX is a utility library that provides helper services. It is a layer above the Direct3D component.
+ms.assetid: 7892370f-0807-4ab7-b7cd-a7e1182e3f9c
+title: Mesh Support in D3DX (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mesh Support in D3DX (Direct3D 9)
@@ -35,7 +40,7 @@ A mesh contains a vertex buffer, an index buffer, and an attribute buffer.
 
 ### Attribute Tables
 
-An attribute table is a concise representation of the contents of an attribute buffer. Attribute tables can be created by calling one of the Optimize methods with D3DXMESHOPT\_ATTRSORT, by locking the attribute buffer and filling it with data, or by calling SetAttributeTable. A mesh contains an attribute table when the mesh is reordered into groups. This happens when Optimize is called, assuming an attribute sorting option (D3DXMESHOPT\_ATTRSORT or higher) is supplied. D3DX Meshes use indexed triangle lists, and are therefore drawn with [**IDirect3DDevice9::DrawIndexedPrimitive**](idirect3ddevice9--drawindexedprimitive.md).
+An attribute table is a concise representation of the contents of an attribute buffer. Attribute tables can be created by calling one of the Optimize methods with D3DXMESHOPT\_ATTRSORT, by locking the attribute buffer and filling it with data, or by calling SetAttributeTable. A mesh contains an attribute table when the mesh is reordered into groups. This happens when Optimize is called, assuming an attribute sorting option (D3DXMESHOPT\_ATTRSORT or higher) is supplied. D3DX Meshes use indexed triangle lists, and are therefore drawn with [**IDirect3DDevice9::DrawIndexedPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawindexedprimitive?branch=master).
 
 Attribute tables are created as a result of calling Optimize. The faces don't have to be adjacent, because Optimize will reorder them to be adjacent. For example, the hands of a human mesh could use the same attribute. The id helps sort the faces into groups. Meshes from .x files have automatically generated attributes for material and texture properties. You do need to call Optimize(ATTRSORT) or the more effective Optimize(VERTEXCACHE) to get good performance. The load functions try to present the data in the exact form it was saved out in. If you are using a vertex buffer/index buffer based mesh, the mesh API provides optimization functions and skinning transformations with little overhead.
 

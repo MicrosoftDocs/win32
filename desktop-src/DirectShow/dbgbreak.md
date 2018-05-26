@@ -1,7 +1,12 @@
 ---
-Description: 'Displays a message box with the specified string, the name of the source file, and the line number. The user can ignore the message, enter the debugger, or quit the application. Ignored in retail builds.'
-ms.assetid: 'ac4da7da-f9d0-44ae-9ad1-9a5908b288fb'
+Description: Displays a message box with the specified string, the name of the source file, and the line number. The user can ignore the message, enter the debugger, or quit the application. Ignored in retail builds.
+ms.assetid: ac4da7da-f9d0-44ae-9ad1-9a5908b288fb
 title: DbgBreak macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgBreak macro
@@ -13,7 +18,7 @@ Displays a message box with the specified string, the name of the source file, a
 
 ```C++
 void DbgBreak(
-    strLiteral
+    strLiteral
 );
 ```
 
@@ -60,9 +65,9 @@ DbgBreak("Unrecoverable error occurred.");
 [Assert and Breakpoint Macros](assert-and-breakpoint-macros.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

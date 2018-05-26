@@ -4,11 +4,15 @@ description: The following code example replaces the existing description attrib
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '53e2136f-8284-429f-a301-240644b592a7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 53e2136f-8284-429f-a301-240644b592a7
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Modifying Attributes on Directory Objects DSML"]
+keywords:
+- Modifying Attributes on Directory Objects DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Modifying Attributes on Directory Objects

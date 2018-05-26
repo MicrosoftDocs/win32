@@ -1,7 +1,12 @@
 ---
-Description: 'The CompleteConnect method completes a connection to an input pin.'
-ms.assetid: 'c23195e7-8d66-4217-bd59-8889459ce4f1'
-title: 'CDynamicOutputPin.CompleteConnect method'
+Description: The CompleteConnect method completes a connection to an input pin.
+ms.assetid: c23195e7-8d66-4217-bd59-8889459ce4f1
+title: CDynamicOutputPin.CompleteConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.CompleteConnect method
@@ -13,7 +18,7 @@ The `CompleteConnect` method completes a connection to an input pin.
 
 ```C++
 virtual HRESULT CompleteConnect(
-   IPin *pReceivePin
+   IPin *pReceivePin
 );
 ```
 
@@ -26,7 +31,7 @@ virtual HRESULT CompleteConnect(
 *pReceivePin* 
 </dt> <dd>
 
-Pointer to the input pin's [**IPin**](ipin.md) interface.
+Pointer to the input pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ This method overrides the [**CBaseOutputPin::CompleteConnect**](cbaseoutputpin-c
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

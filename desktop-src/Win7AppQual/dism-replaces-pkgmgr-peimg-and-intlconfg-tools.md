@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'bbfee966-121b-4b53-9e3e-08a747559da0'
-title: 'Deployment Image Servicing and Management (DISM)'
+Description: .
+ms.assetid: bbfee966-121b-4b53-9e3e-08a747559da0
+title: Deployment Image Servicing and Management (DISM)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deployment Image Servicing and Management (DISM)

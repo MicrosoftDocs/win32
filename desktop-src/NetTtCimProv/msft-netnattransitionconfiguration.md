@@ -1,7 +1,12 @@
 ---
-Description: 'Provides configuration settings for Network Address Translation (NAT).'
-ms.assetid: '3582d8c5-2944-4fe7-af19-9c0219c050f9'
-title: 'MSFT\_NetNatTransitionConfiguration class'
+Description: Provides configuration settings for Network Address Translation (NAT).
+ms.assetid: 3582d8c5-2944-4fe7-af19-9c0219c050f9
+title: MSFT\_NetNatTransitionConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetNatTransitionConfiguration class
@@ -23,7 +28,7 @@ class MSFT_NetNatTransitionConfiguration : MSFT_NetSettingData
   string OutboundInterface[];
   string PrefixMapping[];
   string IPv4AddressPortPool[];
-         TcpMappingTimeout;
+         TcpMappingTimeout;
 };
 ```
 
@@ -47,7 +52,7 @@ The **MSFT\_NetNatTransitionConfiguration** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -161,7 +166,7 @@ Indicates whether NAT is turned on.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -181,17 +186,17 @@ Indicates the amount of time an established TCP session can remain idle before t
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Icons
 description: Icons are pictorial representations of objects, important not only for aesthetic reasons as part of the visual identity of a program, but also for utilitarian reasons as shorthand for conveying meaning that users perceive almost instantaneously.
-ms.assetid: '6f88cb32-ecfe-4e6e-a41b-31891cf510cf'
+ms.assetid: 6f88cb32-ecfe-4e6e-a41b-31891cf510cf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Icons
@@ -16,7 +21,7 @@ Aero is the name for the user experience of Windows Vista, representing both the
 
 Windows Vista icons differ from Windows XP-style icons in the following ways:
 
--   The style is more realistic than illustrative, but not quite photorealistic. Icons are symbolic images—they should look better than photorealistic!
+-   The style is more realistic than illustrative, but not quite photorealistic. Icons are symbolic images they should look better than photorealistic!
 -   Icons have a maximum size of 256x256 pixels, making them suitable for high-dpi (dots per inch) displays. These high-resolution icons allow for high visual quality in list views with large icons.
 -   Wherever practical, fixed document icons are replaced by thumbnails of the content, making documents easier to identify and find.
 -   Toolbar icons have less detail and no perspective, to optimize for smaller sizes and visual distinctiveness.
@@ -117,7 +122,7 @@ The Drop Shadow option in the Layer Style dialog box, and a typical shadow for a
 
 
 
- 
+ 
 
 **Three-dimensional icons**
 
@@ -140,7 +145,7 @@ These examples help demonstrate variations created based on the shape and positi
 
     There is no strict color palette restriction. Only full-saturation (top right) is avoided.
 
--   Bit levels: ICO design for 32-bit (alpha included) + 8-bit + 4-bit (dithered down automatically—pixel poke only most critical). Only a 32-bit copy of the 256x256 pixel image should be included, and only the 256x256 pixel image should be compressed to keep the file size down. Several icon tools offer compression for Windows Vista.
+-   Bit levels: ICO design for 32-bit (alpha included) + 8-bit + 4-bit (dithered down automatically pixel poke only most critical). Only a 32-bit copy of the 256x256 pixel image should be included, and only the 256x256 pixel image should be compressed to keep the file size down. Several icon tools offer compression for Windows Vista.
 -   Bit levels: Toolbars 24-bit + alpha (1 bit mask), 8-bit and 4-bit.
 -   Toolbars or AVI files: Use magenta (R255 G0 B255) as the background transparency color.
 
@@ -176,7 +181,7 @@ The following tables show examples of scaling ratios applied to two common icon 
 
 
 
- 
+ 
 
 
 
@@ -190,7 +195,7 @@ The following tables show examples of scaling ratios applied to two common icon 
 
 
 
- 
+ 
 
 **.ico file sizes (standard)**
 
@@ -217,7 +222,7 @@ The following tables show examples of scaling ratios applied to two common icon 
 
     ![illustration of one large and two small devices ](images/vis-icons-image18.png)
 
-    At 16x16, the icon for the portable audio device could easily be mistaken for a cell phone—so the ear piece is a key visual detail to show.
+    At 16x16, the icon for the portable audio device could easily be mistaken for a cell phone so the ear piece is a key visual detail to show.
 
 -   Simply scaling down from the 256x256 size does not work.
 -   All sizes need relevant level of detail; the smaller the icon the more you need to exaggerate the defining details.
@@ -232,7 +237,7 @@ The following tables show examples of scaling ratios applied to two common icon 
 
 -   **Hire an experienced graphic designer.** For great graphics, images, and icons work with experts. Experience in illustrations using vector art or 3D programs is recommended.
 -   **Plan to do series of iterations,** from initial concept sketches, to in-context mock-ups, to final production review and fit-and-finish of icons in the working product.
--   **Think ahead—icon creation can be expensive.** Gather all existing details and requirements, such as: the complete set of icons needed; the main function and meaning for each; families or clusters in the set you want to be apparent; brand requirements; the exact file names; image formats used in your code; and size requirements. Ensure up front that you can make the most of your time with the designer.
+-   **Think ahead icon creation can be expensive.** Gather all existing details and requirements, such as: the complete set of icons needed; the main function and meaning for each; families or clusters in the set you want to be apparent; brand requirements; the exact file names; image formats used in your code; and size requirements. Ensure up front that you can make the most of your time with the designer.
 -   **Remember that the designer may not be familiar with your product, so provide functional information, screen shots, and spec sections, as appropriate.**
 -   **Plan for geopolitical and legal reviews as appropriate.**
 -   **Map out a timeframe and have regular communication.**
@@ -349,9 +354,9 @@ Try iterations in context.
 
 ![figure of two sets of folders in tree view ](images/vis-icons-image25.png)
 
- 
+ 
 
- 
+ 
 
 
 

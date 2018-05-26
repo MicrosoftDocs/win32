@@ -1,12 +1,17 @@
 ---
-Description: 'How to return change journal records that meet specified criteria.'
-ms.assetid: '8946adb5-da47-4711-8800-86f323081c4c'
+Description: How to return change journal records that meet specified criteria.
+ms.assetid: 8946adb5-da47-4711-8800-86f323081c4c
 title: Walking a Buffer of Change Journal Records
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Walking a Buffer of Change Journal Records
 
-The control codes that return update sequence number (USN) change journal records, [**FSCTL\_READ\_USN\_JOURNAL**](fsctl-read-usn-journal.md) and [**FSCTL\_ENUM\_USN\_DATA**](fsctl-enum-usn-data.md), return similar data in the output buffer. Both return a USN followed by zero or more change journal records, each in a [**USN\_RECORD\_V2**](usn-record-str.md) or [**USN\_RECORD\_V3**](usn-record-v3.md) structure.
+The control codes that return update sequence number (USN) change journal records, [**FSCTL\_READ\_USN\_JOURNAL**](/windows/win32/WinIoCtl/?branch=master) and [**FSCTL\_ENUM\_USN\_DATA**](/windows/win32/WinIoCtl/?branch=master), return similar data in the output buffer. Both return a USN followed by zero or more change journal records, each in a [**USN\_RECORD\_V2**](/windows/win32/WinIoCtl/ns-winioctl-usn_record_v2?branch=master) or [**USN\_RECORD\_V3**](/windows/win32/WinIoCtl/ns-winioctl-usn_record_v3?branch=master) structure.
 
 The target volume for USN operations must be ReFS or NTFS 3.0 or later. To obtain the NTFS version of a volume, open a command prompt with Administrator access rights and execute the following command:
 
@@ -16,8 +21,8 @@ where *X* is the drive letter of the volume.
 
 The following list identifies ways to get change journal records:
 
--   Use [**FSCTL\_ENUM\_USN\_DATA**](fsctl-enum-usn-data.md) to get a listing (enumeration) of all change journal records between two USNs.
--   Use [**FSCTL\_READ\_USN\_JOURNAL**](fsctl-read-usn-journal.md) to be more selective, such as selecting specific reasons for changes or returning when a file is closed.
+-   Use [**FSCTL\_ENUM\_USN\_DATA**](/windows/win32/WinIoCtl/?branch=master) to get a listing (enumeration) of all change journal records between two USNs.
+-   Use [**FSCTL\_READ\_USN\_JOURNAL**](/windows/win32/WinIoCtl/?branch=master) to be more selective, such as selecting specific reasons for changes or returning when a file is closed.
 
 > [!Note]  
 > Both of these operations return only the subset of change journal records that meet the specified criteria.
@@ -26,11 +31,11 @@ The following list identifies ways to get change journal records:
 
 The USN returned as the first item in the output buffer is the USN of the next record number to be retrieved. Use this value to continue reading records from the end boundary forward.
 
-The **FileName** member of [**USN\_RECORD\_V2**](usn-record-str.md) or [**USN\_RECORD\_V3**](usn-record-v3.md) contains the name of the file to which the record in question applies. The file name varies in length, so **USN\_RECORD\_V2** and **USN\_RECORD\_V3** are variable length structures. Their first member, **RecordLength**, is the length of the structure (including the file name), in bytes.
+The **FileName** member of [**USN\_RECORD\_V2**](/windows/win32/WinIoCtl/ns-winioctl-usn_record_v2?branch=master) or [**USN\_RECORD\_V3**](/windows/win32/WinIoCtl/ns-winioctl-usn_record_v3?branch=master) contains the name of the file to which the record in question applies. The file name varies in length, so **USN\_RECORD\_V2** and **USN\_RECORD\_V3** are variable length structures. Their first member, **RecordLength**, is the length of the structure (including the file name), in bytes.
 
-When you work with the **FileName** member of [**USN\_RECORD\_V2**](usn-record-str.md) and [**USN\_RECORD\_V3**](usn-record-v3.md) structures, do not assume that the file name contains a trailing '\\0' delimiter. To determine the length of the file name, use the **FileNameLength** member.
+When you work with the **FileName** member of [**USN\_RECORD\_V2**](/windows/win32/WinIoCtl/ns-winioctl-usn_record_v2?branch=master) and [**USN\_RECORD\_V3**](/windows/win32/WinIoCtl/ns-winioctl-usn_record_v3?branch=master) structures, do not assume that the file name contains a trailing '\\0' delimiter. To determine the length of the file name, use the **FileNameLength** member.
 
-The following example calls [**FSCTL\_READ\_USN\_JOURNAL**](fsctl-read-usn-journal.md) and walks the buffer of change journal records that the operation returns.
+The following example calls [**FSCTL\_READ\_USN\_JOURNAL**](/windows/win32/WinIoCtl/?branch=master) and walks the buffer of change journal records that the operation returns.
 
 
 ```C++
@@ -136,9 +141,9 @@ void main()
 
 
 
-The size in bytes of any record specified by a [**USN\_RECORD\_V2**](usn-record-str.md) or [**USN\_RECORD\_V3**](usn-record-v3.md) structure is at most `((MaxComponentLength - 1) * Width) + Size` where *MaxComponentLength* is the maximum length in characters of the record file name. The width is the size of a wide character, and the *Size* is the size of the structure.
+The size in bytes of any record specified by a [**USN\_RECORD\_V2**](/windows/win32/WinIoCtl/ns-winioctl-usn_record_v2?branch=master) or [**USN\_RECORD\_V3**](/windows/win32/WinIoCtl/ns-winioctl-usn_record_v3?branch=master) structure is at most `((MaxComponentLength - 1) * Width) + Size` where *MaxComponentLength* is the maximum length in characters of the record file name. The width is the size of a wide character, and the *Size* is the size of the structure.
 
-To obtain the maximum length, call the [**GetVolumeInformation**](getvolumeinformation.md) function and examine the value pointed to by the *lpMaximumComponentLength* parameter. Subtract one from *MaxComponentLength* to account for the fact that the definition of [**USN\_RECORD**](usn-record-str.md) and [**USN\_RECORD\_V3**](usn-record-v3.md) includes one character of the file name.
+To obtain the maximum length, call the [**GetVolumeInformation**](/windows/win32/FileAPI/nf-fileapi-getvolumeinformationa?branch=master) function and examine the value pointed to by the *lpMaximumComponentLength* parameter. Subtract one from *MaxComponentLength* to account for the fact that the definition of [**USN\_RECORD**](/windows/win32/WinIoCtl/ns-winioctl-usn_record_v2?branch=master) and [**USN\_RECORD\_V3**](/windows/win32/WinIoCtl/ns-winioctl-usn_record_v3?branch=master) includes one character of the file name.
 
 In the C programming language, the largest possible record size is the following:
 

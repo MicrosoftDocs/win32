@@ -1,16 +1,21 @@
 ---
-Description: 'An attachment snap-in extension is the component of an attachment that displays the service-specific user interface.'
-ms.assetid: '1cafa02f-f240-476c-8ce2-ba088afaf889'
-title: 'Attachment Snap-in Extensions'
+Description: An attachment snap-in extension is the component of an attachment that displays the service-specific user interface.
+ms.assetid: 1cafa02f-f240-476c-8ce2-ba088afaf889
+title: Attachment Snap-in Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attachment Snap-in Extensions
 
 An attachment snap-in extension is the component of an attachment that displays the service-specific user interface. The snap-in extension is hosted by the Security Configuration snap-ins. The communication between the attachment extension and its snap-in host is handled by the standard MMC mechanisms described in the [Microsoft Management Console](https://msdn.microsoft.com/library/aa814987) documentation.
 
-In addition to the interfaces that the snap-in extension must support in order to be an MMC snap-in extension, an attachment snap-in extension must also support the COM interface, [**ISceSvcAttachmentPersistInfo**](iscesvcattachmentpersistinfo.md). This interface implements methods that indicate whether there is service-specific data that should be saved to the security database, and if so, retrieve and save this new data. The Security Configuration snap-ins call methods of this interface regularly in order to update the security database.
+In addition to the interfaces that the snap-in extension must support in order to be an MMC snap-in extension, an attachment snap-in extension must also support the COM interface, [**ISceSvcAttachmentPersistInfo**](/windows/win32/Scesvc/nn-scesvc-iscesvcattachmentpersistinfo?branch=master). This interface implements methods that indicate whether there is service-specific data that should be saved to the security database, and if so, retrieve and save this new data. The Security Configuration snap-ins call methods of this interface regularly in order to update the security database.
 
-The Security Configuration snap-ins implement an interface, [**ISceSvcAttachmentData**](iscesvcattachmentdata.md), that provides methods to retrieve service-specific data from the security database. Attachment snap-in extensions can call methods of this interface to retrieve data from the security database.
+The Security Configuration snap-ins implement an interface, [**ISceSvcAttachmentData**](/windows/win32/Scesvc/nn-scesvc-iscesvcattachmentdata?branch=master), that provides methods to retrieve service-specific data from the security database. Attachment snap-in extensions can call methods of this interface to retrieve data from the security database.
 
 This architecture is illustrated in the following diagram.
 

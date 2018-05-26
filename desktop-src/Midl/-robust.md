@@ -2,13 +2,19 @@
 title: /robust switch
 description: The /robust switch tells the MIDL compiler to generate additional error-checking information, which the NDR engine uses to perform integrity checks at run time.
 ms.assetid: 7a858600-ea06-4396-9a1b-240d646e8c7d
-keywords: ["/robust switch MIDL"]
+keywords:
+- /robust switch MIDL
 topic_type:
 - apiref
 api_name:
 - /robust
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /robust switch

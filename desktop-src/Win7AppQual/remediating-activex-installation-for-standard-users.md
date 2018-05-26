@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '4199521A-58E6-4475-9B95-A724AB52969A'
+Description: .
+ms.assetid: 4199521A-58E6-4475-9B95-A724AB52969A
 title: Fixing ActiveX Installation Compatibility Issues for Standard Users
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fixing ActiveX Installation Compatibility Issues for Standard Users

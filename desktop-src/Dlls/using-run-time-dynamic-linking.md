@@ -1,7 +1,12 @@
 ---
-Description: 'You can use the same DLL in both load-time and run-time dynamic linking.'
-ms.assetid: '0ffce2b1-ce50-4550-aa68-6628fdcac01a'
-title: 'Using Run-Time Dynamic Linking'
+Description: You can use the same DLL in both load-time and run-time dynamic linking.
+ms.assetid: 0ffce2b1-ce50-4550-aa68-6628fdcac01a
+title: Using Run-Time Dynamic Linking
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Run-Time Dynamic Linking

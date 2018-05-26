@@ -4,17 +4,21 @@ description: Type of user consent.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '80878475-EFEC-4183-8FE5-7F0BDA1F94A7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 80878475-EFEC-4183-8FE5-7F0BDA1F94A7
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ConsentType enum"]
+keywords:
+- ConsentType enum
 topic_type:
 - apiref
 api_name:
 - ConsentType enum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConsentType enum
@@ -38,7 +42,7 @@ public enum ConsentType
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -54,15 +58,15 @@ ConsentType.java
 
 
 
- 
+ 
 
 ## Package
 
 com.microsoft.rightsmanagement
 
- 
+ 
 
- 
+ 
 
 
 

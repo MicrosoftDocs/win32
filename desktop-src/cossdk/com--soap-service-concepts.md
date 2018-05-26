@@ -1,7 +1,12 @@
 ---
 Description: COM+ SOAP Service Concepts
-ms.assetid: '4c3950d7-4ad3-4518-9a98-2c8da8c4afc8'
+ms.assetid: 4c3950d7-4ad3-4518-9a98-2c8da8c4afc8
 title: COM+ SOAP Service Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ SOAP Service Concepts
@@ -17,7 +22,7 @@ The following topics in this section provide step-by-step instructions for using
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -26,9 +31,9 @@ The following topics in this section provide step-by-step instructions for using
 [COM+ SOAP Service Tasks](com--soap-service-tasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

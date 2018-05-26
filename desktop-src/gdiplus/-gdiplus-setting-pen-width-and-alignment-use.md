@@ -1,12 +1,17 @@
 ---
-Description: 'When you create a Pen object, you can supply the pen width as one of the arguments to the constructor. You can also change the pen width by using the Pen::SetWidth method.'
-ms.assetid: 'b529ba0b-1786-4925-88bd-1a8369fc368c'
+Description: When you create a Pen object, you can supply the pen width as one of the arguments to the constructor. You can also change the pen width by using the PenSetWidth method.
+ms.assetid: b529ba0b-1786-4925-88bd-1a8369fc368c
 title: Setting Pen Width and Alignment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Pen Width and Alignment
 
-When you create a [**Pen**](-gdiplus-class-pen-class.md) object, you can supply the pen width as one of the arguments to the constructor. You can also change the pen width by using the [**Pen::SetWidth**](-gdiplus-class-pen-setwidth-width-.md) method.
+When you create a [**Pen**](/windows/win32/gdipluspen/nl-gdipluspen-pen?branch=master) object, you can supply the pen width as one of the arguments to the constructor. You can also change the pen width by using the [**Pen::SetWidth**](/windows/win32/Gdipluspen/nf-gdipluspen-pen-setwidth?branch=master) method.
 
 A theoretical line has a width of zero. When you draw a line, the pixels are centered on the theoretical line. The following example draws a specified line twice: once with a black pen of width 1 and once with a green pen of width 10.
 
@@ -29,7 +34,7 @@ The following illustration shows the output of the preceding code. The green pix
 
 ![illustration showing a thin, diagonal, black line surrounded by a wide, green line ](images/pens1a.png)
 
-The following example draws a specified rectangle twice: once with a black pen of width 1 and once with a green pen of width 10. The code passes the value **PenAlignmentCenter** (an element of the [**PenAlignment**](-gdiplus-enum-penalignment.md) enumeration) to the [**Pen::SetAlignment**](-gdiplus-class-pen-setalignment-penalignment-.md) method to specify that the pixels drawn with the green pen are centered on the boundary of the rectangle.
+The following example draws a specified rectangle twice: once with a black pen of width 1 and once with a green pen of width 10. The code passes the value **PenAlignmentCenter** (an element of the [**PenAlignment**](/windows/win32/Gdiplusenums/ne-gdiplusenums-penalignment?branch=master) enumeration) to the [**Pen::SetAlignment**](/windows/win32/Gdipluspen/nf-gdipluspen-pen-setalignment?branch=master) method to specify that the pixels drawn with the green pen are centered on the boundary of the rectangle.
 
 
 ```

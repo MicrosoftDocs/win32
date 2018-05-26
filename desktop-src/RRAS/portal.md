@@ -1,7 +1,12 @@
 ---
 title: Routing and Remote Access Service
 description: .
-ms.assetid: 'fa0a183a-0254-401e-8b78-441cb3f83e8b'
+ms.assetid: fa0a183a-0254-401e-8b78-441cb3f83e8b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing and Remote Access Service
@@ -38,11 +43,11 @@ For more specific information about which operating systems support a particular
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

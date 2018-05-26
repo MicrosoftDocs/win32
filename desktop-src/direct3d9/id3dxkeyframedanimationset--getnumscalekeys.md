@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the number of scale keys in the specified key frame animation.'
-ms.assetid: 'd3e8c3ba-5301-4f9d-b27f-655ef7bb6af8'
-title: 'ID3DXKeyframedAnimationSet::GetNumScaleKeys method'
+---
+Description: Gets the number of scale keys in the specified key frame animation.
+ms.assetid: d3e8c3ba-5301-4f9d-b27f-655ef7bb6af8
+title: ID3DXKeyframedAnimationSetGetNumScaleKeys method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXKeyframedAnimationSet::GetNumScaleKeys method

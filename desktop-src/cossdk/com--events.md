@@ -1,7 +1,12 @@
 ---
 Description: COM+ Events
-ms.assetid: '1e0570ae-9099-465a-9133-72aa7d574932'
+ms.assetid: 1e0570ae-9099-465a-9133-72aa7d574932
 title: COM+ Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Events

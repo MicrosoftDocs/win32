@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Microsoft Media Foundation H.264 video encoder is a Media Foundation transform that supports the following H.264 profiles:'
-ms.assetid: '4d4c768f-b76a-40ca-8736-2f592a4f4cc4'
-title: 'H.264 Video Encoder'
+---
+Description: The Microsoft Media Foundation H.264 video encoder is a Media Foundation transform that supports the following H.264 profiles
+ms.assetid: 4d4c768f-b76a-40ca-8736-2f592a4f4cc4
+title: H.264 Video Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # H.264 Video Encoder
@@ -15,7 +20,7 @@ The Microsoft Media Foundation H.264 video encoder is a [Media Foundation transf
 The H.264 video encoder exposes the following interfaces:
 
 -   [**ICodecAPI**](dshow.icodecapi)
--   [**IMFTransform**](imftransform.md)
+-   [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)
 
 ## Input Types
 
@@ -29,7 +34,7 @@ The input media type must have one of the following subtypes:
 
 For more information about these subtypes, see [Video Subtype GUIDs](video-subtype-guids.md).
 
-The output type must be set before the input type. Until the output type is set, the encoder's [**IMFTransform::SetInputType**](imftransform-setinputtype.md) method returns **MF\_E\_TRANSFORM\_TYPE\_NOT\_SET**.
+The output type must be set before the input type. Until the output type is set, the encoder's [**IMFTransform::SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master) method returns **MF\_E\_TRANSFORM\_TYPE\_NOT\_SET**.
 
 ## Output Types
 
@@ -116,7 +121,7 @@ The following properties are supported in Windows 7.
 | Property                                                                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CODECAPI\_AVEncCommonRateControlMode**](dshow.avenccommonratecontrolmode_property) | Sets the rate control mode. See Remarks. The default mode is unconstrained variable bit rate (VBR).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [**CODECAPI\_AVEncCommonQuality**](dshow.avenccommonquality_property)                 | Sets the quality level. This property applies when the rate control mode is quality-based VBR (**eAVEncCommonRateControlMode\_Quality**). The valid range is 1–100. The default value is 70. <br/> To set this parameter, set the property before calling [**IMFTransform::SetOutputType**](imftransform-setoutputtype.md). <br/> To set this parameter in Windows 7, set the property before calling [**IMFTransform::SetOutputType**](imftransform-setoutputtype.md). The encoder ignores changes after the output type is set. <br/> In Windows 8, this property can be set at any time during encoding. Changes are applied starting at the next input frame. <br/> Internally, the encoder converts this property to an [AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md) value. <br/> |
+| [**CODECAPI\_AVEncCommonQuality**](dshow.avenccommonquality_property)                 | Sets the quality level. This property applies when the rate control mode is quality-based VBR (**eAVEncCommonRateControlMode\_Quality**). The valid range is 1–100. The default value is 70. <br/> To set this parameter, set the property before calling [**IMFTransform::SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master). <br/> To set this parameter in Windows 7, set the property before calling [**IMFTransform::SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master). The encoder ignores changes after the output type is set. <br/> In Windows 8, this property can be set at any time during encoding. Changes are applied starting at the next input frame. <br/> Internally, the encoder converts this property to an [AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md) value. <br/> |
 
 
 
@@ -185,7 +190,7 @@ The following properties require Windows 8.
 <li>1: Use one B frame.</li>
 <li>2: Use two B frames.</li>
 </ul>
-To set this parameter, set the property before calling [<strong>IMFTransform::SetOutputType</strong>](imftransform-setoutputtype.md). <br/> For Baseline profile, the number of B frames is always zero. The encoder will override nonzero values.<br/> For other H.264 profiles, if this property is nonzero, the encoding pattern is IBBPBBP, where the maximum number of consecutive B frames is equal to [CODECAPI_AVEncMPVDefaultBPictureCount](dshow.avencmpvdefaultbpicturecount_property). <br/></td>
+To set this parameter, set the property before calling [<strong>IMFTransform::SetOutputType</strong>](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master). <br/> For Baseline profile, the number of B frames is always zero. The encoder will override nonzero values.<br/> For other H.264 profiles, if this property is nonzero, the encoding pattern is IBBPBBP, where the maximum number of consecutive B frames is equal to [CODECAPI_AVEncMPVDefaultBPictureCount](dshow.avencmpvdefaultbpicturecount_property). <br/></td>
 </tr>
 <tr class="odd">
 <td>[CODECAPI_AVEncMPVGOPSize](dshow.avencmpvgopsize_property)</td>

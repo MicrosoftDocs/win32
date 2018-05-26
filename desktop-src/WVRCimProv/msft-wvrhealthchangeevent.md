@@ -4,13 +4,15 @@ description: Represents health events on Storage Replica objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8dc9776e-c98c-4aa8-8e99-32c0633bcbce'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8dc9776e-c98c-4aa8-8e99-32c0633bcbce
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WvrHealthChangeEvent class", "MSFT_WvrHealthChangeEvent class, described"]
+keywords:
+- MSFT_WvrHealthChangeEvent class
+- MSFT_WvrHealthChangeEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - wvrcimprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WvrHealthChangeEvent class
@@ -73,16 +78,16 @@ An embedded instance of a [**MSFT\_WvrHealth**](msft-wvrhealth.md) object contai
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>Wvrcimprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wvrcimprov.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

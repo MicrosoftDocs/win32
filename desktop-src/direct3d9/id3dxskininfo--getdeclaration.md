@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the vertex declaration.'
-ms.assetid: '49738e9b-09cb-489f-b9af-32d220fbede8'
-title: 'ID3DXSkinInfo::GetDeclaration method'
+---
+Description: Gets the vertex declaration.
+ms.assetid: 49738e9b-09cb-489f-b9af-32d220fbede8
+title: ID3DXSkinInfoGetDeclaration method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSkinInfo::GetDeclaration method

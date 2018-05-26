@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'e8b1ce0a-a6af-4035-b8f5-4b16cc0b47ae'
-title: 'System.Contact.DisplayBusinessPhoneNumbers'
+Description: .
+ms.assetid: e8b1ce0a-a6af-4035-b8f5-4b16cc0b47ae
+title: System.Contact.DisplayBusinessPhoneNumbers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.DisplayBusinessPhoneNumbers

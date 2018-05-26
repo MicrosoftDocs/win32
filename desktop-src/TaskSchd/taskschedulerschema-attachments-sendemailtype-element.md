@@ -1,14 +1,20 @@
 ---
 title: Attachments (sendEmailType) Element
 description: Contains a list of attachments in the email message.
-ms.assetid: '5ae22481-af70-42eb-a964-e63d800be17d'
-keywords: ["Attachments element Task Scheduler"]
+ms.assetid: 5ae22481-af70-42eb-a964-e63d800be17d
+keywords:
+- Attachments element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Attachments
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attachments (sendEmailType) Element
@@ -45,7 +51,7 @@ The **Attachments** element is defined by the [**sendEmailType**](taskschedulers
 
 ## Remarks
 
-For C++ development, see [**Attachments Property of IEmailAction**](iemailaction-attachments.md).
+For C++ development, see [**Attachments Property of IEmailAction**](/windows/win32/taskschd/nf-taskschd-iemailaction-get_attachments?branch=master).
 
 For script development, see [**EmailAction.Attachments**](emailaction-attachments.md).
 
@@ -55,14 +61,14 @@ For script development, see [**EmailAction.Attachments**](emailaction-attachment
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

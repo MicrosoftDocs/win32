@@ -1,8 +1,14 @@
 ---
 title: PSGUID\_VIDEO
 description: PSGUID\_VIDEO
-ms.assetid: 'cb12df54-10c5-488a-880d-a53b4ac0588f'
-keywords: ["PSGUID_VIDEO"]
+ms.assetid: cb12df54-10c5-488a-880d-a53b4ac0588f
+keywords:
+- PSGUID_VIDEO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSGUID\_VIDEO

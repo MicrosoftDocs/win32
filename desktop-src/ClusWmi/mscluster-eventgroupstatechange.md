@@ -4,13 +4,15 @@ description: Represents a group state change event.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '41001fb6-3b22-4195-a580-69e6defbd5e2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 41001fb6-3b22-4195-a580-69e6defbd5e2
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_EventGroupStateChange class", "MSCluster_EventGroupStateChange class, described"]
+keywords:
+- MSCluster_EventGroupStateChange class
+- MSCluster_EventGroupStateChange class, described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_EventGroupStateChange class
@@ -42,7 +47,7 @@ The following syntax is simplified from MOF code, and includes all inherited pro
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{D264369A-3133-45eb-AE1D-65B1B641AEAF}"), AMENDMENT]
 class MSCluster_EventGroupStateChange : MSCluster_EventStateChange
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   uint32 EventTypeMajor;
   uint32 EventTypeMinor;
@@ -92,7 +97,7 @@ Current state of the object that is reporting a state change.
 
 
 
- 
+ 
 
 This property is inherited from [**MSCluster\_EventStateChange**](mscluster-eventstatechange.md).
 
@@ -312,16 +317,16 @@ The **MSCluster\_EventGroupStateChange** class is derived from the [**MSCluster\
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

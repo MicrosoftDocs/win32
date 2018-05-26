@@ -1,7 +1,12 @@
-﻿---
-Description: 'The StreetAddress property is a null-terminated string that contains the street address associated with the sender.'
-ms.assetid: '3d978556-01f7-477e-a9b3-66b8adf56c5d'
-title: 'FaxSender.StreetAddress property'
+---
+Description: The StreetAddress property is a null-terminated string that contains the street address associated with the sender.
+ms.assetid: 3d978556-01f7-477e-a9b3-66b8adf56c5d
+title: FaxSender.StreetAddress property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSender.StreetAddress property
@@ -50,7 +55,7 @@ The street address should also include the city, state, zip code (postal code) a
 [**FaxSender**](-mfax-faxsender.md)
 </dt> <dt>
 
-[**IFaxSender**](-mfax-faxsender-cpp.md)
+[**IFaxSender**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsender?branch=master)
 </dt> </dl>
 
  

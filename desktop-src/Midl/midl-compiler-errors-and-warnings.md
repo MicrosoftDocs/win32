@@ -2,7 +2,16 @@
 title: MIDL Compiler Errors and Warnings
 description: When using the MIDL compiler, errors and warnings can be caused by improper use of the command-line switches or by the content of the IDL and ACF files.
 ms.assetid: 5c8d5a28-e559-4893-932f-b2306aefa932
-keywords: ["Microsoft Interface Definition Language MIDL , reference", "MIDL compiler MIDL , errors", "compiler MIDL , errors", "errors MIDL"]
+keywords:
+- Microsoft Interface Definition Language MIDL , reference
+- MIDL compiler MIDL , errors
+- compiler MIDL , errors
+- errors MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL Compiler Errors and Warnings

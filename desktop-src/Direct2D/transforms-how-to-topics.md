@@ -1,7 +1,12 @@
 ---
 title: Transforms How-to Topics
 description: Provides examples that show how to apply various transforms to objects.
-ms.assetid: '0cb63411-42b2-44be-a2cf-dacf7bdcf39d'
+ms.assetid: 0cb63411-42b2-44be-a2cf-dacf7bdcf39d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transforms How-to Topics
@@ -22,11 +27,11 @@ The topics in this section provide examples showing how to apply various transfo
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

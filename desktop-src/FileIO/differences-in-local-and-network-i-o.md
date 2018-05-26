@@ -1,7 +1,12 @@
 ---
-Description: 'Differences between local I/O and network I/O on Windows.'
-ms.assetid: '8a8f20bd-fa41-4f1a-b9bf-5f09683cd46c'
-title: 'Differences in Local and Network I/O'
+Description: Differences between local I/O and network I/O on Windows.
+ms.assetid: 8a8f20bd-fa41-4f1a-b9bf-5f09683cd46c
+title: Differences in Local and Network I/O
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Differences in Local and Network I/O

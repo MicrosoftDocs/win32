@@ -4,12 +4,15 @@ description: This example demonstrates enumerating remote nodes on a Network Loa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '092c14fd-d584-4d54-8ebc-8127fc56eba7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 092c14fd-d584-4d54-8ebc-8127fc56eba7
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerating Remote Nodes

@@ -1,14 +1,20 @@
 ---
 title: AssessmentResults element
 description: This element is a container for one or more AssessmentResult elements.
-ms.assetid: '1C6B9DD8-7389-4D82-969F-908885A4FA15'
-keywords: ["AssessmentResults element Access Execution Engine"]
+ms.assetid: 1C6B9DD8-7389-4D82-969F-908885A4FA15
+keywords:
+- AssessmentResults element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AssessmentResults
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssessmentResults element
@@ -87,9 +93,9 @@ Assessments produce one or more XML files that contain individual results. AXE a
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

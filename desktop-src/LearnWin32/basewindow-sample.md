@@ -1,7 +1,12 @@
 ---
 title: BaseWindow Sample
 description: This sample application shows how to pass application state data in the WM\_NCCREATE message.
-ms.assetid: '5be8a5ef-8a63-43e7-b2a5-a4fff63c7ce3'
+ms.assetid: 5be8a5ef-8a63-43e7-b2a5-a4fff63c7ce3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BaseWindow Sample

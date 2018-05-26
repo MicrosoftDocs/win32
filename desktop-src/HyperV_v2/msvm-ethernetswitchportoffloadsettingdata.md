@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the port offload feature setting data.'
-ms.assetid: '7b8d8bee-86f3-4c55-bb32-987bf840d995'
-title: 'Msvm\_EthernetSwitchPortOffloadSettingData class'
+Description: Represents the port offload feature setting data.
+ms.assetid: 7b8d8bee-86f3-4c55-bb32-987bf840d995
+title: Msvm\_EthernetSwitchPortOffloadSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortOffloadSettingData class
@@ -16,26 +21,26 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), UUID("C885BFD1-ABB7-418F-8163-9F379C9F7166"), ExtensionId("11EC6134-128A-4A23-B12F-164184B48348"), InterfaceVersion("4"), InterfaceRevision("0"), DisplayName("Ethernet Switch Port Offload Settings"), AMENDMENT]
 class Msvm_EthernetSwitchPortOffloadSettingData : Msvm_EthernetSwitchPortFeatureSettingData
 {
-  string  InstanceID;
-  string  Caption = "Ethernet Switch Port Offload Settings";
-  string  Description = "Represents the port offload feature setting data.";
-  string  ElementName = "Ethernet Switch Port Offload Settings";
-  uint32  IPSecOffloadLimit = 512;
-  uint32  VMQOffloadWeight = 100;
-  uint32  IOVOffloadWeight = 0;
-  uint32  IOVQueuePairsRequested = 1;
-  uint32  IOVInterruptModeration = 0;
-  uint32  PacketDirectModerationInterval = 0;
-  uint32  VmmqQueuePairs = 16;
-  uint32  VrssVmbusChannelAffinityPolicy = 3;
+  string  InstanceID;
+  string  Caption = "Ethernet Switch Port Offload Settings";
+  string  Description = "Represents the port offload feature setting data.";
+  string  ElementName = "Ethernet Switch Port Offload Settings";
+  uint32  IPSecOffloadLimit = 512;
+  uint32  VMQOffloadWeight = 100;
+  uint32  IOVOffloadWeight = 0;
+  uint32  IOVQueuePairsRequested = 1;
+  uint32  IOVInterruptModeration = 0;
+  uint32  PacketDirectModerationInterval = 0;
+  uint32  VmmqQueuePairs = 16;
+  uint32  VrssVmbusChannelAffinityPolicy = 3;
   boolean VrssIndependentHostSpreading = FALSE;
   boolean VrssExcludePrimaryProcessor = FALSE;
-  uint32  VrssQueueSchedulingMode = 2;
-  uint32  VrssMinQueuePairs = 1;
+  uint32  VrssQueueSchedulingMode = 2;
+  uint32  VrssMinQueuePairs = 1;
   boolean VmmqEnabled = FALSE;
   boolean VrssEnabled = TRUE;
-  uint32  PacketDirectModerationCount = 0;
-  uint32  PacketDirectNumProcs = 1;
+  uint32  PacketDirectModerationCount = 0;
+  uint32  PacketDirectNumProcs = 1;
 };
 ```
 
@@ -229,9 +234,9 @@ Qualifiers: **WmiDataId** (7), **InterfaceVersion** (2), **InterfaceRevision** (
 The interrupt moderation count value for Packet Direct (PD).The default is 0.
 
 > [!Note]  
-> Property added in Windows 10.
+> Property added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -250,9 +255,9 @@ Qualifiers: **WmiDataId** (8), **InterfaceVersion** (2), **InterfaceRevision** (
 The interrupt moderation interval value for Packet Direct (PD).The default is 0.
 
 > [!Note]  
-> Property added in Windows 10.
+> Property added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -271,9 +276,9 @@ Qualifiers: **WmiDataId** (6), **InterfaceVersion** (2), **InterfaceRevision** (
 The number of processors used by the host for processing packets sent from this port in Packet Direct mode. The default is 1.
 
 > [!Note]  
-> Property added in Windows 10.
+> Property added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -292,9 +297,9 @@ Qualifiers: **WmiDataId** (10), **InterfaceVersion** (3), **InterfaceRevision** 
 Enable VMMQ offload if supported by hardware.The default is False.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703 and Windows Server 2016.
+> This property was added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -313,9 +318,9 @@ Qualifiers: **WmiDataId** (11), **InterfaceVersion** (3), **InterfaceRevision** 
 The number of queues to allocate when VRSS is enabled. The default is 16.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703 and Windows Server 2016.
+> This property was added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -350,9 +355,9 @@ Qualifiers: **WmiDataId** (9), **InterfaceVersion** (3), **InterfaceRevision** (
 Enable VRSS. The default is true.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703 and Windows Server 2016.
+> This property was added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -371,9 +376,9 @@ Qualifiers: **WmiDataId** (14), **InterfaceVersion** (4), **InterfaceRevision** 
 Whether to exclude primary VMQ processor from the VRSS indirection table when VRSS is enabled.The default is false.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -392,9 +397,9 @@ Qualifiers: **WmiDataId** (15), **InterfaceVersion** (4), **InterfaceRevision** 
 Whether to always do host-side VRSS when VRSS is enabled, regardless of RSS setting of the virtual NIC.The default is false.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -413,9 +418,9 @@ Qualifiers: **WmiDataId** (12), **InterfaceVersion** (4), **InterfaceRevision** 
 The minimum number of queues to allocate when VRSS is enabled.The default is 1.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -434,9 +439,9 @@ Qualifiers: **WmiDataId** (13), **InterfaceVersion** (4), **InterfaceRevision** 
 The queue scheduling mode to use when VRSS is enabled.The default is static scheduling.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -455,9 +460,9 @@ Qualifiers: **WmiDataId** (16), **InterfaceVersion** (4), **InterfaceRevision** 
 The vmbus channel affinity policy to use when VRSS is enabled.The default is strong.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> </dl>
 
@@ -467,17 +472,17 @@ The vmbus channel affinity policy to use when VRSS is enabled.The default is str
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

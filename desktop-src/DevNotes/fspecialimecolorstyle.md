@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the specified color is a special color.'
-ms.assetid: 'fda856c4-37b9-444f-9c54-d9eb848a4b05'
+---
+Description: Specifies whether the specified color is a special color.
+ms.assetid: fda856c4-37b9-444f-9c54-d9eb848a4b05
 title: FSpecialIMEColorStyle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FSpecialIMEColorStyle function

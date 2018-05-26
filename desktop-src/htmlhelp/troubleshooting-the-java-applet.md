@@ -1,7 +1,12 @@
 ---
 title: Troubleshooting the Java Applet
 description: Troubleshooting the Java Applet
-ms.assetid: '63095C5B-1567-4392-BD0F-4EDAD65B6C11'
+ms.assetid: 63095C5B-1567-4392-BD0F-4EDAD65B6C11
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting the Java Applet

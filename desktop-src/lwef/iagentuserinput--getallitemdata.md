@@ -1,7 +1,12 @@
 ---
 title: IAgentUserInput GetAllItemData
 description: IAgentUserInput GetAllItemData
-ms.assetid: 'd1857b28-c745-4ed2-b49e-774f247e7348'
+ms.assetid: d1857b28-c745-4ed2-b49e-774f247e7348
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentUserInput::GetAllItemData

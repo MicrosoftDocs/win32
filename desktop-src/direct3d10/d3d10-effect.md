@@ -1,7 +1,12 @@
 ---
-Description: 'These constants used when creating an effect to define either compilation behavior or runtime effect behavior.'
-ms.assetid: 'cff99200-8bdc-416c-b1a5-3ae515a17a17'
-title: 'D3D10\_EFFECT Constants'
+Description: These constants used when creating an effect to define either compilation behavior or runtime effect behavior.
+ms.assetid: cff99200-8bdc-416c-b1a5-3ae515a17a17
+title: D3D10\_EFFECT Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3D10\_EFFECT Constants

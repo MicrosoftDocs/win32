@@ -1,8 +1,11 @@
 ---
 title: Iteration SetTrace method
 description: Sets values for the Trace object of the Iteration.
-ms.assetid: 'FC7A9EA5-B698-479C-A037-30A62A6070ED'
-keywords: ["SetTrace method Access Execution Engine", "SetTrace method Access Execution Engine , Iteration interface", "Iteration interface Access Execution Engine , SetTrace method"]
+ms.assetid: FC7A9EA5-B698-479C-A037-30A62A6070ED
+keywords:
+- SetTrace method Access Execution Engine
+- SetTrace method Access Execution Engine , Iteration interface
+- Iteration interface Access Execution Engine , SetTrace method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::SetTrace method
@@ -22,11 +30,11 @@ Sets values for the [**Trace**](trace-struct.md) object of the **Iteration**.
 
 ```C++
 virtual HRESULT SetTrace(
-  [in]            LPCWSTR traceFile,
-  [in, optional]  LPCWSTR traceLink,
-  [in, optional]  LPCWSTR traceName,
-  [in, optional]  LPCWSTR traceTooltip,
-  [out, optional] Trace   **trace
+  [in]            LPCWSTR traceFile,
+  [in, optional]  LPCWSTR traceLink,
+  [in, optional]  LPCWSTR traceName,
+  [in, optional]  LPCWSTR traceTooltip,
+  [out, optional] Trace   **trace
 ) = 0;
 ```
 
@@ -93,8 +101,8 @@ The trace tooltip is the value of element **Iteration/Trace/Description/ToolTip*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -107,9 +115,9 @@ The trace tooltip is the value of element **Iteration/Trace/Description/ToolTip*
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

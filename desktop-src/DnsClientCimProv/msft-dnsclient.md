@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a DNS client.'
-ms.assetid: 'aa81aa4e-1114-4433-bd8e-0973cfaf23ca'
-title: 'MSFT\_DNSClient class'
+Description: Represents a DNS client.
+ms.assetid: aa81aa4e-1114-4433-bd8e-0973cfaf23ca
+title: MSFT\_DNSClient class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_DNSClient class
@@ -15,41 +20,41 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_DNSClient : CIM_DNSProtocolEndpoint
 {
-  string   InstanceId;
-  string   Caption;
-  string   ElementName;
+  string   InstanceId;
+  string   Caption;
+  string   ElementName;
   datetime InstallDate;
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus[];
-  uint16   PrimaryStatus;
-  string   OtherEnabledState;
-  uint16   RequestedState;
-  uint16   EnabledDefault;
-  uint16   TransitioningToState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   Description;
-  string   Name;
-  uint16   OperationalStatus[];
-  uint16   EnabledState[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus[];
+  uint16   PrimaryStatus;
+  string   OtherEnabledState;
+  uint16   RequestedState;
+  uint16   EnabledDefault;
+  uint16   TransitioningToState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   Description;
+  string   Name;
+  uint16   OperationalStatus[];
+  uint16   EnabledState[];
   datetime TimeOfLastStateChange;
-  string   NameFormat;
-  uint16   ProtocolType[];
-  uint16   ProtocolIFType;
-  string   OtherTypeDescription;
-  string   Hostname;
-  uint16   DHCPOptionsToUse[];
-  uint32   InterfaceIndex;
-  string   InterfaceAlias;
-  string   ConnectionSpecificSuffix;
-  string   ConnectionSpecificSuffixSearchList[];
-  boolean  RegisterThisConnectionsAddress;
-  boolean  UseSuffixWhenRegistering;
+  string   NameFormat;
+  uint16   ProtocolType[];
+  uint16   ProtocolIFType;
+  string   OtherTypeDescription;
+  string   Hostname;
+  uint16   DHCPOptionsToUse[];
+  uint32   InterfaceIndex;
+  string   InterfaceAlias;
+  string   ConnectionSpecificSuffix;
+  string   ConnectionSpecificSuffixSearchList[];
+  boolean  RegisterThisConnectionsAddress;
+  boolean  UseSuffixWhenRegistering;
 };
 ```
 
@@ -73,7 +78,7 @@ The **MSFT\_DNSClient** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -123,12 +128,12 @@ This property contains one of the following values:
 | <dl> <dt>2</dt> </dl>            | Communication OK<br/>   |
 | <dl> <dt>3</dt> </dl>            | Lost Communication<br/> |
 | <dl> <dt>4</dt> </dl>            | No Contact<br/>         |
-| <dl> <dt>5–32767</dt> </dl>      | DMTF Reserved<br/>      |
-| <dl> <dt>32768–65535 </dt> </dl> | Vendor Reserved<br/>    |
+| <dl> <dt>5 32767</dt> </dl>      | DMTF Reserved<br/>      |
+| <dl> <dt>32768 65535 </dt> </dl> | Vendor Reserved<br/>    |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -219,12 +224,12 @@ This property contains one of the following values:
 | <dl> <dt>3</dt> </dl>            | Predictive Failure<br/>         |
 | <dl> <dt>4</dt> </dl>            | Non-Recoverable Error<br/>      |
 | <dl> <dt>5</dt> </dl>            | Supporting Entity in Error<br/> |
-| <dl> <dt>5–32767</dt> </dl>      | DMTF Reserved<br/>              |
-| <dl> <dt>32768–65535 </dt> </dl> | Vendor Reserved<br/>            |
+| <dl> <dt>5 32767</dt> </dl>      | DMTF Reserved<br/>              |
+| <dl> <dt>32768 65535 </dt> </dl> | Vendor Reserved<br/>            |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -253,12 +258,12 @@ This property can contain the following values:
 | <dl> <dt>8</dt> </dl>           | Domain Name Server<br/> |
 | <dl> <dt>14</dt> </dl>          | Host Name<br/>          |
 | <dl> <dt>17</dt> </dl>          | Domain Name<br/>        |
-| <dl> <dt>18–32767</dt> </dl>    | DMTF Reserverd<br/>     |
-| <dl> <dt>32768–65535</dt> </dl> | Vendor Reserved<br/>    |
+| <dl> <dt>18 32767</dt> </dl>    | DMTF Reserverd<br/>     |
+| <dl> <dt>32768 65535</dt> </dl> | Vendor Reserved<br/>    |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -302,12 +307,12 @@ This property contains one of the following values:
 | <dl> <dt>6</dt> </dl>           | Enabled but Offline<br/> |
 | <dl> <dt>7</dt> </dl>           | No Default<br/>          |
 | <dl> <dt>8</dt> </dl>           | Quiesce<br/>             |
-| <dl> <dt>9–32767</dt> </dl>     | DMTF Reserved<br/>       |
-| <dl> <dt>32768–65535</dt> </dl> | Vendor Reserved<br/>     |
+| <dl> <dt>9 32767</dt> </dl>     | DMTF Reserved<br/>       |
+| <dl> <dt>32768 65535</dt> </dl> | Vendor Reserved<br/>     |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -344,12 +349,12 @@ This property can contain one of the following values:
 | <dl> <dt>8</dt> </dl>           | Deferred<br/>            |
 | <dl> <dt>9</dt> </dl>           | Quiesce<br/>             |
 | <dl> <dt>10</dt> </dl>          | Starting<br/>            |
-| <dl> <dt>11–32767</dt> </dl>    | DMTF Reserved<br/>       |
-| <dl> <dt>32768–65535</dt> </dl> | Vendor Reserved<br/>     |
+| <dl> <dt>11 32767</dt> </dl>    | DMTF Reserved<br/>       |
+| <dl> <dt>32768 65535</dt> </dl> | Vendor Reserved<br/>     |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -382,12 +387,12 @@ This property contains one of the following values:
 | <dl> <dt>20</dt> </dl>           | Major failure<br/>         |
 | <dl> <dt>25</dt> </dl>           | Critical failure<br/>      |
 | <dl> <dt>30</dt> </dl>           | Non-recoverable error<br/> |
-| <dl> <dt>31–32767</dt> </dl>     | DMTF Reserved<br/>         |
-| <dl> <dt>32768–65535 </dt> </dl> | Vendor Specific<br/>       |
+| <dl> <dt>31 32767</dt> </dl>     | DMTF Reserved<br/>         |
+| <dl> <dt>32768 65535 </dt> </dl> | Vendor Specific<br/>       |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -540,12 +545,12 @@ This property can contain the following values:
 | <dl> <dt>14</dt> </dl>        | In Test<br/>         |
 | <dl> <dt>15</dt> </dl>        | Transitioning<br/>   |
 | <dl> <dt>16</dt> </dl>        | In Service<br/>      |
-| <dl> <dt>17–32767</dt> </dl>  | DMTF Reserved<br/>   |
-| <dl> <dt>32768–...</dt> </dl> | Vendor Reserved<br/> |
+| <dl> <dt>17 32767</dt> </dl>  | DMTF Reserved<br/>   |
+| <dl> <dt>32768 ...</dt> </dl> | Vendor Reserved<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -590,12 +595,12 @@ This property can contain one of the following values:
 | <dl> <dt>16</dt> </dl>        | Supporting Entity Error<br/> |
 | <dl> <dt>17</dt> </dl>        | Completed<br/>               |
 | <dl> <dt>18</dt> </dl>        | Power Mode<br/>              |
-| <dl> <dt>19–32767</dt> </dl>  | DMTF Reserved<br/>           |
-| <dl> <dt>32768–...</dt> </dl> | Vendor Reserved<br/>         |
+| <dl> <dt>19 32767</dt> </dl>  | DMTF Reserved<br/>           |
+| <dl> <dt>32768 ...</dt> </dl> | Vendor Reserved<br/>         |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -661,12 +666,12 @@ This property contains one of the following values:
 | <dl> <dt>1</dt> </dl>            | OK<br/>              |
 | <dl> <dt>2</dt> </dl>            | Degraded<br/>        |
 | <dl> <dt>3</dt> </dl>            | Error<br/>           |
-| <dl> <dt>4–32767</dt> </dl>      | DMTF Reserved<br/>   |
-| <dl> <dt>32768–65535 </dt> </dl> | Vendor Reserved<br/> |
+| <dl> <dt>4 32767</dt> </dl>      | DMTF Reserved<br/>   |
+| <dl> <dt>32768 65535 </dt> </dl> | Vendor Reserved<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -917,7 +922,7 @@ This property can contain the following values:
 | <dl> <dt>222</dt> </dl>        | ciscoISLvlan<br/>                                             |
 | <dl> <dt>223</dt> </dl>        | actelisMetaLOOP<br/>                                          |
 | <dl> <dt>224</dt> </dl>        | Fcip<br/>                                                     |
-| <dl> <dt>225–4095</dt> </dl>   | IANA Reserved<br/>                                            |
+| <dl> <dt>225 4095</dt> </dl>   | IANA Reserved<br/>                                            |
 | <dl> <dt>4096</dt> </dl>       | IPv4<br/>                                                     |
 | <dl> <dt>4097</dt> </dl>       | IPv6<br/>                                                     |
 | <dl> <dt>4098</dt> </dl>       | IPv4/v6<br/>                                                  |
@@ -952,12 +957,12 @@ This property can contain the following values:
 | <dl> <dt>4404</dt> </dl>       | LDAP<br/>                                                     |
 | <dl> <dt>4405</dt> </dl>       | RDP<br/>                                                      |
 | <dl> <dt>4406</dt> </dl>       | HTTPS<br/>                                                    |
-| <dl> <dt>4407–32767</dt> </dl> | DMTF Reserved<br/>                                            |
-| <dl> <dt>32768–...</dt> </dl>  | Vendor Reserved<br/>                                          |
+| <dl> <dt>4407 32767</dt> </dl> | DMTF Reserved<br/>                                            |
+| <dl> <dt>32768 ...</dt> </dl>  | Vendor Reserved<br/>                                          |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -976,7 +981,7 @@ Qualifiers: **ModelCorrespondence** (CIM\_ProtocolEndpoint.OtherTypeDescription)
 > [!Note]  
 > This property is deprecated. Instead, we recommend that you use the **CIM\_ProtocolEndpoint.ProtocolIFType** property.
 
- 
+ 
 
 Gets the network protocols that are supported by the DNS client.
 
@@ -1019,7 +1024,7 @@ This property can contain the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1069,12 +1074,12 @@ This property contains one of the following values:
 | <dl> <dt>10</dt> </dl>          | Reboot<br/>          |
 | <dl> <dt>11</dt> </dl>          | Reset<br/>           |
 | <dl> <dt>12</dt> </dl>          | Not Applicable<br/>  |
-| <dl> <dt>13–32767</dt> </dl>    | DMTF Reserved<br/>   |
-| <dl> <dt>32768–65535</dt> </dl> | Vendor Reserved<br/> |
+| <dl> <dt>13 32767</dt> </dl>    | DMTF Reserved<br/>   |
+| <dl> <dt>32768 65535</dt> </dl> | Vendor Reserved<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1093,7 +1098,7 @@ Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (10), [**D
 > [!Note]  
 > This property is deprecated. Instead, use **OperationalStatus**.
 
- 
+ 
 
 Gets the status of the DNS client.
 
@@ -1121,7 +1126,7 @@ This property contains one of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1227,11 +1232,11 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.mi
 | <dl> <dt>10</dt> </dl>     | Reboot<br/>         |
 | <dl> <dt>11</dt> </dl>     | Reset<br/>          |
 | <dl> <dt>12</dt> </dl>     | Not Applicable<br/> |
-| <dl> <dt>13–...</dt> </dl> | DMTF Reserved<br/>  |
+| <dl> <dt>13 ...</dt> </dl> | DMTF Reserved<br/>  |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1254,8 +1259,8 @@ Indicates whether to use the DNS suffix for the connection during DNS registrati
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported client<br/> | Windows 8<br/>                                                                        |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DnsClientCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsClientCim.dll</dt> </dl> |
@@ -1269,9 +1274,9 @@ Indicates whether to use the DNS suffix for the connection during DNS registrati
 [Dnsclientcim Provider Class](dns-client-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

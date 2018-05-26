@@ -1,8 +1,10 @@
 ---
 title: FilterInfos object
 description: Contains a collection of all the available FilterInfo objects. See the FilterInfos (ImageProcess) property on the ImageProcess object for detail on accessing the FilterInfos object.
-ms.assetid: '4cef3c1d-f6e9-458c-b540-9233b6a46f7b'
-keywords: ["FilterInfos object WIA Automation", "FilterInfos object WIA Automation , described"]
+ms.assetid: 4cef3c1d-f6e9-458c-b540-9233b6a46f7b
+keywords:
+- FilterInfos object WIA Automation
+- FilterInfos object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterInfos object
@@ -36,7 +43,7 @@ The **FilterInfos** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,7 +61,7 @@ Use any of the following to retrieve a reference to the object:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,8 +69,8 @@ Use any of the following to retrieve a reference to the object:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -76,9 +83,9 @@ Use any of the following to retrieve a reference to the object:
 [**FilterInfos (ImageProcess)**](-wiaaut-iimageprocess-filterinfos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

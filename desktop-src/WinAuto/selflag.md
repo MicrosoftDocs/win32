@@ -1,7 +1,7 @@
 ---
 title: SELFLAG Constants
 description: This topic describes the constant values used to specify how an accessible object becomes selected or takes the focus.
-ms.assetid: '52755540-dcf4-4e0b-bb5c-88b05f134d79'
+ms.assetid: 52755540-dcf4-4e0b-bb5c-88b05f134d79
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,16 @@ api_location:
 - oleacc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SELFLAG Constants
 
-This topic describes the constant values used to specify how an accessible object becomes selected or takes the focus. The constants are defined in oleacc.h and are used with the [**IAccessible::accSelect**](iaccessible-iaccessible--accselect.md) method.
+This topic describes the constant values used to specify how an accessible object becomes selected or takes the focus. The constants are defined in oleacc.h and are used with the [**IAccessible::accSelect**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accselect?branch=master) method.
 
 The following combinations are not allowed:
 
@@ -61,7 +66,7 @@ For information on how to perform complex selection operations, see [Selecting C
 <li>SELFLAG_ADDSELECTION | SELFLAG_EXTENDSELECTION</li>
 <li>SELFLAG_REMOVESELECTION | SELFLAG_EXTENDSELECTION</li>
 </ul>
-If you call [<strong>IAccessible::accSelect</strong>](iaccessible-iaccessible--accselect.md) with the SELFLAG_TAKEFOCUS flag on an object that has an <strong>HWND</strong>, the flag will take effect only if the object's parent already has the focus.<br/></td>
+If you call [<strong>IAccessible::accSelect</strong>](/windows/win32/Oleacc/nf-oleacc-iaccessible-accselect?branch=master) with the SELFLAG_TAKEFOCUS flag on an object that has an <strong>HWND</strong>, the flag will take effect only if the object's parent already has the focus.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SELFLAG_TAKESELECTION"></span><span id="selflag_takeselection"></span><dl> <dt><strong>SELFLAG_TAKESELECTION</strong></dt> <dt>0x2</dt> </dl></td>
@@ -103,15 +108,15 @@ If you call [<strong>IAccessible::accSelect</strong>](iaccessible-iaccessible--a
 
 <dl> <dt>
 
-[**IAccessible::accSelect**](iaccessible-iaccessible--accselect.md)
+[**IAccessible::accSelect**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accselect?branch=master)
 </dt> <dt>
 
 [Selecting Child Objects](selecting-child-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

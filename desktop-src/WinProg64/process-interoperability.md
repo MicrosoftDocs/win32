@@ -1,8 +1,15 @@
 ---
 title: Process Interoperability
 description: You can run Win32-based applications on 64-bit Windows using an emulation layer. Windows 10 on ARM includes an x86-on-ARM64 emulation layer. For more information, see Running 32-bit Applications.
-ms.assetid: 'a573f26c-7577-4ff0-b314-ae0a33274738'
-keywords: ["process interoperability 64-bit Windows Programming", "interoperability 64-bit Windows Programming"]
+ms.assetid: a573f26c-7577-4ff0-b314-ae0a33274738
+keywords:
+- process interoperability 64-bit Windows Programming
+- interoperability 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process Interoperability

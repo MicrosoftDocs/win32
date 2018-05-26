@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads the Apphelp resource file.'
-ms.assetid: 'fca50e00-9324-410a-a572-69441f332593'
+---
+Description: Loads the Apphelp resource file.
+ms.assetid: fca50e00-9324-410a-a572-69441f332593
 title: SdbOpenApphelpResourceFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbOpenApphelpResourceFile function

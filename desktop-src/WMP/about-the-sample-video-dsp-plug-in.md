@@ -1,8 +1,23 @@
 ---
 title: About the Sample Video DSP Plug-in
 description: About the Sample Video DSP Plug-in
-ms.assetid: 'f2ba8e9d-a0e4-4679-99dc-2bfe9e451ffd'
-keywords: ["Windows Media Player plug-ins,samples", "plug-ins,samples", "digital signal processing plug-ins,samples", "DSP plug-ins,samples", "Windows Media Player plug-ins,video DSP", "plug-ins,video DSP", "digital signal processing plug-ins,video samples", "DSP plug-ins,video samples", "samples,DSP plug-ins", "video DSP plug-ins,samples"]
+ms.assetid: f2ba8e9d-a0e4-4679-99dc-2bfe9e451ffd
+keywords:
+- Windows Media Player plug-ins,samples
+- plug-ins,samples
+- digital signal processing plug-ins,samples
+- DSP plug-ins,samples
+- Windows Media Player plug-ins,video DSP
+- plug-ins,video DSP
+- digital signal processing plug-ins,video samples
+- DSP plug-ins,video samples
+- samples,DSP plug-ins
+- video DSP plug-ins,samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Sample Video DSP Plug-in

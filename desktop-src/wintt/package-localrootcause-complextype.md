@@ -1,14 +1,20 @@
 ---
 title: LocalRootcause Complex Type
 description: Specifies the troubleshooter, resolver, and verifier that act on a single root cause.
-ms.assetid: '9a318f8c-7f09-4114-ba70-ffbd51f99fc9'
-keywords: ["LocalRootcause complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 9a318f8c-7f09-4114-ba70-ffbd51f99fc9
+keywords:
+- LocalRootcause complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - LocalRootcause
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LocalRootcause Complex Type
@@ -92,8 +98,8 @@ You must specify the troubleshooter and resolver scripts; however, the verifier 
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -107,9 +113,9 @@ You must specify the troubleshooter and resolver scripts; however, the verifier 
 [**Rootcause (LocalRootcauses) Element**](package-rootcause-localrootcauses-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a certificate trust chain.'
-ms.assetid: 'fea72a3e-5a22-47c7-8f6e-0d76fc3339f8'
+---
+Description: Represents a certificate trust chain.
+ms.assetid: fea72a3e-5a22-47c7-8f6e-0d76fc3339f8
 title: Chain object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Chain object

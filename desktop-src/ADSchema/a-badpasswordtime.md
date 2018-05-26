@@ -4,17 +4,22 @@ description: The last time and date that an attempt to log on to this account wa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8e8c5b73-b42d-4a62-89af-c0ff2fe106d8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8e8c5b73-b42d-4a62-89af-c0ff2fe106d8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Bad-Password-Time attribute AD Schema", "badPasswordTime attribute AD Schema"]
+keywords:
+- Bad-Password-Time attribute AD Schema
+- badPasswordTime attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Bad-Password-Time
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Bad-Password-Time attribute
@@ -38,13 +43,13 @@ The last time and date that an attempt to log on to this account was made with a
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -199,9 +204,9 @@ The high part of this large integer corresponds to the **dwHighDateTime** member
 
 This attribute is not replicated and is maintained separately on each domain controller in the domain. To get an accurate value for the user's last bad password time in the domain, each domain controller in the domain must be queried. The largest value that is obtained represents the true bad password time.
 
- 
+ 
 
- 
+ 
 
 
 

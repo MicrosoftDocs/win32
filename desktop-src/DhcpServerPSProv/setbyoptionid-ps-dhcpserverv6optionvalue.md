@@ -4,13 +4,16 @@ description: Sets an IPv6 option value at the Server, Scope or Reservation Level
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd897d62a-7036-4839-8948-87ecc3c0f15e'
-ms.prod: 'windows-server-dev'
+ms.assetid: d897d62a-7036-4839-8948-87ecc3c0f15e
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByOptionId method", "SetByOptionId method, PS_DhcpServerv6OptionValue class", "PS_DhcpServerv6OptionValue class, SetByOptionId method"]
+keywords:
+- SetByOptionId method
+- SetByOptionId method, PS_DhcpServerv6OptionValue class
+- PS_DhcpServerv6OptionValue class, SetByOptionId method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByOptionId method of the PS\_DhcpServerv6OptionValue class
@@ -30,16 +36,16 @@ Sets an IPv6 option value at the Server, Scope or Reservation Level. Any previou
 
 ```mof
 uint32 SetByOptionId(
-  [in]  boolean                 PassThru,
-  [in]  boolean                 Force,
-  [in]  string                  Value[],
-  [in]  uint32                  OptionId,
-  [in]  string                  Prefix,
-  [in]  string                  UserClass,
-  [in]  string                  VendorClass,
-  [in]  string                  ComputerName,
-  [in]  string                  ReservedIP,
-  [out] DhcpServerv6OptionValue cmdletOutput
+  [in]  boolean                 PassThru,
+  [in]  boolean                 Force,
+  [in]  string                  Value[],
+  [in]  uint32                  OptionId,
+  [in]  string                  Prefix,
+  [in]  string                  UserClass,
+  [in]  string                  VendorClass,
+  [in]  string                  ComputerName,
+  [in]  string                  ReservedIP,
+  [out] DhcpServerv6OptionValue cmdletOutput
 );
 ```
 
@@ -126,7 +132,7 @@ An embedded instance of the [**DhcpServerv6OptionValue**](dhcpserverv6optionvalu
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -140,9 +146,9 @@ An embedded instance of the [**DhcpServerv6OptionValue**](dhcpserverv6optionvalu
 [**PS\_DhcpServerv6OptionValue**](ps-dhcpserverv6optionvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

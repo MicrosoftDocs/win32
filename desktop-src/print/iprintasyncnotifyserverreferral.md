@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '46B3C57E-EE02-4821-9D5F-A2005CFC2998'
+---
+Description: .
+ms.assetid: 46B3C57E-EE02-4821-9D5F-A2005CFC2998
 title: IPrintAsyncNotifyServerReferral interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintAsyncNotifyServerReferral interface

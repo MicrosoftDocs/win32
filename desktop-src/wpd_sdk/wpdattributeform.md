@@ -1,7 +1,12 @@
 ---
-Description: 'The WpdAttributeForm enumeration type describes how a property stores its values.'
-ms.assetid: '3ad8d1f9-1b74-4f34-9af5-1acdd588b650'
+Description: The WpdAttributeForm enumeration type describes how a property stores its values.
+ms.assetid: 3ad8d1f9-1b74-4f34-9af5-1acdd588b650
 title: WpdAttributeForm enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WpdAttributeForm enumeration
@@ -13,11 +18,11 @@ The **WpdAttributeForm** enumeration type describes how a property stores its va
 
 ```C++
 typedef enum WpdAttributeForm { 
-  WPD_PROPERTY_ATTRIBUTE_FORM_UNSPECIFIED         = 0,
-  WPD_PROPERTY_ATTRIBUTE_FORM_RANGE               = 1,
-  WPD_PROPERTY_ATTRIBUTE_FORM_ENUMERATION         = 2,
-  WPD_PROPERTY_ATTRIBUTE_FORM_REGULAR_EXPRESSION  = 3,
-  WPD_PROPERTY_ATTRIBUTE_FORM_OJBECT_IDENTIFIER   = 4
+  WPD_PROPERTY_ATTRIBUTE_FORM_UNSPECIFIED         = 0,
+  WPD_PROPERTY_ATTRIBUTE_FORM_RANGE               = 1,
+  WPD_PROPERTY_ATTRIBUTE_FORM_ENUMERATION         = 2,
+  WPD_PROPERTY_ATTRIBUTE_FORM_REGULAR_EXPRESSION  = 3,
+  WPD_PROPERTY_ATTRIBUTE_FORM_OJBECT_IDENTIFIER   = 4
 } ;
 ```
 
@@ -83,9 +88,9 @@ This enumeration is used by the [WPD\_PROPERTY\_ATTRIBUTE\_FORM](attributes.md#w
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

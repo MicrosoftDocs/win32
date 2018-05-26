@@ -1,8 +1,20 @@
 ---
 title: Custom Services
 description: Custom Services
-ms.assetid: '98b68205-3a34-4406-84de-bf2c8a5ed5b0'
-keywords: ["multimedia file I/O,custom services", "file I/O,custom services", "input and output (I/O),custom services", "I/O (input and output),custom services", "custom I/O", "mmioInstallIOProc function", "mmioOpen function"]
+ms.assetid: 98b68205-3a34-4406-84de-bf2c8a5ed5b0
+keywords:
+- multimedia file I/O,custom services
+- file I/O,custom services
+- input and output (I/O),custom services
+- I/O (input and output),custom services
+- custom I/O
+- mmioInstallIOProc function
+- mmioOpen function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Services

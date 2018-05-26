@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the host name of the proxy server.'
-ms.assetid: 'e53c86e9-c326-41c9-aa86-c80a750b9ce3'
-title: 'MFNETSOURCE\_PROXYHOSTNAME property'
+---
+Description: Specifies the host name of the proxy server.
+ms.assetid: e53c86e9-c326-41c9-aa86-c80a750b9ce3
+title: MFNETSOURCE\_PROXYHOSTNAME property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_PROXYHOSTNAME property
@@ -28,7 +33,7 @@ VT\_LPWSTR
 
 The constant **MFNETSOURCE\_PROXYHOSTNAME** defines the GUID for this property key. The property identifier (PID) is zero.
 
-Applications can use this property to configure the default proxy locator when creating the proxy locator object. To set the property, pass an **IPropertyStore** pointer in the *pProxyConfig* parameter of the [**MFCreateProxyLocator**](mfcreateproxylocator.md) function. This property must be set by the application when the proxy locator is configured to operate in the manual mode.
+Applications can use this property to configure the default proxy locator when creating the proxy locator object. To set the property, pass an **IPropertyStore** pointer in the *pProxyConfig* parameter of the [**MFCreateProxyLocator**](/windows/win32/mfidl/nf-mfidl-mfcreateproxylocator?branch=master) function. This property must be set by the application when the proxy locator is configured to operate in the manual mode.
 
 ## Requirements
 

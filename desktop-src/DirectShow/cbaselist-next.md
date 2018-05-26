@@ -1,7 +1,12 @@
 ---
-Description: 'The Next method retrieves the next position in the list.'
-ms.assetid: 'ba9753b0-c82e-4772-84a7-e9982de3b8ad'
-title: 'CBaseList.Next method'
+Description: The Next method retrieves the next position in the list.
+ms.assetid: ba9753b0-c82e-4772-84a7-e9982de3b8ad
+title: CBaseList.Next method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.Next method
@@ -13,7 +18,7 @@ The `Next` method retrieves the next position in the list.
 
 ```C++
 POSITION Next(
-   POSITION pos
+   POSITION pos
 );
 ```
 
@@ -56,9 +61,9 @@ If *pos* is the last position in the list, the method returns **NULL**. If *pos*
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

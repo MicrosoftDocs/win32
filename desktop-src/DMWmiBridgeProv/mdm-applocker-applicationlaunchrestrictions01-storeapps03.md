@@ -1,8 +1,10 @@
 ---
 title: MDM\_AppLocker\_ApplicationLaunchRestrictions01\_StoreApps03 class
 description: The MDM\_AppLocker\_ApplicationLaunchRestrictions01\_StoreApps03 class allows you to specify which EXE applications are allowed or disallowed for Enterprise Data Protection.
-ms.assetid: 'de5ceaea-589a-4ed7-8dd6-eb9477d68e0e'
-keywords: ["MDM_AppLocker_ApplicationLaunchRestrictions01_StoreApps03 class", "MDM_AppLocker_ApplicationLaunchRestrictions01_StoreApps03 class, described"]
+ms.assetid: de5ceaea-589a-4ed7-8dd6-eb9477d68e0e
+keywords:
+- MDM_AppLocker_ApplicationLaunchRestrictions01_StoreApps03 class
+- MDM_AppLocker_ApplicationLaunchRestrictions01_StoreApps03 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_AppLocker\_ApplicationLaunchRestrictions01\_StoreApps03 class
@@ -108,7 +115,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -123,9 +130,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

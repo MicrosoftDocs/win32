@@ -4,13 +4,16 @@ description: Sets the properties of an existing IPv4 Scope on the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2cb3f50c-f883-4753-89bc-7cc64d220fca'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2cb3f50c-f883-4753-89bc-7cc64d220fca
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByWithRange method", "SetByWithRange method, PS_DhcpServerv4Scope class", "PS_DhcpServerv4Scope class, SetByWithRange method"]
+keywords:
+- SetByWithRange method
+- SetByWithRange method, PS_DhcpServerv4Scope class
+- PS_DhcpServerv4Scope class, SetByWithRange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByWithRange method of the PS\_DhcpServerv4Scope class
@@ -30,23 +36,23 @@ Sets the properties of an existing IPv4 Scope on the server.
 
 ```mof
 uint32 SetByWithRange(
-  [in]  boolean           ActivatePolicies,
-  [in]  boolean           PassThru,
-  [in]  string            ScopeId,
-  [in]  string            Name,
-  [in]  string            State,
-  [in]  datetime          LeaseDuration,
-  [in]  uint16            Delay,
-  [in]  boolean           NapEnable,
-  [in]  string            SuperscopeName,
-  [in]  uint32            MaxBootpClients,
-  [in]  string            NapProfile,
-  [in]  string            StartRange,
-  [in]  string            EndRange,
-  [in]  string            Description,
-  [in]  string            Type,
-  [in]  string            ComputerName,
-  [out] DhcpServerv4Scope cmdletOutput
+  [in]  boolean           ActivatePolicies,
+  [in]  boolean           PassThru,
+  [in]  string            ScopeId,
+  [in]  string            Name,
+  [in]  string            State,
+  [in]  datetime          LeaseDuration,
+  [in]  uint16            Delay,
+  [in]  boolean           NapEnable,
+  [in]  string            SuperscopeName,
+  [in]  uint32            MaxBootpClients,
+  [in]  string            NapProfile,
+  [in]  string            StartRange,
+  [in]  string            EndRange,
+  [in]  string            Description,
+  [in]  string            Type,
+  [in]  string            ComputerName,
+  [out] DhcpServerv4Scope cmdletOutput
 );
 ```
 
@@ -217,7 +223,7 @@ An embedded instance of the [**DhcpServerv4Scope**](dhcpserverv4scope.md) class.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -231,9 +237,9 @@ An embedded instance of the [**DhcpServerv4Scope**](dhcpserverv4scope.md) class.
 [**PS\_DhcpServerv4Scope**](ps-dhcpserverv4scope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

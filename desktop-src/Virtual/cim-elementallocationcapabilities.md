@@ -1,8 +1,15 @@
 ---
 title: CIM\_ElementAllocationCapabilities class
 description: TBD
-ms.assetid: '2d03781b-aca2-4681-bc44-636209c4e3f2'
-keywords: ["CIM_ElementAllocationCapabilities class Hyper-V", "CIM_ElementAllocationCapabilities class Hyper-V , described"]
+ms.assetid: 2d03781b-aca2-4681-bc44-636209c4e3f2
+keywords:
+- CIM_ElementAllocationCapabilities class Hyper-V
+- CIM_ElementAllocationCapabilities class Hyper-V , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ElementAllocationCapabilities class
@@ -18,7 +25,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class CIM_ElementAllocationCapabilities : CIM_ElementCapabilities
 {
   CIM_AllocationCapabilities REF Capabilities;
-  CIM_ManagedElement         REF ManagedElement;
+  CIM_ManagedElement         REF ManagedElement;
 };
 ```
 
@@ -73,9 +80,9 @@ TBD
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -88,9 +95,9 @@ TBD
 [**CIM\_ElementCapabilities**](cim-elementcapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

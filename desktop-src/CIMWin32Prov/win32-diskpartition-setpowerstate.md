@@ -1,15 +1,18 @@
 ---
-Description: 'Sets the desired power state for a logical device and when a device should be put into that state.'
+Description: Sets the desired power state for a logical device and when a device should be put into that state.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7b36a987-d4c9-4cdc-8703-cf3f713e0c4a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7b36a987-d4c9-4cdc-8703-cf3f713e0c4a
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetPowerState method of the Win32\_DiskPartition class'
+title: SetPowerState method of the Win32\_DiskPartition class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPowerState method of the Win32\_DiskPartition class
@@ -19,15 +22,15 @@ Sets the desired power state for a logical device and when a device should be pu
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -54,21 +57,21 @@ Full power.
 2
 </dt> <dd>
 
-Power save — low-power mode.
+Power save   low-power mode.
 
 </dd> <dt>
 
 3
 </dt> <dd>
 
-Power save — standby.
+Power save   standby.
 
 </dd> <dt>
 
 4
 </dt> <dd>
 
-Power save — other.
+Power save   other.
 
 </dd> <dt>
 
@@ -109,8 +112,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -127,9 +130,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**Win32\_DiskPartition**](win32-diskpartition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

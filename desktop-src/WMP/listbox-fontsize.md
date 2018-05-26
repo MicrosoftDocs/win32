@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.fontSize
 description: The fontSize attribute specifies or retrieves the font size for the list box control.
-ms.assetid: 'e7756249-5295-4564-8ba6-dd28d5104024'
-keywords: ["LISTBOX.fontSize Windows Media Player"]
+ms.assetid: e7756249-5295-4564-8ba6-dd28d5104024
+keywords:
+- LISTBOX.fontSize Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.fontSize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.fontSize
@@ -43,9 +49,9 @@ This attribute is a read/write **Number** (**long**) specifying the font size in
 [**LISTBOX.fontStyle**](listbox-fontstyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

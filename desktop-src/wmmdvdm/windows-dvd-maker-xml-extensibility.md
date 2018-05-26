@@ -1,8 +1,20 @@
 ---
 title: Windows DVD Maker XML Extensibility
 description: Windows DVD Maker XML Extensibility
-ms.assetid: '2fe3ef18-b009-4f89-a01a-db7ae9aec8cd'
-keywords: ["Windows DVD Maker,XML extensibility", "DVD Maker,XML extensibility", "programming reference,Windows DVD Maker XML extensibility", "reference for Windows DVD Maker,XML extensibility", "Windows DVD Maker,case-sensitive XML file parsing", "DVD Maker,case-sensitive XML file parsing", "XML,Windows DVD Maker extensibility"]
+ms.assetid: 2fe3ef18-b009-4f89-a01a-db7ae9aec8cd
+keywords:
+- Windows DVD Maker,XML extensibility
+- DVD Maker,XML extensibility
+- programming reference,Windows DVD Maker XML extensibility
+- reference for Windows DVD Maker,XML extensibility
+- Windows DVD Maker,case-sensitive XML file parsing
+- DVD Maker,case-sensitive XML file parsing
+- XML,Windows DVD Maker extensibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows DVD Maker XML Extensibility

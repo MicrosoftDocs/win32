@@ -1,15 +1,18 @@
-﻿---
-Description: 'Represents a PnP device property consisting of an array of real32 elements.'
+---
+Description: Represents a PnP device property consisting of an array of real32 elements.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'A76B2555-A467-4405-B9FA-A4596860AC5C'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: A76B2555-A467-4405-B9FA-A4596860AC5C
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_PnPDevicePropertyReal32Array class'
+title: Win32\_PnPDevicePropertyReal32Array class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PnPDevicePropertyReal32Array class

@@ -1,14 +1,15 @@
 ---
 title: MMCN\_DBLCLICK message
-description: The MMCN\_DBLCLICK notification message is sent to the snap-in's IComponent implementation when a user double-clicks a mouse button on a list view item or on a scope item in the result pane.
+description: The MMCN\_DBLCLICK notification message is sent to the snap-ins IComponent implementation when a user double-clicks a mouse button on a list view item or on a scope item in the result pane.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0c85cd06-4799-4bb6-aa1d-3386edbf1a37'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 0c85cd06-4799-4bb6-aa1d-3386edbf1a37
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_DBLCLICK message MMC"]
+keywords:
+- MMCN_DBLCLICK message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_DBLCLICK message
 
-The **MMCN\_DBLCLICK** notification message is sent to the snap-in's [**IComponent**](icomponent.md) implementation when a user double-clicks a mouse button on a list view item or on a scope item in the result pane.
+The **MMCN\_DBLCLICK** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation when a user double-clicks a mouse button on a list view item or on a scope item in the result pane.
 
 ## Parameters
 
@@ -76,8 +80,8 @@ Pressing enter while the list item or scope item has focus in the list view also
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -86,12 +90,12 @@ Pressing enter while the list item or scope item has focus in the list view also
 
 <dl> <dt>
 
-[**IComponent**](icomponent.md)
+[**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

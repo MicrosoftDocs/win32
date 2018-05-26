@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UFF\_FILEHEADER structure is used to define the contents of Unidrv font format files (.uff files).'
-ms.assetid: '18eb526b-d615-4f02-b724-236c6bf16945'
-title: 'UFF\_FILEHEADER structure'
+---
+Description: The UFF\_FILEHEADER structure is used to define the contents of Unidrv font format files (.uff files).
+ms.assetid: 18eb526b-d615-4f02-b724-236c6bf16945
+title: UFF\_FILEHEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UFF\_FILEHEADER structure

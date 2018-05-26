@@ -1,7 +1,7 @@
 ---
 title: Content-Indexing Values
 description: Values 0xHHHH1680 to 0xHHHH169F and 0xHHHH1730 to 0xHHHH173F are return values produced by the Content-Indexing daemon (CiDaemon) as it filters documents and adds their word lists to the existing indexes in the catalog.
-ms.assetid: '96af0267-8d9d-4156-9a9c-e6fc6c4b0cb9'
+ms.assetid: 96af0267-8d9d-4156-9a9c-e6fc6c4b0cb9
 topic_type:
 - apiref
 api_name:
@@ -33,11 +33,16 @@ api_location:
 - Cierror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Content-Indexing Values
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Values 0x*HHHH*1680 to 0x*HHHH*169F and 0x*HHHH*1730 to 0x*HHHH*173F are return values produced by the Content-Indexing daemon (CiDaemon) as it filters documents and adds their word lists to the existing indexes in the catalog. The following table gives the content-indexing values in alphabetical order.
 
@@ -78,17 +83,17 @@ Values 0x*HHHH*1680 to 0x*HHHH*169F and 0x*HHHH*1730 to 0x*HHHH*173F are return 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Cierror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

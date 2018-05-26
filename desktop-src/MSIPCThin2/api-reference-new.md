@@ -4,10 +4,13 @@ description: The Rights Management SDK 4.2 supports several operating systems n
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '8371352a-bfbd-4d46-b0d7-425d53d39e91'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 8371352a-bfbd-4d46-b0d7-425d53d39e91
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # API reference

@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a virtual machine with a terminal connection.'
-ms.assetid: '31979FB8-3870-44D9-9720-AD99237C5268'
-title: 'Msvm\_SystemTerminalConnection class'
+Description: Associates a virtual machine with a terminal connection.
+ms.assetid: 31979FB8-3870-44D9-9720-AD99237C5268
+title: Msvm\_SystemTerminalConnection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SystemTerminalConnection class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SystemTerminalConnection : CIM_HostedDependency
 {
-  Msvm_ComputerSystem     REF Antecedent;
+  Msvm_ComputerSystem     REF Antecedent;
   Msvm_TerminalConnection REF Dependent;
 };
 ```
@@ -75,8 +80,8 @@ Access to the **Msvm\_SystemTerminalConnection** class might be restricted by UA
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -96,9 +101,9 @@ Access to the **Msvm\_SystemTerminalConnection** class might be restricted by UA
 [Video Classes](video-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

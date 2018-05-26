@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.getSelectionEnd
 description: The getSelectionEnd method retrieves the ending position of the selected text in the editbox control.
-ms.assetid: '82a445da-3c50-41b7-8ac8-da6c860056ba'
-keywords: ["EDITBOX.getSelectionEnd Windows Media Player"]
+ms.assetid: 82a445da-3c50-41b7-8ac8-da6c860056ba
+keywords:
+- EDITBOX.getSelectionEnd Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.getSelectionEnd
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.getSelectionEnd
@@ -61,9 +67,9 @@ This method can only be called after the control becomes visible.
 [**EDITBOX.setSelection**](editbox-setselection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

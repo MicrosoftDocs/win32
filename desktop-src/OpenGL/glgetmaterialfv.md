@@ -1,8 +1,9 @@
 ---
 title: glGetMaterialfv function
 description: The glGetMaterialfv and glGetMaterialiv functions return material parameters.
-ms.assetid: 'b61dbe0c-5cc2-4397-9d7c-b99507a9f037'
-keywords: ["glGetMaterialfv function OpenGL"]
+ms.assetid: b61dbe0c-5cc2-4397-9d7c-b99507a9f037
+keywords:
+- glGetMaterialfv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetMaterialfv function
@@ -22,9 +28,9 @@ The **glGetMaterialfv** and [**glGetMaterialiv**](glgetmaterialiv.md) functions 
 
 ```C++
 void WINAPI glGetMaterialfv(
-   GLenum  face,
-   GLenum  pname,
-   GLfloat *params
+   GLenum  face,
+   GLenum  pname,
+   GLfloat *params
 );
 ```
 
@@ -59,7 +65,7 @@ The material parameter to return. The following values are accepted.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -112,8 +118,8 @@ If an error is generated, no change is made to the contents of *params*.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -133,9 +139,9 @@ If an error is generated, no change is made to the contents of *params*.
 [**glMaterial**](glmaterial-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

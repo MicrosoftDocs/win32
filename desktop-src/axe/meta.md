@@ -1,14 +1,20 @@
 ---
 title: Meta element
 description: Meta-information about the start time and duration.
-ms.assetid: '3C10A806-1069-4C59-84BC-A58473065D8A'
-keywords: ["Meta element Access Execution Engine"]
+ms.assetid: 3C10A806-1069-4C59-84BC-A58473065D8A
+keywords:
+- Meta element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Meta
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Meta element
@@ -78,9 +84,9 @@ There are no attributes.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

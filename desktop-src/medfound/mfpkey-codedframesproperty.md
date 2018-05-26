@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the number of video frames encoded by the codec.'
-ms.assetid: '4a812609-137f-4f7f-aa55-89e26d7f1972'
-title: 'MFPKEY\_CODEDFRAMES Property'
+---
+Description: Specifies the number of video frames encoded by the codec.
+ms.assetid: 4a812609-137f-4f7f-aa55-89e26d7f1972
+title: MFPKEY\_CODEDFRAMES Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_CODEDFRAMES Property

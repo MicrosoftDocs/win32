@@ -1,7 +1,12 @@
 ---
-Description: 'A Quick Mode SA.'
-ms.assetid: 'f85e0547-79d9-4c4a-970d-f0b37453dcb6'
-title: 'MSFT\_NetQuickModeSA class'
+Description: A Quick Mode SA.
+ms.assetid: f85e0547-79d9-4c4a-970d-f0b37453dcb6
+title: MSFT\_NetQuickModeSA class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetQuickModeSA class
@@ -15,77 +20,77 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetQuickModeSA : CIM_IPsecSAEndpoint
 {
-  string   LocalEndpoint;
-  string   RemoteEndpoint;
-  uint16   LocalPort;
-  uint16   RemotePort;
-  uint64   TrafficLuid;
-  UINT8    IpProtocol;
-  string   InterfaceAlias;
-  uint64   RealIfProfileId;
-  uint16   LocalUdpEncapsulationPort;
-  uint16   RemoteUdpEncapsulationPort;
-  uint32   Flags;
-  string   TransportLayerFilterName;
-  uint64   MmSaId;
-  uint32   FirstTransformType;
-  uint32   FirstIntegrityAlgorithm;
-  uint32   FirstCipherAlgorithm;
-  uint32   SecondTransformType;
-  uint32   SecondIntegrityAlgorithm;
-  uint32   SecondCipherAlgorithm;
-  uint32   SecondSPI;
-  string   PeerV4PrivateAddress;
-  uint32   PfsGroupId;
-  uint64   QuickModeFilterId;
-  uint64   LifetimePackets;
-  uint32   NdAllowClearTimeoutSeconds;
-  uint32   NapContext;
-  uint32   QmSaId;
-  uint64   VirtualIfTunnelId;
-  uint64   TrafficSelectorId;
-  string   MmTargetName;
-  string   EmTargetName;
-  uint64   ExplicitCredentials;
-  uint16   DFHandling;
-  uint16   EncapsulationMode;
-  boolean  InboundDirection;
-  boolean  PFSInUse;
-  uint32   SPI;
-  uint64   IdleDurationSeconds;
-  uint64   LifetimeKilobytes;
-  uint64   LifetimeSeconds;
-  boolean  PacketLoggingActive;
-  uint8    RefreshThresholdSecondsPercentage;
-  uint8    RefreshThresholdKbytesPercentage;
-  string   NameFormat;
-  string   OtherTypeDescription;
-  uint16   ProtocolIFType;
-  uint16   ProtocolType;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   Name;
-  uint16   AvailableRequestedStates[];
-  uint16   EnabledDefault;
-  uint16   EnabledState;
-  string   OtherEnabledState;
-  uint16   RequestedState;
+  string   LocalEndpoint;
+  string   RemoteEndpoint;
+  uint16   LocalPort;
+  uint16   RemotePort;
+  uint64   TrafficLuid;
+  UINT8    IpProtocol;
+  string   InterfaceAlias;
+  uint64   RealIfProfileId;
+  uint16   LocalUdpEncapsulationPort;
+  uint16   RemoteUdpEncapsulationPort;
+  uint32   Flags;
+  string   TransportLayerFilterName;
+  uint64   MmSaId;
+  uint32   FirstTransformType;
+  uint32   FirstIntegrityAlgorithm;
+  uint32   FirstCipherAlgorithm;
+  uint32   SecondTransformType;
+  uint32   SecondIntegrityAlgorithm;
+  uint32   SecondCipherAlgorithm;
+  uint32   SecondSPI;
+  string   PeerV4PrivateAddress;
+  uint32   PfsGroupId;
+  uint64   QuickModeFilterId;
+  uint64   LifetimePackets;
+  uint32   NdAllowClearTimeoutSeconds;
+  uint32   NapContext;
+  uint32   QmSaId;
+  uint64   VirtualIfTunnelId;
+  uint64   TrafficSelectorId;
+  string   MmTargetName;
+  string   EmTargetName;
+  uint64   ExplicitCredentials;
+  uint16   DFHandling;
+  uint16   EncapsulationMode;
+  boolean  InboundDirection;
+  boolean  PFSInUse;
+  uint32   SPI;
+  uint64   IdleDurationSeconds;
+  uint64   LifetimeKilobytes;
+  uint64   LifetimeSeconds;
+  boolean  PacketLoggingActive;
+  uint8    RefreshThresholdSecondsPercentage;
+  uint8    RefreshThresholdKbytesPercentage;
+  string   NameFormat;
+  string   OtherTypeDescription;
+  uint16   ProtocolIFType;
+  uint16   ProtocolType;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   Name;
+  uint16   AvailableRequestedStates[];
+  uint16   EnabledDefault;
+  uint16   EnabledState;
+  string   OtherEnabledState;
+  uint16   RequestedState;
   datetime TimeOfLastStateChange;
-  uint16   TransitioningToState;
+  uint16   TransitioningToState;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
 };
 ```
 
@@ -1166,17 +1171,17 @@ ID/Handle to Virtual-IF tunnel state
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

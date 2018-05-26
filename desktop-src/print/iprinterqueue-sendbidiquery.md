@@ -1,7 +1,12 @@
-﻿---
-Description: 'Performs an asynchronous refresh operation with the specified query, and invokes the IPrinterQueueEvent::OnBidiResponseReceived method.'
-ms.assetid: 'E98A121A-514A-4437-A542-E8629697B7EA'
-title: 'IPrinterQueue::SendBidiQuery method'
+---
+Description: Performs an asynchronous refresh operation with the specified query, and invokes the IPrinterQueueEventOnBidiResponseReceived method.
+ms.assetid: E98A121A-514A-4437-A542-E8629697B7EA
+title: IPrinterQueueSendBidiQuery method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterQueue::SendBidiQuery method

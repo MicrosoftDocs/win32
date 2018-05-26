@@ -1,14 +1,22 @@
 ---
 title: Job GetName method
 description: Retrieve the name of the job as specified in the job manifest.
-ms.assetid: 'DF56FEEB-4026-4B57-8F2D-ABFA876EF449'
-keywords: ["GetName method Access Execution Engine", "GetName method Access Execution Engine , Job interface", "Job interface Access Execution Engine , GetName method"]
+ms.assetid: DF56FEEB-4026-4B57-8F2D-ABFA876EF449
+keywords:
+- GetName method Access Execution Engine
+- GetName method Access Execution Engine , Job interface
+- Job interface Access Execution Engine , GetName method
 topic_type:
 - apiref
 api_name:
 - Job.GetName
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Job::GetName method

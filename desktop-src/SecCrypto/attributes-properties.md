@@ -1,7 +1,12 @@
 ---
-Description: 'The Attributes object exposes the following properties.'
-ms.assetid: '11275C74-584E-42F2-BF4A-2FD95A62861E'
+Description: The Attributes object exposes the following properties.
+ms.assetid: 11275C74-584E-42F2-BF4A-2FD95A62861E
 title: Attributes Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes Properties

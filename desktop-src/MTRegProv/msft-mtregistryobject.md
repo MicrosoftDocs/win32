@@ -4,11 +4,13 @@ description: Abstract base class for registry objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fe7341c5-d1e0-4e87-9b8b-fcc7dc27583f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: fe7341c5-d1e0-4e87-9b8b-fcc7dc27583f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_MTRegistryObject class", "MSFT_MTRegistryObject class, described"]
+keywords:
+- MSFT_MTRegistryObject class
+- MSFT_MTRegistryObject class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - RegProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_MTRegistryObject class
@@ -142,16 +147,16 @@ The unique name of the registry object.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                   |
 | MOF<br/>                      | <dl> <dt>RegProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RegProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

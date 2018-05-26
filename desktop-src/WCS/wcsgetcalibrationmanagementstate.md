@@ -1,8 +1,9 @@
 ---
 title: WcsGetCalibrationManagementState function
 description: Determines whether system management of the display calibration state is enabled.
-ms.assetid: '1c069d20-3d99-497f-bd43-613b504355d8'
-keywords: ["WcsGetCalibrationManagementState function Windows Color System"]
+ms.assetid: 1c069d20-3d99-497f-bd43-613b504355d8
+keywords:
+- WcsGetCalibrationManagementState function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsGetCalibrationManagementState function
@@ -22,7 +28,7 @@ Determines whether system management of the display calibration state is enabled
 
 ```C++
 BOOL WcsGetCalibrationManagementState(
-  _Out_ BOOL *pbIsEnabled
+  _Out_ BOOL *pbIsEnabled
 );
 ```
 
@@ -57,9 +63,9 @@ If this function fails, the return value is **FALSE**.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

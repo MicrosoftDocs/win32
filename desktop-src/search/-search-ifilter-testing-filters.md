@@ -1,7 +1,12 @@
 ---
-Description: 'The IFilter test suite validates your filter handlers.'
-ms.assetid: '5ee02af1-1dc9-4d21-868f-4c439970b1ba'
+Description: The IFilter test suite validates your filter handlers.
+ms.assetid: 5ee02af1-1dc9-4d21-868f-4c439970b1ba
 title: Testing Filter Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing Filter Handlers
@@ -139,7 +144,7 @@ filtdump filename.ext
 
 
 
-Filtdump.exe uses the [ILoadFilter::LoadIFilter](iloadfilter-loadifilter.md) method to load the [**IFilter**](-search-ifilter.md) DLL appropriate for the specified file name extension and prints the results. For example, the following command instructs filtdump.exe to load the smpfilt.dll filter handler for the extension .smp, extract all text and properties from the file myfile.smp, and print the results.
+Filtdump.exe uses the [ILoadFilter::LoadIFilter](/windows/win32/filtereg/nf-filtereg-iloadfilter-loadifilter?branch=master) method to load the [**IFilter**](-search-ifilter.md) DLL appropriate for the specified file name extension and prints the results. For example, the following command instructs filtdump.exe to load the smpfilt.dll filter handler for the extension .smp, extract all text and properties from the file myfile.smp, and print the results.
 
 
 ```
@@ -253,15 +258,15 @@ After the [**IFilter**](-search-ifilter.md) has been initialized, the ifilttst.e
 
 ### Validation Test
 
-The validation test steps through the object one chunk at a time, verifying each individual chunk and all return codes. The validation test saves all returned [**STAT\_CHUNK**](-search-stat-chunk.md) structures in a list.
+The validation test steps through the object one chunk at a time, verifying each individual chunk and all return codes. The validation test saves all returned [**STAT\_CHUNK**](/windows/win32/Filter/?branch=master) structures in a list.
 
 The validation test verifies the following conditions:
 
--   The [**STAT\_CHUNK**](-search-stat-chunk.md).*idChunk* chunk IDs must be unique and increasing.
--   The [**STAT\_CHUNK**](-search-stat-chunk.md).*flags* parameter is a recognized chunk state, such as [**CHUNKSTATE**](-search-chunkstate.md), CHUNK\_TEXT, or CenabledHUNK\_VALUE constants.
--   The [**STAT\_CHUNK**](-search-stat-chunk.md).*breakType* parameter is a recognized break type (0, 1, 2, 3, 4).
+-   The [**STAT\_CHUNK**](/windows/win32/Filter/?branch=master).*idChunk* chunk IDs must be unique and increasing.
+-   The [**STAT\_CHUNK**](/windows/win32/Filter/?branch=master).*flags* parameter is a recognized chunk state, such as [**CHUNKSTATE**](/windows/win32/Filter/?branch=master), CHUNK\_TEXT, or CenabledHUNK\_VALUE constants.
+-   The [**STAT\_CHUNK**](/windows/win32/Filter/?branch=master).*breakType* parameter is a recognized break type (0, 1, 2, 3, 4).
 -   If the [**IFilter**](-search-ifilter.md) initialization attributes specify that the **IFilter** should return only chunks containing internal value-type properties, then *idChunkSource* must equal 0.
--   If the chunk is not derived that is, if it is not an internal value-type property, then [**STAT\_CHUNK**](-search-stat-chunk.md).*idChunkSource* must equal **STAT\_CHUNK**.*idChunk*.
+-   If the chunk is not derived that is, if it is not an internal value-type property, then [**STAT\_CHUNK**](/windows/win32/Filter/?branch=master).*idChunkSource* must equal **STAT\_CHUNK**.*idChunk*.
 -   [**IFilter::GetChunk**](-search-ifilter-getchunk.md) returns S\_OK or other acceptable return value, such as FILTER\_E\_END\_OF\_CHUNKS, FILTER\_E\_LINK\_UNAVAILABLE, and so forth.
 -   If the chunk contains text, [**IFilter::GetText**](-search-ifilter-gettext.md) returns S\_OK, FILTER\_S\_LAST\_TEXT, or FILTER\_E\_NO\_MORE\_TEXT.
 -   If [**IFilter::GetText**](-search-ifilter-gettext.md) returns FILTER\_S\_LAST\_TEXT, the next call to **IFilter::GetText** returns FILTER\_E\_NO\_MORE\_TEXT.
@@ -273,7 +278,7 @@ The ifilttxt.exe program re-initializes the [**IFilter**](-search-ifilter.md) in
 
 The consistency test verifies the following conditions:
 
--   Each [**STAT\_CHUNK**](-search-stat-chunk.md) structure returned by the [**IFilter::GetChunk**](-search-ifilter-getchunk.md) method is identical to the corresponding **STAT\_CHUNK** returned in the validation test.
+-   Each [**STAT\_CHUNK**](/windows/win32/Filter/?branch=master) structure returned by the [**IFilter::GetChunk**](-search-ifilter-getchunk.md) method is identical to the corresponding **STAT\_CHUNK** returned in the validation test.
 -   [**IFilter::GetChunk**](-search-ifilter-getchunk.md) returns S\_OK or other acceptable return value, such as FILTER\_E\_END\_OF\_CHUNKS, FILTER\_E\_LINK\_UNAVAILABLE, and so forth.
 
 ### Invalid Input Test

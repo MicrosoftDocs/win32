@@ -1,13 +1,16 @@
 ---
-Description: 'Represents the common file system metadata about a file or directory in the Offline Files cache.'
+Description: Represents the common file system metadata about a file or directory in the Offline Files cache.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'beaa2bb0-b7f7-4344-85fd-2fa993cec602'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: beaa2bb0-b7f7-4344-85fd-2fa993cec602
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'Win32\_OfflineFilesFileSysInfo class'
+title: Win32\_OfflineFilesFileSysInfo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_OfflineFilesFileSysInfo class
@@ -26,20 +29,20 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [dynamic, provider("Win32_OfflineFilesProvider"), AMENDMENT]
 class Win32_OfflineFilesFileSysInfo
 {
-  uint32   LocalAttributes;
-  sint64   LocalSize;
+  uint32   LocalAttributes;
+  sint64   LocalSize;
   DATETIME LocalCreationTime;
   DATETIME LocalLastWriteTime;
   DATETIME LocalChangeTime;
   DATETIME LocalLastAccessTime;
-  uint32   OriginalAttributes;
-  sint64   OriginalSize;
+  uint32   OriginalAttributes;
+  sint64   OriginalSize;
   DATETIME OriginalCreationTime;
   DATETIME OriginalLastWriteTime;
   DATETIME OriginalChangeTime;
   DATETIME OriginalLastAccessTime;
-  uint32   RemoteAttributes;
-  sint64   RemoteSize;
+  uint32   RemoteAttributes;
+  sint64   RemoteSize;
   DATETIME RemoteCreationTime;
   DATETIME RemoteLastWriteTime;
   DATETIME RemoteChangeTime;
@@ -299,8 +302,8 @@ Reserved for future use.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CscObj.dll</dt> </dl>                  |
@@ -314,9 +317,9 @@ Reserved for future use.
 [Offline Files WMI Provider Reference](offline-files-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

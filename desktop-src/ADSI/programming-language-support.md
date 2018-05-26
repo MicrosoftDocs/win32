@@ -4,10 +4,13 @@ description: You can write ADSI client applications in many languages.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '47460d57-936d-4c5f-8ff6-a4d9d60d0b68'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 47460d57-936d-4c5f-8ff6-a4d9d60d0b68
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Programming Language Support
@@ -26,7 +29,7 @@ The following figure shows how ADSI fits into an application environment. Whethe
 
 ![adsi support for programming languages](images/ds2layr.png)
 
-As shown in the preceding figure, clients that do not support Automation have access to all ADSI interfaces, including both pure COM interfaces with the naming convention **IDirectoryXXX** and Automation COM interfaces with the naming convention **IADsXXX**. Because clients predominantly request information from directory services, the ADSI flexible query model through OLE DB and [**IDirectorySearch**](idirectorysearch.md) is effective.
+As shown in the preceding figure, clients that do not support Automation have access to all ADSI interfaces, including both pure COM interfaces with the naming convention **IDirectoryXXX** and Automation COM interfaces with the naming convention **IADsXXX**. Because clients predominantly request information from directory services, the ADSI flexible query model through OLE DB and [**IDirectorySearch**](/windows/win32/Iads/nn-iads-idirectorysearch?branch=master) is effective.
 
  
 

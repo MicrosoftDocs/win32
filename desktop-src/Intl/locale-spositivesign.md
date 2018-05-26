@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SPOSITIVESIGN'
-ms.assetid: '65227e63-f7e7-4f1c-8fc8-f457c8444be5'
-title: 'LOCALE\_SPOSITIVESIGN'
+Description: LOCALE\_SPOSITIVESIGN
+ms.assetid: 65227e63-f7e7-4f1c-8fc8-f457c8444be5
+title: LOCALE\_SPOSITIVESIGN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SPOSITIVESIGN

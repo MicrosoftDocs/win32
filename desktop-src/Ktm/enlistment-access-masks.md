@@ -1,7 +1,12 @@
 ---
-Description: 'KTM defines the following enlistment access masks to be used when opening enlistments.'
-ms.assetid: '93773eb7-141a-49f3-9306-ffbda2f4ab9f'
+Description: KTM defines the following enlistment access masks to be used when opening enlistments.
+ms.assetid: 93773eb7-141a-49f3-9306-ffbda2f4ab9f
 title: Enlistment Access Masks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enlistment Access Masks
@@ -59,13 +64,13 @@ The caller can recover an enlistment.
 
 The caller can complete actions that a resource manager does on behalf of the transaction. The following is a list of actions:
 
--   [**CommitComplete**](commitcomplete.md)
--   [**PrepareComplete**](preparecomplete.md)
--   [**PrePrepareComplete**](prepreparecomplete.md)
--   [**RollbackComplete**](rollbackcomplete.md)
--   [**ReadOnlyEnlistment**](readonlyenlistment.md)
--   [**RollbackEnlistment**](rollbackenlistment.md)
--   [**SinglePhaseReject**](singlephasereject.md)
+-   [**CommitComplete**](/windows/win32/Ktmw32/nf-ktmw32-commitcomplete?branch=master)
+-   [**PrepareComplete**](/windows/win32/Ktmw32/nf-ktmw32-preparecomplete?branch=master)
+-   [**PrePrepareComplete**](/windows/win32/Ktmw32/nf-ktmw32-prepreparecomplete?branch=master)
+-   [**RollbackComplete**](/windows/win32/Ktmw32/nf-ktmw32-rollbackcomplete?branch=master)
+-   [**ReadOnlyEnlistment**](/windows/win32/Ktmw32/nf-ktmw32-readonlyenlistment?branch=master)
+-   [**RollbackEnlistment**](/windows/win32/Ktmw32/nf-ktmw32-rollbackenlistment?branch=master)
+-   [**SinglePhaseReject**](/windows/win32/Ktmw32/nf-ktmw32-singlephasereject?branch=master)
 
 
 </dt> </dl> </dd> <dt>
@@ -141,15 +146,15 @@ This value sets all valid bits for an enlistment access value.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                     |
 | Header<br/>                   | <dl> <dt>WinNT.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

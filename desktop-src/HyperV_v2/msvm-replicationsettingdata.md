@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the replication-specific settings for a virtual machine.'
-ms.assetid: 'f6f6a413-a949-4aca-930b-37e39bdc1fdb'
-title: 'Msvm\_ReplicationSettingData class'
+Description: Represents the replication-specific settings for a virtual machine.
+ms.assetid: f6f6a413-a949-4aca-930b-37e39bdc1fdb
+title: Msvm\_ReplicationSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReplicationSettingData class
@@ -16,48 +21,48 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ReplicationSettingData : CIM_VirtualSystemSettingData
 {
-  string   InstanceID = "Microsoft:Virtual Machine GUID\HVR";
-  string   Caption = "Replication Settings";
-  string   Description = "Virtual Machine Replication Settings Data";
-  string   ElementName;
-  string   VirtualSystemIdentifier;
-  string   VirtualSystemType = "Microsoft:Hyper-V:Replica";
-  string   Notes[];
+  string   InstanceID = "Microsoft:Virtual Machine GUID\HVR";
+  string   Caption = "Replication Settings";
+  string   Description = "Virtual Machine Replication Settings Data";
+  string   ElementName;
+  string   VirtualSystemIdentifier;
+  string   VirtualSystemType = "Microsoft:Hyper-V:Replica";
+  string   Notes[];
   datetime CreationTime;
-  string   ConfigurationID;
-  string   ConfigurationDataRoot;
-  string   ConfigurationFile;
-  string   SnapshotDataRoot;
-  string   SuspendDataRoot;
-  string   SwapFileDataRoot;
-  string   LogDataRoot;
-  uint16   AutomaticStartupAction;
+  string   ConfigurationID;
+  string   ConfigurationDataRoot;
+  string   ConfigurationFile;
+  string   SnapshotDataRoot;
+  string   SuspendDataRoot;
+  string   SwapFileDataRoot;
+  string   LogDataRoot;
+  uint16   AutomaticStartupAction;
   datetime AutomaticStartupActionDelay;
-  uint16   AutomaticStartupActionSequenceNumber;
-  uint16   AutomaticShutdownAction;
-  uint16   AutomaticRecoveryAction;
-  string   RecoveryFile;
-  uint16   AuthenticationType;
-  string   CertificateThumbPrint;
-  string   RootCertificateThumbPrint;
-  boolean  CompressionEnabled;
-  boolean  BypassProxyServer;
-  string   RecoveryConnectionPoint;
-  string   RecoveryHostSystem;
-  string   PrimaryConnectionPoint;
-  string   PrimaryHostSystem;
-  uint16   RecoveryServerPortNumber = 0;
-  boolean  ReplicateHostKvpItems = True;
-  uint16   ApplicationConsistentSnapshotInterval;
-  uint16   RecoveryHistory = 0;
-  string   IncludedDisks[];
-  boolean  AutoResynchronizeEnabled = False;
+  uint16   AutomaticStartupActionSequenceNumber;
+  uint16   AutomaticShutdownAction;
+  uint16   AutomaticRecoveryAction;
+  string   RecoveryFile;
+  uint16   AuthenticationType;
+  string   CertificateThumbPrint;
+  string   RootCertificateThumbPrint;
+  boolean  CompressionEnabled;
+  boolean  BypassProxyServer;
+  string   RecoveryConnectionPoint;
+  string   RecoveryHostSystem;
+  string   PrimaryConnectionPoint;
+  string   PrimaryHostSystem;
+  uint16   RecoveryServerPortNumber = 0;
+  boolean  ReplicateHostKvpItems = True;
+  uint16   ApplicationConsistentSnapshotInterval;
+  uint16   RecoveryHistory = 0;
+  string   IncludedDisks[];
+  boolean  AutoResynchronizeEnabled = False;
   datetime AutoResynchronizeIntervalStart = 00000000183000.000000:000;
   datetime AutoResynchronizeIntervalEnd = 00000000060000.000000:000;
-  boolean  EnableWriteOrderPreservationAcrossDisks;
-  string   ReplicationProvider;
-  string   AdditionalSettings;
-  uint16   ReplicationInterval = 300;
+  boolean  EnableWriteOrderPreservationAcrossDisks;
+  string   ReplicationProvider;
+  string   AdditionalSettings;
+  uint16   ReplicationInterval = 300;
 };
 ```
 
@@ -84,7 +89,7 @@ Access type: Read-only
 
 Additional replication settings that the endpoint provider can use.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -411,7 +416,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 
 Specifies whether all replicating virtual hard disks for the virtual machine are replicated to the same point in time. This ensures replication honors the write-order of the applications in the virtual machine.
 
-**Windows 8.1:** Beginning with Windows 8.1 and Windows Server 2012 R2, this property is deprecated and always set to **TRUE**.
+**Windows 8.1:** Beginning with Windows 8.1 and Windows Server 2012 R2, this property is deprecated and always set to **TRUE**.
 
 </dd> <dt>
 
@@ -443,7 +448,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](https://msdn.microsoft.com/library/cc136911). For Windows 8, it is always set to "Microsoft:*Virtual Machine GUID*\\HVR". For Windows 8.1, it is set to "Microsoft:*Virtual Machine GUID*\\HVR\\&lt;0/1&gt;". In the Windows 8.1 value, 0 indicates primary and 1 indicates extended replication. For more info about extended replication, see [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](https://msdn.microsoft.com/library/cc136911). For Windows 8, it is always set to "Microsoft:*Virtual Machine GUID*\\HVR". For Windows 8.1, it is set to "Microsoft:*Virtual Machine GUID*\\HVR\\&lt;0/1&gt;". In the Windows 8.1 value, 0 indicates primary and 1 indicates extended replication. For more info about extended replication, see [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).
 
 </dd> <dt>
 
@@ -610,7 +615,7 @@ Replication interval of a replication relationship in seconds. Valid values are:
 
 Default value is 300 seconds.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -625,7 +630,7 @@ Access type: Read-only
 
 The path to the instance of the [**Msvm\_ReplicationProvider**](msvm-replicationprovider.md) class that identifies the replication provider endpoint.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -716,8 +721,8 @@ Specifies the type of virtual machine the setting data represents. This property
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -734,9 +739,9 @@ Specifies the type of virtual machine the setting data represents. This property
 [**ModifyReplicationSettings**](modifyreplicationsettings-msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

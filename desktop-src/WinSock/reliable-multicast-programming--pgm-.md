@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as reliable multicast. Reliable multicast is implemented through Windows Sockets in Windows Server 2003 and later.'
-ms.assetid: '81c203ed-739f-4a06-99a1-9a99c6164edc'
-title: 'Reliable Multicast Programming (PGM)'
+Description: This section describes the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as reliable multicast. Reliable multicast is implemented through Windows Sockets in Windows Server 2003 and later.
+ms.assetid: 81c203ed-739f-4a06-99a1-9a99c6164edc
+title: Reliable Multicast Programming (PGM)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reliable Multicast Programming (PGM)

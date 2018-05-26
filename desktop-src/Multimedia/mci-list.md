@@ -1,8 +1,9 @@
 ---
 title: MCI\_LIST command
 description: The MCI\_LIST command obtains information about the number and types of inputs available to the device. Digital-video and VCR devices recognize this command.
-ms.assetid: '1977fbfa-cae4-4afe-9fc5-ac68177574ca'
-keywords: ["MCI_LIST command Windows Multimedia"]
+ms.assetid: 1977fbfa-cae4-4afe-9fc5-ac68177574ca
+keywords:
+- MCI_LIST command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_LIST command
 
 The MCI\_LIST command obtains information about the number and types of inputs available to the device. Digital-video and VCR devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -166,7 +172,7 @@ An index is specified in the **dwNumber** member of the structure identified by 
 
 </dd> </dl>
 
-For digital-video devices, *lpList* points to an [**MCI\_DGV\_LIST\_PARMS**](mci-dgv-list-parms.md) structure.
+For digital-video devices, *lpList* points to an [**MCI\_DGV\_LIST\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_list_parmsa?branch=master) structure.
 
 The following additional flags apply to the **vcr** device type:
 
@@ -208,8 +214,8 @@ For VCR devices, *lpList* points to an [**MCI\_VCR\_LIST\_PARMS**](mci-vcr-list-
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -224,9 +230,9 @@ For VCR devices, *lpList* points to an [**MCI\_VCR\_LIST\_PARMS**](mci-vcr-list-
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

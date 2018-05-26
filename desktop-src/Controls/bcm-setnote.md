@@ -1,8 +1,9 @@
 ---
 title: BCM\_SETNOTE message
 description: Sets the text of the note associated with a command link button. You can send this message explicitly or use the Button\_SetNote macro.
-ms.assetid: 'c167072a-8207-4744-ac66-247141d726ab'
-keywords: ["BCM_SETNOTE message Windows Controls"]
+ms.assetid: c167072a-8207-4744-ac66-247141d726ab
+keywords:
+- BCM_SETNOTE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCM\_SETNOTE message
 
-Sets the text of the note associated with a command link button. You can send this message explicitly or use the [**Button\_SetNote**](button-setnote.md) macro.
+Sets the text of the note associated with a command link button. You can send this message explicitly or use the [**Button\_SetNote**](/windows/win32/Commctrl/nf-commctrl-button_setnote?branch=master) macro.
 
 ## Parameters
 
@@ -51,8 +57,8 @@ The **BCM\_SETNOTE** message works only with the [**BS\_COMMANDLINK**](button-st
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -73,9 +79,9 @@ The **BCM\_SETNOTE** message works only with the [**BS\_COMMANDLINK**](button-st
 [Button Types](button-types-and-styles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

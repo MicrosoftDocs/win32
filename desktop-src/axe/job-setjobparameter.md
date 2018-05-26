@@ -1,8 +1,11 @@
 ---
 title: Job SetJobParameter method
 description: Creates or updates a job parameter with the specified name and value.
-ms.assetid: '2FFF7E3C-1171-4E5F-BDB5-32E853CB17A4'
-keywords: ["SetJobParameter method Access Execution Engine", "SetJobParameter method Access Execution Engine , Job interface", "Job interface Access Execution Engine , SetJobParameter method"]
+ms.assetid: 2FFF7E3C-1171-4E5F-BDB5-32E853CB17A4
+keywords:
+- SetJobParameter method Access Execution Engine
+- SetJobParameter method Access Execution Engine , Job interface
+- Job interface Access Execution Engine , SetJobParameter method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Job::SetJobParameter method
@@ -22,8 +30,8 @@ Creates or updates a job parameter with the specified name and value.
 
 ```C++
 virtual HRESULT SetJobParameter(
-  [in] LPCWSTR parameterName,
-  [in] LPCWSTR parameterValue
+  [in] LPCWSTR parameterName,
+  [in] LPCWSTR parameterValue
 ) = 0;
 ```
 
@@ -69,8 +77,8 @@ Managed code uses [**Job.JobParameter \| jobParameter**](https://msdn.microsoft.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -83,9 +91,9 @@ Managed code uses [**Job.JobParameter \| jobParameter**](https://msdn.microsoft.
 [**Job**](job-if.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

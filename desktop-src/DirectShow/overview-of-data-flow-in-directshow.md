@@ -1,18 +1,23 @@
 ---
 Description: Overview of Data Flow in DirectShow
-ms.assetid: 'a1b30592-5106-44f5-8ee0-577573670167'
+ms.assetid: a1b30592-5106-44f5-8ee0-577573670167
 title: Overview of Data Flow in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of Data Flow in DirectShow
 
 This section gives a broad overview of how data flow works in DirectShow. Details can be found in other sections of the documentation.
 
-Data is held in buffers, which are simply arrays of bytes. Each buffer is wrapped by a COM object called a *media sample*, which implements the [**IMediaSample**](imediasample.md) interface. Samples are created by another type of object, called an allocator, which implements the [**IMemAllocator**](imemallocator.md) interface. An allocator is assigned for every pin connection, although two or more pin connections might share the same allocator. The following image illustrates this process.
+Data is held in buffers, which are simply arrays of bytes. Each buffer is wrapped by a COM object called a *media sample*, which implements the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface. Samples are created by another type of object, called an allocator, which implements the [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface. An allocator is assigned for every pin connection, although two or more pin connections might share the same allocator. The following image illustrates this process.
 
 ![buffers, samples, and allocators](images/dataflow.png)
 
-Each allocator creates a pool of media samples and allocates the buffers for each sample. Whenever a filter needs to fill a buffer with data, it requests a sample from the allocator by calling [**IMemAllocator::GetBuffer**](imemallocator-getbuffer.md). If the allocator has any samples that are not currently in use by another filter, the **GetBuffer** method returns immediately with a pointer to the sample. If all of the allocator's samples are in use, the method blocks until a sample becomes available. When the method does return a sample, the filter puts data into the buffer, sets the appropriate flags on the sample (typically including a time stamp), and delivers the sample downstream.
+Each allocator creates a pool of media samples and allocates the buffers for each sample. Whenever a filter needs to fill a buffer with data, it requests a sample from the allocator by calling [**IMemAllocator::GetBuffer**](/windows/win32/Strmif/nf-strmif-imemallocator-getbuffer?branch=master). If the allocator has any samples that are not currently in use by another filter, the **GetBuffer** method returns immediately with a pointer to the sample. If all of the allocator's samples are in use, the method blocks until a sample becomes available. When the method does return a sample, the filter puts data into the buffer, sets the appropriate flags on the sample (typically including a time stamp), and delivers the sample downstream.
 
 When a renderer filter receives a sample, it checks the time stamp and holds onto the sample until the filter graph's reference clock indicates that the data should be rendered. After the filter renders the data, it releases the sample. The sample does not go back into the allocator's pool of samples until the sample's reference count is zero, meaning that every filter has released the sample. The following image illustrates this process.
 

@@ -1,8 +1,18 @@
 ---
 title: The OnPaint Method
 description: The OnPaint Method
-ms.assetid: '4b335362-4430-4b05-8aea-7de8df9cc91f'
-keywords: ["Windows Media Player plug-ins,OnPaint method", "plug-ins,OnPaint method", "user interface plug-ins,OnPaint method", "UI plug-ins,OnPaint method", "OnPaint method"]
+ms.assetid: 4b335362-4430-4b05-8aea-7de8df9cc91f
+keywords:
+- Windows Media Player plug-ins,OnPaint method
+- plug-ins,OnPaint method
+- user interface plug-ins,OnPaint method
+- UI plug-ins,OnPaint method
+- OnPaint method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The OnPaint Method

@@ -1,7 +1,12 @@
 ---
 Description: Creating a Filter Property Page
-ms.assetid: '028e2c4e-0241-4057-8514-d3e9b456ab6e'
+ms.assetid: 028e2c4e-0241-4057-8514-d3e9b456ab6e
 title: Creating a Filter Property Page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Filter Property Page

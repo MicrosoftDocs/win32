@@ -1,7 +1,12 @@
 ---
-Description: 'The storage provider computed file version waterline for this file. This value is used to detect if a file has changed.'
-ms.assetid: '1b253fc9-ee0e-455a-9034-ead5202c6fff'
-title: 'System.StorageProviderFileVersionWaterline'
+Description: The storage provider computed file version waterline for this file. This value is used to detect if a file has changed.
+ms.assetid: 1b253fc9-ee0e-455a-9034-ead5202c6fff
+title: System.StorageProviderFileVersionWaterline
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.StorageProviderFileVersionWaterline

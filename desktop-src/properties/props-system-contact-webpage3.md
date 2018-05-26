@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '3e3ee2a6-20cf-4325-bd78-f9d62b974724'
-title: 'System.Contact.Webpage3'
+Description: .
+ms.assetid: 3e3ee2a6-20cf-4325-bd78-f9d62b974724
+title: System.Contact.Webpage3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.Webpage3

@@ -1,7 +1,12 @@
 ---
 title: Windows Extensions to OpenGL
 description: Windows Extensions to OpenGL
-ms.assetid: '7888ce63-1d3e-427c-9cbf-97a7af7e92fb'
+ms.assetid: 7888ce63-1d3e-427c-9cbf-97a7af7e92fb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Extensions to OpenGL

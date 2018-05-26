@@ -1,13 +1,16 @@
 ---
-Description: 'One top-level object, ConfigurationManager, that is your entry point into the scripting API.'
+Description: One top-level object, ConfigurationManager, that is your entry point into the scripting API.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '79a2e806-af6e-43a8-bf22-f04a9d8e2ecd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 79a2e806-af6e-43a8-bf22-f04a9d8e2ecd
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: AD RMS Scripting API Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AD RMS Scripting API Architecture

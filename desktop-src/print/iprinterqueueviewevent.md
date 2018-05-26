@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides the signature of the event handler.'
-ms.assetid: '23951787-C147-43A6-99D6-71AC037F6A43'
+---
+Description: Provides the signature of the event handler.
+ms.assetid: 23951787-C147-43A6-99D6-71AC037F6A43
 title: IPrinterQueueViewEvent interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterQueueViewEvent interface

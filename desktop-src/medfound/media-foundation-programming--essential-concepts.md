@@ -1,7 +1,12 @@
 ---
-Description: 'If you are new to digital media, this topic introduces some concepts that you will need to understand before writing a Media Foundation application.'
-ms.assetid: 'd76d655e-23f3-407c-97a1-be015b0de37d'
-title: 'Media Foundation: Essential Concepts'
+Description: If you are new to digital media, this topic introduces some concepts that you will need to understand before writing a Media Foundation application.
+ms.assetid: d76d655e-23f3-407c-97a1-be015b0de37d
+title: Media Foundation Essential Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Foundation: Essential Concepts

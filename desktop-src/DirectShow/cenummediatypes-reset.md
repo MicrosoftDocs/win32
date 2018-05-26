@@ -1,12 +1,17 @@
 ---
-Description: 'The Reset method resets the enumeration sequence to the beginning. This method implements the IEnumMediaTypes::Reset method.'
-ms.assetid: '3a5388d5-eaab-47af-b45e-c75199a22f02'
-title: 'CEnumMediaTypes.Reset method'
+Description: The Reset method resets the enumeration sequence to the beginning. This method implements the IEnumMediaTypesReset method.
+ms.assetid: 3a5388d5-eaab-47af-b45e-c75199a22f02
+title: CEnumMediaTypes.Reset method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CEnumMediaTypes.Reset method
 
-The `Reset` method resets the enumeration sequence to the beginning. This method implements the [**IEnumMediaTypes::Reset**](ienummediatypes-reset.md) method.
+The `Reset` method resets the enumeration sequence to the beginning. This method implements the [**IEnumMediaTypes::Reset**](/windows/win32/Strmif/nf-strmif-ienummediatypes-reset?branch=master) method.
 
 ## Syntax
 
@@ -43,9 +48,9 @@ Returns S\_OK.
 [**CEnumMediaTypes Class**](cenummediatypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

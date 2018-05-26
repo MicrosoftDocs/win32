@@ -1,7 +1,12 @@
 ---
 Description: Using VMR Mixing Mode
-ms.assetid: 'd1b238be-55a2-4db4-9bb6-c6164e2a6f05'
+ms.assetid: d1b238be-55a2-4db4-9bb6-c6164e2a6f05
 title: Using VMR Mixing Mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using VMR Mixing Mode

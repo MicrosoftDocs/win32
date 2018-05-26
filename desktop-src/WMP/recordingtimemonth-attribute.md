@@ -1,14 +1,20 @@
 ---
 title: RecordingTimeMonth Attribute
 description: The RecordingTimeMonth attribute is the month part of the date of the original recording, for items where this date is different from the release date.
-ms.assetid: 'c908cb4c-ce71-4c14-8e48-ed1a9951c3fb'
-keywords: ["RecordingTimeMonth Attribute Windows Media Player"]
+ms.assetid: c908cb4c-ce71-4c14-8e48-ed1a9951c3fb
+keywords:
+- RecordingTimeMonth Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - RecordingTimeMonth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RecordingTimeMonth Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

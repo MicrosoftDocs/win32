@@ -1,7 +1,12 @@
 ---
-Description: 'The sequencing of many actions in the actions tables is restricted. See Standard Actions Reference for a complete list of actions with links to detailed sequencing information.'
-ms.assetid: '659b1dd2-7510-4962-a991-f5febcfbf26e'
+Description: The sequencing of many actions in the actions tables is restricted. See Standard Actions Reference for a complete list of actions with links to detailed sequencing information.
+ms.assetid: 659b1dd2-7510-4962-a991-f5febcfbf26e
 title: Actions with Sequencing Restrictions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Actions with Sequencing Restrictions

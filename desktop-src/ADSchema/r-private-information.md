@@ -4,17 +4,21 @@ description: Private-Information property set
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9b8983a0-cc15-4a3d-b3e8-e7d6414837b0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9b8983a0-cc15-4a3d-b3e8-e7d6414837b0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Private-Information property set AD Schema"]
+keywords:
+- Private-Information property set AD Schema
 topic_type:
 - apiref
 api_name:
 - Private-Information
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Private-Information property set
@@ -31,9 +35,9 @@ api_type:
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -71,9 +75,9 @@ api_type:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

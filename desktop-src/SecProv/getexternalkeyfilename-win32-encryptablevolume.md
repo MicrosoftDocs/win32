@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the name of the file that contains the external key.'
-ms.assetid: 'c02d8dca-f30b-4ab5-a770-1ec6ac0b81c6'
-title: 'GetExternalKeyFileName method of the Win32\_EncryptableVolume class'
+---
+Description: Returns the name of the file that contains the external key.
+ms.assetid: c02d8dca-f30b-4ab5-a770-1ec6ac0b81c6
+title: GetExternalKeyFileName method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetExternalKeyFileName method of the Win32\_EncryptableVolume class

@@ -1,7 +1,12 @@
 ---
-Description: 'The date and time a communication was sent.'
-ms.assetid: 'f8487ddb-0646-419d-921b-2333827a37fc'
-title: 'System.Message.DateSent'
+Description: The date and time a communication was sent.
+ms.assetid: f8487ddb-0646-419d-921b-2333827a37fc
+title: System.Message.DateSent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.DateSent

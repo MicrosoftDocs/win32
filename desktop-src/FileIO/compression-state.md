@@ -1,7 +1,12 @@
 ---
-Description: 'Each file and directory on a volume that supports compression for individual files and directories has a compression state.'
-ms.assetid: '9db1b2e2-864e-45b5-8227-400cad75222e'
+Description: Each file and directory on a volume that supports compression for individual files and directories has a compression state.
+ms.assetid: 9db1b2e2-864e-45b5-8227-400cad75222e
 title: Compression State
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compression State
@@ -10,11 +15,11 @@ Each file and directory on a volume that supports compression for individual fil
 
 Whereas the compression attribute of a file or directory indicates simply whether the file or directory is compressed or not compressed, the compression state also specifies the format of any compressed data.
 
-Use the [**FSCTL\_GET\_COMPRESSION**](fsctl-get-compression.md) control code to determine the compression state of a file or directory.
+Use the [**FSCTL\_GET\_COMPRESSION**](/windows/win32/WinIoCtl/?branch=master) control code to determine the compression state of a file or directory.
 
 Compression state is encoded as a 16-bit value. A compression state value of COMPRESSION\_FORMAT\_NONE indicates that a file is not compressed. A value of COMPRESSION\_FORMAT\_DEFAULT indicates that a file is compressed, using the default compression format. Any other value indicates that a file is compressed, using the compression format specified by the compression state value.
 
-Use the [**FSCTL\_SET\_COMPRESSION**](fsctl-set-compression.md) control code to set the compression state of a file or directory. This operation also sets the compression attribute of the file or directory.
+Use the [**FSCTL\_SET\_COMPRESSION**](/windows/win32/WinIoCtl/?branch=master) control code to set the compression state of a file or directory. This operation also sets the compression attribute of the file or directory.
 
 Setting the compression state of a file to a nonzero value compresses the file, using the compression format encoded by the compression state value. Setting a file's compression state to zero decompresses the file. These are synchronous operations. The file is compressed or decompressed immediately when you set its compression state.
 

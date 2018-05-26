@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::EnableDriver method allows a rendering plug-in for Unidrv to hook out some graphics DDI functions.'
-ms.assetid: '7d7cd1de-569a-4083-8d4c-e073645941e6'
-title: 'IPrintOemUni::EnableDriver method'
+---
+Description: The IPrintOemUniEnableDriver method allows a rendering plug-in for Unidrv to hook out some graphics DDI functions.
+ms.assetid: 7d7cd1de-569a-4083-8d4c-e073645941e6
+title: IPrintOemUniEnableDriver method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::EnableDriver method

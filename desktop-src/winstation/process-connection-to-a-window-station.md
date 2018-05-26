@@ -1,7 +1,12 @@
 ---
 title: Process Connection to a Window Station
 description: A process automatically establishes a connection to a window station and desktop when it first calls a USER32 or GDI32 function (other than the window station and desktop functions).
-ms.assetid: '280f69e7-5c99-41a7-94e3-da13deaac9f5'
+ms.assetid: 280f69e7-5c99-41a7-94e3-da13deaac9f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process Connection to a Window Station

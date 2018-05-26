@@ -1,7 +1,12 @@
 ---
 title: ODL File Example
 description: The following example shows the .odl file for the Lines sample file, extracted from Lines.odl.
-ms.assetid: '86d64a4f-08eb-422a-bb1d-dfa868094645'
+ms.assetid: 86d64a4f-08eb-422a-bb1d-dfa868094645
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ODL File Example
@@ -116,7 +121,7 @@ library Lines
 
 The example describes a library named Lines that imports the standard OLE library Stdole.tlb. The **\#define** directive defines the constant DISPID\_NEWENUM, which is needed for the **\_NewEnum** property of the IPoints collection.
 
-The example shows declarations for three interfaces in the library: IPoint, IPoints, and IApplication. Because all three are dual interfaces, their members can be invoked through [**IDispatch**](idispatch.md) or directly through virtual function tables (VTBLs). In addition, all of their members return HRESULT values and pass their return values as [retval](retval.md) parameters. Therefore, they can support the [**IErrorInfo**](ierrorinfo.md) interface, through which they can return detailed error information in whatever way they are invoked.
+The example shows declarations for three interfaces in the library: IPoint, IPoints, and IApplication. Because all three are dual interfaces, their members can be invoked through [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) or directly through virtual function tables (VTBLs). In addition, all of their members return HRESULT values and pass their return values as [retval](retval.md) parameters. Therefore, they can support the [**IErrorInfo**](/windows/previous-versions/oaidl/nn-oaidl-ierrorinfo?branch=master) interface, through which they can return detailed error information in whatever way they are invoked.
 
 The IPoint interface has two properties, X and Y, and two pairs of accessor functions to get and set the properties.
 
@@ -124,7 +129,7 @@ The IPoint interface is a collection of points. It supports three read-only prop
 
 The **IApplication** interface describes the application object. It supports the properties **Application**, **FullName**, **Name**, **Parent**, **Visible**, and **Pane**. It supports the methods **Quit**, **CreateLine**, and **CreatePoint**.
 
-Finally, the script defines a coclass named Lines. The [appobject](appobject.md) attribute makes the members of the coclass (**IApplication** and [**IDispatch**](idispatch.md)) globally accessible in the type library. **IApplication** is defined as the [default](default.md) member, indicating that it is the programmability interface intended for use by macro languages.
+Finally, the script defines a coclass named Lines. The [appobject](appobject.md) attribute makes the members of the coclass (**IApplication** and [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master)) globally accessible in the type library. **IApplication** is defined as the [default](default.md) member, indicating that it is the programmability interface intended for use by macro languages.
 
  
 

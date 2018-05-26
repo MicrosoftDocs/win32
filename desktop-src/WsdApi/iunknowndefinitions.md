@@ -1,7 +1,12 @@
 ---
-Description: 'Generates implementations for the QueryInterface, AddRef and Release functions.'
-ms.assetid: '4b6abd0b-7570-4ae0-a727-cdb6cec58daf'
+Description: Generates implementations for the QueryInterface, AddRef and Release functions.
+ms.assetid: 4b6abd0b-7570-4ae0-a727-cdb6cec58daf
 title: IUnknownDefinitions element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IUnknownDefinitions element
@@ -61,14 +66,14 @@ interface
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

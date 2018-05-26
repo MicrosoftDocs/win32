@@ -1,7 +1,12 @@
 ---
 title: Using the Stream Buffer Engine
 description: Using the Stream Buffer Engine
-ms.assetid: 'aa19d268-fbeb-4dc4-a8f5-8bc31a85367f'
+ms.assetid: aa19d268-fbeb-4dc4-a8f5-8bc31a85367f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Stream Buffer Engine

@@ -1,8 +1,16 @@
 ---
 title: User Interface Elements
 description: User Interface Elements
-ms.assetid: 'cb2876fb-632e-4c3d-8a6e-f7c8c4878c3f'
-keywords: ["Windows Media Player Mobile skins,user interfaces", "Windows Media Player Mobile skins,elements", "elements,Windows Media Player Mobile skins"]
+ms.assetid: cb2876fb-632e-4c3d-8a6e-f7c8c4878c3f
+keywords:
+- Windows Media Player Mobile skins,user interfaces
+- Windows Media Player Mobile skins,elements
+- elements,Windows Media Player Mobile skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Interface Elements

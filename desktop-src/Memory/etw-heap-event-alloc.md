@@ -1,7 +1,12 @@
-﻿---
-Description: 'Memory management tracing event for a heap allocation operation.'
-ms.assetid: '572DEC3B-F909-45E5-849F-707AA62F2F5E'
-title: 'ETW\_HEAP\_EVENT\_ALLOC event'
+---
+Description: Memory management tracing event for a heap allocation operation.
+ms.assetid: 572DEC3B-F909-45E5-849F-707AA62F2F5E
+title: ETW\_HEAP\_EVENT\_ALLOC event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ETW\_HEAP\_EVENT\_ALLOC event

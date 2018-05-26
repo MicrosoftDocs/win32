@@ -1,7 +1,12 @@
 ---
-Description: 'The SelectParentalLevel method sets the specified parental level for subsequent playback.'
-ms.assetid: 'ffd1e204-6ed2-4190-8635-9f3866d38099'
+Description: The SelectParentalLevel method sets the specified parental level for subsequent playback.
+ms.assetid: ffd1e204-6ed2-4190-8635-9f3866d38099
 title: SelectParentalLevel Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SelectParentalLevel Method

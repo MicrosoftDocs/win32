@@ -1,8 +1,11 @@
 ---
 title: TestCaseCollection Clear method
 description: Deletes all TestCase objects from the TestCaseCollection.
-ms.assetid: '101BA829-05C9-415F-B73B-C6A71F975349'
-keywords: ["Clear method Access Execution Engine", "Clear method Access Execution Engine , TestCaseCollection interface", "TestCaseCollection interface Access Execution Engine , Clear method"]
+ms.assetid: 101BA829-05C9-415F-B73B-C6A71F975349
+keywords:
+- Clear method Access Execution Engine
+- Clear method Access Execution Engine , TestCaseCollection interface
+- TestCaseCollection interface Access Execution Engine , Clear method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCaseCollection::Clear method
@@ -44,8 +52,8 @@ The **TestCase** objects hold information from the **Iteration/TestCases/TestCas
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -58,9 +66,9 @@ The **TestCase** objects hold information from the **Iteration/TestCases/TestCas
 [**TestCaseCollection**](testcasecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

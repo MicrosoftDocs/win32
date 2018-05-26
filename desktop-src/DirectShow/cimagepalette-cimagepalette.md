@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '50fa573c-a244-4a1e-9fd9-2b33a3427c84'
-title: 'CImagePalette.CImagePalette constructor'
+Description: Constructor method.
+ms.assetid: 50fa573c-a244-4a1e-9fd9-2b33a3427c84
+title: CImagePalette.CImagePalette constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImagePalette.CImagePalette constructor
@@ -13,9 +18,9 @@ Constructor method.
 
 ```C++
 CImagePalette(
-   CBaseFilter *pBaseFilter,
-   CBaseWindow *pBaseWindow,
-   CDrawImage  *pDrawImage
+   CBaseFilter *pBaseFilter,
+   CBaseWindow *pBaseWindow,
+   CDrawImage  *pDrawImage
 );
 ```
 
@@ -64,9 +69,9 @@ Pointer to a **CDrawImage** object, which draws the video image. This parameter 
 [**CImagePalette Class**](cimagepalette.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

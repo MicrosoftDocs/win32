@@ -1,7 +1,12 @@
 ---
-Description: 'An access control entry (ACE) is an element in an access control list (ACL).'
-ms.assetid: '9cf4d796-3955-456b-9db9-ae9fa83752f6'
+Description: An access control entry (ACE) is an element in an access control list (ACL).
+ms.assetid: 9cf4d796-3955-456b-9db9-ae9fa83752f6
 title: Access Control Entries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Access Control Entries

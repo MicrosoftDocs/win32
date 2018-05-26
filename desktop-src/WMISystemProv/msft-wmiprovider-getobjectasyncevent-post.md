@@ -1,14 +1,16 @@
 ---
 title: MSFT\_WmiProvider\_GetObjectAsyncEvent\_Post class
-description: Represents an event generated immediately following completion of the provider's implementation of IWbemServices GetObjectAsync.
+description: Represents an event generated immediately following completion of the providers implementation of IWbemServices GetObjectAsync.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7d394dd7-c639-4f33-a6cf-68192262bbee'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 7d394dd7-c639-4f33-a6cf-68192262bbee
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiProvider_GetObjectAsyncEvent_Post class", "MSFT_WmiProvider_GetObjectAsyncEvent_Post class, described"]
+keywords:
+- MSFT_WmiProvider_GetObjectAsyncEvent_Post class
+- MSFT_WmiProvider_GetObjectAsyncEvent_Post class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiProvider\_GetObjectAsyncEvent\_Post class
@@ -57,7 +62,7 @@ class MSFT_WmiProvider_GetObjectAsyncEvent_Post : Msft_WmiProvider_OperationEven
   string ObjectPath;
   string Provider;
   uint32 ResultCode;
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   string StringParameter;
   string TransactionIdentifier;
   string User;
@@ -334,8 +339,8 @@ This property is inherited from [**Msft\_WmiProvider\_OperationEvent**](msft-wmi
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -364,9 +369,9 @@ WMI Troubleshooting
 [Receiving a WMI Event](https://msdn.microsoft.com/library/aa393013)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

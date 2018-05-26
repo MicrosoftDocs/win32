@@ -4,11 +4,16 @@ description: Groups can be placed in any container or organizational unit in a d
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '338a93dd-445d-4f74-a6d6-e5c8ba2e765e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 338a93dd-445d-4f74-a6d6-e5c8ba2e765e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Querying for Groups in a Domain AD", "Groups AD , Querying for Groups in a Domain"]
+keywords:
+- Querying for Groups in a Domain AD
+- Groups AD , Querying for Groups in a Domain
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Querying for Groups in a Domain

@@ -1,14 +1,20 @@
 ---
 title: RCDATA resource
 description: Defines a raw data resource for an application. Raw data resources permit the inclusion of binary data directly in the executable file.
-ms.assetid: '7535cb06-858b-4726-aaa5-43519f84d0e4'
-keywords: ["RCDATA resource Menus and Other Resources"]
+ms.assetid: 7535cb06-858b-4726-aaa5-43519f84d0e4
+keywords:
+- RCDATA resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - RCDATA
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RCDATA resource

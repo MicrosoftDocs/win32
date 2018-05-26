@@ -1,7 +1,12 @@
 ---
-Description: 'Changes the dirty flag for the current stream.'
-ms.assetid: '65fa7fbe-4fa7-45a3-91a4-4a3547b035b9'
-title: 'CPersistStream.SetDirty method'
+Description: Changes the dirty flag for the current stream.
+ms.assetid: 65fa7fbe-4fa7-45a3-91a4-4a3547b035b9
+title: CPersistStream.SetDirty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPersistStream.SetDirty method
@@ -13,7 +18,7 @@ Changes the dirty flag for the current stream.
 
 ```C++
 HRESULT SetDirty(
-   BOOL fDirty
+   BOOL fDirty
 );
 ```
 
@@ -52,9 +57,9 @@ Returns an **HRESULT** value.
 [**CPersistStream Class**](cpersiststream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

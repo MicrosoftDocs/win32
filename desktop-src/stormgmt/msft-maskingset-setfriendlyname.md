@@ -1,8 +1,11 @@
 ---
 title: SetFriendlyName method of the MSFT\_MaskingSet class
 description: Sets the friendly name for the masking set.
-ms.assetid: '4D64C38C-938E-4896-A316-C113BF13652A'
-keywords: ["SetFriendlyName method Windows Storage Management API", "SetFriendlyName method Windows Storage Management API , MSFT_MaskingSet class", "MSFT_MaskingSet class Windows Storage Management API , SetFriendlyName method"]
+ms.assetid: 4D64C38C-938E-4896-A316-C113BF13652A
+keywords:
+- SetFriendlyName method Windows Storage Management API
+- SetFriendlyName method Windows Storage Management API , MSFT_MaskingSet class
+- MSFT_MaskingSet class Windows Storage Management API , SetFriendlyName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetFriendlyName method of the MSFT\_MaskingSet class
@@ -22,8 +30,8 @@ Sets the friendly name for the masking set.
 
 ```mof
 UInt32 SetFriendlyName(
-  [in]  String FriendlyName,
-  [out] String ExtendedStatus
+  [in]  String FriendlyName,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -92,8 +100,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -106,9 +114,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_MaskingSet**](msft-maskingset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

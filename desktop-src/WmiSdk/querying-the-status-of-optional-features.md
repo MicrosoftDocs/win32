@@ -1,13 +1,16 @@
 ---
-Description: 'In Windows 7, WMI implemented the Win32\_OptionalFeature class. This class retrieves the status of the optional features that are present on a computer.'
+Description: In Windows 7, WMI implemented the Win32\_OptionalFeature class. This class retrieves the status of the optional features that are present on a computer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd756b0c0-b9f4-4b71-9f07-963a0dd5e585'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d756b0c0-b9f4-4b71-9f07-963a0dd5e585
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Querying the Status of Optional Features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Querying the Status of Optional Features

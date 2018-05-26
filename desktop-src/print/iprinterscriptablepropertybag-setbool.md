@@ -1,7 +1,12 @@
-﻿---
-Description: 'Writes a specified boolean property value.'
-ms.assetid: '8970833A-7CBA-40EB-85A8-60E7730C052F'
-title: 'IPrinterScriptablePropertyBag::SetBool method'
+---
+Description: Writes a specified boolean property value.
+ms.assetid: 8970833A-7CBA-40EB-85A8-60E7730C052F
+title: IPrinterScriptablePropertyBagSetBool method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptablePropertyBag::SetBool method

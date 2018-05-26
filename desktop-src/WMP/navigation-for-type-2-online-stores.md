@@ -1,8 +1,17 @@
 ---
 title: Navigation for Type 2 Online Stores
 description: Navigation for Type 2 Online Stores
-ms.assetid: 'a78cd246-65b0-46c2-ab6f-19818ed7136c'
-keywords: ["Windows Media Player online stores,navigating", "online stores,navigating", "type 2 online stores,navigating", "navigating type 2 online stores"]
+ms.assetid: a78cd246-65b0-46c2-ab6f-19818ed7136c
+keywords:
+- Windows Media Player online stores,navigating
+- online stores,navigating
+- type 2 online stores,navigating
+- navigating type 2 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Navigation for Type 2 Online Stores

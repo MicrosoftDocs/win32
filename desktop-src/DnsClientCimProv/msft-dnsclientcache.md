@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a record in a DNS client cache.'
-ms.assetid: '86422d6e-c0ab-46a0-aacf-f3fe017eef80'
-title: 'MSFT\_DNSClientCache class'
+Description: Represents a record in a DNS client cache.
+ms.assetid: 86422d6e-c0ab-46a0-aacf-f3fe017eef80
+title: MSFT\_DNSClientCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_DNSClientCache class
@@ -24,7 +29,7 @@ class MSFT_DNSClientCache : CIM_ManagedElement
   uint16 Type;
   uint32 TimeToLive;
   uint16 DataLength;
-  uint8  Section;
+  uint8  Section;
   string Data;
   uint32 Status;
 };
@@ -49,7 +54,7 @@ The **MSFT\_DNSClientCache** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -201,7 +206,7 @@ This property contains one of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -228,7 +233,7 @@ This property contains one of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -273,7 +278,7 @@ This property contains one of the following values:
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -283,8 +288,8 @@ This property contains one of the following values:
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported client<br/> | Windows 8<br/>                                                                        |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DnsClientCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsClientCim.dll</dt> </dl> |
@@ -298,9 +303,9 @@ This property contains one of the following values:
 [Dnsclientcim Provider Classes](dns-client-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

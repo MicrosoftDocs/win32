@@ -4,11 +4,15 @@ description: This topic shows how to define a new attribute when extending the A
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b8ac69ba-3b75-4e55-bf80-dabf2e80288a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b8ac69ba-3b75-4e55-bf80-dabf2e80288a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Defining a New Attribute AD"]
+keywords:
+- Defining a New Attribute AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Defining a New Attribute
@@ -56,14 +60,14 @@ To create a new attribute:
 
     
 
-     
+     
 
 -   Commit the new **attributeSchema** object to the schema container.
 -   Update the schema cache, if necessary. For more information, see [Updating the Schema Cache](updating-the-schema-cache.md).
 
- 
+ 
 
- 
+ 
 
 
 

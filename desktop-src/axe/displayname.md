@@ -1,14 +1,20 @@
 ---
 title: DisplayName element
 description: A human-readable name for the item.
-ms.assetid: 'E5536F10-44BE-461E-92B3-2ECF25E6DB41'
-keywords: ["DisplayName element Access Execution Engine"]
+ms.assetid: E5536F10-44BE-461E-92B3-2ECF25E6DB41
+keywords:
+- DisplayName element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - DisplayName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisplayName element
@@ -66,9 +72,9 @@ The DisplayName cannot be used as the assessments identity because the value can
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

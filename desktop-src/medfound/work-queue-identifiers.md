@@ -1,14 +1,19 @@
-﻿---
-Description: 'The following constants identify the standard Media Foundation work queues.'
-ms.assetid: 'c769f876-83ca-4b04-a054-22fa7146310e'
+---
+Description: The following constants identify the standard Media Foundation work queues.
+ms.assetid: c769f876-83ca-4b04-a054-22fa7146310e
 title: Work Queue Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Work Queue Identifiers
 
 The following constants identify the standard Media Foundation work queues.
 
-Applications should use MFASYNC\_CALLBACK\_QUEUE\_MULTITHREADED or use a work queue obtained from [**MFLockSharedWorkQueue**](mflocksharedworkqueue.md) if they want to control the execution priority. Note that the default platform work queue priorities can dynamically change when an application calls [**RegisterPlatformWithMMCSS**](mfregisterplatformwithmmcss.md). For more information about work queues, see [Work Queues](work-queues.md).
+Applications should use MFASYNC\_CALLBACK\_QUEUE\_MULTITHREADED or use a work queue obtained from [**MFLockSharedWorkQueue**](/windows/win32/mfapi/nf-mfapi-mflocksharedworkqueue?branch=master) if they want to control the execution priority. Note that the default platform work queue priorities can dynamically change when an application calls [**RegisterPlatformWithMMCSS**](/windows/win32/mfapi/nf-mfapi-mfregisterplatformwithmmcss?branch=master). For more information about work queues, see [Work Queues](work-queues.md).
 
 
 
@@ -26,7 +31,7 @@ Applications should use MFASYNC\_CALLBACK\_QUEUE\_MULTITHREADED or use a work qu
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_STANDARD"></span><span id="mfasync_callback_queue_standard"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_STANDARD</strong></dt> <dt>0x00000001</dt> </dl></td>
-<td style="text-align: left;">In most cases, applications should use <strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong>.<br/> This work queue is used for synchronous operations. Using the standard work queue may run the risk of deadlocking. Applications can create a private synchronous queue on top of the multithreaded queue by using [<strong>MFAllocateSerialWorkQueue</strong>](mfallocateserialworkqueue.md).<br/></td>
+<td style="text-align: left;">In most cases, applications should use <strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong>.<br/> This work queue is used for synchronous operations. Using the standard work queue may run the risk of deadlocking. Applications can create a private synchronous queue on top of the multithreaded queue by using [<strong>MFAllocateSerialWorkQueue</strong>](/windows/win32/mfapi/nf-mfapi-mfallocateserialworkqueue?branch=master).<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_RT"></span><span id="mfasync_callback_queue_rt"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_RT</strong></dt> <dt>0x00000002</dt> </dl></td>
@@ -40,9 +45,9 @@ Applications should use MFASYNC\_CALLBACK\_QUEUE\_MULTITHREADED or use a work qu
 <td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_TIMER"></span><span id="mfasync_callback_queue_timer"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_TIMER</strong></dt> <dt>0x00000004</dt> </dl></td>
 <td style="text-align: left;">Not for general application use.<br/> This work queue is used for periodic callbacks and scheduled work items. The following functions put work items in this queue:<br/>
 <ul>
-<li>[<strong>MFAddPeriodicCallback</strong>](mfaddperiodiccallback.md)</li>
-<li>[<strong>MFScheduleWorkItem</strong>](mfscheduleworkitem.md)</li>
-<li>[<strong>MFScheduleWorkItemEx</strong>](mfscheduleworkitemex.md)</li>
+<li>[<strong>MFAddPeriodicCallback</strong>](/windows/win32/mfapi/nf-mfapi-mfaddperiodiccallback?branch=master)</li>
+<li>[<strong>MFScheduleWorkItem</strong>](/windows/win32/mfapi/nf-mfapi-mfscheduleworkitem?branch=master)</li>
+<li>[<strong>MFScheduleWorkItemEx</strong>](/windows/win32/mfapi/nf-mfapi-mfscheduleworkitemex?branch=master)</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -65,7 +70,7 @@ In addition, the following constants are used in connection with work queues.
 | Constant/value                                                                                                                                                                                                                                                                                     | Description                                                                                                                                                                                                                                                                                                                          |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="MFASYNC_CALLBACK_QUEUE_UNDEFINED"></span><span id="mfasync_callback_queue_undefined"></span><dl> <dt>**MFASYNC\_CALLBACK\_QUEUE\_UNDEFINED**</dt> <dt>0x00000000</dt> </dl>           | Undefined work queue.<br/>                                                                                                                                                                                                                                                                                                     |
-| <span id="MFASYNC_CALLBACK_QUEUE_PRIVATE_MASK"></span><span id="mfasync_callback_queue_private_mask"></span><dl> <dt>**MFASYNC\_CALLBACK\_QUEUE\_PRIVATE\_MASK**</dt> <dt>0xFFFF0000</dt> </dl> | Bit mask to distinguish platform work queues from those created by calling [**MFAllocateWorkQueue**](mfallocateworkqueue.md).<br/> For a work queue created by [**MFAllocateWorkQueue**](mfallocateworkqueue.md), the following value is nonzero:<br/> `(identifier & MFASYNC_CALLBACK_QUEUE_PRIVATE_MASK)`<br/> |
+| <span id="MFASYNC_CALLBACK_QUEUE_PRIVATE_MASK"></span><span id="mfasync_callback_queue_private_mask"></span><dl> <dt>**MFASYNC\_CALLBACK\_QUEUE\_PRIVATE\_MASK**</dt> <dt>0xFFFF0000</dt> </dl> | Bit mask to distinguish platform work queues from those created by calling [**MFAllocateWorkQueue**](/windows/win32/mfapi/nf-mfapi-mfallocateworkqueue?branch=master).<br/> For a work queue created by [**MFAllocateWorkQueue**](/windows/win32/mfapi/nf-mfapi-mfallocateworkqueue?branch=master), the following value is nonzero:<br/> `(identifier & MFASYNC_CALLBACK_QUEUE_PRIVATE_MASK)`<br/> |
 | <span id="MFASYNC_CALLBACK_QUEUE_ALL"></span><span id="mfasync_callback_queue_all"></span><dl> <dt>**MFASYNC\_CALLBACK\_QUEUE\_ALL**</dt> <dt>0xFFFFFFFF</dt> </dl>                             | All platform work queues.<br/>                                                                                                                                                                                                                                                                                                 |
 
 

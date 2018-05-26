@@ -1,7 +1,12 @@
 ---
-Description: 'Arabic and many other languages have classical shapes for numbers that are different from the conventional western digits most often used on computers.'
-ms.assetid: '6b5267d8-b102-410c-bdc9-831555ca2f84'
+Description: Arabic and many other languages have classical shapes for numbers that are different from the conventional western digits most often used on computers.
+ms.assetid: 6b5267d8-b102-410c-bdc9-831555ca2f84
 title: Digit Shapes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Digit Shapes
@@ -22,11 +27,11 @@ Arabic and many other languages have classical shapes for numbers that are diffe
 
 Unicode provides separate code points for each digit shape. Thus, to access special language digit shapes, your application can use the relevant Unicode character codes for the digits above, U+0030 through U+0039. These codes are always displayed with the appropriate shape, subject to font availability.
 
-The Unicode character codes U+0030 through U+0039 nominally represent the European digits 0 through 9, but their digit shape can be altered. GDI and DirectWrite text APIs provide mechanisms for applications to control this behavior. (See, for instance, [**ScriptApplyDigitSubstitution**](scriptapplydigitsubstitution.md) or [**IDWriteTextAnalysisSink::SetNumberSubstitution**](directwrite.idwritetextanalysissink_setnumbersubstitution).) The behavior in some shell controls and user interface frameworks may respond to user locale settings for digit substitution; the [LOCALE\_IDIGITSUBSTITUTION](locale-idigitsubstitution.md) LCTYPE can be used to obtain default digit substitution settings for different locales or the current user's desktop settings for digit substitution.
+The Unicode character codes U+0030 through U+0039 nominally represent the European digits 0 through 9, but their digit shape can be altered. GDI and DirectWrite text APIs provide mechanisms for applications to control this behavior. (See, for instance, [**ScriptApplyDigitSubstitution**](/windows/win32/Usp10/nf-usp10-scriptapplydigitsubstitution?branch=master) or [**IDWriteTextAnalysisSink::SetNumberSubstitution**](directwrite.idwritetextanalysissink_setnumbersubstitution).) The behavior in some shell controls and user interface frameworks may respond to user locale settings for digit substitution; the [LOCALE\_IDIGITSUBSTITUTION](locale-idigitsubstitution.md) LCTYPE can be used to obtain default digit substitution settings for different locales or the current user's desktop settings for digit substitution.
 
 ## Native Digits
 
-Native digits are the digit shapes chosen by the user in the **Number** property sheet in the regional and language options portion of the Control Panel. To find the digit presentation preferred by the user, your application uses the [**GetLocaleInfo**](getlocaleinfo.md) or [**GetLocaleInfoEx**](getlocaleinfoex.md) function with the [LOCALE\_SNATIVEDIGITS](locale-snative-constants.md) constant representing the locale information.
+Native digits are the digit shapes chosen by the user in the **Number** property sheet in the regional and language options portion of the Control Panel. To find the digit presentation preferred by the user, your application uses the [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) or [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master) function with the [LOCALE\_SNATIVEDIGITS](locale-snative-constants.md) constant representing the locale information.
 
 > [!Note]  
 > Typically, Unicode digit codes are generated in runtime operating system routines. Therefore, common runtime operating systems must be upgraded for the application to inspect [LOCALE\_SNATIVEDIGITS](locale-snative-constants.md) appropriately.
@@ -63,10 +68,10 @@ The [ExtTextOut](gdi.exttextout), [GetCharacterPlacement](gdi.getcharacterplacem
 [About National Language Support](about-national-language-support.md)
 </dt> <dt>
 
-[**GetLocaleInfo**](getlocaleinfo.md)
+[**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master)
 </dt> <dt>
 
-[**GetLocaleInfoEx**](getlocaleinfoex.md)
+[**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master)
 </dt> </dl>
 
  

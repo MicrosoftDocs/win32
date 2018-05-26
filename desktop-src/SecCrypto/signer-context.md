@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a signed BLOB.'
-ms.assetid: 'c12d9007-c779-4363-8e28-6387a665a0d6'
-title: 'SIGNER\_CONTEXT structure'
+---
+Description: Contains a signed BLOB.
+ms.assetid: c12d9007-c779-4363-8e28-6387a665a0d6
+title: SIGNER\_CONTEXT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SIGNER\_CONTEXT structure

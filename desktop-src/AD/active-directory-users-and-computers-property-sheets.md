@@ -4,11 +4,15 @@ description: The Active Directory Users and Computers MMC snap-in is designed to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '38032d89-9549-475c-90aa-dac5cfe11084'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 38032d89-9549-475c-90aa-dac5cfe11084
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Users and Computers Property Sheets AD"]
+keywords:
+- Active Directory Users and Computers Property Sheets AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Active Directory Users and Computers Property Sheets
@@ -30,7 +34,7 @@ This documentation assumes that the reader is familiar with COM operation and co
 1.  Create a window that can be used to process messages. This can be an existing window or a special purpose window. This is known as the *hidden window*.
 2.  Create an OLE COM object that is derived from [**IDataObject**](_ole_idataobject). This data object must support the following data formats:
 
-    -   [**CFSTR\_DSOBJECTNAMES**](cfstr-dsobjectnames.md)—This data format contains a [**DSOBJECTNAMES**](dsobjectnames.md) that identifies the object that the property sheet applies to. When hosting a property sheet, the more significant members of the **DSOBJECTNAMES** structure are shown in the following list.
+    -   [**CFSTR\_DSOBJECTNAMES**](cfstr-dsobjectnames.md) This data format contains a [**DSOBJECTNAMES**](/windows/win32/Dsclient/ns-dsclient-dsobjectnames?branch=master) that identifies the object that the property sheet applies to. When hosting a property sheet, the more significant members of the **DSOBJECTNAMES** structure are shown in the following list.
 
         <dl> <dt>
 
@@ -44,11 +48,11 @@ This documentation assumes that the reader is familiar with COM operation and co
 <span id="aObjects"></span><span id="aobjects"></span><span id="AOBJECTS"></span>**aObjects**
 </dt> <dd>
 
-        Contains an array of [**DSBOJECT**](dsobject.md) structures. Each **DSBOJECT** structure represents a single directory object. The **cItems** member contains the number of elements in the array. Only the first object in this array is used. Other objects are ignored.
+        Contains an array of [**DSBOJECT**](/windows/win32/Dsclient/ns-dsclient-dsobject?branch=master) structures. Each **DSBOJECT** structure represents a single directory object. The **cItems** member contains the number of elements in the array. Only the first object in this array is used. Other objects are ignored.
 
         </dd> </dl>
 
-    -   [**CFSTR\_DSDISPLAYSPECOPTIONS**](cfstr-ds-display-spec-options.md)—This data format contains a [**DSDISPLAYSPECOPTIONS**](dsdisplayspecoptions.md) structure that contains data that will be used by the property pages, such as where to load the property pages from, the server and credentials to use, and so on. The more significant members of the **DSDISPLAYSPECOPTIONS** are shown in the following list.
+    -   [**CFSTR\_DSDISPLAYSPECOPTIONS**](cfstr-ds-display-spec-options.md) This data format contains a [**DSDISPLAYSPECOPTIONS**](/windows/win32/Dsclient/ns-dsclient-_dsdisplayspecoptions?branch=master) structure that contains data that will be used by the property pages, such as where to load the property pages from, the server and credentials to use, and so on. The more significant members of the **DSDISPLAYSPECOPTIONS** are shown in the following list.
 
         <dl> <dt>
 
@@ -66,11 +70,11 @@ This documentation assumes that the reader is familiar with COM operation and co
 
         
 
-         
+         
 
         </dd> </dl>
 
-    -   [**CFSTR\_DS\_PROPSHEETCONFIG**](cfstr-ds-propsheetconfig.md)—This data format contains a [**PROPSHEETCFG**](propsheetcfg.md) structure that contains property sheet host data. When hosting a property sheet, the more significant members of the **PROPSHEETCFG** structure contain the data shown in the following list.
+    -   [**CFSTR\_DS\_PROPSHEETCONFIG**](cfstr-ds-propsheetconfig.md) This data format contains a [**PROPSHEETCFG**](propsheetcfg.md) structure that contains property sheet host data. When hosting a property sheet, the more significant members of the **PROPSHEETCFG** structure contain the data shown in the following list.
 
         <dl> <dt>
 
@@ -200,9 +204,9 @@ The following C++ code example shows a safe way to define these elements that wi
 
 
 
- 
+ 
 
- 
+ 
 
 
 

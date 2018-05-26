@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides you with useful links to topics about the Windows Sockets Functions and Windows Sockets Structures.'
-ms.assetid: 'e0af2cd9-9cbf-44a1-aa4d-4df211b04782'
+Description: This topic provides you with useful links to topics about the Windows Sockets Functions and Windows Sockets Structures.
+ms.assetid: e0af2cd9-9cbf-44a1-aa4d-4df211b04782
 title: Winsock NSP Reference Links
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Winsock NSP Reference Links

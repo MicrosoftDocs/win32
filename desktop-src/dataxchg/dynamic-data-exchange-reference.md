@@ -1,7 +1,12 @@
 ---
 title: DDE Reference
 description: DDE Reference
-ms.assetid: 'e0fcded0-04a2-4135-bc2d-21bd6e54d29e'
+ms.assetid: e0fcded0-04a2-4135-bc2d-21bd6e54d29e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DDE Reference

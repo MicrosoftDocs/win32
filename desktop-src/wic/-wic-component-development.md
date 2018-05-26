@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Imaging Component (WIC) is an extensible platform that provides low-level API for digital images.'
-ms.assetid: 'c1405bfc-47f8-4aaf-a055-28557935141b'
+Description: The Windows Imaging Component (WIC) is an extensible platform that provides low-level API for digital images.
+ms.assetid: c1405bfc-47f8-4aaf-a055-28557935141b
 title: Component Development
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Component Development
@@ -19,7 +24,7 @@ The Windows Imaging Component (WIC) is an extensible platform that provides low-
 
 
 
- 
+ 
 
 ## See Also
 
@@ -35,9 +40,9 @@ The Windows Imaging Component (WIC) is an extensible platform that provides low-
 [Samples and Code Examples](-wic-samples.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

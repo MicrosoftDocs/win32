@@ -1,8 +1,9 @@
 ---
 title: EM\_GETLINECOUNT message
 description: Gets the number of lines in a multiline edit control. You can send this message to either an edit control or a rich edit control.
-ms.assetid: '9fe63c10-7395-4f98-a672-14960a70d14f'
-keywords: ["EM_GETLINECOUNT message Windows Controls"]
+ms.assetid: 9fe63c10-7395-4f98-a672-14960a70d14f
+keywords:
+- EM_GETLINECOUNT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETLINECOUNT message
@@ -45,7 +51,7 @@ The **EM\_GETLINECOUNT** message retrieves the total number of text lines, not j
 
 If the Wordwrap feature is enabled, the number of lines can change when the dimensions of the editing window change.
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -53,8 +59,8 @@ If the Wordwrap feature is enabled, the number of lines can change when the dime
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -72,12 +78,12 @@ If the Wordwrap feature is enabled, the number of lines can change when the dime
 [**EM\_LINELENGTH**](em-linelength.md)
 </dt> <dt>
 
-[**Edit\_GetLineCount**](edit-getlinecount.md)
+[**Edit\_GetLineCount**](/windows/win32/Windowsx/nf-windowsx-edit_getlinecount?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

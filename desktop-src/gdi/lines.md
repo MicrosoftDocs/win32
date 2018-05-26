@@ -1,7 +1,12 @@
 ---
-Description: 'A line is a set of highlighted pixels on a raster display (or a set of dots on a printed page) identified by two points: a starting point and an ending point.'
-ms.assetid: '538aa3c3-e13a-40dc-b977-3e353a7e9893'
+Description: A line is a set of highlighted pixels on a raster display (or a set of dots on a printed page) identified by two points a starting point and an ending point.
+ms.assetid: 538aa3c3-e13a-40dc-b977-3e353a7e9893
 title: Lines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Lines
@@ -15,13 +20,13 @@ When an application calls one of the line-drawing functions, graphics device int
 The simplest and most common DDA is the Bresenham, or incremental, DDA. A modified version of this algorithm draws lines in Windows. The incremental DDA is noted for its simplicity, but it is also noted for its inaccuracy. Because it rounds off to the nearest integer value, it sometimes fails to represent the original line requested by the application. The DDA used by GDI does not round off to the nearest integer. As a result, this new DDA produces output that is sometimes much closer in appearance to the original line requested by the application.
 
 > [!Note]  
-> If an application requires line output that cannot be achieved with the new DDA, it can draw its own lines by calling the [**LineDDA**](linedda.md) function and supplying a private DDA ([**LineDDAProc**](lineddaproc.md)). However, the **LineDDA** function draws lines much slower than the line-drawing functions. Do not use this function within an application if speed is a primary concern.
+> If an application requires line output that cannot be achieved with the new DDA, it can draw its own lines by calling the [**LineDDA**](/windows/win32/Wingdi/nf-wingdi-linedda?branch=master) function and supplying a private DDA ([**LineDDAProc**](/windows/win32/Wingdi/nc-wingdi-lineddaproc?branch=master)). However, the **LineDDA** function draws lines much slower than the line-drawing functions. Do not use this function within an application if speed is a primary concern.
 
  
 
-An application can use the new DDA to draw single lines and multiple, connected line segments. An application can draw a single line by calling the [**LineTo**](lineto.md) function. This function draws a line from the current position up to, but not including, a specified ending point. An application can draw a series of connected line segments by calling the [**Polyline**](polyline.md) function, supplying an array of points that specify the ending point of each line segment. An application can draw multiple, disjointed series of connected line segments by calling the [**PolyPolyline**](polypolyline.md) function, supplying the required ending points.
+An application can use the new DDA to draw single lines and multiple, connected line segments. An application can draw a single line by calling the [**LineTo**](/windows/win32/Wingdi/nf-wingdi-lineto?branch=master) function. This function draws a line from the current position up to, but not including, a specified ending point. An application can draw a series of connected line segments by calling the [**Polyline**](/windows/win32/Wingdi/nf-wingdi-polyline?branch=master) function, supplying an array of points that specify the ending point of each line segment. An application can draw multiple, disjointed series of connected line segments by calling the [**PolyPolyline**](/windows/win32/Wingdi/nf-wingdi-polypolyline?branch=master) function, supplying the required ending points.
 
-The following illustration shows line output created by calling the [**LineTo**](lineto.md), [**Polyline**](polyline.md), and [**PolyPolyline**](polypolyline.md) functions.
+The following illustration shows line output created by calling the [**LineTo**](/windows/win32/Wingdi/nf-wingdi-lineto?branch=master), [**Polyline**](/windows/win32/Wingdi/nf-wingdi-polyline?branch=master), and [**PolyPolyline**](/windows/win32/Wingdi/nf-wingdi-polypolyline?branch=master) functions.
 
 ![illustration showing a straight line, an "l"-shaped box, and two shapes that appear three-dimensional](images/cslcv-02.png)
 

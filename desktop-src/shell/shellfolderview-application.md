@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the object''s Application object.'
-ms.assetid: '305766b1-a19f-4743-a9e3-6837b3f8ffe0'
-title: 'ShellFolderView.Application property'
+---
+Description: Contains the objects Application object.
+ms.assetid: 305766b1-a19f-4743-a9e3-6837b3f8ffe0
+title: ShellFolderView.Application property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellFolderView.Application property

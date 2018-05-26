@@ -1,7 +1,12 @@
 ---
 title: Common Dialog Box Messages
 description: .
-ms.assetid: 'f08c19f8-c18d-4094-b8b6-161b0ceea239'
+ms.assetid: f08c19f8-c18d-4094-b8b6-161b0ceea239
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Dialog Box Messages

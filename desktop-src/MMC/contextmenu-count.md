@@ -4,11 +4,16 @@ description: The Count property returns the number of MenuItem objects that are 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1a773536-c44e-480c-a087-523d8695872d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 1a773536-c44e-480c-a087-523d8695872d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Count property MMC", "Count property MMC , ContextMenu object", "ContextMenu object MMC , Count property", "Count property MMC , ContextMenu interface", "ContextMenu interface MMC , Count property"]
+keywords:
+- Count property MMC
+- Count property MMC , ContextMenu object
+- ContextMenu object MMC , Count property
+- Count property MMC , ContextMenu interface
+- ContextMenu interface MMC , Count property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ContextMenu::Count property
@@ -54,8 +62,8 @@ nCount = objCtxMenu.Count
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -70,9 +78,9 @@ nCount = objCtxMenu.Count
 [**ContextMenu.Item**](contextmenu-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

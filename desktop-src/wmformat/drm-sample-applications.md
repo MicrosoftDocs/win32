@@ -1,8 +1,19 @@
 ---
 title: Sample Applications
 description: Sample Applications
-ms.assetid: '7bbcc238-2858-4a08-a76b-9502fc453f17'
-keywords: ["Windows Media Format SDK,sample applications", "Windows Media Format SDK,application samples", "digital rights management (DRM),sample applications", "DRM (digital rights management),sample applications", "digital rights management (DRM),application samples", "DRM (digital rights management),application samples"]
+ms.assetid: 7bbcc238-2858-4a08-a76b-9502fc453f17
+keywords:
+- Windows Media Format SDK,sample applications
+- Windows Media Format SDK,application samples
+- digital rights management (DRM),sample applications
+- DRM (digital rights management),sample applications
+- digital rights management (DRM),application samples
+- DRM (digital rights management),application samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Applications

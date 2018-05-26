@@ -1,8 +1,11 @@
 ---
 title: IMimeMessage GetAddressTable method
 description: Gets an IMimeAddressTable object for the message.
-ms.assetid: '097941e5-1bb0-4905-a1ff-0520f5371f85'
-keywords: ["GetAddressTable method Windows Mail (formerly Outlook Express)", "GetAddressTable method Windows Mail (formerly Outlook Express) , IMimeMessage interface", "IMimeMessage interface Windows Mail (formerly Outlook Express) , GetAddressTable method"]
+ms.assetid: 097941e5-1bb0-4905-a1ff-0520f5371f85
+keywords:
+- GetAddressTable method Windows Mail (formerly Outlook Express)
+- GetAddressTable method Windows Mail (formerly Outlook Express) , IMimeMessage interface
+- IMimeMessage interface Windows Mail (formerly Outlook Express) , GetAddressTable method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessage::GetAddressTable method
@@ -22,7 +30,7 @@ Gets an [**IMimeAddressTable**](oe-imimeaddresstable.md) object for the message.
 
 ```C++
 HRESULT GetAddressTable(
-  [out] IMimeAddressTable **ppTable
+  [out] IMimeAddressTable **ppTable
 );
 ```
 
@@ -56,7 +64,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,8 +78,8 @@ pMessage-&gt;[**BindToObject**](oe-imimemessagetree-bindtoobject.md)(HBODY\_ROOT
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -79,9 +87,9 @@ pMessage-&gt;[**BindToObject**](oe-imimemessagetree-bindtoobject.md)(HBODY\_ROOT
 
 
 
- 
+ 
 
- 
+ 
 
 
 

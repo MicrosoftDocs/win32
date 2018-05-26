@@ -1,7 +1,7 @@
 ---
 title: TBS Return Codes
 description: TBS uses the following codes to indicate the result of a function call.
-ms.assetid: 'a3888263-aa00-4b31-b51d-c6d448c1edb7'
+ms.assetid: a3888263-aa00-4b31-b51d-c6d448c1edb7
 topic_type:
 - apiref
 api_name:
@@ -32,6 +32,11 @@ api_location:
 - Tbs.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBS Return Codes
@@ -74,15 +79,15 @@ TBS uses the following codes to indicate the result of a function call.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Tbs.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the key length to be used in encryption.'
-ms.assetid: 'a91e75db-f81e-4908-b795-34be7a1c242d'
-title: 'CAPICOM\_ENCRYPTION\_KEY\_LENGTH enumeration'
+---
+Description: Defines the key length to be used in encryption.
+ms.assetid: a91e75db-f81e-4908-b795-34be7a1c242d
+title: CAPICOM\_ENCRYPTION\_KEY\_LENGTH enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_ENCRYPTION\_KEY\_LENGTH enumeration

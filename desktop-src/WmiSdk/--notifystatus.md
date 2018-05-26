@@ -1,13 +1,16 @@
 ---
-Description: 'Serves as the parent class for provider-defined error classes.'
+Description: Serves as the parent class for provider-defined error classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fc2747f5-cfbc-4d61-894d-4585a03dda3f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fc2747f5-cfbc-4d61-894d-4585a03dda3f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_NotifyStatus class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_NotifyStatus class
@@ -63,8 +66,8 @@ Providers should never create instances of **\_\_NotifyStatus** directly, becaus
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -76,9 +79,9 @@ Providers should never create instances of **\_\_NotifyStatus** directly, becaus
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: defi - ps
 description: Defines an integer constant value, which should be loaded any time a shader is set to a device.
-ms.assetid: 'c51982a1-45b4-48db-a49a-93165d61efd3'
+ms.assetid: c51982a1-45b4-48db-a49a-93165d61efd3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # defi - ps

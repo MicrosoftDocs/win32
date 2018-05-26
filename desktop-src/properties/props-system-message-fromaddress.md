@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '9f28141e-e795-4740-891b-cd8226481da7'
-title: 'System.Message.FromAddress'
+Description: .
+ms.assetid: 9f28141e-e795-4740-891b-cd8226481da7
+title: System.Message.FromAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.FromAddress

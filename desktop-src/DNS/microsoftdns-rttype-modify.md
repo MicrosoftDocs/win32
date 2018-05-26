@@ -1,8 +1,11 @@
 ---
 title: Modify method of the MicrosoftDNS\_RTType class
 description: The Modify method updates a Route Through (RT) Resource Record.
-ms.assetid: '80053ae6-8ce8-4aa1-be2b-aac9daa5dae3'
-keywords: ["Modify method DNS", "Modify method DNS , MicrosoftDNS_RTType class", "MicrosoftDNS_RTType class DNS , Modify method"]
+ms.assetid: 80053ae6-8ce8-4aa1-be2b-aac9daa5dae3
+keywords:
+- Modify method DNS
+- Modify method DNS , MicrosoftDNS_RTType class
+- MicrosoftDNS_RTType class DNS , Modify method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modify method of the MicrosoftDNS\_RTType class
@@ -22,10 +30,10 @@ The **Modify** method updates a Route Through (RT) Resource Record.
 
 ```mof
 void Modify(
-  [in, optional] uint32              TTL,
-  [in, optional] uint16              Preference,
-  [in, optional] string              IntermediateHost,
-  [out, ref]     MicrosoftDNS_RTType &amp;RR
+  [in, optional] uint32              TTL,
+  [in, optional] uint16              Preference,
+  [in, optional] string              IntermediateHost,
+  [out, ref]     MicrosoftDNS_RTType &amp;RR
 );
 ```
 
@@ -78,7 +86,7 @@ Any parameter not specified is left unchanged in the modified record.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -97,9 +105,9 @@ Any parameter not specified is left unchanged in the modified record.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

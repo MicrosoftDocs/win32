@@ -4,11 +4,14 @@ description: Imports, from another Remote Desktop license server, a Remote Deskt
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '69D65917-8B82-4C24-AFFA-BBE529D3883C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 69D65917-8B82-4C24-AFFA-BBE529D3883C
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ImportLicenseKeyPackOffline method Remote Desktop Services", "ImportLicenseKeyPackOffline method Remote Desktop Services , Win32_TSLicenseKeyPack class", "Win32_TSLicenseKeyPack class Remote Desktop Services , ImportLicenseKeyPackOffline method"]
+keywords:
+- ImportLicenseKeyPackOffline method Remote Desktop Services
+- ImportLicenseKeyPackOffline method Remote Desktop Services , Win32_TSLicenseKeyPack class
+- Win32_TSLicenseKeyPack class Remote Desktop Services , ImportLicenseKeyPackOffline method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ImportLicenseKeyPackOffline method of the Win32\_TSLicenseKeyPack class
@@ -28,10 +34,10 @@ Imports, from another Remote Desktop license server, a Remote Desktop Services l
 
 ```mof
 uint32 ImportLicenseKeyPackOffline(
-  [in]  string sLicenseKeyPackId,
-  [in]  string sSourceLSName,
-  [in]  string sSourceLSProductId,
-  [out] uint32 KeyPackId
+  [in]  string sLicenseKeyPackId,
+  [in]  string sSourceLSName,
+  [in]  string sSourceLSProductId,
+  [out] uint32 KeyPackId
 );
 ```
 
@@ -80,7 +86,7 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -94,9 +100,9 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 [**Win32\_TSLicenseKeyPack**](win32-tslicensekeypack.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

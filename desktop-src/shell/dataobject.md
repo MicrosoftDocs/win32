@@ -1,7 +1,12 @@
 ---
-Description: 'The data object is central to all Shell data transfers.'
-ms.assetid: 'c63d339e-ac62-4da1-b5ce-22d45a6a3413'
+Description: The data object is central to all Shell data transfers.
+ms.assetid: c63d339e-ac62-4da1-b5ce-22d45a6a3413
 title: Shell Data Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell Data Object
@@ -313,39 +318,39 @@ Targets should not use the [**IDataObject::GetData**](com.idataobject_getdata) m
 
 If the target can accept data from the data object, it should examine **grfKeyState** to determine whether any modifier keys have been pressed to modify the normal drop behavior. For instance, the default operation is typically a move, but depressing the CTRL key usually indicates a copy operation.
 
-While the cursor is over the target window, the target can use the [drag-and-drop helper object](#using-the-drag-and-drop-helper-object) to replace the data object's drag image with its own. If so, [**IDropTarget::DragEnter**](com.idroptarget_dragenter) should call [**IDropTargetHelper::DragEnter**](idroptargethelper-dragenter.md) to pass the information contained in the *DragEnter* parameters to the drag-and-drop helper object.
+While the cursor is over the target window, the target can use the [drag-and-drop helper object](#using-the-drag-and-drop-helper-object) to replace the data object's drag image with its own. If so, [**IDropTarget::DragEnter**](com.idroptarget_dragenter) should call [**IDropTargetHelper::DragEnter**](/windows/win32/shobjidl_core/nf-shobjidl_core-idroptargethelper-dragenter?branch=master) to pass the information contained in the *DragEnter* parameters to the drag-and-drop helper object.
 
 ### DragOver method
 
 As the cursor moves within the target window, the system periodically calls the [**IDropTarget::DragOver**](com.idroptarget_dragover) method. Its parameters provide the target with the location of the cursor and the state of keyboard modifier keys such as the CTRL key. **IDropTarget::DragOver** has much the same responsibilities as [**IDropTarget::DragEnter**](com.idroptarget_dragenter), and the implementations are usually very similar.
 
-If the target is using the drag-and-drop helper object, [**IDropTarget::DragOver**](com.idroptarget_dragover) should call [**IDropTargetHelper::DragOver**](idroptargethelper-dragover.md) to forward the information contained in the *DragOver* parameters to the drag-and-drop helper object.
+If the target is using the drag-and-drop helper object, [**IDropTarget::DragOver**](com.idroptarget_dragover) should call [**IDropTargetHelper::DragOver**](/windows/win32/shobjidl_core/nf-shobjidl_core-idroptargethelper-dragover?branch=master) to forward the information contained in the *DragOver* parameters to the drag-and-drop helper object.
 
 ### Drop method
 
 The system calls the [**IDropTarget::Drop**](com.idroptarget_drop) method to notify the target that the user has dropped the data, typically by releasing the mouse button. **IDropTarget::Drop** has the same parameters as [**IDropTarget::DragEnter**](com.idroptarget_dragenter). The target normally responds by extracting one or more formats from the data object. When finished, the target should set the *pdwEffect* parameter to a [**DROPEFFECT**](com.dropeffect_constants) value that indicates the outcome of the operation. For some types of Shell data transfer, the target must also call [**IDataObject::SetData**](com.idataobject_setdata) to pass a format with additional information on the outcome of the operation to the data object. For a detailed discussion, see [Handling Shell Data Transfer Scenarios](datascenarios.md).
 
-If the target is using the drag-and-drop helper object, [**IDropTarget::Drop**](com.idroptarget_drop) should call [**IDropTargetHelper::Drop**](idroptargethelper-drop.md) to forward the information contained in the [**IDropTargetHelper::DragOver**](idroptargethelper-dragover.md) parameters to the drag-and-drop helper object.
+If the target is using the drag-and-drop helper object, [**IDropTarget::Drop**](com.idroptarget_drop) should call [**IDropTargetHelper::Drop**](/windows/win32/shobjidl_core/nf-shobjidl_core-idroptargethelper-drop?branch=master) to forward the information contained in the [**IDropTargetHelper::DragOver**](/windows/win32/shobjidl_core/nf-shobjidl_core-idroptargethelper-dragover?branch=master) parameters to the drag-and-drop helper object.
 
 ## Using the Drag-and-Drop Helper Object
 
 The drag-and-drop helper object (CLSID\_DragDropHelper) is exported by the Shell to allow targets to specify the drag image while it is over the target window. To use the drag-and-drop helper object, create an in-process server object by calling [**CoCreateInstance**](com.cocreateinstance) with a class identifier (CLSID) of CLSID\_DragDropHelper. The drag-and-drop helper object exposes two interfaces that are used in the following way:
 
--   The [**IDragSourceHelper**](idragsourcehelper.md) interface allows the drop target to specify an icon to represent the data object.
--   The [**IDropTargetHelper**](idroptargethelper.md) interface allows the drop target to inform the drag-and-drop helper object of the cursor location, and to show or hide the data icon.
+-   The [**IDragSourceHelper**](/windows/win32/shobjidl_core/nn-shobjidl_core-idragsourcehelper?branch=master) interface allows the drop target to specify an icon to represent the data object.
+-   The [**IDropTargetHelper**](/windows/win32/shobjidl_core/nn-shobjidl_core-idroptargethelper?branch=master) interface allows the drop target to inform the drag-and-drop helper object of the cursor location, and to show or hide the data icon.
 
 ### Using the IDragSourceHelper Interface
 
-The [**IDragSourceHelper**](idragsourcehelper.md) interface is exposed by the drag-and-drop helper object to allow a drop target to provide the image that will be displayed while the cursor is over the target window. **IDragSourceHelper** provides two alternative ways to specify the bitmap to be used as a drag image:
+The [**IDragSourceHelper**](/windows/win32/shobjidl_core/nn-shobjidl_core-idragsourcehelper?branch=master) interface is exposed by the drag-and-drop helper object to allow a drop target to provide the image that will be displayed while the cursor is over the target window. **IDragSourceHelper** provides two alternative ways to specify the bitmap to be used as a drag image:
 
--   Drop targets that have a window can register a DI\_GETDRAGIMAGE window message for it by initializing the drag-and-drop helper object with [**IDragSourceHelper::InitializeFromWindow**](idragsourcehelper-initializefromwindow.md). When the target receives a DI\_GETDRAGIMAGE message, the handler puts the drag image bitmap information in the [**SHDRAGIMAGE**](shdragimage-str.md) structure that is passed as the message's *lParam* value.
--   Windowless drop targets specify a bitmap when they initialize the drag-and-drop helper object with [**IDragSourceHelper::InitializeFromBitmap**](idragsourcehelper-initializefrombitmap.md).
+-   Drop targets that have a window can register a DI\_GETDRAGIMAGE window message for it by initializing the drag-and-drop helper object with [**IDragSourceHelper::InitializeFromWindow**](/windows/win32/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefromwindow?branch=master). When the target receives a DI\_GETDRAGIMAGE message, the handler puts the drag image bitmap information in the [**SHDRAGIMAGE**](/windows/win32/Shobjidl_core/ns-shobjidl_core-shdragimage?branch=master) structure that is passed as the message's *lParam* value.
+-   Windowless drop targets specify a bitmap when they initialize the drag-and-drop helper object with [**IDragSourceHelper::InitializeFromBitmap**](/windows/win32/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefrombitmap?branch=master).
 
 ### Using the IDropTargetHelper Interface
 
-This interface allows the drop target to notify the drag-and-drop helper object when the cursor enters or leaves the target. While the cursor is over the target window, [**IDropTargetHelper**](idroptargethelper.md) allows the target to give the drag-and-drop helper object the information that the target receives through its [**IDropTarget**](com.idroptarget) interface.
+This interface allows the drop target to notify the drag-and-drop helper object when the cursor enters or leaves the target. While the cursor is over the target window, [**IDropTargetHelper**](/windows/win32/shobjidl_core/nn-shobjidl_core-idroptargethelper?branch=master) allows the target to give the drag-and-drop helper object the information that the target receives through its [**IDropTarget**](com.idroptarget) interface.
 
-Four of the [**IDropTargetHelper**](idroptargethelper.md) methods—[**IDropTargetHelper::DragEnter**](idroptargethelper-dragenter.md), [**IDropTargetHelper::DragLeave**](idroptargethelper-dragleave.md), [**IDropTargetHelper::DragOver**](idroptargethelper-dragover.md), and [**IDropTargetHelper::Drop**](idroptargethelper-drop.md)—are associated with the [**IDropTarget**](com.idroptarget) method of the same name. To use the drag-and-drop helper object, each of the **IDropTarget** methods should call the corresponding **IDropTargetHelper** method to forward the information to the drag-and-drop helper object. The fifth **IDropTargetHelper** method, [**IDropTargetHelper::Show**](idroptargethelper-show.md), notifies the drag-and-drop helper object to show or hide the drag image. This method is used when dragging over a target window in a low color-depth video mode. It allows the target to hide the drag image while it is painting the window.
+Four of the [**IDropTargetHelper**](/windows/win32/shobjidl_core/nn-shobjidl_core-idroptargethelper?branch=master) methods—[**IDropTargetHelper::DragEnter**](/windows/win32/shobjidl_core/nf-shobjidl_core-idroptargethelper-dragenter?branch=master), [**IDropTargetHelper::DragLeave**](/windows/win32/shobjidl_core/nf-shobjidl_core-idroptargethelper-dragleave?branch=master), [**IDropTargetHelper::DragOver**](/windows/win32/shobjidl_core/nf-shobjidl_core-idroptargethelper-dragover?branch=master), and [**IDropTargetHelper::Drop**](/windows/win32/shobjidl_core/nf-shobjidl_core-idroptargethelper-drop?branch=master)—are associated with the [**IDropTarget**](com.idroptarget) method of the same name. To use the drag-and-drop helper object, each of the **IDropTarget** methods should call the corresponding **IDropTargetHelper** method to forward the information to the drag-and-drop helper object. The fifth **IDropTargetHelper** method, [**IDropTargetHelper::Show**](/windows/win32/shobjidl_core/nf-shobjidl_core-idroptargethelper-show?branch=master), notifies the drag-and-drop helper object to show or hide the drag image. This method is used when dragging over a target window in a low color-depth video mode. It allows the target to hide the drag image while it is painting the window.
 
  
 

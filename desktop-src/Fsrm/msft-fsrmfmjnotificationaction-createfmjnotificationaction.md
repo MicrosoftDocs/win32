@@ -4,11 +4,14 @@ description: Creates a new instance of the MSFT\_FSRMFMJNotificationAction class
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ea4745a3-dd27-4aa7-b3c6-964683dec1e2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: ea4745a3-dd27-4aa7-b3c6-964683dec1e2
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["CreateFMJNotificationAction method File Server Resource Manager", "CreateFMJNotificationAction method File Server Resource Manager , MSFT_FSRMFMJNotificationAction class", "MSFT_FSRMFMJNotificationAction class File Server Resource Manager , CreateFMJNotificationAction method"]
+keywords:
+- CreateFMJNotificationAction method File Server Resource Manager
+- CreateFMJNotificationAction method File Server Resource Manager , MSFT_FSRMFMJNotificationAction class
+- MSFT_FSRMFMJNotificationAction class File Server Resource Manager , CreateFMJNotificationAction method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateFMJNotificationAction method of the MSFT\_FSRMFMJNotificationAction class
@@ -28,19 +34,19 @@ Creates a new instance of the [**MSFT\_FSRMFMJNotificationAction**](msft-fsrmfmj
 
 ```mof
 uint64 CreateFMJNotificationAction(
-  [in]  uint32                         Type,
-  [in]  string                         MailTo = "",
-  [in]  string                         MailCC = "",
-  [in]  string                         MailBCC = "",
-  [in]  string                         Subject = "",
-  [in]  string                         Body = "",
-  [in]  uint32                         AttachmentFileListSize = 0,
-  [in]  uint32                         EventType,
-  [in]  string                         Command,
-  [in]  string                         WorkingDirectory = "",
-  [in]  string                         CommandParameters = "",
-  [in]  uint32                         SecurityLevel = LocalService,
-  [out] MSFT_FSRMFMJNotificationAction NotificationAction
+  [in]  uint32                         Type,
+  [in]  string                         MailTo = "",
+  [in]  string                         MailCC = "",
+  [in]  string                         MailBCC = "",
+  [in]  string                         Subject = "",
+  [in]  string                         Body = "",
+  [in]  uint32                         AttachmentFileListSize = 0,
+  [in]  uint32                         EventType,
+  [in]  string                         Command,
+  [in]  string                         WorkingDirectory = "",
+  [in]  string                         CommandParameters = "",
+  [in]  uint32                         SecurityLevel = LocalService,
+  [out] MSFT_FSRMFMJNotificationAction NotificationAction
 );
 ```
 
@@ -53,7 +59,7 @@ uint64 CreateFMJNotificationAction(
 *Type* \[in\]
 </dt> <dd>
 
-Represents the type of the action, which determines the action that is taken in response to a quota or file screen event. See the [**FsrmActionType**](fsrmactiontype.md) enumeration.
+Represents the type of the action, which determines the action that is taken in response to a quota or file screen event. See the [**FsrmActionType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmactiontype?branch=master) enumeration.
 
 <dt>
 
@@ -93,49 +99,49 @@ The Action is to run a command or script.
 *MailTo* \[in\]
 </dt> <dd>
 
-A semicolon-separated list of email addresses that are to be on the To: line of the mail. "\[Admin Email\]" and "\[File Owner\]" are acceptable email addresses. This property is used if the **Type** property is 2 (Email). The default value is an empty string. See the [**MailTo**](ifsrmactionemail-mailto.md) property of the [**IFsrmActionEmail**](ifsrmactionemail.md) interface.
+A semicolon-separated list of email addresses that are to be on the To: line of the mail. "\[Admin Email\]" and "\[File Owner\]" are acceptable email addresses. This property is used if the **Type** property is 2 (Email). The default value is an empty string. See the [**MailTo**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactionemail-get_mailto?branch=master) property of the [**IFsrmActionEmail**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactionemail?branch=master) interface.
 
 </dd> <dt>
 
 *MailCC* \[in\]
 </dt> <dd>
 
-A semicolon-separated list of email addresses that are to be on the CC line of the mail. "\[Admin Email\]" and "\[File Owner\]" are acceptable email addresses. This property is used if the **Type** property is 2 (Email). The default value is an empty string. See the [**MailCc**](ifsrmactionemail-mailcc.md) property of the [**IFsrmActionEmail**](ifsrmactionemail.md) interface.
+A semicolon-separated list of email addresses that are to be on the CC line of the mail. "\[Admin Email\]" and "\[File Owner\]" are acceptable email addresses. This property is used if the **Type** property is 2 (Email). The default value is an empty string. See the [**MailCc**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactionemail-get_mailcc?branch=master) property of the [**IFsrmActionEmail**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactionemail?branch=master) interface.
 
 </dd> <dt>
 
 *MailBCC* \[in\]
 </dt> <dd>
 
-A semicolon-separated list of email addresses that are to be on the BCC line of the mail. "\[Admin Email\]" and "\[File Owner\]" are acceptable email addresses. This property is used if the **Type** property is 2 (Email). The default value is an empty string. See the [**MailBcc**](ifsrmactionemail-mailbcc.md) property of the [**IFsrmActionEmail**](ifsrmactionemail.md) interface.
+A semicolon-separated list of email addresses that are to be on the BCC line of the mail. "\[Admin Email\]" and "\[File Owner\]" are acceptable email addresses. This property is used if the **Type** property is 2 (Email). The default value is an empty string. See the [**MailBcc**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactionemail-get_mailbcc?branch=master) property of the [**IFsrmActionEmail**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactionemail?branch=master) interface.
 
 </dd> <dt>
 
 *Subject* \[in\]
 </dt> <dd>
 
-The subject of the email. This property is used if the **Type** property is 2 (Email) and is limited to 1KB. The default value is an empty string. See the [**MailSubject**](ifsrmactionemail-mailsubject.md) property of the [**IFsrmActionEmail**](ifsrmactionemail.md) interface.
+The subject of the email. This property is used if the **Type** property is 2 (Email) and is limited to 1KB. The default value is an empty string. See the [**MailSubject**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactionemail-get_mailsubject?branch=master) property of the [**IFsrmActionEmail**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactionemail?branch=master) interface.
 
 </dd> <dt>
 
 *Body* \[in\]
 </dt> <dd>
 
-The subject of the email. This property is used if the **Type** property is 1 (Event) or 2 (Email) and is limited to 10KB. The default value is an empty string. See the [**MessageText**](ifsrmactionemail-messagetext.md) property of the [**IFsrmActionEmail**](ifsrmactionemail.md) interface.
+The subject of the email. This property is used if the **Type** property is 1 (Event) or 2 (Email) and is limited to 10KB. The default value is an empty string. See the [**MessageText**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactionemail-get_messagetext?branch=master) property of the [**IFsrmActionEmail**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactionemail?branch=master) interface.
 
 </dd> <dt>
 
 *AttachmentFileListSize* \[in\]
 </dt> <dd>
 
-The number of files to include as an attachment to the sent email. When the value is 0, no list is attached. The default value is 0. See the [**AttachmentFileListSize**](ifsrmactionemail2-attachmentfilelistsize.md) property of the [**IFsrmActionEmail2**](ifsrmactionemail2.md) interface.
+The number of files to include as an attachment to the sent email. When the value is 0, no list is attached. The default value is 0. See the [**AttachmentFileListSize**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactionemail2-get_attachmentfilelistsize?branch=master) property of the [**IFsrmActionEmail2**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactionemail2?branch=master) interface.
 
 </dd> <dt>
 
 *EventType* \[in\]
 </dt> <dd>
 
-The event type of the action. This property is used if the **Type** property is 1 (Event.) See the [**FsrmEventType**](fsrmeventtype.md) enumeration.
+The event type of the action. This property is used if the **Type** property is 1 (Event.) See the [**FsrmEventType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmeventtype?branch=master) enumeration.
 
 <dt>
 
@@ -186,28 +192,28 @@ The event type is an error.
 *Command* \[in\]
 </dt> <dd>
 
-The full path to the executable program or script to run. The length must not exceed the value of **MAX\_PATH** (260). This property is used if the **Type** property is 3 (Command.) See the [**ExecutablePath**](ifsrmactioncommand-executablepath.md) property of [**IFsrmActionCommand**](ifsrmactioncommand.md).
+The full path to the executable program or script to run. The length must not exceed the value of **MAX\_PATH** (260). This property is used if the **Type** property is 3 (Command.) See the [**ExecutablePath**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactioncommand-get_executablepath?branch=master) property of [**IFsrmActionCommand**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactioncommand?branch=master).
 
 </dd> <dt>
 
 *WorkingDirectory* \[in\]
 </dt> <dd>
 
-An optional string representing a valid path to a folder. Remote paths are not supported. The length must not **MAX\_PATH** (260). The default value is an empty string. This property is used if the **Type** property is 3 (Command.) See the [**WorkingDirectory**](ifsrmactioncommand-workingdirectory.md) property of [**IFsrmActionCommand**](ifsrmactioncommand.md).
+An optional string representing a valid path to a folder. Remote paths are not supported. The length must not **MAX\_PATH** (260). The default value is an empty string. This property is used if the **Type** property is 3 (Command.) See the [**WorkingDirectory**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactioncommand-get_workingdirectory?branch=master) property of [**IFsrmActionCommand**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactioncommand?branch=master).
 
 </dd> <dt>
 
 *CommandParameters* \[in\]
 </dt> <dd>
 
-The parameters for the executable program or script to be run. The maximum length of the string is 10KB. This property is used if the **Type** property is 3 (Command.) See the [**Arguments**](ifsrmactioncommand-arguments.md) property of [**IFsrmActionCommand**](ifsrmactioncommand.md).
+The parameters for the executable program or script to be run. The maximum length of the string is 10KB. This property is used if the **Type** property is 3 (Command.) See the [**Arguments**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactioncommand-get_arguments?branch=master) property of [**IFsrmActionCommand**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactioncommand?branch=master).
 
 </dd> <dt>
 
 *SecurityLevel* \[in\]
 </dt> <dd>
 
-The account under which the executable program or script will be run. The default value is 2 (LocalService). This property is used if the **Type** property is 3 (Command.) See the [**FsrmAccountType**](fsrmaccounttype.md) enumeration.
+The account under which the executable program or script will be run. The default value is 2 (LocalService). This property is used if the **Type** property is 3 (Command.) See the [**FsrmAccountType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmaccounttype?branch=master) enumeration.
 
 <dt>
 
@@ -269,7 +275,7 @@ Returns a new [**MSFT\_FSRMFMJNotificationAction**](msft-fsrmfmjnotificationacti
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -283,9 +289,9 @@ Returns a new [**MSFT\_FSRMFMJNotificationAction**](msft-fsrmfmjnotificationacti
 [**MSFT\_FSRMFMJNotificationAction**](msft-fsrmfmjnotificationaction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

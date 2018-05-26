@@ -4,10 +4,13 @@ description: The Extended View extension snap-in is included with MMC 2.0. It is
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '56fa12d4-a804-468f-9df5-7b0db786f79f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 56fa12d4-a804-468f-9df5-7b0db786f79f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the Extended View Extension
@@ -47,7 +50,7 @@ The returned string for the **CCF\_DESCRIPTION** property determines the text th
 The **CCF\_DESCRIPTION** and **CCF\_HTML\_DETAILS** properties can be provided by a snap-in in two different ways:
 
 -   One way is to treat these properties similar to MMC 1.x [Clipboard Formats](clipboard-formats.md). The snap-in can support a clipboard format, which is the same name as the property name (that is, CCF\_HTML\_DETAILS). The data object for the selected node is queried for this clipboard format by means of the IDataObject::GetDataHere method. The Extended View snap-in will first query for the CCF\_DESCRIPTION or CCF\_HTML\_DETAILS clipboard format by using the HGLOBAL medium in a call to the IDataObject::GetDataHere method. If this medium is not supported, then the Extended View snap-in will requery for the clipboard format using the IStream medium in a call to the IDataObject::GetDataHere method.
--   The second way for a snap-in to provide values for the **CCF\_DESCRIPTION** and **CCF\_HTML\_DETAILS** properties is to implement the [**INodeProperties**](inodeproperties.md) interface. The **INodeProperties** interface contains a single method, [**GetProperty**](inodeproperties-getproperty.md), which is used to return text-only property values. The **INodeProperties** interface is queried (using IUnknown::QueryInterface) from the [**IComponentData**](icomponentdata.md) interface for scope nodes and from the [**IComponent**](icomponent.md) interface for result items.
+-   The second way for a snap-in to provide values for the **CCF\_DESCRIPTION** and **CCF\_HTML\_DETAILS** properties is to implement the [**INodeProperties**](inodeproperties.md) interface. The **INodeProperties** interface contains a single method, [**GetProperty**](inodeproperties-getproperty.md), which is used to return text-only property values. The **INodeProperties** interface is queried (using IUnknown::QueryInterface) from the [**IComponentData**](icomponentdata.md) interface for scope nodes and from the [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) interface for result items.
 
 A primary snap-in registers the Extended View extension for any node type that is extended. The CLSID of the Extended View extension is {B708457E-DB61-4C55-A92F-0D4B5E9B1224}. For more information about view extension registration, see [Extending Views](extending-views.md) and [Registration Requirements for Extension Snap-ins](registration-requirements-for-extension-snap-ins.md).
 

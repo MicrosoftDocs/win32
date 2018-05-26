@@ -1,7 +1,12 @@
 ---
 title: Direct3D 12 Programming Environment Setup
 description: Describes the installation, tools and supported libraries that make up a productive Direct3D 12 development environment.
-ms.assetid: 'B2288866-E95F-46B8-A7A1-19888F029C03'
+ms.assetid: B2288866-E95F-46B8-A7A1-19888F029C03
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 12 Programming Environment Setup
@@ -97,7 +102,7 @@ The debug layer provides extensive additional parameter and consistency validati
 
 The header required to support the debugging layer, D3D12SDKLayers.h, is included by default from d3d12.h.
 
-When the debug layer lists memory leaks, it outputs a list of object interface pointers along with their friendly names. The default friendly name is "&lt;unnamed&gt;". You can set the friendly name by using the [**ID3D12Object::SetName**](id3d12object-setname.md) method. Typically, you should compile these calls out of your production version.
+When the debug layer lists memory leaks, it outputs a list of object interface pointers along with their friendly names. The default friendly name is "&lt;unnamed&gt;". You can set the friendly name by using the [**ID3D12Object::SetName**](/windows/win32/D3D12/nf-d3d12-id3d12object-setname?branch=master) method. Typically, you should compile these calls out of your production version.
 
 We recommend that you use the debug layer to debug your apps to ensure that they are clean of errors and warnings. The debug layer helps you write Direct3D 12 code. In addition, your productivity can increase when you use the debug layer because you can immediately see the causes of obscure rendering errors or even black screens at their source. The debug layer provides warnings for many issues. For example:
 

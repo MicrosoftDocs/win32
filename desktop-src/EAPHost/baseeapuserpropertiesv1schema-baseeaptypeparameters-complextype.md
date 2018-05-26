@@ -1,14 +1,20 @@
 ---
 title: BaseEapTypeParameters Complex Type
 description: Is a base element of the method-specific element that appears in the derived element of the baseeapuserpropertiesv1 schema.
-ms.assetid: 'ef67eec4-ecb2-4e1c-8d48-859ca7a4607b'
-keywords: ["BaseEapTypeParameters complex type EAPHost"]
+ms.assetid: ef67eec4-ecb2-4e1c-8d48-859ca7a4607b
+keywords:
+- BaseEapTypeParameters complex type EAPHost
 topic_type:
 - apiref
 api_name:
 - BaseEapTypeParameters
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BaseEapTypeParameters Complex Type
@@ -31,8 +37,8 @@ The **BaseEapTypeParameters** complex type is a base element of the method-speci
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -46,9 +52,9 @@ The **BaseEapTypeParameters** complex type is a base element of the method-speci
 [baseeapuserpropertiesv1 Schema](baseeapuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: IBackgroundCopyJob5 interface
 description: Use this interface to query or set several optional behaviors of a job.
-ms.assetid: 'C4706E10-40E6-489B-9772-59D581781038'
-keywords: ["IBackgroundCopyJob5 interface", "IBackgroundCopyJob5 interface, described"]
+ms.assetid: C4706E10-40E6-489B-9772-59D581781038
+keywords:
+- IBackgroundCopyJob5 interface
+- IBackgroundCopyJob5 interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob5 interface
@@ -38,7 +45,7 @@ The **IBackgroundCopyJob5** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -46,7 +53,7 @@ The **IBackgroundCopyJob5** interface has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -63,9 +70,9 @@ The **IBackgroundCopyJob5** interface has these methods.
 [**IBackgroundCopyJob**](ibackgroundcopyjob-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

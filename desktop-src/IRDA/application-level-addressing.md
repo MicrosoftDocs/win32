@@ -1,8 +1,15 @@
 ---
 title: Application-level Addressing
 description: Application-level addressing is the ability of a client application to request a connection to a particular server application (specifically, to a particular socket or communications endpoint).
-ms.assetid: 'e4c367ee-3f05-4c6d-8376-8da9267bfb0e'
-keywords: ["programming IrDA , application-level addressing", "application-level addressing IrDA"]
+ms.assetid: e4c367ee-3f05-4c6d-8376-8da9267bfb0e
+keywords:
+- programming IrDA , application-level addressing
+- application-level addressing IrDA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application-level Addressing

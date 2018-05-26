@@ -1,7 +1,12 @@
 ---
-Description: 'The following example demonstrates how a typical client would obtain Schannel credentials.'
-ms.assetid: '8f912af8-fd64-467a-b154-28c60cb14929'
+Description: The following example demonstrates how a typical client would obtain Schannel credentials.
+ms.assetid: 8f912af8-fd64-467a-b154-28c60cb14929
 title: Getting Schannel Credentials
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Schannel Credentials
@@ -75,7 +80,7 @@ The primary difference between the client-side and server-side request for crede
 The example function *getServerCertificate* is a placeholder function for this application-specific activity. For an example implementation of the *getServerCertificate* function, see [Getting a Certificate](getting-a-certificate-for-schannel.md).
 
 > [!Note]  
-> When requesting credentials to be used by the server, change the third (*fCredentialUse*) parameter of the [**AcquireCredentialsHandle**](acquirecredentialshandle--general-.md) function from SECPKG\_CRED\_OUTBOUND to SECPKG\_CRED\_INBOUND.
+> When requesting credentials to be used by the server, change the third (*fCredentialUse*) parameter of the [**AcquireCredentialsHandle**](/windows/win32/Sspi/?branch=master) function from SECPKG\_CRED\_OUTBOUND to SECPKG\_CRED\_INBOUND.
 
  
 

@@ -1,15 +1,18 @@
-﻿---
-Description: 'The abstract base class for all concrete raw performance counter classes.'
+---
+Description: The abstract base class for all concrete raw performance counter classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3c457996-54d9-4425-8a57-15176d027e3a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3c457996-54d9-4425-8a57-15176d027e3a
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_PerfRawData class'
+title: Win32\_PerfRawData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PerfRawData class

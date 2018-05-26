@@ -1,8 +1,34 @@
 ---
 title: Gadgets for Windows Sidebar Packaging, Updating, and Refreshing
 description: This overview describes how to install or refresh a gadget when updates are made to gadget files during development, debugging, and distribution.
-ms.assetid: 'b3441515-744d-4b71-b25b-19d66c13864d'
-keywords: ["Windows Sidebar,updates", "Sidebar,updates", "gadgets,updates", "Windows Sidebar,refreshing", "Sidebar,refreshing", "gadgets,refreshing", "Windows Sidebar,packaging", "Sidebar,packaging", "gadgets,packaging", "Windows Sidebar,ZIP files", "Sidebar,ZIP files", "gadgets,ZIP files", "Windows Sidebar,CAB files", "Sidebar,CAB files", "gadgets,CAB files", "Windows Sidebar,manifest", "Sidebar,manifest", "gadgets,manifest", "Windows Sidebar,Web services", "Sidebar,Web services", "gadgets,Web services"]
+ms.assetid: b3441515-744d-4b71-b25b-19d66c13864d
+keywords:
+- Windows Sidebar,updates
+- Sidebar,updates
+- gadgets,updates
+- Windows Sidebar,refreshing
+- Sidebar,refreshing
+- gadgets,refreshing
+- Windows Sidebar,packaging
+- Sidebar,packaging
+- gadgets,packaging
+- Windows Sidebar,ZIP files
+- Sidebar,ZIP files
+- gadgets,ZIP files
+- Windows Sidebar,CAB files
+- Sidebar,CAB files
+- gadgets,CAB files
+- Windows Sidebar,manifest
+- Sidebar,manifest
+- gadgets,manifest
+- Windows Sidebar,Web services
+- Sidebar,Web services
+- gadgets,Web services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gadgets for Windows Sidebar Packaging, Updating, and Refreshing

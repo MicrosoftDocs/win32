@@ -1,7 +1,12 @@
 ---
 Description: Selecting a Decoder in DirectShow Editing Services
-ms.assetid: 'dc6b0445-7fc1-4331-9000-a652b44a8364'
+ms.assetid: dc6b0445-7fc1-4331-9000-a652b44a8364
 title: Selecting a Decoder in DirectShow Editing Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selecting a Decoder in DirectShow Editing Services
@@ -12,9 +17,9 @@ When [DirectShow Editing Services](directshow-editing-services.md) (DES) renders
 
 A user might install several decoders that are capable of decoding a particular file. When multiple decoders are available, DES uses the [Intelligent Connect](intelligent-connect.md) algorithm to select the decoder.
 
-There is no way for the application to specify directly which decoder to use. However, you can choose the decoder indirectly through the [**IAMGraphBuilderCallback**](iamgraphbuildercallback.md) callback interface. By implementing this interface in your application, you can receive notifications during the graph-building process and reject certain filters from the graph.
+There is no way for the application to specify directly which decoder to use. However, you can choose the decoder indirectly through the [**IAMGraphBuilderCallback**](/windows/win32/Strmif/nn-strmif-iamgraphbuildercallback?branch=master) callback interface. By implementing this interface in your application, you can receive notifications during the graph-building process and reject certain filters from the graph.
 
-Start by implementing a class that exposes the [**IAMGraphBuilderCallback**](iamgraphbuildercallback.md) interface:
+Start by implementing a class that exposes the [**IAMGraphBuilderCallback**](/windows/win32/Strmif/nn-strmif-iamgraphbuildercallback?branch=master) interface:
 
 
 ```C++
@@ -67,11 +72,11 @@ hr = pRender->SetFilterGraph(pGraph);
 
 
 
-When the project is rendered, the application's [**IAMGraphBuilderCallback::SelectedFilter**](iamgraphbuildercallback-selectedfilter.md) method is called immediately before the Filter Graph Manager creates a new filter. The **SelectedFilter** method receives a pointer to an **IMoniker** interface that represents a moniker for the filter. Examine the moniker, and if you decide to reject the filter, return a failure code from the **SelectedFilter** method.
+When the project is rendered, the application's [**IAMGraphBuilderCallback::SelectedFilter**](/windows/win32/Strmif/nf-strmif-iamgraphbuildercallback-selectedfilter?branch=master) method is called immediately before the Filter Graph Manager creates a new filter. The **SelectedFilter** method receives a pointer to an **IMoniker** interface that represents a moniker for the filter. Examine the moniker, and if you decide to reject the filter, return a failure code from the **SelectedFilter** method.
 
 The difficult part is to identify which monikers represent decoders — and in particular, which monikers represent decoders that you want to reject. One solution is the following:
 
--   Before rendering the project, use the [**IFilterMapper2::EnumMatchingFilters**](ifiltermapper2-enummatchingfilters.md) method to create a list of filters that are registered as accepting the desired input type. For video or audio compression types, this list should map to a set of decoders.
+-   Before rendering the project, use the [**IFilterMapper2::EnumMatchingFilters**](/windows/win32/Strmif/nf-strmif-ifiltermapper2-enummatchingfilters?branch=master) method to create a list of filters that are registered as accepting the desired input type. For video or audio compression types, this list should map to a set of decoders.
 -   The **EnumMatchingFilters** method returns a collection of monikers. For each moniker in the collection, get the **DisplayName** property, as described in [Using the Filter Mapper](using-the-filter-mapper.md).
 -   Store a list of the display names, but omit the display name that matches the filter you want to use for decoding. Display names for software filters have the following form:
 

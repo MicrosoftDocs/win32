@@ -1,8 +1,9 @@
 ---
 title: LB\_SELECTSTRING message
 description: Searches a list box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected.
-ms.assetid: 'fd443ade-665d-439a-8951-3d9fed50695b'
-keywords: ["LB_SELECTSTRING message Windows Controls"]
+ms.assetid: fd443ade-665d-439a-8951-3d9fed50695b
+keywords:
+- LB_SELECTSTRING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_SELECTSTRING message
@@ -24,9 +30,9 @@ Searches a list box for an item that begins with the characters in a specified s
 *wParam* 
 </dt> <dd>
 
-The zero-based index of the item before the first item to be searched. When the search reaches the bottom of the list box, it continues from the top of the list box back to the item specified by the *wParam* parameter. If *wParam* is –1, the entire list box is searched from the beginning.
+The zero-based index of the item before the first item to be searched. When the search reaches the bottom of the list box, it continues from the top of the list box back to the item specified by the *wParam* parameter. If *wParam* is  1, the entire list box is searched from the beginning.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
 
 </dd> <dt>
 
@@ -57,8 +63,8 @@ If the list box has the owner-drawn style but not the [**LBS\_HASSTRINGS**](list
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -79,9 +85,9 @@ If the list box has the owner-drawn style but not the [**LBS\_HASSTRINGS**](list
 [**LB\_INSERTSTRING**](lb-insertstring.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Searches through a shader for a particular comment. The comment is identified by a four-character code (FOURCC) in the first DWORD of the comment.'
-ms.assetid: '86ab8330-fd48-4d14-835c-92399c6c8a38'
+---
+Description: Searches through a shader for a particular comment. The comment is identified by a four-character code (FOURCC) in the first DWORD of the comment.
+ms.assetid: 86ab8330-fd48-4d14-835c-92399c6c8a38
 title: D3DXFindShaderComment function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFindShaderComment function

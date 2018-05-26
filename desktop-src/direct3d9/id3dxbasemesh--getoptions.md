@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the mesh options enabled for this mesh at creation time.'
-ms.assetid: '4be990d7-77ab-4273-b852-e6283a89ac6c'
-title: 'ID3DXBaseMesh::GetOptions method'
+---
+Description: Retrieves the mesh options enabled for this mesh at creation time.
+ms.assetid: 4be990d7-77ab-4273-b852-e6283a89ac6c
+title: ID3DXBaseMeshGetOptions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseMesh::GetOptions method

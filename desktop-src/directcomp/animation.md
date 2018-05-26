@@ -1,7 +1,12 @@
 ---
 title: Animation
 description: This topic discusses the basics of Microsoft DirectComposition animation.
-ms.assetid: '65DA3971-97C0-4B59-BC67-287AAEAAE340'
+ms.assetid: 65DA3971-97C0-4B59-BC67-287AAEAAE340
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Animation
@@ -47,11 +52,11 @@ DirectComposition runs animations on a separate thread. You can start an animati
 
 DirectComposition animates an object property based on an animation function that you define. An *animation function* is a construct that specifies how the value of an object property changes over a period of time. For example, you could define an animation function that changes the value of a property from 1 to 360 over the course of 4 seconds. Then, if you apply the animation function to the Angle property of a 2D rotate transform object, and then apply the transform object to the Transform property of a visual, the animation function would rotate the visual in a full circle over the course of 4 seconds.
 
-An animation function is represented by an *animation object* created by a call to the [**IDCompositionDevice::CreateAnimation**](idcompositiondevice-createanimation.md) method. You create an animation function by using the methods of an animation object's [**IDCompositionAnimation**](idcompositionanimation.md) interface to append *animation segments*, one at a time, to the array that defines the animation function. When appending a segment, you specify a zero-based offset that marks the begin time of the segment, relative to the beginning of the animation function. Animation segments must be appended in increasing order of begin times. Attempting to append an animation segment whose begin time is before or equal to a preceding segment will fail. An animation function can have a specified end time, indicating when the function should conclude.
+An animation function is represented by an *animation object* created by a call to the [**IDCompositionDevice::CreateAnimation**](/windows/win32/Dcomp/?branch=master) method. You create an animation function by using the methods of an animation object's [**IDCompositionAnimation**](/windows/win32/DcompAnimation/nn-dcompanimation-idcompositionanimation?branch=master) interface to append *animation segments*, one at a time, to the array that defines the animation function. When appending a segment, you specify a zero-based offset that marks the begin time of the segment, relative to the beginning of the animation function. Animation segments must be appended in increasing order of begin times. Attempting to append an animation segment whose begin time is before or equal to a preceding segment will fail. An animation function can have a specified end time, indicating when the function should conclude.
 
 Unless otherwise specified, an animation function starts when the Desktop Window Manager (DWM) receives the command to execute the animation. Each segment runs until the begin time of the next segment is reached. Any discontinuous changes that occur in the animated property value between segments are considered to be discrete changes.
 
-You apply an animation function to a property by setting the property value to the [**IDCompositionAnimation**](idcompositionanimation.md) pointer of the animation object that represents the animation function. The same animation object can be applied to multiple properties of the same object, as well as to the properties of other objects created by the same device.
+You apply an animation function to a property by setting the property value to the [**IDCompositionAnimation**](/windows/win32/DcompAnimation/nn-dcompanimation-idcompositionanimation?branch=master) pointer of the animation object that represents the animation function. The same animation object can be applied to multiple properties of the same object, as well as to the properties of other objects created by the same device.
 
 ## Animation segments
 
@@ -73,7 +78,7 @@ and the second transition occurs along this one:
 
 ![diagram of an animation function with two cubic segments](images/cubicsegment.png)
 
-You add a cubic segment to an animation function by using the [**IDCompositionAnimation::AddCubic**](idcompositionanimation-addcubic.md) method.
+You add a cubic segment to an animation function by using the [**IDCompositionAnimation::AddCubic**](/windows/win32/DcompAnimation/nf-dcompanimation-idcompositionanimation-addcubic?branch=master) method.
 
 ### Sinusoidal segment
 
@@ -81,7 +86,7 @@ The timing of a sinusoidal segment is defined by the following equation:
 
 *x*(*t*) = *Bias* + *Amplitude* \* sin(*t*\**Frequency*\*2\*PI + *Phase*\*PI/180.0)
 
-You add a sinusoidal segment to an animation function by using the [**IDCompositionAnimation::AddSinusoidal**](idcompositionanimation-addsinusoidal.md) method.
+You add a sinusoidal segment to an animation function by using the [**IDCompositionAnimation::AddSinusoidal**](/windows/win32/DcompAnimation/nf-dcompanimation-idcompositionanimation-addsinusoidal?branch=master) method.
 
 ### Repeat segment
 
@@ -91,17 +96,17 @@ The following diagram shows an animation function that consists two cubic segmen
 
 ![diagram of an animation function that contains two cubic segments and one repeat segment](images/repeatsegment.png)
 
-To add a repeat segment to an animation function, use the [**IDCompositionAnimation::AddRepeat**](idcompositionanimation-addrepeat.md) method.
+To add a repeat segment to an animation function, use the [**IDCompositionAnimation::AddRepeat**](/windows/win32/DcompAnimation/nf-dcompanimation-idcompositionanimation-addrepeat?branch=master) method.
 
 ### End segment
 
 After constructing an animation function from segments, you can append an end segment to cause the animation function to end at a particular time. If you do not append an end segment, the final segment of the animation function runs indefinitely.
 
-You append an end segment by calling the [**IDCompositionAnimation::End**](idcompositionanimation-end.md) method, specifying an offset from the beginning of the animation function which indicates the function's end point. The offset must be greater than the beginning offset of the preceding segment. Also, an end segment cannot be used as the first primitive in an animation function.
+You append an end segment by calling the [**IDCompositionAnimation::End**](/windows/win32/DcompAnimation/nf-dcompanimation-idcompositionanimation-end?branch=master) method, specifying an offset from the beginning of the animation function which indicates the function's end point. The offset must be greater than the beginning offset of the preceding segment. Also, an end segment cannot be used as the first primitive in an animation function.
 
-When you call [**End**](idcompositionanimation-end.md), you also specify a final value for the property being animated. The property is set to the specified final value at the moment when the end point of the animation function is reached.
+When you call [**End**](/windows/win32/DcompAnimation/nf-dcompanimation-idcompositionanimation-end?branch=master), you also specify a final value for the property being animated. The property is set to the specified final value at the moment when the end point of the animation function is reached.
 
-After appending an end segment, you cannot append any other segments to the animation function. That is, all method calls on the animation object fail except [**IDCompositionAnimation::Reset**](idcompositionanimation-reset.md). Calling **Reset** returns the animation object to clean state in which the animation function contains no segments, at which point you can once again add segments.
+After appending an end segment, you cannot append any other segments to the animation function. That is, all method calls on the animation object fail except [**IDCompositionAnimation::Reset**](/windows/win32/DcompAnimation/nf-dcompanimation-idcompositionanimation-reset?branch=master). Calling **Reset** returns the animation object to clean state in which the animation function contains no segments, at which point you can once again add segments.
 
 ## Compatibility with Windows Animation Manager
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the information used to enable a provider.'
-ms.assetid: '6FC5EF54-2D05-4246-A8E8-7FDA0ABA0D4B'
-title: 'ENABLE\_TRACE\_PARAMETERS\_V1 structure'
+---
+Description: Defines the information used to enable a provider.
+ms.assetid: 6FC5EF54-2D05-4246-A8E8-7FDA0ABA0D4B
+title: ENABLE\_TRACE\_PARAMETERS\_V1 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ENABLE\_TRACE\_PARAMETERS\_V1 structure
@@ -37,7 +42,7 @@ Set to **ENABLE\_TRACE\_PARAMETERS\_VERSION**.
 **EnableProperty**
 </dt> <dd>
 
-Optional information that ETW can include when writing the event. The data is written to the [**extended data item**](event-header-extended-data-item.md) section of the event. To include the optional information, specify one or more of the following flags; otherwise, set to zero.
+Optional information that ETW can include when writing the event. The data is written to the [**extended data item**](/windows/win32/relogger/ns-evntcons-_event_header_extended_data_item?branch=master) section of the event. To include the optional information, specify one or more of the following flags; otherwise, set to zero.
 
 
 
@@ -45,7 +50,7 @@ Optional information that ETW can include when writing the event. The data is wr
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="EVENT_ENABLE_PROPERTY_SID"></span><span id="event_enable_property_sid"></span><dl> <dt>**EVENT\_ENABLE\_PROPERTY\_SID**</dt> </dl>                          | Include in the extended data the security identifier (SID) of the user.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | <span id="EVENT_ENABLE_PROPERTY_TS_ID"></span><span id="event_enable_property_ts_id"></span><dl> <dt>**EVENT\_ENABLE\_PROPERTY\_TS\_ID**</dt> </dl>                   | Include in the extended data the terminal session identifier.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| <span id="EVENT_ENABLE_PROPERTY_STACK_TRACE"></span><span id="event_enable_property_stack_trace"></span><dl> <dt>**EVENT\_ENABLE\_PROPERTY\_STACK\_TRACE**</dt> </dl> | Include in the extended data a call stack trace for events written using [**EventWrite**](eventwrite-func.md).<br/> If you set **EVENT\_ENABLE\_PROPERTY\_STACK\_TRACE**, ETW will drop the event if the total event size exceeds 64K. If the provider is logging events close in size to 64K maximum, it is possible that enabling stack capture will cause the event to be lost.<br/> If the stack is longer than the maximum number of frames (192), the frames will be cut from the bottom of the stack.<br/> For consumers, the events will include the [**EVENT\_EXTENDED\_ITEM\_STACK\_TRACE32**](event-extended-item-stack-trace32.md) or [**EVENT\_EXTENDED\_ITEM\_STACK\_TRACE64**](event-extended-item-stack-trace64.md) extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.<br/> |
+| <span id="EVENT_ENABLE_PROPERTY_STACK_TRACE"></span><span id="event_enable_property_stack_trace"></span><dl> <dt>**EVENT\_ENABLE\_PROPERTY\_STACK\_TRACE**</dt> </dl> | Include in the extended data a call stack trace for events written using [**EventWrite**](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master).<br/> If you set **EVENT\_ENABLE\_PROPERTY\_STACK\_TRACE**, ETW will drop the event if the total event size exceeds 64K. If the provider is logging events close in size to 64K maximum, it is possible that enabling stack capture will cause the event to be lost.<br/> If the stack is longer than the maximum number of frames (192), the frames will be cut from the bottom of the stack.<br/> For consumers, the events will include the [**EVENT\_EXTENDED\_ITEM\_STACK\_TRACE32**](/windows/win32/Evntcons/ns-evntcons-_event_extended_item_stack_trace32?branch=master) or [**EVENT\_EXTENDED\_ITEM\_STACK\_TRACE64**](/windows/win32/Evntcons/ns-evntcons-_event_extended_item_stack_trace64?branch=master) extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.<br/> |
 
 
 
@@ -63,16 +68,16 @@ Reserved. Set to 0.
 **SourceId**
 </dt> <dd>
 
-A GUID that uniquely identifies the session that is enabling or disabling the provider. If the provider does not implement [**EnableCallback**](enablecallback.md), the GUID is not used.
+A GUID that uniquely identifies the session that is enabling or disabling the provider. If the provider does not implement [**EnableCallback**](/windows/win32/Evntprov/nc-evntprov-penablecallback?branch=master), the GUID is not used.
 
 </dd> <dt>
 
 **EnableFilterDesc**
 </dt> <dd>
 
-An [**EVENT\_FILTER\_DESCRIPTOR**](event-filter-descriptor.md) structure that points to the filter data. The provider uses filter data to prevent events that match the filter criteria from being written to the session. The provider determines the layout of the data and how it applies the filter to the event's data. A session can pass only one filter to the provider.
+An [**EVENT\_FILTER\_DESCRIPTOR**](/windows/win32/Evntprov/ns-evntprov-_event_filter_descriptor?branch=master) structure that points to the filter data. The provider uses filter data to prevent events that match the filter criteria from being written to the session. The provider determines the layout of the data and how it applies the filter to the event's data. A session can pass only one filter to the provider.
 
-A session can call the [**TdhEnumerateProviderFilters**](tdhenumerateproviderfilters.md) function to determine the schematized filters that it can pass to the provider.
+A session can call the [**TdhEnumerateProviderFilters**](/windows/win32/Tdh/nf-tdh-tdhenumerateproviderfilters?branch=master) function to determine the schematized filters that it can pass to the provider.
 
 </dd> </dl>
 
@@ -114,7 +119,7 @@ You should consider the cost of setting this registry value before doing so.
 [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md)
 </dt> <dt>
 
-[**EVENT\_FILTER\_DESCRIPTOR**](event-filter-descriptor.md)
+[**EVENT\_FILTER\_DESCRIPTOR**](/windows/win32/Evntprov/ns-evntprov-_event_filter_descriptor?branch=master)
 </dt> </dl>
 
  

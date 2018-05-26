@@ -1,7 +1,12 @@
-﻿---
-Description: 'Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.'
-ms.assetid: '0715e4d4-665c-42cb-9c74-48c2c558c277'
+---
+Description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
+ms.assetid: 0715e4d4-665c-42cb-9c74-48c2c558c277
 title: GetJobAttributesEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetJobAttributesEx function

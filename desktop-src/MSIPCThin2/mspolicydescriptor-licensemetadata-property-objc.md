@@ -4,17 +4,21 @@ description: Pointer to a MSLicenseMetadata object containing document tracking 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'A8E46A26-653A-4353-B726-12F508B21050'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: A8E46A26-653A-4353-B726-12F508B21050
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSPolicyDescriptor licenseMetadata property"]
+keywords:
+- MSPolicyDescriptor licenseMetadata property
 topic_type:
 - apiref
 api_name:
 - MSPolicyDescriptor licenseMetadata property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSPolicyDescriptor licenseMetadata property
@@ -39,7 +43,7 @@ See "Remarks" section for more details.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -55,15 +59,15 @@ MSPolicyDescriptor.h
 
 
 
- 
+ 
 
 ## Remarks
 
 This property must be initialized prior to creating the [**MSUserPolicy**](msuserpolicy-interface-objc.md) only if you wish to make use of document tracking. If you don't want to enable document tracking, this property can be left uninitialized (nil) and the call to [**registerForDocTracking:userId:authenticationCallback:completionBlock**](msuserpolicy-registerfordoctracking-userid-authenticationcallback-completionblock-method-objc.md) on the **MSUserPolicy** can be skipped.
 
- 
+ 
 
- 
+ 
 
 
 

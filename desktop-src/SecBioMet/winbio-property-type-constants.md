@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_PROPERTY\_TYPE Constants
 description: Specify the source of the property information in the WinBioGetProperty function.
-ms.assetid: '82C54092-032B-4F32-820E-A1D4BB81ECCE'
+ms.assetid: 82C54092-032B-4F32-820E-A1D4BB81ECCE
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,16 @@ api_location:
 - Winbio.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_PROPERTY\_TYPE Constants
 
-The following **WINBIO\_PROPERTY\_TYPE** constants can be used to specify the source of the property information in the [**WinBioGetProperty**](winbiogetproperty.md) function.
+The following **WINBIO\_PROPERTY\_TYPE** constants can be used to specify the source of the property information in the [**WinBioGetProperty**](/windows/win32/Winbio/nf-winbio-winbiogetproperty?branch=master) function.
 
 <dl> <dt>
 
@@ -56,7 +61,7 @@ The property applies to a specific biometric unit.
 
 
 
-The property applies to a specific user account that has a biometric enrollment. This value is supported starting in Windows 10.
+The property applies to a specific user account that has a biometric enrollment. This value is supported starting in Windows 10.
 
 
 </dt> </dl> </dd> </dl>
@@ -67,8 +72,8 @@ The property applies to a specific user account that has a biometric enrollment.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>Winbio.h (include Winbio.h)</dt> </dl> |
 
 
@@ -80,12 +85,12 @@ The property applies to a specific user account that has a biometric enrollment.
 [Client Application Constants](client-application-constants.md)
 </dt> <dt>
 
-[**WinBioGetProperty**](winbiogetproperty.md)
+[**WinBioGetProperty**](/windows/win32/Winbio/nf-winbio-winbiogetproperty?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

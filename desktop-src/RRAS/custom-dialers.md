@@ -1,23 +1,29 @@
 ---
 title: Custom Dialers
 description: Windows 2000 and later operating systems enable developers to provide their own custom dialers that work with the Remote Access Service (RAS).
-ms.assetid: 'ad94f38d-812f-4329-8055-6274a21a3242'
-keywords: ["Custom Dialers"]
+ms.assetid: ad94f38d-812f-4329-8055-6274a21a3242
+keywords:
+- Custom Dialers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Dialers
 
 Windows 2000 and later operating systems enable developers to provide their own custom dialers that work with the Remote Access Service (RAS). The custom dialer is implemented as a single dynamic-link library (DLL) that exports the following entry points:
 
--   [**RasCustomDial**](rascustomdial.md)
--   [**RasCustomDialDlg**](rascustomdialdlg.md)
--   [**RasCustomHangup**](rascustomhangup.md)
--   [**RasCustomEntryDlg**](rascustomentrydlg.md)
--   [**RasCustomDeleteEntryNotify**](rascustomdeleteentrynotify.md)
+-   [**RasCustomDial**](/windows/win32/Ras/nc-ras-rascustomdialfn?branch=master)
+-   [**RasCustomDialDlg**](/windows/win32/Rasdlg/nc-rasdlg-rascustomdialdlgfn?branch=master)
+-   [**RasCustomHangup**](/windows/win32/Ras/nc-ras-rascustomhangupfn?branch=master)
+-   [**RasCustomEntryDlg**](/windows/win32/Rasdlg/nc-rasdlg-rascustomentrydlgfn?branch=master)
+-   [**RasCustomDeleteEntryNotify**](/windows/win32/Ras/nc-ras-rascustomdeleteentrynotifyfn?branch=master)
 
 The custom-dial DLL must export all of these entry points, and it must implement the entry points as Unicode functions. For more information about these functions, see the reference page for each function in the Windows SDK Remote Access Service Reference.
 
-In order for a RAS connection to use the custom dialer, the phone-book entry for the connection must contain the path to the custom-dial DLL. Use the RAS API functions [**RasGetEntryProperties**](rasgetentryproperties.md) and [**RasSetEntryProperties**](rassetentryproperties.md) to set this path in the **szCustomDialDll** member of the [**RASENTRY**](rasentry-str.md) structure for the phone-book entry.
+In order for a RAS connection to use the custom dialer, the phone-book entry for the connection must contain the path to the custom-dial DLL. Use the RAS API functions [**RasGetEntryProperties**](/windows/win32/Ras/nf-ras-rasgetentrypropertiesa?branch=master) and [**RasSetEntryProperties**](/windows/win32/Ras/nf-ras-rassetentrypropertiesa?branch=master) to set this path in the **szCustomDialDll** member of the [**RASENTRY**](/windows/win32/Ras/?branch=master) structure for the phone-book entry.
 
 ## Updating the Registry for Custom Dialers
 

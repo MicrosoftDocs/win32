@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains the reference material on using the client programming interface for Function Discovery.'
-ms.assetid: '431f77f6-038b-4f66-bc79-d2dccf55b85d'
+Description: This section contains the reference material on using the client programming interface for Function Discovery.
+ms.assetid: 431f77f6-038b-4f66-bc79-d2dccf55b85d
 title: Function Discovery Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function Discovery Reference

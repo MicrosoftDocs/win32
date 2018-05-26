@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for network interface card configuration events.'
-ms.assetid: '1cae611b-fb6a-4416-8fd4-0c882e8aa5e6'
-title: 'SystemConfig\_V0\_NIC class'
+---
+Description: This class is the event type class for network interface card configuration events.
+ms.assetid: 1cae611b-fb6a-4416-8fd4-0c882e8aa5e6
+title: SystemConfig\_V0\_NIC class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemConfig\_V0\_NIC class

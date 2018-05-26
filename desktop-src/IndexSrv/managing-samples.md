@@ -1,7 +1,12 @@
 ---
 title: Managing Samples
 description: Managing Samples
-ms.assetid: 'be19c599-dd47-46a9-a525-a7dbd6673460'
+ms.assetid: be19c599-dd47-46a9-a525-a7dbd6673460
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Samples

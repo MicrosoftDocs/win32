@@ -1,8 +1,9 @@
 ---
 title: ScanModulationTypes enumeration
 description: The ScanModulationTypes enumeration type specifies the modulation type.
-ms.assetid: '20101fa7-b943-4737-a6ec-a952bdf25196'
-keywords: ["ScanModulationTypes enumeration Microsoft TV Technologies"]
+ms.assetid: 20101fa7-b943-4737-a6ec-a952bdf25196
+keywords:
+- ScanModulationTypes enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScanModulationTypes enumeration
@@ -22,38 +28,38 @@ The **ScanModulationTypes** enumeration type specifies the modulation type.
 
 ```C++
 typedef enum tagScanModulationTypes { 
-  BDA_SCAN_MOD_16QAM                           = 0x00000001,
-  BDA_SCAN_MOD_32QAM                           = 0x00000002,
-  BDA_SCAN_MOD_64QAM                           = 0x00000004,
-  BDA_SCAN_MOD_80QAM                           = 0x00000008,
-  BDA_SCAN_MOD_96QAM                           = 0x00000010,
-  BDA_SCAN_MOD_112QAM                          = 0x00000020,
-  BDA_SCAN_MOD_128QAM                          = 0x00000040,
-  BDA_SCAN_MOD_160QAM                          = 0x00000080,
-  BDA_SCAN_MOD_192QAM                          = 0x00000100,
-  BDA_SCAN_MOD_224QAM                          = 0x00000200,
-  BDA_SCAN_MOD_256QAM                          = 0x00000400,
-  BDA_SCAN_MOD_320QAM                          = 0x00000800,
-  BDA_SCAN_MOD_384QAM                          = 0x00001000,
-  BDA_SCAN_MOD_448QAM                          = 0x00002000,
-  BDA_SCAN_MOD_512QAM                          = 0x00004000,
-  BDA_SCAN_MOD_640QAM                          = 0x00008000,
-  BDA_SCAN_MOD_768QAM                          = 0x00010000,
-  BDA_SCAN_MOD_896QAM                          = 0x00020000,
-  BDA_SCAN_MOD_1024QAM                         = 0x00040000,
-  BDA_SCAN_MOD_QPSK                            = 0x00080000,
-  BDA_MOD_BPSK                                 = 0x00100000,
-  BDA_MOD_OQPSK                                = 0x00200000,
-  BDA_SCAN_MOD_8VSB                            = 0x00400000,
-  BDA_MOD_16VSB                                = 0x00800000,
-  BDA_SCAN_MOD_AM_RADIO                        = 0x01000000,
-  BDA_SCAN_MOD_FM_RADIO                        = 0x02000000,
-  BDA_SCAN_MOD_8PSK                            = 0x04000000,
-  BDA_SCAN_MOD_RF                              = 0x08000000,
-  ScanModulationTypesMask_MCE_DigitalCable     = BDA_MOD_64QAM | BDA_MOD_256QAM,
-  ScanModulationTypesMask_MCE_TerrestrialATSC  = BDA_MOD_8VSB,
-  ScanModulationTypesMask_MCE_AnalogTv         = BDA_MOD_RF,
-  ScanModulationTypesMask_MCE_All_TV           = 0xffffffff
+  BDA_SCAN_MOD_16QAM                           = 0x00000001,
+  BDA_SCAN_MOD_32QAM                           = 0x00000002,
+  BDA_SCAN_MOD_64QAM                           = 0x00000004,
+  BDA_SCAN_MOD_80QAM                           = 0x00000008,
+  BDA_SCAN_MOD_96QAM                           = 0x00000010,
+  BDA_SCAN_MOD_112QAM                          = 0x00000020,
+  BDA_SCAN_MOD_128QAM                          = 0x00000040,
+  BDA_SCAN_MOD_160QAM                          = 0x00000080,
+  BDA_SCAN_MOD_192QAM                          = 0x00000100,
+  BDA_SCAN_MOD_224QAM                          = 0x00000200,
+  BDA_SCAN_MOD_256QAM                          = 0x00000400,
+  BDA_SCAN_MOD_320QAM                          = 0x00000800,
+  BDA_SCAN_MOD_384QAM                          = 0x00001000,
+  BDA_SCAN_MOD_448QAM                          = 0x00002000,
+  BDA_SCAN_MOD_512QAM                          = 0x00004000,
+  BDA_SCAN_MOD_640QAM                          = 0x00008000,
+  BDA_SCAN_MOD_768QAM                          = 0x00010000,
+  BDA_SCAN_MOD_896QAM                          = 0x00020000,
+  BDA_SCAN_MOD_1024QAM                         = 0x00040000,
+  BDA_SCAN_MOD_QPSK                            = 0x00080000,
+  BDA_MOD_BPSK                                 = 0x00100000,
+  BDA_MOD_OQPSK                                = 0x00200000,
+  BDA_SCAN_MOD_8VSB                            = 0x00400000,
+  BDA_MOD_16VSB                                = 0x00800000,
+  BDA_SCAN_MOD_AM_RADIO                        = 0x01000000,
+  BDA_SCAN_MOD_FM_RADIO                        = 0x02000000,
+  BDA_SCAN_MOD_8PSK                            = 0x04000000,
+  BDA_SCAN_MOD_RF                              = 0x08000000,
+  ScanModulationTypesMask_MCE_DigitalCable     = BDA_MOD_64QAM | BDA_MOD_256QAM,
+  ScanModulationTypesMask_MCE_TerrestrialATSC  = BDA_MOD_8VSB,
+  ScanModulationTypesMask_MCE_AnalogTv         = BDA_MOD_RF,
+  ScanModulationTypesMask_MCE_All_TV           = 0xffffffff
 } ScanModulationTypes;
 ```
 
@@ -304,12 +310,12 @@ No modulation filtering.
 [BDA Enumeration Types](bda-types.md)
 </dt> <dt>
 
-[**IScanningTunerEx::SetScanSignalTypeFilter**](iscanningtunerex-setscansignaltypefilter.md)
+[**IScanningTunerEx::SetScanSignalTypeFilter**](/windows/previous-versions/Tuner/nf-tuner-iscanningtunerex-setscansignaltypefilter?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The expert must implement the Run function. Network Monitor calls the Run function to start the expert within the expert DLL.'
-ms.assetid: '9ef3941b-d9e9-4acb-97ed-5f39573f2946'
+Description: The expert must implement the Run function. Network Monitor calls the Run function to start the expert within the expert DLL.
+ms.assetid: 9ef3941b-d9e9-4acb-97ed-5f39573f2946
 title: Run callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Run callback function
@@ -13,11 +18,11 @@ The expert must implement the **Run** function. Network Monitor calls the **Run*
 
 ```C++
 BOOL WINAPI Run(
-  _In_ HEXPERTKEY         hExpertKey,
-  _In_ PEXPERTCONFIG      pConfig,
-  _In_ PEXPERTSTARTUPINFO pExpertStartupInfo,
-  _In_ DWORD              StartupFlags,
-  _In_ HWND               hWndParent
+  _In_ HEXPERTKEY         hExpertKey,
+  _In_ PEXPERTCONFIG      pConfig,
+  _In_ PEXPERTSTARTUPINFO pExpertStartupInfo,
+  _In_ DWORD              StartupFlags,
+  _In_ HWND               hWndParent
 );
 ```
 
@@ -35,7 +40,7 @@ Unique identifier of the expert that is passed back to all expert-specific Netwo
 > [!Note]  
 > The *hExpertKey* identifier may pass an expert key that is different from the expert key that the [**Configure**](configure.md) function passes.
 
- 
+ 
 
 </dd> <dt>
 
@@ -68,7 +73,7 @@ The only flag defined is:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -95,15 +100,15 @@ When running, the expert loops through the frames in the capture file and either
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

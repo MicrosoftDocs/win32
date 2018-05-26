@@ -1,8 +1,9 @@
 ---
 title: TBN\_DUPACCELERATOR notification code
 description: Ascertains whether an accelerator key can be used on two or more active toolbars. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '98068d1a-1460-4be3-8575-9294b82ce903'
-keywords: ["TBN_DUPACCELERATOR notification code Windows Controls"]
+ms.assetid: 98068d1a-1460-4be3-8575-9294b82ce903
+keywords:
+- TBN_DUPACCELERATOR notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_DUPACCELERATOR notification code
@@ -60,15 +66,15 @@ typedef struct tagNMTBDUPACCELERATOR
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

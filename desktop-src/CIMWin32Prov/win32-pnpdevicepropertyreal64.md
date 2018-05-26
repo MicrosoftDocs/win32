@@ -1,15 +1,18 @@
-﻿---
-Description: 'Represents a PnP device property of type real64.'
+---
+Description: Represents a PnP device property of type real64.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0C1CE76A-8E31-4A97-9483-DA3E24FD634B'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0C1CE76A-8E31-4A97-9483-DA3E24FD634B
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_PnPDevicePropertyReal64 class'
+title: Win32\_PnPDevicePropertyReal64 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PnPDevicePropertyReal64 class

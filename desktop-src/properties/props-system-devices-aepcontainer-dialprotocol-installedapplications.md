@@ -1,7 +1,12 @@
 ---
-Description: 'List of applications supporting DIAL protocol on the Device Association End Point Container.'
-ms.assetid: 'bbe14a49-0649-4385-a0d8-89771badf0ee'
-title: 'System.Devices.AepContainer.DialProtocol.InstalledApplications'
+Description: List of applications supporting DIAL protocol on the Device Association End Point Container.
+ms.assetid: bbe14a49-0649-4385-a0d8-89771badf0ee
+title: System.Devices.AepContainer.DialProtocol.InstalledApplications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepContainer.DialProtocol.InstalledApplications

@@ -4,17 +4,21 @@ description: The FILEMGMT\_SNAPIN\_SERVICE\_DISPLAYNAME clipboard format returns
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7e716cd3-d5ff-4035-991f-483643166f9e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 7e716cd3-d5ff-4035-991f-483643166f9e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["FILEMGMT_SNAPIN_SERVICE_DISPLAYNAME clipboard format MMC"]
+keywords:
+- FILEMGMT_SNAPIN_SERVICE_DISPLAYNAME clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - FILEMGMT_SNAPIN_SERVICE_DISPLAYNAME
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FILEMGMT\_SNAPIN\_SERVICE\_DISPLAYNAME clipboard format

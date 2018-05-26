@@ -1,14 +1,17 @@
 ---
 title: ChangeMode method of the Win32\_TerminalServiceSetting class
-description: The ChangeMode method sets the licensing type of the current Remote Desktop Session Host (RD Session Host) server.
+description: The ChangeMode method sets the licensing type of the current Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '293483ee-51ce-4cd4-ba13-6c7c02bbdbbf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 293483ee-51ce-4cd4-ba13-6c7c02bbdbbf
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ChangeMode method Remote Desktop Services", "ChangeMode method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , ChangeMode method"]
+keywords:
+- ChangeMode method Remote Desktop Services
+- ChangeMode method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , ChangeMode method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ChangeMode method of the Win32\_TerminalServiceSetting class
 
-The **ChangeMode** method sets the licensing type of the current Remote Desktop Session Host (RD Session Host) server.
+The **ChangeMode** method sets the licensing type of the current Remote Desktop Session Host (RD Session Host) server.
 
 ## Syntax
 
 
 ```mof
 uint32 ChangeMode(
-  [in] uint32 LicensingType
+  [in] uint32 LicensingType
 );
 ```
 
@@ -41,7 +47,7 @@ uint32 ChangeMode(
 *LicensingType* \[in\]
 </dt> <dd>
 
-The licensing type to set based on the RD Session Host server mode.
+The licensing type to set based on the RD Session Host server mode.
 
 <dt>
 
@@ -52,7 +58,7 @@ The licensing type to set based on the RD Session Host server mode.
 
 </dt> <dd>
 
-Personal RD Session Host server.
+Personal RD Session Host server.
 
 </dd> <dt>
 
@@ -103,8 +109,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -118,9 +124,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

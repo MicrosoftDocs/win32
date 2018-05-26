@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the audio policy class for the audio renderer.'
-ms.assetid: '80b028f5-7756-4bb8-b5e3-ebc8343e168c'
-title: 'MF\_AUDIO\_RENDERER\_ATTRIBUTE\_SESSION\_ID attribute'
+---
+Description: Specifies the audio policy class for the audio renderer.
+ms.assetid: 80b028f5-7756-4bb8-b5e3-ebc8343e168c
+title: MF\_AUDIO\_RENDERER\_ATTRIBUTE\_SESSION\_ID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_AUDIO\_RENDERER\_ATTRIBUTE\_SESSION\_ID attribute
@@ -18,8 +23,8 @@ This attribute associates the audio renderer with an audio policy class. Each po
 
 You can use this attribute to configure the audio renderer. The usage depends on which function you call to create the audio renderer:
 
--   [**MFCreateAudioRenderer**](mfcreateaudiorenderer.md): Set this attribute using the [**IMFAttributes**](imfattributes.md) interface pointer specified in the *pAudioAttributes* parameter.
--   [**MFCreateAudioRendererActivate**](mfcreateaudiorendereractivate.md): Set this attribute using the [**IMFActivate**](imfactivate.md) interface pointer retrieved in the *ppActivate* parameter. Set the attribute before calling [**IMFActivate::ActivateObject**](imfactivate-activateobject.md).
+-   [**MFCreateAudioRenderer**](/windows/win32/mfidl/nf-mfidl-mfcreateaudiorenderer?branch=master): Set this attribute using the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface pointer specified in the *pAudioAttributes* parameter.
+-   [**MFCreateAudioRendererActivate**](/windows/win32/mfidl/nf-mfidl-mfcreateaudiorendereractivate?branch=master): Set this attribute using the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) interface pointer retrieved in the *ppActivate* parameter. Set the attribute before calling [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master).
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -45,10 +50,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Audio Renderer Attributes](audio-renderer-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetGUID**](imfattributes-getguid.md)
+[**IMFAttributes::GetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getguid?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetGUID**](imfattributes-setguid.md)
+[**IMFAttributes::SetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setguid?branch=master)
 </dt> <dt>
 
 [Streaming Audio Renderer](streaming-audio-renderer.md)

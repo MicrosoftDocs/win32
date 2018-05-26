@@ -1,15 +1,20 @@
 ---
 title: Deprecated GUIDs
 description: This topic describes the GUIDs that are used with the UiaLookupId function.
-ms.assetid: 'b8e9e33c-9781-4f50-bbb7-a9950409f2e6'
+ms.assetid: b8e9e33c-9781-4f50-bbb7-a9950409f2e6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deprecated GUIDs
 
-This topic describes the GUIDs that are used with the [**UiaLookupId**](uiauto-uialookupidautometh.md) function.
+This topic describes the GUIDs that are used with the [**UiaLookupId**](/windows/win32/UIAutomationCoreApi/nf-uiautomationcoreapi-uialookupid?branch=master) function.
 
 > [!Note]  
-> The [**UiaLookupId**](uiauto-uialookupidautometh.md) function and the GUIDs described in this topic are deprecated. Instead, applications should use the identifiers described in the following sections:
+> The [**UiaLookupId**](/windows/win32/UIAutomationCoreApi/nf-uiautomationcoreapi-uialookupid?branch=master) function and the GUIDs described in this topic are deprecated. Instead, applications should use the identifiers described in the following sections:
 
  
 
@@ -29,7 +34,7 @@ This section lists the following GUIDs:
 
 ## PATTERNID GUIDs
 
-The PATTERNID GUIDs that represent control patterns in the [**UiaLookupId**](uiauto-uialookupidautometh.md) function are listed in the following table.
+The PATTERNID GUIDs that represent control patterns in the [**UiaLookupId**](/windows/win32/UIAutomationCoreApi/nf-uiautomationcoreapi-uialookupid?branch=master) function are listed in the following table.
 
 
 
@@ -73,7 +78,7 @@ The PATTERNID GUIDs that represent control patterns in the [**UiaLookupId**](uia
 
 ## CONTROLTYPEID GUIDs
 
-The CONTROLTYPEID GUIDs that represent control types in the [**UiaLookupId**](uiauto-uialookupidautometh.md) function are listed in the following table.
+The CONTROLTYPEID GUIDs that represent control types in the [**UiaLookupId**](/windows/win32/UIAutomationCoreApi/nf-uiautomationcoreapi-uialookupid?branch=master) function are listed in the following table.
 
 
 
@@ -125,7 +130,7 @@ The CONTROLTYPEID GUIDs that represent control types in the [**UiaLookupId**](ui
 
 ## EVENTID GUIDs
 
-The EVENTID GUIDs that represent Microsoft UI Automation events in the [**UiaLookupId**](uiauto-uialookupidautometh.md) function are listed in the following table.
+The EVENTID GUIDs that represent Microsoft UI Automation events in the [**UiaLookupId**](/windows/win32/UIAutomationCoreApi/nf-uiautomationcoreapi-uialookupid?branch=master) function are listed in the following table.
 
 
 
@@ -170,7 +175,7 @@ The EVENTID GUIDs that represent Microsoft UI Automation events in the [**UiaLoo
 
 ## PROPERTYID GUIDs
 
-The PROPERTYID GUIDs that represent UI Automation properties in the [**UiaLookupId**](uiauto-uialookupidautometh.md) function are listed in the following table.
+The PROPERTYID GUIDs that represent UI Automation properties in the [**UiaLookupId**](/windows/win32/UIAutomationCoreApi/nf-uiautomationcoreapi-uialookupid?branch=master) function are listed in the following table.
 
 
 
@@ -331,7 +336,7 @@ The PROPERTYID GUIDs that represent UI Automation properties in the [**UiaLookup
 
 ## TEXTATTRIBUTEID GUIDs
 
-The TEXTATTRIBUTEID GUIDs that represent text attributes in the [**UiaLookupId**](uiauto-uialookupidautometh.md) function are listed in the following table.
+The TEXTATTRIBUTEID GUIDs that represent text attributes in the [**UiaLookupId**](/windows/win32/UIAutomationCoreApi/nf-uiautomationcoreapi-uialookupid?branch=master) function are listed in the following table.
 
 
 

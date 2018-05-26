@@ -1,8 +1,11 @@
 ---
 title: ActionCollection.Create method
 description: For scripting, creates and adds a new action to the collection.
-ms.assetid: 'f33542e1-ee49-4696-b2ab-c48a9b5440d4'
-keywords: ["Create method Task Scheduler", "Create method Task Scheduler , ActionCollection object", "ActionCollection object Task Scheduler , Create method"]
+ms.assetid: f33542e1-ee49-4696-b2ab-c48a9b5440d4
+keywords:
+- Create method Task Scheduler
+- Create method Task Scheduler , ActionCollection object
+- ActionCollection object Task Scheduler , Create method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActionCollection.Create method
@@ -35,7 +43,7 @@ ActionCollection.Create( _
 *type* \[in\]
 </dt> <dd>
 
-This parameter is set to one of the following [**TASK\_ACTION\_TYPE**](task-action-type.md) enumeration constants.
+This parameter is set to one of the following [**TASK\_ACTION\_TYPE**](/windows/win32/taskschd/ne-taskschd-_task_action_type?branch=master) enumeration constants.
 
 
 
@@ -48,7 +56,7 @@ This parameter is set to one of the following [**TASK\_ACTION\_TYPE**](task-acti
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -66,8 +74,8 @@ You cannot add more than 32 actions to the collection.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -77,7 +85,7 @@ You cannot add more than 32 actions to the collection.
 
 <dl> <dt>
 
-[**TASK\_ACTION\_TYPE**](task-action-type.md)
+[**TASK\_ACTION\_TYPE**](/windows/win32/taskschd/ne-taskschd-_task_action_type?branch=master)
 </dt> <dt>
 
 [Task Scheduler](task-scheduler-start-page.md)
@@ -101,9 +109,9 @@ You cannot add more than 32 actions to the collection.
 [**ComHandlerAction**](comhandleraction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

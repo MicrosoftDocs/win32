@@ -1,7 +1,12 @@
 ---
-Description: 'The PlayForwards event is sent when the PlayForwards command has been enabled or disabled.'
-ms.assetid: 'bf57e2fd-c85f-430d-a1fa-5b59f7bfb8af'
+Description: The PlayForwards event is sent when the PlayForwards command has been enabled or disabled.
+ms.assetid: bf57e2fd-c85f-430d-a1fa-5b59f7bfb8af
 title: PlayForwards
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayForwards

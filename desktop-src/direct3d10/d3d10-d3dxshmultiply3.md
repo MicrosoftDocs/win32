@@ -1,7 +1,12 @@
-﻿---
-Description: 'Computes the product of two spherical harmonics functions (f and g). Both functions are of order N = 3.'
-ms.assetid: '2845f90f-c8a0-4ca9-b2f6-7491a2b4763b'
+---
+Description: Computes the product of two spherical harmonics functions (f and g). Both functions are of order N = 3.
+ms.assetid: 2845f90f-c8a0-4ca9-b2f6-7491a2b4763b
 title: D3DXSHMultiply3 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSHMultiply3 function

@@ -1,7 +1,12 @@
 ---
 title: Compile and Test Help
-description: After you build your project file and add all your topic, index, and contents files, you'll need to compile and test your help system.
-ms.assetid: '1ACD9699-5343-4c2d-9B59-6A5A57AE366D'
+description: After you build your project file and add all your topic, index, and contents files, youll need to compile and test your help system.
+ms.assetid: 1ACD9699-5343-4c2d-9B59-6A5A57AE366D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compile and Test Help

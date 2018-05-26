@@ -1,7 +1,12 @@
 ---
-Description: 'The playback position on the device, as a percentage.'
-ms.assetid: '0C4609A9-A89E-400B-8DAD-92A471A8606F'
-title: 'System.Devices.PlaybackPositionPercent'
+Description: The playback position on the device, as a percentage.
+ms.assetid: 0C4609A9-A89E-400B-8DAD-92A471A8606F
+title: System.Devices.PlaybackPositionPercent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.PlaybackPositionPercent

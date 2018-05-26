@@ -1,7 +1,12 @@
 ---
 title: Color
 description: Color is an important visual element of most user interfaces.
-ms.assetid: '30a60e9e-ebb4-40f2-8535-a9b58dc668a8'
+ms.assetid: 30a60e9e-ebb4-40f2-8535-a9b58dc668a8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color
@@ -63,7 +68,7 @@ This section explains what you need to know to use color effectively.
 
 Color is typically used in UI to communicate:
 
--   **Meaning.** The meaning of a message can be summarized through color. For example, color is often used to communicate status—where red is a problem or error, yellow is caution or warning, and green is good.
+-   **Meaning.** The meaning of a message can be summarized through color. For example, color is often used to communicate status where red is a problem or error, yellow is caution or warning, and green is good.
 -   **State.** An object's state can be indicated through color. For example, Windows uses color to indicate selection and hover states. Links within Web pages use blue for unvisited and purple for visited.
 -   **Differentiation.** People assume that there is a relationship between items of the same color, so color coding is an effective way to differentiate between objects. For example, in a control panel item, task panes use a green background to visually separate them from the main content. Also, Microsoft Outlook allows users to assign different colored flags to messages.
 -   **Emphasis.** Color can be used to draw users' attention. For example, Windows uses blue [main instructions](text-ui.md) to help them stand out from the other text.
@@ -104,7 +109,7 @@ For more information, see [Can Color-Blind Users See Your Site?](http://msdn2.mi
 
 The best solution to the color interpretation and accessibility problems is to use color to visually reinforce the meaning of one of these primary methods of communication:
 
--   **Text.** Concise text is usually the most effective primary communication—either directly on the UI or through a tooltip.
+-   **Text.** Concise text is usually the most effective primary communication either directly on the UI or through a tooltip.
 
 ![screen shot of small red icon with tooltip ](images/vis-color-image10.png)
 
@@ -220,7 +225,7 @@ All the screen elements should be legible and appear as expected, even immediate
 
 
 
- 
+ 
 
 -   **To avoid communicating the previous meanings, choose colors have high mid to low saturation and high or low luminosity.** Users associate the previous meanings to colors that have full or high saturation and mid-level luminosity, so you can avoid these associations by choosing different shades.
 
@@ -268,9 +273,9 @@ In this example, there are three different shades of yellow, but only the highly
 
 In the incorrect example, the message refers to the Windows Internet Explorer information bar by its color instead of its name.
 
- 
+ 
 
- 
+ 
 
 
 

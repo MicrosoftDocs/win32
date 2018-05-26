@@ -1,8 +1,9 @@
 ---
 title: TCM\_GETEXTENDEDSTYLE message
 description: Retrieves the extended styles that are currently in use for the tab control. You can send this message explicitly or by using the TabCtrl\_GetExtendedStyle macro.
-ms.assetid: '983ffcbe-0d8d-4686-83de-fc564744390f'
-keywords: ["TCM_GETEXTENDEDSTYLE message Windows Controls"]
+ms.assetid: 983ffcbe-0d8d-4686-83de-fc564744390f
+keywords:
+- TCM_GETEXTENDEDSTYLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_GETEXTENDEDSTYLE message
 
-Retrieves the extended styles that are currently in use for the tab control. You can send this message explicitly or by using the [**TabCtrl\_GetExtendedStyle**](tabctrl-getextendedstyle.md) macro.
+Retrieves the extended styles that are currently in use for the tab control. You can send this message explicitly or by using the [**TabCtrl\_GetExtendedStyle**](/windows/win32/Commctrl/nf-commctrl-tabctrl_getextendedstyle?branch=master) macro.
 
 ## Parameters
 
@@ -37,8 +43,8 @@ Returns a **DWORD** value that represents the extended styles currently in use f
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns a **DWORD** value that represents the extended styles currently in use f
 [**TCM\_SETEXTENDEDSTYLE**](tcm-setextendedstyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

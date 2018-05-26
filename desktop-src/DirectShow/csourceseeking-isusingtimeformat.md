@@ -1,7 +1,12 @@
 ---
-Description: 'The IsUsingTimeFormat method determines whether a specified time format is the format currently in use.'
-ms.assetid: '86965bfc-fc9f-42d3-bcaa-2049195b98bd'
-title: 'CSourceSeeking.IsUsingTimeFormat method'
+Description: The IsUsingTimeFormat method determines whether a specified time format is the format currently in use.
+ms.assetid: 86965bfc-fc9f-42d3-bcaa-2049195b98bd
+title: CSourceSeeking.IsUsingTimeFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.IsUsingTimeFormat method
@@ -13,7 +18,7 @@ The `IsUsingTimeFormat` method determines whether a specified time format is the
 
 ```C++
 HRESULT IsUsingTimeFormat(
-   const GUID *pFormat
+   const GUID *pFormat
 );
 ```
 
@@ -44,7 +49,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +73,9 @@ The only time format supported by the base class is TIME\_FORMAT\_MEDIA\_TIME (1
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

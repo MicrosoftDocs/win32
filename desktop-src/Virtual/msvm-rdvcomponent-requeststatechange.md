@@ -1,8 +1,11 @@
 ---
 title: RequestStateChange method of the Msvm\_RdvComponent class
 description: Requests the specified change to the state of the element.
-ms.assetid: '2ea1b150-4d5b-4b09-a623-d28985bd7554'
-keywords: ["RequestStateChange method Hyper-V", "RequestStateChange method Hyper-V , Msvm_RdvComponent class", "Msvm_RdvComponent class Hyper-V , RequestStateChange method"]
+ms.assetid: 2ea1b150-4d5b-4b09-a623-d28985bd7554
+keywords:
+- RequestStateChange method Hyper-V
+- RequestStateChange method Hyper-V , Msvm_RdvComponent class
+- Msvm_RdvComponent class Hyper-V , RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the Msvm\_RdvComponent class
@@ -22,9 +30,9 @@ Requests the specified change to the state of the element.
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -125,14 +133,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
@@ -173,7 +181,7 @@ The client specified timeout interval for the length of the state transition. A 
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
@@ -188,10 +196,10 @@ The client specified timeout interval for the length of the state transition. A 
 **Busy** (4099)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -215,9 +223,9 @@ The client specified timeout interval for the length of the state transition. A 
 [**Msvm\_RdvComponent**](msvm-rdvcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

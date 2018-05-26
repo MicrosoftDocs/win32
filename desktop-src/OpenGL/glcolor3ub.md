@@ -1,8 +1,9 @@
 ---
 title: glColor3ub function
 description: Sets the current color.
-ms.assetid: '5837e6cf-5a75-4d05-9843-b3205e8ad1ab'
-keywords: ["glColor3ub function OpenGL"]
+ms.assetid: 5837e6cf-5a75-4d05-9843-b3205e8ad1ab
+keywords:
+- glColor3ub function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glColor3ub function
@@ -22,9 +28,9 @@ Sets the current color.
 
 ```C++
 void WINAPI glColor3ub(
-   GLubyte red,
-   GLubyte green,
-   GLubyte blue
+   GLubyte red,
+   GLubyte green,
+   GLubyte blue
 );
 ```
 
@@ -75,8 +81,8 @@ Neither floating-point nor signed integer values are clamped to the range \[0,1\
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -99,9 +105,9 @@ Neither floating-point nor signed integer values are clamped to the range \[0,1\
 [**glIndex**](glindexd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

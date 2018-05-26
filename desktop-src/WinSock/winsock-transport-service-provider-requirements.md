@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections provide a description of each of the functional areas which transport service providers are required to implement.'
-ms.assetid: '5dc9cdbe-9ecc-489c-a5e9-335f282ff269'
+Description: The following sections provide a description of each of the functional areas which transport service providers are required to implement.
+ms.assetid: 5dc9cdbe-9ecc-489c-a5e9-335f282ff269
 title: Winsock Transport Service Provider Requirements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Winsock Transport Service Provider Requirements

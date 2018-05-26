@@ -4,11 +4,16 @@ description: The ListViewMode property sets or returns the mode of the list view
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c2880ebf-290b-4e8b-95be-5612601dfa8b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: c2880ebf-290b-4e8b-95be-5612601dfa8b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ListViewMode property MMC", "ListViewMode property MMC , View object", "View object MMC , ListViewMode property", "ListViewMode property MMC , View interface", "View interface MMC , ListViewMode property"]
+keywords:
+- ListViewMode property MMC
+- ListViewMode property MMC , View object
+- View object MMC , ListViewMode property
+- ListViewMode property MMC , View interface
+- View interface MMC , ListViewMode property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::ListViewMode property
@@ -131,8 +139,8 @@ objView.ListViewMode = ListMode_Large_Icons
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -147,9 +155,9 @@ objView.ListViewMode = ListMode_Large_Icons
 [**ListViewMode**](listviewmode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

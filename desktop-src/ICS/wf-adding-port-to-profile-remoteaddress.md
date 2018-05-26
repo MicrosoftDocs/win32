@@ -1,8 +1,15 @@
 ---
 title: Adding a Port to Current Profile Using Remote Addresses
 description: Adding a Port to Current Profile Using Remote Addresses
-ms.assetid: '5b76c285-e15e-4a2d-b384-4d72edc37e0f'
-keywords: ["Windows Firewall", "using"]
+ms.assetid: 5b76c285-e15e-4a2d-b384-4d72edc37e0f
+keywords:
+- Windows Firewall
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Port to Current Profile Using Remote Addresses

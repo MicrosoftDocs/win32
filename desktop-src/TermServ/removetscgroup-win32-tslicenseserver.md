@@ -1,14 +1,17 @@
 ---
 title: RemoveTSCGroup method of the Win32\_TSLicenseServer class
-description: RemoveTSCGroup is no longer available for use as of Windows Server 2012.
+description: RemoveTSCGroup is no longer available for use as of Windows Server 2012.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e5e3eca9-4990-4322-b41d-c6b6b3356272'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: e5e3eca9-4990-4322-b41d-c6b6b3356272
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RemoveTSCGroup method Remote Desktop Services", "RemoveTSCGroup method Remote Desktop Services , Win32_TSLicenseServer class", "Win32_TSLicenseServer class Remote Desktop Services , RemoveTSCGroup method"]
+keywords:
+- RemoveTSCGroup method Remote Desktop Services
+- RemoveTSCGroup method Remote Desktop Services , Win32_TSLicenseServer class
+- Win32_TSLicenseServer class Remote Desktop Services , RemoveTSCGroup method
 topic_type:
 - apiref
 api_name:
@@ -17,15 +20,18 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveTSCGroup method of the Win32\_TSLicenseServer class
 
-\[**RemoveTSCGroup** is no longer available for use as of Windows Server 2012.\]
+\[**RemoveTSCGroup** is no longer available for use as of Windows Server 2012.\]
 
 This method is not supported.
 
-**Windows Server 2008 R2 and Windows Server 2008:** Removes the Terminal Server Computers local group from the Remote Desktop license server.
+**Windows Server 2008 R2 and Windows Server 2008:** Removes the Terminal Server Computers local group from the Remote Desktop license server.
 
 ## Syntax
 
@@ -44,7 +50,7 @@ This method has no parameters.
 
 Returns **WBEM\_E\_NOT\_SUPPORTED**.
 
-**Windows Server 2008 R2 and Windows Server 2008:** If the method succeeds, it returns zero. If the method is unsuccessful, it returns a nonzero value. For a list of error codes, see [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md).
+**Windows Server 2008 R2 and Windows Server 2008:** If the method succeeds, it returns zero. If the method is unsuccessful, it returns a nonzero value. For a list of error codes, see [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md).
 
 ## Remarks
 
@@ -59,9 +65,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | End of client support<br/>    | None supported<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                         |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -78,9 +84,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**IsTSCGroupPresent**](istscgrouppresent-win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

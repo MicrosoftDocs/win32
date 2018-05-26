@@ -2,13 +2,15 @@
 title: VpnAuthProtocol class
 description: Represents an authorization protocol for an site-to-site (S2S) VPN service.
 audience: developer
-ms.assetid: 'd086ef02-d7d6-4da3-ba77-77ddff8d75af'
-ms.prod: 'windows-server-dev'
+ms.assetid: d086ef02-d7d6-4da3-ba77-77ddff8d75af
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnAuthProtocol class", "VpnAuthProtocol class, described"]
+keywords:
+- VpnAuthProtocol class
+- VpnAuthProtocol class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnAuthProtocol class
@@ -38,8 +43,8 @@ class VpnAuthProtocol
 {
   string UserAuthProtocolAccepted[];
   string TunnelAuthProtocolsAdvertised;
-  uint8  RootCertificateNameToAccept[];
-  uint8  CertificateAdvertised[];
+  uint8  RootCertificateNameToAccept[];
+  uint8  CertificateAdvertised[];
   string CertificateEKUsToAccept[];
 };
 ```
@@ -80,7 +85,7 @@ Access type: Read/write
 
 Array of allowed Certificate EKUs
 
-**Windows Server 2012:** This property is supported starting with Windows Server 2012 R2.
+**Windows Server 2012:** This property is supported starting with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -130,16 +135,16 @@ Array of the allowed local authentication protocols
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

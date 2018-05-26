@@ -1,7 +1,12 @@
 ---
 title: Conservative Rasterization
 description: Conservative rasterization adds some certainty to pixel rendering, which is helpful in particular to collision detection algorithms.
-ms.assetid: '83F223C0-9282-4149-86CF-471B88829F76'
+ms.assetid: 83F223C0-9282-4149-86CF-471B88829F76
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Conservative Rasterization
@@ -50,11 +55,11 @@ There are three tiers of hardware support, in addition to the possibility that t
 
 The following methods, structures, enums, and helper classes reference conservative rasterization:
 
--   [**D3D11\_RASTERIZER\_DESC2**](d3d11-rasterizer-desc2.md) : structure holding the rasterizer description, noting the CD3D12\_RASTERIZER\_DESC2 helper class for creating rasterizer descriptions.
--   [**D3D11\_CONSERVATIVE\_RASTERIZATION\_MODE**](d3d11-conservative-rasterization-mode.md) : enum values for the mode (on or off).
--   [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS2**](d3d11-feature-data-d3d11-options2.md) : structure holding the tier of support.
--   [**D3D11\_CONSERVATIVE\_RASTERIZATION\_TIER**](d3d11-conservative-rasterization-tier.md) : enum values for each tier of support by the hardware.
--   [**ID3D11Device::CheckFeatureSupport**](id3d11device-checkfeaturesupport.md) : method to access the supported features.
+-   [**D3D11\_RASTERIZER\_DESC2**](/windows/win32/D3D11_3/ns-d3d11_3-cd3d11_rasterizer_desc2?branch=master) : structure holding the rasterizer description, noting the CD3D12\_RASTERIZER\_DESC2 helper class for creating rasterizer descriptions.
+-   [**D3D11\_CONSERVATIVE\_RASTERIZATION\_MODE**](/windows/win32/D3D11_3/ne-d3d11_3-d3d11_conservative_rasterization_mode?branch=master) : enum values for the mode (on or off).
+-   [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS2**](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options2?branch=master) : structure holding the tier of support.
+-   [**D3D11\_CONSERVATIVE\_RASTERIZATION\_TIER**](/windows/win32/D3D11/ne-d3d11-d3d11_conservative_rasterization_tier?branch=master) : enum values for each tier of support by the hardware.
+-   [**ID3D11Device::CheckFeatureSupport**](/windows/win32/D3D11/nf-d3d11-id3d11device-checkfeaturesupport?branch=master) : method to access the supported features.
 
 ## Related topics
 

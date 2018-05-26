@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the set of available warnings that can occur during ink analysis.'
-ms.assetid: '52676f1d-8d67-4bdb-9d4f-3e409ffa8332'
+Description: Specifies the set of available warnings that can occur during ink analysis.
+ms.assetid: 52676f1d-8d67-4bdb-9d4f-3e409ffa8332
 title: AnalysisWarningCode enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AnalysisWarningCode enumeration
@@ -13,25 +18,25 @@ Specifies the set of available warnings that can occur during ink analysis.
 
 ```C++
 typedef enum AnalysisWarningCode { 
-  AnalysisWarningCode_Aborted                                    = 0,
-  AnalysisWarningCode_NoMatchingInkAnalysisRecognizerFound       = 1,
-  AnalysisWarningCode_FactoidNotSupported                        = 2,
-  AnalysisWarningCode_FactoidCoercionNotSupported                = 3,
-  AnalysisWarningCode_GuideNotSupported                          = 4,
-  AnalysisWarningCode_WordlistNotSupported                       = 5,
-  AnalysisWarningCode_WordModeNotSupported                       = 6,
-  AnalysisWarningCode_PartialDictionaryTermsNotSupported         = 7,
-  AnalysisWarningCode_TextRecognitionProcessFailed               = 8,
-  AnalysisWarningCode_AddInkToRecognizerFailed                   = 9,
-  AnalysisWarningCode_SetPrefixSuffixFailed                      = 10,
-  AnalysisWarningCode_InkAnalysisRecognizerInitializationFailed  = 11,
-  AnalysisWarningCode_ConfirmedWithoutInkRecognition             = 12,
-  AnalysisWarningCode_BackgroundException                        = 13,
-  AnalysisWarningCode_ContextNodeLocationNotSet                  = 14,
-  AnalysisWarningCode_LanguageIdNotRespected                     = 15,
-  AnalysisWarningCode_EnableUnicodeCharacterRangesNotSupported   = 16,
-  AnalysisWarningCode_TopInkBreaksOnlyNotSupported               = 17,
-  AnalysisWarningCode_AnalysisAlreadyRunning                     = 18
+  AnalysisWarningCode_Aborted                                    = 0,
+  AnalysisWarningCode_NoMatchingInkAnalysisRecognizerFound       = 1,
+  AnalysisWarningCode_FactoidNotSupported                        = 2,
+  AnalysisWarningCode_FactoidCoercionNotSupported                = 3,
+  AnalysisWarningCode_GuideNotSupported                          = 4,
+  AnalysisWarningCode_WordlistNotSupported                       = 5,
+  AnalysisWarningCode_WordModeNotSupported                       = 6,
+  AnalysisWarningCode_PartialDictionaryTermsNotSupported         = 7,
+  AnalysisWarningCode_TextRecognitionProcessFailed               = 8,
+  AnalysisWarningCode_AddInkToRecognizerFailed                   = 9,
+  AnalysisWarningCode_SetPrefixSuffixFailed                      = 10,
+  AnalysisWarningCode_InkAnalysisRecognizerInitializationFailed  = 11,
+  AnalysisWarningCode_ConfirmedWithoutInkRecognition             = 12,
+  AnalysisWarningCode_BackgroundException                        = 13,
+  AnalysisWarningCode_ContextNodeLocationNotSet                  = 14,
+  AnalysisWarningCode_LanguageIdNotRespected                     = 15,
+  AnalysisWarningCode_EnableUnicodeCharacterRangesNotSupported   = 16,
+  AnalysisWarningCode_TopInkBreaksOnlyNotSupported               = 17,
+  AnalysisWarningCode_AnalysisAlreadyRunning                     = 18
 } AnalysisWarningCode;
 ```
 
@@ -188,7 +193,7 @@ Other warnings code values, such as **AnalysisWarningCode\_InkAnalysisRecognizer
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 
@@ -204,9 +209,9 @@ Other warnings code values, such as **AnalysisWarningCode\_InkAnalysisRecognizer
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

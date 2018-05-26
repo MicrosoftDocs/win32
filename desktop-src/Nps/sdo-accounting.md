@@ -4,10 +4,13 @@ description: Use the following enumeration types when administering accounting o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c75fef44-6582-4b7d-9b95-cbd518870139'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: c75fef44-6582-4b7d-9b95-cbd518870139
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Accounting

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by the Media Session when the session capabilities change.'
-ms.assetid: 'd59fd3a0-29db-434c-b6ba-d9beb33bd965'
+---
+Description: Raised by the Media Session when the session capabilities change.
+ms.assetid: d59fd3a0-29db-434c-b6ba-d9beb33bd965
 title: MESessionCapabilitiesChanged event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESessionCapabilitiesChanged event
@@ -10,7 +15,7 @@ Raised by the Media Session when the session capabilities change.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

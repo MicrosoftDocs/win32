@@ -1,8 +1,11 @@
 ---
 title: Support RegisterEventManifest method
 description: Registers an event manifest.
-ms.assetid: 'F2D4EC9B-1391-4C93-AA75-442F3E317BDD'
-keywords: ["RegisterEventManifest method Access Execution Engine", "RegisterEventManifest method Access Execution Engine , Support interface", "Support interface Access Execution Engine , RegisterEventManifest method"]
+ms.assetid: F2D4EC9B-1391-4C93-AA75-442F3E317BDD
+keywords:
+- RegisterEventManifest method Access Execution Engine
+- RegisterEventManifest method Access Execution Engine , Support interface
+- Support interface Access Execution Engine , RegisterEventManifest method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support::RegisterEventManifest method
@@ -22,8 +30,8 @@ Registers an event manifest.
 
 ```C++
 virtual HRESULT RegisterEventManifest(
-  [in] LPCWSTR manifestFileName,
-  [in] LPCWSTR moduleFileName
+  [in] LPCWSTR manifestFileName,
+  [in] LPCWSTR moduleFileName
 ) = 0;
 ```
 
@@ -57,8 +65,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -71,9 +79,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**Support**](support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: HH\_HELP\_FINDER command
 description: HH\_HELP\_FINDER command
-ms.assetid: '0D0E66EF-4239-4009-B1DE-4C6B51918D0B'
+ms.assetid: 0D0E66EF-4239-4009-B1DE-4C6B51918D0B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_HELP\_FINDER command
@@ -18,7 +23,7 @@ If a window type is not specified, a default window type is used. If the window 
 
 
 
- 
+ 
 
 ## Example
 
@@ -53,9 +58,9 @@ The handle (hwnd) of the help window.
 [HH\_HELP\_CONTEXT](hh-help-context-command.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

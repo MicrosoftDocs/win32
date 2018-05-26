@@ -1,20 +1,25 @@
 ---
-Description: 'The GetProperties method retrieves the properties of the sample. This method implements the IMediaSample2::GetProperties method.'
-ms.assetid: 'c2a6d611-9c17-41fb-bb6d-f5b17f1c9966'
-title: 'CMediaSample.GetProperties method'
+Description: The GetProperties method retrieves the properties of the sample. This method implements the IMediaSample2GetProperties method.
+ms.assetid: c2a6d611-9c17-41fb-bb6d-f5b17f1c9966
+title: CMediaSample.GetProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.GetProperties method
 
-The `GetProperties` method retrieves the properties of the sample. This method implements the [**IMediaSample2::GetProperties**](imediasample2-getproperties.md) method.
+The `GetProperties` method retrieves the properties of the sample. This method implements the [**IMediaSample2::GetProperties**](/windows/win32/Strmif/nf-strmif-imediasample2-getproperties?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetProperties(
-   DWORD cbProperties,
-   BYTE  *pbProperties
+   DWORD cbProperties,
+   BYTE  *pbProperties
 );
 ```
 
@@ -51,7 +56,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -71,9 +76,9 @@ Returns one of the **HRESULT** values shown in the following table.
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

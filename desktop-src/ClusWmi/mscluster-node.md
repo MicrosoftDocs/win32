@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents a cluster node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bf531708-7a43-4567-bdeb-72b8908725f0'
-ms.prod: 'windows-server-dev'
+ms.assetid: bf531708-7a43-4567-bdeb-72b8908725f0
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_Node class", "MSCluster_Node class, described"]
+keywords:
+- MSCluster_Node class
+- MSCluster_Node class, described
 topic_type:
 - apiref
 api_name:
@@ -58,6 +60,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_Node class
@@ -72,44 +77,44 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{C306EBED-0654-4360-AA70-DE912C5FC364}"), AMENDMENT]
 class MSCluster_Node : CIM_UnitaryComputerSystem
 {
-  string             Caption;
-  string             CreationClassName;
-  string             InitialLoadInfo[];
-  datetime           InstallDate;
-  string             LastLoadInfo;
-  string             Name;
-  string             NameFormat;
-  string             OtherIdentifyingInfo[];
-  string             IdentifyingDescriptions[];
-  uint16             Dedicated[];
-  uint16             PowerManagementCapabilities[];
-  boolean            PowerManagementSupported;
-  uint16             PowerState;
-  string             PrimaryOwnerContact;
-  string             PrimaryOwnerName;
-  uint16             ResetCapability;
-  string             Roles[];
-  string             Status;
-  string             Description;
-  uint32             NodeWeight;
-  uint32             DynamicWeight;
-  uint32             NodeHighestVersion;
-  uint32             NodeLowestVersion;
-  uint32             MajorVersion;
-  uint32             MinorVersion;
-  uint32             BuildNumber;
-  uint32             CSDVersion;
-  string             Id;
-  string             NodeInstanceID;
-  uint32             NodeDrainStatus;
-  string             NodeDrainTarget;
-  uint32             State;
-  uint32             Flags;
-  uint32             Characteristics;
-  uint32             NeedsPreventQuorum;
-  string             FaultDomainId;
-  uint32             StatusInformation;
-  string             FaultDomain[];
+  string             Caption;
+  string             CreationClassName;
+  string             InitialLoadInfo[];
+  datetime           InstallDate;
+  string             LastLoadInfo;
+  string             Name;
+  string             NameFormat;
+  string             OtherIdentifyingInfo[];
+  string             IdentifyingDescriptions[];
+  uint16             Dedicated[];
+  uint16             PowerManagementCapabilities[];
+  boolean            PowerManagementSupported;
+  uint16             PowerState;
+  string             PrimaryOwnerContact;
+  string             PrimaryOwnerName;
+  uint16             ResetCapability;
+  string             Roles[];
+  string             Status;
+  string             Description;
+  uint32             NodeWeight;
+  uint32             DynamicWeight;
+  uint32             NodeHighestVersion;
+  uint32             NodeLowestVersion;
+  uint32             MajorVersion;
+  uint32             MinorVersion;
+  uint32             BuildNumber;
+  uint32             CSDVersion;
+  string             Id;
+  string             NodeInstanceID;
+  uint32             NodeDrainStatus;
+  string             NodeDrainTarget;
+  uint32             State;
+  uint32             Flags;
+  uint32             Characteristics;
+  uint32             NeedsPreventQuorum;
+  string             FaultDomainId;
+  uint32             StatusInformation;
+  string             FaultDomain[];
   MSCluster_Property PrivateProperties;
 };
 ```
@@ -133,12 +138,12 @@ The **MSCluster\_Node** class has these methods.
 | [**Pause**](mscluster-node-pause.md)                                 | Pauses the cluster activity on a node.<br/>                                                                                                                                                                                        |
 | [**Resume**](mscluster-node-resume.md)                               | Resumes the cluster activity on a node.<br/>                                                                                                                                                                                       |
 | [**SetPowerState**](mscluster-node-setpowerstate.md)                 | Defines the desired power state for a logical device and when a device should be put into that state. Not implemented by WMI.<br/> Inherited from [**CIM\_UnitaryComputerSystem**](https://msdn.microsoft.com/library/aa388626).<br/> |
-| [**WillEvictLoseQuorum**](mscluster-node-willevictlosequorum.md)     | Checks if evicting the node will cause the cluster to lose quorum.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>                        |
-| [**WillOfflineLoseQuorum**](mscluster-node-willofflinelosequorum.md) | Checks if the taking the node offline will cause the cluster to lose quorum.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>              |
+| [**WillEvictLoseQuorum**](mscluster-node-willevictlosequorum.md)     | Checks if evicting the node will cause the cluster to lose quorum.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>                        |
+| [**WillOfflineLoseQuorum**](mscluster-node-willofflinelosequorum.md) | Checks if the taking the node offline will cause the cluster to lose quorum.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>              |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -367,9 +372,9 @@ Access type: Read-only
 
 The dynamic vote weight of the node adjusted by dynamic quorum feature.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -384,9 +389,9 @@ Access type: Read-only
 
 Fault domain hierarchy of this node.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -401,9 +406,9 @@ Access type: Read-only
 
 The fault domain id of the node.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -431,9 +436,9 @@ Access type: Read-only
 
 The Id of the node.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -609,9 +614,9 @@ Access type: Read-only
 
 Whether the cluster service on that node should be started with prevent quorum flag.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -626,9 +631,9 @@ Access type: Read-only
 
 The current node drain status of a node.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 The possible values are.
 
@@ -641,9 +646,9 @@ The possible values are.
 
 </dt> <dd>
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **NotInitiated** before Windows Server 2012 R2 .
+This value is **NotInitiated** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -654,9 +659,9 @@ This value is **NotInitiated** before Windows Server 2012 R2 .
 
 </dt> <dd>
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **InProgress** before Windows Server 2012 R2 .
+This value is **InProgress** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -687,9 +692,9 @@ Access type: Read-only
 
 The target specified for the node drain.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -743,9 +748,9 @@ Access type: Read/write
 
 The vote weight of the node.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -1170,7 +1175,7 @@ Returns the current state of a node. For a list of possible state values, see [*
 
 </dt> <dd>
 
-**Windows Server 2012 and Windows Server 2008 R2:** This value was **StateUnknown** before Windows Server 2012 R2.
+**Windows Server 2012 and Windows Server 2008 R2:** This value was **StateUnknown** before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -1257,9 +1262,9 @@ Access type: Read-only
 
 The isolation or quarantine status of the node.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 This property can have the following values.
 
@@ -1299,16 +1304,16 @@ The **MSCluster\_Node** class is derived from the [**CIM\_UnitaryComputerSystem*
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,7 +2,12 @@
 title: T
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
-ms.assetid: '5d8ac31c-ce07-4801-a04e-e12e996b88c6'
+ms.assetid: 5d8ac31c-ce07-4801-a04e-e12e996b88c6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # T
@@ -16,14 +21,14 @@ A B C D [E](e.md) F G H [I](i.md) J K L M N O [P](p.md) Q R [S](s.md) T U V [W](
 
 Instances of an object that provides methods for managing tasks. This includes methods for setting and retrieving properties; running, terminating, and deleting tasks; and creating new triggers and retrieving old triggers.
 
-The task object is created by calls to [**IScheduledWorkItem::CreateTrigger**](ischeduledworkitem-createtrigger.md) and [**IScheduledWorkItem::GetTrigger**](ischeduledworkitem-gettrigger.md).
+The task object is created by calls to [**IScheduledWorkItem::CreateTrigger**](/windows/win32/Mstask/nf-mstask-ischeduledworkitem-createtrigger?branch=master) and [**IScheduledWorkItem::GetTrigger**](/windows/win32/Mstask/nf-mstask-ischeduledworkitem-gettrigger?branch=master).
 
 </dd> <dt>
 
 <span id="_msb_task_scheduler_objects_gly"></span><span id="_MSB_TASK_SCHEDULER_OBJECTS_GLY"></span>**task scheduler objects**
 </dt> <dd>
 
-Instances of an object the represents the Task Scheduler service. This object supports two interfaces: **IUnknown** and [**ITaskScheduler**](itaskscheduler.md) (currently tasks are the only type of work items supported by the Task Scheduler service).
+Instances of an object the represents the Task Scheduler service. This object supports two interfaces: **IUnknown** and [**ITaskScheduler**](/windows/win32/Mstask/nn-mstask-itaskscheduler?branch=master) (currently tasks are the only type of work items supported by the Task Scheduler service).
 
 Task scheduler objects are created by calls to **CoCreateInstance**.
 
@@ -32,9 +37,9 @@ Task scheduler objects are created by calls to **CoCreateInstance**.
 <span id="_msb_task_trigger_objects_gly"></span><span id="_MSB_TASK_TRIGGER_OBJECTS_GLY"></span>**task trigger objects**
 </dt> <dd>
 
-Instances of an object the provides methods for setting and retrieving task triggers. This object supports two interfaces: **IUnknown** and [**ITaskTrigger**](itasktrigger.md).
+Instances of an object the provides methods for setting and retrieving task triggers. This object supports two interfaces: **IUnknown** and [**ITaskTrigger**](/windows/win32/Mstask/nn-mstask-itasktrigger?branch=master).
 
-Task trigger objects are created by calls to [**IScheduledWorkItem::CreateTrigger**](ischeduledworkitem-createtrigger.md) and [**IScheduledWorkItem::GetTrigger**](ischeduledworkitem-gettrigger.md).
+Task trigger objects are created by calls to [**IScheduledWorkItem::CreateTrigger**](/windows/win32/Mstask/nf-mstask-ischeduledworkitem-createtrigger?branch=master) and [**IScheduledWorkItem::GetTrigger**](/windows/win32/Mstask/nf-mstask-ischeduledworkitem-gettrigger?branch=master).
 
 See also: *triggers*.
 
@@ -81,7 +86,7 @@ A string that describes the trigger. This string is created by the Task Schedule
 <span id="_msb_trigger_structures_gly"></span><span id="_MSB_TRIGGER_STRUCTURES_GLY"></span>**trigger structures**
 </dt> <dd>
 
-The [**TASK\_TRIGGER**](task-trigger.md) structure used when setting or retrieving the criteria that defines the trigger. The criteria includes when the trigger will fire, and the type of the trigger.
+The [**TASK\_TRIGGER**](/windows/win32/Mstask/ns-mstask-_task_trigger?branch=master) structure used when setting or retrieving the criteria that defines the trigger. The criteria includes when the trigger will fire, and the type of the trigger.
 
 </dd> </dl>
 

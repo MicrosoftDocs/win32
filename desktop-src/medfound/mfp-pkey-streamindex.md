@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the zero-based index of a media stream for an MFPlay event.'
-ms.assetid: '086fcb1e-f75a-4f38-9fe1-77d30f64bc89'
-title: 'MFP\_PKEY\_StreamIndex property'
+---
+Description: Contains the zero-based index of a media stream for an MFPlay event.
+ms.assetid: 086fcb1e-f75a-4f38-9fe1-77d30f64bc89
+title: MFP\_PKEY\_StreamIndex property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFP\_PKEY\_StreamIndex property
@@ -48,7 +53,7 @@ VT\_UI4
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**MFP\_MF\_EVENT**](mfp-mf-event.md)
+[**MFP\_MF\_EVENT**](/windows/win32/mfplay/ns-mfplay-mfp_mf_event?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetEventData method allocates space for the NMEVENTDATA and NMCOLUMNINFO structures.'
-ms.assetid: 'b24a2a30-4543-4311-87ec-66872463aed7'
-title: 'IMonitorEventer::GetEventData method'
+Description: The GetEventData method allocates space for the NMEVENTDATA and NMCOLUMNINFO structures.
+ms.assetid: b24a2a30-4543-4311-87ec-66872463aed7
+title: IMonitorEventerGetEventData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMonitorEventer::GetEventData method
@@ -13,8 +18,8 @@ The **GetEventData** method allocates space for the [NMEVENTDATA](nmeventdata.md
 
 ```C++
 HRESULT GetEventData(
-  [in]  BYTE         bNumColumns,
-  [out] PNMEVENTDATA *ppNMEventData
+  [in]  BYTE         bNumColumns,
+  [out] PNMEVENTDATA *ppNMEventData
 );
 ```
 
@@ -54,8 +59,8 @@ Monitors call this method to allocate memory for the event data and column infor
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -76,9 +81,9 @@ Monitors call this method to allocate memory for the event data and column infor
 [NMCOLUMNINFO](nmcolumninfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

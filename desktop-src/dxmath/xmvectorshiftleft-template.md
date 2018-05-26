@@ -1,7 +1,12 @@
-﻿---
-Description: 'Shifts a vector left by a given number of 32-bit elements, filling the vacated elements with elements from a second vector.'
-ms.assetid: '5e0f146f-b038-46dd-8b71-95b19cd007c0'
+---
+Description: Shifts a vector left by a given number of 32-bit elements, filling the vacated elements with elements from a second vector.
+ms.assetid: 5e0f146f-b038-46dd-8b71-95b19cd007c0
 title: XMVectorShiftLeft template
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMVectorShiftLeft template

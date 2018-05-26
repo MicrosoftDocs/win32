@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a group of controllers that control the operation and function of devices that initiate protocols.'
-ms.assetid: 'fb6b65d4-3a1a-47b1-afc7-9b10e8eeaa32'
-title: 'CIM\_ProtocolController class'
+Description: Represents a group of controllers that control the operation and function of devices that initiate protocols.
+ms.assetid: fb6b65d4-3a1a-47b1-afc7-9b10e8eeaa32
+title: CIM\_ProtocolController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ProtocolController class
@@ -49,8 +54,8 @@ The maximum number of units that can be controlled by or accessed through the pr
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -64,9 +69,9 @@ The maximum number of units that can be controlled by or accessed through the pr
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

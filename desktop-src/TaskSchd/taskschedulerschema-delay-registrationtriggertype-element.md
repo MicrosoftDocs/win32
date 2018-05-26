@@ -1,14 +1,20 @@
 ---
 title: Delay (registrationTriggerType) Element
 description: Specifies the amount of time between when the task is registered and when the task is started.
-ms.assetid: '8955d86c-8306-45e7-93cf-eacf50e10075'
-keywords: ["Delay element Task Scheduler"]
+ms.assetid: 8955d86c-8306-45e7-93cf-eacf50e10075
+keywords:
+- Delay element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Delay
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Delay (registrationTriggerType) Element
@@ -37,7 +43,7 @@ The **Delay** element is defined by the [**registrationTriggerType**](taskschedu
 
 For scripting development, the registration trigger delay is specified using the [**RegistrationTrigger.Delay**](registrationtrigger-delay.md) property.
 
-For C++ development, the registration trigger delay is specified using the [**IRegistrationTrigger::Delay**](iregistrationtrigger-delay.md) property.
+For C++ development, the registration trigger delay is specified using the [**IRegistrationTrigger::Delay**](/windows/win32/taskschd/nf-taskschd-iregistrationtrigger-get_delay?branch=master) property.
 
 ## Examples
 
@@ -63,8 +69,8 @@ The following XML defines a registration trigger delay that allows a 5 minute de
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -78,9 +84,9 @@ The following XML defines a registration trigger delay that allows a 5 minute de
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

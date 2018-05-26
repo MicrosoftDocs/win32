@@ -1,13 +1,16 @@
 ---
-Description: 'The Distributed Management Task Force (DMTF) Common Information Model (CIM) classes are the parent classes upon which WMI classes are built. The following table lists the categories of CIM classes.'
+Description: The Distributed Management Task Force (DMTF) Common Information Model (CIM) classes are the parent classes upon which WMI classes are built. The following table lists the categories of CIM classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2335d397-234f-4122-8c3e-44986d6ed0ca'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2335d397-234f-4122-8c3e-44986d6ed0ca
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM Classes
@@ -17,7 +20,7 @@ The Distributed Management Task Force (DMTF) Common Information Model (CIM) clas
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367). For more information on CIM, see [Common Information Model](common-information-model.md).
 
- 
+ 
 
 
 
@@ -358,11 +361,11 @@ The Distributed Management Task Force (DMTF) Common Information Model (CIM) clas
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

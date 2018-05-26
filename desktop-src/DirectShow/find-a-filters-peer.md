@@ -1,7 +1,12 @@
 ---
 Description: Find a Filters Peer
-ms.assetid: '74d9fe65-f7f4-4971-9550-27884ac4146b'
+ms.assetid: 74d9fe65-f7f4-4971-9550-27884ac4146b
 title: Find a Filters Peer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Find a Filters Peer
@@ -69,7 +74,7 @@ HRESULT GetNextFilter(
 
 
 
-The function calls [**IBaseFilter::EnumPins**](ibasefilter-enumpins.md) to enumerate the first filter's pins. For each pin, it calls [**IPin::QueryDirection**](ipin-querydirection.md) to check whether the pin matches the specified direction (input or output). If so, the function determines whether that pin is connected to another pin, by calling the [**IPin::ConnectedTo**](ipin-connectedto.md) method. Finally, it calls [**IPin::QueryPinInfo**](ipin-querypininfo.md) on the connected pin. This method returns a structure that contains, among other things, a pointer to that pin's owning filter. This pointer is returned to the caller in the *ppNext* parameter. The caller must release the pointer.
+The function calls [**IBaseFilter::EnumPins**](/windows/win32/Strmif/nf-strmif-ibasefilter-enumpins?branch=master) to enumerate the first filter's pins. For each pin, it calls [**IPin::QueryDirection**](/windows/win32/Strmif/nf-strmif-ipin-querydirection?branch=master) to check whether the pin matches the specified direction (input or output). If so, the function determines whether that pin is connected to another pin, by calling the [**IPin::ConnectedTo**](/windows/win32/Strmif/nf-strmif-ipin-connectedto?branch=master) method. Finally, it calls [**IPin::QueryPinInfo**](/windows/win32/Strmif/nf-strmif-ipin-querypininfo?branch=master) on the connected pin. This method returns a structure that contains, among other things, a pointer to that pin's owning filter. This pointer is returned to the caller in the *ppNext* parameter. The caller must release the pointer.
 
 The following code shows how to call this function:
 

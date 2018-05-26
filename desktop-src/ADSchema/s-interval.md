@@ -4,17 +4,21 @@ description: Represents a time interval value.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e41b71da-cd05-4a4a-8b97-9210dbe314de'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e41b71da-cd05-4a4a-8b97-9210dbe314de
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Interval syntax AD Schema"]
+keywords:
+- Interval syntax AD Schema
 topic_type:
 - apiref
 api_name:
 - Interval
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Interval syntax

@@ -1,13 +1,16 @@
 ---
-Description: 'Deletes an existing class and its instances from the repository.'
+Description: Deletes an existing class and its instances from the repository.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6f96d14a-16ab-4e83-a75f-5dbf162d1692'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6f96d14a-16ab-4e83-a75f-5dbf162d1692
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: pragma deleteclass
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # pragma deleteclass
@@ -36,7 +39,7 @@ The following describes the syntax:
 
 
 
- 
+ 
 
 ## Examples
 
@@ -55,8 +58,8 @@ The following example shows how to use this command.
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -67,9 +70,9 @@ The following example shows how to use this command.
 [Preprocessor Commands](preprocessor-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

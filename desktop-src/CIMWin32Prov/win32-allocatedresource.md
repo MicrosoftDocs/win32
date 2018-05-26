@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_AllocatedResource association WMI class relates a logical device to a system resource. This class is used to discover which resources, such as IRQs or DMA channels, are in use by a specific device.'
+Description: The Win32\_AllocatedResource association WMI class relates a logical device to a system resource. This class is used to discover which resources, such as IRQs or DMA channels, are in use by a specific device.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cfac1209-1405-4fee-847c-8a61504bfac1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cfac1209-1405-4fee-847c-8a61504bfac1
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_AllocatedResource class'
+title: Win32\_AllocatedResource class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_AllocatedResource class
@@ -26,7 +29,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [DEPRECATED, Dynamic, Provider("CIMWin32"), UUID("{8502C50D-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_AllocatedResource : CIM_Dependency
 {
-  CIM_LogicalDevice  REF Dependent;
+  CIM_LogicalDevice  REF Dependent;
   CIM_SystemResource REF Antecedent;
 };
 ```
@@ -85,8 +88,8 @@ The **Win32\_AllocatedResource** class is derived from [**CIM\_Dependency**](cim
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -103,9 +106,9 @@ The **Win32\_AllocatedResource** class is derived from [**CIM\_Dependency**](cim
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

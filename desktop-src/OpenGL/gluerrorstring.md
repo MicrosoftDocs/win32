@@ -1,8 +1,9 @@
 ---
 title: gluErrorString function
 description: The gluErrorString function produces an error string from an OpenGL or GLU error code. The error string is ANSI only.
-ms.assetid: '6d71a6d5-ac00-49f9-a56c-cfeeb88963eb'
-keywords: ["gluErrorString function OpenGL"]
+ms.assetid: 6d71a6d5-ac00-49f9-a56c-cfeeb88963eb
+keywords:
+- gluErrorString function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluErrorString function
@@ -22,7 +28,7 @@ The **gluErrorString** function produces an error string from an OpenGL or GLU e
 
 ```C++
 const GLubyte* WINAPI gluErrorString(
-   GLenum errCode
+   GLenum errCode
 );
 ```
 
@@ -53,8 +59,8 @@ The **gluErrorString** function produces error strings in ANSI only. Whenever po
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -77,9 +83,9 @@ The **gluErrorString** function produces error strings in ANSI only. Whenever po
 [*gluTessCallback*](glutess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

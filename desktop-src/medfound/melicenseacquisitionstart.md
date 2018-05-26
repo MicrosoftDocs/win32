@@ -1,16 +1,21 @@
-﻿---
-Description: 'Raised by the policy engine when license acquisition is about to begin. License acquisition is performed using the application's implementation of the IMFContentProtectionManager interface.'
-ms.assetid: 'c328743c-a69b-431e-8a05-0e140aad9b4d'
+---
+Description: Raised by the policy engine when license acquisition is about to begin. License acquisition is performed using the applications implementation of the IMFContentProtectionManager interface.
+ms.assetid: c328743c-a69b-431e-8a05-0e140aad9b4d
 title: MELicenseAcquisitionStart event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MELicenseAcquisitionStart event
 
-Raised by the policy engine when license acquisition is about to begin. License acquisition is performed using the application's implementation of the [**IMFContentProtectionManager**](imfcontentprotectionmanager.md) interface.
+Raised by the policy engine when license acquisition is about to begin. License acquisition is performed using the application's implementation of the [**IMFContentProtectionManager**](/windows/win32/mfidl/nn-mfidl-imfcontentprotectionmanager?branch=master) interface.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

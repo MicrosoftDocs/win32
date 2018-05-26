@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the Tsid property of a FaxDoc object. The Tsid property is a null-terminated string that contains a user-defined transmitting station identifier (TSID).'
-ms.assetid: 'aa6854d7-4097-4890-97fb-1f4ca5956548'
-title: 'FaxDoc.Tsid property'
+---
+Description: Sets or retrieves the Tsid property of a FaxDoc object. The Tsid property is a null-terminated string that contains a user-defined transmitting station identifier (TSID).
+ms.assetid: aa6854d7-4097-4890-97fb-1f4ca5956548
+title: FaxDoc.Tsid property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.Tsid property
@@ -59,7 +64,7 @@ The **get\_Tsid** method allocates the memory required for the buffer pointed to
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [**UseDeviceTsid**](-mfax-ifaxserver-get-usedevicetsid-vb.md)

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the encryption algorithm and key length.'
-ms.assetid: '13b2a3db-f04b-4436-b64f-f194fc9ddac2'
-title: 'EnvelopedData.Algorithm property'
+---
+Description: Retrieves the encryption algorithm and key length.
+ms.assetid: 13b2a3db-f04b-4436-b64f-f194fc9ddac2
+title: EnvelopedData.Algorithm property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnvelopedData.Algorithm property

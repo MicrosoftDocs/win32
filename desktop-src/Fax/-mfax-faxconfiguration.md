@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents various objects that provide configuration options for the fax service.'
-ms.assetid: '381e098b-d130-4e15-9aba-cb0048cc5b98'
+---
+Description: Represents various objects that provide configuration options for the fax service.
+ms.assetid: 381e098b-d130-4e15-9aba-cb0048cc5b98
 title: FaxConfiguration object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration object
@@ -68,7 +73,7 @@ The **FaxConfiguration** object has these properties.
 
 ![faxserver2 and faxconfiguration](images/faxconfiguation.png)
 
-To create a **FaxConfiguration** object in Microsoft Visual Basic, call the [**Configuration**](-mfax-faxserver2-configuration-vb.md) property of the [**IFaxServer2**](-mfax-faxserver2-cpp.md) object.
+To create a **FaxConfiguration** object in Microsoft Visual Basic, call the [**Configuration**](-mfax-faxserver2-configuration-vb.md) property of the [**IFaxServer2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver2?branch=master) object.
 
 To create a **FaxConfiguration** object in C++, call the [**Configuration**](-mfax-faxserver2-configuration-vb.md) method.
 
@@ -90,7 +95,7 @@ To create a **FaxConfiguration** object in C++, call the [**Configuration**](-mf
 
 <dl> <dt>
 
-[**IFaxConfiguration**](-mfax-ifaxconfiguration.md)
+[**IFaxConfiguration**](/windows/previous-versions/Faxcomex/nn-faxcomex-ifaxconfiguration?branch=master)
 </dt> </dl>
 
  

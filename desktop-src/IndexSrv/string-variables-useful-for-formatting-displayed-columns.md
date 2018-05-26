@@ -1,7 +1,12 @@
 ---
 title: String Variables Useful for Formatting Displayed Columns
 description: String Variables Useful for Formatting Displayed Columns
-ms.assetid: '51e2a4bc-4e04-4ee4-8fbb-f94baa18b316'
+ms.assetid: 51e2a4bc-4e04-4ee4-8fbb-f94baa18b316
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # String Variables Useful for Formatting Displayed Columns

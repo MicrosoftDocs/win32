@@ -1,13 +1,16 @@
 ---
-Description: 'Represents a version number in the format Major.Minor.Build.Revision.'
+Description: Represents a version number in the format Major.Minor.Build.Revision.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '452960bc-2642-4f07-8726-23af66d72ad4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 452960bc-2642-4f07-8726-23af66d72ad4
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: Version object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Version object
@@ -35,7 +38,7 @@ The **Version** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -102,7 +105,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -120,9 +123,9 @@ END FUNCTION
 [**ExcludedLockbox**](excludedlockbox-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Origin Attribute (Fill)(VML)
 description: Origin Attribute (Fill)(VML)
-ms.assetid: '7ebb70eb-e8f2-4749-88fd-935562da0b74'
+ms.assetid: 7ebb70eb-e8f2-4749-88fd-935562da0b74
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Origin Attribute (Fill)(VML)

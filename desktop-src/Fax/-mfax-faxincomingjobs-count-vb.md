@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Count property represents the number of objects in the FaxIncomingJobs collection. This is the total number of incoming jobs for the fax server.'
-ms.assetid: '0086b45d-05da-4e7c-9748-2c69b5c6b28f'
-title: 'FaxIncomingJobs.Count property'
+---
+Description: The Count property represents the number of objects in the FaxIncomingJobs collection. This is the total number of incoming jobs for the fax server.
+ms.assetid: 0086b45d-05da-4e7c-9748-2c69b5c6b28f
+title: FaxIncomingJobs.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJobs.Count property
@@ -46,7 +51,7 @@ A **Long** that receives the number of objects in the [**FaxIncomingJobs**](-mfa
 [**FaxIncomingJobs**](-mfax-faxincomingjobs.md)
 </dt> <dt>
 
-[**IFaxIncomingJobs**](-mfax-faxincomingjobs-cpp.md)
+[**IFaxIncomingJobs**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjobs?branch=master)
 </dt> </dl>
 
  

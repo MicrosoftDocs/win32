@@ -1,7 +1,12 @@
 ---
-Description: 'The code for broadcasting a fax is similar to the code for sending a fax.'
-ms.assetid: '82a9e599-35d3-4fca-954f-dbc579c023f5'
+Description: The code for broadcasting a fax is similar to the code for sending a fax.
+ms.assetid: 82a9e599-35d3-4fca-954f-dbc579c023f5
 title: Broadcasting a Fax
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Broadcasting a Fax

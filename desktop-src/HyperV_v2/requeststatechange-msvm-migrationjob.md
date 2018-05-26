@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the state of the migration job be changed to the specified state.'
-ms.assetid: 'f0be5ea8-7e21-407e-b84d-8bd4ca5a6a2c'
-title: 'RequestStateChange method of the Msvm\_MigrationJob class'
+Description: Requests that the state of the migration job be changed to the specified state.
+ms.assetid: f0be5ea8-7e21-407e-b84d-8bd4ca5a6a2c
+title: RequestStateChange method of the Msvm\_MigrationJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the Msvm\_MigrationJob class
@@ -13,8 +18,8 @@ Requests that the state of the migration job be changed to the specified state. 
 
 ```mof
 uint32 RequestStateChange(
-  [in] uint16   RequestedState,
-  [in] datetime TimeoutPeriod
+  [in] uint16   RequestedState,
+  [in] datetime TimeoutPeriod
 );
 ```
 
@@ -161,8 +166,8 @@ A timeout period that specifies the maximum amount of time that the client expec
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -176,9 +181,9 @@ A timeout period that specifies the maximum amount of time that the client expec
 [**Msvm\_MigrationJob**](msvm-migrationjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

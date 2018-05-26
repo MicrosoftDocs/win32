@@ -1,15 +1,24 @@
 ---
 title: Using Data Copy
 description: This topic provides an example that demonstrates how to send information between two applications.
-ms.assetid: '5b37aa75-1208-435b-bf81-3e75f48f27f3'
-keywords: ["Windows User Interface,data copy", "data copy,examples", "data copy,WM_COPYDATA message", "WM_COPYDATA message"]
+ms.assetid: 5b37aa75-1208-435b-bf81-3e75f48f27f3
+keywords:
+- Windows User Interface,data copy
+- data copy,examples
+- data copy,WM_COPYDATA message
+- WM_COPYDATA message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Data Copy
 
 The following example demonstrates how to send information between two applications using the [**WM\_COPYDATA**](wm-copydata.md) message.
 
-The sending application displays a dialog box to the user which requests certain information. The application packages the information into a private data structure, includes a pointer to the structure in the [**COPYDATASTRUCT**](copydatastruct.md) structure, and sends the information to the receiving application using the [**WM\_COPYDATA**](wm-copydata.md) message. The receiving application has a hidden window with the class name Disp32Class.
+The sending application displays a dialog box to the user which requests certain information. The application packages the information into a private data structure, includes a pointer to the structure in the [**COPYDATASTRUCT**](/windows/win32/Winuser/ns-winuser-tagcopydatastruct?branch=master) structure, and sends the information to the receiving application using the [**WM\_COPYDATA**](wm-copydata.md) message. The receiving application has a hidden window with the class name Disp32Class.
 
 
 ```

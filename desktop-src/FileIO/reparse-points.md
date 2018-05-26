@@ -1,7 +1,12 @@
 ---
-Description: 'Describes reparse points.'
-ms.assetid: '3abb3a08-9a00-43eb-9792-82eab1a25f06'
+Description: Describes reparse points.
+ms.assetid: 3abb3a08-9a00-43eb-9792-82eab1a25f06
 title: Reparse Points
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reparse Points
@@ -19,7 +24,7 @@ The following restrictions apply to reparse points:
 -   Reparse point data, including the tag and optional **GUID**, cannot exceed 16 kilobytes. Setting a reparse point fails if the amount of data to be placed in the reparse point exceeds this limit.
 -   There is a limit of 63 reparse points on any given path.
 
-    **Windows Server 2003 and Windows XP:** There is a limit of 31 reparse points on any given path.
+    **Windows Server 2003 and Windows XP:** There is a limit of 31 reparse points on any given path.
 
 ## In this section
 
@@ -33,11 +38,11 @@ The following restrictions apply to reparse points:
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

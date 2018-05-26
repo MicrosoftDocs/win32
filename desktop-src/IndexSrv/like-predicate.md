@@ -1,7 +1,12 @@
 ---
 title: LIKE Predicate
 description: LIKE Predicate
-ms.assetid: '38e0dfda-92aa-4797-bfbe-0aebd6e109cc'
+ms.assetid: 38e0dfda-92aa-4797-bfbe-0aebd6e109cc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LIKE Predicate

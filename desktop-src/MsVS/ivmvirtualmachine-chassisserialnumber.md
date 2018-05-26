@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine ChassisSerialNumber property
 description: The ChassisSerialNumber property contains the chassis serial number.
-ms.assetid: '9d4d2ce9-f4f1-48f4-9976-f3017b2be045'
-keywords: ["ChassisSerialNumber property Virtual Server", "ChassisSerialNumber property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , ChassisSerialNumber property"]
+ms.assetid: 9d4d2ce9-f4f1-48f4-9976-f3017b2be045
+keywords:
+- ChassisSerialNumber property Virtual Server
+- ChassisSerialNumber property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , ChassisSerialNumber property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::ChassisSerialNumber property
@@ -26,11 +34,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ChassisSerialNumber(
-  [in]  BSTR chassisSerialNumber
+  [in]  BSTR chassisSerialNumber
 );
 
 HRESULT get_ChassisSerialNumber(
-  [out] BSTR *chassisSerialNumber
+  [out] BSTR *chassisSerialNumber
 );
 ```
 
@@ -107,8 +115,8 @@ End If
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -120,9 +128,9 @@ End If
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

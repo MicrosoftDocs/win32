@@ -4,13 +4,16 @@ description: Requests a change in the usage of a specified element.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '164e4b61-f485-4be7-bf4a-95bb3964980d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 164e4b61-f485-4be7-bf4a-95bb3964980d
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RequestUsageChange method iSCSI Software Target API", "RequestUsageChange method iSCSI Software Target API , MSISCSITARGET_StorageConfigurationService class", "MSISCSITARGET_StorageConfigurationService class iSCSI Software Target API , RequestUsageChange method"]
+keywords:
+- RequestUsageChange method iSCSI Software Target API
+- RequestUsageChange method iSCSI Software Target API , MSISCSITARGET_StorageConfigurationService class
+- MSISCSITARGET_StorageConfigurationService class iSCSI Software Target API , RequestUsageChange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestUsageChange method of the MSISCSITARGET\_StorageConfigurationService class
@@ -32,11 +38,11 @@ This method is inherited from the **CIM\_StorageConfigurationService** class.
 
 ```mof
 uint32 RequestUsageChange(
-  [in]  uint16                 Operation,
-  [in]  uint16                 UsageValue,
-  [in]  string                 OtherUsageDescription,
-  [out] CIM_ConcreteJob Ref    Job,
-  [in]  CIM_LogicalElement Ref TheElement
+  [in]  uint16                 Operation,
+  [in]  uint16                 UsageValue,
+  [in]  string                 OtherUsageDescription,
+  [out] CIM_ConcreteJob Ref    Job,
+  [in]  CIM_LogicalElement Ref TheElement
 );
 ```
 
@@ -60,7 +66,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>0–1</dd> <dt>
+</dt> <dd>0 1</dd> <dt>
 
 <span id="Set"></span><span id="set"></span><span id="SET"></span>
 
@@ -81,14 +87,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>14–0x7FFF</dd> <dt>
+</dt> <dd>14 0x7FFF</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *UsageValue* \[in\]
 </dt> <dd>
@@ -160,14 +166,14 @@ The possible values for the [**MSISCSITARGET\_StoragePool**](msiscsitarget-stora
 **DMTF Reserved**
 
 
-</dt> <dd>9–0x7FFF</dd> <dt>
+</dt> <dd>9 0x7FFF</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 The possible values for the [**MSISCSITARGET\_StorageVolume**](msiscsitarget-storagevolume.md).**Usage** property are.
 
@@ -297,14 +303,14 @@ The possible values for the [**MSISCSITARGET\_StorageVolume**](msiscsitarget-sto
 **DMTF Reserved**
 
 
-</dt> <dd>18–0x7FFF</dd> <dt>
+</dt> <dd>18 0x7FFF</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *OtherUsageDescription* \[in\]
 </dt> <dd>
@@ -354,16 +360,16 @@ This method returns one of the following values.
 **Not Authorized** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -373,7 +379,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -393,9 +399,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_StorageVolume**](msiscsitarget-storagevolume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

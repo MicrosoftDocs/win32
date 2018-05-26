@@ -1,7 +1,12 @@
 ---
 title: ATA Port Initialization Routines
 description: ATA Port Initialization Routines
-ms.assetid: '2d820551-0de7-4057-b842-674ac61a7351'
+ms.assetid: 2d820551-0de7-4057-b842-674ac61a7351
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Port Initialization Routines

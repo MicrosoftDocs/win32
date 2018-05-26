@@ -1,14 +1,20 @@
 ---
 title: TestCaseKey element
 description: A real or virtual test case each test case in the table must have listed as a parent.
-ms.assetid: 'F20B3055-333D-4025-BC1F-423C67B9F97B'
-keywords: ["TestCaseKey element Access Execution Engine"]
+ms.assetid: F20B3055-333D-4025-BC1F-423C67B9F97B
+keywords:
+- TestCaseKey element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - TestCaseKey
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCaseKey element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

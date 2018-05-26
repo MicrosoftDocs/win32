@@ -1,8 +1,11 @@
 ---
 title: IMessenger MyServiceName property
-description: IMessenger MyServiceName is no longer available for use as of Windows Vista.
-ms.assetid: '98c67b67-6279-4c47-bdb8-1362e4e6e52b'
-keywords: ["MyServiceName property Windows Messenger", "MyServiceName property Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , MyServiceName property"]
+description: IMessenger MyServiceName is no longer available for use as of Windows Vista.
+ms.assetid: 98c67b67-6279-4c47-bdb8-1362e4e6e52b
+keywords:
+- MyServiceName property Windows Messenger
+- MyServiceName property Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , MyServiceName property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::MyServiceName property
 
-\[**IMessenger::MyServiceName** is no longer available for use as of Windows Vista. For more information, see [Windows Messenger](im-messenger-entry.md).\]
+\[**IMessenger::MyServiceName** is no longer available for use as of Windows Vista. For more information, see [Windows Messenger](im-messenger-entry.md).\]
 
 Retrieves the service name of the primary service to which the local client user is currently signed in. Use [**ServiceName**](im-imessengerservice-servicename.md) instead. To return a list of [**MessengerService**](im-messengerservice.md) objects, use the [**Services**](im-imessenger-services.md) property.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MyServiceName(
-  [out, retval] BSTR *pbstrServiceName
+  [out, retval] BSTR *pbstrServiceName
 );
 ```
 
@@ -57,7 +65,7 @@ If the local client is offline, this property returns the string of the default 
 > [!Note]  
 > This property is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -65,10 +73,10 @@ If the local client is offline, this property returns the string of the default 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -85,9 +93,9 @@ If the local client is offline, this property returns the string of the default 
 [**ServiceName**](im-imessengerservice-servicename.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

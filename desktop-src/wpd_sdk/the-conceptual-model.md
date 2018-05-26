@@ -1,7 +1,12 @@
 ---
 Description: The Conceptual Model
-ms.assetid: 'f906466e-acdc-4d0f-bf27-c5a25dc56c01'
+ms.assetid: f906466e-acdc-4d0f-bf27-c5a25dc56c01
 title: The Conceptual Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Conceptual Model

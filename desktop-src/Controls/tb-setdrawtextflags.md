@@ -1,8 +1,9 @@
 ---
 title: TB\_SETDRAWTEXTFLAGS message
 description: Sets the text drawing flags for the toolbar.
-ms.assetid: 'b088af32-ea8a-4304-89f1-a7cec5497f85'
-keywords: ["TB_SETDRAWTEXTFLAGS message Windows Controls"]
+ms.assetid: b088af32-ea8a-4304-89f1-a7cec5497f85
+keywords:
+- TB_SETDRAWTEXTFLAGS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETDRAWTEXTFLAGS message
@@ -49,15 +55,15 @@ The *wParam* parameter allows you to specify which flags will be used when drawi
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

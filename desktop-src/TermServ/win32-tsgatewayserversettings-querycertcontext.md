@@ -4,11 +4,14 @@ description: Indicates whether the specified certificate is installed.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '25d56f72-befd-46b4-84ff-dca748eeaca4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 25d56f72-befd-46b4-84ff-dca748eeaca4
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["QueryCertContext method Remote Desktop Services", "QueryCertContext method Remote Desktop Services , Win32_TSGatewayServerSettings class", "Win32_TSGatewayServerSettings class Remote Desktop Services , QueryCertContext method"]
+keywords:
+- QueryCertContext method Remote Desktop Services
+- QueryCertContext method Remote Desktop Services , Win32_TSGatewayServerSettings class
+- Win32_TSGatewayServerSettings class Remote Desktop Services , QueryCertContext method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # QueryCertContext method of the Win32\_TSGatewayServerSettings class
@@ -28,7 +34,7 @@ Indicates whether the specified certificate is installed.
 
 ```mof
 uint32 QueryCertContext(
-  [out] uint8 CertHash[]
+  [out] uint8 CertHash[]
 );
 ```
 
@@ -41,7 +47,7 @@ uint32 QueryCertContext(
 *CertHash* \[out\]
 </dt> <dd>
 
-Hash of the certificate that is used by the RD Gateway server.
+Hash of the certificate that is used by the RD Gateway server.
 
 </dd> </dl>
 
@@ -62,7 +68,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -76,9 +82,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayServerSettings**](win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

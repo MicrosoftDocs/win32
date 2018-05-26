@@ -1,7 +1,12 @@
 ---
 title: About Buttons
 description: A button is a control the that user can click to provide input to an application.
-ms.assetid: '849FFD6B-8CB6-44FA-92EB-35BFA537FB75'
+ms.assetid: 849FFD6B-8CB6-44FA-92EB-35BFA537FB75
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Buttons
@@ -24,11 +29,11 @@ The following topics are discussed in this section.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

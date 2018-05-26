@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deprecated. Retrieves the key in the registry that corresponds to this user identity.'
-ms.assetid: 'eecf8b73-e86a-4274-8d9c-c601153f81db'
-title: 'IUserIdentity::OpenIdentityRegKey method'
+---
+Description: Deprecated. Retrieves the key in the registry that corresponds to this user identity.
+ms.assetid: eecf8b73-e86a-4274-8d9c-c601153f81db
+title: IUserIdentityOpenIdentityRegKey method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IUserIdentity::OpenIdentityRegKey method

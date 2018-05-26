@@ -1,8 +1,21 @@
 ---
 title: Playlist Burning
 description: Playlist Burning
-ms.assetid: 'f34f3ea5-d921-4bfb-a8ea-cf8714b7b21d'
-keywords: ["Windows Media Format SDK,Windows Media DRM 10", "digital rights management (DRM),Windows Media DRM 10", "DRM (digital rights management),Windows Media DRM 10", "Windows Media Format SDK,playlist burning", "digital rights management (DRM),playlist burning", "DRM (digital rights management),playlist burning", "Windows Media DRM 10", "playlist burning"]
+ms.assetid: f34f3ea5-d921-4bfb-a8ea-cf8714b7b21d
+keywords:
+- Windows Media Format SDK,Windows Media DRM 10
+- digital rights management (DRM),Windows Media DRM 10
+- DRM (digital rights management),Windows Media DRM 10
+- Windows Media Format SDK,playlist burning
+- digital rights management (DRM),playlist burning
+- DRM (digital rights management),playlist burning
+- Windows Media DRM 10
+- playlist burning
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist Burning
@@ -20,7 +33,7 @@ The Windows Media Format SDK provides the ability to quickly check all of the fi
 [**Digital Rights Management Features**](digital-rights-management-features.md)
 </dt> <dt>
 
-[**IWMReaderPlaylistBurn Interface**](iwmreaderplaylistburn.md)
+[**IWMReaderPlaylistBurn Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn?branch=master)
 </dt> </dl>
 
  

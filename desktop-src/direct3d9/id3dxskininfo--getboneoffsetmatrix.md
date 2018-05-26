@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the bone offset matrix.'
-ms.assetid: '99d47635-ffae-4668-a37c-b15442148fa1'
-title: 'ID3DXSkinInfo::GetBoneOffsetMatrix method'
+---
+Description: Gets the bone offset matrix.
+ms.assetid: 99d47635-ffae-4668-a37c-b15442148fa1
+title: ID3DXSkinInfoGetBoneOffsetMatrix method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSkinInfo::GetBoneOffsetMatrix method

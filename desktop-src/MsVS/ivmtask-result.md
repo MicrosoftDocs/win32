@@ -1,8 +1,13 @@
 ---
 title: IVMTask Result property
 description: The Result property contains the result of the task.
-ms.assetid: 'f7522579-22f4-40d4-b5ff-e427d5c8f83c'
-keywords: ["Result property Virtual Server", "Result property Virtual Server , IVMTask interface", "IVMTask interface Virtual Server , Result property", "Result property Virtual Server , VMTask interface", "VMTask interface Virtual Server , Result property"]
+ms.assetid: f7522579-22f4-40d4-b5ff-e427d5c8f83c
+keywords:
+- Result property Virtual Server
+- Result property Virtual Server , IVMTask interface
+- IVMTask interface Virtual Server , Result property
+- Result property Virtual Server , VMTask interface
+- VMTask interface Virtual Server , Result property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask::Result property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Result(
-  [in] VMTaskResult *result
+  [in] VMTaskResult *result
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -92,9 +102,9 @@ This property value is read-only.
 [**VMTaskResult**](vmtaskresult.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

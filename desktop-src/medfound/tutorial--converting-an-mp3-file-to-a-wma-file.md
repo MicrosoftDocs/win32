@@ -1,7 +1,12 @@
 ---
-Description: 'This tutorial shows how to use the Transcode API to encode a Windows Media Audio (WMA) file.'
-ms.assetid: '2397ca78-edb5-4756-bd07-00529db28f76'
-title: 'Tutorial: Encoding a WMA File'
+Description: This tutorial shows how to use the Transcode API to encode a Windows Media Audio (WMA) file.
+ms.assetid: 2397ca78-edb5-4756-bd07-00529db28f76
+title: Tutorial Encoding a WMA File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tutorial: Encoding a WMA File
@@ -18,18 +23,18 @@ To build the transcode topology, create the transcode profile and specify the pa
 
 To create the profile, perform the following steps.
 
-1.  Call the [**MFCreateTranscodeProfile**](mfcreatetranscodeprofile.md) function to create an empty transcode profile.
-2.  Call [**MFTranscodeGetAudioOutputAvailableTypes**](mftranscodegetaudiooutputavailabletypes.md) to get a list of audio media types from the encoder. This function returns an [**IMFCollection**](imfcollection.md) pointer that represents a collection of [**IMFMediaType**](imfmediatype.md) pointers.
+1.  Call the [**MFCreateTranscodeProfile**](/windows/win32/mfidl/nf-mfidl-mfcreatetranscodeprofile?branch=master) function to create an empty transcode profile.
+2.  Call [**MFTranscodeGetAudioOutputAvailableTypes**](/windows/win32/mfidl/nf-mfidl-mftranscodegetaudiooutputavailabletypes?branch=master) to get a list of audio media types from the encoder. This function returns an [**IMFCollection**](/windows/win32/mfobjects/nn-mfobjects-imfcollection?branch=master) pointer that represents a collection of [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) pointers.
 3.  Choose the audio media type that matches your transcoding requirements and copy the attributes to an attribute store. For this tutorial, the first media type in the list is used.
-    -   Call [**IMFCollection::GetElement**](imfcollection-getelement.md) to select an audio media type from the list.
-    -   Query the media type to get a pointer to the [**IMFAttributes**](imfattributes.md) interface of the media type's attribute store.
-    -   Call [**IMFAttributes::GetCount**](imfattributes-getcount.md) to get the number of attributes contained in the media type.
-    -   Call [**MFCreateAttributes**](mfcreateattributes.md) to create a new attribute store.
-    -   Call [**IMFAttributes::CopyAllItems**](imfattributes-copyallitems.md) to copy the attributes from the media type to the new attribute store.
-4.  Call [**IMFTranscodeProfile::SetAudioAttributes**](imftranscodeprofile-setaudioattributes.md) to set the attributes for the audio stream.
-5.  Call [**MFCreateAttributes**](mfcreateattributes.md) to create an attribute store for the container-level attributes.
+    -   Call [**IMFCollection::GetElement**](/windows/win32/mfobjects/nf-mfobjects-imfcollection-getelement?branch=master) to select an audio media type from the list.
+    -   Query the media type to get a pointer to the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface of the media type's attribute store.
+    -   Call [**IMFAttributes::GetCount**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getcount?branch=master) to get the number of attributes contained in the media type.
+    -   Call [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master) to create a new attribute store.
+    -   Call [**IMFAttributes::CopyAllItems**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-copyallitems?branch=master) to copy the attributes from the media type to the new attribute store.
+4.  Call [**IMFTranscodeProfile::SetAudioAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setaudioattributes?branch=master) to set the attributes for the audio stream.
+5.  Call [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master) to create an attribute store for the container-level attributes.
 6.  Set the [MF\_TRANSCODE\_CONTAINERTYPE](mf-transcode-containertype.md) attribute to **MFTranscodeContainerType\_ASF**, which specifies an ASF file container.
-7.  Call [**IMFTranscodeProfile::SetContainerAttributes**](imftranscodeprofile-setcontainerattributes.md) to set the container-level attributes on the profile.
+7.  Call [**IMFTranscodeProfile::SetContainerAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes?branch=master) to set the container-level attributes on the profile.
 
 
 ```C++

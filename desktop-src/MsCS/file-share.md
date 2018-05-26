@@ -4,11 +4,16 @@ description: Used to manage file shares that applications and clients can access
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '414c5f97-0a3a-4e01-8ab7-340f547ba101'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 414c5f97-0a3a-4e01-8ab7-340f547ba101
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,File Share", "File Share resource type Failover Cluster"]
+keywords:
+- resource types Failover Cluster ,File Share
+- File Share resource type Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # File Share

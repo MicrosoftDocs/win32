@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.fontStyle
 description: The fontStyle attribute specifies or retrieves the font style for the list box control.
-ms.assetid: 'c42b80b6-0dea-4080-a06e-931fdc02fa55'
-keywords: ["LISTBOX.fontStyle Windows Media Player"]
+ms.assetid: c42b80b6-0dea-4080-a06e-931fdc02fa55
+keywords:
+- LISTBOX.fontStyle Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.fontStyle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.fontStyle
@@ -35,7 +41,7 @@ This attribute is a read/write **String** containing one or more of the followin
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,9 +69,9 @@ For rendering purposes, Normal is the default font style. The default value retr
 [**LISTBOX.fontSize**](listbox-fontsize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

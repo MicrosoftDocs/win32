@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides reference information for NetWNV provider classes defined in NetWNV.mof and implemented in NetWNV.dll.'
-ms.assetid: '6429B9E9-BEB5-405F-A118-E4FEDB42360E'
+Description: This section provides reference information for NetWNV provider classes defined in NetWNV.mof and implemented in NetWNV.dll.
+ms.assetid: 6429B9E9-BEB5-405F-A118-E4FEDB42360E
 title: NetWNV Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetWNV Provider
@@ -24,11 +29,11 @@ This section provides reference information for **NetWNV** provider classes defi
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

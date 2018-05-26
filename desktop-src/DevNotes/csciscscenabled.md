@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines whether Offline Files is enabled.'
-ms.assetid: 'c7d3173d-ed51-4de6-ad07-4c5e6906b0f4'
+---
+Description: Determines whether Offline Files is enabled.
+ms.assetid: c7d3173d-ed51-4de6-ad07-4c5e6906b0f4
 title: CSCIsCSCEnabled function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSCIsCSCEnabled function

@@ -1,7 +1,12 @@
 ---
 title: PaintWin Method
 description: PaintWin Method
-ms.assetid: 'e89794e6-c059-4531-a1e3-3a4972e0218d'
+ms.assetid: e89794e6-c059-4531-a1e3-3a4972e0218d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PaintWin Method

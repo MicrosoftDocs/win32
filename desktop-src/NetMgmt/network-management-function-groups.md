@@ -1,7 +1,12 @@
 ---
 title: Network Management Function Groups
 description: The network management functions can be divided into the following groups.
-ms.assetid: '4b5d3554-f81a-4ecf-bf31-ee4753509f38'
+ms.assetid: 4b5d3554-f81a-4ecf-bf31-ee4753509f38
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Management Function Groups

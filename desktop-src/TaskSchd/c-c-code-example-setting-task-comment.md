@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Setting Task Comment
 description: This example sets the comment for a known task. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: 'c91da741-07fe-41fb-94d5-f6a45ef2d89d'
-keywords: ["setting task comment Task Scheduler", "setting work item properties Task Scheduler , task comment"]
+ms.assetid: c91da741-07fe-41fb-94d5-f6a45ef2d89d
+keywords:
+- setting task comment Task Scheduler
+- setting work item properties Task Scheduler , task comment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Setting Task Comment

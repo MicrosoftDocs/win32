@@ -1,7 +1,12 @@
 ---
 title: Example Adding a Helper Token to a BITS Transfer Job
 description: You can configure a Background Intelligent Transfer Service (BITS) transfer job with an additional security token. The BITS transfer job uses this helper token for authentication and to access resources.
-ms.assetid: '08670c6d-e589-41be-842d-597f460d9c97'
+ms.assetid: 08670c6d-e589-41be-842d-597f460d9c97
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Adding a Helper Token to a BITS Transfer Job
@@ -17,29 +22,29 @@ This example uses the header and implementation defined in [Example: Common Clas
 **To add a helper token to a BITS transfer job**
 
 1.  Initialize COM parameters by calling the CCoInitializer function. For more information about the CCoInitializer function, see [Example: Common Classes](common-classes.md).
-2.  Get a pointer to the [**IBackgroundCopyJob**](ibackgroundcopyjob.md) interface. This example uses the [CComPtr Class](http://go.microsoft.com/fwlink/p/?linkid=162393) to manage COM interface pointers.
+2.  Get a pointer to the [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) interface. This example uses the [CComPtr Class](http://go.microsoft.com/fwlink/p/?linkid=162393) to manage COM interface pointers.
 3.  Initialize COM process security by calling [CoInitializeSecurity](http://go.microsoft.com/fwlink/p/?linkid=162390). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set.
-4.  Get a pointer to the [**IBackgroundCopyManager**](ibackgroundcopymanager.md) interface, and obtain the initial locator to BITS by calling the [CoCreateInstance]( http://go.microsoft.com/fwlink/p/?linkid=162386) function.
-5.  Create a BITS transfer job by calling the [**IBackgroundCopyManager::CreateJob**](ibackgroundcopymanager-createjob.md) method.
-6.  Get a pointer to the CNotifyInterface callback interface, and call the [**IBackgroundCopyJob::SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md) method to receive notification of job-related events. For more information about CNotifyInterface, see [Example: Common Classes](common-classes.md).
-7.  Call the [**IBackgroundCopyJob::SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md) method to set the types of notifications to receive. In this example, the **BG\_NOTIFY\_JOB\_TRANSFERRED** and **BG\_NOTIFY\_JOB\_ERROR** flags are set.
-8.  Get a pointer to the [**IBitsTokenOptions**](ibitstokenoptions.md) interface by calling the **IBackgroundCopyJob::QueryInterface** method with the proper interface identifier.
+4.  Get a pointer to the [**IBackgroundCopyManager**](/windows/win32/Bits/nn-bits-ibackgroundcopymanager?branch=master) interface, and obtain the initial locator to BITS by calling the [CoCreateInstance]( http://go.microsoft.com/fwlink/p/?linkid=162386) function.
+5.  Create a BITS transfer job by calling the [**IBackgroundCopyManager::CreateJob**](/windows/win32/Bits/nf-bits-ibackgroundcopymanager-createjob?branch=master) method.
+6.  Get a pointer to the CNotifyInterface callback interface, and call the [**IBackgroundCopyJob::SetNotifyInterface**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-setnotifyinterface?branch=master) method to receive notification of job-related events. For more information about CNotifyInterface, see [Example: Common Classes](common-classes.md).
+7.  Call the [**IBackgroundCopyJob::SetNotifyFlags**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-setnotifyflags?branch=master) method to set the types of notifications to receive. In this example, the **BG\_NOTIFY\_JOB\_TRANSFERRED** and **BG\_NOTIFY\_JOB\_ERROR** flags are set.
+8.  Get a pointer to the [**IBitsTokenOptions**](/windows/win32/Bits4_0/nn-bits4_0-ibitstokenoptions?branch=master) interface by calling the **IBackgroundCopyJob::QueryInterface** method with the proper interface identifier.
 9.  Attempt to log on the user of the helper token. Create an impersonation handle, and call the [LogonUser Function]( http://go.microsoft.com/fwlink/p/?linkid=162396) to populate the impersonation handle. If successful, call the [ImpersonateLoggedOnUser Function](http://go.microsoft.com/fwlink/p/?linkid=162395). If unsuccessful, the example calls the [RevertToSelf Function](http://go.microsoft.com/fwlink/p/?linkid=162397) to terminate the impersonation of the logged-on user, an error is thrown, and the handle is closed.
-10. Call the [**IBitsTokenOptions::SetHelperToken**](ibitstokenoptions-sethelpertoken.md) method to impersonate the token of the logged-on user. If this method fails, the example calls the [RevertToSelf Function](http://go.microsoft.com/fwlink/p/?linkid=162397) to terminate the impersonation of the logged-on user, an error is thrown, and the handle is closed.
+10. Call the [**IBitsTokenOptions::SetHelperToken**](/windows/win32/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken?branch=master) method to impersonate the token of the logged-on user. If this method fails, the example calls the [RevertToSelf Function](http://go.microsoft.com/fwlink/p/?linkid=162397) to terminate the impersonation of the logged-on user, an error is thrown, and the handle is closed.
     > [!Note]
     >
-    > In supported versions of Windows before Windows 10, version 1607, the job owner must have administrative credentials to call the [**IBitsTokenOptions::SetHelperToken**](ibitstokenoptions-sethelpertoken.md) method.
+    > In supported versions of Windows before Windows 10, version 1607, the job owner must have administrative credentials to call the [**IBitsTokenOptions::SetHelperToken**](/windows/win32/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken?branch=master) method.
     >
     > Starting with Windows 10, version 1607, non-administrator job owners can set non-administrator helper tokens on BITS jobs they own. Job owners must still have administrative credentials to set helper tokens with administrator privileges.
 
      
 
-11. Call the [**IBitsTokenOptions::SetHelperTokenFlags**](ibitstokenoptions-sethelpertokenflags.md) method to specify which resources to access using the helper token's security context.
+11. Call the [**IBitsTokenOptions::SetHelperTokenFlags**](/windows/win32/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertokenflags?branch=master) method to specify which resources to access using the helper token's security context.
 12. After the impersonation is complete, the example calls the [RevertToSelf Function](http://go.microsoft.com/fwlink/p/?linkid=162397) to terminate the impersonation of logged on user, and the handle is closed.
-13. Add files to the BITS transfer job by calling [**IBackgroundCopyJob::AddFile**](ibackgroundcopyjob-addfile.md).
-14. After the file is added, call [**IBackgroundCopyJob::Resume**](ibackgroundcopyjob-resume.md) to resume the job.
+13. Add files to the BITS transfer job by calling [**IBackgroundCopyJob::AddFile**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-addfile?branch=master).
+14. After the file is added, call [**IBackgroundCopyJob::Resume**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-resume?branch=master) to resume the job.
 15. Set up a while loop to wait for the quit message from the callback interface while the job is transferring. The while loop uses the [GetTickCount](http://go.microsoft.com/fwlink/p/?linkid=162392) function to retrieve the number of milliseconds that have elapsed since the job started transferring.
-16. After the BITS transfer job is complete, remove the job from the queue by calling [**IBackgroundCopyJob::Complete**](ibackgroundcopyjob-complete.md).
+16. After the BITS transfer job is complete, remove the job from the queue by calling [**IBackgroundCopyJob::Complete**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-complete?branch=master).
 
 The following code example adds a helper token to a BITS transfer job.
 
@@ -266,7 +271,7 @@ void _cdecl _tmain(int argc, LPWSTR* argv)
 [Helper tokens for BITS transfer jobs](helper-tokens-for-bits-transfer-jobs.md)
 </dt> <dt>
 
-[**IBitsTokenOptions**](ibitstokenoptions.md)
+[**IBitsTokenOptions**](/windows/win32/Bits4_0/nn-bits4_0-ibitstokenoptions?branch=master)
 </dt> <dt>
 
 [Example: Common Classes](common-classes.md)

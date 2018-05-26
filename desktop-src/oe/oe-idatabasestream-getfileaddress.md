@@ -1,8 +1,11 @@
 ---
 title: IDatabaseStream GetFileAddress method
 description: Retrieves a locally-unique identifier for this stream.
-ms.assetid: '3cc13767-6fb2-43d3-9ee4-17591d355cba'
-keywords: ["GetFileAddress method Windows Mail (formerly Outlook Express)", "GetFileAddress method Windows Mail (formerly Outlook Express) , IDatabaseStream interface", "IDatabaseStream interface Windows Mail (formerly Outlook Express) , GetFileAddress method"]
+ms.assetid: 3cc13767-6fb2-43d3-9ee4-17591d355cba
+keywords:
+- GetFileAddress method Windows Mail (formerly Outlook Express)
+- GetFileAddress method Windows Mail (formerly Outlook Express) , IDatabaseStream interface
+- IDatabaseStream interface Windows Mail (formerly Outlook Express) , GetFileAddress method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabaseStream::GetFileAddress method
@@ -22,7 +30,7 @@ Retrieves a locally-unique identifier for this stream.
 
 ```C++
 HRESULT GetFileAddress(
-  [out] LPFILEADDRESS pfaStream
+  [out] LPFILEADDRESS pfaStream
 );
 ```
 
@@ -55,7 +63,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,16 +71,16 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

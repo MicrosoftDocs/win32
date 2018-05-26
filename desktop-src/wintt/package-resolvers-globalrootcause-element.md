@@ -1,14 +1,20 @@
 ---
 title: Resolvers (GlobalRootcause) Element
 description: Contains a collection of resolver scripts to run.
-ms.assetid: '8bbfb90e-281b-4623-9579-398326dbdc9d'
-keywords: ["Resolvers element Windows Troubleshooting Toolkit"]
+ms.assetid: 8bbfb90e-281b-4623-9579-398326dbdc9d
+keywords:
+- Resolvers element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Resolvers
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resolvers (GlobalRootcause) Element
@@ -36,14 +42,14 @@ The **Resolvers** element is defined by the [**GlobalRootcause**](package-global
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

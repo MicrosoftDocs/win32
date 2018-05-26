@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section contains information about the structures included in the D3DX utility library.'
-ms.assetid: 'e9cfbc00-ff19-4e4b-bf73-b0fe50d7612b'
+---
+Description: This section contains information about the structures included in the D3DX utility library.
+ms.assetid: e9cfbc00-ff19-4e4b-bf73-b0fe50d7612b
 title: D3DX Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX Structures

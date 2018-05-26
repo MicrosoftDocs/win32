@@ -4,17 +4,21 @@ description: Reserved for future use.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '28381eaf-9f78-43b6-97e7-bdae5322cf39'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 28381eaf-9f78-43b6-97e7-bdae5322cf39
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-net-ieee-80211-GP-PolicyReserved attribute AD Schema"]
+keywords:
+- ms-net-ieee-80211-GP-PolicyReserved attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-net-ieee-80211-GP-PolicyReserved
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-net-ieee-80211-GP-PolicyReserved attribute
@@ -38,9 +42,9 @@ Reserved for future use.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +109,9 @@ Reserved for future use.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

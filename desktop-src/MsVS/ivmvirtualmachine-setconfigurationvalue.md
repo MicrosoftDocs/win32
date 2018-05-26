@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine SetConfigurationValue method
 description: The SetConfigurationValue method sets the value of the specified configuration setting for this virtual machine.
-ms.assetid: '78753646-a299-492e-8bdb-3297eb434c3d'
-keywords: ["SetConfigurationValue method Virtual Server", "SetConfigurationValue method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , SetConfigurationValue method"]
+ms.assetid: 78753646-a299-492e-8bdb-3297eb434c3d
+keywords:
+- SetConfigurationValue method Virtual Server
+- SetConfigurationValue method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , SetConfigurationValue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::SetConfigurationValue method
@@ -22,8 +30,8 @@ The **SetConfigurationValue** method sets the value of the specified configurati
 
 ```C++
 HRESULT SetConfigurationValue(
-  [in] BSTR    configurationKey,
-  [in] VARIANT configurationValue
+  [in] BSTR    configurationKey,
+  [in] VARIANT configurationValue
 );
 ```
 
@@ -64,13 +72,13 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
 This method provides low-level access to any configuration value. It can be used to set configuration values for customer-defined keys. Be careful if you use this method to set system configuration values, since no error checking is performed on the configuration value. Also, some configuration values cannot be changed while the virtual machine is running.
 
-Configuration keys are located in the virtual machine's "\*.vmc" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark–delimited format.
+Configuration keys are located in the virtual machine's "\*.vmc" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark delimited format.
 
 For example, to set the value of the "ram\_size" key located in the following key tree:
 
@@ -112,8 +120,8 @@ The *configurationKey* path string would be specified as follows:
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -125,9 +133,9 @@ The *configurationKey* path string would be specified as follows:
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

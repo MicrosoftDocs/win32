@@ -1,7 +1,12 @@
 ---
-Description: 'Other address postal code of the contact.'
-ms.assetid: '04dcee21-1f3b-4dee-95bf-d0df3a614094'
-title: 'System.Contact.OtherAddressPostalCode'
+Description: Other address postal code of the contact.
+ms.assetid: 04dcee21-1f3b-4dee-95bf-d0df3a614094
+title: System.Contact.OtherAddressPostalCode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.OtherAddressPostalCode

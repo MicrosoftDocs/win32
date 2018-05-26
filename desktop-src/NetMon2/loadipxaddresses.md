@@ -1,7 +1,12 @@
 ---
-Description: 'The LoadIPXAddresses function is called by the monitor to fill in an IPX address list taken from an HTML configuration string variable.'
-ms.assetid: 'd8ffd00b-2741-49e8-a90d-d41e56ee7101'
+Description: The LoadIPXAddresses function is called by the monitor to fill in an IPX address list taken from an HTML configuration string variable.
+ms.assetid: d8ffd00b-2741-49e8-a90d-d41e56ee7101
 title: LoadIPXAddresses function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LoadIPXAddresses function
@@ -13,10 +18,10 @@ The **LoadIPXAddresses** function is called by the monitor to fill in an IPX add
 
 ```C++
 BOOL LoadIPXAddresses(
-  _In_  const char        *pConfig,
-  _In_  const char        *pVarName,
-  _Out_       IPX_ADDRESS **ppAddresses,
-  _Out_       DWORD       *pNumAddresses
+  _In_  const char        *pConfig,
+  _In_  const char        *pVarName,
+  _Out_       IPX_ADDRESS **ppAddresses,
+  _Out_       DWORD       *pNumAddresses
 );
 ```
 
@@ -66,17 +71,17 @@ If the function is unsuccessful, the return value is **FALSE**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

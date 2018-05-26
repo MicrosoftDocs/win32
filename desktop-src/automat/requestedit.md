@@ -1,7 +1,12 @@
 ---
 title: requestedit
 description: Indicates that the property supports the OnRequestEdit notification.
-ms.assetid: '77c74754-008f-4a56-9cb1-21b8df571d53'
+ms.assetid: 77c74754-008f-4a56-9cb1-21b8df571d53
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # requestedit

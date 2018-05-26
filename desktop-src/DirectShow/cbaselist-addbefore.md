@@ -1,7 +1,12 @@
 ---
-Description: 'The AddBefore method inserts a list before the specified position.'
-ms.assetid: 'a4c0dbec-64a0-445b-95e5-000603cc0264'
-title: 'CBaseList.AddBefore method'
+Description: The AddBefore method inserts a list before the specified position.
+ms.assetid: a4c0dbec-64a0-445b-95e5-000603cc0264
+title: CBaseList.AddBefore method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.AddBefore method
@@ -13,8 +18,8 @@ The `AddBefore` method inserts a list before the specified position.
 
 ```C++
 BOOL AddBefore(
-   POSITION  pos,
-   CBaseList *pList
+   POSITION  pos,
+   CBaseList *pList
 );
 ```
 
@@ -64,9 +69,9 @@ Existing position indicators, including the one specified in the *pos* parameter
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

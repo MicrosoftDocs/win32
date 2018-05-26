@@ -1,8 +1,9 @@
 ---
 title: RB\_GETBANDCOUNT message
 description: Retrieves the count of bands currently in the rebar control.
-ms.assetid: 'cd521a6b-18ed-4343-8bd8-1b6548b1ac81'
-keywords: ["RB_GETBANDCOUNT message Windows Controls"]
+ms.assetid: cd521a6b-18ed-4343-8bd8-1b6548b1ac81
+keywords:
+- RB_GETBANDCOUNT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_GETBANDCOUNT message
@@ -37,15 +43,15 @@ Returns a **UINT** value that represents the number of bands assigned to the con
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

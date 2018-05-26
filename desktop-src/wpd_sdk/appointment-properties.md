@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following appointment properties.'
-ms.assetid: 'd7e2130b-722b-46ef-9114-17db9c95d017'
+Description: Windows Portable Devices supports the following appointment properties.
+ms.assetid: d7e2130b-722b-46ef-9114-17db9c95d017
 title: Appointment Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Appointment Properties
@@ -23,7 +28,7 @@ Windows Portable Devices supports the following appointment properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -42,9 +47,9 @@ Windows Portable Devices supports the following appointment properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

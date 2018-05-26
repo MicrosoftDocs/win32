@@ -1,8 +1,9 @@
 ---
 title: glPixelMapusv function
 description: The glPixelMapusv function sets up pixel transfer maps.
-ms.assetid: 'c542a1be-8fb0-4269-afc0-459182c89534'
-keywords: ["glPixelMapusv function OpenGL"]
+ms.assetid: c542a1be-8fb0-4269-afc0-459182c89534
+keywords:
+- glPixelMapusv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glPixelMapusv function
@@ -22,9 +28,9 @@ The **glPixelMapusv** function sets up pixel transfer maps.
 
 ```C++
 void WINAPI glPixelMapusv(
-         GLenum   map,
-         GLsizei  mapsize,
-   const GLushort *values
+         GLenum   map,
+         GLsizei  mapsize,
+   const GLushort *values
 );
 ```
 
@@ -56,7 +62,7 @@ A symbolic map name. The ten maps are as follows.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -137,7 +143,7 @@ The following table shows the initial sizes and values for each of the maps. Map
 
 
 
- 
+ 
 
 The following functions retrieve information related to **glPixelMap**:
 
@@ -169,8 +175,8 @@ The following functions retrieve information related to **glPixelMap**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -208,9 +214,9 @@ The following functions retrieve information related to **glPixelMap**:
 [**glTexImage2D**](glteximage2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

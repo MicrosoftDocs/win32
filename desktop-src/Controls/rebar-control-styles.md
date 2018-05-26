@@ -1,7 +1,7 @@
 ---
 title: Rebar Control Styles
 description: Rebar controls support a variety of control styles in addition to standard window styles.
-ms.assetid: '9690a4bd-51bd-4df9-8988-7da3ece7899f'
+ms.assetid: 9690a4bd-51bd-4df9-8988-7da3ece7899f
 topic_type:
 - apiref
 api_name:
@@ -17,6 +17,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rebar Control Styles
@@ -48,9 +53,9 @@ Rebar controls support a variety of control styles in addition to standard windo
 
 
 
- 
+ 
 
- 
+ 
 
 
 

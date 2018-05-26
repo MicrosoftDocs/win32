@@ -1,7 +1,12 @@
 ---
-Description: 'The Init method initializes the streaming thread.'
-ms.assetid: 'c746e595-de97-478c-8b22-5c4dd5594a8f'
-title: 'CSourceStream.Init method'
+Description: The Init method initializes the streaming thread.
+ms.assetid: c746e595-de97-478c-8b22-5c4dd5594a8f
+title: CSourceStream.Init method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.Init method
@@ -47,9 +52,9 @@ This method must be the first thread request sent to the [**CSourceStream::Threa
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

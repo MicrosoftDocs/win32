@@ -1,8 +1,10 @@
 ---
 title: WINBIO\_PRESENCE\_PROPERTIES union
 description: Contains biometric values that the Windows Biometric Framework used to determine that an individual was present.
-ms.assetid: '596CAA7F-35D2-442A-8041-BA1010DF5BAD'
-keywords: ["WINBIO_PRESENCE_PROPERTIES union Windows Biometric Framework API", "PWINBIO_PRESENCE_PROPERTIES union pointer Windows Biometric Framework API"]
+ms.assetid: 596CAA7F-35D2-442A-8041-BA1010DF5BAD
+keywords:
+- WINBIO_PRESENCE_PROPERTIES union Windows Biometric Framework API
+- PWINBIO_PRESENCE_PROPERTIES union pointer Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_PRESENCE\_PROPERTIES union
@@ -25,14 +32,14 @@ typedef union _WINBIO_PRESENCE_PROPERTIES {
   struct {
     RECT BoundingBox;
     LONG Distance;
-  } FacialFeatures;
+  } FacialFeatures;
   struct {
-    RECT  EyeBoundingBox_1;
-    RECT  EyeBoundingBox_2;
+    RECT  EyeBoundingBox_1;
+    RECT  EyeBoundingBox_2;
     POINT PupilCenter_1;
     POINT PupilCenter_2;
-    LONG  Distance;
-  } Iris;
+    LONG  Distance;
+  } Iris;
 } WINBIO_PRESENCE_PROPERTIES, *PWINBIO_PRESENCE_PROPERTIES;
 ```
 
@@ -115,15 +122,15 @@ The distance between the actual location of the iris and the ideal focal distanc
 
 |                                     |                                                                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

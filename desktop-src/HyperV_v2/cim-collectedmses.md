@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a generic association between a collection of managed system elements and the members of the collection.'
-ms.assetid: 'c9e2bbca-67be-41f2-a94c-cf4eaf5f4694'
-title: 'CIM\_CollectedMSEs class'
+Description: Represents a generic association between a collection of managed system elements and the members of the collection.
+ms.assetid: c9e2bbca-67be-41f2-a94c-cf4eaf5f4694
+title: CIM\_CollectedMSEs class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_CollectedMSEs class
@@ -14,7 +19,7 @@ Represents a generic association between a collection of managed system elements
 [Association, Aggregation, Abstract, Version("2.6.0"), UMLPackagePath("CIM::Core::Collection"), AMENDMENT]
 class CIM_CollectedMSEs : CIM_MemberOfCollection
 {
-  CIM_CollectionOfMSEs     REF Collection;
+  CIM_CollectionOfMSEs     REF Collection;
   CIM_ManagedSystemElement REF Member;
 };
 ```
@@ -69,8 +74,8 @@ The members of the collection.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The members of the collection.
 [**CIM\_MemberOfCollection**](cim-memberofcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

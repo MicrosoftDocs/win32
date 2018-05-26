@@ -4,17 +4,21 @@ description: Use to reset the state.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'D3BFDAC7-C7B7-4FF5-BA50-C189CC250CD8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: D3BFDAC7-C7B7-4FF5-BA50-C189CC250CD8
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSProtection resetStateWithCompletionBlock method"]
+keywords:
+- MSProtection resetStateWithCompletionBlock method
 topic_type:
 - apiref
 api_name:
 - MSProtection resetStateWithCompletionBlock method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSProtection resetStateWithCompletionBlock method
@@ -39,7 +43,7 @@ Use to reset the state. This can clear all cache.
 
 
 
- 
+ 
 
 ## Returns
 
@@ -59,15 +63,15 @@ MSProtection.h
 
 
 
- 
+ 
 
 ## Remarks
 
 [**templateListWithUserId**](mstemplatedescriptor-templatelistwithuserid-userid-authenticationcallback-completionblock-method-objc.md) should be invoked from the main thread.
 
- 
+ 
 
- 
+ 
 
 
 

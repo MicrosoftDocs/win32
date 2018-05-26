@@ -1,7 +1,12 @@
 ---
 title: Dealing with Loss of Connectivity
 description: Dealing with Loss of Connectivity
-ms.assetid: 'a90fcb5a-773e-4c21-bf6c-c3519ec13a09'
+ms.assetid: a90fcb5a-773e-4c21-bf6c-c3519ec13a09
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dealing with Loss of Connectivity
@@ -37,7 +42,7 @@ The following examples illustrate when the RPC run time does or does not retry a
 
     The server aborts the connection. No retry is attempted, since RPC cannot discern whether the server received the call and started executing it.
 
-If the server uses a dynamic endpoint, RPC will not re-resolve the endpoint during retries. This means that if a server is brought down and comes back up, it may reside on a different endpoint, and RPC will not transparently re-resolve the endpoint when a call is retried. To force re-resolving of the endpoint, the RPC client should calling [**RpcBindingReset**](rpcbindingreset.md) before it retries a call.
+If the server uses a dynamic endpoint, RPC will not re-resolve the endpoint during retries. This means that if a server is brought down and comes back up, it may reside on a different endpoint, and RPC will not transparently re-resolve the endpoint when a call is retried. To force re-resolving of the endpoint, the RPC client should calling [**RpcBindingReset**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingreset?branch=master) before it retries a call.
 
 In many of these cases, if an RPC client can determine whether a call is idempotent, or if it keeps data that RPC discards, it may choose to build a retry mechanism on top of RPC.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Direct3D devices can transform the texture coordinates for vertices by applying a 4x4 matrix.'
-ms.assetid: 'f36439de-e37a-457c-9485-a435847eb01e'
-title: 'Texture Coordinate Transformations (Direct3D 9)'
+Description: Direct3D devices can transform the texture coordinates for vertices by applying a 4x4 matrix.
+ms.assetid: f36439de-e37a-457c-9485-a435847eb01e
+title: Texture Coordinate Transformations (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture Coordinate Transformations (Direct3D 9)
@@ -19,7 +24,7 @@ Texture coordinate transformations are useful for producing special effects whil
 
 ## Setting and Retrieving Texture Coordinate Transformations
 
-Like the matrices that your application uses for geometry, you set and retrieve texture coordinate transformations by calling the [**IDirect3DDevice9::SetTransform**](idirect3ddevice9--settransform.md) and [**IDirect3DDevice9::GetTransform**](idirect3ddevice9--gettransform.md) methods. These methods accept the D3DTS\_TEXTURE0 through D3DTS\_TEXTURE7 members of the [**D3DTRANSFORMSTATETYPE**](direct3d9.d3dtransformstatetype) enumerated type to identify the transformation matrices for texture stages 0 through 7, respectively.
+Like the matrices that your application uses for geometry, you set and retrieve texture coordinate transformations by calling the [**IDirect3DDevice9::SetTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settransform?branch=master) and [**IDirect3DDevice9::GetTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-gettransform?branch=master) methods. These methods accept the D3DTS\_TEXTURE0 through D3DTS\_TEXTURE7 members of the [**D3DTRANSFORMSTATETYPE**](direct3d9.d3dtransformstatetype) enumerated type to identify the transformation matrices for texture stages 0 through 7, respectively.
 
 The following code sets a matrix to apply to the texture coordinates for texture stage 0.
 

@@ -1,8 +1,9 @@
 ---
 title: Player.stretchToFit
 description: The stretchToFit property specifies or retrieves a value indicating whether video displayed by the Windows Media Player control automatically sizes to fit the video window, when the video window is larger than the dimensions of the video image.
-ms.assetid: '9ea02959-602e-4bac-a8aa-dce502d1bb54'
-keywords: ["Player.stretchToFit Windows Media Player"]
+ms.assetid: 9ea02959-602e-4bac-a8aa-dce502d1bb54
+keywords:
+- Player.stretchToFit Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.stretchToFit
@@ -34,7 +40,7 @@ This property is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,9 +68,9 @@ This property applies to the Windows Media Player control only when embedded in 
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

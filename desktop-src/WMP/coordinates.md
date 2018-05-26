@@ -1,8 +1,18 @@
 ---
 title: Coordinates
 description: Coordinates
-ms.assetid: '248af2ea-534e-4d33-82fe-2d46732efed5'
-keywords: ["Windows Media Player Mobile skins,bitmaps", "skins,bitmaps", "reference for skins,bitmaps", "bitmaps in skins,coordinates", "coordinates in bitmaps in skins"]
+ms.assetid: 248af2ea-534e-4d33-82fe-2d46732efed5
+keywords:
+- Windows Media Player Mobile skins,bitmaps
+- skins,bitmaps
+- reference for skins,bitmaps
+- bitmaps in skins,coordinates
+- coordinates in bitmaps in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Coordinates

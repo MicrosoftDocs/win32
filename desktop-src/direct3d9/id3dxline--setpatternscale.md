@@ -1,7 +1,12 @@
-﻿---
-Description: 'Stretches the stipple pattern along the line direction.'
-ms.assetid: '411464db-d721-4252-bff3-bec57252273e'
-title: 'ID3DXLine::SetPatternScale method'
+---
+Description: Stretches the stipple pattern along the line direction.
+ms.assetid: 411464db-d721-4252-bff3-bec57252273e
+title: ID3DXLineSetPatternScale method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXLine::SetPatternScale method

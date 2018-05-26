@@ -4,13 +4,15 @@ description: The Win32\_NTDomain \ 32; WMI class represents a Windows domain.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b7fb748c-8e4f-4d4b-bf52-e2a4b6c3cf2f'
-ms.prod: 'windows-server-dev'
+ms.assetid: b7fb748c-8e4f-4d4b-bf52-e2a4b6c3cf2f
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_NTDomain class", "Win32_NTDomain class, described"]
+keywords:
+- Win32_NTDomain class
+- Win32_NTDomain class, described
 topic_type:
 - apiref
 api_name:
@@ -46,6 +48,9 @@ api_location:
 - Wmipcima.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_NTDomain class
@@ -60,33 +65,33 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32a"), UUID("78F4FA18-EE46-4D4C-AB9B-8CC0D42B7038"), AMENDMENT]
 class Win32_NTDomain : CIM_System
 {
-  string   Caption;
-  string   CreationClassName;
-  string   Description;
+  string   Caption;
+  string   CreationClassName;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   PrimaryOwnerContact;
-  string   PrimaryOwnerName;
-  string   Status;
-  string   ClientSiteName;
-  string   DcSiteName;
-  string   DNSForestName;
-  string   DomainControllerAddress;
-  sint32   DomainControllerAddressType;
-  string   DomainControllerName;
-  string   DomainGUID;
-  string   DomainName;
-  boolean  DSDirectoryServiceFlag;
-  boolean  DSDnsControllerFlag;
-  boolean  DSDnsDomainFlag;
-  boolean  DSDnsForestFlag;
-  boolean  DSGlobalCatalogFlag;
-  boolean  DSKerberosDistributionCenterFlag;
-  boolean  DSPrimaryDomainControllerFlag;
-  boolean  DSTimeServiceFlag;
-  boolean  DSWritableFlag;
-  string   NameFormat;
-  string   Roles[];
+  string   Name;
+  string   PrimaryOwnerContact;
+  string   PrimaryOwnerName;
+  string   Status;
+  string   ClientSiteName;
+  string   DcSiteName;
+  string   DNSForestName;
+  string   DomainControllerAddress;
+  sint32   DomainControllerAddressType;
+  string   DomainControllerName;
+  string   DomainGUID;
+  string   DomainName;
+  boolean  DSDirectoryServiceFlag;
+  boolean  DSDnsControllerFlag;
+  boolean  DSDnsDomainFlag;
+  boolean  DSDnsForestFlag;
+  boolean  DSGlobalCatalogFlag;
+  boolean  DSKerberosDistributionCenterFlag;
+  boolean  DSPrimaryDomainControllerFlag;
+  boolean  DSTimeServiceFlag;
+  boolean  DSWritableFlag;
+  string   NameFormat;
+  string   Roles[];
 };
 ```
 
@@ -425,7 +430,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Format to generate the system name—using the subclass heuristic.
+Format to generate the system name using the subclass heuristic.
 
 This property is inherited from [**CIM\_System**](https://msdn.microsoft.com/library/aa388503).
 
@@ -597,7 +602,7 @@ get-wmiobject | win32_ntDomain
 
 
 
-On a Windows Server 2008 VM-based test system, the previous code produces the following output:
+On a Windows Server 2008 VM-based test system, the previous code produces the following output:
 
 ``` syntax
 ClientSiteName          : Default-First-Site-Name
@@ -617,8 +622,8 @@ Status                  : OK
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipcima.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipcima.dll</dt> </dl> |
@@ -635,9 +640,9 @@ Status                  : OK
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

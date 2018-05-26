@@ -4,13 +4,16 @@ description: Create (or start a job to create) a new instance of RemoteReplicati
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3df5a71b-b3c7-46d2-8a6e-fa253a3e518d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3df5a71b-b3c7-46d2-8a6e-fa253a3e518d
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateRemoteReplicationCollection method iSCSI Software Target API", "CreateRemoteReplicationCollection method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , CreateRemoteReplicationCollection method"]
+keywords:
+- CreateRemoteReplicationCollection method iSCSI Software Target API
+- CreateRemoteReplicationCollection method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , CreateRemoteReplicationCollection method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateRemoteReplicationCollection method of the CIM\_ReplicationService class
@@ -30,14 +36,14 @@ Create (or start a job to create) a new instance of RemoteReplicationCollection,
 
 ```mof
 uint32 CreateRemoteReplicationCollection(
-  [in]  string                         ElementName,
-  [in]  CIM_ServiceAccessPoint     REF LocalAccessPoints[],
-  [in]  CIM_ServiceAccessPoint     REF RemoteAccessPoints[],
-  [in]  CIM_ComputerSystem         REF RemoteComputerSystem,
-  [in]  boolean                        Active,
-  [in]  boolean                        DeleteOnUnassociated,
-  [out] CIM_ConcreteJob            REF Job,
-  [out] CIM_ConnectivityCollection REF ConnectivityCollection
+  [in]  string                         ElementName,
+  [in]  CIM_ServiceAccessPoint     REF LocalAccessPoints[],
+  [in]  CIM_ServiceAccessPoint     REF RemoteAccessPoints[],
+  [in]  CIM_ComputerSystem         REF RemoteComputerSystem,
+  [in]  boolean                        Active,
+  [in]  boolean                        DeleteOnUnassociated,
+  [out] CIM_ConcreteJob            REF Job,
+  [out] CIM_ConnectivityCollection REF ConnectivityCollection
 );
 ```
 
@@ -128,16 +134,16 @@ Reference to the created instance ofRemoteReplicationCollection.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -147,7 +153,7 @@ Reference to the created instance ofRemoteReplicationCollection.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -161,9 +167,9 @@ Reference to the created instance ofRemoteReplicationCollection.
 **CIM\_ReplicationService**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

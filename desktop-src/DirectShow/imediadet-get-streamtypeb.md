@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_StreamTypeB method retrieves a string representing the GUID of the media type for the current stream.'
-ms.assetid: '99ae4b52-4449-4b7c-babf-1a6cba479499'
-title: 'IMediaDet::get\_StreamTypeB method'
+---
+Description: The get\_StreamTypeB method retrieves a string representing the GUID of the media type for the current stream.
+ms.assetid: 99ae4b52-4449-4b7c-babf-1a6cba479499
+title: IMediaDetget\_StreamTypeB method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaDet::get\_StreamTypeB method

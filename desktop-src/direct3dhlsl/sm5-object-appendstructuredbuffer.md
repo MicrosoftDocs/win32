@@ -1,14 +1,20 @@
 ---
 title: AppendStructuredBuffer
 description: Output buffer that appears as a stream the shader may append to. Only structured buffers can take T types that are structures.
-ms.assetid: '377b0358-0f9d-4021-9140-19c3d1bfed38'
-keywords: ["AppendStructuredBuffer HLSL"]
+ms.assetid: 377b0358-0f9d-4021-9140-19c3d1bfed38
+keywords:
+- AppendStructuredBuffer HLSL
 topic_type:
 - apiref
 api_name:
 - AppendStructuredBuffer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AppendStructuredBuffer

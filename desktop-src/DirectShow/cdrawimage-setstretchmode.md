@@ -1,7 +1,12 @@
 ---
-Description: 'The SetStretchMode method calculates whether the video image must be stretched.'
-ms.assetid: 'ffdcaf9c-e157-4557-9193-8430c1c451bf'
-title: 'CDrawImage.SetStretchMode method'
+Description: The SetStretchMode method calculates whether the video image must be stretched.
+ms.assetid: ffdcaf9c-e157-4557-9193-8430c1c451bf
+title: CDrawImage.SetStretchMode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.SetStretchMode method
@@ -47,9 +52,9 @@ The **CDrawImage** class automatically calls this method whenever the source or 
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

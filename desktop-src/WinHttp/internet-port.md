@@ -1,7 +1,12 @@
 ---
-Description: 'A WORD value indicating the port.'
-ms.assetid: '535d644d-4045-4ff1-9c12-a3d5f665453d'
-title: 'INTERNET\_PORT'
+Description: A WORD value indicating the port.
+ms.assetid: 535d644d-4045-4ff1-9c12-a3d5f665453d
+title: INTERNET\_PORT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INTERNET\_PORT
@@ -55,15 +60,15 @@ The default internet HTTPS port.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>      |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>   |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>      |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>   |
 | Header<br/>                   | <dl> <dt>Winhttp.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

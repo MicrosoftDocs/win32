@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ZeroBetween2 method removes everything from the track between the specified times. This method is equivalent to IAMTimelineTrack::ZeroBetween, but takes REFTIME values.'
-ms.assetid: '56b9be30-cc3f-4843-bf35-910498242d71'
-title: 'IAMTimelineTrack::ZeroBetween2 method'
+---
+Description: The ZeroBetween2 method removes everything from the track between the specified times. This method is equivalent to IAMTimelineTrackZeroBetween, but takes REFTIME values.
+ms.assetid: 56b9be30-cc3f-4843-bf35-910498242d71
+title: IAMTimelineTrackZeroBetween2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTrack::ZeroBetween2 method

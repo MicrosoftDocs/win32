@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the handle of a function.'
-ms.assetid: '97c82c28-4402-4605-8247-44d6f38bfa20'
-title: 'ID3DXBaseEffect::GetFunction method'
+---
+Description: Gets the handle of a function.
+ms.assetid: 97c82c28-4402-4605-8247-44d6f38bfa20
+title: ID3DXBaseEffectGetFunction method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetFunction method

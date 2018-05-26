@@ -1,7 +1,12 @@
 ---
-Description: 'The Play method plays the current DVD title.'
-ms.assetid: 'fe9dc266-5b12-479d-85cb-50cc6bb9d580'
+Description: The Play method plays the current DVD title.
+ms.assetid: fe9dc266-5b12-479d-85cb-50cc6bb9d580
 title: Play Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Play Method

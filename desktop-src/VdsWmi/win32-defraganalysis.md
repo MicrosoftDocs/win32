@@ -1,8 +1,10 @@
 ---
 title: Win32\_DefragAnalysis class
 description: The Win32\_DefragAnalysis class represents fragmentation values on a volume.
-ms.assetid: '90f26c7d-e54f-4abc-a5e8-3dba859a92be'
-keywords: ["Win32_DefragAnalysis class", "Win32_DefragAnalysis class, described"]
+ms.assetid: 90f26c7d-e54f-4abc-a5e8-3dba859a92be
+keywords:
+- Win32_DefragAnalysis class
+- Win32_DefragAnalysis class, described
 topic_type:
 - apiref
 api_name:
@@ -37,13 +39,18 @@ api_location:
 - Vdswmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_DefragAnalysis class
 
 The **Win32\_DefragAnalysis** class represents fragmentation values on a volume. An instance of the **Win32\_DefragAnalysis** class is passed as an out parameter from the [**Win32\_Volume**](win32-volume.md) methods [**DefragAnalysis**](defraganalysis-method-in-class-win32-volume.md) and [**Defrag**](defrag-method-in-class-win32-volume.md).
 
-**Windows XP:** This class is not available.
+**Windows XP:** This class is not available.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -102,7 +109,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Average size of the files on a volume—in bytes.
+Average size of the files on a volume in bytes.
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
@@ -132,7 +139,7 @@ Access type: Read-only
 
 Average size of free space extents on the volume.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -231,9 +238,9 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-This property is no longer available for use as of Windows Vista. Instead, use **AverageFreeSpacePerExtent**, **LargestFreeSpaceExtent**, and **TotalFreeSpaceExtents** to determine the free space fragmentation state of a volume.
+This property is no longer available for use as of Windows Vista. Instead, use **AverageFreeSpacePerExtent**, **LargestFreeSpaceExtent**, and **TotalFreeSpaceExtents** to determine the free space fragmentation state of a volume.
 
-**Windows Server 2003:** Percentage of free space on a volume that is fragmented. Be aware that this value may not be computed reliably and that the value may be very close to zero.
+**Windows Server 2003:** Percentage of free space on a volume that is fragmented. Be aware that this value may not be computed reliably and that the value may be very close to zero.
 
 </dd> <dt>
 
@@ -250,7 +257,7 @@ Size of the largest free space extent on the volume.
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -291,11 +298,11 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-This property is no longer available for use as of Windows Vista. The value is always zero and there is no substitute property to use in this class.
+This property is no longer available for use as of Windows Vista. The value is always zero and there is no substitute property to use in this class.
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
-**Windows Server 2003:** Size of a page file on a volume, in bytes. If there is no page file on a volume, this property is **NULL**.
+**Windows Server 2003:** Size of a page file on a volume, in bytes. If there is no page file on a volume, this property is **NULL**.
 
 </dd> <dt>
 
@@ -370,7 +377,7 @@ Access type: Read-only
 
 Total number of free space extents on the volume.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -398,9 +405,9 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-This property is no longer available for use as of Windows Vista. The value is always zero and there is no substitute property to use in this class.
+This property is no longer available for use as of Windows Vista. The value is always zero and there is no substitute property to use in this class.
 
-**Windows Server 2003:** Number of fragments for a page file. If there is no page file on a volume, this property is **NULL**.
+**Windows Server 2003:** Number of fragments for a page file. If there is no page file on a volume, this property is **NULL**.
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
@@ -415,9 +422,9 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-This property is no longer available for use as of Windows Vista. Instead, use **FilePercentFragmentation** to determine whether the volume should be defragmented. The **AverageFreeSpacePerExtent**, **LargestFreeSpaceExtent**, and **TotalFreeSpaceExtents** properties report the free space fragmentation state of the volume.
+This property is no longer available for use as of Windows Vista. Instead, use **FilePercentFragmentation** to determine whether the volume should be defragmented. The **AverageFreeSpacePerExtent**, **LargestFreeSpaceExtent**, and **TotalFreeSpaceExtents** properties report the free space fragmentation state of the volume.
 
-**Windows Server 2003:** Percent of the volume that is fragmented. Be aware that this field is computed as the average of **FreeSpacePercentFragmentation** and **FilePercentFragmentation** and may be inaccurate because **FreeSpacePercentFragmentation** is inaccurate.
+**Windows Server 2003:** Percent of the volume that is fragmented. Be aware that this field is computed as the average of **FreeSpacePercentFragmentation** and **FilePercentFragmentation** and may be inaccurate because **FreeSpacePercentFragmentation** is inaccurate.
 
 </dd> <dt>
 
@@ -434,7 +441,7 @@ Total number of immovable files on the volume.
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -475,7 +482,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Total size of a volume—in bytes.
+Total size of a volume in bytes.
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
@@ -488,7 +495,7 @@ For more information about using **uint64** values in scripts, see [Scripting in
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vds.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vdswmi.dll</dt> </dl> |
@@ -514,9 +521,9 @@ For more information about using **uint64** values in scripts, see [Scripting in
 [**Win32\_MountPoint**](win32-mountpoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

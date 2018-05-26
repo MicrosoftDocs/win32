@@ -1,8 +1,9 @@
 ---
 title: EM\_INSERTIMAGE message
 description: Replaces the selection with a blob that displays an image.
-ms.assetid: '147B298B-C4A9-455B-9736-A0B09D72902B'
-keywords: ["EM_INSERTIMAGE message Windows Controls"]
+ms.assetid: 147B298B-C4A9-455B-9736-A0B09D72902B
+keywords:
+- EM_INSERTIMAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_INSERTIMAGE message
@@ -38,7 +44,7 @@ Not used; must be zero.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RICHEDIT\_IMAGE\_PARAMETERS**](richedit-image-parameters.md) structure that contains the image blob.
+A pointer to a [**RICHEDIT\_IMAGE\_PARAMETERS**](/windows/win32/Richedit/ns-richedit-tagrichedit_image_parameters?branch=master) structure that contains the image blob.
 
 </dd> </dl>
 
@@ -56,7 +62,7 @@ Returns S\_OK if successful, or one of the following error codes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,8 +74,8 @@ If the selection is an insertion point, the image blob is inserted at the insert
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -81,9 +87,9 @@ If the selection is an insertion point, the image blob is inserted at the insert
 [**EM\_INSERTTABLE**](em-inserttable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

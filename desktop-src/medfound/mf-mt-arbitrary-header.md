@@ -1,7 +1,12 @@
-﻿---
-Description: 'Type-specific data for a binary stream in an Advanced Systems Format (ASF) file.'
-ms.assetid: '45608dde-894b-4204-80dc-505f068fb158'
-title: 'MF\_MT\_ARBITRARY\_HEADER attribute'
+---
+Description: Type-specific data for a binary stream in an Advanced Systems Format (ASF) file.
+ms.assetid: 45608dde-894b-4204-80dc-505f068fb158
+title: MF\_MT\_ARBITRARY\_HEADER attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_ARBITRARY\_HEADER attribute
@@ -10,17 +15,17 @@ Type-specific data for a binary stream in an Advanced Systems Format (ASF) file.
 
 ## Data type
 
-**[**MT\_ARBITRARY\_HEADER**](mt-arbitrary-header.md)** stored as **BYTE\[\]**
+**[**MT\_ARBITRARY\_HEADER**](/windows/win32/mfapi/ns-mfapi-_mt_arbitrary_header?branch=master)** stored as **BYTE\[\]**
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetBlob**](imfattributes-getblob.md).
+To get this attribute, call [**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetBlob**](imfattributes-setblob.md).
+To set this attribute, call [**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master).
 
 ## Remarks
 
-ASF files can contain streams with binary data. The MF\_MT\_ARBITRARY\_HEADER attribute in the media type contains an [**MT\_ARBITRARY\_HEADER**](mt-arbitrary-header.md) structure that describes the stream.
+ASF files can contain streams with binary data. The MF\_MT\_ARBITRARY\_HEADER attribute in the media type contains an [**MT\_ARBITRARY\_HEADER**](/windows/win32/mfapi/ns-mfapi-_mt_arbitrary_header?branch=master) structure that describes the stream.
 
 In addition to the MF\_MT\_ARBITRARY\_HEADER attribute, the media type for an ASF binary stream contains the following attributes:
 

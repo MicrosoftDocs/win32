@@ -1,7 +1,12 @@
 ---
-Description: 'Reference time that corresponds to stream time 0.'
-ms.assetid: 'e80d2fe0-48fb-494e-9450-b5cae2ec9c9f'
-title: 'CBaseMediaFilter::m\_tStart member'
+Description: Reference time that corresponds to stream time 0.
+ms.assetid: e80d2fe0-48fb-494e-9450-b5cae2ec9c9f
+title: CBaseMediaFilterm\_tStart member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseMediaFilter::m\_tStart member
@@ -35,9 +40,9 @@ CRefTime m_tStart;
 [**CBaseMediaFilter Class**](cbasemediafilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

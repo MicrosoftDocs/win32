@@ -1,14 +1,19 @@
 ---
-Description: 'MUI: Application-Specific Settings Sample (Pre-Windows Vista)'
-ms.assetid: '932aa981-ddd9-4a5b-9003-7dafd98e3ae4'
-title: 'MUI: Application-Specific Settings Sample (Pre-Windows Vista)'
+Description: MUI Application-Specific Settings Sample (Pre-Windows Vista)
+ms.assetid: 932aa981-ddd9-4a5b-9003-7dafd98e3ae4
+title: MUI Application-Specific Settings Sample (Pre-Windows Vista)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MUI: Application-Specific Settings Sample (Pre-Windows Vista)
 
 The sample application described in this topic is similar to the one shown in [MUI: Application-Specific Settings Sample (Windows Vista)](mui-application-specific-settings-sample-vista.md), except that this application will run on Windows 2000 and later. The main difference from the other sample is that language fallback has to be customized to run on multiple operating systems.
 
-This application first parses a delimited language list in a text file and converts it to a multi-string language list to define the application-specific language preferences. The delimiters supported in the sample are ",", ";", ":", and " ". After parsing the list, the code finds and loads the resources in the identified language. In contrast to the other application-specific settings sample, this code loads and releases resource files using calls to the MUI functions [**LoadMUILibrary**](loadmuilibrary.md) and [**FreeMUILibrary**](freemuilibrary.md).
+This application first parses a delimited language list in a text file and converts it to a multi-string language list to define the application-specific language preferences. The delimiters supported in the sample are ",", ";", ":", and " ". After parsing the list, the code finds and loads the resources in the identified language. In contrast to the other application-specific settings sample, this code loads and releases resource files using calls to the MUI functions [**LoadMUILibrary**](/windows/win32/Muiload/nf-muiload-loadmuilibrarya?branch=master) and [**FreeMUILibrary**](/windows/win32/Muiload/nf-muiload-freemuilibrary?branch=master).
 
 
 ```C++

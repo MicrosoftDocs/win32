@@ -1,7 +1,12 @@
 ---
-Description: 'Edits a VHD Snapshot entry within a VHD Set file. If the Snapshot Id in question already exists, the existing Snapshot entry will be overwritten with the new entry. Otherwise, the new entry will be added to the VHD Set file.'
-ms.assetid: 'dd14960d-3fb8-4d47-986f-fbbbb08eb37d'
-title: 'SetVHDSnapshotInformation method of the Msvm\_ImageManagementService class'
+Description: Edits a VHD Snapshot entry within a VHD Set file. If the Snapshot Id in question already exists, the existing Snapshot entry will be overwritten with the new entry. Otherwise, the new entry will be added to the VHD Set file.
+ms.assetid: dd14960d-3fb8-4d47-986f-fbbbb08eb37d
+title: SetVHDSnapshotInformation method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetVHDSnapshotInformation method of the Msvm\_ImageManagementService class
@@ -13,8 +18,8 @@ Edits a VHD Snapshot entry within a VHD Set file. If the Snapshot Id in question
 
 ```mof
 uint32 SetVHDSnapshotInformation(
-  [in]  string              Information,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              Information,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -92,8 +97,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -107,9 +112,9 @@ This method returns one of the following values:
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

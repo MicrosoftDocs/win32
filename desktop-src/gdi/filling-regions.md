@@ -1,12 +1,17 @@
 ---
-Description: 'An application fills the interior of a region by calling the FillRgn function and supplying a handle that identifies a specific brush.'
-ms.assetid: '6174b2ea-836a-4538-a0ad-e123c88fc6f6'
+Description: An application fills the interior of a region by calling the FillRgn function and supplying a handle that identifies a specific brush.
+ms.assetid: 6174b2ea-836a-4538-a0ad-e123c88fc6f6
 title: Filling Regions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filling Regions
 
-An application fills the interior of a region by calling the [**FillRgn**](fillrgn.md) function and supplying a handle that identifies a specific brush. When an application calls FillRgn , the system fills the region with the brush by using the current fill mode for the specified device context. There are two fill modes: alternate and winding. The application can set the fill mode for a device context by calling the [**SetPolyFillMode**](setpolyfillmode.md) function. The application can retrieve the current fill mode for a device context by calling the [**GetPolyFillMode**](getpolyfillmode.md) function.
+An application fills the interior of a region by calling the [**FillRgn**](/windows/win32/Wingdi/nf-wingdi-fillrgn?branch=master) function and supplying a handle that identifies a specific brush. When an application calls FillRgn , the system fills the region with the brush by using the current fill mode for the specified device context. There are two fill modes: alternate and winding. The application can set the fill mode for a device context by calling the [**SetPolyFillMode**](/windows/win32/Wingdi/nf-wingdi-setpolyfillmode?branch=master) function. The application can retrieve the current fill mode for a device context by calling the [**GetPolyFillMode**](/windows/win32/Wingdi/nf-wingdi-getpolyfillmode?branch=master) function.
 
 The following illustration shows two identical regions: one filled using alternate mode and the other filled using winding mode.
 

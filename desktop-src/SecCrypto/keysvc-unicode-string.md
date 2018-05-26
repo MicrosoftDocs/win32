@@ -1,7 +1,12 @@
-﻿---
-Description: 'The KEYSVC\_UNICODE\_STRING structure defines a Unicode string and a maximum length for the string. This structure is used by the RKeyPFXInstall function.'
-ms.assetid: '12142543-5c53-4638-9fd7-f523594142c8'
-title: 'KEYSVC\_UNICODE\_STRING structure'
+---
+Description: The KEYSVC\_UNICODE\_STRING structure defines a Unicode string and a maximum length for the string. This structure is used by the RKeyPFXInstall function.
+ms.assetid: 12142543-5c53-4638-9fd7-f523594142c8
+title: KEYSVC\_UNICODE\_STRING structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KEYSVC\_UNICODE\_STRING structure

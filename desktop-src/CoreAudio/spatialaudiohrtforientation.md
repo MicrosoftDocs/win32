@@ -1,12 +1,17 @@
-﻿---
-Description: 'Represents the orientation of an ISpatialAudioObjectForHrtf.'
-ms.assetid: 'BDC1C409-F461-4903-A411-3F0647C59DBA'
+---
+Description: Represents the orientation of an ISpatialAudioObjectForHrtf.
+ms.assetid: BDC1C409-F461-4903-A411-3F0647C59DBA
 title: SpatialAudioHrtfOrientation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SpatialAudioHrtfOrientation
 
-Represents the orientation of an [**ISpatialAudioObjectForHrtf**](ispatialaudioobjectforhrtf.md).
+Represents the orientation of an [**ISpatialAudioObjectForHrtf**](/windows/win32/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf?branch=master).
 
 
 ```C++

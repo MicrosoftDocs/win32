@@ -4,11 +4,17 @@ description: Search is a key feature of Active Directory Domain Services. Search
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '049518d1-c994-4da2-83c1-d37acc94bb39'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 049518d1-c994-4da2-83c1-d37acc94bb39
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory, Searching Active Directory", "Active Directory Domain Services, Searching Active Directory", "Searching Active Directory Active Directory"]
+keywords:
+- Active Directory, Searching Active Directory
+- Active Directory Domain Services, Searching Active Directory
+- Searching Active Directory Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Searching in Active Directory Domain Services

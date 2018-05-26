@@ -1,8 +1,11 @@
 ---
 title: RegisteredTask.Run method
 description: For scripting, runs the registered task immediately.
-ms.assetid: '6b237ddd-e4e8-47f7-97e7-360e79841acc'
-keywords: ["Run method Task Scheduler", "Run method Task Scheduler , RegisteredTask object", "RegisteredTask object Task Scheduler , Run method"]
+ms.assetid: 6b237ddd-e4e8-47f7-97e7-360e79841acc
+keywords:
+- Run method Task Scheduler
+- Run method Task Scheduler , RegisteredTask object
+- RegisteredTask object Task Scheduler , Run method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisteredTask.Run method
@@ -71,8 +79,8 @@ This method will return without error, but the task will not run if the [**TaskS
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -88,9 +96,9 @@ This method will return without error, but the task will not run if the [**TaskS
 [**RegisteredTask**](registeredtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

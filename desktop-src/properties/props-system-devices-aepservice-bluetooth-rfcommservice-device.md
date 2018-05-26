@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the Bluetooth device address to query.'
-ms.assetid: '6a2381b6-1bf6-4b6b-adcc-4fb6a641a015'
-title: 'System.Devices.AepService.Bluetooth.RfcommService.Device'
+Description: Sets the Bluetooth device address to query.
+ms.assetid: 6a2381b6-1bf6-4b6b-adcc-4fb6a641a015
+title: System.Devices.AepService.Bluetooth.RfcommService.Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepService.Bluetooth.RfcommService.Device

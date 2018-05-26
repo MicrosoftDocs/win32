@@ -1,8 +1,9 @@
 ---
 title: LVM\_SORTGROUPS message
 description: Uses an application-defined comparison function to sort groups by ID within a list-view control.
-ms.assetid: '553e96d6-a982-4482-8fba-ef11a74fb82e'
-keywords: ["LVM_SORTGROUPS message Windows Controls"]
+ms.assetid: 553e96d6-a982-4482-8fba-ef11a74fb82e
+keywords:
+- LVM_SORTGROUPS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SORTGROUPS message
@@ -22,7 +28,7 @@ Uses an application-defined comparison function to sort groups by ID within a li
 <dl> <dt>
 
 *wParam* 
-</dt> <dd>Pointer to an application-defined comparison function, [**LVGroupCompare**](lvgroupcompare.md).</dd> <dt>
+</dt> <dd>Pointer to an application-defined comparison function, [**LVGroupCompare**](/windows/win32/Commctrl/?branch=master).</dd> <dt>
 
 *lParam* 
 </dt> <dd>Void pointer to the application-defined information.</dd> </dl>
@@ -36,7 +42,7 @@ Returns 1 if successful, or 0 otherwise.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -44,8 +50,8 @@ Returns 1 if successful, or 0 otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,12 +60,12 @@ Returns 1 if successful, or 0 otherwise.
 
 <dl> <dt>
 
-[**LVGroupCompare**](lvgroupcompare.md)
+[**LVGroupCompare**](/windows/win32/Commctrl/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

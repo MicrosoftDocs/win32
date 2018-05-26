@@ -1,25 +1,30 @@
 ---
-Description: 'With certain file formats, you can save multiple images (frames) to a single file.'
-ms.assetid: '9b61e01d-0a98-4ac3-865e-7570ed0c3cde'
-title: 'Creating and Saving a Multiple-Frame Image'
+Description: With certain file formats, you can save multiple images (frames) to a single file.
+ms.assetid: 9b61e01d-0a98-4ac3-865e-7570ed0c3cde
+title: Creating and Saving a Multiple-Frame Image
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating and Saving a Multiple-Frame Image
 
-With certain file formats, you can save multiple images (frames) to a single file. For example, you can save several pages to a single TIFF file. To save the first page, call the [Save](-gdiplus-class-image-save-methods.md) method of the [**Image**](-gdiplus-class-image-class.md) class. To save subsequent pages, call the [SaveAdd](-gdiplus-class-image-saveadd-methods.md) method of the **Image** class.
+With certain file formats, you can save multiple images (frames) to a single file. For example, you can save several pages to a single TIFF file. To save the first page, call the [Save](/windows/win32/gdiplusheaders/nf-gdiplusheaders-image-save(in istream,in const clsid,in const encoderparameters)?branch=master) method of the [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) class. To save subsequent pages, call the [SaveAdd](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-saveadd(in image,in const encoderparameters)?branch=master) method of the **Image** class.
 
 > [!Note]  
-> You cannot use [SaveAdd](-gdiplus-class-image-saveadd-methods.md) to add frames to an animated gif file.
+> You cannot use [SaveAdd](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-saveadd(in image,in const encoderparameters)?branch=master) to add frames to an animated gif file.
 
  
 
-The following console application creates a TIFF file with four pages. The images that become the pages of the TIFF file come from four disk files: Shapes.bmp, Cereal.gif, Iron.jpg, and House.png. The code first constructs four [**Image**](-gdiplus-class-image-class.md) objects: **multi**, **page2**, **page3**, and **page4**. At first, **multi** contains only the image from Shapes.bmp, but eventually it contains all four images. As the individual pages are added to the **multi**  **Image** object, they are also added to the disk file Multiframe.tif.
+The following console application creates a TIFF file with four pages. The images that become the pages of the TIFF file come from four disk files: Shapes.bmp, Cereal.gif, Iron.jpg, and House.png. The code first constructs four [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) objects: **multi**, **page2**, **page3**, and **page4**. At first, **multi** contains only the image from Shapes.bmp, but eventually it contains all four images. As the individual pages are added to the **multi**  **Image** object, they are also added to the disk file Multiframe.tif.
 
-Note that the code calls [Save](-gdiplus-class-image-save-methods.md) (not [SaveAdd](-gdiplus-class-image-saveadd-methods.md)) to save the first page. The first argument passed to the Save method is the name of the disk file that will eventually contain several frames. The second argument passed to the Save method specifies the encoder that will be used to convert the data in the **multi**  [**Image**](-gdiplus-class-image-class.md) object to the format (in this case TIFF) required by the disk file. That same encoder is used automatically by all subsequent calls to the SaveAdd method of the **multi**  **Image** object.
+Note that the code calls [Save](/windows/win32/gdiplusheaders/nf-gdiplusheaders-image-save(in istream,in const clsid,in const encoderparameters)?branch=master) (not [SaveAdd](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-saveadd(in image,in const encoderparameters)?branch=master)) to save the first page. The first argument passed to the Save method is the name of the disk file that will eventually contain several frames. The second argument passed to the Save method specifies the encoder that will be used to convert the data in the **multi**  [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object to the format (in this case TIFF) required by the disk file. That same encoder is used automatically by all subsequent calls to the SaveAdd method of the **multi**  **Image** object.
 
-The third argument passed to the [Save](-gdiplus-class-image-save-methods.md) method is the address of an [**EncoderParameters**](-gdiplus-class-encoderparameters-class.md) object. The **EncoderParameters** object has an array that contains a single [**EncoderParameter**](-gdiplus-class-encoderparameter-class.md) object. The **Guid** member of that **EncoderParameter** object is set to EncoderSaveFlag. The **Value** member of the **EncoderParameter** object points to a **ULONG** that contains the value EncoderValueMultiFrame.
+The third argument passed to the [Save](/windows/win32/gdiplusheaders/nf-gdiplusheaders-image-save(in istream,in const clsid,in const encoderparameters)?branch=master) method is the address of an [**EncoderParameters**](/windows/win32/Gdiplusimaging/?branch=master) object. The **EncoderParameters** object has an array that contains a single [**EncoderParameter**](/windows/win32/Gdiplusimaging/?branch=master) object. The **Guid** member of that **EncoderParameter** object is set to EncoderSaveFlag. The **Value** member of the **EncoderParameter** object points to a **ULONG** that contains the value EncoderValueMultiFrame.
 
-The code saves the second, third, and fourth pages by calling the [SaveAdd](-gdiplus-class-image-saveadd-methods.md) method of the **multi**  [**Image**](-gdiplus-class-image-class.md) object. The first argument passed to the SaveAdd method is the address of an **Image** object. The image in that **Image** object is added to the **multi**  **Image** object and is also added to the Multiframe.tif disk file. The second argument passed to the SaveAdd method is the address of the same [**EncoderParameters**](-gdiplus-class-encoderparameters-class.md) object that was used by the [Save](-gdiplus-class-image-save-methods.md) method. The difference is that the **ULONG** pointed to by the **Value** member now contains the value EncoderValueFrameDimensionPage.
+The code saves the second, third, and fourth pages by calling the [SaveAdd](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-saveadd(in image,in const encoderparameters)?branch=master) method of the **multi**  [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object. The first argument passed to the SaveAdd method is the address of an **Image** object. The image in that **Image** object is added to the **multi**  **Image** object and is also added to the Multiframe.tif disk file. The second argument passed to the SaveAdd method is the address of the same [**EncoderParameters**](/windows/win32/Gdiplusimaging/?branch=master) object that was used by the [Save](/windows/win32/gdiplusheaders/nf-gdiplusheaders-image-save(in istream,in const clsid,in const encoderparameters)?branch=master) method. The difference is that the **ULONG** pointed to by the **Value** member now contains the value EncoderValueFrameDimensionPage.
 
 The main function relies on the helper function GetEncoderClsid, which is shown in [Retrieving the Class Identifier for an Encoder](-gdiplus-retrieving-the-class-identifier-for-an-encoder-use.md).
 

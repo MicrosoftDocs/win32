@@ -1,7 +1,12 @@
 ---
 Description: Audio Renderer Attributes
-ms.assetid: 'f0d119fa-8a0a-4650-814e-b3586302ff79'
+ms.assetid: f0d119fa-8a0a-4650-814e-b3586302ff79
 title: Audio Renderer Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Renderer Attributes

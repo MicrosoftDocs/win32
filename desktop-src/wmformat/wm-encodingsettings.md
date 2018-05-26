@@ -1,14 +1,20 @@
 ---
 title: WM/EncodingSettings
 description: The WM/EncodingSettings attribute contains the settings used to encode the content.
-ms.assetid: 'f60c9641-74f1-41d5-959f-96f4050e8435'
-keywords: ["WM/EncodingSettings windows Media Format"]
+ms.assetid: f60c9641-74f1-41d5-959f-96f4050e8435
+keywords:
+- WM/EncodingSettings windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/EncodingSettings
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/EncodingSettings

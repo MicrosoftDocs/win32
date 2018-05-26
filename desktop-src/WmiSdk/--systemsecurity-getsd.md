@@ -1,13 +1,16 @@
 ---
-Description: 'Gets the security descriptor for the namespace to which the user is connected. This method returns a security descriptor in binary byte array format. If you are writing a script, use the GetSecurityDescriptor method.'
+Description: Gets the security descriptor for the namespace to which the user is connected. This method returns a security descriptor in binary byte array format. If you are writing a script, use the GetSecurityDescriptor method.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'aeac1e7b-fcb8-4880-afd1-4950da37602b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: aeac1e7b-fcb8-4880-afd1-4950da37602b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetSD method of the \_\_SystemSecurity class'
+title: GetSD method of the \_\_SystemSecurity class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSD method of the \_\_SystemSecurity class
@@ -23,7 +26,7 @@ If you are programming in C++, you can manipulate the binary security descriptor
 
 ```mof
 HRESULT GetSD(
-  [out] uint8 SD[]
+  [out] uint8 SD[]
 );
 ```
 
@@ -109,8 +112,8 @@ WScript.Echo DisplaySD
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -143,9 +146,9 @@ WScript.Echo DisplaySD
 [Securing WMI Namespaces](securing-wmi-namespaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

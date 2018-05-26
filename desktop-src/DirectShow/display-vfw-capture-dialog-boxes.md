@@ -1,7 +1,12 @@
 ---
 Description: Display VFW Capture Dialog Boxes
-ms.assetid: '708212ca-d148-4079-8052-3bf6696a33ab'
+ms.assetid: 708212ca-d148-4079-8052-3bf6696a33ab
 title: Display VFW Capture Dialog Boxes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Display VFW Capture Dialog Boxes
@@ -23,9 +28,9 @@ A capture device that still uses a Video for Windows (VFW) driver can support an
 To show one of these dialog boxes, do the following:
 
 1.  Stop the filter graph.
-2.  Query the capture filter for the [**IAMVfwCaptureDialogs**](iamvfwcapturedialogs.md) interface. If **QueryInterface** succeeds, it means the capture device is a VFW device.
-3.  Call [**IAMVfwCaptureDialogs::HasDialog**](iamvfwcapturedialogs-hasdialog.md) to check if the driver supports the dialog box that you wish to display. The [**VfwCaptureDialogs**](vfwcapturedialogs.md) enumeration defines flags for each of the VFW dialog boxes. **HasDialog** returns S\_OK if the dialog box is supported. It returns S\_FALSE otherwise, so check for the value S\_OK directly, rather than using the **SUCCEEDED** macro.
-4.  If the dialog box is supported, call [**IAMVfwCaptureDialogs::ShowDialog**](iamvfwcapturedialogs-showdialog.md) to display the dialog box.
+2.  Query the capture filter for the [**IAMVfwCaptureDialogs**](/windows/win32/Strmif/nn-strmif-iamvfwcapturedialogs?branch=master) interface. If **QueryInterface** succeeds, it means the capture device is a VFW device.
+3.  Call [**IAMVfwCaptureDialogs::HasDialog**](/windows/win32/Strmif/nf-strmif-iamvfwcapturedialogs-hasdialog?branch=master) to check if the driver supports the dialog box that you wish to display. The [**VfwCaptureDialogs**](/windows/win32/strmif/ne-strmif-vfwcapturedialogs?branch=master) enumeration defines flags for each of the VFW dialog boxes. **HasDialog** returns S\_OK if the dialog box is supported. It returns S\_FALSE otherwise, so check for the value S\_OK directly, rather than using the **SUCCEEDED** macro.
+4.  If the dialog box is supported, call [**IAMVfwCaptureDialogs::ShowDialog**](/windows/win32/Strmif/nf-strmif-iamvfwcapturedialogs-showdialog?branch=master) to display the dialog box.
 5.  Restart the graph.
 
 The following code shows these steps for the Video Source dialog box:

@@ -1,7 +1,12 @@
 ---
-Description: 'The Conceptual Model: Application Requirements'
-ms.assetid: '124b329b-f745-45b4-b266-7c177c76a5cd'
-title: 'The Conceptual Model: Application Requirements'
+Description: The Conceptual Model Application Requirements
+ms.assetid: 124b329b-f745-45b4-b266-7c177c76a5cd
+title: The Conceptual Model Application Requirements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Conceptual Model: Application Requirements

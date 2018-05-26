@@ -1,7 +1,12 @@
 ---
-Description: 'An 802.1X profile contains the following schema elements.'
-ms.assetid: 'be3f1986-d0c2-47f6-b4dd-8defb89bd03a'
+Description: An 802.1X profile contains the following schema elements.
+ms.assetid: be3f1986-d0c2-47f6-b4dd-8defb89bd03a
 title: OneX Schema Elements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OneX Schema Elements

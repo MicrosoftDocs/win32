@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the reference material on using the wireless ad hoc programming interface.'
-ms.assetid: 'f1dbcc9b-e60b-4044-9167-e9e87ead0a8b'
+Description: Contains the reference material on using the wireless ad hoc programming interface.
+ms.assetid: f1dbcc9b-e60b-4044-9167-e9e87ead0a8b
 title: Wireless Ad Hoc Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wireless Ad Hoc Reference

@@ -4,13 +4,16 @@ description: Sets the SCSI Logical Unit Number (LUN) number of the specified vir
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3bd245b3-da59-48e6-a97a-70ffeb3ad490'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3bd245b3-da59-48e6-a97a-70ffeb3ad490
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetWTDiskLunMapping method iSCSI Software Target API", "SetWTDiskLunMapping method iSCSI Software Target API , WT_Host class", "WT_Host class iSCSI Software Target API , SetWTDiskLunMapping method"]
+keywords:
+- SetWTDiskLunMapping method iSCSI Software Target API
+- SetWTDiskLunMapping method iSCSI Software Target API , WT_Host class
+- WT_Host class iSCSI Software Target API , SetWTDiskLunMapping method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetWTDiskLunMapping method of the WT\_Host class
@@ -30,8 +36,8 @@ Sets the SCSI Logical Unit Number (LUN) number of the specified virtual disk.
 
 ```mof
 void SetWTDiskLunMapping(
-  [in] uint32 WTD,
-  [in] uint32 LUN
+  [in] uint32 WTD,
+  [in] uint32 LUN
 );
 ```
 
@@ -74,7 +80,7 @@ In order for an initiator to access a virtual disk over an iSCSI Storage Area Ne
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
@@ -88,9 +94,9 @@ In order for an initiator to access a virtual disk over an iSCSI Storage Area Ne
 [**WT\_Host**](wt-host.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

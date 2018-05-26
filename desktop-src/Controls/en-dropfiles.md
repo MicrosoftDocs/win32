@@ -1,8 +1,9 @@
 ---
 title: EN\_DROPFILES notification code
 description: Notifies a rich edit control parent window that the user is attempting to drop files into the control. A rich edit control sends this notification code in the form of a WM\_NOTIFY message when it receives the WM\_DROPFILES message.
-ms.assetid: 'fcae0ff8-ce37-4c71-b14c-cbd6429b4ab3'
-keywords: ["EN_DROPFILES notification code Windows Controls"]
+ms.assetid: fcae0ff8-ce37-4c71-b14c-cbd6429b4ab3
+keywords:
+- EN_DROPFILES notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_DROPFILES notification code
@@ -33,7 +39,7 @@ EN_DROPFILES
 *lParam* 
 </dt> <dd>
 
-An [**ENDROPFILES**](endropfiles.md) structure that receives dropped files information.
+An [**ENDROPFILES**](/windows/win32/Richedit/ns-richedit-_endropfiles?branch=master) structure that receives dropped files information.
 
 </dd> </dl>
 
@@ -55,8 +61,8 @@ To receive EN\_DROPFILES notification codes, specify [**ENM\_DROPFILES**](rich-e
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -68,12 +74,12 @@ To receive EN\_DROPFILES notification codes, specify [**ENM\_DROPFILES**](rich-e
 **Reference**
 </dt> <dt>
 
-[**ENDROPFILES**](endropfiles.md)
+[**ENDROPFILES**](/windows/win32/Richedit/ns-richedit-_endropfiles?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

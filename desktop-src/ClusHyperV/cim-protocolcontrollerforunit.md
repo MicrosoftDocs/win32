@@ -4,13 +4,15 @@ description: Represents an association between a protocol controller and an expo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cae4ad07-c73d-4019-8117-ac5999990b2d'
-ms.prod: 'windows-server-dev'
+ms.assetid: cae4ad07-c73d-4019-8117-ac5999990b2d
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ProtocolControllerForUnit class", "CIM_ProtocolControllerForUnit class, described"]
+keywords:
+- CIM_ProtocolControllerForUnit class
+- CIM_ProtocolControllerForUnit class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ProtocolControllerForUnit class
@@ -39,12 +44,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Version("2.8.0"), UMLPackagePath("CIM::Device::ProtocolController")]
 class CIM_ProtocolControllerForUnit : CIM_ProtocolControllerForDevice
 {
-  string                     DeviceNumber;
-  uint16                     AccessPriority;
-  uint16                     AccessState;
+  string                     DeviceNumber;
+  uint16                     AccessPriority;
+  uint16                     AccessState;
   CIM_ProtocolController REF Antecedent;
-  CIM_LogicalDevice      REF Dependent;
-  uint16                     DeviceAccess;
+  CIM_LogicalDevice      REF Dependent;
+  uint16                     DeviceAccess;
 };
 ```
 
@@ -246,7 +251,7 @@ This property is inherited from [**CIM\_ProtocolControllerForDevice**](cim-proto
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -263,9 +268,9 @@ This property is inherited from [**CIM\_ProtocolControllerForDevice**](cim-proto
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

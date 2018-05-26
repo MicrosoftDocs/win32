@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DrvUpgradeRegistrySetting function is obsolete.'
-ms.assetid: 'cb03b9d4-b623-49b8-a63d-ae97b33065c5'
-title: 'PFN\_DrvUpgradeRegistrySetting callback function'
+---
+Description: The DrvUpgradeRegistrySetting function is obsolete.
+ms.assetid: cb03b9d4-b623-49b8-a63d-ae97b33065c5
+title: PFN\_DrvUpgradeRegistrySetting callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_DrvUpgradeRegistrySetting callback function

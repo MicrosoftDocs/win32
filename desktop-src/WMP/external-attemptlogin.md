@@ -1,8 +1,11 @@
 ---
 title: External.attemptLogin method
 description: The attemptLogin method displays a dialog box so the user can attempt to log in to the online store.
-ms.assetid: '04fe476f-6d0e-4faa-9e4a-f87bed782205'
-keywords: ["attemptLogin method Windows Media Player", "attemptLogin method Windows Media Player , External class", "External class Windows Media Player , attemptLogin method"]
+ms.assetid: 04fe476f-6d0e-4faa-9e4a-f87bed782205
+keywords:
+- attemptLogin method Windows Media Player
+- attemptLogin method Windows Media Player , External class
+- External class Windows Media Player , attemptLogin method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.attemptLogin method
@@ -62,15 +70,15 @@ If the log-in attempt results in a change of log-in status, Windows Media Player
 [**External.userLoggedIn**](external-userloggedin.md)
 </dt> <dt>
 
-[**IWMPContentPartner::Login**](iwmpcontentpartner-login.md)
+[**IWMPContentPartner::Login**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-login?branch=master)
 </dt> <dt>
 
 [**Managing Login**](managing-login.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

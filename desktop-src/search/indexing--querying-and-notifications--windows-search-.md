@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'f299d6b5-c587-4c5e-a020-8471dedd2ac0'
-title: 'Indexing, Querying and Notifications in Windows Search'
+Description: .
+ms.assetid: f299d6b5-c587-4c5e-a020-8471dedd2ac0
+title: Indexing, Querying and Notifications in Windows Search
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing, Querying and Notifications in Windows Search

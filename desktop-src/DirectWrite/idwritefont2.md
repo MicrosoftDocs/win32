@@ -1,8 +1,10 @@
 ---
 title: IDWriteFont2 interface
 description: Represents a physical font in a font collection.
-ms.assetid: '4E3069AE-5882-4A26-A36D-BE7D7EE1B0C3'
-keywords: ["IDWriteFont2 interface Direct Write", "IDWriteFont2 interface Direct Write , described"]
+ms.assetid: 4E3069AE-5882-4A26-A36D-BE7D7EE1B0C3
+keywords:
+- IDWriteFont2 interface Direct Write
+- IDWriteFont2 interface Direct Write , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteFont2 interface
@@ -21,7 +28,7 @@ This interface adds the ability to check if a color rendering path is potentiall
 
 ## Members
 
-The **IDWriteFont2** interface inherits from [**IDWriteFont1**](idwritefont1.md). **IDWriteFont2** also has these types of members:
+The **IDWriteFont2** interface inherits from [**IDWriteFont1**](/windows/win32/dwrite_1/?branch=master). **IDWriteFont2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -37,7 +44,7 @@ The **IDWriteFont2** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,9 +52,9 @@ The **IDWriteFont2** interface has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
 | Library<br/>                  | <dl> <dt>Dwrite.lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |
 
@@ -57,12 +64,12 @@ The **IDWriteFont2** interface has these methods.
 
 <dl> <dt>
 
-[**IDWriteFont1**](idwritefont1.md)
+[**IDWriteFont1**](/windows/win32/dwrite_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

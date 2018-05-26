@@ -1,8 +1,10 @@
 ---
 title: IWMPCdrom (VB and C\ ) interface
 description: Provides a way to access a CD or DVD in its drive.The IWMPCdrom interface exposes the following properties.
-ms.assetid: '2748e64b-b9b7-489a-a6b5-21154aabd312'
-keywords: ["IWMPCdrom (VB and C ) interface Windows Media Player", "IWMPCdrom (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 2748e64b-b9b7-489a-a6b5-21154aabd312
+keywords:
+- IWMPCdrom (VB and C ) interface Windows Media Player
+- IWMPCdrom (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdrom (VB and C#) interface
@@ -38,7 +45,7 @@ The **IWMPCdrom (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -49,11 +56,11 @@ The **IWMPCdrom (VB and C#)** interface has these properties.
 | Property                                                                                | Access type          | Description                                                                                                                                  |
 |:----------------------------------------------------------------------------------------|:---------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
 | [**driveSpecifier**](wmplibiwmpcdrom-iwmpcdrom-drivespecifier--vb-and-c.md)<br/> | Read-only<br/> | Gets the CD or DVD drive letter.<br/>                                                                                                  |
-| [**Playlist**](wmplibiwmpcdrom-iwmpcdrom-playlist--vb-and-c.md)<br/>             | Read-only<br/> | Gets an [**IWMPPlaylist**](iwmpplaylist.md) interface representing the tracks on a CD or the root-level title entries for a DVD.<br/> |
+| [**Playlist**](wmplibiwmpcdrom-iwmpcdrom-playlist--vb-and-c.md)<br/>             | Read-only<br/> | Gets an [**IWMPPlaylist**](/windows/win32/wmp/nn-wmp-iwmpplaylist?branch=master) interface representing the tracks on a CD or the root-level title entries for a DVD.<br/> |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +82,9 @@ The **IWMPCdrom (VB and C#)** interface has these properties.
 [**IWMPPlaylist Interface (VB and C#)**](iwmpplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

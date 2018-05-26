@@ -1,7 +1,12 @@
 ---
-Description: 'An external user interface (UI) handler can return any number of values to Windows Installer depending on the button type provided in the message type parameter the installer passes to the handler.'
-ms.assetid: 'a918082d-709d-4b4f-ae3b-5f16ed0ca910'
+Description: An external user interface (UI) handler can return any number of values to Windows Installer depending on the button type provided in the message type parameter the installer passes to the handler.
+ms.assetid: a918082d-709d-4b4f-ae3b-5f16ed0ca910
 title: Returning Values from an External User Interface Handler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Returning Values from an External User Interface Handler

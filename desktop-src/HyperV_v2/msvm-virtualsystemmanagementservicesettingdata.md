@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the settings for the virtualization service present on a single host system.'
-ms.assetid: 'E3265AFE-0117-4F59-9A6B-34CEA7A61EDD'
-title: 'Msvm\_VirtualSystemManagementServiceSettingData class'
+Description: Represents the settings for the virtualization service present on a single host system.
+ms.assetid: E3265AFE-0117-4F59-9A6B-34CEA7A61EDD
+title: Msvm\_VirtualSystemManagementServiceSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemManagementServiceSettingData class
@@ -16,23 +21,23 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 {
-  string  InstanceID = "Microsoft:host";
-  string  Caption = "Hyper-V Virtual System Management Service";
-  string  Description = "Settings for the Virtual System Management Service";
-  string  ElementName = "Hyper-V Virtual System Management Service";
-  string  BiosLockString;
-  string  DefaultExternalDataRoot = "root\ProgramData\Microsoft\Windows\Virtualization";
-  string  DefaultVirtualHardDiskPath = "root\Users\Public\Documents\Virtual Hard Disks";
-  string  MaximumMacAddress;
-  string  MinimumMacAddress;
+  string  InstanceID = "Microsoft:host";
+  string  Caption = "Hyper-V Virtual System Management Service";
+  string  Description = "Settings for the Virtual System Management Service";
+  string  ElementName = "Hyper-V Virtual System Management Service";
+  string  BiosLockString;
+  string  DefaultExternalDataRoot = "root\ProgramData\Microsoft\Windows\Virtualization";
+  string  DefaultVirtualHardDiskPath = "root\Users\Public\Documents\Virtual Hard Disks";
+  string  MaximumMacAddress;
+  string  MinimumMacAddress;
   boolean NumaSpanningEnabled;
-  string  PrimaryOwnerContact = "";
-  string  PrimaryOwnerName = "Administrators";
-  uint32  HbaLunTimeout;
-  string  MaximumWWPNAddress;
-  string  MinimumWWPNAddress;
-  string  CurrentWWNNAddress;
-  uint16  DefaultVirtualHardDiskCachingMode;
+  string  PrimaryOwnerContact = "";
+  string  PrimaryOwnerName = "Administrators";
+  uint32  HbaLunTimeout;
+  string  MaximumWWPNAddress;
+  string  MinimumWWPNAddress;
+  string  CurrentWWNNAddress;
+  uint16  DefaultVirtualHardDiskCachingMode;
   boolean HypervisorRootSchedulerEnabled;
   boolean EnhancedSessionModeEnabled;
 };
@@ -126,9 +131,9 @@ Access type: Read-only
 Indicates whether in-memory file caching should be used for disks by default. This value can be overridden on a per-disk basis in the **CachingMode** field of the [**Msvm\_StorageAllocationSettingData**](msvm-storageallocationsettingdata.md) class.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 <dt>
 
@@ -207,7 +212,7 @@ Access type: Read-only
 
 Indicates whether enhanced session mode is permitted on the server. **True** indicates permitted, otherwise **False**.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -238,9 +243,9 @@ Access type: Read-only
 Whether or not the hypervisor root scheduler is enabled.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -340,7 +345,7 @@ Specifies whether memory can be allocated from remote nonuniform memory access (
 
 
 
- 
+ 
 
 This is a read-only property, but it can be changed by using the [**ModifyServiceSettings**](modifyservicesettings-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
@@ -392,8 +397,8 @@ Access to the **Msvm\_VirtualSystemManagementServiceSettingData** class might be
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -416,9 +421,9 @@ Access to the **Msvm\_VirtualSystemManagementServiceSettingData** class might be
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

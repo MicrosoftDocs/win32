@@ -1,8 +1,36 @@
 ---
-title: What's New in Version 1.0 of WCS
+title: Whats New in Version 1.0 of WCS
 description: Version 1.0 of Image Color Management (ICM) was delivered in Microsoft \ 160;Windows \ 160;95, and provides basic color management capabilities within Windows device contexts.
-ms.assetid: 'edc5a6c2-ca7c-4cf4-a339-4f1875c60493'
-keywords: ["Windows Color System (WCS),new features", "WCS (Windows Color System),new features", "image color management,new features", "color management,new features", "colors,new features", "Windows Color System (WCS),what's new", "WCS (Windows Color System),what's new", "image color management,what's new", "color management,what's new", "colors,what's new", "Windows Color System (WCS),Windows Vista", "WCS (Windows Color System),Windows Vista", "image color management,Windows Vista", "color management,Windows Vista", "colors,Windows Vista", "Windows Color System (WCS),operating systems", "WCS (Windows Color System),operating systems", "image color management,operating systems", "color management,operating systems", "colors,operating systems", "Image Color Management (ICM)", "ICM (Image Color Management)", "Windows Vista color management"]
+ms.assetid: edc5a6c2-ca7c-4cf4-a339-4f1875c60493
+keywords:
+- Windows Color System (WCS),new features
+- WCS (Windows Color System),new features
+- image color management,new features
+- color management,new features
+- colors,new features
+- Windows Color System (WCS),whats new
+- WCS (Windows Color System),whats new
+- image color management,whats new
+- color management,whats new
+- colors,whats new
+- Windows Color System (WCS),Windows Vista
+- WCS (Windows Color System),Windows Vista
+- image color management,Windows Vista
+- color management,Windows Vista
+- colors,Windows Vista
+- Windows Color System (WCS),operating systems
+- WCS (Windows Color System),operating systems
+- image color management,operating systems
+- color management,operating systems
+- colors,operating systems
+- Image Color Management (ICM)
+- ICM (Image Color Management)
+- Windows Vista color management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in Version 1.0 of WCS

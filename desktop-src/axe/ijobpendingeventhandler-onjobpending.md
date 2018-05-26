@@ -1,8 +1,11 @@
 ---
 title: IJobPendingEventHandler OnJobPending method
 description: The AXE Core raises this event when the job is blocked because another job is currently running.
-ms.assetid: '2942FB92-00E3-4CF8-B307-2E6B1EB51606'
-keywords: ["OnJobPending method Access Execution Engine", "OnJobPending method Access Execution Engine , IJobPendingEventHandler interface", "IJobPendingEventHandler interface Access Execution Engine , OnJobPending method"]
+ms.assetid: 2942FB92-00E3-4CF8-B307-2E6B1EB51606
+keywords:
+- OnJobPending method Access Execution Engine
+- OnJobPending method Access Execution Engine , IJobPendingEventHandler interface
+- IJobPendingEventHandler interface Access Execution Engine , OnJobPending method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IJobPendingEventHandler::OnJobPending method
@@ -22,8 +30,8 @@ The AXE Core raises this event when the job is blocked because another job is cu
 
 ```C++
 virtual void OnJobPending(
-         Engine              *sender,
-   const JobPendingEventArgs *e
+         Engine              *sender,
+   const JobPendingEventArgs *e
 ) = 0;
 ```
 
@@ -61,8 +69,8 @@ Managed code uses the [**JobPendingEventHandler**](axe-jobpendingeventhandler_om
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -81,9 +89,9 @@ Managed code uses the [**JobPendingEventHandler**](axe-jobpendingeventhandler_om
 [**ExecuteJob**](engine-executejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

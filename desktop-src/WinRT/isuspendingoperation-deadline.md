@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the time remaining before a delayed app suspending operation continues.'
-ms.assetid: 'A90347F3-75CB-4EEB-930D-30882F43D192'
-title: 'ISuspendingOperation::Deadline property'
+---
+Description: Gets the time remaining before a delayed app suspending operation continues.
+ms.assetid: A90347F3-75CB-4EEB-930D-30882F43D192
+title: ISuspendingOperationDeadline property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISuspendingOperation::Deadline property

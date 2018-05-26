@@ -1,7 +1,12 @@
-﻿---
-Description: 'Verifies that the calling process has read access to a string. If not, the macro calls the DbgBreak macro.'
-ms.assetid: '749a8c22-7a4a-49c2-a214-fc64dc5a0202'
+---
+Description: Verifies that the calling process has read access to a string. If not, the macro calls the DbgBreak macro.
+ms.assetid: 749a8c22-7a4a-49c2-a214-fc64dc5a0202
 title: ValidateStringPtr macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ValidateStringPtr macro

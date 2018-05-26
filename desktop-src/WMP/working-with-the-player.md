@@ -1,8 +1,18 @@
 ---
 title: Working with the Player
 description: Working with the Player
-ms.assetid: '27aff735-2142-4506-b9d0-2c0fbe60fd6b'
-keywords: ["Windows Media Player skins,player attribute in JScript", "skins,player attribute in JScript", "attributes,player", "player attribute", "JScript files for skins,player attribute"]
+ms.assetid: 27aff735-2142-4506-b9d0-2c0fbe60fd6b
+keywords:
+- Windows Media Player skins,player attribute in JScript
+- skins,player attribute in JScript
+- attributes,player
+- player attribute
+- JScript files for skins,player attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with the Player

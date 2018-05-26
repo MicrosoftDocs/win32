@@ -4,13 +4,15 @@ description: CIM\_ManagedSystemElement is the base class for the System Element 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8a121728-030a-48f1-b6db-bf4788aa49a1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8a121728-030a-48f1-b6db-bf4788aa49a1
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ManagedSystemElement class", "CIM_ManagedSystemElement class, described"]
+keywords:
+- CIM_ManagedSystemElement class
+- CIM_ManagedSystemElement class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ManagedSystemElement class
@@ -38,11 +43,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{C9D86C80-ED46-4377-8360-FC9B8A9F0C64}"), AMENDMENT]
 class CIM_ManagedSystemElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
+  string   Name;
+  string   Status;
 };
 ```
 
@@ -214,16 +219,16 @@ A string indicating the current status of the object. Various operational and no
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: System.Contact.state property
 description: Gets the state (or equivalent) associated with the contact.
-ms.assetid: '836038da-f49f-4f36-b5ea-60460da6e7ba'
-keywords: ["state property Windows Sidebar", "state property Windows Sidebar , System.Contact object", "System.Contact object Windows Sidebar , state property"]
+ms.assetid: 836038da-f49f-4f36-b5ea-60460da6e7ba
+keywords:
+- state property Windows Sidebar
+- state property Windows Sidebar , System.Contact object
+- System.Contact object Windows Sidebar , state property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.state property
@@ -64,10 +72,10 @@ for (var i = 0; i < oContact.count; i++)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -86,9 +94,9 @@ for (var i = 0; i < oContact.count; i++)
 [**System.ContactManager**](system-contactmanager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

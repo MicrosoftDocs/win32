@@ -4,11 +4,14 @@ description: Gets or sets the MustUnderstandOptions value for the ResourceLocato
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd366696c-9128-4cbd-98d0-6c2d16c75d59'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: d366696c-9128-4cbd-98d0-6c2d16c75d59
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["MustUnderstandOptions property Windows Remote Management", "MustUnderstandOptions property Windows Remote Management , ResourceLocator object", "ResourceLocator object Windows Remote Management , MustUnderstandOptions property"]
+keywords:
+- MustUnderstandOptions property Windows Remote Management
+- MustUnderstandOptions property Windows Remote Management , ResourceLocator object
+- ResourceLocator object Windows Remote Management , MustUnderstandOptions property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ResourceLocator.MustUnderstandOptions property
@@ -48,8 +54,8 @@ Indicates, when **True**, that the service which implements the [WS-Management P
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -64,9 +70,9 @@ Indicates, when **True**, that the service which implements the [WS-Management P
 [**ResourceLocator**](resourcelocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

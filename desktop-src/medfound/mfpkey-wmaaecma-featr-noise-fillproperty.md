@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the Voice Capture DSP performs noise filling.'
-ms.assetid: '8bb64686-8f02-4e0d-a664-aeee1744fc8e'
-title: 'MFPKEY\_WMAAECMA\_FEATR\_NOISE\_FILL Property'
+---
+Description: Specifies whether the Voice Capture DSP performs noise filling.
+ms.assetid: 8bb64686-8f02-4e0d-a664-aeee1744fc8e
+title: MFPKEY\_WMAAECMA\_FEATR\_NOISE\_FILL Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAAECMA\_FEATR\_NOISE\_FILL Property

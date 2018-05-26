@@ -1,7 +1,12 @@
 ---
-Description: 'VSS is designed to address the problems described in Common Volume Backup Issues.'
-ms.assetid: 'f9a3efea-d6e8-40df-92ac-f6faaa4fca60'
+Description: VSS is designed to address the problems described in Common Volume Backup Issues.
+ms.assetid: f9a3efea-d6e8-40df-92ac-f6faaa4fca60
 title: The VSS Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The VSS Model

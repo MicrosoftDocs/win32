@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxNumber property is a null-terminated string that contains the fax number to which the fax server will transmit the fax job. The FaxNumber property applies only to outgoing fax transmissions.'
-ms.assetid: '3cfb7a65-9269-46a9-8475-bd356e36f492'
-title: 'FaxJob.FaxNumber property'
+---
+Description: The FaxNumber property is a null-terminated string that contains the fax number to which the fax server will transmit the fax job. The FaxNumber property applies only to outgoing fax transmissions.
+ms.assetid: 3cfb7a65-9269-46a9-8475-bd356e36f492
+title: FaxJob.FaxNumber property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.FaxNumber property
@@ -55,10 +60,10 @@ A fax number is only available for faxes that have a [**Type**](-mfax-ifaxjob-ge
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> <dt>
 
 [**Type**](-mfax-ifaxjob-get-type-vb.md)

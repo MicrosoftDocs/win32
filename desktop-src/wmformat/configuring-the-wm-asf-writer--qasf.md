@@ -1,8 +1,29 @@
 ---
 title: Configuring the WM ASF Writer (QASF)
 description: Configuring the WM ASF Writer (QASF)
-ms.assetid: '0f49ed5a-c228-456a-9551-8d277adccd0e'
-keywords: ["Windows Media Format SDK,configuring WM ASF Writer (QASF)", "Windows Media Format SDK,DirectShow", "Windows Media Format SDK,WM ASF Writer", "Windows Media Format SDK,QASF", "Advanced Systems Format (ASF),configuring WM ASF Writer (QASF)", "ASF (Advanced Systems Format),configuring WM ASF Writer (QASF)", "Advanced Systems Format (ASF),WM ASF Writer", "ASF (Advanced Systems Format),WM ASF Writer", "Advanced Systems Format (ASF),DirectShow", "ASF (Advanced Systems Format),DirectShow", "Advanced Systems Format (ASF),QASF", "ASF (Advanced Systems Format),QASF", "DirectShow,configuring WM ASF Writer (QASF)", "DirectShow,WM ASF Writer", "DirectShow,QASF", "WM ASF Writer,configuring"]
+ms.assetid: 0f49ed5a-c228-456a-9551-8d277adccd0e
+keywords:
+- Windows Media Format SDK,configuring WM ASF Writer (QASF)
+- Windows Media Format SDK,DirectShow
+- Windows Media Format SDK,WM ASF Writer
+- Windows Media Format SDK,QASF
+- Advanced Systems Format (ASF),configuring WM ASF Writer (QASF)
+- ASF (Advanced Systems Format),configuring WM ASF Writer (QASF)
+- Advanced Systems Format (ASF),WM ASF Writer
+- ASF (Advanced Systems Format),WM ASF Writer
+- Advanced Systems Format (ASF),DirectShow
+- ASF (Advanced Systems Format),DirectShow
+- Advanced Systems Format (ASF),QASF
+- ASF (Advanced Systems Format),QASF
+- DirectShow,configuring WM ASF Writer (QASF)
+- DirectShow,WM ASF Writer
+- DirectShow,QASF
+- WM ASF Writer,configuring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring the WM ASF Writer (QASF)
@@ -15,12 +36,12 @@ Adding Data Unit Extensions
 
 You can configure a profile stream for data unit extensions, such as SMPTE time codes, either before or after the filter is connected, as long as you follow this order of operations:
 
-1.  Add one or more data unit extensions to the stream using [**IWMStreamConfig2::AddDataUnitExtension**](iwmstreamconfig2-adddataunitextension.md).
-2.  Call [**WMProfile::ReconfigStream**](iwmprofile-reconfigstream.md) to update the profile.
+1.  Add one or more data unit extensions to the stream using [**IWMStreamConfig2::AddDataUnitExtension**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension?branch=master).
+2.  Call [**WMProfile::ReconfigStream**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile-reconfigstream?branch=master) to update the profile.
 3.  Call [**IConfigAsfWriter::ConfigureFilterUsingProfile**](iconfigasfwriter-configurefilterusingprofile.md) with the updated profile object.
-4.  Find the video input pin, and call its [**IAMWMBufferPass::SetNotify**](iamwmbufferpass-setnotify.md) method to register your application-defined [**IAMWMBufferPassCallback**](iamwmbufferpasscallback.md) interface.
+4.  Find the video input pin, and call its [**IAMWMBufferPass::SetNotify**](iamwmbufferpass-setnotify.md) method to register your application-defined [**IAMWMBufferPassCallback**](/windows/win32/dshowasf/?branch=master) interface.
 
-When the graph runs, your [**IAMWMBufferPassCallback::Notify**](iamwmbufferpasscallback-notify.md) method will be called for each frame, and you will be able to get and set properties on the sample using its [**INSSBuffer3**](inssbuffer3.md) interface methods.
+When the graph runs, your [**IAMWMBufferPassCallback::Notify**](iamwmbufferpasscallback-notify.md) method will be called for each frame, and you will be able to get and set properties on the sample using its [**INSSBuffer3**](/windows/win32/wmsbuffer/nn-wmsbuffer-inssbuffer3?branch=master) interface methods.
 
 > [!Note]  
 > In some processor-intensive scenarios such as inverse telecine, the WM ASF Writer may require more output buffers than some downstream filters can support. The DV Decoder, for example, will not accept more than one buffer for its output pin and the same is true for the AVI Decompressor in certain conditions. If you encounter problems when attempting to connect to these filters, or possibly when running the graph, it may be necessary to write an intermediary filter that accepts any number of buffers on its output pin.

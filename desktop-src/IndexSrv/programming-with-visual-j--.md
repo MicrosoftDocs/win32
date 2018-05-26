@@ -1,7 +1,12 @@
 ---
 title: Programming with Visual J++
 description: Programming with Visual J++
-ms.assetid: '9456e438-530d-4618-b8c9-a30f9fdb1983'
+ms.assetid: 9456e438-530d-4618-b8c9-a30f9fdb1983
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming with Visual J++

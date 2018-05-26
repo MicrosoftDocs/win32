@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create an asynchronous-data processor for a memory pool.'
-ms.assetid: '3985a5e5-492e-4003-9d10-6e34620de69f'
+---
+Description: Create an asynchronous-data processor for a memory pool.
+ms.assetid: 3985a5e5-492e-4003-9d10-6e34620de69f
 title: D3DX10CreateAsyncEffectPoolCreateProcessor function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CreateAsyncEffectPoolCreateProcessor function
@@ -43,18 +48,18 @@ A string that contains the effect filename.
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](d3d10-shader-macro.md)\***
+Type: **const [**D3D10\_SHADER\_MACRO**](/windows/win32/D3D10Shader/?branch=master)\***
 
-A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](d3d10-shader-macro.md)); set this to **NULL** to specify no macros.
+A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](/windows/win32/D3D10Shader/?branch=master)); set this to **NULL** to specify no macros.
 
 </dd> <dt>
 
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](id3d10include.md)**
+Type: **[**LPD3D10INCLUDE**](/windows/win32/D3D10Shader/?branch=master)**
 
-A pointer to an include interface (see [**ID3D10Include Interface**](id3d10include.md)); set this to **NULL** to specify there is no include file.
+A pointer to an include interface (see [**ID3D10Include Interface**](/windows/win32/D3D10Shader/?branch=master)); set this to **NULL** to specify there is no include file.
 
 </dd> <dt>
 
@@ -88,18 +93,18 @@ Effect compile options (see [Compile and Effect Flags](d3d10-graphics-reference-
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](id3d10device.md)\***
+Type: **[**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)\***
 
-A pointer to the device (see [**ID3D10Device Interface**](id3d10device.md)) that will use the resources.
+A pointer to the device (see [**ID3D10Device Interface**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)) that will use the resources.
 
 </dd> <dt>
 
 *ppErrorBuffer* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](id3d10blob.md)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)\*\***
 
-The address of a pointer to memory (see [**ID3D10Blob Interface**](id3d10blob.md)) that contains effect compile errors, if there were any.
+The address of a pointer to memory (see [**ID3D10Blob Interface**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)) that contains effect compile errors, if there were any.
 
 </dd> <dt>
 

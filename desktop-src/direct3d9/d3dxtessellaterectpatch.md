@@ -1,7 +1,12 @@
-﻿---
-Description: 'Tessellates a rectangular higher-order surface patch into a triangle mesh.'
-ms.assetid: 'd941d994-8a13-49ff-a0b1-b21a3f84ed78'
+---
+Description: Tessellates a rectangular higher-order surface patch into a triangle mesh.
+ms.assetid: d941d994-8a13-49ff-a0b1-b21a3f84ed78
 title: D3DXTessellateRectPatch function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXTessellateRectPatch function
@@ -30,7 +35,7 @@ HRESULT D3DXTessellateRectPatch(
 *pVB* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXBUFFER9**](idirect3dvertexbuffer9.md)**
+Type: **[**LPDIRECT3DVERTEXBUFFER9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvertexbuffer9?branch=master)**
 
 Vertex buffer containing the patch data.
 

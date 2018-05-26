@@ -1,8 +1,11 @@
 ---
 title: Assessment GetName method
 description: Retrieve the localized name of the assessment.
-ms.assetid: '5500A3D5-0ADD-421C-B0EF-210A7EA9C0E0'
-keywords: ["GetName method Access Execution Engine", "GetName method Access Execution Engine , Assessment interface", "Assessment interface Access Execution Engine , GetName method"]
+ms.assetid: 5500A3D5-0ADD-421C-B0EF-210A7EA9C0E0
+keywords:
+- GetName method Access Execution Engine
+- GetName method Access Execution Engine , Assessment interface
+- Assessment interface Access Execution Engine , GetName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assessment::GetName method
@@ -22,7 +30,7 @@ Retrieve the localized name of the assessment.
 
 ```C++
 virtual HRESULT GetName(
-  [out, optional] LPCWSTR *assessmentName
+  [out, optional] LPCWSTR *assessmentName
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ Managed code uses [**Assessment.Name \| name property**](axe-assessment_name_om)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ Managed code uses [**Assessment.Name \| name property**](axe-assessment_name_om)
 [**Assessment**](assessment-inf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

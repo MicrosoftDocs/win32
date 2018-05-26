@@ -4,11 +4,14 @@ description: The GetHalfDarkHex method derives a \ 0034;darker \ 0034; color by 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '553abc10-8d3b-48cc-9e21-7a31b14b2c2f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 553abc10-8d3b-48cc-9e21-7a31b14b2c2f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetHalfDarkHex method MMC", "GetHalfDarkHex method MMC , SysColorCtrl class", "SysColorCtrl class MMC , GetHalfDarkHex method"]
+keywords:
+- GetHalfDarkHex method MMC
+- GetHalfDarkHex method MMC , SysColorCtrl class
+- SysColorCtrl class MMC , GetHalfDarkHex method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SysColorCtrl.GetHalfDarkHex method
@@ -101,9 +107,9 @@ A string that contains the hexadecimal value for the derived color specified by 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

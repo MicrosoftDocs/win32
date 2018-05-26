@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the power state of the computer. The use of this method has been deprecated. Instead, use the SetPowerState method in the associated PowerManagementService class.'
-ms.assetid: 'c2196f35-f687-4d82-a068-f8499f77473a'
-title: 'SetPowerState method of the CIM\_ComputerSystem class'
+Description: Sets the power state of the computer. The use of this method has been deprecated. Instead, use the SetPowerState method in the associated PowerManagementService class.
+ms.assetid: c2196f35-f687-4d82-a068-f8499f77473a
+title: SetPowerState method of the CIM\_ComputerSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetPowerState method of the CIM\_ComputerSystem class
@@ -13,8 +18,8 @@ Sets the power state of the computer. The use of this method has been deprecated
 
 ```mof
 uint32 SetPowerState(
-  [in] uint32   PowerState,
-  [in] datetime Time
+  [in] uint32   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -100,8 +105,8 @@ Time indicates when the power state should be set, either as a regular date-time
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -115,9 +120,9 @@ Time indicates when the power state should be set, either as a regular date-time
 [**CIM\_ComputerSystem**](cim-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

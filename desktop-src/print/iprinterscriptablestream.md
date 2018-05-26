@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrinterScriptableStream interface builds on IPrinterScriptableSequentialStream and adds IStream-like semantics.'
-ms.assetid: 'AD3CDF90-76ED-498B-8DE1-B191504EB415'
+---
+Description: The IPrinterScriptableStream interface builds on IPrinterScriptableSequentialStream and adds IStream-like semantics.
+ms.assetid: AD3CDF90-76ED-498B-8DE1-B191504EB415
 title: IPrinterScriptableStream interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptableStream interface

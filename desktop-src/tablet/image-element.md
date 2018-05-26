@@ -1,7 +1,12 @@
 ---
-Description: 'Contains encoded binary data for an image in the Journal document, if present.'
-ms.assetid: '98ee234f-13b8-4da4-ac64-60943e76a3ba'
+Description: Contains encoded binary data for an image in the Journal document, if present.
+ms.assetid: 98ee234f-13b8-4da4-ac64-60943e76a3ba
 title: Image Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image Element

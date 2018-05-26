@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the ID3DXFile interface of the object that created this ID3DXFileSaveObject object.'
-ms.assetid: '79249d17-cae3-43d9-9ccb-fa804b02a353'
-title: 'ID3DXFileSaveObject::GetFile method'
+---
+Description: Gets the ID3DXFile interface of the object that created this ID3DXFileSaveObject object.
+ms.assetid: 79249d17-cae3-43d9-9ccb-fa804b02a353
+title: ID3DXFileSaveObjectGetFile method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileSaveObject::GetFile method

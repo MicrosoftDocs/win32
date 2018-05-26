@@ -1,7 +1,12 @@
-﻿---
-Description: 'Installs a catalog in a directory.'
-ms.assetid: '9741f8e3-d9db-46cd-886d-587f332b0ab8'
+---
+Description: Installs a catalog in a directory.
+ms.assetid: 9741f8e3-d9db-46cd-886d-587f332b0ab8
 title: InstallCatalog function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InstallCatalog function

@@ -1,8 +1,9 @@
 ---
 title: D3DDisassemble10Effect function
 description: Disassembles compiled HLSL code from a Direct3D10 effect.
-ms.assetid: 'fb6668ae-db7f-4d69-aed4-4b50f3a2b315'
-keywords: ["D3DDisassemble10Effect function HLSL"]
+ms.assetid: fb6668ae-db7f-4d69-aed4-4b50f3a2b315
+keywords:
+- D3DDisassemble10Effect function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dcompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDisassemble10Effect function
@@ -21,9 +27,9 @@ Disassembles compiled HLSL code from a Direct3D10 effect.
 
 ``` syntax
 HRESULT WINAPI D3DDisassemble10Effect(
-  in  ID3D10Effect pEffect,
-  in  UINT Flags,
-  out ID3DBlob ppDisassembly
+  in  ID3D10Effect pEffect,
+  in  UINT Flags,
+  out ID3DBlob ppDisassembly
 );
 ```
 
@@ -83,9 +89,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

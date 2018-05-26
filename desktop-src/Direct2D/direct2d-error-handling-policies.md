@@ -1,8 +1,14 @@
 ---
 title: Direct2D Error Handling Policies
 description: This topic describes the Direct2D error handling policies. It contains the following sections.
-ms.assetid: 'b5fa327a-a315-46fa-aa78-8a5733faae01'
-keywords: ["Direct2D,error handling"]
+ms.assetid: b5fa327a-a315-46fa-aa78-8a5733faae01
+keywords:
+- Direct2D,error handling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct2D Error Handling Policies
@@ -24,9 +30,9 @@ If a function is not batched and can have a run-time failure, it should return *
 
 ## Return Value of Batched Functions
 
-Batched functions in Direct2D are the functions that are processed as a single unit when [**EndDraw**](id2d1rendertarget-enddraw.md) or [**Close**](id2d1simplifiedgeometrysink-close.md) is called. They are the drawing commands between [**BeginDraw**](id2d1rendertarget-begindraw.md) and **EndDraw** or commands on [**GeometrySink**](id2d1geometrysink.md). For these functions, errors are reported at the time the batch is completed. The error is returned after **EndDraw** for drawing commands, and after **Close** for **GeometrySink**.
+Batched functions in Direct2D are the functions that are processed as a single unit when [**EndDraw**](/windows/win32/d2d1/?branch=master) or [**Close**](/windows/win32/d2d1/?branch=master) is called. They are the drawing commands between [**BeginDraw**](/windows/win32/d2d1/?branch=master) and **EndDraw** or commands on [**GeometrySink**](/windows/win32/d2d1/?branch=master). For these functions, errors are reported at the time the batch is completed. The error is returned after **EndDraw** for drawing commands, and after **Close** for **GeometrySink**.
 
-RenderTargets stop drawing if an error state is set, but an application can call [**Flush**](id2d1rendertarget-flush.md) to reset the error state and resume drawing.
+RenderTargets stop drawing if an error state is set, but an application can call [**Flush**](/windows/win32/d2d1/?branch=master) to reset the error state and resume drawing.
 
 **Get** and **Set** functions have no return value. However, if a **Set** function has an invalid input, the debug layer generates a message. In this case, no error state is set and the **Set** function does nothing.
 
@@ -36,7 +42,7 @@ Direct2D dereferences output pointers and required parameters which result in ac
 
 ### Output Pointer
 
-Direct2D dereferences an output pointer and assigns it to **NULL** immediately upon entering the function. This causes an access violation if a caller passes in **NULL** as the pointer to the return value. This policy also applies to arrays of pointers. For other output parameters, such as a struct, the dereference happens later and also results in an access violation. However, there are some methods that have optional output pointers (that is, [**EndDraw**](id2d1rendertarget-enddraw.md), [**Flush**](id2d1rendertarget-flush.md)) that will not cause an access violation.
+Direct2D dereferences an output pointer and assigns it to **NULL** immediately upon entering the function. This causes an access violation if a caller passes in **NULL** as the pointer to the return value. This policy also applies to arrays of pointers. For other output parameters, such as a struct, the dereference happens later and also results in an access violation. However, there are some methods that have optional output pointers (that is, [**EndDraw**](/windows/win32/d2d1/?branch=master), [**Flush**](/windows/win32/d2d1/?branch=master)) that will not cause an access violation.
 
 ### Required Parameter
 

@@ -1,14 +1,20 @@
 ---
 title: SHUFFLEBUTTON
 description: This is a predefined BUTTON with the following default values.
-ms.assetid: '45b3c985-81fb-4af3-89a7-e68ee9724f09'
-keywords: ["SHUFFLEBUTTON Windows Media Player"]
+ms.assetid: 45b3c985-81fb-4af3-89a7-e68ee9724f09
+keywords:
+- SHUFFLEBUTTON Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SHUFFLEBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SHUFFLEBUTTON
@@ -44,9 +50,9 @@ This creates a **BUTTON** control that toggles Shuffle on and off. The ToolTips 
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

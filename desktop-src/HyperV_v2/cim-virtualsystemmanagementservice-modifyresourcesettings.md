@@ -1,7 +1,12 @@
 ---
-Description: 'Modifies virtual resource settings.'
-ms.assetid: '4942f167-0e53-4ae2-b973-4a06b636b44a'
-title: 'ModifyResourceSettings method of the CIM\_VirtualSystemManagementService class'
+Description: Modifies virtual resource settings.
+ms.assetid: 4942f167-0e53-4ae2-b973-4a06b636b44a
+title: ModifyResourceSettings method of the CIM\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModifyResourceSettings method of the CIM\_VirtualSystemManagementService class
@@ -15,9 +20,9 @@ When applied to parts of a "current" virtual system configuration, as a side eff
 
 ```mof
 uint32 ModifyResourceSettings(
-  [in]  string                                ResourceSettings[],
-  [out] CIM_ResourceAllocationSettingData REF ResultingResourceSettings[],
-  [out] CIM_ConcreteJob                   REF Job
+  [in]  string                                ResourceSettings[],
+  [out] CIM_ResourceAllocationSettingData REF ResultingResourceSettings[],
+  [out] CIM_ConcreteJob                   REF Job
 );
 ```
 
@@ -93,8 +98,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -108,9 +113,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

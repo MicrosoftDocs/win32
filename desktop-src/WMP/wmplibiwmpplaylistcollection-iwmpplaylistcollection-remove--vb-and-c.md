@@ -1,8 +1,11 @@
 ---
 title: IWMPPlaylistCollection remove method
 description: The remove method removes a playlist from the library.
-ms.assetid: '40c8ee1d-13fa-40d9-9532-4dc8383c4eb3'
-keywords: ["remove method Windows Media Player", "remove method Windows Media Player , IWMPPlaylistCollection interface", "IWMPPlaylistCollection interface Windows Media Player , remove method"]
+ms.assetid: 40c8ee1d-13fa-40d9-9532-4dc8383c4eb3
+keywords:
+- remove method Windows Media Player
+- remove method Windows Media Player , IWMPPlaylistCollection interface
+- IWMPPlaylistCollection interface Windows Media Player , remove method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylistCollection::remove method
@@ -90,9 +98,9 @@ Before calling this method, you must have full access to the library. For more i
 [**IWMPPlaylistCollection Interface (VB and C#)**](iwmpplaylistcollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

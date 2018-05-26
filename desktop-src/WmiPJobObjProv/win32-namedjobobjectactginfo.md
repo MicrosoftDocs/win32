@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_NamedJobObjectActgInfo WMI class class represents the I/O accounting information for a job object.'
+Description: The Win32\_NamedJobObjectActgInfo WMI class class represents the I/O accounting information for a job object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0e974a16-e4f1-4183-98de-aa949363916b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0e974a16-e4f1-4183-98de-aa949363916b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_NamedJobObjectActgInfo class'
+title: Win32\_NamedJobObjectActgInfo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_NamedJobObjectActgInfo class
@@ -127,7 +130,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Number of I/O operations performed, other than read and write operations, by all of the processes that have been associated with the job—including all of the processes currently associated with the job.
+Number of I/O operations performed, other than read and write operations, by all of the processes that have been associated with the job including all of the processes currently associated with the job.
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/aa389763).
 
@@ -142,7 +145,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Number of bytes transferred during operations, other than read and write, by all of the processes that have been associated with the job—including all of the processes currently associated with the job.
+Number of bytes transferred during operations, other than read and write, by all of the processes that have been associated with the job including all of the processes currently associated with the job.
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/aa389763).
 
@@ -204,7 +207,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Number of bytes read by all of the processes that have been associated with the job—including all of the processes currently associated with the job.
+Number of bytes read by all of the processes that have been associated with the job including all of the processes currently associated with the job.
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/aa389763).
 
@@ -361,8 +364,8 @@ The **Win32\_NamedJobObjectActgInfo** class is derived from the [**CIM\_Statisti
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipjobj.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipjobj.dll</dt> </dl> |
@@ -379,9 +382,9 @@ The **Win32\_NamedJobObjectActgInfo** class is derived from the [**CIM\_Statisti
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

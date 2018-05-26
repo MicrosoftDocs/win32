@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.border
 description: The border attribute specifies or retrieves a value indicating whether the list box control has a border.
-ms.assetid: 'a00e9290-2276-4b00-b07a-92770c3434b2'
-keywords: ["LISTBOX.border Windows Media Player"]
+ms.assetid: a00e9290-2276-4b00-b07a-92770c3434b2
+keywords:
+- LISTBOX.border Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.border
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.border
@@ -32,7 +38,7 @@ This attribute is a **Boolean** value.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,9 +61,9 @@ The border appears as a two-pixel-wide sunken border around the list box control
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

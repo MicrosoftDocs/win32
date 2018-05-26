@@ -1,7 +1,12 @@
-﻿---
-Description: 'The values in the following table specify the type of physical connector for a video output.'
-ms.assetid: '93e816fb-1b40-4865-9c0c-24d96c83fb7f'
+---
+Description: The values in the following table specify the type of physical connector for a video output.
+ms.assetid: 93e816fb-1b40-4865-9c0c-24d96c83fb7f
 title: OPM Connector Type Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM Connector Type Flags

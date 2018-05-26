@@ -1,8 +1,14 @@
 ---
 title: Tool Help Library
 description: Obtain information about currently executing applications. Take snapshots of processes, threads, modules, and heaps. Traverse (walk) thread, module, and heap lists.
-ms.assetid: 'bc8e3129-049f-491e-98e2-391e824976ca'
-keywords: ["tool help library"]
+ms.assetid: bc8e3129-049f-491e-98e2-391e824976ca
+keywords:
+- tool help library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tool Help Library

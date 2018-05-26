@@ -1,7 +1,12 @@
 ---
-Description: 'Defines an effect instance.'
-ms.assetid: 'a3408c0b-b4a6-47b1-b12e-594c13bd3a7d'
+Description: Defines an effect instance.
+ms.assetid: a3408c0b-b4a6-47b1-b12e-594c13bd3a7d
 title: EffectInstance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EffectInstance

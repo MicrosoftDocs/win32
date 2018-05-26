@@ -1,7 +1,12 @@
 ---
-Description: 'Unlike Microsoft Visual Basic or Microsoft Visual C++, scripting languages such as Microsoft Visual Basic Scripting Edition (VBScript) or Microsoft JScript do not support the use of enumerated values.'
-ms.assetid: '814d04b1-324e-4972-abd8-5699530c26dd'
+Description: Unlike Microsoft Visual Basic or Microsoft Visual C++, scripting languages such as Microsoft Visual Basic Scripting Edition (VBScript) or Microsoft JScript do not support the use of enumerated values.
+ms.assetid: 814d04b1-324e-4972-abd8-5699530c26dd
 title: Using Enumerations in Scripts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Enumerations in Scripts

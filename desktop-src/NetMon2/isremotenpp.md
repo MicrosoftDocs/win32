@@ -1,7 +1,12 @@
 ---
-Description: 'The IsRemoteNPP function indicates whether the given BLOB specifies a remote NPP.'
-ms.assetid: '66ee0a9a-3199-479f-baec-da6ae6b46c65'
+Description: The IsRemoteNPP function indicates whether the given BLOB specifies a remote NPP.
+ms.assetid: 66ee0a9a-3199-479f-baec-da6ae6b46c65
 title: IsRemoteNPP function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsRemoteNPP function
@@ -13,7 +18,7 @@ The **IsRemoteNPP** function indicates whether the given BLOB specifies a remote
 
 ```C++
 BOOL IsRemoteNPP(
-  _In_ HBLOB hBlob
+  _In_ HBLOB hBlob
 );
 ```
 
@@ -46,17 +51,17 @@ Make certain that the remote and local computer names are different.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

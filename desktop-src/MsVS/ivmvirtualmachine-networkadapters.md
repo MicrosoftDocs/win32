@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine NetworkAdapters property
 description: The NetworkAdapters property contains an enumerable collection of NICs attached to the virtual machine.
-ms.assetid: '7a1e8010-61c2-425d-af0c-ed6d9b472d6f'
-keywords: ["NetworkAdapters property Virtual Server", "NetworkAdapters property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , NetworkAdapters property", "NetworkAdapters property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , NetworkAdapters property"]
+ms.assetid: 7a1e8010-61c2-425d-af0c-ed6d9b472d6f
+keywords:
+- NetworkAdapters property Virtual Server
+- NetworkAdapters property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , NetworkAdapters property
+- NetworkAdapters property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , NetworkAdapters property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::NetworkAdapters property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_NetworkAdapters(
-  [out] IVMNetworkAdapterCollection **networkInterfaceCollection
+  [out] IVMNetworkAdapterCollection **networkInterfaceCollection
 );
 ```
 
@@ -93,8 +103,8 @@ WScript.Echo "Network adapters: " & colNICs.Count
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -106,9 +116,9 @@ WScript.Echo "Network adapters: " & colNICs.Count
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

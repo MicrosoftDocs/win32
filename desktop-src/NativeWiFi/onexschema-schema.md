@@ -1,7 +1,12 @@
 ---
-Description: 'Defines 802.1X configuration elements.'
-ms.assetid: '4755356e-cb4b-4eed-a494-ca0d17f5184f'
+Description: Defines 802.1X configuration elements.
+ms.assetid: 4755356e-cb4b-4eed-a494-ca0d17f5184f
 title: OneX Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OneX Schema

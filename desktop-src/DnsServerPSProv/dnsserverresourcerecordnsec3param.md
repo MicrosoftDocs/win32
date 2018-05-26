@@ -2,13 +2,15 @@
 title: DnsServerResourceRecordNSec3Param class
 description: DNS Server Resource Record Data NSEC3PARAM.
 audience: developer
-ms.assetid: '3e112073-beef-41f5-9f22-a5a6798266da'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3e112073-beef-41f5-9f22-a5a6798266da
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerResourceRecordNSec3Param class", "DnsServerResourceRecordNSec3Param class, described"]
+keywords:
+- DnsServerResourceRecordNSec3Param class
+- DnsServerResourceRecordNSec3Param class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerResourceRecordNSec3Param class
@@ -144,7 +149,7 @@ NSEC3 Salt.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -161,9 +166,9 @@ NSEC3 Salt.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

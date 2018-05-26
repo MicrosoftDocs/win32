@@ -4,11 +4,14 @@ description: Retrieves the base path to the directory to which VHDs of the virtu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd3629a08-ef16-4aab-b74b-f837a8ba00d0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d3629a08-ef16-4aab-b74b-f837a8ba00d0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetBaseVHDPath method Remote Desktop Services", "GetBaseVHDPath method Remote Desktop Services , Win32_RDMSDeploymentSettings class", "Win32_RDMSDeploymentSettings class Remote Desktop Services , GetBaseVHDPath method"]
+keywords:
+- GetBaseVHDPath method Remote Desktop Services
+- GetBaseVHDPath method Remote Desktop Services , Win32_RDMSDeploymentSettings class
+- Win32_RDMSDeploymentSettings class Remote Desktop Services , GetBaseVHDPath method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetBaseVHDPath method of the Win32\_RDMSDeploymentSettings class
@@ -28,7 +34,7 @@ Retrieves the base path to the directory to which VHDs of the virtual desktop co
 
 ```mof
 uint32 GetBaseVHDPath(
-  [out] string DirectoryPath
+  [out] string DirectoryPath
 );
 ```
 
@@ -56,7 +62,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -70,9 +76,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSDeploymentSettings**](win32-rdmsdeploymentsettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

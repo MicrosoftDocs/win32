@@ -1,12 +1,17 @@
 ---
-Description: 'To determine the device event type when processing a WM\_DEVICECHANGE message, examine the wParam parameter.'
-ms.assetid: '17078548-879d-4a11-a268-27d1f30180ab'
+Description: To determine the device event type when processing a WM\_DEVICECHANGE message, examine the wParam parameter.
+ms.assetid: 17078548-879d-4a11-a268-27d1f30180ab
 title: Device Event Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Event Types
 
-To determine the device event type when processing a [**WM\_DEVICECHANGE**](wm-devicechange.md) message, examine the *wParam* parameter. The value of *wParam* determines the meaning of the event-specific data in the *lParam* parameter. In general, the event-specific data identifies the device and provides additional detail about the event. The format of this data depends on the device type, but the first few bytes always have the same format as the [**DEV\_BROADCAST\_HDR**](dev-broadcast-hdr-str.md) structure. To determine the format of the data, check the **dbch\_devicetype** member.
+To determine the device event type when processing a [**WM\_DEVICECHANGE**](wm-devicechange.md) message, examine the *wParam* parameter. The value of *wParam* determines the meaning of the event-specific data in the *lParam* parameter. In general, the event-specific data identifies the device and provides additional detail about the event. The format of this data depends on the device type, but the first few bytes always have the same format as the [**DEV\_BROADCAST\_HDR**](/windows/win32/Dbt/ns-dbt-_dev_broadcast_hdr?branch=master) structure. To determine the format of the data, check the **dbch\_devicetype** member.
 
 The system broadcasts a device event of type [DBT\_DEVICEARRIVAL](dbt-devicearrival.md) (that is, a [**WM\_DEVICECHANGE**](wm-devicechange.md) message with *wParam* set to DBT\_DEVICEARRIVAL) whenever a device has been inserted and is available for use. Applications typically check the device type and begin using the device immediately if it is appropriate.
 

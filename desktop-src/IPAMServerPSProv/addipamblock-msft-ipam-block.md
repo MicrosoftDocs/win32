@@ -1,15 +1,18 @@
 ---
-Description: 'Adds a new IP address block to IPAM.'
+Description: Adds a new IP address block to IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '512614f8-20d9-450f-8cd2-ec0c31ea51c1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 512614f8-20d9-450f-8cd2-ec0c31ea51c1
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'AddIpamBlock method of the MSFT\_IPAM\_Block class'
+title: AddIpamBlock method of the MSFT\_IPAM\_Block class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddIpamBlock method of the MSFT\_IPAM\_Block class
@@ -21,15 +24,15 @@ Adds a new IP address block to IPAM.
 
 ```mof
 uint32 AddIpamBlock(
-  [in]  string          NetworkId,
-  [in]  string          StartAddress,
-  [in]  string          EndAddress,
-  [in]  string          Rir,
-  [in]  datetime        RirReceivedDate,
-  [in]  string          Description,
-  [in]  datetime        LastAssignedDate,
-  [in]  string          Owner,
-  [out] MSFT_IPAM_Block output
+  [in]  string          NetworkId,
+  [in]  string          StartAddress,
+  [in]  string          EndAddress,
+  [in]  string          Rir,
+  [in]  datetime        RirReceivedDate,
+  [in]  string          Description,
+  [in]  datetime        LastAssignedDate,
+  [in]  string          Owner,
+  [out] MSFT_IPAM_Block output
 );
 ```
 
@@ -68,7 +71,7 @@ The Regional Internet Registries (RIR) for public IP addresses.
 > [!Note]  
 > This property is required for a public address block.
 
- 
+ 
 
 The possible values are:
 
@@ -105,7 +108,7 @@ Latin America and Caribbean Network Information Centre (LACNIC)
 RIPE
 </dt> <dd>
 
-Réseaux IP Européens Network Coordination Centre (RIPE NCC)
+R seaux IP Europ ens Network Coordination Centre (RIPE NCC)
 
 </dd> </dl> </dd> <dt>
 
@@ -155,7 +158,7 @@ Returns "0" on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -169,9 +172,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_Block**](msft-ipam-block.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

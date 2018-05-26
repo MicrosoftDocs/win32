@@ -1,11 +1,16 @@
 ---
-Description: 'Demonstrates how to call the ShellExecute function from the Windows Explorer process.'
+Description: Demonstrates how to call the ShellExecute function from the Windows Explorer process.
 title: Execute In Explorer Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Execute In Explorer Sample
 
-Demonstrates how to call the [**ShellExecute**](shellexecute.md) function from the Windows Explorer process. This is useful when launching an unelevated process from an elevated process.
+Demonstrates how to call the [**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master) function from the Windows Explorer process. This is useful when launching an unelevated process from an elevated process.
 
 This topic contains the following sections.
 

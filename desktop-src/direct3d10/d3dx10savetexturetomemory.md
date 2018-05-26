@@ -1,7 +1,12 @@
-﻿---
-Description: 'Save a texture to memory.'
-ms.assetid: 'be541b99-6d07-480e-8f28-b7fc44566e7d'
+---
+Description: Save a texture to memory.
+ms.assetid: be541b99-6d07-480e-8f28-b7fc44566e7d
 title: D3DX10SaveTextureToMemory function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10SaveTextureToMemory function
@@ -29,9 +34,9 @@ HRESULT D3DX10SaveTextureToMemory(
 *pSrcTexture* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Resource**](id3d10resource.md)\***
+Type: **[**ID3D10Resource**](/windows/win32/D3D10/nn-d3d10-id3d10resource?branch=master)\***
 
-Pointer to the texture to be saved. See [**ID3D10Resource Interface**](id3d10resource.md).
+Pointer to the texture to be saved. See [**ID3D10Resource Interface**](/windows/win32/D3D10/nn-d3d10-id3d10resource?branch=master).
 
 </dd> <dt>
 
@@ -47,9 +52,9 @@ The format the texture will be saved as. See [**D3DX10\_IMAGE\_FILE\_FORMAT**](d
 *ppDestBuf* \[out\]
 </dt> <dd>
 
-Type: **[**LPD3D10BLOB**](id3d10blob.md)\***
+Type: **[**LPD3D10BLOB**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)\***
 
-Address of a pointer to the memory containing the saved texture. See [**ID3D10Blob Interface**](id3d10blob.md).
+Address of a pointer to the memory containing the saved texture. See [**ID3D10Blob Interface**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master).
 
 </dd> <dt>
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A WS-Discovery message used by a client to search for services on the network by service type.'
-ms.assetid: 'a0ede1d9-2e13-4d5e-8ccd-9e0c0217cac7'
+Description: A WS-Discovery message used by a client to search for services on the network by service type.
+ms.assetid: a0ede1d9-2e13-4d5e-8ccd-9e0c0217cac7
 title: Probe Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Probe Message
@@ -13,8 +18,8 @@ A Probe message is sent by UDP multicast to port 3702. Unicast Probe messages ar
 DPWS clients send Probe messages. The following list shows scenarios in which WSDAPI will send a Probe message.
 
 -   Function Discovery clients send Probe messages.
--   WSDAPI clients calling [**IWSDiscoveryProvider::SearchByAddress**](iwsdiscoveryprovider-searchbyaddress.md) send Probe messages.
--   WSDAPI clients calling [**IWSDiscoveryProvider::SearchByType**](iwsdiscoveryprovider-searchbytype-method.md) send Probe messages.
+-   WSDAPI clients calling [**IWSDiscoveryProvider::SearchByAddress**](/windows/win32/WsdDisco/nf-wsddisco-iwsdiscoveryprovider-searchbyaddress?branch=master) send Probe messages.
+-   WSDAPI clients calling [**IWSDiscoveryProvider::SearchByType**](/windows/win32/WsdDisco/nf-wsddisco-iwsdiscoveryprovider-searchbytype?branch=master) send Probe messages.
 -   Applications using directed discovery send Probe messages over HTTP or HTTPS.
 
 > [!Note]  

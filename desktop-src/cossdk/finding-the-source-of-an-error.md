@@ -1,7 +1,12 @@
 ---
 Description: Finding the Source of an Error
-ms.assetid: 'd7287cf1-9501-4d37-b022-b56c8008220c'
+ms.assetid: d7287cf1-9501-4d37-b022-b56c8008220c
 title: Finding the Source of an Error
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Finding the Source of an Error

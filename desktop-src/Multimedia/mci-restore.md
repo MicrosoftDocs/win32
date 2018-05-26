@@ -1,8 +1,9 @@
 ---
 title: MCI\_RESTORE command
 description: The MCI\_RESTORE command copies a bitmap from a file to the frame buffer. Digital-video devices recognize this command. This command performs the opposite action of the MCI\_CAPTURE command.
-ms.assetid: 'ed309cc6-72a3-4abb-aef2-40a55381d8b6'
-keywords: ["MCI_RESTORE command Windows Multimedia"]
+ms.assetid: ed309cc6-72a3-4abb-aef2-40a55381d8b6
+keywords:
+- MCI_RESTORE command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_RESTORE command
 
 The MCI\_RESTORE command copies a bitmap from a file to the frame buffer. Digital-video devices recognize this command. This command performs the opposite action of the [MCI\_CAPTURE](mci-capture.md) command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -52,7 +58,7 @@ MCI\_NOTIFY, MCI\_WAIT, or MCI\_TEST. For information about these flags, see [Th
 <span id="lpRestore"></span><span id="lprestore"></span><span id="LPRESTORE"></span>*lpRestore*
 </dt> <dd>
 
-Pointer to an [**MCI\_DGV\_RESTORE\_PARMS**](mci-dgv-restore-parms.md) structure.
+Pointer to an [**MCI\_DGV\_RESTORE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_restore_parmsa?branch=master) structure.
 
 </dd> </dl>
 
@@ -88,8 +94,8 @@ The **rc** member of the structure identified by *lpRestore* contains a valid re
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -104,9 +110,9 @@ The **rc** member of the structure identified by *lpRestore* contains a valid re
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

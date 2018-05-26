@@ -4,17 +4,22 @@ description: Terminal Services session Reconnection Action specifies whether to 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '093c2477-aed6-4736-9c8a-05aeca539cf8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 093c2477-aed6-4736-9c8a-05aeca539cf8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TS-Reconnection-Action attribute AD Schema", "msTSReconnectionAction attribute AD Schema"]
+keywords:
+- ms-TS-Reconnection-Action attribute AD Schema
+- msTSReconnectionAction attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TS-Reconnection-Action
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TS-Reconnection-Action attribute
@@ -38,9 +43,9 @@ Terminal Services session Reconnection Action specifies whether to allow reconne
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Terminal Services session Reconnection Action specifies whether to allow reconne
 
 
 
- 
+ 
 
- 
+ 
 
 
 

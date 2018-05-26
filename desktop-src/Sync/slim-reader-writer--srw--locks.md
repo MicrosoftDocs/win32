@@ -1,7 +1,12 @@
 ---
-Description: 'Slim reader/writer (SRW) locks enable the threads of a single process to access shared resources; they are optimized for speed and occupy very little memory.'
-ms.assetid: '2d439b21-291f-4ff0-910a-c1c27e800019'
-title: 'Slim Reader/Writer (SRW) Locks'
+Description: Slim reader/writer (SRW) locks enable the threads of a single process to access shared resources; they are optimized for speed and occupy very little memory.
+ms.assetid: 2d439b21-291f-4ff0-910a-c1c27e800019
+title: Slim Reader/Writer (SRW) Locks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Slim Reader/Writer (SRW) Locks
@@ -19,7 +24,7 @@ A single SRW lock can be acquired in either mode; reader threads can acquire it 
 
 An SRW lock is the size of a pointer. The advantage is that it is fast to update the lock state. The disadvantage is that very little state information can be stored, so SRW locks cannot be acquired recursively. In addition, a thread that owns an SRW lock in shared mode cannot upgrade its ownership of the lock to exclusive mode.
 
-The caller must allocate an SRWLOCK structure and initialize it by either calling [**InitializeSRWLock**](initializesrwlock.md) (to initialize the structure dynamically) or assign the constant **SRWLOCK\_INIT** to the structure variable (to initialize the structure statically).
+The caller must allocate an SRWLOCK structure and initialize it by either calling [**InitializeSRWLock**](/windows/win32/WinBase/nf-synchapi-initializesrwlock?branch=master) (to initialize the structure dynamically) or assign the constant **SRWLOCK\_INIT** to the structure variable (to initialize the structure statically).
 
 The following are the SRW lock functions.
 
@@ -27,14 +32,14 @@ The following are the SRW lock functions.
 
 | SRW lock function                                                | Description                                                                                                                                       |
 |------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AcquireSRWLockExclusive**](acquiresrwlockexclusive.md)       | Acquires an SRW lock in exclusive mode.                                                                                                           |
-| [**AcquireSRWLockShared**](acquiresrwlockshared.md)             | Acquires an SRW lock in shared mode.                                                                                                              |
-| [**InitializeSRWLock**](initializesrwlock.md)                   | Initialize an SRW lock.                                                                                                                           |
-| [**ReleaseSRWLockExclusive**](releasesrwlockexclusive.md)       | Releases an SRW lock that was opened in exclusive mode.                                                                                           |
-| [**ReleaseSRWLockShared**](releasesrwlockshared.md)             | Releases an SRW lock that was opened in shared mode.                                                                                              |
-| [**SleepConditionVariableSRW**](sleepconditionvariablesrw.md)   | Sleeps on the specified condition variable and releases the specified lock as an atomic operation.                                                |
-| [**TryAcquireSRWLockExclusive**](tryacquiresrwlockexclusive.md) | Attempts to acquire a slim reader/writer (SRW) lock in exclusive mode. If the call is successful, the calling thread takes ownership of the lock. |
-| [**TryAcquireSRWLockShared**](tryacquiresrwlockshared.md)       | Attempts to acquire a slim reader/writer (SRW) lock in shared mode. If the call is successful, the calling thread takes ownership of the lock.    |
+| [**AcquireSRWLockExclusive**](/windows/win32/WinBase/nf-synchapi-acquiresrwlockexclusive?branch=master)       | Acquires an SRW lock in exclusive mode.                                                                                                           |
+| [**AcquireSRWLockShared**](/windows/win32/WinBase/nf-synchapi-acquiresrwlockshared?branch=master)             | Acquires an SRW lock in shared mode.                                                                                                              |
+| [**InitializeSRWLock**](/windows/win32/WinBase/nf-synchapi-initializesrwlock?branch=master)                   | Initialize an SRW lock.                                                                                                                           |
+| [**ReleaseSRWLockExclusive**](/windows/win32/WinBase/nf-synchapi-releasesrwlockexclusive?branch=master)       | Releases an SRW lock that was opened in exclusive mode.                                                                                           |
+| [**ReleaseSRWLockShared**](/windows/win32/WinBase/nf-synchapi-releasesrwlockshared?branch=master)             | Releases an SRW lock that was opened in shared mode.                                                                                              |
+| [**SleepConditionVariableSRW**](/windows/win32/WinBase/nf-synchapi-sleepconditionvariablesrw?branch=master)   | Sleeps on the specified condition variable and releases the specified lock as an atomic operation.                                                |
+| [**TryAcquireSRWLockExclusive**](/windows/win32/WinBase/nf-synchapi-tryacquiresrwlockexclusive?branch=master) | Attempts to acquire a slim reader/writer (SRW) lock in exclusive mode. If the call is successful, the calling thread takes ownership of the lock. |
+| [**TryAcquireSRWLockShared**](/windows/win32/WinBase/nf-synchapi-tryacquiresrwlockshared?branch=master)       | Attempts to acquire a slim reader/writer (SRW) lock in shared mode. If the call is successful, the calling thread takes ownership of the lock.    |
 
 
 

@@ -1,8 +1,15 @@
 ---
 title: Routing Table Manager Version 1 Functions
 description: Use the following functions to access the routing tables maintained by the routing table manager
-ms.assetid: '65ba03b2-5a30-43a5-86dd-73b1d4642a22'
-keywords: ["Routing and Remote Access Service RRAS ,Routing Table Manager Version 1, functions", "Routing Table Manager Version 1 RRAS ,functions"]
+ms.assetid: 65ba03b2-5a30-43a5-86dd-73b1d4642a22
+keywords:
+- Routing and Remote Access Service RRAS ,Routing Table Manager Version 1, functions
+- Routing Table Manager Version 1 RRAS ,functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing Table Manager Version 1 Functions

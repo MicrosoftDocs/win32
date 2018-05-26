@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '35e38d70-3029-4e22-ab70-718911654979'
-title: 'System.Search.ExtendedProperties'
+Description: .
+ms.assetid: 35e38d70-3029-4e22-ab70-718911654979
+title: System.Search.ExtendedProperties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Search.ExtendedProperties

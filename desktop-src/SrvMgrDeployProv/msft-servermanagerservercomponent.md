@@ -1,11 +1,14 @@
 ---
-Description: 'Represents a server component on a managed node.'
+Description: Represents a server component on a managed node.
 audience: developer
-ms.assetid: '31e4b549-ea2f-4d02-8cee-ba0b7f660715'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 31e4b549-ea2f-4d02-8cee-ba0b7f660715
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_ServerManagerServerComponent class'
+title: MSFT\_ServerManagerServerComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_ServerManagerServerComponent class
@@ -20,27 +23,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("deploymentprovider")]
 class MSFT_ServerManagerServerComponent
 {
-  String                 UniqueName;
-  String                 DisplayName;
-  String                 Description;
-  sint32                 NumericId;
-  sint32                 MajorVersion;
-  sint32                 MinorVersion;
-  uint8                  Installed;
-  uint8                  FeatureType;
-  String                 ParentName;
-  String                 SubFeatures[];
-  String                 NonAncestorDependencies[];
-  String                 MutualExclusions[];
-  Boolean                InstallWithParentByDefault;
-  String                 Deploys[];
-  object                 Descriptor;
-  uint8                  ConfigurationStatus;
-  String                 EventQuery;
-  String                 BestPracticeModels[];
-  MSFT_ServiceToMonitor  SystemServices[];
-  String                 PostInstallDescription;
-  String                 PostUninstallDescription;
+  String                 UniqueName;
+  String                 DisplayName;
+  String                 Description;
+  sint32                 NumericId;
+  sint32                 MajorVersion;
+  sint32                 MinorVersion;
+  uint8                  Installed;
+  uint8                  FeatureType;
+  String                 ParentName;
+  String                 SubFeatures[];
+  String                 NonAncestorDependencies[];
+  String                 MutualExclusions[];
+  Boolean                InstallWithParentByDefault;
+  String                 Deploys[];
+  object                 Descriptor;
+  uint8                  ConfigurationStatus;
+  String                 EventQuery;
+  String                 BestPracticeModels[];
+  MSFT_ServiceToMonitor  SystemServices[];
+  String                 PostInstallDescription;
+  String                 PostUninstallDescription;
   MSFT_OptionalCompanion OptionalCompanions[];
 };
 ```
@@ -470,7 +473,7 @@ Gets the unique name of the server component.
 |                                     |                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                                  |
 | MOF<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.dll</dt> </dl> |
@@ -484,9 +487,9 @@ Gets the unique name of the server component.
 [ServerManager Deploymentprovider Provider Classes](server-manager-deployment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

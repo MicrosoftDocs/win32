@@ -1,7 +1,12 @@
 ---
 title: ODL Reference
 description: This section provides reference material on the attributes, statements, and directives that are part of the ODL.
-ms.assetid: '1f8bd0d7-f02c-488e-8e36-ab74364a1b5b'
+ms.assetid: 1f8bd0d7-f02c-488e-8e36-ab74364a1b5b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ODL Reference

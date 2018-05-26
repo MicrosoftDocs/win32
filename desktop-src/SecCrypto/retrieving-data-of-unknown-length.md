@@ -1,7 +1,12 @@
 ---
-Description: 'Many functions return a potentially large amount of data to an address provided as one of the parameters by the application.'
-ms.assetid: 'ef99edef-39b2-4d78-9c01-13720215d47f'
+Description: Many functions return a potentially large amount of data to an address provided as one of the parameters by the application.
+ms.assetid: ef99edef-39b2-4d78-9c01-13720215d47f
 title: Retrieving Data of Unknown Length
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Data of Unknown Length

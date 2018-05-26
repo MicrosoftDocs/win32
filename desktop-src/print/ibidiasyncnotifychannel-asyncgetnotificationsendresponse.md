@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'F30A1DEA-2B54-417A-AFE7-289655C815E2'
-title: 'IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse method'
+---
+Description: .
+ms.assetid: F30A1DEA-2B54-417A-AFE7-289655C815E2
+title: IBidiAsyncNotifyChannelAsyncGetNotificationSendResponse method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse method

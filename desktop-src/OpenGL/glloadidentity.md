@@ -1,8 +1,9 @@
 ---
 title: glLoadIdentity function
 description: The glLoadIdentity function replaces the current matrix with the identity matrix.
-ms.assetid: '59273aa9-4db3-4c8c-8364-f54c03d2f97a'
-keywords: ["glLoadIdentity function OpenGL"]
+ms.assetid: 59273aa9-4db3-4c8c-8364-f54c03d2f97a
+keywords:
+- glLoadIdentity function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glLoadIdentity function
@@ -82,8 +88,8 @@ The following functions retrieve information related to **glLoadIdentity**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -112,9 +118,9 @@ The following functions retrieve information related to **glLoadIdentity**:
 [**glPushMatrix**](glpushmatrix.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

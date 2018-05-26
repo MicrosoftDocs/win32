@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the total size of the system files of virtual machine.'
-ms.assetid: '492aa0df-1562-4d83-a0ea-43776b12c1b1'
-title: 'GetSizeOfSystemFiles method of the Msvm\_VirtualSystemManagementService class'
+Description: Retrieves the total size of the system files of virtual machine.
+ms.assetid: 492aa0df-1562-4d83-a0ea-43776b12c1b1
+title: GetSizeOfSystemFiles method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSizeOfSystemFiles method of the Msvm\_VirtualSystemManagementService class
@@ -13,8 +18,8 @@ Retrieves the total size of the system files of virtual machine. These include t
 
 ```mof
 uint32 GetSizeOfSystemFiles(
-  [in]  CIM_VirtualSystemSettingData REF Vssd,
-  [out] uint64                           Size
+  [in]  CIM_VirtualSystemSettingData REF Vssd,
+  [out] uint64                           Size
 );
 ```
 
@@ -89,8 +94,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -104,9 +109,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: FilterInfo.Description property
 description: Retrieves a technical description of what the filter does and how to use it in a filter chain.
-ms.assetid: 'd238ec43-2d0e-4489-ba2e-ac3bd98ca544'
-keywords: ["Description property WIA Automation", "Description property WIA Automation , FilterInfo object", "FilterInfo object WIA Automation , Description property"]
+ms.assetid: d238ec43-2d0e-4489-ba2e-ac3bd98ca544
+keywords:
+- Description property WIA Automation
+- Description property WIA Automation , FilterInfo object
+- FilterInfo object WIA Automation , Description property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterInfo.Description property
@@ -43,8 +51,8 @@ For example code, see [Create an ImageProcess Object and Enumerate Filters](-wia
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -75,9 +83,9 @@ For example code, see [Create an ImageProcess Object and Enumerate Filters](-wia
 [**FilterInfo**](-wiaaut-filterinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

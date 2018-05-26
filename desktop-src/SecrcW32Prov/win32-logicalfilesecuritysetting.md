@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_LogicalFileSecuritySetting&\#32;WMI class represents security settings for a logical file. You cannot enumerate instances of this class.'
+Description: The Win32\_LogicalFileSecuritySetting&\#32;WMI class represents security settings for a logical file. You cannot enumerate instances of this class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3af570e7-74fb-4bb0-9c45-b718d471351d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3af570e7-74fb-4bb0-9c45-b718d471351d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LogicalFileSecuritySetting class'
+title: Win32\_LogicalFileSecuritySetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LogicalFileSecuritySetting class
@@ -22,12 +25,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("SECRCW32"), UUID("{8502C58C-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_LogicalFileSecuritySetting : Win32_SecuritySetting
 {
-  string  Caption;
-  string  Description;
-  string  SettingID;
-  uint32  ControlFlags;
+  string  Caption;
+  string  Description;
+  string  SettingID;
+  uint32  ControlFlags;
   boolean OwnerPermissions;
-  string  Path;
+  string  Path;
 };
 ```
 
@@ -51,7 +54,7 @@ The **Win32\_LogicalFileSecuritySetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -187,7 +190,7 @@ Requests that the provider for the object protected by the SD automatically prop
 
 </dt> <dd>
 
-Windows 2000 only. Indicates an SD in which the DACL is set up to support automatic propagation of inheritable ACEs to existing child objects. The system sets this bit when it performs the automatic inheritance algorithm for the object and its existing child objects. This bit is not set in SDs for Windows NT versions 4.0 and earlier, which do not support automatic propagation of inheritable ACEs.
+Windows 2000 only. Indicates an SD in which the DACL is set up to support automatic propagation of inheritable ACEs to existing child objects. The system sets this bit when it performs the automatic inheritance algorithm for the object and its existing child objects. This bit is not set in SDs for Windows NT versions 4.0 and earlier, which do not support automatic propagation of inheritable ACEs.
 
 </dd> <dt>
 
@@ -198,7 +201,7 @@ Windows 2000 only. Indicates an SD in which the DACL is set up to support automa
 
 </dt> <dd>
 
-Windows 2000: Indicates an SD in which the SACL is set up to support automatic propagation of inheritable ACEs to existing child objects. The system sets this bit when it performs the automatic inheritance algorithm for the object and its existing child objects. This bit is not set in SDs for Windows NT versions 4.0 and earlier, which do not support automatic propagation of inheritable ACEs.
+Windows 2000: Indicates an SD in which the SACL is set up to support automatic propagation of inheritable ACEs to existing child objects. The system sets this bit when it performs the automatic inheritance algorithm for the object and its existing child objects. This bit is not set in SDs for Windows NT versions 4.0 and earlier, which do not support automatic propagation of inheritable ACEs.
 
 </dd> <dt>
 
@@ -209,7 +212,7 @@ Windows 2000: Indicates an SD in which the SACL is set up to support automatic p
 
 </dt> <dd>
 
-Windows 2000: Prevents the DACL of the SD from being modified by inheritable ACEs.
+Windows 2000: Prevents the DACL of the SD from being modified by inheritable ACEs.
 
 </dd> <dt>
 
@@ -220,7 +223,7 @@ Windows 2000: Prevents the DACL of the SD from being modified by inheritable ACE
 
 </dt> <dd>
 
-Windows 2000: Prevents the SACL of the SD from being modified by inheritable ACEs.
+Windows 2000: Prevents the SACL of the SD from being modified by inheritable ACEs.
 
 </dd> <dt>
 
@@ -310,7 +313,7 @@ If the **SE\_DACL\_PRESENT** bit is specified and a DACL entry is also present i
 > [!Note]  
 > A **NULL** DACL creates a security risk because it gives full access to everyone. For more information, see [Creating a DACL](https://msdn.microsoft.com/library/windows/desktop/ms717798).
 
- 
+ 
 
 If the **SeSecurityPrivilege** is not granted or enabled, then the SACL is not returned. For more information, see [**Privilege Constants**](https://msdn.microsoft.com/library/aa392758) and [Executing Privileged Operations](https://msdn.microsoft.com/library/aa390428).
 
@@ -343,8 +346,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -367,9 +370,9 @@ Next
 [WMI Security Descriptor Objects](https://msdn.microsoft.com/library/aa394577)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

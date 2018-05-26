@@ -1,7 +1,12 @@
 ---
-Description: 'Protocol value from the USB device''s first USB Interface Descriptor.'
-ms.assetid: 'c697893a-e289-4c41-8cda-9e9d697a6272'
-title: 'System.DeviceInterface.WinUsb.UsbProtocol'
+Description: Protocol value from the USB devices first USB Interface Descriptor.
+ms.assetid: c697893a-e289-4c41-8cda-9e9d697a6272
+title: System.DeviceInterface.WinUsb.UsbProtocol
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.WinUsb.UsbProtocol

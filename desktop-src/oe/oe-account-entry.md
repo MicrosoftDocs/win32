@@ -1,8 +1,24 @@
 ---
 title: New Handling for Account Data
 description: New Handling for Account Data
-ms.assetid: '0dab167b-78cd-4c56-a4fd-c339f74f8398'
-keywords: ["Windows Mail,account data", "Windows Mail,storage handling", "Outlook Express", "Windows Mail,account properties", "Windows Mail,examples", "Windows Mail,HTTPMail server types", "Windows Mail,IMAP properties", "Windows Mail,LDAP account properties", "Windows Mail,NNTP properties", "Windows Mail,POP3 properties", "Windows Mail,SMTP properties"]
+ms.assetid: 0dab167b-78cd-4c56-a4fd-c339f74f8398
+keywords:
+- Windows Mail,account data
+- Windows Mail,storage handling
+- Outlook Express
+- Windows Mail,account properties
+- Windows Mail,examples
+- Windows Mail,HTTPMail server types
+- Windows Mail,IMAP properties
+- Windows Mail,LDAP account properties
+- Windows Mail,NNTP properties
+- Windows Mail,POP3 properties
+- Windows Mail,SMTP properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # New Handling for Account Data

@@ -4,11 +4,16 @@ description: The Bookmark property returns a bookmark for the node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2bd01b21-8cc7-44ff-a72f-9023aa9edaea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 2bd01b21-8cc7-44ff-a72f-9023aa9edaea
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Bookmark property MMC", "Bookmark property MMC , Node object", "Node object MMC , Bookmark property", "Bookmark property MMC , Node interface", "Node interface MMC , Bookmark property"]
+keywords:
+- Bookmark property MMC
+- Bookmark property MMC , Node object
+- Node object MMC , Bookmark property
+- Bookmark property MMC , Node interface
+- Node interface MMC , Bookmark property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Node::Bookmark property
@@ -54,8 +62,8 @@ strBookMark = objNode.Bookmark
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -76,9 +84,9 @@ strBookMark = objNode.Bookmark
 [**View.ViewMemento**](view-viewmemento.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

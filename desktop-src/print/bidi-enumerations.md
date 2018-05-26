@@ -1,7 +1,12 @@
 ---
 Description: Bidi Enumerations
-ms.assetid: 'bf21240a-44ec-4d13-a881-bbc3115dc00c'
+ms.assetid: bf21240a-44ec-4d13-a881-bbc3115dc00c
 title: Bidi Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bidi Enumerations

@@ -1,7 +1,12 @@
 ---
-Description: 'This overview discusses window properties.'
-ms.assetid: '67ca264e-af8e-41bf-b9d1-d3db8cf1cdc3'
+Description: This overview discusses window properties.
+ms.assetid: 67ca264e-af8e-41bf-b9d1-d3db8cf1cdc3
 title: About Window Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Window Properties
@@ -14,7 +19,7 @@ A *window property* is any data assigned to a window. A window property is usual
 
 ## Advantages of Using Window Properties
 
-Window properties are typically used to associate data with a subclassed window or a window in a multiple-document interface (MDI) application. In either case, it is not convenient to use the extra bytes specified in the [**CreateWindow**](createwindow.md) function or class structure for the following two reasons:
+Window properties are typically used to associate data with a subclassed window or a window in a multiple-document interface (MDI) application. In either case, it is not convenient to use the extra bytes specified in the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) function or class structure for the following two reasons:
 
 -   An application might not know how many extra bytes are available or how the space is being used. By using window properties, the application can associate data with a window without accessing the extra bytes.
 -   An application must access the extra bytes by using offsets. However, window properties are accessed by their string identifiers, not by offsets.
@@ -23,7 +28,7 @@ For more information about subclassing, see [Window Procedure Subclassing](about
 
 ## Assigning Window Properties
 
-The [**SetProp**](setprop.md) function assigns a window property and its string identifier to a window. The [**GetProp**](getprop.md) function retrieves the window property identified by the specified string. The [**RemoveProp**](removeprop.md) function destroys the association between a window and a window property but does not destroy the data itself. To destroy the data itself, use the appropriate function to free the handle that is returned by **RemoveProp**.
+The [**SetProp**](/windows/win32/Winuser/nf-wia_lh-iwiapropertystorage-setpropertystream?branch=master) function assigns a window property and its string identifier to a window. The [**GetProp**](/windows/win32/Winuser/nf-wia_lh-iwiapropertystorage-getpropertyattributes?branch=master) function retrieves the window property identified by the specified string. The [**RemoveProp**](removeprop.md) function destroys the association between a window and a window property but does not destroy the data itself. To destroy the data itself, use the appropriate function to free the handle that is returned by **RemoveProp**.
 
 ## Enumerating Window Properties
 

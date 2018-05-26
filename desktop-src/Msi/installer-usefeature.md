@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UseFeature method of the Installer object increments the usage count for a particular feature and returns the installation state for that feature. This method should be used to indicate an application''s intent to use a feature.'
-ms.assetid: 'c9ea812c-2f95-4ba4-ad8e-b96f7fc14bb1'
-title: 'Installer.UseFeature method'
+---
+Description: The UseFeature method of the Installer object increments the usage count for a particular feature and returns the installation state for that feature. This method should be used to indicate an applications intent to use a feature.
+ms.assetid: c9ea812c-2f95-4ba4-ad8e-b96f7fc14bb1
+title: Installer.UseFeature method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.UseFeature method
@@ -70,7 +75,7 @@ The **UseFeature** method should only be used on features known to be published.
 
 <dl> <dt>
 
-[**MsiUseFeatureEx**](msiusefeatureex.md)
+[**MsiUseFeatureEx**](/windows/win32/Msi/nf-msi-msiusefeatureexa?branch=master)
 </dt> </dl>
 
  

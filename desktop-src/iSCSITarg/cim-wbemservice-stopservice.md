@@ -4,13 +4,16 @@ description: The StopService method places the Service in the stopped state.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '75bdda24-3160-47ea-9597-f683311ee09e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 75bdda24-3160-47ea-9597-f683311ee09e
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["StopService method iSCSI Software Target API", "StopService method iSCSI Software Target API , CIM_WBEMService class", "CIM_WBEMService class iSCSI Software Target API , StopService method"]
+keywords:
+- StopService method iSCSI Software Target API
+- StopService method iSCSI Software Target API , CIM_WBEMService class
+- CIM_WBEMService class iSCSI Software Target API , StopService method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StopService method of the CIM\_WBEMService class
@@ -45,7 +51,7 @@ This method has no parameters.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Sdoias.h</dt> </dl>              |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
@@ -60,9 +66,9 @@ This method has no parameters.
 [**CIM\_WBEMService**](cim-wbemservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

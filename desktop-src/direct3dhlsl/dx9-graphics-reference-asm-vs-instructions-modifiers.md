@@ -1,7 +1,12 @@
 ---
 title: Instruction Modifiers
 description: Instruction Modifiers
-ms.assetid: 'b713d847-c858-4492-918c-7a105f751624'
+ms.assetid: b713d847-c858-4492-918c-7a105f751624
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Instruction Modifiers

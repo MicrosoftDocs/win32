@@ -1,7 +1,12 @@
 ---
 title: About Basic Procedures for Using HTML Help Workshop
 description: About Basic Procedures for Using HTML Help Workshop
-ms.assetid: '3B52E735-97CA-41c4-9B02-5CEB68401742'
+ms.assetid: 3B52E735-97CA-41c4-9B02-5CEB68401742
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Basic Procedures for Using HTML Help Workshop

@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth class of device service information.'
-ms.assetid: 'db47f362-82e1-4fce-b0aa-4fc6cd3db102'
-title: 'System.Devices.Aep.Bluetooth.Cod.Services.Information'
+Description: Bluetooth class of device service information.
+ms.assetid: db47f362-82e1-4fce-b0aa-4fc6cd3db102
+title: System.Devices.Aep.Bluetooth.Cod.Services.Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.Bluetooth.Cod.Services.Information

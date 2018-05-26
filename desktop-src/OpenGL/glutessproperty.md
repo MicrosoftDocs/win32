@@ -1,8 +1,9 @@
 ---
 title: gluTessProperty function
 description: The gluTessProperty function sets the property of a tessellation object.
-ms.assetid: '1306b9ef-4f1e-4684-99ea-464bae1d0a61'
-keywords: ["gluTessProperty function OpenGL"]
+ms.assetid: 1306b9ef-4f1e-4684-99ea-464bae1d0a61
+keywords:
+- gluTessProperty function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluTessProperty function
@@ -22,9 +28,9 @@ The **gluTessProperty** function sets the property of a tessellation object.
 
 ```C++
 void WINAPI gluTessProperty(
-   GLUtesselator *tess,
-   GLenum        which,
-   GLdouble      value
+   GLUtesselator *tess,
+   GLenum        which,
+   GLdouble      value
 );
 ```
 
@@ -56,7 +62,7 @@ The property value to set. The following values are valid: GLU\_TESS\_WINDING\_R
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -81,8 +87,8 @@ The **gluTessProperty** function controls properties stored in a tessellation ob
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -99,9 +105,9 @@ The **gluTessProperty** function controls properties stored in a tessellation ob
 [**gluNewTess**](glunewtess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

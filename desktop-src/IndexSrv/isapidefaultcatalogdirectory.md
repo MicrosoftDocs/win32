@@ -1,7 +1,12 @@
 ---
 title: IsapiDefaultCatalogDirectory
 description: IsapiDefaultCatalogDirectory
-ms.assetid: '9a9ad9fa-bb8d-4f72-96ae-28680fb101b7'
+ms.assetid: 9a9ad9fa-bb8d-4f72-96ae-28680fb101b7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsapiDefaultCatalogDirectory

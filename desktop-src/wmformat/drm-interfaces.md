@@ -1,8 +1,18 @@
 ---
 title: Interfaces
 description: Interfaces
-ms.assetid: '27bbc33f-8102-4db2-bbc6-1a1da92bac80'
-keywords: ["Windows Media Format SDK,interfaces", "digital rights management (DRM),interfaces", "DRM (digital rights management),interfaces", "DRM Client Extended APIs,interfaces", "Client Extended APIs,interfaces"]
+ms.assetid: 27bbc33f-8102-4db2-bbc6-1a1da92bac80
+keywords:
+- Windows Media Format SDK,interfaces
+- digital rights management (DRM),interfaces
+- DRM (digital rights management),interfaces
+- DRM Client Extended APIs,interfaces
+- Client Extended APIs,interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interfaces

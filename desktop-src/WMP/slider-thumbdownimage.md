@@ -1,14 +1,20 @@
 ---
 title: SLIDER.thumbDownImage
 description: The thumbDownImage attribute specifies or retrieves the image representing the down state of the thumb.
-ms.assetid: '6e7c694a-b651-4327-9550-8e05d0c42f02'
-keywords: ["SLIDER.thumbDownImage Windows Media Player"]
+ms.assetid: 6e7c694a-b651-4327-9550-8e05d0c42f02
+keywords:
+- SLIDER.thumbDownImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.thumbDownImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.thumbDownImage
@@ -49,9 +55,9 @@ The supported formats are BMP, JPG, PNG, and GIF (not including animated GIFs).
 [**SLIDER.thumbImage**](slider-thumbimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

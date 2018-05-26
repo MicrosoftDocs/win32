@@ -4,11 +4,12 @@ description: Under certain circumstances, the cluster sends the CLUSCTL\_RESOURC
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3261c8eb-b88b-428a-8a2b-684e0967f9de'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3261c8eb-b88b-428a-8a2b-684e0967f9de
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_STATE_CHANGE_REASON control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_STATE_CHANGE_REASON control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_STATE\_CHANGE\_REASON control code
 
-Under certain circumstances, the cluster sends the CLUSCTL\_RESOURCE\_STATE\_CHANGE\_REASON [control code](about-control-codes.md) to a [resource DLL](resource-dlls.md) immediately before calling the [**Offline**](offline.md) or [**Terminate**](terminate.md) entry-point function, providing the DLL with the reason for the state change. Because the control code is internal, applications cannot use it in a control code function.
+Under certain circumstances, the cluster sends the CLUSCTL\_RESOURCE\_STATE\_CHANGE\_REASON [control code](about-control-codes.md) to a [resource DLL](resource-dlls.md) immediately before calling the [**Offline**](/windows/previous-versions/ResApi/nc-resapi-poffline_routine?branch=master) or [**Terminate**](/windows/previous-versions/ResApi/nc-resapi-pterminate_routine?branch=master) entry-point function, providing the DLL with the reason for the state change. Because the control code is internal, applications cannot use it in a control code function.
 
 ## Parameters
 
@@ -39,17 +43,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_STATE\_CHANGE\_REASON (0x015
 
 | Component                 | Bit location     | Value                                                  |
 |---------------------------|------------------|--------------------------------------------------------|
-| Object code<br/>    | 24–31<br/> | **CLUS\_OBJECT\_RESOURCE** (0x1)<br/>            |
+| Object code<br/>    | 24 31<br/> | **CLUS\_OBJECT\_RESOURCE** (0x1)<br/>            |
 | Global bit<br/>     | 23<br/>    | **CLUS\_NOT\_GLOBAL** (0x0)<br/>                 |
 | Modify bit<br/>     | 22<br/>    | **CLUS\_MODIFY** (0x1)<br/>                      |
 | User bit<br/>       | 21<br/>    | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>              |
 | Type bit<br/>       | 20<br/>    | Internal (0x1)<br/>                              |
-| Operation code<br/> | 0–23<br/>  | **CLCTL\_STATE\_CHANGE\_REASON** (0x50004e)<br/> |
-| Access code<br/>    | 0–1<br/>   | **CLUS\_ACCESS\_WRITE** (0x2)<br/>               |
+| Operation code<br/> | 0 23<br/>  | **CLCTL\_STATE\_CHANGE\_REASON** (0x50004e)<br/> |
+| Access code<br/>    | 0 1<br/>   | **CLUS\_ACCESS\_WRITE** (0x2)<br/>               |
 
 
 
- 
+ 
 
 For more information, see [Control Code Architecture](control-code-architecture.md).
 
@@ -63,15 +67,15 @@ The CLUSCTL\_RESOURCE\_STATE\_CHANGE\_REASON control code gives resource DLLs th
 
 To support CLUSCTL\_RESOURCE\_STATE\_CHANGE\_REASON control code in your resource DLL, perform the following steps:
 
--   Initialize a [**CLUSCTL\_RESOURCE\_STATE\_CHANGE\_REASON\_STRUCT**](clusctl-resource-state-change-reason-struct.md) structure for each resource managed by the resource DLL. Typically this structure is included in the resource DLL's resource structure.
--   In your implementation of [*ResourceControl*](resourcecontrol.md):
+-   Initialize a [**CLUSCTL\_RESOURCE\_STATE\_CHANGE\_REASON\_STRUCT**](/windows/previous-versions/ClusAPI/ns-clusapi-_clusctl_resource_state_change_reason_struct?branch=master) structure for each resource managed by the resource DLL. Typically this structure is included in the resource DLL's resource structure.
+-   In your implementation of [*ResourceControl*](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master):
 
     -   Handle the [CLUSCTL\_RESOURCE\_GET\_CHARACTERISTICS](clusctl-resource-get-characteristics.md) control code and return a value that includes **CLUS\_CHAR\_REQUIRES\_STATE\_CHANGE\_REASON**.
     -   Handle the CLUSCTL\_RESOURCE\_STATE\_CHANGE\_REASON control code and store the reason code passed in the *lpInBuffer* parameter in the **eReason** member of the resource structure.
 
--   When implementing [**Offline**](offline.md) and [**Terminate**](terminate.md), read the **eReason** member of the resource structure and, if this member is not **eResourceStateChangeReasonUnknown** (from the [**CLUSTER\_RESOURCE\_STATE\_CHANGE\_REASON**](cluster-resource-state-change-reason.md) enumeration), perform any necessary operations. Before returning from **Offline** or **Terminate**, reset the **eReason** member of the resource structure to **eResourceStateChangeReasonUnknown**.
+-   When implementing [**Offline**](/windows/previous-versions/ResApi/nc-resapi-poffline_routine?branch=master) and [**Terminate**](/windows/previous-versions/ResApi/nc-resapi-pterminate_routine?branch=master), read the **eReason** member of the resource structure and, if this member is not **eResourceStateChangeReasonUnknown** (from the [**CLUSTER\_RESOURCE\_STATE\_CHANGE\_REASON**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_resource_state_change_reason?branch=master) enumeration), perform any necessary operations. Before returning from **Offline** or **Terminate**, reset the **eReason** member of the resource structure to **eResourceStateChangeReasonUnknown**.
 
-For more information on the [**ResourceControl**](resourcecontrol.md) entry point function, see [Implementing ResourceControl](implementing-resourcecontrol.md).
+For more information on the [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) entry point function, see [Implementing ResourceControl](implementing-resourcecontrol.md).
 
 ## Requirements
 
@@ -80,7 +84,7 @@ For more information on the [**ResourceControl**](resourcecontrol.md) entry poin
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -92,18 +96,18 @@ For more information on the [**ResourceControl**](resourcecontrol.md) entry poin
 [Internal Resource Control Codes](internal-resource-control-codes.md)
 </dt> <dt>
 
-[**ResourceControl**](resourcecontrol.md)
+[**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master)
 </dt> <dt>
 
-[**CLUSCTL\_RESOURCE\_STATE\_CHANGE\_REASON\_STRUCT**](clusctl-resource-state-change-reason-struct.md)
+[**CLUSCTL\_RESOURCE\_STATE\_CHANGE\_REASON\_STRUCT**](/windows/previous-versions/ClusAPI/ns-clusapi-_clusctl_resource_state_change_reason_struct?branch=master)
 </dt> <dt>
 
-[**CLUSTER\_RESOURCE\_STATE\_CHANGE\_REASON**](cluster-resource-state-change-reason.md)
+[**CLUSTER\_RESOURCE\_STATE\_CHANGE\_REASON**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_resource_state_change_reason?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

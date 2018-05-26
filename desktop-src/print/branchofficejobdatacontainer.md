@@ -1,7 +1,12 @@
-﻿---
-Description: 'This structure defines a container for one or more BranchOfficeJobData structures to sent to a server.'
-ms.assetid: '5C6D2FFC-DBFF-4C44-8757-ED87593A584F'
+---
+Description: This structure defines a container for one or more BranchOfficeJobData structures to sent to a server.
+ms.assetid: 5C6D2FFC-DBFF-4C44-8757-ED87593A584F
 title: BranchOfficeJobDataContainer structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BranchOfficeJobDataContainer structure

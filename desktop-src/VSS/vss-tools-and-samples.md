@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics provide information about VSS tools and sample applications:Using VSS DiagnosticsVssSampleProvider Tool and SampleVShadow Tool and SampleBETest ToolVSS Test Writer ToolUsing Tracing Tools with VSS'
-ms.assetid: '2a08e109-3ecb-4a87-81da-e9ae6bd34f27'
+Description: The following topics provide information about VSS tools and sample applicationsUsing VSS DiagnosticsVssSampleProvider Tool and SampleVShadow Tool and SampleBETest ToolVSS Test Writer ToolUsing Tracing Tools with VSS
+ms.assetid: 2a08e109-3ecb-4a87-81da-e9ae6bd34f27
 title: VSS Tools and Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VSS Tools and Samples

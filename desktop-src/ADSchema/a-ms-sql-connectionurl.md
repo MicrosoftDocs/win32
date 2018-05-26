@@ -4,17 +4,22 @@ description: The MS-SQL-ConnectionURL attribute is not currently used.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '30ca55a6-038b-4ab8-9145-f93118f0c143'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 30ca55a6-038b-4ab8-9145-f93118f0c143
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-SQL-ConnectionURL attribute AD Schema", "mS-SQL-ConnectionURL attribute AD Schema"]
+keywords:
+- MS-SQL-ConnectionURL attribute AD Schema
+- mS-SQL-ConnectionURL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-SQL-ConnectionURL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-SQL-ConnectionURL attribute
@@ -38,12 +43,12 @@ The **MS-SQL-ConnectionURL** attribute is not currently used.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The **MS-SQL-ConnectionURL** attribute is not currently used.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

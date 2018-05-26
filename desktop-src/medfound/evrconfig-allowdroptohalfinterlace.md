@@ -1,7 +1,12 @@
-﻿---
-Description: 'Allows the Enhanced Video Renderer (EVR) to improve performance by skipping the second field of every interlaced frame.'
-ms.assetid: 'de7efc6a-19ae-4f3a-8675-38fda3c979e2'
-title: 'EVRConfig\_AllowDropToHalfInterlace attribute'
+---
+Description: Allows the Enhanced Video Renderer (EVR) to improve performance by skipping the second field of every interlaced frame.
+ms.assetid: de7efc6a-19ae-4f3a-8675-38fda3c979e2
+title: EVRConfig\_AllowDropToHalfInterlace attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EVRConfig\_AllowDropToHalfInterlace attribute
@@ -14,15 +19,15 @@ Allows the Enhanced Video Renderer (EVR) to improve performance by skipping the 
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
-This attribute can be set on the EVR media sink. To set the attribute, use **QueryInterface** to query the EVR media sink for the [**IMFAttributes**](imfattributes.md) interface.
+This attribute can be set on the EVR media sink. To set the attribute, use **QueryInterface** to query the EVR media sink for the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface.
 
-Setting this attribute has the same effect as setting the **MFVideoMixPrefs\_AllowDropToHalfInterlace** flag on the EVR. See [**MFVideoMixPrefs**](mfvideomixprefs.md) for a description of this flag.
+Setting this attribute has the same effect as setting the **MFVideoMixPrefs\_AllowDropToHalfInterlace** flag on the EVR. See [**MFVideoMixPrefs**](/windows/win32/evr/ne-evr-_mfvideomixprefs?branch=master) for a description of this flag.
 
 The GUID constant for this attribute is exported from strmiids.lib.
 

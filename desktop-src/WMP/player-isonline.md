@@ -1,8 +1,9 @@
 ---
 title: Player.isOnline
 description: The isOnline property retrieves a value indicating whether the user is connected to a network.
-ms.assetid: 'ca74155b-fd11-4990-8a6b-49f9b68992c0'
-keywords: ["Player.isOnline Windows Media Player"]
+ms.assetid: ca74155b-fd11-4990-8a6b-49f9b68992c0
+keywords:
+- Player.isOnline Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.isOnline
@@ -34,7 +40,7 @@ This property is a read-only **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +64,9 @@ This property is a read-only **Boolean**.
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

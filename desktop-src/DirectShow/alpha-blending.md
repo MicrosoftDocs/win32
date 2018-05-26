@@ -1,7 +1,12 @@
 ---
 Description: Alpha Blending
-ms.assetid: '56618e74-32cc-48f8-83b6-4fc31ab6fc36'
+ms.assetid: 56618e74-32cc-48f8-83b6-4fc31ab6fc36
 title: Alpha Blending
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Alpha Blending

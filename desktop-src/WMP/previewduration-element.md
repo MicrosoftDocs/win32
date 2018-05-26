@@ -1,14 +1,20 @@
 ---
 title: PREVIEWDURATION Element
 description: The PREVIEWDURATION element defines the length of time a clip plays in preview mode.
-ms.assetid: '428a4e3d-9c08-4b6c-acc7-b630aab37de3'
-keywords: ["PREVIEWDURATION Element Windows Media Player"]
+ms.assetid: 428a4e3d-9c08-4b6c-acc7-b630aab37de3
+keywords:
+- PREVIEWDURATION Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PREVIEWDURATION Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PREVIEWDURATION Element
@@ -38,7 +44,7 @@ Length of time (in hours, minutes, seconds, and hundredths of a second) that the
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +83,9 @@ The **DURATION** element overrides a **PREVIEWDURATION** element.
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

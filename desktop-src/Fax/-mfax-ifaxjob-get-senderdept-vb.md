@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SenderDept property is a null-terminated string that contains the department identifier for the sender of the fax job. The SenderDept property applies only to outgoing fax transmissions.'
-ms.assetid: '1c4996f2-d4b1-4658-8cdc-0e6d30aef88b'
-title: 'FaxJob.SenderDept property'
+---
+Description: The SenderDept property is a null-terminated string that contains the department identifier for the sender of the fax job. The SenderDept property applies only to outgoing fax transmissions.
+ms.assetid: 1c4996f2-d4b1-4658-8cdc-0e6d30aef88b
+title: FaxJob.SenderDept property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.SenderDept property
@@ -55,10 +60,10 @@ The **SenderDept** method allocates the memory required for the buffer pointed t
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> </dl>
 
  

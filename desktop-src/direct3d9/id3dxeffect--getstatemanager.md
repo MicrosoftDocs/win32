@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get the effect state manager.'
-ms.assetid: '4a09eb2a-2393-40b0-81b9-3c27998c2b77'
-title: 'ID3DXEffect::GetStateManager method'
+---
+Description: Get the effect state manager.
+ms.assetid: 4a09eb2a-2393-40b0-81b9-3c27998c2b77
+title: ID3DXEffectGetStateManager method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::GetStateManager method

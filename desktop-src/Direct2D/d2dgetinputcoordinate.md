@@ -1,8 +1,9 @@
 ---
 title: D2DGetInputCoordinate function
 description: Returns the value of the input TEXCOORDN. Only available for complex inputs.
-ms.assetid: '60125E23-53B3-45ED-89FE-684E79004F6B'
-keywords: ["D2DGetInputCoordinate function Direct2D"]
+ms.assetid: 60125E23-53B3-45ED-89FE-684E79004F6B
+keywords:
+- D2DGetInputCoordinate function Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2DGetInputCoordinate function
@@ -21,7 +27,7 @@ Returns the value of the input TEXCOORDN. Only available for complex inputs.
 
 ``` syntax
 float4 WINAPI D2DGetInputCoordinate(
-  in uint N
+  in uint N
 );
 ```
 
@@ -79,9 +85,9 @@ D2D_PS_ENTRY(DisplacementMapBilinear)
 [HLSL Helpers](hlsl-helpers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

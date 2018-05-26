@@ -4,17 +4,22 @@ description: For a claim type, this attribute identifies whether a user can inpu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6a965b2f-ab3f-4429-8e2d-2fc21eefbb5e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6a965b2f-ab3f-4429-8e2d-2fc21eefbb5e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Claim-Is-Value-Space-Restricted attribute AD Schema", "msDS-ClaimIsValueSpaceRestricted attribute AD Schema"]
+keywords:
+- ms-DS-Claim-Is-Value-Space-Restricted attribute AD Schema
+- msDS-ClaimIsValueSpaceRestricted attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Claim-Is-Value-Space-Restricted
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Claim-Is-Value-Space-Restricted attribute
@@ -38,7 +43,7 @@ For a claim type, this attribute identifies whether a user can input values othe
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For a claim type, this attribute identifies whether a user can input values othe
 
 
 
- 
+ 
 
- 
+ 
 
 
 

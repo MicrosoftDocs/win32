@@ -1,7 +1,12 @@
-﻿---
-Description: 'A FaxTiff object represents a Tagged Image File Format Class F (TIFF Class F) file that the fax service has transmitted or received.'
-ms.assetid: '98d385be-cebb-428e-92f7-22a1fc814c3c'
+---
+Description: A FaxTiff object represents a Tagged Image File Format Class F (TIFF Class F) file that the fax service has transmitted or received.
+ms.assetid: 98d385be-cebb-428e-92f7-22a1fc814c3c
 title: FaxTiff object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxTiff object

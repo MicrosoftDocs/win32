@@ -4,11 +4,16 @@ description: Support operations on individual networks, their properties, and re
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '15f2813a-8abc-4d29-a17f-d80ddfd10032'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 15f2813a-8abc-4d29-a17f-d80ddfd10032
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["network management objects Failover Cluster", "networks Failover Cluster ,management objects"]
+keywords:
+- network management objects Failover Cluster
+- networks Failover Cluster ,management objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Network Management Objects

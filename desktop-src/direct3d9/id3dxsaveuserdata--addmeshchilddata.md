@@ -1,7 +1,12 @@
-﻿---
-Description: 'Add child data to the mesh.'
-ms.assetid: 'cf3e2015-c4b0-4d98-8346-c74fbdd37310'
-title: 'ID3DXSaveUserData::AddMeshChildData method'
+---
+Description: Add child data to the mesh.
+ms.assetid: cf3e2015-c4b0-4d98-8346-c74fbdd37310
+title: ID3DXSaveUserDataAddMeshChildData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSaveUserData::AddMeshChildData method

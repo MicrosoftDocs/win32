@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides information about an app suspending operation.'
-ms.assetid: 'B380AEA2-6486-46CC-AD0A-CF25C144DC01'
+---
+Description: Provides information about an app suspending operation.
+ms.assetid: B380AEA2-6486-46CC-AD0A-CF25C144DC01
 title: ISuspendingOperation interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISuspendingOperation interface
@@ -10,7 +15,7 @@ Provides information about an app suspending operation.
 
 ## Members
 
-The **ISuspendingOperation** interface inherits from [**IInspectable**](iinspectable.md). **ISuspendingOperation** also has these types of members:
+The **ISuspendingOperation** interface inherits from [**IInspectable**](/windows/win32/Inspectable/nn-inspectable-iinspectable?branch=master). **ISuspendingOperation** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -60,7 +65,7 @@ The **ISuspendingOperation** interface has these properties.
 
 <dl> <dt>
 
-[**IInspectable**](iinspectable.md)
+[**IInspectable**](/windows/win32/Inspectable/nn-inspectable-iinspectable?branch=master)
 </dt> <dt>
 
 [**ISuspendingDeferral**](isuspendingdeferral.md)

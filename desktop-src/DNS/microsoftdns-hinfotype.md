@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_HINFOType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Host Information (HINFO) record.
-ms.assetid: 'c6591010-0fe6-45b2-9032-9f847237ecf6'
-keywords: ["MicrosoftDNS_HINFOType class DNS", "MicrosoftDNS_HINFOType class DNS , described"]
+ms.assetid: c6591010-0fe6-45b2-9032-9f847237ecf6
+keywords:
+- MicrosoftDNS_HINFOType class DNS
+- MicrosoftDNS_HINFOType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_HINFOType class
@@ -53,7 +60,7 @@ The **MicrosoftDNS\_HINFOType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -94,7 +101,7 @@ Operating system of the record owner.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -113,9 +120,9 @@ Operating system of the record owner.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

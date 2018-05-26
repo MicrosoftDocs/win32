@@ -1,7 +1,12 @@
 ---
-Description: 'Standard annotations and semantics (DXSAS) provide a method of using shaders in a standard way that enables shaders to be used with tools, applications, and game engines.'
-ms.assetid: 'b3206b30-56b4-4d56-a778-af3a6b3b8d9c'
+Description: Standard annotations and semantics (DXSAS) provide a method of using shaders in a standard way that enables shaders to be used with tools, applications, and game engines.
+ms.assetid: b3206b30-56b4-4d56-a778-af3a6b3b8d9c
 title: DirectX Standard Annotations and Semantics Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectX Standard Annotations and Semantics Reference

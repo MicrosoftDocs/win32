@@ -4,9 +4,9 @@ description: The CFSTR\_DSPROPERTYPAGEINFO clipboard format provides an HGLOBAL 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '84ed1322-fee3-44ee-873e-57586261ff62'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 84ed1322-fee3-44ee-873e-57586261ff62
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -16,6 +16,9 @@ api_location:
 - DSClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CFSTR\_DSPROPERTYPAGEINFO
@@ -30,7 +33,7 @@ api_type:
 
 
 
-The **CFSTR\_DSPROPERTYPAGEINFO** clipboard format provides an **HGLOBAL** that contains a [**DSPROPERTYPAGEINFO**](dspropertypageinfo.md) structure. The **DSPROPERTYPAGEINFO** structure contains the optional string that the extension added to the **adminPropertySheet** and/or **shellPropertySheet** parameter values when the extension was registered. For more information about how this string is set, see [Registering the Property Page COM Object in a Display Specifier](registering-the-property-page-com-object-in-a-display-specifier.md).
+The **CFSTR\_DSPROPERTYPAGEINFO** clipboard format provides an **HGLOBAL** that contains a [**DSPROPERTYPAGEINFO**](/windows/win32/Dsclient/ns-dsclient-dspropertypageinfo?branch=master) structure. The **DSPROPERTYPAGEINFO** structure contains the optional string that the extension added to the **adminPropertySheet** and/or **shellPropertySheet** parameter values when the extension was registered. For more information about how this string is set, see [Registering the Property Page COM Object in a Display Specifier](registering-the-property-page-com-object-in-a-display-specifier.md).
 
 
 </dt> </dl> </dd> </dl>
@@ -41,8 +44,8 @@ The **CFSTR\_DSPROPERTYPAGEINFO** clipboard format provides an **HGLOBAL** that 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>DSClient.h</dt> </dl> |
 
 
@@ -51,15 +54,15 @@ The **CFSTR\_DSPROPERTYPAGEINFO** clipboard format provides an **HGLOBAL** that 
 
 <dl> <dt>
 
-[**DSPROPERTYPAGEINFO**](dspropertypageinfo.md)
+[**DSPROPERTYPAGEINFO**](/windows/win32/Dsclient/ns-dsclient-dspropertypageinfo?branch=master)
 </dt> <dt>
 
 [Registering the Property Page COM Object in a Display Specifier](registering-the-property-page-com-object-in-a-display-specifier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

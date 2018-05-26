@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a0627f2e-9a4f-40d4-9698-281a1cf56673'
-title: 'System.FlagColor'
+Description: .
+ms.assetid: a0627f2e-9a4f-40d4-9698-281a1cf56673
+title: System.FlagColor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FlagColor

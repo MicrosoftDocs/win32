@@ -1,8 +1,16 @@
 ---
 title: Applications
 description: Applications
-ms.assetid: '1bc835a9-89a0-4f67-81ca-d9693dd1ddbf'
-keywords: ["Text Services Framework (TSF),applications", "TSF (Text Services Framework),applications", "TSF-enabled applications,about"]
+ms.assetid: 1bc835a9-89a0-4f67-81ca-d9693dd1ddbf
+keywords:
+- Text Services Framework (TSF),applications
+- TSF (Text Services Framework),applications
+- TSF-enabled applications,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Applications

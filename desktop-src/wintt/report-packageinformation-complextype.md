@@ -1,14 +1,20 @@
 ---
 title: PackageInformation Complex Type
 description: Defines information about a troubleshooting package or a troubleshooter defined within the package.
-ms.assetid: 'bcd222e6-f290-4440-8f20-d866550f4351'
-keywords: ["PackageInformation complex type Windows Troubleshooting Toolkit"]
+ms.assetid: bcd222e6-f290-4440-8f20-d866550f4351
+keywords:
+- PackageInformation complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - PackageInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PackageInformation Complex Type
@@ -90,14 +96,14 @@ The package information is used to describe both the troubleshooting package (se
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

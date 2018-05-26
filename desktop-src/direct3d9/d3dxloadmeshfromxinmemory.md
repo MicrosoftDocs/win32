@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads a mesh from memory.'
-ms.assetid: 'bbaecc00-97ab-433c-b0c7-ac7837bfc3be'
+---
+Description: Loads a mesh from memory.
+ms.assetid: bbaecc00-97ab-433c-b0c7-ac7837bfc3be
 title: D3DXLoadMeshFromXInMemory function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXLoadMeshFromXInMemory function
@@ -61,9 +66,9 @@ Combination of one or more flags from the [**D3DXMESH**](direct3d9.d3dxmesh) enu
 *pD3DDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, the device object associated with the mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, the device object associated with the mesh.
 
 </dd> <dt>
 

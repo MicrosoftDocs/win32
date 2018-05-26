@@ -1,8 +1,22 @@
 ---
 title: Getting the Best Video Seeking Performance
 description: Getting the Best Video Seeking Performance
-ms.assetid: '21269f0c-fc3a-46fc-88b4-f71828b5d5a7'
-keywords: ["Windows Media Format SDK,best video seeking performance", "Advanced Systems Format (ASF),best video seeking performance", "ASF (Advanced Systems Format),best video seeking performance", "Advanced Systems Format (ASF),video seeking performance", "ASF (Advanced Systems Format),video seeking performance", "Advanced Systems Format (ASF),performance", "ASF (Advanced Systems Format),performance", "video seeking", "performance,video seeking"]
+ms.assetid: 21269f0c-fc3a-46fc-88b4-f71828b5d5a7
+keywords:
+- Windows Media Format SDK,best video seeking performance
+- Advanced Systems Format (ASF),best video seeking performance
+- ASF (Advanced Systems Format),best video seeking performance
+- Advanced Systems Format (ASF),video seeking performance
+- ASF (Advanced Systems Format),video seeking performance
+- Advanced Systems Format (ASF),performance
+- ASF (Advanced Systems Format),performance
+- video seeking
+- performance,video seeking
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting the Best Video Seeking Performance

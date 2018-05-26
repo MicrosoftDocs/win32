@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_DesktopWMI class represents the common characteristics of a user''s desktop. The properties of this class can be modified by the user to customize the desktop.'
+Description: The Win32\_DesktopWMI class represents the common characteristics of a users desktop. The properties of this class can be modified by the user to customize the desktop.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9615a443-7611-4c30-9693-ea71b09b013b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9615a443-7611-4c30-9693-ea71b09b013b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_Desktop class'
+title: Win32\_Desktop class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_Desktop class
@@ -24,25 +27,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), Privileges("SeRestorePrivilege"), UUID("{8502C4E3-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_Desktop : CIM_Setting
 {
-  string  Caption;
-  string  Description;
-  string  SettingID;
-  uint32  BorderWidth;
+  string  Caption;
+  string  Description;
+  string  SettingID;
+  uint32  BorderWidth;
   boolean CoolSwitch;
-  uint32  CursorBlinkRate;
+  uint32  CursorBlinkRate;
   boolean DragFullWindows;
-  uint32  GridGranularity;
-  uint32  IconSpacing;
-  string  IconTitleFaceName;
-  uint32  IconTitleSize;
+  uint32  GridGranularity;
+  uint32  IconSpacing;
+  string  IconTitleFaceName;
+  uint32  IconTitleSize;
   boolean IconTitleWrap;
-  string  Name;
-  string  Pattern;
+  string  Name;
+  string  Pattern;
   boolean ScreenSaverActive;
-  string  ScreenSaverExecutable;
+  string  ScreenSaverExecutable;
   boolean ScreenSaverSecure;
-  uint32  ScreenSaverTimeout;
-  string  Wallpaper;
+  uint32  ScreenSaverTimeout;
+  string  Wallpaper;
   boolean WallpaperStretched;
   boolean WallpaperTiled;
 };
@@ -467,8 +470,8 @@ Foreach ($dt in $desktops) {
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -485,9 +488,9 @@ Foreach ($dt in $desktops) {
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

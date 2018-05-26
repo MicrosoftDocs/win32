@@ -1,7 +1,12 @@
 ---
 title: Authentication Levels
 description: Microsoft RPC provides multiple levels of authentication.
-ms.assetid: 'd9ed938e-4cd4-4355-8d08-830f955dd00c'
+ms.assetid: d9ed938e-4cd4-4355-8d08-830f955dd00c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication Levels

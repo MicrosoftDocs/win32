@@ -1,7 +1,12 @@
 ---
-Description: 'Serves as a base class for classes that provice access to network settings data, such as MSFT\_NetIPsecDoSPSetting and MSFT\_NetSecuritySettingData.'
-ms.assetid: '33499cab-f593-47b6-852a-fb20278e1339'
-title: 'MSFT\_NetSettingData class'
+Description: Serves as a base class for classes that provice access to network settings data, such as MSFT\_NetIPsecDoSPSetting and MSFT\_NetSecuritySettingData.
+ms.assetid: 33499cab-f593-47b6-852a-fb20278e1339
+title: MSFT\_NetSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetSettingData class
@@ -28,8 +33,8 @@ The **MSFT\_NetSettingData** class does not define any members.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
@@ -49,9 +54,9 @@ The **MSFT\_NetSettingData** class does not define any members.
 [**MSFT\_NetSecuritySettingData**](msft-netsecuritysettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

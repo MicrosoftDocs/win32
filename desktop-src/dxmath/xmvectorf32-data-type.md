@@ -1,7 +1,12 @@
-﻿---
-Description: 'An opaque, portable type to support the use of C/C++ initializer syntax to load floating-point values into an instance of XMVECTOR type.'
-ms.assetid: 'bafaa59f-fd1b-e252-cbbd-903df796fde0'
+---
+Description: An opaque, portable type to support the use of C/C++ initializer syntax to load floating-point values into an instance of XMVECTOR type.
+ms.assetid: bafaa59f-fd1b-e252-cbbd-903df796fde0
 title: XMVECTORF32 Data Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMVECTORF32 Data Type

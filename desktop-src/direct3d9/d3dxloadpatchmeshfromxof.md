@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads a patch mesh from an ID3DXFileData object.'
-ms.assetid: '8054e33e-6bf8-4a56-9f66-30600732c84f'
+---
+Description: Loads a patch mesh from an ID3DXFileData object.
+ms.assetid: 8054e33e-6bf8-4a56-9f66-30600732c84f
 title: D3DXLoadPatchMeshFromXof function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXLoadPatchMeshFromXof function
@@ -50,7 +55,7 @@ Combination of one or more [**D3DXMESH**](direct3d9.d3dxmesh) flags, specifying 
 *pD3DDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
 Pointer to the device that the mesh is created from.
 

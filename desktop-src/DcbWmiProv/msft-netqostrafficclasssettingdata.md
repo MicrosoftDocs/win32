@@ -1,7 +1,12 @@
 ---
-Description: 'The settings for a QoS traffic class.'
-ms.assetid: '71b8ce92-8d57-4d48-a702-f180a403cb7c'
-title: 'MSFT\_NetQosTrafficClassSettingData class'
+Description: The settings for a QoS traffic class.
+ms.assetid: 71b8ce92-8d57-4d48-a702-f180a403cb7c
+title: MSFT\_NetQosTrafficClassSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetQosTrafficClassSettingData class
@@ -17,9 +22,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_NetQosTrafficClassSettingData : MSFT_NetSettingData
 {
   string Name;
-  uint8  Algorithm;
-  uint8  BandwidthPercentage;
-  uint8  Priority[];
+  uint8  Algorithm;
+  uint8  BandwidthPercentage;
+  uint8  Priority[];
 };
 ```
 
@@ -107,17 +112,17 @@ The assigned priority values.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                        |
 | MOF<br/>                      | <dl> <dt>Dcbwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DcbWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

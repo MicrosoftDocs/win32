@@ -1,16 +1,21 @@
 ---
-Description: 'This topic demonstrates the process for drawing an IWICBitmapSource by using Direct2D.'
-ms.assetid: '11d38c9a-775d-41f7-a193-37b702b29a96'
+Description: This topic demonstrates the process for drawing an IWICBitmapSource by using Direct2D.
+ms.assetid: 11d38c9a-775d-41f7-a193-37b702b29a96
 title: How to Draw a BitmapSource Using Direct2D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Draw a BitmapSource Using Direct2D
 
-This topic demonstrates the process for drawing an [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) by using Direct2D.
+This topic demonstrates the process for drawing an [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) by using Direct2D.
 
 To draw a bitmap source by using Direct2D
 
-1.  Decode a source image and obtain a bitmap source. In this example, an [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) is used to decode the image and the first image frame is retrieved.
+1.  Decode a source image and obtain a bitmap source. In this example, an [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) is used to decode the image and the first image frame is retrieved.
 
     ```C++
        // Create a decoder
@@ -39,7 +44,7 @@ To draw a bitmap source by using Direct2D
 
 2.  Convert the bitmap source to an 32bppPBGRA pixel format.
 
-    Before Direct2D can use an image, it must be converted to the 32bppPBGRA pixel format. To convert the image format, use the [**CreateFormatConverter**](-wic-codec-iwicimagingfactory-createformatconverter.md) method to create an [**IWICFormatConverter**](-wic-codec-iwicformatconverter.md) object. Once created, use the [**Initialize**](-wic-codec-iwicformatconverter-initialize.md) method to perform the conversion.
+    Before Direct2D can use an image, it must be converted to the 32bppPBGRA pixel format. To convert the image format, use the [**CreateFormatConverter**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createformatconverter?branch=master) method to create an [**IWICFormatConverter**](/windows/win32/Wincodec/nn-wincodec-iwicformatconverter?branch=master) object. Once created, use the [**Initialize**](/windows/win32/Wincodec/nf-wincodec-iwicformatconverter-initialize?branch=master) method to perform the conversion.
 
     ```C++
        // Format convert the frame to 32bppPBGRA

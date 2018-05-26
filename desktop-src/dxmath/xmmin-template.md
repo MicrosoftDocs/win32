@@ -1,7 +1,12 @@
-﻿---
-Description: 'Compares two numeric data type instances, or two instances of an object which supports an overload of &lt;, and returns the smaller one of the two instances. The data type of the arguments and the return value is the same.'
-ms.assetid: '26c57a82-ea4a-4a87-9277-5bb353b5ccd2'
+---
+Description: Compares two numeric data type instances, or two instances of an object which supports an overload of &lt;, and returns the smaller one of the two instances. The data type of the arguments and the return value is the same.
+ms.assetid: 26c57a82-ea4a-4a87-9277-5bb353b5ccd2
 title: XMMin template
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMMin template

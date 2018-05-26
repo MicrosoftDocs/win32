@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WcsDisassociateColorProfileFromDevice function disassociates a specified WCS color profile from a specified device.'
-ms.assetid: 'd2ab6fe4-131a-4952-864c-7135026cb25c'
+---
+Description: The WcsDisassociateColorProfileFromDevice function disassociates a specified WCS color profile from a specified device.
+ms.assetid: d2ab6fe4-131a-4952-864c-7135026cb25c
 title: WcsDisassociateColorProfileFromDevice function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsDisassociateColorProfileFromDevice function

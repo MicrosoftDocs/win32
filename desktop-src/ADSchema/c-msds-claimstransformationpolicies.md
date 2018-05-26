@@ -4,17 +4,22 @@ description: An object of this class holds the one set of Claims Transformation 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd6e188b3-0ff2-4888-8e19-277d642de68e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d6e188b3-0ff2-4888-8e19-277d642de68e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Claims-Transformation-Policies class AD Schema", "msDS-ClaimsTransformationPolicies class AD Schema"]
+keywords:
+- ms-DS-Claims-Transformation-Policies class AD Schema
+- msDS-ClaimsTransformationPolicies class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Claims-Transformation-Policies
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Claims-Transformation-Policies class
@@ -35,7 +40,7 @@ An object of this class holds the one set of Claims Transformation Policy for Cr
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -62,7 +67,7 @@ An object of this class holds the one set of Claims Transformation Policy for Cr
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -189,9 +194,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: VHD\_FLAGS enumeration
 description: Indicates options to be used when mounting a virtual hard disk (VHD) file with the MountVHD function.
-ms.assetid: 'a89df5fe-d384-45e1-9642-10f646716f0e'
-keywords: ["VHD_FLAGS enumeration Virtual Server"]
+ms.assetid: a89df5fe-d384-45e1-9642-10f646716f0e
+keywords:
+- VHD_FLAGS enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VHDMount.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VHD\_FLAGS enumeration
@@ -22,10 +28,10 @@ Indicates options to be used when mounting a virtual hard disk (VHD) file with t
 
 ```C++
 typedef enum _VHD_FLAGS { 
-  VHD_NORMAL             = 0,
-  VHD_NW_MAPPED          = 1,
-  VHD_MOUNT_AS_READONLY  = 2,
-  VHD_FORCE_UNMOUNT      = 3
+  VHD_NORMAL             = 0,
+  VHD_NW_MAPPED          = 1,
+  VHD_MOUNT_AS_READONLY  = 2,
+  VHD_FORCE_UNMOUNT      = 3
 } VHD_FLAGS;
 ```
 
@@ -69,7 +75,7 @@ Force the system to unmount the VHD file without sending any device eject notifi
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VHDMount.h</dt> </dl>             |
 
 
@@ -87,9 +93,9 @@ Force the system to unmount the VHD file without sending any device eject notifi
 [**UnmountVHD**](unmountvhd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

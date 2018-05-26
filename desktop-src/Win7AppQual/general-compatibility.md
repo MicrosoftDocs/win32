@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '2072bd3f-a6cf-43d5-bc55-9b86d819aea1'
+Description: .
+ms.assetid: 2072bd3f-a6cf-43d5-bc55-9b86d819aea1
 title: General Compatibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Compatibility

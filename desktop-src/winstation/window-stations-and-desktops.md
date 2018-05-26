@@ -1,7 +1,12 @@
 ---
 title: Window Stations and Desktops
 description: To provide additional security, user interface objects are managed using window stations and desktops.
-ms.assetid: '6264030f-36fc-4c6d-87fd-dd3de2dc5b67'
+ms.assetid: 6264030f-36fc-4c6d-87fd-dd3de2dc5b67
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Stations and Desktops

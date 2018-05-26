@@ -1,8 +1,11 @@
 ---
 title: ISurfaceManager AllocSurfaceSize method
 description: The AllocSurfaceSize method allocates a new ISurface of a specific size. ISurface wraps an IDirect3DSurface9 interface. However, the recommended way to allocate a surface is described in the IMediaTransform Process documentation.
-ms.assetid: '73f50239-e4b8-437e-9c39-a355c43bd468'
-keywords: ["AllocSurfaceSize method Windows Movie Maker and DVD Maker", "AllocSurfaceSize method Windows Movie Maker and DVD Maker , ISurfaceManager interface", "ISurfaceManager interface Windows Movie Maker and DVD Maker , AllocSurfaceSize method"]
+ms.assetid: 73f50239-e4b8-437e-9c39-a355c43bd468
+keywords:
+- AllocSurfaceSize method Windows Movie Maker and DVD Maker
+- AllocSurfaceSize method Windows Movie Maker and DVD Maker , ISurfaceManager interface
+- ISurfaceManager interface Windows Movie Maker and DVD Maker , AllocSurfaceSize method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISurfaceManager::AllocSurfaceSize method
@@ -25,9 +33,9 @@ The **AllocSurfaceSize** method allocates a new [**ISurface**](isurface.md) of a
 
 ```C++
 HRESULT AllocSurfaceSize(
-  [in]  FORMAT_TYPE type,
-        VIDEO_SIZE  *pSize,
-  [out] ISurface    **ppBuffer
+  [in]  FORMAT_TYPE type,
+        VIDEO_SIZE  *pSize,
+  [out] ISurface    **ppBuffer
 );
 ```
 
@@ -72,8 +80,8 @@ If you do not know the exact size of the surface to allocate, use [**AllocSurfac
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -89,9 +97,9 @@ If you do not know the exact size of the surface to allocate, use [**AllocSurfac
 [**ISurfaceManager Interface**](isurfacemanager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

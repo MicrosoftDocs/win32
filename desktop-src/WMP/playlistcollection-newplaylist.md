@@ -1,8 +1,11 @@
 ---
 title: PlaylistCollection.newPlaylist method
 description: The newPlaylist method creates a new playlist in the library.
-ms.assetid: '5ad51469-a150-4322-ac16-782ef0d96a57'
-keywords: ["newPlaylist method Windows Media Player", "newPlaylist method Windows Media Player , PlaylistCollection class", "PlaylistCollection class Windows Media Player , newPlaylist method"]
+ms.assetid: 5ad51469-a150-4322-ac16-782ef0d96a57
+keywords:
+- newPlaylist method Windows Media Player
+- newPlaylist method Windows Media Player , PlaylistCollection class
+- PlaylistCollection class Windows Media Player , newPlaylist method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistCollection.newPlaylist method
@@ -111,9 +119,9 @@ var NewList = Player.playlistCollection.newPlaylist("ThreeList");
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Constraints element
-description: Constraints specified for a parameter's value.
-ms.assetid: '213D83E0-1833-49F6-A40E-8ABD77E9E14D'
-keywords: ["Constraints element Access Execution Engine"]
+description: Constraints specified for a parameters value.
+ms.assetid: 213D83E0-1833-49F6-A40E-8ABD77E9E14D
+keywords:
+- Constraints element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Constraints
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constraints element
@@ -96,9 +102,9 @@ Constraints are contained in elements like this:
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

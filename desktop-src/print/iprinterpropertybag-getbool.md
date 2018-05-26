@@ -1,7 +1,12 @@
-﻿---
-Description: 'Reads a specified boolean property.'
-ms.assetid: '0C7ED962-F4E2-4F2F-B2CF-96DCFC71C4DD'
-title: 'IPrinterPropertyBag::GetBool method'
+---
+Description: Reads a specified boolean property.
+ms.assetid: 0C7ED962-F4E2-4F2F-B2CF-96DCFC71C4DD
+title: IPrinterPropertyBagGetBool method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterPropertyBag::GetBool method

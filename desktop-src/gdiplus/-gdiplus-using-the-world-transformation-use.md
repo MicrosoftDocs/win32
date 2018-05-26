@@ -1,12 +1,17 @@
 ---
-Description: 'The world transformation is a property of the Graphics class.'
-ms.assetid: '22f43b29-ea7b-4faf-9795-2242bf704ed3'
+Description: The world transformation is a property of the Graphics class.
+ms.assetid: 22f43b29-ea7b-4faf-9795-2242bf704ed3
 title: Using the World Transformation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the World Transformation
 
-The world transformation is a property of the [**Graphics**](-gdiplus-class-graphics-class.md) class. The numbers that specify the world transformation are stored in a [**Matrix**](-gdiplus-class-matrix-class.md) object, which represents a 3 ×3 matrix. The **Matrix** and **Graphics** classes have several methods for setting the numbers in the world transformation matrix. The examples in this section manipulate rectangles because rectangles are easy to draw and it is easy to see the effects of transformations on rectangles.
+The world transformation is a property of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class. The numbers that specify the world transformation are stored in a [**Matrix**](/windows/win32/gdiplusmatrix/nl-gdiplusmatrix-matrix?branch=master) object, which represents a 3 ×3 matrix. The **Matrix** and **Graphics** classes have several methods for setting the numbers in the world transformation matrix. The examples in this section manipulate rectangles because rectangles are easy to draw and it is easy to see the effects of transformations on rectangles.
 
 We start by creating a 50 by 50 rectangle and locating it at the origin (0, 0). The origin is at the upper-left corner of the client area.
 

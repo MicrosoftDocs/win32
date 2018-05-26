@@ -1,7 +1,12 @@
 ---
-Description: 'Prefix of each buffer, in bytes.'
-ms.assetid: '471b73bf-f959-41aa-84ba-324a2738dd0e'
-title: 'CBaseAllocator::m\_lPrefix member'
+Description: Prefix of each buffer, in bytes.
+ms.assetid: 471b73bf-f959-41aa-84ba-324a2738dd0e
+title: CBaseAllocatorm\_lPrefix member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator::m\_lPrefix member
@@ -35,9 +40,9 @@ long m_lPrefix;
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

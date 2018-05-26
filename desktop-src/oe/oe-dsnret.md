@@ -1,8 +1,10 @@
 ---
 title: DSNRET enumeration
 description: Controls what is returned with a Delivery Status Notification (DSN).
-ms.assetid: 'a7ddb9d1-4e6e-4924-9f7d-693c804ad5b7'
-keywords: ["DSNRET enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: a7ddb9d1-4e6e-4924-9f7d-693c804ad5b7
+keywords:
+- DSNRET enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DSNRET enumeration
@@ -24,9 +31,9 @@ Controls what is returned with a Delivery Status Notification (DSN).
 
 ```C++
 typedef enum tagDSNRET { 
-  DSNRET_DEFAULT  = 0,
-  DSNRET_HDRS     = 1,
-  DSNRET_FULL     = 2
+  DSNRET_DEFAULT  = 0,
+  DSNRET_HDRS     = 1,
+  DSNRET_FULL     = 2
 } ACCESSTYPE;
 ```
 
@@ -67,17 +74,17 @@ The value is passed to the RET parameter of the MAIL command.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

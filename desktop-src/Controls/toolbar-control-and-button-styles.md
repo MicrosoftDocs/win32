@@ -1,7 +1,7 @@
 ---
 title: Toolbar Control and Button Styles
 description: The following window styles are specific to toolbars.
-ms.assetid: '75dc0c2c-6d1d-4b13-b0df-2cc541a9b1bb'
+ms.assetid: 75dc0c2c-6d1d-4b13-b0df-2cc541a9b1bb
 topic_type:
 - apiref
 api_name:
@@ -35,6 +35,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Toolbar Control and Button Styles
@@ -46,7 +51,7 @@ The following window styles are specific to toolbars. They are combined with oth
 > [!Note]  
 > Comctl32.dll version 6 is not redistributable but it is included in Windows. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 
 
@@ -63,7 +68,7 @@ The following window styles are specific to toolbars. They are combined with oth
 
 
 
-**Note:** A toolbar button can have a combination of the following styles. To specify a button style, set the appropriate flags in the **fsStyle** member of the button's [**TBBUTTON**](tbbutton.md) structure. Not all styles can be combined.
+**Note:** A toolbar button can have a combination of the following styles. To specify a button style, set the appropriate flags in the **fsStyle** member of the button's [**TBBUTTON**](/windows/win32/Commctrl/ns-commctrl-_tbbutton?branch=master) structure. Not all styles can be combined.
 
 For Shell version 4.72 and earlier, both window and button style flags had the form TBSTYLE\_XXX. If you are compiling an application with [version 4.72](common-control-versions.md) or earlier of Commctrl.h, you must use the TBSTYLE\_XXX button style flags. For version 5.80 and later, all button styles have the form BTNS\_XXX. All of the TBSTYLE\_XXX values have equivalent BTNS\_XXX values, with the same meaning and numerical value. For convenience, both forms are given in the following table.
 
@@ -102,9 +107,9 @@ For Shell version 4.72 and earlier, both window and button style flags had the f
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: IOCTL\_MOUNTMGR\_QUERY\_POINTS control code
 description: This IOCTL returns triples that consist of a persistent symbolic link name for the volume (that is, a mount point), a unique ID for the volume, and a nonpersistent device name (such as \ 0034;\\Device\\HarddiskVolume1 \ 0034;) for the volume.
-ms.assetid: '2b7f947c-2fb1-4b59-bf73-a6f0e1478be2'
-keywords: ["IOCTL_MOUNTMGR_QUERY_POINTS control code Storage Devices"]
+ms.assetid: 2b7f947c-2fb1-4b59-bf73-a6f0e1478be2
+keywords:
+- IOCTL_MOUNTMGR_QUERY_POINTS control code Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mountmgr.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_MOUNTMGR\_QUERY\_POINTS control code
@@ -68,9 +74,9 @@ If any of the three strings contained within any of the triples is aligned on an
 [**MOUNTMGR\_MOUNT\_POINTS**](mountmgr-mount-points.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20IOCTL_MOUNTMGR_QUERY_POINTS%20control%20code%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

@@ -1,8 +1,11 @@
 ---
 title: RegisteredTask.RunEx method
 description: For scripting, runs the registered task immediately using specified flags and a session identifier.
-ms.assetid: 'd6d09ab1-026d-4ee9-b520-c7702e37504e'
-keywords: ["RunEx method Task Scheduler", "RunEx method Task Scheduler , RegisteredTask object", "RegisteredTask object Task Scheduler , RunEx method"]
+ms.assetid: d6d09ab1-026d-4ee9-b520-c7702e37504e
+keywords:
+- RunEx method Task Scheduler
+- RunEx method Task Scheduler , RegisteredTask object
+- RegisteredTask object Task Scheduler , RunEx method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisteredTask.RunEx method
@@ -53,7 +61,7 @@ For more information and a list of action properties that can use $(Arg0), $(Arg
 *flags* \[in\]
 </dt> <dd>
 
-A [TASK\_RUN\_FLAGS](task-run-flags.md) constant that defines how the task is run.
+A [TASK\_RUN\_FLAGS](/windows/win32/taskschd/ne-taskschd-_task_run_flags?branch=master) constant that defines how the task is run.
 
 </dd> <dt>
 
@@ -91,8 +99,8 @@ This method will return without error, but the task will not run if the [**TaskS
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -108,9 +116,9 @@ This method will return without error, but the task will not run if the [**TaskS
 [**RegisteredTask**](registeredtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

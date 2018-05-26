@@ -1,16 +1,21 @@
 ---
 title: DefaultAction Property
-description: An object's DefaultAction property describes the object's primary method of manipulation from the user's viewpoint. An object's DefaultAction property should be a verb or a short verb phrase.
-ms.assetid: '8242c0af-b42e-44a4-8807-d6740fa1a24a'
+description: An objects DefaultAction property describes the objects primary method of manipulation from the users viewpoint. An objects DefaultAction property should be a verb or a short verb phrase.
+ms.assetid: 8242c0af-b42e-44a4-8807-d6740fa1a24a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefaultAction Property
 
 An object's **DefaultAction** property describes the object's primary method of manipulation from the user's viewpoint. An object's **DefaultAction** property should be a verb or a short verb phrase.
 
-The **DefaultAction** property is retrieved by calling [**IAccessible::get\_accDefaultAction**](iaccessible-iaccessible--get-accdefaultaction.md).
+The **DefaultAction** property is retrieved by calling [**IAccessible::get\_accDefaultAction**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accdefaultaction?branch=master).
 
-To perform an object's default action, clients call [**IAccessible::accDoDefaultAction**](iaccessible-iaccessible--accdodefaultaction.md).
+To perform an object's default action, clients call [**IAccessible::accDoDefaultAction**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accdodefaultaction?branch=master).
 
 Not all objects have default actions, and some objects have a default action that is related to its [**Value**](value-property.md) property, such as in the following examples:
 

@@ -1,8 +1,24 @@
 ---
 title: GUID Values
 description: GUID Values
-ms.assetid: '11da870b-f222-44f3-b3ea-f80ca6c04f79'
-keywords: ["Windows Media Format SDK,GUID values", "Advanced Systems Format (ASF),GUID values", "ASF (Advanced Systems Format),GUID values", "Windows Media Format SDK,global constants", "Advanced Systems Format (ASF),global constants", "ASF (Advanced Systems Format),global constants", "Windows Media Format SDK,constants", "Advanced Systems Format (ASF),constants", "ASF (Advanced Systems Format),constants", "global constants,GUID values", "constants,GUID values"]
+ms.assetid: 11da870b-f222-44f3-b3ea-f80ca6c04f79
+keywords:
+- Windows Media Format SDK,GUID values
+- Advanced Systems Format (ASF),GUID values
+- ASF (Advanced Systems Format),GUID values
+- Windows Media Format SDK,global constants
+- Advanced Systems Format (ASF),global constants
+- ASF (Advanced Systems Format),global constants
+- Windows Media Format SDK,constants
+- Advanced Systems Format (ASF),constants
+- ASF (Advanced Systems Format),constants
+- global constants,GUID values
+- constants,GUID values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GUID Values

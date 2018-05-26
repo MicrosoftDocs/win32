@@ -1,13 +1,16 @@
 ---
-Description: 'Use the ISA operator in the WHERE clause of a data query to request embedded objects in a class hierarchy.'
+Description: Use the ISA operator in the WHERE clause of a data query to request embedded objects in a class hierarchy.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a4eb4c34-2ed0-4e85-84c6-6b8f17c8b07d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a4eb4c34-2ed0-4e85-84c6-6b8f17c8b07d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ISA Operator for Data Queries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ISA Operator for Data Queries

@@ -1,7 +1,12 @@
 ---
-Description: 'A specification of the sample is that user account information be read from a custom table in the installation database and not hard-coded into the custom action.'
-ms.assetid: '1545b4f1-3ccf-4745-90d8-15f1f79d8455'
+Description: A specification of the sample is that user account information be read from a custom table in the installation database and not hard-coded into the custom action.
+ms.assetid: 1545b4f1-3ccf-4745-90d8-15f1f79d8455
 title: Adding a Custom CustomUserAccounts Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Custom CustomUserAccounts Table

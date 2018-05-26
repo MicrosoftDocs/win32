@@ -1,7 +1,12 @@
 ---
-Description: 'The names of people in the From: field.'
-ms.assetid: '31b2eefe-e531-453d-8bbf-4cd3a2aa84e5'
-title: 'System.Message.FromName'
+Description: The names of people in the From field.
+ms.assetid: 31b2eefe-e531-453d-8bbf-4cd3a2aa84e5
+title: System.Message.FromName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.FromName

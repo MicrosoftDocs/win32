@@ -1,7 +1,12 @@
 ---
 Description: Device Topologies
-ms.assetid: '5ac421e5-74a4-40e8-af6f-a99a05ebc3e0'
+ms.assetid: 5ac421e5-74a4-40e8-af6f-a99a05ebc3e0
 title: Device Topologies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Topologies
@@ -33,7 +38,7 @@ The following diagram shows an example of several connected device topologies fo
 
 ![example of four connected device topologies](images/fig2.jpg)
 
-The preceding diagram shows the data paths that lead from the analog inputs to the system bus. Each of the following devices is represented as a device-topology object with an [**IDeviceTopology**](idevicetopology.md) interface:
+The preceding diagram shows the data paths that lead from the analog inputs to the system bus. Each of the following devices is represented as a device-topology object with an [**IDeviceTopology**](/windows/win32/Devicetopology/nn-devicetopology-idevicetopology?branch=master) interface:
 
 -   Wave capture device
 -   Input multiplexer device
@@ -53,7 +58,7 @@ Inside the wave capture device and input multiplexer device are stream-processin
 
 The settings in the volume, mute, and multiplexer subunits can be controlled by clients, and the DeviceTopology API provides control interfaces to clients for controlling them. In this example, the ADC subunit has no control settings. Thus, the DeviceTopology API provides no control interface for the ADC.
 
-In the terminology of the DeviceTopology API, connectors and subunits belong to the same general category—parts. All parts, regardless of whether they are connectors or subunits, provide a common set of functions. The DeviceTopology API implements an [**IPart**](ipart.md) interface to represent the generic functions that are common to connectors and subunits. The API implements the [**IConnector**](iconnector.md) and [**ISubunit**](isubunit.md) interfaces to represent the specific aspects of connectors and subunits.
+In the terminology of the DeviceTopology API, connectors and subunits belong to the same general category—parts. All parts, regardless of whether they are connectors or subunits, provide a common set of functions. The DeviceTopology API implements an [**IPart**](/windows/win32/Devicetopology/nn-devicetopology-ipart?branch=master) interface to represent the generic functions that are common to connectors and subunits. The API implements the [**IConnector**](/windows/win32/Devicetopology/nn-devicetopology-iconnector?branch=master) and [**ISubunit**](/windows/win32/Devicetopology/?branch=master) interfaces to represent the specific aspects of connectors and subunits.
 
 The DeviceTopology API constructs the topologies of the wave capture device and input multiplexer device from the kernel-streaming (KS) filters that the audio driver exposes to the operating system to represent these devices. (The audio adapter driver implements **IMiniportWaveXxx** and **IMiniportTopology** interfaces to represent the hardware-dependent portions of these filters; for more information about these interfaces and about KS filters, see the Windows DDK documentation.)
 
@@ -65,9 +70,9 @@ To begin exploration of a set of connected device topologies, a client applicati
 
 The DeviceTopology API provides access only to the topologies of the hardware devices in an audio adapter. The external devices on the left edge of the diagram and the software components on the right edge are beyond the scope of the API. The dashed lines on either side of the diagram represent the limits of the DeviceTopology API. The client can use the API to explore a data path that stretches from the input jack to the system bus, but the API cannot penetrate beyond these boundaries.
 
-Each connector in the preceding diagram has an associated connection type that indicates the type of connection that the connector makes. Thus, the connectors on the two sides of a connection always have identical connection types. The connection type is indicated by a [**ConnectorType**](connectortype.md) enumeration value—Physical\_External, Physical\_Internal, Software\_Fixed, Software\_IO, or Network. The connections between the input multiplexer device and endpoint devices A and B are of type Physical\_External, which means that the connection represents a physical connection to an external device (in other words, a user-accessible audio jack). The connection to the analog signal from the internal CD player is of type Physical\_Internal, which indicates a physical connection to an auxiliary device that is installed inside the system chassis. The connection between the wave capture device and input multiplexer device is of type Software\_Fixed, which indicates a permanent connection that is fixed and cannot be configured under software control. Finally, the connection to the system bus on the right side of the diagram is of type Software\_IO, which indicates that the data I/O for the connection is implemented by a DMA engine under software control. (The diagram does not include an example of a Network connection type.)
+Each connector in the preceding diagram has an associated connection type that indicates the type of connection that the connector makes. Thus, the connectors on the two sides of a connection always have identical connection types. The connection type is indicated by a [**ConnectorType**](/windows/win32/Devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0013?branch=master) enumeration value—Physical\_External, Physical\_Internal, Software\_Fixed, Software\_IO, or Network. The connections between the input multiplexer device and endpoint devices A and B are of type Physical\_External, which means that the connection represents a physical connection to an external device (in other words, a user-accessible audio jack). The connection to the analog signal from the internal CD player is of type Physical\_Internal, which indicates a physical connection to an auxiliary device that is installed inside the system chassis. The connection between the wave capture device and input multiplexer device is of type Software\_Fixed, which indicates a permanent connection that is fixed and cannot be configured under software control. Finally, the connection to the system bus on the right side of the diagram is of type Software\_IO, which indicates that the data I/O for the connection is implemented by a DMA engine under software control. (The diagram does not include an example of a Network connection type.)
 
-The client begins traversing a data path at the endpoint device. First, the client obtains an [**IMMDevice**](immdevice.md) interface that represents the endpoint device, as explained in [Enumerating Audio Devices](enumerating-audio-devices.md). To obtain the **IDeviceTopology** interface for the endpoint device, the client calls the [**IMMDevice::Activate**](immdevice-activate.md) method with parameter *iid* set to REFIID IID\_IDeviceTopology.
+The client begins traversing a data path at the endpoint device. First, the client obtains an [**IMMDevice**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master) interface that represents the endpoint device, as explained in [Enumerating Audio Devices](enumerating-audio-devices.md). To obtain the **IDeviceTopology** interface for the endpoint device, the client calls the [**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master) method with parameter *iid* set to REFIID IID\_IDeviceTopology.
 
 In the example in the preceding diagram, the input multiplexer device contains all the hardware controls (volume, mute, and multiplexer) for the capture streams from the line-input and microphone jacks. The following code example shows how to obtain the **IDeviceTopology** interface for the input multiplexer device from the **IMMDevice** interface for the endpoint device for the line input or microphone:
 
@@ -145,10 +150,10 @@ Exit:
 The GetHardwareDeviceTopology function in the previous code example performs the following steps to obtain the **IDeviceTopology** interface for the input multiplexer device:
 
 1.  Call the **IMMDevice::Activate** method to get the **IDeviceTopology** interface for the endpoint device.
-2.  With the **IDeviceTopology** interface obtained in the preceding step, call the [**IDeviceTopology::GetConnector**](idevicetopology-getconnector.md) method to get the **IConnector** interface of the single connector (connector number 0) in the endpoint device.
-3.  With the **IConnector** interface obtained in the preceding step, call the [**IConnector::GetConnectedTo**](iconnector-getconnectedto.md) method to get the **IConnector** interface of the connector in the input multiplexer device.
+2.  With the **IDeviceTopology** interface obtained in the preceding step, call the [**IDeviceTopology::GetConnector**](/windows/win32/Devicetopology/nf-devicetopology-idevicetopology-getconnector?branch=master) method to get the **IConnector** interface of the single connector (connector number 0) in the endpoint device.
+3.  With the **IConnector** interface obtained in the preceding step, call the [**IConnector::GetConnectedTo**](/windows/win32/Devicetopology/nf-devicetopology-iconnector-getconnectedto?branch=master) method to get the **IConnector** interface of the connector in the input multiplexer device.
 4.  Query the **IConnector** interface obtained in the preceding step for its **IPart** interface.
-5.  With the **IPart** interface obtained in the preceding step, call the [**IPart::GetTopologyObject**](ipart-gettopologyobject.md) method to get the **IDeviceTopology** interface for the input multiplexer device.
+5.  With the **IPart** interface obtained in the preceding step, call the [**IPart::GetTopologyObject**](/windows/win32/Devicetopology/nf-devicetopology-ipart-gettopologyobject?branch=master) method to get the **IDeviceTopology** interface for the input multiplexer device.
 
 Before the user can record from the microphone in the preceding diagram, the client application must make certain that the multiplexer selects the microphone input. The following code example shows how a client can traverse the data path from the microphone until it finds the multiplexer, which it then programs to select the microphone input:
 
@@ -321,47 +326,47 @@ Exit:
 
 
 
-The DeviceTopology API implements an [**IAudioInputSelector**](iaudioinputselector.md) interface to encapsulate a multiplexer, such as the one in the preceding diagram. (An [**IAudioOutputSelector**](iaudiooutputselector.md) interface encapsulates a demultiplexer.) In the preceding code example, the inner loop of the SelectCaptureDevice function queries each subunit that it finds to discover whether the subunit is a multiplexer. If the subunit is a multiplexer, then the function calls the [**IAudioInputSelector::SetSelection**](iaudioinputselector-setselection.md) method to select the input that connects to the stream from the endpoint device.
+The DeviceTopology API implements an [**IAudioInputSelector**](/windows/win32/Devicetopology/nn-devicetopology-iaudioinputselector?branch=master) interface to encapsulate a multiplexer, such as the one in the preceding diagram. (An [**IAudioOutputSelector**](/windows/win32/Devicetopology/nn-devicetopology-iaudiooutputselector?branch=master) interface encapsulates a demultiplexer.) In the preceding code example, the inner loop of the SelectCaptureDevice function queries each subunit that it finds to discover whether the subunit is a multiplexer. If the subunit is a multiplexer, then the function calls the [**IAudioInputSelector::SetSelection**](/windows/win32/Devicetopology/nf-devicetopology-iaudioinputselector-setselection?branch=master) method to select the input that connects to the stream from the endpoint device.
 
 In the preceding code example, each iteration of the outer loop traverses one device topology. When traversing the device topologies in the preceding diagram, the first iteration traverses the input multiplexer device and the second iteration traverses the wave capture device. The function will terminate when it reaches the connector at the right edge of the diagram. Termination occurs when the function detects a connector with a Software\_IO connection type. This connection type identifies the point at which the adapter device connects to the system bus.
 
-The call to the [**IPart::GetPartType**](ipart-getparttype.md) method in the preceding code example obtains an **IPartType** enumeration value that indicates whether the current part is a connector or an audio-processing subunit.
+The call to the [**IPart::GetPartType**](/windows/win32/Devicetopology/nf-devicetopology-ipart-getparttype?branch=master) method in the preceding code example obtains an **IPartType** enumeration value that indicates whether the current part is a connector or an audio-processing subunit.
 
-The inner loop in the preceding code example steps across the link from one part to the next by calling the [**IPart::EnumPartsOutgoing**](ipart-enumpartsoutgoing.md) method. (There's also an [**IPart::EnumPartsIncoming**](ipart-enumpartsincoming.md) method for stepping in the opposite direction.) This method retrieves an [**IPartsList**](ipartslist.md) object that contains a list of all the outgoing parts. However, any part that the SelectCaptureDevice function expects to encounter in a capture device will always have exactly one outgoing part. Thus, the subsequent call to [**IPartsList::GetPart**](ipartslist-getpart.md) always requests the first part in the list, part number 0, because the function assumes that this is the only part in the list.
+The inner loop in the preceding code example steps across the link from one part to the next by calling the [**IPart::EnumPartsOutgoing**](/windows/win32/Devicetopology/nf-devicetopology-ipart-enumpartsoutgoing?branch=master) method. (There's also an [**IPart::EnumPartsIncoming**](/windows/win32/Devicetopology/nf-devicetopology-ipart-enumpartsincoming?branch=master) method for stepping in the opposite direction.) This method retrieves an [**IPartsList**](/windows/win32/Devicetopology/nn-devicetopology-ipartslist?branch=master) object that contains a list of all the outgoing parts. However, any part that the SelectCaptureDevice function expects to encounter in a capture device will always have exactly one outgoing part. Thus, the subsequent call to [**IPartsList::GetPart**](/windows/win32/Devicetopology/nf-devicetopology-ipartslist-getpart?branch=master) always requests the first part in the list, part number 0, because the function assumes that this is the only part in the list.
 
 If the SelectCaptureDevice function encounters a topology for which that assumption is not valid, the function might fail to configure the device correctly. To avoid such a failure, a more general-purpose version of the function might do the following:
 
--   Call the [**IPartsList::GetCount**](ipartslist-getcount.md) method to determine the number of outgoing parts.
+-   Call the [**IPartsList::GetCount**](/windows/win32/Devicetopology/nf-devicetopology-ipartslist-getcount?branch=master) method to determine the number of outgoing parts.
 -   For each outgoing part, call **IPartsList::GetPart** to begin to traverse the data path that leads from the part.
 
 Some, but not necessarily all, parts have associated hardware controls that clients can set or get. A particular part might have zero, one, or more hardware controls. A hardware control is represented by the following pair of interfaces:
 
--   A generic control interface, [**IControlInterface**](icontrolinterface.md), which has methods that are common to all hardware controls.
--   A function-specific interface (for example, [**IAudioVolumeLevel**](iaudiovolumelevel.md)) that exposes the control parameters for a particular type of hardware control (for example, a volume control).
+-   A generic control interface, [**IControlInterface**](/windows/win32/Devicetopology/nn-devicetopology-icontrolinterface?branch=master), which has methods that are common to all hardware controls.
+-   A function-specific interface (for example, [**IAudioVolumeLevel**](/windows/win32/Devicetopology/?branch=master)) that exposes the control parameters for a particular type of hardware control (for example, a volume control).
 
-To enumerate the hardware controls for a part, the client first calls the [**IPart::GetControlInterfaceCount**](ipart-getcontrolinterfacecount.md) method to determine the number of hardware controls that are associated with the part. Next, the client makes a series of calls to the [**IPart::GetControlInterface**](ipart-getcontrolinterface.md) method to obtain the **IControlInterface** interface for each hardware control. Finally, the client obtains the function-specific interface for each hardware control by calling the [**IControlInterface::GetIID**](icontrolinterface-getiid.md) method to obtain the interface ID. The client calls the [**IPart::Activate**](ipart-activate.md) method with this ID to obtain the function-specific interface.
+To enumerate the hardware controls for a part, the client first calls the [**IPart::GetControlInterfaceCount**](/windows/win32/Devicetopology/nf-devicetopology-ipart-getcontrolinterfacecount?branch=master) method to determine the number of hardware controls that are associated with the part. Next, the client makes a series of calls to the [**IPart::GetControlInterface**](/windows/win32/Devicetopology/nf-devicetopology-ipart-getcontrolinterface?branch=master) method to obtain the **IControlInterface** interface for each hardware control. Finally, the client obtains the function-specific interface for each hardware control by calling the [**IControlInterface::GetIID**](/windows/win32/Devicetopology/nf-devicetopology-icontrolinterface-getiid?branch=master) method to obtain the interface ID. The client calls the [**IPart::Activate**](/windows/win32/Devicetopology/nf-devicetopology-ipart-activate?branch=master) method with this ID to obtain the function-specific interface.
 
 A part that is a connector might support one of the following function-specific control interfaces:
 
--   [**IKsFormatSupport**](iksformatsupport.md)
--   [**IKsJackDescription**](iksjackdescription.md)
+-   [**IKsFormatSupport**](/windows/win32/Devicetopology/nn-devicetopology-iksformatsupport?branch=master)
+-   [**IKsJackDescription**](/windows/win32/Devicetopology/nn-devicetopology-iksjackdescription?branch=master)
 
 A part that is a subunit might support one or more of the following function-specific control interfaces:
 
--   [**IAudioAutoGainControl**](iaudioautogaincontrol.md)
--   [**IAudioBass**](iaudiobass.md)
--   [**IAudioChannelConfig**](iaudiochannelconfig.md)
--   [**IAudioInputSelector**](iaudioinputselector.md)
--   [**IAudioLoudness**](iaudioloudness.md)
--   [**IAudioMidrange**](iaudiomidrange.md)
--   [**IAudioMute**](iaudiomute.md)
--   [**IAudioOutputSelector**](iaudiooutputselector.md)
--   [**IAudioPeakMeter**](iaudiopeakmeter.md)
--   [**IAudioTreble**](iaudiotreble.md)
--   [**IAudioVolumeLevel**](iaudiovolumelevel.md)
--   [**IDeviceSpecificProperty**](idevicespecificproperty.md)
+-   [**IAudioAutoGainControl**](/windows/win32/Devicetopology/nn-devicetopology-iaudioautogaincontrol?branch=master)
+-   [**IAudioBass**](/windows/win32/Devicetopology/?branch=master)
+-   [**IAudioChannelConfig**](/windows/win32/Devicetopology/nn-devicetopology-iaudiochannelconfig?branch=master)
+-   [**IAudioInputSelector**](/windows/win32/Devicetopology/nn-devicetopology-iaudioinputselector?branch=master)
+-   [**IAudioLoudness**](/windows/win32/Devicetopology/nn-devicetopology-iaudioloudness?branch=master)
+-   [**IAudioMidrange**](/windows/win32/Devicetopology/?branch=master)
+-   [**IAudioMute**](/windows/win32/Devicetopology/nn-devicetopology-iaudiomute?branch=master)
+-   [**IAudioOutputSelector**](/windows/win32/Devicetopology/nn-devicetopology-iaudiooutputselector?branch=master)
+-   [**IAudioPeakMeter**](/windows/win32/Devicetopology/nn-devicetopology-iaudiopeakmeter?branch=master)
+-   [**IAudioTreble**](/windows/win32/Devicetopology/?branch=master)
+-   [**IAudioVolumeLevel**](/windows/win32/Devicetopology/?branch=master)
+-   [**IDeviceSpecificProperty**](/windows/win32/Devicetopology/nn-devicetopology-idevicespecificproperty?branch=master)
 
-A part supports the **IDeviceSpecificProperty** interface only if the underlying hardware control has a device-specific control value and the control cannot be adequately represented by any other function-specific interface in the preceding list. Typically, a device-specific property is useful only to a client that can infer the meaning of the property value from information such as the part type, part subtype, and part name. The client can obtain this information by calling the [**IPart::GetPartType**](ipart-getparttype.md), [**IPart::GetSubType**](ipart-getsubtype.md), and [**IPart::GetName**](ipart-getname.md) methods.
+A part supports the **IDeviceSpecificProperty** interface only if the underlying hardware control has a device-specific control value and the control cannot be adequately represented by any other function-specific interface in the preceding list. Typically, a device-specific property is useful only to a client that can infer the meaning of the property value from information such as the part type, part subtype, and part name. The client can obtain this information by calling the [**IPart::GetPartType**](/windows/win32/Devicetopology/nf-devicetopology-ipart-getparttype?branch=master), [**IPart::GetSubType**](/windows/win32/Devicetopology/nf-devicetopology-ipart-getsubtype?branch=master), and [**IPart::GetName**](/windows/win32/Devicetopology/nf-devicetopology-ipart-getname?branch=master) methods.
 
 ## Related topics
 

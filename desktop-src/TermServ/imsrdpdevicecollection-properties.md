@@ -4,10 +4,13 @@ description: The IMsRdpDeviceCollection interface exposes the following properti
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2DFF2995-41F9-41ED-B743-20F6CD001A26'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2DFF2995-41F9-41ED-B743-20F6CD001A26
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDeviceCollection Properties

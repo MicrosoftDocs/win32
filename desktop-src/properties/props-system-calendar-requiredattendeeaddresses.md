@@ -1,7 +1,12 @@
 ---
-Description: 'Addresses of the all the required attendees.'
-ms.assetid: '2fbed651-2fa0-441b-b174-6be6d49430bf'
-title: 'System.Calendar.RequiredAttendeeAddresses'
+Description: Addresses of the all the required attendees.
+ms.assetid: 2fbed651-2fa0-441b-b174-6be6d49430bf
+title: System.Calendar.RequiredAttendeeAddresses
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Calendar.RequiredAttendeeAddresses

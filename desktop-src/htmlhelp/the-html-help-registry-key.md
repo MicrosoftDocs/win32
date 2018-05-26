@@ -1,7 +1,12 @@
 ---
 title: The HTML Help Registry Key
 description: You can determine if HTML Help is installed on a computer by checking for the HTML Help registry key.
-ms.assetid: '40599795-1278-42bf-941A-BBF8CFFB3843'
+ms.assetid: 40599795-1278-42bf-941A-BBF8CFFB3843
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The HTML Help Registry Key

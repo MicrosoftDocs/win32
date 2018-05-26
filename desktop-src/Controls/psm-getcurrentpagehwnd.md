@@ -1,8 +1,9 @@
 ---
 title: PSM\_GETCURRENTPAGEHWND message
 description: Retrieves a handle to the window of the current page of a property sheet. You can send this message explicitly or by using the PropSheet\_GetCurrentPageHwnd macro.
-ms.assetid: '1f2d0af9-5853-48e7-b827-483be032b6ca'
-keywords: ["PSM_GETCURRENTPAGEHWND message Windows Controls"]
+ms.assetid: 1f2d0af9-5853-48e7-b827-483be032b6ca
+keywords:
+- PSM_GETCURRENTPAGEHWND message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_GETCURRENTPAGEHWND message
 
-Retrieves a handle to the window of the current page of a property sheet. You can send this message explicitly or by using the [**PropSheet\_GetCurrentPageHwnd**](propsheet-getcurrentpagehwnd.md) macro.
+Retrieves a handle to the window of the current page of a property sheet. You can send this message explicitly or by using the [**PropSheet\_GetCurrentPageHwnd**](/windows/win32/Prsht/nf-prsht-propsheet_getcurrentpagehwnd?branch=master) macro.
 
 ## Parameters
 
@@ -44,9 +50,9 @@ Returns a handle to the window of the current property sheet page.
 Use the **PSM\_GETCURRENTPAGEHWND** message with modeless property sheets to determine when to destroy the dialog box. When the user clicks the **OK** or **Cancel** button, **PSM\_GETCURRENTPAGEHWND** returns **NULL**, and you can then use the [**DestroyWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632682) function to destroy the dialog box.
 
 > [!Note]  
-> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](propsheetheader.md)).
+> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master)).
 
- 
+ 
 
 ## Requirements
 
@@ -54,8 +60,8 @@ Use the **PSM\_GETCURRENTPAGEHWND** message with modeless property sheets to det
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
@@ -64,12 +70,12 @@ Use the **PSM\_GETCURRENTPAGEHWND** message with modeless property sheets to det
 
 <dl> <dt>
 
-[**PropertySheet**](propertysheet.md)
+[**PropertySheet**](/windows/win32/Prsht/nf-prsht-propertysheeta?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

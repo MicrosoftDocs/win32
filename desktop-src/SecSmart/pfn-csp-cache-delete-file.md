@@ -1,8 +1,9 @@
 ---
 title: PFN\_CSP\_CACHE\_DELETE\_FILE function pointer
 description: Points to a function that deletes a file from the cache of the Microsoft Base Smart Card Cryptographic Service Provider.
-ms.assetid: '8d9f3ec2-32aa-4939-ae55-5ca29d0ca9af'
-keywords: ["PFN_CSP_CACHE_DELETE_FILE function pointer Security"]
+ms.assetid: 8d9f3ec2-32aa-4939-ae55-5ca29d0ca9af
+keywords:
+- PFN_CSP_CACHE_DELETE_FILE function pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_CSP\_CACHE\_DELETE\_FILE function pointer
@@ -24,9 +30,9 @@ The **PFN\_CSP\_CACHE\_DELETE\_FILE** function pointer points to a function that
 
 ```C++
 typedef DWORD ( WINAPI *PFN_CSP_CACHE_DELETE_FILE)(
-  _In_ PVOID  pvCacheContext,
-  _In_ LPWSTR wszTag,
-  _In_ DWORD  dwFlags
+  _In_ PVOID  pvCacheContext,
+  _In_ LPWSTR wszTag,
+  _In_ DWORD  dwFlags
 );
 ```
 
@@ -75,8 +81,8 @@ To improve performance by avoiding redundant read/write activity to the card, fi
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -94,9 +100,9 @@ To improve performance by avoiding redundant read/write activity to the card, fi
 [**PFN\_CSP\_CACHE\_ADD\_FILE**](pfn-csp-cache-add-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

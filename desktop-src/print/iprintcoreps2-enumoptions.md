@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCorePS2::EnumOptions method enumerates the available options of a specific feature.'
-ms.assetid: '2a861450-0bc5-432b-bf5d-9a9761c22ea1'
-title: 'IPrintCorePS2::EnumOptions method'
+---
+Description: The IPrintCorePS2EnumOptions method enumerates the available options of a specific feature.
+ms.assetid: 2a861450-0bc5-432b-bf5d-9a9761c22ea1
+title: IPrintCorePS2EnumOptions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCorePS2::EnumOptions method

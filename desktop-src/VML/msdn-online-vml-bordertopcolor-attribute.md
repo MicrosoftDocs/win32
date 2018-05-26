@@ -1,7 +1,12 @@
 ---
 title: VML BorderTopColor Attribute
 description: VML BorderTopColor Attribute
-ms.assetid: 'bcf04df8-a994-4b33-8e9a-50a582660d68'
+ms.assetid: bcf04df8-a994-4b33-8e9a-50a582660d68
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML BorderTopColor Attribute

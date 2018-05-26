@@ -1,7 +1,12 @@
-﻿---
-Description: 'Computes the direct lighting contribution to 3D objects where the source radiance is represented by a spherical harmonic (SH) approximation.'
-ms.assetid: '52d614cc-578a-4f2b-ba91-70d0c4371042'
-title: 'ID3DXPRTEngine::ComputeDirectLightingSH method'
+---
+Description: Computes the direct lighting contribution to 3D objects where the source radiance is represented by a spherical harmonic (SH) approximation.
+ms.assetid: 52d614cc-578a-4f2b-ba91-70d0c4371042
+title: ID3DXPRTEngineComputeDirectLightingSH method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTEngine::ComputeDirectLightingSH method

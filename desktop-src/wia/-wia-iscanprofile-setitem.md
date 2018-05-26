@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the GUID of the category of Windows Image Acquisition (WIA) 2.0 item that the profile is associated with.'
-ms.assetid: 'e359abcb-b5d5-45a4-b650-2b278ba1ff6a'
-title: 'IScanProfile::SetItem method'
+---
+Description: Sets the GUID of the category of Windows Image Acquisition (WIA) 2.0 item that the profile is associated with.
+ms.assetid: e359abcb-b5d5-45a4-b650-2b278ba1ff6a
+title: IScanProfileSetItem method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfile::SetItem method

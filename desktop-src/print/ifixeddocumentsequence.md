@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IFixedDocumentSequence interface represents the fixed document sequence for an XPS document.'
-ms.assetid: '8919e2d1-0c39-46b6-b06e-83fe61f67751'
+---
+Description: The IFixedDocumentSequence interface represents the fixed document sequence for an XPS document.
+ms.assetid: 8919e2d1-0c39-46b6-b06e-83fe61f67751
 title: IFixedDocumentSequence interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedDocumentSequence interface

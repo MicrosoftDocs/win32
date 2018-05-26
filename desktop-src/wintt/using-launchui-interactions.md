@@ -1,7 +1,12 @@
 ---
 title: Using Launch UI Interactions
 description: Use launch UI interactions to launch a UI application.
-ms.assetid: '09f6d4c1-7055-4d03-88ca-e1a77680995c'
+ms.assetid: 09f6d4c1-7055-4d03-88ca-e1a77680995c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Launch UI Interactions

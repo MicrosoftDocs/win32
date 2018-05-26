@@ -1,8 +1,11 @@
 ---
 title: ActionCollection.Remove method
 description: For scripting, removes the specified action from the collection.
-ms.assetid: 'ae1da6a9-5851-4ccb-80dc-75d7a99e7c6a'
-keywords: ["Remove method Task Scheduler", "Remove method Task Scheduler , ActionCollection object", "ActionCollection object Task Scheduler , Remove method"]
+ms.assetid: ae1da6a9-5851-4ccb-80dc-75d7a99e7c6a
+keywords:
+- Remove method Task Scheduler
+- Remove method Task Scheduler , ActionCollection object
+- ActionCollection object Task Scheduler , Remove method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActionCollection.Remove method
@@ -53,8 +61,8 @@ When removing items, note that the index for the first item in the collection is
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -70,9 +78,9 @@ When removing items, note that the index for the first item in the collection is
 [**ActionCollection**](actioncollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

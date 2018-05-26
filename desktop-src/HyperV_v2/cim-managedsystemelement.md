@@ -1,7 +1,12 @@
 ---
-Description: 'CIM\_ManagedSystemElement is the base class for the system element hierarchy. Any component of a system can potentially be represented by this class or its subclasses.'
-ms.assetid: '838cc77f-8a8d-429a-8e17-5ede3cc9b6ed'
-title: 'CIM\_ManagedSystemElement class'
+Description: CIM\_ManagedSystemElement is the base class for the system element hierarchy. Any component of a system can potentially be represented by this class or its subclasses.
+ms.assetid: 838cc77f-8a8d-429a-8e17-5ede3cc9b6ed
+title: CIM\_ManagedSystemElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ManagedSystemElement class
@@ -15,15 +20,15 @@ title: 'CIM\_ManagedSystemElement class'
 class CIM_ManagedSystemElement : CIM_ManagedElement
 {
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
 };
 ```
 
@@ -542,7 +547,7 @@ Contains indicators of the current status of the element. The first value of the
 > [!Note]  
 > The **OperationalStatus** property replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, we strongly recommend that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status**, because it is a single-valued property, should also provide the primary status of the element.
 
- 
+ 
 
 <dt>
 
@@ -816,7 +821,7 @@ Indicates the primary status of the object.
 > [!Note]  
 > This property is deprecated. It is replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility, it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 <dt>
 
@@ -935,8 +940,8 @@ Indicates descriptions of the corresponding values in the **OperationalStatus** 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -950,9 +955,9 @@ Indicates descriptions of the corresponding values in the **OperationalStatus** 
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following table lists formats that are available for each factoid used in United States English.FactoidDefinitionExamplesCURRENCYCurrency in dollars, euros, pounds, and yen as written in English (United States).$1,234$1,234.50$236.50$123k$.5025¢5¢€1,123,500.50£456¥7DATEDates as written in English (United States).3/14/20013-14-20013/143/14/013-14-0112-3-0103/14/0103-14-0120012001-2002''65March 14, 2001Wednesday, March 14, 2001Fri, Jul 16Thu, AUG 3March 14NUMBERAll numbers, including ordinals such as 1st and 2nd, and math symbols. The DATE, TIME, TELEPHONE, and CURRENCY factoid formats are also included in this factoid.123-123.456123rd25th1st22nd15TH90\#1225%''913/14/20013-14-20013/143/14/013-14-0112-3-0103/14/0103-14-0120012001-2002(1+3)/51+1=2Note  Formats such as 300kb and 1Mb are not supported. ONECHARA single American National Standards Institute (ANSI) character.! &\#0034; \# $ % & '' ( ) \* + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z \[ \\ \] \_ a b c d e f g h i j k l m n o p q r s t u v w x y z { } ~ €£¥PERCENTA number followed by the percent symbol.87%5.9%POSTALCODEPostal codes as written in the United States.9811298073TELEPHONETelephone numbers as written in the United States.(206) 555-12121-206-555-12121-800-555-1212555-1212TIMETime as written in English (United States).15:053:0304:10 am3:17:352:34:35 am5:40:49 pm11:23:23 PM7:30 AM14:03UPPERCHARA single uppercase character.A-Z '
-ms.assetid: '4c8dd376-2288-451c-bb16-cdb088e41046'
-title: 'English (United States) Factoids'
+Description: The following table lists formats that are available for each factoid used in United States English.FactoidDefinitionExamplesCURRENCYCurrency in dollars, euros, pounds, and yen as written in English (United States).$1,234$1,234.50$236.50$123k$.5025 5  1,123,500.50 456 7DATEDates as written in English (United States).3/14/20013-14-20013/143/14/013-14-0112-3-0103/14/0103-14-0120012001-200265March 14, 2001Wednesday, March 14, 2001Fri, Jul 16Thu, AUG 3March 14NUMBERAll numbers, including ordinals such as 1st and 2nd, and math symbols. The DATE, TIME, TELEPHONE, and CURRENCY factoid formats are also included in this factoid.123-123.456123rd25th1st22nd15TH90\#1225%913/14/20013-14-20013/143/14/013-14-0112-3-0103/14/0103-14-0120012001-2002(1+3)/51+1=2Note  Formats such as 300kb and 1Mb are not supported. ONECHARA single American National Standards Institute (ANSI) character.! &\#0034; \# $ % &  ( ) \* + , - . / 0 1 2 3 4 5 6 7 8 9  ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z \[ \\ \] \_ a b c d e f g h i j k l m n o p q r s t u v w x y z { } ~    PERCENTA number followed by the percent symbol.87%5.9%POSTALCODEPostal codes as written in the United States.9811298073TELEPHONETelephone numbers as written in the United States.(206) 555-12121-206-555-12121-800-555-1212555-1212TIMETime as written in English (United States).15053030410 am3173523435 am54049 pm112323 PM730 AM1403UPPERCHARA single uppercase character.A-Z
+ms.assetid: 4c8dd376-2288-451c-bb16-cdb088e41046
+title: English (United States) Factoids
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # English (United States) Factoids
@@ -27,7 +32,7 @@ The following table lists formats that are available for each factoid used in Un
 <tr class="odd">
 <td>CURRENCY<br/></td>
 <td>Currency in dollars, euros, pounds, and yen as written in English (United States).<br/></td>
-<td>$1,234<br/> $1,234.50<br/> $236.50<br/> $123k<br/> $.50<br/> 25¢<br/> 5¢<br/> €1,123,500.50<br/> £456<br/> ¥7<br/></td>
+<td>$1,234<br/> $1,234.50<br/> $236.50<br/> $123k<br/> $.50<br/> 25 <br/> 5 <br/>  1,123,500.50<br/>  456<br/>  7<br/></td>
 </tr>
 <tr class="even">
 <td>DATE<br/></td>
@@ -47,7 +52,7 @@ Formats such as 300kb and 1Mb are not supported.
 <tr class="even">
 <td>ONECHAR<br/></td>
 <td>A single American National Standards Institute (ANSI) character.<br/></td>
-<td>! &quot; # $ % &amp; ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] _ a b c d e f g h i j k l m n o p q r s t u v w x y z { } ~ €£¥<br/></td>
+<td>! &quot; # $ % &amp; ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] _ a b c d e f g h i j k l m n o p q r s t u v w x y z { } ~    <br/></td>
 </tr>
 <tr class="odd">
 <td>PERCENT<br/></td>
@@ -79,11 +84,11 @@ Formats such as 300kb and 1Mb are not supported.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

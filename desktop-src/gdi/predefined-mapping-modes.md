@@ -1,7 +1,12 @@
 ---
-Description: 'Of the six predefined mapping modes, one is device dependent (MM\_TEXT) and the remaining five (MM\_HIENGLISH, MM\_LOENGLISH, MM\_HIMETRIC, MM\_LOMETRIC, and MM\_TWIPS) are device independent.'
-ms.assetid: '722df020-edf2-4763-b58c-3e29fa7007db'
+Description: Of the six predefined mapping modes, one is device dependent (MM\_TEXT) and the remaining five (MM\_HIENGLISH, MM\_LOENGLISH, MM\_HIMETRIC, MM\_LOMETRIC, and MM\_TWIPS) are device independent.
+ms.assetid: 722df020-edf2-4763-b58c-3e29fa7007db
 title: Predefined Mapping Modes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Predefined Mapping Modes

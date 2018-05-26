@@ -4,13 +4,16 @@ description: Retrieves configuration settings for an existing DFS namespace (DFS
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '09558cee-5b3e-411e-802d-c333c7bd3c2d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 09558cee-5b3e-411e-802d-c333c7bd3c2d
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetNamespaces method", "GetNamespaces method, MSFT_DFSNamespace class", "MSFT_DFSNamespace class, GetNamespaces method"]
+keywords:
+- GetNamespaces method
+- GetNamespaces method, MSFT_DFSNamespace class
+- MSFT_DFSNamespace class, GetNamespaces method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetNamespaces method of the MSFT\_DFSNamespace class
@@ -30,10 +36,10 @@ Retrieves configuration settings for an existing DFS namespace (DFS-N) or enumer
 
 ```mof
 uint32 GetNamespaces(
-  [in]  string            NamespaceRoot,
-  [in]  string            Domain,
-  [in]  string            Server,
-  [out] MSFT_DFSNamespace cmdletOutput[]
+  [in]  string            NamespaceRoot,
+  [in]  string            Domain,
+  [in]  string            Server,
+  [out] MSFT_DFSNamespace cmdletOutput[]
 );
 ```
 
@@ -58,7 +64,7 @@ The UNC path can have one of these two formats:
 
 
 
- 
+ 
 
 where:
 
@@ -98,7 +104,7 @@ When this method returns, contains an array that represents output from the **Ge
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
@@ -112,9 +118,9 @@ When this method returns, contains an array that represents output from the **Ge
 [**MSFT\_DFSNamespace**](msft-dfsnamespace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

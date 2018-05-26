@@ -1,7 +1,12 @@
 ---
 Description: Structures and Enumeration Types
-ms.assetid: '1418624b-29fd-4c84-8ea2-7dcd5a63b75c'
+ms.assetid: 1418624b-29fd-4c84-8ea2-7dcd5a63b75c
 title: Structures and Enumeration Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structures and Enumeration Types

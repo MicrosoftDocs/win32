@@ -4,13 +4,15 @@ description: Represents a list of the partitions on the available disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7D337B1B-9ABC-4DDC-9D74-EEC5B3E311D5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7D337B1B-9ABC-4DDC-9D74-EEC5B3E311D5
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_AvailableDiskToPartition class", "MSCluster_AvailableDiskToPartition class, described"]
+keywords:
+- MSCluster_AvailableDiskToPartition class
+- MSCluster_AvailableDiskToPartition class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_AvailableDiskToPartition class
@@ -35,7 +40,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association, Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{BCF05714-EA46-47F8-8F80-1CC9946E0FD6}"), AMENDMENT]
 class MSCluster_AvailableDiskToPartition : CIM_Component
 {
-  MSCluster_AvailableDisk          REF GroupComponent;
+  MSCluster_AvailableDisk          REF GroupComponent;
   MSCluster_AvailableDiskPartition REF PartComponent;
 };
 ```
@@ -91,7 +96,7 @@ The available disk partition.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -114,9 +119,9 @@ The available disk partition.
 [**MSCluster\_AvailableDiskPartition**](mscluster-availablediskpartition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

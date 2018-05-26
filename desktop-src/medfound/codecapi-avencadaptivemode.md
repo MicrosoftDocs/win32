@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the adaptive encoding mode for a video encoder.'
-ms.assetid: '14B833BC-2188-48D6-AA27-B15F491D90CF'
-title: 'CODECAPI\_AVEncAdaptiveMode property'
+Description: Specifies the adaptive encoding mode for a video encoder.
+ms.assetid: 14B833BC-2188-48D6-AA27-B15F491D90CF
+title: CODECAPI\_AVEncAdaptiveMode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVEncAdaptiveMode property
@@ -18,7 +23,7 @@ Specifies the adaptive encoding mode for a video encoder.
 
 ## Property value
 
-The value of this property is a bitwise **OR** of values from the [**eAVEncAdaptiveMode**](eavencadaptivemode.md) enumeration.
+The value of this property is a bitwise **OR** of values from the [**eAVEncAdaptiveMode**](/windows/win32/codecapi/?branch=master) enumeration.
 
 ## Requirements
 
@@ -26,8 +31,8 @@ The value of this property is a bitwise **OR** of values from the [**eAVEncAdapt
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -42,9 +47,9 @@ The value of this property is a bitwise **OR** of values from the [**eAVEncAdapt
 [**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Constructs a plane from a point and a normal.'
-ms.assetid: '93c644d2-ab8c-47a1-9a3b-8b9c6a13178b'
+---
+Description: Constructs a plane from a point and a normal.
+ms.assetid: 93c644d2-ab8c-47a1-9a3b-8b9c6a13178b
 title: D3DXPlaneFromPointNormal function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXPlaneFromPointNormal function

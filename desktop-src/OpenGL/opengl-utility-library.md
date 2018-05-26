@@ -1,8 +1,16 @@
 ---
 title: OpenGL Utility Library
 description: OpenGL Utility Library
-ms.assetid: '54a7cdce-b38d-416a-a59d-827b6fb76b47'
-keywords: ["OpenGL,OpenGL Utility (GLU)", "OpenGL Utility (GLU)", "GLU library OpenGL"]
+ms.assetid: 54a7cdce-b38d-416a-a59d-827b6fb76b47
+keywords:
+- OpenGL,OpenGL Utility (GLU)
+- OpenGL Utility (GLU)
+- GLU library OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenGL Utility Library

@@ -1,13 +1,16 @@
 ---
-Description: 'The += concatenation operator joins characters to the end of this string. The operator accepts another CHString object, a character pointer, or a single character.'
+Description: The += concatenation operator joins characters to the end of this string. The operator accepts another CHString object, a character pointer, or a single character.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '026ff9af-4cda-4261-aa27-e215d49b80ce'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 026ff9af-4cda-4261-aa27-e215d49b80ce
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CHString::operator+='
+title: CHStringoperator+=
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CHString::operator+=
@@ -81,8 +84,8 @@ assert( ( s += L"def" ) == L"abcdef" );
 
 |                                     |                                                                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |
 | Header<br/>                   | <dl> <dt>ChString.h (include FwCommon.h)</dt> </dl>                                                    |
 | Library<br/>                  | <dl> <dt>FrameDyn.lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
@@ -96,9 +99,9 @@ assert( ( s += L"def" ) == L"abcdef" );
 [**CHString**](chstring.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
 title: Canceling Method Calls
 description: With the introduction of distributed and Web-based applications, some method calls can take an unacceptably long time to return.
-ms.assetid: '18228ff1-8c1c-430a-ae5f-0e9a56b0fe3c'
+ms.assetid: 18228ff1-8c1c-430a-ae5f-0e9a56b0fe3c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Canceling Method Calls
 
-With the introduction of distributed and Web-based applications, some method calls can take an unacceptably long time to return. The latency of the network connection may be high, the server machine may be serving many clients, or the server component may be passing a large amount of data, such as a multimedia file. Users should be able to cancel a request that is taking too long, and the application should be able to handle cancellation requests and continue with its other work. In COM, you can use the [**IMessageFilter**](imessagefilter.md) interface to cancel a pending call that originates from a single-threaded apartment.
+With the introduction of distributed and Web-based applications, some method calls can take an unacceptably long time to return. The latency of the network connection may be high, the server machine may be serving many clients, or the server component may be passing a large amount of data, such as a multimedia file. Users should be able to cancel a request that is taking too long, and the application should be able to handle cancellation requests and continue with its other work. In COM, you can use the [**IMessageFilter**](/windows/win32/ObjIdl/nn-objidl-imessagefilter?branch=master) interface to cancel a pending call that originates from a single-threaded apartment.
 
-When a call is marshaled, the proxy creates a cancel object, which implements the [**ICancelMethodCalls**](icancelmethodcalls.md) interface. The cancel object is associated with both the call and the thread on which the call is pending.
+When a call is marshaled, the proxy creates a cancel object, which implements the [**ICancelMethodCalls**](/windows/win32/objidlbase/nn-objidl-icancelmethodcalls?branch=master) interface. The cancel object is associated with both the call and the thread on which the call is pending.
 
 To cancel the pending call, the client passes a cancellation request through the cancel object, which handles the details of notifying the server object that the call has been canceled. If the called method has not returned, the server object, on detecting the cancellation request, cleans up any program resources it has allocated and notifies its client, by returning an appropriate **HRESULT** value, that it canceled execution of the call. If the called method has already returned, the cancel object notifies the client. In either case, the client thread is unblocked and can continue processing.
 
@@ -25,13 +30,13 @@ At this time, cancel objects handle only synchronous calls.
 [Canceling an Asynchronous Call](canceling-an-asynchronous-call.md)
 </dt> <dt>
 
-[**CoGetCancelObject**](cogetcancelobject.md)
+[**CoGetCancelObject**](/windows/win32/combaseapi/nf-combaseapi-cogetcancelobject?branch=master)
 </dt> <dt>
 
-[**CoSetCancelObject**](cosetcancelobject.md)
+[**CoSetCancelObject**](/windows/win32/combaseapi/nf-combaseapi-cosetcancelobject?branch=master)
 </dt> <dt>
 
-[**CoTestCancel**](cotestcancel.md)
+[**CoTestCancel**](/windows/win32/combaseapi/nf-combaseapi-cotestcancel?branch=master)
 </dt> </dl>
 
  

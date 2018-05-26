@@ -1,8 +1,11 @@
 ---
 title: ConvertStyle method of the MSFT\_Disk class
 description: Converts the partition style of an already initialized disk.
-ms.assetid: '38C1C3A0-DAB0-490F-A308-D0966364B728'
-keywords: ["ConvertStyle method Windows Storage Management API", "ConvertStyle method Windows Storage Management API , MSFT_Disk class", "MSFT_Disk class Windows Storage Management API , ConvertStyle method"]
+ms.assetid: 38C1C3A0-DAB0-490F-A308-D0966364B728
+keywords:
+- ConvertStyle method Windows Storage Management API
+- ConvertStyle method Windows Storage Management API , MSFT_Disk class
+- MSFT_Disk class Windows Storage Management API , ConvertStyle method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConvertStyle method of the MSFT\_Disk class
@@ -22,8 +30,8 @@ Converts the partition style of an already initialized disk.
 
 ```mof
 UInt32 ConvertStyle(
-  [in]  UInt16 PartitionStyle,
-  [out] String ExtendedStatus
+  [in]  UInt16 PartitionStyle,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -116,8 +124,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -130,9 +138,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_Disk**](msft-disk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

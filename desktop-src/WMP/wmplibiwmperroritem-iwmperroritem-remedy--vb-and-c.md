@@ -1,8 +1,11 @@
 ---
 title: IWMPErrorItem remedy property
 description: Reserved for future use.
-ms.assetid: '6aa2878a-2947-4afe-b8cd-ed79a65b3d8f'
-keywords: ["remedy property Windows Media Player", "remedy property Windows Media Player , IWMPErrorItem interface", "IWMPErrorItem interface Windows Media Player , remedy property"]
+ms.assetid: 6aa2878a-2947-4afe-b8cd-ed79a65b3d8f
+keywords:
+- remedy property Windows Media Player
+- remedy property Windows Media Player , IWMPErrorItem interface
+- IWMPErrorItem interface Windows Media Player , remedy property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPErrorItem::remedy property
@@ -67,9 +75,9 @@ A **System.Int32** that is the remedy.
 [**IWMPErrorItem Interface (VB and C#)**](iwmperroritem--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

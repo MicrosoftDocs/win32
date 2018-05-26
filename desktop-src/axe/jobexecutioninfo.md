@@ -1,8 +1,9 @@
 ---
 title: JobExecutionInfo structure
 description: This structure defines configuration information for how a Job is executed and returns information about the job execution.
-ms.assetid: '9D336E58-763E-4CBF-8505-4F46B3062E74'
-keywords: ["JobExecutionInfo structure Access Execution Engine"]
+ms.assetid: 9D336E58-763E-4CBF-8505-4F46B3062E74
+keywords:
+- JobExecutionInfo structure Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JobExecutionInfo structure
@@ -22,17 +28,17 @@ This structure defines configuration information for how a Job is executed and r
 
 ```C++
 struct JobExecutionInfo {
-  DWORD             Size;
-  const Job         *Job;
-  DWORD             Flags;
-  DWORD             Timeout;
-  LPCWSTR           RestartDirectory;
-  LPCWSTR           RestartCommand;
-  LPCWSTR           RestartMinimumCommand;
-  LPCWSTR           WorkloadTempDirectory;
-  INT               WorkloadAssessmentIndex;
+  DWORD             Size;
+  const Job         *Job;
+  DWORD             Flags;
+  DWORD             Timeout;
+  LPCWSTR           RestartDirectory;
+  LPCWSTR           RestartCommand;
+  LPCWSTR           RestartMinimumCommand;
+  LPCWSTR           WorkloadTempDirectory;
+  INT               WorkloadAssessmentIndex;
   JobExecutionError Error;
-  BOOL              Restarting;
+  BOOL              Restarting;
 };
 ```
 
@@ -87,7 +93,7 @@ The command string to execute in the [**RestartDirectory**](axe-jobexecutioninfo
 **RestartMinimumCommand**
 </dt> <dd>
 
-The command string to execute to restart the job in “console” mode. If the Solution API is configured in Workload mode, this value must be **NULL**.
+The command string to execute to restart the job in  console  mode. If the Solution API is configured in Workload mode, this value must be **NULL**.
 
 </dd> <dt>
 
@@ -125,15 +131,15 @@ An out parameter that indicates the job has not completed yet because an assessm
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

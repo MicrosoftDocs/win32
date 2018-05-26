@@ -4,11 +4,14 @@ description: Gets a value that indicates whether the file can be written to. Imp
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ProtectedFileStream.CanWrite'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ProtectedFileStream.CanWrite
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CanWrite property", "CanWrite property, ProtectedFileStream class", "ProtectedFileStream class, CanWrite property"]
+keywords:
+- CanWrite property
+- CanWrite property, ProtectedFileStream class
+- ProtectedFileStream class, CanWrite property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileStream.CanWrite property
@@ -63,9 +69,9 @@ Type: [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx)
 [**ProtectedFileStream**](protectedfilestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

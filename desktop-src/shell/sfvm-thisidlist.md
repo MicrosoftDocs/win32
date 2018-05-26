@@ -1,14 +1,19 @@
-﻿---
-Description: 'SFVM\_THISIDLIST may be altered or unavailable.'
-ms.assetid: '488f696d-aa71-4727-bbd2-c99e7d245d85'
-title: 'SFVM\_THISIDLIST message'
+---
+Description: SFVM\_THISIDLIST may be altered or unavailable.
+ms.assetid: 488f696d-aa71-4727-bbd2-c99e7d245d85
+title: SFVM\_THISIDLIST message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_THISIDLIST message
 
 \[**SFVM\_THISIDLIST** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-Allows the callback object to specify the view's pointer to an item identifier list (PIDL). This is used only when [**IPersistIDList::SetIDList**](ipersistidlist-setidlist.md) and [**IPersistFolder2::GetCurFolder**](ipersistfolder2-getcurfolder.md) have failed. Used by [**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md).
+Allows the callback object to specify the view's pointer to an item identifier list (PIDL). This is used only when [**IPersistIDList::SetIDList**](/windows/win32/shobjidl_core/nf-shobjidl_core-ipersistidlist-setidlist?branch=master) and [**IPersistFolder2::GetCurFolder**](/windows/win32/shobjidl_core/nf-shobjidl_core-ipersistfolder2-getcurfolder?branch=master) have failed. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master).
 
 
 ```C++

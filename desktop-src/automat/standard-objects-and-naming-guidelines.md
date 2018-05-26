@@ -1,7 +1,12 @@
 ---
 title: Standard Objects and Naming Guidelines
 description: This section describes the standard ActiveX objects, and discusses naming guidelines for creating objects that are unique to applications, especially user-interactive applications that support a multiple-document interface (MDI).
-ms.assetid: '59a730c9-1068-4d02-9509-8c4cdd3b5d9e'
+ms.assetid: 59a730c9-1068-4d02-9509-8c4cdd3b5d9e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Standard Objects and Naming Guidelines
@@ -28,7 +33,7 @@ This section also provides examples in a hypothetical syntax derived from Visual
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -37,9 +42,9 @@ This section also provides examples in a hypothetical syntax derived from Visual
 [Automation Programming Reference](automation-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,16 @@
 ---
 title: HttpCalculatorWithSslPolicyClientExample
 description: This example shows how to use the wsutil generated policy helper routines to create service proxy to talk to a calculator service, with SSL transport security.
-ms.assetid: 'cf2455d4-0670-4ea2-8ee7-073698bfb765'
-keywords: ["HttpCalculatorWithSslPolicyClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: cf2455d4-0670-4ea2-8ee7-073698bfb765
+keywords:
+- HttpCalculatorWithSslPolicyClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCalculatorWithSslPolicyClientExample

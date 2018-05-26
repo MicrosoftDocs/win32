@@ -1,7 +1,12 @@
-﻿---
-Description: 'Initializes a color with the supplied red, green, blue, and alpha floating-point values.'
-ms.assetid: '61825e33-4150-47cd-97f2-2144434a45e2'
-title: 'D3DCOLOR\_COLORVALUE macro'
+---
+Description: Initializes a color with the supplied red, green, blue, and alpha floating-point values.
+ms.assetid: 61825e33-4150-47cd-97f2-2144434a45e2
+title: D3DCOLOR\_COLORVALUE macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCOLOR\_COLORVALUE macro

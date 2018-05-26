@@ -1,7 +1,12 @@
 ---
-Description: 'This class is the event type class for ALPC wait for reply events. The following syntax is simplified from MOF code.'
-ms.assetid: '9aaa2c93-41cc-4025-80f9-b7740a37c4d8'
-title: 'ALPC\_Wait\_For\_Reply class'
+Description: This class is the event type class for ALPC wait for reply events. The following syntax is simplified from MOF code.
+ms.assetid: 9aaa2c93-41cc-4025-80f9-b7740a37c4d8
+title: ALPC\_Wait\_For\_Reply class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ALPC\_Wait\_For\_Reply class
@@ -51,14 +56,14 @@ Message identifier.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

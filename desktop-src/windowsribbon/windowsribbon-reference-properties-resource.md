@@ -1,7 +1,12 @@
 ---
 title: Resource Properties
 description: Reference documentation on property keys for Ribbon framework resources.
-ms.assetid: '52f41fd9-977f-4d6e-bdef-f6c2d3a6ff66'
+ms.assetid: 52f41fd9-977f-4d6e-bdef-f6c2d3a6ff66
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Properties
@@ -24,7 +29,7 @@ Reference documentation on property keys for Ribbon framework resources.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -36,9 +41,9 @@ Reference documentation on property keys for Ribbon framework resources.
 [Specifying Ribbon Image Resources](windowsribbon-imageformats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

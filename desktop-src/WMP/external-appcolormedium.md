@@ -1,8 +1,9 @@
 ---
 title: External.appColorMedium
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: '85381b64-6d6c-4e08-9d1d-05372c0b818c'
-keywords: ["External.appColorMedium Windows Media Player"]
+ms.assetid: 85381b64-6d6c-4e08-9d1d-05372c0b818c
+keywords:
+- External.appColorMedium Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.appColorMedium
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **appColorMedium** property retrieves the current medium shaded color of the Windows Media Player user interface.
 
@@ -53,9 +59,9 @@ Users can change the color of the Windows Media Player user interface. You can u
 [**External Object for Type 2 Online Stores**](external-object-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: log
 description: Returns the base-e logarithm of the specified value.
-ms.assetid: '443e7aa7-7219-40ad-aafc-4bce09c8f596'
-keywords: ["log HLSL"]
+ms.assetid: 443e7aa7-7219-40ad-aafc-4bce09c8f596
+keywords:
+- log HLSL
 topic_type:
 - apiref
 api_name:
 - log
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # log
@@ -22,7 +28,7 @@ Returns the base-e logarithm of the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the base-e logarithm of the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The base-e logarithm of the *x* parameter. If the *x* parameter is negative, thi
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

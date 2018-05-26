@@ -1,14 +1,19 @@
-﻿---
-Description: 'Constructors exposed by XMSHORT2.'
-ms.assetid: 'f0b5c9b3-9c3c-453d-b2a1-4b9a7e80107e'
+---
+Description: Constructors exposed by XMSHORT2.
+ms.assetid: f0b5c9b3-9c3c-453d-b2a1-4b9a7e80107e
 title: XMSHORT2 constructors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMSHORT2 constructors
 
 Constructors exposed by `XMSHORT2`.
 
-Constructs instances of the [**XMSHORT2**](xmshort2.md) structure.
+Constructs instances of the [**XMSHORT2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshort2?branch=master) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -33,7 +38,7 @@ Constructs instances of the [**XMSHORT2**](xmshort2.md) structure.
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMSHORT2 ()</strong>](xmshort2-ctor-1.md)</td>
-<td style="text-align: left;">Default constructor for <code>XMSHORT2</code>. <br/> Default constructor for [<strong>XMSHORT2</strong>](xmshort2.md). <br/>
+<td style="text-align: left;">Default constructor for <code>XMSHORT2</code>. <br/> Default constructor for [<strong>XMSHORT2</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshort2?branch=master). <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -42,7 +47,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMSHORT2 (float,float)</strong>](xmshort2-ctor-4.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORT2</code> from two <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMSHORT2</strong>](xmshort2.md) from two <code>float</code> arguments. <br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMSHORT2</code> from two <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMSHORT2</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshort2?branch=master) from two <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -51,7 +56,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMSHORT2 (const float*)</strong>](xmshort2-ctor-5.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORT2</code> from a two element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMSHORT2</strong>](xmshort2.md) from a from a two element <code>float</code> array argument. <br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMSHORT2</code> from a two element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMSHORT2</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshort2?branch=master) from a from a two element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -60,7 +65,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMSHORT2 (const int16_t*)</strong>](xmshort2-ctor-3.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORT2</code> from a two element <code>int16_t</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMSHORT2</strong>](xmshort2.md) from a from a two element <code>int16_t</code> array argument. <br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMSHORT2</code> from a two element <code>int16_t</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMSHORT2</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshort2?branch=master) from a from a two element <code>int16_t</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -69,7 +74,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMSHORT2 (int16_t,int16_t)</strong>](xmshort2-ctor-2.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORT2</code> from two <code>int16_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMSHORT2</strong>](xmshort2.md) from two <code>int16_t</code> arguments. <br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMSHORT2</code> from two <code>int16_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMSHORT2</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshort2?branch=master) from two <code>int16_t</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -91,7 +96,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMSHORT2**](xmshort2.md)
+[**XMSHORT2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshort2?branch=master)
 </dt> </dl>
 
  

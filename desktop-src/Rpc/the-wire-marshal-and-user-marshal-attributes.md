@@ -1,7 +1,12 @@
 ---
 title: The wire\_marshal and user\_marshal Attributes
 description: This section discusses the implementation of programmer data type conversion using the MIDL \ wire\_marshal\ and \ user\_marshal\ attributes.
-ms.assetid: '0ee2ce86-cd14-4659-a69f-6336145359da'
+ms.assetid: 0ee2ce86-cd14-4659-a69f-6336145359da
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The wire\_marshal and user\_marshal Attributes

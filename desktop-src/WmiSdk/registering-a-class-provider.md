@@ -1,13 +1,16 @@
 ---
-Description: 'To create a WMI class provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_ClassProviderRegistration.'
+Description: To create a WMI class provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_ClassProviderRegistration.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ed834969-47e9-47df-9db8-c805b2eb71da'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ed834969-47e9-47df-9db8-c805b2eb71da
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering a Class Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering a Class Provider
@@ -32,9 +35,9 @@ The following procedure describes how to register a pull class provider.
     Within the [**\_\_ClassProviderRegistration**](--classproviderregistration.md) instance:
 
     1.  Set the **InteractionType** property to indicate whether the provider is a push or pull provider.
-    2.  Tag the class with both the [**Dynamic**](standard-wmi-qualifiers.md) and [**Provider**](provider.md) qualifiers.
+    2.  Tag the class with both the [**Dynamic**](standard-wmi-qualifiers.md) and [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifiers.
 
-        The [**Dynamic**](standard-wmi-qualifiers.md) qualifier signals that WMI should use a provider to retrieve the class instances. The [**Provider**](provider.md) qualifier specifies the name of the provider that WMI should use.
+        The [**Dynamic**](standard-wmi-qualifiers.md) qualifier signals that WMI should use a provider to retrieve the class instances. The [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifier specifies the name of the provider that WMI should use.
 
     3.  Define the **ResultSetQueries**, **ReferencedSetQueries**, and **UnsupportedQueries** properties.
 
@@ -52,7 +55,7 @@ In addition to describing the various supported methods of a class, the [**\_\_C
 
 
 
- 
+ 
 
 Because WMI does not support the OR clause, you must create a separate query for each class.
 
@@ -69,9 +72,9 @@ SELECT * FROM meta_class WHERE __Class = "MyClass3"
 
 Only administrators can register or delete a provider by creating an instance of [**\_\_Win32Provider**](--win32provider.md) and [**\_\_ClassProviderRegistration**](--classproviderregistration.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,11 +1,16 @@
-﻿---
-Description: 'Manages Shell links. This object makes much of the functionality of the IShellLink interface available to scripting applications.'
+---
+Description: Manages Shell links. This object makes much of the functionality of the IShellLink interface available to scripting applications.
 title: ShellLinkObject object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellLinkObject object
 
-Manages Shell links. This object makes much of the functionality of the [**IShellLink**](ishelllink.md) interface available to scripting applications.
+Manages Shell links. This object makes much of the functionality of the [**IShellLink**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ishelllinka?branch=master) interface available to scripting applications.
 
 ## Members
 

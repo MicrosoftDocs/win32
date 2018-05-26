@@ -1,7 +1,12 @@
 ---
 title: Using Teredo in Windows XP
-ms.assetid: '21590e3b-03de-48a4-b142-5d1934dacc38'
+ms.assetid: 21590e3b-03de-48a4-b142-5d1934dacc38
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Teredo in Windows XP

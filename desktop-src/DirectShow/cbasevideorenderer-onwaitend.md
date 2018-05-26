@@ -1,7 +1,12 @@
 ---
-Description: 'The OnWaitEnd method is called when a wait time ends.'
-ms.assetid: '283627bb-599c-4711-abc4-b5f92dfd29a5'
-title: 'CBaseVideoRenderer.OnWaitEnd method'
+Description: The OnWaitEnd method is called when a wait time ends.
+ms.assetid: 283627bb-599c-4711-abc4-b5f92dfd29a5
+title: CBaseVideoRenderer.OnWaitEnd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.OnWaitEnd method
@@ -47,9 +52,9 @@ This member function does only performance logging. It is called when the thread
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

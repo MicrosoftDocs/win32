@@ -1,7 +1,12 @@
 ---
-Description: 'The AddHead method inserts another list at the front of this list.'
-ms.assetid: '10999d93-2eb0-481f-8909-6f1184137786'
-title: 'CBaseList.AddHead method'
+Description: The AddHead method inserts another list at the front of this list.
+ms.assetid: 10999d93-2eb0-481f-8909-6f1184137786
+title: CBaseList.AddHead method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.AddHead method
@@ -13,7 +18,7 @@ The `AddHead` method inserts another list at the front of this list.
 
 ```C++
 BOOL AddHead(
-   CBaseList *pList
+   CBaseList *pList
 );
 ```
 
@@ -56,9 +61,9 @@ If the method fails, some items might have been added to the list.
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

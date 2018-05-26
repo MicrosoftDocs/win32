@@ -1,6 +1,11 @@
 ---
-ms.assetid: '7f5f925a-b3ce-4829-b9a4-cfc68ec6b50e'
+ms.assetid: 7f5f925a-b3ce-4829-b9a4-cfc68ec6b50e
 title: Distributed Routing Table Return Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Distributed Routing Table Return Values
@@ -10,7 +15,7 @@ The following error codes are commonly returned by the Distributed Routing Techn
 > [!Note]  
 > The DRT can also return [Winsock Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms740668).
 
- 
+ 
 
 
 
@@ -34,7 +39,7 @@ The following error codes are commonly returned by the Distributed Routing Techn
 | <span id="DRT_E_STILL_IN_USE"></span><span id="drt_e_still_in_use"></span><dl> <dt>**DRT\_E\_STILL\_IN\_USE**</dt> <dt>0x2003</dt> </dl>                                                                     | The DRT infrastructure is currently busy and cannot complete the operation.<br/>                                                                          |
 | <span id="DRT_E_INVALID_BOOTSTRAP_PROVIDER"></span><span id="drt_e_invalid_bootstrap_provider"></span><dl> <dt>**DRT\_E\_INVALID\_BOOTSTRAP\_PROVIDER**</dt> <dt>0x2004</dt> </dl>                           | The specified bootstrap provider is invalid.<br/>                                                                                                         |
 | <span id="DRT_E_INVALID_ADDRESS"></span><span id="drt_e_invalid_address"></span><dl> <dt>**DRT\_E\_INVALID\_ADDRESS**</dt> <dt>0x2005</dt> </dl>                                                             | The supplied address is not in the accepted and complete format, or is **NULL**.<br/>                                                                     |
-| <span id="DRT_E_INVALID_SCOPE"></span><span id="drt_e_invalid_scope"></span><dl> <dt>**DRT\_E\_INVALID\_SCOPE**</dt> <dt>0x2006</dt> </dl>                                                                   | The specified scope is not one of the values defined in [**DRT\_SCOPE**](drt-scope.md).<br/>                                                             |
+| <span id="DRT_E_INVALID_SCOPE"></span><span id="drt_e_invalid_scope"></span><dl> <dt>**DRT\_E\_INVALID\_SCOPE**</dt> <dt>0x2006</dt> </dl>                                                                   | The specified scope is not one of the values defined in [**DRT\_SCOPE**](/windows/win32/drt/ne-drt-drt_scope_tag?branch=master).<br/>                                                             |
 | <span id="DRT_E_TRANSPORT_SHUTTING_DOWN"></span><span id="drt_e_transport_shutting_down"></span><dl> <dt>**DRT\_E\_TRANSPORT\_SHUTTING\_DOWN**</dt> <dt>0x2007</dt> </dl>                                    | The specified transport is in the process of shutting down.<br/>                                                                                          |
 | <span id="DRT_E_NO_ADDRESSES_AVAILABLE"></span><span id="drt_e_no_addresses_available"></span><dl> <dt>**DRT\_E\_NO\_ADDRESSES\_AVAILABLE**</dt> <dt>0x2008</dt> </dl>                                       | There are currently no remote nodes present in the DRT.<br/>                                                                                              |
 | <span id="DRT_E_DUPLICATE_KEY"></span><span id="drt_e_duplicate_key"></span><dl> <dt>**DRT\_E\_DUPLICATE\_KEY**</dt> <dt>0x2009</dt> </dl>                                                                   | This key already exists within the DRT infrastructure.<br/>                                                                                               |
@@ -51,13 +56,13 @@ The following error codes are commonly returned by the Distributed Routing Techn
 | <span id="DRT_E_TRANSPORT_NO_DEST_ADDRESSES"></span><span id="drt_e_transport_no_dest_addresses"></span><dl> <dt>**DRT\_E\_TRANSPORT\_NO\_DEST\_ADDRESSES**</dt> <dt>0x2105</dt> </dl>                       | Destination addresses have not been supplied to the transport.<br/>                                                                                       |
 | <span id="DRT_E_TRANSPORT_EXECUTING_CALLBACK"></span><span id="drt_e_transport_executing_callback"></span><dl> <dt>**DRT\_E\_TRANSPORT\_EXECUTING\_CALLBACK**</dt> <dt>0x2106</dt> </dl>                     | The transport is currently executing a callback operation.<br/>                                                                                           |
 | <span id="DRT_E_TRANSPORT_ALREADY_EXISTS_FOR_SCOPE"></span><span id="drt_e_transport_already_exists_for_scope"></span><dl> <dt>**DRT\_E\_TRANSPORT\_ALREADY\_EXISTS\_FOR\_SCOPE**</dt> <dt>0x2107</dt> </dl> | A transport already exists for this DRT scope.<br/>                                                                                                       |
-| <span id="DRT_E_INVALID_SETTINGS"></span><span id="drt_e_invalid_settings"></span><dl> <dt>**DRT\_E\_INVALID\_SETTINGS**</dt> <dt>0x2108</dt> </dl>                                                          | The data contained in[**DRT SETTINGS**](drt-settings.md) structure is invalid or the relevant parameter value is **NULL**. <br/>                         |
-| <span id="DRT_E_INVALID_SEARCH_INFO"></span><span id="drt_e_invalid_search_info"></span><dl> <dt>**DRT\_E\_INVALID\_SEARCH\_INFO**</dt> <dt>0x2109</dt> </dl>                                                | The data contained in [**DRT\_SEARCH\_INFO**](drt-search-info.md) structure is invalid or the relevant parameter value is **NULL**. <br/>                |
-| <span id="DRT_E_FAULTED"></span><span id="drt_e_faulted"></span><dl> <dt>**DRT\_E\_FAULTED**</dt> <dt>0x210a</dt> </dl>                                                                                      | The DRT infrastructure has faulted. The [**DrtClose**](drtclose.md) function must be called, after which an attempt to re-open the DRT can be made.<br/> |
+| <span id="DRT_E_INVALID_SETTINGS"></span><span id="drt_e_invalid_settings"></span><dl> <dt>**DRT\_E\_INVALID\_SETTINGS**</dt> <dt>0x2108</dt> </dl>                                                          | The data contained in[**DRT SETTINGS**](/windows/win32/drt/ns-drt-drt_settings_tag?branch=master) structure is invalid or the relevant parameter value is **NULL**. <br/>                         |
+| <span id="DRT_E_INVALID_SEARCH_INFO"></span><span id="drt_e_invalid_search_info"></span><dl> <dt>**DRT\_E\_INVALID\_SEARCH\_INFO**</dt> <dt>0x2109</dt> </dl>                                                | The data contained in [**DRT\_SEARCH\_INFO**](/windows/win32/drt/ns-drt-drt_search_info_tag?branch=master) structure is invalid or the relevant parameter value is **NULL**. <br/>                |
+| <span id="DRT_E_FAULTED"></span><span id="drt_e_faulted"></span><dl> <dt>**DRT\_E\_FAULTED**</dt> <dt>0x210a</dt> </dl>                                                                                      | The DRT infrastructure has faulted. The [**DrtClose**](/windows/win32/drt/nf-drt-drtclose?branch=master) function must be called, after which an attempt to re-open the DRT can be made.<br/> |
 | <span id="DRT_E_TRANSPORT_STILL_BOUND"></span><span id="drt_e_transport_still_bound"></span><dl> <dt>**DRT\_E\_TRANSPORT\_STILL\_BOUND**</dt> <dt>0x210b</dt> </dl>                                          | The transport is currently bound.<br/>                                                                                                                    |
 | <span id="DRT_E_INSUFFICIENT_BUFFER"></span><span id="drt_e_insufficient_buffer"></span><dl> <dt>**DRT\_E\_INSUFFICIENT\_BUFFER**</dt> <dt>0x210c</dt> </dl>                                                 | The size of the buffer is insufficient for the operation.<br/>                                                                                            |
 | <span id="DRT_E_INVALID_INSTANCE_PREFIX"></span><span id="drt_e_invalid_instance_prefix"></span><dl> <dt>**DRT\_E\_INVALID\_INSTANCE\_PREFIX**</dt> <dt>0x210d</dt> </dl>                                    | The DRT instance prefix is invalid.<br/>                                                                                                                  |
-| <span id="DRT_E_INVALID_SECURITY_MODE"></span><span id="drt_e_invalid_security_mode"></span><dl> <dt>**DRT\_E\_INVALID\_SECURITY\_MODE**</dt> <dt>0x210e</dt> </dl>                                          | The specified security mode is not one of the values defined in [**DRT\_SECURITY\_MODE**](drt-security-mode.md).<br/>                                    |
+| <span id="DRT_E_INVALID_SECURITY_MODE"></span><span id="drt_e_invalid_security_mode"></span><dl> <dt>**DRT\_E\_INVALID\_SECURITY\_MODE**</dt> <dt>0x210e</dt> </dl>                                          | The specified security mode is not one of the values defined in [**DRT\_SECURITY\_MODE**](/windows/win32/drt/ne-drt-drt_security_mode_tag?branch=master).<br/>                                    |
 | <span id="DRT_E_CAPABILITY_MISMATCH"></span><span id="drt_e_capability_mismatch"></span><dl> <dt>**DRT\_E\_CAPABILITY\_MISMATCH**</dt> <dt>0x210f</dt> </dl>                                                 | The requested security algorithms are not available.<br/>                                                                                                 |
 
 
@@ -68,15 +73,15 @@ The following error codes are commonly returned by the Distributed Routing Techn
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows 7 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                          |
 | Header<br/>                   | <dl> <dt>Drt.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

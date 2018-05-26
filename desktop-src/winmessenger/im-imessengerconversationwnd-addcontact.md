@@ -1,8 +1,11 @@
 ---
 title: IMessengerConversationWnd AddContact method
 description: Adds another user to the current conversation.
-ms.assetid: '31500cbb-68d7-45f4-95af-2ebd8b557823'
-keywords: ["AddContact method Windows Messenger", "AddContact method Windows Messenger , IMessengerConversationWnd interface", "IMessengerConversationWnd interface Windows Messenger , AddContact method"]
+ms.assetid: 31500cbb-68d7-45f4-95af-2ebd8b557823
+keywords:
+- AddContact method Windows Messenger
+- AddContact method Windows Messenger , IMessengerConversationWnd interface
+- IMessengerConversationWnd interface Windows Messenger , AddContact method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerConversationWnd::AddContact method
 
-\[**AddContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**AddContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Adds another user to the current conversation.
 
@@ -24,7 +32,7 @@ Adds another user to the current conversation.
 
 ```C++
 HRESULT AddContact(
-  [in] VARIANT vContact
+  [in] VARIANT vContact
 );
 ```
 
@@ -47,7 +55,7 @@ Type: **VARIANT**
 
 Type: **HRESULT**
 
-Returns one of the following values. 
+Returns one of the following values. 
 
 
 
@@ -62,7 +70,7 @@ Returns one of the following values. 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,7 +87,7 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 For a table of MSGR\_E\_\* constants, see [**MSGRConstants**](im-msgrconstants.md).
 
@@ -90,7 +98,7 @@ This method does not have a return value. Therefore, parenthetical syntax should
 > [!Note]  
 > This method is available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -123,8 +131,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -138,9 +146,9 @@ End Sub
 [**IMessengerConversationWnd**](im-imessengerconversationwnd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

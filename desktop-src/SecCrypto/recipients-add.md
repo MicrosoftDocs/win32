@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds a Certificate object to a Recipients collection.'
-ms.assetid: '2a1b9e0f-ccbf-4042-871b-397de6b6fc35'
-title: 'Recipients.Add method'
+---
+Description: Adds a Certificate object to a Recipients collection.
+ms.assetid: 2a1b9e0f-ccbf-4042-871b-397de6b6fc35
+title: Recipients.Add method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recipients.Add method

@@ -1,7 +1,12 @@
 ---
 title: Direct2D
 description: .
-ms.assetid: '03b3b91c-9751-4f8d-af24-85067f06930b'
+ms.assetid: 03b3b91c-9751-4f8d-af24-85067f06930b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct2D
@@ -21,14 +26,14 @@ Direct2D is designed primarily for use by the following classes of developers:
 
 ## Run-time requirements
 
--   Windows 7 or Windows Vista with Service Pack 2 (SP2) and Platform Update for Windows Vista and later.
--   Windows Server 2008 R2 or Windows Server 2008 with Service Pack 2 (SP2) and Platform Update for Windows Server 2008 and later.
+-   Windows 7 or Windows Vista with Service Pack 2 (SP2) and Platform Update for Windows Vista and later.
+-   Windows Server 2008 R2 or Windows Server 2008 with Service Pack 2 (SP2) and Platform Update for Windows Server 2008 and later.
 
 > [!Note]
 >
-> The Platform Update for Windows Vista and Platform Update for Windows Server 2008 are a set of run-time libraries that enables developers to target applications to Windows 7, Windows Vista, Windows Server 2008 R2, and Windows Server 2008. These updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require Platform Update for Windows Vista or Platform Update for Windows Server 2008 can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background. For more information about both updates, see [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=167814).
+> The Platform Update for Windows Vista and Platform Update for Windows Server 2008 are a set of run-time libraries that enables developers to target applications to Windows 7, Windows Vista, Windows Server 2008 R2, and Windows Server 2008. These updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require Platform Update for Windows Vista or Platform Update for Windows Server 2008 can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background. For more information about both updates, see [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=167814).
 
- 
+ 
 
 ## In this section
 
@@ -48,16 +53,16 @@ Direct2D is designed primarily for use by the following classes of developers:
 
 
 
- 
+ 
 
 ## Additional resources
 
 -   [**DirectX Graphics and Gaming**](https://msdn.microsoft.com/library/windows/desktop/ee663274)
 -   [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038)
 
- 
+ 
 
- 
+ 
 
 
 

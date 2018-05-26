@@ -1,7 +1,12 @@
 ---
 title: IAgentBalloon SetFontName
 description: IAgentBalloon SetFontName
-ms.assetid: '6babf5f6-2abd-46c2-ade0-899a8e4488bd'
+ms.assetid: 6babf5f6-2abd-46c2-ade0-899a8e4488bd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentBalloon::SetFontName

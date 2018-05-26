@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates the number of redial attempts for a given fax job.'
-ms.assetid: 'ce1407ce-e72e-4673-9292-84aafaecee33'
-title: 'FaxConfiguration.Retries property'
+---
+Description: Sets or retrieves a value that indicates the number of redial attempts for a given fax job.
+ms.assetid: ce1407ce-e72e-4673-9292-84aafaecee33
+title: FaxConfiguration.Retries property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.Retries property

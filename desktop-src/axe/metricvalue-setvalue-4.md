@@ -1,8 +1,11 @@
 ---
 title: MetricValue SetValue method
 description: Sets a value of type LONGLONG to the MetricValue.
-ms.assetid: '0E7F2C41-F56D-449D-B084-4B0A56FF13A4'
-keywords: ["SetValue method Access Execution Engine", "SetValue method Access Execution Engine , MetricValue interface", "MetricValue interface Access Execution Engine , SetValue method"]
+ms.assetid: 0E7F2C41-F56D-449D-B084-4B0A56FF13A4
+keywords:
+- SetValue method Access Execution Engine
+- SetValue method Access Execution Engine , MetricValue interface
+- MetricValue interface Access Execution Engine , SetValue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricValue::SetValue method
@@ -22,7 +30,7 @@ Sets a value of type **LONGLONG** to the **MetricValue**.
 
 ```C++
 virtual HRESULT SetValue(
-  [in] LONGLONG value
+  [in] LONGLONG value
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The value is the value of element **MetricValue/Value**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The value is the value of element **MetricValue/Value**.
 [**MetricValue**](metricvalue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

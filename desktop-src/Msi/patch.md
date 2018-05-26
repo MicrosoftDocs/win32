@@ -1,12 +1,17 @@
-﻿---
-Description: 'The installer sets the PATCH property to a list of patches being applied by calling MsiApplyPatch, MsiApplyMultiplePatches or the /p Command Line Option.'
-ms.assetid: 'cd07dcb0-b9b5-4186-a916-604c40f88b5f'
+---
+Description: The installer sets the PATCH property to a list of patches being applied by calling MsiApplyPatch, MsiApplyMultiplePatches or the /p Command Line Option.
+ms.assetid: cd07dcb0-b9b5-4186-a916-604c40f88b5f
 title: PATCH property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PATCH property
 
-The installer sets the **PATCH** property to a list of patches being applied by calling [**MsiApplyPatch**](msiapplypatch.md), [**MsiApplyMultiplePatches**](msiapplymultiplepatches.md) or the /p [Command Line Option](command-line-options.md). You can also set the **PATCH** property on the command line while installing a package using [**MsiInstallProduct**](msiinstallproduct.md) or the /i Command Line Option.
+The installer sets the **PATCH** property to a list of patches being applied by calling [**MsiApplyPatch**](/windows/win32/Msi/nf-msi-msiapplypatcha?branch=master), [**MsiApplyMultiplePatches**](/windows/win32/Msi/nf-msi-msiapplymultiplepatchesa?branch=master) or the /p [Command Line Option](command-line-options.md). You can also set the **PATCH** property on the command line while installing a package using [**MsiInstallProduct**](/windows/win32/Msi/nf-msi-msiinstallproducta?branch=master) or the /i Command Line Option.
 
 The value of the **PATCH** property is a list of the patches that are being installed. Each patch in the list is represented by the full path to the patch's package (.msp file.) The full paths in the list are separated by semicolons.
 

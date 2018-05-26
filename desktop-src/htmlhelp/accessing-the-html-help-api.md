@@ -1,7 +1,12 @@
 ---
 title: Accessing the HTML Help API
 description: The functionality provided by the HTML Help API resides in the HTML Help ActiveX control (Hhctrl.ocx), which is installed when you set up HTML Help Workshop.
-ms.assetid: 'CEC91F48-11CE-4187-B6DB-21C3FB100784'
+ms.assetid: CEC91F48-11CE-4187-B6DB-21C3FB100784
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing the HTML Help API

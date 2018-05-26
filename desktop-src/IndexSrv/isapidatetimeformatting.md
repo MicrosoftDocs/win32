@@ -1,7 +1,12 @@
 ---
 title: IsapiDateTimeFormatting
 description: IsapiDateTimeFormatting
-ms.assetid: 'bce4b128-07e2-4213-8f53-8e435df9292d'
+ms.assetid: bce4b128-07e2-4213-8f53-8e435df9292d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsapiDateTimeFormatting

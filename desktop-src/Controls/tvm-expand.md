@@ -1,8 +1,9 @@
 ---
 title: TVM\_EXPAND message
 description: The TVM\_EXPAND message expands or collapses the list of child items associated with the specified parent item, if any. You can send this message explicitly or by using the TreeView\_Expand macro.
-ms.assetid: 'd6c2e5b2-ce36-4c2b-b527-91c6de56e305'
-keywords: ["TVM_EXPAND message Windows Controls"]
+ms.assetid: d6c2e5b2-ce36-4c2b-b527-91c6de56e305
+keywords:
+- TVM_EXPAND message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_EXPAND message
 
-The **TVM\_EXPAND** message expands or collapses the list of child items associated with the specified parent item, if any. You can send this message explicitly or by using the [**TreeView\_Expand**](treeview-expand.md) macro.
+The **TVM\_EXPAND** message expands or collapses the list of child items associated with the specified parent item, if any. You can send this message explicitly or by using the [**TreeView\_Expand**](/windows/win32/Commctrl/nf-commctrl-treeview_expand?branch=master) macro.
 
 ## Parameters
 
@@ -38,7 +44,7 @@ Action flag. This parameter can be one or more of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -67,15 +73,15 @@ The expand operation may fail if the owner of the treeview control denies the op
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

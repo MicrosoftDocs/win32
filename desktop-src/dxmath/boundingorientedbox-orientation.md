@@ -1,12 +1,17 @@
-﻿---
-Description: 'The orientation of the BoundingOrientedBox represented as a quaternion.'
-ms.assetid: '9f765328-4bce-470e-a591-52376b572543'
-title: 'BoundingOrientedBox.Orientation'
+---
+Description: The orientation of the BoundingOrientedBox represented as a quaternion.
+ms.assetid: 9f765328-4bce-470e-a591-52376b572543
+title: BoundingOrientedBox.Orientation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingOrientedBox.Orientation
 
-The orientation of the [**BoundingOrientedBox**](boundingorientedbox.md) represented as a quaternion.
+The orientation of the [**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master) represented as a quaternion.
 
 
 ```C++
@@ -42,7 +47,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](boundingorientedbox.md)
+[**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master)
 </dt> </dl>
 
  

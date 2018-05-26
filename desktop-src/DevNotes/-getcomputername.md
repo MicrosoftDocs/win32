@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the computer name.'
-ms.assetid: '8b6fd61a-dd5a-46b8-920e-cc8a848732b6'
+---
+Description: Gets the computer name.
+ms.assetid: 8b6fd61a-dd5a-46b8-920e-cc8a848732b6
 title: '\_GetComputerName function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_GetComputerName function

@@ -1,19 +1,24 @@
 ---
-Description: 'The put\_Rate method sets the playback rate. This method implements the IMediaPosition::put\_Rate method.'
-ms.assetid: 'c077f344-de34-4f8a-8e08-6d7086a5a4f1'
-title: 'CPosPassThru.put\_Rate method'
+Description: The put\_Rate method sets the playback rate. This method implements the IMediaPositionput\_Rate method.
+ms.assetid: c077f344-de34-4f8a-8e08-6d7086a5a4f1
+title: CPosPassThru.put\_Rate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.put\_Rate method
 
-The `put_Rate` method sets the playback rate. This method implements the [**IMediaPosition::put\_Rate**](imediaposition-put-rate.md) method.
+The `put_Rate` method sets the playback rate. This method implements the [**IMediaPosition::put\_Rate**](/windows/win32/Control/nf-control-imediaposition-put_rate?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT put_Rate(
-   double dRate
+   double dRate
 );
 ```
 
@@ -56,9 +61,9 @@ Negative rates indicate reverse play. Not all media will support reverse play.
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

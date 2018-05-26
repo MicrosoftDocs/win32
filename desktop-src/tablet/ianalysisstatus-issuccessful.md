@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a Boolean summary of the results of the analysis operation.'
-ms.assetid: '9bc690f4-fb5f-449e-bde0-bd2277c4573b'
-title: 'IAnalysisStatus::IsSuccessful method'
+Description: Retrieves a Boolean summary of the results of the analysis operation.
+ms.assetid: 9bc690f4-fb5f-449e-bde0-bd2277c4573b
+title: IAnalysisStatusIsSuccessful method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisStatus::IsSuccessful method
@@ -13,7 +18,7 @@ Retrieves a Boolean summary of the results of the analysis operation.
 
 ```C++
 HRESULT IsSuccessful(
-  [out] VARIANT_BOOL *pfSuccessful
+  [out] VARIANT_BOOL *pfSuccessful
 );
 ```
 
@@ -123,7 +128,7 @@ STDMETHODIMP CMyClass::Results(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -140,9 +145,9 @@ STDMETHODIMP CMyClass::Results(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

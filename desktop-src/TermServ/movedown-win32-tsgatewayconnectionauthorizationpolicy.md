@@ -4,11 +4,14 @@ description: Moves the current Remote Desktop connection authorization policy (R
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '57349e59-e200-4789-bbcb-d474eacde39d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 57349e59-e200-4789-bbcb-d474eacde39d
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["MoveDown method Remote Desktop Services", "MoveDown method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class", "Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , MoveDown method"]
+keywords:
+- MoveDown method Remote Desktop Services
+- MoveDown method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class
+- Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , MoveDown method
 topic_type:
 - apiref
 api_name:
@@ -17,11 +20,14 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MoveDown method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
 
-Moves the current Remote Desktop connection authorization policy (RD CAP) one position down in the order that RD CAPs are evaluated. This method increments the **Order** property of the current RD CAP and decrements the **Order** property of the RD CAP that followed the current RD CAP.
+Moves the current Remote Desktop connection authorization policy (RD CAP) one position down in the order that RD CAPs are evaluated. This method increments the **Order** property of the current RD CAP and decrements the **Order** property of the RD CAP that followed the current RD CAP.
 
 ## Syntax
 
@@ -53,7 +59,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -70,9 +76,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**MoveUp**](moveup-win32-tsgatewayconnectionauthorizationpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IDatabaseStream CompareDatabase method
 description: Determines whether a stream belongs to the given database.
-ms.assetid: '608a1237-58a3-4ac2-bec1-2619d621a31b'
-keywords: ["CompareDatabase method Windows Mail (formerly Outlook Express)", "CompareDatabase method Windows Mail (formerly Outlook Express) , IDatabaseStream interface", "IDatabaseStream interface Windows Mail (formerly Outlook Express) , CompareDatabase method"]
+ms.assetid: 608a1237-58a3-4ac2-bec1-2619d621a31b
+keywords:
+- CompareDatabase method Windows Mail (formerly Outlook Express)
+- CompareDatabase method Windows Mail (formerly Outlook Express) , IDatabaseStream interface
+- IDatabaseStream interface Windows Mail (formerly Outlook Express) , CompareDatabase method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabaseStream::CompareDatabase method
@@ -22,7 +30,7 @@ Determines whether a stream belongs to the given database.
 
 ```C++
 HRESULT CompareDatabase(
-  [in] IDatabase *pDatabase
+  [in] IDatabase *pDatabase
 );
 ```
 
@@ -56,7 +64,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,16 +72,16 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

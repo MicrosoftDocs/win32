@@ -1,8 +1,9 @@
 ---
 title: TVM\_GETSCROLLTIME message
 description: Retrieves the maximum scroll time for the tree-view control. You can send this message explicitly or by using the TreeView\_GetScrollTime macro.
-ms.assetid: '992d1906-cda3-4ac7-ba90-c681c551ac2e'
-keywords: ["TVM_GETSCROLLTIME message Windows Controls"]
+ms.assetid: 992d1906-cda3-4ac7-ba90-c681c551ac2e
+keywords:
+- TVM_GETSCROLLTIME message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_GETSCROLLTIME message
 
-Retrieves the maximum scroll time for the tree-view control. You can send this message explicitly or by using the [**TreeView\_GetScrollTime**](treeview-getscrolltime.md) macro.
+Retrieves the maximum scroll time for the tree-view control. You can send this message explicitly or by using the [**TreeView\_GetScrollTime**](/windows/win32/Commctrl/nf-commctrl-treeview_getscrolltime?branch=master) macro.
 
 ## Parameters
 
@@ -41,8 +47,8 @@ The maximum scroll time is the longest amount of time that a scroll operation ca
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ The maximum scroll time is the longest amount of time that a scroll operation ca
 [**TVM\_SETSCROLLTIME**](tvm-setscrolltime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

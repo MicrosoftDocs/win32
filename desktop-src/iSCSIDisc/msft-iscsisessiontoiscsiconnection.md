@@ -1,7 +1,12 @@
-﻿---
-Description: 'Association between iSCSISession and iSCSIConnection.'
-ms.assetid: '4C4C2035-D8D0-46D0-B9C2-A3189871A525'
-title: 'MSFT\_iSCSISessionToiSCSIConnection class'
+---
+Description: Association between iSCSISession and iSCSIConnection.
+ms.assetid: 4C4C2035-D8D0-46D0-B9C2-A3189871A525
+title: MSFT\_iSCSISessionToiSCSIConnection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_iSCSISessionToiSCSIConnection class

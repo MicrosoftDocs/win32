@@ -4,10 +4,13 @@ description: Typically, host-based services create SCPs under the computer objec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ecd7d8bc-4714-408a-856c-7cab8360bf81'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ecd7d8bc-4714-408a-856c-7cab8360bf81
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Publishing Under a Computer Object

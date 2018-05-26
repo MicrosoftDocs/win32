@@ -4,11 +4,14 @@ description: Gets a value that indicates whether the file can be read from. Impl
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ProtectedFileStream.CanRead'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ProtectedFileStream.CanRead
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CanRead property", "CanRead property, ProtectedFileStream class", "ProtectedFileStream class, CanRead property"]
+keywords:
+- CanRead property
+- CanRead property, ProtectedFileStream class
+- ProtectedFileStream class, CanRead property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileStream.CanRead property
@@ -63,9 +69,9 @@ Type: [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx)
 [**ProtectedFileStream**](protectedfilestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: NPS fully supports the Remote Authentication Dial-In User Service (
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3e00d555-355c-4a4c-a389-ab44e9ed9ca9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 3e00d555-355c-4a4c-a389-ab44e9ed9ca9
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RADIUS Authentication, Authorization, and Accounting

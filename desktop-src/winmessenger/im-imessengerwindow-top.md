@@ -1,8 +1,11 @@
 ---
 title: IMessengerWindow Top property
 description: Sets or retrieves the vertical position of a Messenger window relative to the screen, in pixels.
-ms.assetid: 'c468e128-728b-4e8a-a648-bd39c51fd639'
-keywords: ["Top property Windows Messenger", "Top property Windows Messenger , IMessengerWindow interface", "IMessengerWindow interface Windows Messenger , Top property"]
+ms.assetid: c468e128-728b-4e8a-a648-bd39c51fd639
+keywords:
+- Top property Windows Messenger
+- Top property Windows Messenger , IMessengerWindow interface
+- IMessengerWindow interface Windows Messenger , Top property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerWindow::Top property
 
-\[**Top** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Top** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Sets or retrieves the vertical position of a Messenger window relative to the screen, in pixels.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Top(
-  [in]          LONG lTop
+  [in]          LONG lTop
 );
 
 HRESULT get_Top(
-  [out, retval] LONG *plTop
+  [out, retval] LONG *plTop
 );
 ```
 
@@ -68,7 +76,7 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 If the Messenger window is minimized, the value retrieved will be a seemingly out-of-range value (&gt;= -32000). This behavior is fairly common in automation APIs. If the Messenger window is closed through API or user action, this method fails to get a value and returns E\_FAIL.
 
@@ -77,7 +85,7 @@ If this method is called on the [**IMessengerWindow**](im-imessengerwindow.md) i
 > [!Note]  
 > This property is not available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -104,17 +112,17 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

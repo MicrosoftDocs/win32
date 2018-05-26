@@ -1,7 +1,12 @@
 ---
 title: IAgentPropertySheet
 description: IAgentPropertySheet
-ms.assetid: 'f81091e7-c165-43ac-90ac-c60ffd1bbe79'
+ms.assetid: f81091e7-c165-43ac-90ac-c60ffd1bbe79
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentPropertySheet

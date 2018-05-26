@@ -1,8 +1,11 @@
 ---
 title: Assessment GetId method
 description: Returns the ID of the assessment, a GUID.
-ms.assetid: '2DA8C60D-C15D-406E-8DDF-59A313C5B333'
-keywords: ["GetId method Access Execution Engine", "GetId method Access Execution Engine , Assessment interface", "Assessment interface Access Execution Engine , GetId method"]
+ms.assetid: 2DA8C60D-C15D-406E-8DDF-59A313C5B333
+keywords:
+- GetId method Access Execution Engine
+- GetId method Access Execution Engine , Assessment interface
+- Assessment interface Access Execution Engine , GetId method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assessment::GetId method
@@ -22,7 +30,7 @@ Returns the ID of the assessment, a GUID.
 
 ```C++
 virtual HRESULT GetId(
-  [out] const GUID **guidAssessment
+  [out] const GUID **guidAssessment
 ) const = 0;
 ```
 
@@ -49,8 +57,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -63,9 +71,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**Assessment**](assessment-inf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: dataType Complex Type
 description: Defines a base type.
-ms.assetid: '1f9013fd-b59c-48f6-9de2-a2e7e2bf3d23'
-keywords: ["dataType complex type Task Scheduler"]
+ms.assetid: 1f9013fd-b59c-48f6-9de2-a2e7e2bf3d23
+keywords:
+- dataType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - dataType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dataType Complex Type
@@ -31,8 +37,8 @@ Defines a base type.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -46,9 +52,9 @@ Defines a base type.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

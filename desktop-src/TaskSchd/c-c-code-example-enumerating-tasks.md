@@ -1,7 +1,12 @@
 ---
 title: C/C++ Code Example Enumerating Tasks
 description: This example enumerates all the tasks in the Scheduled Tasks folder of the local computer and prints the name of each task on the screen.
-ms.assetid: '3a6a2262-cc5e-469e-b9f0-981879beb4ef'
+ms.assetid: 3a6a2262-cc5e-469e-b9f0-981879beb4ef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Enumerating Tasks

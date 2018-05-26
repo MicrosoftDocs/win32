@@ -1,7 +1,12 @@
 ---
 title: Reference
 description: Contains the reference content for Automation.
-ms.assetid: '75622ac1-a458-4e74-9e7f-371f8c7dbe19'
+ms.assetid: 75622ac1-a458-4e74-9e7f-371f8c7dbe19
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reference

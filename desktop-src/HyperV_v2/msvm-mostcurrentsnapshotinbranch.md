@@ -1,7 +1,12 @@
 ---
-Description: 'Associates an instance of the Msvm\_ComputerSystem or Msvm\_PlannedComputerSystem class representing a virtual system, with an instance of the Msvm\_VirtualSystemSettingData class representing the virtual system snapshot that is the most current snapshot in a branch of dependent snapshots.'
-ms.assetid: 'EEB9D2C1-C463-4EFE-862F-95E8AD8E1753'
-title: 'Msvm\_MostCurrentSnapshotInBranch class'
+Description: Associates an instance of the Msvm\_ComputerSystem or Msvm\_PlannedComputerSystem class representing a virtual system, with an instance of the Msvm\_VirtualSystemSettingData class representing the virtual system snapshot that is the most current snapshot in a branch of dependent snapshots.
+ms.assetid: EEB9D2C1-C463-4EFE-862F-95E8AD8E1753
+title: Msvm\_MostCurrentSnapshotInBranch class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_MostCurrentSnapshotInBranch class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Experimental, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_MostCurrentSnapshotInBranch : CIM_MostCurrentSnapshotInBranch
 {
-  CIM_ComputerSystem            REF Antecedent;
+  CIM_ComputerSystem            REF Antecedent;
   Msvm_VirtualSystemSettingData REF Dependent;
 };
 ```
@@ -71,17 +76,17 @@ A reference to an instance of the [**Msvm\_VirtualSystemSettingData**](msvm-virt
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

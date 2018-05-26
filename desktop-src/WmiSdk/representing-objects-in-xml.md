@@ -1,20 +1,23 @@
 ---
-Description: 'Generates XML representations of objects.'
+Description: Generates XML representations of objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '06d2b532-7ab2-489d-9021-27b5187c8f2b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 06d2b532-7ab2-489d-9021-27b5187c8f2b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Representing Objects in XML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Representing Objects in XML
 
 The XML encoder component in WMI generates XML representations of objects.
 
-In C++, you can start the XML encoder with a call to the [**IWbemObjectTextSrc.GetText**](iwbemobjecttextsrc-gettext.md) method, specifying the object to be represented in XML and the text format to use in the representation. For more information and a code example, see To encode an object in XML using C/C++.
+In C++, you can start the XML encoder with a call to the [**IWbemObjectTextSrc.GetText**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjecttextsrc-gettext?branch=master) method, specifying the object to be represented in XML and the text format to use in the representation. For more information and a code example, see To encode an object in XML using C/C++.
 
 In VBScript or Visual Basic, to encode data for an XML instance, call [**SWbemObjectEx.GetText**](swbemobjectex-gettext-.md). For more information and a code example, see To encode an object in XML using VBScript.
 
@@ -36,9 +39,9 @@ The following procedure describes how to encode an object in XML using C or C++.
 
     Because WMI is based on COM technology, you must perform the requisite calls to the [**CoInitializeEx**](_com_coinitializeex) and [**CoInitializeSecurity**](_com_coinitializesecurity) functions to access WMI. For more information, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
 
-2.  Optionally, create an [**IWbemContext**](iwbemcontext.md) object and initialize it.
+2.  Optionally, create an [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) object and initialize it.
 
-    You do not need to create the [**IWbemContext**](iwbemcontext.md) object unless you need to change the default operation. The context object is used by the XML encoder to control the amount of information included in the object's XML representation.
+    You do not need to create the [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) object unless you need to change the default operation. The context object is used by the XML encoder to control the amount of information included in the object's XML representation.
 
     The following table lists the optional values that can be specified for the context object.
 
@@ -77,7 +80,7 @@ The following procedure describes how to encode an object in XML using C or C++.
 
     
 
-     
+     
 
     The following code example shows how the context object is initialized to include qualifiers and exclude system properties.
 
@@ -121,7 +124,7 @@ The following procedure describes how to encode an object in XML using C or C++.
 
 3.  Get a reference to the class or instance to encode in XML.
 
-    After you have initialized COM and are connected to WMI, call [**GetObject**](iwbemservices-getobject.md) to retrieve a reference to the specified class or instance. If you used a BSTR to specify the class or instance, call [**SysFreeString**](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) to free up the memory allocated by [**SysAllocString**](9e0437a2-9b4a-4576-88b0-5cb9d08ca29b).
+    After you have initialized COM and are connected to WMI, call [**GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) to retrieve a reference to the specified class or instance. If you used a BSTR to specify the class or instance, call [**SysFreeString**](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) to free up the memory allocated by [**SysAllocString**](9e0437a2-9b4a-4576-88b0-5cb9d08ca29b).
 
     The following code example retrieves a reference to an [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) instance.
 
@@ -146,11 +149,11 @@ The following procedure describes how to encode an object in XML using C or C++.
 
     
 
-4.  Create an [**IWbemObjectTextSrc**](iwbemobjecttextsrc.md) object.
+4.  Create an [**IWbemObjectTextSrc**](/windows/win32/Wbemcli/nn-wbemcli-iwbemobjecttextsrc?branch=master) object.
 
-    After you have a reference to an object you must create the [**IWbemObjectTextSrc**](iwbemobjecttextsrc.md) object with a call to [**CoCreateInstance**](_com_cocreateinstance). The **IWbemObjectTextSrc** object is used to generate the actual XML text.
+    After you have a reference to an object you must create the [**IWbemObjectTextSrc**](/windows/win32/Wbemcli/nn-wbemcli-iwbemobjecttextsrc?branch=master) object with a call to [**CoCreateInstance**](_com_cocreateinstance). The **IWbemObjectTextSrc** object is used to generate the actual XML text.
 
-    The following code example shows how to create an [**IWbemObjectTextSrc**](iwbemobjecttextsrc.md) object by calling [**CoCreateInstance**](_com_cocreateinstance).
+    The following code example shows how to create an [**IWbemObjectTextSrc**](/windows/win32/Wbemcli/nn-wbemcli-iwbemobjecttextsrc?branch=master) object by calling [**CoCreateInstance**](_com_cocreateinstance).
 
     ```C++
     HRESULT hr = NULL;
@@ -171,11 +174,11 @@ The following procedure describes how to encode an object in XML using C or C++.
 
     
 
-5.  Invoke the [**IWbemObjectTextSrc.GetText**](iwbemobjecttextsrc-gettext.md) method to get an XML representation of an object.
+5.  Invoke the [**IWbemObjectTextSrc.GetText**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjecttextsrc-gettext?branch=master) method to get an XML representation of an object.
 
-    After setting the context for the object's representation, getting a reference to the object, and creating an [**IWbemObjectTextSrc**](iwbemobjecttextsrc.md) object, you are ready to generate an XML representation of the specified object by calling the [**IWbemObjectTextSrc.GetText**](iwbemobjecttextsrc-gettext.md) method.
+    After setting the context for the object's representation, getting a reference to the object, and creating an [**IWbemObjectTextSrc**](/windows/win32/Wbemcli/nn-wbemcli-iwbemobjecttextsrc?branch=master) object, you are ready to generate an XML representation of the specified object by calling the [**IWbemObjectTextSrc.GetText**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjecttextsrc-gettext?branch=master) method.
 
-    The following C++ example code generates an XML representation of the object referenced by *pClass*. The XML representation is returned in *strText*. The third parameter of [**GetText**](iwbemobjecttextsrc.md) specifies the text format to be used for the XML and must be either WMI\_OBJ\_TEXT\_CIM\_DTD\_2\_0 (0x1) or WMI\_OBJ\_TEXT\_WMI\_DTD\_2\_0 (0x2). For more information about these values, see [**IWbemObjectTextSrc::GetText**](iwbemobjecttextsrc-gettext.md) Parameter Values.
+    The following C++ example code generates an XML representation of the object referenced by *pClass*. The XML representation is returned in *strText*. The third parameter of [**GetText**](/windows/win32/Wbemcli/nn-wbemcli-iwbemobjecttextsrc?branch=master) specifies the text format to be used for the XML and must be either WMI\_OBJ\_TEXT\_CIM\_DTD\_2\_0 (0x1) or WMI\_OBJ\_TEXT\_WMI\_DTD\_2\_0 (0x2). For more information about these values, see [**IWbemObjectTextSrc::GetText**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjecttextsrc-gettext?branch=master) Parameter Values.
 
     ```C++
     HRESULT hr = NULL;
@@ -483,9 +486,9 @@ wscript.echo xml.xml
 [Using WMI](using-wmi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

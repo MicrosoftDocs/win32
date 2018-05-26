@@ -1,14 +1,19 @@
 ---
 title: Calling a Method with No Arguments
 description: The simplest use of Invoke is to call a method that does not have any arguments. You only need to pass the DISPID of the method, a LCID, the DISPATCH\_METHOD flag, and an empty DISPPARAMS structure.
-ms.assetid: 'b2d18dcb-2e3c-43d1-8692-33caebc66086'
+ms.assetid: b2d18dcb-2e3c-43d1-8692-33caebc66086
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calling a Method with No Arguments
 
-The simplest use of [**Invoke**](idispatch-invoke.md) is to call a method that does not have any arguments. You only need to pass the DISPID of the method, a LCID, the DISPATCH\_METHOD flag, and an empty DISPPARAMS structure.
+The simplest use of [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master) is to call a method that does not have any arguments. You only need to pass the DISPID of the method, a LCID, the DISPATCH\_METHOD flag, and an empty DISPPARAMS structure.
 
-The following example demonstrates the simplest use of [**Invoke**](idispatch-invoke.md). Error handling has been omitted for brevity.
+The following example demonstrates the simplest use of [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master). Error handling has been omitted for brevity.
 
 
 ```C++
@@ -40,9 +45,9 @@ hresult = pdisp->Invoke(
 
 
 
-The example invokes a method named "Simple" on an object of the class CMyObject. First, it calls **CoCreateInstance**, which instantiates the object and returns a pointer to the object's **IUnknown** interface (punk). Next, it calls **QueryInterface**, receiving a pointer to the object's [**IDispatch**](idispatch.md) interface (pdisp). It then uses pdisp to call the object's [**GetIDsOfNames**](idispatch-getidsofnames.md) function, passing the string "Simple" in szMember to get the DISPID for the **Simple** method. With the DISPID for **Simple** in dispid, it calls [**Invoke**](idispatch-invoke.md) to invoke the method, specifying DISPATCH\_METHOD for the wFlags parameter and using the system default locale.
+The example invokes a method named "Simple" on an object of the class CMyObject. First, it calls **CoCreateInstance**, which instantiates the object and returns a pointer to the object's **IUnknown** interface (punk). Next, it calls **QueryInterface**, receiving a pointer to the object's [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface (pdisp). It then uses pdisp to call the object's [**GetIDsOfNames**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-getidsofnames?branch=master) function, passing the string "Simple" in szMember to get the DISPID for the **Simple** method. With the DISPID for **Simple** in dispid, it calls [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master) to invoke the method, specifying DISPATCH\_METHOD for the wFlags parameter and using the system default locale.
 
-To further simplify the code, the example declares a DISPPARAMS structure named dispparamsNoArgs that is appropriate to an [**Invoke**](idispatch-invoke.md) call with no arguments.
+To further simplify the code, the example declares a DISPPARAMS structure named dispparamsNoArgs that is appropriate to an [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master) call with no arguments.
 
 Because the **Simple** method does not take any arguments and does not return a result, the puArgErr and pVarResult parameters are Null. In addition, the example passes Null for pExcepInfo, indicating that it is not prepared to handle exceptions and will handle only HRESULT errors.
 

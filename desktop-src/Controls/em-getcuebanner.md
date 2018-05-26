@@ -1,8 +1,9 @@
 ---
 title: EM\_GETCUEBANNER message
 description: Gets the text that is displayed as the textual cue, or tip, in an edit control.
-ms.assetid: '311b783a-cd78-440f-bfc2-f5108ae7d1f8'
-keywords: ["EM_GETCUEBANNER message Windows Controls"]
+ms.assetid: 311b783a-cd78-440f-bfc2-f5108ae7d1f8
+keywords:
+- EM_GETCUEBANNER message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETCUEBANNER message
@@ -44,7 +50,7 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -52,8 +58,8 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -62,12 +68,12 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 
 <dl> <dt>
 
-[**Edit\_GetCueBannerText**](edit-getcuebannertext.md)
+[**Edit\_GetCueBannerText**](/windows/win32/Commctrl/nf-commctrl-edit_getcuebannertext?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

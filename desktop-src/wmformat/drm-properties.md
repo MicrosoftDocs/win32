@@ -1,8 +1,18 @@
 ---
 title: DRM Properties
 description: DRM Properties
-ms.assetid: '862fc8bc-6e40-4496-862a-c12c8a382116'
-keywords: ["Windows Media Format SDK,DRM properties", "Advanced Systems Format (ASF),DRM properties", "ASF (Advanced Systems Format),DRM properties", "digital rights management (DRM),properties", "DRM (digital rights management),properties"]
+ms.assetid: 862fc8bc-6e40-4496-862a-c12c8a382116
+keywords:
+- Windows Media Format SDK,DRM properties
+- Advanced Systems Format (ASF),DRM properties
+- ASF (Advanced Systems Format),DRM properties
+- digital rights management (DRM),properties
+- DRM (digital rights management),properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM Properties

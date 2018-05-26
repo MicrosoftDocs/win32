@@ -4,13 +4,16 @@ description: Creates a MSISCSITARGET\_StorageHardwareID instance, and creates th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '365c7c3f-c86c-4c52-a84a-17651c6b220f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 365c7c3f-c86c-4c52-a84a-17651c6b220f
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateStorageHardwareID method iSCSI Software Target API", "CreateStorageHardwareID method iSCSI Software Target API , MSISCSITARGET_StorageHardwareIDManagementService class", "MSISCSITARGET_StorageHardwareIDManagementService class iSCSI Software Target API , CreateStorageHardwareID method"]
+keywords:
+- CreateStorageHardwareID method iSCSI Software Target API
+- CreateStorageHardwareID method iSCSI Software Target API , MSISCSITARGET_StorageHardwareIDManagementService class
+- MSISCSITARGET_StorageHardwareIDManagementService class iSCSI Software Target API , CreateStorageHardwareID method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateStorageHardwareID method of the MSISCSITARGET\_StorageHardwareIDManagementService class
@@ -32,12 +38,12 @@ This method overrides the method inherited from the **CIM\_StorageHardwareIDMana
 
 ```mof
 uint32 CreateStorageHardwareID(
-  [in]  string                           ElementName,
-  [in]  string                           StorageID,
-  [in]  uint16                           IDType,
-  [in]  string                           OtherIDType,
-  [in]  CIM_StorageClientSettingData REF Setting,
-  [out] CIM_StorageHardwareID        REF HardwareID
+  [in]  string                           ElementName,
+  [in]  string                           StorageID,
+  [in]  uint16                           IDType,
+  [in]  string                           OtherIDType,
+  [in]  CIM_StorageClientSettingData REF Setting,
+  [out] CIM_StorageHardwareID        REF HardwareID
 );
 ```
 
@@ -69,7 +75,7 @@ Specifies the type of the *StorageID* parameter.
 > [!Note]  
 > An **iSCSI Name** can be in any one of three iSCSI formats, IQN, EUI, or NAA.
 
- 
+ 
 
 Possible values are.
 
@@ -162,7 +168,7 @@ On return, contains a reference to the [**MSISCSITARGET\_StorageHardwareID**](ms
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **ID already created** (4096)
@@ -171,10 +177,10 @@ On return, contains a reference to the [**MSISCSITARGET\_StorageHardwareID**](ms
 **Hardware implementation does not support specified IDType** (4097)
 </dt> <dt>
 
-**Method Reserved** (4099–32767)
+**Method Reserved** (4099 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -184,7 +190,7 @@ On return, contains a reference to the [**MSISCSITARGET\_StorageHardwareID**](ms
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -198,9 +204,9 @@ On return, contains a reference to the [**MSISCSITARGET\_StorageHardwareID**](ms
 [**MSISCSITARGET\_StorageHardwareIDManagementService**](msiscsitarget-storagehardwareidmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

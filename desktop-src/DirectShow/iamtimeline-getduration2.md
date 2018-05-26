@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetDuration2 method retrieves the duration of the timeline. This method is equivalent to IAMTimeline::GetDuration, but takes a parameter of type double.'
-ms.assetid: '49f5eed3-7fab-4f08-b65c-300349b197cb'
-title: 'IAMTimeline::GetDuration2 method'
+---
+Description: The GetDuration2 method retrieves the duration of the timeline. This method is equivalent to IAMTimelineGetDuration, but takes a parameter of type double.
+ms.assetid: 49f5eed3-7fab-4f08-b65c-300349b197cb
+title: IAMTimelineGetDuration2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::GetDuration2 method

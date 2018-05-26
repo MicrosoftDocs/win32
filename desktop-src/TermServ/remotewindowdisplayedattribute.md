@@ -4,11 +4,12 @@ description: Used with the method to specify information about the event.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '22549063-6979-48F2-AEA5-94BFC848C707'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 22549063-6979-48F2-AEA5-94BFC848C707
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RemoteWindowDisplayedAttribute enumeration Remote Desktop Services"]
+keywords:
+- RemoteWindowDisplayedAttribute enumeration Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
 ---
 
 # RemoteWindowDisplayedAttribute enumeration
@@ -28,9 +32,9 @@ Used with the method to specify information about the event.
 
 ```C++
 typedef enum  { 
-  remoteAppWindowNone          = 0,
-  remoteAppWindowDisplayed     = 1,
-  remoteAppShellIconDisplayed  = 2
+  remoteAppWindowNone          = 0,
+  remoteAppWindowDisplayed     = 1,
+  remoteAppShellIconDisplayed  = 2
 } RemoteWindowDisplayedAttribute;
 ```
 
@@ -55,8 +59,8 @@ typedef enum  {
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
 
@@ -68,9 +72,9 @@ typedef enum  {
 [**OnRemoteWindowDisplayed**](imstscaxevents-onremotewindowdisplayed.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

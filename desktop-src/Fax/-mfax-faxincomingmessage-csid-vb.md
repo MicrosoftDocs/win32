@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CSID property is a null-terminated string that contains the called station identifier (CSID) for the inbound fax message.'
-ms.assetid: '464f15b6-0b52-4b6c-8a33-c1667ba36f13'
-title: 'FaxIncomingMessage.CSID property'
+---
+Description: The CSID property is a null-terminated string that contains the called station identifier (CSID) for the inbound fax message.
+ms.assetid: 464f15b6-0b52-4b6c-8a33-c1667ba36f13
+title: FaxIncomingMessage.CSID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.CSID property
@@ -46,7 +51,7 @@ A **String** that receives the CSID for the inbound fax message.
 [**FaxIncomingMessage**](-mfax-faxincomingmessage.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage**](-mfax-faxincomingmessage-cpp.md)
+[**IFaxIncomingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage?branch=master)
 </dt> </dl>
 
  

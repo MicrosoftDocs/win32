@@ -4,11 +4,12 @@ description: Used to pass flags to the server to control various search behavior
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b6cb2c8a-b278-4876-8b18-a877ade01c0d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: b6cb2c8a-b278-4876-8b18-a877ade01c0d
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_SERVER_SEARCH_OPTIONS_OID control code LDAP"]
+keywords:
+- LDAP_SERVER_SEARCH_OPTIONS_OID control code LDAP
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Ntldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_SERVER\_SEARCH\_OPTIONS\_OID control code
 
 The LDAP\_SERVER\_SEARCH\_OPTIONS\_OID control is used to pass flags to the server to control various search behaviors.
 
-To use this control, set the members of the [**LDAPControl**](ldapcontrol.md) structure as follows:
+To use this control, set the members of the [**LDAPControl**](/windows/previous-versions/Winldap/ns-winldap-ldapcontrola?branch=master) structure as follows:
 
 ``` syntax
 PWCHAR ldctl_oid = LDAP_SERVER_SEARCH_OPTIONS_OID;
@@ -45,7 +49,7 @@ LDAP\_SERVER\_SEARCH\_OPTIONS\_OID, which is defined as "1.2.840.113556.1.4.1340
 **ldctl\_value**
 </dt> <dd>
 
-Specifies a BER-encoded sequence of parameters that enables the application to specify various search flags. In the [**berval**](berval.md) structure, set **bv\_val** to a pointer to the sequence that contains the flag data and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
+Specifies a BER-encoded sequence of parameters that enables the application to specify various search flags. In the [**berval**](/windows/previous-versions/Winldap/ns-winldap-berval?branch=master) structure, set **bv\_val** to a pointer to the sequence that contains the flag data and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
 
 </dd> <dt>
 
@@ -69,7 +73,7 @@ Sequence {
 
 
 
-The [**ber\_printf**](ber-printf.md) routine is used to create the sequence data. The flags portion contains the search options to include, and can contain any of the bit flags listed in the following table.
+The [**ber\_printf**](/windows/previous-versions/Winber/nf-winber-ber_printf?branch=master) routine is used to create the sequence data. The flags portion contains the search options to include, and can contain any of the bit flags listed in the following table.
 
 
 
@@ -80,7 +84,7 @@ The [**ber\_printf**](ber-printf.md) routine is used to create the sequence data
 
 
 
- 
+ 
 
 The following example shows how to format the sequence data for the call to an extended LDAP search function.
 
@@ -131,8 +135,8 @@ ber_bvfree(pldctrl_value);
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Ntldap.h</dt> </dl> |
 
 
@@ -144,15 +148,15 @@ ber_bvfree(pldctrl_value);
 [Data Structures](data-structures.md)
 </dt> <dt>
 
-[**LDAPMessage**](ldapmessage.md)
+[**LDAPMessage**](/windows/previous-versions/Winldap/ns-winldap-ldapmsg?branch=master)
 </dt> <dt>
 
 [Using Controls](using-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

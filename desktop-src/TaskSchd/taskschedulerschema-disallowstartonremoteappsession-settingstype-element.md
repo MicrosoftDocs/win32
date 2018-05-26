@@ -1,14 +1,20 @@
 ---
 title: DisallowStartOnRemoteAppSession (settingsType) Element
 description: Specifies that the task will not be started if triggered to run in a Remote Applications Integrated Locally (RAIL) session.
-ms.assetid: '8323d8d9-fb6a-4876-9967-cc2344c77de3'
-keywords: ["DisallowStartOnRemoteAppSession element Task Scheduler"]
+ms.assetid: 8323d8d9-fb6a-4876-9967-cc2344c77de3
+keywords:
+- DisallowStartOnRemoteAppSession element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - DisallowStartOnRemoteAppSession
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisallowStartOnRemoteAppSession (settingsType) Element
@@ -39,7 +45,7 @@ The **DisallowStartOnRemoteAppSession** element is defined by the [**settingsTyp
 
 The default setting for this element is False.
 
-For C++ development, this information is accessed through the [**ITaskSettings2::DisallowStartOnRemoteAppSession**](itasksettings2-disallowstartonremoteappsession.md) property.
+For C++ development, this information is accessed through the [**ITaskSettings2::DisallowStartOnRemoteAppSession**](/windows/win32/taskschd/nf-taskschd-itasksettings2-get_disallowstartonremoteappsession?branch=master) property.
 
 ## Examples
 
@@ -61,8 +67,8 @@ The following XML defines a settings element that does not allow the task to sta
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -73,9 +79,9 @@ The following XML defines a settings element that does not allow the task to sta
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

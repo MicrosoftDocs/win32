@@ -1,14 +1,20 @@
 ---
 title: AudioFormat Attribute
 description: The AudioFormat attribute is a FourCC code that identifies the audio format of the item.
-ms.assetid: '66a65317-4a01-4e1e-9f13-a41ad7a40d71'
-keywords: ["AudioFormat Attribute Windows Media Player"]
+ms.assetid: 66a65317-4a01-4e1e-9f13-a41ad7a40d71
+keywords:
+- AudioFormat Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AudioFormat
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AudioFormat Attribute
@@ -41,9 +47,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

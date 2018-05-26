@@ -1,7 +1,12 @@
 ---
 title: DVD Error Handling
 description: DVD Error Handling
-ms.assetid: 'eef87bb8-e01f-40e9-a160-c3e9b066f85d'
+ms.assetid: eef87bb8-e01f-40e9-a160-c3e9b066f85d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD Error Handling

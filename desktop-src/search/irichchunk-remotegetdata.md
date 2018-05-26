@@ -1,12 +1,17 @@
 ---
-Description: 'Retrieves the PROPVARIANT and input string that represents a chunk of data. Calling this method is the same as calling GetData.'
-ms.assetid: '78846D1D-923F-4FEA-8BF2-B16BB1B21BB3'
-title: 'IRichChunk::RemoteGetData method'
+Description: Retrieves the PROPVARIANT and input string that represents a chunk of data. Calling this method is the same as calling GetData.
+ms.assetid: 78846D1D-923F-4FEA-8BF2-B16BB1B21BB3
+title: IRichChunkRemoteGetData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRichChunk::RemoteGetData method
 
-Retrieves the [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) and input string that represents a chunk of data. Calling this method is the same as calling [**GetData**](-search-irichchunk-getdata.md).
+Retrieves the [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) and input string that represents a chunk of data. Calling this method is the same as calling [**GetData**](/windows/win32/StructuredQueryCondition/nf-structuredquerycondition-irichchunk-getdata?branch=master).
 
 ## Syntax
 
@@ -62,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IRichChunk**](-search-irichchunk.md)
+[**IRichChunk**](/windows/win32/Structuredquerycondition/nn-structuredquerycondition-irichchunk?branch=master)
 </dt> </dl>
 
  

@@ -4,11 +4,15 @@ description: To delete an AD LDS group, bind to the object that contains the gro
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9c3d87ce-bf4b-4408-b88e-8dc1f41f7d7b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 9c3d87ce-bf4b-4408-b88e-8dc1f41f7d7b
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , deleting groups"]
+keywords:
+- AD LDS examples ADAM , deleting groups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Deleting Groups

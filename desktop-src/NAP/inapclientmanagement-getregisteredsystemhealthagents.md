@@ -1,8 +1,11 @@
 ---
 title: INapClientManagement GetRegisteredSystemHealthAgents method
 description: Retrieves information about the registered SHAs.
-ms.assetid: 'c38d2d23-62d4-49f0-81a3-52394866f0c4'
-keywords: ["GetRegisteredSystemHealthAgents method NAP", "GetRegisteredSystemHealthAgents method NAP , INapClientManagement interface", "INapClientManagement interface NAP , GetRegisteredSystemHealthAgents method"]
+ms.assetid: c38d2d23-62d4-49f0-81a3-52394866f0c4
+keywords:
+- GetRegisteredSystemHealthAgents method NAP
+- GetRegisteredSystemHealthAgents method NAP , INapClientManagement interface
+- INapClientManagement interface NAP , GetRegisteredSystemHealthAgents method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapClientManagement::GetRegisteredSystemHealthAgents method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **GetRegisteredSystemHealthAgents** method retrieves information about the registered SHAs.
 
@@ -27,8 +35,8 @@ The **GetRegisteredSystemHealthAgents** method retrieves information about the r
 
 ```C++
 HRESULT GetRegisteredSystemHealthAgents(
-  [out] SystemHealthEntityCount      *count,
-  [out] NapComponentRegistrationInfo **agents
+  [out] SystemHealthEntityCount      *count,
+  [out] NapComponentRegistrationInfo **agents
 ) const;
 ```
 
@@ -48,7 +56,7 @@ A pointer to a [**SystemHealthEntityCount**](nap-datatypes.md) that describes th
 *agents* \[out\]
 </dt> <dd>
 
-A pointer to an array of [**NapComponentRegistrationInfo**](napcomponentregistrationinfo-struct.md) structures that describe the registered SHAs.
+A pointer to an array of [**NapComponentRegistrationInfo**](/windows/win32/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo?branch=master) structures that describe the registered SHAs.
 
 </dd> </dl>
 
@@ -67,7 +75,7 @@ The method returns an HRESULT status code including but not limited to one of th
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,8 +83,8 @@ The method returns an HRESULT status code including but not limited to one of th
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>NapManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |
@@ -90,9 +98,9 @@ The method returns an HRESULT status code including but not limited to one of th
 [**INapClientManagement**](inapclientmanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,30 @@
 ---
 title: Embedding the Windows Media Player Control in an Office Document
 description: Embedding the Windows Media Player Control in an Office Document
-ms.assetid: '6d3466fb-a39d-4ebc-b439-a1a22d9d0800'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "Windows Media Player Mobile,embedding ActiveX control", "embedding,Office documents", "Office document embedding", "embedding,Word documents", "Word document embedding", "embedding,Excel spreadsheets", "Excel spreadsheet embedding", "embedding,PowerPoint slide shows", "PowerPoint slide show embedding", "embedding,FrontPage pages", "FrontPage page embedding"]
+ms.assetid: 6d3466fb-a39d-4ebc-b439-a1a22d9d0800
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- Windows Media Player Mobile,embedding ActiveX control
+- embedding,Office documents
+- Office document embedding
+- embedding,Word documents
+- Word document embedding
+- embedding,Excel spreadsheets
+- Excel spreadsheet embedding
+- embedding,PowerPoint slide shows
+- PowerPoint slide show embedding
+- embedding,FrontPage pages
+- FrontPage page embedding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Embedding the Windows Media Player Control in an Office Document

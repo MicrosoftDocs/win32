@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies which streams were connected successfully to a media sink.'
-ms.assetid: 'b5e45bfc-d91d-41b8-aaa4-72b3a23d869e'
-title: 'MFP\_PKEY\_StreamRenderingResults property'
+---
+Description: Specifies which streams were connected successfully to a media sink.
+ms.assetid: b5e45bfc-d91d-41b8-aaa4-72b3a23d869e
+title: MFP\_PKEY\_StreamRenderingResults property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFP\_PKEY\_StreamRenderingResults property
@@ -60,7 +65,7 @@ If at least one stream was connected successfully, playback is possible. For exa
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**MFP\_MEDIAITEM\_SET\_EVENT**](mfp-mediaitem-set-event.md)
+[**MFP\_MEDIAITEM\_SET\_EVENT**](/windows/win32/mfplay/ns-mfplay-mfp_mediaitem_set_event?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'e8cb5f1d-171f-4bf8-8ab6-6e547c4678d2'
-title: 'CBasePin.CBasePin constructor'
+Description: Constructor method.
+ms.assetid: e8cb5f1d-171f-4bf8-8ab6-6e547c4678d2
+title: CBasePin.CBasePin constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.CBasePin constructor
@@ -13,12 +18,12 @@ Constructor method.
 
 ```C++
 CBasePin(
-   TCHAR         *pObjectName,
-   CBaseFilter   *pFilter,
-   CCritSec      *pLock,
-   HRESULT       *phr,
-   LPCWSTR       pName,
-   PIN_DIRECTION dir
+   TCHAR         *pObjectName,
+   CBaseFilter   *pFilter,
+   CCritSec      *pLock,
+   HRESULT       *phr,
+   LPCWSTR       pName,
+   PIN_DIRECTION dir
 );
 ```
 
@@ -66,7 +71,7 @@ Wide-character string containing the name of the pin. For more information, see 
 *dir* 
 </dt> <dd>
 
-Member of the [**PIN\_DIRECTION**](pin-direction.md) enumeration specifying the direction of the pin.
+Member of the [**PIN\_DIRECTION**](/windows/win32/strmif/ne-strmif-_pindirection?branch=master) enumeration specifying the direction of the pin.
 
 </dd> </dl>
 
@@ -94,9 +99,9 @@ A filter might create pins in its constructor method, so at this point the *pFil
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AnswerCall method causes the fax device to answer an incoming call.'
-ms.assetid: '2075bb20-9eb0-4295-87db-df9e70434ab5'
-title: 'FaxDevice.AnswerCall method'
+---
+Description: The AnswerCall method causes the fax device to answer an incoming call.
+ms.assetid: 2075bb20-9eb0-4295-87db-df9e70434ab5
+title: FaxDevice.AnswerCall method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.AnswerCall method
@@ -27,7 +32,7 @@ The **AnswerCall** method will only work on a fax device on the local server. Th
 
 You can use this method to manually answer a call. You may use this method if the [**ReceiveMode**](-mfax-faxdevice-receivemode.md) property is set to answer manually, automatically, or not at all. The fax device must be idle for the incoming call to succeed.
 
-To use this method, a user must have the [****farQUERY\_IN\_ARCHIVE****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farQUERY\_IN\_ARCHIVE****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 If the method succeeds, the service has successfully accepted the request and has validated the parameters and the access rights. Method success does not indicate that the service answered the call and started to receive a fax. If the method succeeds but the service fails to answer a call on a device, as in the case when the device does not respond as expected, no notification is sent.
 
@@ -51,7 +56,7 @@ If the method succeeds, the service has successfully accepted the request and ha
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs after the IInkAnalyzer creates an IContextNode object.'
-ms.assetid: 'b4ba0d3b-da91-4cc7-b071-240155687b83'
-title: '\_IAnalysisProxyEvents::ContextNodeCreated event'
+Description: Occurs after the IInkAnalyzer creates an IContextNode object.
+ms.assetid: b4ba0d3b-da91-4cc7-b071-240155687b83
+title: '\_IAnalysisProxyEventsContextNodeCreated event'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_IAnalysisProxyEvents::ContextNodeCreated event
@@ -13,8 +18,8 @@ Occurs after the [**IInkAnalyzer**](iinkanalyzer.md) creates an [**IContextNode*
 
 ```C++
 HRESULT ContextNodeCreated(
-  [in] IInkAnalyzer *pInkAnalyzer,
-  [in] IContextNode *pContextNodeCreated
+  [in] IInkAnalyzer *pInkAnalyzer,
+  [in] IContextNode *pContextNodeCreated
 );
 ```
 
@@ -61,7 +66,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -90,9 +95,9 @@ For more information about synchronizing your application data with the [**IInkA
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,17 @@
 ---
 title: IMsTscAxEvents OnDisconnected method
-description: Called when the client control has been disconnected from the Remote Desktop Session Host (RD Session Host) server.
+description: Called when the client control has been disconnected from the Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f01086e7-61d1-41df-ba0a-4eecfa57d492'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f01086e7-61d1-41df-ba0a-4eecfa57d492
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnDisconnected method Remote Desktop Services", "OnDisconnected method Remote Desktop Services , IMsTscAxEvents interface", "IMsTscAxEvents interface Remote Desktop Services , OnDisconnected method"]
+keywords:
+- OnDisconnected method Remote Desktop Services
+- OnDisconnected method Remote Desktop Services , IMsTscAxEvents interface
+- IMsTscAxEvents interface Remote Desktop Services , OnDisconnected method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAxEvents::OnDisconnected method
 
-Called when the client control has been disconnected from the Remote Desktop Session Host (RD Session Host) server.
+Called when the client control has been disconnected from the Remote Desktop Session Host (RD Session Host) server.
 
 ## Syntax
 
 
 ```C++
 void OnDisconnected(
-  [in] long discReason
+  [in] long discReason
 );
 ```
 
@@ -578,8 +584,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IMsTscAxEvents is defined as 336d5562-efa8-482e-8cb3-c5c0fc7a7db6<br/>           |
@@ -593,9 +599,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscAxEvents**](imstscaxevents-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

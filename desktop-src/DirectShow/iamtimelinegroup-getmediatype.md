@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetMediaType method retrieves the uncompressed media type for the group.'
-ms.assetid: '129ed688-0f03-4ccb-b65f-d61f02cb94b2'
-title: 'IAMTimelineGroup::GetMediaType method'
+---
+Description: The GetMediaType method retrieves the uncompressed media type for the group.
+ms.assetid: 129ed688-0f03-4ccb-b65f-d61f02cb94b2
+title: IAMTimelineGroupGetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::GetMediaType method
@@ -31,7 +36,7 @@ HRESULT GetMediaType(
 *pmt* \[out\]
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure that is filled with the media type.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure that is filled with the media type.
 
 </dd> </dl>
 

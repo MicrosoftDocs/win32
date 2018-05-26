@@ -1,7 +1,12 @@
 ---
-Description: 'The CImageSample class implements a media sample that manages a GDI device-independent bitmap (DIB).'
-ms.assetid: '620ea791-458e-441e-8f0c-2184c44c742e'
+Description: The CImageSample class implements a media sample that manages a GDI device-independent bitmap (DIB).
+ms.assetid: 620ea791-458e-441e-8f0c-2184c44c742e
 title: CImageSample class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageSample class
@@ -23,7 +28,7 @@ The `CImageSample` class implements a media sample that manages a GDI device-ind
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -36,9 +41,9 @@ The `CImageSample` class implements a media sample that manages a GDI device-ind
 
 
 
- 
+ 
 
- 
+ 
 
 
 

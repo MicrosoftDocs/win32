@@ -1,7 +1,12 @@
 ---
-Description: 'The date when the photo was taken, as read from the camera in the file''s Exchangeable Image File (EXIF) tag.'
-ms.assetid: '197fb739-7fe6-47e8-908f-54e75cb47ec4'
-title: 'System.Photo.DateTaken'
+Description: The date when the photo was taken, as read from the camera in the files Exchangeable Image File (EXIF) tag.
+ms.assetid: 197fb739-7fe6-47e8-908f-54e75cb47ec4
+title: System.Photo.DateTaken
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.DateTaken

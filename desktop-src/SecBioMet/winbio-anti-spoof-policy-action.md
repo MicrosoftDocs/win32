@@ -1,8 +1,10 @@
 ---
 title: WINBIO\_ANTI\_SPOOF\_POLICY\_ACTION enumeration
 description: Specifies the types of actions you take for the antispoofing policy of a user.
-ms.assetid: '846C0725-1796-49E4-883C-44AC7D618317'
-keywords: ["WINBIO_ANTI_SPOOF_POLICY_ACTION enumeration Windows Biometric Framework API", "PWINBIO_ANTI_SPOOF_POLICY enumeration pointer Windows Biometric Framework API"]
+ms.assetid: 846C0725-1796-49E4-883C-44AC7D618317
+keywords:
+- WINBIO_ANTI_SPOOF_POLICY_ACTION enumeration Windows Biometric Framework API
+- PWINBIO_ANTI_SPOOF_POLICY enumeration pointer Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_ANTI\_SPOOF\_POLICY\_ACTION enumeration
@@ -22,9 +29,9 @@ Specifies the types of actions you take for the antispoofing policy of a user.
 
 ```C++
 typedef enum _WINBIO_ANTI_SPOOF_POLICY_ACTION { 
-  WINBIO_ANTI_SPOOF_DISABLE  = 0x00000000,
-  WINBIO_ANTI_SPOOF_ENABLE   = 0x00000001,
-  WINBIO_ANTI_SPOOF_REMOVE   = 0x00000002
+  WINBIO_ANTI_SPOOF_DISABLE  = 0x00000000,
+  WINBIO_ANTI_SPOOF_ENABLE   = 0x00000001,
+  WINBIO_ANTI_SPOOF_REMOVE   = 0x00000002
 } WINBIO_ANTI_SPOOF_POLICY_ACTION, *PWINBIO_ANTI_SPOOF_POLICY;
 ```
 
@@ -61,8 +68,8 @@ Removes the entire antispoofing policy for the biometric factor from the account
 
 |                                     |                                                                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt> </dl> |
 
 
@@ -77,9 +84,9 @@ Removes the entire antispoofing policy for the biometric factor from the account
 [**WINBIO\_POLICY\_SOURCE**](winbio-policy-source.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

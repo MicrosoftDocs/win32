@@ -4,10 +4,13 @@ description: The first step in using the SDO API is to create an SDO machine obj
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bdb01437-08d0-4279-94f2-840cb786cc44'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: bdb01437-08d0-4279-94f2-840cb786cc44
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Obtaining a Machine SDO

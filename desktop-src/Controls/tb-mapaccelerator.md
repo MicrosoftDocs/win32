@@ -1,8 +1,9 @@
 ---
 title: TB\_MAPACCELERATOR message
 description: Determines the ID of the button that corresponds to the specified accelerator character.
-ms.assetid: '724b593d-39af-4301-b721-0332844677b1'
-keywords: ["TB_MAPACCELERATOR message Windows Controls"]
+ms.assetid: 724b593d-39af-4301-b721-0332844677b1
+keywords:
+- TB_MAPACCELERATOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_MAPACCELERATOR message
@@ -47,16 +53,16 @@ Returns a nonzero value if one of the buttons has *wParam* as its accelerator ch
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TB\_MAPACCELERATORW** (Unicode) and **TB\_MAPACCELERATORA** (ANSI)<br/>       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

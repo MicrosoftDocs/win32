@@ -1,7 +1,12 @@
 ---
-Description: 'Use the database editor Orca that is provided with the SDK, or another editor, to open the Directory table in MNP2001.msi.'
-ms.assetid: '4387bd36-c464-43e9-a425-a2ee6993fde5'
+Description: Use the database editor Orca that is provided with the SDK, or another editor, to open the Directory table in MNP2001.msi.
+ms.assetid: 4387bd36-c464-43e9-a425-a2ee6993fde5
 title: Updating Directory Structure for an Upgrade
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating Directory Structure for an Upgrade

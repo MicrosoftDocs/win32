@@ -1,7 +1,12 @@
 ---
 title: Security Requirements for the Network Management Functions
 description: Calling some of the network management functions does not require special group membership.
-ms.assetid: '846a5b81-d5bf-4275-a898-38e6ba308b8f'
+ms.assetid: 846a5b81-d5bf-4275-a898-38e6ba308b8f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Requirements for the Network Management Functions

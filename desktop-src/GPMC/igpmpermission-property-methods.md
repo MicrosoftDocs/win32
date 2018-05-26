@@ -4,11 +4,12 @@ description: The property methods of the IGPMPermission interface get the proper
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4af04405-66a4-4721-83ff-70ae505b3494'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 4af04405-66a4-4721-83ff-70ae505b3494
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMPermission Property Methods GPMC"]
+keywords:
+- IGPMPermission Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -27,6 +28,9 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMPermission Property Methods
@@ -117,7 +121,7 @@ HRESULT get_Inherited(
 **Permission**
 </dt> <dd> <dl>
 
-The policy-related permission level; for example, **permGPOApply**, **permWMIFilterEdit**, and **permSOMLink**. For a complete list of the supported permission levels, see the [**IGPM::CreatePermission**](igpm-createpermission.md) method.
+The policy-related permission level; for example, **permGPOApply**, **permWMIFilterEdit**, and **permSOMLink**. For a complete list of the supported permission levels, see the [**IGPM::CreatePermission**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpm-createpermission?branch=master) method.
 
 <dt>
 
@@ -142,7 +146,7 @@ HRESULT get_Permission(
 **Trustee**
 </dt> <dd> <dl>
 
-Returns the [**IGPMTrustee**](igpmtrustee.md) interface and the trustee part of the permission.
+Returns the [**IGPMTrustee**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmtrustee?branch=master) interface and the trustee part of the permission.
 
 <dt>
 
@@ -164,11 +168,11 @@ HRESULT get_Trustee(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
-For more information about policy-related permissions, see [**IGPM::CreatePermission**](igpm-createpermission.md).
+For more information about policy-related permissions, see [**IGPM::CreatePermission**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpm-createpermission?branch=master).
 
 ## Requirements
 
@@ -176,8 +180,8 @@ For more information about policy-related permissions, see [**IGPM::CreatePermis
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -189,21 +193,21 @@ For more information about policy-related permissions, see [**IGPM::CreatePermis
 
 <dl> <dt>
 
-[**IGPMPermission**](igpmpermission.md)
+[**IGPMPermission**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmpermission?branch=master)
 </dt> <dt>
 
-[**IGPM**](igpm.md)
+[**IGPM**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpm?branch=master)
 </dt> <dt>
 
-[**IGPMTrustee**](igpmtrustee.md)
+[**IGPMTrustee**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmtrustee?branch=master)
 </dt> <dt>
 
-[**IGPMSecurityInfo**](igpmsecurityinfo.md)
+[**IGPMSecurityInfo**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmsecurityinfo?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

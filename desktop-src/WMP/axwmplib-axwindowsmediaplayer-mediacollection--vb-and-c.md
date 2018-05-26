@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.mediaCollection property
 description: The mediaCollection property gets an IWMPMediaCollection interface that provides a way to organize a large collection of media items.
-ms.assetid: 'ec37e1da-a843-4b89-88fc-ec9255baa98a'
-keywords: ["mediaCollection property Windows Media Player", "mediaCollection property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , mediaCollection property"]
+ms.assetid: ec37e1da-a843-4b89-88fc-ec9255baa98a
+keywords:
+- mediaCollection property Windows Media Player
+- mediaCollection property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , mediaCollection property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.mediaCollection property
@@ -82,9 +90,9 @@ To retrieve the value of this property, read access to the library is required. 
 [**IWMPSettings2.requestMediaAccessRights (VB and C#)**](wmplibiwmpsettings2-iwmpsettings2-requestmediaaccessrights--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the format of a file containing certificate information.'
-ms.assetid: '417a6d1b-6329-418c-823c-d82b94207fd6'
-title: 'CAPICOM\_CERTIFICATE\_SAVE\_AS\_TYPE enumeration'
+---
+Description: Defines the format of a file containing certificate information.
+ms.assetid: 417a6d1b-6329-418c-823c-d82b94207fd6
+title: CAPICOM\_CERTIFICATE\_SAVE\_AS\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_CERTIFICATE\_SAVE\_AS\_TYPE enumeration

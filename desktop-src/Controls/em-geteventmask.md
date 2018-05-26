@@ -1,8 +1,9 @@
 ---
 title: EM\_GETEVENTMASK message
 description: Retrieves the event mask for a rich edit control. The event mask specifies which notification codes the control sends to its parent window.
-ms.assetid: 'cdf99f2a-e747-4b0e-9235-2719477c3ce2'
-keywords: ["EM_GETEVENTMASK message Windows Controls"]
+ms.assetid: cdf99f2a-e747-4b0e-9235-2719477c3ce2
+keywords:
+- EM_GETEVENTMASK message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETEVENTMASK message
@@ -45,8 +51,8 @@ This message returns the event mask for the rich edit control.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ This message returns the event mask for the rich edit control.
 [**Rich Edit Control Event Mask Flags**](rich-edit-control-event-mask-flags.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

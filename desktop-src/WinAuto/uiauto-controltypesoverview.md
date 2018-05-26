@@ -1,8 +1,22 @@
 ---
 title: UI Automation Control Types Overview
 description: Microsoft UI Automation control types are properties that serve as well-known identifiers that indicate the kind of control that a particular UI element represents, such as a combo box or a button.
-ms.assetid: '61818b64-09cb-4443-acca-4743941c48d3'
-keywords: ["UI Automation,control types overview", "UI Automation,UIA_LocalizedControlTypePropertyId property", "control types,about", "control types,requisites", "control types,prerequisites", "control types,predefined", "control types,UIA_LocalizedControlTypePropertyId property", "predefined control types", "UIA_LocalizedControlTypePropertyId property"]
+ms.assetid: 61818b64-09cb-4443-acca-4743941c48d3
+keywords:
+- UI Automation,control types overview
+- UI Automation,UIA_LocalizedControlTypePropertyId property
+- control types,about
+- control types,requisites
+- control types,prerequisites
+- control types,predefined
+- control types,UIA_LocalizedControlTypePropertyId property
+- predefined control types
+- UIA_LocalizedControlTypePropertyId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Control Types Overview
@@ -25,7 +39,7 @@ Each UI Automation control type has a set of conditions associated with it. When
 -   UI Automation events: Each control type has a set of events that the control must support.
 -   UI Automation tree structure: Each control type defines how the control must appear in the UI Automation tree structure.
 
-When a control meets the conditions for a particular control type, the [**IUIAutomationElement::CurrentControlType**](uiauto-iuiautomationelement-currentcontroltype.md) (or [**IUIAutomationElement::CachedControlType**](uiauto-iuiautomationelement-cachedcontroltype.md)) property value will indicate that control type.
+When a control meets the conditions for a particular control type, the [**IUIAutomationElement::CurrentControlType**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentcontroltype?branch=master) (or [**IUIAutomationElement::CachedControlType**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_cachedcontroltype?branch=master)) property value will indicate that control type.
 
 If your control does not meet the specifications for a particular control type, use [**UIA\_CustomControlTypeId**](uiauto-controltype-ids.md#uia-customcontroltypeid) as the control type ID, and completely describe the control by using the relevant control patterns and properties. You can also set the [**UIA\_LocalizedControlTypePropertyId**](uiauto-automation-element-propids.md#uia-localizedcontroltypepropertyid) property to a string that best describes the type of your control.
 

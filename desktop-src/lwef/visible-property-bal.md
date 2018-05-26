@@ -1,7 +1,12 @@
 ---
 title: Visible Property
 description: Visible Property
-ms.assetid: 'cbda7f69-889a-45a0-9549-d27eddfcec57'
+ms.assetid: cbda7f69-889a-45a0-9549-d27eddfcec57
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visible Property
@@ -30,7 +35,7 @@ Returns or sets the visible setting for the word balloon for the specified chara
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -47,9 +52,9 @@ Calling the [**Speak**](speak-method.md) and [**Think**](think-method.md) method
 [**Style property**](style-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enumerates or finds the first or next CTL in an external store that matches specified criteria.'
-ms.assetid: '0b465e6e-fb5c-4621-a968-c2cdcab0ea15'
+---
+Description: Enumerates or finds the first or next CTL in an external store that matches specified criteria.
+ms.assetid: 0b465e6e-fb5c-4621-a968-c2cdcab0ea15
 title: CertStoreProvFindCTL callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertStoreProvFindCTL callback function
@@ -38,14 +43,14 @@ BOOL WINAPI CertStoreProvFindCTL(
 *pFindInfo* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_STORE\_PROV\_FIND\_INFO**](cert-store-prov-find-info.md) structure containing all the parameters passed to the [**CertFindCTLInStore**](certfindctlinstore.md). function.
+A pointer to a [**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cert_store_prov_find_info?branch=master) structure containing all the parameters passed to the [**CertFindCTLInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindctlinstore?branch=master). function.
 
 </dd> <dt>
 
 *pPrevCtlContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CTL\_CONTEXT**](ctl-context.md) structure of the last CTL found. On first call to the function, this parameter should be set to **NULL**. On subsequent calls, it should be set to the pointer returned in the *ppProvCTLContext* parameter on the last call. A non-**NULL** pointer passed in this parameter is freed by the callback function.
+A pointer to a [**CTL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_ctl_context?branch=master) structure of the last CTL found. On first call to the function, this parameter should be set to **NULL**. On subsequent calls, it should be set to the pointer returned in the *ppProvCTLContext* parameter on the last call. A non-**NULL** pointer passed in this parameter is freed by the callback function.
 
 </dd> <dt>
 
@@ -89,13 +94,13 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 <dl> <dt>
 
-[**CERT\_STORE\_PROV\_FIND\_INFO**](cert-store-prov-find-info.md)
+[**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cert_store_prov_find_info?branch=master)
 </dt> <dt>
 
-[**CertFindCTLInStore**](certfindctlinstore.md)
+[**CertFindCTLInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindctlinstore?branch=master)
 </dt> <dt>
 
-[**CTL\_CONTEXT**](ctl-context.md)
+[**CTL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_ctl_context?branch=master)
 </dt> </dl>
 
  

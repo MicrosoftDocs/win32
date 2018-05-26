@@ -1,8 +1,9 @@
 ---
 title: WcsCreateIccProfile function
 description: Converts a WCS profile into an International Color Consortium (ICC) profile.
-ms.assetid: '6e9aaad6-a7d4-4685-b694-89d499a411e1'
-keywords: ["WcsCreateIccProfile function Windows Color System"]
+ms.assetid: 6e9aaad6-a7d4-4685-b694-89d499a411e1
+keywords:
+- WcsCreateIccProfile function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsCreateIccProfile function
@@ -22,8 +28,8 @@ Converts a WCS profile into an International Color Consortium (ICC) profile.
 
 ```C++
 HPROFILE WINAPI WcsCreateIccProfile(
-  _In_ HPROFILE hWcsProfile,
-  _In_ DWORD    dwOptions
+  _In_ HPROFILE hWcsProfile,
+  _In_ DWORD    dwOptions
 );
 ```
 
@@ -45,15 +51,15 @@ A handle to the WCS color profile that is converted. See Remarks.
 
 A flag value that specifies the profile conversion options.
 
- 
+ 
 
- 
+ 
 
 By default, the original WCS profiles used for the conversion are embedded in the output ICC profile in a Microsoft private tag, *WcsProfilesTag* (with signature "MS000". This produces an ICC profile that is compatible with ICC software, yet retains the original WCS profile data available to code designed to parse it.
 
- 
+ 
 
- 
+ 
 
 The possible values of this parameter are as follows. Any bits not defined in this list are reserved and should be set to zero:
 
@@ -66,7 +72,7 @@ The possible values of this parameter are as follows. Any bits not defined in th
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -114,7 +120,7 @@ The **WcsProfilesTagType Structure** has the following structure:
 
 
 
- 
+ 
 
 These are the WCS XML profiles that were used by **WcsCreateIccProfile** to create this ICC profile. The WCS profiles are ordered: the DMP (required) first, followed by the CAMP (if present), followed by the GMMP (if present).
 
@@ -124,8 +130,8 @@ These are the WCS XML profiles that were used by **WcsCreateIccProfile** to crea
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -145,9 +151,9 @@ These are the WCS XML profiles that were used by **WcsCreateIccProfile** to crea
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

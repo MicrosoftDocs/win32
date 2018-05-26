@@ -1,8 +1,9 @@
 ---
 title: DrawTextExPrivWrap function
 description: Draws formatted text in the specified rectangle. This function wraps a call to DrawTextEx.
-ms.assetid: '3212282c-1adb-4f7e-b4d7-7d833b26ac60'
-keywords: ["DrawTextExPrivWrap function Windows Controls"]
+ms.assetid: 3212282c-1adb-4f7e-b4d7-7d833b26ac60
+keywords:
+- DrawTextExPrivWrap function Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Comctl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrawTextExPrivWrap function
 
-\[**DrawTextExPrivWrap** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. It is recommended to use [**DrawTextEx**](https://msdn.microsoft.com/library/windows/desktop/dd162499) directly instead.\]
+\[**DrawTextExPrivWrap** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. It is recommended to use [**DrawTextEx**](https://msdn.microsoft.com/library/windows/desktop/dd162499) directly instead.\]
 
 Draws formatted text in the specified rectangle. This function wraps a call to [**DrawTextEx**](https://msdn.microsoft.com/library/windows/desktop/dd162499).
 
@@ -24,12 +30,12 @@ Draws formatted text in the specified rectangle. This function wraps a call to [
 
 ```C++
 int WINAPI DrawTextExPrivWrap(
-  _In_    HDC              hdc,
-  _Inout_ LPTSTR           lpchText,
-  _In_    int              cchText,
-  _Inout_ LPRECT           lprc,
-  _In_    UINT             dwDTFormat,
-  _In_    LPDRAWTEXTPARAMS lpDTParams
+  _In_    HDC              hdc,
+  _Inout_ LPTSTR           lpchText,
+  _In_    int              cchText,
+  _Inout_ LPRECT           lprc,
+  _In_    UINT             dwDTFormat,
+  _In_    LPDRAWTEXTPARAMS lpDTParams
 );
 ```
 
@@ -117,15 +123,15 @@ For additional remarks, please see [**DrawTextEx**](https://msdn.microsoft.com/l
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

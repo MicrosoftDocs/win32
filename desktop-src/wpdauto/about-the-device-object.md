@@ -1,8 +1,24 @@
 ---
 title: About the Device Object
 description: The Device object is the entry point into the WPD Automation object model, because it programmatically represents a physical device.
-ms.assetid: 'a8e64b13-db88-4abb-a0b0-abe340d0632a'
-keywords: ["WPD Automation,object model", "WPD Automation,Device object", "WPD Automation,Services properties", "WPD Automation,Storages properties", "WPD Automation,GetServicesByType method", "Windows Portable Devices (WPD),WPD Automation object model", "WPD (Windows Portable Devices),WPD Automation object model", "Device object", "Services properties", "Storages properties", "GetServicesByType"]
+ms.assetid: a8e64b13-db88-4abb-a0b0-abe340d0632a
+keywords:
+- WPD Automation,object model
+- WPD Automation,Device object
+- WPD Automation,Services properties
+- WPD Automation,Storages properties
+- WPD Automation,GetServicesByType method
+- Windows Portable Devices (WPD),WPD Automation object model
+- WPD (Windows Portable Devices),WPD Automation object model
+- Device object
+- Services properties
+- Storages properties
+- GetServicesByType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Device Object

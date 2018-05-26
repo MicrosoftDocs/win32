@@ -1,13 +1,16 @@
 ---
-Description: 'Provides information about the domain on which this instance of the trust monitor is running.'
+Description: Provides information about the domain on which this instance of the trust monitor is running.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '096cc27f-e150-4808-b225-32f45160eba1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 096cc27f-e150-4808-b225-32f45160eba1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Microsoft\_LocalDomainInfo class'
+title: Microsoft\_LocalDomainInfo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Microsoft\_LocalDomainInfo class
@@ -114,7 +117,7 @@ Name of the enterprise tree root.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\microsoftactivedirectory<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Trustmon.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Trustmon.dll</dt> </dl> |
@@ -137,9 +140,9 @@ Name of the enterprise tree root.
 [Retrieving a Class](https://msdn.microsoft.com/library/aa393244)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Texture3D
 description: Texture3D
-ms.assetid: 'a3640aac-b503-4716-8bc6-105e96bea03c'
-keywords: ["Texture3D HLSL"]
+ms.assetid: a3640aac-b503-4716-8bc6-105e96bea03c
+keywords:
+- Texture3D HLSL
 topic_type:
 - apiref
 api_name:
 - Texture3D
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture3D

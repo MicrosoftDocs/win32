@@ -1,8 +1,14 @@
 ---
 title: OpenGL on Windows
 description: OpenGL on Windows
-ms.assetid: '589a86f1-598d-4175-97fc-27ca0b254935'
-keywords: ["OpenGL on Windows"]
+ms.assetid: 589a86f1-598d-4175-97fc-27ca0b254935
+keywords:
+- OpenGL on Windows
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenGL on Windows

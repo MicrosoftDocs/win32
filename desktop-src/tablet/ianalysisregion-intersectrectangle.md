@@ -1,7 +1,12 @@
 ---
-Description: 'Restricts the area of this IAnalysisRegion to the area created by its intersection with the specified rectangle.'
-ms.assetid: 'de6b565f-34c1-4551-ab92-db6bacb8608d'
-title: 'IAnalysisRegion::IntersectRectangle method'
+Description: Restricts the area of this IAnalysisRegion to the area created by its intersection with the specified rectangle.
+ms.assetid: de6b565f-34c1-4551-ab92-db6bacb8608d
+title: IAnalysisRegionIntersectRectangle method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisRegion::IntersectRectangle method
@@ -13,7 +18,7 @@ Restricts the area of this [**IAnalysisRegion**](ianalysisregion.md) to the area
 
 ```C++
 HRESULT IntersectRectangle(
-  [in] RECT *pIntersectingRectangle
+  [in] RECT *pIntersectingRectangle
 );
 ```
 
@@ -46,7 +51,7 @@ If the two areas do not intersect, the new area is empty.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -78,9 +83,9 @@ If the two areas do not intersect, the new area is empty.
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

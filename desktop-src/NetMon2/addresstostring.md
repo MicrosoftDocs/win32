@@ -1,7 +1,12 @@
 ---
-Description: 'The AddressToString function converts an address into a string.'
-ms.assetid: '999a6142-1423-4006-a489-63895dd19ce3'
+Description: The AddressToString function converts an address into a string.
+ms.assetid: 999a6142-1423-4006-a489-63895dd19ce3
 title: AddressToString function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddressToString function
@@ -13,8 +18,8 @@ The **AddressToString** function converts an address into a string.
 
 ```C++
 LPSTR WINAPI AddressToString(
-  _Out_ LPSTR string,
-  _In_  BYTE  *lpAddress
+  _Out_ LPSTR string,
+  _In_  BYTE  *lpAddress
 );
 ```
 
@@ -48,17 +53,17 @@ The return value is a pointer to the converted string.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Parser.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

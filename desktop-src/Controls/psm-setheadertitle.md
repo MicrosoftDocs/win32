@@ -1,8 +1,9 @@
 ---
 title: PSM\_SETHEADERTITLE message
-description: Sets the title text for the header of a wizard's interior page. You can send this message explicitly or use the PropSheet\_SetHeaderTitle macro.
-ms.assetid: '19d4badf-d99d-4a28-92d4-33bcf5d23944'
-keywords: ["PSM_SETHEADERTITLE message Windows Controls"]
+description: Sets the title text for the header of a wizards interior page. You can send this message explicitly or use the PropSheet\_SetHeaderTitle macro.
+ms.assetid: 19d4badf-d99d-4a28-92d4-33bcf5d23944
+keywords:
+- PSM_SETHEADERTITLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_SETHEADERTITLE message
 
-Sets the title text for the header of a wizard's interior page. You can send this message explicitly or use the [**PropSheet\_SetHeaderTitle**](propsheet-setheadertitle.md) macro.
+Sets the title text for the header of a wizard's interior page. You can send this message explicitly or use the [**PropSheet\_SetHeaderTitle**](/windows/win32/Prsht/nf-prsht-propsheet_setheadertitle?branch=master) macro.
 
 ## Parameters
 
@@ -51,8 +57,8 @@ If you specify the current page, it will immediately be repainted to display the
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **PSM\_SETHEADERTITLEW** (Unicode) and **PSM\_SETHEADERTITLEA** (ANSI)<br/>  |
 
@@ -74,9 +80,9 @@ If you specify the current page, it will immediately be repainted to display the
 [**PSM\_PAGETOINDEX**](psm-pagetoindex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

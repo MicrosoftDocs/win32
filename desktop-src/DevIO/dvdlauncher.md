@@ -1,7 +1,12 @@
 ---
-Description: 'Verifies that the media region in the DVD drive matches the DVD drive region.'
-ms.assetid: '864de493-94c2-4f32-96a8-14cfea13dbef'
+Description: Verifies that the media region in the DVD drive matches the DVD drive region.
+ms.assetid: 864de493-94c2-4f32-96a8-14cfea13dbef
 title: DvdLauncher function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DvdLauncher function
@@ -13,8 +18,8 @@ Verifies that the media region in the DVD drive matches the DVD drive region.
 
 ```C++
 BOOL WINAPI DvdLauncher(
-  _In_ HWND HWnd,
-  _In_ CHAR DriveLetter
+  _In_ HWND HWnd,
+  _In_ CHAR DriveLetter
 );
 ```
 
@@ -52,8 +57,8 @@ This function has no associated import library. You must use the [**LoadLibrary*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>StorProp.dll</dt> </dl> |
 
 
@@ -65,9 +70,9 @@ This function has no associated import library. You must use the [**LoadLibrary*
 [Device Management Functions](device-management-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

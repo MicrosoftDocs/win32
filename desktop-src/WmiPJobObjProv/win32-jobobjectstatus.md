@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_JobObjectStatus abstract WMI class reports error information obtained while attempting any failed operation in the Job Object provider.'
+Description: The Win32\_JobObjectStatus abstract WMI class reports error information obtained while attempting any failed operation in the Job Object provider.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8306f140-fde4-4ac8-9014-be3305baba03'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8306f140-fde4-4ac8-9014-be3305baba03
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_JobObjectStatus class'
+title: Win32\_JobObjectStatus class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_JobObjectStatus class
@@ -153,8 +156,8 @@ The **Win32\_JobObjectStatus** class is derived from [**\_\_ExtendedStatus**](ht
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipjobj.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipjobj.dll</dt> </dl> |
@@ -171,9 +174,9 @@ The **Win32\_JobObjectStatus** class is derived from [**\_\_ExtendedStatus**](ht
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

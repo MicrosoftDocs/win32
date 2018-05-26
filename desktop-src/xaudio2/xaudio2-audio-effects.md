@@ -1,7 +1,12 @@
 ---
-Description: 'An audio effect is an object that takes incoming audio data, and performs some operation on the data before passing it on. You can use an effect to perform a variety of tasks, including adding reverb to an audio stream and monitoring peak volume levels.'
-ms.assetid: '8c3fa4ca-dcff-bd23-7220-7d0aeb6c6068'
+Description: An audio effect is an object that takes incoming audio data, and performs some operation on the data before passing it on. You can use an effect to perform a variety of tasks, including adding reverb to an audio stream and monitoring peak volume levels.
+ms.assetid: 8c3fa4ca-dcff-bd23-7220-7d0aeb6c6068
 title: XAudio2 Audio Effects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAudio2 Audio Effects
@@ -10,13 +15,13 @@ An audio effect is an object that takes incoming audio data, and performs some o
 
 ## Effect Chains
 
-Any XAudio2 voice can host a chain of audio effects. You can use an array of [**XAUDIO2\_EFFECT\_DESCRIPTOR**](xaudio2-effect-descriptor.md) structures to specify effect chains. Each descriptor contains a pointer to an effect object provided by the client. These objects must implement the Audio Processing Object (APO) interfaces. See the [XAPO Overview](xapo-overview.md) for more information about the APO model.
+Any XAudio2 voice can host a chain of audio effects. You can use an array of [**XAUDIO2\_EFFECT\_DESCRIPTOR**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_effect_descriptor?branch=master) structures to specify effect chains. Each descriptor contains a pointer to an effect object provided by the client. These objects must implement the Audio Processing Object (APO) interfaces. See the [XAPO Overview](xapo-overview.md) for more information about the APO model.
 
 Effect chains can be modified by the client dynamically (while the XAudio2 engine is running), effects can be enabled or disabled individually, and effect parameters can be changed—all without any interruption of the audio. Whenever any aspect of the effect graph changes, XAudio2 optimizes the graph again to avoid unnecessary processing. See [**IXAudio2Voice::SetEffectChain**](ixaudio2voice-interface-seteffectchain.md), [**IXAudio2Voice::EnableEffect**](ixaudio2voice-interface-enableeffect.md), and [**IXAudio2Voice::SetEffectParameters**](ixaudio2voice-interface-seteffectparameters.md).
 
 After an effect is attached to an XAudio2 voice, XAudio2 takes control of the effect, and the client should not make any further calls to it. The simplest way to ensure this is to release all pointers to the effect.
 
-The effects in a given XAudio2 voice's effect chain must consume and produce floating-point audio at that voice's processing sample rate. The only aspect of the audio format they can change is the channel count (for example, a reverb effect can convert mono data to 5.1). The client can use the [**XAUDIO2\_EFFECT\_DESCRIPTOR**](xaudio2-effect-descriptor.md).**OutputChannels** field to specify the number of channels that each effect should produce. The effect chain fails if any of the effects cannot fulfill these requirements, or if an effect produces a number of channels that the next effect cannot handle. Any [**IXAudio2Voice::EnableEffect**](ixaudio2voice-interface-enableeffect.md) or [**IXAudio2Voice::DisableEffect**](ixaudio2voice-interface-disableeffect.md) calls that cause the effect chain to stop fulfilling these requirements will fail.
+The effects in a given XAudio2 voice's effect chain must consume and produce floating-point audio at that voice's processing sample rate. The only aspect of the audio format they can change is the channel count (for example, a reverb effect can convert mono data to 5.1). The client can use the [**XAUDIO2\_EFFECT\_DESCRIPTOR**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_effect_descriptor?branch=master).**OutputChannels** field to specify the number of channels that each effect should produce. The effect chain fails if any of the effects cannot fulfill these requirements, or if an effect produces a number of channels that the next effect cannot handle. Any [**IXAudio2Voice::EnableEffect**](ixaudio2voice-interface-enableeffect.md) or [**IXAudio2Voice::DisableEffect**](ixaudio2voice-interface-disableeffect.md) calls that cause the effect chain to stop fulfilling these requirements will fail.
 
 APO interfaces used in XAudio2 must be *destructive*. This means they always overwrite any data they find in their output buffers. Otherwise, the resulting audio might be incorrect because XAudio2 makes no guarantee that these buffers have been initialized previously with silence.
 
@@ -26,8 +31,8 @@ The following table lists the set of built-in audio effects provided by XAudio2 
 
 | Effect       | Creation Method                                              |
 |--------------|--------------------------------------------------------------|
-| Reverb       | [**XAudio2CreateReverb**](xaudio2createreverb.md)           |
-| Volume Meter | [**XAudio2CreateVolumeMeter**](xaudio2createvolumemeter.md) |
+| Reverb       | [**XAudio2CreateReverb**](/windows/win32/xaudio2fx/nf-xaudio2fx-xaudio2createreverb?branch=master)           |
+| Volume Meter | [**XAudio2CreateVolumeMeter**](/windows/win32/xaudio2fx/nf-xaudio2fx-xaudio2createvolumemeter?branch=master) |
 
 
 

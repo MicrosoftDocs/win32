@@ -1,7 +1,12 @@
 ---
-Description: 'Represents settings for the allocation of virtual storage.'
-ms.assetid: '128fd3e9-8759-4b2f-a881-d34e89c539ac'
-title: 'CIM\_StorageAllocationSettingData class'
+Description: Represents settings for the allocation of virtual storage.
+ms.assetid: 128fd3e9-8759-4b2f-a881-d34e89c539ac
+title: CIM\_StorageAllocationSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_StorageAllocationSettingData class
@@ -414,7 +419,7 @@ The number of blocks that the storage allocation presents to the consumer.
 > [!Note]  
 > The **VirtualQuantity** property can specify a block size of "1", even if **VirtualResourceBlockSize** is unknown.
 
- 
+ 
 
 </dd> <dt>
 
@@ -456,8 +461,8 @@ The size, in bytes, of the blocks that form the storage allocation request. If t
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -471,9 +476,9 @@ The size, in bytes, of the blocks that form the storage allocation request. If t
 [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,21 @@
 ---
 title: glColor Functions
 description: These functions set the current color.
-ms.assetid: '916eb8b5-65c2-4523-bdb5-e609ad7a24a0'
-keywords: ["OpenGL,glColor functions", "OpenGL reference,glColor functions", "reference for OpenGL,glColor functions", "OpenGL,color functions", "OpenGL reference,color functions", "reference for OpenGL,color functions", "glColor functions", "color functions"]
+ms.assetid: 916eb8b5-65c2-4523-bdb5-e609ad7a24a0
+keywords:
+- OpenGL,glColor functions
+- OpenGL reference,glColor functions
+- reference for OpenGL,glColor functions
+- OpenGL,color functions
+- OpenGL reference,color functions
+- reference for OpenGL,color functions
+- glColor functions
+- color functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glColor Functions

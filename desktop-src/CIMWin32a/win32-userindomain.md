@@ -4,13 +4,15 @@ description: The Win32\_UserInDomain association WMI class relates a user accoun
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2e4a8333-b6bf-4555-bb89-e2246ca392ef'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2e4a8333-b6bf-4555-bb89-e2246ca392ef
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_UserInDomain class", "Win32_UserInDomain class, described"]
+keywords:
+- Win32_UserInDomain class
+- Win32_UserInDomain class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - Wmipcima.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_UserInDomain class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32a"), UUID("B38813CF-0673-495C-A12F-384D47BDF1ED"), AMENDMENT]
 class Win32_UserInDomain : CIM_Component
 {
-  Win32_NTDomain    REF GroupComponent;
+  Win32_NTDomain    REF GroupComponent;
   Win32_UserAccount REF PartComponent;
 };
 ```
@@ -94,8 +99,8 @@ The **Win32\_UserInDomain** class is derived from [**CIM\_Component**](https://m
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipcima.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipcima.dll</dt> </dl> |
@@ -112,9 +117,9 @@ The **Win32\_UserInDomain** class is derived from [**CIM\_Component**](https://m
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

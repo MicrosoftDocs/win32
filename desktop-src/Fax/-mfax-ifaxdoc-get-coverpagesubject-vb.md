@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the CoverpageSubject property of a FaxDoc object. The CoverpageSubject property is a null-terminated string that contains the subject line of the fax transmission.'
-ms.assetid: 'bc3c8f44-07e2-4324-b70e-3d5296762058'
-title: 'FaxDoc.CoverpageSubject property'
+---
+Description: Sets or retrieves the CoverpageSubject property of a FaxDoc object. The CoverpageSubject property is a null-terminated string that contains the subject line of the fax transmission.
+ms.assetid: bc3c8f44-07e2-4324-b70e-3d5296762058
+title: FaxDoc.CoverpageSubject property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.CoverpageSubject property
@@ -55,7 +60,7 @@ The **get\_CoverpageSubject** method allocates the memory required for the buffe
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

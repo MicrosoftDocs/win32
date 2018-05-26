@@ -1,8 +1,26 @@
 ---
 title: Windows Media Player SDK
 description: Windows Media Player SDK
-ms.assetid: '341db997-b50f-4bcb-9d73-180e8a0e6d7b'
-keywords: ["Windows Media Player,documentation", "Windows Media Player,SDK documentation", "Windows Media Player,about", "software development kit (SDK),about Windows Media Player", "SDK (software development kit),about Windows Media Player", "documentation,about Windows Media Player", "Windows Media Player Mobile,SDK documentation", "Windows Media Player Mobile,documentation", "Windows Media Player Mobile,about", "software development kit (SDK),about Windows Media Player Mobile", "SDK (software development kit),about Windows Media Player Mobile", "documentation,about Windows Media Player Mobile", "versions of Windows Media Player,SDK for version 12"]
+ms.assetid: 341db997-b50f-4bcb-9d73-180e8a0e6d7b
+keywords:
+- Windows Media Player,documentation
+- Windows Media Player,SDK documentation
+- Windows Media Player,about
+- software development kit (SDK),about Windows Media Player
+- SDK (software development kit),about Windows Media Player
+- documentation,about Windows Media Player
+- Windows Media Player Mobile,SDK documentation
+- Windows Media Player Mobile,documentation
+- Windows Media Player Mobile,about
+- software development kit (SDK),about Windows Media Player Mobile
+- SDK (software development kit),about Windows Media Player Mobile
+- documentation,about Windows Media Player Mobile
+- versions of Windows Media Player,SDK for version 12
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Player SDK

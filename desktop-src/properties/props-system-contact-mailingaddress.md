@@ -1,7 +1,12 @@
 ---
-Description: 'Mailing address of the contact.'
-ms.assetid: 'ac8890e3-6ffe-418e-a172-1de63f9928ca'
-title: 'System.Contact.MailingAddress'
+Description: Mailing address of the contact.
+ms.assetid: ac8890e3-6ffe-418e-a172-1de63f9928ca
+title: System.Contact.MailingAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.MailingAddress

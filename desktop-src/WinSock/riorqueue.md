@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a socket descriptor used by send and receive requests with the Winsock registered I/O extensions.'
-ms.assetid: '50E9516C-6078-4466-A593-3F29E4783740'
-title: 'RIO\_RQ'
+---
+Description: Specifies a socket descriptor used by send and receive requests with the Winsock registered I/O extensions.
+ms.assetid: 50E9516C-6078-4466-A593-3F29E4783740
+title: RIO\_RQ
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RIO\_RQ
@@ -26,7 +31,7 @@ A data type that specifies a socket descriptor used by send and receive requests
 
 ## Remarks
 
-The Winsock registered I/O extensions operate primarily on a **RIO\_RQ** object rather than a socket. An application obtains a **RIO\_RQ** for an existing socket using the [**RIOCreateRequestQueue**](riocreaterequestqueue.md) function. The input socket must have been created by calling the [**WSASocket**](wsasocket-2.md) function with the **WSA\_FLAG\_RIO** flag set in the *dwFlags* parameter.
+The Winsock registered I/O extensions operate primarily on a **RIO\_RQ** object rather than a socket. An application obtains a **RIO\_RQ** for an existing socket using the [**RIOCreateRequestQueue**](riocreaterequestqueue.md) function. The input socket must have been created by calling the [**WSASocket**](/windows/win32/Winsock2/nf-winsock2-wsasocketa?branch=master) function with the **WSA\_FLAG\_RIO** flag set in the *dwFlags* parameter.
 
 After obtaining a **RIO\_RQ** object, the underlying socket descriptor remains valid. An application may continue to use the underlying socket to set and query socket options, issue IOCTLs and ultimately close the socket.
 
@@ -71,7 +76,7 @@ The [**RIO\_RQ**](riocqueue.md) typedef is defined in the *Mswsockdef.h* header 
 [**RIOSendEx**](riosendex.md)
 </dt> <dt>
 
-[**WSASocket**](wsasocket-2.md)
+[**WSASocket**](/windows/win32/Winsock2/nf-winsock2-wsasocketa?branch=master)
 </dt> </dl>
 
  

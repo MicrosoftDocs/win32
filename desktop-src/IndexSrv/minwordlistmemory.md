@@ -1,7 +1,12 @@
 ---
 title: MinWordlistMemory
 description: MinWordlistMemory
-ms.assetid: '9375d985-0179-43af-8aad-854e62a27174'
+ms.assetid: 9375d985-0179-43af-8aad-854e62a27174
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MinWordlistMemory

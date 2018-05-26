@@ -4,11 +4,16 @@ description: The StatusBarText property specifies the text in the status bar. Th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7a673b2a-fc3f-4641-8844-9c0a81ee08d2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 7a673b2a-fc3f-4641-8844-9c0a81ee08d2
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["StatusBarText property MMC", "StatusBarText property MMC , View object", "View object MMC , StatusBarText property", "StatusBarText property MMC , View interface", "View interface MMC , StatusBarText property"]
+keywords:
+- StatusBarText property MMC
+- StatusBarText property MMC , View object
+- View object MMC , StatusBarText property
+- StatusBarText property MMC , View interface
+- View interface MMC , StatusBarText property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::StatusBarText property
@@ -63,8 +71,8 @@ objView.StatusBarText = "left pane | middle pane | right pane"
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -72,9 +80,9 @@ objView.StatusBarText = "left pane | middle pane | right pane"
 
 
 
- 
+ 
 
- 
+ 
 
 
 

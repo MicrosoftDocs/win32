@@ -1,14 +1,20 @@
 ---
 title: StringFileInfo BLOCK statement
 description: Describes the form of the string information block.
-ms.assetid: 'd5edf638-b70a-44d0-a43a-89d4d21e679f'
-keywords: ["StringFileInfo BLOCK statement Menus and Other Resources"]
+ms.assetid: d5edf638-b70a-44d0-a43a-89d4d21e679f
+keywords:
+- StringFileInfo BLOCK statement Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - StringFileInfo BLOCK
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StringFileInfo BLOCK statement

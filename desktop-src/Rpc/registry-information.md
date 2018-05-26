@@ -1,8 +1,14 @@
 ---
 title: Registry Information
 description: This section contains a discussion of the registry entries that are relevant to RPC.
-ms.assetid: 'f107e2f6-6a6d-4f70-81a0-bc7adc87aab4'
-keywords: ["Remote Procedure Call RPC , described, registry information"]
+ms.assetid: f107e2f6-6a6d-4f70-81a0-bc7adc87aab4
+keywords:
+- Remote Procedure Call RPC , described, registry information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Information

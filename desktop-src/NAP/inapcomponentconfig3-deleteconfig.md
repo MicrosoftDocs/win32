@@ -1,8 +1,11 @@
 ---
 title: INapComponentConfig3 DeleteConfig method
 description: Is implemented by system health validators (SHVs) to provide a way to delete configuration data for a specific configuration ID.
-ms.assetid: '9740c122-86c8-4b77-9268-faa90e84d8aa'
-keywords: ["DeleteConfig method NAP", "DeleteConfig method NAP , INapComponentConfig3 interface", "INapComponentConfig3 interface NAP , DeleteConfig method"]
+ms.assetid: 9740c122-86c8-4b77-9268-faa90e84d8aa
+keywords:
+- DeleteConfig method NAP
+- DeleteConfig method NAP , INapComponentConfig3 interface
+- INapComponentConfig3 interface NAP , DeleteConfig method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentConfig3::DeleteConfig method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **DeleteConfig** method is implemented by system health validators (SHVs) to provide a way to delete configuration data for a specific configuration ID. The ID may be reused after the configuration data has been deleted.
 
@@ -27,7 +35,7 @@ The **DeleteConfig** method is implemented by system health validators (SHVs) to
 
 ```C++
 HRESULT DeleteConfig(
-   UINT32 configID
+   UINT32 configID
 );
 ```
 
@@ -58,7 +66,7 @@ Returns one of the following error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,7 +75,7 @@ Returns one of the following error codes based on the result of this operation.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -80,9 +88,9 @@ Returns one of the following error codes based on the result of this operation.
 [**INapComponentConfig3**](inapcomponentconfig3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

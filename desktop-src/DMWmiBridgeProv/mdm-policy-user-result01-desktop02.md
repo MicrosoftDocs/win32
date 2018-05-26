@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_User\_Result01\_Desktop02 class
 description: The MDM\_Policy\_User\_Result01\_Desktop02 class represents the available folder profile policies.
-ms.assetid: 'dab89ac4-b857-474e-8fe5-6822fe06ac91'
-keywords: ["MDM_Policy_User_Result01_Desktop02 class", "MDM_Policy_User_Result01_Desktop02 class, described"]
+ms.assetid: dab89ac4-b857-474e-8fe5-6822fe06ac91
+keywords:
+- MDM_Policy_User_Result01_Desktop02 class
+- MDM_Policy_User_Result01_Desktop02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_User\_Result01\_Desktop02 class
@@ -92,7 +99,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -100,9 +107,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TBM\_GETNUMTICS message
 description: Retrieves the number of tick marks in a trackbar.
-ms.assetid: '3c3f7ebb-a544-474c-ba14-68eae543ee38'
-keywords: ["TBM_GETNUMTICS message Windows Controls"]
+ms.assetid: 3c3f7ebb-a544-474c-ba14-68eae543ee38
+keywords:
+- TBM_GETNUMTICS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_GETNUMTICS message
@@ -41,15 +47,15 @@ The **TBM\_GETNUMTICS** message counts all of the tick marks, including the firs
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

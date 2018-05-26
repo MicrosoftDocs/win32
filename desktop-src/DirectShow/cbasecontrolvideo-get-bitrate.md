@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_BitRate method retrieves an approximate bit rate for the video.'
-ms.assetid: 'e12e4677-a038-479f-8b64-937ad521c4be'
-title: 'CBaseControlVideo.get\_BitRate method'
+Description: The get\_BitRate method retrieves an approximate bit rate for the video.
+ms.assetid: e12e4677-a038-479f-8b64-937ad521c4be
+title: CBaseControlVideo.get\_BitRate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.get\_BitRate method
@@ -13,7 +18,7 @@ The `get_BitRate` method retrieves an approximate bit rate for the video.
 
 ```C++
 HRESULT get_BitRate(
-   long *pBitRate
+   long *pBitRate
 );
 ```
 
@@ -36,7 +41,7 @@ Returns NOERROR if successful or E\_OUTOFMEMORY if not enough memory is availabl
 
 ## Remarks
 
-This member function implements the [**IBasicVideo::get\_BitRate**](ibasicvideo-get-bitrate.md) method. It calls the pure virtual [**CBaseControlVideo::GetVideoFormat**](cbasecontrolvideo-getvideoformat.md) to retrieve the [**VIDEOINFOHEADER**](videoinfoheader.md) structure from the derived class.
+This member function implements the [**IBasicVideo::get\_BitRate**](/windows/win32/Control/nf-control-ibasicvideo-get_bitrate?branch=master) method. It calls the pure virtual [**CBaseControlVideo::GetVideoFormat**](cbasecontrolvideo-getvideoformat.md) to retrieve the [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure from the derived class.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ This member function implements the [**IBasicVideo::get\_BitRate**](ibasicvideo-
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

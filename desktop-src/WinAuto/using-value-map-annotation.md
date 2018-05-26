@@ -1,7 +1,12 @@
 ---
 title: Using Value Map Annotation
 description: For sample code, see Value Map Annotation Sample.
-ms.assetid: '29be74c7-a7c2-41f4-8b94-5771988b74ff'
+ms.assetid: 29be74c7-a7c2-41f4-8b94-5771988b74ff
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Value Map Annotation
@@ -45,7 +50,7 @@ ms.assetid: '29be74c7-a7c2-41f4-8b94-5771988b74ff'
 
     For more information, see [Annotation Map Format](value-map-annotation.md#annotation-map-format).
 
-2.  **Create the annotation manager and obtain a pointer to its**[**IAccPropServices**](iaccpropservices.md)**interface.**
+2.  **Create the annotation manager and obtain a pointer to its**[**IAccPropServices**](/windows/win32/oleacc/nn-oleacc-iaccpropservices?branch=master)**interface.**
 
     The following is an example of how to create the annotation manager.
 
@@ -60,7 +65,7 @@ ms.assetid: '29be74c7-a7c2-41f4-8b94-5771988b74ff'
 
 3.  **Attach the mapping string to the control.**
 
-    Call [**IAccPropServices::SetHwndPropStr**](iaccpropservices-iaccpropservices--sethwndpropstr.md), passing the **HWND** of the control and a pointer to the mapping string.
+    Call [**IAccPropServices::SetHwndPropStr**](/windows/win32/Oleacc/nf-oleacc-iaccpropservices-sethwndpropstr?branch=master), passing the **HWND** of the control and a pointer to the mapping string.
 
     The *IdProp* parameter will be one of the following.
 
@@ -81,7 +86,7 @@ ms.assetid: '29be74c7-a7c2-41f4-8b94-5771988b74ff'
 
     Before you destroy any value map annotated controls (for example, when handling [WM\_DESTROY](http://go.microsoft.com/fwlink/p/?linkid=178241)), you must clear previously registered properties and release the annotation manager.
 
-    To do this, call [**IAccPropServices::ClearHwndProps**](iaccpropservices-iaccpropservices--clearhwndprops.md) as appropriate and release your pointer to [**IAccPropServices**](iaccpropservices.md).
+    To do this, call [**IAccPropServices::ClearHwndProps**](/windows/win32/Oleacc/nf-oleacc-iaccpropservices-clearhwndprops?branch=master) as appropriate and release your pointer to [**IAccPropServices**](/windows/win32/oleacc/nn-oleacc-iaccpropservices?branch=master).
 
 For sample code, see [Value Map Annotation Sample](value-map-annotation-sample.md).
 

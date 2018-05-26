@@ -1,7 +1,12 @@
 ---
-Description: 'This operator tests for equality between two reference times.'
-ms.assetid: 'a265f7c6-8334-4bb3-8cb7-c7918ebdf97a'
-title: 'COARefTime.operator== method'
+Description: This operator tests for equality between two reference times.
+ms.assetid: a265f7c6-8334-4bb3-8cb7-c7918ebdf97a
+title: COARefTime.operator== method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COARefTime.operator== method
@@ -13,7 +18,7 @@ This operator tests for equality between two reference times.
 
 ```C++
 BOOL operator==(
-  [ref] const COARefTime &amp;rt
+  [ref] const COARefTime &amp;rt
 );
 ```
 
@@ -52,9 +57,9 @@ Returns **TRUE** if the two objects are equal. Otherwise, returns **FALSE**.
 [**COARefTime Class**](coareftime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

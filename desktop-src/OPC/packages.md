@@ -1,7 +1,12 @@
 ---
 title: Packages Fundamentals
 description: The topics in this section describe using the Packaging APIs to represent and interact with packages.
-ms.assetid: 'e3b21b21-ecd0-470c-a333-958c9944e218'
+ms.assetid: e3b21b21-ecd0-470c-a333-958c9944e218
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Packages Fundamentals

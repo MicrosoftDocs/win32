@@ -1,14 +1,19 @@
 ---
-Description: 'When a Handler function is called by the dispatcher thread, it handles the control code passed in the Opcode parameter and then calls the ReportSvcStatus function to update the service status.'
-ms.assetid: 'bf1932bd-496b-46a1-95f4-1581da98299f'
+Description: When a Handler function is called by the dispatcher thread, it handles the control code passed in the Opcode parameter and then calls the ReportSvcStatus function to update the service status.
+ms.assetid: bf1932bd-496b-46a1-95f4-1581da98299f
 title: Writing a Control Handler Function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing a Control Handler Function
 
-When a [**Handler**](handler.md) function is called by the dispatcher thread, it handles the control code passed in the *Opcode* parameter and then calls the ReportSvcStatus function to update the service status. When a [**Handler**](handler.md) function receives a control code, it should report the service status only if handling the control code causes the service status to change. If the service does not act on the control, it should not report status to the service control manager. For the source code for ReportSvcStatus, see [Writing a ServiceMain Function](writing-a-servicemain-function.md).
+When a [**Handler**](/windows/win32/Winsvc/nc-winsvc-lphandler_function?branch=master) function is called by the dispatcher thread, it handles the control code passed in the *Opcode* parameter and then calls the ReportSvcStatus function to update the service status. When a [**Handler**](/windows/win32/Winsvc/nc-winsvc-lphandler_function?branch=master) function receives a control code, it should report the service status only if handling the control code causes the service status to change. If the service does not act on the control, it should not report status to the service control manager. For the source code for ReportSvcStatus, see [Writing a ServiceMain Function](writing-a-servicemain-function.md).
 
-In the following example, the SvcCtrlHandler function is an example of a [**Handler**](handler.md) function. Note that the ghSvcStopEvent variable is a global variable that should be initialized and used as demonstrated in [Writing a ServiceMain function](writing-a-servicemain-function.md).
+In the following example, the SvcCtrlHandler function is an example of a [**Handler**](/windows/win32/Winsvc/nc-winsvc-lphandler_function?branch=master) function. Note that the ghSvcStopEvent variable is a global variable that should be initialized and used as demonstrated in [Writing a ServiceMain function](writing-a-servicemain-function.md).
 
 
 ```C++

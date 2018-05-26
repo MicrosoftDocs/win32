@@ -1,7 +1,12 @@
 ---
 title: Error-Handling Functions
 description: The error handling functions are used to create, set and retrieve error objects.
-ms.assetid: '483ca37a-332c-4a0e-9c27-cc6b885a3005'
+ms.assetid: 483ca37a-332c-4a0e-9c27-cc6b885a3005
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error-Handling Functions
@@ -14,13 +19,13 @@ The error handling functions are used to create, set and retrieve error objects.
 
 | Topic                                                 | Description                                                                                                                                      |
 |-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateErrorInfo**](createerrorinfo.md)<br/> | Creates an instance of a generic error object.<br/>                                                                                        |
-| [**GetErrorInfo**](geterrorinfo.md)<br/>       | Obtains the error information pointer set by the previous call to [**SetErrorInfo**](seterrorinfo.md) in the current logical thread.<br/> |
-| [**SetErrorInfo**](seterrorinfo.md)<br/>       | Sets the error information object for the current logical thread of execution.<br/>                                                        |
+| [**CreateErrorInfo**](/windows/previous-versions/OleAuto/nf-oleauto-createerrorinfo?branch=master)<br/> | Creates an instance of a generic error object.<br/>                                                                                        |
+| [**GetErrorInfo**](/windows/previous-versions/OleAuto/nf-oleauto-geterrorinfo?branch=master)<br/>       | Obtains the error information pointer set by the previous call to [**SetErrorInfo**](/windows/previous-versions/OleAuto/nf-oleauto-seterrorinfo?branch=master) in the current logical thread.<br/> |
+| [**SetErrorInfo**](/windows/previous-versions/OleAuto/nf-oleauto-seterrorinfo?branch=master)<br/>       | Sets the error information object for the current logical thread of execution.<br/>                                                        |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ The error handling functions are used to create, set and retrieve error objects.
 [Error Handling Interfaces](error-handling-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: MMC provides snap-in developers with the following interface method
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '226095cf-b606-4cdf-bb61-207902c774c2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 226095cf-b606-4cdf-bb61-207902c774c2
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["custom OCX controls MMC , interfaces"]
+keywords:
+- custom OCX controls MMC , interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Custom OCX Controls: Interfaces

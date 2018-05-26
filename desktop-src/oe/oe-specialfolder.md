@@ -1,8 +1,10 @@
 ---
 title: SPECIALFOLDER enumeration
 description: Do not use. Contains constants that specify special message folders in Windows Mail (formerly Outlook Express).
-ms.assetid: '6ee8132a-b600-4acf-ae2d-439b4b2bb6cb'
-keywords: ["SPECIALFOLDER enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 6ee8132a-b600-4acf-ae2d-439b4b2bb6cb
+keywords:
+- SPECIALFOLDER enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Msoeapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPECIALFOLDER enumeration
@@ -22,13 +29,13 @@ Do not use. Contains constants that specify special message folders in Windows M
 
 ```C++
 typedef enum tagSPECIALFOLDER { 
-  FOLDER_NOTSPECIAL  = -1,
-  FOLDER_INBOX       = 1,
-  FOLDER_OUTBOX      = 2,
-  FOLDER_SENT        = 3,
-  FOLDER_DELETED     = 4,
-  FOLDER_DRAFT       = 5,
-  FOLDER_MAX         = 6
+  FOLDER_NOTSPECIAL  = -1,
+  FOLDER_INBOX       = 1,
+  FOLDER_OUTBOX      = 2,
+  FOLDER_SENT        = 3,
+  FOLDER_DELETED     = 4,
+  FOLDER_DRAFT       = 5,
+  FOLDER_MAX         = 6
 } ACCESSTYPE;
 ```
 
@@ -93,17 +100,17 @@ Do not use.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

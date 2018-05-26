@@ -1,7 +1,12 @@
-﻿---
-Description: 'Memory management tracing event for a heap free operation.'
-ms.assetid: '0CCC59F1-AB96-4B7A-9A86-19CA4FBA4A8A'
-title: 'ETW\_HEAP\_EVENT\_FREE event'
+---
+Description: Memory management tracing event for a heap free operation.
+ms.assetid: 0CCC59F1-AB96-4B7A-9A86-19CA4FBA4A8A
+title: ETW\_HEAP\_EVENT\_FREE event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ETW\_HEAP\_EVENT\_FREE event

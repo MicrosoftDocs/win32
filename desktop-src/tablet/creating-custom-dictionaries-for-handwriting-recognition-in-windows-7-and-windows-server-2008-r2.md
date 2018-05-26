@@ -1,7 +1,12 @@
 ---
-Description: 'This section explains how to create a custom dictionary for handwriting recognition.'
-ms.assetid: '83abf534-740c-44a3-bbd4-babb54f2930e'
+Description: This section explains how to create a custom dictionary for handwriting recognition.
+ms.assetid: 83abf534-740c-44a3-bbd4-babb54f2930e
 title: Creating Custom Dictionaries for Handwriting Recognition in Windows 7 and Windows Server 2008 R2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Custom Dictionaries for Handwriting Recognition in Windows 7 and Windows Server 2008 R2
@@ -13,7 +18,7 @@ In the Windows 7 operating system and the Windows Server 2008 R2 operating syste
 > [!Note]  
 > Custom dictionaries can be installed for a language only if the handwriting recognizer for that language is installed.
 
- 
+ 
 
 There are two basic steps to setting up a custom dictionary for handwriting:
 
@@ -22,7 +27,7 @@ There are two basic steps to setting up a custom dictionary for handwriting:
 
 ## Compiling a Word List
 
-The word list to be compiled must be in plain-text format and should be saved using a Unicode encoding. Other encodings will not work. Each line of the text file is taken as a single entry in the dictionary. Multiword units—entries containing one or more spaces—are allowed. Spaces at the beginning or end of a line are ignored.
+The word list to be compiled must be in plain-text format and should be saved using a Unicode encoding. Other encodings will not work. Each line of the text file is taken as a single entry in the dictionary. Multiword units entries containing one or more spaces are allowed. Spaces at the beginning or end of a line are ignored.
 
 A custom dictionary is compiled from a command line. To compile a dictionary, open a command window, navigate to the folder containing the word list, and then run HwrComp.exe with the command-line options you want to use.
 
@@ -58,7 +63,7 @@ Usage: hwrcomp       [-lang <localename>] [-type <type>]
 </tr>
 <tr class="even">
 <td>-type &lt;type&gt;</td>
-<td>The option argument &lt;type&gt; is a single-string concatenation of the resource's use—as either the main word list (PRIMARY) or as a supplement to the main word list (SECONDARY)—followed by the actual word list name to which the resource is applied (such as DICTIONARY or SURNAME). The following are possible values:
+<td>The option argument &lt;type&gt; is a single-string concatenation of the resource's use as either the main word list (PRIMARY) or as a supplement to the main word list (SECONDARY) followed by the actual word list name to which the resource is applied (such as DICTIONARY or SURNAME). The following are possible values:
 <ul>
 <li>PRIMARY-CITYNAME-LIST</li>
 <li>PRIMARY-COUNTRYNAME-LIST</li>
@@ -100,7 +105,7 @@ Replacing a system dictionary does nothing to the original system dictionary con
 
 
 
- 
+ 
 
 ### Defaults
 
@@ -146,16 +151,16 @@ Usage: hwrreg        [-check]
 
 | Parameter                | Description                                                                                                                                                                                                                                                                                                                                                                        |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| -check                   | The dictionary file is verified without being installed. The –check option displays the file's comment, plus the registration information that would be used to install the file. This option is useful for verifying registration information before the installation is performed. <br/> If this option is missing, HwrReg.exe installs the custom dictionary.<br/>  |
-| –lang &lt;localename&gt; | The dictionary file is verified without being installed. The –check option displays the file's comment, plus the registration information that would be used to install the file. This option is useful for verifying registration information before the installation is performed. <br/> If this option is missing, HwrReg.exe installs the custom dictionary. <br/> |
-| –scope {all\|me}         | The custom dictionary is installed either for all users (–scope all) or for just the current user (–scope me). Installing with –scope all requires the command to be run in an elevated command prompt; otherwise, an error code will be returned. <br/> If this option is missing, the installation is scoped to just the current user.<br/>                          |
-| –noprompt                | HwrReg.exe does not prompt for confirmation. This can be useful when running hwrReg.exe from a script. <br/>                                                                                                                                                                                                                                                                 |
+| -check                   | The dictionary file is verified without being installed. The  check option displays the file's comment, plus the registration information that would be used to install the file. This option is useful for verifying registration information before the installation is performed. <br/> If this option is missing, HwrReg.exe installs the custom dictionary.<br/>  |
+|  lang &lt;localename&gt; | The dictionary file is verified without being installed. The  check option displays the file's comment, plus the registration information that would be used to install the file. This option is useful for verifying registration information before the installation is performed. <br/> If this option is missing, HwrReg.exe installs the custom dictionary. <br/> |
+|  scope {all\|me}         | The custom dictionary is installed either for all users ( scope all) or for just the current user ( scope me). Installing with  scope all requires the command to be run in an elevated command prompt; otherwise, an error code will be returned. <br/> If this option is missing, the installation is scoped to just the current user.<br/>                          |
+|  noprompt                | HwrReg.exe does not prompt for confirmation. This can be useful when running hwrReg.exe from a script. <br/>                                                                                                                                                                                                                                                                 |
 
 
 
- 
+ 
 
-The following example installs the custom dictionary myrsrc1.hwrdict for language "Danish (Denmark)" (da–DK), with the default scope of just the current user.
+The following example installs the custom dictionary myrsrc1.hwrdict for language "Danish (Denmark)" (da DK), with the default scope of just the current user.
 
 ``` syntax
 hwrreg -lang da-DK myrsrc1.hwrdict 
@@ -178,19 +183,19 @@ Usage: hwrreg        [-lang <localename>]
 
 | Parameter                | Description                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| –lang &lt;localename&gt; | The dictionaries registered for only this locale name are listed or removed. The argument &lt;localename&gt; has the form language–REGION. For examples of this form, see [Language Identifier Constants and Strings](https://msdn.microsoft.com/library/windows/desktop/dd318693). <br/> If this option is missing, dictionaries for all languages are listed or removed.<br/> |
-| –scope {all\|me}         | The custom dictionary is installed either for all users (–scope all) or for just the current user (–scope me). Installing with –scope all requires the command to be run in an elevated command prompt; otherwise, an error code will be returned. <br/> If this option is missing, the installation is scoped to just the current user.<br/>                      |
-| –type &lt;type&gt;       | Lists or removes only dictionaries that are registered with the specified type.<br/> If this option is missing, all dictionary types are listed or removed. Installing or removing a custom dictionary of another type (such as PRIMARY-COUNTRYNAME-LIST) may affect handwriting recognition in other contexts. <br/>                                              |
-| –list                    | Lists all installed dictionaries that match the other options.<br/> If this option is missing, the option –remove must be specified.<br/>                                                                                                                                                                                                                          |
-| –remove                  | Prompts for removal of any dictionary that matches the other options.<br/> If this option is missing, the option –list must be specified.<br/>                                                                                                                                                                                                                     |
+|  lang &lt;localename&gt; | The dictionaries registered for only this locale name are listed or removed. The argument &lt;localename&gt; has the form language REGION. For examples of this form, see [Language Identifier Constants and Strings](https://msdn.microsoft.com/library/windows/desktop/dd318693). <br/> If this option is missing, dictionaries for all languages are listed or removed.<br/> |
+|  scope {all\|me}         | The custom dictionary is installed either for all users ( scope all) or for just the current user ( scope me). Installing with  scope all requires the command to be run in an elevated command prompt; otherwise, an error code will be returned. <br/> If this option is missing, the installation is scoped to just the current user.<br/>                      |
+|  type &lt;type&gt;       | Lists or removes only dictionaries that are registered with the specified type.<br/> If this option is missing, all dictionary types are listed or removed. Installing or removing a custom dictionary of another type (such as PRIMARY-COUNTRYNAME-LIST) may affect handwriting recognition in other contexts. <br/>                                              |
+|  list                    | Lists all installed dictionaries that match the other options.<br/> If this option is missing, the option  remove must be specified.<br/>                                                                                                                                                                                                                          |
+|  remove                  | Prompts for removal of any dictionary that matches the other options.<br/> If this option is missing, the option  list must be specified.<br/>                                                                                                                                                                                                                     |
 
 
 
- 
+ 
 
 ### Examples
 
-The following lists dictionaries that have language "English (US)" (en–US) and type PRIMARY–DICTIONARY and that are installed for just the current user.
+The following lists dictionaries that have language "English (US)" (en US) and type PRIMARY DICTIONARY and that are installed for just the current user.
 
 ``` syntax
 hwrreg -list -lang en-US -type PRIMARY-DICTIONARY
@@ -209,9 +214,9 @@ hwrreg -remove -lang en-US -type PRIMARY-DICTIONARY
 -   If you install two custom dictionaries that have the same type, language, and scope, the second installation will overwrite the first.
 -   If you install two custom dictionaries with the same type and language, but with different scopes (one for all users, and one for the current user), the dictionary installed for the current user takes precedence, and the dictionary installed for all users is ignored.
 
- 
+ 
 
- 
+ 
 
 
 

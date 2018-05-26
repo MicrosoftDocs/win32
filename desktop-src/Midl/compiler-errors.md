@@ -2,13 +2,19 @@
 title: Compiler Errors
 description: List of error messages generated during MIDL compilation.
 ms.assetid: 492eacdd-6bd1-49df-9112-3765f6c05f34
-keywords: ["errors MIDL , compiler errors"]
+keywords:
+- errors MIDL , compiler errors
 topic_type:
 - apiref
 api_name:
 - Compiler Errors
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compiler Errors
@@ -79,11 +85,11 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="odd">
 <td><span id="MIDL2012"></span><span id="midl2012"></span><dl> <dt><strong>MIDL2012</strong></dt> </dl></td>
-<td><dl> <dt><span id="use_of_wide-character_constants_requires__ms_ext_or__c_ext"></span><span id="USE_OF_WIDE-CHARACTER_CONSTANTS_REQUIRES__MS_EXT_OR__C_EXT"></span>use of wide-character constants requires /ms_ext or /c_ext</dt> <dd> Wide-character constants are a Microsoft extension to DCE IDL. To use the data type [<strong>wchar_t</strong>](wchar-t.md), you cannot compile with the [<strong>/osf</strong>](-osf.md) switch, which overrides the MIDL compiler default switches–[<strong>/ms_ext</strong>](-ms-ext.md) and [<strong>/c_ext</strong>](-c-ext.md).<br/> </dd> </dl></td>
+<td><dl> <dt><span id="use_of_wide-character_constants_requires__ms_ext_or__c_ext"></span><span id="USE_OF_WIDE-CHARACTER_CONSTANTS_REQUIRES__MS_EXT_OR__C_EXT"></span>use of wide-character constants requires /ms_ext or /c_ext</dt> <dd> Wide-character constants are a Microsoft extension to DCE IDL. To use the data type [<strong>wchar_t</strong>](wchar-t.md), you cannot compile with the [<strong>/osf</strong>](-osf.md) switch, which overrides the MIDL compiler default switches [<strong>/ms_ext</strong>](-ms-ext.md) and [<strong>/c_ext</strong>](-c-ext.md).<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2013"></span><span id="midl2013"></span><dl> <dt><strong>MIDL2013</strong></dt> </dl></td>
-<td><dl> <dt><span id="use_of_wide_character_strings_requires__ms_ext_or__c_ext"></span><span id="USE_OF_WIDE_CHARACTER_STRINGS_REQUIRES__MS_EXT_OR__C_EXT"></span>use of wide character strings requires /ms_ext or /c_ext</dt> <dd> Wide-character string constants are a Microsoft extension to DCE IDL. To use the data type [<strong>wchar_t</strong>](wchar-t.md), you cannot compile with the [<strong>/osf</strong>](-osf.md) switch, which overrides the MIDL compiler default switches–[<strong>/ms_ext</strong>](-ms-ext.md) and [<strong>/c_ext</strong>](-c-ext.md).<br/> </dd> </dl></td>
+<td><dl> <dt><span id="use_of_wide_character_strings_requires__ms_ext_or__c_ext"></span><span id="USE_OF_WIDE_CHARACTER_STRINGS_REQUIRES__MS_EXT_OR__C_EXT"></span>use of wide character strings requires /ms_ext or /c_ext</dt> <dd> Wide-character string constants are a Microsoft extension to DCE IDL. To use the data type [<strong>wchar_t</strong>](wchar-t.md), you cannot compile with the [<strong>/osf</strong>](-osf.md) switch, which overrides the MIDL compiler default switches [<strong>/ms_ext</strong>](-ms-ext.md) and [<strong>/c_ext</strong>](-c-ext.md).<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2014"></span><span id="midl2014"></span><dl> <dt><strong>MIDL2014</strong></dt> </dl></td>
@@ -235,7 +241,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="even">
 <td><span id="MIDL2051"></span><span id="midl2051"></span><dl> <dt><strong>MIDL2051</strong></dt> </dl></td>
-<td><dl> <dt><span id="__local__attribute_on_a_procedure_requires__ms_ext"></span><span id="__LOCAL__ATTRIBUTE_ON_A_PROCEDURE_REQUIRES__MS_EXT"></span> [local] attribute on a procedure requires /ms_ext</dt> <dd> The [[<strong>local</strong>](local.md)] attribute is a Microsoft extension to DCE IDL. To use this attribute on a function, you cannot compile with the [<strong>/osf</strong>](-osf.md) switch. The <strong>/osf</strong> switch overrides the MIDL compiler default switches–[<strong>/ms_ext</strong>](-ms-ext.md) and [<strong>/c_ext</strong>](-c-ext.md).<br/> </dd> </dl></td>
+<td><dl> <dt><span id="__local__attribute_on_a_procedure_requires__ms_ext"></span><span id="__LOCAL__ATTRIBUTE_ON_A_PROCEDURE_REQUIRES__MS_EXT"></span> [local] attribute on a procedure requires /ms_ext</dt> <dd> The [[<strong>local</strong>](local.md)] attribute is a Microsoft extension to DCE IDL. To use this attribute on a function, you cannot compile with the [<strong>/osf</strong>](-osf.md) switch. The <strong>/osf</strong> switch overrides the MIDL compiler default switches [<strong>/ms_ext</strong>](-ms-ext.md) and [<strong>/c_ext</strong>](-c-ext.md).<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2052"></span><span id="midl2052"></span><dl> <dt><strong>MIDL2052</strong></dt> </dl></td>
@@ -271,7 +277,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="odd">
 <td><span id="MIDL2060"></span><span id="midl2060"></span><dl> <dt><strong>MIDL2060</strong></dt> </dl></td>
-<td><dl> <dt><span id="_byte_count__requires__ms_ext"></span><span id="_BYTE_COUNT__REQUIRES__MS_EXT"></span>[byte_count] requires /ms_ext</dt> <dd> The [[<strong>byte_count</strong>](byte-count.md)] attribute is a Microsoft extension to DCE IDL. To use this attribute you cannot compile with the [<strong>/osf</strong>](-osf.md) switch, which overrides the MIDL compiler–default switches–[<strong>/ms_ext</strong>](-ms-ext.md) and [<strong>/c_ext</strong>](-c-ext.md).<br/> </dd> </dl></td>
+<td><dl> <dt><span id="_byte_count__requires__ms_ext"></span><span id="_BYTE_COUNT__REQUIRES__MS_EXT"></span>[byte_count] requires /ms_ext</dt> <dd> The [[<strong>byte_count</strong>](byte-count.md)] attribute is a Microsoft extension to DCE IDL. To use this attribute you cannot compile with the [<strong>/osf</strong>](-osf.md) switch, which overrides the MIDL compiler default switches [<strong>/ms_ext</strong>](-ms-ext.md) and [<strong>/c_ext</strong>](-c-ext.md).<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2061"></span><span id="midl2061"></span><dl> <dt><strong>MIDL2061</strong></dt> </dl></td>
@@ -341,7 +347,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="odd">
 <td><span id="MIDL2076"></span><span id="midl2076"></span><dl> <dt><strong>MIDL2076</strong></dt> </dl></td>
-<td><dl> <dt><span id="_last_is__and__length_is__cannot_be_specified_at_the_same_time"></span><span id="_LAST_IS__AND__LENGTH_IS__CANNOT_BE_SPECIFIED_AT_THE_SAME_TIME"></span>[last_is] and [length_is] cannot be specified at the same time</dt> <dd> Both [[<strong>last_is</strong>](last-is.md)] and [[<strong>length_is</strong>](length-is.md)] have been specified for the same array. These attributes are related as follows: length = last – first + 1. Because each value can be derived from the other, don't specify both.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="_last_is__and__length_is__cannot_be_specified_at_the_same_time"></span><span id="_LAST_IS__AND__LENGTH_IS__CANNOT_BE_SPECIFIED_AT_THE_SAME_TIME"></span>[last_is] and [length_is] cannot be specified at the same time</dt> <dd> Both [[<strong>last_is</strong>](last-is.md)] and [[<strong>length_is</strong>](length-is.md)] have been specified for the same array. These attributes are related as follows: length = last   first + 1. Because each value can be derived from the other, don't specify both.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2077"></span><span id="midl2077"></span><dl> <dt><strong>MIDL2077</strong></dt> </dl></td>
@@ -611,7 +617,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="even">
 <td><span id="MIDL2143"></span><span id="midl2143"></span><dl> <dt><strong>MIDL2143</strong></dt> </dl></td>
-<td><dl> <dt><span id="parameter_must_not_derive_from_a_nonrpccapable_union"></span><span id="PARAMETER_MUST_NOT_DERIVE_FROM_A_NONRPCCAPABLE_UNION"></span>parameter must not derive from a nonrpc–capable union</dt> <dd> The union must be associated with a discriminant. Use the [[<strong>switch_is</strong>](switch-is.md)] and [[<strong>switch_type</strong>](switch-type.md)] attributes.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="parameter_must_not_derive_from_a_nonrpccapable_union"></span><span id="PARAMETER_MUST_NOT_DERIVE_FROM_A_NONRPCCAPABLE_UNION"></span>parameter must not derive from a nonrpc capable union</dt> <dd> The union must be associated with a discriminant. Use the [[<strong>switch_is</strong>](switch-is.md)] and [[<strong>switch_type</strong>](switch-type.md)] attributes.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2144"></span><span id="midl2144"></span><dl> <dt><strong>MIDL2144</strong></dt> </dl></td>
@@ -627,7 +633,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="even">
 <td><span id="MIDL2147"></span><span id="midl2147"></span><dl> <dt><strong>MIDL2147</strong></dt> </dl></td>
-<td><dl> <dt><span id="return_type_must_not_derive_from_a_nonrpccapable_union"></span><span id="RETURN_TYPE_MUST_NOT_DERIVE_FROM_A_NONRPCCAPABLE_UNION"></span>return type must not derive from a nonrpc–capable union</dt> <dd> The union must be associated with a discriminant. Use the [[<strong>switch_is</strong>](switch-is.md)] and [[<strong>switch_type</strong>](switch-type.md)] attributes.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="return_type_must_not_derive_from_a_nonrpccapable_union"></span><span id="RETURN_TYPE_MUST_NOT_DERIVE_FROM_A_NONRPCCAPABLE_UNION"></span>return type must not derive from a nonrpc capable union</dt> <dd> The union must be associated with a discriminant. Use the [[<strong>switch_is</strong>](switch-is.md)] and [[<strong>switch_type</strong>](switch-type.md)] attributes.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2148"></span><span id="midl2148"></span><dl> <dt><strong>MIDL2148</strong></dt> </dl></td>
@@ -709,7 +715,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="even">
 <td><span id="MIDL2167"></span><span id="midl2167"></span><dl> <dt><strong>MIDL2167</strong></dt> </dl></td>
-<td><dl> <dt><span id="this_attribute_only_allowed_with_new_format_type_libraries"></span><span id="THIS_ATTRIBUTE_ONLY_ALLOWED_WITH_NEW_FORMAT_TYPE_LIBRARIES"></span>this attribute only allowed with new format type libraries</dt> <dd> To use this attribute, you need the version of Oleaut32.dll provided with Windows 2000 or later.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="this_attribute_only_allowed_with_new_format_type_libraries"></span><span id="THIS_ATTRIBUTE_ONLY_ALLOWED_WITH_NEW_FORMAT_TYPE_LIBRARIES"></span>this attribute only allowed with new format type libraries</dt> <dd> To use this attribute, you need the version of Oleaut32.dll provided with Windows 2000 or later.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2168"></span><span id="midl2168"></span><dl> <dt><strong>MIDL2168</strong></dt> </dl></td>
@@ -1454,7 +1460,7 @@ The Mktyplib.exe tool is obsolete. Use the MIDL compiler instead.
 </tr>
 <tr class="odd">
 <td><span id="MIDL2352"></span><span id="midl2352"></span><dl> <dt><strong>MIDL2352</strong></dt> </dl></td>
-<td><dl> <dt><span id="string__varying_array__conformant_array_and_full_pointer_parameters_may_be_incompatible_with_pipe_parameters_during_run_time"></span><span id="STRING__VARYING_ARRAY__CONFORMANT_ARRAY_AND_FULL_POINTER_PARAMETERS_MAY_BE_INCOMPATIBLE_WITH_PIPE_PARAMETERS_DURING_RUN_TIME"></span>string, varying array, conformant array and full pointer parameters may be incompatible with pipe parameters during run time</dt> <dd> A method combining one or more [in] strings, varying arrays, conformant arrays and full pointer parameters and any [in] pipe parameter result in generation of a stub that runs only on <strong>ncacn_*</strong> and [<strong>ncalrpc</strong>](ncalrpc.md) protocol sequences on Windows computers. Using the stub to make calls on <strong>ncadg_*</strong> protocol sequences or accepting calls from other OSF DCE RPC vendors may generate faults on the server during run time. This error occurs starting with Windows Server 2003.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="string__varying_array__conformant_array_and_full_pointer_parameters_may_be_incompatible_with_pipe_parameters_during_run_time"></span><span id="STRING__VARYING_ARRAY__CONFORMANT_ARRAY_AND_FULL_POINTER_PARAMETERS_MAY_BE_INCOMPATIBLE_WITH_PIPE_PARAMETERS_DURING_RUN_TIME"></span>string, varying array, conformant array and full pointer parameters may be incompatible with pipe parameters during run time</dt> <dd> A method combining one or more [in] strings, varying arrays, conformant arrays and full pointer parameters and any [in] pipe parameter result in generation of a stub that runs only on <strong>ncacn_*</strong> and [<strong>ncalrpc</strong>](ncalrpc.md) protocol sequences on Windows computers. Using the stub to make calls on <strong>ncadg_*</strong> protocol sequences or accepting calls from other OSF DCE RPC vendors may generate faults on the server during run time. This error occurs starting with Windows Server 2003.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2353"></span><span id="midl2353"></span><dl> <dt><strong>MIDL2353</strong></dt> </dl></td>
@@ -1552,7 +1558,7 @@ void bar (large *s, int a);</code></pre>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2373"></span><span id="midl2373"></span><dl> <dt><strong>MIDL2373</strong></dt> </dl></td>
-<td><dl> <dt><span id="DOS__Win16_and_MAC_platforms_are_not_supported_with__robust"></span><span id="dos__win16_and_mac_platforms_are_not_supported_with__robust"></span><span id="DOS__WIN16_AND_MAC_PLATFORMS_ARE_NOT_SUPPORTED_WITH__ROBUST"></span>DOS, Win16 and MAC platforms are not supported with /robust</dt> <dd> MIDL supports the [<strong>/robust</strong>](-robust.md) switch on Microsoft Windows 2000 or later.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="DOS__Win16_and_MAC_platforms_are_not_supported_with__robust"></span><span id="dos__win16_and_mac_platforms_are_not_supported_with__robust"></span><span id="DOS__WIN16_AND_MAC_PLATFORMS_ARE_NOT_SUPPORTED_WITH__ROBUST"></span>DOS, Win16 and MAC platforms are not supported with /robust</dt> <dd> MIDL supports the [<strong>/robust</strong>](-robust.md) switch on Microsoft Windows 2000 or later.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2374"></span><span id="midl2374"></span><dl> <dt><strong>MIDL2374</strong></dt> </dl></td>
@@ -1815,11 +1821,11 @@ Occasionally this error occurs even when the IDL file is correct and no optimiza
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

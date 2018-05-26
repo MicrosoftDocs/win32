@@ -1,8 +1,19 @@
 ---
 title: Pixelate Effects
 description: Pixelate Effects
-ms.assetid: 'd06775fa-71d6-458d-b496-356a466e0a8a'
-keywords: ["Windows Movie Maker,pixelate effects", "Movie Maker,pixelate effects", "programming reference,Windows Movie Maker effects", "reference for Windows Movie Maker,effects", "pixelate effects", "effects,pixelate"]
+ms.assetid: d06775fa-71d6-458d-b496-356a466e0a8a
+keywords:
+- Windows Movie Maker,pixelate effects
+- Movie Maker,pixelate effects
+- programming reference,Windows Movie Maker effects
+- reference for Windows Movie Maker,effects
+- pixelate effects
+- effects,pixelate
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pixelate Effects
@@ -46,7 +57,7 @@ Following the XML are tables that specify which parameters in this XML can be ch
 
 
 
- 
+ 
 
 ## Customizable Parameters
 
@@ -54,12 +65,12 @@ Following the XML are tables that specify which parameters in this XML can be ch
 
 | Parameter or element | Type  | Range/options | Description                                                                                                                                                                                                                                                                                                                                                                                                           |
 |----------------------|-------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *PixelationSize*     | float | 1.0 – 50.0    | The number of squares of pixelation. The larger the number, the coarser the picture appears.                                                                                                                                                                                                                                                                                                                          |
-| **Point**            | float | 0.0 – 1.0     | The point within the duration of the effect at which the enclosing element will have the specified **value**. When the **time** attribute is equal to 0.0, it indicates the starting point of the clip; when the **time** attribute is equal to 1.0, it indicates the end point of the clip.For more information on the **Point** element, see [Changes to the XML Schema](changes-to-the-xml-schema.md).<br/> |
+| *PixelationSize*     | float | 1.0   50.0    | The number of squares of pixelation. The larger the number, the coarser the picture appears.                                                                                                                                                                                                                                                                                                                          |
+| **Point**            | float | 0.0   1.0     | The point within the duration of the effect at which the enclosing element will have the specified **value**. When the **time** attribute is equal to 0.0, it indicates the starting point of the clip; when the **time** attribute is equal to 1.0, it indicates the end point of the clip.For more information on the **Point** element, see [Changes to the XML Schema](changes-to-the-xml-schema.md).<br/> |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -68,9 +79,9 @@ Following the XML are tables that specify which parameters in this XML can be ch
 [**Effects**](effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

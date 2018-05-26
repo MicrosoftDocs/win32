@@ -1,14 +1,20 @@
 ---
 title: ProblemDevicesWarn element
 description: If present then if any devices in the system have an issue, a warning will be generated.
-ms.assetid: 'E8E5C90B-4377-4B4C-825B-49D9E140F8D4'
-keywords: ["ProblemDevicesWarn element Access Execution Engine"]
+ms.assetid: E8E5C90B-4377-4B4C-825B-49D9E140F8D4
+keywords:
+- ProblemDevicesWarn element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ProblemDevicesWarn
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProblemDevicesWarn element
@@ -49,9 +55,9 @@ There are no child elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

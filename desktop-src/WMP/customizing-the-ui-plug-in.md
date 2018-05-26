@@ -1,8 +1,17 @@
 ---
 title: Customizing the UI Plug-in
 description: Customizing the UI Plug-in
-ms.assetid: 'd961ed18-ba14-45af-90d3-b1e38dc53180'
-keywords: ["Windows Media Player plug-ins,customizing", "plug-ins,customizing", "user interface plug-ins,customizing", "UI plug-ins,customizing"]
+ms.assetid: d961ed18-ba14-45af-90d3-b1e38dc53180
+keywords:
+- Windows Media Player plug-ins,customizing
+- plug-ins,customizing
+- user interface plug-ins,customizing
+- UI plug-ins,customizing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customizing the UI Plug-in

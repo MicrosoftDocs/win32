@@ -1,7 +1,12 @@
 ---
-Description: 'A path is one or more figures (or shapes) that are filled, outlined, or both filled and outlined.'
-ms.assetid: '67fdff34-6585-45c7-8627-91d126faad8c'
+Description: A path is one or more figures (or shapes) that are filled, outlined, or both filled and outlined.
+ms.assetid: 67fdff34-6585-45c7-8627-91d126faad8c
 title: Paths
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Paths

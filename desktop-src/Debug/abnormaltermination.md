@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether the \_\_try block of a termination handler terminated normally. The function can be called only from within the \_\_finally block of a termination handler.'
-ms.assetid: '0ddaef1f-03f0-45fc-9c5e-8d6a26a73245'
+Description: Indicates whether the \_\_try block of a termination handler terminated normally. The function can be called only from within the \_\_finally block of a termination handler.
+ms.assetid: 0ddaef1f-03f0-45fc-9c5e-8d6a26a73245
 title: AbnormalTermination macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AbnormalTermination macro
@@ -11,7 +16,7 @@ Indicates whether the **\_\_try** block of a termination handler terminated norm
 > [!Note]  
 > The Microsoft C/C++ Optimizing Compiler interprets this function as a keyword, and its use outside the appropriate exception-handling syntax generates a compiler error.
 
- 
+ 
 
 ## Syntax
 
@@ -46,8 +51,8 @@ To avoid abnormal termination, execution should continue to the end of the block
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
 
 
 
@@ -61,9 +66,9 @@ To avoid abnormal termination, execution should continue to the end of the block
 [Structured Exception Handling Overview](structured-exception-handling.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

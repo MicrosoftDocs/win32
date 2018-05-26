@@ -1,14 +1,17 @@
 ---
 title: IMsTscAxEvents OnAutoReconnecting method
-description: Called when a client is in the process of automatically reconnecting a session with a Remote Desktop Session Host (RD Session Host) server.
+description: Called when a client is in the process of automatically reconnecting a session with a Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9cb36052-8010-47df-bb46-f4ad81f47a73'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9cb36052-8010-47df-bb46-f4ad81f47a73
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnAutoReconnecting method Remote Desktop Services", "OnAutoReconnecting method Remote Desktop Services , IMsTscAxEvents interface", "IMsTscAxEvents interface Remote Desktop Services , OnAutoReconnecting method"]
+keywords:
+- OnAutoReconnecting method Remote Desktop Services
+- OnAutoReconnecting method Remote Desktop Services , IMsTscAxEvents interface
+- IMsTscAxEvents interface Remote Desktop Services , OnAutoReconnecting method
 topic_type:
 - apiref
 api_name:
@@ -17,20 +20,23 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAxEvents::OnAutoReconnecting method
 
-Called when a client is in the process of automatically reconnecting a session with a Remote Desktop Session Host (RD Session Host) server.
+Called when a client is in the process of automatically reconnecting a session with a Remote Desktop Session Host (RD Session Host) server.
 
 ## Syntax
 
 
 ```C++
 void OnAutoReconnecting(
-  [in]  LONG                       disconnectReason,
-  [in]  LONG                       attemptCount,
-  [out] AutoReconnectContinueState *pArcContinueStatus
+  [in]  LONG                       disconnectReason,
+  [in]  LONG                       attemptCount,
+  [out] AutoReconnectContinueState *pArcContinueStatus
 );
 ```
 
@@ -102,7 +108,7 @@ This method does not return a value.
 
 ## Remarks
 
-Implement this method in your event sink to receive notification that the control is reestablishing a connection with an RD Session Host server.
+Implement this method in your event sink to receive notification that the control is reestablishing a connection with an RD Session Host server.
 
 When the state of the automatic reconnection process is changed by setting the value of the *pArcContinueStatus* parameter to **autoReconnectContinueAutomatic**, this method functions in a purely advisory mode. Containers can listen to this event for notifications that the automatic reconnection process is proceeding. The control will automatically keep trying to re-establish a connection based on its own internal timing and attempt counts. This method is called during each automatic reconnection attempt in order to notify the container.
 
@@ -111,7 +117,7 @@ When the state of the automatic reconnection process is changed by setting the v
 > [!Note]  
 > Use the [**EnableAutoReconnect**](imsrdpclientadvancedsettings2-enableautoreconnect.md) property to enable or disable automatic reconnection.
 
- 
+ 
 
 When the state of the automatic reconnection process is changed by setting the value of the *pArcContinueStatus* parameter to **autoReconnectContinueManual**, the container will manually control the automatic reconnection process by calling [**Connect**](imstscax-connect.md) to trigger a connection attempt or [**Disconnect**](imstscax-disconnect.md) to cancel the automatic reconnection process. Once set to this value, the control will stop making automatic reconnection attempts and it becomes the policy of the container to make **Connect** calls to trigger automatic reconnection attempts. This is done when the container provides customized UI behavior for automatic reconnection, such as restarting a dropped RAS or VPN connection before the automatic reconnection process.
 
@@ -123,8 +129,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
@@ -137,9 +143,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscAxEvents**](imstscaxevents-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

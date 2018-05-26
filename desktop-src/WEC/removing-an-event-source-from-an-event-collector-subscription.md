@@ -2,10 +2,13 @@
 title: Removing an Event Source from a Collector Initiated Subscription
 description: You can remove an event source from a collector initiated subscription without deleting the entire subscription.
 audience: developer
-ms.assetid: '6c9e0dbf-59a2-4db9-8fb8-0dbfda5cf38b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-event-collector'
+ms.assetid: 6c9e0dbf-59a2-4db9-8fb8-0dbfda5cf38b
+ms.prod: windows-server-dev
+ms.technology: windows-event-collector
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Removing an Event Source from a Collector Initiated Subscription
@@ -32,12 +35,12 @@ This example follows a series of steps to remove an event source from a collecto
 
 **To remove an event source from a collector-initiated subscription**
 
-1.  Open the existing subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](ecopensubscription.md) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
-2.  Get the event sources array of the subscription by calling the [**EcGetSubscriptionProperty**](ecgetsubscriptionproperty.md) function. For more information about subscription properties that can be retrieved, see the [**EC\_SUBSCRIPTION\_PROPERTY\_ID**](ec-subscription-property-id.md) enumeration.
-3.  Search for the specified event source in the event sources array of the subscription by calling the [**EcGetObjectArrayProperty**](ecgetobjectarrayproperty.md) function. The value of the **EcSubscriptionEventSourceAddress** property will be either Localhost for the local computer or will be a fully qualified domain name for a remote computer. For more information about event source properties that can be retrieved, see the **EC\_SUBSCRIPTION\_PROPERTY\_ID** enumeration.
-4.  Delete the event source from the subscription by calling the [**EcRemoveObjectArrayElement**](ecremoveobjectarrayelement.md) function.
-5.  Save the subscription by calling the [**EcSaveSubscription**](ecsavesubscription.md) function.
-6.  Close the subscription by calling the [**EcClose**](ecclose.md) function.
+1.  Open the existing subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](/windows/win32/Evcoll/nf-evcoll-ecopensubscription?branch=master) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
+2.  Get the event sources array of the subscription by calling the [**EcGetSubscriptionProperty**](/windows/win32/Evcoll/nf-evcoll-ecgetsubscriptionproperty?branch=master) function. For more information about subscription properties that can be retrieved, see the [**EC\_SUBSCRIPTION\_PROPERTY\_ID**](/windows/win32/Evcoll/ne-evcoll-_ec_subscription_property_id?branch=master) enumeration.
+3.  Search for the specified event source in the event sources array of the subscription by calling the [**EcGetObjectArrayProperty**](/windows/win32/Evcoll/nf-evcoll-ecgetobjectarrayproperty?branch=master) function. The value of the **EcSubscriptionEventSourceAddress** property will be either Localhost for the local computer or will be a fully qualified domain name for a remote computer. For more information about event source properties that can be retrieved, see the **EC\_SUBSCRIPTION\_PROPERTY\_ID** enumeration.
+4.  Delete the event source from the subscription by calling the [**EcRemoveObjectArrayElement**](/windows/win32/Evcoll/nf-evcoll-ecremoveobjectarrayelement?branch=master) function.
+5.  Save the subscription by calling the [**EcSaveSubscription**](/windows/win32/Evcoll/nf-evcoll-ecsavesubscription?branch=master) function.
+6.  Close the subscription by calling the [**EcClose**](/windows/win32/Evcoll/nf-evcoll-ecclose?branch=master) function.
 
 The following C++ code example shows how to remove an event source from an Event Collector subscription.
 

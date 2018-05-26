@@ -1,7 +1,12 @@
 ---
-Description: 'Enables the Encapsulation Offload properties on the network adapter.'
-ms.assetid: 'a8b699f6-897e-4444-b1c0-aab0941fd947'
-title: 'Enable method of the MSFT\_NetAdapterEncapsulatedPacketTaskOffloadSettingData class'
+Description: Enables the Encapsulation Offload properties on the network adapter.
+ms.assetid: a8b699f6-897e-4444-b1c0-aab0941fd947
+title: Enable method of the MSFT\_NetAdapterEncapsulatedPacketTaskOffloadSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enable method of the MSFT\_NetAdapterEncapsulatedPacketTaskOffloadSettingData class
@@ -13,7 +18,7 @@ Enables the Encapsulation Offload properties on the network adapter.
 
 ```mof
 uint32 Enable(
-  [out] string cmdletOutput
+  [out] string cmdletOutput
 );
 ```
 
@@ -37,7 +42,7 @@ An embedded instance of the [**MSFT\_NetAdapterEncapsulatedPacketTaskOffloadSett
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
@@ -51,9 +56,9 @@ An embedded instance of the [**MSFT\_NetAdapterEncapsulatedPacketTaskOffloadSett
 [**MSFT\_NetAdapterEncapsulatedPacketTaskOffloadSettingData**](msft-netadapterencapsulatedpackettaskoffloadsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

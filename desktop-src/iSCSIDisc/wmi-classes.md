@@ -1,7 +1,12 @@
-﻿---
-Description: 'The iSCSI Windows Management Instrumentation (WMI) Initiator classes provide various components of the iSCSI Discovery Library API that facilitate discovery and connection to Targets within a Session.'
-ms.assetid: '332DA05D-45DC-4451-AD29-051C0295773A'
+---
+Description: The iSCSI Windows Management Instrumentation (WMI) Initiator classes provide various components of the iSCSI Discovery Library API that facilitate discovery and connection to Targets within a Session.
+ms.assetid: 332DA05D-45DC-4451-AD29-051C0295773A
 title: iSCSI Discovery Library WMI Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iSCSI Discovery Library WMI Classes

@@ -4,13 +4,15 @@ description: A WMI class that represents a property change event. A property cha
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1f52cce9-3637-47b3-84b8-efb0600337c8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1f52cce9-3637-47b3-84b8-efb0600337c8
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_EventPropertyChange class", "MSCluster_EventPropertyChange class, described"]
+keywords:
+- MSCluster_EventPropertyChange class
+- MSCluster_EventPropertyChange class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_EventPropertyChange class
@@ -41,7 +46,7 @@ The following syntax is simplified from MOF code, and includes all inherited pro
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{4CB6135C-E55D-46fe-8AE4-51E24AF901BD}"), AMENDMENT]
 class MSCluster_EventPropertyChange : MSCluster_Event
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   uint32 EventTypeMajor;
   uint32 EventTypeMinor;
@@ -278,16 +283,16 @@ The **MSCluster\_EventPropertyChange** class is derived from the [**MSCluster\_E
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

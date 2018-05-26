@@ -4,17 +4,22 @@ description: For a security principal claim type, lists the type of store the is
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e72bf141-90d2-430c-9580-087b9b6f573f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e72bf141-90d2-430c-9580-087b9b6f573f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Claim-Source-Type attribute AD Schema", "msDS-ClaimSourceType attribute AD Schema"]
+keywords:
+- ms-DS-Claim-Source-Type attribute AD Schema
+- msDS-ClaimSourceType attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Claim-Source-Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Claim-Source-Type attribute
@@ -38,7 +43,7 @@ For a security principal claim type, lists the type of store the issued claim is
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For a security principal claim type, lists the type of store the issued claim is
 
 
 
- 
+ 
 
- 
+ 
 
 
 

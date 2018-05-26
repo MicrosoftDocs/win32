@@ -1,7 +1,12 @@
 ---
 title: Determining the Version of BITS on a Computer
 description: To determine the version of BITS on the client computer, check the version of QMgr.dll.
-ms.assetid: 'b6057ae4-3bf0-4304-ae50-5da5e82a0bed'
+ms.assetid: b6057ae4-3bf0-4304-ae50-5da5e82a0bed
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining the Version of BITS on a Computer

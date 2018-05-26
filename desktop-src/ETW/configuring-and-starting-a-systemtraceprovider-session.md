@@ -1,7 +1,12 @@
 ---
-Description: 'The SystemTraceProvider is a kernel provider with a predefined sets of kernel events supported on Windows 7, Windows Server 2008 R2, and later.'
-ms.assetid: '6808EC45-C8C3-45D7-9E4C-337F6A4CF9C8'
+Description: The SystemTraceProvider is a kernel provider with a predefined sets of kernel events supported on Windows 7, Windows Server 2008 R2, and later.
+ms.assetid: 6808EC45-C8C3-45D7-9E4C-337F6A4CF9C8
 title: Configuring and Starting a SystemTraceProvider Session
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring and Starting a SystemTraceProvider Session
@@ -33,7 +38,7 @@ To programmatically enable the SystemTraceProvider to start a session other than
 -   At the consumer, set the **LoggerName** member of the [**EVENT\_TRACE\_LOGFILE**](event-trace-logfile.md) structure to this private logger.
 
 > [!Note]  
-> If you want a non-administrators or a non-TCB process to be able to start a profiling trace session using the SystemTraceProvider on behalf of third party applications, then you need to grant the user profile privilege and then add this user to both the session **GUID** (created for the logger session) and the system trace provider **GUID** to enable the system trace provider. For more information, see the [**EventAccessControl**](eventaccesscontrol-func.md) function.
+> If you want a non-administrators or a non-TCB process to be able to start a profiling trace session using the SystemTraceProvider on behalf of third party applications, then you need to grant the user profile privilege and then add this user to both the session **GUID** (created for the logger session) and the system trace provider **GUID** to enable the system trace provider. For more information, see the [**EventAccessControl**](/windows/win32/Evntcons/nf-evntcons-eventaccesscontrol?branch=master) function.
 
  
 

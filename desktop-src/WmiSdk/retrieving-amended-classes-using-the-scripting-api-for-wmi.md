@@ -1,18 +1,21 @@
 ---
-Description: 'If you are using the Scripting API for WMI to retrieve or store localized class information, specify the locale as part of a moniker.'
+Description: If you are using the Scripting API for WMI to retrieve or store localized class information, specify the locale as part of a moniker.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3c64047d-ce3a-4180-8f71-0e66c2e61627'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3c64047d-ce3a-4180-8f71-0e66c2e61627
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Retrieving Amended Classes Using the Scripting API for WMI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Retrieving Amended Classes Using the Scripting API for WMI
 
-If you are using the Scripting API for WMI to retrieve or store localized class information, specify the locale as part of a moniker. Or, you can supply the locale name in the *strLocale* parameter to the [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md) method. When reading or writing amended classes, indicate that you want to use localized class definitions by specifying [wbemFlagUseAmendedQualifiers](wbemflagenum.md) as a flag for the *iFlags* parameter of the method you call. For PowerShell, you can use the *-locale* parameter on [Get-WmiObject](https://technet.microsoft.com/library/hh849824.aspx) to specify the locale.
+If you are using the Scripting API for WMI to retrieve or store localized class information, specify the locale as part of a moniker. Or, you can supply the locale name in the *strLocale* parameter to the [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md) method. When reading or writing amended classes, indicate that you want to use localized class definitions by specifying [wbemFlagUseAmendedQualifiers](/windows/win32/Wbemdisp/ne-wbemdisp-wbemflagenum?branch=master) as a flag for the *iFlags* parameter of the method you call. For PowerShell, you can use the *-locale* parameter on [Get-WmiObject](https://technet.microsoft.com/library/hh849824.aspx) to specify the locale.
 
 The following code example shows how to retrieve a localized class by using a WMI scripting moniker or the -locale parameter.
 
@@ -41,7 +44,7 @@ Set objwbemobject = GetObject("winmgmts:[locale=ms_409]!root/test:myclass")
 
 
 
-The following code example shows how to set the locale parameter and use the [wbemFlagUseAmendedQualifiers](wbemflagenum.md) flag.
+The following code example shows how to set the locale parameter and use the [wbemFlagUseAmendedQualifiers](/windows/win32/Wbemdisp/ne-wbemdisp-wbemflagenum?branch=master) flag.
 
 
 ```VB
@@ -57,7 +60,7 @@ Set objwbemobject = service.Get("myclass", wbemFlagUseAmendedQualifiers)
 
  
 
-The following table lists the methods that accept the [wbemFlagUseAmendedQualifiers](wbemflagenum.md) flag.
+The following table lists the methods that accept the [wbemFlagUseAmendedQualifiers](/windows/win32/Wbemdisp/ne-wbemdisp-wbemflagenum?branch=master) flag.
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: '6b511e94-8bfe-4287-9382-8110d94a9e7c'
+ms.assetid: 6b511e94-8bfe-4287-9382-8110d94a9e7c
 title: Supporting ShowSounds in Your Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supporting ShowSounds in Your Applications

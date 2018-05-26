@@ -1,12 +1,17 @@
-﻿---
-Description: 'Represents the collection of fax accounts on the fax server. It provides a default implementation of the IFaxAccounts interface.'
-ms.assetid: 'bf26e82e-af97-43a1-81be-1bcb61b6cf98'
+---
+Description: Represents the collection of fax accounts on the fax server. It provides a default implementation of the IFaxAccounts interface.
+ms.assetid: bf26e82e-af97-43a1-81be-1bcb61b6cf98
 title: FaxAccounts object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccounts object
 
-Represents the collection of fax accounts on the fax server. It provides a default implementation of the [**IFaxAccounts**](-mfax-faxaccounts-cpp.md) interface.
+Represents the collection of fax accounts on the fax server. It provides a default implementation of the [**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master) interface.
 
 ## Members
 
@@ -22,9 +27,9 @@ The **FaxAccounts** object has these properties.
 
 | Property                                                   | Access type          | Description                                                                                                                          |
 |:-----------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| [**Count**](-mfax-faxaccounts-count-vb.md)<br/>     | Read-only<br/> | Holds the number of items in the [**IFaxAccounts**](-mfax-faxaccounts-cpp.md) collection. <br/>                               |
-| [**Item**](-mfax-faxaccounts-item.md)<br/>          | Read-only<br/> | Returns a [**FaxAccount**](-mfax-faxaccount.md) object from a [**IFaxAccounts**](-mfax-faxaccounts-cpp.md) collection. <br/> |
-| [**NewEnum**](-mfax-faxaccounts-newenum-vb.md)<br/> | Read-only<br/> | Holds the enumerator for the [**IFaxAccounts**](-mfax-faxaccounts-cpp.md) object. <br/>                                       |
+| [**Count**](-mfax-faxaccounts-count-vb.md)<br/>     | Read-only<br/> | Holds the number of items in the [**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master) collection. <br/>                               |
+| [**Item**](-mfax-faxaccounts-item.md)<br/>          | Read-only<br/> | Returns a [**FaxAccount**](-mfax-faxaccount.md) object from a [**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master) collection. <br/> |
+| [**NewEnum**](-mfax-faxaccounts-newenum-vb.md)<br/> | Read-only<br/> | Holds the enumerator for the [**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master) object. <br/>                                       |
 
 
 
@@ -54,7 +59,7 @@ To create a **FaxAccounts** object in Microsoft Visual Basic or C++, call the [*
 
 <dl> <dt>
 
-[**IFaxAccounts**](-mfax-faxaccounts-cpp.md)
+[**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master)
 </dt> </dl>
 
  

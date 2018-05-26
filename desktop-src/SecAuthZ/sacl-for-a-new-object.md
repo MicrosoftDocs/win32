@@ -1,7 +1,12 @@
 ---
 Description: SACL for a New Object
-ms.assetid: '1d0d6fee-e5ec-4d8f-8ed8-10c725c57a6a'
+ms.assetid: 1d0d6fee-e5ec-4d8f-8ed8-10c725c57a6a
 title: SACL for a New Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SACL for a New Object

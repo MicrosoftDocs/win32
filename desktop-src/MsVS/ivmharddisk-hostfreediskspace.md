@@ -1,8 +1,13 @@
 ---
 title: IVMHardDisk HostFreeDiskSpace property
 description: The HostFreeDiskSpace property contains the amount of remaining disk space available on the host computer for the current hard disk image file.
-ms.assetid: '0f26ce00-030f-464d-932f-9e7604868e9a'
-keywords: ["HostFreeDiskSpace property Virtual Server", "HostFreeDiskSpace property Virtual Server , IVMHardDisk interface", "IVMHardDisk interface Virtual Server , HostFreeDiskSpace property", "HostFreeDiskSpace property Virtual Server , VMHardDisk interface", "VMHardDisk interface Virtual Server , HostFreeDiskSpace property"]
+ms.assetid: 0f26ce00-030f-464d-932f-9e7604868e9a
+keywords:
+- HostFreeDiskSpace property Virtual Server
+- HostFreeDiskSpace property Virtual Server , IVMHardDisk interface
+- IVMHardDisk interface Virtual Server , HostFreeDiskSpace property
+- HostFreeDiskSpace property Virtual Server , VMHardDisk interface
+- VMHardDisk interface Virtual Server , HostFreeDiskSpace property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk::HostFreeDiskSpace property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HostFreeDiskSpace(
-  [out] VARIANT *freeBytes
+  [out] VARIANT *freeBytes
 );
 ```
 
@@ -77,8 +87,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -90,9 +100,9 @@ This property value is read-only.
 [**IVMHardDisk**](ivmharddisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

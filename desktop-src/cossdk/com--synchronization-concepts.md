@@ -1,7 +1,12 @@
 ---
-Description: 'Generally, synchronization is not required when you have a single-threaded apartment (STA) because the apartment provides the synchronization for you.'
-ms.assetid: 'a05de040-0115-44aa-80e2-55eff2ec894d'
+Description: Generally, synchronization is not required when you have a single-threaded apartment (STA) because the apartment provides the synchronization for you.
+ms.assetid: a05de040-0115-44aa-80e2-55eff2ec894d
 title: COM+ Synchronization Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Synchronization Concepts

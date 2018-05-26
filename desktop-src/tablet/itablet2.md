@@ -1,7 +1,12 @@
 ---
-Description: 'Extends the ITablet Interface.'
-ms.assetid: 'dd4f3b2e-7f63-4d5b-b50e-64458719c17a'
+Description: Extends the ITablet Interface.
+ms.assetid: dd4f3b2e-7f63-4d5b-b50e-64458719c17a
 title: ITablet2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITablet2 interface
@@ -26,7 +31,7 @@ The **ITablet2** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,15 +61,15 @@ interface ITablet2 : IUnknown
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

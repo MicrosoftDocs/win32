@@ -1,19 +1,24 @@
 ---
-Description: 'The QueryPreferredFormat method retrieves the object''s preferred time format. This method implements the IMediaSeeking::QueryPreferredFormat method.'
-ms.assetid: '3b73b7cf-1ba7-47c5-8442-5f138b74f335'
-title: 'CSourceSeeking.QueryPreferredFormat method'
+Description: The QueryPreferredFormat method retrieves the objects preferred time format. This method implements the IMediaSeekingQueryPreferredFormat method.
+ms.assetid: 3b73b7cf-1ba7-47c5-8442-5f138b74f335
+title: CSourceSeeking.QueryPreferredFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.QueryPreferredFormat method
 
-The `QueryPreferredFormat` method retrieves the object's preferred time format. This method implements the [**IMediaSeeking::QueryPreferredFormat**](imediaseeking-querypreferredformat.md) method.
+The `QueryPreferredFormat` method retrieves the object's preferred time format. This method implements the [**IMediaSeeking::QueryPreferredFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-querypreferredformat?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT QueryPreferredFormat(
-   GUID *pFormat
+   GUID *pFormat
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ The only time format supported by the base class is TIME\_FORMAT\_MEDIA\_TIME (1
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

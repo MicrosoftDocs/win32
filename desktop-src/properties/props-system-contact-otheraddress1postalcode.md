@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'd4127564-174a-4598-a88c-67526c7698e0'
-title: 'System.Contact.OtherAddress1PostalCode'
+Description: .
+ms.assetid: d4127564-174a-4598-a88c-67526c7698e0
+title: System.Contact.OtherAddress1PostalCode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.OtherAddress1PostalCode

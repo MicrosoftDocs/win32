@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: '98e00ff2-0175-4c44-9a7f-c5c1b23f8fce'
-title: 'CSeekingPassThru.~CSeekingPassThru destructor'
+Description: Destructor method.
+ms.assetid: 98e00ff2-0175-4c44-9a7f-c5c1b23f8fce
+title: CSeekingPassThru.~CSeekingPassThru destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSeekingPassThru.~CSeekingPassThru destructor
@@ -35,9 +40,9 @@ Destructor method.
 [**CSeekingPassThru Class**](cseekingpassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

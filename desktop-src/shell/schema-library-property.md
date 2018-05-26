@@ -1,7 +1,12 @@
 ---
-Description: 'The &lt;property&gt; element specifies a property used by the library. These properties are specific to the library, so there is no predefined set of property names to use. This element is optional and has no child elements.'
-ms.assetid: '8BF6EC7A-A87E-45fe-A8F0-4B49594E9E7B'
-title: 'property Element (Library Schema)'
+Description: The &lt;property&gt; element specifies a property used by the library. These properties are specific to the library, so there is no predefined set of property names to use. This element is optional and has no child elements.
+ms.assetid: 8BF6EC7A-A87E-45fe-A8F0-4B49594E9E7B
+title: property Element (Library Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # property Element (Library Schema)

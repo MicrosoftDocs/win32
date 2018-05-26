@@ -4,11 +4,17 @@ description: When the number of failed logon attempts is exceeded, the user acco
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bf86f6ac-8209-4306-8736-99ce53c93617'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: bf86f6ac-8209-4306-8736-99ce53c93617
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Account Lockout (LDAP Provider) ADSI", "Account Lockout ADSI , LDAP provider", "LDAP provider ADSI , user management examples, Account Lockout"]
+keywords:
+- Account Lockout (LDAP Provider) ADSI
+- Account Lockout ADSI , LDAP provider
+- LDAP provider ADSI , user management examples, Account Lockout
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Account Lockout (LDAP Provider)

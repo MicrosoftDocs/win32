@@ -1,14 +1,20 @@
 ---
 title: Token (One Child Element) element
 description: Creates a media node in the pipeline graph.
-ms.assetid: '7cf9881b-22ac-46cf-bcb7-a0dde512e7b2'
-keywords: ["Token (One Child Element) element Windows Movie Maker and DVD Maker"]
+ms.assetid: 7cf9881b-22ac-46cf-bcb7-a0dde512e7b2
+keywords:
+- Token (One Child Element) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Token
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Token (One Child Element) element
@@ -50,7 +56,7 @@ Note that while most standard media nodes serve to consume sources in the pipeli
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -68,9 +74,9 @@ Note that while most standard media nodes serve to consume sources in the pipeli
 [**Token Element (Four Child Elements)**](token--four-child-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

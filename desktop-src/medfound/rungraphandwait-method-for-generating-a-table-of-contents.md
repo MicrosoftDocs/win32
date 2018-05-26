@@ -1,7 +1,12 @@
 ---
 Description: RunGraphAndWait Function for Generating a Table of Contents
-ms.assetid: 'f6eac1cf-05c3-48b6-b9b4-02966facdc95'
+ms.assetid: f6eac1cf-05c3-48b6-b9b4-02966facdc95
 title: RunGraphAndWait Function for Generating a Table of Contents
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RunGraphAndWait Function for Generating a Table of Contents

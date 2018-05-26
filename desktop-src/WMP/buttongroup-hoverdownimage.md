@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.hoverDownImage
 description: The hoverDownImage attribute specifies or retrieves the name of the image representing the hover-down state of a button in the BUTTONGROUP. The hover-down state occurs when the button is in the down state and the user hovers over it with the mouse.
-ms.assetid: 'dc048303-21d1-40ba-99bb-8d1c2f46628b'
-keywords: ["BUTTONGROUP.hoverDownImage Windows Media Player"]
+ms.assetid: dc048303-21d1-40ba-99bb-8d1c2f46628b
+keywords:
+- BUTTONGROUP.hoverDownImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.hoverDownImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.hoverDownImage
@@ -59,9 +65,9 @@ If the image cannot be retrieved, a default image (the red-x image) is displayed
 [**BUTTONGROUP.saturation**](buttongroup-saturation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

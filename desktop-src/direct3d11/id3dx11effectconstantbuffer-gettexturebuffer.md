@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectConstantBuffer GetTextureBuffer method
 description: Get a texture-buffer.
-ms.assetid: '8d09e67c-358e-49ee-8ca4-e1f548b52c3a'
-keywords: ["GetTextureBuffer method Direct3D 11", "GetTextureBuffer method Direct3D 11 , ID3DX11EffectConstantBuffer interface", "ID3DX11EffectConstantBuffer interface Direct3D 11 , GetTextureBuffer method"]
+ms.assetid: 8d09e67c-358e-49ee-8ca4-e1f548b52c3a
+keywords:
+- GetTextureBuffer method Direct3D 11
+- GetTextureBuffer method Direct3D 11 , ID3DX11EffectConstantBuffer interface
+- ID3DX11EffectConstantBuffer interface Direct3D 11 , GetTextureBuffer method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectConstantBuffer::GetTextureBuffer method
@@ -23,7 +31,7 @@ Get a texture-buffer.
 
 ```C++
 HRESULT GetTextureBuffer(
-   ID3D11ShaderResourceView **ppTextureBuffer
+   ID3D11ShaderResourceView **ppTextureBuffer
 );
 ```
 
@@ -36,9 +44,9 @@ HRESULT GetTextureBuffer(
 *ppTextureBuffer* 
 </dt> <dd>
 
-Type: **[**ID3D11ShaderResourceView**](id3d11shaderresourceview.md)\*\***
+Type: **[**ID3D11ShaderResourceView**](/windows/win32/D3D11/nn-d3d11-id3d11shaderresourceview?branch=master)\*\***
 
-The address of a pointer to a shader-resource-view interface for accessing a texture buffer. See [**ID3D11ShaderResourceView**](id3d11shaderresourceview.md).
+The address of a pointer to a shader-resource-view interface for accessing a texture buffer. See [**ID3D11ShaderResourceView**](/windows/win32/D3D11/nn-d3d11-id3d11shaderresourceview?branch=master).
 
 </dd> </dl>
 
@@ -53,7 +61,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -73,9 +81,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectConstantBuffer](id3dx11effectconstantbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

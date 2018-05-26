@@ -1,7 +1,12 @@
 ---
 title: MSVidRect
 description: MSVidRect
-ms.assetid: '0b3cf31b-e0cc-4208-a128-b77460fc0f1b'
+ms.assetid: 0b3cf31b-e0cc-4208-a128-b77460fc0f1b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSVidRect
@@ -14,7 +19,7 @@ The **MSVidRect** object represents a rectangle.
 
 |                           |                                  |
 |---------------------------|----------------------------------|
-| Interfaces                | [**IMSVidRect**](imsvidrect.md) |
+| Interfaces                | [**IMSVidRect**](/windows/win32/segment/nn-segment-imsvidrect?branch=master) |
 | Outgoing Event Interfaces | None.                            |
 
 

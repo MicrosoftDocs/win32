@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UnregisterTraceGuids function unregisters an event trace provider and its event trace classes.'
-ms.assetid: '1fa10f66-a78b-4f40-9518-72d48365246e'
+---
+Description: The UnregisterTraceGuids function unregisters an event trace provider and its event trace classes.
+ms.assetid: 1fa10f66-a78b-4f40-9518-72d48365246e
 title: UnregisterTraceGuids function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnregisterTraceGuids function

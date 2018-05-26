@@ -1,7 +1,12 @@
 ---
 Description: Print Provider Functions
-ms.assetid: '10fe18f0-15f7-4dd9-91e4-65d5649798f2'
+ms.assetid: 10fe18f0-15f7-4dd9-91e4-65d5649798f2
 title: Print Provider Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Print Provider Functions

@@ -1,18 +1,23 @@
 ---
 title: The OLE Component Object Model
 description: The OLE Component Object Model
-ms.assetid: 'f3200d81-c2fa-4cc7-bf85-54f6c753a529'
+ms.assetid: f3200d81-c2fa-4cc7-bf85-54f6c753a529
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The OLE Component Object Model
 
 The objects used by the AVIFile library are all part of the OLE Component Object Model. Primarily, this means they share certain methods that make them easier to work with, and the values they return are common to most OLE interface methods.
 
-The OLE Component Object Model of the file and stream handlers uses the OLE **IClassFactory** interface to create instances of their object class. As component objects, they implement the [IUnknown](iunknown.md) interface, which consists of the [**QueryInterface**](iunknown-queryinterface.md), [**Release**](iunknown-release.md), and [**AddRef**](iunknown-addref.md) methods. The **IUnknown** interface lets an application obtain pointers to other interfaces supported by the same object.
+The OLE Component Object Model of the file and stream handlers uses the OLE **IClassFactory** interface to create instances of their object class. As component objects, they implement the [IUnknown](iunknown.md) interface, which consists of the [**QueryInterface**](/windows/win32/unknwn/?branch=master), [**Release**](/windows/win32/unknwn/?branch=master), and [**AddRef**](/windows/win32/unknwn/?branch=master) methods. The **IUnknown** interface lets an application obtain pointers to other interfaces supported by the same object.
 
 You can determine if an object supports a specific interface by using the **QueryInterface** method. If an object supports a specified interface, **QueryInterface** returns a pointer to that interface.
 
-You can increment and decrement the reference count associated with an object by using the [**AddRef**](iunknown-addref.md) and [**Release**](iunknown-release.md) methods. The reference count lets multiple clients access an object. When an object is used by the first application, its reference count is set to 1. Applications subsequently use the **AddRef** method to increment the count to let the object keep track of the number of times it is accessed.
+You can increment and decrement the reference count associated with an object by using the [**AddRef**](/windows/win32/unknwn/?branch=master) and [**Release**](/windows/win32/unknwn/?branch=master) methods. The reference count lets multiple clients access an object. When an object is used by the first application, its reference count is set to 1. Applications subsequently use the **AddRef** method to increment the count to let the object keep track of the number of times it is accessed.
 
 When an application is done using an object, it calls the **Release** method to decrement the reference count. When the reference count is zero, the object is no longer needed and **Release** frees any resources it uses and destroys the object. Because an object uses internal resources transparent to the application, the object is responsible for freeing them. For example, a file handler might need to close open disk files and free buffer memory when released.
 

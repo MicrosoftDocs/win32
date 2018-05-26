@@ -4,11 +4,14 @@ description: Gets a right that represents content ownership.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.CommonRights.Owner'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.CommonRights.Owner
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Owner property", "Owner property, CommonRights class", "CommonRights class, Owner property"]
+keywords:
+- Owner property
+- Owner property, CommonRights class
+- CommonRights class, Owner property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CommonRights.Owner property
@@ -69,9 +75,9 @@ For more information about the built-in rights and the usage restrictions associ
 [**CommonRights**](commonrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

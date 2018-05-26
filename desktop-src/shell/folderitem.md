@@ -1,6 +1,11 @@
-﻿---
-Description: 'Represents an item in a Shell folder. This object contains properties and methods that allow you to retrieve information about the item.'
+---
+Description: Represents an item in a Shell folder. This object contains properties and methods that allow you to retrieve information about the item.
 title: FolderItem object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItem object

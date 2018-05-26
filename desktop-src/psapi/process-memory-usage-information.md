@@ -1,12 +1,17 @@
 ---
 title: Process Memory Usage Information
 description: The GetProcessMemoryInfo function takes a process handle as input and fills a PROCESS\_MEMORY\_COUNTERS structure with information about the memory statistics for the process.
-ms.assetid: '683c899e-a7e8-4440-8f13-2a713c1618bf'
+ms.assetid: 683c899e-a7e8-4440-8f13-2a713c1618bf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process Memory Usage Information
 
-The [**GetProcessMemoryInfo**](getprocessmemoryinfo.md) function takes a process handle as input and fills a [**PROCESS\_MEMORY\_COUNTERS**](process-memory-counters-str.md) structure with information about the memory statistics for the process. The **cb** member receives the size of the structure. The **PageFaultCount** member receives the number of page faults. The remaining members receive the current and peak memory usage in the following categories:
+The [**GetProcessMemoryInfo**](/windows/win32/Psapi/nf-psapi-getprocessmemoryinfo?branch=master) function takes a process handle as input and fills a [**PROCESS\_MEMORY\_COUNTERS**](/windows/win32/Psapi/ns-psapi-_process_memory_counters?branch=master) structure with information about the memory statistics for the process. The **cb** member receives the size of the structure. The **PageFaultCount** member receives the number of page faults. The remaining members receive the current and peak memory usage in the following categories:
 
 -   working set
 -   paged pool

@@ -1,7 +1,12 @@
 ---
-Description: 'Setting the value of this per-machine system policy to &\#0034;1&\#0034; enables nonadministrative users to use a Browse Dialog to locate sources of managed applications.'
-ms.assetid: '1cf83f77-75a4-48c3-961e-339c76ba4306'
+Description: Setting the value of this per-machine system policy to &\#0034;1&\#0034; enables nonadministrative users to use a Browse Dialog to locate sources of managed applications.
+ms.assetid: 1cf83f77-75a4-48c3-961e-339c76ba4306
 title: AllowLockdownBrowse
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AllowLockdownBrowse

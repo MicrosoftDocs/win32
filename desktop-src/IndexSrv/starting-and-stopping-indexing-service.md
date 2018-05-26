@@ -1,7 +1,12 @@
 ---
 title: Starting and Stopping Indexing Service
 description: Starting and Stopping Indexing Service
-ms.assetid: 'a7c7de77-ddff-4268-80c4-55a185e09def'
+ms.assetid: a7c7de77-ddff-4268-80c4-55a185e09def
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Starting and Stopping Indexing Service

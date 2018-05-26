@@ -1,7 +1,12 @@
 ---
-Description: 'This topic lists the frequency tables used for analog TV tuning for Portugal.'
-ms.assetid: 'b377b93a-dac9-4908-bc21-a0dcab528321'
+Description: This topic lists the frequency tables used for analog TV tuning for Portugal.
+ms.assetid: b377b93a-dac9-4908-bc21-a0dcab528321
 title: Portugal Channel Assignments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Portugal Channel Assignments

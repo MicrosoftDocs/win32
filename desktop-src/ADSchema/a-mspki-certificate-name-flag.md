@@ -4,17 +4,22 @@ description: Contains the flags related to constructing the subject name in an i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7aeeff69-86b5-4251-bd64-bd99b7c9ef4a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7aeeff69-86b5-4251-bd64-bd99b7c9ef4a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-PKI-Certificate-Name-Flag attribute AD Schema", "msPKI-Certificate-Name-Flag attribute AD Schema"]
+keywords:
+- ms-PKI-Certificate-Name-Flag attribute AD Schema
+- msPKI-Certificate-Name-Flag attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-PKI-Certificate-Name-Flag
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-PKI-Certificate-Name-Flag attribute
@@ -38,11 +43,11 @@ Contains the flags related to constructing the subject name in an issued certifi
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Contains the flags related to constructing the subject name in an issued certifi
 
 
 
- 
+ 
 
- 
+ 
 
 
 

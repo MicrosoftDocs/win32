@@ -1,8 +1,16 @@
 ---
 title: Windows Media Player Skins
 description: Windows Media Player Skins
-ms.assetid: '72ca819a-267d-4c7a-9b1e-b28c1a7a85cc'
-keywords: ["Windows Media Player,skins", "Windows Media Player skins,about", "skins,about"]
+ms.assetid: 72ca819a-267d-4c7a-9b1e-b28c1a7a85cc
+keywords:
+- Windows Media Player,skins
+- Windows Media Player skins,about
+- skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Player Skins

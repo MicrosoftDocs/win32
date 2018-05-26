@@ -1,7 +1,12 @@
 ---
 title: Using Shaders in Direct3D 10
 description: Using Shaders in Direct3D 10
-ms.assetid: 'cff6f901-cb9b-44d5-a75b-9a4029a37215'
+ms.assetid: cff6f901-cb9b-44d5-a75b-9a4029a37215
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Shaders in Direct3D 10
@@ -16,7 +21,7 @@ The pipeline has three shader stages and each one is programmed with an HLSL sha
 
 
 
- 
+ 
 
 This example uses only a vertex shader. Because all shaders are built from the common shader core, learning how to use a vertex shader is very similar to using a geometry or pixel shader.
 
@@ -125,9 +130,9 @@ Repeat these same set of steps to build any vertex or pixel shader or even a geo
 [Programming Guide for HLSL](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

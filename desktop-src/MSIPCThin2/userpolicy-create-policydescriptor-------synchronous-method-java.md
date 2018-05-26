@@ -4,17 +4,21 @@ description: Asynchronously creates a new UserPolicy object from a policy descri
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '4BC6BED2-C4BD-47BA-BB1A-63CA897F6163'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 4BC6BED2-C4BD-47BA-BB1A-63CA897F6163
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserPolicy.create(PolicyDescriptor, ...) synchronous method"]
+keywords:
+- UserPolicy.create(PolicyDescriptor, ...) synchronous method
 topic_type:
 - apiref
 api_name:
 - UserPolicy.create(PolicyDescriptor, ...) synchronous method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.create(PolicyDescriptor, ...) synchronous method
@@ -47,7 +51,7 @@ public static UserPolicy create(
 
 
 
- 
+ 
 
 ## Throws
 
@@ -71,11 +75,11 @@ UserPolicy.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

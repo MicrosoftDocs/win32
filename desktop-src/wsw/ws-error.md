@@ -1,8 +1,14 @@
 ---
 title: WS\_ERROR
 description: An opaque type used to reference to an error object.
-ms.assetid: 'd5763d93-8eff-4df8-9a8a-a58aefabcb21'
-keywords: ["WS_ERROR"]
+ms.assetid: d5763d93-8eff-4df8-9a8a-a58aefabcb21
+keywords:
+- WS_ERROR
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WS\_ERROR
@@ -26,8 +32,8 @@ This object is not thread safe. For more information, see [thread safety](thread
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>WebServices.h</dt> </dl> |
 
 
@@ -42,9 +48,9 @@ This object is not thread safe. For more information, see [thread safety](thread
 [thread safety](thread-safety.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

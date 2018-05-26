@@ -1,7 +1,12 @@
 ---
 title: Actions Analysis Suggestions
 description: Actions Analysis Suggestions
-ms.assetid: '3246b1df-cb23-4f94-b8d6-f2615ba0d4e6'
+ms.assetid: 3246b1df-cb23-4f94-b8d6-f2615ba0d4e6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Actions Analysis Suggestions

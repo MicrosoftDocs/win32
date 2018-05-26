@@ -1,7 +1,12 @@
 ---
-Description: 'Removes a piece of application-specific data.'
-ms.assetid: '41077c2f-39e3-4069-ac05-97f1785e37b7'
-title: 'IContextNode::RemovePropertyData method'
+Description: Removes a piece of application-specific data.
+ms.assetid: 41077c2f-39e3-4069-ac05-97f1785e37b7
+title: IContextNodeRemovePropertyData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::RemovePropertyData method
@@ -13,7 +18,7 @@ Removes a piece of application-specific data.
 
 ```C++
 HRESULT RemovePropertyData(
-  [in] const GUID *pPropertyDataId
+  [in] const GUID *pPropertyDataId
 );
 ```
 
@@ -44,7 +49,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -79,9 +84,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

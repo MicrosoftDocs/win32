@@ -1,7 +1,12 @@
 ---
-Description: 'Critical section for this lock.'
-ms.assetid: '30f8b001-9a3b-4d07-9f02-5855ce793590'
-title: 'CAutoLock::m\_pLock member'
+Description: Critical section for this lock.
+ms.assetid: 30f8b001-9a3b-4d07-9f02-5855ce793590
+title: CAutoLockm\_pLock member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAutoLock::m\_pLock member
@@ -35,9 +40,9 @@ CCritSec *m_pLock;
 [**CAutoLock Class**](cautolock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

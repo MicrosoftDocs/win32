@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for TCP/IP failure events. The following syntax is simplified from MOF code.'
-ms.assetid: '552e63ef-70e4-4bc4-be33-bd77bd5acd61'
-title: 'UdpIp\_Fail class'
+---
+Description: This class is the event type class for TCP/IP failure events. The following syntax is simplified from MOF code.
+ms.assetid: 552e63ef-70e4-4bc4-be33-bd77bd5acd61
+title: UdpIp\_Fail class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UdpIp\_Fail class

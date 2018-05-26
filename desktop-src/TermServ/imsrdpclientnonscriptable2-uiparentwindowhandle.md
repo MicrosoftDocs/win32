@@ -4,11 +4,20 @@ description: Sets or retrieves the window handle to be the parent window for any
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5ecf1fc3-492e-4faf-89c5-7f7abb3778a0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 5ecf1fc3-492e-4faf-89c5-7f7abb3778a0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["UIParentWindowHandle property Remote Desktop Services", "UIParentWindowHandle property Remote Desktop Services , IMsRdpClientNonScriptable2 interface", "IMsRdpClientNonScriptable2 interface Remote Desktop Services , UIParentWindowHandle property", "UIParentWindowHandle property Remote Desktop Services , IMsRdpClientNonScriptable3 interface", "IMsRdpClientNonScriptable3 interface Remote Desktop Services , UIParentWindowHandle property", "UIParentWindowHandle property Remote Desktop Services , IMsRdpClientNonScriptable4 interface", "IMsRdpClientNonScriptable4 interface Remote Desktop Services , UIParentWindowHandle property", "UIParentWindowHandle property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , UIParentWindowHandle property"]
+keywords:
+- UIParentWindowHandle property Remote Desktop Services
+- UIParentWindowHandle property Remote Desktop Services , IMsRdpClientNonScriptable2 interface
+- IMsRdpClientNonScriptable2 interface Remote Desktop Services , UIParentWindowHandle property
+- UIParentWindowHandle property Remote Desktop Services , IMsRdpClientNonScriptable3 interface
+- IMsRdpClientNonScriptable3 interface Remote Desktop Services , UIParentWindowHandle property
+- UIParentWindowHandle property Remote Desktop Services , IMsRdpClientNonScriptable4 interface
+- IMsRdpClientNonScriptable4 interface Remote Desktop Services , UIParentWindowHandle property
+- UIParentWindowHandle property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , UIParentWindowHandle property
 topic_type:
 - apiref
 api_name:
@@ -28,6 +37,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable2::UIParentWindowHandle property
@@ -41,11 +53,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_UIParentWindowHandle(
-  [in]  HWND hwndUIParentWindowHandle
+  [in]  HWND hwndUIParentWindowHandle
 );
 
 HRESULT get_UIParentWindowHandle(
-  [out] HWND *phwndUIParentWindowHandle
+  [out] HWND *phwndUIParentWindowHandle
 );
 ```
 
@@ -69,8 +81,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008, Windows Server 2008 with SP1<br/>                                  |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008, Windows Server 2008 with SP1<br/>                                  |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | IID<br/>                      | IID\_IMsRdpClientNonScriptable2 is defined as 17a5e535-4072-4fa4-af32-c8d0d47345e9<br/> |
@@ -99,9 +111,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

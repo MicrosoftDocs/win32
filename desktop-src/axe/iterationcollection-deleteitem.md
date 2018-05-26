@@ -1,8 +1,11 @@
 ---
 title: IterationCollection DeleteItem method
 description: Deletes an Iteration object from the collection.
-ms.assetid: 'F9F3C897-1A80-43B2-89A8-6172AE2E21F3'
-keywords: ["DeleteItem method Access Execution Engine", "DeleteItem method Access Execution Engine , IterationCollection interface", "IterationCollection interface Access Execution Engine , DeleteItem method"]
+ms.assetid: F9F3C897-1A80-43B2-89A8-6172AE2E21F3
+keywords:
+- DeleteItem method Access Execution Engine
+- DeleteItem method Access Execution Engine , IterationCollection interface
+- IterationCollection interface Access Execution Engine , DeleteItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IterationCollection::DeleteItem method
@@ -22,7 +30,7 @@ Deletes an [**Iteration**](iteration-struct.md) object from the collection.
 
 ```C++
 virtual HRESULT DeleteItem(
-  [in] INT index
+  [in] INT index
 ) = 0;
 ```
 
@@ -49,8 +57,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -63,9 +71,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**IterationCollection**](iterationcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

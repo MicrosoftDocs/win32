@@ -2,13 +2,19 @@
 title: AddGREInterface method of the PS\_VpnS2SInterface class
 description: Creates an S2S interface.
 audience: developer
-ms.assetid: '597727AF-A40A-4D1F-95DF-71D9E09E0534'
-ms.prod: 'windows-server-dev'
+ms.assetid: 597727AF-A40A-4D1F-95DF-71D9E09E0534
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddGREInterface method", "AddGREInterface method, PS_VpnS2SInterface interface", "PS_VpnS2SInterface interface, AddGREInterface method"]
+keywords:
+- AddGREInterface method
+- AddGREInterface method, PS_VpnS2SInterface interface
+- PS_VpnS2SInterface interface, AddGREInterface method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddGREInterface method of the PS\_VpnS2SInterface class
@@ -20,24 +26,24 @@ Creates an S2S interface.
 
 ```mof
 static uint32 AddGREInterface(
-  [in]  string          Name,
-  [in]  uint32          GreKey,
-  [in]  string          Destination[],
-  [in]  boolean         AdminStatus,
-  [in]  uint32          EnableQoS,
-  [in]  uint64          TxBandwidthKbps,
-  [in]  uint64          RxBandwidthKbps,
-  [in]  string          IPv4Subnet[],
-  [in]  string          IPv6Subnet[],
-  [in]  boolean         PassThru,
-  [in]  string          RoutingDomain,
-  [in]  boolean         InternalIPv4,
-  [in]  boolean         InternalIPv6,
-  [in]  string          IPv4Address,
-  [in]  string          IPv6Address,
-  [in]  string          SourceIpAddress,
-  [in]  boolean         GreTunnel,
-  [out] VpnS2SInterface cmdletOutput
+  [in]  string          Name,
+  [in]  uint32          GreKey,
+  [in]  string          Destination[],
+  [in]  boolean         AdminStatus,
+  [in]  uint32          EnableQoS,
+  [in]  uint64          TxBandwidthKbps,
+  [in]  uint64          RxBandwidthKbps,
+  [in]  string          IPv4Subnet[],
+  [in]  string          IPv6Subnet[],
+  [in]  boolean         PassThru,
+  [in]  string          RoutingDomain,
+  [in]  boolean         InternalIPv4,
+  [in]  boolean         InternalIPv6,
+  [in]  string          IPv4Address,
+  [in]  string          IPv6Address,
+  [in]  string          SourceIpAddress,
+  [in]  boolean         GreTunnel,
+  [out] VpnS2SInterface cmdletOutput
 );
 ```
 
@@ -180,7 +186,7 @@ The cmdlet output.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -194,9 +200,9 @@ The cmdlet output.
 [**PS\_VpnS2SInterface**](ps-vpns2sinterface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

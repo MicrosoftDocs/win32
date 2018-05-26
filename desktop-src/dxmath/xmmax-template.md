@@ -1,7 +1,12 @@
-﻿---
-Description: 'Compares two numeric data type instances, or two instances of an object which supports an overload of &lt;, and returns the larger one of the two instances. The data type of the arguments and the return value is the same.'
-ms.assetid: '93654f6f-df0b-42ab-ad37-c0d99dbf2f7e'
+---
+Description: Compares two numeric data type instances, or two instances of an object which supports an overload of &lt;, and returns the larger one of the two instances. The data type of the arguments and the return value is the same.
+ms.assetid: 93654f6f-df0b-42ab-ad37-c0d99dbf2f7e
 title: XMMax template
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMMax template

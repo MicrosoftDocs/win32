@@ -1,7 +1,12 @@
-﻿---
-Description: 'A user-defined callback function that allows the caller of the CryptUIDlgSelectCertificate function to handle the display of certificates that the user selects to view.'
-ms.assetid: 'fdb9e9e0-02f1-42e0-9a11-204d916a1a88'
+---
+Description: A user-defined callback function that allows the caller of the CryptUIDlgSelectCertificate function to handle the display of certificates that the user selects to view.
+ms.assetid: fdb9e9e0-02f1-42e0-9a11-204d916a1a88
 title: PFNCCERTDISPLAYPROC callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFNCCERTDISPLAYPROC callback function
@@ -28,7 +33,7 @@ BOOL WINAPI * PFNCCERTDISPLAYPROC(
 *pCertContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_CONTEXT**](cert-context.md) structure that represents the certificate to display.
+A pointer to a [**CERT\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master) structure that represents the certificate to display.
 
 </dd> <dt>
 

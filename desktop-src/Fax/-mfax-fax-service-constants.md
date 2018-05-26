@@ -1,7 +1,12 @@
 ---
-Description: 'The following constants are defined for the fax service.'
-ms.assetid: '63dc6cd5-6d41-454d-8e2c-e3f0bd756a93'
+Description: The following constants are defined for the fax service.
+ms.assetid: 63dc6cd5-6d41-454d-8e2c-e3f0bd756a93
 title: Fax Service Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Constants

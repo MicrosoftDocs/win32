@@ -4,13 +4,15 @@ description: Defines the registered profile to which the referenced computer sys
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c824b9c2-229b-491d-8762-9efc7a1e0a3d'
-ms.prod: 'windows-server-dev'
+ms.assetid: c824b9c2-229b-491d-8762-9efc7a1e0a3d
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_ClusterV2ElementConformsToProfile class", "Msvm_ClusterV2ElementConformsToProfile class, described"]
+keywords:
+- Msvm_ClusterV2ElementConformsToProfile class
+- Msvm_ClusterV2ElementConformsToProfile class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_ClusterV2ElementConformsToProfile class
@@ -35,7 +40,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class Msvm_ClusterV2ElementConformsToProfile : Msvm_ElementConformsToProfile
 {
   Msvm_RegisteredProfile REF ConformantStandard = $SVP;
-  Msvm_ComputerSystem    REF ManagedElement;
+  Msvm_ComputerSystem    REF ManagedElement;
 };
 ```
 
@@ -90,7 +95,7 @@ A reference to the computer system that conforms to the registered profile.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\interop<br/>                                                                               |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -104,9 +109,9 @@ A reference to the computer system that conforms to the registered profile.
 [**Msvm\_ElementConformsToProfile**](msvm-elementconformstoprofile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

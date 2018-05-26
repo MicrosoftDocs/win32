@@ -1,7 +1,12 @@
 ---
-Description: 'The following enumerations support the Distributed Routing Table (DRT) API.'
-ms.assetid: '38ce95a0-1603-42c2-8a5e-4370f52c8fc9'
+Description: The following enumerations support the Distributed Routing Table (DRT) API.
+ms.assetid: 38ce95a0-1603-42c2-8a5e-4370f52c8fc9
 title: Distributed Routing Table Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Distributed Routing Table Enumerations
@@ -12,14 +17,14 @@ The following enumerations support the Distributed Routing Table (DRT) API.
 
 | Enumeration                                                            | Description                                                                                                                                                           |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DRT\_SCOPE**](drt-scope.md)                                        | Defines the set of IPv6 scopes in which DRT will operate when using the IPv6 UDP transport created by [**DrtCreateIpv6UdpTransport**](drtcreateipv6udptransport.md). |
-| [**DRT\_ADDRESS\_FLAGS**](drt-address-flags.md)                       | Defines the set of responses that may be returned by an intermediate node when performing a search for a key.                                                         |
-| [**DRT\_STATUS**](drt-status.md)                                      | Defines the possible connectivity and error states of a local node.                                                                                                   |
-| [**DRT\_MATCH\_TYPE**](drt-match-type.md)                             | Defines the exactness of results returned when a search is performed.                                                                                                 |
-| [**DRT\_LEAFSET\_KEY\_CHANGE\_TYPE**](drt-leafset-key-change-type.md) | Defines the set of change types that can be performed on a local leaf set node in the local DRT cache.                                                                |
-| [**DRT\_EVENT\_TYPE**](drt-event-type.md)                             | Defines the set of events that can be raised by the DRT.                                                                                                              |
-| [**DRT\_SECURITY\_MODE**](drt-security-mode.md)                       | Defines the possible security modes of the DRT. This enumeration is a field of the [**DRT\_SETTINGS**](drt-settings.md) structure.                                   |
-| [**DRT\_REGISTRATION\_STATE**](drt-registration-state.md)             | Defines the state of a registered key.                                                                                                                                |
+| [**DRT\_SCOPE**](/windows/win32/drt/ne-drt-drt_scope_tag?branch=master)                                        | Defines the set of IPv6 scopes in which DRT will operate when using the IPv6 UDP transport created by [**DrtCreateIpv6UdpTransport**](/windows/win32/drt/nf-drt-drtcreateipv6udptransport?branch=master). |
+| [**DRT\_ADDRESS\_FLAGS**](/windows/win32/drt/ne-drt-_drt_address_flags?branch=master)                       | Defines the set of responses that may be returned by an intermediate node when performing a search for a key.                                                         |
+| [**DRT\_STATUS**](/windows/win32/drt/ne-drt-drt_status_tag?branch=master)                                      | Defines the possible connectivity and error states of a local node.                                                                                                   |
+| [**DRT\_MATCH\_TYPE**](/windows/win32/drt/ne-drt-drt_match_type_tag?branch=master)                             | Defines the exactness of results returned when a search is performed.                                                                                                 |
+| [**DRT\_LEAFSET\_KEY\_CHANGE\_TYPE**](/windows/win32/drt/ne-drt-drt_leafset_key_change_type_tag?branch=master) | Defines the set of change types that can be performed on a local leaf set node in the local DRT cache.                                                                |
+| [**DRT\_EVENT\_TYPE**](/windows/win32/drt/ne-drt-drt_event_type_tag?branch=master)                             | Defines the set of events that can be raised by the DRT.                                                                                                              |
+| [**DRT\_SECURITY\_MODE**](/windows/win32/drt/ne-drt-drt_security_mode_tag?branch=master)                       | Defines the possible security modes of the DRT. This enumeration is a field of the [**DRT\_SETTINGS**](/windows/win32/drt/ns-drt-drt_settings_tag?branch=master) structure.                                   |
+| [**DRT\_REGISTRATION\_STATE**](/windows/win32/drt/ne-drt-_drt_registration_state?branch=master)             | Defines the state of a registered key.                                                                                                                                |
 
 
 

@@ -4,13 +4,15 @@ description: Represents a port rule on a node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '02b6cb2f-eb70-4dfb-bd9c-d1fa44987540'
-ms.prod: 'windows-server-dev'
+ms.assetid: 02b6cb2f-eb70-4dfb-bd9c-d1fa44987540
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_PortRuleEx class", "MicrosoftNLB_PortRuleEx class, described"]
+keywords:
+- MicrosoftNLB_PortRuleEx class
+- MicrosoftNLB_PortRuleEx class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_PortRuleEx class
@@ -48,19 +53,19 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("Microsoft|NLB_Provider|V1.0"), AMENDMENT]
 class MicrosoftNLB_PortRuleEx
 {
-  string  Name;
-  string  VirtualIpAddress = "255.255.255.255";
-  uint32  StartPort = 0;
-  uint32  EndPort = 65535;
-  uint32  Protocol = 3;
-  string  AdapterGuid;
-  uint32  FilteringMode = 2;
+  string  Name;
+  string  VirtualIpAddress = "255.255.255.255";
+  uint32  StartPort = 0;
+  uint32  EndPort = 65535;
+  uint32  Protocol = 3;
+  string  AdapterGuid;
+  uint32  FilteringMode = 2;
   Boolean EqualLoad = TRUE;
-  uint32  LoadWeight = 50;
-  uint32  ClientStickinessTimeout = 20;
-  uint32  Affinity = 1;
-  uint32  Priority = 1;
-  uint32  PortState;
+  uint32  LoadWeight = 50;
+  uint32  ClientStickinessTimeout = 20;
+  uint32  Affinity = 1;
+  uint32  Priority = 1;
+  uint32  PortState;
 };
 ```
 
@@ -83,7 +88,7 @@ The **MicrosoftNLB\_PortRuleEx** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -153,7 +158,7 @@ Access type: Read-only
 
 Specifies the Extended Affinity time-out (in minutes) of load-balanced network traffic that this host should handle for the associated port rule. This can be used to keep SSL sessions connected to the same node across NLB configuration changes (for example adding or removing nodes from the NLB cluster). This property is ignored (and Extended Affinity is disabled) if any of the following conditions are met:
 
--   Any nodes in the cluster are running Windows Server 2008.
+-   Any nodes in the cluster are running Windows Server 2008.
 -   The **FilteringMode** property is not set to 2 (Multiple Host).
 -   The **Affinity** property is set to 0 (None).
 
@@ -177,14 +182,14 @@ Default value
 
 </dd> <dt>
 
-0–240
+0 240
 </dt> <dd>
 
 Valid range
 
 </dd> </dl>
 
-**Windows Server 2008:** The **ClientStickinessTimeout** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **ClientStickinessTimeout** property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -212,7 +217,7 @@ Default value
 
 </dd> <dt>
 
-0–65535
+0 65535
 </dt> <dd>
 
 Valid range
@@ -335,7 +340,7 @@ Default value
 
 </dd> <dt>
 
-0–100
+0 100
 </dt> <dd>
 
 Valid range
@@ -493,7 +498,7 @@ Default value
 
 </dd> <dt>
 
-0–65535
+0 65535
 </dt> <dd>
 
 Valid range
@@ -525,16 +530,16 @@ The virtual IP address to which this rule applies. The value of virtual IP addre
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

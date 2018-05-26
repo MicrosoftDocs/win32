@@ -1,14 +1,20 @@
 ---
 title: Keyword (Keywords) Element
 description: Contains a rendered keyword.
-ms.assetid: '38592c94-c00f-4400-8d42-b7904c46779c'
-keywords: ["Keyword element EventLog"]
+ms.assetid: 38592c94-c00f-4400-8d42-b7904c46779c
+keywords:
+- Keyword element EventLog
 topic_type:
 - apiref
 api_name:
 - Keyword
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Keyword (Keywords) Element
@@ -29,8 +35,8 @@ The **Keyword** element is defined by the [**Keywords**](eventschema-keywords-re
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **Keyword** element is defined by the [**Keywords**](eventschema-keywords-re
 [**Keywords (RenderingInfoType)**](eventschema-keywords-renderingtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

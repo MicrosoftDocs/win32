@@ -1,7 +1,12 @@
 ---
 title: Failure Semantics for Context Handles
 description: This topic discusses failure semantics for context handles.
-ms.assetid: 'fcf28519-39ad-4823-bc27-f3502e4d540c'
+ms.assetid: fcf28519-39ad-4823-bc27-f3502e4d540c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Failure Semantics for Context Handles
@@ -10,7 +15,7 @@ This topic discusses failure semantics for context handles.
 
 ## Failure Semantics when Closing the Context Handle Fails
 
-Imagine a client application is attempting to close a context handle it opened on the server, without shutting down the client process. Also, assume the call to the server to close the context handle fails (for example, the client is out of memory). The proper way to handle this situation is to call the [**RpcSsDestroyClientContext**](rpcssdestroyclientcontext.md) function. In such a case the client cleans up its side of the context handle, and abortively closes the connection to the server. Since the connection is really a connection pool (see [RPC and the Network](rpc-and-the-network.md)), which is reference-counted with one reference for each opened binding or context handle, destroying the context handle by calling the **RpcSsDestroyClientContext** function does not actually destroy the connection. Rather, it decrements the reference count for the connection pool. For connections in the pool to be closed, the client needs to close all binding handles and context handles to that server from the client process. Then all connections in the pool are closed, and the server run-down mechanism is initiated and cleans up.
+Imagine a client application is attempting to close a context handle it opened on the server, without shutting down the client process. Also, assume the call to the server to close the context handle fails (for example, the client is out of memory). The proper way to handle this situation is to call the [**RpcSsDestroyClientContext**](/windows/win32/Rpcndr/nf-rpcndr-rpcssdestroyclientcontext?branch=master) function. In such a case the client cleans up its side of the context handle, and abortively closes the connection to the server. Since the connection is really a connection pool (see [RPC and the Network](rpc-and-the-network.md)), which is reference-counted with one reference for each opened binding or context handle, destroying the context handle by calling the **RpcSsDestroyClientContext** function does not actually destroy the connection. Rather, it decrements the reference count for the connection pool. For connections in the pool to be closed, the client needs to close all binding handles and context handles to that server from the client process. Then all connections in the pool are closed, and the server run-down mechanism is initiated and cleans up.
 
 ## Failure Semantics During Change of State of the Context Handle
 

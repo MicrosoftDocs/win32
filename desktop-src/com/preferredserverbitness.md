@@ -1,8 +1,14 @@
 ---
 title: PreferredServerBitness
 description: Sets the preferred architecture, 32-bit or 64-bit, for this COM server.
-ms.assetid: 'ef770039-1624-4256-aa09-1443695c1a1f'
-keywords: ["PreferredServerBitness registry value COM"]
+ms.assetid: ef770039-1624-4256-aa09-1443695c1a1f
+keywords:
+- PreferredServerBitness registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PreferredServerBitness
@@ -38,13 +44,13 @@ If this value is not present, then:
 -   If the computer that hosts the server is running Windows XP or Windows Server 2003 without SP1 or later installed, then COM will prefer a 64-bit version of the server if available; otherwise it will activate a 32-bit version of the server.
 -   If the computer that hosts the server is running Windows Server 2003 with SP1 or later installed, then COM will try to match the server architecture to the client architecture. In other words, for a 32-bit client, COM will activate a 32-bit server if available; otherwise it will activate a 64-bit version of the server. For a 64-bit client, COM will activate a 64-bit server if available; otherwise it will activate a 32-bit server.
 
-The client can also specify its own architecture preference via the CLSCTX\_ACTIVATE\_32\_BIT\_SERVER and CLSCTX\_ACTIVATE\_64\_BIT\_SERVER flags, and these will override the server's preference. For more information, and a chart of possible interactions between client and server architecture preferences, see [**CLSCTX**](clsctx.md).
+The client can also specify its own architecture preference via the CLSCTX\_ACTIVATE\_32\_BIT\_SERVER and CLSCTX\_ACTIVATE\_64\_BIT\_SERVER flags, and these will override the server's preference. For more information, and a chart of possible interactions between client and server architecture preferences, see [**CLSCTX**](/windows/win32/WTypes/ne-wtypesbase-tagclsctx?branch=master).
 
 ## Related topics
 
 <dl> <dt>
 
-[**CLSCTX**](clsctx.md)
+[**CLSCTX**](/windows/win32/WTypes/ne-wtypesbase-tagclsctx?branch=master)
 </dt> </dl>
 
  

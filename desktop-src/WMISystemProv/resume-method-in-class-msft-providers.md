@@ -4,11 +4,16 @@ description: The Resume method resumes a specific instance of a provider.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8406a1ec-4c9e-4d92-8f4a-3b3fa3c71380'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 8406a1ec-4c9e-4d92-8f4a-3b3fa3c71380
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Resume method", "Resume method, MSFT_Providers class", "MSFT_Providers class, Resume method", "Resume method, MSFT_Providers class", "MSFT_Providers class, Resume method"]
+keywords:
+- Resume method
+- Resume method, MSFT_Providers class
+- MSFT_Providers class, Resume method
+- Resume method, MSFT_Providers class
+- MSFT_Providers class, Resume method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resume method of the MSFT\_Providers class
@@ -49,8 +57,8 @@ Returns a value of 0 (zero) if the provider was successfully resumed, and any ot
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -64,9 +72,9 @@ Returns a value of 0 (zero) if the provider was successfully resumed, and any ot
 [**MSFT\_Providers**](msft-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

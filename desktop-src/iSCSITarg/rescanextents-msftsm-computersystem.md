@@ -4,13 +4,16 @@ description: Discovers newly added and newly removed storage extents, specifical
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c690a6e7-47f1-4b0c-9237-d4aded3ff1f3'
-ms.prod: 'windows-server-dev'
+ms.assetid: c690a6e7-47f1-4b0c-9237-d4aded3ff1f3
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RescanExtents method iSCSI Software Target API", "RescanExtents method iSCSI Software Target API , MSFTSM_ComputerSystem class", "MSFTSM_ComputerSystem class iSCSI Software Target API , RescanExtents method"]
+keywords:
+- RescanExtents method iSCSI Software Target API
+- RescanExtents method iSCSI Software Target API , MSFTSM_ComputerSystem class
+- MSFTSM_ComputerSystem class iSCSI Software Target API , RescanExtents method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RescanExtents method of the MSFTSM\_ComputerSystem class
@@ -58,7 +64,7 @@ This method has no parameters.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -72,9 +78,9 @@ This method has no parameters.
 [**MSFTSM\_ComputerSystem**](msftsm-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

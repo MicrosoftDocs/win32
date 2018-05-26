@@ -4,11 +4,13 @@ description: Microsoft RDP Client Control (redistributable) - version 10.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3E7B1B45-B645-4F07-9A59-7A2D6B808645'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3E7B1B45-B645-4F07-9A59-7A2D6B808645
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["MsRdpClient9 class Remote Desktop Services", "MsRdpClient9 class Remote Desktop Services , described"]
+keywords:
+- MsRdpClient9 class Remote Desktop Services
+- MsRdpClient9 class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # MsRdpClient9 class
@@ -103,15 +108,15 @@ The **MsRdpClient9** class has these methods.
 | [**RequestClose**](imsrdpclient-requestclose.md)                                           | Requests a graceful shutdown of the client control.<br/>                                                                                                                                                                                                                                |
 | [**ResetPassword**](imstscnonscriptable-resetpassword.md)                                  | Resets all password states in the control.<br/>                                                                                                                                                                                                                                         |
 | [**SendKeys**](imsrdpclientnonscriptable-sendkeys.md)                                      | Sends a series of keystrokes to the control. The keystrokes are in scan code form, which is the keyboard data from the actual physical keys.<br/>                                                                                                                                       |
-| [**SendOnVirtualChannel**](imstscax-sendonvirtualchannel.md)                               | Sends data to the RD Session Host server over a virtual channel that was created previously by using the [**IMsTscAx::CreateVirtualChannels**](imstscax-createvirtualchannels.md) method.<br/>                                                                                         |
+| [**SendOnVirtualChannel**](imstscax-sendonvirtualchannel.md)                               | Sends data to the RD Session Host server over a virtual channel that was created previously by using the [**IMsTscAx::CreateVirtualChannels**](imstscax-createvirtualchannels.md) method.<br/>                                                                                         |
 | [**SendRemoteAction**](imsrdpclient8-sendremoteaction.md)                                  | Causes an action to be performed in the remote session.<br/>                                                                                                                                                                                                                            |
 | [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md)                   | Sets the virtual channel options for the client control.<br/>                                                                                                                                                                                                                           |
 | [**SyncSessionDisplaySettings**](imsrdpclient9-syncsessiondisplaysettings.md)              | Synchronizes session display settings. <br/>                                                                                                                                                                                                                                            |
-| [**UpdateSessionDisplaySettings**](imsrdpclient9-updatesessiondisplaysettings.md)          | Updates session display settings. <br/>                                                                                                                                                                                                                                                 |
+| [**UpdateSessionDisplaySettings**](/windows/win32/rdpappcontainerclient/?branch=master)          | Updates session display settings. <br/>                                                                                                                                                                                                                                                 |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -306,7 +311,7 @@ The **MsRdpClient9** class has these properties.
 <tr class="odd">
 <td style="text-align: left;">[<strong>LaunchedViaClientShellInterface</strong>](imsrdpclientnonscriptable4-launchedviaclientshellinterface.md)<br/></td>
 <td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Specifies whether the user launched the client control by using the RD Web Access interface.<br/></td>
+<td style="text-align: left;">Specifies whether the user launched the client control by using the RD Web Access interface.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>MarkRdpSettingsSecure</strong>](imsrdpclientnonscriptable4-markrdpsettingssecure.md)<br/></td>
@@ -421,12 +426,12 @@ When [<strong>CredSspSupport</strong>](imsrdpclientnonscriptable3-enablecredssps
 <tr class="odd">
 <td style="text-align: left;">[<strong>StartConnected</strong>](imstscax-startconnected.md)<br/></td>
 <td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">Indicates whether the control will establish the RD Session Host server connection immediately upon startup.<br/></td>
+<td style="text-align: left;">Indicates whether the control will establish the RD Session Host server connection immediately upon startup.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>TransportSettings</strong>](imsrdpclient5-transportsettings.md)<br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">The client RD Gateway setting.<br/></td>
+<td style="text-align: left;">The client RD Gateway setting.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">[<strong>TransportSettings2</strong>](imsrdpclient6-transportsettings2.md)<br/></td>
@@ -503,7 +508,7 @@ When [<strong>CredSspSupport</strong>](imsrdpclientnonscriptable3-enablecredssps
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -511,8 +516,8 @@ When [<strong>CredSspSupport</strong>](imsrdpclientnonscriptable3-enablecredssps
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                      |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                      |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID\_MsRdpClient9 is defined as 301B94BA-5D25-4A12-BFFE-3B6E7A616585<br/>      |
@@ -526,9 +531,9 @@ When [<strong>CredSspSupport</strong>](imsrdpclientnonscriptable3-enablecredssps
 [Remote Desktop ActiveX control classes](remote-desktop-activex-control-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

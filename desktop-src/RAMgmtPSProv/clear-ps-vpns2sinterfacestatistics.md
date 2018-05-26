@@ -2,13 +2,16 @@
 title: Clear method of the PS\_VpnS2SInterfaceStatistics class
 description: Clears statistics of an S2S interface.
 audience: developer
-ms.assetid: '02de13ea-c66c-463f-a54e-e6ae3188a13b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 02de13ea-c66c-463f-a54e-e6ae3188a13b
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Clear method", "Clear method, PS_VpnS2SInterfaceStatistics class", "PS_VpnS2SInterfaceStatistics class, Clear method"]
+keywords:
+- Clear method
+- Clear method, PS_VpnS2SInterfaceStatistics class
+- PS_VpnS2SInterfaceStatistics class, Clear method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Clear method of the PS\_VpnS2SInterfaceStatistics class
@@ -28,9 +34,9 @@ Clears statistics of an S2S interface.
 
 ```mof
 uint32 Clear(
-  [in]  string  Name,
-  [in]  boolean PassThru,
-  [out] boolean cmdletOutput
+  [in]  string  Name,
+  [in]  boolean PassThru,
+  [out] boolean cmdletOutput
 );
 ```
 
@@ -68,7 +74,7 @@ The cmdlet output.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ The cmdlet output.
 [**PS\_VpnS2SInterfaceStatistics**](ps-vpns2sinterfacestatistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

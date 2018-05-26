@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'C1B7EE25-B95B-4EAA-8826-269099352FDF'
-title: 'IPrintAsyncNotifyRegistration::UnregisterForNotifications method'
+---
+Description: .
+ms.assetid: C1B7EE25-B95B-4EAA-8826-269099352FDF
+title: IPrintAsyncNotifyRegistrationUnregisterForNotifications method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintAsyncNotifyRegistration::UnregisterForNotifications method

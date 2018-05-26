@@ -1,8 +1,9 @@
 ---
 title: TBM\_GETPTICS message
 description: Retrieves the address of an array that contains the positions of the tick marks for a trackbar.
-ms.assetid: 'd15a4b4d-2ced-40a4-9351-ed7ecc5a5751'
-keywords: ["TBM_GETPTICS message Windows Controls"]
+ms.assetid: d15a4b4d-2ced-40a4-9351-ed7ecc5a5751
+keywords:
+- TBM_GETPTICS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_GETPTICS message
@@ -41,15 +47,15 @@ The number of elements in the array is two less than the tick count returned by 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic introduces the metadata query language for Windows Imaging Component (WIC).'
-ms.assetid: '5ffa0a69-b53d-4be3-b802-deaaa743e6bd'
+Description: This topic introduces the metadata query language for Windows Imaging Component (WIC).
+ms.assetid: 5ffa0a69-b53d-4be3-b802-deaaa743e6bd
 title: Metadata Query Language Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metadata Query Language Overview
@@ -27,7 +32,7 @@ To understand this topic, you should be familiar with the WIC metadata system as
 
 ## Introduction
 
-You interact with the metadata platform primarily through two Component Object Model (COM) components: a query reader, represented by the [**IWICMetadataQueryReader**](-wic-codec-iwicmetadataqueryreader.md) interface, and a query writer, represented by the [**IWICMetadataQueryWriter**](-wic-codec-iwicmetadataquerywriter.md) interface. These components enable you to read or write metadata using the metadata query language. The query language describes the syntax of a path expression and the query components use this path expression to access the desired metadata. This path expression describes the location of a metadata block or item.
+You interact with the metadata platform primarily through two Component Object Model (COM) components: a query reader, represented by the [**IWICMetadataQueryReader**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataqueryreader?branch=master) interface, and a query writer, represented by the [**IWICMetadataQueryWriter**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataquerywriter?branch=master) interface. These components enable you to read or write metadata using the metadata query language. The query language describes the syntax of a path expression and the query components use this path expression to access the desired metadata. This path expression describes the location of a metadata block or item.
 
 A metadata block is a named group of metadata in a specific format. A metadata block can contain individual metadata items such as an author or creation time and additional metadata blocks. A metadata block's name is determined by its format. For example, a metadata block containing App1 metadata would be named "app1". Common metadata formats include App1, Exif, IFD, and XMP.
 

@@ -1,20 +1,25 @@
 ---
-Description: 'The CopyPalette method copies the palette from any VIDEOINFO structure to any palettized VIDEOINFO structure.'
-ms.assetid: 'ea06b40b-3f96-4c11-921c-52f3a44e0a30'
-title: 'CImagePalette.CopyPalette method'
+Description: The CopyPalette method copies the palette from any VIDEOINFO structure to any palettized VIDEOINFO structure.
+ms.assetid: ea06b40b-3f96-4c11-921c-52f3a44e0a30
+title: CImagePalette.CopyPalette method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImagePalette.CopyPalette method
 
-The `CopyPalette` method copies the palette from any [**VIDEOINFO**](videoinfo.md) structure to any palettized **VIDEOINFO** structure.
+The `CopyPalette` method copies the palette from any [**VIDEOINFO**](/windows/win32/amvideo/ns-amvideo-tagvideoinfo?branch=master) structure to any palettized **VIDEOINFO** structure.
 
 ## Syntax
 
 
 ```C++
 HRESULT CopyPalette(
-   const CMediaType *pSrc,
-   const CMediaType *pDest
+   const CMediaType *pSrc,
+   const CMediaType *pDest
 );
 ```
 
@@ -44,7 +49,7 @@ Returns S\_OK if the palette was copied. Returns S\_FALSE if either the source o
 
 ## Remarks
 
-The *pDest* media type must be a palettized format with a color depth of 8 bits or less. The *pSrc* media type can be any [**VIDEOINFOHEADER**](videoinfoheader.md) type with a palette, including YUV and true-color formats with palette entries. The method copies the palette entries from *pSrc* into a new palette, and attaches the new palette to *pDest*.
+The *pDest* media type must be a palettized format with a color depth of 8 bits or less. The *pSrc* media type can be any [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) type with a palette, including YUV and true-color formats with palette entries. The method copies the palette entries from *pSrc* into a new palette, and attaches the new palette to *pDest*.
 
 ## Requirements
 
@@ -64,9 +69,9 @@ The *pDest* media type must be a palettized format with a color depth of 8 bits 
 [**CImagePalette Class**](cimagepalette.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: DTM\_SETRANGE message
 description: Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can send this message explicitly or use the DateTime\_SetRange macro.
-ms.assetid: 'ef0f48f2-906e-4ae0-839d-177e0fb7f14e'
-keywords: ["DTM_SETRANGE message Windows Controls"]
+ms.assetid: ef0f48f2-906e-4ae0-839d-177e0fb7f14e
+keywords:
+- DTM_SETRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTM\_SETRANGE message
 
-Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_SetRange**](datetime-setrange.md) macro.
+Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_SetRange**](/windows/win32/Commctrl/nf-commctrl-datetime_setrange?branch=master) macro.
 
 ## Parameters
 
@@ -35,7 +41,7 @@ A value specifying which range values are valid. This parameter can be a combina
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -60,15 +66,15 @@ The date and time picker displays only dates/times that fall within the specifie
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

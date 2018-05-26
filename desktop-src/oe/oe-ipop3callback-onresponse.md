@@ -1,8 +1,11 @@
 ---
 title: IPOP3Callback OnResponse method
-description: Called by the Post Office Protocol version 3 (POP3) transport interface when a command response is received from the POP3 server.
-ms.assetid: '5554e849-cd3e-4324-a512-1ca57543a4e2'
-keywords: ["OnResponse method Windows Mail (formerly Outlook Express)", "OnResponse method Windows Mail (formerly Outlook Express) , IPOP3Callback interface", "IPOP3Callback interface Windows Mail (formerly Outlook Express) , OnResponse method"]
+description: Called by the Post Office Protocol version 3 (POP3) transport interface when a command response is received from the POP3 server.
+ms.assetid: 5554e849-cd3e-4324-a512-1ca57543a4e2
+keywords:
+- OnResponse method Windows Mail (formerly Outlook Express)
+- OnResponse method Windows Mail (formerly Outlook Express) , IPOP3Callback interface
+- IPOP3Callback interface Windows Mail (formerly Outlook Express) , OnResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,20 +14,25 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPOP3Callback::OnResponse method
 
 \[**IPOP3Callback::OnResponse** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-Called by the Post Office Protocol version 3 (POP3) transport interface when a command response is received from the POP3 server.
+Called by the Post Office Protocol version 3 (POP3) transport interface when a command response is received from the POP3 server.
 
 ## Syntax
 
 
 ```C++
 HRESULT OnResponse(
-  [in] LPPOP3RESPONSE pResponse
+  [in] LPPOP3RESPONSE pResponse
 );
 ```
 
@@ -55,8 +63,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -64,9 +72,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

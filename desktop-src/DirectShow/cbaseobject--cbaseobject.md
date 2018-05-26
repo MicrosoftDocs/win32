@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: '3714d030-f0bd-4826-a3c5-fc206bb88561'
-title: 'CBaseObject.~CBaseObject destructor'
+Description: Destructor method.
+ms.assetid: 3714d030-f0bd-4826-a3c5-fc206bb88561
+title: CBaseObject.~CBaseObject destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseObject.~CBaseObject destructor
@@ -39,9 +44,9 @@ This method decrements the active-object count. (See [**CBaseObject::ObjectsActi
 [**CBaseObject Class**](cbaseobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

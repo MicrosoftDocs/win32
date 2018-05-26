@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetCurrentDir method returns an absolute path to the currently selected directory.'
-ms.assetid: '12196143-a98a-4772-a803-d0c9b95a66e4'
-title: 'ISCardFileAccess::GetCurrentDir method'
+---
+Description: The GetCurrentDir method returns an absolute path to the currently selected directory.
+ms.assetid: 12196143-a98a-4772-a803-d0c9b95a66e4
+title: ISCardFileAccessGetCurrentDir method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardFileAccess::GetCurrentDir method

@@ -4,11 +4,15 @@ description: Reading a Directory Object
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5bc0f102-f827-405b-a931-e30f8337e4ab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5bc0f102-f827-405b-a931-e30f8337e4ab
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Reading a Directory Object DSML"]
+keywords:
+- Reading a Directory Object DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Reading a Directory Object

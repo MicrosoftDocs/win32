@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_OPERATION\_STATES enumeration values describe the current state of an operation in progress.'
-ms.assetid: 'a002f735-e385-4c7c-b734-e70a9c6842ca'
-title: 'WPD\_OPERATION\_STATES enumeration'
+Description: The WPD\_OPERATION\_STATES enumeration values describe the current state of an operation in progress.
+ms.assetid: a002f735-e385-4c7c-b734-e70a9c6842ca
+title: WPD\_OPERATION\_STATES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_OPERATION\_STATES enumeration
@@ -13,13 +18,13 @@ The **WPD\_OPERATION\_STATES** enumeration values describe the current state of 
 
 ```C++
 typedef enum tagWPD_OPERATION_STATES { 
-  WPD_OPERATION_STATE_UNSPECIFIED  = 0,
-  WPD_OPERATION_STATE_STARTED      = 1,
-  WPD_OPERATION_STATE_RUNNING      = 2,
-  WPD_OPERATION_STATE_PAUSED       = 3,
-  WPD_OPERATION_STATE_CANCELLED    = 4,
-  WPD_OPERATION_STATE_FINISHED     = 5,
-  WPD_OPERATION_STATE_ABORTED      = 6
+  WPD_OPERATION_STATE_UNSPECIFIED  = 0,
+  WPD_OPERATION_STATE_STARTED      = 1,
+  WPD_OPERATION_STATE_RUNNING      = 2,
+  WPD_OPERATION_STATE_PAUSED       = 3,
+  WPD_OPERATION_STATE_CANCELLED    = 4,
+  WPD_OPERATION_STATE_FINISHED     = 5,
+  WPD_OPERATION_STATE_ABORTED      = 6
 } WPD_OPERATION_STATES;
 ```
 
@@ -80,7 +85,7 @@ The operation is aborted.
 
 ## Remarks
 
-These values are received in the application-defined callback ([**IPortableDeviceEventCallback**](iportabledeviceeventcallback.md)).
+These values are received in the application-defined callback ([**IPortableDeviceEventCallback**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceeventcallback?branch=master)).
 
 ## Requirements
 
@@ -99,9 +104,9 @@ These values are received in the application-defined callback ([**IPortableDevic
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

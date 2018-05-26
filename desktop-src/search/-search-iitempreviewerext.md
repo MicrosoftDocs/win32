@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides methods for supplying browser settings. The IItemPreviewerExt interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.'
-ms.assetid: 'd7d6cbb0-18bf-4e68-b7b4-307cadbced5c'
+---
+Description: Provides methods for supplying browser settings. The IItemPreviewerExt interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
+ms.assetid: d7d6cbb0-18bf-4e68-b7b4-307cadbced5c
 title: IItemPreviewerExt interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IItemPreviewerExt interface

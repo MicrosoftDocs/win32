@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetMessage method returns a fax message from the archive of outbound faxes by using the fax message ID.'
-ms.assetid: 'ca7dbedc-a5b5-4da1-b5e1-545e679369db'
-title: 'FaxOutgoingArchive.GetMessage method'
+---
+Description: The GetMessage method returns a fax message from the archive of outbound faxes by using the fax message ID.
+ms.assetid: ca7dbedc-a5b5-4da1-b5e1-545e679369db
+title: FaxOutgoingArchive.GetMessage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingArchive.GetMessage method
@@ -40,7 +45,7 @@ A [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md) object.
 
 ## Remarks
 
-To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) or **farQUERY\_OUT\_ARCHIVE** access right. With the **farSUBMIT\_LOW** access right, the user will be able to use this method only for his own faxes. With the **farQUERY\_OUT\_ARCHIVE** access right, he will be able to use this method for all of the faxes on the server.
+To use this method, a user must have the [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) or **farQUERY\_OUT\_ARCHIVE** access right. With the **farSUBMIT\_LOW** access right, the user will be able to use this method only for his own faxes. With the **farQUERY\_OUT\_ARCHIVE** access right, he will be able to use this method for all of the faxes on the server.
 
 ## Requirements
 
@@ -65,7 +70,7 @@ To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-r
 [**FaxOutgoingArchive**](-mfax-faxoutgoingarchive.md)
 </dt> <dt>
 
-[**IFaxOutgoingArchive**](-mfax-faxoutgoingarchive-cpp.md)
+[**IFaxOutgoingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingarchive?branch=master)
 </dt> </dl>
 
  

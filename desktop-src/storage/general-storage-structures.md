@@ -1,7 +1,12 @@
 ---
 title: General Storage Structures and Enumerations
 description: General Storage Structures and Enumerations
-ms.assetid: '52f4eae5-fcaa-4b5f-9766-707ca00d20ee'
+ms.assetid: 52f4eae5-fcaa-4b5f-9766-707ca00d20ee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Storage Structures and Enumerations

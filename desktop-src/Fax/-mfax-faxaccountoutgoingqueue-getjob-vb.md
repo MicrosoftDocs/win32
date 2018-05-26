@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns an outgoing fax job in the job queue of the current fax account according to the job''s ID.'
-ms.assetid: '1aa1f0a4-5444-4734-b17c-0b3609e33a1b'
-title: 'FaxAccountOutgoingQueue.GetJob method'
+---
+Description: Returns an outgoing fax job in the job queue of the current fax account according to the jobs ID.
+ms.assetid: 1aa1f0a4-5444-4734-b17c-0b3609e33a1b
+title: FaxAccountOutgoingQueue.GetJob method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountOutgoingQueue.GetJob method
@@ -34,7 +39,7 @@ Specifies the job ID.
 
 ## Return value
 
-Type: **[**IFaxOutgoingJob2**](-mfax-faxoutgoingjob2-cpp.md)\*\***
+Type: **[**IFaxOutgoingJob2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob2?branch=master)\*\***
 
 A [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md) object.
 
@@ -58,7 +63,7 @@ A [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md) object.
 [**FaxAccountOutgoingQueue**](-mfax-faxaccountoutgoingqueue.md)
 </dt> <dt>
 
-[**IFaxAccountOutgoingQueue**](-mfax-faxaccountoutgoingqueue-cpp.md)
+[**IFaxAccountOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountoutgoingqueue?branch=master)
 </dt> </dl>
 
  

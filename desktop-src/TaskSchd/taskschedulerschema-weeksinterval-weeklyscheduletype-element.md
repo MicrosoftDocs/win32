@@ -1,14 +1,20 @@
 ---
 title: WeeksInterval (weeklyScheduleType) Element
 description: Specifies the interval between the weeks in the schedule.
-ms.assetid: '6cbf1e7e-a695-4012-97fd-fe3360c362c4'
-keywords: ["WeeksInterval element Task Scheduler"]
+ms.assetid: 6cbf1e7e-a695-4012-97fd-fe3360c362c4
+keywords:
+- WeeksInterval element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - WeeksInterval
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WeeksInterval (weeklyScheduleType) Element
@@ -50,7 +56,7 @@ The element is defined by the [**weeklyScheduleType**](taskschedulerschema-weekl
 
 For scripting development, the weekly interval is specified using the [**WeeklyTrigger.WeeksInterval**](weeklytrigger-weeksinterval.md) property.
 
-For C++ development, the weekly interval is specified using the [**IWeeklyTrigger::WeeksInterval**](iweeklytrigger-weeksinterval.md) property.
+For C++ development, the weekly interval is specified using the [**IWeeklyTrigger::WeeksInterval**](/windows/win32/taskschd/nf-taskschd-iweeklytrigger-get_weeksinterval?branch=master) property.
 
 ## Examples
 
@@ -82,8 +88,8 @@ The following XML defines a weekly calendar trigger that starts a task Monday th
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -97,9 +103,9 @@ The following XML defines a weekly calendar trigger that starts a task Monday th
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

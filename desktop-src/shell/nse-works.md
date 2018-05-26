@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Explorer provides a graphical representation of the Shell namespace combined with tools that allow users to interact with Shell objects.'
-ms.assetid: 'cc387338-15fa-4350-b039-61a0f1c5030a'
+Description: Windows Explorer provides a graphical representation of the Shell namespace combined with tools that allow users to interact with Shell objects.
+ms.assetid: cc387338-15fa-4350-b039-61a0f1c5030a
 title: Understanding Shell Namespace Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Shell Namespace Extensions
@@ -41,7 +46,7 @@ The first component on the list is entirely up to you. You can store and manage 
 
 ## The Default System Folder View Object (DefView)
 
-The Shell provides a default implementation of the folder view, colloquially known as DefView, so that you can avoid much of the work of implementing your own namespace extension. Because some view features cannot be achieved through custom views, it is often recommended that the default system folder view object is used in place of a custom view. For more information, see [**SHCreateShellFolderView**](shcreateshellfolderview.md).
+The Shell provides a default implementation of the folder view, colloquially known as DefView, so that you can avoid much of the work of implementing your own namespace extension. Because some view features cannot be achieved through custom views, it is often recommended that the default system folder view object is used in place of a custom view. For more information, see [**SHCreateShellFolderView**](/windows/win32/shlobj_core/nf-shlobj_core-shcreateshellfolderview?branch=master).
 
 ## How Windows Explorer Interacts with a Namespace Extension
 
@@ -107,11 +112,11 @@ Both approaches display a folder view that looks very much like that displayed f
 
 Like most Windows applications, Windows Explorer provides the user with a collection of tools. A complete selection of tools is available through the menu bar. The more commonly used tools are also represented by buttons or edit boxes on a toolbar. Unlike many Windows applications, the Windows Explorer menu bar is actually a [toolbar control](controls.Toolbar_Control_Reference) that has been customized to behave like a conventional menu. Both the menu bar and the toolbar are incorporated into a [rebar control](controls.Rebar_Control_Reference) to allow users to organize the individual controls to suit their needs.
 
-By default, Windows Explorer supports a standard set of buttons and menu items, such as Copy and Properties. Your namespace extension can customize the menu bar and toolbars by deleting standard tools and adding custom tools. When your folder view object is initialized, Windows Explorer passes a pointer to its [**IShellBrowser**](ishellbrowser.md) interface. This interface supports several methods that you can call to customize the menu bar and toolbar. When the user selects one of your custom menu items or toolbar buttons, Windows Explorer forwards WM\_COMMAND messages for custom menu and toolbar items to your child window's window procedure.
+By default, Windows Explorer supports a standard set of buttons and menu items, such as Copy and Properties. Your namespace extension can customize the menu bar and toolbars by deleting standard tools and adding custom tools. When your folder view object is initialized, Windows Explorer passes a pointer to its [**IShellBrowser**](/windows/win32/Shobjidl/nn-shobjidl_core-ishellbrowser?branch=master) interface. This interface supports several methods that you can call to customize the menu bar and toolbar. When the user selects one of your custom menu items or toolbar buttons, Windows Explorer forwards WM\_COMMAND messages for custom menu and toolbar items to your child window's window procedure.
 
 ### Status Bar
 
-The Windows Explorer status bar displays information about the currently selected object. Your namespace extension can use the status bar to display status information, such as a text string. You can customize the status bar by calling [**IShellBrowser**](ishellbrowser.md).
+The Windows Explorer status bar displays information about the currently selected object. Your namespace extension can use the status bar to display status information, such as a text string. You can customize the status bar by calling [**IShellBrowser**](/windows/win32/Shobjidl/nn-shobjidl_core-ishellbrowser?branch=master).
 
  
 

@@ -1,8 +1,22 @@
 ---
 title: Retrieving Device Attributes
 description: Retrieving Device Attributes
-ms.assetid: 'c553d495-d8fc-4483-a3dc-6679c6b9d1f1'
-keywords: ["Windows Media Player,portable devices", "Windows Media Player object model,portable devices", "object model,portable devices", "Windows Media Player ActiveX control,portable devices", "ActiveX control,portable devices", "Windows Media Player Mobile ActiveX control,portable devices", "Windows Media Player Mobile,portable devices", "portable devices,retrieving attributes", "attributes,portable devices"]
+ms.assetid: c553d495-d8fc-4483-a3dc-6679c6b9d1f1
+keywords:
+- Windows Media Player,portable devices
+- Windows Media Player object model,portable devices
+- object model,portable devices
+- Windows Media Player ActiveX control,portable devices
+- ActiveX control,portable devices
+- Windows Media Player Mobile ActiveX control,portable devices
+- Windows Media Player Mobile,portable devices
+- portable devices,retrieving attributes
+- attributes,portable devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Device Attributes
@@ -144,10 +158,10 @@ STDMETHODIMP CMainDlg::ShowDeviceAttributes(long lIndex)
 [**Enumerating Devices**](enumerating-devices.md)
 </dt> <dt>
 
-[**IWMPSyncDevice Interface**](iwmpsyncdevice.md)
+[**IWMPSyncDevice Interface**](/windows/win32/wmp/nn-wmp-iwmpsyncdevice?branch=master)
 </dt> <dt>
 
-[**IWMPSyncDevice::getItemInfo**](iwmpsyncdevice-getiteminfo.md)
+[**IWMPSyncDevice::getItemInfo**](/windows/win32/wmp/nf-wmp-iwmpsyncdevice-getiteminfo?branch=master)
 </dt> <dt>
 
 [**Working with Portable Devices**](working-with-portable-devices.md)

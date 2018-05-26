@@ -1,15 +1,18 @@
 ---
-Description: 'Resumes a paused print queue.'
+Description: Resumes a paused print queue.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6d6d21e9-f469-4e2c-9a89-3e9febe229fc'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6d6d21e9-f469-4e2c-9a89-3e9febe229fc
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Resume method of the Win32\_Printer class'
+title: Resume method of the Win32\_Printer class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resume method of the Win32\_Printer class
@@ -57,8 +60,8 @@ Access Denied
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>Win32\_Printer.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl>       |
@@ -78,9 +81,9 @@ Access Denied
 [**Pause Method**](pause-method-in-class-win32-printer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Retrieves the supported range of extent stripe lengths for systems 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6f2bf3a9-b506-4858-b761-dae22ee466ec'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6f2bf3a9-b506-4858-b761-dae22ee466ec
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedStripeLengthRange method iSCSI Software Target API", "GetSupportedStripeLengthRange method iSCSI Software Target API , MSISCSITARGET_StorageCapabilities class", "MSISCSITARGET_StorageCapabilities class iSCSI Software Target API , GetSupportedStripeLengthRange method"]
+keywords:
+- GetSupportedStripeLengthRange method iSCSI Software Target API
+- GetSupportedStripeLengthRange method iSCSI Software Target API , MSISCSITARGET_StorageCapabilities class
+- MSISCSITARGET_StorageCapabilities class iSCSI Software Target API , GetSupportedStripeLengthRange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedStripeLengthRange method of the MSISCSITARGET\_StorageCapabilities class
@@ -34,9 +40,9 @@ This method is inherited from the **CIM\_StorageCapabilities** class.
 
 ```mof
 uint32 GetSupportedStripeLengthRange(
-  [out] uint16 MinimumStripeLength,
-  [out] uint16 MaximumStripeLength,
-  [out] uint32 StripeLengthDivisor
+  [out] uint16 MinimumStripeLength,
+  [out] uint16 MaximumStripeLength,
+  [out] uint32 StripeLengthDivisor
 );
 ```
 
@@ -90,7 +96,7 @@ On return, indicates the size in bytes of an incremental unit of stripe length. 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>Smiscsitarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -107,9 +113,9 @@ On return, indicates the size in bytes of an incremental unit of stripe length. 
 [**GetSupportedStripeLengths**](getsupportedstripelengths-msiscsitarget-storagecapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

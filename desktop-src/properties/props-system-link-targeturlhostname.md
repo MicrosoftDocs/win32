@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '548e4130-bf18-43cf-955d-a7e856152d0c'
-title: 'System.Link.TargetUrlHostName'
+Description: .
+ms.assetid: 548e4130-bf18-43cf-955d-a7e856152d0c
+title: System.Link.TargetUrlHostName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Link.TargetUrlHostName

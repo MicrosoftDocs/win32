@@ -1,7 +1,12 @@
 ---
-Description: 'A QoS policy.'
-ms.assetid: '3b172464-a565-4285-9253-2587569c7364'
-title: 'MSFT\_NetQosPolicySettingData class'
+Description: A QoS policy.
+ms.assetid: 3b172464-a565-4285-9253-2587569c7364
+title: MSFT\_NetQosPolicySettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetQosPolicySettingData class
@@ -16,29 +21,29 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetQosCim")]
 class MSFT_NetQosPolicySettingData : MSFT_NetSettingData
 {
-  string  Name;
-  string  Version;
-  string  Owner;
-  uint32  NetworkProfile;
-  uint32  Precedence;
-  uint32  TemplateMatchCondition;
-  string  UserMatchCondition;
-  string  AppPathNameMatchCondition;
-  uint32  IPProtocolMatchCondition;
-  uint16  IPPortMatchCondition;
-  string  IPSrcPrefixMatchCondition;
-  uint16  IPSrcPortStartMatchCondition;
-  uint16  IPSrcPortEndMatchCondition;
-  string  IPDstPrefixMatchCondition;
-  uint16  IPDstPortStartMatchCondition;
-  uint16  IPDstPortEndMatchCondition;
-  string  URIMatchCondition;
+  string  Name;
+  string  Version;
+  string  Owner;
+  uint32  NetworkProfile;
+  uint32  Precedence;
+  uint32  TemplateMatchCondition;
+  string  UserMatchCondition;
+  string  AppPathNameMatchCondition;
+  uint32  IPProtocolMatchCondition;
+  uint16  IPPortMatchCondition;
+  string  IPSrcPrefixMatchCondition;
+  uint16  IPSrcPortStartMatchCondition;
+  uint16  IPSrcPortEndMatchCondition;
+  string  IPDstPrefixMatchCondition;
+  uint16  IPDstPortStartMatchCondition;
+  uint16  IPDstPortEndMatchCondition;
+  string  URIMatchCondition;
   boolean URIRecursiveMatchCondition;
-  uint16  NetDirectPortMatchCondition;
-  sint8   PriorityValue8021Action;
-  sint8   DSCPAction;
-  uint8   MinBandwidthWeightAction;
-  uint64  ThrottleRateAction;
+  uint16  NetDirectPortMatchCondition;
+  sint8   PriorityValue8021Action;
+  sint8   DSCPAction;
+  uint8   MinBandwidthWeightAction;
+  uint64  ThrottleRateAction;
 };
 ```
 
@@ -411,17 +416,17 @@ Policy version if read from GPO.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                        |
 | MOF<br/>                      | <dl> <dt>Qoswmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>QoSWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

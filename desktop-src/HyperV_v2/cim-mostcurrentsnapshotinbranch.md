@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a virtual system and the most current snapshot of the system. This association can only exist if the virtual system was create using a snapshot or if a snapshot was created from the virtual system.'
-ms.assetid: 'e6040818-84cf-4cec-ab7b-a733fe5d01d2'
-title: 'CIM\_MostCurrentSnapshotInBranch class'
+Description: Represents an association between a virtual system and the most current snapshot of the system. This association can only exist if the virtual system was create using a snapshot or if a snapshot was created from the virtual system.
+ms.assetid: e6040818-84cf-4cec-ab7b-a733fe5d01d2
+title: CIM\_MostCurrentSnapshotInBranch class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_MostCurrentSnapshotInBranch class
@@ -14,7 +19,7 @@ Represents an association between a virtual system and the most current snapshot
 [Association, Experimental, Version("2.16.0"), AMENDMENT]
 class CIM_MostCurrentSnapshotInBranch : CIM_Dependency
 {
-  CIM_ComputerSystem           REF Antecedent;
+  CIM_ComputerSystem           REF Antecedent;
   CIM_VirtualSystemSettingData REF Dependent;
 };
 ```
@@ -69,8 +74,8 @@ A reference to the instance of [**CIM\_VirtualSystemSettingData**](cim-virtualsy
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ A reference to the instance of [**CIM\_VirtualSystemSettingData**](cim-virtualsy
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,19 @@
 ---
 title: Simple Art Example
 description: Simple Art Example
-ms.assetid: 'e17c29c3-3bc6-43f5-83e1-94005218417f'
-keywords: ["Windows Media Player skins,art files", "skins,art files", "files for skins,art", "art files for skins,examples", "Windows Media Player skins,examples", "skins,examples"]
+ms.assetid: e17c29c3-3bc6-43f5-83e1-94005218417f
+keywords:
+- Windows Media Player skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,examples
+- Windows Media Player skins,examples
+- skins,examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Simple Art Example

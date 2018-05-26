@@ -1,7 +1,12 @@
 ---
 title: IVMSerialPort Properties
 description: The IVMSerialPort interface exposes the following properties.
-ms.assetid: '59A82A36-EDAE-465A-AC86-CDA0EAF05C87'
+ms.assetid: 59A82A36-EDAE-465A-AC86-CDA0EAF05C87
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSerialPort Properties

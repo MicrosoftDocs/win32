@@ -1,8 +1,10 @@
 ---
 title: IssueReference class
 description: This interface provides access to IssueReference objects.
-ms.assetid: '351CA6AC-2045-47AB-A0C7-B841028CA5A2'
-keywords: ["IssueReference class Access Execution Engine", "IssueReference class Access Execution Engine , described"]
+ms.assetid: 351CA6AC-2045-47AB-A0C7-B841028CA5A2
+keywords:
+- IssueReference class Access Execution Engine
+- IssueReference class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IssueReference class
@@ -39,7 +46,7 @@ The **IssueReference** class has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,16 +58,16 @@ An **IssueReference** holds data from an **Activity/References/IssueReference** 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

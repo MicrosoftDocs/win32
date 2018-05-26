@@ -2,13 +2,16 @@
 title: ClearByZoneStatistics method of the PS\_DnsServerStatistics class
 description: Clear DNS server statistics.
 audience: developer
-ms.assetid: 'd256df31-22cd-4935-8722-9b5df5cf026b'
-ms.prod: 'windows-server-dev'
+ms.assetid: d256df31-22cd-4935-8722-9b5df5cf026b
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ClearByZoneStatistics method", "ClearByZoneStatistics method, PS_DnsServerStatistics class", "PS_DnsServerStatistics class, ClearByZoneStatistics method"]
+keywords:
+- ClearByZoneStatistics method
+- ClearByZoneStatistics method, PS_DnsServerStatistics class
+- PS_DnsServerStatistics class, ClearByZoneStatistics method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClearByZoneStatistics method of the PS\_DnsServerStatistics class
@@ -28,9 +34,9 @@ Clear DNS server statistics.
 
 ```mof
 uint32 ClearByZoneStatistics(
-  [in] boolean Force,
-  [in] string  ZoneName[],
-  [in] string  ComputerName
+  [in] boolean Force,
+  [in] string  ZoneName[],
+  [in] string  ComputerName
 );
 ```
 
@@ -70,7 +76,7 @@ Specifies the remote computer on which to execute the command
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -84,9 +90,9 @@ Specifies the remote computer on which to execute the command
 [**PS\_DnsServerStatistics**](ps-dnsserverstatistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

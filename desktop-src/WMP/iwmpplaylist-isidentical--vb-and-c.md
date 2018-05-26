@@ -1,8 +1,9 @@
 ---
 title: IWMPPlaylist.isIdentical (VB and C\ )
 description: The isIdentical property (the get\_isIdentical method in C\ ) gets a value indicating whether the specified playlist is identical to the current playlist.
-ms.assetid: '0e5520ee-3d41-4e36-98f4-7bc2ec45fcb8'
-keywords: ["IWMPPlaylist.isIdentical (VB and C ) Windows Media Player"]
+ms.assetid: 0e5520ee-3d41-4e36-98f4-7bc2ec45fcb8
+keywords:
+- IWMPPlaylist.isIdentical (VB and C ) Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylist.isIdentical (VB and C#)
@@ -70,9 +76,9 @@ A **System.Boolean** that indicates whether the compared playlists are identical
 [**IWMPPlaylist Interface (VB and C#)**](iwmpplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

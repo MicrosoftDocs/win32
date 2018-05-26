@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method. The constructor obtains access to the specified pin.'
-ms.assetid: '518d41aa-8361-4769-aa9b-14676b676d6f'
-title: 'CAutoUsingOutputPin.CAutoUsingOutputPin constructor'
+Description: Constructor method. The constructor obtains access to the specified pin.
+ms.assetid: 518d41aa-8361-4769-aa9b-14676b676d6f
+title: CAutoUsingOutputPin.CAutoUsingOutputPin constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAutoUsingOutputPin.CAutoUsingOutputPin constructor
@@ -13,8 +18,8 @@ Constructor method. The constructor obtains access to the specified pin.
 
 ```C++
 CAutoUsingOutputPin(
-   CDynamicOutputPin *pOutputPin,
-   HRESULT           *phr
+   CDynamicOutputPin *pOutputPin,
+   HRESULT           *phr
 );
 ```
 
@@ -60,9 +65,9 @@ When the method returns, the value of *\*phr* indicates the success or failure o
 [**CAutoUsingOutputPin Class**](cautousingoutputpin-cautousingoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

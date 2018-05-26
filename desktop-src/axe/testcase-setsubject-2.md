@@ -1,8 +1,11 @@
 ---
 title: TestCase SetSubject method
 description: Sets the Subject of the TestCase.
-ms.assetid: '656C077D-F35B-4109-B681-84BF94116D45'
-keywords: ["SetSubject method Access Execution Engine", "SetSubject method Access Execution Engine , TestCase interface", "TestCase interface Access Execution Engine , SetSubject method"]
+ms.assetid: 656C077D-F35B-4109-B681-84BF94116D45
+keywords:
+- SetSubject method Access Execution Engine
+- SetSubject method Access Execution Engine , TestCase interface
+- TestCase interface Access Execution Engine , SetSubject method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCase::SetSubject method
@@ -22,9 +30,9 @@ Sets the [**Subject**](subject.md) of the **TestCase**.
 
 ```C++
 virtual HRESULT SetSubject(
-  [in]            LPCWSTR className,
-  [in, optional]  LPCWSTR instanceName,
-  [out, optional] Subject **subject
+  [in]            LPCWSTR className,
+  [in, optional]  LPCWSTR instanceName,
+  [out, optional] Subject **subject
 ) = 0;
 ```
 
@@ -75,8 +83,8 @@ The instance name is the value of element **TestCase/Subject/Instance/Programmat
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -89,9 +97,9 @@ The instance name is the value of element **TestCase/Subject/Instance/Programmat
 [**TestCase**](testcase-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

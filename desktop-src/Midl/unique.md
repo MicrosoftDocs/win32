@@ -2,13 +2,19 @@
 title: unique attribute
 description: The \ unique\ attribute specifies a unique pointer.
 ms.assetid: 0d668148-e65a-478f-9e47-2528d3caa84c
-keywords: ["unique attribute MIDL"]
+keywords:
+- unique attribute MIDL
 topic_type:
 - apiref
 api_name:
 - unique
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # unique attribute

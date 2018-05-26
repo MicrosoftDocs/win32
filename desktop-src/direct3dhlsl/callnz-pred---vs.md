@@ -1,7 +1,12 @@
 ---
 title: callnz pred - vs
 description: Call if not zero, with a predicate. Performs a conditional call to the instruction marked by the label index. Predication uses a boolean value to determine whether of not to perform the instruction.
-ms.assetid: '3417f3e3-7e73-4131-8069-09c0de1469a7'
+ms.assetid: 3417f3e3-7e73-4131-8069-09c0de1469a7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # callnz pred - vs

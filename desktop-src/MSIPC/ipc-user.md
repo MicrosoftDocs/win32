@@ -4,11 +4,14 @@ description: Represents a user or a group ID of a particular type.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '34162096-c365-4bfc-9b11-665559681b31'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 34162096-c365-4bfc-9b11-665559681b31
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_USER structure Active Directory Rights Management Services SDK 2.0", "PIPC_USER structure pointer Active Directory Rights Management Services SDK 2.0", "PCIPC_USER structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_USER structure Active Directory Rights Management Services SDK 2.0
+- PIPC_USER structure pointer Active Directory Rights Management Services SDK 2.0
+- PCIPC_USER structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Ipcprot.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPC\_USER structure
@@ -28,7 +34,7 @@ Represents a user or a group ID of a particular type.
 
 ```C++
 typedef struct _IPC_USER {
-  DWORD   dwType;
+  DWORD   dwType;
   LPCWSTR wszID;
 } IPC_USER, *PIPC_USER;typedef const IPC_USER *PCIPC_USER;
 ```
@@ -116,15 +122,15 @@ IPC user ID used to represent the owner principal.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

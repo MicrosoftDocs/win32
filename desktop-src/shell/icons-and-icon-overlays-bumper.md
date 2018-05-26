@@ -1,6 +1,11 @@
 ---
 Description: Icons and Icon Overlays
 title: Icons and Icon Overlays
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Icons and Icon Overlays

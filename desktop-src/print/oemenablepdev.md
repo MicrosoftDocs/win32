@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMEnablePDEV function
-ms.assetid: '0088f5f6-eb68-4081-8cca-3d34fd10593a'
+ms.assetid: 0088f5f6-eb68-4081-8cca-3d34fd10593a
 title: OEMEnablePDEV function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMEnablePDEV function

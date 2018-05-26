@@ -1,7 +1,12 @@
 ---
 title: Multi-step Procedure Topic Template
 description: Multi-step Procedure Topic Template
-ms.assetid: 'C5CF32D0-32D2-4cf9-89D5-5BD93B9A947D'
+ms.assetid: C5CF32D0-32D2-4cf9-89D5-5BD93B9A947D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multi-step Procedure Topic Template

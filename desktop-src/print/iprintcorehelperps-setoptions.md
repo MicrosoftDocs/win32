@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelperPS::SetOptions method sets multiple feature-option pairs at the same time.'
-ms.assetid: 'ba80f0f5-ecea-41d7-8ddd-58b417e1fbe7'
-title: 'IPrintCoreHelperPS::SetOptions method'
+---
+Description: The IPrintCoreHelperPSSetOptions method sets multiple feature-option pairs at the same time.
+ms.assetid: ba80f0f5-ecea-41d7-8ddd-58b417e1fbe7
+title: IPrintCoreHelperPSSetOptions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperPS::SetOptions method

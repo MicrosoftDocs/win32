@@ -1,7 +1,12 @@
 ---
-Description: 'Some applications store their items in databases or custom file types.'
-ms.assetid: '0e2b7b4b-ae87-4092-b924-6191cdf42c9b'
+Description: Some applications store their items in databases or custom file types.
+ms.assetid: 0e2b7b4b-ae87-4092-b924-6191cdf42c9b
 title: Understanding Protocol Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Protocol Handlers
@@ -25,7 +30,7 @@ For more information about Search Server 2008 deployment with Office SharePoint 
 
 ### Shell Data Stores
 
-Before a third-party developer of new file formats and data stores can get those formats and stores to appear in query results in Windows Explorer, the developer must implement a Shell data source. A Shell data source is a component that is used to extend the Shell namespace and expose items in a data store. A data store is a repository of data. A data store can be exposed to the Shell programming model as a container that uses a Shell data source. The items in a data store can be indexed by the Windows Search system using a protocol handler. The protocol handler implements the protocol for accessing a content source in its native format. The [**ISearchProtocol**](-search-isearchprotocol.md) and [**ISearchProtocol2**](-search-isearchprotocol2.md) interfaces are used to implement a custom protocol handler to expand the data sources that can be indexed.
+Before a third-party developer of new file formats and data stores can get those formats and stores to appear in query results in Windows Explorer, the developer must implement a Shell data source. A Shell data source is a component that is used to extend the Shell namespace and expose items in a data store. A data store is a repository of data. A data store can be exposed to the Shell programming model as a container that uses a Shell data source. The items in a data store can be indexed by the Windows Search system using a protocol handler. The protocol handler implements the protocol for accessing a content source in its native format. The [**ISearchProtocol**](/windows/win32/Searchapi/nn-searchapi-isearchprotocol?branch=master) and [**ISearchProtocol2**](/windows/win32/Searchapi/nn-searchapi-isearchprotocol2?branch=master) interfaces are used to implement a custom protocol handler to expand the data sources that can be indexed.
 
 If you want the query results to appear in Windows Explorer, you must implement a Shell data source before you can create a protocol handler to extend the index. However, if all queries will be programmatic (through OLE DB for example) and interpreted by the application's code rather than the Shell, a Shell namespace while still preferred is not strictly required.
 
@@ -76,7 +81,7 @@ You must inform the indexer that the compound file format is a data store. It is
 
 **To inform the indexer that a compound file is a data store:**
 
-1.  Create a protocol handler (using [**ISearchProtocol**](-search-isearchprotocol.md) or [**ISearchProtocol2**](-search-isearchprotocol2.md)) for .zip files that has the ability bind to the source file. For more information, see [Installing and Registering Protocol Handlers](-search-3x-wds-ph-install-registration.md).
+1.  Create a protocol handler (using [**ISearchProtocol**](/windows/win32/Searchapi/nn-searchapi-isearchprotocol?branch=master) or [**ISearchProtocol2**](/windows/win32/Searchapi/nn-searchapi-isearchprotocol2?branch=master)) for .zip files that has the ability bind to the source file. For more information, see [Installing and Registering Protocol Handlers](-search-3x-wds-ph-install-registration.md).
 
     For example, you could use an escaped path to the .zip file as the root folder name and then use a hierarchy syntax like any other file format.
 
@@ -125,7 +130,7 @@ To have your .zip URLs indexed immediately after they are created or modified, a
 **To have your .zip urls indexed when they are created or modified:**
 
 1.  Create a filter (and implementation of the [**IFilter**](-search-ifilter.md) interface) for the .zip file type. For more information, see [Developing Property Handlers for Windows Search](-search-3x-wds-extidx-propertyhandlers.md).
-2.  Whenever your [**IFilter**](-search-ifilter.md) implementation is called, it is because that URL has been discovered or changed. Then, generate an event for the .zip URL appropriate for the source URL, through the [**IGatherNotifyInline**](-search-igathernotifyinline.md) interface. Doing so gives you the ability to immediately tell the indexer that there is new data to be indexed without having to wait for the incremental crawl.
+2.  Whenever your [**IFilter**](-search-ifilter.md) implementation is called, it is because that URL has been discovered or changed. Then, generate an event for the .zip URL appropriate for the source URL, through the [**IGatherNotifyInline**](/windows/win32/Searchapi/?branch=master) interface. Doing so gives you the ability to immediately tell the indexer that there is new data to be indexed without having to wait for the incremental crawl.
 
 ## Related topics
 

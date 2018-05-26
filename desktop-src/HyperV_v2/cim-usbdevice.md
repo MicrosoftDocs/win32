@@ -1,7 +1,12 @@
 ---
-Description: 'The management characteristics of a USB device.'
-ms.assetid: 'c0589346-7683-49c6-bd34-5ee38d71d00e'
-title: 'CIM\_USBDevice class'
+Description: The management characteristics of a USB device.
+ms.assetid: c0589346-7683-49c6-bd34-5ee38d71d00e
+title: CIM\_USBDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_USBDevice class
@@ -14,21 +19,21 @@ The management characteristics of a USB device.
 [Abstract, Version("2.22.0"), UMLPackagePath("CIM::Device::USB")]
 class CIM_USBDevice : CIM_LogicalDevice
 {
-  uint16   USBVersion;
-  uint8    ClassCode;
-  uint8    SubclassCode;
-  uint8    ProtocolCode;
-  uint16   USBVersionInBCD;
-  uint8    MaxPacketSize;
-  uint16   VendorID;
-  uint16   ProductID;
-  uint16   DeviceReleaseNumber;
-  string   Manufacturer;
-  string   Product;
-  string   SerialNumber;
-  uint8    NumberOfConfigs;
-  uint8    CurrentConfigValue;
-  uint8    CurrentAlternateSettings[];
+  uint16   USBVersion;
+  uint8    ClassCode;
+  uint8    SubclassCode;
+  uint8    ProtocolCode;
+  uint16   USBVersionInBCD;
+  uint8    MaxPacketSize;
+  uint16   VendorID;
+  uint16   ProductID;
+  uint16   DeviceReleaseNumber;
+  string   Manufacturer;
+  string   Product;
+  string   SerialNumber;
+  uint8    NumberOfConfigs;
+  uint8    CurrentConfigValue;
+  uint8    CurrentAlternateSettings[];
   datetime CommandTimeout;
 };
 ```
@@ -52,7 +57,7 @@ The **CIM\_USBDevice** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -316,8 +321,8 @@ The vendor ID assigned to the device by USB.org.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -331,9 +336,9 @@ The vendor ID assigned to the device by USB.org.
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

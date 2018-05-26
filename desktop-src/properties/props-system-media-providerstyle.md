@@ -1,7 +1,12 @@
 ---
-Description: 'The style of music or video, supplied by metadata provider.'
-ms.assetid: 'e5334993-c621-4e26-a317-e2639b7e490e'
-title: 'System.Media.ProviderStyle'
+Description: The style of music or video, supplied by metadata provider.
+ms.assetid: e5334993-c621-4e26-a317-e2639b7e490e
+title: System.Media.ProviderStyle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.ProviderStyle

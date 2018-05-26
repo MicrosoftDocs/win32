@@ -4,13 +4,15 @@ description: The Msft\_MiStreamTasks WMI class evaluates queries of Software Inv
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '42343b12-3b06-4310-ac18-48f0b33ebcdd'
-ms.prod: 'windows-server-dev'
+ms.assetid: 42343b12-3b06-4310-ac18-48f0b33ebcdd
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msft_MiStreamTasks class Software Inventory Logging", "Msft_MiStreamTasks class Software Inventory Logging , described"]
+keywords:
+- Msft_MiStreamTasks class Software Inventory Logging
+- Msft_MiStreamTasks class Software Inventory Logging , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - MiStreamProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msft\_MiStreamTasks class
@@ -56,7 +61,7 @@ The **Msft\_MiStreamTasks** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,7 +70,7 @@ The **Msft\_MiStreamTasks** class has these methods.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
 | Namespace<br/>                | Root\\InventoryLogging<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>MiStreamProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MiStreamProv.dll</dt> </dl> |
@@ -79,9 +84,9 @@ The **Msft\_MiStreamTasks** class has these methods.
 [Software Inventory Logging WMI Stream Provider Classes](software-inventory-logging-wmi-stream-provider-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

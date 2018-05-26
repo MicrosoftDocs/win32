@@ -1,8 +1,19 @@
 ---
 title: Processing the Audio Data
 description: Processing the Audio Data
-ms.assetid: 'ba41e3f4-d991-4da6-9091-7a7e42622e76'
-keywords: ["Windows Media Player plug-ins,Echo sample DoProcessOutput method", "plug-ins,Echo sample DoProcessOutput method", "digital signal processing plug-ins,Echo sample DoProcessOutput method", "DSP plug-ins,Echo sample DoProcessOutput method", "Echo DSP plug-in sample,DoProcessOutput method", "Echo DSP plug-in sample,audio data"]
+ms.assetid: ba41e3f4-d991-4da6-9091-7a7e42622e76
+keywords:
+- Windows Media Player plug-ins,Echo sample DoProcessOutput method
+- plug-ins,Echo sample DoProcessOutput method
+- digital signal processing plug-ins,Echo sample DoProcessOutput method
+- DSP plug-ins,Echo sample DoProcessOutput method
+- Echo DSP plug-in sample,DoProcessOutput method
+- Echo DSP plug-in sample,audio data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processing the Audio Data

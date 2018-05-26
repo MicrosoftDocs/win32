@@ -1,16 +1,21 @@
 ---
-Description: 'The GetAdaptersInfo function fills a pointer to an IP\_ADAPTER\_INFO structure with information about the network adapters associated with the system.'
-ms.assetid: '5bc72ee5-3065-4bfb-8dcb-8befb2a4bbd9'
+Description: The GetAdaptersInfo function fills a pointer to an IP\_ADAPTER\_INFO structure with information about the network adapters associated with the system.
+ms.assetid: 5bc72ee5-3065-4bfb-8dcb-8befb2a4bbd9
 title: Managing Network Adapters Using GetAdaptersInfo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Network Adapters Using GetAdaptersInfo
 
-The [**GetAdaptersInfo**](getadaptersinfo.md) function fills a pointer to an [**IP\_ADAPTER\_INFO**](ip-adapter-info.md) structure with information about the network adapters associated with the system.
+The [**GetAdaptersInfo**](/windows/win32/Iphlpapi/nf-iphlpapi-getadaptersinfo?branch=master) function fills a pointer to an [**IP\_ADAPTER\_INFO**](/windows/win32/Iptypes/ns-iptypes-_ip_adapter_info?branch=master) structure with information about the network adapters associated with the system.
 
 **To use GetAdaptersInfo**
 
-1.  Declare a pointer to an [**IP\_ADAPTER\_INFO**](ip-adapter-info.md) variable called *pAdapterInfo*, and a **ULONG** variable called *ulOutBufLen*. These variables are passed as parameters to the [**GetAdaptersInfo**](getadaptersinfo.md) function. Also create a **DWORD** variable called *dwRetVal* (for error checking).
+1.  Declare a pointer to an [**IP\_ADAPTER\_INFO**](/windows/win32/Iptypes/ns-iptypes-_ip_adapter_info?branch=master) variable called *pAdapterInfo*, and a **ULONG** variable called *ulOutBufLen*. These variables are passed as parameters to the [**GetAdaptersInfo**](/windows/win32/Iphlpapi/nf-iphlpapi-getadaptersinfo?branch=master) function. Also create a **DWORD** variable called *dwRetVal* (for error checking).
     ```C++
     IP_ADAPTER_INFO  *pAdapterInfo;
     ULONG            ulOutBufLen;
@@ -29,7 +34,7 @@ The [**GetAdaptersInfo**](getadaptersinfo.md) function fills a pointer to an [**
 
     
 
-3.  Make an initial call to [**GetAdaptersInfo**](getadaptersinfo.md) to get the size needed into the *ulOutBufLen* variable.
+3.  Make an initial call to [**GetAdaptersInfo**](/windows/win32/Iphlpapi/nf-iphlpapi-getadaptersinfo?branch=master) to get the size needed into the *ulOutBufLen* variable.
     > [!Note]  
     > This call to the function is meant to fail, and is used to ensure that the *ulOutBufLen* variable specifies a size sufficient for holding all the information returned to *pAdapterInfo*. This is a common programming model for data structures and functions of this type.
 
@@ -45,7 +50,7 @@ The [**GetAdaptersInfo**](getadaptersinfo.md) function fills a pointer to an [**
 
     
 
-4.  Make a second call to [**GetAdaptersInfo**](getadaptersinfo.md), passing *pAdapterInfo* and *ulOutBufLen* as parameters and doing general error checking. Return its value to the **DWORD** variable *dwRetVal* (for more extensive error checking).
+4.  Make a second call to [**GetAdaptersInfo**](/windows/win32/Iphlpapi/nf-iphlpapi-getadaptersinfo?branch=master), passing *pAdapterInfo* and *ulOutBufLen* as parameters and doing general error checking. Return its value to the **DWORD** variable *dwRetVal* (for more extensive error checking).
     ```C++
     if ((dwRetVal = GetAdaptersInfo( pAdapterInfo, &amp;ulOutBufLen)) != ERROR_SUCCESS) {
         printf("GetAdaptersInfo call failed with %d\n", dwRetVal);

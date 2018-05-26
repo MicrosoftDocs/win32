@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates if the Device Association Endpoint Container Supports Telephony.'
-ms.assetid: '01bf097a-0e02-4af9-94e3-e2b614875f72'
-title: 'System.Devices.AepContainer.SupportsTelephony'
+Description: Indicates if the Device Association Endpoint Container Supports Telephony.
+ms.assetid: 01bf097a-0e02-4af9-94e3-e2b614875f72
+title: System.Devices.AepContainer.SupportsTelephony
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepContainer.SupportsTelephony

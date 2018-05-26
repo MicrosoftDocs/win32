@@ -1,8 +1,16 @@
 ---
 title: HttpCalculatorClientExample
 description: This example show how to use the service proxy to talk to an HTTP based calculator service.
-ms.assetid: 'dd97613d-3bb7-427c-a292-220d1efed96c'
-keywords: ["HttpCalculatorClientExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: dd97613d-3bb7-427c-a292-220d1efed96c
+keywords:
+- HttpCalculatorClientExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCalculatorClientExample

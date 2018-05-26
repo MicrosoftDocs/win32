@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get the handle of an array element parameter.'
-ms.assetid: 'fe8edbc5-dc1d-4386-8149-489541d55bde'
-title: 'ID3DXBaseEffect::GetParameterElement method'
+---
+Description: Get the handle of an array element parameter.
+ms.assetid: fe8edbc5-dc1d-4386-8149-489541d55bde
+title: ID3DXBaseEffectGetParameterElement method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetParameterElement method

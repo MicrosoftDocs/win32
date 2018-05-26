@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the private key container name.'
-ms.assetid: 'ecc0b4ba-4e2b-49e9-8358-8c498e1d6ae0'
-title: 'PrivateKey.ContainerName property'
+---
+Description: Retrieves the private key container name.
+ms.assetid: ecc0b4ba-4e2b-49e9-8358-8c498e1d6ae0
+title: PrivateKey.ContainerName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrivateKey.ContainerName property

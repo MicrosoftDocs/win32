@@ -1,7 +1,12 @@
 ---
-Description: 'Dynamic linking allows a module to include only the information needed to locate an exported DLL function at load time or run time.'
-ms.assetid: 'df2a8e4c-7ad0-46ea-9643-1528a9ea1503'
-title: 'About Dynamic-Link Libraries'
+Description: Dynamic linking allows a module to include only the information needed to locate an exported DLL function at load time or run time.
+ms.assetid: df2a8e4c-7ad0-46ea-9643-1528a9ea1503
+title: About Dynamic-Link Libraries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Dynamic-Link Libraries
@@ -13,7 +18,7 @@ Dynamic linking allows a module to include only the information needed to locate
 There are two methods for calling a function in a DLL:
 
 -   In *load-time dynamic linking*, a module makes explicit calls to exported DLL functions as if they were local functions. This requires you to link the module with the import library for the DLL that contains the functions. An import library supplies the system with the information needed to load the DLL and locate the exported DLL functions when the application is loaded.
--   In *run-time dynamic linking*, a module uses the [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](loadlibraryex.md) function to load the DLL at run time. After the DLL is loaded, the module calls the [**GetProcAddress**](getprocaddress.md) function to get the addresses of the exported DLL functions. The module calls the exported DLL functions using the function pointers returned by **GetProcAddress**. This eliminates the need for an import library.
+-   In *run-time dynamic linking*, a module uses the [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master) function to load the DLL at run time. After the DLL is loaded, the module calls the [**GetProcAddress**](getprocaddress.md) function to get the addresses of the exported DLL functions. The module calls the exported DLL functions using the function pointers returned by **GetProcAddress**. This eliminates the need for an import library.
 
 ## DLLs and Memory Management
 

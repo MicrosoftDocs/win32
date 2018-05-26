@@ -1,8 +1,24 @@
 ---
 title: Transcoding Files (QASF)
 description: Transcoding Files (QASF)
-ms.assetid: 'c6dad6cf-4781-4204-883b-cdb33aff5e27'
-keywords: ["Windows Media Format SDK,transcoding files (QASF)", "Windows Media Format SDK,DirectShow", "Advanced Systems Format (ASF),transcoding files (QASF)", "ASF (Advanced Systems Format),transcoding files (QASF)", "Advanced Systems Format (ASF),DirectShow", "ASF (Advanced Systems Format),DirectShow", "DirectShow,transcoding files (QASF)", "Windows Media Format SDK,QASF", "Advanced Systems Format (ASF),QASF", "ASF (Advanced Systems Format),QASF", "DirectShow,QASF"]
+ms.assetid: c6dad6cf-4781-4204-883b-cdb33aff5e27
+keywords:
+- Windows Media Format SDK,transcoding files (QASF)
+- Windows Media Format SDK,DirectShow
+- Advanced Systems Format (ASF),transcoding files (QASF)
+- ASF (Advanced Systems Format),transcoding files (QASF)
+- Advanced Systems Format (ASF),DirectShow
+- ASF (Advanced Systems Format),DirectShow
+- DirectShow,transcoding files (QASF)
+- Windows Media Format SDK,QASF
+- Advanced Systems Format (ASF),QASF
+- ASF (Advanced Systems Format),QASF
+- DirectShow,QASF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transcoding Files (QASF)

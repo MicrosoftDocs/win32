@@ -1,8 +1,9 @@
 ---
 title: IWMPControls.isAvailable (VB and C\ )
 description: The isAvailable property (the get\_isAvailable method in C\ ) gets a value indicating whether a specified type of information is available or a specified action can be performed.
-ms.assetid: '00812d5c-513e-49d5-93ba-750b81a852dd'
-keywords: ["IWMPControls.isAvailable (VB and C ) Windows Media Player"]
+ms.assetid: 00812d5c-513e-49d5-93ba-750b81a852dd
+keywords:
+- IWMPControls.isAvailable (VB and C ) Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls.isAvailable (VB and C#)
@@ -61,7 +67,7 @@ A System.String that is one of the following values.
 
 
 
- 
+ 
 
 ## Property Value
 
@@ -145,9 +151,9 @@ End If</code></pre></td>
 [**IWMPControls2.step (VB and C#)**](wmplibiwmpcontrols2-iwmpcontrols2-step--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

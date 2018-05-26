@@ -1,8 +1,22 @@
 ---
 title: Detailed Object Model Comparison
 description: Detailed Object Model Comparison
-ms.assetid: '8f08e2a6-1944-4814-b3b7-680a3722e1a0'
-keywords: ["Windows Media Player,object model", "Windows Media Player object model,version differences", "object model,version differences", "Windows Media Player ActiveX control,version differences", "ActiveX control,version differences", "Windows Media Player Mobile ActiveX control,version differences", "Windows Media Player Mobile,object model", "migration guide,version differences", "versions of Windows Media Player,object model"]
+ms.assetid: 8f08e2a6-1944-4814-b3b7-680a3722e1a0
+keywords:
+- Windows Media Player,object model
+- Windows Media Player object model,version differences
+- object model,version differences
+- Windows Media Player ActiveX control,version differences
+- ActiveX control,version differences
+- Windows Media Player Mobile ActiveX control,version differences
+- Windows Media Player Mobile,object model
+- migration guide,version differences
+- versions of Windows Media Player,object model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Detailed Object Model Comparison
@@ -513,7 +527,7 @@ The following table compares the Windows Media Player 6.4 object model propertie
 
 
 
- 
+ 
 
 The following table compares the Windows Media Player version 6.4 object model methods with the Windows Media Player 7 or later object model.
 
@@ -758,7 +772,7 @@ Then, specify <em>Player</em>.<strong>currentMedia</strong> using the media obje
 
 
 
- 
+ 
 
 The following table compares the Windows Media Player version 6.4 object model events with the Windows Media Player 7 or later object model.
 
@@ -791,7 +805,7 @@ The following table compares the Windows Media Player version 6.4 object model e
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -803,9 +817,9 @@ The following table compares the Windows Media Player version 6.4 object model e
 [**Object Model Reference for Scripting**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

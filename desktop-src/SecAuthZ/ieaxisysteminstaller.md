@@ -1,7 +1,12 @@
 ---
-Description: 'Installs an ActiveX object.'
-ms.assetid: '0eb725a9-ceb8-40e5-808d-ac2b286a48b6'
+Description: Installs an ActiveX object.
+ms.assetid: 0eb725a9-ceb8-40e5-808d-ac2b286a48b6
 title: IeAxiSystemInstaller interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IeAxiSystemInstaller interface
@@ -45,7 +50,7 @@ The **IeAxiSystemInstaller** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,15 +58,15 @@ The **IeAxiSystemInstaller** interface has these methods.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |
 | IID<br/>                      | IID\_IeAxiSystemInstaller is defined as a50ea6f8-4764-4299-b309-022b2a8b4d8d<br/>                   |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

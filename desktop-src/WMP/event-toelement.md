@@ -1,14 +1,20 @@
 ---
 title: event.toElement
 description: The toElement attribute retrieves the element that the keyboard focus moved to. This attribute only applies to the onblur event; for all other events, its value is NULL.
-ms.assetid: '05d15001-2f07-421b-b66f-ea9f46a130a2'
-keywords: ["event.toElement Windows Media Player"]
+ms.assetid: 05d15001-2f07-421b-b66f-ea9f46a130a2
+keywords:
+- event.toElement Windows Media Player
 topic_type:
 - apiref
 api_name:
 - event.toElement
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # event.toElement
@@ -40,9 +46,9 @@ This attribute is a read-only object.
 [**Ambient Event Attributes**](ambient-event-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

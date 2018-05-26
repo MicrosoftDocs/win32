@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter B.'
-Robots: 'noindex, nofollow'
-ms.assetid: '2e570727-7da0-4e17-bf5d-6fe0e6aef65b'
+Description: Contains definitions of security terms that begin with the letter B.
+Robots: noindex, nofollow
+ms.assetid: 2e570727-7da0-4e17-bf5d-6fe0e6aef65b
 title: B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # B

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the firmware version of the device. This property applies only to items of type device (root items). Read-only.'
-ms.assetid: '9933746c-0730-4ca6-9f4c-82322d3474f1'
-title: 'Item.FirmwareVersion property'
+---
+Description: Retrieves the firmware version of the device. This property applies only to items of type device (root items). Read-only.
+ms.assetid: 9933746c-0730-4ca6-9f4c-82322d3474f1
+title: Item.FirmwareVersion property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Item.FirmwareVersion property

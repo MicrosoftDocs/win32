@@ -1,14 +1,20 @@
 ---
 title: Operator\ \ function
 description: Returns a resource variable.
-ms.assetid: '59e5e4ec-ff0d-43aa-805a-04b79f5ab57f'
-keywords: ["Operator function HLSL"]
+ms.assetid: 59e5e4ec-ff0d-43aa-805a-04b79f5ab57f
+keywords:
+- Operator function HLSL
 topic_type:
 - apiref
 api_name:
 - Operator
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operator\[\] function

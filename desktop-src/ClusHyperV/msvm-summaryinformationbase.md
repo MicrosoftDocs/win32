@@ -4,13 +4,15 @@ description: Retrieves summary information about a virtual machine or snapshot f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b26d3d93-feee-4e57-912b-ce5b99080dc5'
-ms.prod: 'windows-server-dev'
+ms.assetid: b26d3d93-feee-4e57-912b-ce5b99080dc5
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_SummaryInformationBase class", "Msvm_SummaryInformationBase class, described"]
+keywords:
+- Msvm_SummaryInformationBase class
+- Msvm_SummaryInformationBase class, described
 topic_type:
 - apiref
 api_name:
@@ -38,6 +40,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_SummaryInformationBase class
@@ -52,25 +57,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SummaryInformationBase : CIM_View
 {
-  string   Caption;
-  string   Description;
-  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   InstanceID;
   DateTime CreationTime;
-  string   ElementName;
-  uint16   EnabledState;
-  string   OtherEnabledState;
-  uint16   HealthState;
-  string   Name;
-  string   Notes;
-  string   Version;
-  uint16   NumberOfProcessors;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  uint64   UpTime;
-  uint16   EnhancedSessionModeState;
-  string   VirtualSwitchNames[];
-  string   VirtualSystemSubType;
-  string   HostComputerSystemName;
+  string   ElementName;
+  uint16   EnabledState;
+  string   OtherEnabledState;
+  uint16   HealthState;
+  string   Name;
+  string   Notes;
+  string   Version;
+  uint16   NumberOfProcessors;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  uint64   UpTime;
+  uint16   EnhancedSessionModeState;
+  string   VirtualSwitchNames[];
+  string   VirtualSystemSubType;
+  string   HostComputerSystemName;
 };
 ```
 
@@ -249,7 +254,7 @@ An optional property that uniquely and opaquely identifies an instance of this c
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 </dd> <dt>
 
@@ -403,7 +408,7 @@ The subtype of the virtual system.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -417,9 +422,9 @@ The subtype of the virtual system.
 [**CIM\_View**](cim-view.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

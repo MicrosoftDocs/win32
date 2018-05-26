@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '00549dfe-5dd4-445e-bad3-eb6bcfea8f5f'
-title: 'CMediaControl.CMediaControl constructor'
+Description: Constructor method.
+ms.assetid: 00549dfe-5dd4-445e-bad3-eb6bcfea8f5f
+title: CMediaControl.CMediaControl constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaControl.CMediaControl constructor
@@ -13,8 +18,8 @@ Constructor method.
 
 ```C++
 CMediaControl(
-   const TCHAR     *pName,
-         LPUNKNOWN pUnk
+   const TCHAR     *pName,
+         LPUNKNOWN pUnk
 );
 ```
 
@@ -60,9 +65,9 @@ Allocate the *pName* parameter in static memory. This name appears on the debugg
 [**CMediaControl Class**](cmediacontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

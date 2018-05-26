@@ -1,7 +1,12 @@
 ---
 title: Fibre Channel Structures
 description: Fibre Channel Structures
-ms.assetid: '818928e3-5647-4e0a-a9a6-7181637778b0'
+ms.assetid: 818928e3-5647-4e0a-a9a6-7181637778b0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fibre Channel Structures

@@ -1,8 +1,9 @@
 ---
 title: TTM\_SETTITLE message
 description: Adds a standard icon and title string to a tooltip.
-ms.assetid: 'e745a592-eef7-4e0d-8939-a48b52c4ab9f'
-keywords: ["TTM_SETTITLE message Windows Controls"]
+ms.assetid: e745a592-eef7-4e0d-8939-a48b52c4ab9f
+keywords:
+- TTM_SETTITLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_SETTITLE message
@@ -26,7 +32,7 @@ Adds a standard icon and title string to a tooltip.
 *wParam* 
 </dt> <dd>
 
-Set *wParam* to one of the following values to specify the icon to be displayed. As of Windows XP SP2 and later, this parameter can also contain an **HICON** value. Any value greater than TTI\_ERROR is assumed to be an **HICON**.
+Set *wParam* to one of the following values to specify the icon to be displayed. As of Windows XP SP2 and later, this parameter can also contain an **HICON** value. Any value greater than TTI\_ERROR is assumed to be an **HICON**.
 
 
 
@@ -42,7 +48,7 @@ Set *wParam* to one of the following values to specify the icon to be displayed.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -85,8 +91,8 @@ DestroyIcon(hIcon);
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TTM\_SETTITLEW** (Unicode) and **TTM\_SETTITLEA** (ANSI)<br/>                 |
 
@@ -99,9 +105,9 @@ DestroyIcon(hIcon);
 [About Tooltip Controls](tooltip-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

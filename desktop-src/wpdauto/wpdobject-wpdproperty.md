@@ -1,14 +1,22 @@
 ---
 title: WPDObject.WpdProperty property
 description: The WpdProperty property gets or sets a predefined WPD property for this WPDObject.
-ms.assetid: '4ecfc875-5d23-4417-b7f5-d36d6f60df6c'
-keywords: ["WpdProperty property WPD Automation", "WpdProperty property WPD Automation , WPDObject object", "WPDObject object WPD Automation , WpdProperty property"]
+ms.assetid: 4ecfc875-5d23-4417-b7f5-d36d6f60df6c
+keywords:
+- WpdProperty property WPD Automation
+- WpdProperty property WPD Automation , WPDObject object
+- WPDObject object WPD Automation , WpdProperty property
 topic_type:
 - apiref
 api_name:
 - WPDObject.WpdProperty
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPDObject.WpdProperty property
@@ -49,7 +57,7 @@ For a complete list of WPD PROPERTYKEYs and their corresponding WPD Automation n
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -57,8 +65,8 @@ For a complete list of WPD PROPERTYKEYs and their corresponding WPD Automation n
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +77,9 @@ For a complete list of WPD PROPERTYKEYs and their corresponding WPD Automation n
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

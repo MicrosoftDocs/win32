@@ -1,8 +1,9 @@
 ---
 title: RB\_SETTEXTCOLOR message
-description: Sets a rebar control's default text color.
-ms.assetid: '85f120bd-39aa-43f8-a794-3bb4f3fe1cd4'
-keywords: ["RB_SETTEXTCOLOR message Windows Controls"]
+description: Sets a rebar controls default text color.
+ms.assetid: 85f120bd-39aa-43f8-a794-3bb4f3fe1cd4
+keywords:
+- RB_SETTEXTCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_SETTEXTCOLOR message
@@ -37,7 +43,7 @@ Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd18
 
 ## Remarks
 
-The rebar control's default text color is used to draw the text in a rebar control and all bands that are added after this message has been sent. The default text color for a particular band can be overridden when a band is added or modified by setting the RBBIM\_COLORS flag in **fMask** and setting **clrBack** in the [**REBARBANDINFO**](rebarbandinfo.md) structure.
+The rebar control's default text color is used to draw the text in a rebar control and all bands that are added after this message has been sent. The default text color for a particular band can be overridden when a band is added or modified by setting the RBBIM\_COLORS flag in **fMask** and setting **clrBack** in the [**REBARBANDINFO**](/windows/win32/Commctrl/ns-commctrl-tagrebarbandinfoa?branch=master) structure.
 
 ## Requirements
 
@@ -45,8 +51,8 @@ The rebar control's default text color is used to draw the text in a rebar contr
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ The rebar control's default text color is used to draw the text in a rebar contr
 [**RB\_GETTEXTCOLOR**](rb-gettextcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

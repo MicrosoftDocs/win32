@@ -1,8 +1,18 @@
 ---
 title: PROGRESSBAR Element
 description: PROGRESSBAR Element
-ms.assetid: '1fd0a523-dadd-4cd8-829e-ac22847c97d4'
-keywords: ["Windows Media Player skins,PROGRESSBAR element", "skins,PROGRESSBAR element", "PROGRESSBAR element", "reference for skins,PROGRESSBAR element", "elements,PROGRESSBAR"]
+ms.assetid: 1fd0a523-dadd-4cd8-829e-ac22847c97d4
+keywords:
+- Windows Media Player skins,PROGRESSBAR element
+- skins,PROGRESSBAR element
+- PROGRESSBAR element
+- reference for skins,PROGRESSBAR element
+- elements,PROGRESSBAR
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROGRESSBAR Element

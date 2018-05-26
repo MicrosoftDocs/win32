@@ -1,14 +1,20 @@
 ---
 title: MetricDefinition element
 description: Describes the metrics produced by an assessment.
-ms.assetid: '1C466422-63EE-49D4-B927-D612C74661A6'
-keywords: ["MetricDefinition element Access Execution Engine"]
+ms.assetid: 1C466422-63EE-49D4-B927-D612C74661A6
+keywords:
+- MetricDefinition element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MetricDefinition
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricDefinition element
@@ -33,7 +39,7 @@ There are no attributes.
 
 | Element                                                     | Description                                                                                                                                 |
 |-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**BetterDirection**](betterdirection.md)<br/>       | This node describes the direction that is “better”. For some metrics this is “higher” for others it is lower.<br/> <br/>        |
+| [**BetterDirection**](betterdirection.md)<br/>       | This node describes the direction that is  better . For some metrics this is  higher  for others it is lower.<br/> <br/>        |
 | [**DecimalPlaces**](decimalplaces.md)<br/>           | The number of decimal places to retain for the metric.<br/> <br/>                                                               |
 | [**Description**](description.md)<br/>               | This node contains the description of the assessment. <br/> <br/>                                                               |
 | [**Importance**](importance.md)<br/>                 | The importance of the activity. <br/> <br/>                                                                                     |
@@ -88,9 +94,9 @@ There are no attributes.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

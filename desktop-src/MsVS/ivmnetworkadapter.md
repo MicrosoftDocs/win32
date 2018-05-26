@@ -1,8 +1,10 @@
 ---
 title: IVMNetworkAdapter interface
 description: The IVMNetworkAdapter interface is the interface to a virtual network interface card (NIC).
-ms.assetid: '60f1db1e-54ba-4f35-bc12-de87257687d4'
-keywords: ["IVMNetworkAdapter interface Virtual Server", "IVMNetworkAdapter interface Virtual Server , described"]
+ms.assetid: 60f1db1e-54ba-4f35-bc12-de87257687d4
+keywords:
+- IVMNetworkAdapter interface Virtual Server
+- IVMNetworkAdapter interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMNetworkAdapter interface
@@ -36,7 +43,7 @@ The following procedures explain how to use the **IVMNetworkAdapter** interface.
     > [!Note]  
     > The default Ethernet address for a network interface is "00-00-00-00-00-00", which is considered an invalid Ethernet address by most operating systems. If [**IsEthernetAddressDynamic**](ivmnetworkadapter-isethernetaddressdynamic.md) is set to **FALSE**, use [**EthernetAddress**](ivmnetworkadapter-ethernetaddress.md) to specify a valid Ethernet address.
 
-     
+     
 
 ## Members
 
@@ -58,7 +65,7 @@ The **IVMNetworkAdapter** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -76,7 +83,7 @@ The **IVMNetworkAdapter** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,8 +95,8 @@ The default Ethernet address for a network interface is "00-00-00-00-00-00", whi
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -110,9 +117,9 @@ The default Ethernet address for a network interface is "00-00-00-00-00-00", whi
 [IVMNetwork Properties](ivmnetworkadapter-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

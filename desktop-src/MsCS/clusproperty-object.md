@@ -4,11 +4,13 @@ description: Represents a single property within a ClusProperties collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8c285882-915c-45de-9840-cfc5becd55ee'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 8c285882-915c-45de-9840-cfc5becd55ee
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusProperty object Failover Cluster", "ClusProperty object Failover Cluster , described"]
+keywords:
+- ClusProperty object Failover Cluster
+- ClusProperty object Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusProperty object
@@ -51,7 +56,7 @@ The **ClusProperty** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -66,7 +71,7 @@ A **ClusProperty** object can only be obtained from a [**ClusProperties**](clusp
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -82,9 +87,9 @@ A **ClusProperty** object can only be obtained from a [**ClusProperties**](clusp
 [Property Management Objects](property-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

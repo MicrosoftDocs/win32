@@ -1,7 +1,12 @@
 ---
-Description: 'The IsAudioStreamEnabled method retrieves a value indicating whether the specified audio stream is enabled in the current title.'
-ms.assetid: 'df6c69a7-6eb0-4662-a3aa-f3f895b42cbc'
+Description: The IsAudioStreamEnabled method retrieves a value indicating whether the specified audio stream is enabled in the current title.
+ms.assetid: df6c69a7-6eb0-4662-a3aa-f3f895b42cbc
 title: IsAudioStreamEnabled Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsAudioStreamEnabled Method

@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.endTransition method
 description: Refreshes the gadget view and resumes updates, animations, and effects once a gadget docking or undocking transition has completed.
-ms.assetid: 'b5f7ba34-4439-465e-b439-f74bb68565fd'
-keywords: ["endTransition method Windows Sidebar", "endTransition method Windows Sidebar , System.Gadget object", "System.Gadget object Windows Sidebar , endTransition method"]
+ms.assetid: b5f7ba34-4439-465e-b439-f74bb68565fd
+keywords:
+- endTransition method Windows Sidebar
+- endTransition method Windows Sidebar , System.Gadget object
+- System.Gadget object Windows Sidebar , endTransition method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.endTransition method
@@ -22,7 +30,7 @@ Refreshes the gadget view and resumes updates, animations, and effects once a ga
 > [!Note]  
 > For Windows 7, calls to the System.Gadget.beginTransition and System.Gadget.endTransition methods are ignored.
 
- 
+ 
 
 ## Syntax
 
@@ -155,10 +163,10 @@ function CheckDockState()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -171,9 +179,9 @@ function CheckDockState()
 [**System.Gadget**](system-gadget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

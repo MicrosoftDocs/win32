@@ -1,7 +1,12 @@
 ---
-Description: 'A 1 based monotonically incremented number that corresponds to the episode of the show.'
-ms.assetid: 'b782a90c-34ae-4e76-b1b8-ba13f17885bd'
-title: 'System.Media.EpisodeNumber'
+Description: A 1 based monotonically incremented number that corresponds to the episode of the show.
+ms.assetid: b782a90c-34ae-4e76-b1b8-ba13f17885bd
+title: System.Media.EpisodeNumber
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.EpisodeNumber

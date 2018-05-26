@@ -1,7 +1,12 @@
 ---
 title: VML Movie Attribute
 description: VML Movie Attribute
-ms.assetid: '027ec13a-071f-46f1-892f-294cc7885023'
+ms.assetid: 027ec13a-071f-46f1-892f-294cc7885023
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Movie Attribute

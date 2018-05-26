@@ -4,13 +4,15 @@ description: Dhcp Server v4 Binding.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dae21291-c833-43e2-a97d-a4a23079fc55'
-ms.prod: 'windows-server-dev'
+ms.assetid: dae21291-c833-43e2-a97d-a4a23079fc55
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerv4Binding class", "DhcpServerv4Binding class, described"]
+keywords:
+- DhcpServerv4Binding class
+- DhcpServerv4Binding class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerv4Binding class
@@ -38,11 +43,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DhcpServerPSProvider"), AMENDMENT]
 class DhcpServerv4Binding
 {
-  string  InterfaceAlias;
+  string  InterfaceAlias;
   boolean BindingState;
-  string  InterfaceGuid;
-  string  IPAddress;
-  string  SubnetMask;
+  string  InterfaceGuid;
+  string  IPAddress;
+  string  SubnetMask;
 };
 ```
 
@@ -130,16 +135,16 @@ Subnet Mask of interface available to Dhcp server for binding.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

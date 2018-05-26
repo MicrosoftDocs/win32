@@ -1,7 +1,12 @@
 ---
 title: Introduction to RPC Memory Management
 description: Introduction to Remote Procedure Call (RPC) memory management.
-ms.assetid: '3474d79c-93ef-4221-b9ea-9173978e2929'
+ms.assetid: 3474d79c-93ef-4221-b9ea-9173978e2929
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction to RPC Memory Management

@@ -4,13 +4,15 @@ description: Lists nodes which are capable of hosting the particular resource ty
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '740EFD12-8B2A-473A-9939-5EBEBFA96276'
-ms.prod: 'windows-server-dev'
+ms.assetid: 740EFD12-8B2A-473A-9939-5EBEBFA96276
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ResourceTypeToPossibleOwner class", "MSCluster_ResourceTypeToPossibleOwner class, described"]
+keywords:
+- MSCluster_ResourceTypeToPossibleOwner class
+- MSCluster_ResourceTypeToPossibleOwner class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ResourceTypeToPossibleOwner class
@@ -36,7 +41,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class MSCluster_ResourceTypeToPossibleOwner : CIM_Component
 {
   MSCluster_ResourceType REF GroupComponent;
-  MSCluster_Node         REF PartComponent;
+  MSCluster_Node         REF PartComponent;
 };
 ```
 
@@ -91,7 +96,7 @@ The possible owner node.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -114,9 +119,9 @@ The possible owner node.
 [**MSCluster\_ResourceType**](mscluster-resourcetype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

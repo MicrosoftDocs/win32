@@ -1,8 +1,9 @@
 ---
 title: XTYP\_XACT\_COMPLETE transaction
 description: A Dynamic Data Exchange (DDE) client callback function, DdeCallback, receives the XTYP\_XACT\_COMPLETE transaction when an asynchronous transaction, initiated by a call to the DdeClientTransaction function, has completed.
-ms.assetid: 'd34a6fab-0e3c-44fe-b25f-7011228fe261'
-keywords: ["XTYP_XACT_COMPLETE transaction Data Exchange"]
+ms.assetid: d34a6fab-0e3c-44fe-b25f-7011228fe261
+keywords:
+- XTYP_XACT_COMPLETE transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_XACT\_COMPLETE transaction
 
-A Dynamic Data Exchange (DDE) client callback function, [*DdeCallback*](ddecallback.md), receives the **XTYP\_XACT\_COMPLETE** transaction when an asynchronous transaction, initiated by a call to the [**DdeClientTransaction**](ddeclienttransaction.md) function, has completed.
+A Dynamic Data Exchange (DDE) client callback function, [*DdeCallback*](ddecallback.md), receives the **XTYP\_XACT\_COMPLETE** transaction when an asynchronous transaction, initiated by a call to the [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master) function, has completed.
 
 
 ```C++
@@ -81,13 +87,13 @@ The transaction identifier of the completed transaction.
 *dwData2* 
 </dt> <dd>
 
-Any applicable **DDE\_** status flags in the low word. This parameter provides support for applications dependent on **DDE\_APPSTATUS** bits. It is recommended that applications no longer use these bits — they may not be supported in future versions of the DDEML.
+Any applicable **DDE\_** status flags in the low word. This parameter provides support for applications dependent on **DDE\_APPSTATUS** bits. It is recommended that applications no longer use these bits   they may not be supported in future versions of the DDEML.
 
 </dd> </dl>
 
 ## Remarks
 
-An application must not free the data handle obtained during this transaction. An application must, however, copy the data associated with the data handle if the application must process the data after the callback function returns. An application can use the [**DdeGetData**](ddegetdata.md) function to copy the data.
+An application must not free the data handle obtained during this transaction. An application must, however, copy the data associated with the data handle if the application must process the data after the callback function returns. An application can use the [**DdeGetData**](/windows/win32/Ddeml/nf-ddeml-ddegetdata?branch=master) function to copy the data.
 
 ## Requirements
 
@@ -95,8 +101,8 @@ An application must not free the data handle obtained during this transaction. A
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -108,10 +114,10 @@ An application must not free the data handle obtained during this transaction. A
 **Reference**
 </dt> <dt>
 
-[**DdeClientTransaction**](ddeclienttransaction.md)
+[**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master)
 </dt> <dt>
 
-[**DdeGetData**](ddegetdata.md)
+[**DdeGetData**](/windows/win32/Ddeml/nf-ddeml-ddegetdata?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -120,9 +126,9 @@ An application must not free the data handle obtained during this transaction. A
 [Dynamic Data Exchange Management Library](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

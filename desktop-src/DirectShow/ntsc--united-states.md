@@ -1,7 +1,12 @@
 ---
-Description: 'NTSC (United States)'
-ms.assetid: '371f91b9-d60b-477e-8f8c-a7fb01121aed'
-title: 'NTSC (United States)'
+Description: NTSC (United States)
+ms.assetid: 371f91b9-d60b-477e-8f8c-a7fb01121aed
+title: NTSC (United States)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NTSC (United States)

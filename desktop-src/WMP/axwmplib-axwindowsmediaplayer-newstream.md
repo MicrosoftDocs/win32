@@ -1,8 +1,9 @@
 ---
 title: NewStream Event of the AxWindowsMediaPlayer Object
 description: The NewStream event is reserved for future use.
-ms.assetid: '265596c0-3e92-48e9-8245-0897bac824b4'
-keywords: ["NewStream Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 265596c0-3e92-48e9-8245-0897bac824b4
+keywords:
+- NewStream Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NewStream Event of the AxWindowsMediaPlayer Object
@@ -58,9 +64,9 @@ This event is reserved for future use.
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

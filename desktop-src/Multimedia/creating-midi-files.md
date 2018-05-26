@@ -1,8 +1,26 @@
 ---
 title: Creating MIDI Files
 description: Creating MIDI Files
-ms.assetid: '2fca3b41-14f9-4eaf-9fdb-8f952c834302'
-keywords: ["Windows multimedia,creating MIDI files", "multimedia,creating MIDI files", "multimedia audio,creating MIDI files", "audio,creating MIDI files", "Musical Instrument Digital Interface (MIDI),creating files", "MIDI (Musical Instrument Digital Interface),creating files", "creating MIDI files,about", "MIDI Manufacturers Association (MMA)", "MMA (MIDI Manufacturers Association)", "MIDI Detailed specification", "Standard MIDI Files specification", "General MIDI (GM) specification", "GM (General MIDI) specification"]
+ms.assetid: 2fca3b41-14f9-4eaf-9fdb-8f952c834302
+keywords:
+- Windows multimedia,creating MIDI files
+- multimedia,creating MIDI files
+- multimedia audio,creating MIDI files
+- audio,creating MIDI files
+- Musical Instrument Digital Interface (MIDI),creating files
+- MIDI (Musical Instrument Digital Interface),creating files
+- creating MIDI files,about
+- MIDI Manufacturers Association (MMA)
+- MMA (MIDI Manufacturers Association)
+- MIDI Detailed specification
+- Standard MIDI Files specification
+- General MIDI (GM) specification
+- GM (General MIDI) specification
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating MIDI Files

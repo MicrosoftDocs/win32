@@ -1,7 +1,12 @@
 ---
-Description: 'Extensions are included in a PKCS \#10 certificate request by adding them to the attributes field of the CertificationRequestInfo structure shown in the following ASN.1 syntax example. For more information, see the Attributes topic.'
-ms.assetid: '26fa8476-a0ad-4114-a1e7-ed3d4fc9d30e'
-title: 'PKCS \#10 Extensions'
+Description: Extensions are included in a PKCS \#10 certificate request by adding them to the attributes field of the CertificationRequestInfo structure shown in the following ASN.1 syntax example. For more information, see the Attributes topic.
+ms.assetid: 26fa8476-a0ad-4114-a1e7-ed3d4fc9d30e
+title: PKCS \#10 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKCS \#10 Extensions
@@ -28,9 +33,9 @@ Attribute ::= SEQUENCE
 
 The following procedure discusses how to use the Certificate Enrollment API to add extensions to a PKCS \#10 certificate request:
 
-1.  Retrieve an [**IX509Extensions**](ix509extensions.md) collection by calling the [**X509Extension**](ix509certificaterequestpkcs10-x509extensions-property.md) property on the [**IX509CertificateRequestPkcs10**](ix509certificaterequestpkcs10.md) object.
-2.  Create an extension by using any of the available interfaces that derive from the [**IX509Extension**](ix509extension.md) interface.
-3.  Add the extensions created in step 2 to the [**IX509Extensions**](ix509extensions.md) collection retrieved in step 1.
+1.  Retrieve an [**IX509Extensions**](/windows/win32/CertEnroll/nn-certenroll-ix509extensions?branch=master) collection by calling the [**X509Extension**](/windows/win32/CertEnroll/nf-certenroll-ix509certificaterequestpkcs10-get_x509extensions?branch=master) property on the [**IX509CertificateRequestPkcs10**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestpkcs10?branch=master) object.
+2.  Create an extension by using any of the available interfaces that derive from the [**IX509Extension**](/windows/win32/CertEnroll/nn-certenroll-ix509extension?branch=master) interface.
+3.  Add the extensions created in step 2 to the [**IX509Extensions**](/windows/win32/CertEnroll/nn-certenroll-ix509extensions?branch=master) collection retrieved in step 1.
 
 ## Related topics
 

@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_FILE\_ALLOCATE message
 description: The WM\_CAP\_FILE\_ALLOCATE message creates (preallocates) a capture file of a specified size. You can send this message explicitly or by using the capFileAlloc macro.
-ms.assetid: '31ebe824-4a30-4212-9479-a5cbd8fc1e1d'
-keywords: ["WM_CAP_FILE_ALLOCATE message Windows Multimedia"]
+ms.assetid: 31ebe824-4a30-4212-9479-a5cbd8fc1e1d
+keywords:
+- WM_CAP_FILE_ALLOCATE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_FILE\_ALLOCATE message
 
-The **WM\_CAP\_FILE\_ALLOCATE** message creates (preallocates) a capture file of a specified size. You can send this message explicitly or by using the [**capFileAlloc**](capfilealloc.md) macro.
+The **WM\_CAP\_FILE\_ALLOCATE** message creates (preallocates) a capture file of a specified size. You can send this message explicitly or by using the [**capFileAlloc**](/windows/win32/Vfw/nf-vfw-capfilealloc?branch=master) macro.
 
 
 ```C++
@@ -53,8 +59,8 @@ You can improve streaming capture performance significantly by preallocating a c
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -69,9 +75,9 @@ You can improve streaming capture performance significantly by preallocating a c
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Merge method of the Database object merges the reference database with the base database.'
-ms.assetid: '777060cf-c672-49d5-a1a8-8674fdc4bde4'
-title: 'Database.Merge method'
+Description: The Merge method of the Database object merges the reference database with the base database.
+ms.assetid: 777060cf-c672-49d5-a1a8-8674fdc4bde4
+title: Database.Merge method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Database.Merge method
@@ -44,7 +49,7 @@ This method does not return a value.
 
 ## Remarks
 
-The [**MsiDatabaseMerge**](msidatabasemerge.md) function and the **Merge** method of the [**Database**](database-object.md) object cannot be used to merge a module included within an installation package. They should not be used to merge [Merge Modules](merge-modules.md) into a Windows Installer package. To include a merge module in an installation package, authors of installation packages should follow the guidelines that are described in the [Applying Merge Modules](applying-merge-modules.md) topic.
+The [**MsiDatabaseMerge**](/windows/win32/Msiquery/nf-msiquery-msidatabasemergea?branch=master) function and the **Merge** method of the [**Database**](database-object.md) object cannot be used to merge a module included within an installation package. They should not be used to merge [Merge Modules](merge-modules.md) into a Windows Installer package. To include a merge module in an installation package, authors of installation packages should follow the guidelines that are described in the [Applying Merge Modules](applying-merge-modules.md) topic.
 
 The **Merge** method does not copy over embedded [cabinet files](cabinet-files.md) or [embedded transforms](embedded-transforms.md) from the reference database into the target database. Embedded data streams that are listed in the [Binary Table](binary-table.md) or [Icon Table](icon-table.md) are copied from the reference database to the target database. Storages embedded in the reference database are not copied to the target database.
 
@@ -62,15 +67,15 @@ If the method fails, you can obtain extended error information by using the [**L
 
 |                    |                                                                                                                                                                                                                                                         |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID\_IDatabase is defined as 000C109D-0000-0000-C000-000000000046<br/>                                                                                                                                                                            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

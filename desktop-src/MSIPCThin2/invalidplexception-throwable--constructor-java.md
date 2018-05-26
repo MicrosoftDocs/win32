@@ -4,17 +4,21 @@ description: Initializes a new instance of the InvalidPLException class with a d
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c4f7a751-e305-4190-b458-02020dc7e383'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: c4f7a751-e305-4190-b458-02020dc7e383
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["InvalidPLException(Throwable) constructor"]
+keywords:
+- InvalidPLException(Throwable) constructor
 topic_type:
 - apiref
 api_name:
 - InvalidPLException(Throwable) constructor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InvalidPLException(Throwable) constructor
@@ -37,7 +41,7 @@ public InvalidPLException(Throwable e)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -47,9 +51,9 @@ public InvalidPLException(Throwable e)
 
 InvalidPLException.java
 
- 
+ 
 
- 
+ 
 
 
 

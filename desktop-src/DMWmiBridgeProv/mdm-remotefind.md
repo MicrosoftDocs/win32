@@ -1,8 +1,10 @@
 ---
 title: MDM\_RemoteFind class
 description: The MDM\_RemoteFind class retrieves the location information for a particular device.
-ms.assetid: '8dfbe951-b4ca-4709-bec9-0821571f9b0e'
-keywords: ["MDM_RemoteFind class", "MDM_RemoteFind class, described"]
+ms.assetid: 8dfbe951-b4ca-4709-bec9-0821571f9b0e
+keywords:
+- MDM_RemoteFind class
+- MDM_RemoteFind class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_RemoteFind class
@@ -120,7 +127,7 @@ Access type: Read/write
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                       |
 | Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl> |
@@ -135,9 +142,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

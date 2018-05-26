@@ -1,8 +1,11 @@
 ---
 title: Solution CreateJob method
 description: Load a job from an XML file.
-ms.assetid: 'E49EAB8D-C328-4BF3-9434-C70F5A4BD6DE'
-keywords: ["CreateJob method Access Execution Engine", "CreateJob method Access Execution Engine , Solution interface", "Solution interface Access Execution Engine , CreateJob method"]
+ms.assetid: E49EAB8D-C328-4BF3-9434-C70F5A4BD6DE
+keywords:
+- CreateJob method Access Execution Engine
+- CreateJob method Access Execution Engine , Solution interface
+- Solution interface Access Execution Engine , CreateJob method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Solution::CreateJob method
@@ -22,8 +30,8 @@ Load a job from an XML file.
 
 ```C++
 virtual HRESULT CreateJob(
-  [in]  LPCWSTR jobPath,
-  [out] Job     **newJob
+  [in]  LPCWSTR jobPath,
+  [out] Job     **newJob
 ) = 0;
 ```
 
@@ -67,8 +75,8 @@ Managed code uses [**Solution.CreateJob \| createJob**](axe-solution_createjob_o
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -84,9 +92,9 @@ Managed code uses [**Solution.CreateJob \| createJob**](axe-solution_createjob_o
 [**Solution::CreateJob methods**](solution-createjob-ovl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

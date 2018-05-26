@@ -1,7 +1,12 @@
-﻿---
-Description: 'This attribute contains a semi-colon delimited list of capability strings which specifies the capabilities required for a specific stream. For the list of capability strings that can be included in this attribute, see DeviceCapability.'
-ms.assetid: 'F9A47FF8-4E53-4B1B-98C3-08941B492265'
-title: 'MF\_SENSORSTREAM\_REQUIRED\_CAPABILITIES attribute'
+---
+Description: This attribute contains a semi-colon delimited list of capability strings which specifies the capabilities required for a specific stream. For the list of capability strings that can be included in this attribute, see DeviceCapability.
+ms.assetid: F9A47FF8-4E53-4B1B-98C3-08941B492265
+title: MF\_SENSORSTREAM\_REQUIRED\_CAPABILITIES attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SENSORSTREAM\_REQUIRED\_CAPABILITIES attribute

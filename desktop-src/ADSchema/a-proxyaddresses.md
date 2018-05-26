@@ -4,17 +4,22 @@ description: A proxy address is the address by which a Microsoft Exchange Server
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7bb299d8-e67a-4062-91a3-b579fd71d5c9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7bb299d8-e67a-4062-91a3-b579fd71d5c9
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Proxy-Addresses attribute AD Schema", "proxyAddresses attribute AD Schema"]
+keywords:
+- Proxy-Addresses attribute AD Schema
+- proxyAddresses attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Proxy-Addresses
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Proxy-Addresses attribute
@@ -38,13 +43,13 @@ A proxy address is the address by which a Microsoft Exchange Server recipient ob
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ A proxy address is the address by which a Microsoft Exchange Server recipient ob
 
 
 
- 
+ 
 
- 
+ 
 
 
 

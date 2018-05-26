@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetIscsiTunnelModeOuterAddress method sets the iSCSI Tunnel Outer Mode address for the initiator.'
-ms.assetid: '4715107e-dddc-479a-89b2-c00175fc1247'
-title: 'SetIscsiTunnelModeOuterAddress method of the MSIscsiInitiator\_MethodClass class'
+---
+Description: The SetIscsiTunnelModeOuterAddress method sets the iSCSI Tunnel Outer Mode address for the initiator.
+ms.assetid: 4715107e-dddc-479a-89b2-c00175fc1247
+title: SetIscsiTunnelModeOuterAddress method of the MSIscsiInitiator\_MethodClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetIscsiTunnelModeOuterAddress method of the MSIscsiInitiator\_MethodClass class

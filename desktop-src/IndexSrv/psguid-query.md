@@ -1,8 +1,14 @@
 ---
 title: PSGUID\_QUERY
 description: PSGUID\_QUERY
-ms.assetid: '7549f814-85c4-4dec-a2d1-083d69309ce6'
-keywords: ["PSGUID_QUERY"]
+ms.assetid: 7549f814-85c4-4dec-a2d1-083d69309ce6
+keywords:
+- PSGUID_QUERY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSGUID\_QUERY

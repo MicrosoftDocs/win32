@@ -1,7 +1,12 @@
 ---
-Description: 'The CountPrefixBits method calculates the number of zero bits at the start of a specified bit field.'
-ms.assetid: '36fc5c5f-dc64-4588-9130-1b0740d03be1'
-title: 'CImageDisplay.CountPrefixBits method'
+Description: The CountPrefixBits method calculates the number of zero bits at the start of a specified bit field.
+ms.assetid: 36fc5c5f-dc64-4588-9130-1b0740d03be1
+title: CImageDisplay.CountPrefixBits method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageDisplay.CountPrefixBits method
@@ -13,7 +18,7 @@ The `CountPrefixBits` method calculates the number of zero bits at the start of 
 
 ```C++
 DWORD CountPrefixBits(
-   const DWORD Field
+   const DWORD Field
 );
 ```
 
@@ -36,7 +41,7 @@ Returns the number of zero bits that occur before the first 1 bit, or 0x80000000
 
 ## Remarks
 
-This method is useful for working with color masks in [**VIDEOINFO**](videoinfo.md) structures.
+This method is useful for working with color masks in [**VIDEOINFO**](/windows/win32/amvideo/ns-amvideo-tagvideoinfo?branch=master) structures.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ This method is useful for working with color masks in [**VIDEOINFO**](videoinfo.
 [**CImageDisplay Class**](cimagedisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

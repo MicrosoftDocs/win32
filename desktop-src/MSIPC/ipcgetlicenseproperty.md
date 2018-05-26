@@ -4,11 +4,12 @@ description: Returns information about a license.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b94d228d-645b-442c-adb4-2bf8c041423d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: b94d228d-645b-442c-adb4-2bf8c041423d
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcGetLicenseProperty function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcGetLicenseProperty function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcGetLicenseProperty function
@@ -28,10 +32,10 @@ Retrieves the information available from a license.
 
 ```C++
 HRESULT WINAPI IpcGetLicenseProperty(
-  _In_  IPC_LICENSE_HANDLE hLicense,
-        DWORD              dwPropID,
-        LCID               lcid,
-  _Out_ LPVOID             *ppvProperty
+  _In_  IPC_LICENSE_HANDLE hLicense,
+        DWORD              dwPropID,
+        LCID               lcid,
+  _Out_ LPVOID             *ppvProperty
 );
 ```
 
@@ -70,14 +74,14 @@ For localized properties, contains the locale identifier (LCID) of the descripto
 > [!Note]  
 > See the Frequently asked questions section of the [Release notes](release-notes--rtm-.md) topic for information about the API behavior regarding language.
 
- 
+ 
 
 </dd> <dt>
 
 *ppvProperty* \[out\]
 </dt> <dd>
 
-A pointer to a variable that receives a pointer to the buffer that contains the license information. The buffer is allocated by the RMS Client 2.1 and must be freed by calling [**IpcFreeMemory**](ipcfreememory.md). The structure of the data returned depends on the property ID specified in *dwPropID*. For more information, see [**License Property Types**](license-property-types.md).
+A pointer to a variable that receives a pointer to the buffer that contains the license information. The buffer is allocated by the RMS Client 2.1 and must be freed by calling [**IpcFreeMemory**](ipcfreememory.md). The structure of the data returned depends on the property ID specified in *dwPropID*. For more information, see [**License Property Types**](license-property-types.md).
 
 </dd> </dl>
 
@@ -85,7 +89,7 @@ A pointer to a variable that receives a pointer to the buffer that contains the 
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 Possible values include, but are not limited to, those in the following list.
 
@@ -106,8 +110,8 @@ Action: For more information about *lcid* see, the description of **IPC\_LI\_DES
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -145,9 +149,9 @@ Action: For more information about *lcid* see, the description of **IPC\_LI\_DES
 [**Error codes**](error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

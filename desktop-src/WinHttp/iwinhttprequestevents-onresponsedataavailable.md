@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when data is available from the response.'
-ms.assetid: '62d02e3b-466a-4d3d-994b-0a1ae12049e1'
-title: 'IWinHttpRequestEvents::OnResponseDataAvailable event'
+Description: Occurs when data is available from the response.
+ms.assetid: 62d02e3b-466a-4d3d-994b-0a1ae12049e1
+title: IWinHttpRequestEventsOnResponseDataAvailable event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequestEvents::OnResponseDataAvailable event
@@ -13,7 +18,7 @@ The **OnResponseDataAvailable** event occurs when data is available from the res
 
 ```C++
 void OnResponseDataAvailable(
-  [in] SAFEARRAY(unsigned char) *Data
+  [in] SAFEARRAY(unsigned char) *Data
 );
 ```
 
@@ -39,9 +44,9 @@ This event does not return a value.
 Because data is in bytes, it must be converted to wide characters when placed in a wide character (Unicode) string.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 ## Requirements
 
@@ -49,9 +54,9 @@ Because data is in bytes, it must be converted to wide characters when placed in
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 
 
@@ -69,9 +74,9 @@ Because data is in bytes, it must be converted to wide characters when placed in
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

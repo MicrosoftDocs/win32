@@ -1,8 +1,10 @@
 ---
 title: IWMPPlaylistCollection (VB and C\ ) interface
 description: Provides methods for manipulating IWMPPlaylist and IWMPPlaylistArray interfaces in a collection.
-ms.assetid: '19a4e0d7-cb3f-42ec-9acb-7ac0c5837662'
-keywords: ["IWMPPlaylistCollection (VB and C ) interface Windows Media Player", "IWMPPlaylistCollection (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 19a4e0d7-cb3f-42ec-9acb-7ac0c5837662
+keywords:
+- IWMPPlaylistCollection (VB and C ) interface Windows Media Player
+- IWMPPlaylistCollection (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylistCollection (VB and C#) interface
@@ -42,7 +49,7 @@ The **IWMPPlaylistCollection (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 Get an **IWMPPlaylistCollection** interface by using the following property.
 
@@ -54,7 +61,7 @@ Get an **IWMPPlaylistCollection** interface by using the following property.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -79,9 +86,9 @@ Get an **IWMPPlaylistCollection** interface by using the following property.
 [**IWMPPlaylistArray Interface (VB and C#)**](iwmpplaylistarray--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

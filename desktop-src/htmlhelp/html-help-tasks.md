@@ -1,7 +1,12 @@
 ---
 title: HTML Help Tasks
 description: This section contains a complete list of basic tasks. You will combine these tasks in various ways as you design and create your help system.
-ms.assetid: 'D50A9D4E-4AD7-4385-BC76-71708A7EB4E9'
+ms.assetid: D50A9D4E-4AD7-4385-BC76-71708A7EB4E9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Help Tasks

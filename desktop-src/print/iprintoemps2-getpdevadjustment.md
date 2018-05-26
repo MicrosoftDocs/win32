@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPS2::GetPDEVAdjustment method enables a plug-in to override specific PDEV settings.'
-ms.assetid: '8dc4252f-72d5-47ae-9f43-8006aa71c29d'
-title: 'IPrintOemPS2::GetPDEVAdjustment method'
+---
+Description: The IPrintOemPS2GetPDEVAdjustment method enables a plug-in to override specific PDEV settings.
+ms.assetid: 8dc4252f-72d5-47ae-9f43-8006aa71c29d
+title: IPrintOemPS2GetPDEVAdjustment method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPS2::GetPDEVAdjustment method

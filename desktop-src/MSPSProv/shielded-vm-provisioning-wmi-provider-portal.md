@@ -4,12 +4,15 @@ description: Shielded VM Provisioning WMI Provider enables a Fabric controller t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2389e962-0b72-43fb-80ad-9fd1b232c743'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2389e962-0b72-43fb-80ad-9fd1b232c743
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Shielded VM Provisioning WMI Provider

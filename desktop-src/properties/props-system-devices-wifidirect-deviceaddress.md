@@ -1,7 +1,12 @@
 ---
-Description: 'Wi-Fi Direct Device Address.'
-ms.assetid: '06f7d944-f94b-4afc-8381-f60a329cb689'
-title: 'System.Devices.WiFiDirect.DeviceAddress'
+Description: Wi-Fi Direct Device Address.
+ms.assetid: 06f7d944-f94b-4afc-8381-f60a329cb689
+title: System.Devices.WiFiDirect.DeviceAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.WiFiDirect.DeviceAddress

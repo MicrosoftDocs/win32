@@ -4,13 +4,16 @@ description: Disables Storage Spaces Direct.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0e3b5763-2b36-4b40-aad6-72f4d5e886df'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0e3b5763-2b36-4b40-aad6-72f4d5e886df
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DisableStorageSpacesDirect method", "DisableStorageSpacesDirect method, MSCluster_StorageSpacesDirect class", "MSCluster_StorageSpacesDirect class, DisableStorageSpacesDirect method"]
+keywords:
+- DisableStorageSpacesDirect method
+- DisableStorageSpacesDirect method, MSCluster_StorageSpacesDirect class
+- MSCluster_StorageSpacesDirect class, DisableStorageSpacesDirect method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DisableStorageSpacesDirect method of the MSCluster\_StorageSpacesDirect class
@@ -30,7 +36,7 @@ Disables Storage Spaces Direct.
 
 ```mof
 uint32 DisableStorageSpacesDirect(
-  [in] boolean CleanupCache
+  [in] boolean CleanupCache
 );
 ```
 
@@ -54,7 +60,7 @@ uint32 DisableStorageSpacesDirect(
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
@@ -68,9 +74,9 @@ uint32 DisableStorageSpacesDirect(
 [**MSCluster\_StorageSpacesDirect**](mscluster-storagespacesdirect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

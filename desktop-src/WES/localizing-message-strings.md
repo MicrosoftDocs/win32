@@ -1,7 +1,12 @@
 ---
 title: Localizing Message Strings
 description: Each message string that you specify in the manifest must reference a string in the localization section of the manifest.
-ms.assetid: 'aeae9ef6-6ef7-46f5-a9ab-fabe418549b2'
+ms.assetid: aeae9ef6-6ef7-46f5-a9ab-fabe418549b2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Localizing Message Strings

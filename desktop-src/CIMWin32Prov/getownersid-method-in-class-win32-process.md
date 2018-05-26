@@ -1,15 +1,18 @@
 ---
-Description: 'The GetOwnerSid&\#8194;WMI class method retrieves the security identifier (SID) for the owner of this process.'
+Description: The GetOwnerSid&\#8194;WMI class method retrieves the security identifier (SID) for the owner of this process.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f856b06c-8080-4145-a775-51361f741873'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f856b06c-8080-4145-a775-51361f741873
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetOwnerSid method of the Win32\_Process class'
+title: GetOwnerSid method of the Win32\_Process class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetOwnerSid method of the Win32\_Process class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 GetOwnerSid(
-  [out] string Sid
+  [out] string Sid
 );
 ```
 
@@ -64,7 +67,7 @@ Returns zero (0) to indicate success. Any other number indicates an error. For a
 **Invalid parameter** (21)
 </dt> <dt>
 
-**Other** (22–4294967295)
+**Other** (22 4294967295)
 </dt> </dl>
 
 ## Examples
@@ -77,8 +80,8 @@ The [Find the logged on users on a remote system/s version 2](https://Gallery.Te
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -95,9 +98,9 @@ The [Find the logged on users on a remote system/s version 2](https://Gallery.Te
 [**Win32\_Process**](win32-process.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

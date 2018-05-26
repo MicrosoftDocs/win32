@@ -1,14 +1,20 @@
 ---
 title: COLUMN.columnResizeMode
 description: The columnResizeMode attribute specifies or retrieves the resize mode for this column.
-ms.assetid: '95ece2a3-20a6-4b9d-a2eb-fc69fc612f29'
-keywords: ["COLUMN.columnResizeMode Windows Media Player"]
+ms.assetid: 95ece2a3-20a6-4b9d-a2eb-fc69fc612f29
+keywords:
+- COLUMN.columnResizeMode Windows Media Player
 topic_type:
 - apiref
 api_name:
 - COLUMN.columnResizeMode
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLUMN.columnResizeMode
@@ -34,7 +40,7 @@ This attribute is a read/write **String** containing one of the following values
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,9 +59,9 @@ This attribute is a read/write **String** containing one of the following values
 [**COLUMN Element**](column-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

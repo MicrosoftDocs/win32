@@ -4,11 +4,12 @@ description: Get or set the EscapedMode properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '007ec617-cff2-492a-a62c-50d65fefcd3b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 007ec617-cff2-492a-a62c-50d65fefcd3b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsPathname Property Methods ADSI"]
+keywords:
+- IADsPathname Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -20,11 +21,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsPathname Property Methods
 
-The property methods of the [**IADsPathname**](iadspathname.md) interface get or set the **EscapedMode** properties. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsPathname**](/windows/win32/Iads/nn-iads-iadspathname?branch=master) interface get or set the **EscapedMode** properties. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -33,7 +37,7 @@ The property methods of the [**IADsPathname**](iadspathname.md) interface get or
 **EscapedMode**
 </dt> <dd> <dl>
 
-Examine or specify how escaped characters are handled in a pathname. For more information and defined options, see [**ADS\_ESCAPE\_MODE\_ENUM**](ads-escape-mode-enum.md).
+Examine or specify how escaped characters are handled in a pathname. For more information and defined options, see [**ADS\_ESCAPE\_MODE\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0001_0078_0004?branch=master).
 
 <dt>
 
@@ -58,13 +62,13 @@ HRESULT get_EscapedMode(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
 **EscapedMode** represents a state. You can turn it on or off, by setting it to ADS\_ESCAPEDMODE\_ON or ADS\_ESCAPEDMODE\_OFF/ADS\_ESCAPEDMODE\_OFF\_EX. When it is turned on, or off, all subsequent retrievals produce escaped or unescaped path strings.
 
-In ADSI only the [**IADsPathname**](iadspathname.md) is capable of unescaping paths. All other ADSI interfaces always return escaped paths. The default state of **EscapedMode** is ADS\_ESCAPEDMODE\_DEFAULT as defined in [**ADS\_ESCAPE\_MODE\_ENUM**](ads-escape-mode-enum.md).
+In ADSI only the [**IADsPathname**](/windows/win32/Iads/nn-iads-iadspathname?branch=master) is capable of unescaping paths. All other ADSI interfaces always return escaped paths. The default state of **EscapedMode** is ADS\_ESCAPEDMODE\_DEFAULT as defined in [**ADS\_ESCAPE\_MODE\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0001_0078_0004?branch=master).
 
 ## Examples
 
@@ -222,8 +226,8 @@ hr = pPathname->Release();
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsPathname is defined as D592AED4-F420-11D0-A36E-00C04FB950DC<br/>         |
@@ -234,15 +238,15 @@ hr = pPathname->Release();
 
 <dl> <dt>
 
-[**IADsPathname**](iadspathname.md)
+[**IADsPathname**](/windows/win32/Iads/nn-iads-iadspathname?branch=master)
 </dt> <dt>
 
-[**ADS\_ESCAPE\_MODE\_ENUM**](ads-escape-mode-enum.md)
+[**ADS\_ESCAPE\_MODE\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0001_0078_0004?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

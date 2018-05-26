@@ -1,7 +1,12 @@
 ---
-Description: 'Contains information about a processor.'
-ms.assetid: 'fa8c533c-3a54-4eb5-893f-649dfd8b4609'
-title: 'PROCESSOR\_POWER\_INFORMATION structure'
+Description: Contains information about a processor.
+ms.assetid: fa8c533c-3a54-4eb5-893f-649dfd8b4609
+title: PROCESSOR\_POWER\_INFORMATION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROCESSOR\_POWER\_INFORMATION structure
@@ -80,8 +85,8 @@ Note that this structure definition was accidentally omitted from WinNT.h. This 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
 
 
 
@@ -89,12 +94,12 @@ Note that this structure definition was accidentally omitted from WinNT.h. This 
 
 <dl> <dt>
 
-[**CallNtPowerInformation**](callntpowerinformation.md)
+[**CallNtPowerInformation**](/windows/win32/Powerbase/nf-powerbase-callntpowerinformation?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

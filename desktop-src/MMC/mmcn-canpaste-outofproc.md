@@ -4,11 +4,12 @@ description: The MMCN\_CANPASTE\_OUTOFPROC notification message is sent to the s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9759e321-b3f4-42a8-a3dd-446cb6bc6b27'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 9759e321-b3f4-42a8-a3dd-446cb6bc6b27
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_CANPASTE_OUTOFPROC message MMC"]
+keywords:
+- MMCN_CANPASTE_OUTOFPROC message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_CANPASTE\_OUTOFPROC message
@@ -76,8 +80,8 @@ If the snap-in indicates that it can accept data objects from other MMC processe
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -92,9 +96,9 @@ If the snap-in indicates that it can accept data objects from other MMC processe
 [Inter-process Drag and Drop](inter-process-drag-and-drop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

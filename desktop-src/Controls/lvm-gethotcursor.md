@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETHOTCURSOR message
 description: Retrieves the HCURSOR value used when the pointer is over an item while hot tracking is enabled. You can send this message explicitly or use the ListView\_GetHotCursor macro.
-ms.assetid: '064d04b2-d74e-4a80-aec6-97a3c53fc4fb'
-keywords: ["LVM_GETHOTCURSOR message Windows Controls"]
+ms.assetid: 064d04b2-d74e-4a80-aec6-97a3c53fc4fb
+keywords:
+- LVM_GETHOTCURSOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETHOTCURSOR message
 
-Retrieves the HCURSOR value used when the pointer is over an item while hot tracking is enabled. You can send this message explicitly or use the [**ListView\_GetHotCursor**](listview-gethotcursor.md) macro.
+Retrieves the HCURSOR value used when the pointer is over an item while hot tracking is enabled. You can send this message explicitly or use the [**ListView\_GetHotCursor**](/windows/win32/Commctrl/nf-commctrl-listview_gethotcursor?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ A list-view control uses hot tracking and hover selection when the [**LVS\_EX\_T
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

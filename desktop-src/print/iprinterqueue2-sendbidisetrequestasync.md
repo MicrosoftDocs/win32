@@ -1,7 +1,12 @@
-﻿---
-Description: 'Uses an XML string value to send a Bidi Set request as an asynchronous operation.'
-ms.assetid: '05FF8A47-A586-4DA7-94AD-A7186265ADB4'
-title: 'IPrinterQueue2::SendBidiSetRequestAsync method'
+---
+Description: Uses an XML string value to send a Bidi Set request as an asynchronous operation.
+ms.assetid: 05FF8A47-A586-4DA7-94AD-A7186265ADB4
+title: IPrinterQueue2SendBidiSetRequestAsync method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterQueue2::SendBidiSetRequestAsync method

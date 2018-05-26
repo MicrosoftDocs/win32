@@ -1,7 +1,12 @@
-﻿---
-Description: 'Calls ID3DXSprite::Flush and restores the device state to how it was before ID3DXSprite::Begin was called.'
-ms.assetid: '603c69f7-13a8-4646-b367-6f2d21b1a2a0'
-title: 'ID3DXSprite::End method'
+---
+Description: Calls ID3DXSpriteFlush and restores the device state to how it was before ID3DXSpriteBegin was called.
+ms.assetid: 603c69f7-13a8-4646-b367-6f2d21b1a2a0
+title: ID3DXSpriteEnd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSprite::End method
@@ -29,7 +34,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 ## Remarks
 
-**ID3DXSprite::End** cannot be used as a substitute for either [**IDirect3DDevice9::EndScene**](idirect3ddevice9--endscene.md) or [**ID3DXRenderToSurface::EndScene**](id3dxrendertosurface--endscene.md).
+**ID3DXSprite::End** cannot be used as a substitute for either [**IDirect3DDevice9::EndScene**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-endscene?branch=master) or [**ID3DXRenderToSurface::EndScene**](id3dxrendertosurface--endscene.md).
 
 ## Requirements
 

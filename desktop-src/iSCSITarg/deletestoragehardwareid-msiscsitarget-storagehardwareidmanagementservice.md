@@ -4,13 +4,16 @@ description: Deletes a specified MSISCSITARGET\_StorageHardwareID instance, and 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b4890be8-d845-4745-b115-56c4e4357e29'
-ms.prod: 'windows-server-dev'
+ms.assetid: b4890be8-d845-4745-b115-56c4e4357e29
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DeleteStorageHardwareID method iSCSI Software Target API", "DeleteStorageHardwareID method iSCSI Software Target API , MSISCSITARGET_StorageHardwareIDManagementService class", "MSISCSITARGET_StorageHardwareIDManagementService class iSCSI Software Target API , DeleteStorageHardwareID method"]
+keywords:
+- DeleteStorageHardwareID method iSCSI Software Target API
+- DeleteStorageHardwareID method iSCSI Software Target API , MSISCSITARGET_StorageHardwareIDManagementService class
+- MSISCSITARGET_StorageHardwareIDManagementService class iSCSI Software Target API , DeleteStorageHardwareID method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeleteStorageHardwareID method of the MSISCSITARGET\_StorageHardwareIDManagementService class
@@ -32,7 +38,7 @@ This method overrides the method inherited from the **CIM\_StorageHardwareIDMana
 
 ```mof
 uint32 DeleteStorageHardwareID(
-  [in] CIM_StorageHardwareID REF HardwareID
+  [in] CIM_StorageHardwareID REF HardwareID
 );
 ```
 
@@ -71,16 +77,16 @@ Specifies the storage hardware ID to delete.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Specified instance not found** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -90,7 +96,7 @@ Specifies the storage hardware ID to delete.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -104,9 +110,9 @@ Specifies the storage hardware ID to delete.
 [**MSISCSITARGET\_StorageHardwareIDManagementService**](msiscsitarget-storagehardwareidmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

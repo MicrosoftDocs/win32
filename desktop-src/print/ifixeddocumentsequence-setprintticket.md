@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetPrintTicket method inserts a print ticket into the fixed document sequence.'
-ms.assetid: '636db99c-9195-4476-b1a6-a8067f27c6bd'
-title: 'IFixedDocumentSequence::SetPrintTicket method'
+---
+Description: The SetPrintTicket method inserts a print ticket into the fixed document sequence.
+ms.assetid: 636db99c-9195-4476-b1a6-a8067f27c6bd
+title: IFixedDocumentSequenceSetPrintTicket method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedDocumentSequence::SetPrintTicket method

@@ -1,8 +1,15 @@
 ---
 title: Windows Touch Samples
 description: Describes the path to the Windows Touch samples and gives brief overviews of the samples..
-ms.assetid: 'ad720387-55b9-44a0-8ff0-521b9ed24ab4'
-keywords: ["Windows Touch SDK,code samples", "Windows Touch SDK,sample code"]
+ms.assetid: ad720387-55b9-44a0-8ff0-521b9ed24ab4
+keywords:
+- Windows Touch SDK,code samples
+- Windows Touch SDK,sample code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Touch Samples

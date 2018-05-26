@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides information about the enumerations that enable the new print driver in Windows 8.1 and later Windows operating systems, to manage print jobs.'
-ms.assetid: 'C6FAC72E-8D13-423B-BBEF-7A846E767905'
+Description: This section provides information about the enumerations that enable the new print driver in Windows 8.1 and later Windows operating systems, to manage print jobs.
+ms.assetid: C6FAC72E-8D13-423B-BBEF-7A846E767905
 title: Printer Extension Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Printer Extension Enumerations

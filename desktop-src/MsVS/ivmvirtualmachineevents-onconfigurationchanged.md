@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachineEvents OnConfigurationChanged method
 description: Called when a value in the configuration for this virtual machine has changed.
-ms.assetid: '9f91c164-385c-4d1a-998b-2f049b4acbf0'
-keywords: ["OnConfigurationChanged method Virtual Server", "OnConfigurationChanged method Virtual Server , IVMVirtualMachineEvents interface", "IVMVirtualMachineEvents interface Virtual Server , OnConfigurationChanged method"]
+ms.assetid: 9f91c164-385c-4d1a-998b-2f049b4acbf0
+keywords:
+- OnConfigurationChanged method Virtual Server
+- OnConfigurationChanged method Virtual Server , IVMVirtualMachineEvents interface
+- IVMVirtualMachineEvents interface Virtual Server , OnConfigurationChanged method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachineEvents::OnConfigurationChanged method
@@ -22,8 +30,8 @@ The **OnConfigurationChanged** method is called when a value in the configuratio
 
 ```C++
 HRESULTS OnConfigurationChanged(
-  [in] BSTR    configKey,
-  [in] VARIANT configData
+  [in] BSTR    configKey,
+  [in] VARIANT configData
 );
 ```
 
@@ -61,8 +69,8 @@ This method is called when the configuration changes for this virtual machine. T
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -74,9 +82,9 @@ This method is called when the configuration changes for this virtual machine. T
 [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

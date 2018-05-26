@@ -1,14 +1,20 @@
 ---
 title: ErrorCode (ProcessingErrorDataType) Element
 description: Contains the error code that was raised when there was an error processing event data.
-ms.assetid: '30243369-6ab0-450b-a345-6f8ff9b21543'
-keywords: ["ErrorCode element EventLog"]
+ms.assetid: 30243369-6ab0-450b-a345-6f8ff9b21543
+keywords:
+- ErrorCode element EventLog
 topic_type:
 - apiref
 api_name:
 - ErrorCode
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorCode (ProcessingErrorDataType) Element
@@ -29,8 +35,8 @@ The **ErrorCode** element is defined by the [**ProcessingErrorDataType**](events
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **ErrorCode** element is defined by the [**ProcessingErrorDataType**](events
 [**ProcessingErrorData (EventType)**](eventschema-processingerrordata-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

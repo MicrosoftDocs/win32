@@ -1,7 +1,12 @@
 ---
-Description: 'The CRendererInputPin method is a constructor method.'
-ms.assetid: '272f864e-d6a8-4a9e-b72f-892147db9970'
-title: 'CRendererInputPin.CRendererInputPin constructor'
+Description: The CRendererInputPin method is a constructor method.
+ms.assetid: 272f864e-d6a8-4a9e-b72f-892147db9970
+title: CRendererInputPin.CRendererInputPin constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererInputPin.CRendererInputPin constructor
@@ -13,9 +18,9 @@ The `CRendererInputPin` method is a constructor method.
 
 ```C++
 CRendererInputPin(
-   CBaseRenderer *pRenderer,
-   HRESULT       *phr,
-   LPCWSTR       Name
+   CBaseRenderer *pRenderer,
+   HRESULT       *phr,
+   LPCWSTR       Name
 );
 ```
 
@@ -64,9 +69,9 @@ Pointer to a wide-character string containing the pin identifier.
 [**CRendererInputPin Class**](crendererinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

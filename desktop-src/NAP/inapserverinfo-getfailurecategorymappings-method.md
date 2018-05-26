@@ -1,8 +1,11 @@
 ---
 title: INapServerInfo GetFailureCategoryMappings method
 description: Retrieves the failure category mappings for a specified SHA or SHV.
-ms.assetid: '89b89003-40b3-4763-aec8-01cd0c307649'
-keywords: ["GetFailureCategoryMappings method NAP", "GetFailureCategoryMappings method NAP , INapServerInfo interface", "INapServerInfo interface NAP , GetFailureCategoryMappings method"]
+ms.assetid: 89b89003-40b3-4763-aec8-01cd0c307649
+keywords:
+- GetFailureCategoryMappings method NAP
+- GetFailureCategoryMappings method NAP , INapServerInfo interface
+- INapServerInfo interface NAP , GetFailureCategoryMappings method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qsvrmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapServerInfo::GetFailureCategoryMappings method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapServerInfo::GetFailureCategoryMappings** method retrieves the failure category mappings for a specified SHA or SHV.
 
@@ -27,8 +35,8 @@ The **INapServerInfo::GetFailureCategoryMappings** method retrieves the failure 
 
 ```C++
 HRESULT GetFailureCategoryMappings(
-  [in]  SystemHealthEntityId   id,
-  [out] FailureCategoryMapping *mapping
+  [in]  SystemHealthEntityId   id,
+  [out] FailureCategoryMapping *mapping
 );
 ```
 
@@ -48,7 +56,7 @@ A [**SystemHealthEntityId**](nap-type-constants.md) that contains the unique ide
 *mapping* \[out\]
 </dt> <dd>
 
-A pointer to a [**FailureCategoryMapping**](failurecategorymapping-struct.md) that contains the mapping data.
+A pointer to a [**FailureCategoryMapping**](/windows/win32/NapTypes/ns-naptypes-tagfailurecategorymapping?branch=master) that contains the mapping data.
 
 </dd> </dl>
 
@@ -66,7 +74,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,7 +83,7 @@ Other COM-specific error codes also may be returned.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>NapServerManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapServerManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
@@ -89,9 +97,9 @@ Other COM-specific error codes also may be returned.
 [**INapServerInfo**](inapserverinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

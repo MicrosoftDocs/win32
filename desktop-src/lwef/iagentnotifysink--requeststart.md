@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySink RequestStart
 description: IAgentNotifySink RequestStart
-ms.assetid: 'acac2bf8-7472-4952-a984-a29654fb8b0b'
+ms.assetid: acac2bf8-7472-4952-a984-a29654fb8b0b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySink::RequestStart

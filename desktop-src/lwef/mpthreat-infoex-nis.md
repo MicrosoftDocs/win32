@@ -1,8 +1,10 @@
 ---
 title: MPTHREAT\_INFOEX\_NIS structure
 description: Contains NIS-specific information.
-ms.assetid: '3887C5BF-B1F6-4420-B40A-9585E44BE7A9'
-keywords: ["MPTHREAT_INFOEX_NIS structure Legacy Windows Environment Features", "PMPTHREAT_INFOEX_NIS structure pointer Legacy Windows Environment Features"]
+ms.assetid: 3887C5BF-B1F6-4420-B40A-9585E44BE7A9
+keywords:
+- MPTHREAT_INFOEX_NIS structure Legacy Windows Environment Features
+- PMPTHREAT_INFOEX_NIS structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPTHREAT\_INFOEX\_NIS structure
@@ -24,8 +31,8 @@ Contains NIS-specific information.
 typedef struct tagMPTHREAT_INFOEX_NIS {
   MP_MIDL_STRING LPWSTR SourceIP;
   MP_MIDL_STRING LPWSTR DestinationIP;
-  DWORD                 dwSourceport;
-  DWORD                 dwDestinationport;
+  DWORD                 dwSourceport;
+  DWORD                 dwDestinationport;
   MP_MIDL_STRING LPWSTR Protocol;
   MP_MIDL_STRING LPWSTR Link;
 } MPTHREAT_INFOEX_NIS, *PMPTHREAT_INFOEX_NIS;
@@ -85,15 +92,15 @@ Type: **MP\_MIDL\_STRING LPWSTR**
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

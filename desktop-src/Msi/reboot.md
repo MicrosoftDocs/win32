@@ -1,7 +1,12 @@
-﻿---
-Description: 'The REBOOT property suppresses certain prompts for a restart of the system.'
-ms.assetid: 'd8a71d9a-64bf-4a38-9c3b-073c216de7fa'
+---
+Description: The REBOOT property suppresses certain prompts for a restart of the system.
+ms.assetid: d8a71d9a-64bf-4a38-9c3b-073c216de7fa
 title: REBOOT property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # REBOOT property

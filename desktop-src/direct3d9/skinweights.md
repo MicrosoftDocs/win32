@@ -1,7 +1,12 @@
 ---
-Description: 'This template is instantiated on a per-mesh basis.'
-ms.assetid: 'ac5289c6-989c-43b4-9190-ac8f831a05f0'
+Description: This template is instantiated on a per-mesh basis.
+ms.assetid: ac5289c6-989c-43b4-9190-ac8f831a05f0
 title: SkinWeights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SkinWeights

@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.findItem
 description: The findItem method searches for a given string starting with the item following the specified item index.
-ms.assetid: '8d112d99-1866-45e5-b0ef-5d4a3c8b388d'
-keywords: ["LISTBOX.findItem Windows Media Player"]
+ms.assetid: 8d112d99-1866-45e5-b0ef-5d4a3c8b388d
+keywords:
+- LISTBOX.findItem Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.findItem
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.findItem
@@ -43,7 +49,7 @@ This method returns a **Number** (**long**) containing the index of the item tha
 
 ## Remarks
 
-To start the search at the first line of the list box control, use –1 as the *startIndex*. To continue to search for text after the first line is found, use the returned line index as the *startIndex*, and the search will start at the next line. This method will search for substrings and is not case-sensitive.
+To start the search at the first line of the list box control, use  1 as the *startIndex*. To continue to search for text after the first line is found, use the returned line index as the *startIndex*, and the search will start at the next line. This method will search for substrings and is not case-sensitive.
 
 ## Requirements
 
@@ -62,9 +68,9 @@ To start the search at the first line of the list box control, use –1 as the *st
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

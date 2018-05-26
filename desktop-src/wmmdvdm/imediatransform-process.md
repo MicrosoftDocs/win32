@@ -1,8 +1,11 @@
 ---
 title: IMediaTransform Process method
 description: The Process method enables your transform to process a block of data.
-ms.assetid: '87e62098-2f21-4b1b-91b7-16ed03ea8807'
-keywords: ["Process method Windows Movie Maker and DVD Maker", "Process method Windows Movie Maker and DVD Maker , IMediaTransform interface", "IMediaTransform interface Windows Movie Maker and DVD Maker , Process method"]
+ms.assetid: 87e62098-2f21-4b1b-91b7-16ed03ea8807
+keywords:
+- Process method Windows Movie Maker and DVD Maker
+- Process method Windows Movie Maker and DVD Maker , IMediaTransform interface
+- IMediaTransform interface Windows Movie Maker and DVD Maker , Process method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaTransform::Process method
@@ -25,12 +33,12 @@ The **Process** method enables your transform to process a block of data.
 
 ```C++
 HRESULT Process(
-  [in] IBufferManager *pManager,
-  [in] TIME_INFO      *pTimeInfo,
-  [in] PIPELINE_TIME  duration,
-  [in] IBuffer        **ppInputs,
-  [in] DWORD          dwInputCount,
-  [in] IBuffer        *pOutput
+  [in] IBufferManager *pManager,
+  [in] TIME_INFO      *pTimeInfo,
+  [in] PIPELINE_TIME  duration,
+  [in] IBuffer        **ppInputs,
+  [in] DWORD          dwInputCount,
+  [in] IBuffer        *pOutput
 );
 ```
 
@@ -111,8 +119,8 @@ To retrieve an existing surface or texture, call **GetSurface** or **GetTexture*
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -125,9 +133,9 @@ To retrieve an existing surface or texture, call **GetSurface** or **GetTexture*
 [**IMediaTransform Interface**](imediatransform.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

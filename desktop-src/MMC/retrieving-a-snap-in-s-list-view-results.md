@@ -1,13 +1,16 @@
 ---
-title: Retrieving a Snap-in's List View Results
+title: Retrieving a Snap-ins List View Results
 description: Use the MMC 2.0 automation object model to manipulate MMC snap-ins.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '41da7cd2-646e-4b12-9509-bbd343be98e9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 41da7cd2-646e-4b12-9509-bbd343be98e9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Retrieving a Snap-in's List View Results

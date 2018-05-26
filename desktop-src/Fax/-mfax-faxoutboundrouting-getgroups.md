@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetGroups method retrieves the collection of outbound routing groups.'
-ms.assetid: 'd2f481be-502e-49d4-a290-d5a9053ca3c4'
-title: 'FaxOutboundRouting.GetGroups method'
+---
+Description: The GetGroups method retrieves the collection of outbound routing groups.
+ms.assetid: d2f481be-502e-49d4-a290-d5a9053ca3c4
+title: FaxOutboundRouting.GetGroups method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRouting.GetGroups method
@@ -29,7 +34,7 @@ A [**FaxOutboundRoutingGroups**](-mfax-faxoutboundroutinggroups.md) object.
 
 ## Remarks
 
-To use this method, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -54,7 +59,7 @@ To use this method, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access
 [**FaxOutboundRouting**](-mfax-faxoutboundrouting.md)
 </dt> <dt>
 
-[**IFaxOutboundRouting**](-mfax-faxoutboundrouting-cpp.md)
+[**IFaxOutboundRouting**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundrouting?branch=master)
 </dt> </dl>
 
  

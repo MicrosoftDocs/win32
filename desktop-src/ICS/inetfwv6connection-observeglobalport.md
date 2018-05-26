@@ -1,8 +1,11 @@
 ---
 title: INetFwV6Connection ObserveGlobalPort method
 description: The ObserveGlobalPort method modifies the firewall configuration for a connection to respect the global setting that permit connection attempts for the specified port and protocol.
-ms.assetid: '76d3d45b-ad1e-478d-ba06-16d7227bd1be'
-keywords: ["ObserveGlobalPort method ICS/ICF", "ObserveGlobalPort method ICS/ICF , INetFwV6Connection interface", "INetFwV6Connection interface ICS/ICF , ObserveGlobalPort method"]
+ms.assetid: 76d3d45b-ad1e-478d-ba06-16d7227bd1be
+keywords:
+- ObserveGlobalPort method ICS/ICF
+- ObserveGlobalPort method ICS/ICF , INetFwV6Connection interface
+- INetFwV6Connection interface ICS/ICF , ObserveGlobalPort method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Connection::ObserveGlobalPort method
@@ -24,8 +32,8 @@ The **ObserveGlobalPort** method modifies the firewall configuration for a conne
 
 ```C++
 HRESULT ObserveGlobalPort(
-  [in] USHORT        usPort,
-  [in] PORT_PROTOCOL Protocol
+  [in] USHORT        usPort,
+  [in] PORT_PROTOCOL Protocol
 );
 ```
 
@@ -38,7 +46,7 @@ HRESULT ObserveGlobalPort(
 *usPort* \[in\]
 </dt> <dd>
 
-Specifies the port ID in host byte order. Must be in the range 1 – 65535.
+Specifies the port ID in host byte order. Must be in the range 1   65535.
 
 </dd> <dt>
 
@@ -69,7 +77,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,10 +89,10 @@ It is not an error to call **ObserveGlobalPort** for a port and protocol pair th
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -97,9 +105,9 @@ It is not an error to call **ObserveGlobalPort** for a port and protocol pair th
 [**INetFwV6Connection**](inetfwv6connection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

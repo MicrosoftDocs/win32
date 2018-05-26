@@ -4,11 +4,15 @@ description: Working with Context Menus Implementation Details
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9432592c-9d24-462c-9d33-819f4ed5171f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 9432592c-9d24-462c-9d33-819f4ed5171f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["context menus MMC , implementation details"]
+keywords:
+- context menus MMC , implementation details
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with Context Menus: Implementation Details
@@ -19,9 +23,9 @@ keywords: ["context menus MMC , implementation details"]
 
     To add context menu items to the context menu of a scope item, the snap-in's [**IComponentData**](icomponentdata.md) implementation should implement and expose the [**IExtendContextMenu**](iextendcontextmenu.md) interface.
 
-    To add context menu items to the context menu of a result item, the snap-in's [**IComponent**](icomponent.md) implementation responsible for that result item and its result pane should implement and expose the [**IExtendContextMenu**](iextendcontextmenu.md) interface.
+    To add context menu items to the context menu of a result item, the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation responsible for that result item and its result pane should implement and expose the [**IExtendContextMenu**](iextendcontextmenu.md) interface.
 
-    Also, if the user selects a scope item and then displays its context menu, MMC will give both the snap-in's [**IComponentData**](icomponentdata.md) and [**IComponent**](icomponent.md) (that owns the current view) implementations the opportunity to add menu items. MMC calls the [**IExtendContextMenu::AddMenuItems**](iextendcontextmenu-addmenuitems.md) method implemented by the snap-in's **IComponent** to allow the snap-in to add menu items to the **View** menu. MMC calls the **IExtendContextMenu::AddMenuItems** method implemented by the snap-in's **IComponentData** to allow the snap-in to add menu items to all other menus. Only the snap-in's **IComponent** implementation can add items to the **View** menu.
+    Also, if the user selects a scope item and then displays its context menu, MMC will give both the snap-in's [**IComponentData**](icomponentdata.md) and [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) (that owns the current view) implementations the opportunity to add menu items. MMC calls the [**IExtendContextMenu::AddMenuItems**](iextendcontextmenu-addmenuitems.md) method implemented by the snap-in's **IComponent** to allow the snap-in to add menu items to the **View** menu. MMC calls the **IExtendContextMenu::AddMenuItems** method implemented by the snap-in's **IComponentData** to allow the snap-in to add menu items to all other menus. Only the snap-in's **IComponent** implementation can add items to the **View** menu.
 
     If the user displays a scope item's context menu without first selecting the scope item, MMC will only give the snap-in's [**IComponentData**](icomponentdata.md) implementation the opportunity to add menu items to all menus except the **View** menu. Consequently, the **View** menu only appears for a scope item if the user first selects an item.
 

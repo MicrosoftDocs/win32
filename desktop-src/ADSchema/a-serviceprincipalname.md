@@ -4,17 +4,22 @@ description: List of principal names used for mutual authentication with an inst
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0ad1694f-0d6f-4350-a088-fdf3ef798c46'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0ad1694f-0d6f-4350-a088-fdf3ef798c46
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Service-Principal-Name attribute AD Schema", "servicePrincipalName attribute AD Schema"]
+keywords:
+- Service-Principal-Name attribute AD Schema
+- servicePrincipalName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Service-Principal-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Service-Principal-Name attribute
@@ -38,12 +43,12 @@ List of principal names used for mutual authentication with an instance of a ser
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ List of principal names used for mutual authentication with an instance of a ser
 
 
 
- 
+ 
 
- 
+ 
 
 
 

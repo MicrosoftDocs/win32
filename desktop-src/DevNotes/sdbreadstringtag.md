@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the string for the specified TAGID.'
-ms.assetid: 'd67d386d-a2c5-46e2-8887-9ee20ea427f9'
+---
+Description: Retrieves the string for the specified TAGID.
+ms.assetid: d67d386d-a2c5-46e2-8887-9ee20ea427f9
 title: SdbReadStringTag function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbReadStringTag function

@@ -1,8 +1,9 @@
 ---
 title: PFN\_CSP\_FREE function pointer
 description: Points to a function that frees a block of memory.
-ms.assetid: 'fcf8130c-3e21-4fbe-b4db-070167d71fc0'
-keywords: ["PFN_CSP_FREE function pointer Security"]
+ms.assetid: fcf8130c-3e21-4fbe-b4db-070167d71fc0
+keywords:
+- PFN_CSP_FREE function pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_CSP\_FREE function pointer
@@ -24,7 +30,7 @@ The **PFN\_CSP\_FREE** function pointer points to a function that frees a block 
 
 ```C++
 typedef VOID ( WINAPI *PFN_CSP_FREE)(
-  _In_ LPVOID Address
+  _In_ LPVOID Address
 );
 ```
 
@@ -55,8 +61,8 @@ This function pointer is passed to a card module in a [**CARD\_DATA**](card-data
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -77,9 +83,9 @@ This function pointer is passed to a card module in a [**CARD\_DATA**](card-data
 [**PFN\_CSP\_REALLOC**](pfn-csp-realloc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

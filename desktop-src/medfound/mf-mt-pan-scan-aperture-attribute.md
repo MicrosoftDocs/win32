@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the pan/scan aperture, which is the 4&\#215;3 region of video that should be displayed in pan/scan mode.'
-ms.assetid: 'faa577fd-6572-46b9-9c6c-f91c47832cb5'
-title: 'MF\_MT\_PAN\_SCAN\_APERTURE attribute'
+---
+Description: Defines the pan/scan aperture, which is the 4&\#215;3 region of video that should be displayed in pan/scan mode.
+ms.assetid: faa577fd-6572-46b9-9c6c-f91c47832cb5
+title: MF\_MT\_PAN\_SCAN\_APERTURE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_PAN\_SCAN\_APERTURE attribute
@@ -14,7 +19,7 @@ Byte array
 
 ## Remarks
 
-The attribute value is an [**MFVideoArea**](mfvideoarea.md) structure.
+The attribute value is an [**MFVideoArea**](/windows/win32/mfobjects/ns-mfobjects-_mfvideoarea?branch=master) structure.
 
 This attribute is used to crop widescreen video to a 4:3 aspect ratio. The pan/scan aperture is used only in pan/scan mode, which is enabled by setting the [**MF\_MT\_PAN\_SCAN\_ENABLED**](mf-mt-pan-scan-enabled-attribute.md) attribute to **TRUE**.
 
@@ -52,13 +57,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Video Media Types](video-media-types.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [**MF\_MT\_GEOMETRIC\_APERTURE**](mf-mt-geometric-aperture-attribute.md)

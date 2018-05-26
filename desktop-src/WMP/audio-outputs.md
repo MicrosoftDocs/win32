@@ -1,8 +1,28 @@
 ---
 title: Audio Outputs
 description: Audio Outputs
-ms.assetid: '2bedf804-c9fd-4a44-9289-e36a50517b7f'
-keywords: ["Windows Media Player,audio outputs", "Windows Media Player,Default DirectSound Device", "Windows Media Player,eConsole", "Windows Media Player,eMultimedia", "Windows Media Player,eCommunications", "audio outputs", "Default DirectSound Device", "eConsole", "eMultimedia", "eCommunications", "Windows Media Player ActiveX control,audio outputs", "Windows Media Player ActiveX control,Default DirectSound Device", "Windows Media Player ActiveX control,eConsole", "Windows Media Player ActiveX control,eMultimedia", "Windows Media Player ActiveX control,eCommunications"]
+ms.assetid: 2bedf804-c9fd-4a44-9289-e36a50517b7f
+keywords:
+- Windows Media Player,audio outputs
+- Windows Media Player,Default DirectSound Device
+- Windows Media Player,eConsole
+- Windows Media Player,eMultimedia
+- Windows Media Player,eCommunications
+- audio outputs
+- Default DirectSound Device
+- eConsole
+- eMultimedia
+- eCommunications
+- Windows Media Player ActiveX control,audio outputs
+- Windows Media Player ActiveX control,Default DirectSound Device
+- Windows Media Player ActiveX control,eConsole
+- Windows Media Player ActiveX control,eMultimedia
+- Windows Media Player ActiveX control,eCommunications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Outputs

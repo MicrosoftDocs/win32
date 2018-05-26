@@ -4,11 +4,14 @@ description: Creates a scheduled task object that will be consumed by other jobs
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '56faee26-bdb0-442f-aec1-1e5d97e798e6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 56faee26-bdb0-442f-aec1-1e5d97e798e6
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["CreateScheduledTask method File Server Resource Manager", "CreateScheduledTask method File Server Resource Manager , MSFT_FSRMScheduledTask class", "MSFT_FSRMScheduledTask class File Server Resource Manager , CreateScheduledTask method"]
+keywords:
+- CreateScheduledTask method File Server Resource Manager
+- CreateScheduledTask method File Server Resource Manager , MSFT_FSRMScheduledTask class
+- MSFT_FSRMScheduledTask class File Server Resource Manager , CreateScheduledTask method
 topic_type:
 - apiref
 api_name:
@@ -17,24 +20,27 @@ api_location:
 - SrmSvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateScheduledTask method of the MSFT\_FSRMScheduledTask class
 
 Creates a scheduled task object that will be consumed by other jobs.
 
-**Windows Server 2008 R2 and Windows Server 2008:** To schedule a task use the [**IFsrmReportScheduler**](ifsrmreportscheduler.md) interface.
+**Windows Server 2008 R2 and Windows Server 2008:** To schedule a task use the [**IFsrmReportScheduler**](/windows/previous-versions/FsrmReports/nn-fsrmreports-ifsrmreportscheduler?branch=master) interface.
 
 ## Syntax
 
 
 ```mof
 uint64 CreateScheduledTask(
-  [in]  datetime               Time,
-  [in]  sint32                 RunDuration,
-  [in]  uint32                 Weekly[],
-  [in]  sint32                 Monthly[],
-  [out] MSFT_FSRMScheduledTask ScheduledTask
+  [in]  datetime               Time,
+  [in]  sint32                 RunDuration,
+  [in]  uint32                 Weekly[],
+  [in]  sint32                 Monthly[],
+  [out] MSFT_FSRMScheduledTask ScheduledTask
 );
 ```
 
@@ -143,7 +149,7 @@ For an example see [Scheduling a Storage Report using WMI](scheduling-a-report-j
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -157,9 +163,9 @@ For an example see [Scheduling a Storage Report using WMI](scheduling-a-report-j
 [**MSFT\_FSRMScheduledTask**](msft-fsrmscheduledtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

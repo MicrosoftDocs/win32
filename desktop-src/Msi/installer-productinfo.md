@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ProductInfo property is a read-only property that returns the value of the specified attribute for an installed or published product.'
-ms.assetid: '144cbba7-ec2b-44cd-acc8-868c210ccebd'
-title: 'Installer.ProductInfo property'
+---
+Description: The ProductInfo property is a read-only property that returns the value of the specified attribute for an installed or published product.
+ms.assetid: 144cbba7-ec2b-44cd-acc8-868c210ccebd
+title: Installer.ProductInfo property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ProductInfo property
@@ -42,10 +47,10 @@ The **ProductInfo** property ("LocalPackage") does not necessarily return a path
 
 <dl> <dt>
 
-[**MsiGetProductInfo**](msigetproductinfo.md)
+[**MsiGetProductInfo**](/windows/win32/Msi/nf-msi-msigetproductinfoa?branch=master)
 </dt> <dt>
 
-[**MsiGetUserInfo**](msigetuserinfo.md)
+[**MsiGetUserInfo**](/windows/win32/Msi/nf-msi-msigetuserinfoa?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

@@ -1,7 +1,12 @@
 ---
 title: Rebar Control Messages
 description: .
-ms.assetid: '5fa1df55-0883-4b3b-bcde-7c40d574c792'
+ms.assetid: 5fa1df55-0883-4b3b-bcde-7c40d574c792
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rebar Control Messages

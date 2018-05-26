@@ -1,7 +1,12 @@
 ---
 Description: Karl Bridge
-ms.assetid: 'eec18d2f-5972-4d5f-9c21-2c37ee4cd3dd'
+ms.assetid: eec18d2f-5972-4d5f-9c21-2c37ee4cd3dd
 title: Text Alternatives to Inaccessible Webpages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Alternatives to Inaccessible Webpages

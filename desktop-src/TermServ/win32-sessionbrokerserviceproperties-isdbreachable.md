@@ -4,11 +4,14 @@ description: Checks if the database is reachable.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c9774d6d-1b78-4ec1-bae2-80d41d4c9b06'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c9774d6d-1b78-4ec1-bae2-80d41d4c9b06
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IsDbReachable method Remote Desktop Services", "IsDbReachable method Remote Desktop Services , Win32_SessionBrokerServiceProperties class", "Win32_SessionBrokerServiceProperties class Remote Desktop Services , IsDbReachable method"]
+keywords:
+- IsDbReachable method Remote Desktop Services
+- IsDbReachable method Remote Desktop Services , Win32_SessionBrokerServiceProperties class
+- Win32_SessionBrokerServiceProperties class Remote Desktop Services , IsDbReachable method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IsDbReachable method of the Win32\_SessionBrokerServiceProperties class
@@ -28,9 +34,9 @@ Checks if the database is reachable.
 
 ```mof
 uint32 IsDbReachable(
-  [in] string connStringToDb,
-  [in] string connSecondaryStringToDb,
-  [in] string activeBrokerName
+  [in] string connStringToDb,
+  [in] string connSecondaryStringToDb,
+  [in] string activeBrokerName
 );
 ```
 
@@ -52,7 +58,7 @@ The connection string to the database.
 
 Secondary connection string to the central database.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -61,7 +67,7 @@ Secondary connection string to the central database.
 
 Active broker name.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not available before Windows Server 2016.
 
 </dd> </dl>
 
@@ -72,7 +78,7 @@ Active broker name.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                               |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |
@@ -86,9 +92,9 @@ Active broker name.
 [**Win32\_SessionBrokerServiceProperties**](win32-sessionbrokerserviceproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

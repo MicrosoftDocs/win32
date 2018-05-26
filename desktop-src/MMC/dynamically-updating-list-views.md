@@ -4,11 +4,15 @@ description: You might want to implement a list view with items whose status cha
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5baf8753-d17b-4b0b-b3f3-c449dd0c2566'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5baf8753-d17b-4b0b-b3f3-c449dd0c2566
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["list views MMC , dynamically updating"]
+keywords:
+- list views MMC , dynamically updating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Dynamically Updating List Views

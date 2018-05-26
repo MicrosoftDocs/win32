@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '6311d84d-1723-4607-87f8-7cd2ad2582f3'
-title: 'CGenericList.CGenericList constructor'
+Description: Constructor method.
+ms.assetid: 6311d84d-1723-4607-87f8-7cd2ad2582f3
+title: CGenericList.CGenericList constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.CGenericList constructor
@@ -13,7 +18,7 @@ Constructor method.
 
 ```C++
 CGenericList(
-   TCHAR *pName
+   TCHAR *pName
 );
 ```
 
@@ -52,9 +57,9 @@ For efficiency, the `CGenericList` class maintains a cache of list nodes. This v
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

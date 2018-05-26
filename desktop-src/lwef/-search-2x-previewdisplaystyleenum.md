@@ -1,8 +1,9 @@
 ---
 title: PreviewDisplayStyle enumeration
 description: Used by IResultsViewer PreviewStyle to set or determine the display style currently being used.
-ms.assetid: 'ccbbfe38-0719-41e0-9331-cc0c1be651eb'
-keywords: ["PreviewDisplayStyle enumeration Legacy Windows Environment Features"]
+ms.assetid: ccbbfe38-0719-41e0-9331-cc0c1be651eb
+keywords:
+- PreviewDisplayStyle enumeration Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - WdsView.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PreviewDisplayStyle enumeration
@@ -24,10 +30,10 @@ Used by [**IResultsViewer::PreviewStyle**](-search-2x-iresultsviewer-previewstyl
 
 ```C++
 typedef enum PreviewDisplayStyleEnum { 
-  AutoPreview    = 0,
-  RightPreview   = 1,
-  BottomPreview  = 2,
-  NoPreview      = 3
+  AutoPreview    = 0,
+  RightPreview   = 1,
+  BottomPreview  = 2,
+  NoPreview      = 3
 } PreviewDisplayStyle;
 ```
 
@@ -75,9 +81,9 @@ Indicates NoPreview.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

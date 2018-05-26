@@ -1,7 +1,12 @@
 ---
 title: Declare Variables
 description: Declare Variables
-ms.assetid: 'fdca9b81-981b-4fb5-9509-be59a8194bc1'
+ms.assetid: fdca9b81-981b-4fb5-9509-be59a8194bc1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Declare Variables

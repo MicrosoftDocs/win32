@@ -1,8 +1,11 @@
 ---
 title: IMimeInternational ConvertString method
 description: Converts a string from one code page to another.
-ms.assetid: '5873e192-0057-4c3b-a31c-e8caf69e609c'
-keywords: ["ConvertString method Windows Mail (formerly Outlook Express)", "ConvertString method Windows Mail (formerly Outlook Express) , IMimeInternational interface", "IMimeInternational interface Windows Mail (formerly Outlook Express) , ConvertString method"]
+ms.assetid: 5873e192-0057-4c3b-a31c-e8caf69e609c
+keywords:
+- ConvertString method Windows Mail (formerly Outlook Express)
+- ConvertString method Windows Mail (formerly Outlook Express) , IMimeInternational interface
+- IMimeInternational interface Windows Mail (formerly Outlook Express) , ConvertString method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeInternational::ConvertString method
@@ -22,10 +30,10 @@ Converts a string from one code page to another.
 
 ```C++
 HRESULT ConvertString(
-  [in]      CODEPAGEID    cpiSource,
-  [in]      CODEPAGEID    cpiDest,
-  [in]      LPPROPVARIANT pIn,
-  [in, out] LPPROPVARIANT pOut
+  [in]      CODEPAGEID    cpiSource,
+  [in]      CODEPAGEID    cpiDest,
+  [in]      LPPROPVARIANT pIn,
+  [in, out] LPPROPVARIANT pOut
 );
 ```
 
@@ -88,7 +96,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -104,8 +112,8 @@ The client must specify VT\_LPSTR or VT\_LPWSTR for *pIn*-&gt;[vt](https://msdn.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -113,9 +121,9 @@ The client must specify VT\_LPSTR or VT\_LPWSTR for *pIn*-&gt;[vt](https://msdn.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_BitErrorRate method retrieves an approximate bit error rate for the video.'
-ms.assetid: '4078611c-6e09-47c8-8e1c-f33bc6ddca79'
-title: 'CBaseControlVideo.get\_BitErrorRate method'
+Description: The get\_BitErrorRate method retrieves an approximate bit error rate for the video.
+ms.assetid: 4078611c-6e09-47c8-8e1c-f33bc6ddca79
+title: CBaseControlVideo.get\_BitErrorRate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.get\_BitErrorRate method
@@ -13,7 +18,7 @@ The `get_BitErrorRate` method retrieves an approximate bit error rate for the vi
 
 ```C++
 HRESULT get_BitErrorRate(
-   long *pBitErrorRate
+   long *pBitErrorRate
 );
 ```
 
@@ -36,7 +41,7 @@ Returns NOERROR if successful or E\_OUTOFMEMORY if there is not enough memory av
 
 ## Remarks
 
-This member function implements the [**IBasicVideo::get\_BitErrorRate**](ibasicvideo-get-biterrorrate.md) method. It calls the pure virtual [**CBaseControlVideo::GetVideoFormat**](cbasecontrolvideo-getvideoformat.md) method to retrieve the [**VIDEOINFOHEADER**](videoinfoheader.md) structure from the derived class.
+This member function implements the [**IBasicVideo::get\_BitErrorRate**](/windows/win32/Control/nf-control-ibasicvideo-get_biterrorrate?branch=master) method. It calls the pure virtual [**CBaseControlVideo::GetVideoFormat**](cbasecontrolvideo-getvideoformat.md) method to retrieve the [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure from the derived class.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ This member function implements the [**IBasicVideo::get\_BitErrorRate**](ibasicv
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

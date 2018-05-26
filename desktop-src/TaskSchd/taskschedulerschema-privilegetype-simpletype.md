@@ -1,14 +1,20 @@
 ---
 title: privilegeType Simple Type
-description: Privileges determine the type of system operations that a user account can perform. An administrator assigns privileges to user and group accounts. Each user's privileges include those granted to the user and to the groups to which the user belongs.
-ms.assetid: '813b0886-ca76-4523-a1e6-42ca656851a7'
-keywords: ["privilegeType simple type Task Scheduler"]
+description: Privileges determine the type of system operations that a user account can perform. An administrator assigns privileges to user and group accounts. Each users privileges include those granted to the user and to the groups to which the user belongs.
+ms.assetid: 813b0886-ca76-4523-a1e6-42ca656851a7
+keywords:
+- privilegeType simple type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - privilegeType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # privilegeType Simple Type
@@ -181,14 +187,14 @@ The **privilegeType** simple type defines the following values.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

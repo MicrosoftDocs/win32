@@ -1,7 +1,12 @@
 ---
 title: 802.11 Wireless Diagnostics Extensible Helper Classes
 description: The built-in wireless diagnostics infrastructure has two extension points.Parent Helper ClassPurposeRevised Native Wifi (RNWF) Extensible Helper ClassDiagnoses issues related to 802.11 connectivity extensions.
-ms.assetid: 'b54f836d-4fae-4e71-bf7b-af5a6e9e615c'
+ms.assetid: b54f836d-4fae-4e71-bf7b-af5a6e9e615c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 802.11 Wireless Diagnostics Extensible Helper Classes
@@ -152,7 +157,7 @@ This value must be a string of all uppercase letters. For example, "{12345678-9A
 -   Any 802.11 and layer 2 security protocol or standards-related issues that are not natively supported.
 -   System or component-level issues that might impact wireless connectivity, such as power management, low disk space, memory conditions, and hardware problems.
 
-Additionally, 802.11 Wireless Diagnostics does not analyze [**HighUtilization**](inetdiaghelpe-highutilization.md) cases. Identified wireless performance issues will be analyzed and reported as [**LowHealth**](inetdiaghelpe-lowhealth.md) cases.
+Additionally, 802.11 Wireless Diagnostics does not analyze [**HighUtilization**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-highutilization?branch=master) cases. Identified wireless performance issues will be analyzed and reported as [**LowHealth**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-lowhealth?branch=master) cases.
 
  
 

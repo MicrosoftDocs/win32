@@ -1,7 +1,12 @@
 ---
-Description: 'Not implemented.'
-ms.assetid: 'b476e0c9-1432-4644-8002-154797a2a594'
-title: 'IXml2Dex::CreateGraphFromFile method'
+Description: Not implemented.
+ms.assetid: b476e0c9-1432-4644-8002-154797a2a594
+title: IXml2DexCreateGraphFromFile method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXml2Dex::CreateGraphFromFile method

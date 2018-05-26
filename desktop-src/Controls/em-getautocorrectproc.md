@@ -1,8 +1,9 @@
 ---
 title: EM\_GETAUTOCORRECTPROC message
 description: Gets a pointer to the application-defined AutoCorrectProc function.
-ms.assetid: '90821036-F27D-4AC3-9AB8-40A94486B938'
-keywords: ["EM_GETAUTOCORRECTPROC message Windows Controls"]
+ms.assetid: 90821036-F27D-4AC3-9AB8-40A94486B938
+keywords:
+- EM_GETAUTOCORRECTPROC message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETAUTOCORRECTPROC message
 
-Gets a pointer to the application-defined [*AutoCorrectProc*](autocorrectproc.md) function.
+Gets a pointer to the application-defined [*AutoCorrectProc*](/windows/win32/Richedit/nc-richedit-autocorrectproc?branch=master) function.
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Not used; must be zero.
 
 ## Return value
 
-Returns a pointer to the application-defined [*AutoCorrectProc*](autocorrectproc.md) function.
+Returns a pointer to the application-defined [*AutoCorrectProc*](/windows/win32/Richedit/nc-richedit-autocorrectproc?branch=master) function.
 
 ## Requirements
 
@@ -45,8 +51,8 @@ Returns a pointer to the application-defined [*AutoCorrectProc*](autocorrectproc
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -55,7 +61,7 @@ Returns a pointer to the application-defined [*AutoCorrectProc*](autocorrectproc
 
 <dl> <dt>
 
-[*AutoCorrectProc*](autocorrectproc.md)
+[*AutoCorrectProc*](/windows/win32/Richedit/nc-richedit-autocorrectproc?branch=master)
 </dt> <dt>
 
 [**EM\_CALLAUTOCORRECTPROC**](em-callautocorrectproc.md)
@@ -64,9 +70,9 @@ Returns a pointer to the application-defined [*AutoCorrectProc*](autocorrectproc
 [**EM\_SETAUTOCORRECTPROC**](em-setautocorrectproc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

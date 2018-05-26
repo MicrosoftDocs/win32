@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a universal buffer of bytes mapped into an IStream (IByteBuffer) object.'
-ms.assetid: '8015c7e8-2cbb-4ba8-9bd0-2f84751840f1'
-title: 'ISCardTypeConv::CreateByteBuffer method'
+---
+Description: Creates a universal buffer of bytes mapped into an IStream (IByteBuffer) object.
+ms.assetid: 8015c7e8-2cbb-4ba8-9bd0-2f84751840f1
+title: ISCardTypeConvCreateByteBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardTypeConv::CreateByteBuffer method

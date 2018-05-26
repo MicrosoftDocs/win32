@@ -4,11 +4,14 @@ description: Retrieves a GUID that is used as a unique identifier by the task ag
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '96b41588-d634-4cdd-aacc-0456b8e47c3b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 96b41588-d634-4cdd-aacc-0456b8e47c3b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Identifier property Remote Desktop Services", "Identifier property Remote Desktop Services , ITsSbTaskInfo interface", "ITsSbTaskInfo interface Remote Desktop Services , Identifier property"]
+keywords:
+- Identifier property Remote Desktop Services
+- Identifier property Remote Desktop Services , ITsSbTaskInfo interface
+- ITsSbTaskInfo interface Remote Desktop Services , Identifier property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbTaskInfo::Identifier property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Identifier(
-  [out, retval] BSTR *pIdentifier
+  [out, retval] BSTR *pIdentifier
 );
 ```
 
@@ -48,7 +54,7 @@ A pointer to a **BSTR** value that receives the GUID.
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
 | IDL<br/>                      | <dl> <dt>Sbtsv.idl</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ A pointer to a **BSTR** value that receives the GUID.
 
 <dl> <dt>
 
-[**ITsSbTaskInfo**](itssbtaskinfo.md)
+[**ITsSbTaskInfo**](/windows/win32/sbtsv/nn-sbtsv-itssbtaskinfo?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

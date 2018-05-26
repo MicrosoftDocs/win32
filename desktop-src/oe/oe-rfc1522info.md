@@ -1,8 +1,10 @@
 ---
 title: RFC1522INFO structure
 description: Do not use. Holds information about RFC 1522 encoding. Various members of this structure are used in calls to DecodeHeader and EncodeHeader.
-ms.assetid: '4d6c1416-f4bb-4dfe-9eda-831c085c206e'
-keywords: ["RFC1522INFO structure Windows Mail (formerly Outlook Express)", "LPRFC1522INFO structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 4d6c1416-f4bb-4dfe-9eda-831c085c206e
+keywords:
+- RFC1522INFO structure Windows Mail (formerly Outlook Express)
+- LPRFC1522INFO structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RFC1522INFO structure
@@ -22,9 +29,9 @@ Do not use. Holds information about [RFC 1522](http://www.ietf.org/rfc/rfc1522.t
 
 ```C++
 typedef struct tagRFC1522INFO {
-  BOOL     fRfc1522Allowed;
-  BOOL     fRfc1522Used;
-  BOOL     fAllow8bit;
+  BOOL     fRfc1522Allowed;
+  BOOL     fRfc1522Used;
+  BOOL     fAllow8bit;
   HCHARSET hRfc1522Cset;
 } RFC1522INFO, *LPRFC1522INFO;
 ```
@@ -53,7 +60,7 @@ Indicates whether [RFC 1522](http://www.ietf.org/rfc/rfc1522.txt) encoding can b
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -75,7 +82,7 @@ Indicates whether [RFC 1522](http://www.ietf.org/rfc/rfc1522.txt) encoding was u
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -97,7 +104,7 @@ Indicates whether the client has specified permission to transmit 8-bit characte
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -118,17 +125,17 @@ Contains the handle to the character set that was contained in the [RFC 1522](ht
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

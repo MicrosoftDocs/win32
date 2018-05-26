@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'af55e570-0f24-4376-905a-3b879d5f3a1c'
+Description: .
+ms.assetid: af55e570-0f24-4376-905a-3b879d5f3a1c
 title: Removal of Windows Movie Maker
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Removal of Windows Movie Maker

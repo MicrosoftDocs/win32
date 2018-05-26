@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyCallback JobModification method
 description: Delivery Optimization (DO) calls your implementation of the JobModification method when the job has been modified.
-ms.assetid: '4AC2575F-57FB-45E6-B29C-12DF615237F3'
-keywords: ["JobModification method", "JobModification method, IBackgroundCopyCallback interface", "IBackgroundCopyCallback interface, JobModification method"]
+ms.assetid: 4AC2575F-57FB-45E6-B29C-12DF615237F3
+keywords:
+- JobModification method
+- JobModification method, IBackgroundCopyCallback interface
+- IBackgroundCopyCallback interface, JobModification method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyCallback::JobModification method
@@ -22,8 +30,8 @@ Delivery Optimization (DO) calls your implementation of the [**JobModification**
 
 ```C++
 HRESULT JobModification(
-  [in] IBackgroundCopyJob *pJob,
-  [in] DWORD              dwReserved
+  [in] IBackgroundCopyJob *pJob,
+  [in] DWORD              dwReserved
 );
 ```
 
@@ -57,7 +65,7 @@ This method should return S\_OK.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -77,9 +85,9 @@ This method should return S\_OK.
 [**IBackgroundCopyJob**](ibackgroundcopyjob-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

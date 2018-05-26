@@ -1,7 +1,12 @@
 ---
 title: .Idq File Errors
 description: .Idq File Errors
-ms.assetid: 'cdaa22f1-510d-4f67-b134-f423ed23dfbe'
+ms.assetid: cdaa22f1-510d-4f67-b134-f423ed23dfbe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # .Idq File Errors

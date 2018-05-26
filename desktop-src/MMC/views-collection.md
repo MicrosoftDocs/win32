@@ -4,11 +4,13 @@ description: The Views object is a collection of View objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '983da9be-8ed6-4bdf-bf09-a6c08b455a24'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 983da9be-8ed6-4bdf-bf09-a6c08b455a24
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Views Collection object MMC", "Views Collection object MMC , described"]
+keywords:
+- Views Collection object MMC
+- Views Collection object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Views Collection object
@@ -43,7 +48,7 @@ The **Views Collection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -57,7 +62,7 @@ The **Views Collection** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -81,8 +86,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -90,9 +95,9 @@ Next
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PKEY\_AudioEndpoint\_Association property associates a kernel-streaming (KS) pin category with an audio endpoint device.'
-ms.assetid: 'a20e082c-eddb-4b81-b851-49350b87e69a'
-title: 'PKEY\_AudioEndpoint\_Association'
+---
+Description: The PKEY\_AudioEndpoint\_Association property associates a kernel-streaming (KS) pin category with an audio endpoint device.
+ms.assetid: a20e082c-eddb-4b81-b851-49350b87e69a
+title: PKEY\_AudioEndpoint\_Association
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKEY\_AudioEndpoint\_Association

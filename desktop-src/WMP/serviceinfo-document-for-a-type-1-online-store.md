@@ -1,8 +1,17 @@
 ---
 title: ServiceInfo Document for a Type 1 Online Store
 description: ServiceInfo Document for a Type 1 Online Store
-ms.assetid: '7d997773-1c11-44d5-ae67-05ba3909c481'
-keywords: ["Windows Media Player online stores,ServiceInfo document", "online stores,ServiceInfo document", "type 1 online stores,ServiceInfo document", "ServiceInfo document"]
+ms.assetid: 7d997773-1c11-44d5-ae67-05ba3909c481
+keywords:
+- Windows Media Player online stores,ServiceInfo document
+- online stores,ServiceInfo document
+- type 1 online stores,ServiceInfo document
+- ServiceInfo document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServiceInfo Document for a Type 1 Online Store

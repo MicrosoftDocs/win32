@@ -1,14 +1,21 @@
 ---
 title: INDEXKEY structure
 description: Do not use. Describes a key used in an index.
-ms.assetid: '93ca7a60-b21d-483e-93d6-10a542cbe560'
-keywords: ["INDEXKEY structure Windows Mail (formerly Outlook Express)", "LPINDEXKEY structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 93ca7a60-b21d-483e-93d6-10a542cbe560
+keywords:
+- INDEXKEY structure Windows Mail (formerly Outlook Express)
+- LPINDEXKEY structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
 - INDEXKEY
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INDEXKEY structure
@@ -21,8 +28,8 @@ Do not use. Describes a key used in an index.
 ```C++
 typedef struct tagINDEXKEY {
   COLUMNORDINAL iColumn;
-  COMPAREFLAGS  bCompare;
-  DWORD         dwReserved;
+  COMPAREFLAGS  bCompare;
+  DWORD         dwReserved;
 } INDEXKEY, *LPINDEXKEY;
 ```
 
@@ -71,15 +78,15 @@ Reserved. Set this **DWORD** to 0.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
 | Product<br/>                  | Outlook Express 6.0<br/>                       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

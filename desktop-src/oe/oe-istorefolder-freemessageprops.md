@@ -1,8 +1,11 @@
 ---
 title: IStoreFolder FreeMessageProps method
 description: Frees memory associated with a MESSAGEPROPS structure.
-ms.assetid: '79235431-059d-4ee0-b433-c7a49dff6616'
-keywords: ["FreeMessageProps method Windows Mail (formerly Outlook Express)", "FreeMessageProps method Windows Mail (formerly Outlook Express) , IStoreFolder interface", "IStoreFolder interface Windows Mail (formerly Outlook Express) , FreeMessageProps method"]
+ms.assetid: 79235431-059d-4ee0-b433-c7a49dff6616
+keywords:
+- FreeMessageProps method Windows Mail (formerly Outlook Express)
+- FreeMessageProps method Windows Mail (formerly Outlook Express) , IStoreFolder interface
+- IStoreFolder interface Windows Mail (formerly Outlook Express) , FreeMessageProps method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreFolder::FreeMessageProps method
@@ -22,7 +30,7 @@ Frees memory associated with a [**MESSAGEPROPS**](oe-messageprops.md) structure.
 
 ```C++
 HRESULT FreeMessageProps(
-  [in, out] LPMESSAGEPROPS pProps
+  [in, out] LPMESSAGEPROPS pProps
 );
 ```
 
@@ -56,7 +64,7 @@ Returns S\_OK if successful, or one of the following error values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,8 +76,8 @@ This method should be used instead of the **delete** operator when manipulating 
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -77,9 +85,9 @@ This method should be used instead of the **delete** operator when manipulating 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

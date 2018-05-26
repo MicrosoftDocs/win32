@@ -1,7 +1,12 @@
 ---
 title: Data Manipulation Operators
 description: Data Manipulation Operators
-ms.assetid: 'b3591a60-2078-4473-9ee6-89f4cc637c74'
+ms.assetid: b3591a60-2078-4473-9ee6-89f4cc637c74
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Manipulation Operators

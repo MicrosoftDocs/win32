@@ -1,7 +1,12 @@
 ---
 title: Capturing and Collecting CPU Processor Power Information
 description: Capturing and Collecting CPU Processor Power Information
-ms.assetid: 'f5a294aa-0097-46c8-894a-536692a51c0d'
+ms.assetid: f5a294aa-0097-46c8-894a-536692a51c0d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capturing and Collecting CPU Processor Power Information
@@ -40,7 +45,7 @@ Perform the following steps to begin capture and collection of CPU processor dat
 
     
 
-     
+     
 
 4.  Run an application that causes the CPU to work. In this case, we will start a DVD and turn it off immediately.
 
@@ -58,9 +63,9 @@ Perform the following steps to begin capture and collection of CPU processor dat
 
 The [Reviewing Trace Event Information](reviewing-trace-event-information.md) topic explains some of the information that has been collected in the trace file powerTrace.etl.
 
- 
+ 
 
- 
+ 
 
 
 

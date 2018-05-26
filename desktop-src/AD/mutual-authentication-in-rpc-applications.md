@@ -4,11 +4,16 @@ description: RPC services can use service connection points to publish themselve
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9f575aef-0a4b-4e1b-8ea9-5f40e6c3d9c7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 9f575aef-0a4b-4e1b-8ea9-5f40e6c3d9c7
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Mutual Authentication in RPC Applications AD", "Active Directory, Using, Mutual Authentication, RPC"]
+keywords:
+- Mutual Authentication in RPC Applications AD
+- Active Directory, Using, Mutual Authentication, RPC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Mutual Authentication in RPC Applications
@@ -17,8 +22,8 @@ RPC services can use service connection points to publish themselves, or they ca
 
 **To register an SPN in the directory**
 
-1.  Call the [**DsGetSpn**](dsgetspn.md) function to compose a service principal name (SPN) for the service.
-2.  Call the [**DsWriteAccountSpn**](dswriteaccountspn.md) function to register the SPN on the service account or computer account in whose context the service will run.
+1.  Call the [**DsGetSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dsgetspna?branch=master) function to compose a service principal name (SPN) for the service.
+2.  Call the [**DsWriteAccountSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dswriteaccountspna?branch=master) function to register the SPN on the service account or computer account in whose context the service will run.
 
 **To register a service with the RPC naming service**
 
@@ -30,7 +35,7 @@ For more information about performing mutual authentication in an RPC service, s
 **To authenticate the service from the client**
 
 1.  Extract the host name from the RPC Binding.
-2.  Compose the SPN for the service by calling the [**DsMakeSpn**](dsmakespn.md) function with the service class, the DNS host name, and the service name; that is the distinguished name of the connection point in the case of RpcNs.
+2.  Compose the SPN for the service by calling the [**DsMakeSpn**](/windows/win32/Dsparse/nf-dsparse-dsmakespna?branch=master) function with the service class, the DNS host name, and the service name; that is the distinguished name of the connection point in the case of RpcNs.
 
     For more information about composing an SPN for an RpcNs service, see [Composing SPNs for an RpcNs Service](composing-spns-for-an-rpcns-service.md).
 

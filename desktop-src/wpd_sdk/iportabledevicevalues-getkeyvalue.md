@@ -1,7 +1,12 @@
 ---
-Description: 'The GetKeyValue method retrieves a PROPERTYKEY value specified by a key.'
-ms.assetid: '2c92b1c0-3ea6-4a14-8b63-d57752b649b8'
-title: 'IPortableDeviceValues::GetKeyValue method'
+Description: The GetKeyValue method retrieves a PROPERTYKEY value specified by a key.
+ms.assetid: 2c92b1c0-3ea6-4a14-8b63-d57752b649b8
+title: IPortableDeviceValuesGetKeyValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetKeyValue method
@@ -13,8 +18,8 @@ The **GetKeyValue** method retrieves a **PROPERTYKEY** value specified by a key.
 
 ```C++
 HRESULT GetKeyValue(
-  [in]  REFPROPERTYKEY key,
-  [out] PROPERTYKEY    *pValue
+  [in]  REFPROPERTYKEY key,
+  [out] PROPERTYKEY    *pValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +80,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IPortableDeviceValues::SetKeyValue**](iportabledevicevalues-setkeyvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

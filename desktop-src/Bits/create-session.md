@@ -1,14 +1,20 @@
 ---
 title: Create-Session
 description: Use the Create-Session packet to request an upload session with the BITS server.
-ms.assetid: 'eeb8ff83-2a7f-4fef-9df7-8c12febfcf36'
-keywords: ["Create-Session BITS"]
+ms.assetid: eeb8ff83-2a7f-4fef-9df7-8c12febfcf36
+keywords:
+- Create-Session BITS
 topic_type:
 - apiref
 api_name:
 - Create-Session
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create-Session
@@ -54,7 +60,7 @@ Space-delimited list of the protocols that the client supports. Use string GUIDs
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -79,9 +85,9 @@ The client expects the server to return an [**Ack for Create-Session**](ack-for-
 [**Ping**](ping.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

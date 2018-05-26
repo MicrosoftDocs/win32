@@ -1,7 +1,12 @@
 ---
 title: Sample Resource-Definition File
 description: Example script file that defines the resources for an application named Shapes.
-ms.assetid: '0362b1be-7671-4685-8eb8-bff502224939'
+ms.assetid: 0362b1be-7671-4685-8eb8-bff502224939
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Resource-Definition File

@@ -1,7 +1,12 @@
 ---
-Description: 'Lists and explains the responsibilities of Winlogon.'
-ms.assetid: '5aef4164-11bd-4acc-b851-de982e35d2b5'
+Description: Lists and explains the responsibilities of Winlogon.
+ms.assetid: 5aef4164-11bd-4acc-b851-de982e35d2b5
 title: Responsibilities of Winlogon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Responsibilities of Winlogon
@@ -30,7 +35,7 @@ title: Responsibilities of Winlogon
 
 -   Screen saver control
 
-    Winlogon monitors keyboard and mouse activity to determine when to activate screen savers. After the screen saver is activated, Winlogon continues to monitor keyboard and mouse activity to determine when to terminate the screen saver. If the screen saver is marked as secure, Winlogon treats the workstation as locked. When there is mouse or keyboard activity, Winlogon invokes the [**WlxDisplayLockedNotice**](wlxdisplaylockednotice.md) function of the GINA and locked workstation behavior resumes. If the screen saver is not secure, any keyboard or mouse activity terminates the screen saver without notification to the GINA.
+    Winlogon monitors keyboard and mouse activity to determine when to activate screen savers. After the screen saver is activated, Winlogon continues to monitor keyboard and mouse activity to determine when to terminate the screen saver. If the screen saver is marked as secure, Winlogon treats the workstation as locked. When there is mouse or keyboard activity, Winlogon invokes the [**WlxDisplayLockedNotice**](/windows/win32/Winwlx/nf-winwlx-wlxdisplaylockednotice?branch=master) function of the GINA and locked workstation behavior resumes. If the screen saver is not secure, any keyboard or mouse activity terminates the screen saver without notification to the GINA.
 
 -   Multiple network provider support
 

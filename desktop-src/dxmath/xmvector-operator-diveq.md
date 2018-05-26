@@ -1,7 +1,12 @@
-﻿---
-Description: 'Division Assignment operator.'
-ms.assetid: '59dee8a1-48c5-4748-8eca-1d0939e90fe0'
-title: 'operator /= operators'
+---
+Description: Division Assignment operator.
+ms.assetid: 59dee8a1-48c5-4748-8eca-1d0939e90fe0
+title: operator /= operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # operator /= operators

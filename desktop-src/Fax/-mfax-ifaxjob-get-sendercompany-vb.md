@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SenderCompany property is a null-terminated string that contains the company name for the sender of the fax job. The SenderCompany property applies only to outgoing fax transmissions.'
-ms.assetid: 'abb984dc-d6f6-4aa0-be40-33066ce19b19'
-title: 'FaxJob.SenderCompany property'
+---
+Description: The SenderCompany property is a null-terminated string that contains the company name for the sender of the fax job. The SenderCompany property applies only to outgoing fax transmissions.
+ms.assetid: abb984dc-d6f6-4aa0-be40-33066ce19b19
+title: FaxJob.SenderCompany property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.SenderCompany property
@@ -55,10 +60,10 @@ If the sender's company is not available, the **SenderCompany** property contain
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> </dl>
 
  

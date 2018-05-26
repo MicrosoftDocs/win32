@@ -1,7 +1,12 @@
 ---
 Description: Saving and Loading Topologies
-ms.assetid: '1616d790-9086-4b11-b876-563fb940c2cc'
+ms.assetid: 1616d790-9086-4b11-b876-563fb940c2cc
 title: Saving and Loading Topologies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Saving and Loading Topologies

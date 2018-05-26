@@ -2,13 +2,16 @@
 title: AddByTLSA method of the PS\_DnsServerResourceRecord class
 description: Adds the record to a specified zone in a DNS server.
 audience: developer
-ms.assetid: '12a4d092-32c1-4693-a159-6ae61170efbb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 12a4d092-32c1-4693-a159-6ae61170efbb
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByTLSA method", "AddByTLSA method, PS_DnsServerResourceRecord class", "PS_DnsServerResourceRecord class, AddByTLSA method"]
+keywords:
+- AddByTLSA method
+- AddByTLSA method, PS_DnsServerResourceRecord class
+- PS_DnsServerResourceRecord class, AddByTLSA method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByTLSA method of the PS\_DnsServerResourceRecord class
@@ -28,21 +34,21 @@ Adds the record to a specified zone in a DNS server.
 
 ```mof
 uint32 AddByTLSA(
-  [in]  string                  ZoneName,
-  [in]  string                  ComputerName,
-  [in]  boolean                 PassThru,
-  [in]  string                  ZoneScope,
-  [in]  string                  VirtualizationInstance,
-  [in]  boolean                 TLSA,
-  [in]  string                  CertificateUsage,
-  [in]  string                  MatchingType,
-  [in]  string                  Selector,
-  [in]  string                  CertificateAssociationData,
-  [in]  string                  Name,
-  [in]  boolean                 AgeRecord,
-  [in]  boolean                 AllowUpdateAny,
-  [in]  datetime                TimeToLive,
-  [out] DnsServerResourceRecord cmdletOutput
+  [in]  string                  ZoneName,
+  [in]  string                  ComputerName,
+  [in]  boolean                 PassThru,
+  [in]  string                  ZoneScope,
+  [in]  string                  VirtualizationInstance,
+  [in]  boolean                 TLSA,
+  [in]  string                  CertificateUsage,
+  [in]  string                  MatchingType,
+  [in]  string                  Selector,
+  [in]  string                  CertificateAssociationData,
+  [in]  string                  Name,
+  [in]  boolean                 AgeRecord,
+  [in]  boolean                 AllowUpdateAny,
+  [in]  datetime                TimeToLive,
+  [out] DnsServerResourceRecord cmdletOutput
 );
 ```
 
@@ -242,7 +248,7 @@ Note that the **RecordData** field is dependent on **RecordType**.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -256,9 +262,9 @@ Note that the **RecordData** field is dependent on **RecordType**.
 [**PS\_DnsServerResourceRecord**](ps-dnsserverresourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

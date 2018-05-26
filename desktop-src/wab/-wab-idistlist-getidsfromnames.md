@@ -1,8 +1,11 @@
 ---
 title: IDistList GetIDsFromNames method
 description: Retrieves the property identifiers that correspond to one or more property names.
-ms.assetid: '9cea7449-8722-4587-b31b-b9563271d831'
-keywords: ["GetIDsFromNames method Windows Address Book", "GetIDsFromNames method Windows Address Book , IDistList interface", "IDistList interface Windows Address Book , GetIDsFromNames method"]
+ms.assetid: 9cea7449-8722-4587-b31b-b9563271d831
+keywords:
+- GetIDsFromNames method Windows Address Book
+- GetIDsFromNames method Windows Address Book , IDistList interface
+- IDistList interface Windows Address Book , GetIDsFromNames method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDistList::GetIDsFromNames method
@@ -22,10 +30,10 @@ Retrieves the property identifiers that correspond to one or more property names
 
 ```C++
 HRESULT GetIDsFromNames(
-   ULONG         cPropNames,
-   MAPINAMEID    **lppPropNames,
-   ULONG         ulFlags,
-   SPropTagArray **lppPropTags
+   ULONG         cPropNames,
+   MAPINAMEID    **lppPropNames,
+   ULONG         ulFlags,
+   SPropTagArray **lppPropTags
 );
 ```
 
@@ -76,9 +84,9 @@ Assigns a property identifier to one or more of the names included in the proper
 *lppPropTags* 
 </dt> <dd>
 
-Type: **[**SPropTagArray**](-wab-sproptagarray.md)\*\***
+Type: **[**SPropTagArray**](/windows/previous-versions/Wabdefs/ns-wabdefs-_sproptagarray?branch=master)\*\***
 
-Address of a pointer to a variable of type [**SPropTagArray**](-wab-sproptagarray.md) that receives the property tags.
+Address of a pointer to a variable of type [**SPropTagArray**](/windows/previous-versions/Wabdefs/ns-wabdefs-_sproptagarray?branch=master) that receives the property tags.
 
 </dd> </dl>
 
@@ -100,7 +108,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -108,17 +116,17 @@ This method can return one of these values.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Internet Explorer 5<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Wabtmp.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Wab32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

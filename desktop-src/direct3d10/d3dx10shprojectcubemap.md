@@ -1,7 +1,12 @@
-﻿---
-Description: 'Projects a function represented in a cube map into spherical harmonics.'
-ms.assetid: 'de8bc4bd-cb29-44ab-8806-33d3ffd10a7b'
+---
+Description: Projects a function represented in a cube map into spherical harmonics.
+ms.assetid: de8bc4bd-cb29-44ab-8806-33d3ffd10a7b
 title: D3DX10SHProjectCubeMap function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10SHProjectCubeMap function
@@ -39,9 +44,9 @@ Order of the SH evaluation, generates Order^2 coefs, degree is Order-1.
 *pCubeMap* 
 </dt> <dd>
 
-Type: **[**ID3D10Texture2D**](id3d10texture2d.md)\***
+Type: **[**ID3D10Texture2D**](/windows/win32/D3D10/nn-d3d10-id3d10texture2d?branch=master)\***
 
-Cubemap that is going to be projected into spherical harmonics. See [**ID3D10Texture2D**](id3d10texture2d.md).
+Cubemap that is going to be projected into spherical harmonics. See [**ID3D10Texture2D**](/windows/win32/D3D10/nn-d3d10-id3d10texture2d?branch=master).
 
 </dd> <dt>
 

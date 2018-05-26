@@ -1,7 +1,12 @@
 ---
-Description: 'The Language data type is a text string containing one or more valid numeric language IDs. If there are two or more language IDs, they must be separated by commas.'
-ms.assetid: '9b0608d1-b6e8-4cf9-8119-3c2909156516'
+Description: The Language data type is a text string containing one or more valid numeric language IDs. If there are two or more language IDs, they must be separated by commas.
+ms.assetid: 9b0608d1-b6e8-4cf9-8119-3c2909156516
 title: Language
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Language

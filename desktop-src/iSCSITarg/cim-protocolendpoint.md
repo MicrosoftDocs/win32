@@ -4,13 +4,18 @@ description: A communication point from which data can be sent or received. Prot
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3c70347e-bb26-445a-a5b2-b48f5527c00d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3c70347e-bb26-445a-a5b2-b48f5527c00d
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ProtocolEndpoint class iSCSI Software Target API", "CIM_ProtocolEndpoint class iSCSI Software Target API , described"]
+keywords:
+- CIM_ProtocolEndpoint class iSCSI Software Target API
+- CIM_ProtocolEndpoint class iSCSI Software Target API , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ProtocolEndpoint class
@@ -25,27 +30,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.15.0"), UMLPackagePath("CIM::Core::Service")]
 class CIM_ProtocolEndpoint : CIM_ServiceAccessPoint
 {
-  string   Caption;
-  string   ElementName;
+  string   Caption;
+  string   ElementName;
   datetime InstallDate;
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
   datetime TimeOfLastStateChange;
-  uint16   EnabledState;
-  uint16   OperationalStatus[];
-  string   Description;
-  string   Name;
-  string   NameFormat;
-  uint16   ProtocolType;
-  uint16   ProtocolIFType;
-  string   OtherTypeDescription;
+  uint16   EnabledState;
+  uint16   OperationalStatus[];
+  string   Description;
+  string   Name;
+  string   NameFormat;
+  uint16   ProtocolType;
+  uint16   ProtocolIFType;
+  string   OtherTypeDescription;
 };
 ```
 
@@ -68,7 +73,7 @@ The **CIM\_ProtocolEndpoint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -205,14 +210,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2035,7 +2040,7 @@ ProtocolIFType is an enumeration that is synchronized with the IANA ifType MIB. 
 **IANA Reserved**
 
 
-</dt> <dd>225–4095</dd> <dt>
+</dt> <dd>225 4095</dd> <dt>
 
 <span id="IPv4"></span><span id="ipv4"></span><span id="IPV4"></span>
 
@@ -2280,14 +2285,14 @@ ProtocolIFType is an enumeration that is synchronized with the IANA ifType MIB. 
 **DMTF Reserved**
 
 
-</dt> <dd>4407–32767</dd> <dt>
+</dt> <dd>4407 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2605,14 +2610,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2633,7 +2638,7 @@ Contains a string indicating the primary status of the object.
 > [!Note]  
 > This property is deprecated and replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -2809,16 +2814,16 @@ TBD
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

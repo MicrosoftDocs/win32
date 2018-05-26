@@ -1,8 +1,9 @@
 ---
 title: PlayerApplication.playerDocked
 description: The playerDocked property retrieves a value indicating whether Windows Media Player is in a docked state.
-ms.assetid: 'c6f82188-0826-4854-992c-85ad84701fb7'
-keywords: ["PlayerApplication.playerDocked Windows Media Player"]
+ms.assetid: c6f82188-0826-4854-992c-85ad84701fb7
+keywords:
+- PlayerApplication.playerDocked Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayerApplication.playerDocked
@@ -52,9 +58,9 @@ This property is used only when remoting the Windows Media Player control.
 [**Remoting the Windows Media Player Control**](remoting-the-windows-media-player-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

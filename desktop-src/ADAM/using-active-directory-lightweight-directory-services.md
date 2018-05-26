@@ -4,11 +4,17 @@ description: This section provides guidelines for writing applications that use 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b321fd2f-3a52-49b6-bb17-b2a7b72a1a74'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: b321fd2f-3a52-49b6-bb17-b2a7b72a1a74
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["Using AD LDS ADAM", "AD LDS ADAM , using", "AD LDS examples ADAM"]
+keywords:
+- Using AD LDS ADAM
+- AD LDS ADAM , using
+- AD LDS examples ADAM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Active Directory Lightweight Directory Services

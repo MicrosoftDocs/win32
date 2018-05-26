@@ -1,7 +1,12 @@
 ---
-Description: 'The field of cryptography is large and growing.'
-ms.assetid: 'ec50d6f1-999d-4ce9-85b4-816afb17550e'
+Description: The field of cryptography is large and growing.
+ms.assetid: ec50d6f1-999d-4ce9-85b4-816afb17550e
 title: Cryptographic Provider Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cryptographic Provider Types

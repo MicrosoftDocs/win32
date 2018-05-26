@@ -1,14 +1,17 @@
 ---
 title: MMCCtrl.GetDescriptiveText method
-description: The GetDescriptiveText method returns the taskpad's description.
+description: The GetDescriptiveText method returns the taskpads description.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9c4ee273-10a1-4fa5-afc9-3213a9494376'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 9c4ee273-10a1-4fa5-afc9-3213a9494376
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetDescriptiveText method MMC", "GetDescriptiveText method MMC , MMCCtrl class", "MMCCtrl class MMC , GetDescriptiveText method"]
+keywords:
+- GetDescriptiveText method MMC
+- GetDescriptiveText method MMC , MMCCtrl class
+- MMCCtrl class MMC , GetDescriptiveText method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCCtrl.GetDescriptiveText method
@@ -63,9 +69,9 @@ String that contains the taskpad's description.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

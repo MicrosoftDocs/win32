@@ -1,7 +1,12 @@
 ---
 title: Views
 description: Reference documentation for View markup elements in the Windows Ribbon framework.
-ms.assetid: '53672895-fb8e-4e3f-ad9a-472c5d660cac'
+ms.assetid: 53672895-fb8e-4e3f-ad9a-472c5d660cac
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Views
@@ -26,11 +31,11 @@ Reference documentation for View markup elements in the Windows Ribbon framework
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: To specify the location of image or multimedia files
 description: To specify the location of image or multimedia files
-ms.assetid: '1608C473-1A96-4645-87C2-F3A42640AEB3'
+ms.assetid: 1608C473-1A96-4645-87C2-F3A42640AEB3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To specify the location of image or multimedia files

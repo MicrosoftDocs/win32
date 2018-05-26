@@ -1,8 +1,29 @@
 ---
 title: Skin Files
 description: Skin Files
-ms.assetid: '9457f1d2-2c1a-42fc-8049-457e3d5c462d'
-keywords: ["Windows Media Player,skins", "Windows Media Player skins,file types", "skins,file types", "Windows Media Player skins,skin definition files", "skins,skin definition files", "Windows Media Player skins,art files", "skins,art files", "Windows Media Player skins,JScript files", "skins,JScript files", "files for skins,about", "files for skins,skin definition", "files for skins,art", "files for skins,JScript", "skin definition files,about", "art files for skins,about", "JScript files for skins,about"]
+ms.assetid: 9457f1d2-2c1a-42fc-8049-457e3d5c462d
+keywords:
+- Windows Media Player,skins
+- Windows Media Player skins,file types
+- skins,file types
+- Windows Media Player skins,skin definition files
+- skins,skin definition files
+- Windows Media Player skins,art files
+- skins,art files
+- Windows Media Player skins,JScript files
+- skins,JScript files
+- files for skins,about
+- files for skins,skin definition
+- files for skins,art
+- files for skins,JScript
+- skin definition files,about
+- art files for skins,about
+- JScript files for skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Skin Files

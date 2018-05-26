@@ -1,7 +1,12 @@
 ---
-Description: 'The SetProductKey&\#8194;WMI class method updates the system product key for a computer.'
-ms.assetid: 'c725fa8c-ceac-44ca-bbfc-5b2abdd42bbc'
-title: 'SetProductKey method of the Win32\_WindowsProductActivation class'
+Description: The SetProductKey&\#8194;WMI class method updates the system product key for a computer.
+ms.assetid: c725fa8c-ceac-44ca-bbfc-5b2abdd42bbc
+title: SetProductKey method of the Win32\_WindowsProductActivation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetProductKey method of the Win32\_WindowsProductActivation class
@@ -15,7 +20,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetProductKey(
-  [in] string ProductKey
+  [in] string ProductKey
 );
 ```
 
@@ -39,7 +44,7 @@ This method is only validif the **ActivationRequired** property is equal to 1.
 > [!Note]  
 > Windows Product Activation is not available on the Itanium-based versions of the Windows operating system.
 
- 
+ 
 
 ## Requirements
 
@@ -47,10 +52,10 @@ This method is only validif the **ActivationRequired** property is equal to 1.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows XP<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Licwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Licwmi.dll</dt> </dl> |
@@ -67,9 +72,9 @@ This method is only validif the **ActivationRequired** property is equal to 1.
 [Windows Product Activation Provider](windows-product-activation-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

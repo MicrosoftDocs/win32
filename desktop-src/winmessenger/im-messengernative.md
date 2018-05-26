@@ -1,8 +1,10 @@
 ---
 title: MessengerNative object
 description: Do not use. This is the native messenger object.
-ms.assetid: '57629fb1-7c38-4bf4-a291-354447d0814b'
-keywords: ["MessengerNative object Windows Messenger", "MessengerNative object Windows Messenger , described"]
+ms.assetid: 57629fb1-7c38-4bf4-a291-354447d0814b
+keywords:
+- MessengerNative object Windows Messenger
+- MessengerNative object Windows Messenger , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msgrua.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MessengerNative object
 
-\[**MessengerNative** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MessengerNative** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. This is the native messenger object.
 
@@ -31,7 +38,7 @@ Do not use. This is the native messenger object.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -39,10 +46,10 @@ Do not use. This is the native messenger object.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -50,9 +57,9 @@ Do not use. This is the native messenger object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

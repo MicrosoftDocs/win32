@@ -1,14 +1,19 @@
 ---
-Description: 'To distribute an ink-enabled application to computers that are not running either Windows Vista or Windows XP Tablet PC Edition 2005 (that is, computers running Windows XP, Windows Server 2003, or Windows 2000), you must include the necessary merge modules in your setup.'
-ms.assetid: '97515703-0bf4-4230-ae35-181b48b70c40'
+Description: To distribute an ink-enabled application to computers that are not running either Windows Vista or Windows XP Tablet PC Edition 2005 (that is, computers running Windows XP, Windows Server 2003, or Windows 2000), you must include the necessary merge modules in your setup.
+ms.assetid: 97515703-0bf4-4230-ae35-181b48b70c40
 title: Creating a Redistributable Setup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Redistributable Setup
 
 To distribute an ink-enabled application to computers that are not running either Windows Vista or Windows XP Tablet PC Edition 2005 (that is, computers running Windows XP, Windows Server 2003, or Windows 2000), you must include the necessary merge modules in your setup.
 
-The Mstpcrt.msm merge module includes all of the files, resources, registry entries, and setup logic necessary for Windows Installer to install the shared files that other platforms require to run unmanaged applications developed for the Tablet PC. Mstpcrt.msm is consumed by Windows Installer (.msi) files. For applications that use the [**InkDivider**](inkdivider-class.md) object, you must also redistribute InkDiv.msm. For applications that use managed components, you must also include the merge module files for those managed components.
+The Mstpcrt.msm merge module includes all of the files, resources, registry entries, and setup logic necessary for Windows Installer to install the shared files that other platforms require to run unmanaged applications developed for the Tablet PC. Mstpcrt.msm is consumed by Windows Installer (.msi) files. For applications that use the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object, you must also redistribute InkDiv.msm. For applications that use managed components, you must also include the merge module files for those managed components.
 
 The following table describes the merge module files that ship with the Windows XP Tablet PC Edition Software Development Kit (SDK).
 
@@ -16,7 +21,7 @@ The following table describes the merge module files that ship with the Windows 
 
 | Redistributable Merge Module | Description                                                                                                                    | Files                                                       |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| InkDiv.msm<br/>        | Installs the unmanaged version of the [**InkDivider**](inkdivider-class.md) object.<br/>                                | InkDiv.dll<br/>                                       |
+| InkDiv.msm<br/>        | Installs the unmanaged version of the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.<br/>                                | InkDiv.dll<br/>                                       |
 | Mstpcrt.msm<br/>       | Installs the unmanaged components of the Tablet PC Platform version 1.0.<br/>                                            | Gdiplus.dll, InkEd.dll, Tpcps.dll, Wisptis.exe<br/>   |
 | Msvcp60.msm<br/>       | Installs components of the Microsoft Visual C++ runtime.<br/>                                                            | Msvcp60.dll<br/>                                      |
 | Msvcrt.msm<br/>        | Installs components of the Microsoft Visual C runtime.<br/>                                                              | Msvcrt.dll<br/>                                       |
@@ -30,12 +35,12 @@ The following table describes the merge module files that ship with the Windows 
 
 
 
- 
+ 
 
 > [!Note]  
 > To use the functionality of the Microsoft .NET Framework that is included in merge modules for managed components, you must have installed Service Pack 2 of the Framework on the target computer.
 
- 
+ 
 
 ## Reduced Feature Set
 
@@ -43,14 +48,14 @@ Ink-enabled applications treat mouse events as pen movements to simulate working
 
 Mstpcrt.msm does not include Windows Journal or Tablet PC Input Panel.
 
-The [**PenInputPanel**](peninputpanel-class.md) object does not function on any operating systems besides Windows XP Tablet PC Edition.
+The [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) object does not function on any operating systems besides Windows XP Tablet PC Edition.
 
 ## Deployment
 
 > [!Note]  
 > If your application uses managed code, you must also deploy the Framework. The Framework must be installed before your Tablet PC managed assemblies are installed.
 
- 
+ 
 
 To include Mstpcrt.msm in a Microsoft Visual Studio .NET Setup project:
 
@@ -59,7 +64,7 @@ To include Mstpcrt.msm in a Microsoft Visual Studio .NET Setup project:
     > [!Note]  
     > You can also reach the **Add Modules** dialog box by right-clicking the installer project name in the Solution Explorer, clicking **Add**, and then selecting **Merge Module**.
 
-     
+     
 
 3.  In the **Add Modules** dialog box, navigate to and select **Mstpcrt.msm**.
 4.  Click **Open**.
@@ -71,11 +76,11 @@ Windows Installer adds the files contained in the merge module to the Program Fi
 > [!Note]  
 > You must add [SelfRegModules Action](_msi_selfregmodules_action) and [SelfUnregModules Action](_msi_selfunregmodules_action) actions to the installation sequence. The [MsiPublishAssemblies Action](_msi_msipublishassemblies_action) and [MsiUnpublishAssemblies Action](https://msdn.microsoft.com/library/windows/desktop/aa370500) actions receive their order in the installation sequence from these actions.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

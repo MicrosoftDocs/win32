@@ -4,11 +4,17 @@ description: The following are categories of return values for functions in Acti
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e8e85ec1-0574-49ed-b649-f3131b048069'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e8e85ec1-0574-49ed-b649-f3131b048069
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Return Values AD", "Active Directory, Reference, Return Values", "Return Values AD"]
+keywords:
+- Active Directory Return Values AD
+- Active Directory, Reference, Return Values
+- Return Values AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Return Values for Functions in Active Directory Domain Services

@@ -1,7 +1,12 @@
 ---
 title: Contents of a Type Library
 description: Type libraries are binary files (.tlb files) that include information about types and objects exposed by an ActiveX application.
-ms.assetid: '76b062d4-1a08-47f5-b4d4-064237cb1372'
+ms.assetid: 76b062d4-1a08-47f5-b4d4-064237cb1372
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Contents of a Type Library
@@ -31,7 +36,7 @@ By including the type library with a product, the information about the objects 
 
 -   A resource in an .exe file. The .exe file can contain multiple type library resources.
 
-Object browsers, compilers, and similar tools access type libraries through the interfaces [**ITypeLib**](itypelib.md), [**ITypeLib2**](itypelib2.md), [**ITypeInfo**](itypeinfo.md), [**ITypeInfo2**](itypeinfo2.md) and [**ITypeComp**](itypecomp.md). Type library tools (such as MIDL) can be created using the interfaces [**ICreateTypeLib**](icreatetypelib.md), [**ICreateTypeLib2**](icreatetypelib2.md), [**ICreateTypeInfo**](icreatetypeinfo.md) and [**ICreateTypeInfo2**](icreatetypeinfo2.md).
+Object browsers, compilers, and similar tools access type libraries through the interfaces [**ITypeLib**](/windows/previous-versions/oaidl/nn-oaidl-itypelib?branch=master), [**ITypeLib2**](/windows/previous-versions/oaidl/nn-oaidl-itypelib2?branch=master), [**ITypeInfo**](/windows/previous-versions/oaidl/nn-oaidl-itypeinfo?branch=master), [**ITypeInfo2**](/windows/previous-versions/oaidl/nn-oaidl-itypeinfo2?branch=master) and [**ITypeComp**](/windows/previous-versions/oaidl/nn-oaidl-itypecomp?branch=master). Type library tools (such as MIDL) can be created using the interfaces [**ICreateTypeLib**](/windows/previous-versions/oaidl/nn-oaidl-icreatetypelib?branch=master), [**ICreateTypeLib2**](/windows/previous-versions/oaidl/nn-oaidl-icreatetypelib2?branch=master), [**ICreateTypeInfo**](/windows/previous-versions/oaidl/nn-oaidl-icreatetypeinfo?branch=master) and [**ICreateTypeInfo2**](/windows/previous-versions/oaidl/nn-oaidl-icreatetypeinfo2?branch=master).
 
 ## Related topics
 

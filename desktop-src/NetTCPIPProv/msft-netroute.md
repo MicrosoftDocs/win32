@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an IP route for the TCP/IP (Internet Protocol Suite) WMIv2 provider.'
-ms.assetid: '06dfd275-25f9-48bc-8361-87ab1c905c17'
-title: 'MSFT\_NetRoute class'
+Description: Represents an IP route for the TCP/IP (Internet Protocol Suite) WMIv2 provider.
+ms.assetid: 06dfd275-25f9-48bc-8361-87ab1c905c17
+title: MSFT\_NetRoute class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetRoute class
@@ -16,25 +21,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Network::Routes"), ClassVersion("1.0.0"), dynamic, provider("nettcpip"), AMENDMENT]
 class MSFT_NetRoute : CIM_NextHopRoute
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   InstanceID;
-  string   DestinationAddress;
-  uint16   AdminDistance;
-  uint16   RouteMetric;
-  boolean  IsStatic;
-  uint16   TypeOfRoute = 3;
-  string   DestinationPrefix;
-  uint32   InterfaceIndex;
-  string   InterfaceAlias;
-  string   NextHop;
-  uint8    Publish;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   InstanceID;
+  string   DestinationAddress;
+  uint16   AdminDistance;
+  uint16   RouteMetric;
+  boolean  IsStatic;
+  uint16   TypeOfRoute = 3;
+  string   DestinationPrefix;
+  uint32   InterfaceIndex;
+  string   InterfaceAlias;
+  string   NextHop;
+  uint8    Publish;
   datetime ValidLifetime;
   datetime PreferredLifetime;
-  uint8    Store;
-  uint16   AddressFamily;
-  uint16   Protocol;
+  uint8    Store;
+  uint16   AddressFamily;
+  uint16   Protocol;
 };
 ```
 
@@ -58,7 +63,7 @@ The **MSFT\_NetRoute** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -204,7 +209,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_NextHopRoute**](cim-nexthoproute.md).
 
@@ -314,7 +319,7 @@ The protocol from which the route was learned.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -339,7 +344,7 @@ Gets and sets a value that indicates how to advertise the route. The default val
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -378,7 +383,7 @@ Gets a value that indicates whether the state of the route persists after a rebo
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -427,8 +432,8 @@ Gets and sets the valid end time of the lifetime of the route. The default value
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -445,9 +450,9 @@ Gets and sets the valid end time of the lifetime of the route. The default value
 [NetTCPIP Provider Classes](net-tcpip-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,16 @@
 ---
 title: HttpCustomHeaderPurchaseOrderClientExample
 description: This examples shows how to use custom headers with service proxy.
-ms.assetid: 'd56e68cd-c910-4f41-a672-c894ba134e3b'
-keywords: ["HttpCustomHeaderPurchaseOrderClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: d56e68cd-c910-4f41-a672-c894ba134e3b
+keywords:
+- HttpCustomHeaderPurchaseOrderClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCustomHeaderPurchaseOrderClientExample

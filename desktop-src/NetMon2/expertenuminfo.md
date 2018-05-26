@@ -1,7 +1,12 @@
 ---
-Description: 'The EXPERTENUMINFO structure provides information about the expert.'
-ms.assetid: 'f745997b-d753-4c4d-88b6-6978f5eaa91c'
+Description: The EXPERTENUMINFO structure provides information about the expert.
+ms.assetid: f745997b-d753-4c4d-88b6-6978f5eaa91c
 title: EXPERTENUMINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXPERTENUMINFO structure
@@ -13,17 +18,17 @@ The **EXPERTENUMINFO** structure provides information about the expert. Network 
 
 ```C++
 typedef struct {
-  char                szName[EXPERTSTRINGLENGTH];
-  char                szVendor[EXPERTSTRINGLENGTH];
-  char                szDescription[EXPERTSTRINGLENGTH];
-  DWORD               Version;
-  DWORD               Flags;
-  HEXPERT             hExpert;
-  char                szDllName[MAX_PATH];
-  HINSTANCE           hModule;
+  char                szName[EXPERTSTRINGLENGTH];
+  char                szVendor[EXPERTSTRINGLENGTH];
+  char                szDescription[EXPERTSTRINGLENGTH];
+  DWORD               Version;
+  DWORD               Flags;
+  HEXPERT             hExpert;
+  char                szDllName[MAX_PATH];
+  HINSTANCE           hModule;
   PEXPERTREGISTERPROC pRegisterProc;
-  PEXPERTCONFIGPROC   pConfigProc;
-  PEXPERTRUNPROC      pRunProc;
+  PEXPERTCONFIGPROC   pConfigProc;
+  PEXPERTRUNPROC      pRunProc;
 } EXPERTENUMINFO, *PEXPERTENUMINFO;
 ```
 
@@ -78,7 +83,7 @@ The following flags describe the expert.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -130,15 +135,15 @@ Private member; do not use.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

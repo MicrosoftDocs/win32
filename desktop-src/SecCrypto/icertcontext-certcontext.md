@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the PCCERT\_CONTEXT of a certificate.'
-ms.assetid: 'aedd219d-43fa-4722-9af4-36172d2c18b0'
-title: 'ICertContext::CertContext property'
+---
+Description: Sets or retrieves the PCCERT\_CONTEXT of a certificate.
+ms.assetid: aedd219d-43fa-4722-9af4-36172d2c18b0
+title: ICertContextCertContext property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertContext::CertContext property
@@ -33,7 +38,7 @@ Any other **HRESULT** value indicates that the call failed.
 
 ## Remarks
 
-You must call either the [**FreeContext**](icertcontext-freecontext.md) method or the [**CertFreeCertificateContext**](certfreecertificatecontext.md) function to free the context.
+You must call either the [**FreeContext**](icertcontext-freecontext.md) method or the [**CertFreeCertificateContext**](/windows/win32/Wincrypt/nf-wincrypt-certfreecertificatecontext?branch=master) function to free the context.
 
 If you set the **CertContext** property, the state of the entire [**Certificate**](certificate.md) object is reset.
 

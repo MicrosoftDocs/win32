@@ -4,11 +4,13 @@ description: Enables operations on a network, its properties, and related object
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd51e9872-eb86-4b0e-b417-1a2e5ac6ee9c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d51e9872-eb86-4b0e-b417-1a2e5ac6ee9c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusNetwork object Failover Cluster", "ClusNetwork object Failover Cluster , described"]
+keywords:
+- ClusNetwork object Failover Cluster
+- ClusNetwork object Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusNetwork object
@@ -52,7 +57,7 @@ The **ClusNetwork** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,7 +72,7 @@ A **ClusNetwork** object:
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -83,9 +88,9 @@ A **ClusNetwork** object:
 [Network Management Objects](network-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

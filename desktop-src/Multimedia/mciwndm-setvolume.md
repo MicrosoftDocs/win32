@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_SETVOLUME message
 description: The MCIWNDM\_SETVOLUME message sets the volume level of an MCI device. You can send this message explicitly or by using the MCIWndSetVolume macro.
-ms.assetid: '04151588-b761-447a-9a57-808c034c3059'
-keywords: ["MCIWNDM_SETVOLUME message Windows Multimedia"]
+ms.assetid: 04151588-b761-447a-9a57-808c034c3059
+keywords:
+- MCIWNDM_SETVOLUME message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_SETVOLUME message
 
-The **MCIWNDM\_SETVOLUME** message sets the volume level of an MCI device. You can send this message explicitly or by using the [**MCIWndSetVolume**](mciwndsetvolume.md) macro.
+The **MCIWNDM\_SETVOLUME** message sets the volume level of an MCI device. You can send this message explicitly or by using the [**MCIWndSetVolume**](/windows/win32/Vfw/nf-vfw-mciwndsetvolume?branch=master) macro.
 
 
 ```C++
@@ -47,8 +53,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ Returns zero if successful or an error otherwise.
 
 <dl> <dt>
 
-[**MCIWndSetVolume**](mciwndsetvolume.md)
+[**MCIWndSetVolume**](/windows/win32/Vfw/nf-vfw-mciwndsetvolume?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

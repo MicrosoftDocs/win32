@@ -1,7 +1,12 @@
 ---
-Description: 'The CAutoLock class holds a critical section for the scope of a code block.'
-ms.assetid: '8013b3a7-297b-4cf8-8107-4cee1fc12b56'
+Description: The CAutoLock class holds a critical section for the scope of a code block.
+ms.assetid: 8013b3a7-297b-4cf8-8107-4cee1fc12b56
 title: CAutoLock class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAutoLock class
@@ -39,7 +44,7 @@ The methods in this class are not designed to be overridden.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -52,9 +57,9 @@ The methods in this class are not designed to be overridden.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

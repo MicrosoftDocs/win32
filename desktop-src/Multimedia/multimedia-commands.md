@@ -1,8 +1,18 @@
 ---
 title: Multimedia Commands
 description: Multimedia Commands
-ms.assetid: 'b2f152b5-c730-4bcb-a4bf-5f9d771f4e0f'
-keywords: ["Windows multimedia,commands", "multimedia,commands", "multimedia reference,commands", "reference for multimedia,commands", "multimedia commands"]
+ms.assetid: b2f152b5-c730-4bcb-a4bf-5f9d771f4e0f
+keywords:
+- Windows multimedia,commands
+- multimedia,commands
+- multimedia reference,commands
+- reference for multimedia,commands
+- multimedia commands
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia Commands

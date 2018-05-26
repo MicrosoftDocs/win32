@@ -1,7 +1,12 @@
 ---
-Description: 'Installs the specified ActiveX object.'
-ms.assetid: 'c5d460d8-0df4-437a-a59e-707bf868a339'
-title: 'IeAxiSystemInstaller::InitializeSystemInstaller method'
+Description: Installs the specified ActiveX object.
+ms.assetid: c5d460d8-0df4-437a-a59e-707bf868a339
+title: IeAxiSystemInstallerInitializeSystemInstaller method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IeAxiSystemInstaller::InitializeSystemInstaller method
@@ -13,10 +18,10 @@ The **InitializeSystemInstaller** method installs the specified ActiveX object.
 
 ```C++
 HRESULT InitializeSystemInstaller(
-  [in]  BSTR     bstrUrl,
-  [in]  DWORD    dwClientPID,
-  [in]  IUnknown *pCallback,
-  [out] BSTR     *pbstrNonce
+  [in]  BSTR     bstrUrl,
+  [in]  DWORD    dwClientPID,
+  [in]  IUnknown *pCallback,
+  [out] BSTR     *pbstrNonce
 );
 ```
 
@@ -66,7 +71,7 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |
 | IID<br/>                      | IID\_IeAxiSystemInstaller is defined as a50ea6f8-4764-4299-b309-022b2a8b4d8d<br/>                   |
 
@@ -79,9 +84,9 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 [**IeAxiSystemInstaller**](ieaxisysteminstaller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TB\_MARKBUTTON message
 description: Sets the highlight state of a given button in a toolbar control.
-ms.assetid: 'cba0e2d2-40a7-4e20-a1ef-d5f5444c96d9'
-keywords: ["TB_MARKBUTTON message Windows Controls"]
+ms.assetid: cba0e2d2-40a7-4e20-a1ef-d5f5444c96d9
+keywords:
+- TB_MARKBUTTON message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_MARKBUTTON message
@@ -47,15 +53,15 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

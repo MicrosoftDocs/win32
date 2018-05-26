@@ -1,8 +1,9 @@
 ---
 title: MM\_WIM\_DATA message
 description: The MM\_WIM\_DATA message is sent to a window when waveform-audio data is present in the input buffer and the buffer is being returned to the application. The message can be sent either when the buffer is full or after the waveInReset function is called.
-ms.assetid: '14298153-ea2f-40b7-bca7-196f4e6c1155'
-keywords: ["MM_WIM_DATA message Windows Multimedia"]
+ms.assetid: 14298153-ea2f-40b7-bca7-196f4e6c1155
+keywords:
+- MM_WIM_DATA message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MM\_WIM\_DATA message
@@ -58,8 +64,8 @@ The returned buffer might not be full. Use the **dwBytesRecorded** member of the
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ The returned buffer might not be full. Use the **dwBytesRecorded** member of the
 [Waveform Messages](waveform-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

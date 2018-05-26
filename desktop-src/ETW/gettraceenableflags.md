@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetTraceEnableFlags function retrieves the enable flags passed by the controller to indicate which category of events to trace.Providers can only call this function from their ControlCallback function.'
-ms.assetid: 'e5c0f2bf-34da-4555-9556-4c79ee9a73ab'
+---
+Description: The GetTraceEnableFlags function retrieves the enable flags passed by the controller to indicate which category of events to trace.Providers can only call this function from their ControlCallback function.
+ms.assetid: e5c0f2bf-34da-4555-9556-4c79ee9a73ab
 title: GetTraceEnableFlags function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetTraceEnableFlags function

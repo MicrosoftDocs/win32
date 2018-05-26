@@ -1,14 +1,20 @@
 ---
 title: Provider (RenderingInfoType) Element
 description: The rendered message string for the provider.
-ms.assetid: 'ee50b96b-35a7-4e5d-b9bf-700204627000'
-keywords: ["Provider element EventLog"]
+ms.assetid: ee50b96b-35a7-4e5d-b9bf-700204627000
+keywords:
+- Provider element EventLog
 topic_type:
 - apiref
 api_name:
 - Provider
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Provider (RenderingInfoType) Element
@@ -29,8 +35,8 @@ The **Provider** element is defined by the [**RenderingInfoType**](eventschema-r
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **Provider** element is defined by the [**RenderingInfoType**](eventschema-r
 [**RenderingInfo (EventType)**](eventschema-renderinginfo-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

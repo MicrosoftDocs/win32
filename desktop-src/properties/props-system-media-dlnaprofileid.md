@@ -1,7 +1,12 @@
 ---
-Description: 'The DLNA profile ID for media content, defined by DLNA standards.'
-ms.assetid: 'ADE2E3CB-AAAC-4208-BB75-72AFF1D24C26'
-title: 'System.Media.DlnaProfileID'
+Description: The DLNA profile ID for media content, defined by DLNA standards.
+ms.assetid: ADE2E3CB-AAAC-4208-BB75-72AFF1D24C26
+title: System.Media.DlnaProfileID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.DlnaProfileID

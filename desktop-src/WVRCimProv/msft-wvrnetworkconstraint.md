@@ -4,13 +4,15 @@ description: This class represents the Network constraints for Storage Replica p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c25fcd63-e7a5-48fe-aa36-96b1625d6566'
-ms.prod: 'windows-server-dev'
+ms.assetid: c25fcd63-e7a5-48fe-aa36-96b1625d6566
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WvrNetworkConstraint class", "MSFT_WvrNetworkConstraint class, described"]
+keywords:
+- MSFT_WvrNetworkConstraint class
+- MSFT_WvrNetworkConstraint class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - wvrcimprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WvrNetworkConstraint class
@@ -156,17 +161,17 @@ Source replication group within this partnership.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported client<br/> | Windows 8<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>Wvrcimprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wvrcimprov.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

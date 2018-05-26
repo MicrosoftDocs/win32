@@ -1,8 +1,9 @@
 ---
 title: atan2
 description: Returns the arctangent of two values (x,y).
-ms.assetid: 'e7b53751-f321-4390-8f8f-ec1fa3aaa798'
-keywords: ["atan2 HLSL"]
+ms.assetid: e7b53751-f321-4390-8f8f-ec1fa3aaa798
+keywords:
+- atan2 HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # atan2
@@ -24,7 +30,7 @@ Returns the arctangent of two values (x,y).
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Returns the arctangent of two values (x,y).
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -59,7 +65,7 @@ The signs of the *x* and *y* parameters are used to determine the quadrant of th
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -74,7 +80,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -93,9 +99,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: COM Error Codes (COMADMIN, FILTER, GRAPHICS)
 description: The following table provides a list of error codes used by COM-based APIs.
-ms.assetid: '44245616-db28-41a2-972d-38515068ce12'
+ms.assetid: 44245616-db28-41a2-972d-38515068ce12
 topic_type:
 - apiref
 api_name:
@@ -365,6 +365,11 @@ api_location:
 - Winerror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Error Codes (COMADMIN, FILTER, GRAPHICS)
@@ -753,9 +758,9 @@ If you are experiencing difficulty with an application you are installing or run
 [COM Error Codes](com-error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

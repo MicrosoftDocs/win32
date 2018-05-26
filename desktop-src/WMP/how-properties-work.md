@@ -1,8 +1,18 @@
 ---
 title: How Properties Work
 description: How Properties Work
-ms.assetid: '469af852-593c-4b54-8dc3-b76ad460fa77'
-keywords: ["Windows Media Player plug-ins,Echo sample properties", "plug-ins,Echo sample properties", "digital signal processing plug-ins,Echo sample properties", "DSP plug-ins,Echo sample properties", "Echo DSP plug-in sample,properties"]
+ms.assetid: 469af852-593c-4b54-8dc3-b76ad460fa77
+keywords:
+- Windows Media Player plug-ins,Echo sample properties
+- plug-ins,Echo sample properties
+- digital signal processing plug-ins,Echo sample properties
+- DSP plug-ins,Echo sample properties
+- Echo DSP plug-in sample,properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Properties Work

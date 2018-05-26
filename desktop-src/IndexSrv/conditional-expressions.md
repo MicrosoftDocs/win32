@@ -1,7 +1,12 @@
 ---
 title: Conditional Expressions
 description: Conditional Expressions
-ms.assetid: '6ccc0a32-eb2b-4719-91c9-34ad5429b507'
+ms.assetid: 6ccc0a32-eb2b-4719-91c9-34ad5429b507
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Conditional Expressions

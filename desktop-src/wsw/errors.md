@@ -1,8 +1,16 @@
 ---
 title: Errors
 description: This section outlines error that may be issues by Windows Web Services functions in result of a failure to execute the command.
-ms.assetid: '2e5b853f-589c-4f89-9d7e-cd02263a2247'
-keywords: ["Errors Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 2e5b853f-589c-4f89-9d7e-cd02263a2247
+keywords:
+- Errors Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Errors
@@ -34,14 +42,14 @@ This API defines a relatively small number of error codes, which correspond to s
 
 ## Rich Errors
 
-In additional to returning an error code, a caller may optionally request rich error information for any API call by passing a non-**NULL**[WS\_ERROR](ws-error.md) object. To create an error object, use [**WsCreateError**](wscreateerror.md). If there is an error, then the API that caused the error will fill the error object with additional context about the error situation. If there is no error, then the error object is unmodified. Passing a **NULL** error object indicates that the caller is not interested in rich error information. Callees (including callbacks) must be prepared to handle **NULL** error objects.
+In additional to returning an error code, a caller may optionally request rich error information for any API call by passing a non-**NULL**[WS\_ERROR](ws-error.md) object. To create an error object, use [**WsCreateError**](/windows/win32/WebServices/nf-webservices-wscreateerror?branch=master). If there is an error, then the API that caused the error will fill the error object with additional context about the error situation. If there is no error, then the error object is unmodified. Passing a **NULL** error object indicates that the caller is not interested in rich error information. Callees (including callbacks) must be prepared to handle **NULL** error objects.
 
-Note that the same error object can be used for multiple API calls, but may only be used for one API call at a time (as it is single threaded). Each time an error occurs, error information is appended to the error object. As a call chain unwinds, multiple functions may add information to the error object to provide additional context about the error. To clear the contents of the error object before reusing it (after an error occurs), use [**WsResetError**](wsreseterror.md). If no error occurs, it is not necessary to reset the error object before reusing it.
+Note that the same error object can be used for multiple API calls, but may only be used for one API call at a time (as it is single threaded). Each time an error occurs, error information is appended to the error object. As a call chain unwinds, multiple functions may add information to the error object to provide additional context about the error. To clear the contents of the error object before reusing it (after an error occurs), use [**WsResetError**](/windows/win32/WebServices/nf-webservices-wsreseterror?branch=master). If no error occurs, it is not necessary to reset the error object before reusing it.
 
 Rich error information consists of the following:
 
--   A set of property values, which provide additional information about the error if present. See [**WS\_ERROR\_PROPERTY**](ws-error-property.md).
--   Zero or more error strings. The strings are added using [**WsAddErrorString**](wsadderrorstring.md), and can be queried using using [**WsGetErrorString**](wsgeterrorstring.md). The number of strings can be queried using [**WS\_ERROR\_PROPERTY\_STRING\_COUNT**](ws-error-property-id.md).
+-   A set of property values, which provide additional information about the error if present. See [**WS\_ERROR\_PROPERTY**](/windows/win32/WebServices/ns-webservices-_ws_error_property?branch=master).
+-   Zero or more error strings. The strings are added using [**WsAddErrorString**](/windows/win32/WebServices/nf-webservices-wsadderrorstring?branch=master), and can be queried using using [**WsGetErrorString**](/windows/win32/WebServices/nf-webservices-wsgeterrorstring?branch=master). The number of strings can be queried using [**WS\_ERROR\_PROPERTY\_STRING\_COUNT**](/windows/win32/WebServices/ne-webservices-ws_error_property_id?branch=master).
 
 ## Faults and Errors
 
@@ -51,7 +59,7 @@ See [Faults](faults.md) for information about how errors and faults relate.
 
 When creating an error object, the LANGID of the desired language translation for error information is specified. This is used when adding error information to the error object.
 
-This language value can be retrieved or set using [**WS\_ERROR\_PROPERTY\_LANGID**](ws-error-property-id.md).
+This language value can be retrieved or set using [**WS\_ERROR\_PROPERTY\_LANGID**](/windows/win32/WebServices/ne-webservices-ws_error_property_id?branch=master).
 
 ## Canonical Error Codes
 
@@ -59,7 +67,7 @@ This API provides a canonical set of error codes (WS\_E\_\*) that allow for diff
 
 This allows, for example, a program to check for the error code **WS\_E\_ENDPOINT\_NOT\_FOUND** whether using TCP, UDP, or HTTP, and take some action (like attempting to use a different endpoint).
 
-When an implementation specific error code is mapped to a canonical error, the original error code is saved in the error object, and may still be accessed for diagnostic purposes. See [**WS\_ERROR\_PROPERTY\_ORIGINAL\_ERROR\_CODE**](ws-error-property-id.md) for more information.
+When an implementation specific error code is mapped to a canonical error, the original error code is saved in the error object, and may still be accessed for diagnostic purposes. See [**WS\_ERROR\_PROPERTY\_ORIGINAL\_ERROR\_CODE**](/windows/win32/WebServices/ne-webservices-ws_error_property_id?branch=master) for more information.
 
 ## Invalid API Usage
 
@@ -70,8 +78,8 @@ The following error codes are reserved for invalid API usage, and will not be re
 
 The following enumerations are part of tracing:
 
--   [**WS\_ERROR\_PROPERTY\_ID**](ws-error-property-id.md)
--   [**WS\_EXCEPTION\_CODE**](ws-exception-code.md)
+-   [**WS\_ERROR\_PROPERTY\_ID**](/windows/win32/WebServices/ne-webservices-ws_error_property_id?branch=master)
+-   [**WS\_EXCEPTION\_CODE**](/windows/win32/WebServices/ne-webservices-ws_exception_code?branch=master)
 
 The following error codes are part of tracing:
 
@@ -123,8 +131,8 @@ The following error codes are part of tracing:
 
 The following functions are part of tracing:
 
--   [**WS\_ERROR\_PROPERTY\_ID**](ws-error-property-id.md)
--   [**WS\_EXCEPTION\_CODE**](ws-exception-code.md)
+-   [**WS\_ERROR\_PROPERTY\_ID**](/windows/win32/WebServices/ne-webservices-ws_error_property_id?branch=master)
+-   [**WS\_EXCEPTION\_CODE**](/windows/win32/WebServices/ne-webservices-ws_exception_code?branch=master)
 
 The following handle is part of tracing:
 
@@ -132,15 +140,15 @@ The following handle is part of tracing:
 
 The following structure is part of tracing:
 
--   [**WS\_ERROR\_PROPERTY**](ws-error-property.md)
+-   [**WS\_ERROR\_PROPERTY**](/windows/win32/WebServices/ns-webservices-_ws_error_property?branch=master)
 
 ## Security
 
 There are a number of security considerations that the user of the error object should be aware of:
 
 -   The error object may contain untrusted data. Examples of this are: the WS\_FAULT, and the error strings, both of which can be stored in the error object based on information received over an untrusted channel. The user of the error object should be careful when inspecting the information in the error object and making decisions based on its values.
--   A user of the error object should call [**WsResetError**](wsreseterror.md) after inspecting the information about the error. Failing to do so can lead to memory accumulation.
--   A user of the error object should be very careful when using the WS\_FULL\_FAULT\_DISCLOSURE value of the [**WS\_FAULT\_DISCLOSURE**](ws-fault-disclosure.md) enumeration, because the generated fault could contain private information that was accumulated as part of the error recording process.
+-   A user of the error object should call [**WsResetError**](/windows/win32/WebServices/nf-webservices-wsreseterror?branch=master) after inspecting the information about the error. Failing to do so can lead to memory accumulation.
+-   A user of the error object should be very careful when using the WS\_FULL\_FAULT\_DISCLOSURE value of the [**WS\_FAULT\_DISCLOSURE**](/windows/win32/WebServices/ne-webservices-ws_fault_disclosure?branch=master) enumeration, because the generated fault could contain private information that was accumulated as part of the error recording process.
 
  
 

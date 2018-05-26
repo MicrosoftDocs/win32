@@ -4,11 +4,15 @@ description: Lists snap-in development tools.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0c0231eb-e973-4517-a5ba-0d42148e053d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 0c0231eb-e973-4517-a5ba-0d42148e053d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["snap-in development tools MMC"]
+keywords:
+- snap-in development tools MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Snap-in Development Tools

@@ -4,11 +4,13 @@ description: Provides instances of Remote Desktop Services Per User client acces
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8d67f158-cda3-4cf4-a766-09d08c21c49e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8d67f158-cda3-4cf4-a766-09d08c21c49e
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSLicenseReport class Remote Desktop Services", "Win32_TSLicenseReport class Remote Desktop Services , described"]
+keywords:
+- Win32_TSLicenseReport class Remote Desktop Services
+- Win32_TSLicenseReport class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -24,11 +26,14 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSLicenseReport class
 
-Provides instances of Remote Desktop Services Per User client access license (RDS Per User CAL) usage reports that are generated on the Remote Desktop license server, and methods for license report generation, fetch, and delete operations.
+Provides instances of Remote Desktop Services Per User client access license (RDS Per User CAL) usage reports that are generated on the Remote Desktop license server, and methods for license report generation, fetch, and delete operations.
 
 ## Syntax
 
@@ -36,13 +41,13 @@ Provides instances of Remote Desktop Services Per User client access license (RD
 [dynamic, provider("Win32_WIN32_TERMSERVLICENSING_Prov"), AMENDMENT]
 class Win32_TSLicenseReport
 {
-  string   FileName;
-  uint32   LicenseUsageCount;
-  uint32   InstalledLicenses;
+  string   FileName;
+  uint32   LicenseUsageCount;
+  uint32   InstalledLicenses;
   DATETIME GenerationDateTime;
-  uint32   ScopeType;
-  string   ScopeValue;
-  uint32   Version;
+  uint32   ScopeType;
+  string   ScopeValue;
+  uint32   Version;
 };
 ```
 
@@ -63,16 +68,16 @@ The **Win32\_TSLicenseReport** class has these methods.
 |:---------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DeleteReport**](deletereport-win32-tslicensereport.md)                                                     | Deletes a report object on the Remote Desktop license server. This is not a static method.<br/>                                                                                           |
 | [**FetchReportEntries**](fetchreportentries-win32-tslicensereport.md)                                         | Retrieves entries in the report object.<br/>                                                                                                                                              |
-| [**FetchReportFailedPerUserEntries**](fetchreportfailedperuserentries-win32-tslicensereport.md)               | Retrieves details of failed Remote Desktop Services Per User client access licenses (RDS Per User CALs) from the report.<br/>                                                             |
-| [**FetchReportFailedPerUserSummaryEntries**](fetchreportfailedperusersummaryentries-win32-tslicensereport.md) | Retrieves summary information of failed Remote Desktop Services Per User client access licenses (RDS Per User CALs) from the report.<br/>                                                 |
-| [**FetchReportPerDeviceEntries**](fetchreportperdeviceentries-win32-tslicensereport.md)                       | Retrieves information of issued Remote Desktop Services Per Device client access licenses (RDS Per Device CALs) from the report.<br/>                                                     |
+| [**FetchReportFailedPerUserEntries**](fetchreportfailedperuserentries-win32-tslicensereport.md)               | Retrieves details of failed Remote Desktop Services Per User client access licenses (RDS Per User CALs) from the report.<br/>                                                             |
+| [**FetchReportFailedPerUserSummaryEntries**](fetchreportfailedperusersummaryentries-win32-tslicensereport.md) | Retrieves summary information of failed Remote Desktop Services Per User client access licenses (RDS Per User CALs) from the report.<br/>                                                 |
+| [**FetchReportPerDeviceEntries**](fetchreportperdeviceentries-win32-tslicensereport.md)                       | Retrieves information of issued Remote Desktop Services Per Device client access licenses (RDS Per Device CALs) from the report.<br/>                                                     |
 | [**FetchReportSummaryEntries**](win32-tslicensereport-fetchreportsummaryentries.md)                           | Retrieves license summaries from the report object.<br/>                                                                                                                                  |
-| [**GenerateReport**](generatereport-win32-tslicensereport.md)                                                 | This method is not supported.<br/> **Windows Server 2008 R2 and Windows Server 2008:** Generates a current per user license usage report on the Remote Desktop license server.<br/> |
+| [**GenerateReport**](generatereport-win32-tslicensereport.md)                                                 | This method is not supported.<br/> **Windows Server 2008 R2 and Windows Server 2008:** Generates a current per user license usage report on the Remote Desktop license server.<br/> |
 | [**GenerateReportEx**](generatereportex-win32-tslicensereport.md)                                             | Generates a current per user license usage report on the Remote Desktop license server.<br/>                                                                                              |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -105,7 +110,7 @@ Data type: **[DATETIME](https://msdn.microsoft.com/library/aa389799)**
 Access type: Read-only
 </dt> </dl>
 
-RD Licensing report generation date and time.
+RD Licensing report generation date and time.
 
 </dd> <dt>
 
@@ -123,7 +128,7 @@ Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651)
 
 This property is not supported.
 
-**Windows Server 2008 R2 and Windows Server 2008:** Number of RDS Per User CALs that are installed.
+**Windows Server 2008 R2 and Windows Server 2008:** Number of RDS Per User CALs that are installed.
 
 </dd> <dt>
 
@@ -141,7 +146,7 @@ Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651)
 
 This property is not supported.
 
-**Windows Server 2008 R2 and Windows Server 2008:** Number of RDS Per User CALs that are currently in use.
+**Windows Server 2008 R2 and Windows Server 2008:** Number of RDS Per User CALs that are currently in use.
 
 </dd> <dt>
 
@@ -159,7 +164,7 @@ Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651)
 
 This property is not supported.
 
-**Windows Server 2008 R2 and Windows Server 2008:** RD Licensing report scope type.
+**Windows Server 2008 R2 and Windows Server 2008:** RD Licensing report scope type.
 
 </dd> <dt>
 
@@ -177,7 +182,7 @@ Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651)
 
 This property is not supported.
 
-**Windows Server 2008 R2 and Windows Server 2008:** RD Licensing report scope value.
+**Windows Server 2008 R2 and Windows Server 2008:** RD Licensing report scope value.
 
 </dd> <dt>
 
@@ -190,13 +195,13 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-RD Licensing report version.
+RD Licensing report version.
 
 </dd> </dl>
 
 ## Remarks
 
-Reports that are generated by using WMI are displayed in RD Licensing Manager. Reports that are deleted by using WMI are also deleted from RD Licensing Manager.
+Reports that are generated by using WMI are displayed in RD Licensing Manager. Reports that are deleted by using WMI are also deleted from RD Licensing Manager.
 
 You must be a member of the Administrators group to use this class.
 
@@ -209,7 +214,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -232,9 +237,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseServer**](win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

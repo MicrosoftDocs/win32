@@ -1,7 +1,12 @@
 ---
 title: Receiving Notification of Changes
 description: Many clients can simultaneously update the routing table, and clients must be notified when changes to routing information occur.
-ms.assetid: 'd42e16e2-32b2-4178-967b-e937730b3cca'
+ms.assetid: d42e16e2-32b2-4178-967b-e937730b3cca
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving Notification of Changes
@@ -25,7 +30,7 @@ There are currently three types of change notifications for which a client can r
 
 -   Notification of all changes of the type RTM\_CHANGE\_TYPE\_BEST, except changes in non-forwarding flags in the best route. For example, the router manager waits for changes of this type in the unicast view, and updates information in the unicast forwarder. This request is made using the RTM\_CHANGE\_TYPE\_FORWARDING flag.
 
-Requests for notifications of changes can also be restricted to a subset of destinations by registering for notifications of changes only to "marked" destinations. The client can mark a destination for change notification by calling [**RtmMarkDestForChangeNotification**](rtmmarkdestforchangenotification.md).
+Requests for notifications of changes can also be restricted to a subset of destinations by registering for notifications of changes only to "marked" destinations. The client can mark a destination for change notification by calling [**RtmMarkDestForChangeNotification**](/windows/win32/Rtmv2/nf-rtmv2-rtmmarkdestforchangenotification?branch=master).
 
 When a change occurs, the routing table manager checks to see if there are any clients that must be notified of this change. A client must be notified of a change if all of the following conditions are met:
 
@@ -35,7 +40,7 @@ When a change occurs, the routing table manager checks to see if there are any c
 
 If the change meets all of the above criteria, the change is cached and the client is notified.
 
-The notification does not specify what the actual changes are, only that they have occurred. The client must retrieve the changes by calling [**RtmGetChangedDests**](rtmgetchangeddests.md) using the notification handle that was obtained from a previous call to [**RtmRegisterForChangeNotification**](rtmregisterforchangenotification.md).
+The notification does not specify what the actual changes are, only that they have occurred. The client must retrieve the changes by calling [**RtmGetChangedDests**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetchangeddests?branch=master) using the notification handle that was obtained from a previous call to [**RtmRegisterForChangeNotification**](/windows/win32/Rtmv2/nf-rtmv2-rtmregisterforchangenotification?branch=master).
 
  
 

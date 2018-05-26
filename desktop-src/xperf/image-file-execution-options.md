@@ -1,7 +1,12 @@
 ---
 title: Image File Execution Options
 description: Image File Execution Options
-ms.assetid: '585ac744-f7e2-4e9d-aca5-d50642535da3'
+ms.assetid: 585ac744-f7e2-4e9d-aca5-d50642535da3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image File Execution Options

@@ -1,7 +1,12 @@
 ---
-Description: 'The OnClose method handles WM\_CLOSE messages.'
-ms.assetid: 'e562add4-752e-4665-a75e-a5526fb7f045'
-title: 'CBaseWindow.OnClose method'
+Description: The OnClose method handles WM\_CLOSE messages.
+ms.assetid: e562add4-752e-4665-a75e-a5526fb7f045
+title: CBaseWindow.OnClose method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.OnClose method
@@ -47,9 +52,9 @@ In the base class, this method simply hides the window. Typically, a derived cla
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

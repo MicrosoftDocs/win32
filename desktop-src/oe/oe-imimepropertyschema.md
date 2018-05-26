@@ -1,8 +1,10 @@
 ---
 title: IMimePropertySchema interface
-description: Do not use. Manipulates MimeOLE's global property schema.
-ms.assetid: '3a1674ed-b6dd-4092-a76a-f8b5c1eaf0f0'
-keywords: ["IMimePropertySchema interface Windows Mail (formerly Outlook Express)", "IMimePropertySchema interface Windows Mail (formerly Outlook Express) , described"]
+description: Do not use. Manipulates MimeOLEs global property schema.
+ms.assetid: 3a1674ed-b6dd-4092-a76a-f8b5c1eaf0f0
+keywords:
+- IMimePropertySchema interface Windows Mail (formerly Outlook Express)
+- IMimePropertySchema interface Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimePropertySchema interface
@@ -35,8 +42,8 @@ Using this interface, a client can also add new properties to the schema and cha
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -44,9 +51,9 @@ Using this interface, a client can also add new properties to the schema and cha
 
 
 
- 
+ 
 
- 
+ 
 
 
 

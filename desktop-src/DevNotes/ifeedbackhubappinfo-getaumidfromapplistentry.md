@@ -1,7 +1,12 @@
-﻿---
-Description: 'This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.'
-ms.assetid: 'F205911F-7AA3-464F-A408-3BF549E1112A'
-title: 'IFeedbackHubAppInfo::GetAumidFromAppListEntry method'
+---
+Description: This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+ms.assetid: F205911F-7AA3-464F-A408-3BF549E1112A
+title: IFeedbackHubAppInfoGetAumidFromAppListEntry method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFeedbackHubAppInfo::GetAumidFromAppListEntry method

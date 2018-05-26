@@ -4,11 +4,15 @@ description: HTML Help requires the implementation or use of the following inter
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7e5fc48b-7192-4db9-b110-cf7fdb59b57f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 7e5fc48b-7192-4db9-b110-cf7fdb59b57f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["adding HTML Help support interfaces MMC"]
+keywords:
+- adding HTML Help support interfaces MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding HTML Help Support: Interfaces

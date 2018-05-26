@@ -1,8 +1,9 @@
 ---
 title: EM\_CANREDO message
 description: Determines whether there are any actions in the control redo queue.
-ms.assetid: '4a76adc8-f815-4cf7-8742-b7695e5a0f64'
-keywords: ["EM_CANREDO message Windows Controls"]
+ms.assetid: 4a76adc8-f815-4cf7-8742-b7695e5a0f64
+keywords:
+- EM_CANREDO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_CANREDO message
@@ -51,8 +57,8 @@ To redo the most recent undo operation, send the [**EM\_REDO**](em-redo.md) mess
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ To redo the most recent undo operation, send the [**EM\_REDO**](em-redo.md) mess
 [**EM\_UNDO**](em-undo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

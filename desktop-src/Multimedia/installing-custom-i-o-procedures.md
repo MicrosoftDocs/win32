@@ -1,8 +1,20 @@
 ---
 title: Installing Custom I/O Procedures
 description: Installing Custom I/O Procedures
-ms.assetid: '7b26a062-fa52-4de3-b8c8-b9f9167068fc'
-keywords: ["multimedia file I/O,custom procedures", "file I/O,custom procedures", "input and output (I/O),custom procedures", "I/O (input and output),custom procedures", "installing custom I/O procedures", "custom I/O", "mmioInstallIOProc function"]
+ms.assetid: 7b26a062-fa52-4de3-b8c8-b9f9167068fc
+keywords:
+- multimedia file I/O,custom procedures
+- file I/O,custom procedures
+- input and output (I/O),custom procedures
+- I/O (input and output),custom procedures
+- installing custom I/O procedures
+- custom I/O
+- mmioInstallIOProc function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing Custom I/O Procedures

@@ -1,8 +1,9 @@
 ---
 title: DL\_CANCELDRAG notification code
 description: Signals that the user has canceled a drag operation by clicking the right mouse button or pressing the ESC key.
-ms.assetid: '62c1377f-41b6-449f-a95e-2689dc1913c6'
-keywords: ["DL_CANCELDRAG notification code Windows Controls"]
+ms.assetid: 62c1377f-41b6-449f-a95e-2689dc1913c6
+keywords:
+- DL_CANCELDRAG notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DL\_CANCELDRAG notification code
@@ -33,7 +39,7 @@ DL_CANCELDRAG
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**DRAGLISTINFO**](draglistinfo.md) structure that contains the DL\_CANCELDRAG notification code, the handle to the drag list box, and the cursor position.
+A pointer to a [**DRAGLISTINFO**](/windows/win32/Commctrl/ns-commctrl-tagdraglistinfo?branch=master) structure that contains the DL\_CANCELDRAG notification code, the handle to the drag list box, and the cursor position.
 
 </dd> </dl>
 
@@ -51,15 +57,15 @@ By processing the DL\_CANCELDRAG notification code, an application can reset its
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

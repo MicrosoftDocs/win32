@@ -1,7 +1,12 @@
 ---
 title: Normalization
 description: Normalization
-ms.assetid: '04daec38-2d6e-4127-8c34-7b99332fcef0'
+ms.assetid: 04daec38-2d6e-4127-8c34-7b99332fcef0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Normalization

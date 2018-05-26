@@ -1,8 +1,18 @@
 ---
 title: POPUP Element
 description: POPUP Element
-ms.assetid: 'f2c46e91-eef4-42d4-842b-73105831e7e2'
-keywords: ["Windows Media Player skins,POPUP element", "skins,POPUP element", "POPUP element", "reference for skins,POPUP element", "elements,POPUP"]
+ms.assetid: f2c46e91-eef4-42d4-842b-73105831e7e2
+keywords:
+- Windows Media Player skins,POPUP element
+- skins,POPUP element
+- POPUP element
+- reference for skins,POPUP element
+- elements,POPUP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # POPUP Element

@@ -4,11 +4,12 @@ description: The property methods of the IADsClass interface get or set the foll
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '191f6873-c4bd-4e71-9d23-478454b7cec2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 191f6873-c4bd-4e71-9d23-478454b7cec2
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsClass Property Methods ADSI"]
+keywords:
+- IADsClass Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -61,11 +62,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsClass Property Methods
 
-The property methods of the [**IADsClass**](iadsclass.md) interface get or set the following properties. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master) interface get or set the following properties. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -466,7 +470,7 @@ HRESULT put_PossibleSuperiors(
 **PrimaryInterface**
 </dt> <dd> <dl>
 
-Optional provider-specific identifier GUID that associates an interface to objects of this schema class. For example, the "User" class that supports [**IADsUser**](iadsuser.md) and **PrimaryInterface** is identified by **IID\_IADsUser**. This must be in the standard string format of a GUID, as defined by COM. This GUID is the value that appears in the [**IADs::get\_GUID**](iads.md) property in instances of this class for providers that implement this property. Identifying a schema class by IID of the class code's primary interface enables the use of **QueryInterface** at run time to determine whether an object is of the desired class.
+Optional provider-specific identifier GUID that associates an interface to objects of this schema class. For example, the "User" class that supports [**IADsUser**](/windows/win32/Iads/nn-iads-iadsuser?branch=master) and **PrimaryInterface** is identified by **IID\_IADsUser**. This must be in the standard string format of a GUID, as defined by COM. This GUID is the value that appears in the [**IADs::get\_GUID**](/windows/win32/Iads/nn-iads-iads?branch=master) property in instances of this class for providers that implement this property. Identifying a schema class by IID of the class code's primary interface enables the use of **QueryInterface** at run time to determine whether an object is of the desired class.
 
 <dt>
 
@@ -488,11 +492,11 @@ HRESULT get_PrimaryInterface(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
-The following code example shows how to use the [**IADsClass**](iadsclass.md) interface to determine if an object can be a container and, if so, lists the names of any contained objects.
+The following code example shows how to use the [**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master) interface to determine if an object can be a container and, if so, lists the names of any contained objects.
 
 
 ```VB
@@ -520,7 +524,7 @@ Cleanup:
 
 
 
-The following code example shows how to use the [**IADsClass**](iadsclass.md) interface to determine if an object can be a container and, if so, lists the names of any contained objects.
+The following code example shows how to use the [**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master) interface to determine if an object can be a container and, if so, lists the names of any contained objects.
 
 
 ```C++
@@ -571,8 +575,8 @@ Cleanup:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsClass is defined as C8F93DD0-4AE0-11CF-9E73-00AA004A5691<br/>            |
@@ -583,15 +587,15 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsClass**](iadsclass.md)
+[**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)
 </dt> <dt>
 
-[**IADsClass::Qualifiers**](iadsclass-qualifiers.md)
+[**IADsClass::Qualifiers**](/windows/win32/Iads/nf-iads-iadsclass-qualifiers?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

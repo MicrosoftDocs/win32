@@ -1,7 +1,12 @@
 ---
-Description: 'Mark of the app container. The zone identifier as determined by the file''s last writer.'
-ms.assetid: '39f3dc07-8f13-4a76-a39a-7d7092f64378'
-title: 'System.AppZoneIdentifier'
+Description: Mark of the app container. The zone identifier as determined by the files last writer.
+ms.assetid: 39f3dc07-8f13-4a76-a39a-7d7092f64378
+title: System.AppZoneIdentifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.AppZoneIdentifier

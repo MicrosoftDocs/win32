@@ -1,12 +1,17 @@
 ---
-Description: 'Creates and adds a new DDE share to the DDE share database manager (DSDM).'
-ms.assetid: 'c9814919-412e-4f13-98cc-373b69545734'
+Description: Creates and adds a new DDE share to the DDE share database manager (DSDM).
+ms.assetid: c9814919-412e-4f13-98cc-373b69545734
 title: NDdeShareAdd function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDdeShareAdd function
 
-\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
+\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
 
 Creates and adds a new DDE share to the DDE share database manager (DSDM).
 
@@ -15,11 +20,11 @@ Creates and adds a new DDE share to the DDE share database manager (DSDM).
 
 ```C++
 UINT NDdeShareAdd(
-  _In_ LPTSTR               lpszServer,
-  _In_ UINT                 nLevel,
-  _In_ PSECURITY_DESCRIPTOR pSD,
-  _In_ LPBYTE               lpBuffer,
-  _In_ DWORD                cBufSize
+  _In_ LPTSTR               lpszServer,
+  _In_ UINT                 nLevel,
+  _In_ PSECURITY_DESCRIPTOR pSD,
+  _In_ LPBYTE               lpBuffer,
+  _In_ DWORD                cBufSize
 );
 ```
 
@@ -80,8 +85,8 @@ Before a client can connect to the DDE share, it must be trusted with [**NDdeSet
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Nddeapi.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Nddeapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nddeapi.dll</dt> </dl> |
@@ -105,9 +110,9 @@ Before a client can connect to the DDE share, it must be trusted with [**NDdeSet
 [**NDdeSetTrustedShare**](nddesettrustedshare.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

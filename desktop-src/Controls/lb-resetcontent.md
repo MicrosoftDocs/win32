@@ -1,8 +1,9 @@
 ---
 title: LB\_RESETCONTENT message
 description: Removes all items from a list box.
-ms.assetid: '3865e45e-62da-457a-801c-2f9a61687022'
-keywords: ["LB_RESETCONTENT message Windows Controls"]
+ms.assetid: 3865e45e-62da-457a-801c-2f9a61687022
+keywords:
+- LB_RESETCONTENT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_RESETCONTENT message
@@ -49,8 +55,8 @@ If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -62,9 +68,9 @@ If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-
 [**WM\_DELETEITEM**](wm-deleteitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

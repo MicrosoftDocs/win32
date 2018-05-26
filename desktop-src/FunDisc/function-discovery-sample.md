@@ -1,7 +1,12 @@
 ---
-Description: 'Demonstrates the use of Function Discovery API.'
-ms.assetid: 'b67e9b53-1c4f-41bf-85bd-d901f3859e92'
+Description: Demonstrates the use of Function Discovery API.
+ms.assetid: b67e9b53-1c4f-41bf-85bd-d901f3859e92
 title: Function Discovery Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function Discovery Sample
@@ -12,10 +17,10 @@ The Function Discovery sample demonstrates the use of Function Discovery API. Th
 
 The Function Discovery sample performs the following tasks:
 
--   Queries the PnP provider for function instances. The [**IFunctionDiscovery::CreateInstanceCollectionQuery**](ifunctiondiscovery-createinstancecollectionquery-method.md) and [**IFunctionInstanceCollectionQuery::Execute**](ifunctioninstancecollectionquery-execute-method.md) methods are used.
--   Displays the list of PnP devices available on the machine. The [**GetCount**](ifunctioninstancecollection-getcount-method.md) and [**Item**](ifunctioninstancecollection-item-method.md) methods of the [**IFunctionInstanceCollection**](ifunctioninstancecollection.md) interface are used.
--   Displays the metadata associated with the device. The [**IFunctionInstance::OpenPropertyStore**](ifunctioninstance-openpropertystore-method.md) method is used.
--   Handles PnP notifications. The [**OnUpdate**](ifunctiondiscoverynotification-onupdate-method.md), [**OnError**](ifunctiondiscoverynotification-onerror.md), and [**OnEvent**](ifunctiondiscoverynotification-onevent.md) methods of the [**IFunctionDiscoveryNotification**](ifunctiondiscoverynotification.md) interface are implemented.
+-   Queries the PnP provider for function instances. The [**IFunctionDiscovery::CreateInstanceCollectionQuery**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancecollectionquery?branch=master) and [**IFunctionInstanceCollectionQuery::Execute**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute?branch=master) methods are used.
+-   Displays the list of PnP devices available on the machine. The [**GetCount**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollection-getcount?branch=master) and [**Item**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollection-item?branch=master) methods of the [**IFunctionInstanceCollection**](/windows/win32/FunctionDiscoveryAPI/nn-functiondiscoveryapi-ifunctioninstancecollection?branch=master) interface are used.
+-   Displays the metadata associated with the device. The [**IFunctionInstance::OpenPropertyStore**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore?branch=master) method is used.
+-   Handles PnP notifications. The [**OnUpdate**](ifunctiondiscoverynotification-onupdate-method.md), [**OnError**](ifunctiondiscoverynotification-onerror.md), and [**OnEvent**](ifunctiondiscoverynotification-onevent.md) methods of the [**IFunctionDiscoveryNotification**](/windows/win32/FunctionDiscoveryNotification/nn-functiondiscoveryapi-ifunctiondiscoverynotification?branch=master) interface are implemented.
 
 ## Related topics
 

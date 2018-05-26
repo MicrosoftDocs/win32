@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '4aae7a73-e0e9-4e11-811b-4a7a936b8084'
-title: 'System.Identity.IsMeIdentity'
+Description: .
+ms.assetid: 4aae7a73-e0e9-4e11-811b-4a7a936b8084
+title: System.Identity.IsMeIdentity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Identity.IsMeIdentity

@@ -2,15 +2,18 @@
 title: Listing Event Collector Subscriptions
 description: You can retrieve a list of names of Event Collector subscriptions that are enabled on a local computer.
 audience: developer
-ms.assetid: 'b44fc694-b94a-4fc5-95d1-72afb016ad72'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-event-collector'
+ms.assetid: b44fc694-b94a-4fc5-95d1-72afb016ad72
+ms.prod: windows-server-dev
+ms.technology: windows-event-collector
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Listing Event Collector Subscriptions
 
-You can retrieve a list of names of Event Collector subscriptions that are enabled on a local computer. Using the [**EcOpenSubscriptionEnum**](ecopensubscriptionenum.md) function, you can obtain a handle to a subscription enumerator. After the handle is created, the [**EcEnumNextSubscription**](ecenumnextsubscription.md) function is used to list the subscriptions on the local computer.
+You can retrieve a list of names of Event Collector subscriptions that are enabled on a local computer. Using the [**EcOpenSubscriptionEnum**](/windows/win32/Evcoll/nf-evcoll-ecopensubscriptionenum?branch=master) function, you can obtain a handle to a subscription enumerator. After the handle is created, the [**EcEnumNextSubscription**](/windows/win32/Evcoll/nf-evcoll-ecenumnextsubscription?branch=master) function is used to list the subscriptions on the local computer.
 
 > [!Note]
 >

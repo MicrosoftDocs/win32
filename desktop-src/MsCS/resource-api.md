@@ -4,11 +4,15 @@ description: The Resource API defines interfaces that allow the Cluster service 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '764a35dd-a681-4af0-8e2c-281a254a3a30'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 764a35dd-a681-4af0-8e2c-281a254a3a30
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Resource API Failover Cluster"]
+keywords:
+- Resource API Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resource API

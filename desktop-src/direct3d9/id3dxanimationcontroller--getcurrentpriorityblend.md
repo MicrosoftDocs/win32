@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns an event handle to a priority blend event that is currently running.'
-ms.assetid: 'a7184459-7644-4e65-a8ea-13019889e02b'
-title: 'ID3DXAnimationController::GetCurrentPriorityBlend method'
+---
+Description: Returns an event handle to a priority blend event that is currently running.
+ms.assetid: a7184459-7644-4e65-a8ea-13019889e02b
+title: ID3DXAnimationControllerGetCurrentPriorityBlend method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::GetCurrentPriorityBlend method

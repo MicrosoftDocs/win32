@@ -1,13 +1,16 @@
 ---
-Description: 'Sends a report definition language (RDL) for a specific report type to a file.'
+Description: Sends a report definition language (RDL) for a specific report type to a file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '1e671586-d762-487a-ad22-209dfbeeeed7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 1e671586-d762-487a-ad22-209dfbeeeed7
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'AuditReport.ExportReportDefinitionLang method'
+title: AuditReport.ExportReportDefinitionLang method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AuditReport.ExportReportDefinitionLang method
@@ -229,7 +232,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -241,9 +244,9 @@ END SUB
 [**AuditReport**](auditreport-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

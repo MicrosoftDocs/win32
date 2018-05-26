@@ -1,7 +1,12 @@
 ---
 title: defaultcollelem
 description: Allows for optimization of code.
-ms.assetid: '8c402244-7fb1-4fb6-b11c-c983fae82cb2'
+ms.assetid: 8c402244-7fb1-4fb6-b11c-c983fae82cb2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # defaultcollelem

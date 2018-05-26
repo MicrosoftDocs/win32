@@ -4,11 +4,13 @@ description: Provides access to the names of the domains on a network.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e7f806a7-02e7-41be-b8b9-60351180e748'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e7f806a7-02e7-41be-b8b9-60351180e748
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DomainNames collection Failover Cluster", "DomainNames collection Failover Cluster , described"]
+keywords:
+- DomainNames collection Failover Cluster
+- DomainNames collection Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # DomainNames collection
@@ -45,7 +50,7 @@ The **DomainNames** collection has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -60,7 +65,7 @@ The **DomainNames** collection has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,7 +81,7 @@ A **DomainNames** collection:
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -92,9 +97,9 @@ A **DomainNames** collection:
 [Application Management Objects](application-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

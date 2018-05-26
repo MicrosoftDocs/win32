@@ -1,7 +1,12 @@
 ---
-Description: 'Flag indicating whether the buffer requirements have changed.'
-ms.assetid: '34d946f9-125c-40fb-b09e-82457add07d6'
-title: 'CBaseAllocator::m\_bChanged member'
+Description: Flag indicating whether the buffer requirements have changed.
+ms.assetid: 34d946f9-125c-40fb-b09e-82457add07d6
+title: CBaseAllocatorm\_bChanged member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator::m\_bChanged member
@@ -35,9 +40,9 @@ BOOL m_bChanged;
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

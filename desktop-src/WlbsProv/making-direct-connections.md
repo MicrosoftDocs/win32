@@ -4,12 +4,15 @@ description: Procedure for using the WMI scripting API to establish a direct con
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '046fbf80-57b5-4c45-bc96-a13f1266e0bf'
-ms.prod: 'windows-server-dev'
+ms.assetid: 046fbf80-57b5-4c45-bc96-a13f1266e0bf
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Making Direct Connections

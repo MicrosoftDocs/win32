@@ -1,7 +1,12 @@
 ---
-Description: 'The GetTypeInfo method retrieves the type information for the object, which can then be used to get the type information for an interface.'
-ms.assetid: 'aa06b97c-541b-44fc-bdef-97fd1f014e85'
-title: 'CBaseDispatch.GetTypeInfo method'
+Description: The GetTypeInfo method retrieves the type information for the object, which can then be used to get the type information for an interface.
+ms.assetid: aa06b97c-541b-44fc-bdef-97fd1f014e85
+title: CBaseDispatch.GetTypeInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseDispatch.GetTypeInfo method
@@ -13,10 +18,10 @@ The `GetTypeInfo` method retrieves the type information for the object, which ca
 
 ```C++
 HRESULT GetTypeInfo(
-   REFIID    riid,
-   UINT      itinfo,
-   LCID      lcid,
-   ITypeInfo **pptinfo
+   REFIID    riid,
+   UINT      itinfo,
+   LCID      lcid,
+   ITypeInfo **pptinfo
 );
 ```
 
@@ -68,7 +73,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -92,9 +97,9 @@ This method behaves like the **IDispatch::GetTypeInfo** method. However, it incl
 [**CBaseDispatch Class**](cbasedispatch.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

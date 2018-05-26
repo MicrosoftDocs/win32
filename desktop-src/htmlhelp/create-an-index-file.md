@@ -1,7 +1,12 @@
 ---
 title: Create an Index File
 description: Create an Index File
-ms.assetid: 'EC47DB6E-E3B0-42ed-954A-D0D75D7A5128'
+ms.assetid: EC47DB6E-E3B0-42ed-954A-D0D75D7A5128
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create an Index File

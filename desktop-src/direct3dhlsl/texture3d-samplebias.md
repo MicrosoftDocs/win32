@@ -1,12 +1,18 @@
 ---
 title: Texture3D SampleBias methods
 description: Samples a texture, after applying the bias value to the mipmap level.
-ms.assetid: '60561260-671A-4275-BAED-D854DAB8FFDE'
-keywords: ["SampleBias methods HLSL"]
+ms.assetid: 60561260-671A-4275-BAED-D854DAB8FFDE
+keywords:
+- SampleBias methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture3D::SampleBias methods
@@ -35,9 +41,9 @@ Samples a texture, after applying the bias value to the mipmap level.
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

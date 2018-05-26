@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the specified scan profile as the default profile.'
-ms.assetid: 'c680be8b-88f0-4f7f-b1a3-e12711dba870'
-title: 'IScanProfileMgr::SetDefault method'
+---
+Description: Sets the specified scan profile as the default profile.
+ms.assetid: c680be8b-88f0-4f7f-b1a3-e12711dba870
+title: IScanProfileMgrSetDefault method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfileMgr::SetDefault method

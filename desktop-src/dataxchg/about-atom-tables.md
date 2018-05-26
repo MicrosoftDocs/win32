@@ -1,8 +1,22 @@
 ---
 title: About Atom Tables
 description: This section discusses atom tables.
-ms.assetid: '12114a3e-99a4-480f-9d1a-57c1942b7382'
-keywords: ["atoms", "atom tables", "atom names", "Dynamic Data Exchange (DDE),atoms", "DDE (Dynamic Data Exchange),atoms", "global atom tables", "local atom tables", "integer atoms", "string atoms"]
+ms.assetid: 12114a3e-99a4-480f-9d1a-57c1942b7382
+keywords:
+- atoms
+- atom tables
+- atom names
+- Dynamic Data Exchange (DDE),atoms
+- DDE (Dynamic Data Exchange),atoms
+- global atom tables
+- local atom tables
+- integer atoms
+- string atoms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Atom Tables
@@ -13,7 +27,7 @@ The system provides a number of atom tables. Each atom table serves a different 
 
 Applications can use local atom tables to store their own item-name associations.
 
-The system uses atom tables that are not directly accessible to applications. However, the application uses these atoms when calling a variety of functions. For example, registered clipboard formats are stored in an internal atom table used by the system. An application adds atoms to this atom table using the [**RegisterClipboardFormat**](registerclipboardformat.md) function. Also, registered classes are stored in an internal atom table used by the system. An application adds atoms to this atom table using the [**RegisterClass**](https://msdn.microsoft.com/library/windows/desktop/ms633586) or [**RegisterClassEx**](https://msdn.microsoft.com/library/windows/desktop/ms633587) function.
+The system uses atom tables that are not directly accessible to applications. However, the application uses these atoms when calling a variety of functions. For example, registered clipboard formats are stored in an internal atom table used by the system. An application adds atoms to this atom table using the [**RegisterClipboardFormat**](/windows/win32/Winuser/nf-winuser-registerclipboardformata?branch=master) function. Also, registered classes are stored in an internal atom table used by the system. An application adds atoms to this atom table using the [**RegisterClass**](https://msdn.microsoft.com/library/windows/desktop/ms633586) or [**RegisterClassEx**](https://msdn.microsoft.com/library/windows/desktop/ms633587) function.
 
 The following topics are discussed in this section.
 
@@ -40,13 +54,13 @@ An application requiring the same string in a number of structures can reduce me
 
 Applications can also use local atom tables to save time when searching for a particular string. To perform a search, an application need only place the search string in the atom table and compare the resulting atom with the atoms in the relevant structures. Comparing atoms is typically faster than comparing strings.
 
-Atom tables are implemented as hash tables. By default, a local atom table uses 37 buckets for its hash table. However, you can change the number of buckets used by calling the [**InitAtomTable**](initatomtable.md) function. If the application calls **InitAtomTable**, however, it must do so before calling any other atom-management functions.
+Atom tables are implemented as hash tables. By default, a local atom table uses 37 buckets for its hash table. However, you can change the number of buckets used by calling the [**InitAtomTable**](/windows/win32/Winbase/nf-winbase-initatomtable?branch=master) function. If the application calls **InitAtomTable**, however, it must do so before calling any other atom-management functions.
 
 ## Atom Types
 
 Applications can create two types of atoms: string atoms and integer atoms. The values of integer atoms and string atoms do not overlap, so both types of atoms can be used in the same block of code.
 
-Several functions accept either strings or atoms as parameters. When passing an atom to these functions, an application can use the [**MAKEINTATOM**](makeintatom.md) macro to convert the atom into a form that can be used by the function.
+Several functions accept either strings or atoms as parameters. When passing an atom to these functions, an application can use the [**MAKEINTATOM**](/windows/win32/Winbase/nf-winbase-makeintatom?branch=master) macro to convert the atom into a form that can be used by the function.
 
 The following sections describe atom types.
 
@@ -55,7 +69,7 @@ The following sections describe atom types.
 
 ### String Atoms
 
-When applications pass null-terminated strings to the [**GlobalAddAtom**](globaladdatom.md), [**AddAtom**](addatom.md), [**GlobalFindAtom**](globalfindatom.md), and [**FindAtom**](findatom.md) functions, they receive *string atoms* (16-bit integers) in return. String atoms have the following properties:
+When applications pass null-terminated strings to the [**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master), [**AddAtom**](/windows/win32/Winbase/nf-winbase-addatomw?branch=master), [**GlobalFindAtom**](/windows/win32/Winbase/nf-winbase-globalfindatoma?branch=master), and [**FindAtom**](/windows/win32/Winbase/nf-winbase-findatoma?branch=master) functions, they receive *string atoms* (16-bit integers) in return. String atoms have the following properties:
 
 -   The values of string atoms are in the range 0xC000 (MAXINTATOM) through 0xFFFF.
 -   Case is not significant in searches for an atom name in an atom table. Also, the entire string must match in a search operation; no substring matching is performed.
@@ -72,23 +86,23 @@ Integer atoms differ from string atoms in the following ways:
 
 ## Atom Creation and Usage Count
 
-An application creates a local atom by calling the [**AddAtom**](addatom.md) function; it creates a global atom by calling the [**GlobalAddAtom**](globaladdatom.md) function. Both functions require a pointer to a string. The system searches the appropriate atom table for the string and returns the corresponding atom to the application. In the case of a string atom, if the string already resides in the atom table, the system increments the reference count for the string during this process.
+An application creates a local atom by calling the [**AddAtom**](/windows/win32/Winbase/nf-winbase-addatomw?branch=master) function; it creates a global atom by calling the [**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master) function. Both functions require a pointer to a string. The system searches the appropriate atom table for the string and returns the corresponding atom to the application. In the case of a string atom, if the string already resides in the atom table, the system increments the reference count for the string during this process.
 
-Repeated calls to add the same atom name return the same atom. If the atom name does not exist in the table when [**AddAtom**](addatom.md) is called, the atom name is added to the table and a new atom is returned. If it is a string atom, its reference count is also set to one.
+Repeated calls to add the same atom name return the same atom. If the atom name does not exist in the table when [**AddAtom**](/windows/win32/Winbase/nf-winbase-addatomw?branch=master) is called, the atom name is added to the table and a new atom is returned. If it is a string atom, its reference count is also set to one.
 
-An application should call the [**DeleteAtom**](deleteatom.md) function when it no longer needs to use a local atom; it should call the [**GlobalDeleteAtom**](globaldeleteatom.md) function when it no longer needs a global atom. In the case of a string atom, either of these functions reduces the reference count of the corresponding atom by one. When the reference count reaches zero, the system deletes the atom name from the table.
+An application should call the [**DeleteAtom**](/windows/win32/Winbase/nf-winbase-deleteatom?branch=master) function when it no longer needs to use a local atom; it should call the [**GlobalDeleteAtom**](/windows/win32/Winbase/nf-winbase-globaldeleteatom?branch=master) function when it no longer needs a global atom. In the case of a string atom, either of these functions reduces the reference count of the corresponding atom by one. When the reference count reaches zero, the system deletes the atom name from the table.
 
 The atom name of a string atom remains in the global atom table as long as its reference count is greater than zero, even after the application that placed it in the table terminates. A local atom table is destroyed when the associated application terminates, regardless of the reference counts of the atoms in the table.
 
 ## Atom-Table Queries
 
-An application can determine whether a particular string is already in an atom table by using the [**FindAtom**](findatom.md) or [**GlobalFindAtom**](globalfindatom.md) function. These functions search an atom table for the specified string and, if the string is there, return the corresponding atom.
+An application can determine whether a particular string is already in an atom table by using the [**FindAtom**](/windows/win32/Winbase/nf-winbase-findatoma?branch=master) or [**GlobalFindAtom**](/windows/win32/Winbase/nf-winbase-globalfindatoma?branch=master) function. These functions search an atom table for the specified string and, if the string is there, return the corresponding atom.
 
-An application can use the [**GetAtomName**](getatomname.md) or [**GlobalGetAtomName**](globalgetatomname.md) function to retrieve an atom-name string from an atom table, provided the application has the atom corresponding to the string being sought. Both functions copy the atom-name string of the specified atom to a buffer and return the length of the string that was copied. **GetAtomName** retrieves an atom-name string from a local atom table, and **GlobalGetAtomName** retrieves an atom-name string from the global atom table.
+An application can use the [**GetAtomName**](/windows/win32/Winbase/nf-winbase-getatomnamea?branch=master) or [**GlobalGetAtomName**](/windows/win32/Winbase/nf-winbase-globalgetatomnamea?branch=master) function to retrieve an atom-name string from an atom table, provided the application has the atom corresponding to the string being sought. Both functions copy the atom-name string of the specified atom to a buffer and return the length of the string that was copied. **GetAtomName** retrieves an atom-name string from a local atom table, and **GlobalGetAtomName** retrieves an atom-name string from the global atom table.
 
 ## Atom String Formats
 
-The [**AddAtom**](addatom.md), [**GlobalAddAtom**](globaladdatom.md), [**FindAtom**](findatom.md), and [**GlobalFindAtom**](globalfindatom.md) functions take a pointer to a null-terminated string. An application can specify this pointer in one of the following ways.
+The [**AddAtom**](/windows/win32/Winbase/nf-winbase-addatomw?branch=master), [**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master), [**FindAtom**](/windows/win32/Winbase/nf-winbase-findatoma?branch=master), and [**GlobalFindAtom**](/windows/win32/Winbase/nf-winbase-globalfindatoma?branch=master) functions take a pointer to a null-terminated string. An application can specify this pointer in one of the following ways.
 
 
 

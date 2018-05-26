@@ -1,7 +1,12 @@
 ---
 title: Flat Scroll Bars
 description: Microsoft Internet Explorer 4.0 introduced a new visual technology called flat scroll bars.
-ms.assetid: 'f7e00e71-bf12-4db9-bb84-6d413b967049'
+ms.assetid: f7e00e71-bf12-4db9-bb84-6d413b967049
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flat Scroll Bars
@@ -27,11 +32,11 @@ To use the flat scroll bar functions, you must include Commctrl.h in your source
 
 ### Adding Flat Scroll Bars to a Window
 
-To add flat scroll bars to a window, call [**InitializeFlatSB**](initializeflatsb.md), passing the handle to the window. Instead of using the standard scroll bar functions to manipulate your scroll bars, you must use the equivalent FlatSB\_XXX function. There are flat scroll bar functions for setting and retrieving the scroll information, range, and position. If flat scroll bars haven't been initialized for your window, the flat scroll bar API will defer to the corresponding standard functions, if any are used. This allows you to turn flat scroll bars on and off without having to write conditional code.
+To add flat scroll bars to a window, call [**InitializeFlatSB**](/windows/win32/Commctrl/nf-commctrl-initializeflatsb?branch=master), passing the handle to the window. Instead of using the standard scroll bar functions to manipulate your scroll bars, you must use the equivalent FlatSB\_XXX function. There are flat scroll bar functions for setting and retrieving the scroll information, range, and position. If flat scroll bars haven't been initialized for your window, the flat scroll bar API will defer to the corresponding standard functions, if any are used. This allows you to turn flat scroll bars on and off without having to write conditional code.
 
 Because an application may have set custom metrics for its flat scroll bars, they are not automatically updated when system metrics change. When the system scroll bar metrics change, a [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/windows/desktop/ms725497) message is broadcast, with its *wParam* set to [**SPI\_SETNONCLIENTMETRICS**](https://msdn.microsoft.com/library/windows/desktop/ms724947#spi-setnonclientmetrics). To update flat scroll bars to the new system metrics, applications must handle this message and change the flat scroll bar's metric-dependent properties explicitly.
 
-To update your scroll bar properties, use [**FlatSB\_SetScrollProp**](flatsb-setscrollprop.md). The following code fragment changes a flat scroll bar's metric dependent properties to the current system values.
+To update your scroll bar properties, use [**FlatSB\_SetScrollProp**](/windows/win32/Commctrl/nf-commctrl-flatsb_setscrollprop?branch=master). The following code fragment changes a flat scroll bar's metric dependent properties to the current system values.
 
 
 ```
@@ -50,9 +55,9 @@ FlatSB_SetScrollProp(hWnd, WSB_PROP_CYVTHUMB, GetSystemMetrics(SM_CYVTHUMB), TRU
 
 ### Enhancing Flat Scroll Bars
 
-[**FlatSB\_SetScrollProp**](flatsb-setscrollprop.md) allows you to modify the flat scroll bars to customize the look of your window. For vertical scroll bars, you can change the width of the bar and the height of the direction arrows. For horizontal scroll bars, you can change the height of the bar and the width of the direction arrows. You can also change the background color of both the horizontal and vertical scroll bars.
+[**FlatSB\_SetScrollProp**](/windows/win32/Commctrl/nf-commctrl-flatsb_setscrollprop?branch=master) allows you to modify the flat scroll bars to customize the look of your window. For vertical scroll bars, you can change the width of the bar and the height of the direction arrows. For horizontal scroll bars, you can change the height of the bar and the width of the direction arrows. You can also change the background color of both the horizontal and vertical scroll bars.
 
-[**FlatSB\_SetScrollProp**](flatsb-setscrollprop.md) also allows you to customize how the flat scroll bars are displayed. By changing the WSB\_PROP\_VSTYLE and WSB\_PROP\_HSTYLE properties, you can set the type of scroll bar that you want to use. Three styles are available.
+[**FlatSB\_SetScrollProp**](/windows/win32/Commctrl/nf-commctrl-flatsb_setscrollprop?branch=master) also allows you to customize how the flat scroll bars are displayed. By changing the WSB\_PROP\_VSTYLE and WSB\_PROP\_HSTYLE properties, you can set the type of scroll bar that you want to use. Three styles are available.
 
 
 
@@ -68,7 +73,7 @@ FlatSB_SetScrollProp(hWnd, WSB_PROP_CYVTHUMB, GetSystemMetrics(SM_CYVTHUMB), TRU
 
 ### Removing Flat Scroll Bars
 
-If you want to remove flat scroll bars from your window, call the [**UninitializeFlatSB**](uninitializeflatsb.md) function, passing the handle to the window. This function only removes flat scroll bars from your window at run time. You do not need to call this function when your window is destroyed.
+If you want to remove flat scroll bars from your window, call the [**UninitializeFlatSB**](/windows/win32/Commctrl/nf-commctrl-uninitializeflatsb?branch=master) function, passing the handle to the window. This function only removes flat scroll bars from your window at run time. You do not need to call this function when your window is destroyed.
 
  
 

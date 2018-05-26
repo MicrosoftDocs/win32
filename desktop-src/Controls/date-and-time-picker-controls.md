@@ -1,7 +1,12 @@
 ---
 title: About Date and Time Picker Controls
 description: A date and time picker (DTP) control provides a simple and intuitive interface through which to exchange date and time information with a user.
-ms.assetid: '6749c3ae-2c52-4183-ac4e-68ca7ebf1e13'
+ms.assetid: 6749c3ae-2c52-4183-ac4e-68ca7ebf1e13
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Date and Time Picker Controls
@@ -37,7 +42,7 @@ The following illustration shows a windows with three controls that contain the 
 
 The first control has been created with the [**DTS\_TIMEFORMAT**](date-and-time-picker-control-styles.md#dts-timeformat) style and shows the time in the default time, which consists of four fields. The user can type a valid value in any of these fields, or select the field and change the value by using the up-down control or arrow keys.
 
-The second control shows a custom format set by using [**DateTime\_SetFormat**](datetime-setformat.md). As with the first control, the user can change the time fields by typing or by using arrow keys. The day of the week can be changed by selecting a date from the calendar that opens when the user clicks on the down arrow.
+The second control shows a custom format set by using [**DateTime\_SetFormat**](/windows/win32/Commctrl/nf-commctrl-datetime_setformat?branch=master). As with the first control, the user can change the time fields by typing or by using arrow keys. The day of the week can be changed by selecting a date from the calendar that opens when the user clicks on the down arrow.
 
 The third control shows how arbitrary text can be added to the control. The user can select an hour (from 1 to 24) by typing, by using the arrow keys, or by using the up-down control.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetRequestCount method gets the number of requests in the request list.'
-ms.assetid: '4215ca86-9ceb-451d-8e67-992a8a3f9bab'
-title: 'IBidiRequestContainer::GetRequestCount method'
+---
+Description: The GetRequestCount method gets the number of requests in the request list.
+ms.assetid: 4215ca86-9ceb-451d-8e67-992a8a3f9bab
+title: IBidiRequestContainerGetRequestCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiRequestContainer::GetRequestCount method

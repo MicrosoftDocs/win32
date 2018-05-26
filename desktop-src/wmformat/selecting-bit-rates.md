@@ -1,8 +1,22 @@
 ---
 title: Selecting Bit Rates
 description: Selecting Bit Rates
-ms.assetid: '466524a6-2473-4768-8ae3-0ac18807f88c'
-keywords: ["profiles,choosing bit rates", "profiles,bit rates", "codecs,choosing bit rates", "codecs,bit rates", "profiles,selecting bit rates", "codecs,selecting bit rates", "bit rates,selecting", "bit rates,profiles", "bit rates,codecs"]
+ms.assetid: 466524a6-2473-4768-8ae3-0ac18807f88c
+keywords:
+- profiles,choosing bit rates
+- profiles,bit rates
+- codecs,choosing bit rates
+- codecs,bit rates
+- profiles,selecting bit rates
+- codecs,selecting bit rates
+- bit rates,selecting
+- bit rates,profiles
+- bit rates,codecs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selecting Bit Rates

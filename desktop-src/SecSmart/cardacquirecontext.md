@@ -1,8 +1,9 @@
 ---
 title: CardAcquireContext function
 description: Initializes communication between the smart card module and either the Microsoft Base Smart Card Cryptographic Service Provider (CSP) or smart card key storage provider (KSP).
-ms.assetid: 'b668f726-f817-4edc-8868-1130006c0b4e'
-keywords: ["CardAcquireContext function Security"]
+ms.assetid: b668f726-f817-4edc-8868-1130006c0b4e
+keywords:
+- CardAcquireContext function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardAcquireContext function
@@ -24,8 +30,8 @@ The **CardAcquireContext** function, defined by a smart card module, initializes
 
 ```C++
 DWORD WINAPI CardAcquireContext(
-  _In_ PCARD_DATA pCardData,
-  _In_ DWORD      dwFlags
+  _In_ PCARD_DATA pCardData,
+  _In_ DWORD      dwFlags
 );
 ```
 
@@ -66,7 +72,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,8 +84,8 @@ This function must be able to return multiple [**CARD\_DATA**](card-data.md) str
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -94,9 +100,9 @@ This function must be able to return multiple [**CARD\_DATA**](card-data.md) str
 [**CARD\_DATA**](card-data.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

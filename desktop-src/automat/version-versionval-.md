@@ -1,7 +1,12 @@
 ---
 title: version(versionval)
 description: Specifies a version number.
-ms.assetid: '5664680d-b8e1-450f-bd53-7b936b9eb8d2'
+ms.assetid: 5664680d-b8e1-450f-bd53-7b936b9eb8d2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # version(versionval)

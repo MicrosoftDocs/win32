@@ -1,8 +1,10 @@
 ---
 title: DRM\_ATTR\_DATATYPE enumeration
 description: The DRM\_ATTR\_DATATYPE enumeration defines the data types used for DRM attributes and properties.
-ms.assetid: 'ccad16e2-475d-4cc7-b773-f17038d2754a'
-keywords: ["DRM_ATTR_DATATYPE enumeration windows Media Format", "enumeration windows Media Format"]
+ms.assetid: ccad16e2-475d-4cc7-b773-f17038d2754a
+keywords:
+- DRM_ATTR_DATATYPE enumeration windows Media Format
+- enumeration windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_ATTR\_DATATYPE enumeration
@@ -22,13 +29,13 @@ The **DRM\_ATTR\_DATATYPE** enumeration defines the data types used for DRM attr
 
 ```C++
 typedef enum DRM_ATTR_DATATYPE { 
-  DRM_TYPE_DWORD   = 0,
-  DRM_TYPE_STRING  = 1,
-  DRM_TYPE_BINARY  = 2,
-  DRM_TYPE_BOOL    = 3,
-  DRM_TYPE_QWORD   = 4,
-  DRM_TYPE_WORD    = 5,
-  DRM_TYPE_GUID    = 6
+  DRM_TYPE_DWORD   = 0,
+  DRM_TYPE_STRING  = 1,
+  DRM_TYPE_BINARY  = 2,
+  DRM_TYPE_BOOL    = 3,
+  DRM_TYPE_QWORD   = 4,
+  DRM_TYPE_WORD    = 5,
+  DRM_TYPE_GUID    = 6
 } ;
 ```
 
@@ -104,9 +111,9 @@ The property is a 128-bit (6-byte) GUID value.
 [**Enumeration Types**](drm-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

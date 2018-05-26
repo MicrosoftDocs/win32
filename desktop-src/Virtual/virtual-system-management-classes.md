@@ -1,7 +1,12 @@
 ---
 title: Virtual System Management Classes
 description: Virtualization WMI classes related to virtual system management.
-ms.assetid: '65db7875-9bb9-4c38-bfe6-788f65aba06f'
+ms.assetid: 65db7875-9bb9-4c38-bfe6-788f65aba06f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual System Management Classes
@@ -34,7 +39,7 @@ The following are virtualization WMI classes related to virtual system managemen
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -43,9 +48,9 @@ The following are virtualization WMI classes related to virtual system managemen
 [Virtualization WMI Classes](virtualization-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

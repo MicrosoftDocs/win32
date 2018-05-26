@@ -1,7 +1,12 @@
 ---
-Description: 'The IsStreamTime method specifies whether the command is to be run at stream time or presentation time.'
-ms.assetid: '4fb315a4-1bc6-49c8-a47f-0a8a46f3f790'
-title: 'CDeferredCommand.IsStreamTime method'
+Description: The IsStreamTime method specifies whether the command is to be run at stream time or presentation time.
+ms.assetid: 4fb315a4-1bc6-49c8-a47f-0a8a46f3f790
+title: CDeferredCommand.IsStreamTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDeferredCommand.IsStreamTime method
@@ -43,9 +48,9 @@ Returns **TRUE** if set to stream time; otherwise, returns **FALSE**.
 [**CDeferredCommand Class**](cdeferredcommand.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

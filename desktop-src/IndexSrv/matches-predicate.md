@@ -1,7 +1,12 @@
 ---
 title: MATCHES Predicate
 description: MATCHES Predicate
-ms.assetid: 'b2e8291d-01ec-4eec-bee6-fc4d6dd48ef1'
+ms.assetid: b2e8291d-01ec-4eec-bee6-fc4d6dd48ef1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MATCHES Predicate

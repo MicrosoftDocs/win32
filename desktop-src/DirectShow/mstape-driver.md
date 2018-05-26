@@ -1,7 +1,12 @@
 ---
 Description: MSTape Driver
-ms.assetid: 'aa59f322-09b1-4b0a-be6f-d865c20f76e5'
+ms.assetid: aa59f322-09b1-4b0a-be6f-d865c20f76e5
 title: MSTape Driver
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSTape Driver
@@ -11,7 +16,7 @@ This topic applies to Windows XP or later.
 The MSTape driver supports D-VHS and MPEG camcorder devices. It is exposed to applications as the [WDM Video Capture](wdm-video-capture-filter.md) filter. Its functionality is similar to that of [MSDV](msdv-driver.md), the DV camcorder driver:
 
 -   It appears in the "Video Capture Sources" (CLSID\_VideoInputDeviceCategory) and "WDM Streaming Rendering Devices" (AM\_KSCATEGORY\_RENDER) filter categories.
--   An application can create an instance of the filter using the [**ICreateDevEnum**](icreatedevenum.md) interface.
+-   An application can create an instance of the filter using the [**ICreateDevEnum**](/windows/win32/Strmif/nn-strmif-icreatedevenum?branch=master) interface.
 -   It has an output pin for capture and transport from the device, and an input pin for transport to the device. Only one pin can be connected at time.
 
 **Media Types**

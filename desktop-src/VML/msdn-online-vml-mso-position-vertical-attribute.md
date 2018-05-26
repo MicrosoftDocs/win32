@@ -1,7 +1,12 @@
 ---
 title: VML MSO-Position-Vertical Attribute
 description: VML MSO-Position-Vertical Attribute
-ms.assetid: 'ff71a446-58c5-4431-aa82-d86858787444'
+ms.assetid: ff71a446-58c5-4431-aa82-d86858787444
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML MSO-Position-Vertical Attribute

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised when a media source starts without seeking.'
-ms.assetid: 'a52d8ee1-cb46-487d-a744-fca6db7c2353'
+---
+Description: Raised when a media source starts without seeking.
+ms.assetid: a52d8ee1-cb46-487d-a744-fca6db7c2353
 title: MESourceStarted event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESourceStarted event
@@ -10,7 +15,7 @@ Raised when a media source starts without seeking.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -37,13 +42,13 @@ The following attributes are defined for this event.
 
 ## Remarks
 
-A media source raises this event when it starts from a stopped state, or starts from a paused state at the same position in the source. The event is raised if the [**IMFMediaSource::Start**](imfmediasource-start.md) method returns S\_OK.
+A media source raises this event when it starts from a stopped state, or starts from a paused state at the same position in the source. The event is raised if the [**IMFMediaSource::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master) method returns S\_OK.
 
 If the media source starts from the current position and the source's previous state was running or paused, the event data can empty (VT\_EMPTY). If the event data is VT\_EMPTY, the media source might set the [**MF\_EVENT\_SOURCE\_ACTUAL\_START**](mf-event-source-actual-start-attribute.md) attribute with the actual starting time.
 
 If the media source starts from a new position, or the source's previous state was stopped, the event data must be the starting time (VT\_I8).
 
-If the [**Start**](imfmediasource-start.md) method causes a seek, the media source sends the [MESourceSeeked](mesourceseeked.md) event instead of MESourceStarted.
+If the [**Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master) method causes a seek, the media source sends the [MESourceSeeked](mesourceseeked.md) event instead of MESourceStarted.
 
 ## Requirements
 

@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Media Metadata
-ms.assetid: 'dd7c4bc9-e2a6-49cd-8f29-865a44d5b5c9'
+ms.assetid: dd7c4bc9-e2a6-49cd-8f29-865a44d5b5c9
 title: Media Metadata
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Metadata
@@ -14,7 +19,7 @@ Media files contain properties that describe the contents of the file. In Micros
 
 There are two ways to read metadata in Media Foundation:
 
--   The [**IMFMetadata**](imfmetadata.md) interface (Media Foundation version 1 metadata).
+-   The [**IMFMetadata**](/windows/win32/mfidl/nn-mfidl-imfmetadata?branch=master) interface (Media Foundation version 1 metadata).
 -   The Windows Shell [**IPropertyStore**](properties.IPropertyStore) interface (Shell metadata).
 
 Shell metadata pertains not only to media files but to a much wider range of files on the system.
@@ -79,7 +84,7 @@ Shell metadata in general does not require Windows 7, but Media Foundation did 
 |-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | [Shell Metadata Providers](shell-metadata-providers.md)<br/>                       | Starting in Windows 7, Media Foundation exposes metadata through the [**IPropertyStore**](properties.IPropertyStore) interface.<br/> |
 | [Metadata Properties for Media Files](metadata-properties-for-media-files.md)<br/> | This topic lists the most common metadata properties for media files.<br/>                                                           |
-| [Metadata Providers in Windows Vista](metadata-providers-in-windows-vista.md)<br/> | In Windows Vista, Media Foundation exposes metadata through the [**IMFMetadata**](imfmetadata.md) interface.<br/>                   |
+| [Metadata Providers in Windows Vista](metadata-providers-in-windows-vista.md)<br/> | In Windows Vista, Media Foundation exposes metadata through the [**IMFMetadata**](/windows/win32/mfidl/nn-mfidl-imfmetadata?branch=master) interface.<br/>                   |
 
 
 

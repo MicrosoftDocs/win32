@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a super-set of the information in both a SPLCLIENT\_INFO\_1 and SPLCLIENT\_INFO\_2 structure. It also contains additional information needed by the provider.'
-ms.assetid: '076ECB20-CFAD-4A16-9B01-6936E0DD7E50'
-title: 'SPLCLIENT\_INFO\_3\_VISTA structure'
+---
+Description: Contains a super-set of the information in both a SPLCLIENT\_INFO\_1 and SPLCLIENT\_INFO\_2 structure. It also contains additional information needed by the provider.
+ms.assetid: 076ECB20-CFAD-4A16-9B01-6936E0DD7E50
+title: SPLCLIENT\_INFO\_3\_VISTA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPLCLIENT\_INFO\_3\_VISTA structure

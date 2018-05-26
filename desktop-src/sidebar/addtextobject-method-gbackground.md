@@ -1,8 +1,11 @@
 ---
 title: background.addTextObject method
 description: Adds a g text element to the g background element.
-ms.assetid: '861e0fee-261f-4fa1-bc3b-891f4d7bed90'
-keywords: ["addTextObject method Windows Sidebar", "addTextObject method Windows Sidebar , background object", "background object Windows Sidebar , addTextObject method"]
+ms.assetid: 861e0fee-261f-4fa1-bc3b-891f4d7bed90
+keywords:
+- addTextObject method Windows Sidebar
+- addTextObject method Windows Sidebar , background object
+- background object Windows Sidebar , addTextObject method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # background.addTextObject method
@@ -103,10 +111,10 @@ var txtShadow = imgBackground.addTextObject("test", "Verdana", 25, "Red", 50, 50
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -125,9 +133,9 @@ var txtShadow = imgBackground.addTextObject("test", "Verdana", 25, "Red", 50, 50
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

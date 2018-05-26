@@ -1,8 +1,19 @@
 ---
 title: Metafile Playlists
 description: Metafile Playlists
-ms.assetid: '0afe3aaa-bcd1-4060-8772-add50f3b6bac'
-keywords: ["Windows Media metafile playlists,about", "playlists,about", "metafile playlists,about", "Windows Media metafile playlists,advantages", "playlists,advantages", "metafile playlists,advantages"]
+ms.assetid: 0afe3aaa-bcd1-4060-8772-add50f3b6bac
+keywords:
+- Windows Media metafile playlists,about
+- playlists,about
+- metafile playlists,about
+- Windows Media metafile playlists,advantages
+- playlists,advantages
+- metafile playlists,advantages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metafile Playlists

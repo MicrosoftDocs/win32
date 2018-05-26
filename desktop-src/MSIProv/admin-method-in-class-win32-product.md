@@ -1,8 +1,11 @@
 ---
 title: Admin method of the Win32\_Product class
 description: Performs an administrative install of an associated Win32\_Product using the installation package provided through the PackageLocation parameter, and any supplied command line options.
-ms.assetid: 'b2c60a2b-6aaf-43e3-9cb8-9cb49027a8bb'
-keywords: ["Admin method", "Admin method, Win32_Product class", "Win32_Product class, Admin method"]
+ms.assetid: b2c60a2b-6aaf-43e3-9cb8-9cb49027a8bb
+keywords:
+- Admin method
+- Admin method, Win32_Product class
+- Win32_Product class, Admin method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Admin method of the Win32\_Product class
@@ -20,7 +28,7 @@ The **Admin** [WMI class](https://msdn.microsoft.com/library/aa393244) method pe
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -29,9 +37,9 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Admin(
-  [in] string PackageLocation,
-  [in] string TargetLocation,
-  [in] string Options
+  [in] string PackageLocation,
+  [in] string TargetLocation,
+  [in] string Options
 );
 ```
 
@@ -73,7 +81,7 @@ Command line options for the upgrade. These should be in the form of *property**
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -81,8 +89,8 @@ Command line options for the upgrade. These should be in the form of *property**
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -102,9 +110,9 @@ Command line options for the upgrade. These should be in the form of *property**
 [WMI Tasks: Computer Software](https://msdn.microsoft.com/library/aa394588)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

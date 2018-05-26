@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.'
-ms.assetid: '2ee738c2-d56c-4a50-94b8-b7180918aa8c'
-title: 'D3DAES\_CTR\_IV structure'
+---
+Description: Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.
+ms.assetid: 2ee738c2-d56c-4a50-94b8-b7180918aa8c
+title: D3DAES\_CTR\_IV structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAES\_CTR\_IV structure
@@ -40,9 +45,9 @@ The block count, in big-endian format.
 
 ## Remarks
 
-The **D3DAES\_CTR\_IV** structure and the [**DXVA2\_AES\_CTR\_IV**](dxva2-aes-ctr-iv.md) structure are equivalent.
+The **D3DAES\_CTR\_IV** structure and the [**DXVA2\_AES\_CTR\_IV**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_aes_ctr_iv?branch=master) structure are equivalent.
 
-For details, see [**DXVA2\_AES\_CTR\_IV**](dxva2-aes-ctr-iv.md).
+For details, see [**DXVA2\_AES\_CTR\_IV**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_aes_ctr_iv?branch=master).
 
 ## Requirements
 

@@ -2,13 +2,15 @@
 title: RemoteAccessMonitoringConnectionLocal class
 description: Remote Access Monitoring Connection Record.
 audience: developer
-ms.assetid: '605e9fd5-a62b-4764-ae6e-0983f06c7e2a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 605e9fd5-a62b-4764-ae6e-0983f06c7e2a
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessMonitoringConnectionLocal class", "RemoteAccessMonitoringConnectionLocal class, described"]
+keywords:
+- RemoteAccessMonitoringConnectionLocal class
+- RemoteAccessMonitoringConnectionLocal class, described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessMonitoringConnectionLocal class
@@ -47,22 +52,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAServerPSProvider"), AMENDMENT]
 class RemoteAccessMonitoringConnectionLocal : RemoteAccessConnectionLocal
 {
-  string   ClientIPv4Address;
-  string   ClientIPv6Address;
-  string   HostName;
-  string   ClientExternalAddress;
-  string   TunnelType;
-  string   TransitionTechnology;
+  string   ClientIPv4Address;
+  string   ClientIPv6Address;
+  string   HostName;
+  string   ClientExternalAddress;
+  string   TunnelType;
+  string   TransitionTechnology;
   datetime ConnectionStartTime;
-  uint32   ConnectionDuration;
-  uint64   TotalBytesIn;
-  uint64   TotalBytesOut;
-  string   ConnectionType;
-  string   HealthStatus;
-  string   AuthMethod;
-  string   UserActivityState;
-  uint32   Bandwidth;
-  string   UserName[];
+  uint32   ConnectionDuration;
+  uint64   TotalBytesIn;
+  uint64   TotalBytesOut;
+  string   ConnectionType;
+  string   HealthStatus;
+  string   AuthMethod;
+  string   UserActivityState;
+  uint32   Bandwidth;
+  string   UserName[];
 };
 ```
 
@@ -667,16 +672,16 @@ Users in this connection
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\microsoft\\windows\\remoteaccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

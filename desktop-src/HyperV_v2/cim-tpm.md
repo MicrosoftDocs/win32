@@ -1,7 +1,12 @@
 ---
-Description: 'Describes a Trusted Platform Module (TPM) device.'
-ms.assetid: 'c923106f-126e-4e7e-822a-2fb715bbbc26'
-title: 'CIM\_TPM class'
+Description: Describes a Trusted Platform Module (TPM) device.
+ms.assetid: c923106f-126e-4e7e-822a-2fb715bbbc26
+title: CIM\_TPM class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_TPM class
@@ -46,7 +51,7 @@ The **CIM\_TPM** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -469,8 +474,8 @@ The target state to which the TPM is transitioning.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -484,9 +489,9 @@ The target state to which the TPM is transitioning.
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

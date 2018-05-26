@@ -1,7 +1,12 @@
 ---
 title: About Property Sheets
 description: A property sheet is a window that allows the user to view and edit the properties of an item.
-ms.assetid: '93676a64-7980-48cd-8615-23b14a118e1c'
+ms.assetid: 93676a64-7980-48cd-8615-23b14a118e1c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Property Sheets
@@ -43,7 +48,7 @@ A property sheet and the pages it contains are actually dialog boxes. The proper
 
 Each page in a property sheet is an application-defined modeless dialog box that manages the control windows used to view and edit the properties of an item. You provide the dialog box template used to create each page as well as the dialog box procedure that manages the controls and sets the properties of the corresponding item.
 
-A property sheet sends notification codes to the dialog box procedure for a page when the page is gaining or losing the activation and when the user clicks the **OK**, **Cancel**, **Apply**, or **Help** button. The notifications are sent in the form of [**WM\_NOTIFY**](wm-notify.md) messages. The *lParam* parameter is the address of an [**NMHDR**](nmhdr.md) structure that includes the window handle to the property sheet dialog box.
+A property sheet sends notification codes to the dialog box procedure for a page when the page is gaining or losing the activation and when the user clicks the **OK**, **Cancel**, **Apply**, or **Help** button. The notifications are sent in the form of [**WM\_NOTIFY**](wm-notify.md) messages. The *lParam* parameter is the address of an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure that includes the window handle to the property sheet dialog box.
 
 Some notification codes require a page to return either **TRUE** or **FALSE** in response to the [**WM\_NOTIFY**](wm-notify.md) message. To do this, the page must use the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function to set the **DWL\_MSGRESULT** value for the page dialog box to either **TRUE** or **FALSE**.
 
@@ -82,17 +87,17 @@ The property sheet is automatically sized to accommodate the largest page.
 
 ## Property Sheet Creation
 
-Before creating a property sheet, you must define one or more pages. This involves filling a [**PROPSHEETPAGE**](propsheetpage.md) structure with information about the page—its icon, label, dialog box template, dialog box procedure, and so on—and then specifying the address of the structure in a call to the [**CreatePropertySheetPage**](createpropertysheetpage.md) function. The function returns a handle to the HPROPSHEETPAGE type that uniquely identifies the page.
+Before creating a property sheet, you must define one or more pages. This involves filling a [**PROPSHEETPAGE**](/windows/win32/Prsht/ns-prsht-_propsheetpagea_v2?branch=master) structure with information about the page—its icon, label, dialog box template, dialog box procedure, and so on—and then specifying the address of the structure in a call to the [**CreatePropertySheetPage**](/windows/win32/Prsht/nf-prsht-createpropertysheetpagea?branch=master) function. The function returns a handle to the HPROPSHEETPAGE type that uniquely identifies the page.
 
-To create a property sheet, you specify the address of a [**PROPSHEETHEADER**](propsheetheader.md) structure in a call to the [**PropertySheet**](propertysheet.md) function. The structure defines the icon and title for the property sheet and also includes the address of an array of HPROPSHEETPAGE handles that you obtain by using [**CreatePropertySheetPage**](createpropertysheetpage.md). When **PropertySheet** creates the property sheet, it includes the pages identified in the array. The pages appear in the property sheet in the same order that they are contained in the array.
+To create a property sheet, you specify the address of a [**PROPSHEETHEADER**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master) structure in a call to the [**PropertySheet**](/windows/win32/Prsht/nf-prsht-propertysheeta?branch=master) function. The structure defines the icon and title for the property sheet and also includes the address of an array of HPROPSHEETPAGE handles that you obtain by using [**CreatePropertySheetPage**](/windows/win32/Prsht/nf-prsht-createpropertysheetpagea?branch=master). When **PropertySheet** creates the property sheet, it includes the pages identified in the array. The pages appear in the property sheet in the same order that they are contained in the array.
 
-Another way to assign pages to a property sheet is to specify an array of [**PROPSHEETPAGE**](propsheetpage.md) structures instead of an array of **HPROPSHEETPAGE** handles. In this case, [**PropertySheet**](propertysheet.md) creates handles for the pages before adding them to the property sheet.
+Another way to assign pages to a property sheet is to specify an array of [**PROPSHEETPAGE**](/windows/win32/Prsht/ns-prsht-_propsheetpagea_v2?branch=master) structures instead of an array of **HPROPSHEETPAGE** handles. In this case, [**PropertySheet**](/windows/win32/Prsht/nf-prsht-propertysheeta?branch=master) creates handles for the pages before adding them to the property sheet.
 
-When a page is created, its dialog box procedure receives a [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428) message. The message's *lParam* parameter is a pointer to a copy of the [**PROPSHEETPAGE**](propsheetpage.md) structure that is defined when the page is created. In particular, when a page is created, the structure's **lParam** member can be used to pass application-defined information to the dialog box procedure. With the exception of the **lParam** member, this structure must be treated as read-only. Modifying anything other than **lParam** will have unpredictable consequences.
+When a page is created, its dialog box procedure receives a [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428) message. The message's *lParam* parameter is a pointer to a copy of the [**PROPSHEETPAGE**](/windows/win32/Prsht/ns-prsht-_propsheetpagea_v2?branch=master) structure that is defined when the page is created. In particular, when a page is created, the structure's **lParam** member can be used to pass application-defined information to the dialog box procedure. With the exception of the **lParam** member, this structure must be treated as read-only. Modifying anything other than **lParam** will have unpredictable consequences.
 
-When the system subsequently passes a copy of the page's [**PROPSHEETPAGE**](propsheetpage.md) structure to your application, it uses the same pointer. Any changes to the structure will be passed along. Because the **lParam** member is ignored by the system, it can be modified to send information to other parts of your application. You can, for instance, use **lParam** to pass information to the page's [*PropSheetPageProc*](propsheetpageproc.md) callback function.
+When the system subsequently passes a copy of the page's [**PROPSHEETPAGE**](/windows/win32/Prsht/ns-prsht-_propsheetpagea_v2?branch=master) structure to your application, it uses the same pointer. Any changes to the structure will be passed along. Because the **lParam** member is ignored by the system, it can be modified to send information to other parts of your application. You can, for instance, use **lParam** to pass information to the page's [*PropSheetPageProc*](/windows/win32/Prsht/?branch=master) callback function.
 
-[**PropertySheet**](propertysheet.md) automatically sets the size and initial position of a property sheet. The position is based on the position of the owner window, and the size is based on the largest page specified in the array of pages when the property sheet was created. If you want the pages to match the width of the four buttons at the bottom of the property sheet, set the width of the widest page to 190 dialog units.
+[**PropertySheet**](/windows/win32/Prsht/nf-prsht-propertysheeta?branch=master) automatically sets the size and initial position of a property sheet. The position is based on the position of the owner window, and the size is based on the largest page specified in the array of pages when the property sheet was created. If you want the pages to match the width of the four buttons at the bottom of the property sheet, set the width of the widest page to 190 dialog units.
 
 The size of a property sheet is computed from the *width* and *height* properties of the dialog template in the resource file. See [**DIALOG Resource**](https://msdn.microsoft.com/library/windows/desktop/aa381003) or [**DIALOGEX Resource**](https://msdn.microsoft.com/library/windows/desktop/aa381002) for further details. Note, however, that for compatibility reasons, the dimensions are computed relative to the MS Shell Dlg font rather than the font used by the page. If you design a page that uses another font, one of the following suggestions can be used.
 
@@ -101,12 +106,12 @@ The size of a property sheet is computed from the *width* and *height* propertie
 
 ## Adding and Removing Pages
 
-After creating a property sheet, an application can add a page to the end of the existing set of pages by sending a [**PSM\_ADDPAGE**](psm-addpage.md) message. To insert a page between existing pages, send a [**PropSheet\_InsertPage**](propsheet-insertpage.md) message. Note that the size of the property sheet cannot change after it has been created. Any added or inserted pages must be no larger than the largest page currently in the property sheet. To remove a page, send a [**PSM\_REMOVEPAGE**](psm-removepage.md) message.
+After creating a property sheet, an application can add a page to the end of the existing set of pages by sending a [**PSM\_ADDPAGE**](psm-addpage.md) message. To insert a page between existing pages, send a [**PropSheet\_InsertPage**](/windows/win32/Prsht/nf-prsht-propsheet_insertpage?branch=master) message. Note that the size of the property sheet cannot change after it has been created. Any added or inserted pages must be no larger than the largest page currently in the property sheet. To remove a page, send a [**PSM\_REMOVEPAGE**](psm-removepage.md) message.
 
-When you define a page, you can specify the address of a [*PropSheetPageProc*](propsheetpageproc.md) callback function that the property sheet calls when it is creating or removing the page. Using *PropSheetPageProc* gives you an opportunity to perform initialization and cleanup operations for individual pages.
+When you define a page, you can specify the address of a [*PropSheetPageProc*](/windows/win32/Prsht/?branch=master) callback function that the property sheet calls when it is creating or removing the page. Using *PropSheetPageProc* gives you an opportunity to perform initialization and cleanup operations for individual pages.
 
 > [!Note]  
-> A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Do not add, insert, or remove pages in your implementation of [*PropSheetPageProc*](propsheetpageproc.md), or while handling the following notifications and Windows messages.
+> A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Do not add, insert, or remove pages in your implementation of [*PropSheetPageProc*](/windows/win32/Prsht/?branch=master), or while handling the following notifications and Windows messages.
 >
 > -   [PSN\_APPLY](psn-apply.md)
 > -   [PSN\_KILLACTIVE](psn-killactive.md)
@@ -119,15 +124,15 @@ When you define a page, you can specify the address of a [*PropSheetPageProc*](p
 
  
 
-If the need arises to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](propsheetpageproc.md) is in operation, post a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks, at which point it will be safe to modify the list of pages.
+If the need arises to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](/windows/win32/Prsht/?branch=master) is in operation, post a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks, at which point it will be safe to modify the list of pages.
 
-When a property sheet is destroyed, it automatically destroys all of the pages that have been added to it. The pages are destroyed in reverse order from that specified in the array used to create the pages. To destroy a page that was created by the [**CreatePropertySheetPage**](createpropertysheetpage.md) function but was not added to the property sheet, use the [**DestroyPropertySheetPage**](destroypropertysheetpage.md) function.
+When a property sheet is destroyed, it automatically destroys all of the pages that have been added to it. The pages are destroyed in reverse order from that specified in the array used to create the pages. To destroy a page that was created by the [**CreatePropertySheetPage**](/windows/win32/Prsht/nf-prsht-createpropertysheetpagea?branch=master) function but was not added to the property sheet, use the [**DestroyPropertySheetPage**](/windows/win32/Prsht/nf-prsht-destroypropertysheetpage?branch=master) function.
 
 ## Property Sheet Title and Page Labels
 
-You specify the title of a property sheet in the [**PROPSHEETHEADER**](propsheetheader.md) structure used to create the property sheet. If the **dwFlags** member includes the **PSH\_PROPTITLE** value, the property sheet adds the suffix "Properties" or the prefix "Properties for", depending on the version. You can change the title after a property sheet is created by using the [**PSM\_SETTITLE**](psm-settitle.md) message. In an Aero Wizard, this message can be used to change the title of an interior page dynamically.
+You specify the title of a property sheet in the [**PROPSHEETHEADER**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master) structure used to create the property sheet. If the **dwFlags** member includes the **PSH\_PROPTITLE** value, the property sheet adds the suffix "Properties" or the prefix "Properties for", depending on the version. You can change the title after a property sheet is created by using the [**PSM\_SETTITLE**](psm-settitle.md) message. In an Aero Wizard, this message can be used to change the title of an interior page dynamically.
 
-By default, a property sheet uses the name string specified in the dialog box template as the label for a page. You can override the name string by including the **PSP\_USETITLE** value in the **dwFlags** member of the [**PROPSHEETPAGE**](propsheetpage.md) structure that defines the page. When **PSP\_USETITLE** is specified, the **pszTitle** member must contain the address of the label string for the page.
+By default, a property sheet uses the name string specified in the dialog box template as the label for a page. You can override the name string by including the **PSP\_USETITLE** value in the **dwFlags** member of the [**PROPSHEETPAGE**](/windows/win32/Prsht/ns-prsht-_propsheetpagea_v2?branch=master) structure that defines the page. When **PSP\_USETITLE** is specified, the **pszTitle** member must contain the address of the label string for the page.
 
 ## Page Activation
 
@@ -143,8 +148,8 @@ Property sheets can display two Help buttons: a property sheet Help button that 
 
 The property sheet Help button is optional, and can be enabled on a page by page basis. To display the property sheet Help button for one or more pages:
 
--   Set the **PSH\_HASHELP** flag in the **dwFlags** member of the property sheet's [**PROPSHEETHEADER**](propsheetheader.md) structure.
--   For each page that will display a Help button, set the **PSP\_HASHELP** flag in the **dwFlags** member of the page's [**PROPSHEETPAGE**](propsheetpage.md) structure.
+-   Set the **PSH\_HASHELP** flag in the **dwFlags** member of the property sheet's [**PROPSHEETHEADER**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master) structure.
+-   For each page that will display a Help button, set the **PSP\_HASHELP** flag in the **dwFlags** member of the page's [**PROPSHEETPAGE**](/windows/win32/Prsht/ns-prsht-_propsheetpagea_v2?branch=master) structure.
 
 When the user clicks the Help button, the active page receives a [PSN\_HELP](psn-help.md) notification code. The page must respond by displaying Help information, typically by calling the [**WinHelp**](https://msdn.microsoft.com/library/windows/desktop/bb762267) function.
 
@@ -152,13 +157,13 @@ When the user clicks the Help button, the active page receives a [PSN\_HELP](psn
 
 The caption bar Help button is displayed by default, so that context-sensitive Help is always available for the OK/Cancel/Apply buttons. However, this button can be removed, if necessary. To remove a property sheet's caption bar Help button:
 
--   For versions of the common controls prior to [version 5.80](common-control-versions.md), you must implement a [**property sheet callback function**](propsheetproc.md).
--   For [version 5.80](common-control-versions.md) and later of the common controls, you can simply set the PSH\_NOCONTEXTHELP flag in the **dwFlags** member of the property sheet's [**PROPSHEETHEADER**](propsheetheader.md) structure. However, if you need backward compatibility with earlier common control versions, you must implement the callback function.
+-   For versions of the common controls prior to [version 5.80](common-control-versions.md), you must implement a [**property sheet callback function**](/windows/win32/Prsht/nc-prsht-pfnpropsheetcallback?branch=master).
+-   For [version 5.80](common-control-versions.md) and later of the common controls, you can simply set the PSH\_NOCONTEXTHELP flag in the **dwFlags** member of the property sheet's [**PROPSHEETHEADER**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master) structure. However, if you need backward compatibility with earlier common control versions, you must implement the callback function.
 
 To implement a property sheet callback function that removes the caption bar Help button:
 
--   Set the **PSH\_USECALLBACK** flag in the **dwFlags** member of the property sheet's [**PROPSHEETHEADER**](propsheetheader.md) structure.
--   Set the **pfnCallBack** member of the [**PROPSHEETHEADER**](propsheetheader.md) structure to point to the callback function.
+-   Set the **PSH\_USECALLBACK** flag in the **dwFlags** member of the property sheet's [**PROPSHEETHEADER**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master) structure.
+-   Set the **pfnCallBack** member of the [**PROPSHEETHEADER**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master) structure to point to the callback function.
 -   Implement the callback function. When this function receives the **PSCB\_PRECREATE** message, it will also receive a pointer to the property sheet's dialog box template. Remove the **DS\_CONTEXTHELP** style from this template.
 
 The following sample illustrates how to implement such a callback function:
@@ -229,7 +234,7 @@ The **Apply** button is initially disabled when a page becomes active, indicatin
 
 Sometimes the **Apply** button causes a page to make a change to a property sheet, and the change cannot be undone. When this happens, the page must send the [**PSM\_CANCELTOCLOSE**](psm-canceltoclose.md) message to the property sheet. The message causes the property sheet to change the text of the **OK** button to "Close," indicating that the applied changes cannot be canceled.
 
-Sometimes a page makes a change to the system configuration that requires Windows to be restarted or the system rebooted before the change can take effect. After making such a change, a page must send either the [**PSM\_RESTARTWINDOWS**](psm-restartwindows.md) or [**PSM\_REBOOTSYSTEM**](psm-rebootsystem.md) message to the property sheet. These messages cause the [**PropertySheet**](propertysheet.md) function to return the **ID\_PSRESTARTWINDOWS** or **ID\_PSREBOOTSYSTEM** value after the property sheet is destroyed.
+Sometimes a page makes a change to the system configuration that requires Windows to be restarted or the system rebooted before the change can take effect. After making such a change, a page must send either the [**PSM\_RESTARTWINDOWS**](psm-restartwindows.md) or [**PSM\_REBOOTSYSTEM**](psm-rebootsystem.md) message to the property sheet. These messages cause the [**PropertySheet**](/windows/win32/Prsht/nf-prsht-propertysheeta?branch=master) function to return the **ID\_PSRESTARTWINDOWS** or **ID\_PSREBOOTSYSTEM** value after the property sheet is destroyed.
 
 When a user clicks the **Cancel** button, the property sheet sends the [PSN\_RESET](psn-reset.md) notification code to all pages, indicating that the property sheet is about to be destroyed. A page must use the notification to perform cleanup operations.
 

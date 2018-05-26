@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSetupData method retrieves the registration data for the filter.'
-ms.assetid: '93582c75-4f40-492c-919c-c8a06dce7715'
-title: 'CBaseFilter.GetSetupData method'
+Description: The GetSetupData method retrieves the registration data for the filter.
+ms.assetid: 93582c75-4f40-492c-919c-c8a06dce7715
+title: CBaseFilter.GetSetupData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.GetSetupData method
@@ -11,7 +16,7 @@ The `GetSetupData` method retrieves the registration data for the filter.
 > [!Note]  
 > This method is obsolete. It is called by the [**CBaseFilter::Register**](cbasefilter-register.md) and [**CBaseFilter::Unregister**](cbasefilter-unregister.md) methods.
 
- 
+ 
 
 ## Syntax
 
@@ -52,9 +57,9 @@ The base class returns **NULL**.
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

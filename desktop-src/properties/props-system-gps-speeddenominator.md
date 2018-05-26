@@ -1,7 +1,12 @@
 ---
-Description: 'The denominator of PKEY\_GPS\_Speed.'
-ms.assetid: 'cbe5b6cd-db27-47f0-9458-d2ed9a7aa882'
-title: 'System.GPS.SpeedDenominator'
+Description: The denominator of PKEY\_GPS\_Speed.
+ms.assetid: cbe5b6cd-db27-47f0-9458-d2ed9a7aa882
+title: System.GPS.SpeedDenominator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.SpeedDenominator

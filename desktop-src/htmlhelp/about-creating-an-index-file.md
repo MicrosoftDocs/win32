@@ -1,7 +1,12 @@
 ---
 title: About Creating an Index File
 description: About Creating an Index File
-ms.assetid: 'A010B31E-D397-4051-9645-DEDFC9D2F1E0'
+ms.assetid: A010B31E-D397-4051-9645-DEDFC9D2F1E0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Creating an Index File

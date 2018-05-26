@@ -1,12 +1,17 @@
 ---
-Description: 'Commit Custom actions are executed upon successful completion of the installation script.'
-ms.assetid: 'ad766585-e8ac-44b6-9717-7979f803886c'
+Description: Commit Custom actions are executed upon successful completion of the installation script.
+ms.assetid: ad766585-e8ac-44b6-9717-7979f803886c
 title: Commit Custom Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Commit Custom Actions
 
-Commit Custom actions are executed upon successful completion of the installation script. If the [InstallFinalize action](installfinalize-action.md) is successful, the installer will then run any existing Commit Custom actions. The only mode parameter the installer sets in this case is MSIRUNMODE\_COMMIT. See [**MsiGetMode**](msigetmode.md) for a description of the run mode parameters.
+Commit Custom actions are executed upon successful completion of the installation script. If the [InstallFinalize action](installfinalize-action.md) is successful, the installer will then run any existing Commit Custom actions. The only mode parameter the installer sets in this case is MSIRUNMODE\_COMMIT. See [**MsiGetMode**](/windows/win32/Msiquery/nf-msiquery-msigetmode?branch=master) for a description of the run mode parameters.
 
 A commit custom action can be specified by adding an option flag to the Type field of the [CustomAction table](customaction-table.md). See [Custom Action In-Script Execution Options](custom-action-in-script-execution-options.md) for the option flag designating a commit custom action.
 

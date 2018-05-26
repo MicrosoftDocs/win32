@@ -1,8 +1,11 @@
 ---
 title: INapComponentConfig InvokeUI method
 description: Launches a customized user interface for a system health validator (SHV) component.
-ms.assetid: 'da2a5e3e-bc17-4984-bdbe-b72e9e710a9d'
-keywords: ["InvokeUI method NAP", "InvokeUI method NAP , INapComponentConfig interface", "INapComponentConfig interface NAP , InvokeUI method"]
+ms.assetid: da2a5e3e-bc17-4984-bdbe-b72e9e710a9d
+keywords:
+- InvokeUI method NAP
+- InvokeUI method NAP , INapComponentConfig interface
+- INapComponentConfig interface NAP , InvokeUI method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentConfig::InvokeUI method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **InvokeUI** method launches a customized user interface for a system health validator (SHV) component.
 
@@ -27,7 +35,7 @@ The **InvokeUI** method launches a customized user interface for a system health
 
 ```C++
 HRESULT InvokeUI(
-  [in] HWND hwndParent
+  [in] HWND hwndParent
 ) const;
 ```
 
@@ -59,7 +67,7 @@ Returns one of the following error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -72,7 +80,7 @@ This method call should block until the SHV user interface exits.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -88,9 +96,9 @@ This method call should block until the SHV user interface exits.
 [**INapComponentConfig::IsUISupported**](inapcomponentconfig-isuisupported.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

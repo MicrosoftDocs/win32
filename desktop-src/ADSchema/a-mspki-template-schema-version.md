@@ -4,17 +4,22 @@ description: Keeps track of schema updates of the PKI-Certificate-Template class
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7ad55f1a-cdb9-4eea-bd09-db4f5e6373ba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7ad55f1a-cdb9-4eea-bd09-db4f5e6373ba
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-PKI-Template-Schema-Version attribute AD Schema", "msPKI-Template-Schema-Version attribute AD Schema"]
+keywords:
+- ms-PKI-Template-Schema-Version attribute AD Schema
+- msPKI-Template-Schema-Version attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-PKI-Template-Schema-Version
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-PKI-Template-Schema-Version attribute
@@ -38,11 +43,11 @@ Keeps track of schema updates of the PKI-Certificate-Template class.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Keeps track of schema updates of the PKI-Certificate-Template class.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

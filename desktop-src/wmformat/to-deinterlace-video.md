@@ -1,8 +1,25 @@
 ---
 title: To Deinterlace Video
 description: To Deinterlace Video
-ms.assetid: '60e6af09-fde1-4e4a-b54c-4923c0549b6b'
-keywords: ["Windows Media Format SDK,deinterlaced video", "Windows Media Format SDK,inverse telecine", "Windows Media Format SDK,telecine", "Advanced Systems Format (ASF),deinterlaced video", "ASF (Advanced Systems Format),deinterlaced video", "Advanced Systems Format (ASF),inverse telecine", "ASF (Advanced Systems Format),inverse telecine", "Advanced Systems Format (ASF),telecine", "ASF (Advanced Systems Format),telecine", "deinterlaced video", "inverse telecine,about", "telecine,about"]
+ms.assetid: 60e6af09-fde1-4e4a-b54c-4923c0549b6b
+keywords:
+- Windows Media Format SDK,deinterlaced video
+- Windows Media Format SDK,inverse telecine
+- Windows Media Format SDK,telecine
+- Advanced Systems Format (ASF),deinterlaced video
+- ASF (Advanced Systems Format),deinterlaced video
+- Advanced Systems Format (ASF),inverse telecine
+- ASF (Advanced Systems Format),inverse telecine
+- Advanced Systems Format (ASF),telecine
+- ASF (Advanced Systems Format),telecine
+- deinterlaced video
+- inverse telecine,about
+- telecine,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Deinterlace Video
@@ -11,7 +28,7 @@ Some sources of video, such as video capture cards, deliver video data for inter
 
 When you want to display video on a computer monitor, each frame of the video should be displayed as one image (this method of displaying video one whole frame at a time is called *progressive* video.) If you display interlaced video progressively, the frames may not look right, because of the time difference between the two fields. The Windows Media Video codec and the Windows Media Video Advanced Profile codec both support a preprocessing feature that converts interlaced content into progressive frames.
 
-To have the codec deinterlace input video, call the [**IWMWriterAdvanced2::SetInputSetting**](iwmwriteradvanced2-setinputsetting.md) method. The setting to use is g\_wszDeinterlaceMode. Set the deinterlacing mode to one of the following values.
+To have the codec deinterlace input video, call the [**IWMWriterAdvanced2::SetInputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting?branch=master) method. The setting to use is g\_wszDeinterlaceMode. Set the deinterlacing mode to one of the following values.
 
 
 
@@ -75,7 +92,7 @@ To have the codec deinterlace input video, call the [**IWMWriterAdvanced2::SetIn
 
 
 
- 
+ 
 
 For mixed content, set the deinterlacing mode as needed before passing samples of a new type. For example, to start encoding with progressive input, you don't need to set any deinterlacing mode. If some samples then require normal deinterlacing, you must set the deinterlacing mode to WM\_DM\_DEINTERLACE\_NORMAL. To then process additional progressive samples you must set the deinterlacing mode to WM\_DM\_NOTINTERLACED.
 
@@ -83,7 +100,7 @@ For mixed content, set the deinterlacing mode as needed before passing samples o
 
 For a description of inverse telecine, see [To Use Inverse Telecine](to-use-inverse-telecine.md).
 
-If you set the deinterlacing mode to WM\_DM\_DEINTERLACE\_INVERSETELECINE, you can specify the telecine pattern of the first input frame by calling the [**IWMWriterAdvanced2::SetInputSetting**](iwmwriteradvanced2-setinputsetting.md). The setting to use is g\_wszInitialPatternForInverseTelecine. Set the initial pattern to one of the following values.
+If you set the deinterlacing mode to WM\_DM\_DEINTERLACE\_INVERSETELECINE, you can specify the telecine pattern of the first input frame by calling the [**IWMWriterAdvanced2::SetInputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting?branch=master). The setting to use is g\_wszInitialPatternForInverseTelecine. Set the initial pattern to one of the following values.
 
 
 
@@ -103,7 +120,7 @@ If you set the deinterlacing mode to WM\_DM\_DEINTERLACE\_INVERSETELECINE, you c
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -112,9 +129,9 @@ If you set the deinterlacing mode to WM\_DM\_DEINTERLACE\_INVERSETELECINE, you c
 [**Advanced Topics**](advanced-topics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

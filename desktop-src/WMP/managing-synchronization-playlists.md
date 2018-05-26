@@ -1,8 +1,34 @@
 ---
 title: Managing Synchronization Playlists
 description: Managing Synchronization Playlists
-ms.assetid: '5891ada0-37a6-4256-9885-8aa9dbe98b7c'
-keywords: ["Windows Media Player,portable devices", "Windows Media Player object model,portable devices", "object model,portable devices", "Windows Media Player ActiveX control,portable devices", "ActiveX control,portable devices", "Windows Media Player Mobile ActiveX control,portable devices", "Windows Media Player Mobile,portable devices", "portable devices,managing synchronization playlists", "device synchronization,playlists", "synchronizing devices,playlists", "Windows Media Player,synchronization playlists", "Windows Media Player object model,synchronization playlists", "object model,synchronization playlists", "Windows Media Player Mobile,synchronization playlists", "Windows Media Player ActiveX control,synchronization playlists", "Windows Media Player Mobile ActiveX control,synchronization playlists", "ActiveX control,synchronization playlists", "playlists,synchronization", "metafile playlists,synchronization", "Windows Media metafile playlists,synchronization", "synchronization playlists,managing"]
+ms.assetid: 5891ada0-37a6-4256-9885-8aa9dbe98b7c
+keywords:
+- Windows Media Player,portable devices
+- Windows Media Player object model,portable devices
+- object model,portable devices
+- Windows Media Player ActiveX control,portable devices
+- ActiveX control,portable devices
+- Windows Media Player Mobile ActiveX control,portable devices
+- Windows Media Player Mobile,portable devices
+- portable devices,managing synchronization playlists
+- device synchronization,playlists
+- synchronizing devices,playlists
+- Windows Media Player,synchronization playlists
+- Windows Media Player object model,synchronization playlists
+- object model,synchronization playlists
+- Windows Media Player Mobile,synchronization playlists
+- Windows Media Player ActiveX control,synchronization playlists
+- Windows Media Player Mobile ActiveX control,synchronization playlists
+- ActiveX control,synchronization playlists
+- playlists,synchronization
+- metafile playlists,synchronization
+- Windows Media metafile playlists,synchronization
+- synchronization playlists,managing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Synchronization Playlists

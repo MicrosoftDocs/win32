@@ -1,13 +1,26 @@
 ---
 title: Assigning Input Formats
 description: Assigning Input Formats
-ms.assetid: '44c4ed7e-b35e-4ab5-9975-021f343dab6a'
-keywords: ["Advanced Systems Format (ASF),assigning input formats", "ASF (Advanced Systems Format),assigning input formats", "profiles,assigning input formats", "codecs,assigning input formats", "Advanced Systems Format (ASF),input format assignments", "ASF (Advanced Systems Format),input format assignments", "profiles,input format assignments", "codecs,input format assignments"]
+ms.assetid: 44c4ed7e-b35e-4ab5-9975-021f343dab6a
+keywords:
+- Advanced Systems Format (ASF),assigning input formats
+- ASF (Advanced Systems Format),assigning input formats
+- profiles,assigning input formats
+- codecs,assigning input formats
+- Advanced Systems Format (ASF),input format assignments
+- ASF (Advanced Systems Format),input format assignments
+- profiles,input format assignments
+- codecs,input format assignments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assigning Input Formats
 
-When you have identified the input format that matches your data, you can set it for use by the writer by calling [**IWMWriter::SetInputProps**](iwmwriter-setinputprops.md).
+When you have identified the input format that matches your data, you can set it for use by the writer by calling [**IWMWriter::SetInputProps**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-setinputprops?branch=master).
 
 For video streams, you must set the size of the frames in the input samples. The following example code demonstrates how to configure and set a video input. It uses the **FindInputFormat** function defined in the [To Enumerate Input Formats](to-enumerate-input-formats.md) section to get the input format for 24-bit RGB video. For more information about using this code, see [Using the Code Examples](using-the-code-examples.md).
 

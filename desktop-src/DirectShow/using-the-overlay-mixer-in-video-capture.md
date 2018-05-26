@@ -1,7 +1,12 @@
 ---
 Description: Using the Overlay Mixer in Video Capture
-ms.assetid: '43468fa2-6dea-439d-9e24-f47a053ad561'
+ms.assetid: 43468fa2-6dea-439d-9e24-f47a053ad561
 title: Using the Overlay Mixer in Video Capture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Overlay Mixer in Video Capture
@@ -9,7 +14,7 @@ title: Using the Overlay Mixer in Video Capture
 There are certain kinds of video that the [Video Renderer](video-renderer-filter.md) filter cannot display by itself. In these situations, the Video Renderer must work with the [Overlay Mixer](overlay-mixer-filter.md) filter. The Overlay Mixer manages the rendering, while the Video Renderer manages the video window. The Overlay Mixer is needed in the following situations:
 
 -   Video port (VP) pins. If the capture device uses a video port, the Overlay Mixer manages the hardware overlay.
--   Interlaced video. For interlaced video, the decoder requires a [**VIDEOINFOHEADER2**](videoinfoheader2.md) format, which the Video Renderer does not support.
+-   Interlaced video. For interlaced video, the decoder requires a [**VIDEOINFOHEADER2**](/windows/win32/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2?branch=master) format, which the Video Renderer does not support.
 -   Closed captions. The caption text is rendered as 8-bits-per-pixel bitmaps, which the Overlay Mixer overlays onto the video.
 
 The Capture Graph Builder's **RenderStream** method inserts the Overlay Mixer whenever needed. If you are building the graph without using the Capture Graph Builder, however, you must check for each of these situations and insert the Overlay Mixer yourself.

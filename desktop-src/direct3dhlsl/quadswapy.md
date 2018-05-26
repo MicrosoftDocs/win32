@@ -1,14 +1,20 @@
 ---
 title: QuadReadAccrossY function
 description: Returns the specified source value read from the other lane in this quad in the Y direction.
-ms.assetid: '6C03D1E6-433F-4CCA-A5EA-C3F34BB2B93B'
-keywords: ["QuadSwapY function HLSL"]
+ms.assetid: 6C03D1E6-433F-4CCA-A5EA-C3F34BB2B93B
+keywords:
+- QuadSwapY function HLSL
 topic_type:
 - apiref
 api_name:
 - QuadSwapY
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QuadReadAccrossY function

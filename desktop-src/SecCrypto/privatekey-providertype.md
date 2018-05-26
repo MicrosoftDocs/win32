@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a value of the CAPICOM\_PROV\_TYPE enumeration that specifies the type of provider.'
-ms.assetid: 'bc6a579f-5532-45e3-97f4-adcde2cd29e5'
-title: 'PrivateKey.ProviderType property'
+---
+Description: Retrieves a value of the CAPICOM\_PROV\_TYPE enumeration that specifies the type of provider.
+ms.assetid: bc6a579f-5532-45e3-97f4-adcde2cd29e5
+title: PrivateKey.ProviderType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrivateKey.ProviderType property

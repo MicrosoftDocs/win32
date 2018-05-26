@@ -1,7 +1,12 @@
 ---
-Description: 'A relationship that indicates that two or more devices are connected together.'
-ms.assetid: '84282740-f60f-46fa-95b7-b52a7e6efcc4'
-title: 'CIM\_DeviceConnection class'
+Description: A relationship that indicates that two or more devices are connected together.
+ms.assetid: 84282740-f60f-46fa-95b7-b52a7e6efcc4
+title: CIM\_DeviceConnection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_DeviceConnection class
@@ -16,8 +21,8 @@ class CIM_DeviceConnection : CIM_Dependency
 {
   CIM_LogicalDevice REF Antecedent;
   CIM_LogicalDevice REF Dependent;
-  uint64                NegotiatedSpeed;
-  uint32                NegotiatedDataWidth;
+  uint64                NegotiatedSpeed;
+  uint32                NegotiatedDataWidth;
 };
 ```
 
@@ -103,8 +108,8 @@ When several bus and connection speeds are possible, this property defines the s
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -118,9 +123,9 @@ When several bus and connection speeds are possible, this property defines the s
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

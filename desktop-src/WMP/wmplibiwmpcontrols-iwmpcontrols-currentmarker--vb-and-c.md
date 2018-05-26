@@ -1,8 +1,11 @@
 ---
 title: IWMPControls currentMarker property
 description: The currentMarker property gets or sets the current marker number.
-ms.assetid: 'faf8c32a-66de-47ce-aa3d-6699d9f9bdda'
-keywords: ["currentMarker property Windows Media Player", "currentMarker property Windows Media Player , IWMPControls interface", "IWMPControls interface Windows Media Player , currentMarker property"]
+ms.assetid: faf8c32a-66de-47ce-aa3d-6699d9f9bdda
+keywords:
+- currentMarker property Windows Media Player
+- currentMarker property Windows Media Player , IWMPControls interface
+- IWMPControls interface Windows Media Player , currentMarker property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls::currentMarker property
@@ -139,9 +147,9 @@ End Sub</code></pre></td>
 [**IWMPMedia.markerCount (VB and C#)**](wmplibiwmpmedia-iwmpmedia-markercount--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

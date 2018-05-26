@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the specified color is an RGB color.'
-ms.assetid: '16b48644-c2d5-4383-836a-122f44504638'
+---
+Description: Specifies whether the specified color is an RGB color.
+ms.assetid: 16b48644-c2d5-4383-836a-122f44504638
 title: FRGBIMEColorStyle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FRGBIMEColorStyle function

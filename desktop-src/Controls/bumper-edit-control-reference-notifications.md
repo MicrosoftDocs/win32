@@ -1,7 +1,12 @@
 ---
 title: Edit Control Notifications
 description: .
-ms.assetid: '04ec89f4-a061-4c3f-99de-fdb42596ecca'
+ms.assetid: 04ec89f4-a061-4c3f-99de-fdb42596ecca
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Edit Control Notifications

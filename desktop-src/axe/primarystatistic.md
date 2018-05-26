@@ -1,14 +1,20 @@
 ---
 title: PrimaryStatistic element
 description: Describes the primary descriptive statistic for the metric recommended by the assessment author.
-ms.assetid: '9F6AFFBE-4681-48FF-8F82-5A3AE77C4752'
-keywords: ["PrimaryStatistic element Access Execution Engine"]
+ms.assetid: 9F6AFFBE-4681-48FF-8F82-5A3AE77C4752
+keywords:
+- PrimaryStatistic element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - PrimaryStatistic
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrimaryStatistic element
@@ -76,9 +82,9 @@ There are no attributes.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

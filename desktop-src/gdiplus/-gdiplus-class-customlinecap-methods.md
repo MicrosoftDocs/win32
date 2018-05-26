@@ -1,26 +1,31 @@
 ---
-Description: 'This topic lists the methods of the CustomLineCap class. For a complete class listing, see CustomLineCap Class.'
-ms.assetid: 'f0fc73f2-375b-4d7f-a0ac-1606ba6afeef'
+Description: This topic lists the methods of the CustomLineCap class. For a complete class listing, see CustomLineCap Class.
+ms.assetid: f0fc73f2-375b-4d7f-a0ac-1606ba6afeef
 title: CustomLineCap Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CustomLineCap Methods
 
-This topic lists the methods of the [**CustomLineCap**](-gdiplus-class-customlinecap-class.md) class. For a complete class listing, see **CustomLineCap Class**.
+This topic lists the methods of the [**CustomLineCap**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-customlinecap?branch=master) class. For a complete class listing, see **CustomLineCap Class**.
 
--   [**Clone**](-gdiplus-class-customlinecap-clone-.md)
--   [**GetBaseCap**](-gdiplus-class-customlinecap-getbasecap-.md)
--   [**GetBaseInset**](-gdiplus-class-customlinecap-getbaseinset-.md)
--   [**GetLastStatus**](-gdiplus-class-customlinecap-getlaststatus-.md)
--   [**GetStrokeCaps**](-gdiplus-class-customlinecap-getstrokecaps-startcap-endcap-.md)
--   [**GetStrokeJoin**](-gdiplus-class-customlinecap-getstrokejoin-.md)
--   [**GetWidthScale**](-gdiplus-class-customlinecap-getwidthscale-.md)
--   [**SetBaseCap**](-gdiplus-class-customlinecap-setbasecap-basecap-.md)
--   [**SetBaseInset**](-gdiplus-class-customlinecap-setbaseinset-inset-.md)
--   [**SetStrokeCap**](-gdiplus-class-customlinecap-setstrokecap-strokecap-.md)
--   [**SetStrokeCaps**](-gdiplus-class-customlinecap-setstrokecaps-startcap-endcap-.md)
--   [**SetStrokeJoin**](-gdiplus-class-customlinecap-setstrokejoin-linejoin-.md)
--   [**SetWidthScale**](-gdiplus-class-customlinecap-setwidthscale-widthscale-.md)
+-   [**Clone**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-customlinecap-clone?branch=master)
+-   [**GetBaseCap**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-customlinecap-getbasecap?branch=master)
+-   [**GetBaseInset**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-customlinecap-getbaseinset?branch=master)
+-   [**GetLastStatus**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-customlinecap-getlaststatus?branch=master)
+-   [**GetStrokeCaps**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-customlinecap-getstrokecaps?branch=master)
+-   [**GetStrokeJoin**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-customlinecap-getstrokejoin?branch=master)
+-   [**GetWidthScale**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-customlinecap-getwidthscale?branch=master)
+-   [**SetBaseCap**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-customlinecap-setbasecap?branch=master)
+-   [**SetBaseInset**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-customlinecap-setbaseinset?branch=master)
+-   [**SetStrokeCap**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-customlinecap-setstrokecap?branch=master)
+-   [**SetStrokeCaps**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-customlinecap-setstrokecaps?branch=master)
+-   [**SetStrokeJoin**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-customlinecap-setstrokejoin?branch=master)
+-   [**SetWidthScale**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-customlinecap-setwidthscale?branch=master)
 
  
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetHeadPositionI method retrieves the position of the first item in the list.'
-ms.assetid: 'a18c01dc-6bff-4250-9970-fe378decadf7'
-title: 'CBaseList.GetHeadPositionI method'
+Description: The GetHeadPositionI method retrieves the position of the first item in the list.
+ms.assetid: a18c01dc-6bff-4250-9970-fe378decadf7
+title: CBaseList.GetHeadPositionI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.GetHeadPositionI method
@@ -43,9 +48,9 @@ Returns a POSITION value, or **NULL** if the list is empty.
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

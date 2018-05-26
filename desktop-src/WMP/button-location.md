@@ -1,8 +1,17 @@
 ---
 title: Button Location
 description: Button Location
-ms.assetid: 'aaab7461-1694-4913-a97b-71dde9592dbe'
-keywords: ["Windows Media Player Mobile skins,button location", "skins,button location", "reference for skins,buttons", "buttons in skins,location"]
+ms.assetid: aaab7461-1694-4913-a97b-71dde9592dbe
+keywords:
+- Windows Media Player Mobile skins,button location
+- skins,button location
+- reference for skins,buttons
+- buttons in skins,location
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button Location

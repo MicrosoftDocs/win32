@@ -1,7 +1,12 @@
 ---
-Description: 'The owner of the file, as known by the file system.'
-ms.assetid: '3d07eba9-7d80-4b37-9836-6637da57a724'
-title: 'System.FileOwner'
+Description: The owner of the file, as known by the file system.
+ms.assetid: 3d07eba9-7d80-4b37-9836-6637da57a724
+title: System.FileOwner
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FileOwner

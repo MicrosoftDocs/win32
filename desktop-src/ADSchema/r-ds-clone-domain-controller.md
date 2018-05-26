@@ -4,17 +4,21 @@ description: Allow a DC to create a clone of itself.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dc41356b-9ad7-4e89-b5c8-945f3cc37cbc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: dc41356b-9ad7-4e89-b5c8-945f3cc37cbc
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["DS-Clone-Domain-Controller extended right AD Schema"]
+keywords:
+- DS-Clone-Domain-Controller extended right AD Schema
 topic_type:
 - apiref
 api_name:
 - DS-Clone-Domain-Controller
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DS-Clone-Domain-Controller extended right
@@ -33,7 +37,7 @@ Allow a DC to create a clone of itself.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -46,9 +50,9 @@ Allow a DC to create a clone of itself.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

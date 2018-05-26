@@ -1,8 +1,9 @@
 ---
 title: LB\_GETTOPINDEX message
 description: Gets the index of the first visible item in a list box.
-ms.assetid: 'c051cb34-c358-4696-80b0-28c627a0a862'
-keywords: ["LB_GETTOPINDEX message Windows Controls"]
+ms.assetid: c051cb34-c358-4696-80b0-28c627a0a862
+keywords:
+- LB_GETTOPINDEX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_GETTOPINDEX message
@@ -45,8 +51,8 @@ The return value is the index of the first visible item in the list box.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ The return value is the index of the first visible item in the list box.
 [**LB\_SETTOPINDEX**](lb-settopindex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

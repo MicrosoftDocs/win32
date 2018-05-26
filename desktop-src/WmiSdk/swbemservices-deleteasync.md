@@ -1,13 +1,16 @@
 ---
-Description: 'Deletes the class or instance specified in the object path.'
+Description: Deletes the class or instance specified in the object path.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f5ed170e-d002-4dd9-b8b6-b764a7a41a27'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f5ed170e-d002-4dd9-b8b6-b764a7a41a27
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemServices.DeleteAsync method'
+title: SWbemServices.DeleteAsync method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemServices.DeleteAsync method
@@ -160,8 +163,8 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -180,9 +183,9 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 [**SWbemObjectPath**](swbemobjectpath.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

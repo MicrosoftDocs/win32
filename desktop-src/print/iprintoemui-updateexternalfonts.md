@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUI::UpdateExternalFonts method allows a user interface plug-in to update a printer''s Unidrv Font Format Files (.uff file).'
-ms.assetid: '5c501305-fa5f-4466-9a9a-83f072d904b3'
-title: 'IPrintOemUI::UpdateExternalFonts method'
+---
+Description: The IPrintOemUIUpdateExternalFonts method allows a user interface plug-in to update a printers Unidrv Font Format Files (.uff file).
+ms.assetid: 5c501305-fa5f-4466-9a9a-83f072d904b3
+title: IPrintOemUIUpdateExternalFonts method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI::UpdateExternalFonts method

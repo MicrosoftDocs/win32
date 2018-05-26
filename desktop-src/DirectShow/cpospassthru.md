@@ -1,7 +1,12 @@
 ---
-Description: 'The CPosPassThru class handles seek commands for transform filters, by passing them upstream to the next filter.'
-ms.assetid: '14180d6e-7925-4e1a-8b16-cae9d7113468'
+Description: The CPosPassThru class handles seek commands for transform filters, by passing them upstream to the next filter.
+ms.assetid: 14180d6e-7925-4e1a-8b16-cae9d7113468
 title: CPosPassThru class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru class
@@ -16,7 +21,7 @@ When an application seeks the filter graph, the Filter Graph Manager gives the s
 
 Although this class is provided in the base class library, DirectShow also provides the same class in Quartz.dll. Using the Quartz.dll version can reduce the code size in your filter somewhat, because the class is loaded at run-time from the DLL. To use that version, call the [**CreatePosPassThru**](createpospassthru.md) function.
 
-In your output pin's **NonDelegatingQueryInterface** method, delegate to the **CPosPassThru** object whenever the requested interface is [**IMediaSeeking**](imediaseeking.md) or [**IMediaPosition**](imediaposition.md), as shown in the following code:
+In your output pin's **NonDelegatingQueryInterface** method, delegate to the **CPosPassThru** object whenever the requested interface is [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) or [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master), as shown in the following code:
 
 
 ```
@@ -52,7 +57,7 @@ STDMETHODIMP CMyPin::NonDelegatingQueryInterface(REFIID riid, void **ppv)
 
 
 
-Except where noted, all [**IMediaPosition**](imediaposition.md) and [**IMediaSeeking**](imediaseeking.md) methods in this class call the corresponding method on the connected pin and return the result.
+Except where noted, all [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master) and [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) methods in this class call the corresponding method on the connected pin and return the result.
 
 
 
@@ -96,7 +101,7 @@ Except where noted, all [**IMediaPosition**](imediaposition.md) and [**IMediaSee
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -109,9 +114,9 @@ Except where noted, all [**IMediaPosition**](imediaposition.md) and [**IMediaSee
 
 
 
- 
+ 
 
- 
+ 
 
 
 

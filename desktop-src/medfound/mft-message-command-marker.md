@@ -1,7 +1,12 @@
-﻿---
-Description: 'Marks a point in the stream. This message applies only to Asynchronous MFTs.'
-ms.assetid: 'eae1d066-64af-45e2-b8bb-eddf9147ad8b'
-title: 'MFT\_MESSAGE\_COMMAND\_MARKER'
+---
+Description: Marks a point in the stream. This message applies only to Asynchronous MFTs.
+ms.assetid: eae1d066-64af-45e2-b8bb-eddf9147ad8b
+title: MFT\_MESSAGE\_COMMAND\_MARKER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_MESSAGE\_COMMAND\_MARKER
@@ -14,7 +19,7 @@ An arbitrary value. The MFT returns the value to the client in the [METransformM
 
 ## Remarks
 
-To send this message, call [**IMFTransform::ProcessMessage**](imftransform-processmessage.md).
+To send this message, call [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master).
 
 The MFT responds to this messageas follows:
 
@@ -43,7 +48,7 @@ Asynchronous MFTs must respond to this message as described. Synchronous MFTs sh
 
 <dl> <dt>
 
-[**MFT\_MESSAGE\_TYPE**](mft-message-type.md)
+[**MFT\_MESSAGE\_TYPE**](/windows/win32/mftransform/ne-mftransform-_mft_message_type?branch=master)
 </dt> </dl>
 
  

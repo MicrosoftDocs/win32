@@ -1,14 +1,20 @@
 ---
 title: Impact element
 description: Describes the impact of the issue.
-ms.assetid: '0BF03CD6-DCF6-4108-88A0-7EE8A565FEAA'
-keywords: ["Impact element Access Execution Engine"]
+ms.assetid: 0BF03CD6-DCF6-4108-88A0-7EE8A565FEAA
+keywords:
+- Impact element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Impact
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Impact element
@@ -79,9 +85,9 @@ Describes the impact of the issue. Source for this element is the assessment.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

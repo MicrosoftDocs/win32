@@ -1,8 +1,14 @@
 ---
 title: DBCONTENTTABLE
 description: DBCONTENTTABLE
-ms.assetid: '31a82f8a-1675-474d-b477-0acdf6accdfb'
-keywords: ["DBCONTENTTABLE"]
+ms.assetid: 31a82f8a-1675-474d-b477-0acdf6accdfb
+keywords:
+- DBCONTENTTABLE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBCONTENTTABLE

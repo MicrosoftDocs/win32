@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the mode of the voice codec.'
-ms.assetid: '8425cdab-e43c-41ca-9c20-09ab6a5f06f4'
-title: 'MFPKEY\_WMAVOICE\_ENC\_MusicSpeechClassMode Property'
+---
+Description: Specifies the mode of the voice codec.
+ms.assetid: 8425cdab-e43c-41ca-9c20-09ab6a5f06f4
+title: MFPKEY\_WMAVOICE\_ENC\_MusicSpeechClassMode Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAVOICE\_ENC\_MusicSpeechClassMode Property

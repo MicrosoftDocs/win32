@@ -1,7 +1,12 @@
 ---
 title: Packages How-To Topics
 description: Provides examples of tasks related to the package as a whole.
-ms.assetid: 'd3053880-aab7-40f7-90b7-cadde4c846c9'
+ms.assetid: d3053880-aab7-40f7-90b7-cadde4c846c9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Packages How-To Topics

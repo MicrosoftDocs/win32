@@ -1,14 +1,20 @@
 ---
 title: SLIDER.foregroundImage
 description: The foregroundImage attribute specifies or retrieves the foreground image of the slider.
-ms.assetid: 'f713fba8-e965-4fed-b323-8a513d1f13e6'
-keywords: ["SLIDER.foregroundImage Windows Media Player"]
+ms.assetid: f713fba8-e965-4fed-b323-8a513d1f13e6
+keywords:
+- SLIDER.foregroundImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.foregroundImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.foregroundImage
@@ -62,9 +68,9 @@ The supported formats are BMP, JPG, PNG, and GIF (not including animated GIFs).
 [**SLIDER.value**](slider-value.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

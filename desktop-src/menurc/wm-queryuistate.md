@@ -1,8 +1,9 @@
 ---
 title: WM\_QUERYUISTATE message
 description: An application sends the WM\_QUERYUISTATE message to retrieve the UI state for a window.
-ms.assetid: '3a9e3477-b5d7-4c55-b6d4-8a479451fee8'
-keywords: ["WM_QUERYUISTATE message Menus and Other Resources"]
+ms.assetid: 3a9e3477-b5d7-4c55-b6d4-8a479451fee8
+keywords:
+- WM_QUERYUISTATE message Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_QUERYUISTATE message
@@ -56,7 +62,7 @@ The return value is **NULL** if the focus indicators and the keyboard accelerato
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,8 +70,8 @@ The return value is **NULL** if the focus indicators and the keyboard accelerato
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -89,9 +95,9 @@ The return value is **NULL** if the focus indicators and the keyboard accelerato
 [Keyboard Accelerators](keyboard-accelerators.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

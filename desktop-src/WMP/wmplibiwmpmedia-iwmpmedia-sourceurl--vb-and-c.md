@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia sourceURL property
 description: The sourceURL property gets the URL of the media item.
-ms.assetid: 'adaef82c-eeed-4cce-859b-c54b9c8fa085'
-keywords: ["sourceURL property Windows Media Player", "sourceURL property Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , sourceURL property"]
+ms.assetid: adaef82c-eeed-4cce-859b-c54b9c8fa085
+keywords:
+- sourceURL property Windows Media Player
+- sourceURL property Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , sourceURL property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::sourceURL property
@@ -119,9 +127,9 @@ player.Ctlcontrols.play()</code></pre></td>
 [**IWMPMedia Interface (VB and C#)**](iwmpmedia--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

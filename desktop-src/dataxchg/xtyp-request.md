@@ -1,8 +1,9 @@
 ---
 title: XTYP\_REQUEST transaction
 description: A client uses the XTYP\_REQUEST transaction to request data from a server. A Dynamic Data Exchange (DDE) server callback function, DdeCallback, receives this transaction when a client specifies XTYP\_REQUEST in the DdeClientTransaction function.
-ms.assetid: 'e776b995-6a64-4398-9e29-c151f3ef4c1d'
-keywords: ["XTYP_REQUEST transaction Data Exchange"]
+ms.assetid: e776b995-6a64-4398-9e29-c151f3ef4c1d
+keywords:
+- XTYP_REQUEST transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_REQUEST transaction
 
-A client uses the **XTYP\_REQUEST** transaction to request data from a server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](ddecallback.md), receives this transaction when a client specifies **XTYP\_REQUEST** in the [**DdeClientTransaction**](ddeclienttransaction.md) function.
+A client uses the **XTYP\_REQUEST** transaction to request data from a server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](ddecallback.md), receives this transaction when a client specifies **XTYP\_REQUEST** in the [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master) function.
 
 
 ```C++
@@ -87,13 +93,13 @@ Not used.
 
 ## Return value
 
-The server should call the [**DdeCreateDataHandle**](ddecreatedatahandle.md) function to create a data handle that identifies the data and then return the handle. The server should return **NULL** if it is unable to complete the transaction. If the server returns **NULL**, the client will receive a DDE\_FNOTPROCESSED flag.
+The server should call the [**DdeCreateDataHandle**](/windows/win32/Ddeml/nf-ddeml-ddecreatedatahandle?branch=master) function to create a data handle that identifies the data and then return the handle. The server should return **NULL** if it is unable to complete the transaction. If the server returns **NULL**, the client will receive a DDE\_FNOTPROCESSED flag.
 
 ## Remarks
 
-This transaction is filtered if the server application specified the **CBF\_FAIL\_REQUESTS** flag in the [**DdeInitialize**](ddeinitialize.md) function.
+This transaction is filtered if the server application specified the **CBF\_FAIL\_REQUESTS** flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function.
 
-If responding to this transaction requires lengthy processing, the server can return the CBR\_BLOCK return code to suspend future transactions on the current conversation and then process the transaction asynchronously. When the server has finished and the data is ready to pass to the client, the server can call the [**DdeEnableCallback**](ddeenablecallback.md) function to resume the conversation.
+If responding to this transaction requires lengthy processing, the server can return the CBR\_BLOCK return code to suspend future transactions on the current conversation and then process the transaction asynchronously. When the server has finished and the data is ready to pass to the client, the server can call the [**DdeEnableCallback**](/windows/win32/Ddeml/nf-ddeml-ddeenablecallback?branch=master) function to resume the conversation.
 
 ## Requirements
 
@@ -101,8 +107,8 @@ If responding to this transaction requires lengthy processing, the server can re
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -114,16 +120,16 @@ If responding to this transaction requires lengthy processing, the server can re
 **Reference**
 </dt> <dt>
 
-[**DdeClientTransaction**](ddeclienttransaction.md)
+[**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master)
 </dt> <dt>
 
-[**DdeCreateDataHandle**](ddecreatedatahandle.md)
+[**DdeCreateDataHandle**](/windows/win32/Ddeml/nf-ddeml-ddecreatedatahandle?branch=master)
 </dt> <dt>
 
-[**DdeEnableCallback**](ddeenablecallback.md)
+[**DdeEnableCallback**](/windows/win32/Ddeml/nf-ddeml-ddeenablecallback?branch=master)
 </dt> <dt>
 
-[**DdeInitialize**](ddeinitialize.md)
+[**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -132,9 +138,9 @@ If responding to this transaction requires lengthy processing, the server can re
 [Dynamic Data Exchange Management Library](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

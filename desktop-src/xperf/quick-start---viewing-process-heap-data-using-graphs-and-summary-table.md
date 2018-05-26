@@ -1,7 +1,12 @@
 ---
 title: Quick Start - Viewing Process Heap Data Using Graphs and Summary Tables
 description: Quick Start - Viewing Process Heap Data Using Graphs and Summary Tables
-ms.assetid: '471f4165-2f40-4dbe-bd6a-7d3f7da7f2c1'
+ms.assetid: 471f4165-2f40-4dbe-bd6a-7d3f7da7f2c1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Start - Viewing Process Heap Data Using Graphs and Summary Tables

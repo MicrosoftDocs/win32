@@ -4,17 +4,22 @@ description: This is a link to a Claims Transformation Policy Object for the egr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '693ebb45-e90c-4629-8afc-f048c83b4b95'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 693ebb45-e90c-4629-8afc-f048c83b4b95
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Egress-Claims-Transformation-Policy attribute AD Schema", "msDS-EgressClaimsTransformationPolicy attribute AD Schema"]
+keywords:
+- ms-DS-Egress-Claims-Transformation-Policy attribute AD Schema
+- msDS-EgressClaimsTransformationPolicy attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Egress-Claims-Transformation-Policy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Egress-Claims-Transformation-Policy attribute
@@ -38,7 +43,7 @@ This is a link to a Claims Transformation Policy Object for the egress claims (c
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ This is a link to a Claims Transformation Policy Object for the egress claims (c
 
 
 
- 
+ 
 
- 
+ 
 
 
 

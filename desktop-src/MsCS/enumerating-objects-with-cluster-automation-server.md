@@ -4,11 +4,16 @@ description: The following example demonstrates a simple use of the job tag to s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b68a2c6c-095d-4cad-bf68-9cf9b773dfaa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b68a2c6c-095d-4cad-bf68-9cf9b773dfaa
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Failover Cluster Automation Server Failover Cluster ,enumerating objects", "Cluster Automation Server Failover Cluster ,enumerating objects"]
+keywords:
+- Failover Cluster Automation Server Failover Cluster ,enumerating objects
+- Cluster Automation Server Failover Cluster ,enumerating objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerating Objects with the Failover Cluster Automation Server

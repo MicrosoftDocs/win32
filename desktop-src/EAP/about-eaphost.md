@@ -1,7 +1,12 @@
 ---
 title: About EAPHost
 description: Describes the relationship between the Extensible Authentication Protocol (EAP) and Extensible Authentication Protocol Host.
-ms.assetid: '7f585fc6-71ed-4a64-88a7-6acb1550e825'
+ms.assetid: 7f585fc6-71ed-4a64-88a7-6acb1550e825
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About EAPHost

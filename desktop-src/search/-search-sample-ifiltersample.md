@@ -1,7 +1,12 @@
 ---
-Description: 'The IFilterSample code sample demonstrates how to create an IFilter base class for implementing the IFilter interface.'
-ms.assetid: '4c0df747-627d-4937-a117-d43137d5d081'
+Description: The IFilterSample code sample demonstrates how to create an IFilter base class for implementing the IFilter interface.
+ms.assetid: 4c0df747-627d-4937-a117-d43137d5d081
 title: IFilterSample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFilterSample

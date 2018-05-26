@@ -4,10 +4,13 @@ description: Lists enumeration types that are used with the Remote Desktop Servi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b5ef61e2-07fa-4963-9b9b-977cc04dab10'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b5ef61e2-07fa-4963-9b9b-977cc04dab10
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Services API Enumeration Types
@@ -18,84 +21,84 @@ The following enumeration types are used with the Remote Desktop Services API.
 
 <dl> <dt>
 
-[**WTS\_CONFIG\_CLASS**](wts-config-class-str.md)
+[**WTS\_CONFIG\_CLASS**](/windows/win32/Wtsapi32/ne-wtsapi32-_wts_config_class?branch=master)
 </dt> <dd>
 
-Contains values that indicate the type of user configuration information to set or retrieve in a call to the [**WTSQueryUserConfig**](wtsqueryuserconfig.md) and [**WTSSetUserConfig**](wtssetuserconfig.md) functions.
+Contains values that indicate the type of user configuration information to set or retrieve in a call to the [**WTSQueryUserConfig**](/windows/win32/Wtsapi32/nf-wtsapi32-wtsqueryuserconfiga?branch=master) and [**WTSSetUserConfig**](/windows/win32/Wtsapi32/nf-wtsapi32-wtssetuserconfiga?branch=master) functions.
 
 </dd> <dt>
 
-[**WTS\_CONFIG\_SOURCE**](wts-config-source.md)
+[**WTS\_CONFIG\_SOURCE**](/windows/win32/Wtsapi32/ne-wtsapi32-_wts_config_source?branch=master)
 </dt> <dd>
 
-Specifies the source of configuration information returned by the [**WTSQueryUserConfig**](wtsqueryuserconfig.md) function.
+Specifies the source of configuration information returned by the [**WTSQueryUserConfig**](/windows/win32/Wtsapi32/nf-wtsapi32-wtsqueryuserconfiga?branch=master) function.
 
 </dd> <dt>
 
-[**WTS\_CONNECTSTATE\_CLASS**](wts-connectstate-class-str.md)
+[**WTS\_CONNECTSTATE\_CLASS**](/windows/win32/Wtsapi32/ne-wtsapi32-_wts_connectstate_class?branch=master)
 </dt> <dd>
 
 Specifies the connection state of a Remote Desktop Services session.
 
 </dd> <dt>
 
-[**WTS\_INFO\_CLASS**](wts-info-class-str.md)
+[**WTS\_INFO\_CLASS**](/windows/win32/Wtsapi32/ne-wtsapi32-_wts_info_class?branch=master)
 </dt> <dd>
 
-Contains values that indicate the type of session information to retrieve in a call to the [**WTSQuerySessionInformation**](wtsquerysessioninformation.md) function.
+Contains values that indicate the type of session information to retrieve in a call to the [**WTSQuerySessionInformation**](/windows/win32/Wtsapi32/nf-wtsapi32-wtsquerysessioninformationa?branch=master) function.
 
 </dd> <dt>
 
-[**WTS\_TYPE\_CLASS**](wts-type-class.md)
+[**WTS\_TYPE\_CLASS**](/windows/win32/Wtsapi32/ne-wtsapi32-_wts_type_class?branch=master)
 </dt> <dd>
 
 Specifies the type of structure that a Remote Desktop Services function has returned in a buffer.
 
 </dd> <dt>
 
-[**WTS\_VIRTUAL\_CLASS**](wts-virtual-class.md)
+[**WTS\_VIRTUAL\_CLASS**](/windows/win32/Wtsapi32/ne-wtsapi32-_wts_virtual_class?branch=master)
 </dt> <dd>
 
 Contains values that indicate the type of virtual channel information to retrieve.
 
 </dd> <dt>
 
-[**WTSSBX\_ADDRESS\_FAMILY**](wtssbx-address-family.md)
+[**WTSSBX\_ADDRESS\_FAMILY**](/windows/win32/Tssbx/ne-tssbx-__midl_iwtssbplugin_0003?branch=master)
 </dt> <dd>
 
 Contains values that indicate the address family of a network address that is being used for redirection.
 
 </dd> <dt>
 
-[**WTSSBX\_MACHINE\_DRAIN**](wtssbx-machine-drain.md)
+[**WTSSBX\_MACHINE\_DRAIN**](/windows/win32/Tssbx/ne-tssbx-__midl_iwtssbplugin_0001?branch=master)
 </dt> <dd>
 
 Contains values that indicate the drain state of a Remote Desktop Session Host (RD Session Host) server.
 
 </dd> <dt>
 
-[**WTSSBX\_MACHINE\_SESSION\_MODE**](wtssbx-machine-session-mode.md)
+[**WTSSBX\_MACHINE\_SESSION\_MODE**](/windows/win32/Tssbx/ne-tssbx-__midl_iwtssbplugin_0002?branch=master)
 </dt> <dd>
 
 Contains values that indicate the session mode of a RD Session Host server.
 
 </dd> <dt>
 
-[**WTSSBX\_MACHINE\_STATE**](wtssbx-machine-state.md)
+[**WTSSBX\_MACHINE\_STATE**](/windows/win32/Tssbx/ne-tssbx-__midl_iwtssbplugin_0005?branch=master)
 </dt> <dd>
 
 Contains values that indicate the current state of a server.
 
 </dd> <dt>
 
-[**WTSSBX\_NOTIFICATION\_TYPE**](wtssbx-notification-type.md)
+[**WTSSBX\_NOTIFICATION\_TYPE**](/windows/win32/Tssbx/ne-tssbx-__midl_iwtssbplugin_0010?branch=master)
 </dt> <dd>
 
 Contains values that indicate the type of status change that occurred on a RD Session Host server or a user session.
 
 </dd> <dt>
 
-[**WTSSBX\_SESSION\_STATE**](wtssbx-session-state.md)
+[**WTSSBX\_SESSION\_STATE**](/windows/win32/Tssbx/ne-tssbx-__midl_iwtssbplugin_0008?branch=master)
 </dt> <dd>
 
 Contains values that indicate the connection state of a user session.

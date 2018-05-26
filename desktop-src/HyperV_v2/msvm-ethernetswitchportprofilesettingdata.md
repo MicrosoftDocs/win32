@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the port profile settings.'
-ms.assetid: '43ddb0a3-8621-4993-b0a9-8ddcfb0eaad5'
-title: 'Msvm\_EthernetSwitchPortProfileSettingData class'
+Description: Represents the port profile settings.
+ms.assetid: 43ddb0a3-8621-4993-b0a9-8ddcfb0eaad5
+title: Msvm\_EthernetSwitchPortProfileSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortProfileSettingData class
@@ -300,17 +305,17 @@ The name of the vendor defining the profile.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

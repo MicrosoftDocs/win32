@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.right
 description: The right attribute specifies or retrieves the right coordinate of the control.
-ms.assetid: '32f6c9ff-9b2f-4e24-abbb-548a0601d3d7'
-keywords: ["AmbientAttributes.right Windows Media Player"]
+ms.assetid: 32f6c9ff-9b2f-4e24-abbb-548a0601d3d7
+keywords:
+- AmbientAttributes.right Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.right
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.right
@@ -43,9 +49,9 @@ This attribute is a read/write **Number** (**long**) representing the distance i
 [**AmbientAttributes.id**](ambientattributes-id.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

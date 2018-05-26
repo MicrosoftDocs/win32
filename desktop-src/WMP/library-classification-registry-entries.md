@@ -1,8 +1,23 @@
 ---
 title: Library Classification Registry Entries
 description: Library Classification Registry Entries
-ms.assetid: '3ef7d384-503f-4b8f-9f4b-e0ef3c56616b'
-keywords: ["Windows Media Player,library", "Windows Media Player,classification registry entries", "Windows Media Player,file name extensions", "Windows Media Player,registry", "registry,file name extensions", "registry,library classification entries", "registry,settings for Windows Media Player", "file name extension registry settings", "library,classification registry entries", "library,registry"]
+ms.assetid: 3ef7d384-503f-4b8f-9f4b-e0ef3c56616b
+keywords:
+- Windows Media Player,library
+- Windows Media Player,classification registry entries
+- Windows Media Player,file name extensions
+- Windows Media Player,registry
+- registry,file name extensions
+- registry,library classification entries
+- registry,settings for Windows Media Player
+- file name extension registry settings
+- library,classification registry entries
+- library,registry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Library Classification Registry Entries

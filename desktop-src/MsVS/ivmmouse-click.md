@@ -1,8 +1,13 @@
 ---
 title: IVMMouse Click method
 description: The Click method simulates a mouse button click (press and release) using an enumerated button index.
-ms.assetid: '0ba8f520-9791-4820-96bf-724179d67762'
-keywords: ["Click method Virtual Server", "Click method Virtual Server , IVMMouse interface", "IVMMouse interface Virtual Server , Click method", "Click method Virtual Server , VMMouse interface", "VMMouse interface Virtual Server , Click method"]
+ms.assetid: 0ba8f520-9791-4820-96bf-724179d67762
+keywords:
+- Click method Virtual Server
+- Click method Virtual Server , IVMMouse interface
+- IVMMouse interface Virtual Server , Click method
+- Click method Virtual Server , VMMouse interface
+- VMMouse interface Virtual Server , Click method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMMouse::Click method
@@ -23,7 +33,7 @@ The **Click** method simulates a mouse button click (press and release) using an
 
 ```C++
 HRESULT Click(
-  [in] VMMouseButton buttonIndex
+  [in] VMMouseButton buttonIndex
 );
 ```
 
@@ -57,7 +67,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +75,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -81,9 +91,9 @@ This method supports standard return values, as well as the following. For infor
 [**VMMouseButton**](vmmousebutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

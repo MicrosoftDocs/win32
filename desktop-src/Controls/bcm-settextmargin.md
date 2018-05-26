@@ -1,8 +1,9 @@
 ---
 title: BCM\_SETTEXTMARGIN message
 description: The BCM\_SETTEXTMARGIN message sets the margins for drawing text in a button control.
-ms.assetid: '0798b1c5-7db4-46c6-8881-4c847abc7460'
-keywords: ["BCM_SETTEXTMARGIN message Windows Controls"]
+ms.assetid: 0798b1c5-7db4-46c6-8881-4c847abc7460
+keywords:
+- BCM_SETTEXTMARGIN message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCM\_SETTEXTMARGIN message
@@ -44,7 +50,7 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -52,8 +58,8 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -65,7 +71,7 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 **Reference**
 </dt> <dt>
 
-[**Button\_SetTextMargin**](button-settextmargin.md)
+[**Button\_SetTextMargin**](/windows/win32/Commctrl/nf-commctrl-button_settextmargin?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -74,9 +80,9 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 [Buttons](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

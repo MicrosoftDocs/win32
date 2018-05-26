@@ -1,14 +1,20 @@
 ---
 title: ContextParameters (LocalRootcause) Element
 description: Contains a list of substitution strings that get used based on the current context.
-ms.assetid: '5f324555-5a66-47e3-bab1-2a72d2d7d10d'
-keywords: ["ContextParameters element Windows Troubleshooting Toolkit"]
+ms.assetid: 5f324555-5a66-47e3-bab1-2a72d2d7d10d
+keywords:
+- ContextParameters element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - ContextParameters
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ContextParameters (LocalRootcause) Element
@@ -27,14 +33,14 @@ The **ContextParameters** element is defined by the [**LocalRootcause**](package
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

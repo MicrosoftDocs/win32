@@ -1,7 +1,12 @@
 ---
-Description: 'The DrawVideoImageHere method draws an image from a media sample to a specified device context.'
-ms.assetid: 'b11e1c6b-5a29-444f-a0a9-049cd9d49b13'
-title: 'CDrawImage.DrawVideoImageHere method'
+Description: The DrawVideoImageHere method draws an image from a media sample to a specified device context.
+ms.assetid: b11e1c6b-5a29-444f-a0a9-049cd9d49b13
+title: CDrawImage.DrawVideoImageHere method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.DrawVideoImageHere method
@@ -13,10 +18,10 @@ The `DrawVideoImageHere` method draws an image from a media sample to a specifie
 
 ```C++
 BOOL DrawVideoImageHere(
-   HDC          hdc,
-   IMediaSample *pMediaSample,
-   RECT         *lprcSrc,
-   RECT         *lprcDst
+   HDC          hdc,
+   IMediaSample *pMediaSample,
+   RECT         *lprcSrc,
+   RECT         *lprcDst
 );
 ```
 
@@ -36,7 +41,7 @@ Handle to a device context, where the drawing will occur.
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface of the sample that contains the image.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface of the sample that contains the image.
 
 </dd> <dt>
 
@@ -76,9 +81,9 @@ Returns **TRUE** if successful.
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

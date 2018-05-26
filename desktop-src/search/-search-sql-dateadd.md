@@ -1,7 +1,12 @@
 ---
-Description: 'The DATEADD function performs time and date calculations for matching properties having date types. Use the DATEADD function to obtain dates and times in a specified amount of time before the present.'
-ms.assetid: '83ef098d-85ef-4883-a1e1-9229e050247f'
+Description: The DATEADD function performs time and date calculations for matching properties having date types. Use the DATEADD function to obtain dates and times in a specified amount of time before the present.
+ms.assetid: 83ef098d-85ef-4883-a1e1-9229e050247f
 title: DATEADD Function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DATEADD Function

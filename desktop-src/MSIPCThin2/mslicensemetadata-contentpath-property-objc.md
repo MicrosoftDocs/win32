@@ -4,17 +4,21 @@ description: Full path of the document to be tracked up to but not including the
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '4A0F0508-9354-4509-8ED8-C9583B777331'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 4A0F0508-9354-4509-8ED8-C9583B777331
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSLicenseMetadata contentPath property"]
+keywords:
+- MSLicenseMetadata contentPath property
 topic_type:
 - apiref
 api_name:
 - MSLicenseMetadata contentPath property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSLicenseMetadata contentPath property
@@ -37,7 +41,7 @@ Full path of the document to be tracked up to but not including the file name. T
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSLicenseMetadata.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

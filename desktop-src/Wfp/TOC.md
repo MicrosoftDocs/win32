@@ -9,8 +9,8 @@
 ### [WRP Functions](wfp-functions.md)
 #### [SfcGetFiles](sfcgetfiles.md)
 ##### [PPROTECT_FILE_ENTRY](pprotect-file-entry.md)
-#### [SfcGetNextProtectedFile](/windows/win32/content/Sfc/nf-sfc-sfcgetnextprotectedfile?branch=dev)
-#### [SfcIsFileProtected](/windows/win32/content/Sfc/nf-sfc-sfcisfileprotected?branch=dev)
-#### [SfcIsKeyProtected](/windows/win32/content/Sfc/nf-sfc-sfciskeyprotected?branch=dev)
+#### [SfcGetNextProtectedFile](/windows/win32/Sfc/nf-sfc-sfcgetnextprotectedfile?branch=master)
+#### [SfcIsFileProtected](/windows/win32/Sfc/nf-sfc-sfcisfileprotected?branch=master)
+#### [SfcIsKeyProtected](/windows/win32/Sfc/nf-sfc-sfciskeyprotected?branch=master)
 ### [WFP Registry Values](wfp-registry-values.md)
 

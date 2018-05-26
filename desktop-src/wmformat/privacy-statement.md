@@ -1,8 +1,15 @@
 ---
 title: Privacy Statement
 description: Privacy Statement
-ms.assetid: 'd2535273-6671-4bd7-9c43-cbb8093d1d52'
-keywords: ["Windows Media Format SDK,privacy statement", "privacy statement"]
+ms.assetid: d2535273-6671-4bd7-9c43-cbb8093d1d52
+keywords:
+- Windows Media Format SDK,privacy statement
+- privacy statement
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Privacy Statement

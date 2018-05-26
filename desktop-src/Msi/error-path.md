@@ -1,7 +1,12 @@
 ---
-Description: 'In Windows Installer versions 1.0 and 1.1 the Path property is always the empty string. Future versions may use this value to return the path to the file or directory that could not be created.'
-ms.assetid: 'b79dd347-acda-47d7-aa3b-c0f9a6ca1d3b'
-title: 'Error.Path property'
+Description: In Windows Installer versions 1.0 and 1.1 the Path property is always the empty string. Future versions may use this value to return the path to the file or directory that could not be created.
+ms.assetid: b79dd347-acda-47d7-aa3b-c0f9a6ca1d3b
+title: Error.Path property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error.Path property
@@ -27,7 +32,7 @@ This value is only valid for errors of type msmErrorFileCreate or msmErrorDirCre
 
 ### C++
 
-See [**get\_Path**](imsmerror-get-path.md) function.
+See [**get\_Path**](/windows/win32/Mergemod/?branch=master) function.
 
 ## Requirements
 
@@ -41,9 +46,9 @@ See [**get\_Path**](imsmerror-get-path.md) function.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

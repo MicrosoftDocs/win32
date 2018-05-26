@@ -1,7 +1,12 @@
 ---
 Description: Device Events
-ms.assetid: 'b31500d6-a79d-4e6e-878e-6bd77055f1ad'
+ms.assetid: b31500d6-a79d-4e6e-878e-6bd77055f1ad
 title: Device Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Events
@@ -20,13 +25,13 @@ A client can register to be notified when device events occur. In response to th
 
 For example, if an application is playing an audio track through a set of USB speakers, and the user disconnects the speakers from the USB connector, the application receives a device-event notification. In response to the event, if the application detects that a set of desktop speakers is connected to the integrated audio adapter on the system motherboard, the application can resume playing the audio track through the desktop speakers. In this example, the transition from USB speakers to desktop speakers occurs automatically, without requiring the user to intervene by explicitly redirecting the application.
 
-To register to receive device notifications, a client calls the [**IMMDeviceEnumerator::RegisterEndpointNotificationCallback**](immdeviceenumerator-registerendpointnotificationcallback.md) method. When the client no longer requires notifications, it cancels them by calling the [**IMMDeviceEnumerator::UnregisterEndpointNotificationCallback**](immdeviceenumerator-unregisterendpointnotificationcallback.md) method. Both methods take an input parameter, named *pNotify*, that is a pointer to an [**IMMNotificationClient**](immnotificationclient.md) interface instance.
+To register to receive device notifications, a client calls the [**IMMDeviceEnumerator::RegisterEndpointNotificationCallback**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-registerendpointnotificationcallback?branch=master) method. When the client no longer requires notifications, it cancels them by calling the [**IMMDeviceEnumerator::UnregisterEndpointNotificationCallback**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-unregisterendpointnotificationcallback?branch=master) method. Both methods take an input parameter, named *pNotify*, that is a pointer to an [**IMMNotificationClient**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immnotificationclient?branch=master) interface instance.
 
-The **IMMNotificationClient** interface is implemented by a client. The interface contains several methods, each of which serves as a callback routine for a particular type of device event. When a device event occurs in an audio endpoint device, the MMDevice module calls the appropriate method in the **IMMNotificationClient** interface of every client that is currently registered to receive device-event notifications. These calls pass a description of the event to the clients. For more information, see [**IMMNotificationClient Interface**](immnotificationclient.md).
+The **IMMNotificationClient** interface is implemented by a client. The interface contains several methods, each of which serves as a callback routine for a particular type of device event. When a device event occurs in an audio endpoint device, the MMDevice module calls the appropriate method in the **IMMNotificationClient** interface of every client that is currently registered to receive device-event notifications. These calls pass a description of the event to the clients. For more information, see [**IMMNotificationClient Interface**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immnotificationclient?branch=master).
 
 A client that is registered to receive device-event notifications will receive notifications of all types of device events that occur in all of the audio endpoint devices in the system. If a client is interested only in certain event types or in certain devices, then the methods in its **IMMNotificationClient** implementation should filter the events appropriately.
 
-The Windows SDK provides samples that include several implementations for the [**IMMNotificationClient Interface**](immnotificationclient.md). For more information, see [SDK Samples That Use the Core Audio APIs](sdk-samples-that-use-the-core-audio-apis.md).
+The Windows SDK provides samples that include several implementations for the [**IMMNotificationClient Interface**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immnotificationclient?branch=master). For more information, see [SDK Samples That Use the Core Audio APIs](sdk-samples-that-use-the-core-audio-apis.md).
 
 The following code example shows a possible implementation of the **IMMNotificationClient** interface:
 
@@ -261,9 +266,9 @@ The CMMNotificationClient class in the preceding code example is an implementati
 
 Each of these methods takes an input parameter, *pwstrDeviceId*, that is a pointer to an endpoint ID string. The string identifies the audio endpoint device in which the device event occurred.
 
-In the preceding code example, \_PrintDeviceName is a private method in the CMMNotificationClient class that prints the friendly name of the device. \_PrintDeviceName takes the endpoint ID string as an input parameter. It passes the string to the [**IMMDeviceEnumerator::GetDevice**](immdeviceenumerator-getdevice.md) method. **GetDevice** creates an endpoint device object to represent the device and provides the [**IMMDevice**](immdevice.md) interface to that object. Next, \_PrintDeviceName calls the [**IMMDevice::OpenPropertyStore**](immdevice-openpropertystore.md) method to retrieve the **IPropertyStore** interface to the device's property store. Finally, \_PrintDeviceName calls the **IPropertyStore::GetItem** method to obtain the friendly-name property of the device. For more information about **IPropertyStore**, see the Windows SDK documentation.
+In the preceding code example, \_PrintDeviceName is a private method in the CMMNotificationClient class that prints the friendly name of the device. \_PrintDeviceName takes the endpoint ID string as an input parameter. It passes the string to the [**IMMDeviceEnumerator::GetDevice**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice?branch=master) method. **GetDevice** creates an endpoint device object to represent the device and provides the [**IMMDevice**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master) interface to that object. Next, \_PrintDeviceName calls the [**IMMDevice::OpenPropertyStore**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore?branch=master) method to retrieve the **IPropertyStore** interface to the device's property store. Finally, \_PrintDeviceName calls the **IPropertyStore::GetItem** method to obtain the friendly-name property of the device. For more information about **IPropertyStore**, see the Windows SDK documentation.
 
-In addition to device events, clients can register to receive notifications of audio-session events and endpoint-volume events. For more information, see [**IAudioSessionEvents Interface**](iaudiosessionevents.md) and [**IAudioEndpointVolumeCallback Interface**](iaudioendpointvolumecallback.md).
+In addition to device events, clients can register to receive notifications of audio-session events and endpoint-volume events. For more information, see [**IAudioSessionEvents Interface**](/windows/win32/Audiopolicy/nn-audiopolicy-iaudiosessionevents?branch=master) and [**IAudioEndpointVolumeCallback Interface**](/windows/win32/Endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback?branch=master).
 
 ## Related topics
 

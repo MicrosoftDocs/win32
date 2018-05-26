@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the driver property bag.'
-ms.assetid: '52EC01D5-43C7-4CE0-ABEC-1604A4198316'
-title: 'IPrinterExtensionContext::DriverProperties property'
+---
+Description: Gets the driver property bag.
+ms.assetid: 52EC01D5-43C7-4CE0-ABEC-1604A4198316
+title: IPrinterExtensionContextDriverProperties property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionContext::DriverProperties property

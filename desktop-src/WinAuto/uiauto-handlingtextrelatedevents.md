@@ -1,8 +1,15 @@
 ---
 title: Handling Text-related Events
 description: This topic describes the events raised by text-based controls when content is changed, selected, or deselected.
-ms.assetid: 'D822DD51-5AEF-431A-943A-AA51993E6AC2'
-keywords: ["clients,handling text-related events", "clients,text-based controls"]
+ms.assetid: D822DD51-5AEF-431A-943A-AA51993E6AC2
+keywords:
+- clients,handling text-related events
+- clients,text-based controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Text-related Events

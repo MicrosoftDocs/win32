@@ -1,12 +1,17 @@
-﻿---
-Description: 'Attribute which is passed in the IMFMediaEngineNeedKeyNotify to the media engine on creation.'
-ms.assetid: 'B9625B3C-00AC-4F46-BD76-5C77822F5829'
-title: 'MF\_MEDIA\_ENGINE\_NEEDKEY\_CALLBACK attribute'
+---
+Description: Attribute which is passed in the IMFMediaEngineNeedKeyNotify to the media engine on creation.
+ms.assetid: B9625B3C-00AC-4F46-BD76-5C77822F5829
+title: MF\_MEDIA\_ENGINE\_NEEDKEY\_CALLBACK attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MEDIA\_ENGINE\_NEEDKEY\_CALLBACK attribute
 
-Attribute which is passed in the [**IMFMediaEngineNeedKeyNotify**](imfmediaengineneedkeynotify.md) to the media engine on creation.
+Attribute which is passed in the [**IMFMediaEngineNeedKeyNotify**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediaengineneedkeynotify?branch=master) to the media engine on creation.
 
 ## Data type
 
@@ -14,13 +19,13 @@ Attribute which is passed in the [**IMFMediaEngineNeedKeyNotify**](imfmediaengin
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUnknown**](imfattributes-getunknown.md).
+To get this attribute, call [**IMFAttributes::GetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getunknown?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUnknown**](imfattributes-setunknown.md).
+To set this attribute, call [**IMFAttributes::SetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setunknown?branch=master).
 
 ## Remarks
 
-The value of this attribute is a pointer to the [**IMFMediaEngineNeedKeyNotify**](imfmediaengineneedkeynotify.md) interface, implemented by the application.
+The value of this attribute is a pointer to the [**IMFMediaEngineNeedKeyNotify**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediaengineneedkeynotify?branch=master) interface, implemented by the application.
 
 ## Requirements
 

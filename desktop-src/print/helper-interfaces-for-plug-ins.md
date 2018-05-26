@@ -1,7 +1,12 @@
 ---
-Description: 'Helper Interfaces for Plug-Ins'
-ms.assetid: '889d00f8-3147-449b-9fbb-a879bc6b3d11'
-title: 'Helper Interfaces for Plug-Ins'
+Description: Helper Interfaces for Plug-Ins
+ms.assetid: 889d00f8-3147-449b-9fbb-a879bc6b3d11
+title: Helper Interfaces for Plug-Ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Helper Interfaces for Plug-Ins

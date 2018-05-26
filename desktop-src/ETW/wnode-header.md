@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WNODE\_HEADER structure is a member of the EVENT\_TRACE\_PROPERTIES structure.'
-ms.assetid: '862a8f46-a326-48c6-92b7-8bb667837bb7'
-title: 'WNODE\_HEADER structure'
+---
+Description: The WNODE\_HEADER structure is a member of the EVENT\_TRACE\_PROPERTIES structure.
+ms.assetid: 862a8f46-a326-48c6-92b7-8bb667837bb7
+title: WNODE\_HEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WNODE\_HEADER structure

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the length of a 2D vector.'
-ms.assetid: '376fd2ca-c89d-41e7-a15c-a79d7281d010'
+---
+Description: Returns the length of a 2D vector.
+ms.assetid: 376fd2ca-c89d-41e7-a15c-a79d7281d010
 title: D3DXVec2Length function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec2Length function

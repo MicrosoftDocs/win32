@@ -4,11 +4,17 @@ description: The following example shows how to derive a quota from the quota te
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b4471a75-f8c9-48aa-8ce3-1e998dbe6952'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: b4471a75-f8c9-48aa-8ce3-1e998dbe6952
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , defining a quota", "quotas File Server Resource Manager", "defining quotas File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , defining a quota
+- quotas File Server Resource Manager
+- defining quotas File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Defining a Quota

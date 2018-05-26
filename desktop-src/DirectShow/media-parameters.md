@@ -1,7 +1,12 @@
 ---
 Description: Media Parameters
-ms.assetid: '48b2bc2e-897d-4aa9-8a50-c2855a17dca5'
+ms.assetid: 48b2bc2e-897d-4aa9-8a50-c2855a17dca5
 title: Media Parameters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Parameters
@@ -10,8 +15,8 @@ Media parameters enable an application to configure an object's properties so th
 
 For example, suppose that a sound engineer is mixing a digital master tape and wants to apply a slight delay to a vocal section, to fill out the sound. The effect will be jarring if the delay cuts in abruptly. Instead, the effect should begin 100 percent dry (no delay), and the wet/dry mix should increase gradually until it reaches the desired level. Moreover, this transition should follow a smooth curve or linear progression. To support this scenario, a DMO can expose the following interfaces:
 
--   [**IMediaParamInfo**](imediaparaminfo.md) contains methods for discovering information about the supported properties. Typically, the client will call these methods before it begins to stream data.
--   [**IMediaParams**](imediaparams.md) contain methods for setting the curves that a parameter will follow during streaming.
+-   [**IMediaParamInfo**](/windows/win32/Medparam/nn-medparam-imediaparaminfo?branch=master) contains methods for discovering information about the supported properties. Typically, the client will call these methods before it begins to stream data.
+-   [**IMediaParams**](/windows/win32/Medparam/nn-medparam-imediaparams?branch=master) contain methods for setting the curves that a parameter will follow during streaming.
 
 These interfaces are designed primarily for DMOs, but any object can support them. Within this section, the term *parameter* refers to any property that supports these two interfaces.
 

@@ -1,8 +1,16 @@
 ---
 title: Choosing the Functions
 description: Choosing the Functions
-ms.assetid: 'ded3c578-5087-4e4f-bf21-2149cf72719d'
-keywords: ["Windows Media Player Mobile skins,functions for audio", "skins,functions for audio", "creating skins,functions for audio"]
+ms.assetid: ded3c578-5087-4e4f-bf21-2149cf72719d
+keywords:
+- Windows Media Player Mobile skins,functions for audio
+- skins,functions for audio
+- creating skins,functions for audio
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing the Functions

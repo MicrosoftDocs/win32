@@ -1,7 +1,12 @@
 ---
 title: SampleLevel (DirectX HLSL Texture Object)
 description: Samples a texture using a mipmap-level offset.
-ms.assetid: 'd61426c8-e09f-4e88-99f6-fa96c4a2b58d'
+ms.assetid: d61426c8-e09f-4e88-99f6-fa96c4a2b58d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SampleLevel (DirectX HLSL Texture Object)
@@ -16,7 +21,7 @@ Samples a texture using a mipmap-level offset.
 
 
 
- 
+ 
 
 This function is similar to [Sample](dx-graphics-hlsl-to-sample.md) except that it uses the LOD level (in the last component of the location parameter) to choose the mipmap level. For example, a 2D texture uses the first two components for uv coordinates and the third component for the mipmap level.
 
@@ -68,13 +73,13 @@ This function is similar to [Sample](dx-graphics-hlsl-to-sample.md) except that 
 <td>float3</td>
 </tr>
 <tr class="even">
-<td>TextureCubeArray¹</td>
+<td>TextureCubeArray </td>
 <td>float4</td>
 </tr>
 </tbody>
 </table>
 
-<p> </p>
+<p> </p>
 <p>If the texture object is an array, the last component is the array index.</p></td>
 </tr>
 <tr class="even">
@@ -106,20 +111,20 @@ This function is similar to [Sample](dx-graphics-hlsl-to-sample.md) except that 
 <td>int3</td>
 </tr>
 <tr class="even">
-<td>TextureCube, TextureCubeArray¹</td>
+<td>TextureCube, TextureCubeArray </td>
 <td>not supported</td>
 </tr>
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -131,13 +136,13 @@ This function is supported in the following shader models.
 
 
 
-| vs\_4\_0 | vs\_4\_1² | ps\_4\_0 | ps\_4\_1² | gs\_4\_0 | gs\_4\_1² |
+| vs\_4\_0 | vs\_4\_1  | ps\_4\_0 | ps\_4\_1  | gs\_4\_0 | gs\_4\_1  |
 |----------|-----------|----------|-----------|----------|-----------|
 | x        | x         | x        | x         | x        | x         |
 
 
 
- 
+ 
 
 1.  TextureCubeArray is available in Shader Model 4.1 or higher.
 2.  Shader Model 4.1 is available in Direct3D 10.1 or higher.
@@ -177,9 +182,9 @@ float3 RandomDir(float fOffset)
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

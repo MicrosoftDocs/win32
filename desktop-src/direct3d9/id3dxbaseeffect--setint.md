@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an integer.'
-ms.assetid: '1090d4a6-b4f5-4e15-a49f-e2724f1c3f95'
-title: 'ID3DXBaseEffect::SetInt method'
+---
+Description: Sets an integer.
+ms.assetid: 1090d4a6-b4f5-4e15-a49f-e2724f1c3f95
+title: ID3DXBaseEffectSetInt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::SetInt method

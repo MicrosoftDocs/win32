@@ -1,14 +1,20 @@
 ---
 title: D1110 Flush Failure
-ms.assetid: '44f122b0-08e3-4f63-a575-0f3619144823'
+ms.assetid: 44f122b0-08e3-4f63-a575-0f3619144823
 description: 
-keywords: ["D1110 Flush Failure Direct2D"]
+keywords:
+- D1110 Flush Failure Direct2D
 topic_type:
 - apiref
 api_name:
 - D1110 Flush Failure
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1110: Flush Failure
@@ -29,14 +35,14 @@ The address of the render target.
 <span id="tag1"></span><span id="TAG1"></span>*tag1*
 </dt> <dd>
 
-The first tag value. See [**SetTags**](id2d1rendertarget-settags.md) for more information.
+The first tag value. See [**SetTags**](/windows/win32/d2d1/?branch=master) for more information.
 
 </dd> <dt>
 
 <span id="tag2"></span><span id="TAG2"></span>*tag2*
 </dt> <dd>
 
-The second tag value. See [**SetTags**](id2d1rendertarget-settags.md) for more information.
+The second tag value. See [**SetTags**](/windows/win32/d2d1/?branch=master) for more information.
 
 </dd> </dl> 
 
@@ -50,7 +56,7 @@ The second tag value. See [**SetTags**](id2d1rendertarget-settags.md) for more i
 
 ## Examples
 
-**Example 1:** The following code shows that a draw call is in an invalid state. To avoid the warning message, use [**SetAntialiasMode**](id2d1rendertarget-setantialiasmode.md) to set D2D1\_ANTIALIAS\_MODE\_ANTIALIASED before a [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) call.
+**Example 1:** The following code shows that a draw call is in an invalid state. To avoid the warning message, use [**SetAntialiasMode**](/windows/win32/d2d1/?branch=master) to set D2D1\_ANTIALIAS\_MODE\_ANTIALIASED before a [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) call.
 
 
 ```C++
@@ -105,7 +111,7 @@ This example produces the following debug message:
 D2D DEBUG WARNING - Flush call on render target failed [88990001]. Tags [0, 0].
 ```
 
-**Example 2:** The following code shows that the [**Flush**](id2d1rendertarget-flush.md) is called after the [**EndDraw**](id2d1rendertarget-enddraw.md) call.
+**Example 2:** The following code shows that the [**Flush**](/windows/win32/d2d1/?branch=master) is called after the [**EndDraw**](/windows/win32/d2d1/?branch=master) call.
 
 
 ```C++
@@ -126,11 +132,11 @@ DEBUG WARNING - A Flush call by a render target failed [88990001]. Tags [0, 0].
 
 ## Possible Causes
 
-The [**Flush**](id2d1rendertarget-flush.md) call can fail for one of two reasons. It may fail because the method was called outside of the [**BeginDraw**](id2d1rendertarget-begindraw.md)/[**EndDraw**](id2d1rendertarget-enddraw.md) call, or it may fail because there was an error produced by one of the render target operations that have been processed since the last **Flush** call or **EndDraw** call. To fix the issue, the application should determine the cause of the error and take the appropriate action.
+The [**Flush**](/windows/win32/d2d1/?branch=master) call can fail for one of two reasons. It may fail because the method was called outside of the [**BeginDraw**](/windows/win32/d2d1/?branch=master)/[**EndDraw**](/windows/win32/d2d1/?branch=master) call, or it may fail because there was an error produced by one of the render target operations that have been processed since the last **Flush** call or **EndDraw** call. To fix the issue, the application should determine the cause of the error and take the appropriate action.
 
 ## Fixes
 
-There are many reasons that a [**Flush**](id2d1rendertarget-flush.md) call might fail. The application should determine the cause of the error and take the appropriate action.
+There are many reasons that a [**Flush**](/windows/win32/d2d1/?branch=master) call might fail. The application should determine the cause of the error and take the appropriate action.
 
  
 

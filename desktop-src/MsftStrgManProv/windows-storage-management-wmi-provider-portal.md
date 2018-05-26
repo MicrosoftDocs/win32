@@ -4,10 +4,13 @@ description: Enables management of storage systems on Windows Server products.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f0c86709-3fc8-4b66-9484-ebe45e7205ad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: f0c86709-3fc8-4b66-9484-ebe45e7205ad
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Server Storage Management (MsftStrgMan) Provider

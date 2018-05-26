@@ -1,8 +1,9 @@
 ---
 title: GuardInterval enumeration
 description: Specifies the guard interval on a Digital Video Broadcasting-Terrestrial (DVB-T) system.
-ms.assetid: 'a3ff1c61-f80d-40f2-a22f-069f0690fb1b'
-keywords: ["GuardInterval enumeration Microsoft TV Technologies"]
+ms.assetid: a3ff1c61-f80d-40f2-a22f-069f0690fb1b
+keywords:
+- GuardInterval enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GuardInterval enumeration
@@ -22,13 +28,13 @@ Specifies the guard interval on a Digital Video Broadcasting-Terrestrial (DVB-T)
 
 ```C++
 typedef enum GuardInterval { 
-  BDA_GUARD_NOT_SET      = -1,
-  BDA_GUARD_NOT_DEFINED  = 0,
-  BDA_GUARD_1_32         = 1,
-  BDA_GUARD_1_16         = 2,
-  BDA_GUARD_1_8          = 3,
-  BDA_GUARD_1_4          = 4,
-  BDA_GUARD_MAX          = 5
+  BDA_GUARD_NOT_SET      = -1,
+  BDA_GUARD_NOT_DEFINED  = 0,
+  BDA_GUARD_1_32         = 1,
+  BDA_GUARD_1_16         = 2,
+  BDA_GUARD_1_8          = 3,
+  BDA_GUARD_1_4          = 4,
+  BDA_GUARD_MAX          = 5
 } GuardInterval;
 ```
 
@@ -101,15 +107,15 @@ Reserved; do not use.
 
 <dl> <dt>
 
-[**IDVBTLocator::get\_Guard**](idvbtlocator-get-guard.md)
+[**IDVBTLocator::get\_Guard**](/windows/previous-versions/tuner/nf-tuner-idvbtlocator-get_guard?branch=master)
 </dt> <dt>
 
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

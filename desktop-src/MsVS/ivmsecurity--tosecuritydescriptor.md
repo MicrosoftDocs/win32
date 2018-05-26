@@ -1,8 +1,11 @@
 ---
 title: IVMSecurity \_ToSecurityDescriptor method
 description: Creates a self-relative SECURITY\_DESCRIPTOR structure representing the current state of the IVMSecurity instance.
-ms.assetid: 'b109c8dd-4ad9-4851-9b19-b7517e0539f2'
-keywords: ["_ToSecurityDescriptor method Virtual Server", "_ToSecurityDescriptor method Virtual Server , IVMSecurity interface", "IVMSecurity interface Virtual Server , _ToSecurityDescriptor method"]
+ms.assetid: b109c8dd-4ad9-4851-9b19-b7517e0539f2
+keywords:
+- _ToSecurityDescriptor method Virtual Server
+- _ToSecurityDescriptor method Virtual Server , IVMSecurity interface
+- IVMSecurity interface Virtual Server , _ToSecurityDescriptor method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSecurity::\_ToSecurityDescriptor method
@@ -22,9 +30,9 @@ The **\_ToSecurityDescriptor** method creates a self-relative **SECURITY\_DESCRI
 
 ```C++
 HRESULT _ToSecurityDescriptor(
-  [in]  GENERIC_MAPPING *genericMapping,
-  [out] long            *securityDescriptorLength,
-  [out] BYTE            **securityDescriptor
+  [in]  GENERIC_MAPPING *genericMapping,
+  [out] long            *securityDescriptorLength,
+  [out] BYTE            **securityDescriptor
 );
 ```
 
@@ -80,7 +88,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -88,8 +96,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -101,9 +109,9 @@ This method supports standard return values, as well as the following. For infor
 [**IVMSecurity**](ivmsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the specified color is a fundamental color.'
-ms.assetid: '9a06fadc-9b97-4f7d-9488-688b72d14bc5'
+---
+Description: Specifies whether the specified color is a fundamental color.
+ms.assetid: 9a06fadc-9b97-4f7d-9488-688b72d14bc5
 title: FFundamentalIMEColorStyle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FFundamentalIMEColorStyle function

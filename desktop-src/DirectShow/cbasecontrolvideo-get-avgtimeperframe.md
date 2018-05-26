@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_AvgTimePerFrame method retrieves the average time per frame.'
-ms.assetid: 'bcfdb241-9ec1-49f4-b2b5-0869c27da953'
-title: 'CBaseControlVideo.get\_AvgTimePerFrame method'
+Description: The get\_AvgTimePerFrame method retrieves the average time per frame.
+ms.assetid: bcfdb241-9ec1-49f4-b2b5-0869c27da953
+title: CBaseControlVideo.get\_AvgTimePerFrame method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.get\_AvgTimePerFrame method
@@ -13,7 +18,7 @@ The `get_AvgTimePerFrame` method retrieves the average time per frame.
 
 ```C++
 HRESULT get_AvgTimePerFrame(
-   REFTIME *pAvgTimePerFrame
+   REFTIME *pAvgTimePerFrame
 );
 ```
 
@@ -36,7 +41,7 @@ Returns NOERROR if successful or E\_OUTOFMEMORY if there is not enough memory av
 
 ## Remarks
 
-This member function implements the [**IBasicVideo::get\_AvgTimePerFrame**](ibasicvideo-get-avgtimeperframe.md) method. It calls the pure virtual [**CBaseControlVideo::GetVideoFormat**](cbasecontrolvideo-getvideoformat.md) member function to retrieve the [**VIDEOINFOHEADER**](videoinfoheader.md) structure from the derived class.
+This member function implements the [**IBasicVideo::get\_AvgTimePerFrame**](/windows/win32/Control/nf-control-ibasicvideo-get_avgtimeperframe?branch=master) method. It calls the pure virtual [**CBaseControlVideo::GetVideoFormat**](cbasecontrolvideo-getvideoformat.md) member function to retrieve the [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure from the derived class.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ This member function implements the [**IBasicVideo::get\_AvgTimePerFrame**](ibas
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

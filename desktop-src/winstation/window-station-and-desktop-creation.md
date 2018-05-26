@@ -1,7 +1,12 @@
 ---
 title: Window Station and Desktop Creation
 description: The system automatically creates the interactive window station.
-ms.assetid: '5b908cb6-3a72-4afc-aed0-8411e8d0888f'
+ms.assetid: 5b908cb6-3a72-4afc-aed0-8411e8d0888f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Station and Desktop Creation

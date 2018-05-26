@@ -1,13 +1,21 @@
 ---
 title: Setting and Retrieving the Properties of a Job
 description: The owner of the job or a user with administrator privileges can set and retrieve the properties of the job at any time.
-ms.assetid: '5d0ab96b-b818-4b41-8317-cf50ad17c12d'
-keywords: ["transfer job BITS , properties", "setting job properties BITS", "retrieving job properties BITS"]
+ms.assetid: 5d0ab96b-b818-4b41-8317-cf50ad17c12d
+keywords:
+- transfer job BITS , properties
+- setting job properties BITS
+- retrieving job properties BITS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting and Retrieving the Properties of a Job
 
-The owner of the job or a user with administrator privileges can set and retrieve the properties of the job at any time. For a complete list of properties that you can set and retrieve, see the [**IBackgroundCopyJob**](ibackgroundcopyjob.md), [**IBackgroundCopyJob2**](ibackgroundcopyjob2.md), [**IBackgroundCopyJob3**](ibackgroundcopyjob3.md), and [**IBackgroundCopyJob4**](ibackgroundcopyjob4.md) interfaces.
+The owner of the job or a user with administrator privileges can set and retrieve the properties of the job at any time. For a complete list of properties that you can set and retrieve, see the [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master), [**IBackgroundCopyJob2**](/windows/win32/Bits1_5/nn-bits1_5-ibackgroundcopyjob2?branch=master), [**IBackgroundCopyJob3**](/windows/win32/Bits2_0/nn-bits2_0-ibackgroundcopyjob3?branch=master), and [**IBackgroundCopyJob4**](/windows/win32/Bits3_0/nn-bits3_0-ibackgroundcopyjob4?branch=master) interfaces.
 
 Files also contain properties. For information on how to retrieve a file and its properties from a job, see [Enumerating Files in a Job](enumerating-files-in-a-job.md).
 
@@ -15,7 +23,7 @@ To transfer files, you do not need to change the default values of the job's pro
 
 ## Setting the properties of a job
 
-The following example shows how to set the properties that your application is most likely to change: [priority](ibackgroundcopyjob-setpriority.md), [notify interface](ibackgroundcopyjob-setnotifyinterface.md), [notify flags](ibackgroundcopyjob-setnotifyflags.md), and [reply file name](ibackgroundcopyjob2-setreplyfilename.md). The example assumes the [**IBackgroundCopyJob**](ibackgroundcopyjob.md) interface pointer, pJob, is valid.
+The following example shows how to set the properties that your application is most likely to change: [priority](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-setpriority?branch=master), [notify interface](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-setnotifyinterface?branch=master), [notify flags](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-setnotifyflags?branch=master), and [reply file name](/windows/win32/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename?branch=master). The example assumes the [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) interface pointer, pJob, is valid.
 
 
 ```C++
@@ -66,13 +74,13 @@ pJob4->Release();
 
 
 
-By default, BITS downloads content from the origin server. To download content from a peer, both the computer and the job must enable peer caching. To enable peer caching on the computer, set the EnablePeerCaching group policy setting. You can also call the [**IBitsPeerCacheAdministration::SetConfigurationFlags**](ibitspeercacheadministration-setconfigurationflags.md) method to enable peer caching on the computer; however, the preference setting is overridden by the policy, if set. To enable peer caching for the job, you must call the [**IBackgroundCopyJob4::SetPeerCachingFlags**](ibackgroundcopyjob4-setpeercachingflags.md) method.
+By default, BITS downloads content from the origin server. To download content from a peer, both the computer and the job must enable peer caching. To enable peer caching on the computer, set the EnablePeerCaching group policy setting. You can also call the [**IBitsPeerCacheAdministration::SetConfigurationFlags**](/windows/win32/Bits3_0/nf-bits3_0-ibitspeercacheadministration-setconfigurationflags?branch=master) method to enable peer caching on the computer; however, the preference setting is overridden by the policy, if set. To enable peer caching for the job, you must call the [**IBackgroundCopyJob4::SetPeerCachingFlags**](/windows/win32/Bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags?branch=master) method.
 
-To specify custom headers, a client certificate for client authentication, and HTTP options like redirection policy, CRL checking, and specifying which certificate errors to ignore, use the [**IBackgroundCopyJobHttpOptions**](ibackgroundcopyjobhttpoptions.md) interface. To get the **IBackgroundCopyJobHttpOptions** interface, query any of the [**IBackgroundCopyJob**](ibackgroundcopyjob.md) interfaces.
+To specify custom headers, a client certificate for client authentication, and HTTP options like redirection policy, CRL checking, and specifying which certificate errors to ignore, use the [**IBackgroundCopyJobHttpOptions**](/windows/win32/Bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions?branch=master) interface. To get the **IBackgroundCopyJobHttpOptions** interface, query any of the [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) interfaces.
 
 ## Retrieving the properties of a job
 
-The following example shows how to retrieve the [display name](ibackgroundcopyjob-getdisplayname.md), [owner](ibackgroundcopyjob-getowner.md), [progress](ibackgroundcopyjob-getprogress.md), and [state](ibackgroundcopyjob-getstate.md) property values of a job. The example assumes the [**IBackgroundCopyJob**](ibackgroundcopyjob.md) interface pointer, pJob, is valid.
+The following example shows how to retrieve the [display name](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-getdisplayname?branch=master), [owner](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-getowner?branch=master), [progress](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-getprogress?branch=master), and [state](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-getstate?branch=master) property values of a job. The example assumes the [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) interface pointer, pJob, is valid.
 
 
 ```C++

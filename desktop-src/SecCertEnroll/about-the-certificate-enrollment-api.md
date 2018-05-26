@@ -1,7 +1,12 @@
 ---
-Description: 'Enables you to create client applications that can be used to request and install certificates.'
-ms.assetid: '3ab66785-f6c4-4724-9149-d18abdb9f6a9'
+Description: Enables you to create client applications that can be used to request and install certificates.
+ms.assetid: 3ab66785-f6c4-4724-9149-d18abdb9f6a9
 title: About the Certificate Enrollment API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Certificate Enrollment API

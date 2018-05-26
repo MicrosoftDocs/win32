@@ -1,7 +1,12 @@
 ---
 title: DropDownColorPicker Sample
 description: This code sample demonstrates the markup and code required to use a Windows Ribbon DropDownColorPicker control.
-ms.assetid: 'cc8e18a6-9ed5-47ca-a807-f50838821f14'
+ms.assetid: cc8e18a6-9ed5-47ca-a807-f50838821f14
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DropDownColorPicker Sample
@@ -26,7 +31,7 @@ The DropDownColorPicker Sample can be downloaded as a standalone Microsoft Visua
 
 Download the sample to your hard disk.
 
-Install the Windows SDK for Windows 7 and open its build environment command window. On the Start menu, point to All Programs, Microsoft Windows SDK, and then click CMD Shell.
+Install the Windows SDK for Windows 7 and open its build environment command window. On the Start menu, point to All Programs, Microsoft Windows SDK, and then click CMD Shell.
 
 To build the sample from the build environment command window, go to the source directory of the sample. At the command prompt, type MSBUILD.
 
@@ -48,20 +53,20 @@ The [Windows Ribbon Development Forum](http://go.microsoft.com/fwlink/p/?linkid=
 
 |                          |                                                                                                                                                                          |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 7<br/> Windows Vista with Service Pack 2 (SP2) and [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/>         |
-| Minimum supported server | Windows Server 2008 R2<br/> Windows Server 2008 with SP2 and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/> |
+| Minimum supported client | Windows 7<br/> Windows Vista with Service Pack 2 (SP2) and [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/>         |
+| Minimum supported server | Windows Server 2008 R2<br/> Windows Server 2008 with SP2 and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/> |
 | Windows SDK              | 7.0                                                                                                                                                                      |
 | Visual Studio            | 2008                                                                                                                                                                     |
 | Header and IDL files     | uiribbon.h, uiribbon.idl                                                                                                                                                 |
 
 
 
- 
+ 
 
 > [!Note]  
-> The [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) are sets of run-time libraries that enable developers to target Windows Ribbon applications to both Windows Vista and Windows Server 2008. The platform updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) or [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background.
+> The [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) are sets of run-time libraries that enable developers to target Windows Ribbon applications to both Windows Vista and Windows Server 2008. The platform updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) or [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background.
 
- 
+ 
 
 ## Related topics
 
@@ -73,9 +78,9 @@ The [Windows Ribbon Development Forum](http://go.microsoft.com/fwlink/p/?linkid=
 [Color Picker Properties](windowsribbon-reference-properties-colorpicker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

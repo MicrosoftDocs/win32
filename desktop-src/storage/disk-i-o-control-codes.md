@@ -1,7 +1,12 @@
 ---
 title: Disk I/O Control Codes
 description: Disk I/O Control Codes
-ms.assetid: '754f1f14-dbfa-4d86-93f1-fe53efd96bd0'
+ms.assetid: 754f1f14-dbfa-4d86-93f1-fe53efd96bd0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk I/O Control Codes

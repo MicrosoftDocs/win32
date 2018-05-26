@@ -1,8 +1,10 @@
 ---
 title: DeviceEvent object
 description: Describes an EventID Constants that can be used when calling RegisterEvent or RegisterPersistentEvent on a DeviceManager object.
-ms.assetid: 'f91ab3be-c046-4a2f-acae-e8cbe013105d'
-keywords: ["DeviceEvent object WIA Automation", "DeviceEvent object WIA Automation , described"]
+ms.assetid: f91ab3be-c046-4a2f-acae-e8cbe013105d
+keywords:
+- DeviceEvent object WIA Automation
+- DeviceEvent object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceEvent object
@@ -38,7 +45,7 @@ The **DeviceEvent** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,7 +63,7 @@ Use any of the following to retrieve a reference to the object:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,16 +71,16 @@ Use any of the following to retrieve a reference to the object:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

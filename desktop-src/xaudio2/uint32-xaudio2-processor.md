@@ -1,12 +1,17 @@
-﻿---
-Description: 'Defines values to use with XAudio2Create to specify available processors.'
-ms.assetid: '29E67C0A-36EB-47B2-8708-36EC733D0D37'
-title: 'XAUDIO2\_PROCESSOR'
+---
+Description: Defines values to use with XAudio2Create to specify available processors.
+ms.assetid: 29E67C0A-36EB-47B2-8708-36EC733D0D37
+title: XAUDIO2\_PROCESSOR
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAUDIO2\_PROCESSOR
 
-Defines values to use with [**XAudio2Create**](xaudio2create.md) to specify available processors.
+Defines values to use with [**XAudio2Create**](/windows/win32/xaudio2/nf-xaudio2-xaudio2create?branch=master) to specify available processors.
 
 
 
@@ -81,7 +86,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 [Constants](constants.md)
 </dt> <dt>
 
-[**XAudio2Create**](xaudio2create.md)
+[**XAudio2Create**](/windows/win32/xaudio2/nf-xaudio2-xaudio2create?branch=master)
 </dt> </dl>
 
  

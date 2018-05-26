@@ -1,7 +1,12 @@
 ---
-Description: 'Registers a service that provides global resource pool-related objects.'
-ms.assetid: 'B602F6E1-2889-43CF-AAF1-40F339231DB4'
-title: 'Msvm\_ResourcePoolRegistration class'
+Description: Registers a service that provides global resource pool-related objects.
+ms.assetid: B602F6E1-2889-43CF-AAF1-40F339231DB4
+title: Msvm\_ResourcePoolRegistration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ResourcePoolRegistration class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_ResourcePoolRegistration : Msvm_VirtualizationComponentRegistration
 {
   Msvm_ResourceTypeDefinition REF ResourceType;
-  Msvm_ResourcePoolComponent  REF Component;
+  Msvm_ResourcePoolComponent  REF Component;
 };
 ```
 
@@ -68,10 +73,10 @@ Access to the **Msvm\_ResourcePoolRegistration** class might be restricted by UA
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
-| End of client support<br/>    | Windows 8.1<br/>                                                                                  |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| End of client support<br/>    | Windows 8.1<br/>                                                                                  |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -88,9 +93,9 @@ Access to the **Msvm\_ResourcePoolRegistration** class might be restricted by UA
 [**Msvm\_VirtualizationComponentRegistration**](msvm-virtualizationcomponentregistration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

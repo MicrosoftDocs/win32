@@ -1,7 +1,12 @@
 ---
 Description: Creating an Audio Capture Graph
-ms.assetid: '2302bb40-a5db-473a-afeb-71905ac41f47'
+ms.assetid: 2302bb40-a5db-473a-afeb-71905ac41f47
 title: Creating an Audio Capture Graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Audio Capture Graph
@@ -26,7 +31,7 @@ The System Device Enumerator returns a list of monikers for the devices; each mo
 
 For more information, see [Using the System Device Enumerator](using-the-system-device-enumerator.md).
 
-To specify which input to capture from, obtain the [**IAMAudioInputMixer**](iamaudioinputmixer.md) interface from the Audio Capture filter and call the **put\_Enable** method to specify the input. One limitation of this method, however, is that different hardware devices may use different strings to identify their inputs. For example, one card may use "Microphone" to identify the microphone input and another card may use "Mic". To determine the string identifier for a given input, use the Windows Multimedia functions [**waveOutOpen**](https://msdn.microsoft.com/library/windows/desktop/dd743866), [**mixerOpen**](https://msdn.microsoft.com/library/windows/desktop/dd757308), and [**mixerGetLineInfo**](https://msdn.microsoft.com/library/windows/desktop/dd757303). See the MSDN topic [Mixer Device Queries](https://msdn.microsoft.com/library/windows/desktop/dd757311) for more information.
+To specify which input to capture from, obtain the [**IAMAudioInputMixer**](/windows/win32/Strmif/nn-strmif-iamaudioinputmixer?branch=master) interface from the Audio Capture filter and call the **put\_Enable** method to specify the input. One limitation of this method, however, is that different hardware devices may use different strings to identify their inputs. For example, one card may use "Microphone" to identify the microphone input and another card may use "Mic". To determine the string identifier for a given input, use the Windows Multimedia functions [**waveOutOpen**](https://msdn.microsoft.com/library/windows/desktop/dd743866), [**mixerOpen**](https://msdn.microsoft.com/library/windows/desktop/dd757308), and [**mixerGetLineInfo**](https://msdn.microsoft.com/library/windows/desktop/dd757303). See the MSDN topic [Mixer Device Queries](https://msdn.microsoft.com/library/windows/desktop/dd757311) for more information.
 
 Adding the Multiplexer and the File Writer
 
@@ -40,7 +45,7 @@ A *multiplexer* is a filter that combines one or more streams into a single stre
 
 A *file writer* is a filter that writes incoming data to a file. For AVI or WAV files, use the [File Writer Filter](file-writer-filter.md). For WMA files, the ASF Writer acts as both multiplexer and file writer.
 
-After you create the filters and add them to the graph, connect the Audio Capture Filter's output pin to the multiplexer's input pin, and connect the multiplexer's output pin to the filter writer's input pin (assuming these are separate filters). To specify the file name, query the file writer for the [**IFileSinkFilter**](ifilesinkfilter.md) interface and call the [**IFileSinkFilter::SetFileName**](ifilesinkfilter-setfilename.md) method.
+After you create the filters and add them to the graph, connect the Audio Capture Filter's output pin to the multiplexer's input pin, and connect the multiplexer's output pin to the filter writer's input pin (assuming these are separate filters). To specify the file name, query the file writer for the [**IFileSinkFilter**](/windows/win32/Strmif/nn-strmif-ifilesinkfilter?branch=master) interface and call the [**IFileSinkFilter::SetFileName**](/windows/win32/Strmif/nf-strmif-ifilesinkfilter-setfilename?branch=master) method.
 
 ### Example Code
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The LoadIPAddresses function is called by the monitor to fill in an IP address list with addresses taken from an HTML configuration string variable.'
-ms.assetid: 'd0b5d686-5a98-4d61-aa28-24ea71fcb06b'
+Description: The LoadIPAddresses function is called by the monitor to fill in an IP address list with addresses taken from an HTML configuration string variable.
+ms.assetid: d0b5d686-5a98-4d61-aa28-24ea71fcb06b
 title: LoadIPAddresses function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LoadIPAddresses function
@@ -13,10 +18,10 @@ The **LoadIPAddresses** function is called by the monitor to fill in an IP addre
 
 ```C++
 BOOL LoadIPAddresses(
-  _In_  const char  *pConfig,
-  _In_  const char  *pVarName,
-  _Out_       DWORD **ppAddresses,
-  _Out_       DWORD *pNumAddresses
+  _In_  const char  *pConfig,
+  _In_  const char  *pVarName,
+  _Out_       DWORD **ppAddresses,
+  _Out_       DWORD *pNumAddresses
 );
 ```
 
@@ -70,17 +75,17 @@ The IP addresses must be in x.x.x.x format (for example, 127.0.0.1).
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

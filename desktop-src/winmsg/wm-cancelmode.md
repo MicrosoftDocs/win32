@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to cancel certain modes, such as mouse capture.'
-ms.assetid: 'c801233a-c4d8-4fd9-aaf0-3d4503bbce26'
-title: 'WM\_CANCELMODE message'
+---
+Description: Sent to cancel certain modes, such as mouse capture.
+ms.assetid: c801233a-c4d8-4fd9-aaf0-3d4503bbce26
+title: WM\_CANCELMODE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CANCELMODE message

@@ -1,8 +1,11 @@
 ---
 title: IEnumProgressItems RemoteNext method
 description: Supports a remote client that wants to retrieve a specified number of items in the enumeration sequence.
-ms.assetid: 'c5f85ca3-1bad-49fd-9e67-d41135cd837d'
-keywords: ["RemoteNext method IMAPI", "RemoteNext method IMAPI , IEnumProgressItems interface", "IEnumProgressItems interface IMAPI , RemoteNext method"]
+ms.assetid: c5f85ca3-1bad-49fd-9e67-d41135cd837d
+keywords:
+- RemoteNext method IMAPI
+- RemoteNext method IMAPI , IEnumProgressItems interface
+- IEnumProgressItems interface IMAPI , RemoteNext method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Imapi2fs.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumProgressItems::RemoteNext method
@@ -22,9 +30,9 @@ Supports a remote client that wants to retrieve a specified number of items in t
 
 ```C++
 HRESULT RemoteNext(
-  [in]  ULONG         celt,
-  [out] IProgressItem **rgelt,
-  [out] ULONG         *pceltFetched
+  [in]  ULONG         celt,
+  [out] IProgressItem **rgelt,
+  [out] ULONG         *pceltFetched
 );
 ```
 
@@ -44,7 +52,7 @@ Number of items to retrieve.
 *rgelt* \[out\]
 </dt> <dd>
 
-Array of [**IProgressItem**](iprogressitem.md) interfaces. You must release each interface in rgelt when done.
+Array of [**IProgressItem**](/windows/win32/imapi2fs/nn-imapi2fs-iprogressitem?branch=master) interfaces. You must release each interface in rgelt when done.
 
 </dd> <dt>
 
@@ -72,7 +80,7 @@ Other success codes may be returned as a result of implementation. The following
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -84,8 +92,8 @@ If there are fewer than the requested number of elements left in the sequence, i
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows XP with SP2 \[desktop apps only\]<br/>                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista, Windows XP with SP2 \[desktop apps only\]<br/>                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | IDL<br/>                      | <dl> <dt>Imapi2fs.idl</dt> </dl> |
 
 
@@ -94,15 +102,15 @@ If there are fewer than the requested number of elements left in the sequence, i
 
 <dl> <dt>
 
-[**IEnumProgressItems**](ienumprogressitems.md)
+[**IEnumProgressItems**](/windows/win32/imapi2fs/nn-imapi2fs-ienumprogressitems?branch=master)
 </dt> <dt>
 
-[IEnumProgressItems::Next](ienumprogressitems-next.md)
+[IEnumProgressItems::Next](/windows/win32/imapi2fs/nf-imapi2fs-ienumprogressitems-next?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

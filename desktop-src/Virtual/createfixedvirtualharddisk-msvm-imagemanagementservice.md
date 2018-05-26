@@ -1,8 +1,11 @@
 ---
 title: CreateFixedVirtualHardDisk method of the Msvm\_ImageManagementService class
 description: Creates a fixed-sized virtual hard disk (.vhd) file.
-ms.assetid: 'ac3498db-2e4d-4642-9b33-b6b8818a907c'
-keywords: ["CreateFixedVirtualHardDisk method Hyper-V", "CreateFixedVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class", "Msvm_ImageManagementService class Hyper-V , CreateFixedVirtualHardDisk method"]
+ms.assetid: ac3498db-2e4d-4642-9b33-b6b8818a907c
+keywords:
+- CreateFixedVirtualHardDisk method Hyper-V
+- CreateFixedVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class
+- Msvm_ImageManagementService class Hyper-V , CreateFixedVirtualHardDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateFixedVirtualHardDisk method of the Msvm\_ImageManagementService class
@@ -22,9 +30,9 @@ Creates a fixed-sized virtual hard disk (.vhd) file.
 
 ```mof
 uint32 CreateFixedVirtualHardDisk(
-  [in]  string              Path,
-  [in]  uint64              MaxInternalSize,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              Path,
+  [in]  uint64              MaxInternalSize,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -137,7 +145,7 @@ This method can return one of the following values.
 <td><dl> <dt><strong>File not found</strong></dt> <dt>32779</dt> </dl></td>
 <td><blockquote>
 [!Note]<br />
-Added in Windows Server 2012 R2.
+Added in Windows Server 2012 R2.
 </blockquote>
 <br/></td>
 </tr>
@@ -146,7 +154,7 @@ Added in Windows Server 2012 R2.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -380,9 +388,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -401,9 +409,9 @@ End Function
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

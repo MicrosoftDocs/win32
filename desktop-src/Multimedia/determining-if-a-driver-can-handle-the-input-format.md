@@ -1,13 +1,21 @@
 ---
 title: Determining If a Driver Can Handle the Input Format
 description: Determining If a Driver Can Handle the Input Format
-ms.assetid: '456eab43-d830-4a28-b724-3ef35b852372'
-keywords: ["video compression manager (VCM),input format", "VCM (video compression manager),input format", "ICDrawQuery macro"]
+ms.assetid: 456eab43-d830-4a28-b724-3ef35b852372
+keywords:
+- video compression manager (VCM),input format
+- VCM (video compression manager),input format
+- ICDrawQuery macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining If a Driver Can Handle the Input Format
 
-The following example shows how to check the input format with the [**ICDrawQuery**](icdrawquery.md) macro.
+The following example shows how to check the input format with the [**ICDrawQuery**](/windows/win32/Vfw/nf-vfw-icdrawquery?branch=master) macro.
 
 
 ```C++

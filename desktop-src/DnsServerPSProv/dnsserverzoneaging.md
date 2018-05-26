@@ -2,13 +2,15 @@
 title: DnsServerZoneAging class
 description: Manages aging settings for a DNS zone.
 audience: developer
-ms.assetid: '5b45aae7-deca-418e-859f-bf88a85414a1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5b45aae7-deca-418e-859f-bf88a85414a1
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerZoneAging class", "DnsServerZoneAging class, described"]
+keywords:
+- DnsServerZoneAging class
+- DnsServerZoneAging class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerZoneAging class
@@ -37,12 +42,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerZoneAging
 {
-  string   ZoneName;
-  boolean  AgingEnabled;
+  string   ZoneName;
+  boolean  AgingEnabled;
   datetime AvailForScavengeTime;
   datetime RefreshInterval;
   datetime NoRefreshInterval;
-  string   ScavengeServers[];
+  string   ScavengeServers[];
 };
 ```
 
@@ -143,7 +148,7 @@ The name of the zone.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -157,9 +162,9 @@ The name of the zone.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Most counter types use a formula for calculating a displayable value for the counter.'
-ms.assetid: 'b65a6874-fffb-41af-8620-27d4036cc7b2'
+Description: Most counter types use a formula for calculating a displayable value for the counter.
+ms.assetid: b65a6874-fffb-41af-8620-27d4036cc7b2
 title: Calculating Counter Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calculating Counter Values

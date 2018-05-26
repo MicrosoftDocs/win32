@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PDEV\_ADJUST\_PAPER\_PHYSICAL\_SIZE structure specifies a paper size value.'
-ms.assetid: '27f6bc52-6973-4370-87cb-07d6f9399e20'
-title: 'PDEV\_ADJUST\_PAPER\_PHYSICAL\_SIZE structure'
+---
+Description: The PDEV\_ADJUST\_PAPER\_PHYSICAL\_SIZE structure specifies a paper size value.
+ms.assetid: 27f6bc52-6973-4370-87cb-07d6f9399e20
+title: PDEV\_ADJUST\_PAPER\_PHYSICAL\_SIZE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PDEV\_ADJUST\_PAPER\_PHYSICAL\_SIZE structure

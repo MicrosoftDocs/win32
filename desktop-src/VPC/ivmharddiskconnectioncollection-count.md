@@ -1,8 +1,11 @@
 ---
 title: IVMHardDiskConnectionCollection Count property
 description: Retrieves the number of hard disk connections in this collection.
-ms.assetid: '913c1bb7-0237-4f11-9873-7b42a94004f8'
-keywords: ["Count property Virtual PC", "Count property Virtual PC , IVMHardDiskConnectionCollection interface", "IVMHardDiskConnectionCollection interface Virtual PC , Count property"]
+ms.assetid: 913c1bb7-0237-4f11-9873-7b42a94004f8
+keywords:
+- Count property Virtual PC
+- Count property Virtual PC , IVMHardDiskConnectionCollection interface
+- IVMHardDiskConnectionCollection interface Virtual PC , Count property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDiskConnectionCollection::Count property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the number of hard disk connections in this collection.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Count(
-  [out, retval] long *count
+  [out, retval] long *count
 );
 ```
 
@@ -56,9 +64,9 @@ The number of hard disk connections.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                         |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                         |
 | Minimum supported server<br/> | None supported<br/>                                                                          |
-| End of client support<br/>    | Windows 7<br/>                                                                               |
+| End of client support<br/>    | Windows 7<br/>                                                                               |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl>      |
 | IID<br/>                      | IID\_IVMHardDiskconnectionCollection is defined as b9f2caf4-0aeb-4085-b105-ceddb90dbf62<br/> |
@@ -72,9 +80,9 @@ The number of hard disk connections.
 [**IVMHardDiskConnectionCollection**](ivmharddiskconnectioncollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

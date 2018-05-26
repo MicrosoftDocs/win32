@@ -1,7 +1,12 @@
-﻿---
-Description: 'The APIVersion property is a value that indicates the version of the fax server API.'
-ms.assetid: '01e5c0d0-ce7c-47f4-949e-887bb8fa1065'
-title: 'FaxServer.APIVersion property'
+---
+Description: The APIVersion property is a value that indicates the version of the fax server API.
+ms.assetid: 01e5c0d0-ce7c-47f4-949e-887bb8fa1065
+title: FaxServer.APIVersion property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.APIVersion property
@@ -21,7 +26,7 @@ Property APIVersion As Integer
 
 ## Property value
 
-Value from the [**FAX\_SERVER\_APIVERSION\_ENUM**](-mfax-fax-server-apiversion-enum.md) enumeration that specifies the version of the fax server API.
+Value from the [**FAX\_SERVER\_APIVERSION\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_server_apiversion_enum?branch=master) enumeration that specifies the version of the fax server API.
 
 ## Remarks
 
@@ -50,7 +55,7 @@ In general, each new version of the fax server API is fully compatible with prev
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

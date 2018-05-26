@@ -1,7 +1,12 @@
 ---
 title: Control Panels
 description: Use control panel items to help users configure system-level features and perform related tasks. Programs that have a user interface should be configured directly from their UI instead.
-ms.assetid: '845325ef-9f1d-4aa7-a5b0-685fac74a9f8'
+ms.assetid: 845325ef-9f1d-4aa7-a5b0-685fac74a9f8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Control Panels
@@ -196,7 +201,7 @@ For more guidelines about presenting object lists, see [List Views](ctrl-list-vi
 
 **Interaction**
 
--   **Don't put commit buttons on hub pages.** Hub pages are fundamentally launch points. Users never "commit" hub pages—they are never done with them. And commit buttons on hub pages make any tasks initiated from a hub confusing (users will wonder if those tasks need to be committed).
+-   **Don't put commit buttons on hub pages.** Hub pages are fundamentally launch points. Users never "commit" hub pages they are never done with them. And commit buttons on hub pages make any tasks initiated from a hub confusing (users will wonder if those tasks need to be committed).
     -   **Exception:** If changing a setting requires [elevation](glossary.md#e), provide an Apply button with a [security shield icon](winenv-uac.md#uac-shield-icon). Disable the commit button once changes have been applied.
 -   **Consider putting the most useful properties directly on hub pages.** Such hybrid hub pages are strongly recommended when users are most likely to use Control Panel to access those properties.
 
@@ -351,7 +356,7 @@ To integrate your control panel item with Windows, you can:
     -   **Provide task links (including their name, description, keywords, and command line)** to indicate primary tasks and allow users to navigate directly to the tasks.
 -   **Provide search terms** to help users find your task links using the Control Panel search feature.
 
-    Note that you can provide this information only for individual control panel items—you can't add or change this information for existing control panel items that you extend.
+    Note that you can provide this information only for individual control panel items you can't add or change this information for existing control panel items that you extend.
 
 **Category pages**
 
@@ -419,7 +424,7 @@ A scheme is a named collection of visual settings. A theme is a named collection
 
     In this example, the Personalization control panel item shows a preview of the desktop and appearance settings.
 
--   **Provide Save As and Delete commands.** A rename command isn't necessary—users can rename schemes by saving under the desired name and deleting the original scheme.
+-   **Provide Save As and Delete commands.** A rename command isn't necessary users can rename schemes by saving under the desired name and deleting the original scheme.
 -   If the settings can't be applied without a scheme, **don't allow users to delete all the schemes.** Users shouldn't have to create a scheme of their own.
 -   If the schemes are not completely independent (for example, power schemes depend upon the current laptop mode of operation), **make sure there is an easy way to change settings that apply across all schemes.** For example with power schemes, make sure that users can set what happens when a portable computer's lid is closed in a single location.
 
@@ -530,7 +535,7 @@ The following guidelines apply to links to task pages, such as Category page tas
 
     
 
-     
+     
 
     These examples show the relationship of the task link text, main instruction, and commit button text.
 
@@ -684,7 +689,7 @@ The following guidelines apply to links to task pages, such as Category page tas
 -   **Always start task links with a verb.**
 -   Use [sentence-style capitalization](glossary.md#s).
 -   Don't use ending punctuation.
--   **If the task link requires further explanation, provide the explanation in a separate text control** using complete sentences and ending punctuation. However, add such explanations only when needed—don't add explanations to all task links because another task link needs one.
+-   **If the task link requires further explanation, provide the explanation in a separate text control** using complete sentences and ending punctuation. However, add such explanations only when needed don't add explanations to all task links because another task link needs one.
 
 For more information and examples, see [Links](ctrl-command-links.md).
 
@@ -721,9 +726,9 @@ Examples:
 -   In Control Panel, open **Parental Controls**.
 -   Return to the main **Parental Controls** page.
 
- 
+ 
 
- 
+ 
 
 
 

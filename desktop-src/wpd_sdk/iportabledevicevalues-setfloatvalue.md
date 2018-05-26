@@ -1,7 +1,12 @@
 ---
-Description: 'The SetFloatValue method adds a new FLOAT value (type VT\_R4) or overwrites an existing one.'
-ms.assetid: '1e0c9d19-47bf-4d93-a0c0-27e2c4897012'
-title: 'IPortableDeviceValues::SetFloatValue method'
+Description: The SetFloatValue method adds a new FLOAT value (type VT\_R4) or overwrites an existing one.
+ms.assetid: 1e0c9d19-47bf-4d93-a0c0-27e2c4897012
+title: IPortableDeviceValuesSetFloatValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetFloatValue method
@@ -13,8 +18,8 @@ The **SetFloatValue** method adds a new **FLOAT** value (type VT\_R4) or overwri
 
 ```C++
 HRESULT SetFloatValue(
-  [in]       REFPROPERTYKEY key,
-  [in] const FLOAT          Value
+  [in]       REFPROPERTYKEY key,
+  [in] const FLOAT          Value
 );
 ```
 
@@ -50,7 +55,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +82,9 @@ If an existing value has the same key that is specified by the *key* parameter, 
 [**IPortableDeviceValues::GetFloatValue**](iportabledevicevalues-getfloatvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

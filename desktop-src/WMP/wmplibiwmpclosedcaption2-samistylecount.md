@@ -1,8 +1,11 @@
 ---
 title: IWMPClosedCaption2 SAMIStyleCount property
 description: The SAMIStyleCount property gets the number of styles supported by the current SAMI file.
-ms.assetid: 'e2a0d194-6fa2-48c9-9fc7-0b60029d2e5d'
-keywords: ["SAMIStyleCount property Windows Media Player", "SAMIStyleCount property Windows Media Player , IWMPClosedCaption2 interface", "IWMPClosedCaption2 interface Windows Media Player , SAMIStyleCount property"]
+ms.assetid: e2a0d194-6fa2-48c9-9fc7-0b60029d2e5d
+keywords:
+- SAMIStyleCount property Windows Media Player
+- SAMIStyleCount property Windows Media Player , IWMPClosedCaption2 interface
+- IWMPClosedCaption2 interface Windows Media Player , SAMIStyleCount property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPClosedCaption2::SAMIStyleCount property
@@ -83,9 +91,9 @@ This property returns 0 unless a digital media file is open (AxWindowsMediaPlaye
 [**IWMPClosedCaption2.getSAMIStyleName (VB and C#)**](wmplibiwmpclosedcaption2-iwmpclosedcaption2-getsamistylename--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

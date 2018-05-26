@@ -4,11 +4,15 @@ description: Remote Hardware Management
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0ea6d075-6154-4ab9-adcb-e599e5aee614'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 0ea6d075-6154-4ab9-adcb-e599e5aee614
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["Remote Hardware Management"]
+keywords:
+- Remote Hardware Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Hardware Management

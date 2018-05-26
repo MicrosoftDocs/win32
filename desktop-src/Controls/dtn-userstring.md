@@ -1,8 +1,9 @@
 ---
 title: DTN\_USERSTRING notification code
 description: Sent by a date and time picker (DTP) control when a user finishes editing a string in the control.
-ms.assetid: 'a5b13582-323b-4804-912c-a988d902547d'
-keywords: ["DTN_USERSTRING notification code Windows Controls"]
+ms.assetid: a5b13582-323b-4804-912c-a988d902547d
+keywords:
+- DTN_USERSTRING notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTN\_USERSTRING notification code
@@ -35,7 +41,7 @@ DTN_USERSTRING
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMDATETIMESTRING**](nmdatetimestring.md) structure that contains information about the instance of the notification code.
+A pointer to an [**NMDATETIMESTRING**](/windows/win32/Commctrl/ns-commctrl-tagnmdatetimestringa?branch=master) structure that contains information about the instance of the notification code.
 
 </dd> </dl>
 
@@ -53,16 +59,16 @@ Handling this notification code allows the owner to provide custom responses to 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **DTN\_USERSTRINGW** (Unicode) and **DTN\_USERSTRINGA** (ANSI)<br/>             |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

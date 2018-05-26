@@ -1,7 +1,12 @@
 ---
-Description: 'Shows how to play protected media content in Microsoft Media Foundation.'
-ms.assetid: 'e4a47e1c-16aa-45c1-8aa8-8929d6e1e653'
+Description: Shows how to play protected media content in Microsoft Media Foundation.
+ms.assetid: e4a47e1c-16aa-45c1-8aa8-8929d6e1e653
 title: ProtectedPlayback Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProtectedPlayback Sample
@@ -18,8 +23,8 @@ To play a local media file, select **Open File** from the **File** menu. To spec
 
 This sample demonstrates the following Media Foundation interfaces:
 
--   [**IMFContentEnabler**](imfcontentenabler.md)
--   [**IMFContentProtectionManager**](imfcontentprotectionmanager.md)
+-   [**IMFContentEnabler**](/windows/win32/mfidl/nn-mfidl-imfcontentenabler?branch=master)
+-   [**IMFContentProtectionManager**](/windows/win32/mfidl/nn-mfidl-imfcontentprotectionmanager?branch=master)
 
 ## Requirements
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'c5dedcab-3e6f-433f-95de-d741321c683e'
+Description: .
+ms.assetid: c5dedcab-3e6f-433f-95de-d741321c683e
 title: Preventing Memory Leaks in Windows Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preventing Memory Leaks in Windows Applications

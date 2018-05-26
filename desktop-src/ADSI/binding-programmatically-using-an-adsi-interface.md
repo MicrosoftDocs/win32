@@ -4,10 +4,13 @@ description: This topic contains links to topics that demonstrate binding to dir
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '37f3a948-00e4-4e84-ac9e-8aa82f2635a1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 37f3a948-00e4-4e84-ac9e-8aa82f2635a1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Binding Programmatically Using an ADSI Interface

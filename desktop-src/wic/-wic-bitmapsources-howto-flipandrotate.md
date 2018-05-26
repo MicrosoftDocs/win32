@@ -1,16 +1,21 @@
 ---
-Description: 'This topic demonstrates how to rotate an IWICBitmapSource by using an IWICBitmapFlipRotator component.'
-ms.assetid: '371c7759-0165-4a2a-b2ff-f9c8a31053a4'
+Description: This topic demonstrates how to rotate an IWICBitmapSource by using an IWICBitmapFlipRotator component.
+ms.assetid: 371c7759-0165-4a2a-b2ff-f9c8a31053a4
 title: How to Flip and Rotate a Bitmap Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Flip and Rotate a Bitmap Source
 
-This topic demonstrates how to rotate an [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) by using an [**IWICBitmapFlipRotator**](-wic-codec-iwicbitmapfliprotator.md) component.
+This topic demonstrates how to rotate an [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) by using an [**IWICBitmapFlipRotator**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapfliprotator?branch=master) component.
 
 To flip and rotate a bitmap source
 
-1.  Create an [**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md) object to create Windows Imaging Component (WIC) objects.
+1.  Create an [**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master) object to create Windows Imaging Component (WIC) objects.
 
     ```C++
     // Create WIC factory
@@ -24,7 +29,7 @@ To flip and rotate a bitmap source
 
     
 
-2.  Use the [**CreateDecoderFromFilename**](-wic-codec-iwicimagingfactory-createdecoderfromfilename.md) method to create an [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) from an image file.
+2.  Use the [**CreateDecoderFromFilename**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename?branch=master) method to create an [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) from an image file.
 
     ```C++
     HRESULT hr = S_OK;
@@ -44,7 +49,7 @@ To flip and rotate a bitmap source
 
     
 
-3.  Get the first [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) of the image.
+3.  Get the first [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) of the image.
 
     ```C++
     // Retrieve the first bitmap frame.
@@ -58,7 +63,7 @@ To flip and rotate a bitmap source
 
     The JPEG file format only supports a single frame. Because the file in this example is a JPEG file, the first frame (`0`) is used. For image formats that have multiple frames, see [How to Retrieve the Frames of an Image](-wic-bitmapsources-howto-retrieveimageframes.md) for accessing each frame of the image.
 
-4.  Create the [**IWICBitmapFlipRotator**](-wic-codec-iwicbitmapfliprotator.md) to use for flipping the image.
+4.  Create the [**IWICBitmapFlipRotator**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapfliprotator?branch=master) to use for flipping the image.
 
     ```C++
     // Create the flip/rotator.
@@ -85,12 +90,12 @@ To flip and rotate a bitmap source
 
     
 
-    See [**WICBitmapTransformOptions**](-wic-codec-wicbitmaptransformoptions.md) for additional rotations and flipping options.
+    See [**WICBitmapTransformOptions**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master) for additional rotations and flipping options.
 
 6.  Draw or process the flipped bitmap source.
 
     > [!Note]  
-    > The [**IWICBitmapFlipRotator**](-wic-codec-iwicbitmapfliprotator.md) interface inherits from the [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) interface, so you can use the initialized flip/rotator object anywhere that accepts a **IWICBitmapSource**.
+    > The [**IWICBitmapFlipRotator**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapfliprotator?branch=master) interface inherits from the [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) interface, so you can use the initialized flip/rotator object anywhere that accepts a **IWICBitmapSource**.
 
      
 

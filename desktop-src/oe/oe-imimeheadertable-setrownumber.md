@@ -1,8 +1,11 @@
 ---
 title: IMimeHeaderTable SetRowNumber method
 description: Changes the row number for a row in the header table.
-ms.assetid: '3ae7d5a2-f756-4050-b6d4-3edc6193ebf9'
-keywords: ["SetRowNumber method Windows Mail (formerly Outlook Express)", "SetRowNumber method Windows Mail (formerly Outlook Express) , IMimeHeaderTable interface", "IMimeHeaderTable interface Windows Mail (formerly Outlook Express) , SetRowNumber method"]
+ms.assetid: 3ae7d5a2-f756-4050-b6d4-3edc6193ebf9
+keywords:
+- SetRowNumber method Windows Mail (formerly Outlook Express)
+- SetRowNumber method Windows Mail (formerly Outlook Express) , IMimeHeaderTable interface
+- IMimeHeaderTable interface Windows Mail (formerly Outlook Express) , SetRowNumber method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeHeaderTable::SetRowNumber method
@@ -22,8 +30,8 @@ Changes the row number for a row in the header table.
 
 ```C++
 HRESULT SetRowNumber(
-  [in] HHEADERROW hRow,
-  [in] DWORD      dwRowNumber
+  [in] HHEADERROW hRow,
+  [in] DWORD      dwRowNumber
 );
 ```
 
@@ -66,7 +74,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,8 +86,8 @@ The row number specifies the row's relative position in the header when it is sa
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -87,9 +95,9 @@ The row number specifies the row's relative position in the header when it is sa
 
 
 
- 
+ 
 
- 
+ 
 
 
 

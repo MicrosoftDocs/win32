@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a transformation matrix. NULL arguments are treated as identity transformations.'
-ms.assetid: '99c75ce9-3683-4753-b635-760eb8aaf46e'
+---
+Description: Builds a transformation matrix. NULL arguments are treated as identity transformations.
+ms.assetid: 99c75ce9-3683-4753-b635-760eb8aaf46e
 title: D3DXMatrixTransformation function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixTransformation function

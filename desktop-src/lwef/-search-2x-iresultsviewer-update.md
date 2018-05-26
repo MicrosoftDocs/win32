@@ -1,8 +1,11 @@
 ---
 title: IResultsViewer Update method
 description: Applies any query changes and navigates the view to the new set of results.
-ms.assetid: '3bcb4ac0-4a78-4051-bd2b-701d19c83602'
-keywords: ["Update method Legacy Windows Environment Features", "Update method Legacy Windows Environment Features , IResultsViewer interface", "IResultsViewer interface Legacy Windows Environment Features , Update method"]
+ms.assetid: 3bcb4ac0-4a78-4051-bd2b-701d19c83602
+keywords:
+- Update method Legacy Windows Environment Features
+- Update method Legacy Windows Environment Features , IResultsViewer interface
+- IResultsViewer interface Legacy Windows Environment Features , Update method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - WdsView.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultsViewer::Update method
@@ -47,9 +55,9 @@ This method does not return a value.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

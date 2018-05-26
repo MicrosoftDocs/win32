@@ -1,15 +1,28 @@
 ---
 title: Catalog Compiler for Type 1 Online Stores
 description: Catalog Compiler for Type 1 Online Stores
-ms.assetid: '49c03d3b-3381-4663-83c8-5bc8fa70f7c3'
-keywords: ["Windows Media Player online stores,catalog compiler", "online stores,catalog compiler", "type 1 online stores,catalog compiler", "Windows Media Player online stores,catcomp.exe", "online stores,catcomp.exe", "type 1 online stores,catcomp.exe", "catalog compiler", "catcomp.exe"]
+ms.assetid: 49c03d3b-3381-4663-83c8-5bc8fa70f7c3
+keywords:
+- Windows Media Player online stores,catalog compiler
+- online stores,catalog compiler
+- type 1 online stores,catalog compiler
+- Windows Media Player online stores,catcomp.exe
+- online stores,catcomp.exe
+- type 1 online stores,catcomp.exe
+- catalog compiler
+- catcomp.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Catalog Compiler for Type 1 Online Stores
 
 The catalog compiler (catcomp.exe) is a command-line tool used by Type 1 online stores to compile the set of tab-separated-value (TSV) files containing the online store's catalog data into a compressed catalog that can be downloaded by Windows Media Player. The catalog compiler also compiles catalog update files containing only the catalog information that has changed since the last catalog update.
 
-The compressed catalog files or catalog update files should be provided to Windows Media Player for download in the online store plug-in's implementation of [IWMPContentPartner::GetCatalogURL](iwmpcontentpartner-getcatalogurl.md).
+The compressed catalog files or catalog update files should be provided to Windows Media Player for download in the online store plug-in's implementation of [IWMPContentPartner::GetCatalogURL](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl?branch=master).
 
 Common Tasks
 

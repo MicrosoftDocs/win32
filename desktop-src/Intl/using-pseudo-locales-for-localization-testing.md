@@ -1,7 +1,12 @@
 ---
-Description: 'On Windows Vista and later, you can use pseudo-locales for testing the localization of applications. This topic includes procedures for using pseudo-codes.'
-ms.assetid: '1eccdbb9-a1bd-443a-a5f6-d64c9e5c87b3'
-title: 'Using Pseudo-Locales for Localization Testing'
+Description: On Windows Vista and later, you can use pseudo-locales for testing the localization of applications. This topic includes procedures for using pseudo-codes.
+ms.assetid: 1eccdbb9-a1bd-443a-a5f6-d64c9e5c87b3
+title: Using Pseudo-Locales for Localization Testing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Pseudo-Locales for Localization Testing
@@ -24,15 +29,15 @@ You can enable a pseudo-locale using registry key settings. The settings are mad
 
 ## Enumerate Pseudo-Locales
 
-Note that NLS does not automatically enumerate the pseudo-locales or expose them in the regional and language options portion of the Control Panel. They are only enumerable if values are set in the registry. Your application can then call [**EnumSystemLocalesEx**](enumsystemlocalesex.md) to enumerate the locales that the registry recognizes. The values for the locales are all of string (REG\_SZ) type.
+Note that NLS does not automatically enumerate the pseudo-locales or expose them in the regional and language options portion of the Control Panel. They are only enumerable if values are set in the registry. Your application can then call [**EnumSystemLocalesEx**](/windows/win32/Winnls/nf-winnls-enumsystemlocalesex?branch=master) to enumerate the locales that the registry recognizes. The values for the locales are all of string (REG\_SZ) type.
 
 ## Retrieve Locale Information
 
-The application uses [**GetLocaleInfoEx**](getlocaleinfoex.md) to retrieve information about a pseudo-locale. In the call, the application passes the locale name of the particular pseudo-locale, for example, "qps-mirr" for the mirrored pseudo-locale.
+The application uses [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master) to retrieve information about a pseudo-locale. In the call, the application passes the locale name of the particular pseudo-locale, for example, "qps-mirr" for the mirrored pseudo-locale.
 
 ## Use LocaleNameToLCID with Pseudo-Locales
 
-You can use the NLS mapping function [**LocaleNameToLCID**](localenametolcid.md) for pseudo-locales. This function works even if the locales are not enabled, because it does not have to check the registry key for a locale.
+You can use the NLS mapping function [**LocaleNameToLCID**](/windows/win32/Winnls/nf-winnls-localenametolcid?branch=master) for pseudo-locales. This function works even if the locales are not enabled, because it does not have to check the registry key for a locale.
 
 ## Related topics
 
@@ -44,13 +49,13 @@ You can use the NLS mapping function [**LocaleNameToLCID**](localenametolcid.md)
 [Pseudo-Locales](pseudo-locales.md)
 </dt> <dt>
 
-[**EnumSystemLocalesEx**](enumsystemlocalesex.md)
+[**EnumSystemLocalesEx**](/windows/win32/Winnls/nf-winnls-enumsystemlocalesex?branch=master)
 </dt> <dt>
 
-[**GetLocaleInfoEx**](getlocaleinfoex.md)
+[**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master)
 </dt> <dt>
 
-[**LocaleNameToLCID**](localenametolcid.md)
+[**LocaleNameToLCID**](/windows/win32/Winnls/nf-winnls-localenametolcid?branch=master)
 </dt> </dl>
 
  

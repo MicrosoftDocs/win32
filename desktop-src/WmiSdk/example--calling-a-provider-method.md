@@ -1,13 +1,16 @@
 ---
-Description: 'You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, calls a provider method, and then cleans up.'
+Description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, calls a provider method, and then cleans up.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ee8faa14-74ec-49a2-88d6-187627c40071'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ee8faa14-74ec-49a2-88d6-187627c40071
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Example: Calling a Provider Method'
+title: Example Calling a Provider Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example: Calling a Provider Method
@@ -30,21 +33,21 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-4.  Obtain a pointer to [**IWbemServices**](iwbemservices.md) for the root\\cimv2 namespace on the local computer by calling [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md). To connect to a remote computer, see [Example: Getting WMI Data from a Remote Computer](example--getting-wmi-data-from-a-remote-computer.md).
+4.  Obtain a pointer to [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) for the root\\cimv2 namespace on the local computer by calling [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master). To connect to a remote computer, see [Example: Getting WMI Data from a Remote Computer](example--getting-wmi-data-from-a-remote-computer.md).
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-5.  Set [**IWbemServices**](iwbemservices.md) proxy security so the WMI service can impersonate the client by calling [**CoSetProxyBlanket**](_com_cosetproxyblanket).
+5.  Set [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) proxy security so the WMI service can impersonate the client by calling [**CoSetProxyBlanket**](_com_cosetproxyblanket).
 
     For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md).
 
-6.  Use the [**IWbemServices**](iwbemservices.md) pointer to make requests to WMI. This example uses [**IWbemServices::ExecMethod**](iwbemservices-execmethod.md) to call the provider method [**Win32\_Process::Create**](https://msdn.microsoft.com/library/aa389388).
+6.  Use the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) pointer to make requests to WMI. This example uses [**IWbemServices::ExecMethod**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execmethod?branch=master) to call the provider method [**Win32\_Process::Create**](https://msdn.microsoft.com/library/aa389388).
 
     For more information about making requests to WMI, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md) and [Calling a Method](calling-a-method.md).
 
-    If the provider method has any in-parameters or out-parameters, then values of the parameters must be given to [**IWbemClassObject**](iwbemclassobject.md) pointers. For in-parameters, you must spawn an instance of the in-parameter definitions, and then set the values of these new instances. The [**Win32\_Process::Create**](https://msdn.microsoft.com/library/aa389388) method requires a value for the *CommandLine* in-parameter to execute properly.
+    If the provider method has any in-parameters or out-parameters, then values of the parameters must be given to [**IWbemClassObject**](/windows/win32/WbemCli/nn-wbemcli-iwbemclassobject?branch=master) pointers. For in-parameters, you must spawn an instance of the in-parameter definitions, and then set the values of these new instances. The [**Win32\_Process::Create**](https://msdn.microsoft.com/library/aa389388) method requires a value for the *CommandLine* in-parameter to execute properly.
 
-    The following code example creates an [**IWbemClassObject**](iwbemclassobject.md) pointer, spawns a new instance of the [**Win32\_Process::Create**](https://msdn.microsoft.com/library/aa389388) in-parameter definitions, and then sets the value of the *CommandLine* in-parameter to Notepad.exe.
+    The following code example creates an [**IWbemClassObject**](/windows/win32/WbemCli/nn-wbemcli-iwbemclassobject?branch=master) pointer, spawns a new instance of the [**Win32\_Process::Create**](https://msdn.microsoft.com/library/aa389388) in-parameter definitions, and then sets the value of the *CommandLine* in-parameter to Notepad.exe.
 
     ```C++
     // Set up to call the Win32_Process::Create method
@@ -74,7 +77,7 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
     
 
-    The following code example shows how the [**Win32\_Process::Create**](https://msdn.microsoft.com/library/aa389388) method out-parameters are given to an [**IWbemClassObject**](iwbemclassobject.md) pointer. The out-parameter value is obtained with the [**IWbemClassObject::Get**](iwbemclassobject-get.md) method and stored in a [**VARIANT**](e305240e-9e11-4006-98cc-26f4932d2118) variable so that it can be displayed to the user.
+    The following code example shows how the [**Win32\_Process::Create**](https://msdn.microsoft.com/library/aa389388) method out-parameters are given to an [**IWbemClassObject**](/windows/win32/WbemCli/nn-wbemcli-iwbemclassobject?branch=master) pointer. The out-parameter value is obtained with the [**IWbemClassObject::Get**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-get?branch=master) method and stored in a [**VARIANT**](e305240e-9e11-4006-98cc-26f4932d2118) variable so that it can be displayed to the user.
 
     ```C++
     // Execute Method

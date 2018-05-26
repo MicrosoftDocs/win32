@@ -1,7 +1,12 @@
 ---
-Description: 'The ConfigurableItem object represents a single row from the ModuleConfiguration table.'
-ms.assetid: 'bbd0d9bc-a463-4cd8-93ee-963dcee8efa6'
+Description: The ConfigurableItem object represents a single row from the ModuleConfiguration table.
+ms.assetid: bbd0d9bc-a463-4cd8-93ee-963dcee8efa6
 title: ConfigurableItem object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConfigurableItem object
@@ -35,7 +40,7 @@ The **ConfigurableItem** object has these properties.
 
 
 
- 
+ 
 
 ## C++
 
@@ -51,7 +56,7 @@ interface **IMsmConfigurableItem : IDispatch**
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,9 +70,9 @@ interface **IMsmConfigurableItem : IDispatch**
 
 
 
- 
+ 
 
- 
+ 
 
 
 

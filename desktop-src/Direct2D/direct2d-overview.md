@@ -1,8 +1,22 @@
 ---
 title: About Direct2D
 description: Introduces Direct2D, an API that provides Win32 developers with the ability to perform 2-D graphics rendering tasks with superior performance and visual quality.
-ms.assetid: '05cc230e-6fec-4a15-8e28-c68397392fc5'
-keywords: ["Direct2D,about", "Direct2D,interoperability", "Direct2D,performance", "Direct2D,availability", "Direct2D,applications", "interoperability,Direct2D", "performance for Direct2D", "availability for Direct2D", "applications for Direct2D"]
+ms.assetid: 05cc230e-6fec-4a15-8e28-c68397392fc5
+keywords:
+- Direct2D,about
+- Direct2D,interoperability
+- Direct2D,performance
+- Direct2D,availability
+- Direct2D,applications
+- interoperability,Direct2D
+- performance for Direct2D
+- availability for Direct2D
+- applications for Direct2D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Direct2D

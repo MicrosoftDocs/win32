@@ -2,7 +2,12 @@
 title: I
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: '161a4ded-ab56-4930-a030-446cd793c73d'
+ms.assetid: 161a4ded-ab56-4930-a030-446cd793c73d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # I

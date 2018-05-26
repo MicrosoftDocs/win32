@@ -1,13 +1,16 @@
 ---
 Description: Connecting to WMI Remotely with PowerShell
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9a06f0c3-2845-48aa-9988-79cc4607ce19'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9a06f0c3-2845-48aa-9988-79cc4607ce19
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Connecting to WMI Remotely with PowerShell
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Connecting to WMI Remotely with PowerShell

@@ -1,7 +1,12 @@
 ---
-Description: 'The MsiLockPermissionsEx Table can be used to secure services, files, registry keys, and created folders.'
-ms.assetid: 'c642f02d-07fa-463f-8151-769c28a71a5c'
+Description: The MsiLockPermissionsEx Table can be used to secure services, files, registry keys, and created folders.
+ms.assetid: c642f02d-07fa-463f-8151-769c28a71a5c
 title: MsiLockPermissionsEx Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiLockPermissionsEx Table

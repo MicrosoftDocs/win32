@@ -1,8 +1,11 @@
 ---
 title: Subject GetClassDisplay method
 description: Returns the class display name of the Subject.
-ms.assetid: '2E1072CE-B5F3-4F27-8D32-5E2945009AD9'
-keywords: ["GetClassDisplay method Access Execution Engine", "GetClassDisplay method Access Execution Engine , Subject interface", "Subject interface Access Execution Engine , GetClassDisplay method"]
+ms.assetid: 2E1072CE-B5F3-4F27-8D32-5E2945009AD9
+keywords:
+- GetClassDisplay method Access Execution Engine
+- GetClassDisplay method Access Execution Engine , Subject interface
+- Subject interface Access Execution Engine , GetClassDisplay method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subject::GetClassDisplay method
@@ -22,7 +30,7 @@ Returns the class display name of the **Subject**.
 
 ```C++
 virtual HRESULT GetClassDisplay(
-  [out] LPCWSTR *name
+  [out] LPCWSTR *name
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The class display name is the value of element **Subject/Class/DisplayName**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The class display name is the value of element **Subject/Class/DisplayName**.
 [**Subject**](subject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

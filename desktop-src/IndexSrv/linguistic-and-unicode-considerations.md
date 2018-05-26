@@ -1,7 +1,12 @@
 ---
 title: Linguistic and Unicode Considerations
 description: Linguistic and Unicode Considerations
-ms.assetid: 'a23f51c6-a21e-487a-8a0d-7aee8d5f22ac'
+ms.assetid: a23f51c6-a21e-487a-8a0d-7aee8d5f22ac
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Linguistic and Unicode Considerations

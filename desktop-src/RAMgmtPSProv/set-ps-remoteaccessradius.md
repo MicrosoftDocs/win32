@@ -2,13 +2,16 @@
 title: Set method of the PS\_RemoteAccessRadius class
 description: This cmdlet edits the properties associated with an external RADIUS server being used for the following1. VPN authentication2. Accounting for DirectAccess and VPN 3. OTP authentication for DirectAccess.
 audience: developer
-ms.assetid: '43cb07b6-a7fb-49a3-81ad-d985e592791f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 43cb07b6-a7fb-49a3-81ad-d985e592791f
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_RemoteAccessRadius class", "PS_RemoteAccessRadius class, Set method"]
+keywords:
+- Set method
+- Set method, PS_RemoteAccessRadius class
+- PS_RemoteAccessRadius class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_RemoteAccessRadius class
@@ -28,18 +34,18 @@ This cmdlet edits the properties associated with an external RADIUS server being
 
 ```mof
 uint32 Set(
-  [in]  string                   ComputerName,
-  [in]  string                   Purpose,
-  [in]  uint16                   Port,
-  [in]  uint8                    Score,
-  [in]  string                   ServerName,
-  [in]  uint32                   Timeout,
-  [in]  string                   SharedSecret,
-  [in]  string                   AccountingOnOffMsg,
-  [in]  string                   MsgAuthenticator,
-  [in]  string                   EntrypointName,
-  [in]  boolean                  PassThru,
-  [out] RemoteAccessRadiusServer cmdletOutput[]
+  [in]  string                   ComputerName,
+  [in]  string                   Purpose,
+  [in]  uint16                   Port,
+  [in]  uint8                    Score,
+  [in]  string                   ServerName,
+  [in]  uint32                   Timeout,
+  [in]  string                   SharedSecret,
+  [in]  string                   AccountingOnOffMsg,
+  [in]  string                   MsgAuthenticator,
+  [in]  string                   EntrypointName,
+  [in]  boolean                  PassThru,
+  [out] RemoteAccessRadiusServer cmdletOutput[]
 );
 ```
 
@@ -189,7 +195,7 @@ Status of message authenticator: if the Radius server was modified for accountin
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -203,9 +209,9 @@ Status of message authenticator: if the Radius server was modified for accountin
 [**PS\_RemoteAccessRadius**](ps-remoteaccessradius.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

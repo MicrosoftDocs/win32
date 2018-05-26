@@ -4,11 +4,15 @@ description: This topic lists ways that a client views ADSI data.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '238eeea9-1303-4d37-bf09-ad03f1790c1b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 238eeea9-1303-4d37-bf09-ad03f1790c1b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["extensions ADSI ,what does a client see"]
+keywords:
+- extensions ADSI ,what does a client see
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What Does a Client See?

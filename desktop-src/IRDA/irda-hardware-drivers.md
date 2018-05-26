@@ -1,8 +1,17 @@
 ---
 title: IrDA Hardware Drivers
 description: SIR UART-based serial adapters are supported by the Windows component IrSIR.sys.
-ms.assetid: 'e21df10f-a658-4dd4-9f8f-f742a48ac53e'
-keywords: ["Infrared Data Association IrDA , described, hardware drivers", "drivers IrDA", "drivers IrDA , hardware", "networking IrDA , hardware drivers"]
+ms.assetid: e21df10f-a658-4dd4-9f8f-f742a48ac53e
+keywords:
+- Infrared Data Association IrDA , described, hardware drivers
+- drivers IrDA
+- drivers IrDA , hardware
+- networking IrDA , hardware drivers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrDA Hardware Drivers

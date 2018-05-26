@@ -1,7 +1,12 @@
 ---
-Description: 'The ParserTemporaryLockFrame function locks a frame when it enters a parser and unlocks the frame when the function exits the parser.'
-ms.assetid: 'c1c52f62-1974-47cc-8c37-61918fbce54a'
+Description: The ParserTemporaryLockFrame function locks a frame when it enters a parser and unlocks the frame when the function exits the parser.
+ms.assetid: c1c52f62-1974-47cc-8c37-61918fbce54a
 title: ParserTemporaryLockFrame function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParserTemporaryLockFrame function
@@ -13,7 +18,7 @@ The **ParserTemporaryLockFrame** function locks a frame when it enters a parser 
 
 ```C++
 LPBYTE WINAPI ParserTemporaryLockFrame(
-  _In_ HFRAME hFrame
+  _In_ HFRAME hFrame
 );
 ```
 
@@ -46,17 +51,17 @@ Parsers should not call the **LockFrame** function. If a parser takes a lock and
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

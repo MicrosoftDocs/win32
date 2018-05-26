@@ -4,11 +4,14 @@ description: Deletes a crypto key from a ClusCryptoKeys collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ffaf36c7-86d2-4368-8c8f-f0b58a38fceb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ffaf36c7-86d2-4368-8c8f-f0b58a38fceb
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RemoveItem method Failover Cluster", "RemoveItem method Failover Cluster , ClusCryptoKeys class", "ClusCryptoKeys class Failover Cluster , RemoveItem method"]
+keywords:
+- RemoveItem method Failover Cluster
+- RemoveItem method Failover Cluster , ClusCryptoKeys class
+- ClusCryptoKeys class Failover Cluster , RemoveItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusCryptoKeys.RemoveItem method
@@ -58,7 +64,7 @@ This method does not return a value.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -74,9 +80,9 @@ This method does not return a value.
 [**ClusCryptoKeys**](cluscryptokeys-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'You can copy a component from one COM+ application to another. After you copy a component to another COM+ application, you can configure this component differently than the original component.'
-ms.assetid: '49dfd449-05eb-4442-989f-15bc1586d8c5'
+Description: You can copy a component from one COM+ application to another. After you copy a component to another COM+ application, you can configure this component differently than the original component.
+ms.assetid: 49dfd449-05eb-4442-989f-15bc1586d8c5
 title: Copying Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Copying Components

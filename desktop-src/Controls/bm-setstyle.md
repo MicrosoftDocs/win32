@@ -1,8 +1,9 @@
 ---
 title: BM\_SETSTYLE message
 description: Sets the style of a button. You can send this message explicitly or use the Button\_SetStyle macro.
-ms.assetid: '6439e68f-87fc-4a4a-8025-facc3c0e03e2'
-keywords: ["BM_SETSTYLE message Windows Controls"]
+ms.assetid: 6439e68f-87fc-4a4a-8025-facc3c0e03e2
+keywords:
+- BM_SETSTYLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BM\_SETSTYLE message
 
-Sets the style of a button. You can send this message explicitly or use the [**Button\_SetStyle**](button-setstyle.md) macro.
+Sets the style of a button. You can send this message explicitly or use the [**Button\_SetStyle**](/windows/win32/Windowsx/nf-windowsx-button_setstyle?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ This message always returns zero.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

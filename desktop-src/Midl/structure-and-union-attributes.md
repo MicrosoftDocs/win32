@@ -2,7 +2,13 @@
 title: Structure and Union Attributes
 description: Use the switch\_\ attributes to specify the characteristic of a union in a remote procedure call. Use the ignore attribute to designate certain structure or union members as local to the client application.
 ms.assetid: e06e5184-fa92-4446-964b-d56d0e5f2872
-keywords: ["IDL MIDL , attributes, structure and union"]
+keywords:
+- IDL MIDL , attributes, structure and union
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structure and Union Attributes

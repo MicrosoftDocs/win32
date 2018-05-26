@@ -1,13 +1,23 @@
 ---
 title: Saving Profiles
 description: Saving Profiles
-ms.assetid: '07c1ef16-6696-4314-aed8-58cda464b0db'
-keywords: ["Windows Media Format SDK,saving profiles", "Windows Media Format SDK,profile saving", "profiles,saving", "profiles,IWMProfileManager interface", "IWMProfileManager,saving profiles"]
+ms.assetid: 07c1ef16-6696-4314-aed8-58cda464b0db
+keywords:
+- Windows Media Format SDK,saving profiles
+- Windows Media Format SDK,profile saving
+- profiles,saving
+- profiles,IWMProfileManager interface
+- IWMProfileManager,saving profiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Saving Profiles
 
-You can use the [**IWMProfileManager::SaveProfile**](iwmprofilemanager-saveprofile.md) method to save the contents of a profile object to a string formatted with XML. No methods are provided to store the profile string to a file; you can use the file I/O routines of your choice.
+You can use the [**IWMProfileManager::SaveProfile**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-saveprofile?branch=master) method to save the contents of a profile object to a string formatted with XML. No methods are provided to store the profile string to a file; you can use the file I/O routines of your choice.
 
 > [!Note]  
 > You should never alter the profile string written to a file. Any changes you want to make to a profile should be made programmatically. Changing values in a .prx file can cause unpredictable results.

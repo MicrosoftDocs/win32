@@ -1,7 +1,12 @@
 ---
-Description: 'UiCreatePatchPackageEx (PATCHWIZ.DLL) may return the following values. The return value is ERROR\_SUCCESS plus the values in this table.'
-ms.assetid: '825e092c-99cb-4963-8b5a-dc2001315a5b'
+Description: UiCreatePatchPackageEx (PATCHWIZ.DLL) may return the following values. The return value is ERROR\_SUCCESS plus the values in this table.
+ms.assetid: 825e092c-99cb-4963-8b5a-dc2001315a5b
 title: Return Values for UiCreatePatchPackage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Return Values for UiCreatePatchPackage

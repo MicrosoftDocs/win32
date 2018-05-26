@@ -1,7 +1,12 @@
-﻿---
-Description: 'A callback function that must be implemented by a user to set material state.'
-ms.assetid: '4c5e903f-551b-4346-a5eb-301a3a5b9b44'
-title: 'ID3DXEffectStateManager::SetMaterial method'
+---
+Description: A callback function that must be implemented by a user to set material state.
+ms.assetid: 4c5e903f-551b-4346-a5eb-301a3a5b9b44
+title: ID3DXEffectStateManagerSetMaterial method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffectStateManager::SetMaterial method
@@ -39,7 +44,7 @@ Type: **[**HRESULT**](455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::SetMaterial**](idirect3ddevice9--setmaterial.md)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::SetMaterial**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setmaterial?branch=master)) will fail.
 
 ## Requirements
 

@@ -1,7 +1,12 @@
 ---
 Description: Parental Controls Glossary
-ms.assetid: 'a5454357-bc55-4669-ae38-599bcf9f3686'
+ms.assetid: a5454357-bc55-4669-ae38-599bcf9f3686
 title: Parental Controls Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parental Controls Glossary
@@ -22,11 +27,11 @@ title: Parental Controls Glossary
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

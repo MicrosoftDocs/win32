@@ -4,11 +4,16 @@ description: Automatically back up and restore data for an application that cont
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '63d8b64e-2ec7-4dd0-b993-c465bdec2dd0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-server-backup'
+ms.assetid: 63d8b64e-2ec7-4dd0-b993-c465bdec2dd0
+ms.prod: windows-server-dev
+ms.technology: windows-server-backup
 ms.tgt_platform: multiple
-keywords: ["Windows Server Backup Windows Server Backup", "Windows Server Backup Windows Server Backup , home page"]
+keywords:
+- Windows Server Backup Windows Server Backup
+- Windows Server Backup Windows Server Backup , home page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Server Backup

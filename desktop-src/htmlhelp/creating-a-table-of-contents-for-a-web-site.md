@@ -1,7 +1,12 @@
 ---
 title: Creating a Table of Contents for a Web Site
 description: Creating a table of contents for use as a navigational aid on a Web site is similar to creating a table of contents for use in a compiled help file. This procedure describes the extra steps you must take to make the table of contents usable over the Web.
-ms.assetid: '112C6512-F174-413e-A5DE-334C78D80C70'
+ms.assetid: 112C6512-F174-413e-A5DE-334C78D80C70
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Table of Contents for a Web Site
@@ -20,7 +25,7 @@ Creating a table of contents for use as a navigational aid on a Web site is simi
 
     
 
-     
+     
 
 4.  In the **Specify the command** box, click **Table of Contents**, and then follow the instructions on your screen.
 
@@ -36,9 +41,9 @@ Creating a table of contents for use as a navigational aid on a Web site is simi
 [About Creating Table of Contents Files](create-a-table-of-contents-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

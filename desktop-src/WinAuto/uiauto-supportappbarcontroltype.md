@@ -1,8 +1,20 @@
 ---
 title: AppBar Control Type
 description: This topic provides information about Microsoft UI Automation support for the AppBar control type.
-ms.assetid: 'B56F4E7A-934F-8516-9B1B-B23B80D54273'
-keywords: ["UI Automation,support for AppBar control type", "UI Automation,AppBar control type", "UI Automation,control patterns for AppBar control type", "control patterns,AppBar control type", "support for AppBar control type", "AppBar control type", "control types,AppBar"]
+ms.assetid: B56F4E7A-934F-8516-9B1B-B23B80D54273
+keywords:
+- UI Automation,support for AppBar control type
+- UI Automation,AppBar control type
+- UI Automation,control patterns for AppBar control type
+- control patterns,AppBar control type
+- support for AppBar control type
+- AppBar control type
+- control types,AppBar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AppBar Control Type
@@ -113,7 +125,7 @@ The following table lists the UI Automation events that are especially relevant 
 |-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [**UIA\_MenuClosedEventId**](uiauto-event-ids.md#uia-menuclosedeventid)                            | Platform implementations might fire this event when the app bar control is closed. |
 | [**UIA\_MenuOpenedEventId**](uiauto-event-ids.md#uia-menuopenedeventid)                            | Platform implementations might fire this event when the app bar control is opened. |
-| [**IUIAutomationPropertyChangedEventHandler**](uiauto-iuiautomationpropertychangedeventhandler.md) | Property-changed event handler.                                                    |
+| [**IUIAutomationPropertyChangedEventHandler**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationpropertychangedeventhandler?branch=master) | Property-changed event handler.                                                    |
 
 
 

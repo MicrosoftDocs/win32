@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '608536cd-cb34-405d-baa7-d99167128cfe'
+---
+Description: .
+ms.assetid: 608536cd-cb34-405d-baa7-d99167128cfe
 title: Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Message

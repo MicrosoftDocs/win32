@@ -1,7 +1,12 @@
 ---
-Description: 'First line of the device description.'
-ms.assetid: '93051c87-a03e-4149-ac20-a699de7b646d'
-title: 'System.Devices.DeviceDescription1'
+Description: First line of the device description.
+ms.assetid: 93051c87-a03e-4149-ac20-a699de7b646d
+title: System.Devices.DeviceDescription1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.DeviceDescription1

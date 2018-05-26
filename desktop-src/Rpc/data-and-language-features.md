@@ -1,8 +1,14 @@
 ---
 title: Data and Language Features
 description: The Microsoft Interface Definition Language (MIDL) provides the set of features that extend the C programming language to support remote procedure calls.
-ms.assetid: '36bc98dd-0c7c-46fe-9db5-3c70af26cd61'
-keywords: ["Remote Procedure Call RPC , described, data and language features"]
+ms.assetid: 36bc98dd-0c7c-46fe-9db5-3c70af26cd61
+keywords:
+- Remote Procedure Call RPC , described, data and language features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data and Language Features

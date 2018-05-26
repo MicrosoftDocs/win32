@@ -4,11 +4,15 @@ description: This section discusses how to build a basic snap-in in C++. You mus
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '701fcbbd-fc0a-4567-b26b-7ce7867d89f3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 701fcbbd-fc0a-4567-b26b-7ce7867d89f3
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["building the basic snap-in framework MMC"]
+keywords:
+- building the basic snap-in framework MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Building the Basic Snap-in Framework
@@ -18,7 +22,7 @@ This section discusses how to build a basic snap-in in C++. You must implement t
 The two MMC-defined COM interfaces you must implement are:
 
 -   [**IComponentData**](icomponentdata.md)
--   [**IComponent**](icomponent.md)
+-   [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master)
 
 The two standard COM interfaces you must implement are:
 

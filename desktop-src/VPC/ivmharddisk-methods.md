@@ -1,7 +1,12 @@
 ---
 title: IVMHardDisk Methods
 description: The IVMHardDisk interface exposes the following methods.
-ms.assetid: '92E2EA31-FD4B-4898-9F44-1C0198B5B2B9'
+ms.assetid: 92E2EA31-FD4B-4898-9F44-1C0198B5B2B9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk Methods

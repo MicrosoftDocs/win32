@@ -1,14 +1,15 @@
 ---
 title: MMCN\_DELETE message
-description: The MMCN\_DELETE notification message is sent to the snap-in's IComponent and IComponentData implementations to inform the snap-in that the object should be deleted.
+description: The MMCN\_DELETE notification message is sent to the snap-ins IComponent and IComponentData implementations to inform the snap-in that the object should be deleted.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eaf6c7de-2b02-4563-9392-588a74c9d744'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: eaf6c7de-2b02-4563-9392-588a74c9d744
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_DELETE message MMC"]
+keywords:
+- MMCN_DELETE message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_DELETE message
 
-The **MMCN\_DELETE** notification message is sent to the snap-in's [**IComponent**](icomponent.md) and [**IComponentData**](icomponentdata.md) implementations to inform the snap-in that the object should be deleted.
+The **MMCN\_DELETE** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) and [**IComponentData**](icomponentdata.md) implementations to inform the snap-in that the object should be deleted.
 
 ## Parameters
 
@@ -78,8 +82,8 @@ The snap-in should delete the items specified in the data object.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -94,9 +98,9 @@ The snap-in should delete the items specified in the data object.
 [**IComponentData::Notify**](icomponentdata-notify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

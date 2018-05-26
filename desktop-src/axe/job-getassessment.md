@@ -1,8 +1,11 @@
 ---
 title: Job GetAssessment method
 description: Retrieve a specific assessment from the job.
-ms.assetid: '883CC3F7-1751-4800-821F-1B668C756F5D'
-keywords: ["GetAssessment method Access Execution Engine", "GetAssessment method Access Execution Engine , Job interface", "Job interface Access Execution Engine , GetAssessment method"]
+ms.assetid: 883CC3F7-1751-4800-821F-1B668C756F5D
+keywords:
+- GetAssessment method Access Execution Engine
+- GetAssessment method Access Execution Engine , Job interface
+- Job interface Access Execution Engine , GetAssessment method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Job::GetAssessment method
@@ -22,8 +30,8 @@ Retrieve a specific assessment from the job.
 
 ```C++
 virtual HRESULT GetAssessment(
-  [in]                  INT        assessmentIndex,
-  [out, optional] const Assessment **assessment
+  [in]                  INT        assessmentIndex,
+  [out, optional] const Assessment **assessment
 ) const = 0;
 ```
 
@@ -65,8 +73,8 @@ Managed code uses the [**Job.Item \| item property**](https://msdn.microsoft.com
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -82,9 +90,9 @@ Managed code uses the [**Job.Item \| item property**](https://msdn.microsoft.com
 [**Assessment**](assessment-inf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

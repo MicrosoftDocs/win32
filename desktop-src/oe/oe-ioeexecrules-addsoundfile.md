@@ -1,8 +1,11 @@
 ---
 title: IOEExecRules AddSoundFile method
-description: IOEExecRules AddSoundFile is no longer available for use as of Windows Vista.
-ms.assetid: 'e0b6cf81-ed03-42c3-81a4-711665d69f22'
-keywords: ["AddSoundFile method Windows Mail (formerly Outlook Express)", "AddSoundFile method Windows Mail (formerly Outlook Express) , IOEExecRules interface", "IOEExecRules interface Windows Mail (formerly Outlook Express) , AddSoundFile method"]
+description: IOEExecRules AddSoundFile is no longer available for use as of Windows Vista.
+ms.assetid: e0b6cf81-ed03-42c3-81a4-711665d69f22
+keywords:
+- AddSoundFile method Windows Mail (formerly Outlook Express)
+- AddSoundFile method Windows Mail (formerly Outlook Express) , IOEExecRules interface
+- IOEExecRules interface Windows Mail (formerly Outlook Express) , AddSoundFile method
 topic_type:
 - apiref
 api_name:
@@ -11,19 +14,24 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOEExecRules::AddSoundFile method
 
-\[**IOEExecRules::AddSoundFile** is no longer available for use as of Windows Vista.\]
+\[**IOEExecRules::AddSoundFile** is no longer available for use as of Windows Vista.\]
 
 ## Syntax
 
 
 ```C++
 HRESULT AddSoundFile(
-  [in] DWORD  dwFlags,
-  [in] LPCSTR pszSndFile
+  [in] DWORD  dwFlags,
+  [in] LPCSTR pszSndFile
 );
 ```
 
@@ -62,19 +70,19 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows XP<br/>                                                                                          |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows XP<br/>                                                                                          |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                                 |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Inetcomm.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

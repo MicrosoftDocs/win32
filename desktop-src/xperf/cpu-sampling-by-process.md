@@ -1,8 +1,14 @@
 ---
 title: CPU Sampling by Process
 description: CPU Sampling by Process
-ms.assetid: '13f2f03b-063b-48c2-9fe9-2e58bc895e64'
-keywords: ["usage graph"]
+ms.assetid: 13f2f03b-063b-48c2-9fe9-2e58bc895e64
+keywords:
+- usage graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPU Sampling by Process

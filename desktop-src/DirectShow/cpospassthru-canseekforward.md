@@ -1,19 +1,24 @@
 ---
-Description: 'The CanSeekForward method determines whether the stream can be seeked forward. This method implements the IMediaPosition::CanSeekForward method.'
-ms.assetid: 'ccb2db8d-b52e-4e3d-b49b-9689197a974a'
-title: 'CPosPassThru.CanSeekForward method'
+Description: The CanSeekForward method determines whether the stream can be seeked forward. This method implements the IMediaPositionCanSeekForward method.
+ms.assetid: ccb2db8d-b52e-4e3d-b49b-9689197a974a
+title: CPosPassThru.CanSeekForward method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.CanSeekForward method
 
-The `CanSeekForward` method determines whether the stream can be seeked forward. This method implements the [**IMediaPosition::CanSeekForward**](imediaposition-canseekforward.md) method.
+The `CanSeekForward` method determines whether the stream can be seeked forward. This method implements the [**IMediaPosition::CanSeekForward**](/windows/win32/Control/nf-control-imediaposition-canseekforward?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT CanSeekForward(
-   LONG *pCanSeekForward
+   LONG *pCanSeekForward
 );
 ```
 
@@ -52,9 +57,9 @@ Returns the **HRESULT** value from the connected pin.
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

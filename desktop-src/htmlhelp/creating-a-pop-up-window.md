@@ -1,7 +1,12 @@
 ---
 title: Creating a Pop-up Window
 description: A pop-up window is a window that appears on top of a help topic.
-ms.assetid: 'D090C3C2-4239-4cc7-9D43-BDBC93CB491E'
+ms.assetid: D090C3C2-4239-4cc7-9D43-BDBC93CB491E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Pop-up Window

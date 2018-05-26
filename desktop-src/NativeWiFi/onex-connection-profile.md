@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains information on the 802.1X connection profile currently used for 802.1X authentication.'
-ms.assetid: 'ec494c74-bc79-445a-8889-a6f441e95ac5'
-title: 'ONEX\_CONNECTION\_PROFILE structure'
+---
+Description: Contains information on the 802.1X connection profile currently used for 802.1X authentication.
+ms.assetid: ec494c74-bc79-445a-8889-a6f441e95ac5
+title: ONEX\_CONNECTION\_PROFILE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ONEX\_CONNECTION\_PROFILE structure
@@ -264,9 +269,9 @@ The userBasedVirtualLan element in the 802.1X schema that specifies if the virtu
 
 The **ONEX\_CONNECTION\_PROFILE** structure is used by the 802.1X module, a new wireless configuration component supported on Windows Vista and later.
 
-The [**ONEX\_RESULT\_UPDATE\_DATA**](onex-result-update-data.md) contains information on a status change to 802.1X authentication. The **ONEX\_RESULT\_UPDATE\_DATA** structure is returned when the **NotificationSource** member of the [**WLAN\_NOTIFICATION\_DATA**](wlan-notification-data.md) structure is **WLAN\_NOTIFICATION\_SOURCE\_ONEX** and the **NotificationCode** member of the **WLAN\_NOTIFICATION\_DATA** structure for received notification is **OneXNotificationTypeResultUpdate**. For this notification, the **pData** member of the **WLAN\_NOTIFICATION\_DATA** structure points to an **ONEX\_RESULT\_UPDATE\_DATA** structure that contains information on the 802.1X authentication status change.
+The [**ONEX\_RESULT\_UPDATE\_DATA**](/windows/win32/dot1x/ns-dot1x-_onex_result_update_data?branch=master) contains information on a status change to 802.1X authentication. The **ONEX\_RESULT\_UPDATE\_DATA** structure is returned when the **NotificationSource** member of the [**WLAN\_NOTIFICATION\_DATA**](/windows/win32/Wlanapi/?branch=master) structure is **WLAN\_NOTIFICATION\_SOURCE\_ONEX** and the **NotificationCode** member of the **WLAN\_NOTIFICATION\_DATA** structure for received notification is **OneXNotificationTypeResultUpdate**. For this notification, the **pData** member of the **WLAN\_NOTIFICATION\_DATA** structure points to an **ONEX\_RESULT\_UPDATE\_DATA** structure that contains information on the 802.1X authentication status change.
 
-If the **fOneXAuthParams** member in the [**ONEX\_RESULT\_UPDATE\_DATA**](onex-result-update-data.md) structure is set, then the **authParams** member of the **ONEX\_RESULT\_UPDATE\_DATA** structure contains an [**ONEX\_VARIABLE\_BLOB**](onex-variable-blob.md) structure with an [**ONEX\_AUTH\_PARAMS**](onex-auth-params.md) structure embedded starting at the **dwOffset** member of the **ONEX\_VARIABLE\_BLOB**. The **oneXConnProfile** member of the **ONEX\_AUTH\_PARAMS** structure contains an **ONEX\_VARIABLE\_BLOB** structure with an **ONEX\_CONNECTION\_PROFILE** structure embedded starting at the **dwOffset** member of the **ONEX\_VARIABLE\_BLOB**.
+If the **fOneXAuthParams** member in the [**ONEX\_RESULT\_UPDATE\_DATA**](/windows/win32/dot1x/ns-dot1x-_onex_result_update_data?branch=master) structure is set, then the **authParams** member of the **ONEX\_RESULT\_UPDATE\_DATA** structure contains an [**ONEX\_VARIABLE\_BLOB**](/windows/win32/dot1x/ns-dot1x-_onex_variable_blob?branch=master) structure with an [**ONEX\_AUTH\_PARAMS**](/windows/win32/dot1x/ns-dot1x-_onex_auth_params?branch=master) structure embedded starting at the **dwOffset** member of the **ONEX\_VARIABLE\_BLOB**. The **oneXConnProfile** member of the **ONEX\_AUTH\_PARAMS** structure contains an **ONEX\_VARIABLE\_BLOB** structure with an **ONEX\_CONNECTION\_PROFILE** structure embedded starting at the **dwOffset** member of the **ONEX\_VARIABLE\_BLOB**.
 
 The **ONEX\_CONNECTION\_PROFILE** structure is not defined in a public header file.
 
@@ -315,25 +320,25 @@ The **ONEX\_CONNECTION\_PROFILE** structure is not defined in a public header fi
 [**userBasedVirtualLan (singleSignOn) Element**](onexschema-userbasedvirtuallan-singlesignon-element.md)
 </dt> <dt>
 
-[**ONEX\_AUTH\_PARAMS**](onex-auth-params.md)
+[**ONEX\_AUTH\_PARAMS**](/windows/win32/dot1x/ns-dot1x-_onex_auth_params?branch=master)
 </dt> <dt>
 
-[**ONEX\_NOTIFICATION\_TYPE**](onex-notification-type.md)
+[**ONEX\_NOTIFICATION\_TYPE**](/windows/win32/dot1x/ne-dot1x-_onex_notification_type?branch=master)
 </dt> <dt>
 
-[**ONEX\_RESULT\_UPDATE\_DATA**](onex-result-update-data.md)
+[**ONEX\_RESULT\_UPDATE\_DATA**](/windows/win32/dot1x/ns-dot1x-_onex_result_update_data?branch=master)
 </dt> <dt>
 
 [**OneX Schema Element**](onexschema-onex-element.md)
 </dt> <dt>
 
-[**ONEX\_VARIABLE\_BLOB**](onex-variable-blob.md)
+[**ONEX\_VARIABLE\_BLOB**](/windows/win32/dot1x/ns-dot1x-_onex_variable_blob?branch=master)
 </dt> <dt>
 
-[**WLAN\_NOTIFICATION\_DATA**](wlan-notification-data.md)
+[**WLAN\_NOTIFICATION\_DATA**](/windows/win32/Wlanapi/?branch=master)
 </dt> <dt>
 
-[**WlanRegisterNotification**](wlanregisternotification.md)
+[**WlanRegisterNotification**](/windows/win32/wlanapi/nf-wlanapi-wlanregisternotification?branch=master)
 </dt> </dl>
 
  

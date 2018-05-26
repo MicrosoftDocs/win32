@@ -1,7 +1,12 @@
-﻿---
-Description: 'Removes mesh data from the device that has been committed to the device (with ID3DX10Mesh::CommitToDevice).'
-ms.assetid: '60eee1f8-f04b-4f33-8f86-0564d0334f97'
-title: 'ID3DX10Mesh::Discard method'
+---
+Description: Removes mesh data from the device that has been committed to the device (with ID3DX10MeshCommitToDevice).
+ms.assetid: 60eee1f8-f04b-4f33-8f86-0564d0334f97
+title: ID3DX10MeshDiscard method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::Discard method

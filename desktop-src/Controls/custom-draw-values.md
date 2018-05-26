@@ -1,7 +1,7 @@
 ---
 title: Custom Draw Values
-description: This section lists the values used to identify a Trackbar control's parts.
-ms.assetid: '154321c7-99f8-4ed5-a5ff-fb96126b43c7'
+description: This section lists the values used to identify a Trackbar controls parts.
+ms.assetid: 154321c7-99f8-4ed5-a5ff-fb96126b43c7
 topic_type:
 - apiref
 api_name:
@@ -12,6 +12,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Draw Values
@@ -30,7 +35,7 @@ This section lists the values used to identify a Trackbar control's parts.
 
 ## Remarks
 
-Custom Draw values, for example, are specified in the **dwItemSpec** member of the [**NMCUSTOMDRAW**](nmcustomdraw.md) structure.
+Custom Draw values, for example, are specified in the **dwItemSpec** member of the [**NMCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmcustomdrawinfo?branch=master) structure.
 
 ## Requirements
 
@@ -42,9 +47,9 @@ Custom Draw values, for example, are specified in the **dwItemSpec** member of t
 
 
 
- 
+ 
 
- 
+ 
 
 
 

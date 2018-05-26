@@ -4,17 +4,21 @@ description: File name of the content to be tracked, not including the path.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '930BC0A9-29EA-48E4-B1DB-29E07D7F7F99'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 930BC0A9-29EA-48E4-B1DB-29E07D7F7F99
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSLicenseMetadata contentName property"]
+keywords:
+- MSLicenseMetadata contentName property
 topic_type:
 - apiref
 api_name:
 - MSLicenseMetadata contentName property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSLicenseMetadata contentName property
@@ -37,7 +41,7 @@ File name of the content to be tracked, not including the path. This property is
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSLicenseMetadata.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

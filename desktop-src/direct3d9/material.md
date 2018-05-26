@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a basic material color that can be applied to either a complete mesh or a mesh''s individual faces. The power is the specular exponent of the material.'
-ms.assetid: 'dfa021ba-61d8-4f99-9bbb-0cfbe11b787d'
+Description: Defines a basic material color that can be applied to either a complete mesh or a meshs individual faces. The power is the specular exponent of the material.
+ms.assetid: dfa021ba-61d8-4f99-9bbb-0cfbe11b787d
 title: Material
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Material

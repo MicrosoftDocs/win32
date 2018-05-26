@@ -1,8 +1,14 @@
 ---
 title: D2D1\_MATRIX\_3X2\_F
 description: Represents a 3-by-2 matrix.
-ms.assetid: 'f05d7555-6482-4eea-950f-7b443892cc1f'
-keywords: ["D2D1_MATRIX_3X2_F"]
+ms.assetid: f05d7555-6482-4eea-950f-7b443892cc1f
+keywords:
+- D2D1_MATRIX_3X2_F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2D1\_MATRIX\_3X2\_F
@@ -18,13 +24,13 @@ typedef D2D_MATRIX_3X2_F D2D1_MATRIX_3X2_F;
 
 ## Remarks
 
-**D2D1\_MATRIX\_3X2** is a new name for the [**D2D\_MATRIX\_3X2\_F**](d2d-matrix-3x2-f.md) structure. For a list of fields provided by the matrix, see [**D2D\_MATRIX\_3X2\_F**](d2d-matrix-3x2-f.md).
+**D2D1\_MATRIX\_3X2** is a new name for the [**D2D\_MATRIX\_3X2\_F**](/windows/win32/dcommon/ns-dcommon-d2d_matrix_3x2_f?branch=master) structure. For a list of fields provided by the matrix, see [**D2D\_MATRIX\_3X2\_F**](/windows/win32/dcommon/ns-dcommon-d2d_matrix_3x2_f?branch=master).
 
-To simplify common matrix operations, Direct2D provides the [**D2D1::Matrix3x2F**](matrix3x2f.md) class, which is derived from the [**D2D1\_MATRIX\_3X2**](d2d-matrix-3x2-f.md) structure. The **Matrix3x2F** class provides a set of helper methods for performing common tasks, such as creating a translation or skew matrix.
+To simplify common matrix operations, Direct2D provides the [**D2D1::Matrix3x2F**](/windows/win32/d2d1/nl-d2d1helper-matrix3x2f?branch=master) class, which is derived from the [**D2D1\_MATRIX\_3X2**](/windows/win32/dcommon/ns-dcommon-d2d_matrix_3x2_f?branch=master) structure. The **Matrix3x2F** class provides a set of helper methods for performing common tasks, such as creating a translation or skew matrix.
 
 ## Examples
 
-The following example uses the [**D2D1::Matrix3x2F::Rotation**](matrix3x2f-rotate.md) method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the [**SetTransform**](id2d1brush-settransform.md) method of the render target (*m\_pRenderTarget*).
+The following example uses the [**D2D1::Matrix3x2F::Rotation**](/windows/win32/d2d1helper/nf-d2d1helper-matrix3x2f-rotation?branch=master) method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the [**SetTransform**](/windows/win32/d2d1_1/nf-d2d1-settransform?branch=master) method of the render target (*m\_pRenderTarget*).
 
 The following illustration shows the effect of applying the preceding rotation transformation to the square. The original square is a dotted outline, and the rotated square is a solid outline.
 
@@ -68,9 +74,9 @@ Code has been omitted from this example. For more information about transforms, 
 
 |                                     |                                                                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>D2d1.h</dt> </dl>                                                        |
 
 
@@ -79,7 +85,7 @@ Code has been omitted from this example. For more information about transforms, 
 
 <dl> <dt>
 
-[**D2D1::Matrix3x2F**](matrix3x2f.md)
+[**D2D1::Matrix3x2F**](/windows/win32/d2d1/nl-d2d1helper-matrix3x2f?branch=master)
 </dt> <dt>
 
 [Transforms Overview](direct2d-transforms-overview.md)
@@ -97,12 +103,12 @@ Code has been omitted from this example. For more information about transforms, 
 [How to Translate an Object](how-to-translate.md)
 </dt> <dt>
 
-[**D2D\_MATRIX\_3X2\_F**](d2d-matrix-3x2-f.md)
+[**D2D\_MATRIX\_3X2\_F**](/windows/win32/dcommon/ns-dcommon-d2d_matrix_3x2_f?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

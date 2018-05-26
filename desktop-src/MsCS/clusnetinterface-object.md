@@ -4,11 +4,13 @@ description: Enables operations on a network interface, its properties, and rela
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '21aaf37d-5b60-4005-9e7f-f0435de590b2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 21aaf37d-5b60-4005-9e7f-f0435de590b2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusNetInterface object Failover Cluster", "ClusNetInterface object Failover Cluster , described"]
+keywords:
+- ClusNetInterface object Failover Cluster
+- ClusNetInterface object Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusNetInterface object
@@ -50,7 +55,7 @@ The **ClusNetInterface** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,7 +72,7 @@ A **ClusNetInterface** object is obtained from the following collections.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -83,9 +88,9 @@ A **ClusNetInterface** object is obtained from the following collections.
 [Network Interface Management Objects](network-interface-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
-Description: 'In addition to being accessed through the IVssBackupComponents interface by means of its copy''s device object, a requester can make a shadow copy available to other processes as a mounted read-only device.'
-ms.assetid: '0898c2dc-992a-411b-81df-4f5e129f6a80'
+Description: In addition to being accessed through the IVssBackupComponents interface by means of its copys device object, a requester can make a shadow copy available to other processes as a mounted read-only device.
+ms.assetid: 0898c2dc-992a-411b-81df-4f5e129f6a80
 title: Exposing and Surfacing Shadow Copied Volumes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exposing and Surfacing Shadow Copied Volumes
 
-In addition to being accessed through the [**IVssBackupComponents**](ivssbackupcomponents.md) interface by means of its copy's [*device object*](vssgloss-d.md#base-vssgloss-device-object), a requester can make a shadow copy available to other processes as a mounted read-only device.
+In addition to being accessed through the [**IVssBackupComponents**](/windows/win32/VsBackup/nl-vsbackup-ivssbackupcomponents?branch=master) interface by means of its copy's [*device object*](vssgloss-d.md#base-vssgloss-device-object), a requester can make a shadow copy available to other processes as a mounted read-only device.
 
-This process is known as [*exposing a shadow copy*](vssgloss-e.md#base-vssgloss-exposed-shadow-copy), and is performed using the [**IVssBackupComponents::ExposeSnapshot**](ivssbackupcomponents-exposesnapshot.md) method.
+This process is known as [*exposing a shadow copy*](vssgloss-e.md#base-vssgloss-exposed-shadow-copy), and is performed using the [**IVssBackupComponents::ExposeSnapshot**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot?branch=master) method.
 
 A shadow copy can be exposed as a local volume—assigned a drive letter or associated with a mounted folder—or as a file share.
 
@@ -39,7 +44,7 @@ A call to locally expose the shadow copy might be:
 
 If the shadow copy was successfully exposed locally, *wszExposed* should contain the wide character string "C:\\ShadowOfF."
 
-The shadow copy can later be unexposed by calling [**IVssBackupComponentsEx2::UnexposeSnapshot**](ivssbackupcomponentsex2-unexposesnapshot.md).
+The shadow copy can later be unexposed by calling [**IVssBackupComponentsEx2::UnexposeSnapshot**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-unexposesnapshot?branch=master).
 
 Only persistent shadow copies—that is, shadow copies created with either VSS\_CTX\_NAS\_ROLLBACK or VSS\_CTX\_APP\_ROLLBACK—can be exposed locally.
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '43ae9f70-34a1-48ca-be61-e974e2daebd7'
-title: 'Checking Supported DXVA-HD Formats'
+Description: .
+ms.assetid: 43ae9f70-34a1-48ca-be61-e974e2daebd7
+title: Checking Supported DXVA-HD Formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Checking Supported DXVA-HD Formats
@@ -10,10 +15,10 @@ title: 'Checking Supported DXVA-HD Formats'
 
 To get a list of the input formats that the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device supports, do the following:
 
-1.  Call [**IDXVAHD\_Device::GetVideoProcessorDeviceCaps**](idxvahd-device-getvideoprocessordevicecaps.md) to get the device capabilities.
-2.  Check the **InputFormatCount** member of the [**DXVAHD\_VPDEVCAPS**](dxvahd-vpdevcaps.md) structure. This member gives the number of supported input formats.
+1.  Call [**IDXVAHD\_Device::GetVideoProcessorDeviceCaps**](/windows/win32/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps?branch=master) to get the device capabilities.
+2.  Check the **InputFormatCount** member of the [**DXVAHD\_VPDEVCAPS**](/windows/win32/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps?branch=master) structure. This member gives the number of supported input formats.
 3.  Allocate an array of **D3DFORMAT** values, of size **InputFormatCount**.
-4.  Pass this array to the [**IDXVAHD\_Device::GetVideoProcessorInputFormats**](idxvahd-device-getvideoprocessorinputformats.md) method. The methods fills the array with a list of input formats.
+4.  Pass this array to the [**IDXVAHD\_Device::GetVideoProcessorInputFormats**](/windows/win32/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorinputformats?branch=master) method. The methods fills the array with a list of input formats.
 
 The following code shows these steps:
 
@@ -68,10 +73,10 @@ done:
 
 To get a list of the output formats that the DXVA-HD device supports, do the following:
 
-1.  Call [**IDXVAHD\_Device::GetVideoProcessorDeviceCaps**](idxvahd-device-getvideoprocessordevicecaps.md) to get the device capabilities.
-2.  Check the **OutputFormatCount** member of the [**DXVAHD\_VPDEVCAPS**](dxvahd-vpdevcaps.md) structure. This member gives the number of supported input formats.
+1.  Call [**IDXVAHD\_Device::GetVideoProcessorDeviceCaps**](/windows/win32/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps?branch=master) to get the device capabilities.
+2.  Check the **OutputFormatCount** member of the [**DXVAHD\_VPDEVCAPS**](/windows/win32/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps?branch=master) structure. This member gives the number of supported input formats.
 3.  Allocate an array of **D3DFORMAT** values, of size **OutputFormatCount**.
-4.  Pass this array to the [**IDXVAHD\_Device::GetVideoProcessorOutputFormats**](idxvahd-device-getvideoprocessoroutputformats.md) method. The methods fills the array with a list of output formats.
+4.  Pass this array to the [**IDXVAHD\_Device::GetVideoProcessorOutputFormats**](/windows/win32/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessoroutputformats?branch=master) method. The methods fills the array with a list of output formats.
 
 The following code shows these steps:
 

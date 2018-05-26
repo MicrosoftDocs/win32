@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DiscountSend property is a Boolean value that indicates whether the fax server will transmit the fax job during the discount rate period. The discount period applies only to outgoing fax transmissions.'
-ms.assetid: '16d4fbe5-0328-403f-8685-3fd9d588d8b1'
-title: 'FaxJob.DiscountSend property'
+---
+Description: The DiscountSend property is a Boolean value that indicates whether the fax server will transmit the fax job during the discount rate period. The discount period applies only to outgoing fax transmissions.
+ms.assetid: 16d4fbe5-0328-403f-8685-3fd9d588d8b1
+title: FaxJob.DiscountSend property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.DiscountSend property
@@ -58,10 +63,10 @@ To determine the period during which the discount rate applies, you can use the 
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> <dt>
 
 [Managing Fax Jobs](-mfax-managing-fax-jobs.md)

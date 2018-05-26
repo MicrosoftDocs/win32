@@ -1,12 +1,17 @@
 ---
 title: Obtaining Service Objects
 description: Device objects expose a property called Services that returns a collection of Service objects that contains one service object for each service exported by the device.
-ms.assetid: '8ef12b6e-cb9b-4406-95be-002117b8fc3f'
+ms.assetid: 8ef12b6e-cb9b-4406-95be-002117b8fc3f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining Service Objects
 
-Device objects expose a property called [**Services**](iupnpdevice-services.md) that returns a collection of Service objects that contains one service object for each service exported by the device. Applications are able to traverse this collection sequentially, or request a particular service by using its service ID.
+Device objects expose a property called [**Services**](/windows/win32/Upnp/?branch=master) that returns a collection of Service objects that contains one service object for each service exported by the device. Applications are able to traverse this collection sequentially, or request a particular service by using its service ID.
 
 ## VBScript Example
 
@@ -23,11 +28,11 @@ Set xportService = services( "urn:upnp-org:serviceId:AVTransport" )
 
 
 
-The first line extracts the services collection from the Device object by querying the [**Services**](iupnpdevice-services.md) property. The next two lines obtain the two desired Service objects from the collection by specifying their service IDs. The services collection can also be traversed sequentially by using a **for each … next** loop.
+The first line extracts the services collection from the Device object by querying the [**Services**](/windows/win32/Upnp/?branch=master) property. The next two lines obtain the two desired Service objects from the collection by specifying their service IDs. The services collection can also be traversed sequentially by using a **for each … next** loop.
 
 ## C++ Example
 
-The following example shows the C++ code required to obtain Service objects from a device. First, the sample code queries the [**IUPnPDevice::Services**](iupnpdevice-services.md) property on the interface that was passed to the function. This returns a service collection using the [**IUPnPServices**](iupnpservices.md) interface. To obtain individual Service objects, use the [**Item**](iupnpservices-item.md) method, and specify the requested service IDs. To traverse the collection sequentially, use the [**IEnumVARIANT::Reset**](0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd), [**IEnumVARIANT::Next**](691c1624-8d01-41e0-890e-a4782eba1f59), and [**IEnumVARIANT::Skip**](5fe6951f-1e21-4a3d-8694-96efb15e6d11) methods. This example is similar to the example used to traverse the [**IUPnPDevices**](iupnpdevices.md) collection.
+The following example shows the C++ code required to obtain Service objects from a device. First, the sample code queries the [**IUPnPDevice::Services**](/windows/win32/Upnp/?branch=master) property on the interface that was passed to the function. This returns a service collection using the [**IUPnPServices**](/windows/win32/Upnp/nn-upnp-iupnpservices?branch=master) interface. To obtain individual Service objects, use the [**Item**](/windows/win32/Upnp/?branch=master) method, and specify the requested service IDs. To traverse the collection sequentially, use the [**IEnumVARIANT::Reset**](0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd), [**IEnumVARIANT::Next**](691c1624-8d01-41e0-890e-a4782eba1f59), and [**IEnumVARIANT::Skip**](5fe6951f-1e21-4a3d-8694-96efb15e6d11) methods. This example is similar to the example used to traverse the [**IUPnPDevices**](/windows/win32/Upnp/nn-upnp-iupnpdevices?branch=master) collection.
 
 
 ```C++

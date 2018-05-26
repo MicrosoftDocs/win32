@@ -4,11 +4,12 @@ description: The CCF\_OBJECT\_TYPES\_IN\_MULTI\_SELECT clipboard format enables 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '135b3526-e725-47b8-9676-b60a9456846c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 135b3526-e725-47b8-9676-b60a9456846c
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CCF_OBJECT_TYPES_IN_MULTI_SELECT clipboard format MMC"]
+keywords:
+- CCF_OBJECT_TYPES_IN_MULTI_SELECT clipboard format MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CCF\_OBJECT\_TYPES\_IN\_MULTI\_SELECT clipboard format
@@ -37,8 +41,8 @@ During a multiselection operation, MMC calls **IComponent::QueryDataObject** to 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -53,9 +57,9 @@ During a multiselection operation, MMC calls **IComponent::QueryDataObject** to 
 [**SMMCObjectTypes**](smmcobjecttypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

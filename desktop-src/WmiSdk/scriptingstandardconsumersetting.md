@@ -1,13 +1,16 @@
 ---
-Description: 'The singleton ScriptingStandardConsumerSetting class provides registration data that is common to all instances of the ActiveScriptEventConsumer standard consumer class.'
+Description: The singleton ScriptingStandardConsumerSetting class provides registration data that is common to all instances of the ActiveScriptEventConsumer standard consumer class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd217e058-3529-4173-b896-ebff3d7b05c6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d217e058-3529-4173-b896-ebff3d7b05c6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ScriptingStandardConsumerSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ScriptingStandardConsumerSetting class
@@ -54,7 +57,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](standard-qualifiers.md) (64)
 </dt> </dl>
 
-A short description of an object—a one line string. Contains the string **ScriptingStandardConsumerSetting** because this is a singleton class.
+A short description of an object a one line string. Contains the string **ScriptingStandardConsumerSetting** because this is a singleton class.
 
 </dd> <dt>
 
@@ -126,8 +129,8 @@ The single instance of the **ScriptingStandardConsumerSetting** class resides in
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\subscription<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Scrcons.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scrcons.exe</dt> </dl> |
@@ -156,9 +159,9 @@ The single instance of the **ScriptingStandardConsumerSetting** class resides in
 [**\_\_EventConsumer**](--eventconsumer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

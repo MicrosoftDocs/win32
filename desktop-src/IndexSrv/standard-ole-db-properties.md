@@ -1,7 +1,12 @@
 ---
 title: Standard OLE DB Properties
 description: Standard OLE DB Properties
-ms.assetid: 'c6d3964a-a7c4-48ad-84c3-4cd4669ab735'
+ms.assetid: c6d3964a-a7c4-48ad-84c3-4cd4669ab735
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Standard OLE DB Properties

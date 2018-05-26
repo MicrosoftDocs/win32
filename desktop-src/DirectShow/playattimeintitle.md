@@ -1,7 +1,12 @@
 ---
-Description: 'The PlayAtTimeInTitle event is sent when the PlayAtTimeInTitle command has been enabled or disabled.'
-ms.assetid: '034fa82f-38d2-4031-8d7f-dcf97aa699aa'
+Description: The PlayAtTimeInTitle event is sent when the PlayAtTimeInTitle command has been enabled or disabled.
+ms.assetid: 034fa82f-38d2-4031-8d7f-dcf97aa699aa
 title: PlayAtTimeInTitle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayAtTimeInTitle

@@ -4,11 +4,16 @@ description: The Property property returns the node property value for a given p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'edb52d1b-e422-4c94-9462-7dca2f15b231'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: edb52d1b-e422-4c94-9462-7dca2f15b231
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Property property MMC", "Property property MMC , Node object", "Node object MMC , Property property", "Property property MMC , Node interface", "Node interface MMC , Property property"]
+keywords:
+- Property property MMC
+- Property property MMC , Node object
+- Node object MMC , Property property
+- Property property MMC , Node interface
+- Node interface MMC , Property property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Node::Property property
@@ -45,8 +53,8 @@ The property value corresponding to the property specified by *PropertyName*.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -61,9 +69,9 @@ The property value corresponding to the property specified by *PropertyName*.
 [**INodeProperties**](inodeproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

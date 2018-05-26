@@ -4,11 +4,16 @@ description: To query for a user, the query must contain the search expression \
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a9f12de4-e1e2-41bb-b2cc-ff9c9fa1c39a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a9f12de4-e1e2-41bb-b2cc-ff9c9fa1c39a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["users AD , querying for users", "Active Directory, using, users, querying for users"]
+keywords:
+- users AD , querying for users
+- Active Directory, using, users, querying for users
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Querying for Users

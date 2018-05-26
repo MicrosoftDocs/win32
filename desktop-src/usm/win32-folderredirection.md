@@ -1,8 +1,10 @@
 ---
 title: Win32\_FolderRedirection class
 description: Represents the redirection properties of a known folder.
-ms.assetid: '47c75ebd-8c49-4d5a-8c31-710fead8b593'
-keywords: ["Win32_FolderRedirection class User State Manageability API", "Win32_FolderRedirection class User State Manageability API , described"]
+ms.assetid: 47c75ebd-8c49-4d5a-8c31-710fead8b593
+keywords:
+- Win32_FolderRedirection class User State Manageability API
+- Win32_FolderRedirection class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_FolderRedirection class
@@ -32,9 +39,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_FolderRedirection
 {
-  string  FolderId;
-  uint8   RedirectionType;
-  string  RedirectionPath;
+  string  FolderId;
+  uint8   RedirectionType;
+  string  RedirectionPath;
   boolean ExclusiveRightsGranted;
   boolean ContentsMovedOnPolicyRemoval;
   boolean ContentsMoved;
@@ -148,7 +155,7 @@ The GUID for the known folder. One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -198,7 +205,7 @@ The type of folder redirection to be performed.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -208,8 +215,8 @@ The type of folder redirection to be performed.
 
 |                                     |                                                                                                             |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                        |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                        |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                      |
 | MOF<br/>                      | <dl> <dt>FolderRedirectionWMIProvider.mof</dt> </dl> |
 
@@ -228,9 +235,9 @@ The type of folder redirection to be performed.
 [**Win32\_FolderRedirectionUserConfiguration**](win32-folderredirectionuserconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

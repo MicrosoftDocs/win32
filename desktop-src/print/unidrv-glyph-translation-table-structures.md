@@ -1,7 +1,12 @@
 ---
 Description: Unidrv Glyph Translation Table Structures
-ms.assetid: '1f912c18-5dd4-4136-9dae-48411383c3a8'
+ms.assetid: 1f912c18-5dd4-4136-9dae-48411383c3a8
 title: Unidrv Glyph Translation Table Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unidrv Glyph Translation Table Structures

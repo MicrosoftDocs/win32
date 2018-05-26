@@ -1,14 +1,20 @@
 ---
 title: BcdOSLoaderElementTypes enumeration
 description: Specifies the operating system loader element types.
-ms.assetid: '9c2987c4-50ea-42cd-bed4-6112035c698a'
-keywords: ["BcdOSLoaderElementTypes enumeration Boot Config"]
+ms.assetid: 9c2987c4-50ea-42cd-bed4-6112035c698a
+keywords:
+- BcdOSLoaderElementTypes enumeration Boot Config
 topic_type:
 - apiref
 api_name:
 - BcdOSLoaderElementTypes
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdOSLoaderElementTypes enumeration
@@ -20,73 +26,73 @@ Specifies the operating system loader element types.
 
 ```C++
 typedef enum BcdOSLoaderElementTypes { 
-  BcdOSLoaderDevice_OSDevice                        = 0x21000001,
-  BcdOSLoaderString_SystemRoot                      = 0x22000002,
-  BcdOSLoaderObject_AssociatedResumeObject          = 0x23000003,
-  BcdOSLoaderBoolean_DetectKernelAndHal             = 0x26000010,
-  BcdOSLoaderString_KernelPath                      = 0x22000011,
-  BcdOSLoaderString_HalPath                         = 0x22000012,
-  BcdOSLoaderString_DbgTransportPath                = 0x22000013,
-  BcdOSLoaderInteger_NxPolicy                       = 0x25000020,
-  BcdOSLoaderInteger_PAEPolicy                      = 0x25000021,
-  BcdOSLoaderBoolean_WinPEMode                      = 0x26000022,
-  BcdOSLoaderBoolean_DisableCrashAutoReboot         = 0x26000024,
-  BcdOSLoaderBoolean_UseLastGoodSettings            = 0x26000025,
-  BcdOSLoaderBoolean_AllowPrereleaseSignatures      = 0x26000027,
-  BcdOSLoaderBoolean_NoLowMemory                    = 0x26000030,
-  BcdOSLoaderInteger_RemoveMemory                   = 0x25000031,
-  BcdOSLoaderInteger_IncreaseUserVa                 = 0x25000032,
-  BcdOSLoaderBoolean_UseVgaDriver                   = 0x26000040,
-  BcdOSLoaderBoolean_DisableBootDisplay             = 0x26000041,
-  BcdOSLoaderBoolean_DisableVesaBios                = 0x26000042,
-  BcdOSLoaderBoolean_DisableVgaMode                 = 0x26000043,
-  BcdOSLoaderInteger_ClusterModeAddressing          = 0x25000050,
-  BcdOSLoaderBoolean_UsePhysicalDestination         = 0x26000051,
-  BcdOSLoaderInteger_RestrictApicCluster            = 0x25000052,
-  BcdOSLoaderBoolean_UseLegacyApicMode              = 0x26000054,
-  BcdOSLoaderInteger_X2ApicPolicy                   = 0x25000055,
-  BcdOSLoaderBoolean_UseBootProcessorOnly           = 0x26000060,
-  BcdOSLoaderInteger_NumberOfProcessors             = 0x25000061,
-  BcdOSLoaderBoolean_ForceMaximumProcessors         = 0x26000062,
-  BcdOSLoaderBoolean_ProcessorConfigurationFlags    = 0x25000063,
-  BcdOSLoaderBoolean_MaximizeGroupsCreated          = 0x26000064,
-  BcdOSLoaderBoolean_ForceGroupAwareness            = 0x26000065,
-  BcdOSLoaderInteger_GroupSize                      = 0x25000066,
-  BcdOSLoaderInteger_UseFirmwarePciSettings         = 0x26000070,
-  BcdOSLoaderInteger_MsiPolicy                      = 0x25000071,
-  BcdOSLoaderInteger_SafeBoot                       = 0x25000080,
-  BcdOSLoaderBoolean_SafeBootAlternateShell         = 0x26000081,
-  BcdOSLoaderBoolean_BootLogInitialization          = 0x26000090,
-  BcdOSLoaderBoolean_VerboseObjectLoadMode          = 0x26000091,
-  BcdOSLoaderBoolean_KernelDebuggerEnabled          = 0x260000a0,
-  BcdOSLoaderBoolean_DebuggerHalBreakpoint          = 0x260000a1,
-  BcdOSLoaderBoolean_UsePlatformClock               = 0x260000A2,
-  BcdOSLoaderBoolean_ForceLegacyPlatform            = 0x260000A3,
-  BcdOSLoaderInteger_TscSyncPolicy                  = 0x250000A6,
-  BcdOSLoaderBoolean_EmsEnabled                     = 0x260000b0,
-  BcdOSLoaderInteger_DriverLoadFailurePolicy        = 0x250000c1,
-  BcdOSLoaderInteger_BootMenuPolicy                 = 0x250000C2,
-  BcdOSLoaderBoolean_AdvancedOptionsOneTime         = 0x260000C3,
-  BcdOSLoaderInteger_BootStatusPolicy               = 0x250000E0,
-  BcdOSLoaderBoolean_DisableElamDrivers             = 0x260000E1,
-  BcdOSLoaderInteger_HypervisorLaunchType           = 0x250000F0,
-  BcdOSLoaderBoolean_HypervisorDebuggerEnabled      = 0x260000F2,
-  BcdOSLoaderInteger_HypervisorDebuggerType         = 0x250000F3,
-  BcdOSLoaderInteger_HypervisorDebuggerPortNumber   = 0x250000F4,
-  BcdOSLoaderInteger_HypervisorDebuggerBaudrate     = 0x250000F5,
-  BcdOSLoaderInteger_HypervisorDebugger1394Channel  = 0x250000F6,
-  BcdOSLoaderInteger_BootUxPolicy                   = 0x250000F7,
-  BcdOSLoaderString_HypervisorDebuggerBusParams     = 0x220000F9,
-  BcdOSLoaderInteger_HypervisorNumProc              = 0x250000FA,
-  BcdOSLoaderInteger_HypervisorRootProcPerNode      = 0x250000FB,
-  BcdOSLoaderBoolean_HypervisorUseLargeVTlb         = 0x260000FC,
-  BcdOSLoaderInteger_HypervisorDebuggerNetHostIp    = 0x250000FD,
-  BcdOSLoaderInteger_HypervisorDebuggerNetHostPort  = 0x250000FE,
-  BcdOSLoaderInteger_TpmBootEntropyPolicy           = 0x25000100,
-  BcdOSLoaderString_HypervisorDebuggerNetKey        = 0x22000110,
-  BcdOSLoaderBoolean_HypervisorDebuggerNetDhcp      = 0x26000114,
-  BcdOSLoaderInteger_HypervisorIommuPolicy          = 0x25000115,
-  BcdOSLoaderInteger_XSaveDisable                   = 0x2500012b
+  BcdOSLoaderDevice_OSDevice                        = 0x21000001,
+  BcdOSLoaderString_SystemRoot                      = 0x22000002,
+  BcdOSLoaderObject_AssociatedResumeObject          = 0x23000003,
+  BcdOSLoaderBoolean_DetectKernelAndHal             = 0x26000010,
+  BcdOSLoaderString_KernelPath                      = 0x22000011,
+  BcdOSLoaderString_HalPath                         = 0x22000012,
+  BcdOSLoaderString_DbgTransportPath                = 0x22000013,
+  BcdOSLoaderInteger_NxPolicy                       = 0x25000020,
+  BcdOSLoaderInteger_PAEPolicy                      = 0x25000021,
+  BcdOSLoaderBoolean_WinPEMode                      = 0x26000022,
+  BcdOSLoaderBoolean_DisableCrashAutoReboot         = 0x26000024,
+  BcdOSLoaderBoolean_UseLastGoodSettings            = 0x26000025,
+  BcdOSLoaderBoolean_AllowPrereleaseSignatures      = 0x26000027,
+  BcdOSLoaderBoolean_NoLowMemory                    = 0x26000030,
+  BcdOSLoaderInteger_RemoveMemory                   = 0x25000031,
+  BcdOSLoaderInteger_IncreaseUserVa                 = 0x25000032,
+  BcdOSLoaderBoolean_UseVgaDriver                   = 0x26000040,
+  BcdOSLoaderBoolean_DisableBootDisplay             = 0x26000041,
+  BcdOSLoaderBoolean_DisableVesaBios                = 0x26000042,
+  BcdOSLoaderBoolean_DisableVgaMode                 = 0x26000043,
+  BcdOSLoaderInteger_ClusterModeAddressing          = 0x25000050,
+  BcdOSLoaderBoolean_UsePhysicalDestination         = 0x26000051,
+  BcdOSLoaderInteger_RestrictApicCluster            = 0x25000052,
+  BcdOSLoaderBoolean_UseLegacyApicMode              = 0x26000054,
+  BcdOSLoaderInteger_X2ApicPolicy                   = 0x25000055,
+  BcdOSLoaderBoolean_UseBootProcessorOnly           = 0x26000060,
+  BcdOSLoaderInteger_NumberOfProcessors             = 0x25000061,
+  BcdOSLoaderBoolean_ForceMaximumProcessors         = 0x26000062,
+  BcdOSLoaderBoolean_ProcessorConfigurationFlags    = 0x25000063,
+  BcdOSLoaderBoolean_MaximizeGroupsCreated          = 0x26000064,
+  BcdOSLoaderBoolean_ForceGroupAwareness            = 0x26000065,
+  BcdOSLoaderInteger_GroupSize                      = 0x25000066,
+  BcdOSLoaderInteger_UseFirmwarePciSettings         = 0x26000070,
+  BcdOSLoaderInteger_MsiPolicy                      = 0x25000071,
+  BcdOSLoaderInteger_SafeBoot                       = 0x25000080,
+  BcdOSLoaderBoolean_SafeBootAlternateShell         = 0x26000081,
+  BcdOSLoaderBoolean_BootLogInitialization          = 0x26000090,
+  BcdOSLoaderBoolean_VerboseObjectLoadMode          = 0x26000091,
+  BcdOSLoaderBoolean_KernelDebuggerEnabled          = 0x260000a0,
+  BcdOSLoaderBoolean_DebuggerHalBreakpoint          = 0x260000a1,
+  BcdOSLoaderBoolean_UsePlatformClock               = 0x260000A2,
+  BcdOSLoaderBoolean_ForceLegacyPlatform            = 0x260000A3,
+  BcdOSLoaderInteger_TscSyncPolicy                  = 0x250000A6,
+  BcdOSLoaderBoolean_EmsEnabled                     = 0x260000b0,
+  BcdOSLoaderInteger_DriverLoadFailurePolicy        = 0x250000c1,
+  BcdOSLoaderInteger_BootMenuPolicy                 = 0x250000C2,
+  BcdOSLoaderBoolean_AdvancedOptionsOneTime         = 0x260000C3,
+  BcdOSLoaderInteger_BootStatusPolicy               = 0x250000E0,
+  BcdOSLoaderBoolean_DisableElamDrivers             = 0x260000E1,
+  BcdOSLoaderInteger_HypervisorLaunchType           = 0x250000F0,
+  BcdOSLoaderBoolean_HypervisorDebuggerEnabled      = 0x260000F2,
+  BcdOSLoaderInteger_HypervisorDebuggerType         = 0x250000F3,
+  BcdOSLoaderInteger_HypervisorDebuggerPortNumber   = 0x250000F4,
+  BcdOSLoaderInteger_HypervisorDebuggerBaudrate     = 0x250000F5,
+  BcdOSLoaderInteger_HypervisorDebugger1394Channel  = 0x250000F6,
+  BcdOSLoaderInteger_BootUxPolicy                   = 0x250000F7,
+  BcdOSLoaderString_HypervisorDebuggerBusParams     = 0x220000F9,
+  BcdOSLoaderInteger_HypervisorNumProc              = 0x250000FA,
+  BcdOSLoaderInteger_HypervisorRootProcPerNode      = 0x250000FB,
+  BcdOSLoaderBoolean_HypervisorUseLargeVTlb         = 0x260000FC,
+  BcdOSLoaderInteger_HypervisorDebuggerNetHostIp    = 0x250000FD,
+  BcdOSLoaderInteger_HypervisorDebuggerNetHostPort  = 0x250000FE,
+  BcdOSLoaderInteger_TpmBootEntropyPolicy           = 0x25000100,
+  BcdOSLoaderString_HypervisorDebuggerNetKey        = 0x22000110,
+  BcdOSLoaderBoolean_HypervisorDebuggerNetDhcp      = 0x26000114,
+  BcdOSLoaderInteger_HypervisorIommuPolicy          = 0x25000115,
+  BcdOSLoaderInteger_XSaveDisable                   = 0x2500012b
 } BcdOSLoaderElementTypes;
 ```
 
@@ -189,7 +195,7 @@ Indicates that the system should use the last-known good settings. The element d
 
 Indicates whether the test code signing certificate is supported. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is not supported in Windows 8 and Windows Server 2012.
+**Note**  This value is not supported in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -228,7 +234,7 @@ Indicates whether the system should use the standard VGA display driver instead 
 
 Indicates whether the system should initialize the VGA driver responsible for displaying simple graphics during the boot process. If not, there is no display is presented during the boot process. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value should not be used in Windows 8 and Windows Server 2012.
+**Note**  This value should not be used in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -237,7 +243,7 @@ Indicates whether the system should initialize the VGA driver responsible for di
 
 Indicates whether the VGA driver should avoid VESA BIOS calls. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is ignored by Windows 8 and Windows Server 2012.
+**Note**  This value is ignored by Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -246,7 +252,7 @@ Indicates whether the VGA driver should avoid VESA BIOS calls. The element data 
 
 Disables the use of VGA modes in the OS. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -398,7 +404,7 @@ Forces the use of the platform clock as the system's performance counter. The el
 > [!Note]  
 > This value should only be used for debugging.
 
- 
+ 
 
 </dd> <dt>
 
@@ -410,9 +416,9 @@ Forces the OS to assume the presence of legacy PC devices like CMOS and keyboard
 > [!Note]  
 > This value should only be used for debugging.
 
- 
+ 
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -422,11 +428,11 @@ Forces the OS to assume the presence of legacy PC devices like CMOS and keyboard
 > [!Note]  
 > This value should only be used for debugging.
 
- 
+ 
 
 Controls the TSC synchronization policy. Possible values include default (0), legacy (1), or enhanced (2). The element data format is [**BcdIntegerElement**](bcdintegerelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -449,7 +455,7 @@ Indicates the driver load failure policy. Zero (0) indicates that a failed drive
 
 Defines the type of boot menus the system will use. Possible values include **menupolicylegacy (0)** or **menupolicystandard (1)**. The default value is **menupolicylegacy (0)**. The element data format is [**BcdIntegerElement**](bcdintegerelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -458,7 +464,7 @@ Defines the type of boot menus the system will use. Possible values include **me
 
 Controls whether the system boots to the legacy menu (F8 menu) on the next boot. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -482,7 +488,7 @@ The boot status policy. The element data format is [**BcdIntegerElement**](bcdin
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -491,7 +497,7 @@ The boot status policy. The element data format is [**BcdIntegerElement**](bcdin
 
 The OS loader removes this entry for security reasons. This option can only be triggered by using the F8 menu; a user must be physically present to trigger this option. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -546,7 +552,7 @@ Specifies the channel number for 1394 debugging. The element data format is [**B
 
 Values are Disabled (0), Basic (1), and Standard (2). The element data format is [**BcdIntegerElement**](bcdintegerelement.md).
 
-**Note**  This value is no longer used in Windows 8 and Windows Server 2012.
+**Note**  This value is no longer used in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -555,7 +561,7 @@ Values are Disabled (0), Basic (1), and Standard (2). The element data format is
 
 Defines the PCI bus, device, and function numbers of the debugging device used with the hypervisor. For example, 1.5.0 describes the debugging device on bus 1, device 5, function 0. The element data format is [**BcdStringElement**](bcdstringelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -564,7 +570,7 @@ Defines the PCI bus, device, and function numbers of the debugging device used w
 
 Specifies the total number of logical processors that can be started in the hypervisor. The element data format is [**BcdIntegerElement**](bcdintegerelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -573,7 +579,7 @@ Specifies the total number of logical processors that can be started in the hype
 
 Specifies the total number of virtual processors in the root partition that can be started within a pre-split Non-Uniform Memory Architecture (NUMA) node. The element data format is [**BcdIntegerElement**](bcdintegerelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -582,7 +588,7 @@ Specifies the total number of virtual processors in the root partition that can 
 
 Increases virtual Translation Lookaside Buffer (TLB) size. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -591,7 +597,7 @@ Increases virtual Translation Lookaside Buffer (TLB) size. The element data form
 
 Defines the host IPv4 address for the network debugger. The element data format is [**BcdIntegerElement**](bcdintegerelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -600,7 +606,7 @@ Defines the host IPv4 address for the network debugger. The element data format 
 
 Defines the network UDP port for the network debugger. The element data format is [**BcdIntegerElement**](bcdintegerelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -616,7 +622,7 @@ Determines whether entropy is gathered from the trusted platform module (TPM) to
 
 Holds the key used to encrypt the network debug connection used with the hypervisor. The element data format is [**BcdStringElement**](bcdstringelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -625,7 +631,7 @@ Holds the key used to encrypt the network debug connection used with the hypervi
 
 Controls use of DHCP by the network debugger used with the hypervisor. Setting this to false forces local link only address. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -634,7 +640,7 @@ Controls use of DHCP by the network debugger used with the hypervisor. Setting t
 
 Controls whether the hypervisor uses an Input Output Memory Management Unit (IOMMU). The element data format is [**BcdIntegerElement**](bcdintegerelement.md). Possible values are **default (0)**, **enable (1)**, and **disable (2)**.
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -651,8 +657,8 @@ When set to a value other than zero (0), disables XSAVE functionality in the ker
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -678,9 +684,9 @@ When set to a value other than zero (0), disables XSAVE functionality in the ker
 [**BcdElementType**](bcdelementtype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

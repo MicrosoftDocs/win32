@@ -4,13 +4,16 @@ description: Creates a new instance of a remote replication collection, and opti
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7c3d7571-1550-4688-8e3e-c784a3ac1b06'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7c3d7571-1550-4688-8e3e-c784a3ac1b06
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateRemoteReplicationCollection method iSCSI Software Target API", "CreateRemoteReplicationCollection method iSCSI Software Target API , MSISCSITARGET_ReplicationService class", "MSISCSITARGET_ReplicationService class iSCSI Software Target API , CreateRemoteReplicationCollection method"]
+keywords:
+- CreateRemoteReplicationCollection method iSCSI Software Target API
+- CreateRemoteReplicationCollection method iSCSI Software Target API , MSISCSITARGET_ReplicationService class
+- MSISCSITARGET_ReplicationService class iSCSI Software Target API , CreateRemoteReplicationCollection method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateRemoteReplicationCollection method of the MSISCSITARGET\_ReplicationService class
@@ -32,14 +38,14 @@ This method is inherited from the **CIM\_ReplicationService** class.
 
 ```mof
 uint32 CreateRemoteReplicationCollection(
-  [in, optional] string                         ElementName,
-  [in, optional] CIM_ServiceAccessPoint Ref     LocalAccessPoints[],
-  [in, optional] CIM_ServiceAccessPoint Ref     RemoteAccessPoints[],
-  [in, optional] CIM_ComputerSystem Ref         RemoteComputerSystem,
-  [in, optional] boolean                        Active,
-  [in, optional] boolean                        DeleteOnUnassociated,
-  [out]          CIM_ConcreteJob Ref            Job,
-  [out]          CIM_ConnectivityCollection Ref ConnectivityCollection
+  [in, optional] string                         ElementName,
+  [in, optional] CIM_ServiceAccessPoint Ref     LocalAccessPoints[],
+  [in, optional] CIM_ServiceAccessPoint Ref     RemoteAccessPoints[],
+  [in, optional] CIM_ComputerSystem Ref         RemoteComputerSystem,
+  [in, optional] boolean                        Active,
+  [in, optional] boolean                        DeleteOnUnassociated,
+  [out]          CIM_ConcreteJob Ref            Job,
+  [out]          CIM_ConnectivityCollection Ref ConnectivityCollection
 );
 ```
 
@@ -136,13 +142,13 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
 **Vendor Specific** (0x8000 = *value* )
@@ -155,7 +161,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -175,9 +181,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_TCPProtocolEndpoint**](msiscsitarget-tcpprotocolendpoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The file name, including its extension.'
-ms.assetid: '40940026-6c67-4196-aff6-5f846dc94f27'
-title: 'System.FileName'
+Description: The file name, including its extension.
+ms.assetid: 40940026-6c67-4196-aff6-5f846dc94f27
+title: System.FileName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FileName

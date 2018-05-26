@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '26b8788e-db69-43ec-befb-410edf0f42d1'
-title: 'System.SourceItem'
+Description: .
+ms.assetid: 26b8788e-db69-43ec-befb-410edf0f42d1
+title: System.SourceItem
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.SourceItem

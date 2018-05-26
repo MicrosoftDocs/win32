@@ -4,11 +4,15 @@ description: Describes the contents of the scope pane.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '66ea9f68-b277-433b-a112-c886594f7768'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 66ea9f68-b277-433b-a112-c886594f7768
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["snap-in UI MMC , scope panes"]
+keywords:
+- snap-in UI MMC , scope panes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scope Panes

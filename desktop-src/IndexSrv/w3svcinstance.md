@@ -1,7 +1,12 @@
 ---
 title: W3SvcInstance
 description: W3SvcInstance
-ms.assetid: 'c715a59b-7485-4d23-8e5a-cdda0f44c4b9'
+ms.assetid: c715a59b-7485-4d23-8e5a-cdda0f44c4b9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # W3SvcInstance

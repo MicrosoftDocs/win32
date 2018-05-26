@@ -1,7 +1,12 @@
-﻿---
-Description: 'Starts decoding a new frame.'
-ms.assetid: 'da2c231d-89a9-4fd9-99b5-f7c1309c26e0'
+---
+Description: Starts decoding a new frame.
+ms.assetid: da2c231d-89a9-4fd9-99b5-f7c1309c26e0
 title: NtGdiDdBeginMoCompFrame function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdBeginMoCompFrame function

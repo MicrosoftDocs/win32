@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter GetPosition
 description: IAgentCharacter GetPosition
-ms.assetid: '79343337-2700-48cb-a09d-1a356ea560e0'
+ms.assetid: 79343337-2700-48cb-a09d-1a356ea560e0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::GetPosition

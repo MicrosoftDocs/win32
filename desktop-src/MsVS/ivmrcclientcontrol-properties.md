@@ -1,7 +1,12 @@
 ---
 title: IVMRCClientControl Properties
 description: The IVMRCClientControl interface defines the following properties
-ms.assetid: '55753060-aa5d-4a69-ae00-17bdb201f5f5'
+ms.assetid: 55753060-aa5d-4a69-ae00-17bdb201f5f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl Properties

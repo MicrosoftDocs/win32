@@ -1,7 +1,12 @@
 ---
-Description: 'Using the Checkv4.exe utility to modify your IPv4 application to support IPv6.'
-ms.assetid: '36b72e4f-133d-4d96-a3c9-86a852d3a479'
-title: 'Using the Checkv4.exe Utility'
+Description: Using the Checkv4.exe utility to modify your IPv4 application to support IPv6.
+ms.assetid: 36b72e4f-133d-4d96-a3c9-86a852d3a479
+title: Using the Checkv4.exe Utility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Checkv4.exe Utility
@@ -39,7 +44,7 @@ There is a recommended procedure associated with adding IPv6 capability to appli
 **To modify IPv4 applications to support IPv6**
 
 1.  Fix structures and declarations to enable IPv6 and IPv4 compatibility.
-2.  Modify function calls to take advantage of IPv6-enabled functions, such as the [**getaddrinfo**](getaddrinfo-2.md) and [**getnameinfo**](getnameinfo-2.md) functions.
+2.  Modify function calls to take advantage of IPv6-enabled functions, such as the [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) and [**getnameinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getnameinfo?branch=master) functions.
 3.  Review source code for the use of hard-coded IPv4 addresses such as the loopback address, or the use of other literal strings.
 4.  Perform a thorough review of the user interface, including informational dialog boxes. Give thought to whether it is appropriate for IPv6-enabled applications to specify or provide IP-address based information.
 5.  Determine whether your application relies on underlying protocols, such as RPC, and make appropriate programmatic changes to handle IPv6 addresses.

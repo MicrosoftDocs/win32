@@ -1,14 +1,20 @@
 ---
 title: PlayButton element
 description: Specifies the location and size of the \ 0034;Play \ 0034; button.
-ms.assetid: '7197d251-5f11-40ed-90e0-cace8c231843'
-keywords: ["PlayButton element Windows Movie Maker and DVD Maker"]
+ms.assetid: 7197d251-5f11-40ed-90e0-cace8c231843
+keywords:
+- PlayButton element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - PlayButton
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayButton element
@@ -49,7 +55,7 @@ This button can be used only on the main menu.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -67,9 +73,9 @@ This button can be used only on the main menu.
 [**Submenu2Button Element**](submenu2button.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

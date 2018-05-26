@@ -1,7 +1,12 @@
 ---
 Description: Multichannel WMA Audio Playback in DirectShow
-ms.assetid: '99c69290-545a-4368-8f51-74e547c9466d'
+ms.assetid: 99c69290-545a-4368-8f51-74e547c9466d
 title: Multichannel WMA Audio Playback in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multichannel WMA Audio Playback in DirectShow

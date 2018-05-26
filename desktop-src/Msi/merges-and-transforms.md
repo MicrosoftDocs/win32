@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer keeps all information about the installation in a relational database. You can modify this database, and therefore the installation, by using transforms and merges.'
-ms.assetid: '32163e06-d03d-4b65-b744-62f306f2100d'
+Description: The Windows Installer keeps all information about the installation in a relational database. You can modify this database, and therefore the installation, by using transforms and merges.
+ms.assetid: 32163e06-d03d-4b65-b744-62f306f2100d
 title: Merges and Transforms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merges and Transforms

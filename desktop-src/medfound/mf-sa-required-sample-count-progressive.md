@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates the number of samples that a Microsoft Media Foundation transform (MFT) requires to be allocated for progressive content.'
-ms.assetid: '69F9EA59-41B4-4DE5-A77D-1D0E59BFBF3A'
-title: 'MF\_SA\_REQUIRED\_SAMPLE\_COUNT\_PROGRESSIVE attribute'
+---
+Description: Indicates the number of samples that a Microsoft Media Foundation transform (MFT) requires to be allocated for progressive content.
+ms.assetid: 69F9EA59-41B4-4DE5-A77D-1D0E59BFBF3A
+title: MF\_SA\_REQUIRED\_SAMPLE\_COUNT\_PROGRESSIVE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SA\_REQUIRED\_SAMPLE\_COUNT\_PROGRESSIVE attribute
@@ -14,7 +19,7 @@ Indicates the number of samples that a Microsoft Media Foundation transform (MFT
 
 ## Remarks
 
-This value is used if the next node downstream has an [**IMFVideoSampleAllocator**](imfvideosampleallocator.md).
+This value is used if the next node downstream has an [**IMFVideoSampleAllocator**](/windows/win32/mfidl/nn-mfidl-imfvideosampleallocator?branch=master).
 
 ## Requirements
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Imaging Component (WIC) has been updated with new releases of Windows. This topic provides a quick introduction to these new features.'
-ms.assetid: '710B71CE-6FCC-46DA-A65C-6E4FC6A04275'
-title: 'What''s New in WIC'
+Description: Windows Imaging Component (WIC) has been updated with new releases of Windows. This topic provides a quick introduction to these new features.
+ms.assetid: 710B71CE-6FCC-46DA-A65C-6E4FC6A04275
+title: Whats New in WIC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in WIC
@@ -14,8 +19,8 @@ Windows Imaging Component (WIC) has been updated with new releases of Windows. T
 
 Starting in Windows 10, version 1507, WIC provides access to low level JPEG data structures, including Huffman and quantization tables. For more information, see the following topics:
 
--   [**IWICJpegFrameDecode**](iwicjpegframedecode.md) interface
--   [**IWICJpegFrameEncode**](iwicjpegframeencode.md) interface
+-   [**IWICJpegFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicjpegframedecode?branch=master) interface
+-   [**IWICJpegFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicjpegframeencode?branch=master) interface
 
 ### JPEG indexing
 
@@ -23,7 +28,7 @@ JPEG indexing is a technique that significantly improves the performance of rand
 
 The [**ID2D1ImageSourceFromWic**](direct2d.id2d1imagesourcefromwic) interface is designed to leverage JPEG indexing if it is turned on. For example, the ID2D1ImageSource API will only request the needed sections of the image in a scenario such as pan and zoom for a large resolution image. For more information, see the following topics:
 
--   [**IWICJpegFrameDecode::SetIndexing**](iwicjpegframedecode-setindexing.md) method
+-   [**IWICJpegFrameDecode::SetIndexing**](/windows/win32/Wincodec/nf-wincodec-iwicjpegframedecode-setindexing?branch=master) method
 -   [**ID2D1ImageSourceFromWic**](direct2d.id2d1imagesourcefromwic) interface
 
 ## What's new for Windows 8.1
@@ -33,15 +38,15 @@ The [**ID2D1ImageSourceFromWic**](direct2d.id2d1imagesourcefromwic) interface is
 Starting in Windows 8.1, WIC provides support for decoding, transforming and encoding JPEG Y'CbCr image data in its native format. This allows apps to significantly decrease processing time and memory consumption for certain imaging operations when working with Y'CbCr encoded JPEGs. For more information, see the following topics:
 
 -   [Direct2D](-wic-sample-d2d-viewer.md)[YCbCr effect](direct2d.ycbcr_effect)
--   [**IWICPlanarBitmapSourceTransform**](iwicplanarbitmapsourcetransform.md) interface
--   [**IWICPlanarBitmapFrameEncode**](iwicplanarbitmapframeencode.md) interface
+-   [**IWICPlanarBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicplanarbitmapsourcetransform?branch=master) interface
+-   [**IWICPlanarBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicplanarbitmapframeencode?branch=master) interface
 
 ### Support for block compressed formats (DDS files)
 
 Starting in Windows 8.1, WIC adds a new codec that supports DDS images encoded in the following formats: DXGI\_FORMAT\_BC1\_UNORM, DXGI\_FORMAT\_BC2\_UNORM, and DXGI\_FORMAT\_BC3\_UNORM. DDS block compressed data can be accessed in a decoded form using standard WIC interfaces, or directly accessed using new DDS specific interfaces. For more information, see the following topics:
 
--   [**IWICDdsDecoder**](iwicddsdecoder.md) interface
--   [**IWICDdsEncoder**](iwicddsencoder.md) interface
+-   [**IWICDdsDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicddsdecoder?branch=master) interface
+-   [**IWICDdsEncoder**](/windows/win32/Wincodec/nn-wincodec-iwicddsencoder?branch=master) interface
 
 ## What's new for Windows 8
 
@@ -51,8 +56,8 @@ In Windows 8, WIC has been updated with several new features. The updated versi
 
 WIC in Windows 8 provides these APIs to improve Direct2D integration with WIC:
 
--   [**IWICImageEncoder**](iwicimageencoder.md) - A new interface which can encode Direct2D[**ID2D1Image**](direct2d.id2d1image) content to an [IWICBitmapFrameEncode](-wic-imp-iwicbitmapframeencode.md). The methods of this interface take a pointer to [**WICImageParameters**](wicimageparameters.md), which are parameters to control encoding.
--   [**IWICImagingFactory2**](iwicimagingfactory2.md) - New WIC factory with the [**CreateImageEncoder**](iwicimagingfactory2-createimageencoder.md) method. This interface inherits from the original WIC factory, [**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md), and is created the same way.
+-   [**IWICImageEncoder**](/windows/win32/Wincodec/nn-wincodec-iwicimageencoder?branch=master) - A new interface which can encode Direct2D[**ID2D1Image**](direct2d.id2d1image) content to an [IWICBitmapFrameEncode](-wic-imp-iwicbitmapframeencode.md). The methods of this interface take a pointer to [**WICImageParameters**](/windows/win32/Wincodec/ns-wincodec-wicimageparameters?branch=master), which are parameters to control encoding.
+-   [**IWICImagingFactory2**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory2?branch=master) - New WIC factory with the [**CreateImageEncoder**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder?branch=master) method. This interface inherits from the original WIC factory, [**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master), and is created the same way.
 
 ### Changes to BMP codec alpha support
 
@@ -78,7 +83,7 @@ WIC in Windows 8 defines these new pixel formats:
 
 When running in an AppContainer process, which includes all Windows Store apps, WIC will only use Windows-provided components, regardless of whether additional components are installed on the system. App that are not running in AppContainer are not affected.
 
-Apps don't need to make any code changes to run in an AppContainger, but the [**WICComponentEnumerateOptions**](-wic-codec-wiccomponentenumerateoptions.md) flag and vendor GUID parameters will have no effect. WIC will fail to load an image if it cannot be decoded by a Windows provided codec, and calling the [**CreateComponentEnumerator**](-wic-codec-iwicimagingfactory-createcomponentenumerator.md) method will only return Windows provided components.
+Apps don't need to make any code changes to run in an AppContainger, but the [**WICComponentEnumerateOptions**](/windows/win32/Wincodec/ne-wincodec-wiccomponentenumerateoptions?branch=master) flag and vendor GUID parameters will have no effect. WIC will fail to load an image if it cannot be decoded by a Windows provided codec, and calling the [**CreateComponentEnumerator**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createcomponentenumerator?branch=master) method will only return Windows provided components.
 
 ### Changes to CLSID\_WICPngDecoder and PNG decoder color context support
 
@@ -86,15 +91,15 @@ Apps don't need to make any code changes to run in an AppContainger, but the [**
 
 When compiled against the Windows 8 SDK, **CLSID\_WICPngDecoder** is \#defined to **CLSID\_WICPngDecoder2** to promote newly compiled apps using the new PNG decoder behavior. Apps should continue to specify **CLSID\_WICPngDecoder**.
 
-Specifying **CLSID\_WICPngDecoder2** will create a version of the WIC PNG decoder that will generate an [**IWICColorContext**](-wic-codec-iwiccolorcontext.md) from cHRM and gAMA chunks. This allows this color space metadata to be used with other Windows APIs for color managing the source image. An **IWICColorContext** is not generated from the gAMA and cHRM chunks if an iCCP chunk is present, if an sRGB chunk is present, or if the gAMA and cHRM chunks indicate an sRGB color space.
+Specifying **CLSID\_WICPngDecoder2** will create a version of the WIC PNG decoder that will generate an [**IWICColorContext**](/windows/win32/Wincodec/nn-wincodec-iwiccolorcontext?branch=master) from cHRM and gAMA chunks. This allows this color space metadata to be used with other Windows APIs for color managing the source image. An **IWICColorContext** is not generated from the gAMA and cHRM chunks if an iCCP chunk is present, if an sRGB chunk is present, or if the gAMA and cHRM chunks indicate an sRGB color space.
 
-An app can specify **CLSID\_WICPngDecoder1** to create a version of the WIC PNG decoder that does not generate an [**IWICColorContext**](-wic-codec-iwiccolorcontext.md) from the gAMA and cHRM chunks. This matches the behavior of the PNG decoder in previous versions of Windows.
+An app can specify **CLSID\_WICPngDecoder1** to create a version of the WIC PNG decoder that does not generate an [**IWICColorContext**](/windows/win32/Wincodec/nn-wincodec-iwiccolorcontext?branch=master) from the gAMA and cHRM chunks. This matches the behavior of the PNG decoder in previous versions of Windows.
 
 ### Changes to WINCODEC\_SDK\_VERSION
 
 When compiled against the Windows 8 SDK, **WINCODEC\_SDK\_VERSION** is \#defined to **WINCODEC\_SDK\_VERSION2** to promote newly compiled apps using the new PNG decoder behavior. Otherwise, it is \#defined to **WINCODEC\_SDK\_VERSION1**. Apps should continue to specify **WINCODEC\_SDK\_VERSION**.
 
-Specifying **WINCODEC\_SDK\_VERSION** when calling [**WICCreateImagingFactory\_Proxy**](-wic-codec-wiccreateimagingfactory-proxy.md) to create the imaging factory causes **CLSID\_WICPngDecoder2** to be created instead of **CLSID\_WICPngDecoder1** from the [**CreateDecoder**](-wic-codec-iwicimagingfactory-createdecoder.md) method and its variants. Also, a decoder component info enumerator will return **CLSID\_WICPngDecoder2** component info, but not **CLSID\_WICPngDecoder1** info.
+Specifying **WINCODEC\_SDK\_VERSION** when calling [**WICCreateImagingFactory\_Proxy**](-wic-codec-wiccreateimagingfactory-proxy.md) to create the imaging factory causes **CLSID\_WICPngDecoder2** to be created instead of **CLSID\_WICPngDecoder1** from the [**CreateDecoder**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoder?branch=master) method and its variants. Also, a decoder component info enumerator will return **CLSID\_WICPngDecoder2** component info, but not **CLSID\_WICPngDecoder1** info.
 
 Specifying **WINCODEC\_SDK\_VERSION1** will cause **CLSID\_WICPngDecoder1** to be used instead of **CLSID\_WICPngDecoder2** in the above cases.
 
@@ -104,7 +109,7 @@ Specifying **WINCODEC\_SDK\_VERSION1** will cause **CLSID\_WICPngDecoder1** to b
 
 When compiled against the Windows 8 SDK, **CLSID\_WICImagingFactory** is \#defined to **CLSID\_WICImagingFactory2** to promote newly compiled apps using the new PNG decoder behavior. Apps should continue to specify **CLSID\_WICImagingFactory**.
 
-Specifying **CLSID\_WICImagingFactory2** when calling [**CoCreateInstance**](com.cocreateinstance) to create the imaging factory causes **CLSID\_WICPngDecoder2** to be created instead of **CLSID\_WICPngDecoder1** from the [**CreateDecoder**](-wic-codec-iwicimagingfactory-createdecoder.md) method and its variants. Also, a decoder component info enumerator will return **CLSID\_WICPngDecoder2** component info, but not **CLSID\_WICPngDecoder1** info.
+Specifying **CLSID\_WICImagingFactory2** when calling [**CoCreateInstance**](com.cocreateinstance) to create the imaging factory causes **CLSID\_WICPngDecoder2** to be created instead of **CLSID\_WICPngDecoder1** from the [**CreateDecoder**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoder?branch=master) method and its variants. Also, a decoder component info enumerator will return **CLSID\_WICPngDecoder2** component info, but not **CLSID\_WICPngDecoder1** info.
 
 Specifying **CLSID\_WICImagingFactory1** will cause **CLSID\_WICPngDecoder1** to be used instead of **CLSID\_WICPngDecoder2** in the above cases.
 

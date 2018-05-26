@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether longitude is east or west.'
-ms.assetid: '011b8830-60a4-4c37-a7a7-4948f87bffcc'
-title: 'System.GPS.LongitudeRef'
+Description: Indicates whether longitude is east or west.
+ms.assetid: 011b8830-60a4-4c37-a7a7-4948f87bffcc
+title: System.GPS.LongitudeRef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.LongitudeRef

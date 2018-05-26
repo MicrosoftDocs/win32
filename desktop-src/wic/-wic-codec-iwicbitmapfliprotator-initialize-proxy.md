@@ -1,21 +1,26 @@
 ---
-Description: 'Proxy function for the Initialize method.'
-ms.assetid: '860e8092-054d-489e-8ca1-fec43a039eca'
-title: 'IWICBitmapFlipRotator\_Initialize\_Proxy function'
+Description: Proxy function for the Initialize method.
+ms.assetid: 860e8092-054d-489e-8ca1-fec43a039eca
+title: IWICBitmapFlipRotator\_Initialize\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICBitmapFlipRotator\_Initialize\_Proxy function
 
-Proxy function for the [**Initialize**](-wic-codec-iwicbitmapfliprotator-initialize.md) method.
+Proxy function for the [**Initialize**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapfliprotator-initialize?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICBitmapFlipRotator_Initialize_Proxy(
-  _In_ IWICBitmapFlipRotator     *THIS_PTR,
-  _In_ IWICBitmapSource          *pISource,
-  _In_ WICBitmapTransformOptions options
+  _In_ IWICBitmapFlipRotator     *THIS_PTR,
+  _In_ IWICBitmapSource          *pISource,
+  _In_ WICBitmapTransformOptions options
 );
 ```
 
@@ -28,16 +33,16 @@ HRESULT IWICBitmapFlipRotator_Initialize_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapFlipRotator**](-wic-codec-iwicbitmapfliprotator.md)\***
+Type: **[**IWICBitmapFlipRotator**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapfliprotator?branch=master)\***
 
-Pointer to this [**IWICBitmapFlipRotator**](-wic-codec-iwicbitmapfliprotator.md) object.
+Pointer to this [**IWICBitmapFlipRotator**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapfliprotator?branch=master) object.
 
 </dd> <dt>
 
 *pISource* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md)\***
+Type: **[**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master)\***
 
 The input bitmap source.
 
@@ -46,9 +51,9 @@ The input bitmap source.
 *options* \[in\]
 </dt> <dd>
 
-Type: **[**WICBitmapTransformOptions**](-wic-codec-wicbitmaptransformoptions.md)**
+Type: **[**WICBitmapTransformOptions**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master)**
 
-The [**WICBitmapTransformOptions**](-wic-codec-wicbitmaptransformoptions.md) to flip or rotate the image.
+The [**WICBitmapTransformOptions**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master) to flip or rotate the image.
 
 </dd> </dl>
 
@@ -66,15 +71,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

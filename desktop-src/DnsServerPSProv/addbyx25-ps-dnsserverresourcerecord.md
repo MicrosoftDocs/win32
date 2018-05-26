@@ -2,13 +2,16 @@
 title: AddByX25 method of the PS\_DnsServerResourceRecord class
 description: Adds the record to a specified zone in a DNS server.
 audience: developer
-ms.assetid: '061b7a97-6378-4d8a-96d9-e4ecf60ec731'
-ms.prod: 'windows-server-dev'
+ms.assetid: 061b7a97-6378-4d8a-96d9-e4ecf60ec731
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByX25 method", "AddByX25 method, PS_DnsServerResourceRecord class", "PS_DnsServerResourceRecord class, AddByX25 method"]
+keywords:
+- AddByX25 method
+- AddByX25 method, PS_DnsServerResourceRecord class
+- PS_DnsServerResourceRecord class, AddByX25 method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByX25 method of the PS\_DnsServerResourceRecord class
@@ -28,18 +34,18 @@ Adds the record to a specified zone in a DNS server.
 
 ```mof
 uint32 AddByX25(
-  [in]  string                  PsdnAddress,
-  [in]  string                  ZoneName,
-  [in]  datetime                TimeToLive,
-  [in]  boolean                 X25,
-  [in]  boolean                 AllowUpdateAny,
-  [in]  string                  Name,
-  [in]  string                  ComputerName,
-  [in]  boolean                 AgeRecord,
-  [in]  boolean                 PassThru,
-  [in]  string                  ZoneScope,
-  [in]  string                  VirtualizationInstance,
-  [out] DnsServerResourceRecord cmdletOutput
+  [in]  string                  PsdnAddress,
+  [in]  string                  ZoneName,
+  [in]  datetime                TimeToLive,
+  [in]  boolean                 X25,
+  [in]  boolean                 AllowUpdateAny,
+  [in]  string                  Name,
+  [in]  string                  ComputerName,
+  [in]  boolean                 AgeRecord,
+  [in]  boolean                 PassThru,
+  [in]  string                  ZoneScope,
+  [in]  string                  VirtualizationInstance,
+  [out] DnsServerResourceRecord cmdletOutput
 );
 ```
 
@@ -117,7 +123,7 @@ If specified creates the record with current timestamp so that the record can be
 
 Name of the zone scope.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -126,7 +132,7 @@ Name of the zone scope.
 
 Unique identifier of the virtualization instance.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -144,7 +150,7 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -158,9 +164,9 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 [**PS\_DnsServerResourceRecord**](ps-dnsserverresourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

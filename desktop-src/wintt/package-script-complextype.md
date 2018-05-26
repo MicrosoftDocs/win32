@@ -1,14 +1,20 @@
 ---
 title: Script Complex Type
 description: Specifies the script to run.
-ms.assetid: '0a339a47-ee09-4da3-9b7b-b42454c3c0b0'
-keywords: ["Script complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 0a339a47-ee09-4da3-9b7b-b42454c3c0b0
+keywords:
+- Script complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Script
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Script Complex Type
@@ -86,8 +92,8 @@ You must specify all children; specifying a subset of the children generates an 
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -104,9 +110,9 @@ You must specify all children; specifying a subset of the children generates an 
 [**Script (Verifier) Element**](package-script-verifier-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

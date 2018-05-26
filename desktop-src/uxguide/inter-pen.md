@@ -1,7 +1,12 @@
 ---
 title: Pen
 description: All Microsoft Windows applications should be pen enabled. And doing so is easier than you think.
-ms.assetid: '45635d5a-c9ff-47d0-89ef-a9c48ac67594'
+ms.assetid: 45635d5a-c9ff-47d0-89ef-a9c48ac67594
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pen
@@ -43,7 +48,7 @@ Using a pen for input has the following characteristics:
 -   **More personal.** Just as a handwritten note or signature is more personal than a typed one, using a digitally handwritten note or signature is also more personal.
 -   **Less intrusive.** Using a pen is silent, and consequently much less distracting than typing or clicking, especially in social situations such as meetings.
 -   **Portable.** A computer with a pen capability can be more compact because most tasks can be completed without a keyboard, mouse, or touchpad. It can be more flexible because it doesn't require a work surface. It enables new places and scenarios for using a computer.
--   **Direct and engaging.** Using a pen makes you feel like you are directly interacting with the objects on the screen, whereas using a mouse or touchpad always requires you to coordinate hand movements with separate on-screen pointer movements—which feels indirect by comparison.
+-   **Direct and engaging.** Using a pen makes you feel like you are directly interacting with the objects on the screen, whereas using a mouse or touchpad always requires you to coordinate hand movements with separate on-screen pointer movements which feels indirect by comparison.
 
 **All Windows programs should have a good pen experience.** Users should be able to perform your program's most important tasks efficiently using a pen. Some tasks, like typing or detailed pixel manipulation, aren't appropriate for a pen, but they should at least be possible.
 
@@ -51,7 +56,7 @@ Fortunately, if your program is already well designed and is touch-friendly, pro
 
 -   **Has good mouse support.** The interactive controls have clear, visible affordances, and have hover states for pointer feedback. Objects have standard behaviors for the standard mouse interactions (single and double left-click, right-click, drag, and hover). The [pointer shape](inter-mouse.md#common-pointer-shapes) changes as appropriate to indicate the type of direct manipulation.
 -   **Has good keyboard support.** The program makes users efficient by providing standard shortcut key assignments, especially for navigation and editing commands that can also be generated through gestures.
--   **Has controls large enough for touch.** The controls have a minimum size of 23x23 pixels (13x13 dialog units \[DLUs\]), and the most commonly used controls are at least 40x40 pixels (23x22 DLUs). To avoid unresponsive behavior, there should be no small gaps between targets—the UI elements should be spaced so that adjacent targets are either touching or have at least 5 pixels (3 DLUs) of space between them.
+-   **Has controls large enough for touch.** The controls have a minimum size of 23x23 pixels (13x13 dialog units \[DLUs\]), and the most commonly used controls are at least 40x40 pixels (23x22 DLUs). To avoid unresponsive behavior, there should be no small gaps between targets the UI elements should be spaced so that adjacent targets are either touching or have at least 5 pixels (3 DLUs) of space between them.
 -   **Is accessible.** Uses Microsoft Active Accessibility (MSAA) to provide programmatic access to the UI for assistive technologies. The program appropriately responds to theme and system metric changes.
 -   **Works well and looks good in 120 dpi (dots per inch),** which is the recommended default display resolution for pen-enabled computers.
 -   **Uses common controls.** Most common controls are designed to support a good pen experience. If necessary, the program uses well-implemented custom controls that are designed to support easy targeting and interactive manipulation.
@@ -59,7 +64,7 @@ Fortunately, if your program is already well designed and is touch-friendly, pro
 -   **Provides appropriate default values.** The program selects the safest (to prevent loss of data or system access) and most secure option by default. If safety and security aren't factors, the program selects the most likely or convenient option, thereby eliminating unnecessary interaction.
 -   **Provides text auto completion.** Provides a list of most likely or recently input values to make text input much easier.
 
-Unfortunately, the converse is also true—if your program isn't well designed, its shortcomings are going to be especially obvious to users who use a pen.
+Unfortunately, the converse is also true if your program isn't well designed, its shortcomings are going to be especially obvious to users who use a pen.
 
 ### Model for pen interaction
 
@@ -112,7 +117,7 @@ System gestures are defined and handled by Windows. As a result, all Windows pro
 
 
 
- 
+ 
 
 **Developers:** For more information, see [SystemGesture Enumeration](http://msdn2.microsoft.com/library/microsoft.ink.systemgesture.aspx).
 
@@ -146,7 +151,7 @@ The navigational flicks have natural mapping, so they are easy to learn and reme
 
 
 
- 
+ 
 
 **Application gestures**
 
@@ -184,7 +189,7 @@ In this example, the input UI is zoomed to 150 percent.
 -   **Provide appropriate default values.** Select the safest (to prevent loss of data or system access) and most secure option by default. If safety and security aren't factors, select the most likely or convenient option, thereby eliminating unnecessary interaction.
 -   **Provide text auto-completion.** Provide a list of most likely or recently input values to make text input much easier.
 -   **For important tasks that use multiple selection, if a standard multiple-selection list is normally used, provide an option to use a check box list instead.**
--   **Respect system metrics.** Use system metrics for all sizes—don't hardwire sizes. If necessary, users can change the system metrics or dpi to accommodate their needs. However, treat this as a last resort because users shouldn't normally have to adjust system settings to make UI usable.
+-   **Respect system metrics.** Use system metrics for all sizes don't hardwire sizes. If necessary, users can change the system metrics or dpi to accommodate their needs. However, treat this as a last resort because users shouldn't normally have to adjust system settings to make UI usable.
 
 ![screen shot of menus with normal and large sizing ](images/inter-pen-image8.png)
 
@@ -237,9 +242,9 @@ When referring to pen input:
 -   Refer generically to the keyboard, mouse, trackball, pen, or finger as an input device.
 -   Use tap (and double-tap) instead of click when documenting procedures specific to using a pen. Tap means to press the screen and then lift before a hold time. It may or may not be used to generate a mouse click. For interactions that don't involve the pen, continue to use click.
 
- 
+ 
 
- 
+ 
 
 
 

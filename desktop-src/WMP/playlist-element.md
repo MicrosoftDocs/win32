@@ -1,8 +1,18 @@
 ---
 title: PLAYLIST Element
 description: PLAYLIST Element
-ms.assetid: 'de568529-81f2-476b-ad1b-bb53f7e97b13'
-keywords: ["Windows Media Player skins,PLAYLIST element", "skins,PLAYLIST element", "PLAYLIST element", "reference for skins,PLAYLIST element", "elements,PLAYLIST"]
+ms.assetid: de568529-81f2-476b-ad1b-bb53f7e97b13
+keywords:
+- Windows Media Player skins,PLAYLIST element
+- skins,PLAYLIST element
+- PLAYLIST element
+- reference for skins,PLAYLIST element
+- elements,PLAYLIST
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST Element

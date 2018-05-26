@@ -1,7 +1,12 @@
-﻿---
-Description: 'Submits one or more fax documents to the connected FaxServer.'
-ms.assetid: '6a62e987-8853-41f0-b440-1571e761ac75'
-title: 'FaxDocument.ConnectedSubmit2 method'
+---
+Description: Submits one or more fax documents to the connected FaxServer.
+ms.assetid: 6a62e987-8853-41f0-b440-1571e761ac75
+title: FaxDocument.ConnectedSubmit2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.ConnectedSubmit2 method
@@ -69,7 +74,7 @@ You must set the [**Bodies**](-mfax-faxdocument2-bodies-vb.md) property with a s
 
 This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error: [FAX\_E\_NOT\_SUPPORTED\_ON\_THIS\_SKU](-mfax-fax-error-codes.md).
 
-To use this method, a user must have the [****far2SUBMIT\_LOW****](-mfax-fax-access-rights-enum-2.md), [****far2SUBMIT\_NORMAL****](-mfax-fax-access-rights-enum-2.md), or [****far2SUBMIT\_HIGH****](-mfax-fax-access-rights-enum-2.md) access set correctly, depending on the [**Priority**](-mfax-faxdocument-priority-vb.md) of the fax document.
+To use this method, a user must have the [****far2SUBMIT\_LOW****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master), [****far2SUBMIT\_NORMAL****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master), or [****far2SUBMIT\_HIGH****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master) access set correctly, depending on the [**Priority**](-mfax-faxdocument-priority-vb.md) of the fax document.
 
 To illustrate *plErrorBodyFile*, here is an example: The following list of files is submitted as the value of [**Bodies**](-mfax-faxdocument2-bodies-vb.md):
 
@@ -97,7 +102,7 @@ Because the "\*.pdf" extension is not supported, the send operation will fail an
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument2**](-mfax-faxdocument2-cpp.md)
+[**IFaxDocument2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument2?branch=master)
 </dt> </dl>
 
  

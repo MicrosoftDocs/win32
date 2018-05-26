@@ -1,14 +1,20 @@
 ---
 title: BASE Element
 description: The BASE element defines a URL string appended to the front of URLs sent to Windows Media Player.
-ms.assetid: '887cf860-d06e-44a1-b729-28a285f6c7d3'
-keywords: ["BASE Element Windows Media Player"]
+ms.assetid: 887cf860-d06e-44a1-b729-28a285f6c7d3
+keywords:
+- BASE Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BASE Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BASE Element
@@ -38,7 +44,7 @@ The string appended to the front to URLs sent to Windows Media Player. The defau
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,7 +57,7 @@ A **BASE** element defined as the child of an **ASX** element becomes the defaul
 > [!Note]  
 > If the **HREF** attribute does not end with a / character, Windows Media Player appends one to the end of the string.
 
- 
+ 
 
 ## Examples
 
@@ -83,9 +89,9 @@ A **BASE** element defined as the child of an **ASX** element becomes the defaul
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

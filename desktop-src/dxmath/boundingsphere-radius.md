@@ -1,7 +1,12 @@
-﻿---
-Description: 'The radius of the BoundingSphere.'
-ms.assetid: 'baa212ac-81f6-4765-a484-f1a98c431474'
-title: 'BoundingSphere.Radius'
+---
+Description: The radius of the BoundingSphere.
+ms.assetid: baa212ac-81f6-4765-a484-f1a98c431474
+title: BoundingSphere.Radius
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingSphere.Radius
@@ -43,7 +48,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingSphere**](boundingsphere.md)
+[**BoundingSphere**](/windows/win32/DirectXCollision/ns-directxcollision-boundingsphere?branch=master)
 </dt> </dl>
 
  

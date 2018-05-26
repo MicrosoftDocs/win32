@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthAgentRequest GetStringCorrelationId method
 description: Is used by system health agents to log the correlation ID.
-ms.assetid: '5d6f2392-2ada-474a-b150-31e0583c2ea7'
-keywords: ["GetStringCorrelationId method NAP", "GetStringCorrelationId method NAP , INapSystemHealthAgentRequest interface", "INapSystemHealthAgentRequest interface NAP , GetStringCorrelationId method"]
+ms.assetid: 5d6f2392-2ada-474a-b150-31e0583c2ea7
+keywords:
+- GetStringCorrelationId method NAP
+- GetStringCorrelationId method NAP , INapSystemHealthAgentRequest interface
+- INapSystemHealthAgentRequest interface NAP , GetStringCorrelationId method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagentrt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthAgentRequest::GetStringCorrelationId method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSystemHealthAgentRequest::GetStringCorrelationId** method is used by system health agents to log the correlation ID.
 
@@ -27,7 +35,7 @@ The **INapSystemHealthAgentRequest::GetStringCorrelationId** method is used by s
 
 ```C++
 HRESULT GetStringCorrelationId(
-  [out] StringCorrelationId **correlationId
+  [out] StringCorrelationId **correlationId
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT GetStringCorrelationId(
 *correlationId* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a unique [**CorrelationId**](correlationid-struct.md) for this SoH exchange.
+A pointer to a pointer to a unique [**CorrelationId**](/windows/win32/NapTypes/ns-naptypes-tagcorrelationid?branch=master) for this SoH exchange.
 
 </dd> </dl>
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Other COM-specific error codes also may be returned.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapSystemHealthAgent.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthAgent.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagentrt.dll</dt> </dl>             |
@@ -81,9 +89,9 @@ Other COM-specific error codes also may be returned.
 [**INapSystemHealthAgentRequest**](inapsystemhealthagentrequest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

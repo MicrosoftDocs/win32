@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies an application when the style or position of the composition window is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.'
-ms.assetid: '07a9f0f6-587e-47c6-8f18-b48bdab0a541'
-title: 'IMN\_SETCOMPOSITIONWINDOW notification code'
+---
+Description: Notifies an application when the style or position of the composition window is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+ms.assetid: 07a9f0f6-587e-47c6-8f18-b48bdab0a541
+title: IMN\_SETCOMPOSITIONWINDOW notification code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMN\_SETCOMPOSITIONWINDOW notification code

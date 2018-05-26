@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ControlledBy relationship indicates which devices are commanded by, or accessed through, the controller logical device.'
+Description: The CIM\_ControlledBy relationship indicates which devices are commanded by, or accessed through, the controller logical device.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6aa4e088-32a0-4c88-bb82-341b6ab53b4c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6aa4e088-32a0-4c88-bb82-341b6ab53b4c
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ControlledBy class'
+title: CIM\_ControlledBy class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ControlledBy class
@@ -19,7 +22,7 @@ The **CIM\_ControlledBy** relationship indicates which devices are commanded by,
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,13 +32,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C53D-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_ControlledBy : CIM_DeviceConnection
 {
-  uint32                NegotiatedDataWidth;
-  uint64                NegotiatedSpeed;
+  uint32                NegotiatedDataWidth;
+  uint64                NegotiatedSpeed;
   CIM_LogicalDevice REF Dependent;
-  CIM_Controller    REF Antecedent;
-  uint16                AccessState;
-  uint32                NumberOfHardResets;
-  uint32                NumberOfSoftResets;
+  CIM_Controller    REF Antecedent;
+  uint16                AccessState;
+  uint32                NumberOfHardResets;
+  uint32                NumberOfSoftResets;
 };
 ```
 
@@ -197,8 +200,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -212,9 +215,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_DeviceConnection**](cim-deviceconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

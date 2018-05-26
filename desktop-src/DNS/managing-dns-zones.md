@@ -1,7 +1,12 @@
 ---
 title: Managing DNS Zones
 description: A DNS zone is a database of RR entries that corresponds to part of the DNS hierarchical name space. DNS zones are used to delineate which DNS Servers are authoritative for resolving name-resolution queries for a given section of the DNS hierarchy.
-ms.assetid: '12958b71-b47d-4dd7-bd08-409ecd369e4f'
+ms.assetid: 12958b71-b47d-4dd7-bd08-409ecd369e4f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing DNS Zones

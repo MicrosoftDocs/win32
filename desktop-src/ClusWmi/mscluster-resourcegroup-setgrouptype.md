@@ -1,16 +1,19 @@
 ---
 title: SetGroupType method of the MSCluster\_ResourceGroup class
-description: This method is not supported starting with Windows Server 2012.
+description: This method is not supported starting with Windows Server 2012.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5d418ef0-9bb7-4a3a-aebd-74f9503a2fe8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5d418ef0-9bb7-4a3a-aebd-74f9503a2fe8
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetGroupType method", "SetGroupType method, MSCluster_ResourceGroup class", "MSCluster_ResourceGroup class, SetGroupType method"]
+keywords:
+- SetGroupType method
+- SetGroupType method, MSCluster_ResourceGroup class
+- MSCluster_ResourceGroup class, SetGroupType method
 topic_type:
 - apiref
 api_name:
@@ -19,13 +22,16 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetGroupType method of the MSCluster\_ResourceGroup class
 
-This method is not supported starting with Windows Server 2012.
+This method is not supported starting with Windows Server 2012.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
 Sets the group type for this resource group.
 
@@ -34,7 +40,7 @@ Sets the group type for this resource group.
 
 ```mof
 void SetGroupType(
-  [in] uint32 GroupType
+  [in] uint32 GroupType
 );
 ```
 
@@ -153,7 +159,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -167,9 +173,9 @@ This method does not return a value.
 [**MSCluster\_ResourceGroup**](mscluster-resourcegroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

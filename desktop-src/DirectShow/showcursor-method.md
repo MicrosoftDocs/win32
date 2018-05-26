@@ -1,7 +1,12 @@
 ---
-Description: 'The ShowCursor method makes the cursor visible when the MSWebDVD object is in full-screen mode.'
-ms.assetid: '3a611cc8-7979-473d-bd0f-f4ca43701c63'
+Description: The ShowCursor method makes the cursor visible when the MSWebDVD object is in full-screen mode.
+ms.assetid: 3a611cc8-7979-473d-bd0f-f4ca43701c63
 title: ShowCursor Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShowCursor Method

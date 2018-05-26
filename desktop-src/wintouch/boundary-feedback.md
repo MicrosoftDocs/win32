@@ -1,8 +1,18 @@
 ---
 title: Boundary Feedback
 description: Boundary feedback indicates to a user that they have left a pannable region.
-ms.assetid: '2575601e-34d3-4aeb-b9ce-5f68d546690d'
-keywords: ["Windows Touch,boundary feedback", "Windows Touch,pannable regions", "Windows Touch,panning", "boundary feedback,about", "panning,boundary feedback"]
+ms.assetid: 2575601e-34d3-4aeb-b9ce-5f68d546690d
+keywords:
+- Windows Touch,boundary feedback
+- Windows Touch,pannable regions
+- Windows Touch,panning
+- boundary feedback,about
+- panning,boundary feedback
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Boundary Feedback

@@ -1,7 +1,12 @@
 ---
 title: To See How Much Time the CPU Spent at Each P-state
 description: To See How Much Time the CPU Spent at Each P-state
-ms.assetid: 'e34414fb-5ff2-44cd-a07d-65e8e1fdc886'
+ms.assetid: e34414fb-5ff2-44cd-a07d-65e8e1fdc886
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To See How Much Time the CPU Spent at Each P-state

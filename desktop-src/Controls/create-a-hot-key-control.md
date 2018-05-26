@@ -1,7 +1,12 @@
 ---
 title: How to Create a Hot Key Control
 description: This topic demonstrates how to create a hot key control. You create a hot key control by using the CreateWindowEx function, specifying the HOTKEY\_CLASS window class.
-ms.assetid: 'A6723D4E-B8F6-4365-8FCD-99B73D2C0470'
+ms.assetid: A6723D4E-B8F6-4365-8FCD-99B73D2C0470
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Hot Key Control
@@ -25,7 +30,7 @@ This topic demonstrates how to create a hot key control. You create a hot key co
 
 Before you create the hot key control, ensure that the common controls DLL is loaded.
 
-In the following C++ code example, the application-defined function calls the [**InitCommonControlsEx**](initcommoncontrolsex.md) function to load the common control DLL. Then it calls the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the **HOTKEY\_CLASS** window class, to create a hot key control. It uses the [**HKM\_SETRULES**](hkm-setrules.md) and [**HKM\_SETHOTKEY**](hkm-sethotkey.md) messages to initialize the control and returns a handle to the control.
+In the following C++ code example, the application-defined function calls the [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) function to load the common control DLL. Then it calls the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the **HOTKEY\_CLASS** window class, to create a hot key control. It uses the [**HKM\_SETRULES**](hkm-setrules.md) and [**HKM\_SETHOTKEY**](hkm-sethotkey.md) messages to initialize the control and returns a handle to the control.
 
 This hot key control does not allow the user to choose a hot key that is a single unmodified key, nor does it permit the user to choose only SHIFT and a key. These rules effectively prevent the user from choosing a hot key that might be entered accidentally while typing text.
 

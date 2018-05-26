@@ -4,17 +4,22 @@ description: This holds one or more binary sequences that represent compiled WMI
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e07e4a3d-d85c-4e1f-ab1a-755ef0350996'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e07e4a3d-d85c-4e1f-ab1a-755ef0350996
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-TargetObject attribute AD Schema", "msWMI-TargetObject attribute AD Schema"]
+keywords:
+- ms-WMI-TargetObject attribute AD Schema
+- msWMI-TargetObject attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-TargetObject
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-TargetObject attribute
@@ -38,11 +43,11 @@ This holds one or more binary sequences that represent compiled WMI objects.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ This holds one or more binary sequences that represent compiled WMI objects.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

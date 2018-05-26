@@ -1,12 +1,17 @@
 ---
 title: Instantiating the WPD Automation Factory Interface
 description: WPD Automation can be instantiated from C++/COM by CoCreating IPortableDeviceDispatchFactory and calling IPortableDeviceDispatchFactory GetDeviceDispatch, supplying a Device Plug and Play (PnP) identifier.
-ms.assetid: 'd83db1cd-7bd2-42f1-b1f2-55090a332e9a'
+ms.assetid: d83db1cd-7bd2-42f1-b1f2-55090a332e9a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Instantiating the WPD Automation Factory Interface
 
-WPD Automation can be instantiated from C++/COM by CoCreating [**IPortableDeviceDispatchFactory**](iportabledevicedispatchfactory-interface.md) and calling [**IPortableDeviceDispatchFactory::GetDeviceDispatch**](iportabledevicedispatchfactory-getdevicedispatch.md), supplying a Device Plug and Play (PnP) identifier. The **DevicePnPId** is a string that represents a WPD device, and is returned by the [**IPortableDeviceManager::GetDevices**](https://msdn.microsoft.com/library/windows/desktop/dd388693) method in the WPD C++/COM API.
+WPD Automation can be instantiated from C++/COM by CoCreating [**IPortableDeviceDispatchFactory**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicedispatchfactory?branch=master) and calling [**IPortableDeviceDispatchFactory::GetDeviceDispatch**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicedispatchfactory-getdevicedispatch?branch=master), supplying a Device Plug and Play (PnP) identifier. The **DevicePnPId** is a string that represents a WPD device, and is returned by the [**IPortableDeviceManager::GetDevices**](https://msdn.microsoft.com/library/windows/desktop/dd388693) method in the WPD C++/COM API.
 
 The following example shows how to instantiate and return a WPD Automation **Device** object. The code can be wrapped in an **IDispatch** method for an ActiveX object that is accessible from JScript.
 
@@ -70,7 +75,7 @@ var deviceObject = deviceFactory.GetFirstDeviceObject();
 [Best Practices for Writing WPD Automation Scripts](best-practices-for-writing-wpd-automation-scripts.md)
 </dt> <dt>
 
-[**IPortableDeviceDispatchFactory Interface**](iportabledevicedispatchfactory-interface.md)
+[**IPortableDeviceDispatchFactory Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicedispatchfactory?branch=master)
 </dt> <dt>
 
 [Using WPD Automation](using-wpd-automation.md)

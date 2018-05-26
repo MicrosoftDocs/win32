@@ -1,7 +1,12 @@
 ---
-Description: 'This section on file types and file associations is organized as follows:'
-ms.assetid: '45d8b729-1e9d-40c0-8306-9a475262ac40'
+Description: This section on file types and file associations is organized as follows
+ms.assetid: 45d8b729-1e9d-40c0-8306-9a475262ac40
 title: File Types and File Associations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Types and File Associations
@@ -35,9 +40,9 @@ For related reference documentation, see the following topics:
 
 -   To execute a verb on a Shell item, see the [**InvokeVerb**](folderitem-invokeverb.md) method.
 -   To retrieve a collection of verbs that can be executed on a Shell item, see the [**Verbs**](folderitem-verbs.md) method.
--   For performing an operation on a specified file, see either the [**ShellExecute**](shellexecute.md) or [**ShellExecuteEx**](shellexecuteex.md) functions.
--   For a list of default perceived types, see the [**PERCEIVED**](perceived.md) enumeration.
--   To retrieves a file's perceived type based on its extension, see the [**AssocGetPerceivedType**](assocgetperceivedtype.md) function.
+-   For performing an operation on a specified file, see either the [**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master) or [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) functions.
+-   For a list of default perceived types, see the [**PERCEIVED**](/windows/win32/Shtypes/ne-shtypes-tagperceived?branch=master) enumeration.
+-   To retrieves a file's perceived type based on its extension, see the [**AssocGetPerceivedType**](/windows/win32/Shlwapi/nf-shlwapi-assocgetperceivedtype?branch=master) function.
 
  
 

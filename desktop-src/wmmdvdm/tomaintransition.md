@@ -1,14 +1,20 @@
 ---
 title: ToMainTransition element
 description: Specifies the transition into the main menu (the \ 0034;opening \ 0034; transition) that is displayed when the main menu is displayed for the first time.
-ms.assetid: 'cf087165-02d3-4645-a532-e15042745940'
-keywords: ["ToMainTransition element Windows Movie Maker and DVD Maker"]
+ms.assetid: cf087165-02d3-4645-a532-e15042745940
+keywords:
+- ToMainTransition element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - ToMainTransition
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ToMainTransition element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -57,9 +63,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: MCI\_PASTE command
 description: The MCI\_PASTE command pastes data from the clipboard into a file. Digital-video devices recognize this command.
-ms.assetid: 'cad5799a-08ef-4e34-803a-415b937d8fbd'
-keywords: ["MCI_PASTE command Windows Multimedia"]
+ms.assetid: cad5799a-08ef-4e34-803a-415b937d8fbd
+keywords:
+- MCI_PASTE command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_PASTE command
 
 The MCI\_PASTE command pastes data from the clipboard into a file. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -52,7 +58,7 @@ MCI\_NOTIFY, MCI\_WAIT, or MCI\_TEST. For information about these flags, see [Th
 <span id="lpPaste"></span><span id="lppaste"></span><span id="LPPASTE"></span>*lpPaste*
 </dt> <dd>
 
-Pointer to an [**MCI\_ DGV\_ PASTE\_ PARMS**](mci-dgv-paste-parms.md) structure.
+Pointer to an [**MCI\_ DGV\_ PASTE\_ PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_paste_parms?branch=master) structure.
 
 </dd> </dl>
 
@@ -114,8 +120,8 @@ A position value is included in the **dwTo** member of the structure identified 
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -130,9 +136,9 @@ A position value is included in the **dwTo** member of the structure identified 
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

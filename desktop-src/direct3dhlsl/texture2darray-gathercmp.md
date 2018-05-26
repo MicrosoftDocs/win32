@@ -1,12 +1,18 @@
 ---
 title: Texture2DArray GatherCmp methods
 description: Samples and compares a Texture2DArray and returns all components.
-ms.assetid: '7bb86448-cc73-4423-9ef4-149427cffc95'
-keywords: ["GatherCmp methods HLSL"]
+ms.assetid: 7bb86448-cc73-4423-9ef4-149427cffc95
+keywords:
+- GatherCmp methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DArray::GatherCmp methods
@@ -31,9 +37,9 @@ Samples and compares a [**Texture2DArray**](sm5-object-texture2darray.md) and re
 [Texture2DArray](sm5-object-texture2darray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

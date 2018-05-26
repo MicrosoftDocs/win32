@@ -1,7 +1,12 @@
 ---
-Description: 'A metafile is a collection of structures that store a picture in a device-independent format.'
-ms.assetid: '222f9b8b-d759-49f9-a3ea-ac59f85263b8'
+Description: A metafile is a collection of structures that store a picture in a device-independent format.
+ms.assetid: 222f9b8b-d759-49f9-a3ea-ac59f85263b8
 title: Metafiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metafiles

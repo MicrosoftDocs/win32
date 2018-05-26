@@ -1,7 +1,12 @@
 ---
 title: Controlling an Active Server Pages Search
 description: Controlling an Active Server Pages Search
-ms.assetid: '195067e0-1ea3-40e1-9dee-e890b0df6fe9'
+ms.assetid: 195067e0-1ea3-40e1-9dee-e890b0df6fe9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controlling an Active Server Pages Search

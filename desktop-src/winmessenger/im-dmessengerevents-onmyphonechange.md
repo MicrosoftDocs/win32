@@ -1,8 +1,11 @@
 ---
 title: DMessengerEvents OnMyPhoneChange event
-description: Indicates that the local client's phone contact information has been changed or that a change was attempted.
-ms.assetid: 'dc224f0c-1dbc-41e6-9107-a72fb4f3471d'
-keywords: ["OnMyPhoneChange event Windows Messenger", "OnMyPhoneChange event Windows Messenger , DMessengerEvents interface", "DMessengerEvents interface Windows Messenger , OnMyPhoneChange event"]
+description: Indicates that the local clients phone contact information has been changed or that a change was attempted.
+ms.assetid: dc224f0c-1dbc-41e6-9107-a72fb4f3471d
+keywords:
+- OnMyPhoneChange event Windows Messenger
+- OnMyPhoneChange event Windows Messenger , DMessengerEvents interface
+- DMessengerEvents interface Windows Messenger , OnMyPhoneChange event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMessengerEvents::OnMyPhoneChange event
 
-\[**OnMyPhoneChange** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnMyPhoneChange** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Indicates that the local client's phone contact information has been changed or that a change was attempted.
 
@@ -24,8 +32,8 @@ Indicates that the local client's phone contact information has been changed or 
 
 ```C++
 void OnMyPhoneChange(
-  [in] MPHONE_TYPE PhoneType,
-  [in] BSTR        bstrNumber
+  [in] MPHONE_TYPE PhoneType,
+  [in] BSTR        bstrNumber
 );
 ```
 
@@ -55,7 +63,7 @@ This event does not return a value.
 
 ## Remarks
 
-The Windows Messenger API does not have a method to put or set the client's friendly name information. This event fires only if the friendly name is changed through internal APIs or user action on the UI. No *hr* is contained in this event.
+The Windows Messenger API does not have a method to put or set the client's friendly name information. This event fires only if the friendly name is changed through internal APIs or user action on the UI. No *hr* is contained in this event.
 
 To be used when writing custom ::Invoke methods to handle these events.
 
@@ -68,12 +76,12 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 
 
- 
+ 
 
 > [!Note]  
 > This event is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -81,10 +89,10 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.5<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -108,9 +116,9 @@ To be used when writing custom ::Invoke methods to handle these events.
 [**OnContactPhoneChange**](im-dmessengerevents-oncontactphonechange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

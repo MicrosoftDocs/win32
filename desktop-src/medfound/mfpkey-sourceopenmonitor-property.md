@@ -1,12 +1,17 @@
-﻿---
-Description: 'Contains a pointer to the application's IMFSourceOpenMonitor interface.'
-ms.assetid: '5b94ae87-91fc-49d6-9355-83327cfdb3f3'
-title: 'MFPKEY\_SourceOpenMonitor property'
+---
+Description: Contains a pointer to the applications IMFSourceOpenMonitor interface.
+ms.assetid: 5b94ae87-91fc-49d6-9355-83327cfdb3f3
+title: MFPKEY\_SourceOpenMonitor property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_SourceOpenMonitor property
 
-Contains a pointer to the application's [**IMFSourceOpenMonitor**](imfsourceopenmonitor.md) interface.
+Contains a pointer to the application's [**IMFSourceOpenMonitor**](/windows/win32/mfidl/nn-mfidl-imfsourceopenmonitor?branch=master) interface.
 
 
 

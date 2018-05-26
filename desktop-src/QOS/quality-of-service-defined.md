@@ -1,8 +1,14 @@
 ---
 title: Quality of Service Defined
 description: Quality of Service is an industry-wide movement that achieves more efficient use out of network resources by differentiating between subsets of data.
-ms.assetid: '4d0c6549-c175-4114-880b-9e90dfbff5ab'
-keywords: ["Quality of Service QOS , described, defined"]
+ms.assetid: 4d0c6549-c175-4114-880b-9e90dfbff5ab
+keywords:
+- Quality of Service QOS , described, defined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quality of Service Defined

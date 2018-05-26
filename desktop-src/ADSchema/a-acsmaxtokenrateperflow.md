@@ -4,17 +4,22 @@ description: The maximum token rate any single flow may have for a given user.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2898b7a6-f2b1-4e08-aba6-9e1ac655a4db'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 2898b7a6-f2b1-4e08-aba6-9e1ac655a4db
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ACS-Max-Token-Rate-Per-Flow attribute AD Schema", "aCSMaxTokenRatePerFlow attribute AD Schema"]
+keywords:
+- ACS-Max-Token-Rate-Per-Flow attribute AD Schema
+- aCSMaxTokenRatePerFlow attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ACS-Max-Token-Rate-Per-Flow
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ACS-Max-Token-Rate-Per-Flow attribute
@@ -38,12 +43,12 @@ The maximum token rate any single flow may have for a given user.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The maximum token rate any single flow may have for a given user.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

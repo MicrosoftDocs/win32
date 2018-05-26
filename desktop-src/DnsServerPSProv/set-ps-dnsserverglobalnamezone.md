@@ -2,13 +2,16 @@
 title: Set method of the PS\_DnsServerGlobalNameZone class
 description: Enables or disables support for the GlobalNames zone. The GlobalNames zone supports resolution of single-label DNS names across a forest.
 audience: developer
-ms.assetid: '2a5db42f-1f67-41bc-833c-1c6699c30541'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2a5db42f-1f67-41bc-833c-1c6699c30541
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DnsServerGlobalNameZone class", "PS_DnsServerGlobalNameZone class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DnsServerGlobalNameZone class
+- PS_DnsServerGlobalNameZone class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DnsServerGlobalNameZone class
@@ -28,17 +34,17 @@ Enables or disables support for the GlobalNames zone. The GlobalNames zone suppo
 
 ```mof
 uint32 Set(
-  [in]  boolean                 AlwaysQueryServer,
-  [in]  boolean                 BlockUpdates,
-  [in]  boolean                 Enable,
-  [in]  boolean                 EnableEDnsProbes,
-  [in]  boolean                 GlobalOverLocal,
-  [in]  boolean                 PreferAaaa,
-  [in]  string                  ComputerName,
-  [in]  uint32                  SendTimeout,
-  [in]  datetime                ServerQueryInterval,
-  [in]  boolean                 PassThru,
-  [out] DnsServerGlobalNameZone cmdletOutput
+  [in]  boolean                 AlwaysQueryServer,
+  [in]  boolean                 BlockUpdates,
+  [in]  boolean                 Enable,
+  [in]  boolean                 EnableEDnsProbes,
+  [in]  boolean                 GlobalOverLocal,
+  [in]  boolean                 PreferAaaa,
+  [in]  string                  ComputerName,
+  [in]  uint32                  SendTimeout,
+  [in]  datetime                ServerQueryInterval,
+  [in]  boolean                 PassThru,
+  [out] DnsServerGlobalNameZone cmdletOutput
 );
 ```
 
@@ -132,7 +138,7 @@ On return, contains an instance of the current object. This parameter returns a 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -146,9 +152,9 @@ On return, contains an instance of the current object. This parameter returns a 
 [**PS\_DnsServerGlobalNameZone**](ps-dnsserverglobalnamezone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

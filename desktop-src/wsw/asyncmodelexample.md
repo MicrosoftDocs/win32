@@ -1,8 +1,16 @@
 ---
 title: Asynchronous Function Example
 description: This example illustrates implementing and calling asynchronous functions.
-ms.assetid: 'e71bd231-c69c-409f-874c-a0798b844ee6'
-keywords: ["AsyncModelExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: e71bd231-c69c-409f-874c-a0798b844ee6
+keywords:
+- AsyncModelExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Asynchronous Function Example

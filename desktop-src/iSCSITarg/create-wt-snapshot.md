@@ -4,13 +4,16 @@ description: Creates a shadow copy of the specified virtual disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '221efe53-b77c-4d80-8dbe-1579374f76c0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 221efe53-b77c-4d80-8dbe-1579374f76c0
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Create method iSCSI Software Target API", "Create method iSCSI Software Target API , WT_Snapshot class", "WT_Snapshot class iSCSI Software Target API , Create method"]
+keywords:
+- Create method iSCSI Software Target API
+- Create method iSCSI Software Target API , WT_Snapshot class
+- WT_Snapshot class iSCSI Software Target API , Create method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Create method of the WT\_Snapshot class
@@ -30,8 +36,8 @@ Creates a shadow copy of the specified virtual disk.
 
 ```mof
 void Create(
-  [in]  uint32 WTD,
-  [out] string Id
+  [in]  uint32 WTD,
+  [out] string Id
 );
 ```
 
@@ -66,7 +72,7 @@ This method does not return a value.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
@@ -80,9 +86,9 @@ This method does not return a value.
 [**WT\_Snapshot**](wt-snapshot.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

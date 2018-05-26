@@ -1,7 +1,12 @@
 ---
-Description: 'The installer uses this event to publish data on the latest action. The data can be displayed on a dialog box by a Text Control that subscribes to this ControlEvent. This event should be authored in the EventMapping table.'
-ms.assetid: '3c0ab7d0-35f2-4966-8eff-f9f0419d8eed'
+Description: The installer uses this event to publish data on the latest action. The data can be displayed on a dialog box by a Text Control that subscribes to this ControlEvent. This event should be authored in the EventMapping table.
+ms.assetid: 3c0ab7d0-35f2-4966-8eff-f9f0419d8eed
 title: ActionData ControlEvent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActionData ControlEvent

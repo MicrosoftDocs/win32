@@ -1,8 +1,24 @@
 ---
 title: Audio Device Conformance Templates
 description: Audio Device Conformance Templates
-ms.assetid: 'dad3dd2c-595e-45ce-bd84-2a20bc656cfb'
-keywords: ["Windows Media Format SDK,device conformance templates", "Advanced Systems Format (ASF),device conformance templates", "ASF (Advanced Systems Format),device conformance templates", "Windows Media Format SDK,audio device conformance templates", "Advanced Systems Format (ASF),audio device conformance templates", "ASF (Advanced Systems Format),audio device conformance templates", "Windows Media Audio 9 codec,audio device conformance templates", "codecs,Windows Media Audio 9 codec", "device conformance templates,video", "audio device conformance templates", "templates,audio device conformance templates"]
+ms.assetid: dad3dd2c-595e-45ce-bd84-2a20bc656cfb
+keywords:
+- Windows Media Format SDK,device conformance templates
+- Advanced Systems Format (ASF),device conformance templates
+- ASF (Advanced Systems Format),device conformance templates
+- Windows Media Format SDK,audio device conformance templates
+- Advanced Systems Format (ASF),audio device conformance templates
+- ASF (Advanced Systems Format),audio device conformance templates
+- Windows Media Audio 9 codec,audio device conformance templates
+- codecs,Windows Media Audio 9 codec
+- device conformance templates,video
+- audio device conformance templates
+- templates,audio device conformance templates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Device Conformance Templates
@@ -13,14 +29,14 @@ The following table lists the device conformance templates and associated parame
 
 | Template string | Bit rate range     | Notes                                                                                                                                                                                                                                |
 |-----------------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| "L1"            | 64 Kbps – 160 Kbps | This template is intended for constrained audio-only devices.                                                                                                                                                                        |
+| "L1"            | 64 Kbps   160 Kbps | This template is intended for constrained audio-only devices.                                                                                                                                                                        |
 | "L2"            | &lt;= 160 Kbps     | This template corresponds to Class 4 in the Windows Media Audio porting kit, which supports the entire Windows Media Audio decoder implementation.                                                                                   |
 | "L3"            | &lt;= 384 Kbps     | This template corresponds to Class 4 in the Windows Media Audio porting kit, which supports the entire Windows Media Audio decoder implementation.The bit rate range is the only difference between this template and L2.<br/> |
 | "L"             | All bit rates      | This template is for use with personal computers only, and is usually used to showcase the full capabilities of the codec.                                                                                                           |
 
 
 
- 
+ 
 
 The following table lists the device conformance templates and associated parameters for the Windows Media Audio 9 Voice codec.
 
@@ -33,7 +49,7 @@ The following table lists the device conformance templates and associated parame
 
 
 
- 
+ 
 
 The following table lists the device conformance templates and associated parameters for the Windows Media Audio 9 Professional codec, or later.
 
@@ -48,7 +64,7 @@ The following table lists the device conformance templates and associated parame
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -63,9 +79,9 @@ The following table lists the device conformance templates and associated parame
 [**Video Device Conformance Templates**](video-device-conformance-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

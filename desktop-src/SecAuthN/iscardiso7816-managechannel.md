@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ManageChannel method constructs an application protocol data unit (APDU) command that opens and closes logical channels.'
-ms.assetid: 'a55b5b3f-0404-45bd-afeb-e96173319a50'
-title: 'ISCardISO7816::ManageChannel method'
+---
+Description: The ManageChannel method constructs an application protocol data unit (APDU) command that opens and closes logical channels.
+ms.assetid: a55b5b3f-0404-45bd-afeb-e96173319a50
+title: ISCardISO7816ManageChannel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardISO7816::ManageChannel method

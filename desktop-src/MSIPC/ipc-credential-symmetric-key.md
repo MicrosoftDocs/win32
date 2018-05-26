@@ -4,11 +4,14 @@ description: Symmetric key credential structure used to authenticate to an RMS S
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'D0B283EA-3087-4DC9-B701-80995C1A4DCD'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: D0B283EA-3087-4DC9-B701-80995C1A4DCD
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_CREDENTIAL_SYMMETRIC_KEY structure Active Directory Rights Management Services SDK 2.0", "PIPC_CREDENTIAL_SYMMETRIC_KEY structure pointer Active Directory Rights Management Services SDK 2.0", "PCIPC_CREDENTIAL_SYMMETRIC_KEY structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_CREDENTIAL_SYMMETRIC_KEY structure Active Directory Rights Management Services SDK 2.0
+- PIPC_CREDENTIAL_SYMMETRIC_KEY structure pointer Active Directory Rights Management Services SDK 2.0
+- PCIPC_CREDENTIAL_SYMMETRIC_KEY structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Ipcbase.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPC\_CREDENTIAL\_SYMMETRIC\_KEY structure
@@ -71,8 +77,8 @@ The Symmetric key, Service Principal Name and BPOS Id can be acquired by registe
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcbase.h (include Msipc.h)</dt> </dl> |
 
 
@@ -84,9 +90,9 @@ The Symmetric key, Service Principal Name and BPOS Id can be acquired by registe
 [Enable your service application to work with cloud based RMS](how-to-use-file-api-with-aadrm--cloud-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

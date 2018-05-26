@@ -4,19 +4,22 @@ description: You can extend TS \ 160;Session Broker by using the IWTSSBPlugin CO
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f111d6e6-90ca-4eff-ab0e-02de25f7d6ad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f111d6e6-90ca-4eff-ab0e-02de25f7d6ad
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending Terminal Services Session Broker
 
 Terminal Services Session Broker (TS Session Broker) determines whether a user who initiates a connection has a session open already. If so, TS Session Broker routes the incoming connection to the Remote Desktop Session Host (RD Session Host) server with the existing session. If not, TS Session Broker routes the incoming connection to the RD Session Host server with the fewest sessions.
 
-You can extend TS Session Broker by using the [**IWTSSBPlugin**](iwtssbplugin.md) COM interface. You can use this interface to manage connections to RD Session Host servers as well as any kind of Remote Desktop Protocol (RDP) connection, for example, connections to guest virtual machines that are running Windows Vista Enterprise Centralized Desktop (VECD) on a Windows Server 2008 Hyper-V virtual machine host.
+You can extend TS Session Broker by using the [**IWTSSBPlugin**](/windows/win32/Tssbx/nn-tssbx-iwtssbplugin?branch=master) COM interface. You can use this interface to manage connections to RD Session Host servers as well as any kind of Remote Desktop Protocol (RDP) connection, for example, connections to guest virtual machines that are running Windows Vista Enterprise Centralized Desktop (VECD) on a Windows Server 2008 Hyper-V virtual machine host.
 
-The [**IWTSSBPlugin**](iwtssbplugin.md) interface offers several benefits:
+The [**IWTSSBPlugin**](/windows/win32/Tssbx/nn-tssbx-iwtssbplugin?branch=master) interface offers several benefits:
 
 -   It is not necessary to install an agent on the client or the RD Session Host server.
 -   The plug-in can interact seamlessly with other Remote Desktop Services role services, such as Remote Desktop Gateway (RD Gateway), and rely on information from TS Session Broker about session and computer states.
@@ -37,7 +40,7 @@ For more information about Dcomcnfg.exe, see [Enabling COM Security Using DCOMCN
 
 <dl> <dt>
 
-[**IWTSSBPlugin**](iwtssbplugin.md)
+[**IWTSSBPlugin**](/windows/win32/Tssbx/nn-tssbx-iwtssbplugin?branch=master)
 </dt> </dl>
 
  

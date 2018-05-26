@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when an in-air packet is seen.'
-ms.assetid: '30bc423d-0642-4515-9e51-a8b8b36aecad'
-title: 'InkPicture.NewInAirPackets event'
+Description: Occurs when an in-air packet is seen.
+ms.assetid: 30bc423d-0642-4515-9e51-a8b8b36aecad
+title: InkPicture.NewInAirPackets event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture.NewInAirPackets event
@@ -13,9 +18,9 @@ Occurs when an in-air packet is seen.
 
 ```C++
 void NewInAirPackets(
-  [in]      IInkCursor *Cursor,
-  [in]      long       PacketCount,
-  [in, out] VARIANT    *PacketData
+  [in]      IInkCursor *Cursor,
+  [in]      long       PacketCount,
+  [in, out] VARIANT    *PacketData
 );
 ```
 
@@ -28,7 +33,7 @@ void NewInAirPackets(
 *Cursor* \[in\]
 </dt> <dd>
 
-The [**IInkCursor**](iinkcursor.md) object that generated the **NewInAirPackets** event.
+The [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object that generated the **NewInAirPackets** event.
 
 </dd> <dt>
 
@@ -60,12 +65,12 @@ This event method is defined in the **\_IInkCollectorEvents**, **\_IInkOverlayEv
 
 The **NewInAirPackets** event is fired even when in select or erase mode, not just when inserting ink. This requires that you monitor the editing mode (which you are responsible for setting) and be aware of the mode before interpreting the event. The advantage of this requirement is greater freedom to innovate on the platform through greater awareness of platform events.
 
-To set which properties are contained in this array, use the [**DesiredPacketDescription**](inkpicture-desiredpacketdescription.md) property of the ink collector object. The array that the *PacketData* parameter returns contains the data for those properties.
+To set which properties are contained in this array, use the [**DesiredPacketDescription**](/windows/win32/msinkaut/?branch=master) property of the ink collector object. The array that the *PacketData* parameter returns contains the data for those properties.
 
 > [!Note]  
 > Although you can modify the packet data, these modifications are not persisted or used.
 
- 
+ 
 
 ## Requirements
 
@@ -73,7 +78,7 @@ To set which properties are contained in this array, use the [**DesiredPacketDes
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -87,18 +92,18 @@ To set which properties are contained in this array, use the [**DesiredPacketDes
 [InkPicture](inkpicture-control-reference.md)
 </dt> <dt>
 
-[**DesiredPacketDescription Property**](inkpicture-desiredpacketdescription.md)
+[**DesiredPacketDescription Property**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
 [**NewPackets Event**](inkpicture-newpackets.md)
 </dt> <dt>
 
-[**IInkCursor Interface**](iinkcursor.md)
+[**IInkCursor Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

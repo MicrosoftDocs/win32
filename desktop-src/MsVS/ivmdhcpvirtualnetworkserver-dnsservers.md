@@ -1,8 +1,13 @@
 ---
 title: IVMDHCPVirtualNetworkServer DNSServers property
-description: The DNSServers property contains a comma-separated list of the TCP/IP address representing DNS servers. The list of DNS servers is returned to the DHCP client as part of the server's response.
-ms.assetid: 'e5bae77a-d411-4c19-8b59-1f4fe9ec9176'
-keywords: ["DNSServers property Virtual Server", "DNSServers property Virtual Server , IVMDHCPVirtualNetworkServer interface", "IVMDHCPVirtualNetworkServer interface Virtual Server , DNSServers property", "DNSServers property Virtual Server , VMDHCPVirtualNetworkServer interface", "VMDHCPVirtualNetworkServer interface Virtual Server , DNSServers property"]
+description: The DNSServers property contains a comma-separated list of the TCP/IP address representing DNS servers. The list of DNS servers is returned to the DHCP client as part of the servers response.
+ms.assetid: e5bae77a-d411-4c19-8b59-1f4fe9ec9176
+keywords:
+- DNSServers property Virtual Server
+- DNSServers property Virtual Server , IVMDHCPVirtualNetworkServer interface
+- IVMDHCPVirtualNetworkServer interface Virtual Server , DNSServers property
+- DNSServers property Virtual Server , VMDHCPVirtualNetworkServer interface
+- VMDHCPVirtualNetworkServer interface Virtual Server , DNSServers property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDHCPVirtualNetworkServer::DNSServers property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_DNSServers(
-  [in]  BSTR dnsServers
+  [in]  BSTR dnsServers
 );
 
 HRESULT get_DNSServers(
-  [out] BSTR *dnsServers
+  [out] BSTR *dnsServers
 );
 ```
 
@@ -84,8 +94,8 @@ This property value is read/write.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -97,9 +107,9 @@ This property value is read/write.
 [**IVMDHCPVirtualNetworkServer**](ivmdhcpvirtualnetworkserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

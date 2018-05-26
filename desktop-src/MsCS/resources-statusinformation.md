@@ -4,17 +4,21 @@ description: Contains information about the status of the resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'D487754E-3B54-4DE4-AF5A-2B0CA58EE718'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: D487754E-3B54-4DE4-AF5A-2B0CA58EE718
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["StatusInformation Failover Cluster"]
+keywords:
+- StatusInformation Failover Cluster
 topic_type:
 - apiref
 api_name:
 - StatusInformation
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StatusInformation
@@ -27,14 +31,14 @@ Contains information about the status of the resource.
 |----------------------|-------------------------------------------------------------------------|
 | Data type<br/> | Long unsigned integer<br/>                                        |
 | Access<br/>    | [Read-only](read-only-properties.md)<br/>                        |
-| Structure<br/> | [**CLUSPROP\_ULARGE\_INTEGER**](clusprop-ularge-integer.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_ULARGE\_INTEGER**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_ularge_integer?branch=master)<br/> |
 | Minimum<br/>   | 0 (0x0000000000000000)<br/>                                       |
 | Maximum<br/>   | 31 (0x000000000000001F)<br/>                                      |
 | Default<br/>   | 0<br/>                                                            |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,7 +86,7 @@ The resource has failed because of insufficient generic resources.
 
 The resource has a network failure.
 
-**Windows Server 2012:** This value is not supported until Windows Server 2012 R2.
+**Windows Server 2012:** This value is not supported until Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -91,7 +95,7 @@ The resource has a network failure.
 
 The resource is no longer a member of a cluster.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This value is not supported until Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This value is not supported until Windows Server 2016.
 
 </dd> <dt>
 
@@ -100,7 +104,7 @@ The resource is no longer a member of a cluster.
 
 The heartbeat is functioning.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This value is not supported until Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This value is not supported until Windows Server 2016.
 
 </dd> <dt>
 
@@ -109,7 +113,7 @@ The heartbeat is functioning.
 
 The application is ready.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This value is not supported until Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This value is not supported until Windows Server 2016.
 
 </dd> </dl>
 
@@ -120,7 +124,7 @@ The application is ready.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -131,9 +135,9 @@ The application is ready.
 [Resource Common Properties](resource-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

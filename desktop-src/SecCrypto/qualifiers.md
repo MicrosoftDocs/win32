@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a collection of qualifiers.'
-ms.assetid: 'aa5e2225-0a39-40bc-868c-d96f5953edaa'
+---
+Description: Represents a collection of qualifiers.
+ms.assetid: aa5e2225-0a39-40bc-868c-d96f5953edaa
 title: Qualifiers object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Qualifiers object

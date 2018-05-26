@@ -1,13 +1,31 @@
 ---
 title: General MCI Errors
 description: General MCI Errors
-ms.assetid: 'be9c4a2b-44bc-410c-be74-ba55bb4e785b'
-keywords: ["MCIERR return values,general errors", "multimedia reference,MCI errors", "reference for multimedia,MCI errors", "Media Control Interface (MCI),general errors", "MCI (Media Control Interface),general errors", "reference for MCI,general errors", "MCI reference,general errors", "Media Control Interface (MCI),errors", "MCI (Media Control Interface),errors", "reference for MCI,errors", "MCI reference,errors", "mciSendCommand function", "mciSendString function"]
+ms.assetid: be9c4a2b-44bc-410c-be74-ba55bb4e785b
+keywords:
+- MCIERR return values,general errors
+- multimedia reference,MCI errors
+- reference for multimedia,MCI errors
+- Media Control Interface (MCI),general errors
+- MCI (Media Control Interface),general errors
+- reference for MCI,general errors
+- MCI reference,general errors
+- Media Control Interface (MCI),errors
+- MCI (Media Control Interface),errors
+- reference for MCI,errors
+- MCI reference,errors
+- mciSendCommand function
+- mciSendString function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General MCI Errors
 
-The following error values can be returned by either the [**mciSendCommand**](mcisendcommand.md) or [**mciSendString**](mcisendstring.md) function:
+The following error values can be returned by either the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) or [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function:
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Sequence method of the Session object opens a query on the specified table, ordering the actions by the numbers in the Sequence column.'
-ms.assetid: 'cde735b0-0b97-4c4f-adfc-f0321aafb012'
-title: 'Session.Sequence method'
+---
+Description: The Sequence method of the Session object opens a query on the specified table, ordering the actions by the numbers in the Sequence column.
+ms.assetid: cde735b0-0b97-4c4f-adfc-f0321aafb012
+title: Session.Sequence method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session.Sequence method

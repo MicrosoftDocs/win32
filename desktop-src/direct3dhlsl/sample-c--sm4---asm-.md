@@ -1,7 +1,12 @@
 ---
 title: sample\_c (sm4 - asm)
 description: Performs a comparison filter.
-ms.assetid: '59786ED2-48FB-494E-A5A4-F732D63BF01B'
+ms.assetid: 59786ED2-48FB-494E-A5A4-F732D63BF01B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sample\_c (sm4 - asm)
@@ -15,7 +20,7 @@ Performs a comparison filter.
 
 
 
- 
+ 
 
 
 
@@ -29,7 +34,7 @@ Performs a comparison filter.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,7 +72,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -86,7 +91,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -95,9 +100,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'Each service executes in the security context of a user account.'
-ms.assetid: 'a0e48918-6957-4288-a188-d65198b38c16'
+Description: Each service executes in the security context of a user account.
+ms.assetid: a0e48918-6957-4288-a188-d65198b38c16
 title: Service User Accounts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service User Accounts
 
-Each service executes in the security context of a user account. The user name and password of an account are specified by the [**CreateService**](createservice.md) function at the time the service is installed. The user name and password can be changed by using the [**ChangeServiceConfig**](changeserviceconfig.md) function. You can use the [**QueryServiceConfig**](queryserviceconfig.md) function to get the user name (but not the password) associated with a service object. The service control manager (SCM) automatically loads the user profile.
+Each service executes in the security context of a user account. The user name and password of an account are specified by the [**CreateService**](/windows/win32/Winsvc/nf-winsvc-createservicea?branch=master) function at the time the service is installed. The user name and password can be changed by using the [**ChangeServiceConfig**](/windows/win32/Winsvc/nf-winsvc-changeserviceconfiga?branch=master) function. You can use the [**QueryServiceConfig**](/windows/win32/Winsvc/nf-winsvc-queryserviceconfiga?branch=master) function to get the user name (but not the password) associated with a service object. The service control manager (SCM) automatically loads the user profile.
 
 When starting a service, the SCM logs on to the account associated with the service. If the log on is successful, the system produces an access token and attaches it to the new service process. This token identifies the service process in all subsequent interactions with securable objects (objects that have a security descriptor associated with them). For example, if the service tries to open a handle to a pipe, the system compares the service's access token to the pipe's security descriptor before granting access.
 

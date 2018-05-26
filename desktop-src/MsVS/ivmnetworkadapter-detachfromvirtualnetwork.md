@@ -1,8 +1,13 @@
 ---
 title: IVMNetworkAdapter DetachFromVirtualNetwork method
 description: The DetachFromVirtualNetwork method detaches the virtual NIC from its virtual network.
-ms.assetid: '814f6ea4-48e6-4d15-a657-52f88e7fd389'
-keywords: ["DetachFromVirtualNetwork method Virtual Server", "DetachFromVirtualNetwork method Virtual Server , IVMNetworkAdapter interface", "IVMNetworkAdapter interface Virtual Server , DetachFromVirtualNetwork method", "DetachFromVirtualNetwork method Virtual Server , VMNetworkAdapter interface", "VMNetworkAdapter interface Virtual Server , DetachFromVirtualNetwork method"]
+ms.assetid: 814f6ea4-48e6-4d15-a657-52f88e7fd389
+keywords:
+- DetachFromVirtualNetwork method Virtual Server
+- DetachFromVirtualNetwork method Virtual Server , IVMNetworkAdapter interface
+- IVMNetworkAdapter interface Virtual Server , DetachFromVirtualNetwork method
+- DetachFromVirtualNetwork method Virtual Server , VMNetworkAdapter interface
+- VMNetworkAdapter interface Virtual Server , DetachFromVirtualNetwork method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMNetworkAdapter::DetachFromVirtualNetwork method
@@ -44,7 +54,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -52,8 +62,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -65,9 +75,9 @@ This method can return one of these values.
 [**IVMNetworkAdapter**](ivmnetworkadapter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

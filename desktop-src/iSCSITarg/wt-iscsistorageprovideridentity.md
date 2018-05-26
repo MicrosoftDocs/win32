@@ -4,13 +4,15 @@ description: This class supports the iSCSIStorageProviderIdentity noun.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4f0c42e5-9288-4cdf-880e-0a34deacfbd8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4f0c42e5-9288-4cdf-880e-0a34deacfbd8
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WT_iSCSIStorageProviderIdentity class iSCSI Software Target API", "WT_iSCSIStorageProviderIdentity class iSCSI Software Target API , described"]
+keywords:
+- WT_iSCSIStorageProviderIdentity class iSCSI Software Target API
+- WT_iSCSIStorageProviderIdentity class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - StrgPrvdMgmt.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WT\_iSCSIStorageProviderIdentity class
@@ -54,7 +59,7 @@ The **WT\_iSCSIStorageProviderIdentity** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,7 +68,7 @@ The **WT\_iSCSIStorageProviderIdentity** class has these methods.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>StrgPrvdMgmt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>StrgPrvdMgmt.dll</dt> </dl> |
@@ -77,9 +82,9 @@ The **WT\_iSCSIStorageProviderIdentity** class has these methods.
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

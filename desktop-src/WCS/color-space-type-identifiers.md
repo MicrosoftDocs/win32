@@ -1,7 +1,7 @@
 ---
 title: Color Space Type Identifiers
 description: These constants specify the type of a Postscript 2 color space array. The following values are valid color space array types.
-ms.assetid: 'dc312db2-3bc5-461f-819c-37ff14cff896'
+ms.assetid: dc312db2-3bc5-461f-819c-37ff14cff896
 topic_type:
 - apiref
 api_name:
@@ -15,6 +15,11 @@ api_name:
 - CSA_CMYK
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Space Type Identifiers

@@ -1,7 +1,12 @@
-﻿---
-Description: 'A print processor''s ClosePrintProcessor function completes the printing of a print job and makes the associated handle invalid.'
-ms.assetid: '3cf87a18-8b5a-40f2-9c0e-2b29167e283d'
+---
+Description: A print processors ClosePrintProcessor function completes the printing of a print job and makes the associated handle invalid.
+ms.assetid: 3cf87a18-8b5a-40f2-9c0e-2b29167e283d
 title: ClosePrintProcessor function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClosePrintProcessor function

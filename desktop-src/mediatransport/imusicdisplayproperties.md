@@ -1,8 +1,10 @@
 ---
 title: IMusicDisplayProperties interface
 description: Provides properties for music information that is displayed by ISystemMediaTransportControlsDisplayUpdater.
-ms.assetid: '72132600-839C-4411-9A0A-31CAD340847C'
-keywords: ["IMusicDisplayProperties interface", "IMusicDisplayProperties interface, described"]
+ms.assetid: 72132600-839C-4411-9A0A-31CAD340847C
+keywords:
+- IMusicDisplayProperties interface
+- IMusicDisplayProperties interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Windows.Media.SystemMediaTransportControls.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMusicDisplayProperties interface
@@ -40,7 +47,7 @@ The **IMusicDisplayProperties** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -48,8 +55,8 @@ The **IMusicDisplayProperties** interface has these methods.
 
 |                                     |                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Windows.Media.SystemMediaTransportControls.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows.Media.SystemMediaTransportControls.idl</dt> </dl> |
 
@@ -62,9 +69,9 @@ The **IMusicDisplayProperties** interface has these methods.
 [**IInspectable**](https://msdn.microsoft.com/library/windows/desktop/br205821)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

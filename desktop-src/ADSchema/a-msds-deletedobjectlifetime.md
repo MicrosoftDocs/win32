@@ -4,17 +4,22 @@ description: Lifetime of a deleted object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e06e66d2-5240-4509-9bfb-f20091db7481'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e06e66d2-5240-4509-9bfb-f20091db7481
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Deleted-Object-Lifetime attribute AD Schema", "msDS-DeletedObjectLifetime attribute AD Schema"]
+keywords:
+- ms-DS-Deleted-Object-Lifetime attribute AD Schema
+- msDS-DeletedObjectLifetime attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Deleted-Object-Lifetime
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Deleted-Object-Lifetime attribute
@@ -38,8 +43,8 @@ Lifetime of a deleted object.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ Lifetime of a deleted object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

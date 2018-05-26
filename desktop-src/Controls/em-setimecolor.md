@@ -1,8 +1,9 @@
 ---
 title: EM\_SETIMECOLOR message
 description: Sets the Input Method Editor (IME) composition color for a rich edit control.
-ms.assetid: 'ea5449c9-7d0f-4340-8e3e-1e0b77d443f6'
-keywords: ["EM_SETIMECOLOR message Windows Controls"]
+ms.assetid: ea5449c9-7d0f-4340-8e3e-1e0b77d443f6
+keywords:
+- EM_SETIMECOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETIMECOLOR message
@@ -18,9 +24,9 @@ api_type:
 Sets the Input Method Editor (IME) composition color for a rich edit control.
 
 > [!Note]  
-> This message is supported only in Asian-language versions of Microsoft Rich Edit 1.0. It is not supported in any later versions.
+> This message is supported only in Asian-language versions of Microsoft Rich Edit 1.0. It is not supported in any later versions.
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**COMPCOLOR**](compcolor.md) structure that contains the composition color to be set.
+Pointer to a [**COMPCOLOR**](/windows/win32/Richedit/ns-richedit-_compcolor?branch=master) structure that contains the composition color to be set.
 
 </dd> </dl>
 
@@ -52,8 +58,8 @@ If the operation fails, the return value is zero.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -68,12 +74,12 @@ If the operation fails, the return value is zero.
 [**EM\_GETIMECOLOR**](em-getimecolor.md)
 </dt> <dt>
 
-[**COMPCOLOR**](compcolor.md)
+[**COMPCOLOR**](/windows/win32/Richedit/ns-richedit-_compcolor?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

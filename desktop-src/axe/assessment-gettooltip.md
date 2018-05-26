@@ -1,8 +1,11 @@
 ---
 title: Assessment GetToolTip method
 description: Retrieve the short description of the assessment.
-ms.assetid: 'AFDB69EB-B978-4592-ADD3-433AB5892610'
-keywords: ["GetToolTip method Access Execution Engine", "GetToolTip method Access Execution Engine , Assessment interface", "Assessment interface Access Execution Engine , GetToolTip method"]
+ms.assetid: AFDB69EB-B978-4592-ADD3-433AB5892610
+keywords:
+- GetToolTip method Access Execution Engine
+- GetToolTip method Access Execution Engine , Assessment interface
+- Assessment interface Access Execution Engine , GetToolTip method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assessment::GetToolTip method
@@ -22,7 +30,7 @@ Retrieve the short description of the assessment.
 
 ```C++
 virtual HRESULT GetToolTip(
-  [out, optional] LPCWSTR *toolTip
+  [out, optional] LPCWSTR *toolTip
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ Managed code uses the [**Assessment.ToolTip \| toolTip property**](axe-assessmen
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ Managed code uses the [**Assessment.ToolTip \| toolTip property**](axe-assessmen
 [**Assessment**](assessment-inf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

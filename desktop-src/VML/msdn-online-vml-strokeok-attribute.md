@@ -1,7 +1,12 @@
 ---
 title: VML StrokeOK Attribute
 description: VML StrokeOK Attribute
-ms.assetid: 'f150f87b-1ed9-4c53-bf7f-ebe1e81642fd'
+ms.assetid: f150f87b-1ed9-4c53-bf7f-ebe1e81642fd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML StrokeOK Attribute

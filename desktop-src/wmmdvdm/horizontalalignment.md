@@ -1,14 +1,20 @@
 ---
 title: HorizontalAlignment element
 description: Indicates the horizontal alignment of the specified text object.
-ms.assetid: 'c38f8836-099e-48a6-8f87-394f38ae453b'
-keywords: ["HorizontalAlignment element Windows Movie Maker and DVD Maker"]
+ms.assetid: c38f8836-099e-48a6-8f87-394f38ae453b
+keywords:
+- HorizontalAlignment element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - HorizontalAlignment
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HorizontalAlignment element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -57,9 +63,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

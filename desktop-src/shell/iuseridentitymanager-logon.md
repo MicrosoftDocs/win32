@@ -1,7 +1,12 @@
-﻿---
-Description: 'IUserIdentityManager::Logon is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.'
-ms.assetid: 'ba146ee1-6c9c-4f97-ae90-431aa084ea16'
-title: 'IUserIdentityManager::Logon method'
+---
+Description: IUserIdentityManagerLogon is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+ms.assetid: ba146ee1-6c9c-4f97-ae90-431aa084ea16
+title: IUserIdentityManagerLogon method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IUserIdentityManager::Logon method

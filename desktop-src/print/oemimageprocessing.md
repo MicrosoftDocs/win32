@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMImageProcessing function
-ms.assetid: '965e17bc-2a38-4caa-a0dd-41ee1e1198f0'
+ms.assetid: 965e17bc-2a38-4caa-a0dd-41ee1e1198f0
 title: OEMImageProcessing function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMImageProcessing function

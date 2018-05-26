@@ -1,7 +1,12 @@
 ---
-Description: 'The GetControlState method retrieves the state of the capture, which indicates if the capture is running or paused.'
-ms.assetid: '21b7faaa-591f-4e15-b4e9-453ea690ab4a'
-title: 'IDelaydC::GetControlState method'
+Description: The GetControlState method retrieves the state of the capture, which indicates if the capture is running or paused.
+ms.assetid: 21b7faaa-591f-4e15-b4e9-453ea690ab4a
+title: IDelaydCGetControlState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDelaydC::GetControlState method
@@ -13,8 +18,8 @@ The **GetControlState** method retrieves the state of the [*capture*](c.md#-netm
 
 ```C++
 HRESULT STDMETHODCALLTYPE GetControlState(
-  [out] BOOL *IsRunnning,
-  [out] BOOL *IsPaused
+  [out] BOOL *IsRunnning,
+  [out] BOOL *IsPaused
 );
 ```
 
@@ -53,7 +58,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,8 +72,8 @@ The methods used to start, pause, and, stop the capture are listed in the See Al
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -93,9 +98,9 @@ The methods used to start, pause, and, stop the capture are listed in the See Al
 [IDelaydC::Stop](idelaydc-stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

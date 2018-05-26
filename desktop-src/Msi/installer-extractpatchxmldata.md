@@ -1,12 +1,17 @@
-﻿---
-Description: 'The ExtractPatchXMLData method of the Installer object extracts information from a patch as an XML string. The information can be used to determine whether the patch applies on a target system. This method calls MsiExtractPatchXMLData.'
-ms.assetid: '85940940-2002-4cb1-8e29-ba2374bf3796'
-title: 'Installer.ExtractPatchXMLData method'
+---
+Description: The ExtractPatchXMLData method of the Installer object extracts information from a patch as an XML string. The information can be used to determine whether the patch applies on a target system. This method calls MsiExtractPatchXMLData.
+ms.assetid: 85940940-2002-4cb1-8e29-ba2374bf3796
+title: Installer.ExtractPatchXMLData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ExtractPatchXMLData method
 
-The **ExtractPatchXMLData** method of the [**Installer**](installer-object.md) object extracts information from a patch as an XML string. The information can be used to determine whether the patch applies on a target system. This method calls [**MsiExtractPatchXMLData**](msiextractpatchxmldata.md).
+The **ExtractPatchXMLData** method of the [**Installer**](installer-object.md) object extracts information from a patch as an XML string. The information can be used to determine whether the patch applies on a target system. This method calls [**MsiExtractPatchXMLData**](/windows/win32/Msi/nf-msi-msiextractpatchxmldataa?branch=master).
 
 ## Syntax
 
@@ -50,7 +55,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**MsiExtractPatchXMLData**](msiextractpatchxmldata.md)
+[**MsiExtractPatchXMLData**](/windows/win32/Msi/nf-msi-msiextractpatchxmldataa?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

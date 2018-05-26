@@ -2,7 +2,13 @@
 title: Interface Definition (IDL) File
 description: By convention, the file that contains interface and type library definitions is called an IDL file, and has an .idl file name extension.
 ms.assetid: 4df87df8-3206-4845-b5ab-d77ea443b9e3
-keywords: ["interfaces MIDL , IDL file"]
+keywords:
+- interfaces MIDL , IDL file
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interface Definition (IDL) File

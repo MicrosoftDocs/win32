@@ -4,13 +4,16 @@ description: Import an existing VHD or SCSI device as a iSCSI virtual disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e0d3a11d-a999-4bb9-9838-12e236c6a477'
-ms.prod: 'windows-server-dev'
+ms.assetid: e0d3a11d-a999-4bb9-9838-12e236c6a477
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ImportWTDisk method iSCSI Software Target API", "ImportWTDisk method iSCSI Software Target API , WT_Disk class", "WT_Disk class iSCSI Software Target API , ImportWTDisk method"]
+keywords:
+- ImportWTDisk method iSCSI Software Target API
+- ImportWTDisk method iSCSI Software Target API , WT_Disk class
+- WT_Disk class iSCSI Software Target API , ImportWTDisk method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ImportWTDisk method of the WT\_Disk class
@@ -30,9 +36,9 @@ Import an existing VHD or SCSI device as a iSCSI virtual disk.
 
 ```mof
 WT_Disk ImportWTDisk(
-  [in] string DevicePath,
-  [in] string Description,
-  [in] string ResourceGroup
+  [in] string DevicePath,
+  [in] string Description,
+  [in] string ResourceGroup
 );
 ```
 
@@ -70,7 +76,7 @@ Cluster resource group name (only needed to import a SCSI device in a cluster).
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                            |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>Wmiwtprovider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
@@ -84,9 +90,9 @@ Cluster resource group name (only needed to import a SCSI device in a cluster).
 [**WT\_Disk**](wt-disk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

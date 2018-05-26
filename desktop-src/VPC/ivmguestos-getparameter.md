@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS GetParameter method
 description: Retrieves a named parameter within the guest operating system.
-ms.assetid: 'd4d5acbd-fa19-4eb2-af75-2c94e5f6f7f0'
-keywords: ["GetParameter method Virtual PC", "GetParameter method Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , GetParameter method"]
+ms.assetid: d4d5acbd-fa19-4eb2-af75-2c94e5f6f7f0
+keywords:
+- GetParameter method Virtual PC
+- GetParameter method Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , GetParameter method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::GetParameter method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves a named parameter within the guest operating system.
 
@@ -24,8 +32,8 @@ Retrieves a named parameter within the guest operating system.
 
 ```C++
 HRESULT GetParameter(
-  [in]          BSTR inParameterName,
-  [out, retval] BSTR *outParameterValue
+  [in]          BSTR inParameterName,
+  [out, retval] BSTR *outParameterValue
 );
 ```
 
@@ -68,7 +76,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -91,9 +99,9 @@ When the guest operating system starts, the following registry string values are
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
@@ -107,9 +115,9 @@ When the guest operating system starts, the following registry string values are
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

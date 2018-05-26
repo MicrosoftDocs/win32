@@ -1,7 +1,12 @@
 ---
 title: CGuiPaper Methods
-description: CGuiPaper's methods are summarized as follows. These methods are all implemented in GUIPAPER.CPP.
-ms.assetid: '965a60d4-2737-4a2d-8790-bee70bceaeeb'
+description: CGuiPapers methods are summarized as follows. These methods are all implemented in GUIPAPER.CPP.
+ms.assetid: 965a60d4-2737-4a2d-8790-bee70bceaeeb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGuiPaper Methods

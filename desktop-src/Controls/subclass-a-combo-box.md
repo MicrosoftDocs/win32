@@ -1,7 +1,12 @@
 ---
 title: How to Subclass a Combo Box
 description: This topic demonstrates how to subclass combo boxes.
-ms.assetid: '9897EA94-1BF7-4711-AED6-5E9C863C287A'
+ms.assetid: 9897EA94-1BF7-4711-AED6-5E9C863C287A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Subclass a Combo Box

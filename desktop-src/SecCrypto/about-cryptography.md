@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections provide information about cryptography.'
-ms.assetid: 'c0ac4b88-ae20-412a-8889-a4228dc54b53'
+Description: The following sections provide information about cryptography.
+ms.assetid: c0ac4b88-ae20-412a-8889-a4228dc54b53
 title: About Cryptography
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Cryptography

@@ -1,8 +1,10 @@
 ---
 title: VideoPreview object
 description: Displays the video stream of a video imaging device. A VideoPreview object can be created by dropping the VideoPreview control on a form or by using an OBJECT tag. The VideoPreview control is a visible control.
-ms.assetid: 'c6f1f61d-2edc-4820-8567-fc3e94c7d4f6'
-keywords: ["VideoPreview object WIA Automation", "VideoPreview object WIA Automation , described"]
+ms.assetid: c6f1f61d-2edc-4820-8567-fc3e94c7d4f6
+keywords:
+- VideoPreview object WIA Automation
+- VideoPreview object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VideoPreview object
@@ -36,7 +43,7 @@ The **VideoPreview** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -50,8 +57,8 @@ For example code, see [Use VideoPreview Control in HTML](-wiaaut-shared-samples.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -64,9 +71,9 @@ For example code, see [Use VideoPreview Control in HTML](-wiaaut-shared-samples.
 [**Pause**](-wiaaut-ivideopreview-pause.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

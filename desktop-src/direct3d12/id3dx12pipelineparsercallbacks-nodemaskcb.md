@@ -1,8 +1,11 @@
 ---
 title: ID3DX12PipelineParserCallbacks NodemaskCb method
 description: Calls the nodemask subobject callback of an object that implements this interface.
-ms.assetid: 'F5A408B7-A777-4BBC-A2A3-1BC3551E65ED'
-keywords: ["NodemaskCb method", "NodemaskCb method, ID3DX12PipelineParserCallbacks interface", "ID3DX12PipelineParserCallbacks interface, NodemaskCb method"]
+ms.assetid: F5A408B7-A777-4BBC-A2A3-1BC3551E65ED
+keywords:
+- NodemaskCb method
+- NodemaskCb method, ID3DX12PipelineParserCallbacks interface
+- ID3DX12PipelineParserCallbacks interface, NodemaskCb method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX12PipelineParserCallbacks::NodemaskCb method
@@ -22,7 +30,7 @@ Calls the nodemask subobject callback of an object that implements this interfac
 
 ```C++
 void NodemaskCb(
-   
+   
         UINT
        Nodemask
 );
@@ -69,9 +77,9 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

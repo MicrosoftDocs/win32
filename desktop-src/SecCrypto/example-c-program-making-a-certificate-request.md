@@ -1,7 +1,12 @@
 ---
-Description: 'The following example demonstrates the procedure outlined in the previous section. This example creates a simple certificate request with one signer, a single relative distinguished name (RDN) attribute, and no general attributes.'
-ms.assetid: 'bd3d0259-f0e8-460e-9f18-95d2492da3d8'
-title: 'Example C Program: Making a Certificate Request'
+Description: The following example demonstrates the procedure outlined in the previous section. This example creates a simple certificate request with one signer, a single relative distinguished name (RDN) attribute, and no general attributes.
+ms.assetid: bd3d0259-f0e8-460e-9f18-95d2492da3d8
+title: Example C Program Making a Certificate Request
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Making a Certificate Request
@@ -10,10 +15,10 @@ The following example demonstrates the procedure outlined in the previous sectio
 
 This example illustrates the following [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
--   [**CryptEncodeObject**](cryptencodeobject.md)
--   [**CryptAcquireContext**](cryptacquirecontext.md)
--   [**CryptExportPublicKeyInfo**](cryptexportpublickeyinfo.md)
--   [**CryptSignAndEncodeCertificate**](cryptsignandencodecertificate.md)
+-   [**CryptEncodeObject**](/windows/win32/Wincrypt/nf-wincrypt-cryptencodeobject?branch=master)
+-   [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master)
+-   [**CryptExportPublicKeyInfo**](/windows/win32/Wincrypt/nf-wincrypt-cryptexportpublickeyinfo?branch=master)
+-   [**CryptSignAndEncodeCertificate**](/windows/win32/Wincrypt/nf-wincrypt-cryptsignandencodecertificate?branch=master)
 
 This example also uses the functions [**ByteToStr**](bytetostr.md) and [**MyHandleError**](myhandleerror.md). Code for these functions is included with the sample. [General Purpose Functions](general-purpose-functions.md) lists code for these and other auxiliary functions.
 

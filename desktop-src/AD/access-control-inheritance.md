@@ -4,10 +4,13 @@ description: Access-control entries (ACEs) in an object access-control list (ACL
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2530eef5-7804-4b27-8756-d97be1cea116'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2530eef5-7804-4b27-8756-d97be1cea116
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Access Control Inheritance
@@ -31,7 +34,7 @@ Three inheritance-control flags can be set in the [**AceFlags**](https://msdn.mi
 
 
 
- 
+ 
 
 The **ADS\_ACEFLAG\_NO\_PROPAGATE\_INHERIT\_ACE** and **ADS\_ACEFLAG\_INHERIT\_ONLY\_ACE** flags are meaningful only if **ADS\_ACEFLAG\_INHERIT\_ACE** is present. This is because the **ADS\_ACEFLAG\_INHERIT\_ACE** flag adds inheritance behavior to an inheritable ACE, but does not define the type of inheritance. The **ADS\_ACEFLAG\_NO\_PROPAGATE\_INHERIT\_ACE** and **ADS\_ACEFLAG\_INHERIT\_ONLY\_ACE** flags define a specific type of inheritance behavior.
 
@@ -46,7 +49,7 @@ It is important to remember that the system also sets the following flags based 
 
 
 
- 
+ 
 
 The following table lists the effects of the different flag combinations for the [**AceFlags**](https://msdn.microsoft.com/library/aa705952) property of an ACE.
 
@@ -62,11 +65,11 @@ The following table lists the effects of the different flag combinations for the
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

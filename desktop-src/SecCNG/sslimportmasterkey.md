@@ -1,7 +1,12 @@
 ---
-Description: 'Performs a server-side Secure Sockets Layer protocol (SSL) key exchange operation.'
-ms.assetid: '052e38ee-658c-47dc-8098-c9a1fd359e1c'
+Description: Performs a server-side Secure Sockets Layer protocol (SSL) key exchange operation.
+ms.assetid: 052e38ee-658c-47dc-8098-c9a1fd359e1c
 title: SslImportMasterKey function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslImportMasterKey function
@@ -13,15 +18,15 @@ The **SslImportMasterKey** function performs a server-side [*Secure Sockets Laye
 
 ```C++
 SECURITY_STATUS WINAPI SslImportMasterKey(
-  _In_  NCRYPT_PROV_HANDLE hSslProvider,
-  _In_  NCRYPT_KEY_HANDLE  hPrivateKey,
-  _Out_ NCRYPT_KEY_HANDLE  *phMasterKey,
-  _In_  DWORD              dwProtocol,
-  _In_  DWORD              dwCipherSuite,
-  _In_  PNCryptBufferDesc  pParameterList,
-  _In_  PBYTE              pbEncryptedKey,
-  _In_  DWORD              cbEncryptedKey,
-  _In_  DWORD              dwFlags
+  _In_  NCRYPT_PROV_HANDLE hSslProvider,
+  _In_  NCRYPT_KEY_HANDLE  hPrivateKey,
+  _Out_ NCRYPT_KEY_HANDLE  *phMasterKey,
+  _In_  DWORD              dwProtocol,
+  _In_  DWORD              dwCipherSuite,
+  _In_  PNCryptBufferDesc  pParameterList,
+  _In_  PBYTE              pbEncryptedKey,
+  _In_  DWORD              cbEncryptedKey,
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -112,7 +117,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -121,7 +126,7 @@ This function decrypts the premaster secret, computes the SSL master secret, and
 > [!Note]  
 > This function is used when the [*RSA*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-rsa-gly) key exchange algorithm is being used. When [*DH*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-dh-gly) is used, then the server code calls [**SslGenerateMasterKey**](sslgeneratemasterkey.md) instead.
 
- 
+ 
 
 ## Requirements
 
@@ -129,16 +134,16 @@ This function decrypts the premaster secret, computes the SSL master secret, and
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Certificate Services provides a set of functions which can be used to back up and restore the certificate services database files.'
-ms.assetid: '47e8f490-ecb2-4c41-8bf0-b673e173ddc6'
+Description: Certificate Services provides a set of functions which can be used to back up and restore the certificate services database files.
+ms.assetid: 47e8f490-ecb2-4c41-8bf0-b673e173ddc6
 title: Using the Certificate Services Backup and Restore Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Certificate Services Backup and Restore Functions

@@ -1,13 +1,21 @@
 ---
 title: Locating and Opening Compressors and Decompressors
 description: Locating and Opening Compressors and Decompressors
-ms.assetid: 'ed931f01-dbfc-4fdc-b725-c062302b037b'
-keywords: ["video compression manager (VCM),opening compressors", "VCM (video compression manager),opening compressors", "ICLocate function"]
+ms.assetid: ed931f01-dbfc-4fdc-b725-c062302b037b
+keywords:
+- video compression manager (VCM),opening compressors
+- VCM (video compression manager),opening compressors
+- ICLocate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Locating and Opening Compressors and Decompressors
 
-The following example uses the [**ICLocate**](iclocate.md) function to find a compressor that can compress an 8-bits-per-pixel bitmap.
+The following example uses the [**ICLocate**](/windows/win32/Vfw/nf-vfw-iclocate?branch=master) function to find a compressor that can compress an 8-bits-per-pixel bitmap.
 
 
 ```C++
@@ -31,7 +39,7 @@ hIC = ICLocate (ICTYPE_VIDEO, 0L, (LPBITMAPINFOHEADER) &amp;bih,
 
 
 
-The following example enumerates the decompressors in the system to find one that can handle the format of its images. This example uses **ICTYPE\_VIDEO** (which is equivalent to the "VIDC" four-character code) and the [**ICDecompressQuery**](icdecompressquery.md) macro to determine if a compressor or decompressor supports the image format.
+The following example enumerates the decompressors in the system to find one that can handle the format of its images. This example uses **ICTYPE\_VIDEO** (which is equivalent to the "VIDC" four-character code) and the [**ICDecompressQuery**](/windows/win32/Vfw/nf-vfw-icdecompressquery?branch=master) macro to determine if a compressor or decompressor supports the image format.
 
 
 ```C++

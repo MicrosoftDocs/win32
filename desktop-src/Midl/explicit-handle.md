@@ -2,13 +2,19 @@
 title: explicit\_handle attribute
 description: The \ explicit\_handle\ ACF attribute specifies that each procedure has, as its first parameter, a primitive handle, such as a handle\_t type.
 ms.assetid: c95d005e-dcc7-4d83-885d-91c0773c0ed8
-keywords: ["explicit_handle attribute MIDL"]
+keywords:
+- explicit_handle attribute MIDL
 topic_type:
 - apiref
 api_name:
 - explicit_handle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # explicit\_handle attribute

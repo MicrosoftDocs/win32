@@ -1,7 +1,12 @@
 ---
-Description: 'The Fax Service Client API supports changing fax routing and device configuration data.'
-ms.assetid: '784fdc0e-c664-4ea9-8a4f-0a0cd89c0d81'
+Description: The Fax Service Client API supports changing fax routing and device configuration data.
+ms.assetid: 784fdc0e-c664-4ea9-8a4f-0a0cd89c0d81
 title: Fax Device Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Device Management

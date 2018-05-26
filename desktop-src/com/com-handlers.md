@@ -1,7 +1,12 @@
 ---
 title: COM Handlers
 description: The purpose of COM handlers is to provide some \ 0034;smart \ 0034; code in the client address space that can optimize calls between a client and server. Handlers can override some interfaces while delegating others directly to the server (through the proxy).
-ms.assetid: '390b0228-4c52-453c-82d8-466600d23a04'
+ms.assetid: 390b0228-4c52-453c-82d8-466600d23a04
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Handlers

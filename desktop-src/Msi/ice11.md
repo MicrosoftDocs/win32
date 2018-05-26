@@ -1,7 +1,12 @@
 ---
-Description: 'The ICE11 is used with concurrent installations. Concurrent installations are not recommended for the installation of applications intended for release to the public. For information about concurrent installations please see Concurrent Installations.'
-ms.assetid: 'fbcc94fa-be94-4ad1-a3f0-ea7d50ee0a15'
+Description: The ICE11 is used with concurrent installations. Concurrent installations are not recommended for the installation of applications intended for release to the public. For information about concurrent installations please see Concurrent Installations.
+ms.assetid: fbcc94fa-be94-4ad1-a3f0-ea7d50ee0a15
 title: ICE11
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE11

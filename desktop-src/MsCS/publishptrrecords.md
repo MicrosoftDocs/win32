@@ -4,17 +4,22 @@ description: Determines if PTR resource records, apart from A or AAAA, are publi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4bc191f4-0d4d-479f-8e09-eb8a75f93ca7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4bc191f4-0d4d-479f-8e09-eb8a75f93ca7
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["PublishPTRRecords Failover Cluster , for Network Name properties", "PublishPTRRecords Failover Cluster"]
+keywords:
+- PublishPTRRecords Failover Cluster , for Network Name properties
+- PublishPTRRecords Failover Cluster
 topic_type:
 - apiref
 api_name:
 - PublishPTRRecords
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PublishPTRRecords
@@ -28,14 +33,14 @@ Determines if PTR resource records, apart from A or AAAA, are published for the 
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 1                                         |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -66,7 +71,7 @@ PublishPTRRecordsValue.dw        = PublishPTRRecordsData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -77,12 +82,12 @@ PublishPTRRecordsValue.dw        = PublishPTRRecordsData;
 [Cluster Name Private Properties](network-name-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

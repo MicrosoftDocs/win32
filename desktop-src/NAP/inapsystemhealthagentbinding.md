@@ -1,8 +1,10 @@
 ---
 title: INapSystemHealthAgentBinding interface
 description: The SHAs use to communicate with the NapAgent.
-ms.assetid: '9366f61f-086a-4f44-900e-9ec3165a35ba'
-keywords: ["INapSystemHealthAgentBinding interface NAP", "INapSystemHealthAgentBinding interface NAP , described"]
+ms.assetid: 9366f61f-086a-4f44-900e-9ec3165a35ba
+keywords:
+- INapSystemHealthAgentBinding interface NAP
+- INapSystemHealthAgentBinding interface NAP , described
 topic_type:
 - apiref
 api_name:
@@ -11,21 +13,26 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthAgentBinding interface
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSystemHealthAgentBinding** provides methods that the SHAs use to communicate with the NapAgent.
 
 > [!Note]  
 > [**INapSystemHealthAgentBinding2**](inapsystemhealthagentbinding2.md) inherits all the methods of this interface and should be used instead.
 
- 
+ 
 
 ## Members
 
@@ -49,7 +56,7 @@ The **INapSystemHealthAgentBinding** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,8 +68,8 @@ All the APIs in this interface will return **RPC\_E\_DISCONNECTED** if the NapAg
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapSystemHealthAgent.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthAgent.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -79,9 +86,9 @@ All the APIs in this interface will return **RPC\_E\_DISCONNECTED** if the NapAg
 [NAP Reference](nap-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

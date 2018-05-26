@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the allocator that created this sample.'
-ms.assetid: 'b4faccec-9124-4ae6-8662-ac5eb017328a'
-title: 'CMediaSample::m\_pAllocator member'
+Description: Pointer to the allocator that created this sample.
+ms.assetid: b4faccec-9124-4ae6-8662-ac5eb017328a
+title: CMediaSamplem\_pAllocator member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample::m\_pAllocator member
@@ -19,7 +24,7 @@ CBaseAllocator *m_pAllocator;
 
 ## Remarks
 
-Although the sample keeps a pointer to the allocator, it does not hold a reference count. Instead, the allocator increments its own reference count in the [**IMemAllocator::GetBuffer**](imemallocator-getbuffer.md) method, and releases itself in the [**IMemAllocator::ReleaseBuffer**](imemallocator-releasebuffer.md) method. This guarantees that the allocator will be available as long as another object is using the sample.
+Although the sample keeps a pointer to the allocator, it does not hold a reference count. Instead, the allocator increments its own reference count in the [**IMemAllocator::GetBuffer**](/windows/win32/Strmif/nf-strmif-imemallocator-getbuffer?branch=master) method, and releases itself in the [**IMemAllocator::ReleaseBuffer**](/windows/win32/Strmif/nf-strmif-imemallocator-releasebuffer?branch=master) method. This guarantees that the allocator will be available as long as another object is using the sample.
 
 ## Requirements
 
@@ -39,9 +44,9 @@ Although the sample keeps a pointer to the allocator, it does not hold a referen
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

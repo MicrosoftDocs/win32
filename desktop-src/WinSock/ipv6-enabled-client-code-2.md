@@ -1,7 +1,12 @@
 ---
-Description: 'The following code is the IP agnostic Client.c file, which is an IPv6-enabled version of the Simplec.c file.'
-ms.assetid: 'a68439cd-0b27-447b-9766-e661c32eee09'
-title: 'IPv6-Enabled Client Code'
+Description: The following code is the IP agnostic Client.c file, which is an IPv6-enabled version of the Simplec.c file.
+ms.assetid: a68439cd-0b27-447b-9766-e661c32eee09
+title: IPv6-Enabled Client Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPv6-Enabled Client Code

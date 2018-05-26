@@ -1,14 +1,20 @@
 ---
 title: RequiresBattery element
 description: If present then this assessment should only run on a system that has a battery.
-ms.assetid: '2CC06C1F-89C7-4879-9DD0-717EE17C96E2'
-keywords: ["RequiresBattery element Access Execution Engine"]
+ms.assetid: 2CC06C1F-89C7-4879-9DD0-717EE17C96E2
+keywords:
+- RequiresBattery element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RequiresBattery
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresBattery element
@@ -53,9 +59,9 @@ AXE will warn if a job is set for off-line mode and this attribute is set.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

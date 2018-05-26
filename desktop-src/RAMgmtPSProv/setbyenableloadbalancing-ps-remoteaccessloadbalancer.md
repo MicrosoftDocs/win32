@@ -2,13 +2,16 @@
 title: SetByEnableLoadBalancing method of the PS\_RemoteAccessLoadBalancer class
 description: This cmdlet does the following1.
 audience: developer
-ms.assetid: 'fedcfc25-e682-4aa8-86a7-1a946b7c6e44'
-ms.prod: 'windows-server-dev'
+ms.assetid: fedcfc25-e682-4aa8-86a7-1a946b7c6e44
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByEnableLoadBalancing method", "SetByEnableLoadBalancing method, PS_RemoteAccessLoadBalancer class", "PS_RemoteAccessLoadBalancer class, SetByEnableLoadBalancing method"]
+keywords:
+- SetByEnableLoadBalancing method
+- SetByEnableLoadBalancing method, PS_RemoteAccessLoadBalancer class
+- PS_RemoteAccessLoadBalancer class, SetByEnableLoadBalancing method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByEnableLoadBalancing method of the PS\_RemoteAccessLoadBalancer class
@@ -28,14 +34,14 @@ This cmdlet does the following1. Configures load balancing clusters on the inter
 
 ```mof
 uint32 SetByEnableLoadBalancing(
-  [in]  boolean                  UseThirdPartyLoadBalancer,
-  [in]  string                   InternetDedicatedIPAddress[],
-  [in]  string                   InternalDedicatedIPAddress[],
-  [in]  string                   InternetVirtualIPAddress[],
-  [in]  string                   InternalVirtualIPAddress[],
-  [in]  string                   ComputerName,
-  [in]  boolean                  PassThru,
-  [out] RemoteAccessLoadBalancer cmdletOutput
+  [in]  boolean                  UseThirdPartyLoadBalancer,
+  [in]  string                   InternetDedicatedIPAddress[],
+  [in]  string                   InternalDedicatedIPAddress[],
+  [in]  string                   InternetVirtualIPAddress[],
+  [in]  string                   InternalVirtualIPAddress[],
+  [in]  string                   ComputerName,
+  [in]  boolean                  PassThru,
+  [out] RemoteAccessLoadBalancer cmdletOutput
 );
 ```
 
@@ -108,7 +114,7 @@ Returns the remote access load balancer configuration object. By default this cm
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -122,9 +128,9 @@ Returns the remote access load balancer configuration object. By default this cm
 [**PS\_RemoteAccessLoadBalancer**](ps-remoteaccessloadbalancer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

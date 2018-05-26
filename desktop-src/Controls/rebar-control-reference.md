@@ -1,7 +1,12 @@
 ---
 title: Rebar
 description: This section contains information about programming elements used with rebar controls.
-ms.assetid: 'd9136c18-6997-42c5-a6b4-d7314b7da5ac'
+ms.assetid: d9136c18-6997-42c5-a6b4-d7314b7da5ac
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rebar
@@ -19,7 +24,7 @@ This section contains information about programming elements used with rebar con
 
 
 
- 
+ 
 
 ### Messages
 
@@ -72,7 +77,7 @@ This section contains information about programming elements used with rebar con
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -99,7 +104,7 @@ This section contains information about programming elements used with rebar con
 
 
 
- 
+ 
 
 ### Structures
 
@@ -107,19 +112,19 @@ This section contains information about programming elements used with rebar con
 
 | Topic                                        | Contents                                                                                                                                      |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**NMRBAUTOSIZE**](nmrbautosize.md)         | Contains information used in handling the [RBN\_AUTOSIZE](rbn-autosize.md) notification codes. <br/>                                   |
-| [**NMREBAR**](nmrebar.md)                   | Contains information used in handling various rebar notification codes. <br/>                                                           |
-| [**NMREBARAUTOBREAK**](nmrebarautobreak.md) | Contains information used with the [RBN\_AUTOBREAK](rbn-autobreak.md) notification.<br/>                                               |
-| [**NMREBARCHEVRON**](nmrebarchevron.md)     | Contains information used in handling the [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification code. <br/>                          |
-| [**NMREBARCHILDSIZE**](nmrebarchildsize.md) | Contains information used in handling the [RBN\_CHILDSIZE](rbn-childsize.md) notification code. <br/>                                  |
-| [**NMREBARSPLITTER**](nmrebarsplitter.md)   | Contains information used to handle an [RBN\_SPLITTERDRAG](rbn-splitterdrag.md) notification code.<br/>                                |
-| [**RBHITTESTINFO**](rbhittestinfo.md)       | Contains information specific to a hit test operation. This structure is used with the [**RB\_HITTEST**](rb-hittest.md) message. <br/> |
-| [**REBARBANDINFO**](rebarbandinfo.md)       | Contains information that defines a band in a rebar control. <br/>                                                                      |
-| [**REBARINFO**](rebarinfo.md)               | Contains information that describes rebar control characteristics. <br/>                                                                |
+| [**NMRBAUTOSIZE**](/windows/win32/Commctrl/ns-commctrl-tagnmrbautosize?branch=master)         | Contains information used in handling the [RBN\_AUTOSIZE](rbn-autosize.md) notification codes. <br/>                                   |
+| [**NMREBAR**](/windows/win32/Commctrl/ns-commctrl-tagnmrebar?branch=master)                   | Contains information used in handling various rebar notification codes. <br/>                                                           |
+| [**NMREBARAUTOBREAK**](/windows/win32/Commctrl/ns-commctrl-tagnmrebarautobreak?branch=master) | Contains information used with the [RBN\_AUTOBREAK](rbn-autobreak.md) notification.<br/>                                               |
+| [**NMREBARCHEVRON**](/windows/win32/Commctrl/ns-commctrl-tagnmrebarchevron?branch=master)     | Contains information used in handling the [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification code. <br/>                          |
+| [**NMREBARCHILDSIZE**](/windows/win32/Commctrl/ns-commctrl-tagnmrebarchildsize?branch=master) | Contains information used in handling the [RBN\_CHILDSIZE](rbn-childsize.md) notification code. <br/>                                  |
+| [**NMREBARSPLITTER**](/windows/win32/Commctrl/ns-commctrl-tagnmrebarsplitter?branch=master)   | Contains information used to handle an [RBN\_SPLITTERDRAG](rbn-splitterdrag.md) notification code.<br/>                                |
+| [**RBHITTESTINFO**](/windows/win32/Commctrl/ns-commctrl-_rb_hittestinfo?branch=master)       | Contains information specific to a hit test operation. This structure is used with the [**RB\_HITTEST**](rb-hittest.md) message. <br/> |
+| [**REBARBANDINFO**](/windows/win32/Commctrl/ns-commctrl-tagrebarbandinfoa?branch=master)       | Contains information that defines a band in a rebar control. <br/>                                                                      |
+| [**REBARINFO**](/windows/win32/Commctrl/ns-commctrl-tagrebarinfo?branch=master)               | Contains information that describes rebar control characteristics. <br/>                                                                |
 
 
 
- 
+ 
 
 ### Constants
 
@@ -131,11 +136,11 @@ This section contains information about programming elements used with rebar con
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

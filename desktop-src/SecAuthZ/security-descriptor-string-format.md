@@ -1,12 +1,17 @@
 ---
-Description: 'The Security Descriptor String Format is a text format for storing or transporting information in a security descriptor.'
-ms.assetid: '0a226629-084c-40c5-bdd4-ad7355c807cf'
+Description: The Security Descriptor String Format is a text format for storing or transporting information in a security descriptor.
+ms.assetid: 0a226629-084c-40c5-bdd4-ad7355c807cf
 title: Security Descriptor String Format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Descriptor String Format
 
-The **Security Descriptor String Format** is a text format for storing or transporting information in a security descriptor. The [**ConvertSecurityDescriptorToStringSecurityDescriptor**](convertsecuritydescriptortostringsecuritydescriptor.md) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](convertstringsecuritydescriptortosecuritydescriptor.md) functions use this format.
+The **Security Descriptor String Format** is a text format for storing or transporting information in a security descriptor. The [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/win32/Sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora?branch=master) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/win32/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora?branch=master) functions use this format.
 
 The format is a **null**-terminated string with tokens to indicate each of the four main components of a security descriptor: owner (O:), primary group (G:), DACL (D:), and SACL (S:).
 
@@ -75,13 +80,13 @@ A string that describes an ACE in the security descriptor's DACL or SACL. For a 
 
 </dd> </dl>
 
-Unneeded components can be omitted from the security descriptor string. For example, if the SE\_DACL\_PRESENT flag is not set in the input security descriptor, [**ConvertSecurityDescriptorToStringSecurityDescriptor**](convertsecuritydescriptortostringsecuritydescriptor.md) does not include a D: component in the output string. You can also use the [**SECURITY\_INFORMATION**](security-information.md) bit flags to indicate the components to include in a security descriptor string.
+Unneeded components can be omitted from the security descriptor string. For example, if the SE\_DACL\_PRESENT flag is not set in the input security descriptor, [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/win32/Sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora?branch=master) does not include a D: component in the output string. You can also use the [**SECURITY\_INFORMATION**](security-information.md) bit flags to indicate the components to include in a security descriptor string.
 
 The security descriptor string format does not support **NULL** ACLs.
 
 To denote an empty ACL, the security descriptor string includes the D: or S: token with no additional string information.
 
-The security descriptor string stores the [**SECURITY DESCRIPTOR CONTROL**](security-descriptor-control.md) bits in different ways. The SE\_DACL\_PRESENT or SE\_SACL\_PRESENT bits are indicated by the presence of the D: or S: token in the string. Other bits that apply to the DACL or SACL are stored in dacl\_flags and sacl\_flags. The SE\_OWNER\_DEFAULTED, SE\_GROUP\_DEFAULTED, SE\_DACL\_DEFAULTED, and SE\_SACL\_DEFAULTED bits are not stored in a security descriptor string. The SE\_SELF\_RELATIVE bit is not stored in the string, but [**ConvertStringSecurityDescriptorToSecurityDescriptor**](convertstringsecuritydescriptortosecuritydescriptor.md) always sets this bit in the output security descriptor.
+The security descriptor string stores the [**SECURITY DESCRIPTOR CONTROL**](security-descriptor-control.md) bits in different ways. The SE\_DACL\_PRESENT or SE\_SACL\_PRESENT bits are indicated by the presence of the D: or S: token in the string. Other bits that apply to the DACL or SACL are stored in dacl\_flags and sacl\_flags. The SE\_OWNER\_DEFAULTED, SE\_GROUP\_DEFAULTED, SE\_DACL\_DEFAULTED, and SE\_SACL\_DEFAULTED bits are not stored in a security descriptor string. The SE\_SELF\_RELATIVE bit is not stored in the string, but [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/win32/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora?branch=master) always sets this bit in the output security descriptor.
 
 The following examples show security descriptor strings and the information in the associated security descriptors.
 

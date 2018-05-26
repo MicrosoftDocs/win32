@@ -1,7 +1,12 @@
 ---
-Description: 'Application recycling significantly increases the overall stability of your applications.'
-ms.assetid: 'b0ae1b52-b0c5-4f1c-94c6-628d39ef40e3'
+Description: Application recycling significantly increases the overall stability of your applications.
+ms.assetid: b0ae1b52-b0c5-4f1c-94c6-628d39ef40e3
 title: COM+ Application Recycling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Application Recycling

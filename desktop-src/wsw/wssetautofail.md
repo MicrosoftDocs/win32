@@ -1,8 +1,9 @@
 ---
 title: WsSetAutoFail function
 description: Sets the next point to inject a failure. This is a DEBUG ONLY function.
-ms.assetid: 'b453dbc5-01ff-486d-8767-254b74cc5b6e'
-keywords: ["WsSetAutoFail function Web Services for Windows"]
+ms.assetid: b453dbc5-01ff-486d-8767-254b74cc5b6e
+keywords:
+- WsSetAutoFail function Web Services for Windows
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - WebServicesDebug.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WsSetAutoFail function
@@ -22,8 +28,8 @@ Sets the next point to inject a failure. This is a DEBUG ONLY function.
 
 ```C++
 HRESULT WINAPI  WsSetAutoFail(
-  _In_     ULONG     count,
-  _In_opt_ WS_ERROR* error
+  _In_     ULONG     count,
+  _In_opt_ WS_ERROR* error
 );
 ```
 
@@ -57,15 +63,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>WebServicesDebug.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

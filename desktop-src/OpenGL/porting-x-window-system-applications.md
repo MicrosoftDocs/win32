@@ -1,8 +1,16 @@
 ---
 title: Porting X Window System Applications
 description: Porting X Window System Applications
-ms.assetid: '730602f3-12af-430d-a105-0efdd3fd43b4'
-keywords: ["OpenGL on Windows,porting", "porting to OpenGL,X Window System", "OpenGL porting,X Window System"]
+ms.assetid: 730602f3-12af-430d-a105-0efdd3fd43b4
+keywords:
+- OpenGL on Windows,porting
+- porting to OpenGL,X Window System
+- OpenGL porting,X Window System
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting X Window System Applications

@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides information about the interfaces and enumerations that enable the new print driver in Windows 8.'
-ms.assetid: '5B82E743-3E34-485D-A35D-733B03FAA521'
+Description: This section provides information about the interfaces and enumerations that enable the new print driver in Windows 8.
+ms.assetid: 5B82E743-3E34-485D-A35D-733B03FAA521
 title: Print Schema Interfaces and Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Print Schema Interfaces and Enumerations

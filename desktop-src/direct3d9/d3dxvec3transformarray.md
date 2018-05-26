@@ -1,7 +1,12 @@
-﻿---
-Description: 'Transforms an array (x, y, z, 1) by a given matrix.'
-ms.assetid: 'fd7ab674-5e42-4265-afad-ae5a00dabcdb'
+---
+Description: Transforms an array (x, y, z, 1) by a given matrix.
+ms.assetid: fd7ab674-5e42-4265-afad-ae5a00dabcdb
 title: D3DXVec3TransformArray function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec3TransformArray function

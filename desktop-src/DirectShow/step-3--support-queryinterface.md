@@ -1,7 +1,12 @@
 ---
-Description: 'Step 3.'
-ms.assetid: 'a0e52ba9-9f7c-4cf3-ba5f-b0035ed1794c'
-title: 'Step 3. Support QueryInterface'
+Description: Step 3.
+ms.assetid: a0e52ba9-9f7c-4cf3-ba5f-b0035ed1794c
+title: Step 3. Support QueryInterface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 3. Support QueryInterface

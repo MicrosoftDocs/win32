@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IBidiSpl2 interface enables an application or other objects to send one or more bidi requests using one of the Bidi Request Schemas and receive information formatted as one of the Bidi Response Schemas.'
-ms.assetid: '90e8a390-7d30-4bcf-8c81-438c86529ceb'
+---
+Description: The IBidiSpl2 interface enables an application or other objects to send one or more bidi requests using one of the Bidi Request Schemas and receive information formatted as one of the Bidi Response Schemas.
+ms.assetid: 90e8a390-7d30-4bcf-8c81-438c86529ceb
 title: IBidiSpl2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiSpl2 interface

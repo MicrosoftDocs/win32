@@ -1,14 +1,22 @@
 ---
 title: IMediaRendererActionInformation IsSetNextSourceAvailable method
 description: Retrieves a value that indicates whether the DMR is currently accepting the SetNextSourceFromUriAsync method, the SetNextSourceFromStreamAsync method or the SetNextSourceFromMediaSourceAsync method.
-ms.assetid: '7588E992-4070-4E0F-8C4B-7DFC097A5076'
-keywords: ["IsSetNextSourceAvailable method Media Streaming API", "IsSetNextSourceAvailable method Media Streaming API , IMediaRendererActionInformation interface", "IMediaRendererActionInformation interface Media Streaming API , IsSetNextSourceAvailable method"]
+ms.assetid: 7588E992-4070-4E0F-8C4B-7DFC097A5076
+keywords:
+- IsSetNextSourceAvailable method Media Streaming API
+- IsSetNextSourceAvailable method Media Streaming API , IMediaRendererActionInformation interface
+- IMediaRendererActionInformation interface Media Streaming API , IsSetNextSourceAvailable method
 topic_type:
 - apiref
 api_name:
 - IMediaRendererActionInformation.IsSetNextSourceAvailable
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaRendererActionInformation::IsSetNextSourceAvailable method
@@ -20,7 +28,7 @@ Retrieves a value that indicates whether the DMR is currently accepting the [**S
 
 ```C++
 HRESULT IsSetNextSourceAvailable(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IMediaRendererActionInformation**](imediarendereractioninformation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

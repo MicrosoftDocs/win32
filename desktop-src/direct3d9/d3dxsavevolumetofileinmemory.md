@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves a volume to a buffer. The method creates an ID3DXBuffer buffer to store the data, and returns that object.'
-ms.assetid: '4887ff1f-7904-4764-b284-b2c8e037f806'
+---
+Description: Saves a volume to a buffer. The method creates an ID3DXBuffer buffer to store the data, and returns that object.
+ms.assetid: 4887ff1f-7904-4764-b284-b2c8e037f806
 title: D3DXSaveVolumeToFileInMemory function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSaveVolumeToFileInMemory function
@@ -48,18 +53,18 @@ Type: **[**D3DXIMAGE\_FILEFORMAT**](direct3d9.d3dximage_fileformat)**
 *pSrcVolume* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUME9**](idirect3dvolume9.md)**
+Type: **[**LPDIRECT3DVOLUME9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvolume9?branch=master)**
 
-Pointer to [**IDirect3DVolume9**](idirect3dvolume9.md) interface containing the image to be saved.
+Pointer to [**IDirect3DVolume9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvolume9?branch=master) interface containing the image to be saved.
 
 </dd> <dt>
 
 *pSrcPalette* \[in\]
 </dt> <dd>
 
-Type: **const [**PALETTEENTRY**](paletteentry.md)\***
+Type: **const [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master)\***
 
-Pointer to a [**PALETTEENTRY**](paletteentry.md) structure containing a palette of 256 colors. This parameter can be **NULL**.
+Pointer to a [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master) structure containing a palette of 256 colors. This parameter can be **NULL**.
 
 </dd> <dt>
 

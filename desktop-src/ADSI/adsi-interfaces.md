@@ -4,11 +4,17 @@ description: This topic describes the categories used for ADSI interfaces.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8c735dbf-41d7-4fbb-b372-9abe4e1b8fdd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8c735dbf-41d7-4fbb-b372-9abe4e1b8fdd
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ADSI Interfaces ADSI", "ADSI ADSI , reference,interfaces", "interfaces ADSI"]
+keywords:
+- ADSI Interfaces ADSI
+- ADSI ADSI , reference,interfaces
+- interfaces ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI Interfaces

@@ -1,19 +1,32 @@
 ---
 title: Using Two-Pass Encoding
 description: Using Two-Pass Encoding
-ms.assetid: '55fc768b-15f0-4236-ad0d-3792ccaa9b4f'
-keywords: ["Advanced Systems Format (ASF),two-pass encoding", "ASF (Advanced Systems Format),two-pass encoding", "two-pass encoding,about", "2-pass encoding,about", "codecs,two-pass encoding", "two-pass encoding,IWMWriterPreprocess interface", "2-pass encoding,IWMWriterPreprocess interface", "IWMWriterPreprocess"]
+ms.assetid: 55fc768b-15f0-4236-ad0d-3792ccaa9b4f
+keywords:
+- Advanced Systems Format (ASF),two-pass encoding
+- ASF (Advanced Systems Format),two-pass encoding
+- two-pass encoding,about
+- 2-pass encoding,about
+- codecs,two-pass encoding
+- two-pass encoding,IWMWriterPreprocess interface
+- 2-pass encoding,IWMWriterPreprocess interface
+- IWMWriterPreprocess
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Two-Pass Encoding
 
 Some codecs support two-pass encoding for certain formats. In some cases, a codec requires that a specified format be encoded using two passes. When two-pass encoding is used, you send the samples for the stream to the codec before the encoding pass. The codec analyzes the samples and configures the encoding pass based on the analysis. This results in a more efficiently encoded file.
 
-To determine whether a codec supports one-pass encoding, or two-pass, or both, for a given format, call [**IWMCodecInfo3::SetCodecEnumerationSetting**](iwmcodecinfo3-setcodecenumerationsetting.md) with g\_wszNumPasses and the appropriate value, and then enumerate the formats to see if the one you want is returned. For more information about the Windows Media codecs that support two-pass encoding, see [Choosing an Encoding Method](choosing-an-encoding-method.md).
+To determine whether a codec supports one-pass encoding, or two-pass, or both, for a given format, call [**IWMCodecInfo3::SetCodecEnumerationSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-setcodecenumerationsetting?branch=master) with g\_wszNumPasses and the appropriate value, and then enumerate the formats to see if the one you want is returned. For more information about the Windows Media codecs that support two-pass encoding, see [Choosing an Encoding Method](choosing-an-encoding-method.md).
 
-You can use two-pass encoding with the Windows Media Format SDK by calling methods of the [**IWMWriterPreprocess**](iwmwriterpreprocess.md) interface.
+You can use two-pass encoding with the Windows Media Format SDK by calling methods of the [**IWMWriterPreprocess**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess?branch=master) interface.
 
-In cases where two-pass encoding is required for a particular format, but the application fails to perform a preprocessing pass, the first call to [**WriteSample**](iwmwriter-writesample.md) will fail with NS\_E\_INVALID\_NUM\_PASSES.
+In cases where two-pass encoding is required for a particular format, but the application fails to perform a preprocessing pass, the first call to [**WriteSample**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-writesample?branch=master) will fail with NS\_E\_INVALID\_NUM\_PASSES.
 
 The following example function demonstrates how to perform two-pass encoding. This function is called after the writer has been set with a profile and started. For more information about using this code, see [Using the Code Examples](using-the-code-examples.md).
 

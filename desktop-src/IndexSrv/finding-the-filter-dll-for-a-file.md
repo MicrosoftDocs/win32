@@ -1,7 +1,12 @@
 ---
 title: Finding the Filter DLL for a File
 description: Finding the Filter DLL for a File
-ms.assetid: 'ed49b019-450c-4c56-9b5c-f406d4f65d35'
+ms.assetid: ed49b019-450c-4c56-9b5c-f406d4f65d35
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Finding the Filter DLL for a File

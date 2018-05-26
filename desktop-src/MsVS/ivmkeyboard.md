@@ -1,8 +1,10 @@
 ---
 title: IVMKeyboard interface
 description: The IVMKeyboard interface controls the keyboard device within a virtual machine. The IVMKeyboard for a virtual machine can be retrieved using the IVMVirtualMachine Keyboard property.
-ms.assetid: '8a764387-5daa-44e3-bb54-ceafe2f7d7db'
-keywords: ["IVMKeyboard interface Virtual Server", "IVMKeyboard interface Virtual Server , described"]
+ms.assetid: 8a764387-5daa-44e3-bb54-ceafe2f7d7db
+keywords:
+- IVMKeyboard interface Virtual Server
+- IVMKeyboard interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMKeyboard interface
@@ -59,7 +66,7 @@ The **IVMKeyboard** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -73,7 +80,7 @@ The **IVMKeyboard** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -81,8 +88,8 @@ The **IVMKeyboard** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -94,9 +101,9 @@ The **IVMKeyboard** interface has these properties.
 [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

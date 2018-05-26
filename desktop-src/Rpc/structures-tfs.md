@@ -1,7 +1,12 @@
 ---
 title: Structures
 description: Description of various types of structures in Remote Procedure Call (RPC).
-ms.assetid: 'edaf547d-d3d1-443c-93dd-8e036bc42944'
+ms.assetid: edaf547d-d3d1-443c-93dd-8e036bc42944
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structures

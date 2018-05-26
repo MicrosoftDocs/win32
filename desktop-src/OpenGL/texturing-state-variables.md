@@ -1,14 +1,20 @@
 ---
 title: Texturing State Variables
 description: Texturing State Variables
-ms.assetid: '2d9d3d8b-ecaa-412c-8105-ae2ca801784e'
-keywords: ["Texturing State Variables OpenGL"]
+ms.assetid: 2d9d3d8b-ecaa-412c-8105-ae2ca801784e
+keywords:
+- Texturing State Variables OpenGL
 topic_type:
 - apiref
 api_name:
 - Texturing State Variables
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texturing State Variables

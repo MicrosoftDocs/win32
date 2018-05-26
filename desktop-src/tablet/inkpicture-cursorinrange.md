@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when a cursor enters the physical detection range (proximity) of the tablet context.'
-ms.assetid: 'e921e175-a2cf-45e6-bb81-dc82e384d3b1'
-title: 'InkPicture.CursorInRange event'
+Description: Occurs when a cursor enters the physical detection range (proximity) of the tablet context.
+ms.assetid: e921e175-a2cf-45e6-bb81-dc82e384d3b1
+title: InkPicture.CursorInRange event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture.CursorInRange event
@@ -13,9 +18,9 @@ Occurs when a cursor enters the physical detection range (proximity) of the tabl
 
 ```C++
 void CursorInRange(
-  [in] IInkCursor   *Cursor,
-  [in] VARIANT_BOOL NewCursor,
-  [in] VARIANT      ButtonsState
+  [in] IInkCursor   *Cursor,
+  [in] VARIANT_BOOL NewCursor,
+  [in] VARIANT      ButtonsState
 );
 ```
 
@@ -28,14 +33,14 @@ void CursorInRange(
 *Cursor* \[in\]
 </dt> <dd>
 
-The [**IInkCursor**](iinkcursor.md) object that generated the **CursorInRange** event.
+The [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object that generated the **CursorInRange** event.
 
 </dd> <dt>
 
 *NewCursor* \[in\]
 </dt> <dd>
 
-**VARIANT\_TRUE** if this is the first time this ink collector has come in contact with the [**IInkCursor**](iinkcursor.md) object that generated the **CursorInRange** event; otherwise, **VARIANT\_FALSE**.
+**VARIANT\_TRUE** if this is the first time this ink collector has come in contact with the [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object that generated the **CursorInRange** event; otherwise, **VARIANT\_FALSE**.
 
 </dd> <dt>
 
@@ -64,7 +69,7 @@ The **CursorInRange** event is fired even when in select or erase mode, not just
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -81,15 +86,15 @@ The **CursorInRange** event is fired even when in select or erase mode, not just
 [**CursorOutOfRange Event**](inkpicture-cursoroutofrange.md)
 </dt> <dt>
 
-[**InkCursorButtonState Enumeration**](inkcursorbuttonstate.md)
+[**InkCursorButtonState Enumeration**](/windows/win32/msinkaut/ne-msinkaut-inkcursorbuttonstate?branch=master)
 </dt> <dt>
 
-[**IInkCursor Interface**](iinkcursor.md)
+[**IInkCursor Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

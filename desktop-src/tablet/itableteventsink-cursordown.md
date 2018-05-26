@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the stylus tip contacts the digitizing tablet surface.'
-ms.assetid: '7f4a441d-00d2-4120-8a8d-d3496cdc7e58'
-title: 'ITabletEventSink::CursorDown method'
+Description: Occurs when the stylus tip contacts the digitizing tablet surface.
+ms.assetid: 7f4a441d-00d2-4120-8a8d-d3496cdc7e58
+title: ITabletEventSinkCursorDown method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletEventSink::CursorDown method
@@ -13,11 +18,11 @@ Occurs when the stylus tip contacts the digitizing tablet surface.
 
 ```C++
 HRESULT CursorDown(
-  [in] TABLET_CONTEXT_ID tcid,
-  [in] CURSOR_ID         cid,
-  [in] ULONG             nSerialNumber,
-  [in] ULONG             cbPkt,
-  [in] BYTE              *pbPkt
+  [in] TABLET_CONTEXT_ID tcid,
+  [in] CURSOR_ID         cid,
+  [in] ULONG             nSerialNumber,
+  [in] ULONG             cbPkt,
+  [in] BYTE              *pbPkt
 );
 ```
 
@@ -75,7 +80,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -83,7 +88,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -96,9 +101,9 @@ This method can return one of these values.
 [**ITabletEventSink Interface**](itableteventsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

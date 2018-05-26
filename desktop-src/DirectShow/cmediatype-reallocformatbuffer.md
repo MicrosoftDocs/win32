@@ -1,7 +1,12 @@
 ---
-Description: 'The ReallocFormatBuffer method reallocates the format block to a new size.'
-ms.assetid: '49bec677-09cc-4e1a-994a-13e873e61713'
-title: 'CMediaType.ReallocFormatBuffer method'
+Description: The ReallocFormatBuffer method reallocates the format block to a new size.
+ms.assetid: 49bec677-09cc-4e1a-994a-13e873e61713
+title: CMediaType.ReallocFormatBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.ReallocFormatBuffer method
@@ -13,7 +18,7 @@ The `ReallocFormatBuffer` method reallocates the format block to a new size.
 
 ```C++
 BYTE* ReallocFormatBuffer(
-   ULONG length
+   ULONG length
 );
 ```
 
@@ -58,9 +63,9 @@ The method updates the **cbFormat** and **pbFormat** members of the **AM\_MEDIA\
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

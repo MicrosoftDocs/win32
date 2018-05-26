@@ -1,14 +1,20 @@
 ---
 title: Enabled (settingsType) Element
 description: Specifies that the task is enabled. The task can be performed only when this setting is True.
-ms.assetid: 'd28f0d54-1205-4b70-a178-72d809da9ce1'
-keywords: ["Enabled element Task Scheduler"]
+ms.assetid: d28f0d54-1205-4b70-a178-72d809da9ce1
+keywords:
+- Enabled element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Enabled
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabled (settingsType) Element
@@ -37,7 +43,7 @@ The **Enabled** element is defined by the [**settingsType**](taskschedulerschema
 
 ## Remarks
 
-For C++ development, see [**Enabled Property of ITaskSettings**](itasksettings-enabled.md).
+For C++ development, see [**Enabled Property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_enabled?branch=master).
 
 For script development, see [**TaskSettings.Enabled**](tasksettings-enabled.md).
 
@@ -51,14 +57,14 @@ For a complete example of the XML for a task that is enabled, see [Time Trigger 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

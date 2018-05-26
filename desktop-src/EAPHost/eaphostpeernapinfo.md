@@ -1,8 +1,9 @@
 ---
 title: EapHostPeerNapInfo structure
 description: Contains the Network Access Protection (NAP) information on an EAP supplicant.
-ms.assetid: '703eda56-5932-44d5-ae7f-0a6328d82237'
-keywords: ["EapHostPeerNapInfo structure EAPHost"]
+ms.assetid: 703eda56-5932-44d5-ae7f-0a6328d82237
+keywords:
+- EapHostPeerNapInfo structure EAPHost
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - eaphostpeerapis.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EapHostPeerNapInfo structure
@@ -23,8 +29,8 @@ The **EapHostPeerNapInfo** structure contains the Network Access Protection (NAP
 ```C++
 typedef struct _tagEapHostPeerNapInfo {
   ISOLATION_STATE isolationState;
-  ProbationTime   probationTime;
-  UINT32          stringCorrelationIdLength;
+  ProbationTime   probationTime;
+  UINT32          stringCorrelationIdLength;
 } EapHostPeerNapInfo;
 ```
 
@@ -37,7 +43,7 @@ typedef struct _tagEapHostPeerNapInfo {
 **isolationState**
 </dt> <dd>
 
-An [**ISOLATION\_STATE**](isolation-state.md) structure that specifies the NAP isolation state of a computer. The isolation state determines the level of network access granted.
+An [**ISOLATION\_STATE**](/windows/previous-versions/eaphostpeertypes/ne-eaphostpeertypes-_isolation_state?branch=master) structure that specifies the NAP isolation state of a computer. The isolation state determines the level of network access granted.
 
 </dd> <dt>
 
@@ -65,8 +71,8 @@ The **EapHostPeerNapInfo** structure precedes the NAP [stringCorrelationId](http
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                   |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                      |
 | Header<br/>                   | <dl> <dt>Eaphostpeerapis.h</dt> </dl> |
 
 
@@ -78,15 +84,15 @@ The **EapHostPeerNapInfo** structure precedes the NAP [stringCorrelationId](http
 [EAPHost Supplicant Structures](eap-host-supplicant-structures.md)
 </dt> <dt>
 
-[**EapHostPeerGetAuthStatus**](eaphostpeergetauthstatus.md)
+[**EapHostPeerGetAuthStatus**](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeergetauthstatus?branch=master)
 </dt> <dt>
 
-[**EapHostPeerMethodAuthParams**](eaphostpeerauthparams.md)
+[**EapHostPeerMethodAuthParams**](/windows/previous-versions/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerauthparams?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

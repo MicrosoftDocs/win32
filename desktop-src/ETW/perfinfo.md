@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the parent class for performance counter events. The following syntax is simplified from MOF code.'
-ms.assetid: '2606fea3-0651-4f7f-83a6-63021039eb95'
+---
+Description: This class is the parent class for performance counter events. The following syntax is simplified from MOF code.
+ms.assetid: 2606fea3-0651-4f7f-83a6-63021039eb95
 title: PerfInfo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PerfInfo class

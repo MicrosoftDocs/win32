@@ -1,14 +1,20 @@
 ---
 title: COMBOBOX control
 description: Defines a combination box control (a combo box).
-ms.assetid: '0a0fcfa8-b65c-44c1-89d8-f5020af10f0f'
-keywords: ["COMBOBOX control Menus and Other Resources"]
+ms.assetid: 0a0fcfa8-b65c-44c1-89d8-f5020af10f0f
+keywords:
+- COMBOBOX control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - COMBOBOX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COMBOBOX control

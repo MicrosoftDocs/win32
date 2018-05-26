@@ -4,17 +4,22 @@ description: For a claim type or resource property object, this attribute descri
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a49dd1a6-1ad0-40cd-bac4-ce0c52ca6269'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a49dd1a6-1ad0-40cd-bac4-ce0c52ca6269
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Claim-Possible-Values attribute AD Schema", "msDS-ClaimPossibleValues attribute AD Schema"]
+keywords:
+- ms-DS-Claim-Possible-Values attribute AD Schema
+- msDS-ClaimPossibleValues attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Claim-Possible-Values
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Claim-Possible-Values attribute
@@ -38,7 +43,7 @@ For a claim type or resource property object, this attribute describes the value
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For a claim type or resource property object, this attribute describes the value
 
 
 
- 
+ 
 
- 
+ 
 
 
 

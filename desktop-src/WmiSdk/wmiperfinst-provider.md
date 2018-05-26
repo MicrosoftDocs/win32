@@ -1,13 +1,16 @@
 ---
-Description: 'Starting with Windows Vista, the WmiPerfInst provider supplies raw and formatted performance counter data dynamically to WMI Performance Counter Classes derived from Win32\_Perf.'
+Description: Starting with Windows Vista, the WmiPerfInst provider supplies raw and formatted performance counter data dynamically to WMI Performance Counter Classes derived from Win32\_Perf.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '780f2564-73f8-46a7-99fe-9ea78b00dedb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 780f2564-73f8-46a7-99fe-9ea78b00dedb
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WmiPerfInst Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WmiPerfInst Provider

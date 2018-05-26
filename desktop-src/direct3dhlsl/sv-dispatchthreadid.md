@@ -1,14 +1,20 @@
 ---
 title: SV\_DispatchThreadID
 description: Indices for which combined thread and thread group a compute shader is executing in.
-ms.assetid: 'bad697f6-26d9-47cd-93e5-127621a161e8'
-keywords: ["SV_DispatchThreadID HLSL"]
+ms.assetid: bad697f6-26d9-47cd-93e5-127621a161e8
+keywords:
+- SV_DispatchThreadID HLSL
 topic_type:
 - apiref
 api_name:
 - SV_DispatchThreadID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SV\_DispatchThreadID

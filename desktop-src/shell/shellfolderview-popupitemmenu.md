@@ -1,6 +1,11 @@
-﻿---
-Description: 'Creates a shortcut menu for the specified item and returns the selected command string.'
-title: 'ShellFolderView.PopupItemMenu method'
+---
+Description: Creates a shortcut menu for the specified item and returns the selected command string.
+title: ShellFolderView.PopupItemMenu method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellFolderView.PopupItemMenu method

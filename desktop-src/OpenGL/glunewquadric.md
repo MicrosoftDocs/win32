@@ -1,8 +1,9 @@
 ---
 title: gluNewQuadric function
 description: The gluNewQuadric function creates a quadric object.
-ms.assetid: '5a4289bf-b57a-4c74-b0e3-b7536671e4df'
-keywords: ["gluNewQuadric function OpenGL"]
+ms.assetid: 5a4289bf-b57a-4c74-b0e3-b7536671e4df
+keywords:
+- gluNewQuadric function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluNewQuadric function
@@ -40,8 +46,8 @@ The **gluNewQuadric** function creates and returns a pointer to a new quadric ob
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -82,9 +88,9 @@ The **gluNewQuadric** function creates and returns a pointer to a new quadric ob
 [**gluSphere**](glusphere.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

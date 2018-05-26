@@ -1,8 +1,10 @@
 ---
 title: DRM\_OPL\_OUTPUT\_IDS structure
 description: The DRM\_OPL\_OUTPUT\_IDS structure holds a number of output protection level (OPL) output identifiers.
-ms.assetid: '3627f2a7-1cea-400b-82e7-678898ccc386'
-keywords: ["DRM_OPL_OUTPUT_IDS structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 3627f2a7-1cea-400b-82e7-678898ccc386
+keywords:
+- DRM_OPL_OUTPUT_IDS structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_OPL\_OUTPUT\_IDS structure
@@ -68,9 +75,9 @@ This structure is used as a member of the [**DRM\_COPY\_OPL**](drmdrm-copy-opl.m
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

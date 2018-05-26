@@ -1,8 +1,25 @@
 ---
 title: Porting NURBS Curves
 description: The OpenGL functions for drawing NURBS curves are very similar to the IRIS GL functions. You specify knot sequences and control points using a gluNurbsCurve function, which must be contained within a gluBeginCurve / gluEndCurve pair.
-ms.assetid: '954e8029-06bd-4072-9b84-53ecba1d05da'
-keywords: ["IRIS GL porting,NURBS curves", "porting from IRIS GL,NURBS curves", "porting to OpenGL from IRIS GL,NURBS curves", "OpenGL porting from IRIS GL,NURBS curves", "NURBS curves", "curves", "IRIS GL porting,curves", "porting from IRIS GL,curves", "porting to OpenGL from IRIS GL,curves", "OpenGL porting from IRIS GL,curves", "NURBS (Non-Uniform Rational B-Spline)", "Non-Uniform Rational B-Spline (NURBS)"]
+ms.assetid: 954e8029-06bd-4072-9b84-53ecba1d05da
+keywords:
+- IRIS GL porting,NURBS curves
+- porting from IRIS GL,NURBS curves
+- porting to OpenGL from IRIS GL,NURBS curves
+- OpenGL porting from IRIS GL,NURBS curves
+- NURBS curves
+- curves
+- IRIS GL porting,curves
+- porting from IRIS GL,curves
+- porting to OpenGL from IRIS GL,curves
+- OpenGL porting from IRIS GL,curves
+- NURBS (Non-Uniform Rational B-Spline)
+- Non-Uniform Rational B-Spline (NURBS)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting NURBS Curves

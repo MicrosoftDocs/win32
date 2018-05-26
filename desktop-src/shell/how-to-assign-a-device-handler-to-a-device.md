@@ -1,6 +1,11 @@
 ---
-Description: 'Illustrates the process for adding a device handler to a device.'
+Description: Illustrates the process for adding a device handler to a device.
 title: How to Assign a Device Handler to a Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Assign a Device Handler to a Device

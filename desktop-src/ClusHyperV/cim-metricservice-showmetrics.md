@@ -4,13 +4,16 @@ description: Indicates whether metric collection is enabled for the specified ma
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '54fa254f-237b-4f89-a385-8ddcead4074b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 54fa254f-237b-4f89-a385-8ddcead4074b
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ShowMetrics method", "ShowMetrics method, CIM_MetricService class", "CIM_MetricService class, ShowMetrics method"]
+keywords:
+- ShowMetrics method
+- ShowMetrics method, CIM_MetricService class
+- CIM_MetricService class, ShowMetrics method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ShowMetrics method of the CIM\_MetricService class
@@ -30,12 +36,12 @@ Indicates whether metric collection is enabled for the specified managed element
 
 ```mof
 uint32 ShowMetrics(
-  [in]  CIM_ManagedElement       REF Subject,
-  [in]  CIM_BaseMetricDefinition REF Definition,
-  [out] CIM_ManagedElement       REF ManagedElements[],
-  [out] CIM_BaseMetricDefinition REF DefinitionList[],
-  [out] string                       MetricNames[],
-  [out] uint16                       MetricCollectionEnabled[]
+  [in]  CIM_ManagedElement       REF Subject,
+  [in]  CIM_BaseMetricDefinition REF Definition,
+  [out] CIM_ManagedElement       REF ManagedElements[],
+  [out] CIM_BaseMetricDefinition REF DefinitionList[],
+  [out] string                       MetricNames[],
+  [out] uint16                       MetricCollectionEnabled[]
 );
 ```
 
@@ -113,14 +119,14 @@ If this method returns successfully, this parameter contains an array that indic
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> </dl>
+</dt> <dd>32768 65535</dd> </dl> </dd> </dl>
 
 ## Return value
 
@@ -137,10 +143,10 @@ The possible return values are:
 **Failed** (2)
 </dt> <dt>
 
-**Method Reserved** (3–32767)
+**Method Reserved** (3 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -150,7 +156,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -164,9 +170,9 @@ The possible return values are:
 [**CIM\_MetricService**](cim-metricservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

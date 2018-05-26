@@ -1,8 +1,24 @@
 ---
 title: Creating Your Transform
 description: Creating Your Transform
-ms.assetid: '2f75d20d-0dcf-49e4-bf3d-cde124747337'
-keywords: ["Windows Movie Maker,creating custom transforms", "Movie Maker,creating custom transforms", "programming guide,creating custom transforms", "creating custom transforms using COM and DirectX", "transforms,creating using COM and DirectX", "custom transforms,creating using COM and DirectX", "Component Object Model (COM),creating custom transforms", "COM (Component Object Model),creating custom transforms", "DirectX,creating custom transforms", "Active Template Library (ATL)", "ATL (Active Template Library)"]
+ms.assetid: 2f75d20d-0dcf-49e4-bf3d-cde124747337
+keywords:
+- Windows Movie Maker,creating custom transforms
+- Movie Maker,creating custom transforms
+- programming guide,creating custom transforms
+- creating custom transforms using COM and DirectX
+- transforms,creating using COM and DirectX
+- custom transforms,creating using COM and DirectX
+- Component Object Model (COM),creating custom transforms
+- COM (Component Object Model),creating custom transforms
+- DirectX,creating custom transforms
+- Active Template Library (ATL)
+- ATL (Active Template Library)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Your Transform

@@ -1,7 +1,12 @@
 ---
-Description: 'Private properties are used internally by the installer and their values must be entered into the database by the author of the installation package or set by the installer during the installation to values determined by the operating environment.'
-ms.assetid: '7d574bf0-bcb3-4e19-9659-fe741ace9f21'
+Description: Private properties are used internally by the installer and their values must be entered into the database by the author of the installation package or set by the installer during the installation to values determined by the operating environment.
+ms.assetid: 7d574bf0-bcb3-4e19-9659-fe741ace9f21
 title: Private Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Private Properties

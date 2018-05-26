@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Extended Color Information
-ms.assetid: '05ca73c6-d105-47bc-96bc-b784f669febe'
+ms.assetid: 05ca73c6-d105-47bc-96bc-b784f669febe
 title: Extended Color Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extended Color Information
@@ -28,7 +33,7 @@ To reproduce colors accurately, the following information is needed:
 DirectShow, Media Foundation, and DirectX Video Acceleration (DXVA) all have different ways to represent video formats. Fortunately, it is easy to translate the color-space information from one to another, because the relevant enumerations are the same.
 
 -   DXVA 1.0: Color-space information is given in the [**DXVA\_ExtendedFormat**](display.dxva_extendedformat) structure.
--   DXVA 2.0: Color-space information is given in the [**DXVA2\_ExtendedFormat**](dxva2-extendedformat.md) structure structure. This structure is identical to the DXVA 1.0 structure, and the meaning of the fields is the same.
+-   DXVA 2.0: Color-space information is given in the [**DXVA2\_ExtendedFormat**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_extendedformat?branch=master) structure structure. This structure is identical to the DXVA 1.0 structure, and the meaning of the fields is the same.
 -   DirectShow: Color-space information is given in the [**VIDEOINFOHEADER2**](dshow.videoinfoheader2) structure. The information is stored in the upper 24 bits of the **dwControlFlags** field. If color-space information is present, set the **AMCONTROL\_COLORINFO\_PRESENT** flag in **dwControlFlags**. When this flag is set, the **dwControlFlags** field should be interpreted as a [**DXVA\_ExtendedFormat**](display.dxva_extendedformat) structure, except that the lower 8 bits of the structure are reserved for **AMCONTROL\_xxx** flags.
 -   Video capture drivers: Color-space information is given in the [**KS\_VIDEOINFOHEADER2**](stream.ks_videoinfoheader2) structure. This structure is identical to the [**VIDEOINFOHEADER2**](dshow.videoinfoheader2) structure, and the meaning of the fields is the same.
 -   Media Foundation: Color-space information is stored as attributes in the media type:

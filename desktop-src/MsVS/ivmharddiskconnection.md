@@ -1,8 +1,10 @@
 ---
 title: IVMHardDiskConnection interface
 description: The IVMHardDiskConnection interface defines the connection for a hard disk within the virtual machine.
-ms.assetid: '98e2de69-13ca-455f-96b3-81a96f790c0f'
-keywords: ["IVMHardDiskConnection interface Virtual Server", "IVMHardDiskConnection interface Virtual Server , described"]
+ms.assetid: 98e2de69-13ca-455f-96b3-81a96f790c0f
+keywords:
+- IVMHardDiskConnection interface Virtual Server
+- IVMHardDiskConnection interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDiskConnection interface
@@ -36,7 +43,7 @@ The **IVMHardDiskConnection** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -54,7 +61,7 @@ The **IVMHardDiskConnection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,8 +69,8 @@ The **IVMHardDiskConnection** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -75,9 +82,9 @@ The **IVMHardDiskConnection** interface has these properties.
 [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

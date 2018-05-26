@@ -1,8 +1,11 @@
 ---
 title: ISurfaceManager get\_IdealVideoSize method
 description: The get\_IdealVideoSize method retrieves the ideal video size for the surface.
-ms.assetid: 'df50fb93-0172-42c3-b8d1-94b93dfd5332'
-keywords: ["get_IdealVideoSize method Windows Movie Maker and DVD Maker", "get_IdealVideoSize method Windows Movie Maker and DVD Maker , ISurfaceManager interface", "ISurfaceManager interface Windows Movie Maker and DVD Maker , get_IdealVideoSize method"]
+ms.assetid: df50fb93-0172-42c3-b8d1-94b93dfd5332
+keywords:
+- get_IdealVideoSize method Windows Movie Maker and DVD Maker
+- get_IdealVideoSize method Windows Movie Maker and DVD Maker , ISurfaceManager interface
+- ISurfaceManager interface Windows Movie Maker and DVD Maker , get_IdealVideoSize method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISurfaceManager::get\_IdealVideoSize method
@@ -25,7 +33,7 @@ The **get\_IdealVideoSize** method retrieves the ideal video size for the surfac
 
 ```C++
 HRESULT get_IdealVideoSize(
-  [out] VIDEO_SIZE *pSize
+  [out] VIDEO_SIZE *pSize
 );
 ```
 
@@ -58,8 +66,8 @@ You can call this method to determine what size to allocate for a new surface be
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -72,9 +80,9 @@ You can call this method to determine what size to allocate for a new surface be
 [**ISurfaceManager Interface**](isurfacemanager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

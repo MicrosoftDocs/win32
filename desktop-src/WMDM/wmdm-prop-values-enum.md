@@ -1,8 +1,9 @@
 ---
 title: WMDM\_PROP\_VALUES\_ENUM structure
 description: The WMDM\_PROP\_VALUES\_ENUM structure contains an enumerated set of valid values for a particular property in a particular property configuration.
-ms.assetid: '8094f3c0-a7ed-4e63-8503-aaac3fd9c012'
-keywords: ["WMDM_PROP_VALUES_ENUM structure windows Media Device Manager"]
+ms.assetid: 8094f3c0-a7ed-4e63-8503-aaac3fd9c012
+keywords:
+- WMDM_PROP_VALUES_ENUM structure windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDM\_PROP\_VALUES\_ENUM structure
@@ -22,7 +28,7 @@ The **WMDM\_PROP\_VALUES\_ENUM** structure contains an enumerated set of valid v
 
 ```C++
 typedef struct _WMDM_PROP_VALUES_ENUM {
-  UINT        cEnumValues;
+  UINT        cEnumValues;
   PROPVARIANT *pValues;
 } WMDM_PROP_VALUES_ENUM;
 ```
@@ -67,7 +73,7 @@ The caller is required to free the memory used by **pValues**. For an example of
 
 <dl> <dt>
 
-[**IWMDMDevice3::GetFormatCapability**](iwmdmdevice3-getformatcapability.md)
+[**IWMDMDevice3::GetFormatCapability**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability?branch=master)
 </dt> <dt>
 
 [**WMDM\_ENUM\_PROP\_VALID\_VALUES\_FORM**](wmdm-enum-prop-valid-values-form.md)
@@ -88,9 +94,9 @@ The caller is required to free the memory used by **pValues**. For an example of
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: List of Property Names for a Web Catalog
 description: List of Property Names for a Web Catalog
-ms.assetid: 'fb284f0b-f323-4425-b7c1-320eae812978'
+ms.assetid: fb284f0b-f323-4425-b7c1-320eae812978
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List of Property Names for a Web Catalog

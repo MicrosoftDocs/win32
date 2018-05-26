@@ -1,8 +1,11 @@
 ---
 title: Issue GetIssueDescription method
 description: Returns the description of the Issue.
-ms.assetid: 'AF65927E-F5B0-4179-B257-7FED0B1EC819'
-keywords: ["GetIssueDescription method Access Execution Engine", "GetIssueDescription method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , GetIssueDescription method"]
+ms.assetid: AF65927E-F5B0-4179-B257-7FED0B1EC819
+keywords:
+- GetIssueDescription method Access Execution Engine
+- GetIssueDescription method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , GetIssueDescription method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::GetIssueDescription method
@@ -22,7 +30,7 @@ Returns the description of the **Issue**.
 
 ```C++
 virtual HRESULT GetIssueDescription(
-  [out] LPCWSTR *issueDescription
+  [out] LPCWSTR *issueDescription
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The description is the value of element **Issue/IssueDescription**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The description is the value of element **Issue/IssueDescription**.
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

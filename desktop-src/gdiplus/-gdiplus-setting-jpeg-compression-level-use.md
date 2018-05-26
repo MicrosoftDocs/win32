@@ -1,12 +1,17 @@
 ---
-Description: 'To specify the compression level when you save a JPEG image, initialize an EncoderParameters object and pass the address of that object to the Save method of the Image class.'
-ms.assetid: 'b8365c00-2223-4aff-9fb2-422976af4c31'
+Description: To specify the compression level when you save a JPEG image, initialize an EncoderParameters object and pass the address of that object to the Save method of the Image class.
+ms.assetid: b8365c00-2223-4aff-9fb2-422976af4c31
 title: Setting JPEG Compression Level
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting JPEG Compression Level
 
-To specify the compression level when you save a JPEG image, initialize an [**EncoderParameters**](-gdiplus-class-encoderparameters-class.md) object and pass the address of that object to the [Save](-gdiplus-class-image-save-methods.md) method of the [**Image**](-gdiplus-class-image-class.md) class. Initialize the **EncoderParameters** object so that it has an array consisting of one [**EncoderParameter**](-gdiplus-class-encoderparameter-class.md) object. Initialize that one **EncoderParameter** object so that its **Value** member points to a **ULONG** value from 0 through 100. Set the **Guid** member of the **EncoderParameter** object to EncoderQuality.
+To specify the compression level when you save a JPEG image, initialize an [**EncoderParameters**](/windows/win32/Gdiplusimaging/?branch=master) object and pass the address of that object to the [Save](/windows/win32/gdiplusheaders/nf-gdiplusheaders-image-save(in istream,in const clsid,in const encoderparameters)?branch=master) method of the [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) class. Initialize the **EncoderParameters** object so that it has an array consisting of one [**EncoderParameter**](/windows/win32/Gdiplusimaging/?branch=master) object. Initialize that one **EncoderParameter** object so that its **Value** member points to a **ULONG** value from 0 through 100. Set the **Guid** member of the **EncoderParameter** object to EncoderQuality.
 
 The following console application saves three JPEG images, each with a different quality level. A quality level of 0 corresponds to the greatest compression, and a quality level of 100 corresponds to the least compression.
 

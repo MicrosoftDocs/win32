@@ -1,8 +1,11 @@
 ---
 title: INetFwV6ConnectionCollection \_NewEnum property
 description: Retrieves a read-only element yielding an IEnumNetV6ConnectionsAsVariants enumerator for the items in the collection.
-ms.assetid: '01eb9b95-56e5-47e0-bdf1-6f79e8ac460a'
-keywords: ["_NewEnum property ICS/ICF", "_NewEnum property ICS/ICF , INetFwV6ConnectionCollection interface", "INetFwV6ConnectionCollection interface ICS/ICF , _NewEnum property"]
+ms.assetid: 01eb9b95-56e5-47e0-bdf1-6f79e8ac460a
+keywords:
+- _NewEnum property ICS/ICF
+- _NewEnum property ICS/ICF , INetFwV6ConnectionCollection interface
+- INetFwV6ConnectionCollection interface ICS/ICF , _NewEnum property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6ConnectionCollection::\_NewEnum property
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get__NewEnum(
-  [out] IUknown **ppEnum
+  [out] IUknown **ppEnum
 );
 ```
 
@@ -64,10 +72,10 @@ If the method fails, the return value is one of the following error codes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -80,9 +88,9 @@ If the method fails, the return value is one of the following error codes.
 [**INetFwV6ConnectionCollection**](inetfwv6connectioncollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

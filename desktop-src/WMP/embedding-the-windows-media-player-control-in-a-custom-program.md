@@ -1,8 +1,30 @@
 ---
 title: Embedding the Windows Media Player Control in a Custom Program
 description: Embedding the Windows Media Player Control in a Custom Program
-ms.assetid: '2a5f0cd7-e3fa-4d4f-9203-bcb13362c9ab'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "Windows Media Player Mobile,embedding ActiveX control", "embedding,custom programs", "custom program embedding", "embedding,Visual Basic-based programs", "Visual Basic-based program embedding", "embedding,manually using COM methods", "manual embedding using COM methods", "embedding,C++ programs", "C++ program embedding", "embedding,Visual Studio programs", "Visual Studio,program embedding"]
+ms.assetid: 2a5f0cd7-e3fa-4d4f-9203-bcb13362c9ab
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- Windows Media Player Mobile,embedding ActiveX control
+- embedding,custom programs
+- custom program embedding
+- embedding,Visual Basic-based programs
+- Visual Basic-based program embedding
+- embedding,manually using COM methods
+- manual embedding using COM methods
+- embedding,C++ programs
+- C++ program embedding
+- embedding,Visual Studio programs
+- Visual Studio,program embedding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Embedding the Windows Media Player Control in a Custom Program

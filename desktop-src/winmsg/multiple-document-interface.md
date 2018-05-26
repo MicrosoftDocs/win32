@@ -1,7 +1,12 @@
 ---
-Description: 'This section discusses the Multiple Document Interface which is a specification that defines a user interface for applications that enable the user to work with more than one document at the same time.'
-ms.assetid: '35dff281-3b11-4954-85cf-a0f1c9ed346a'
+Description: This section discusses the Multiple Document Interface which is a specification that defines a user interface for applications that enable the user to work with more than one document at the same time.
+ms.assetid: 35dff281-3b11-4954-85cf-a0f1c9ed346a
 title: Multiple Document Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multiple Document Interface
@@ -22,7 +27,7 @@ The multiple-document interface (MDI) is a specification that defines a user int
 
 
 
- 
+ 
 
 ### MDI Functions
 
@@ -37,7 +42,7 @@ The multiple-document interface (MDI) is a specification that defines a user int
 
 
 
- 
+ 
 
 ### MDI Messages
 
@@ -60,7 +65,7 @@ The multiple-document interface (MDI) is a specification that defines a user int
 
 
 
- 
+ 
 
 ### MDI Structures
 
@@ -72,11 +77,11 @@ The multiple-document interface (MDI) is a specification that defines a user int
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

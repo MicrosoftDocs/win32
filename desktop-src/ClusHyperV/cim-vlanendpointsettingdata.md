@@ -4,13 +4,15 @@ description: Represents configuration data for a VLAN endpoint.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '69169241-6d15-41c2-bee6-c67a27d8b5e2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 69169241-6d15-41c2-bee6-c67a27d8b5e2
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_VLANEndpointSettingData class", "CIM_VLANEndpointSettingData class, described"]
+keywords:
+- CIM_VLANEndpointSettingData class
+- CIM_VLANEndpointSettingData class, described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_VLANEndpointSettingData class
@@ -39,7 +44,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 > [!Note]  
 > The configuration data is associated with an endpoint through the [**CIM\_ElementSettingData**](cim-elementsettingdata.md) class.
 
- 
+ 
 
 ## Syntax
 
@@ -122,7 +127,7 @@ The default value for the native VLAN on the trunk endpoint.
 > [!Note]  
 > This property is only used when the VLAN endpoint is operating in trunking mode, which is specified in the **OperationalEndpointMode** property.
 
- 
+ 
 
 </dd> <dt>
 
@@ -183,7 +188,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 > -   If the above pattern is not used, the defining entity must assure that the resultant **InstanceID** value is not re-used across any **InstanceID** properties that are produced by this provider or other providers for this namespace.
 > -   For DMTF defined instances, the pattern must be used with the *OrgID* set to "CIM".
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -206,7 +211,7 @@ The VLAN ID that is used to tag untagged traffic received on the trunk endpoint.
 > [!Note]  
 > This property is only used when the VLAN endpoint is operating in trunking mode, which is specified in the **SwitchEndpointMode** property.
 
- 
+ 
 
 </dd> <dt>
 
@@ -227,7 +232,7 @@ An array that contains IDs of VLANs that the system may remove from the trunk en
 > [!Note]  
 > This property is only used when the VLAN endpoint is operating in trunking mode, which is specified in the **OperationalEndpointMode** property.
 
- 
+ 
 
 </dd> <dt>
 
@@ -248,7 +253,7 @@ An array that contains IDs of VLAN endpoints with trunking enabled.
 > [!Note]  
 > This property is only used when the VLAN endpoint is operating in trunking mode, which is specified in the **OperationalEndpointMode** property.
 
- 
+ 
 
 </dd> </dl>
 
@@ -259,7 +264,7 @@ An array that contains IDs of VLAN endpoints with trunking enabled.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -276,9 +281,9 @@ An array that contains IDs of VLAN endpoints with trunking enabled.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

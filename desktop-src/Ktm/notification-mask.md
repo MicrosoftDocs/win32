@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the different types of notifications that can be received by an enlistment.'
-ms.assetid: '65db8ba5-193c-439b-8e8c-6cb4a9bd4efd'
-title: 'NOTIFICATION\_MASK'
+Description: Lists the different types of notifications that can be received by an enlistment.
+ms.assetid: 65db8ba5-193c-439b-8e8c-6cb4a9bd4efd
+title: NOTIFICATION\_MASK
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NOTIFICATION\_MASK
@@ -31,7 +36,7 @@ A mask that indicates all valid bits for a transaction notification.
 
 
 
-This notification is called after a client calls [**CommitTransaction**](committransaction.md) and either no resource manager (RM) supports single-phase commit or a superior transaction manager (TM) calls [**PrePrepareEnlistment**](preprepareenlistment.md). This notification is received by the RMs indicating that they should complete any work that could cause other RMs to need to enlist in a transaction, such as flushing its cache. After completing these operations the RM must call [**PrePrepareComplete**](prepreparecomplete.md). To receive this notification the RM must also support **TRANSACTION\_NOTIFY\_PREPARE** and **TRANSACTION\_NOTIFY\_COMMIT**.
+This notification is called after a client calls [**CommitTransaction**](/windows/win32/Ktmw32/nf-ktmw32-committransaction?branch=master) and either no resource manager (RM) supports single-phase commit or a superior transaction manager (TM) calls [**PrePrepareEnlistment**](/windows/win32/KtmW32/nf-ktmw32-preprepareenlistment?branch=master). This notification is received by the RMs indicating that they should complete any work that could cause other RMs to need to enlist in a transaction, such as flushing its cache. After completing these operations the RM must call [**PrePrepareComplete**](/windows/win32/Ktmw32/nf-ktmw32-prepreparecomplete?branch=master). To receive this notification the RM must also support **TRANSACTION\_NOTIFY\_PREPARE** and **TRANSACTION\_NOTIFY\_COMMIT**.
 
 
 </dt> </dl> </dd> <dt>
@@ -44,7 +49,7 @@ This notification is called after a client calls [**CommitTransaction**](committ
 
 
 
-This notification is called after the **TRANSACTION\_NOTIFY\_PREPREPARE** processing is complete. It signals the RM to complete all the work that is associated with this enlistment so that it can guarantee that a commit operation could succeed and an abort operation could also succeed. Typically, the bulk of the work for a transaction is done during the prepare phase. For durable RMs, they must log their state prior to calling the [**PrepareComplete**](preparecomplete.md) function. This is the last chance for the RM to request that the transaction be rolled back.
+This notification is called after the **TRANSACTION\_NOTIFY\_PREPREPARE** processing is complete. It signals the RM to complete all the work that is associated with this enlistment so that it can guarantee that a commit operation could succeed and an abort operation could also succeed. Typically, the bulk of the work for a transaction is done during the prepare phase. For durable RMs, they must log their state prior to calling the [**PrepareComplete**](/windows/win32/Ktmw32/nf-ktmw32-preparecomplete?branch=master) function. This is the last chance for the RM to request that the transaction be rolled back.
 
 
 </dt> </dl> </dd> <dt>
@@ -57,7 +62,7 @@ This notification is called after the **TRANSACTION\_NOTIFY\_PREPREPARE** proces
 
 
 
-This notification signals the RM to complete all the work that is associated with this enlistment. Typically, the RM releases any locks, releases any information necessary to roll back the transaction. The RM must respond by calling the [**CommitComplete**](commitcomplete.md) function when it has finished these operations.
+This notification signals the RM to complete all the work that is associated with this enlistment. Typically, the RM releases any locks, releases any information necessary to roll back the transaction. The RM must respond by calling the [**CommitComplete**](/windows/win32/Ktmw32/nf-ktmw32-commitcomplete?branch=master) function when it has finished these operations.
 
 
 </dt> </dl> </dd> <dt>
@@ -148,7 +153,7 @@ This notification signals to RMs that they should recover their state because a 
 
 
 
-This notification signals the RM to complete and commit the transaction without using a two-phase commit protocol. If the RM wants to use a two-phase operation, it must respond by calling the [**SinglePhaseReject**](singlephasereject.md) function.
+This notification signals the RM to complete and commit the transaction without using a two-phase commit protocol. If the RM wants to use a two-phase operation, it must respond by calling the [**SinglePhaseReject**](/windows/win32/Ktmw32/nf-ktmw32-singlephasereject?branch=master) function.
 
 
 </dt> </dl> </dd> <dt>
@@ -263,8 +268,8 @@ Reserved.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                            |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                            |
 | Header<br/>                   | <dl> <dt>KtmTypes.h (include Windows.h)</dt> </dl> |
 
 
@@ -279,30 +284,30 @@ Reserved.
 [Kernel Transaction Manager Constants](kernel-transaction-manager-constants.md)
 </dt> <dt>
 
-[**CreateEnlistment**](createenlistment.md)
+[**CreateEnlistment**](/windows/win32/KtmW32/nf-ktmw32-createenlistment?branch=master)
 </dt> <dt>
 
-[**CommitComplete**](commitcomplete.md)
+[**CommitComplete**](/windows/win32/Ktmw32/nf-ktmw32-commitcomplete?branch=master)
 </dt> <dt>
 
-[**GetNotificationResourceManager**](getnotificationresourcemanager.md)
+[**GetNotificationResourceManager**](/windows/win32/KtmW32/nf-ktmw32-getnotificationresourcemanager?branch=master)
 </dt> <dt>
 
-[**GetNotificationResourceManagerAsync**](getnotificationresourcemanagerasync.md)
+[**GetNotificationResourceManagerAsync**](/windows/win32/KtmW32/nf-ktmw32-getnotificationresourcemanagerasync?branch=master)
 </dt> <dt>
 
-[**PrepareComplete**](preparecomplete.md)
+[**PrepareComplete**](/windows/win32/Ktmw32/nf-ktmw32-preparecomplete?branch=master)
 </dt> <dt>
 
-[**SinglePhaseReject**](singlephasereject.md)
+[**SinglePhaseReject**](/windows/win32/Ktmw32/nf-ktmw32-singlephasereject?branch=master)
 </dt> <dt>
 
-[**TRANSACTION\_NOTIFICATION**](transaction-notification.md)
+[**TRANSACTION\_NOTIFICATION**](/windows/win32/KtmTypes/ns-ktmtypes-_transaction_notification?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

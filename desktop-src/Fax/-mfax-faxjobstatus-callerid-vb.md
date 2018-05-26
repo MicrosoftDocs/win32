@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CallerId property is a null-terminated string that identifies the calling device associated with the fax job.'
-ms.assetid: '4350ba4e-5b3f-419e-b2d2-8d75f3aaa29e'
-title: 'FaxJobStatus.CallerId property'
+---
+Description: The CallerId property is a null-terminated string that identifies the calling device associated with the fax job.
+ms.assetid: 4350ba4e-5b3f-419e-b2d2-8d75f3aaa29e
+title: FaxJobStatus.CallerId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobStatus.CallerId property
@@ -46,7 +51,7 @@ A **String** that receives the caller ID for the fax job. The string identifies 
 [**FaxJobStatus**](-mfax-faxjobstatus.md)
 </dt> <dt>
 
-[**IFaxJobStatus**](-mfax-faxjobstatus-cpp.md)
+[**IFaxJobStatus**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxjobstatus?branch=master)
 </dt> </dl>
 
  

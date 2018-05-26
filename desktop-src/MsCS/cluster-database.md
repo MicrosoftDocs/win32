@@ -4,11 +4,16 @@ description: The cluster database is a set of keys, sometimes referred to as the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd2c1a9c0-7e87-4a3c-9a1a-7f1756f97804'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster database Failover Cluster", "cluster database Failover Cluster ,described"]
+keywords:
+- cluster database Failover Cluster
+- cluster database Failover Cluster ,described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Database

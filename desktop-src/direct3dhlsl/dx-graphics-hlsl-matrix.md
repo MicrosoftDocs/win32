@@ -1,14 +1,20 @@
 ---
 title: Matrix Type
 description: A matrix is a special data type that contains between one and sixteen components. Every component of a matrix must be of the same type.
-ms.assetid: '728eb472-103d-4c7f-b6f6-e515fc024801'
-keywords: ["Matrix Type HLSL"]
+ms.assetid: 728eb472-103d-4c7f-b6f6-e515fc024801
+keywords:
+- Matrix Type HLSL
 topic_type:
 - apiref
 api_name:
 - Matrix Type
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Matrix Type
@@ -23,7 +29,7 @@ A matrix is a special data type that contains between one and sixteen components
 
 
 
- 
+ 
 
 ## Components
 
@@ -36,7 +42,7 @@ A matrix is a special data type that contains between one and sixteen components
 
 
 
- 
+ 
 
 ## Examples
 
@@ -85,9 +91,9 @@ matrix <float, 2, 2> fMatrix = { 0.0f, 0.1, // row 1
 [Data Types (DirectX HLSL)](dx-graphics-hlsl-data-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: SERVICE\_NO\_TRAFFIC\_CONTROL
 description: The SERVICE\_NO\_TRAFFIC\_CONTROL service type instructs the RSVP SP not to invoke kernel traffic control.
-ms.assetid: '30945532-bce9-4fcf-b2aa-8a6441bf75be'
-keywords: ["SERVICETYPE_NO_TRAFFIC_CONTROL service type"]
+ms.assetid: 30945532-bce9-4fcf-b2aa-8a6441bf75be
+keywords:
+- SERVICETYPE_NO_TRAFFIC_CONTROL service type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SERVICE\_NO\_TRAFFIC\_CONTROL

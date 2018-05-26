@@ -4,17 +4,22 @@ description: The dhcp-Unique-Key attribute is not currently used.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5b627db8-cdda-4fd4-9c21-a996df51ddac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 5b627db8-cdda-4fd4-9c21-a996df51ddac
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["dhcp-Unique-Key attribute AD Schema", "dhcpUniqueKey attribute AD Schema"]
+keywords:
+- dhcp-Unique-Key attribute AD Schema
+- dhcpUniqueKey attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - dhcp-Unique-Key
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # dhcp-Unique-Key attribute
@@ -38,12 +43,12 @@ The **dhcp-Unique-Key** attribute is not currently used.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The **dhcp-Unique-Key** attribute is not currently used.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

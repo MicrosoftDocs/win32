@@ -2,13 +2,19 @@
 title: /warn switch
 description: The /warn switch specifies the warning level of the MIDL compiler.
 ms.assetid: b1e26e67-8c47-40a2-8f34-22273ddfaa1d
-keywords: ["/warn switch MIDL"]
+keywords:
+- /warn switch MIDL
 topic_type:
 - apiref
 api_name:
 - /warn
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /warn switch

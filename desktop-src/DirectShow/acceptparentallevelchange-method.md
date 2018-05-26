@@ -1,7 +1,12 @@
 ---
-Description: 'The AcceptParentalLevelChange method accepts or rejects the new temporary parental management level.'
-ms.assetid: 'b3d58069-16dc-4598-90ea-6136c2f62ac7'
+Description: The AcceptParentalLevelChange method accepts or rejects the new temporary parental management level.
+ms.assetid: b3d58069-16dc-4598-90ea-6136c2f62ac7
 title: AcceptParentalLevelChange Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AcceptParentalLevelChange Method

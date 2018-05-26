@@ -1,8 +1,10 @@
 ---
 title: IWMPErrorItem2 (VB and C\ ) interface
 description: Provides a property for getting an error condition code.
-ms.assetid: '0393cebd-88c0-4bfd-8890-4c456ec19b57'
-keywords: ["IWMPErrorItem2 (VB and C ) interface Windows Media Player", "IWMPErrorItem2 (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 0393cebd-88c0-4bfd-8890-4c456ec19b57
+keywords:
+- IWMPErrorItem2 (VB and C ) interface Windows Media Player
+- IWMPErrorItem2 (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPErrorItem2 (VB and C#) interface
@@ -27,7 +34,7 @@ In addition to the properties inherited from **IWMPErrorItem**, the **IWMPErrorI
 
 
 
- 
+ 
 
 Get an **IWMPErrorItem2** interface by casting the value returned by the **Item** property (in C#, the **get\_Item method**) of the **IWMPErrorItem** interface.
 
@@ -49,7 +56,7 @@ The **IWMPErrorItem2 (VB and C#)** interface does not define any members.
 
 <dl> <dt>
 
-[**IWMPErrorItem**](iwmperroritem.md)
+[**IWMPErrorItem**](/windows/win32/wmp/nn-wmp-iwmperroritem?branch=master)
 </dt> <dt>
 
 [**Interfaces for Visual Basic .NET and C#**](interfaces-for-visual-basic--net-and-c.md)
@@ -58,9 +65,9 @@ The **IWMPErrorItem2 (VB and C#)** interface does not define any members.
 [**IWMPErrorItem Interface (VB and C#)**](iwmperroritem--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

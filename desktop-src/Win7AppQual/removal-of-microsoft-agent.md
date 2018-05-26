@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '863d30cc-24dd-4215-a4d5-25d51a725dcd'
+Description: .
+ms.assetid: 863d30cc-24dd-4215-a4d5-25d51a725dcd
 title: Removal of Microsoft Agent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Removal of Microsoft Agent

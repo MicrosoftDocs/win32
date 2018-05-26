@@ -1,8 +1,11 @@
 ---
 title: RequestStateChange method of the MSFT\_StorageJob class
 description: Requests that the state of the job be changed to the value specified in the RequestedState parameter.
-ms.assetid: '5259BE29-2B3C-4FED-9D99-14264751D898'
-keywords: ["RequestStateChange method Windows Storage Management API", "RequestStateChange method Windows Storage Management API , MSFT_StorageJob class", "MSFT_StorageJob class Windows Storage Management API , RequestStateChange method"]
+ms.assetid: 5259BE29-2B3C-4FED-9D99-14264751D898
+keywords:
+- RequestStateChange method Windows Storage Management API
+- RequestStateChange method Windows Storage Management API , MSFT_StorageJob class
+- MSFT_StorageJob class Windows Storage Management API , RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the MSFT\_StorageJob class
@@ -22,8 +30,8 @@ Requests that the state of the job be changed to the value specified in the *Req
 
 ```mof
 UInt32 RequestStateChange(
-  [in]  UInt16 RequestedState,
-  [out] String ExtendedStatus
+  [in]  UInt16 RequestedState,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -52,7 +60,7 @@ The new state.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -115,8 +123,8 @@ If you call this method multiple times, earlier requests could be overwritten or
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -129,9 +137,9 @@ If you call this method multiple times, earlier requests could be overwritten or
 [**MSFT\_StorageJob**](msft-storagejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

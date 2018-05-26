@@ -1,7 +1,12 @@
 ---
 title: VML LineStyle Attribute
 description: VML LineStyle Attribute
-ms.assetid: 'eec5c1f3-5256-4104-b021-ebf799665752'
+ms.assetid: eec5c1f3-5256-4104-b021-ebf799665752
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML LineStyle Attribute

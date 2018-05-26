@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETIMAGELIST message
 description: Assigns an image list to a list-view control. You can send this message explicitly or by using the ListView\_SetImageList macro.
-ms.assetid: '5241065b-85e4-412e-9868-fd5b15ff7c17'
-keywords: ["LVM_SETIMAGELIST message Windows Controls"]
+ms.assetid: 5241065b-85e4-412e-9868-fd5b15ff7c17
+keywords:
+- LVM_SETIMAGELIST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETIMAGELIST message
 
-Assigns an image list to a list-view control. You can send this message explicitly or by using the [**ListView\_SetImageList**](listview-setimagelist.md) macro.
+Assigns an image list to a list-view control. You can send this message explicitly or by using the [**ListView\_SetImageList**](/windows/win32/Commctrl/nf-commctrl-listview_setimagelist?branch=master) macro.
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Type of image list. This parameter can be one of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -62,15 +68,15 @@ The current image list will be destroyed when the list-view control is destroyed
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

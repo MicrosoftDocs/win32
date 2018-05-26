@@ -1,7 +1,12 @@
-﻿---
-Description: 'Starts Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application.'
-ms.assetid: 'e7466832-f236-4567-b05d-37d25fe88ba2'
+---
+Description: Starts Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application.
+ms.assetid: e7466832-f236-4567-b05d-37d25fe88ba2
 title: MLWinHelp function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MLWinHelp function
@@ -76,7 +81,7 @@ Returns a nonzero value on success, or zero otherwise. To get extended error inf
 
 This function is not included in a header file and must be called by ordinal 395 for **MLWinHelpA** and 397 for **MLWinHelpW**.
 
-**MLWinHelp** is essentially a wrapper for [**WinHelp**](winhelp.md). It attempts to obtain the path to the help file corresponding to the current UI language setting before calling **WinHelp**. If it succeeds, it passes that path. If it fails, it passes the path pointed to by *lpszHelp*.
+**MLWinHelp** is essentially a wrapper for [**WinHelp**](/windows/win32/Winuser/nf-winuser-winhelpa?branch=master). It attempts to obtain the path to the help file corresponding to the current UI language setting before calling **WinHelp**. If it succeeds, it passes that path. If it fails, it passes the path pointed to by *lpszHelp*.
 
 This function fails if called from any context but the current user.
 
@@ -98,12 +103,12 @@ The following table shows the possible values for the *uCommand* parameter and t
 | HELP\_HELPONHELP    | Displays help on how to use Windows Help, if the Winhlp32.hlp file is available.                                                                                                                                                                                     | Ignored; set to 0.                                                                                                                                                                                                                                                                                           |
 | HELP\_INDEX         | Displays the topic specified by the Contents option in the \[OPTIONS\] section of the .hpj file. This command is for backward compatibility. New applications should use the HELP\_FINDER command.                                                                   | Ignored; set to 0.                                                                                                                                                                                                                                                                                           |
 | HELP\_KEY           | Displays the topic in the keyword table that matches the specified keyword, if there is an exact match. If there is more than one match, displays the index with the topics listed in the **Topics Found** list box.                                                 | Address of a keyword string. Multiple keywords must be separated by semicolons.                                                                                                                                                                                                                              |
-| HELP\_MULTIKEY      | Displays the topic specified by a keyword in an alternative keyword table.                                                                                                                                                                                           | Address of a [**MULTIKEYHELP**](multikeyhelp-str.md) structure that specifies a table footnote character and a keyword.                                                                                                                                                                                     |
+| HELP\_MULTIKEY      | Displays the topic specified by a keyword in an alternative keyword table.                                                                                                                                                                                           | Address of a [**MULTIKEYHELP**](/windows/win32/Winuser/ns-winuser-tagmultikeyhelpa?branch=master) structure that specifies a table footnote character and a keyword.                                                                                                                                                                                     |
 | HELP\_PARTIALKEY    | Displays the topic in the keyword table that matches the specified keyword, if there is an exact match. If there is more than one match, displays the **Topics Found** dialog box. To display the index without passing a keyword, use a pointer to an empty string. | Address of a keyword string. Multiple keywords must be separated by semicolons.                                                                                                                                                                                                                              |
 | HELP\_QUIT          | Informs Windows Help that it is no longer needed. If no other applications have asked for help, Windows closes Windows Help.                                                                                                                                         | Ignored; set to 0.                                                                                                                                                                                                                                                                                           |
 | HELP\_SETCONTENTS   | Specifies the Contents topic. Windows Help displays this topic when the user clicks the **Contents** button if the help file does not have an associated .cnt file.                                                                                                  | Contains the context identifier for the Contents topic.                                                                                                                                                                                                                                                      |
 | HELP\_SETPOPUP\_POS | Sets the position of the subsequent pop-up window.                                                                                                                                                                                                                   | Contains the position data. Use the [**MAKELONG**](winmsg.makelong) macro to concatenate the horizontal and vertical coordinates into a single value. The pop-up window is positioned as if the mouse cursor were at the specified point when the pop-up window was invoked.                                 |
-| HELP\_SETWINPOS     | Displays the Windows Help window, if it is minimized or in memory, and sets its size and position as specified.                                                                                                                                                      | Address of a [**HELPWININFO**](helpwininfo-str.md) structure that specifies the size and position of either a primary or secondary help window.                                                                                                                                                             |
+| HELP\_SETWINPOS     | Displays the Windows Help window, if it is minimized or in memory, and sets its size and position as specified.                                                                                                                                                      | Address of a [**HELPWININFO**](/windows/win32/Winuser/ns-winuser-taghelpwininfoa?branch=master) structure that specifies the size and position of either a primary or secondary help window.                                                                                                                                                             |
 | HELP\_TCARD         | Indicates that a command is for a training card instance of Windows Help. Combine this command with other commands using the bitwise OR operator.                                                                                                                    | Depends on the command with which this command is combined.                                                                                                                                                                                                                                                  |
 | HELP\_WM\_HELP      | Displays the topic for the control identified by the *hWndMain* parameter in a pop-up window.                                                                                                                                                                        | Address of an array of **DWORD** pairs. The first **DWORD** in each pair is a control identifier, and the second is a context identifier for a topic. The array must be terminated by a pair of zeros {0,0}. If you do not want to add Help to a particular control, set its context identifier to -1.       |
 
@@ -129,10 +134,10 @@ The following table shows the possible values for the *uCommand* parameter and t
 
 <dl> <dt>
 
-[**HELPWININFO**](helpwininfo-str.md)
+[**HELPWININFO**](/windows/win32/Winuser/ns-winuser-taghelpwininfoa?branch=master)
 </dt> <dt>
 
-[**MULTIKEYHELP**](multikeyhelp-str.md)
+[**MULTIKEYHELP**](/windows/win32/Winuser/ns-winuser-tagmultikeyhelpa?branch=master)
 </dt> </dl>
 
  

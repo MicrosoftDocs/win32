@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ReadStream method of the Record object reads a specified number of bytes from a record field that contains stream data.'
-ms.assetid: '845e23e5-6379-4592-aee4-cd6832baf335'
-title: 'Record.ReadStream method'
+---
+Description: The ReadStream method of the Record object reads a specified number of bytes from a record field that contains stream data.
+ms.assetid: 845e23e5-6379-4592-aee4-cd6832baf335
+title: Record.ReadStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Record.ReadStream method

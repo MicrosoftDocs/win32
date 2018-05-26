@@ -1,12 +1,17 @@
 ---
-Description: 'The Pause method pauses the filter. This method implements the IMediaFilter::Pause method.'
-ms.assetid: '3e3afd14-1c92-4f2b-a367-e10caaeb3b63'
-title: 'CTransformFilter.Pause method'
+Description: The Pause method pauses the filter. This method implements the IMediaFilterPause method.
+ms.assetid: 3e3afd14-1c92-4f2b-a367-e10caaeb3b63
+title: CTransformFilter.Pause method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.Pause method
 
-The `Pause` method pauses the filter. This method implements the [**IMediaFilter::Pause**](imediafilter-pause.md) method.
+The `Pause` method pauses the filter. This method implements the [**IMediaFilter::Pause**](/windows/win32/Strmif/nf-strmif-imediafilter-pause?branch=master) method.
 
 ## Syntax
 
@@ -47,9 +52,9 @@ This method calls the [**StartStreaming**](ctransformfilter-startstreaming.md) m
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Generates declarations for stub functions for port type operations.'
-ms.assetid: 'd43baeff-c941-4ce9-a6ae-8aa61ef44048'
+Description: Generates declarations for stub functions for port type operations.
+ms.assetid: d43baeff-c941-4ce9-a6ae-8aa61ef44048
 title: stubDeclarations element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # stubDeclarations element
@@ -58,14 +63,14 @@ There are no attributes.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

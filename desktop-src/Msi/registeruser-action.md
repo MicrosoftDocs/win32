@@ -1,7 +1,12 @@
 ---
-Description: 'The RegisterUser action registers the user information with the installer to identify the user of a product.'
-ms.assetid: 'da615cb4-d36d-4180-8f97-c9f83c0df1c6'
+Description: The RegisterUser action registers the user information with the installer to identify the user of a product.
+ms.assetid: da615cb4-d36d-4180-8f97-c9f83c0df1c6
 title: RegisterUser Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisterUser Action

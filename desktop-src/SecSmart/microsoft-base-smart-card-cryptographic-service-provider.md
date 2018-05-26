@@ -1,7 +1,12 @@
 ---
 title: Microsoft Base Smart Card Cryptographic Service Provider
 description: A cryptographic service provider (CSP) that provides all of the functionality of the Microsoft Strong Cryptographic Provider.
-ms.assetid: '8d71e365-c581-4ec8-977b-0725a8c7d9ad'
+ms.assetid: 8d71e365-c581-4ec8-977b-0725a8c7d9ad
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Base Smart Card Cryptographic Service Provider

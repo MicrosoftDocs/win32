@@ -2,13 +2,16 @@
 title: EnrollWebServerCertificate method of the PS\_RemoteAccessLocal class
 description: This method enrolls a web server certificate.
 audience: developer
-ms.assetid: '0eedd0b3-4b78-473b-8b67-7504e7fad082'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0eedd0b3-4b78-473b-8b67-7504e7fad082
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["EnrollWebServerCertificate method", "EnrollWebServerCertificate method, PS_RemoteAccessLocal class", "PS_RemoteAccessLocal class, EnrollWebServerCertificate method"]
+keywords:
+- EnrollWebServerCertificate method
+- EnrollWebServerCertificate method, PS_RemoteAccessLocal class
+- PS_RemoteAccessLocal class, EnrollWebServerCertificate method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnrollWebServerCertificate method of the PS\_RemoteAccessLocal class
@@ -28,9 +34,9 @@ This method enrolls a web server certificate.
 
 ```mof
 uint32 EnrollWebServerCertificate(
-  [in]  string TemplateName,
-  [in]  string SubjectName,
-  [out] uint8  EncodedCertificate[]
+  [in]  string TemplateName,
+  [in]  string SubjectName,
+  [out] uint8  EncodedCertificate[]
 );
 ```
 
@@ -68,7 +74,7 @@ The certificate
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ The certificate
 [**PS\_RemoteAccessLocal**](ps-remoteaccesslocal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

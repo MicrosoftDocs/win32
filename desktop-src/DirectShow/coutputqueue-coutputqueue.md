@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '672c0337-0c36-4f53-9125-d02fe8b36b1c'
-title: 'COutputQueue.COutputQueue constructor'
+Description: Constructor method.
+ms.assetid: 672c0337-0c36-4f53-9125-d02fe8b36b1c
+title: COutputQueue.COutputQueue constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue.COutputQueue constructor
@@ -13,14 +18,14 @@ Constructor method.
 
 ```C++
 COutputQueue(
-   IPin    *pInputPin,
-   HRESULT *phr,
-   BOOL    bAuto = TRUE,
-   BOOL    bQueue = TRUE,
-   LONG    lBatchSize = 1,
-   BOOL    bBatchExact = FALSE,
-   LONG    lListSize = DEFAULTCACHE,
-   DWORD   dwPriority = THREAD_PRIORITY_NORMAL
+   IPin    *pInputPin,
+   HRESULT *phr,
+   BOOL    bAuto = TRUE,
+   BOOL    bQueue = TRUE,
+   LONG    lBatchSize = 1,
+   BOOL    bBatchExact = FALSE,
+   LONG    lListSize = DEFAULTCACHE,
+   DWORD   dwPriority = THREAD_PRIORITY_NORMAL
 );
 ```
 
@@ -33,7 +38,7 @@ COutputQueue(
 *pInputPin* 
 </dt> <dd>
 
-Pointer to the [**IPin**](ipin.md) interface of the input pin. The object will deliver samples to this pin.
+Pointer to the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface of the input pin. The object will deliver samples to this pin.
 
 </dd> <dt>
 
@@ -88,7 +93,7 @@ Priority of the thread that delivers samples.
 
 ## Remarks
 
-If *bAuto* is **TRUE**, the object calls the [**IMemInputPin::ReceiveCanBlock**](imeminputpin-receivecanblock.md) method on the downstream pin. If **ReceiveCanBlock** returns S\_OK (meaning the pin might block on [**IMemInputPin::Receive**](imeminputpin-receive.md) calls), the object creates a thread for delivering samples. Otherwise, it does not create a thread.
+If *bAuto* is **TRUE**, the object calls the [**IMemInputPin::ReceiveCanBlock**](/windows/win32/Strmif/nf-strmif-imeminputpin-receivecanblock?branch=master) method on the downstream pin. If **ReceiveCanBlock** returns S\_OK (meaning the pin might block on [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) calls), the object creates a thread for delivering samples. Otherwise, it does not create a thread.
 
 If *bAuto* is **FALSE**, the value of *bQueue* determines whether to create a thread.
 
@@ -112,9 +117,9 @@ If the object creates a thread, it assigns the thread handle to the [**COutputQu
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

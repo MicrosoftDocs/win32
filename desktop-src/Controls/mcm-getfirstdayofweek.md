@@ -1,8 +1,9 @@
 ---
 title: MCM\_GETFIRSTDAYOFWEEK message
 description: Retrieves the first day of the week for a month calendar control. You can send this message explicitly or by using the MonthCal\_GetFirstDayOfWeek macro.
-ms.assetid: 'bbbc1c45-5693-4a79-908a-ec6e8ef8b218'
-keywords: ["MCM_GETFIRSTDAYOFWEEK message Windows Controls"]
+ms.assetid: bbbc1c45-5693-4a79-908a-ec6e8ef8b218
+keywords:
+- MCM_GETFIRSTDAYOFWEEK message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_GETFIRSTDAYOFWEEK message
 
-Retrieves the first day of the week for a month calendar control. You can send this message explicitly or by using the [**MonthCal\_GetFirstDayOfWeek**](monthcal-getfirstdayofweek.md) macro.
+Retrieves the first day of the week for a month calendar control. You can send this message explicitly or by using the [**MonthCal\_GetFirstDayOfWeek**](/windows/win32/Commctrl/nf-commctrl-monthcal_getfirstdayofweek?branch=master) macro.
 
 ## Parameters
 
@@ -37,15 +43,15 @@ Returns a **DWORD** value that contains two values. The high word is a **BOOL** 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

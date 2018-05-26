@@ -1,7 +1,12 @@
 ---
-Description: 'The DbgInitialise function initializes the debug library. Ignored in retail builds.'
-ms.assetid: 'd4ca739e-cd39-4692-81da-c5a88a09d546'
+Description: The DbgInitialise function initializes the debug library. Ignored in retail builds.
+ms.assetid: d4ca739e-cd39-4692-81da-c5a88a09d546
 title: DbgInitialise function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgInitialise function
@@ -13,7 +18,7 @@ The **DbgInitialise** function initializes the debug library. Ignored in retail 
 
 ```C++
 void DbgInitialise(
-   HINSTANCE hInst
+   HINSTANCE hInst
 );
 ```
 
@@ -58,9 +63,9 @@ In a DLL that links to the base-class library (Strmbase.lib), it is not necessar
 [Debug Output Functions](debug-output-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

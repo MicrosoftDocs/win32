@@ -1,14 +1,20 @@
 ---
 title: minBuffers (ChannelPublishingType) Element
 description: The minimum number of buffers to allocate for the session.
-ms.assetid: '949d64c5-60c1-4ef1-9992-76370e2b10e8'
-keywords: ["minBuffers element EventLog"]
+ms.assetid: 949d64c5-60c1-4ef1-9992-76370e2b10e8
+keywords:
+- minBuffers element EventLog
 topic_type:
 - apiref
 api_name:
 - minBuffers
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # minBuffers (ChannelPublishingType) Element
@@ -29,8 +35,8 @@ The **minBuffers** element is defined by the [**ChannelPublishingType**](eventma
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **minBuffers** element is defined by the [**ChannelPublishingType**](eventma
 [**publishing (ChannelType)**](eventmanifestschema-publishing-channeltype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

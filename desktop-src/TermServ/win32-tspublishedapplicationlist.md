@@ -1,14 +1,16 @@
 ---
 title: Win32\_TSPublishedApplicationList class
-description: Represents the list of programs that are in the RemoteApp Programs list on a Remote Desktop Session Host (RD Session Host) server.
+description: Represents the list of programs that are in the RemoteApp Programs list on a Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3dbefe54-8c31-439f-a87a-5148214a07d5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3dbefe54-8c31-439f-a87a-5148214a07d5
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSPublishedApplicationList class Remote Desktop Services", "Win32_TSPublishedApplicationList class Remote Desktop Services , described"]
+keywords:
+- Win32_TSPublishedApplicationList class Remote Desktop Services
+- Win32_TSPublishedApplicationList class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -24,24 +26,27 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSPublishedApplicationList class
 
-Represents the list of programs that are in the RemoteApp Programs list on a Remote Desktop Session Host (RD Session Host) server.
+Represents the list of programs that are in the RemoteApp Programs list on a Remote Desktop Session Host (RD Session Host) server.
 
 ## Syntax
 
 ``` syntax
 class Win32_TSPublishedApplicationList : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  boolean  Disabled;
-  uint32   PolicySourceDisabled;
+  string   Name;
+  string   Status;
+  boolean  Disabled;
+  uint32   PolicySourceDisabled;
 };
 ```
 
@@ -99,7 +104,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-Indicates whether the RD Session Host server restricts the programs that a user can start on initial connection to the programs that are in the RemoteApp Programs list.
+Indicates whether the RD Session Host server restricts the programs that a user can start on initial connection to the programs that are in the RemoteApp Programs list.
 
 </dd> <dt>
 
@@ -252,7 +257,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 You must be a member of the Administrators group to set properties by using this class.
 
-The **Disabled** property does not prevent users from starting unlisted programs remotely after they connect to the RD Session Host server by using a RemoteApp program.
+The **Disabled** property does not prevent users from starting unlisted programs remotely after they connect to the RD Session Host server by using a RemoteApp program.
 
 The **Disabled** property will be set to a value of 2 only if the following registry entry is missing:
 
@@ -278,16 +283,16 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Tsallow.mof</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>TsPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

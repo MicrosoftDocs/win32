@@ -4,10 +4,13 @@ description: The following topics provide lists of the types of control access r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '62a2fadc-c9f8-4bd6-8fb6-51f7d5467c2c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 62a2fadc-c9f8-4bd6-8fb6-51f7d5467c2c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Control Access Rights

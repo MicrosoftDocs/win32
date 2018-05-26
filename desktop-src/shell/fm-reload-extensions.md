@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent by a File Manager extension (or another application) to cause File Manager to reload all extension DLLs listed in the \[AddOns\] section of the Winfile.ini file.'
-ms.assetid: '5103a986-5f45-4deb-aaae-c6e87cb60051'
-title: 'FM\_RELOAD\_EXTENSIONS message'
+---
+Description: Sent by a File Manager extension (or another application) to cause File Manager to reload all extension DLLs listed in the \[AddOns\] section of the Winfile.ini file.
+ms.assetid: 5103a986-5f45-4deb-aaae-c6e87cb60051
+title: FM\_RELOAD\_EXTENSIONS message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FM\_RELOAD\_EXTENSIONS message

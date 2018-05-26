@@ -1,12 +1,17 @@
 ---
-Description: 'Event Handler Prototype functions are used for all functions that handle Winlogon notification events.'
-ms.assetid: '99b91e80-5e4e-4119-89aa-c0a80fce69e3'
+Description: Event Handler Prototype functions are used for all functions that handle Winlogon notification events.
+ms.assetid: 99b91e80-5e4e-4119-89aa-c0a80fce69e3
 title: Event Handler Function Prototype callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Handler Function Prototype callback function
 
-\[Event Handler Prototype functions are no longer available for use as of Windows Server 2008 and Windows Vista. \]
+\[Event Handler Prototype functions are no longer available for use as of Windows Server 2008 and Windows Vista. \]
 
 Event Handler Prototype functions are used for all functions that handle [*Winlogon*](https://msdn.microsoft.com/library/windows/desktop/ms721635#-security-winlogon-gly) notification events. The name of the function, represented below by the place holder *Event\_Handler\_Function\_Name*, typically reflects the name of the event that the function handles. For example, the function that handles logon events might be named: **WLEventLogon**.
 
@@ -15,7 +20,7 @@ Event Handler Prototype functions are used for all functions that handle [*Winlo
 
 ```C++
 void Event_Handler_Function_Name(
-  _In_ PWLX_NOTIFICATION_INFO pInfo
+  _In_ PWLX_NOTIFICATION_INFO pInfo
 );
 ```
 
@@ -28,7 +33,7 @@ void Event_Handler_Function_Name(
 *pInfo* \[in\]
 </dt> <dd>
 
-A pointer to a [**WLX\_NOTIFICATION\_INFO**](wlx-notification-info.md) structure that contains the details of the event.
+A pointer to a [**WLX\_NOTIFICATION\_INFO**](/windows/win32/Winwlx/ns-winwlx-_wlx_notification_info?branch=master) structure that contains the details of the event.
 
 </dd> </dl>
 
@@ -98,16 +103,16 @@ void WLEventLogoff (PWLX_NOTIFICATION_INFO pInfo)
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
-| End of client support<br/>    | Windows XP<br/>                                |
-| End of server support<br/>    | Windows Server 2003<br/>                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
+| End of client support<br/>    | Windows XP<br/>                                |
+| End of server support<br/>    | Windows Server 2003<br/>                       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

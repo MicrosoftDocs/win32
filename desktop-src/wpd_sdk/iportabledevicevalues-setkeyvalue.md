@@ -1,7 +1,12 @@
 ---
-Description: 'The SetKeyValue method adds a new REFPROPERTYKEY value (type VT\_UNKNOWN) or overwrites an existing one.'
-ms.assetid: '344c52ec-91b1-43f9-b16a-28c24971d805'
-title: 'IPortableDeviceValues::SetKeyValue method'
+Description: The SetKeyValue method adds a new REFPROPERTYKEY value (type VT\_UNKNOWN) or overwrites an existing one.
+ms.assetid: 344c52ec-91b1-43f9-b16a-28c24971d805
+title: IPortableDeviceValuesSetKeyValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetKeyValue method
@@ -13,8 +18,8 @@ The **SetKeyValue** method adds a new **REFPROPERTYKEY** value (type VT\_UNKNOWN
 
 ```C++
 HRESULT SetKeyValue(
-  [in] REFPROPERTYKEY key,
-  [in] REFPROPERTYKEY Value
+  [in] REFPROPERTYKEY key,
+  [in] REFPROPERTYKEY Value
 );
 ```
 
@@ -50,7 +55,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,9 +85,9 @@ If an existing value has the same key that is specified by the *key* parameter, 
 [**IPortableDeviceValues::GetKeyValue**](iportabledevicevalues-getkeyvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

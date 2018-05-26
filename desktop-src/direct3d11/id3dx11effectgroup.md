@@ -1,8 +1,10 @@
 ---
 title: ID3DX11EffectGroup interface
 description: The ID3DX11EffectGroup interface accesses an Effect group.The lifetime of an ID3DX11EffectGroup object is equal to the lifetime of its parent ID3DX11Effect object.
-ms.assetid: 'f5a35c47-0bac-4559-bd6c-5e8bc7699e10'
-keywords: ["ID3DX11EffectGroup interface Direct3D 11", "ID3DX11EffectGroup interface Direct3D 11 , described"]
+ms.assetid: f5a35c47-0bac-4559-bd6c-5e8bc7699e10
+keywords:
+- ID3DX11EffectGroup interface Direct3D 11
+- ID3DX11EffectGroup interface Direct3D 11 , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectGroup interface
@@ -39,7 +46,7 @@ The **ID3DX11EffectGroup** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -48,7 +55,7 @@ To get an **ID3DX11EffectGroup** interface, call a method like [**ID3DX11Effect:
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -71,9 +78,9 @@ To get an **ID3DX11EffectGroup** interface, call a method like [**ID3DX11Effect:
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

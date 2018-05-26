@@ -4,9 +4,9 @@ description: The CFSTR\_DSOBJECTNAMES clipboard format provides a global memory 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b28428fa-1504-4dcc-9b2b-32ca1ae30ec5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b28428fa-1504-4dcc-9b2b-32ca1ae30ec5
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -16,6 +16,9 @@ api_location:
 - DSClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CFSTR\_DSOBJECTNAMES
@@ -30,7 +33,7 @@ api_type:
 
 
 
-The **CFSTR\_DSOBJECTNAMES** clipboard format is supported by the [**IDataObject**](_ole_idataobject) provided by the [**ICommonQuery::OpenQueryWindow**](icommonquery-openquerywindow.md) method. The **CFSTR\_DSOBJECTNAMES** clipboard format provides a global memory handle (**HGLOBAL**) that contains [**DSOBJECTNAMES**](dsobjectnames.md) structure.
+The **CFSTR\_DSOBJECTNAMES** clipboard format is supported by the [**IDataObject**](_ole_idataobject) provided by the [**ICommonQuery::OpenQueryWindow**](/windows/win32/Cmnquery/?branch=master) method. The **CFSTR\_DSOBJECTNAMES** clipboard format provides a global memory handle (**HGLOBAL**) that contains [**DSOBJECTNAMES**](/windows/win32/Dsclient/ns-dsclient-dsobjectnames?branch=master) structure.
 
 
 </dt> </dl> </dd> </dl>
@@ -41,8 +44,8 @@ The **CFSTR\_DSOBJECTNAMES** clipboard format is supported by the [**IDataObject
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>DSClient.h</dt> </dl> |
 
 
@@ -54,15 +57,15 @@ The **CFSTR\_DSOBJECTNAMES** clipboard format is supported by the [**IDataObject
 [**IDataObject**](_ole_idataobject)
 </dt> <dt>
 
-[**ICommonQuery::OpenQueryWindow**](icommonquery-openquerywindow.md)
+[**ICommonQuery::OpenQueryWindow**](/windows/win32/Cmnquery/?branch=master)
 </dt> <dt>
 
-[**DSOBJECTNAMES**](dsobjectnames.md)
+[**DSOBJECTNAMES**](/windows/win32/Dsclient/ns-dsclient-dsobjectnames?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

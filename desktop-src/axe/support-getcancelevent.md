@@ -1,8 +1,11 @@
 ---
 title: Support GetCancelEvent method
 description: Retrieves the handle to an event that Axe signals when a solution requests the assessment should stop running.
-ms.assetid: '0107982B-4BD4-448A-A558-C879778D2DE4'
-keywords: ["GetCancelEvent method Access Execution Engine", "GetCancelEvent method Access Execution Engine , Support interface", "Support interface Access Execution Engine , GetCancelEvent method"]
+ms.assetid: 0107982B-4BD4-448A-A558-C879778D2DE4
+keywords:
+- GetCancelEvent method Access Execution Engine
+- GetCancelEvent method Access Execution Engine , Support interface
+- Support interface Access Execution Engine , GetCancelEvent method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support::GetCancelEvent method
@@ -22,7 +30,7 @@ Retrieves the handle to an event that Axe signals when a solution requests the a
 
 ```C++
 virtual HRESULT GetCancelEvent(
-  [out] HANDLE *cancelEventHandle
+  [out] HANDLE *cancelEventHandle
 ) const = 0;
 ```
 
@@ -57,8 +65,8 @@ Managed code uses [**Support.CancelEvent**](axe-support_cancelevent_om) property
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -80,9 +88,9 @@ Managed code uses [**Support.CancelEvent**](axe-support_cancelevent_om) property
 [**IsCanceled**](support-iscanceled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

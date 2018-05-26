@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the prefix to use in the generated code to assure uniqueness of generated symbols.'
-ms.assetid: '50cb443a-15ae-4f8f-b5f7-b8708810a6c3'
+Description: Defines the prefix to use in the generated code to assure uniqueness of generated symbols.
+ms.assetid: 50cb443a-15ae-4f8f-b5f7-b8708810a6c3
 title: layerPrefix element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # layerPrefix element
@@ -44,14 +49,14 @@ WSDAPI uses the prefix "WSD".
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

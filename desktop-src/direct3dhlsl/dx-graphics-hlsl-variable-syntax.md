@@ -1,8 +1,21 @@
 ---
 title: Variable Syntax
 description: Use the following syntax rules to declare HLSL variables.
-ms.assetid: '684c42d1-2dd4-42e1-9cff-580edb5c6bcd'
-keywords: ["extern, Variable Syntax (DirectX HLSL)", "nointerpolation, Variable Syntax (DirectX HLSL)", "shared, Variable Syntax (DirectX HLSL)", "groupshared, Variable Syntax (DirectX HLSL)", "static, Variable Syntax (DirectX HLSL)", "uniform, Variable Syntax (DirectX HLSL)", "volatile, Variable Syntax (DirectX HLSL)", "precise, Variable Syntax (DirectX HLSL)"]
+ms.assetid: 684c42d1-2dd4-42e1-9cff-580edb5c6bcd
+keywords:
+- extern, Variable Syntax (DirectX HLSL)
+- nointerpolation, Variable Syntax (DirectX HLSL)
+- shared, Variable Syntax (DirectX HLSL)
+- groupshared, Variable Syntax (DirectX HLSL)
+- static, Variable Syntax (DirectX HLSL)
+- uniform, Variable Syntax (DirectX HLSL)
+- volatile, Variable Syntax (DirectX HLSL)
+- precise, Variable Syntax (DirectX HLSL)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Variable Syntax
@@ -13,11 +26,11 @@ Use the following syntax rules to declare HLSL variables.
 
 |                                                                                                                                                                                    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \[*Storage\_Class*\] \[*Type\_Modifier*\] *Type Name*\[*Index*\]     \[*: Semantic*\]     \[*: Packoffset*\]     \[*: Register*\];    \[*Annotations*\]     \[*= Initial\_Value*\] |
+| \[*Storage\_Class*\] \[*Type\_Modifier*\] *Type Name*\[*Index*\]     \[*: Semantic*\]     \[*: Packoffset*\]     \[*: Register*\];    \[*Annotations*\]     \[*= Initial\_Value*\] |
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -84,7 +97,7 @@ The HLSL compiler currently ignores this storage class modifier.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -103,12 +116,12 @@ Optional variable-type modifier.
 
 
 
- 
+ 
 
 > [!Note]  
 > If you do not specify a type-modifier value, the compiler uses **column\_major** as the default value.
 
- 
+ 
 
 </dd> <dt>
 
@@ -159,7 +172,7 @@ Optional metadata, in the form of a string, attached to a global variable. An an
 
 Optional initial value(s); the number of values should match the number of components in *Type*. Each global variable marked **extern** must be initialized with a literal value; each variable marked **static** must be initialized with a constant.
 
-Global variables—that are not marked **static** or **extern**—are not compiled into the shader. The compiler does not automatically set default values for global variables and cannot use them in optimizations. To initialize this type of global variable, use reflection to get its value and then copy the value to a constant buffer. For example, you can use the [**ID3D11ShaderReflection::GetVariableByName**](https://msdn.microsoft.com/library/windows/desktop/ff476626) method to get the variable, use the [**ID3D11ShaderReflectionVariable::GetDesc**](https://msdn.microsoft.com/library/windows/desktop/ff476608) method to get the shader-variable description, and get the initial value from the **DefaultValue** member of the [**D3D11\_SHADER\_VARIABLE\_DESC**](https://msdn.microsoft.com/library/windows/desktop/ff476213) structure. To copy the value to the constant buffer, you must ensure that the buffer was created with CPU write access ([**D3D11\_CPU\_ACCESS\_WRITE**](https://msdn.microsoft.com/library/windows/desktop/ff476106#d3d11-cpu-access-write)). For more information about how to create a constant buffer, see [How to: Create a Constant Buffer](https://msdn.microsoft.com/library/windows/desktop/ff476896).
+Global variables that are not marked **static** or **extern** are not compiled into the shader. The compiler does not automatically set default values for global variables and cannot use them in optimizations. To initialize this type of global variable, use reflection to get its value and then copy the value to a constant buffer. For example, you can use the [**ID3D11ShaderReflection::GetVariableByName**](https://msdn.microsoft.com/library/windows/desktop/ff476626) method to get the variable, use the [**ID3D11ShaderReflectionVariable::GetDesc**](https://msdn.microsoft.com/library/windows/desktop/ff476608) method to get the shader-variable description, and get the initial value from the **DefaultValue** member of the [**D3D11\_SHADER\_VARIABLE\_DESC**](https://msdn.microsoft.com/library/windows/desktop/ff476213) structure. To copy the value to the constant buffer, you must ensure that the buffer was created with CPU write access ([**D3D11\_CPU\_ACCESS\_WRITE**](https://msdn.microsoft.com/library/windows/desktop/ff476106#d3d11-cpu-access-write)). For more information about how to create a constant buffer, see [How to: Create a Constant Buffer](https://msdn.microsoft.com/library/windows/desktop/ff476896).
 
 You can also use the [effects framework](d52a2cad-eac9-4442-9ee5-114bebe0f245) to automatically process the reflecting and setting the initial value. For example, you can use the [**ID3DX11EffectPass::Apply**](https://msdn.microsoft.com/library/windows/desktop/ff476707) method.
 
@@ -202,7 +215,7 @@ HLSL enables threads of a compute shader to exchange values via shared memory. H
 > -   This omission results in non-portable code, which might not work on some hardware and doesn't work on software rasterizers that typically execute threads in smaller groups.
 > -   The performance improvements that you might achieve with this omission will be minor compared to using all-thread barrier.
 
- 
+ 
 
 In Direct3D 10 there is no synchronization of threads when writing to **groupshared**, so this means that each thread is limited to a single location in an array for writing. Use the [SV\_GroupIndex](dx-graphics-hlsl-semantics.md) system value to index into this array when writing to ensure that no two threads can collide. In terms of reading, all threads have access to the entire array for reading.
 
@@ -273,9 +286,9 @@ A sample that uses packoffset is: [HLSLWithoutFX10 Sample](61f892cf-4760-177b-50
 [Variables (DirectX HLSL)](dx-graphics-hlsl-variables.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

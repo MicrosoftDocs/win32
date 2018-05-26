@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a global revocation list (GRL) signature.'
-ms.assetid: '388a901c-6202-41cf-9c3d-f29d8ccca76b'
-title: 'MF\_SIGNATURE structure'
+---
+Description: Contains a global revocation list (GRL) signature.
+ms.assetid: 388a901c-6202-41cf-9c3d-f29d8ccca76b
+title: MF\_SIGNATURE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SIGNATURE structure

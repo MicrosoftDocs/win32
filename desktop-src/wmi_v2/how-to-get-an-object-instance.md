@@ -4,10 +4,13 @@ description: This topic illustrates how to define a simple cmdlet to get instanc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2F2F07A5-7A43-4114-855C-7EEDEF93AF2E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 2F2F07A5-7A43-4114-855C-7EEDEF93AF2E
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to get an object instance

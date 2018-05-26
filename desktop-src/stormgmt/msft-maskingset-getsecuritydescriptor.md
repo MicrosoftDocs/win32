@@ -1,8 +1,11 @@
 ---
 title: GetSecurityDescriptor method of the MSFT\_MaskingSet class
 description: Retrieves the security descriptor that controls access to the masking set object instance.
-ms.assetid: '8738053D-3852-4EB9-9297-48428030CFEF'
-keywords: ["GetSecurityDescriptor method Windows Storage Management API", "GetSecurityDescriptor method Windows Storage Management API , MSFT_MaskingSet class", "MSFT_MaskingSet class Windows Storage Management API , GetSecurityDescriptor method"]
+ms.assetid: 8738053D-3852-4EB9-9297-48428030CFEF
+keywords:
+- GetSecurityDescriptor method Windows Storage Management API
+- GetSecurityDescriptor method Windows Storage Management API , MSFT_MaskingSet class
+- MSFT_MaskingSet class Windows Storage Management API , GetSecurityDescriptor method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSecurityDescriptor method of the MSFT\_MaskingSet class
@@ -22,8 +30,8 @@ Retrieves the security descriptor that controls access to the masking set object
 
 ```mof
 UInt32 GetSecurityDescriptor(
-  [out] String SecurityDescriptor,
-  [out] String ExtendedStatus
+  [out] String SecurityDescriptor,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -89,8 +97,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -103,9 +111,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_MaskingSet**](msft-maskingset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

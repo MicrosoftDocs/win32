@@ -1,7 +1,12 @@
 ---
 Description: MPEG Decoder Preprocessing Transformations
-ms.assetid: 'c7ae0137-0d02-46da-9532-738d805e327d'
+ms.assetid: c7ae0137-0d02-46da-9532-738d805e327d
 title: MPEG Decoder Preprocessing Transformations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG Decoder Preprocessing Transformations
@@ -18,7 +23,7 @@ Below is a description of how to correctly display each of the modes and their h
 
 **MPEG preprocessing with the DVD Navigator and VMR**
 
-Currently, the decoder is passed a FORMAT\_MPEG2\_VIDEO media type (whose format block points to a [**MPEG2VIDEOINFO**](mpeg2videoinfo.md) structure). On the output pins, the decoder produces a FORMAT\_VideoInfo2 media type, whose format block points to a [**VIDEOINFOHEADER2**](videoinfoheader2.md) structure. The structure's **dwReserved** field has been renamed to **dwControls** flags.
+Currently, the decoder is passed a FORMAT\_MPEG2\_VIDEO media type (whose format block points to a [**MPEG2VIDEOINFO**](/windows/win32/Dvdmedia/ns-dvdmedia-tagmpeg2videoinfo?branch=master) structure). On the output pins, the decoder produces a FORMAT\_VideoInfo2 media type, whose format block points to a [**VIDEOINFOHEADER2**](/windows/win32/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2?branch=master) structure. The structure's **dwReserved** field has been renamed to **dwControls** flags.
 
 The **dwControlFlags** member will now contain the new bits.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a matrix that rotates around the z-axis.'
-ms.assetid: 'a168ea24-0cec-4e1b-a128-e9dadedf190b'
+---
+Description: Builds a matrix that rotates around the z-axis.
+ms.assetid: a168ea24-0cec-4e1b-a128-e9dadedf190b
 title: D3DXMatrixRotationZ function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixRotationZ function

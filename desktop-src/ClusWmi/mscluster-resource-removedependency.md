@@ -4,13 +4,16 @@ description: Removes a dependency relationship between two resources.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1ce063e3-bf90-4987-9f96-b858a7f39e31'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1ce063e3-bf90-4987-9f96-b858a7f39e31
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveDependency method", "RemoveDependency method, MSCluster_Resource class", "MSCluster_Resource class, RemoveDependency method"]
+keywords:
+- RemoveDependency method
+- RemoveDependency method, MSCluster_Resource class
+- MSCluster_Resource class, RemoveDependency method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveDependency method of the MSCluster\_Resource class
@@ -30,7 +36,7 @@ Removes a [dependency](https://msdn.microsoft.com/library/aa372236) relationship
 
 ```mof
 void RemoveDependency(
-  [in] string Resource
+  [in] string Resource
 );
 ```
 
@@ -58,7 +64,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Iiisext.h</dt> </dl>   |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
@@ -73,9 +79,9 @@ This method does not return a value.
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

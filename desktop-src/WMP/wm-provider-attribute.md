@@ -1,14 +1,20 @@
 ---
 title: WM/Provider Attribute
 description: The WM/Provider attribute is the name of the provider of the attribute values.
-ms.assetid: '358651d3-5bcd-4a03-a9aa-a33745d0323a'
-keywords: ["WM/Provider Attribute Windows Media Player"]
+ms.assetid: 358651d3-5bcd-4a03-a9aa-a33745d0323a
+keywords:
+- WM/Provider Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/Provider
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Provider Attribute
@@ -51,9 +57,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

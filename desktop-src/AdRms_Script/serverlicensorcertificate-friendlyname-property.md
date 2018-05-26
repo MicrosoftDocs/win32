@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the certificate display name.'
+Description: Specifies or retrieves the certificate display name.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '775267b4-75ab-42c0-b8f6-18a392dab5e0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 775267b4-75ab-42c0-b8f6-18a392dab5e0
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ServerLicensorCertificate.FriendlyName property'
+title: ServerLicensorCertificate.FriendlyName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ServerLicensorCertificate.FriendlyName property
@@ -96,7 +99,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -108,9 +111,9 @@ END FUNCTION
 [**ServerLicensorCertificate**](serverlicensorcertificate-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

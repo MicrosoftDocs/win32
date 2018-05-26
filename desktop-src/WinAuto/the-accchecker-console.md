@@ -1,8 +1,16 @@
 ---
 title: The AccChecker Console
-description: AccChecker Console (AccCheckConsole.exe) is a command-line tool for verifying the accessibility implementation of your application's UI.
-ms.assetid: '9E80BFDD-FB5D-45C5-BE69-7036AD29D863'
-keywords: ["AccChecker Console", "AccChecker command-line tool", "command-line, AccChecker"]
+description: AccChecker Console (AccCheckConsole.exe) is a command-line tool for verifying the accessibility implementation of your applications UI.
+ms.assetid: 9E80BFDD-FB5D-45C5-BE69-7036AD29D863
+keywords:
+- AccChecker Console
+- AccChecker command-line tool
+- command-line, AccChecker
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The AccChecker Console
@@ -42,7 +50,7 @@ The command-line options are as follows.
 
 
 
- 
+ 
 
 ## Command-line Error Codes
 
@@ -61,7 +69,7 @@ Following are error codes returned from AccCheckConsole when using "echo %errorl
 
 
 
- 
+ 
 
 ## Command-line Examples
 
@@ -86,9 +94,9 @@ Following are several AccChecker Console command-line examples.
 [UI Accessibility Checker](ui-accessibility-checker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

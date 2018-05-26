@@ -1,7 +1,12 @@
 ---
 title: Inbound Connections
 description: Inbound Connections
-ms.assetid: 'f32c41ef-c37c-477b-9599-c65c7a6ef068'
+ms.assetid: f32c41ef-c37c-477b-9599-c65c7a6ef068
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inbound Connections

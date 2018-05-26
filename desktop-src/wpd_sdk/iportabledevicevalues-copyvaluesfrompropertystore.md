@@ -1,7 +1,12 @@
 ---
-Description: 'The CopyValuesFromPropertyStore method copies the contents of an IPropertyStore into the collection.'
-ms.assetid: '887c9569-ff76-41cf-8782-62c59c04e831'
-title: 'IPortableDeviceValues::CopyValuesFromPropertyStore method'
+Description: The CopyValuesFromPropertyStore method copies the contents of an IPropertyStore into the collection.
+ms.assetid: 887c9569-ff76-41cf-8782-62c59c04e831
+title: IPortableDeviceValuesCopyValuesFromPropertyStore method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::CopyValuesFromPropertyStore method
@@ -13,7 +18,7 @@ The **CopyValuesFromPropertyStore** method copies the contents of an **IProperty
 
 ```C++
 HRESULT CopyValuesFromPropertyStore(
-  [in] IPropertyStore *pStore
+  [in] IPropertyStore *pStore
 );
 ```
 
@@ -42,7 +47,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -73,9 +78,9 @@ This method is supported in Windows Vista and later versions of Windows.
 [**IPortableDeviceValues::CopyValuesToPropertyStore**](iportabledevicevalues-copyvaluestopropertystore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

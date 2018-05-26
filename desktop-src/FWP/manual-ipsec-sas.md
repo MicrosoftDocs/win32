@@ -1,7 +1,12 @@
 ---
 title: Manual SA
 description: The Manual Security Association (SA) IPsec policy scenario allows callers to bypass the built-in IPsec keying modules (IKE and AuthIP) by directly specifying IPsec SAs to secure any network traffic.
-ms.assetid: '2bcc0b40-ca43-43c6-b1e4-b64426ef7ff4'
+ms.assetid: 2bcc0b40-ca43-43c6-b1e4-b64426ef7ff4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manual SA
@@ -13,7 +18,7 @@ An example of a possible Manual SA scenario is "Add an IPsec SA pair to secure a
 > [!Note]  
 > The following steps must be executed on both machines with IP addresses appropriately set.
 
- 
+ 
 
 To implement this example programmatically, use the following WFP configuration.
 
@@ -30,7 +35,7 @@ To implement this example programmatically, use the following WFP configuration.
     | **action.type**                                                   | **FWP\_ACTION\_CALLOUT\_TERMINATING**                         |
     | **action.calloutKey**                                             | **FWPM\_CALLOUT\_IPSEC\_INBOUND\_TRANSPORT\_V{4\|6}**         |
 
-        
+        
 2.  Exempt ICMP traffic from IPsec by adding a filter with the following properties. 
     | Filter property                                                   | Value                                                                      |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------|
@@ -39,7 +44,7 @@ To implement this example programmatically, use the following WFP configuration.
     | **action.type**                                                   | **FWP\_ACTION\_PERMIT**                                                    |
     | **weight**                                                        | [**FWPM\_WEIGHT\_RANGE\_IKE\_EXEMPTIONS**](filter-weight-identifiers.md)  |
 
-        
+        
 
 **At FWPM\_LAYER\_OUTBOUND\_TRANSPORT\_V{4\|6} setup outbound per-packet filtering rules**  
 
@@ -52,7 +57,7 @@ To implement this example programmatically, use the following WFP configuration.
     | **action.type**                                                   | **FWP\_ACTION\_CALLOUT\_TERMINATING**                  |
     | **action.calloutKey**                                             | **FWPM\_CALLOUT\_IPSEC\_OUTBOUND\_TRANSPORT\_V{4\|6}** |
 
-        
+        
 2.  Exempt ICMP traffic from IPsec by adding a filter with the following properties. 
     | Filter property                                                   | Value                                                                      |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------|
@@ -61,14 +66,14 @@ To implement this example programmatically, use the following WFP configuration.
     | **action.type**                                                   | **FWP\_ACTION\_PERMIT**                                                    |
     | **weight**                                                        | **FWPM\_WEIGHT\_RANGE\_IKE\_EXEMPTIONS**                                   |
 
-        
+        
 
 **Setup inbound and outbound security associations**
 
-1.  Call [**IPsecSaContextCreate0**](ipsecsacontextcreate0.md), with the *outboundTraffic* parameter containing the IP addresses as 1.1.1.1 & 2.2.2.2, and **ipsecFilterId** as the LUID of the outbound transport layer IPsec callout filter added above.
-2.  Call [**IPsecSaContextGetSpi0**](ipsecsacontextgetspi0.md), with the *id* parameter containing the context ID returned from [**IPsecSaContextCreate0**](ipsecsacontextcreate0.md), and the *getSpi* parameter containing the IP addresses as 1.1.1.1 & 2.2.2.2, and **ipsecFilterId** as the LUID of the inbound transport layer IPsec callout filter added above. The returned SPI value is meant to be used as the inbound SA SPI by the local machine and as the outbound SA SPI by the corresponding remote machine. Both machines must use some out-of-band means to exchange the SPI values.
-3.  Call [**IPsecSaContextAddInbound0**](ipsecsacontextaddinbound0.md), with the *id* parameter containing the context ID returned from [**IPsecSaContextCreate0**](ipsecsacontextcreate0.md), and the *inboundBundle* parameter describing the properties of the inbound SA bundle (such as the inbound SA SPI, transform type, algorithm types, keys, etc).
-4.  Call [**IPsecSaContextAddOutbound0**](ipsecsacontextaddoutbound0.md), with the *id* parameter containing the context ID returned from [**IPsecSaContextCreate0**](ipsecsacontextcreate0.md), and the *outboundBundle* parameter describing the properties of the outbound SA bundle (such as the outbound SA SPI, transform type, algorithm types, keys, etc).
+1.  Call [**IPsecSaContextCreate0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextcreate0?branch=master), with the *outboundTraffic* parameter containing the IP addresses as 1.1.1.1 & 2.2.2.2, and **ipsecFilterId** as the LUID of the outbound transport layer IPsec callout filter added above.
+2.  Call [**IPsecSaContextGetSpi0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextgetspi0?branch=master), with the *id* parameter containing the context ID returned from [**IPsecSaContextCreate0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextcreate0?branch=master), and the *getSpi* parameter containing the IP addresses as 1.1.1.1 & 2.2.2.2, and **ipsecFilterId** as the LUID of the inbound transport layer IPsec callout filter added above. The returned SPI value is meant to be used as the inbound SA SPI by the local machine and as the outbound SA SPI by the corresponding remote machine. Both machines must use some out-of-band means to exchange the SPI values.
+3.  Call [**IPsecSaContextAddInbound0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextaddinbound0?branch=master), with the *id* parameter containing the context ID returned from [**IPsecSaContextCreate0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextcreate0?branch=master), and the *inboundBundle* parameter describing the properties of the inbound SA bundle (such as the inbound SA SPI, transform type, algorithm types, keys, etc).
+4.  Call [**IPsecSaContextAddOutbound0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextaddoutbound0?branch=master), with the *id* parameter containing the context ID returned from [**IPsecSaContextCreate0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextcreate0?branch=master), and the *outboundBundle* parameter describing the properties of the outbound SA bundle (such as the outbound SA SPI, transform type, algorithm types, keys, etc).
 
   
 </dl>
@@ -86,12 +91,12 @@ To implement this example programmatically, use the following WFP configuration.
 [**Filtering Layer Identifiers**](management-filtering-layer-identifiers-.md)
 </dt> <dt>
 
-[**FWPM\_ACTION0**](fwpm-action0-struct.md)
+[**FWPM\_ACTION0**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_action0_?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

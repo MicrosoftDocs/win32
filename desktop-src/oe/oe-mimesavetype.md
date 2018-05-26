@@ -1,8 +1,10 @@
 ---
 title: MIMESAVETYPE enumeration
 description: Do not use. Indicates how an object should be persisted.
-ms.assetid: 'f21fdcdb-2d1a-44da-92be-9d5d66c3e9c3'
-keywords: ["MIMESAVETYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: f21fdcdb-2d1a-44da-92be-9d5d66c3e9c3
+keywords:
+- MIMESAVETYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIMESAVETYPE enumeration
@@ -22,8 +29,8 @@ Do not use. Indicates how an object should be persisted.
 
 ```C++
 typedef enum tagMIMESAVETYPE { 
-  SAVE_RFC822   = 0,
-  SAVE_RFC1521  = 1
+  SAVE_RFC822   = 0,
+  SAVE_RFC1521  = 1
 } ACCESSTYPE;
 ```
 
@@ -53,17 +60,17 @@ Indicates that the object should be saved in [RFC 1521](http://www.ietf.org/rfc/
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Reinstall method of the Win32\_SoftwareFeature class
 description: The Reinstall WMI class method reinstalls the associated instance of Win32\_SoftwareFeature using the specified reinstallation mode.
-ms.assetid: '4882772b-23e6-4240-993a-e5e544297af7'
-keywords: ["Reinstall method", "Reinstall method, Win32_SoftwareFeature class", "Win32_SoftwareFeature class, Reinstall method"]
+ms.assetid: 4882772b-23e6-4240-993a-e5e544297af7
+keywords:
+- Reinstall method
+- Reinstall method, Win32_SoftwareFeature class
+- Win32_SoftwareFeature class, Reinstall method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reinstall method of the Win32\_SoftwareFeature class
@@ -20,14 +28,14 @@ The **Reinstall** [WMI class](https://msdn.microsoft.com/library/aa393244) metho
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 Reinstall(
-  [in] uint16 ReinstallMode
+  [in] uint16 ReinstallMode
 );
 ```
 
@@ -59,7 +67,7 @@ Reinstallation mode. Can be one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -74,7 +82,7 @@ Reinstallation mode. Can be one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -82,8 +90,8 @@ Reinstallation mode. Can be one of the following values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -100,9 +108,9 @@ Reinstallation mode. Can be one of the following values.
 [**Win32\_SoftwareFeature**](win32-softwarefeature.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

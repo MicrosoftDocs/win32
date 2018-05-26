@@ -2,7 +2,12 @@
 title: T
 description: IrDA glossary terms beginning with T.
 Robots: noindex, nofollow
-ms.assetid: '7b3964cb-4dda-4faf-96ad-bf40350fe069'
+ms.assetid: 7b3964cb-4dda-4faf-96ad-bf40350fe069
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # T

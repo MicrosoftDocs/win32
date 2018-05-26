@@ -4,11 +4,13 @@ description: Retrieves a custom input device that is connected to a MultiPoint s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bcef5b3d-ba6a-4aaa-9ddd-a25f9586d088'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: bcef5b3d-ba6a-4aaa-9ddd-a25f9586d088
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IWmsCustomPresenterPlugin interface", "IWmsCustomPresenterPlugin interface, described"]
+keywords:
+- IWmsCustomPresenterPlugin interface
+- IWmsCustomPresenterPlugin interface, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IWmsCustomPresenterPlugin interface
@@ -44,7 +49,7 @@ The **IWmsCustomPresenterPlugin** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,7 +58,7 @@ The **IWmsCustomPresenterPlugin** interface has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 | IID<br/>                      | IID\_IWmsCustomPresenterPlugin is defined as 3110a841-1256-4c62-ad83-ef72a529c5b5<br/>       |
 
@@ -69,9 +74,9 @@ The **IWmsCustomPresenterPlugin** interface has these methods.
 [MultiPoint Services Interfaces](multipoint-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

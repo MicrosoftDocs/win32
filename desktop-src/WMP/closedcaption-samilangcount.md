@@ -1,8 +1,9 @@
 ---
 title: ClosedCaption.SAMILangCount
 description: The SAMILangCount property retrieves the number of languages supported by the current SAMI file.
-ms.assetid: 'ad2e776a-b430-46ee-9705-18d279e8715e'
-keywords: ["ClosedCaption.SAMILangCount Windows Media Player"]
+ms.assetid: ad2e776a-b430-46ee-9705-18d279e8715e
+keywords:
+- ClosedCaption.SAMILangCount Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClosedCaption.SAMILangCount
@@ -58,9 +64,9 @@ This method cannot be used until a digital media file is open (*Player*.**openSt
 [**ClosedCaption.SAMILang**](closedcaption-samilang.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

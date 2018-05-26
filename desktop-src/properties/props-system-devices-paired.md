@@ -1,7 +1,12 @@
 ---
-Description: 'Device paired state. If true, indicates that the device is not paired with the computer.'
-ms.assetid: '8c9a8921-cc8d-4763-b4a7-c4d65960419a'
-title: 'System.Devices.Paired'
+Description: Device paired state. If true, indicates that the device is not paired with the computer.
+ms.assetid: 8c9a8921-cc8d-4763-b4a7-c4d65960419a
+title: System.Devices.Paired
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Paired

@@ -1,7 +1,12 @@
 ---
-Description: 'Pronounciation of the contact''s company name.'
-ms.assetid: '8a00e312-1c5b-4adc-9970-6d16fb5dd437'
-title: 'System.Contact.JA.CompanyNamePhonetic'
+Description: Pronounciation of the contacts company name.
+ms.assetid: 8a00e312-1c5b-4adc-9970-6d16fb5dd437
+title: System.Contact.JA.CompanyNamePhonetic
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.JA.CompanyNamePhonetic

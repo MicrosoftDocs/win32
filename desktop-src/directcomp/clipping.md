@@ -1,7 +1,12 @@
 ---
 title: Clipping
 description: This topic describes Microsoft DirectComposition support for clipping visuals.
-ms.assetid: 'B6E0D8F5-B6B9-40CC-B079-850AC8F2D538'
+ms.assetid: B6E0D8F5-B6B9-40CC-B079-850AC8F2D538
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clipping
@@ -33,17 +38,17 @@ Note that the visual rotated within the clip because the 3D matrix is not applie
 
 If the Clip property is set to an empty rectangle, the visual is fully clipped; that is, the visual is included in the visual tree, but it does not render anything. If you do not want to include a particular visual in a composition, remove the visual from the visual tree instead of setting an empty clip rectangle. Removing the visual results in better performance.
 
-You set the Clip property of a visual by using the [**IDCompositionVisual::SetClip**](idcompositionvisual-setclip-overloaded.md) method. This method includes overloads that enable you to set the value of the Clip property to a static rectangle or to a clip object. Use a static rectangle if you do not need to change the dimensions of the clip rectangle during the lifetime of the visual. If you do need to change the dimensions or animate the clip rectangle, use a clip object.
+You set the Clip property of a visual by using the [**IDCompositionVisual::SetClip**](/windows/win32/Dcomp/nf-dcomp-setclip?branch=master) method. This method includes overloads that enable you to set the value of the Clip property to a static rectangle or to a clip object. Use a static rectangle if you do not need to change the dimensions of the clip rectangle during the lifetime of the visual. If you do need to change the dimensions or animate the clip rectangle, use a clip object.
 
 ## Clip object
 
-A clip object is a Component Object Model (COM) object that represents a clip rectangle. You create a clip object by using the [**IDCompositionDevice::CreateRectangleClip**](idcompositiondevice-createrectangleclip.md) method, and then use the object's [**IDCompositionRectangleClip**](idcompositionrectangleclip.md) interface to set the properties of the object. A newly created clip object has the minimum possible values for the Left and Top properties, and the maximum possible values for the Right and Bottom properties, effectively making it a no-op clip object. In other words, the object represents a clip rectangle that would include the entire bitmap content of a visual.
+A clip object is a Component Object Model (COM) object that represents a clip rectangle. You create a clip object by using the [**IDCompositionDevice::CreateRectangleClip**](/windows/win32/Dcomp/?branch=master) method, and then use the object's [**IDCompositionRectangleClip**](/windows/win32/Dcomp/?branch=master) interface to set the properties of the object. A newly created clip object has the minimum possible values for the Left and Top properties, and the maximum possible values for the Right and Bottom properties, effectively making it a no-op clip object. In other words, the object represents a clip rectangle that would include the entire bitmap content of a visual.
 
 A clip object includes a set of properties that enable you to specify rounded corners for the clip object. The properties enable you to set the x radius and y radius of each corner of the clipping object.
 
 ## Animated clip rectangle
 
-You can animate a clip rectangle by applying animation objects to the Left, Top, Right, and Bottom properties of a clip object. Use the [**IDCompositionVisual::SetClip(IDCompositionClip)**](idcompositionvisual-setclip-idcompositionclip.md) overloaded method to apply the animated clip rectangle to the Clip property of a visual.
+You can animate a clip rectangle by applying animation objects to the Left, Top, Right, and Bottom properties of a clip object. Use the [**IDCompositionVisual::SetClip(IDCompositionClip)**](/windows/win32/Dcomp/?branch=master) overloaded method to apply the animated clip rectangle to the Clip property of a visual.
 
 For more information about animation objects, see [Animation](animation.md).
 

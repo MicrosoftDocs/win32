@@ -1,8 +1,11 @@
 ---
 title: SetAttributes method of the MSFT\_VirtualDisk class
 description: Sets or updates various attributes for the virtual disk.
-ms.assetid: 'AC57C471-7424-4F01-9C1E-44E523BBC8F2'
-keywords: ["SetAttributes method Windows Storage Management API", "SetAttributes method Windows Storage Management API , MSFT_VirtualDisk class", "MSFT_VirtualDisk class Windows Storage Management API , SetAttributes method"]
+ms.assetid: AC57C471-7424-4F01-9C1E-44E523BBC8F2
+keywords:
+- SetAttributes method Windows Storage Management API
+- SetAttributes method Windows Storage Management API , MSFT_VirtualDisk class
+- MSFT_VirtualDisk class Windows Storage Management API , SetAttributes method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetAttributes method of the MSFT\_VirtualDisk class
@@ -22,9 +30,9 @@ Sets or updates various attributes for the virtual disk.
 
 ```mof
 UInt32 SetAttributes(
-  [in]  Boolean IsManualAttach,
-  [in]  UInt16  Access,
-  [out] String  ExtendedStatus
+  [in]  Boolean IsManualAttach,
+  [in]  UInt16  Access,
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -125,8 +133,8 @@ Not all parameters must be specified, and only those that are specified will be 
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -139,9 +147,9 @@ Not all parameters must be specified, and only those that are specified will be 
 [**MSFT\_VirtualDisk**](msft-virtualdisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

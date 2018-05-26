@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_NodeControlEvent class is a WMI class that repres
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b13f2978-5cec-4d29-9edf-54b60af47cd4'
-ms.prod: 'windows-server-dev'
+ms.assetid: b13f2978-5cec-4d29-9edf-54b60af47cd4
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_NodeControlEvent class", "MicrosoftNLB_NodeControlEvent class, described"]
+keywords:
+- MicrosoftNLB_NodeControlEvent class
+- MicrosoftNLB_NodeControlEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_NodeControlEvent class
@@ -41,14 +46,14 @@ The following syntax is simplified from MOF code, and includes all inherited pro
 [WMI, Dynamic, Provider("WmiProv"), guid("{BB066205-531F-4e55-9E70-F47DFDF5235F}"), AMENDMENT]
 class MicrosoftNLB_NodeControlEvent : WmiEvent
 {
-  uint8   SECURITY_DESCRIPTOR[];
-  uint64  TIME_CREATED;
-  string  InstanceName;
+  uint8   SECURITY_DESCRIPTOR[];
+  uint64  TIME_CREATED;
+  string  InstanceName;
   boolean Active;
-  string  AdapterGuid;
-  string  ClusterIPAddress;
-  uint32  HostPriority;
-  uint32  Id;
+  string  AdapterGuid;
+  string  ClusterIPAddress;
+  uint32  HostPriority;
+  uint32  Id;
 };
 ```
 
@@ -298,7 +303,7 @@ The **MicrosoftNLB\_NodeControlEvent** class is derived from the [**WMIEvent**](
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -318,9 +323,9 @@ The **MicrosoftNLB\_NodeControlEvent** class is derived from the [**WMIEvent**](
 [**WMIEvent**](https://msdn.microsoft.com/library/windows/desktop/aa394532)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

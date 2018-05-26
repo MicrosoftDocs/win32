@@ -1,8 +1,13 @@
 ---
 title: IVMDisplay Thumbnail property
-description: The Thumbnail property contains an array of pixels representing a thumbnail image of the virtual machine's screen.
-ms.assetid: '18270583-36b9-4aa7-9eee-ef4340159a93'
-keywords: ["Thumbnail property Virtual Server", "Thumbnail property Virtual Server , IVMDisplay interface", "IVMDisplay interface Virtual Server , Thumbnail property", "Thumbnail property Virtual Server , VMDisplay interface", "VMDisplay interface Virtual Server , Thumbnail property"]
+description: The Thumbnail property contains an array of pixels representing a thumbnail image of the virtual machines screen.
+ms.assetid: 18270583-36b9-4aa7-9eee-ef4340159a93
+keywords:
+- Thumbnail property Virtual Server
+- Thumbnail property Virtual Server , IVMDisplay interface
+- IVMDisplay interface Virtual Server , Thumbnail property
+- Thumbnail property Virtual Server , VMDisplay interface
+- VMDisplay interface Virtual Server , Thumbnail property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDisplay::Thumbnail property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Thumbnail(
-  [out] VARIANT *thumbnailImage
+  [out] VARIANT *thumbnailImage
 );
 ```
 
@@ -80,8 +90,8 @@ This interface returns the thumbnail less efficiently than the [**\_GenerateThum
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -93,9 +103,9 @@ This interface returns the thumbnail less efficiently than the [**\_GenerateThum
 [**IVMDisplay**](ivmdisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

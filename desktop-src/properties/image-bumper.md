@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '278eadc0-62ab-4b28-b238-93e96ce9da00'
+---
+Description: .
+ms.assetid: 278eadc0-62ab-4b28-b238-93e96ce9da00
 title: Image
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image

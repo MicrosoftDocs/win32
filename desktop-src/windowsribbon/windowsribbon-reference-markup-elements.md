@@ -1,7 +1,12 @@
 ---
 title: Markup Elements
 description: Reference documentation for the Windows Ribbon framework markup elements.
-ms.assetid: '70d7c357-8614-4883-97ae-6fce4fe7dcc4'
+ms.assetid: 70d7c357-8614-4883-97ae-6fce4fe7dcc4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Markup Elements

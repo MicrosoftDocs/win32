@@ -1,12 +1,17 @@
 ---
-Description: 'Adds a new IInkStrokeDisp object to the InkDivider object that was passed in.'
-ms.assetid: 'd5b82244-68d5-4137-aaf4-d3232f7c0779'
+Description: Adds a new IInkStrokeDisp object to the InkDivider object that was passed in.
+ms.assetid: d5b82244-68d5-4137-aaf4-d3232f7c0779
 title: AddOneStroke function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddOneStroke function
 
-Adds a new [**IInkStrokeDisp**](iinkstrokedisp.md) object to the [**InkDivider**](inkdivider-class.md) object that was passed in.
+Adds a new [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object to the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object that was passed in.
 
 This function is not intended to be used by application code.
 
@@ -15,10 +20,10 @@ This function is not intended to be used by application code.
 
 ```C++
 HRESULT WINAPI AddOneStroke(
-  _In_ INT_PTR hDivider,
-  _In_ int     strokeId,
-  _In_ int     cPoints,
-  _In_ POINT   *aPoints
+  _In_ INT_PTR hDivider,
+  _In_ int     strokeId,
+  _In_ int     cPoints,
+  _In_ POINT   *aPoints
 );
 ```
 
@@ -31,28 +36,28 @@ HRESULT WINAPI AddOneStroke(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](inkdivider-class.md) object.
+A handle to the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 </dd> <dt>
 
 *strokeId* \[in\]
 </dt> <dd>
 
-The [**Id**](iinkstrokedisp-id.md) of the [**IInkStrokeDisp**](iinkstrokedisp.md) object to be added to the [**InkDivider**](inkdivider-class.md) object.
+The [**Id**](/windows/win32/msinkaut/nf-msinkaut-iinkstrokedisp-get_id?branch=master) of the [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object to be added to the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 </dd> <dt>
 
 *cPoints* \[in\]
 </dt> <dd>
 
-The number of packets that make up the new [**IInkStrokeDisp**](iinkstrokedisp.md) object.
+The number of packets that make up the new [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object.
 
 </dd> <dt>
 
 *aPoints* \[in\]
 </dt> <dd>
 
-The array of packets that make up the [**IInkStrokeDisp**](iinkstrokedisp.md) object in *strokeId*.
+The array of packets that make up the [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object in *strokeId*.
 
 </dd> </dl>
 
@@ -69,7 +74,7 @@ This function can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -77,15 +82,15 @@ This function can return one of these values.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | None supported<br/>                                                             |
 | Library<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

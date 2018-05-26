@@ -1,12 +1,17 @@
-﻿---
-Description: 'Contains a pointer to the application's callback interface for the IMFMediaSourceExtensionNotify.'
-ms.assetid: 'A5783F9B-6261-4384-9484-275F550709E2'
-title: 'MF\_MSE\_CALLBACK attribute'
+---
+Description: Contains a pointer to the applications callback interface for the IMFMediaSourceExtensionNotify.
+ms.assetid: A5783F9B-6261-4384-9484-275F550709E2
+title: MF\_MSE\_CALLBACK attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MSE\_CALLBACK attribute
 
-Contains a pointer to the application's callback interface for the [**IMFMediaSourceExtensionNotify**](imfmediasourceextensionnotify.md).
+Contains a pointer to the application's callback interface for the [**IMFMediaSourceExtensionNotify**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediasourceextensionnotify?branch=master).
 
 ## Data type
 

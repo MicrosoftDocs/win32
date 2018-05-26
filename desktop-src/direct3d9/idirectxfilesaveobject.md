@@ -1,7 +1,12 @@
-﻿---
-Description: 'Applications use the methods of the IDirectXFileSaveObject interface to create data objects and to save templates and data objects.'
-ms.assetid: '7948a7d2-b150-45cf-a1fc-5dca21d74770'
+---
+Description: Applications use the methods of the IDirectXFileSaveObject interface to create data objects and to save templates and data objects.
+ms.assetid: 7948a7d2-b150-45cf-a1fc-5dca21d74770
 title: IDirectXFileSaveObject interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileSaveObject interface

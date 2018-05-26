@@ -1,7 +1,12 @@
 ---
-Description: 'Call back number of the contact.'
-ms.assetid: 'bcfd0f2b-317b-41de-88ab-acfde822e6fb'
-title: 'System.Contact.CallbackTelephone'
+Description: Call back number of the contact.
+ms.assetid: bcfd0f2b-317b-41de-88ab-acfde822e6fb
+title: System.Contact.CallbackTelephone
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.CallbackTelephone

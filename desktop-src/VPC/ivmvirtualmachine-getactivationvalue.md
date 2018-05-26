@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine GetActivationValue method
 description: Retrieves the value of the specified activation setting for this virtual machine.
-ms.assetid: '9a6f138f-6a8a-4cdf-8fb3-83d541d88fba'
-keywords: ["GetActivationValue method Virtual PC", "GetActivationValue method Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , GetActivationValue method"]
+ms.assetid: 9a6f138f-6a8a-4cdf-8fb3-83d541d88fba
+keywords:
+- GetActivationValue method Virtual PC
+- GetActivationValue method Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , GetActivationValue method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::GetActivationValue method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the value of the specified activation setting for this virtual machine.
 
@@ -24,8 +32,8 @@ Retrieves the value of the specified activation setting for this virtual machine
 
 ```C++
 HRESULT GetActivationValue(
-  [in]          BSTR    activationKey,
-  [out, retval] VARIANT *activationValue
+  [in]          BSTR    activationKey,
+  [out, retval] VARIANT *activationValue
 );
 ```
 
@@ -66,13 +74,13 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
 This method provides low-level access to any activation value. It can be used to set activation values for customer-defined keys. When a virtual machine is started, a copy is made of its configuration values, which becomes its set of activation values. Activation values are maintained until the virtual machine is shut down or restarted. Note that Windows Virtual PC may only use the configuration to store values for certain keys, that is, the activation value may never be used.
 
-Activation keys are stored internally in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark–delimited format.
+Activation keys are stored internally in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark delimited format.
 
 For example, to read the value of the "default\_action" key located in the following key tree:
 
@@ -94,9 +102,9 @@ The *activationKey* path string would be specified as follows:
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -110,9 +118,9 @@ The *activationKey* path string would be specified as follows:
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

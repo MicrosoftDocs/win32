@@ -1,13 +1,16 @@
 ---
-title: What's New in the Failover Cluster API for Windows Server 2008
+title: Whats New in the Failover Cluster API for Windows Server 2008
 description: This summarizes the changes in the Failover Cluster APIs for Windows Server 2008.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3F828899-EF24-4628-BF3B-8BF761E41BCA'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3F828899-EF24-4628-BF3B-8BF761E41BCA
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What's New in the Failover Cluster API for Windows Server 2008
@@ -18,33 +21,33 @@ This summarizes the changes in the Failover Cluster APIs for Windows Server 200
 
 New functions added in Windows Server 2008:
 
--   [**AddClusterNode**](addclusternode.md)
--   [**ClusterRegBatchAddCommand**](clusterregbatchaddcommand.md)
--   [**ClusterRegBatchCloseNotification**](clusterregbatchclosenotification.md)
--   [**ClusterRegBatchReadCommand**](clusterregbatchreadcommand.md)
--   [**ClusterRegCloseBatch**](clusterregclosebatch.md)
--   [**ClusterRegCloseBatchNotifyPort**](clusterregclosebatchnotifyport.md)
--   [**ClusterRegCreateBatch**](clusterregcreatebatch.md)
--   [**ClusterRegCreateBatchNotifyPort**](clusterregcreatebatchnotifyport.md)
--   [**ClusterRegGetBatchNotification**](clusterreggetbatchnotification.md)
--   [**CreateCluster**](createcluster.md)
--   [**DestroyCluster**](destroycluster.md)
--   [**DestroyClusterGroup**](destroyclustergroup.md)
--   [**GetClusterResourceDependencyExpression**](getclusterresourcedependencyexpression.md)
--   [**ResUtilFindFileTimeProperty**](resutilfindfiletimeproperty.md)
--   [**ResUtilGetClusterRoleState**](resutilgetclusterrolestate.md)
--   [**ResUtilGetFileTimeProperty**](resutilgetfiletimeproperty.md)
--   [**ResUtilGetLongProperty**](resutilgetlongproperty.md)
--   [**ResUtilGetQwordValue**](resutilgetqwordvalue.md)
--   [**ResUtilSetQwordValue**](resutilsetqwordvalue.md)
--   [**SetClusterResourceDependencyExpression**](setclusterresourcedependencyexpression.md)
+-   [**AddClusterNode**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_add_cluster_node?branch=master)
+-   [**ClusterRegBatchAddCommand**](/windows/previous-versions/ClusAPI/nc-clusapi-pcluster_reg_batch_add_command?branch=master)
+-   [**ClusterRegBatchCloseNotification**](/windows/previous-versions/ClusAPI/nc-clusapi-pcluster_reg_batch_close_notification?branch=master)
+-   [**ClusterRegBatchReadCommand**](/windows/previous-versions/ClusAPI/nc-clusapi-pcluster_reg_get_batch_notification?branch=master)
+-   [**ClusterRegCloseBatch**](/windows/previous-versions/ClusAPI/nc-clusapi-pcluster_reg_close_batch?branch=master)
+-   [**ClusterRegCloseBatchNotifyPort**](/windows/previous-versions/ClusAPI/nc-clusapi-pcluster_reg_close_batch_notify_port?branch=master)
+-   [**ClusterRegCreateBatch**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterregcreatebatch?branch=master)
+-   [**ClusterRegCreateBatchNotifyPort**](/windows/previous-versions/ClusAPI/nc-clusapi-pcluster_reg_create_batch_notify_port?branch=master)
+-   [**ClusterRegGetBatchNotification**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterreggetbatchnotification?branch=master)
+-   [**CreateCluster**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_create_cluster?branch=master)
+-   [**DestroyCluster**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_destroy_cluster?branch=master)
+-   [**DestroyClusterGroup**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_destroy_cluster_group?branch=master)
+-   [**GetClusterResourceDependencyExpression**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_resource_dependency_expression?branch=master)
+-   [**ResUtilFindFileTimeProperty**](/windows/previous-versions/ResApi/nc-resapi-presutil_find_filetime_property?branch=master)
+-   [**ResUtilGetClusterRoleState**](/windows/previous-versions/ResApi/nf-resapi-resutilgetclusterrolestate?branch=master)
+-   [**ResUtilGetFileTimeProperty**](/windows/previous-versions/ResApi/nc-resapi-presutil_get_filetime_property?branch=master)
+-   [**ResUtilGetLongProperty**](/windows/previous-versions/ResApi/nc-resapi-presutil_get_long_property?branch=master)
+-   [**ResUtilGetQwordValue**](/windows/previous-versions/ResApi/nc-resapi-presutil_get_qword_value?branch=master)
+-   [**ResUtilSetQwordValue**](/windows/previous-versions/ResApi/nc-resapi-presutil_set_qword_value?branch=master)
+-   [**SetClusterResourceDependencyExpression**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_set_cluster_resource_dependency_expression?branch=master)
 
 New callback functions added in Windows Server 2008:
 
--   [*ResourceCallback*](lpresource-callback.md)
--   [*ResourceCallbackEx*](lpresource-callback-ex.md)
--   [*PCLUSTERpclu\_SETUP\_PROGRESS\_CALLBACK*](pcluster-setup-progress-callback.md)
--   [*WorkerStartRoutine*](pworker-start-routine.md)
+-   [*ResourceCallback*](/windows/previous-versions/ResApi/nc-resapi-lpresource_callback?branch=master)
+-   [*ResourceCallbackEx*](/windows/previous-versions/ResApi/nc-resapi-lpresource_callback_ex?branch=master)
+-   [*PCLUSTERpclu\_SETUP\_PROGRESS\_CALLBACK*](/windows/previous-versions/ClusAPI/nc-clusapi-pcluster_setup_progress_callback?branch=master)
+-   [*WorkerStartRoutine*](/windows/previous-versions/ResApi/nc-resapi-pworker_start_routine?branch=master)
 
 New methods added in Windows Server 2008:
 
@@ -122,21 +125,21 @@ New control codes added in Windows Server 2008:
 
 New enumerations added in Windows Server 2008:
 
--   [**CLUSCTL\_CLUSTER\_CODES**](clusctl-cluster-codes.md)
--   [**CLUSCTL\_GROUP\_CODES**](clusctl-group-codes.md)
--   [**CLUSCTL\_NETINTERFACE\_CODES**](clusctl-netinterface-codes.md)
--   [**CLUSCTL\_NETWORK\_CODES**](clusctl-network-codes.md)
--   [**CLUSCTL\_NODE\_CODES**](clusctl-node-codes.md)
--   [**CLUSTER\_GROUP\_STATE**](cluster-group-state.md)
--   [**CLUSTER\_QUORUM\_TYPE**](cluster-quorum-type.md)
--   [**CLUSTER\_REG\_COMMAND**](cluster-reg-command.md)
--   [**CLUSTER\_RESOURCE\_CLASS**](cluster-resource-class.md)
--   [**CLUSTER\_RESOURCE\_CREATE\_FLAGS**](cluster-resource-create-flags.md)
--   [**CLUSTER\_ROLE**](cluster-role.md)
--   [**CLUSTER\_ROLE\_STATE**](cluster-role-state.md)
--   [**FILESHARE\_CHANGE\_ENUM**](fileshare-change-enum.md)
--   [**MAINTENANCE\_MODE\_TYPE\_ENUM**](maintenance-mode-type-enum.md)
--   [**RESOURCE\_MONITOR\_STATE**](resource-monitor-state.md)
+-   [**CLUSCTL\_CLUSTER\_CODES**](/windows/previous-versions/ClusAPI/ne-clusapi-clusctl_cluster_codes?branch=master)
+-   [**CLUSCTL\_GROUP\_CODES**](/windows/previous-versions/ClusAPI/ne-clusapi-clusctl_group_codes?branch=master)
+-   [**CLUSCTL\_NETINTERFACE\_CODES**](/windows/previous-versions/ClusAPI/ne-clusapi-clusctl_netinterface_codes?branch=master)
+-   [**CLUSCTL\_NETWORK\_CODES**](/windows/previous-versions/ClusAPI/ne-clusapi-clusctl_network_codes?branch=master)
+-   [**CLUSCTL\_NODE\_CODES**](/windows/previous-versions/ClusAPI/ne-clusapi-clusctl_node_codes?branch=master)
+-   [**CLUSTER\_GROUP\_STATE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_group_state?branch=master)
+-   [**CLUSTER\_QUORUM\_TYPE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_quorum_type?branch=master)
+-   [**CLUSTER\_REG\_COMMAND**](/windows/previous-versions/ClusAPI/ne-clusapi-_cluster_reg_command?branch=master)
+-   [**CLUSTER\_RESOURCE\_CLASS**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_resource_class?branch=master)
+-   [**CLUSTER\_RESOURCE\_CREATE\_FLAGS**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_resource_create_flags?branch=master)
+-   [**CLUSTER\_ROLE**](/windows/previous-versions/ResApi/ne-resapi-_cluster_role?branch=master)
+-   [**CLUSTER\_ROLE\_STATE**](/windows/previous-versions/ResApi/ne-resapi-_cluster_role_state?branch=master)
+-   [**FILESHARE\_CHANGE\_ENUM**](/windows/previous-versions/ClusAPI/ne-clusapi-_fileshare_change_enum?branch=master)
+-   [**MAINTENANCE\_MODE\_TYPE\_ENUM**](/windows/previous-versions/ClusAPI/ne-clusapi-_maintenance_mode_type_enum?branch=master)
+-   [**RESOURCE\_MONITOR\_STATE**](/windows/previous-versions/ResApi/ne-resapi-resource_monitor_state?branch=master)
 
 New MOF classes added in Windows Server 2008:
 
@@ -225,26 +228,26 @@ New properties added in Windows Server 2008:
 
 New structures added in Windows Server 2008:
 
--   [**CLUS\_MAINTENANCE\_MODE\_INFOEX**](clus-maintenance-mode-infoex.md)
--   [**CLUS\_NETNAME\_PWD\_INFO**](clus-netname-pwd-info.md)
--   [**CLUS\_NETNAME\_VS\_TOKEN\_INFO**](clus-netname-vs-token-info.md)
--   [**CLUS\_PARTITION\_INFO\_EX**](clus-partition-info-ex.md)
--   [**CLUS\_PROVIDER\_STATE\_CHANGE\_INFO**](clus-provider-state-change-info.md)
--   [**CLUS\_STORAGE\_GET\_AVAILABLE\_DRIVELETTERS**](clus-storage-get-available-driveletters.md)
--   [**CLUS\_STORAGE\_REMAP\_DRIVELETTER**](clus-storage-remap-driveletter.md)
--   [**CLUS\_STORAGE\_SET\_DRIVELETTER**](clus-storage-set-driveletter.md)
--   [**CLUSPROP\_FILETIME**](clusprop-filetime.md)
--   [**CLUSPROP\_PARTITION\_INFO\_EX**](clusprop-partition-info-ex.md)
--   [**CLUSTER\_BATCH\_COMMAND**](cluster-batch-command.md)
--   [**CLUSTER\_IP\_ENTRY**](cluster-ip-entry.md)
--   [**CLUSTER\_VALIDATE\_DIRECTORY**](cluster-validate-directory.md)
--   [**CLUSTER\_VALIDATE\_NETNAME**](cluster-validate-netname.md)
--   [**CLUSTER\_VALIDATE\_PATH**](cluster-validate-path.md)
--   [**CREATE\_CLUSTER\_CONFIG**](create-cluster-config.md)
--   [**FILESHARE\_CHANGE**](fileshare-change.md)
--   [**FILESHARE\_CHANGE\_LIST**](fileshare-change-list.md)
--   [**MONITOR\_STATE**](monitor-state.md)
--   [**RESUTIL\_FILETIME\_DATA**](resutil-filetime-data.md)
+-   [**CLUS\_MAINTENANCE\_MODE\_INFOEX**](/windows/previous-versions/ClusAPI/ns-clusapi-_clus_maintenance_mode_infoex?branch=master)
+-   [**CLUS\_NETNAME\_PWD\_INFO**](/windows/previous-versions/ClusAPI/ns-clusapi-clus_netname_pwd_info?branch=master)
+-   [**CLUS\_NETNAME\_VS\_TOKEN\_INFO**](/windows/previous-versions/ClusAPI/ns-clusapi-clus_netname_vs_token_info?branch=master)
+-   [**CLUS\_PARTITION\_INFO\_EX**](/windows/previous-versions/ClusAPI/ns-clusapi-clus_partition_info_ex?branch=master)
+-   [**CLUS\_PROVIDER\_STATE\_CHANGE\_INFO**](/windows/previous-versions/ClusAPI/ns-clusapi-_clus_provider_state_change_info?branch=master)
+-   [**CLUS\_STORAGE\_GET\_AVAILABLE\_DRIVELETTERS**](/windows/previous-versions/ClusAPI/ns-clusapi-_clus_storage_get_available_driveletters?branch=master)
+-   [**CLUS\_STORAGE\_REMAP\_DRIVELETTER**](/windows/previous-versions/ClusAPI/ns-clusapi-_clus_storage_remap_driveletter?branch=master)
+-   [**CLUS\_STORAGE\_SET\_DRIVELETTER**](/windows/previous-versions/ClusAPI/ns-clusapi-_clus_storage_set_driveletter?branch=master)
+-   [**CLUSPROP\_FILETIME**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_filetime?branch=master)
+-   [**CLUSPROP\_PARTITION\_INFO\_EX**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_partition_info_ex?branch=master)
+-   [**CLUSTER\_BATCH\_COMMAND**](/windows/previous-versions/ClusAPI/ns-clusapi-_cluster_batch_command?branch=master)
+-   [**CLUSTER\_IP\_ENTRY**](/windows/previous-versions/ClusAPI/ns-clusapi-_cluster_ip_entry?branch=master)
+-   [**CLUSTER\_VALIDATE\_DIRECTORY**](/windows/previous-versions/ClusAPI/ns-clusapi-_cluster_validate_directory?branch=master)
+-   [**CLUSTER\_VALIDATE\_NETNAME**](/windows/previous-versions/ClusAPI/ns-clusapi-_cluster_validate_netname?branch=master)
+-   [**CLUSTER\_VALIDATE\_PATH**](/windows/previous-versions/ClusAPI/ns-clusapi-_cluster_validate_path?branch=master)
+-   [**CREATE\_CLUSTER\_CONFIG**](/windows/previous-versions/ClusAPI/ns-clusapi-_create_cluster_config?branch=master)
+-   [**FILESHARE\_CHANGE**](/windows/previous-versions/ClusAPI/ns-clusapi-_fileshare_change?branch=master)
+-   [**FILESHARE\_CHANGE\_LIST**](/windows/previous-versions/ClusAPI/ns-clusapi-_fileshare_change_list?branch=master)
+-   [**MONITOR\_STATE**](/windows/previous-versions/ResApi/ns-resapi-monitor_state?branch=master)
+-   [**RESUTIL\_FILETIME\_DATA**](/windows/previous-versions/ResApi/ns-resapi-resutil_filetime_data?branch=master)
 
 ## Related topics
 

@@ -1,8 +1,24 @@
 ---
 title: Attributes with Multiple Values
 description: Attributes with Multiple Values
-ms.assetid: '8405481c-47f5-4752-9dab-d3c84711fbb4'
-keywords: ["Windows Media Player,attributes for media items", "Windows Media Player object model,attributes for media items", "object model,attributes for media items", "Windows Media Player Mobile,attributes for media items", "Windows Media Player ActiveX control,attributes for media items", "Windows Media Player Mobile ActiveX control,attributes for media items", "ActiveX control,attributes for media items", "Windows Media Player library,attributes for media items", "library,attributes for media items", "attributes,multiple values", "multiple attribute values"]
+ms.assetid: 8405481c-47f5-4752-9dab-d3c84711fbb4
+keywords:
+- Windows Media Player,attributes for media items
+- Windows Media Player object model,attributes for media items
+- object model,attributes for media items
+- Windows Media Player Mobile,attributes for media items
+- Windows Media Player ActiveX control,attributes for media items
+- Windows Media Player Mobile ActiveX control,attributes for media items
+- ActiveX control,attributes for media items
+- Windows Media Player library,attributes for media items
+- library,attributes for media items
+- attributes,multiple values
+- multiple attribute values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes with Multiple Values

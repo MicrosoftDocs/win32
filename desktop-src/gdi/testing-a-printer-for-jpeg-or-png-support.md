@@ -1,14 +1,19 @@
 ---
-Description: 'The SetDIBitsToDevice function uses color data from a DIB to set the pixels in the specified rectangle on the device that is associated with the destination device context.'
-ms.assetid: '7cbb2b7a-2d95-4352-9e75-aa814e8f01bd'
+Description: The SetDIBitsToDevice function uses color data from a DIB to set the pixels in the specified rectangle on the device that is associated with the destination device context.
+ms.assetid: 7cbb2b7a-2d95-4352-9e75-aa814e8f01bd
 title: Testing a Printer for JPEG or PNG Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing a Printer for JPEG or PNG Support
 
-The [**SetDIBitsToDevice**](setdibitstodevice.md) function uses color data from a DIB to set the pixels in the specified rectangle on the device that is associated with the destination device context.
+The [**SetDIBitsToDevice**](/windows/win32/Wingdi/nf-wingdi-setdibitstodevice?branch=master) function uses color data from a DIB to set the pixels in the specified rectangle on the device that is associated with the destination device context.
 
-[**SetDIBitsToDevice**](setdibitstodevice.md) is extended to allow a JPEG or PNG image to be passed as the source image.
+[**SetDIBitsToDevice**](/windows/win32/Wingdi/nf-wingdi-setdibitstodevice?branch=master) is extended to allow a JPEG or PNG image to be passed as the source image.
 
 For example:
 

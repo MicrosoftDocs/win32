@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetStreamNumber method specifies which stream to read from the source file associated with this source object.'
-ms.assetid: 'd40d0889-3b28-4114-9dd2-529e380eaeb8'
-title: 'IAMTimelineSrc::SetStreamNumber method'
+---
+Description: The SetStreamNumber method specifies which stream to read from the source file associated with this source object.
+ms.assetid: d40d0889-3b28-4114-9dd2-529e380eaeb8
+title: IAMTimelineSrcSetStreamNumber method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineSrc::SetStreamNumber method

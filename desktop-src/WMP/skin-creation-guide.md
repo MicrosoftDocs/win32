@@ -1,8 +1,17 @@
 ---
 title: Skin Creation Guide
 description: Skin Creation Guide
-ms.assetid: '86c77764-5c8c-4493-ac2d-15268c1ba564'
-keywords: ["Windows Media Player,skins", "Windows Media Player skins,creation guide", "skins,creation guide", "creating skins,about"]
+ms.assetid: 86c77764-5c8c-4493-ac2d-15268c1ba564
+keywords:
+- Windows Media Player,skins
+- Windows Media Player skins,creation guide
+- skins,creation guide
+- creating skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Skin Creation Guide

@@ -1,8 +1,9 @@
 ---
 title: WM\_POINTERACTIVATE message
 description: Sent to an inactive window when a primary pointer generates a WM\_POINTERDOWN over the window.
-ms.assetid: '4eec37da-227c-4be1-bf0b-99704caa1322'
-keywords: ["WM_POINTERACTIVATE message Input Messages and Notifications"]
+ms.assetid: 4eec37da-227c-4be1-bf0b-99704caa1322
+keywords:
+- WM_POINTERACTIVATE message Input Messages and Notifications
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_POINTERACTIVATE message
@@ -71,8 +77,8 @@ If the application does not handle this message, [**DefWindowProc**](https://msd
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -84,9 +90,9 @@ If the application does not handle this message, [**DefWindowProc**](https://msd
 [Messages](messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,16 @@ description: The SOAP Request and Response binding method uses SOAP to bind to a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2a86a254-59c8-4cc5-84eb-c263c19694af'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2a86a254-59c8-4cc5-84eb-c263c19694af
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["SOAP Request and Response Binding DSML", "DSML Services for Windows, SOAP"]
+keywords:
+- SOAP Request and Response Binding DSML
+- DSML Services for Windows, SOAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SOAP Request and Response Binding

@@ -1,8 +1,16 @@
 ---
 title: Notifications
 description: This section contains notifications for Windows Touch gestures.
-ms.assetid: '41c0237e-e535-4662-9cf1-e0c47d7a5078'
-keywords: ["Windows Touch,notifications", "Windows Touch,gestures", "gestures,notifications"]
+ms.assetid: 41c0237e-e535-4662-9cf1-e0c47d7a5078
+keywords:
+- Windows Touch,notifications
+- Windows Touch,gestures
+- gestures,notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Notifications

@@ -4,11 +4,13 @@ description: Describes a resource group, which maps a set of resources (computer
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5715a2ea-9bbc-4704-835e-ba6d93a72368'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 5715a2ea-9bbc-4704-835e-ba6d93a72368
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSGatewayResourceGroup class Remote Desktop Services", "Win32_TSGatewayResourceGroup class Remote Desktop Services , described"]
+keywords:
+- Win32_TSGatewayResourceGroup class Remote Desktop Services
+- Win32_TSGatewayResourceGroup class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSGatewayResourceGroup class
@@ -66,7 +71,7 @@ The **Win32\_TSGatewayResourceGroup** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -83,7 +88,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Semicolon-separated list of Remote Desktop Services resource authorization policies (RD RAPs) that are associated with this resource group.
+Semicolon-separated list of Remote Desktop Services resource authorization policies (RD RAPs) that are associated with this resource group.
 
 </dd> <dt>
 
@@ -142,7 +147,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -171,9 +176,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayServerSettings**](win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

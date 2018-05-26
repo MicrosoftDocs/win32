@@ -1,7 +1,12 @@
-﻿---
-Description: 'Encapsulates a mesh object in a transformation frame hierarchy.'
-ms.assetid: '50e98230-7dc3-468a-92c4-8165e8fe242b'
+---
+Description: Encapsulates a mesh object in a transformation frame hierarchy.
+ms.assetid: 50e98230-7dc3-468a-92c4-8165e8fe242b
 title: D3DXMESHCONTAINER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMESHCONTAINER structure

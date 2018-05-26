@@ -1,8 +1,37 @@
 ---
 title: Security Considerations Text Services Framework
 description: Security Considerations Text Services Framework
-ms.assetid: 'c1250ca0-3887-4519-888f-2ed436a39917'
-keywords: ["Text Services Framework (TSF),security", "TSF (Text Services Framework),security", "text services,security", "TSF-enabled applications,security", "security for TSF", "Text Services Framework (TSF),best practices", "TSF (Text Services Framework),best practices", "TSF-enabled applications,best practices", "text services,best practices", "best practices for TSF", "Text Services Framework (TSF),error checking", "TSF (Text Services Framework),error checking", "TSF-enabled applications,error checking", "text services,error checking", "error checking", "Text Services Framework (TSF),digital signatures", "TSF (Text Services Framework),digital signatures", "text services,digital signatures", "TSF-enabled applications,digital signatures", "digital signatures", "Text Services Framework (TSF),LoadLibrary calls", "TSF (Text Services Framework),LoadLibrary calls", "text services,LoadLibrary calls", "TSF-enabled applications,LoadLibrary calls"]
+ms.assetid: c1250ca0-3887-4519-888f-2ed436a39917
+keywords:
+- Text Services Framework (TSF),security
+- TSF (Text Services Framework),security
+- text services,security
+- TSF-enabled applications,security
+- security for TSF
+- Text Services Framework (TSF),best practices
+- TSF (Text Services Framework),best practices
+- TSF-enabled applications,best practices
+- text services,best practices
+- best practices for TSF
+- Text Services Framework (TSF),error checking
+- TSF (Text Services Framework),error checking
+- TSF-enabled applications,error checking
+- text services,error checking
+- error checking
+- Text Services Framework (TSF),digital signatures
+- TSF (Text Services Framework),digital signatures
+- text services,digital signatures
+- TSF-enabled applications,digital signatures
+- digital signatures
+- Text Services Framework (TSF),LoadLibrary calls
+- TSF (Text Services Framework),LoadLibrary calls
+- text services,LoadLibrary calls
+- TSF-enabled applications,LoadLibrary calls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Considerations: Text Services Framework

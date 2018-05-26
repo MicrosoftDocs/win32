@@ -1,8 +1,9 @@
 ---
 title: BCM\_SETIMAGELIST message
 description: Assigns an image list to a button control. You can send this message explicitly or use the Button\_SetImageList macro.
-ms.assetid: '805d2d9b-3e8f-4323-abaf-0dd5765cd740'
-keywords: ["BCM_SETIMAGELIST message Windows Controls"]
+ms.assetid: 805d2d9b-3e8f-4323-abaf-0dd5765cd740
+keywords:
+- BCM_SETIMAGELIST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCM\_SETIMAGELIST message
 
-Assigns an image list to a button control. You can send this message explicitly or use the [**Button\_SetImageList**](button-setimagelist.md) macro.
+Assigns an image list to a button control. You can send this message explicitly or use the [**Button\_SetImageList**](/windows/win32/Commctrl/nf-commctrl-button_setimagelist?branch=master) macro.
 
 ## Parameters
 
@@ -31,7 +37,7 @@ Not used; must be zero.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**BUTTON\_IMAGELIST**](button-imagelist.md) structure that contains image list information.
+A pointer to a [**BUTTON\_IMAGELIST**](/windows/win32/Commctrl/ns-commctrl-button_imagelist?branch=master) structure that contains image list information.
 
 </dd> </dl>
 
@@ -44,9 +50,9 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
-The image list referred to in the **himl** member of the [**BUTTON\_IMAGELIST**](button-imagelist.md) structure should contain either a single image to be used for all states or individual images for each state. The following states are defined in vssym32.h.
+The image list referred to in the **himl** member of the [**BUTTON\_IMAGELIST**](/windows/win32/Commctrl/ns-commctrl-button_imagelist?branch=master) structure should contain either a single image to be used for all states or individual images for each state. The following states are defined in vssym32.h.
 
 ``` syntax
 enum PUSHBUTTONSTATES {
@@ -69,15 +75,15 @@ Each value is an index to the appropriate image in the image list. If only one i
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

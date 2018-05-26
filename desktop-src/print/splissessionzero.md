@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SplIsSessionZero function determines whether a certain print job (print handle plus job ID) was issued in session zero.'
-ms.assetid: '9d68a41d-0f2b-4cf0-92c6-8e05ce6b4378'
+---
+Description: The SplIsSessionZero function determines whether a certain print job (print handle plus job ID) was issued in session zero.
+ms.assetid: 9d68a41d-0f2b-4cf0-92c6-8e05ce6b4378
 title: SplIsSessionZero function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SplIsSessionZero function

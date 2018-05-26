@@ -1,7 +1,12 @@
 ---
-Description: 'Page-Space to Device-Space Transformations'
-ms.assetid: '5505cf7a-7b9c-4728-934d-7faa4bdfde30'
-title: 'Page-Space to Device-Space Transformations'
+Description: Page-Space to Device-Space Transformations
+ms.assetid: 5505cf7a-7b9c-4728-934d-7faa4bdfde30
+title: Page-Space to Device-Space Transformations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Page-Space to Device-Space Transformations

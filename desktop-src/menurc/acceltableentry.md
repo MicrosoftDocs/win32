@@ -1,14 +1,20 @@
 ---
 title: ACCELTABLEENTRY structure
 description: Describes the data in an individual accelerator table resource. The structure definition provided here is for explanation only; it is not present in any standard header file.
-ms.assetid: '510594ae-56ea-49fb-abd3-ec06e51f2e0e'
-keywords: ["ACCELTABLEENTRY structure Menus and Other Resources"]
+ms.assetid: 510594ae-56ea-49fb-abd3-ec06e51f2e0e
+keywords:
+- ACCELTABLEENTRY structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - ACCELTABLEENTRY
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACCELTABLEENTRY structure
@@ -55,7 +61,7 @@ Describes keyboard accelerator characteristics. This member can have one or more
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -104,8 +110,8 @@ You can compute the number of elements in the table if you divide the length of 
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -116,7 +122,7 @@ You can compute the number of elements in the table if you divide the length of 
 **Reference**
 </dt> <dt>
 
-[**CreateAcceleratorTable**](createacceleratortable.md)
+[**CreateAcceleratorTable**](/windows/win32/Winuser/nf-winuser-createacceleratortablea?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -125,9 +131,9 @@ You can compute the number of elements in the table if you divide the length of 
 [Resources](resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

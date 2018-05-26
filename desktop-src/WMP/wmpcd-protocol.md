@@ -1,8 +1,23 @@
 ---
 title: WMPCD Protocol
 description: WMPCD Protocol
-ms.assetid: '385cfb03-88cc-400c-a2b9-174008ebd854'
-keywords: ["Windows Media Player,protocols", "Windows Media Player object model,protocols", "object model,protocols", "Windows Media Player ActiveX control,protocols for object model", "ActiveX control,protocols for object model", "Windows Media Player Mobile ActiveX control,protocols for object model", "Windows Media Player Mobile,protocols for object model", "protocols,Windows Media Player object model", "protocols,WMPCD", "WMPCD protocol"]
+ms.assetid: 385cfb03-88cc-400c-a2b9-174008ebd854
+keywords:
+- Windows Media Player,protocols
+- Windows Media Player object model,protocols
+- object model,protocols
+- Windows Media Player ActiveX control,protocols for object model
+- ActiveX control,protocols for object model
+- Windows Media Player Mobile ActiveX control,protocols for object model
+- Windows Media Player Mobile,protocols for object model
+- protocols,Windows Media Player object model
+- protocols,WMPCD
+- WMPCD protocol
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMPCD Protocol

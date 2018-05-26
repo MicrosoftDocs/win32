@@ -1,8 +1,9 @@
 ---
 title: EM\_FORMATRANGE message
 description: Formats a range of text in a rich edit control for a specific device.
-ms.assetid: '6d1e562b-d741-4d4a-a395-554083cb0dbb'
-keywords: ["EM_FORMATRANGE message Windows Controls"]
+ms.assetid: 6d1e562b-d741-4d4a-a395-554083cb0dbb
+keywords:
+- EM_FORMATRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_FORMATRANGE message
@@ -31,7 +37,7 @@ Specifies whether to render the text. If this parameter is not zero, the text is
 *lParam* 
 </dt> <dd>
 
-A [**FORMATRANGE**](formatrange.md) structure containing information about the output device, or **NULL** to free information cached by the control.
+A [**FORMATRANGE**](/windows/win32/Richedit/ns-richedit-_formatrange?branch=master) structure containing information about the output device, or **NULL** to free information cached by the control.
 
 </dd> </dl>
 
@@ -51,8 +57,8 @@ After using this message to format a range of text, it is important that you fre
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -73,9 +79,9 @@ After using this message to format a range of text, it is important that you fre
 [Printing Rich Edit Controls](printing-rich-edit-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

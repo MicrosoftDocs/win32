@@ -1,7 +1,12 @@
 ---
 title: About Graphics and Multimedia Files
 description: About Graphics and Multimedia Files
-ms.assetid: 'FF3BDD3D-6CD4-4746-908F-D824271F25C4'
+ms.assetid: FF3BDD3D-6CD4-4746-908F-D824271F25C4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Graphics and Multimedia Files

@@ -1,8 +1,9 @@
 ---
 title: EM\_GETIMECOMPMODE message
 description: Retrieves the current Input Method Editor (IME) mode for a rich edit control.
-ms.assetid: 'dac96833-4c3d-4da7-9ea4-52204434ec10'
-keywords: ["EM_GETIMECOMPMODE message Windows Controls"]
+ms.assetid: dac96833-4c3d-4da7-9ea4-52204434ec10
+keywords:
+- EM_GETIMECOMPMODE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETIMECOMPMODE message
@@ -51,7 +57,7 @@ The return value is one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,15 +65,15 @@ The return value is one of the following values.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

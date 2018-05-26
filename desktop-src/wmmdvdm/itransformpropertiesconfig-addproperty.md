@@ -1,8 +1,11 @@
 ---
 title: ITransformPropertiesConfig AddProperty method
 description: The AddProperty method adds a previously created property to the current collection.
-ms.assetid: '72976722-b759-4bd5-8b42-3dd893adcfd8'
-keywords: ["AddProperty method Windows Movie Maker and DVD Maker", "AddProperty method Windows Movie Maker and DVD Maker , ITransformPropertiesConfig interface", "ITransformPropertiesConfig interface Windows Movie Maker and DVD Maker , AddProperty method"]
+ms.assetid: 72976722-b759-4bd5-8b42-3dd893adcfd8
+keywords:
+- AddProperty method Windows Movie Maker and DVD Maker
+- AddProperty method Windows Movie Maker and DVD Maker , ITransformPropertiesConfig interface
+- ITransformPropertiesConfig interface Windows Movie Maker and DVD Maker , AddProperty method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformPropertiesConfig::AddProperty method
@@ -25,7 +33,7 @@ The **AddProperty** method adds a previously created property to the current col
 
 ```C++
 HRESULT AddProperty(
-  [in] ITransformProperty *pNewProperty
+  [in] ITransformProperty *pNewProperty
 );
 ```
 
@@ -56,8 +64,8 @@ If a property already exists with the same name as the submitted property, this 
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -70,9 +78,9 @@ If a property already exists with the same name as the submitted property, this 
 [**ITransformPropertiesConfig Interface**](itransformpropertiesconfig.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

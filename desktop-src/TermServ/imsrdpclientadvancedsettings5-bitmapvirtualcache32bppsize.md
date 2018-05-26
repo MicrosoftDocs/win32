@@ -4,11 +4,20 @@ description: Sets or retrieves the virtual cache file size for 32 bits per pixel
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7084293a-ae75-4711-a8d8-f813117333e7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 7084293a-ae75-4711-a8d8-f813117333e7
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["BitmapVirtualCache32BppSize property Remote Desktop Services", "BitmapVirtualCache32BppSize property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , BitmapVirtualCache32BppSize property", "BitmapVirtualCache32BppSize property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , BitmapVirtualCache32BppSize property", "BitmapVirtualCache32BppSize property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , BitmapVirtualCache32BppSize property", "BitmapVirtualCache32BppSize property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , BitmapVirtualCache32BppSize property"]
+keywords:
+- BitmapVirtualCache32BppSize property Remote Desktop Services
+- BitmapVirtualCache32BppSize property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , BitmapVirtualCache32BppSize property
+- BitmapVirtualCache32BppSize property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , BitmapVirtualCache32BppSize property
+- BitmapVirtualCache32BppSize property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , BitmapVirtualCache32BppSize property
+- BitmapVirtualCache32BppSize property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , BitmapVirtualCache32BppSize property
 topic_type:
 - apiref
 api_name:
@@ -28,6 +37,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings5::BitmapVirtualCache32BppSize property
@@ -41,11 +53,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_BitmapVirtualCache32BppSize(
-  [in]  LONG bitmapVirtualCache32BppSize
+  [in]  LONG bitmapVirtualCache32BppSize
 );
 
 HRESULT get_BitmapVirtualCache32BppSize(
-  [out] LONG *pbitmapVirtualCache32BppSize
+  [out] LONG *pbitmapVirtualCache32BppSize
 );
 ```
 
@@ -61,8 +73,8 @@ Sets the size of the virtual cache file for 32 bpp bitmaps, in megabytes (MB). T
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings5 is defined as FBA7F64E-6783-4405-DA45-FA4A763DABD0<br/> |
@@ -85,9 +97,9 @@ Sets the size of the virtual cache file for 32 bpp bitmaps, in megabytes (MB). T
 [**IMsRdpClientAdvancedSettings5**](imsrdpclientadvancedsettings5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

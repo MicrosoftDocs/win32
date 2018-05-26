@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Dolby audio decoder is a Media Foundation transform (MFT) that encodes mono or stereo audio to Dolby Digital, also called Dolby AC-3.'
-ms.assetid: 'CBC31132-046C-4CD7-9DBA-20A9C666FB43'
+---
+Description: The Dolby audio decoder is a Media Foundation transform (MFT) that encodes mono or stereo audio to Dolby Digital, also called Dolby AC-3.
+ms.assetid: CBC31132-046C-4CD7-9DBA-20A9C666FB43
 title: Dolby Digital Audio Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dolby Digital Audio Encoder
@@ -190,7 +195,7 @@ To specify the encoding bit rate, set the [MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECON
 
  
 
-The default encoding bit rate is set at 256 kbps for stereo and 192 kbps for mono. The default settings are reflected in the media types returned by the encoder's [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md) method.
+The default encoding bit rate is set at 256 kbps for stereo and 192 kbps for mono. The default settings are reflected in the media types returned by the encoder's [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) method.
 
 ### Example Media Types
 

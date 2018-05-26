@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a description of the original contents of an image file.'
-ms.assetid: '40d89166-cc11-490d-867c-ae5db23a0784'
-title: 'D3DX10\_IMAGE\_INFO structure'
+---
+Description: Returns a description of the original contents of an image file.
+ms.assetid: 40d89166-cc11-490d-867c-ae5db23a0784
+title: D3DX10\_IMAGE\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10\_IMAGE\_INFO structure
@@ -93,7 +98,7 @@ Type: **[**UINT**](winprog.windows_data_types)**
 
 </dd> <dd>
 
-Miscellaneous resource properties (see [**D3D10\_RESOURCE\_MISC\_FLAG**](d3d10-resource-misc-flag.md)).
+Miscellaneous resource properties (see [**D3D10\_RESOURCE\_MISC\_FLAG**](/windows/win32/D3D10/ne-d3d10-d3d10_resource_misc_flag?branch=master)).
 
 </dd> <dt>
 
@@ -111,11 +116,11 @@ A value from the [**DXGI\_FORMAT**](direct3ddxgi.dxgi_format) enumerated type th
 **ResourceDimension**
 </dt> <dd>
 
-Type: **[**D3D10\_RESOURCE\_DIMENSION**](d3d10-resource-dimension.md)**
+Type: **[**D3D10\_RESOURCE\_DIMENSION**](/windows/win32/D3D10/ne-d3d10-d3d10_resource_dimension?branch=master)**
 
 </dd> <dd>
 
-Represents the type of the texture stored in the file. See [**D3D10\_RESOURCE\_DIMENSION**](d3d10-resource-dimension.md).
+Represents the type of the texture stored in the file. See [**D3D10\_RESOURCE\_DIMENSION**](/windows/win32/D3D10/ne-d3d10-d3d10_resource_dimension?branch=master).
 
 </dd> <dt>
 

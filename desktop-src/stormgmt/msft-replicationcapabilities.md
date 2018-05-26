@@ -1,8 +1,10 @@
 ---
 title: MSFT\_ReplicationCapabilities class
 description: Represents the replication capabilities of a storage subsystem.
-ms.assetid: 'EBD8AB73-BE3C-4AD8-9541-9853D3851900'
-keywords: ["MSFT_ReplicationCapabilities class Windows Storage Management API", "MSFT_ReplicationCapabilities class Windows Storage Management API , described"]
+ms.assetid: EBD8AB73-BE3C-4AD8-9541-9853D3851900
+keywords:
+- MSFT_ReplicationCapabilities class Windows Storage Management API
+- MSFT_ReplicationCapabilities class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_ReplicationCapabilities class
@@ -33,15 +40,15 @@ The following syntax is simplified from MOF code and includes all inherited prop
 ``` syntax
 class MSFT_ReplicationCapabilities : MSFT_StorageObject
 {
-  UInt16  SupportedObjectTypes[];
-  UInt16  SupportedReplicationTypes[];
-  UInt32  DefaultRecoveryPointObjective;
+  UInt16  SupportedObjectTypes[];
+  UInt16  SupportedReplicationTypes[];
+  UInt32  DefaultRecoveryPointObjective;
   Boolean SupportsReplicationGroup;
   Boolean SupportsEmptyReplicationGroup;
   Boolean SupportsFullDiscovery;
   Boolean SupportsCreateReplicationRelationshipMethod;
-  Uint16  SupportedAsynchronousActions[];
-  Uint16  SupportedSynchronousActions[];
+  Uint16  SupportedAsynchronousActions[];
+  Uint16  SupportedSynchronousActions[];
 };
 ```
 
@@ -70,7 +77,7 @@ The **MSFT\_ReplicationCapabilities** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -113,7 +120,7 @@ An enumeration indicating what operations will be executed as asynchronous jobs.
 > -   DeleteGroup
 > -   RemoveMembers
 
- 
+ 
 
 <dl> <dt>
 
@@ -332,7 +339,7 @@ Data type: **Uint16** array
 Access type: Read-only
 </dt> </dl>
 
-An enumeration indicating what operations will be executed synchronously—without the creation of a job. If an operation is included in both this and *SupportedAsynchronousActions* then the underlying implementation is indicating that it may or may not create a job.
+An enumeration indicating what operations will be executed synchronously without the creation of a job. If an operation is included in both this and *SupportedAsynchronousActions* then the underlying implementation is indicating that it may or may not create a job.
 
 > [!Note]  
 > The following methods are not supported asynchronously:
@@ -345,7 +352,7 @@ An enumeration indicating what operations will be executed synchronously—without
 > -   DeleteGroup
 > -   RemoveMembers
 
- 
+ 
 
 <dl> <dt>
 
@@ -505,8 +512,8 @@ If **TRUE**, then replication groups are supported.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -519,9 +526,9 @@ If **TRUE**, then replication groups are supported.
 [**MSFT\_StorageObject**](msft-storageobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

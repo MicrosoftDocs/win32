@@ -1,7 +1,12 @@
 ---
 title: Tab Group
 description: A Tab Group is a contextual control that is hidden or displayed at run time, based on a document or workspace state. The Tab Group contains a set of context-related Tab controls.
-ms.assetid: '5b74ff46-2543-43f3-ab42-dab1bc67a75e'
+ms.assetid: 5b74ff46-2543-43f3-ab42-dab1bc67a75e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tab Group

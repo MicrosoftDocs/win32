@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_KeyType method specifies the type of key.'
-ms.assetid: '4a6201e6-1939-4da6-8c9f-1c34b9713ecb'
-title: 'IDxtKey::put\_KeyType method'
+---
+Description: The put\_KeyType method specifies the type of key.
+ms.assetid: 4a6201e6-1939-4da6-8c9f-1c34b9713ecb
+title: IDxtKeyput\_KeyType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtKey::put\_KeyType method

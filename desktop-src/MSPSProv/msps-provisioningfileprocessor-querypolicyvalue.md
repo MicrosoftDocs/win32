@@ -4,13 +4,19 @@ description: Requests a specific policy from a provided policy data set.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f23256e6-5b8f-4efd-9014-fc010bf3c674'
-ms.prod: 'windows-server-dev'
+ms.assetid: f23256e6-5b8f-4efd-9014-fc010bf3c674
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["QueryPolicyValue method", "QueryPolicyValue method, Msps_ProvisioningFileProcessor class", "Msps_ProvisioningFileProcessor class, QueryPolicyValue method"]
+keywords:
+- QueryPolicyValue method
+- QueryPolicyValue method, Msps_ProvisioningFileProcessor class
+- Msps_ProvisioningFileProcessor class, QueryPolicyValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # QueryPolicyValue method of the Msps\_ProvisioningFileProcessor class
@@ -22,9 +28,9 @@ Requests a specific policy from a provided policy data set.
 
 ```mof
 uint32 QueryPolicyValue(
-  [in]  uint8  PolicyData[],
-  [in]  string PolicyGUID,
-  [out] uint8  PolicyValue[]
+  [in]  uint8  PolicyData[],
+  [in]  string PolicyGUID,
+  [out] uint8  PolicyValue[]
 );
 ```
 
@@ -66,7 +72,7 @@ TBD
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>MSPSProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSProv.dll</dt> </dl> |
@@ -80,9 +86,9 @@ TBD
 [**Msps\_ProvisioningFileProcessor**](msps-provisioningfileprocessor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a provider and the counters that it provides.'
-ms.assetid: '85299b01-5679-40f8-8aec-5c2ff8d7cfc8'
+Description: Defines a provider and the counters that it provides.
+ms.assetid: 85299b01-5679-40f8-8aec-5c2ff8d7cfc8
 title: provider Complex Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # provider Complex Type
@@ -177,7 +182,7 @@ Defines a provider and the counters that it provides.
 <tr class="even">
 <td>callback</td>
 
-<td>This attribute indicates that you want to receive notification when a consumer performs certain actions. <br/> If you include this attribute, the CTRPP tool uses the alternate [<strong>CounterInitialize</strong>](counterinitialize.md) function signature, which you use to pass in the name of your function that implements the [<strong>ControlCallback</strong>](controlcallback-perflibv2.md) callback function.<br/> As an alternative to specifying this attribute, you can use the <strong>-NotificationCallback</strong>[CTRPP](ctrpp.md) argument.<br/> <strong>Windows Vista:</strong> The only valid value for this attribute is &quot;custom&quot;. The [CTRPP](ctrpp.md) utility generates the template for a [<strong>ControlCallback</strong>](controlcallback-perflibv2.md) callback function. The template is included in the .c file that CTRPP generated. <br/> <br/></td>
+<td>This attribute indicates that you want to receive notification when a consumer performs certain actions. <br/> If you include this attribute, the CTRPP tool uses the alternate [<strong>CounterInitialize</strong>](counterinitialize.md) function signature, which you use to pass in the name of your function that implements the [<strong>ControlCallback</strong>](/windows/win32/Perflib/nc-perflib-perflibrequest?branch=master) callback function.<br/> As an alternative to specifying this attribute, you can use the <strong>-NotificationCallback</strong>[CTRPP](ctrpp.md) argument.<br/> <strong>Windows Vista:</strong> The only valid value for this attribute is &quot;custom&quot;. The [CTRPP](ctrpp.md) utility generates the template for a [<strong>ControlCallback</strong>](/windows/win32/Perflib/nc-perflib-perflibrequest?branch=master) callback function. The template is included in the .c file that CTRPP generated. <br/> <br/></td>
 </tr>
 <tr class="odd">
 <td>providerGuid</td>
@@ -207,12 +212,12 @@ Defines a provider and the counters that it provides.
 </tr>
 <tr class="even">
 <td><span id="kernel"></span><span id="KERNEL"></span>kernel<br/></td>
-<td>Specify this mode for a kernel-mode component such as a WDM or WDF driver. The typical extension for kernel-mode components is .sys.<br/> <strong>Windows Vista and Windows Server 2008:</strong> This value is not supported until Windows 7 and Windows Server 2008 R2.<br/></td>
+<td>Specify this mode for a kernel-mode component such as a WDM or WDF driver. The typical extension for kernel-mode components is .sys.<br/> <strong>Windows Vista and Windows Server 2008:</strong> This value is not supported until Windows 7 and Windows Server 2008 R2.<br/></td>
 </tr>
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td>resourceBase</td>
@@ -222,7 +227,7 @@ Defines a provider and the counters that it provides.
 <tr class="odd">
 <td>symbol</td>
 <td>[<strong>man:CSymbolType</strong>](performance-counters-csymboltype-simple-type.md)</td>
-<td><p>A symbolic name that identifies the provider. The [CTRPP](ctrpp.md) tool creates a HANDLE variable that you can use when calling functions that require a handle to the provider (for example, [<strong>PerfSetULongCounterValue</strong>](perfsetulongcountervalue.md)). The symbolic name is the name of the variable.</p>
+<td><p>A symbolic name that identifies the provider. The [CTRPP](ctrpp.md) tool creates a HANDLE variable that you can use when calling functions that require a handle to the provider (for example, [<strong>PerfSetULongCounterValue</strong>](/windows/win32/Perflib/nf-perflib-perfsetulongcountervalue?branch=master)). The symbolic name is the name of the variable.</p>
 <p>If you include the <strong>-prefix</strong> argument when calling [CTRPP](ctrpp.md), the prefix string is added to the beginning of the symbolic name.</p></td>
 </tr>
 </tbody>
@@ -236,14 +241,14 @@ Defines a provider and the counters that it provides.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

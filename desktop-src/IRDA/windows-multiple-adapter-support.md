@@ -1,8 +1,18 @@
 ---
 title: Windows Multiple-adapter Support
 description: The Windows IrDA stack supports the concurrent operation of several NDIS 4.0 VFIR/FIR/SIR miniport adapters. This support allows a single server to support multiple inbound connections in a way that is transparent to both client and server applications.
-ms.assetid: '38ac17f8-b76e-4f74-8eca-370f911670f5'
-keywords: ["Infrared Data Association IrDA , described, multiple-adapter support", "miniport IrDA", "adapters IrDA", "multiple-adapter support IrDA", "networking IrDA , multiple-adapter support"]
+ms.assetid: 38ac17f8-b76e-4f74-8eca-370f911670f5
+keywords:
+- Infrared Data Association IrDA , described, multiple-adapter support
+- miniport IrDA
+- adapters IrDA
+- multiple-adapter support IrDA
+- networking IrDA , multiple-adapter support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Multiple-adapter Support

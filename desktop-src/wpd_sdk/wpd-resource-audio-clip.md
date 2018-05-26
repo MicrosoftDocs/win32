@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies an audio clip for the object.'
-ms.assetid: '24c15df0-4190-4c75-b89b-0c73d645c9ca'
-title: 'WPD\_RESOURCE\_AUDIO\_CLIP'
+Description: Specifies an audio clip for the object.
+ms.assetid: 24c15df0-4190-4c75-b89b-0c73d645c9ca
+title: WPD\_RESOURCE\_AUDIO\_CLIP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_RESOURCE\_AUDIO\_CLIP

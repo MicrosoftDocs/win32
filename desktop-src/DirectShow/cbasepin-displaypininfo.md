@@ -1,7 +1,12 @@
 ---
-Description: 'The DisplayPinInfo method traces a pin connection during debugging.'
-ms.assetid: '3c1aa5ab-7f6b-4518-abf3-b5138f6267ee'
-title: 'CBasePin.DisplayPinInfo method'
+Description: The DisplayPinInfo method traces a pin connection during debugging.
+ms.assetid: 3c1aa5ab-7f6b-4518-abf3-b5138f6267ee
+title: CBasePin.DisplayPinInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.DisplayPinInfo method
@@ -13,7 +18,7 @@ The `DisplayPinInfo` method traces a pin connection during debugging.
 
 ```C++
 void DisplayPinInfo(
-   IPin *pReceivePin
+   IPin *pReceivePin
 );
 ```
 
@@ -56,9 +61,9 @@ In debug builds, this method calls the [**DbgLog**](dbglog.md) function to trace
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

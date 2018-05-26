@@ -1,14 +1,20 @@
 ---
 title: Principals (taskType) Element
 description: Specifies the security contexts that can be used to run the task.
-ms.assetid: 'bb46213a-e377-4ed0-9ada-05938fd69c28'
-keywords: ["Principals element Task Scheduler"]
+ms.assetid: bb46213a-e377-4ed0-9ada-05938fd69c28
+keywords:
+- Principals element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Principals
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Principals (taskType) Element
@@ -49,7 +55,7 @@ You can specify up to 32 principals for a task.
 
 For scripting development, the principals of a task are specified using the [**TaskDefinition.Principal**](taskdefinition-principal.md) property.
 
-For C++ development, the principals of a task are specified using the [**Principal property of ITaskDefinition**](itaskdefinition-principal.md).
+For C++ development, the principals of a task are specified using the [**Principal property of ITaskDefinition**](/windows/win32/taskschd/nf-taskschd-itaskdefinition-get_principal?branch=master).
 
 ## Examples
 
@@ -78,8 +84,8 @@ The following XML defines two principals: a user identifier and group identifier
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -93,9 +99,9 @@ The following XML defines two principals: a user identifier and group identifier
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

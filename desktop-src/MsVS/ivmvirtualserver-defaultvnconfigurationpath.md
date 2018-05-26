@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer DefaultVNConfigurationPath property
 description: The DefaultVNConfigurationPath property contains the default directory searched by the web application to create lists of available virtual network configuration files.
-ms.assetid: 'e7cbb039-f0fe-490d-a306-71923ec9ba08'
-keywords: ["DefaultVNConfigurationPath property Virtual Server", "DefaultVNConfigurationPath property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , DefaultVNConfigurationPath property", "DefaultVNConfigurationPath property Virtual Server , VMVirtualServer interface", "VMVirtualServer interface Virtual Server , DefaultVNConfigurationPath property"]
+ms.assetid: e7cbb039-f0fe-490d-a306-71923ec9ba08
+keywords:
+- DefaultVNConfigurationPath property Virtual Server
+- DefaultVNConfigurationPath property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , DefaultVNConfigurationPath property
+- DefaultVNConfigurationPath property Virtual Server , VMVirtualServer interface
+- VMVirtualServer interface Virtual Server , DefaultVNConfigurationPath property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::DefaultVNConfigurationPath property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DefaultVNConfigurationPath(
-  [out] BSTR *configurationPath
+  [out] BSTR *configurationPath
 );
 ```
 
@@ -95,8 +105,8 @@ Wscript.Echo "Default VN configuration path: " & _
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -108,9 +118,9 @@ Wscript.Echo "Default VN configuration path: " & _
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: EFFECTS Element
 description: EFFECTS Element
-ms.assetid: 'ada3c452-1bc6-4700-8048-1a4b2ee00aeb'
-keywords: ["Windows Media Player skins,EFFECTS element", "skins,EFFECTS element", "EFFECTS element", "reference for skins,EFFECTS element", "elements,EFFECTS"]
+ms.assetid: ada3c452-1bc6-4700-8048-1a4b2ee00aeb
+keywords:
+- Windows Media Player skins,EFFECTS element
+- skins,EFFECTS element
+- EFFECTS element
+- reference for skins,EFFECTS element
+- elements,EFFECTS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS Element

@@ -1,8 +1,32 @@
 ---
 title: To Use Interlaced Video
 description: To Use Interlaced Video
-ms.assetid: 'cb77bac7-bea8-4f1b-8302-fee9a43d4815'
-keywords: ["Windows Media Format SDK,interlaced video", "Windows Media Format SDK,video encoding interlaced", "Windows Media Format SDK,encoding interlaced video", "Windows Media Format SDK,decoding interlaced video", "Windows Media Format SDK,field order", "Advanced Systems Format (ASF),interlaced video", "ASF (Advanced Systems Format),interlaced video", "Advanced Systems Format (ASF),video encoding interlaced", "ASF (Advanced Systems Format),video encoding interlaced", "Advanced Systems Format (ASF),encoding interlaced video", "ASF (Advanced Systems Format),encoding interlaced video", "Advanced Systems Format (ASF),decoding interlaced video", "ASF (Advanced Systems Format),decoding interlaced video", "Advanced Systems Format (ASF),field order", "ASF (Advanced Systems Format),field order", "interlaced video,about", "interlaced video,encoding", "interlaced video,decoding", "interlaced video,field order"]
+ms.assetid: cb77bac7-bea8-4f1b-8302-fee9a43d4815
+keywords:
+- Windows Media Format SDK,interlaced video
+- Windows Media Format SDK,video encoding interlaced
+- Windows Media Format SDK,encoding interlaced video
+- Windows Media Format SDK,decoding interlaced video
+- Windows Media Format SDK,field order
+- Advanced Systems Format (ASF),interlaced video
+- ASF (Advanced Systems Format),interlaced video
+- Advanced Systems Format (ASF),video encoding interlaced
+- ASF (Advanced Systems Format),video encoding interlaced
+- Advanced Systems Format (ASF),encoding interlaced video
+- ASF (Advanced Systems Format),encoding interlaced video
+- Advanced Systems Format (ASF),decoding interlaced video
+- ASF (Advanced Systems Format),decoding interlaced video
+- Advanced Systems Format (ASF),field order
+- ASF (Advanced Systems Format),field order
+- interlaced video,about
+- interlaced video,encoding
+- interlaced video,decoding
+- interlaced video,field order
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Use Interlaced Video
@@ -27,10 +51,10 @@ You should enable users to specify field order when passing interlaced samples t
 
 To use interlaced encoding, perform the following steps:
 
-1.  Configure the video stream in the profile to use the content type data unit extension by calling the [**IWMStreamConfig2::AddDataUnitExtension**](iwmstreamconfig2-adddataunitextension.md) method. The sample extension GUID for the content type extension is WM\_SampleExtensionsGUID\_ContentType.
+1.  Configure the video stream in the profile to use the content type data unit extension by calling the [**IWMStreamConfig2::AddDataUnitExtension**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension?branch=master) method. The sample extension GUID for the content type extension is WM\_SampleExtensionsGUID\_ContentType.
 2.  Set the stream in the profile and configure the writer with the profile as normal.
-3.  Before passing interlaced samples to the writer, call the [**IWMWriterAdvanced2::SetInputSetting**](iwmwriteradvanced2-setinputsetting.md) method to set the g\_wszInterlacedCoding input setting to **TRUE**.
-4.  For every interlaced sample that you pass to the writer, call the [**INSSBuffer3::SetProperty**](inssbuffer3-setproperty.md) method to set the content type. Content type values are combinations of the flags in the following table.
+3.  Before passing interlaced samples to the writer, call the [**IWMWriterAdvanced2::SetInputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting?branch=master) method to set the g\_wszInterlacedCoding input setting to **TRUE**.
+4.  For every interlaced sample that you pass to the writer, call the [**INSSBuffer3::SetProperty**](/windows/win32/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty?branch=master) method to set the content type. Content type values are combinations of the flags in the following table.
 
 
 
@@ -43,16 +67,16 @@ To use interlaced encoding, perform the following steps:
 
 
 
- 
+ 
 
 > [!Note]  
 > If the WM\_CT\_INTERLACED flag is not set, the sample is assumed to contain a progressive video frame.
 
- 
+ 
 
 ## Decoding Interlaced Video
 
-When decoding interlaced video, you must set the g\_wszAllowInterlacedOutput setting to **TRUE** using the [**IWMReaderAdvanced2::SetOutputSetting**](iwmreaderadvanced2-setoutputsetting.md) method. Otherwise the codec will deliver progressive frames.
+When decoding interlaced video, you must set the g\_wszAllowInterlacedOutput setting to **TRUE** using the [**IWMReaderAdvanced2::SetOutputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting?branch=master) method. Otherwise the codec will deliver progressive frames.
 
 The content type data unit extension is maintained on the output samples. You should pass the field orientation to the rendering device to ensure proper playback.
 
@@ -63,9 +87,9 @@ The content type data unit extension is maintained on the output samples. You sh
 [**Advanced Topics**](advanced-topics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

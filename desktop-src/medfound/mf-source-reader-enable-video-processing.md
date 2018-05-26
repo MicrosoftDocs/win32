@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables video processing by the Source Reader.'
-ms.assetid: 'b1ec1c0e-8042-4486-822f-eb106577c0b1'
-title: 'MF\_SOURCE\_READER\_ENABLE\_VIDEO\_PROCESSING attribute'
+---
+Description: Enables video processing by the Source Reader.
+ms.assetid: b1ec1c0e-8042-4486-822f-eb106577c0b1
+title: MF\_SOURCE\_READER\_ENABLE\_VIDEO\_PROCESSING attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SOURCE\_READER\_ENABLE\_VIDEO\_PROCESSING attribute
@@ -25,9 +30,9 @@ Enables video processing by the [Source Reader](source-reader.md).
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 

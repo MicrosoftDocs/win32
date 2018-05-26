@@ -1,7 +1,12 @@
 ---
-Description: 'The Mute property turns the audio stream output on or off.'
-ms.assetid: '61ed2e28-ec6e-48ee-8640-29152b15c9ad'
+Description: The Mute property turns the audio stream output on or off.
+ms.assetid: 61ed2e28-ec6e-48ee-8640-29152b15c9ad
 title: Mute Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mute Property

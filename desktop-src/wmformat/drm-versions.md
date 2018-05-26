@@ -1,8 +1,16 @@
 ---
 title: DRM Versions
 description: DRM Versions
-ms.assetid: 'ac802547-a3cc-4b30-a8e6-62b679326486'
-keywords: ["Windows Media Format SDK,DRM versions", "digital rights management (DRM),versions", "DRM (digital rights management),versions"]
+ms.assetid: ac802547-a3cc-4b30-a8e6-62b679326486
+keywords:
+- Windows Media Format SDK,DRM versions
+- digital rights management (DRM),versions
+- DRM (digital rights management),versions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM Versions

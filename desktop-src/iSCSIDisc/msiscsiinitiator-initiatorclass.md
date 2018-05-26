@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MSIscsiInitiator\_InitiatorClass structure contains the name of the Initiator.'
-ms.assetid: 'ee59c722-d286-4713-a359-6efebdba61f3'
-title: 'MSIscsiInitiator\_InitiatorClass class'
+---
+Description: The MSIscsiInitiator\_InitiatorClass structure contains the name of the Initiator.
+ms.assetid: ee59c722-d286-4713-a359-6efebdba61f3
+title: MSIscsiInitiator\_InitiatorClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_InitiatorClass class

@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_CodecFile&\#32;WMI class represents the audio or video codec installed on the computer system.'
+Description: The Win32\_CodecFile&\#32;WMI class represents the audio or video codec installed on the computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '48ea3b92-0ea1-4aba-b067-bce0ec356cd2'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 48ea3b92-0ea1-4aba-b067-bce0ec356cd2
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_CodecFile class'
+title: Win32\_CodecFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_CodecFile class
@@ -24,40 +27,40 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C4C3-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_CodecFile : CIM_DataFile
 {
-  uint32   AccessMask;
-  boolean  Archive;
-  string   Caption;
-  boolean  Compressed;
-  string   CompressionMethod;
-  string   CreationClassName;
+  uint32   AccessMask;
+  boolean  Archive;
+  string   Caption;
+  boolean  Compressed;
+  string   CompressionMethod;
+  string   CreationClassName;
   datetime CreationDate;
-  string   CSCreationClassName;
-  string   CSName;
-  string   Description;
-  string   Drive;
-  string   EightDotThreeFileName;
-  boolean  Encrypted;
-  string   EncryptionMethod;
-  string   Extension;
-  string   FileName;
-  uint64   FileSize;
-  string   FileType;
-  string   FSCreationClassName;
-  string   FSName;
-  string   Group;
-  boolean  Hidden;
+  string   CSCreationClassName;
+  string   CSName;
+  string   Description;
+  string   Drive;
+  string   EightDotThreeFileName;
+  boolean  Encrypted;
+  string   EncryptionMethod;
+  string   Extension;
+  string   FileName;
+  uint64   FileSize;
+  string   FileType;
+  string   FSCreationClassName;
+  string   FSName;
+  string   Group;
+  boolean  Hidden;
   datetime InstallDate;
-  uint64   InUseCount;
+  uint64   InUseCount;
   datetime LastAccessed;
   datetime LastModified;
-  string   Manufacturer;
-  string   Name;
-  string   Path;
-  boolean  Readable;
-  string   Status;
-  boolean  System;
-  string   Version;
-  boolean  Writeable;
+  string   Manufacturer;
+  string   Name;
+  string   Path;
+  boolean  Readable;
+  string   Status;
+  boolean  System;
+  string   Version;
+  boolean  Writeable;
 };
 ```
 
@@ -93,7 +96,7 @@ The **Win32\_CodecFile** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -118,7 +121,7 @@ Bitmask that represents the access rights required to access or perform specific
 > [!Note]  
 > On FAT volumes, the **FULL\_ACCESS** value is returned instead, which indicates no security has been set on the object.
 
- 
+ 
 
 This property is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 
@@ -952,8 +955,8 @@ The **Win32\_CodecFile** class is derived from [**CIM\_DataFile**](cim-datafile.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -970,9 +973,9 @@ The **Win32\_CodecFile** class is derived from [**CIM\_DataFile**](cim-datafile.
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

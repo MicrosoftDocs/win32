@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the sink writer limits the rate of incoming data.'
-ms.assetid: 'eb79bda7-ece0-4977-a0f9-d40bd5d220ab'
-title: 'MF\_SINK\_WRITER\_DISABLE\_THROTTLING attribute'
+---
+Description: Specifies whether the sink writer limits the rate of incoming data.
+ms.assetid: eb79bda7-ece0-4977-a0f9-d40bd5d220ab
+title: MF\_SINK\_WRITER\_DISABLE\_THROTTLING attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SINK\_WRITER\_DISABLE\_THROTTLING attribute
@@ -14,18 +19,18 @@ Specifies whether the sink writer limits the rate of incoming data.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
-By default, the sink writer's [**IMFSinkWriter::WriteSample**](imfsinkwriter-writesample.md) method limits the data rate by blocking the calling thread. This prevents the application from delivering samples too quickly. To disable this behavior, set the MF\_SINK\_WRITER\_DISABLE\_THROTTLING attribute to **TRUE** when you create the sink writer.
+By default, the sink writer's [**IMFSinkWriter::WriteSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsinkwriter-writesample?branch=master) method limits the data rate by blocking the calling thread. This prevents the application from delivering samples too quickly. To disable this behavior, set the MF\_SINK\_WRITER\_DISABLE\_THROTTLING attribute to **TRUE** when you create the sink writer.
 
 Use this attribute with the following functions:
 
--   [**MFCreateSinkWriterFromMediaSink**](mfcreatesinkwriterfrommediasink.md)
--   [**MFCreateSinkWriterFromURL**](mfcreatesinkwriterfromurl.md)
+-   [**MFCreateSinkWriterFromMediaSink**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfrommediasink?branch=master)
+-   [**MFCreateSinkWriterFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfromurl?branch=master)
 
 ## Requirements
 

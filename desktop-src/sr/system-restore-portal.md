@@ -1,8 +1,15 @@
 ---
 title: System Restore
 description: Sets system restore points and monitors key system changes from a program to enable a rollback of the system to a previous state. Write automatic recovery code or wmi script to restore system state to a registered restore point.
-ms.assetid: '6861eedc-2bd9-49c7-8682-ea557fa29d28'
-keywords: ["System Restore", "System Restore, start page"]
+ms.assetid: 6861eedc-2bd9-49c7-8682-ea557fa29d28
+keywords:
+- System Restore
+- System Restore, start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Restore
@@ -14,7 +21,7 @@ System Restore automatically monitors and records key system changes on a user's
 > [!Note]  
 > The following documentation is targeted for developers. If you are an end-user looking for information on how to use System Restore, see [What Is System Restore?](http://windows.microsoft.com/windows/What-is-System-Restore#1TC=windows-7)
 
- 
+ 
 
 ## Developer audience
 
@@ -22,7 +29,7 @@ The System Restore API is designed for use by C/C++ programmers. A familiarity w
 
 ## Run-time requirements
 
-The System Restore API is supported on client operating systems starting with Windows XP. For information about which operating systems are required to use a particular API element, see the Requirements section of its documentation.
+The System Restore API is supported on client operating systems starting with Windows XP. For information about which operating systems are required to use a particular API element, see the Requirements section of its documentation.
 
 ## In this section
 
@@ -36,7 +43,7 @@ The System Restore API is supported on client operating systems starting with Wi
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -45,9 +52,9 @@ The System Restore API is supported on client operating systems starting with Wi
 [WMI](https://msdn.microsoft.com/library/aa394582)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

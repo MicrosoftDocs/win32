@@ -4,11 +4,14 @@ description: Flags set for a storage class resource partition.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '19a69c92-495c-486d-9f42-6b0531dfb992'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 19a69c92-495c-486d-9f42-6b0531dfb992
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Flags property Failover Cluster", "Flags property Failover Cluster , ClusPartition object", "ClusPartition object Failover Cluster , Flags property"]
+keywords:
+- Flags property Failover Cluster
+- Flags property Failover Cluster , ClusPartition object
+- ClusPartition object Failover Cluster , Flags property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusPartition.Flags property
@@ -38,7 +44,7 @@ ClusPartition.Flags
 
 ## Property value
 
-**Long** that receives the flags of the storage class resource, enumerated by the [**CLUSPROP\_PIFLAGS**](clusprop-piflags.md) enumeration.
+**Long** that receives the flags of the storage class resource, enumerated by the [**CLUSPROP\_PIFLAGS**](/windows/previous-versions/ClusAPI/ne-clusapi-clusprop_piflags?branch=master) enumeration.
 
 <dt>
 
@@ -82,7 +88,7 @@ The storage class resource is formatted with a file system that is usable by the
 
 </dt> <dd>
 
-The partition should be used to store quorum files if no partition is specified in the [**SetClusterQuorumResource**](setclusterquorumresource.md) function. For [Physical Disk](physical-disk.md) resources, the smallest NTFS partition larger than 50MB automatically receives this flag.
+The partition should be used to store quorum files if no partition is specified in the [**SetClusterQuorumResource**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_set_cluster_quorum_resource?branch=master) function. For [Physical Disk](physical-disk.md) resources, the smallest NTFS partition larger than 50MB automatically receives this flag.
 
 </dd> </dl>
 
@@ -97,7 +103,7 @@ For information on making constants defined by the Cluster Automation Server typ
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -113,12 +119,12 @@ For information on making constants defined by the Cluster Automation Server typ
 [**ClusPartition**](cluspartition-object.md)
 </dt> <dt>
 
-[**CLUSPROP\_PIFLAGS**](clusprop-piflags.md)
+[**CLUSPROP\_PIFLAGS**](/windows/previous-versions/ClusAPI/ne-clusapi-clusprop_piflags?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

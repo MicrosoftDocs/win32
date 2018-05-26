@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides access to the underlying XML node and &\#0034;name&\#0034; attribute information for a Print Schema element.'
-ms.assetid: 'E6F6F00B-E116-4AEA-AF9A-55209DA20DC6'
+---
+Description: Provides access to the underlying XML node and &\#0034;name&\#0034; attribute information for a Print Schema element.
+ms.assetid: E6F6F00B-E116-4AEA-AF9A-55209DA20DC6
 title: IPrintSchemaElement interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaElement interface

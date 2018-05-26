@@ -1,7 +1,12 @@
 ---
-Description: 'Most applications written today handle character data primarily as Unicode, using the UTF-16 encoding.'
-ms.assetid: '866f09f4-629e-4097-a974-fbda9389d077'
+Description: Most applications written today handle character data primarily as Unicode, using the UTF-16 encoding.
+ms.assetid: 866f09f4-629e-4097-a974-fbda9389d077
 title: Code Pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Code Pages
@@ -49,18 +54,18 @@ Some legacy protocols require the use of SBCS and DBCS code pages. Each SBCS/DBC
 
 In addition to SBCS and DBCS code pages, your applications have available the multibyte character set code pages 52936, 54936, 51949, and 5022x, which use an approach similar to that for a DBCS. A multibyte character set code page goes beyond two-byte encodings of some characters, however. UTF-7 and UTF-8 use a similar approach to encode Unicode based on a 7-bit and 8-bit bytes, respectively. For more information, see [Unicode](unicode.md).
 
-Several Unicode and character set functions allow your applications to handle code pages. An application can use the [**GetCPInfo**](getcpinfo.md) and [**GetCPInfoEx**](getcpinfoex.md) functions to obtain information about a code page. This information includes the default character used when a character in a converted string has no corresponding entry in the code page.
+Several Unicode and character set functions allow your applications to handle code pages. An application can use the [**GetCPInfo**](/windows/win32/Winnls/nf-winnls-getcpinfo?branch=master) and [**GetCPInfoEx**](/windows/win32/Winnls/nf-winnls-getcpinfoexa?branch=master) functions to obtain information about a code page. This information includes the default character used when a character in a converted string has no corresponding entry in the code page.
 
-An application can use the [**MultiByteToWideChar**](multibytetowidechar.md) and [**WideCharToMultiByte**](widechartomultibyte.md) functions to convert between strings based on Windows code pages and Unicode strings. Although their names refer to "MultiByte", these functions work equally well with SBCS, DBCS, and multibyte character set code pages.
+An application can use the [**MultiByteToWideChar**](/windows/win32/Stringapiset/nf-stringapiset-multibytetowidechar?branch=master) and [**WideCharToMultiByte**](/windows/win32/Stringapiset/nf-stringapiset-widechartomultibyte?branch=master) functions to convert between strings based on Windows code pages and Unicode strings. Although their names refer to "MultiByte", these functions work equally well with SBCS, DBCS, and multibyte character set code pages.
 
 > [!Note]  
-> [**WideCharToMultiByte**](widechartomultibyte.md) can lose some data if the supplied code page cannot represent all characters in a Unicode string.
+> [**WideCharToMultiByte**](/windows/win32/Stringapiset/nf-stringapiset-widechartomultibyte?branch=master) can lose some data if the supplied code page cannot represent all characters in a Unicode string.
 
  
 
 Your application can convert between Windows code pages and OEM code pages using the standard C runtime library functions. However, use of these functions presents a risk of data loss because the characters that can be represented by each code page do not match exactly.
 
-Your applications can also call the [**GetACP**](getacp.md) function. This function retrieves the identifier of the current Windows (ANSI) code page.
+Your applications can also call the [**GetACP**](/windows/win32/Winnls/nf-winnls-getacp?branch=master) function. This function retrieves the identifier of the current Windows (ANSI) code page.
 
 ## Related topics
 

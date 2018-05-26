@@ -1,14 +1,20 @@
 ---
 title: FilterType Complex Type
 description: Defines a data filter that a session uses to filter events based on event data.
-ms.assetid: 'f2874b3f-cf3a-4dd9-b914-6adaac33cf7b'
-keywords: ["FilterType complex type EventLog"]
+ms.assetid: f2874b3f-cf3a-4dd9-b914-6adaac33cf7b
+keywords:
+- FilterType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - FilterType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterType Complex Type
@@ -71,14 +77,14 @@ Defines a data filter that a session uses to filter events based on event data.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

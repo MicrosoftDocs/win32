@@ -1,8 +1,11 @@
 ---
 title: Media.getMarkerTime method
 description: The getMarkerTime method retrieves the time of the marker at the specified index.
-ms.assetid: 'e6c2484d-8167-4305-9467-f9b2b7fedc32'
-keywords: ["getMarkerTime method Windows Media Player", "getMarkerTime method Windows Media Player , Media class", "Media class Windows Media Player , getMarkerTime method"]
+ms.assetid: e6c2484d-8167-4305-9467-f9b2b7fedc32
+keywords:
+- getMarkerTime method Windows Media Player
+- getMarkerTime method Windows Media Player , Media class
+- Media class Windows Media Player , getMarkerTime method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.getMarkerTime method
@@ -109,9 +117,9 @@ for (var i = 1;i < mcount + 1; i++){
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

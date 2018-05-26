@@ -1,8 +1,10 @@
 ---
 title: MSFT\_OffloadDataTransferSetting class
 description: Represents the offload data transfer (ODX) settings for a subsystem.
-ms.assetid: 'DCE938F6-8901-409F-9CBB-CAAB1F38F9AA'
-keywords: ["MSFT_OffloadDataTransferSetting class Windows Storage Management API", "MSFT_OffloadDataTransferSetting class Windows Storage Management API , described"]
+ms.assetid: DCE938F6-8901-409F-9CBB-CAAB1F38F9AA
+keywords:
+- MSFT_OffloadDataTransferSetting class Windows Storage Management API
+- MSFT_OffloadDataTransferSetting class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_OffloadDataTransferSetting class
@@ -29,9 +36,9 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 class MSFT_OffloadDataTransferSetting : MSFT_StorageObject
 {
   Boolean SupportInterSubsystem;
-  UInt32  NumberOfTokensMax;
-  UInt32  NumberOfTokensInUse;
-  UInt32  OptimalDataTokenSize;
+  UInt32  NumberOfTokensMax;
+  UInt32  NumberOfTokensInUse;
+  UInt32  OptimalDataTokenSize;
 };
 ```
 
@@ -105,8 +112,8 @@ If **TRUE**, the subsystem supports transfer of data using tokens across differe
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -119,9 +126,9 @@ If **TRUE**, the subsystem supports transfer of data using tokens across differe
 [**MSFT\_StorageObject**](msft-storageobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

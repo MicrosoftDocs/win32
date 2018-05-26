@@ -1,8 +1,21 @@
 ---
 title: System Profiles
 description: System Profiles
-ms.assetid: '2c218ab4-ecdb-414c-aa42-b71a42e340e5'
-keywords: ["Windows Media Format SDK,system profiles", "Advanced Systems Format (ASF),system profiles", "ASF (Advanced Systems Format),system profiles", "Windows Media Format SDK,profile IDs", "Advanced Systems Format (ASF),profile IDs", "ASF (Advanced Systems Format),profile IDs", "system profiles,list of", "profile IDs"]
+ms.assetid: 2c218ab4-ecdb-414c-aa42-b71a42e340e5
+keywords:
+- Windows Media Format SDK,system profiles
+- Advanced Systems Format (ASF),system profiles
+- ASF (Advanced Systems Format),system profiles
+- Windows Media Format SDK,profile IDs
+- Advanced Systems Format (ASF),profile IDs
+- ASF (Advanced Systems Format),profile IDs
+- system profiles,list of
+- profile IDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Profiles
@@ -56,10 +69,10 @@ The system profiles are available localized for languages other than English. Fo
 
 <dl> <dt>
 
-[**IWMProfileManager::LoadProfileByID**](iwmprofilemanager-loadprofilebyid.md)
+[**IWMProfileManager::LoadProfileByID**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebyid?branch=master)
 </dt> <dt>
 
-[**IWMProfileManager2 Interface**](iwmprofilemanager2.md)
+[**IWMProfileManager2 Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmprofilemanager2?branch=master)
 </dt> <dt>
 
 [**Working with Profiles**](working-with-profiles.md)

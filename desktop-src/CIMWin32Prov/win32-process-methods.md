@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_Process class exposes the following methods.'
+Description: The Win32\_Process class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0A379A68-B54E-4709-8C8C-6BB38B327C28'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0A379A68-B54E-4709-8C8C-6BB38B327C28
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_Process Methods'
+title: Win32\_Process Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_Process Methods

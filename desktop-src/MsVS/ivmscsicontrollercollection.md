@@ -1,8 +1,10 @@
 ---
 title: IVMSCSIControllerCollection interface
 description: The IVMSCSIControllerCollection interface defines the collection of SCSI controllers within a virtual machine. You can retrieve an IVMSCSIControllerCollection object from the IVMVirtualMachine SCSIControllers property.
-ms.assetid: '8dad0aae-c49d-4743-b59e-1a018b1987ad'
-keywords: ["IVMSCSIControllerCollection interface Virtual Server", "IVMSCSIControllerCollection interface Virtual Server , described"]
+ms.assetid: 8dad0aae-c49d-4743-b59e-1a018b1987ad
+keywords:
+- IVMSCSIControllerCollection interface Virtual Server
+- IVMSCSIControllerCollection interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSCSIControllerCollection interface
@@ -37,7 +44,7 @@ The **IVMSCSIControllerCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,8 +52,8 @@ The **IVMSCSIControllerCollection** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -61,9 +68,9 @@ The **IVMSCSIControllerCollection** interface has these properties.
 [**IVMSCSIController**](ivmscsicontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

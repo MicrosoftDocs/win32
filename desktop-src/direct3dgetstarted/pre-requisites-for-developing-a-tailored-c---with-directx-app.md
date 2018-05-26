@@ -1,8 +1,15 @@
 ---
 title: Prerequisites for developing with DirectX
 description: When you start to develop a Windows app using DirectX, keep the prerequisites on this page in mind. This includes the technologies you need to know before you dive in.
-ms.assetid: '93f566cf-0c16-4487-9d53-dc59746e4d00'
-keywords: ["DirectX app, prerequisites", "DirectX app, Windows Store app"]
+ms.assetid: 93f566cf-0c16-4487-9d53-dc59746e4d00
+keywords:
+- DirectX app, prerequisites
+- DirectX app, Windows Store app
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Prerequisites for developing with DirectX

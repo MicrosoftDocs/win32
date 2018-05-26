@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an array of integers.'
-ms.assetid: '4491bffd-ce5e-4f84-ac11-0314a1b16d63'
-title: 'ID3DXBaseEffect::SetIntArray method'
+---
+Description: Sets an array of integers.
+ms.assetid: 4491bffd-ce5e-4f84-ac11-0314a1b16d63
+title: ID3DXBaseEffectSetIntArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::SetIntArray method

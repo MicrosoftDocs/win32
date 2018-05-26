@@ -1,7 +1,12 @@
 ---
-Description: 'The table in this topic identifies the released versions of the Windows Installer. For more information, see Operating System Property Values.'
-ms.assetid: 'f79e2e56-12e3-42ca-aac0-d61351d1397b'
+Description: The table in this topic identifies the released versions of the Windows Installer. For more information, see Operating System Property Values.
+ms.assetid: f79e2e56-12e3-42ca-aac0-d61351d1397b
 title: Released Versions of Windows Installer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Released Versions of Windows Installer

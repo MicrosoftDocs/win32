@@ -1,8 +1,19 @@
 ---
 title: Implementing CSearch
 description: Implementing CSearch
-ms.assetid: '3041807a-e7e0-4022-ab90-a8b846bafc0e'
-keywords: ["Windows Media Player plug-ins,CSearch class", "plug-ins,CSearch class", "user interface plug-ins,CSearch class", "UI plug-ins,CSearch class", "CSearch class", "programming guide,user interface plug-ins"]
+ms.assetid: 3041807a-e7e0-4022-ab90-a8b846bafc0e
+keywords:
+- Windows Media Player plug-ins,CSearch class
+- plug-ins,CSearch class
+- user interface plug-ins,CSearch class
+- UI plug-ins,CSearch class
+- CSearch class
+- programming guide,user interface plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing CSearch

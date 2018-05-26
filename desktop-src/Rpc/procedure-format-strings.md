@@ -1,7 +1,12 @@
 ---
 title: Procedure Format Strings
 description: The following is a complete format string description. It assembles all layers related to different stages of the interpreter evolution.
-ms.assetid: 'fab603ed-1f68-4e0b-9c8d-b9730b8cd389'
+ms.assetid: fab603ed-1f68-4e0b-9c8d-b9730b8cd389
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Procedure Format Strings

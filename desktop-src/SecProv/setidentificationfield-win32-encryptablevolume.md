@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the specified identifier string in the volume''s metadata.'
-ms.assetid: '21355669-2052-4e7a-9c9d-aaa67533dd5e'
-title: 'SetIdentificationField method of the Win32\_EncryptableVolume class'
+---
+Description: Sets the specified identifier string in the volumes metadata.
+ms.assetid: 21355669-2052-4e7a-9c9d-aaa67533dd5e
+title: SetIdentificationField method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetIdentificationField method of the Win32\_EncryptableVolume class

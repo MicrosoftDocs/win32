@@ -1,13 +1,16 @@
 ---
-Description: 'Providers, unless they are decoupled providers running within an application, are loaded in a Wmiprvse.exe process, and not through Svchost.exe with a Winmgmt.exe process. For more information, see Provider Hosting and Security.'
+Description: Providers, unless they are decoupled providers running within an application, are loaded in a Wmiprvse.exe process, and not through Svchost.exe with a Winmgmt.exe process. For more information, see Provider Hosting and Security.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8958669e-07e6-458c-a7f3-2df21cacc007'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8958669e-07e6-458c-a7f3-2df21cacc007
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Debugging Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Debugging Providers

@@ -4,17 +4,22 @@ description: An application specific ID that makes the operation unique to the a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0d0fc8ce-7044-481a-8df2-489e33264412'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0d0fc8ce-7044-481a-8df2-489e33264412
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Az-Operation-ID attribute AD Schema", "msDS-AzOperationID attribute AD Schema"]
+keywords:
+- ms-DS-Az-Operation-ID attribute AD Schema
+- msDS-AzOperationID attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Az-Operation-ID
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Az-Operation-ID attribute

@@ -1,14 +1,20 @@
 ---
 title: Information element
 description: Localized information about what is being described.
-ms.assetid: 'ABA047DD-9096-40A9-B775-5F7AD5D8FEE8'
-keywords: ["Information element Access Execution Engine"]
+ms.assetid: ABA047DD-9096-40A9-B775-5F7AD5D8FEE8
+keywords:
+- Information element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Information
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Information element

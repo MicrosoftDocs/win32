@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the objects provided by CryptoAPI.'
-ms.assetid: '4ab16355-1341-4c7a-b570-bd33f11dde00'
+Description: Lists the objects provided by CryptoAPI.
+ms.assetid: 4ab16355-1341-4c7a-b570-bd33f11dde00
 title: Cryptography Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cryptography Objects
@@ -126,7 +131,7 @@ The following object is used for certificate enrollment.
 
 | Object                     | Description                                                                                                                                      |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CEnroll**](cenroll.md) | Object that represents the Certificate Enrollment Control. It is primarily used when programming in Visual Basic or another Automation language. |
+| [**CEnroll**](/windows/win32/xenroll/?branch=master) | Object that represents the Certificate Enrollment Control. It is primarily used when programming in Visual Basic or another Automation language. |
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Property.SubTypeValues property
 description: Retrieves a Vector of valid Property values or valid flag values.
-ms.assetid: '464d9cb2-15a7-4671-aab2-8c063ae80037'
-keywords: ["SubTypeValues property WIA Automation", "SubTypeValues property WIA Automation , Property object", "Property object WIA Automation , SubTypeValues property"]
+ms.assetid: 464d9cb2-15a7-4671-aab2-8c063ae80037
+keywords:
+- SubTypeValues property WIA Automation
+- SubTypeValues property WIA Automation , Property object
+- Property object WIA Automation , SubTypeValues property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property.SubTypeValues property
@@ -43,8 +51,8 @@ For example code, see [Display Detailed Property Information](-wiaaut-shared-sam
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -66,9 +74,9 @@ For example code, see [Display Detailed Property Information](-wiaaut-shared-sam
 [**FileData**](-wiaaut-iimagefile-filedata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

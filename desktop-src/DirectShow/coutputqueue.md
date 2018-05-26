@@ -1,7 +1,12 @@
 ---
-Description: 'The COutputQueue class implements a queue to deliver media samples.'
-ms.assetid: 'da35bdac-fdc2-4b38-8253-547a19213cce'
+Description: The COutputQueue class implements a queue to deliver media samples.
+ms.assetid: da35bdac-fdc2-4b38-8253-547a19213cce
 title: COutputQueue class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue class
@@ -18,16 +23,16 @@ To use this class, create a **COutputQueue** object for every output pin on the 
 
 | Pin Method                                                            | COutputQueue Method                                     |
 |-----------------------------------------------------------------------|---------------------------------------------------------|
-| [**IPin::BeginFlush**](ipin-beginflush.md)                           | [**BeginFlush**](coutputqueue-beginflush.md)           |
-| [**IPin::EndFlush**](ipin-endflush.md)                               | [**EndFlush**](coutputqueue-endflush.md)               |
-| [**IPin::EndOfStream**](ipin-endofstream.md)                         | [**EOS**](coutputqueue-eos.md)                         |
-| [**IPin::NewSegment**](ipin-newsegment.md)                           | [**NewSegment**](coutputqueue-newsegment.md)           |
-| [**IMemInputPin::Receive**](imeminputpin-receive.md)                 | [**Receive**](coutputqueue-receive.md)                 |
-| [**IMemInputPin::ReceiveMultiple**](imeminputpin-receivemultiple.md) | [**ReceiveMultiple**](coutputqueue-receivemultiple.md) |
+| [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master)                           | [**BeginFlush**](coutputqueue-beginflush.md)           |
+| [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master)                               | [**EndFlush**](coutputqueue-endflush.md)               |
+| [**IPin::EndOfStream**](/windows/win32/Strmif/nf-strmif-ipin-endofstream?branch=master)                         | [**EOS**](coutputqueue-eos.md)                         |
+| [**IPin::NewSegment**](/windows/win32/Strmif/nf-strmif-ipin-newsegment?branch=master)                           | [**NewSegment**](coutputqueue-newsegment.md)           |
+| [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master)                 | [**Receive**](coutputqueue-receive.md)                 |
+| [**IMemInputPin::ReceiveMultiple**](/windows/win32/Strmif/nf-strmif-imeminputpin-receivemultiple?branch=master) | [**ReceiveMultiple**](coutputqueue-receivemultiple.md) |
 
 
 
- 
+ 
 
 Optionally, you can configure the `COutputQueue` object to deliver samples synchronously, without a worker thread. The object can also decide at run time whether to use a worker thread, based on the characteristics of the input pin. For more information, see [**COutputQueue::COutputQueue**](coutputqueue-coutputqueue.md).
 
@@ -35,8 +40,8 @@ Optionally, you can configure the `COutputQueue` object to deliver samples synch
 
 | Protected Member Variables                                   | Description                                                                                              |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| [**m\_pPin**](coutputqueue-m-ppin.md)                       | Pointer to the input pin's [**IPin**](ipin.md) interface.                                               |
-| [**m\_pInputPin**](coutputqueue-m-pinputpin.md)             | Pointer to the input pin's [**IMemInputPin**](imeminputpin.md) interface.                               |
+| [**m\_pPin**](coutputqueue-m-ppin.md)                       | Pointer to the input pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.                                               |
+| [**m\_pInputPin**](coutputqueue-m-pinputpin.md)             | Pointer to the input pin's [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interface.                               |
 | [**m\_bBatchExact**](coutputqueue-m-bbatchexact.md)         | Flag that specifies whether the object delivers samples in exact batches.                                |
 | [**m\_lBatchSize**](coutputqueue-m-lbatchsize.md)           | Batch size.                                                                                              |
 | [**m\_List**](coutputqueue-m-list.md)                       | Media sample queue.                                                                                      |
@@ -75,7 +80,7 @@ Optionally, you can configure the `COutputQueue` object to deliver samples synch
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -88,9 +93,9 @@ Optionally, you can configure the `COutputQueue` object to deliver samples synch
 
 
 
- 
+ 
 
- 
+ 
 
 
 

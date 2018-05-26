@@ -1,14 +1,17 @@
 ---
 title: OfflineCacheLifetimeConstants.CacheNeverExpires property
-description: The offline cache for the content shouldn't expire.
+description: The offline cache for the content shouldnt expire.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.OfflineCacheLifetimeConstants.CacheNeverExpires'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.OfflineCacheLifetimeConstants.CacheNeverExpires
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CacheNeverExpires property", "CacheNeverExpires property, OfflineCacheLifetimeConstants class", "OfflineCacheLifetimeConstants class, CacheNeverExpires property"]
+keywords:
+- CacheNeverExpires property
+- CacheNeverExpires property, OfflineCacheLifetimeConstants class
+- OfflineCacheLifetimeConstants class, CacheNeverExpires property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OfflineCacheLifetimeConstants.CacheNeverExpires property
@@ -63,9 +69,9 @@ The offline cache for the content shouldn't expire.
 [**OfflineCacheLifetimeConstants**](offlinecachelifetimeconstants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

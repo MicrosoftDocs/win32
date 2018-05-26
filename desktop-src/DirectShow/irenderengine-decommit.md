@@ -1,7 +1,12 @@
 ---
-Description: 'Not implemented.'
-ms.assetid: '014dd9b8-bcfc-4fe0-b0a4-580a253ae6db'
-title: 'IRenderEngine::Decommit method'
+Description: Not implemented.
+ms.assetid: 014dd9b8-bcfc-4fe0-b0a4-580a253ae6db
+title: IRenderEngineDecommit method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::Decommit method

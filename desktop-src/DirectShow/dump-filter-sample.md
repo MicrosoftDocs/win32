@@ -1,7 +1,12 @@
 ---
 Description: Dump Filter Sample
-ms.assetid: '2ce52e6c-a02f-4737-822a-87b2cf2d933d'
+ms.assetid: 2ce52e6c-a02f-4737-822a-87b2cf2d933d
 title: Dump Filter Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dump Filter Sample
@@ -10,7 +15,7 @@ title: Dump Filter Sample
 
 The Dump Filter is a renderer filter that writes the media samples it receives to a text file.
 
-This sample illustrates how to use the base filter class [**CBaseFilter**](cbasefilter.md) and the rendered input pin class [**CRenderedInputPin**](crenderedinputpin.md). It also demonstrates how to implement the [**IFileSinkFilter**](ifilesinkfilter.md) interface. The Dump filter has a single input pin, which writes every sample that it receives directly to a file.
+This sample illustrates how to use the base filter class [**CBaseFilter**](cbasefilter.md) and the rendered input pin class [**CRenderedInputPin**](crenderedinputpin.md). It also demonstrates how to implement the [**IFileSinkFilter**](/windows/win32/Strmif/nn-strmif-ifilesinkfilter?branch=master) interface. The Dump filter has a single input pin, which writes every sample that it receives directly to a file.
 
 ## Usage
 

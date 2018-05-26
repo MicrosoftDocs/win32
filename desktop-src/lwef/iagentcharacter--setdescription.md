@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter SetDescription
 description: IAgentCharacter SetDescription
-ms.assetid: 'ae01b9e6-1616-4806-9125-ceb4cb54aab1'
+ms.assetid: ae01b9e6-1616-4806-9125-ceb4cb54aab1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::SetDescription

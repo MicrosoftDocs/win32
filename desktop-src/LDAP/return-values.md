@@ -4,9 +4,9 @@ description: Error codes encountered in LDAP applications.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '822411b7-fc49-4b93-8e54-353350ed5de9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 822411b7-fc49-4b93-8e54-353350ed5de9
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -75,6 +75,9 @@ api_location:
 - Winldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Return Values
@@ -221,7 +224,7 @@ Client loop was detected.
 
 
 
-For [**ldap\_compare\_ext\_s**](ldap-compare-ext-s.md) and [**ldap\_compare\_s**](ldap-compare-s.md), this message is returned if the function succeeds, and the attribute and known values do not match.
+For [**ldap\_compare\_ext\_s**](/windows/previous-versions/Winldap/nf-winldap-ldap_compare_ext_s?branch=master) and [**ldap\_compare\_s**](/windows/previous-versions/Winldap/nf-winldap-ldap_compare_s?branch=master), this message is returned if the function succeeds, and the attribute and known values do not match.
 
 
 </dt> </dl> </dd> <dt>
@@ -234,7 +237,7 @@ For [**ldap\_compare\_ext\_s**](ldap-compare-ext-s.md) and [**ldap\_compare\_s**
 
 
 
-For [**ldap\_compare\_ext\_s**](ldap-compare-ext-s.md) and [**ldap\_compare\_s**](ldap-compare-s.md), this message is returned if the function succeeds, and the attribute and known values match.
+For [**ldap\_compare\_ext\_s**](/windows/previous-versions/Winldap/nf-winldap-ldap_compare_ext_s?branch=master) and [**ldap\_compare\_s**](/windows/previous-versions/Winldap/nf-winldap-ldap_compare_s?branch=master), this message is returned if the function succeeds, and the attribute and known values match.
 
 
 </dt> </dl> </dd> <dt>
@@ -286,7 +289,7 @@ There was a constraint violation.
 
 
 
-The LDAP function ([**ldap\_parse\_page\_control**](ldap-parse-page-control.md), [**ldap\_parse\_sort\_control**](ldap-parse-sort-control.md), or [**ldap\_parse\_vlv\_control**](ldap-parse-vlv-control.md)) did not find the specified control.
+The LDAP function ([**ldap\_parse\_page\_control**](/windows/previous-versions/Winldap/nf-winldap-ldap_parse_page_control?branch=master), [**ldap\_parse\_sort\_control**](/windows/previous-versions/Winldap/nf-winldap-ldap_parse_sort_control?branch=master), or [**ldap\_parse\_vlv\_control**](/windows/previous-versions/Winldap/nf-winldap-ldap_parse_vlv_controla?branch=master)) did not find the specified control.
 
 
 </dt> </dl> </dd> <dt>
@@ -429,7 +432,7 @@ The object is a leaf.
 
 
 
-Local error occurred. If this error occurs during a binding operation, for more information, see [**ldap\_bind\_s**](ldap-bind-s.md).
+Local error occurred. If this error occurs during a binding operation, for more information, see [**ldap\_bind\_s**](/windows/previous-versions/Winldap/nf-winldap-ldap_bind_s?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -877,8 +880,8 @@ An error occurred when attempting to perform a requested Virtual List View opera
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winldap.h</dt> </dl> |
 
 
@@ -890,21 +893,21 @@ An error occurred when attempting to perform a requested Virtual List View opera
 [Understanding Return Values](understanding-return-values.md)
 </dt> <dt>
 
-[**ldap\_err2string**](ldap-err2string.md)
+[**ldap\_err2string**](/windows/previous-versions/Winldap/nf-winldap-ldap_err2string?branch=master)
 </dt> <dt>
 
-[**LdapGetLastError**](ldapgetlasterror.md)
+[**LdapGetLastError**](/windows/previous-versions/Winldap/nf-winldap-ldapgetlasterror?branch=master)
 </dt> <dt>
 
-[**LdapMapErrorToWin32**](ldapmaperrortowin32.md)
+[**LdapMapErrorToWin32**](/windows/previous-versions/Winldap/nf-winldap-ldapmaperrortowin32?branch=master)
 </dt> <dt>
 
-[**ldap\_result2error**](ldap-result2error.md)
+[**ldap\_result2error**](/windows/previous-versions/Winldap/nf-winldap-ldap_result2error?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

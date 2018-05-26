@@ -1,8 +1,10 @@
 ---
 title: MPTHREAT\_STATS\_DATA structure
 description: Additional threat statistics data.
-ms.assetid: '8C01C746-8FD8-4311-908D-D1F4E3488480'
-keywords: ["MPTHREAT_STATS_DATA structure Legacy Windows Environment Features", "PMPTHREAT_STATS_DATA structure pointer Legacy Windows Environment Features"]
+ms.assetid: 8C01C746-8FD8-4311-908D-D1F4E3488480
+keywords:
+- MPTHREAT_STATS_DATA structure Legacy Windows Environment Features
+- PMPTHREAT_STATS_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPTHREAT\_STATS\_DATA structure
@@ -49,15 +56,15 @@ Number of threats.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

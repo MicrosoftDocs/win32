@@ -2,13 +2,16 @@
 title: SetByDCName method of the PS\_DAEntryPointDC class
 description: Modifies domain controller settings for the entry point.
 audience: developer
-ms.assetid: 'a9445df2-7699-4127-84ea-fdd1b35f34a5'
-ms.prod: 'windows-server-dev'
+ms.assetid: a9445df2-7699-4127-84ea-fdd1b35f34a5
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByDCName method", "SetByDCName method, PS_DAEntryPointDC class", "PS_DAEntryPointDC class, SetByDCName method"]
+keywords:
+- SetByDCName method
+- SetByDCName method, PS_DAEntryPointDC class
+- PS_DAEntryPointDC class, SetByDCName method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByDCName method of the PS\_DAEntryPointDC class
@@ -28,12 +34,12 @@ Modifies domain controller settings for the entry point.
 
 ```mof
 uint32 SetByDCName(
-  [in]  string             ComputerName,
-  [in]  string             ExistingDC,
-  [in]  string             NewDC,
-  [in]  boolean            Force,
-  [in]  boolean            PassThru,
-  [out] DADomainController cmdletOutput[]
+  [in]  string             ComputerName,
+  [in]  string             ExistingDC,
+  [in]  string             NewDC,
+  [in]  boolean            Force,
+  [in]  boolean            PassThru,
+  [out] DADomainController cmdletOutput[]
 );
 ```
 
@@ -92,7 +98,7 @@ Specifying PassThru returns the DAEntrypointDC object which contains the DAEntry
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ Specifying PassThru returns the DAEntrypointDC object which contains the DAEntry
 [**PS\_DAEntryPointDC**](ps-daentrypointdc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

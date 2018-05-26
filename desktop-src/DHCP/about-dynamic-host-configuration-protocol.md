@@ -1,8 +1,14 @@
 ---
 title: About Dynamic Host Configuration Protocol
 description: (DHCP) is a standardized protocol that enables clients to be dynamically assigned with various configuration parameters, such as an IP address, subnet mask, default gateway, and other critical network configuration information.
-ms.assetid: 'd8eb3dde-1a69-4b10-9367-769978b25e45'
-keywords: ["Dynamic Host Configuration Protocol DHCP , described"]
+ms.assetid: d8eb3dde-1a69-4b10-9367-769978b25e45
+keywords:
+- Dynamic Host Configuration Protocol DHCP , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Dynamic Host Configuration Protocol

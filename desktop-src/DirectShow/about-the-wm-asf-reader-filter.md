@@ -1,14 +1,19 @@
 ---
 Description: About the WM ASF Reader Filter
-ms.assetid: 'e698c0da-88b2-497a-8a25-9d3b76c85a7d'
+ms.assetid: e698c0da-88b2-497a-8a25-9d3b76c85a7d
 title: About the WM ASF Reader Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the WM ASF Reader Filter
 
-Playback of ASF files is handled by the [WM ASF Reader](wm-asf-reader-filter.md) filter. When the WM ASF Reader reads a file, it automatically creates an output pin for each stream, including web streams, script command streams, and any other type of arbitrary stream. In the case of multiple bit rate files, pins are created only for the currently selected streams. To play an ASF file with the WM ASF Reader filter, call [**IGraphBuilder::RenderFile**](igraphbuilder-renderfile.md) or [**IGraphBuilder::AddSourceFilter**](igraphbuilder-addsourcefilter.md).
+Playback of ASF files is handled by the [WM ASF Reader](wm-asf-reader-filter.md) filter. When the WM ASF Reader reads a file, it automatically creates an output pin for each stream, including web streams, script command streams, and any other type of arbitrary stream. In the case of multiple bit rate files, pins are created only for the currently selected streams. To play an ASF file with the WM ASF Reader filter, call [**IGraphBuilder::RenderFile**](/windows/win32/Strmif/nf-strmif-igraphbuilder-renderfile?branch=master) or [**IGraphBuilder::AddSourceFilter**](/windows/win32/Strmif/nf-strmif-igraphbuilder-addsourcefilter?branch=master).
 
-The WM ASF Reader supports the DirectShow [**IMediaSeeking**](imediaseeking.md) interface, which enables applications to perform temporal seeking within the file. However, playback at speeds other than 1.0 (as specified in [**IMediaSeeking::SetRate**](imediaseeking-setrate.md)) is not supported.
+The WM ASF Reader supports the DirectShow [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) interface, which enables applications to perform temporal seeking within the file. However, playback at speeds other than 1.0 (as specified in [**IMediaSeeking::SetRate**](/windows/win32/Strmif/nf-strmif-imediaseeking-setrate?branch=master)) is not supported.
 
 The WM ASF Reader filter also exposes several Windows Media Format SDK interfaces as described in the following table. These interfaces are documented in the Windows Media Format SDK documentation.
 

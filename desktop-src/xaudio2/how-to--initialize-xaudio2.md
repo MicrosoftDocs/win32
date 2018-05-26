@@ -1,7 +1,12 @@
 ---
-Description: 'XAudio2 is initialized for audio playback by creating an instance of the XAudio2 engine, and creating a mastering voice.'
-ms.assetid: '4db2e7fc-0a87-0344-a07c-3abf2b21af32'
-title: 'How to: Initialize XAudio2'
+Description: XAudio2 is initialized for audio playback by creating an instance of the XAudio2 engine, and creating a mastering voice.
+ms.assetid: 4db2e7fc-0a87-0344-a07c-3abf2b21af32
+title: How to Initialize XAudio2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Initialize XAudio2
@@ -10,7 +15,7 @@ XAudio2 is initialized for audio playback by creating an instance of the XAudio2
 
 **To initialize XAudio2**
 
-1.  Use the [**XAudio2Create**](xaudio2create.md) function to create an instance of the XAudio2 engine.
+1.  Use the [**XAudio2Create**](/windows/win32/xaudio2/nf-xaudio2-xaudio2create?branch=master) function to create an instance of the XAudio2 engine.
 
     ```
     IXAudio2* pXAudio2 = NULL;
@@ -52,7 +57,7 @@ if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &amp;pMasterVoice ) ) )
 
 
 > [!Note]  
-> Ensure that all smart pointers to XAUDIO2 objects are fully released before you release the [**IXAudio2**](ixaudio2.md) object.
+> Ensure that all smart pointers to XAUDIO2 objects are fully released before you release the [**IXAudio2**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2?branch=master) object.
 
  
 

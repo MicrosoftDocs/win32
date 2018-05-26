@@ -1,13 +1,16 @@
 ---
-Description: 'Executes a query to receive events. The call returns immediately.'
+Description: Executes a query to receive events. The call returns immediately.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3e1bb428-5395-4e90-9713-6d96242fef4e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3e1bb428-5395-4e90-9713-6d96242fef4e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemServices.ExecNotificationQuery method'
+title: SWbemServices.ExecNotificationQuery method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemServices.ExecNotificationQuery method
@@ -146,7 +149,7 @@ There are limits to the number of **AND** and **OR** keywords that can be used i
 
 ## Examples
 
-The following VBScript code example monitors changes to volumes on a local computer. Note that [**Win32\_VolumeChangeEvent**](https://msdn.microsoft.com/library/aa394516) is an extrinsic event that is defined by a provider—not an intrinsic WMI-defined event. For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
+The following VBScript code example monitors changes to volumes on a local computer. Note that [**Win32\_VolumeChangeEvent**](https://msdn.microsoft.com/library/aa394516) is an extrinsic event that is defined by a provider not an intrinsic WMI-defined event. For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
 
 
 ```VB
@@ -204,8 +207,8 @@ Loop
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -239,9 +242,9 @@ Loop
 [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

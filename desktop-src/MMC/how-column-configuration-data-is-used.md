@@ -4,11 +4,15 @@ description: This topic identifies how snap-ins and MMC use column configuration
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '049adfc0-ded6-4b84-aaef-4c58fa063037'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 049adfc0-ded6-4b84-aaef-4c58fa063037
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["column configuration data MMC"]
+keywords:
+- column configuration data MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How Column Configuration Data Is Used

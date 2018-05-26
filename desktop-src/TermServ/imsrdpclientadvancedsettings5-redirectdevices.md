@@ -4,11 +4,20 @@ description: Sets or retrieves the configuration for device redirection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bf989ca0-5c79-4a73-a32b-51ef97ca0dff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: bf989ca0-5c79-4a73-a32b-51ef97ca0dff
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RedirectDevices property Remote Desktop Services", "RedirectDevices property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , RedirectDevices property", "RedirectDevices property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , RedirectDevices property", "RedirectDevices property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , RedirectDevices property", "RedirectDevices property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , RedirectDevices property"]
+keywords:
+- RedirectDevices property Remote Desktop Services
+- RedirectDevices property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , RedirectDevices property
+- RedirectDevices property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , RedirectDevices property
+- RedirectDevices property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , RedirectDevices property
+- RedirectDevices property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , RedirectDevices property
 topic_type:
 - apiref
 api_name:
@@ -28,6 +37,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings5::RedirectDevices property
@@ -41,11 +53,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_RedirectDevices(
-  [in]  VARIANT_BOOL fRedirectPnPDevices
+  [in]  VARIANT_BOOL fRedirectPnPDevices
 );
 
 HRESULT get_RedirectDevices(
-  [out] VARIANT_BOOL *pfRedirectPnPDevices
+  [out] VARIANT_BOOL *pfRedirectPnPDevices
 );
 ```
 
@@ -61,8 +73,8 @@ Sets the device redirection mode to **TRUE** or **FALSE**. If set to **TRUE**, d
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings5 is defined as FBA7F64E-6783-4405-DA45-FA4A763DABD0<br/> |
@@ -85,9 +97,9 @@ Sets the device redirection mode to **TRUE** or **FALSE**. If set to **TRUE**, d
 [**IMsRdpClientAdvancedSettings5**](imsrdpclientadvancedsettings5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

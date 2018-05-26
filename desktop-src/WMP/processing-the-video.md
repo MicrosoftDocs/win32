@@ -1,8 +1,18 @@
 ---
 title: Processing the Video
 description: Processing the Video
-ms.assetid: '2fa337dd-34c0-4a09-8c20-21f6103627dd'
-keywords: ["Windows Media Player plug-ins,video DSP", "plug-ins,video DSP", "digital signal processing plug-ins,video processing", "DSP plug-ins,video processing", "video DSP plug-ins,processing"]
+ms.assetid: 2fa337dd-34c0-4a09-8c20-21f6103627dd
+keywords:
+- Windows Media Player plug-ins,video DSP
+- plug-ins,video DSP
+- digital signal processing plug-ins,video processing
+- DSP plug-ins,video processing
+- video DSP plug-ins,processing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processing the Video

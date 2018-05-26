@@ -1,7 +1,12 @@
 ---
-Description: 'The FaxDoc object permits a fax client application to transmit fax documents and cover pages, and to retrieve and set information about fax transmissions.'
-ms.assetid: '11462af9-20c2-4661-801e-dcc3e092283d'
+Description: The FaxDoc object permits a fax client application to transmit fax documents and cover pages, and to retrieve and set information about fax transmissions.
+ms.assetid: 11462af9-20c2-4661-801e-dcc3e092283d
 title: FaxDoc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc
@@ -14,10 +19,10 @@ A fax client application must create an instance of a [FaxServer](-mfax-faxserve
 
 ## C/C++
 
--   Create by calling the [**IFaxServer::CreateDocument**](-mfax-ifaxserver-client-mfax-ifaxserver-createdocument-cpp.md) method.
--   Supports the [**IFaxDoc**](-mfax-ifaxdoc.md) interface.
+-   Create by calling the [**IFaxServer::CreateDocument**](/windows/previous-versions/faxcomex/?branch=master) method.
+-   Supports the [**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master) interface.
 
-For more information about creating an instance of a FaxDoc object, and for a list of the object's properties and methods, see [**IFaxDoc**](-mfax-ifaxdoc.md).
+For more information about creating an instance of a FaxDoc object, and for a list of the object's properties and methods, see [**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master).
 
 ## Visual Basic
 

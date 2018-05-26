@@ -4,13 +4,18 @@ description: Represents an iSCSI port.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '898b706b-d4e0-4fd1-aeb9-1356c26ffa98'
-ms.prod: 'windows-server-dev'
+ms.assetid: 898b706b-d4e0-4fd1-aeb9-1356c26ffa98
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_iSCSIProtocolEndpoint class iSCSI Software Target API", "MSISCSITARGET_iSCSIProtocolEndpoint class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_iSCSIProtocolEndpoint class iSCSI Software Target API
+- MSISCSITARGET_iSCSIProtocolEndpoint class iSCSI Software Target API , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_iSCSIProtocolEndpoint class
@@ -25,32 +30,32 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Version("1.0.0")]
 class MSISCSITARGET_iSCSIProtocolEndpoint : CIM_iSCSIProtocolEndpoint
 {
-  string   Caption;
-  string   ElementName;
+  string   Caption;
+  string   ElementName;
   datetime InstallDate;
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
   datetime TimeOfLastStateChange;
-  uint16   EnabledState;
-  uint16   OperationalStatus[];
-  string   Description;
-  string   NameFormat;
-  uint16   ProtocolType;
-  string   OtherTypeDescription;
-  uint32   TargetRelativePortNumber;
-  string   OtherConnectionType;
-  string   Name;
-  uint16   ProtocolIFType = 1;
-  uint16   ConnectionType = 7;
-  string   Identifier = 000000000001";
-  uint16   Role = 3;
+  uint16   EnabledState;
+  uint16   OperationalStatus[];
+  string   Description;
+  string   NameFormat;
+  uint16   ProtocolType;
+  string   OtherTypeDescription;
+  uint32   TargetRelativePortNumber;
+  string   OtherConnectionType;
+  string   Name;
+  uint16   ProtocolIFType = 1;
+  uint16   ConnectionType = 7;
+  string   Identifier = 000000000001";
+  uint16   Role = 3;
 };
 ```
 
@@ -73,7 +78,7 @@ The **MSISCSITARGET\_iSCSIProtocolEndpoint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -116,7 +121,7 @@ Indicates the supported connection type for this endpoint. The connection type i
 > \[!Important\]  
 > For **MSISCSITARGET\_iSCSIProtocolEndpoint** and all classes that are derived from it, the **ConnectionType** property must be **iSCSI** (7).
 
- 
+ 
 
 The possible values are.
 
@@ -300,14 +305,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -601,7 +606,7 @@ Indicates the Protocol Interface Type, which is used to categorize and to classi
 > [!Note]  
 > Values are mapped to the Internet Assigned Numbers Authority (IANA) ifType Management Information Base (MIB). For more information, see the [IANA](http://www.iana.org/assignments/ianaiftype-mib) website at http://www.iana.org/assignments/ianaiftype-mib.
 
- 
+ 
 
 Additional values that are defined by the Distributed Management Task Force (DMTF) have been added.
 
@@ -925,14 +930,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -987,7 +992,7 @@ Contains a string indicating the primary status of the object.
 > [!Note]  
 > This property is deprecated and replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1183,7 +1188,7 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -1218,9 +1223,9 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/cc136871)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

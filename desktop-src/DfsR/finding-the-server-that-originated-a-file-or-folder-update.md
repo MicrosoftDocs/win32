@@ -4,13 +4,17 @@ description: VBScript example shows how to use the DfsrConnectionConfig, DfsrIdR
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '00180b7f-613f-4ff3-9f6f-15c5b578a542'
-ms.prod: 'windows-server-dev'
+ms.assetid: 00180b7f-613f-4ff3-9f6f-15c5b578a542
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication examples Files , finding the server that originated a file or folder update"]
+keywords:
+- Distributed File System Replication examples Files , finding the server that originated a file or folder update
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Finding the Server that Originated a File or Folder Update

@@ -1,8 +1,13 @@
 ---
-Description: 'Glossary of Network Monitor terms that begin with the letter A.'
-Robots: 'noindex, nofollow'
-ms.assetid: '0aa58f61-c753-4a32-b37e-b5a7a0e842cc'
+Description: Glossary of Network Monitor terms that begin with the letter A.
+Robots: noindex, nofollow
+ms.assetid: 0aa58f61-c753-4a32-b37e-b5a7a0e842cc
 title: A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # A

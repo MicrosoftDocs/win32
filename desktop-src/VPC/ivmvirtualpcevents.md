@@ -1,8 +1,10 @@
 ---
 title: IVMVirtualPCEvents interface
 description: Defines the outgoing event interface for the IVMVirtualPC interface.
-ms.assetid: '40ce14d8-43e4-4c72-9729-e5503d882be6'
-keywords: ["IVMVirtualPCEvents interface Virtual PC", "IVMVirtualPCEvents interface Virtual PC , described"]
+ms.assetid: 40ce14d8-43e4-4c72-9729-e5503d882be6
+keywords:
+- IVMVirtualPCEvents interface Virtual PC
+- IVMVirtualPCEvents interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPCEvents interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Defines the outgoing event interface for the [**IVMVirtualPC**](ivmvirtualpc.md) interface. The client implements these methods to receive events sent from [**IVMVirtualPC**](ivmvirtualpc.md).
 
@@ -38,7 +45,7 @@ The **IVMVirtualPCEvents** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -46,18 +53,18 @@ The **IVMVirtualPCEvents** interface has these methods.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | DIID\_IVMVirtualPCEvents is defined as efed1ef1-3c09-41f7-a9c2-7e29fa286c9d<br/>        |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

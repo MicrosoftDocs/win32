@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::ResetPDEV method allows a rendering plug-in for Unidrv to reset its PDEV structure.'
-ms.assetid: '7398a265-56e0-4b40-bfbb-0d72e7309efc'
-title: 'IPrintOemUni::ResetPDEV method'
+---
+Description: The IPrintOemUniResetPDEV method allows a rendering plug-in for Unidrv to reset its PDEV structure.
+ms.assetid: 7398a265-56e0-4b40-bfbb-0d72e7309efc
+title: IPrintOemUniResetPDEV method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::ResetPDEV method

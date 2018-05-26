@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RequestWriter method retrieves the writer interface for an IInterFilterCommunicator object.'
-ms.assetid: '1f0684f0-e15e-491f-ba09-314f831d7ba9'
-title: 'IInterFilterCommunicator::RequestWriter method'
+---
+Description: The RequestWriter method retrieves the writer interface for an IInterFilterCommunicator object.
+ms.assetid: 1f0684f0-e15e-491f-ba09-314f831d7ba9
+title: IInterFilterCommunicatorRequestWriter method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInterFilterCommunicator::RequestWriter method

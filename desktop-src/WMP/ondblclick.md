@@ -1,14 +1,20 @@
 ---
 title: ondblclick
 description: The ondblclick event handler handles an event that occurs when the user double-clicks the element.
-ms.assetid: '36183f66-79f6-4748-ad2d-af433a5986dd'
-keywords: ["ondblclick Windows Media Player"]
+ms.assetid: 36183f66-79f6-4748-ad2d-af433a5986dd
+keywords:
+- ondblclick Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ondblclick
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ondblclick
@@ -40,9 +46,9 @@ This event handler is not applicable to the **PLAYLIST** element, the **POPUP** 
 [**Ambient Event Handlers**](ambient-event-handlers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: SolutionError enumeration
 description: Provides an enumeration of AXE errors that are pertinent to the Solution interface.
-ms.assetid: 'B9EC0695-ED0E-4C4F-AB2D-E60399D847E0'
-keywords: ["SolutionError enumeration Access Execution Engine"]
+ms.assetid: B9EC0695-ED0E-4C4F-AB2D-E60399D847E0
+keywords:
+- SolutionError enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SolutionError enumeration
@@ -22,16 +28,16 @@ Provides an enumeration of AXE errors that are pertinent to the Solution interfa
 
 ```C++
 enum SolutionError {
-  SolutionErrorNone                   = 0, 
-  SolutionErrorAlreadyInit            = AXE_E_ALREADY_INIT, 
-  SolutionErrorWorkloadInit           = AXE_E_WORKLOAD_INIT, 
-  SolutionErrorInternalError          = AXE_E_INTERNAL_ERROR, 
-  SolutionErrorUnknownWin32Error      = AXE_E_UNKNOWN_WIN32_ERROR, 
-  SolutionErrorBadManifest            = AXE_E_BAD_MANIFEST, 
-  SolutionErrorJobRunning             = AXE_E_JOB_RUNNING, 
-  SolutionErrorJobNotRunning          = AXE_E_JOB_NOT_RUNNING, 
-  SolutionErrorShellExecuteNoProcess  = AXE_E_SHELLEXECUTE_NOPROCESS, 
-  SolutionErrorQueuedEvents           = AXE_E_QUEUED_APC_EVENTS 
+  SolutionErrorNone                   = 0, 
+  SolutionErrorAlreadyInit            = AXE_E_ALREADY_INIT, 
+  SolutionErrorWorkloadInit           = AXE_E_WORKLOAD_INIT, 
+  SolutionErrorInternalError          = AXE_E_INTERNAL_ERROR, 
+  SolutionErrorUnknownWin32Error      = AXE_E_UNKNOWN_WIN32_ERROR, 
+  SolutionErrorBadManifest            = AXE_E_BAD_MANIFEST, 
+  SolutionErrorJobRunning             = AXE_E_JOB_RUNNING, 
+  SolutionErrorJobNotRunning          = AXE_E_JOB_NOT_RUNNING, 
+  SolutionErrorShellExecuteNoProcess  = AXE_E_SHELLEXECUTE_NOPROCESS, 
+  SolutionErrorQueuedEvents           = AXE_E_QUEUED_APC_EVENTS 
 
 };
 ```
@@ -142,15 +148,15 @@ Managed code uses the [**SolutionError**](axe-solutionerror_om) enum.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

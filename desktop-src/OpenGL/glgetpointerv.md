@@ -1,8 +1,9 @@
 ---
 title: glGetPointerv function
 description: The glGetPointerv function returns the address of a vertex data array.
-ms.assetid: '6f85c508-9335-4474-8cc5-e67c7421a8e4'
-keywords: ["glGetPointerv function OpenGL"]
+ms.assetid: 6f85c508-9335-4474-8cc5-e67c7421a8e4
+keywords:
+- glGetPointerv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetPointerv function
@@ -22,8 +28,8 @@ The **glGetPointerv** function returns the address of a vertex data array.
 
 ```C++
 void WINAPI glGetPointerv(
-   GLenum pname,
-   GLvoid **params
+   GLenum pname,
+   GLvoid **params
 );
 ```
 
@@ -85,8 +91,8 @@ The **glGetPointerv** function returns array pointer information. The *pname* pa
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -124,9 +130,9 @@ The **glGetPointerv** function returns array pointer information. The *pname* pa
 [**glVertexPointer**](glvertexpointer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

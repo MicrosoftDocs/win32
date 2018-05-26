@@ -1,14 +1,20 @@
 ---
-title: \ undef Directive
+title: '\ undef Directive'
 description: Preprocessor directive that removes the current definition of a constant or macro that was previously defined using the \ define directive.
-ms.assetid: 'ba6bbe6b-ecfa-40cb-887f-e42b6e22c7bd'
-keywords: ["undef Directive HLSL"]
+ms.assetid: ba6bbe6b-ecfa-40cb-887f-e42b6e22c7bd
+keywords:
+- undef Directive HLSL
 topic_type:
 - apiref
 api_name:
 - undef Directive
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \#undef Directive
@@ -22,7 +28,7 @@ Preprocessor directive that removes the current definition of a constant or macr
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Preprocessor directive that removes the current definition of a constant or macr
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -72,9 +78,9 @@ The following example shows how to use the \#undef directive to remove definitio
 [\#if, )](dx-graphics-hlsl-appendix-pre-if.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

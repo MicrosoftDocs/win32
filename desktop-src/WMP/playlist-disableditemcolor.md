@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.disabledItemColor
 description: The disabledItemColor attribute specifies or retrieves the color of a disabled CD track or of online content when offline.
-ms.assetid: 'a6e3af4b-2492-43fe-b508-393632512971'
-keywords: ["PLAYLIST.disabledItemColor Windows Media Player"]
+ms.assetid: a6e3af4b-2492-43fe-b508-393632512971
+keywords:
+- PLAYLIST.disabledItemColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.disabledItemColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.disabledItemColor
@@ -43,9 +49,9 @@ This attribute is a read/write **String** containing any Microsoft Internet Expl
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

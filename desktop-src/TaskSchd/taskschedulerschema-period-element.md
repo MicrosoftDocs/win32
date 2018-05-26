@@ -1,14 +1,20 @@
 ---
 title: Period Element
 description: Specifies how often the task needs to be started during Automatic maintenance.
-ms.assetid: 'E4BE2466-3119-41F8-8238-4627C28B26E5'
-keywords: ["Period element Task Scheduler"]
+ms.assetid: E4BE2466-3119-41F8-8238-4627C28B26E5
+keywords:
+- Period element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Period
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Period Element
@@ -48,7 +54,7 @@ The **Period** element is defined by the [**maintenanceSettingsType**](tasksched
 
 ## Remarks
 
-For C++ programming, this idle setting is specified using the [**IMaintenanceSettings::Period**](imaintenancesettings-period.md) property.
+For C++ programming, this idle setting is specified using the [**IMaintenanceSettings::Period**](/windows/win32/Taskschd/nf-taskschd-imaintenancesettings-get_period?branch=master) property.
 
 ## Examples
 
@@ -69,8 +75,8 @@ The following XML defines maintenance task with periodicity requirement set to 5
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
 
 
 
@@ -84,9 +90,9 @@ The following XML defines maintenance task with periodicity requirement set to 5
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

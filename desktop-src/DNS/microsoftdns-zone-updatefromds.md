@@ -1,8 +1,11 @@
 ---
 title: UpdateFromDS method of the MicrosoftDNS\_Zone class
 description: The UpdateFromDS method forces an update of the zone from the Directory Service (DS).
-ms.assetid: '471f0754-1221-4d1d-8ffd-36c1ab54b7e5'
-keywords: ["UpdateFromDS method DNS", "UpdateFromDS method DNS , MicrosoftDNS_Zone class", "MicrosoftDNS_Zone class DNS , UpdateFromDS method"]
+ms.assetid: 471f0754-1221-4d1d-8ffd-36c1ab54b7e5
+keywords:
+- UpdateFromDS method DNS
+- UpdateFromDS method DNS , MicrosoftDNS_Zone class
+- MicrosoftDNS_Zone class DNS , UpdateFromDS method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpdateFromDS method of the MicrosoftDNS\_Zone class
@@ -45,7 +53,7 @@ In order to successfully execute this method, the ZoneType must be zero, and the
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -88,9 +96,9 @@ In order to successfully execute this method, the ZoneType must be zero, and the
 [**WriteBackZone Method of the MicrosoftDNS\_Zone Class**](microsoftdns-zone-writebackzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

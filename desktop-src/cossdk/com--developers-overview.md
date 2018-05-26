@@ -1,6 +1,11 @@
 ---
-ms.assetid: '4670b09f-2586-4325-aaa7-c6c7d9966987'
+ms.assetid: 4670b09f-2586-4325-aaa7-c6c7d9966987
 title: COM+ Developers Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Developers Overview

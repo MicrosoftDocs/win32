@@ -1,8 +1,14 @@
 ---
 title: Feedback
 description: In feedback mode, each primitive to be rasterized generates a block of values that is copied into the feedback array.
-ms.assetid: '92f14fe2-71f7-4b59-94a5-9669e986fb30'
-keywords: ["feedback mode,OpenGL"]
+ms.assetid: 92f14fe2-71f7-4b59-94a5-9669e986fb30
+keywords:
+- feedback mode,OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Feedback

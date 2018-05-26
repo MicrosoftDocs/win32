@@ -1,8 +1,19 @@
 ---
 title: Understanding Commands and Controls
 description: The separation of logic from presentation is the design philosophy that inspires the command presentation system of the Windows Ribbon framework \ 8212;a system that is based on a design pattern where functionality and behavior are implemented independently from the controls that expose this functionality.
-ms.assetid: 'fdea0d70-c6e0-4d13-99bc-ff0c1dbff10d'
-keywords: ["Windows Ribbon,commands overview", "Ribbon,commands overview", "Windows Ribbon,controls overview", "Ribbon,controls overview", "command system for Windows Ribbon", "controls for Windows Ribbon"]
+ms.assetid: fdea0d70-c6e0-4d13-99bc-ff0c1dbff10d
+keywords:
+- Windows Ribbon,commands overview
+- Ribbon,commands overview
+- Windows Ribbon,controls overview
+- Ribbon,controls overview
+- command system for Windows Ribbon
+- controls for Windows Ribbon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Commands and Controls

@@ -4,11 +4,16 @@ description: Support operations on individual resources, their properties, and r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fa3a5042-8bb5-4ece-825c-40d7df584b35'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: fa3a5042-8bb5-4ece-825c-40d7df584b35
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource management objects Failover Cluster", "resources Failover Cluster ,management objects"]
+keywords:
+- resource management objects Failover Cluster
+- resources Failover Cluster ,management objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resource Management Objects

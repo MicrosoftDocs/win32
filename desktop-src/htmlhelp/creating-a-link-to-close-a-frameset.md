@@ -1,7 +1,12 @@
 ---
 title: Creating a Link to Close a Frameset
 description: Currently the HTML Help ActiveX Control Close command does not work properly with Web pages that contain frames.
-ms.assetid: '75862CC6-D690-48e4-B467-D6CA41EBF29B'
+ms.assetid: 75862CC6-D690-48e4-B467-D6CA41EBF29B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Link to Close a Frameset

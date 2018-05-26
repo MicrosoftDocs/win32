@@ -1,15 +1,18 @@
 ---
-Description: 'Contains information about user accounts and group accounts known to the computer system running Windows.'
+Description: Contains information about user accounts and group accounts known to the computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c0916f20-05be-4282-9642-28cec606bfd7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c0916f20-05be-4282-9642-28cec606bfd7
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_Account class'
+title: Win32\_Account class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_Account class
@@ -24,15 +27,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C4C9-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_Account : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
-  string   Domain;
+  string   Caption;
+  string   Description;
+  string   Domain;
   datetime InstallDate;
-  boolean  LocalAccount;
-  string   Name;
-  string   SID;
-  uint8    SIDType;
-  string   Status;
+  boolean  LocalAccount;
+  string   Name;
+  string   SID;
+  uint8    SIDType;
+  string   Status;
 };
 ```
 
@@ -385,8 +388,8 @@ The following PowerShell code retrieves the domain accounts.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -403,9 +406,9 @@ The following PowerShell code retrieves the domain accounts.
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

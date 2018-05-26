@@ -1,8 +1,18 @@
 ---
 title: Storyboard Overview
 description: This overview focuses on how transitions and storyboards are used in Windows Animation.
-ms.assetid: 'd37718ac-0256-4a24-a26c-d29173593be0'
-keywords: ["Windows Animation Windows Animation ,storyboard overview", "storyboards Windows Animation ,described", "transitions Windows Animation ,described", "transitions Windows Animation ,custom", "interpolators Windows Animation ,described"]
+ms.assetid: d37718ac-0256-4a24-a26c-d29173593be0
+keywords:
+- Windows Animation Windows Animation ,storyboard overview
+- storyboards Windows Animation ,described
+- transitions Windows Animation ,described
+- transitions Windows Animation ,custom
+- interpolators Windows Animation ,described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storyboard Overview
@@ -55,7 +65,7 @@ The following transitions are currently provided by the transition library. If a
 
 
 
- 
+ 
 
 The following table contains illustrations for each of these transitions.
 
@@ -63,18 +73,18 @@ The following table contains illustrations for each of these transitions.
 
 |                                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![illustration of an instantaneous transition](images/instantaneoustransition.png)  ![illustration of a constant transition](images/constanttransition.png)  ![illustration of a linear transition](images/lineartransition.png)  ![illustration of a lineat transition from speed](images/lineartransitionfromspeed.png)  ![illustration of a discrete transition](images/discretetransition.png) |
-| ![illustration of a parabolic transition from acceleration](images/parabolictransitionfromacceleration.png)  ![illustration of a cubic transition](images/cubictransition.png)  ![illustration of a smooth stop transition](images/smoothstoptransition.png)                                                                                                                                       |
-| ![illustration of a reversal transition](images/reversaltransition.png)  ![illustration of a sinusoidal transition from velocity](images/sinusolidaltransitionfromvelocity.png)  ![illustration of a sinusoidal transition from range](images/sinusolidaltransitionfromrange.png)                                                                                                                  |
+| ![illustration of an instantaneous transition](images/instantaneoustransition.png)  ![illustration of a constant transition](images/constanttransition.png)  ![illustration of a linear transition](images/lineartransition.png)  ![illustration of a lineat transition from speed](images/lineartransitionfromspeed.png)  ![illustration of a discrete transition](images/discretetransition.png) |
+| ![illustration of a parabolic transition from acceleration](images/parabolictransitionfromacceleration.png)  ![illustration of a cubic transition](images/cubictransition.png)  ![illustration of a smooth stop transition](images/smoothstoptransition.png)                                                                                                                                       |
+| ![illustration of a reversal transition](images/reversaltransition.png)  ![illustration of a sinusoidal transition from velocity](images/sinusolidaltransitionfromvelocity.png)  ![illustration of a sinusoidal transition from range](images/sinusolidaltransitionfromrange.png)                                                                                                                  |
 | ![illustration of accellerate and decelerate transitions](images/acceleratedeceleratetransition.png)                                                                                                                                                                                                                                                                                               |
 
 
 
- 
+ 
 
 ### Custom Transitions
 
-An *interpolator* defines the mathematical function that determines how an animation variable changes over time as it progresses from its initial value to a final value. Each transition in the transition library has an associated interpolator object that is provided by the system and implements the interpolator function. If an application requires an effect that cannot be specified using the transition library, it can implement one or more custom transitions by implementing an interpolator object for each new transition. Interpolator objects cannot be used directly by applications and must instead be wrapped in an associated transition. A *transition factory* is used to generate transitions from an interpolator object. See [**IUIAnimationInterpolator**](iuianimationinterpolator.md) and [**IUIAnimationTransitionFactory**](iuianimationtransitionfactory.md) for more details.
+An *interpolator* defines the mathematical function that determines how an animation variable changes over time as it progresses from its initial value to a final value. Each transition in the transition library has an associated interpolator object that is provided by the system and implements the interpolator function. If an application requires an effect that cannot be specified using the transition library, it can implement one or more custom transitions by implementing an interpolator object for each new transition. Interpolator objects cannot be used directly by applications and must instead be wrapped in an associated transition. A *transition factory* is used to generate transitions from an interpolator object. See [**IUIAnimationInterpolator**](/windows/win32/UIAnimation/nn-uianimation-iuianimationinterpolator?branch=master) and [**IUIAnimationTransitionFactory**](/windows/win32/UIAnimation/nn-uianimation-iuianimationtransitionfactory?branch=master) for more details.
 
 Note that most applications will have all of the transitions they need by using the transition library, and therefore would not need to implement an interpolator.
 
@@ -84,7 +94,7 @@ A storyboard is a collection of transitions applied to one or more animation var
 
 The overall duration of a storyboard depends on the durations of the transitions within the storyboard. The duration of a transition need not be fixed; it can be determined by the value and velocity of the animated variables when the transition begins. So, the duration of a storyboard can also depend on the state of the variables it animates.
 
-The following examples assume that an animation manager, transition library, and timer have been created. For more information, see [Create the Main Animation Objects](adding-animation-to-an-application.md). The examples also assume that the application has created three animation variables (X, Y and Z) by using the [**IUIAnimationManager::CreateAnimationVariable**](iuianimationmanager-createanimationvariable.md) method, and five transitions (T1, T2, T3, T4, and T5) by using the one of the methods of the [**IUIAnimationTransitionLibrary**](iuianimationtransitionlibrary.md) interface.
+The following examples assume that an animation manager, transition library, and timer have been created. For more information, see [Create the Main Animation Objects](adding-animation-to-an-application.md). The examples also assume that the application has created three animation variables (X, Y and Z) by using the [**IUIAnimationManager::CreateAnimationVariable**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-createanimationvariable?branch=master) method, and five transitions (T1, T2, T3, T4, and T5) by using the one of the methods of the [**IUIAnimationTransitionLibrary**](/windows/win32/UIAnimation/nn-uianimation-iuianimationtransitionlibrary?branch=master) interface.
 
 -   [Building a Simple Storyboard](#building-a-simple-storyboard)
 -   [Using a Context-Sensitive Duration](#using-a-context-sensitive-duration)
@@ -95,53 +105,53 @@ The following examples assume that an animation manager, transition library, and
 
 ### Building a Simple Storyboard
 
-To build a simple storyboard, use the [**IUIAnimationManager::CreateStoryboard**](iuianimationmanager-createstoryboard.md) method to create a new storyboard, the [**IUIAnimationTransitionLibrary::CreateLinearTransition**](iuianimationtransitionlibrary-createlineartransition.md) method to create a linear transition, T1, and the [**IUIAnimationStoryboard::AddTransition**](iuianimationstoryboard-addtransition.md) method to apply the T1 transition to the variable X and add the resulting transition to the storyboard.
+To build a simple storyboard, use the [**IUIAnimationManager::CreateStoryboard**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-createstoryboard?branch=master) method to create a new storyboard, the [**IUIAnimationTransitionLibrary::CreateLinearTransition**](/windows/win32/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createlineartransition?branch=master) method to create a linear transition, T1, and the [**IUIAnimationStoryboard::AddTransition**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-addtransition?branch=master) method to apply the T1 transition to the variable X and add the resulting transition to the storyboard.
 
 This process yields a simple storyboard, as shown in the following figure. The storyboard contains one transition, T1, such that the value of variable X changes linearly over a fixed duration of time.
 
 ![illustration showing a simple storyboard with a fixed duration](images/simplestoryboardfixedduration.png)
 
-Note that for such a simple scenario, an alternative option is to use the [**IUIAnimationManager::ScheduleTransition**](iuianimationmanager-scheduletransition.md) method.
+Note that for such a simple scenario, an alternative option is to use the [**IUIAnimationManager::ScheduleTransition**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-scheduletransition?branch=master) method.
 
 ### Using a Context-Sensitive Duration
 
-While some transitions have a fixed duration, the duration of others depends on the initial value or velocity of the animated variable when the transition begins. For example, the [**IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed**](iuianimationtransitionlibrary-createlineartransitionfromspeed.md) method creates a transition with a duration that is proportional to the difference between the initial value of the animation variable and the specified final value. In this illustration, and the remaining illustrations, such transitions with arbitrary durations are shown with a question mark (?), and their actual durations are determined when the storyboard plays.
+While some transitions have a fixed duration, the duration of others depends on the initial value or velocity of the animated variable when the transition begins. For example, the [**IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed**](/windows/win32/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createlineartransitionfromspeed?branch=master) method creates a transition with a duration that is proportional to the difference between the initial value of the animation variable and the specified final value. In this illustration, and the remaining illustrations, such transitions with arbitrary durations are shown with a question mark (?), and their actual durations are determined when the storyboard plays.
 
 ![illustration showing a simple storyboard with an unknown duration](images/simplestoryboardunknownduration.png)
 
 ### Building a More Complex Storyboard
 
-After creating a storyboard and adding a single transition, T1, you can append a second transition for the X variable by calling the [**IUIAnimationStoryboard::AddTransition**](iuianimationstoryboard-addtransition.md) method again, but with T2 instead of T1.
+After creating a storyboard and adding a single transition, T1, you can append a second transition for the X variable by calling the [**IUIAnimationStoryboard::AddTransition**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-addtransition?branch=master) method again, but with T2 instead of T1.
 
 Assuming that the T2 transition has a duration that is context-sensitive, the storyboard now contains two back-to-back transitions of arbitrary duration affecting the variable X.
 
 ![illustration showing a storyboard containing two transitions on the same variable](images/appendingwithaddtransition.png)
 
-Calling [**AddTransition**](iuianimationstoryboard-addtransition.md) again with variable Y and transition T3 adds a third transition at the start of the storyboard. Depending on the values of X and Y when the storyboard plays, T3 may end after T1 or even after T2.
+Calling [**AddTransition**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-addtransition?branch=master) again with variable Y and transition T3 adds a third transition at the start of the storyboard. Depending on the values of X and Y when the storyboard plays, T3 may end after T1 or even after T2.
 
 ![illustration showing a storyboard containing transitions across multiple variables](images/multivariablestoryboard.png)
 
 ### Using Keyframes
 
-To add a transition at an offset from the start of the storyboard, you must first add a keyframe. Keyframes represent instants in time and by themselves have no effect on the behavior of the storyboard. Every storyboard has an implicit keyframe representing the start of the storyboard, [**UI\_ANIMATION\_KEYFRAME\_STORYBOARD\_START**](ui-animation-keyframe-storyboard-start.md); you can add new keyframes at offsets from the start by calling the [**IUIAnimationStoryboard::AddKeyframeAtOffset**](iuianimationstoryboard-addkeyframeatoffset.md) method with **UI\_ANIMATION\_KEYFRAME\_STORYBOARD\_START**.
+To add a transition at an offset from the start of the storyboard, you must first add a keyframe. Keyframes represent instants in time and by themselves have no effect on the behavior of the storyboard. Every storyboard has an implicit keyframe representing the start of the storyboard, [**UI\_ANIMATION\_KEYFRAME\_STORYBOARD\_START**](/windows/win32/UIAnimation/?branch=master); you can add new keyframes at offsets from the start by calling the [**IUIAnimationStoryboard::AddKeyframeAtOffset**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-addkeyframeatoffset?branch=master) method with **UI\_ANIMATION\_KEYFRAME\_STORYBOARD\_START**.
 
 The offset at which you add a keyframe is always relative to another keyframe. The following diagram shows the result of adding keyframe1 and transition T4, which is applied to variable Z, aligned with keyframe1, and created with a fixed duration. Of course, because the durations of the other transitions are not yet known, T4 might not be the last transition to finish.
 
 ![illustration showing addition of a transition aligned at a keyframe](images/addtransitionatkeyframe.png)
 
-Keyframes can also be placed at the ends of transitions, using the [**IUIAnimationStoryboard::AddKeyframeAfterTransition**](iuianimationstoryboard-addkeyframeaftertransition.md) method. The following diagram shows the result of adding keyframe2 after T1 and keyframe3 after T2.
+Keyframes can also be placed at the ends of transitions, using the [**IUIAnimationStoryboard::AddKeyframeAfterTransition**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-addkeyframeaftertransition?branch=master) method. The following diagram shows the result of adding keyframe2 after T1 and keyframe3 after T2.
 
 ![illustration showing addition of keyframes after various transitions](images/addkeyframeaftertransition.png)
 
 Because the durations of T1 and T2 are not known until the storyboard plays, the offsets of keyframe2 and keyframe3 also are not determined until then. Consequently, keyframe2 and even keyframe3 can occur earlier than keyframe1.
 
-Both the start and end of a transition can be aligned with keyframes by using the [**IUIAnimationStoryboard::AddTransitionBetweenKeyframes**](iuianimationstoryboard-addtransitionbetweenkeyframes.md) method. The following diagram shows the result of adding a fifth transition, T5, on variable Y, between keyframe2 and keyframe3. This alters the duration of T5, making it longer or shorter depending on the relative offsets of keyframe2 and keyframe3.
+Both the start and end of a transition can be aligned with keyframes by using the [**IUIAnimationStoryboard::AddTransitionBetweenKeyframes**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-addtransitionbetweenkeyframes?branch=master) method. The following diagram shows the result of adding a fifth transition, T5, on variable Y, between keyframe2 and keyframe3. This alters the duration of T5, making it longer or shorter depending on the relative offsets of keyframe2 and keyframe3.
 
 ![illustration showing additon of a transition between keyframes](images/addtransitionbetweenkeyframes.png)
 
 ### Holding Variables
 
-If T4 does end after T2 and T5, the storyboard stops animating variables X and Y, making them available for other storyboards to animate. However, the application can call the [**IUIAnimationStoryboard::HoldVariable**](iuianimationstoryboard-holdvariable.md) method to request that the storyboard hold some or all of the variables it animates at their final values until the storyboard has completed. The following diagram shows the result of holding X and Z when T4 finishes last. Notice that the storyboard holds X at its final value until the storyboard has completed. The hold has no effect on Z because the storyboard ends when T4 finishes.
+If T4 does end after T2 and T5, the storyboard stops animating variables X and Y, making them available for other storyboards to animate. However, the application can call the [**IUIAnimationStoryboard::HoldVariable**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-holdvariable?branch=master) method to request that the storyboard hold some or all of the variables it animates at their final values until the storyboard has completed. The following diagram shows the result of holding X and Z when T4 finishes last. Notice that the storyboard holds X at its final value until the storyboard has completed. The hold has no effect on Z because the storyboard ends when T4 finishes.
 
 ![illustration showing holding of variables at final values until the storyboard has completed](images/holdvariable.png)
 
@@ -161,9 +171,9 @@ The following illustration shows the outline of a storyboard with five transitio
 
 ![illustration showing a storyboard with five transitions animating three variables](images/storyboardwithoutline.png)
 
-A cornerstone of the Windows Animation platform is its support for letting one animation complete before another begins, when necessary. While this eliminates many logical problems, it also introduces arbitrary latency in the UI. To address this, applications can specify the *longest acceptable delay* for a storyboard to start, using the [**IUIAnimationStoryboard::SetLongestAcceptableDelay**](iuianimationstoryboard-setlongestacceptabledelay.md) method, and the animation manager uses this information to schedule the storyboard before the specified latency period elapses. When a storyboard is scheduled, the animation manager determines if other storyboards must first be canceled, trimmed, concluded, and/or compressed.
+A cornerstone of the Windows Animation platform is its support for letting one animation complete before another begins, when necessary. While this eliminates many logical problems, it also introduces arbitrary latency in the UI. To address this, applications can specify the *longest acceptable delay* for a storyboard to start, using the [**IUIAnimationStoryboard::SetLongestAcceptableDelay**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-setlongestacceptabledelay?branch=master) method, and the animation manager uses this information to schedule the storyboard before the specified latency period elapses. When a storyboard is scheduled, the animation manager determines if other storyboards must first be canceled, trimmed, concluded, and/or compressed.
 
-An application can register a handler that will be called when a storyboard's status changes. This enables the application to respond when the storyboard starts playing, runs to completion, is removed entirely from the schedule, or is prevented from completing due to interruption by a higher-priority storyboard. To identify the storyboards passed to storyboard event handlers (or priority comparisons), an application can use the [**IUIAnimationStoryboard::SetTag**](iuianimationstoryboard-settag.md) method to apply tags to storyboards, similar to those that can be used to identify variables. As with storyboard re-use, developers must exercise caution when using tags to identify storyboards, and be sure that ambiguities do not arise when user actions result in many storyboards being queued.
+An application can register a handler that will be called when a storyboard's status changes. This enables the application to respond when the storyboard starts playing, runs to completion, is removed entirely from the schedule, or is prevented from completing due to interruption by a higher-priority storyboard. To identify the storyboards passed to storyboard event handlers (or priority comparisons), an application can use the [**IUIAnimationStoryboard::SetTag**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-settag?branch=master) method to apply tags to storyboards, similar to those that can be used to identify variables. As with storyboard re-use, developers must exercise caution when using tags to identify storyboards, and be sure that ambiguities do not arise when user actions result in many storyboards being queued.
 
 The following examples show two variations of an attempt to schedule the storyboard built in the earlier sections of this topic.
 
@@ -178,9 +188,9 @@ The application has registered priority comparisons that include the following l
 -   Any storyboard can compress any other storyboard (compression is always done only to prevent failure).
 
 > [!Note]  
-> The qualifier "only to prevent failure" means that the registered priority comparisons return S\_OK only when the *priorityEffect* parameter is **UI\_ANIMATION\_PRIORITY\_EFFECT\_FAILURE**. See the [**IUIAnimationPriorityComparison::HasPriority**](iuianimationprioritycomparison-haspriority.md) method for details.
+> The qualifier "only to prevent failure" means that the registered priority comparisons return S\_OK only when the *priorityEffect* parameter is **UI\_ANIMATION\_PRIORITY\_EFFECT\_FAILURE**. See the [**IUIAnimationPriorityComparison::HasPriority**](/windows/win32/UIAnimation/nf-uianimation-iuianimationprioritycomparison-haspriority?branch=master) method for details.
 
- 
+ 
 
 To start G before the longest acceptable delay has elapsed, the animation manager must do the following:
 
@@ -223,21 +233,21 @@ Once again, the outline of G is now known and is different from the result in th
 
 <dl> <dt>
 
-[**IUIAnimationManager**](iuianimationmanager.md)
+[**IUIAnimationManager**](/windows/win32/UIAnimation/nn-uianimation-iuianimationmanager?branch=master)
 </dt> <dt>
 
-[**IUIAnimationPriorityComparison**](iuianimationprioritycomparison.md)
+[**IUIAnimationPriorityComparison**](/windows/win32/UIAnimation/nn-uianimation-iuianimationprioritycomparison?branch=master)
 </dt> <dt>
 
-[**IUIAnimationStoryboard**](iuianimationstoryboard.md)
+[**IUIAnimationStoryboard**](/windows/win32/UIAnimation/nn-uianimation-iuianimationstoryboard?branch=master)
 </dt> <dt>
 
-[**IUIAnimationTransitionLibrary**](iuianimationtransitionlibrary.md)
+[**IUIAnimationTransitionLibrary**](/windows/win32/UIAnimation/nn-uianimation-iuianimationtransitionlibrary?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

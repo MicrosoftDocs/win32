@@ -1,7 +1,12 @@
 ---
 title: uaddc (sm5 - asm)
 description: Unsigned integer add with carry.
-ms.assetid: '1007253C-F920-4003-B266-D124A255F731'
+ms.assetid: 1007253C-F920-4003-B266-D124A255F731
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # uaddc (sm5 - asm)
@@ -15,7 +20,7 @@ Unsigned integer add with carry.
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Unsigned integer add with carry.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -46,7 +51,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -65,7 +70,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -74,9 +79,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

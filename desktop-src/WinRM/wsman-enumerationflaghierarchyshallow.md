@@ -4,11 +4,14 @@ description: Returns the value of the enumeration flag EnumerationFlagHierarchyS
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '18b564e6-dda1-44b9-b445-26c6183b6af9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 18b564e6-dda1-44b9-b445-26c6183b6af9
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["EnumerationFlagHierarchyShallow method Windows Remote Management", "EnumerationFlagHierarchyShallow method Windows Remote Management , WSMan object", "WSMan object Windows Remote Management , EnumerationFlagHierarchyShallow method"]
+keywords:
+- EnumerationFlagHierarchyShallow method Windows Remote Management
+- EnumerationFlagHierarchyShallow method Windows Remote Management , WSMan object
+- WSMan object Windows Remote Management , EnumerationFlagHierarchyShallow method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WSMan.EnumerationFlagHierarchyShallow method
@@ -57,8 +63,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -76,9 +82,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**Session**](session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxInboundRoutingMethods configuration collection is used by a fax client application to manage the ordered inbound fax routing methods.'
-ms.assetid: '5a00a56f-f82b-4e4b-b78f-d9f7417090c8'
+---
+Description: The FaxInboundRoutingMethods configuration collection is used by a fax client application to manage the ordered inbound fax routing methods.
+ms.assetid: 5a00a56f-f82b-4e4b-b78f-d9f7417090c8
 title: FaxInboundRoutingMethods object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingMethods object
@@ -39,7 +44,7 @@ A **FaxInboundRoutingMethods** object is accessed through a [**FaxInboundRouting
 
 To create a **FaxInboundRoutingMethods** object in Microsoft Visual Basic, call the [**GetMethods**](-mfax-faxinboundrouting-getmethods.md) property of the [**FaxInboundRouting**](-mfax-faxinboundrouting.md) object.
 
-To create a **FaxInboundRoutingMethods** object in C++, call the [**GetMethods**](-mfax-faxinboundrouting-getmethods-cpp.md) method.
+To create a **FaxInboundRoutingMethods** object in C++, call the [**GetMethods**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxinboundrouting-getmethods?branch=master) method.
 
 ## Requirements
 
@@ -62,7 +67,7 @@ To create a **FaxInboundRoutingMethods** object in C++, call the [**GetMethods**
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingMethods**](-mfax-faxinboundroutingmethods-cpp.md)
+[**IFaxInboundRoutingMethods**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingmethods?branch=master)
 </dt> </dl>
 
  

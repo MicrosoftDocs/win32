@@ -1,8 +1,14 @@
 ---
 title: How to Create an Index Buffer
 description: This topic shows how to initialize an index buffer in preparation for rendering.
-ms.assetid: '4b33d32a-27fd-4652-87ac-3b7268881f89'
-keywords: ["index buffer, creating"]
+ms.assetid: 4b33d32a-27fd-4652-87ac-3b7268881f89
+keywords:
+- index buffer, creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Create an Index Buffer
@@ -12,9 +18,9 @@ keywords: ["index buffer, creating"]
 **To initialize an index buffer**
 
 1.  Create a buffer that contains your index information.
-2.  Create a buffer description by filling in a [**D3D11\_BUFFER\_DESC**](d3d11-buffer-desc.md) structure. Pass the D3D11\_BIND\_INDEX\_BUFFER flag to the **BindFlags** member and pass the size of the buffer in bytes to the **ByteWidth** member.
-3.  Create a subresource data description by filling in a [**D3D11\_SUBRESOURCE\_DATA**](d3d11-subresource-data.md) structure. The **pSysMem** member should point directly to the index data created in step one.
-4.  Call [**ID3D11Device::CreateBuffer**](id3d11device-createbuffer.md) while passing the [**D3D11\_BUFFER\_DESC**](d3d11-buffer-desc.md) structure, the [**D3D11\_SUBRESOURCE\_DATA**](d3d11-subresource-data.md) structure, and the address of a pointer to the [**ID3D11Buffer**](id3d11buffer.md) interface to initialize.
+2.  Create a buffer description by filling in a [**D3D11\_BUFFER\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_buffer_desc?branch=master) structure. Pass the D3D11\_BIND\_INDEX\_BUFFER flag to the **BindFlags** member and pass the size of the buffer in bytes to the **ByteWidth** member.
+3.  Create a subresource data description by filling in a [**D3D11\_SUBRESOURCE\_DATA**](/windows/win32/D3D11/ns-d3d11-d3d11_subresource_data?branch=master) structure. The **pSysMem** member should point directly to the index data created in step one.
+4.  Call [**ID3D11Device::CreateBuffer**](/windows/win32/D3D11/nf-d3d11-id3d11device-createbuffer?branch=master) while passing the [**D3D11\_BUFFER\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_buffer_desc?branch=master) structure, the [**D3D11\_SUBRESOURCE\_DATA**](/windows/win32/D3D11/ns-d3d11-d3d11_subresource_data?branch=master) structure, and the address of a pointer to the [**ID3D11Buffer**](/windows/win32/D3D11/nn-d3d11-id3d11buffer?branch=master) interface to initialize.
 
 The following code example demonstrates how to create an index buffer. This example assumes that
 
@@ -25,7 +31,7 @@ g_pd3dDevice
 
 
 
-is a valid [**ID3D11Device**](id3d11device.md) object and that
+is a valid [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) object and that
 
 
 ```
@@ -34,7 +40,7 @@ g_pd3dContext
 
 
 
-is a valid [**ID3D11DeviceContext**](id3d11devicecontext.md) object.
+is a valid [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) object.
 
 
 ```

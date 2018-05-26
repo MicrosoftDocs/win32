@@ -1,7 +1,12 @@
 ---
 title: MaxFreshDeletes
 description: MaxFreshDeletes
-ms.assetid: 'f4843097-bb43-4272-bbc9-00fbb8589cb4'
+ms.assetid: f4843097-bb43-4272-bbc9-00fbb8589cb4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxFreshDeletes

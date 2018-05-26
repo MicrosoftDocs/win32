@@ -1,7 +1,12 @@
-﻿---
-Description: 'Optionally provide information to texture loader APIs to control how textures get loaded. A value of D3DX10\_DEFAULT for any of these parameters will cause D3DX to automatically use the value from the source file.'
-ms.assetid: '8325d50e-a8a9-4ee2-87e2-e60fb3699af6'
-title: 'D3DX10\_IMAGE\_LOAD\_INFO structure'
+---
+Description: Optionally provide information to texture loader APIs to control how textures get loaded. A value of D3DX10\_DEFAULT for any of these parameters will cause D3DX to automatically use the value from the source file.
+ms.assetid: 8325d50e-a8a9-4ee2-87e2-e60fb3699af6
+title: D3DX10\_IMAGE\_LOAD\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10\_IMAGE\_LOAD\_INFO structure
@@ -93,11 +98,11 @@ The maximum number of mipmap levels that the texture will have. Using 0 or D3DX1
 **Usage**
 </dt> <dd>
 
-Type: **[**D3D10\_USAGE**](d3d10-usage.md)**
+Type: **[**D3D10\_USAGE**](/windows/win32/D3D10/ne-d3d10-d3d10_usage?branch=master)**
 
 </dd> <dd>
 
-The way the texture resource is intended to be used. See [**D3D10\_USAGE**](d3d10-usage.md).
+The way the texture resource is intended to be used. See [**D3D10\_USAGE**](/windows/win32/D3D10/ne-d3d10-d3d10_usage?branch=master).
 
 </dd> <dt>
 
@@ -108,7 +113,7 @@ Type: **[**UINT**](winprog.windows_data_types)**
 
 </dd> <dd>
 
-The pipeline stages that the texture will be allowed to bind to. See [**D3D10\_BIND\_FLAG**](d3d10-bind-flag.md).
+The pipeline stages that the texture will be allowed to bind to. See [**D3D10\_BIND\_FLAG**](/windows/win32/D3D10/ne-d3d10-d3d10_bind_flag?branch=master).
 
 </dd> <dt>
 
@@ -119,7 +124,7 @@ Type: **[**UINT**](winprog.windows_data_types)**
 
 </dd> <dd>
 
-The access permissions the cpu will have for the texture resource. See [**D3D10\_CPU\_ACCESS\_FLAG**](d3d10-cpu-access-flag.md).
+The access permissions the cpu will have for the texture resource. See [**D3D10\_CPU\_ACCESS\_FLAG**](/windows/win32/D3D10/ne-d3d10-d3d10_cpu_access_flag?branch=master).
 
 </dd> <dt>
 
@@ -130,7 +135,7 @@ Type: **[**UINT**](winprog.windows_data_types)**
 
 </dd> <dd>
 
-Miscellaneous resource properties (see [**D3D10\_RESOURCE\_MISC\_FLAG**](d3d10-resource-misc-flag.md)).
+Miscellaneous resource properties (see [**D3D10\_RESOURCE\_MISC\_FLAG**](/windows/win32/D3D10/ne-d3d10-d3d10_resource_misc_flag?branch=master)).
 
 </dd> <dt>
 

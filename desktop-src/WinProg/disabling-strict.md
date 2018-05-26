@@ -1,7 +1,12 @@
 ---
 title: Disabling STRICT
 description: To disable STRICT type checking, define the symbol name NO\_STRICT. In Visual C/C++, you can also specify this definition on the command line or in a makefile by specifying /DNO\_STRICT as a compiler option.
-ms.assetid: '57b01d2e-1f64-4ac0-b4f0-624c241899d7'
+ms.assetid: 57b01d2e-1f64-4ac0-b4f0-624c241899d7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disabling STRICT

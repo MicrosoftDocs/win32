@@ -4,13 +4,16 @@ description: Retrieves a list of supported operations that can be performed by u
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bd0a8c2e-9216-4088-8a2f-3f0ba17a3701'
-ms.prod: 'windows-server-dev'
+ms.assetid: bd0a8c2e-9216-4088-8a2f-3f0ba17a3701
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedListOperations method iSCSI Software Target API", "GetSupportedListOperations method iSCSI Software Target API , MSISCSITARGET_ReplicationServiceCapabilities class", "MSISCSITARGET_ReplicationServiceCapabilities class iSCSI Software Target API , GetSupportedListOperations method"]
+keywords:
+- GetSupportedListOperations method iSCSI Software Target API
+- GetSupportedListOperations method iSCSI Software Target API , MSISCSITARGET_ReplicationServiceCapabilities class
+- MSISCSITARGET_ReplicationServiceCapabilities class iSCSI Software Target API , GetSupportedListOperations method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedListOperations method of the MSISCSITARGET\_ReplicationServiceCapabilities class
@@ -32,9 +38,9 @@ This method is inherited from the **CIM\_ReplicationServiceCapabilities** class.
 
 ```mof
 uint32 GetSupportedListOperations(
-  [in]           uint16 ReplicationType,
-  [in, optional] uint16 SynchronizationType,
-  [out]          uint16 SupportedListOperations[]
+  [in]           uint16 ReplicationType,
+  [in, optional] uint16 SynchronizationType,
+  [out]          uint16 SupportedListOperations[]
 );
 ```
 
@@ -142,7 +148,7 @@ The [**MSISCSITARGET\_ReplicationServiceCapabilities**](msiscsitarget-replicatio
 **DMTF Reserved**
 
 
-</dt> <dd>14–0x7FFF</dd> <dt>
+</dt> <dd>14 0x7FFF</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -179,7 +185,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>4–0x7FFF</dd> <dt>
+</dt> <dd>4 0x7FFF</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -488,7 +494,7 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–0x7FFF)
+**DMTF Reserved** (7 0x7FFF)
 </dt> <dt>
 
 **Vendor Specific** (0x8000 = *value* )
@@ -501,7 +507,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -521,9 +527,9 @@ This method returns one of the following values.
 [**ModifyListSynchronization**](modifylistsynchronization-msiscsitarget-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the value of the public key.'
-ms.assetid: 'd9846ebe-44df-4ee0-8f15-cc96883d9d53'
-title: 'PublicKey.EncodedKey property'
+---
+Description: Retrieves the value of the public key.
+ms.assetid: d9846ebe-44df-4ee0-8f15-cc96883d9d53
+title: PublicKey.EncodedKey property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PublicKey.EncodedKey property

@@ -1,21 +1,26 @@
 ---
-Description: 'The Next method retrieves a specified number of pins in the enumeration sequence. This method implements the IEnumPins::Next method.'
-ms.assetid: 'c38fbd32-7d83-43ec-a105-4a7cb515b471'
-title: 'CEnumPins.Next method'
+Description: The Next method retrieves a specified number of pins in the enumeration sequence. This method implements the IEnumPinsNext method.
+ms.assetid: c38fbd32-7d83-43ec-a105-4a7cb515b471
+title: CEnumPins.Next method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CEnumPins.Next method
 
-The Next method retrieves a specified number of pins in the enumeration sequence. This method implements the [**IEnumPins::Next**](ienumpins-next.md) method.
+The Next method retrieves a specified number of pins in the enumeration sequence. This method implements the [**IEnumPins::Next**](/windows/win32/Strmif/nf-strmif-ienumpins-next?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT Next(
-   ULONG cPins,
-   IPin  **ppPins,
-   ULONG *pcFetched
+   ULONG cPins,
+   IPin  **ppPins,
+   ULONG *pcFetched
 );
 ```
 
@@ -35,7 +40,7 @@ Number of pins to retrieve.
 *ppPins* 
 </dt> <dd>
 
-Array of size *cPins* that is filled with [**IPin**](ipin.md) pointers.
+Array of size *cPins* that is filled with [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) pointers.
 
 </dd> <dt>
 
@@ -62,7 +67,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -90,9 +95,9 @@ If the method succeeds, the **IPin** pointers all have outstanding reference cou
 [**CEnumPins Class**](cenumpins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

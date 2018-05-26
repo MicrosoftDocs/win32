@@ -4,17 +4,22 @@ description: The user notice for the enterprise issuer policy OID.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b7cfc5fd-99d8-4ddd-bc8f-5e5505eb1f1b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b7cfc5fd-99d8-4ddd-bc8f-5e5505eb1f1b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-PKI-OID-User-Notice attribute AD Schema", "msPKI-OID-User-Notice attribute AD Schema"]
+keywords:
+- ms-PKI-OID-User-Notice attribute AD Schema
+- msPKI-OID-User-Notice attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-PKI-OID-User-Notice
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-PKI-OID-User-Notice attribute
@@ -38,11 +43,11 @@ The user notice for the enterprise issuer policy OID.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ The user notice for the enterprise issuer policy OID.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

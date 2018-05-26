@@ -1,8 +1,9 @@
 ---
 title: UnregisterCMM function
 description: The UnregisterCMM function dissociates a specified ID value from a given color management module dynamic-link library (CMM DLL).
-ms.assetid: 'b965db49-6131-4146-b298-77455b80972d'
-keywords: ["UnregisterCMM function Windows Color System"]
+ms.assetid: b965db49-6131-4146-b298-77455b80972d
+keywords:
+- UnregisterCMM function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnregisterCMM function
@@ -24,8 +30,8 @@ The **UnregisterCMM** function dissociates a specified ID value from a given col
 
 ```C++
 BOOL WINAPI UnregisterCMM(
-   PCTSTR pMachineName,
-   DWORD  cmmID
+   PCTSTR pMachineName,
+   DWORD  cmmID
 );
 ```
 
@@ -65,8 +71,8 @@ If the profile for creating a transform later specifies this ID, the Windows def
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -84,9 +90,9 @@ If the profile for creating a transform later specifies this ID, the Windows def
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Troubleshooting Internet Connections
 description: In this scenario, a user is attempting to browse to www.msn.com using the https protocol, but is unable to connect. You can use Netsh and Network Monitor to collect and view traces in order to help determine why the connection failed.
-ms.assetid: 'e10fcc24-4670-461c-a145-3910c102e81f'
+ms.assetid: e10fcc24-4670-461c-a145-3910c102e81f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting Internet Connections

@@ -1,7 +1,12 @@
 ---
-Description: 'The WaitForRenderTime method waits for the current sample''s presentation time.'
-ms.assetid: 'a6acb780-48df-4f73-adcb-cfa4e54b19ac'
-title: 'CBaseRenderer.WaitForRenderTime method'
+Description: The WaitForRenderTime method waits for the current samples presentation time.
+ms.assetid: a6acb780-48df-4f73-adcb-cfa4e54b19ac
+title: CBaseRenderer.WaitForRenderTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.WaitForRenderTime method
@@ -34,7 +39,7 @@ Returns one of the following **HRESULT** values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,9 +70,9 @@ This method calls the [**CBaseRenderer::OnWaitStart**](cbaserenderer-onwaitstart
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IVMFloppyDriveEvents OnMediaEject method
 description: Receives notification that media has been ejected from the drive.
-ms.assetid: '3e9c0b5d-8fec-4f34-93d2-c5975403798b'
-keywords: ["OnMediaEject method Virtual PC", "OnMediaEject method Virtual PC , IVMFloppyDriveEvents interface", "IVMFloppyDriveEvents interface Virtual PC , OnMediaEject method"]
+ms.assetid: 3e9c0b5d-8fec-4f34-93d2-c5975403798b
+keywords:
+- OnMediaEject method Virtual PC
+- OnMediaEject method Virtual PC , IVMFloppyDriveEvents interface
+- IVMFloppyDriveEvents interface Virtual PC , OnMediaEject method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDriveEvents::OnMediaEject method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Receives notification that media has been ejected from the drive.
 
@@ -24,7 +32,7 @@ Receives notification that media has been ejected from the drive.
 
 ```C++
 HRESULT OnMediaEject(
-  [in] BSTR mediaPath
+  [in] BSTR mediaPath
 );
 ```
 
@@ -55,9 +63,9 @@ This method is called when media (a floppy disk image or a floppy disk in a host
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | DIID\_IVMFloppyDriveEvents is defined as a9ed3401-4e09-4177-86ec-a13bf9fa7d4e<br/>      |
@@ -71,9 +79,9 @@ This method is called when media (a floppy disk image or a floppy disk in a host
 [**IVMFloppyDriveEvents**](ivmfloppydriveevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

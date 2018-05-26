@@ -1,7 +1,12 @@
 ---
-Description: 'Implements the IAnalysisRegion interface.'
-ms.assetid: 'b881c15d-be2b-4b6a-a50e-bdd42a7cd9bb'
+Description: Implements the IAnalysisRegion interface.
+ms.assetid: b881c15d-be2b-4b6a-a50e-bdd42a7cd9bb
 title: AnalysisRegion class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AnalysisRegion class
@@ -18,7 +23,7 @@ This class implements the [**IAnalysisRegion**](ianalysisregion.md) COM interfac
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -35,9 +40,9 @@ This class implements the [**IAnalysisRegion**](ianalysisregion.md) COM interfac
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

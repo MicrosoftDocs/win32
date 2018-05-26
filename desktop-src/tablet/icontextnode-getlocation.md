@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the position and size of the IContextNode object.'
-ms.assetid: '40787a9b-1017-4209-aec8-09b7332bfa8a'
-title: 'IContextNode::GetLocation method'
+Description: Retrieves the position and size of the IContextNode object.
+ms.assetid: 40787a9b-1017-4209-aec8-09b7332bfa8a
+title: IContextNodeGetLocation method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::GetLocation method
@@ -13,7 +18,7 @@ Retrieves the position and size of the [**IContextNode**](icontextnode.md) objec
 
 ```C++
 HRESULT GetLocation(
-  [out] IAnalysisRegion **ppIAnalysisRegion
+  [out] IAnalysisRegion **ppIAnalysisRegion
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppIAnalysisRegion* when you no longer need to use the analysis region.
 
- 
+ 
 
 The location for a container node is determined by finding the union of all the leaf's locations. The location for an ink leaf node is determined by finding the union of the bounding box of the associated strokes. The location for a non-ink leaf node is set when the node is created and can be updated using [**IContextNode::SetLocation**](icontextnode-setlocation.md).
 
@@ -130,7 +135,7 @@ HRESULT CMyClass::GetNodeInformation(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -153,9 +158,9 @@ HRESULT CMyClass::GetNodeInformation(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

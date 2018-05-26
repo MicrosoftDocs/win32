@@ -1,7 +1,12 @@
 ---
 title: SQL Queries and SQL Extensions
 description: SQL Queries and SQL Extensions
-ms.assetid: '681e8ad2-01cd-4aed-8987-4bf3dd1350d6'
+ms.assetid: 681e8ad2-01cd-4aed-8987-4bf3dd1350d6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SQL Queries and SQL Extensions

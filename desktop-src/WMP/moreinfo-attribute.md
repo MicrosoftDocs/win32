@@ -1,14 +1,20 @@
 ---
 title: MoreInfo Attribute
 description: The MoreInfo attribute is a PARAM value for use in commercial interactions.
-ms.assetid: '39158342-f060-4330-942e-5f2f94d30fd1'
-keywords: ["MoreInfo Attribute Windows Media Player"]
+ms.assetid: 39158342-f060-4330-942e-5f2f94d30fd1
+keywords:
+- MoreInfo Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - MoreInfo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MoreInfo Attribute
@@ -45,9 +51,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This sample demonstrates advanced features of the MicrosoftTablet PC Automation application programming interface (API) used for handwriting recognition.'
-ms.assetid: 'c9e6613c-5797-44c3-8ce1-92d4d1459ecf'
+Description: This sample demonstrates advanced features of the MicrosoftTablet PC Automation application programming interface (API) used for handwriting recognition.
+ms.assetid: c9e6613c-5797-44c3-8ce1-92d4d1459ecf
 title: Multiple Recognizers Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multiple Recognizers Sample
@@ -13,7 +18,7 @@ It includes the following:
 -   Enumerating the installed recognizers
 -   Creating a *recognizer context* with a specific language recognizer
 -   Serializing recognition results with a stroke collection
--   Organizing stroke collections into a custom collection within the [**InkDisp**](inkdisp-class.md) object
+-   Organizing stroke collections into a custom collection within the [**InkDisp**](/windows/win32/msinkaut/?branch=master) object
 -   Serializing *ink* objects to and retrieving them from an *ink serialized format (ISF)* file
 -   Setting recognizer input guides
 -   Using synchronous and asynchronous recognition
@@ -41,7 +46,7 @@ The EventSinks.h file defines the IInkEventsImpl and IInkRecognitionEventsImpl i
 
 ## Enumerating the Installed Recognizers
 
-The application's LoadMenu method populates the Create New Strokes menu with the available recognizers. An [**InkRecognizers**](inkrecognizers-collection.md) is created. If the [**Languages**](iinkrecognizer-languages.md) property of an **InkRecognizers** object is not empty, then the recognizer is a *text recognizer*, and the value of its [**Name**](iinkrecognizer-name.md) property is added to the menu.
+The application's LoadMenu method populates the Create New Strokes menu with the available recognizers. An [**InkRecognizers**](/windows/win32/msinkaut/?branch=master) is created. If the [**Languages**](/windows/win32/msinkaut/nf-msinkaut-iinkrecognizer-get_languages?branch=master) property of an **InkRecognizers** object is not empty, then the recognizer is a *text recognizer*, and the value of its [**Name**](/windows/win32/msinkaut/nf-msinkaut-iinkrecognizer-get_name?branch=master) property is added to the menu.
 
 
 ```C++
@@ -70,7 +75,7 @@ hr = m_spIInkRecognizers.CoCreateInstance(CLSID_InkRecognizers);
 
 ## Creating an Ink Collector
 
-The application's OnCreate method creates an [**InkCollector**](inkcollector-class.md) object, connects it to its event source, and enables ink collection.
+The application's OnCreate method creates an [**InkCollector**](/windows/win32/msinkaut/?branch=master) object, connects it to its event source, and enables ink collection.
 
 
 ```C++
@@ -89,7 +94,7 @@ hr = m_spIInkCollector->put_Enabled(VARIANT_TRUE);
 
 ## Creating a Recognizer Context
 
-The application's CreateRecoContext method creates and initializes a new recognizer context, and sets up the guides supported by the associated language. The [**IInkRecognizer**](iinkrecognizer.md) object's [**CreateRecognizerContext**](iinkrecognizer-createrecognizercontext.md) method creates a [**IInkRecognizerContext2**](iinkrecognizercontext2.md) object for the language. If necessary, the old recognizer context is replaced. The context is connected to its event source. Finally, the [**Capabilities**](iinkrecognizer-capabilities.md) property of the recognizer context is checked for which guides the recognizer context supports.
+The application's CreateRecoContext method creates and initializes a new recognizer context, and sets up the guides supported by the associated language. The [**IInkRecognizer**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognizer?branch=master) object's [**CreateRecognizerContext**](/windows/win32/msinkaut/nf-msinkaut-iinkrecognizer-createrecognizercontext?branch=master) method creates a [**IInkRecognizerContext2**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognizercontext2?branch=master) object for the language. If necessary, the old recognizer context is replaced. The context is connected to its event source. Finally, the [**Capabilities**](/windows/win32/msinkaut/nf-msinkaut-iinkrecognizer-get_capabilities?branch=master) property of the recognizer context is checked for which guides the recognizer context supports.
 
 
 ```C++
@@ -121,7 +126,7 @@ if (SUCCEEDED(pIInkRecognizer->get_Capabilities(&amp;dwCapabilities)))
 
 ## Collecting Strokes and Displaying Recognition Results
 
-The application's OnStroke method updates the [**InkStrokes**](inkstrokes-collection.md) of the ink collector, cancels existing asynchronous recognition requests, and creates a recognition request on the recognizer context.
+The application's OnStroke method updates the [**InkStrokes**](/windows/win32/msinkaut/?branch=master) of the ink collector, cancels existing asynchronous recognition requests, and creates a recognition request on the recognizer context.
 
 
 ```C++
@@ -156,7 +161,7 @@ m_wndResults.UpdateString(bstrRecognizedString);
 
 ## Deleting Strokes and Recognition Results
 
-The application's OnClear method deletes all strokes and recognition results from the [**InkDisp**](inkdisp-class.md) object and clears the windows. The recognizer context's association with its [**InkStrokes**](inkstrokes-collection.md) collection is removed.
+The application's OnClear method deletes all strokes and recognition results from the [**InkDisp**](/windows/win32/msinkaut/?branch=master) object and clears the windows. The recognizer context's association with its [**InkStrokes**](/windows/win32/msinkaut/?branch=master) collection is removed.
 
 
 ```C++
@@ -189,7 +194,7 @@ if (SUCCEEDED(m_spIInkDisp->CreateStrokes(v, &amp;m_spIInkStrokes)))
 
 ## Changing Recognizer Contexts
 
-The application's OnNewStrokes method is called when the user selects a recognizer in the Create New Strokes menu. The current [**InkStrokes**](inkstrokes-collection.md) is saved. If a different language recognizer was selected, a new recognizer context is created. Then, a new **InkStrokes** is attached to the new recognizer context.
+The application's OnNewStrokes method is called when the user selects a recognizer in the Create New Strokes menu. The current [**InkStrokes**](/windows/win32/msinkaut/?branch=master) is saved. If a different language recognizer was selected, a new recognizer context is created. Then, a new **InkStrokes** is attached to the new recognizer context.
 
 
 ```C++
@@ -236,11 +241,11 @@ if (wID != m_nCmdRecognizer)
 
 
 
-It then calls StartNewStrokeCollection, which creates an empty [**InkStrokes**](inkstrokes-collection.md) and attaches it to the recognizer context.
+It then calls StartNewStrokeCollection, which creates an empty [**InkStrokes**](/windows/win32/msinkaut/?branch=master) and attaches it to the recognizer context.
 
 ## Saving the Strokes Collection for a Recognizer Context
 
-The application's `SaveStrokeCollection` method checks for an existing recognizer context, and finalizes the recognition of the current strokes collection. Then the [**InkStrokes**](inkstrokes-collection.md) collection is added to the [**CustomStrokes**](inkdisp-customstrokes.md) of the ink object.
+The application's `SaveStrokeCollection` method checks for an existing recognizer context, and finalizes the recognition of the current strokes collection. Then the [**InkStrokes**](/windows/win32/msinkaut/?branch=master) collection is added to the [**CustomStrokes**](/windows/win32/msinkaut/?branch=master) of the ink object.
 
 
 ```C++

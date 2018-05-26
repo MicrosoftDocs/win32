@@ -1,8 +1,20 @@
 ---
 title: Providing a User Interface
 description: Providing a User Interface
-ms.assetid: '43a0cfea-4f35-4c4a-97f5-a3787b597dc5'
-keywords: ["Windows Media Player plug-ins,property pages", "plug-ins,property pages", "digital signal processing plug-ins,property pages", "DSP plug-ins,property pages", "digital signal processing plug-ins,user interface", "DSP plug-ins,user interface", "property pages"]
+ms.assetid: 43a0cfea-4f35-4c4a-97f5-a3787b597dc5
+keywords:
+- Windows Media Player plug-ins,property pages
+- plug-ins,property pages
+- digital signal processing plug-ins,property pages
+- DSP plug-ins,property pages
+- digital signal processing plug-ins,user interface
+- DSP plug-ins,user interface
+- property pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Providing a User Interface

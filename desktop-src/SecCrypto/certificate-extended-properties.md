@@ -1,7 +1,12 @@
 ---
-Description: 'The data in a certificate, certificate revocation list (CRL), or certificate trust list (CTL) context, including any extensions, is read-only and cannot be changed.'
-ms.assetid: 'a9958c59-dc89-4d59-8ad3-6651ea4a1e56'
+Description: The data in a certificate, certificate revocation list (CRL), or certificate trust list (CTL) context, including any extensions, is read-only and cannot be changed.
+ms.assetid: a9958c59-dc89-4d59-8ad3-6651ea4a1e56
 title: Certificate Extended Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Extended Properties
@@ -29,22 +34,22 @@ On Microsoft platforms, values for these properties are attached to and move wit
     -   CERT\_SHA1\_HASH\_PROP\_ID
     -   CERT\_MD5\_HASH\_PROP\_ID
 
-For complete lists of currently defined extended certificate properties and descriptions of the meaning and use of each property, see [**CertGetCertificateContextProperty**](certgetcertificatecontextproperty.md) and [**CertSetCertificateContextProperty**](certsetcertificatecontextproperty.md).
+For complete lists of currently defined extended certificate properties and descriptions of the meaning and use of each property, see [**CertGetCertificateContextProperty**](/windows/win32/Wincrypt/nf-wincrypt-certgetcertificatecontextproperty?branch=master) and [**CertSetCertificateContextProperty**](/windows/win32/Wincrypt/nf-wincrypt-certsetcertificatecontextproperty?branch=master).
 
 ## Related topics
 
 <dl> <dt>
 
-[**CertGetCRLContextProperty**](certgetcrlcontextproperty.md)
+[**CertGetCRLContextProperty**](/windows/win32/Wincrypt/nf-wincrypt-certgetcrlcontextproperty?branch=master)
 </dt> <dt>
 
-[**CertGetCTLContextProperty**](certgetctlcontextproperty.md)
+[**CertGetCTLContextProperty**](/windows/win32/Wincrypt/nf-wincrypt-certgetctlcontextproperty?branch=master)
 </dt> <dt>
 
-[**CertSetCRLContextProperty**](certsetcrlcontextproperty.md)
+[**CertSetCRLContextProperty**](/windows/win32/Wincrypt/nf-wincrypt-certsetcrlcontextproperty?branch=master)
 </dt> <dt>
 
-[**CertSetCTLContextProperty**](certsetctlcontextproperty.md)
+[**CertSetCTLContextProperty**](/windows/win32/Wincrypt/nf-wincrypt-certsetctlcontextproperty?branch=master)
 </dt> </dl>
 
  

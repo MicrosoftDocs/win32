@@ -1,7 +1,12 @@
 ---
-Description: 'The SetDefaultSourceRect method sets the default source video rectangle (pure virtual). This in an internal member function that gets called when the source rectangle is reset.'
-ms.assetid: 'd0dae0a9-8763-485e-b9d3-80076a3f2f35'
-title: 'CBaseControlVideo.SetDefaultSourceRect method'
+Description: The SetDefaultSourceRect method sets the default source video rectangle (pure virtual). This in an internal member function that gets called when the source rectangle is reset.
+ms.assetid: d0dae0a9-8763-485e-b9d3-80076a3f2f35
+title: CBaseControlVideo.SetDefaultSourceRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.SetDefaultSourceRect method
@@ -66,9 +71,9 @@ In this example, CVideoText is a class derived from [**CBaseControlVideo**](cbas
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

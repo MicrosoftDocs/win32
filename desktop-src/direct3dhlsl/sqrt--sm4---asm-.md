@@ -1,7 +1,12 @@
 ---
 title: sqrt (sm4 - asm)
 description: Component-wise square root.
-ms.assetid: 'B860D656-7F01-484F-909F-A5C9A61C52C3'
+ms.assetid: B860D656-7F01-484F-909F-A5C9A61C52C3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sqrt (sm4 - asm)
@@ -15,7 +20,7 @@ Component-wise square root.
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Component-wise square root.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -45,7 +50,7 @@ F means finite-real number.
 
 
 
- 
+ 
 
 This instruction applies to the following shader stages:
 
@@ -57,7 +62,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -76,7 +81,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -85,9 +90,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

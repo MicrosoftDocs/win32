@@ -1,8 +1,9 @@
 ---
 title: DTM\_GETSYSTEMTIME message
 description: Gets the currently selected time from a date and time picker (DTP) control and places it in a specified SYSTEMTIME structure. You can send this message explicitly or use the DateTime\_GetSystemtime macro.
-ms.assetid: '81c95187-109c-4b36-98ea-a2e77ce42d9a'
-keywords: ["DTM_GETSYSTEMTIME message Windows Controls"]
+ms.assetid: 81c95187-109c-4b36-98ea-a2e77ce42d9a
+keywords:
+- DTM_GETSYSTEMTIME message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTM\_GETSYSTEMTIME message
 
-Gets the currently selected time from a date and time picker (DTP) control and places it in a specified [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure. You can send this message explicitly or use the [**DateTime\_GetSystemtime**](datetime-getsystemtime.md) macro.
+Gets the currently selected time from a date and time picker (DTP) control and places it in a specified [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure. You can send this message explicitly or use the [**DateTime\_GetSystemtime**](/windows/win32/Commctrl/nf-commctrl-datetime_getsystemtime?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ Returns GDT\_VALID if the time information was successfully placed in *lParam*. 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

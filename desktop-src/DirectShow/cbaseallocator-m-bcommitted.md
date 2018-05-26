@@ -1,7 +1,12 @@
 ---
-Description: 'Flag indicating whether the allocator has been committed.'
-ms.assetid: '56cef548-c659-4faa-b45c-de2f8dc2b3ca'
-title: 'CBaseAllocator::m\_bCommitted member'
+Description: Flag indicating whether the allocator has been committed.
+ms.assetid: 56cef548-c659-4faa-b45c-de2f8dc2b3ca
+title: CBaseAllocatorm\_bCommitted member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator::m\_bCommitted member
@@ -35,9 +40,9 @@ BOOL m_bCommitted;
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

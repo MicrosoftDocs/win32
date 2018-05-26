@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelperPS::GetOptionAttribute method retrieves the option attribute list or the value of a specific option attribute.'
-ms.assetid: '66e794e6-ded0-41b1-b52b-d886bb58a4ff'
-title: 'IPrintCoreHelperPS::GetOptionAttribute method'
+---
+Description: The IPrintCoreHelperPSGetOptionAttribute method retrieves the option attribute list or the value of a specific option attribute.
+ms.assetid: 66e794e6-ded0-41b1-b52b-d886bb58a4ff
+title: IPrintCoreHelperPSGetOptionAttribute method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperPS::GetOptionAttribute method

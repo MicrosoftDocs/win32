@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the StartHandler event.'
+---
+Description: The event type class for the StartHandler event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0b153890-20ce-421d-9db7-8de86588f369'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0b153890-20ce-421d-9db7-8de86588f369
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetStartHandler class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetStartHandler class

@@ -1,15 +1,18 @@
 ---
-Description: 'Renames the logical file (or directory) specified in the object path. Renaming is not supported if the destination is on another drive or overwriting an existing logical file is required.'
+Description: Renames the logical file (or directory) specified in the object path. Renaming is not supported if the destination is on another drive or overwriting an existing logical file is required.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '728737a7-7cb8-4237-be03-16c4dac530b2'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 728737a7-7cb8-4237-be03-16c4dac530b2
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Rename method of the CIM\_Directory class'
+title: Rename method of the CIM\_Directory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Rename method of the CIM\_Directory class
@@ -21,7 +24,7 @@ This method is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -30,7 +33,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Rename(
-  [in] string FileName
+  [in] string FileName
 );
 ```
 
@@ -158,8 +161,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -176,9 +179,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Directory**](cim-directory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

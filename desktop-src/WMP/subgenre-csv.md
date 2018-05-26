@@ -1,8 +1,17 @@
 ---
 title: subgenre.csv
 description: subgenre.csv
-ms.assetid: '3ba51cda-0c29-4ce9-9237-8444225349c8'
-keywords: ["Windows Media Player online stores,subgenre.csv", "online stores,subgenre.csv", "type 1 online stores,subgenre.csv", "subgenre.csv"]
+ms.assetid: 3ba51cda-0c29-4ce9-9237-8444225349c8
+keywords:
+- Windows Media Player online stores,subgenre.csv
+- online stores,subgenre.csv
+- type 1 online stores,subgenre.csv
+- subgenre.csv
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # subgenre.csv
@@ -24,11 +33,11 @@ The Format column in the table below describes the way each Unicode text field i
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

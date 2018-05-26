@@ -1,7 +1,12 @@
-﻿---
-Description: 'Calculates per-triangle IMT''s from a texture mapped onto a mesh, to be used optionally as input to the D3DX UVAtlas Functions.'
-ms.assetid: '6671edc4-e494-4847-ae99-b9e56651a875'
+---
+Description: Calculates per-triangle IMTs from a texture mapped onto a mesh, to be used optionally as input to the D3DX UVAtlas Functions.
+ms.assetid: 6671edc4-e494-4847-ae99-b9e56651a875
 title: D3DXComputeIMTFromTexture function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXComputeIMTFromTexture function
@@ -41,9 +46,9 @@ A pointer to an input mesh (see [**ID3DXMesh**](id3dxmesh.md)) which contains th
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-A pointer to the texture (see [**IDirect3DTexture9**](idirect3dtexture9.md)) that is mapped to the mesh.
+A pointer to the texture (see [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)) that is mapped to the mesh.
 
 </dd> <dt>
 

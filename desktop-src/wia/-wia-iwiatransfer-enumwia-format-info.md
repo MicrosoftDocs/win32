@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an enumerator for the transfer formats that the Windows Image Acquisition (WIA) 2.0 device supports.'
-ms.assetid: '70fffc7b-b500-4404-9d94-76d1828ddc8c'
-title: 'IWiaTransfer::EnumWIA\_FORMAT\_INFO method'
+---
+Description: Creates an enumerator for the transfer formats that the Windows Image Acquisition (WIA) 2.0 device supports.
+ms.assetid: 70fffc7b-b500-4404-9d94-76d1828ddc8c
+title: IWiaTransferEnumWIA\_FORMAT\_INFO method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaTransfer::EnumWIA\_FORMAT\_INFO method
@@ -26,9 +31,9 @@ HRESULT EnumWIA_FORMAT_INFO(
 *ppIEnum* \[out\]
 </dt> <dd>
 
-Type: **[**IEnumWIA\_FORMAT\_INFO**](-wia-ienumwia-format-info.md)\*\***
+Type: **[**IEnumWIA\_FORMAT\_INFO**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_format_info?branch=master)\*\***
 
-The address of the pointer to the [**IEnumWIA\_FORMAT\_INFO**](-wia-ienumwia-format-info.md) interface for the enumerator.
+The address of the pointer to the [**IEnumWIA\_FORMAT\_INFO**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_format_info?branch=master) interface for the enumerator.
 
 </dd> </dl>
 

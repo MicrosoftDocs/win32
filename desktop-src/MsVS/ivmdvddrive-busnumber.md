@@ -1,8 +1,13 @@
 ---
 title: IVMDVDDrive BusNumber property
 description: The BusNumber property contains the bus number to which this DVD drive is attached. For example, on an IDE bus, this value would represent either the primary or secondary location.
-ms.assetid: '02da951c-add8-4560-9403-6b8b08c40d80'
-keywords: ["BusNumber property Virtual Server", "BusNumber property Virtual Server , IVMDVDDrive interface", "IVMDVDDrive interface Virtual Server , BusNumber property", "BusNumber property Virtual Server , VMDVDDrive interface", "VMDVDDrive interface Virtual Server , BusNumber property"]
+ms.assetid: 02da951c-add8-4560-9403-6b8b08c40d80
+keywords:
+- BusNumber property Virtual Server
+- BusNumber property Virtual Server , IVMDVDDrive interface
+- IVMDVDDrive interface Virtual Server , BusNumber property
+- BusNumber property Virtual Server , VMDVDDrive interface
+- VMDVDDrive interface Virtual Server , BusNumber property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDrive::BusNumber property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_BusNumber(
-  [out] long *busNumber
+  [out] long *busNumber
 );
 ```
 
@@ -77,8 +87,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -90,9 +100,9 @@ This property value is read-only.
 [**IVMDVDDrive**](ivmdvddrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

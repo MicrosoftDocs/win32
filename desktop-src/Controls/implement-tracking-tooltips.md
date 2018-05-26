@@ -1,21 +1,26 @@
 ---
 title: How to Implement Tracking Tooltips
 description: Tracking tooltips remain visible until they are explicitly closed by the application, and can change position on the screen dynamically. They are supported by version 4.70 and later of the common controls.
-ms.assetid: '4BE1F9E6-92B6-4CA7-B89A-F2162BC86366'
+ms.assetid: 4BE1F9E6-92B6-4CA7-B89A-F2162BC86366
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Implement Tracking Tooltips
 
 Tracking tooltips remain visible until they are explicitly closed by the application, and can change position on the screen dynamically. They are supported by [version 4.70](common-control-versions.md) and later of the common controls.
 
-To create a tracking tooltip, include the TTF\_TRACK flag in the **uFlags** member of the [**TOOLINFO**](toolinfo.md) structure when sending the [**TTM\_ADDTOOL**](ttm-addtool.md) message.
+To create a tracking tooltip, include the TTF\_TRACK flag in the **uFlags** member of the [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure when sending the [**TTM\_ADDTOOL**](ttm-addtool.md) message.
 
 Your application must manually activate (show) and deactivate (hide) a tracking tooltip by sending a [**TTM\_TRACKACTIVATE**](ttm-trackactivate.md) message. While a tracking tooltip is active, your application must specify the location of the tooltip by sending [**TTM\_TRACKPOSITION**](ttm-trackposition.md) messages to the tooltip control. Because the application handles tasks such as positioning the tooltip, tracking tooltips do not use the **TTF\_SUBCLASS** flag or the [**TTM\_RELAYEVENT**](ttm-relayevent.md) message.
 
 The [**TTM\_TRACKPOSITION**](ttm-trackposition.md) message causes the tooltip control to display the window using one of two placement styles:
 
 -   By default, the tooltip is displayed next to the corresponding tool in a position that the control chooses. The location chosen is relative to the coordinates that you provide by using this message.
--   If you include the **TTF\_ABSOLUTE** value in the member of the [**TOOLINFO**](toolinfo.md) structure, the tooltip is displayed at the pixel location specified in the message. In this case, the control does not attempt to change the tooltip window's location from the coordinates you provide.
+-   If you include the **TTF\_ABSOLUTE** value in the member of the [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure, the tooltip is displayed at the pixel location specified in the message. In this case, the control does not attempt to change the tooltip window's location from the coordinates you provide.
 
 ## What you need to know
 
@@ -32,10 +37,10 @@ The [**TTM\_TRACKPOSITION**](ttm-trackposition.md) message causes the tooltip co
 
 ### Implement In-Place Tooltips
 
-The **uFlags** member of the [**TOOLINFO**](toolinfo.md) structure that is used in the example includes the **TTF\_ABSOLUTE** flag. Without this flag, the tooltip control chooses where to display the tooltip, and its position relative to the dialog box may change suddenly as the mouse pointer moves.
+The **uFlags** member of the [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure that is used in the example includes the **TTF\_ABSOLUTE** flag. Without this flag, the tooltip control chooses where to display the tooltip, and its position relative to the dialog box may change suddenly as the mouse pointer moves.
 
 > [!Note]  
-> `g_toolItem` is a global [**TOOLINFO**](toolinfo.md) structure.
+> `g_toolItem` is a global [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure.
 
  
 

@@ -1,8 +1,13 @@
 ---
 title: IVMSecurity RemoveEntry method
 description: The RemoveEntry method removes an access control entry. This method removes the specified access control entry.
-ms.assetid: '9f84efd2-b473-49de-b6f3-4394d91fbb5c'
-keywords: ["RemoveEntry method Virtual Server", "RemoveEntry method Virtual Server , IVMSecurity interface", "IVMSecurity interface Virtual Server , RemoveEntry method", "RemoveEntry method Virtual Server , VMSecurity interface", "VMSecurity interface Virtual Server , RemoveEntry method"]
+ms.assetid: 9f84efd2-b473-49de-b6f3-4394d91fbb5c
+keywords:
+- RemoveEntry method Virtual Server
+- RemoveEntry method Virtual Server , IVMSecurity interface
+- IVMSecurity interface Virtual Server , RemoveEntry method
+- RemoveEntry method Virtual Server , VMSecurity interface
+- VMSecurity interface Virtual Server , RemoveEntry method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSecurity::RemoveEntry method
@@ -23,7 +33,7 @@ The **RemoveEntry** method removes an access control entry. This method removes 
 
 ```C++
 HRESULT RemoveEntry(
-  [in] IVMAccessRights *entryToDelete
+  [in] IVMAccessRights *entryToDelete
 );
 ```
 
@@ -55,7 +65,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,8 +73,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -76,9 +86,9 @@ This method supports standard return values, as well as the following. For infor
 [**IVMSecurity**](ivmsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

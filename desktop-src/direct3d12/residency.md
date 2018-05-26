@@ -1,7 +1,12 @@
 ---
 title: Residency
 description: An object is considered to be resident when it is accessible by the GPU.
-ms.assetid: '956F80D7-EEC8-4D88-B251-EE325614F31E'
+ms.assetid: 956F80D7-EEC8-4D88-B251-EE325614F31E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Residency
@@ -29,7 +34,7 @@ While many API objects encapsulate some GPU-accessible memory, heaps & resources
 
 -   Heaps cannot be made partially resident, but workarounds exists with reserved resources.
 -   Heaps should be budgeted as part of a particular pool. UMA adapters have one pool, while discrete adapters have two pools. While it is true that kernel can shift some heaps on discrete adapters from video memory to system memory, it does so only as an extreme last resort. Applications should not rely on the over-budget behavior of the kernel, and should focus on good budget management instead.
--   Heaps can be evicted from residency, which allows their content to be paged out to disk. But, destruction of heaps is a more reliable technique to free up residency across all adapter architectures. On adapters where *theMaxGPUVirtualAddressBitsPerProcess* field of [**D3D12\_FEATURE\_DATA\_GPU\_VIRTUAL\_ADDRESS\_SUPPORT**](d3d12-feature-data-gpu-virtual-address-support.md) is near the budget size, [**Evict**](id3d12device-evict.md) won’t reliably reclaim residency.
+-   Heaps can be evicted from residency, which allows their content to be paged out to disk. But, destruction of heaps is a more reliable technique to free up residency across all adapter architectures. On adapters where *theMaxGPUVirtualAddressBitsPerProcess* field of [**D3D12\_FEATURE\_DATA\_GPU\_VIRTUAL\_ADDRESS\_SUPPORT**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_gpu_virtual_address_support?branch=master) is near the budget size, [**Evict**](/windows/win32/D3D12/nf-d3d12-id3d12device-evict?branch=master) won’t reliably reclaim residency.
 -   Heap creation can be slow; but it is optimized for background thread processing. It’s recommended to create heaps on background threads to avoid glitching the render thread. In D3D12, multiple threads may safely call create routines concurrently.
 
 D3D12 introduces more flexibility and orthogonality into its resource model in order to enable more options for applications. There are three high-level types of resources in D3D12: committed, placed, and reserved.
@@ -42,7 +47,7 @@ D3D12 introduces more flexibility and orthogonality into its resource model in o
 
 The Windows 10 Creators Update enables developers to influence which heaps and resources will be prefered to stay resident when memory pressure requires that some of its resources be demoted. This helps developers create better performing applications by leveraging knowlege that the runtime can't infer from API usage. Its expected that developers will become more comfortable and capable specifying priorities as they transition from using commited resources to resereved and tiled resources.
 
-Applying these priorities must be easier than manageing two dynamic memory budgets, manually demoting and promoting resources bettween them, since applications can already do that. Therefore, the design of the residency priority API is coursely-grained with reasonable default priorities assigned to each heap or resource as its created. For more information, see [**ID3D12Device1::SetResidencyPriority**](id3d12device1-setresidencypriority.md) and the [**D3D12\_RESIDENCY\_PRIORITY**](d3d12-residency-priority.md) enumeration.
+Applying these priorities must be easier than manageing two dynamic memory budgets, manually demoting and promoting resources bettween them, since applications can already do that. Therefore, the design of the residency priority API is coursely-grained with reasonable default priorities assigned to each heap or resource as its created. For more information, see [**ID3D12Device1::SetResidencyPriority**](/windows/win32/d3d12/nf-d3d12-id3d12device1-setresidencypriority?branch=master) and the [**D3D12\_RESIDENCY\_PRIORITY**](/windows/win32/d3d12/ne-d3d12-d3d12_residency_priority?branch=master) enumeration.
 
 With priorities, developers are expected to either:
 
@@ -65,7 +70,7 @@ Simple applications may be able to get by merely creating committed resources un
 
 The complexity of a residency management design will go up when trying to optimize for adapter architectures or incorporating residency priorities. Discretely budgeting and managing two pools of discrete memory will be more complex than managing only one, and asigning fixed priorities on a wide scale can become a maintainance burden if use patterns evolve. Overflowing textures into system memory adds more complexity, as the wrong resource in system-memory can severely impact frame rate. And, there is no simple functionality to help identify the resources that would either benefit from higher GPU bandwidth or tolerate lower GPU bandwidth.
 
-Even more complicated designs will query for the features of the current adapter. This information is available in [**D3D12\_FEATURE\_DATA\_GPU\_VIRTUAL\_ADDRESS\_SUPPORT**](d3d12-feature-data-gpu-virtual-address-support.md), [**D3D12\_FEATURE\_DATA\_ARCHITECTURE**](d3d12-feature-data-architecture.md), [**D3D12\_TILED\_RESOURCES\_TIER**](d3d12-tiled-resources-tier.md), and [**D3D12\_RESOURCE\_HEAP\_TIER**](d3d12-resource-heap-tier.md).
+Even more complicated designs will query for the features of the current adapter. This information is available in [**D3D12\_FEATURE\_DATA\_GPU\_VIRTUAL\_ADDRESS\_SUPPORT**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_gpu_virtual_address_support?branch=master), [**D3D12\_FEATURE\_DATA\_ARCHITECTURE**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_architecture?branch=master), [**D3D12\_TILED\_RESOURCES\_TIER**](/windows/win32/D3D12/ne-d3d12-d3d12_tiled_resources_tier?branch=master), and [**D3D12\_RESOURCE\_HEAP\_TIER**](/windows/win32/d3d12/ne-d3d12-d3d12_resource_heap_tier?branch=master).
 
 Multiple parts of an application will likely wind up using different techniques. For example, some large textures and rarely exercised code paths may use committed resources, while many textures may be designated with a streaming property and use a general placed-resource technique.
 
@@ -73,7 +78,7 @@ Multiple parts of an application will likely wind up using different techniques.
 
 <dl> <dt>
 
-[**ID3D12Heap**](id3d12heap.md)
+[**ID3D12Heap**](/windows/win32/D3D12/nn-d3d12-id3d12heap?branch=master)
 </dt> <dt>
 
 [Memory Management](memory-management.md)

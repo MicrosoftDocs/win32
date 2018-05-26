@@ -4,12 +4,15 @@ description: The Failover Clustering Hyper-V WMI provider exposes the following 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4e5ef7ab-10bb-4528-820d-83d68321e19c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4e5ef7ab-10bb-4528-820d-83d68321e19c
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Clustering Hyper-V WMI Provider

@@ -1,7 +1,12 @@
 ---
-Description: 'Describes how the Policy object is protected by default.'
-ms.assetid: 'e2d65ebf-5fbd-4e25-9862-a8188abb5492'
+Description: Describes how the Policy object is protected by default.
+ms.assetid: e2d65ebf-5fbd-4e25-9862-a8188abb5492
 title: Policy Object Protection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Policy Object Protection

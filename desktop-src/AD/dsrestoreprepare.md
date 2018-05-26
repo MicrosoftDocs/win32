@@ -4,11 +4,12 @@ description: Connects to the specified directory server and prepares it for the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e847d57a-32e1-49c0-800c-7ce0e5f442fa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e847d57a-32e1-49c0-800c-7ce0e5f442fa
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DsRestorePrepare function Active Directory"]
+keywords:
+- DsRestorePrepare function Active Directory
 topic_type:
 - apiref
 api_name:
@@ -19,11 +20,14 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DsRestorePrepare function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
 
 The **DsRestorePrepare** function connects to the specified directory server and prepares it for the restore operation.
 
@@ -32,11 +36,11 @@ The **DsRestorePrepare** function connects to the specified directory server and
 
 ```C++
 HRESULT DsRestorePrepare(
-  _In_  LPCWSTR szServerName,
-  _In_  ULONG   rtFlag,
-  _In_  PVOID   pvExpiryToken,
-  _In_  DWORD   cbExpiryTokenSize,
-  _Out_ HBC     *phbc
+  _In_  LPCWSTR szServerName,
+  _In_  ULONG   rtFlag,
+  _In_  PVOID   pvExpiryToken,
+  _In_  DWORD   cbExpiryTokenSize,
+  _Out_ HBC     *phbc
 );
 ```
 
@@ -132,8 +136,8 @@ The **DsRestorePrepare** function requires that the caller is a member of the Ad
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Ntdsbcli.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Ntdsbcli.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdsbcli.dll</dt> </dl> |
@@ -163,9 +167,9 @@ The **DsRestorePrepare** function requires that the caller is a member of the Ad
 [**DsRestoreEnd**](dsrestoreend.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

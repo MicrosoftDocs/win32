@@ -4,13 +4,19 @@ description: One of the benefits of WMI is its ability to facilitate remote admi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8ffd3a45-aecd-4581-b65d-e5f7df025f25'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8ffd3a45-aecd-4581-b65d-e5f7df025f25
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["remote administration Failover Cluster", "remote administration Failover Cluster ,vs. remote operations in NLB", "remote operations Failover Cluster ,vs. remote administration in NLB"]
+keywords:
+- remote administration Failover Cluster
+- remote administration Failover Cluster ,vs. remote operations in NLB
+- remote operations Failover Cluster ,vs. remote administration in NLB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Administration

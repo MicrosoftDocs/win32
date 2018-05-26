@@ -1,7 +1,12 @@
 ---
-Description: 'The EUDCCodeRange registry key defines end-user-defined character (EUDC) code ranges for various code pages (character sets).'
-ms.assetid: '11a167a0-f2a3-4b8b-a38c-70cf14c895be'
+Description: The EUDCCodeRange registry key defines end-user-defined character (EUDC) code ranges for various code pages (character sets).
+ms.assetid: 11a167a0-f2a3-4b8b-a38c-70cf14c895be
 title: EUDCCodeRange
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EUDCCodeRange

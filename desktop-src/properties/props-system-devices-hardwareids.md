@@ -1,7 +1,12 @@
 ---
-Description: 'Hardware Ids.'
-ms.assetid: 'b2e2656d-a5f9-4ba6-8ad6-065867bfdf99'
-title: 'System.Devices.HardwareIds'
+Description: Hardware Ids.
+ms.assetid: b2e2656d-a5f9-4ba6-8ad6-065867bfdf99
+title: System.Devices.HardwareIds
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.HardwareIds

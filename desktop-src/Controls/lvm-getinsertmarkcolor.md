@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETINSERTMARKCOLOR message
 description: Retrieves the color of the insertion point.
-ms.assetid: '1e98023a-9d26-4b87-bee4-bee4939ccfca'
-keywords: ["LVM_GETINSERTMARKCOLOR message Windows Controls"]
+ms.assetid: 1e98023a-9d26-4b87-bee4-bee4939ccfca
+keywords:
+- LVM_GETINSERTMARKCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETINSERTMARKCOLOR message
@@ -36,7 +42,7 @@ Returns a **COLORREF** structure that contains the color of the insertion point.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -44,15 +50,15 @@ Returns a **COLORREF** structure that contains the color of the insertion point.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

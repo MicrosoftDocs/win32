@@ -3,21 +3,27 @@ title: Node Control Codes
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '39b59726-e00e-4011-a7bc-96698e12f1e4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 39b59726-e00e-4011-a7bc-96698e12f1e4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
 description: 
-keywords: ["node control codes Failover Cluster", "control codes Failover Cluster ,node", "nodes Failover Cluster ,control codes"]
+keywords:
+- node control codes Failover Cluster
+- control codes Failover Cluster ,node
+- nodes Failover Cluster ,control codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Node Control Codes
 
 The [Failover Cluster API](the-server-cluster-api.md) defines the following [*external control codes*](e-gly.md#-wolf-external-control-code-gly) for [*nodes*](n-gly.md#-wolf-node-gly) (there are no [*internal control codes*](i-gly.md#-wolf-internal-control-code-gly) defined for nodes):
 
-Node control codes use the **CLUS\_OBJECT\_NODE** value of the [**CLUSTER\_CONTROL\_OBJECT**](cluster-control-object.md) enumeration to indicate that the control code applies to cluster nodes. For more information about control codes, see [Control Code Architecture](control-code-architecture.md).
+Node control codes use the **CLUS\_OBJECT\_NODE** value of the [**CLUSTER\_CONTROL\_OBJECT**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_control_object?branch=master) enumeration to indicate that the control code applies to cluster nodes. For more information about control codes, see [Control Code Architecture](control-code-architecture.md).
 
-Node control codes are enumerated by the [**CLUSCTL\_NODE\_CODES**](clusctl-node-codes.md) enumeration.
+Node control codes are enumerated by the [**CLUSCTL\_NODE\_CODES**](/windows/previous-versions/ClusAPI/ne-clusapi-clusctl_node_codes?branch=master) enumeration.
 
 ## In this section
 
@@ -89,7 +95,7 @@ Retrieves the user account name under which the cluster service is running on a 
 [CLUSCTL\_NODE\_GET\_COMMON\_PROPERTIES](clusctl-node-get-common-properties.md)
 </dt> <dd>
 
-Retrieves the read/write [common properties](common-properties.md) for a [node](nodes.md). Applications use this [control code](about-control-codes.md) as a [**ClusterNodeControl**](clusternodecontrol.md) parameter.
+Retrieves the read/write [common properties](common-properties.md) for a [node](nodes.md). Applications use this [control code](about-control-codes.md) as a [**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master) parameter.
 
 </dd> <dt>
 
@@ -198,7 +204,7 @@ Verifies that a [property list](property-lists.md) is properly formatted.
 [Failover Cluster Control Codes](control-codes.md)
 </dt> <dt>
 
-[**ClusterNodeControl**](clusternodecontrol.md)
+[**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master)
 </dt> </dl>
 
  

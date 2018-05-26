@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the tablet context.'
-ms.assetid: 'd518c42d-c2f6-4776-bea5-fecdfe48e260'
+Description: Represents the tablet context.
+ms.assetid: d518c42d-c2f6-4776-bea5-fecdfe48e260
 title: ITabletContextP interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletContextP interface
@@ -30,13 +35,13 @@ The **ITabletContextP** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
 Developers should not use this interface.
 
-[**UseNamedSharedMemoryCommunications**](itabletcontextp-usenamedsharedmemorycommunications.md) is only available on Windows Vista and later.
+[**UseNamedSharedMemoryCommunications**](itabletcontextp-usenamedsharedmemorycommunications.md) is only available on Windows Vista and later.
 
 The following code describes how the **ITabletContextP** interface is defined.
 
@@ -84,15 +89,15 @@ interface ITabletContextP : ITabletContext
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

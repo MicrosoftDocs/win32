@@ -2,13 +2,16 @@
 title: Set method of the PS\_RemoteAccess class
 description: Updates the configuration that is common to both DirectAccess and VPN viz. the following1. SSL certificate2. Internal interface 3. Internet interface.
 audience: developer
-ms.assetid: '67e87bdb-cc83-41d3-8030-3c237a782705'
-ms.prod: 'windows-server-dev'
+ms.assetid: 67e87bdb-cc83-41d3-8030-3c237a782705
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_RemoteAccess class", "PS_RemoteAccess class, Set method"]
+keywords:
+- Set method
+- Set method, PS_RemoteAccess class
+- PS_RemoteAccess class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_RemoteAccess class
@@ -28,15 +34,15 @@ Updates the configuration that is common to both DirectAccess and VPN viz. the f
 
 ```mof
 uint32 Set(
-  [in]  uint8              SslCertificate[],
-  [in]  string             ComputerName,
-  [in]  string             InternetInterface,
-  [in]  string             InternalInterface,
-  [in]  uint64             CapacityKbps,
-  [in]  boolean            UseHttp,
-  [in]  boolean            Force,
-  [in]  boolean            PassThru,
-  [out] RemoteAccessCommon cmdletOutput
+  [in]  uint8              SslCertificate[],
+  [in]  string             ComputerName,
+  [in]  string             InternetInterface,
+  [in]  string             InternalInterface,
+  [in]  uint64             CapacityKbps,
+  [in]  boolean            UseHttp,
+  [in]  boolean            Force,
+  [in]  boolean            PassThru,
+  [out] RemoteAccessCommon cmdletOutput
 );
 ```
 
@@ -79,7 +85,7 @@ Name of the corpnet facing interface. 1. In a single-NIC configuration if the ad
 
 The bandwidth capacity of the remote access configuration.
 
-**Windows Server 2012:** This parameter is not available before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is not available before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -88,7 +94,7 @@ The bandwidth capacity of the remote access configuration.
 
 **True** to use HTTP; otherwise, **false**.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -120,7 +126,7 @@ Entire Remote Access configuration consisting of DA, VPN and common configuratio
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -134,9 +140,9 @@ Entire Remote Access configuration consisting of DA, VPN and common configuratio
 [**PS\_RemoteAccess**](ps-remoteaccess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

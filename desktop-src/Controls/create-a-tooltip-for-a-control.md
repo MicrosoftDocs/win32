@@ -1,7 +1,12 @@
 ---
 title: How to Create a Tooltip for a Control
 description: The following example function creates a tooltip and associates it with the control whose resource ID is passed in.
-ms.assetid: 'FDA3B2A0-1256-4DAC-86CF-8F123894E760'
+ms.assetid: FDA3B2A0-1256-4DAC-86CF-8F123894E760
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Tooltip for a Control

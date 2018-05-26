@@ -1,7 +1,12 @@
 ---
-Description: 'Cabinet files provide a compact and organized way to store compressed source files.'
-ms.assetid: 'EA909473-1F3E-47E7-9C98-6D73E309D673'
-title: 'Cabinet Files (Setup API)'
+Description: Cabinet files provide a compact and organized way to store compressed source files.
+ms.assetid: EA909473-1F3E-47E7-9C98-6D73E309D673
+title: Cabinet Files (Setup API)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cabinet Files (Setup API)

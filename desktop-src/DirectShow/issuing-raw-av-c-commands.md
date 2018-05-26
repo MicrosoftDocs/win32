@@ -1,12 +1,17 @@
 ---
-Description: 'Issuing Raw AV/C Commands'
-ms.assetid: '18081652-962f-4605-84b7-1fa60f61ad05'
-title: 'Issuing Raw AV/C Commands'
+Description: Issuing Raw AV/C Commands
+ms.assetid: 18081652-962f-4605-84b7-1fa60f61ad05
+title: Issuing Raw AV/C Commands
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issuing Raw AV/C Commands
 
-The [**IAMExtDevice**](iamextdevice.md), [**IAMExtTransport**](iamexttransport.md), and [**IAMTimecodeReader**](iamtimecodereader.md) interfaces work by translating the method calls into commands for the driver, then interpreting the driver's response and returning it through an **HRESULT** or an output parameter. However, some device functions may not be accessible through these methods. Therefore, MSDV supports sending raw AV/C commands to the device.
+The [**IAMExtDevice**](/windows/win32/Strmif/nn-strmif-iamextdevice?branch=master), [**IAMExtTransport**](/windows/win32/Strmif/nn-strmif-iamexttransport?branch=master), and [**IAMTimecodeReader**](/windows/win32/Strmif/nn-strmif-iamtimecodereader?branch=master) interfaces work by translating the method calls into commands for the driver, then interpreting the driver's response and returning it through an **HRESULT** or an output parameter. However, some device functions may not be accessible through these methods. Therefore, MSDV supports sending raw AV/C commands to the device.
 
 You should keep the following points in mind when using this feature:
 
@@ -15,7 +20,7 @@ You should keep the following points in mind when using this feature:
 -   Only one command can be given at a time. While the command is being processed, the device will reject any additional commands.
 -   The UVC driver does not support raw AV/C commands.
 
-To send an AV/C command, format the command as an array of bytes. Then call [**IAMExtTransport::GetTransportBasicParameters**](iamexttransport-gettransportbasicparameters.md). Pass in the ED\_RAW\_EXT\_DEV\_CMD flag, the array size, and the array. You must cast the array address to an **LPOLESTR\*** type, because the original purpose of this parameter was to return a string value.
+To send an AV/C command, format the command as an array of bytes. Then call [**IAMExtTransport::GetTransportBasicParameters**](/windows/win32/Strmif/nf-strmif-iamexttransport-gettransportbasicparameters?branch=master). Pass in the ED\_RAW\_EXT\_DEV\_CMD flag, the array size, and the array. You must cast the array address to an **LPOLESTR\*** type, because the original purpose of this parameter was to return a string value.
 
 
 ```C++

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreUI2::DrvGetDriverSetting method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can obtain the current status of printer features and other internal information.'
-ms.assetid: '501ff6f1-c5f1-4ad7-be96-a95ba3e34622'
-title: 'IPrintCoreUI2::DrvGetDriverSetting method'
+---
+Description: The IPrintCoreUI2DrvGetDriverSetting method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can obtain the current status of printer features and other internal information.
+ms.assetid: 501ff6f1-c5f1-4ad7-be96-a95ba3e34622
+title: IPrintCoreUI2DrvGetDriverSetting method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreUI2::DrvGetDriverSetting method

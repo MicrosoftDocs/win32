@@ -1,7 +1,12 @@
 ---
-Description: 'This event is not supported.'
-ms.assetid: '431bdfb4-fb05-4bd8-8692-96d2027ec73c'
-title: 'EC\_EOS\_SOON'
+Description: This event is not supported.
+ms.assetid: 431bdfb4-fb05-4bd8-8692-96d2027ec73c
+title: EC\_EOS\_SOON
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_EOS\_SOON
@@ -28,9 +33,9 @@ This event is not supported.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

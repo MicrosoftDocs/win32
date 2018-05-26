@@ -1,7 +1,12 @@
 ---
-Description: 'The SetUnsignedIntegerValue method adds a new ULONG value (type VT\_UI4) or overwrites an existing one.'
-ms.assetid: '9b5d1b8c-7863-4807-a34b-56d30a47bd5c'
-title: 'IPortableDeviceValues::SetUnsignedIntegerValue method'
+Description: The SetUnsignedIntegerValue method adds a new ULONG value (type VT\_UI4) or overwrites an existing one.
+ms.assetid: 9b5d1b8c-7863-4807-a34b-56d30a47bd5c
+title: IPortableDeviceValuesSetUnsignedIntegerValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetUnsignedIntegerValue method
@@ -13,8 +18,8 @@ The **SetUnsignedIntegerValue** method adds a new **ULONG** value (type VT\_UI4)
 
 ```C++
 HRESULT SetUnsignedIntegerValue(
-  [in]       REFPROPERTYKEY key,
-  [in] const ULONG          Value
+  [in]       REFPROPERTYKEY key,
+  [in] const ULONG          Value
 );
 ```
 
@@ -50,7 +55,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -84,9 +89,9 @@ For an example of how to use this method, see [**Specifying Client Information**
 [**Specifying Client Information**](specifying-client-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Imports the owner authorization information for a TPM that is already owned into the operating system registry.'
-ms.assetid: '9611D363-6F10-48B9-B417-97133E975257'
-title: 'Win32\_Tpm::ImportOwnerAuth method'
+---
+Description: Imports the owner authorization information for a TPM that is already owned into the operating system registry.
+ms.assetid: 9611D363-6F10-48B9-B417-97133E975257
+title: Win32\_TpmImportOwnerAuth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_Tpm::ImportOwnerAuth method

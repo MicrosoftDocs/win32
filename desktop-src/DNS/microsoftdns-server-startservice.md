@@ -1,8 +1,11 @@
 ---
 title: StartService method of the MicrosoftDNS\_Server class
 description: The StartService method starts the DNS Server.
-ms.assetid: 'f6343a34-9d1b-4f82-897e-289650af6be9'
-keywords: ["StartService method DNS", "StartService method DNS , MicrosoftDNS_Server class", "MicrosoftDNS_Server class DNS , StartService method"]
+ms.assetid: f6343a34-9d1b-4f82-897e-289650af6be9
+keywords:
+- StartService method DNS
+- StartService method DNS , MicrosoftDNS_Server class
+- MicrosoftDNS_Server class DNS , StartService method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StartService method of the MicrosoftDNS\_Server class
@@ -41,7 +49,7 @@ ERROR\_SUCCESS indicates the service was successfully started. Any other value i
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -63,9 +71,9 @@ ERROR\_SUCCESS indicates the service was successfully started. Any other value i
 [**GetDistinguishedName Method of the MicrosoftDNS\_Server Class**](microsoftdns-server-getdistinguishedname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

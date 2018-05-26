@@ -4,11 +4,12 @@ description: Returns available issuers of rights policy templates.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '019c9f42-ba17-488c-941e-e1ae45daa10a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 019c9f42-ba17-488c-941e-e1ae45daa10a
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcGetTemplateIssuerList function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcGetTemplateIssuerList function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcGetTemplateIssuerList function
@@ -28,11 +32,11 @@ Returns available issuers of rights policy templates. The available issuers is a
 
 ```C++
 HRESULT WINAPI IpcGetTemplateIssuerList(
-  _In_opt_   PCIPC_CONNECTION_INFO      pConnectionInfo,
-             DWORD                      dwFlags,
-  _In_opt_   PCIPC_PROMPT_CTX           pContext,
-  _Reserved_ LPVOID                     pvReserved,
-  _Out_      PCIPC_TEMPLATE_ISSUER_LIST *ppcTemplateIssuers
+  _In_opt_   PCIPC_CONNECTION_INFO      pConnectionInfo,
+             DWORD                      dwFlags,
+  _In_opt_   PCIPC_PROMPT_CTX           pContext,
+  _Reserved_ LPVOID                     pvReserved,
+  _Out_      PCIPC_TEMPLATE_ISSUER_LIST *ppcTemplateIssuers
 );
 ```
 
@@ -87,9 +91,9 @@ Reserved for future use. Must be **NULL**.
 A pointer to a variable that receives a pointer to the buffer that contains the Template Issuer List. For more information, see [**IPC\_TEMPLATE\_ISSUER\_LIST**](ipc-template-issuer-list.md).
 
 > [!Note]  
-> The buffer is allocated by the RMS SDK 2.1 and must be freed by calling [**IpcFreeMemory**](ipcfreememory.md).
+> The buffer is allocated by the RMS SDK 2.1 and must be freed by calling [**IpcFreeMemory**](ipcfreememory.md).
 
- 
+ 
 
 </dd> </dl>
 
@@ -97,7 +101,7 @@ A pointer to a variable that receives a pointer to the buffer that contains the 
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 Possible values include, but are not limited to, those in the following list.
 
@@ -106,7 +110,7 @@ Possible values include, but are not limited to, those in the following list.
 **IPCERROR\_NEEDS\_ONLINE**
 </dt> <dd>
 
-Meaning: RMS SDK 2.1 needs network access to complete the operation, but the application requested offline mode.
+Meaning: RMS SDK 2.1 needs network access to complete the operation, but the application requested offline mode.
 
 Action: Call the function again, without specifying the **IPC\_PROMPT\_FLAG\_OFFLINE** flag. Typically, this flag is used in situations in which failure is acceptable and preferred to performing a network access. The system is already optimized to use the network only when absolutely necessary, so we do not recommend that developers use the **IPC\_PROMPT\_FLAG\_OFFLINE** flag as an optimization.
 
@@ -115,7 +119,7 @@ Action: Call the function again, without specifying the **IPC\_PROMPT\_FLAG\_OFF
 **IPCERROR\_NEEDS\_UI**
 </dt> <dd>
 
-Meaning: RMS SDK 2.1 needs to display a window to complete the operation, but the application requested silent mode.
+Meaning: RMS SDK 2.1 needs to display a window to complete the operation, but the application requested silent mode.
 
 Action: Call the function again, without specifying the IPC\_PROMPT\_FLAG\_SILENT flag.
 
@@ -133,8 +137,8 @@ The issuer information can be used as basis of application-specified policy. An 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                    |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                    |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Ipcprot.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl> |
@@ -169,9 +173,9 @@ The issuer information can be used as basis of application-specified policy. An 
 [**Error codes**](error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

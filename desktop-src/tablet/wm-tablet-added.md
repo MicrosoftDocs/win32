@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WM\_TABLET\_ADDED message is posted when a tablet device is added to Windows.'
-ms.assetid: '74323b34-2364-47eb-b8ac-b97546e43b32'
-title: 'WM\_TABLET\_ADDED message'
+---
+Description: The WM\_TABLET\_ADDED message is posted when a tablet device is added to Windows.
+ms.assetid: 74323b34-2364-47eb-b8ac-b97546e43b32
+title: WM\_TABLET\_ADDED message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_TABLET\_ADDED message
@@ -38,7 +43,7 @@ Unused.
 
 This message is sent to all top-level windows in the system, including disabled or invisible unowned windows, overlapped windows, and pop-up windows; but the message is not sent to child windows.
 
-The indexes passed in *wParam* are related to the index used by the [**ITabletManager::GetTablet**](itabletmanager-gettablet.md) method.
+The indexes passed in *wParam* are related to the index used by the [**ITabletManager::GetTablet**](/windows/win32/rtscom/?branch=master) method.
 
 ## Requirements
 

@@ -1,14 +1,19 @@
 ---
-Description: 'A service configuration program uses the ChangeServiceConfig and ChangeServiceConfig2 functions to change the configuration parameters of an installed service.'
-ms.assetid: '79aa4ad5-87ee-4f5d-9c8e-4e788f4c7182'
-title: 'Changing a Service's Configuration'
+Description: A service configuration program uses the ChangeServiceConfig and ChangeServiceConfig2 functions to change the configuration parameters of an installed service.
+ms.assetid: 79aa4ad5-87ee-4f5d-9c8e-4e788f4c7182
+title: Changing a Services Configuration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing a Service's Configuration
 
-A [service configuration program](service-configuration-programs.md) uses the [**ChangeServiceConfig**](changeserviceconfig.md) and [**ChangeServiceConfig2**](changeserviceconfig2.md) functions to change the configuration parameters of an installed service. The program opens a handle to the service object, modifies its configuration, and then closes the service object handle.
+A [service configuration program](service-configuration-programs.md) uses the [**ChangeServiceConfig**](/windows/win32/Winsvc/nf-winsvc-changeserviceconfiga?branch=master) and [**ChangeServiceConfig2**](/windows/win32/Winsvc/nf-winsvc-changeserviceconfig2a?branch=master) functions to change the configuration parameters of an installed service. The program opens a handle to the service object, modifies its configuration, and then closes the service object handle.
 
-In the following example, the DoDisableSvc function uses [**ChangeServiceConfig**](changeserviceconfig.md) to change the service start type to "Disabled", the DoEnableSvc function uses **ChangeServiceConfig** to change the service start type to "Enabled", and the DoUpdateSvcDesc function uses [**ChangeServiceConfig2**](changeserviceconfig2.md) to set the service description to "This is a test description". The szSvcName variable is a global variable that contains the name of the service. For the complete example that sets this variable, see [SvcConfig.cpp](svcconfig-cpp.md).
+In the following example, the DoDisableSvc function uses [**ChangeServiceConfig**](/windows/win32/Winsvc/nf-winsvc-changeserviceconfiga?branch=master) to change the service start type to "Disabled", the DoEnableSvc function uses **ChangeServiceConfig** to change the service start type to "Enabled", and the DoUpdateSvcDesc function uses [**ChangeServiceConfig2**](/windows/win32/Winsvc/nf-winsvc-changeserviceconfig2a?branch=master) to set the service description to "This is a test description". The szSvcName variable is a global variable that contains the name of the service. For the complete example that sets this variable, see [SvcConfig.cpp](svcconfig-cpp.md).
 
 
 ```C++

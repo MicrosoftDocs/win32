@@ -1,14 +1,20 @@
 ---
 title: log10
 description: Returns the base-10 logarithm of the specified value.
-ms.assetid: 'a94f8438-8153-4a31-bde3-98831edf99e5'
-keywords: ["log10 HLSL"]
+ms.assetid: a94f8438-8153-4a31-bde3-98831edf99e5
+keywords:
+- log10 HLSL
 topic_type:
 - apiref
 api_name:
 - log10
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # log10
@@ -22,7 +28,7 @@ Returns the base-10 logarithm of the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the base-10 logarithm of the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The base-10 logarithm of the *x* parameter. If the *x* parameter is negative, th
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

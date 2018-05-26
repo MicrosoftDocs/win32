@@ -1,8 +1,10 @@
 ---
 title: MCONTACTPROPERTY enumeration
-description: Do not use. Used to ask for the property that indicates which groups a user belongs to, or the contact's e-mail address.
-ms.assetid: '2711e95b-d73c-41c8-870d-99f0ca48f05a'
-keywords: ["MCONTACTPROPERTY enumeration Windows Messenger", "LockError enumeration Windows Messenger"]
+description: Do not use. Used to ask for the property that indicates which groups a user belongs to, or the contacts e-mail address.
+ms.assetid: 2711e95b-d73c-41c8-870d-99f0ca48f05a
+keywords:
+- MCONTACTPROPERTY enumeration Windows Messenger
+- LockError enumeration Windows Messenger
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msgrua.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCONTACTPROPERTY enumeration
 
-\[**MCONTACTPROPERTY** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MCONTACTPROPERTY** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. Used to ask for the property that indicates which groups a user belongs to, or the contact's e-mail address.
 
@@ -24,9 +31,9 @@ Do not use. Used to ask for the property that indicates which groups a user belo
 
 ```C++
 typedef enum  { 
-  MCONTACTPROP_INVALID_PROPERTY  = -1,
+  MCONTACTPROP_INVALID_PROPERTY  = -1,
   MCONTACTPROP_GROUPS_PROPERTY,
-  MCONTACTPROP_EMAIL             = 1
+  MCONTACTPROP_EMAIL             = 1
 } LockError;
 ```
 
@@ -63,16 +70,16 @@ Used to ask for the property that indicates the contact's e-mail address.
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

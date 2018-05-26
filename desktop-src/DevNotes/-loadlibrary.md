@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads a library.'
-ms.assetid: '191fcbd8-4542-4cad-955e-6951f3005fc5'
+---
+Description: Loads a library.
+ms.assetid: 191fcbd8-4542-4cad-955e-6951f3005fc5
 title: '\_LoadLibrary function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_LoadLibrary function

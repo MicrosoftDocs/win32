@@ -1,15 +1,18 @@
 ---
-Description: 'Retrieves information about the published web application that has the specified name.'
+Description: Retrieves information about the published web application that has the specified name.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2d4e4352-0bf9-47ca-8651-17c4cc658092'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2d4e4352-0bf9-47ca-8651-17c4cc658092
+ms.prod: windows-server-dev
 ms.technology:
-- 'web-app-proxy'
-- 'windows-management-instrumentation'
+- web-app-proxy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetByName method of the CIM\_WebApplicationProxyApplication class'
+title: GetByName method of the CIM\_WebApplicationProxyApplication class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByName method of the CIM\_WebApplicationProxyApplication class
@@ -21,8 +24,8 @@ Retrieves information about the published web application that has the specified
 
 ```mof
 uint32 GetByName(
-  [in]  string          Name,
-  [out] PublishedWebApp cmdletOutput[]
+  [in]  string          Name,
+  [out] PublishedWebApp cmdletOutput[]
 );
 ```
 
@@ -57,7 +60,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WebApplicationProxy<br/>                                          |
 | Header<br/>                   | <dl> <dt>Wmp.h</dt> </dl>                  |
 | MOF<br/>                      | <dl> <dt>AppProxyPSProvider.mof</dt> </dl> |
@@ -72,9 +75,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**CIM\_WebApplicationProxyApplication**](cim-webapplicationproxyapplication.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

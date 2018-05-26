@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree QueryBodyProp method
 description: Compares the value of a property in a body with a specified string.
-ms.assetid: 'bc7cfae2-1cf5-4c61-8110-1e3827feee86'
-keywords: ["QueryBodyProp method Windows Mail (formerly Outlook Express)", "QueryBodyProp method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , QueryBodyProp method"]
+ms.assetid: bc7cfae2-1cf5-4c61-8110-1e3827feee86
+keywords:
+- QueryBodyProp method Windows Mail (formerly Outlook Express)
+- QueryBodyProp method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , QueryBodyProp method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::QueryBodyProp method
@@ -22,11 +30,11 @@ Compares the value of a property in a body with a specified string.
 
 ```C++
 HRESULT QueryBodyProp(
-  [in] HBODY   hBody,
-  [in] LPCSTR  pszName,
-  [in] LPCSTR  pszCriteria,
-  [in] boolean fSubString,
-  [in] boolean fCaseSensitive
+  [in] HBODY   hBody,
+  [in] LPCSTR  pszName,
+  [in] LPCSTR  pszCriteria,
+  [in] boolean fSubString,
+  [in] boolean fCaseSensitive
 );
 ```
 
@@ -79,7 +87,7 @@ Specifies how to compare the string to the property value.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -99,7 +107,7 @@ Specifies whether the string comparison is case sensitive.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -122,7 +130,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -140,8 +148,8 @@ pPropertySet-&gt;[**QueryProp**](oe-imimepropertyset-queryprop.md)(*pszName*, *p
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -149,9 +157,9 @@ pPropertySet-&gt;[**QueryProp**](oe-imimepropertyset-queryprop.md)(*pszName*, *p
 
 
 
- 
+ 
 
- 
+ 
 
 
 

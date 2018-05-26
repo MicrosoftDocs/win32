@@ -1,7 +1,12 @@
 ---
-Description: 'This CheckBox\_control is a two-state check box.'
-ms.assetid: '939cc08f-7efd-4ff4-a846-6419e512a18f'
+Description: This CheckBox\_control is a two-state check box.
+ms.assetid: 939cc08f-7efd-4ff4-a846-6419e512a18f
 title: CheckBox Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CheckBox Control
@@ -34,15 +39,15 @@ You can use the following attributes with this control. To change the value of a
 
 
 
- 
+ 
 
 ## Remarks
 
 This control can be created from the BUTTON class by using the [**CreateWindowEx**](_win32_createwindowex_cpp) function. It has the **BS\_CHECKBOX**, **WS\_TABSTOP**, **WS\_GROUP**, **WS\_CHILD**, and **BS\_MULTILINE** styles.
 
- 
+ 
 
- 
+ 
 
 
 

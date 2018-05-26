@@ -1,7 +1,12 @@
 ---
 title: Source Register Swizzling
 description: Before an instruction runs, the data in a source register is copied to a temporary register. Swizzling refers to the ability to copy any source register component to any temporary register component. Swizzling does not affect the source register data.
-ms.assetid: '6271d846-c68d-467c-a110-be3279e0c11a'
+ms.assetid: 6271d846-c68d-467c-a110-be3279e0c11a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source Register Swizzling

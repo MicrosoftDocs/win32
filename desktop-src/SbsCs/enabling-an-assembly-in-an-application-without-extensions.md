@@ -1,7 +1,12 @@
 ---
-Description: 'If your application does not host a DLL, extension, plug-in, or control panel, you can use the method described in this section to enable an assembly for your application.'
-ms.assetid: 'd043ec1b-ac31-45fb-9232-eec42aef4ac3'
+Description: If your application does not host a DLL, extension, plug-in, or control panel, you can use the method described in this section to enable an assembly for your application.
+ms.assetid: d043ec1b-ac31-45fb-9232-eec42aef4ac3
 title: Enabling an Assembly in an Application Without Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling an Assembly in an Application Without Extensions

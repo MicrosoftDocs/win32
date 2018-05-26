@@ -1,7 +1,12 @@
 ---
 Description: Declaring the Factory Template
-ms.assetid: '3060c167-ea23-4061-b32a-16e750f55e6f'
+ms.assetid: 3060c167-ea23-4061-b32a-16e750f55e6f
 title: Declaring the Factory Template
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Declaring the Factory Template

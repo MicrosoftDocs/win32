@@ -1,7 +1,12 @@
 ---
 title: Working with KLinks
 description: You can use Keyword links (KLinks) to link between HTML files and to build an index.
-ms.assetid: 'A9923007-5A33-4353-8B15-3502F6956EA2'
+ms.assetid: A9923007-5A33-4353-8B15-3502F6956EA2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with KLinks

@@ -1,7 +1,12 @@
 ---
 title: VML Bilevel Attribute
 description: VML Bilevel Attribute
-ms.assetid: '5b87e928-6f0a-4b00-833a-3c2add2d5677'
+ms.assetid: 5b87e928-6f0a-4b00-833a-3c2add2d5677
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Bilevel Attribute

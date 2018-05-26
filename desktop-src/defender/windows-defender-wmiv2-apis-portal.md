@@ -1,7 +1,12 @@
 ---
 title: Windows Defender WMIv2 Provider
 description: The Windows Defender WMIv2 provider exposes Windows Defender security features to WMIv2.
-ms.assetid: '1cc94d1b-b6b4-48f4-bb83-ef3d6802c062'
+ms.assetid: 1cc94d1b-b6b4-48f4-bb83-ef3d6802c062
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Defender WMIv2 Provider
@@ -25,11 +30,11 @@ ms.assetid: '1cc94d1b-b6b4-48f4-bb83-ef3d6802c062'
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

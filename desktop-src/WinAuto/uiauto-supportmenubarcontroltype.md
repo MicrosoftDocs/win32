@@ -1,8 +1,29 @@
 ---
 title: MenuBar Control Type
 description: This topic provides information about Microsoft UI Automation support for the MenuBar control type.
-ms.assetid: 'e93a92ce-7c98-4e8f-8a6a-a365ccb705d6'
-keywords: ["UI Automation,support for MenuBar control type", "UI Automation,MenuBar control type", "UI Automation,tree structure for MenuBar control type", "UI Automation,properties for MenuBar control type", "UI Automation,control patterns for MenuBar control type", "UI Automation,events for MenuBar control type", "tree structures,MenuBar control type", "properties,MenuBar control type", "control patterns,MenuBar control type", "events,MenuBar control type", "support for MenuBar control type", "MenuBar control type", "control types,tree structure for MenuBar control type", "control types,control patterns for MenuBar control type", "control types,support for MenuBar", "control types,MenuBar"]
+ms.assetid: e93a92ce-7c98-4e8f-8a6a-a365ccb705d6
+keywords:
+- UI Automation,support for MenuBar control type
+- UI Automation,MenuBar control type
+- UI Automation,tree structure for MenuBar control type
+- UI Automation,properties for MenuBar control type
+- UI Automation,control patterns for MenuBar control type
+- UI Automation,events for MenuBar control type
+- tree structures,MenuBar control type
+- properties,MenuBar control type
+- control patterns,MenuBar control type
+- events,MenuBar control type
+- support for MenuBar control type
+- MenuBar control type
+- control types,tree structure for MenuBar control type
+- control types,control patterns for MenuBar control type
+- control types,support for MenuBar
+- control types,MenuBar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MenuBar Control Type
@@ -101,9 +122,9 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                                   | Support | Notes                                                                                                                                       |
 |-------------------------------------------------------------------|---------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IExpandCollapseProvider**](uiauto-iexpandcollapseprovider.md) | Depends | If the control can be expanded or collapsed, it must implement the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern. |
-| [**IDockProvider**](uiauto-idockprovider.md)                     | Depends | If the control can be docked to different parts of the screen, it must implement the [Dock](uiauto-implementingdock.md) control pattern.   |
-| [**ITransformProvider**](uiauto-itransformprovider.md)           | Depends | If the control can be resized, rotated, or moved, it must implement the [Transform](uiauto-implementingtransform.md) control pattern.      |
+| [**IExpandCollapseProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider?branch=master) | Depends | If the control can be expanded or collapsed, it must implement the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern. |
+| [**IDockProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-idockprovider?branch=master)                     | Depends | If the control can be docked to different parts of the screen, it must implement the [Dock](uiauto-implementingdock.md) control pattern.   |
+| [**ITransformProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itransformprovider?branch=master)           | Depends | If the control can be resized, rotated, or moved, it must implement the [Transform](uiauto-implementingtransform.md) control pattern.      |
 
 
 

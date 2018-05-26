@@ -1,14 +1,19 @@
 ---
 Description: Ticker Sample
-ms.assetid: '1a3de957-70ea-4b9d-94a0-9b0a74f15d78'
+ms.assetid: 1a3de957-70ea-4b9d-94a0-9b0a74f15d78
 title: Ticker Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ticker Sample
 
 ## Description
 
-This sample uses the Video Mixing Renderer to blend video and text. It uses the [**IVMRMixerBitmap9**](ivmrmixerbitmap9.md) interface to blend text onto the bottom portion of the video window.
+This sample uses the Video Mixing Renderer to blend video and text. It uses the [**IVMRMixerBitmap9**](/windows/win32/Vmr9/nn-vmr9-ivmrmixerbitmap9?branch=master) interface to blend text onto the bottom portion of the video window.
 
 The application creates a bitmap with a default text string and scrolls it across the bottom of the screen. To change the text, choose **Set text string...** from the **Ticker** menu. To set the font, choose **Set font...** from the **Ticker** menu. If you select **Use static image** from the **Ticker** menu, the application switches from a dynamic text string to a static bitmap image.
 

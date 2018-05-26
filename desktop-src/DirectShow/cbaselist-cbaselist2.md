@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '2982f53a-c222-4a9d-812a-42897ca4cb5c'
-title: 'CBaseList.CBaseList constructor'
+Description: Constructor method.
+ms.assetid: 2982f53a-c222-4a9d-812a-42897ca4cb5c
+title: CBaseList.CBaseList constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.CBaseList constructor
@@ -13,7 +18,7 @@ Constructor method.
 
 ```C++
 CBaseList(
-   TCHAR *pName
+   TCHAR *pName
 );
 ```
 
@@ -52,9 +57,9 @@ For efficiency, the `CBaseList` class maintains a cache of list nodes. This vers
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

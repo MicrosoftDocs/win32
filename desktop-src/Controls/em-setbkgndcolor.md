@@ -1,8 +1,9 @@
 ---
 title: EM\_SETBKGNDCOLOR message
 description: The EM\_SETBKGNDCOLOR message sets the background color for a rich edit control.
-ms.assetid: '0ad191cd-6370-493e-bfe2-5aa8d81ed999'
-keywords: ["EM_SETBKGNDCOLOR message Windows Controls"]
+ms.assetid: 0ad191cd-6370-493e-bfe2-5aa8d81ed999
+keywords:
+- EM_SETBKGNDCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETBKGNDCOLOR message
@@ -45,8 +51,8 @@ This message returns the original background color.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ This message returns the original background color.
 [**RGB**](https://msdn.microsoft.com/library/windows/desktop/dd162937)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

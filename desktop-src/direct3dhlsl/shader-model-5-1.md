@@ -1,7 +1,12 @@
 ---
 title: Shader Model 5.1
 description: This section contains the reference pages for HLSL Shader Model 5.1, introduced with D3D12 and D3D11.3.
-ms.assetid: '814FAC95-7FD5-450F-964B-18E687DBCC56'
+ms.assetid: 814FAC95-7FD5-450F-964B-18E687DBCC56
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Model 5.1
@@ -21,7 +26,7 @@ Shader Model 5.1 is functionally very similar to [Shader Model 5](d3d11-graphics
 
 
 
- 
+ 
 
 ## In this section
 
@@ -34,7 +39,7 @@ Shader Model 5.1 is functionally very similar to [Shader Model 5](d3d11-graphics
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -46,9 +51,9 @@ Shader Model 5.1 is functionally very similar to [Shader Model 5](d3d11-graphics
 [HLSL Shader Model 5.1 Features for Direct3D 12](hlsl-shader-model-5-1-features-for-direct3d-12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

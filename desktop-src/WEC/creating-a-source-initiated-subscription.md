@@ -2,10 +2,13 @@
 title: Creating a Source Initiated Subscription
 description: Source-initiated subscriptions allow you to define a subscription on an event collector computer without defining the event source computers, and then multiple remote event source computers can be set up (using a group policy setting) to forward events to the event collector computer. Before a local computer can subscribe to events and a remote computer can forward events, both computers must be set up for event collecting and event forwarding. For more information about how to configure the computers, see Setting up a Source Initiated Subscription.
 audience: developer
-ms.assetid: '489d3613-177f-4045-a055-2c1577ef2191'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-event-collector'
+ms.assetid: 489d3613-177f-4045-a055-2c1577ef2191
+ms.prod: windows-server-dev
+ms.technology: windows-event-collector
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a Source Initiated Subscription
@@ -16,10 +19,10 @@ The following code example follows a series of steps to create a source initiate
 
 **To programmatically create a source-initiated subscription**
 
-1.  Open the subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](ecopensubscription.md) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
-2.  Set the properties of the subscription by calling the [**EcSetSubscriptionProperty**](ecsetsubscriptionproperty.md) function. For more information about subscription properties that can be set, see the [**EC\_SUBSCRIPTION\_PROPERTY\_ID**](ec-subscription-property-id.md) enumeration.
-3.  Save the subscription by calling the [**EcSaveSubscription**](ecsavesubscription.md) function.
-4.  Close the subscription by calling the [**EcClose**](ecclose.md) function.
+1.  Open the subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](/windows/win32/Evcoll/nf-evcoll-ecopensubscription?branch=master) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
+2.  Set the properties of the subscription by calling the [**EcSetSubscriptionProperty**](/windows/win32/Evcoll/nf-evcoll-ecsetsubscriptionproperty?branch=master) function. For more information about subscription properties that can be set, see the [**EC\_SUBSCRIPTION\_PROPERTY\_ID**](/windows/win32/Evcoll/ne-evcoll-_ec_subscription_property_id?branch=master) enumeration.
+3.  Save the subscription by calling the [**EcSaveSubscription**](/windows/win32/Evcoll/nf-evcoll-ecsavesubscription?branch=master) function.
+4.  Close the subscription by calling the [**EcClose**](/windows/win32/Evcoll/nf-evcoll-ecclose?branch=master) function.
 
 The following C++ example shows how to create a source initiated subscription:
 

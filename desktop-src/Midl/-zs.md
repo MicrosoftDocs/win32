@@ -2,13 +2,19 @@
 title: /Zs switch
 description: The /Zs switch indicates that the compiler only checks syntax and does not generate output files.
 ms.assetid: 5ff44607-12c3-4a2d-8a7f-2056504990e2
-keywords: ["/Zs switch MIDL"]
+keywords:
+- /Zs switch MIDL
 topic_type:
 - apiref
 api_name:
 - /Zs
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /Zs switch

@@ -4,17 +4,22 @@ description: Ambiguous name resolution attribute to be used when choosing betwee
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9057dc7e-f669-4821-86b0-703ff7e5b120'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9057dc7e-f669-4821-86b0-703ff7e5b120
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ANR attribute AD Schema", "aNR attribute AD Schema"]
+keywords:
+- ANR attribute AD Schema
+- aNR attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ANR
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ANR attribute

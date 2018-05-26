@@ -1,14 +1,20 @@
 ---
 title: Pages element
 description: A collection of Page nodes describing all pages in the report.
-ms.assetid: '6E33C95C-F946-4147-B027-BEF4158C8E6A'
-keywords: ["Pages element Access Execution Engine"]
+ms.assetid: 6E33C95C-F946-4147-B027-BEF4158C8E6A
+keywords:
+- Pages element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Pages
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pages element
@@ -70,9 +76,9 @@ Page
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

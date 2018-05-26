@@ -1,7 +1,12 @@
 ---
-Description: 'The Win32\_NTLogEventComputer association WMI class relates a computer and an event.'
-ms.assetid: '2fa41dc6-824a-4f4a-b3cf-9f33f848b241'
-title: 'Win32\_NTLogEventComputer class'
+Description: The Win32\_NTLogEventComputer association WMI class relates a computer and an event.
+ms.assetid: 2fa41dc6-824a-4f4a-b3cf-9f33f848b241
+title: Win32\_NTLogEventComputer class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_NTLogEventComputer class
@@ -16,7 +21,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_NTLogEventComputer
 {
   Win32_ComputerSystem REF Computer;
-  Win32_NTLogEvent     REF Record;
+  Win32_NTLogEvent     REF Record;
 };
 ```
 
@@ -66,7 +71,7 @@ Reference to the instance representing the event.
 
 ## Remarks
 
-Starting with Windows Vista, an associations query, such as [ASSOCIATORS OF](https://msdn.microsoft.com/library/aa384793), [**SWbemObject.Associators**](https://msdn.microsoft.com/library/aa393767), or \_[**SWbemServices.AssociatorsOf**](https://msdn.microsoft.com/library/aa393858), that uses **Win32\_NTLogEventComputer** does not work unless [Windows Event Log](https://msdn.microsoft.com/library/windows/desktop/aa385780) has the compatibility mode set.
+Starting with Windows Vista, an associations query, such as [ASSOCIATORS OF](https://msdn.microsoft.com/library/aa384793), [**SWbemObject.Associators**](https://msdn.microsoft.com/library/aa393767), or \_[**SWbemServices.AssociatorsOf**](https://msdn.microsoft.com/library/aa393858), that uses **Win32\_NTLogEventComputer** does not work unless [Windows Event Log](https://msdn.microsoft.com/library/windows/desktop/aa385780) has the compatibility mode set.
 
 ## Requirements
 
@@ -74,8 +79,8 @@ Starting with Windows Vista, an associations query, such as [ASSOCIATORS OF](htt
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntevt.dll</dt> </dl> |
@@ -89,9 +94,9 @@ Starting with Windows Vista, an associations query, such as [ASSOCIATORS OF](htt
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

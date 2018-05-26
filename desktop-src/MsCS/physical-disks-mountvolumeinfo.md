@@ -4,17 +4,22 @@ description: Stores information used by Disk Management. Disk Management is a gr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '73a1372b-0e1a-4998-9f73-faf133da081d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 73a1372b-0e1a-4998-9f73-faf133da081d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["MountVolumeInfo Failover Cluster ,for physical disks", "MountVolumeInfo Failover Cluster"]
+keywords:
+- MountVolumeInfo Failover Cluster ,for physical disks
+- MountVolumeInfo Failover Cluster
 topic_type:
 - apiref
 api_name:
 - MountVolumeInfo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MountVolumeInfo
@@ -30,13 +35,13 @@ Stores information used by Disk Management. Disk Management is a graphical tool 
 | Data type | byte array                                                       |
 | Access    | [Read/write](read-write-properties.md)                          |
 | Status    | Optional                                                         |
-| Structure | [**CLUSPROP\_BINARY**](clusprop-binary.md)                      |
+| Structure | [**CLUSPROP\_BINARY**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_binary?branch=master)                      |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | 0                                                                |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,7 +67,7 @@ When a disk resource is brought online, the [Cluster service](cluster-service.md
 
 
 
- 
+ 
 
 For example, the following **MountVolumeInfo** data
 
@@ -98,8 +103,8 @@ Signature Volumes
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
@@ -119,9 +124,9 @@ Signature Volumes
 [CLUSCTL\_RESOURCE\_STORAGE\_GET\_DISK\_INFO\_EX](clusctl-resource-storage-get-disk-info-ex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

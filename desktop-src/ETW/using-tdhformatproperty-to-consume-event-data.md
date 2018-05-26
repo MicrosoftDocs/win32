@@ -1,12 +1,17 @@
 ---
-Description: 'The following example shows how to consume event data using the TdhFormatProperty function.'
-ms.assetid: '5ebd500c-420e-4979-a03a-49b687464b0e'
+Description: The following example shows how to consume event data using the TdhFormatProperty function.
+ms.assetid: 5ebd500c-420e-4979-a03a-49b687464b0e
 title: Using TdhFormatProperty to Consume Event Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using TdhFormatProperty to Consume Event Data
 
-The following example shows how to consume event data using the [**TdhFormatProperty**](tdhformatproperty.md) function.
+The following example shows how to consume event data using the [**TdhFormatProperty**](/windows/win32/Tdh/nf-tdh-tdhformatproperty?branch=master) function.
 
 
 ```C++

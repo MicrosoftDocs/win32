@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.stretchToFit property
 description: The stretchToFit property gets or sets a value indicating whether video displayed by the Windows Media Player control automatically sizes to fit the video window, when the video window is larger than the dimensions of the video image.
-ms.assetid: '02e2bcba-4975-4ddd-996b-9bd40774ebc1'
-keywords: ["stretchToFit property Windows Media Player", "stretchToFit property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , stretchToFit property"]
+ms.assetid: 02e2bcba-4975-4ddd-996b-9bd40774ebc1
+keywords:
+- stretchToFit property Windows Media Player
+- stretchToFit property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , stretchToFit property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.stretchToFit property
@@ -73,9 +81,9 @@ This property applies to the Windows Media Player control only when it is embedd
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

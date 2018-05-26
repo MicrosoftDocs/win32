@@ -4,13 +4,15 @@ description: Dhcp Server v6StatelessStore.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fd37b78f-fa79-4789-8849-477457822fe2'
-ms.prod: 'windows-server-dev'
+ms.assetid: fd37b78f-fa79-4789-8849-477457822fe2
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerv6StatelessStore class", "DhcpServerv6StatelessStore class, described"]
+keywords:
+- DhcpServerv6StatelessStore class
+- DhcpServerv6StatelessStore class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerv6StatelessStore class
@@ -36,8 +41,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DhcpServerPSProvider"), AMENDMENT]
 class DhcpServerv6StatelessStore
 {
-  string   Prefix;
-  boolean  Enabled;
+  string   Prefix;
+  boolean  Enabled;
   DateTime PurgeInterval;
 };
 ```
@@ -100,16 +105,16 @@ Purge interval for stateless clients.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

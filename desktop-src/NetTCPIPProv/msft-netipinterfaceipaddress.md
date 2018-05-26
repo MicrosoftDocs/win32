@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a TCP/IP network interface and an IP address.'
-ms.assetid: '953aa139-23d8-4685-9f5e-6524f15827f0'
-title: 'MSFT\_NetIPInterfaceIPAddress class'
+Description: Represents an association between a TCP/IP network interface and an IP address.
+ms.assetid: 953aa139-23d8-4685-9f5e-6524f15827f0
+title: MSFT\_NetIPInterfaceIPAddress class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetIPInterfaceIPAddress class
@@ -16,9 +21,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, UMLPackagePath("CIM::Network::ProtocolEndpoints"), ClassVersion("1.0.0"), dynamic, provider("nettcpip"), AMENDMENT]
 class MSFT_NetIPInterfaceIPAddress : CIM_BindsToLANEndpoint
 {
-  uint16                  FrameType;
+  uint16                  FrameType;
   MSFT_NetIPInterface REF Antecedent;
-  MSFT_NetIPAddress   REF Dependent;
+  MSFT_NetIPAddress   REF Dependent;
 };
 ```
 
@@ -104,8 +109,8 @@ This property is inherited from [**CIM\_BindsToLANEndpoint**](cim-bindstolanendp
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -125,9 +130,9 @@ This property is inherited from [**CIM\_BindsToLANEndpoint**](cim-bindstolanendp
 [**MSFT\_NetIPAddress**](msft-netipaddress.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

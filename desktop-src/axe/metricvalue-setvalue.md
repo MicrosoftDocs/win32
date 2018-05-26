@@ -1,12 +1,18 @@
 ---
 title: MetricValue SetValue methods
 description: Sets the value of the MetricValue.
-ms.assetid: '6CB729F2-4715-47F0-A64E-2E9B6A251915'
-keywords: ["SetValue methods Access Execution Engine"]
+ms.assetid: 6CB729F2-4715-47F0-A64E-2E9B6A251915
+keywords:
+- SetValue methods Access Execution Engine
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricValue::SetValue methods
@@ -42,9 +48,9 @@ The value is the value of element **MetricValue/Value**.
 [**MetricValue**](metricvalue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

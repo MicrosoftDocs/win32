@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemRefreshableItem.Remove method removes the SWbemRefreshableItem object from the parent SWbemRefresher object.SWbemRefreshableItem object from the parent SWbemRefresher object.'
+Description: The SWbemRefreshableItem.Remove method removes the SWbemRefreshableItem object from the parent SWbemRefresher object.SWbemRefreshableItem object from the parent SWbemRefresher object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8d3f5e22-c343-4191-a20a-6bca2ec9b01a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8d3f5e22-c343-4191-a20a-6bca2ec9b01a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemRefreshableItem.Remove method'
+title: SWbemRefreshableItem.Remove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemRefreshableItem.Remove method
@@ -44,7 +47,7 @@ This method does not return a value.
 
 ## Remarks
 
-**Error Codes**—If the refresher has no item with the specified index, **wbemErrNotFound** is generated.
+**Error Codes** If the refresher has no item with the specified index, **wbemErrNotFound** is generated.
 
 ## Requirements
 
@@ -52,8 +55,8 @@ This method does not return a value.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -72,9 +75,9 @@ This method does not return a value.
 [**SWbemRefresher**](swbemrefresher.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

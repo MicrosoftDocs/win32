@@ -1,7 +1,12 @@
 ---
 title: DHCP Server Management API
 description: The DHCP Server Management API function set can be used to configure and manage a DHCP service on a Windows \ 160;NT 4.0 or later server platform.
-ms.assetid: '114b53da-eae1-447c-85d5-51e539510aa3'
+ms.assetid: 114b53da-eae1-447c-85d5-51e539510aa3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DHCP Server Management API

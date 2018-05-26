@@ -1,7 +1,12 @@
 ---
-Description: 'The file system provides an abstraction of the physical characteristics of storage devices so that applications can simply write to and read from files. However, storage in an enterprise relies heavily on the concept of disks.'
-ms.assetid: '67e4ef00-2b2d-4287-8cb1-144d9610ccec'
+Description: The file system provides an abstraction of the physical characteristics of storage devices so that applications can simply write to and read from files. However, storage in an enterprise relies heavily on the concept of disks.
+ms.assetid: 67e4ef00-2b2d-4287-8cb1-144d9610ccec
 title: About Disk Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Disk Management
@@ -21,7 +26,7 @@ The file system provides an abstraction of the physical characteristics of stora
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +35,9 @@ The file system provides an abstraction of the physical characteristics of stora
 [Disk Management Reference](disk-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

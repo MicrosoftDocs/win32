@@ -4,13 +4,16 @@ description: Diagnoses the network connectivity of a VM in a Windows Network Vir
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e388c120-50d2-4647-ad4f-7ca1145c196e'
-ms.prod: 'windows-server-dev'
+ms.assetid: e388c120-50d2-4647-ad4f-7ca1145c196e
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DiagnoseNetworkConnection method", "DiagnoseNetworkConnection method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, DiagnoseNetworkConnection method"]
+keywords:
+- DiagnoseNetworkConnection method
+- DiagnoseNetworkConnection method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, DiagnoseNetworkConnection method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - clushyperv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DiagnoseNetworkConnection method of the Msvm\_VirtualSystemManagementService class
@@ -30,10 +36,10 @@ Diagnoses the network connectivity of a VM in a Windows Network Virtualization E
 
 ```mof
 uint32 DiagnoseNetworkConnection(
-  [in]  Msvm_EthernetPortAllocationSettingData REF TargetNetworkAdapter,
-  [in]  string                                     DiagnosticSettings,
-  [out] string                                     DiagnosticInformation,
-  [out] CIM_ConcreteJob                        REF Job
+  [in]  Msvm_EthernetPortAllocationSettingData REF TargetNetworkAdapter,
+  [in]  string                                     DiagnosticSettings,
+  [out] string                                     DiagnosticInformation,
+  [out] CIM_ConcreteJob                        REF Job
 );
 ```
 
@@ -90,16 +96,16 @@ A reference to an optional job for the operation if the operation is run asynchr
 **Invalid Parameter** (4)
 </dt> <dt>
 
-**DMTF Reserved** (5–4095)
+**DMTF Reserved** (5 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -109,7 +115,7 @@ A reference to an optional job for the operation if the operation is run asynchr
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Clushyperv.dll</dt> </dl>              |
@@ -123,9 +129,9 @@ A reference to an optional job for the operation if the operation is run asynchr
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

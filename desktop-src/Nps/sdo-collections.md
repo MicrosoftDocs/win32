@@ -4,10 +4,13 @@ description: The values in the following enumeration types correspond to SDO col
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f529bb20-0e63-424c-8a67-d06f76233d61'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: f529bb20-0e63-424c-8a67-d06f76233d61
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Collections

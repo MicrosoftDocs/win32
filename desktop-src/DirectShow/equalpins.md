@@ -1,7 +1,12 @@
 ---
-Description: 'The EqualPins function checks if two pins are on the same object.'
-ms.assetid: 'b6a92cb6-f4a9-4a14-831c-3b123e4692c0'
+Description: The EqualPins function checks if two pins are on the same object.
+ms.assetid: b6a92cb6-f4a9-4a14-831c-3b123e4692c0
 title: EqualPins function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EqualPins function
@@ -13,8 +18,8 @@ The EqualPins function checks if two pins are on the same object.
 
 ```C++
 BOOL EqualPins(
-   IUnknown *pPin1,
-   IUnknown *pPin2
+   IUnknown *pPin1,
+   IUnknown *pPin2
 );
 ```
 
@@ -60,9 +65,9 @@ Returns **TRUE** if both pins are on the same object, or **FALSE** otherwise.
 [Miscellaneous Helper Functions](miscellaneous-helper-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

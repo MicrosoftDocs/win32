@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.GridColor property
 description: Retrieves or sets the color of the grid lines used in the graph.
-ms.assetid: 'be0f8da2-5592-4d85-9107-a717967958c4'
-keywords: ["GridColor property SysMon", "GridColor property SysMon , SystemMonitor class", "SystemMonitor class SysMon , GridColor property"]
+ms.assetid: be0f8da2-5592-4d85-9107-a717967958c4
+keywords:
+- GridColor property SysMon
+- GridColor property SysMon , SystemMonitor class
+- SystemMonitor class SysMon , GridColor property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.GridColor property
@@ -38,8 +46,8 @@ Color of the horizontal and vertical grid lines used in a graph if the [**ShowHo
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -57,9 +65,9 @@ Color of the horizontal and vertical grid lines used in a graph if the [**ShowHo
 [**SystemMonitor.ShowVerticalGrid**](systemmonitor-showverticalgrid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

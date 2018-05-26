@@ -1,7 +1,12 @@
-﻿---
-Description: 'Signs the specified file.'
-ms.assetid: '5a59e663-057b-4380-aa14-536030e4051d'
+---
+Description: Signs the specified file.
+ms.assetid: 5a59e663-057b-4380-aa14-536030e4051d
 title: SignerSign function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SignerSign function
@@ -74,7 +79,7 @@ The URL of a time stamp server.
 *psRequest* \[in, optional\]
 </dt> <dd>
 
-A pointer to an array of [**CRYPT\_ATTRIBUTE**](crypt-attribute.md) structures that are added to a sign request. This parameter is ignored if the *pwszHttpTimeStamp* parameter does not contain a valid value that is not **NULL**.
+A pointer to an array of [**CRYPT\_ATTRIBUTE**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_attribute?branch=master) structures that are added to a sign request. This parameter is ignored if the *pwszHttpTimeStamp* parameter does not contain a valid value that is not **NULL**.
 
 </dd> <dt>
 

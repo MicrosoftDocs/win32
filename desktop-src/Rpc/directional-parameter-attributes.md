@@ -1,8 +1,16 @@
 ---
 title: Directional (Parameter) Attributes
 description: Directional attributes describe whether the data is transmitted from client to server, server to client, or both.
-ms.assetid: '1e4f92ae-2d98-412f-a693-54bb09ae4674'
-keywords: ["Remote Procedure Call RPC , described, directional attributes", "in", "out"]
+ms.assetid: 1e4f92ae-2d98-412f-a693-54bb09ae4674
+keywords:
+- Remote Procedure Call RPC , described, directional attributes
+- in
+- out
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Directional (Parameter) Attributes

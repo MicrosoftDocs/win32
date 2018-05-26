@@ -1,7 +1,12 @@
 ---
-Description: 'The StopUsingOutputPin method releases access to the pin after a streaming operation.'
-ms.assetid: 'f0dbf2c0-1f1b-41bc-84d2-dc9f37bf725e'
-title: 'CDynamicOutputPin.StopUsingOutputPin method'
+Description: The StopUsingOutputPin method releases access to the pin after a streaming operation.
+ms.assetid: f0dbf2c0-1f1b-41bc-84d2-dc9f37bf725e
+title: CDynamicOutputPin.StopUsingOutputPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.StopUsingOutputPin method

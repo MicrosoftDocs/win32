@@ -1,8 +1,25 @@
 ---
 title: About the Audio Compression Manager
 description: About the Audio Compression Manager
-ms.assetid: 'f78fb580-87b3-48ec-9e76-3649a80ee1f2'
-keywords: ["Windows multimedia,audio compression manager (ACM)", "multimedia,audio compression manager (ACM)", "multimedia audio,audio compression manager (ACM)", "audio,audio compression manager (ACM)", "audio compression manager (ACM),about", "ACM (audio compression manager),about", "transparent run-time audio compression", "transparent run-time audio decompression", "waveform-audio data format selection", "waveform-audio data filter selection", "waveform-audio data format conversion", "waveform-audio data filtering"]
+ms.assetid: f78fb580-87b3-48ec-9e76-3649a80ee1f2
+keywords:
+- Windows multimedia,audio compression manager (ACM)
+- multimedia,audio compression manager (ACM)
+- multimedia audio,audio compression manager (ACM)
+- audio,audio compression manager (ACM)
+- audio compression manager (ACM),about
+- ACM (audio compression manager),about
+- transparent run-time audio compression
+- transparent run-time audio decompression
+- waveform-audio data format selection
+- waveform-audio data filter selection
+- waveform-audio data format conversion
+- waveform-audio data filtering
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Audio Compression Manager

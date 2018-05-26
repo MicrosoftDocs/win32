@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.hueShift
 description: The hueShift attribute specifies or retrieves the amount by which the hue of the drop-down images is shifted.
-ms.assetid: '9d4d8b73-527e-43f3-a921-0576b8897918'
-keywords: ["PLAYLIST.hueShift Windows Media Player"]
+ms.assetid: 9d4d8b73-527e-43f3-a921-0576b8897918
+keywords:
+- PLAYLIST.hueShift Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.hueShift
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.hueShift
@@ -53,9 +59,9 @@ This attribute changes the hue value of the images specified by the **dropDownBa
 [**PLAYLIST.saturation**](playlist-saturation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

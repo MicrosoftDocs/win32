@@ -1,7 +1,12 @@
 ---
-Description: 'Provides access to properties and methods exposed by an object.'
-ms.assetid: '2b091b57-0855-489a-9a33-cfc75f63ad07'
-title: 'CMediaEvent.Invoke method'
+Description: Provides access to properties and methods exposed by an object.
+ms.assetid: 2b091b57-0855-489a-9a33-cfc75f63ad07
+title: CMediaEvent.Invoke method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaEvent.Invoke method
@@ -13,14 +18,14 @@ Provides access to properties and methods exposed by an object.
 
 ```C++
 HRESULT Invoke(
-   DISPID     dispidMember,
-   REFIID     riid,
-   LCID       lcid,
-   WORD       wFlags,
-   DISPPARAMS *pdispparams,
-   VARIANT    *pvarResult,
-   EXCEPINFO  *pexcepinfo,
-   UINT       *puArgErr
+   DISPID     dispidMember,
+   REFIID     riid,
+   LCID       lcid,
+   WORD       wFlags,
+   DISPPARAMS *pdispparams,
+   VARIANT    *pvarResult,
+   EXCEPINFO  *pexcepinfo,
+   UINT       *puArgErr
 );
 ```
 
@@ -108,9 +113,9 @@ Returns DISP\_E\_UNKNOWNINTERFACE if *riid* is not IID\_NULL. Returns one of the
 [**CMediaEvent Class**](cmediaevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

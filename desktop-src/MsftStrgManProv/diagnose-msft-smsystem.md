@@ -4,11 +4,14 @@ description: Attempts to find more information about the health state of an arra
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f2c5b7b4-fbd3-4b62-a1de-be2cde58a825'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: f2c5b7b4-fbd3-4b62-a1de-be2cde58a825
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Diagnose method", "Diagnose method, MSFT_SMSystem class", "MSFT_SMSystem class, Diagnose method"]
+keywords:
+- Diagnose method
+- Diagnose method, MSFT_SMSystem class
+- MSFT_SMSystem class, Diagnose method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Diagnose method of the MSFT\_SMSystem class
@@ -28,11 +34,11 @@ Attempts to find more information about the health state of an array.
 
 ```mof
 UInt32 Diagnose(
-  [out]          String                       reason,
-  [in, optional] String                       username,
-  [in, optional] String                       password,
-  [out]          MSFT_SMStorageDiagnoseResult DiagnoseResults[],
-  [out]          MSFT_SMExtendedStatus        ExtendedStatus
+  [out]          String                       reason,
+  [in, optional] String                       username,
+  [in, optional] String                       password,
+  [out]          MSFT_SMStorageDiagnoseResult DiagnoseResults[],
+  [out]          MSFT_SMExtendedStatus        ExtendedStatus
 );
 ```
 
@@ -47,7 +53,7 @@ UInt32 Diagnose(
 
 This parameter is no longer available.
 
-**Windows Server 2012 R2 and Windows Server 2012:** A description of the reason for the diagnosis. This parameter was removed in Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** A description of the reason for the diagnosis. This parameter was removed in Windows Server 2016.
 
 </dd> <dt>
 
@@ -70,7 +76,7 @@ Used to authenticate with the SMI-S provider. If not provided, the storage servi
 
 An [**MSFT\_SMStorageDiagnoseResult**](msft-smstoragediagnoseresult.md) object that contains the results from calling this method.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -217,7 +223,7 @@ The possible return values are:
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -231,9 +237,9 @@ The possible return values are:
 [**MSFT\_SMSystem**](msft-smsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the methods defined for the IPrintOemDriverPS COM Interface.'
-ms.assetid: '39f791e6-aae3-46f6-8195-c165761d0df5'
+---
+Description: This section describes the methods defined for the IPrintOemDriverPS COM Interface.
+ms.assetid: 39f791e6-aae3-46f6-8195-c165761d0df5
 title: IPrintOemDriverPS interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemDriverPS interface

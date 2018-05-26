@@ -4,10 +4,13 @@ description: In the example provider component, a code example used to implement
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '606d3539-0d87-4706-a4d1-e71fa25156c1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 606d3539-0d87-4706-a4d1-e71fa25156c1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CPROV.CPP

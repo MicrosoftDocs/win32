@@ -1,8 +1,9 @@
 ---
 title: MpManagerOpen function
 description: Establishes a connection to the malware protection manager on the local computer.
-ms.assetid: '40513A74-AFCC-4E22-9B78-D46FEB575A00'
-keywords: ["MpManagerOpen function Legacy Windows Environment Features"]
+ms.assetid: 40513A74-AFCC-4E22-9B78-D46FEB575A00
+keywords:
+- MpManagerOpen function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpManagerOpen function
@@ -22,8 +28,8 @@ Establishes a connection to the malware protection manager on the local computer
 
 ```C++
 HRESULT WINAPI MpManagerOpen(
-  _In_  DWORD     dwReserved,
-  _Out_ PMPHANDLE phMpHandle
+  _In_  DWORD     dwReserved,
+  _Out_ PMPHANDLE phMpHandle
 );
 ```
 
@@ -65,8 +71,8 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -82,9 +88,9 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 [**MpHandleClose**](mphandleclose.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

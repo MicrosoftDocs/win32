@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the memory buffer that contains the media data.'
-ms.assetid: '0f37e406-2af9-44ba-b760-f3d90c9a6d66'
-title: 'CMediaSample::m\_pBuffer member'
+Description: Pointer to the memory buffer that contains the media data.
+ms.assetid: 0f37e406-2af9-44ba-b760-f3d90c9a6d66
+title: CMediaSamplem\_pBuffer member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample::m\_pBuffer member
@@ -35,9 +40,9 @@ LPBYTE m_pBuffer;
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

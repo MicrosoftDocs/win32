@@ -4,17 +4,21 @@ description: Gets the set of users.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '4ce9db93-b717-4934-9a5e-4e6e554cccfb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 4ce9db93-b717-4934-9a5e-4e6e554cccfb
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserRights users property"]
+keywords:
+- MSUserRights users property
 topic_type:
 - apiref
 api_name:
 - MSUserRights users property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserRights users property
@@ -37,7 +41,7 @@ Gets the set of users.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSUserRights.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

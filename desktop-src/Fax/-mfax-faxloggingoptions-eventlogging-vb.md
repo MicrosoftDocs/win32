@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EventLogging property retrieves the FaxEventLogging configuration object.'
-ms.assetid: '9b6faf28-b2da-4c67-ade0-63f2dcf0680b'
-title: 'FaxLoggingOptions.EventLogging property'
+---
+Description: The EventLogging property retrieves the FaxEventLogging configuration object.
+ms.assetid: 9b6faf28-b2da-4c67-ade0-63f2dcf0680b
+title: FaxLoggingOptions.EventLogging property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxLoggingOptions.EventLogging property
@@ -21,7 +26,7 @@ Property EventLogging As IFaxEventLogging
 
 ## Property value
 
-A variable of type [**IFaxEventLogging**](-mfax-faxeventlogging-cpp.md) that receives a [**FaxEventLogging**](-mfax-faxeventlogging.md) object.
+A variable of type [**IFaxEventLogging**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxeventlogging?branch=master) that receives a [**FaxEventLogging**](-mfax-faxeventlogging.md) object.
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A variable of type [**IFaxEventLogging**](-mfax-faxeventlogging-cpp.md) that rec
 [**FaxLoggingOptions**](-mfax-faxloggingoptions.md)
 </dt> <dt>
 
-[**IFaxLoggingOptions**](-mfax-faxloggingoptions-cpp.md)
+[**IFaxLoggingOptions**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxloggingoptions?branch=master)
 </dt> </dl>
 
  

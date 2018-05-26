@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains information about the events used in ink analysis.'
-ms.assetid: 'e12eddd4-57fb-4d64-90b1-e05d043013a2'
+Description: This section contains information about the events used in ink analysis.
+ms.assetid: e12eddd4-57fb-4d64-90b1-e05d043013a2
 title: Ink Analysis Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Analysis Events
@@ -19,7 +24,7 @@ This section contains information about the events used in ink analysis.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -28,9 +33,9 @@ This section contains information about the events used in ink analysis.
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: ListeningTip Property
 description: ListeningTip Property
-ms.assetid: '02a678bb-5eb6-495f-b339-35170a44b15e'
+ms.assetid: 02a678bb-5eb6-495f-b339-35170a44b15e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ListeningTip Property

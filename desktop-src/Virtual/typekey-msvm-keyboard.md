@@ -1,8 +1,11 @@
 ---
 title: TypeKey method of the Msvm\_Keyboard class
 description: Simulates a press-release key sequence.
-ms.assetid: '07370219-1743-40e9-81fd-3f1203150fd8'
-keywords: ["TypeKey method Hyper-V", "TypeKey method Hyper-V , Msvm_Keyboard class", "Msvm_Keyboard class Hyper-V , TypeKey method"]
+ms.assetid: 07370219-1743-40e9-81fd-3f1203150fd8
+keywords:
+- TypeKey method Hyper-V
+- TypeKey method Hyper-V , Msvm_Keyboard class
+- Msvm_Keyboard class Hyper-V , TypeKey method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TypeKey method of the Msvm\_Keyboard class
@@ -22,7 +30,7 @@ Simulates a press-release key sequence.
 
 ```mof
 uint32 TypeKey(
-  [in] uint32 keyCode
+  [in] uint32 keyCode
 );
 ```
 
@@ -99,9 +107,9 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -117,9 +125,9 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 [**Virtual-Key Codes**](_win32_virtual_key_codes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Extensible Authentication Protocol Host
 description: .
-ms.assetid: 'caaef367-2952-44fc-ac4c-f0db6387850e'
+ms.assetid: caaef367-2952-44fc-ac4c-f0db6387850e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extensible Authentication Protocol Host

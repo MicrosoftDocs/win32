@@ -1,7 +1,12 @@
 ---
-Description: 'Creates or opens a file.'
-ms.assetid: '2a993f45-7f87-4b9e-bccc-277477558d3c'
+Description: Creates or opens a file.
+ms.assetid: 2a993f45-7f87-4b9e-bccc-277477558d3c
 title: '\_CreateFile function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_CreateFile function
@@ -15,7 +20,7 @@ Creates or opens a file. See [**CreateFile**](https://msdn.microsoft.com/library
 
 ```C++
 BOOL _CreateFile(
-    ...
+    ...
 );
 ```
 
@@ -45,9 +50,9 @@ BOOL _CreateFile(
 [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

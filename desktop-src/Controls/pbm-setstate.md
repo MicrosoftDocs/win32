@@ -1,8 +1,9 @@
 ---
 title: PBM\_SETSTATE message
 description: Sets the state of the progress bar.
-ms.assetid: '4626f334-db74-4618-8fc7-e6f21c88ca19'
-keywords: ["PBM_SETSTATE message Windows Controls"]
+ms.assetid: 4626f334-db74-4618-8fc7-e6f21c88ca19
+keywords:
+- PBM_SETSTATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBM\_SETSTATE message
@@ -36,7 +42,7 @@ State of the progress bar that is being set. One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -53,15 +59,15 @@ Returns the previous state.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: DM\_POINTERHITTEST message
 description: Sent to a window, when pointer input is first detected, in order to determine the most probable input target for Direct Manipulation.
-ms.assetid: 'E4CE60F0-0C2A-440A-8F64-B070867A1572'
-keywords: ["DM_POINTERHITTEST message Input Messages and Notifications"]
+ms.assetid: E4CE60F0-0C2A-440A-8F64-B070867A1572
+keywords:
+- DM_POINTERHITTEST message Input Messages and Notifications
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DM\_POINTERHITTEST message
@@ -22,7 +28,7 @@ Sent to a window, when pointer input is first detected, in order to determine th
 > \[!Important\]  
 > Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
 
- 
+ 
 
 
 ```C++
@@ -59,8 +65,8 @@ NULL
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -72,9 +78,9 @@ NULL
 [Messages](messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

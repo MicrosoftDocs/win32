@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine AttachedDriveTypes property
 description: The AttachedDriveTypes property contains an array indicating the type of drive attached to each location in the virtual machine.
-ms.assetid: '4cab8a5f-6039-4737-9947-b1532b524543'
-keywords: ["AttachedDriveTypes property Virtual Server", "AttachedDriveTypes property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , AttachedDriveTypes property", "AttachedDriveTypes property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , AttachedDriveTypes property"]
+ms.assetid: 4cab8a5f-6039-4737-9947-b1532b524543
+keywords:
+- AttachedDriveTypes property Virtual Server
+- AttachedDriveTypes property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , AttachedDriveTypes property
+- AttachedDriveTypes property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , AttachedDriveTypes property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::AttachedDriveTypes property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_AttachedDriveTypes(
-  [out] VARIANT *driveTypes
+  [out] VARIANT *driveTypes
 );
 ```
 
@@ -104,8 +114,8 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -117,9 +127,9 @@ Next
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains the structures used in the WM\_TABLET\_FLICK Message.'
-ms.assetid: '47f03f17-6019-4586-a765-a1c3a6dadbf8'
+Description: This section contains the structures used in the WM\_TABLET\_FLICK Message.
+ms.assetid: 47f03f17-6019-4586-a765-a1c3a6dadbf8
 title: Flicks Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flicks Structures
@@ -12,16 +17,16 @@ This section contains the structures used in the [**WM\_TABLET\_FLICK Message**]
 
 | Structure                           | Description                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| [**FLICK\_POINT**](flick-point.md) | Contains the X and Y data members describing the point where the flick occurred.<br/> |
-| [**FLICK\_DATA**](flick-data.md)   | Contains detailed information about the flick gesture and its environment.<br/>       |
+| [**FLICK\_POINT**](/windows/win32/tabflicks/ns-tabflicks-flick_point?branch=master) | Contains the X and Y data members describing the point where the flick occurred.<br/> |
+| [**FLICK\_DATA**](/windows/win32/tabflicks/ns-tabflicks-flick_data?branch=master)   | Contains detailed information about the flick gesture and its environment.<br/>       |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

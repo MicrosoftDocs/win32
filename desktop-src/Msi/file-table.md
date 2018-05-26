@@ -1,7 +1,12 @@
-﻿---
-Description: 'The File Table contains a complete list of source files with their various attributes, ordered by a unique, non-localized, identifier.'
-ms.assetid: '7fe1b52d-4b06-48cd-afe5-2bd5495bb55e'
+---
+Description: The File Table contains a complete list of source files with their various attributes, ordered by a unique, non-localized, identifier.
+ms.assetid: 7fe1b52d-4b06-48cd-afe5-2bd5495bb55e
 title: File Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Table

@@ -1,8 +1,18 @@
 ---
 title: Building a DSP Plug-in
 description: Building a DSP Plug-in
-ms.assetid: '65b14d7d-5366-4eb9-9842-3f584968b557'
-keywords: ["Windows Media Player plug-ins,building", "plug-ins,building", "digital signal processing plug-ins,building", "DSP plug-ins,building", "building plug-ins,digital signal processing (DSP)"]
+ms.assetid: 65b14d7d-5366-4eb9-9842-3f584968b557
+keywords:
+- Windows Media Player plug-ins,building
+- plug-ins,building
+- digital signal processing plug-ins,building
+- DSP plug-ins,building
+- building plug-ins,digital signal processing (DSP)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building a DSP Plug-in

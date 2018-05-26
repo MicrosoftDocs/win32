@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the duration of a presentation, in 100-nanosecond units.'
-ms.assetid: 'abc21696-ea97-41ff-9341-6d9e9dcb19ec'
-title: 'MF\_PD\_DURATION attribute'
+---
+Description: Specifies the duration of a presentation, in 100-nanosecond units.
+ms.assetid: abc21696-ea97-41ff-9341-6d9e9dcb19ec
+title: MF\_PD\_DURATION attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_DURATION attribute
@@ -65,13 +70,13 @@ HRESULT GetSourceDuration(IMFMediaSource *pSource, MFTIME *pDuration)
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT64**](imfattributes-getuint64.md)
+[**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT64**](imfattributes-setuint64.md)
+[**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

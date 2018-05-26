@@ -1,8 +1,11 @@
 ---
 title: RegisteredTask.Stop method
 description: For scripting, stops the registered task immediately.
-ms.assetid: 'c58d7b15-1044-4d35-a501-b936503ee0fc'
-keywords: ["Stop method Task Scheduler", "Stop method Task Scheduler , RegisteredTask object", "RegisteredTask object Task Scheduler , Stop method"]
+ms.assetid: c58d7b15-1044-4d35-a501-b936503ee0fc
+keywords:
+- Stop method Task Scheduler
+- Stop method Task Scheduler , RegisteredTask object
+- RegisteredTask object Task Scheduler , Stop method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisteredTask.Stop method
@@ -55,8 +63,8 @@ System account users can stop a task, users with Administrator group privileges 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -69,9 +77,9 @@ System account users can stop a task, users with Administrator group privileges 
 [**RegisteredTask**](registeredtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

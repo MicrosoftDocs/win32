@@ -1,8 +1,11 @@
 ---
 title: Counters.Item property
 description: Retrieves the specified CounterItem instance from the collection.
-ms.assetid: 'bf503371-c8bd-4e0d-ab8d-58de3f8fac5f'
-keywords: ["Item property SysMon", "Item property SysMon , Counters class", "Counters class SysMon , Item property"]
+ms.assetid: bf503371-c8bd-4e0d-ab8d-58de3f8fac5f
+keywords:
+- Item property SysMon
+- Item property SysMon , Counters class
+- Counters class SysMon , Item property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Counters.Item property
@@ -44,7 +52,7 @@ Property Item( _
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,8 +64,8 @@ This is the default property of the [**Counters**](counters.md) object.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -72,9 +80,9 @@ This is the default property of the [**Counters**](counters.md) object.
 [**Counters**](counters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

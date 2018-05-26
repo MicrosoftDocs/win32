@@ -1,7 +1,12 @@
 ---
-Description: 'The OnRenderEnd method is called after a sample is rendered.'
-ms.assetid: 'c9b3a3b2-a5c0-4a08-9e55-53c27a4d1032'
-title: 'CBaseRenderer.OnRenderEnd method'
+Description: The OnRenderEnd method is called after a sample is rendered.
+ms.assetid: c9b3a3b2-a5c0-4a08-9e55-53c27a4d1032
+title: CBaseRenderer.OnRenderEnd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.OnRenderEnd method
@@ -13,7 +18,7 @@ The `OnRenderEnd` method is called after a sample is rendered.
 
 ```C++
 virtual void OnRenderEnd(
-   IMediaSample *pMediaSample
+   IMediaSample *pMediaSample
 );
 ```
 
@@ -26,7 +31,7 @@ virtual void OnRenderEnd(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ The [**CBaseRenderer::Render**](cbaserenderer-render.md) method calls this metho
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

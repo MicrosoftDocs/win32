@@ -1,8 +1,16 @@
 ---
 title: ReadWriteRawXmlExample
 description: This example shows reading and writing of xml using the raw encoding.
-ms.assetid: 'e13e6add-f58b-468a-a472-f0aa29d030b3'
-keywords: ["ReadWriteRawXmlExample Windows Web Services API", "WWSAPI", "WWS"]
+ms.assetid: e13e6add-f58b-468a-a472-f0aa29d030b3
+keywords:
+- ReadWriteRawXmlExample Windows Web Services API
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadWriteRawXmlExample

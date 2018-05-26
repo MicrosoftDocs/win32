@@ -1,8 +1,20 @@
 ---
 title: EC\_WMT\_EVENT
 description: EC\_WMT\_EVENT
-ms.assetid: '51d51659-8e7d-49b7-83f2-a80e99d39d78'
-keywords: ["Windows Media Format SDK,EC_WMT_EVENT", "DirectShow,EC_WMT_EVENT", "EC_WMT_EVENT", "digital rights management (DRM),EC_WMT_EVENT", "DRM (digital rights management),EC_WMT_EVENT", "Advanced Systems Format (ASF),EC_WMT_EVENT", "ASF (Advanced Systems Format),EC_WMT_EVENT"]
+ms.assetid: 51d51659-8e7d-49b7-83f2-a80e99d39d78
+keywords:
+- Windows Media Format SDK,EC_WMT_EVENT
+- DirectShow,EC_WMT_EVENT
+- EC_WMT_EVENT
+- digital rights management (DRM),EC_WMT_EVENT
+- DRM (digital rights management),EC_WMT_EVENT
+- Advanced Systems Format (ASF),EC_WMT_EVENT
+- ASF (Advanced Systems Format),EC_WMT_EVENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_WMT\_EVENT

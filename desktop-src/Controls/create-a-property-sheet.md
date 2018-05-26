@@ -1,14 +1,19 @@
 ---
 title: How to Create a Property Sheet
 description: The example in this section creates a property sheet that contains two pages \ 8212;one for setting the font properties of a cell in a spreadsheet, and another for setting the border properties of the cell.
-ms.assetid: '61ACF87A-938C-4487-ACEB-484FCB677C6A'
+ms.assetid: 61ACF87A-938C-4487-ACEB-484FCB677C6A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Property Sheet
 
 The example in this section creates a property sheet that contains two pages—one for setting the font properties of a cell in a spreadsheet, and another for setting the border properties of the cell.
 
-The example defines the pages by filling a pair of [**PROPSHEETPAGE**](propsheetpage.md) structures and specifying the address in the [**PROPSHEETHEADER**](propsheetheader.md) structure that is passed to the [**PropertySheet**](propertysheet.md) function.
+The example defines the pages by filling a pair of [**PROPSHEETPAGE**](/windows/win32/Prsht/ns-prsht-_propsheetpagea_v2?branch=master) structures and specifying the address in the [**PROPSHEETHEADER**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master) structure that is passed to the [**PropertySheet**](/windows/win32/Prsht/nf-prsht-propertysheeta?branch=master) function.
 
 ## What you need to know
 

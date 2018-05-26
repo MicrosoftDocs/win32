@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to a window that the user is moving. By processing this message, an application can monitor the position of the drag rectangle and, if needed, change its position.'
-ms.assetid: 'f56a36c1-dbaa-438a-9e52-d12697a9dac9'
-title: 'WM\_MOVING message'
+---
+Description: Sent to a window that the user is moving. By processing this message, an application can monitor the position of the drag rectangle and, if needed, change its position.
+ms.assetid: f56a36c1-dbaa-438a-9e52-d12697a9dac9
+title: WM\_MOVING message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_MOVING message

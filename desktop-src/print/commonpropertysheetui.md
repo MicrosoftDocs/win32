@@ -1,7 +1,12 @@
-﻿---
-Description: 'CPSUI''s CommonPropertySheetUI function displays property sheet pages and allows user modifications to displayed values.'
-ms.assetid: '63d88589-455a-4923-bb3a-61d977732603'
+---
+Description: CPSUIs CommonPropertySheetUI function displays property sheet pages and allows user modifications to displayed values.
+ms.assetid: 63d88589-455a-4923-bb3a-61d977732603
 title: CommonPropertySheetUI function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CommonPropertySheetUI function

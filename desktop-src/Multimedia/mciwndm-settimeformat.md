@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_SETTIMEFORMAT message
 description: The MCIWNDM\_SETTIMEFORMAT message sets the time format of an MCI device. You can send this message explicitly or by using the MCIWndSetTimeFormat macro.
-ms.assetid: '7de82094-6d35-44fd-88e7-ebd18a558cfd'
-keywords: ["MCIWNDM_SETTIMEFORMAT message Windows Multimedia"]
+ms.assetid: 7de82094-6d35-44fd-88e7-ebd18a558cfd
+keywords:
+- MCIWNDM_SETTIMEFORMAT message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_SETTIMEFORMAT message
 
-The **MCIWNDM\_SETTIMEFORMAT** message sets the time format of an MCI device. You can send this message explicitly or by using the [**MCIWndSetTimeFormat**](mciwndsettimeformat.md) macro.
+The **MCIWNDM\_SETTIMEFORMAT** message sets the time format of an MCI device. You can send this message explicitly or by using the [**MCIWndSetTimeFormat**](/windows/win32/Vfw/nf-vfw-mciwndsettimeformat?branch=master) macro.
 
 
 ```C++
@@ -43,9 +49,9 @@ Returns zero if successful or an error otherwise.
 
 ## Remarks
 
-An application can specify time formats other than frames or milliseconds as long as the formats are supported by the MCI device. Noncontinuous formats, such as tracks and SMPTE, can cause the trackbar to behave erratically. For these time formats, you might want to turn off the toolbar by using the [**MCIWndChangeStyles**](mciwndchangestyles.md) macro and specifying the MCIWNDF\_NOPLAYBAR window style.
+An application can specify time formats other than frames or milliseconds as long as the formats are supported by the MCI device. Noncontinuous formats, such as tracks and SMPTE, can cause the trackbar to behave erratically. For these time formats, you might want to turn off the toolbar by using the [**MCIWndChangeStyles**](/windows/win32/Vfw/nf-vfw-mciwndchangestyles?branch=master) macro and specifying the MCIWNDF\_NOPLAYBAR window style.
 
-If you want to set the time format to frames or milliseconds, you can also use the [**MCIWndUseFrames**](mciwnduseframes.md) or [**MCIWndUseTime**](mciwndusetime.md) macro. For a list of time formats, see the [**MCIWndGetTimeFormat**](mciwndgettimeformat.md) macro.
+If you want to set the time format to frames or milliseconds, you can also use the [**MCIWndUseFrames**](/windows/win32/Vfw/nf-vfw-mciwnduseframes?branch=master) or [**MCIWndUseTime**](/windows/win32/Vfw/nf-vfw-mciwndusetime?branch=master) macro. For a list of time formats, see the [**MCIWndGetTimeFormat**](/windows/win32/Vfw/nf-vfw-mciwndgettimeformat?branch=master) macro.
 
 ## Requirements
 
@@ -53,8 +59,8 @@ If you want to set the time format to frames or milliseconds, you can also use t
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -63,24 +69,24 @@ If you want to set the time format to frames or milliseconds, you can also use t
 
 <dl> <dt>
 
-[**MCIWndChangeStyles**](mciwndchangestyles.md)
+[**MCIWndChangeStyles**](/windows/win32/Vfw/nf-vfw-mciwndchangestyles?branch=master)
 </dt> <dt>
 
-[**MCIWndGetTimeFormat**](mciwndgettimeformat.md)
+[**MCIWndGetTimeFormat**](/windows/win32/Vfw/nf-vfw-mciwndgettimeformat?branch=master)
 </dt> <dt>
 
-[**MCIWndSetTimeFormat**](mciwndsettimeformat.md)
+[**MCIWndSetTimeFormat**](/windows/win32/Vfw/nf-vfw-mciwndsettimeformat?branch=master)
 </dt> <dt>
 
-[**MCIWndUseFrames**](mciwnduseframes.md)
+[**MCIWndUseFrames**](/windows/win32/Vfw/nf-vfw-mciwnduseframes?branch=master)
 </dt> <dt>
 
-[**MCIWndUseTime**](mciwndusetime.md)
+[**MCIWndUseTime**](/windows/win32/Vfw/nf-vfw-mciwndusetime?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

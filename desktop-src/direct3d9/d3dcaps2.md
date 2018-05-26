@@ -1,7 +1,12 @@
-﻿---
-Description: 'Driver capability flags.'
-ms.assetid: '0c0c65fc-f953-4379-a6d0-6ce447a0c183'
+---
+Description: Driver capability flags.
+ms.assetid: 0c0c65fc-f953-4379-a6d0-6ce447a0c183
 title: D3DCAPS2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCAPS2
@@ -30,7 +35,7 @@ Driver capability flags.
 <tr class="odd">
 <td>D3DCAPS2_CANCALIBRATEGAMMA</td>
 <td>0x00100000L</td>
-<td>The system has a calibrator installed that can automatically adjust the gamma ramp so that the result is identical on all systems that have a calibrator. To invoke the calibrator when setting new gamma levels, use the D3DSGR_CALIBRATE flag when calling [<strong>SetGammaRamp</strong>](idirect3ddevice9--setgammaramp.md). Calibrating gamma ramps incurs some processing overhead and should not be used frequently.</td>
+<td>The system has a calibrator installed that can automatically adjust the gamma ramp so that the result is identical on all systems that have a calibrator. To invoke the calibrator when setting new gamma levels, use the D3DSGR_CALIBRATE flag when calling [<strong>SetGammaRamp</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setgammaramp?branch=master). Calibrating gamma ramps incurs some processing overhead and should not be used frequently.</td>
 </tr>
 <tr class="even">
 <td>D3DCAPS2_CANSHARERESOURCE</td>
@@ -49,7 +54,7 @@ Driver capability flags.
 <tr class="odd">
 <td>D3DCAPS2_CANMANAGERESOURCE</td>
 <td>0x10000000L</td>
-<td>The driver is capable of managing resources. On such drivers, D3DPOOL_MANAGED resources will be managed by the driver. To have Direct3D override the driver so that Direct3D manages resources, use the D3DCREATE_DISABLE_DRIVER_MANAGEMENT flag when calling [<strong>CreateDevice</strong>](idirect3d9--createdevice.md).</td>
+<td>The driver is capable of managing resources. On such drivers, D3DPOOL_MANAGED resources will be managed by the driver. To have Direct3D override the driver so that Direct3D manages resources, use the D3DCREATE_DISABLE_DRIVER_MANAGEMENT flag when calling [<strong>CreateDevice</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-createdevice?branch=master).</td>
 </tr>
 <tr class="even">
 <td>D3DCAPS2_DYNAMICTEXTURES</td>
@@ -73,7 +78,7 @@ Driver capability flags.
 
  
 
-These constants are used by the D3CAPS2 member of [**D3DCAPS9**](d3dcaps9.md).
+These constants are used by the D3CAPS2 member of [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 ## Constant Information
 

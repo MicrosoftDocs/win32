@@ -1,7 +1,12 @@
 ---
-Description: 'In C++, the return value is typically of type HRESULT.'
-ms.assetid: '7abf1b3e-b94b-4846-a813-5eab5b34324c'
+Description: In C++, the return value is typically of type HRESULT.
+ms.assetid: 7abf1b3e-b94b-4846-a813-5eab5b34324c
 title: Return Values in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Return Values in C++

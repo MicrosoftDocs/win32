@@ -1,7 +1,12 @@
-﻿---
-Description: 'The XPSRAS\_RENDERING\_MODE enumeration specifies the rendering mode to be used by an XPS rasterizer.'
-ms.assetid: '8b0b2bde-6ada-4a73-9737-7150605b79c8'
-title: 'XPSRAS\_RENDERING\_MODE enumeration'
+---
+Description: The XPSRAS\_RENDERING\_MODE enumeration specifies the rendering mode to be used by an XPS rasterizer.
+ms.assetid: 8b0b2bde-6ada-4a73-9737-7150605b79c8
+title: XPSRAS\_RENDERING\_MODE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XPSRAS\_RENDERING\_MODE enumeration

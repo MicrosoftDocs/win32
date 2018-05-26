@@ -1,7 +1,12 @@
 ---
-Description: 'Power setting GUIDs identify power change events.'
-ms.assetid: '39D432A7-54F8-4135-B98C-7290F95B054A'
+Description: Power setting GUIDs identify power change events.
+ms.assetid: 39D432A7-54F8-4135-B98C-7290F95B054A
 title: Power Setting GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Power Setting GUIDs
@@ -20,7 +25,7 @@ Power setting **GUID**s are defined in WinNT.h.
 
 
 
-The system power source has changed. The **Data** member is a **DWORD** with values from the [**SYSTEM\_POWER\_CONDITION**](system-power-condition.md) enumeration that indicates the current power source.
+The system power source has changed. The **Data** member is a **DWORD** with values from the [**SYSTEM\_POWER\_CONDITION**](/windows/win32/WinNT/ne-winnt-system_power_condition?branch=master) enumeration that indicates the current power source.
 
 <dl> <dt>
 
@@ -58,7 +63,7 @@ The remaining battery capacity has changed. The granularity varies from system t
 
 The current monitor's display state has changed.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
 
 The **Data** member is a **DWORD** with one of the following values.
 
@@ -87,7 +92,7 @@ The user status associated with any session has changed. This represents the com
 
 This notification is sent only services and other programs running in session 0. User-mode applications should register for **GUID\_SESSION\_USER\_PRESENCE** instead.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
 
 The **Data** member is a **DWORD** with one of the following values.
 
@@ -134,7 +139,7 @@ The primary system monitor has been powered on or off. This notification is usef
 0x1 - The monitor is on.
 </dt> </dl>
 
-**Windows 8 and Windows Server 2012:** New applications should use **GUID\_CONSOLE\_DISPLAY\_STATE** instead of this notification.
+**Windows 8 and Windows Server 2012:** New applications should use **GUID\_CONSOLE\_DISPLAY\_STATE** instead of this notification.
 
 </dl> </dd> <dt>
 
@@ -213,7 +218,7 @@ Automatic - The scheme is designed to automatically balance performance and powe
 
 The display associated with the application's session has been powered on or off.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
 
 This notification is sent only to user-mode applications. Services and other programs running in session 0 do not receive this notification. The **Data** member is a **DWORD** with one of the following values.
 
@@ -240,7 +245,7 @@ This notification is sent only to user-mode applications. Services and other pro
 
 The user status associated with the application's session has changed.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
 
 This notification is sent only to user-mode applications running in an interactive session. Services and other programs running in session 0 should register for **GUID\_GLOBAL\_USER\_PRESENCE**. The **Data** member is a **DWORD** with one of the following values.
 
@@ -255,7 +260,7 @@ This notification is sent only to user-mode applications running in an interacti
 > [!Note]  
 > All applications that run in an interactive user-mode session should use this setting. When kernel mode applications register for monitor status they should use **GUID\_CONSOLE\_DISPLAY\_STATUS** instead.
 
- 
+ 
 
 </dl> </dd> <dt>
 
@@ -289,9 +294,9 @@ The system is entering or exiting away mode. The **Data** member is a **DWORD** 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

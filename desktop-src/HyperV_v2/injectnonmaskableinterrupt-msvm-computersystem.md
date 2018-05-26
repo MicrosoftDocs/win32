@@ -1,7 +1,12 @@
 ---
-Description: 'Injects a non-maskable interrupt into the virtual machine.'
-ms.assetid: '897AD1B9-0EDD-4DCE-963D-D5DE03AF55A9'
-title: 'Msvm\_ComputerSystem::InjectNonMaskableInterrupt method'
+Description: Injects a non-maskable interrupt into the virtual machine.
+ms.assetid: 897AD1B9-0EDD-4DCE-963D-D5DE03AF55A9
+title: Msvm\_ComputerSystemInjectNonMaskableInterrupt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ComputerSystem::InjectNonMaskableInterrupt method
@@ -13,7 +18,7 @@ Injects a non-maskable interrupt into the virtual machine.
 
 ```C++
 uint32 InjectNonMaskableInterrupt(
-  [out] CIM_ConcreteJob Job
+  [out] CIM_ConcreteJob Job
 );
 ```
 
@@ -51,8 +56,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | \\\\Root\\Virtualization\\V2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -66,9 +71,9 @@ This method returns one of the following values.
 [**Msvm\_ComputerSystem**](msvm-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

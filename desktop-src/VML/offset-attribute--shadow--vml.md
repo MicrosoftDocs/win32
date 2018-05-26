@@ -1,7 +1,12 @@
 ---
 title: Offset Attribute (Shadow)(VML)
 description: Offset Attribute (Shadow)(VML)
-ms.assetid: 'bb5810cd-bd9a-4888-a0ce-8de732215c80'
+ms.assetid: bb5810cd-bd9a-4888-a0ce-8de732215c80
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Offset Attribute (Shadow)(VML)

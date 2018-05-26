@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_SystemPartitions association WMI class relates a computer system and a disk partition on that system.'
+---
+Description: The Win32\_SystemPartitions association WMI class relates a computer system and a disk partition on that system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e8f02cd0-9446-4258-b476-5dc6c72c80d4'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e8f02cd0-9446-4258-b476-5dc6c72c80d4
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SystemPartitions class'
+title: Win32\_SystemPartitions class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SystemPartitions class

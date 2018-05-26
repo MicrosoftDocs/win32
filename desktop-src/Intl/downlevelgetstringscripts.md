@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides a list of scripts used in the specified Unicode string.'
-ms.assetid: '3ad23613-8d0c-432a-b352-637c373a0980'
+---
+Description: Provides a list of scripts used in the specified Unicode string.
+ms.assetid: 3ad23613-8d0c-432a-b352-637c373a0980
 title: DownlevelGetStringScripts function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownlevelGetStringScripts function
@@ -9,7 +14,7 @@ title: DownlevelGetStringScripts function
 Provides a list of scripts used in the specified Unicode string.
 
 > [!Note]  
-> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires the download package. Applications that only run on Windows Vista and later should call [**GetStringScripts**](getstringscripts.md).
+> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires the download package. Applications that only run on Windows Vista and later should call [**GetStringScripts**](/windows/win32/Winnls/nf-winnls-getstringscripts?branch=master).
 
  
 
@@ -228,7 +233,7 @@ The required header file and DLL are part of the ["Microsoft Internationalized D
 [**DownlevelVerifyScripts**](downlevelverifyscripts.md)
 </dt> <dt>
 
-[**GetStringScripts**](getstringscripts.md)
+[**GetStringScripts**](/windows/win32/Winnls/nf-winnls-getstringscripts?branch=master)
 </dt> </dl>
 
  

@@ -4,11 +4,14 @@ description: Copies a local base virtual machine to a specified remote desktop v
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '13c0c629-42c6-4689-9740-f13f31688e42'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 13c0c629-42c6-4689-9740-f13f31688e42
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RdvCopyBaseVmLocally method Remote Desktop Services", "RdvCopyBaseVmLocally method Remote Desktop Services , Win32_RdvhManagement class", "Win32_RdvhManagement class Remote Desktop Services , RdvCopyBaseVmLocally method"]
+keywords:
+- RdvCopyBaseVmLocally method Remote Desktop Services
+- RdvCopyBaseVmLocally method Remote Desktop Services , Win32_RdvhManagement class
+- Win32_RdvhManagement class Remote Desktop Services , RdvCopyBaseVmLocally method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RdvCopyBaseVmLocally method of the Win32\_RdvhManagement class
@@ -28,9 +34,9 @@ Copies a local base virtual machine to a specified remote desktop virtualization
 
 ```mof
 uint32 RdvCopyBaseVmLocally(
-  [in] string BaseVmLocation,
-  [in] string FarmName,
-  [in] string GoldCacheLocation
+  [in] string BaseVmLocation,
+  [in] string FarmName,
+  [in] string GoldCacheLocation
 );
 ```
 
@@ -72,7 +78,7 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>TSVmHost.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TSVmHostWmi.dll</dt> </dl> |
@@ -86,9 +92,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 [**Win32\_RdvhManagement**](win32-rdvhmanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

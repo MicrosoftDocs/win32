@@ -1,7 +1,12 @@
-﻿---
-Description: 'This MSIscsiInitiator\_PersistentDevices structure contains path information associated with a persistent device.'
-ms.assetid: '9e48d87f-8781-48d7-8def-7d412a5fe24b'
-title: 'MSIscsiInitiator\_PersistentDevices class'
+---
+Description: This MSIscsiInitiator\_PersistentDevices structure contains path information associated with a persistent device.
+ms.assetid: 9e48d87f-8781-48d7-8def-7d412a5fe24b
+title: MSIscsiInitiator\_PersistentDevices class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_PersistentDevices class

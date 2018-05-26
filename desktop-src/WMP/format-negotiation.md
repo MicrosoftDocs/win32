@@ -1,8 +1,17 @@
 ---
 title: Format Negotiation
 description: Format Negotiation
-ms.assetid: '7847d4e3-1250-4c35-88e1-52d61bf1553f'
-keywords: ["Windows Media Player plug-ins,format negotiation", "plug-ins,format negotiation", "digital signal processing plug-ins,format negotiation", "DSP plug-ins,format negotiation"]
+ms.assetid: 7847d4e3-1250-4c35-88e1-52d61bf1553f
+keywords:
+- Windows Media Player plug-ins,format negotiation
+- plug-ins,format negotiation
+- digital signal processing plug-ins,format negotiation
+- DSP plug-ins,format negotiation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Format Negotiation

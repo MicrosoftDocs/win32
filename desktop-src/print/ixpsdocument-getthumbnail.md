@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetThumbnail method gets the document thumbnail object.'
-ms.assetid: '74466609-4408-4065-a607-cd338902335d'
-title: 'IXpsDocument::GetThumbnail method'
+---
+Description: The GetThumbnail method gets the document thumbnail object.
+ms.assetid: 74466609-4408-4065-a607-cd338902335d
+title: IXpsDocumentGetThumbnail method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsDocument::GetThumbnail method

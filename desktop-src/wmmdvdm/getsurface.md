@@ -1,8 +1,9 @@
 ---
 title: GetSurface method
 description: The GetSurface method retrieves an IDirect3DSurface9 interface from an IBuffer interface.
-ms.assetid: 'a8f58ec3-17ef-452c-a918-2979023a3e1e'
-keywords: ["GetSurface method Windows Movie Maker and DVD Maker"]
+ms.assetid: a8f58ec3-17ef-452c-a918-2979023a3e1e
+keywords:
+- GetSurface method Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
@@ -14,6 +15,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSurface method
@@ -25,8 +31,8 @@ The **GetSurface** method retrieves an **IDirect3DSurface9** interface from an [
 
 ```C++
 HRESULT GetSurface(
-  [in]  IBuffer           *pBuffer,
-  [out] IDirect3DSurface9 **ppSurface
+  [in]  IBuffer           *pBuffer,
+  [out] IDirect3DSurface9 **ppSurface
 );
 ```
 
@@ -64,8 +70,8 @@ Your application will call this function on the input and output buffers passed 
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -78,9 +84,9 @@ Your application will call this function on the input and output buffers passed 
 [**Transform Helper Functions**](transform-helper-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

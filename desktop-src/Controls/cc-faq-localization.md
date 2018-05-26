@@ -1,7 +1,12 @@
 ---
 title: Localization Support for Common Controls
 description: This topic describes the support for national languages that is built into the common controls.
-ms.assetid: 'c5720198-9071-4213-8dad-50b4c015c5f0'
+ms.assetid: c5720198-9071-4213-8dad-50b4c015c5f0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Localization Support for Common Controls
@@ -16,9 +21,9 @@ This topic contains the following sections:
 
 ## Specifying a Language for the Common Controls
 
-If you want to specify a language for the common controls that is different than the system language, call [**InitMUILanguage**](initmuilanguage.md). The language specified by this function applies only to the process from which the function is called.
+If you want to specify a language for the common controls that is different than the system language, call [**InitMUILanguage**](/windows/win32/Commctrl/nf-commctrl-initmuilanguage?branch=master). The language specified by this function applies only to the process from which the function is called.
 
-To determine the language currently being used by the common controls, call [**GetMUILanguage**](getmuilanguage.md). It returns the value that was set by a previous call to [**InitMUILanguage**](initmuilanguage.md). The language returned is the one that was specified for the process it is called from. If **InitMUILanguage** has not been called, or was called from another process, **GetMUILanguage** will return a default value.
+To determine the language currently being used by the common controls, call [**GetMUILanguage**](/windows/win32/Commctrl/nf-commctrl-getmuilanguage?branch=master). It returns the value that was set by a previous call to [**InitMUILanguage**](/windows/win32/Commctrl/nf-commctrl-initmuilanguage?branch=master). The language returned is the one that was specified for the process it is called from. If **InitMUILanguage** has not been called, or was called from another process, **GetMUILanguage** will return a default value.
 
 ## Specifying a Language for Controls in a Dialog Box
 
@@ -26,7 +31,7 @@ Unlike common controls, predefined controls such as buttons or edit boxes do not
 
 To use the native font control, follow this procedure.
 
-1.  Initialize the native font control by calling [**InitCommonControlsEx**](initcommoncontrolsex.md). Set the **dwICC** member of the [**INITCOMMONCONTROLSEX**](initcommoncontrolsex-4vvx.md) structure pointed to by *lpInitCtrls* to ICC\_NATIVEFNTCTL\_CLASS.
+1.  Initialize the native font control by calling [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master). Set the **dwICC** member of the [**INITCOMMONCONTROLSEX**](/windows/win32/Commctrl/ns-commctrl-taginitcommoncontrolsex?branch=master) structure pointed to by *lpInitCtrls* to ICC\_NATIVEFNTCTL\_CLASS.
 2.  Add the control to the resource script for the dialog box. Set one or more of the following style flags to specify which controls will be affected. 
 
     | Flag              | Applies to                                                                                                                                                                                                                                                       |

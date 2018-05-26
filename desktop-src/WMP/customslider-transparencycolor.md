@@ -1,14 +1,20 @@
 ---
 title: CUSTOMSLIDER.transparencyColor
 description: The transparencyColor attribute specifies or retrieves the transparency color of the custom slider images.
-ms.assetid: '39bdac82-7c84-4c79-b3f0-ec4828263ccd'
-keywords: ["CUSTOMSLIDER.transparencyColor Windows Media Player"]
+ms.assetid: 39bdac82-7c84-4c79-b3f0-ec4828263ccd
+keywords:
+- CUSTOMSLIDER.transparencyColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CUSTOMSLIDER.transparencyColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUSTOMSLIDER.transparencyColor
@@ -53,9 +59,9 @@ See the [positionImage](customslider-positionimage.md) attribute for a sample il
 [**CUSTOMSLIDER Element**](customslider-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

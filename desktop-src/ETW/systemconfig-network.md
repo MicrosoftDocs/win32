@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for network events. The following syntax is simplified from MOF code.'
-ms.assetid: 'afa994ef-dd1c-4909-a6cd-7021be4fff40'
-title: 'SystemConfig\_Network class'
+---
+Description: This class is the event type class for network events. The following syntax is simplified from MOF code.
+ms.assetid: afa994ef-dd1c-4909-a6cd-7021be4fff40
+title: SystemConfig\_Network class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemConfig\_Network class

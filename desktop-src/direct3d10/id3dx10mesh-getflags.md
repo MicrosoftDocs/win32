@@ -1,7 +1,12 @@
-﻿---
-Description: 'Access the mesh''s creation flags.'
-ms.assetid: 'df21aa5d-d8c4-43ee-8b22-ca1ee75ecf64'
-title: 'ID3DX10Mesh::GetFlags method'
+---
+Description: Access the meshs creation flags.
+ms.assetid: df21aa5d-d8c4-43ee-8b22-ca1ee75ecf64
+title: ID3DX10MeshGetFlags method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::GetFlags method

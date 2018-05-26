@@ -1,13 +1,16 @@
 ---
-Description: 'The Scripting API for WMI reference describes each scripting object using a specific syntax. For an explanation of this syntax, see Document Conventions for the Scripting API.'
+Description: The Scripting API for WMI reference describes each scripting object using a specific syntax. For an explanation of this syntax, see Document Conventions for the Scripting API.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '91bc0fad-1a4b-4b48-b5a0-1a6502d2ab26'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 91bc0fad-1a4b-4b48-b5a0-1a6502d2ab26
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Scripting API Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scripting API Objects

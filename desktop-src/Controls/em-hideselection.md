@@ -1,8 +1,9 @@
 ---
 title: EM\_HIDESELECTION message
 description: The EM\_HIDESELECTION message hides or shows the selection in a rich edit control.
-ms.assetid: '1245618f-c9e6-4876-9133-6009370cdb97'
-keywords: ["EM_HIDESELECTION message Windows Controls"]
+ms.assetid: 1245618f-c9e6-4876-9133-6009370cdb97
+keywords:
+- EM_HIDESELECTION message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_HIDESELECTION message
@@ -45,15 +51,15 @@ This message does not return a value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

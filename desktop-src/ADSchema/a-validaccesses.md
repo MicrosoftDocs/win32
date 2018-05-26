@@ -4,17 +4,22 @@ description: The type of access that is permitted with an extended right.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'afb944ec-3b8f-41dd-8987-ed6c71f937ac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: afb944ec-3b8f-41dd-8987-ed6c71f937ac
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Valid-Accesses attribute AD Schema", "validAccesses attribute AD Schema"]
+keywords:
+- Valid-Accesses attribute AD Schema
+- validAccesses attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Valid-Accesses
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Valid-Accesses attribute
@@ -38,13 +43,13 @@ The type of access that is permitted with an extended right.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ The type of access that is permitted with an extended right.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

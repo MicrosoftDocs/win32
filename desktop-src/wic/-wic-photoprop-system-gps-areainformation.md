@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.GPS.AreaInformation property.'
-ms.assetid: 'd9ecb00b-1f97-4f53-909f-30231104d398'
-title: 'System.GPS.AreaInformation Photo Metadata Policy'
+Description: The photo metadata policy for the System.GPS.AreaInformation property.
+ms.assetid: d9ecb00b-1f97-4f53-909f-30231104d398
+title: System.GPS.AreaInformation Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.AreaInformation Photo Metadata Policy

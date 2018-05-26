@@ -1,7 +1,12 @@
 ---
-Description: 'Generates C constant declarations for port types.'
-ms.assetid: '05a06206-3cc4-428d-b9f2-b7945e63922c'
+Description: Generates C constant declarations for port types.
+ms.assetid: 05a06206-3cc4-428d-b9f2-b7945e63922c
 title: portTypeDeclarations element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # portTypeDeclarations element
@@ -62,14 +67,14 @@ Port type declarations are referenced by the application and much of the generat
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

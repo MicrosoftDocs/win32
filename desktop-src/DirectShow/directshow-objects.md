@@ -1,7 +1,12 @@
 ---
 Description: DirectShow Objects
-ms.assetid: '4b5068b5-4af9-40cb-b5a2-c9761ef13c55'
+ms.assetid: 4b5068b5-4af9-40cb-b5a2-c9761ef13c55
 title: DirectShow Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectShow Objects

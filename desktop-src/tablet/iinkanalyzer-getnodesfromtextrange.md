@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a collection of IContextNode objects that are relevant to the specified text range for the specified context nodes.'
-ms.assetid: '39a5dd52-7007-4395-8668-261eca78a090'
-title: 'IInkAnalyzer::GetNodesFromTextRange method'
+Description: Retrieves a collection of IContextNode objects that are relevant to the specified text range for the specified context nodes.
+ms.assetid: 39a5dd52-7007-4395-8668-261eca78a090
+title: IInkAnalyzerGetNodesFromTextRange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::GetNodesFromTextRange method
@@ -13,10 +18,10 @@ Retrieves a collection of [**IContextNode**](icontextnode.md) objects that are r
 
 ```C++
 HRESULT GetNodesFromTextRange(
-  [in, out] LONG          *plStart,
-  [in, out] LONG          *plLength,
-  [out]     IContextNodes **ppContextNodes,
-  [in]      IContextNodes *pNodesToSearch = defaultvalue
+  [in, out] LONG          *plStart,
+  [in, out] LONG          *plLength,
+  [out]     IContextNodes **ppContextNodes,
+  [in]      IContextNodes *pNodesToSearch = defaultvalue
 );
 ```
 
@@ -69,7 +74,7 @@ For example, if the recognized string is "I am late" and you call this method us
 > [!Note]  
 > The *plStart* parameter is relative to the recognized string of the *pNodesToSearch* parameter.
 
- 
+ 
 
 ## Requirements
 
@@ -77,7 +82,7 @@ For example, if the recognized string is "I am late" and you call this method us
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -91,9 +96,9 @@ For example, if the recognized string is "I am late" and you call this method us
 [**IInkAnalyzer**](iinkanalyzer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'A registry value can store data in various formats.'
-ms.assetid: '5fd828d6-4d62-4823-a2f1-15782b5cd28c'
+Description: A registry value can store data in various formats.
+ms.assetid: 5fd828d6-4d62-4823-a2f1-15782b5cd28c
 title: Registry Value Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Value Types
 
-A registry value can store data in various formats. When you store data under a registry value, for instance by calling the [**RegSetValueEx**](regsetvalueex.md) function, you can specify one of the following values to indicate the type of data being stored. When you retrieve a registry value, functions such as [**RegQueryValueEx**](regqueryvalueex.md) use these values to indicate the type of data retrieved.
+A registry value can store data in various formats. When you store data under a registry value, for instance by calling the [**RegSetValueEx**](/windows/win32/Winreg/nf-winreg-regsetvalueexa?branch=master) function, you can specify one of the following values to indicate the type of data being stored. When you retrieve a registry value, functions such as [**RegQueryValueEx**](/windows/win32/Winreg/nf-winreg-regqueryvalueexa?branch=master) use these values to indicate the type of data retrieved.
 
 The following registry value types are defined in Winnt.h.
 
@@ -18,8 +23,8 @@ The following registry value types are defined in Winnt.h.
 | REG\_DWORD<br/>                 | A 32-bit number.<br/>                                                                                                                                                                                                                                                                                                                                                                                                             |
 | REG\_DWORD\_LITTLE\_ENDIAN<br/> | A 32-bit number in little-endian format.<br/> Windows is designed to run on little-endian computer architectures. Therefore, this value is defined as REG\_DWORD in the Windows header files.<br/>                                                                                                                                                                                                                          |
 | REG\_DWORD\_BIG\_ENDIAN<br/>    | A 32-bit number in big-endian format.<br/> Some UNIX systems support big-endian architectures.<br/>                                                                                                                                                                                                                                                                                                                         |
-| REG\_EXPAND\_SZ<br/>            | A null-terminated string that contains unexpanded references to environment variables (for example, "%PATH%"). It will be a Unicode or ANSI string depending on whether you use the Unicode or ANSI functions. To expand the environment variable references, use the [**ExpandEnvironmentStrings**](expandenvironmentstrings.md) function.<br/>                                                                                 |
-| REG\_LINK<br/>                  | A null-terminated Unicode string that contains the target path of a symbolic link that was created by calling the [**RegCreateKeyEx**](regcreatekeyex.md) function with REG\_OPTION\_CREATE\_LINK.<br/>                                                                                                                                                                                                                          |
+| REG\_EXPAND\_SZ<br/>            | A null-terminated string that contains unexpanded references to environment variables (for example, "%PATH%"). It will be a Unicode or ANSI string depending on whether you use the Unicode or ANSI functions. To expand the environment variable references, use the [**ExpandEnvironmentStrings**](/windows/win32/Winbase/?branch=master) function.<br/>                                                                                 |
+| REG\_LINK<br/>                  | A null-terminated Unicode string that contains the target path of a symbolic link that was created by calling the [**RegCreateKeyEx**](/windows/win32/Winreg/nf-winreg-regcreatekeyexa?branch=master) function with REG\_OPTION\_CREATE\_LINK.<br/>                                                                                                                                                                                                                          |
 | REG\_MULTI\_SZ<br/>             | A sequence of null-terminated strings, terminated by an empty string (\\0).<br/> The following is an example:<br/> *String1*\\0*String2*\\0*String3*\\0*LastString*\\0\\0<br/> The first \\0 terminates the first string, the second to the last \\0 terminates the last string, and the final \\0 terminates the sequence. Note that the final terminator must be factored into the length of the string.<br/> |
 | REG\_NONE<br/>                  | No defined value type.<br/>                                                                                                                                                                                                                                                                                                                                                                                                       |
 | REG\_QWORD<br/>                 | A 64-bit number.<br/>                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -28,7 +33,7 @@ The following registry value types are defined in Winnt.h.
 
 
 
- 
+ 
 
 ## String Values
 
@@ -80,9 +85,9 @@ In *little-endian format*, a multi-byte value is stored in memory from the lowes
 
 In *big-endian format*, a multi-byte value is stored in memory from the highest byte (the "big end") to the lowest byte. For example, the value 0x12345678 is stored as (0x12 0x34 0x56 0x78) in big-endian format.
 
- 
+ 
 
- 
+ 
 
 
 

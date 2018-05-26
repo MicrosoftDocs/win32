@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines device types.'
-ms.assetid: '2bcdc476-7c42-4152-b107-58366faf2abd'
+---
+Description: Defines device types.
+ms.assetid: 2bcdc476-7c42-4152-b107-58366faf2abd
 title: D3DDEVTYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDEVTYPE enumeration
@@ -53,7 +58,7 @@ The reference device is installed by the Windows SDK 8.0 or later and is intende
 <span id="D3DDEVTYPE_SW"></span><span id="d3ddevtype_sw"></span>**D3DDEVTYPE\_SW**
 </dt> <dd>
 
-A pluggable software device that has been registered with [**IDirect3D9::RegisterSoftwareDevice**](idirect3d9--registersoftwaredevice.md).
+A pluggable software device that has been registered with [**IDirect3D9::RegisterSoftwareDevice**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-registersoftwaredevice?branch=master).
 
 </dd> <dt>
 
@@ -66,7 +71,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-All methods of the [**IDirect3D9**](idirect3d9.md) interface that take a **D3DDEVTYPE** device type will fail if D3DDEVTYPE\_NULLREF is specified. To use these methods, substitute D3DDEVTYPE\_REF in the method call.
+All methods of the [**IDirect3D9**](/windows/win32/d3d9helper/nn-d3d9-idirect3d9?branch=master) interface that take a **D3DDEVTYPE** device type will fail if D3DDEVTYPE\_NULLREF is specified. To use these methods, substitute D3DDEVTYPE\_REF in the method call.
 
 A D3DDEVTYPE\_REF device should be created in D3DPOOL\_SCRATCH memory, unless vertex and index buffers are required. To support vertex and index buffers, create the device in D3DPOOL\_SYSTEMMEM memory.
 
@@ -89,19 +94,19 @@ If D3dref9.dll is installed, Direct3D will use the reference rasterizer to creat
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3D9::CheckDeviceFormat**](idirect3d9--checkdeviceformat.md)
+[**IDirect3D9::CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master)
 </dt> <dt>
 
-[**IDirect3D9::CheckDeviceMultiSampleType**](idirect3d9--checkdevicemultisampletype.md)
+[**IDirect3D9::CheckDeviceMultiSampleType**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdevicemultisampletype?branch=master)
 </dt> <dt>
 
-[**IDirect3D9::CheckDeviceType**](idirect3d9--checkdevicetype.md)
+[**IDirect3D9::CheckDeviceType**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdevicetype?branch=master)
 </dt> <dt>
 
-[**IDirect3D9::CreateDevice**](idirect3d9--createdevice.md)
+[**IDirect3D9::CreateDevice**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-createdevice?branch=master)
 </dt> <dt>
 
-[**IDirect3D9::GetDeviceCaps**](idirect3d9--getdevicecaps.md)
+[**IDirect3D9::GetDeviceCaps**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-getdevicecaps?branch=master)
 </dt> <dt>
 
 [**D3DDEVICE\_CREATION\_PARAMETERS**](d3ddevice-creation-parameters.md)

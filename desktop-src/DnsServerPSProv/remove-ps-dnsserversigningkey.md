@@ -2,13 +2,16 @@
 title: Remove method of the PS\_DnsServerSigningKey class
 description: Deletes one or more input keys from the zone.
 audience: developer
-ms.assetid: 'a34a310c-e7c0-4919-a0a7-36aac4e1c6c8'
-ms.prod: 'windows-server-dev'
+ms.assetid: a34a310c-e7c0-4919-a0a7-36aac4e1c6c8
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DnsServerSigningKey class", "PS_DnsServerSigningKey class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DnsServerSigningKey class
+- PS_DnsServerSigningKey class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DnsServerSigningKey class
@@ -28,12 +34,12 @@ Deletes one or more input keys from the zone.
 
 ```mof
 uint32 Remove(
-  [in]  string              ZoneName,
-  [in]  boolean             PassThru,
-  [in]  string              KeyId[],
-  [in]  boolean             Force,
-  [in]  string              ComputerName,
-  [out] DnsServerSigningKey cmdletOutput[]
+  [in]  string              ZoneName,
+  [in]  boolean             PassThru,
+  [in]  string              KeyId[],
+  [in]  boolean             Force,
+  [in]  string              ComputerName,
+  [out] DnsServerSigningKey cmdletOutput[]
 );
 ```
 
@@ -92,7 +98,7 @@ On return, contains an embedded instance of the current object. This parameter r
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ On return, contains an embedded instance of the current object. This parameter r
 [**PS\_DnsServerSigningKey**](ps-dnsserversigningkey.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

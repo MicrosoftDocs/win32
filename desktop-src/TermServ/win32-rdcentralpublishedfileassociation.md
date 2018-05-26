@@ -4,11 +4,13 @@ description: Info for a file extension associated with an application.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ba12d933-572c-48d3-bf0f-1c99de61457d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ba12d933-572c-48d3-bf0f-1c99de61457d
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_RDCentralPublishedFileAssociation class Remote Desktop Services", "Win32_RDCentralPublishedFileAssociation class Remote Desktop Services , described"]
+keywords:
+- Win32_RDCentralPublishedFileAssociation class Remote Desktop Services
+- Win32_RDCentralPublishedFileAssociation class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_RDCentralPublishedFileAssociation class
@@ -37,11 +42,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("Win32_TSCentralPublisher_Prov")]
 class Win32_RDCentralPublishedFileAssociation
 {
-  string  ExtName;
-  string  AppAlias;
-  string  FarmAlias;
-  string  ProgIdHint;
-  uint8   IconContents[];
+  string  ExtName;
+  string  AppAlias;
+  string  FarmAlias;
+  string  ProgIdHint;
+  uint8   IconContents[];
   boolean PrimaryHandler;
 };
 ```
@@ -146,16 +151,16 @@ Hint to help open documents with this file association.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
 | Namespace<br/>                | Root\\cimv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>Tscpub.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TscPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The DcbQosCim provider supports classes that describe Network QOS setting data, control setting data, and traffic class setting data.'
-ms.assetid: '33D9721D-E7F9-4188-9F3F-2B5D29CBFDBE'
+Description: The DcbQosCim provider supports classes that describe Network QOS setting data, control setting data, and traffic class setting data.
+ms.assetid: 33D9721D-E7F9-4188-9F3F-2B5D29CBFDBE
 title: DcbQosCim Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DcbQosCim Provider
@@ -21,11 +26,11 @@ The DcbQosCim provider supports classes that describe Network QOS setting data, 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

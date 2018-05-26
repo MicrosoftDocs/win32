@@ -1,8 +1,9 @@
 ---
 title: Playlist.count
 description: The count property retrieves the number of media items in the playlist.
-ms.assetid: 'fd3265f3-3ab7-43e6-abc0-920225a66da6'
-keywords: ["Playlist.count Windows Media Player"]
+ms.assetid: fd3265f3-3ab7-43e6-abc0-920225a66da6
+keywords:
+- Playlist.count Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist.count
@@ -57,9 +63,9 @@ To retrieve the value of this property, read access to the library is required. 
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

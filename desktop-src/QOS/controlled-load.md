@@ -1,8 +1,14 @@
 ---
 title: CONTROLLED LOAD
 description: When the CONTROLLED LOAD service type is specified, the RSVP SP is instructed to provide end-to-end service quality that approximates the network behavior achieved from BEST EFFORT service under unloaded conditions.
-ms.assetid: '374cfd08-7f6d-449e-83e8-a32fb9f9d381'
-keywords: ["CONTROLLED LOAD service type"]
+ms.assetid: 374cfd08-7f6d-449e-83e8-a32fb9f9d381
+keywords:
+- CONTROLLED LOAD service type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CONTROLLED LOAD

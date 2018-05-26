@@ -1,7 +1,12 @@
 ---
-Description: 'Serves as a base class for classes that provide access to network settings, including MSFT\_NetCompartment and MSFT\_NetOffloadGlobalSetting.'
-ms.assetid: 'eef60c3e-4481-49f8-8dc7-73804e92f1b5'
-title: 'MSFT\_NetSettingData class'
+Description: Serves as a base class for classes that provide access to network settings, including MSFT\_NetCompartment and MSFT\_NetOffloadGlobalSetting.
+ms.assetid: eef60c3e-4481-49f8-8dc7-73804e92f1b5
+title: MSFT\_NetSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetSettingData class
@@ -111,7 +116,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -123,8 +128,8 @@ This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -147,9 +152,9 @@ This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 [**MSFT\_NetOffloadGlobalSetting**](msft-netoffloadglobalsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

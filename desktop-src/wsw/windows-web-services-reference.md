@@ -1,7 +1,12 @@
 ---
 title: Windows Web Services Reference
-ms.assetid: '8df6aa6c-0733-4601-aaa0-1b201ce5baa6'
+ms.assetid: 8df6aa6c-0733-4601-aaa0-1b201ce5baa6
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Web Services Reference

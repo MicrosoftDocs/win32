@@ -1,14 +1,20 @@
 ---
 title: WM/InitialKey
 description: The WM/InitialKey attribute contains the initial key of the music in the file.
-ms.assetid: 'f298f860-95e3-4dee-8fec-771da4a3744d'
-keywords: ["WM/InitialKey windows Media Format"]
+ms.assetid: f298f860-95e3-4dee-8fec-771da4a3744d
+keywords:
+- WM/InitialKey windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/InitialKey
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/InitialKey

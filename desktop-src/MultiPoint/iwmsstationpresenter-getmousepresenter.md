@@ -4,11 +4,14 @@ description: Retrieves an interface pointer to the mouse to use for the MultiPoi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e4adef0d-1713-437a-92e0-42be04afad54'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: e4adef0d-1713-437a-92e0-42be04afad54
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetMousePresenter method", "GetMousePresenter method, IWmsStationPresenter interface", "IWmsStationPresenter interface, GetMousePresenter method"]
+keywords:
+- GetMousePresenter method
+- GetMousePresenter method, IWmsStationPresenter interface
+- IWmsStationPresenter interface, GetMousePresenter method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IWmsStationPresenter::GetMousePresenter method
@@ -30,7 +36,7 @@ Retrieves an interface pointer to the mouse to use for the MultiPoint station.
 
 ```C++
 HRESULT GetMousePresenter(
-  [out] IWmsStationMousePresenter **ppMousePresenter
+  [out] IWmsStationMousePresenter **ppMousePresenter
 );
 ```
 
@@ -58,7 +64,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 | IID<br/>                      | IID\_IWmsStationPresenter is defined as 2e855d99-1ccb-4c17-afb0-bdc0033a383e<br/>            |
 
@@ -74,9 +80,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IWmsStationMousePresenter**](iwmsstationmousepresenter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

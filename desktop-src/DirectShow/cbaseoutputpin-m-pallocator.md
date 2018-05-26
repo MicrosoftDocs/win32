@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the memory allocator.'
-ms.assetid: 'b5e37ce0-7c02-4395-bfdf-0ee8c11da09a'
-title: 'CBaseOutputPin::m\_pAllocator member'
+Description: Pointer to the memory allocator.
+ms.assetid: b5e37ce0-7c02-4395-bfdf-0ee8c11da09a
+title: CBaseOutputPinm\_pAllocator member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin::m\_pAllocator member
@@ -35,9 +40,9 @@ IMemAllocator *m_pAllocator;
 [**CBaseOutputPin Class**](cbaseoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

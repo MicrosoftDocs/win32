@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUI::CommonUIProp method allows a user interface plug-in to modify an existing printer property sheet page.'
-ms.assetid: '6218913c-d11c-4646-a292-5f8740097d58'
-title: 'IPrintOemUI::CommonUIProp method'
+---
+Description: The IPrintOemUICommonUIProp method allows a user interface plug-in to modify an existing printer property sheet page.
+ms.assetid: 6218913c-d11c-4646-a292-5f8740097d58
+title: IPrintOemUICommonUIProp method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI::CommonUIProp method

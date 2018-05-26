@@ -1,8 +1,15 @@
 ---
 title: WOW64 Implementation Details
 description: The WOW64 emulator runs in user mode.
-ms.assetid: '93daf9d0-dfdb-42c3-8c3d-397b21991e83'
-keywords: ["WOW64 64-bit Windows Programming , environment variables", "WOW64 64-bit Windows Programming , implementation"]
+ms.assetid: 93daf9d0-dfdb-42c3-8c3d-397b21991e83
+keywords:
+- WOW64 64-bit Windows Programming , environment variables
+- WOW64 64-bit Windows Programming , implementation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WOW64 Implementation Details
@@ -31,12 +38,12 @@ When a 32-bit process is created by a 64-bit process, or when a 64-bit process i
 
 | Process                   | Environment variables                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 64-bit process<br/> | PROCESSOR\_ARCHITECTURE=AMD64 or PROCESSOR\_ARCHITECTURE=IA64 or PROCESSOR\_ARCHITECTURE=ARM64<br/> ProgramFiles=%ProgramFiles%<br/> ProgramW6432=%ProgramFiles%<br/> CommonProgramFiles=%CommonProgramFiles%<br/> CommonProgramW6432=%CommonProgramFiles%<br/> **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** The ProgramW6432 and CommonProgramW6432 environment variables were added starting with Windows 7 and Windows Server 2008 R2. <br/> |
+| 64-bit process<br/> | PROCESSOR\_ARCHITECTURE=AMD64 or PROCESSOR\_ARCHITECTURE=IA64 or PROCESSOR\_ARCHITECTURE=ARM64<br/> ProgramFiles=%ProgramFiles%<br/> ProgramW6432=%ProgramFiles%<br/> CommonProgramFiles=%CommonProgramFiles%<br/> CommonProgramW6432=%CommonProgramFiles%<br/> **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** The ProgramW6432 and CommonProgramW6432 environment variables were added starting with Windows 7 and Windows Server 2008 R2. <br/> |
 | 32-bit process<br/> | PROCESSOR\_ARCHITECTURE=x86<br/> PROCESSOR\_ARCHITEW6432=%PROCESSOR\_ARCHITECTURE%<br/> ProgramFiles=%ProgramFiles(x86)%<br/> ProgramW6432=%ProgramFiles%<br/> CommonProgramFiles=%CommonProgramFiles(x86)%<br/> CommonProgramW6432=%CommonProgramFiles%<br/>                                                                                                                                                                                                                  |
 
 
 
- 
+ 
 
 ## Global Hooks
 
@@ -50,9 +57,9 @@ For more information, see [**SetWindowsHookEx**](_win32_setwindowshookex_cpp).
 
 Be aware that the **WH\_MOUSE**, **WH\_KEYBOARD**, **WH\_JOURNAL\***, **WH\_SHELL**, and low-level hooks can be called on the thread that installed the hook rather than the thread processing the hook. For these hooks, it is possible that both the 32-bit and 64-bit hooks will be called if a 32-bit hook is ahead of a 64-bit hook in the hook chain. For more information, see [Using Hooks](_win32_Using_Hooks).
 
- 
+ 
 
- 
+ 
 
 
 

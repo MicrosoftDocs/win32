@@ -1,8 +1,11 @@
 ---
 title: IAssessmentBeginEventHandler OnAssessmentBegin method
 description: The AXE Core raises this event to notify the solution that an assessment has started.
-ms.assetid: '24DCC923-A20F-4E4D-916A-81477AA37BA3'
-keywords: ["OnAssessmentBegin method Access Execution Engine", "OnAssessmentBegin method Access Execution Engine , IAssessmentBeginEventHandler interface", "IAssessmentBeginEventHandler interface Access Execution Engine , OnAssessmentBegin method"]
+ms.assetid: 24DCC923-A20F-4E4D-916A-81477AA37BA3
+keywords:
+- OnAssessmentBegin method Access Execution Engine
+- OnAssessmentBegin method Access Execution Engine , IAssessmentBeginEventHandler interface
+- IAssessmentBeginEventHandler interface Access Execution Engine , OnAssessmentBegin method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAssessmentBeginEventHandler::OnAssessmentBegin method
@@ -22,8 +30,8 @@ The AXE Core raises this event to notify the solution that an assessment has sta
 
 ```C++
 virtual void OnAssessmentBegin(
-             Engine                   *sender,
-  [in] const AssessmentBeginEventArgs *e
+             Engine                   *sender,
+  [in] const AssessmentBeginEventArgs *e
 ) = 0;
 ```
 
@@ -61,8 +69,8 @@ Managed codes uses the [**AssessmentBeginEventHandler**](axe-assessmentbegineven
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -78,9 +86,9 @@ Managed codes uses the [**AssessmentBeginEventHandler**](axe-assessmentbegineven
 [**AssessmentBeginEventArgs**](assessmentbegineventargs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

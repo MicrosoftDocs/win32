@@ -1,7 +1,12 @@
 ---
-Description: 'Securable objects use an access mask format in which the four high-order bits specify generic access rights.'
-ms.assetid: 'e18cede9-9bf7-4866-850b-5d7fa43a5b0f'
+Description: Securable objects use an access mask format in which the four high-order bits specify generic access rights.
+ms.assetid: e18cede9-9bf7-4866-850b-5d7fa43a5b0f
 title: Generic Access Rights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generic Access Rights

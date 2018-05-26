@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the media keys object associated with the media engine or null if there is not a media keys object.'
-ms.assetid: 'e6556a02-445d-4436-80de-e4156d6a3d63'
-title: 'IMFMediaEngineEME::get\_Keys method'
+---
+Description: Gets the media keys object associated with the media engine or null if there is not a media keys object.
+ms.assetid: e6556a02-445d-4436-80de-e4156d6a3d63
+title: IMFMediaEngineEMEget\_Keys method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFMediaEngineEME::get\_Keys method
@@ -50,7 +55,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IMFMediaEngineEME**](imfmediaengineeme.md)
+[**IMFMediaEngineEME**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediaengineeme?branch=master)
 </dt> </dl>
 
  

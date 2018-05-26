@@ -1,8 +1,15 @@
 ---
 title: Windows Animation Manager
 description: The Windows Animation Manager (Windows Animation) enables rich animation of user interface elements.
-ms.assetid: '1d840263-d9da-4cab-9bc3-0c143c9c8741'
-keywords: ["Windows Animation Windows Animation ,portal", "Windows Animation Manager Windows Animation"]
+ms.assetid: 1d840263-d9da-4cab-9bc3-0c143c9c8741
+keywords:
+- Windows Animation Windows Animation ,portal
+- Windows Animation Manager Windows Animation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Animation Manager
@@ -28,7 +35,7 @@ Windows Animation does not perform the rendering; it can be used with any graphi
 
 
 
- 
+ 
 
 ## Developer audience
 
@@ -36,9 +43,9 @@ Windows Animation is designed for use by experienced C/C++ developers who are fa
 
 ## Run-time requirements
 
-The Windows Animation Manager was introduced in Windows 7.
+The Windows Animation Manager was introduced in Windows 7.
 
-Applications that require support for Windows Animation Manager on Windows Vista can utilize the Platform Update for Windows Vista. Applications that require Platform Update for Windows Vista can have Windows Update verify that it is installed, or download and install it in the background otherwise. For more information, see [About Platform Update for Windows Vista](win7ip-platform_update_for_windows_vista_overview).
+Applications that require support for Windows Animation Manager on Windows Vista can utilize the Platform Update for Windows Vista. Applications that require Platform Update for Windows Vista can have Windows Update verify that it is installed, or download and install it in the background otherwise. For more information, see [About Platform Update for Windows Vista](win7ip-platform_update_for_windows_vista_overview).
 
 ## Additional resources
 
@@ -54,9 +61,9 @@ Applications that require support for Windows Animation Manager on Windows Vista
 [Animation Overview (.NET Framework)](http://go.microsoft.com/fwlink/p/?linkid=189507)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

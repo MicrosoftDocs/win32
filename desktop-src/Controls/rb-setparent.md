@@ -1,8 +1,9 @@
 ---
 title: RB\_SETPARENT message
-description: Sets a rebar control's parent window.
-ms.assetid: 'bb8036d4-cab8-4887-86c6-66460bdbe64b'
-keywords: ["RB_SETPARENT message Windows Controls"]
+description: Sets a rebar controls parent window.
+ms.assetid: bb8036d4-cab8-4887-86c6-66460bdbe64b
+keywords:
+- RB_SETPARENT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_SETPARENT message
@@ -45,15 +51,15 @@ The rebar control sends notification messages to the window you specify with thi
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

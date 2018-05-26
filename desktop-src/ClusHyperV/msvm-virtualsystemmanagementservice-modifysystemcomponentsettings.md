@@ -4,13 +4,16 @@ description: Modifies generic system component settings.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '53559014-9f6c-4932-ab98-ed444008eb9d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 53559014-9f6c-4932-ab98-ed444008eb9d
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ModifySystemComponentSettings method", "ModifySystemComponentSettings method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, ModifySystemComponentSettings method"]
+keywords:
+- ModifySystemComponentSettings method
+- ModifySystemComponentSettings method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, ModifySystemComponentSettings method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ModifySystemComponentSettings method of the Msvm\_VirtualSystemManagementService class
@@ -30,9 +36,9 @@ Modifies generic system component settings.
 
 ```mof
 uint32 ModifySystemComponentSettings(
-  [in]  string                              ComponentSettings[],
-  [out] Msvm_SystemComponentSettingData REF ResultingComponentSettings[],
-  [out] CIM_ConcreteJob                 REF Job
+  [in]  string                              ComponentSettings[],
+  [out] Msvm_SystemComponentSettingData REF ResultingComponentSettings[],
+  [out] CIM_ConcreteJob                 REF Job
 );
 ```
 
@@ -88,16 +94,16 @@ A reference to an optional job for the operation if the operation is run asynchr
 **Incompatible Parameters** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -107,7 +113,7 @@ A reference to an optional job for the operation if the operation is run asynchr
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -121,9 +127,9 @@ A reference to an optional job for the operation if the operation is run asynchr
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

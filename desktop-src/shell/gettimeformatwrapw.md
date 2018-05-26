@@ -1,7 +1,12 @@
-﻿---
-Description: 'Formats time as a time string for a specified locale.'
-ms.assetid: '048b209c-f757-4b65-9ce7-282a5c21021f'
+---
+Description: Formats time as a time string for a specified locale.
+ms.assetid: 048b209c-f757-4b65-9ce7-282a5c21021f
 title: GetTimeFormatWrapW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetTimeFormatWrapW function

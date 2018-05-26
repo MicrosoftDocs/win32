@@ -1,7 +1,12 @@
 ---
-Description: 'Filters traffic based on certain high-level security constraints, like whether or not the traffic is encrypted. Connection Security rules will have to be created in order for traffic to pass the rule.'
-ms.assetid: 'c15bbfa6-5f0f-4500-b717-9522f05c67bb'
-title: 'MSFT\_NetNetworkLayerSecurityFilter class'
+Description: Filters traffic based on certain high-level security constraints, like whether or not the traffic is encrypted. Connection Security rules will have to be created in order for traffic to pass the rule.
+ms.assetid: c15bbfa6-5f0f-4500-b717-9522f05c67bb
+title: MSFT\_NetNetworkLayerSecurityFilter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetNetworkLayerSecurityFilter class
@@ -15,30 +20,30 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetNetworkLayerSecurityFilter : CIM_FilterEntryBase
 {
-  uint16   Authentication;
-  uint16   Encryption;
-  boolean  OverrideBlockRules;
-  string   LocalUsers;
-  string   RemoteUsers;
-  string   RemoteMachines;
-  string   Name;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  boolean  IsNegated;
+  uint16   Authentication;
+  uint16   Encryption;
+  boolean  OverrideBlockRules;
+  string   LocalUsers;
+  string   RemoteUsers;
+  string   RemoteMachines;
+  string   Name;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  boolean  IsNegated;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
 };
 ```
 
@@ -394,17 +399,17 @@ Reserved for internal use by the WMI provider only.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

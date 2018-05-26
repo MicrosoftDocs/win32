@@ -1,7 +1,12 @@
 ---
 title: Loading Type Information
 description: Demonstrates how to load locale-specific type library information.
-ms.assetid: '60c467c6-0449-4269-a0ac-61ac485f33f5'
+ms.assetid: 60c467c6-0449-4269-a0ac-61ac485f33f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Loading Type Information

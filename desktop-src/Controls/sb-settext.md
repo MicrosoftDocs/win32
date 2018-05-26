@@ -1,8 +1,9 @@
 ---
 title: SB\_SETTEXT message
 description: Sets the text in the specified part of a status window.
-ms.assetid: '6039a61c-6ec6-42cd-94d5-5f1cf2998586'
-keywords: ["SB_SETTEXT message Windows Controls"]
+ms.assetid: 6039a61c-6ec6-42cd-94d5-5f1cf2998586
+keywords:
+- SB_SETTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SB\_SETTEXT message
@@ -80,7 +86,7 @@ A simple mode status bar does not support owner drawing.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -107,8 +113,8 @@ Normal windows display text left-to-right (LTR). Windows can be *mirrored* to di
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **SB\_SETTEXTW** (Unicode) and **SB\_SETTEXTA** (ANSI)<br/>                     |
 
@@ -121,9 +127,9 @@ Normal windows display text left-to-right (LTR). Windows can be *mirrored* to di
 [**SB\_GETTEXT**](sb-gettext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

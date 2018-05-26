@@ -1,7 +1,12 @@
 ---
-Description: 'These are shader and effect constants.'
-ms.assetid: 'cfc6ef62-c791-4714-93cb-4df682543c30'
+Description: These are shader and effect constants.
+ms.assetid: cfc6ef62-c791-4714-93cb-4df682543c30
 title: Effect Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Constants

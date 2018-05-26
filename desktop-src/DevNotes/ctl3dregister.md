@@ -1,7 +1,12 @@
-﻿---
-Description: 'Registers an application as a client of CTL3D.'
-ms.assetid: '38a4a04a-6322-4eb8-b272-ae9b90f84e0f'
+---
+Description: Registers an application as a client of CTL3D.
+ms.assetid: 38a4a04a-6322-4eb8-b272-ae9b90f84e0f
 title: Ctl3dRegister function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ctl3dRegister function

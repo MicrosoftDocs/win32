@@ -1,7 +1,12 @@
 ---
-Description: 'The GetNextAdviseTime method retrieves the time of the next advise request.'
-ms.assetid: '2a376250-fb39-46d7-a5a8-e3a3143cd209'
-title: 'CAMSchedule.GetNextAdviseTime method'
+Description: The GetNextAdviseTime method retrieves the time of the next advise request.
+ms.assetid: 2a376250-fb39-46d7-a5a8-e3a3143cd209
+title: CAMSchedule.GetNextAdviseTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMSchedule.GetNextAdviseTime method
@@ -43,9 +48,9 @@ Returns the reference time of the next advise request, or MAX\_TIME no requests 
 [**CAMSchedule Class**](camschedule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

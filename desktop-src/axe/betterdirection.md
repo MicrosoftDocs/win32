@@ -1,14 +1,20 @@
 ---
 title: BetterDirection element
 description: Defines which sense of relative change of a metric is to be considered improvement.
-ms.assetid: '97D15CC6-1678-4BCC-AC53-3C943343C2AA'
-keywords: ["BetterDirection element Access Execution Engine"]
+ms.assetid: 97D15CC6-1678-4BCC-AC53-3C943343C2AA
+keywords:
+- BetterDirection element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - BetterDirection
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BetterDirection element
@@ -72,9 +78,9 @@ NoneLowerHigher
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

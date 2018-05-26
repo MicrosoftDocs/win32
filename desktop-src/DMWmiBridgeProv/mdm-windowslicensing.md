@@ -1,8 +1,10 @@
 ---
 title: MDM\_WindowsLicensing class
 description: The MDM\_WindowsLicensing class is designed for licensing related management scenarios.
-ms.assetid: '9b26d8dc-aab6-4c67-9dbc-4b53525b9354'
-keywords: ["MDM_WindowsLicensing class", "MDM_WindowsLicensing class, described"]
+ms.assetid: 9b26d8dc-aab6-4c67-9dbc-4b53525b9354
+keywords:
+- MDM_WindowsLicensing class
+- MDM_WindowsLicensing class, described
 topic_type:
 - apiref
 api_name:
@@ -13,13 +15,18 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_WindowsLicensing class
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-The **MDM\_WindowsLicensing** class is designed for licensing related management scenarios. Currently the scope is limited to edition upgrades of Windows 10 desktop and mobile devices, such as Windows 10 Pro to Windows 10 Enterprise. In addition, this CSP provides the capability to activate or change the product key of Windows 10 desktop devices.
+The **MDM\_WindowsLicensing** class is designed for licensing related management scenarios. Currently the scope is limited to edition upgrades of Windows 10 desktop and mobile devices, such as Windows 10 Pro to Windows 10 Enterprise. In addition, this CSP provides the capability to activate or change the product key of Windows 10 desktop devices.
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -68,11 +75,11 @@ The **MDM\_WindowsLicensing** class has these methods.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>CheckApplicabilityMethod</strong>](mdm-windowslicensing-checkapplicabilitymethod.md)</td>
-<td style="text-align: left;">Method to check if the entered product key can be used for an edition upgrade, activation or changing a product key of Windows 10 for desktop devices.<br/></td>
+<td style="text-align: left;">Method to check if the entered product key can be used for an edition upgrade, activation or changing a product key of Windows 10 for desktop devices.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">[<strong>UpgradeEditionWithLicenseMethod</strong>](mdm-windowslicensing-upgradeeditionwithlicensemethod.md)</td>
-<td style="text-align: left;">Provide a license for an edition upgrade of Windows 10 mobile devices.<br/>
+<td style="text-align: left;">Provide a license for an edition upgrade of Windows 10 mobile devices.<br/>
 <blockquote>
 [!Note]<br />
 This upgrade process does not require a system restart.
@@ -80,11 +87,11 @@ This upgrade process does not require a system restart.
 <br/> <br/> The date type is XML.<br/> The supported operation is Execute.<br/>
 <blockquote>
 [!Important]<br />
-The XML license file contents must be properly escaped (that is, it should not simply be a copied XML), otherwise the edition upgrade on Windows 10 mobile devices will fail. For more information on proper escaping of the XML license file, see Section 2.4 of the [W3C XML spec](http://www.w3.org/TR/xml/). The XML license file is acquired from the Microsoft Volume Licensing Service Center. Your organization must have a Volume Licensing contract with Microsoft to access the portal.
+The XML license file contents must be properly escaped (that is, it should not simply be a copied XML), otherwise the edition upgrade on Windows 10 mobile devices will fail. For more information on proper escaping of the XML license file, see Section 2.4 of the [W3C XML spec](http://www.w3.org/TR/xml/). The XML license file is acquired from the Microsoft Volume Licensing Service Center. Your organization must have a Volume Licensing contract with Microsoft to access the portal.
 </blockquote>
 <br/> The following are valid edition upgrade paths when using this node through an MDM or provisioning package:
 <ul>
-<li>Windows 10 Mobileto Windows 10 Mobile Enterprise<br/></li>
+<li>Windows 10 Mobileto Windows 10 Mobile Enterprise<br/></li>
 </ul>
 <br/></td>
 </tr>
@@ -95,7 +102,7 @@ The XML license file contents must be properly escaped (that is, it should not s
 [!Note]<br />
 This upgrade process requires a system restart.
 </blockquote>
-<br/> <br/> The supported operation is Execute.<br/> When a product key is pushed from an MDM server to a user's device, <strong>changepk.exe</strong> runs using the product key. After it completes, a notification is shown to the user that a new edition of Windows 10 is available. The user can then restart their system manually or, after two hours, the device will restart automatically to complete the upgrade. The user will receive a reminder notification 10 minutes before the automatic restart.<br/> After the device restarts, the edition upgrade process completes. The user will receive a notification of the successful upgrade.
+<br/> <br/> The supported operation is Execute.<br/> When a product key is pushed from an MDM server to a user's device, <strong>changepk.exe</strong> runs using the product key. After it completes, a notification is shown to the user that a new edition of Windows 10 is available. The user can then restart their system manually or, after two hours, the device will restart automatically to complete the upgrade. The user will receive a reminder notification 10 minutes before the automatic restart.<br/> After the device restarts, the edition upgrade process completes. The user will receive a notification of the successful upgrade.
 <blockquote>
 [!Important]<br />
 If another policy requires a system reboot that occurs when <strong>changepk.exe</strong> is running, the edition upgrade will fail.
@@ -103,21 +110,21 @@ If another policy requires a system reboot that occurs when <strong>changepk.exe
 <br/> <br/> If a product key is entered in a provisioning package and the user begins installation of the package, a notification is shown to the user that their system will restart to complete the package installation. Upon explicit consent from the user to proceed, the package continues installation and <strong>changepk.exe</strong> runs using the product key. The user will receive a reminder notification 30 seconds before the automatic restart. <br/> After the device restarts, the edition upgrade process completes. The user will receive a notification of the successful upgrade. <br/> This node can also be used to activate or change a product key on a particular edition of Windows 10 desktop device by entering a product key. Activation or changing a product key does not require a reboot and is a silent process for the user.<br/>
 <blockquote>
 [!Important]<br />
-The product key entered must be 29 characters (that is, it should include dashes), otherwise the activation, edition upgrade, or product key change on Windows 10 desktop devices will fail. The product key is acquired from Microsoft Volume Licensing Service Center. Your organization must have a Volume Licensing contract with Microsoft to access the portal.
+The product key entered must be 29 characters (that is, it should include dashes), otherwise the activation, edition upgrade, or product key change on Windows 10 desktop devices will fail. The product key is acquired from Microsoft Volume Licensing Service Center. Your organization must have a Volume Licensing contract with Microsoft to access the portal.
 </blockquote>
 <br/> The following are valid edition upgrade paths when using this node through an MDM:
 <ul>
-<li>Windows 10 Enterprise to Windows 10 Education</li>
-<li>Windows 10 Home to Windows 10 Education</li>
-<li>Windows 10 Pro to Windows 10 Education</li>
-<li>Windows 10 Pro to Windows 10 Enterprise</li>
+<li>Windows 10 Enterprise to Windows 10 Education</li>
+<li>Windows 10 Home to Windows 10 Education</li>
+<li>Windows 10 Pro to Windows 10 Education</li>
+<li>Windows 10 Pro to Windows 10 Enterprise</li>
 </ul>
 <br/> Activation or changing a product key can be carried out on the following editions:
 <ul>
-<li>Windows 10 Education</li>
-<li>Windows 10 Enterprise</li>
-<li>Windows 10 Home</li>
-<li>Windows 10 Pro</li>
+<li>Windows 10 Education</li>
+<li>Windows 10 Enterprise</li>
+<li>Windows 10 Home</li>
+<li>Windows 10 Pro</li>
 </ul>
 <br/></td>
 </tr>
@@ -126,7 +133,7 @@ The product key entered must be 29 characters (that is, it should include dashes
 
 
 
- 
+ 
 
 ### Properties
 
@@ -205,7 +212,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -220,9 +227,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

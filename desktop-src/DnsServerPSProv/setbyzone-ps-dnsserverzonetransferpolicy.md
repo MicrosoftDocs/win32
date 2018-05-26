@@ -2,13 +2,16 @@
 title: SetByZone method of the PS\_DnsServerZoneTransferPolicy class
 description: Edits a zone transfer policy by zone.
 audience: developer
-ms.assetid: '38793c62-008e-428a-9de0-5df6f6e159e7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 38793c62-008e-428a-9de0-5df6f6e159e7
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByZone method", "SetByZone method, PS_DnsServerZoneTransferPolicy class", "PS_DnsServerZoneTransferPolicy class, SetByZone method"]
+keywords:
+- SetByZone method
+- SetByZone method, PS_DnsServerZoneTransferPolicy class
+- PS_DnsServerZoneTransferPolicy class, SetByZone method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByZone method of the PS\_DnsServerZoneTransferPolicy class
@@ -28,18 +34,18 @@ Edits a zone transfer policy by zone.
 
 ```mof
 uint32 SetByZone(
-  [in]  boolean         PassThru,
-  [in]  string          ComputerName,
-  [in]  string          Name,
-  [in]  string          ZoneName,
-  [in]  string          ClientSubnet,
-  [in]  string          InternetProtocol,
-  [in]  string          TimeOfDay,
-  [in]  string          TransportProtocol,
-  [in]  uint32          ProcessingOrder,
-  [in]  string          ServerInterfaceIP,
-  [in]  string          Condition,
-  [out] DnsServerPolicy cmdletOutput
+  [in]  boolean         PassThru,
+  [in]  string          ComputerName,
+  [in]  string          Name,
+  [in]  string          ZoneName,
+  [in]  string          ClientSubnet,
+  [in]  string          InternetProtocol,
+  [in]  string          TimeOfDay,
+  [in]  string          TransportProtocol,
+  [in]  uint32          ProcessingOrder,
+  [in]  string          ServerInterfaceIP,
+  [in]  string          Condition,
+  [out] DnsServerPolicy cmdletOutput
 );
 ```
 
@@ -144,7 +150,7 @@ On return, contains a [**DnsServerPolicy**](dnsserverpolicy.md). This parameter 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -158,9 +164,9 @@ On return, contains a [**DnsServerPolicy**](dnsserverpolicy.md). This parameter 
 [**PS\_DnsServerZoneTransferPolicy**](ps-dnsserverzonetransferpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

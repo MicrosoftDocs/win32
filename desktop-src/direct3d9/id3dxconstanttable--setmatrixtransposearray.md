@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an array of transposed matrices.'
-ms.assetid: 'a67afc21-f43d-4dc5-b145-f3d66dd86dbb'
-title: 'ID3DXConstantTable::SetMatrixTransposeArray method'
+---
+Description: Sets an array of transposed matrices.
+ms.assetid: a67afc21-f43d-4dc5-b145-f3d66dd86dbb
+title: ID3DXConstantTableSetMatrixTransposeArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXConstantTable::SetMatrixTransposeArray method
@@ -29,9 +34,9 @@ HRESULT SetMatrixTransposeArray(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device associated with the constant table.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device associated with the constant table.
 
 </dd> <dt>
 

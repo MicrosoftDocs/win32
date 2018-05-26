@@ -1,7 +1,12 @@
 ---
 Description: Setting Properties on Sources
-ms.assetid: 'fa1c7c40-915b-4577-aa33-6bd06707d93a'
+ms.assetid: fa1c7c40-915b-4577-aa33-6bd06707d93a
 title: Setting Properties on Sources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Properties on Sources

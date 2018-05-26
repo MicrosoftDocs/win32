@@ -1,7 +1,12 @@
 ---
 title: Engine Adapter Wrappers
 description: Functions that you can use to call functions on your engine adapter. These functions are defined in Winbio\_adapter.h.
-ms.assetid: 'b3d6d617-e423-4ed5-9d29-be72c5dd8b49'
+ms.assetid: b3d6d617-e423-4ed5-9d29-be72c5dd8b49
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Engine Adapter Wrappers
@@ -12,45 +17,45 @@ The following wrapper functions are defined in Winbio\_adapter.h. You can use th
 
 | Function                                           | Description                                                                                                                                                                                           |
 |----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| WbioEngineAcceptSampleData<br/>              | Calls the [**EngineAdapterAcceptSampleData**](engineadapteracceptsampledata.md) function.<br/>                                                                                                 |
-| WbioEngineActivate<br/>                      | Calls the [**EngineAdapterActivate**](engineadapteractivate.md) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                                           |
-| WbioEngineAttach<br/>                        | Calls the [**EngineAdapterAttach**](engineadapterattach.md) function.<br/>                                                                                                                     |
-| WbioEngineCheckForDuplicate<br/>             | Calls the [**EngineAdapterCheckForDuplicate**](engineadaptercheckforduplicate.md) function.<br/>                                                                                               |
-| WbioEngineClearContext<br/>                  | Calls the [**EngineAdapterClearContext**](engineadapterclearcontext.md) function.<br/>                                                                                                         |
-| WbioEngineCommitEnrollment<br/>              | Calls the [**EngineAdapterCommitEnrollment**](engineadaptercommitenrollment.md) function.<br/>                                                                                                 |
-| WbioEngineControlUnit<br/>                   | Calls the [**EngineAdapterControlUnit**](engineadaptercontrolunit.md) function.<br/>                                                                                                           |
-| WbioEngineControlUnitPrivileged<br/>         | Calls the [**EngineAdapterControlUnitPrivileged**](engineadaptercontrolunitprivileged.md) function.<br/>                                                                                       |
-| WbioEngineCreateEnrollment<br/>              | Calls the [**EngineAdapterCreateEnrollment**](engineadaptercreateenrollment.md) function.<br/>                                                                                                 |
-| WbioEngineDeactivate<br/>                    | Calls the [**EngineAdapterDeactivate**](engineadapterdeactivate.md) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                                       |
-| WbioEngineDetach<br/>                        | Calls the [**EngineAdapterDetach**](engineadapterdetach.md) function.<br/>                                                                                                                     |
-| WbioEngineDiscardEnrollment<br/>             | Calls the [**EngineAdapterDiscardEnrollment**](engineadapterdiscardenrollment.md) function.<br/>                                                                                               |
-| WbioEngineExportEngineData<br/>              | Calls the [**EngineAdapterExportEngineData**](engineadapterexportenginedata.md) function.<br/>                                                                                                 |
-| WbioEngineGetEnrollmentHash<br/>             | Calls the [**EngineAdapterGetEnrollmentHash**](engineadaptergetenrollmenthash.md) function.<br/>                                                                                               |
-| WbioEngineGetEnrollmentStatus<br/>           | Calls the [**EngineAdapterGetEnrollmentStatus**](engineadaptergetenrollmentstatus.md) function.<br/>                                                                                           |
-| WbioEngineIdentifyAll<br/>                   | Calls the [**EngineAdapterIdentifyAll**](engineadapteridentifyall.md) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                                     |
-| WbioEngineIdentifyFeatureSet<br/>            | Calls the [**EngineAdapterIdentifyFeatureSet**](engineadapteridentifyfeatureset.md) function.<br/>                                                                                             |
-| WbioEngineNotifyPowerChange<br/>             | Calls the [*EngineAdapterNotifyPowerChange*](engineadapternotifypowerchange.md) function.<br/> This wrapper function is supported starting in Windows 8.<br/>                            |
-| WbioEnginePipelineCleanup<br/>               | Calls the [**EngineAdapterPipelineCleanup**](engineadapterpipelinecleanup.md) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                             |
-| WbioEnginePipelineInit<br/>                  | Calls the [**EngineAdapterPipelineInit**](engineadapterpipelineinit.md) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                                   |
-| WbioEngineQueryCalibrationData<br/>          | Calls the [**EngineAdapterQueryCalibrationData**](engineadapterquerycalibrationdata.md) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                   |
-| WbioEngineQueryExtendedEnrollmentStatus<br/> | Calls the [**EngineAdapterQueryExtendedEnrollmentStatus**](engineadapterqueryextendedenrollmentstatus.md) function.<br/> This wrapper function is supported starting in Windows 10.<br/> |
-| WbioEngineQueryExtendedInfo<br/>             | Calls the [**EngineAdapterQueryExtendedInfo**](engineadapterqueryextendedinfo.md) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                         |
-| WbioEngineQueryHashAlgorithms<br/>           | Calls the [**EngineAdapterQueryHashAlgorithms**](engineadapterqueryhashalgorithms.md) function.<br/>                                                                                           |
-| WbioEngineQueryIndexVectorSize<br/>          | Calls the [**EngineAdapterQueryIndexVectorSize**](engineadapterqueryindexvectorsize.md) function.<br/>                                                                                         |
-| WbioEngineQueryPreferredFormat<br/>          | Calls the [**EngineAdapterQueryPreferredFormat**](engineadapterquerypreferredformat.md) function.<br/>                                                                                         |
-| WbioEngineQuerySampleHint<br/>               | Calls the [**EngineAdapterQuerySampleHint**](engineadapterquerysamplehint.md) function.<br/>                                                                                                   |
-| WbioEngineRefreshCache<br/>                  | Calls the [**EngineAdapterRefreshCache**](engineadapterrefreshcache.md) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                                   |
-| WbioEngineSelectCalibrationFormat<br/>       | Calls the [**EngineAdapterSelectCalibrationFormat**](engineadapterselectcalibrationformat.md) function.<br/> This wrapper function is supported starting in Windows 10.<br/>             |
-| WbioEngineSetAccountPolicy<br/>              | Calls the [**EngineAdapterSetAccountPolicy**](engineadaptersetaccountpolicy.md) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                           |
-| WbioEngineSetEnrollmentParameters<br/>       | Calls the [**EngineAdapterSetEnrollmentParameters**](engineadaptersetenrollmentparameters.md) function.<br/> This wrapper function is supported starting in Windows 10.<br/>             |
-| WbioEngineSetEnrollmentSelector<br/>         | Calls the [**EngineAdapterSetEnrollmentSelector**](engineadaptersetenrollmentselector.md) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                 |
-| WbioEngineSetHashAlgorithm<br/>              | Calls the [**EngineAdapterSetHashAlgorithm**](engineadaptersethashalgorithm.md) function.<br/>                                                                                                 |
-| WbioEngineUpdateEnrollment<br/>              | Calls the [**EngineAdapterUpdateEnrollment**](engineadapterupdateenrollment.md) function.<br/>                                                                                                 |
-| WbioEngineVerifyFeatureSet<br/>              | Calls the [**EngineAdapterVerifyFeatureSet**](engineadapterverifyfeatureset.md) function.<br/>                                                                                                 |
+| WbioEngineAcceptSampleData<br/>              | Calls the [**EngineAdapterAcceptSampleData**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn?branch=master) function.<br/>                                                                                                 |
+| WbioEngineActivate<br/>                      | Calls the [**EngineAdapterActivate**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_activate_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                                           |
+| WbioEngineAttach<br/>                        | Calls the [**EngineAdapterAttach**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_attach_fn?branch=master) function.<br/>                                                                                                                     |
+| WbioEngineCheckForDuplicate<br/>             | Calls the [**EngineAdapterCheckForDuplicate**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_check_for_duplicate_fn?branch=master) function.<br/>                                                                                               |
+| WbioEngineClearContext<br/>                  | Calls the [**EngineAdapterClearContext**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_clear_context_fn?branch=master) function.<br/>                                                                                                         |
+| WbioEngineCommitEnrollment<br/>              | Calls the [**EngineAdapterCommitEnrollment**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_commit_enrollment_fn?branch=master) function.<br/>                                                                                                 |
+| WbioEngineControlUnit<br/>                   | Calls the [**EngineAdapterControlUnit**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_control_unit_fn?branch=master) function.<br/>                                                                                                           |
+| WbioEngineControlUnitPrivileged<br/>         | Calls the [**EngineAdapterControlUnitPrivileged**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_control_unit_privileged_fn?branch=master) function.<br/>                                                                                       |
+| WbioEngineCreateEnrollment<br/>              | Calls the [**EngineAdapterCreateEnrollment**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_create_enrollment_fn?branch=master) function.<br/>                                                                                                 |
+| WbioEngineDeactivate<br/>                    | Calls the [**EngineAdapterDeactivate**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_deactivate_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                                       |
+| WbioEngineDetach<br/>                        | Calls the [**EngineAdapterDetach**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_detach_fn?branch=master) function.<br/>                                                                                                                     |
+| WbioEngineDiscardEnrollment<br/>             | Calls the [**EngineAdapterDiscardEnrollment**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_discard_enrollment_fn?branch=master) function.<br/>                                                                                               |
+| WbioEngineExportEngineData<br/>              | Calls the [**EngineAdapterExportEngineData**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_export_engine_data_fn?branch=master) function.<br/>                                                                                                 |
+| WbioEngineGetEnrollmentHash<br/>             | Calls the [**EngineAdapterGetEnrollmentHash**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_get_enrollment_hash_fn?branch=master) function.<br/>                                                                                               |
+| WbioEngineGetEnrollmentStatus<br/>           | Calls the [**EngineAdapterGetEnrollmentStatus**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_get_enrollment_status_fn?branch=master) function.<br/>                                                                                           |
+| WbioEngineIdentifyAll<br/>                   | Calls the [**EngineAdapterIdentifyAll**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_all_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                                     |
+| WbioEngineIdentifyFeatureSet<br/>            | Calls the [**EngineAdapterIdentifyFeatureSet**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_fn?branch=master) function.<br/>                                                                                             |
+| WbioEngineNotifyPowerChange<br/>             | Calls the [*EngineAdapterNotifyPowerChange*](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_notify_power_change_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 8.<br/>                            |
+| WbioEnginePipelineCleanup<br/>               | Calls the [**EngineAdapterPipelineCleanup**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_pipeline_cleanup_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                             |
+| WbioEnginePipelineInit<br/>                  | Calls the [**EngineAdapterPipelineInit**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_pipeline_init_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                                   |
+| WbioEngineQueryCalibrationData<br/>          | Calls the [**EngineAdapterQueryCalibrationData**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_calibration_data_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                   |
+| WbioEngineQueryExtendedEnrollmentStatus<br/> | Calls the [**EngineAdapterQueryExtendedEnrollmentStatus**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_extended_enrollment_status_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 10.<br/> |
+| WbioEngineQueryExtendedInfo<br/>             | Calls the [**EngineAdapterQueryExtendedInfo**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_extended_info_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                         |
+| WbioEngineQueryHashAlgorithms<br/>           | Calls the [**EngineAdapterQueryHashAlgorithms**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_hash_algorithms_fn?branch=master) function.<br/>                                                                                           |
+| WbioEngineQueryIndexVectorSize<br/>          | Calls the [**EngineAdapterQueryIndexVectorSize**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_index_vector_size_fn?branch=master) function.<br/>                                                                                         |
+| WbioEngineQueryPreferredFormat<br/>          | Calls the [**EngineAdapterQueryPreferredFormat**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_preferred_format_fn?branch=master) function.<br/>                                                                                         |
+| WbioEngineQuerySampleHint<br/>               | Calls the [**EngineAdapterQuerySampleHint**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_query_sample_hint_fn?branch=master) function.<br/>                                                                                                   |
+| WbioEngineRefreshCache<br/>                  | Calls the [**EngineAdapterRefreshCache**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_refresh_cache_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                                   |
+| WbioEngineSelectCalibrationFormat<br/>       | Calls the [**EngineAdapterSelectCalibrationFormat**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_select_calibration_format_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 10.<br/>             |
+| WbioEngineSetAccountPolicy<br/>              | Calls the [**EngineAdapterSetAccountPolicy**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_account_policy_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                           |
+| WbioEngineSetEnrollmentParameters<br/>       | Calls the [**EngineAdapterSetEnrollmentParameters**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_enrollment_parameters_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 10.<br/>             |
+| WbioEngineSetEnrollmentSelector<br/>         | Calls the [**EngineAdapterSetEnrollmentSelector**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_enrollment_selector_fn?branch=master) function.<br/> This wrapper function is supported starting in Windows 10.<br/>                 |
+| WbioEngineSetHashAlgorithm<br/>              | Calls the [**EngineAdapterSetHashAlgorithm**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_hash_algorithm_fn?branch=master) function.<br/>                                                                                                 |
+| WbioEngineUpdateEnrollment<br/>              | Calls the [**EngineAdapterUpdateEnrollment**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_update_enrollment_fn?branch=master) function.<br/>                                                                                                 |
+| WbioEngineVerifyFeatureSet<br/>              | Calls the [**EngineAdapterVerifyFeatureSet**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_verify_feature_set_fn?branch=master) function.<br/>                                                                                                 |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -62,9 +67,9 @@ The following wrapper functions are defined in Winbio\_adapter.h. You can use th
 [Plug-in Functions](plug-in-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

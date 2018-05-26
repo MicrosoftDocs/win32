@@ -1,13 +1,21 @@
 ---
 title: Service Host User State
 description: The service host enables an application to associate state data that is scoped at the service-host level.
-ms.assetid: 'e18c6c0c-3205-4f88-9a9b-2515a7cfc462'
-keywords: ["User Host State Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: e18c6c0c-3205-4f88-9a9b-2515a7cfc462
+keywords:
+- User Host State Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service Host User State
 
-The [service host](service-host.md) enables an application to associate state data that is scoped at the service-host level. This state is is specified by a [**WS\_SERVICE\_PROPERTY**](ws-service-property.md) structure that is passed to the [**WsCreateServiceHost**](wscreateservicehost.md) function when the application creates a [service host](service-host.md), as illustrated in the following example.
+The [service host](service-host.md) enables an application to associate state data that is scoped at the service-host level. This state is is specified by a [**WS\_SERVICE\_PROPERTY**](/windows/win32/WebServices/ns-webservices-_ws_service_property?branch=master) structure that is passed to the [**WsCreateServiceHost**](/windows/win32/WebServices/nf-webservices-wscreateservicehost?branch=master) function when the application creates a [service host](service-host.md), as illustrated in the following example.
 
 ``` syntax
 void* quotePtr = (void*) quotes;
@@ -19,7 +27,7 @@ serviceProperties[0].valueSize = sizeof(quotePtr);
 
 ## 
 
-The state data is available to all service host callbacks and [service operations](service-operation.md). Callbacks and service operations retrieve the information by calling the [**WsGetOperationContextProperty**](wsgetoperationcontextproperty.md) function and specifying the context, referenced by the [WS\_OPERATION\_CONTEXT](ws-operation-context.md) structure, and the context property, as one of the values of the [**WS\_OPERATION\_CONTEXT\_PROPERTY\_HOST\_USER\_STATE**](ws-operation-context-property-id.md) eunumeration, as illustrated in the following example.
+The state data is available to all service host callbacks and [service operations](service-operation.md). Callbacks and service operations retrieve the information by calling the [**WsGetOperationContextProperty**](/windows/win32/WebServices/nf-webservices-wsgetoperationcontextproperty?branch=master) function and specifying the context, referenced by the [WS\_OPERATION\_CONTEXT](ws-operation-context.md) structure, and the context property, as one of the values of the [**WS\_OPERATION\_CONTEXT\_PROPERTY\_HOST\_USER\_STATE**](/windows/win32/WebServices/ne-webservices-ws_operation_context_property_id?branch=master) eunumeration, as illustrated in the following example.
 
 ``` syntax
 QuoteTable* table = NULL;

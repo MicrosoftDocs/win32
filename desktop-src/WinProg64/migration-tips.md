@@ -1,8 +1,16 @@
 ---
 title: Migration Tips
 description: It is important to consider address calculations and pointer arithmetic when porting your code to 64-bit Windows.
-ms.assetid: 'ae562a85-d6ea-4595-b54c-0a28e6532cf5'
-keywords: ["64-bit Windows programming guide 64-bit Windows Programming , migration tips", "migration tips 64-bit Windows Programming", "compatibility 64-bit Windows Programming"]
+ms.assetid: ae562a85-d6ea-4595-b54c-0a28e6532cf5
+keywords:
+- 64-bit Windows programming guide 64-bit Windows Programming , migration tips
+- migration tips 64-bit Windows Programming
+- compatibility 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Migration Tips

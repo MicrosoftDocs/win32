@@ -1,7 +1,12 @@
 ---
-Description: 'Invokes helper functionality for the IDispatch interface.'
-ms.assetid: 'ccef47af-d9dd-48c3-93d3-ee997dacf7a8'
+Description: Invokes helper functionality for the IDispatch interface.
+ms.assetid: ccef47af-d9dd-48c3-93d3-ee997dacf7a8
 title: InvokeIDispatch function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InvokeIDispatch function
@@ -15,10 +20,10 @@ This function is not intended to be used by application code.
 
 ```C++
 HRESULT WINAPI InvokeIDispatch(
-        IDispatch  *pDispatch,
-        DISPID     dispid,
-        DISPPARAMS *pDisp,
-  _Out_ VARIANT    *pVarResult
+        IDispatch  *pDispatch,
+        DISPID     dispid,
+        DISPPARAMS *pDisp,
+  _Out_ VARIANT    *pVarResult
 );
 ```
 
@@ -68,7 +73,7 @@ If the method succeeds, it returns S\_OK. If it fails, possible return codes inc
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,15 +81,15 @@ If the method succeeds, it returns S\_OK. If it fails, possible return codes inc
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | None supported<br/>                                                             |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

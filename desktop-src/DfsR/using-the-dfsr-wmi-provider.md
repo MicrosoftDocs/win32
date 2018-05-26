@@ -4,13 +4,20 @@ description: How to use the DFSR WMI Classes to configure and monitor the DFSR s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '10892d08-ffdb-44f0-ad02-b22769d60224'
-ms.prod: 'windows-server-dev'
+ms.assetid: 10892d08-ffdb-44f0-ad02-b22769d60224
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication Files , using", "Distributed File System Replication examples Files", "examples Files", "Distributed File System Replication Files , examples See Distributed File System Replication examples"]
+keywords:
+- Distributed File System Replication Files , using
+- Distributed File System Replication examples Files
+- examples Files
+- Distributed File System Replication Files , examples See Distributed File System Replication examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using DFSR

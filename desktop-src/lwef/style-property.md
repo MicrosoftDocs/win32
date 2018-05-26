@@ -1,7 +1,12 @@
 ---
 title: Style Property
 description: Style Property
-ms.assetid: 'f01d7d51-8a16-4265-b9b7-93b64f4984e3'
+ms.assetid: f01d7d51-8a16-4265-b9b7-93b64f4984e3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Style Property

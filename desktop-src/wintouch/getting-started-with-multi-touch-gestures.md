@@ -1,8 +1,17 @@
 ---
 title: Getting Started with Windows Touch Gestures
 description: This section describes the basic steps for using multitouch gestures.
-ms.assetid: '0ffe222a-a0ac-498b-a4ca-85cfb1caba93'
-keywords: ["Windows Touch,gestures", "Windows Touch,messages", "gestures,about", "gestures,messages"]
+ms.assetid: 0ffe222a-a0ac-498b-a4ca-85cfb1caba93
+keywords:
+- Windows Touch,gestures
+- Windows Touch,messages
+- gestures,about
+- gestures,messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with Windows Touch Gestures
@@ -20,7 +29,7 @@ The following steps are typically performed when using Windows Touch gestures:
 By default, you receive [**WM\_GESTURE**](wm-gesture.md) messages.
 
 > [!Note]  
-> If you call [**RegisterTouchWindow**](registertouchwindow.md), you will stop receiving [**WM\_GESTURE**](wm-gesture.md) messages. If you are not receiving **WM\_GESTURE** messages, make sure that you haven't called **RegisterTouchWindow**.
+> If you call [**RegisterTouchWindow**](/windows/win32/winuser/nf-winuser-registertouchwindow?branch=master), you will stop receiving [**WM\_GESTURE**](wm-gesture.md) messages. If you are not receiving **WM\_GESTURE** messages, make sure that you haven't called **RegisterTouchWindow**.
 
  
 
@@ -79,7 +88,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 ## Interpreting the Gesture Messages
 
-The [**GetGestureInfo**](getgestureinfo.md) function is used to interpret a gesture message into a structure describing the gesture. The structure, [**GESTUREINFO**](gestureinfo.md), has information about the gesture such as the location where the gesture was performed and the type of gesture. The following code shows how you can retrieve and interpret a gesture message.
+The [**GetGestureInfo**](/windows/win32/winuser/nf-winuser-getgestureinfo?branch=master) function is used to interpret a gesture message into a structure describing the gesture. The structure, [**GESTUREINFO**](/windows/win32/winuser/ns-winuser-taggestureinfo?branch=master), has information about the gesture such as the location where the gesture was performed and the type of gesture. The following code shows how you can retrieve and interpret a gesture message.
 
 
 ```C++

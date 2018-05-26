@@ -2,7 +2,13 @@
 title: Array and Sized-Pointer Attributes
 description: MIDL provides a rich set of features for passing arrays of data and pointers to data. You can use these attributes to specify characteristics of arrays and multiple levels of pointers.
 ms.assetid: 482be83f-eb09-40a0-8dd6-a0cbf5dc4485
-keywords: ["IDL MIDL , attributes, array and sized-pointer"]
+keywords:
+- IDL MIDL , attributes, array and sized-pointer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Array and Sized-Pointer Attributes

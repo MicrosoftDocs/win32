@@ -1,13 +1,16 @@
 ---
-Description: 'You have several options as to the form a query takes when querying an event class that contains embedded objects. The results returned by the query vary, depending on the form of the query you use.'
+Description: You have several options as to the form a query takes when querying an event class that contains embedded objects. The results returned by the query vary, depending on the form of the query you use.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b959a695-be15-4aa7-9368-b840962ae0da'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b959a695-be15-4aa7-9368-b840962ae0da
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Querying Embedded Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Querying Embedded Objects

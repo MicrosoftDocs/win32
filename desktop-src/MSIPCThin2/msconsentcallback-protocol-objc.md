@@ -4,22 +4,26 @@ description: Protocol for managing consent.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '0B5D76B4-1EA4-4102-B853-7273DF1670BC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 0B5D76B4-1EA4-4102-B853-7273DF1670BC
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSConsentCallback protocol"]
+keywords:
+- MSConsentCallback protocol
 topic_type:
 - apiref
 api_name:
 - MSConsentCallback protocol
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSConsentCallback protocol
 
-Protocol for managing consent. Your application should implement this protocol's method and pass it to the Rights Management SDK 4.2 APIs that perform consent.
+Protocol for managing consent. Your application should implement this protocol's method and pass it to the Rights Management SDK 4.2 APIs that perform consent.
 
 ## Signature
 
@@ -37,7 +41,7 @@ Protocol for managing consent. Your application should implement this protocol's
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,15 +57,15 @@ MSConscentCallback.h
 
 
 
- 
+ 
 
 ## Thread Safety
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

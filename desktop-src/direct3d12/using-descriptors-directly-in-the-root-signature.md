@@ -1,7 +1,12 @@
 ---
 title: Using Descriptors Directly in the Root Signature
 description: Applications can put descriptors directly in the root signature to avoid having to go through a descriptor heap.
-ms.assetid: '033E3D8F-3003-42F7-BF77-68A7D62802E5'
+ms.assetid: 033E3D8F-3003-42F7-BF77-68A7D62802E5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Descriptors Directly in the Root Signature
@@ -26,14 +31,14 @@ ConstantBuffer<SceneData> mySceneData : register(b6);
 
 In the above example, `mySceneData` cannot be declared as an array, as in `cbuffer mySceneData[2]` if it is going to be mapped onto a descriptor in the root signature, since indexing across descriptors is not supported in the root signature. The application can define separate individual constant buffers and define them each as a separate entry in the root signature if desired. Note that within `mySceneData` above, there is an array `bar[2]`. Dynamic indexing within the constant buffer is valid - a descriptor in the root signature behaves just like the same descriptor would behave if accessed through a descriptor heap. This is in contrast with inlining constants directly in the root signature, which also appears like a constant buffer except with the constraint that dynamic indexing within the inlined constants is not permitted, so `bar[2]` would not be allowed there.
 
-The following APIs (from the [**ID3D12GraphicsCommandList**](id3d12graphicscommandlist.md) interface) are for setting descriptors directly on the root signature:
+The following APIs (from the [**ID3D12GraphicsCommandList**](/windows/win32/d3d12/nn-d3d12-id3d12graphicscommandlist?branch=master) interface) are for setting descriptors directly on the root signature:
 
--   [**SetComputeRootConstantBufferView**](id3d12graphicscommandlist-setcomputerootconstantbufferview.md)
--   [**SetGraphicsRootConstantBufferView**](id3d12graphicscommandlist-setgraphicsrootconstantbufferview.md)
--   [**SetComputeRootShaderResourceView**](id3d12graphicscommandlist-setcomputerootshaderresourceview.md)
--   [**SetGraphicsRootShaderResourceView**](id3d12graphicscommandlist-setgraphicsrootshaderresourceview.md)
--   [**SetComputeRootUnorderedAccessView**](id3d12graphicscommandlist-setcomputerootunorderedaccessview.md)
--   [**SetGraphicsRootUnorderedAccessView**](id3d12graphicscommandlist-setgraphicsrootunorderedaccessview.md)
+-   [**SetComputeRootConstantBufferView**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootconstantbufferview?branch=master)
+-   [**SetGraphicsRootConstantBufferView**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootconstantbufferview?branch=master)
+-   [**SetComputeRootShaderResourceView**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootshaderresourceview?branch=master)
+-   [**SetGraphicsRootShaderResourceView**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootshaderresourceview?branch=master)
+-   [**SetComputeRootUnorderedAccessView**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootunorderedaccessview?branch=master)
+-   [**SetGraphicsRootUnorderedAccessView**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootunorderedaccessview?branch=master)
 
 > [!Note]  
 > There is no concept of a "root descriptor array" in Direct3D 12. Descriptor arrays are only supported in descriptor heaps.

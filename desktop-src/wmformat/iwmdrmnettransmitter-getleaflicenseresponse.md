@@ -1,8 +1,11 @@
 ---
 title: IWMDRMNetTransmitter GetLeafLicenseResponse method
 description: The GetLeafLicenseResponse method generates a leaf license response message.
-ms.assetid: 'b2893d22-b6f3-44d2-b6db-e2b07fbe098d'
-keywords: ["GetLeafLicenseResponse method windows Media Format", "GetLeafLicenseResponse method windows Media Format , IWMDRMNetTransmitter interface", "IWMDRMNetTransmitter interface windows Media Format , GetLeafLicenseResponse method"]
+ms.assetid: b2893d22-b6f3-44d2-b6db-e2b07fbe098d
+keywords:
+- GetLeafLicenseResponse method windows Media Format
+- GetLeafLicenseResponse method windows Media Format , IWMDRMNetTransmitter interface
+- IWMDRMNetTransmitter interface windows Media Format , GetLeafLicenseResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMNetTransmitter::GetLeafLicenseResponse method
@@ -22,11 +30,11 @@ The **GetLeafLicenseResponse** method generates a leaf license response message.
 
 ```C++
 HRESULT GetLeafLicenseResponse(
-  [in]  BSTR            bstrKID,
-  [in]  WMDRMNET_POLICY *pPolicy,
-  [out] IWMDRMEncrypt   **ppIWMDRMEncrypt,
-  [out] BYTE            **ppbLicenseResponse,
-  [out] DWORD           *pcbLicenseResponse
+  [in]  BSTR            bstrKID,
+  [in]  WMDRMNET_POLICY *pPolicy,
+  [out] IWMDRMEncrypt   **ppIWMDRMEncrypt,
+  [out] BYTE            **ppbLicenseResponse,
+  [out] DWORD           *pcbLicenseResponse
 );
 ```
 
@@ -84,7 +92,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -107,9 +115,9 @@ None.
 [**IWMDRMNetTransmitter Interface**](iwmdrmnettransmitter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

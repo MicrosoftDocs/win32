@@ -4,11 +4,14 @@ description: Retrieves a list of server waiting to start.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7af7a0e7-dc00-4e3a-8e0c-5987bd2bc3a2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 7af7a0e7-dc00-4e3a-8e0c-5987bd2bc3a2
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetPendingStartServerList method Remote Desktop Services", "GetPendingStartServerList method Remote Desktop Services , Win32_RDSHServer class", "Win32_RDSHServer class Remote Desktop Services , GetPendingStartServerList method"]
+keywords:
+- GetPendingStartServerList method Remote Desktop Services
+- GetPendingStartServerList method Remote Desktop Services , Win32_RDSHServer class
+- Win32_RDSHServer class Remote Desktop Services , GetPendingStartServerList method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetPendingStartServerList method of the Win32\_RDSHServer class
@@ -28,8 +34,8 @@ Retrieves a list of server waiting to start.
 
 ```mof
 uint32 GetPendingStartServerList(
-  [in]  uint32 maxServers,
-  [out] string ServerFQDNs[]
+  [in]  uint32 maxServers,
+  [out] string ServerFQDNs[]
 );
 ```
 
@@ -64,7 +70,7 @@ The list of servers is reset after every call, so that the next call will not ge
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
 | Namespace<br/>                | Root\\cimv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -78,9 +84,9 @@ The list of servers is reset after every call, so that the next call will not ge
 [**Win32\_RDSHServer**](win32-rdshserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

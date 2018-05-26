@@ -1,8 +1,29 @@
 ---
 title: Group Control Type
 description: This topic provides information about Microsoft UI Automation support for the Group control type.
-ms.assetid: 'f8363c2f-dbff-43a3-831f-d30151829ef9'
-keywords: ["UI Automation,support for Group control type", "UI Automation,Group control type", "UI Automation,tree structure for Group control type", "UI Automation,properties for Group control type", "UI Automation,control patterns for Group control type", "UI Automation,events for Group control type", "tree structures,Group control type", "properties,Group control type", "control patterns,Group control type", "events,Group control type", "support for Group control type", "Group control type", "control types,tree structure for Group control type", "control types,control patterns for Group control type", "control types,support for Group", "control types,Group"]
+ms.assetid: f8363c2f-dbff-43a3-831f-d30151829ef9
+keywords:
+- UI Automation,support for Group control type
+- UI Automation,Group control type
+- UI Automation,tree structure for Group control type
+- UI Automation,properties for Group control type
+- UI Automation,control patterns for Group control type
+- UI Automation,events for Group control type
+- tree structures,Group control type
+- properties,Group control type
+- control patterns,Group control type
+- events,Group control type
+- support for Group control type
+- Group control type
+- control types,tree structure for Group control type
+- control types,control patterns for Group control type
+- control types,support for Group
+- control types,Group
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Group Control Type
@@ -93,7 +114,7 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                                   | Support | Notes                                                                                                                                                 |
 |-------------------------------------------------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IExpandCollapseProvider**](uiauto-iexpandcollapseprovider.md) | Depends | Group controls that can be used to show or hide information must support the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern. |
+| [**IExpandCollapseProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider?branch=master) | Depends | Group controls that can be used to show or hide information must support the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern. |
 
 
 

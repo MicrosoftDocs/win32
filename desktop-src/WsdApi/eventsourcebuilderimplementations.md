@@ -1,7 +1,12 @@
 ---
-Description: 'Generates functions that create event source classes.'
-ms.assetid: '002e5b2c-8853-4500-bf53-71f839da97f3'
+Description: Generates functions that create event source classes.
+ms.assetid: 002e5b2c-8853-4500-bf53-71f839da97f3
 title: eventSourceBuilderImplementations element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # eventSourceBuilderImplementations element
@@ -52,14 +57,14 @@ proxyClass
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

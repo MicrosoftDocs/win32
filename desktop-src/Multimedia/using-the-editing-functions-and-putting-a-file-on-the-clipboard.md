@@ -1,13 +1,21 @@
 ---
 title: Using the Editing Functions and Putting a File on the Clipboard
 description: Using the Editing Functions and Putting a File on the Clipboard
-ms.assetid: '2c69e44a-5f45-45e7-bbad-c593359943a0'
-keywords: ["EditStreamClone function", "EditStreamCopy function", "EditStreamCut function"]
+ms.assetid: 2c69e44a-5f45-45e7-bbad-c593359943a0
+keywords:
+- EditStreamClone function
+- EditStreamCopy function
+- EditStreamCut function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Editing Functions and Putting a File on the Clipboard
 
-The following example cuts, copies, or deletes segments from an array of streams. The cut and copied streams are merged into a new file and placed on the clipboard. The functions used include [**EditStreamClone**](editstreamclone.md), [**EditStreamCopy**](editstreamcopy.md), and [**EditStreamCut**](editstreamcut.md).
+The following example cuts, copies, or deletes segments from an array of streams. The cut and copied streams are merged into a new file and placed on the clipboard. The functions used include [**EditStreamClone**](/windows/win32/Vfw/nf-vfw-editstreamclone?branch=master), [**EditStreamCopy**](/windows/win32/Vfw/nf-vfw-editstreamcopy?branch=master), and [**EditStreamCut**](/windows/win32/Vfw/nf-vfw-editstreamcut?branch=master).
 
 
 ```C++

@@ -1,7 +1,12 @@
 ---
 title: VML Metal Attribute
 description: VML Metal Attribute
-ms.assetid: '4d2efaed-d391-494f-9f0c-d57ad019f71d'
+ms.assetid: 4d2efaed-d391-494f-9f0c-d57ad019f71d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Metal Attribute

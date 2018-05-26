@@ -1,8 +1,11 @@
 ---
 title: ITopic ParentId property
 description: Returns topic parent identifier.
-ms.assetid: 'acf52f33-7527-46a6-9433-8c9eb0f822d2'
-keywords: ["ParentId property HelpAPI", "ParentId property HelpAPI , ITopic interface", "ITopic interface HelpAPI , ParentId property"]
+ms.assetid: acf52f33-7527-46a6-9433-8c9eb0f822d2
+keywords:
+- ParentId property HelpAPI
+- ParentId property HelpAPI , ITopic interface
+- ITopic interface HelpAPI , ParentId property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITopic::ParentId property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ParentId(
-  [out, retval] BSTR *pRetVal
+  [out, retval] BSTR *pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ The identifier of the topic's parent. If the topic is a root topic and has no pa
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ The identifier of the topic's parent. If the topic is a root topic and has no pa
 [**ITopic**](itopic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

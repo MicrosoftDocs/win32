@@ -1,7 +1,12 @@
 ---
 Description: Other Microsoft Tools for Building Distributed Applications
-ms.assetid: '518ca5b5-4285-4d69-abfe-bf6444a1deb5'
+ms.assetid: 518ca5b5-4285-4d69-abfe-bf6444a1deb5
 title: Other Microsoft Tools for Building Distributed Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other Microsoft Tools for Building Distributed Applications

@@ -1,7 +1,12 @@
 ---
-Description: 'Address based on the protocol of the Device Association Endpoint. IP Address for an IP device, Bluetooth address for Bluetooth device, etc.'
-ms.assetid: '20bc4ac6-151e-4666-bf17-5eb4a3c87c40'
-title: 'System.Devices.Aep.DeviceAddress'
+Description: Address based on the protocol of the Device Association Endpoint. IP Address for an IP device, Bluetooth address for Bluetooth device, etc.
+ms.assetid: 20bc4ac6-151e-4666-bf17-5eb4a3c87c40
+title: System.Devices.Aep.DeviceAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.DeviceAddress

@@ -4,13 +4,16 @@ description: Creates a new DFS folder in the existing namespace.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '05180de7-a112-4a73-9c1f-e72c389c499b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 05180de7-a112-4a73-9c1f-e72c389c499b
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["NewNamespaceFolder method", "NewNamespaceFolder method, MSFT_DfsNamespaceFolder class", "MSFT_DfsNamespaceFolder class, NewNamespaceFolder method"]
+keywords:
+- NewNamespaceFolder method
+- NewNamespaceFolder method, MSFT_DfsNamespaceFolder class
+- MSFT_DfsNamespaceFolder class, NewNamespaceFolder method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NewNamespaceFolder method of the MSFT\_DfsNamespaceFolder class
@@ -30,16 +36,16 @@ Creates a new DFS folder in the existing namespace.
 
 ```mof
 uint32 NewNamespaceFolder(
-  [in]  string                  NamespacePath,
-  [in]  string                  TargetPath,
-  [in]  string                  Description,
-  [in]  uint32                  Flags,
-  [in]  uint32                  State,
-  [in]  uint32                  TimeToLive,
-  [in]  uint32                  TargetState,
-  [in]  uint32                  ReferralPriorityRank,
-  [in]  sint32                  ReferralPriorityClass,
-  [out] MSFT_DfsNamespaceFolder cmdletOutput
+  [in]  string                  NamespacePath,
+  [in]  string                  TargetPath,
+  [in]  string                  Description,
+  [in]  uint32                  Flags,
+  [in]  uint32                  State,
+  [in]  uint32                  TimeToLive,
+  [in]  uint32                  TargetState,
+  [in]  uint32                  ReferralPriorityRank,
+  [in]  sint32                  ReferralPriorityClass,
+  [out] MSFT_DfsNamespaceFolder cmdletOutput
 );
 ```
 
@@ -262,7 +268,7 @@ When this method returns, contains output from the **New-DFSNamespaceFolder** cm
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
@@ -276,9 +282,9 @@ When this method returns, contains output from the **New-DFSNamespaceFolder** cm
 [**MSFT\_DfsNamespaceFolder**](msft-dfsnamespacefolder.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

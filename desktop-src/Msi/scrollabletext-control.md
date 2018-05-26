@@ -1,7 +1,12 @@
-﻿---
-Description: 'This control displays a long string of text that cannot fit entirely on the page. A common use for this control is displaying the license agreement.'
-ms.assetid: 'a49209f3-043c-4360-b1e3-9fa9538c2c9b'
+---
+Description: This control displays a long string of text that cannot fit entirely on the page. A common use for this control is displaying the license agreement.
+ms.assetid: a49209f3-043c-4360-b1e3-9fa9538c2c9b
 title: ScrollableText Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScrollableText Control

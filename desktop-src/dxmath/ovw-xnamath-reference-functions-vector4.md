@@ -1,7 +1,12 @@
-﻿---
-Description: 'Lists the 4D vector functions provided by DirectXMath.'
-ms.assetid: '81dddeb0-c143-5d09-057e-f7941520e268'
+---
+Description: Lists the 4D vector functions provided by DirectXMath.
+ms.assetid: 81dddeb0-c143-5d09-057e-f7941520e268
 title: DirectXMath Library 4D Vector Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectXMath Library 4D Vector Functions

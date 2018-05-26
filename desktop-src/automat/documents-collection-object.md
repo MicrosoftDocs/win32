@@ -1,7 +1,12 @@
 ---
 title: Documents Collection Object
 description: If your application supports a multiple-document interface (MDI), you should provide a Documents collection object.
-ms.assetid: '8c301453-ca38-480a-ba66-b1f340b9dc1d'
+ms.assetid: 8c301453-ca38-480a-ba66-b1f340b9dc1d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Documents Collection Object
@@ -16,12 +21,12 @@ The Documents collection object should have all of the following properties.
 |----------------------------|-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | **Application**<br/> | VT\_DISPATCH<br/> | Returns the Application object; read only. Required.<br/>                                                                 |
 | **Count**<br/>       | VT\_I4<br/>       | Returns the number of items in the collection; read only. Required.<br/>                                                  |
-| **\_NewEnum**<br/>   | VT\_DISPATCH<br/> | A special property that returns an enumerator object that implements [**IEnumVARIANT**](ienumvariant.md). Required.<br/> |
+| **\_NewEnum**<br/>   | VT\_DISPATCH<br/> | A special property that returns an enumerator object that implements [**IEnumVARIANT**](/windows/previous-versions/oaidl/nn-oaidl-ienumvariant?branch=master). Required.<br/> |
 | **Parent**<br/>      | VT\_DISPATCH<br/> | Returns the parent of the Documents collection object; read only. Required.<br/>                                          |
 
 
 
- 
+ 
 
 The Documents collection object should have all of the following methods.
 
@@ -36,11 +41,11 @@ The Documents collection object should have all of the following methods.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

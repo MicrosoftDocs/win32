@@ -1,7 +1,12 @@
-﻿---
-Description: 'This MSIscsiIIinitiator\_ConnectionInformation MOF class describes the characteristics of an iSCSI connection.'
-ms.assetid: '9f50ed92-816e-4f0e-a01f-ba46604aae57'
-title: 'MSIscsiInitiator\_ConnectionInformation class'
+---
+Description: This MSIscsiIIinitiator\_ConnectionInformation MOF class describes the characteristics of an iSCSI connection.
+ms.assetid: 9f50ed92-816e-4f0e-a01f-ba46604aae57
+title: MSIscsiInitiator\_ConnectionInformation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_ConnectionInformation class

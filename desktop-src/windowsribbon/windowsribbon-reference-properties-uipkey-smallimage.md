@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_SmallImage
 description: Identifies the UI\_PKEY\_SmallImage property.
-ms.assetid: '247fccfb-4075-4682-974b-efd048e54dac'
+ms.assetid: 247fccfb-4075-4682-974b-efd048e54dac
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_SmallImage

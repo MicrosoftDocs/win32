@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains secret data for an encrypted Advanced Systems Format (ASF) file. This attribute corresponds to the Secret Data field of the Content Encryption Header, defined in the ASF specification.'
-ms.assetid: 'e6ce71d6-59cd-42da-906a-ab71f2bef16f'
-title: 'MF\_PD\_ASF\_CONTENTENCRYPTION\_SECRET\_DATA attribute'
+---
+Description: Contains secret data for an encrypted Advanced Systems Format (ASF) file. This attribute corresponds to the Secret Data field of the Content Encryption Header, defined in the ASF specification.
+ms.assetid: e6ce71d6-59cd-42da-906a-ab71f2bef16f
+title: MF\_PD\_ASF\_CONTENTENCRYPTION\_SECRET\_DATA attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_ASF\_CONTENTENCRYPTION\_SECRET\_DATA attribute
@@ -16,7 +21,7 @@ Byte array
 
 This attribute applies to presentation descriptors for ASF content.
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method populates a byte array with the Secret Data field. The size of the array equals the Secret Data Length field of the Content Encryption Header.
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method populates a byte array with the Secret Data field. The size of the array equals the Secret Data Length field of the Content Encryption Header.
 
 ## Requirements
 
@@ -37,13 +42,13 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-ge
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

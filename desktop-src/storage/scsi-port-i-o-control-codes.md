@@ -1,7 +1,12 @@
 ---
 title: SCSI Port I/O Control Codes
 description: SCSI Port I/O Control Codes
-ms.assetid: 'ec9a73f9-ff80-42c6-a88c-1a017e30cb8f'
+ms.assetid: ec9a73f9-ff80-42c6-a88c-1a017e30cb8f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCSI Port I/O Control Codes

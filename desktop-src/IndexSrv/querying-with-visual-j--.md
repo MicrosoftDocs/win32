@@ -1,7 +1,12 @@
 ---
 title: Querying with Visual J++
 description: Querying with Visual J++
-ms.assetid: '8998143b-5d8b-4741-ae51-855e858d7e1e'
+ms.assetid: 8998143b-5d8b-4741-ae51-855e858d7e1e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying with Visual J++

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the version number of the event system.'
-ms.assetid: '6355f1b3-e1e7-435f-9795-d92464e004ae'
-title: 'IEventSystem2::GetVersion method'
+Description: Retrieves the version number of the event system.
+ms.assetid: 6355f1b3-e1e7-435f-9795-d92464e004ae
+title: IEventSystem2GetVersion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEventSystem2::GetVersion method
@@ -13,7 +18,7 @@ Retrieves the version number of the event system.
 
 ```C++
 HRESULT GetVersion(
-  [out] int *pnVersion
+  [out] int *pnVersion
 );
 ```
 
@@ -40,8 +45,8 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -52,9 +57,9 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 [**IEventSystem2**](ieventsystem2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: deq (sm5 - asm)
 description: Component-wise double-precision equality comparison.
-ms.assetid: '99806989-D3A0-43F4-832A-5F1BD9C59A11'
+ms.assetid: 99806989-D3A0-43F4-832A-5F1BD9C59A11
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # deq (sm5 - asm)
@@ -15,7 +20,7 @@ Component-wise double-precision equality comparison.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Component-wise double-precision equality comparison.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,7 +59,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -73,7 +78,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -82,9 +87,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

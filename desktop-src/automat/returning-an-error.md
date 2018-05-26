@@ -1,7 +1,12 @@
 ---
 title: Returning an Error
 description: ActiveX objects typically return rich contextual error information, which includes an error number, a description of the error, and the path of a Help file that supplies more information.
-ms.assetid: '9d5dfdfe-3766-4534-a3d8-4dcce0d905a1'
+ms.assetid: 9d5dfdfe-3766-4534-a3d8-4dcce0d905a1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Returning an Error

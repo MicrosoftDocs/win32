@@ -4,10 +4,13 @@ description: This topic describes the steps for configuring Azure ADAL based aut
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '37B20BB0-35C9-4F05-82E7-63F59C5FB3E9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 37B20BB0-35C9-4F05-82E7-63F59C5FB3E9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Configure Azure RMS for ADAL authentication

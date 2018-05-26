@@ -1,7 +1,12 @@
 ---
-Description: 'The OnThreadDestroy method is called when the streaming thread is about to exit.'
-ms.assetid: 'a484b6d2-bce6-4a42-9176-2a6ce374e28b'
-title: 'CSourceStream.OnThreadDestroy method'
+Description: The OnThreadDestroy method is called when the streaming thread is about to exit.
+ms.assetid: a484b6d2-bce6-4a42-9176-2a6ce374e28b
+title: CSourceStream.OnThreadDestroy method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.OnThreadDestroy method
@@ -47,9 +52,9 @@ The thread procedure, [**CSourceStream::ThreadProc**](csourcestream-threadproc.m
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

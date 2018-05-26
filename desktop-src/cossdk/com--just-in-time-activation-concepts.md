@@ -1,7 +1,12 @@
 ---
-Description: 'The just-in-time (JIT) activation service enables COM+ to deactivate an object while a client still holds an active reference to that object.'
-ms.assetid: 'dbc7b257-8506-42c8-8a78-3474c6d4f4b6'
-title: 'COM+ Just-in-Time Activation Concepts'
+Description: The just-in-time (JIT) activation service enables COM+ to deactivate an object while a client still holds an active reference to that object.
+ms.assetid: dbc7b257-8506-42c8-8a78-3474c6d4f4b6
+title: COM+ Just-in-Time Activation Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Just-in-Time Activation Concepts
@@ -34,20 +39,20 @@ COM+ deactivates an object based on the status of the doneness bit on the object
 
 ## Using the Auto-Done Property
 
-Using the Component Services administrative tool, you can configure a method such that the object is automatically deactivated on method return. (See [Enabling Auto-Done for a Method](enabling-auto-done-for-a-method.md) for instructions about how to set this property.) By selecting this option, you can eliminate the repetitive method calls for voting in transactions. Because the default setting for the consistency bit is True, if you have changed the done bit to True as well and you take no action to change these settings, [**IObjectContext::SetComplete**](iobjectcontext-setcomplete.md) is called automatically after the method returns.
+Using the Component Services administrative tool, you can configure a method such that the object is automatically deactivated on method return. (See [Enabling Auto-Done for a Method](enabling-auto-done-for-a-method.md) for instructions about how to set this property.) By selecting this option, you can eliminate the repetitive method calls for voting in transactions. Because the default setting for the consistency bit is True, if you have changed the done bit to True as well and you take no action to change these settings, [**IObjectContext::SetComplete**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete?branch=master) is called automatically after the method returns.
 
-However, there is one caveat to this behavior: COM+ will examine the HRESULT that the method returns. If that HRESULT indicates failure, the consistency bit is set to False and the result is the same as if you had called [**IObjectContext::SetAbort**](iobjectcontext-setabort.md).
+However, there is one caveat to this behavior: COM+ will examine the HRESULT that the method returns. If that HRESULT indicates failure, the consistency bit is set to False and the result is the same as if you had called [**IObjectContext::SetAbort**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setabort?branch=master).
 
 To summarize, if you select auto-done for a method and don't take any action to set any bits, and if an HRESULT(hr) is returned, the following applies:
 
--   If SUCCEEDS(hr), it is as though you called [**SetComplete**](iobjectcontext-setcomplete.md).
--   If FAILED(hr), it is as though you called [**SetAbort**](iobjectcontext-setabort.md).
+-   If SUCCEEDS(hr), it is as though you called [**SetComplete**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete?branch=master).
+-   If FAILED(hr), it is as though you called [**SetAbort**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setabort?branch=master).
 
 ## Using IObjectControl to Manage Object Activation and Deactivation
 
-You can implement the [**IObjectControl**](iobjectcontrol.md) interface so that the COM+ runtime automatically manages deactivation and reactivation for your objects. When an object implements this interface, COM+ calls [**IObjectControl::Deactivate**](iobjectcontrol-deactivate.md) when it deactivates the object and [**IObjectControl::Activate**](iobjectcontrol-activate.md) when it reactivates it. These methods enable automatic context initialization on object activation and cleanup of state on deactivation.
+You can implement the [**IObjectControl**](/windows/win32/ComSvcs/nn-comsvcs-iobjectcontrol?branch=master) interface so that the COM+ runtime automatically manages deactivation and reactivation for your objects. When an object implements this interface, COM+ calls [**IObjectControl::Deactivate**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-deactivate?branch=master) when it deactivates the object and [**IObjectControl::Activate**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-activate?branch=master) when it reactivates it. These methods enable automatic context initialization on object activation and cleanup of state on deactivation.
 
-If you are pooling objects that use COM+ JIT activation, it is highly recommended that you implement [**IObjectControl**](iobjectcontrol.md). For more detail, see [Object Pooling and COM+ JIT Activation](object-pooling-and-com--jit-activation.md).
+If you are pooling objects that use COM+ JIT activation, it is highly recommended that you implement [**IObjectControl**](/windows/win32/ComSvcs/nn-comsvcs-iobjectcontrol?branch=master). For more detail, see [Object Pooling and COM+ JIT Activation](object-pooling-and-com--jit-activation.md).
 
 ## Statelessness and JIT Activation
 

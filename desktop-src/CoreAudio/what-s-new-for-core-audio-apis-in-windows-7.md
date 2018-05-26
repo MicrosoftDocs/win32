@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Core Audio APIs were introduced in Windows Vista, which provided a new set of user-mode audio components that a client application can use to render or capture audio streams with improved audio capabilities.'
-ms.assetid: 'eb99c266-16d2-4a14-bc1d-059a0a94db13'
-title: 'What''s New for Core Audio APIs in Windows 7'
+---
+Description: The Core Audio APIs were introduced in Windows Vista, which provided a new set of user-mode audio components that a client application can use to render or capture audio streams with improved audio capabilities.
+ms.assetid: eb99c266-16d2-4a14-bc1d-059a0a94db13
+title: Whats New for Core Audio APIs in Windows 7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New for Core Audio APIs in Windows 7
@@ -63,22 +68,22 @@ For more information about the improvements, see [Protected User Mode Audio (PUM
 <td>In Windows 7, a new structure has been added to support IEC 61937 transmissions. <strong>WAVEFORMATEXTENSIBLE_IEC61937</strong> extends the <strong>WAVEFORMATEXTENSIBLE</strong> structure to store two sets of audio stream characteristics: the encoded audio format before transmission and characteristics of the audio stream after it has been decoded. The new structure explicitly specifies the effective number of channels, sample size, and data rate of a non-PCM format. With this information, an application can infer the quality level of the non-PCM stream after it is decompressed and played. For more information, see [Representing Formats for IEC 61937 Transmissions](representing-formats-for-iec-61937-transmissions.md).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IAudioClient::Initialize</strong>](iaudioclient-initialize.md) (Improved)</td>
-<td>The [<strong>IAudioClient::Initialize</strong>](iaudioclient-initialize.md) method has been improved to indicate specific errors that might occur while opening an audio stream. The new error codes are:
+<td>[<strong>IAudioClient::Initialize</strong>](/windows/win32/Audioclient/nf-audioclient-iaudioclient-initialize?branch=master) (Improved)</td>
+<td>The [<strong>IAudioClient::Initialize</strong>](/windows/win32/Audioclient/nf-audioclient-iaudioclient-initialize?branch=master) method has been improved to indicate specific errors that might occur while opening an audio stream. The new error codes are:
 <ul>
 <li>AUDCLNT_E_BUFFER_SIZE_NOT_ALIGNED</li>
 <li>AUDCLNT_E_BUFFER_SIZE_ERROR</li>
 <li>AUDCLNT_E_INVALID_DEVICE_PERIOD</li>
 </ul>
-For more information about these errors, see the Return Value section in [<strong>IAudioClient::Initialize</strong>](iaudioclient-initialize.md).<br/></td>
+For more information about these errors, see the Return Value section in [<strong>IAudioClient::Initialize</strong>](/windows/win32/Audioclient/nf-audioclient-iaudioclient-initialize?branch=master).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IAudioCaptureClient::GetBuffer</strong>](iaudiocaptureclient-getbuffer.md) and [<strong>IAudioRenderClient::GetBuffer</strong>](iaudiorenderclient-getbuffer.md) (Improved)</td>
-<td>[<strong>IAudioCaptureClient::GetBuffer</strong>](iaudiocaptureclient-getbuffer.md) and [<strong>IAudioRenderClient::GetBuffer</strong>](iaudiorenderclient-getbuffer.md) methods have been improved to return the AUDCLNT_E_BUFFER_ERROR error code that indicates that the endpoint buffer in the exclusive mode was not retrieved. For more information, see Remarks in [<strong>IAudioCaptureClient::GetBuffer</strong>](iaudiocaptureclient-getbuffer.md) and [<strong>IAudioRenderClient::GetBuffer</strong>](iaudiorenderclient-getbuffer.md).</td>
+<td>[<strong>IAudioCaptureClient::GetBuffer</strong>](/windows/win32/Audioclient/nf-audioclient-iaudiocaptureclient-getbuffer?branch=master) and [<strong>IAudioRenderClient::GetBuffer</strong>](/windows/win32/Audioclient/nf-audioclient-iaudiorenderclient-getbuffer?branch=master) (Improved)</td>
+<td>[<strong>IAudioCaptureClient::GetBuffer</strong>](/windows/win32/Audioclient/nf-audioclient-iaudiocaptureclient-getbuffer?branch=master) and [<strong>IAudioRenderClient::GetBuffer</strong>](/windows/win32/Audioclient/nf-audioclient-iaudiorenderclient-getbuffer?branch=master) methods have been improved to return the AUDCLNT_E_BUFFER_ERROR error code that indicates that the endpoint buffer in the exclusive mode was not retrieved. For more information, see Remarks in [<strong>IAudioCaptureClient::GetBuffer</strong>](/windows/win32/Audioclient/nf-audioclient-iaudiocaptureclient-getbuffer?branch=master) and [<strong>IAudioRenderClient::GetBuffer</strong>](/windows/win32/Audioclient/nf-audioclient-iaudiorenderclient-getbuffer?branch=master).</td>
 </tr>
 <tr class="odd">
 <td>Jack detection capability (Improved)</td>
-<td>A new interface in Windows 7, [<strong>IKsJackDescription2</strong>](iksjackdescription2.md), extends [<strong>IKsJackDescription</strong>](iksjackdescription.md). By using the new interface, the audio stack or an application can get additional jack information. This includes the jack's detection capability and whether the format of the device has changed dynamically.</td>
+<td>A new interface in Windows 7, [<strong>IKsJackDescription2</strong>](/windows/win32/Devicetopology/nn-devicetopology-iksjackdescription2?branch=master), extends [<strong>IKsJackDescription</strong>](/windows/win32/Devicetopology/nn-devicetopology-iksjackdescription?branch=master). By using the new interface, the audio stack or an application can get additional jack information. This includes the jack's detection capability and whether the format of the device has changed dynamically.</td>
 </tr>
 <tr class="even">
 <td>Windows Samples (New)</td>
@@ -95,16 +100,16 @@ For more information about these errors, see the Return Value section in [<stron
 
 The following interfaces are new for Windows 7:
 
--   [**IAudioClock2**](iaudioclock2.md)
--   [**IAudioClockAdjustment**](iaudioclockadjustment.md)
--   [**IAudioEndpointVolumeEx**](iaudioendpointvolumeex.md)
--   [**IAudioSessionManager2**](iaudiosessionmanager2.md)
--   [**IAudioSessionControl2**](iaudiosessioncontrol2.md)
--   [**IAudioSessionEnumerator**](iaudiosessionenumerator.md)
--   [**IAudioSessionNotification**](iaudiosessionnotification.md)
--   [**IAudioVolumeDuckNotification**](iaudiovolumeducknotification.md)
--   [**IKsJackDescription2**](iksjackdescription2.md)
--   [**IKsJackSinkInformation**](iksjacksinkinformation.md)
+-   [**IAudioClock2**](/windows/win32/audioclient/nn-audioclient-iaudioclock2?branch=master)
+-   [**IAudioClockAdjustment**](/windows/win32/audioclient/nn-audioclient-iaudioclockadjustment?branch=master)
+-   [**IAudioEndpointVolumeEx**](/windows/win32/Endpointvolume/nn-endpointvolume-iaudioendpointvolumeex?branch=master)
+-   [**IAudioSessionManager2**](/windows/win32/audiopolicy/nn-audiopolicy-iaudiosessionmanager2?branch=master)
+-   [**IAudioSessionControl2**](/windows/win32/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2?branch=master)
+-   [**IAudioSessionEnumerator**](/windows/win32/audiopolicy/nn-audiopolicy-iaudiosessionenumerator?branch=master)
+-   [**IAudioSessionNotification**](/windows/win32/audiopolicy/nn-audiopolicy-iaudiosessionnotification?branch=master)
+-   [**IAudioVolumeDuckNotification**](/windows/win32/AudioPolicy/nn-audiopolicy-iaudiovolumeducknotification?branch=master)
+-   [**IKsJackDescription2**](/windows/win32/Devicetopology/nn-devicetopology-iksjackdescription2?branch=master)
+-   [**IKsJackSinkInformation**](/windows/win32/Devicetopology/nn-devicetopology-iksjacksinkinformation?branch=master)
 
 ## Related topics
 

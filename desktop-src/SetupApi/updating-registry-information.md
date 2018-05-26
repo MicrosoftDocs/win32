@@ -1,14 +1,19 @@
 ---
-Description: 'After the queue has successfully committed, you will need to update registry information for the product you are installing.'
-ms.assetid: '32161538-c1bd-41a0-bb4f-a32883fe8285'
+Description: After the queue has successfully committed, you will need to update registry information for the product you are installing.
+ms.assetid: 32161538-c1bd-41a0-bb4f-a32883fe8285
 title: Updating Registry Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating Registry Information
 
 After the queue has successfully committed, you will need to update registry information for the product you are installing. It is recommended that you wait until all necessary file copy operations have been successfully completed before altering registry information.
 
-One way to update the registry is to call [**SetupInstallFromInfSection**](setupinstallfrominfsection.md) with the SPINST\_INIFILES, SPINST\_REGISTRY, or SPINST\_INI2REG flags specified. These flags can be combined in one call to **SetupInstallFromInfSection**.
+One way to update the registry is to call [**SetupInstallFromInfSection**](/windows/win32/Setupapi/nf-setupapi-setupinstallfrominfsectiona?branch=master) with the SPINST\_INIFILES, SPINST\_REGISTRY, or SPINST\_INI2REG flags specified. These flags can be combined in one call to **SetupInstallFromInfSection**.
 
 The following example uses SPINST\_ALL^SPINST\_FILES to indicate that the function should process all of the listed operations except file operations. Since only INI, registry, and file operations are listed in the **Install** section, this is a shorthand method of specifying the function should process all INI and registry operations.
 

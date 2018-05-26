@@ -1,7 +1,12 @@
 ---
-Description: 'Before you can write events to a trace session, you must register your provider.'
-ms.assetid: '76e7202e-74ce-40a3-a04b-9af5117fe20e'
-title: 'Writing Manifest-based Events'
+Description: Before you can write events to a trace session, you must register your provider.
+ms.assetid: 76e7202e-74ce-40a3-a04b-9af5117fe20e
+title: Writing Manifest-based Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing Manifest-based Events
@@ -10,17 +15,17 @@ Before you can write events to a trace session, you must register your provider.
 
 **Prior to Windows Vista:** There is no limit to the number of providers that a process can register.
 
-To register a manifest-based provider, call the [**EventRegister**](eventregister-func.md) function. The function registers the provider's GUID and identifies an optional callback that ETW calls when a controller enables or disables the provider.
+To register a manifest-based provider, call the [**EventRegister**](/windows/win32/Evntprov/nf-evntprov-eventregister?branch=master) function. The function registers the provider's GUID and identifies an optional callback that ETW calls when a controller enables or disables the provider.
 
-Before the provider exits, call the [**EventUnregister**](eventunregister-func.md) function to remove the provider's registration from ETW. The [**EventRegister**](eventregister-func.md) function returns the registration handle that you pass to the **EventUnregister** function.
+Before the provider exits, call the [**EventUnregister**](/windows/win32/Evntprov/nf-evntprov-eventunregister?branch=master) function to remove the provider's registration from ETW. The [**EventRegister**](/windows/win32/Evntprov/nf-evntprov-eventregister?branch=master) function returns the registration handle that you pass to the **EventUnregister** function.
 
-[Manifest-based](about-event-tracing.md#providers) providers do not have to implement an [**EnableCallback**](enablecallback.md) function to receive notifications when a session enables or disables the provider. The callback is optional and is used for informational purposes; you do not need to specify or implement the callback when registering the provider. A manifest-based provider can simply write events and ETW will decide if the event gets logged to a trace session. If an event requires that you perform extensive work to generate the event's data, you may want to call the [**EventEnabled**](eventenabled-func.md) or [**EventProviderEnabled**](eventproviderenabled-func.md) function first to verify that the event will be written to a session before performing the work.
+[Manifest-based](about-event-tracing.md#providers) providers do not have to implement an [**EnableCallback**](/windows/win32/Evntprov/nc-evntprov-penablecallback?branch=master) function to receive notifications when a session enables or disables the provider. The callback is optional and is used for informational purposes; you do not need to specify or implement the callback when registering the provider. A manifest-based provider can simply write events and ETW will decide if the event gets logged to a trace session. If an event requires that you perform extensive work to generate the event's data, you may want to call the [**EventEnabled**](/windows/win32/Evntprov/nf-evntprov-eventenabled?branch=master) or [**EventProviderEnabled**](/windows/win32/Evntprov/nf-evntprov-eventproviderenabled?branch=master) function first to verify that the event will be written to a session before performing the work.
 
-Typically, you would implement the callback if your provider requires that the controller pass provider-defined filter data (see the *FilterData* parameter of [**EnableCallback**](enablecallback.md)) to the provider, or the provider uses the context information that it specified when it registered itself (see the *CallbackContext* parameter of [**EventRegister**](eventregister-func.md)).
+Typically, you would implement the callback if your provider requires that the controller pass provider-defined filter data (see the *FilterData* parameter of [**EnableCallback**](/windows/win32/Evntprov/nc-evntprov-penablecallback?branch=master)) to the provider, or the provider uses the context information that it specified when it registered itself (see the *CallbackContext* parameter of [**EventRegister**](/windows/win32/Evntprov/nf-evntprov-eventregister?branch=master)).
 
-[Manifest-based](about-event-tracing.md#providers) providers call the [**EventWrite**](eventwrite-func.md) or [**EventWriteString**](eventwritestring-func.md) function to write events to a session. If your event data is a string, or if you do not define a manifest for your provider and your event data is a single string, call the [**EventWriteString**](eventwritestring-func.md) function to write the event. For event data that contains numeric or complex data types, call the [**EventWrite**](eventwrite-func.md) function to log the event.
+[Manifest-based](about-event-tracing.md#providers) providers call the [**EventWrite**](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master) or [**EventWriteString**](/windows/win32/Evntprov/nf-evntprov-eventwritestring?branch=master) function to write events to a session. If your event data is a string, or if you do not define a manifest for your provider and your event data is a single string, call the [**EventWriteString**](/windows/win32/Evntprov/nf-evntprov-eventwritestring?branch=master) function to write the event. For event data that contains numeric or complex data types, call the [**EventWrite**](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master) function to log the event.
 
-The following example shows how to prepare the event data to be written using the [**EventWrite**](eventwrite-func.md) function. The example references the events defined in [Publishing Your Event Schema for a Manifest-based Provider](publishing-your-event-schema-for-a-manifest-base-provider.md).
+The following example shows how to prepare the event data to be written using the [**EventWrite**](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master) function. The example references the events defined in [Publishing Your Event Schema for a Manifest-based Provider](publishing-your-event-schema-for-a-manifest-base-provider.md).
 
 
 ```C++

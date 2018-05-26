@@ -1,7 +1,12 @@
 ---
 Description: Using Parental Controls
-ms.assetid: 'b9568fbc-721e-4d3b-8c80-b04e62e3bfdd'
+ms.assetid: b9568fbc-721e-4d3b-8c80-b04e62e3bfdd
 title: Using Parental Controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Parental Controls

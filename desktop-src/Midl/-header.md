@@ -2,13 +2,19 @@
 title: /header switch
 description: The /header switch specifies the name of the header file.
 ms.assetid: d36cb6c9-df57-4ef4-aff3-9968ac8ac001
-keywords: ["/header switch MIDL"]
+keywords:
+- /header switch MIDL
 topic_type:
 - apiref
 api_name:
 - /header
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /header switch

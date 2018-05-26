@@ -1,8 +1,11 @@
 ---
 title: SaveProperties method of the Msvm\_ShutdownComponent class
 description: Saves the configuration and state of the logical device.
-ms.assetid: '124e52ee-2a11-468d-85e8-23258b6286a8'
-keywords: ["SaveProperties method Hyper-V", "SaveProperties method Hyper-V , Msvm_ShutdownComponent class", "Msvm_ShutdownComponent class Hyper-V , SaveProperties method"]
+ms.assetid: 124e52ee-2a11-468d-85e8-23258b6286a8
+keywords:
+- SaveProperties method Hyper-V
+- SaveProperties method Hyper-V , Msvm_ShutdownComponent class
+- Msvm_ShutdownComponent class Hyper-V , SaveProperties method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SaveProperties method of the Msvm\_ShutdownComponent class
@@ -82,9 +90,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_ShutdownComponent**](msvm-shutdowncomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,13 @@ description: Represents an association between a system and a replica peer.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f2d690df-f0c2-434a-9b43-224252368c1d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: f2d690df-f0c2-434a-9b43-224252368c1d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMSystemToReplicaPeer class", "MSFT_SMSystemToReplicaPeer class, described"]
+keywords:
+- MSFT_SMSystemToReplicaPeer class
+- MSFT_SMSystemToReplicaPeer class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMSystemToReplicaPeer class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Dynamic, Provider("WMIStorage"), AMENDMENT]
 class MSFT_SMSystemToReplicaPeer
 {
-  MSFT_SMSystem      REF Parent;
+  MSFT_SMSystem      REF Parent;
   MSFT_SMReplicaPeer REF Child;
 };
 ```
@@ -89,7 +94,7 @@ A reference to the [**MSFT\_SMSystem**](msft-smsystem.md) object that represents
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -103,9 +108,9 @@ A reference to the [**MSFT\_SMSystem**](msft-smsystem.md) object that represents
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'The Security\_ property of the SWbemObject object is used to read, or set the security settings for an SWbemObject object.'
+Description: The Security\_ property of the SWbemObject object is used to read, or set the security settings for an SWbemObject object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'add77267-d62f-4ee4-a0ff-8ca06a6bf7cd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: add77267-d62f-4ee4-a0ff-8ca06a6bf7cd
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.Security\_ property'
+title: SWbemObject.Security\_ property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.Security\_ property
@@ -17,7 +20,7 @@ The **Security\_** property of the [**SWbemObject**](swbemobject.md) object is u
 > [!Note]  
 > Setting the **Security\_** property of an [**SWbemObject**](swbemobject.md) object to **NULL** grants unlimited access to everyone all the time. For more information, see [**SWbemSecurity**](swbemsecurity.md).
 
- 
+ 
 
 For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).
 
@@ -40,8 +43,8 @@ SWbemObject.Security_ As Object
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -66,21 +69,21 @@ SWbemObject.Security_ As Object
 [**SWbemSecurity**](swbemsecurity.md)
 </dt> <dt>
 
-[**WbemAuthenticationLevelEnum**](wbemauthenticationlevelenum.md)
+[**WbemAuthenticationLevelEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemauthenticationlevelenum?branch=master)
 </dt> <dt>
 
-[**WbemImpersonationLevelEnum**](wbemimpersonationlevelenum.md)
+[**WbemImpersonationLevelEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemimpersonationlevelenum?branch=master)
 </dt> <dt>
 
-[**WbemPrivilegeEnum**](wbemprivilegeenum.md)
+[**WbemPrivilegeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master)
 </dt> <dt>
 
 [**Privilege Constants**](privilege-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

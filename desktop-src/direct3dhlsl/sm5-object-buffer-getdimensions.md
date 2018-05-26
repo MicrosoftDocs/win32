@@ -1,14 +1,20 @@
 ---
 title: GetDimensions function
 description: Gets the length of the buffer.
-ms.assetid: '704890e8-43e4-4e72-b7e2-eeef331bef1c'
-keywords: ["GetDimensions function HLSL"]
+ms.assetid: 704890e8-43e4-4e72-b7e2-eeef331bef1c
+keywords:
+- GetDimensions function HLSL
 topic_type:
 - apiref
 api_name:
 - GetDimensions
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDimensions function

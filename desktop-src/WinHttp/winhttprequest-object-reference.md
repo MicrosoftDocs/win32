@@ -1,7 +1,12 @@
 ---
-Description: 'The following topic contains reference documentation for using WinHTTP.'
-ms.assetid: '991c3c30-8eb5-4927-bc46-cabc36db020c'
+Description: The following topic contains reference documentation for using WinHTTP.
+ms.assetid: 991c3c30-8eb5-4927-bc46-cabc36db020c
 title: WinHttpRequest Object Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinHttpRequest Object Reference

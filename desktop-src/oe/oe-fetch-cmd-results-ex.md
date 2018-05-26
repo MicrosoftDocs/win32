@@ -1,8 +1,10 @@
 ---
 title: FETCH\_CMD\_RESULTS\_EX structure
 description: Extended version of FETCH\_CMD\_RESULTS\_EX structure.
-ms.assetid: '872f2c40-b6b0-443f-8872-64242b714c06'
-keywords: ["FETCH_CMD_RESULTS_EX structure Windows Mail (formerly Outlook Express)", "FETCH_BODY_PART structure Windows Mail (formerly Outlook Express)"]
+ms.assetid: 872f2c40-b6b0-443f-8872-64242b714c06
+keywords:
+- FETCH_CMD_RESULTS_EX structure Windows Mail (formerly Outlook Express)
+- FETCH_BODY_PART structure Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FETCH\_CMD\_RESULTS\_EX structure
@@ -24,31 +31,31 @@ Extended version of **FETCH\_CMD\_RESULTS\_EX** structure. Contains data from a 
 
 ```C++
 typedef struct tagFETCH_CMD_RESULTS_EX {
-  DWORD         dwMsgSeqNum;
-  BOOL          bMsgFlags;
+  DWORD         dwMsgSeqNum;
+  BOOL          bMsgFlags;
   IMAP_MSGFLAGS mfMsgFlags;
-  BOOL          bRFC822Size;
-  DWORD         dwRFC822Size;
-  BOOL          bUID;
-  DWORD         dwUID;
-  BOOL          bInternalDate;
-  FILETIME      ftInternalDate;
-  LPARAM        lpFetchCookie1;
-  LPARAM        lpFetchCookie2;
-  BOOL          bEnvelope;
-  FILETIME      ftENVDate;
-  LPSTR         pszENVSubject;
-  IMAPADDR      *piaENVFrom;
-  IMAPADDR      *piaENVSender;
-  IMAPADDR      *piaENVReplyTo;
-  IMAPADDR      *piaENVTo;
-  IMAPADDR      *piaENVCc;
-  IMAPADDR      *piaENVBcc;
-  LPSTR         pszENVInReplyTo;
-  LPSTR         pszENVMessageID;
-  DWORD         dwReserved1;
-  DWORD         dwReserved2;
-  DWORD         dwReserved3;
+  BOOL          bRFC822Size;
+  DWORD         dwRFC822Size;
+  BOOL          bUID;
+  DWORD         dwUID;
+  BOOL          bInternalDate;
+  FILETIME      ftInternalDate;
+  LPARAM        lpFetchCookie1;
+  LPARAM        lpFetchCookie2;
+  BOOL          bEnvelope;
+  FILETIME      ftENVDate;
+  LPSTR         pszENVSubject;
+  IMAPADDR      *piaENVFrom;
+  IMAPADDR      *piaENVSender;
+  IMAPADDR      *piaENVReplyTo;
+  IMAPADDR      *piaENVTo;
+  IMAPADDR      *piaENVCc;
+  IMAPADDR      *piaENVBcc;
+  LPSTR         pszENVInReplyTo;
+  LPSTR         pszENVMessageID;
+  DWORD         dwReserved1;
+  DWORD         dwReserved2;
+  DWORD         dwReserved3;
 } FETCH_BODY_PART;
 ```
 
@@ -339,17 +346,17 @@ Reserved. Unused.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

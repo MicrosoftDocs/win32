@@ -1,7 +1,12 @@
 ---
 title: Turning Off Security
 description: Turning Off Security
-ms.assetid: '31dbf140-474d-4304-bcbf-13d6a6ce9175'
+ms.assetid: 31dbf140-474d-4304-bcbf-13d6a6ce9175
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Turning Off Security

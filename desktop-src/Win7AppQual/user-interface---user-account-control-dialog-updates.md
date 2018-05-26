@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'f2d4b82d-a84a-4fc1-b7ad-cdc92a24f889'
-title: 'User Interface - User Account Control Dialog Updates'
+Description: .
+ms.assetid: f2d4b82d-a84a-4fc1-b7ad-cdc92a24f889
+title: User Interface - User Account Control Dialog Updates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Interface - User Account Control Dialog Updates

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a paragraph.'
-ms.assetid: '60322907-3902-49a9-91a9-e00b0a714c00'
+---
+Description: Contains a paragraph.
+ms.assetid: 60322907-3902-49a9-91a9-e00b0a714c00
 title: Paragraph Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Paragraph Element

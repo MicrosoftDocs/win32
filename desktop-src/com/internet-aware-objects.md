@@ -1,7 +1,12 @@
 ---
 title: Internet-Aware Objects
 description: Internet-Aware Objects
-ms.assetid: 'a8228431-5a07-4816-938d-c789ab6a8eaa'
+ms.assetid: a8228431-5a07-4816-938d-c789ab6a8eaa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Internet-Aware Objects
@@ -19,7 +24,7 @@ The following tables describe the meaning for various categories as both impleme
 
 
 
- 
+ 
 
 
 
@@ -29,7 +34,7 @@ The following tables describe the meaning for various categories as both impleme
 
 
 
- 
+ 
 
 The following table provides the exact CATIDs assigned to each category:
 
@@ -48,7 +53,7 @@ The following table provides the exact CATIDs assigned to each category:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -57,9 +62,9 @@ The following table provides the exact CATIDs assigned to each category:
 [Component Categories](component-categories.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

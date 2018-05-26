@@ -1,7 +1,12 @@
 ---
 title: IAgentBalloon GetFontUnderline
 description: IAgentBalloon GetFontUnderline
-ms.assetid: '19886e94-8095-4650-bd88-34ea9d96ddaa'
+ms.assetid: 19886e94-8095-4650-bd88-34ea9d96ddaa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentBalloon::GetFontUnderline

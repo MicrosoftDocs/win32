@@ -1,8 +1,17 @@
 ---
 title: Joystick Notifications
 description: Joystick Notifications
-ms.assetid: '523dfae3-bbd5-4955-96f3-1710e29d003f'
-keywords: ["joysticks,notifications", "joysticks,messages", "captured joysticks", "unplugged joysticks"]
+ms.assetid: 523dfae3-bbd5-4955-96f3-1710e29d003f
+keywords:
+- joysticks,notifications
+- joysticks,messages
+- captured joysticks
+- unplugged joysticks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Joystick Notifications

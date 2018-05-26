@@ -1,8 +1,9 @@
 ---
 title: EM\_GETTEXTRANGE message
 description: Retrieves a specified range of characters from a rich edit control.
-ms.assetid: '18398963-eb2c-4f64-99f5-9614a5d34b52'
-keywords: ["EM_GETTEXTRANGE message Windows Controls"]
+ms.assetid: 18398963-eb2c-4f64-99f5-9614a5d34b52
+keywords:
+- EM_GETTEXTRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETTEXTRANGE message
@@ -31,7 +37,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TEXTRANGE**](textrange.md) structure that specifies the range of characters to retrieve and a buffer to copy the characters to.
+Pointer to a [**TEXTRANGE**](/windows/win32/Richedit/ns-richedit-_textrange?branch=master) structure that specifies the range of characters to retrieve and a buffer to copy the characters to.
 
 </dd> </dl>
 
@@ -45,8 +51,8 @@ The message returns the number of characters copied, not including the terminati
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -55,12 +61,12 @@ The message returns the number of characters copied, not including the terminati
 
 <dl> <dt>
 
-[**TEXTRANGE**](textrange.md)
+[**TEXTRANGE**](/windows/win32/Richedit/ns-richedit-_textrange?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

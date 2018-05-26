@@ -1,7 +1,12 @@
 ---
 title: FontUnderline Property
 description: FontUnderline Property
-ms.assetid: '6fe6c147-2969-470e-9742-da2e6b3614e1'
+ms.assetid: 6fe6c147-2969-470e-9742-da2e6b3614e1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FontUnderline Property

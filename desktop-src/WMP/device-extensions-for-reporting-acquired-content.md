@@ -1,8 +1,19 @@
 ---
 title: Device Extensions for Reporting Acquired Content
 description: Device Extensions for Reporting Acquired Content
-ms.assetid: '597d872e-9105-4edb-afa3-9f4407de0f73'
-keywords: ["Windows Media Player,device extensions", "Windows Media Player,extensions", "Windows Media Player,reporting acquired content", "device extensions,reporting acquired content", "extensions,reporting acquired content", "reporting acquired content"]
+ms.assetid: 597d872e-9105-4edb-afa3-9f4407de0f73
+keywords:
+- Windows Media Player,device extensions
+- Windows Media Player,extensions
+- Windows Media Player,reporting acquired content
+- device extensions,reporting acquired content
+- extensions,reporting acquired content
+- reporting acquired content
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Extensions for Reporting Acquired Content

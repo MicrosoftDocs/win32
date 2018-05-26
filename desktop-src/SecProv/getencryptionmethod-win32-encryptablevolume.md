@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates the encryption algorithm and key size used on the volume.'
-ms.assetid: '89df3dfc-4789-4d3c-b267-d8e26758e754'
-title: 'GetEncryptionMethod method of the Win32\_EncryptableVolume class'
+---
+Description: Indicates the encryption algorithm and key size used on the volume.
+ms.assetid: 89df3dfc-4789-4d3c-b267-d8e26758e754
+title: GetEncryptionMethod method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetEncryptionMethod method of the Win32\_EncryptableVolume class

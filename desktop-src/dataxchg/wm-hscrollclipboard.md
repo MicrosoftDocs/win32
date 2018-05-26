@@ -1,8 +1,9 @@
 ---
 title: WM\_HSCROLLCLIPBOARD message
 description: Sent to the clipboard owner by a clipboard viewer window.
-ms.assetid: '73558de6-a822-40f7-9eb2-47ea5afd4e6e'
-keywords: ["WM_HSCROLLCLIPBOARD message Data Exchange"]
+ms.assetid: 73558de6-a822-40f7-9eb2-47ea5afd4e6e
+keywords:
+- WM_HSCROLLCLIPBOARD message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_HSCROLLCLIPBOARD message
@@ -55,7 +61,7 @@ The low-order word of *lParam* specifies a scroll bar event. This parameter can 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -73,8 +79,8 @@ The clipboard owner can use the [**ScrollWindow**](_win32_ScrollWindow) function
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -104,9 +110,9 @@ The clipboard owner can use the [**ScrollWindow**](_win32_ScrollWindow) function
 [**ScrollWindow**](_win32_ScrollWindow)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

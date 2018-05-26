@@ -1,7 +1,12 @@
 ---
 title: VML Class Attribute
 description: VML Class Attribute
-ms.assetid: '4030b8b7-fcc9-4153-8004-81935a347a09'
+ms.assetid: 4030b8b7-fcc9-4153-8004-81935a347a09
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Class Attribute

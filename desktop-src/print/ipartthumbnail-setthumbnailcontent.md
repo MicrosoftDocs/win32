@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetThumbnailContent method sets the thumbnail content for the part.'
-ms.assetid: '7392aa0b-479a-473f-b8b5-34e14494e050'
-title: 'IPartThumbnail::SetThumbnailContent method'
+---
+Description: The SetThumbnailContent method sets the thumbnail content for the part.
+ms.assetid: 7392aa0b-479a-473f-b8b5-34e14494e050
+title: IPartThumbnailSetThumbnailContent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartThumbnail::SetThumbnailContent method

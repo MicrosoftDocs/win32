@@ -1,7 +1,12 @@
 ---
 title: MPEG-2 Video Analyzer Filter
 description: MPEG-2 Video Analyzer Filter
-ms.assetid: 'fc3ed646-2644-4dc3-b84b-a00fef95df66'
+ms.assetid: fc3ed646-2644-4dc3-b84b-a00fef95df66
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-2 Video Analyzer Filter

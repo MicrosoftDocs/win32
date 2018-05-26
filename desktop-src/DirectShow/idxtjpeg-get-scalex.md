@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_ScaleX method retrieves the amount by which the wipe is stretched horizontally.'
-ms.assetid: '74c3f60b-68d9-4a8e-a6e5-767ce281a9fb'
-title: 'IDxtJpeg::get\_ScaleX method'
+---
+Description: The get\_ScaleX method retrieves the amount by which the wipe is stretched horizontally.
+ms.assetid: 74c3f60b-68d9-4a8e-a6e5-767ce281a9fb
+title: IDxtJpegget\_ScaleX method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::get\_ScaleX method

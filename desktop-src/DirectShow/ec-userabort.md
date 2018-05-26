@@ -1,7 +1,12 @@
 ---
-Description: 'The user has terminated playback.'
-ms.assetid: '974a9c3e-cfc9-4608-9f98-732aeaa0a752'
-title: 'EC\_USERABORT'
+Description: The user has terminated playback.
+ms.assetid: 974a9c3e-cfc9-4608-9f98-732aeaa0a752
+title: EC\_USERABORT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_USERABORT
@@ -56,9 +61,9 @@ After sending this event, the filter should reject all samples and not send any 
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

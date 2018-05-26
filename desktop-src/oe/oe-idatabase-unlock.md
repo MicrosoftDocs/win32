@@ -1,8 +1,11 @@
 ---
 title: IDatabase Unlock method
 description: Unlocks the message database to prevent usage by other callers.
-ms.assetid: '686b4977-f47f-4264-8452-f4add738f828'
-keywords: ["Unlock method Windows Mail (formerly Outlook Express)", "Unlock method Windows Mail (formerly Outlook Express) , IDatabase interface", "IDatabase interface Windows Mail (formerly Outlook Express) , Unlock method"]
+ms.assetid: 686b4977-f47f-4264-8452-f4add738f828
+keywords:
+- Unlock method Windows Mail (formerly Outlook Express)
+- Unlock method Windows Mail (formerly Outlook Express) , IDatabase interface
+- IDatabase interface Windows Mail (formerly Outlook Express) , Unlock method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabase::Unlock method
@@ -24,7 +32,7 @@ Unlocks the message database to prevent usage by other callers.
 
 ```C++
 HRESULT Unlock(
-  [in] LPHLOCK phLock
+  [in] LPHLOCK phLock
 );
 ```
 
@@ -57,7 +65,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,17 +73,17 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

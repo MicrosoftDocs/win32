@@ -1,14 +1,20 @@
 ---
 title: add iplisten
 description: Specifies an IPv4 or IPv6 address to be added to the IP listen list.
-ms.assetid: '38253818-c029-4a46-ab52-095cbfdeeaf4'
-keywords: ["add iplisten HTTP"]
+ms.assetid: 38253818-c029-4a46-ab52-095cbfdeeaf4
+keywords:
+- add iplisten HTTP
 topic_type:
 - apiref
 api_name:
 - add iplisten
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # add iplisten

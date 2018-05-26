@@ -4,11 +4,14 @@ description: Updates the shape of the mouse cursor.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '54d90eab-0609-49aa-802b-ae3c2f2525fb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 54d90eab-0609-49aa-802b-ae3c2f2525fb
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetCursor method", "SetCursor method, IWmsStationMousePresenter interface", "IWmsStationMousePresenter interface, SetCursor method"]
+keywords:
+- SetCursor method
+- SetCursor method, IWmsStationMousePresenter interface
+- IWmsStationMousePresenter interface, SetCursor method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IWmsStationMousePresenter::SetCursor method
@@ -30,7 +36,7 @@ Updates the shape of the mouse cursor.
 
 ```C++
 HRESULT SetCursor(
-  [in] HCURSOR hCursor
+  [in] HCURSOR hCursor
 );
 ```
 
@@ -58,7 +64,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 | IID<br/>                      | IID\_IWmsStationMousePresenter is defined as a391f331-00f0-4204-9d09-f926917233b0<br/>       |
 
@@ -71,9 +77,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IWmsStationMousePresenter**](iwmsstationmousepresenter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

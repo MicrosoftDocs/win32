@@ -1,7 +1,12 @@
 ---
 title: Registering a Callback in Visual Basic
 description: Adding a callback in Visual Basic is different from the method used in VBScript.
-ms.assetid: '6aebb855-cf5b-4134-b7f6-3a8b404b7ae8'
+ms.assetid: 6aebb855-cf5b-4134-b7f6-3a8b404b7ae8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Callback in Visual Basic
@@ -40,7 +45,7 @@ Adding a callback in Visual Basic is different from the method used in VBScript.
 
     
 
-4.  Add the callback function to the [**IUPnPService**](iupnpservice.md) object, as shown in the following example, or in another object such as [**IUPnPDeviceFinder**](iupnpdevicefinder.md), using the appropriate callback type library (cbklib.tbl).
+4.  Add the callback function to the [**IUPnPService**](/windows/win32/Upnp/nn-upnp-iupnpservice?branch=master) object, as shown in the following example, or in another object such as [**IUPnPDeviceFinder**](/windows/win32/Upnp/nn-upnp-iupnpdevicefinder?branch=master), using the appropriate callback type library (cbklib.tbl).
     ```VB
     Public Sub AddCbFunction(upnpSvc As UPnPService)
 
@@ -63,7 +68,7 @@ Adding a callback in Visual Basic is different from the method used in VBScript.
 
     
 
-In the following example, the [**IUPnPService**](iupnpservice.md) object is passed to the function. The callback function is then added as the parameter.
+In the following example, the [**IUPnPService**](/windows/win32/Upnp/nn-upnp-iupnpservice?branch=master) object is passed to the function. The callback function is then added as the parameter.
 
 
 ```VB

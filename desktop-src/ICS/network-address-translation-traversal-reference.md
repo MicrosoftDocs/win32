@@ -1,8 +1,14 @@
 ---
 title: Network Address Translation Traversal Reference
 description: The Network Address Translation (NAT) Traversal API provides applications with the ability to configure port mappings on a remote Internet Gateway Device (IGD) that uses NAT.
-ms.assetid: '49c5642e-346f-488d-92fb-ae214eb41b4f'
-keywords: ["Internet Connection Sharing and Internet Connection Firewall ICS/ICF , Network Address Translation Traversal reference"]
+ms.assetid: 49c5642e-346f-488d-92fb-ae214eb41b4f
+keywords:
+- Internet Connection Sharing and Internet Connection Firewall ICS/ICF , Network Address Translation Traversal reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Address Translation Traversal Reference

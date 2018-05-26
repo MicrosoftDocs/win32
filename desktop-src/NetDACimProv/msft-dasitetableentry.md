@@ -1,7 +1,12 @@
 ---
-Description: 'An entry in the DirectAccess site table.'
-ms.assetid: 'addf51a2-380f-4407-9fbe-0ce6df48b058'
-title: 'MSFT\_DASiteTableEntry class'
+Description: An entry in the DirectAccess site table.
+ms.assetid: addf51a2-380f-4407-9fbe-0ce6df48b058
+title: MSFT\_DASiteTableEntry class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_DASiteTableEntry class
@@ -50,7 +55,7 @@ The **MSFT\_DASiteTableEntry** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -192,17 +197,17 @@ The Teredo server that the client uses.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetDACim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetDACim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

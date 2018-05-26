@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_RT\_FORMAT\_ARRAY structure
 description: A helper structure to enable easy initialization of a D3D12\_RT\_FORMAT\_ARRAY structure.
-ms.assetid: 'E890DD33-599F-4B20-BD15-2734867788E5'
-keywords: ["CD3DX12_RT_FORMAT_ARRAY structure"]
+ms.assetid: E890DD33-599F-4B20-BD15-2734867788E5
+keywords:
+- CD3DX12_RT_FORMAT_ARRAY structure
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_RT\_FORMAT\_ARRAY structure
 
-A helper structure to enable easy initialization of a [**D3D12\_RT\_FORMAT\_ARRAY**](d3d12-rt-format-array.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_RT\_FORMAT\_ARRAY**](/windows/win32/d3d12/ns-d3d12-d3d12_rt_format_array?branch=master) structure.
 
 ## Syntax
 
@@ -25,7 +31,7 @@ struct CD3DX12_RT_FORMAT_ARRAY  : public D3D12_RT_FORMAT_ARRAY{
   CD3DX12_RT_FORMAT_ARRAY CD3DX12_RT_FORMAT_ARRAY();
   CD3DX12_RT_FORMAT_ARRAY explicit CD3DX12_RT_FORMAT_ARRAY(const D3D12_RT_FORMAT_ARRAY&amp; o);
   CD3DX12_RT_FORMAT_ARRAY explicit CD3DX12_RT_FORMAT_ARRAY(const DXGI_FORMAT* pFormats, UINT NumFormats);
-                          operator const D3D12_RT_FORMAT_ARRAY&amp;() const;
+                          operator const D3D12_RT_FORMAT_ARRAY&amp;() const;
 };
 ```
 
@@ -45,7 +51,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_RT\_FORMAT\_ARRAY.
 **explicit CD3DX12\_RT\_FORMAT\_ARRAY(const D3D12\_RT\_FORMAT\_ARRAY& o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_RT\_FORMAT\_ARRAY, initialized with values copied from a [**D3D12\_RT\_FORMAT\_ARRAY**](d3d12-rt-format-array.md) structure.
+Creates a new instance of a CD3DX12\_RT\_FORMAT\_ARRAY, initialized with values copied from a [**D3D12\_RT\_FORMAT\_ARRAY**](/windows/win32/d3d12/ns-d3d12-d3d12_rt_format_array?branch=master) structure.
 
 </dd> <dt>
 
@@ -59,7 +65,7 @@ Creates a new instance of a CD3DX12\_RT\_FORMAT\_ARRAY, initialized with the val
 **operator const D3D12\_RT\_FORMAT\_ARRAY&() const**
 </dt> <dd>
 
-Implicit conversion to a [**D3D12\_RT\_FORMAT\_ARRAY**](d3d12-rt-format-array.md) structure. Because D3D12\_RT\_FORMAT\_ARRAY is the underlying type of CD3DX12\_DEPTH\_STENCIL\_DESC1, the object is simply returned as a const D3D12\_RT\_FORMAT\_ARRAY reference to itself.
+Implicit conversion to a [**D3D12\_RT\_FORMAT\_ARRAY**](/windows/win32/d3d12/ns-d3d12-d3d12_rt_format_array?branch=master) structure. Because D3D12\_RT\_FORMAT\_ARRAY is the underlying type of CD3DX12\_DEPTH\_STENCIL\_DESC1, the object is simply returned as a const D3D12\_RT\_FORMAT\_ARRAY reference to itself.
 
 </dd> </dl>
 
@@ -80,12 +86,12 @@ Implicit conversion to a [**D3D12\_RT\_FORMAT\_ARRAY**](d3d12-rt-format-array.md
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> <dt>
 
-[**D3D12\_RT\_FORMAT\_ARRAY**](d3d12-rt-format-array.md)
+[**D3D12\_RT\_FORMAT\_ARRAY**](/windows/win32/d3d12/ns-d3d12-d3d12_rt_format_array?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

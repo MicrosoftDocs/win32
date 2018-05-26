@@ -1,7 +1,12 @@
 ---
-Description: 'The ComboBox control displays a drop-down list of predefined values and an edit field into which the user can enter a value.'
-ms.assetid: '81fbc039-3c86-4086-a565-57a4ea2c12fb'
+Description: The ComboBox control displays a drop-down list of predefined values and an edit field into which the user can enter a value.
+ms.assetid: 81fbc039-3c86-4086-a565-57a4ea2c12fb
 title: ComboBox Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComboBox Control
@@ -36,7 +41,7 @@ You can use the following attributes with this control. To change the value of a
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -46,9 +51,9 @@ The length of the text that can be entered can be limited by putting a number fr
 
 For compatibility with screen readers, when authoring a dialog box with a ComboBox control as the first active control, you must make the text field belonging to the edit field the first active control in the [Dialog table](dialog-table.md). Since the static text cannot take focus, when the dialog box is created, the edit field will have the focus initially as intended. Doing this ensures that screen readers show the correct information.
 
- 
+ 
 
- 
+ 
 
 
 

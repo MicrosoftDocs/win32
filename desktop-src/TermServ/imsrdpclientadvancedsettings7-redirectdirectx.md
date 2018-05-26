@@ -4,11 +4,16 @@ description: This property is not used.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a027d8d7-994f-4b24-8c46-18651c8e200b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a027d8d7-994f-4b24-8c46-18651c8e200b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RedirectDirectX property Remote Desktop Services", "RedirectDirectX property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , RedirectDirectX property", "RedirectDirectX property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , RedirectDirectX property"]
+keywords:
+- RedirectDirectX property Remote Desktop Services
+- RedirectDirectX property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , RedirectDirectX property
+- RedirectDirectX property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , RedirectDirectX property
 topic_type:
 - apiref
 api_name:
@@ -22,6 +27,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings7::RedirectDirectX property
@@ -35,11 +43,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_RedirectDirectX(
-  [in]          VARIANT_BOOL fRedirectDirectX
+  [in]          VARIANT_BOOL fRedirectDirectX
 );
 
 HRESULT get_RedirectDirectX(
-  [out, retval] VARIANT_BOOL *pfRedirectDirectX
+  [out, retval] VARIANT_BOOL *pfRedirectDirectX
 );
 ```
 
@@ -59,8 +67,8 @@ This property is not used. The setter method always returns **S\_FALSE** and the
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
+| Minimum supported client<br/> | Windows 7<br/>                                                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings7 is defined as 26036036-4010-4578-8091-0db9a1edf9c3<br/> |
@@ -77,9 +85,9 @@ This property is not used. The setter method always returns **S\_FALSE** and the
 [**IMsRdpClientAdvancedSettings7**](imsrdpclientadvancedsettings7.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

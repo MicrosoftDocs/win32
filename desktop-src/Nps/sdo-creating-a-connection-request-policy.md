@@ -4,10 +4,13 @@ description: Creating a Connection Request Policy
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '659e7d1e-d985-4cb1-95ad-355c5b44d55a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 659e7d1e-d985-4cb1-95ad-355c5b44d55a
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a Connection Request Policy

@@ -1,8 +1,11 @@
 ---
 title: Parameter ~Parameter destructor
 description: Destructor method.
-ms.assetid: '836B91EC-7372-434C-B839-BF2CDAE2E567'
-keywords: ["~Parameter destructor Access Execution Engine", "~Parameter destructor Access Execution Engine , Parameter interface", "Parameter interface Access Execution Engine , ~Parameter destructor"]
+ms.assetid: 836B91EC-7372-434C-B839-BF2CDAE2E567
+keywords:
+- ~Parameter destructor Access Execution Engine
+- ~Parameter destructor Access Execution Engine , Parameter interface
+- Parameter interface Access Execution Engine , ~Parameter destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameter::~Parameter destructor
@@ -32,8 +40,8 @@ virtual ~Parameter();
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -46,9 +54,9 @@ virtual ~Parameter();
 [**Parameter**](parameter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

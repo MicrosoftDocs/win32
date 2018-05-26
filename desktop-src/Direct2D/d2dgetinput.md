@@ -1,8 +1,9 @@
 ---
 title: D2DGetInput function
 description: Returns the color of input N at the input coordinate. Only available for simple inputs.
-ms.assetid: '74B6F814-53C7-4C8C-B45C-3CB23B9D8BED'
-keywords: ["D2DGetInput function Direct2D"]
+ms.assetid: 74B6F814-53C7-4C8C-B45C-3CB23B9D8BED
+keywords:
+- D2DGetInput function Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2DGetInput function
@@ -21,7 +27,7 @@ Returns the color of input N at the input coordinate. Only available for simple 
 
 ``` syntax
 float4 WINAPI D2DGetInput(
-  in uint N
+  in uint N
 );
 ```
 
@@ -80,9 +86,9 @@ Also, refer to the remarks for [D2D\_PS\_ENTRY](d2d-ps-entry.md) for another exa
 [HLSL Helpers](hlsl-helpers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

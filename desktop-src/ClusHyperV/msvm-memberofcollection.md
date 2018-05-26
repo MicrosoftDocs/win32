@@ -4,13 +4,15 @@ description: Represents an association in which a collection aggregates its memb
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ea415f28-009f-4146-9ee6-42f96dc5256f'
-ms.prod: 'windows-server-dev'
+ms.assetid: ea415f28-009f-4146-9ee6-42f96dc5256f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_MemberOfCollection class", "Msvm_MemberOfCollection class, described"]
+keywords:
+- Msvm_MemberOfCollection class
+- Msvm_MemberOfCollection class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_MemberOfCollection class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_MemberOfCollection : CIM_MemberOfCollection
 {
-  CIM_Collection     REF Collection;
+  CIM_Collection     REF Collection;
   CIM_ManagedElement REF Member;
 };
 ```
@@ -95,7 +100,7 @@ This property is inherited from [**CIM\_MemberOfCollection**](cim-memberofcollec
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -112,9 +117,9 @@ This property is inherited from [**CIM\_MemberOfCollection**](cim-memberofcollec
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

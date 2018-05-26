@@ -4,10 +4,13 @@ description: MMC drag-and-drop features have been enhanced in MMC 2.0. The follo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e1e2a521-7d2a-4bd1-ad14-5d662c7b105a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e1e2a521-7d2a-4bd1-ad14-5d662c7b105a
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using MMC 2.0 Drag-and-Drop Features

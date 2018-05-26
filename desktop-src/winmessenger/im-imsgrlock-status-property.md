@@ -1,8 +1,11 @@
 ---
 title: IMsgrLock Status property
 description: Returns the Lock and Key status.
-ms.assetid: 'a3691317-f5e9-44da-8db2-53a833e3e26b'
-keywords: ["Status property Windows Messenger", "Status property Windows Messenger , IMsgrLock interface", "IMsgrLock interface Windows Messenger , Status property"]
+ms.assetid: a3691317-f5e9-44da-8db2-53a833e3e26b
+keywords:
+- Status property Windows Messenger
+- Status property Windows Messenger , IMsgrLock interface
+- IMsgrLock interface Windows Messenger , Status property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMsgrLock::Status property
 
-\[**Status** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Status** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Returns the Lock and Key status.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Status(
-  [out, retval] LockStatus *peStatus
+  [out, retval] LockStatus *peStatus
 );
 ```
 
@@ -49,7 +57,7 @@ The following table lists the error codes returned by this property.
 
 
 
- 
+ 
 
 The following table lists the error codes returned by this property.
 
@@ -61,7 +69,7 @@ The following table lists the error codes returned by this property.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -69,10 +77,10 @@ The following table lists the error codes returned by this property.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Product<br/>                  | Messenger 4.5<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl> |
@@ -102,9 +110,9 @@ The following table lists the error codes returned by this property.
 [Messenger Lock and Key API](im-lock-and-key-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

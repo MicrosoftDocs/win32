@@ -1,12 +1,17 @@
 ---
-Description: 'ID3D10EffectVariable Interface has a number of methods for casting the interface into the particular type of interface you need.'
-ms.assetid: 'c0842a1d-b78c-44b2-89c7-452d54efe403'
-title: 'Specializing Interfaces (Direct3D 10)'
+Description: ID3D10EffectVariable Interface has a number of methods for casting the interface into the particular type of interface you need.
+ms.assetid: c0842a1d-b78c-44b2-89c7-452d54efe403
+title: Specializing Interfaces (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specializing Interfaces (Direct3D 10)
 
-[**ID3D10EffectVariable Interface**](id3d10effectvariable.md) has a number of methods for casting the interface into the particular type of interface you need. The methods are of the form As*Type* and include a method for each type of effect variable (such as AsBlend, AsConstantBuffer etc..)
+[**ID3D10EffectVariable Interface**](/windows/win32/D3D10Effect/nn-d3d10effect-id3d10effectvariable?branch=master) has a number of methods for casting the interface into the particular type of interface you need. The methods are of the form As*Type* and include a method for each type of effect variable (such as AsBlend, AsConstantBuffer etc..)
 
 For example, suppose you have an effect with two global variables: time and a world transform.
 
@@ -44,7 +49,7 @@ g_pfTime = (g_pEffect10->GetVariableByName("g_fTime"))->AsScalar();
 
 
 
-Interfaces that inherit from [**ID3D10EffectVariable Interface**](id3d10effectvariable.md) also have these methods, but they have been designed to return invalid objects; only calls from **ID3D10EffectVariable Interface** return valid objects. Applications can test the returned object to see if it is valid by calling [**ID3D10EffectVariable::IsValid**](id3d10effectvariable-isvalid.md).
+Interfaces that inherit from [**ID3D10EffectVariable Interface**](/windows/win32/D3D10Effect/nn-d3d10effect-id3d10effectvariable?branch=master) also have these methods, but they have been designed to return invalid objects; only calls from **ID3D10EffectVariable Interface** return valid objects. Applications can test the returned object to see if it is valid by calling [**ID3D10EffectVariable::IsValid**](/windows/win32/D3D10Effect/nf-d3d10effect-id3d10effectvariable-isvalid?branch=master).
 
 ## Related topics
 

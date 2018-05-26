@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the data buffer that stores compressed key frame animation data.'
-ms.assetid: 'cb42a4c8-6420-4694-9921-0d36cfe960e5'
-title: 'ID3DXCompressedAnimationSet::GetCompressedData method'
+---
+Description: Gets the data buffer that stores compressed key frame animation data.
+ms.assetid: cb42a4c8-6420-4694-9921-0d36cfe960e5
+title: ID3DXCompressedAnimationSetGetCompressedData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXCompressedAnimationSet::GetCompressedData method

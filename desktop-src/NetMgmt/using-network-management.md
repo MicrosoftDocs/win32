@@ -1,7 +1,12 @@
 ---
 title: Using Network Management
 description: This section discusses how to use the network management functions in your application.
-ms.assetid: '30f2beca-5e68-49f6-b7d1-e81ce587c2b7'
+ms.assetid: 30f2beca-5e68-49f6-b7d1-e81ce587c2b7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Network Management

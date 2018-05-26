@@ -1,8 +1,9 @@
 ---
 title: TB\_SETMAXTEXTROWS message
 description: Sets the maximum number of text rows displayed on a toolbar button.
-ms.assetid: 'a14d74e8-cc21-482d-9bca-38dc7c0528ec'
-keywords: ["TB_SETMAXTEXTROWS message Windows Controls"]
+ms.assetid: a14d74e8-cc21-482d-9bca-38dc7c0528ec
+keywords:
+- TB_SETMAXTEXTROWS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETMAXTEXTROWS message
@@ -45,15 +51,15 @@ To cause text to wrap, you must set the maximum button width by sending a [**TB\
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

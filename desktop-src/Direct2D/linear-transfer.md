@@ -1,8 +1,14 @@
 ---
 title: Linear transfer effect
 description: Use the linear transfer effect to map the color intensities of an image using a linear function created from a list of values you provide for each channel.
-ms.assetid: '22DC496E-2958-4726-A74D-B3DE934F507C'
-keywords: ["linear transfer effect"]
+ms.assetid: 22DC496E-2958-4726-A74D-B3DE934F507C
+keywords:
+- linear transfer effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Linear transfer effect
@@ -28,7 +34,7 @@ The CLSID for this effect is CLSID\_D2D1LinearTransfer.
 
 
 
- 
+ 
 
 
 ```C++
@@ -49,7 +55,7 @@ m_d2dContext->EndDraw();
 
 
 
-The linear transfer function is created based on the slope and y-intercept for each channel that you specify. The output pixel intensity C’ is calculated with the equation: C' = mC + B, where m is the slope of the linear function and B is the Y-intercept of the linear function.
+The linear transfer function is created based on the slope and y-intercept for each channel that you specify. The output pixel intensity C  is calculated with the equation: C' = mC + B, where m is the slope of the linear function and B is the Y-intercept of the linear function.
 
 This effect works on straight and premultiplied alpha images. The effect outputs premultiplied alpha bitmaps.
 
@@ -61,7 +67,7 @@ This effect works on straight and premultiplied alpha images. The effect outputs
 > -   The Y-intercept is not bounded and is unitless.
 > -   The slope is not bounded and is unitless.
 
- 
+ 
 
 
 
@@ -83,7 +89,7 @@ This effect works on straight and premultiplied alpha images. The effect outputs
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -91,25 +97,25 @@ This effect works on straight and premultiplied alpha images. The effect outputs
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

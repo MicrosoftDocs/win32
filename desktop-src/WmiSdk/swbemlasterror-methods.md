@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemLastError object exposes the following methods.'
+Description: The SWbemLastError object exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'B05393B8-9C04-4DD4-AF2A-6A897677C739'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: B05393B8-9C04-4DD4-AF2A-6A897677C739
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemLastError Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemLastError Methods

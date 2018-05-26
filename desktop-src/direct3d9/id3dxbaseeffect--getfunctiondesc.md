@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a function description.'
-ms.assetid: 'a1a0ccf4-2428-4e60-9af0-07dc2132a367'
-title: 'ID3DXBaseEffect::GetFunctionDesc method'
+---
+Description: Gets a function description.
+ms.assetid: a1a0ccf4-2428-4e60-9af0-07dc2132a367
+title: ID3DXBaseEffectGetFunctionDesc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetFunctionDesc method

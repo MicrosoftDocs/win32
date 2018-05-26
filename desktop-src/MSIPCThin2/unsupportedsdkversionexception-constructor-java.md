@@ -4,17 +4,21 @@ description: Initializes a new instance of the UnsupportedSDKVersionException cl
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd04150cb-65f6-491b-b6aa-54931ccd2f62'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: d04150cb-65f6-491b-b6aa-54931ccd2f62
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UnsupportedSDKVersionException(String) constructor"]
+keywords:
+- UnsupportedSDKVersionException(String) constructor
 topic_type:
 - apiref
 api_name:
 - UnsupportedSDKVersionException(String) constructor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UnsupportedSDKVersionException(String) constructor
@@ -37,7 +41,7 @@ public UnsupportedSDKVersionException(String applicationName)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -47,9 +51,9 @@ public UnsupportedSDKVersionException(String applicationName)
 
 UnsupportedSDKVersionException.java
 
- 
+ 
 
- 
+ 
 
 
 

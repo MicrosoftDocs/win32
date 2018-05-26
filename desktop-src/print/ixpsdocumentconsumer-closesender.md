@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CloseSender method tells the Pipeline Manager that the filter is done sending XPS parts.'
-ms.assetid: 'b9a860b1-d169-44b6-8dbd-0d26b050b7b0'
-title: 'IXpsDocumentConsumer::CloseSender method'
+---
+Description: The CloseSender method tells the Pipeline Manager that the filter is done sending XPS parts.
+ms.assetid: b9a860b1-d169-44b6-8dbd-0d26b050b7b0
+title: IXpsDocumentConsumerCloseSender method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsDocumentConsumer::CloseSender method

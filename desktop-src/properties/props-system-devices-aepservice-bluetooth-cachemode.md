@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth caching mode for the query.'
-ms.assetid: 'fb23c8ff-a878-4c79-bce0-9e82b8947d1f'
-title: 'System.Devices.AepService.Bluetooth.CacheMode'
+Description: Bluetooth caching mode for the query.
+ms.assetid: fb23c8ff-a878-4c79-bce0-9e82b8947d1f
+title: System.Devices.AepService.Bluetooth.CacheMode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepService.Bluetooth.CacheMode

@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the threshold at which the encoder considers a video field redundant.'
-ms.assetid: 'db6c2f0e-f451-4d2d-984f-b507083e8358'
+Description: Sets the threshold at which the encoder considers a video field redundant.
+ms.assetid: db6c2f0e-f451-4d2d-984f-b507083e8358
 title: AVEncVideoInverseTelecineThreshold property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncVideoInverseTelecineThreshold property
@@ -31,7 +36,7 @@ The value of this property has the following range.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,8 +48,8 @@ Set this property if the encoder is performing inverse telecine with an analog v
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -56,12 +61,12 @@ Set this property if the encoder is performing inverse telecine with an analog v
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

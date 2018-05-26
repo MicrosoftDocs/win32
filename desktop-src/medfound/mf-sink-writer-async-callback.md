@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a pointer to the application's callback interface for the sink writer.'
-ms.assetid: '22df1fa0-469d-4501-aaf0-a0379b7ed096'
-title: 'MF\_SINK\_WRITER\_ASYNC\_CALLBACK attribute'
+---
+Description: Contains a pointer to the applications callback interface for the sink writer.
+ms.assetid: 22df1fa0-469d-4501-aaf0-a0379b7ed096
+title: MF\_SINK\_WRITER\_ASYNC\_CALLBACK attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SINK\_WRITER\_ASYNC\_CALLBACK attribute
@@ -10,22 +15,22 @@ Contains a pointer to the application's callback interface for the sink writer.
 
 ## Data type
 
-**[**IMFSinkWriterCallback**](imfsinkwritercallback.md)\*** stored as **IUnknown\***
+**[**IMFSinkWriterCallback**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsinkwritercallback?branch=master)\*** stored as **IUnknown\***
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUnknown**](imfattributes-getunknown.md).
+To get this attribute, call [**IMFAttributes::GetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getunknown?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUnknown**](imfattributes-setunknown.md).
+To set this attribute, call [**IMFAttributes::SetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setunknown?branch=master).
 
 ## Remarks
 
-The value of this attribute is a pointer to the application's [**IMFSinkWriterCallback**](imfsinkwritercallback.md) interface.
+The value of this attribute is a pointer to the application's [**IMFSinkWriterCallback**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsinkwritercallback?branch=master) interface.
 
 Use this attribute with the following functions:
 
--   [**MFCreateSinkWriterFromMediaSink**](mfcreatesinkwriterfrommediasink.md)
--   [**MFCreateSinkWriterFromURL**](mfcreatesinkwriterfromurl.md)
+-   [**MFCreateSinkWriterFromMediaSink**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfrommediasink?branch=master)
+-   [**MFCreateSinkWriterFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfromurl?branch=master)
 
 ## Requirements
 

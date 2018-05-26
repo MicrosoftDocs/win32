@@ -1,7 +1,12 @@
 ---
 title: Custom Draw
 description: Custom draw is not a common control; it is a service that many common controls provide.
-ms.assetid: 'dd104661-1e0c-4569-9753-817bcded1894'
+ms.assetid: dd104661-1e0c-4569-9753-817bcded1894
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Draw
@@ -21,7 +26,7 @@ This section contains information about the programming elements used with custo
 
 
 
- 
+ 
 
 ## Notifications
 
@@ -33,7 +38,7 @@ This section contains information about the programming elements used with custo
 
 
 
- 
+ 
 
 ## Structures
 
@@ -41,15 +46,15 @@ This section contains information about the programming elements used with custo
 
 | Topic                                | Contents                                                                                              |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [**NMCUSTOMDRAW**](nmcustomdraw.md) | Contains information specific to an [NM\_CUSTOMDRAW](nm-customdraw.md) notification code.<br/> |
+| [**NMCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmcustomdrawinfo?branch=master) | Contains information specific to an [NM\_CUSTOMDRAW](nm-customdraw.md) notification code.<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

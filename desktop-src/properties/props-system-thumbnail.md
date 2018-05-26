@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the thumbnail in VT\_CF format.'
-ms.assetid: '9fa0d349-a793-435f-af34-270bdd0ae3ad'
-title: 'System.Thumbnail'
+Description: Represents the thumbnail in VT\_CF format.
+ms.assetid: 9fa0d349-a793-435f-af34-270bdd0ae3ad
+title: System.Thumbnail
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Thumbnail

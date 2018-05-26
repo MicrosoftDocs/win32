@@ -1,13 +1,16 @@
 ---
-Description: 'This example uses DSDE to export employee data to a file from the fabrikam.com Active Directory.'
+Description: This example uses DSDE to export employee data to a file from the fabrikam.com Active Directory.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '53aeeb04-49fb-4f0c-899e-3285d09c9500'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 53aeeb04-49fb-4f0c-899e-3285d09c9500
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 title: Exporting Active Directory Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Exporting Active Directory Objects

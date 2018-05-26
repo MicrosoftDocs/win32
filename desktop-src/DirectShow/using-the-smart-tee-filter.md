@@ -1,7 +1,12 @@
 ---
 Description: Using the Smart Tee Filter
-ms.assetid: 'd2828269-6841-41a8-8d45-f864c7e85857'
+ms.assetid: d2828269-6841-41a8-8d45-f864c7e85857
 title: Using the Smart Tee Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Smart Tee Filter
@@ -10,7 +15,7 @@ If a capture filter has separate capture and preview pins, you can capture from 
 
 ![capture graph with smart tee filter](images/vidcap05.png)
 
-The [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) method automatically inserts the Smart Tee Filter if it is required. However, if you use **IGraphBuilder** methods to build your graph, and not **RenderStream**, you may need to insert the Smart Tee filter.
+The [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) method automatically inserts the Smart Tee Filter if it is required. However, if you use **IGraphBuilder** methods to build your graph, and not **RenderStream**, you may need to insert the Smart Tee filter.
 
 Before you render pins on the capture filter, check whether the filter has a preview pin or a video port pin. If it does not, and you wish to preview, add the Smart Tee filter to the graph and connect it to the capture pin on the capture filter.
 

@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine Display property
 description: The Display property contains the video display for the virtual machine.
-ms.assetid: 'd8ec1d5f-1880-41d8-bb6a-7c907b2aa8ed'
-keywords: ["Display property Virtual Server", "Display property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , Display property", "Display property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , Display property"]
+ms.assetid: d8ec1d5f-1880-41d8-bb6a-7c907b2aa8ed
+keywords:
+- Display property Virtual Server
+- Display property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , Display property
+- Display property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , Display property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Display property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Display(
-  [out] IVMDisplay **display
+  [out] IVMDisplay **display
 );
 ```
 
@@ -93,8 +103,8 @@ WScript.Echo "Display Dimensions: " & objDisplay.Width & "x" & objDisplay.Height
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -106,9 +116,9 @@ WScript.Echo "Display Dimensions: " & objDisplay.Width & "x" & objDisplay.Height
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

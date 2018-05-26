@@ -1,8 +1,11 @@
 ---
 title: ImportStoreWithFlags method of the BcdStore class
 description: Marks the specified store as the system store and optionally reinitializes boot entries in NVRAM on a computer with Unified Extensible Firmware Interface (UEFI) firmware.
-ms.assetid: '2807eb0f-8d4b-4807-bb91-c527f0ff660f'
-keywords: ["ImportStoreWithFlags method Boot Config", "ImportStoreWithFlags method Boot Config , BcdStore class", "BcdStore class Boot Config , ImportStoreWithFlags method"]
+ms.assetid: 2807eb0f-8d4b-4807-bb91-c527f0ff660f
+keywords:
+- ImportStoreWithFlags method Boot Config
+- ImportStoreWithFlags method Boot Config , BcdStore class
+- BcdStore class Boot Config , ImportStoreWithFlags method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImportStoreWithFlags method of the BcdStore class
@@ -22,8 +30,8 @@ Marks the specified store as the system store and optionally reinitializes boot 
 
 ```mof
 boolean ImportStoreWithFlags(
-  [in]           string File,
-  [in, optional] uint32 Flags
+  [in]           string File,
+  [in, optional] uint32 Flags
 );
 ```
 
@@ -53,7 +61,7 @@ On computers with UEFI firmware, this parameter can be set with zero or the foll
 
 
 
- 
+ 
 
 On computers without UEFI firmware, the *Flags* parameter is ignored.
 
@@ -65,8 +73,8 @@ On computers without UEFI firmware, the *Flags* parameter is ignored.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1 \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista with SP1 \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -85,9 +93,9 @@ On computers without UEFI firmware, the *Flags* parameter is ignored.
 [**ImportStore**](importstore-bcdstore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

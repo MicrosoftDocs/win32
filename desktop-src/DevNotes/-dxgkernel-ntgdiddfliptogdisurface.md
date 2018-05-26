@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies the driver when Microsoft DirectDraw is flipping to or from a Windows Graphics Device Interface (GDI) surface.'
-ms.assetid: 'e79be33a-24bc-477b-bc67-395fff74309c'
+---
+Description: Notifies the driver when Microsoft DirectDraw is flipping to or from a Windows Graphics Device Interface (GDI) surface.
+ms.assetid: e79be33a-24bc-477b-bc67-395fff74309c
 title: NtGdiDdFlipToGDISurface function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdFlipToGDISurface function

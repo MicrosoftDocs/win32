@@ -4,11 +4,13 @@ description: The abstract base class for all concrete raw performance counter cl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f08de9dc-6ca2-4166-b531-0e6fd0e3883b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: f08de9dc-6ca2-4166-b531-0e6fd0e3883b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_PerfRawData class", "Win32_PerfRawData class, described"]
+keywords:
+- Win32_PerfRawData class
+- Win32_PerfRawData class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - WmiPerfInst.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PerfRawData class
@@ -239,8 +244,8 @@ All classes derived from [**Win32\_Perf**](win32-perf-wmiprov.md) are designed t
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                             |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                             |
 | Namespace<br/>                | Root\\WMI<br/>                                                                       |
 | MOF<br/>                      | <dl> <dt>Wmi.mof</dt> </dl>         |
 | DLL<br/>                      | <dl> <dt>WmiPerfInst.dll</dt> </dl> |
@@ -266,9 +271,9 @@ All classes derived from [**Win32\_Perf**](win32-perf-wmiprov.md) are designed t
 [Accessing Performance Data in Script](https://msdn.microsoft.com/library/aa384728)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

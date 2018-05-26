@@ -1,8 +1,13 @@
 ---
 title: IVMSCSIController Configure method
 description: The Configure method configures the SCSI controller to be used on an independent or on a shared bus.
-ms.assetid: 'b8b484f4-31b0-4a42-ac91-9a1f48916d6a'
-keywords: ["Configure method Virtual Server", "Configure method Virtual Server , IVMSCSIController interface", "IVMSCSIController interface Virtual Server , Configure method", "Configure method Virtual Server , VMSCSIController interface", "VMSCSIController interface Virtual Server , Configure method"]
+ms.assetid: b8b484f4-31b0-4a42-ac91-9a1f48916d6a
+keywords:
+- Configure method Virtual Server
+- Configure method Virtual Server , IVMSCSIController interface
+- IVMSCSIController interface Virtual Server , Configure method
+- Configure method Virtual Server , VMSCSIController interface
+- VMSCSIController interface Virtual Server , Configure method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSCSIController::Configure method
@@ -23,8 +33,8 @@ The **Configure** method configures the SCSI controller to be used on an indepen
 
 ```C++
 HRESULT Configure(
-  [in] VARIANT_BOOL isBusShared,
-  [in] long         SCSIID
+  [in] VARIANT_BOOL isBusShared,
+  [in] long         SCSIID
 );
 ```
 
@@ -66,7 +76,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,8 +90,8 @@ When virtual machines are clustered, the respective SCSI controllers of each vir
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -93,9 +103,9 @@ When virtual machines are clustered, the respective SCSI controllers of each vir
 [**IVMSCSIController**](ivmscsicontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '6158551c-d073-416b-adc3-adc6e335f2d5'
-title: 'System.Contact.DisplayMobilePhoneNumbers'
+Description: .
+ms.assetid: 6158551c-d073-416b-adc3-adc6e335f2d5
+title: System.Contact.DisplayMobilePhoneNumbers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.DisplayMobilePhoneNumbers

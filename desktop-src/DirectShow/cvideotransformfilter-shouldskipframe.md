@@ -1,7 +1,12 @@
 ---
-Description: 'The ShouldSkipFrame method determines whether the filter should drop a specified sample.'
-ms.assetid: '49f86f7d-28b1-443e-a238-692da96d60fb'
-title: 'CVideoTransformFilter.ShouldSkipFrame method'
+Description: The ShouldSkipFrame method determines whether the filter should drop a specified sample.
+ms.assetid: 49f86f7d-28b1-443e-a238-692da96d60fb
+title: CVideoTransformFilter.ShouldSkipFrame method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CVideoTransformFilter.ShouldSkipFrame method
@@ -13,7 +18,7 @@ The `ShouldSkipFrame` method determines whether the filter should drop a specifi
 
 ```C++
 BOOL ShouldSkipFrame(
-   IMediaSample *pIn
+   IMediaSample *pIn
 );
 ```
 
@@ -26,7 +31,7 @@ BOOL ShouldSkipFrame(
 *pIn* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface of the sample.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface of the sample.
 
 </dd> </dl>
 
@@ -69,9 +74,9 @@ Once the filter drops a frame, it continues to drop frames until it reaches the 
 [**CVideoTransformFilter Class**](cvideotransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

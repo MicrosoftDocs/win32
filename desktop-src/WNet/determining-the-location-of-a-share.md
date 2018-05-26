@@ -1,14 +1,19 @@
 ---
 title: Determining the Location of a Share
 description: The following example demonstrates how to call the WNetGetUniversalName function to determine the location of a share on a redirected drive.
-ms.assetid: 'ce57fecb-8b14-4514-a3fd-45d7ef6eee89'
+ms.assetid: ce57fecb-8b14-4514-a3fd-45d7ef6eee89
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining the Location of a Share
 
 The following example demonstrates how to call the [**WNetGetUniversalName**](wnetgetuniversalname.md) function to determine the location of a share on a redirected drive.
 
-First the code sample calls the **WNetGetUniversalName** function, specifying the [**UNIVERSAL\_NAME\_INFO**](universal-name-info-str.md) information level to retrieve a pointer to a Universal Naming Convention (UNC) name string for the resource. Then the sample calls **WNetGetUniversalName** a second time, specifying the [**REMOTE\_NAME\_INFO**](remote-name-info-str.md) information level to retrieve two additional network connection information strings. If the calls are successful, the sample prints the location of the share.
+First the code sample calls the **WNetGetUniversalName** function, specifying the [**UNIVERSAL\_NAME\_INFO**](/windows/win32/Winnetwk/ns-winnetwk-_universal_name_infoa?branch=master) information level to retrieve a pointer to a Universal Naming Convention (UNC) name string for the resource. Then the sample calls **WNetGetUniversalName** a second time, specifying the [**REMOTE\_NAME\_INFO**](/windows/win32/Winnetwk/ns-winnetwk-_remote_name_infoa?branch=master) information level to retrieve two additional network connection information strings. If the calls are successful, the sample prints the location of the share.
 
 To test the following code sample, perform the following steps:
 

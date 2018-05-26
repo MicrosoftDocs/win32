@@ -4,17 +4,22 @@ description: This constructed attribute contains the key identifier for the curr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '82e78b10-d10c-4fb8-a4ee-5f775d4dbdf2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 82e78b10-d10c-4fb8-a4ee-5f775d4dbdf2
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-ManagedPasswordId attribute AD Schema", "msDS-ManagedPasswordId attribute AD Schema"]
+keywords:
+- ms-DS-ManagedPasswordId attribute AD Schema
+- msDS-ManagedPasswordId attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-ManagedPasswordId
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-ManagedPasswordId attribute
@@ -38,7 +43,7 @@ This constructed attribute contains the key identifier for the current managed p
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ This constructed attribute contains the key identifier for the current managed p
 
 
 
- 
+ 
 
- 
+ 
 
 
 

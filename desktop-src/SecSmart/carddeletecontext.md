@@ -1,8 +1,9 @@
 ---
 title: CardDeleteContext function
 description: Ends communication between the Microsoft Base Smart Card Cryptographic Service Provider (CSP) or smart card key storage provider (KSP) and the smart card module and cleans up resources that were allocated by the smart card module.
-ms.assetid: '67fde63f-ef6d-49e9-be5d-1a8b0f526e84'
-keywords: ["CardDeleteContext function Security"]
+ms.assetid: 67fde63f-ef6d-49e9-be5d-1a8b0f526e84
+keywords:
+- CardDeleteContext function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardDeleteContext function
@@ -24,7 +30,7 @@ The **CardDeleteContext** function, defined by a smart card module, ends communi
 
 ```C++
 DWORD WINAPI CardDeleteContext(
-  _In_ PCARD_DATA pCardData
+  _In_ PCARD_DATA pCardData
 );
 ```
 
@@ -53,8 +59,8 @@ If the function fails, it returns a nonzero value.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -69,9 +75,9 @@ If the function fails, it returns a nonzero value.
 [**CardAcquireContext**](cardacquirecontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

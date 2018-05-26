@@ -1,13 +1,16 @@
 ---
-Description: 'The IsChildOf method determines if a request is a child of a specified request (pId).'
+Description: The IsChildOf method determines if a request is a child of a specified request (pId).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7be52496-7dcf-41c0-853a-859810a57d21'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7be52496-7dcf-41c0-853a-859810a57d21
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'IWbemCausalityAccess::IsChildOf method'
+title: IWbemCausalityAccessIsChildOf method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IWbemCausalityAccess::IsChildOf method
@@ -19,7 +22,7 @@ The **IsChildOf** method determines if a request is a child of a specified reque
 
 ```C++
 HRESULT IsChildOf(
-  [in] REQUESTID pId
+  [in] REQUESTID pId
 );
 ```
 
@@ -46,8 +49,8 @@ Returns successful if the specified request is a child of the request calling th
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemint.h</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Fastprox.dll</dt> </dl> |
 
@@ -60,9 +63,9 @@ Returns successful if the specified request is a child of the request calling th
 [**IWbemCausalityAccess**](iwbemcausalityaccess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

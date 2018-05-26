@@ -1,7 +1,12 @@
 ---
-Description: 'Certificate Services supports the renewal of a certification authority (CA).'
-ms.assetid: 'b6c76642-9a23-471e-af08-58e91d778f09'
+Description: Certificate Services supports the renewal of a certification authority (CA).
+ms.assetid: b6c76642-9a23-471e-af08-58e91d778f09
 title: Certification Authority Renewal
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certification Authority Renewal
@@ -35,7 +40,7 @@ Although the CA certificate index and suffix are incremented by one each time th
 
 The CRL index is directly tied to the key index, which is set to the CA certificate index only when a new key pair is used for the renewal. After the first renewal (which used a new key pair), the index of the CRL and key is set to 1, and the CRL and key container name suffix is "(1)". After the second renewal, however, the index of the CRL and key remains 1, and the CRL and key container name suffix also remains "(1)"; this is because the second renewal used the existing key pair and only one CRL is issued for each CA key pair.
 
-You can retrieve the indexed CA certificates and CRLs by calling the **GetCertificateProperty** method (in both the [**ICertServerExit**](icertserverexit.md) and [**ICertServerPolicy**](icertserverpolicy.md) interfaces). When you retrieve certain properties related to the CA certificate or CRL, you can append the CA certificate's zero-based index to the property names. For example, to retrieve the CRL index that corresponds to the CA's third certificate, pass the property "CRLIndex.2" to [**ICertServerPolicy::GetCertificateProperty**](icertserverpolicy-getcertificateproperty.md); for the table, the retrieved "CRLIndex.2" property value would be 1. A property called "CertCount" can be used to determine the number of times the CA has been issued a CA certificate.
+You can retrieve the indexed CA certificates and CRLs by calling the **GetCertificateProperty** method (in both the [**ICertServerExit**](/windows/win32/Certif/nn-certif-icertserverexit?branch=master) and [**ICertServerPolicy**](/windows/win32/Certif/nn-certif-icertserverpolicy?branch=master) interfaces). When you retrieve certain properties related to the CA certificate or CRL, you can append the CA certificate's zero-based index to the property names. For example, to retrieve the CRL index that corresponds to the CA's third certificate, pass the property "CRLIndex.2" to [**ICertServerPolicy::GetCertificateProperty**](/windows/win32/Certif/nf-certif-icertserverpolicy-getcertificateproperty?branch=master); for the table, the retrieved "CRLIndex.2" property value would be 1. A property called "CertCount" can be used to determine the number of times the CA has been issued a CA certificate.
 
 CA certificates and CRLs contain an extension that provides information about the certificate and key index. The extension is defined in Wincrypt.h as szOID\_CERTSRV\_CA\_VERSION with a value of "1.3.6.1.4.1.311.21.1". The extension data is a **DWORD** value (encoded as X509\_INTEGER in the extension); the low 16 bits are the certificate index, and the high 16 bits are the key index.
 
@@ -45,10 +50,10 @@ The initial installation of a CA produces a certificate index of zero and a key 
 
 <dl> <dt>
 
-[**ICertServerPolicy::GetCertificateProperty**](icertserverpolicy-getcertificateproperty.md)
+[**ICertServerPolicy::GetCertificateProperty**](/windows/win32/Certif/nf-certif-icertserverpolicy-getcertificateproperty?branch=master)
 </dt> <dt>
 
-[**ICertServerExit::GetCertificateProperty**](icertserverexit-getcertificateproperty.md)
+[**ICertServerExit::GetCertificateProperty**](/windows/win32/Certif/nf-certif-icertserverexit-getcertificateproperty?branch=master)
 </dt> </dl>
 
  

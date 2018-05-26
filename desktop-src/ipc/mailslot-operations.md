@@ -1,7 +1,12 @@
 ---
-Description: 'Descriptions of functions to use when working with mailslots, clients and servers.'
-ms.assetid: '40758d5e-8538-47d9-b8ca-8de5b053ee8b'
+Description: Descriptions of functions to use when working with mailslots, clients and servers.
+ms.assetid: 40758d5e-8538-47d9-b8ca-8de5b053ee8b
 title: Mailslot Operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mailslot Operations
@@ -16,9 +21,9 @@ Mailslot servers have exclusive use of three functions, as shown in the followin
 
 | Function                                   | Description                                                                                                                                                                                                  |
 |--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateMailslot**](createmailslot.md)   | Creates a mailslot and returns a mailslot handle.                                                                                                                                                            |
-| [**GetMailslotInfo**](getmailslotinfo.md) | Retrieves the maximum message size, the mailslot size, the size of the next message in the mailslot, the number of messages in the mailslot, and the amount of time a read operation can wait for a message. |
-| [**SetMailslotInfo**](setmailslotinfo.md) | Changes the read time-out for a mailslot.                                                                                                                                                                    |
+| [**CreateMailslot**](/windows/win32/Winbase/nf-winbase-createmailslota?branch=master)   | Creates a mailslot and returns a mailslot handle.                                                                                                                                                            |
+| [**GetMailslotInfo**](/windows/win32/Winbase/nf-winbase-getmailslotinfo?branch=master) | Retrieves the maximum message size, the mailslot size, the size of the next message in the mailslot, the number of messages in the mailslot, and the amount of time a read operation can wait for a message. |
+| [**SetMailslotInfo**](/windows/win32/Winbase/nf-winbase-setmailslotinfo?branch=master) | Changes the read time-out for a mailslot.                                                                                                                                                                    |
 
 
 

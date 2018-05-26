@@ -1,12 +1,18 @@
 ---
 title: Texture2DArray GatherCmpBlue methods
 description: Samples and compares a Texture2DArray and returns the blue component.
-ms.assetid: '5fa23e27-368a-4c55-b6d6-33506c932a43'
-keywords: ["GatherCmpBlue methods HLSL"]
+ms.assetid: 5fa23e27-368a-4c55-b6d6-33506c932a43
+keywords:
+- GatherCmpBlue methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DArray::GatherCmpBlue methods
@@ -33,9 +39,9 @@ Samples and compares a [**Texture2DArray**](sm5-object-texture2darray.md) and re
 [Texture2DArray](sm5-object-texture2darray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

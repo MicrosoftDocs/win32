@@ -1,7 +1,12 @@
 ---
-Description: 'Sent by the VMR-7 and the VMR-9 when it was unable to accept a dynamic format change request from the upstream decoder.'
-ms.assetid: '0c865853-2484-4833-9c92-3d6452b655f1'
-title: 'EC\_VMR\_RECONNECTION\_FAILED'
+Description: Sent by the VMR-7 and the VMR-9 when it was unable to accept a dynamic format change request from the upstream decoder.
+ms.assetid: 0c865853-2484-4833-9c92-3d6452b655f1
+title: EC\_VMR\_RECONNECTION\_FAILED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_VMR\_RECONNECTION\_FAILED
@@ -15,7 +20,7 @@ Sent by the VMR-7 and the VMR-9 when it was unable to accept a dynamic format ch
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-(**HRESULT**) Status code returned from [**IPin::ReceiveConnection**](ipin-receiveconnection.md) on the VMR's input pin that failed the reconnection.
+(**HRESULT**) Status code returned from [**IPin::ReceiveConnection**](/windows/win32/Strmif/nf-strmif-ipin-receiveconnection?branch=master) on the VMR's input pin that failed the reconnection.
 
 </dd> <dt>
 
@@ -50,9 +55,9 @@ This event is forwarded to applications.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

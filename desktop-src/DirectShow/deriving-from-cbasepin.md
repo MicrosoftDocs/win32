@@ -1,7 +1,12 @@
 ---
 Description: Deriving from CBasePin
-ms.assetid: 'ef453bec-e5a9-4185-94e3-f934e748b11f'
+ms.assetid: ef453bec-e5a9-4185-94e3-f934e748b11f
 title: Deriving from CBasePin
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deriving from CBasePin
@@ -22,7 +27,7 @@ You will probably need to override these additional methods:
 -   [**CBasePin::Notify**](cbasepin-notify.md)
 -   [**CBasePin::Run**](cbasepin-run.md)
 
-Finally, you must must implement the [**IPin::BeginFlush**](ipin-beginflush.md) and [**IPin::EndFlush**](ipin-endflush.md) methods.
+Finally, you must must implement the [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) and [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) methods.
 
 Some of these methods are implemented in base classes that derive from **CBasePin**, such as [**CBaseInputPin**](cbaseinputpin.md) and [**CBaseOutputPin**](cbaseoutputpin.md).
 

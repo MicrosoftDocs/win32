@@ -1,7 +1,12 @@
 ---
 title: MSVidStreamBufferSource
 description: MSVidStreamBufferSource
-ms.assetid: '12160959-820b-4534-9392-a13ad229317d'
+ms.assetid: 12160959-820b-4534-9392-a13ad229317d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSVidStreamBufferSource
@@ -14,8 +19,8 @@ The **MSVidStreamBufferSource** object represents a stream buffer source device.
 
 |                           |                                                                                                                                                  |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| Interfaces                | [**IMSVidStreamBufferSource**](imsvidstreambuffersource.md)                                                                                     |
-| Outgoing Event Interfaces | [**IMSVidStreamBufferSourceEvent**](imsvidstreambuffersourceevent.md), [**IMSVidStreamBufferSourceEvent2**](imsvidstreambuffersourceevent2.md) |
+| Interfaces                | [**IMSVidStreamBufferSource**](/windows/win32/segment/nn-segment-imsvidstreambuffersource?branch=master)                                                                                     |
+| Outgoing Event Interfaces | [**IMSVidStreamBufferSourceEvent**](/windows/win32/segment/nn-segment-imsvidstreambuffersourceevent?branch=master), [**IMSVidStreamBufferSourceEvent2**](/windows/win32/segment/nn-segment-imsvidstreambuffersourceevent2?branch=master) |
 
 
 

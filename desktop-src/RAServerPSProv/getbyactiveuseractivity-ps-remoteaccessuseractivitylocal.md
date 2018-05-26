@@ -2,13 +2,16 @@
 title: GetByActiveUserActivity method of the PS\_RemoteAccessUserActivityLocal class
 description: This cmdlet displays the following1. Remote user activity over an active connection2. Remote user activity based on accounting data.
 audience: developer
-ms.assetid: 'e9a1d167-6dd2-4a80-a759-25160bf7e377'
-ms.prod: 'windows-server-dev'
+ms.assetid: e9a1d167-6dd2-4a80-a759-25160bf7e377
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetByActiveUserActivity method", "GetByActiveUserActivity method, PS_RemoteAccessUserActivityLocal class", "PS_RemoteAccessUserActivityLocal class, GetByActiveUserActivity method"]
+keywords:
+- GetByActiveUserActivity method
+- GetByActiveUserActivity method, PS_RemoteAccessUserActivityLocal class
+- PS_RemoteAccessUserActivityLocal class, GetByActiveUserActivity method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByActiveUserActivity method of the PS\_RemoteAccessUserActivityLocal class
@@ -28,9 +34,9 @@ This cmdlet displays the following1. Remote user activity over an active connect
 
 ```mof
 uint32 GetByActiveUserActivity(
-  [in]  string                        UserName,
-  [in]  string                        HostIPAddress,
-  [out] RemoteAccessUserActivityLocal cmdletOutput[]
+  [in]  string                        UserName,
+  [in]  string                        HostIPAddress,
+  [out] RemoteAccessUserActivityLocal cmdletOutput[]
 );
 ```
 
@@ -68,7 +74,7 @@ On success, contains an array of [**RemoteAccessUserActivityLocal**](ps-remoteac
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ On success, contains an array of [**RemoteAccessUserActivityLocal**](ps-remoteac
 [**PS\_RemoteAccessUserActivityLocal**](ps-remoteaccessuseractivitylocal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

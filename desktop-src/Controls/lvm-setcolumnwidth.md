@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETCOLUMNWIDTH message
 description: Changes the width of a column in report-view mode or the width of all columns in list-view mode. You can send this message explicitly or use the ListView\_SetColumnWidth macro.
-ms.assetid: '309aebfb-9fed-4c77-acbb-ea905b32b0e2'
-keywords: ["LVM_SETCOLUMNWIDTH message Windows Controls"]
+ms.assetid: 309aebfb-9fed-4c77-acbb-ea905b32b0e2
+keywords:
+- LVM_SETCOLUMNWIDTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETCOLUMNWIDTH message
 
-Changes the width of a column in report-view mode or the width of all columns in list-view mode. You can send this message explicitly or use the [**ListView\_SetColumnWidth**](listview-setcolumnwidth.md) macro.
+Changes the width of a column in report-view mode or the width of all columns in list-view mode. You can send this message explicitly or use the [**ListView\_SetColumnWidth**](/windows/win32/Commctrl/nf-commctrl-listview_setcolumnwidth?branch=master) macro.
 
 ## Parameters
 
@@ -42,7 +48,7 @@ New width of the column, in pixels. For report-view mode, the following special 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -60,15 +66,15 @@ Assume that you have a 2-column list-view control with a width of 500 pixels. If
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

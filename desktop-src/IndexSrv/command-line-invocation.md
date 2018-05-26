@@ -1,7 +1,12 @@
 ---
 title: Command-Line Invocation
 description: Command-Line Invocation
-ms.assetid: 'eda58e92-1092-4817-8599-2622eb0f81bc'
+ms.assetid: eda58e92-1092-4817-8599-2622eb0f81bc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command-Line Invocation

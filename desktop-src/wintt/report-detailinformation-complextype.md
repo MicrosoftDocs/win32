@@ -1,14 +1,20 @@
 ---
 title: DetailedInformation Complex Type
 description: Defines the collection of custom details that the package author added to the report.
-ms.assetid: '38530a3b-28af-4987-9f37-98f5b21a0f56'
-keywords: ["DetailedInformation complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 38530a3b-28af-4987-9f37-98f5b21a0f56
+keywords:
+- DetailedInformation complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - DetailedInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DetailedInformation Complex Type
@@ -47,14 +53,14 @@ Where the custom detail is included in the report depends on how and where the p
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

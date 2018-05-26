@@ -1,7 +1,12 @@
 ---
-Description: 'Home address street name of the contact.'
-ms.assetid: '5cc2c55e-1c1b-4f1d-8d40-eb7cbae930db'
-title: 'System.Contact.HomeAddressStreet'
+Description: Home address street name of the contact.
+ms.assetid: 5cc2c55e-1c1b-4f1d-8d40-eb7cbae930db
+title: System.Contact.HomeAddressStreet
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeAddressStreet

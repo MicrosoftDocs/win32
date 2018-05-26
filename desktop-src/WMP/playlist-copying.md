@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.copying
 description: The copying attribute retrieves a value indicating whether the PLAYLIST element is in the act of copying.
-ms.assetid: '60f21f4a-51a1-43cd-9bfa-6bff19214a32'
-keywords: ["PLAYLIST.copying Windows Media Player"]
+ms.assetid: 60f21f4a-51a1-43cd-9bfa-6bff19214a32
+keywords:
+- PLAYLIST.copying Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.copying
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.copying
@@ -32,7 +38,7 @@ This attribute is a read-only **Boolean**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -57,9 +63,9 @@ This attribute is a read-only **Boolean**.
 [**PLAYLIST.copy**](playlist-copy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

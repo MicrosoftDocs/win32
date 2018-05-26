@@ -1,7 +1,12 @@
-﻿---
-Description: 'This MSIscsiInitiator\_PersistentLoginClass structure defines a persistent logon that the operating system initiates automatically when the computer boots up.'
-ms.assetid: '90009105-7efc-47bd-9bdb-f11a1a405e1c'
-title: 'MSIscsiInitiator\_PersistentLoginClass class'
+---
+Description: This MSIscsiInitiator\_PersistentLoginClass structure defines a persistent logon that the operating system initiates automatically when the computer boots up.
+ms.assetid: 90009105-7efc-47bd-9bdb-f11a1a405e1c
+title: MSIscsiInitiator\_PersistentLoginClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_PersistentLoginClass class

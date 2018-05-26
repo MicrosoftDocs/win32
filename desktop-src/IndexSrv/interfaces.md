@@ -1,7 +1,12 @@
 ---
 title: Interfaces
 description: Interfaces
-ms.assetid: '89d32113-1b42-4e6e-97e7-3f44f7c2b073'
+ms.assetid: 89d32113-1b42-4e6e-97e7-3f44f7c2b073
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interfaces
@@ -15,10 +20,10 @@ Indexing Service provides Component Object Model (COM) interfaces to facilitate 
 
 -   [**IAdminIndexServer**](iadminindexserver.md)
 -   [**ICatAdm**](icatadm.md)
--   [**IFilter**](ifilter.md)
+-   [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master)
 -   [**IixssoQuery**](iixssoquery.md)
 -   [**IixssoUtil**](iixssoutil.md)
--   [**IPhraseSink**](iphrasesink.md)
+-   [**IPhraseSink**](/windows/win32/Indexsrv/nn-indexsrv-iphrasesink?branch=master)
 -   [**IScopeAdm**](iscopeadm.md)
 -   [**IStemmer**](istemmer.md)
 -   [**IWordBreaker**](iwordbreaker.md)

@@ -1,7 +1,12 @@
 ---
 Description: Loading Language Resources
-ms.assetid: '2655b2a3-2926-43f6-aef4-8b756c02a162'
+ms.assetid: 2655b2a3-2926-43f6-aef4-8b756c02a162
 title: Loading Language Resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Loading Language Resources

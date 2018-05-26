@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PERFINFO\_DSHOW\_STREAMTRACE structure contains data for a DirectShow trace event of type GUID\_STREAMTRACE.'
-ms.assetid: '41fbf95c-e86c-4c64-898f-01fbf5f8839c'
-title: 'PERFINFO\_DSHOW\_STREAMTRACE structure'
+---
+Description: The PERFINFO\_DSHOW\_STREAMTRACE structure contains data for a DirectShow trace event of type GUID\_STREAMTRACE.
+ms.assetid: 41fbf95c-e86c-4c64-898f-01fbf5f8839c
+title: PERFINFO\_DSHOW\_STREAMTRACE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PERFINFO\_DSHOW\_STREAMTRACE structure
@@ -91,14 +96,14 @@ The following event identifiers are defined.
 </tr>
 <tr class="odd">
 <td>PERFINFO_STREAMTRACE_VMR_BEGIN_ADVISE</td>
-<td>Logged when the VMR schedules a sample for rendering, immediately before the VMR calls [<strong>IReferenceClock::AdviseTime</strong>](ireferenceclock-advisetime.md).
+<td>Logged when the VMR schedules a sample for rendering, immediately before the VMR calls [<strong>IReferenceClock::AdviseTime</strong>](/windows/win32/Strmif/nf-strmif-ireferenceclock-advisetime?branch=master).
 <ul>
 <li><strong>data</strong>[0]: Reference time when streaming began, which corresponds to stream time zero.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>PERFINFO_STREAMTRACE_VMR_BEGIN_DECODE</td>
-<td>Logged when the VMR begins a decoding operation—that is, when the decoder calls [<strong>IAMVideoAccelerator::BeginFrame</strong>](iamvideoaccelerator-beginframe.md). No event data.</td>
+<td>Logged when the VMR begins a decoding operation—that is, when the decoder calls [<strong>IAMVideoAccelerator::BeginFrame</strong>](/windows/win32/videoacc/nf-videoacc-iamvideoaccelerator-beginframe?branch=master). No event data.</td>
 </tr>
 <tr class="odd">
 <td>PERFINFO_STREAMTRACE_VMR_BEGIN_DEINTERLACE</td>
@@ -118,7 +123,7 @@ The following event identifiers are defined.
 </tr>
 <tr class="even">
 <td>PERFINFO_STREAMTRACE_VMR_END_DECODE</td>
-<td>Logged when the VMR ends a decoding operation—that is, when the decoder calls [<strong>IAMVideoAccelerator::EndFrame</strong>](iamvideoaccelerator-endframe.md). No event data.</td>
+<td>Logged when the VMR ends a decoding operation—that is, when the decoder calls [<strong>IAMVideoAccelerator::EndFrame</strong>](/windows/win32/videoacc/nf-videoacc-iamvideoaccelerator-endframe?branch=master). No event data.</td>
 </tr>
 <tr class="odd">
 <td>PERFINFO_STREAMTRACE_VMR_END_DEINTERLACE</td>

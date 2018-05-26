@@ -1,7 +1,12 @@
-﻿---
-Description: 'Subtracts two 4D vectors.'
-ms.assetid: '3bc55b38-818e-40eb-859e-495ee28fc4ae'
+---
+Description: Subtracts two 4D vectors.
+ms.assetid: 3bc55b38-818e-40eb-859e-495ee28fc4ae
 title: D3DXVec4Subtract function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec4Subtract function

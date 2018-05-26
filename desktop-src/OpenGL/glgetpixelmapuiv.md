@@ -1,8 +1,9 @@
 ---
 title: glGetPixelMapuiv function
 description: The glGetPixelMapfv, glGetPixelMapuiv, and glGetPixelMapusv functions return the specified pixel map.
-ms.assetid: 'a49f5fd2-c350-4acc-8f61-ecb92b0164cc'
-keywords: ["glGetPixelMapuiv function OpenGL"]
+ms.assetid: a49f5fd2-c350-4acc-8f61-ecb92b0164cc
+keywords:
+- glGetPixelMapuiv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetPixelMapuiv function
@@ -22,8 +28,8 @@ The [**glGetPixelMapfv**](glgetpixelmapfv.md), **glGetPixelMapuiv**, and [**glGe
 
 ```C++
 void WINAPI glGetPixelMapuiv(
-   GLenum map,
-   GLuint *values
+   GLenum map,
+   GLuint *values
 );
 ```
 
@@ -117,8 +123,8 @@ The following functions retrieve information related to **glGetPixelMap**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -159,9 +165,9 @@ The following functions retrieve information related to **glGetPixelMap**:
 [**glTexImage2D**](glteximage2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

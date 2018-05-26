@@ -1,8 +1,9 @@
 ---
 title: WMDM\_FORMAT\_CAPABILITY structure
 description: The WMDM\_FORMAT\_CAPABILITY structure describes the capabilities of a device for a particular format.
-ms.assetid: '9672173D-B11E-4DCB-BCAE-38B94FCC8B99'
-keywords: ["WMDM_FORMAT_CAPABILITY structure windows Media Device Manager"]
+ms.assetid: 9672173D-B11E-4DCB-BCAE-38B94FCC8B99
+keywords:
+- WMDM_FORMAT_CAPABILITY structure windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDM\_FORMAT\_CAPABILITY structure
@@ -22,7 +28,7 @@ The **WMDM\_FORMAT\_CAPABILITY** structure describes the capabilities of a devic
 
 ```C++
 typedef struct _WMDM_FORMAT_CAPABILITY {
-  UINT              nPropConfig;
+  UINT              nPropConfig;
   WMDM_PROP_CONFIG  *pConfigs;
 } WMDM_FORMAT_CAPABILITY;
 ```
@@ -51,7 +57,7 @@ Pointer to an array of [**WMDM\_PROP\_CONFIG**](wmdm-prop-config.md) structures.
 
 The **WMDM\_FORMAT\_CAPABILITY** structure provides a flexible mechanism to express the capabilities of the device for a particular format.
 
-If the content is meant to be rendered by the device (for example, an audio file to be played by the device), the properties of the content must match one of the property configurations returned by [**IWMDMDevice3::GetFormatCapability**](iwmdmdevice3-getformatcapability.md) in the **WMDM\_FORMAT\_CAPABILITY** structure. For example, for an audio file, the bit rate and sample rate must satisfy one of the property configurations returned.
+If the content is meant to be rendered by the device (for example, an audio file to be played by the device), the properties of the content must match one of the property configurations returned by [**IWMDMDevice3::GetFormatCapability**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability?branch=master) in the **WMDM\_FORMAT\_CAPABILITY** structure. For example, for an audio file, the bit rate and sample rate must satisfy one of the property configurations returned.
 
 The caller is responsible for freeing the memory allocated for this structure. The following function demonstrates how to clear a **WMDM\_FORMAT\_CAPABILITY** structure.
 
@@ -115,7 +121,7 @@ void FreeFormatCapability(WMDM_FORMAT_CAPABILITY formatCap)
 
 <dl> <dt>
 
-[**IWMDMDevice3::GetFormatCapability**](iwmdmdevice3-getformatcapability.md)
+[**IWMDMDevice3::GetFormatCapability**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability?branch=master)
 </dt> <dt>
 
 [**WMDM\_ENUM\_PROP\_VALID\_VALUES\_FORM**](wmdm-enum-prop-valid-values-form.md)
@@ -136,9 +142,9 @@ void FreeFormatCapability(WMDM_FORMAT_CAPABILITY formatCap)
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

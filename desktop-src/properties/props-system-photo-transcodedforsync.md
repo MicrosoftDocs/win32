@@ -1,7 +1,12 @@
 ---
-Description: 'A VT\_BOOL that indicates whether the image has been transcoded for synchronizing with an external device.'
-ms.assetid: 'c7f50095-97ad-4e21-bd7c-de4cf595badb'
-title: 'System.Photo.TranscodedForSync'
+Description: A VT\_BOOL that indicates whether the image has been transcoded for synchronizing with an external device.
+ms.assetid: c7f50095-97ad-4e21-bd7c-de4cf595badb
+title: System.Photo.TranscodedForSync
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.TranscodedForSync

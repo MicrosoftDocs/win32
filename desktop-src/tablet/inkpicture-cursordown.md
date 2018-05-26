@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the cursor tip contacts the digitizing tablet surface.'
-ms.assetid: '6d524400-1341-45da-86b2-098e34ed5a1c'
-title: 'InkPicture.CursorDown event'
+Description: Occurs when the cursor tip contacts the digitizing tablet surface.
+ms.assetid: 6d524400-1341-45da-86b2-098e34ed5a1c
+title: InkPicture.CursorDown event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture.CursorDown event
@@ -13,8 +18,8 @@ Occurs when the cursor tip contacts the digitizing tablet surface.
 
 ```C++
 void CursorDown(
-  [in] IInkCursor     *Cursor,
-  [in] IInkStrokeDisp *Stroke
+  [in] IInkCursor     *Cursor,
+  [in] IInkStrokeDisp *Stroke
 );
 ```
 
@@ -27,14 +32,14 @@ void CursorDown(
 *Cursor* \[in\]
 </dt> <dd>
 
-The [**IInkCursor**](iinkcursor.md) object that generated the **CursorDown** event.
+The [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object that generated the **CursorDown** event.
 
 </dd> <dt>
 
 *Stroke* \[in\]
 </dt> <dd>
 
-The [**IInkStrokeDisp**](iinkstrokedisp.md) object that was started when the [**IInkCursor**](iinkcursor.md) object caused the **CursorDown** event to fire.
+The [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object that was started when the [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object caused the **CursorDown** event to fire.
 
 </dd> </dl>
 
@@ -54,7 +59,7 @@ Use this event carefully because it could have an adverse effect on ink performa
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -74,15 +79,15 @@ Use this event carefully because it could have an adverse effect on ink performa
 [**CursorButtonDown Event**](inkpicture-cursorbuttondown.md)
 </dt> <dt>
 
-[**IInkCursor Interface**](iinkcursor.md)
+[**IInkCursor Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master)
 </dt> <dt>
 
-[**IInkStrokeDisp Interface**](iinkstrokedisp.md)
+[**IInkStrokeDisp Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

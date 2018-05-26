@@ -1,7 +1,12 @@
-﻿---
-Description: 'Checks whether a specified event handle is valid and the animation event has not yet completed.'
-ms.assetid: '242ad1e2-4b04-4ce1-9cdf-f66da9f83f06'
-title: 'ID3DXAnimationController::ValidateEvent method'
+---
+Description: Checks whether a specified event handle is valid and the animation event has not yet completed.
+ms.assetid: 242ad1e2-4b04-4ce1-9cdf-f66da9f83f06
+title: ID3DXAnimationControllerValidateEvent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::ValidateEvent method

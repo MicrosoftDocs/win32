@@ -1,7 +1,12 @@
 ---
 Description: Setting Properties on Effects and Transitions
-ms.assetid: 'ce773140-7e50-4b72-8cb5-e34cba51644d'
+ms.assetid: ce773140-7e50-4b72-8cb5-e34cba51644d
 title: Setting Properties on Effects and Transitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Properties on Effects and Transitions

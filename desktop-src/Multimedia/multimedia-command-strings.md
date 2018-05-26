@@ -1,8 +1,18 @@
 ---
 title: Multimedia Command Strings
 description: Multimedia Command Strings
-ms.assetid: 'f8edfdbd-1334-4323-aec5-73c0a56f9b4d'
-keywords: ["Windows multimedia,command strings", "multimedia,command strings", "multimedia reference,command strings", "reference for multimedia,command strings", "multimedia command strings"]
+ms.assetid: f8edfdbd-1334-4323-aec5-73c0a56f9b4d
+keywords:
+- Windows multimedia,command strings
+- multimedia,command strings
+- multimedia reference,command strings
+- reference for multimedia,command strings
+- multimedia command strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia Command Strings

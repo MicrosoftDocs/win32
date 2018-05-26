@@ -1,12 +1,17 @@
 ---
 title: dcl\_tgsm\_raw (sm5 - asm)
-description: Declare a reference to a region of shared memory space available to the compute shader’s thread group.
-ms.assetid: '8EA6931C-5B13-431F-A886-04F8C73CD22D'
+description: Declare a reference to a region of shared memory space available to the compute shader s thread group.
+ms.assetid: 8EA6931C-5B13-431F-A886-04F8C73CD22D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_tgsm\_raw (sm5 - asm)
 
-Declare a reference to a region of shared memory space available to the compute shader’s thread group.
+Declare a reference to a region of shared memory space available to the compute shader s thread group.
 
 
 
@@ -15,7 +20,7 @@ Declare a reference to a region of shared memory space available to the compute 
 
 
 
- 
+ 
 
 
 
@@ -26,20 +31,20 @@ Declare a reference to a region of shared memory space available to the compute 
 
 
 
- 
+ 
 
 ## Remarks
 
 The total storage for all g\# must be &lt;= the amount of shared memory available per thread group, which is 32kB.
 
-In an extreme case, you can declare 8192 total g\#’s, each with a *byteCount* of 4.
+In an extreme case, you can declare 8192 total g\# s, each with a *byteCount* of 4.
 
 In the opposite extreme, you can declare a single g\# with a *byteCount* of 32768.
 
 > [!Note]  
 > cs\_4\_0 and cs\_4\_1 supports [dcl\_tgsm\_structured](dcl-tgsm-structured--sm5---asm-.md), but not **dcl\_tgsm\_raw**.
 
- 
+ 
 
 This instruction applies to the following shader stages:
 
@@ -51,7 +56,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +75,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -79,9 +84,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

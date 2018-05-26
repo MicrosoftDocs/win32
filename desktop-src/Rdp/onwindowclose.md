@@ -4,11 +4,12 @@ description: Called when a sharable top-level window is closed.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '68afa225-cba9-4b1a-8547-a404972c7dd9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 68afa225-cba9-4b1a-8547-a404972c7dd9
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnWindowClose event RDP"]
+keywords:
+- OnWindowClose event RDP
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - RdpEncom.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnWindowClose event
@@ -28,7 +32,7 @@ Called when a sharable top-level window is closed.
 
 ```C++
 void OnWindowClose(
-  [in] IDispatch *pWindow
+  [in] IDispatch *pWindow
 );
 ```
 
@@ -41,7 +45,7 @@ void OnWindowClose(
 *pWindow* \[in\]
 </dt> <dd>
 
-The sharable top-level window that closed. Query the **IDispatch** interface for the [**IRDPSRAPIWindow**](irdpsrapiwindow.md) interface that you use to retrieve information about the window.
+The sharable top-level window that closed. Query the **IDispatch** interface for the [**IRDPSRAPIWindow**](/windows/win32/RdpEncomAPI/nn-rdpencomapi-irdpsrapiwindow?branch=master) interface that you use to retrieve information about the window.
 
 </dd> </dl>
 
@@ -59,8 +63,8 @@ If this is the last window corresponding to the application, then this event is 
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
 | Header<br/>                   | <dl> <dt>RdpEncomAPI.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>RdpEncomAPI.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>RdpEncomAPI.tlb</dt> </dl> |
@@ -72,12 +76,12 @@ If this is the last window corresponding to the application, then this event is 
 
 <dl> <dt>
 
-[**\_IRDPSessionEvents**](-irdpsessionevents.md)
+[**\_IRDPSessionEvents**](/windows/win32/RdpEncomAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

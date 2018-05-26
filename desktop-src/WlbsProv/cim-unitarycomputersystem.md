@@ -4,13 +4,15 @@ description: A class derived from CIM\_ComputerSystem that represents a desktop,
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cf62c637-02da-40d4-bf2f-953e851b4bb4'
-ms.prod: 'windows-server-dev'
+ms.assetid: cf62c637-02da-40d4-bf2f-953e851b4bb4
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_UnitaryComputerSystem class", "CIM_UnitaryComputerSystem class, described"]
+keywords:
+- CIM_UnitaryComputerSystem class
+- CIM_UnitaryComputerSystem class, described
 topic_type:
 - apiref
 api_name:
@@ -35,6 +37,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_UnitaryComputerSystem class
@@ -49,22 +54,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, AMENDMENT]
 class CIM_UnitaryComputerSystem : CIM_ComputerSystem
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  string   PrimaryOwnerContact;
-  string   PrimaryOwnerName;
-  string   Roles[];
-  string   NameFormat;
-  string   InitialLoadInfo[];
-  string   LastLoadInfo;
-  uint16   ResetCapability;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   PowerState;
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  string   PrimaryOwnerContact;
+  string   PrimaryOwnerName;
+  string   Roles[];
+  string   NameFormat;
+  string   InitialLoadInfo[];
+  string   LastLoadInfo;
+  uint16   ResetCapability;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   PowerState;
 };
 ```
 
@@ -87,7 +92,7 @@ The **CIM\_UnitaryComputerSystem** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -678,7 +683,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -692,9 +697,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [**CIM\_ComputerSystem**](cim-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

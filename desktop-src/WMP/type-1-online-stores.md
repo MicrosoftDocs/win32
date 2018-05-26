@@ -1,8 +1,17 @@
 ---
 title: Type 1 Online Stores
 description: Type 1 Online Stores
-ms.assetid: '754b0097-5d28-4c1f-9847-a19cf23beaea'
-keywords: ["Windows Media Player online stores,type 1 online stores", "online stores,type 1 online stores", "type 1 online stores,about", "Windows Media Player,type 1 online stores"]
+ms.assetid: 754b0097-5d28-4c1f-9847-a19cf23beaea
+keywords:
+- Windows Media Player online stores,type 1 online stores
+- online stores,type 1 online stores
+- type 1 online stores,about
+- Windows Media Player,type 1 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type 1 Online Stores

@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the PKEYs associated with the Windows Connect Now (WCN) Provider.'
-ms.assetid: '5667022d-7893-4456-bfdb-7ffe08a68520'
+Description: Defines the PKEYs associated with the Windows Connect Now (WCN) Provider.
+ms.assetid: 5667022d-7893-4456-bfdb-7ffe08a68520
 title: WCN Provider PKEYs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WCN Provider PKEYs
@@ -33,7 +38,7 @@ The following table shows the possible configuration and association states.
 
 
 
- 
+ 
 
 **PROPVARIANT** type **VT\_I4**.
 
@@ -62,7 +67,7 @@ The following table shows the authentication types and associated values.
 
 
 
- 
+ 
 
 An enrollee must support the required authentication types, and may support the optional authentication types. To determine the value associated with the **PKEY\_WCN\_AuthType** key for an enrollee, combine the values associated with the supported authentication types using the bitwise OR operator.
 
@@ -106,7 +111,7 @@ The following table shows the possible error results.
 
 
 
- 
+ 
 
 **PROPVARIANT** type **VT\_I4**.
 
@@ -138,7 +143,7 @@ The following table shows the possible configuration methods.
 
 
 
- 
+ 
 
 An enrollee or registrar must support one or more of the above configuration methods. To determine the value associated with the **PKEY\_WCN\_ConfigMethods** key for an enrollee or registrar, combine the values associated with the supported configuration methods using the bitwise OR operator.
 
@@ -165,7 +170,7 @@ The following table shows the possible configuration states.
 
 
 
- 
+ 
 
 **PROPVARIANT** type **VT\_UI1**.
 
@@ -190,7 +195,7 @@ The following table shows the possible connection types.
 
 
 
- 
+ 
 
 An enrollee must support the required connection types. To determine the value associated with the **PKEY\_WCN\_ConnType** key for an enrollee, combine the values associated with the supported connection types using the bitwise OR operator.
 
@@ -223,7 +228,7 @@ The major device category of a WCN device.
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -261,7 +266,7 @@ The device subcategory of a WCN device. The subcategory must be interpreted alon
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -281,7 +286,7 @@ The unique manufacturer OUI associated with the device.
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -316,7 +321,7 @@ The origin or 'type' of a password.
 <td>The user has overridden the default password with a manually selected value.
 <blockquote>
 [!Note]<br />
-Not supported in Windows 7.
+Not supported in Windows 7.
 </blockquote>
 <br/></td>
 </tr>
@@ -325,7 +330,7 @@ Not supported in Windows 7.
 <td>The default PIN password has been overridden by a strong, machine-generated device password value.
 <blockquote>
 [!Note]<br />
-Not supported in Windows 7.
+Not supported in Windows 7.
 </blockquote>
 <br/></td>
 </tr>
@@ -334,7 +339,7 @@ Not supported in Windows 7.
 <td>The 256-bit rekeying password associated with the device will be used.
 <blockquote>
 [!Note]<br />
-Not supported in Windows 7.
+Not supported in Windows 7.
 </blockquote>
 <br/></td>
 </tr>
@@ -347,7 +352,7 @@ Not supported in Windows 7.
 <td>A PIN has been obtained from the Registrar via a display or other out-of-band method.
 <blockquote>
 [!Note]<br />
-Not supported in Windows 7.
+Not supported in Windows 7.
 </blockquote>
 <br/></td>
 </tr>
@@ -356,7 +361,7 @@ Not supported in Windows 7.
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -381,7 +386,7 @@ The following table shows the possible encryption types.
 
 
 
- 
+ 
 
 An enrollee must support one or more of the above encryption types. To determine the value associated with the **PKEY\_WCN\_EncryptType** key for an enrollee, combine the values associated with the supported encryption types using the bitwise OR operator.
 
@@ -421,7 +426,7 @@ The following table shows the possible registrar types.
 
 
 
- 
+ 
 
 **PROPVARIANT** type **VT\_I4**.
 
@@ -448,7 +453,7 @@ The following table shows the possible modes.
 
 
 
- 
+ 
 
 **PROPVARIANT** type **VT\_I4**.
 
@@ -473,7 +478,7 @@ The following table shows the possible RF bands.
 
 
 
- 
+ 
 
 **PROPVARIANT** type **VT\_I4**.
 
@@ -487,7 +492,7 @@ The following table shows the possible RF bands.
 
 Not supported.
 
-**Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:  **
+**Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:  **
 
 The **UUID** of the device, regardless if the device is enrollee or registrar.
 
@@ -526,10 +531,10 @@ The Easy Setup version used by the device. The one byte field is broken into a f
 
 |                                     |                                                                                                                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                 |
-| End of client support<br/>    | Windows 8<br/>                                                                                                                                                                 |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                                                                                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                 |
+| End of client support<br/>    | Windows 8<br/>                                                                                                                                                                 |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                                                                                                       |
 | Header<br/>                   | <dl> <dt>FunctionDiscoveryKeys.h; </dt> <dt>WcnFunctionDiscoveryKeys.h</dt> </dl> |
 
 
@@ -541,9 +546,9 @@ The Easy Setup version used by the device. The one byte field is broken into a f
 [**Key Definitions**](key-definitions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

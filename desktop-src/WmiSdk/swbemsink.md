@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemSink object is implemented by client applications to receive the results of asynchronous operations and event notifications.'
+Description: The SWbemSink object is implemented by client applications to receive the results of asynchronous operations and event notifications.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a90777ef-fa26-4bfb-b196-c083a0c92a29'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a90777ef-fa26-4bfb-b196-c083a0c92a29
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemSink object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemSink object
@@ -32,7 +35,7 @@ The **SWbemSink** object has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,7 +65,7 @@ Use the following table as a reference to identify events and trigger descriptio
 
 
 
- 
+ 
 
 **Asynchronously Retrieving Event Log Statistics**
 
@@ -116,8 +119,8 @@ End Sub
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wbemdisp.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -133,9 +136,9 @@ End Sub
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

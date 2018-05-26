@@ -4,11 +4,15 @@ description: Shows how cookies can be used by a snap-in to share data objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3b48fb0b-d2c7-41e6-a5bf-277e6f92488b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 3b48fb0b-d2c7-41e6-a5bf-277e6f92488b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["cookies MMC"]
+keywords:
+- cookies MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cookies

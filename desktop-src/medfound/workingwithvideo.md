@@ -1,7 +1,12 @@
 ---
 Description: Working with Video
-ms.assetid: 'ef361c85-8f3b-4719-80f2-853c84ae7277'
+ms.assetid: ef361c85-8f3b-4719-80f2-853c84ae7277
 title: Working with Video
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Video

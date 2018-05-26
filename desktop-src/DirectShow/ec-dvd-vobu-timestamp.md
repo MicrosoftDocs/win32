@@ -1,7 +1,12 @@
 ---
-Description: 'Sent when the DVD Navigator parses a PCI packet.'
-ms.assetid: '25548c23-22f0-47cb-9062-273ad39d3007'
-title: 'EC\_DVD\_VOBU\_Timestamp'
+Description: Sent when the DVD Navigator parses a PCI packet.
+ms.assetid: 25548c23-22f0-47cb-9062-273ad39d3007
+title: EC\_DVD\_VOBU\_Timestamp
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_VOBU\_Timestamp
@@ -30,7 +35,7 @@ Contains the high-order **DWORD** of the time stamp.
 
 ## Remarks
 
-This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](idvdcontrol2-setoption.md) and set the **DVD\_EnableLoggingEvents** option to **TRUE**.
+This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-setoption?branch=master) and set the **DVD\_EnableLoggingEvents** option to **TRUE**.
 
 Reconstruct the time stamp as follows:
 
@@ -66,9 +71,9 @@ li.HighPart = DWORD( lParam2 );
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetEffect method retrieves the effect at the specified priority level.'
-ms.assetid: '8606c457-1c4d-4a20-b674-aaf82abeb451'
-title: 'IAMTimelineEffectable::GetEffect method'
+---
+Description: The GetEffect method retrieves the effect at the specified priority level.
+ms.assetid: 8606c457-1c4d-4a20-b674-aaf82abeb451
+title: IAMTimelineEffectableGetEffect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineEffectable::GetEffect method

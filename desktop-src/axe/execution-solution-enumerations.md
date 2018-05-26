@@ -1,7 +1,12 @@
 ---
 title: Execution Solution Enumerations
 description: AXE Execution Solution API provides the following enumerations.
-ms.assetid: '85178739-842A-43AF-A8C7-7C018A9B97B2'
+ms.assetid: 85178739-842A-43AF-A8C7-7C018A9B97B2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Execution Solution Enumerations

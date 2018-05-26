@@ -1,14 +1,19 @@
 ---
-Description: 'Using Compressed Textures (Direct3D 9)'
-ms.assetid: '60892a8b-93f4-43ba-87ef-d5c7cc6fb8c6'
-title: 'Using Compressed Textures (Direct3D 9)'
+Description: Using Compressed Textures (Direct3D 9)
+ms.assetid: 60892a8b-93f4-43ba-87ef-d5c7cc6fb8c6
+title: Using Compressed Textures (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Compressed Textures (Direct3D 9)
 
 ## Determining Support for Compressed Textures
 
-To test the adapter, specify any pixel format that uses the DXT1, DXT2, DXT3, DXT4, or DXT5. If [**IDirect3D9::CheckDeviceFormat**](idirect3d9--checkdeviceformat.md) returns D3D\_OK, the device can create texture directly from a compressed texture surface that uses that format. If so, you can use compressed texture surfaces directly with Direct3D by calling the [**IDirect3DDevice9::SetTexture**](idirect3ddevice9--settexture.md) method. The following code example shows how to determine if the adapter supports a compressed texture format.
+To test the adapter, specify any pixel format that uses the DXT1, DXT2, DXT3, DXT4, or DXT5. If [**IDirect3D9::CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master) returns D3D\_OK, the device can create texture directly from a compressed texture surface that uses that format. If so, you can use compressed texture surfaces directly with Direct3D by calling the [**IDirect3DDevice9::SetTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexture?branch=master) method. The following code example shows how to determine if the adapter supports a compressed texture format.
 
 
 ```
@@ -32,11 +37,11 @@ If the device does not support texturing from compressed texture surfaces, you c
 
 ## Creating Compressed Textures
 
-After creating a device that supports a compressed texture format on the adapter, you can create a compressed texture resource. Call [**IDirect3DDevice9::CreateTexture**](idirect3ddevice9--createtexture.md) and specify a compressed texture format for the Format parameter.
+After creating a device that supports a compressed texture format on the adapter, you can create a compressed texture resource. Call [**IDirect3DDevice9::CreateTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createtexture?branch=master) and specify a compressed texture format for the Format parameter.
 
-Before loading an image into a texture object, retrieve a pointer to the texture surface by calling the [**IDirect3DTexture9::GetSurfaceLevel**](idirect3dtexture9--getsurfacelevel.md) method.
+Before loading an image into a texture object, retrieve a pointer to the texture surface by calling the [**IDirect3DTexture9::GetSurfaceLevel**](/windows/win32/d3d9helper/nf-d3d9-idirect3dtexture9-getsurfacelevel?branch=master) method.
 
-Now you can use any D3DXLoadSurfacexxx function to load an image to the surface that was retrieved by using [**IDirect3DTexture9::GetSurfaceLevel**](idirect3dtexture9--getsurfacelevel.md). These functions handle conversion to and from compressed texture formats.
+Now you can use any D3DXLoadSurfacexxx function to load an image to the surface that was retrieved by using [**IDirect3DTexture9::GetSurfaceLevel**](/windows/win32/d3d9helper/nf-d3d9-idirect3dtexture9-getsurfacelevel?branch=master). These functions handle conversion to and from compressed texture formats.
 
 You can create and convert compressed texture (DDS) files using the DirectX Texture Editor (Dxtex.exe) supplied with the DirectX SDK. You can get Dxtex.exe and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](nodepage.directx_sdk__august_2009_).
 

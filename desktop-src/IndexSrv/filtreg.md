@@ -1,7 +1,12 @@
 ---
 title: FiltReg
 description: FiltReg
-ms.assetid: '07a68faa-a8a6-4740-9625-458a30472af6'
+ms.assetid: 07a68faa-a8a6-4740-9625-458a30472af6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FiltReg

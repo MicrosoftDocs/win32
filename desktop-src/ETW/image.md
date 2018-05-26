@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the parent class for image events. The following syntax is simplified from MOF code.'
-ms.assetid: 'a719a34c-7e32-4758-9031-6ca2b2873e3e'
+---
+Description: This class is the parent class for image events. The following syntax is simplified from MOF code.
+ms.assetid: a719a34c-7e32-4758-9031-6ca2b2873e3e
 title: Image class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image class

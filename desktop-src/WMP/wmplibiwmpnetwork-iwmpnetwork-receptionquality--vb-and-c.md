@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork receptionQuality property
 description: The receptionQuality property gets the percentage of packets not lost in the last 30 seconds.
-ms.assetid: '103e6b8f-e029-4f53-93ac-b516896a7594'
-keywords: ["receptionQuality property Windows Media Player", "receptionQuality property Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , receptionQuality property"]
+ms.assetid: 103e6b8f-e029-4f53-93ac-b516896a7594
+keywords:
+- receptionQuality property Windows Media Player
+- receptionQuality property Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , receptionQuality property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::receptionQuality property
@@ -160,9 +168,9 @@ End Sub</code></pre></td>
 [**IWMPNetwork Interface (VB and C#)**](iwmpnetwork--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

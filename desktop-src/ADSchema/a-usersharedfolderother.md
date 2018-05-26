@@ -1,20 +1,25 @@
 ---
 title: User-Shared-Folder-Other attribute
-description: Specifies a UNC path to the user's additional shared documents folder. The path must be a network UNC path of the form \\\\Server\\Share\\Directory. This value can be a null string.
+description: Specifies a UNC path to the users additional shared documents folder. The path must be a network UNC path of the form \\\\Server\\Share\\Directory. This value can be a null string.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7d546cda-b2c1-46a6-a3cf-a7c78ddb1422'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7d546cda-b2c1-46a6-a3cf-a7c78ddb1422
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["User-Shared-Folder-Other attribute AD Schema", "userSharedFolderOther attribute AD Schema"]
+keywords:
+- User-Shared-Folder-Other attribute AD Schema
+- userSharedFolderOther attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - User-Shared-Folder-Other
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # User-Shared-Folder-Other attribute
@@ -38,12 +43,12 @@ Specifies a UNC path to the user's additional shared documents folder. The path 
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Specifies a UNC path to the user's additional shared documents folder. The path 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Iteration SetDescriptionDisplayName method
 description: Sets the description display name of the Iteration.
-ms.assetid: 'DC1C0E54-5D77-4663-9FA3-B1A3590158F8'
-keywords: ["SetDescriptionDisplayName method Access Execution Engine", "SetDescriptionDisplayName method Access Execution Engine , Iteration interface", "Iteration interface Access Execution Engine , SetDescriptionDisplayName method"]
+ms.assetid: DC1C0E54-5D77-4663-9FA3-B1A3590158F8
+keywords:
+- SetDescriptionDisplayName method Access Execution Engine
+- SetDescriptionDisplayName method Access Execution Engine , Iteration interface
+- Iteration interface Access Execution Engine , SetDescriptionDisplayName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::SetDescriptionDisplayName method
@@ -22,7 +30,7 @@ Sets the description display name of the **Iteration**.
 
 ```C++
 virtual HRESULT SetDescriptionDisplayName(
-  [in] LPCWSTR descriptionDisplayName
+  [in] LPCWSTR descriptionDisplayName
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ The description display name is the value of element **Iteration/Description/Dis
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The description display name is the value of element **Iteration/Description/Dis
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

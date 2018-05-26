@@ -4,11 +4,16 @@ description: The Back method navigates to the previous view. This method is equi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4b7f5dd6-71cc-4387-852e-0839493a6999'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4b7f5dd6-71cc-4387-852e-0839493a6999
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Back method MMC", "Back method MMC , View object", "View object MMC , Back method", "Back method MMC , View interface", "View interface MMC , Back method"]
+keywords:
+- Back method MMC
+- Back method MMC , View object
+- View object MMC , Back method
+- Back method MMC , View interface
+- View interface MMC , Back method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::Back method
@@ -57,8 +65,8 @@ objView.Back
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -73,9 +81,9 @@ objView.Back
 [**View.Forward**](view-forward.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

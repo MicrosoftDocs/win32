@@ -4,13 +4,18 @@ description: The Network Load Balancing Clusters dynamically distribute the flow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '557d75d3-0b29-479d-956a-ea235f8ff34f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 557d75d3-0b29-479d-956a-ea235f8ff34f
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Network Load Balancing Provider Failover Cluster ,about", "Windows Clustering Failover Cluster ,Network Load Balancing Provider,about"]
+keywords:
+- Network Load Balancing Provider Failover Cluster ,about
+- Windows Clustering Failover Cluster ,Network Load Balancing Provider,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About the Network Load Balancing Provider
@@ -29,11 +34,11 @@ The following sections provide more information on Network Load Balancing cluste
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

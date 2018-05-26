@@ -1,7 +1,12 @@
-﻿---
-Description: 'Caches internally the unfiltered image returned from the driver.'
-ms.assetid: '09cb242d-d1d6-4130-8b49-0770940471d8'
-title: 'IWiaPreview::GetNewPreview method'
+---
+Description: Caches internally the unfiltered image returned from the driver.
+ms.assetid: 09cb242d-d1d6-4130-8b49-0770940471d8
+title: IWiaPreviewGetNewPreview method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaPreview::GetNewPreview method

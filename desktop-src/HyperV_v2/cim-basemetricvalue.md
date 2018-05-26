@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the instance value of a metric.'
-ms.assetid: '6b272ae8-7684-45bb-bff8-6559680cc8b6'
-title: 'CIM\_BaseMetricValue class'
+Description: Represents the instance value of a metric.
+ms.assetid: 6b272ae8-7684-45bb-bff8-6559680cc8b6
+title: CIM\_BaseMetricValue class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_BaseMetricValue class
@@ -14,15 +19,15 @@ Represents the instance value of a metric.
 [Abstract, Version("2.19.0"), UMLPackagePath("CIM::Metrics::BaseMetric"), AMENDMENT]
 class CIM_BaseMetricValue : CIM_ManagedElement
 {
-  string   InstanceID;
-  string   MetricDefinitionId;
-  string   MeasuredElementName;
+  string   InstanceID;
+  string   MetricDefinitionId;
+  string   MeasuredElementName;
   datetime TimeStamp;
   datetime Duration;
-  string   MetricValue;
-  string   BreakdownDimension;
-  string   BreakdownValue;
-  boolean  Volatile;
+  string   MetricValue;
+  string   BreakdownDimension;
+  string   BreakdownValue;
+  boolean  Volatile;
 };
 ```
 
@@ -106,7 +111,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 </dd> <dt>
 
@@ -196,8 +201,8 @@ True if the **TimeStamp** value changes whenever the value of the metric instanc
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -211,9 +216,9 @@ True if the **TimeStamp** value changes whenever the value of the metric instanc
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

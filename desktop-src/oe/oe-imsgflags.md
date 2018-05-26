@@ -1,8 +1,10 @@
 ---
 title: IMSGFLAGS enumeration
 description: Do not use. Describes the contents of an IMimeMessageTree object.
-ms.assetid: '7a8cf87d-9a5e-441f-a894-0926b956ef6b'
-keywords: ["IMSGFLAGS enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 7a8cf87d-9a5e-441f-a894-0926b956ef6b
+keywords:
+- IMSGFLAGS enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMSGFLAGS enumeration
@@ -22,24 +29,24 @@ Do not use. Describes the contents of an [**IMimeMessageTree**](oe-imimemessaget
 
 ```C++
 typedef enum tagIMSGFLAGS { 
-  IMF_ATTACHMENTS   = 0x00000001,
-  IMF_MULTIPART     = 0x00000002,
-  IMF_SUBMULTIPART  = 0x00000004,
-  IMF_MIME          = 0x00000008,
-  IMF_HTML          = 0x00000010,
-  IMF_PLAIN         = 0x00000020,
-  IMF_PARTIAL       = 0x00000040,
-  IMF_SIGNED        = 0x00000080,
-  IMF_ENCRYPTED     = 0x00000100,
-  IMF_TNEF          = 0x00000200,
-  IMF_MHTML         = 0x00000400,
-  IMF_SECURE        = 0x00000800,
-  IMF_TEXT          = 0x00001000,
-  IMF_CSETTAGGED    = 0x00002000,
-  IMF_NEWS          = 0x00004000,
-  IMF_VOICEMAIL     = 0x00008000,
-  IMF_HASVCARD      = 0x00010000,
-  IMF_RFC1154       = 0x00020000
+  IMF_ATTACHMENTS   = 0x00000001,
+  IMF_MULTIPART     = 0x00000002,
+  IMF_SUBMULTIPART  = 0x00000004,
+  IMF_MIME          = 0x00000008,
+  IMF_HTML          = 0x00000010,
+  IMF_PLAIN         = 0x00000020,
+  IMF_PARTIAL       = 0x00000040,
+  IMF_SIGNED        = 0x00000080,
+  IMF_ENCRYPTED     = 0x00000100,
+  IMF_TNEF          = 0x00000200,
+  IMF_MHTML         = 0x00000400,
+  IMF_SECURE        = 0x00000800,
+  IMF_TEXT          = 0x00001000,
+  IMF_CSETTAGGED    = 0x00002000,
+  IMF_NEWS          = 0x00004000,
+  IMF_VOICEMAIL     = 0x00008000,
+  IMF_HASVCARD      = 0x00010000,
+  IMF_RFC1154       = 0x00020000
 } ACCESSTYPE;
 ```
 
@@ -181,17 +188,17 @@ Indicates that the message is formatted using [RFC 1154](http://www.ietf.org/rfc
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

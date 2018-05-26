@@ -1,8 +1,11 @@
 ---
 title: IWMPMediaCollection remove method
 description: The remove method removes a specified item from the media collection.
-ms.assetid: '2ed45159-0a92-4353-8bf1-1d20de404bf7'
-keywords: ["remove method Windows Media Player", "remove method Windows Media Player , IWMPMediaCollection interface", "IWMPMediaCollection interface Windows Media Player , remove method"]
+ms.assetid: 2ed45159-0a92-4353-8bf1-1d20de404bf7
+keywords:
+- remove method Windows Media Player
+- remove method Windows Media Player , IWMPMediaCollection interface
+- IWMPMediaCollection interface Windows Media Player , remove method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMediaCollection::remove method
@@ -178,9 +186,9 @@ End If</code></pre></td>
 [**IWMPMediaCollection.add (VB and C#)**](wmplibiwmpmediacollection-iwmpmediacollection-add--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

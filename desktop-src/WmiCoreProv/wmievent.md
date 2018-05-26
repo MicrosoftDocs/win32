@@ -1,7 +1,12 @@
 ---
-Description: 'The WMIEvent class is a base class from which all WMI event classes are derived.'
-ms.assetid: '0393d3fc-7566-4eda-940e-248d622a903a'
+Description: The WMIEvent class is a base class from which all WMI event classes are derived.
+ms.assetid: 0393d3fc-7566-4eda-940e-248d622a903a
 title: WMIEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMIEvent class
@@ -16,7 +21,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 []
 class WMIEvent : __ExtrinsicEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
 };
 ```
@@ -71,8 +76,8 @@ The **WMIEvent** class is derived from [**\_\_ExtrinsicEvent**](https://msdn.mic
 
 |                                     |                                                                                                                                                       |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                                                                              |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                                                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                                                                              |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                                                                                        |
 | Namespace<br/>                | Root\\WMI<br/>                                                                                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmi.mof; </dt> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl>                                                                |
@@ -89,9 +94,9 @@ The **WMIEvent** class is derived from [**\_\_ExtrinsicEvent**](https://msdn.mic
 [**\_\_ExtrinsicEvent**](https://msdn.microsoft.com/library/aa394646)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

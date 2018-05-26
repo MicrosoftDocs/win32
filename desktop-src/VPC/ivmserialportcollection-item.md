@@ -1,8 +1,11 @@
 ---
 title: IVMSerialPortCollection Item property
 description: Retrieves the serial port object that corresponds to the specified index.
-ms.assetid: '24ce1404-d7aa-4125-b1f9-9c54418ea205'
-keywords: ["Item property Virtual PC", "Item property Virtual PC , IVMSerialPortCollection interface", "IVMSerialPortCollection interface Virtual PC , Item property"]
+ms.assetid: 24ce1404-d7aa-4125-b1f9-9c54418ea205
+keywords:
+- Item property Virtual PC
+- Item property Virtual PC , IVMSerialPortCollection interface
+- IVMSerialPortCollection interface Virtual PC , Item property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSerialPortCollection::Item property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the serial port object that corresponds to the specified index.
 
@@ -27,8 +35,8 @@ This property is read-only.
 
 ```C++
 HRESULT get_Item(
-  [in]          long          index,
-  [out, retval] IVMSerialPort **serialPort
+  [in]          long          index,
+  [out, retval] IVMSerialPort **serialPort
 );
 ```
 
@@ -58,9 +66,9 @@ The [**IVMSerialPort**](ivmserialport.md) object.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMSerialPortCollection is defined as dd3c6175-1f04-4341-9f85-104074880289<br/>    |
@@ -77,9 +85,9 @@ The [**IVMSerialPort**](ivmserialport.md) object.
 [**IVMSerialPortCollection**](ivmserialportcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

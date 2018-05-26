@@ -1,7 +1,12 @@
 ---
 title: The SpeechInput Object
 description: The SpeechInput Object
-ms.assetid: 'e968edb8-747f-421a-800b-29f13857410c'
+ms.assetid: e968edb8-747f-421a-800b-29f13857410c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The SpeechInput Object

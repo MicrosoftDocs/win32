@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves a mesh to a .x file.'
-ms.assetid: '6d9cbca8-3847-4e15-95d4-9df3f8269665'
+---
+Description: Saves a mesh to a .x file.
+ms.assetid: 6d9cbca8-3847-4e15-95d4-9df3f8269665
 title: D3DXSaveMeshToX function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSaveMeshToX function

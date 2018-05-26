@@ -1,7 +1,12 @@
-﻿---
-Description: 'Renders primitives and returns the updated render state.'
-ms.assetid: 'ef28ee62-a7ad-406c-a892-ffee14123d16'
+---
+Description: Renders primitives and returns the updated render state.
+ms.assetid: ef28ee62-a7ad-406c-a892-ffee14123d16
 title: NtGdiD3DDrawPrimitives2 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiD3DDrawPrimitives2 function

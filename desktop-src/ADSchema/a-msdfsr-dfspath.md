@@ -4,17 +4,22 @@ description: Contains the full path of the associated Distributed File System (D
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bd596110-b156-4640-a6d0-ace9e4e30909'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bd596110-b156-4640-a6d0-ace9e4e30909
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-DfsPath attribute AD Schema", "msDFSR-DfsPath attribute AD Schema"]
+keywords:
+- ms-DFSR-DfsPath attribute AD Schema
+- msDFSR-DfsPath attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-DfsPath
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-DfsPath attribute
@@ -38,10 +43,10 @@ Contains the full path of the associated Distributed File System (DFS) link for 
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the full path of the associated Distributed File System (DFS) link for 
 
 The **ms-DFSR-DfsPath** attribute is a part of the Distributed File System (DFS) Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

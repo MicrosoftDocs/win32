@@ -1,7 +1,12 @@
 ---
 title: Peer Caching
 description: Starting with Background Intelligent Transfer Service (BITS) 4.0, the BITS service was extended to allow subnet-level peer caching for downloaded URL data by using Windows BranchCache.
-ms.assetid: '4197eed3-1812-4440-99e7-9462635ef6ad'
+ms.assetid: 4197eed3-1812-4440-99e7-9462635ef6ad
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Peer Caching
@@ -38,7 +43,7 @@ The default BITS group policy allows peer caching. If Windows BranchCache is ena
 
 An administrator can use a group policy to disable the use of the Windows BranchCache. (See [Group Policies](group-policies.md).) If the Windows BranchCache is disabled, BITS clients will retrieve data only from remote servers.
 
-An application can also disable the Windows BranchCache on a per job basis by calling the [**IBackgroundCopyJob4::SetPeerCachingFlags**](ibackgroundcopyjob4-setpeercachingflags.md) method and setting the **BG\_DISABLE\_BRANCH\_CACHE** flag.
+An application can also disable the Windows BranchCache on a per job basis by calling the [**IBackgroundCopyJob4::SetPeerCachingFlags**](/windows/win32/Bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags?branch=master) method and setting the **BG\_DISABLE\_BRANCH\_CACHE** flag.
 
 > [!Note]  
 > These settings do not affect the use of Windows BranchCache by applications other than BITS. These settings do not apply to BITS transfers over SMB. BITS does not control any settings for Windows BranchCache transfers over SMB.
@@ -47,7 +52,7 @@ An application can also disable the Windows BranchCache on a per job basis by ca
 
 ## Verification and Monitoring
 
-There are a number of ways to verify and monitor peer caching statistics. Administrators can call the [**IBackgroundCopyFile4::GetPeerDownloadStats**](ibackgroundcopyfile4-getpeerdownloadstats.md) method to query the amount of data that was downloaded from peers and from origin servers. Administrators can also check the event log for [Event ID 60](http://go.microsoft.com/fwlink/p/?linkid=151256), which provides job-specific information.
+There are a number of ways to verify and monitor peer caching statistics. Administrators can call the [**IBackgroundCopyFile4::GetPeerDownloadStats**](/windows/win32/Bits4_0/nf-bits4_0-ibackgroundcopyfile4-getpeerdownloadstats?branch=master) method to query the amount of data that was downloaded from peers and from origin servers. Administrators can also check the event log for [Event ID 60](http://go.microsoft.com/fwlink/p/?linkid=151256), which provides job-specific information.
 
 The Windows BranchCache feature also provides a number of mechanisms to verify and monitor peer caching statistics. For more information, see [Verification and Monitoring](http://go.microsoft.com/fwlink/p/?linkid=151257) and [Performance Counters](http://go.microsoft.com/fwlink/p/?linkid=151258).
 
@@ -67,7 +72,7 @@ The peer caching model that uses Windows BranchCache replaces the peer caching m
 
 If the administrator enables peer caching and the job permits downloading content from a peer, BITS will try to download the content from one or more peers. Downloading from a peer is much faster than downloading content from the Internet. Peer caching is disabled by default and jobs must explicitly permit downloading content from peers. An administrator can use a group policy to enable peer caching. After enabling peer caching, the administrator can disable either downloading from a peer or serving content to a peer.
 
-An application can also enable peer caching by calling the [**IBitsPeerCacheAdministration::SetConfigurationFlags**](ibitspeercacheadministration-setconfigurationflags.md) method. However, these settings are overridden by the group policy settings, if set.
+An application can also enable peer caching by calling the [**IBitsPeerCacheAdministration::SetConfigurationFlags**](/windows/win32/Bits3_0/nf-bits3_0-ibitspeercacheadministration-setconfigurationflags?branch=master) method. However, these settings are overridden by the group policy settings, if set.
 
 When peer caching is enabled, BITS creates a list of peers that are in the same subnet and belong to the same domain. The list will not include peers from a trusted domain. Peer caching can be enabled only in a domain environment.
 

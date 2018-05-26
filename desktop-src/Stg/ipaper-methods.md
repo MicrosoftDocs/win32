@@ -1,8 +1,14 @@
 ---
 title: IPaper Methods
 description: Provides COPaper objects that are controlled primarily by their native IPaper interface.
-ms.assetid: '965a60d4-2737-4a2d-8790-bee70bceaeeb'
-keywords: ["IPaper"]
+ms.assetid: 965a60d4-2737-4a2d-8790-bee70bceaeeb
+keywords:
+- IPaper
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPaper Methods

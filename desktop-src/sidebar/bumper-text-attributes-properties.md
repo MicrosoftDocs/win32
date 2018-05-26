@@ -1,7 +1,12 @@
 ---
 title: Attributes/Properties
 description: .
-ms.assetid: 'ee1d5f4c-3016-4b93-9204-16d82125b82d'
+ms.assetid: ee1d5f4c-3016-4b93-9204-16d82125b82d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes/Properties

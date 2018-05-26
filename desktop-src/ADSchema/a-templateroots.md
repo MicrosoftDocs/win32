@@ -4,17 +4,22 @@ description: This attribute is used on the Exchange config container to indicate
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1416ce4a-ca07-4ca9-8ea1-e1a6ad19e7ad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 1416ce4a-ca07-4ca9-8ea1-e1a6ad19e7ad
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Template-Roots attribute AD Schema", "templateRoots attribute AD Schema"]
+keywords:
+- Template-Roots attribute AD Schema
+- templateRoots attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Template-Roots
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Template-Roots attribute
@@ -38,12 +43,12 @@ This attribute is used on the Exchange config container to indicate where the te
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ This attribute is used on the Exchange config container to indicate where the te
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: levels (ProviderType) Element
 description: Defines a list of levels that specify the severity of an event.
-ms.assetid: '32801166-7c4a-4c59-a072-9f3625c80070'
-keywords: ["levels element EventLog"]
+ms.assetid: 32801166-7c4a-4c59-a072-9f3625c80070
+keywords:
+- levels element EventLog
 topic_type:
 - apiref
 api_name:
 - levels
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # levels (ProviderType) Element
@@ -29,8 +35,8 @@ The **levels** element is defined by the [**ProviderType**](eventmanifestschema-
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **levels** element is defined by the [**ProviderType**](eventmanifestschema-
 [**provider (EventsType)**](eventmanifestschema-provider-eventstype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetInputData method sets the data to send to the printer.'
-ms.assetid: '8db7b5cd-b03f-4973-8711-8ac022bfb2b5'
-title: 'IBidiRequest::SetInputData method'
+---
+Description: The SetInputData method sets the data to send to the printer.
+ms.assetid: 8db7b5cd-b03f-4973-8711-8ac022bfb2b5
+title: IBidiRequestSetInputData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiRequest::SetInputData method

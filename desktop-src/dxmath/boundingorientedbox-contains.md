@@ -1,12 +1,17 @@
-﻿---
-Description: 'Tests whether the BoundingOrientedBox contains another object.'
-ms.assetid: 'e3df5999-021e-4360-901f-7c8790d6d12d'
-title: 'BoundingOrientedBox.Contains methods'
+---
+Description: Tests whether the BoundingOrientedBox contains another object.
+ms.assetid: e3df5999-021e-4360-901f-7c8790d6d12d
+title: BoundingOrientedBox.Contains methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingOrientedBox.Contains methods
 
-Tests whether the [**BoundingOrientedBox**](boundingorientedbox.md) contains another object.
+Tests whether the [**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master) contains another object.
 
 ### Overload list
 
@@ -14,12 +19,12 @@ Tests whether the [**BoundingOrientedBox**](boundingorientedbox.md) contains ano
 
 | Method                                                                                               | Description                                                                                                                            |
 |:-----------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
-| [**BoundingOrientedBox::Contains (XMVECTOR)**](boundingorientedbox-contains-6.md)                   | Tests whether the [**BoundingOrientedBox**](boundingorientedbox.md) contains a specified point.<br/>                            |
-| [**BoundingOrientedBox::Contains (const BoundingBox&)**](boundingorientedbox-contains-3.md)         | Tests whether the [**BoundingOrientedBox**](boundingorientedbox.md) contains a [**BoundingBox**](boundingbox.md).<br/>         |
-| [**BoundingOrientedBox::Contains (const BoundingSphere&)**](boundingorientedbox-contains-5.md)      | Tests whether the [**BoundingOrientedBox**](boundingorientedbox.md) contains a [**BoundingSphere**](boundingsphere.md).<br/>   |
-| [**BoundingOrientedBox::Contains (const BoundingFrustum&)**](boundingorientedbox-contains-1.md)     | Tests whether the [**BoundingOrientedBox**](boundingorientedbox.md) contains a [**BoundingFrustum**](boundingfrustum.md).<br/> |
-| [**BoundingOrientedBox::Contains (XMVECTOR,XMVECTOR,XMVECTOR)**](boundingorientedbox-contains-2.md) | Tests whether the [**BoundingOrientedBox**](boundingorientedbox.md) contains a triangle.<br/>                                   |
-| [**BoundingOrientedBox::Contains (const BoundingOrientedBox&)**](boundingorientedbox-contains-4.md) | Tests whether the [**BoundingOrientedBox**](boundingorientedbox.md) contains a **BoundingOrientedBox**.<br/>                    |
+| [**BoundingOrientedBox::Contains (XMVECTOR)**](boundingorientedbox-contains-6.md)                   | Tests whether the [**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master) contains a specified point.<br/>                            |
+| [**BoundingOrientedBox::Contains (const BoundingBox&)**](boundingorientedbox-contains-3.md)         | Tests whether the [**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master) contains a [**BoundingBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingbox?branch=master).<br/>         |
+| [**BoundingOrientedBox::Contains (const BoundingSphere&)**](boundingorientedbox-contains-5.md)      | Tests whether the [**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master) contains a [**BoundingSphere**](/windows/win32/DirectXCollision/ns-directxcollision-boundingsphere?branch=master).<br/>   |
+| [**BoundingOrientedBox::Contains (const BoundingFrustum&)**](boundingorientedbox-contains-1.md)     | Tests whether the [**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master) contains a [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master).<br/> |
+| [**BoundingOrientedBox::Contains (XMVECTOR,XMVECTOR,XMVECTOR)**](boundingorientedbox-contains-2.md) | Tests whether the [**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master) contains a triangle.<br/>                                   |
+| [**BoundingOrientedBox::Contains (const BoundingOrientedBox&)**](boundingorientedbox-contains-4.md) | Tests whether the [**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master) contains a **BoundingOrientedBox**.<br/>                    |
 
 
 
@@ -33,7 +38,7 @@ Tests whether the [**BoundingOrientedBox**](boundingorientedbox.md) contains ano
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](boundingorientedbox.md)
+[**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master)
 </dt> </dl>
 
  

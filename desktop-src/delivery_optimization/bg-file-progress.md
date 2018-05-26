@@ -1,8 +1,9 @@
 ---
 title: BG\_FILE\_PROGRESS structure
 description: The BG\_FILE\_PROGRESS structure provides file-related progress information, such as the number of bytes transferred.
-ms.assetid: '49BDFEEE-D7BF-489A-8BC1-951549B06252'
-keywords: ["BG_FILE_PROGRESS structure"]
+ms.assetid: 49BDFEEE-D7BF-489A-8BC1-951549B06252
+keywords:
+- BG_FILE_PROGRESS structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BG\_FILE\_PROGRESS structure
@@ -24,7 +30,7 @@ The **BG\_FILE\_PROGRESS** structure provides file-related progress information,
 typedef struct _BG_FILE_PROGRESS {
   UINT64 BytesTotal;
   UINT64 BytesTransferred;
-  BOOL   Completed;
+  BOOL   Completed;
 } BG_FILE_PROGRESS;
 ```
 
@@ -69,7 +75,7 @@ To determine if DO transferred the file, you can:
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
@@ -85,9 +91,9 @@ To determine if DO transferred the file, you can:
 [**IBackgroundCopyFile::GetProgress**](ibackgroundcopyfile-getprogress-method.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the duration of the media source in 100-nanosecond units.'
-ms.assetid: 'dc3dc600-ca81-40da-9edb-0af283ba9221'
-title: 'IMFMediaSourceExtension::SetDuration method'
+---
+Description: Sets the duration of the media source in 100-nanosecond units.
+ms.assetid: dc3dc600-ca81-40da-9edb-0af283ba9221
+title: IMFMediaSourceExtensionSetDuration method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFMediaSourceExtension::SetDuration method
@@ -50,7 +55,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IMFMediaSourceExtension**](imfmediasourceextension.md)
+[**IMFMediaSourceExtension**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediasourceextension?branch=master)
 </dt> </dl>
 
  

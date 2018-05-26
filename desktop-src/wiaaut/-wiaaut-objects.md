@@ -1,7 +1,12 @@
 ---
 title: Objects
 description: This section contains reference information for the Windows Image Acquisition (WIA) Automation Layer objects.
-ms.assetid: '836be5e5-11cc-4f76-a3e8-02458b41f3f6'
+ms.assetid: 836be5e5-11cc-4f76-a3e8-02458b41f3f6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Objects

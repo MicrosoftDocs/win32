@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts the specified mesh subset into a single triangle strip.'
-ms.assetid: '618c7bee-dd09-4379-bb8b-30505e809df9'
+---
+Description: Converts the specified mesh subset into a single triangle strip.
+ms.assetid: 618c7bee-dd09-4379-bb8b-30505e809df9
 title: D3DXConvertMeshSubsetToSingleStrip function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXConvertMeshSubsetToSingleStrip function
@@ -57,9 +62,9 @@ Combination of one or more flags from the [**D3DXMESH**](direct3d9.d3dxmesh) enu
 *ppIndexBuffer* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DINDEXBUFFER9**](idirect3dindexbuffer9.md)\***
+Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dindexbuffer9?branch=master)\***
 
-Pointer to an [**IDirect3DIndexBuffer9**](idirect3dindexbuffer9.md) interface, representing the index buffer containing the strip.
+Pointer to an [**IDirect3DIndexBuffer9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dindexbuffer9?branch=master) interface, representing the index buffer containing the strip.
 
 </dd> <dt>
 

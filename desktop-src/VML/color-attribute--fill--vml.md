@@ -1,7 +1,12 @@
 ---
 title: Color Attribute (Fill)(VML)
 description: Color Attribute (Fill)(VML)
-ms.assetid: '38e75bf5-4da9-4c58-af86-3554d03a6b7b'
+ms.assetid: 38e75bf5-4da9-4c58-af86-3554d03a6b7b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Attribute (Fill)(VML)

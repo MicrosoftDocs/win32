@@ -4,11 +4,12 @@ description: Retrieves the groups in the collection that come from a provider.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8C2AE592-67C9-4E57-B762-A95759F28538'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 8C2AE592-67C9-4E57-B762-A95759F28538
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_COLLECTION_GET_PROVIDER_GROUPS control code Failover Cluster"]
+keywords:
+- CLUSCTL_COLLECTION_GET_PROVIDER_GROUPS control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_COLLECTION\_GET\_PROVIDER\_GROUPS control code
 
 Retrieves the groups in the collection that come from a provider.
 
-Applications use this [control code](about-control-codes.md) as a [**ClusterGroupCollectionControl**](clustergroupcollectioncontrol.md) parameter.
+Applications use this [control code](about-control-codes.md) as a [**ClusterGroupCollectionControl**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_group_groupset_control?branch=master) parameter.
 
 
 ```C++
@@ -43,7 +47,7 @@ ClusterGroupCollectionControl(
 
 ## Parameters
 
-The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterGroupCollectionControl**](clustergroupcollectioncontrol.md).
+The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterGroupCollectionControl**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_group_groupset_control?branch=master).
 
 <dl> <dt>
 
@@ -56,7 +60,7 @@ On a successful return, points to a [property list](property-lists.md) containin
 
 ## Return value
 
-[**ClusterGroupCollectionControl**](clustergroupcollectioncontrol.md) returns one of the following values.
+[**ClusterGroupCollectionControl**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_group_groupset_control?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -95,17 +99,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_COLLECTION\_GET\_PROVIDER\_GROUPS as f
 
 | Component      | Bit location | Value                                                 |
 |----------------|--------------|-------------------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_GROUPSET** (0x7)                      |
+| Object code    | 24 31        | **CLUS\_OBJECT\_GROUPSET** (0x7)                      |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)                           |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)                            |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)                        |
 | Type bit       | 20           | External (0x0)                                        |
-| Operation code | 0–23         | **CLCTL\_COLLECTION\_GET\_PROVIDER\_GROUPS** (0x2D76) |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)                          |
+| Operation code | 0 23         | **CLCTL\_COLLECTION\_GET\_PROVIDER\_GROUPS** (0x2D76) |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)                          |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -114,7 +118,7 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_COLLECTION\_GET\_PROVIDER\_GROUPS as f
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                       |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -126,12 +130,12 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_COLLECTION\_GET\_PROVIDER\_GROUPS as f
 [Collection Control Codes](collection-control-codes-.md)
 </dt> <dt>
 
-[**ClusterGroupCollectionControl**](clustergroupcollectioncontrol.md)
+[**ClusterGroupCollectionControl**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_group_groupset_control?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

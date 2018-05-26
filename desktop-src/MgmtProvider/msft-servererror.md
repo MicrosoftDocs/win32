@@ -1,14 +1,16 @@
 ---
 title: MSFT\_ServerError class
-description: Represents an extended error information regarding the a failure in Server Manager's Provider.
+description: Represents an extended error information regarding the a failure in Server Managers Provider.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1006a78c-3357-4990-b918-c8cccc798da7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 1006a78c-3357-4990-b918-c8cccc798da7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_ServerError class", "MSFT_ServerError class, described"]
+keywords:
+- MSFT_ServerError class
+- MSFT_ServerError class, described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_ServerError class
@@ -1853,7 +1858,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 **DMTF Reserved**
 
 
-</dt> <dd>131–65535</dd> </dl>
+</dt> <dd>131 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1897,16 +1902,16 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

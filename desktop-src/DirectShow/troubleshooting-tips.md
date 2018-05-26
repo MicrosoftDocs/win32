@@ -1,7 +1,12 @@
 ---
 Description: Troubleshooting Tips
-ms.assetid: 'e87ad3bd-07ae-4b9d-b465-2ce4688bdd83'
+ms.assetid: e87ad3bd-07ae-4b9d-b465-2ce4688bdd83
 title: Troubleshooting Tips
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting Tips

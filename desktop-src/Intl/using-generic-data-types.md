@@ -1,7 +1,12 @@
 ---
-Description: 'If you use generic data types in your code, it can be compiled for Unicode simply by using a preprocessor directive to define &\#0034;UNICODE&\#0034; before the \#include statements for the header files.'
-ms.assetid: '1c9cbb18-9295-4847-86c1-d596668cbe57'
+Description: If you use generic data types in your code, it can be compiled for Unicode simply by using a preprocessor directive to define &\#0034;UNICODE&\#0034; before the \#include statements for the header files.
+ms.assetid: 1c9cbb18-9295-4847-86c1-d596668cbe57
 title: Using Generic Data Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Generic Data Types
@@ -48,7 +53,7 @@ To create source code that can be compiled either to use Unicode characters and 
 
     
 
-    Use the [**TEXT**](text.md) macro as follows in this expression.
+    Use the [**TEXT**](/windows/win32/Winnt/nf-winnt-text?branch=master) macro as follows in this expression.
 
     ```C++
     while(*lpFileName++ != TEXT('\\'))
@@ -59,7 +64,7 @@ To create source code that can be compiled either to use Unicode characters and 
 
     
 
-    The [**TEXT**](text.md) macro causes strings to be evaluated as L"string" when UNICODE is defined, and as "string" otherwise. For easier management, move literal strings into resources, especially if they contain characters outside the ASCII range (0x00 through 0x7F) or are exposed at the user interface. To support localization of your application for different national languages, it is very important for all user interface strings to be in localizable resources.
+    The [**TEXT**](/windows/win32/Winnt/nf-winnt-text?branch=master) macro causes strings to be evaluated as L"string" when UNICODE is defined, and as "string" otherwise. For easier management, move literal strings into resources, especially if they contain characters outside the ASCII range (0x00 through 0x7F) or are exposed at the user interface. To support localization of your application for different national languages, it is very important for all user interface strings to be in localizable resources.
 
 6.  Use the generic versions of the Windows functions. For more information, see [Conventions for Function Prototypes](conventions-for-function-prototypes.md).
 7.  Use the generic versions of the standard C library string functions, and remember to define "\_UNICODE" as well as "UNICODE", as discussed in [Standard C Functions](standard-c-functions.md).

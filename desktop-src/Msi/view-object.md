@@ -1,7 +1,12 @@
-﻿---
-Description: 'The View object represents a result set obtained when processing a query using the OpenView method of the Database object.'
-ms.assetid: '5df2a4f3-6352-4575-b822-1811150a86be'
+---
+Description: The View object represents a result set obtained when processing a query using the OpenView method of the Database object.
+ms.assetid: 5df2a4f3-6352-4575-b822-1811150a86be
 title: View object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # View object

@@ -1,8 +1,11 @@
 ---
 title: IVMTask WaitForCompletion method
 description: Waits for the task to complete or for the specified time-out interval to elapse.
-ms.assetid: '28718c54-4411-4c69-89de-35ea6a8d074c'
-keywords: ["WaitForCompletion method Virtual PC", "WaitForCompletion method Virtual PC , IVMTask interface", "IVMTask interface Virtual PC , WaitForCompletion method"]
+ms.assetid: 28718c54-4411-4c69-89de-35ea6a8d074c
+keywords:
+- WaitForCompletion method Virtual PC
+- WaitForCompletion method Virtual PC , IVMTask interface
+- IVMTask interface Virtual PC , WaitForCompletion method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask::WaitForCompletion method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Waits for the task to complete or for the specified time-out interval to elapse.
 
@@ -24,7 +32,7 @@ Waits for the task to complete or for the specified time-out interval to elapse.
 
 ```C++
 HRESULT WaitForCompletion(
-  [in] long timeout
+  [in] long timeout
 );
 ```
 
@@ -55,7 +63,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +75,9 @@ The **WaitForCompletion** method puts the current execution thread to sleep unti
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMTask is defined as ab72b222-6e9c-48ae-aa54-85e3e635767c<br/>                    |
@@ -83,9 +91,9 @@ The **WaitForCompletion** method puts the current execution thread to sleep unti
 [**IVMTask**](ivmtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

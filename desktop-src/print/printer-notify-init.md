@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '45DFA669-8520-4EA5-8B36-822BDC8C958D'
-title: 'PRINTER\_NOTIFY\_INIT structure'
+---
+Description: .
+ms.assetid: 45DFA669-8520-4EA5-8B36-822BDC8C958D
+title: PRINTER\_NOTIFY\_INIT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PRINTER\_NOTIFY\_INIT structure

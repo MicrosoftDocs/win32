@@ -1,8 +1,9 @@
 ---
 title: MimeOleConvertEnrichedToHTML function
 description: Do not use. Converts text/enriched to text/html.
-ms.assetid: '8aa953d0-49f9-4ea7-ab1c-a97fd34db90a'
-keywords: ["MimeOleConvertEnrichedToHTML function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 8aa953d0-49f9-4ea7-ab1c-a97fd34db90a
+keywords:
+- MimeOleConvertEnrichedToHTML function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleConvertEnrichedToHTML function
@@ -22,9 +28,9 @@ Do not use. Converts text/enriched to text/html.
 
 ```C++
 HRESULT MimeOleConvertEnrichedToHTML(
-  _In_ CODEPAGEID codepage,
-  _In_ IStream    *pIn,
-  _In_ IStream    *pOut
+  _In_ CODEPAGEID codepage,
+  _In_ IStream    *pIn,
+  _In_ IStream    *pOut
 );
 ```
 
@@ -75,7 +81,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -83,8 +89,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -92,9 +98,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that specifies whether the window should realize its palette. If TRUE, the window does not realize its palette. The default value is FALSE.'
-ms.assetid: '7039d41a-daea-4128-9e1c-3cbd0c05ce13'
-title: 'CBaseWindow::m\_bNoRealize member'
+Description: Flag that specifies whether the window should realize its palette. If TRUE, the window does not realize its palette. The default value is FALSE.
+ms.assetid: 7039d41a-daea-4128-9e1c-3cbd0c05ce13
+title: CBaseWindowm\_bNoRealize member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_bNoRealize member
@@ -35,9 +40,9 @@ BYTE m_bNoRealize;
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

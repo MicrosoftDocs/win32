@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RemovePrintDeviceObject function removes a device object from a print provider queue.'
-ms.assetid: 'D94A669E-4293-4235-8BC4-C7883BB0C83C'
+---
+Description: The RemovePrintDeviceObject function removes a device object from a print provider queue.
+ms.assetid: D94A669E-4293-4235-8BC4-C7883BB0C83C
 title: RemovePrintDeviceObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemovePrintDeviceObject function

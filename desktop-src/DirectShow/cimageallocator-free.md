@@ -1,7 +1,12 @@
 ---
-Description: 'The Free method releases all of the buffer memory. This method implements the pure virtual CBaseAllocator::Free method.'
-ms.assetid: 'fbfaa75b-00d7-4f81-a013-5b15bba96834'
-title: 'CImageAllocator.Free method'
+Description: The Free method releases all of the buffer memory. This method implements the pure virtual CBaseAllocatorFree method.
+ms.assetid: fbfaa75b-00d7-4f81-a013-5b15bba96834
+title: CImageAllocator.Free method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageAllocator.Free method
@@ -43,9 +48,9 @@ This method does not return a value.
 [**CImageAllocator Class**](cimageallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

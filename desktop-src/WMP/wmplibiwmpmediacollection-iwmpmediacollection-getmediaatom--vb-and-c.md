@@ -1,8 +1,11 @@
 ---
 title: IWMPMediaCollection getMediaAtom method
 description: The getMediaAtom method returns the index of a specified attribute within the set of available attributes.
-ms.assetid: '01e3d073-677b-4939-96d3-63ae96eaa25d'
-keywords: ["getMediaAtom method Windows Media Player", "getMediaAtom method Windows Media Player , IWMPMediaCollection interface", "IWMPMediaCollection interface Windows Media Player , getMediaAtom method"]
+ms.assetid: 01e3d073-677b-4939-96d3-63ae96eaa25d
+keywords:
+- getMediaAtom method Windows Media Player
+- getMediaAtom method Windows Media Player , IWMPMediaCollection interface
+- IWMPMediaCollection interface Windows Media Player , getMediaAtom method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMediaCollection::getMediaAtom method
@@ -95,9 +103,9 @@ Before calling this method, you must have read access to the library. For more i
 [**IWMPMediaCollection Interface (VB and C#)**](iwmpmediacollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

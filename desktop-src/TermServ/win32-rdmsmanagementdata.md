@@ -4,11 +4,13 @@ description: Synchronizes publishing data for Remote Desktop Management Services
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '17f06294-6580-4297-9301-f88314db7775'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 17f06294-6580-4297-9301-f88314db7775
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_RDMSManagementData class Remote Desktop Services", "Win32_RDMSManagementData class Remote Desktop Services , described"]
+keywords:
+- Win32_RDMSManagementData class Remote Desktop Services
+- Win32_RDMSManagementData class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_RDMSManagementData class
@@ -53,7 +58,7 @@ The **Win32\_RDMSManagementData** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,7 +67,7 @@ The **Win32\_RDMSManagementData** class has these methods.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\cimv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -76,9 +81,9 @@ The **Win32\_RDMSManagementData** class has these methods.
 [Remote Desktop Management Services Provider](rdms-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the attributes of the patch.'
-ms.assetid: '601a3275-25ea-4e16-8297-a9fc1f5fdd49'
-title: 'ID3DXPatchMesh::GetPatchInfo method'
+---
+Description: Gets the attributes of the patch.
+ms.assetid: 601a3275-25ea-4e16-8297-a9fc1f5fdd49
+title: ID3DXPatchMeshGetPatchInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPatchMesh::GetPatchInfo method

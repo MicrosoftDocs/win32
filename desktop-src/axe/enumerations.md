@@ -1,14 +1,20 @@
 ---
 title: Enumerations element
 description: Contains one or more Enumeration elements.
-ms.assetid: '00C818DA-8A99-4269-8ED3-5CB1C72B31B9'
-keywords: ["Enumerations element Access Execution Engine"]
+ms.assetid: 00C818DA-8A99-4269-8ED3-5CB1C72B31B9
+keywords:
+- Enumerations element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Enumerations
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerations element
@@ -70,9 +76,9 @@ Enumeration
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

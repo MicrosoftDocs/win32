@@ -1,7 +1,12 @@
 ---
 Description: Setting the Group Media Type
-ms.assetid: '05f0fdcb-74a4-441e-ac3c-d3d2c1dfee80'
+ms.assetid: 05f0fdcb-74a4-441e-ac3c-d3d2c1dfee80
 title: Setting the Group Media Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Group Media Type
@@ -10,7 +15,7 @@ title: Setting the Group Media Type
 
 All groups must define an uncompressed media type, either audio or video. The uncompressed media type is the format that viewers see or hear during playback. Typically, the final output will be in a compressed format. For more information, see [Rendering a Project](rendering-a-project.md).
 
-To set the uncompressed format, create an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure and fill it with the appropriate major type, subtype, and format header. For video, allocate a [**VIDEOINFOHEADER**](videoinfoheader.md) structure for the format block, and set the width, height, and bit depth. For audio, allocate a [**WAVEFORMATEX**](waveformatex.md) structure for the format block, and set the sample rate, bit depth, and number of channels. If you set just the major type, DES provides reasonable defaults for the other values. In practice, you should set the values explicitly to control the output.
+To set the uncompressed format, create an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure and fill it with the appropriate major type, subtype, and format header. For video, allocate a [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure for the format block, and set the width, height, and bit depth. For audio, allocate a [**WAVEFORMATEX**](/windows/win32/mmreg/?branch=master) structure for the format block, and set the sample rate, bit depth, and number of channels. If you set just the major type, DES provides reasonable defaults for the other values. In practice, you should set the values explicitly to control the output.
 
 After you initialize the media type structure, call the [**IAMTimelineGroup::SetMediaType**](iamtimelinegroup-setmediatype.md) method to set the media type for the group.
 

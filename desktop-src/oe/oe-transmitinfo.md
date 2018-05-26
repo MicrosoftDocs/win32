@@ -1,8 +1,10 @@
 ---
 title: TRANSMITINFO structure
 description: Do not use. Holds transmission information about a message body.
-ms.assetid: '94d0de66-e432-4096-9d49-a5a993a65a6a'
-keywords: ["TRANSMITINFO structure Windows Mail (formerly Outlook Express)", "LPTRANSMITINFO structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 94d0de66-e432-4096-9d49-a5a993a65a6a
+keywords:
+- TRANSMITINFO structure Windows Mail (formerly Outlook Express)
+- LPTRANSMITINFO structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TRANSMITINFO structure
@@ -25,11 +32,11 @@ typedef struct tagTRANSMITINFO {
   ENCODINGTYPE ietCurrent;
   ENCODINGTYPE ietXmitMime;
   ENCODINGTYPE ietXmit822;
-  ULONG        cbLongestLine;
-  ULONG        cExtended;
-  ULONG        ulPercentExt;
-  ULONG        cbSize;
-  ULONG        cLines;
+  ULONG        cbLongestLine;
+  ULONG        cExtended;
+  ULONG        ulPercentExt;
+  ULONG        cbSize;
+  ULONG        cLines;
 } TRANSMITINFO, *LPTRANSMITINFO;
 ```
 
@@ -137,17 +144,17 @@ This structure is used with the [**GetTransmitInfo**](oe-imimebody-gettransmitin
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

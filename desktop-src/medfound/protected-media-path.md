@@ -1,7 +1,12 @@
 ---
-Description: 'This topic discusses three interrelated topics: protected environment, media interoperability gateway, and revocation and renewal.'
-ms.assetid: 'e88806ae-0041-4b4a-a8df-69718a651e82'
+Description: This topic discusses three interrelated topics protected environment, media interoperability gateway, and revocation and renewal.
+ms.assetid: e88806ae-0041-4b4a-a8df-69718a651e82
 title: Protected Media Path
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Protected Media Path
@@ -90,7 +95,7 @@ A policy object encapsulates the content protection requirements of an ITA. It i
 
 ### Creating Objects in the PMP
 
-To create an object in the protected media path (PMP), the [**IMFMediaSource**](imfmediasource.md) calls [**IMFPMPHostApp::ActivateClassById**](imfpmphostapp-activateclassbyid.md), with the specified input **IStream** formatted in the following way:
+To create an object in the protected media path (PMP), the [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) calls [**IMFPMPHostApp::ActivateClassById**](/windows/win32/mfidl/nf-mfidl-imfpmphostapp-activateclassbyid?branch=master), with the specified input **IStream** formatted in the following way:
 
 ``` syntax
 Format: (All DWORD values are serialized in little-endian order)
@@ -114,9 +119,9 @@ When a user launches a player application and opens an ASF file that has a prote
 2.  The application creates a partial topology that contains an audio source node connected to the audio renderer, and a video source node connected to the enhanced video renderer (EVR). For the renderers, the application does not directly create the renderer. Instead, the application creates in the unprotected process an object known as an *activation object*. The PMP uses the activation object to create the renderers in the protected process. (For more information about activation objects, see [Activation Objects](activation-objects.md).)
 3.  The application sets the partial topology on the PMP session.
 4.  The PMP session serializes the topology and passes it to the PMP host in the protected process. The PMP host sends the topology to the policy engine.
-5.  The topology loader calls [**IMFInputTrustAuthority::GetDecrypter**](imfinputtrustauthority-getdecrypter.md) on the ITAs and inserts the decrypters into the topology immediately downstream of the corresponding source nodes.
+5.  The topology loader calls [**IMFInputTrustAuthority::GetDecrypter**](/windows/win32/mfidl/nf-mfidl-imfinputtrustauthority-getdecrypter?branch=master) on the ITAs and inserts the decrypters into the topology immediately downstream of the corresponding source nodes.
 6.  The topology loader inserts the audio and video decoders downstream of the decrypter nodes.
-7.  The policy engine scans the inserted nodes to determine whether any implement the [**IMFTrustedOutput**](imftrustedoutput.md) interface. The EVR and the audio renderer both implement **IMFTrustedOutput**, because they send data outside the PMP.
+7.  The policy engine scans the inserted nodes to determine whether any implement the [**IMFTrustedOutput**](/windows/win32/mfidl/nn-mfidl-imftrustedoutput?branch=master) interface. The EVR and the audio renderer both implement **IMFTrustedOutput**, because they send data outside the PMP.
 8.  Each ITA confirms that it is running inside a protected process by performing a cryptographic handshake with a protected environment kernel module.
 9.  For each stream, the policy engine negotiates policy by getting a policy object from the ITA and passing it to the OTA. The OTA provides a list of the protection systems that it supports, and the policy object indicates which protection systems must be applied, along with the correct settings. The OTA then applies these settings. If it cannot do so, the content is blocked.
 

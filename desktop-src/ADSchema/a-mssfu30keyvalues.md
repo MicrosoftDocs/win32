@@ -4,17 +4,22 @@ description: Contains internal data that the NIS server uses to store temporary 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7c3bc936-f35c-456f-9f3e-7fe11ed1c98b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7c3bc936-f35c-456f-9f3e-7fe11ed1c98b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["msSFU-30-Key-Values attribute AD Schema", "msSFU30KeyValues attribute AD Schema"]
+keywords:
+- msSFU-30-Key-Values attribute AD Schema
+- msSFU30KeyValues attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - msSFU-30-Key-Values
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msSFU-30-Key-Values attribute
@@ -38,10 +43,10 @@ Contains internal data that the NIS server uses to store temporary data.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -127,9 +132,9 @@ Contains internal data that the NIS server uses to store temporary data.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Windows Media Video 9 decoder decodes video streams that were encoded by the Windows Media Video Encoder.'
-ms.assetid: '08f68d1c-c226-4bf6-abd0-fce0f9ddbc05'
+---
+Description: The Windows Media Video 9 decoder decodes video streams that were encoded by the Windows Media Video Encoder.
+ms.assetid: 08f68d1c-c226-4bf6-abd0-fce0f9ddbc05
 title: Windows Media Video 9 Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Video 9 Decoder
@@ -19,7 +24,7 @@ The class identifier (CLSID) for the Windows Media Video decoder is represented 
 
 ## Interfaces
 
-A video decoder object exposes the [**IMediaObject**](dshow.imediaobject) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](imftransform.md) interface so that the object can be used as a Media Foundation Transform (MFT).
+A video decoder object exposes the [**IMediaObject**](dshow.imediaobject) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface so that the object can be used as a Media Foundation Transform (MFT).
 
 A video decoder behaves as a DMO or an MFT depending on which interfaces you obtain and which version of Windows is running. The following table shows the conditions under which a video decoder behaves as a DMO or an MFT.
 
@@ -28,7 +33,7 @@ A video decoder behaves as a DMO or an MFT depending on which interfaces you obt
 | Operating system            | Decoder behavior                                                                                                                                                      |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows XP                  | A Windows Media video decoder always behaves as a DMO.                                                                                                                |
-| Windows Vista and Windows 7 | By default, a Windows Media video decoder behaves as a DMO. If you obtain an [**IMFTransform**](imftransform.md) interface on a video decoder, it behaves as an MFT. |
+| Windows Vista and Windows 7 | By default, a Windows Media video decoder behaves as a DMO. If you obtain an [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface on a video decoder, it behaves as an MFT. |
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Duration
 description: The Duration attribute contains the playing duration of the file, in 100-nanosecond units.
-ms.assetid: '1d72f826-4087-45f5-a5b9-f31c4e98e9b1'
-keywords: ["Duration windows Media Format"]
+ms.assetid: 1d72f826-4087-45f5-a5b9-f31c4e98e9b1
+keywords:
+- Duration windows Media Format
 topic_type:
 - apiref
 api_name:
 - Duration
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Duration

@@ -1,8 +1,10 @@
 ---
 title: POP3LIST structure
 description: Contains the response data from the LIST command.
-ms.assetid: 'ed54d97a-a0cf-424d-8447-94cf1a7ac981'
-keywords: ["POP3LIST structure Windows Mail (formerly Outlook Express)", "LPPOP3LIST structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: ed54d97a-a0cf-424d-8447-94cf1a7ac981
+keywords:
+- POP3LIST structure Windows Mail (formerly Outlook Express)
+- LPPOP3LIST structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # POP3LIST structure
@@ -63,17 +70,17 @@ Contains a **DWORD** that holds the size (in bytes) of the message on the server
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

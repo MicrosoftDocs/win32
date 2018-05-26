@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_FUNCTIONAL\_CATEGORY\_RENDERING\_INFORMATION'
-ms.assetid: '84ec6f14-fe90-42a5-ba2b-6c4cc406935c'
-title: 'WPD\_FUNCTIONAL\_CATEGORY\_RENDERING\_INFORMATION'
+Description: WPD\_FUNCTIONAL\_CATEGORY\_RENDERING\_INFORMATION
+ms.assetid: 84ec6f14-fe90-42a5-ba2b-6c4cc406935c
+title: WPD\_FUNCTIONAL\_CATEGORY\_RENDERING\_INFORMATION
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_FUNCTIONAL\_CATEGORY\_RENDERING\_INFORMATION

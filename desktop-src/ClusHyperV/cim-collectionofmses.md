@@ -4,13 +4,15 @@ description: An abstract class for subclasses that represent a collection of CIM
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3ddb8e3f-5296-48ff-80d3-c1bb92600d32'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3ddb8e3f-5296-48ff-80d3-c1bb92600d32
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_CollectionOfMSEs class", "CIM_CollectionOfMSEs class, described"]
+keywords:
+- CIM_CollectionOfMSEs class
+- CIM_CollectionOfMSEs class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_CollectionOfMSEs class
@@ -33,7 +38,7 @@ An abstract class for subclasses that represent a collection of [**CIM\_ManagedS
 > [!Note]  
 > These collections are for grouping purposes and must not define state or status information.
 
- 
+ 
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -150,7 +155,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedElement**](cim-managedelement.md).
 
@@ -163,7 +168,7 @@ This property is inherited from [**CIM\_ManagedElement**](cim-managedelement.md)
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -180,9 +185,9 @@ This property is inherited from [**CIM\_ManagedElement**](cim-managedelement.md)
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

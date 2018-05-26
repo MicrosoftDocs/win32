@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes considerations for deploying your MUI application for optimal use by the application loading logic and the resource loader.'
-ms.assetid: '6c10b355-9bdd-4dba-8446-91034d4fe9b8'
+Description: This section describes considerations for deploying your MUI application for optimal use by the application loading logic and the resource loader.
+ms.assetid: 6c10b355-9bdd-4dba-8446-91034d4fe9b8
 title: Application Deployment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Deployment

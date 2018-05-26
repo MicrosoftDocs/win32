@@ -1,8 +1,11 @@
 ---
 title: IWMPMediaCollection getAttributeStringCollection method
 description: The getAttributeStringCollection method returns an IWMPStringCollection interface that represents the set of all values for a specified attribute within a media type.
-ms.assetid: '5ac19c04-75db-4618-9c4e-b20e2f709024'
-keywords: ["getAttributeStringCollection method Windows Media Player", "getAttributeStringCollection method Windows Media Player , IWMPMediaCollection interface", "IWMPMediaCollection interface Windows Media Player , getAttributeStringCollection method"]
+ms.assetid: 5ac19c04-75db-4618-9c4e-b20e2f709024
+keywords:
+- getAttributeStringCollection method Windows Media Player
+- getAttributeStringCollection method Windows Media Player , IWMPMediaCollection interface
+- IWMPMediaCollection interface Windows Media Player , getAttributeStringCollection method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMediaCollection::getAttributeStringCollection method
@@ -185,9 +193,9 @@ End Sub</code></pre></td>
 [**IWMPStringCollection Interface (VB and C#)**](iwmpstringcollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

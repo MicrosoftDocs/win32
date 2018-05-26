@@ -1,14 +1,20 @@
 ---
 title: REPEATBUTTON
 description: This is a predefined BUTTON with the following default values.
-ms.assetid: '4322ee45-c2b2-4fa0-aa9c-624be5d464ea'
-keywords: ["REPEATBUTTON Windows Media Player"]
+ms.assetid: 4322ee45-c2b2-4fa0-aa9c-624be5d464ea
+keywords:
+- REPEATBUTTON Windows Media Player
 topic_type:
 - apiref
 api_name:
 - REPEATBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # REPEATBUTTON
@@ -44,9 +50,9 @@ This creates a **BUTTON** control that toggles Repeat on and off. The ToolTips a
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

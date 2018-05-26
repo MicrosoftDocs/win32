@@ -1,8 +1,22 @@
 ---
 title: Manufacturer and Product Identifiers
 description: Manufacturer and Product Identifiers
-ms.assetid: 'ab68ffd2-208f-445b-9f5c-37159edb4d4b'
-keywords: ["Windows multimedia,manufacturer identifiers", "multimedia,manufacturer identifiers", "Windows multimedia,product identifiers", "multimedia,product identifiers", "manufacturer identifiers", "product identifiers", "multimedia manufacturer identifiers", "multimedia product identifiers", "multimedia companies"]
+ms.assetid: ab68ffd2-208f-445b-9f5c-37159edb4d4b
+keywords:
+- Windows multimedia,manufacturer identifiers
+- multimedia,manufacturer identifiers
+- Windows multimedia,product identifiers
+- multimedia,product identifiers
+- manufacturer identifiers
+- product identifiers
+- multimedia manufacturer identifiers
+- multimedia product identifiers
+- multimedia companies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manufacturer and Product Identifiers

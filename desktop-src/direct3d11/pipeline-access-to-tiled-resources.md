@@ -1,7 +1,12 @@
 ---
 title: Pipeline access to tiled resources
-description: Tiled resources can be used in shader resource views (SRV), render target views (RTV), depth stencil views (DSV) and unordered access views (UAV), as well as some bind points where views aren't used, such as vertex buffer bindings.
-ms.assetid: 'D0BC0B6C-2325-4EAF-9E80-E748F58045B1'
+description: Tiled resources can be used in shader resource views (SRV), render target views (RTV), depth stencil views (DSV) and unordered access views (UAV), as well as some bind points where views arent used, such as vertex buffer bindings.
+ms.assetid: D0BC0B6C-2325-4EAF-9E80-E748F58045B1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pipeline access to tiled resources
@@ -29,7 +34,7 @@ This section provides more info about pipeline access to tiled resources.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -38,9 +43,9 @@ This section provides more info about pipeline access to tiled resources.
 [Tiled resources](tiled-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

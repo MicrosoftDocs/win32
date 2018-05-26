@@ -1,7 +1,12 @@
-﻿---
-Description: 'The COMPROPSHEETUI structure is used as an input parameter to CPSUI''s ComPropSheet function, if the function code is CPSFUNC\_ADD\_PCOMPROPSHEETUI. All structure members must be supplied by the caller of ComPropSheet.'
-ms.assetid: '7ebf46b7-5c31-482e-8644-a3d81f7dc5cc'
+---
+Description: The COMPROPSHEETUI structure is used as an input parameter to CPSUIs ComPropSheet function, if the function code is CPSFUNC\_ADD\_PCOMPROPSHEETUI. All structure members must be supplied by the caller of ComPropSheet.
+ms.assetid: 7ebf46b7-5c31-482e-8644-a3d81f7dc5cc
 title: COMPROPSHEETUI structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COMPROPSHEETUI structure

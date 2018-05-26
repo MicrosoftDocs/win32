@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '845FA810-0286-4FA9-9BD4-A160989C581A'
-title: 'IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration method'
+---
+Description: .
+ms.assetid: 845FA810-0286-4FA9-9BD4-A160989C581A
+title: IPrintAsyncNotifyCreatePrintAsyncNotifyRegistration method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration method

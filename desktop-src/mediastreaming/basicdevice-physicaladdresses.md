@@ -1,14 +1,22 @@
 ---
 title: BasicDevice.PhysicalAddresses property
 description: Gets a vector of physical addresses.
-ms.assetid: 'E9D86D13-8DD4-40BA-8608-54F8B3832E05'
-keywords: ["PhysicalAddresses property Media Streaming API", "PhysicalAddresses property Media Streaming API , BasicDevice interface", "BasicDevice interface Media Streaming API , PhysicalAddresses property"]
+ms.assetid: E9D86D13-8DD4-40BA-8608-54F8B3832E05
+keywords:
+- PhysicalAddresses property Media Streaming API
+- PhysicalAddresses property Media Streaming API , BasicDevice interface
+- BasicDevice interface Media Streaming API , PhysicalAddresses property
 topic_type:
 - apiref
 api_name:
 - BasicDevice.PhysicalAddresses
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BasicDevice.PhysicalAddresses property

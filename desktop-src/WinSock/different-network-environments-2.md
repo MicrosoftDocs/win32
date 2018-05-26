@@ -1,7 +1,12 @@
 ---
-Description: 'Several network environments affect the networked behavior of an application.'
-ms.assetid: '4a530a17-5e61-4730-95f5-233261b4ceb0'
+Description: Several network environments affect the networked behavior of an application.
+ms.assetid: 4a530a17-5e61-4730-95f5-233261b4ceb0
 title: Different Network Environments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Different Network Environments

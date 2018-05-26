@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the selected CPU Sets assignment for the specified thread. This assignment overrides the process default assignment, if one is set.'
-ms.assetid: 'A73F7118-CC4A-45E6-869A-DFF6924D10C8'
+---
+Description: Sets the selected CPU Sets assignment for the specified thread. This assignment overrides the process default assignment, if one is set.
+ms.assetid: A73F7118-CC4A-45E6-869A-DFF6924D10C8
 title: SetThreadSelectedCpuSets function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetThreadSelectedCpuSets function
@@ -28,7 +33,7 @@ BOOL WINAPI SetThreadSelectedCpuSets(
 *Thread* \[in\]
 </dt> <dd>
 
-Specifies the thread on which to set the CPU Set assignment. This handle must have the THREAD\_SET\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentThread**](getcurrentthread.md) can also be used.
+Specifies the thread on which to set the CPU Set assignment. This handle must have the THREAD\_SET\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentThread**](/windows/win32/WinBase/nf-processthreadsapi-getcurrentthread?branch=master) can also be used.
 
 </dd> <dt>
 

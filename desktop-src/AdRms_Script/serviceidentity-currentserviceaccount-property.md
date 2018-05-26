@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the current service account from the server.'
+Description: Retrieves the current service account from the server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '10a6b16b-b7b5-49d2-88d4-7161ddc09fa6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 10a6b16b-b7b5-49d2-88d4-7161ddc09fa6
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ServiceIdentity.CurrentServiceAccount property'
+title: ServiceIdentity.CurrentServiceAccount property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ServiceIdentity.CurrentServiceAccount property
@@ -97,7 +100,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -109,9 +112,9 @@ END FUNCTION
 [**ServiceIdentity**](serviceidentity-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

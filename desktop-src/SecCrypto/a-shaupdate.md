@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds data to a specified hash object.'
-ms.assetid: '8E32BBC4-C2DD-4174-9FF1-9001E4A7D87B'
-title: 'A\_SHAUpdate function'
+---
+Description: Adds data to a specified hash object.
+ms.assetid: 8E32BBC4-C2DD-4174-9FF1-9001E4A7D87B
+title: A\_SHAUpdate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # A\_SHAUpdate function

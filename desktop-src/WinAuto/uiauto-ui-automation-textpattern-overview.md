@@ -1,8 +1,30 @@
 ---
 title: UI Automation Support for Textual Content
 description: This section describes how to use Microsoft UI Automation to expose the textual content, including format and style attributes, of text controls in UI Automation-supported platforms.
-ms.assetid: '98a82ff8-f4b9-4f62-ae69-31a2c18de70e'
-keywords: ["UI Automation,textual content support", "UI Automation,text pattern overview", "UI Automation,text controls overview", "UI Automation,Text control pattern", "UI Automation,Text Services Framework (TSF)", "UI Automation,TSF", "UI Automation,performance", "text patterns,about", "text patterns,Text Services Framework (TSF)", "text controls,about", "textual content,support for", "text controls,performance", "Text control pattern", "control patterns,Text", "Text Services Framework (TSF)", "TSF (Text Services Framework)", "performance"]
+ms.assetid: 98a82ff8-f4b9-4f62-ae69-31a2c18de70e
+keywords:
+- UI Automation,textual content support
+- UI Automation,text pattern overview
+- UI Automation,text controls overview
+- UI Automation,Text control pattern
+- UI Automation,Text Services Framework (TSF)
+- UI Automation,TSF
+- UI Automation,performance
+- text patterns,about
+- text patterns,Text Services Framework (TSF)
+- text controls,about
+- textual content,support for
+- text controls,performance
+- Text control pattern
+- control patterns,Text
+- Text Services Framework (TSF)
+- TSF (Text Services Framework)
+- performance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Support for Textual Content

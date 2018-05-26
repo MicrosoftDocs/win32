@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DOCEVENT\_ESCAPE structure is a container for values used as parameters for the ExtEscape function.'
-ms.assetid: '54ac7c45-63a1-4003-8250-524e6f9e8d06'
-title: 'DOCEVENT\_ESCAPE structure'
+---
+Description: The DOCEVENT\_ESCAPE structure is a container for values used as parameters for the ExtEscape function.
+ms.assetid: 54ac7c45-63a1-4003-8250-524e6f9e8d06
+title: DOCEVENT\_ESCAPE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOCEVENT\_ESCAPE structure

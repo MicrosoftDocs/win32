@@ -1,7 +1,12 @@
 ---
-Description: 'When the job is executing or has terminated without error, then this method returns no Msvm\_Error instance.'
-ms.assetid: '119E7EFD-78C9-46F1-8A53-C51A7A34B32E'
-title: 'GetErrorEx method of the Msvm\_StorageJob class'
+Description: When the job is executing or has terminated without error, then this method returns no Msvm\_Error instance.
+ms.assetid: 119E7EFD-78C9-46F1-8A53-C51A7A34B32E
+title: GetErrorEx method of the Msvm\_StorageJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetErrorEx method of the Msvm\_StorageJob class
@@ -13,7 +18,7 @@ When the job is executing or has terminated without error, then this method retu
 
 ```mof
 uint32 GetErrorEx(
-  [out] string Errors[]
+  [out] string Errors[]
 );
 ```
 
@@ -86,8 +91,8 @@ Access to the [**Msvm\_StorageJob**](msvm-storagejob.md) class might be restrict
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -101,9 +106,9 @@ Access to the [**Msvm\_StorageJob**](msvm-storagejob.md) class might be restrict
 [**Msvm\_StorageJob**](msvm-storagejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

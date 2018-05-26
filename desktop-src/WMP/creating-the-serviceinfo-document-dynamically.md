@@ -1,8 +1,28 @@
 ---
 title: Creating the ServiceInfo Document Dynamically
 description: Creating the ServiceInfo Document Dynamically
-ms.assetid: '96937b04-f705-49f6-8ddf-25c98a51dc9a'
-keywords: ["Windows Media Player online stores,creating ServiceInfo document", "online stores,creating ServiceInfo document", "type 1 online stores,creating ServiceInfo document", "type 2 online stores,creating ServiceInfo document", "Windows Media Player online stores,dynamically creating ServiceInfo document", "online stores,dynamically creating ServiceInfo document", "type 1 online stores,dynamically creating ServiceInfo document", "type 2 online stores,dynamically creating ServiceInfo document", "Windows Media Player online stores,ServiceInfo document", "online stores,ServiceInfo document", "type 1 online stores,ServiceInfo document", "type 2 online stores,ServiceInfo document", "dynamically creating ServiceInfo document", "creating ServiceInfo document", "ServiceInfo document"]
+ms.assetid: 96937b04-f705-49f6-8ddf-25c98a51dc9a
+keywords:
+- Windows Media Player online stores,creating ServiceInfo document
+- online stores,creating ServiceInfo document
+- type 1 online stores,creating ServiceInfo document
+- type 2 online stores,creating ServiceInfo document
+- Windows Media Player online stores,dynamically creating ServiceInfo document
+- online stores,dynamically creating ServiceInfo document
+- type 1 online stores,dynamically creating ServiceInfo document
+- type 2 online stores,dynamically creating ServiceInfo document
+- Windows Media Player online stores,ServiceInfo document
+- online stores,ServiceInfo document
+- type 1 online stores,ServiceInfo document
+- type 2 online stores,ServiceInfo document
+- dynamically creating ServiceInfo document
+- creating ServiceInfo document
+- ServiceInfo document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the ServiceInfo Document Dynamically

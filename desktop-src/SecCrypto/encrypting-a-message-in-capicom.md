@@ -1,7 +1,12 @@
 ---
-Description: 'This subroutine takes a string to be encrypted, a password string to be used to generate an encryption key, and the name of a file where the encrypted message will be written.'
-ms.assetid: '9ad3199a-bca1-4990-80da-80744e349047'
+Description: This subroutine takes a string to be encrypted, a password string to be used to generate an encryption key, and the name of a file where the encrypted message will be written.
+ms.assetid: 9ad3199a-bca1-4990-80da-80744e349047
 title: Encrypting a Message in CAPICOM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encrypting a Message in CAPICOM

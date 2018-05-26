@@ -1,14 +1,20 @@
 ---
 title: BcdElementType structure
 description: Describes the layout of the BCD element types.
-ms.assetid: '1b296608-7866-4fd9-a81d-5b1944b2d78f'
-keywords: ["BcdElementType structure Boot Config"]
+ms.assetid: 1b296608-7866-4fd9-a81d-5b1944b2d78f
+keywords:
+- BcdElementType structure Boot Config
 topic_type:
 - apiref
 api_name:
 - BcdElementType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdElementType structure
@@ -21,7 +27,7 @@ Describes the layout of the BCD element types.
 ```C++
 typedef struct {
   union {
-    ULONG  PackedValue;
+    ULONG  PackedValue;
     struct {
       ULONG SubType  :24;
       ULONG Format  :4;
@@ -66,7 +72,7 @@ Describes the data format for elements of this type.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -86,7 +92,7 @@ Describes the consumer of the element type.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -96,8 +102,8 @@ Describes the consumer of the element type.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -120,9 +126,9 @@ Describes the consumer of the element type.
 [**BcdOSLoaderElementTypes**](bcdosloaderelementtypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

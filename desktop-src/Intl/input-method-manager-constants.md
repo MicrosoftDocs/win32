@@ -1,7 +1,12 @@
 ---
 Description: Input Method Manager Constants
-ms.assetid: '19c15148-7258-44da-aed3-41def992afb3'
+ms.assetid: 19c15148-7258-44da-aed3-41def992afb3
 title: Input Method Manager Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Method Manager Constants

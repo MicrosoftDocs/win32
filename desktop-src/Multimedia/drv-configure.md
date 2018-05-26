@@ -1,8 +1,9 @@
 ---
 title: DRV\_CONFIGURE message
 description: Directs the installable driver to display its configuration dialog box and let the user specify new settings for the given installable driver instance.
-ms.assetid: '0d99fad7-ce79-4574-9fd8-262f7e758866'
-keywords: ["DRV_CONFIGURE message Windows Multimedia"]
+ms.assetid: 0d99fad7-ce79-4574-9fd8-262f7e758866
+keywords:
+- DRV_CONFIGURE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRV\_CONFIGURE message
@@ -63,7 +69,7 @@ Returns one of these values:
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,8 +83,8 @@ The DRV\_CANCEL, DRV\_OK, and DRV\_RESTART return values are obsolete; they have
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -93,9 +99,9 @@ The DRV\_CANCEL, DRV\_OK, and DRV\_RESTART return values are obsolete; they have
 [Installable Driver Messages](installable-driver-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: EM\_SETTYPOGRAPHYOPTIONS message
 description: Sets the current state of the typography options of a rich edit control.
-ms.assetid: '000e72a6-3f8c-4735-8190-3ac06a2206ac'
-keywords: ["EM_SETTYPOGRAPHYOPTIONS message Windows Controls"]
+ms.assetid: 000e72a6-3f8c-4735-8190-3ac06a2206ac
+keywords:
+- EM_SETTYPOGRAPHYOPTIONS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETTYPOGRAPHYOPTIONS message
@@ -35,7 +41,7 @@ Specifies one or both of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -52,7 +58,7 @@ Returns **TRUE** if *wParam* is valid, otherwise **FALSE**.
 
 ## Remarks
 
-Advanced line breaking is turned on automatically by the rich edit control when needed, such as for handling complex scripts like Arabic and Hebrew, and for mathematics. It’s also needed for justified paragraphs, hyphenation, and other typographic features.
+Advanced line breaking is turned on automatically by the rich edit control when needed, such as for handling complex scripts like Arabic and Hebrew, and for mathematics. It s also needed for justified paragraphs, hyphenation, and other typographic features.
 
 ## Requirements
 
@@ -60,8 +66,8 @@ Advanced line breaking is turned on automatically by the rich edit control when 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Redistributable<br/>          | Rich Edit 3.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
@@ -74,9 +80,9 @@ Advanced line breaking is turned on automatically by the rich edit control when 
 [**EM\_GETTYPOGRAPHYOPTIONS**](em-gettypographyoptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

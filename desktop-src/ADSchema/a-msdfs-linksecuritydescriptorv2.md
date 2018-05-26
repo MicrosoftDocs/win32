@@ -1,20 +1,25 @@
 ---
 title: ms-DFS-Link-Security-Descriptor-v2 attribute
-description: Security descriptor of the DFS links's re-parse point on the file system.
+description: Security descriptor of the DFS linkss re-parse point on the file system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5a5a7a33-2228-4c1d-b1ea-79dcf7ab13d0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 5a5a7a33-2228-4c1d-b1ea-79dcf7ab13d0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFS-Link-Security-Descriptor-v2 attribute AD Schema", "msDFS-LinkSecurityDescriptorv2 attribute AD Schema"]
+keywords:
+- ms-DFS-Link-Security-Descriptor-v2 attribute AD Schema
+- msDFS-LinkSecurityDescriptorv2 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFS-Link-Security-Descriptor-v2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFS-Link-Security-Descriptor-v2 attribute
@@ -38,9 +43,9 @@ Security descriptor of the DFS links's re-parse point on the file system.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Security descriptor of the DFS links's re-parse point on the file system.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

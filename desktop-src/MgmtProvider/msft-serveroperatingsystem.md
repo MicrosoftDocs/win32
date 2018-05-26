@@ -4,11 +4,13 @@ description: Represents the operating system of the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '955414ea-7e66-4843-a15a-5687de067761'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 955414ea-7e66-4843-a15a-5687de067761
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_ServerOperatingSystem class", "MSFT_ServerOperatingSystem class, described"]
+keywords:
+- MSFT_ServerOperatingSystem class
+- MSFT_ServerOperatingSystem class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_ServerOperatingSystem class
@@ -49,7 +54,7 @@ class MSFT_ServerOperatingSystem
   uint16 SPMinorVersion;
   string SKU;
   string Language;
-  uint8  Architecture;
+  uint8  Architecture;
   uint32 SKUId;
 };
 ```
@@ -226,7 +231,7 @@ The minor version number of the operating system service pack installed.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
@@ -240,9 +245,9 @@ The minor version number of the operating system service pack installed.
 [**GetServerInventory method of MSFT\_ServerManagerTasks**](getserverinventory-msft-servermanagertasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

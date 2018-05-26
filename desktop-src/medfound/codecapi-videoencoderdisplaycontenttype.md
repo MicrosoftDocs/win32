@@ -1,7 +1,12 @@
 ---
-Description: 'Sets whether the content is full-screen video, as opposed to screen content that might have a smaller window of video or have no video at all.'
-ms.assetid: 'A2D0D6A0-30CB-435B-A5CD-A6FB001C46ED'
-title: 'CODECAPI\_VideoEncoderDisplayContentType property'
+Description: Sets whether the content is full-screen video, as opposed to screen content that might have a smaller window of video or have no video at all.
+ms.assetid: A2D0D6A0-30CB-435B-A5CD-A6FB001C46ED
+title: CODECAPI\_VideoEncoderDisplayContentType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_VideoEncoderDisplayContentType property
@@ -22,7 +27,7 @@ If the value is nonzero, the content is full-screen video. If the value is zero,
 
 ## Remarks
 
-On Windows 10, the value of this property is not used.
+On Windows 10, the value of this property is not used.
 
 ## Requirements
 
@@ -30,8 +35,8 @@ On Windows 10, the value of this property is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -43,9 +48,9 @@ On Windows 10, the value of this property is not used.
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

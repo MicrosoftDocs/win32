@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates Wi-Fi Direct Device''s Connectivity State.'
-ms.assetid: '48f98415-048f-43c7-9cb8-1a1eeaa60086'
-title: 'System.Devices.WiFiDirect.IsConnected'
+Description: Indicates Wi-Fi Direct Devices Connectivity State.
+ms.assetid: 48f98415-048f-43c7-9cb8-1a1eeaa60086
+title: System.Devices.WiFiDirect.IsConnected
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.WiFiDirect.IsConnected

@@ -1,7 +1,12 @@
 ---
-Description: 'The following topic describes how the Windows as a Service (WaaS) Assessment Platform API works.'
-ms.assetid: 'B107AAF3-4248-40EF-ABD2-C5B31602AEF7'
+Description: The following topic describes how the Windows as a Service (WaaS) Assessment Platform API works.
+ms.assetid: B107AAF3-4248-40EF-ABD2-C5B31602AEF7
 title: About the WaaS Assessment Platform
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the WaaS Assessment Platform

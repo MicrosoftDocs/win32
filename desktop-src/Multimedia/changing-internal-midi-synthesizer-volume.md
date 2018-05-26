@@ -1,8 +1,21 @@
 ---
 title: Changing Internal MIDI Synthesizer Volume
 description: Changing Internal MIDI Synthesizer Volume
-ms.assetid: '75ab7ff5-f394-4a79-8dcc-f4eef434a36e'
-keywords: ["Musical Instrument Digital Interface (MIDI),internal synthesizers", "MIDI (Musical Instrument Digital Interface),internal synthesizers", "playing MIDI files,internal synthesizers", "internal MIDI synthesizers", "Musical Instrument Digital Interface (MIDI),changing volume", "MIDI (Musical Instrument Digital Interface),changing volume", "playing MIDI files,changing volume", "changing MIDI volume"]
+ms.assetid: 75ab7ff5-f394-4a79-8dcc-f4eef434a36e
+keywords:
+- Musical Instrument Digital Interface (MIDI),internal synthesizers
+- MIDI (Musical Instrument Digital Interface),internal synthesizers
+- playing MIDI files,internal synthesizers
+- internal MIDI synthesizers
+- Musical Instrument Digital Interface (MIDI),changing volume
+- MIDI (Musical Instrument Digital Interface),changing volume
+- playing MIDI files,changing volume
+- changing MIDI volume
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing Internal MIDI Synthesizer Volume

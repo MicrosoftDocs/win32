@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS CSDVersion property
 description: The CSDVersion of the guest operating system running in the virtual machine.
-ms.assetid: '6f1d8dd6-6feb-4bdf-a553-631d55c18076'
-keywords: ["CSDVersion property Virtual PC", "CSDVersion property Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , CSDVersion property"]
+ms.assetid: 6f1d8dd6-6feb-4bdf-a553-631d55c18076
+keywords:
+- CSDVersion property Virtual PC
+- CSDVersion property Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , CSDVersion property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::CSDVersion property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the CSDVersion of the guest operating system running in the virtual machine.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_CSDVersion(
-  [out, retval] BSTR *csdVersion
+  [out, retval] BSTR *csdVersion
 );
 ```
 
@@ -57,9 +65,9 @@ A null-terminated string, such as "Service Pack 3", that indicates the latest Se
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
@@ -73,9 +81,9 @@ A null-terminated string, such as "Service Pack 3", that indicates the latest Se
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

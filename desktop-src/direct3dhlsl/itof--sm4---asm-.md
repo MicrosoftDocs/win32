@@ -1,7 +1,12 @@
 ---
 title: itof (sm4 - asm)
 description: Signed integer to floating point conversion.
-ms.assetid: '60652168-25FA-4084-8CC1-73F12984ECED'
+ms.assetid: 60652168-25FA-4084-8CC1-73F12984ECED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # itof (sm4 - asm)
@@ -15,7 +20,7 @@ Signed integer to floating point conversion.
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Signed integer to floating point conversion.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -48,7 +53,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -67,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -76,9 +81,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

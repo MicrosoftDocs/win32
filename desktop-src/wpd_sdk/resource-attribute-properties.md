@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following resource attribute properties.'
-ms.assetid: '9b90db8a-e833-48cf-b484-70ac5ac32a76'
+Description: Windows Portable Devices supports the following resource attribute properties.
+ms.assetid: 9b90db8a-e833-48cf-b484-70ac5ac32a76
 title: Resource Attribute Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Attribute Properties
@@ -18,11 +23,11 @@ Windows Portable Devices supports the following resource attribute properties.
 
 
 
- 
+ 
 
 ## Remarks
 
-These attributes are returned by the [**IPortableDeviceResources::GetResourceAttributes**](iportabledeviceresources-getresourceattributes.md) method.
+These attributes are returned by the [**IPortableDeviceResources::GetResourceAttributes**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-getresourceattributes?branch=master) method.
 
 ## Requirements
 
@@ -38,15 +43,15 @@ These attributes are returned by the [**IPortableDeviceResources::GetResourceAtt
 
 <dl> <dt>
 
-[**IPortableDeviceResources::GetResourceAttributes**](iportabledeviceresources-getresourceattributes.md)
+[**IPortableDeviceResources::GetResourceAttributes**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-getresourceattributes?branch=master)
 </dt> <dt>
 
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

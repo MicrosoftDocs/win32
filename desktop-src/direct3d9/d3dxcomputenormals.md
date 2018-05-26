@@ -1,7 +1,12 @@
-﻿---
-Description: 'Computes unit normals for each vertex in a mesh. Provided to support legacy applications. Use D3DXComputeTangentFrameEx for better results.'
-ms.assetid: '7c879149-2c4c-4824-9604-e88696cc6ddc'
+---
+Description: Computes unit normals for each vertex in a mesh. Provided to support legacy applications. Use D3DXComputeTangentFrameEx for better results.
+ms.assetid: 7c879149-2c4c-4824-9604-e88696cc6ddc
 title: D3DXComputeNormals function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXComputeNormals function

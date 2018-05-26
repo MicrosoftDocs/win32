@@ -1,7 +1,12 @@
 ---
 title: Using the Results from the Recordset Object
 description: Using the Results from the Recordset Object
-ms.assetid: 'b17ee306-5f5f-4659-963c-d1bbd2d3120f'
+ms.assetid: b17ee306-5f5f-4659-963c-d1bbd2d3120f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Results from the Recordset Object

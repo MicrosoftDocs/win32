@@ -1,7 +1,12 @@
 ---
 title: Proximity Unit Constants
 description: Proximity Unit Constants
-ms.assetid: '11c8bfdc-62e7-4404-bb0b-ec47341ec875'
+ms.assetid: 11c8bfdc-62e7-4404-bb0b-ec47341ec875
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Proximity Unit Constants

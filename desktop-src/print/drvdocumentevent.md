@@ -1,7 +1,12 @@
-﻿---
-Description: 'A printer interface DLL''s DrvDocumentEvent function can handle certain events associated with printing a document.'
-ms.assetid: '09229774-14db-448b-bd49-2d39a848c9a6'
+---
+Description: A printer interface DLLs DrvDocumentEvent function can handle certain events associated with printing a document.
+ms.assetid: 09229774-14db-448b-bd49-2d39a848c9a6
 title: DrvDocumentEvent function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvDocumentEvent function

@@ -1,7 +1,12 @@
 ---
-Description: 'The following table lists the Windows GDI+ image property tags in alphabetical order.'
-ms.assetid: 'c6d196a8-b10f-4e09-bf43-0198d96e5f40'
+Description: The following table lists the Windows GDI+ image property tags in alphabetical order.
+ms.assetid: c6d196a8-b10f-4e09-bf43-0198d96e5f40
 title: Property Tags in Alphabetical Order
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Tags in Alphabetical Order

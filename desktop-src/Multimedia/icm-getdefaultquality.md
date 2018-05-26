@@ -1,8 +1,9 @@
 ---
 title: ICM\_GETDEFAULTQUALITY message
 description: The ICM\_GETDEFAULTQUALITY message queries a video compression driver to provide its default quality setting. You can send this message explicitly or by using the ICGetDefaultQuality macro.
-ms.assetid: 'bba7f451-52c2-4684-a7c9-e4b05cb946c5'
-keywords: ["ICM_GETDEFAULTQUALITY message Windows Multimedia"]
+ms.assetid: bba7f451-52c2-4684-a7c9-e4b05cb946c5
+keywords:
+- ICM_GETDEFAULTQUALITY message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_GETDEFAULTQUALITY message
 
-The **ICM\_GETDEFAULTQUALITY** message queries a video compression driver to provide its default quality setting. You can send this message explicitly or by using the [**ICGetDefaultQuality**](icgetdefaultquality.md) macro.
+The **ICM\_GETDEFAULTQUALITY** message queries a video compression driver to provide its default quality setting. You can send this message explicitly or by using the [**ICGetDefaultQuality**](/windows/win32/Vfw/nf-vfw-icgetdefaultquality?branch=master) macro.
 
 
 ```C++
@@ -47,8 +53,8 @@ Returns ICERR\_OK if the driver supports this message or ICERR\_UNSUPPORTED othe
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -63,9 +69,9 @@ Returns ICERR\_OK if the driver supports this message or ICERR\_UNSUPPORTED othe
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

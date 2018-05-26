@@ -1,7 +1,12 @@
 ---
-Description: 'Uses a pre-shared key for network authentication.'
-ms.assetid: 'f04de28b-a98d-40cd-91c8-e446cf669555'
-title: 'WPA-Personal Profile Sample'
+Description: Uses a pre-shared key for network authentication.
+ms.assetid: f04de28b-a98d-40cd-91c8-e446cf669555
+title: WPA-Personal Profile Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPA-Personal Profile Sample

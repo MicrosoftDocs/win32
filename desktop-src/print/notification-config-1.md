@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '4A33F3EB-9A2E-40F4-B5BC-EDEA5085301E'
-title: 'NOTIFICATION\_CONFIG\_1 structure'
+---
+Description: .
+ms.assetid: 4A33F3EB-9A2E-40F4-B5BC-EDEA5085301E
+title: NOTIFICATION\_CONFIG\_1 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NOTIFICATION\_CONFIG\_1 structure

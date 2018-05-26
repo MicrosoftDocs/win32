@@ -1,7 +1,12 @@
 ---
-Description: 'To remove your application's performance counters from the system, perform the following steps.'
-ms.assetid: '40fc9831-1025-4052-a941-70767ee4e10f'
+Description: To remove your applications performance counters from the system, perform the following steps.
+ms.assetid: 40fc9831-1025-4052-a941-70767ee4e10f
 title: Deleting Performance Counters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deleting Performance Counters

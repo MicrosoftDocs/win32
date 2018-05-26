@@ -1,8 +1,21 @@
 ---
 title: Variables to Manage the Delay Buffer
 description: Variables to Manage the Delay Buffer
-ms.assetid: '2c5963a1-04e2-4421-8f56-14c1e059de4e'
-keywords: ["Windows Media Player plug-ins,Echo sample streaming resources", "plug-ins,Echo sample streaming resources", "digital signal processing plug-ins,Echo sample streaming resources", "DSP plug-ins,Echo sample streaming resources", "Echo DSP plug-in sample,streaming resources", "Echo DSP plug-in sample,delay buffer", "delay buffer", "buffers"]
+ms.assetid: 2c5963a1-04e2-4421-8f56-14c1e059de4e
+keywords:
+- Windows Media Player plug-ins,Echo sample streaming resources
+- plug-ins,Echo sample streaming resources
+- digital signal processing plug-ins,Echo sample streaming resources
+- DSP plug-ins,Echo sample streaming resources
+- Echo DSP plug-in sample,streaming resources
+- Echo DSP plug-in sample,delay buffer
+- delay buffer
+- buffers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Variables to Manage the Delay Buffer

@@ -1,7 +1,12 @@
 ---
 title: To create a shortcut in a help topic
 description: To create a shortcut in a help topic
-ms.assetid: 'C1528B34-6E45-4153-846F-3EB4BD16B988'
+ms.assetid: C1528B34-6E45-4153-846F-3EB4BD16B988
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a shortcut in a help topic

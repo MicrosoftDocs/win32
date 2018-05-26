@@ -1,7 +1,12 @@
 ---
 title: Clitics
 description: Clitics
-ms.assetid: 'f0825585-864c-4444-aa0d-1e2c7ab9b903'
+ms.assetid: f0825585-864c-4444-aa0d-1e2c7ab9b903
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clitics

@@ -1,15 +1,33 @@
 ---
 title: Document Locks
 description: Document Locks
-ms.assetid: '3c623c44-b0d3-4b03-8de9-25f1062b5726'
-keywords: ["Text Services Framework (TSF),document locks", "TSF (Text Services Framework),document locks", "TSF-enabled applications,document locks", "document locks", "Text Services Framework (TSF),Application Character Position (ACP)", "TSF (Text Services Framework),Application Character Position (ACP)", "TSF-enabled applications,Application Character Position (ACP)", "Application Character Position (ACP)", "ACP (Application Character Position)", "Text Services Framework (TSF),anchors", "TSF (Text Services Framework),anchors", "TSF-enabled applications,anchors", "anchors"]
+ms.assetid: 3c623c44-b0d3-4b03-8de9-25f1062b5726
+keywords:
+- Text Services Framework (TSF),document locks
+- TSF (Text Services Framework),document locks
+- TSF-enabled applications,document locks
+- document locks
+- Text Services Framework (TSF),Application Character Position (ACP)
+- TSF (Text Services Framework),Application Character Position (ACP)
+- TSF-enabled applications,Application Character Position (ACP)
+- Application Character Position (ACP)
+- ACP (Application Character Position)
+- Text Services Framework (TSF),anchors
+- TSF (Text Services Framework),anchors
+- TSF-enabled applications,anchors
+- anchors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Document Locks
 
 ## The Document Lock Protocol
 
-To request a document lock for ACP-based applications, the TSF manager calls [ITextStoreACP::RequestLock](itextstoreacp-requestlock.md). For anchor-based applications, the TSF manager calls [ITextStoreAnchor::RequestLock](itextstoreanchor-requestlock.md). The application grants the document lock by calling [ITextStoreACPSink::OnLockGranted](itextstoreacpsink-onlockgranted.md) (ACP-based applications) or [ITextStoreAnchorSink::OnLockGranted](itextstoreanchorsink-onlockgranted.md) (anchor-based applications) inside of **RequestLock**. The lock is only valid during the **OnLockGranted** call. When **OnLockGranted** returns, the document is considered unlocked.
+To request a document lock for ACP-based applications, the TSF manager calls [ITextStoreACP::RequestLock](/windows/win32/Textstor/nf-textstor-itextstoreacp-requestlock?branch=master). For anchor-based applications, the TSF manager calls [ITextStoreAnchor::RequestLock](/windows/win32/Textstor/nf-textstor-itextstoreanchor-requestlock?branch=master). The application grants the document lock by calling [ITextStoreACPSink::OnLockGranted](/windows/win32/Textstor/nf-textstor-itextstoreacpsink-onlockgranted?branch=master) (ACP-based applications) or [ITextStoreAnchorSink::OnLockGranted](/windows/win32/Textstor/nf-textstor-itextstoreanchorsink-onlockgranted?branch=master) (anchor-based applications) inside of **RequestLock**. The lock is only valid during the **OnLockGranted** call. When **OnLockGranted** returns, the document is considered unlocked.
 
 ## Types of Document Locks
 
@@ -29,7 +47,7 @@ If the document is locked and the lock request is asynchronous, the application 
 
 ## Lock Enforcement
 
-The application must ensure that the proper type of lock exists before allowing access to the document. For example, the application should verify that a document has at least a read-only lock before allowing [ITextStoreACP::GetText](itextstoreacp-gettext.md) or [ITextStoreAnchor::GetText](itextstoreanchor-gettext.md) to proceed. If the proper lock does not exist, the application should return TF\_E\_NOLOCK.
+The application must ensure that the proper type of lock exists before allowing access to the document. For example, the application should verify that a document has at least a read-only lock before allowing [ITextStoreACP::GetText](/windows/win32/Textstor/nf-textstor-itextstoreacp-gettext?branch=master) or [ITextStoreAnchor::GetText](/windows/win32/Textstor/nf-textstor-itextstoreanchor-gettext?branch=master) to proceed. If the proper lock does not exist, the application should return TF\_E\_NOLOCK.
 
 ## Related topics
 
@@ -38,22 +56,22 @@ The application must ensure that the proper type of lock exists before allowing 
 [Text Stores](text-stores.md)
 </dt> <dt>
 
-[ITextStoreACP::RequestLock](itextstoreacp-requestlock.md)
+[ITextStoreACP::RequestLock](/windows/win32/Textstor/nf-textstor-itextstoreacp-requestlock?branch=master)
 </dt> <dt>
 
-[ITextStoreACPSink::OnLockGranted](itextstoreacpsink-onlockgranted.md)
+[ITextStoreACPSink::OnLockGranted](/windows/win32/Textstor/nf-textstor-itextstoreacpsink-onlockgranted?branch=master)
 </dt> <dt>
 
-[ITextStoreACP::GetText](itextstoreacp-gettext.md)
+[ITextStoreACP::GetText](/windows/win32/Textstor/nf-textstor-itextstoreacp-gettext?branch=master)
 </dt> <dt>
 
-[ITextStoreAnchor::RequestLock](itextstoreanchor-requestlock.md)
+[ITextStoreAnchor::RequestLock](/windows/win32/Textstor/nf-textstor-itextstoreanchor-requestlock?branch=master)
 </dt> <dt>
 
-[ITextStoreAnchorSink::OnLockGranted](itextstoreanchorsink-onlockgranted.md)
+[ITextStoreAnchorSink::OnLockGranted](/windows/win32/Textstor/nf-textstor-itextstoreanchorsink-onlockgranted?branch=master)
 </dt> <dt>
 
-[ITextStoreAnchor::GetText](itextstoreanchor-gettext.md)
+[ITextStoreAnchor::GetText](/windows/win32/Textstor/nf-textstor-itextstoreanchor-gettext?branch=master)
 </dt> </dl>
 
  

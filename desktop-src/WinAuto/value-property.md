@@ -1,14 +1,19 @@
 ---
 title: Value Property
 description: The Value property provides a textual representation of the visual information contained in an object. Not all objects support the Value property.
-ms.assetid: '89b99645-31f5-458a-ae61-a72bf1338195'
+ms.assetid: 89b99645-31f5-458a-ae61-a72bf1338195
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Value Property
 
 The **Value** property provides a textual representation of the visual information contained in an object. Not all objects support the **Value** property.
 
-The **Value** property is retrieved by calling [**IAccessible::get\_accValue**](iaccessible-iaccessible--get-accvalue.md).
+The **Value** property is retrieved by calling [**IAccessible::get\_accValue**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accvalue?branch=master).
 
 The **Value** property tells the client about the visual information contained in an object. For example, an edit control's value is the text it contains, whereas a menu item has no value.
 

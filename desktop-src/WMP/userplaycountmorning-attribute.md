@@ -1,14 +1,20 @@
 ---
 title: UserPlaycountMorning Attribute
 description: The UserPlaycountMorning attribute is the number of times the item has been played between 06 00 and 12 00 local time.
-ms.assetid: 'df942657-c40a-4632-8e43-e226609a95d3'
-keywords: ["UserPlaycountMorning Attribute Windows Media Player"]
+ms.assetid: df942657-c40a-4632-8e43-e226609a95d3
+keywords:
+- UserPlaycountMorning Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - UserPlaycountMorning
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserPlaycountMorning Attribute
@@ -45,9 +51,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

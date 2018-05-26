@@ -1,8 +1,11 @@
 ---
 title: IMsgrSessionManager RegisterApplication method
 description: Registers an application for use with a Messenger client.
-ms.assetid: '8ae7f060-52ca-410b-8ba0-35f689a5af3d'
-keywords: ["RegisterApplication method Windows Messenger", "RegisterApplication method Windows Messenger , IMsgrSessionManager interface", "IMsgrSessionManager interface Windows Messenger , RegisterApplication method"]
+ms.assetid: 8ae7f060-52ca-410b-8ba0-35f689a5af3d
+keywords:
+- RegisterApplication method Windows Messenger
+- RegisterApplication method Windows Messenger , IMsgrSessionManager interface
+- IMsgrSessionManager interface Windows Messenger , RegisterApplication method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMsgrSessionManager::RegisterApplication method
 
-\[**RegisterApplication** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**RegisterApplication** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Registers an application for use with a Messenger client.
 
@@ -24,11 +32,11 @@ Registers an application for use with a Messenger client.
 
 ```C++
 HRESULT RegisterApplication(
-  [in] BSTR bstrAppGUID,
-  [in] BSTR bstrAppName,
-  [in] BSTR bstrAppURL,
-  [in] BSTR bstrPath,
-  [in] LONG ulFlags
+  [in] BSTR bstrAppGUID,
+  [in] BSTR bstrAppName,
+  [in] BSTR bstrAppURL,
+  [in] BSTR bstrPath,
+  [in] LONG ulFlags
 );
 ```
 
@@ -101,7 +109,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -120,7 +128,7 @@ The following table lists the error codes returned by this method.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -128,10 +136,10 @@ The following table lists the error codes returned by this method.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Product<br/>                  | Messenger 4.5<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl> |
@@ -158,9 +166,9 @@ The following table lists the error codes returned by this method.
 [Messenger Lock and Key API](im-lock-and-key-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

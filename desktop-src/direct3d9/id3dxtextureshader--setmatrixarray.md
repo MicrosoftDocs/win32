@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an array of non-transposed matrices.'
-ms.assetid: '27f230bd-9aee-4673-aa70-5ecda541b1be'
-title: 'ID3DXTextureShader::SetMatrixArray method'
+---
+Description: Sets an array of non-transposed matrices.
+ms.assetid: 27f230bd-9aee-4673-aa70-5ecda541b1be
+title: ID3DXTextureShaderSetMatrixArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureShader::SetMatrixArray method

@@ -1,8 +1,11 @@
 ---
 title: IWMPCdromBurn getItemInfo method
 description: The getItemInfo method retrieves the value of the specified attribute for the CD.
-ms.assetid: '9ca54ec4-42be-40c1-931e-c3bfcbc2b370'
-keywords: ["getItemInfo method Windows Media Player", "getItemInfo method Windows Media Player , IWMPCdromBurn interface", "IWMPCdromBurn interface Windows Media Player , getItemInfo method"]
+ms.assetid: 9ca54ec4-42be-40c1-931e-c3bfcbc2b370
+keywords:
+- getItemInfo method Windows Media Player
+- getItemInfo method Windows Media Player , IWMPCdromBurn interface
+- IWMPCdromBurn interface Windows Media Player , getItemInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromBurn::getItemInfo method
@@ -69,7 +77,7 @@ A **System.String** that contains one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -96,9 +104,9 @@ A **System.String** that is the value of the specified attribute.
 [**IWMPCdromBurn Interface (VB and C#)**](iwmpcdromburn--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

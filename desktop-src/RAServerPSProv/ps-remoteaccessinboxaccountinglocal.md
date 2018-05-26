@@ -2,13 +2,15 @@
 title: PS\_RemoteAccessInboxAccountingLocal class
 description: Represents the various types of accounting supported for Remote Access.
 audience: developer
-ms.assetid: '6d576e5a-5463-40f7-abff-f2af82e9b369'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6d576e5a-5463-40f7-abff-f2af82e9b369
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_RemoteAccessInboxAccountingLocal class", "PS_RemoteAccessInboxAccountingLocal class, described"]
+keywords:
+- PS_RemoteAccessInboxAccountingLocal class
+- PS_RemoteAccessInboxAccountingLocal class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_RemoteAccessInboxAccountingLocal class
@@ -54,7 +59,7 @@ The **PS\_RemoteAccessInboxAccountingLocal** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,16 +68,16 @@ The **PS\_RemoteAccessInboxAccountingLocal** class has these methods.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\microsoft\\windows\\remoteaccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

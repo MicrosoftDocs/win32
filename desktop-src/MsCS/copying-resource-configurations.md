@@ -4,11 +4,15 @@ description: Depending on the resource type of a resource, it may be possible to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4c64ee7e-4658-4e5d-8319-5d8754a12781'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4c64ee7e-4658-4e5d-8319-5d8754a12781
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resources Failover Cluster ,copying configurations"]
+keywords:
+- resources Failover Cluster ,copying configurations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Copying Resource Configurations
@@ -17,9 +21,9 @@ Depending on the [resource type](resource-types.md) of a [resource](resources.md
 
 **To Copy a Resource Configuration**
 
-1.  Get a handle to the original resource by calling [**OpenClusterResource**](openclusterresource.md).
+1.  Get a handle to the original resource by calling [**OpenClusterResource**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster_resource?branch=master).
 
-2.  Get the resource type of the original resource. Call [**ClusterResourceControl**](clusterresourcecontrol.md) with the [CLUSCTL\_RESOURCE\_GET\_RESOURCE\_TYPE](clusctl-resource-get-resource-type.md) control code.
+2.  Get the resource type of the original resource. Call [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) with the [CLUSCTL\_RESOURCE\_GET\_RESOURCE\_TYPE](clusctl-resource-get-resource-type.md) control code.
 
 3.  Create a resource of that type. (See [Creating Resources](creating-resources.md).) Note that the name of the new resource cannot be the same as the original if it is created in the same cluster.
 

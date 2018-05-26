@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ComponentQualifiers property is a read-only property that returns a StringList object enumerating the set of registered qualifiers for the specified component.'
-ms.assetid: '49b16c9a-ce84-42ff-af1d-f4ecf7dbe23a'
-title: 'Installer.ComponentQualifiers property'
+---
+Description: The ComponentQualifiers property is a read-only property that returns a StringList object enumerating the set of registered qualifiers for the specified component.
+ms.assetid: 49b16c9a-ce84-42ff-af1d-f4ecf7dbe23a
+title: Installer.ComponentQualifiers property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ComponentQualifiers property
@@ -43,7 +48,7 @@ To enumerate qualifiers the application iterates through the [**StringList**](st
 
 <dl> <dt>
 
-[**MsiEnumComponentQualifiers**](msienumcomponentqualifiers.md)
+[**MsiEnumComponentQualifiers**](/windows/win32/Msi/nf-msi-msienumcomponentqualifiersa?branch=master)
 </dt> </dl>
 
  

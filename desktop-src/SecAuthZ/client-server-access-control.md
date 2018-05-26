@@ -1,7 +1,12 @@
 ---
-Description: 'A server application provides services to clients.'
-ms.assetid: '8301ed4f-9458-410b-af19-4f055656005a'
-title: 'Client/Server Access Control'
+Description: A server application provides services to clients.
+ms.assetid: 8301ed4f-9458-410b-af19-4f055656005a
+title: Client/Server Access Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client/Server Access Control

@@ -1,8 +1,9 @@
 ---
 title: glScalef function
 description: The glScaled and glScalef functions multiply the current matrix by a general scaling matrix.
-ms.assetid: 'bf039bbc-7669-4282-b629-71440b798cb1'
-keywords: ["glScalef function OpenGL"]
+ms.assetid: bf039bbc-7669-4282-b629-71440b798cb1
+keywords:
+- glScalef function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glScalef function
@@ -22,9 +28,9 @@ The [**glScaled**](glscaled.md) and **glScalef** functions multiply the current 
 
 ```C++
 void WINAPI glScalef(
-   GLfloat x,
-   GLfloat y,
-   GLfloat z
+   GLfloat x,
+   GLfloat y,
+   GLfloat z
 );
 ```
 
@@ -89,7 +95,7 @@ The **glScalef** function produces a general scaling along the *x*, *y*, and *z*
 
 ![](images/scale01.png)
 
-The current matrix (see [**glMatrixMode**](glmatrixmode.md)) is multiplied by this scale matrix, with the product replacing the current matrix. That is, if M is the current matrix and S is the scale matrix, then M is replaced with M • S.
+The current matrix (see [**glMatrixMode**](glmatrixmode.md)) is multiplied by this scale matrix, with the product replacing the current matrix. That is, if M is the current matrix and S is the scale matrix, then M is replaced with M   S.
 
 If the matrix mode is either GL\_MODELVIEW or GL\_PROJECTION, all objects drawn after **glScalef** is called are scaled. Use [**glPushMatrix**](glpushmatrix.md) and [**glPopMatrix**](glpopmatrix.md) to save and restore the unscaled coordinate system.
 
@@ -111,8 +117,8 @@ The following functions retrieve information related to **glScalef**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -150,9 +156,9 @@ The following functions retrieve information related to **glScalef**:
 [**glTranslate**](gltranslate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

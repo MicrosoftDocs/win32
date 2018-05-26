@@ -1,7 +1,12 @@
 ---
-Description: 'Example C Program: Creating an MD5 Hash from File Content'
-ms.assetid: '3186e292-87fd-425b-b9cf-92a294a57b69'
-title: 'Example C Program: Creating an MD5 Hash from File Content'
+Description: Example C Program Creating an MD5 Hash from File Content
+ms.assetid: 3186e292-87fd-425b-b9cf-92a294a57b69
+title: Example C Program Creating an MD5 Hash from File Content
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Creating an MD5 Hash from File Content

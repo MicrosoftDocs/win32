@@ -1,8 +1,9 @@
 ---
 title: AssessmentError enumeration
 description: Specifies errors returned in the AssessmentEndEvents event.
-ms.assetid: 'C36A43ED-B860-4990-98BF-4849209D7BF5'
-keywords: ["AssessmentError enumeration Access Execution Engine"]
+ms.assetid: C36A43ED-B860-4990-98BF-4849209D7BF5
+keywords:
+- AssessmentError enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeRuntime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssessmentError enumeration
@@ -22,13 +28,13 @@ Specifies errors returned in the AssessmentEndEvents event.
 
 ```C++
 enum AssessmentError {
-  AssessmentErrorNone                       = 0, 
-  AssessmentErrorAlreadyInit                = AXE_E_ALREADY_INIT, 
-  AssessmentErrorInternalError              = AXE_E_INTERNAL_ERROR, 
-  AssessmentErrorUnknownWin32Error          = AXE_E_WIN32_ERROR, 
-  AssessmentErrorParameterConversionFailed  = AXE_E_PARAM_CONVERSION_FAILED, 
-  AssessmentErrorEngineNotRunning           = AXE_E_PARAMETER_NOT_FOUND, 
-  AssessmentErrorParameterNotFound          = AXE_E_ENGINE_NOT_RUNNING 
+  AssessmentErrorNone                       = 0, 
+  AssessmentErrorAlreadyInit                = AXE_E_ALREADY_INIT, 
+  AssessmentErrorInternalError              = AXE_E_INTERNAL_ERROR, 
+  AssessmentErrorUnknownWin32Error          = AXE_E_WIN32_ERROR, 
+  AssessmentErrorParameterConversionFailed  = AXE_E_PARAM_CONVERSION_FAILED, 
+  AssessmentErrorEngineNotRunning           = AXE_E_PARAMETER_NOT_FOUND, 
+  AssessmentErrorParameterNotFound          = AXE_E_ENGINE_NOT_RUNNING 
 
 };
 ```
@@ -98,15 +104,15 @@ Managed code uses the [**AssessmentError**](axe-assessmenterror_om) enumeration.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

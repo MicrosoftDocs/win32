@@ -4,11 +4,12 @@ description: Updates the read/write common properties for a network interface.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f022e475-d6b8-4ac7-86ac-ef5692667421'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f022e475-d6b8-4ac7-86ac-ef5692667421
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_NETINTERFACE_SET_COMMON_PROPERTIES control code Failover Cluster"]
+keywords:
+- CLUSCTL_NETINTERFACE_SET_COMMON_PROPERTIES control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_NETINTERFACE\_SET\_COMMON\_PROPERTIES control code
 
-Updates the read/write [common properties](common-properties.md) for a [network interface](network-interfaces.md). Applications use this [control code](about-control-codes.md) as a [**ClusterNetInterfaceControl**](clusternetinterfacecontrol.md) parameter.
+Updates the read/write [common properties](common-properties.md) for a [network interface](network-interfaces.md). Applications use this [control code](about-control-codes.md) as a [**ClusterNetInterfaceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternetinterfacecontrol?branch=master) parameter.
 
 
 ```C++
@@ -39,7 +43,7 @@ ClusterNetInterfaceControl( hNetInterface,  // network interface handle
 
 ## Parameters
 
-The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterNetInterfaceControl**](clusternetinterfacecontrol.md).
+The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterNetInterfaceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternetinterfacecontrol?branch=master).
 
 <dl> <dt>
 
@@ -52,7 +56,7 @@ Pass a pointer to a [property list](property-lists.md) containing new values for
 
 ## Return value
 
-[**ClusterNetInterfaceControl**](clusternetinterfacecontrol.md) returns one of the following values.
+[**ClusterNetInterfaceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternetinterfacecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -118,17 +122,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_NETINTERFACE\_SET\_COMMON\_PROPERTIES 
 
 | Component                 | Bit location     | Value                                                    |
 |---------------------------|------------------|----------------------------------------------------------|
-| Object code<br/>    | 24–31<br/> | **CLUS\_OBJECT\_NETINTERFACE** (0x6)<br/>          |
+| Object code<br/>    | 24 31<br/> | **CLUS\_OBJECT\_NETINTERFACE** (0x6)<br/>          |
 | Global bit<br/>     | 23<br/>    | **CLUS\_NOT\_GLOBAL** (0x0)<br/>                   |
 | Modify bit<br/>     | 22<br/>    | **CLUS\_MODIFY** (0x1)<br/>                        |
 | User bit<br/>       | 21<br/>    | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>                |
 | Type bit<br/>       | 20<br/>    | External (0x0)<br/>                                |
-| Operation code<br/> | 0–23<br/>  | **CLCTL\_SET\_COMMON\_PROPERTIES** (0x40005e)<br/> |
-| Access code<br/>    | 0–1<br/>   | **CLUS\_ACCESS\_WRITE** (0x2)<br/>                 |
+| Operation code<br/> | 0 23<br/>  | **CLCTL\_SET\_COMMON\_PROPERTIES** (0x40005e)<br/> |
+| Access code<br/>    | 0 1<br/>   | **CLUS\_ACCESS\_WRITE** (0x2)<br/>                 |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -137,7 +141,7 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_NETINTERFACE\_SET\_COMMON\_PROPERTIES 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -152,9 +156,9 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_NETINTERFACE\_SET\_COMMON\_PROPERTIES 
 [**Description Property for Network Interfaces**](network-interfaces-description.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

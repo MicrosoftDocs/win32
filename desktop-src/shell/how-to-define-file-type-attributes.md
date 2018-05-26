@@ -1,7 +1,12 @@
 ---
-Description: 'Defining file type attributes in the registry.'
-ms.assetid: 'EE35E3E7-0573-45CA-A21A-89E50B86487D'
+Description: Defining file type attributes in the registry.
+ms.assetid: EE35E3E7-0573-45CA-A21A-89E50B86487D
 title: How to Define File Type Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Define File Type Attributes
@@ -37,7 +42,7 @@ HKEY_CLASSES_ROOT
 
 The flags can be combined with a logical OR to form the single attribute value.
 
-For a list of possible file type attributes and their hexadecimal values, and more details on programmatically retrieving and setting these values, see [**FILETYPEATTRIBUTEFLAGS**](filetypeattributeflags.md).
+For a list of possible file type attributes and their hexadecimal values, and more details on programmatically retrieving and setting these values, see [**FILETYPEATTRIBUTEFLAGS**](/windows/win32/Shlwapi/ne-shlwapi-filetypeattributeflags?branch=master).
 
  
 

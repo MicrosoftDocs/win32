@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the members of the NMCOLUMNVARIANT structure.'
-ms.assetid: '29363341-f4d3-43c3-a523-45402174cb74'
+Description: Specifies the members of the NMCOLUMNVARIANT structure.
+ms.assetid: 29363341-f4d3-43c3-a523-45402174cb74
 title: NMCOLUMNTYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NMCOLUMNTYPE enumeration
@@ -13,7 +18,7 @@ The **NMCOLUMNTYPE** enumeration specifies the members of the [**NMCOLUMNVARIANT
 
 ```C++
 typedef enum  { 
-  NMCOLUMNTYPE_UINT8      = 0,
+  NMCOLUMNTYPE_UINT8      = 0,
   NMCOLUMNTYPE_SINT8,
   NMCOLUMNTYPE_UINT16,
   NMCOLUMNTYPE_SINT16,
@@ -156,15 +161,15 @@ Pointer to a string.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

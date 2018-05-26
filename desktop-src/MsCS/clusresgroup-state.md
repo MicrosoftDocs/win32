@@ -4,11 +4,14 @@ description: Returns the state of a group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7eb8662c-a6ca-46e5-99ee-84e0dd6b0961'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7eb8662c-a6ca-46e5-99ee-84e0dd6b0961
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["State property Failover Cluster", "State property Failover Cluster , ClusResGroup class", "ClusResGroup class Failover Cluster , State property"]
+keywords:
+- State property Failover Cluster
+- State property Failover Cluster , ClusResGroup class
+- ClusResGroup class Failover Cluster , State property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResGroup.State property
@@ -121,7 +127,7 @@ For information on making constants defined by the Cluster Automation Server typ
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -143,12 +149,12 @@ For information on making constants defined by the Cluster Automation Server typ
 [**ClusResource**](clusresource-object.md)
 </dt> <dt>
 
-[**CLUSTER\_GROUP\_STATE**](cluster-group-state.md)
+[**CLUSTER\_GROUP\_STATE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_group_state?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,16 +1,21 @@
 ---
-Description: 'Some applications scale images; that is, they display zoomed or reduced views of an image. For example, a drawing application may provide a zoom feature that enables the user to view and edit a drawing on a pixel-by-pixel basis.'
-ms.assetid: 'ab7d5224-62de-40a8-909f-564f61c45d01'
+Description: Some applications scale images; that is, they display zoomed or reduced views of an image. For example, a drawing application may provide a zoom feature that enables the user to view and edit a drawing on a pixel-by-pixel basis.
+ms.assetid: ab7d5224-62de-40a8-909f-564f61c45d01
 title: Scaling an Image
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scaling an Image
 
 Some applications scale images; that is, they display zoomed or reduced views of an image. For example, a drawing application may provide a zoom feature that enables the user to view and edit a drawing on a pixel-by-pixel basis.
 
-Applications scale images by calling the [**StretchBlt**](stretchblt.md) function. Like the [**BitBlt**](bitblt.md) function, **StretchBlt** copies bitmap data from a bitmap in a source device context ([**DC**](getdcex.md)) into a bitmap in a target DC. However, unlike the **BitBlt** function, **StretchBlt** scales the image based on the specified dimensions of the source and target rectangles. If the source rectangle is larger than the target rectangle, the resultant image will appear to have shrunk; if the source rectangle is smaller than the target rectangle, the resultant image will appear to have expanded.
+Applications scale images by calling the [**StretchBlt**](/windows/win32/Wingdi/nf-wingdi-stretchblt?branch=master) function. Like the [**BitBlt**](/windows/win32/Wingdi/nf-wingdi-bitblt?branch=master) function, **StretchBlt** copies bitmap data from a bitmap in a source device context ([**DC**](/windows/win32/Winuser/nf-winuser-getdcex?branch=master)) into a bitmap in a target DC. However, unlike the **BitBlt** function, **StretchBlt** scales the image based on the specified dimensions of the source and target rectangles. If the source rectangle is larger than the target rectangle, the resultant image will appear to have shrunk; if the source rectangle is smaller than the target rectangle, the resultant image will appear to have expanded.
 
-If the target rectangle is smaller than the source rectangle, [**StretchBlt**](stretchblt.md) removes color data from the image according to a specified stretch mode as shown in the following table.
+If the target rectangle is smaller than the source rectangle, [**StretchBlt**](/windows/win32/Wingdi/nf-wingdi-stretchblt?branch=master) removes color data from the image according to a specified stretch mode as shown in the following table.
 
 
 
@@ -25,9 +30,9 @@ If the target rectangle is smaller than the source rectangle, [**StretchBlt**](s
 
  
 
-You set the stretch mode by calling the [**SetStretchBltMode**](setstretchbltmode.md) function.
+You set the stretch mode by calling the [**SetStretchBltMode**](/windows/win32/Wingdi/nf-wingdi-setstretchbltmode?branch=master) function.
 
-The following example code is taken from an application that demonstrates all four of the stretch modes available with the [**StretchBlt**](stretchblt.md) function.
+The following example code is taken from an application that demonstrates all four of the stretch modes available with the [**StretchBlt**](/windows/win32/Wingdi/nf-wingdi-stretchblt?branch=master) function.
 
 
 ```C++

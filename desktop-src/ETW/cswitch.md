@@ -1,7 +1,12 @@
 ---
-Description: 'This class is the event type class for context switch events. The following syntax is simplified from MOF code.'
-ms.assetid: '3f9f84d0-18a9-493c-b104-8236b2bd8404'
+Description: This class is the event type class for context switch events. The following syntax is simplified from MOF code.
+ms.assetid: 3f9f84d0-18a9-493c-b104-8236b2bd8404
 title: CSwitch class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSwitch class
@@ -18,14 +23,14 @@ class CSwitch : Thread_V2
 {
   uint32 NewThreadId;
   uint32 OldThreadId;
-  sint8  NewThreadPriority;
-  sint8  OldThreadPriority;
-  uint8  PreviousCState;
-  sint8  SpareByte;
-  sint8  OldThreadWaitReason;
-  sint8  OldThreadWaitMode;
-  sint8  OldThreadState;
-  sint8  OldThreadWaitIdealProcessor;
+  sint8  NewThreadPriority;
+  sint8  OldThreadPriority;
+  uint8  PreviousCState;
+  sint8  SpareByte;
+  sint8  OldThreadWaitReason;
+  sint8  OldThreadWaitMode;
+  sint8  OldThreadState;
+  sint8  OldThreadWaitIdealProcessor;
   uint32 NewThreadWaitTime;
   uint32 Reserved;
 };
@@ -146,11 +151,11 @@ State of the previous thread. The following are the possible state values:
 | 4     | Terminated                                    |
 | 5     | Waiting                                       |
 | 6     | Transition                                    |
-| 7     | DeferredReady (added for Windows Server 2003) |
+| 7     | DeferredReady (added for Windows Server 2003) |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -191,7 +196,7 @@ Wait mode for the previous thread. The following are the possible values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -252,7 +257,7 @@ Wait reason for the previous thread. The following are the possible values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -314,8 +319,8 @@ These events produce a high volume of events.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -329,9 +334,9 @@ These events produce a high volume of events.
 [**Thread\_V2**](thread-v2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Configures the node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '69f05dfa-cec0-4637-9d03-cbe76beb0853'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 69f05dfa-cec0-4637-9d03-cbe76beb0853
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Configure method", "Configure method, PS_NetworkControllerNode class", "PS_NetworkControllerNode class, Configure method"]
+keywords:
+- Configure method
+- Configure method, PS_NetworkControllerNode class
+- PS_NetworkControllerNode class, Configure method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - NCServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Configure method of the PS\_NetworkControllerNode class
@@ -28,9 +34,9 @@ Configures the node.
 
 ```mof
 uint32 Configure(
-  [in] NetworkControllerClusterConfiguration     ClusterConfiguration,
-  [in] NetworkControllerApplicationConfiguration ApplicationConfiguration,
-  [in] uint32                                    InitialReplicaSize
+  [in] NetworkControllerClusterConfiguration     ClusterConfiguration,
+  [in] NetworkControllerApplicationConfiguration ApplicationConfiguration,
+  [in] uint32                                    InitialReplicaSize
 );
 ```
 
@@ -68,7 +74,7 @@ Initial cluster replica size
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\NetworkController\\Server<br/>                                    |
 | MOF<br/>                      | <dl> <dt>NCServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NCServerPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ Initial cluster replica size
 [**PS\_NetworkControllerNode**](ps-networkcontrollernode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

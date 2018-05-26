@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the JobCopiesAllDocuments parameter maximum value.'
-ms.assetid: 'A0705B79-BD13-4AB7-8647-A7AF905B97CC'
-title: 'IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue property'
+---
+Description: Gets the JobCopiesAllDocuments parameter maximum value.
+ms.assetid: A0705B79-BD13-4AB7-8647-A7AF905B97CC
+title: IPrintSchemaCapabilitiesJobCopiesAllDocumentsMaxValue property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue property

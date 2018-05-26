@@ -1,8 +1,9 @@
 ---
 title: MCI\_CUE command
 description: The MCI\_CUE command cues a device so that playback or recording begins with minimum delay. Digital-video, VCR, and waveform-audio devices recognize this command.
-ms.assetid: '22da4a84-a7af-42df-b950-8d1184fff9ba'
-keywords: ["MCI_CUE command Windows Multimedia"]
+ms.assetid: 22da4a84-a7af-42df-b950-8d1184fff9ba
+keywords:
+- MCI_CUE command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_CUE command
 
 The MCI\_CUE command cues a device so that playback or recording begins with minimum delay. Digital-video, VCR, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -94,7 +100,7 @@ A workspace position is included in the **dwTo** member of the structure identif
 
 </dd> </dl>
 
-For **digitalvideo** devices, the *lpCue* parameter points to an [**MCI\_DGV\_CUE\_PARMS**](mci-dgv-cue-parms.md) structure.
+For **digitalvideo** devices, the *lpCue* parameter points to an [**MCI\_DGV\_CUE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_cue_parms?branch=master) structure.
 
 The following additional flags are used with the **vcr** device type:
 
@@ -172,8 +178,8 @@ A waveform-audio output device should be cued. This is the default flag if a fla
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -188,9 +194,9 @@ A waveform-audio output device should be cued. This is the default flag if a fla
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

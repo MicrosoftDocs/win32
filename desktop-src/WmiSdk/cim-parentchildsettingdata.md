@@ -1,13 +1,16 @@
 ---
-Description: 'An association between an instance of CIM\_VirtualSystemSettingData and the CIM\_VirtualSystemSettingData instance which represents the most recent snapshot upon which this object is based.'
+Description: An association between an instance of CIM\_VirtualSystemSettingData and the CIM\_VirtualSystemSettingData instance which represents the most recent snapshot upon which this object is based.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f6e93c22-077b-4604-8d0d-9584b1f4dce1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f6e93c22-077b-4604-8d0d-9584b1f4dce1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ParentChildSettingData class'
+title: CIM\_ParentChildSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ParentChildSettingData class
@@ -17,7 +20,7 @@ An association between an instance of [**CIM\_VirtualSystemSettingData**](https:
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -26,8 +29,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class CIM_ParentChildSettingData : CIM_Dependency
 {
-  CIM_ManagedSystemElement     REF Antecedent;
-  CIM_ManagedSystemElement     REF Dependent;
+  CIM_ManagedSystemElement     REF Antecedent;
+  CIM_ManagedSystemElement     REF Dependent;
   CIM_VirtualSystemSettingData REF Parent;
   CIM_VirtualSystemSettingData REF Child;
 };
@@ -118,9 +121,9 @@ The snapshot setting data upon which the Child setting data is based.
 [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxOutboundRoutingGroup configuration object is used by a fax client application to retrieve information about an individual fax outbound routing group.'
-ms.assetid: '894a58b7-3a5f-4723-abcb-764567e49e76'
+---
+Description: The FaxOutboundRoutingGroup configuration object is used by a fax client application to retrieve information about an individual fax outbound routing group.
+ms.assetid: 894a58b7-3a5f-4723-abcb-764567e49e76
 title: FaxOutboundRoutingGroup object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingGroup object

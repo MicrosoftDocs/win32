@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an instance of the BoundingBox class.'
-ms.assetid: '9d8c25de-ed8b-4705-a29d-3a1638b0533f'
+---
+Description: Creates an instance of the BoundingBox class.
+ms.assetid: 9d8c25de-ed8b-4705-a29d-3a1638b0533f
 title: BoundingBox constructors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingBox constructors
@@ -27,7 +32,7 @@ Creates an instance of the `BoundingBox` class.
 **Reference**
 </dt> <dt>
 
-[**BoundingBox**](boundingbox.md)
+[**BoundingBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingbox?branch=master)
 </dt> </dl>
 
  

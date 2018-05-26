@@ -1,8 +1,19 @@
 ---
 title: Advanced Rotation
 description: This section explains how to rotate an object based on where the user is performing the rotation manipulation.
-ms.assetid: '56b339b1-a062-4c0e-91c8-aec08a17bc65'
-keywords: ["Windows Touch,rotation", "Windows Touch,advanced rotation", "Windows Touch,manipulations", "manipulations,rotation", "manipulations,advanced rotation", "rotation,advanced"]
+ms.assetid: 56b339b1-a062-4c0e-91c8-aec08a17bc65
+keywords:
+- Windows Touch,rotation
+- Windows Touch,advanced rotation
+- Windows Touch,manipulations
+- manipulations,rotation
+- manipulations,advanced rotation
+- rotation,advanced
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Rotation

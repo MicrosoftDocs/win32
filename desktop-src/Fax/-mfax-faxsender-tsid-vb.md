@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TSID property is a null-terminated string that contains the transmitting station identifier (TSID) for the sender''s device.'
-ms.assetid: '3dffb4ea-dfd1-4bbb-8cf3-b3283d761a8d'
-title: 'FaxSender.TSID property'
+---
+Description: The TSID property is a null-terminated string that contains the transmitting station identifier (TSID) for the senders device.
+ms.assetid: 3dffb4ea-dfd1-4bbb-8cf3-b3283d761a8d
+title: FaxSender.TSID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSender.TSID property

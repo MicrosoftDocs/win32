@@ -1,6 +1,11 @@
-﻿---
-Description: 'Gets the properties of the view.'
-title: 'IShellFolderViewType::GetViewTypeProperties method'
+---
+Description: Gets the properties of the view.
+title: IShellFolderViewTypeGetViewTypeProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellFolderViewType::GetViewTypeProperties method

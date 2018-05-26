@@ -1,7 +1,12 @@
 ---
 title: Create Personality
 description: Create Personality
-ms.assetid: 'ee8b2b8d-82e6-47c9-9ba1-8eb18f82683f'
+ms.assetid: ee8b2b8d-82e6-47c9-9ba1-8eb18f82683f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create Personality

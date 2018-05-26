@@ -4,11 +4,17 @@ description: Active Directory Service Interfaces (ADSI) provides the means for c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '58bde1ea-30d1-4601-a6fb-df0bb837e2ab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 58bde1ea-30d1-4601-a6fb-df0bb837e2ab
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Using Active Directory Service Interfaces ADSI", "ADSI ADSI , Using", "Active Directory Service Interfaces ADSI , Using"]
+keywords:
+- Using Active Directory Service Interfaces ADSI
+- ADSI ADSI , Using
+- Active Directory Service Interfaces ADSI , Using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Active Directory Service Interfaces
@@ -19,7 +25,7 @@ Active Directory Service Interfaces conform to the Component Object Model (COM) 
 
 ADSI supplies interfaces that are compliant with Automation for name-bound controllers like Java, Microsoft Visual Basic development system, and Visual Basic Scripting Edition (VBScript). ADSI can also provide an interface that can optimize performance for interfaces that are not compliant with Automation, to use with language environments like C and C++.
 
-ADSI also provides the non-automation interfaces, [**IDirectoryObject**](idirectoryobject.md) and [**IDirectorySearch**](idirectorysearch.md), to support directory object management and queries.
+ADSI also provides the non-automation interfaces, [**IDirectoryObject**](/windows/win32/Iads/nn-iads-idirectoryobject?branch=master) and [**IDirectorySearch**](/windows/win32/Iads/nn-iads-idirectorysearch?branch=master), to support directory object management and queries.
 
 In addition, ADSI supplies its own OLE DB provider, so that any client already using OLE DB, including those using ActiveX Data Objects, can query directory services directly.
 

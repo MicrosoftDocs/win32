@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '904e5325-4bcb-42cf-8e7f-eb9641c94633'
+Description: .
+ms.assetid: 904e5325-4bcb-42cf-8e7f-eb9641c94633
 title: Querying Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying Interfaces
@@ -10,49 +15,49 @@ title: Querying Interfaces
 
 This Windows Search reference section consists of the following querying interfaces:
 
-[**ICondition**](-search-icondition.md)
+[**ICondition**](/windows/win32/Structuredquerycondition/nn-structuredquerycondition-icondition?branch=master)
 
-[**ICondition2**](-search-icondition2.md)
+[**ICondition2**](/windows/win32/Structuredquerycondition/nn-structuredquerycondition-icondition2?branch=master)
 
-[**IConditionFactory**](-search-iconditionfactory.md)
+[**IConditionFactory**](/windows/win32/Structuredquery/nn-structuredquery-iconditionfactory?branch=master)
 
-[**IConditionFactory2**](-search-iconditionfactory2.md)
+[**IConditionFactory2**](/windows/win32/Structuredquery/nn-structuredquery-iconditionfactory2?branch=master)
 
-[**IConditionGenerator**](-search-iconditiongenerator.md)
+[**IConditionGenerator**](/windows/win32/Structuredquery/nn-structuredquery-iconditiongenerator?branch=master)
 
-[**IEntity**](-search-ientity.md)
+[**IEntity**](/windows/win32/Structuredquery/nn-structuredquery-ientity?branch=master)
 
-[**IInterval**](-search-iinterval.md)
+[**IInterval**](/windows/win32/Structuredquery/nn-structuredquery-iinterval?branch=master)
 
 [**IItemPreviewerExt**](-search-iitempreviewerext.md)
 
-[**IMetaData**](-search-imetadata.md)
+[**IMetaData**](/windows/win32/Structuredquery/nn-structuredquery-imetadata?branch=master)
 
-[**INamedEntity**](-search-inamedentity.md)
+[**INamedEntity**](/windows/win32/Structuredquery/nn-structuredquery-inamedentity?branch=master)
 
-[**INamedEntityCollector**](-search-inamedentitycollector.md)
+[**INamedEntityCollector**](/windows/win32/Structuredquery/nn-structuredquery-inamedentitycollector?branch=master)
 
-[**IQueryParser**](-search-iqueryparser.md)
+[**IQueryParser**](/windows/win32/Structuredquery/nn-structuredquery-iqueryparser?branch=master)
 
-[**IQueryParserManager**](-search-iqueryparsermanager.md)
+[**IQueryParserManager**](/windows/win32/Structuredquery/nn-structuredquery-iqueryparsermanager?branch=master)
 
-[**IQuerySolution**](-search-iquerysolution.md)
+[**IQuerySolution**](/windows/win32/Structuredquery/nn-structuredquery-iquerysolution?branch=master)
 
-[**IRelationship**](-search-irelationship.md)
+[**IRelationship**](/windows/win32/Structuredquery/nn-structuredquery-irelationship?branch=master)
 
-[**IRichChunk**](-search-irichchunk.md)
+[**IRichChunk**](/windows/win32/Structuredquerycondition/nn-structuredquerycondition-irichchunk?branch=master)
 
-[**IRowsetEvents**](-search-irowsetevents.md)
+[**IRowsetEvents**](/windows/win32/Searchapi/nn-searchapi-irowsetevents?branch=master)
 
-[**IRowsetPrioritization**](-search-irowsetprioritization.md)
+[**IRowsetPrioritization**](/windows/win32/Searchapi/nn-searchapi-irowsetprioritization?branch=master)
 
-[**ISchemaLocalizerSupport**](-search-ischemalocalizersupport.md)
+[**ISchemaLocalizerSupport**](/windows/win32/Structuredquery/nn-structuredquery-ischemalocalizersupport?branch=master)
 
-[**ISchemaProvider**](-search-ischemaprovider.md)
+[**ISchemaProvider**](/windows/win32/Structuredquery/nn-structuredquery-ischemaprovider?branch=master)
 
-[**ISearchQueryHelper**](-search-isearchqueryhelper.md)
+[**ISearchQueryHelper**](/windows/win32/Searchapi/nn-searchapi-isearchqueryhelper?branch=master)
 
-[**ITokenCollection**](-search-itokencollection.md)
+[**ITokenCollection**](/windows/win32/Structuredquery/nn-structuredquery-itokencollection?branch=master)
 
  
 

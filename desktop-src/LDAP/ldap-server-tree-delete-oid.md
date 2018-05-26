@@ -4,11 +4,12 @@ description: Used with an extended LDAP delete function to delete an entire subt
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b47a0f40-7191-40a5-a914-6c4fa78df8cb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: b47a0f40-7191-40a5-a914-6c4fa78df8cb
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_SERVER_TREE_DELETE_OID control code LDAP"]
+keywords:
+- LDAP_SERVER_TREE_DELETE_OID control code LDAP
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Ntldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_SERVER\_TREE\_DELETE\_OID control code
 
 The LDAP\_SERVER\_TREE\_DELETE\_OID control is used with an extended LDAP delete function to delete an entire subtree in the directory.
 
-To use this control, set the members of the [**LDAPControl**](ldapcontrol.md) structure as follows.
+To use this control, set the members of the [**LDAPControl**](/windows/previous-versions/Winldap/ns-winldap-ldapcontrola?branch=master) structure as follows.
 
 ``` syntax
 PWCHAR ldctl_oid = LDAP_SERVER_TREE_DELETE_OID;
@@ -45,7 +49,7 @@ LDAP\_SERVER\_TREE\_DELETE\_OID, which is defined as "1.2.840.113556.1.4.805".
 **ldctl\_value**
 </dt> <dd>
 
-No data for this control. In the [**berval**](berval.md) structure, set **bv\_len** to zero and **bv\_val** to **NULL**.
+No data for this control. In the [**berval**](/windows/previous-versions/Winldap/ns-winldap-berval?branch=master) structure, set **bv\_len** to zero and **bv\_val** to **NULL**.
 
 </dd> <dt>
 
@@ -58,7 +62,7 @@ Can be **TRUE** or **FALSE** depending on whether the operation is critical to y
 
 ## Remarks
 
-The Tree Delete control is used with the extended delete functions, such as [**ldap\_delete\_ext**](ldap-delete-ext.md), to delete an entire directory subtree. This control must be exclusively used with the LDAP **DelRequest** message and will be ignored if used otherwise. However, if the criticality field is set to **TRUE** and the control is used with other than the **DelRequest** message, the request will fail and return an **LDAP\_UNAVAILABLE\_CRIT\_EXTENSION** error. Server authentication of proper user permissions before completing the operation is required.
+The Tree Delete control is used with the extended delete functions, such as [**ldap\_delete\_ext**](/windows/previous-versions/Winldap/nf-winldap-ldap_delete_ext?branch=master), to delete an entire directory subtree. This control must be exclusively used with the LDAP **DelRequest** message and will be ignored if used otherwise. However, if the criticality field is set to **TRUE** and the control is used with other than the **DelRequest** message, the request will fail and return an **LDAP\_UNAVAILABLE\_CRIT\_EXTENSION** error. Server authentication of proper user permissions before completing the operation is required.
 
 ### Error Messages
 
@@ -93,8 +97,8 @@ If a Tree Delete control request fails, it may be retried with no adverse effect
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Ntldap.h</dt> </dl> |
 
 
@@ -106,15 +110,15 @@ If a Tree Delete control request fails, it may be retried with no adverse effect
 [Data Structures](data-structures.md)
 </dt> <dt>
 
-[**LDAPMessage**](ldapmessage.md)
+[**LDAPMessage**](/windows/previous-versions/Winldap/ns-winldap-ldapmsg?branch=master)
 </dt> <dt>
 
 [Using Controls](using-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

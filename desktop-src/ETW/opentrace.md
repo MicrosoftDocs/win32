@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OpenTrace function opens a real-time trace session or log file for consuming.'
-ms.assetid: '505e643b-6b4f-4f93-96c8-7fe8abdd6234'
+---
+Description: The OpenTrace function opens a real-time trace session or log file for consuming.
+ms.assetid: 505e643b-6b4f-4f93-96c8-7fe8abdd6234
 title: OpenTrace function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenTrace function

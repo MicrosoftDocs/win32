@@ -1,13 +1,16 @@
 ---
-Description: 'Deletes files and directories from the local cache.'
+Description: Deletes files and directories from the local cache.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ce729cda-b68d-4eb8-9782-8e2749d0e2fd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ce729cda-b68d-4eb8-9782-8e2749d0e2fd
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'DeleteItems method of the Win32\_OfflineFilesCache class'
+title: DeleteItems method of the Win32\_OfflineFilesCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeleteItems method of the Win32\_OfflineFilesCache class
@@ -19,8 +22,8 @@ Deletes files and directories from the local cache. Deleting a container item im
 
 ```mof
 uint32 DeleteItems(
-  [in] string Paths[],
-  [in] uint32 Flags
+  [in] string Paths[],
+  [in] uint32 Flags
 );
 ```
 
@@ -110,8 +113,8 @@ Files that are deleted are not recoverable through the Recycle Bin. Files that a
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CscObj.dll</dt> </dl>                  |
@@ -125,9 +128,9 @@ Files that are deleted are not recoverable through the Recycle Bin. Files that a
 [**Win32\_OfflineFilesCache**](win32-offlinefilescache.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

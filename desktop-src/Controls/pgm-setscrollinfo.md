@@ -1,8 +1,9 @@
 ---
 title: PGM\_SETSCROLLINFO message
 description: Sets the scrolling parameters of the pager control, including the timeout value, the lines per timeout, and the pixels per line. You can send this message explicitly or by using the Pager\_SetScrollInfo macro.
-ms.assetid: 'e02450b8-f2b5-45b2-9395-d7412119849c'
-keywords: ["PGM_SETSCROLLINFO message Windows Controls"]
+ms.assetid: e02450b8-f2b5-45b2-9395-d7412119849c
+keywords:
+- PGM_SETSCROLLINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PGM\_SETSCROLLINFO message
 
 \[Intended for internal use; not recommended for use in applications. This message may not be supported in future versions of Windows.\]
 
-Sets the scrolling parameters of the pager control, including the timeout value, the lines per timeout, and the pixels per line. You can send this message explicitly or by using the [**Pager\_SetScrollInfo**](pager-setscrollinfo.md) macro.
+Sets the scrolling parameters of the pager control, including the timeout value, the lines per timeout, and the pixels per line. You can send this message explicitly or by using the [**Pager\_SetScrollInfo**](/windows/win32/Commctrl/nf-commctrl-pager_setscrollinfo?branch=master) macro.
 
 ## Parameters
 
@@ -57,8 +63,8 @@ By default, with each scrolling event the pager control scrolls an amount equal 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -67,12 +73,12 @@ By default, with each scrolling event the pager control scrolls an amount equal 
 
 <dl> <dt>
 
-[**Pager\_SetScrollInfo**](pager-setscrollinfo.md)
+[**Pager\_SetScrollInfo**](/windows/win32/Commctrl/nf-commctrl-pager_setscrollinfo?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Toolbar
 description: This section contains information about the programming elements used with toolbar controls.
-ms.assetid: 'fdf2ede3-2f5e-45f9-979d-ff1d42baf8e7'
+ms.assetid: fdf2ede3-2f5e-45f9-979d-ff1d42baf8e7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Toolbar
@@ -19,7 +24,7 @@ This section contains information about the programming elements used with toolb
 
 
 
- 
+ 
 
 ### Functions
 
@@ -38,11 +43,11 @@ This section contains information about the programming elements used with toolb
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CreateMappedBitmap</strong>](createmappedbitmap.md)</td>
+<td>[<strong>CreateMappedBitmap</strong>](/windows/win32/Commctrl/nf-commctrl-createmappedbitmap?branch=master)</td>
 <td>Creates a bitmap for use in a toolbar. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateToolbarEx</strong>](createtoolbarex.md)</td>
+<td>[<strong>CreateToolbarEx</strong>](/windows/win32/Commctrl/nf-commctrl-createtoolbarex?branch=master)</td>
 <td>Creates a toolbar window and adds the specified buttons to the toolbar.
 <blockquote>
 [!Note]<br />
@@ -55,7 +60,7 @@ This function is deprecated, because it does not support all features of toolbar
 
 
 
- 
+ 
 
 ### Messages
 
@@ -68,7 +73,7 @@ This function is deprecated, because it does not support all features of toolbar
 | [**TB\_ADDSTRING**](tb-addstring.md)                         | Adds a new string to the toolbar's string pool.<br/>                                                                                                                                              |
 | [**TB\_AUTOSIZE**](tb-autosize.md)                           | Causes a toolbar to be resized. <br/>                                                                                                                                                             |
 | [**TB\_BUTTONCOUNT**](tb-buttoncount.md)                     | Retrieves a count of the buttons currently in the toolbar. <br/>                                                                                                                                  |
-| [**TB\_BUTTONSTRUCTSIZE**](tb-buttonstructsize.md)           | Specifies the size of the [**TBBUTTON**](tbbutton.md) structure. <br/>                                                                                                                           |
+| [**TB\_BUTTONSTRUCTSIZE**](tb-buttonstructsize.md)           | Specifies the size of the [**TBBUTTON**](/windows/win32/Commctrl/ns-commctrl-_tbbutton?branch=master) structure. <br/>                                                                                                                           |
 | [**TB\_CHANGEBITMAP**](tb-changebitmap.md)                   | Changes the bitmap for a button in a toolbar.<br/>                                                                                                                                                |
 | [**TB\_CHECKBUTTON**](tb-checkbutton.md)                     | Checks or unchecks a given button in a toolbar.<br/>                                                                                                                                              |
 | [**TB\_COMMANDTOINDEX**](tb-commandtoindex.md)               | Retrieves the zero-based index for the button associated with the specified command identifier. <br/>                                                                                             |
@@ -160,7 +165,7 @@ This function is deprecated, because it does not support all features of toolbar
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -206,7 +211,7 @@ This function is deprecated, because it does not support all features of toolbar
 
 
 
- 
+ 
 
 ### Structures
 
@@ -214,25 +219,25 @@ This function is deprecated, because it does not support all features of toolbar
 
 | Topic                                      | Contents                                                                                                                                                                                                                                                                |
 |--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**COLORMAP**](colormap.md)               | Contains information used by the [**CreateMappedBitmap**](createmappedbitmap.md) function to map the colors of the bitmap. <br/>                                                                                                                                 |
-| [**NMTBCUSTOMDRAW**](nmtbcustomdraw.md)   | Contains information specific to an [NM\_CUSTOMDRAW](nm-customdraw-toolbar.md) notification code sent by a toolbar control. <br/>                                                                                                                                |
-| [**NMTBDISPINFO**](nmtbdispinfo.md)       | Contains and receives display information for a toolbar item. This structure is used with the [TBN\_GETDISPINFO](tbn-getdispinfo.md) notification code. <br/>                                                                                                    |
-| [**NMTBGETINFOTIP**](nmtbgetinfotip.md)   | Contains and receives infotip information for a toolbar item. This structure is used with the [TBN\_GETINFOTIP](tbn-getdispinfo.md) notification code. <br/>                                                                                                     |
-| [**NMTBHOTITEM**](nmtbhotitem.md)         | Contains information used with the [TBN\_HOTITEMCHANGE](tbn-hotitemchange.md) notification code. <br/>                                                                                                                                                           |
-| [**NMTBRESTORE**](nmtbrestore.md)         | Allows applications to extract the information that was placed in [**NMTBSAVE**](nmtbsave.md) when the toolbar state was saved. This structure is passed to applications when they receive a [TBN\_RESTORE](tbn-restore.md) notification code.<br/>             |
-| [**NMTBSAVE**](nmtbsave.md)               | This structure is passed to applications when they receive a [TBN\_SAVE](tbn-save.md) notification code. It contains information about the button currently being saved. Applications can modify the values of the members to save additional information. <br/> |
-| [**NMTOOLBAR**](nmtoolbar.md)             | Contains information used to process toolbar notification codes. This structure supersedes the **TBNOTIFY** structure. <br/>                                                                                                                                      |
-| [**TBADDBITMAP**](tbaddbitmap.md)         | Adds a bitmap that contains button images to a toolbar.<br/>                                                                                                                                                                                                      |
-| [**TBBUTTON**](tbbutton.md)               | Contains information about a button in a toolbar.<br/>                                                                                                                                                                                                            |
-| [**TBBUTTONINFO**](tbbuttoninfo.md)       | Contains or receives information for a specific button in a toolbar.<br/>                                                                                                                                                                                         |
-| [**TBINSERTMARK**](tbinsertmark.md)       | Contains information on the insertion mark in a toolbar control. <br/>                                                                                                                                                                                            |
-| [**TBMETRICS**](tbmetrics.md)             | Defines the metrics of a toolbar that are used to shrink or expand toolbar items.<br/>                                                                                                                                                                            |
-| [**TBREPLACEBITMAP**](tbreplacebitmap.md) | Used with the [**TB\_REPLACEBITMAP**](tb-replacebitmap.md) message to replace one toolbar bitmap with another.<br/>                                                                                                                                              |
-| [**TBSAVEPARAMS**](tbsaveparams.md)       | Specifies the location in the registry where the [**TB\_SAVERESTORE**](tb-saverestore.md) message stores and retrieves information about the state of a toolbar. <br/>                                                                                           |
+| [**COLORMAP**](/windows/win32/Commctrl/ns-commctrl-_colormap?branch=master)               | Contains information used by the [**CreateMappedBitmap**](/windows/win32/Commctrl/nf-commctrl-createmappedbitmap?branch=master) function to map the colors of the bitmap. <br/>                                                                                                                                 |
+| [**NMTBCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-_nmtbcustomdraw?branch=master)   | Contains information specific to an [NM\_CUSTOMDRAW](nm-customdraw-toolbar.md) notification code sent by a toolbar control. <br/>                                                                                                                                |
+| [**NMTBDISPINFO**](/windows/win32/Commctrl/ns-commctrl-nmtbdispinfoa?branch=master)       | Contains and receives display information for a toolbar item. This structure is used with the [TBN\_GETDISPINFO](tbn-getdispinfo.md) notification code. <br/>                                                                                                    |
+| [**NMTBGETINFOTIP**](/windows/win32/Commctrl/ns-commctrl-tagnmtbgetinfotipa?branch=master)   | Contains and receives infotip information for a toolbar item. This structure is used with the [TBN\_GETINFOTIP](tbn-getdispinfo.md) notification code. <br/>                                                                                                     |
+| [**NMTBHOTITEM**](/windows/win32/Commctrl/ns-commctrl-tagnmtbhotitem?branch=master)         | Contains information used with the [TBN\_HOTITEMCHANGE](tbn-hotitemchange.md) notification code. <br/>                                                                                                                                                           |
+| [**NMTBRESTORE**](/windows/win32/Commctrl/ns-commctrl-tagnmtbrestore?branch=master)         | Allows applications to extract the information that was placed in [**NMTBSAVE**](/windows/win32/Commctrl/ns-commctrl-tagnmtbsave?branch=master) when the toolbar state was saved. This structure is passed to applications when they receive a [TBN\_RESTORE](tbn-restore.md) notification code.<br/>             |
+| [**NMTBSAVE**](/windows/win32/Commctrl/ns-commctrl-tagnmtbsave?branch=master)               | This structure is passed to applications when they receive a [TBN\_SAVE](tbn-save.md) notification code. It contains information about the button currently being saved. Applications can modify the values of the members to save additional information. <br/> |
+| [**NMTOOLBAR**](/windows/win32/Commctrl/ns-commctrl-tagnmtoolbara?branch=master)             | Contains information used to process toolbar notification codes. This structure supersedes the **TBNOTIFY** structure. <br/>                                                                                                                                      |
+| [**TBADDBITMAP**](/windows/win32/Commctrl/ns-commctrl-tagtbaddbitmap?branch=master)         | Adds a bitmap that contains button images to a toolbar.<br/>                                                                                                                                                                                                      |
+| [**TBBUTTON**](/windows/win32/Commctrl/ns-commctrl-_tbbutton?branch=master)               | Contains information about a button in a toolbar.<br/>                                                                                                                                                                                                            |
+| [**TBBUTTONINFO**](/windows/win32/Commctrl/ns-commctrl-tbbuttoninfoa?branch=master)       | Contains or receives information for a specific button in a toolbar.<br/>                                                                                                                                                                                         |
+| [**TBINSERTMARK**](/windows/win32/Commctrl/ns-commctrl-tbinsertmark?branch=master)       | Contains information on the insertion mark in a toolbar control. <br/>                                                                                                                                                                                            |
+| [**TBMETRICS**](/windows/win32/Commctrl/ns-commctrl-tbmetrics?branch=master)             | Defines the metrics of a toolbar that are used to shrink or expand toolbar items.<br/>                                                                                                                                                                            |
+| [**TBREPLACEBITMAP**](/windows/win32/Commctrl/ns-commctrl-tbreplacebitmap?branch=master) | Used with the [**TB\_REPLACEBITMAP**](tb-replacebitmap.md) message to replace one toolbar bitmap with another.<br/>                                                                                                                                              |
+| [**TBSAVEPARAMS**](/windows/win32/Commctrl/ns-commctrl-tagtbsaveparamsa?branch=master)       | Specifies the location in the registry where the [**TB\_SAVERESTORE**](tb-saverestore.md) message stores and retrieves information about the state of a toolbar. <br/>                                                                                           |
 
 
 
- 
+ 
 
 ### Constants
 
@@ -276,11 +281,11 @@ Comctl32.dll version 6 is not redistributable but it is included in Windows or l
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

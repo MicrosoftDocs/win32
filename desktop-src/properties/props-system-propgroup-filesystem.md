@@ -1,7 +1,12 @@
 ---
-Description: 'The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.'
-ms.assetid: '7e3602aa-b04a-49ad-a0f8-7fd13841f2bb'
-title: 'System.PropGroup.FileSystem'
+Description: The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
+ms.assetid: 7e3602aa-b04a-49ad-a0f8-7fd13841f2bb
+title: System.PropGroup.FileSystem
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.PropGroup.FileSystem

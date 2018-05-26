@@ -1,14 +1,20 @@
 ---
 title: ImportChannelType Complex Type
 description: Identifies a channel that has been defined by another provider or in a manifest that contains a metadata section.
-ms.assetid: 'da14d837-0ed8-4d85-9820-46c77753768d'
-keywords: ["ImportChannelType complex type EventLog"]
+ms.assetid: da14d837-0ed8-4d85-9820-46c77753768d
+keywords:
+- ImportChannelType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - ImportChannelType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImportChannelType Complex Type
@@ -62,14 +68,14 @@ The manifest that defined the imported channel must be installed before your pro
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates the specified subtype within the specified type.'
-ms.assetid: 'afd5c0c6-5779-4a78-83aa-cae36f5de564'
-title: 'IPStore::CreateSubtype method'
+---
+Description: Creates the specified subtype within the specified type.
+ms.assetid: afd5c0c6-5779-4a78-83aa-cae36f5de564
+title: IPStoreCreateSubtype method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPStore::CreateSubtype method

@@ -1,7 +1,12 @@
 ---
-Description: 'The PublishFeatures action writes each feature''s state into the system registry.'
-ms.assetid: '8205e865-e625-43b9-8ce9-cff8026b2717'
+Description: The PublishFeatures action writes each features state into the system registry.
+ms.assetid: 8205e865-e625-43b9-8ce9-cff8026b2717
 title: PublishFeatures Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PublishFeatures Action

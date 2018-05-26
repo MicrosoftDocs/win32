@@ -3,7 +3,12 @@ title: Software License Provider
 description: The Windows Management Instrumentation (WMI) Software Licensing provider retrieves software licensing data.
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '387919F2-96A4-4A94-8950-333A6B75B18A'
+ms.assetid: 387919F2-96A4-4A94-8950-333A6B75B18A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Software License Provider
@@ -20,7 +25,7 @@ The Windows Management Instrumentation (WMI) Software Licensing provider retriev
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ The Windows Management Instrumentation (WMI) Software Licensing provider retriev
 [Software Licensing Classes for Windows Vista](https://msdn.microsoft.com/library/ee957720)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

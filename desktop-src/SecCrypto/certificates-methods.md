@@ -1,7 +1,12 @@
 ---
-Description: 'The Certificates object exposes the following methods.'
-ms.assetid: '45B5E21D-07EF-4998-B1A9-939DA86B6685'
+Description: The Certificates object exposes the following methods.
+ms.assetid: 45B5E21D-07EF-4998-B1A9-939DA86B6685
 title: Certificates Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificates Methods

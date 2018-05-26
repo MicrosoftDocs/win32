@@ -1,7 +1,12 @@
 ---
 title: How to Process the DTN\_WMKEYDOWN Notification
 description: This topic demonstrates how to process a DTN\_WMKEYDOWN notification. Handling this notification code allows the owner of the control to provide specific responses to keystrokes within the callback fields of the control.
-ms.assetid: 'CD521C62-CF52-4FFF-A598-E5EBA34471FB'
+ms.assetid: CD521C62-CF52-4FFF-A598-E5EBA34471FB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Process the DTN\_WMKEYDOWN Notification

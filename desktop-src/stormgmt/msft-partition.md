@@ -1,8 +1,10 @@
 ---
 title: MSFT\_Partition class
 description: Represents a partition on a disk.
-ms.assetid: 'd692d4f5-c912-48ec-98a6-9c72ac6e75f6'
-keywords: ["MSFT_Partition class Windows Storage Management API", "MSFT_Partition class Windows Storage Management API , described"]
+ms.assetid: d692d4f5-c912-48ec-98a6-9c72ac6e75f6
+keywords:
+- MSFT_Partition class Windows Storage Management API
+- MSFT_Partition class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_Partition class
@@ -42,16 +49,16 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 ``` syntax
 class MSFT_Partition : MSFT_StorageObject
 {
-  UInt32  DiskNumber;
-  UInt32  PartitionNumber;
-  Char16  DriveLetter;
-  String  AccessPaths[];
-  UInt16  OperationalStatus;
-  UInt16  TransitionState;
-  UInt64  Size;
-  UInt16  MbrType;
-  String  GptType;
-  String  Guid;
+  UInt32  DiskNumber;
+  UInt32  PartitionNumber;
+  Char16  DriveLetter;
+  String  AccessPaths[];
+  UInt16  OperationalStatus;
+  UInt16  TransitionState;
+  UInt64  Size;
+  UInt16  MbrType;
+  String  GptType;
+  String  Guid;
   Boolean IsReadOnly;
   Boolean IsOffline;
   Boolean IsSystem;
@@ -90,7 +97,7 @@ The **MSFT\_Partition** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -164,7 +171,7 @@ The partition's GPT type. This property is only valid when the disk's **Partitio
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -387,13 +394,13 @@ The transition state of the partition. One of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
 ## Remarks
 
-**Starting in Windows 10:** **MSFT\_Partition** derives from [**MSFT\_StorageObject**](msft-storageobject.md).
+**Starting in Windows 10:** **MSFT\_Partition** derives from [**MSFT\_StorageObject**](msft-storageobject.md).
 
 ## Requirements
 
@@ -401,16 +408,16 @@ The transition state of the partition. One of the following values.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

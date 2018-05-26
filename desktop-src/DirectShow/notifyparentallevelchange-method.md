@@ -1,7 +1,12 @@
-﻿---
-Description: 'The NotifyParentalLevelChange method enables or disables the event handling for temporary parental management level commands.'
-ms.assetid: 'c8252cc6-a83f-4cce-ba3e-7db669eeb465'
+---
+Description: The NotifyParentalLevelChange method enables or disables the event handling for temporary parental management level commands.
+ms.assetid: c8252cc6-a83f-4cce-ba3e-7db669eeb465
 title: NotifyParentalLevelChange Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NotifyParentalLevelChange Method

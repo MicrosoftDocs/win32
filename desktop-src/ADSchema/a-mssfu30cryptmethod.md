@@ -4,17 +4,22 @@ description: Contains the method that is used to encrypt UNIX passwords.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e4732996-c8a5-41e7-9dc7-3de2ab3e61f0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e4732996-c8a5-41e7-9dc7-3de2ab3e61f0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["msSFU-30-Crypt-Method attribute AD Schema", "msSFU30CryptMethod attribute AD Schema"]
+keywords:
+- msSFU-30-Crypt-Method attribute AD Schema
+- msSFU30CryptMethod attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - msSFU-30-Crypt-Method
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msSFU-30-Crypt-Method attribute
@@ -38,10 +43,10 @@ Contains the method that is used to encrypt UNIX passwords.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -127,9 +132,9 @@ Contains the method that is used to encrypt UNIX passwords.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

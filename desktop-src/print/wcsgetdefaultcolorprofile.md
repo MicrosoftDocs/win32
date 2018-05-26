@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WcsGetDefaultColorProfile function retrieves the default color profile for a device, or the device-independent default if the device is not specified.'
-ms.assetid: 'a5ace7f3-dc61-4799-b129-3c25c392ebf6'
+---
+Description: The WcsGetDefaultColorProfile function retrieves the default color profile for a device, or the device-independent default if the device is not specified.
+ms.assetid: a5ace7f3-dc61-4799-b129-3c25c392ebf6
 title: WcsGetDefaultColorProfile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsGetDefaultColorProfile function

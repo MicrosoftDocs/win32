@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM\_INPUT\_LAYOUT structure
 description: A helper structure used to describe an input layout as a single object suitable for a stream description.
-ms.assetid: 'CEAD9FA6-4FB0-492E-9E81-8C4900A1FBC5'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT structure"]
+ms.assetid: CEAD9FA6-4FB0-492E-9E81-8C4900A1FBC5
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM\_INPUT\_LAYOUT structure
@@ -22,10 +28,10 @@ A helper structure used to describe an input layout as a single object suitable 
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT {
-                                             CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT;
-                                             CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT(D3D12_INPUT_LAYOUT_DESC const &amp;i);
+                                             CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT;
+                                             CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT(D3D12_INPUT_LAYOUT_DESC const &amp;i);
   CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT operator=(D3D12_INPUT_LAYOUT_DESC const&amp; i);
-                                             operator D3D12_INPUT_LAYOUT_DESC() const;
+                                             operator D3D12_INPUT_LAYOUT_DESC() const;
 };
 ```
 
@@ -45,7 +51,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_IN
 **CD3DX12\_PIPELINE\_STATE\_STREAM\_INPUT\_LAYOUT(D3D12\_INPUT\_LAYOUT\_DESC const &i)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_INPUT\_LAYOUT, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_INPUT\_LAYOUT** and subobject data copied from *i*, a [**D3D12\_INPUT\_LAYOUT\_DESC**](d3d12-input-layout-desc.md) structure.
+Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_INPUT\_LAYOUT, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_INPUT\_LAYOUT** and subobject data copied from *i*, a [**D3D12\_INPUT\_LAYOUT\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_input_layout_desc?branch=master) structure.
 
 </dd> <dt>
 
@@ -59,7 +65,7 @@ Copy-assignment operator.
 **operator D3D12\_INPUT\_LAYOUT\_DESC() const**
 </dt> <dd>
 
-Implicit conversion to a [**D3D12\_INPUT\_LAYOUT\_DESC**](d3d12-input-layout-desc.md) structure.
+Implicit conversion to a [**D3D12\_INPUT\_LAYOUT\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_input_layout_desc?branch=master) structure.
 
 </dd> </dl>
 
@@ -99,9 +105,9 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<D3D12_INPUT_LAYOUT_DESC, D3D12_P
 [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

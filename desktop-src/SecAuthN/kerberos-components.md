@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the parts of the Kerberos authentication provider.'
-ms.assetid: '458466ee-cbf4-4bdc-a305-208a1788bed4'
+Description: Lists the parts of the Kerberos authentication provider.
+ms.assetid: 458466ee-cbf4-4bdc-a305-208a1788bed4
 title: Kerberos Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Kerberos Model

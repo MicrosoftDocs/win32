@@ -1,7 +1,12 @@
 ---
-Description: 'Addresses of the all the optional attendees.'
-ms.assetid: '799fdbb5-30c8-448a-840b-2a6b1541fbfe'
-title: 'System.Calendar.OptionalAttendeeAddresses'
+Description: Addresses of the all the optional attendees.
+ms.assetid: 799fdbb5-30c8-448a-840b-2a6b1541fbfe
+title: System.Calendar.OptionalAttendeeAddresses
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Calendar.OptionalAttendeeAddresses

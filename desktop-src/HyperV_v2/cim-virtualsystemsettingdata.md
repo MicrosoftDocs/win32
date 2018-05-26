@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the virtual aspects of a virtual system through a set of virtualization specific properties. CIM\_VirtualSystemSettingData is also used as the top level class of virtual system configurations.'
-ms.assetid: '501e659d-f190-41f9-aafa-447048a60e7c'
-title: 'CIM\_VirtualSystemSettingData class'
+Description: Describes the virtual aspects of a virtual system through a set of virtualization specific properties. CIM\_VirtualSystemSettingData is also used as the top level class of virtual system configurations.
+ms.assetid: 501e659d-f190-41f9-aafa-447048a60e7c
+title: CIM\_VirtualSystemSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VirtualSystemSettingData class
@@ -14,23 +19,23 @@ Describes the virtual aspects of a virtual system through a set of virtualizatio
 [Abstract, Version("2.25.0"), UMLPackagePath("CIM::System::SystemElements"), AMENDMENT]
 class CIM_VirtualSystemSettingData : CIM_SettingData
 {
-  string   VirtualSystemIdentifier;
-  string   VirtualSystemType;
-  string   Notes[];
+  string   VirtualSystemIdentifier;
+  string   VirtualSystemType;
+  string   Notes[];
   datetime CreationTime;
-  string   ConfigurationID;
-  string   ConfigurationDataRoot;
-  string   ConfigurationFile;
-  string   SnapshotDataRoot;
-  string   SuspendDataRoot;
-  string   SwapFileDataRoot;
-  string   LogDataRoot;
-  uint16   AutomaticStartupAction;
+  string   ConfigurationID;
+  string   ConfigurationDataRoot;
+  string   ConfigurationFile;
+  string   SnapshotDataRoot;
+  string   SuspendDataRoot;
+  string   SwapFileDataRoot;
+  string   LogDataRoot;
+  uint16   AutomaticStartupAction;
   datetime AutomaticStartupActionDelay;
-  uint16   AutomaticStartupActionSequenceNumber;
-  uint16   AutomaticShutdownAction;
-  uint16   AutomaticRecoveryAction;
-  string   RecoveryFile;
+  uint16   AutomaticStartupActionSequenceNumber;
+  uint16   AutomaticShutdownAction;
+  uint16   AutomaticRecoveryAction;
+  string   RecoveryFile;
 };
 ```
 
@@ -241,7 +246,7 @@ The unique id of the virtual system configuration.
 > [!Note]  
 > **ConfigurationID** is different from the **InstanceID**, and is assigned by the implementation to a virtual system or a virtual system configuration. **ConfigurationID** is not a key, and the same value may occur for more than one instance.
 
- 
+ 
 
 </dd> <dt>
 
@@ -365,19 +370,19 @@ The type of the virtual system.
 > [!Note]  
 > If the virtual system type is unknown, this value must be set to "DMTF:unknown".
 
- 
+ 
 
-This property is formatted using the following Augmented Backus–Naur Form (ABNF) format:
+This property is formatted using the following Augmented Backus Naur Form (ABNF) format:
 
 vs-type = dmtf-value / other-org-value / legacy-value; dmtf-value = "DMTF:" defining-org ":" org-vs-type; other-org-value = defining-org ":" org-vs-type;
 
 The value of the above ABNF format are:
 
--   *dmtf-value* — a property value defined by DMTF and is defined in the description of this property.
--   *other-org-value* — is a property value defined by a business entity other than DMTF and is not defined in the description of this property.
--   *legacy-value* — a property value defined by a business entity other than DMTF and is not defined in the description of this property. These values are permitted but recommended to be deprecated over time.
--   *defining-org* — an identifier for the business entity that defines the virtual system type. It should include a copyrighted, trademarked, or a unique name that is owned by the business entity. It should not be "DMTF" and shall not contain a colon.
--   *org-vs-type* — an identifier for the virtual system type within the defining business entity. It should be unique within defining-org. org-vs-type may use any character allowed for CIM strings, except the following: U0000-U001F (Unicode C0 controls), U0020 (space), U007F (Unicode C0 controls), or U0080-U009F (Unicode C1 controls).
+-   *dmtf-value*   a property value defined by DMTF and is defined in the description of this property.
+-   *other-org-value*   is a property value defined by a business entity other than DMTF and is not defined in the description of this property.
+-   *legacy-value*   a property value defined by a business entity other than DMTF and is not defined in the description of this property. These values are permitted but recommended to be deprecated over time.
+-   *defining-org*   an identifier for the business entity that defines the virtual system type. It should include a copyrighted, trademarked, or a unique name that is owned by the business entity. It should not be "DMTF" and shall not contain a colon.
+-   *org-vs-type*   an identifier for the virtual system type within the defining business entity. It should be unique within defining-org. org-vs-type may use any character allowed for CIM strings, except the following: U0000-U001F (Unicode C0 controls), U0020 (space), U007F (Unicode C0 controls), or U0080-U009F (Unicode C1 controls).
 -   If there is a need to structure the value into segments, the segments should be separated with a single colon.
 -   The values of this property should be processed case sensitively. They are intended to be processed programmatically, instead of being a display name, and should be short.
 
@@ -389,8 +394,8 @@ The value of the above ABNF format are:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -404,9 +409,9 @@ The value of the above ABNF format are:
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

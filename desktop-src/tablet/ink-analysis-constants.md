@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains information about the constants used in ink analysis.'
-ms.assetid: 'f701faca-7695-4be2-bd25-fab7ebcdbf30'
+Description: This section contains information about the constants used in ink analysis.
+ms.assetid: f701faca-7695-4be2-bd25-fab7ebcdbf30
 title: Ink Analysis Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Analysis Constants
@@ -20,7 +25,7 @@ This section contains information about the constants used in ink analysis.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ This section contains information about the constants used in ink analysis.
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft Windows Search uses filters to extract the content of items for inclusion in a full-text index.'
-ms.assetid: '7b86a1b4-c8a9-400d-a9f1-a3b821c0269d'
+Description: Microsoft Windows Search uses filters to extract the content of items for inclusion in a full-text index.
+ms.assetid: 7b86a1b4-c8a9-400d-a9f1-a3b821c0269d
 title: Best Practices for Creating Filter Handlers in Windows Search
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Best Practices for Creating Filter Handlers in Windows Search

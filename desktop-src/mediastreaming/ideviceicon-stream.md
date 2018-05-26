@@ -1,14 +1,22 @@
 ---
 title: IDeviceIcon Stream method
 description: Retrieves the icon as a stream.
-ms.assetid: '0B9E852F-4F72-4721-8F88-24A850A088C4'
-keywords: ["Stream method Media Streaming API", "Stream method Media Streaming API , IDeviceIcon interface", "IDeviceIcon interface Media Streaming API , Stream method"]
+ms.assetid: 0B9E852F-4F72-4721-8F88-24A850A088C4
+keywords:
+- Stream method Media Streaming API
+- Stream method Media Streaming API , IDeviceIcon interface
+- IDeviceIcon interface Media Streaming API , Stream method
 topic_type:
 - apiref
 api_name:
 - IDeviceIcon.Stream
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDeviceIcon::Stream method
@@ -20,7 +28,7 @@ Retrieves the icon as a stream.
 
 ```C++
 HRESULT Stream(
-  [out] IRandomAccessStreamWithContentType **value
+  [out] IRandomAccessStreamWithContentType **value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IDeviceIcon**](ideviceicon.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

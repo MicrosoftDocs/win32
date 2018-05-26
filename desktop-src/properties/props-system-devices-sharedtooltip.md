@@ -1,7 +1,12 @@
 ---
-Description: 'Tooltip for the sharing state.'
-ms.assetid: 'CBD921A5-8488-48da-AA83-28DF4B1E3FBC'
-title: 'System.Devices.SharedTooltip'
+Description: Tooltip for the sharing state.
+ms.assetid: CBD921A5-8488-48da-AA83-28DF4B1E3FBC
+title: System.Devices.SharedTooltip
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.SharedTooltip

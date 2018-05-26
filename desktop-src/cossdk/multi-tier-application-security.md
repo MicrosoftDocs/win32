@@ -1,7 +1,12 @@
 ---
-Description: 'Multi-Tier Application Security'
-ms.assetid: 'ff84eeed-ddfd-40e8-8f42-625b4d49ecd5'
-title: 'Multi-Tier Application Security'
+Description: Multi-Tier Application Security
+ms.assetid: ff84eeed-ddfd-40e8-8f42-625b4d49ecd5
+title: Multi-Tier Application Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multi-Tier Application Security

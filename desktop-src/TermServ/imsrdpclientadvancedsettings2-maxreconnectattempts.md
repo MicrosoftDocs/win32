@@ -4,11 +4,26 @@ description: Specifies the number of times to try to reconnect during automatic 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '24bfd3b6-d2de-4e46-8b5f-a4702c18a93c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 24bfd3b6-d2de-4e46-8b5f-a4702c18a93c
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["MaxReconnectAttempts property Remote Desktop Services", "MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface", "IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , MaxReconnectAttempts property", "MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface", "IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , MaxReconnectAttempts property", "MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface", "IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , MaxReconnectAttempts property", "MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , MaxReconnectAttempts property", "MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , MaxReconnectAttempts property", "MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , MaxReconnectAttempts property", "MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , MaxReconnectAttempts property"]
+keywords:
+- MaxReconnectAttempts property Remote Desktop Services
+- MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface
+- IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , MaxReconnectAttempts property
+- MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface
+- IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , MaxReconnectAttempts property
+- MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface
+- IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , MaxReconnectAttempts property
+- MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , MaxReconnectAttempts property
+- MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , MaxReconnectAttempts property
+- MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , MaxReconnectAttempts property
+- MaxReconnectAttempts property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , MaxReconnectAttempts property
 topic_type:
 - apiref
 api_name:
@@ -37,6 +52,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings2::MaxReconnectAttempts property
@@ -50,11 +68,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_MaxReconnectAttempts(
-  [in]  LONG MaxReconnectAttempts
+  [in]  LONG MaxReconnectAttempts
 );
 
 HRESULT get_MaxReconnectAttempts(
-  [out] LONG *pMaxReconnectAttempts
+  [out] LONG *pMaxReconnectAttempts
 );
 ```
 
@@ -80,8 +98,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings2 is defined as 9ac42117-2b76-4320-aa44-0e616ab8437b<br/> |
@@ -113,9 +131,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClientAdvancedSettings2**](imsrdpclientadvancedsettings2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

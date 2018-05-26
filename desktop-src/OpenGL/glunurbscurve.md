@@ -1,8 +1,9 @@
 ---
 title: gluNurbsCurve function
 description: The gluNurbsCurve function defines the shape of a Non-Uniform Rational B-Spline (NURBS) curve.
-ms.assetid: 'd03064a5-26f5-487f-877f-3748646bcb2f'
-keywords: ["gluNurbsCurve function OpenGL"]
+ms.assetid: d03064a5-26f5-487f-877f-3748646bcb2f
+keywords:
+- gluNurbsCurve function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluNurbsCurve function
@@ -22,13 +28,13 @@ The **gluNurbsCurve** function defines the shape of a Non-Uniform Rational B-Spl
 
 ```C++
 void WINAPI gluNurbsCurve(
-   GLUnurbs *nobj,
-   GLint    nknots,
-   GLfloat  *knot,
-   GLint    stride,
-   GLfloat  *ctlarray,
-   GLint    order,
-   GLenum   type
+   GLUnurbs *nobj,
+   GLint    nknots,
+   GLfloat  *knot,
+   GLint    stride,
+   GLfloat  *ctlarray,
+   GLint    order,
+   GLenum   type
 );
 ```
 
@@ -76,7 +82,7 @@ A pointer to an array of control points. The coordinates must agree with *type*.
 *order* 
 </dt> <dd>
 
-The order of the NURBS curve. The *order* parameter equals degree + 1; hence a cubic curve has an order of 4.
+The order of the NURBS curve. The *order* parameter equals degree + 1; hence a cubic curve has an order of 4.
 
 </dd> <dt>
 
@@ -115,8 +121,8 @@ gluEndCurve(nobj);
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -145,9 +151,9 @@ gluEndCurve(nobj);
 [**gluPwlCurve**](glupwlcurve.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

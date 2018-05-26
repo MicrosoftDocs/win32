@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseManagement CreateLicenseRevocationChallenge method
 description: The CreateLicenseRevocationChallenge method generates a license revocation challenge.
-ms.assetid: '31fcf7a7-1af8-4474-abac-eddb1070975b'
-keywords: ["CreateLicenseRevocationChallenge method windows Media Format", "CreateLicenseRevocationChallenge method windows Media Format , IWMDRMLicenseManagement interface", "IWMDRMLicenseManagement interface windows Media Format , CreateLicenseRevocationChallenge method"]
+ms.assetid: 31fcf7a7-1af8-4474-abac-eddb1070975b
+keywords:
+- CreateLicenseRevocationChallenge method windows Media Format
+- CreateLicenseRevocationChallenge method windows Media Format , IWMDRMLicenseManagement interface
+- IWMDRMLicenseManagement interface windows Media Format , CreateLicenseRevocationChallenge method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseManagement::CreateLicenseRevocationChallenge method
@@ -22,12 +30,12 @@ The **CreateLicenseRevocationChallenge** method generates a license revocation c
 
 ```C++
 HRESULT CreateLicenseRevocationChallenge(
-  [in]  BYTE  *pbMachineID,
-  [in]  DWORD cbMachineID,
-  [in]  BYTE  *pbChallenge,
-  [in]  DWORD cbChallenge,
-  [out] BYTE  **ppbChallengeOutput,
-  [out] DWORD *pcbChallengeOutput
+  [in]  BYTE  *pbMachineID,
+  [in]  DWORD cbMachineID,
+  [in]  BYTE  *pbChallenge,
+  [in]  DWORD cbChallenge,
+  [out] BYTE  **ppbChallengeOutput,
+  [out] DWORD *pcbChallengeOutput
 );
 ```
 
@@ -91,7 +99,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -114,9 +122,9 @@ None.
 [**IWMDRMLicenseManagement Interface**](iwmdrmlicensemanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

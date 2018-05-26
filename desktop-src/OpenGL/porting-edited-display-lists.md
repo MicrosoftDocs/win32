@@ -1,8 +1,18 @@
 ---
 title: Porting Edited Display Lists
-description: Although you can't edit OpenGL display lists, you can get similar results by nesting display lists and then destroying and creating new versions of the sublists.
-ms.assetid: 'b7f7ffed-c3de-43d4-bff2-f244faa3a27a'
-keywords: ["IRIS GL porting,display lists", "porting from IRIS GL,display lists", "porting to OpenGL from IRIS GL,display lists", "OpenGL porting from IRIS GL,display lists", "display lists,porting from IRIS GL"]
+description: Although you cant edit OpenGL display lists, you can get similar results by nesting display lists and then destroying and creating new versions of the sublists.
+ms.assetid: b7f7ffed-c3de-43d4-bff2-f244faa3a27a
+keywords:
+- IRIS GL porting,display lists
+- porting from IRIS GL,display lists
+- porting to OpenGL from IRIS GL,display lists
+- OpenGL porting from IRIS GL,display lists
+- display lists,porting from IRIS GL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Edited Display Lists

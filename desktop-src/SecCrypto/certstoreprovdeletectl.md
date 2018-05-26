@@ -1,12 +1,17 @@
-﻿---
-Description: 'Called by CertDeleteCTLFromStore before deleting a CTL from the store.'
-ms.assetid: '6cda772f-7e94-414d-99fc-a90451ac0ccf'
+---
+Description: Called by CertDeleteCTLFromStore before deleting a CTL from the store.
+ms.assetid: 6cda772f-7e94-414d-99fc-a90451ac0ccf
 title: CertStoreProvDeleteCTL callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertStoreProvDeleteCTL callback function
 
-The **CertStoreProvDeleteCTL** callback function is called by [**CertDeleteCTLFromStore**](certdeletectlfromstore.md) before deleting a CTL from the store. This function determines whether a CTL can be deleted.
+The **CertStoreProvDeleteCTL** callback function is called by [**CertDeleteCTLFromStore**](/windows/win32/Wincrypt/nf-wincrypt-certdeletectlfromstore?branch=master) before deleting a CTL from the store. This function determines whether a CTL can be deleted.
 
 ## Syntax
 
@@ -35,7 +40,7 @@ BOOL WINAPI CertStoreProvDeleteCTL(
 *pCtlContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CTL\_CONTEXT**](ctl-context.md) structure.
+A pointer to a [**CTL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_ctl_context?branch=master) structure.
 
 </dd> <dt>
 

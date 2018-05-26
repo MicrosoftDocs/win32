@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MyPicturesFolder property is the full path to the MyPictures folder.'
-ms.assetid: 'bf85bc14-9469-436e-97c4-4aaf882e912d'
+---
+Description: The MyPicturesFolder property is the full path to the MyPictures folder.
+ms.assetid: bf85bc14-9469-436e-97c4-4aaf882e912d
 title: MyPicturesFolder property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MyPicturesFolder property

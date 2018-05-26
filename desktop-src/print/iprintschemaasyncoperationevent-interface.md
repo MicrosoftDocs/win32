@@ -1,7 +1,12 @@
-﻿---
-Description: 'Exposes a validation, merge, or commit completion event delegate.'
-ms.assetid: '4ADF74C0-F196-476F-889D-EB1A0B881920'
+---
+Description: Exposes a validation, merge, or commit completion event delegate.
+ms.assetid: 4ADF74C0-F196-476F-889D-EB1A0B881920
 title: IPrintSchemaAsyncOperationEvent interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaAsyncOperationEvent interface

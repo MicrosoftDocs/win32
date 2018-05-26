@@ -1,7 +1,12 @@
 ---
 title: HH\_DISPLAY\_INDEX command
 description: Selects the Index tab in the Navigation pane of the HTML Help Viewer and searches for the keyword specified in the dwData parameter.
-ms.assetid: '9713739A-06FB-4d32-9813-64907D8CC189'
+ms.assetid: 9713739A-06FB-4d32-9813-64907D8CC189
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_DISPLAY\_INDEX command

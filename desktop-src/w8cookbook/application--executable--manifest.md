@@ -1,7 +1,12 @@
 ---
 title: App (executable) manifest
 description: App (executable) manifest
-ms.assetid: 'F46F33A6-0B2F-4086-9C6D-4AD43C26BCD3'
+ms.assetid: F46F33A6-0B2F-4086-9C6D-4AD43C26BCD3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # App (executable) manifest

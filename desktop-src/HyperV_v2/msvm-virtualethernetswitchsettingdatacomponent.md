@@ -1,7 +1,12 @@
 ---
-Description: 'An association used to establish &\#0034;part of&\#0034; relationships between one instance of Msvm\_VirtualEthernetSwitchSettingData and one or more instances of Msvm\_EthernetSwitchFeatureSettingData.'
-ms.assetid: 'b3adac33-056e-4f39-8022-5d9ef78370e9'
-title: 'Msvm\_VirtualEthernetSwitchSettingDataComponent class'
+Description: An association used to establish &\#0034;part of&\#0034; relationships between one instance of Msvm\_VirtualEthernetSwitchSettingData and one or more instances of Msvm\_EthernetSwitchFeatureSettingData.
+ms.assetid: b3adac33-056e-4f39-8022-5d9ef78370e9
+title: Msvm\_VirtualEthernetSwitchSettingDataComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualEthernetSwitchSettingDataComponent class
@@ -71,17 +76,17 @@ Reference to an instance of the [**Msvm\_EthernetSwitchFeatureSettingData**](msv
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

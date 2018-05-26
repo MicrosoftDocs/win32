@@ -4,17 +4,21 @@ description: Exchange right allows sending mail as the mailbox.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'df7b4991-8045-41c0-84b5-38ff0b532168'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: df7b4991-8045-41c0-84b5-38ff0b532168
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Send-As extended right AD Schema"]
+keywords:
+- Send-As extended right AD Schema
 topic_type:
 - apiref
 api_name:
 - Send-As
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Send-As extended right
@@ -33,12 +37,12 @@ Exchange right: allows sending mail as the mailbox.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -106,9 +110,9 @@ Exchange right: allows sending mail as the mailbox.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

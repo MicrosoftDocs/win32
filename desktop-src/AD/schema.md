@@ -4,11 +4,15 @@ description: Active Directory schema is implemented as a set of object class ins
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '77c297ca-0dfc-4545-9832-4202e066822b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 77c297ca-0dfc-4545-9832-4202e066822b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory schema Active Directory"]
+keywords:
+- Active Directory schema Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Schema

@@ -1,8 +1,9 @@
 ---
 title: WMDM\_SESSION\_TYPE enumeration
 description: The WMDM\_SESSION\_TYPE enumeration type defines the session type.
-ms.assetid: 'e4ed41c0-521f-4da0-8361-287b64d74d77'
-keywords: ["WMDM_SESSION_TYPE enumeration windows Media Device Manager"]
+ms.assetid: e4ed41c0-521f-4da0-8361-287b64d74d77
+keywords:
+- WMDM_SESSION_TYPE enumeration windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDM\_SESSION\_TYPE enumeration
@@ -88,9 +94,9 @@ The session is defined as a custom session.
 [**Enumeration Types**](enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

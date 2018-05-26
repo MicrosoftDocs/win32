@@ -1,13 +1,16 @@
 ---
-Description: 'The simplest way of creating a namespace is to use Managed Object Format (MOF) code to create the namespace inside the current directory. The current directory is defined when you log on.'
+Description: The simplest way of creating a namespace is to use Managed Object Format (MOF) code to create the namespace inside the current directory. The current directory is defined when you log on.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2b83cd96-079f-4178-9e5a-68ede3a92066'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2b83cd96-079f-4178-9e5a-68ede3a92066
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a Child Namespace with MOF Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a Child Namespace with MOF Code
@@ -56,7 +59,7 @@ The following procedure describes how to create a child namespace using MOF code
     };
     ```
 
-4.  Compile and load the [**\_\_Namespace**](--namespace.md) instance using the [mofcomp](mofcomp.md) utility or the [**IMofCompiler**](imofcompiler.md) interface. Both mofcomp and the **IMofCompiler** interface automatically load the namespace into the current directory. For more information, see [Compiling MOF Files](compiling-mof-files.md).
+4.  Compile and load the [**\_\_Namespace**](--namespace.md) instance using the [mofcomp](mofcomp.md) utility or the [**IMofCompiler**](/windows/win32/Wbemcli/nn-wbemcli-imofcompiler?branch=master) interface. Both mofcomp and the **IMofCompiler** interface automatically load the namespace into the current directory. For more information, see [Compiling MOF Files](compiling-mof-files.md).
 
 ## Related topics
 

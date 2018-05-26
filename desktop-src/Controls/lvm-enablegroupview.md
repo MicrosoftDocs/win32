@@ -1,8 +1,9 @@
 ---
 title: LVM\_ENABLEGROUPVIEW message
 description: Enables or disables whether the items in a list-view control display as a group.
-ms.assetid: '783a5e23-d1cb-4523-a6d2-b2cf93fa7f62'
-keywords: ["LVM_ENABLEGROUPVIEW message Windows Controls"]
+ms.assetid: 783a5e23-d1cb-4523-a6d2-b2cf93fa7f62
+keywords:
+- LVM_ENABLEGROUPVIEW message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_ENABLEGROUPVIEW message
@@ -41,7 +47,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -50,7 +56,7 @@ Returns one of the following values.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -58,15 +64,15 @@ Returns one of the following values.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

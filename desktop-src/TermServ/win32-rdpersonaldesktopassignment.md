@@ -4,11 +4,13 @@ description: The list of personal desktop assignments.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3abf773d-8dc3-44ae-8887-1a1f38e29fbb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3abf773d-8dc3-44ae-8887-1a1f38e29fbb
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_RDPersonalDesktopAssignment class Remote Desktop Services", "Win32_RDPersonalDesktopAssignment class Remote Desktop Services , described"]
+keywords:
+- Win32_RDPersonalDesktopAssignment class Remote Desktop Services
+- Win32_RDPersonalDesktopAssignment class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_RDPersonalDesktopAssignment class
@@ -40,15 +45,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [provider("Win32_TSCentralPublisher_Prov"), dynamic]
 class Win32_RDPersonalDesktopAssignment : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   UserName;
-  string   DomainName;
-  string   FarmAlias;
-  string   VMName;
+  string   Name;
+  string   Status;
+  string   UserName;
+  string   DomainName;
+  string   FarmAlias;
+  string   VMName;
 };
 ```
 
@@ -274,16 +279,16 @@ Assigned VM name.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
 | Namespace<br/>                | Root\\cimv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>Tscpub.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TscPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

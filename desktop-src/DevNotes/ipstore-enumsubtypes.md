@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns an interface for enumerating subtypes of the types currently registered in the protected database.'
-ms.assetid: '07cc43ce-2191-4b20-b23d-d96d15aa8dea'
-title: 'IPStore::EnumSubtypes method'
+---
+Description: Returns an interface for enumerating subtypes of the types currently registered in the protected database.
+ms.assetid: 07cc43ce-2191-4b20-b23d-d96d15aa8dea
+title: IPStoreEnumSubtypes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPStore::EnumSubtypes method

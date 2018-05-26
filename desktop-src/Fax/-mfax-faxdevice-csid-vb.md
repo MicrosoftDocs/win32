@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CSID property is a null-terminated string that contains the called station identifier (CSID) for the device.'
-ms.assetid: 'da5e17a8-8297-41e5-a046-d50dfc1dd4e1'
-title: 'FaxDevice.CSID property'
+---
+Description: The CSID property is a null-terminated string that contains the called station identifier (CSID) for the device.
+ms.assetid: da5e17a8-8297-41e5-a046-d50dfc1dd4e1
+title: FaxDevice.CSID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.CSID property
@@ -53,7 +58,7 @@ A **String** that specifies or receives the CSID for the fax device.
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

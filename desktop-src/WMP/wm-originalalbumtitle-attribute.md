@@ -1,14 +1,20 @@
 ---
 title: WM/OriginalAlbumTitle Attribute
 description: The WM/OriginalAlbumTitle attribute is the name of the album on which the track first appeared.
-ms.assetid: 'e670c793-bae3-4dc5-92a1-4407cb2a094b'
-keywords: ["WM/OriginalAlbumTitle Attribute Windows Media Player"]
+ms.assetid: e670c793-bae3-4dc5-92a1-4407cb2a094b
+keywords:
+- WM/OriginalAlbumTitle Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/OriginalAlbumTitle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/OriginalAlbumTitle Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

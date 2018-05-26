@@ -1,8 +1,9 @@
 ---
 title: PSN\_KILLACTIVE notification code
 description: Notifies a page that it is about to lose activation either because another page is being activated or the user has clicked the OK button. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '470cd6ff-73ad-451a-a861-4d3324a8a8db'
-keywords: ["PSN_KILLACTIVE notification code Windows Controls"]
+ms.assetid: 470cd6ff-73ad-451a-a861-4d3324a8a8db
+keywords:
+- PSN_KILLACTIVE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSN\_KILLACTIVE notification code
@@ -33,7 +39,7 @@ PSN_KILLACTIVE
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PSHNOTIFY**](pshnotify.md) structure that contains information about the notification code. This structure contains an [**NMHDR**](nmhdr.md) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet. The **lParam** member of the **PSHNOTIFY** structure does not contain any information.
+Pointer to a [**PSHNOTIFY**](/windows/win32/Prsht/ns-prsht-_pshnotify?branch=master) structure that contains information about the notification code. This structure contains an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet. The **lParam** member of the **PSHNOTIFY** structure does not contain any information.
 
 </dd> </dl>
 
@@ -48,7 +54,7 @@ An application handles this notification code to validate the information the us
 > [!Note]  
 > The property sheet is in the process of manipulating the list of pages when the PSN\_KILLACTIVE notification code is sent. Do not attempt to add, remove, or insert pages while handling this notification code. Doing so will have unpredictable results.
 
- 
+ 
 
 To set a return value, the dialog box procedure for the page must call the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function with a DWL\_MSGRESULT value set to the return value. The dialog box procedure must return **TRUE**.
 
@@ -60,15 +66,15 @@ If the dialog box procedure sets DWL\_MSGRESULT to **TRUE**, it should display a
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

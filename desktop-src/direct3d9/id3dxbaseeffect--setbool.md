@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a BOOL value.'
-ms.assetid: 'bb7c4860-50a0-416a-b9e0-5a2bec113e3c'
-title: 'ID3DXBaseEffect::SetBool method'
+---
+Description: Sets a BOOL value.
+ms.assetid: bb7c4860-50a0-416a-b9e0-5a2bec113e3c
+title: ID3DXBaseEffectSetBool method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::SetBool method

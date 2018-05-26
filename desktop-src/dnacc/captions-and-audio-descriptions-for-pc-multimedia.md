@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: 'c685f23f-e4c2-4512-87b8-4fddf078c053'
+ms.assetid: c685f23f-e4c2-4512-87b8-4fddf078c053
 title: Captions and Audio Descriptions for PC Multimedia
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Captions and Audio Descriptions for PC Multimedia

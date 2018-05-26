@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets an object that represents the parent of the current object.'
-ms.assetid: '76c2f72c-5ef6-4f2c-bdfc-62ced6dbc504'
-title: 'Shell.Parent property'
+---
+Description: Gets an object that represents the parent of the current object.
+ms.assetid: 76c2f72c-5ef6-4f2c-bdfc-62ced6dbc504
+title: Shell.Parent property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.Parent property

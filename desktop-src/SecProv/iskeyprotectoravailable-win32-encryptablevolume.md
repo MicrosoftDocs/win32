@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether protectors are available for the volume.'
-ms.assetid: '92a959ea-27ec-4d38-a955-846bfd7b3a60'
-title: 'IsKeyProtectorAvailable method of the Win32\_EncryptableVolume class'
+---
+Description: Indicates whether protectors are available for the volume.
+ms.assetid: 92a959ea-27ec-4d38-a955-846bfd7b3a60
+title: IsKeyProtectorAvailable method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsKeyProtectorAvailable method of the Win32\_EncryptableVolume class

@@ -1,13 +1,16 @@
 ---
-Description: 'A class provider manages a class or series of classes for WMI.'
+Description: A class provider manages a class or series of classes for WMI.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '755f1fde-a0bf-43f6-a01d-2da7d4e6c10d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 755f1fde-a0bf-43f6-a01d-2da7d4e6c10d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Writing a Class Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Writing a Class Provider
@@ -28,9 +31,9 @@ The following procedure describes how to implement a class provider.
 
     Class providers register with WMI by creating a [**\_\_Win32Provider**](--win32provider.md) instance and a [**\_\_ClassProviderRegistration**](--classproviderregistration.md) instance. For more information, see [Registering a Class Provider](registering-a-class-provider.md).
 
-3.  Implement the [**IWbemProviderInit**](iwbemproviderinit.md) interface for your provider.
+3.  Implement the [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) interface for your provider.
 
-    WMI uses [**IWbemProviderInit**](iwbemproviderinit.md) to load and initialize a provider. If you are designing a push provider, **IWbemProviderInit** is the only interface you will implement. For more information, see [Initializing a Provider](initializing-a-provider.md).
+    WMI uses [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) to load and initialize a provider. If you are designing a push provider, **IWbemProviderInit** is the only interface you will implement. For more information, see [Initializing a Provider](initializing-a-provider.md).
 
     > [!Note]  
     > Class providers are strongly encouraged to use the multithreading model "Both".
@@ -43,9 +46,9 @@ The following procedure describes how to implement a class provider.
 
     When retrieving information for a client, you may need to access the security levels for that client. For more information, see [Impersonating a Client](impersonating-a-client.md).
 
-5.  Implement the [**IWbemServices**](iwbemservices.md) interface for your provider.
+5.  Implement the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) interface for your provider.
 
-    The [**IWbemServices**](iwbemservices.md) interface is the primary interface for a pull class provider. For more information, see [Implementing the Primary Interface for a Class Provider](implementing-the-primary-interface-for-a-class-provider.md).
+    The [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) interface is the primary interface for a pull class provider. For more information, see [Implementing the Primary Interface for a Class Provider](implementing-the-primary-interface-for-a-class-provider.md).
 
 6.  Replace the preexisting provider with your new code.
 

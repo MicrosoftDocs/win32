@@ -1,8 +1,18 @@
 ---
 title: Windows Media Player Custom Visualizations
 description: Windows Media Player Custom Visualizations
-ms.assetid: '767a22a0-9c8f-4dcf-8ffd-b1c6ec83e230'
-keywords: ["Windows Media Player,visualizations", "Windows Media Player plug-ins,visualizations", "plug-ins,visualizations", "visualizations,about", "custom visualizations,about"]
+ms.assetid: 767a22a0-9c8f-4dcf-8ffd-b1c6ec83e230
+keywords:
+- Windows Media Player,visualizations
+- Windows Media Player plug-ins,visualizations
+- plug-ins,visualizations
+- visualizations,about
+- custom visualizations,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Player Custom Visualizations

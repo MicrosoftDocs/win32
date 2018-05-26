@@ -1,8 +1,17 @@
 ---
 title: Selection and Feedback Reference
 description: Selection and Feedback Reference
-ms.assetid: '971d22d6-5cbd-4323-9283-02c43ca89164'
-keywords: ["OpenGL,selection reference", "selection mode OpenGL", "OpenGL,feedback reference", "feedback mode OpenGL"]
+ms.assetid: 971d22d6-5cbd-4323-9283-02c43ca89164
+keywords:
+- OpenGL,selection reference
+- selection mode OpenGL
+- OpenGL,feedback reference
+- feedback mode OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selection and Feedback Reference

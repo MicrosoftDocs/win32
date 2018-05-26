@@ -2,13 +2,15 @@
 title: RemoteAccessAccountingSummary class
 description: Remote Access Connection Statistics Summary Record From Accounting Data.
 audience: developer
-ms.assetid: 'de2b09b7-521b-489b-8144-a1ac0f78d0b3'
-ms.prod: 'windows-server-dev'
+ms.assetid: de2b09b7-521b-489b-8144-a1ac0f78d0b3
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessAccountingSummary class", "RemoteAccessAccountingSummary class, described"]
+keywords:
+- RemoteAccessAccountingSummary class
+- RemoteAccessAccountingSummary class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessAccountingSummary class
@@ -160,16 +165,16 @@ Total number of VPN sessions
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

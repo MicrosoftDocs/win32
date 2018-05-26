@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the settings for virtual system migration that is managed by an instance of the CIM\_VirtualSystemMigrationService class.'
-ms.assetid: 'c28ed48b-bacc-49c8-9131-2543c0edb3fd'
-title: 'CIM\_VirtualSystemMigrationSettingData class'
+Description: Defines the settings for virtual system migration that is managed by an instance of the CIM\_VirtualSystemMigrationService class.
+ms.assetid: c28ed48b-bacc-49c8-9131-2543c0edb3fd
+title: CIM\_VirtualSystemMigrationSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VirtualSystemMigrationSettingData class
@@ -78,7 +83,7 @@ The unit used by the **Bandwidth** property. The value of this property should b
 > [!Note]  
 > Profiles such as DMTF DSP1081 define how clients can discover the set of units supported by an implementation, and ranges and increments for values of the **Bandwidth** property.
 
- 
+ 
 
 </dd> <dt>
 
@@ -248,8 +253,8 @@ The type of transport to apply to a virtual system migration operation.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -263,9 +268,9 @@ The type of transport to apply to a virtual system migration operation.
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

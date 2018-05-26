@@ -1,7 +1,12 @@
 ---
 title: InkStart Method
 description: InkStart, InkDraw, and InkStop methods all use Win32 GUI constructs such as device contexts and pen objects.
-ms.assetid: 'a639e1d2-6d81-472b-b639-d237e202020f'
+ms.assetid: a639e1d2-6d81-472b-b639-d237e202020f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkStart Method

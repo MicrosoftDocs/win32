@@ -2,13 +2,19 @@
 title: dispinterface attribute
 description: The dispinterface statement defines a set of properties and methods on which you can call IDispatch Invoke.
 ms.assetid: d85a8e2b-0155-4d68-bb38-e86f4807e7de
-keywords: ["dispinterface attribute MIDL"]
+keywords:
+- dispinterface attribute MIDL
 topic_type:
 - apiref
 api_name:
 - dispinterface
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dispinterface attribute

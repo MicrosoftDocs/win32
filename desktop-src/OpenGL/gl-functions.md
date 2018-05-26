@@ -1,8 +1,16 @@
 ---
 title: GL Functions
 description: GL Functions
-ms.assetid: '9eb08fd4-899a-4610-9491-d7f377a19b46'
-keywords: ["OpenGL,GL functions", "OpenGL reference,GL functions", "GL functions OpenGL"]
+ms.assetid: 9eb08fd4-899a-4610-9491-d7f377a19b46
+keywords:
+- OpenGL,GL functions
+- OpenGL reference,GL functions
+- GL functions OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GL Functions
@@ -14,7 +22,7 @@ The OpenGL commands, in alphabetical order are presented here. Each reference pa
 | Function                                                                                                                                       | Description                                                                                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [**glAccum**](glaccum.md)                                                                                                                     | Operates on the accumulation buffer.                                                                                  |
-| [**glAddSwapHintRectWIN**](gladdswaphintrectwin.md)                                                                                           | Specifies a set of rectangles that are to be copied by [**SwapBuffers**](swapbuffers.md).                            |
+| [**glAddSwapHintRectWIN**](gladdswaphintrectwin.md)                                                                                           | Specifies a set of rectangles that are to be copied by [**SwapBuffers**](/windows/win32/wingdi/nf-wingdi-swapbuffers?branch=master).                            |
 | [**glAlphaFunc**](glalphafunc.md)                                                                                                             | Enables your application to set the alpha test function.                                                              |
 | [**glAreTexturesResident**](glaretexturesresident.md)                                                                                         | Determines whether specified texture objects are resident in texture memory.                                          |
 | [**glArrayElement**](glarrayelement.md)                                                                                                       | Specifies the array elements used to render a vertex.                                                                 |

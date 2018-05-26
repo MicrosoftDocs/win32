@@ -1,7 +1,12 @@
 ---
 title: Scroll Bar Reference
 description: .
-ms.assetid: '8a0fb114-6b3f-4c99-aeaf-32d0bd95fde7'
+ms.assetid: 8a0fb114-6b3f-4c99-aeaf-32d0bd95fde7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scroll Bar Reference

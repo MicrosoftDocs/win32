@@ -1,7 +1,12 @@
 ---
-Description: 'The SetTargetRect method sets the target rectangle.'
-ms.assetid: '033f8bae-e63d-4be0-8dd0-715cc1229392'
-title: 'CDrawImage.SetTargetRect method'
+Description: The SetTargetRect method sets the target rectangle.
+ms.assetid: 033f8bae-e63d-4be0-8dd0-715cc1229392
+title: CDrawImage.SetTargetRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.SetTargetRect method
@@ -13,7 +18,7 @@ The `SetTargetRect` method sets the target rectangle.
 
 ```C++
 void SetTargetRect(
-   RECT *pTargetRect
+   RECT *pTargetRect
 );
 ```
 
@@ -36,7 +41,7 @@ This method does not return a value.
 
 ## Remarks
 
-The owning filter should call this method if the source rectangle changes; for example, in response to an [**IBasicVideo::SetDestinationPosition**](ibasicvideo-setdestinationposition.md) call.
+The owning filter should call this method if the source rectangle changes; for example, in response to an [**IBasicVideo::SetDestinationPosition**](/windows/win32/Control/nf-control-ibasicvideo-setdestinationposition?branch=master) call.
 
 Before calling this method, validate the rectangle given in *pTargetRect*, relative to the video window.
 
@@ -58,9 +63,9 @@ Before calling this method, validate the rectangle given in *pTargetRect*, relat
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

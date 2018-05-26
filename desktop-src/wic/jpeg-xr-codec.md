@@ -1,7 +1,12 @@
-﻿---
-Description: 'The native JPEG XR codec is available through the Windows Imaging Component (WIC). The JPEG XR format, which the codec supports, is designed for consumer and professional digital photography.'
-ms.assetid: 'CB8D1A5F-B544-462E-8927-F45512CED873'
+---
+Description: The native JPEG XR codec is available through the Windows Imaging Component (WIC). The JPEG XR format, which the codec supports, is designed for consumer and professional digital photography.
+ms.assetid: CB8D1A5F-B544-462E-8927-F45512CED873
 title: JPEG XR Codec Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JPEG XR Codec Overview
@@ -96,7 +101,7 @@ The JPEG XR encoder uses compressed domain transcoding, if possible, when the so
 
 The follow list describes how to perform the image transformations.
 
--   To crop the image, set the desired region in the [**WICRect**](-wic-codec-iwicbitmapframeencode-writesource.md) parameter of the **WriteSource** method.
+-   To crop the image, set the desired region in the [**WICRect**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframeencode-writesource?branch=master) parameter of the **WriteSource** method.
 -   To rotate or flip the image, set the [BitmapTransform](#bitmaptransform) property.
 -   To discard frequency data in the image, set the [ImageDataDiscard](#imagedatadiscard) property. To discard frequency data in the alpha channel, set the [AlphaDataDiscard](#alphadatadiscard) property. Discarding frequency data reduces the encoded file size and can reduce the resolution.
 -   To change the image organization between frequency and spatial ordering, set the [FrequencyOrdering](#-frequencyordering) property.
@@ -198,7 +203,7 @@ Specifies whether the image is rotated or flipped when decoded.
 
 | Data type | VARTYPE     | Range                                                                     | Default                       |
 |-----------|-------------|---------------------------------------------------------------------------|-------------------------------|
-| **UCHAR** | **VT\_UI1** | [**WICBitmapTransformOptions**](-wic-codec-wicbitmaptransformoptions.md) | **WICBitmapTransformRotate0** |
+| **UCHAR** | **VT\_UI1** | [**WICBitmapTransformOptions**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master) | **WICBitmapTransformRotate0** |
 
 
 

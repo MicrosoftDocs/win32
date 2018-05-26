@@ -1,14 +1,20 @@
 ---
 title: Parent element
 description: A single parent of the TestCase.
-ms.assetid: '0AE240B0-3CCA-4810-9993-8B3C11326C37'
-keywords: ["Parent element Access Execution Engine"]
+ms.assetid: 0AE240B0-3CCA-4810-9993-8B3C11326C37
+keywords:
+- Parent element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Parent
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parent element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: Represents information about the failure of a CIM operation for Hyp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c65f782e-7426-42de-adfd-ae136938e20c'
-ms.prod: 'windows-server-dev'
+ms.assetid: c65f782e-7426-42de-adfd-ae136938e20c
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_Error class", "Msvm_Error class, described"]
+keywords:
+- Msvm_Error class
+- Msvm_Error class, described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_Error class
@@ -447,7 +452,7 @@ A free-form string that contains a human-readable description of the **CIMStatus
 > [!Note]  
 > This description may extend, but must be consistent with the definition of **CIMStatusCode**.
 
- 
+ 
 
 This property is inherited from [**CIM\_Error**](cim-error.md).
 
@@ -523,7 +528,7 @@ A CIM object path, which is defined in the *CIM Infrastructure* specification.
 > [!Note]  
 > Note: CIM 2.5 and earlier used the term object names instead of object path.
 
- 
+ 
 
 </dd> <dt>
 
@@ -711,7 +716,7 @@ The formatted message.
 > [!Note]  
 > This message is created by combining dynamic elements of the **MessageArguments** property with the static elements of the **MessageID** property, and then adding them to a message registry or catalog associated with the **OwningEntity**.
 
- 
+ 
 
 This property is inherited from [**CIM\_Error**](cim-error.md).
 
@@ -803,7 +808,7 @@ The unique ID of the entity that owns the format of the message described by thi
 > [!Note]  
 > This property must include a copyrighted, trademarked, or unique name that is owned by the business entity or standards body that defined the message format.
 
- 
+ 
 
 This property is inherited from [**CIM\_Error**](cim-error.md).
 
@@ -1920,7 +1925,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -1937,9 +1942,9 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

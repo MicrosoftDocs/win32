@@ -1,7 +1,12 @@
 ---
-Description: 'Status of the system synch.'
-ms.assetid: '6c181252-25ef-4f6c-b4b4-777a2779832f'
-title: 'System.Sync.Status'
+Description: Status of the system synch.
+ms.assetid: 6c181252-25ef-4f6c-b4b4-777a2779832f
+title: System.Sync.Status
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Sync.Status

@@ -4,17 +4,21 @@ description: The group set delay in seconds.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0F4D1147-5DCA-42BB-81EF-4D79B19C56C0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0F4D1147-5DCA-42BB-81EF-4D79B19C56C0
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["StartupDelay Failover Cluster"]
+keywords:
+- StartupDelay Failover Cluster
 topic_type:
 - apiref
 api_name:
 - StartupDelay
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StartupDelay
@@ -27,14 +31,14 @@ The group set delay in seconds.
 |-----------|---------------------------------------------------------------|
 | Data type | **DWORD**                                                     |
 | Access    | [Read/write](read-write-properties.md)                       |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md)                     |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)                     |
 | Minimum   | 0                                                             |
 | Maximum   | 0xFFFFFFFF                                                    |
 | Default   | **CLUSTER\_GROUP\_SET\_STARTUP\_DELAY\_IN\_SECONDS\_DEFAULT** |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_GROUPSET\_STARTUP\_DELAY**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_GROUPSET\_STARTUP\_DELAY**.
 [Groupset Common Properties](collection-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Because the Windows Installer keeps all information about the installation in a relational database, the installation of an application or product can be customized for particular user groups by applying transform operations to the package.'
-ms.assetid: '98c5cda2-a01a-4bdd-840f-76c0ffacd194'
+Description: Because the Windows Installer keeps all information about the installation in a relational database, the installation of an application or product can be customized for particular user groups by applying transform operations to the package.
+ms.assetid: 98c5cda2-a01a-4bdd-840f-76c0ffacd194
 title: Customization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customization

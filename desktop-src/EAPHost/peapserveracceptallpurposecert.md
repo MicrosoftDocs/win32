@@ -1,7 +1,12 @@
 ---
 title: PeapServerAcceptAllPurposeCert
 description: The PeapServerAcceptAllPurposeCert registry key determines if all-purpose certificates are accepted for PEAP authentication.
-ms.assetid: '59C58459-7735-4733-9F95-646864802D70'
+ms.assetid: 59C58459-7735-4733-9F95-646864802D70
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PeapServerAcceptAllPurposeCert

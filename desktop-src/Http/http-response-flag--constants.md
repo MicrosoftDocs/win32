@@ -1,7 +1,7 @@
 ---
 title: HTTP\_RESPONSE\_FLAG\_ Constants
 description: Define options to configure responses in the HTTP Server API.
-ms.assetid: 'bcb59457-fd22-4166-8a72-ba85209ec8c7'
+ms.assetid: bcb59457-fd22-4166-8a72-ba85209ec8c7
 topic_type:
 - apiref
 api_name:
@@ -10,13 +10,18 @@ api_location:
 - http.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP\_RESPONSE\_FLAG\_ Constants
 
 The **HTTP\_RESPONSE\_FLAG\_** constants define options to configure responses in the HTTP Server API.
 
-These constants are used in the **Flags** member of the [**HTTP\_RESPONSE\_V1**](http-response-v1.md) structure.
+These constants are used in the **Flags** member of the [**HTTP\_RESPONSE\_V1**](/windows/win32/Http/ns-http-_http_response_v1?branch=master) structure.
 
 <dl> <dt>
 
@@ -36,8 +41,8 @@ Encodings other than identity form are available for this resource. This flag is
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                           |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Http.h</dt> </dl> |
 
 
@@ -49,12 +54,12 @@ Encodings other than identity form are available for this resource. This flag is
 [HTTP Server API Version 2.0 Constants](http-server-api-version-2-0-constants.md)
 </dt> <dt>
 
-[**HTTP\_RESPONSE\_V1**](http-response-v1.md)
+[**HTTP\_RESPONSE\_V1**](/windows/win32/Http/ns-http-_http_response_v1?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

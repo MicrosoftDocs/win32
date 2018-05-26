@@ -4,13 +4,15 @@ description: Represents a generic and instantiable collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b0092a5e-e755-4249-9c71-892d6c9759a6'
-ms.prod: 'windows-server-dev'
+ms.assetid: b0092a5e-e755-4249-9c71-892d6c9759a6
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ConcreteCollection class", "CIM_ConcreteCollection class, described"]
+keywords:
+- CIM_ConcreteCollection class
+- CIM_ConcreteCollection class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ConcreteCollection class
@@ -138,8 +143,8 @@ For DMTF defined instances, the format must have &lt;*OrgID*&gt; set to "CIM".
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -153,9 +158,9 @@ For DMTF defined instances, the format must have &lt;*OrgID*&gt; set to "CIM".
 [**CIM\_Collection**](cim-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

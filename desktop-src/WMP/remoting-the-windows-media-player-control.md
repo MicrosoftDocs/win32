@@ -1,8 +1,29 @@
 ---
 title: Remoting the Windows Media Player Control
 description: Remoting the Windows Media Player Control
-ms.assetid: 'd543b2a0-a2cb-47e2-b50e-4513fc061b46'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player,remoting ActiveX control", "Windows Media Player object model,remoting ActiveX control", "object model,remoting ActiveX control", "Windows Media Player Mobile,remoting ActiveX control", "Windows Media Player ActiveX control,remoting", "Windows Media Player Mobile ActiveX control,remoting", "ActiveX control,remoting", "remoting Windows Media Player ActiveX control", "embedding,remoting ActiveX control"]
+ms.assetid: d543b2a0-a2cb-47e2-b50e-4513fc061b46
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player,remoting ActiveX control
+- Windows Media Player object model,remoting ActiveX control
+- object model,remoting ActiveX control
+- Windows Media Player Mobile,remoting ActiveX control
+- Windows Media Player ActiveX control,remoting
+- Windows Media Player Mobile ActiveX control,remoting
+- ActiveX control,remoting
+- remoting Windows Media Player ActiveX control
+- embedding,remoting ActiveX control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remoting the Windows Media Player Control
@@ -13,9 +34,9 @@ When you remote the control, it shares the same playback engine as the full mode
 
 ## Enabling Remote Embedding
 
-To enable remote embedding of the Windows Media Player control, your program must implement the **IServiceProvider** and [IWMPRemoteMediaServices](iwmpremotemediaservices.md) interfaces. **IServiceProvider** is a standard Component Object Model (COM) interface with a single method called **QueryService**. Windows Media Player calls this method to retrieve a pointer to an **IWMPRemoteMediaServices** interface.
+To enable remote embedding of the Windows Media Player control, your program must implement the **IServiceProvider** and [IWMPRemoteMediaServices](/windows/win32/wmp/nn-wmp-iwmpremotemediaservices?branch=master) interfaces. **IServiceProvider** is a standard Component Object Model (COM) interface with a single method called **QueryService**. Windows Media Player calls this method to retrieve a pointer to an **IWMPRemoteMediaServices** interface.
 
-**IWMPRemoteMediaServices** has several methods, but only two of them are directly relevant to remoting. In [GetApplicationName](iwmpremotemediaservices-getapplicationname.md), you return the name of your program, which Windows Media Player adds to the **Switch to Other Program** list on the **View** menu. In [GetServiceType](iwmpremotemediaservices-getservicetype.md), you indicate the embedding mode of the control by returning a value of either "Remote" or "Local". If a remote connection is successfully established, the [get\_isRemote](iwmpplayer4-get-isremote.md) method of the [IWMPPlayer4](iwmpplayer4.md) interface returns true.
+**IWMPRemoteMediaServices** has several methods, but only two of them are directly relevant to remoting. In [GetApplicationName](/windows/win32/wmp/nf-wmp-iwmpremotemediaservices-getapplicationname?branch=master), you return the name of your program, which Windows Media Player adds to the **Switch to Other Program** list on the **View** menu. In [GetServiceType](/windows/win32/wmp/nf-wmp-iwmpremotemediaservices-getservicetype?branch=master), you indicate the embedding mode of the control by returning a value of either "Remote" or "Local". If a remote connection is successfully established, the [get\_isRemote](/windows/win32/wmp/nf-wmp-iwmpplayer4-get_isremote?branch=master) method of the [IWMPPlayer4](/windows/win32/wmp/nn-wmp-iwmpplayer4?branch=master) interface returns true.
 
 ## Specifying an Exclusive Online Store
 
@@ -23,9 +44,9 @@ With Windows Media Player 11, an application that embeds the Player control remo
 
 ## Docking and Undocking
 
-The **IWMPPlayer4** interface also provides access to the [IWMPPlayerApplication](iwmpplayerapplication.md) interface through the [get\_playerApplication](iwmpplayer4-get-playerapplication.md) method. Use **IWMPPlayerApplication** to switch between the docked and undocked states and to determine the current docked state and the location of the video or visualization display.
+The **IWMPPlayer4** interface also provides access to the [IWMPPlayerApplication](/windows/win32/wmp/nn-wmp-iwmpplayerapplication?branch=master) interface through the [get\_playerApplication](/windows/win32/wmp/nf-wmp-iwmpplayer4-get_playerapplication?branch=master) method. Use **IWMPPlayerApplication** to switch between the docked and undocked states and to determine the current docked state and the location of the video or visualization display.
 
-The [IWMPPlayerApplication::switchToPlayerApplication](iwmpplayerapplication-switchtoplayerapplication.md) method undocks the control by opening the full mode of Windows Media Player and transferring the video or visualization display to the **Now Playing** pane. The [IWMPPlayerApplication::switchToControl](iwmpplayerapplication-switchtocontrol.md) method docks the control by transferring the video or visualization display to your program and closing the full mode of the Player, if it is open. The control can also be docked by selecting a program from the **Switch to Other Program** list or by closing the full mode of the Player. In both cases, any digital media that is playing continues uninterrupted.
+The [IWMPPlayerApplication::switchToPlayerApplication](/windows/win32/wmp/nf-wmp-iwmpplayerapplication-switchtoplayerapplication?branch=master) method undocks the control by opening the full mode of Windows Media Player and transferring the video or visualization display to the **Now Playing** pane. The [IWMPPlayerApplication::switchToControl](/windows/win32/wmp/nf-wmp-iwmpplayerapplication-switchtocontrol?branch=master) method docks the control by transferring the video or visualization display to your program and closing the full mode of the Player, if it is open. The control can also be docked by selecting a program from the **Switch to Other Program** list or by closing the full mode of the Player. In both cases, any digital media that is playing continues uninterrupted.
 
 ## Transferring the Video or Visualization Display
 
@@ -37,15 +58,15 @@ The only difference between the docked and undocked states is the presence of th
 
 You must provide your own implementation if you want to hide or alter the user interface of an embedded control in the undocked state or when your program does not own the display. You can make these alterations when you dock and undock the control, or you can make them in response to Windows Media Player events. Because the Player can be docked through the **Switch to Other Program** menu option, however, it is usually better to provide this functionality in response to events.
 
-You can implement event handlers for the [SwitchedToPlayerApplication](iwmpevents-iwmpevents--switchedtoplayerapplication.md) and [SwitchedToControl](iwmpevents-iwmpevents--switchedtocontrol.md) events, or you can implement a single event handler for the [PlayerDockedStateChange](iwmpevents-iwmpevents--playerdockedstatechange.md) event. In the latter case, you can determine the docked state by calling [IWMPPlayerApplication::get\_playerDocked](iwmpplayerapplication-get-playerdocked.md). In both cases, use [IWMPPlayerApplication::get\_hasDisplay](iwmpplayerapplication-get-hasdisplay.md) to determine whether your program owns the video or visualization display.
+You can implement event handlers for the [SwitchedToPlayerApplication](/windows/win32/wmp/nf-wmp-iwmpevents-switchedtoplayerapplication?branch=master) and [SwitchedToControl](/windows/win32/wmp/nf-wmp-iwmpevents-switchedtocontrol?branch=master) events, or you can implement a single event handler for the [PlayerDockedStateChange](/windows/win32/wmp/nf-wmp-iwmpevents-playerdockedstatechange?branch=master) event. In the latter case, you can determine the docked state by calling [IWMPPlayerApplication::get\_playerDocked](/windows/win32/wmp/nf-wmp-iwmpplayerapplication-get_playerdocked?branch=master). In both cases, use [IWMPPlayerApplication::get\_hasDisplay](/windows/win32/wmp/nf-wmp-iwmpplayerapplication-get_hasdisplay?branch=master) to determine whether your program owns the video or visualization display.
 
 ## Re-establishing a Remote Connection
 
-In certain circumstances, the connection between a remoted, embedded control and the standalone Player will fail, invalidating your pointers to the Windows Media Player interfaces. Windows Media Player will automatically attempt to reconnect, and will fire the [PlayerReconnect](iwmpevents-iwmpevents--playerreconnect.md) event to signal this attempt. Although the reconnection is automatic, you must provide an event handler for this event if you want to release your invalid pointers and retrieve new ones so that you can access the standalone Player through the new connection.
+In certain circumstances, the connection between a remoted, embedded control and the standalone Player will fail, invalidating your pointers to the Windows Media Player interfaces. Windows Media Player will automatically attempt to reconnect, and will fire the [PlayerReconnect](/windows/win32/wmp/nf-wmp-iwmpevents-playerreconnect?branch=master) event to signal this attempt. Although the reconnection is automatic, you must provide an event handler for this event if you want to release your invalid pointers and retrieve new ones so that you can access the standalone Player through the new connection.
 
 ## Controlling the Undocked Player
 
-All remoted instances of the Windows Media Player control can manipulate the full mode of the Player regardless of the docked state. Features that have no relevance to the full mode of the Player, however, are ignored until the Windows Media Player control is docked. This includes properties of the [IWMPPlayer](iwmpplayer.md) and derived interfaces, such as **enabled**, **enableContextMenu**, **uiMode**, and **windowlessVideo**.
+All remoted instances of the Windows Media Player control can manipulate the full mode of the Player regardless of the docked state. Features that have no relevance to the full mode of the Player, however, are ignored until the Windows Media Player control is docked. This includes properties of the [IWMPPlayer](/windows/win32/wmp/nn-wmp-iwmpplayer?branch=master) and derived interfaces, such as **enabled**, **enableContextMenu**, **uiMode**, and **windowlessVideo**.
 
 ## Error Dialog Boxes
 

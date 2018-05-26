@@ -1,8 +1,20 @@
 ---
 title: Advanced Functions for Use Outside of a Device Context
 description: These functions provide advanced color management capabilities outside of device contexts.
-ms.assetid: '2f742743-094a-44b8-816b-24246607caeb'
-keywords: ["Windows Color System (WCS),functions", "WCS (Windows Color System),functions", "image color management,functions", "color management,functions", "colors,functions", "WCS reference,functions", "reference for WCS,functions"]
+ms.assetid: 2f742743-094a-44b8-816b-24246607caeb
+keywords:
+- Windows Color System (WCS),functions
+- WCS (Windows Color System),functions
+- image color management,functions
+- color management,functions
+- colors,functions
+- WCS reference,functions
+- reference for WCS,functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Functions for Use Outside of a Device Context

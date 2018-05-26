@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMCUIPPARAM structure is used as an input parameter to a user interface plug-in''s IPrintOemUI::CommonUIProp method.'
-ms.assetid: '178b635c-0916-44f5-87a3-a2766601dcab'
+---
+Description: The OEMCUIPPARAM structure is used as an input parameter to a user interface plug-ins IPrintOemUICommonUIProp method.
+ms.assetid: 178b635c-0916-44f5-87a3-a2766601dcab
 title: OEMCUIPPARAM structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMCUIPPARAM structure

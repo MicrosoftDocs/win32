@@ -1,8 +1,9 @@
 ---
 title: HDM\_EDITFILTER message
 description: Moves the input focus to the edit box when a filter button has the focus.
-ms.assetid: '580f7872-4056-4d7d-8e69-274b4b4b5545'
-keywords: ["HDM_EDITFILTER message Windows Controls"]
+ms.assetid: 580f7872-4056-4d7d-8e69-274b4b4b5545
+keywords:
+- HDM_EDITFILTER message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_EDITFILTER message
@@ -42,7 +48,7 @@ A flag that specifies how to handle the user's editing changes. Use this flag to
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -56,8 +62,8 @@ Returns an integer. The **LRESULT** is cast to an integer that indicates **TRUE*
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -69,9 +75,9 @@ Returns an integer. The **LRESULT** is cast to an integer that indicates **TRUE*
 [**HDM\_CLEARFILTER**](hdm-clearfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

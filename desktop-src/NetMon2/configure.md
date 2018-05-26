@@ -1,7 +1,12 @@
 ---
-Description: 'Configures the expert within the expert DLL.'
-ms.assetid: '3906569d-9ad4-4c03-9637-f4a57697b227'
+Description: Configures the expert within the expert DLL.
+ms.assetid: 3906569d-9ad4-4c03-9637-f4a57697b227
 title: Configure callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configure callback function
@@ -15,11 +20,11 @@ The expert must implement the **Configure** function. When the function call is 
 
 ```C++
 BOOL WINAPI Configure(
-  _In_    HEXPERTKEY         hExpertKey,
-  _Inout_ PEXPERTCONFIG      *ppConfig,
-  _In_    PEXPERTSTARTUPINFO pExpertStartupInfo,
-  _In_    DWORD              StartupFlags,
-  _In_    HWND               hWnd
+  _In_    HEXPERTKEY         hExpertKey,
+  _Inout_ PEXPERTCONFIG      *ppConfig,
+  _In_    PEXPERTSTARTUPINFO pExpertStartupInfo,
+  _In_    DWORD              StartupFlags,
+  _In_    HWND               hWnd
 );
 ```
 
@@ -90,15 +95,15 @@ The beginning of the [**EXPERTCONFIG**](expertconfig.md) data structure includes
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

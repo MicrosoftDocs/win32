@@ -1,7 +1,12 @@
 ---
 title: Testing the Firewall Rules
 description: The following checklist covers the recommendations that your test team should adopt in its test code.
-ms.assetid: '82531de2-57e9-44ed-a7ac-2a244965bfd2'
+ms.assetid: 82531de2-57e9-44ed-a7ac-2a244965bfd2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing the Firewall Rules

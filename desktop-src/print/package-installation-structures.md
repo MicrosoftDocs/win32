@@ -1,7 +1,12 @@
 ---
 Description: Package Installation Structures
-ms.assetid: 'd1dcbb62-8fb2-4351-9771-878726e029e5'
+ms.assetid: d1dcbb62-8fb2-4351-9771-878726e029e5
 title: Package Installation Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Package Installation Structures

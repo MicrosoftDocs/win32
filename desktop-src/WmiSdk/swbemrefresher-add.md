@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemRefresher.Add method adds a new SWbemRefreshableItem object to the collection in the SWbemRefresher object.SWbemRefreshableItem object to the collection in the SWbemRefresher object.'
+Description: The SWbemRefresher.Add method adds a new SWbemRefreshableItem object to the collection in the SWbemRefresher object.SWbemRefreshableItem object to the collection in the SWbemRefresher object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '92d11a18-1eed-4958-b74a-2f9de4907dd0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 92d11a18-1eed-4958-b74a-2f9de4907dd0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemRefresher.Add method'
+title: SWbemRefresher.Add method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemRefresher.Add method
@@ -72,8 +75,8 @@ If the call is successful, an [**SWbemRefreshableItem**](swbemrefreshableitem.md
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -89,9 +92,9 @@ If the call is successful, an [**SWbemRefreshableItem**](swbemrefreshableitem.md
 [**SWbemRefresher**](swbemrefresher.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

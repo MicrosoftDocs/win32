@@ -4,17 +4,21 @@ description: The CCF\_COM\_OBJECTKEY clipboard format returns the object key (CL
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8e138969-6aa8-41c6-ab7a-e80ced91a873'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 8e138969-6aa8-41c6-ab7a-e80ced91a873
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CCF_COM_OBJECTKEY clipboard format MMC"]
+keywords:
+- CCF_COM_OBJECTKEY clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - CCF_COM_OBJECTKEY
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CCF\_COM\_OBJECTKEY clipboard format

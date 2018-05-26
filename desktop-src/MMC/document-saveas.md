@@ -4,11 +4,16 @@ description: The SaveAs method is identical to the Save method, except a filenam
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '783b619f-eb9d-47aa-85d8-76b375f73c01'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 783b619f-eb9d-47aa-85d8-76b375f73c01
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["SaveAs method MMC", "SaveAs method MMC , Document object", "Document object MMC , SaveAs method", "SaveAs method MMC , Document interface", "Document interface MMC , SaveAs method"]
+keywords:
+- SaveAs method MMC
+- SaveAs method MMC , Document object
+- Document object MMC , SaveAs method
+- SaveAs method MMC , Document interface
+- Document interface MMC , SaveAs method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Document::SaveAs method
@@ -66,8 +74,8 @@ objDoc.SaveAs "D:\console2.msc"
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -85,9 +93,9 @@ objDoc.SaveAs "D:\console2.msc"
 [**Document.Save**](document-save.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

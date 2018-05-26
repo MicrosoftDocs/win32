@@ -4,11 +4,16 @@ description: When publishing with an SCP, remember that it must contain current 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2350cb65-3439-4a5f-adc5-b71476793247'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2350cb65-3439-4a5f-adc5-b71476793247
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Creating and Maintaining a Service Connection Point AD", "service connection point AD , creating and maintaining"]
+keywords:
+- Creating and Maintaining a Service Connection Point AD
+- service connection point AD , creating and maintaining
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating and Maintaining a Service Connection Point

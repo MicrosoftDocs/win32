@@ -4,10 +4,13 @@ description: Each instance of an object class has a multi-valued objectClass pro
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b3c5f9ee-98e0-42dd-9b61-3731e14b9cd4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b3c5f9ee-98e0-42dd-9b61-3731e14b9cd4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Object Class and Object Category

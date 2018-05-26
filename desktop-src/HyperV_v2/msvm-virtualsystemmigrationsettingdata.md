@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the migration settings for migrating a virtual system and the storage attached to a virtual system.'
-ms.assetid: '2d632fe2-31ee-4e4d-b2a6-c1d1f3b4d624'
-title: 'Msvm\_VirtualSystemMigrationSettingData class'
+Description: Represents the migration settings for migrating a virtual system and the storage attached to a virtual system.
+ms.assetid: 2d632fe2-31ee-4e4d-b2a6-c1d1f3b4d624
+title: Msvm\_VirtualSystemMigrationSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemMigrationSettingData class
@@ -16,24 +21,24 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemMigrationSettingData : CIM_VirtualSystemMigrationSettingData
 {
-  string  InstanceID;
-  string  Caption = "Migration Setting Data";
-  string  Description = "Virtual System Migration Setting Data";
-  string  ElementName;
-  uint16  MigrationType;
-  uint16  Priority;
-  uint16  Bandwidth;
-  string  BandwidthUnit;
-  string  OtherTransportType;
-  uint16  TransportType;
+  string  InstanceID;
+  string  Caption = "Migration Setting Data";
+  string  Description = "Virtual System Migration Setting Data";
+  string  ElementName;
+  uint16  MigrationType;
+  uint16  Priority;
+  uint16  Bandwidth;
+  string  BandwidthUnit;
+  string  OtherTransportType;
+  uint16  TransportType;
   boolean RemoveSourceUnmanagedVhds;
   boolean AvoidRemovingVHDs;
-  uint16  CPUCappingMagnitude;
+  uint16  CPUCappingMagnitude;
   boolean CancelIfBlackoutThresholdExceeded;
   boolean AllowOverwriteExistingFile;
-  string  UnmanagedVhds[];
-  string  DestinationPlannedVirtualSystemId;
-  string  DestinationIPAddressList[];
+  string  UnmanagedVhds[];
+  string  DestinationPlannedVirtualSystemId;
+  string  DestinationIPAddressList[];
   boolean RetainVhdCopiesOnSource;
   boolean EnableCompression;
 };
@@ -63,9 +68,9 @@ Access type: Read/write
 Allow the storage migration operation to overwrite existing .vhdx files.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -81,9 +86,9 @@ Access type: Read/write
 Do not remove any VHDs during the migration, i.e. VHDs on the source in successand VHDs on the destination in failure.
 
 > [!Note]  
-> Added in Windows 10, version 1703 and Windows Server 2016.
+> Added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -133,9 +138,9 @@ Access type: Read/write
 Cancels migration if the blackout threshold time is exceeded.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -167,9 +172,9 @@ Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("CPUCap
 Degree of CPU capping during migration.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 <dt>
 
@@ -259,7 +264,7 @@ Access type: Read/write
 
 Indicates whether to compress the live migration traffic. **True** indicates to compress; otherwise **False**.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -399,9 +404,9 @@ Access type: Read/write
 Remove source unmanaged VHDs.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -540,9 +545,9 @@ Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/aa393650) ("Index
 An array of embedded [**Msvm\_MoveUnmanagedVhd**](msvm-moveunmanagedvhd.md) instances which contain unmanaged VHDs information.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> </dl>
 
@@ -552,8 +557,8 @@ An array of embedded [**Msvm\_MoveUnmanagedVhd**](msvm-moveunmanagedvhd.md) inst
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -570,9 +575,9 @@ An array of embedded [**Msvm\_MoveUnmanagedVhd**](msvm-moveunmanagedvhd.md) inst
 [**MigrateVirtualSystemToHost**](migratevirtualsystemtohost-msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

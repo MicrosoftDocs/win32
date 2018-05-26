@@ -1,13 +1,29 @@
 ---
 title: Numbers
 description: Numbers
-ms.assetid: 'd416c4c2-a3e1-45a2-9ae1-82050a5e471b'
-keywords: ["audio mixers,controls", "audio mixers,numbers", "mixers,controls", "mixers,numbers", "number controls", "MIXERCONTROLDETAILS_SIGNED structure", "MIXERCONTROLDETAILS_UNSIGNED structure", "decibel control", "percent control", "signed control", "unsigned control"]
+ms.assetid: d416c4c2-a3e1-45a2-9ae1-82050a5e471b
+keywords:
+- audio mixers,controls
+- audio mixers,numbers
+- mixers,controls
+- mixers,numbers
+- number controls
+- MIXERCONTROLDETAILS_SIGNED structure
+- MIXERCONTROLDETAILS_UNSIGNED structure
+- decibel control
+- percent control
+- signed control
+- unsigned control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Numbers
 
-The number controls allow the user to enter numerical data associated with a line. The numerical data is expressed as signed integers, unsigned integers, or integer decibel values. These controls use the [**MIXERCONTROLDETAILS\_SIGNED**](mixercontroldetails-signed.md) and [**MIXERCONTROLDETAILS\_UNSIGNED**](mixercontroldetails-unsigned.md) structures to retrieve and set control properties. The following table describes the types of number controls.
+The number controls allow the user to enter numerical data associated with a line. The numerical data is expressed as signed integers, unsigned integers, or integer decibel values. These controls use the [**MIXERCONTROLDETAILS\_SIGNED**](/windows/win32/mmeapi/?branch=master) and [**MIXERCONTROLDETAILS\_UNSIGNED**](/windows/win32/mmeapi/?branch=master) structures to retrieve and set control properties. The following table describes the types of number controls.
 
 
 

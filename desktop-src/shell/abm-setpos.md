@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the size and screen position of an appbar.'
-ms.assetid: 'b3c56278-b9a2-4e08-bf98-7b3e4c8bd082'
-title: 'ABM\_SETPOS message'
+Description: Sets the size and screen position of an appbar.
+ms.assetid: b3c56278-b9a2-4e08-bf98-7b3e4c8bd082
+title: ABM\_SETPOS message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ABM\_SETPOS message
@@ -22,7 +27,7 @@ SHAppBarMessage(ABM_SETPOS, pabd);
 *pabd* 
 </dt> <dd>
 
-A pointer to an [**APPBARDATA**](appbardata.md) structure. The **uEdge** member specifies a screen edge, and the **rc** member contains the bounding rectangle. When the [**SHAppBarMessage**](shappbarmessage.md) function returns, **rc** contains the approved bounding rectangle. You must specify the **cbSize**, **hWnd**, **uEdge**, and **rc** members when sending this message; all other members are ignored.
+A pointer to an [**APPBARDATA**](/windows/win32/Shellapi/ns-shellapi-_appbardata?branch=master) structure. The **uEdge** member specifies a screen edge, and the **rc** member contains the bounding rectangle. When the [**SHAppBarMessage**](/windows/win32/Shellapi/nf-shellapi-shappbarmessage?branch=master) function returns, **rc** contains the approved bounding rectangle. You must specify the **cbSize**, **hWnd**, **uEdge**, and **rc** members when sending this message; all other members are ignored.
 
 </dd> </dl>
 
@@ -40,15 +45,15 @@ This message causes the system to send the [**ABN\_POSCHANGED**](abn-poschanged.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Shellapi.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

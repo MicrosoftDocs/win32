@@ -4,11 +4,13 @@ description: An abstract base class for the preinstalled, calculated data classe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ec44f6c6-3ce6-43e3-87d2-f62febce46f4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: ec44f6c6-3ce6-43e3-87d2-f62febce46f4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_PerfFormattedData class", "Win32_PerfFormattedData class, described"]
+keywords:
+- Win32_PerfFormattedData class
+- Win32_PerfFormattedData class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - WmiPerfInst.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PerfFormattedData class
@@ -226,8 +231,8 @@ The **Win32\_PerfFormattedData** class is derived from [**Win32\_Perf**](win32-p
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                             |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                             |
 | Namespace<br/>                | Root\\WMI<br/>                                                                       |
 | MOF<br/>                      | <dl> <dt>Wmi.mof</dt> </dl>         |
 | DLL<br/>                      | <dl> <dt>WmiPerfInst.dll</dt> </dl> |
@@ -253,9 +258,9 @@ The **Win32\_PerfFormattedData** class is derived from [**Win32\_Perf**](win32-p
 [Accessing Performance Data in Script](https://msdn.microsoft.com/library/aa384728)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

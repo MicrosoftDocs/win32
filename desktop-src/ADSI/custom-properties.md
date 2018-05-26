@@ -4,10 +4,13 @@ description: Providers can expose additional objects, interfaces, and properties
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c9f71fce-9dbe-4087-9a14-fcf52b1b4b35'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c9f71fce-9dbe-4087-9a14-fcf52b1b4b35
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Custom Properties

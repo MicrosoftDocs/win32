@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UpdateTrace function updates the property setting of the specified event tracing session. The ControlTrace function supersedes this function.'
-ms.assetid: '40e6deaf-7363-45eb-80d0-bc3f33760875'
+---
+Description: The UpdateTrace function updates the property setting of the specified event tracing session. The ControlTrace function supersedes this function.
+ms.assetid: 40e6deaf-7363-45eb-80d0-bc3f33760875
 title: UpdateTrace function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpdateTrace function

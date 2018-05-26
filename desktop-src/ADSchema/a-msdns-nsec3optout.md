@@ -4,17 +4,22 @@ description: An attribute used to define whether or not the DNS zone should be s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1ef0c394-9597-4c04-b471-7fb284a26ca9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 1ef0c394-9597-4c04-b471-7fb284a26ca9
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-NSEC3-OptOut attribute AD Schema", "msDNS-NSEC3OptOut attribute AD Schema"]
+keywords:
+- ms-DNS-NSEC3-OptOut attribute AD Schema
+- msDNS-NSEC3OptOut attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-NSEC3-OptOut
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-NSEC3-OptOut attribute
@@ -38,7 +43,7 @@ An attribute used to define whether or not the DNS zone should be signed using N
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute used to define whether or not the DNS zone should be signed using N
 
 
 
- 
+ 
 
- 
+ 
 
 
 

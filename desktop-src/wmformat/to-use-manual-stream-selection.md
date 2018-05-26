@@ -1,8 +1,27 @@
 ---
 title: To Use Manual Stream Selection
 description: To Use Manual Stream Selection
-ms.assetid: '49ec283f-670a-4a0e-9477-c60a80919a1e'
-keywords: ["Advanced Systems Format (ASF),manual stream selection", "ASF (Advanced Systems Format),manual stream selection", "Advanced Systems Format (ASF),asynchronous readers", "ASF (Advanced Systems Format),asynchronous readers", "Advanced Systems Format (ASF),stream selection", "ASF (Advanced Systems Format),stream selection", "Advanced Systems Format (ASF),mutual exclusion", "ASF (Advanced Systems Format),mutual exclusion", "asynchronous readers,manual stream selection", "asynchronous readers,stream selection", "streams,manual selection", "mutual exclusion,manual stream selection", "streams,asynchronous readers", "mutual exclusion,asynchronous readers"]
+ms.assetid: 49ec283f-670a-4a0e-9477-c60a80919a1e
+keywords:
+- Advanced Systems Format (ASF),manual stream selection
+- ASF (Advanced Systems Format),manual stream selection
+- Advanced Systems Format (ASF),asynchronous readers
+- ASF (Advanced Systems Format),asynchronous readers
+- Advanced Systems Format (ASF),stream selection
+- ASF (Advanced Systems Format),stream selection
+- Advanced Systems Format (ASF),mutual exclusion
+- ASF (Advanced Systems Format),mutual exclusion
+- asynchronous readers,manual stream selection
+- asynchronous readers,stream selection
+- streams,manual selection
+- mutual exclusion,manual stream selection
+- streams,asynchronous readers
+- mutual exclusion,asynchronous readers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Use Manual Stream Selection
@@ -15,10 +34,10 @@ Manual stream selection is either on or off for the entire file. If a file conta
 
 To select a mutually exclusive stream manually, you must perform the following steps.
 
-1.  Retrieve a pointer to the [**IWMReaderAdvanced**](iwmreaderadvanced.md) interface of the reader object by calling **IWMReader::QueryInterface**.
-2.  Enable manual stream selection by calling [**IWMReaderAdvanced::SetManualStreamSelection**](iwmreaderadvanced-setmanualstreamselection.md).
-3.  To find out if a particular stream is selected, call [**IWMReaderAdvanced::GetStreamSelected**](iwmreaderadvanced-getstreamselected.md). You must pass a pointer to a variable of the [**WMT\_STREAM\_SELECTION**](wmt-stream-selection.md) enumeration type. When the call returns, the value in the variable will describe the current selection type of the stream.
-4.  To select a stream, call [**IWMReaderAdvanced::SetStreamsSelected**](iwmreaderadvanced-setstreamsselected.md). This method enables you to specify multiple streams at the same time for synchronized stream switching.
+1.  Retrieve a pointer to the [**IWMReaderAdvanced**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced?branch=master) interface of the reader object by calling **IWMReader::QueryInterface**.
+2.  Enable manual stream selection by calling [**IWMReaderAdvanced::SetManualStreamSelection**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setmanualstreamselection?branch=master).
+3.  To find out if a particular stream is selected, call [**IWMReaderAdvanced::GetStreamSelected**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstreamselected?branch=master). You must pass a pointer to a variable of the [**WMT\_STREAM\_SELECTION**](/windows/win32/Wmsdkidl/ne-wmsdkidl-wmt_stream_selection?branch=master) enumeration type. When the call returns, the value in the variable will describe the current selection type of the stream.
+4.  To select a stream, call [**IWMReaderAdvanced::SetStreamsSelected**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setstreamsselected?branch=master). This method enables you to specify multiple streams at the same time for synchronized stream switching.
 
 ## Related topics
 

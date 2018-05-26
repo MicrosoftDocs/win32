@@ -1,8 +1,11 @@
 ---
 title: System.Shell.RecycleBin.onRecycleBinChanged event
 description: Event fired when the content of the Recycle Bin is modified.
-ms.assetid: '4afc138a-a731-46f5-bad2-7ed0d7c9be6c'
-keywords: ["onRecycleBinChanged event Windows Sidebar", "onRecycleBinChanged event Windows Sidebar , System.Shell.RecycleBin object", "System.Shell.RecycleBin object Windows Sidebar , onRecycleBinChanged event"]
+ms.assetid: 4afc138a-a731-46f5-bad2-7ed0d7c9be6c
+keywords:
+- onRecycleBinChanged event Windows Sidebar
+- onRecycleBinChanged event Windows Sidebar , System.Shell.RecycleBin object
+- System.Shell.RecycleBin object Windows Sidebar , onRecycleBinChanged event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.RecycleBin.onRecycleBinChanged event
@@ -93,18 +101,18 @@ function RecycleBinChangedFeedback()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

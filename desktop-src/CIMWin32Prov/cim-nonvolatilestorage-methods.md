@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_NonVolatileStorage class exposes the following methods.'
+Description: The CIM\_NonVolatileStorage class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '563CD79E-6E80-4EBC-A24C-9E72F7FBB272'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 563CD79E-6E80-4EBC-A24C-9E72F7FBB272
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_NonVolatileStorage Methods'
+title: CIM\_NonVolatileStorage Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_NonVolatileStorage Methods

@@ -1,7 +1,12 @@
 ---
 title: Developing IFilter Add-ins
 description: You can extend Microsoft Windows Desktop Search (WDS) with filter add-ins, components that implement the IFilterinterface, to include new file types.
-ms.assetid: '71dd515d-a73e-4e0a-b0da-c8a6209d09fe'
+ms.assetid: 71dd515d-a73e-4e0a-b0da-c8a6209d09fe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing IFilter Add-ins

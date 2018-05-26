@@ -1,7 +1,12 @@
 ---
 title: Compile an Effect (Direct3D 11)
 description: After an effect has been authored, the next step is to compile the code to check for syntax problems.
-ms.assetid: '7624d55e-6466-4156-8f31-30f0d25a2883'
+ms.assetid: 7624d55e-6466-4156-8f31-30f0d25a2883
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compile an Effect (Direct3D 11)
@@ -35,13 +40,13 @@ hr = D3DX11CompileFromFile( str, NULL, NULL, pFunctionName, pProfile, D3D10_SHAD
 
 ## Includes
 
-One parameter of the compile APIs is an include interface. Generate one of these if you want to include a customized behavior when the compiler reads an include file. The compiler executes this custom behavior each time it creates or compiles an effect (that uses the include pointer). To implement customized include behavior, derive a class from the [**ID3DInclude**](id3dinclude.md) interface. This provides your class with two methods: [**Open**](id3dinclude-open.md) and [**Close**](id3dinclude-close.md). Implement the custom behavior in these methods.
+One parameter of the compile APIs is an include interface. Generate one of these if you want to include a customized behavior when the compiler reads an include file. The compiler executes this custom behavior each time it creates or compiles an effect (that uses the include pointer). To implement customized include behavior, derive a class from the [**ID3DInclude**](/windows/win32/D3Dcommon/nn-d3dcommon-id3dinclude?branch=master) interface. This provides your class with two methods: [**Open**](/windows/win32/D3DCommon/nf-d3dcommon-id3dinclude-open?branch=master) and [**Close**](/windows/win32/D3DCommon/nf-d3dcommon-id3dinclude-close?branch=master). Implement the custom behavior in these methods.
 
 ## Searching for Include Files
 
-The pointer that the compiler passes in the *pParentData* parameter to your include handler's [**Open**](id3dinclude-open.md) method might not point to the container that includes the \#include file that the compiler needs to compile your shader code. That is, the compiler might pass **NULL** in *pParentData*. Therefore, we recommend that your include handler search its own list of include locations for content. Your include handler can dynamically add new include locations as it receives those locations in calls to its **Open** method.
+The pointer that the compiler passes in the *pParentData* parameter to your include handler's [**Open**](/windows/win32/D3DCommon/nf-d3dcommon-id3dinclude-open?branch=master) method might not point to the container that includes the \#include file that the compiler needs to compile your shader code. That is, the compiler might pass **NULL** in *pParentData*. Therefore, we recommend that your include handler search its own list of include locations for content. Your include handler can dynamically add new include locations as it receives those locations in calls to its **Open** method.
 
-In the following example, suppose that the shader code's include files are both stored in the *somewhereelse* directory. When the compiler calls the include handler's [**Open**](id3dinclude-open.md) method to open and read the contents of *somewhereelse\\foo.h*, the include handler can save the location of the **somewhereelse** directory. Later, when the compiler calls the include handler's **Open** method to open and read the contents of *bar.h*, the include handler can automatically search in the *somewhereelse* directory for *bar.h*.
+In the following example, suppose that the shader code's include files are both stored in the *somewhereelse* directory. When the compiler calls the include handler's [**Open**](/windows/win32/D3DCommon/nf-d3dcommon-id3dinclude-open?branch=master) method to open and read the contents of *somewhereelse\\foo.h*, the include handler can save the location of the **somewhereelse** directory. Later, when the compiler calls the include handler's **Open** method to open and read the contents of *bar.h*, the include handler can automatically search in the *somewhereelse* directory for *bar.h*.
 
 
 ```
@@ -107,7 +112,7 @@ Use these flags when you create an effect to define either compilation behavior 
 
 ## Checking Errors
 
-If during compilation an error occurs, the API returns an interface that contains the errors from the effect compiler. This interface is called [**ID3DBlob**](id3dblob.md). It is not directly readable; however, by returning a pointer to the buffer that contains the data (which is a string), you can see any compilation errors.
+If during compilation an error occurs, the API returns an interface that contains the errors from the effect compiler. This interface is called [**ID3DBlob**](/windows/win32/D3Dcommon/?branch=master). It is not directly readable; however, by returning a pointer to the buffer that contains the data (which is a string), you can see any compilation errors.
 
 This example contains an error in the BasicHLSL.fx, the first variable declaration occurs twice.
 

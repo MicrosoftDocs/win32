@@ -1,7 +1,12 @@
-﻿---
-Description: 'The LoadDefSettings method restores the default settings of the Wipe transition.'
-ms.assetid: '3f81002a-ecac-4d5a-8d2a-ada4d4884d7d'
-title: 'IDxtJpeg::LoadDefSettings method'
+---
+Description: The LoadDefSettings method restores the default settings of the Wipe transition.
+ms.assetid: 3f81002a-ecac-4d5a-8d2a-ada4d4884d7d
+title: IDxtJpegLoadDefSettings method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::LoadDefSettings method

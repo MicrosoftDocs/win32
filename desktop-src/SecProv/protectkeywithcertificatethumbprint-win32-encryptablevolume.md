@@ -1,7 +1,12 @@
-﻿---
-Description: 'Validates the Enhanced Key Usage (EKU) object identifier (OID) of the provided certificate.'
-ms.assetid: '7096cead-c44a-404c-b1e1-3e0ab27070f8'
-title: 'ProtectKeyWithCertificateThumbprint method of the Win32\_EncryptableVolume class'
+---
+Description: Validates the Enhanced Key Usage (EKU) object identifier (OID) of the provided certificate.
+ms.assetid: 7096cead-c44a-404c-b1e1-3e0ab27070f8
+title: ProtectKeyWithCertificateThumbprint method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProtectKeyWithCertificateThumbprint method of the Win32\_EncryptableVolume class

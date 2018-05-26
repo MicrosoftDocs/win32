@@ -1,7 +1,12 @@
 ---
 Description: Using Logging APIs for Parental Controls
-ms.assetid: '6c38a634-53ba-4e76-83bf-1a3f36efb0bc'
+ms.assetid: 6c38a634-53ba-4e76-83bf-1a3f36efb0bc
 title: Using Logging APIs for Parental Controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Logging APIs for Parental Controls
@@ -110,7 +115,7 @@ The Parental Controls system will fire a warning event at 15 minutes and again a
 [**EventDataDescCreate**](https://msdn.microsoft.com/library/windows/desktop/aa363723)
 </dt> <dt>
 
-[**WPC\_ARGS\_CONVERSATIONINITEVENT**](wpc-args-conversationinitevent.md)
+[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/win32/Wpcevent/ne-wpcevent-tagwpc_args_conversationinitevent?branch=master)
 </dt> </dl>
 
  

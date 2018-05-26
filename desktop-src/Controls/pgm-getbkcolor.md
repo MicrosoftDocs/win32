@@ -1,8 +1,9 @@
 ---
 title: PGM\_GETBKCOLOR message
 description: Retrieves the current background color for the pager control. You can send this message explicitly or use the Pager\_GetBkColor macro.
-ms.assetid: 'c39ad721-fe39-44e9-8305-67444acc5d65'
-keywords: ["PGM_GETBKCOLOR message Windows Controls"]
+ms.assetid: c39ad721-fe39-44e9-8305-67444acc5d65
+keywords:
+- PGM_GETBKCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PGM\_GETBKCOLOR message
 
-Retrieves the current background color for the pager control. You can send this message explicitly or use the [**Pager\_GetBkColor**](pager-getbkcolor.md) macro.
+Retrieves the current background color for the pager control. You can send this message explicitly or use the [**Pager\_GetBkColor**](/windows/win32/Commctrl/nf-commctrl-pager_getbkcolor?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ By default, the pager control will use the system button face color as the backg
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

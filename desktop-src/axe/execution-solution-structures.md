@@ -1,7 +1,12 @@
 ---
 title: Execution Solution Structures
 description: AXE Execution Solution API provides the following structures. The interfaces of the API are implemented with the struct keyword and are documented in this section.
-ms.assetid: 'B2781ED5-B3F1-414E-81C1-B6826371E7DE'
+ms.assetid: B2781ED5-B3F1-414E-81C1-B6826371E7DE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Execution Solution Structures

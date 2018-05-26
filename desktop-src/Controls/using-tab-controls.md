@@ -1,7 +1,12 @@
 ---
 title: Using Tab Controls
 description: This topic contains two examples that use tab controls.
-ms.assetid: '29cc2f47-5667-4b03-8af8-51995a90a3dc'
+ms.assetid: 29cc2f47-5667-4b03-8af8-51995a90a3dc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Tab Controls
@@ -42,11 +47,11 @@ In many cases, you can implement multiple-page dialog boxes more easily by using
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

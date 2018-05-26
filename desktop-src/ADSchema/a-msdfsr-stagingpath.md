@@ -4,17 +4,22 @@ description: Contains the full path of the staging directory.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c297472f-9db7-4a91-840d-08ff64c01a7a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c297472f-9db7-4a91-840d-08ff64c01a7a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-StagingPath attribute AD Schema", "msDFSR-StagingPath attribute AD Schema"]
+keywords:
+- ms-DFSR-StagingPath attribute AD Schema
+- msDFSR-StagingPath attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-StagingPath
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-StagingPath attribute
@@ -38,10 +43,10 @@ Contains the full path of the staging directory.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the full path of the staging directory.
 
 The **ms-DFSR-StagingPath** attribute is a part of the Distributed File System (DFS) Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

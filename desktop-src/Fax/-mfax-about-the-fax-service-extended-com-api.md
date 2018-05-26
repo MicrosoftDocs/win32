@@ -1,7 +1,12 @@
 ---
-Description: 'This topic introduces the Fax Service Extended COM APIs.'
-ms.assetid: 'df15bad0-8f68-4eea-9cb3-439078239398'
+Description: This topic introduces the Fax Service Extended COM APIs.
+ms.assetid: df15bad0-8f68-4eea-9cb3-439078239398
 title: About the Fax Service Extended COM API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Fax Service Extended COM API
@@ -13,7 +18,7 @@ The extended COM objects and their interfaces can be classified into the followi
 -   **Root objects**. Includes the [**FaxServer**](-mfax-faxserver.md) root object.
 -   **Messaging objects**. Includes objects used to create, track, and manage fax documents, messages, and jobs.
 -   **Configuration objects**. Includes objects used to configure the fax server.
--   **Notification objects**. Includes the [**FaxServerNotify**](-mfax-ifaxservernotify.md) interface and the [**FaxJobStatus**](-mfax-faxjobstatus.md) object for event notification callbacks.
+-   **Notification objects**. Includes the [**FaxServerNotify**](/windows/previous-versions/FaxComex/?branch=master) interface and the [**FaxJobStatus**](-mfax-faxjobstatus.md) object for event notification callbacks.
 
 For more information, see [Fax Service Extended COM Objects](-mfax-fax-service-extended-com-objects.md).
 

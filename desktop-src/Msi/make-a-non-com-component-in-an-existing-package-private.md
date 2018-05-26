@@ -1,7 +1,12 @@
 ---
-Description: 'An administrator can force a client application to always use the same copy of a non-COM server in an existing package&\#8212;without affecting other applications&\#8212;by specifying an isolated components relationship between the server and client.'
-ms.assetid: 'e10d7942-b13c-46a3-a8ca-cb7bc021c76b'
-title: 'Make a non-COM Component in an Existing Package Private'
+Description: An administrator can force a client application to always use the same copy of a non-COM server in an existing package&\#8212;without affecting other applications&\#8212;by specifying an isolated components relationship between the server and client.
+ms.assetid: e10d7942-b13c-46a3-a8ca-cb7bc021c76b
+title: Make a non-COM Component in an Existing Package Private
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Make a non-COM Component in an Existing Package Private

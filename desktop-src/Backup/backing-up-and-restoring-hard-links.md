@@ -1,13 +1,19 @@
 ---
 title: Backing Up and Restoring Hard Links
 description: To back up and restore hard links, use the CreateFile, CreateHardLink, FindFirstFileNameW, FindNextFileNameW, BackupRead, GetFileInformationByHandle, and BackupWrite functions as shown in the following pseudocode examples.
-ms.assetid: '129e9cf4-8ab1-45d2-8e1a-4bc85b9de668'
-keywords: ["hard links Backup"]
+ms.assetid: 129e9cf4-8ab1-45d2-8e1a-4bc85b9de668
+keywords:
+- hard links Backup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Backing Up and Restoring Hard Links
 
-To back up and restore hard links, use the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858), [**CreateHardLink**](https://msdn.microsoft.com/library/windows/desktop/aa363860), [**FindFirstFileNameW**](https://msdn.microsoft.com/library/windows/desktop/aa364421), [**FindNextFileNameW**](https://msdn.microsoft.com/library/windows/desktop/aa364429), [**BackupRead**](backupread.md), [**GetFileInformationByHandle**](https://msdn.microsoft.com/library/windows/desktop/aa364952), and [**BackupWrite**](backupwrite.md) functions as shown in the following pseudocode examples.
+To back up and restore hard links, use the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858), [**CreateHardLink**](https://msdn.microsoft.com/library/windows/desktop/aa363860), [**FindFirstFileNameW**](https://msdn.microsoft.com/library/windows/desktop/aa364421), [**FindNextFileNameW**](https://msdn.microsoft.com/library/windows/desktop/aa364429), [**BackupRead**](/windows/win32/Winbase/nf-winbase-backupread?branch=master), [**GetFileInformationByHandle**](https://msdn.microsoft.com/library/windows/desktop/aa364952), and [**BackupWrite**](/windows/win32/Winbase/nf-winbase-backupwrite?branch=master) functions as shown in the following pseudocode examples.
 
 ## Pseudocode Algorithm for Backing Up Hard Links
 

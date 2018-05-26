@@ -1,8 +1,11 @@
 ---
 title: TaskFolder.RegisterTask method
 description: For scripting, registers (creates) a new task in the folder using XML to define the task.
-ms.assetid: '743e5bd9-3fb6-4e09-96ed-ca2d74fa0bab'
-keywords: ["RegisterTask method Task Scheduler", "RegisterTask method Task Scheduler , TaskFolder object", "TaskFolder object Task Scheduler , RegisterTask method"]
+ms.assetid: 743e5bd9-3fb6-4e09-96ed-ca2d74fa0bab
+keywords:
+- RegisterTask method Task Scheduler
+- RegisterTask method Task Scheduler , TaskFolder object
+- TaskFolder object Task Scheduler , RegisterTask method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskFolder.RegisterTask method
@@ -68,7 +76,7 @@ The following topics contain tasks defined using XML.
 *flags* \[in\]
 </dt> <dd>
 
-A [**TASK\_CREATION**](taskcreation.md) constant.
+A [**TASK\_CREATION**](/windows/win32/taskschd/ne-taskschd-_task_creation?branch=master) constant.
 
 
 
@@ -84,7 +92,7 @@ A [**TASK\_CREATION**](taskcreation.md) constant.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -96,7 +104,7 @@ The user credentials that are used to register the task.
 > [!Note]  
 > If the task is defined as a Task Scheduler 1.0 task, then do not use a group name (rather than a specific user name) in this userId parameter. A task is defined as a Task Scheduler 1.0 task when the version attribute of the Task element in the task's XML is set to 1.1.
 
- 
+ 
 
 </dd> <dt>
 
@@ -126,7 +134,7 @@ Defines what logon technique is used to run the registered task.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -138,7 +146,7 @@ The security descriptor that is associated with the registered task. You can spe
 > [!Note]  
 > If the Local System account is denied access to a task, then the Task Scheduler service can produce unexpected results.
 
- 
+ 
 
 </dd> <dt>
 
@@ -167,8 +175,8 @@ You can successfully register a task with a group specified in the *userId* para
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -187,9 +195,9 @@ You can successfully register a task with a group specified in the *userId* para
 [**TaskFolder**](taskfolder.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

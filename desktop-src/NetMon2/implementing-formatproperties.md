@@ -1,7 +1,12 @@
 ---
-Description: 'Network Monitor calls the FormatProperties function to format the data that is displayed in the details pane of the Network Monitor UI.'
-ms.assetid: 'd0a58e1d-c867-4277-916e-f408627b5269'
+Description: Network Monitor calls the FormatProperties function to format the data that is displayed in the details pane of the Network Monitor UI.
+ms.assetid: d0a58e1d-c867-4277-916e-f408627b5269
 title: Implementing FormatProperties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing FormatProperties

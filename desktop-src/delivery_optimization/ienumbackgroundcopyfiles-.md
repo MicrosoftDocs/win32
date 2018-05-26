@@ -1,8 +1,10 @@
 ---
 title: IEnumBackgroundCopyFiles interface
 description: Use the IEnumBackgroundCopyFiles interface to enumerate the files that a job contains. To get an IEnumBackgroundCopyFiles interface pointer, call the IBackgroundCopyJob EnumFiles method.
-ms.assetid: '539973BA-2756-4163-9D8B-4B7C0A708A8D'
-keywords: ["IEnumBackgroundCopyFiles interface", "IEnumBackgroundCopyFiles interface, described"]
+ms.assetid: 539973BA-2756-4163-9D8B-4B7C0A708A8D
+keywords:
+- IEnumBackgroundCopyFiles interface
+- IEnumBackgroundCopyFiles interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumBackgroundCopyFiles interface
@@ -38,7 +45,7 @@ The **IEnumBackgroundCopyFiles** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -46,7 +53,7 @@ The **IEnumBackgroundCopyFiles** interface has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -63,9 +70,9 @@ The **IEnumBackgroundCopyFiles** interface has these methods.
 [**IBackgroundCopyJob::EnumFiles**](ibackgroundcopyjob-enumfiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

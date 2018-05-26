@@ -1,14 +1,22 @@
 ---
 title: MediaRenderer.PauseAsync method
 description: Instructs the DMR asynchronously to pause playing the current content.
-ms.assetid: '2EADD9BE-2306-4CDA-AD5C-8342C06EAF1B'
-keywords: ["PauseAsync method Media Streaming API", "PauseAsync method Media Streaming API , MediaRenderer interface", "MediaRenderer interface Media Streaming API , PauseAsync method"]
+ms.assetid: 2EADD9BE-2306-4CDA-AD5C-8342C06EAF1B
+keywords:
+- PauseAsync method Media Streaming API
+- PauseAsync method Media Streaming API , MediaRenderer interface
+- MediaRenderer interface Media Streaming API , PauseAsync method
 topic_type:
 - apiref
 api_name:
 - MediaRenderer.PauseAsync
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaRenderer.PauseAsync method
@@ -20,7 +28,7 @@ Instructs the DMR asynchronously to pause playing the current content.
 
 ```C++
 HRESULT PauseAsync(
-  [out] PlaybackOperation **value
+  [out] PlaybackOperation **value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**MediaRenderer**](mediarenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

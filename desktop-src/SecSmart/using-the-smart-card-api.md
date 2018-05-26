@@ -1,8 +1,15 @@
 ---
 title: Using the Smart Card API
 description: This topic is not current. For the most current information about the Smart Card API, see Smart Card Minidriver Specification.
-ms.assetid: '8ee54298-4d3b-4d51-ae79-5aa0d3a5e2e5'
-keywords: ["Smart Card API Smart Card , using", "Smart Card API Smart Card , examples"]
+ms.assetid: 8ee54298-4d3b-4d51-ae79-5aa0d3a5e2e5
+keywords:
+- Smart Card API Smart Card , using
+- Smart Card API Smart Card , examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Smart Card API

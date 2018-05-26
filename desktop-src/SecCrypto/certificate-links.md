@@ -1,14 +1,19 @@
 ---
-Description: 'The functions CertAddCertificateLinkToStore, CertAddCRLLinkToStore, and CertAddCTLLinkToStore add links to existing contexts into certificate stores rather than adding copies of those contexts.'
-ms.assetid: '482fb11e-eb59-4de2-a2ad-c1960617e64b'
+Description: The functions CertAddCertificateLinkToStore, CertAddCRLLinkToStore, and CertAddCTLLinkToStore add links to existing contexts into certificate stores rather than adding copies of those contexts.
+ms.assetid: 482fb11e-eb59-4de2-a2ad-c1960617e64b
 title: Certificate Links
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Links
 
-The functions [**CertAddCertificateLinkToStore**](certaddcertificatelinktostore.md), [**CertAddCRLLinkToStore**](certaddcrllinktostore.md), and [**CertAddCTLLinkToStore**](certaddctllinktostore.md) add links to existing contexts into [*certificate stores*](security.c_gly#-security-certificate-store-gly) rather than adding copies of those contexts. Adding links to stores makes the same physical [*certificate*](security.c_gly#-security-certificate-gly), [*CRL*](security.c_gly#-security-certificate-revocation-list-gly), or [*CTL*](security.c_gly#-security-certificate-trust-list-gly) available through several different stores. Changes made to the extended properties of a [*context*](security.c_gly#-security-context-gly) from the store of the original context, or from a store where a link to that context is stored, are available in the store that holds the original context and in all other stores that have links to that context.
+The functions [**CertAddCertificateLinkToStore**](/windows/win32/Wincrypt/nf-wincrypt-certaddcertificatelinktostore?branch=master), [**CertAddCRLLinkToStore**](/windows/win32/Wincrypt/nf-wincrypt-certaddcrllinktostore?branch=master), and [**CertAddCTLLinkToStore**](/windows/win32/Wincrypt/nf-wincrypt-certaddctllinktostore?branch=master) add links to existing contexts into [*certificate stores*](security.c_gly#-security-certificate-store-gly) rather than adding copies of those contexts. Adding links to stores makes the same physical [*certificate*](security.c_gly#-security-certificate-gly), [*CRL*](security.c_gly#-security-certificate-revocation-list-gly), or [*CTL*](security.c_gly#-security-certificate-trust-list-gly) available through several different stores. Changes made to the extended properties of a [*context*](security.c_gly#-security-context-gly) from the store of the original context, or from a store where a link to that context is stored, are available in the store that holds the original context and in all other stores that have links to that context.
 
-For an example that uses [**CertAddCertificateLinkToStore**](certaddcertificatelinktostore.md), see [Example C Program: Certificate Store Operations](example-c-program-certificate-store-operations.md).
+For an example that uses [**CertAddCertificateLinkToStore**](/windows/win32/Wincrypt/nf-wincrypt-certaddcertificatelinktostore?branch=master), see [Example C Program: Certificate Store Operations](example-c-program-certificate-store-operations.md).
 
 ![certificate links](images/mancert1.png)
 

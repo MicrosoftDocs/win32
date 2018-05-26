@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.Settings.ClosingEvent.cancellable property
 description: Gets whether the onSettingsClosing event can be canceled.
-ms.assetid: '48341a31-2435-4464-b2ac-5f42aba24051'
-keywords: ["cancellable property Windows Sidebar", "cancellable property Windows Sidebar , System.Gadget.Settings.ClosingEvent object", "System.Gadget.Settings.ClosingEvent object Windows Sidebar , cancellable property"]
+ms.assetid: 48341a31-2435-4464-b2ac-5f42aba24051
+keywords:
+- cancellable property Windows Sidebar
+- cancellable property Windows Sidebar , System.Gadget.Settings.ClosingEvent object
+- System.Gadget.Settings.ClosingEvent object Windows Sidebar , cancellable property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.Settings.ClosingEvent.cancellable property
@@ -106,18 +114,18 @@ function SettingsClosing(event)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

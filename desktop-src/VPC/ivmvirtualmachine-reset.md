@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine Reset method
 description: Resets the virtual machine.
-ms.assetid: '44daf6be-66ce-4291-a535-c30369eed60f'
-keywords: ["Reset method Virtual PC", "Reset method Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , Reset method"]
+ms.assetid: 44daf6be-66ce-4291-a535-c30369eed60f
+keywords:
+- Reset method Virtual PC
+- Reset method Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , Reset method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Reset method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Resets the virtual machine (VM).
 
@@ -24,7 +32,7 @@ Resets the virtual machine (VM).
 
 ```C++
 HRESULT Reset(
-  [out, retval] IVMTask **resetTask
+  [out, retval] IVMTask **resetTask
 );
 ```
 
@@ -58,7 +66,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,9 +74,9 @@ This method can return one of these values.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -82,9 +90,9 @@ This method can return one of these values.
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,24 @@
 ---
-Description: 'Windows Explorer is a powerful resource-browsing and management application.'
-ms.assetid: '879CE652-EDC0-4a14-925E-C83763133BE5'
+Description: Windows Explorer is a powerful resource-browsing and management application.
+ms.assetid: 879CE652-EDC0-4a14-925E-C83763133BE5
 title: Developing with Windows Explorer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing with Windows Explorer
 
-Windows Explorer is a powerful resource-browsing and management application. Windows Explorer can be accessed as an integrated whole through Explorer.exe or the [**IExplorerBrowser**](iexplorerbrowser.md) interface. Windows Explorer (Explorer.exe) can be spawned as a separate process using [**ShellExecuteEx**](shellexecuteex.md) or a similar function.
+Windows Explorer is a powerful resource-browsing and management application. Windows Explorer can be accessed as an integrated whole through Explorer.exe or the [**IExplorerBrowser**](/windows/win32/shobjidl_core/nn-shobjidl_core-iexplorerbrowser?branch=master) interface. Windows Explorer (Explorer.exe) can be spawned as a separate process using [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) or a similar function.
 
 > [!Note]  
 > Command-line options for Explorer.exe are documented on the Microsoft Windows Support site in the article [Windows Explorer Command-Line Options](http://go.microsoft.com/fwlink/p/?linkid=204528).
 
  
 
-Open explorer windows can be discovered and programmed by using [**IShellWindows**](ishellwindows.md) (CLSID\_ShellWindows), and new instances of Windows Explorer can be created by using [**IWebBrowser2**](_win32_IWebBrowser2) (CLSID\_ShellBrowserWindow).
+Open explorer windows can be discovered and programmed by using [**IShellWindows**](/windows/win32/Exdisp/nn-exdisp-ishellwindows?branch=master) (CLSID\_ShellWindows), and new instances of Windows Explorer can be created by using [**IWebBrowser2**](_win32_IWebBrowser2) (CLSID\_ShellBrowserWindow).
 
 The following code sample demonstrates how the Windows Explorer automation model can be used to create and discover explorer windows that are running.
 
@@ -218,7 +223,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 
 
 
-The Windows Explorer client area can be hosted by using the [IExplorerBrowser](iexplorerbrowser.md) interface. The Windows Explorer client and the namespace tree controls are standard components of Windows Vista and later. Developers can reuse the interfaces as building components. One common use of these controls is to create customized explorers appropriate to the problem domain.
+The Windows Explorer client area can be hosted by using the [IExplorerBrowser](/windows/win32/shobjidl_core/nn-shobjidl_core-iexplorerbrowser?branch=master) interface. The Windows Explorer client and the namespace tree controls are standard components of Windows Vista and later. Developers can reuse the interfaces as building components. One common use of these controls is to create customized explorers appropriate to the problem domain.
 
 The controls in Windows Explorer are classified into the following functional categories:
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Developers of Windows Installer packages may choose to use a custom action type 7 when the standard actions are insufficient to execute the installation.'
-ms.assetid: '4a8f35f9-58a8-417e-b72e-159f4af7d83f'
+Description: Developers of Windows Installer packages may choose to use a custom action type 7 when the standard actions are insufficient to execute the installation.
+ms.assetid: 4a8f35f9-58a8-417e-b72e-159f4af7d83f
 title: Custom Action Type 7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Action Type 7

@@ -4,11 +4,15 @@ description: Installing DSML Services for Windows
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1f56c730-d10c-4fd3-b9b7-f363f18f390d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1f56c730-d10c-4fd3-b9b7-f363f18f390d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Installing DSML Services for Windows DSML"]
+keywords:
+- Installing DSML Services for Windows DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Installing DSML Services for Windows

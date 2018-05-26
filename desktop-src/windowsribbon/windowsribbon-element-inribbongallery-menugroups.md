@@ -1,14 +1,20 @@
 ---
 title: InRibbonGallery.MenuGroups property
 description: Represents a container for the set of drop-down menu items of an In-Ribbon Gallery control.
-ms.assetid: '6b9ded25-4e8e-4e30-a349-f7c091dbfe7a'
-keywords: ["InRibbonGallery.MenuGroups property Windows Ribbon"]
+ms.assetid: 6b9ded25-4e8e-4e30-a349-f7c091dbfe7a
+keywords:
+- InRibbonGallery.MenuGroups property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - InRibbonGallery.MenuGroups
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InRibbonGallery.MenuGroups property
@@ -94,8 +100,8 @@ This section of code shows the **InRibbonGallery.MenuGroups** control declaratio
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -112,9 +118,9 @@ This section of code shows the **InRibbonGallery.MenuGroups** control declaratio
 [Customizing a Ribbon Through Size Definitions and Scaling Policies](windowsribbon-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

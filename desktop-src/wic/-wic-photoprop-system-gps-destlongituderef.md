@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.GPS.DestLongitudeRef property.'
-ms.assetid: '2a0abb9b-41e3-49ba-a60b-3096d9c032bd'
-title: 'System.GPS.DestLongitudeRef Photo Metadata Policy'
+Description: The photo metadata policy for the System.GPS.DestLongitudeRef property.
+ms.assetid: 2a0abb9b-41e3-49ba-a60b-3096d9c032bd
+title: System.GPS.DestLongitudeRef Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.DestLongitudeRef Photo Metadata Policy

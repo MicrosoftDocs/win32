@@ -1,7 +1,12 @@
 ---
-Description: 'The TranslateAccelerator method instructs the property page to process a keystroke. This method implements the IPropertyPage::TranslateAccelerator method.'
-ms.assetid: '2da214c9-35dc-470c-9b7f-2f4ef6bcd40a'
-title: 'CBasePropertyPage.TranslateAccelerator method'
+Description: The TranslateAccelerator method instructs the property page to process a keystroke. This method implements the IPropertyPageTranslateAccelerator method.
+ms.assetid: 2da214c9-35dc-470c-9b7f-2f4ef6bcd40a
+title: CBasePropertyPage.TranslateAccelerator method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.TranslateAccelerator method
@@ -13,7 +18,7 @@ The `TranslateAccelerator` method instructs the property page to process a keyst
 
 ```C++
 HRESULT TranslateAccelerator(
-   LPMSG lpMsg
+   LPMSG lpMsg
 );
 ```
 
@@ -56,9 +61,9 @@ Override this method if you want to provide keyboard accelerators for the proper
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

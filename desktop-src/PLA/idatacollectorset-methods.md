@@ -1,22 +1,27 @@
 ---
 title: IDataCollectorSet Methods
-ms.assetid: 'f66c26bc-82cd-40db-ad0f-a0d88f0d20aa'
+ms.assetid: f66c26bc-82cd-40db-ad0f-a0d88f0d20aa
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDataCollectorSet Methods
 
-The [**IDataCollectorSet**](idatacollectorset.md) interface defines the following methods:
+The [**IDataCollectorSet**](/windows/previous-versions/Pla/nn-pla-idatacollectorset?branch=master) interface defines the following methods:
 
--   [**Commit**](idatacollectorset-commit.md)
--   [**Delete**](idatacollectorset-delete.md)
--   [**GetValue**](idatacollectorset-getvalue.md)
--   [**Query**](idatacollectorset-query.md)
--   [**SetCredentials**](idatacollectorset-setcredentials.md)
--   [**SetValue**](idatacollectorset-setvalue.md)
--   [**SetXml**](idatacollectorset-setxml.md)
--   [**Start**](idatacollectorset-start.md)
--   [**Stop**](idatacollectorset-stop.md)
+-   [**Commit**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-commit?branch=master)
+-   [**Delete**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-delete?branch=master)
+-   [**GetValue**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-getvalue?branch=master)
+-   [**Query**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-query?branch=master)
+-   [**SetCredentials**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-setcredentials?branch=master)
+-   [**SetValue**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-setvalue?branch=master)
+-   [**SetXml**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-setxml?branch=master)
+-   [**Start**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-start?branch=master)
+-   [**Stop**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-stop?branch=master)
 
  
 

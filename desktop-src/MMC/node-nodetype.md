@@ -1,14 +1,19 @@
 ---
 title: Node Nodetype property
-description: The Nodetype property returns the node type's GUID. The node type GUID identifies the type of node. By using the node type GUID, snap-ins and automation object model applications can recognize particular nodes. This property is read-only.
+description: The Nodetype property returns the node types GUID. The node type GUID identifies the type of node. By using the node type GUID, snap-ins and automation object model applications can recognize particular nodes. This property is read-only.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8a12e4fe-b640-43e7-bf3f-eb21cb458025'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 8a12e4fe-b640-43e7-bf3f-eb21cb458025
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Nodetype property MMC", "Nodetype property MMC , Node object", "Node object MMC , Nodetype property", "Nodetype property MMC , Node interface", "Node interface MMC , Nodetype property"]
+keywords:
+- Nodetype property MMC
+- Nodetype property MMC , Node object
+- Node object MMC , Nodetype property
+- Nodetype property MMC , Node interface
+- Node interface MMC , Nodetype property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Node::Nodetype property
@@ -55,8 +63,8 @@ MsgBox ("NodeType: " & strNodeType)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -71,9 +79,9 @@ MsgBox ("NodeType: " & strNodeType)
 [**Node.Name**](node-name.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the maximum face influences in a triangle mesh with the specified index buffer.'
-ms.assetid: '72dc2440-87df-461e-80d0-9ad9b1e4d8ee'
-title: 'ID3DXSkinInfo::GetMaxFaceInfluences method'
+---
+Description: Gets the maximum face influences in a triangle mesh with the specified index buffer.
+ms.assetid: 72dc2440-87df-461e-80d0-9ad9b1e4d8ee
+title: ID3DXSkinInfoGetMaxFaceInfluences method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSkinInfo::GetMaxFaceInfluences method
@@ -28,7 +33,7 @@ HRESULT GetMaxFaceInfluences(
 *pIB* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DINDEXBUFFER9**](idirect3dindexbuffer9.md)**
+Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dindexbuffer9?branch=master)**
 
 Pointer to the index buffer that contains the mesh index data.
 

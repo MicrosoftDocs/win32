@@ -1,7 +1,12 @@
 ---
 title: MaxQueryExecutionTime
 description: MaxQueryExecutionTime
-ms.assetid: '8a288982-b563-4217-8287-98521fc5b7df'
+ms.assetid: 8a288982-b563-4217-8287-98521fc5b7df
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxQueryExecutionTime

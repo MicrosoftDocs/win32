@@ -1,12 +1,17 @@
 ---
 title: noncreatable
 description: Indicates that the class does not support creation at the top level (for example, through ITypeInfo CreateInstance or CoCreateInstance). An object of such a class is usually obtained through a method call on another object.
-ms.assetid: '38b4ce41-595b-4905-bd92-f98348278024'
+ms.assetid: 38b4ce41-595b-4905-bd92-f98348278024
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # noncreatable
 
-Indicates that the class does not support creation at the top level (for example, through [**ITypeInfo::CreateInstance**](itypeinfo-createinstance.md) or CoCreateInstance). An object of such a class is usually obtained through a method call on another object.
+Indicates that the class does not support creation at the top level (for example, through [**ITypeInfo::CreateInstance**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo-createinstance?branch=master) or CoCreateInstance). An object of such a class is usually obtained through a method call on another object.
 
 ## Allowed on
 

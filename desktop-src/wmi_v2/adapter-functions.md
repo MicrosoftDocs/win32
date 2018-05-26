@@ -4,10 +4,13 @@ description: These Adapter functions are COM support functions, which are used b
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f026689e-fdfa-4e7c-8f0d-b8442efa11b3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: f026689e-fdfa-4e7c-8f0d-b8442efa11b3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adapter Functions

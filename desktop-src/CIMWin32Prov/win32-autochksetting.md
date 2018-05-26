@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_AutochkSetting WMI class represents the settings for the autocheck operation of a disk.'
+Description: The Win32\_AutochkSetting WMI class represents the settings for the autocheck operation of a disk.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '637f4d5d-f2f0-4fe0-bbde-7804156979b7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 637f4d5d-f2f0-4fe0-bbde-7804156979b7
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_AutochkSetting class'
+title: Win32\_AutochkSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_AutochkSetting class
@@ -118,8 +121,8 @@ The **Win32\_AutochkSetting** class is derived from [**CIM\_Setting**](cim-setti
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -136,9 +139,9 @@ The **Win32\_AutochkSetting** class is derived from [**CIM\_Setting**](cim-setti
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,9 +4,9 @@ description: The CFSTR\_DS\_MULTISELECTPROPPAGE clipboard format provides a glob
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cff8d696-b947-4cc2-a3b2-5b69f388957b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: cff8d696-b947-4cc2-a3b2-5b69f388957b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -14,6 +14,9 @@ api_name:
 - CFSTR_DS_MULTISELECTPROPPAGE
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CFSTR\_DS\_MULTISELECTPROPPAGE
@@ -33,7 +36,7 @@ The **CFSTR\_DS\_MULTISELECTPROPPAGE** clipboard format provides a global memory
 > [!Note]  
 > This clipboard format value is not defined in a published header file. To use this clipboard format value, you must define it yourself in the exact format shown.
 
- 
+ 
 
 
 </dt> </dl> </dd> </dl>
@@ -44,8 +47,8 @@ The **CFSTR\_DS\_MULTISELECTPROPPAGE** clipboard format provides a global memory
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -56,9 +59,9 @@ The **CFSTR\_DS\_MULTISELECTPROPPAGE** clipboard format provides a global memory
 [Implementing the Property Page COM Object](implementing-the-property-page-com-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMTask Cancel method
 description: The Cancel method cancels a task.
-ms.assetid: '616e0d37-3cff-47e1-909d-b6c0600173cb'
-keywords: ["Cancel method Virtual Server", "Cancel method Virtual Server , IVMTask interface", "IVMTask interface Virtual Server , Cancel method", "Cancel method Virtual Server , VMTask interface", "VMTask interface Virtual Server , Cancel method"]
+ms.assetid: 616e0d37-3cff-47e1-909d-b6c0600173cb
+keywords:
+- Cancel method Virtual Server
+- Cancel method Virtual Server , IVMTask interface
+- IVMTask interface Virtual Server , Cancel method
+- Cancel method Virtual Server , VMTask interface
+- VMTask interface Virtual Server , Cancel method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask::Cancel method
@@ -45,7 +55,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,8 +63,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -66,9 +76,9 @@ This method can return one of these values.
 [**IVMTask**](ivmtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

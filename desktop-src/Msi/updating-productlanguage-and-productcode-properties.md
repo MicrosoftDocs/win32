@@ -1,7 +1,12 @@
 ---
-Description: 'The ProductLanguage property must be updated to the numeric language identifier (LANGID) for the new language.'
-ms.assetid: 'e00ef69b-c54b-41de-9230-a7582b260891'
+Description: The ProductLanguage property must be updated to the numeric language identifier (LANGID) for the new language.
+ms.assetid: e00ef69b-c54b-41de-9230-a7582b260891
 title: Updating ProductLanguage and ProductCode Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating ProductLanguage and ProductCode Properties

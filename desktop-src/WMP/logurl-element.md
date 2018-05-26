@@ -1,14 +1,20 @@
 ---
 title: LOGURL Element
 description: The LOGURL element instructs Windows Media Player to submit any log data to the specified URL.
-ms.assetid: 'fc1895af-c9d7-43ca-9839-7e884cc219f4'
-keywords: ["LOGURL Element Windows Media Player"]
+ms.assetid: fc1895af-c9d7-43ca-9839-7e884cc219f4
+keywords:
+- LOGURL Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LOGURL Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOGURL Element
@@ -38,7 +44,7 @@ URL to a host that is able to process logging requests.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -115,9 +121,9 @@ http://www.proseware.com/some/arbitrary/path/My_WMS_Logging_Page.asp?PubPoint=Fo
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

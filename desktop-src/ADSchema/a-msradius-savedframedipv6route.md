@@ -4,17 +4,22 @@ description: Provides routing information to be configured for the user on the N
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dc524a96-0580-4ada-bf05-87cc120f38d8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: dc524a96-0580-4ada-bf05-87cc120f38d8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-RADIUS-SavedFramedIpv6Route attribute AD Schema", "msRADIUS-SavedFramedIpv6Route attribute AD Schema"]
+keywords:
+- ms-RADIUS-SavedFramedIpv6Route attribute AD Schema
+- msRADIUS-SavedFramedIpv6Route attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-RADIUS-SavedFramedIpv6Route
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-RADIUS-SavedFramedIpv6Route attribute
@@ -38,9 +43,9 @@ Provides routing information to be configured for the user on the NAS.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Provides routing information to be configured for the user on the NAS.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

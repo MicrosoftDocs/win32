@@ -1,7 +1,12 @@
 ---
 title: Client Development Using Context Handles
 description: The only use a client program has for a context handle is to pass it to the server each time the client makes a remote procedure call.
-ms.assetid: 'fcbdfb1e-4f1e-4d22-9a3e-cf5a29d300d0'
+ms.assetid: fcbdfb1e-4f1e-4d22-9a3e-cf5a29d300d0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Development Using Context Handles
@@ -13,9 +18,9 @@ Prior to requesting a context handle from a server, clients must establish a bin
 Clients may use opened context handles in any way they require. They should, however, invalidate the handle when they no longer need it. There are two way to do this:
 
 -   To invoke a remote procedure offered by the server program that frees the context and closes the context handle (sets it to **NULL**).
--   When the server is unreachable, call the [**RpcSsDestroyClientContext**](rpcssdestroyclientcontext.md) function.
+-   When the server is unreachable, call the [**RpcSsDestroyClientContext**](/windows/win32/Rpcndr/nf-rpcndr-rpcssdestroyclientcontext?branch=master) function.
 
-The second approach only cleans up the client side state, and does not clean up the server-side state, so it should be used only when network partition is suspected, and the client and the server will do an independent cleanup. The server performs independent cleanup through the run-down routine, the client does so using the [**RpcSsDestroyClientContext**](rpcssdestroyclientcontext.md) function.
+The second approach only cleans up the client side state, and does not clean up the server-side state, so it should be used only when network partition is suspected, and the client and the server will do an independent cleanup. The server performs independent cleanup through the run-down routine, the client does so using the [**RpcSsDestroyClientContext**](/windows/win32/Rpcndr/nf-rpcndr-rpcssdestroyclientcontext?branch=master) function.
 
 The following code fragment presents an example of how a client might use a context handle. To view the definition of the interface that this example uses, see [Interface Development Using Context Handles](interface-development-using-context-handles.md). For the server implementation, see [Server Development Using Context Handles](server-development-using-context-handles.md).
 

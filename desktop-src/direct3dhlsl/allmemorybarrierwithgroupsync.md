@@ -1,14 +1,20 @@
 ---
 title: AllMemoryBarrierWithGroupSync function
 description: Blocks execution of all threads in a group until all memory accesses have been completed and all threads in the group have reached this call.
-ms.assetid: '831830e7-19ce-41d0-b555-44a083b67cdc'
-keywords: ["AllMemoryBarrierWithGroupSync function HLSL"]
+ms.assetid: 831830e7-19ce-41d0-b555-44a083b67cdc
+keywords:
+- AllMemoryBarrierWithGroupSync function HLSL
 topic_type:
 - apiref
 api_name:
 - AllMemoryBarrierWithGroupSync
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AllMemoryBarrierWithGroupSync function

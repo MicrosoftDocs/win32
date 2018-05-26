@@ -1,8 +1,19 @@
 ---
 title: Film Age Effects
 description: Film Age Effects
-ms.assetid: '714f1d65-c72e-417e-92ed-8fe33bd233ac'
-keywords: ["Windows Movie Maker,film age effects", "Movie Maker,film age effects", "programming reference,Windows Movie Maker effects", "reference for Windows Movie Maker,effects", "film age effects", "effects,film age"]
+ms.assetid: 714f1d65-c72e-417e-92ed-8fe33bd233ac
+keywords:
+- Windows Movie Maker,film age effects
+- Movie Maker,film age effects
+- programming reference,Windows Movie Maker effects
+- reference for Windows Movie Maker,effects
+- film age effects
+- effects,film age
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Film Age Effects
@@ -75,7 +86,7 @@ Following the XML are tables that specify which parameters in this XML can be ch
 
 
 
- 
+ 
 
 ## Customizable Parameters
 
@@ -84,19 +95,19 @@ Following the XML are tables that specify which parameters in this XML can be ch
 | Parameter or element   | Type   | Range/options                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                           |
 |------------------------|--------|----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *Technique*            | string | "FilmAgeOld" , "FilmAgeOlder" , or "FilmAgeOldest" | Name of the predefined technique that you want to apply to the effect.                                                                                                                                                                                                                                                                                                                                                |
-| *NoiseFrequency*       | float  | 0.0 – 1.0                                          | Adds noise to the image, where 0 creates the least noise and 1.0 the most.                                                                                                                                                                                                                                                                                                                                            |
-| *SplotchFrequency*     | float  | 0.0 – 1.0                                          | Adds splotches to the image, where 0 creates the least number of splotches and 1.0 the most.                                                                                                                                                                                                                                                                                                                          |
-| *NoiseLineFrequency*   | float  | 0.0 – 1.0                                          | The frequency of white traveling "cracks" or lines in the image, where 0 creates the fewest lines and 1.0 the most.                                                                                                                                                                                                                                                                                                   |
-| *LintFrequency*        | float  | 0.0 – 1.0                                          | The frequency of "lint" or "tears" on the screen, where 0 creates the least lint and 1.0 the most.                                                                                                                                                                                                                                                                                                                    |
-| *ShakeFactor*          | float  | 0.0 – 1.0                                          | Degree of film jerkiness, where 0 is least and 1.0 is most.                                                                                                                                                                                                                                                                                                                                                           |
-| *BlurSize*             | int    | 1 – 8                                              | Level of blurriness. Higher values mean a blurrier image.                                                                                                                                                                                                                                                                                                                                                             |
+| *NoiseFrequency*       | float  | 0.0   1.0                                          | Adds noise to the image, where 0 creates the least noise and 1.0 the most.                                                                                                                                                                                                                                                                                                                                            |
+| *SplotchFrequency*     | float  | 0.0   1.0                                          | Adds splotches to the image, where 0 creates the least number of splotches and 1.0 the most.                                                                                                                                                                                                                                                                                                                          |
+| *NoiseLineFrequency*   | float  | 0.0   1.0                                          | The frequency of white traveling "cracks" or lines in the image, where 0 creates the fewest lines and 1.0 the most.                                                                                                                                                                                                                                                                                                   |
+| *LintFrequency*        | float  | 0.0   1.0                                          | The frequency of "lint" or "tears" on the screen, where 0 creates the least lint and 1.0 the most.                                                                                                                                                                                                                                                                                                                    |
+| *ShakeFactor*          | float  | 0.0   1.0                                          | Degree of film jerkiness, where 0 is least and 1.0 is most.                                                                                                                                                                                                                                                                                                                                                           |
+| *BlurSize*             | int    | 1   8                                              | Level of blurriness. Higher values mean a blurrier image.                                                                                                                                                                                                                                                                                                                                                             |
 | *GenerateNoiseTexture* | int    | 0 or 1                                             | Specifies whether to generate "noise".                                                                                                                                                                                                                                                                                                                                                                                |
-| *PosterizeLevels*      | int    | 0 – 255                                            | The number of color levels that should remain after posterization (reduction of number of color levels).                                                                                                                                                                                                                                                                                                              |
-| **Point**              | float  | 0.0 – 1.0                                          | The point within the duration of the effect at which the enclosing element will have the specified **value**. When the **time** attribute is equal to 0.0, it indicates the starting point of the clip; when the **time** attribute is equal to 1.0, it indicates the end point of the clip.For more information on the **Point** element, see [Changes to the XML Schema](changes-to-the-xml-schema.md).<br/> |
+| *PosterizeLevels*      | int    | 0   255                                            | The number of color levels that should remain after posterization (reduction of number of color levels).                                                                                                                                                                                                                                                                                                              |
+| **Point**              | float  | 0.0   1.0                                          | The point within the duration of the effect at which the enclosing element will have the specified **value**. When the **time** attribute is equal to 0.0, it indicates the starting point of the clip; when the **time** attribute is equal to 1.0, it indicates the end point of the clip.For more information on the **Point** element, see [Changes to the XML Schema](changes-to-the-xml-schema.md).<br/> |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -105,9 +116,9 @@ Following the XML are tables that specify which parameters in this XML can be ch
 [**Effects**](effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

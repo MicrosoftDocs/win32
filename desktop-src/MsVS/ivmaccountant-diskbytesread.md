@@ -1,8 +1,13 @@
 ---
 title: IVMAccountant DiskBytesRead property
 description: The DiskBytesRead property contains the total number of bytes read by all IDE and SCSI controllers for this virtual machine.
-ms.assetid: '79ff0c75-76ba-4c21-a547-9fb322f2066e'
-keywords: ["DiskBytesRead property Virtual Server", "DiskBytesRead property Virtual Server , IVMAccountant interface", "IVMAccountant interface Virtual Server , DiskBytesRead property", "DiskBytesRead property Virtual Server , VMAccountant interface", "VMAccountant interface Virtual Server , DiskBytesRead property"]
+ms.assetid: 79ff0c75-76ba-4c21-a547-9fb322f2066e
+keywords:
+- DiskBytesRead property Virtual Server
+- DiskBytesRead property Virtual Server , IVMAccountant interface
+- IVMAccountant interface Virtual Server , DiskBytesRead property
+- DiskBytesRead property Virtual Server , VMAccountant interface
+- VMAccountant interface Virtual Server , DiskBytesRead property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccountant::DiskBytesRead property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DiskBytesRead(
-  [out] VARIANT *bytesRead
+  [out] VARIANT *bytesRead
 );
 ```
 
@@ -100,8 +110,8 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -113,9 +123,9 @@ Next
 [**IVMAccountant**](ivmaccountant.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

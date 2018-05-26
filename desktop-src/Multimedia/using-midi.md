@@ -1,8 +1,21 @@
 ---
 title: Using MIDI
 description: Using MIDI
-ms.assetid: '11757849-88f7-4e10-b8a1-697a905ecf30'
-keywords: ["Windows multimedia,Musical Instrument Digital Interface (MIDI)", "multimedia,Musical Instrument Digital Interface (MIDI)", "multimedia audio,Musical Instrument Digital Interface (MIDI)", "audio,Musical Instrument Digital Interface (MIDI)", "Musical Instrument Digital Interface (MIDI),about", "MIDI (Musical Instrument Digital Interface),about", "Musical Instrument Digital Interface (MIDI),examples", "MIDI (Musical Instrument Digital Interface),examples"]
+ms.assetid: 11757849-88f7-4e10-b8a1-697a905ecf30
+keywords:
+- Windows multimedia,Musical Instrument Digital Interface (MIDI)
+- multimedia,Musical Instrument Digital Interface (MIDI)
+- multimedia audio,Musical Instrument Digital Interface (MIDI)
+- audio,Musical Instrument Digital Interface (MIDI)
+- Musical Instrument Digital Interface (MIDI),about
+- MIDI (Musical Instrument Digital Interface),about
+- Musical Instrument Digital Interface (MIDI),examples
+- MIDI (Musical Instrument Digital Interface),examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using MIDI

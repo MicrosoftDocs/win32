@@ -1,7 +1,12 @@
 ---
 title: IVMFloppyDrive Properties
 description: The IVMFloppyDrive interface exposes the following properties.
-ms.assetid: 'B05DB018-7E1E-4E1B-9171-1131950F36CC'
+ms.assetid: B05DB018-7E1E-4E1B-9171-1131950F36CC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDrive Properties

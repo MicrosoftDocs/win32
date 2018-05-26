@@ -1,7 +1,12 @@
 ---
-Description: 'Represents one of a series of 'hops' to reach a network destination. A route is administratively defined, or calculated/learned by a particular routing process.'
-ms.assetid: '2c1d0fdd-0914-4c81-a1ff-d8104c5c734d'
-title: 'CIM\_NextHopRoute class'
+Description: Represents one of a series of hops to reach a network destination. A route is administratively defined, or calculated/learned by a particular routing process.
+ms.assetid: 2c1d0fdd-0914-4c81-a1ff-d8104c5c734d
+title: CIM\_NextHopRoute class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_NextHopRoute class
@@ -16,15 +21,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Network::Routes"), Version("2.19.0"), AMENDMENT]
 class CIM_NextHopRoute : CIM_ManagedElement
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
-  string  DestinationAddress;
-  uint16  AdminDistance;
-  uint16  RouteMetric;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
+  string  DestinationAddress;
+  uint16  AdminDistance;
+  uint16  RouteMetric;
   boolean IsStatic;
-  uint16  TypeOfRoute = 3;
+  uint16  TypeOfRoute = 3;
 };
 ```
 
@@ -140,7 +145,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 </dd> <dt>
 
@@ -200,8 +205,8 @@ Indicates the type of route.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -215,9 +220,9 @@ Indicates the type of route.
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

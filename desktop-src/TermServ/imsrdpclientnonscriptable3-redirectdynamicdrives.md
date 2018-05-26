@@ -4,11 +4,28 @@ description: Specifies or retrieves whether dynamically attached Plug and Play (
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '11eb19fc-9711-4293-8054-f7975dadb492'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 11eb19fc-9711-4293-8054-f7975dadb492
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RedirectDynamicDrives property Remote Desktop Services", "RedirectDynamicDrives property Remote Desktop Services , IMsRdpClientNonScriptable3 interface", "IMsRdpClientNonScriptable3 interface Remote Desktop Services , RedirectDynamicDrives property", "RedirectDynamicDrives property Remote Desktop Services , IMsRdpClientNonScriptable4 interface", "IMsRdpClientNonScriptable4 interface Remote Desktop Services , RedirectDynamicDrives property", "RedirectDynamicDrives property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , RedirectDynamicDrives property", "RedirectDynamicDrives property Remote Desktop Services , MsRdpClient5 object", "MsRdpClient5 object Remote Desktop Services , RedirectDynamicDrives property", "RedirectDynamicDrives property Remote Desktop Services , MsRdpClient6 object", "MsRdpClient6 object Remote Desktop Services , RedirectDynamicDrives property", "RedirectDynamicDrives property Remote Desktop Services , MsRdpClient7 object", "MsRdpClient7 object Remote Desktop Services , RedirectDynamicDrives property", "RedirectDynamicDrives property Remote Desktop Services , MsRdpClient8 object", "MsRdpClient8 object Remote Desktop Services , RedirectDynamicDrives property", "RedirectDynamicDrives property Remote Desktop Services , MsRdpClient9 object", "MsRdpClient9 object Remote Desktop Services , RedirectDynamicDrives property"]
+keywords:
+- RedirectDynamicDrives property Remote Desktop Services
+- RedirectDynamicDrives property Remote Desktop Services , IMsRdpClientNonScriptable3 interface
+- IMsRdpClientNonScriptable3 interface Remote Desktop Services , RedirectDynamicDrives property
+- RedirectDynamicDrives property Remote Desktop Services , IMsRdpClientNonScriptable4 interface
+- IMsRdpClientNonScriptable4 interface Remote Desktop Services , RedirectDynamicDrives property
+- RedirectDynamicDrives property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , RedirectDynamicDrives property
+- RedirectDynamicDrives property Remote Desktop Services , MsRdpClient5 object
+- MsRdpClient5 object Remote Desktop Services , RedirectDynamicDrives property
+- RedirectDynamicDrives property Remote Desktop Services , MsRdpClient6 object
+- MsRdpClient6 object Remote Desktop Services , RedirectDynamicDrives property
+- RedirectDynamicDrives property Remote Desktop Services , MsRdpClient7 object
+- MsRdpClient7 object Remote Desktop Services , RedirectDynamicDrives property
+- RedirectDynamicDrives property Remote Desktop Services , MsRdpClient8 object
+- MsRdpClient8 object Remote Desktop Services , RedirectDynamicDrives property
+- RedirectDynamicDrives property Remote Desktop Services , MsRdpClient9 object
+- MsRdpClient9 object Remote Desktop Services , RedirectDynamicDrives property
 topic_type:
 - apiref
 api_name:
@@ -30,6 +47,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable3::RedirectDynamicDrives property
@@ -43,11 +63,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_RedirectDynamicDrives(
-  [in]  VARIANT_BOOL fRedirectDynamicDrives
+  [in]  VARIANT_BOOL fRedirectDynamicDrives
 );
 
 HRESULT get_RedirectDynamicDrives(
-  [out] VARIANT_BOOL *pfRedirectDynamicDrives
+  [out] VARIANT_BOOL *pfRedirectDynamicDrives
 );
 ```
 
@@ -63,8 +83,8 @@ Specifies whether dynamically attached PnP drives that are enumerated while in a
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | IID<br/>                      | IID\_IMsRdpClientNonScriptable3 is defined as b3378d90-0728-45c7-8ed7-b6159fb92219<br/> |
@@ -84,9 +104,9 @@ Specifies whether dynamically attached PnP drives that are enumerated while in a
 [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

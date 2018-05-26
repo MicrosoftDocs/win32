@@ -1,8 +1,9 @@
 ---
 title: EM\_SETRECT message
 description: Sets the formatting rectangle of a multiline edit control.
-ms.assetid: '4f576e94-3bd3-4416-a960-b7f22da963ea'
-keywords: ["EM_SETRECT message Windows Controls"]
+ms.assetid: 4f576e94-3bd3-4416-a960-b7f22da963ea
+keywords:
+- EM_SETRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETRECT message
@@ -55,7 +61,7 @@ If the edit control does not have a horizontal scroll bar, and the formatting re
 
 If the edit control contains a border, the formatting rectangle is reduced by the size of the border. If you are adjusting the rectangle returned by an [**EM\_GETRECT**](em-getrect.md) message, you must remove the size of the border before using the rectangle with the **EM\_SETRECT** message.
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. The formatting rectangle does not include the selection bar, which is an unmarked area to the left of each paragraph. When the user clicks in the selection bar, the corresponding line is selected. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. The formatting rectangle does not include the selection bar, which is an unmarked area to the left of each paragraph. When the user clicks in the selection bar, the corresponding line is selected. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -63,8 +69,8 @@ If the edit control contains a border, the formatting rectangle is reduced by th
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -88,9 +94,9 @@ If the edit control contains a border, the formatting rectangle is reduced by th
 [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

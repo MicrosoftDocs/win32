@@ -1,7 +1,12 @@
 ---
 title: On Attribute (Extrusion)(VML)
 description: On Attribute (Extrusion)(VML)
-ms.assetid: '5400f165-1e86-4198-8be6-ebd7dd95f7f1'
+ms.assetid: 5400f165-1e86-4198-8be6-ebd7dd95f7f1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # On Attribute (Extrusion)(VML)

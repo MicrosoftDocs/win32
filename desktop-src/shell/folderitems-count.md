@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the number of items in the collection.'
-ms.assetid: '383382d5-7e3f-4b27-bebf-6b79dbe677b8'
-title: 'FolderItems.Count property'
+---
+Description: Contains the number of items in the collection.
+ms.assetid: 383382d5-7e3f-4b27-bebf-6b79dbe677b8
+title: FolderItems.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItems.Count property

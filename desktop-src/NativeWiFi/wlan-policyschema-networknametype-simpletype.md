@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines a string type for service set identifiers (SSIDs).'
-ms.assetid: 'c9e79a3d-7d5c-4320-ade2-40124de00920'
+---
+Description: Defines a string type for service set identifiers (SSIDs).
+ms.assetid: c9e79a3d-7d5c-4320-ade2-40124de00920
 title: networkNameType Simple Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # networkNameType Simple Type

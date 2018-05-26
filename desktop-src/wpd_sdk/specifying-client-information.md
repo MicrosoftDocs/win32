@@ -1,7 +1,12 @@
 ---
 Description: Specifying Client Information
-ms.assetid: '275fda71-61ef-4b50-96fe-bdc0c0266646'
+ms.assetid: 275fda71-61ef-4b50-96fe-bdc0c0266646
 title: Specifying Client Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying Client Information
@@ -81,7 +86,7 @@ else
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
 [**IPortableDeviceValues Interface**](iportabledevicevalues.md)

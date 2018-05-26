@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ConcreteComponent class
-description: A generic association used to establish 'part of' relationships between managed elements.
-ms.assetid: '5d2af9f0-bc44-4c9c-91f3-b9fe7ef9193e'
-keywords: ["Msvm_ConcreteComponent class Hyper-V", "Msvm_ConcreteComponent class Hyper-V , described"]
+description: A generic association used to establish part of relationships between managed elements.
+ms.assetid: 5d2af9f0-bc44-4c9c-91f3-b9fe7ef9193e
+keywords:
+- Msvm_ConcreteComponent class Hyper-V
+- Msvm_ConcreteComponent class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ConcreteComponent class
@@ -88,9 +95,9 @@ Access to the **Msvm\_ConcreteComponent** class might be restricted by UAC Filte
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -109,9 +116,9 @@ Access to the **Msvm\_ConcreteComponent** class might be restricted by UAC Filte
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

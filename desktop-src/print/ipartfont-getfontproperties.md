@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetFontProperties method gets the font properties.'
-ms.assetid: '6a19c32c-62f2-4b88-908c-c6b92419e410'
-title: 'IPartFont::GetFontProperties method'
+---
+Description: The GetFontProperties method gets the font properties.
+ms.assetid: 6a19c32c-62f2-4b88-908c-c6b92419e410
+title: IPartFontGetFontProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartFont::GetFontProperties method

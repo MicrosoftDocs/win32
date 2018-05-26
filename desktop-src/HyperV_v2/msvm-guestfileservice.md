@@ -1,7 +1,12 @@
 ---
-Description: 'Msvm\_GuestFileService contains a method that can be used to copy a file to a virtual machine from the Hyper-V host.'
-ms.assetid: '76667557-13B2-4286-BC6B-E32FADE62A7A'
-title: 'Msvm\_GuestFileService class'
+Description: Msvm\_GuestFileService contains a method that can be used to copy a file to a virtual machine from the Hyper-V host.
+ms.assetid: 76667557-13B2-4286-BC6B-E32FADE62A7A
+title: Msvm\_GuestFileService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_GuestFileService class
@@ -16,16 +21,16 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_GuestFileService : Msvm_GuestService
 {
-  string   Caption;
-  string   CreationClassName;
-  string   Description;
+  string   Caption;
+  string   CreationClassName;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  boolean  Started;
-  string   StartMode;
-  string   Status;
-  string   SystemCreationClassName;
-  string   SystemName;
+  string   Name;
+  boolean  Started;
+  string   StartMode;
+  string   Status;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -44,13 +49,13 @@ The **Msvm\_GuestFileService** class has these methods.
 
 | Method                                                             | Description                                                                                                                                                                  |
 |:-------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CopyFilesToGuest**](copyfilestoguest-msvm-guestfileservice.md) | Copies files from the Hyper-V host to the virtual machine.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/> |
+| [**CopyFilesToGuest**](copyfilestoguest-msvm-guestfileservice.md) | Copies files from the Hyper-V host to the virtual machine.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/> |
 | **StartService**                                                   | This method is not supported.<br/>                                                                                                                                     |
 | **StopService**                                                    | This method is not supported.<br/>                                                                                                                                     |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -244,8 +249,8 @@ Name of the system that hosts the service.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -259,9 +264,9 @@ Name of the system that hosts the service.
 [**Msvm\_GuestService**](msvm-guestservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: How the Echo Sample Works
 description: How the Echo Sample Works
-ms.assetid: '554afc08-6e4f-427c-8a09-0d1ebf3ca8dc'
-keywords: ["Windows Media Player plug-ins,Echo sample overview", "plug-ins,Echo sample overview", "digital signal processing plug-ins,Echo sample overview", "DSP plug-ins,Echo sample overview", "Echo DSP plug-in sample,about"]
+ms.assetid: 554afc08-6e4f-427c-8a09-0d1ebf3ca8dc
+keywords:
+- Windows Media Player plug-ins,Echo sample overview
+- plug-ins,Echo sample overview
+- digital signal processing plug-ins,Echo sample overview
+- DSP plug-ins,Echo sample overview
+- Echo DSP plug-in sample,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How the Echo Sample Works

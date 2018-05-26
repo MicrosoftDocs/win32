@@ -1,7 +1,12 @@
 ---
 Description: About Video Capture Devices
-ms.assetid: '1bf6e64f-c3cf-45a4-9f87-1b8cf503d98b'
+ms.assetid: 1bf6e64f-c3cf-45a4-9f87-1b8cf503d98b
 title: About Video Capture Devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Video Capture Devices

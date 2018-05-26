@@ -1,7 +1,12 @@
-﻿---
-Description: 'Displays a dialog box that enables users to create, modify, and delete scan profiles.'
-ms.assetid: '208ec527-f7ad-4d45-b433-6d7d3658ca26'
-title: 'IScanProfileUI::ScanProfileDialog method'
+---
+Description: Displays a dialog box that enables users to create, modify, and delete scan profiles.
+ms.assetid: 208ec527-f7ad-4d45-b433-6d7d3658ca26
+title: IScanProfileUIScanProfileDialog method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfileUI::ScanProfileDialog method

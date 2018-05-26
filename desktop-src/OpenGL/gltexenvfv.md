@@ -1,8 +1,9 @@
 ---
 title: glTexEnvfv function
 description: The glTexEnvfv function sets a texture environment parameter.
-ms.assetid: '7b8e65aa-1b5c-47ab-8d6c-df14c90075a8'
-keywords: ["glTexEnvfv function OpenGL"]
+ms.assetid: 7b8e65aa-1b5c-47ab-8d6c-df14c90075a8
+keywords:
+- glTexEnvfv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glTexEnvfv function
@@ -22,9 +28,9 @@ The **glTexEnvfv** function sets a texture environment parameter.
 
 ```C++
 void WINAPI glTexEnvfv(
-         GLenum  target,
-         GLenum  pname,
-   const GLfloat *params
+         GLenum  target,
+         GLenum  pname,
+   const GLfloat *params
 );
 ```
 
@@ -93,7 +99,7 @@ If *pname* is GL\_TEXTURE\_ENV\_MODE, then *params* is (or points to) the symbol
 
 A texture function acts on the fragment to be textured using the texture image value that applies to the fragment (see [**glTexParameter**](gltexparameter-functions.md)) and produces an RGBA color for that fragment. The following table shows how the RGBA color is produced for each of the three texture functions that can be chosen. *C* is a triple of color values (RGB) and *A* is the associated alpha value. RGBA values extracted from a texture image are in the range \[0, 1\]. The subscript *f* refers to the incoming fragment, the subscript *t* to the texture image, the subscript *c* to the texture environment color, and subscript *v* indicates a value produced by the texture function.
 
-A texture image can have up to four components per texture element (see [**glTexImage1D**](glteximage1d.md) and [**glTexImage2D**](glteximage2d.md)). In a one-component image, Lt indicates that single component. A two-component image uses *L?*  and *A?* . A three-component image has only a color value, *C?* . A four-component image has both a color value *C?*  and an alpha value *A?* .
+A texture image can have up to four components per texture element (see [**glTexImage1D**](glteximage1d.md) and [**glTexImage2D**](glteximage2d.md)). In a one-component image, Lt indicates that single component. A two-component image uses *L?*  and *A?* . A three-component image has only a color value, *C?* . A four-component image has both a color value *C?*  and an alpha value *A?* .
 
 
 
@@ -110,56 +116,56 @@ A texture image can have up to four components per texture element (see [**glTex
 <tr class="odd">
 <td rowspan="2">1${REMOVE}$<br />
 </td>
-<td><em>C<sub>v</sub></em> = <em>L?</em> <em>C<sub>f</sub></em></td>
+<td><em>C<sub>v</sub></em> = <em>L?</em> <em>C<sub>f</sub></em></td>
 <td rowspan="2">undefined${REMOVE}$<br />
 </td>
-<td><em>C<sub>v</sub></em> = <em>(1</em> - <em>L?</em> <em>)C<sub>f</sub></em> + <em>L?</em> <em>C<sub>c</sub></em></td>
+<td><em>C<sub>v</sub></em> = <em>(1</em> - <em>L?</em> <em>)C<sub>f</sub></em> + <em>L?</em> <em>C<sub>c</sub></em></td>
 </tr>
 <tr class="even">
-<td><em>A<sub>v</sub></em> = <em>A<sub>f</sub></em></td>
-<td><em>A<sub>v</sub></em> = <em>A<sub>f</sub></em></td>
+<td><em>A<sub>v</sub></em> = <em>A<sub>f</sub></em></td>
+<td><em>A<sub>v</sub></em> = <em>A<sub>f</sub></em></td>
 
 
 </tr>
 <tr class="odd">
 <td rowspan="2">2${REMOVE}$<br />
 </td>
-<td><em>C<sub>v</sub></em> = <em>L?</em> <em>C<sub>f</sub></em></td>
+<td><em>C<sub>v</sub></em> = <em>L?</em> <em>C<sub>f</sub></em></td>
 <td rowspan="2">undefined${REMOVE}$<br />
 </td>
-<td><em>C<sub>v</sub></em> = <em>(1</em> - <em>L?</em> <em>)C<sub>f</sub></em> + <em>L?</em> <em>C<sub>c</sub></em></td>
+<td><em>C<sub>v</sub></em> = <em>(1</em> - <em>L?</em> <em>)C<sub>f</sub></em> + <em>L?</em> <em>C<sub>c</sub></em></td>
 </tr>
 <tr class="even">
-<td><em>A</em> <em><sub>v</sub></em>  = <em>A<sub>f</sub></em></td>
-<td><em>A<sub>v</sub></em> = <em>A<sub>f</sub></em></td>
+<td><em>A</em> <em><sub>v</sub></em>  = <em>A<sub>f</sub></em></td>
+<td><em>A<sub>v</sub></em> = <em>A<sub>f</sub></em></td>
 
 
 </tr>
 <tr class="odd">
 <td rowspan="2">3${REMOVE}$<br />
 </td>
-<td><em>C<sub>v</sub></em> = <em>C?</em> <em>C<sub>f</sub></em></td>
-<td><em>C<sub>v</sub></em> = <em>C?</em></td>
+<td><em>C<sub>v</sub></em> = <em>C?</em> <em>C<sub>f</sub></em></td>
+<td><em>C<sub>v</sub></em> = <em>C?</em></td>
 <td rowspan="2">undefined${REMOVE}$<br />
 </td>
 </tr>
 <tr class="even">
-<td><em>A<sub>v</sub></em> = <em>A<sub>f</sub></em> </td>
-<td><em>A<sub>v</sub></em> = <em>A<sub>f</sub></em></td>
+<td><em>A<sub>v</sub></em> = <em>A<sub>f</sub></em> </td>
+<td><em>A<sub>v</sub></em> = <em>A<sub>f</sub></em></td>
 
 
 </tr>
 <tr class="odd">
 <td rowspan="2">4${REMOVE}$<br />
 </td>
-<td><em>C<sub>v</sub></em> = <em>C?</em> <em>C<sub>f</sub></em></td>
-<td><em>C<sub>v</sub></em> = (1 - <em>A?</em> <em>)C<sub>f</sub></em> + <em>A?</em> <em>C?</em></td>
+<td><em>C<sub>v</sub></em> = <em>C?</em> <em>C<sub>f</sub></em></td>
+<td><em>C<sub>v</sub></em> = (1 - <em>A?</em> <em>)C<sub>f</sub></em> + <em>A?</em> <em>C?</em></td>
 <td rowspan="2">undefined${REMOVE}$<br />
 </td>
 </tr>
 <tr class="even">
-<td><em>A<sub>v</sub></em> = <em>A?</em> <em>A<sub>f</sub></em> </td>
-<td><em>A<sub>v</sub></em> = <em>A<sub>f</sub></em></td>
+<td><em>A<sub>v</sub></em> = <em>A?</em> <em>A<sub>f</sub></em> </td>
+<td><em>A<sub>v</sub></em> = <em>A<sub>f</sub></em></td>
 
 
 </tr>
@@ -168,9 +174,9 @@ A texture image can have up to four components per texture element (see [**glTex
 
 
 
- 
+ 
 
-If pname is GL\_TEXTURE\_ENV\_COLOR, *params* is a pointer to an array that holds an RGBA color consisting of four values. Integer color components are interpreted linearly such that the most positive integer maps to 1.0, and the most negative integer maps to -1.0. The values are clamped to the range \[0, 1\] when they are specified. *C<sub>c</sub>* takes these four values.
+If pname is GL\_TEXTURE\_ENV\_COLOR, *params* is a pointer to an array that holds an RGBA color consisting of four values. Integer color components are interpreted linearly such that the most positive integer maps to 1.0, and the most negative integer maps to -1.0. The values are clamped to the range \[0, 1\] when they are specified. *C<sub>c</sub>* takes these four values.
 
 GL\_TEXTURE\_ENV\_MODE defaults to GL\_MODULATE and GL\_TEXTURE\_ENV\_COLOR defaults to (0, 0, 0, 0).
 
@@ -184,8 +190,8 @@ The following function retrieves information related to **glTexEnvfv**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -211,9 +217,9 @@ The following function retrieves information related to **glTexEnvfv**:
 [**glTexParameter**](gltexparameter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

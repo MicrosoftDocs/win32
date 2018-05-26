@@ -1,8 +1,21 @@
 ---
 title: Configuration Persistence
 description: Configuration Persistence
-ms.assetid: '0ef1a0a1-767d-4f34-91d8-9d15c46f3954'
-keywords: ["Windows Media Format SDK,persistence", "Windows Media Format SDK,configuration persistence", "Advanced Systems Format (ASF),persistence", "ASF (Advanced Systems Format),persistence", "Advanced Systems Format (ASF),configuration persistence", "ASF (Advanced Systems Format),configuration persistence", "configuration persistence", "persistence"]
+ms.assetid: 0ef1a0a1-767d-4f34-91d8-9d15c46f3954
+keywords:
+- Windows Media Format SDK,persistence
+- Windows Media Format SDK,configuration persistence
+- Advanced Systems Format (ASF),persistence
+- ASF (Advanced Systems Format),persistence
+- Advanced Systems Format (ASF),configuration persistence
+- ASF (Advanced Systems Format),configuration persistence
+- configuration persistence
+- persistence
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuration Persistence
@@ -18,7 +31,7 @@ The one exception to this rule is for the credentials information. If the applic
 [**Implementing Network Functionality**](implementing-network-functionality.md)
 </dt> <dt>
 
-[**IWMCredentialCallback Interface**](iwmcredentialcallback.md)
+[**IWMCredentialCallback Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmcredentialcallback?branch=master)
 </dt> </dl>
 
  

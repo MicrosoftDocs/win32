@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example demonstrates how to obtain information about faxes that are in the incoming queue, how to view a fax, and how to cancel a fax.'
-ms.assetid: '88cde2d4-09ee-4fbf-8a75-35de58dd45f5'
+Description: The following Microsoft Visual Basic code example demonstrates how to obtain information about faxes that are in the incoming queue, how to view a fax, and how to cancel a fax.
+ms.assetid: 88cde2d4-09ee-4fbf-8a75-35de58dd45f5
 title: Managing the Incoming Queue
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing the Incoming Queue

@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.selectedItem
 description: The selectedItem attribute specifies or retrieves the index of the item selected in the list box control.
-ms.assetid: '8c4eb914-c3a3-447e-a42b-8bb80b8aa8f4'
-keywords: ["LISTBOX.selectedItem Windows Media Player"]
+ms.assetid: 8c4eb914-c3a3-447e-a42b-8bb80b8aa8f4
+keywords:
+- LISTBOX.selectedItem Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.selectedItem
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.selectedItem
@@ -44,9 +50,9 @@ This property will select one line in the list box control. Any other selected l
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

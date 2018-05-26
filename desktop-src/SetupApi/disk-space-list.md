@@ -1,7 +1,12 @@
 ---
-Description: 'The Setup API provides disk-space list functionality. A disk-space list is a list of file operations that you can query to determine the amount of disk space required for those operations.'
-ms.assetid: '6514cbdd-2f23-4ab8-9e34-86d3837503dc'
-title: 'Disk-Space List'
+Description: The Setup API provides disk-space list functionality. A disk-space list is a list of file operations that you can query to determine the amount of disk space required for those operations.
+ms.assetid: 6514cbdd-2f23-4ab8-9e34-86d3837503dc
+title: Disk-Space List
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk-Space List

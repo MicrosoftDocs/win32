@@ -1,12 +1,17 @@
-﻿---
-Description: 'The MSIPATCHREMOVE property specifies the list of patches to remove during an installation.'
-ms.assetid: '76f8daa9-d32c-4845-85bc-52b728f53d1f'
+---
+Description: The MSIPATCHREMOVE property specifies the list of patches to remove during an installation.
+ms.assetid: 76f8daa9-d32c-4845-85bc-52b728f53d1f
 title: MSIPATCHREMOVE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIPATCHREMOVE property
 
-The **MSIPATCHREMOVE** property specifies the list of patches to remove during an installation. Individual patches in the list are separated by semicolons and can be represented by patch code GUID or the full path to the patch. The [**MsiRemovePatches**](msiremovepatches.md) function and the [**RemovePatches**](installer-removepatches.md) method of the [Installer](installer-object.md) object set the **MSIPATCHREMOVE** property.
+The **MSIPATCHREMOVE** property specifies the list of patches to remove during an installation. Individual patches in the list are separated by semicolons and can be represented by patch code GUID or the full path to the patch. The [**MsiRemovePatches**](/windows/win32/Msi/nf-msi-msiremovepatchesa?branch=master) function and the [**RemovePatches**](installer-removepatches.md) method of the [Installer](installer-object.md) object set the **MSIPATCHREMOVE** property.
 
 The **MSIPATCHREMOVE** property can be set on the command line as follows to remove a patch.
 

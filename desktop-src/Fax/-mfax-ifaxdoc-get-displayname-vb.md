@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the DisplayName property of a FaxDoc object. The DisplayName property is a null-terminated string that contains the name to associate with the fax document.'
-ms.assetid: 'cc96c3b9-c3a5-43b4-b9c1-0b149b6ee212'
-title: 'FaxDoc.DisplayName property'
+---
+Description: Sets or retrieves the DisplayName property of a FaxDoc object. The DisplayName property is a null-terminated string that contains the name to associate with the fax document.
+ms.assetid: cc96c3b9-c3a5-43b4-b9c1-0b149b6ee212
+title: FaxDoc.DisplayName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.DisplayName property
@@ -53,7 +58,7 @@ The **get\_DisplayName** method allocates the memory required for the buffer poi
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

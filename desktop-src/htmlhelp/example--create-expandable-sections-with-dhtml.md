@@ -1,7 +1,12 @@
 ---
 title: Example Create Expandable Sections with DHTML
 description: Example Create Expandable Sections with DHTML
-ms.assetid: '6CD7FBCE-4A69-499e-A5A0-E95B5F62A49D'
+ms.assetid: 6CD7FBCE-4A69-499e-A5A0-E95B5F62A49D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Create Expandable Sections with DHTML

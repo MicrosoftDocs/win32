@@ -4,11 +4,16 @@ description: The security and access control model for application directory par
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3e14b31a-524e-4b38-957f-166e80b35b31'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3e14b31a-524e-4b38-957f-166e80b35b31
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Application Directory Partition Security AD", "Application directory partitions AD , Security"]
+keywords:
+- Application Directory Partition Security AD
+- Application directory partitions AD , Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Application Directory Partition Security

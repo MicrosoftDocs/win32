@@ -2,13 +2,19 @@
 title: hidden attribute
 description: The \ hidden\ attribute indicates that the item exists but should not be displayed in a user-oriented browser.
 ms.assetid: bf1f9270-fb93-4421-804e-d56e2c863bbd
-keywords: ["hidden attribute MIDL"]
+keywords:
+- hidden attribute MIDL
 topic_type:
 - apiref
 api_name:
 - hidden
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # hidden attribute

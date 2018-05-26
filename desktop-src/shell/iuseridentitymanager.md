@@ -1,7 +1,12 @@
-﻿---
-Description: 'IUserIdentityManager is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.'
-ms.assetid: '3d24b858-bbaf-455c-83cd-3f6f93aba2a8'
+---
+Description: IUserIdentityManager is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+ms.assetid: 3d24b858-bbaf-455c-83cd-3f6f93aba2a8
 title: IUserIdentityManager interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IUserIdentityManager interface

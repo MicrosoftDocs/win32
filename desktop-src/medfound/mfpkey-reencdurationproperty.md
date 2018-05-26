@@ -1,7 +1,12 @@
-﻿---
-Description: 'For segment re-encoding, specifies the duration of the segment to be re-encoded.'
-ms.assetid: '89e1d182-67f3-4906-b4b2-c94264a8e9b4'
-title: 'MFPKEY\_REENCDURATION Property'
+---
+Description: For segment re-encoding, specifies the duration of the segment to be re-encoded.
+ms.assetid: 89e1d182-67f3-4906-b4b2-c94264a8e9b4
+title: MFPKEY\_REENCDURATION Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_REENCDURATION Property

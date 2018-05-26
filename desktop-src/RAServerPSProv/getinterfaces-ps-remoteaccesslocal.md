@@ -2,13 +2,16 @@
 title: GetInterfaces method of the PS\_RemoteAccessLocal class
 description: This method gives the Internet and intranet interfaces.
 audience: developer
-ms.assetid: '574b3346-d31a-49ae-bb3d-a11a32934709'
-ms.prod: 'windows-server-dev'
+ms.assetid: 574b3346-d31a-49ae-bb3d-a11a32934709
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetInterfaces method", "GetInterfaces method, PS_RemoteAccessLocal class", "PS_RemoteAccessLocal class, GetInterfaces method"]
+keywords:
+- GetInterfaces method
+- GetInterfaces method, PS_RemoteAccessLocal class
+- PS_RemoteAccessLocal class, GetInterfaces method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetInterfaces method of the PS\_RemoteAccessLocal class
@@ -28,11 +34,11 @@ This method gives the Internet and intranet interfaces.
 
 ```mof
 uint32 GetInterfaces(
-  [in, out] uint32  DeploymentMode,
-  [in]      string  ConnectTo,
-  [in]      boolean isNlbDeployed,
-  [out]     string  IntranetInterfaces[],
-  [out]     string  InternetInterfaces[]
+  [in, out] uint32  DeploymentMode,
+  [in]      string  ConnectTo,
+  [in]      boolean isNlbDeployed,
+  [out]     string  IntranetInterfaces[],
+  [out]     string  InternetInterfaces[]
 );
 ```
 
@@ -112,7 +118,7 @@ Array of Internet interfaces
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\server<br/>                                         |
 | Header<br/>                   | <dl> <dt>Mbnapi.h</dt> </dl>               |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
@@ -127,9 +133,9 @@ Array of Internet interfaces
 [**PS\_RemoteAccessLocal**](ps-remoteaccesslocal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

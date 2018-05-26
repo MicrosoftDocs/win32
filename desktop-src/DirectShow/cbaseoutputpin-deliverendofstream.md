@@ -1,7 +1,12 @@
 ---
-Description: 'The DeliverEndOfStream method delivers an end-of-stream notification to the connected input pin.'
-ms.assetid: '5b564675-a1e0-4010-b35d-28315c262bcc'
-title: 'CBaseOutputPin.DeliverEndOfStream method'
+Description: The DeliverEndOfStream method delivers an end-of-stream notification to the connected input pin.
+ms.assetid: 5b564675-a1e0-4010-b35d-28315c262bcc
+title: CBaseOutputPin.DeliverEndOfStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin.DeliverEndOfStream method
@@ -34,11 +39,11 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
-This method calls the [**IPin::EndOfStream**](ipin-endofstream.md) method on the input pin.
+This method calls the [**IPin::EndOfStream**](/windows/win32/Strmif/nf-strmif-ipin-endofstream?branch=master) method on the input pin.
 
 ## Requirements
 
@@ -58,9 +63,9 @@ This method calls the [**IPin::EndOfStream**](ipin-endofstream.md) method on the
 [**CBaseOutputPin Class**](cbaseoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

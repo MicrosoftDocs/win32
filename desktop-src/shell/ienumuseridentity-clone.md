@@ -1,7 +1,12 @@
-﻿---
-Description: 'IEnumUserIdentity::Clone is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.'
-ms.assetid: 'dde9afca-db8d-41ba-afa0-94eadecb695b'
-title: 'IEnumUserIdentity::Clone method'
+---
+Description: IEnumUserIdentityClone is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+ms.assetid: dde9afca-db8d-41ba-afa0-94eadecb695b
+title: IEnumUserIdentityClone method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumUserIdentity::Clone method

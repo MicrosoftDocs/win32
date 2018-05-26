@@ -1,8 +1,9 @@
 ---
 title: isfinite
 description: Determines if the specified floating-point value is finite.
-ms.assetid: '8be10499-2d06-4520-9697-dab2f461bd0d'
-keywords: ["isfinite HLSL"]
+ms.assetid: 8be10499-2d06-4520-9697-dab2f461bd0d
+keywords:
+- isfinite HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # isfinite
@@ -24,7 +30,7 @@ Determines if the specified floating-point value is finite.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Determines if the specified floating-point value is finite.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ Returns a value of the same size as the input, with a value set to **True** if t
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +74,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,9 +93,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,21 @@ description: The unique ID associated with the protected content.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f0bdcd40-c593-4429-885d-23e0ea500ec5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: f0bdcd40-c593-4429-885d-23e0ea500ec5
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy contentId property"]
+keywords:
+- MSUserPolicy contentId property
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy contentId property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy contentId property
@@ -37,7 +41,7 @@ The unique ID associated with the protected content.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

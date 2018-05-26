@@ -1,12 +1,17 @@
 ---
 Description: PNRP and BLOB
-ms.assetid: 'e92ecb14-3f3a-48bb-963b-0c6e58c54089'
+ms.assetid: e92ecb14-3f3a-48bb-963b-0c6e58c54089
 title: PNRP and BLOB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PNRP and BLOB
 
-PNRP uses the [**BLOB**](winsock-nsp-reference-links.md) structure to pass data to the **WSAQUERYSET** structure during calls to several functions. For use with PNRP, the **BLOB** structure points to either a [**PNRPINFO**](pnrpinfo.md) structure or a [**PNRPCLOUDINFO**](pnrpcloudinfo.md) structure.
+PNRP uses the [**BLOB**](winsock-nsp-reference-links.md) structure to pass data to the **WSAQUERYSET** structure during calls to several functions. For use with PNRP, the **BLOB** structure points to either a [**PNRPINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpinfo_v1?branch=master) structure or a [**PNRPCLOUDINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpcloudinfo?branch=master) structure.
 
 ## Related topics
 
@@ -27,10 +32,10 @@ PNRP uses the [**BLOB**](winsock-nsp-reference-links.md) structure to pass data 
 [PNRP and WSASetService](pnrp-and-wsasetservice.md)
 </dt> <dt>
 
-[**PNRPCLOUDINFO**](pnrpcloudinfo.md)
+[**PNRPCLOUDINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpcloudinfo?branch=master)
 </dt> <dt>
 
-[**PNRPINFO**](pnrpinfo.md)
+[**PNRPINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpinfo_v1?branch=master)
 </dt> <dt>
 
 [**WSAQUERYSET**](winsock-nsp-reference-links.md)

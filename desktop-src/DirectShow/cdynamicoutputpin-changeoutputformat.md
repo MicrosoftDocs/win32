@@ -1,7 +1,12 @@
 ---
-Description: 'The ChangeOutputFormat method dynamically changes the media type for the connection, and delivers new segment information.'
-ms.assetid: 'd1204ca0-a489-48a0-8fe5-3ade04f51c93'
-title: 'CDynamicOutputPin.ChangeOutputFormat method'
+Description: The ChangeOutputFormat method dynamically changes the media type for the connection, and delivers new segment information.
+ms.assetid: d1204ca0-a489-48a0-8fe5-3ade04f51c93
+title: CDynamicOutputPin.ChangeOutputFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.ChangeOutputFormat method
@@ -13,10 +18,10 @@ The `ChangeOutputFormat` method dynamically changes the media type for the conne
 
 ```C++
 HRESULT ChangeOutputFormat(
-   const AM_MEDIA_TYPE  *pmt,
-         REFERENCE_TIME tSegmentStart,
-         REFERENCE_TIME tSegmentStop,
-         double         dSegmentRate
+   const AM_MEDIA_TYPE  *pmt,
+         REFERENCE_TIME tSegmentStart,
+         REFERENCE_TIME tSegmentStop,
+         double         dSegmentRate
 );
 ```
 
@@ -29,7 +34,7 @@ HRESULT ChangeOutputFormat(
 *pmt* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure that specifies the media type.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure that specifies the media type.
 
 </dd> <dt>
 
@@ -68,7 +73,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -94,9 +99,9 @@ You must call the [**CDynamicOutputPin::StartUsingOutputPin**](cdynamicoutputpin
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

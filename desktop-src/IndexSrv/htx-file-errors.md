@@ -1,7 +1,12 @@
 ---
 title: .Htx File Errors
 description: .Htx File Errors
-ms.assetid: '4c2bb15f-fcdb-4d3a-9627-dc96e2c47993'
+ms.assetid: 4c2bb15f-fcdb-4d3a-9627-dc96e2c47993
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # .Htx File Errors

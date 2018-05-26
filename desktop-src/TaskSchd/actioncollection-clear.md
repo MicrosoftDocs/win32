@@ -1,8 +1,11 @@
 ---
 title: ActionCollection.Clear method
 description: For scripting, clears all the actions from the collection.
-ms.assetid: 'e2cdf2eb-72ca-42cf-bfbe-2234153ba3b4'
-keywords: ["Clear method Task Scheduler", "Clear method Task Scheduler , ActionCollection object", "ActionCollection object Task Scheduler , Clear method"]
+ms.assetid: e2cdf2eb-72ca-42cf-bfbe-2234153ba3b4
+keywords:
+- Clear method Task Scheduler
+- Clear method Task Scheduler , ActionCollection object
+- ActionCollection object Task Scheduler , Clear method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActionCollection.Clear method
@@ -40,8 +48,8 @@ This method does not return a value.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -57,9 +65,9 @@ This method does not return a value.
 [**ActionCollection**](actioncollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

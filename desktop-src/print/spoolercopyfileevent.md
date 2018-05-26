@@ -1,7 +1,12 @@
-﻿---
-Description: 'A Point and Print DLL''s SpoolerCopyFileEvent function receives notifications of events associated with copying print queue-associated files to a print client, when the client connects to a print server.'
-ms.assetid: '39e9b596-7726-439c-8ad9-a987fdfd3860'
+---
+Description: A Point and Print DLLs SpoolerCopyFileEvent function receives notifications of events associated with copying print queue-associated files to a print client, when the client connects to a print server.
+ms.assetid: 39e9b596-7726-439c-8ad9-a987fdfd3860
 title: SpoolerCopyFileEvent function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SpoolerCopyFileEvent function

@@ -1,7 +1,12 @@
 ---
 title: WFP API
 description: The Windows Filtering Platform (WFP) API is divided into the following components.
-ms.assetid: 'ff3f0d74-7e0b-4a3e-b66d-eaa61b89038a'
+ms.assetid: ff3f0d74-7e0b-4a3e-b66d-eaa61b89038a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WFP API
@@ -27,13 +32,13 @@ The Windows Filtering Platform (WFP) API is divided into the following component
 <tr class="odd">
 <td rowspan="2">[Callout API](http://go.microsoft.com/fwlink/p/?linkid=95959) (FWPS)${REMOVE}$<br />
 </td>
-<td>[Data types](http://go.microsoft.com/fwlink/p/?linkid=98324) used by callouts.<strong>Note</strong>  These data types are documented in the Microsoft Windows Driver Development Kit (DDK).<br/></td>
+<td>[Data types](http://go.microsoft.com/fwlink/p/?linkid=98324) used by callouts.<strong>Note</strong>  These data types are documented in the Microsoft Windows Driver Development Kit (DDK).<br/></td>
 <td><dl> fwpstypes.h<br />
 fwpstypes.idl<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[Functions](http://go.microsoft.com/fwlink/p/?linkid=98325) and [enumerated types](http://go.microsoft.com/fwlink/p/?linkid=98326) used to implement callouts.<strong>Note</strong>  These functions and enumerated types are documented in the DDK.<br/></td>
+<td>[Functions](http://go.microsoft.com/fwlink/p/?linkid=98325) and [enumerated types](http://go.microsoft.com/fwlink/p/?linkid=98326) used to implement callouts.<strong>Note</strong>  These functions and enumerated types are documented in the DDK.<br/></td>
 <td><dl> fwpsu.h<br />
 fwpsk.h<br />
 </dl></td>
@@ -101,15 +106,15 @@ fwptypes.idl<br />
 
 
 
- 
+ 
 
-Data type names are all upper-case and underscore-delimited. The name always begins with a prefix that identifies its component group, such as [**FWPM\_PROVIDER0**](fwpm-provider0-struct.md).
+Data type names are all upper-case and underscore-delimited. The name always begins with a prefix that identifies its component group, such as [**FWPM\_PROVIDER0**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_provider0_?branch=master).
 
-Function names are mixed-case and case-delimited. The name always begins with a prefix that identifies its component group, such as [**FwpmProviderContextAdd0**](fwpmprovidercontextadd0-func.md).
+Function names are mixed-case and case-delimited. The name always begins with a prefix that identifies its component group, such as [**FwpmProviderContextAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextadd0?branch=master).
 
 Most data and function names end with a version number. The fwpvi.h header file maps version-independent data and function names to the version that is appropriate for use with a given operating system. For more information, see [WFP Version-Independent Names and Targeting Specific Versions of Windows](wfp-version-independent-names-and-targeting-specific-versions-of-windows.md).
 
-Each component does not stand alone. For example, IKE main mode (MM) policies are defined in the IKEEXT component, but are stored in a provider context and are associated with a filter—both of which are found in the FWPM API component.
+Each component does not stand alone. For example, IKE main mode (MM) policies are defined in the IKEEXT component, but are stored in a provider context and are associated with a filter both of which are found in the FWPM API component.
 
 ## User-Mode and Kernel-Mode Public Header Files
 
@@ -122,11 +127,11 @@ The following table lists the Win32 header files that define the WFP functions.
 | fwpmk.h      | Kernel-mode function prototypes for FWPM, IPsec, and IKEEXT components. Available in the DDK only.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | fwpmu.h      | User-mode function prototypes for FWPM, IPsec, and IKEEXT components. Available in the Microsoft Windows Software Development Kit (SDK) only.                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | fwpsk.h      | Kernel-mode function prototypes and enumerated types for FWPS component. Available in the DDK only.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| fwpsu.h      | User-mode function prototypes and enumerated types for FWPS component. Available in the Windows SDK only.**Note**  The user-mode FWPS enumerated types are identical to the kernel-mode FWPS enumerated types. In consequence, these types are documented in the DDK only.<br/> **Note**  The user-mode FWPS function prototypes are identical to the kernel-mode FWPS function prototypes with the exception of the return code. User-mode FWPS functions return a **DWORD**, whereas kernel-mode FWPS functions return an **NTSTATUS**. In consequence, these functions are documented in the DDK only.<br/> |
+| fwpsu.h      | User-mode function prototypes and enumerated types for FWPS component. Available in the Windows SDK only.**Note**  The user-mode FWPS enumerated types are identical to the kernel-mode FWPS enumerated types. In consequence, these types are documented in the DDK only.<br/> **Note**  The user-mode FWPS function prototypes are identical to the kernel-mode FWPS function prototypes with the exception of the return code. User-mode FWPS functions return a **DWORD**, whereas kernel-mode FWPS functions return an **NTSTATUS**. In consequence, these functions are documented in the DDK only.<br/> |
 
 
 
- 
+ 
 
 All user-mode functions are exported from fwpuclnt.dll. All kernel-mode functions are exported from fwpkclnt.sys.
 
@@ -150,9 +155,9 @@ The FWPS data types are generally smaller than their FWPM counterparts. For exam
 [WFP API Object Management](object-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

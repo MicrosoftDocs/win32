@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ArchiveDirectory method retrieves the ArchiveDirectory property for a FaxServer object. The ArchiveDirectory property is a null-terminated string that contains the location in which the fax server stores archived outbound faxes.'
-ms.assetid: '4d4505a0-9ced-4c8c-b75e-0080ff2e3742'
-title: 'FaxServer.ArchiveDirectory property'
+---
+Description: The ArchiveDirectory method retrieves the ArchiveDirectory property for a FaxServer object. The ArchiveDirectory property is a null-terminated string that contains the location in which the fax server stores archived outbound faxes.
+ms.assetid: 4d4505a0-9ced-4c8c-b75e-0080ff2e3742
+title: FaxServer.ArchiveDirectory property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.ArchiveDirectory property

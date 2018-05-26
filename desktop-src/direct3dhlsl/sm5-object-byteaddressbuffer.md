@@ -1,14 +1,20 @@
 ---
 title: ByteAddressBuffer
 description: ByteAddressBuffer
-ms.assetid: '809b5ee8-0a25-402e-8cf2-f5e7a8094ec6'
-keywords: ["ByteAddressBuffer HLSL"]
+ms.assetid: 809b5ee8-0a25-402e-8cf2-f5e7a8094ec6
+keywords:
+- ByteAddressBuffer HLSL
 topic_type:
 - apiref
 api_name:
 - ByteAddressBuffer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ByteAddressBuffer
@@ -27,7 +33,7 @@ A read-only buffer that is indexed in bytes.
 
 
 
- 
+ 
 
 You can use the **ByteAddressBuffer** object type when you work with raw buffers. For more info about raw viewing of buffers, see [Raw Views of Buffers](https://msdn.microsoft.com/library/windows/desktop/ff476900#raw-buffer-views).
 
@@ -43,7 +49,7 @@ This object is supported in the following shader models.
 
 
 
- 
+ 
 
 This object is supported for the following types of shaders:
 
@@ -55,7 +61,7 @@ This object is supported for the following types of shaders:
 
 
 
- 
+ 
 
 For more info about a byte address buffer, see the [byte addressable resource type](https://msdn.microsoft.com/library/windows/desktop/ff476335).
 
@@ -68,9 +74,9 @@ Shader Model 5 also implements a [read-write byte address buffer](sm5-object-rwb
 [Shader Model 5 Objects](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

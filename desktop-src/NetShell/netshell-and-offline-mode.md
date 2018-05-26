@@ -1,8 +1,15 @@
 ---
 title: NetShell and Offline Mode
 description: NetShell provides the ability to cache commands in offline mode, enabling blocks of changes to be configured, then applied once NetShell is taken out of offline mode.
-ms.assetid: '4cbf0aee-2eee-4cc5-8155-14659e68e2a6'
-keywords: ["offline mode NetSh", "components NetSh , offline mode"]
+ms.assetid: 4cbf0aee-2eee-4cc5-8155-14659e68e2a6
+keywords:
+- offline mode NetSh
+- components NetSh , offline mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetShell and Offline Mode

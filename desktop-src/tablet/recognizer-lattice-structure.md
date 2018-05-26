@@ -1,14 +1,19 @@
 ---
-Description: 'Recognizers created for use with Windows Vista and Windows XP Tablet PC Edition use a set of structures, each of which is called a lattice, to pass recognition results back to Tablet PC platform libraries.'
-ms.assetid: '628ca677-31eb-47d9-bcc6-d7777f8aaf7c'
+Description: Recognizers created for use with Windows Vista and Windows XP Tablet PC Edition use a set of structures, each of which is called a lattice, to pass recognition results back to Tablet PC platform libraries.
+ms.assetid: 628ca677-31eb-47d9-bcc6-d7777f8aaf7c
 title: Recognizer Lattice Structure
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recognizer Lattice Structure
 
-Recognizers created for use with Windows Vista and Windows XP Tablet PC Edition use a set of structures, each of which is called a lattice, to pass recognition results back to Tablet PC platform libraries. The Tablet PC platform then copies the information in these structures into the [**IInkRecognitionResult**](iinkrecognitionresult.md) object, the [**IInkRecognitionAlternates**](iinkrecognitionalternates.md) collection, and the [**IInkRecognitionAlternate**](iinkrecognitionalternate.md) object.
+Recognizers created for use with Windows Vista and Windows XP Tablet PC Edition use a set of structures, each of which is called a lattice, to pass recognition results back to Tablet PC platform libraries. The Tablet PC platform then copies the information in these structures into the [**IInkRecognitionResult**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionresult?branch=master) object, the [**IInkRecognitionAlternates**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionalternates?branch=master) collection, and the [**IInkRecognitionAlternate**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionalternate?branch=master) object.
 
-A pointer to the lattice should be returned by the recognizer when the platform calls the [**GetLatticePtr**](getlatticeptr.md) function on the [HRECOCONTEXT](hrecocontext-handle.md) handle.
+A pointer to the lattice should be returned by the recognizer when the platform calls the [**GetLatticePtr**](/windows/win32/recapis/nf-recapis-getlatticeptr?branch=master) function on the [HRECOCONTEXT](hrecocontext-handle.md) handle.
 
 This section describes the lattice structure in detail. For an overview of recognizers and related concepts, see [About Handwriting Recognition](about-handwriting-recognition.md).
 
@@ -20,11 +25,11 @@ Internally, recognizers use a lattice to hold basic recognition units for a give
 
 The lattice structures are defined in the RecTypes.h header file. The lattice structures include the following structures:
 
--   [**RECO\_LATTICE**](reco-lattice.md)
--   [**RECO\_LATTICE\_COLUMN**](reco-lattice-column.md)
--   [**RECO\_LATTICE\_ELEMENT**](reco-lattice-element.md)
--   [**RECO\_LATTICE\_PROPERTIES**](reco-lattice-properties.md)
--   [**RECO\_LATTICE\_PROPERTY**](reco-lattice-property.md)
+-   [**RECO\_LATTICE**](/windows/win32/rectypes/ns-rectypes-tagreco_lattice?branch=master)
+-   [**RECO\_LATTICE\_COLUMN**](/windows/win32/rectypes/ns-rectypes-tagreco_lattice_column?branch=master)
+-   [**RECO\_LATTICE\_ELEMENT**](/windows/win32/rectypes/ns-rectypes-tagreco_lattice_element?branch=master)
+-   [**RECO\_LATTICE\_PROPERTIES**](/windows/win32/rectypes/ns-rectypes-tagreco_lattice_properties?branch=master)
+-   [**RECO\_LATTICE\_PROPERTY**](/windows/win32/rectypes/ns-rectypes-tagreco_lattice_property?branch=master)
 
 ## Lattice Components
 
@@ -32,7 +37,7 @@ The following examples use the strokes for the word "together" as shown in the f
 
 ![strokes for the word "together"](images/1d5fa9fb-6c38-49b8-8caa-2b6dcc1d5dec.gif)
 
-A lattice is composed of one or more columns, one for each segment. Each column in turn contains one or more elements. An element holds a discrete recognition alternate. For more information about columns, see the [**RECO\_LATTICE\_COLUMN**](reco-lattice-column.md) structure. For more information about elements, see the [**RECO\_LATTICE\_ELEMENT**](reco-lattice-element.md) structure.
+A lattice is composed of one or more columns, one for each segment. Each column in turn contains one or more elements. An element holds a discrete recognition alternate. For more information about columns, see the [**RECO\_LATTICE\_COLUMN**](/windows/win32/rectypes/ns-rectypes-tagreco_lattice_column?branch=master) structure. For more information about elements, see the [**RECO\_LATTICE\_ELEMENT**](/windows/win32/rectypes/ns-rectypes-tagreco_lattice_element?branch=master) structure.
 
 The recognizer might return a single segment when evaluating the ink sample shown in the previous example. In this case the lattice contains a single column with a single element.
 
@@ -50,7 +55,7 @@ In this case, a recognizer might create the following lattice structure.
 ![lattice structure for the word "together"](images/2496c3dd-8b08-4f86-9fe3-f118be49a8c8.gif)
 
 > [!Note]  
-> Each column shares the same stroke order because they all refer to the same [InkStrokes](inkstrokes-collection.md) collection.
+> Each column shares the same stroke order because they all refer to the same [InkStrokes](/windows/win32/msinkaut/?branch=master) collection.
 
  
 

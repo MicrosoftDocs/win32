@@ -1,14 +1,20 @@
 ---
 title: WM/MediaClassSecondaryID
 description: The WM/MediaClassSecondaryID attribute contains the GUID of the secondary media class.
-ms.assetid: '3d1429bc-f168-4b25-9d26-c1c28b852160'
-keywords: ["WM/MediaClassSecondaryID windows Media Format"]
+ms.assetid: 3d1429bc-f168-4b25-9d26-c1c28b852160
+keywords:
+- WM/MediaClassSecondaryID windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/MediaClassSecondaryID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaClassSecondaryID

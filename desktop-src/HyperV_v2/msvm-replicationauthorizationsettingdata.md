@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an authorization entry for a recovery server.'
-ms.assetid: '8c057b39-7102-4fbf-b4be-f18627a88834'
-title: 'Msvm\_ReplicationAuthorizationSettingData class'
+Description: Represents an authorization entry for a recovery server.
+ms.assetid: 8c057b39-7102-4fbf-b4be-f18627a88834
+title: Msvm\_ReplicationAuthorizationSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReplicationAuthorizationSettingData class
@@ -138,8 +143,8 @@ The name of the trust group for the authorization entry. This identifies the mul
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -162,9 +167,9 @@ The name of the trust group for the authorization entry. This identifies the mul
 [**RemoveAuthorizationEntry**](removeauthorizationentry-msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: DaysInterval (dailyScheduleType) Element
 description: Specifies the interval between the days in the schedule.
-ms.assetid: '495ea1c0-37eb-4b12-8241-bfc6489e33ed'
-keywords: ["DaysInterval element Task Scheduler"]
+ms.assetid: 495ea1c0-37eb-4b12-8241-bfc6489e33ed
+keywords:
+- DaysInterval element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - DaysInterval
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DaysInterval (dailyScheduleType) Element
@@ -50,7 +56,7 @@ The element is defined by the [**dailyScheduleType**](taskschedulerschema-dailys
 
 For script development, the days interval for a daily trigger is specified by the [**DailyTrigger.DaysInterval**](dailytrigger-daysinterval.md) property.
 
-For C++ development, the days interval for a daily trigger is specified by the [**IDailyTrigger::DaysInterval**](idailytrigger-daysinterval.md) property.
+For C++ development, the days interval for a daily trigger is specified by the [**IDailyTrigger::DaysInterval**](/windows/win32/taskschd/nf-taskschd-idailytrigger-get_daysinterval?branch=master) property.
 
 ## Examples
 
@@ -77,8 +83,8 @@ For a complete example of the XML for a task that specifies a daily schedule, se
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -92,9 +98,9 @@ For a complete example of the XML for a task that specifies a daily schedule, se
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

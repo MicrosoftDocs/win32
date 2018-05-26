@@ -4,17 +4,21 @@ description: Contains a GUID that identifies a specific 802.11 Group Policy obje
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8f7d27e3-d20c-4439-8362-16e2880ae9a1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8f7d27e3-d20c-4439-8362-16e2880ae9a1
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-net-ieee-80211-GP-PolicyGUID attribute AD Schema"]
+keywords:
+- ms-net-ieee-80211-GP-PolicyGUID attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-net-ieee-80211-GP-PolicyGUID
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-net-ieee-80211-GP-PolicyGUID attribute
@@ -38,9 +42,9 @@ Contains a GUID that identifies a specific 802.11 Group Policy object on the dom
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +109,9 @@ Contains a GUID that identifies a specific 802.11 Group Policy object on the dom
 
 
 
- 
+ 
 
- 
+ 
 
 
 

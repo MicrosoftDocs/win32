@@ -1,7 +1,12 @@
 ---
 title: Synthesized Speech Support
 description: Synthesized Speech Support
-ms.assetid: '38172e04-a5b6-41e4-9d7c-539d9d4117be'
+ms.assetid: 38172e04-a5b6-41e4-9d7c-539d9d4117be
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Synthesized Speech Support

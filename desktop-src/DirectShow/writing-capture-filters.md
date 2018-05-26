@@ -1,7 +1,12 @@
 ---
 Description: Writing Capture Filters
-ms.assetid: '7dfd1009-da09-49dc-a200-3d7a9f1c70c1'
+ms.assetid: 7dfd1009-da09-49dc-a200-3d7a9f1c70c1
 title: Writing Capture Filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing Capture Filters

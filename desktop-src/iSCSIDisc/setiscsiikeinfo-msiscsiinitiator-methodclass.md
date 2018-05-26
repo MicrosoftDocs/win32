@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetIscsiIKEInfo method sets the iSCSI IKE authentication information for the initiator.'
-ms.assetid: '670f2788-6379-4f7e-9ee3-4ae46249074c'
-title: 'SetIscsiIKEInfo method of the MSIscsiInitiator\_MethodClass class'
+---
+Description: The SetIscsiIKEInfo method sets the iSCSI IKE authentication information for the initiator.
+ms.assetid: 670f2788-6379-4f7e-9ee3-4ae46249074c
+title: SetIscsiIKEInfo method of the MSIscsiInitiator\_MethodClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetIscsiIKEInfo method of the MSIscsiInitiator\_MethodClass class

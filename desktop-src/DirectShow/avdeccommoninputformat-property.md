@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the current input format for the decoder.'
-ms.assetid: '8fddf8c3-268e-4706-9003-e4bfb03d5278'
+Description: Specifies the current input format for the decoder.
+ms.assetid: 8fddf8c3-268e-4706-9003-e4bfb03d5278
 title: AVDecCommonInputFormat property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVDecCommonInputFormat property
@@ -38,7 +43,7 @@ The value of this property is a **BSTR** that contains the string representation
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -46,8 +51,8 @@ The value of this property is a **BSTR** that contains the string representation
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -59,12 +64,12 @@ The value of this property is a **BSTR** that contains the string representation
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

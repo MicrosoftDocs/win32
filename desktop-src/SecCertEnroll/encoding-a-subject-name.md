@@ -1,12 +1,17 @@
 ---
-Description: 'When you initialize an IX500DistinguishedName object with a distinguished name to identify the subject of a certificate request, a Distinguished Encoding Rules (DER) encoded Abstract Syntax Notation One (ASN.1) sequence is created.'
-ms.assetid: '58b05b59-2235-49bd-9543-45e786d62eaf'
+Description: When you initialize an IX500DistinguishedName object with a distinguished name to identify the subject of a certificate request, a Distinguished Encoding Rules (DER) encoded Abstract Syntax Notation One (ASN.1) sequence is created.
+ms.assetid: 58b05b59-2235-49bd-9543-45e786d62eaf
 title: Encoding a Subject Name
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encoding a Subject Name
 
-When you initialize an [**IX500DistinguishedName**](ix500distinguishedname.md) object with a distinguished name to identify the subject of a certificate request, a [*Distinguished Encoding Rules*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-distinguished-encoding-rules-gly) (DER) encoded [*Abstract Syntax Notation One*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-abstract-syntax-notation-one-gly) (ASN.1) sequence is created. For example, assume that the subject distinguished name consists of the following relative distinguished names (RDNs):<dl> E=Administrator@jdomcsc.nttest.microsoft.com  
+When you initialize an [**IX500DistinguishedName**](/windows/win32/CertEnroll/nn-certenroll-ix500distinguishedname?branch=master) object with a distinguished name to identify the subject of a certificate request, a [*Distinguished Encoding Rules*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-distinguished-encoding-rules-gly) (DER) encoded [*Abstract Syntax Notation One*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-abstract-syntax-notation-one-gly) (ASN.1) sequence is created. For example, assume that the subject distinguished name consists of the following relative distinguished names (RDNs):<dl> E=Administrator@jdomcsc.nttest.microsoft.com  
 CN=Administrator  
 CN=Users  
 DC=jdomcsc  
@@ -77,7 +82,7 @@ DC=com
       |              ; "Administrator@jdomcsc.nttest.microsoft.com"
 ```
 
-As discussed in [Subject Names](subject-names.md), every RDN in a distinguished name consists of a set of attributes, and each attribute contains an [*object identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721599#-security-object-identifier-gly) (OID) and a value. To understand how the [**IX500DistinguishedName**](ix500distinguishedname.md) object encodes a distinguished name, consider the common name CN=Users.
+As discussed in [Subject Names](subject-names.md), every RDN in a distinguished name consists of a set of attributes, and each attribute contains an [*object identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721599#-security-object-identifier-gly) (OID) and a value. To understand how the [**IX500DistinguishedName**](/windows/win32/CertEnroll/nn-certenroll-ix500distinguishedname?branch=master) object encodes a distinguished name, consider the common name CN=Users.
 
 ``` syntax
 0a73: |  |  30 0c               ; SEQUENCE (c Bytes)

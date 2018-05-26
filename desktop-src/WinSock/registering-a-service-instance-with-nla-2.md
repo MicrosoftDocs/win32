@@ -1,7 +1,12 @@
 ---
-Description: 'NLA clients can record network configuration information on a system-wide basis, enabling future queries to return the specified configuration information regardless of whether the network is active.'
-ms.assetid: '7e92dd8f-d3a1-4e53-885c-ebc9626fd5dc'
+Description: NLA clients can record network configuration information on a system-wide basis, enabling future queries to return the specified configuration information regardless of whether the network is active.
+ms.assetid: 7e92dd8f-d3a1-4e53-885c-ebc9626fd5dc
 title: Registering a Service Instance with NLA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Service Instance with NLA
@@ -10,7 +15,7 @@ NLA clients can record network configuration information on a system-wide basis,
 
 ## Parameters
 
-To register a service instance with the Network Location Awareness service provider, use the [**WSASetService**](wsasetservice-2.md) function. In order to properly register a service instance certain parameters of the **WSASetService** function must be set with the appropriate information, as explained in this section. For quick reference, the **WSASetService** function has the following syntax:
+To register a service instance with the Network Location Awareness service provider, use the [**WSASetService**](/windows/win32/Winsock2/nf-winsock2-wsasetservicea?branch=master) function. In order to properly register a service instance certain parameters of the **WSASetService** function must be set with the appropriate information, as explained in this section. For quick reference, the **WSASetService** function has the following syntax:
 
 ``` syntax
 INT WSASetService(
@@ -20,7 +25,7 @@ INT WSASetService(
 );
 ```
 
-For the *lpqsRegInfo* parameter, provide a [**WSAQUERYSET**](wsaqueryset-2.md) structure from either an NLA SP query result, or constructed adhering to the requirements of an NLA SP query, as specified in [Querying NLA](querying-nla-2.md).
+For the *lpqsRegInfo* parameter, provide a [**WSAQUERYSET**](/windows/win32/Winsock2/ns-winsock2-_wsaquerysetw?branch=master) structure from either an NLA SP query result, or constructed adhering to the requirements of an NLA SP query, as specified in [Querying NLA](querying-nla-2.md).
 
 Operations supported for the *essOperation* parameter are the following:
 
@@ -29,14 +34,14 @@ Operations supported for the *essOperation* parameter are the following:
 <span id="RNRSERVICE_REGISTER"></span><span id="rnrservice_register"></span>RNRSERVICE\_REGISTER
 </dt> <dd>
 
-The network defined in the [**WSAQUERYSET**](wsaqueryset-2.md) structure provided in *lpqsRegInfo* is made persistent for the active user by storing the network instance in the registry hive for the current user, which allows impersonation.
+The network defined in the [**WSAQUERYSET**](/windows/win32/Winsock2/ns-winsock2-_wsaquerysetw?branch=master) structure provided in *lpqsRegInfo* is made persistent for the active user by storing the network instance in the registry hive for the current user, which allows impersonation.
 
 </dd> <dt>
 
 <span id="RNRSERVICE_DELETE"></span><span id="rnrservice_delete"></span>RNRSERVICE\_DELETE
 </dt> <dd>
 
-If the network defined in the [**WSAQUERYSET**](wsaqueryset-2.md) structure provided in *lpqsRegInfo* is persistent, it will be removed.
+If the network defined in the [**WSAQUERYSET**](/windows/win32/Winsock2/ns-winsock2-_wsaquerysetw?branch=master) structure provided in *lpqsRegInfo* is persistent, it will be removed.
 
 </dd> </dl>
 
@@ -58,11 +63,11 @@ When used with RNRSERVICE\_REGISTER, the entry is stored persistently under HKEY
 
 </dd> </dl>
 
-NLA supports the following error codes for [**WSASetService**](wsasetservice-2.md) function calls:
+NLA supports the following error codes for [**WSASetService**](/windows/win32/Winsock2/nf-winsock2-wsasetservicea?branch=master) function calls:
 
 | Error             | Meaning                                                                                                                                                                    |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| WSANOTINITIALISED | A successful call to the [**WSAStartup**](wsastartup-2.md) function to initialize NLA was not performed.                                                                  |
+| WSANOTINITIALISED | A successful call to the [**WSAStartup**](/windows/win32/winsock/nf-winsock-wsastartup?branch=master) function to initialize NLA was not performed.                                                                  |
 | WSAEACCESS        | NLA\_ALLUSERS\_NETWORK was specified in *dwControlFlags* while not in the security context of a local system administrator.                                                |
 | WSAEALREADY       | The specified network is already persistently stored in the requested manner, and no flags were specified in *dwControlFlags* to indicate an update to the existing entry. |
 | WSAEAFNOSUPPORT   | A protocol family was specified for which there is no support. Only IP protocol families are supported in NLA.                                                             |

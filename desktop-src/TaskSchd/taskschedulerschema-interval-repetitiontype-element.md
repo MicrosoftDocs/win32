@@ -1,14 +1,20 @@
 ---
 title: Interval (repetitionType) Element
 description: Specifies the amount of time between each restart of the task.
-ms.assetid: '28c6475a-88e3-44ac-92c7-6f463e8460c9'
-keywords: ["Interval element Task Scheduler"]
+ms.assetid: 28c6475a-88e3-44ac-92c7-6f463e8460c9
+keywords:
+- Interval element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Interval
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interval (repetitionType) Element
@@ -48,7 +54,7 @@ The element is defined by the [**repetitionType**](taskschedulerschema-repetitio
 
 For scripting development, the interval of the repetition pattern is specified using the [**RepetitionPattern.Interval**](repetitionpattern-interval.md) property.
 
-For C++ development, the interval of the repetition pattern is specified using the [**IRepetitionPattern::Interval**](irepetitionpattern-interval.md) property.
+For C++ development, the interval of the repetition pattern is specified using the [**IRepetitionPattern::Interval**](/windows/win32/taskschd/nf-taskschd-irepetitionpattern-get_interval?branch=master) property.
 
 ## Examples
 
@@ -60,8 +66,8 @@ For a complete example of the XML for a task that uses a repetition interval, se
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -75,9 +81,9 @@ For a complete example of the XML for a task that uses a repetition interval, se
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

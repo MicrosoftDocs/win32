@@ -4,13 +4,15 @@ description: This association indicates that the specified CIM\_ManagedElement i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cded0f44-c7f5-4131-9bb4-699b2d1d97e4'
-ms.prod: 'windows-server-dev'
+ms.assetid: cded0f44-c7f5-4131-9bb4-699b2d1d97e4
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFTSM_ElementConformsToProfile class iSCSI Software Target API", "MSFTSM_ElementConformsToProfile class iSCSI Software Target API , described"]
+keywords:
+- MSFTSM_ElementConformsToProfile class iSCSI Software Target API
+- MSFTSM_ElementConformsToProfile class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFTSM\_ElementConformsToProfile class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFTSM_ElementConformsToProfile : CIM_ElementConformsToProfile
 {
   CIM_RegisteredProfile REF ConformantStandard;
-  CIM_ManagedElement    REF ManagedElement;
+  CIM_ManagedElement    REF ManagedElement;
 };
 ```
 
@@ -91,7 +96,7 @@ Indicates the managed element that conforms to the registered profile
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\Interop<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -108,9 +113,9 @@ Indicates the managed element that conforms to the registered profile
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

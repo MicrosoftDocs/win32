@@ -1,12 +1,17 @@
-﻿---
-Description: 'Returns an IFaxAccount object by using the account name.'
-ms.assetid: '8b59bcff-c5f5-40a3-a900-ad9eab8fcbf2'
-title: 'FaxAccountSet.GetAccount method'
+---
+Description: Returns an IFaxAccount object by using the account name.
+ms.assetid: 8b59bcff-c5f5-40a3-a900-ad9eab8fcbf2
+title: FaxAccountSet.GetAccount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountSet.GetAccount method
 
-Returns an [**IFaxAccount**](-mfax-faxaccount-cpp.md) object by using the account name.
+Returns an [**IFaxAccount**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccount?branch=master) object by using the account name.
 
 ## Syntax
 
@@ -34,9 +39,9 @@ Specifies a null-terminated string that contains the name of the account to retu
 
 ## Return value
 
-Type: **[**IFaxAccount**](-mfax-faxaccount-cpp.md)\*\***
+Type: **[**IFaxAccount**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccount?branch=master)\*\***
 
-The address of a pointer to an [**IFaxAccount**](-mfax-faxaccount-cpp.md) object.
+The address of a pointer to an [**IFaxAccount**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccount?branch=master) object.
 
 ## Remarks
 
@@ -62,7 +67,7 @@ The address of a pointer to an [**IFaxAccount**](-mfax-faxaccount-cpp.md) object
 [**FaxAccountSet**](-mfax-faxaccountset.md)
 </dt> <dt>
 
-[**IFaxAccountSet**](-mfax-faxaccountset-cpp.md)
+[**IFaxAccountSet**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountset?branch=master)
 </dt> </dl>
 
  

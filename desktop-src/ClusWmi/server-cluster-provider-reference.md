@@ -4,13 +4,17 @@ description: Allows you to manage failover clusters through WMI.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '00427606-dd8b-4450-9d93-d44f236d067c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 00427606-dd8b-4450-9d93-d44f236d067c
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Failover Cluster APIs Failover Cluster , provider reference"]
+keywords:
+- Failover Cluster APIs Failover Cluster , provider reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Provider Reference

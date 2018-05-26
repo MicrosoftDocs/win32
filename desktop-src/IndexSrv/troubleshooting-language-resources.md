@@ -1,7 +1,12 @@
 ---
 title: Troubleshooting Language Resources
 description: Troubleshooting Language Resources
-ms.assetid: '7d6bf4c6-e0b2-4e9b-a5aa-06b1f617127d'
+ms.assetid: 7d6bf4c6-e0b2-4e9b-a5aa-06b1f617127d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting Language Resources
@@ -49,7 +54,7 @@ It is recommended that you monitor how the [**IStemmer**](istemmer.md) methods h
 It is recommended that you ensure that the [**IWordBreaker**](iwordbreaker.md) implementation performs consistently under the following conditions:
 
 -   Word breaker performs consistently across multiple calls to its [**Init**](iwordbreaker-init.md) method. The word breaker reinitializes with the same parameters as in the previous initialization, without releasing the parameters.
--   Given the same test corpus, and repetitions of the same query, the [**IWordBreaker::BreakText**](iwordbreaker-breaktext.md) method produces the identical output and makes identical calls to the methods of the [**WordSink**](iwordsink.md) and [**PhraseSink**](iphrasesink.md) objects.
+-   Given the same test corpus, and repetitions of the same query, the [**IWordBreaker::BreakText**](iwordbreaker-breaktext.md) method produces the identical output and makes identical calls to the methods of the [**WordSink**](iwordsink.md) and [**PhraseSink**](/windows/win32/Indexsrv/nn-indexsrv-iphrasesink?branch=master) objects.
 
 ### Testing for Invalid Input in the Word Breaker
 
@@ -62,7 +67,7 @@ It is recommended that you ensure that the [**IWordBreaker**](iwordbreaker.md) m
 -   Call to the [**BreakText**](iwordbreaker-breaktext.md) method with the *cwc* equal to 0. **BreakText** returns successfully (return S\_OK) and does not result in an access violation.
 -   Call to the [**BreakText**](iwordbreaker-breaktext.md) method with the *pwcInBuf* set to **NULL** and the *cwc* equal to 0. **BreakText** fails (return E\_FAIL) and does not result in an access violation.
 -   Phrases generated during index creation contain the same number of words.
--   Phrases are generated during index creation through successive calls to the [**PutWord**](iwordsink-putword.md) and [**PutAltWord**](iwordsink-putaltword.md) methods in the [**WordSink**](iwordsink.md) object. The word breaker uses only the [**PhraseSink**](iphrasesink.md) object during query time.
+-   Phrases are generated during index creation through successive calls to the [**PutWord**](iwordsink-putword.md) and [**PutAltWord**](iwordsink-putaltword.md) methods in the [**WordSink**](iwordsink.md) object. The word breaker uses only the [**PhraseSink**](/windows/win32/Indexsrv/nn-indexsrv-iphrasesink?branch=master) object during query time.
 
 ## Related topics
 

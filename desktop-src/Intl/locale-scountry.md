@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SCOUNTRY'
-ms.assetid: 'c7e8c9c9-b210-432a-8fa5-4cfa094e8c45'
-title: 'LOCALE\_SCOUNTRY'
+Description: LOCALE\_SCOUNTRY
+ms.assetid: c7e8c9c9-b210-432a-8fa5-4cfa094e8c45
+title: LOCALE\_SCOUNTRY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SCOUNTRY

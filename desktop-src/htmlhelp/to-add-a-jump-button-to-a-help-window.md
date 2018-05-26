@@ -1,7 +1,12 @@
 ---
 title: To add a Jump button to a help window
 description: To add a Jump button to a help window
-ms.assetid: '7D19D981-58F9-459b-B08A-C7F8CE186781'
+ms.assetid: 7D19D981-58F9-459b-B08A-C7F8CE186781
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To add a Jump button to a help window
@@ -14,7 +19,7 @@ ms.assetid: '7D19D981-58F9-459b-B08A-C7F8CE186781'
 
     
 
-     
+     
 
 2.  In the **Window Type** box, click the window you want to add a Jump button to.
 3.  Select the **Jump 1** check box, and then type a name for the button in the **Jump 1** text box.
@@ -37,9 +42,9 @@ ms.assetid: '7D19D981-58F9-459b-B08A-C7F8CE186781'
 [About Adding Buttons to a Help Window](adding-buttons-to-a-help-window.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

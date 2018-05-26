@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_OffsetY method retrieves the vertical offset of the wipe origin.'
-ms.assetid: '0d8b8df2-b916-4143-b1f1-7912ef3fa025'
-title: 'IDxtJpeg::get\_OffsetY method'
+---
+Description: The get\_OffsetY method retrieves the vertical offset of the wipe origin.
+ms.assetid: 0d8b8df2-b916-4143-b1f1-7912ef3fa025
+title: IDxtJpegget\_OffsetY method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::get\_OffsetY method

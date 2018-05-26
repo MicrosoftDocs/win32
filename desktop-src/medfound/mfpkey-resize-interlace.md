@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the input stream is interlaced.'
-ms.assetid: '01ee0766-06ed-4255-9057-2fe033a772cd'
-title: 'MFPKEY\_RESIZE\_INTERLACE Property'
+---
+Description: Specifies whether the input stream is interlaced.
+ms.assetid: 01ee0766-06ed-4255-9057-2fe033a772cd
+title: MFPKEY\_RESIZE\_INTERLACE Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_INTERLACE Property

@@ -1,7 +1,12 @@
 ---
 title: Create a Utility Object
 description: Create a Utility Object
-ms.assetid: 'ec145653-d60a-464d-b22b-38c423046b81'
+ms.assetid: ec145653-d60a-464d-b22b-38c423046b81
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create a Utility Object

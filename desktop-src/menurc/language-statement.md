@@ -1,14 +1,20 @@
 ---
 title: LANGUAGE statement
 description: Defines the language for all resources up to the next LANGUAGE statement or to the end of the file.
-ms.assetid: '175e27e2-903a-4aaf-89ef-532166b167e8'
-keywords: ["LANGUAGE statement Menus and Other Resources"]
+ms.assetid: 175e27e2-903a-4aaf-89ef-532166b167e8
+keywords:
+- LANGUAGE statement Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - LANGUAGE
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LANGUAGE statement

@@ -1,8 +1,10 @@
 ---
 title: MSFT\_VirtualDisk class
 description: Represents a subsystem storage volume.
-ms.assetid: '4f0d6967-ab9c-494f-a991-f62fda8c2fa8'
-keywords: ["MSFT_VirtualDisk class Windows Storage Management API", "MSFT_VirtualDisk class Windows Storage Management API , described"]
+ms.assetid: 4f0d6967-ab9c-494f-a991-f62fda8c2fa8
+keywords:
+- MSFT_VirtualDisk class Windows Storage Management API
+- MSFT_VirtualDisk class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -42,6 +44,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_VirtualDisk class
@@ -55,37 +62,37 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 ``` syntax
 class MSFT_VirtualDisk : MSFT_StorageObject
 {
-  String  FriendlyName;
-  String  Name;
-  UInt16  NameFormat;
-  UInt16  UniqueIdFormat;
-  String  UniqueIdFormatDescription;
-  UInt16  Usage;
-  String  OtherUsageDescription;
-  UInt16  HealthStatus;
-  UInt16  OperationalStatus[];
-  String  OtherOperationalStatusDescription;
-  String  ResiliencySettingName;
-  UInt64  Size;
-  UInt64  AllocatedSize;
-  UInt64  LogicalSectorSize;
-  UInt64  PhysicalSectorSize;
-  UInt64  FootprintOnPool;
-  UInt16  ProvisioningType;
-  UInt16  NumberOfDataCopies;
-  UInt16  PhysicalDiskRedundancy;
-  UInt16  ParityLayout;
-  UInt16  NumberOfColumns;
-  UInt64  Interleave;
+  String  FriendlyName;
+  String  Name;
+  UInt16  NameFormat;
+  UInt16  UniqueIdFormat;
+  String  UniqueIdFormatDescription;
+  UInt16  Usage;
+  String  OtherUsageDescription;
+  UInt16  HealthStatus;
+  UInt16  OperationalStatus[];
+  String  OtherOperationalStatusDescription;
+  String  ResiliencySettingName;
+  UInt64  Size;
+  UInt64  AllocatedSize;
+  UInt64  LogicalSectorSize;
+  UInt64  PhysicalSectorSize;
+  UInt64  FootprintOnPool;
+  UInt16  ProvisioningType;
+  UInt16  NumberOfDataCopies;
+  UInt16  PhysicalDiskRedundancy;
+  UInt16  ParityLayout;
+  UInt16  NumberOfColumns;
+  UInt64  Interleave;
   Boolean RequestNoSinglePointOfFailure;
-  UInt16  Access;
+  UInt16  Access;
   Boolean IsSnapshot;
   Boolean IsManualAttach;
   Boolean IsDeduplicationEnabled;
   Boolean IsEnclosureAware;
-  UInt16  NumberOfAvailableCopies;
-  UInt16  DetachedReason;
-  UInt64  WriteCacheSize;
+  UInt16  NumberOfAvailableCopies;
+  UInt16  DetachedReason;
+  UInt64  WriteCacheSize;
 };
 ```
 
@@ -125,7 +132,7 @@ The **MSFT\_VirtualDisk** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -268,7 +275,7 @@ Health of a virtual disk is derived from the health of the backing physical disk
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -502,7 +509,7 @@ An array of values that indicate the current operating conditions of the virtual
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -606,7 +613,7 @@ The provisioning scheme for the virtual disk.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -788,16 +795,16 @@ Virtual disks, when exposed to Windows, appear as (Windows) disks to the rest of
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
-Description: 'Subscription data resides in the subscription COM+ catalog. A subscription can be created either by using the Component Services administrative tool or programmatically by using the ICOMAdminCatalog::InstallComponent interface.'
-ms.assetid: 'ba39305d-8dc3-40fe-b6f6-d5c22f54a180'
+Description: Subscription data resides in the subscription COM+ catalog. A subscription can be created either by using the Component Services administrative tool or programmatically by using the ICOMAdminCatalogInstallComponent interface.
+ms.assetid: ba39305d-8dc3-40fe-b6f6-d5c22f54a180
 title: Subscriptions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subscriptions
 
-Subscription data resides in the subscription COM+ catalog. A subscription can be created either by using the Component Services administrative tool or programmatically by using the [**ICOMAdminCatalog::InstallComponent**](icomadmincatalog-installcomponent.md) interface.
+Subscription data resides in the subscription COM+ catalog. A subscription can be created either by using the Component Services administrative tool or programmatically by using the [**ICOMAdminCatalog::InstallComponent**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog-installcomponent?branch=master) interface.
 
-The [**SubscriptionsForComponent**](subscriptionsforcomponent.md) collection is used to add, delete, or change information pertaining to subscriptions. The **SubscriptionsForComponent** collection is a child collection to a component. To add a subscription, get the component's **SubscriptionsForComponent** collection and use the [**Add**](icatalogcollection-add.md) method to add an entry to the collection. To set up the various properties of the subscription object, use the [**Value**](icatalogobject-value.md) property. To save the changes, use [**SaveChanges**](icatalogcollection-savechanges.md) on the **SubscriptionsForComponent** collection object.
+The [**SubscriptionsForComponent**](subscriptionsforcomponent.md) collection is used to add, delete, or change information pertaining to subscriptions. The **SubscriptionsForComponent** collection is a child collection to a component. To add a subscription, get the component's **SubscriptionsForComponent** collection and use the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) method to add an entry to the collection. To set up the various properties of the subscription object, use the [**Value**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_value?branch=master) property. To save the changes, use [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master) on the **SubscriptionsForComponent** collection object.
 
 You can also use the Component Services administration tool to modify some, but not all, of the subscription properties. Subscriptions specify the following information:
 

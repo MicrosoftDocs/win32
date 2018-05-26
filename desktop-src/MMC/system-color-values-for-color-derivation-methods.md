@@ -4,11 +4,15 @@ description: If you specify szFormat as CSS for the color derivation methods, th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c9d1c208-946b-4e88-8c93-2105976b9b4b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: c9d1c208-946b-4e88-8c93-2105976b9b4b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["System Color Values for Color Derivation Methods"]
+keywords:
+- System Color Values for Color Derivation Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # System Color Values for Color Derivation Methods

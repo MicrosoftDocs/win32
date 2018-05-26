@@ -1,14 +1,20 @@
 ---
 title: WM/Publisher Attribute
 description: The WM/Publisher attribute is the name of the company that published the content.
-ms.assetid: '5f3aa5de-237e-449c-918e-8750481adc6f'
-keywords: ["WM/Publisher Attribute Windows Media Player"]
+ms.assetid: 5f3aa5de-237e-449c-918e-8750481adc6f
+keywords:
+- WM/Publisher Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/Publisher
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Publisher Attribute
@@ -51,9 +57,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

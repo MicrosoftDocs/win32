@@ -1,7 +1,12 @@
 ---
-Description: 'The InkEdit control enables you to collect ink, recognize ink, and display ink as text.'
-ms.assetid: '52761cb2-4433-4824-ba19-fe597de2faf0'
+Description: The InkEdit control enables you to collect ink, recognize ink, and display ink as text.
+ms.assetid: 52761cb2-4433-4824-ba19-fe597de2faf0
 title: InkEdit Control Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkEdit Control Reference
@@ -20,22 +25,22 @@ Creating the InkEdit control behind a transparent control (such as a GroupBox wi
 
 | Enumeration                                            | Description                                                                                                                                                                |
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AppearanceConstants**](appearanceconstants.md)     | Defines values that specify whether the control appears flat or 3-D.<br/>                                                                                            |
-| [**BorderStyleConstants**](borderstyleconstants.md)   | Defines values that specify whether the control has a border.<br/>                                                                                                   |
-| [**InkApplicationGesture**](inkapplicationgesture.md) | Defines values that set the interest in a set of application-specific gestures.<br/>                                                                                 |
-| [**InkDisplayMode**](inkdisplaymode.md)               | Defines values that specify whether a selection appears as ink or text.<br/>                                                                                         |
-| [**InkEditStatus**](inkeditstatus.md)                 | Defines values that specify whether the InkEdit control is idle, collecting ink, or recognizing ink.<br/>                                                            |
-| [**InkInsertMode**](inkinsertmode.md)                 | Defines values that specify how ink is inserted onto the InkEdit control.<br/>                                                                                       |
-| [**InkMode**](inkmode.md)                             | Defines values that specify the collection mode settings for drawn ink-whether ink collection is disabled, ink is collected, or ink and gestures are collected.<br/> |
-| [**InkMouseButton**](inkmousebutton.md)               | Defines values that specify which mouse button was pressed.<br/>                                                                                                     |
-| [**InkMousePointer**](inkmousepointer.md)             | Defines values that specify the type of mouse pointer that appears.<br/>                                                                                             |
-| [**MouseButton**](mousebutton.md)                     | Defines values that specify which mouse button was pressed.<br/>                                                                                                     |
-| [**ScrollBarsConstants**](scrollbarsconstants.md)     | Defines values that specify how the scroll bars of an InkEdit control appear on the screen.<br/>                                                                     |
-| [**SelAlignmentConstants**](selalignmentconstants.md) | Defines values that specify the alignment of the paragraph relative to the margins of the InkEdit control.<br/>                                                      |
+| [**AppearanceConstants**](/windows/win32/inked/ne-inked-appearanceconstants?branch=master)     | Defines values that specify whether the control appears flat or 3-D.<br/>                                                                                            |
+| [**BorderStyleConstants**](/windows/win32/inked/ne-inked-borderstyleconstants?branch=master)   | Defines values that specify whether the control has a border.<br/>                                                                                                   |
+| [**InkApplicationGesture**](/windows/win32/msinkaut/ne-msinkaut-inkapplicationgesture?branch=master) | Defines values that set the interest in a set of application-specific gestures.<br/>                                                                                 |
+| [**InkDisplayMode**](/windows/win32/inked/ne-inked-inkdisplaymode?branch=master)               | Defines values that specify whether a selection appears as ink or text.<br/>                                                                                         |
+| [**InkEditStatus**](/windows/win32/inked/ne-inked-inkeditstatus?branch=master)                 | Defines values that specify whether the InkEdit control is idle, collecting ink, or recognizing ink.<br/>                                                            |
+| [**InkInsertMode**](/windows/win32/inked/ne-inked-inkinsertmode?branch=master)                 | Defines values that specify how ink is inserted onto the InkEdit control.<br/>                                                                                       |
+| [**InkMode**](/windows/win32/inked/ne-inked-inkmode?branch=master)                             | Defines values that specify the collection mode settings for drawn ink-whether ink collection is disabled, ink is collected, or ink and gestures are collected.<br/> |
+| [**InkMouseButton**](/windows/win32/msinkaut/ne-msinkaut-inkmousebutton?branch=master)               | Defines values that specify which mouse button was pressed.<br/>                                                                                                     |
+| [**InkMousePointer**](/windows/win32/msinkaut/ne-msinkaut-inkmousepointer?branch=master)             | Defines values that specify the type of mouse pointer that appears.<br/>                                                                                             |
+| [**MouseButton**](/windows/win32/inked/ne-inked-mousebutton?branch=master)                     | Defines values that specify which mouse button was pressed.<br/>                                                                                                     |
+| [**ScrollBarsConstants**](/windows/win32/inked/ne-inked-scrollbarsconstants?branch=master)     | Defines values that specify how the scroll bars of an InkEdit control appear on the screen.<br/>                                                                     |
+| [**SelAlignmentConstants**](/windows/win32/inked/ne-inked-selalignmentconstants?branch=master) | Defines values that specify the alignment of the paragraph relative to the margins of the InkEdit control.<br/>                                                      |
 
 
 
- 
+ 
 
 
 
@@ -47,7 +52,7 @@ Creating the InkEdit control behind a transparent control (such as a GroupBox wi
 
 
 
- 
+ 
 
 
 
@@ -63,13 +68,13 @@ Creating the InkEdit control behind a transparent control (such as a GroupBox wi
 | [**MouseDown**](inkedit-mousedown.md)                 | Occurs when the mouse pointer is over the InkEdit control and a mouse button is pressed.<br/>                                                                                         |
 | [**MouseMove**](inkedit-mousemove.md)                 | Occurs when the mouse pointer is moved over the InkEdit control.<br/>                                                                                                                 |
 | [**MouseUp**](inkedit-mouseup.md)                     | Occurs when the mouse pointer is over the InkEdit control and a mouse button is released.<br/>                                                                                        |
-| [**RecognitionResult**](inkedit-recognitionresult.md) | Occurs when the InkEdit control gets results manually from a call to the [**Recognize**](inkedit-recognize.md) method or automatically after the recognition timeout has fired.<br/> |
+| [**RecognitionResult**](inkedit-recognitionresult.md) | Occurs when the InkEdit control gets results manually from a call to the [**Recognize**](/windows/win32/inked/?branch=master) method or automatically after the recognition timeout has fired.<br/> |
 | [**SelChange**](inkedit-selchange.md)                 | Occurs when the selection of ink within the InkEdit control changes.<br/>                                                                                                             |
-| [**Stroke**](inkedit-stroke.md)                       | Occurs when the user draws a new [**IInkStrokeDisp**](iinkstrokedisp.md) object on any [**IInkTablet**](iinktablet.md) object.<br/>                                                 |
+| [**Stroke**](inkedit-stroke.md)                       | Occurs when the user draws a new [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object on any [**IInkTablet**](/windows/win32/msinkaut/nn-msinkaut-iinktablet?branch=master) object.<br/>                                                 |
 
 
 
- 
+ 
 
 
 
@@ -91,8 +96,8 @@ Creating the InkEdit control behind a transparent control (such as a GroupBox wi
 | [EM\_SETFACTIOD](inkedit-messages--win32-only-.md)           | Sets the factoid to use for recognition (Win32 only).<br/>                                                                                                                |
 | [EM\_GETSELINK](inkedit-messages--win32-only-.md)            | Gets the ink in the selection (Win32 only).<br/>                                                                                                                          |
 | [EM\_SETSELINK](inkedit-messages--win32-only-.md)            | Sets the ink in the selection (Win32 only).<br/>                                                                                                                          |
-| [EM\_GETSELINKDISPLAYMODE](inkedit-messages--win32-only-.md) | Returns the current appearance of the ink in the selected range by using one of the values of the [**InkDisplayMode**](inkdisplaymode.md) enumeration (Win32 only).<br/> |
-| [EM\_SETSELINKDISPLAYMODE](inkedit-messages--win32-only-.md) | Sets the appearance of the ink in the selected range by using one of the values of the [**InkDisplayMode**](inkdisplaymode.md) enumeration (Win32 only).<br/>            |
+| [EM\_GETSELINKDISPLAYMODE](inkedit-messages--win32-only-.md) | Returns the current appearance of the ink in the selected range by using one of the values of the [**InkDisplayMode**](/windows/win32/inked/ne-inked-inkdisplaymode?branch=master) enumeration (Win32 only).<br/> |
+| [EM\_SETSELINKDISPLAYMODE](inkedit-messages--win32-only-.md) | Sets the appearance of the ink in the selected range by using one of the values of the [**InkDisplayMode**](/windows/win32/inked/ne-inked-inkdisplaymode?branch=master) enumeration (Win32 only).<br/>            |
 | [EM\_GETSTATUS](inkedit-messages--win32-only-.md)            | Gets the status of the control (Win32 only).<br/>                                                                                                                         |
 | [EM\_RECOGNIZE](inkedit-messages--win32-only-.md)            | Forces recognition (Win32 only).<br/>                                                                                                                                     |
 | [EM\_GETMOUSEICON](inkedit-messages--win32-only-.md)         | Gets the mouse icon (Win32 only).<br/>                                                                                                                                    |
@@ -104,78 +109,78 @@ Creating the InkEdit control behind a transparent control (such as a GroupBox wi
 
 
 
- 
+ 
 
 
 
 | Method                                               | Description                                                                     |
 |------------------------------------------------------|---------------------------------------------------------------------------------|
-| [**GetGestureStatus**](inkedit-getgesturestatus.md) | Gets the interest of the InkEdit control in a known set of gestures.<br/> |
-| [**Recognize**](inkedit-recognize.md)               | Specifies that recognition should occur.<br/>                             |
-| [**Refresh**](peninputpanel-refresh.md)             | Causes the control to redraw.<br/>                                        |
-| [**SetGestureStatus**](inkedit-setgesturestatus.md) | Sets the interest of the InkEdit control in a known set of gestures.<br/> |
+| [**GetGestureStatus**](/windows/win32/inked/?branch=master) | Gets the interest of the InkEdit control in a known set of gestures.<br/> |
+| [**Recognize**](/windows/win32/inked/?branch=master)               | Specifies that recognition should occur.<br/>                             |
+| [**Refresh**](/windows/win32/peninputpanel/?branch=master)             | Causes the control to redraw.<br/>                                        |
+| [**SetGestureStatus**](/windows/win32/inked/?branch=master) | Sets the interest of the InkEdit control in a known set of gestures.<br/> |
 
 
 
- 
+ 
 
 
 
 | Property                                                 | Description                                                                                                                                                                           |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Appearance**](inkedit-appearance.md)                 | Gets or sets a value that determines whether the InkEdit control appears flat or 3-D.<br/>                                                                                      |
-| [**BackColor**](inkedit-backcolor.md)                   | Gets or sets the background color for the InkEdit control.<br/>                                                                                                                 |
-| [**BorderStyle**](inkedit-borderstyle.md)               | Gets or sets a value that determines whether the InkEdit control has a border.<br/>                                                                                             |
-| [**DisableNoScroll**](inkedit-disablenoscroll.md)       | Gets or sets a value that determines whether scroll bars in the InkEdit control are disabled.<br/>                                                                              |
-| [**DrawingAttributes**](inkedit-drawingattributes.md)   | Gets or sets the drawing attributes for ink that is yet to be drawn on the InkEdit control.<br/>                                                                                |
-| [**Enabled**](inkedit-enabled.md)                       | Gets or sets a value that determines whether the InkEdit control can respond to user-generated events.<br/>                                                                     |
-| [**Factoid**](inkedit-factoid.md)                       | Gets or sets the [Factoid](factoid-constants.md) constant that a [**IInkRecognizer**](iinkrecognizer.md) object uses to constrain its search for the recognition result.<br/> |
-| [**Font**](inkedit-font.md)                             | Gets or sets the font of the text that the InkEdit control displays.<br/>                                                                                                       |
-| [**hWnd**](inkedit-hwnd.md)                             | Gets the window handle to which the [**InkDisp**](inkdisp-class.md) control is bound.<br/>                                                                                     |
-| [**InkInsertMode**](inkedit-inkinsertmode.md)           | Gets or sets a value that specifies how ink is inserted onto the InkEdit control, either as text or as ink.<br/>                                                                |
-| [**InkMode**](inkedit-inkmode.md)                       | Gets or sets a value that specifies whether ink collection is disabled, ink is collected, or ink and gestures are collected.<br/>                                               |
-| [**Locked**](inkedit-locked.md)                         | Gets or sets a value that specifies whether the InkEdit control is read-only or not.<br/>                                                                                       |
-| [**MaxLength**](inkedit-maxlength.md)                   | Gets or sets a value indicating whether an InkEdit control can hold a maximum number of characters and, if so, specifies the maximum number of characters.<br/>                 |
-| [**MouseIcon**](inkedit-mouseicon.md)                   | Gets or sets the current custom mouse icon.<br/>                                                                                                                                |
-| [**MousePointer**](inkedit-mousepointer.md)             | Gets or sets a value that indicates the type of mouse pointer that appears when the mouse is over a particular part of the InkEdit control.<br/>                                |
-| [**MultiLine**](inkedit-multiline.md)                   | Gets or sets a value that indicates whether this is a multiline InkEdit control.<br/>                                                                                           |
-| [**RecognitionTimeout**](inkedit-recotimeout.md)        | Gets or sets the length of time, in milliseconds, between the last [**IInkStrokeDisp**](iinkstrokedisp.md) object collected and the beginning of text recognition.<br/>        |
-| [**Recognizer**](inkedit-recognizer.md)                 | Gets or sets the [**IInkRecognizer**](iinkrecognizer.md) object to use for recognition.<br/>                                                                                   |
-| [**ScrollBars**](inkedit-scrollbars.md)                 | Gets or sets the type of scroll bars that appear in the InkEdit control.<br/>                                                                                                   |
-| [**SelAlignment**](inkedit-selalignment.md)             | Gets or sets the alignment to apply to the current selection or insertion point (run time only).<br/>                                                                           |
-| [**SelBold**](inkedit-selbold.md)                       | Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is bold (run time only).<br/>                                  |
-| [**SelCharOffset**](inkedit-selcharoffset.md)           | Gets or sets whether text in the InkEdit control appears on the baseline, as a superscript, or as a subscript (run time only).<br/>                                             |
-| [**SelColor**](inkedit-selcolor.md)                     | Gets or sets the text color of the current text selection or insertion point (run time only).<br/>                                                                              |
-| [**SelFontName**](inkedit-selfontname.md)               | Gets or sets the font name of the selected text within the InkEdit control (run time only).<br/>                                                                                |
-| [**SelFontSize**](inkedit-selfontsize.md)               | Gets or sets the font size of the selected text within the InkEdit control (run time only).<br/>                                                                                |
-| [**SelInks**](inkedit-selinks.md)                       | Gets or sets the array of embedded [**InkDisp**](inkdisp-class.md) objects (if displayed as ink) that the current selection contains.<br/>                                     |
-| [**SelInksDisplayMode**](inkedit-selinksdisplaymode.md) | Gets or sets a value that allows toggling the appearance of the selection between ink and text.<br/>                                                                            |
-| [**SelItalic**](inkedit-selitalic.md)                   | Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is italic (run time only).<br/>                                |
-| [**SelLength**](inkedit-sellength.md)                   | Gets or sets the number of characters that are selected in the InkEdit control (run time only).<br/>                                                                            |
-| [**SelRTF**](inkedit-selrtf.md)                         | Gets or sets the currently selected Rich Text Format (RTF) formatted text in the InkEdit control (run time only).<br/>                                                          |
-| [**SelStart**](inkedit-selstart.md)                     | Gets or sets the starting point of the text that is selected in the text box (run time only).<br/>                                                                              |
-| [**SelText**](inkedit-seltext.md)                       | Gets or sets the selected text within the InkEdit control (run time only).<br/>                                                                                                 |
-| [**SelUnderline**](inkedit-selunderline.md)             | Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is underlined (run time only).<br/>                            |
-| [**Status**](inkedit-status.md)                         | Gets a value that specifies whether the InkEdit control is idle, collecting ink, or recognizing ink (run time only).<br/>                                                       |
-| [**Text**](inkedit-text.md)                             | Gets or sets the current text in the text box.<br/>                                                                                                                             |
-| [**TextRTF**](inkedit-textrtf.md)                       | Gets or sets the text of the InkEdit control, including all RTF codes.<br/>                                                                                                     |
-| [**UseMouseForInput**](inkedit-usemouseforinput.md)     | Gets or sets a value that indicates whether the mouse can be used as an input device.<br/>                                                                                      |
+| [**Appearance**](/windows/win32/inked/?branch=master)                 | Gets or sets a value that determines whether the InkEdit control appears flat or 3-D.<br/>                                                                                      |
+| [**BackColor**](/windows/win32/inked/?branch=master)                   | Gets or sets the background color for the InkEdit control.<br/>                                                                                                                 |
+| [**BorderStyle**](/windows/win32/inked/?branch=master)               | Gets or sets a value that determines whether the InkEdit control has a border.<br/>                                                                                             |
+| [**DisableNoScroll**](/windows/win32/inked/?branch=master)       | Gets or sets a value that determines whether scroll bars in the InkEdit control are disabled.<br/>                                                                              |
+| [**DrawingAttributes**](/windows/win32/inked/?branch=master)   | Gets or sets the drawing attributes for ink that is yet to be drawn on the InkEdit control.<br/>                                                                                |
+| [**Enabled**](/windows/win32/inked/?branch=master)                       | Gets or sets a value that determines whether the InkEdit control can respond to user-generated events.<br/>                                                                     |
+| [**Factoid**](/windows/win32/inked/?branch=master)                       | Gets or sets the [Factoid](factoid-constants.md) constant that a [**IInkRecognizer**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognizer?branch=master) object uses to constrain its search for the recognition result.<br/> |
+| [**Font**](/windows/win32/inked/?branch=master)                             | Gets or sets the font of the text that the InkEdit control displays.<br/>                                                                                                       |
+| [**hWnd**](/windows/win32/inked/?branch=master)                             | Gets the window handle to which the [**InkDisp**](/windows/win32/msinkaut/?branch=master) control is bound.<br/>                                                                                     |
+| [**InkInsertMode**](/windows/win32/inked/?branch=master)           | Gets or sets a value that specifies how ink is inserted onto the InkEdit control, either as text or as ink.<br/>                                                                |
+| [**InkMode**](/windows/win32/inked/?branch=master)                       | Gets or sets a value that specifies whether ink collection is disabled, ink is collected, or ink and gestures are collected.<br/>                                               |
+| [**Locked**](/windows/win32/inked/?branch=master)                         | Gets or sets a value that specifies whether the InkEdit control is read-only or not.<br/>                                                                                       |
+| [**MaxLength**](/windows/win32/inked/?branch=master)                   | Gets or sets a value indicating whether an InkEdit control can hold a maximum number of characters and, if so, specifies the maximum number of characters.<br/>                 |
+| [**MouseIcon**](/windows/win32/inked/?branch=master)                   | Gets or sets the current custom mouse icon.<br/>                                                                                                                                |
+| [**MousePointer**](/windows/win32/inked/?branch=master)             | Gets or sets a value that indicates the type of mouse pointer that appears when the mouse is over a particular part of the InkEdit control.<br/>                                |
+| [**MultiLine**](/windows/win32/inked/?branch=master)                   | Gets or sets a value that indicates whether this is a multiline InkEdit control.<br/>                                                                                           |
+| [**RecognitionTimeout**](/windows/win32/inked/?branch=master)        | Gets or sets the length of time, in milliseconds, between the last [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object collected and the beginning of text recognition.<br/>        |
+| [**Recognizer**](/windows/win32/inked/?branch=master)                 | Gets or sets the [**IInkRecognizer**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognizer?branch=master) object to use for recognition.<br/>                                                                                   |
+| [**ScrollBars**](/windows/win32/inked/?branch=master)                 | Gets or sets the type of scroll bars that appear in the InkEdit control.<br/>                                                                                                   |
+| [**SelAlignment**](/windows/win32/inked/?branch=master)             | Gets or sets the alignment to apply to the current selection or insertion point (run time only).<br/>                                                                           |
+| [**SelBold**](/windows/win32/inked/?branch=master)                       | Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is bold (run time only).<br/>                                  |
+| [**SelCharOffset**](/windows/win32/inked/?branch=master)           | Gets or sets whether text in the InkEdit control appears on the baseline, as a superscript, or as a subscript (run time only).<br/>                                             |
+| [**SelColor**](/windows/win32/inked/?branch=master)                     | Gets or sets the text color of the current text selection or insertion point (run time only).<br/>                                                                              |
+| [**SelFontName**](/windows/win32/inked/?branch=master)               | Gets or sets the font name of the selected text within the InkEdit control (run time only).<br/>                                                                                |
+| [**SelFontSize**](/windows/win32/inked/?branch=master)               | Gets or sets the font size of the selected text within the InkEdit control (run time only).<br/>                                                                                |
+| [**SelInks**](/windows/win32/inked/?branch=master)                       | Gets or sets the array of embedded [**InkDisp**](/windows/win32/msinkaut/?branch=master) objects (if displayed as ink) that the current selection contains.<br/>                                     |
+| [**SelInksDisplayMode**](/windows/win32/inked/?branch=master) | Gets or sets a value that allows toggling the appearance of the selection between ink and text.<br/>                                                                            |
+| [**SelItalic**](/windows/win32/inked/?branch=master)                   | Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is italic (run time only).<br/>                                |
+| [**SelLength**](/windows/win32/inked/?branch=master)                   | Gets or sets the number of characters that are selected in the InkEdit control (run time only).<br/>                                                                            |
+| [**SelRTF**](/windows/win32/inked/?branch=master)                         | Gets or sets the currently selected Rich Text Format (RTF) formatted text in the InkEdit control (run time only).<br/>                                                          |
+| [**SelStart**](/windows/win32/inked/?branch=master)                     | Gets or sets the starting point of the text that is selected in the text box (run time only).<br/>                                                                              |
+| [**SelText**](/windows/win32/inked/?branch=master)                       | Gets or sets the selected text within the InkEdit control (run time only).<br/>                                                                                                 |
+| [**SelUnderline**](/windows/win32/inked/?branch=master)             | Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is underlined (run time only).<br/>                            |
+| [**Status**](/windows/win32/inked/?branch=master)                         | Gets a value that specifies whether the InkEdit control is idle, collecting ink, or recognizing ink (run time only).<br/>                                                       |
+| [**Text**](/windows/win32/inked/?branch=master)                             | Gets or sets the current text in the text box.<br/>                                                                                                                             |
+| [**TextRTF**](/windows/win32/inked/?branch=master)                       | Gets or sets the text of the InkEdit control, including all RTF codes.<br/>                                                                                                     |
+| [**UseMouseForInput**](/windows/win32/inked/?branch=master)     | Gets or sets a value that indicates whether the mouse can be used as an input device.<br/>                                                                                      |
 
 
 
- 
+ 
 
 
 
 | Structure                                                                    | Description                                                                                  |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| [**IEC\_STROKEINFO**](iec-strokeinfo--win32-only-.md)                       | Contains information about a [**Stroke**](inkedit-stroke.md) event (Win32 only).<br/> |
-| [**IEC\_GESTUREINFO**](iec-gestureinfo--win32-only-.md)                     | Contains information about a specific gesture (Win32 only).<br/>                       |
-| [**IEC\_RECOGNITIONRESULTINFO**](iec-recognitionresultinfo--win32-only-.md) | Contains information about a recognition result (Win32 only).<br/>                     |
+| [**IEC\_STROKEINFO**](/windows/win32/inked/ns-inked-iec_strokeinfo?branch=master)                       | Contains information about a [**Stroke**](inkedit-stroke.md) event (Win32 only).<br/> |
+| [**IEC\_GESTUREINFO**](/windows/win32/inked/ns-inked-iec_gestureinfo?branch=master)                     | Contains information about a specific gesture (Win32 only).<br/>                       |
+| [**IEC\_RECOGNITIONRESULTINFO**](/windows/win32/inked/ns-inked-iec_recognitionresultinfo?branch=master) | Contains information about a recognition result (Win32 only).<br/>                     |
 
 
 
- 
+ 
 
 ## COM Implementation
 
@@ -185,18 +190,18 @@ This object implements the **IInkEdit** COM interface.
 
 <dl> <dt>
 
-[**InkOverlay Class**](inkoverlay-class.md)
+[**InkOverlay Class**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
 [InkPicture Control Reference](inkpicture-control-reference.md)
 </dt> <dt>
 
-[**InkRecognizerContext Class**](inkrecognizercontext-class.md)
+[**InkRecognizerContext Class**](/windows/win32/msinkaut/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

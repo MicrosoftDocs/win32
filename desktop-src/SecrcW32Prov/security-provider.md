@@ -1,13 +1,16 @@
 ---
-Description: 'The Security provider allows you to retrieve or change security settings that control ownership, auditing, and access rights to NTFS files, directories, and shares.'
+Description: The Security provider allows you to retrieve or change security settings that control ownership, auditing, and access rights to NTFS files, directories, and shares.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e2c6c640-9ae0-43c4-8269-22a578bb99a1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e2c6c640-9ae0-43c4-8269-22a578bb99a1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Security Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Security Provider

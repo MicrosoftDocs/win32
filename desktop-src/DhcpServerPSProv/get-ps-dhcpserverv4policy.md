@@ -4,13 +4,16 @@ description: Gets one or more policies at the server level or the scope level.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4ac0e140-4587-4089-ae24-4995ac2611b5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4ac0e140-4587-4089-ae24-4995ac2611b5
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv4Policy class", "PS_DhcpServerv4Policy class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv4Policy class
+- PS_DhcpServerv4Policy class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv4Policy class
@@ -30,10 +36,10 @@ Gets one or more policies at the server level or the scope level.
 
 ```mof
 uint32 Get(
-  [in]  string             ComputerName,
-  [in]  string             Name[],
-  [in]  string             ScopeId,
-  [out] DhcpServerv4Policy cmdletOutput[]
+  [in]  string             ComputerName,
+  [in]  string             Name[],
+  [in]  string             ScopeId,
+  [out] DhcpServerv4Policy cmdletOutput[]
 );
 ```
 
@@ -78,7 +84,7 @@ An embedded instance of the [**DhcpServerv4Policy**](dhcpserverv4policy.md) clas
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -92,9 +98,9 @@ An embedded instance of the [**DhcpServerv4Policy**](dhcpserverv4policy.md) clas
 [**PS\_DhcpServerv4Policy**](ps-dhcpserverv4policy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

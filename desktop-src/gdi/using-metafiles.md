@@ -1,7 +1,12 @@
 ---
-Description: 'This section explains how to perform the following tasks:'
-ms.assetid: '7236489c-d3b0-4f1a-b452-e71b70ad7996'
+Description: This section explains how to perform the following tasks
+ms.assetid: 7236489c-d3b0-4f1a-b452-e71b70ad7996
 title: Using Metafiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Metafiles

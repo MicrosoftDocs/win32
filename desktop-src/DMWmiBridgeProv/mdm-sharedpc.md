@@ -1,8 +1,10 @@
 ---
 title: MDM\_SharedPC class
 description: The MDM\_SharedPC class is used to configure settings for shared PC usage.
-ms.assetid: '90985c4d-601e-4827-aee0-13524a69f759'
-keywords: ["MDM_SharedPC class", "MDM_SharedPC class, described"]
+ms.assetid: 90985c4d-601e-4827-aee0-13524a69f759
+keywords:
+- MDM_SharedPC class
+- MDM_SharedPC class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_SharedPC class
@@ -29,24 +36,24 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv1")]
 class MDM_SharedPC
 {
-  string  InstanceID;
-  string  ParentID;
+  string  InstanceID;
+  string  ParentID;
   boolean EnableSharedPCMode;
   boolean SetEduPolicies;
   boolean SetPowerPolicies;
-  sint32  MaintenanceStartTime;
+  sint32  MaintenanceStartTime;
   boolean SignInOnResume;
-  sint32  SleepTimeout;
+  sint32  SleepTimeout;
   boolean EnableAccountManager;
-  sint32  AccountModel;
-  sint32  DeletionPolicy;
-  sint32  DiskLevelDeletion;
-  sint32  DiskLevelCaching;
+  sint32  AccountModel;
+  sint32  DeletionPolicy;
+  sint32  DiskLevelDeletion;
+  sint32  DiskLevelCaching;
   boolean RestrictLocalStorage;
-  string  KioskModeAUMID;
-  string  KioskModeUserTileDisplayText;
-  sint32  InactiveThreshold;
-  sint32  MaxPageFileSizeMB;
+  string  KioskModeAUMID;
+  string  KioskModeUserTileDisplayText;
+  sint32  InactiveThreshold;
+  sint32  MaxPageFileSizeMB;
 };
 ```
 
@@ -304,7 +311,7 @@ For additional information, see [SharedPC CSP](https://msdn.microsoft.com/window
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                       |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl> |
@@ -312,9 +319,9 @@ For additional information, see [SharedPC CSP](https://msdn.microsoft.com/window
 
 
 
- 
+ 
 
- 
+ 
 
 
 

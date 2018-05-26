@@ -1,7 +1,12 @@
 ---
 title: EAPHost Development Frequently Asked Questions
 description: EAPHost Development Frequently Asked Questions
-ms.assetid: '56258ee6-7a0a-4926-85c1-039eb02e1d93'
+ms.assetid: 56258ee6-7a0a-4926-85c1-039eb02e1d93
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAPHost Development Frequently Asked Questions

@@ -4,13 +4,16 @@ description: Requests that the device capture its current configuration, setup, 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8bb1fe9f-7ca7-4324-82f1-60ab43a2e589'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8bb1fe9f-7ca7-4324-82f1-60ab43a2e589
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SaveProperties method iSCSI Software Target API", "SaveProperties method iSCSI Software Target API , MSISCSITARGET_SCSIProtocolController class", "MSISCSITARGET_SCSIProtocolController class iSCSI Software Target API , SaveProperties method"]
+keywords:
+- SaveProperties method iSCSI Software Target API
+- SaveProperties method iSCSI Software Target API , MSISCSITARGET_SCSIProtocolController class
+- MSISCSITARGET_SCSIProtocolController class iSCSI Software Target API , SaveProperties method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SaveProperties method of the MSISCSITARGET\_SCSIProtocolController class
@@ -80,7 +86,7 @@ Undefined error.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -94,9 +100,9 @@ Undefined error.
 [**MSISCSITARGET\_SCSIProtocolController**](msiscsitarget-scsiprotocolcontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

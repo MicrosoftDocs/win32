@@ -1,7 +1,12 @@
 ---
-Description: 'Fog blending refers to the application of the fog factor to the fog and object colors to produce the final color that appears in a scene, as discussed in Fog Formulas (Direct3D 9).'
-ms.assetid: 'b5b43f12-bbed-4464-aebc-02ad6dab1951'
-title: 'Fog Blending (Direct3D 9)'
+Description: Fog blending refers to the application of the fog factor to the fog and object colors to produce the final color that appears in a scene, as discussed in Fog Formulas (Direct3D 9).
+ms.assetid: b5b43f12-bbed-4464-aebc-02ad6dab1951
+title: Fog Blending (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fog Blending (Direct3D 9)

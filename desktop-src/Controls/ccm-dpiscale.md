@@ -1,8 +1,9 @@
 ---
 title: CCM\_DPISCALE message
 description: Enables automatic high dots per inch (dpi) scaling in Tree-View controls, List-View controls, ComboBoxEx controls, Header controls, Buttons, Toolbar controls, Animation controls, and Image Lists.
-ms.assetid: '3c751f10-992c-41f8-8f0b-3dc58f0591e4'
-keywords: ["CCM_DPISCALE message Windows Controls"]
+ms.assetid: 3c751f10-992c-41f8-8f0b-3dc58f0591e4
+keywords:
+- CCM_DPISCALE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCM\_DPISCALE message
@@ -48,7 +54,7 @@ Any control that uses an image list created with the SmallIcon metric should not
 > [!Note]  
 > To use this API, you must provide a manifest that specifies Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -56,15 +62,15 @@ Any control that uses an image list created with the SmallIcon metric should not
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

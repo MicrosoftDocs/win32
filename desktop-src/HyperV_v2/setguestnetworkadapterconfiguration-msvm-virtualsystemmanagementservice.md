@@ -1,7 +1,12 @@
 ---
-Description: 'Configures the network adapters within the guest operating system.'
-ms.assetid: '698e0c17-f8bd-433f-b982-5481f9701ba6'
-title: 'SetGuestNetworkAdapterConfiguration method of the Msvm\_VirtualSystemManagementService class'
+Description: Configures the network adapters within the guest operating system.
+ms.assetid: 698e0c17-f8bd-433f-b982-5481f9701ba6
+title: SetGuestNetworkAdapterConfiguration method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetGuestNetworkAdapterConfiguration method of the Msvm\_VirtualSystemManagementService class
@@ -13,9 +18,9 @@ Configures the network adapters within the guest operating system. These configu
 
 ```mof
 uint32 SetGuestNetworkAdapterConfiguration(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  string                 NetworkConfiguration[],
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  string                 NetworkConfiguration[],
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -97,8 +102,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -112,9 +117,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

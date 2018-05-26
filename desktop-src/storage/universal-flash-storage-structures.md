@@ -1,7 +1,12 @@
 ---
 title: Universal Flash Storage Structures
 description: This section describes the Universal Flash Storage (UFS) structures.
-ms.assetid: 'F4F16FE6-545D-43D6-AD14-D62474774A55'
+ms.assetid: F4F16FE6-545D-43D6-AD14-D62474774A55
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Universal Flash Storage Structures

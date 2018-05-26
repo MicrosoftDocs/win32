@@ -4,11 +4,14 @@ description: Returns the log event name for the specified log event index.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ca31ef8e-ab84-4132-a6d2-232b1e69230a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ca31ef8e-ab84-4132-a6d2-232b1e69230a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetLogEventName method Remote Desktop Services", "GetLogEventName method Remote Desktop Services , Win32_TSGatewayServerSettings class", "Win32_TSGatewayServerSettings class Remote Desktop Services , GetLogEventName method"]
+keywords:
+- GetLogEventName method Remote Desktop Services
+- GetLogEventName method Remote Desktop Services , Win32_TSGatewayServerSettings class
+- Win32_TSGatewayServerSettings class Remote Desktop Services , GetLogEventName method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetLogEventName method of the Win32\_TSGatewayServerSettings class
@@ -28,8 +34,8 @@ Returns the log event name for the specified log event index.
 
 ```mof
 uint32 GetLogEventName(
-  [in]  uint32 EventIndex,
-  [out] string EventName
+  [in]  uint32 EventIndex,
+  [out] string EventName
 );
 ```
 
@@ -147,7 +153,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -167,9 +173,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**IsLogEventEnabled**](islogeventenabled-win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

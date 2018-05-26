@@ -1,25 +1,29 @@
 ---
 title: MSProtectedData getBytes length error method
-description: Copies the specified number of plaintext bytes from the start of the receiver’s data into a given buffer. Decryption is transparently performed during the execution of the method.
+description: Copies the specified number of plaintext bytes from the start of the receiver s data into a given buffer. Decryption is transparently performed during the execution of the method.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fff7d7d4-e2aa-4246-8e5f-89d9d253bce7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: fff7d7d4-e2aa-4246-8e5f-89d9d253bce7
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSProtectedData getBytes length error method"]
+keywords:
+- MSProtectedData getBytes length error method
 topic_type:
 - apiref
 api_name:
 - MSProtectedData getBytes length error method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSProtectedData getBytes:length:error method
 
-Copies the specified number of plaintext bytes from the start of the receiver’s data into a given buffer. Decryption is transparently performed during the execution of the method.
+Copies the specified number of plaintext bytes from the start of the receiver s data into a given buffer. Decryption is transparently performed during the execution of the method.
 
 ## Signature
 
@@ -39,7 +43,7 @@ Copies the specified number of plaintext bytes from the start of the receiver’s 
 
 
 
- 
+ 
 
 ## Returns
 
@@ -61,7 +65,7 @@ MSProtectedData.h
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,9 +78,9 @@ The specified number of bytes beginning at the start of the receiver's data are 
 [**MSProtectedData Class**](msprotecteddata-interface-objc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

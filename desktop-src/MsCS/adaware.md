@@ -4,17 +4,21 @@ description: A DNS suffix for a Network Name resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'D6E6B6BB-0268-4905-BD40-91B4C1A5DC22'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: D6E6B6BB-0268-4905-BD40-91B4C1A5DC22
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ADAware Failover Cluster"]
+keywords:
+- ADAware Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ADAware
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADAware
@@ -27,14 +31,14 @@ A DNS suffix for a Network Name resource.
 |----------------------|-------------------------------------------|
 | Data type<br/> | **DWORD**                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum<br/>   | 0<br/>                              |
 | Maximum<br/>   | 2<br/>                              |
 | Default<br/>   | 0xFFFFFFFF<br/>                     |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_NETNAME\_AD\_AWARE**.
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_NETNAME\_AD\_AWARE**.
 [Cluster Name Private Properties](network-name-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

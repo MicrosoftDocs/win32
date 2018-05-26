@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the unfiltered image cached by the IWiaPreview::GetNewPreview method.'
-ms.assetid: '121b6866-cca1-4170-9bdf-225491f942f5'
-title: 'IWiaPreview::UpdatePreview method'
+---
+Description: Gets the unfiltered image cached by the IWiaPreviewGetNewPreview method.
+ms.assetid: 121b6866-cca1-4170-9bdf-225491f942f5
+title: IWiaPreviewUpdatePreview method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaPreview::UpdatePreview method

@@ -1,6 +1,11 @@
-﻿---
-ms.assetid: '71fa9a99-83e4-4b27-9fd1-5a9dc3070820'
-title: 'OPM\_GET\_CONNECTED\_HDCP\_DEVICE\_INFORMATION'
+---
+ms.assetid: 71fa9a99-83e4-4b27-9fd1-5a9dc3070820
+title: OPM\_GET\_CONNECTED\_HDCP\_DEVICE\_INFORMATION
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM\_GET\_CONNECTED\_HDCP\_DEVICE\_INFORMATION
@@ -16,7 +21,7 @@ Gets information about a High-Bandwidth Digital Content Protection (HDCP) device
 |--------------|---------------------------------------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_CONNECTED\_HDCP\_DEVICE\_INFORMATION                                                          |
 | Input data   | None                                                                                                    |
-| Return data  | An [**OPM\_CONNECTED\_HDCP\_DEVICE\_INFORMATION**](opm-connected-hdcp-device-information.md) structure |
+| Return data  | An [**OPM\_CONNECTED\_HDCP\_DEVICE\_INFORMATION**](/windows/win32/opmapi/ns-opmapi-_opm_connected_hdcp_device_information?branch=master) structure |
 
 
 
@@ -24,7 +29,7 @@ Gets information about a High-Bandwidth Digital Content Protection (HDCP) device
 
 ## Remarks
 
-This query can be used only with *COPP emulation mode*. If the [**IOPMVideoOutput**](iopmvideooutput.md) interface uses Output Protection Manager (OPM) semantics, this status request is not supported.
+This query can be used only with *COPP emulation mode*. If the [**IOPMVideoOutput**](/windows/win32/opmapi/nn-opmapi-iopmvideooutput?branch=master) interface uses Output Protection Manager (OPM) semantics, this status request is not supported.
 
 The KSV is an identifier provided to the device manufacturer, and is used in the HDCP authentication and setup process. In COPP emulation mode, the application uses the KSV to determine whether the HDCP device is revoked. If it is, the application should not play protected content. Also, the application should not play protected content if the device is an HDCP repeater, because COPP does not support HDCP repeaters.
 
@@ -48,7 +53,7 @@ This query is equivalent to the DXVA\_COPPQueryHDCPKeyData query used in Certifi
 
 <dl> <dt>
 
-[**IOPMVideoOutput::COPPCompatibleGetInformation**](iopmvideooutput-iopmvideooutput--coppcompatiblegetinformation.md)
+[**IOPMVideoOutput::COPPCompatibleGetInformation**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation?branch=master)
 </dt> <dt>
 
 [OPM Status Requests](opm-status-requests.md)

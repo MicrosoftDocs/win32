@@ -4,13 +4,16 @@ description: KillJob is being deprecated because there is no distinction made be
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3570a247-d467-4f23-b2f6-a10cf9f1e9b1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3570a247-d467-4f23-b2f6-a10cf9f1e9b1
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["KillJob method", "KillJob method, CIM_ConcreteJob class", "CIM_ConcreteJob class, KillJob method"]
+keywords:
+- KillJob method
+- KillJob method, CIM_ConcreteJob class
+- CIM_ConcreteJob class, KillJob method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MSPSService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # KillJob method of the CIM\_ConcreteJob class
@@ -32,7 +38,7 @@ api_type:
 
 ```mof
 uint32 KillJob(
-  [in] boolean DeleteOnKill
+  [in] boolean DeleteOnKill
 );
 ```
 
@@ -119,7 +125,7 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 
 </dt> <dd>
 
-8–32767
+8 32767
 
 **DMTF Reserved**
 
@@ -128,7 +134,7 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 **Vendor Specific**
 
@@ -141,7 +147,7 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>MSPSService.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSService.dll</dt> </dl> |
@@ -155,9 +161,9 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

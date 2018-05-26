@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Recipient property retrieves an object containing information about the recipient of the fax message.'
-ms.assetid: '81947e67-6969-40d5-b58f-114d1e61cf5a'
-title: 'FaxOutgoingMessage.Recipient property'
+---
+Description: The Recipient property retrieves an object containing information about the recipient of the fax message.
+ms.assetid: 81947e67-6969-40d5-b58f-114d1e61cf5a
+title: FaxOutgoingMessage.Recipient property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.Recipient property
@@ -46,7 +51,7 @@ A [**FaxRecipient**](-mfax-faxrecipient.md) object.
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage**](-mfax-faxoutgoingmessage-cpp.md)
+[**IFaxOutgoingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage?branch=master)
 </dt> </dl>
 
  

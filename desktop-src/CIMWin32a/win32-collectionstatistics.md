@@ -4,13 +4,15 @@ description: The Win32\_CollectionStatistics abstract association WMI class rela
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9006e77e-55c4-42b9-b0f5-c63626e8d43e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9006e77e-55c4-42b9-b0f5-c63626e8d43e
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_CollectionStatistics class", "Win32_CollectionStatistics class, described"]
+keywords:
+- Win32_CollectionStatistics class
+- Win32_CollectionStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - Wmipcima.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_CollectionStatistics class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_CollectionStatistics
 {
   CIM_StatisticalInformation REF Stats;
-  CIM_CollectionOfMSEs       REF Collection;
+  CIM_CollectionOfMSEs       REF Collection;
 };
 ```
 
@@ -84,8 +89,8 @@ Reference to an instance of a [**CIM\_StatisticalInformation**](https://msdn.mic
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipcima.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipcima.dll</dt> </dl> |
@@ -99,9 +104,9 @@ Reference to an instance of a [**CIM\_StatisticalInformation**](https://msdn.mic
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

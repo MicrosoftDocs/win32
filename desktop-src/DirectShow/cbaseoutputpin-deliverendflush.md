@@ -1,7 +1,12 @@
 ---
-Description: 'The DeliverEndFlush method requests the connected input pin to end a flush operation.'
-ms.assetid: '9f1fd76c-dba7-41c5-b098-9735e4f2571b'
-title: 'CBaseOutputPin.DeliverEndFlush method'
+Description: The DeliverEndFlush method requests the connected input pin to end a flush operation.
+ms.assetid: 9f1fd76c-dba7-41c5-b098-9735e4f2571b
+title: CBaseOutputPin.DeliverEndFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin.DeliverEndFlush method
@@ -34,11 +39,11 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
-This method calls the [**IPin::EndFlush**](ipin-endflush.md) method on the input pin.
+This method calls the [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) method on the input pin.
 
 ## Requirements
 
@@ -58,9 +63,9 @@ This method calls the [**IPin::EndFlush**](ipin-endflush.md) method on the input
 [**CBaseOutputPin Class**](cbaseoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

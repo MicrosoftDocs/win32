@@ -4,11 +4,13 @@ description: Represents an association between a Remote Desktop virtual machine 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '374b1a29-78de-45fd-97b3-c5a5b724e66b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 374b1a29-78de-45fd-97b3-c5a5b724e66b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSVmMetadataAssociation class Remote Desktop Services", "Win32_TSVmMetadataAssociation class Remote Desktop Services , described"]
+keywords:
+- Win32_TSVmMetadataAssociation class Remote Desktop Services
+- Win32_TSVmMetadataAssociation class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSVmMetadataAssociation class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, Association, provider("Win32_TSVmHost_Prov"), AMENDMENT]
 class Win32_TSVmMetadataAssociation
 {
-  Win32_TSVm             REF TSVm;
+  Win32_TSVm             REF TSVm;
   Win32_TSVmMetadataItem REF MetadataItem;
 };
 ```
@@ -86,16 +91,16 @@ An instance of the [**Win32\_TSVm**](win32-tsvm.md) class that represents the vi
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\CIMV2\\TerminalServices<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>TSVmHost.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TSVmHostWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '872c2a33-327e-41a8-81db-905c46673f13'
-title: 'Best Practices for On/Off Performance'
+Description: .
+ms.assetid: 872c2a33-327e-41a8-81db-905c46673f13
+title: Best Practices for On/Off Performance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Best Practices for On/Off Performance

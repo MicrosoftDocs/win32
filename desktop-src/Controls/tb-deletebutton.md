@@ -1,8 +1,9 @@
 ---
 title: TB\_DELETEBUTTON message
 description: Deletes a button from the toolbar.
-ms.assetid: '6ba569f0-c400-4c0d-bc9f-3a82bcef0360'
-keywords: ["TB_DELETEBUTTON message Windows Controls"]
+ms.assetid: 6ba569f0-c400-4c0d-bc9f-3a82bcef0360
+keywords:
+- TB_DELETEBUTTON message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_DELETEBUTTON message
@@ -41,15 +47,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

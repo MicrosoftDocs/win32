@@ -4,13 +4,15 @@ description: A dynamic WMI class that identifies an updating run report.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd9413988-b7c4-4cc3-901c-2a911e7dc842'
-ms.prod: 'windows-server-dev'
+ms.assetid: d9413988-b7c4-4cc3-901c-2a911e7dc842
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-aware-patching'
-- 'windows-management-instrumentation'
+- failover-cluster-aware-patching
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_CAURun_Report_ID class", "MSFT_CAURun_Report_ID class, described"]
+keywords:
+- MSFT_CAURun_Report_ID class
+- MSFT_CAURun_Report_ID class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - CauWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_CAURun\_Report\_ID class
@@ -70,7 +75,7 @@ A UTC timestamp that identifies when the updating run report was generated.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ClusterUpdate<br/>                                      |
 | MOF<br/>                      | <dl> <dt>CAUWMIv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CauWmiV2.dll</dt> </dl> |
@@ -87,9 +92,9 @@ A UTC timestamp that identifies when the updating run report was generated.
 [**GetReportIDs**](getreportids-msft-caurun.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

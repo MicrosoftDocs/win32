@@ -4,17 +4,21 @@ description: Initializes a new instance of the NoConsumptionRightsException clas
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b3fd2ba6-da27-4723-a11d-05b26bbfc952'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: b3fd2ba6-da27-4723-a11d-05b26bbfc952
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["NoConsumptionRightsException(String, boolean, String) constructor"]
+keywords:
+- NoConsumptionRightsException(String, boolean, String) constructor
 topic_type:
 - apiref
 api_name:
 - NoConsumptionRightsException(String, boolean, String) constructor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NoConsumptionRightsException(String, boolean, String) constructor
@@ -39,7 +43,7 @@ public NoConsumptionRightsException(String userId, boolean isURIEmailAddress, St
 
 
 
- 
+ 
 
 ## Returns
 
@@ -60,9 +64,9 @@ The tag and message are also logged.
 [**NoConsumptionRightsException**](noconsumptionrightsexception-class-java.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

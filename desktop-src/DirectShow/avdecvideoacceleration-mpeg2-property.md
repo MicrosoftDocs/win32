@@ -1,7 +1,12 @@
 ---
-Description: 'Enables or disables hardware acceleration for MPEG-2 video decoding.'
-ms.assetid: '2e05f9e5-28a6-48f3-956d-a14eaf3bf4ba'
-title: 'AVDecVideoAcceleration\_MPEG2 property'
+Description: Enables or disables hardware acceleration for MPEG-2 video decoding.
+ms.assetid: 2e05f9e5-28a6-48f3-956d-a14eaf3bf4ba
+title: AVDecVideoAcceleration\_MPEG2 property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVDecVideoAcceleration\_MPEG2 property
@@ -28,8 +33,8 @@ If the value is zero, the decoder does not use DirectX Video Acceleration (DXVA)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ If the value is zero, the decoder does not use DirectX Video Acceleration (DXVA)
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

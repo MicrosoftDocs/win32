@@ -1,13 +1,19 @@
 ---
 title: Creating an AVICap Capture Window
 description: Creating an AVICap Capture Window
-ms.assetid: 'a1418e98-f16d-401a-94a7-64fb272a39e2'
-keywords: ["capCreateCaptureWindow function"]
+ms.assetid: a1418e98-f16d-401a-94a7-64fb272a39e2
+keywords:
+- capCreateCaptureWindow function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an AVICap Capture Window
 
-You can create a capture window of the AVICap window class by using the [**capCreateCaptureWindow**](capcreatecapturewindow.md) function. This function returns a window handle that identifies the capture window and is used by an application to send subsequent messages to the window.
+You can create a capture window of the AVICap window class by using the [**capCreateCaptureWindow**](/windows/win32/Vfw/nf-vfw-capcreatecapturewindowa?branch=master) function. This function returns a window handle that identifies the capture window and is used by an application to send subsequent messages to the window.
 
 You can create one or more capture windows in an application and connect each capture window to a different capture device.
 

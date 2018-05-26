@@ -1,7 +1,12 @@
 ---
-Description: 'The CCHeapReAlloc function reallocates memory allocated by the CCHeapAlloc function.'
-ms.assetid: '82365ce2-3980-44ff-be0f-062a65f676fc'
+Description: The CCHeapReAlloc function reallocates memory allocated by the CCHeapAlloc function.
+ms.assetid: 82365ce2-3980-44ff-be0f-062a65f676fc
 title: CCHeapReAlloc function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCHeapReAlloc function
@@ -13,9 +18,9 @@ The **CCHeapReAlloc** function reallocates memory allocated by the **CCHeapAlloc
 
 ```C++
 LPVOID WINAPI CCHeapReAlloc(
-   LPVOID lpMem,
-   DWORD  dwBytes,
-   BOOL   bZeroInit
+   LPVOID lpMem,
+   DWORD  dwBytes,
+   BOOL   bZeroInit
 );
 ```
 
@@ -58,8 +63,8 @@ If the function is unsuccessful, the return value is **NULL**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -85,9 +90,9 @@ If the function is unsuccessful, the return value is **NULL**.
 [CCHeapSize](ccheapsize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

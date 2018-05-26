@@ -4,12 +4,15 @@ description: Demonstrates monitoring services on Network Load Balancing (NLB) no
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '12afb466-d206-4284-9df0-3b62bf1239a4'
-ms.prod: 'windows-server-dev'
+ms.assetid: 12afb466-d206-4284-9df0-3b62bf1239a4
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Monitoring Application Level Health

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the user property bag for this app.'
-ms.assetid: '21B370C9-BDF7-42A6-B0CC-BC9B19F9D2D5'
-title: 'IPrinterExtensionContext::UserProperties property'
+---
+Description: Gets the user property bag for this app.
+ms.assetid: 21B370C9-BDF7-42A6-B0CC-BC9B19F9D2D5
+title: IPrinterExtensionContextUserProperties property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionContext::UserProperties property

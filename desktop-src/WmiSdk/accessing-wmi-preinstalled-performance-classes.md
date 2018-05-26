@@ -1,13 +1,16 @@
 ---
-Description: 'The WMI repository contains preinstalled performance classes for all the performance library objects.'
+Description: The WMI repository contains preinstalled performance classes for all the performance library objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2158385f-d0dc-4102-84db-ce02d2b0ee53'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2158385f-d0dc-4102-84db-ce02d2b0ee53
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Accessing WMI Preinstalled Performance Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Accessing WMI Preinstalled Performance Classes
@@ -37,15 +40,15 @@ The following procedure shows how to access data from a high-performance provide
 
 **To access data from a high-performance provider in C++**
 
-1.  Establish a connection to the WMI namespace, and set WMI security by using a call to [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md) and [**CoSetProxyBlanket**](_com_cosetproxyblanket).
+1.  Establish a connection to the WMI namespace, and set WMI security by using a call to [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master) and [**CoSetProxyBlanket**](_com_cosetproxyblanket).
 
     This step is a standard step for creating any WMI client application. For more information, see [Creating a WMI Application Using C++](creating-a-wmi-application-using-c-.md).
 
-2.  Create a refresher object by using [**CoCreateInstance**](_com_cocreateinstance) with CLSID\_WbemRefresher. Request an [**IWbemConfigureRefresher**](iwbemconfigurerefresher.md) interface through the [**QueryInterface**](_com_iunknown_queryinterface) method. Request an [**IWbemRefresher**](iwbemrefresher.md) interface through the **QueryInterface** method.
+2.  Create a refresher object by using [**CoCreateInstance**](_com_cocreateinstance) with CLSID\_WbemRefresher. Request an [**IWbemConfigureRefresher**](/windows/win32/Wbemcli/nn-wbemcli-iwbemconfigurerefresher?branch=master) interface through the [**QueryInterface**](_com_iunknown_queryinterface) method. Request an [**IWbemRefresher**](/windows/win32/Wbemcli/nn-wbemcli-iwbemrefresher?branch=master) interface through the **QueryInterface** method.
 
-    The [**IWbemRefresher**](iwbemrefresher.md) interface is the main interface for the WMI [**Refresher**](swbemrefreshableitem-refresher.md) object.
+    The [**IWbemRefresher**](/windows/win32/Wbemcli/nn-wbemcli-iwbemrefresher?branch=master) interface is the main interface for the WMI [**Refresher**](swbemrefreshableitem-refresher.md) object.
 
-    The following C++ code example shows how to retrieve [**IWbemConfigureRefresher**](iwbemrefresher.md).
+    The following C++ code example shows how to retrieve [**IWbemConfigureRefresher**](/windows/win32/Wbemcli/nn-wbemcli-iwbemrefresher?branch=master).
 
     ```C++
     IWbemRefresher* pRefresher = NULL;
@@ -67,11 +70,11 @@ The following procedure shows how to access data from a high-performance provide
 
     
 
-3.  Add an object to the refresher through a call to the [**IWbemConfigureRefresher::AddObjectByPath**](iwbemconfigurerefresher-addobjectbypath.md) method.
+3.  Add an object to the refresher through a call to the [**IWbemConfigureRefresher::AddObjectByPath**](/windows/win32/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addobjectbypath?branch=master) method.
 
-    When you add an object to the refresher, WMI refreshes the object whenever you call the [**IWbemRefresher::Refresh**](iwbemrefresher-refresh.md) method. The object you add designates the provider in its class qualifiers.
+    When you add an object to the refresher, WMI refreshes the object whenever you call the [**IWbemRefresher::Refresh**](/windows/win32/Wbemcli/nf-wbemcli-iwbemrefresher-refresh?branch=master) method. The object you add designates the provider in its class qualifiers.
 
-    The following C++ code example shows how to call [**AddObjectByPath**](iwbemconfigurerefresher-addobjectbypath.md).
+    The following C++ code example shows how to call [**AddObjectByPath**](/windows/win32/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addobjectbypath?branch=master).
 
     ```C++
     IWbemClassObject* pObj = NULL;
@@ -97,9 +100,9 @@ The following procedure shows how to access data from a high-performance provide
 
     
 
-4.  To set up faster access to the object, connect to the [**IWbemObjectAccess**](iwbemobjectaccess.md) interface through [**QueryInterface**](_com_iunknown_queryinterface) on the [**IWbemClassObject**](iwbemclassobject.md) interface.
+4.  To set up faster access to the object, connect to the [**IWbemObjectAccess**](/windows/win32/Wbemcli/nn-wbemcli-iwbemobjectaccess?branch=master) interface through [**QueryInterface**](_com_iunknown_queryinterface) on the [**IWbemClassObject**](/windows/win32/WbemCli/nn-wbemcli-iwbemclassobject?branch=master) interface.
 
-    The following C++ code example shows how to retrieve a pointer to the object using [**IWbemObjectAccess**](iwbemobjectaccess.md) instead of [**IWbemClassObject**](iwbemclassobject.md).
+    The following C++ code example shows how to retrieve a pointer to the object using [**IWbemObjectAccess**](/windows/win32/Wbemcli/nn-wbemcli-iwbemobjectaccess?branch=master) instead of [**IWbemClassObject**](/windows/win32/WbemCli/nn-wbemcli-iwbemclassobject?branch=master).
 
     ```C++
         // For quick property retrieval, use IWbemObjectAccess.
@@ -111,9 +114,9 @@ The following procedure shows how to access data from a high-performance provide
 
     
 
-    The [**IWbemObjectAccess**](iwbemobjectaccess.md) interface increases performance because you can get handles to specific counter properties, and it requires that you lock and unlock the object in your code, which is an operation that [**IWbemClassObject**](iwbemclassobject.md) performs for each property access.
+    The [**IWbemObjectAccess**](/windows/win32/Wbemcli/nn-wbemcli-iwbemobjectaccess?branch=master) interface increases performance because you can get handles to specific counter properties, and it requires that you lock and unlock the object in your code, which is an operation that [**IWbemClassObject**](/windows/win32/WbemCli/nn-wbemcli-iwbemclassobject?branch=master) performs for each property access.
 
-5.  Obtain the handles of the properties to examine by using calls to the [**IWbemObjectAccess::GetPropertyHandle**](iwbemobjectaccess-getpropertyhandle.md) method.
+5.  Obtain the handles of the properties to examine by using calls to the [**IWbemObjectAccess::GetPropertyHandle**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectaccess-getpropertyhandle?branch=master) method.
 
     Property handles are the same for all instances of a class, which means that use the property handle you retrieve from a specific instance for all instances of a specific class. You can also obtain a handle from a class object to retrieve property values from an instance object.
 
@@ -141,13 +144,13 @@ The following procedure shows how to access data from a high-performance provide
 
 6.  Create a programming loop that performs the following actions:
 
-    -   Refresh the object with a call to [**IWbemRefresher::Refresh**](iwbemrefresher-refresh.md) by using the pointer created in the previous call to [**CoCreateInstance**](_com_cocreateinstance).
+    -   Refresh the object with a call to [**IWbemRefresher::Refresh**](/windows/win32/Wbemcli/nf-wbemcli-iwbemrefresher-refresh?branch=master) by using the pointer created in the previous call to [**CoCreateInstance**](_com_cocreateinstance).
 
         In this call, the WMI Refresher refreshes the client object by using data that the provider supplies.
 
     -   Perform any action as necessary on the object, such as retrieving a property name, data type, or value.
 
-        You can access the property through the property handle obtained earlier. Due to the [**Refresh**](iwbemrefresher-refresh.md) call, WMI refreshes the property each time through the loop.
+        You can access the property through the property handle obtained earlier. Due to the [**Refresh**](/windows/win32/Wbemcli/nf-wbemcli-iwbemrefresher-refresh?branch=master) call, WMI refreshes the property each time through the loop.
 
 The following C++ example shows how to use the WMI high-performance API.
 

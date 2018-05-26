@@ -1,7 +1,12 @@
 ---
-Description: 'Certificate Services supports certification authority (CA) hierarchies.'
-ms.assetid: 'bcae26cd-41bc-4436-8f8b-cd8c20e9fcfc'
+Description: Certificate Services supports certification authority (CA) hierarchies.
+ms.assetid: bcae26cd-41bc-4436-8f8b-cd8c20e9fcfc
 title: Hierarchies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hierarchies

@@ -4,17 +4,21 @@ description: Gets the userId of the consenting user.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '588780C3-95C2-414F-B38B-74CA9917A336'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 588780C3-95C2-414F-B38B-74CA9917A336
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSConsentResult userId property"]
+keywords:
+- MSConsentResult userId property
 topic_type:
 - apiref
 api_name:
 - MSConsentResult userId property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSConsentResult userId property
@@ -37,7 +41,7 @@ Gets the *userId* of the consenting user.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSConsent.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

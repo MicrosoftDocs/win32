@@ -1,8 +1,11 @@
 ---
 title: Vector.Add method
 description: Inserts a new element into the Vector collection before the specified Index if Index is not 0. If Index is 0, this method appends a new element to the Vector collection.
-ms.assetid: 'b9fe8dc2-e834-4fd0-9bea-cf54a5c5d4d7'
-keywords: ["Add method WIA Automation", "Add method WIA Automation , Vector object", "Vector object WIA Automation , Add method"]
+ms.assetid: b9fe8dc2-e834-4fd0-9bea-cf54a5c5d4d7
+keywords:
+- Add method WIA Automation
+- Add method WIA Automation , Vector object
+- Vector object WIA Automation , Add method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector.Add method
@@ -57,7 +65,7 @@ Type: **LONG**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -77,8 +85,8 @@ For example code, see [Create an ImageFile Object that Contains a Blank Page](-w
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -91,9 +99,9 @@ For example code, see [Create an ImageFile Object that Contains a Blank Page](-w
 [**Vector**](-wiaaut-vector.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

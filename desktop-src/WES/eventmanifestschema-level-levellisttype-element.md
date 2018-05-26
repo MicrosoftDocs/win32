@@ -1,14 +1,20 @@
 ---
 title: level (LevelListType) Element
 description: Defines a severity value that determines the verbosity of events during logging.
-ms.assetid: '898b4784-7acc-45b5-8ff9-485e919fe9c6'
-keywords: ["level element EventLog"]
+ms.assetid: 898b4784-7acc-45b5-8ff9-485e919fe9c6
+keywords:
+- level element EventLog
 topic_type:
 - apiref
 api_name:
 - level
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # level (LevelListType) Element
@@ -29,8 +35,8 @@ The **level** element is defined by the [**LevelListType**](eventmanifestschema-
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -47,9 +53,9 @@ The **level** element is defined by the [**LevelListType**](eventmanifestschema-
 [**levels (MetadataType)**](eventmanifestschema-levels-metadatatype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

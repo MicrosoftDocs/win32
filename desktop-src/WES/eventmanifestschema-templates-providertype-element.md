@@ -1,14 +1,20 @@
 ---
 title: templates (ProviderType) Element
 description: Defines a list of templates that specify the data to include with the events.
-ms.assetid: 'bc1cd2ef-200c-40e5-a3cd-013c0a79a049'
-keywords: ["templates element EventLog"]
+ms.assetid: bc1cd2ef-200c-40e5-a3cd-013c0a79a049
+keywords:
+- templates element EventLog
 topic_type:
 - apiref
 api_name:
 - templates
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # templates (ProviderType) Element
@@ -29,8 +35,8 @@ The **templates** element is defined by the [**ProviderType**](eventmanifestsche
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **templates** element is defined by the [**ProviderType**](eventmanifestsche
 [**provider (EventsType)**](eventmanifestschema-provider-eventstype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

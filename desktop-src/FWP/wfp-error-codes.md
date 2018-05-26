@@ -1,7 +1,7 @@
 ---
 title: WFP Error Codes
 description: (WFP) specific error codes.
-ms.assetid: '11f3085a-f044-4a78-b47a-59b9086562bf'
+ms.assetid: 11f3085a-f044-4a78-b47a-59b9086562bf
 topic_type:
 - apiref
 api_name:
@@ -66,6 +66,11 @@ api_location:
 - winerror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WFP Error Codes
@@ -281,7 +286,7 @@ The explicit transaction has been forcibly canceled.
 
 The session has been canceled.
 
-The session handle needs to be closed by calling [**FwpmEngineClose0**](fwpmengineclose0-func.md), even though it is no longer valid; otherwise, the client-side state will be leaked. A new session should be created by calling [**FwpmEngineOpen0**](fwpmengineopen0-func.md).
+The session handle needs to be closed by calling [**FwpmEngineClose0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmengineclose0?branch=master), even though it is no longer valid; otherwise, the client-side state will be leaked. A new session should be created by calling [**FwpmEngineOpen0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmengineopen0?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -417,7 +422,7 @@ A notification could not be delivered because a message queue is at its maximum 
 
 The network traffic parameters do not match those for the security association context.
 
-[**IPsecSaContextGetSpi0**](ipsecsacontextgetspi0.md) can be called multiple times, but the caller must specify the same [**IPSEC\_TRAFFIC0**](ipsec-traffic0-struct.md) each time. This error is returned if a subsequent call supplies a different **IPSEC\_TRAFFIC0**.
+[**IPsecSaContextGetSpi0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextgetspi0?branch=master) can be called multiple times, but the caller must specify the same [**IPSEC\_TRAFFIC0**](/windows/win32/Ipsectypes/ns-ipsectypes-ipsec_traffic0_?branch=master) each time. This error is returned if a subsequent call supplies a different **IPSEC\_TRAFFIC0**.
 
 
 </dt> </dl> </dd> <dt>
@@ -434,10 +439,10 @@ The call is not allowed for the current security association (SA) state.
 
 The SA context functions must be called in a specific order:
 
--   [**IPsecSaContextCreate0**](ipsecsacontextcreate0.md)
--   [**IPsecSaContextGetSpi0**](ipsecsacontextgetspi0.md)
--   [**IPsecSaContextAddInbound0**](ipsecsacontextaddinbound0.md)
--   [**IPsecSaContextAddOutbound0**](ipsecsacontextaddoutbound0.md)
+-   [**IPsecSaContextCreate0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextcreate0?branch=master)
+-   [**IPsecSaContextGetSpi0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextgetspi0?branch=master)
+-   [**IPsecSaContextAddInbound0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextaddinbound0?branch=master)
+-   [**IPsecSaContextAddOutbound0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecsacontextaddoutbound0?branch=master)
 
 This error is returned if they are called out of order.
 
@@ -504,7 +509,7 @@ A network mask is not valid.
 
 
 
-An [**FWP\_RANGE0**](fwp-range0.md) structure is not valid.
+An [**FWP\_RANGE0**](/windows/win32/Fwptypes/ns-fwptypes-fwp_range0_?branch=master) structure is not valid.
 
 
 </dt> </dl> </dd> <dt>
@@ -586,7 +591,7 @@ See [Filter Weight Assignment](filter-weight-assignment.md) for more information
 
 A filter condition contains a match type that is not compatible with the operands.
 
-See [**FWP\_MATCH\_TYPE**](fwp-match-type-enum.md) for more information.
+See [**FWP\_MATCH\_TYPE**](/windows/win32/Fwptypes/ne-fwptypes-fwp_match_type_?branch=master) for more information.
 
 
 </dt> </dl> </dd> <dt>
@@ -599,7 +604,7 @@ See [**FWP\_MATCH\_TYPE**](fwp-match-type-enum.md) for more information.
 
 
 
-An [**FWP\_VALUE0**](fwp-value0-struct.md) structure or an [**FWPM\_CONDITION\_VALUE0**](fwp-condition-value0.md) structure is of the wrong type.
+An [**FWP\_VALUE0**](/windows/win32/Fwptypes/ns-fwptypes-fwp_value0_?branch=master) structure or an [**FWPM\_CONDITION\_VALUE0**](/windows/win32/Fwptypes/ns-fwptypes-fwp_condition_value0_?branch=master) structure is of the wrong type.
 
 
 </dt> </dl> </dd> <dt>
@@ -785,7 +790,7 @@ The parameter is incorrect.
 
 Possible reasons for this error:
 
--   [**FwpmIPsecTunnelAdd0**](fwpmipsectunneladd0.md) was called without setting the flag **FWPM\_TUNNEL\_FLAG\_POINT\_TO\_POINT** and with conditions other than local/remote address.
+-   [**FwpmIPsecTunnelAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmipsectunneladd0?branch=master) was called without setting the flag **FWPM\_TUNNEL\_FLAG\_POINT\_TO\_POINT** and with conditions other than local/remote address.
 -   An invalid Unicode string, or a Unicode string that contains unprintable characters.
 
 
@@ -801,7 +806,7 @@ Possible reasons for this error:
 
 The maximum number of sublayers has been reached.
 
-WFP supports at most 2¹6 sublayers.
+WFP supports at most 2 6 sublayers.
 
 
 </dt> </dl> </dd> <dt>
@@ -851,15 +856,15 @@ The IPsec cipher transform is not valid.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Winerror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

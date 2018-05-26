@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the name of the organization associated with the qualifier.'
-ms.assetid: '4ceb2c0f-903d-4fcd-8446-abf3175fe8e0'
-title: 'Qualifier.OrganizationName property'
+---
+Description: Retrieves the name of the organization associated with the qualifier.
+ms.assetid: 4ceb2c0f-903d-4fcd-8446-abf3175fe8e0
+title: Qualifier.OrganizationName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Qualifier.OrganizationName property

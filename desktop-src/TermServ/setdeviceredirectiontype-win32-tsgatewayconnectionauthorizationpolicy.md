@@ -4,11 +4,14 @@ description: Sets the DeviceRedirectionType property, which controls which devic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd97a0a7d-a08e-4703-b0f0-ba5d20688dc8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d97a0a7d-a08e-4703-b0f0-ba5d20688dc8
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetDeviceRedirectionType method Remote Desktop Services", "SetDeviceRedirectionType method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class", "Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , SetDeviceRedirectionType method"]
+keywords:
+- SetDeviceRedirectionType method Remote Desktop Services
+- SetDeviceRedirectionType method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class
+- Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , SetDeviceRedirectionType method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetDeviceRedirectionType method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
@@ -28,7 +34,7 @@ Sets the **DeviceRedirectionType** property, which controls which devices will b
 
 ```mof
 uint32 SetDeviceRedirectionType(
-  [in] uint32 DeviceRedirectionType
+  [in] uint32 DeviceRedirectionType
 );
 ```
 
@@ -83,7 +89,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -97,9 +103,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayConnectionAuthorizationPolicy**](win32-tsgatewayconnectionauthorizationpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

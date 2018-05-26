@@ -4,11 +4,15 @@ description: A multi-valued attribute can have almost any number of values. In m
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3a0eb764-fca9-4ca6-9991-b85f293961af'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3a0eb764-fca9-4ca6-9991-b85f293961af
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Attribute Range Retrieval ADSI"]
+keywords:
+- Attribute Range Retrieval ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Attribute Range Retrieval
@@ -43,11 +47,11 @@ The following table lists examples of range specifiers.
 
  
 
-There are several different ways to retrieve a range of property values. The [**IADs.GetInfoEx**](iads-getinfoex.md) method can be used in either an automation language or C++. The **IADs.GetInfoEx** method is the preferred method of performing range retrieval. For more information about using **IADs.GetInfoEx** for range retrieval, see [Using IADs::GetInfoEx for Range Retrieval](using-iads--getinfoex-for-range-retrieval.md).
+There are several different ways to retrieve a range of property values. The [**IADs.GetInfoEx**](/windows/win32/Iads/nf-iads-iads-getinfoex?branch=master) method can be used in either an automation language or C++. The **IADs.GetInfoEx** method is the preferred method of performing range retrieval. For more information about using **IADs.GetInfoEx** for range retrieval, see [Using IADs::GetInfoEx for Range Retrieval](using-iads--getinfoex-for-range-retrieval.md).
 
 If an automation language is used, the ActiveX Directory Objects (ADO) can be used to retrieve a range of property values. For more information about using ADO for range retrieval, see [Using ADO for Range Retrieval](using-ado-for-range-retrieval.md).
 
-If C++ is used, the [**IDirectorySearch**](idirectorysearch.md) and [**IDirectoryObject**](idirectoryobject.md) interfaces can be used to retrieve a range of property values. For more information about using **IDirectorySearch** and **IDirectoryObject** for range retrieval, see [Using IDirectorySearch and IDirectoryObject for Range Retrieval](using-idirectorysearch-and-idirectoryobject-for-range-retrieval.md).
+If C++ is used, the [**IDirectorySearch**](/windows/win32/Iads/nn-iads-idirectorysearch?branch=master) and [**IDirectoryObject**](/windows/win32/Iads/nn-iads-idirectoryobject?branch=master) interfaces can be used to retrieve a range of property values. For more information about using **IDirectorySearch** and **IDirectoryObject** for range retrieval, see [Using IDirectorySearch and IDirectoryObject for Range Retrieval](using-idirectorysearch-and-idirectoryobject-for-range-retrieval.md).
 
  
 

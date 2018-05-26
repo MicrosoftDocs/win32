@@ -4,17 +4,22 @@ description: Specifies the partition GUID for a Physical Disk resource formatted
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '276d0131-3c0e-4b38-a388-4780768550de'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 276d0131-3c0e-4b38-a388-4780768550de
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DiskIdGuid Failover Cluster , for Physical Disk private properties", "DiskIdGuid Failover Cluster"]
+keywords:
+- DiskIdGuid Failover Cluster , for Physical Disk private properties
+- DiskIdGuid Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DiskIdGuid
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DiskIdGuid
@@ -28,13 +33,13 @@ Specifies the partition **GUID** for a [Physical Disk](physical-disk.md) resourc
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read/write](read-write-properties.md)                          |
 | Status    | Required if [**DiskSignature**](disksignature.md) is missing    |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | 0                                                                |
 
 
 
- 
+ 
 
 ## Examples
 
@@ -59,7 +64,7 @@ StringCbCopy( DiskIdGuidValue.sz, DiskIdGuidValue.cbLength, szDiskIdGuidData );
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -70,15 +75,15 @@ StringCbCopy( DiskIdGuidValue.sz, DiskIdGuidValue.cbLength, szDiskIdGuidData );
 [Physical Disk Private Properties](physical-disk-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**DiskSignature**](disksignature.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

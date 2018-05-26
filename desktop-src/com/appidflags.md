@@ -1,8 +1,14 @@
 ---
 title: AppIDFlags
 description: A set of flags that control the activation behavior of a COM server.
-ms.assetid: 'ab98e7d3-85c6-4328-84c4-1d4583df69ce'
-keywords: ["AppIDFlags registry value COM"]
+ms.assetid: ab98e7d3-85c6-4328-84c4-1d4583df69ce
+keywords:
+- AppIDFlags registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AppIDFlags

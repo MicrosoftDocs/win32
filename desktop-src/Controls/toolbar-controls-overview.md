@@ -1,7 +1,12 @@
 ---
 title: About Toolbar Controls
 description: A toolbar is a control that contains one or more buttons.
-ms.assetid: 'b5a00a81-8d23-4844-8b0a-776e7cceced8'
+ms.assetid: b5a00a81-8d23-4844-8b0a-776e7cceced8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Toolbar Controls
@@ -35,10 +40,10 @@ The following topics discuss features to consider when planning a toolbar. For s
 
 ## Specifying Toolbar Size and Position
 
-If you create a toolbar using [**CreateToolbarEx**](createtoolbarex.md), the function enables you to specify in pixels the height and width of the toolbar.
+If you create a toolbar using [**CreateToolbarEx**](/windows/win32/Commctrl/nf-commctrl-createtoolbarex?branch=master), the function enables you to specify in pixels the height and width of the toolbar.
 
 > [!Note]  
-> Using [**CreateToolbarEx**](createtoolbarex.md) is not recommended, as it does not support new features of toolbars, including image lists. For more information about creating toolbars, see [Using Toolbar Controls](using-toolbar-controls.md).
+> Using [**CreateToolbarEx**](/windows/win32/Commctrl/nf-commctrl-createtoolbarex?branch=master) is not recommended, as it does not support new features of toolbars, including image lists. For more information about creating toolbars, see [Using Toolbar Controls](using-toolbar-controls.md).
 
  
 
@@ -79,15 +84,15 @@ You can use the [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md#tbstyle
 
 ## Defining Button Images
 
-There are two ways to specify the images for buttons—by bitmaps or by image lists. An application must choose which method to use. It cannot use both methods with the same toolbar control. Note that the [**CreateToolbarEx**](createtoolbarex.md) function uses the bitmap method. Applications that want to use the image list method must use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create the toolbar control.
+There are two ways to specify the images for buttons—by bitmaps or by image lists. An application must choose which method to use. It cannot use both methods with the same toolbar control. Note that the [**CreateToolbarEx**](/windows/win32/Commctrl/nf-commctrl-createtoolbarex?branch=master) function uses the bitmap method. Applications that want to use the image list method must use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create the toolbar control.
 
 ### Defining Button Images by Using Bitmaps
 
-Each button in a toolbar can include a bitmapped image. A toolbar uses an internal list to store the information that it needs to draw the images. When you call the [**CreateToolbarEx**](createtoolbarex.md) function, you specify a monochrome or color bitmap that contains the initial images, and the toolbar adds the information to the internal list of images. You can add additional images later by using the [**TB\_ADDBITMAP**](tb-addbitmap.md) message.
+Each button in a toolbar can include a bitmapped image. A toolbar uses an internal list to store the information that it needs to draw the images. When you call the [**CreateToolbarEx**](/windows/win32/Commctrl/nf-commctrl-createtoolbarex?branch=master) function, you specify a monochrome or color bitmap that contains the initial images, and the toolbar adds the information to the internal list of images. You can add additional images later by using the [**TB\_ADDBITMAP**](tb-addbitmap.md) message.
 
 Each image has a zero-based index. The first image added to the internal list has an index of 0, the second image has an index of 1, and so on. [**TB\_ADDBITMAP**](tb-addbitmap.md) adds images to the end of the list and returns the index of the first new image that it added. To associate the image with a button, you must send a [**TB\_ADDBUTTONS**](tb-addbuttons.md) message and specify the image's index after you add bitmaps to the internal image list.
 
-Windows assumes that all of a toolbar's bitmapped images are the same size. You specify the size when you create the toolbar by using [**CreateToolbarEx**](createtoolbarex.md). If you use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create a toolbar, the size of the images is set to the default dimensions of 16 by 15 pixels. You can use the [**TB\_SETBITMAPSIZE**](tb-setbitmapsize.md) message to change the dimensions of the bitmapped images, but you must do so before adding any images to the internal list.
+Windows assumes that all of a toolbar's bitmapped images are the same size. You specify the size when you create the toolbar by using [**CreateToolbarEx**](/windows/win32/Commctrl/nf-commctrl-createtoolbarex?branch=master). If you use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create a toolbar, the size of the images is set to the default dimensions of 16 by 15 pixels. You can use the [**TB\_SETBITMAPSIZE**](tb-setbitmapsize.md) message to change the dimensions of the bitmapped images, but you must do so before adding any images to the internal list.
 
 ### Defining Button Images by Using Image Lists
 
@@ -113,16 +118,16 @@ Each button can display a string in addition to, or instead of, an image. A tool
 
 Each string has a zero-based index. The first string added to the internal list of strings has an index of 0, the second string has an index of 1, and so on. [**TB\_ADDSTRING**](tb-addstring.md) adds strings to the end of the list and returns the index of the first new string. You use a string's index to associate the string with a button.
 
-Using [**TB\_ADDSTRING**](tb-addstring.md) is not the only way to add strings to a toolbar. You can display a string in a button by passing a string pointer in the **iString** member of the [**TBBUTTON**](tbbutton.md) structure that is passed to [**TB\_ADDBUTTONS**](tb-addbuttons.md). Additionally, you can use [**TB\_SETBUTTONINFO**](tb-setbuttoninfo.md) to assign text to a toolbar button.
+Using [**TB\_ADDSTRING**](tb-addstring.md) is not the only way to add strings to a toolbar. You can display a string in a button by passing a string pointer in the **iString** member of the [**TBBUTTON**](/windows/win32/Commctrl/ns-commctrl-_tbbutton?branch=master) structure that is passed to [**TB\_ADDBUTTONS**](tb-addbuttons.md). Additionally, you can use [**TB\_SETBUTTONINFO**](tb-setbuttoninfo.md) to assign text to a toolbar button.
 
 ## Adding Toolbar Buttons
 
-If you use the [**CreateToolbarEx**](createtoolbarex.md) function to create a toolbar, you can add buttons to the toolbar by filling an array of [**TBBUTTON**](tbbutton.md) structures and specifying the address of the array in the function call. However, the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function does not have a parameter for passing a **TBBUTTON** structure. **CreateWindowEx** creates an empty toolbar that you fill by sending a [**TB\_ADDBUTTONS**](tb-addbuttons.md) message, specifying the address of a **TBBUTTON** structure.
+If you use the [**CreateToolbarEx**](/windows/win32/Commctrl/nf-commctrl-createtoolbarex?branch=master) function to create a toolbar, you can add buttons to the toolbar by filling an array of [**TBBUTTON**](/windows/win32/Commctrl/ns-commctrl-_tbbutton?branch=master) structures and specifying the address of the array in the function call. However, the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function does not have a parameter for passing a **TBBUTTON** structure. **CreateWindowEx** creates an empty toolbar that you fill by sending a [**TB\_ADDBUTTONS**](tb-addbuttons.md) message, specifying the address of a **TBBUTTON** structure.
 
-After a toolbar is created, you can add buttons by sending a [**TB\_INSERTBUTTON**](tb-insertbutton.md) or [**TB\_ADDBUTTONS**](tb-addbuttons.md) message. Each button is described by a [**TBBUTTON**](tbbutton.md) structure, which defines the attributes of the button, including the indexes of its string and bitmap as well as its style, state, command identifier, and application-defined 32-bit value.
+After a toolbar is created, you can add buttons by sending a [**TB\_INSERTBUTTON**](tb-insertbutton.md) or [**TB\_ADDBUTTONS**](tb-addbuttons.md) message. Each button is described by a [**TBBUTTON**](/windows/win32/Commctrl/ns-commctrl-_tbbutton?branch=master) structure, which defines the attributes of the button, including the indexes of its string and bitmap as well as its style, state, command identifier, and application-defined 32-bit value.
 
 > [!Note]  
-> If you use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create a toolbar, you must send the [**TB\_BUTTONSTRUCTSIZE**](tb-buttonstructsize.md) message before adding any buttons. The message passes the size of the [**TBBUTTON**](tbbutton.md) structure to the toolbar.
+> If you use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create a toolbar, you must send the [**TB\_BUTTONSTRUCTSIZE**](tb-buttonstructsize.md) message before adding any buttons. The message passes the size of the [**TBBUTTON**](/windows/win32/Commctrl/ns-commctrl-_tbbutton?branch=master) structure to the toolbar.
 
  
 
@@ -159,7 +164,7 @@ A toolbar keeps track of its buttons by assigning each button a position index. 
 
 A toolbar updates the position indexes as buttons are inserted and removed. An application can retrieve the current position index of a button by using the [**TB\_COMMANDTOINDEX**](tb-commandtoindex.md) message. The message specifies the command identifier of a button, and the toolbar window uses the identifier to locate the button and return its position index.
 
-All buttons in a toolbar are the same size. The [**CreateToolbarEx**](createtoolbarex.md) function requires you to set the initial size of the buttons when you create the toolbar. When you use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, the initial size is set to the default dimensions of 24 by 22 pixels. You can use the [**TB\_SETBUTTONSIZE**](tb-setbuttonsize.md) message to change the button size, but you must do so before adding any buttons to the toolbar. The [**TB\_GETITEMRECT**](tb-getitemrect.md) message retrieves the current dimensions of the buttons.
+All buttons in a toolbar are the same size. The [**CreateToolbarEx**](/windows/win32/Commctrl/nf-commctrl-createtoolbarex?branch=master) function requires you to set the initial size of the buttons when you create the toolbar. When you use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, the initial size is set to the default dimensions of 24 by 22 pixels. You can use the [**TB\_SETBUTTONSIZE**](tb-setbuttonsize.md) message to change the button size, but you must do so before adding any buttons to the toolbar. The [**TB\_GETITEMRECT**](tb-getitemrect.md) message retrieves the current dimensions of the buttons.
 
 When you add a string that is longer than any string currently in the toolbar, the toolbar automatically resets the width of its buttons. The width is set to accommodate the longest string in the toolbar.
 

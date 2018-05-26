@@ -1,7 +1,12 @@
 ---
 Description: DVApp Sample
-ms.assetid: '80375170-d0d6-4371-abe3-078703e158b1'
+ms.assetid: 80375170-d0d6-4371-abe3-078703e158b1
 title: DVApp Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVApp Sample

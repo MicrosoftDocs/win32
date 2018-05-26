@@ -1,7 +1,12 @@
 ---
 title: Using Up-Down Controls
 description: This section contains example code and information about how to create and use up-down controls.
-ms.assetid: 'B1199E81-8D82-4830-B109-E483A91A3B80'
+ms.assetid: B1199E81-8D82-4830-B109-E483A91A3B80
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Up-Down Controls
@@ -18,11 +23,11 @@ This section contains example code and information about how to create and use u
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

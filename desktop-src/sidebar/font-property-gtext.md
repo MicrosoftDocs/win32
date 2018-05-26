@@ -1,8 +1,11 @@
 ---
 title: text.font property
 description: Gets or sets the font name.
-ms.assetid: '87cd4777-78ec-46bf-b8d8-269be2038a92'
-keywords: ["font property Windows Sidebar", "font property Windows Sidebar , text object", "text object Windows Sidebar , font property"]
+ms.assetid: 87cd4777-78ec-46bf-b8d8-269be2038a92
+keywords:
+- font property Windows Sidebar
+- font property Windows Sidebar , text object
+- text object Windows Sidebar , font property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # text.font property
@@ -67,10 +75,10 @@ txtFont.font = "Times New Roman";
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -92,9 +100,9 @@ txtFont.font = "Times New Roman";
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

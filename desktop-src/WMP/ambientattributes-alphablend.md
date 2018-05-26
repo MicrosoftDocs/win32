@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.alphaBlend
 description: The alphaBlend attribute specifies or retrieves a value for alpha blending any VIEW, SUBVIEW, or UI widget.
-ms.assetid: 'a6c47d32-a497-4bfa-8fa3-ef94e267d94b'
-keywords: ["AmbientAttributes.alphaBlend Windows Media Player"]
+ms.assetid: a6c47d32-a497-4bfa-8fa3-ef94e267d94b
+keywords:
+- AmbientAttributes.alphaBlend Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.alphaBlend
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.alphaBlend
@@ -32,7 +38,7 @@ When you use **alphaBlend** with a **TEXT** element that does not have the **bac
 > [!Note]  
 > This attribute is not supported in Windows 98.
 
- 
+ 
 
 ## Requirements
 
@@ -63,9 +69,9 @@ When you use **alphaBlend** with a **TEXT** element that does not have the **bac
 [**TEXT.foregroundColor**](text-foregroundcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

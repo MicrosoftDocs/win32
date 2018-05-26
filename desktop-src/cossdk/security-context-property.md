@@ -1,7 +1,12 @@
 ---
 Description: Security Context Property
-ms.assetid: '7ffae145-be13-4a2c-beb1-eaa1d11ad9a7'
+ms.assetid: 7ffae145-be13-4a2c-beb1-eaa1d11ad9a7
 title: Security Context Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Context Property

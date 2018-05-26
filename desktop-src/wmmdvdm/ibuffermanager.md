@@ -1,14 +1,21 @@
 ---
 title: IBufferManager interface
 description: The IBufferManager interface is used to access all the surfaces and buffers that the transform uses.
-ms.assetid: '6c0e7255-6fe4-4322-8330-a65fe120bb61'
-keywords: ["IBufferManager interface Windows Movie Maker and DVD Maker", "IBufferManager interface Windows Movie Maker and DVD Maker , described"]
+ms.assetid: 6c0e7255-6fe4-4322-8330-a65fe120bb61
+keywords:
+- IBufferManager interface Windows Movie Maker and DVD Maker
+- IBufferManager interface Windows Movie Maker and DVD Maker , described
 topic_type:
 - apiref
 api_name:
 - IBufferManager
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBufferManager interface
@@ -34,7 +41,7 @@ The **IBufferManager** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -43,9 +50,9 @@ The **IBufferManager** interface has these methods.
 [**Transform Interfaces**](transform-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

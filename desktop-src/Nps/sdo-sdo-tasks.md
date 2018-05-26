@@ -4,10 +4,13 @@ description: SDO Tasks
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a3e3197c-3ff8-4afc-9dae-6dcec7d9ac65'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: a3e3197c-3ff8-4afc-9dae-6dcec7d9ac65
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SDO Tasks

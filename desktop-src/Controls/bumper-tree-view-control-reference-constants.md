@@ -1,7 +1,12 @@
 ---
 title: Tree View Constants
 description: .
-ms.assetid: 'b9f36b7f-52f0-4de2-8c10-d3b8c6f8828e'
+ms.assetid: b9f36b7f-52f0-4de2-8c10-d3b8c6f8828e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tree View Constants

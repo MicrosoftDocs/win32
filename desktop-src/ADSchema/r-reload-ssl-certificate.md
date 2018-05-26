@@ -4,17 +4,21 @@ description: Reload-SSL-Certificate extended right
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0546b2a7-3ce1-4649-af8b-44674f62d040'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0546b2a7-3ce1-4649-af8b-44674f62d040
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Reload-SSL-Certificate extended right AD Schema"]
+keywords:
+- Reload-SSL-Certificate extended right AD Schema
 topic_type:
 - apiref
 api_name:
 - Reload-SSL-Certificate
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Reload-SSL-Certificate extended right
@@ -31,9 +35,9 @@ api_type:
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -68,9 +72,9 @@ api_type:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

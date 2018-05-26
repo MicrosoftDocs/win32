@@ -1,7 +1,12 @@
 ---
-Description: 'This article describes how to update a WASAPI implementation to take advantage of automatic stream routing.'
-ms.assetid: '718CBEB9-A7A0-4898-81B7-CBD76AFA3A06'
+Description: This article describes how to update a WASAPI implementation to take advantage of automatic stream routing.
+ms.assetid: 718CBEB9-A7A0-4898-81B7-CBD76AFA3A06
 title: Automatic Stream Routing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automatic Stream Routing
@@ -21,7 +26,7 @@ Starting with the Windows 10, version 1607, apps that use WASAPI can take advant
 
     
 
-2.  Activate the audio endpoint by passing the identifier string to the WASAPI [**ActivateAudioInterfaceAsync**](activateaudiointerfaceasync.md) function. The following example passes in the audio render identifier obtained in step 1:
+2.  Activate the audio endpoint by passing the identifier string to the WASAPI [**ActivateAudioInterfaceAsync**](/windows/win32/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync?branch=master) function. The following example passes in the audio render identifier obtained in step 1:
 
     ```C++
     //Activate the default audio interface
@@ -59,7 +64,7 @@ To demonstrate automatic stream routing, use a laptop or tablet equipped with in
 [**MediaDevice.GetDefaultAudioCaptureId**](https://msdn.microsoft.com/library/windows/apps/br226818)
 </dt> <dt>
 
-[**ActivateAudioInterfaceAsync**](activateaudiointerfaceasync.md)
+[**ActivateAudioInterfaceAsync**](/windows/win32/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync?branch=master)
 </dt> </dl>
 
  

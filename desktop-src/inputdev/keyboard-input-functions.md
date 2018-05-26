@@ -1,7 +1,12 @@
 ---
 title: Keyboard Input Functions
 description: .
-ms.assetid: '731b8209-1ca8-4667-bd39-7bd0cef45380'
+ms.assetid: 731b8209-1ca8-4667-bd39-7bd0cef45380
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Keyboard Input Functions
@@ -34,9 +39,9 @@ ms.assetid: '731b8209-1ca8-4667-bd39-7bd0cef45380'
 -   [**SetActiveWindow**](setactivewindow.md)
 -   [**SetFocus**](setfocus.md)
 -   [**SetKeyboardState**](setkeyboardstate.md)
--   [**ToAscii**](toascii.md)
+-   [**ToAscii**](/windows/win32/Winuser/nf-ntifs-rtlidntoascii?branch=master)
 -   [**ToAsciiEx**](toasciiex.md)
--   [**ToUnicode**](tounicode.md)
+-   [**ToUnicode**](/windows/win32/Winuser/nf-ntifs-rtlidntounicode?branch=master)
 -   [**ToUnicodeEx**](tounicodeex.md)
 -   [**UnloadKeyboardLayout**](unloadkeyboardlayout.md)
 -   [**UnregisterHotKey**](unregisterhotkey.md)

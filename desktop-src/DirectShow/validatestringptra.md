@@ -1,7 +1,12 @@
-﻿---
-Description: 'Verifies that the calling process has read access to an ANSI string. If not, the macro calls the DbgBreak macro.'
-ms.assetid: '44be67f8-9896-4360-82de-083a5f28a3d0'
+---
+Description: Verifies that the calling process has read access to an ANSI string. If not, the macro calls the DbgBreak macro.
+ms.assetid: 44be67f8-9896-4360-82de-083a5f28a3d0
 title: ValidateStringPtrA macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ValidateStringPtrA macro

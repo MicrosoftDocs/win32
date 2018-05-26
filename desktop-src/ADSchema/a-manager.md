@@ -1,20 +1,25 @@
 ---
 title: Manager attribute
-description: Contains the distinguished name of the user who is the user's manager. The manager's user object contains a directReports property that contains references to all user objects that have their manager properties set to this distinguished name.
+description: Contains the distinguished name of the user who is the users manager. The managers user object contains a directReports property that contains references to all user objects that have their manager properties set to this distinguished name.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '40743784-a99c-4ec0-9140-9f865c073244'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 40743784-a99c-4ec0-9140-9f865c073244
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Manager attribute AD Schema", "manager attribute AD Schema"]
+keywords:
+- Manager attribute AD Schema
+- manager attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Manager
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Manager attribute
@@ -38,12 +43,12 @@ Contains the distinguished name of the user who is the user's manager. The manag
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Contains the distinguished name of the user who is the user's manager. The manag
 
 
 
- 
+ 
 
- 
+ 
 
 
 

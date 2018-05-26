@@ -4,11 +4,15 @@ description: This topic describes issues that pertain to logon account maintenan
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '528be433-58ef-400b-ba9a-d114f3f94ec6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 528be433-58ef-400b-ba9a-d114f3f94ec6
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Logon Account Maintenance Tasks AD"]
+keywords:
+- Logon Account Maintenance Tasks AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Logon Account Maintenance Tasks

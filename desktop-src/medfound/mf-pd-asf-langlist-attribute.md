@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a list of language identifiers which specifies the languages contained in an Advanced Systems Format (ASF) file. This attribute corresponds to the Language List Object, defined in the ASF specification.'
-ms.assetid: '07b8a991-b392-47c1-a6d7-a1f5dcc82e5c'
-title: 'MF\_PD\_ASF\_LANGLIST attribute'
+---
+Description: Specifies a list of language identifiers which specifies the languages contained in an Advanced Systems Format (ASF) file. This attribute corresponds to the Language List Object, defined in the ASF specification.
+ms.assetid: 07b8a991-b392-47c1-a6d7-a1f5dcc82e5c
+title: MF\_PD\_ASF\_LANGLIST attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_ASF\_LANGLIST attribute
@@ -16,7 +21,7 @@ Byte array
 
 This attribute applies to presentation descriptors for ASF content.
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method creates the presentation descriptor and generates this attribute from the Language List Object header. The following table shows the format of the blob:
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method creates the presentation descriptor and generates this attribute from the Language List Object header. The following table shows the format of the blob:
 
 
 
@@ -209,13 +214,13 @@ private:
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

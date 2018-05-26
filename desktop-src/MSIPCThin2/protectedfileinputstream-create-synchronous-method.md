@@ -4,17 +4,21 @@ description: Synchronously creates a ProtectedFileInputStream object from an exi
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '1BAB8D06-5F26-4549-BC54-7A7C121E3A59'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 1BAB8D06-5F26-4549-BC54-7A7C121E3A59
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectedFileInputStream.create synchronous method"]
+keywords:
+- ProtectedFileInputStream.create synchronous method
 topic_type:
 - apiref
 api_name:
 - ProtectedFileInputStream.create synchronous method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileInputStream.create synchronous method
@@ -48,7 +52,7 @@ public static ProtectedFileInputStream create(InputStream inputStream,
 
 
 
- 
+ 
 
 ## Returns
 
@@ -72,11 +76,11 @@ ProtectedFileInputStream.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

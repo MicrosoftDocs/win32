@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ExtendedStatus property is a null-terminated string that describes the job''s extended status.'
-ms.assetid: '679a6fa2-5499-4720-92cb-16eb76a7465b'
-title: 'FaxIncomingJob.ExtendedStatus property'
+---
+Description: The ExtendedStatus property is a null-terminated string that describes the jobs extended status.
+ms.assetid: 679a6fa2-5499-4720-92cb-16eb76a7465b
+title: FaxIncomingJob.ExtendedStatus property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob.ExtendedStatus property
@@ -21,7 +26,7 @@ Property ExtendedStatus As String
 
 ## Property value
 
-A **String** that receives a description of the job's extended status. For more information, see [**FAX\_JOB\_EXTENDED\_STATUS\_ENUM**](-mfax-fax-job-extended-status-enum.md).
+A **String** that receives a description of the job's extended status. For more information, see [**FAX\_JOB\_EXTENDED\_STATUS\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_job_extended_status_enum?branch=master).
 
 ## Remarks
 
@@ -50,7 +55,7 @@ The **ExtendedStatus** property can have a value only if the fax service provide
 [**FaxIncomingJob**](-mfax-faxincomingjob.md)
 </dt> <dt>
 
-[**IFaxIncomingJob**](-mfax-faxincomingjob-cpp.md)
+[**IFaxIncomingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjob?branch=master)
 </dt> </dl>
 
  

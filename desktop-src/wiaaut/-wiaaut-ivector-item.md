@@ -1,8 +1,11 @@
 ---
 title: Vector.Item property
 description: Sets or retrieves the specified item in the Vector by position.
-ms.assetid: '19fb40f4-c6d8-4d91-aa17-dc291acfe9db'
-keywords: ["Item property WIA Automation", "Item property WIA Automation , Vector object", "Vector object WIA Automation , Item property"]
+ms.assetid: 19fb40f4-c6d8-4d91-aa17-dc291acfe9db
+keywords:
+- Item property WIA Automation
+- Item property WIA Automation , Vector object
+- Vector object WIA Automation , Item property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector.Item property
@@ -44,8 +52,8 @@ For example code, see [Create and Initialize a Vector Object](-wiaaut-shared-sam
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -94,9 +102,9 @@ For example code, see [Create and Initialize a Vector Object](-wiaaut-shared-sam
 [**Item (Properties)**](-wiaaut-iproperties-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

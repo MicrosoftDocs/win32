@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Property System is an extensible read/write system of data definitions that provides a uniform way of expressing metadata about Shell items.'
-ms.assetid: 'eb2dc2be-fc53-40aa-81f6-f353ab1d3a57'
+Description: The Windows Property System is an extensible read/write system of data definitions that provides a uniform way of expressing metadata about Shell items.
+ms.assetid: eb2dc2be-fc53-40aa-81f6-f353ab1d3a57
 title: Property System Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property System Overview
@@ -25,7 +30,7 @@ Properties are uniquely identified by their canonical name (such as `System.Docu
 An individual property consists of the following three pieces:
 
 -   A canonical name, such as `System.Music.Artist`.
--   A schema description, which is specified in the .propdesc XML file format and expressed programmatically through [**IPropertyDescription**](ipropertydescription.md).
+-   A schema description, which is specified in the .propdesc XML file format and expressed programmatically through [**IPropertyDescription**](/windows/win32/Propsys/nn-propsys-ipropertydescription?branch=master).
 -   A value, such as the name of a singer.
 
 The schema description consists of information about the property, such as the property name, data type, constraints, information on how the property interacts with views and the search system, and so forth. The name and schema description are defined globally, and are the same for all items and types. A value is specific to an individual item. That is, the `System.Music.Artist` property is always defined as a multi-value string, but may have a different value (or no value at all) for each item.
@@ -112,7 +117,7 @@ The remainder of this Windows Property System SDK documentation contains the fol
 
 ## Additional Resources
 
--   For information about reusing the In-Memory Property Store, see [Initializing Property Handlers](building-property-handlers-property-handlers.md) and [**PSCreateMemoryPropertyStore**](pscreatememorypropertystore.md).
+-   For information about reusing the In-Memory Property Store, see [Initializing Property Handlers](building-property-handlers-property-handlers.md) and [**PSCreateMemoryPropertyStore**](/windows/win32/Propsys/nf-propsys-pscreatememorypropertystore?branch=master).
 -   For a specification of the Microsoft Property Store Binary File Format, see [\[MS\_PROPSTORE\]](http://go.microsoft.com/fwlink/p/?linkid=212834).
 -   The relationship between Windows Search and indexing, and how to extend the index, are explained in the following topics in Windows Search:
     -   [Developing Filter Handlers for Windows Search](search._search_ifilter_conceptual)

@@ -1,8 +1,9 @@
 ---
 title: WM\_NEXTDLGCTL message
 description: Sent to a dialog box procedure to set the keyboard focus to a different control in the dialog box.
-ms.assetid: '63d9fac2-3057-4bfa-9960-911fd18877d4'
-keywords: ["WM_NEXTDLGCTL message Dialog Boxes"]
+ms.assetid: 63d9fac2-3057-4bfa-9960-911fd18877d4
+keywords:
+- WM_NEXTDLGCTL message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_NEXTDLGCTL message
@@ -58,8 +64,8 @@ Do not use the [**SendMessage**](https://msdn.microsoft.com/library/windows/desk
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -86,9 +92,9 @@ Do not use the [**SendMessage**](https://msdn.microsoft.com/library/windows/desk
 [Dialog Boxes](dialog-boxes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

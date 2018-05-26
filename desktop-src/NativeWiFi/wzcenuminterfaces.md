@@ -1,12 +1,17 @@
-﻿---
-Description: 'Enumerates all of the wireless LAN interfaces managed by the Wireless Zero Configuration service.'
-ms.assetid: 'ef8a6a3e-042a-4219-baed-a82bb3e983ae'
+---
+Description: Enumerates all of the wireless LAN interfaces managed by the Wireless Zero Configuration service.
+ms.assetid: ef8a6a3e-042a-4219-baed-a82bb3e983ae
 title: WZCEnumInterfaces function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WZCEnumInterfaces function
 
-\[**WZCEnumInterfaces** is no longer supported as of Windows Vista and Windows Server 2008. Instead, use the [**WlanEnumInterfaces**](wlanenuminterfaces.md) function. For more information, see [About the Native Wifi API](about-the-native-wifi-api.md).\]
+\[**WZCEnumInterfaces** is no longer supported as of Windows Vista and Windows Server 2008. Instead, use the [**WlanEnumInterfaces**](/windows/win32/wlanapi/nf-wlanapi-wlanenuminterfaces?branch=master) function. For more information, see [About the Native Wifi API](about-the-native-wifi-api.md).\]
 
 The **WZCEnumInterfaces** function enumerates all of the wireless LAN interfaces managed by the Wireless Zero Configuration service.
 

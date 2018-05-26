@@ -4,11 +4,15 @@ description: Working with Menu Buttons Implementation Details
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '144357de-3e42-4808-828f-0780ecef08c5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 144357de-3e42-4808-828f-0780ecef08c5
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["toolbars and menu buttons MMC , implementation details (menu buttons)"]
+keywords:
+- toolbars and menu buttons MMC , implementation details (menu buttons)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with Menu Buttons: Implementation Details
@@ -17,7 +21,7 @@ keywords: ["toolbars and menu buttons MMC , implementation details (menu buttons
 
 1.  Implement the [**IExtendControlbar**](iextendcontrolbar.md) interface and its two methods, [**SetControlBar**](iextendcontrolbar-setcontrolbar.md) and [**ControlbarNotify**](iextendcontrolbar-controlbarnotify.md).
 
-    The snap-in's [**IComponent**](icomponent.md) implementation should implement and expose the [**IExtendControlbar**](iextendcontrolbar.md) interface.
+    The snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation should implement and expose the [**IExtendControlbar**](iextendcontrolbar.md) interface.
 
 2.  In the snap-in's implementation of [**SetControlBar**](iextendcontrolbar-setcontrolbar.md):
 
@@ -93,7 +97,7 @@ HRESULT CComponent::SetControlbar(
 
 
 
-In the sample, `CComponent` is an instance of the [**IComponent**](icomponent.md) interface. IDR\_STATE\_MENU is a snap-in resource that defines the menu button layout.
+In the sample, `CComponent` is an instance of the [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) interface. IDR\_STATE\_MENU is a snap-in resource that defines the menu button layout.
 
 ## IExtendControlBar::ControlbarNotify Implementation
 

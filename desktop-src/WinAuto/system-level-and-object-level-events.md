@@ -1,7 +1,12 @@
 ---
 title: System-Level and Object-Level Events
 description: Microsoft Active Accessibility uses three classes of WinEvents system level, object level, and console.
-ms.assetid: '3333fe6c-38cd-4e7e-be4b-94c9f824e7e7'
+ms.assetid: 3333fe6c-38cd-4e7e-be4b-94c9f824e7e7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System-Level and Object-Level Events
@@ -24,7 +29,7 @@ Server applications typically generate object-level events for changes to the ac
 
 Although the system generates object-level events for [**window**](window.md) objects, servers must also send object-level events for every accessible object contained in a window. For example, if a server application registers an application-defined window class to create a custom control, the system generates object-level events for the window that contains the custom control; the server generates object-level events for the accessible object that provides information about the control.
 
-Servers only generate object-level events for the custom controls for which they implement the [**IAccessible**](iaccessible.md) interface. For more information, see [Custom User Interface Elements](custom-user-interface-elements.md).
+Servers only generate object-level events for the custom controls for which they implement the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface. For more information, see [Custom User Interface Elements](custom-user-interface-elements.md).
 
  
 

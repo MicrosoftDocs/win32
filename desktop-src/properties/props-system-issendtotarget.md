@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether an item is a valid SendTo target. This information is provided by certain Shell folders.'
-ms.assetid: 'c2b30722-bc02-443b-9bdc-8b6c1c20d354'
-title: 'System.IsSendToTarget'
+Description: Indicates whether an item is a valid SendTo target. This information is provided by certain Shell folders.
+ms.assetid: c2b30722-bc02-443b-9bdc-8b6c1c20d354
+title: System.IsSendToTarget
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.IsSendToTarget

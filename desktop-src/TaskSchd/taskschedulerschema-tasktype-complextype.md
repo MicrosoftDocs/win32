@@ -1,14 +1,20 @@
 ---
 title: taskType Complex Type
 description: Defines the child elements and sequencing information for the Task element.
-ms.assetid: '622b2bf4-c7e0-403c-bd6c-99b687c1d439'
-keywords: ["taskType complex type Task Scheduler"]
+ms.assetid: 622b2bf4-c7e0-403c-bd6c-99b687c1d439
+keywords:
+- taskType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - taskType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # taskType Complex Type
@@ -81,8 +87,8 @@ Defines the child elements and sequencing information for the [**Task**](tasksch
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -96,9 +102,9 @@ Defines the child elements and sequencing information for the [**Task**](tasksch
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

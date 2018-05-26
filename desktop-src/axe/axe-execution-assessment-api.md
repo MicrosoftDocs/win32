@@ -1,7 +1,12 @@
 ---
 title: AXE Execution Assessment API
 description: The AXE Execution Assessment API is discussed in the following sections.
-ms.assetid: 'C2A2F4CD-7781-41B5-8FC6-313068F4617C'
+ms.assetid: C2A2F4CD-7781-41B5-8FC6-313068F4617C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AXE Execution Assessment API

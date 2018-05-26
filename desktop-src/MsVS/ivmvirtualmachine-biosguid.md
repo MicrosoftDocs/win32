@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine BIOSGUID property
 description: The BIOSGUID property contains the BIOS GUID.
-ms.assetid: 'cdc57fcf-f65c-40c5-9f10-435278cec7fb'
-keywords: ["BIOSGUID property Virtual Server", "BIOSGUID property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , BIOSGUID property", "BIOSGUID property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , BIOSGUID property"]
+ms.assetid: cdc57fcf-f65c-40c5-9f10-435278cec7fb
+keywords:
+- BIOSGUID property Virtual Server
+- BIOSGUID property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , BIOSGUID property
+- BIOSGUID property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , BIOSGUID property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::BIOSGUID property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_BIOSGUID(
-  [in]  BSTR biosGUID
+  [in]  BSTR biosGUID
 );
 
 HRESULT get_BIOSGUID(
-  [out] BSTR *biosGUID
+  [out] BSTR *biosGUID
 );
 ```
 
@@ -109,8 +119,8 @@ End If
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -122,9 +132,9 @@ End If
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Lists the transcendental vector functions.'
-ms.assetid: 'aae12d4a-7758-83df-5376-99d5d94a28c4'
+---
+Description: Lists the transcendental vector functions.
+ms.assetid: aae12d4a-7758-83df-5376-99d5d94a28c4
 title: Transcendental Vector Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transcendental Vector Functions
@@ -26,11 +31,11 @@ Lists the transcendental vector functions.
 | [**XMVectorCosEst**](xmvectorcosest.md)<br/>       | Estimates the cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>            |
 | [**XMVectorCosH**](xmvectorcosh.md)<br/>           | Computes the hyperbolic cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>  |
 | [**XMVectorExp**](xmvectorexp.md)<br/>             | Computes two raised to the power for each component.<br/>                                            |
-| [**XMVectorExp2**](xmvectorexp2.md)<br/>           | Computes two raised to the power for each component.<br/>                                            |
-| [**XMVectorExpE**](xmvectorexpe.md)<br/>           | Computes e (~2.71828) raised to the power for each component.<br/>                                   |
+| [**XMVectorExp2**](/windows/win32/directxmathvector.inl/?branch=master)<br/>           | Computes two raised to the power for each component.<br/>                                            |
+| [**XMVectorExpE**](/windows/win32/directxmathvector.inl/?branch=master)<br/>           | Computes e (~2.71828) raised to the power for each component.<br/>                                   |
 | [**XMVectorLog**](xmvectorlog.md)<br/>             | Computes the base two logarithm of each component of a vector.<br/>                                  |
-| [**XMVectorLog2**](xmvectorlog2.md)<br/>           | Computes the base two logarithm of each component of a vector.<br/>                                  |
-| [**XMVectorLogE**](xmvectorloge.md)<br/>           | Computes the base e logarithm of each component of a vector.<br/>                                    |
+| [**XMVectorLog2**](/windows/win32/directxmathvector.inl/?branch=master)<br/>           | Computes the base two logarithm of each component of a vector.<br/>                                  |
+| [**XMVectorLogE**](/windows/win32/directxmathvector.inl/?branch=master)<br/>           | Computes the base e logarithm of each component of a vector.<br/>                                    |
 | [**XMVectorSin**](xmvectorsin.md)<br/>             | Computes the sine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>               |
 | [**XMVectorSinCos**](xmvectorsincos.md)<br/>       | Computes the sine and cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>    |
 | [**XMVectorSinCosEst**](xmvectorsincosest.md)<br/> | Estimates the sine and cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>   |
@@ -46,9 +51,9 @@ Lists the transcendental vector functions.
 
 ## Remarks
 
-[**XMVectorExp**](xmvectorexp.md) is a compatibility alias for [**XMVectorExp2**](xmvectorexp2.md) for existing Windows 8 code. **XMVectorExp** is deprecated for Windows 8.1. Don't use it and instead use **XMVectorExp2** or [**XMVectorExpE**](xmvectorexpe.md).
+[**XMVectorExp**](xmvectorexp.md) is a compatibility alias for [**XMVectorExp2**](/windows/win32/directxmathvector.inl/?branch=master) for existing Windows 8 code. **XMVectorExp** is deprecated for Windows 8.1. Don't use it and instead use **XMVectorExp2** or [**XMVectorExpE**](/windows/win32/directxmathvector.inl/?branch=master).
 
-[**XMVectorLog**](xmvectorlog.md) is a compatibility alias for [**XMVectorLog2**](xmvectorlog2.md) for existing Windows 8 code. **XMVectorLog** is deprecated for Windows 8.1. Don't use it and instead use **XMVectorLog2** or [**XMVectorLogE**](xmvectorloge.md).
+[**XMVectorLog**](xmvectorlog.md) is a compatibility alias for [**XMVectorLog2**](/windows/win32/directxmathvector.inl/?branch=master) for existing Windows 8 code. **XMVectorLog** is deprecated for Windows 8.1. Don't use it and instead use **XMVectorLog2** or [**XMVectorLogE**](/windows/win32/directxmathvector.inl/?branch=master).
 
 ## Related topics
 

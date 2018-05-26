@@ -1,14 +1,20 @@
 ---
 title: delete timeout
 description: Deletes a global timeout and makes the HTTP.sys service revert to default values.
-ms.assetid: '5fcd5df4-023e-486d-b41a-639e210a128f'
-keywords: ["delete timeout HTTP"]
+ms.assetid: 5fcd5df4-023e-486d-b41a-639e210a128f
+keywords:
+- delete timeout HTTP
 topic_type:
 - apiref
 api_name:
 - delete timeout
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # delete timeout

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by the audio renderer when the audio device is removed. The audio renderer is now invalid.'
-ms.assetid: 'a65a3931-e0d6-47ac-b545-9d616e914109'
+---
+Description: Raised by the audio renderer when the audio device is removed. The audio renderer is now invalid.
+ms.assetid: a65a3931-e0d6-47ac-b545-9d616e914109
 title: MEAudioSessionDeviceRemoved event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEAudioSessionDeviceRemoved event
@@ -12,14 +17,14 @@ The Media Session forwards this event to the application.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
 | VARTYPE                | Description                                                                               |
 |------------------------|-------------------------------------------------------------------------------------------|
 | VT\_EMPTY<br/>   | No event data.<br/> <br/>                                                     |
-| VT\_UNKNOWN<br/> | Pointer to the [**IMFAudioPolicy**](imfaudiopolicy.md) interface.<br/> <br/> |
+| VT\_UNKNOWN<br/> | Pointer to the [**IMFAudioPolicy**](/windows/win32/mfidl/nn-mfidl-imfaudiopolicy?branch=master) interface.<br/> <br/> |
 
 
 
@@ -27,7 +32,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getva
 
 This event is sent by the audio renderer's stream sink. The event is triggered when the audio renderer receives an [**IAudioSessionEvents::OnSessionDisconnected**](coreaudio.iaudiosessionevents_onsessiondisconnected) event from the audio session with the disconnection reason equal to **DisconnectReasonDeviceRemoval**.
 
-The [**IMFAudioPolicy**](imfaudiopolicy.md) pointer, if set, is not useful, because the audio stream is no longer valid.
+The [**IMFAudioPolicy**](/windows/win32/mfidl/nn-mfidl-imfaudiopolicy?branch=master) pointer, if set, is not useful, because the audio stream is no longer valid.
 
 ## Requirements
 

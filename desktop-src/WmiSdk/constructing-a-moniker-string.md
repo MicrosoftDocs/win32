@@ -1,13 +1,16 @@
 ---
-Description: 'The moniker string format is similar to that of a standard WMI object path. For more information, see WMI Object Path Requirements.'
+Description: The moniker string format is similar to that of a standard WMI object path. For more information, see WMI Object Path Requirements.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1aacc523-2a2f-43f5-96a3-aa0387cbae3e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1aacc523-2a2f-43f5-96a3-aa0387cbae3e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Constructing a Moniker String
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Constructing a Moniker String

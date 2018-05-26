@@ -1,13 +1,27 @@
 ---
 title: Producing a Dialog Box for Selecting a Specific Type of Format
 description: Producing a Dialog Box for Selecting a Specific Type of Format
-ms.assetid: 'e454f9d6-5cbf-4e1b-937e-771cf1dd38ba'
-keywords: ["audio compression manager (ACM),producing dialog boxes", "ACM (audio compression manager),producing dialog boxes", "ACM examples,producing dialog boxes", "producing dialog boxes", "acmFormatChoose function", "audio compression manager (ACM),selecting format types", "ACM (audio compression manager),selecting format types", "ACM examples,selecting format types", "selecting format types"]
+ms.assetid: e454f9d6-5cbf-4e1b-937e-771cf1dd38ba
+keywords:
+- audio compression manager (ACM),producing dialog boxes
+- ACM (audio compression manager),producing dialog boxes
+- ACM examples,producing dialog boxes
+- producing dialog boxes
+- acmFormatChoose function
+- audio compression manager (ACM),selecting format types
+- ACM (audio compression manager),selecting format types
+- ACM examples,selecting format types
+- selecting format types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Producing a Dialog Box for Selecting a Specific Type of Format
 
-You might want an application to allow the user to select a format from a restricted list of formats in a dialog box. Restrictions might limit the number of channels, the sampling rate, the waveform-audio format tag, or the number of bits per sample. In all of these cases, you can generate the list by using the [**acmFormatChoose**](acmformatchoose.md) function, setting the **fdwEnum** and **pwfxEnum** members of the [**ACMFORMATCHOOSE**](acmformatchoose-struct.md) structure. The following example illustrates this process.
+You might want an application to allow the user to select a format from a restricted list of formats in a dialog box. Restrictions might limit the number of channels, the sampling rate, the waveform-audio format tag, or the number of bits per sample. In all of these cases, you can generate the list by using the [**acmFormatChoose**](/windows/win32/Msacm/nf-msacm-acmformatchoose?branch=master) function, setting the **fdwEnum** and **pwfxEnum** members of the [**ACMFORMATCHOOSE**](/windows/win32/Msacm/ns-msacm-tacmformatchoose?branch=master) structure. The following example illustrates this process.
 
 
 ```C++

@@ -1,8 +1,11 @@
 ---
 title: image.blur property
 description: Gets or sets the level of blur applied to the g image element.
-ms.assetid: '61d80a13-a803-4773-8e83-612d7bdfe256'
-keywords: ["blur property Windows Sidebar", "blur property Windows Sidebar , image object", "image object Windows Sidebar , blur property"]
+ms.assetid: 61d80a13-a803-4773-8e83-612d7bdfe256
+keywords:
+- blur property Windows Sidebar
+- blur property Windows Sidebar , image object
+- image object Windows Sidebar , blur property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # image.blur property
@@ -93,10 +101,10 @@ The following example demonstrates how to add a blur effect to the [**g:image**]
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -118,9 +126,9 @@ The following example demonstrates how to add a blur effect to the [**g:image**]
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

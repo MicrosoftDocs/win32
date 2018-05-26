@@ -1,8 +1,17 @@
 ---
 title: About Routing Table Manager Version 2
 description: The following documentation describes the Routing Table Manager Version 2 (RTMv2) technology.
-ms.assetid: '9f84863e-45ed-49d1-8df4-3b59b1b5f3c9'
-keywords: ["Routing and Remote Access Service RRAS , Routing Table Manager Version 2", "Routing and Remote Access Service RRAS , Routing Table Manager Version 2,described", "Routing Table Manager Version 2 RRAS", "Routing Table Manager Version 2 RRAS , described"]
+ms.assetid: 9f84863e-45ed-49d1-8df4-3b59b1b5f3c9
+keywords:
+- Routing and Remote Access Service RRAS , Routing Table Manager Version 2
+- Routing and Remote Access Service RRAS , Routing Table Manager Version 2,described
+- Routing Table Manager Version 2 RRAS
+- Routing Table Manager Version 2 RRAS , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Routing Table Manager Version 2

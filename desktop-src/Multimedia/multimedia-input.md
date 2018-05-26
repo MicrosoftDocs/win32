@@ -1,8 +1,16 @@
 ---
 title: Multimedia Input
 description: Multimedia Input
-ms.assetid: 'de7577c9-ad55-4405-92f7-7b34d7354cf0'
-keywords: ["Windows multimedia,input", "multimedia,input", "multimedia input,about"]
+ms.assetid: de7577c9-ad55-4405-92f7-7b34d7354cf0
+keywords:
+- Windows multimedia,input
+- multimedia,input
+- multimedia input,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia Input

@@ -1,13 +1,16 @@
 ---
-Description: 'A WMI provider consists of a Managed Object Format (MOF) file and DLL file. The MOF file defines the classes for which the provider implementation supplies data.'
+Description: A WMI provider consists of a Managed Object Format (MOF) file and DLL file. The MOF file defines the classes for which the provider implementation supplies data.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '20ef6b88-2aaa-4e86-bc4a-bebc34069672'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 20ef6b88-2aaa-4e86-bc4a-bebc34069672
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Designing Managed Object Format (MOF) Classes'
+title: Designing Managed Object Format (MOF) Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Designing Managed Object Format (MOF) Classes

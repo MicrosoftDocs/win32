@@ -1,8 +1,9 @@
 ---
 title: WM\_PSD\_PAGESETUPDLG message
 description: Notifies a PagePaintHook hook procedure that the Page Setup dialog box is about to draw the contents of the sample page. The hook procedure can use this message to carry out initialization tasks related to drawing the contents of the sample page.
-ms.assetid: '0d95240b-7d77-4819-8e5c-cc25cd1b30f2'
-keywords: ["WM_PSD_PAGESETUPDLG message Dialog Boxes"]
+ms.assetid: 0d95240b-7d77-4819-8e5c-cc25cd1b30f2
+keywords:
+- WM_PSD_PAGESETUPDLG message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_PSD\_PAGESETUPDLG message
@@ -49,14 +55,14 @@ The low-order word specifies a value that indicates the paper size. This value c
 
 
 
- 
+ 
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**PAGESETUPDLG**](pagesetupdlg-str.md) structure that contains information used to initialize the **Page Setup** dialog box.
+A pointer to a [**PAGESETUPDLG**](/windows/win32/Commdlg/ns-commdlg-tagpsda?branch=master) structure that contains information used to initialize the **Page Setup** dialog box.
 
 </dd> </dl>
 
@@ -78,8 +84,8 @@ The first three messages of a drawing sequence (**WM\_PSD\_PAGESETUPDLG**, [**WM
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 
 
@@ -97,7 +103,7 @@ The first three messages of a drawing sequence (**WM\_PSD\_PAGESETUPDLG**, [**WM
 [**PageSetupDlg**](pagesetupdlg.md)
 </dt> <dt>
 
-[**PAGESETUPDLG**](pagesetupdlg-str.md)
+[**PAGESETUPDLG**](/windows/win32/Commdlg/ns-commdlg-tagpsda?branch=master)
 </dt> <dt>
 
 [**WM\_PSD\_ENVSTAMPRECT**](wm-psd-envstamprect.md)
@@ -124,9 +130,9 @@ The first three messages of a drawing sequence (**WM\_PSD\_PAGESETUPDLG**, [**WM
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

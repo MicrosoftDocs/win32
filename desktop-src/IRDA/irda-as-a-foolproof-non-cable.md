@@ -1,8 +1,16 @@
 ---
 title: IrDA as a Foolproof Non-cable
 description: Mismatched connectors and wiring are impossible with IrDA.
-ms.assetid: 'f79389e2-05e8-4cb9-a6cf-19e9472ee670'
-keywords: ["Infrared Data Association IrDA , described, non-cable", "wireless IrDA , non-cable", "networking IrDA , non-cable"]
+ms.assetid: f79389e2-05e8-4cb9-a6cf-19e9472ee670
+keywords:
+- Infrared Data Association IrDA , described, non-cable
+- wireless IrDA , non-cable
+- networking IrDA , non-cable
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrDA as a Foolproof Non-cable

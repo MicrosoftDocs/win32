@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMFontManagement function is an optional entry point provided for PostScript devices.'
-ms.assetid: 'fd4e712a-8bde-4c80-b288-3fa7b69a2681'
+---
+Description: The OEMFontManagement function is an optional entry point provided for PostScript devices.
+ms.assetid: fd4e712a-8bde-4c80-b288-3fa7b69a2681
 title: OEMFontManagement function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMFontManagement function

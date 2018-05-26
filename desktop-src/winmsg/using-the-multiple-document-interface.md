@@ -1,7 +1,12 @@
 ---
-Description: 'This section explains how to perform tasks associated with the Multiple Document Interface.'
-ms.assetid: '024744d3-362f-4162-8d0a-d4dac61de808'
+Description: This section explains how to perform tasks associated with the Multiple Document Interface.
+ms.assetid: 024744d3-362f-4162-8d0a-d4dac61de808
 title: Using the Multiple Document Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Multiple Document Interface
@@ -70,7 +75,7 @@ BOOL WINAPI InitializeApplication()
 
 ## Creating Frame and Child Windows
 
-After registering its window classes, an MDI application can create its windows. First, it creates its frame window by using the [**CreateWindow**](createwindow.md) or [**CreateWindowEx**](createwindowex.md) function. After creating its frame window, the application creates its client window, again by using **CreateWindow** or **CreateWindowEx**. The application should specify MDICLIENT as the client window's class name; **MDICLIENT** is a preregistered window class defined by the system. The *lpvParam* parameter of **CreateWindow** or **CreateWindowEx** should point to a [**CLIENTCREATESTRUCT**](clientcreatestruct.md) structure. This structure contains the members described in the following table:
+After registering its window classes, an MDI application can create its windows. First, it creates its frame window by using the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) or [**CreateWindowEx**](createwindowex.md) function. After creating its frame window, the application creates its client window, again by using **CreateWindow** or **CreateWindowEx**. The application should specify MDICLIENT as the client window's class name; **MDICLIENT** is a preregistered window class defined by the system. The *lpvParam* parameter of **CreateWindow** or **CreateWindowEx** should point to a [**CLIENTCREATESTRUCT**](clientcreatestruct.md) structure. This structure contains the members described in the following table:
 
 
 
@@ -120,7 +125,7 @@ Use the **WS\_CLIPCHILDREN** style to create the MDI client window to prevent th
 
 The main message loop of an MDI application is similar to that of a non-MDI application handling accelerator keys. The difference is that the MDI message loop calls the [**TranslateMDISysAccel**](translatemdisysaccel.md) function before checking for application-defined accelerator keys or before dispatching the message.
 
-The following example shows the message loop of a typical MDI application. Note that [**GetMessage**](getmessage.md) can return -1 if there is an error.
+The following example shows the message loop of a typical MDI application. Note that [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) can return -1 if there is an error.
 
 
 ```
@@ -265,7 +270,7 @@ TCHAR * pName;
 
 
 
-The pointer passed in the *lParam* parameter of the [**WM\_MDICREATE**](wm-mdicreate.md) message is passed to the [**CreateWindow**](createwindow.md) function and appears as the first member in the [**CREATESTRUCT**](createstruct.md) structure, passed in the [**WM\_CREATE**](wm-create.md) message. In Multipad, the child window initializes itself during **WM\_CREATE** message processing by initializing document variables in its extra data and by creating the edit control's child window.
+The pointer passed in the *lParam* parameter of the [**WM\_MDICREATE**](wm-mdicreate.md) message is passed to the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) function and appears as the first member in the [**CREATESTRUCT**](createstruct.md) structure, passed in the [**WM\_CREATE**](wm-create.md) message. In Multipad, the child window initializes itself during **WM\_CREATE** message processing by initializing document variables in its extra data and by creating the edit control's child window.
 
  
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Wi-Fi Direct Services Advertisement Id.'
-ms.assetid: '7c2d2f9a-9dde-4d37-ad05-d69e8073b290'
-title: 'System.Devices.WiFiDirectServices.AdvertisementId'
+Description: Wi-Fi Direct Services Advertisement Id.
+ms.assetid: 7c2d2f9a-9dde-4d37-ad05-d69e8073b290
+title: System.Devices.WiFiDirectServices.AdvertisementId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.WiFiDirectServices.AdvertisementId

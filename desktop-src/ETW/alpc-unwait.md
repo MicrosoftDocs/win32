@@ -1,7 +1,12 @@
 ---
-Description: 'This class is the event type class for ALPC end wait events. The following syntax is simplified from MOF code.'
-ms.assetid: '89a357dd-c217-4b55-994a-4252fa3cae1c'
-title: 'ALPC\_Unwait class'
+Description: This class is the event type class for ALPC end wait events. The following syntax is simplified from MOF code.
+ms.assetid: 89a357dd-c217-4b55-994a-4252fa3cae1c
+title: ALPC\_Unwait class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ALPC\_Unwait class
@@ -51,14 +56,14 @@ Status from wait operation.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

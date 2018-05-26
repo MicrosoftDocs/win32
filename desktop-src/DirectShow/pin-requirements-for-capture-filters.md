@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the requirements for implementing an output pin on a DirectShow capture filter.'
-ms.assetid: 'cb9cda1c-efa2-4abb-934b-21ba8cb80f30'
+Description: This topic describes the requirements for implementing an output pin on a DirectShow capture filter.
+ms.assetid: cb9cda1c-efa2-4abb-934b-21ba8cb80f30
 title: Pin Requirements for Capture Filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pin Requirements for Capture Filters
@@ -10,7 +15,7 @@ This topic describes the requirements for implementing an output pin on a Direct
 
 ## Pin Name
 
-You can give a pin any name. If the pin name begins with the tilde (~) character, the Filter Graph Manager does not automatically render that pin when an application calls [**IGraphBuilder::RenderFile**](igraphbuilder-renderfile.md). For example, if the filter has a capture pin and a preview pin, you might name them "~Capture" and "Preview," respectively. If an application renders that filter in a graph, the preview pin will connect to its default renderer, and nothing will connect to the capture pin, which is a reasonable default behavior. This can also apply to pins that deliver informational data that is not meant to be rendered, or pins that need custom properties set. Note that pins with the tilde (~) prefix can still be connected manually by the application.
+You can give a pin any name. If the pin name begins with the tilde (~) character, the Filter Graph Manager does not automatically render that pin when an application calls [**IGraphBuilder::RenderFile**](/windows/win32/Strmif/nf-strmif-igraphbuilder-renderfile?branch=master). For example, if the filter has a capture pin and a preview pin, you might name them "~Capture" and "Preview," respectively. If an application renders that filter in a graph, the preview pin will connect to its default renderer, and nothing will connect to the capture pin, which is a reasonable default behavior. This can also apply to pins that deliver informational data that is not meant to be rendered, or pins that need custom properties set. Note that pins with the tilde (~) prefix can still be connected manually by the application.
 
 ## Pin Category
 

@@ -1,8 +1,11 @@
 ---
 title: IVMNetworkAdapter VirtualNetwork property
 description: Retrieves the virtual network to which the network interface is attached.
-ms.assetid: '7f52fd86-5f83-41d8-ba48-7db65e9c357c'
-keywords: ["VirtualNetwork property Virtual PC", "VirtualNetwork property Virtual PC , IVMNetworkAdapter interface", "IVMNetworkAdapter interface Virtual PC , VirtualNetwork property"]
+ms.assetid: 7f52fd86-5f83-41d8-ba48-7db65e9c357c
+keywords:
+- VirtualNetwork property Virtual PC
+- VirtualNetwork property Virtual PC , IVMNetworkAdapter interface
+- IVMNetworkAdapter interface Virtual PC , VirtualNetwork property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMNetworkAdapter::VirtualNetwork property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the virtual network to which the network interface is attached.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_VirtualNetwork(
-  [out, retval] IVMVirtualNetwork **virtualNetwork
+  [out, retval] IVMVirtualNetwork **virtualNetwork
 );
 ```
 
@@ -57,9 +65,9 @@ An [**IVMVirtualNetwork**](ivmvirtualnetwork.md) interface that represents the v
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMNetworkAdapter is defined as e32e4165-22b8-4dc0-8d57-850171ae207a<br/>          |
@@ -73,9 +81,9 @@ An [**IVMVirtualNetwork**](ivmvirtualnetwork.md) interface that represents the v
 [**IVMNetworkAdapter**](ivmnetworkadapter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'By using the notification APIs components can notify the indexer that an item has been changed, moved or deleted, and can add search scopes to the Windows Search indexer''s queue of URLs that require indexing.'
-ms.assetid: '817550e2-a256-48d5-9fa6-1ea04f8b8589'
+Description: By using the notification APIs components can notify the indexer that an item has been changed, moved or deleted, and can add search scopes to the Windows Search indexers queue of URLs that require indexing.
+ms.assetid: 817550e2-a256-48d5-9fa6-1ea04f8b8589
 title: Notifying the Index of Changes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Notifying the Index of Changes
@@ -27,20 +32,20 @@ Indexer-managed notifications enable you to control access to your data store wh
 To implement indexer-managed notifications, you need to implement the following:
 
 -   A mechanism for monitoring changes in your data store.
--   A data structure to queue up information (multiple [**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](-search-search-item-persistent-change.md) structures) about those changes.
--   [**ISearchPersistentItemsChangedSink**](-search-isearchpersistentitemschangedsink.md) interface to send your notifications to the indexer and to get notification acknowledgements from the indexer.
+-   A data structure to queue up information (multiple [**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](/windows/win32/Searchapi/ns-searchapi-_search_item_persistent_change?branch=master) structures) about those changes.
+-   [**ISearchPersistentItemsChangedSink**](/windows/win32/Searchapi/nn-searchapi-isearchpersistentitemschangedsink?branch=master) interface to send your notifications to the indexer and to get notification acknowledgements from the indexer.
 
 ### Notifications Queue
 
 You need to monitor and queue up every change in your data store to send to the indexer as a notification. How many notifications you queue up and how frequently you send them to the indexer depends on your circumstance. Perhaps you send a batch of notifications for every *n* number of changes or after some *t* time interval, or a combination of the two.
 
-The indexer expects the notifications to come in an array of [**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](-search-search-item-persistent-change.md) structures, so you may choose to implement your queue similarly.
+The indexer expects the notifications to come in an array of [**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](/windows/win32/Searchapi/ns-searchapi-_search_item_persistent_change?branch=master) structures, so you may choose to implement your queue similarly.
 
 ### ISearchPersistentItemsChangedSink
 
-To access this interface, you first instantiate an [**ISearchManager**](-search-isearchmanager.md) object to gain access to an [**ISearchCatalogManager**](-search-isearchcatalogmanager.md) object. From that **ISearchCatalogManager** object, you instantiate an [**ISearchPersistentItemsChangedSink**](-search-isearchpersistentitemschangedsink.md) object and notify the indexer of the data changes with a call to the **OnItemsChanged** method.
+To access this interface, you first instantiate an [**ISearchManager**](/windows/win32/Searchapi/nn-searchapi-isearchmanager?branch=master) object to gain access to an [**ISearchCatalogManager**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager?branch=master) object. From that **ISearchCatalogManager** object, you instantiate an [**ISearchPersistentItemsChangedSink**](/windows/win32/Searchapi/nn-searchapi-isearchpersistentitemschangedsink?branch=master) object and notify the indexer of the data changes with a call to the **OnItemsChanged** method.
 
-In the call to this method, you include the number of changes being reported and an array of [**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](-search-search-item-persistent-change.md) structures. You get back an array of HR completion codes indicating whether each URL was accepted for indexing. This is your acknowledgement from the indexer.
+In the call to this method, you include the number of changes being reported and an array of [**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](/windows/win32/Searchapi/ns-searchapi-_search_item_persistent_change?branch=master) structures. You get back an array of HR completion codes indicating whether each URL was accepted for indexing. This is your acknowledgement from the indexer.
 
 ## Implementing Provider-managed Notifications
 
@@ -49,31 +54,31 @@ Provider-managed notifications enable you to control access to your data store a
 To implement provider-managed notifications, you need to implement the following:
 
 -   A mechanism for monitoring changes in your data store.
--   A data structure to queue up information (multiple [**SEARCH\_ITEM\_CHANGE**](-search-search-item-change.md) structures) about those changes.
--   [**ISearchItemsChangedSink**](-search-isearchitemschangedsink.md) interface to send your notifications to the indexer and to get notification acknowledgements from the indexer.
--   [**ISearchNotifyInlineSite**](-search-isearchnotifyinlinesite.md) interface to receive updates about the status of indexing.
+-   A data structure to queue up information (multiple [**SEARCH\_ITEM\_CHANGE**](/windows/win32/Searchapi/ns-searchapi-_search_item_change?branch=master) structures) about those changes.
+-   [**ISearchItemsChangedSink**](/windows/win32/Searchapi/nn-searchapi-isearchitemschangedsink?branch=master) interface to send your notifications to the indexer and to get notification acknowledgements from the indexer.
+-   [**ISearchNotifyInlineSite**](/windows/win32/Searchapi/nn-searchapi-isearchnotifyinlinesite?branch=master) interface to receive updates about the status of indexing.
 
 ### Notifications Queue
 
 You need to monitor and queue up every change in your data store to send to the indexer as a notification. How many notifications you queue up and how frequently you send them to the indexer depends on your circumstance. Perhaps you send a batch of notifications for every *n* number of changes or after some *t* time interval, or a combination of the two.
 
-The indexer expects the notifications to come in an array of [**SEARCH\_ITEM\_CHANGE**](-search-search-item-change.md) structures, so you may choose to store change information similarly. However, you also need to be able to match the notifications you send with the acknowledgements and updates returned by the indexer. You may also want to be able to detect how long it takes to get acknowledgements, so you can decide if/when to resend notifications.
+The indexer expects the notifications to come in an array of [**SEARCH\_ITEM\_CHANGE**](/windows/win32/Searchapi/ns-searchapi-_search_item_change?branch=master) structures, so you may choose to store change information similarly. However, you also need to be able to match the notifications you send with the acknowledgements and updates returned by the indexer. You may also want to be able to detect how long it takes to get acknowledgements, so you can decide if/when to resend notifications.
 
 ### ISearchItemsChangedSink
 
-To access this interface, you first instantiate an [**ISearchManager**](-search-isearchmanager.md) object to gain access to an [**ISearchCatalogManager**](-search-isearchcatalogmanager.md) object. From that **ISearchCatalogManager** object, you instantiate an [**ISearchItemsChangedSink**](-search-isearchitemschangedsink.md) object and notify the indexer of the data changes with a call to the **OnItemsChanged** method.
+To access this interface, you first instantiate an [**ISearchManager**](/windows/win32/Searchapi/nn-searchapi-isearchmanager?branch=master) object to gain access to an [**ISearchCatalogManager**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager?branch=master) object. From that **ISearchCatalogManager** object, you instantiate an [**ISearchItemsChangedSink**](/windows/win32/Searchapi/nn-searchapi-isearchitemschangedsink?branch=master) object and notify the indexer of the data changes with a call to the **OnItemsChanged** method.
 
-In the call to this method, you include the number of changes being reported and an array of [**SEARCH\_ITEM\_CHANGE**](-search-search-item-change.md) structures. You get back an array of indexer-assigned DocIds that represent each change as well as an array of HR completion codes indicating whether each URL was accepted for indexing. This is your acknowledgement from the indexer that it has received your notifications and is preparing to index the items.
+In the call to this method, you include the number of changes being reported and an array of [**SEARCH\_ITEM\_CHANGE**](/windows/win32/Searchapi/ns-searchapi-_search_item_change?branch=master) structures. You get back an array of indexer-assigned DocIds that represent each change as well as an array of HR completion codes indicating whether each URL was accepted for indexing. This is your acknowledgement from the indexer that it has received your notifications and is preparing to index the items.
 
-From that point forward the indexer sends updates using the [**ISearchNotifyInlineSite**](-search-isearchnotifyinlinesite.md) interface.
+From that point forward the indexer sends updates using the [**ISearchNotifyInlineSite**](/windows/win32/Searchapi/nn-searchapi-isearchnotifyinlinesite?branch=master) interface.
 
 ### ISearchNotifyInlineSite
 
-In order to get updates about the status of both your items and the catalog, you must register your [**ISearchNotifyInlineSite**](-search-isearchnotifyinlinesite.md) interface with the indexer so it can send you callbacks. Each update sent using [**ISearchNotifyInlineSite::OnItemIndexedStatusChange**](-search-isearchnotifyinlinesite-onitemindexedstatuschange.md) identifies the items by DocId, the status of each item ([**SEARCH\_ITEM\_INDEXING\_STATUS**](-search-search-item-indexing-status.md)) and the indexing phase ([**SEARCH\_INDEXING\_PHASE**](-search-search-indexing-phase.md)) the items are in.
+In order to get updates about the status of both your items and the catalog, you must register your [**ISearchNotifyInlineSite**](/windows/win32/Searchapi/nn-searchapi-isearchnotifyinlinesite?branch=master) interface with the indexer so it can send you callbacks. Each update sent using [**ISearchNotifyInlineSite::OnItemIndexedStatusChange**](/windows/win32/Searchapi/nf-searchapi-isearchnotifyinlinesite-onitemindexedstatuschange?branch=master) identifies the items by DocId, the status of each item ([**SEARCH\_ITEM\_INDEXING\_STATUS**](/windows/win32/Searchapi/ns-searchapi-_search_item_indexing_status?branch=master)) and the indexing phase ([**SEARCH\_INDEXING\_PHASE**](/windows/win32/Searchapi/ne-searchapi-_search_indexing_phase?branch=master)) the items are in.
 
 Not only do you receive updates on the status of each item, as described earlier, you also get important information about the status of the catalog itself. The Windows Search service can be interrupted or restarted by the end user, a third party application, or some other failure. When this happens, you need a way to determine what notifications to repush to the indexer.
 
-The [**ISearchNotifyInlineSite::OnCatalogStatusChange**](-search-isearchnotifyinlinesite-oncatalogstatuschange.md) method, called by the Windows Search service, informs clients about the status of the catalog using the parameters described in the following table.
+The [**ISearchNotifyInlineSite::OnCatalogStatusChange**](/windows/win32/Searchapi/nf-searchapi-isearchnotifyinlinesite-oncatalogstatuschange?branch=master) method, called by the Windows Search service, informs clients about the status of the catalog using the parameters described in the following table.
 
 
 

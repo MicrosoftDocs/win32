@@ -1,7 +1,12 @@
 ---
-Description: 'Common Log File System (CLFS) provides high-performance persistent log services to user-mode and kernel-mode applications.'
-ms.assetid: 'dafbb0ff-9ef3-439f-990c-b5127312d86d'
+Description: Common Log File System (CLFS) provides high-performance persistent log services to user-mode and kernel-mode applications.
+ms.assetid: dafbb0ff-9ef3-439f-990c-b5127312d86d
 title: About Common Log File System
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Common Log File System

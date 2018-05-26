@@ -1,14 +1,19 @@
 ---
-Description: 'AAUX Source Control (ASC) Pack'
-ms.assetid: '3df80895-81e1-42a4-a095-913e77b199e5'
-title: 'AAUX Source Control (ASC) Pack'
+Description: AAUX Source Control (ASC) Pack
+ms.assetid: 3df80895-81e1-42a4-a095-913e77b199e5
+title: AAUX Source Control (ASC) Pack
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AAUX Source Control (ASC) Pack
 
 The following tables list the values used by the MSDV driver to fill in the **dwDVAAuxCtl** and
 
-**dwDVAAuxCtl1** members of the [**DVINFO**](dvinfo.md) structure. For more information, see [DVINFO Field Settings in the MSDV Driver](dvinfo-field-settings-in-the-msdv-driver.md).
+**dwDVAAuxCtl1** members of the [**DVINFO**](/windows/win32/strmif/ns-strmif-dvinfo?branch=master) structure. For more information, see [DVINFO Field Settings in the MSDV Driver](dvinfo-field-settings-in-the-msdv-driver.md).
 
 DVCR Settings
 

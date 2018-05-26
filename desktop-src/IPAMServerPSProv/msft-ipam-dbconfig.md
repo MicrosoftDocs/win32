@@ -1,15 +1,18 @@
 ---
-Description: 'Represents an IPAM database configuration.'
+Description: Represents an IPAM database configuration.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e6c101a9-6746-4075-8105-b5bab891ce75'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e6c101a9-6746-4075-8105-b5bab891ce75
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_DBConfig class'
+title: MSFT\_IPAM\_DBConfig class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_DBConfig class
@@ -58,7 +61,7 @@ The **MSFT\_IPAM\_DBConfig** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -122,7 +125,7 @@ Windows Authentication.
 > [!Note]  
 > If you use Windows authentication, IPAM will use the server machine account to connect to the database.
 
- 
+ 
 
 </dd> <dt>
 
@@ -138,7 +141,7 @@ SQL Authentication.
 > [!Note]  
 > If you use Windows SQL authentication, specify a username and password to connect to the database.
 
- 
+ 
 
 </dd> </dl>
 
@@ -291,7 +294,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -317,7 +320,7 @@ The path to the schema and log files for a Windows Internal Database.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -334,9 +337,9 @@ The path to the schema and log files for a Windows Internal Database.
 [IPAM Server WMI Provider Reference](ipam-server-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

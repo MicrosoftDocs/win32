@@ -1,7 +1,12 @@
 ---
 title: Admin Helper API and Scripts
 description: Admin Helper API and Scripts
-ms.assetid: '20e64aa7-724c-4045-9365-cc8e5df364b7'
+ms.assetid: 20e64aa7-724c-4045-9365-cc8e5df364b7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Admin Helper API and Scripts

@@ -1,14 +1,20 @@
 ---
 title: mad function
 description: Performs an arithmetic multiply/add operation on three values.
-ms.assetid: '2e58229d-2387-4319-adc6-2d66eda88bd1'
-keywords: ["mad function HLSL"]
+ms.assetid: 2e58229d-2387-4319-adc6-2d66eda88bd1
+keywords:
+- mad function HLSL
 topic_type:
 - apiref
 api_name:
 - mad
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mad function

@@ -1,8 +1,18 @@
 ---
 title: PLAYERAPPLICATION Element
 description: PLAYERAPPLICATION Element
-ms.assetid: '3b58da91-68a9-4f30-a712-3806c781cbbf'
-keywords: ["Windows Media Player skins,PLAYERAPPLICATION element", "skins,PLAYERAPPLICATION element", "PLAYERAPPLICATION element", "reference for skins,PLAYERAPPLICATION element", "elements,PLAYERAPPLICATION"]
+ms.assetid: 3b58da91-68a9-4f30-a712-3806c781cbbf
+keywords:
+- Windows Media Player skins,PLAYERAPPLICATION element
+- skins,PLAYERAPPLICATION element
+- PLAYERAPPLICATION element
+- reference for skins,PLAYERAPPLICATION element
+- elements,PLAYERAPPLICATION
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYERAPPLICATION Element

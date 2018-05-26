@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PrintSchemaSelectionType enumeration identifies how a Feature’s options should be selected. This property appears only in a PrintCapabilities document.'
-ms.assetid: '30BB7A95-512C-418B-B496-47832DD4C0BC'
+---
+Description: The PrintSchemaSelectionType enumeration identifies how a Feature’s options should be selected. This property appears only in a PrintCapabilities document.
+ms.assetid: 30BB7A95-512C-418B-B496-47832DD4C0BC
 title: PrintSchemaSelectionType enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrintSchemaSelectionType enumeration

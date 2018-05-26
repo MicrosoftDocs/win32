@@ -4,17 +4,22 @@ description: For a central access policy, this attribute identifies the central 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4abd3f44-14d8-4dae-b978-fbe817cc8e4c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4abd3f44-14d8-4dae-b978-fbe817cc8e4c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Authz-Member-Rules-In-Central-Access-Policy attribute AD Schema", "msAuthz-MemberRulesInCentralAccessPolicy attribute AD Schema"]
+keywords:
+- ms-Authz-Member-Rules-In-Central-Access-Policy attribute AD Schema
+- msAuthz-MemberRulesInCentralAccessPolicy attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Authz-Member-Rules-In-Central-Access-Policy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Authz-Member-Rules-In-Central-Access-Policy attribute
@@ -38,7 +43,7 @@ For a central access policy, this attribute identifies the central access rules 
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For a central access policy, this attribute identifies the central access rules 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

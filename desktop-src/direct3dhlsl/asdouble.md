@@ -1,14 +1,20 @@
 ---
 title: asdouble function
 description: Reinterprets a cast value (two 32-bit values) into a double.
-ms.assetid: '55e5276d-81e1-4e7e-8cb4-0beb57d2fb7f'
-keywords: ["asdouble function HLSL"]
+ms.assetid: 55e5276d-81e1-4e7e-8cb4-0beb57d2fb7f
+keywords:
+- asdouble function HLSL
 topic_type:
 - apiref
 api_name:
 - asdouble
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # asdouble function

@@ -1,7 +1,12 @@
 ---
-Description: 'ControlEvents are analogous to Microsoft Windows messages in Win32-based applications.'
-ms.assetid: 'ac62bb94-0605-4145-996a-e91fb1a42a77'
+Description: ControlEvents are analogous to Microsoft Windows messages in Win32-based applications.
+ms.assetid: ac62bb94-0605-4145-996a-e91fb1a42a77
 title: ControlEvent Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ControlEvent Overview

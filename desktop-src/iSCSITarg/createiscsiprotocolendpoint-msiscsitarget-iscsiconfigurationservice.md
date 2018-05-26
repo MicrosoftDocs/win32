@@ -4,13 +4,16 @@ description: Creates an iSCSI port in the form of an MSISCSITARGET\_iSCSIProtoco
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b70454fa-ddd8-489c-acaf-8c32e7a158b7'
-ms.prod: 'windows-server-dev'
+ms.assetid: b70454fa-ddd8-489c-acaf-8c32e7a158b7
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateiSCSIProtocolEndpoint method iSCSI Software Target API", "CreateiSCSIProtocolEndpoint method iSCSI Software Target API , MSISCSITARGET_iSCSIConfigurationService class", "MSISCSITARGET_iSCSIConfigurationService class iSCSI Software Target API , CreateiSCSIProtocolEndpoint method"]
+keywords:
+- CreateiSCSIProtocolEndpoint method iSCSI Software Target API
+- CreateiSCSIProtocolEndpoint method iSCSI Software Target API , MSISCSITARGET_iSCSIConfigurationService class
+- MSISCSITARGET_iSCSIConfigurationService class iSCSI Software Target API , CreateiSCSIProtocolEndpoint method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateiSCSIProtocolEndpoint method of the MSISCSITARGET\_iSCSIConfigurationService class
@@ -32,11 +38,11 @@ This method is inherited from the **CIM\_iSCSIConfigurationService** class.
 
 ```mof
 uint32 CreateiSCSIProtocolEndpoint(
-  [in]           CIM_SCSIProtocolController Ref iSCSINode,
-  [in]           uint16                         Role,
-  [in, optional] string                         Identifier,
-  [in]           CIM_ProtocolEndpoint Ref       NetworkPortals[],
-  [out]          CIM_iSCSIProtocolEndpoint Ref  iSCSIPort
+  [in]           CIM_SCSIProtocolController Ref iSCSINode,
+  [in]           uint16                         Role,
+  [in, optional] string                         Identifier,
+  [in]           CIM_ProtocolEndpoint Ref       NetworkPortals[],
+  [out]          CIM_iSCSIProtocolEndpoint Ref  iSCSIPort
 );
 ```
 
@@ -86,7 +92,7 @@ Each [**MSISCSITARGET\_iSCSIProtocolEndpoint**](msiscsitarget-iscsiprotocolendpo
 > [!Note]  
 > If the [**MSISCSITARGET\_iSCSIConfigurationCapabilities**](msiscsitarget-iscsiconfigurationcapabilities.md).**IdentifierSelectionSupported** property is **false**, this parameter must be set to **NULL**.
 
- 
+ 
 
 </dd> <dt>
 
@@ -130,7 +136,7 @@ This method returns one of the following values.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **SCSIProtocolController Non-existent** (4096)
@@ -157,10 +163,10 @@ This method returns one of the following values.
 **ProtocolEndpoints Not From Same Endpoint Collection** (4103)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -170,7 +176,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -193,9 +199,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_SAPAvailableForElement**](msiscsitarget-sapavailableforelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

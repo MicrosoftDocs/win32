@@ -1,8 +1,14 @@
 ---
 title: About Quality of Service (QOS)
 description: Quality of Service is a collection of components that enable differentiation and preferential treatment for subsets of data transmitted over the network. QOS components constitute the Microsoft implementation of Quality of Service.
-ms.assetid: '4e03df90-59e8-4014-b98b-13f664f1a404'
-keywords: ["Quality of Service QOS , described"]
+ms.assetid: 4e03df90-59e8-4014-b98b-13f664f1a404
+keywords:
+- Quality of Service QOS , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Quality of Service (QOS)

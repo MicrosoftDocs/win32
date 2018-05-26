@@ -1,7 +1,12 @@
 ---
 title: Organizing State in an Effect (Direct3D 11)
 description: With Direct3D 11, effect state for certain pipeline stages is organized by structures.
-ms.assetid: 'e5057f94-69dd-4219-a5f4-569e48502475'
+ms.assetid: e5057f94-69dd-4219-a5f4-569e48502475
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Organizing State in an Effect (Direct3D 11)
@@ -12,8 +17,8 @@ With Direct3D 11, effect state for certain pipeline stages is organized by struc
 
 | Pipeline State | Structure                                                                                                          |
 |----------------|--------------------------------------------------------------------------------------------------------------------|
-| Rasterization  | [**D3D11\_RASTERIZER\_DESC**](d3d11-rasterizer-desc.md)                                                           |
-| Output Merger  | [**D3D11\_BLEND\_DESC**](d3d11-blend-desc.md) and [**D3D11\_DEPTH\_STENCIL\_DESC**](d3d11-depth-stencil-desc.md) |
+| Rasterization  | [**D3D11\_RASTERIZER\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_rasterizer_desc?branch=master)                                                           |
+| Output Merger  | [**D3D11\_BLEND\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_blend_desc?branch=master) and [**D3D11\_DEPTH\_STENCIL\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_depth_stencil_desc?branch=master) |
 | Shaders        | See below                                                                                                          |
 
 

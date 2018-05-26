@@ -1,8 +1,10 @@
 ---
 title: LogFileCollection class
 description: This interface provides a container object for assessment log files.
-ms.assetid: '5ABCF721-1A7C-40FB-9E34-400E600325C3'
-keywords: ["LogFileCollection class Access Execution Engine", "LogFileCollection class Access Execution Engine , described"]
+ms.assetid: 5ABCF721-1A7C-40FB-9E34-400E600325C3
+keywords:
+- LogFileCollection class Access Execution Engine
+- LogFileCollection class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogFileCollection class
@@ -42,7 +49,7 @@ The **LogFileCollection** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -50,16 +57,16 @@ The **LogFileCollection** class has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

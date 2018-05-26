@@ -1,7 +1,12 @@
 ---
 title: Get Started with Win32 and C++
 description: The aim of this Get Started series is to teach you how to write a desktop program in C++ using Win32 and COM APIs.
-ms.assetid: 'a9470cb9-a1e7-4d6d-a4be-61b81d209ada'
+ms.assetid: a9470cb9-a1e7-4d6d-a4be-61b81d209ada
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Get Started with Win32 and C++
@@ -27,11 +32,11 @@ For this series, it is assumed that you have a good working knowledge of C++ pro
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

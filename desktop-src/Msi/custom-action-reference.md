@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections contain information on custom actions:'
-ms.assetid: 'f4815190-4900-4129-83e2-8b05302a88ca'
+Description: The following sections contain information on custom actions
+ms.assetid: f4815190-4900-4129-83e2-8b05302a88ca
 title: Custom Action Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Action Reference

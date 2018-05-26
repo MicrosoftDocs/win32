@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSubtypeName function retrieves the human-readable name of a video subtype.'
-ms.assetid: '493b434e-2d36-4897-a5b2-7be0eb0a560f'
+Description: The GetSubtypeName function retrieves the human-readable name of a video subtype.
+ms.assetid: 493b434e-2d36-4897-a5b2-7be0eb0a560f
 title: GetSubtypeName function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSubtypeName function
@@ -13,7 +18,7 @@ The `GetSubtypeName` function retrieves the human-readable name of a video subty
 
 ```C++
 TCHAR* GetSubtypeName(
-   const GUID *pSubtype
+   const GUID *pSubtype
 );
 ```
 
@@ -52,9 +57,9 @@ Returns a string containing the name.
 [Video and Image Functions](video-and-image-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

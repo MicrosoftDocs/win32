@@ -1,8 +1,10 @@
 ---
 title: MDM\_VPNv2\_PluginProfile02 class
 description: The MDM\_VPNv2\_PlugInProfile02 class describes the information needed when using a Windows Store based VPN plugin.
-ms.assetid: '522c32e5-74f9-46b2-b590-ca6ade241e97'
-keywords: ["MDM_VPNv2_PluginProfile02 class", "MDM_VPNv2_PluginProfile02 class, described"]
+ms.assetid: 522c32e5-74f9-46b2-b590-ca6ade241e97
+keywords:
+- MDM_VPNv2_PluginProfile02 class
+- MDM_VPNv2_PluginProfile02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_VPNv2\_PluginProfile02 class
@@ -132,7 +139,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -147,9 +154,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

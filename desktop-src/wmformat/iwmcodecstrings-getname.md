@@ -1,14 +1,20 @@
 ---
 title: GetName
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
-ms.assetid: '707d49f6-8b9a-40d8-bdbd-9ed99455d084'
-keywords: ["GetName windows Media Format"]
+ms.assetid: 707d49f6-8b9a-40d8-bdbd-9ed99455d084
+keywords:
+- GetName windows Media Format
 topic_type:
 - apiref
 api_name:
 - GetName
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetName

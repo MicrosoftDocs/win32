@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PROPSHEETUI\_INFO structure is used as an input parameter to PFNPROPSHEETUI-typed functions.'
-ms.assetid: 'b21c3ee1-13e8-4796-af45-6ba60e84df4e'
-title: 'PROPSHEETUI\_INFO structure'
+---
+Description: The PROPSHEETUI\_INFO structure is used as an input parameter to PFNPROPSHEETUI-typed functions.
+ms.assetid: b21c3ee1-13e8-4796-af45-6ba60e84df4e
+title: PROPSHEETUI\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROPSHEETUI\_INFO structure

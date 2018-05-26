@@ -1,7 +1,12 @@
 ---
-Description: 'Maps a single member function and an optional set of parameters to a corresponding set of integer dispatch identifiers (DISPIDs), which can be used upon subsequent calls to the CMediaControl::Invoke member function.'
-ms.assetid: '9ce1b1aa-ea03-4a65-bff7-e46771cd0772'
-title: 'CMediaControl.GetIDsOfNames method'
+Description: Maps a single member function and an optional set of parameters to a corresponding set of integer dispatch identifiers (DISPIDs), which can be used upon subsequent calls to the CMediaControlInvoke member function.
+ms.assetid: 9ce1b1aa-ea03-4a65-bff7-e46771cd0772
+title: CMediaControl.GetIDsOfNames method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaControl.GetIDsOfNames method
@@ -13,11 +18,11 @@ Maps a single member function and an optional set of parameters to a correspondi
 
 ```C++
 HRESULT GetIDsOfNames(
-   REFIID  riid,
-   OLECHAR **rgszNames,
-   UINT    cNames,
-   LCID    lcid,
-   DISPID  *rgdispid
+   REFIID  riid,
+   OLECHAR **rgszNames,
+   UINT    cNames,
+   LCID    lcid,
+   DISPID  *rgdispid
 );
 ```
 
@@ -77,7 +82,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -97,9 +102,9 @@ Returns one of the following values.
 [**CMediaControl Class**](cmediacontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

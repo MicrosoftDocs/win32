@@ -1,7 +1,12 @@
 ---
 title: Creating Text Links
 description: You can create a text link to jump from one HTML file to another in your help project, or from an HTML file to an external Web site or server location.
-ms.assetid: 'A485FFB5-9E27-4821-B2EC-F02949A78CAE'
+ms.assetid: A485FFB5-9E27-4821-B2EC-F02949A78CAE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Text Links

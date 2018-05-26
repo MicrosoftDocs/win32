@@ -1,14 +1,20 @@
 ---
 title: InterlockedOr function
 description: Performs an atomic OR on the value.
-ms.assetid: '3a05619b-db97-4cf1-af3c-12c376e605a6'
-keywords: ["InterlockedOr function HLSL"]
+ms.assetid: 3a05619b-db97-4cf1-af3c-12c376e605a6
+keywords:
+- InterlockedOr function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedOr
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedOr function

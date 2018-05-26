@@ -4,17 +4,22 @@ description: Do not use this attribute.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b5a48919-e32a-4088-a7b1-3903561ba847'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b5a48919-e32a-4088-a7b1-3903561ba847
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Hide-From-AB attribute AD Schema", "hideFromAB attribute AD Schema"]
+keywords:
+- Hide-From-AB attribute AD Schema
+- hideFromAB attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Hide-From-AB
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Hide-From-AB attribute

@@ -1,7 +1,12 @@
 ---
-Description: 'You determine a security policy for an application by defining the security privileges that it requires.'
-ms.assetid: '0348684f-aebd-4d2d-a69b-85fea551c0cd'
+Description: You determine a security policy for an application by defining the security privileges that it requires.
+ms.assetid: 0348684f-aebd-4d2d-a69b-85fea551c0cd
 title: Defining Roles for an Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining Roles for an Application

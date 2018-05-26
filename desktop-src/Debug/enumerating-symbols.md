@@ -1,12 +1,17 @@
 ---
-Description: 'The following code displays the name, address, and size of each loaded symbol in the specified module.'
-ms.assetid: '6ecdbd1e-406a-453e-9037-707ceb72074a'
+Description: The following code displays the name, address, and size of each loaded symbol in the specified module.
+ms.assetid: 6ecdbd1e-406a-453e-9037-707ceb72074a
 title: Enumerating Symbols
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Symbols
 
-The following code displays the name, address, and size of each loaded symbol in the specified module. The [**SymEnumSymbols**](symenumsymbols.md) function requires a callback function, which is called once for each module loaded. In this example, EnumSymProc is an implementation of the callback function.
+The following code displays the name, address, and size of each loaded symbol in the specified module. The [**SymEnumSymbols**](/windows/win32/Dbghelp/nf-dbghelp-symenumsymbols?branch=master) function requires a callback function, which is called once for each module loaded. In this example, EnumSymProc is an implementation of the callback function.
 
 
 ```C++

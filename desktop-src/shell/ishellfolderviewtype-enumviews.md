@@ -1,6 +1,11 @@
-﻿---
-Description: 'Retrieves an enumerator that will return one pointer to an item identifier list (PIDL) for every extended view.'
-title: 'IShellFolderViewType::EnumViews method'
+---
+Description: Retrieves an enumerator that will return one pointer to an item identifier list (PIDL) for every extended view.
+title: IShellFolderViewTypeEnumViews method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellFolderViewType::EnumViews method
@@ -28,16 +33,16 @@ HRESULT EnumViews(
 
 Type: **ULONG**
 
-Flags indicating which items to include in the enumeration. For a list of possible values, see the [**SHCONTF**](shcontf.md) enumerated type. This parameter may be ignored.
+Flags indicating which items to include in the enumeration. For a list of possible values, see the [**SHCONTF**](/windows/win32/shobjidl_core/ne-shobjidl_core-_shcontf?branch=master) enumerated type. This parameter may be ignored.
 
 </dd> <dt>
 
 *ppenum* \[out\]
 </dt> <dd>
 
-Type: **[**IEnumIDList**](ienumidlist.md)\*\***
+Type: **[**IEnumIDList**](/windows/win32/shobjidl_core/nn-shobjidl_core-ienumidlist?branch=master)\*\***
 
-The address of a pointer variable of type [**IEnumIDList**](ienumidlist.md) that receives the enumerator.
+The address of a pointer variable of type [**IEnumIDList**](/windows/win32/shobjidl_core/nn-shobjidl_core-ienumidlist?branch=master) that receives the enumerator.
 
 </dd> </dl>
 

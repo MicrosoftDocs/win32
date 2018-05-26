@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.playlist
 description: The playlist attribute specifies or retrieves the Playlist object that the PLAYLIST element provides an interface to.
-ms.assetid: '4cfbf9d1-8381-4f59-8e6f-9b07f5642c39'
-keywords: ["PLAYLIST.playlist Windows Media Player"]
+ms.assetid: 4cfbf9d1-8381-4f59-8e6f-9b07f5642c39
+keywords:
+- PLAYLIST.playlist Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.playlist
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.playlist
@@ -47,9 +53,9 @@ If the playlist specified is invalid or if no value is specified, the **PLAYLIST
 [**Playlist Object**](playlist-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

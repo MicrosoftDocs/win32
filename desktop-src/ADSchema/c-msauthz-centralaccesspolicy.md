@@ -4,17 +4,22 @@ description: A class that defines Central Access Policy objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ea0c9f84-cb61-49ec-8128-eddc61749d7d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ea0c9f84-cb61-49ec-8128-eddc61749d7d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Authz-Central-Access-Policy class AD Schema", "msAuthz-CentralAccessPolicy class AD Schema"]
+keywords:
+- ms-Authz-Central-Access-Policy class AD Schema
+- msAuthz-CentralAccessPolicy class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Authz-Central-Access-Policy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Authz-Central-Access-Policy class
@@ -35,7 +40,7 @@ A class that defines Central Access Policy objects.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -62,7 +67,7 @@ A class that defines Central Access Policy objects.
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -191,9 +196,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

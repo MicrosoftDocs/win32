@@ -1,8 +1,11 @@
 ---
 title: IMimeMessage GetRootMoniker method
 description: GetRootMoniker is reserved.
-ms.assetid: '61feb0ef-ee35-4191-b7ac-5e39bdf72406'
-keywords: ["GetRootMoniker method Windows Mail (formerly Outlook Express)", "GetRootMoniker method Windows Mail (formerly Outlook Express) , IMimeMessage interface", "IMimeMessage interface Windows Mail (formerly Outlook Express) , GetRootMoniker method"]
+ms.assetid: 61feb0ef-ee35-4191-b7ac-5e39bdf72406
+keywords:
+- GetRootMoniker method Windows Mail (formerly Outlook Express)
+- GetRootMoniker method Windows Mail (formerly Outlook Express) , IMimeMessage interface
+- IMimeMessage interface Windows Mail (formerly Outlook Express) , GetRootMoniker method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessage::GetRootMoniker method
@@ -24,7 +32,7 @@ api_type:
 
 ```C++
 HRESULT GetRootMoniker(
-  [out] IMoniker **ppMoniker
+  [out] IMoniker **ppMoniker
 );
 ```
 
@@ -55,8 +63,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -64,9 +72,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

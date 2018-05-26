@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_OffsetY method specifies the vertical offset of the wipe origin.'
-ms.assetid: '1dfd18cf-06ae-46eb-80d7-078efc243bb1'
-title: 'IDxtJpeg::put\_OffsetY method'
+---
+Description: The put\_OffsetY method specifies the vertical offset of the wipe origin.
+ms.assetid: 1dfd18cf-06ae-46eb-80d7-078efc243bb1
+title: IDxtJpegput\_OffsetY method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::put\_OffsetY method

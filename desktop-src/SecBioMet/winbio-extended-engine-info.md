@@ -1,8 +1,10 @@
 ---
 title: WINBIO\_EXTENDED\_ENGINE\_INFO structure
 description: Contains information about the capabilities and enrollment requirements of the engine adapter for a biometric unit.
-ms.assetid: '83586E04-24CA-4A39-836F-C80DB1508C71'
-keywords: ["WINBIO_EXTENDED_ENGINE_INFO structure Windows Biometric Framework API", "PWINBIO_EXTENDED_ENGINE_INFO structure pointer Windows Biometric Framework API"]
+ms.assetid: 83586E04-24CA-4A39-836F-C80DB1508C71
+keywords:
+- WINBIO_EXTENDED_ENGINE_INFO structure Windows Biometric Framework API
+- PWINBIO_EXTENDED_ENGINE_INFO structure pointer Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_EXTENDED\_ENGINE\_INFO structure
@@ -22,7 +29,7 @@ Contains information about the capabilities and enrollment requirements of the e
 
 ```C++
 typedef struct _WINBIO_EXTENDED_ENGINE_INFO {
-  WINBIO_CAPABILITIES   GenericEngineCapabilities;
+  WINBIO_CAPABILITIES   GenericEngineCapabilities;
   WINBIO_BIOMETRIC_TYPE Factor;
   union {
     ULONG32 Null;
@@ -30,8 +37,8 @@ typedef struct _WINBIO_EXTENDED_ENGINE_INFO {
       WINBIO_CAPABILITIES Capabilities;
       struct {
         ULONG32 Null;
-      } EnrollmentRequirements;
-    } FacialFeatures;
+      } EnrollmentRequirements;
+    } FacialFeatures;
     struct {
       WINBIO_CAPABILITIES Capabilities;
       struct {
@@ -41,21 +48,21 @@ typedef struct _WINBIO_EXTENDED_ENGINE_INFO {
         ULONG BottomEdge;
         ULONG LeftEdge;
         ULONG RightEdge;
-      } EnrollmentRequirements;
-    } Fingerprint;
+      } EnrollmentRequirements;
+    } Fingerprint;
     struct {
       WINBIO_CAPABILITIES Capabilities;
       struct {
         ULONG32 Null;
-      } EnrollmentRequirements;
-    } Iris;
+      } EnrollmentRequirements;
+    } Iris;
     struct {
       WINBIO_CAPABILITIES Capabilities;
       struct {
         ULONG32 Null;
-      } EnrollmentRequirements;
-    } Voice;
-  } Specific;
+      } EnrollmentRequirements;
+    } Voice;
+  } Specific;
 } WINBIO_EXTENDED_ENGINE_INFO, *PWINBIO_EXTENDED_ENGINE_INFO;
 ```
 
@@ -234,8 +241,8 @@ Reserved. Must be zero.
 
 |                                     |                                                                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt> </dl> |
 
 
@@ -250,9 +257,9 @@ Reserved. Must be zero.
 [**WINBIO\_BIOMETRIC\_TYPE Constants**](winbio-biometric-type-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

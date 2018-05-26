@@ -1,8 +1,11 @@
 ---
-title: \_MEDIA\_TYPE enumeration
+title: '\_MEDIA\_TYPE enumeration'
 description: The MEDIA\_TYPE enumerators are used in conjunction with the IOCTL\_DISK\_FORMAT\_TRACKS request to format the specified set of contiguous tracks on the disk.
-ms.assetid: '3fae425a-fff7-4988-9df6-22bf15d51a7f'
-keywords: ["_MEDIA_TYPE enumeration Storage Devices", "MEDIA_TYPE enumeration Storage Devices", "PMEDIA_TYPE enumeration pointer Storage Devices"]
+ms.assetid: 3fae425a-fff7-4988-9df6-22bf15d51a7f
+keywords:
+- _MEDIA_TYPE enumeration Storage Devices
+- MEDIA_TYPE enumeration Storage Devices
+- PMEDIA_TYPE enumeration pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - ntdddisk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_MEDIA\_TYPE enumeration
@@ -22,32 +30,32 @@ The MEDIA\_TYPE enumerators are used in conjunction with the [**IOCTL\_DISK\_FOR
 
 ```C++
 typedef enum _MEDIA_TYPE { 
-  Unknown         = 0,
-  F5_1Pt2_512     = 1,
-  F3_1Pt44_512    = 2,
-  F3_2Pt88_512    = 3,
-  F3_20Pt8_512    = 4,
-  F3_720_512      = 5,
-  F5_360_512      = 6,
-  F5_320_512      = 7,
-  F5_320_1024     = 8,
-  F5_180_512      = 9,
-  F5_160_512      = 10,
-  RemovableMedia  = 11,
-  FixedMedia      = 12,
-  F3_120M_512     = 13,
-  F3_640_512      = 14,
-  F5_640_512      = 15,
-  F5_720_512      = 16,
-  F3_1Pt2_512     = 17,
-  F3_1Pt23_1024   = 18,
-  F5_1Pt23_1024   = 19,
-  F3_128Mb_512    = 20,
-  F3_230Mb_512    = 21,
-  F8_256_128      = 22,
-  F3_200Mb_512    = 23,
-  F3_240M_512     = 24,
-  F3_32M_512      = 25
+  Unknown         = 0,
+  F5_1Pt2_512     = 1,
+  F3_1Pt44_512    = 2,
+  F3_2Pt88_512    = 3,
+  F3_20Pt8_512    = 4,
+  F3_720_512      = 5,
+  F5_360_512      = 6,
+  F5_320_512      = 7,
+  F5_320_1024     = 8,
+  F5_180_512      = 9,
+  F5_160_512      = 10,
+  RemovableMedia  = 11,
+  FixedMedia      = 12,
+  F3_120M_512     = 13,
+  F3_640_512      = 14,
+  F5_640_512      = 15,
+  F5_720_512      = 16,
+  F3_1Pt2_512     = 17,
+  F3_1Pt23_1024   = 18,
+  F5_1Pt23_1024   = 19,
+  F3_128Mb_512    = 20,
+  F3_230Mb_512    = 21,
+  F8_256_128      = 22,
+  F3_200Mb_512    = 23,
+  F3_240M_512     = 24,
+  F3_32M_512      = 25
 } MEDIA_TYPE, *PMEDIA_TYPE;
 ```
 
@@ -265,9 +273,9 @@ Removable disks include zip drivers, jaz drives, magneto-optical (MO) drives, an
 [**FORMAT\_PARAMETERS**](format-parameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20_MEDIA_TYPE%20enumeration%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

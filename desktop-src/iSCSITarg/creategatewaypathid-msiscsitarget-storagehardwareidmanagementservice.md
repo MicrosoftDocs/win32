@@ -4,13 +4,16 @@ description: Creates a CIM\_GatewayPathID instance and the MSISCSITARGET\_Concre
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '10862354-2fe9-4933-ad57-df9007131d63'
-ms.prod: 'windows-server-dev'
+ms.assetid: 10862354-2fe9-4933-ad57-df9007131d63
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateGatewayPathID method iSCSI Software Target API", "CreateGatewayPathID method iSCSI Software Target API , MSISCSITARGET_StorageHardwareIDManagementService class", "MSISCSITARGET_StorageHardwareIDManagementService class iSCSI Software Target API , CreateGatewayPathID method"]
+keywords:
+- CreateGatewayPathID method iSCSI Software Target API
+- CreateGatewayPathID method iSCSI Software Target API , MSISCSITARGET_StorageHardwareIDManagementService class
+- MSISCSITARGET_StorageHardwareIDManagementService class iSCSI Software Target API , CreateGatewayPathID method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateGatewayPathID method of the MSISCSITARGET\_StorageHardwareIDManagementService class
@@ -32,14 +38,14 @@ This method is inherited from the **CIM\_StorageHardwareIDManagementService** cl
 
 ```mof
 uint32 CreateGatewayPathID(
-  [in]  string                ElementName,
-  [in]  string                StorageID,
-  [in]  uint16                IDType,
-  [in]  string                OtherIDType,
-  [in]  string                GatewayID,
-  [in]  uint16                GatewayIDType,
-  [in]  string                OtherGatewayIDType,
-  [out] CIM_GatewayPathID Ref NewGatewayPathID
+  [in]  string                ElementName,
+  [in]  string                StorageID,
+  [in]  uint16                IDType,
+  [in]  string                OtherIDType,
+  [in]  string                GatewayID,
+  [in]  uint16                GatewayIDType,
+  [in]  string                OtherGatewayIDType,
+  [out] CIM_GatewayPathID Ref NewGatewayPathID
 );
 ```
 
@@ -71,7 +77,7 @@ Specifies the type of the *StorageID* parameter.
 > [!Note]  
 > An **iSCSI Name** can be in any one of three iSCSI formats, IQN, EUI, or NAA.
 
- 
+ 
 
 Possible values are.
 
@@ -141,7 +147,7 @@ Specifies the type of the *GatewayID* parameter.
 > [!Note]  
 > An **iSCSI Name** can be in any one of three iSCSI formats, IQN, EUI, or NAA.
 
- 
+ 
 
 Possible values are.
 
@@ -225,7 +231,7 @@ On return, contains a reference to the new **CIM\_GatewayPathID** instance.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–0x0FFF)
+**DMTF Reserved** (6 0x0FFF)
 </dt> <dt>
 
 **ID already created** (0x1000)
@@ -240,10 +246,10 @@ On return, contains a reference to the new **CIM\_GatewayPathID** instance.
 **Hardware implementation does not support specified GatewayIDType** (0x1004)
 </dt> <dt>
 
-**Method Reserved** (0x1005–0x7FFF)
+**Method Reserved** (0x1005 0x7FFF)
 </dt> <dt>
 
-**Vendor Specific** (0x8000–0xFFFF)
+**Vendor Specific** (0x8000 0xFFFF)
 </dt> </dl>
 
 ## Requirements
@@ -253,7 +259,7 @@ On return, contains a reference to the new **CIM\_GatewayPathID** instance.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -267,9 +273,9 @@ On return, contains a reference to the new **CIM\_GatewayPathID** instance.
 [**MSISCSITARGET\_StorageHardwareIDManagementService**](msiscsitarget-storagehardwareidmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

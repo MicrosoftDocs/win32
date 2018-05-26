@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '72a30318-d557-4f32-85e6-25f1f97fdd9f'
+Description: .
+ms.assetid: 72a30318-d557-4f32-85e6-25f1f97fdd9f
 title: Windows Search Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Search Interfaces

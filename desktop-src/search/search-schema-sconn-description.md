@@ -1,7 +1,12 @@
 ---
-Description: 'The optional &lt;description&gt; element specifies a description for this search connector. This element has no child elements and no attributes.'
-ms.assetid: '0e9d806c-7dfd-4e7f-8843-15a4e22f317f'
-title: 'description Element (Search Connector Schema)'
+Description: The optional &lt;description&gt; element specifies a description for this search connector. This element has no child elements and no attributes.
+ms.assetid: 0e9d806c-7dfd-4e7f-8843-15a4e22f317f
+title: description Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # description Element (Search Connector Schema)

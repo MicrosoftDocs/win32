@@ -1,13 +1,16 @@
 ---
-Description: 'You can filter the instances of a join view class by assigning a WQL query to the PostJoinFilter qualifier.'
+Description: You can filter the instances of a join view class by assigning a WQL query to the PostJoinFilter qualifier.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '926a7262-ea6b-4a5a-8aa7-6ec0ae389031'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 926a7262-ea6b-4a5a-8aa7-6ec0ae389031
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: PostJoinFilter Qualifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PostJoinFilter Qualifier
@@ -35,8 +38,8 @@ There are several restrictions to the use of this qualifier:
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -47,9 +50,9 @@ There are several restrictions to the use of this qualifier:
 [**Qualifiers Specific to the View Provider**](qualifiers-specific-to-the-view-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

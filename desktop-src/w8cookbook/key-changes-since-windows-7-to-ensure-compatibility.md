@@ -1,7 +1,12 @@
 ---
 title: Key changes since Windows 7 to ensure compatibility
 description: Key changes since Windows 7 to ensure compatibility
-ms.assetid: '6930AA8C-B9AE-44C0-BC7F-12342DBBEB5E'
+ms.assetid: 6930AA8C-B9AE-44C0-BC7F-12342DBBEB5E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Key changes since Windows 7 to ensure compatibility

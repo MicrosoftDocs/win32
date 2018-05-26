@@ -1,7 +1,12 @@
 ---
 title: Query Submittal for Indexing Service Query Language
 description: Query Submittal for Indexing Service Query Language
-ms.assetid: 'b1cb4053-44bc-4835-b93e-cb0f7f0ec0f3'
+ms.assetid: b1cb4053-44bc-4835-b93e-cb0f7f0ec0f3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query Submittal for Indexing Service Query Language
@@ -18,7 +23,7 @@ To use the Indexing Service query language, either Dialect 1 or Dialect 2, an ap
 | API                                                                 | Select Dialect By                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [ISAPI Extensions](programming-apis.md#-idxs-isapi-extensions-api) | Specifying a value of the *CiDialect* variable in the .idq file.                                                                                                                                                                                              |
-| [OLE DB Helper](programming-apis.md#-idxs-ole-db-helper-api)       | Specifying a value from the [ISQLANG\_\* constants](isqlang-constants.md) for the *ulDialect* parameter of a [**CITextToFullTreeEx**](citexttofulltreeex.md) or [**CITextToSelectTreeEx**](citexttoselecttreeex.md) function call that constructs a query. |
+| [OLE DB Helper](programming-apis.md#-idxs-ole-db-helper-api)       | Specifying a value from the [ISQLANG\_\* constants](isqlang-constants.md) for the *ulDialect* parameter of a [**CITextToFullTreeEx**](/windows/win32/Ntquery/nf-ntquery-citexttofulltreeex?branch=master) or [**CITextToSelectTreeEx**](/windows/win32/Ntquery/nf-ntquery-citexttoselecttreeex?branch=master) function call that constructs a query. |
 | [Query Helper](programming-apis.md#-idxs-query-helper-api)         | Specifying an appropriate value for the [**Query.Dialect**](iixssoquery-dialect.md) property of a query.                                                                                                                                                     |
 
 

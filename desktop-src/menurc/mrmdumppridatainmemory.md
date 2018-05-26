@@ -1,8 +1,9 @@
 ---
 title: MrmDumpPriDataInMemory function
 description: Dumps PRI info (as a blob in memory, created by a previous call to MrmCreateResourceFileInMemory) to its XML equivalent (as in-memory data), in order to make it more easily readable.
-ms.assetid: '6E563B43-4E0A-465D-A8EA-7DE61738DE06'
-keywords: ["MrmDumpPriDataInMemory function Menus and Other Resources"]
+ms.assetid: 6E563B43-4E0A-465D-A8EA-7DE61738DE06
+keywords:
+- MrmDumpPriDataInMemory function Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmDumpPriDataInMemory function
@@ -24,13 +30,13 @@ Dumps PRI info (as a blob in memory, created by a previous call to [**MrmCreateR
 
 ```C++
 HRESULT HRESULT MrmDumpPriDataInMemory(
-  _In_     BYTE        *inputPriData,
-  _In_     ULONG       inputPriSize,
-  _In_opt_ BYTE        *schemaPriData,
-  _In_     ULONG       schemaPriSize,
-  _In_     MrmDumpType dumpType,
-  _Out_    BYTE        **outputXmlData,
-  _Out_    ULONG       *outputXmlSize
+  _In_     BYTE        *inputPriData,
+  _In_     ULONG       inputPriSize,
+  _In_opt_ BYTE        *schemaPriData,
+  _In_     ULONG       schemaPriSize,
+  _In_     MrmDumpType dumpType,
+  _Out_    BYTE        **outputXmlData,
+  _Out_    ULONG       *outputXmlSize
 );
 ```
 
@@ -119,7 +125,7 @@ A schema-free resource pack is one that was created with the [**MrmPackagingOpti
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Mrmsupport.lib</dt> </dl>       |
@@ -134,9 +140,9 @@ A schema-free resource pack is one that was created with the [**MrmPackagingOpti
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

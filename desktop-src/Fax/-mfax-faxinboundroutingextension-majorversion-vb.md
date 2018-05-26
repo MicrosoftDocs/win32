@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MajorVersion property is a value that specifies the major part of the version number for the fax routing extension''s DLL.'
-ms.assetid: 'a323cd83-0a12-4e15-8144-6740cea0738f'
-title: 'FaxInboundRoutingExtension.MajorVersion property'
+---
+Description: The MajorVersion property is a value that specifies the major part of the version number for the fax routing extensions DLL.
+ms.assetid: a323cd83-0a12-4e15-8144-6740cea0738f
+title: FaxInboundRoutingExtension.MajorVersion property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingExtension.MajorVersion property
@@ -50,7 +55,7 @@ The standard format for build numbers is MajorVersion.MinorVersion.MajorBuild.Mi
 [**FaxInboundRoutingExtension**](-mfax-faxinboundroutingextension.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingExtension**](-mfax-faxinboundroutingextension-cpp.md)
+[**IFaxInboundRoutingExtension**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingextension?branch=master)
 </dt> </dl>
 
  

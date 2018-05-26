@@ -1,8 +1,11 @@
 ---
 title: ISoftKbd CreateSoftKeyboardLayoutFromResource method
 description: The ISoftKbd CreateSoftKeybboardLayoutFromResource method creates a soft keyboard layout from the specified resource.
-ms.assetid: 'c1b2f8bd-8065-426d-9c23-67fa46a33dc8'
-keywords: ["CreateSoftKeyboardLayoutFromResource method Text Services Framework", "CreateSoftKeyboardLayoutFromResource method Text Services Framework , ISoftKbd interface", "ISoftKbd interface Text Services Framework , CreateSoftKeyboardLayoutFromResource method"]
+ms.assetid: c1b2f8bd-8065-426d-9c23-67fa46a33dc8
+keywords:
+- CreateSoftKeyboardLayoutFromResource method Text Services Framework
+- CreateSoftKeyboardLayoutFromResource method Text Services Framework , ISoftKbd interface
+- ISoftKbd interface Text Services Framework , CreateSoftKeyboardLayoutFromResource method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISoftKbd::CreateSoftKeyboardLayoutFromResource method
@@ -22,10 +30,10 @@ The **ISoftKbd::CreateSoftKeybboardLayoutFromResource** method creates a soft ke
 
 ```C++
 HRESULT CreateSoftKeyboardLayoutFromResource(
-  [in]  WCHAR *lpszResFile,
-  [in]  WCHAR *lpszResType,
-  [in]  WCHAR *lpszXMLResString,
-  [out] DWORD *lpdwLayoutCookie
+  [in]  WCHAR *lpszResFile,
+  [in]  WCHAR *lpszResType,
+  [in]  WCHAR *lpszXMLResString,
+  [out] DWORD *lpdwLayoutCookie
 );
 ```
 
@@ -76,7 +84,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -84,9 +92,9 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
 | Header<br/>                   | <dl> <dt>Softkbdc.h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Softkbd.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
@@ -106,9 +114,9 @@ This method can return one of these values.
 [**ISoftKbd::ShowSoftKeyboard**](isoftkbd-showsoftkeyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

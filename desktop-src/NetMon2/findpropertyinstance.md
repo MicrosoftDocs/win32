@@ -1,7 +1,12 @@
 ---
-Description: 'The FindPropertyInstance function finds the first instance of the property specified by the hProperty parameter.'
-ms.assetid: 'e994503d-2f32-4fa2-bba9-ff66c9d558dc'
+Description: The FindPropertyInstance function finds the first instance of the property specified by the hProperty parameter.
+ms.assetid: e994503d-2f32-4fa2-bba9-ff66c9d558dc
 title: FindPropertyInstance function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FindPropertyInstance function
@@ -13,8 +18,8 @@ The **FindPropertyInstance** function finds the first instance of the property s
 
 ```C++
 LPPROPERTYINST WINAPI FindPropertyInstance(
-  _In_ HFRAME    hFrame,
-  _In_ HPROPERTY hProperty
+  _In_ HFRAME    hFrame,
+  _In_ HPROPERTY hProperty
 );
 ```
 
@@ -56,8 +61,8 @@ To retrieve the next instance of the property, call [FindPropertyInstanceRestart
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -71,9 +76,9 @@ To retrieve the next instance of the property, call [FindPropertyInstanceRestart
 [FindPropertyInstanceRestart](findpropertyinstancerestart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: ExportVirtualSystemEx method of the Msvm\_VirtualSystemManagementService class
 description: Exports a virtual computer system, or a snapshot of a virtual computer system, in the \ 0034;powered off \ 0034; or \ 0034;saved \ 0034; state to a file.
-ms.assetid: 'cb88394e-97ae-448c-b43f-1c6bcfe0054d'
-keywords: ["ExportVirtualSystemEx method Hyper-V", "ExportVirtualSystemEx method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , ExportVirtualSystemEx method"]
+ms.assetid: cb88394e-97ae-448c-b43f-1c6bcfe0054d
+keywords:
+- ExportVirtualSystemEx method Hyper-V
+- ExportVirtualSystemEx method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , ExportVirtualSystemEx method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExportVirtualSystemEx method of the Msvm\_VirtualSystemManagementService class
@@ -22,10 +30,10 @@ Exports a virtual computer system, or a snapshot of a virtual computer system, i
 
 ```mof
 uint32 ExportVirtualSystemEx(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  string                 ExportDirectory,
-  [in]  string                 ExportSettingData,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  string                 ExportDirectory,
+  [in]  string                 ExportSettingData,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -129,7 +137,7 @@ The following C# sample exports a virtual system. The referenced utilities can b
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -228,7 +236,7 @@ The following VBScript sample exports a virtual system.
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -404,9 +412,9 @@ For more examples demonstrating the **ExportVirtualSystemEx** method, see [Expor
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -422,9 +430,9 @@ For more examples demonstrating the **ExportVirtualSystemEx** method, see [Expor
 [**ExportVirtualSystem**](exportvirtualsystem-msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

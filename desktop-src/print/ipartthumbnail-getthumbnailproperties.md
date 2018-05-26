@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetThumbnailProperties method gets the thumbnail properties.'
-ms.assetid: '4255bdea-4d6e-4e69-ae76-6562a3f07678'
-title: 'IPartThumbnail::GetThumbnailProperties method'
+---
+Description: The GetThumbnailProperties method gets the thumbnail properties.
+ms.assetid: 4255bdea-4d6e-4e69-ae76-6562a3f07678
+title: IPartThumbnailGetThumbnailProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartThumbnail::GetThumbnailProperties method

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides information about the native PNG codec available through the Windows Imaging Component (WIC).'
-ms.assetid: '703217EA-70C8-4F86-B8DF-95468C78C8DA'
+Description: This topic provides information about the native PNG codec available through the Windows Imaging Component (WIC).
+ms.assetid: 703217EA-70C8-4F86-B8DF-95468C78C8DA
 title: PNG Format Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PNG Format Overview
@@ -58,7 +63,7 @@ The PNG codec uses basic WIC encoder options. The following table lists the WIC 
 | Property Name   | VARTYPE  | Value Range                                                 | Default Value                                                    |
 |-----------------|----------|-------------------------------------------------------------|------------------------------------------------------------------|
 | InterlaceOption | VT\_BOOL | **TRUE**/**FALSE**                                          | **FALSE**                                                        |
-| FilterOption    | VT\_UI1  | [**WICPngFilterOption**](-wic-codec-wicpngfilteroption.md) | [**WICPngFilterUnspecified**](-wic-codec-wicpngfilteroption.md) |
+| FilterOption    | VT\_UI1  | [**WICPngFilterOption**](/windows/win32/Wincodec/ne-wincodec-wicpngfilteroption?branch=master) | [**WICPngFilterUnspecified**](/windows/win32/Wincodec/ne-wincodec-wicpngfilteroption?branch=master) |
 
 
 
@@ -76,13 +81,13 @@ The default value is **FALSE**.
 
 Specifies the filter option to use for image compression.
 
-The default value is [**WICPngFilterUnspecified**](-wic-codec-wicpngfilteroption.md).
+The default value is [**WICPngFilterUnspecified**](/windows/win32/Wincodec/ne-wincodec-wicpngfilteroption?branch=master).
 
 ## Decoding
 
 The WIC decoding API are designed to be codec-independent and image decoding for WIC-enabled codecs is essentially the same. For more information about image decoding, see the [Decoding Overview](-wic-creating-decoder.md). For more information about using decoded image data, see the [Bitmap Sources Overview](-wic-bitmapsources.md).
 
-The native PNG codec also supports the [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md) on frame decoding adding advanced options for decoding an image stream. For more information about these advanced options, see the [Bitmap Sources Overview](-wic-bitmapsources.md).
+The native PNG codec also supports the [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master) on frame decoding adding advanced options for decoding an image stream. For more information about these advanced options, see the [Bitmap Sources Overview](-wic-bitmapsources.md).
 
  
 

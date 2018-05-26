@@ -1,8 +1,10 @@
 ---
 title: IResultVerb interface
 description: Exposes verb properties.
-ms.assetid: '8cc8408e-0117-4344-ad26-0c4a5d09a935'
-keywords: ["IResultVerb interface Legacy Windows Environment Features", "IResultVerb interface Legacy Windows Environment Features , described"]
+ms.assetid: 8cc8408e-0117-4344-ad26-0c4a5d09a935
+keywords:
+- IResultVerb interface Legacy Windows Environment Features
+- IResultVerb interface Legacy Windows Environment Features , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultVerb interface
@@ -42,7 +49,7 @@ The **IResultVerb** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,16 +61,16 @@ These methods expose properties and actions applicable to verbs.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 3.0<br/>                                               |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

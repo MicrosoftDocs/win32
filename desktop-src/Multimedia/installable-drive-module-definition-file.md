@@ -1,8 +1,19 @@
 ---
 title: Installable Drive Module-Definition File
 description: Installable Drive Module-Definition File
-ms.assetid: 'd8d8d32e-18ac-47a5-a923-48b94b75e11d'
-keywords: ["installable drivers,module-definition files", "installable drivers,DEF files", "nstallable drivers,DriverProc function", "DriverProc function", "module-definition files", "DEF files"]
+ms.assetid: d8d8d32e-18ac-47a5-a923-48b94b75e11d
+keywords:
+- installable drivers,module-definition files
+- installable drivers,DEF files
+- nstallable drivers,DriverProc function
+- DriverProc function
+- module-definition files
+- DEF files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installable Drive Module-Definition File

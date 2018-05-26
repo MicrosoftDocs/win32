@@ -1,7 +1,12 @@
 ---
 title: dcl\_temps (sm4 - asm)
 description: dcl\_temps (sm4 - asm)
-ms.assetid: 'ecfbdd1e-0f2d-4371-91cc-ebc3e5ee8ee7'
+ms.assetid: ecfbdd1e-0f2d-4371-91cc-ebc3e5ee8ee7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_temps (sm4 - asm)
@@ -15,7 +20,7 @@ Declares temporary registers.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declares temporary registers.
 
 
 
- 
+ 
 
 Each register has space for a 32-bit four-component value. The total number of temporary and [indexable-temporary](dcl-indexabletemp.md) registers must be less than or equal to 4096.
 
@@ -39,7 +44,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 This instruction is included to aid in debugging a shader in assembly; you cannot author a shader in assembly language using Shader Model 4.
 
@@ -71,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -80,9 +85,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,19 @@
 title: notify\_flag attribute
 description: The \ notify\_flag\ attribute provides notification identifying whether a server routine is called.
 ms.assetid: a40b7114-d2e3-40c1-a0b1-599428188611
-keywords: ["notify_flag attribute MIDL"]
+keywords:
+- notify_flag attribute MIDL
 topic_type:
 - apiref
 api_name:
 - notify_flag
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # notify\_flag attribute

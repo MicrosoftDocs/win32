@@ -4,11 +4,17 @@ description: An error occurred while trying to contact the Active Directory Righ
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ErrorInfomation.SERVER\_ERROR'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ErrorInfomation.SERVER\_ERROR
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["SERVER_ERROR property", "SERVER_ERROR property, ErrorInfomation class", "ErrorInfomation class, SERVER_ERROR property"]
+keywords:
+- SERVER_ERROR property
+- SERVER_ERROR property, ErrorInfomation class
+- ErrorInfomation class, SERVER_ERROR property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ErrorInfomation.SERVER\_ERROR property
@@ -56,9 +62,9 @@ TBD
 [**ErrorInfomation**](errorinfomation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

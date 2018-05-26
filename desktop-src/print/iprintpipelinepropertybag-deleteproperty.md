@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DeleteProperty method deletes a property from a property bag.'
-ms.assetid: 'f3de5514-9a7f-4e27-9be0-4aec4b84a5a7'
-title: 'IPrintPipelinePropertyBag::DeleteProperty method'
+---
+Description: The DeleteProperty method deletes a property from a property bag.
+ms.assetid: f3de5514-9a7f-4e27-9be0-4aec4b84a5a7
+title: IPrintPipelinePropertyBagDeleteProperty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintPipelinePropertyBag::DeleteProperty method

@@ -4,11 +4,13 @@ description: The Win32\_ConnectionShare association WMI class relates a shared r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e35831b4-f219-4b0c-b07a-89131424ad5a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e35831b4-f219-4b0c-b07a-89131424ad5a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_ConnectionShare class", "Win32_ConnectionShare class, described"]
+keywords:
+- Win32_ConnectionShare class
+- Win32_ConnectionShare class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - Wmipsess.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ConnectionShare class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("SessionProvider"), AMENDMENT]
 class Win32_ConnectionShare : CIM_Dependency
 {
-  Win32_Share            REF Antecedent;
+  Win32_Share            REF Antecedent;
   Win32_ServerConnection REF Dependent;
 };
 ```
@@ -92,8 +97,8 @@ The **Win32\_ConnectionShare** class is derived from [**CIM\_Dependency**](https
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipsess.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipsess.dll</dt> </dl> |
@@ -110,9 +115,9 @@ The **Win32\_ConnectionShare** class is derived from [**CIM\_Dependency**](https
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

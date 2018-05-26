@@ -1,7 +1,12 @@
 ---
 title: Quick Access Toolbar
 description: The Quick Access Toolbar (QAT) is a small, customizable toolbar that exposes a set of Commands that are specified by the application or selected by the user.
-ms.assetid: 'b2adf4e9-0de1-4c4d-9293-693d0f7cf6fe'
+ms.assetid: b2adf4e9-0de1-4c4d-9293-693d0f7cf6fe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Access Toolbar
@@ -30,7 +35,7 @@ The Quick Access Toolbar (QAT) consists of a combination of up to 20 Commands ei
 >
 > ![screen shot of the command context menu in the microsoft paint ribbon.](images/controls/qat-contextmenu-add.png)
 
- 
+ 
 
 ## Implement the Quick Access Toolbar
 
@@ -40,11 +45,11 @@ As with all Windows Ribbon framework controls, taking full advantage of the Quic
 
 The Quick Access Toolbar (QAT) control is declared, and associated with a Command ID, in markup through the [**QuickAccessToolbar**](windowsribbon-element-quickaccesstoolbar.md) element. The Command ID is used to identify and bind the Quick Access Toolbar (QAT) to a Command handler defined by the application.
 
-In addition to the basic Command handler for primary Quick Access Toolbar (QAT) functionality, declaring the optional *CustomizeCommandName* [**QuickAccessToolbar**](windowsribbon-element-quickaccesstoolbar.md) element attribute causes the framework to add a **More Commands…** item to the Command list of the Quick Access Toolbar (QAT) drop-down menu that requires a secondary Command handler be defined.
+In addition to the basic Command handler for primary Quick Access Toolbar (QAT) functionality, declaring the optional *CustomizeCommandName* [**QuickAccessToolbar**](windowsribbon-element-quickaccesstoolbar.md) element attribute causes the framework to add a **More Commands ** item to the Command list of the Quick Access Toolbar (QAT) drop-down menu that requires a secondary Command handler be defined.
 
 For consistency across Ribbon applications, it is recommended that the *CustomizeCommandName* Command handler launch a Quick Access Toolbar (QAT) customization dialog. Because the Ribbon framework only provides the launching point in the UI, the application is solely responsible for providing the customization dialog implementation when the callback notification for this Command is received.
 
-The following screen shot shows a Quick Access Toolbar (QAT) drop-down menu with the **More Commands…** Command item.
+The following screen shot shows a Quick Access Toolbar (QAT) drop-down menu with the **More Commands ** Command item.
 
 ![screen shot of a qat menu with the more commands... command item.](images/markup/qat-customizecommandname.png)
 
@@ -54,11 +59,11 @@ To display Commands from the application defaults list in the Quick Access Toolb
 
 [**QuickAccessToolbar.ApplicationDefaults**](windowsribbon-element-quickaccesstoolbar-applicationdefaults.md) supports three types of Ribbon controls: [Button](windowsribbon-controls-button.md), [Toggle Button](windowsribbon-controls-togglebutton.md), and [Check Box](windowsribbon-controls-checkbox.md).
 
-> [!Note]Windows 8 and newer: All gallery-based controls are supported ([**ComboBox**](windowsribbon-element-combobox.md), [**InRibbonGallery**](windowsribbon-element-inribbongallery.md), [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md), and [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)).
+> [!Note]Windows 8 and newer: All gallery-based controls are supported ([**ComboBox**](windowsribbon-element-combobox.md), [**InRibbonGallery**](windowsribbon-element-inribbongallery.md), [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md), and [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)).
 >
 > Items in a gallery control can support highlighting on hover. To support hover highlighting, the gallery must be an items gallery and use a [**FlowMenuLayout**](windowsribbon-element-flowmenulayout.md) of type [**VerticalMenuLayout**](windowsribbon-element-verticalmenulayout.md).
 
- 
+ 
 
 The following example demonstrates the basic markup for a [**QuickAccessToolbar**](windowsribbon-element-quickaccesstoolbar.md) element.
 
@@ -100,12 +105,12 @@ The Ribbon framework application must provide a Command handler callback method 
 
 The Quick Access Toolbar (QAT) Command collection is retrieved as an [**IUICollection**](https://msdn.microsoft.com/library/windows/desktop/dd371519) object through the [UI\_PKEY\_ItemsSource](windowsribbon-reference-properties-uipkey-itemssource.md) property key. Adding Commands to the Quick Access Toolbar (QAT) at run time is accomplished by adding an [**IUISimplePropertySet**](https://msdn.microsoft.com/library/windows/desktop/dd371358) object to the **IUICollection**.
 
-Unlike Command galleries, a command type property ([UI\_PKEY\_CommandType](windowsribbon-reference-properties-uipkey-commandtype.md)) is not required for the Quick Access Toolbar (QAT) [**IUISimplePropertySet**](https://msdn.microsoft.com/library/windows/desktop/dd371358) object. However, the Command must exist in the ribbon or Quick Access Toolbar (QAT) application defaults list; a new Command cannot be created at run time and added to the Quick Access Toolbar (QAT).
+Unlike Command galleries, a command type property ([UI\_PKEY\_CommandType](windowsribbon-reference-properties-uipkey-commandtype.md)) is not required for the Quick Access Toolbar (QAT) [**IUISimplePropertySet**](https://msdn.microsoft.com/library/windows/desktop/dd371358) object. However, the Command must exist in the ribbon or Quick Access Toolbar (QAT) application defaults list; a new Command cannot be created at run time and added to the Quick Access Toolbar (QAT).
 
 > [!Note]  
-> The Ribbon application cannot replace the Quick Access Toolbar (QAT) [**IUICollection**](https://msdn.microsoft.com/library/windows/desktop/dd371519) with a custom collection object derived from IEnumUnknown.
+> The Ribbon application cannot replace the Quick Access Toolbar (QAT) [**IUICollection**](https://msdn.microsoft.com/library/windows/desktop/dd371519) with a custom collection object derived from IEnumUnknown.
 
- 
+ 
 
 The following example demonstrates a basic Quick Access Toolbar (QAT) Command handler implementation.
 
@@ -214,7 +219,7 @@ The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/w
 > [!Note]  
 > In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
 
- 
+ 
 
 The following table lists the property keys that are associated with the Quick Access Toolbar (QAT) control.
 
@@ -226,9 +231,9 @@ The following table lists the property keys that are associated with the Quick A
 
 
 
- 
+ 
 
-There are no property keys associated with the **More Commands…** Command item of the Quick Access Toolbar (QAT) drop-down menu
+There are no property keys associated with the **More Commands ** Command item of the Quick Access Toolbar (QAT) drop-down menu
 
 ## Related topics
 
@@ -240,9 +245,9 @@ There are no property keys associated with the **More Commands…** Command item o
 [**QuickAccessToolbar markup element**](windowsribbon-element-quickaccesstoolbar.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CanModify property is a Boolean value that indicates whether the user has permission to modify configuration information for the fax port.'
-ms.assetid: 'c88c2855-51cd-404e-a89f-cc42f456f51c'
-title: 'FaxPort.CanModify property'
+---
+Description: The CanModify property is a Boolean value that indicates whether the user has permission to modify configuration information for the fax port.
+ms.assetid: c88c2855-51cd-404e-a89f-cc42f456f51c
+title: FaxPort.CanModify property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPort.CanModify property
@@ -53,10 +58,10 @@ To ensure that the client has permission to modify the specified fax port, a fax
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> </dl>
 
  

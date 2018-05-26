@@ -1,12 +1,18 @@
 ---
 title: TextureCube GatherCmp methods
 description: Samples and compares a texture and returns all components.
-ms.assetid: 'EEC90CF8-9479-45D7-A9CE-74FC8DC3B1B5'
-keywords: ["GatherCmp methods HLSL"]
+ms.assetid: EEC90CF8-9479-45D7-A9CE-74FC8DC3B1B5
+keywords:
+- GatherCmp methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCube::GatherCmp methods
@@ -30,9 +36,9 @@ Samples and compares a texture and returns all components.
 [**TextureCube**](texturecube.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

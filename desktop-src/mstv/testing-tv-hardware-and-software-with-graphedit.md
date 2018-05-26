@@ -1,7 +1,12 @@
 ---
 title: Testing TV Hardware and Software with GraphEdit
 description: Testing TV Hardware and Software with GraphEdit
-ms.assetid: '10d3e5af-1ff6-4e3b-81a8-0a1adaac5b1d'
+ms.assetid: 10d3e5af-1ff6-4e3b-81a8-0a1adaac5b1d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing TV Hardware and Software with GraphEdit
@@ -22,7 +27,7 @@ But before starting the graph, you must first tune to a channel. Right click on 
 
 **Filters in a Digital Filter Graph**
 
-[BDA Network Provider](bda-network-provider-filter.md): A BDA Network Provider filter is always the first filter in the graph. This particular graph has the ATSC Network Provider. Microsoft also provides Network Providers for DVB. Third parties may also provide their own Network Provider that is customized for their own broadcasts. The Network Provider configures the downstream filters for a particular tuning space, which includes information on content multiplexing, modulation, and transmission standards. This filter implements the [**ITuner**](ituner.md) interface, which applications use to tune the device to the specified channel or frequency.
+[BDA Network Provider](bda-network-provider-filter.md): A BDA Network Provider filter is always the first filter in the graph. This particular graph has the ATSC Network Provider. Microsoft also provides Network Providers for DVB. Third parties may also provide their own Network Provider that is customized for their own broadcasts. The Network Provider configures the downstream filters for a particular tuning space, which includes information on content multiplexing, modulation, and transmission standards. This filter implements the [**ITuner**](/windows/previous-versions/tuner/nn-tuner-ituner?branch=master) interface, which applications use to tune the device to the specified channel or frequency.
 
 **Digital TV Tuner**: This kernel-mode KsProxy-based filter represents the tuner on the hardware device. It may or may not have any application-callable interfaces, depending on the implementation of the third-party driver. This filter might also encapsulate a demodulator device.
 

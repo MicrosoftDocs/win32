@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxIncomingJob object is used by a fax client application to retrieve information about an incoming fax job in a fax server''s queue.'
-ms.assetid: 'ef93899d-e797-4f07-bede-0860b695b32b'
+---
+Description: The FaxIncomingJob object is used by a fax client application to retrieve information about an incoming fax job in a fax servers queue.
+ms.assetid: ef93899d-e797-4f07-bede-0860b695b32b
 title: FaxIncomingJob object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob object
@@ -92,7 +97,7 @@ To create a **FaxIncomingJob** object in Microsoft Visual Basic, call the [**Ite
 [**FaxIncomingJobs**](-mfax-faxincomingjobs.md)
 </dt> <dt>
 
-[**IFaxIncomingJob**](-mfax-faxincomingjob-cpp.md)
+[**IFaxIncomingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjob?branch=master)
 </dt> </dl>
 
  

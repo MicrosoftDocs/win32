@@ -1,7 +1,12 @@
 ---
-Description: 'The Security Support Provider Interface (SSPI) model provides a single interface for a client/server transport application using the various security packages available on a computer or network.'
-ms.assetid: 'ffd7e531-3e0e-40c4-865e-34fa24321655'
+Description: The Security Support Provider Interface (SSPI) model provides a single interface for a client/server transport application using the various security packages available on a computer or network.
+ms.assetid: ffd7e531-3e0e-40c4-865e-34fa24321655
 title: Procedures Used with Most Security Packages and Protocols
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Procedures Used with Most Security Packages and Protocols

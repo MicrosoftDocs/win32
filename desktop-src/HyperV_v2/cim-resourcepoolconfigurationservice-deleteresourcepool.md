@@ -1,7 +1,12 @@
 ---
-Description: 'Start a job to delete a resource pool.'
-ms.assetid: 'af3d9c7c-a825-4568-822d-044b3d92d144'
-title: 'DeleteResourcePool method of the CIM\_ResourcePoolConfigurationService class'
+Description: Start a job to delete a resource pool.
+ms.assetid: af3d9c7c-a825-4568-822d-044b3d92d144
+title: DeleteResourcePool method of the CIM\_ResourcePoolConfigurationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteResourcePool method of the CIM\_ResourcePoolConfigurationService class
@@ -13,8 +18,8 @@ Start a job to delete a resource pool. No allocations may be outstanding or the 
 
 ```mof
 uint32 DeleteResourcePool(
-  [in]  CIM_ResourcePool REF Pool,
-  [out] CIM_ConcreteJob  REF Job
+  [in]  CIM_ResourcePool REF Pool,
+  [out] CIM_ConcreteJob  REF Job
 );
 ```
 
@@ -86,8 +91,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -101,9 +106,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_ResourcePoolConfigurationService**](cim-resourcepoolconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

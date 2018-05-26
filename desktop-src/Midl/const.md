@@ -2,13 +2,19 @@
 title: const attribute
 description: The const keyword modifies the type of a type declaration or the type of a function parameter, preventing the value from varying.
 ms.assetid: 398fab76-93f3-4d5a-9223-1c57c612b2d7
-keywords: ["const attribute MIDL"]
+keywords:
+- const attribute MIDL
 topic_type:
 - apiref
 api_name:
 - const
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # const attribute

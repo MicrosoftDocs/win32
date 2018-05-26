@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Debug property is a Boolean value that indicates whether the fax routing extension DLL was created in a debug environment.'
-ms.assetid: '3f11b4e2-dae9-4bf6-813a-b97093ffd2f9'
-title: 'FaxInboundRoutingExtension.Debug property'
+---
+Description: The Debug property is a Boolean value that indicates whether the fax routing extension DLL was created in a debug environment.
+ms.assetid: 3f11b4e2-dae9-4bf6-813a-b97093ffd2f9
+title: FaxInboundRoutingExtension.Debug property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingExtension.Debug property
@@ -70,7 +75,7 @@ The fax routing extension DLL was not created in a debug environment.
 [**FaxInboundRoutingExtension**](-mfax-faxinboundroutingextension.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingExtension**](-mfax-faxinboundroutingextension-cpp.md)
+[**IFaxInboundRoutingExtension**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingextension?branch=master)
 </dt> </dl>
 
  

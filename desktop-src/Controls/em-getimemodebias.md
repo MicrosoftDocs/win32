@@ -1,8 +1,9 @@
 ---
 title: EM\_GETIMEMODEBIAS message
 description: Retrieves the Input Method Editor (IME) mode bias for a Microsoft Rich Edit control.
-ms.assetid: 'e8ca899f-3423-4814-86e9-133dfd11f9a6'
-keywords: ["EM_GETIMEMODEBIAS message Windows Controls"]
+ms.assetid: e8ca899f-3423-4814-86e9-133dfd11f9a6
+keywords:
+- EM_GETIMEMODEBIAS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETIMEMODEBIAS message
@@ -51,8 +57,8 @@ The application should call [**EM\_ISIME**](em-isime.md) before calling this fun
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ The application should call [**EM\_ISIME**](em-isime.md) before calling this fun
 [**EM\_GETCTFMODEBIAS**](em-getctfmodebias.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

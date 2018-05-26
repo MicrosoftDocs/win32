@@ -1,7 +1,12 @@
 ---
-Description: 'GuidNames is a global array in the DirectShow base class library that contains strings representing the GUIDs defined in Uuids.h. This array is useful for generating debug output.'
-ms.assetid: '6d72ad1e-588a-4a82-a1c1-e1e7b49df572'
+Description: GuidNames is a global array in the DirectShow base class library that contains strings representing the GUIDs defined in Uuids.h. This array is useful for generating debug output.
+ms.assetid: 6d72ad1e-588a-4a82-a1c1-e1e7b49df572
 title: GuidNames
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GuidNames
@@ -54,9 +59,9 @@ If the GUID is not matched, the string "Unknown GUID Name" is returned. Not all 
 [Debug Output Functions](debug-output-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The value of the ADDLOCAL property is a list of features that are delimited by commas, and are to be installed locally.'
-ms.assetid: 'd408986d-7889-4fd9-8202-1d2e59673a2f'
+Description: The value of the ADDLOCAL property is a list of features that are delimited by commas, and are to be installed locally.
+ms.assetid: d408986d-7889-4fd9-8202-1d2e59673a2f
 title: ADDLOCAL property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ADDLOCAL property
@@ -40,7 +45,7 @@ The installer sets the [**Preselected**](preselected.md) Property to a value of 
 
 |                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 
 
 
@@ -51,9 +56,9 @@ The installer sets the [**Preselected**](preselected.md) Property to a value of 
 [Properties](properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

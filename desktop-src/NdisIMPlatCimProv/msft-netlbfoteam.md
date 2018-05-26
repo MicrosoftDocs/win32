@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an Lbfo team.'
-ms.assetid: 'aeae6c5a-9264-4488-90f7-94b6dc12a2ef'
-title: 'MSFT\_NetLbfoTeam class'
+Description: Represents an Lbfo team.
+ms.assetid: aeae6c5a-9264-4488-90f7-94b6dc12a2ef
+title: MSFT\_NetLbfoTeam class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetLbfoTeam class
@@ -41,7 +46,7 @@ The **MSFT\_NetLbfoTeam** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -133,17 +138,17 @@ The teaming mode value for all providers.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>MsNetImPlatform.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NdisIMPlatCim.dll</dt> </dl>   |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: Information required for custom protection.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'T:Microsoft.RightsManagement.PolicyDescriptor'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: TMicrosoft.RightsManagement.PolicyDescriptor
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["PolicyDescriptor class"]
+keywords:
+- PolicyDescriptor class
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor class
@@ -52,7 +56,7 @@ The **PolicyDescriptor** class has these constructors.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -74,7 +78,7 @@ The **PolicyDescriptor** class has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -97,9 +101,9 @@ The **PolicyDescriptor** class has these properties.
 [IInspectable](https://msdn.microsoft.com/library/windows/apps/br205821)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

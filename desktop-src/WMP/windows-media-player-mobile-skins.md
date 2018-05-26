@@ -1,8 +1,16 @@
 ---
 title: Windows Media Player Mobile Skins
 description: Windows Media Player Mobile Skins
-ms.assetid: 'bcab41ed-db48-4070-b462-879f56bb6606'
-keywords: ["Windows Media Player Mobile,skins", "Windows Media Player Mobile skins,about", "skins,Windows Media Player Mobile"]
+ms.assetid: bcab41ed-db48-4070-b462-879f56bb6606
+keywords:
+- Windows Media Player Mobile,skins
+- Windows Media Player Mobile skins,about
+- skins,Windows Media Player Mobile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Player Mobile Skins

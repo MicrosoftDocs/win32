@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the square of the length of a 4D vector.'
-ms.assetid: '73091179-4acb-408b-8c91-766052999f26'
+---
+Description: Returns the square of the length of a 4D vector.
+ms.assetid: 73091179-4acb-408b-8c91-766052999f26
 title: D3DXVec4LengthSq function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec4LengthSq function

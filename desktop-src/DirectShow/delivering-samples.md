@@ -1,16 +1,21 @@
 ---
 Description: Delivering Samples
-ms.assetid: '31aabb6d-dec6-41fa-b24d-35a77b67bc4a'
+ms.assetid: 31aabb6d-dec6-41fa-b24d-35a77b67bc4a
 title: Delivering Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Delivering Samples
 
-This article describes how a filter delivers a sample. It describes both the push model, using [**IMemInputPin**](imeminputpin.md) methods, and the pull model, using [**IAsyncReader**](iasyncreader.md).
+This article describes how a filter delivers a sample. It describes both the push model, using [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) methods, and the pull model, using [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master).
 
 **Push Model: Delivering a Sample**
 
-The output pin delivers a sample by calling the [**IMemInputPin::Receive**](imeminputpin-receive.md) method or the [**IMemInputPin::ReceiveMultiple**](imeminputpin-receivemultiple.md) method, which is equivalent but delivers an array of samples. The input pin can block inside **Receive** (or **ReceiveMultiple**). If the pin might block, its [**IMemInputPin::ReceiveCanBlock**](imeminputpin-receivecanblock.md) method should return S\_OK. If the pin guarantees never to block, **ReceiveCanBlock** should return S\_FALSE. The S\_OK return value does not mean that **Receive** always blocks, just that it might.
+The output pin delivers a sample by calling the [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method or the [**IMemInputPin::ReceiveMultiple**](/windows/win32/Strmif/nf-strmif-imeminputpin-receivemultiple?branch=master) method, which is equivalent but delivers an array of samples. The input pin can block inside **Receive** (or **ReceiveMultiple**). If the pin might block, its [**IMemInputPin::ReceiveCanBlock**](/windows/win32/Strmif/nf-strmif-imeminputpin-receivecanblock?branch=master) method should return S\_OK. If the pin guarantees never to block, **ReceiveCanBlock** should return S\_FALSE. The S\_OK return value does not mean that **Receive** always blocks, just that it might.
 
 Although **Receive** can block to wait for a resource to become available, it should not block to wait for more data from the upstream filter. Doing so can cause a deadlock where the upstream filter waits for the downstream filter to release the sample, which never happens because the downstream filter is waiting on the upstream filter. If a filter has multiple input pins, however, one pin can wait for another pin to receive data. For example, the [AVI Mux](avi-mux-filter.md) filter does this so that it can interleave audio and video data.
 
@@ -31,11 +36,11 @@ In the DirectShow base classes, the [**CBaseInputPin::CheckStreaming**](cbaseinp
 
 In the **IAsyncReader** interface, the input pin requests samples from the output pin by calling one of the following methods:
 
--   [**IAsyncReader::Request**](iasyncreader-request.md)
--   [**IAsyncReader::SyncRead**](iasyncreader-syncread.md)
--   [**IAsyncReader::SyncReadAligned**](iasyncreader-syncreadaligned.md)
+-   [**IAsyncReader::Request**](/windows/win32/Strmif/nf-strmif-iasyncreader-request?branch=master)
+-   [**IAsyncReader::SyncRead**](/windows/win32/Strmif/nf-strmif-iasyncreader-syncread?branch=master)
+-   [**IAsyncReader::SyncReadAligned**](/windows/win32/Strmif/nf-strmif-iasyncreader-syncreadaligned?branch=master)
 
-The **Request** method is asynchronous; the input pin calls [**IAsyncReader::WaitForNext**](iasyncreader-waitfornext.md) to wait for the request to complete. The other two methods are synchronous.
+The **Request** method is asynchronous; the input pin calls [**IAsyncReader::WaitForNext**](/windows/win32/Strmif/nf-strmif-iasyncreader-waitfornext?branch=master) to wait for the request to complete. The other two methods are synchronous.
 
 **When to Deliver Data**
 

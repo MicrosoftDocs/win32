@@ -1,7 +1,12 @@
 ---
 title: The Difference Between the Index Tab and the Search Tab
 description: The Difference Between the Index Tab and the Search Tab
-ms.assetid: '24BE60A5-1F1F-48cf-BCA0-C01C6630DD67'
+ms.assetid: 24BE60A5-1F1F-48cf-BCA0-C01C6630DD67
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Difference Between the Index Tab and the Search Tab

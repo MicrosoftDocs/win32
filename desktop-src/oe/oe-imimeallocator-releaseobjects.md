@@ -1,8 +1,11 @@
 ---
 title: IMimeAllocator ReleaseObjects method
 description: Frees an array of IUnknown objects.
-ms.assetid: '1193eb79-9de5-438e-85d6-ac336944677f'
-keywords: ["ReleaseObjects method Windows Mail (formerly Outlook Express)", "ReleaseObjects method Windows Mail (formerly Outlook Express) , IMimeAllocator interface", "IMimeAllocator interface Windows Mail (formerly Outlook Express) , ReleaseObjects method"]
+ms.assetid: 1193eb79-9de5-438e-85d6-ac336944677f
+keywords:
+- ReleaseObjects method Windows Mail (formerly Outlook Express)
+- ReleaseObjects method Windows Mail (formerly Outlook Express) , IMimeAllocator interface
+- IMimeAllocator interface Windows Mail (formerly Outlook Express) , ReleaseObjects method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeAllocator::ReleaseObjects method
@@ -22,9 +30,9 @@ Frees an array of [IUnknown](http://msdn.microsoft.com/library/com/htm/cmi_q2z_9
 
 ```C++
 HRESULT ReleaseObjects(
-  [in] ULONG    cObjects,
-  [in] IUnknown **prgpUnknown,
-  [in] boolean  fFreeArray
+  [in] ULONG    cObjects,
+  [in] IUnknown **prgpUnknown,
+  [in] boolean  fFreeArray
 );
 ```
 
@@ -68,7 +76,7 @@ Specifies whether the pointer to *prgpUnknown* should also be freed.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -86,7 +94,7 @@ Returns the following value.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -94,8 +102,8 @@ Returns the following value.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -103,9 +111,9 @@ Returns the following value.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

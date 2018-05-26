@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.passThrough
 description: The passThrough attribute specifies or retrieves a value indicating whether the control will pass all mouse events through to the control under it.
-ms.assetid: '907ae233-3421-4e80-84be-64db4a3ab654'
-keywords: ["AmbientAttributes.passThrough Windows Media Player"]
+ms.assetid: 907ae233-3421-4e80-84be-64db4a3ab654
+keywords:
+- AmbientAttributes.passThrough Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.passThrough
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.passThrough
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,9 +63,9 @@ The **passThrough** attribute is not supported by the **VIEW**, **SUBVIEW**, and
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

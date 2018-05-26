@@ -1,8 +1,11 @@
 ---
 title: Offline method of the MSFT\_Partition class
 description: Takes the partition offline.
-ms.assetid: '83D3AC38-49FC-4450-A1CA-45384039211A'
-keywords: ["Offline method Windows Storage Management API", "Offline method Windows Storage Management API , MSFT_Partition class", "MSFT_Partition class Windows Storage Management API , Offline method"]
+ms.assetid: 83D3AC38-49FC-4450-A1CA-45384039211A
+keywords:
+- Offline method Windows Storage Management API
+- Offline method Windows Storage Management API , MSFT_Partition class
+- MSFT_Partition class Windows Storage Management API , Offline method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Offline method of the MSFT\_Partition class
@@ -22,7 +30,7 @@ Takes the partition offline.
 
 ```mof
 UInt32 Offline(
-  [out] String ExtendedStatus
+  [out] String ExtendedStatus
 );
 ```
 
@@ -85,8 +93,8 @@ The partition remains offline until explicitly brought back online, or until an 
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -99,9 +107,9 @@ The partition remains offline until explicitly brought back online, or until an 
 [**MSFT\_Partition**](msft-partition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,15 @@ description: Lossless Full Volume Restore Using Data Deduplication Management WM
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'B9BD759C-C6CE-48D5-B3B7-65AEB17D9ED0'
-ms.prod: 'windows-server-dev'
+ms.assetid: B9BD759C-C6CE-48D5-B3B7-65AEB17D9ED0
+ms.prod: windows-server-dev
 ms.technology:
-- 'data-deduplication'
-- 'windows-management-instrumentation'
+- data-deduplication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Lossless Full Volume Restore Using Data Deduplication Management WMI API

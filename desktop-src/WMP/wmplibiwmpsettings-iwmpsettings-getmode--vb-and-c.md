@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings getMode method
 description: The getMode method returns a value indicating whether loop mode or shuffle mode is active.
-ms.assetid: 'a2e4bf74-017f-4c54-a3a1-a03b75a87a59'
-keywords: ["getMode method Windows Media Player", "getMode method Windows Media Player , IWMPSettings interface", "IWMPSettings interface Windows Media Player , getMode method"]
+ms.assetid: a2e4bf74-017f-4c54-a3a1-a03b75a87a59
+keywords:
+- getMode method Windows Media Player
+- getMode method Windows Media Player , IWMPSettings interface
+- IWMPSettings interface Windows Media Player , getMode method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings::getMode method
@@ -69,7 +77,7 @@ A **System.String** that is one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -99,9 +107,9 @@ A **System.Boolean** value indicating whether the specified mode is active.
 [**IWMPSettings.setMode (VB and C#)**](wmplibiwmpsettings-iwmpsettings-setmode--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

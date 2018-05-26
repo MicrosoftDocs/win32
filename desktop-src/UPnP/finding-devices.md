@@ -1,7 +1,12 @@
 ---
 title: Finding Devices
 description: The UPnP architecture is a dynamic network architecture that allows devices to join and leave the network at any time.
-ms.assetid: 'b89d9ec3-ce1a-4162-bf82-b08a49207d7d'
+ms.assetid: b89d9ec3-ce1a-4162-bf82-b08a49207d7d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Finding Devices
@@ -17,7 +22,7 @@ The following are valid search criteria for UPnP-based devices:
 
 The device type and service type searches are typically used to find a class of devices with common characteristics. The UDN search is used to find a specific device.
 
-To search for devices, an application must first instantiate the Device Finder object. This object exposes the [**IUPnPDeviceFinder**](iupnpdevicefinder.md) interface; its methods perform the previously described searches.
+To search for devices, an application must first instantiate the Device Finder object. This object exposes the [**IUPnPDeviceFinder**](/windows/win32/Upnp/nn-upnp-iupnpdevicefinder?branch=master) interface; its methods perform the previously described searches.
 
 The following sections describe the process of finding devices:
 

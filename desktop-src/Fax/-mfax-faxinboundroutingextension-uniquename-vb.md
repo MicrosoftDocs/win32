@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UniqueName property is a null-terminated string that contains a unique name for the fax routing extension. The fax service uses this name internally to identify fax routing extensions.'
-ms.assetid: '4eb98f52-ef86-46c3-8718-fcb0ec5515b5'
-title: 'FaxInboundRoutingExtension.UniqueName property'
+---
+Description: The UniqueName property is a null-terminated string that contains a unique name for the fax routing extension. The fax service uses this name internally to identify fax routing extensions.
+ms.assetid: 4eb98f52-ef86-46c3-8718-fcb0ec5515b5
+title: FaxInboundRoutingExtension.UniqueName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingExtension.UniqueName property
@@ -46,7 +51,7 @@ A **String** that receives the unique name for the fax routing extension.
 [**FaxInboundRoutingExtension**](-mfax-faxinboundroutingextension.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingExtension**](-mfax-faxinboundroutingextension-cpp.md)
+[**IFaxInboundRoutingExtension**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingextension?branch=master)
 </dt> </dl>
 
  

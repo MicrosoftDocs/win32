@@ -4,23 +4,27 @@ description: This topic contains C++ code examples for using the IADsExtension i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '56bc87b4-f3cf-4177-90cb-e745889f8fef'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 56bc87b4-f3cf-4177-90cb-e745889f8fef
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["extensions ADSI , IADsExtension"]
+keywords:
+- extensions ADSI , IADsExtension
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsExtension Usage
 
-[**IADsExtension**](iadsextension.md) is an optional interface implemented by the extension writer when at least one of the following conditions are met:
+[**IADsExtension**](/windows/win32/Iads/nn-iads-iadsextension?branch=master) is an optional interface implemented by the extension writer when at least one of the following conditions are met:
 
--   The extension component requires an initialization notification as defined by **ADSI\_EXT\_*dwCode*** in the [**Operate**](iadsextension-operate.md) method.
+-   The extension component requires an initialization notification as defined by **ADSI\_EXT\_*dwCode*** in the [**Operate**](/windows/win32/Iads/nf-iads-iadsextension-operate?branch=master) method.
 -   The extension supports a dual or dispatch interface.
 
-If an extension component supports the [**IADsExtension**](iadsextension.md) interface for the first reason, the [**IADsExtension::PrivateGetIDsOfNames**](iadsextension-privategetidsofnames.md) and [**IADsExtension::PrivateInvoke**](iadsextension-privateinvoke.md) methods can return **E\_NOTIMPL**. Alternatively, if an extension component supports a dual or dispatch interface , the [**Operate**](iadsextension-operate.md) method can ignore the data and return an **HRESULT** of **E\_NOTIMPL**.
+If an extension component supports the [**IADsExtension**](/windows/win32/Iads/nn-iads-iadsextension?branch=master) interface for the first reason, the [**IADsExtension::PrivateGetIDsOfNames**](/windows/win32/Iads/nf-iads-iadsextension-privategetidsofnames?branch=master) and [**IADsExtension::PrivateInvoke**](/windows/win32/Iads/nf-iads-iadsextension-privateinvoke?branch=master) methods can return **E\_NOTIMPL**. Alternatively, if an extension component supports a dual or dispatch interface , the [**Operate**](/windows/win32/Iads/nf-iads-iadsextension-operate?branch=master) method can ignore the data and return an **HRESULT** of **E\_NOTIMPL**.
 
-The following code shows an extension implementing [**IADsExtension**](iadsextension.md).
+The following code shows an extension implementing [**IADsExtension**](/windows/win32/Iads/nn-iads-iadsextension?branch=master).
 
 
 ```C++

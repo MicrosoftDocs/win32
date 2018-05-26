@@ -1,14 +1,20 @@
 ---
 title: head Element
 description: The head element contains metadata that applies to the entire playlist.
-ms.assetid: '9554c84a-34af-4492-964a-4b262cd7c4a4'
-keywords: ["head Element Windows Media Player"]
+ms.assetid: 9554c84a-34af-4492-964a-4b262cd7c4a4
+keywords:
+- head Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - head Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # head Element
@@ -35,7 +41,7 @@ This element has no attributes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,9 +86,9 @@ Typically the **head** element contains a **title** element and one or more **me
 [**Windows Media Playlist Elements Reference**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

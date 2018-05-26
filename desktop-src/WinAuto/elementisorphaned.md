@@ -1,7 +1,12 @@
 ---
 title: ElementIsOrphaned
 description: ElementIsOrphaned
-ms.assetid: 'EB603052-2B0F-418C-947E-827453440F46'
+ms.assetid: EB603052-2B0F-418C-947E-827453440F46
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ElementIsOrphaned
@@ -16,7 +21,7 @@ Error
 
 ## Description
 
-The address of the object's [**IAccessible**](iaccessible.md) interface obtained for the given coordinates is a reference to an orphaned element in the element tree.
+The address of the object's [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface obtained for the given coordinates is a reference to an orphaned element in the element tree.
 
 This issue is a problem for people who rely on a screen-reader and keyboard for navigation because elements will be treated as invisible and will not be announced to the user.
 
@@ -32,7 +37,7 @@ This issue is a problem for people who rely on a screen-reader and keyboard for 
 [Navigation Through Hit Testing and Screen Location](navigation-through-hit-testing-and-screen-location.md)
 </dt> <dt>
 
-[**AccessibleObjectFromPoint**](accessibleobjectfrompoint.md)
+[**AccessibleObjectFromPoint**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfrompoint?branch=master)
 </dt> </dl>
 
  

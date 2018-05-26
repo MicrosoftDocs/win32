@@ -1,7 +1,12 @@
 ---
-Description: 'A media pool is a logical collection of media that share some common attributes.'
-ms.assetid: '1eefa52b-f490-487b-b010-263fa96d762a'
+Description: A media pool is a logical collection of media that share some common attributes.
+ms.assetid: 1eefa52b-f490-487b-b010-263fa96d762a
 title: Media Pools
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Pools

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the microphone array geometry for the Voice Capture DSP.'
-ms.assetid: '1d91bdc8-5a09-487d-b45e-80d57a44cd0e'
-title: 'MFPKEY\_WMAAECMA\_MICARRAY\_DESCPTR Property'
+---
+Description: Specifies the microphone array geometry for the Voice Capture DSP.
+ms.assetid: 1d91bdc8-5a09-487d-b45e-80d57a44cd0e
+title: MFPKEY\_WMAAECMA\_MICARRAY\_DESCPTR Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAAECMA\_MICARRAY\_DESCPTR Property

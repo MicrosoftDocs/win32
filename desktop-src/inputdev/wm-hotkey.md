@@ -1,8 +1,9 @@
 ---
 title: WM\_HOTKEY message
 description: Posted when the user presses a hot key registered by the RegisterHotKey function. The message is placed at the top of the message queue associated with the thread that registered the hot key.
-ms.assetid: '28d87c2f-b2bb-4176-910b-0addea6beb93'
-keywords: ["WM_HOTKEY message Keyboard and Mouse Input"]
+ms.assetid: 28d87c2f-b2bb-4176-910b-0addea6beb93
+keywords:
+- WM_HOTKEY message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_HOTKEY message
@@ -42,7 +48,7 @@ The identifier of the hot key that generated the message. If the message was gen
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -62,7 +68,7 @@ The low-order word specifies the keys that were to be pressed in combination wit
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -76,8 +82,8 @@ The low-order word specifies the keys that were to be pressed in combination wit
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -104,9 +110,9 @@ The low-order word specifies the keys that were to be pressed in combination wit
 [Keyboard Input](keyboard-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

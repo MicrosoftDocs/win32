@@ -1,7 +1,12 @@
 ---
 title: if bool - vs
 description: Starts an if...else...endif - vs block.
-ms.assetid: 'd77e2f81-400c-4997-9c34-426b6e6f47be'
+ms.assetid: d77e2f81-400c-4997-9c34-426b6e6f47be
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # if bool - vs

@@ -1,8 +1,9 @@
 ---
 title: CBN\_ERRSPACE notification code
 description: Sent when a combo box cannot allocate enough memory to meet a specific request. The parent window of the combo box receives this notification code through the WM\_COMMAND message.
-ms.assetid: 'c1c19c40-fc88-47d0-9676-7a267a48ae98'
-keywords: ["CBN_ERRSPACE notification code Windows Controls"]
+ms.assetid: c1c19c40-fc88-47d0-9676-7a267a48ae98
+keywords:
+- CBN_ERRSPACE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBN\_ERRSPACE notification code
@@ -51,8 +57,8 @@ Handle to the combo box.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -73,9 +79,9 @@ Handle to the combo box.
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

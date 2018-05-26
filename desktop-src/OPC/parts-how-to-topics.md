@@ -1,7 +1,12 @@
 ---
 title: Parts How-To Topics
 description: Provides examples of tasks related to parts in a package.
-ms.assetid: '2d334f97-5b9c-4953-b34f-5e632b3bfbde'
+ms.assetid: 2d334f97-5b9c-4953-b34f-5e632b3bfbde
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parts How-To Topics

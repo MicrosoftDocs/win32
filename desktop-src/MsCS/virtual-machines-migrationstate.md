@@ -4,17 +4,22 @@ description: Specifies the state of a live migration of a virtual machine.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f4824b60-be57-4c51-b0f5-41fe5fd044a2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f4824b60-be57-4c51-b0f5-41fe5fd044a2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["MigrationState Failover Cluster ,for virtual machines", "MigrationState Failover Cluster"]
+keywords:
+- MigrationState Failover Cluster ,for virtual machines
+- MigrationState Failover Cluster
 topic_type:
 - apiref
 api_name:
 - MigrationState
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MigrationState
@@ -28,14 +33,14 @@ Specifies the state of a live migration of a virtual machine (VM) from one node 
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Required                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 5                                         |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,7 +59,7 @@ The following table summarizes the values for **MigrationState**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,7 +68,7 @@ The following table summarizes the values for **MigrationState**.
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
 
 
 
@@ -74,12 +79,12 @@ The following table summarizes the values for **MigrationState**.
 [Virtual Machine Private Properties](virtual-machine-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

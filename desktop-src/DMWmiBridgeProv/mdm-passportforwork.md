@@ -1,8 +1,10 @@
 ---
 title: MDM\_PassportForWork class
 description: The MDM\_PassportForWork is used to provision Windows Hello for Business.
-ms.assetid: '49bba780-e26f-463d-97ae-e095ea16be87'
-keywords: ["MDM_PassportForWork class", "MDM_PassportForWork class, described"]
+ms.assetid: 49bba780-e26f-463d-97ae-e095ea16be87
+keywords:
+- MDM_PassportForWork class
+- MDM_PassportForWork class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_PassportForWork class
@@ -29,8 +36,8 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv")]
 class MDM_PassportForWork
 {
-  string  InstanceID;
-  string  ParentID;
+  string  InstanceID;
+  string  ParentID;
   boolean UseBiometrics;
 };
 ```
@@ -96,7 +103,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -111,9 +118,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

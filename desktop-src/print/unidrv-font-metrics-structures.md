@@ -1,7 +1,12 @@
 ---
 Description: Unidrv Font Metrics Structures
-ms.assetid: '8d113535-7b5c-4571-9edb-f9cf9d679d67'
+ms.assetid: 8d113535-7b5c-4571-9edb-f9cf9d679d67
 title: Unidrv Font Metrics Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unidrv Font Metrics Structures

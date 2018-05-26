@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represent the types for main and custom shim databases.'
-ms.assetid: 'e893963a-6130-4f65-b925-6f3d292fc86d'
+---
+Description: Represent the types for main and custom shim databases.
+ms.assetid: e893963a-6130-4f65-b925-6f3d292fc86d
 title: Shim Database Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shim Database Types

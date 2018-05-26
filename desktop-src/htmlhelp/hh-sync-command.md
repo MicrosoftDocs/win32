@@ -1,7 +1,12 @@
 ---
 title: HH\_SYNC command
 description: Locates and selects the contents entry for the help topic that is open in the Topic pane of the HTML Help Viewer.
-ms.assetid: 'EC3655CF-24F9-43b2-85CA-B1C356152ED2'
+ms.assetid: EC3655CF-24F9-43b2-85CA-B1C356152ED2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_SYNC command
@@ -16,7 +21,7 @@ Locates and selects the contents entry for the help topic that is open in the To
 
 
 
- 
+ 
 
 ## Example
 
@@ -43,9 +48,9 @@ HtmlHelp(
 [About Commands](about-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

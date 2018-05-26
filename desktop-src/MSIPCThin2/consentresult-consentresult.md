@@ -4,11 +4,14 @@ description: Creates and initializes an instance of a ConsentResult object.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ConsentResult.ConsentResult'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ConsentResult.ConsentResult
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ConsentResult method", "ConsentResult method, ConsentResult class", "ConsentResult class, ConsentResult method"]
+keywords:
+- ConsentResult method
+- ConsentResult method, ConsentResult class
+- ConsentResult class, ConsentResult method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConsentResult.ConsentResult method
@@ -91,9 +97,9 @@ The Id of the user; usually represented as an email address
 [**ConsentResult**](consentresult.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

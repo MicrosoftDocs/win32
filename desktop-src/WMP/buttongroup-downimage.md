@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.downImage
 description: The downImage attribute specifies or retrieves the name of the image representing the down state of the BUTTONGROUP.
-ms.assetid: '022e77e7-d3c0-41b5-984a-84d016a5a25a'
-keywords: ["BUTTONGROUP.downImage Windows Media Player"]
+ms.assetid: 022e77e7-d3c0-41b5-984a-84d016a5a25a
+keywords:
+- BUTTONGROUP.downImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.downImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.downImage
@@ -59,9 +65,9 @@ If the image cannot be retrieved, a default image (the red-x image) is displayed
 [**BUTTONGROUP.saturation**](buttongroup-saturation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

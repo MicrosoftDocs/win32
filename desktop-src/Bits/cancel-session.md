@@ -1,14 +1,20 @@
 ---
 title: Cancel-Session
 description: Use the Cancel-Session packet to terminate the upload session with the BITS server.
-ms.assetid: '670d061e-ab73-4aa8-85ba-2c9693794235'
-keywords: ["Cancel-Session BITS"]
+ms.assetid: 670d061e-ab73-4aa8-85ba-2c9693794235
+keywords:
+- Cancel-Session BITS
 topic_type:
 - apiref
 api_name:
 - Cancel-Session
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cancel-Session

@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_VolumeChangeEvent represents a local drive event that results from the addition of a drive letter or mounted drive on the computer system.'
+---
+Description: The Win32\_VolumeChangeEvent represents a local drive event that results from the addition of a drive letter or mounted drive on the computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '38595319-d7a1-4dcd-9ad8-a27cc484b699'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 38595319-d7a1-4dcd-9ad8-a27cc484b699
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_VolumeChangeEvent class'
+title: Win32\_VolumeChangeEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_VolumeChangeEvent class

@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_StandardColorsCategoryLabel
 description: Identifies the UI\_PKEY\_StandardColorsCategoryLabel property.
-ms.assetid: '59452d4b-acc9-4a5f-a06c-a67b0e676a57'
+ms.assetid: 59452d4b-acc9-4a5f-a06c-a67b0e676a57
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_StandardColorsCategoryLabel

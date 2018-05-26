@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents operations to retrieve and save
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '85f4eb19-ca10-4e50-8154-22af148a30bf'
-ms.prod: 'windows-server-dev'
+ms.assetid: 85f4eb19-ca10-4e50-8154-22af148a30bf
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-aware-patching'
-- 'windows-management-instrumentation'
+- failover-cluster-aware-patching
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_CAUReportHelper class", "MSFT_CAUReportHelper class, described"]
+keywords:
+- MSFT_CAUReportHelper class
+- MSFT_CAUReportHelper class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - CauWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_CAUReportHelper class
@@ -59,7 +64,7 @@ The **MSFT\_CAUReportHelper** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -94,7 +99,7 @@ An updating run report can be split into multiple chunks, as represented by the 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ClusterUpdate<br/>                                      |
 | MOF<br/>                      | <dl> <dt>CAUWMIv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CauWmiV2.dll</dt> </dl> |
@@ -108,9 +113,9 @@ An updating run report can be split into multiple chunks, as represented by the 
 [**MSFT\_CAURun**](msft-caurun.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

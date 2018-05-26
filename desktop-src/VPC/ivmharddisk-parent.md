@@ -1,8 +1,11 @@
 ---
 title: IVMHardDisk Parent property
 description: Parent of the differencing virtual hard disk.
-ms.assetid: '9a400fa0-ee0d-4474-a410-82756ea544fe'
-keywords: ["Parent property Virtual PC", "Parent property Virtual PC , IVMHardDisk interface", "IVMHardDisk interface Virtual PC , Parent property"]
+ms.assetid: 9a400fa0-ee0d-4474-a410-82756ea544fe
+keywords:
+- Parent property Virtual PC
+- Parent property Virtual PC , IVMHardDisk interface
+- IVMHardDisk interface Virtual PC , Parent property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk::Parent property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves and sets the parent of the differencing virtual hard disk.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Parent(
-  [in]          IVMHardDisk *parent
+  [in]          IVMHardDisk *parent
 );
 
 HRESULT get_Parent(
-  [out, retval] IVMHardDisk **parent
+  [out, retval] IVMHardDisk **parent
 );
 ```
 
@@ -70,9 +78,9 @@ This property is only valid with differencing hard disk images.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMHardDisk is defined as ffa14ae6-48f5-42a4-8a22-186f2e5c7db0<br/>                |
@@ -86,9 +94,9 @@ This property is only valid with differencing hard disk images.
 [**IVMHardDisk**](ivmharddisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

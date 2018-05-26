@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the steps to populate the structures required to play audio data in XAudio2.'
-ms.assetid: 'caeb522e-d4f6-91e2-5e85-ea0af0f61300'
-title: 'How to: Load Audio Data Files in XAudio2'
+Description: This topic describes the steps to populate the structures required to play audio data in XAudio2.
+ms.assetid: caeb522e-d4f6-91e2-5e85-ea0af0f61300
+title: How to Load Audio Data Files in XAudio2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Load Audio Data Files in XAudio2
@@ -11,7 +16,7 @@ title: 'How to: Load Audio Data Files in XAudio2'
 
  
 
-This topic describes the steps to populate the structures required to play audio data in XAudio2. The following steps load the 'fmt ' and 'data' chunks of an audio file, and uses them to populate a **WAVEFORMATEXTENSIBLE** structure and an [**XAUDIO2\_BUFFER**](xaudio2-buffer.md) structure.
+This topic describes the steps to populate the structures required to play audio data in XAudio2. The following steps load the 'fmt ' and 'data' chunks of an audio file, and uses them to populate a **WAVEFORMATEXTENSIBLE** structure and an [**XAUDIO2\_BUFFER**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_buffer?branch=master) structure.
 
 -   [Preparing to parse the audio file.](#preparing-to-parse-the-audio-file)
 -   [Populating XAudio2 structures with the contents of RIFF chunks.](#populating-xaudio2-structures-with-the-contents-of-riff-chunks)
@@ -119,13 +124,13 @@ Audio files supported by XAudio2 use the Resource Interchange File Format (RIFF)
 
 ## Populating XAudio2 structures with the contents of RIFF chunks
 
-In order for XAudio2 to play audio with a source voice, it needs a **WAVEFORMATEX** structure and an [**XAUDIO2\_BUFFER**](xaudio2-buffer.md) structure. The **WAVEFORMATEX** structure may be a larger structure such as **WAVEFORMATEXTENSIBLE** that contains a **WAVEFORMATEX** structure as its first member. See the **WAVEFORMATEX** reference page for more information.
+In order for XAudio2 to play audio with a source voice, it needs a **WAVEFORMATEX** structure and an [**XAUDIO2\_BUFFER**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_buffer?branch=master) structure. The **WAVEFORMATEX** structure may be a larger structure such as **WAVEFORMATEXTENSIBLE** that contains a **WAVEFORMATEX** structure as its first member. See the **WAVEFORMATEX** reference page for more information.
 
 In this example a **WAVEFORMATEXTENSIBLE** is being used to allow loading of PCM audio files with more than two channels.
 
-The following steps illustrate using the functions described above to populate a **WAVEFORMATEXTENSIBLE** structure and an [**XAUDIO2\_BUFFER**](xaudio2-buffer.md) structure. In this case, the audio file being loaded contains PCM data, and will only contain a 'RIFF', 'fmt ', and 'data' chunk. Other formats may contain additional chunk types as described in [Resource Interchange File Format (RIFF)](resource-interchange-file-format--riff-.md).
+The following steps illustrate using the functions described above to populate a **WAVEFORMATEXTENSIBLE** structure and an [**XAUDIO2\_BUFFER**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_buffer?branch=master) structure. In this case, the audio file being loaded contains PCM data, and will only contain a 'RIFF', 'fmt ', and 'data' chunk. Other formats may contain additional chunk types as described in [Resource Interchange File Format (RIFF)](resource-interchange-file-format--riff-.md).
 
-1.  Declare **WAVEFORMATEXTENSIBLE** and [**XAUDIO2\_BUFFER**](xaudio2-buffer.md) structures.
+1.  Declare **WAVEFORMATEXTENSIBLE** and [**XAUDIO2\_BUFFER**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_buffer?branch=master) structures.
     ```
     WAVEFORMATEXTENSIBLE wfx = {0};
     XAUDIO2_BUFFER buffer = {0};
@@ -191,7 +196,7 @@ The following steps illustrate using the functions described above to populate a
 
     
 
-6.  Populate an [**XAUDIO2\_BUFFER**](xaudio2-buffer.md) structure.
+6.  Populate an [**XAUDIO2\_BUFFER**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_buffer?branch=master) structure.
     ```
     buffer.AudioBytes = dwChunkSize;  //buffer containing audio data
     buffer.pAudioData = pDataBuffer;  //size of the audio buffer in bytes

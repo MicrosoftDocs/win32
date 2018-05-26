@@ -1,14 +1,20 @@
 ---
 title: ParameterValue element
 description: Describes a single assessment parameter.
-ms.assetid: '646A8269-0C4A-4211-B20D-1FCBC6EBD9CD'
-keywords: ["ParameterValue element Access Execution Engine"]
+ms.assetid: 646A8269-0C4A-4211-B20D-1FCBC6EBD9CD
+keywords:
+- ParameterValue element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ParameterValue
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParameterValue element
@@ -74,9 +80,9 @@ There are no attributes.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

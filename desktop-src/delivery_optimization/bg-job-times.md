@@ -1,8 +1,9 @@
 ---
 title: BG\_JOB\_TIMES structure
 description: The BG\_JOB\_TIMES structure provides job-related time stamps.
-ms.assetid: '0147478F-C850-4B66-AB15-042C1A81D6B5'
-keywords: ["BG_JOB_TIMES structure"]
+ms.assetid: 0147478F-C850-4B66-AB15-042C1A81D6B5
+keywords:
+- BG_JOB_TIMES structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BG\_JOB\_TIMES structure
@@ -61,7 +67,7 @@ Time the job entered the BG\_JOB\_STATE\_TRANSFERRED state. The time is specifie
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
@@ -74,9 +80,9 @@ Time the job entered the BG\_JOB\_STATE\_TRANSFERRED state. The time is specifie
 [**IBackgroundCopyJob::GetTimes**](ibackgroundcopyjob-gettimes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

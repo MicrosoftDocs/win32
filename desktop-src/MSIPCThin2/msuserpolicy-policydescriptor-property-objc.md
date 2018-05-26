@@ -4,17 +4,21 @@ description: The custom policy used to protect the content.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'EE668E17-5DF7-4A7D-8EBA-E8965E100208'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: EE668E17-5DF7-4A7D-8EBA-E8965E100208
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy policyDescriptor property"]
+keywords:
+- MSUserPolicy policyDescriptor property
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy policyDescriptor property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy policyDescriptor property
@@ -37,7 +41,7 @@ The custom policy used to protect the content. This property will be null for te
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

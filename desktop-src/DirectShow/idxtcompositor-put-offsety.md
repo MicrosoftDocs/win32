@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_OffsetY method specifies the vertical offset of the target rectangle.'
-ms.assetid: '68f2774d-9f26-4829-835d-b338c39f1c99'
-title: 'IDxtCompositor::put\_OffsetY method'
+---
+Description: The put\_OffsetY method specifies the vertical offset of the target rectangle.
+ms.assetid: 68f2774d-9f26-4829-835d-b338c39f1c99
+title: IDxtCompositorput\_OffsetY method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtCompositor::put\_OffsetY method

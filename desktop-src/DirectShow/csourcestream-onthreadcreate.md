@@ -1,7 +1,12 @@
 ---
-Description: 'The OnThreadCreate method is called when the streaming thread is initialized.'
-ms.assetid: 'eeaa0d12-3185-4c97-b481-fc420cfc0897'
-title: 'CSourceStream.OnThreadCreate method'
+Description: The OnThreadCreate method is called when the streaming thread is initialized.
+ms.assetid: eeaa0d12-3185-4c97-b481-fc420cfc0897
+title: CSourceStream.OnThreadCreate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.OnThreadCreate method
@@ -47,9 +52,9 @@ The thread procedure, [**CSourceStream::ThreadProc**](csourcestream-threadproc.m
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

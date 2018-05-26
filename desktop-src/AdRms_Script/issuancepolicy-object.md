@@ -1,13 +1,16 @@
 ---
-Description: 'Can be used to specify the amount of time for which rights account certificates (RACs) are valid.'
+Description: Can be used to specify the amount of time for which rights account certificates (RACs) are valid.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '85ca9f7f-950a-46f8-b4c6-5b31a168f1b0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 85ca9f7f-950a-46f8-b4c6-5b31a168f1b0
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: IssuancePolicy object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IssuancePolicy object
@@ -33,7 +36,7 @@ The **IssuancePolicy** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -103,7 +106,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -115,9 +118,9 @@ END FUNCTION
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

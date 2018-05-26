@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_FUNCTIONAL\_OBJECT'
-ms.assetid: '112de70b-afcc-4fba-b74f-c33bd759d517'
-title: 'WPD\_CONTENT\_TYPE\_FUNCTIONAL\_OBJECT'
+Description: WPD\_CONTENT\_TYPE\_FUNCTIONAL\_OBJECT
+ms.assetid: 112de70b-afcc-4fba-b74f-c33bd759d517
+title: WPD\_CONTENT\_TYPE\_FUNCTIONAL\_OBJECT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_FUNCTIONAL\_OBJECT

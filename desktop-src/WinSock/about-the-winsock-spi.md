@@ -1,7 +1,12 @@
 ---
-Description: 'Winsock provides a Service Provider Interface for creating Winsock services, commonly referred to as the Winsock SPI.'
-ms.assetid: 'e3d21dd8-2b58-4108-857d-a075b8be68b0'
+Description: Winsock provides a Service Provider Interface for creating Winsock services, commonly referred to as the Winsock SPI.
+ms.assetid: e3d21dd8-2b58-4108-857d-a075b8be68b0
 title: About the Winsock SPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Winsock SPI

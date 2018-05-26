@@ -1,8 +1,11 @@
 ---
 title: COLORDATATYPE enumeration
 description: Used by WCS functions to indicate the data type of vector content.
-ms.assetid: '001001c2-9a34-4d70-937d-befa0fc2118c'
-keywords: ["COLORDATATYPE enumeration Windows Color System", "PCOLORDATATYPE enumeration pointer Windows Color System", "LPCOLORDATATYPE enumeration pointer Windows Color System"]
+ms.assetid: 001001c2-9a34-4d70-937d-befa0fc2118c
+keywords:
+- COLORDATATYPE enumeration Windows Color System
+- PCOLORDATATYPE enumeration pointer Windows Color System
+- LPCOLORDATATYPE enumeration pointer Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Icm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLORDATATYPE enumeration
@@ -22,7 +30,7 @@ Used by WCS functions to indicate the data type of vector content.
 
 ```C++
 typedef enum tagCOLORDATATYPE { 
-  COLOR_BYTE                = 1,
+  COLOR_BYTE                = 1,
   COLOR_WORD,
   COLOR_FLOAT,
   COLOR_S2DOT13FIXED,
@@ -93,15 +101,15 @@ The PCOLORDATATYPE and LPCOLORDATATYPE data types are defined as pointers to the
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

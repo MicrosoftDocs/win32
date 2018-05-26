@@ -4,18 +4,23 @@ description: The client can focus on a small number of objects returned from the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '55393177-f49b-4163-8e33-2ec24a64b99a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 55393177-f49b-4163-8e33-2ec24a64b99a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Size Limit with IDirectorySearch ADSI", "ADSI, Searching, IDirectorySearch, Other Search Options, Size Limit"]
+keywords:
+- Size Limit with IDirectorySearch ADSI
+- ADSI, Searching, IDirectorySearch, Other Search Options, Size Limit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Size Limit with IDirectorySearch
 
 To reduce the memory requirement or for other purposes, the client can focus on a small number of objects returned from the server and ignore the rest of the result set that are not of interest. To accomplish this, the client specifies the search size limit and other appropriate search criteria. For example, if the directory stores the test scores of a school district, you can query the top ten students with the highest test scores by specifying a size limit of ten (10) and a descending sort order.
 
-The default for size limit is no limit. To set a size limit, set an **ADS\_SEARCHPREF\_SIZE\_LIMIT** search option with an **ADSTYPE\_INTEGER** value that contains the maximum size in the [**ADS\_SEARCHPREF\_INFO**](ads-searchpref-info.md) array passed to the [**IDirectorySearch::SetSearchPreference**](idirectorysearch-setsearchpreference.md) method.
+The default for size limit is no limit. To set a size limit, set an **ADS\_SEARCHPREF\_SIZE\_LIMIT** search option with an **ADSTYPE\_INTEGER** value that contains the maximum size in the [**ADS\_SEARCHPREF\_INFO**](/windows/win32/Iads/ns-iads-ads_searchpref_info?branch=master) array passed to the [**IDirectorySearch::SetSearchPreference**](/windows/win32/Iads/nf-iads-idirectorysearch-setsearchpreference?branch=master) method.
 
 The following code example shows how to set the size limit. A size limit value of zero indicates no size limit.
 

@@ -1,8 +1,11 @@
 ---
 title: TaskService.NewTask method
 description: For scripting, returns an empty task definition object to be filled in with settings and properties and then registered using the TaskFolder.RegisterTaskDefinition method.
-ms.assetid: '821fc610-cf94-4548-950d-b4fd7b2f90dc'
-keywords: ["NewTask method Task Scheduler", "NewTask method Task Scheduler , TaskService object", "TaskService object Task Scheduler , NewTask method"]
+ms.assetid: 821fc610-cf94-4548-950d-b4fd7b2f90dc
+keywords:
+- NewTask method Task Scheduler
+- NewTask method Task Scheduler , TaskService object
+- TaskService object Task Scheduler , NewTask method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskService.NewTask method
@@ -49,16 +57,16 @@ The task definition that specifies all the information required to create a new 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

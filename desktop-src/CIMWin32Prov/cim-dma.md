@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_DMA class represents computer architecture direct memory access (DMA).'
+Description: The CIM\_DMA class represents computer architecture direct memory access (DMA).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '101fa9f3-a403-487d-8482-b1e8e9f957d6'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 101fa9f3-a403-487d-8482-b1e8e9f957d6
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_DMA class'
+title: CIM\_DMA class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_DMA class
@@ -19,7 +22,7 @@ The **CIM\_DMA** class represents computer architecture direct memory access (DM
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,24 +32,24 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C523-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_DMA : CIM_SystemResource
 {
-  uint16   AddressSize;
-  uint16   Availability;
-  boolean  BurstMode;
-  uint16   ByteMode;
-  string   Caption;
-  uint16   ChannelTiming;
-  string   CreationClassName;
-  string   CSCreationClassName;
-  string   CSName;
-  string   Description;
-  uint32   DMAChannel;
+  uint16   AddressSize;
+  uint16   Availability;
+  boolean  BurstMode;
+  uint16   ByteMode;
+  string   Caption;
+  uint16   ChannelTiming;
+  string   CreationClassName;
+  string   CSCreationClassName;
+  string   CSName;
+  string   Description;
+  uint32   DMAChannel;
   datetime InstallDate;
-  uint32   MaxTransferSize;
-  string   Name;
-  string   Status;
-  uint16   TransferWidths[];
-  uint16   TypeCTiming;
-  uint16   WordMode;
+  uint32   MaxTransferSize;
+  string   Name;
+  string   Status;
+  uint16   TransferWidths[];
+  uint16   TypeCTiming;
+  uint16   WordMode;
 };
 ```
 
@@ -813,8 +816,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -828,9 +831,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_SystemResource**](cim-systemresource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

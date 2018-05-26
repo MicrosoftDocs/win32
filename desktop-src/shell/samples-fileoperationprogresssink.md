@@ -1,11 +1,16 @@
 ---
-Description: 'Demonstrates how to use the IFileOperationProgressSink interface methods for monitoring the details of IFileOperation interface actions.'
+Description: Demonstrates how to use the IFileOperationProgressSink interface methods for monitoring the details of IFileOperation interface actions.
 title: File Operation Progress Sink
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Operation Progress Sink
 
-Demonstrates how to use the [**IFileOperationProgressSink**](ifileoperationprogresssink.md) interface methods for monitoring the details of [**IFileOperation**](ifileoperation.md) interface actions.
+Demonstrates how to use the [**IFileOperationProgressSink**](/windows/win32/shobjidl_core/nn-shobjidl_core-ifileoperationprogresssink?branch=master) interface methods for monitoring the details of [**IFileOperation**](/windows/win32/shobjidl_core/nn-shobjidl_core-ifileoperation?branch=master) interface actions.
 
 This topic contains the following sections.
 

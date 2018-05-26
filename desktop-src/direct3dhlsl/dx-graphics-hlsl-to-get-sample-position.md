@@ -1,7 +1,12 @@
 ---
 title: GetSamplePosition (DirectX HLSL Texture Object)
 description: Gets the position of the specified sample.
-ms.assetid: '4e622b85-82d6-4339-b03a-becbe5f9aa57'
+ms.assetid: 4e622b85-82d6-4339-b03a-becbe5f9aa57
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSamplePosition (DirectX HLSL Texture Object)
@@ -16,7 +21,7 @@ Gets the position of the specified sample.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -29,7 +34,7 @@ Gets the position of the specified sample.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -41,13 +46,13 @@ This function is supported in the following shader models.
 
 
 
-| vs\_4\_0 | vs\_4\_1¹ | ps\_4\_0 | ps\_4\_1¹ | gs\_4\_0 | gs\_4\_1¹ |
+| vs\_4\_0 | vs\_4\_1  | ps\_4\_0 | ps\_4\_1  | gs\_4\_0 | gs\_4\_1  |
 |----------|-----------|----------|-----------|----------|-----------|
 |          | x         |          | x         |          | x         |
 
 
 
- 
+ 
 
 -   Shader Model 4.1 is available in Direct3D 10.1 or higher.
 
@@ -68,9 +73,9 @@ You can interpolate a pixel shader input in several ways. To interpolate at:
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

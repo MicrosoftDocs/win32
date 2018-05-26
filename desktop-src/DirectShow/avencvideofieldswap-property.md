@@ -1,7 +1,12 @@
 ---
-Description: 'Reverses the order of the interlaced fields in the source video.'
-ms.assetid: 'e7b45fe4-fde3-49ed-a4c7-2706c420edb3'
+Description: Reverses the order of the interlaced fields in the source video.
+ms.assetid: e7b45fe4-fde3-49ed-a4c7-2706c420edb3
 title: AVEncVideoFieldSwap property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncVideoFieldSwap property
@@ -28,8 +33,8 @@ If the value is **VARIANT\_TRUE**, the encoder swaps the field order.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ If the value is **VARIANT\_TRUE**, the encoder swaps the field order.
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

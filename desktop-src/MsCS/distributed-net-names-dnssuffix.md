@@ -4,17 +4,21 @@ description: TBD.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3B8F6210-1FAE-4C64-B623-AF2F17C9F754'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3B8F6210-1FAE-4C64-B623-AF2F17C9F754
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DnsSuffix Failover Cluster"]
+keywords:
+- DnsSuffix Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DnsSuffix
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsSuffix
@@ -28,13 +32,13 @@ TBD. The following table summarizes the attributes of the **DnsSuffix** property
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read-only](read-only-properties.md)                            |
 | Status    | Optional                                                         |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_NETNAME\_DNS\_SUFFIX**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_NETNAME\_DNS\_SUFFIX**.
 [Distributed Network Name Private Properties](distributed-net-name-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

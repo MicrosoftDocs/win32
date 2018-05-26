@@ -1,7 +1,12 @@
 ---
-Description: 'The MsiPatchSequence table contains all the information the installer requires to determine the sequence of application of a small update patch relative to all other patches.'
-ms.assetid: 'ae8319ad-8136-4201-9fcf-ea58ce05f88b'
+Description: The MsiPatchSequence table contains all the information the installer requires to determine the sequence of application of a small update patch relative to all other patches.
+ms.assetid: ae8319ad-8136-4201-9fcf-ea58ce05f88b
 title: MsiPatchSequence Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiPatchSequence Table

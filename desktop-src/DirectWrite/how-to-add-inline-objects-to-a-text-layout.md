@@ -1,12 +1,17 @@
 ---
 title: How to Add Inline Objects to a Text Layout
 description: Provides a short tutorial on adding inline objects to a DirectWrite application that displays text using the IDWriteTextLayout interface.
-ms.assetid: '6aa9d17c-ee30-497f-9c73-ec2fa079222b'
+ms.assetid: 6aa9d17c-ee30-497f-9c73-ec2fa079222b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Add Inline Objects to a Text Layout
 
-Provides a short tutorial on adding inline objects to a [DirectWrite](direct-write-portal.md) application that displays text using the [**IDWriteTextLayout**](idwritetextlayout.md) interface.
+Provides a short tutorial on adding inline objects to a [DirectWrite](direct-write-portal.md) application that displays text using the [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master) interface.
 
 The end product of this tutorial is an application that displays text with an inline image embedded in it, as shown in the following screen shot.
 
@@ -26,11 +31,11 @@ This tutorial contains the following parts:
 
 ## Step 1: Create a Text Layout.
 
-To begin, you will need an application with an [**IDWriteTextLayout**](idwritetextlayout.md) object. If you already have an application that displays text with a text layout, skip to Step 2.
+To begin, you will need an application with an [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master) object. If you already have an application that displays text with a text layout, skip to Step 2.
 
 To add a text layout you must do the following:
 
-1.  Declare a pointer to an [**IDWriteTextLayout**](idwritetextlayout.md) interface as a member of the class.
+1.  Declare a pointer to an [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master) interface as a member of the class.
     ```C++
     IDWriteTextLayout* pTextLayout_;
     
@@ -38,7 +43,7 @@ To add a text layout you must do the following:
 
     
 
-2.  At the end of the CreateDeviceIndependentResources method, create an [**IDWriteTextLayout**](idwritetextlayout.md) interface object by calling the [**CreateTextLayout**](idwritefactory-createtextlayout.md) method.
+2.  At the end of the CreateDeviceIndependentResources method, create an [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master) interface object by calling the [**CreateTextLayout**](/windows/win32/dwrite/?branch=master) method.
     ```C++
     // Create a text layout using the text format.
     if (SUCCEEDED(hr))
@@ -76,16 +81,16 @@ To add a text layout you must do the following:
 
 ## Step 2: Define a class derived from the IDWriteInlineObject interface.
 
-Support for inline objects in [DirectWrite](direct-write-portal.md) is provided by the [**IDWriteInlineObject**](idwriteinlineobject.md) interface. To use inline objects, you must implement this interface. It handles the drawing of the inline object, as well as providing metrics and other information to the renderer.
+Support for inline objects in [DirectWrite](direct-write-portal.md) is provided by the [**IDWriteInlineObject**](/windows/win32/dwrite/?branch=master) interface. To use inline objects, you must implement this interface. It handles the drawing of the inline object, as well as providing metrics and other information to the renderer.
 
-Create a new header file and declare an interface called InlineImage, derived from [**IDWriteInlineObject**](idwriteinlineobject.md).
+Create a new header file and declare an interface called InlineImage, derived from [**IDWriteInlineObject**](/windows/win32/dwrite/?branch=master).
 
 In addition to QueryInterface, AddRef, and Release inherited from IUnknown, this class must have the following methods:
 
--   [**Draw**](idwriteinlineobject-draw.md)
--   [**GetMetrics**](idwriteinlineobject-getmetrics.md)
+-   [**Draw**](/windows/win32/dwrite/?branch=master)
+-   [**GetMetrics**](/windows/win32/dwrite/?branch=master)
 -   [**GetOverhangMetrics**](idwriteinlineobject-getoverhangmetrics.md)
--   [**GetBreakConditions**](idwriteinlineobject-getbreakconditions.md)
+-   [**GetBreakConditions**](/windows/win32/dwrite/?branch=master)
 
 ## Step 3: Implement the Inline Object Class.
 
@@ -124,7 +129,7 @@ The render target, IWICImagingFactory, and the filename uri are all passed to th
 
 ### The Draw Method.
 
-The [**Draw**](idwriteinlineobject-draw.md) method is a callback that is called by the [**IDWriteTextRenderer**](idwritetextrenderer.md) object when the inline object needs to be drawn. The text layout does not call this method directly.
+The [**Draw**](/windows/win32/dwrite/?branch=master) method is a callback that is called by the [**IDWriteTextRenderer**](/windows/win32/dwrite/?branch=master) object when the inline object needs to be drawn. The text layout does not call this method directly.
 
 
 ```C++
@@ -171,7 +176,7 @@ HRESULT STDMETHODCALLTYPE InlineImage::GetMetrics(
 
 
 
-For the [**GetMetrics**](idwriteinlineobject-getmetrics.md) method, store the width, height and baseline in an [**DWRITE\_INLINE\_OBJECT\_METRICS**](dwrite-inline-object-metrics.md) structure. [**IDWriteTextLayout**](idwritetextlayout.md) calls this callback function to get the measurement of the inline object.
+For the [**GetMetrics**](/windows/win32/dwrite/?branch=master) method, store the width, height and baseline in an [**DWRITE\_INLINE\_OBJECT\_METRICS**](/windows/win32/dwrite/ns-dwrite-dwrite_inline_object_metrics?branch=master) structure. [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master) calls this callback function to get the measurement of the inline object.
 
 ### The GetOverhangMetrics Method.
 
@@ -226,7 +231,7 @@ pTextLayout_->SetInlineObject(pInlineImage_, textRange);
 
 
 
-The [**IDWriteTextLayout::SetInlineObject**](idwritetextlayout-setinlineobject.md) method takes a text range structure. The object applies to the range specified here, and any text in the range will be suppressed. If the length of the text range is 0, the object will not be drawn.
+The [**IDWriteTextLayout::SetInlineObject**](/windows/win32/dwrite/?branch=master) method takes a text range structure. The object applies to the range specified here, and any text in the range will be suppressed. If the length of the text range is 0, the object will not be drawn.
 
 In this example, there is an asterisk (\*) as a place holder in the position where the image will be displayed.
 

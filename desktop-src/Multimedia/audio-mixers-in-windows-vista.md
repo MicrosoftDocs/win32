@@ -1,8 +1,18 @@
 ---
 title: Audio Mixers in Windows Vista
 description: Audio Mixers in Windows Vista
-ms.assetid: '541cb5f3-b5ca-436f-88dd-6ef8459c6157'
-keywords: ["multimedia audio,Windows Vista audio mixers", "audio,Windows Vista audio mixers", "audio mixers,Windows Vista", "mixers,Windows Vista", "Windows Vista audio mixers"]
+ms.assetid: 541cb5f3-b5ca-436f-88dd-6ef8459c6157
+keywords:
+- multimedia audio,Windows Vista audio mixers
+- audio,Windows Vista audio mixers
+- audio mixers,Windows Vista
+- mixers,Windows Vista
+- Windows Vista audio mixers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Mixers in Windows Vista

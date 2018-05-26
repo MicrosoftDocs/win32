@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OriginalScheduledTime property specifies the time that the fax job was originally scheduled for transmission.'
-ms.assetid: '0c3f44da-c4e6-4d65-943a-412a220417f4'
-title: 'FaxOutgoingJob.OriginalScheduledTime property'
+---
+Description: The OriginalScheduledTime property specifies the time that the fax job was originally scheduled for transmission.
+ms.assetid: 0c3f44da-c4e6-4d65-943a-412a220417f4
+title: FaxOutgoingJob.OriginalScheduledTime property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.OriginalScheduledTime property
@@ -46,7 +51,7 @@ A **Date** value that represents the date and time that the fax was originally s
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 Description: COM+ SOAP Service
-ms.assetid: 'b6287cbe-9870-464e-82de-090cd16c108e'
+ms.assetid: b6287cbe-9870-464e-82de-090cd16c108e
 title: COM+ SOAP Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ SOAP Service
@@ -19,11 +24,11 @@ The topics described in the following table provide background and task informat
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

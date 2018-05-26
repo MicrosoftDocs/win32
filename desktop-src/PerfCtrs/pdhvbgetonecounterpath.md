@@ -1,7 +1,12 @@
 ---
-Description: 'The PdhVbGetOneCounterPath function displays a dialog box that lets the user browse the available performance counters and select one counter.'
-ms.assetid: 'a42406ef-70e0-464d-90f8-fef9e1c3471d'
+Description: The PdhVbGetOneCounterPath function displays a dialog box that lets the user browse the available performance counters and select one counter.
+ms.assetid: a42406ef-70e0-464d-90f8-fef9e1c3471d
 title: PdhVbGetOneCounterPath function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PdhVbGetOneCounterPath function
@@ -44,7 +49,7 @@ Types of counters to be displayed in the dialog box. This parameter can be one o
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -65,8 +70,8 @@ The function returns the number of characters written to the *PathString* buffer
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Library<br/>                  | <dl> <dt>Pdh.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 
@@ -85,9 +90,9 @@ The function returns the number of characters written to the *PathString* buffer
 [**PdhVbGetCounterPathFromList**](pdhvbgetcounterpathfromlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: This topic includes a code example that enumerates all objects of a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd113d132-24cf-4319-826b-0d3d10e432f6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d113d132-24cf-4319-826b-0d3d10e432f6
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , enumerating local groups"]
+keywords:
+- Active Directory examples Active Directory , enumerating local groups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Enumerating Local Groups

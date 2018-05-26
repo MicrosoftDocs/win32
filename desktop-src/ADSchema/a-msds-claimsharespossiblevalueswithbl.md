@@ -4,17 +4,22 @@ description: For a claim type object, this attribute indicates that the possible
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2013ada9-ba80-4133-ad56-ba23be6eb36b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 2013ada9-ba80-4133-ad56-ba23be6eb36b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Claim-Shares-Possible-Values-With-BL attribute AD Schema", "msDS-ClaimSharesPossibleValuesWithBL attribute AD Schema"]
+keywords:
+- ms-DS-Claim-Shares-Possible-Values-With-BL attribute AD Schema
+- msDS-ClaimSharesPossibleValuesWithBL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Claim-Shares-Possible-Values-With-BL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Claim-Shares-Possible-Values-With-BL attribute
@@ -38,7 +43,7 @@ For a claim type object, this attribute indicates that the possible values descr
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For a claim type object, this attribute indicates that the possible values descr
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the basic display features of a computer monitor.'
-ms.assetid: '08405e7f-7824-4e44-9f37-da9bb5619cd6'
+Description: Represents the basic display features of a computer monitor.
+ms.assetid: 08405e7f-7824-4e44-9f37-da9bb5619cd6
 title: WmiMonitorBasicDisplayParams class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorBasicDisplayParams class
@@ -13,13 +18,13 @@ The **WmiMonitorBasicDisplayParams** WMI class represents the basic display feat
 ``` syntax
 class WmiMonitorBasicDisplayParams : MSMonitorClass
 {
-  boolean                            Active;
-  uint8                              DisplayTransferCharacteristic;
-  string                             InstanceName;
-  uint8                              MaxHorizontalImageSize;
-  uint8                              MaxVerticalImageSize;
+  boolean                            Active;
+  uint8                              DisplayTransferCharacteristic;
+  string                             InstanceName;
+  uint8                              MaxHorizontalImageSize;
+  uint8                              MaxVerticalImageSize;
   SupportedDisplayFeaturesDescriptor SupportedDisplayFeatures;
-  uint8                              VideoInputType;
+  uint8                              VideoInputType;
 };
 ```
 
@@ -136,7 +141,7 @@ Video input type.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -150,8 +155,8 @@ Video input type.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -165,9 +170,9 @@ Video input type.
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

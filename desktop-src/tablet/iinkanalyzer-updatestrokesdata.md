@@ -1,7 +1,12 @@
 ---
-Description: 'Updates the packet data for the specified strokes.'
-ms.assetid: '7fca4c39-eef2-4019-86a0-27cd0e4e7510'
-title: 'IInkAnalyzer::UpdateStrokesData method'
+Description: Updates the packet data for the specified strokes.
+ms.assetid: 7fca4c39-eef2-4019-86a0-27cd0e4e7510
+title: IInkAnalyzerUpdateStrokesData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::UpdateStrokesData method
@@ -13,12 +18,12 @@ Updates the packet data for the specified strokes.
 
 ```C++
 HRESULT UpdateStrokesData(
-  [in] ULONG ulStrokeIdsCount,
-  [in] LONG  *plStrokeIds,
-  [in] ULONG ulStrokePacketDescriptionCount,
-  [in] GUID  *pStrokePacketDescriptionGuids,
-  [in] ULONG *pulPacketDataCountPerStroke,
-  [in] LONG  *plStrokePacketData
+  [in] ULONG ulStrokeIdsCount,
+  [in] LONG  *plStrokeIds,
+  [in] ULONG ulStrokePacketDescriptionCount,
+  [in] GUID  *pStrokePacketDescriptionGuids,
+  [in] ULONG *pulPacketDataCountPerStroke,
+  [in] LONG  *plStrokePacketData
 );
 ```
 
@@ -94,7 +99,7 @@ This method returns an error code when *plStrokeIds* is **NULL**.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -135,9 +140,9 @@ This method returns an error code when *plStrokeIds* is **NULL**.
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

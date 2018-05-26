@@ -1,7 +1,12 @@
 ---
-Description: 'Device is present.'
-ms.assetid: 'e523cf70-21be-40cc-af91-19459ef13f6c'
-title: 'System.Devices.Present'
+Description: Device is present.
+ms.assetid: e523cf70-21be-40cc-af91-19459ef13f6c
+title: System.Devices.Present
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Present

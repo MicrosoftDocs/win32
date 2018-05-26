@@ -1,7 +1,12 @@
 ---
 title: Status Bar Messages
 description: .
-ms.assetid: '7e1e3c8d-2ed8-4cd7-aa17-733e2c8c5ff1'
+ms.assetid: 7e1e3c8d-2ed8-4cd7-aa17-733e2c8c5ff1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Status Bar Messages

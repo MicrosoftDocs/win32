@@ -1,14 +1,20 @@
 ---
 title: FXFile element
 description: Points to an .fx file that contains the pixel and vertex shaders used in the button style.
-ms.assetid: '7cda9c98-539b-4cf0-a6a6-a46afbbb6ac6'
-keywords: ["FXFile element Windows Movie Maker and DVD Maker"]
+ms.assetid: 7cda9c98-539b-4cf0-a6a6-a46afbbb6ac6
+keywords:
+- FXFile element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - FXFile
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FXFile element
@@ -51,7 +57,7 @@ This element is required within each **DVDButton** element.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -63,9 +69,9 @@ This element is required within each **DVDButton** element.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

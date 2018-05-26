@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies whether to add a cyclic redundancy check (CRC) to the frame header. This property applies to MPEG audio encoders.'
-ms.assetid: '55f0de8b-26dd-4d48-b7ed-2ddcef630227'
+Description: Specifies whether to add a cyclic redundancy check (CRC) to the frame header. This property applies to MPEG audio encoders.
+ms.assetid: 55f0de8b-26dd-4d48-b7ed-2ddcef630227
 title: AVEncMPAEnableRedundancyProtection property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncMPAEnableRedundancyProtection property
@@ -31,7 +36,7 @@ This property can have the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -39,8 +44,8 @@ This property can have the following values.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -52,12 +57,12 @@ This property can have the following values.
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

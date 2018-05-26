@@ -1,7 +1,12 @@
 ---
 Description: AVI Draw Filter
-ms.assetid: '86cd8e48-7cfa-46e4-b8f4-609b4d09fe80'
+ms.assetid: 86cd8e48-7cfa-46e4-b8f4-609b4d09fe80
 title: AVI Draw Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVI Draw Filter
@@ -18,7 +23,7 @@ The AVI Draw filter is pulled automatically into a playback graph instead of the
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IBaseFilter</strong>](ibasefilter.md)</td>
+<td>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -38,7 +43,7 @@ The AVI Draw filter is pulled automatically into a playback graph instead of the
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IMemInputPin</strong>](imeminputpin.md), [<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IMemInputPin</strong>](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -46,7 +51,7 @@ The AVI Draw filter is pulled automatically into a playback graph instead of the
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IMediaPosition</strong>](imediaposition.md), [<strong>IMediaSeeking</strong>](imediaseeking.md), [<strong>IOverlayNotify</strong>](ioverlaynotify.md), [<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IMediaPosition</strong>](/windows/win32/Control/nn-control-imediaposition?branch=master), [<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [<strong>IOverlayNotify</strong>](/windows/win32/Strmif/nn-strmif-ioverlaynotify?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -73,7 +78,7 @@ The AVI Draw filter is pulled automatically into a playback graph instead of the
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -86,9 +91,9 @@ Since the AVI Draw filter and the [VFW Capture Filter](vfw-capture-filter.md) bo
 [DirectShow Filters](directshow-filters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

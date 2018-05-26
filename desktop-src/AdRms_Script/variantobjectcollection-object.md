@@ -1,13 +1,16 @@
 ---
-Description: 'Contains abstract methods and properties that manage a generic collection.'
+Description: Contains abstract methods and properties that manage a generic collection.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '30a5e8ba-e5e0-4e25-8942-ce7dc87959c8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 30a5e8ba-e5e0-4e25-8942-ce7dc87959c8
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: VariantObjectCollection object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # VariantObjectCollection object
@@ -51,7 +54,7 @@ The **VariantObjectCollection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -66,7 +69,7 @@ The **VariantObjectCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,7 +78,7 @@ The **VariantObjectCollection** object has these properties.
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -87,9 +90,9 @@ The **VariantObjectCollection** object has these properties.
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

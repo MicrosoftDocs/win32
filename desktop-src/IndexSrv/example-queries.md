@@ -1,7 +1,12 @@
 ---
 title: Example Queries
 description: Example Queries
-ms.assetid: '265147a4-ab99-4efb-9f64-957bf78625ec'
+ms.assetid: 265147a4-ab99-4efb-9f64-957bf78625ec
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example Queries

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the name of a stream.'
-ms.assetid: '80235820-761f-4deb-9bf6-82ef402b3ee4'
-title: 'MF\_SD\_STREAM\_NAME attribute'
+---
+Description: Contains the name of a stream.
+ms.assetid: 80235820-761f-4deb-9bf6-82ef402b3ee4
+title: MF\_SD\_STREAM\_NAME attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SD\_STREAM\_NAME attribute
@@ -14,13 +19,13 @@ Contains the name of a stream.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetString**](imfattributes-getstring.md).
+To get this attribute, call [**IMFAttributes::GetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getstring?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetString**](imfattributes-setstring.md).
+To set this attribute, call [**IMFAttributes::SetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setstring?branch=master).
 
 ## Applies to
 
-[**IMFStreamDescriptor**](imfstreamdescriptor.md)
+[**IMFStreamDescriptor**](/windows/win32/mfidl/nn-mfidl-imfstreamdescriptor?branch=master)
 
 ## Remarks
 

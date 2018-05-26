@@ -1,7 +1,12 @@
-﻿---
-Description: 'Your recognizer DLL must be registered for the Tablet PC Platform to use it. The recognizer must make the following changes to the registry at installation.'
-ms.assetid: '1f1d826b-3968-424b-8da8-b69590058ff1'
+---
+Description: Your recognizer DLL must be registered for the Tablet PC Platform to use it. The recognizer must make the following changes to the registry at installation.
+ms.assetid: 1f1d826b-3968-424b-8da8-b69590058ff1
 title: Registering Your Recognizer DLL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Your Recognizer DLL

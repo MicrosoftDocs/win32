@@ -1,7 +1,12 @@
 ---
 title: emitThenCut\_stream (sm5 - asm)
 description: Equivalent to an emit command followed by a cut command.
-ms.assetid: 'E9D84647-E29B-4E31-9E95-9F7A173293D4'
+ms.assetid: E9D84647-E29B-4E31-9E95-9F7A173293D4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # emitThenCut\_stream (sm5 - asm)
@@ -15,7 +20,7 @@ Equivalent to an [emit](emit--sm4---asm-.md) command followed by a [cut](cut--sm
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Equivalent to an [emit](emit--sm4---asm-.md) command followed by a [cut](cut--sm
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,7 +48,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -62,7 +67,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -71,9 +76,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

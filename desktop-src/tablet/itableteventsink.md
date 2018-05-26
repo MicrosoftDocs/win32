@@ -1,7 +1,12 @@
 ---
-Description: 'Defines methods that handle the ITablet Interface events.'
-ms.assetid: '9acf32fa-b33f-4b9a-be73-804b7d5434e8'
+Description: Defines methods that handle the ITablet Interface events.
+ms.assetid: 9acf32fa-b33f-4b9a-be73-804b7d5434e8
 title: ITabletEventSink interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletEventSink interface
@@ -35,7 +40,7 @@ The **ITabletEventSink** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -121,15 +126,15 @@ interface ITabletEventSink: IUnknown
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

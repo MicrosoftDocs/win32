@@ -1,8 +1,9 @@
 ---
 title: SupplyDecryptionInfo function
-description: This function is obsolete in Windows 8, Windows Server 2012, and later. Provides the full path for a file that contains a decryption key and provides a BitLocker information block that is stored in Active Directory.
-ms.assetid: 'e8eaf83a-4fbe-4a5e-90a6-701069fb1ff5'
-keywords: ["SupplyDecryptionInfo function Files"]
+description: This function is obsolete in Windows 8, Windows Server 2012, and later. Provides the full path for a file that contains a decryption key and provides a BitLocker information block that is stored in Active Directory.
+ms.assetid: e8eaf83a-4fbe-4a5e-90a6-701069fb1ff5
+keywords:
+- SupplyDecryptionInfo function Files
 topic_type:
 - apiref
 api_name:
@@ -11,27 +12,32 @@ api_location:
 - Fmapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SupplyDecryptionInfo function
 
-This function is obsolete in Windows 8, Windows Server 2012, and later. Provides the full path for a file that contains a decryption key and provides a BitLocker information block that is stored in Active Directory. The data provided with this function is required when using the [**ScanRestorableFiles**](scanrestorablefiles.md) function and the [**RestoreFile**](restorefile.md) function to access data that is encrypted on a disk.
+This function is obsolete in Windows 8, Windows Server 2012, and later. Provides the full path for a file that contains a decryption key and provides a BitLocker information block that is stored in Active Directory. The data provided with this function is required when using the [**ScanRestorableFiles**](scanrestorablefiles.md) function and the [**RestoreFile**](restorefile.md) function to access data that is encrypted on a disk.
 
 > [!Note]  
-> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
+> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 BOOL WINAPI SupplyDecryptionInfo(
-  _In_     PFILE_RESTORE_CONTEXT Context,
-  _In_opt_ PCWSTR                RecoveryKeyFilePath,
-  _In_opt_ PVOID                 RecoveryPassword,
-  _In_opt_ PVOID                 KeyPackage,
-  _In_opt_ ULONG                 KeyPackageSize
+  _In_     PFILE_RESTORE_CONTEXT Context,
+  _In_opt_ PCWSTR                RecoveryKeyFilePath,
+  _In_opt_ PVOID                 RecoveryPassword,
+  _In_opt_ PVOID                 KeyPackage,
+  _In_opt_ ULONG                 KeyPackageSize
 );
 ```
 
@@ -82,11 +88,11 @@ If the function succeeds, the return value is TRUE.
 
 If the function fails, the return value is FALSE. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
 
-In Windows 8, Windows Server 2012, and later, this function always returns FALSE, and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns ERROR\_NOT\_SUPPORTED.
+In Windows 8, Windows Server 2012, and later, this function always returns FALSE, and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns ERROR\_NOT\_SUPPORTED.
 
 ## Remarks
 
-This function is obsolete in Windows 8, Windows Server 2012, and later.
+This function is obsolete in Windows 8, Windows Server 2012, and later.
 
 This function has no associated header file or import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) and [**GetProcAddress**](https://msdn.microsoft.com/library/windows/desktop/ms683212) functions to dynamically link to fmapi.dll.
 
@@ -103,8 +109,8 @@ If required, the **SupplyDecryptionInfo** function must be called before any cal
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Fmapi.dll</dt> </dl> |
 
 
@@ -122,9 +128,9 @@ If required, the **SupplyDecryptionInfo** function must be called before any cal
 [**RestoreFile**](restorefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

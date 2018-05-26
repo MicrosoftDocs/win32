@@ -1,8 +1,17 @@
 ---
 title: To Use a Script Stream
 description: To Use a Script Stream
-ms.assetid: '502b1f66-213d-41d8-992a-9bef4f6209f9'
-keywords: ["Windows Media Format SDK,script streams", "Advanced Systems Format (ASF),script streams", "ASF (Advanced Systems Format),script streams", "script streams,about"]
+ms.assetid: 502b1f66-213d-41d8-992a-9bef4f6209f9
+keywords:
+- Windows Media Format SDK,script streams
+- Advanced Systems Format (ASF),script streams
+- ASF (Advanced Systems Format),script streams
+- script streams,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Use a Script Stream

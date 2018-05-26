@@ -1,7 +1,12 @@
 ---
 title: Web Server Samples
 description: Web Server Samples
-ms.assetid: '0d5ca53b-1c8c-4478-a508-11f939a2f1e4'
+ms.assetid: 0d5ca53b-1c8c-4478-a508-11f939a2f1e4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Web Server Samples

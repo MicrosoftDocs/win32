@@ -4,13 +4,16 @@ description: Stops the service.CIM\_Service.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9c4bb0ed-521f-4baa-9690-6980211bac7b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9c4bb0ed-521f-4baa-9690-6980211bac7b
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["StopService method", "StopService method, CIM_Service class", "CIM_Service class, StopService method"]
+keywords:
+- StopService method
+- StopService method, CIM_Service class
+- CIM_Service class, StopService method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StopService method of the CIM\_Service class
@@ -51,7 +57,7 @@ Returns "0" on success, otherwise returns a WMI error code.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | Header<br/>                   | <dl> <dt>Sdoias.h</dt> </dl>                    |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
@@ -66,9 +72,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**CIM\_Service**](cim-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

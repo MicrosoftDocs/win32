@@ -4,11 +4,14 @@ description: Returns the text label for the ListPad control.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5d48bf33-4e7e-4792-8545-59eea3ebf5fa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5d48bf33-4e7e-4792-8545-59eea3ebf5fa
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Title property MMC", "Title property MMC , MMCListPadInfo class", "MMCListPadInfo class MMC , Title property"]
+keywords:
+- Title property MMC
+- Title property MMC , MMCListPadInfo class
+- MMCListPadInfo class MMC , Title property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCListPadInfo.Title property
@@ -53,9 +59,9 @@ In the MMC standard list view template, the text is placed directly above the li
 
 
 
- 
+ 
 
- 
+ 
 
 
 

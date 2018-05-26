@@ -1,7 +1,12 @@
 ---
 title: VML MSO-Wrap-Mode Attribute
 description: VML MSO-Wrap-Mode Attribute
-ms.assetid: '51c4e90d-62cc-4646-9c71-8a6bf3366b2f'
+ms.assetid: 51c4e90d-62cc-4646-9c71-8a6bf3366b2f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML MSO-Wrap-Mode Attribute

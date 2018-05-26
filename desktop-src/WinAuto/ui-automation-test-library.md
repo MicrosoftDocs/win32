@@ -1,12 +1,17 @@
 ---
 title: UI Automation Test Library
 description: The UI Automation Test Library (UIA Test Library) is an API that is called by the driver application in an automated testing scenario.
-ms.assetid: 'A11341E5-71FC-442C-8F78-C40E717BF798'
+ms.assetid: A11341E5-71FC-442C-8F78-C40E717BF798
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Test Library
 
-The UI Automation Test Library (UIA Test Library) is an API that is called by the *driver* application in an automated testing scenario. The driver is the application that obtains an automation element ([**IUIAutomationElement**](uiauto-iuiautomationelement.md) object) from a control that requires verification, and provides it to the UI Automation Test Library. Then, the test library checks and validates the UI Automation implementation. To learn more about UI Automation and automation elements, see [UI Automation Fundamentals](entry-uiautocore-overview.md).
+The UI Automation Test Library (UIA Test Library) is an API that is called by the *driver* application in an automated testing scenario. The driver is the application that obtains an automation element ([**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) object) from a control that requires verification, and provides it to the UI Automation Test Library. Then, the test library checks and validates the UI Automation implementation. To learn more about UI Automation and automation elements, see [UI Automation Fundamentals](entry-uiautocore-overview.md).
 
 -   [UI Automation Test Library Workflow](#ui-automation-test-library-workflow)
 -   [Logging with the UI Automation Test Library](#logging-with-the-ui-automation-test-library)
@@ -17,7 +22,7 @@ The UI Automation Test Library (UIA Test Library) is an API that is called by th
 
 ## UI Automation Test Library Workflow
 
-The following diagram shows a test workflow that incorporates the UI Automation Test Library by using a console application as the driver. In this case, the driver starts an instance of Notepad.exe and obtains an automation element (that is, a [**IUIAutomationElement**](uiauto-iuiautomationelement.md) object) from the edit control. Next, the driver creates a UI Automation Test Library object based on the UI platform being tested, and then passes in the automation element as a parameter. The UI Automation Test Library determines that the automation element is a [Document](uiauto-supportdocumentcontroltype.md) control type, and then executes the Document control tests, the [Text](uiauto-implementingtextandtextrange.md) and [Scroll](uiauto-implementingscroll.md) control pattern tests, and generic automation element tests.
+The following diagram shows a test workflow that incorporates the UI Automation Test Library by using a console application as the driver. In this case, the driver starts an instance of Notepad.exe and obtains an automation element (that is, a [**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) object) from the edit control. Next, the driver creates a UI Automation Test Library object based on the UI platform being tested, and then passes in the automation element as a parameter. The UI Automation Test Library determines that the automation element is a [Document](uiauto-supportdocumentcontroltype.md) control type, and then executes the Document control tests, the [Text](uiauto-implementingtextandtextrange.md) and [Scroll](uiauto-implementingscroll.md) control pattern tests, and generic automation element tests.
 
 ![](images/uia-test-library-workflow.png)
 

@@ -1,8 +1,9 @@
 ---
 title: MCM\_GETCURRENTVIEW message
 description: Gets the current view of the calendar. You can send this message explicitly or by using the MonthCal\_GetCurrentView macro.
-ms.assetid: '9c42ebf6-611e-4e50-9dcc-cf7fd63b32eb'
-keywords: ["MCM_GETCURRENTVIEW message Windows Controls"]
+ms.assetid: 9c42ebf6-611e-4e50-9dcc-cf7fd63b32eb
+keywords:
+- MCM_GETCURRENTVIEW message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_GETCURRENTVIEW message
 
-Gets the current view of the calendar. You can send this message explicitly or by using the [**MonthCal\_GetCurrentView**](monthcal-getcurrentview.md) macro.
+Gets the current view of the calendar. You can send this message explicitly or by using the [**MonthCal\_GetCurrentView**](/windows/win32/Commctrl/nf-commctrl-monthcal_getcurrentview?branch=master) macro.
 
 ## Parameters
 
@@ -50,7 +56,7 @@ Current view. One of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -58,15 +64,15 @@ Current view. One of the following values.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

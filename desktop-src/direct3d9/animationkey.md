@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a set of animation keys. A matrix key is useful for sets of animation data that need to be represented as transformation matrices.'
-ms.assetid: 'bf007541-7fea-423e-910b-fa5f45271608'
+Description: Defines a set of animation keys. A matrix key is useful for sets of animation data that need to be represented as transformation matrices.
+ms.assetid: bf007541-7fea-423e-910b-fa5f45271608
 title: AnimationKey
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AnimationKey

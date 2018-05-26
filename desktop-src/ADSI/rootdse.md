@@ -4,10 +4,13 @@ description: Each directory server has a unique entry called RootDSE. It provide
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bb6b7676-7042-453f-83f9-b0dd2e377a13'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: bb6b7676-7042-453f-83f9-b0dd2e377a13
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RootDSE
@@ -28,7 +31,7 @@ dom.SetInfo
 
 By getting the **defaultNamingContext** attribute from **RootDSE**, you can bind to the current domain, for example, the Fabrikam **defaultNamingContext** is DC=Fabrikam, DC=COM.
 
-To enumerate the properties of the **RootDSE**, use the [**IADsPropertyList**](iadspropertylist.md) interface. [**IDirectoryObject**](idirectoryobject.md) cannot be used for this task.
+To enumerate the properties of the **RootDSE**, use the [**IADsPropertyList**](/windows/win32/Iads/nn-iads-iadspropertylist?branch=master) interface. [**IDirectoryObject**](/windows/win32/Iads/nn-iads-idirectoryobject?branch=master) cannot be used for this task.
 
 For more information, see [Serverless Binding and RootDSE](https://msdn.microsoft.com/library/ms677945).
 

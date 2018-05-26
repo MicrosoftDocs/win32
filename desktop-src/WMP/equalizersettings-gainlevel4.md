@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.gainLevel4
 description: The gainLevel4 attribute specifies or retrieves the gain level of band 4.
-ms.assetid: '01383171-f991-4d09-858a-ce21ce93e14e'
-keywords: ["EQUALIZERSETTINGS.gainLevel4 Windows Media Player"]
+ms.assetid: 01383171-f991-4d09-858a-ce21ce93e14e
+keywords:
+- EQUALIZERSETTINGS.gainLevel4 Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.gainLevel4
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.gainLevel4
@@ -21,7 +27,7 @@ The **gainLevel4** attribute specifies or retrieves the gain level of band 4.
 
 ## Possible Values
 
-This attribute is a read/write **Number** (**float**) with a value normally ranging from –20 to +20. It has a default value of zero.
+This attribute is a read/write **Number** (**float**) with a value normally ranging from  20 to +20. It has a default value of zero.
 
 ## Remarks
 
@@ -49,9 +55,9 @@ If this attribute is not specified, the previous value will be retained.
 [**EQUALIZERSETTINGS. gainLevels**](equalizersettings-gainlevels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: System Policies for Shortcut and WinHelp Commands
 description: Two system policies have been introduced to address various security issues related to the Shortcut and WinHelp commands.
-ms.assetid: 'AEDD45D1-B6B1-4fd6-9674-4C73D83A243E'
+ms.assetid: AEDD45D1-B6B1-4fd6-9674-4C73D83A243E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Policies for Shortcut and WinHelp Commands

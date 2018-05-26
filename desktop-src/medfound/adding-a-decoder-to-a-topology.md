@@ -1,7 +1,12 @@
 ---
 Description: Adding a Decoder to a Topology
-ms.assetid: '32c088d5-d9dd-43d3-a63b-219e6a7a36b1'
+ms.assetid: 32c088d5-d9dd-43d3-a63b-219e6a7a36b1
 title: Adding a Decoder to a Topology
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Decoder to a Topology
@@ -18,7 +23,7 @@ Here are the overall steps for adding a decoder to a topology.
 
 ## Find the Decoder CLSID
 
-If you want to use a particular decoder, you might already know the CLSID of the decoder. If so, you can skip this step. Otherwise, use the [**MFTEnum**](mftenum.md) function to look up the CLSID in the registry. This function takes several search criteria as input. To find a decoder, you need to specify only the input format (major type and subtype). You can get these from the stream descriptor, as shown in the following code.
+If you want to use a particular decoder, you might already know the CLSID of the decoder. If so, you can skip this step. Otherwise, use the [**MFTEnum**](/windows/win32/mfapi/nf-mfapi-mftenum?branch=master) function to look up the CLSID in the registry. This function takes several search criteria as input. To find a decoder, you need to specify only the input format (major type and subtype). You can get these from the stream descriptor, as shown in the following code.
 
 
 ```C++
@@ -159,11 +164,11 @@ HRESULT FindDecoderForStream(
 
 For more information about stream descriptors, see [Presentation Descriptors](presentation-descriptors.md).
 
-The [**MFTEnum**](mftenum.md) function returns a pointer to an array of CLSIDs. The order of the returned array is arbitrary. In this example, the function uses the first CLSID in the array. You can get more information about a decoder, including the friendly name of the decoder, by calling [**MFTGetInfo**](mftgetinfo.md). Also, note that **MFTEnum** can succeed but return an empty array, so it is important to check the array size, which is returned in the last parameter.
+The [**MFTEnum**](/windows/win32/mfapi/nf-mfapi-mftenum?branch=master) function returns a pointer to an array of CLSIDs. The order of the returned array is arbitrary. In this example, the function uses the first CLSID in the array. You can get more information about a decoder, including the friendly name of the decoder, by calling [**MFTGetInfo**](/windows/win32/mfapi/nf-mfapi-mftgetinfo?branch=master). Also, note that **MFTEnum** can succeed but return an empty array, so it is important to check the array size, which is returned in the last parameter.
 
 ## Add the Decoder Node to the Topology
 
-After you have the CLSID for the decoder, create a new transform node by calling [**MFCreateTopology**](mfcreatetopology.md). Specify the CLSID by setting the [**MF\_TOPONODE\_TRANSFORM\_OBJECTID**](mf-toponode-transform-objectid-attribute.md) attribute on the node. For an example of how to create a transform node, see [Creating Transform Nodes](creating-transform-nodes.md). Then connect the source node to the decoder node, and the decoder node to the output node, by calling [**IMFTopologyNode::ConnectOutput**](imftopologynode-connectoutput.md).
+After you have the CLSID for the decoder, create a new transform node by calling [**MFCreateTopology**](/windows/win32/mfidl/nf-mfidl-mfcreatetopology?branch=master). Specify the CLSID by setting the [**MF\_TOPONODE\_TRANSFORM\_OBJECTID**](mf-toponode-transform-objectid-attribute.md) attribute on the node. For an example of how to create a transform node, see [Creating Transform Nodes](creating-transform-nodes.md). Then connect the source node to the decoder node, and the decoder node to the output node, by calling [**IMFTopologyNode::ConnectOutput**](/windows/win32/mfidl/nf-mfidl-imftopologynode-connectoutput?branch=master).
 
 The following example shows how to create the nodes and connect them. The example is very similar to the example function named `AddBranchToPartialTopology` that is shown in the topic [Creating Playback Topologies](creating-playback-topologies.md). The only difference is that this example adds the extra node for the decoder.
 
@@ -281,7 +286,7 @@ The next step in adding an audio or video decoder to a topology applies only to 
 
 As a precondition for this step, all output nodes in the topology must be bound to media sinks. For more information, see [Binding Output Nodes to Media Sinks](binding-output-nodes-to-media-sinks.md).
 
-First, find the object in the topology that hosts the Direct3D device manager. To do so, get the object pointer from each node and query the object for the [**IDirect3DDeviceManager9**](idirect3ddevicemanager9.md) service. Typically the enhanced video renderer (EVR) serves this role. The following code shows a function that finds the device manager:
+First, find the object in the topology that hosts the Direct3D device manager. To do so, get the object pointer from each node and query the object for the [**IDirect3DDeviceManager9**](/windows/win32/dxva2api/nn-dxva2api-idirect3ddevicemanager9?branch=master) service. Typically the enhanced video renderer (EVR) serves this role. The following code shows a function that finds the device manager:
 
 
 ```C++
@@ -362,7 +367,7 @@ HRESULT FindDeviceManager(
 
 
 
-Next, find the transform node that is directly upstream from the node that contains the Direct3D device manager. Get the [**IMFTransform**](imftransform.md) pointer from this transform node. The **IMFTransform** pointer represents a Media Foundation transform (MFT). Depending on how the node was created, you might need to create the MFT by calling **CoCreateInstance**, or activate the MFT from an activation object. The following code handles all of the various cases:
+Next, find the transform node that is directly upstream from the node that contains the Direct3D device manager. Get the [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) pointer from this transform node. The **IMFTransform** pointer represents a Media Foundation transform (MFT). Depending on how the node was created, you might need to create the MFT by calling **CoCreateInstance**, or activate the MFT from an activation object. The following code handles all of the various cases:
 
 
 ```C++
@@ -513,7 +518,7 @@ BOOL IsTransformD3DAware(IMFTransform *pMFT)
 
 
 
-To enable video acceleration on this MFT, call [**IMFTransform::ProcessMessage**](imftransform-processmessage.md) with the MFT\_MESSAGE\_SET\_D3D\_MANAGER message. Also set the [**MF\_TOPONODE\_D3DAWARE**](mf-toponode-d3daware-attribute.md) attribute to **TRUE** on the transform node. This attribute informs the pipeline that video acceleration has been enabled. The following code performs these steps:
+To enable video acceleration on this MFT, call [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) with the MFT\_MESSAGE\_SET\_D3D\_MANAGER message. Also set the [**MF\_TOPONODE\_D3DAWARE**](mf-toponode-d3daware-attribute.md) attribute to **TRUE** on the transform node. This attribute informs the pipeline that video acceleration has been enabled. The following code performs these steps:
 
 
 ```C++

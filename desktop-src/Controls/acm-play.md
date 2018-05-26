@@ -1,8 +1,9 @@
 ---
 title: ACM\_PLAY message
 description: Plays an AVI clip in an animation control. The control plays the clip in the background while the thread continues executing. You can send this message explicitly or by using the Animate\_Play macro.
-ms.assetid: '738b7305-bb77-441d-a198-17daf3b76039'
-keywords: ["ACM_PLAY message Windows Controls"]
+ms.assetid: 738b7305-bb77-441d-a198-17daf3b76039
+keywords:
+- ACM_PLAY message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACM\_PLAY message
 
-Plays an AVI clip in an animation control. The control plays the clip in the background while the thread continues executing. You can send this message explicitly or by using the [**Animate\_Play**](animate-play.md) macro.
+Plays an AVI clip in an animation control. The control plays the clip in the background while the thread continues executing. You can send this message explicitly or by using the [**Animate\_Play**](/windows/win32/Commctrl/nf-commctrl-animate_play?branch=master) macro.
 
 ## Parameters
 
@@ -43,7 +49,7 @@ Returns nonzero if successful, or zero otherwise.
 
 ## Remarks
 
-You can use [**Animate\_Seek**](animate-seek.md) to direct the animation control to display a particular frame of the AVI clip.
+You can use [**Animate\_Seek**](/windows/win32/Commctrl/nf-commctrl-animate_seek?branch=master) to direct the animation control to display a particular frame of the AVI clip.
 
 ## Requirements
 
@@ -51,15 +57,15 @@ You can use [**Animate\_Seek**](animate-seek.md) to direct the animation control
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

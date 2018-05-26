@@ -1,7 +1,12 @@
 ---
-Description: 'The SFPCatalog table contains the catalogs used by Windows Me.'
-ms.assetid: '70c8b64a-cf15-411c-8388-4a7e3051f45c'
+Description: The SFPCatalog table contains the catalogs used by Windows Me.
+ms.assetid: 70c8b64a-cf15-411c-8388-4a7e3051f45c
 title: SFPCatalog Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFPCatalog Table

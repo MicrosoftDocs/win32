@@ -1,21 +1,27 @@
 ---
 title: put command
 description: The put command defines the area of the source image and destination window used for display. Digital-video and video-overlay devices recognize this command.
-ms.assetid: '1214fe5a-5a6a-4c6c-9b77-94eeb73f60da'
-keywords: ["put command Windows Multimedia"]
+ms.assetid: 1214fe5a-5a6a-4c6c-9b77-94eeb73f60da
+keywords:
+- put command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - put
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # put command
 
 The put command defines the area of the source image and destination window used for display. Digital-video and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ Flag for defining the area. The following table lists device types that recogniz
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszRegions** parameter and their meanings.
 
@@ -75,7 +81,7 @@ The following table lists the flags that can be specified in the **lpszRegions**
 
 
 
- 
+ 
 
 When a flag includes a rectangle, the rectangle coordinates are relative to the window origin or the image origin, as appropriate, and are specified as **X1 Y1 X2 Y2**. The coordinates **X1Y1** specify the upper left corner, and the coordinates **X2Y2** specify the width and height of the rectangle.
 
@@ -121,8 +127,8 @@ The regions in this example are defined as follows:
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -142,9 +148,9 @@ The regions in this example are defined as follows:
 [set](set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

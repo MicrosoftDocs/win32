@@ -1,7 +1,12 @@
 ---
 title: Indexing Multiple Web Servers
 description: Indexing Multiple Web Servers
-ms.assetid: 'f3dbe0a3-c5c3-4e90-9b56-a8a51a610af8'
+ms.assetid: f3dbe0a3-c5c3-4e90-9b56-a8a51a610af8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing Multiple Web Servers

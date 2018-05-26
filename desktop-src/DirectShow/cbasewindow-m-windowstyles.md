@@ -1,7 +1,12 @@
 ---
-Description: 'Window styles for the window.'
-ms.assetid: '1f8f94aa-94de-4dc9-ac1b-b34442243c3e'
-title: 'CBaseWindow::m\_WindowStyles member'
+Description: Window styles for the window.
+ms.assetid: 1f8f94aa-94de-4dc9-ac1b-b34442243c3e
+title: CBaseWindowm\_WindowStyles member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_WindowStyles member
@@ -35,9 +40,9 @@ DWORD m_WindowStyles;
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

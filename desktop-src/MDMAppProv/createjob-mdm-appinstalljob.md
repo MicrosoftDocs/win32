@@ -1,8 +1,11 @@
 ---
 title: CreateJob method of the MDM\_AppInstallJob class
 description: Creates a job to manage the installation, upgrade, or uninstallation of an application on a device.
-ms.assetid: '5ee99bd5-893e-4df9-9619-0dbd71eb888d'
-keywords: ["CreateJob method MDM App Management", "CreateJob method MDM App Management , MDM_AppInstallJob class", "MDM_AppInstallJob class MDM App Management , CreateJob method"]
+ms.assetid: 5ee99bd5-893e-4df9-9619-0dbd71eb888d
+keywords:
+- CreateJob method MDM App Management
+- CreateJob method MDM App Management , MDM_AppInstallJob class
+- MDM_AppInstallJob class MDM App Management , CreateJob method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - MDMAppProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateJob method of the MDM\_AppInstallJob class
@@ -24,7 +32,7 @@ Creates a job to manage the installation, upgrade, or uninstallation of an appli
 
 ```mof
 uint32 CreateJob(
-  [in] string JobData
+  [in] string JobData
 );
 ```
 
@@ -47,7 +55,7 @@ The data for the job.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                 |
 | Namespace<br/>                | Root\\CIMv2\\mdm<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>MDMAppProv.Mof</dt> </dl> |
@@ -62,9 +70,9 @@ The data for the job.
 [**MDM\_AppInstallJob**](mdm-appinstalljob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

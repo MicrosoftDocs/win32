@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the top edge of the destination rectangle, in pixels.'
-ms.assetid: '66147460-b8c2-4d80-9a87-a2eeeea66cfa'
-title: 'MFPKEY\_RESIZE\_DST\_TOP Property'
+---
+Description: Specifies the top edge of the destination rectangle, in pixels.
+ms.assetid: 66147460-b8c2-4d80-9a87-a2eeeea66cfa
+title: MFPKEY\_RESIZE\_DST\_TOP Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_DST\_TOP Property

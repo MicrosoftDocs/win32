@@ -1,7 +1,12 @@
 ---
-Description: 'Lists CryptoAPI tools for signing files and verifying file signatures.'
-ms.assetid: 'f413ba32-4a5c-44dd-b526-2c583d00cfdf'
+Description: Lists CryptoAPI tools for signing files and verifying file signatures.
+ms.assetid: f413ba32-4a5c-44dd-b526-2c583d00cfdf
 title: Signing Files and Checking Signatures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signing Files and Checking Signatures

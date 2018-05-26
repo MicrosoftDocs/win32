@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'e61640f7-d206-494a-a3af-f9fa32c87816'
+ms.assetid: e61640f7-d206-494a-a3af-f9fa32c87816
 title: Configuration Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuration Reference

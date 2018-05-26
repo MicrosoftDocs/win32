@@ -4,17 +4,21 @@ description: Gets the calculated size of the encrypted content.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '1D9F641A-394E-435B-A486-B6E581B011AC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 1D9F641A-394E-435B-A486-B6E581B011AC
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CustomProtectedOutputStream.getEncryptedContentLength method"]
+keywords:
+- CustomProtectedOutputStream.getEncryptedContentLength method
 topic_type:
 - apiref
 api_name:
 - CustomProtectedOutputStream.getEncryptedContentLength method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedOutputStream.getEncryptedContentLength method
@@ -39,7 +43,7 @@ static public long getEncryptedContentLength(long decryptedContentLength,
 
 
 
- 
+ 
 
 ## Returns
 
@@ -59,11 +63,11 @@ CustomProtectedOutputStream.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the cursor moves over the tablet digitizer.'
-ms.assetid: 'cd2863af-59a9-4dd0-a679-84861a70ef53'
-title: 'ITabletEventSink::CursorMove method'
+Description: Occurs when the cursor moves over the tablet digitizer.
+ms.assetid: cd2863af-59a9-4dd0-a679-84861a70ef53
+title: ITabletEventSinkCursorMove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletEventSink::CursorMove method
@@ -13,11 +18,11 @@ Occurs when the cursor moves over the tablet digitizer.
 
 ```C++
 HRESULT CursorMove(
-   TABLET_CONTEXT_ID tcid,
-   CURSOR_ID         cid,
-   HWND              hWnd,
-   LONG              xPos,
-   LONG              yPos
+   TABLET_CONTEXT_ID tcid,
+   CURSOR_ID         cid,
+   HWND              hWnd,
+   LONG              xPos,
+   LONG              yPos
 );
 ```
 
@@ -75,7 +80,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -83,7 +88,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -96,9 +101,9 @@ This method can return one of these values.
 [**ITabletEventSink Interface**](itableteventsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,17 +1,25 @@
 ---
 title: NetShell Initialization Procedure
 description: NetShell loads all previously installed DLLs upon startup. New DLLs can be installed using the add helper NetShell command.
-ms.assetid: '1e9f8d74-3ef3-4ebd-aa9e-8e4131956084'
-keywords: ["helper NetSh , implementing, initialization", "initialization NetSh", "NetShell NetSh , tasks, initializing"]
+ms.assetid: 1e9f8d74-3ef3-4ebd-aa9e-8e4131956084
+keywords:
+- helper NetSh , implementing, initialization
+- initialization NetSh
+- NetShell NetSh , tasks, initializing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetShell Initialization Procedure
 
 NetShell loads all previously installed DLLs upon startup. New DLLs can be installed using the **add helper** NetShell command.
 
-NetShell calls a helper's exposed [**InitHelperDll**](inithelperdll.md) function upon loading the helper's DLL. Within the [**InitHelperDll**](inithelperdll.md) routine, helpers must call the [**RegisterHelper**](registerhelper.md) function, but must not call the [**RegisterContext**](registercontext.md) function.
+NetShell calls a helper's exposed [**InitHelperDll**](/windows/previous-versions/Netsh/nc-netsh-ns_dll_init_fn?branch=master) function upon loading the helper's DLL. Within the [**InitHelperDll**](/windows/previous-versions/Netsh/nc-netsh-ns_dll_init_fn?branch=master) routine, helpers must call the [**RegisterHelper**](/windows/previous-versions/Netsh/nf-netsh-registerhelper?branch=master) function, but must not call the [**RegisterContext**](/windows/previous-versions/Netsh/nf-netsh-registercontext?branch=master) function.
 
-The following is an example of an [**InitHelperDll**](inithelperdll.md) function for a "Sample" context:
+The following is an example of an [**InitHelperDll**](/windows/previous-versions/Netsh/nc-netsh-ns_dll_init_fn?branch=master) function for a "Sample" context:
 
 ``` syntax
 DWORD WINAPI InitHelperDll(
@@ -44,11 +52,11 @@ DWORD WINAPI InitHelperDll(
 }
 ```
 
-After all helper DLLs are initialized, NetShell starts helpers by calling [**NS\_HELPER\_START\_FN**](ns-helper-start-fn.md) (the Start function) registered in the [**NS\_CONTEXT\_ATTRIBUTES**](ns-context-attributes.md) structure passed in the *pChildAttributes* parameter of the [**RegisterHelper**](registerhelper.md) function call.
+After all helper DLLs are initialized, NetShell starts helpers by calling [**NS\_HELPER\_START\_FN**](/windows/previous-versions/Netsh/nc-netsh-ns_helper_start_fn?branch=master) (the Start function) registered in the [**NS\_CONTEXT\_ATTRIBUTES**](/windows/previous-versions/Netsh/ns-netsh-_ns_context_attributes?branch=master) structure passed in the *pChildAttributes* parameter of the [**RegisterHelper**](/windows/previous-versions/Netsh/nf-netsh-registerhelper?branch=master) function call.
 
-Once all helper DLLs are initialized, NetShell starts helpers by calling their exposed [**NS\_HELPER\_START\_FN**](ns-helper-start-fn.md) (**start** function) function call, registered in the [**NS\_CONTEXT\_ATTRIBUTES**](ns-context-attributes.md) structure passed in the *pChildAttributes* parameter of the [**RegisterHelper**](registerhelper.md) function call. NetShell guarantees that a helper's **start** function will only be called after its parent helper has been started.
+Once all helper DLLs are initialized, NetShell starts helpers by calling their exposed [**NS\_HELPER\_START\_FN**](/windows/previous-versions/Netsh/nc-netsh-ns_helper_start_fn?branch=master) (**start** function) function call, registered in the [**NS\_CONTEXT\_ATTRIBUTES**](/windows/previous-versions/Netsh/ns-netsh-_ns_context_attributes?branch=master) structure passed in the *pChildAttributes* parameter of the [**RegisterHelper**](/windows/previous-versions/Netsh/nf-netsh-registerhelper?branch=master) function call. NetShell guarantees that a helper's **start** function will only be called after its parent helper has been started.
 
-In its **start** function routine, a helper should register each of its top-level contexts using the [**RegisterContext**](registercontext.md) function supported by its parent helper.
+In its **start** function routine, a helper should register each of its top-level contexts using the [**RegisterContext**](/windows/previous-versions/Netsh/nf-netsh-registercontext?branch=master) function supported by its parent helper.
 
 The following is a sample **start** function for a top-level helper for a fictional "Sample" context.
 
@@ -99,7 +107,7 @@ The differentiating factors between a DLL, helper, and context are the following
 
  
 
-When the [**RegisterContext**](registercontext.md) function is called, NetShell stores a copy of the top commands and command groups passed therein. If commands can change dynamically, the helper should store the **RegisterContext** pointer for later use, and may pass in zero top commands and zero groups in its exported [**NS\_HELPER\_START\_FN**](ns-helper-start-fn.md) function (**start** function). If the commands may have changed since the previous **RegisterContext** call, the helper, in its exposed [**NS\_CONTEXT\_CONNECT\_FN**](ns-context-connect-fn.md) (Connect function) routine, should call the **RegisterContext** function again with a current set of commands.
+When the [**RegisterContext**](/windows/previous-versions/Netsh/nf-netsh-registercontext?branch=master) function is called, NetShell stores a copy of the top commands and command groups passed therein. If commands can change dynamically, the helper should store the **RegisterContext** pointer for later use, and may pass in zero top commands and zero groups in its exported [**NS\_HELPER\_START\_FN**](/windows/previous-versions/Netsh/nc-netsh-ns_helper_start_fn?branch=master) function (**start** function). If the commands may have changed since the previous **RegisterContext** call, the helper, in its exposed [**NS\_CONTEXT\_CONNECT\_FN**](/windows/previous-versions/Netsh/nc-netsh-ns_context_connect_fn?branch=master) (Connect function) routine, should call the **RegisterContext** function again with a current set of commands.
 
  
 

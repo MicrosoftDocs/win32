@@ -1,12 +1,18 @@
 ---
 title: Texture3D Sample methods
 description: Samples a texture.
-ms.assetid: '769AE904-5F0C-4427-862E-2BC5BC995546'
-keywords: ["Sample methods HLSL"]
+ms.assetid: 769AE904-5F0C-4427-862E-2BC5BC995546
+keywords:
+- Sample methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture3D::Sample methods
@@ -35,9 +41,9 @@ Samples a texture.
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

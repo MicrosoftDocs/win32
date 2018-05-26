@@ -3,8 +3,11 @@ title: GetPolicyInformationDWord method of the SoftwareLicensingProduct class
 description: Gets license policy information of type DWORD.
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ce6e986d-0ab1-4517-91c0-3fd7b6c83c62'
-keywords: ["GetPolicyInformationDWord method Windows Management Instrumentation", "GetPolicyInformationDWord method Windows Management Instrumentation , SoftwareLicensingProduct class", "SoftwareLicensingProduct class Windows Management Instrumentation , GetPolicyInformationDWord method"]
+ms.assetid: ce6e986d-0ab1-4517-91c0-3fd7b6c83c62
+keywords:
+- GetPolicyInformationDWord method Windows Management Instrumentation
+- GetPolicyInformationDWord method Windows Management Instrumentation , SoftwareLicensingProduct class
+- SoftwareLicensingProduct class Windows Management Instrumentation , GetPolicyInformationDWord method
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - SppWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetPolicyInformationDWord method of the SoftwareLicensingProduct class
@@ -24,8 +32,8 @@ Gets license policy information of type DWORD.
 
 ```mof
 uint32 GetPolicyInformationDWord(
-  [in]  string PolicyName,
-  [out] uint32 PolicyValue
+  [in]  string PolicyName,
+  [out] uint32 PolicyValue
 );
 ```
 
@@ -55,8 +63,8 @@ Specifies the policy value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows 7<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>SppWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SppWmi.dll</dt> </dl> |
@@ -70,9 +78,9 @@ Specifies the policy value.
 [**SoftwareLicensingProduct**](softwarelicensingproduct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

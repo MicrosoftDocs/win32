@@ -1,14 +1,20 @@
 ---
 title: MediaContentTypes Attribute
 description: The MediaContentTypes attribute specifies the type of content in the item.
-ms.assetid: 'b91bab65-d6d2-4e05-9338-c24f28b7c71e'
-keywords: ["MediaContentTypes Attribute Windows Media Player"]
+ms.assetid: b91bab65-d6d2-4e05-9338-c24f28b7c71e
+keywords:
+- MediaContentTypes Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - MediaContentTypes
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaContentTypes Attribute
@@ -36,7 +42,7 @@ This attribute can be one of the following values:
 
 
 
- 
+ 
 
 To determine whether you can change the value of this attribute, use the [Media.isReadOnlyItem](media-isreadonlyitem.md) method.
 
@@ -57,9 +63,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

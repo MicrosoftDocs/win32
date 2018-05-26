@@ -2,13 +2,19 @@
 title: import attribute
 description: The import directive specifies another IDL, ODL, or header file containing definitions you wish to reference from your main IDL file.
 ms.assetid: b52fb2c7-ce60-474f-8833-7a821844f747
-keywords: ["import attribute MIDL"]
+keywords:
+- import attribute MIDL
 topic_type:
 - apiref
 api_name:
 - import
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # import attribute

@@ -1,16 +1,21 @@
 ---
-Description: 'The example in this topic demonstrates how to create a child process using the CreateProcess function from a console process.'
-ms.assetid: 'a4e37069-2b3a-4b6d-9cfd-eb1700ab3bc6'
+Description: The example in this topic demonstrates how to create a child process using the CreateProcess function from a console process.
+ms.assetid: a4e37069-2b3a-4b6d-9cfd-eb1700ab3bc6
 title: Creating a Child Process with Redirected Input and Output
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Child Process with Redirected Input and Output
 
-The example in this topic demonstrates how to create a child process using the [**CreateProcess**](createprocess.md) function from a console process. It also demonstrates a technique for using anonymous pipes to redirect the child process's standard input and output handles. Note that named pipes can also be used to redirect process I/O.
+The example in this topic demonstrates how to create a child process using the [**CreateProcess**](/windows/win32/WinBase/nf-processthreadsapi-createprocessa?branch=master) function from a console process. It also demonstrates a technique for using anonymous pipes to redirect the child process's standard input and output handles. Note that named pipes can also be used to redirect process I/O.
 
-The [**CreatePipe**](https://msdn.microsoft.com/library/windows/desktop/aa365152) function uses the [**SECURITY\_ATTRIBUTES**](https://msdn.microsoft.com/library/windows/desktop/aa379560) structure to create inheritable handles to the read and write ends of two pipes. The read end of one pipe serves as standard input for the child process, and the write end of the other pipe is the standard output for the child process. These pipe handles are specified in the [**STARTUPINFO**](startupinfo-str.md) structure, which makes them the standard handles inherited by the child process.
+The [**CreatePipe**](https://msdn.microsoft.com/library/windows/desktop/aa365152) function uses the [**SECURITY\_ATTRIBUTES**](https://msdn.microsoft.com/library/windows/desktop/aa379560) structure to create inheritable handles to the read and write ends of two pipes. The read end of one pipe serves as standard input for the child process, and the write end of the other pipe is the standard output for the child process. These pipe handles are specified in the [**STARTUPINFO**](/windows/win32/WinBase/ns-processthreadsapi-_startupinfoa?branch=master) structure, which makes them the standard handles inherited by the child process.
 
-The parent process uses the opposite ends of these two pipes to write to the child process's input and read from the child process's output. As specified in the [**STARTUPINFO**](startupinfo-str.md) structure, these handles are also inheritable. However, these handles must not be inherited. Therefore, before creating the child process, the parent process uses the [**SetHandleInformation**](https://msdn.microsoft.com/library/windows/desktop/ms724935) function to ensure that the write handle for the child process's standard input and the read handle for the child process's standard input cannot be inherited. For more information, see [Pipes](https://msdn.microsoft.com/library/windows/desktop/aa365780).
+The parent process uses the opposite ends of these two pipes to write to the child process's input and read from the child process's output. As specified in the [**STARTUPINFO**](/windows/win32/WinBase/ns-processthreadsapi-_startupinfoa?branch=master) structure, these handles are also inheritable. However, these handles must not be inherited. Therefore, before creating the child process, the parent process uses the [**SetHandleInformation**](https://msdn.microsoft.com/library/windows/desktop/ms724935) function to ensure that the write handle for the child process's standard input and the read handle for the child process's standard input cannot be inherited. For more information, see [Pipes](https://msdn.microsoft.com/library/windows/desktop/aa365780).
 
 The following is the code for the parent process. It takes a single command-line argument: the name of a text file.
 

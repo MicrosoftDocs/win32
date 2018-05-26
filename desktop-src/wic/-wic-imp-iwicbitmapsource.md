@@ -1,14 +1,19 @@
 ---
 Description: Implementing IWICBitmapSource
-ms.assetid: 'd092e9e5-c041-42f5-84c8-0af52bb5c810'
+ms.assetid: d092e9e5-c041-42f5-84c8-0af52bb5c810
 title: Implementing IWICBitmapSource
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing IWICBitmapSource
 
 ## IWICBitmapSource
 
-[**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) is important for working with images from an application perspective. It represents the highest level abstraction for an image source, and all Windows Imaging Component (WIC) interfaces that represent an image, including [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md), [**IWICBitmap**](-wic-codec-iwicbitmap.md), and all the transform interfaces ([**IWICBitmapScaler**](-wic-codec-iwicbitmapscaler.md), [**IWICBitmapClipper**](-wic-codec-iwicbitmapclipper.md), [**IWICBitmapFlipRotator**](-wic-codec-iwicbitmapfliprotator.md), and [**IWICFormatConverter**](-wic-codec-iwicformatconverter.md)) are derived from it. At any specific time, an **IWICBitmapSource** object may or may not be backed by an actual bitmap in memory. This enables very efficient processing by an application, because an image can be dealt with as an abstraction. Transform operations can be chained in a transform pipeline without consuming memory resources until the application is ready to render or print the image, at which time it invokes the [**CopyPixels**](-wic-codec-iwicbitmapsource-copypixels.md) method on the final transform to get a bitmap in memory of the image with the selected transforms applied.
+[**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) is important for working with images from an application perspective. It represents the highest level abstraction for an image source, and all Windows Imaging Component (WIC) interfaces that represent an image, including [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master), [**IWICBitmap**](/windows/win32/Wincodec/nn-wincodec-iwicbitmap?branch=master), and all the transform interfaces ([**IWICBitmapScaler**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapscaler?branch=master), [**IWICBitmapClipper**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapclipper?branch=master), [**IWICBitmapFlipRotator**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapfliprotator?branch=master), and [**IWICFormatConverter**](/windows/win32/Wincodec/nn-wincodec-iwicformatconverter?branch=master)) are derived from it. At any specific time, an **IWICBitmapSource** object may or may not be backed by an actual bitmap in memory. This enables very efficient processing by an application, because an image can be dealt with as an abstraction. Transform operations can be chained in a transform pipeline without consuming memory resources until the application is ready to render or print the image, at which time it invokes the [**CopyPixels**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsource-copypixels?branch=master) method on the final transform to get a bitmap in memory of the image with the selected transforms applied.
 
 ``` syntax
 interface IWICBitmapSource : IUnknown
@@ -26,7 +31,7 @@ interface IWICBitmapSource : IUnknown
 }
 ```
 
-From a codec perspective, the [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) methods are implemented on the frame decoder object. These methods are described in Implementing IWICBitmapSource, along with the other methods on [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md), which is derived from **IWICBitmapSource**.
+From a codec perspective, the [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) methods are implemented on the frame decoder object. These methods are described in Implementing IWICBitmapSource, along with the other methods on [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master), which is derived from **IWICBitmapSource**.
 
 ## Related topics
 
@@ -35,13 +40,13 @@ From a codec perspective, the [**IWICBitmapSource**](-wic-codec-iwicbitmapsource
 **Reference**
 </dt> <dt>
 
-[**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md)
+[**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master)
 </dt> <dt>
 
-[**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md)
+[**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master)
 </dt> <dt>
 
-[**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md)
+[**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master)
 </dt> <dt>
 
 **Conceptual**

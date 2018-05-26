@@ -1,13 +1,16 @@
 ---
-Description: 'Represents a single item in an SWbemRefresher object.'
+Description: Represents a single item in an SWbemRefresher object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6a12c8eb-3ef9-4292-810c-6954294fc8c7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6a12c8eb-3ef9-4292-810c-6954294fc8c7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemRefreshableItem object
@@ -33,7 +36,7 @@ The **SWbemRefreshableItem** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -51,7 +54,7 @@ The **SWbemRefreshableItem** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -113,8 +116,8 @@ MsgBox "Number of items in Refresher after DeleteAll " _
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -130,9 +133,9 @@ MsgBox "Number of items in Refresher after DeleteAll " _
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: ErrorItem Object
 description: The ErrorItem object provides a way to access error information.
-ms.assetid: '14bc9c12-98c6-4b72-9ae5-d6afeb1303f9'
-keywords: ["ErrorItem Object Windows Media Player"]
+ms.assetid: 14bc9c12-98c6-4b72-9ae5-d6afeb1303f9
+keywords:
+- ErrorItem Object Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ErrorItem Object
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorItem Object

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TraceMessageVa function sends an informational message with variable arguments to an event tracing session.'
-ms.assetid: '2cfb7226-fd29-432e-abfd-bd10c6344a67'
+---
+Description: The TraceMessageVa function sends an informational message with variable arguments to an event tracing session.
+ms.assetid: 2cfb7226-fd29-432e-abfd-bd10c6344a67
 title: TraceMessageVa function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TraceMessageVa function
@@ -122,7 +127,7 @@ If the function fails, the return value is one of the [system error codes](base.
 
 Providers call this function.
 
-Using the [**TraceEvent**](traceevent.md) function is the preferred way to log an event. On Windows Vista, you should use the [**EventWrite**](eventwrite-func.md) function to log events.
+Using the [**TraceEvent**](traceevent.md) function is the preferred way to log an event. On Windows Vista, you should use the [**EventWrite**](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master) function to log events.
 
 The trace events are written in the order in which they occur.
 

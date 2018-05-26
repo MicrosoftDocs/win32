@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when a new stylus is added to the system.'
-ms.assetid: 'bd0f0d2a-c0d9-48fc-bc90-f63f038639f3'
-title: 'ITabletEventSink::CursorNew method'
+Description: Occurs when a new stylus is added to the system.
+ms.assetid: bd0f0d2a-c0d9-48fc-bc90-f63f038639f3
+title: ITabletEventSinkCursorNew method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletEventSink::CursorNew method
@@ -13,8 +18,8 @@ Occurs when a new stylus is added to the system.
 
 ```C++
 HRESULT CursorNew(
-  [in] TABLET_CONTEXT_ID tcid,
-       t                 cid
+  [in] TABLET_CONTEXT_ID tcid,
+       t                 cid
 );
 ```
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +64,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -72,9 +77,9 @@ This method can return one of these values.
 [**ITabletEventSink Interface**](itableteventsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

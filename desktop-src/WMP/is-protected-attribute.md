@@ -1,14 +1,20 @@
 ---
 title: Is\_Protected Attribute
 description: The Is\_Protected attribute indicates whether the content is protected using digital rights management (DRM).
-ms.assetid: '049d4116-7ba6-49f5-ad54-82a98b79d6bc'
-keywords: ["Is_Protected Attribute Windows Media Player"]
+ms.assetid: 049d4116-7ba6-49f5-ad54-82a98b79d6bc
+keywords:
+- Is_Protected Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Is_Protected
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Is\_Protected Attribute
@@ -48,9 +54,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

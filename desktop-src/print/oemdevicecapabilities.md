@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMDeviceCapabilities function
-ms.assetid: 'fb15fd82-6214-40c0-9982-faee6c6b35b3'
+ms.assetid: fb15fd82-6214-40c0-9982-faee6c6b35b3
 title: OEMDeviceCapabilities function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMDeviceCapabilities function

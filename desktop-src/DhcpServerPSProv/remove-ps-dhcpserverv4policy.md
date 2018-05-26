@@ -4,13 +4,16 @@ description: Deletes the specified IPv4 policy(ies) either at the server level o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd072490e-878a-446a-8e22-ecc4722f6fdd'
-ms.prod: 'windows-server-dev'
+ms.assetid: d072490e-878a-446a-8e22-ecc4722f6fdd
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DhcpServerv4Policy class", "PS_DhcpServerv4Policy class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DhcpServerv4Policy class
+- PS_DhcpServerv4Policy class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DhcpServerv4Policy class
@@ -30,11 +36,11 @@ Deletes the specified IPv4 policy(ies) either at the server level or the specifi
 
 ```mof
 uint32 Remove(
-  [in]  string             ComputerName,
-  [in]  boolean            PassThru,
-  [in]  string             Name[],
-  [in]  string             ScopeId,
-  [out] DhcpServerv4Policy cmdletOutput[]
+  [in]  string             ComputerName,
+  [in]  boolean            PassThru,
+  [in]  string             Name[],
+  [in]  string             ScopeId,
+  [out] DhcpServerv4Policy cmdletOutput[]
 );
 ```
 
@@ -86,7 +92,7 @@ An embedded instance of the [**DhcpServerv4Policy**](dhcpserverv4policy.md) clas
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -100,9 +106,9 @@ An embedded instance of the [**DhcpServerv4Policy**](dhcpserverv4policy.md) clas
 [**PS\_DhcpServerv4Policy**](ps-dhcpserverv4policy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

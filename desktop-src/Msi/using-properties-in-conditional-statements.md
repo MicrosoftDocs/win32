@@ -1,7 +1,12 @@
 ---
-Description: 'The logical value of a property that has been set is True.'
-ms.assetid: 'aee818aa-912d-4e59-b061-61cd35993593'
+Description: The logical value of a property that has been set is True.
+ms.assetid: aee818aa-912d-4e59-b061-61cd35993593
 title: Using Properties in Conditional Statements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Properties in Conditional Statements

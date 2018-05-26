@@ -1,14 +1,20 @@
 ---
 title: Warn element
 description: If this file is running as a process, AXE warns the users but the assessment can still run.
-ms.assetid: '57AF54C8-C89D-406E-B1E0-F1C3688B523C'
-keywords: ["Warn element Access Execution Engine"]
+ms.assetid: 57AF54C8-C89D-406E-B1E0-F1C3688B523C
+keywords:
+- Warn element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Warn
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Warn element

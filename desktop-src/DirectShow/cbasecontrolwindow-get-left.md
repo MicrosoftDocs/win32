@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_Left method retrieves the current left window coordinate.'
-ms.assetid: '9ee71bd3-1ff5-4574-8dcd-5ba6490d9785'
-title: 'CBaseControlWindow.get\_Left method'
+Description: The get\_Left method retrieves the current left window coordinate.
+ms.assetid: 9ee71bd3-1ff5-4574-8dcd-5ba6490d9785
+title: CBaseControlWindow.get\_Left method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.get\_Left method
@@ -13,7 +18,7 @@ The `get_Left` method retrieves the current left window coordinate.
 
 ```C++
 HRESULT get_Left(
-   long *pLeft
+   long *pLeft
 );
 ```
 
@@ -58,9 +63,9 @@ Setting the left or top coordinates moves the window left and up, respectively; 
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: EN\_LINK notification code
 description: A rich edit control sends EN\_LINK notification codes when it receives various messages, for example, when the user clicks the mouse or when the mouse pointer is over text that has the CFE\_LINK effect.
-ms.assetid: '67f02908-957e-4d91-8a70-70399ce9cf2e'
-keywords: ["EN_LINK notification code Windows Controls"]
+ms.assetid: 67f02908-957e-4d91-8a70-70399ce9cf2e
+keywords:
+- EN_LINK notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_LINK notification code
 
-A rich edit control sends EN\_LINK notification codes when it receives various messages, for example, when the user clicks the mouse or when the mouse pointer is over text that has the **CFE\_LINK** effect. A windowless rich edit control sends this notification by using the [**ITextHost::TxNotify**](itexthost-txnotify.md) method. The parent window of the control receives this notification code through a [**WM\_NOTIFY**](wm-notify.md) message.
+A rich edit control sends EN\_LINK notification codes when it receives various messages, for example, when the user clicks the mouse or when the mouse pointer is over text that has the **CFE\_LINK** effect. A windowless rich edit control sends this notification by using the [**ITextHost::TxNotify**](/windows/win32/Textserv/nf-textserv-itexthost-txnotify?branch=master) method. The parent window of the control receives this notification code through a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++
@@ -40,7 +46,7 @@ The window ID retrieved by calling the [**GetWindowLong**](https://msdn.microsof
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**ENLINK**](enlink.md) structure. The structure contains an [**NMHDR**](nmhdr.md) structure, information about the notification code, and a [**CHARRANGE**](charrange.md) structure that indicates the range of characters that have the **CFE\_LINK** effect.
+Pointer to an [**ENLINK**](/windows/win32/Richedit/ns-richedit-_enlink?branch=master) structure. The structure contains an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure, information about the notification code, and a [**CHARRANGE**](/windows/win32/Richedit/ns-richedit-_charrange?branch=master) structure that indicates the range of characters that have the **CFE\_LINK** effect.
 
 </dd> </dl>
 
@@ -50,7 +56,7 @@ Return zero to allow the control to proceed with its normal handling of the mess
 
 Return a nonzero value to prevent the control from handling the message.
 
-**Windows 8**: Return **EN\_LINK\_DO\_DEFAULT** to direct the rich edit control to perform the default action.
+**Windows 8**: Return **EN\_LINK\_DO\_DEFAULT** to direct the rich edit control to perform the default action.
 
 ## Remarks
 
@@ -79,8 +85,8 @@ If you send the [**EM\_AUTOURLDETECT**](em-autourldetect.md) message to enable a
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -89,24 +95,24 @@ If you send the [**EM\_AUTOURLDETECT**](em-autourldetect.md) message to enable a
 
 <dl> <dt>
 
-[**CHARRANGE**](charrange.md)
+[**CHARRANGE**](/windows/win32/Richedit/ns-richedit-_charrange?branch=master)
 </dt> <dt>
 
 [**EM\_AUTOURLDETECT**](em-autourldetect.md)
 </dt> <dt>
 
-[**ENLINK**](enlink.md)
+[**ENLINK**](/windows/win32/Richedit/ns-richedit-_enlink?branch=master)
 </dt> <dt>
 
-[**ITextRange2::SetURL**](itextrange2-seturl.md)
+[**ITextRange2::SetURL**](/windows/win32/Tom/nf-tom-itextrange2-seturl?branch=master)
 </dt> <dt>
 
-[**NMHDR**](nmhdr.md)
+[**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

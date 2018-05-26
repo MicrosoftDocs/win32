@@ -1,7 +1,12 @@
 ---
 title: Community Names
 description: A community name identifies a collection of SNMP managers and agents.
-ms.assetid: '6e896765-ea9f-4fec-b39d-9b57aa02f2cd'
+ms.assetid: 6e896765-ea9f-4fec-b39d-9b57aa02f2cd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Community Names

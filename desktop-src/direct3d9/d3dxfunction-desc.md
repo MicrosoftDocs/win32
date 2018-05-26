@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a function used by an effect.'
-ms.assetid: '5d9deb82-7fe5-4408-8a6a-b34ecd97e8ba'
-title: 'D3DXFUNCTION\_DESC structure'
+---
+Description: Describes a function used by an effect.
+ms.assetid: 5d9deb82-7fe5-4408-8a6a-b34ecd97e8ba
+title: D3DXFUNCTION\_DESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFUNCTION\_DESC structure

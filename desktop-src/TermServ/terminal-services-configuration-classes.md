@@ -4,10 +4,13 @@ description: The Remote Desktop Services Configuration WMI provider provides the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '94f61783-b259-4f0f-ac06-84bfbf4f5996'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 94f61783-b259-4f0f-ac06-84bfbf4f5996
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Services Configuration classes

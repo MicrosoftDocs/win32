@@ -2,13 +2,19 @@
 title: allocate attribute
 description: The \ allocate\ ACF attribute lets you customize memory allocation and deallocation for a type defined in the IDL file.
 ms.assetid: 1956b11f-bafa-41c3-9025-5fcbb890d1a2
-keywords: ["allocate attribute MIDL"]
+keywords:
+- allocate attribute MIDL
 topic_type:
 - apiref
 api_name:
 - allocate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # allocate attribute

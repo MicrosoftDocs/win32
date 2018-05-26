@@ -1,8 +1,14 @@
 ---
 title: Context Handles
 description: It is sometimes the case that distributed applications require the server program to maintain status information between client calls.
-ms.assetid: 'fcbdfb1e-4f1e-4d22-9a3e-cf5a29d300d0'
-keywords: ["Remote Procedure Call RPC , described, context handles"]
+ms.assetid: fcbdfb1e-4f1e-4d22-9a3e-cf5a29d300d0
+keywords:
+- Remote Procedure Call RPC , described, context handles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Context Handles

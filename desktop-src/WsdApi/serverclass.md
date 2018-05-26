@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the name of the host-side server class.'
-ms.assetid: 'b0d9a126-0f69-4d07-ae18-07aa49ee2666'
+Description: Specifies the name of the host-side server class.
+ms.assetid: b0d9a126-0f69-4d07-ae18-07aa49ee2666
 title: serverClass element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # serverClass element
@@ -38,14 +43,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts a locale identifier to a locale name.'
-ms.assetid: '8e40d097-08a2-43e8-88e8-a4ecaddf449a'
+---
+Description: Converts a locale identifier to a locale name.
+ms.assetid: 8e40d097-08a2-43e8-88e8-a4ecaddf449a
 title: DownlevelLCIDToLocaleName function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownlevelLCIDToLocaleName function
@@ -9,7 +14,7 @@ title: DownlevelLCIDToLocaleName function
 Converts a [locale identifier](locale-identifiers.md) to a [locale name](locale-names.md).
 
 > [!Note]  
-> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires a download package. Applications that run only on Windows Vista and later should call [**LCIDToLocaleName**](lcidtolocalename.md) to retrieve a locale name.
+> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires a download package. Applications that run only on Windows Vista and later should call [**LCIDToLocaleName**](/windows/win32/Winnls/nf-winnls-lcidtolocalename?branch=master) to retrieve a locale name.
 
  
 
@@ -34,7 +39,7 @@ int DownlevelLCIDToLocaleName(
 *Locale* \[in\]
 </dt> <dd>
 
-The locale identifier to translate. You can use the [**MAKELCID**](makelcid.md) macro to create a locale identifier. This function does not support neutral locales or the following specific locale identifier values.
+The locale identifier to translate. You can use the [**MAKELCID**](/windows/win32/Winnt/nf-winnt-makelcid?branch=master) macro to create a locale identifier. This function does not support neutral locales or the following specific locale identifier values.
 
 -   [LOCALE\_SYSTEM\_DEFAULT](locale-system-default.md)
 -   [LOCALE\_USER\_DEFAULT](locale-user-default.md)
@@ -111,7 +116,7 @@ The required header file and DLL are part of the "Microsoft NLS Downlevel Data M
 [Mapping Locale Data](mapping-locale-data.md)
 </dt> <dt>
 
-[**LCIDToLocaleName**](lcidtolocalename.md)
+[**LCIDToLocaleName**](/windows/win32/Winnls/nf-winnls-lcidtolocalename?branch=master)
 </dt> </dl>
 
  

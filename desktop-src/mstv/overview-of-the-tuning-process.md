@@ -1,7 +1,12 @@
 ---
 title: Overview of the Tuning Process
 description: Overview of the Tuning Process
-ms.assetid: '5ff63877-1917-43a6-9cbc-27b164b94db5'
+ms.assetid: 5ff63877-1917-43a6-9cbc-27b164b94db5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of the Tuning Process

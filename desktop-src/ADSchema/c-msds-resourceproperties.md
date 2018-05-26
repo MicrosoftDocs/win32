@@ -4,17 +4,22 @@ description: A container of this class can contain resource properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4c29de10-8218-406e-8f5a-5e2edb341a85'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4c29de10-8218-406e-8f5a-5e2edb341a85
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Resource-Properties class AD Schema", "msDS-ResourceProperties class AD Schema"]
+keywords:
+- ms-DS-Resource-Properties class AD Schema
+- msDS-ResourceProperties class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Resource-Properties
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Resource-Properties class
@@ -35,7 +40,7 @@ A container of this class can contain resource properties.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -62,7 +67,7 @@ A container of this class can contain resource properties.
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -189,9 +194,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

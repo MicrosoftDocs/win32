@@ -1,8 +1,19 @@
 ---
 title: Adding BUTTONGROUP
 description: Adding BUTTONGROUP
-ms.assetid: '07a4a347-b3da-4dcb-b3e4-bee0d002b2e2'
-keywords: ["creating skins,BUTTONGROUP element", "Windows Media Player skins,BUTTONGROUP element", "skins,BUTTONGROUP element", "skin definition files,BUTTONGROUP element", "BUTTONGROUP element", "elements,BUTTONGROUP"]
+ms.assetid: 07a4a347-b3da-4dcb-b3e4-bee0d002b2e2
+keywords:
+- creating skins,BUTTONGROUP element
+- Windows Media Player skins,BUTTONGROUP element
+- skins,BUTTONGROUP element
+- skin definition files,BUTTONGROUP element
+- BUTTONGROUP element
+- elements,BUTTONGROUP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding BUTTONGROUP

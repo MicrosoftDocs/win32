@@ -4,17 +4,22 @@ description: The last date this object was changed.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a445c659-8f38-4eae-b23c-844a4c5be331'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a445c659-8f38-4eae-b23c-844a4c5be331
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-ChangeDate attribute AD Schema", "msWMI-ChangeDate attribute AD Schema"]
+keywords:
+- ms-WMI-ChangeDate attribute AD Schema
+- msWMI-ChangeDate attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-ChangeDate
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-ChangeDate attribute
@@ -38,11 +43,11 @@ The last date this object was changed.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ The last date this object was changed.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

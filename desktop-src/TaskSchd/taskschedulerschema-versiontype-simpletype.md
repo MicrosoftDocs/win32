@@ -1,14 +1,20 @@
 ---
 title: versionType Simple Type
 description: Defines a pattern that specifies a version of a task.
-ms.assetid: 'e9eebbc1-5465-4af6-8b97-f1fd5827442e'
-keywords: ["versionType simple type Task Scheduler"]
+ms.assetid: e9eebbc1-5465-4af6-8b97-f1fd5827442e
+keywords:
+- versionType simple type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - versionType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # versionType Simple Type
@@ -41,14 +47,14 @@ The **versionType** simple type is a **string** that is restricted by the follow
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

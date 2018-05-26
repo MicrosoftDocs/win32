@@ -1,7 +1,12 @@
 ---
 title: Windows Connection Manager
 description: .
-ms.assetid: '65f9fbc6-6b6c-4b73-996f-62c3f813911c'
+ms.assetid: 65f9fbc6-6b6c-4b73-996f-62c3f813911c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Connection Manager
@@ -16,7 +21,7 @@ Windows Connection Manager is designed for use by developers using C/C++ develop
 
 ## Run-time requirements
 
-The Windows Connection Manager API is supported on Windows 8 and Windows Server 2012.
+The Windows Connection Manager API is supported on Windows 8 and Windows Server 2012.
 
 ## In this section
 
@@ -28,11 +33,11 @@ The Windows Connection Manager API is supported on Windows 8 and Windows Server 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree GetBodyOffsets method
 description: Gets the offsets for the specified body.
-ms.assetid: '5746186f-e407-4f25-a9f5-fb66beede4ef'
-keywords: ["GetBodyOffsets method Windows Mail (formerly Outlook Express)", "GetBodyOffsets method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , GetBodyOffsets method"]
+ms.assetid: 5746186f-e407-4f25-a9f5-fb66beede4ef
+keywords:
+- GetBodyOffsets method Windows Mail (formerly Outlook Express)
+- GetBodyOffsets method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , GetBodyOffsets method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::GetBodyOffsets method
@@ -22,8 +30,8 @@ Gets the offsets for the specified body.
 
 ```C++
 HRESULT GetBodyOffsets(
-  [in]      HBODY         hBody,
-  [in, out] LPBODYOFFSETS pOffsets
+  [in]      HBODY         hBody,
+  [in, out] LPBODYOFFSETS pOffsets
 );
 ```
 
@@ -69,7 +77,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,8 +93,8 @@ pBody-&gt;[**GetOffsets**](oe-imimebody-getoffsets.md)(*pOffsets*);
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -94,9 +102,9 @@ pBody-&gt;[**GetOffsets**](oe-imimebody-getoffsets.md)(*pOffsets*);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: MimeOleSMimeCapRelease function
 description: Do not use. Clears allocated capabilities memory.
-ms.assetid: '9278da72-ed2b-4230-9449-627c74d05c32'
-keywords: ["MimeOleSMimeCapRelease function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 9278da72-ed2b-4230-9449-627c74d05c32
+keywords:
+- MimeOleSMimeCapRelease function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleSMimeCapRelease function
@@ -22,7 +28,7 @@ Do not use. Clears allocated capabilities memory.
 
 ```C++
 HRESULT MimeOleSMimeCapRelease(
-  _In_ LPVOID pv
+  _In_ LPVOID pv
 );
 ```
 
@@ -55,7 +61,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,8 +69,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -72,9 +78,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: IVMHardDisk Properties
 description: The IVMHardDisk interface exposes the following properties.
-ms.assetid: 'D09DF563-478B-48FE-9139-A3614E240973'
+ms.assetid: D09DF563-478B-48FE-9139-A3614E240973
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk Properties

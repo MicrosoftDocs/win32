@@ -1,7 +1,12 @@
-﻿---
-Description: 'The COLORPROFILESUBTYPE enumeration is used to specify the subtype of color profile.'
-ms.assetid: '7ec0dd2d-7be5-4c85-8096-64a45aee01a5'
+---
+Description: The COLORPROFILESUBTYPE enumeration is used to specify the subtype of color profile.
+ms.assetid: 7ec0dd2d-7be5-4c85-8096-64a45aee01a5
 title: COLORPROFILESUBTYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLORPROFILESUBTYPE enumeration

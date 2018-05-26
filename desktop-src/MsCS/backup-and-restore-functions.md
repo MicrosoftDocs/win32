@@ -4,11 +4,16 @@ description: The backup and restore functions are used by applications to take s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0f492e51-f364-40f1-b2c8-478f707f079d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0f492e51-f364-40f1-b2c8-478f707f079d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["backup and restore functions Failover Cluster", "cluster utility functions Failover Cluster ,backup and restore functions"]
+keywords:
+- backup and restore functions Failover Cluster
+- cluster utility functions Failover Cluster ,backup and restore functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Backup and Restore Functions
@@ -19,49 +24,49 @@ The backup and restore functions are used by applications to take snapshots of t
 
 <dl> <dt>
 
-[**BackupClusterDatabase**](backupclusterdatabase.md)
+[**BackupClusterDatabase**](/windows/previous-versions/ClusAPI/nf-clusapi-backupclusterdatabase?branch=master)
 </dt> <dd>
 
 Creates a backup of the [cluster database](cluster-database.md) and all registry [checkpoints](checkpointing.md).
 
 </dd> <dt>
 
-[*ClusterClearBackupStateForSharedVolume*](clusterclearbackupstateforsharedvolume.md)
+[*ClusterClearBackupStateForSharedVolume*](/windows/previous-versions/ResApi/nc-resapi-pcluster_clear_backup_state_for_shared_volume?branch=master)
 </dt> <dd>
 
 Clears the backup state for the cluster shared volume
 
 </dd> <dt>
 
-[*ClusterGetVolumeNameForVolumeMountPoint*](clustergetvolumenameforvolumemountpoint.md)
+[*ClusterGetVolumeNameForVolumeMountPoint*](/windows/previous-versions/ResApi/nc-resapi-pcluster_get_volume_name_for_volume_mount_point?branch=master)
 </dt> <dd>
 
-[*ClusterGetVolumeNameForVolumeMountPoint*](clustergetvolumenameforvolumemountpoint.md) may be altered or unavailable. Instead, use [*GetVolumeNameForVolumeMountPoint*](https://msdn.microsoft.com/library/windows/desktop/aa364994).
+[*ClusterGetVolumeNameForVolumeMountPoint*](/windows/previous-versions/ResApi/nc-resapi-pcluster_get_volume_name_for_volume_mount_point?branch=master) may be altered or unavailable. Instead, use [*GetVolumeNameForVolumeMountPoint*](https://msdn.microsoft.com/library/windows/desktop/aa364994).
 
 </dd> <dt>
 
-[*ClusterGetVolumePathName*](clustergetvolumepathname.md)
+[*ClusterGetVolumePathName*](/windows/previous-versions/ResApi/nc-resapi-pcluster_get_volume_path_name?branch=master)
 </dt> <dd>
 
-[*ClusterGetVolumePathName*](clustergetvolumepathname.md) may be altered or unavailable. Instead, use [*GetVolumePathName*](https://msdn.microsoft.com/library/windows/desktop/aa364996).
+[*ClusterGetVolumePathName*](/windows/previous-versions/ResApi/nc-resapi-pcluster_get_volume_path_name?branch=master) may be altered or unavailable. Instead, use [*GetVolumePathName*](https://msdn.microsoft.com/library/windows/desktop/aa364996).
 
 </dd> <dt>
 
-[*ClusterIsPathOnSharedVolume*](clusterispathonsharedvolume.md)
+[*ClusterIsPathOnSharedVolume*](/windows/previous-versions/ResApi/nc-resapi-pcluster_is_path_on_shared_volume?branch=master)
 </dt> <dd>
 
 Determines whether a path is on a cluster shared volume
 
 </dd> <dt>
 
-[*ClusterPrepareSharedVolumeForBackup*](clusterpreparesharedvolumeforbackup.md)
+[*ClusterPrepareSharedVolumeForBackup*](/windows/previous-versions/ResApi/nc-resapi-pcluster_prepare_shared_volume_for_backup?branch=master)
 </dt> <dd>
 
-[*ClusterPrepareSharedVolumeForBackup*](clusterpreparesharedvolumeforbackup.md) may be altered or unavailable.
+[*ClusterPrepareSharedVolumeForBackup*](/windows/previous-versions/ResApi/nc-resapi-pcluster_prepare_shared_volume_for_backup?branch=master) may be altered or unavailable.
 
 </dd> <dt>
 
-[**RestoreClusterDatabase**](restoreclusterdatabase.md)
+[**RestoreClusterDatabase**](/windows/previous-versions/ClusAPI/nf-clusapi-restoreclusterdatabase?branch=master)
 </dt> <dd>
 
 Restores the [cluster database](cluster-database.md) and restarts the [Cluster service](cluster-service.md) on the [node](nodes.md) from which the function is called. This node is called the restoring node.

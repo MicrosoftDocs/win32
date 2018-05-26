@@ -1,7 +1,12 @@
-﻿---
-Description: 'Compiler directives tune the functionality that the DirectXMath library uses.'
-ms.assetid: 'c1746b7b-7e7e-2453-77eb-17f859a38fe2'
+---
+Description: Compiler directives tune the functionality that the DirectXMath library uses.
+ms.assetid: c1746b7b-7e7e-2453-77eb-17f859a38fe2
 title: DirectXMath Library Compiler Directives
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectXMath Library Compiler Directives

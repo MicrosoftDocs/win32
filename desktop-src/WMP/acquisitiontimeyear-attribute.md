@@ -1,14 +1,20 @@
 ---
 title: AcquisitionTimeYear Attribute
 description: The AcquisitionTimeYear attribute is the year part of the date and time the item was added to the library.
-ms.assetid: 'f2efdaaf-3b1d-4d04-861a-a58895dd0769'
-keywords: ["AcquisitionTimeYear Attribute Windows Media Player"]
+ms.assetid: f2efdaaf-3b1d-4d04-861a-a58895dd0769
+keywords:
+- AcquisitionTimeYear Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AcquisitionTimeYear
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AcquisitionTimeYear Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

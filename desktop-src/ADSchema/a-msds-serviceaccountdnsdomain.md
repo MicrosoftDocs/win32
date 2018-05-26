@@ -4,17 +4,22 @@ description: ADAM The domain which the ADAM service account is a member of.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cdb10ab2-782b-4b9b-a479-4a4e6fc8ef9f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cdb10ab2-782b-4b9b-a479-4a4e6fc8ef9f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Service-Account-DNS-Domain attribute AD Schema", "msDS-ServiceAccountDNSDomain attribute AD Schema"]
+keywords:
+- ms-DS-Service-Account-DNS-Domain attribute AD Schema
+- msDS-ServiceAccountDNSDomain attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Service-Account-DNS-Domain
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Service-Account-DNS-Domain attribute
@@ -61,9 +66,9 @@ ADAM: The domain which the ADAM service account is a member of.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

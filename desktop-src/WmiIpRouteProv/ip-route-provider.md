@@ -4,11 +4,15 @@ description: The preinstalled IP Route provider supplies IPV4 network routing in
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6ac242fe-df33-406f-854c-e87423c03726'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 6ac242fe-df33-406f-854c-e87423c03726
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["IP Route Provider"]
+keywords:
+- IP Route Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IP Route Provider

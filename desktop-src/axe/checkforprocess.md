@@ -1,14 +1,20 @@
 ---
 title: CheckForProcess element
 description: Identifies a process that should not or cannot be running when an assessment begins.
-ms.assetid: '0D1E23E6-4512-4504-B2CB-8004E404D969'
-keywords: ["CheckForProcess element Access Execution Engine"]
+ms.assetid: 0D1E23E6-4512-4504-B2CB-8004E404D969
+keywords:
+- CheckForProcess element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - CheckForProcess
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CheckForProcess element
@@ -71,9 +77,9 @@ BlockWarn
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

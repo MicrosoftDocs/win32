@@ -1,7 +1,12 @@
 ---
 title: Finding Server Host Systems
 description: Finding server host systems by using string bindings and by querying a name service database for the location of a server program.
-ms.assetid: '4aadda88-2109-481f-aa4b-b1983d81dec5'
+ms.assetid: 4aadda88-2109-481f-aa4b-b1983d81dec5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Finding Server Host Systems
@@ -20,7 +25,7 @@ This section presents information on both of these techniques in the following t
 
 ## Using String Bindings
 
-Applications can create bindings from information stored in strings. Your client application composes this information as a string, then calls the [**RpcBindingFromStringBinding**](rpcbindingfromstringbinding.md) function. The client must supply the following information to identify the server:
+Applications can create bindings from information stored in strings. Your client application composes this information as a string, then calls the [**RpcBindingFromStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding?branch=master) function. The client must supply the following information to identify the server:
 
 -   The interface name, the globally unique identifier (GUID) of the object, or UUID of the object. For more information, see [Generating Interface UUIDs](generating-interface-uuids.md) and [String UUID](string-uuid.md).
 -   The transport type to communicate over, such as named pipes or TCP/IP. For details, see [Essential RPC Binding Terminology](essential-rpc-binding-terminology.md) and [Selecting a Protocol Sequence](selecting-a-protocol-sequence.md).
@@ -60,7 +65,7 @@ In the following example, the string binding appears as:
 
 6B29FC40-CA47-1067-B31D-00DD010662DA@ncacn\_np:\\\\\\\\*servername*\[\\\\pipe\\\\*pipename*\]
 
-The client then calls [**RpcBindingFromStringBinding**](rpcbindingfromstringbinding.md) to obtain the binding handle:
+The client then calls [**RpcBindingFromStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding?branch=master) to obtain the binding handle:
 
 
 ```C++
@@ -72,7 +77,7 @@ status = RpcBindingFromStringBinding(pszString, &amp;hBinding);
 
 
 
-A convenience function, [**RpcStringBindingCompose**](rpcstringbindingcompose.md) assembles the object UUID, protocol sequence, network address, and endpoint in the correct syntax for the call to [**RpcBindingFromStringBinding**](rpcbindingfromstringbinding.md). You do not have to worry about putting the ampersand, colon, and the various components for each protocol sequence in the right place; you just supply the strings as parameters to the function. The run-time library even allocates the memory needed for the string binding.
+A convenience function, [**RpcStringBindingCompose**](/windows/win32/Rpcdce/nf-rpcdce-rpcstringbindingcompose?branch=master) assembles the object UUID, protocol sequence, network address, and endpoint in the correct syntax for the call to [**RpcBindingFromStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding?branch=master). You do not have to worry about putting the ampersand, colon, and the various components for each protocol sequence in the right place; you just supply the strings as parameters to the function. The run-time library even allocates the memory needed for the string binding.
 
 
 ```C++
@@ -94,7 +99,7 @@ status = RpcBindingFromStringBinding(
 
 
 
-Another convenience function, [**RpcBindingToStringBinding**](rpcbindingtostringbinding.md), takes a binding handle as input and produces the corresponding string binding.
+Another convenience function, [**RpcBindingToStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingtostringbinding?branch=master), takes a binding handle as input and produces the corresponding string binding.
 
 ## Importing from Name Service Databases
 
@@ -102,7 +107,7 @@ Name service databases store, among other things, binding handles and UUIDs. You
 
 The RPC library provides two sets of functions that your client program can use to search the name service database. The names of one set begin with RpcNsBindingImport. The names of the other set begin with RpcNsBindingLookup. The difference between the two groups of functions is that the RpcNsBindingImport functions return a single binding handle per call and the RpcNsBindingLookup functions return groups of handles per call.
 
-To begin a search with the RpcNsBindingImport functions, first call [**RpcNsBindingImportBegin**](rpcnsbindingimportbegin.md), as shown in the following code fragment.
+To begin a search with the RpcNsBindingImport functions, first call [**RpcNsBindingImportBegin**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina?branch=master), as shown in the following code fragment.
 
 
 ```C++
@@ -119,17 +124,17 @@ status = RpcNsBindingImportBegin(
 
 
 
-When the RPC functions search the name service database, they need a place to begin the search. In RPC terminology, this is called the entry name. Your client program passes the entry name as the second parameter to [**RpcNsBindingImportBegin**](rpcnsbindingimportbegin.md). This parameter can be **NULL** if you want to search the entire name service database. Alternatively, you can search the server entry by passing a server-entry name or search the group entry by passing a group-entry name. Passing an entry name restricts the search to the contents of that entry.
+When the RPC functions search the name service database, they need a place to begin the search. In RPC terminology, this is called the entry name. Your client program passes the entry name as the second parameter to [**RpcNsBindingImportBegin**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina?branch=master). This parameter can be **NULL** if you want to search the entire name service database. Alternatively, you can search the server entry by passing a server-entry name or search the group entry by passing a group-entry name. Passing an entry name restricts the search to the contents of that entry.
 
-In the preceding example, the value RPC\_C\_NS\_SYNTAX\_DEFAULT is passed as the first parameter to [**RpcNsBindingImportBegin**](rpcnsbindingimportbegin.md). This selects the default entry name syntax. Currently, this is the only supported entry-name syntax.
+In the preceding example, the value RPC\_C\_NS\_SYNTAX\_DEFAULT is passed as the first parameter to [**RpcNsBindingImportBegin**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina?branch=master). This selects the default entry name syntax. Currently, this is the only supported entry-name syntax.
 
-Your client application can search the name service database for an interface name, a UUID, or both. If you want to have it search for an interface by name, pass the global interface variable that the MIDL compiler generates from your IDL file as the third parameter to [**RpcNsBindingImportBegin**](rpcnsbindingimportbegin.md). You'll find its declaration in the header file that the MIDL compiler generated when it generated the client stub. If you want your client program to search by UUID only, set the third parameter to **NULL**.
+Your client application can search the name service database for an interface name, a UUID, or both. If you want to have it search for an interface by name, pass the global interface variable that the MIDL compiler generates from your IDL file as the third parameter to [**RpcNsBindingImportBegin**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina?branch=master). You'll find its declaration in the header file that the MIDL compiler generated when it generated the client stub. If you want your client program to search by UUID only, set the third parameter to **NULL**.
 
-When searching the name service database for a UUID, set the fourth parameter of [**RpcNsBindingImportBegin**](rpcnsbindingimportbegin.md) to the UUID that you want to search for. If you are not searching for a UUID, set this parameter to **NULL**.
+When searching the name service database for a UUID, set the fourth parameter of [**RpcNsBindingImportBegin**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina?branch=master) to the UUID that you want to search for. If you are not searching for a UUID, set this parameter to **NULL**.
 
-The [**RpcNsBindingImportBegin**](rpcnsbindingimportbegin.md) function passes the address of a name service–search context handle through its fifth parameter. You pass this parameter to other RpcNsBindingImport functions.
+The [**RpcNsBindingImportBegin**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina?branch=master) function passes the address of a name service–search context handle through its fifth parameter. You pass this parameter to other RpcNsBindingImport functions.
 
-In particular, the next function your client application would call is [**RpcNsBindingImportNext**](rpcnsbindingimportnext.md). Client programs use this function to retrieve compatible binding handles from the name service database. The following code fragment demonstrates how this function might be called:
+In particular, the next function your client application would call is [**RpcNsBindingImportNext**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportnext?branch=master). Client programs use this function to retrieve compatible binding handles from the name service database. The following code fragment demonstrates how this function might be called:
 
 
 ```C++
@@ -143,9 +148,9 @@ status = RpcNsBindingImportNext(hNameServiceHandle, &amp;hBindingHandle);
 
 
 
-Once it has called the [**RpcNsBindingImportNext**](rpcnsbindingimportnext.md) function to obtain a binding handle, your client application can determine if the handle it received is acceptable. If not, your client program can execute a loop and call **RpcNsBindingImportNext** again to see if the name service contains a more appropriate handle. For each call to **RpcNsBindingImportNext**, there must be a corresponding call to RpcNsBindingFree. When your search is complete, call the [**RpcNsBindingImportDone**](rpcnsbindingimportdone.md) function to free the lookup context.
+Once it has called the [**RpcNsBindingImportNext**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportnext?branch=master) function to obtain a binding handle, your client application can determine if the handle it received is acceptable. If not, your client program can execute a loop and call **RpcNsBindingImportNext** again to see if the name service contains a more appropriate handle. For each call to **RpcNsBindingImportNext**, there must be a corresponding call to RpcNsBindingFree. When your search is complete, call the [**RpcNsBindingImportDone**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportdone?branch=master) function to free the lookup context.
 
-After your client application has an acceptable binding handle, it should check to ensure that the server application is running. There are two methods your client can use to perform this verification. The first is to call a function in the client interface. If the server program is running, the call will complete. If not, the call will fail. A better way to verify that the server is running is to invoke [**RpcEpResolveBinding**](rpcepresolvebinding.md), followed by a call to [**RpcMgmtIsServerListening**](rpcmgmtisserverlistening.md). For more information on the name service database, see [The RPC Name Service Database](the-rpc-name-service-database.md).
+After your client application has an acceptable binding handle, it should check to ensure that the server application is running. There are two methods your client can use to perform this verification. The first is to call a function in the client interface. If the server program is running, the call will complete. If not, the call will fail. A better way to verify that the server is running is to invoke [**RpcEpResolveBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcepresolvebinding?branch=master), followed by a call to [**RpcMgmtIsServerListening**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtisserverlistening?branch=master). For more information on the name service database, see [The RPC Name Service Database](the-rpc-name-service-database.md).
 
  
 

@@ -4,11 +4,16 @@ description: Microsoft Windows Sockets services can use the Registration and Res
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2b73a754-4f16-41a2-8441-a4ee5f80035c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2b73a754-4f16-41a2-8441-a4ee5f80035c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Mutual Authentication in Windows Sockets Applications", "Active Directory, using, mutual authentication, in Windows sockets applications"]
+keywords:
+- Mutual Authentication in Windows Sockets Applications
+- Active Directory, using, mutual authentication, in Windows sockets applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Mutual Authentication in Windows Sockets Applications

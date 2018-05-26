@@ -1,14 +1,19 @@
 ---
 title: Getting Object Properties
-description: An cluster object's properties determine its identity and behavior in the cluster. Applications typically retrieve an object's properties to discover how the object is currently configured.
+description: An cluster objects properties determine its identity and behavior in the cluster. Applications typically retrieve an objects properties to discover how the object is currently configured.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'abeade46-e84a-445e-b91c-1e17b6c48179'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: abeade46-e84a-445e-b91c-1e17b6c48179
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster objects Failover Cluster ,retrieving properties", "properties Failover Cluster ,retrieving object properties"]
+keywords:
+- cluster objects Failover Cluster ,retrieving properties
+- properties Failover Cluster ,retrieving object properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting Object Properties

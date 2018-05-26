@@ -1,7 +1,12 @@
 ---
 title: Header Control Reference
 description: .
-ms.assetid: '8ed22835-84c3-488f-bdea-409040a758f5'
+ms.assetid: 8ed22835-84c3-488f-bdea-409040a758f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Header Control Reference

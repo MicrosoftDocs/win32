@@ -1,8 +1,11 @@
 ---
 title: IMessenger ReceiveFileDirectory property
 description: Retrieves the local path to the directory currently being used to store any files received through file transfer.
-ms.assetid: 'c47a2cdc-7553-4424-a2aa-67ea29611c87'
-keywords: ["ReceiveFileDirectory property Windows Messenger", "ReceiveFileDirectory property Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , ReceiveFileDirectory property"]
+ms.assetid: c47a2cdc-7553-4424-a2aa-67ea29611c87
+keywords:
+- ReceiveFileDirectory property Windows Messenger
+- ReceiveFileDirectory property Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , ReceiveFileDirectory property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::ReceiveFileDirectory property
 
-\[**ReceiveFileDirectory** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**ReceiveFileDirectory** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves the local path to the directory currently being used to store any files received through file transfer.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ReceiveFileDirectory(
-  [out, retval] BSTR *bstrPath
+  [out, retval] BSTR *bstrPath
 );
 ```
 
@@ -59,7 +67,7 @@ This value can be changed from the default by a client user option.
 > [!Note]  
 > This property is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -67,8 +75,8 @@ This value can be changed from the default by a client user option.
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -85,9 +93,9 @@ This value can be changed from the default by a client user option.
 [**SendFile**](im-imessenger-sendfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The EC\_BUILT event is sent by the Video Control when a graph has been completely built. This event is not forwarded to applications.'
-ms.assetid: '011d81a1-005a-4afc-971a-38a09fd132e3'
-title: 'EC\_BUILT'
+Description: The EC\_BUILT event is sent by the Video Control when a graph has been completely built. This event is not forwarded to applications.
+ms.assetid: 011d81a1-005a-4afc-971a-38a09fd132e3
+title: EC\_BUILT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_BUILT
@@ -50,9 +55,9 @@ None.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

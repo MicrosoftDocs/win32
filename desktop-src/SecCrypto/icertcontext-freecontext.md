@@ -1,7 +1,12 @@
-﻿---
-Description: 'Releases a PCCERT\_CONTEXT acquired through the CertContext property.'
-ms.assetid: 'fcb9e885-d26c-4866-a35d-1c940bfe8162'
-title: 'ICertContext::FreeContext method'
+---
+Description: Releases a PCCERT\_CONTEXT acquired through the CertContext property.
+ms.assetid: fcb9e885-d26c-4866-a35d-1c940bfe8162
+title: ICertContextFreeContext method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertContext::FreeContext method

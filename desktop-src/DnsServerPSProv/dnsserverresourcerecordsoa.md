@@ -2,13 +2,15 @@
 title: DnsServerResourceRecordSoa class
 description: Represents a Start of Authority (SOA) resource record for a DNS zone.
 audience: developer
-ms.assetid: '9f9daac1-9ff0-4af9-b373-9773e7497c5b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9f9daac1-9ff0-4af9-b373-9773e7497c5b
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerResourceRecordSoa class", "DnsServerResourceRecordSoa class, described"]
+keywords:
+- DnsServerResourceRecordSoa class
+- DnsServerResourceRecordSoa class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerResourceRecordSoa class
@@ -38,9 +43,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerResourceRecordSoa : DnsServerResourceRecordData
 {
-  uint32   SerialNumber;
-  string   PrimaryServer;
-  string   ResponsiblePerson;
+  uint32   SerialNumber;
+  string   PrimaryServer;
+  string   ResponsiblePerson;
   datetime RefreshInterval;
   datetime RetryDelay;
   datetime ExpireLimit;
@@ -126,7 +131,7 @@ The email address of the administrator of the DNS zone.
 > [!Note]  
 > The @ character in the email address is replaced with a period (.).
 
- 
+ 
 
 </dd> <dt>
 
@@ -163,7 +168,7 @@ The serial number of the DNS zone.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -180,9 +185,9 @@ The serial number of the DNS zone.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

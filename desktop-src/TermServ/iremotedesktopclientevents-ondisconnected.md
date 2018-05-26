@@ -4,11 +4,14 @@ description: Called when the client control has been disconnected from a remote 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'EA26B530-0AA8-49D6-8E3C-E53179FC5104'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: EA26B530-0AA8-49D6-8E3C-E53179FC5104
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnDisconnected method Remote Desktop Services", "OnDisconnected method Remote Desktop Services , IRemoteDesktopClientEvents interface", "IRemoteDesktopClientEvents interface Remote Desktop Services , OnDisconnected method"]
+keywords:
+- OnDisconnected method Remote Desktop Services
+- OnDisconnected method Remote Desktop Services , IRemoteDesktopClientEvents interface
+- IRemoteDesktopClientEvents interface Remote Desktop Services , OnDisconnected method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IRemoteDesktopClientEvents::OnDisconnected method
@@ -28,9 +34,9 @@ Called when the client control has been disconnected from a remote session.
 
 ```C++
 void OnDisconnected(
-  [in] long disconnectReason,
-  [in] long ExtendedDisconnectReason,
-  [in] BSTR disconnectErrorMessage
+  [in] long disconnectReason,
+  [in] long ExtendedDisconnectReason,
+  [in] BSTR disconnectErrorMessage
 );
 ```
 
@@ -71,8 +77,8 @@ This method does not return a value.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>         |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>         |
 | IID<br/>                      | DIID\_IRemoteDesktopClientEvents is defined as 079863B7-6D47-4105-8BFE-0CDCB360E67D<br/> |
@@ -86,9 +92,9 @@ This method does not return a value.
 [**IRemoteDesktopClientEvents**](iremotedesktopclientevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

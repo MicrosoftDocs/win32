@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the sprite transform.'
-ms.assetid: 'd91f2776-ee87-42b3-998b-fccea178cee2'
-title: 'ID3DXSprite::GetTransform method'
+---
+Description: Gets the sprite transform.
+ms.assetid: d91f2776-ee87-42b3-998b-fccea178cee2
+title: ID3DXSpriteGetTransform method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSprite::GetTransform method

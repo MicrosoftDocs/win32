@@ -1,7 +1,12 @@
-﻿---
-Description: 'Displays the Shut Down Windows dialog box. This is the same as clicking the Start menu and selecting Shut Down.'
-ms.assetid: '6fa8e2e0-a58f-4837-89f5-898cece2d80a'
-title: 'Shell.ShutdownWindows method'
+---
+Description: Displays the Shut Down Windows dialog box. This is the same as clicking the Start menu and selecting Shut Down.
+ms.assetid: 6fa8e2e0-a58f-4837-89f5-898cece2d80a
+title: Shell.ShutdownWindows method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.ShutdownWindows method

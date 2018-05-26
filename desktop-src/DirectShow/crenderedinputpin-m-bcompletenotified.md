@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_bCompleteNotified member variable is a Boolean flag indicating whether the pin has sent an EC\_COMPLETE event to the Filter Graph Manager.'
-ms.assetid: 'c0ac19ee-68a4-4e93-97fb-a5298ec283c1'
-title: 'CRenderedInputPin::m\_bCompleteNotified member'
+Description: The m\_bCompleteNotified member variable is a Boolean flag indicating whether the pin has sent an EC\_COMPLETE event to the Filter Graph Manager.
+ms.assetid: c0ac19ee-68a4-4e93-97fb-a5298ec283c1
+title: CRenderedInputPinm\_bCompleteNotified member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRenderedInputPin::m\_bCompleteNotified member
@@ -35,9 +40,9 @@ BOOL m_bCompleteNotified;
 [**CRenderedInputPin Class**](crenderedinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'There are essentially no constraints on how to write an AutoRun startup application.'
-ms.assetid: '6D95E5F0-8D93-47A8-9D8C-49CBDCA150A7'
+Description: There are essentially no constraints on how to write an AutoRun startup application.
+ms.assetid: 6D95E5F0-8D93-47A8-9D8C-49CBDCA150A7
 title: How to Implement AutoRun Startup Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Implement AutoRun Startup Applications

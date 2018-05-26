@@ -1,7 +1,12 @@
-﻿---
-Description: 'Allows the TPM owner to disable or suspend the TPM.'
-ms.assetid: 'd910334d-6da6-423d-ae8d-6e86f300dd52'
-title: 'Disable method of the Win32\_Tpm class'
+---
+Description: Allows the TPM owner to disable or suspend the TPM.
+ms.assetid: d910334d-6da6-423d-ae8d-6e86f300dd52
+title: Disable method of the Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disable method of the Win32\_Tpm class

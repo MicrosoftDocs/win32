@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork setProxySettings method
 description: The setProxySettings method specifies the proxy settings for a protocol.
-ms.assetid: '6e410812-a06c-4911-8291-1d654fcd281a'
-keywords: ["setProxySettings method Windows Media Player", "setProxySettings method Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , setProxySettings method"]
+ms.assetid: 6e410812-a06c-4911-8291-1d654fcd281a
+keywords:
+- setProxySettings method Windows Media Player
+- setProxySettings method Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , setProxySettings method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::setProxySettings method
@@ -78,7 +86,7 @@ A **System.Int32** that is one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -173,9 +181,9 @@ End Sub</code></pre></td>
 [**IWMPNetwork.getProxySettings (VB and C#)**](wmplibiwmpnetwork-iwmpnetwork-getproxysettings--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

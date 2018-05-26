@@ -1,7 +1,12 @@
 ---
 title: Toolbars
 description: Toolbars are a way to group commands for efficient access.
-ms.assetid: '8f36307c-54fc-493d-a2ff-57db29e3508d'
+ms.assetid: 8f36307c-54fc-493d-a2ff-57db29e3508d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Toolbars
@@ -12,14 +17,14 @@ Toolbars are a way to group commands for efficient access.
 
 Some typical toolbars.
 
-**Use toolbars in addition to or in place of menu bars.** Toolbars can be more efficient than menu bars because they are direct (always displayed instead of being displayed on mouse click), immediate (instead of requiring additional input) and contain the most frequently used commands (instead of a comprehensive list). In contrast to menu bars, toolbars don't have to be comprehensive or self-explanatory—just quick, convenient, and efficient.
+**Use toolbars in addition to or in place of menu bars.** Toolbars can be more efficient than menu bars because they are direct (always displayed instead of being displayed on mouse click), immediate (instead of requiring additional input) and contain the most frequently used commands (instead of a comprehensive list). In contrast to menu bars, toolbars don't have to be comprehensive or self-explanatory just quick, convenient, and efficient.
 
 Some toolbars are customizable, allowing users to add or remove toolbars, change their size and location, and even change their contents. Some types of toolbars can be undocked, resulting in a palette window. For more information about toolbar varieties, see [Usage patterns](#usage-patterns) in this article.
 
 > [!Note]  
 > Guidelines related to [menus](cmd-menus.md), [command buttons](ctrl-command-buttons.md), and [icons](vis-icons.md) are presented in separate articles.
 
- 
+ 
 
 ## Is this the right user interface?
 
@@ -35,7 +40,7 @@ If your program has a toolbar without a menu bar, and most of the commands are a
 
 ## Design concepts
 
-A good menu bar is a comprehensive catalog of all the available top-level commands, whereas a good toolbar gives quick, convenient access to frequently used commands. A toolbar doesn't attempt to train users—just make them productive. Once users learn how to access a command on a toolbar, they rarely continue to access the command from the menu bar. For these reasons, a program's menu bar and its toolbar don't need to correspond directly.
+A good menu bar is a comprehensive catalog of all the available top-level commands, whereas a good toolbar gives quick, convenient access to frequently used commands. A toolbar doesn't attempt to train users just make them productive. Once users learn how to access a command on a toolbar, they rarely continue to access the command from the menu bar. For these reasons, a program's menu bar and its toolbar don't need to correspond directly.
 
 ### Toolbars vs. menu bars
 
@@ -127,7 +132,7 @@ Toolbars have several usage patterns:
 
 
 
- 
+ 
 
 Toolbars have these styles:
 
@@ -143,7 +148,7 @@ Toolbars have these styles:
 
 
 
- 
+ 
 
 Finally, toolbar controls have several usage patterns:
 
@@ -161,7 +166,7 @@ Finally, toolbar controls have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -479,7 +484,7 @@ Because toolbars are constantly displayed, and space is at a premium, **ellipses
 > [!Note]  
 > For menus displayed by a toolbar, apply the [menu ellipses guidelines](cmd-menus.md#using-ellipses).
 
- 
+ 
 
 ## Recommended sizing and spacing
 
@@ -576,9 +581,9 @@ Examples:
 -   In the **Fonts** box on the toolbar, enter "Segoe UI."
 -   On the **Formatting** toolbar, point to **Show**, and then click **Comments**.
 
- 
+ 
 
- 
+ 
 
 
 

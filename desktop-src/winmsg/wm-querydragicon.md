@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to a minimized (iconic) window.'
-ms.assetid: 'e4f0e638-f606-4745-888b-14a846c7fd37'
-title: 'WM\_QUERYDRAGICON message'
+---
+Description: Sent to a minimized (iconic) window.
+ms.assetid: e4f0e638-f606-4745-888b-14a846c7fd37
+title: WM\_QUERYDRAGICON message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_QUERYDRAGICON message

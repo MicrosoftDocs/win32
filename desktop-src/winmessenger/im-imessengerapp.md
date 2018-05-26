@@ -1,8 +1,10 @@
 ---
 title: IMessengerApp interface
 description: Do not use.
-ms.assetid: '60ce7cb3-2c2f-4cd2-a1dc-23e75eb1434e'
-keywords: ["IMessengerApp interface Windows Messenger", "IMessengerApp interface Windows Messenger , described"]
+ms.assetid: 60ce7cb3-2c2f-4cd2-a1dc-23e75eb1434e
+keywords:
+- IMessengerApp interface Windows Messenger
+- IMessengerApp interface Windows Messenger , described
 topic_type:
 - apiref
 api_name:
@@ -11,18 +13,23 @@ api_location:
 - Msmsgs.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerApp interface
 
-\[**IMessengerApp** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**IMessengerApp** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. The **IMessengerApp** interface provides methods and properties to handle Messenger applications.
 
 > [!Note]  
 > The **IMessengerApp** interface is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger. You should use [**IMessenger**](im-imessenger.md) instead.
 
- 
+ 
 
 ## Members
 
@@ -68,7 +75,7 @@ The [<strong>LaunchAddContactUI</strong>](im-imessengerapp-launchaddcontactui.md
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>LaunchLogonUI</strong>](im-imessengerapp-launchlogonui.md)</td>
-<td style="text-align: left;">Launches the Messenger client <strong>Sign In</strong> dialog box and populates the sign-in name field. <br/>
+<td style="text-align: left;">Launches the Messenger client <strong>Sign In</strong> dialog box and populates the sign-in name field. <br/>
 <blockquote>
 [!Note]<br />
 The [<strong>LaunchLogonUI</strong>](im-imessengerapp-launchlogonui.md) enumerated type is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger. You should use [<strong>Signin</strong>](im-imessenger-signin.md) instead.
@@ -92,7 +99,7 @@ The [<strong>LaunchLogonUI</strong>](im-imessengerapp-launchlogonui.md) enumerat
 
 
 
- 
+ 
 
 ### Properties
 
@@ -119,7 +126,7 @@ The **IMessengerApp** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -127,10 +134,10 @@ The **IMessengerApp** interface has these properties.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Mdisp.h</dt> </dl>    |
 | IDL<br/>                      | <dl> <dt>Mdisp.idl</dt> </dl>  |
@@ -148,9 +155,9 @@ The **IMessengerApp** interface has these properties.
 [**IMessengerApp**](im-imessengerapp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

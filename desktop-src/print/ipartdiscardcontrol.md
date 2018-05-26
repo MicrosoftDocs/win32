@@ -1,7 +1,12 @@
-﻿---
-Description: 'The filter pipeline supports the discard control.'
-ms.assetid: '30c6fb0c-42ea-441f-b0a2-3310f8a5b407'
+---
+Description: The filter pipeline supports the discard control.
+ms.assetid: 30c6fb0c-42ea-441f-b0a2-3310f8a5b407
 title: IPartDiscardControl interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartDiscardControl interface

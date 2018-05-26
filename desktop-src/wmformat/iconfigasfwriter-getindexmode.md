@@ -1,14 +1,22 @@
 ---
 title: IConfigAsfWriter GetIndexMode method
 description: The GetIndexMode method retrieves the current temporal index mode.
-ms.assetid: 'beb874ea-d0d5-4323-a817-47984911da4c'
-keywords: ["GetIndexMode method windows Media Format", "GetIndexMode method windows Media Format , IConfigAsfWriter interface", "IConfigAsfWriter interface windows Media Format , GetIndexMode method"]
+ms.assetid: beb874ea-d0d5-4323-a817-47984911da4c
+keywords:
+- GetIndexMode method windows Media Format
+- GetIndexMode method windows Media Format , IConfigAsfWriter interface
+- IConfigAsfWriter interface windows Media Format , GetIndexMode method
 topic_type:
 - apiref
 api_name:
 - IConfigAsfWriter.GetIndexMode
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IConfigAsfWriter::GetIndexMode method
@@ -49,7 +57,7 @@ Use this method to determine whether the [WM ASF Writer](wm-asf-writer-filter.md
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](iconfigasfwriter.md)
+[**IConfigAsfWriter Interface**](/windows/win32/dshowasf/?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 title: Select the button options
 description: Select the button options
-ms.assetid: 'D77A84D1-CB0B-4a14-A0B9-7468BDA6991A'
+ms.assetid: D77A84D1-CB0B-4a14-A0B9-7468BDA6991A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Select the button options

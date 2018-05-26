@@ -1,8 +1,11 @@
 ---
 title: IImnAccountManager AccountListDialog method
 description: Displays the dialog box that lists current accounts.
-ms.assetid: '2722b26e-d418-48d9-9a2c-db282fb8b7f2'
-keywords: ["AccountListDialog method Windows Mail (formerly Outlook Express)", "AccountListDialog method Windows Mail (formerly Outlook Express) , IImnAccountManager interface", "IImnAccountManager interface Windows Mail (formerly Outlook Express) , AccountListDialog method"]
+ms.assetid: 2722b26e-d418-48d9-9a2c-db282fb8b7f2
+keywords:
+- AccountListDialog method Windows Mail (formerly Outlook Express)
+- AccountListDialog method Windows Mail (formerly Outlook Express) , IImnAccountManager interface
+- IImnAccountManager interface Windows Mail (formerly Outlook Express) , AccountListDialog method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccountManager::AccountListDialog method
@@ -24,8 +32,8 @@ Displays the dialog box that lists current accounts.
 
 ```C++
 HRESULT AccountListDialog(
-  [in] HWND         hwnd,
-  [in] ACCTLISTINFO *pinfo
+  [in] HWND         hwnd,
+  [in] ACCTLISTINFO *pinfo
 );
 ```
 
@@ -69,7 +77,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,8 +89,8 @@ This dialog allows for the creation, deletion, and modification of accounts.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -90,9 +98,9 @@ This dialog allows for the creation, deletion, and modification of accounts.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

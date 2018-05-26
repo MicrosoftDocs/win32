@@ -4,11 +4,28 @@ description: Retrieves a pointer to the IMsRdpClientAdvancedSettings3 interface.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '30935099-7f33-4745-8a31-f9a28ab78b63'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 30935099-7f33-4745-8a31-f9a28ab78b63
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AdvancedSettings4 property Remote Desktop Services", "AdvancedSettings4 property Remote Desktop Services , IMsRdpClient3 interface", "IMsRdpClient3 interface Remote Desktop Services , AdvancedSettings4 property", "AdvancedSettings4 property Remote Desktop Services , IMsRdpClient4 interface", "IMsRdpClient4 interface Remote Desktop Services , AdvancedSettings4 property", "AdvancedSettings4 property Remote Desktop Services , IMsRdpClient5 interface", "IMsRdpClient5 interface Remote Desktop Services , AdvancedSettings4 property", "AdvancedSettings4 property Remote Desktop Services , IMsRdpClient6 interface", "IMsRdpClient6 interface Remote Desktop Services , AdvancedSettings4 property", "AdvancedSettings4 property Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , AdvancedSettings4 property", "AdvancedSettings4 property Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , AdvancedSettings4 property", "AdvancedSettings4 property Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , AdvancedSettings4 property", "AdvancedSettings4 property Remote Desktop Services , IMsRdpClient10 interface", "IMsRdpClient10 interface Remote Desktop Services , AdvancedSettings4 property"]
+keywords:
+- AdvancedSettings4 property Remote Desktop Services
+- AdvancedSettings4 property Remote Desktop Services , IMsRdpClient3 interface
+- IMsRdpClient3 interface Remote Desktop Services , AdvancedSettings4 property
+- AdvancedSettings4 property Remote Desktop Services , IMsRdpClient4 interface
+- IMsRdpClient4 interface Remote Desktop Services , AdvancedSettings4 property
+- AdvancedSettings4 property Remote Desktop Services , IMsRdpClient5 interface
+- IMsRdpClient5 interface Remote Desktop Services , AdvancedSettings4 property
+- AdvancedSettings4 property Remote Desktop Services , IMsRdpClient6 interface
+- IMsRdpClient6 interface Remote Desktop Services , AdvancedSettings4 property
+- AdvancedSettings4 property Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , AdvancedSettings4 property
+- AdvancedSettings4 property Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , AdvancedSettings4 property
+- AdvancedSettings4 property Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , AdvancedSettings4 property
+- AdvancedSettings4 property Remote Desktop Services , IMsRdpClient10 interface
+- IMsRdpClient10 interface Remote Desktop Services , AdvancedSettings4 property
 topic_type:
 - apiref
 api_name:
@@ -32,6 +49,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient3::AdvancedSettings4 property
@@ -45,7 +65,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_AdvancedSettings4(
-  [out] IMsRdpClientAdvancedSettings3 **ppAdvSettings
+  [out] IMsRdpClientAdvancedSettings3 **ppAdvSettings
 );
 ```
 
@@ -71,8 +91,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpClient3 is defined as 91b7cbc5-a72e-4fa0-9300-d647d7e897ff<br/>       |
@@ -107,9 +127,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClient10**](imsrdpclient10.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

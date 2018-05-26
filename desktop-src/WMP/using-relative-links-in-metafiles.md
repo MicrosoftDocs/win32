@@ -1,8 +1,19 @@
 ---
 title: Using Relative Links in Metafiles
 description: Using Relative Links in Metafiles
-ms.assetid: '8f6c40fc-e025-43d5-a43a-c162f28bbd71'
-keywords: ["Windows Media metafile playlists,relative links", "playlists,relative links", "metafile playlists,relative links", "metafiles,relative links", "Windows Media metafiles,relative links", "relative links"]
+ms.assetid: 8f6c40fc-e025-43d5-a43a-c162f28bbd71
+keywords:
+- Windows Media metafile playlists,relative links
+- playlists,relative links
+- metafile playlists,relative links
+- metafiles,relative links
+- Windows Media metafiles,relative links
+- relative links
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Relative Links in Metafiles

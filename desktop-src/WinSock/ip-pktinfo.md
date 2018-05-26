@@ -1,14 +1,19 @@
-﻿---
-Description: 'Allows an application to enable or disable the return of packet information by the WSARecvMsg function on an IPv4 socket.'
-ms.assetid: 'C6246899-0220-4F88-B43B-CED1B1FF7DC3'
-title: 'IP\_PKTINFO socket option'
+---
+Description: Allows an application to enable or disable the return of packet information by the WSARecvMsg function on an IPv4 socket.
+ms.assetid: C6246899-0220-4F88-B43B-CED1B1FF7DC3
+title: IP\_PKTINFO socket option
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IP\_PKTINFO socket option
 
 The IP\_PKTINFO socket option allows an application to enable or disable the return of packet information by the [**WSARecvMsg**](wsarecvmsg-2.md) function on an IPv4 socket..
 
-To query the status of this socket option, call the [**getsockopt**](getsockopt-2.md) function. To set this option, call the [**setsockopt**](setsockopt-2.md) function with the following parameters.
+To query the status of this socket option, call the [**getsockopt**](/windows/win32/winsock/nf-winsock-getsockopt?branch=master) function. To set this option, call the [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function with the following parameters.
 
 ## Socket option value
 
@@ -85,15 +90,15 @@ A pointer to the size, in bytes, of the *optval* buffer. This size must be equal
 
 ## Return value
 
-If the operation completes successfully, the [**getsockopt**](getsockopt-2.md) or [**setsockopt**](setsockopt-2.md) function returns zero.
+If the operation completes successfully, the [**getsockopt**](/windows/win32/winsock/nf-winsock-getsockopt?branch=master) or [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function returns zero.
 
-If the operation fails, a value of SOCKET\_ERROR is returned and a specific error code can be retrieved by calling [**WSAGetLastError**](wsagetlasterror-2.md).
+If the operation fails, a value of SOCKET\_ERROR is returned and a specific error code can be retrieved by calling [**WSAGetLastError**](/windows/win32/winsock/nf-winsock-wsagetlasterror?branch=master).
 
 
 
 | Error code                                                                                                                                              | Meaning                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**[WSANOTINITIALISED](windows-sockets-error-codes-2.md#wsanotinitialised)**</dt> </dl> | A successful [**WSAStartup**](wsastartup-2.md) call must occur before using this function.<br/>                                                                                                                                                     |
+| <dl> <dt>**[WSANOTINITIALISED](windows-sockets-error-codes-2.md#wsanotinitialised)**</dt> </dl> | A successful [**WSAStartup**](/windows/win32/winsock/nf-winsock-wsastartup?branch=master) call must occur before using this function.<br/>                                                                                                                                                     |
 | <dl> <dt>**[WSAENETDOWN](windows-sockets-error-codes-2.md#wsaenetdown)**</dt> </dl>             | The network subsystem has failed.<br/>                                                                                                                                                                                                               |
 | <dl> <dt>**[WSAEFAULT](windows-sockets-error-codes-2.md#wsaefault)**</dt> </dl>                 | One of the *optval* or the *optlen* parameters point to memory that is not in a valid part of the user address space. This error is also returned if the value pointed to by the *optlen* parameter is less than the size of a **DWORD** value.<br/> |
 | <dl> <dt>**[WSAEINPROGRESS](windows-sockets-error-codes-2.md#wsaeinprogress)**</dt> </dl>       | A blocking Windows Sockets 1.1 call is in progress, or the service provider is still processing a callback function.<br/>                                                                                                                            |
@@ -107,17 +112,17 @@ If the operation fails, a value of SOCKET\_ERROR is returned and a specific erro
 
 ## Remarks
 
-The [**getsockopt**](getsockopt-2.md) function called with the IP\_PKTINFO socket option allows an application to determine if packet information is to be returned by the [**WSARecvMsg**](wsarecvmsg-2.md)function for an IPv4 socket.
+The [**getsockopt**](/windows/win32/winsock/nf-winsock-getsockopt?branch=master) function called with the IP\_PKTINFO socket option allows an application to determine if packet information is to be returned by the [**WSARecvMsg**](wsarecvmsg-2.md)function for an IPv4 socket.
 
-The [**setsockopt**](setsockopt-2.md) function called with the IP\_PKTINFO socket option allows an application to enable or disable the return of packet information by the [**WSARecvMsg**](wsarecvmsg-2.md) function. The IP\_PKTINFO option for a socket is disabled (set to **FALSE**) by default.
+The [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function called with the IP\_PKTINFO socket option allows an application to enable or disable the return of packet information by the [**WSARecvMsg**](wsarecvmsg-2.md) function. The IP\_PKTINFO option for a socket is disabled (set to **FALSE**) by default.
 
-When this socket option is enabled on an IPv4 socket of type **SOCK\_DGRAM** or **SOCK\_RAW**, the [**WSARecvMsg**](wsarecvmsg-2.md) function returns packet information in the [**WSAMSG**](wsamsg-2.md) structure pointed to by the *lpMsg* parameter. One of the control data objects in the returned **WSAMSG** structure will contain an [**in\_pktinfo**](in-pktinfo-2.md) structure used to store received packet address information.
+When this socket option is enabled on an IPv4 socket of type **SOCK\_DGRAM** or **SOCK\_RAW**, the [**WSARecvMsg**](wsarecvmsg-2.md) function returns packet information in the [**WSAMSG**](/windows/win32/Ws2def/ns-ws2def-_wsamsg?branch=master) structure pointed to by the *lpMsg* parameter. One of the control data objects in the returned **WSAMSG** structure will contain an [**in\_pktinfo**](/windows/win32/Ws2ipdef/ns-ws2ipdef-in_pktinfo?branch=master) structure used to store received packet address information.
 
-For datagrams received by the [**WSARecvMsg**](wsarecvmsg-2.md) function over IPv4, the **Control** member of the [**WSAMSG**](wsamsg-2.md) structure received will contain a [**WSABUF**](wsabuf-2.md) structure that contains a **WSACMSGHDR** structure. The **cmsg\_level** member of this **WSACMSGHDR** structure would contain **IPPROTO\_IP**, the **cmsg\_type** member of this structure would contain **IP\_PKTINFO**, and the **cmsg\_data** member would contain an [**in\_pktinfo**](in-pktinfo-2.md) structure used to store received IPv4 packet address information. The IPv4 address in the **in\_pktinfo** structure is the IPv4 address from which the packet was received.
+For datagrams received by the [**WSARecvMsg**](wsarecvmsg-2.md) function over IPv4, the **Control** member of the [**WSAMSG**](/windows/win32/Ws2def/ns-ws2def-_wsamsg?branch=master) structure received will contain a [**WSABUF**](/windows/win32/ws2def/ns-ws2def-_wsabuf?branch=master) structure that contains a **WSACMSGHDR** structure. The **cmsg\_level** member of this **WSACMSGHDR** structure would contain **IPPROTO\_IP**, the **cmsg\_type** member of this structure would contain **IP\_PKTINFO**, and the **cmsg\_data** member would contain an [**in\_pktinfo**](/windows/win32/Ws2ipdef/ns-ws2ipdef-in_pktinfo?branch=master) structure used to store received IPv4 packet address information. The IPv4 address in the **in\_pktinfo** structure is the IPv4 address from which the packet was received.
 
-For a dual-stack datagram socket, if an application requires the [**WSARecvMsg**](wsarecvmsg-2.md) function to return packet information in a [**WSAMSG**](wsamsg-2.md) structure for datagrams received over IPv4, then IP\_PKTINFO socket option must be set to true on the socket. If only the [IPV6\_PKTINFO](ipv6-pktinfo.md) option is set to true on the socket, packet information will be provided for datagrams received over IPv6 but may not be provided for datagrams received over IPv4.
+For a dual-stack datagram socket, if an application requires the [**WSARecvMsg**](wsarecvmsg-2.md) function to return packet information in a [**WSAMSG**](/windows/win32/Ws2def/ns-ws2def-_wsamsg?branch=master) structure for datagrams received over IPv4, then IP\_PKTINFO socket option must be set to true on the socket. If only the [IPV6\_PKTINFO](ipv6-pktinfo.md) option is set to true on the socket, packet information will be provided for datagrams received over IPv6 but may not be provided for datagrams received over IPv4.
 
-If an application tries to set the IP\_PKTINFO socket option on a dual-stack datagram socket and IPv4 is disabled on the system, then the [**setsockopt**](setsockopt-2.md) function will fail and [**WSAGetLastError**](wsagetlasterror-2.md) will return with an error of [WSAEINVAL](windows-sockets-error-codes-2.md#wsaenetdown). This same error is also returned by the **setsockopt** function as a result of other errors. If an application tries to set an IPPROTO\_IP level socket option on a dual-stack socket and it fails with [WSAEINVAL](windows-sockets-error-codes-2.md#wsaenetdown), then the application should determine if IPv4 is disabled on the local computer. One method that can be used to detect if IPv4 is enabled or disabled is to call the [**socket**](socket-2.md) function with the *af* parameter set to AF\_INET to try and create an IPv4 socket. If the **socket** function fails and **WSAGetLastError** returns an error of [WSAEAFNOSUPPORT](windows-sockets-error-codes-2.md#wsaeafnosupport), then it means IPv4 is not enabled. In this case, a **setsockopt** function failure when attempting to set the IP\_PKTINFO socket option can be ignored by the application. Otherwise a failure when attempting to set the IP\_PKTINFO socket option should be treated as an unexpected error.
+If an application tries to set the IP\_PKTINFO socket option on a dual-stack datagram socket and IPv4 is disabled on the system, then the [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function will fail and [**WSAGetLastError**](/windows/win32/winsock/nf-winsock-wsagetlasterror?branch=master) will return with an error of [WSAEINVAL](windows-sockets-error-codes-2.md#wsaenetdown). This same error is also returned by the **setsockopt** function as a result of other errors. If an application tries to set an IPPROTO\_IP level socket option on a dual-stack socket and it fails with [WSAEINVAL](windows-sockets-error-codes-2.md#wsaenetdown), then the application should determine if IPv4 is disabled on the local computer. One method that can be used to detect if IPv4 is enabled or disabled is to call the [**socket**](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) function with the *af* parameter set to AF\_INET to try and create an IPv4 socket. If the **socket** function fails and **WSAGetLastError** returns an error of [WSAEAFNOSUPPORT](windows-sockets-error-codes-2.md#wsaeafnosupport), then it means IPv4 is not enabled. In this case, a **setsockopt** function failure when attempting to set the IP\_PKTINFO socket option can be ignored by the application. Otherwise a failure when attempting to set the IP\_PKTINFO socket option should be treated as an unexpected error.
 
 Note that the *Ws2ipdef.h* header file is automatically included in *Ws2tcpip.h*, and should never be used directly.
 
@@ -140,10 +145,10 @@ Note that the *Ws2ipdef.h* header file is automatically included in *Ws2tcpip.h*
 [Dual-Stack Sockets](dual-stack-sockets.md)
 </dt> <dt>
 
-[**getsockopt**](getsockopt-2.md)
+[**getsockopt**](/windows/win32/winsock/nf-winsock-getsockopt?branch=master)
 </dt> <dt>
 
-[**in\_pktinfo**](in-pktinfo-2.md)
+[**in\_pktinfo**](/windows/win32/Ws2ipdef/ns-ws2ipdef-in_pktinfo?branch=master)
 </dt> <dt>
 
 [**IPPROTO\_IP Socket Options**](ipproto-ip-socket-options.md)
@@ -152,13 +157,13 @@ Note that the *Ws2ipdef.h* header file is automatically included in *Ws2tcpip.h*
 [IPV6\_PKTINFO](ipv6-pktinfo.md)
 </dt> <dt>
 
-[**setsockopt**](setsockopt-2.md)
+[**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master)
 </dt> <dt>
 
-[**socket**](socket-2.md)
+[**socket**](/windows/win32/Winsock2/nf-winsock2-socket?branch=master)
 </dt> <dt>
 
-[**WSAMSG**](wsamsg-2.md)
+[**WSAMSG**](/windows/win32/Ws2def/ns-ws2def-_wsamsg?branch=master)
 </dt> <dt>
 
 [**WSARecvMsg**](wsarecvmsg-2.md)

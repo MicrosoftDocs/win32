@@ -1,7 +1,12 @@
 ---
 title: call - ps
 description: Performs a function call to the instruction marked with the provided label.
-ms.assetid: 'd5f5e5a1-f205-477d-a11b-ff9eeeec6c95'
+ms.assetid: d5f5e5a1-f205-477d-a11b-ff9eeeec6c95
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # call - ps

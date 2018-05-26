@@ -4,10 +4,13 @@ description: This topic explains some of the best practices for developing Windo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5260B4BB-FF3B-47AF-9936-65ED3045AF4D'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 5260B4BB-FF3B-47AF-9936-65ED3045AF4D
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Best Practices for MI Provider and Client Development

@@ -4,13 +4,16 @@ description: Continues an enumeration session that is opened by the OpenConforma
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '05e1ded8-064f-44e6-bd2e-539a40376d05'
-ms.prod: 'windows-server-dev'
+ms.assetid: 05e1ded8-064f-44e6-bd2e-539a40376d05
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PullConformantInstances method iSCSI Software Target API", "PullConformantInstances method iSCSI Software Target API , MSFTSM_RegisteredProfile class", "MSFTSM_RegisteredProfile class iSCSI Software Target API , PullConformantInstances method"]
+keywords:
+- PullConformantInstances method iSCSI Software Target API
+- PullConformantInstances method iSCSI Software Target API , MSFTSM_RegisteredProfile class
+- MSFTSM_RegisteredProfile class iSCSI Software Target API , PullConformantInstances method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PullConformantInstances method of the MSFTSM\_RegisteredProfile class
@@ -32,11 +38,11 @@ This method is inherited from the [**CIM\_RegisteredProfile**](https://msdn.micr
 
 ```mof
 uint32 PullConformantInstances(
-  [in]      uint32  MaxObjectCount,
-  [in, out] string  EnumerationContext,
-  [out]     boolean EndOfSequence,
-  [out]     uint16  InstanceType[],
-  [out]     string  InstanceWithPathList[]
+  [in]      uint32  MaxObjectCount,
+  [in, out] string  EnumerationContext,
+  [out]     boolean EndOfSequence,
+  [out]     uint16  InstanceType[],
+  [out]     string  InstanceWithPathList[]
 );
 ```
 
@@ -130,7 +136,7 @@ Returns zero on success; otherwise returns an error.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\Interop<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -144,9 +150,9 @@ Returns zero on success; otherwise returns an error.
 [**MSFTSM\_RegisteredProfile**](msftsm-registeredprofile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

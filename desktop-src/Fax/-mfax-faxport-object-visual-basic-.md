@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxPort object permits a fax client Microsoft Visual Basic application to access configuration information for a fax port on a connected fax server.'
-ms.assetid: '7888d042-7d85-4921-b233-f6e95e0c80d9'
+---
+Description: The FaxPort object permits a fax client Microsoft Visual Basic application to access configuration information for a fax port on a connected fax server.
+ms.assetid: 7888d042-7d85-4921-b233-f6e95e0c80d9
 title: FaxPort object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPort object
@@ -69,7 +74,7 @@ You should not implement this class. The Microsoft standard implementation provi
 
 1.  Call the Visual Basic [**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) function to create a [**FaxServer object**](-mfax-faxserver-object-visual-basic-.md).
 2.  Call the [**GetPorts**](-mfax-ifaxserver-getports-vb.md) method of the [**FaxServer**](-mfax-faxserver-object-visual-basic-.md) object to create a [**FaxPorts object**](-mfax-faxports-object-visual-basic-.md) on the connected fax server.
-3.  Retrieve the [**Count**](-mfax-ifaxports-get-count.md) property and then the [**Item**](-mfax-ifaxports-get-item.md) property for the [**FaxPorts**](-mfax-faxports-object-visual-basic-.md) collection to create a **FaxPort** object.
+3.  Retrieve the [**Count**](/windows/previous-versions/Faxcom/nf-faxcom-ifaxports-get_count?branch=master) property and then the [**Item**](/windows/previous-versions/Faxcom/nf-faxcom-ifaxports-get_item?branch=master) property for the [**FaxPorts**](-mfax-faxports-object-visual-basic-.md) collection to create a **FaxPort** object.
 
 ## Requirements
 

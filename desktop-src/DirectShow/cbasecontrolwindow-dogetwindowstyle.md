@@ -1,7 +1,12 @@
 ---
-Description: 'The DoGetWindowStyle method retrieves the current normal or extended window styles.'
-ms.assetid: '1a854896-4bcb-49d0-92e4-40d1923712f9'
-title: 'CBaseControlWindow.DoGetWindowStyle method'
+Description: The DoGetWindowStyle method retrieves the current normal or extended window styles.
+ms.assetid: 1a854896-4bcb-49d0-92e4-40d1923712f9
+title: CBaseControlWindow.DoGetWindowStyle method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.DoGetWindowStyle method
@@ -13,8 +18,8 @@ The `DoGetWindowStyle` method retrieves the current normal or extended window st
 
 ```C++
 HRESULT DoGetWindowStyle(
-   long *pStyle,
-   long WindowLong
+   long *pStyle,
+   long WindowLong
 );
 ```
 
@@ -45,7 +50,7 @@ Value specifying which styles to retrieve. Must be one of the following:
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -75,9 +80,9 @@ This member function calls the Win32 **GetWindowLong** function to retrieve the 
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: Represents a list of the available disks contained in a cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7d4bbde2-638b-41a4-8909-5e3bf93dea5a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7d4bbde2-638b-41a4-8909-5e3bf93dea5a
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ClusterToAvailableDisk class", "MSCluster_ClusterToAvailableDisk class, described"]
+keywords:
+- MSCluster_ClusterToAvailableDisk class
+- MSCluster_ClusterToAvailableDisk class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ClusterToAvailableDisk class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 [Association, Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{A02673D9-06DF-4CB0-85A3-7D32C2278C16}"), AMENDMENT]
 class MSCluster_ClusterToAvailableDisk : CIM_Component
 {
-  MSCluster_Cluster       REF GroupComponent;
+  MSCluster_Cluster       REF GroupComponent;
   MSCluster_AvailableDisk REF PartComponent;
 };
 ```
@@ -95,7 +100,7 @@ The **MSCluster\_ClusterToAvailableDisk** class is derived from the [**CIM\_Comp
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -118,9 +123,9 @@ The **MSCluster\_ClusterToAvailableDisk** class is derived from the [**CIM\_Comp
 [**MSCluster\_AvailableDisk**](mscluster-availabledisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

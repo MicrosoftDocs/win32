@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines error codes that are returned by CAPICOM.'
-ms.assetid: 'e72b8290-b482-4629-8b87-5a15677865a6'
-title: 'CAPICOM\_ERROR\_CODE enumeration'
+---
+Description: Defines error codes that are returned by CAPICOM.
+ms.assetid: e72b8290-b482-4629-8b87-5a15677865a6
+title: CAPICOM\_ERROR\_CODE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_ERROR\_CODE enumeration

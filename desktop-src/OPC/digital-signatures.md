@@ -1,7 +1,12 @@
 ---
 title: Digital Signatures Fundamentals
 description: The topic in this section describes using the Packaging APIs to generate, modify, and validate package signatures.
-ms.assetid: '1ce8cdf7-018a-4fc9-9413-ed1a845333dd'
+ms.assetid: 1ce8cdf7-018a-4fc9-9413-ed1a845333dd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Digital Signatures Fundamentals

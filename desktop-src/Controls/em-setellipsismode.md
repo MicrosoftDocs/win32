@@ -1,8 +1,9 @@
 ---
 title: EM\_SETELLIPSISMODE message
 description: This message sets the current ellipsis mode.
-ms.assetid: 'C77263E8-424B-4EDE-ACBF-BA85248FC31F'
-keywords: ["EM_SETELLIPSISMODE message Windows Controls"]
+ms.assetid: C77263E8-424B-4EDE-ACBF-BA85248FC31F
+keywords:
+- EM_SETELLIPSISMODE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETELLIPSISMODE message
 
-This message sets the current ellipsis mode. When enabled, an ellipsis (…) is displayed for text that doesn’t fit in the display window. The ellipsis is only used when the control isn’t active. When active, scroll bars are used to reveal text that doesn’t fit into the display window.
+This message sets the current ellipsis mode. When enabled, an ellipsis ( ) is displayed for text that doesn t fit in the display window. The ellipsis is only used when the control isn t active. When active, scroll bars are used to reveal text that doesn t fit into the display window.
 
 
 ```C++
@@ -50,7 +56,7 @@ A DWORD which receives one of the following values.
 
 
 
- 
+ 
 
 The bits for these values all fit in the **ELLIPSIS\_MASK**.
 
@@ -66,8 +72,8 @@ If wparam is 0 and lparam is one of the values in the table above, the return va
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -82,9 +88,9 @@ If wparam is 0 and lparam is one of the values in the table above, the return va
 [**EM\_GETELLIPSISSTATE**](em-getellipsisstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

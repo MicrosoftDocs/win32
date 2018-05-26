@@ -1,8 +1,18 @@
 ---
 title: Testing Tools
 description: Describes tools for testing the accessibility implementation of your application to ensure that the UI is fully accessible to client applications, and to users who access your application though the keyboard.
-ms.assetid: 'abacbec4-6ccd-4853-afcd-a92a6656f393'
-keywords: ["accessibility testing tools", "testing tools,accessibility", "accessibility testing", "UIA", "MSAA"]
+ms.assetid: abacbec4-6ccd-4853-afcd-a92a6656f393
+keywords:
+- accessibility testing tools
+- testing tools,accessibility
+- accessibility testing
+- UIA
+- MSAA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing Tools

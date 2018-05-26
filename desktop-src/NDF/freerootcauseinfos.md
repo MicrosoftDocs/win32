@@ -1,8 +1,9 @@
 ---
 title: FreeRootCauseInfos function
 description: Deallocates the memory allocated internally to an array of RootCauseInfo structures.
-ms.assetid: 'b45fa432-0db4-470b-80ce-ae25c33f88d6'
-keywords: ["FreeRootCauseInfos function NDF"]
+ms.assetid: b45fa432-0db4-470b-80ce-ae25c33f88d6
+keywords:
+- FreeRootCauseInfos function NDF
 topic_type:
 - apiref
 api_name:
@@ -11,20 +12,25 @@ api_location:
 - ndattributils.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreeRootCauseInfos function
 
-The **FreeRootCauseInfos** function deallocates the memory allocated internally to an array of [**RootCauseInfo**](rootcauseinfo.md) structures. This function calls [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) to deallocate memory.
+The **FreeRootCauseInfos** function deallocates the memory allocated internally to an array of [**RootCauseInfo**](/windows/win32/ndattrib/ns-ndattrib-tagrootcauseinfo?branch=master) structures. This function calls [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) to deallocate memory.
 
 ## Syntax
 
 
 ```C++
 VOID FreeRootCauseInfos(
-  _In_ RootCauseInfo *pInfo,
-       ULONG         RootCauseCount,
-       BOOL          bFreePointer
+  _In_ RootCauseInfo *pInfo,
+       ULONG         RootCauseCount,
+       BOOL          bFreePointer
 );
 ```
 
@@ -37,7 +43,7 @@ VOID FreeRootCauseInfos(
 *pInfo* \[in\]
 </dt> <dd>
 
-Type: **[**RootCauseInfo**](rootcauseinfo.md)\***
+Type: **[**RootCauseInfo**](/windows/win32/ndattrib/ns-ndattrib-tagrootcauseinfo?branch=master)\***
 
 The array of structures. The allocated memory pointed to by these structures will be freed.
 
@@ -71,8 +77,8 @@ This function does not return a value.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Ndattributils.h</dt> </dl> |
 
 
@@ -81,15 +87,15 @@ This function does not return a value.
 
 <dl> <dt>
 
-[**RootCauseInfo**](rootcauseinfo.md)
+[**RootCauseInfo**](/windows/win32/ndattrib/ns-ndattrib-tagrootcauseinfo?branch=master)
 </dt> <dt>
 
 [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

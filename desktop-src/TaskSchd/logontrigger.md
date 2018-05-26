@@ -1,8 +1,11 @@
 ---
 title: LogonTrigger object
 description: Scripting object that represents a trigger that starts a task when a user logs on.
-ms.assetid: 'c0206a18-53f2-4def-8f54-2b175a0579f4'
-keywords: ["logon trigger Task Scheduler , object", "LogonTrigger object Task Scheduler", "LogonTrigger object Task Scheduler , described"]
+ms.assetid: c0206a18-53f2-4def-8f54-2b175a0579f4
+keywords:
+- logon trigger Task Scheduler , object
+- LogonTrigger object Task Scheduler
+- LogonTrigger object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogonTrigger object
@@ -35,15 +43,15 @@ The **LogonTrigger** object has these properties.
 | [**Enabled**](trigger-enabled.md)<br/>                       | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets a Boolean value that indicates whether the trigger is enabled.<br/>                                                              |
 | [**EndBoundary**](trigger-endboundary.md)<br/>               | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets the date and time when the trigger is deactivated. The trigger cannot start the task after it is deactivated.<br/>               |
 | [**ExecutionTimeLimit**](trigger-executiontimelimit.md)<br/> | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets the maximum amount of time that the task launched by the trigger is allowed to run.<br/>                                         |
-| [**Id**](itrigger-id.md)<br/>                                | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets the identifier for the trigger.<br/>                                                                                             |
+| [**Id**](/windows/win32/taskschd/nf-taskschd-itrigger-get_id?branch=master)<br/>                                | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets the identifier for the trigger.<br/>                                                                                             |
 | [**Repetition**](trigger-repetition.md)<br/>                 | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets a value that indicates how often the task is run and how long the repetition pattern is repeated after the task is started.<br/> |
 | [**StartBoundary**](trigger-startboundary.md)<br/>           | Read/write<br/> | Inherited from the [**Trigger**](trigger.md) object. Gets or sets the date and time when the trigger is activated.<br/>                                                                            |
-| [**Type**](itrigger-type.md)<br/>                            | Read-only<br/>  | Inherited from the [**Trigger**](trigger.md) object. Gets the type of the trigger.<br/>                                                                                                            |
+| [**Type**](/windows/win32/taskschd/nf-taskschd-itrigger-get_type?branch=master)<br/>                            | Read-only<br/>  | Inherited from the [**Trigger**](trigger.md) object. Gets the type of the trigger.<br/>                                                                                                            |
 | [**UserId**](logontrigger-userid.md)<br/>                    | Read/write<br/> | Gets or sets the identifier of the user.<br/>                                                                                                                                                       |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,8 +69,8 @@ For more information and example code for this scripting object, see [Logon Trig
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -75,9 +83,9 @@ For more information and example code for this scripting object, see [Logon Trig
 [**Trigger**](trigger.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

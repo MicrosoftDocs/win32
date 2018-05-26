@@ -4,10 +4,13 @@ description: To register an application with Remote Desktop Services, store the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8524cb7a-a930-431a-bc5f-b0793781de15'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8524cb7a-a930-431a-bc5f-b0793781de15
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Monitoring session connections and disconnections

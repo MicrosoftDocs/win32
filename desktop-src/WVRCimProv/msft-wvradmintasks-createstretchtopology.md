@@ -4,13 +4,19 @@ description: Creates a replication partnership between two new or existing repli
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ad29f2be-b73d-4a80-b6ea-426d22086b62'
-ms.prod: 'windows-server-dev'
+ms.assetid: ad29f2be-b73d-4a80-b6ea-426d22086b62
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateStretchTopology method", "CreateStretchTopology method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, CreateStretchTopology method"]
+keywords:
+- CreateStretchTopology method
+- CreateStretchTopology method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, CreateStretchTopology method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateStretchTopology method of the MSFT\_WvrAdminTasks class
@@ -24,19 +30,19 @@ Creates a replication partnership between two new or existing replication groups
 
 ```mof
 uint32 CreateStretchTopology(
-  [in]  string                   ClusterName,
-  [in]  string                   SourceRGName,
-  [in]  string                   SourceRGDescription,
-  [in]  string                   SourceVolumeName[],
-  [in]  string                   SourceLogVolumeName,
-  [in]  string                   DestinationRGName,
-  [in]  string                   DestinationRGDescription,
-  [in]  string                   DestinationVolumeName[],
-  [in]  string                   DestinationLogVolumeName,
-  [in]  uint64                   LogSizeInBytes,
-  [in]  boolean                  PreventReplication,
-  [in]  boolean                  Seeded,
-  [out] MSFT_WvrReplicationGroup Output[]
+  [in]  string                   ClusterName,
+  [in]  string                   SourceRGName,
+  [in]  string                   SourceRGDescription,
+  [in]  string                   SourceVolumeName[],
+  [in]  string                   SourceLogVolumeName,
+  [in]  string                   DestinationRGName,
+  [in]  string                   DestinationRGDescription,
+  [in]  string                   DestinationVolumeName[],
+  [in]  string                   DestinationLogVolumeName,
+  [in]  uint64                   LogSizeInBytes,
+  [in]  boolean                  PreventReplication,
+  [in]  boolean                  Seeded,
+  [out] MSFT_WvrReplicationGroup Output[]
 );
 ```
 
@@ -144,7 +150,7 @@ Returns the resulting [**MSFT\_WvrReplicationGroup**](msft-wvrreplicationgroup.m
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -158,9 +164,9 @@ Returns the resulting [**MSFT\_WvrReplicationGroup**](msft-wvrreplicationgroup.m
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

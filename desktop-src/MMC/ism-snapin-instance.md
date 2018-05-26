@@ -4,17 +4,21 @@ description: The ISM\_SNAPIN\_INSTANCE clipboard format returns the instance ide
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4b430a6a-b694-4104-a9ee-4100c3cae35a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4b430a6a-b694-4104-a9ee-4100c3cae35a
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ISM_SNAPIN_INSTANCE clipboard format MMC"]
+keywords:
+- ISM_SNAPIN_INSTANCE clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - ISM_SNAPIN_INSTANCE
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ISM\_SNAPIN\_INSTANCE clipboard format

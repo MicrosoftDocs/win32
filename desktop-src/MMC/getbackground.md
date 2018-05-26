@@ -4,11 +4,14 @@ description: The GetBackground method returns the MMCDisplayObject object used f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3274b3ae-f60f-4713-87f6-23102271e4d6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 3274b3ae-f60f-4713-87f6-23102271e4d6
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetBackground method MMC", "GetBackground method MMC , MMCCtrl class", "MMCCtrl class MMC , GetBackground method"]
+keywords:
+- GetBackground method MMC
+- GetBackground method MMC , MMCCtrl class
+- MMCCtrl class MMC , GetBackground method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCCtrl.GetBackground method
@@ -62,9 +68,9 @@ An **MMCDisplayObject** object that contains the display information for the tas
 
 
 
- 
+ 
 
- 
+ 
 
 
 

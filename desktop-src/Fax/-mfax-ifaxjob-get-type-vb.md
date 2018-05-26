@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Type property is a number that describes the type of fax job represented by the object.'
-ms.assetid: '04d3f8e2-cf49-4497-bf89-7b9f777923b2'
-title: 'FaxJob.Type property'
+---
+Description: The Type property is a number that describes the type of fax job represented by the object.
+ms.assetid: 04d3f8e2-cf49-4497-bf89-7b9f777923b2
+title: FaxJob.Type property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.Type property
@@ -106,10 +111,10 @@ The fax server did not route the fax because it did not receive the entire trans
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> </dl>
 
  

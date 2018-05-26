@@ -2,13 +2,15 @@
 title: PS\_RoutingProtocolPreference class
 description: Manages routing protocol preferences.
 audience: developer
-ms.assetid: '4ea2ea36-ef27-4c51-846b-16c728f738e9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4ea2ea36-ef27-4c51-846b-16c728f738e9
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_RoutingProtocolPreference class", "PS_RoutingProtocolPreference class, described"]
+keywords:
+- PS_RoutingProtocolPreference class
+- PS_RoutingProtocolPreference class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_RoutingProtocolPreference class
@@ -53,7 +58,7 @@ The **PS\_RoutingProtocolPreference** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,16 +67,16 @@ The **PS\_RoutingProtocolPreference** class has these methods.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

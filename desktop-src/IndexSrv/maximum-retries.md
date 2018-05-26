@@ -1,7 +1,12 @@
 ---
 title: Maximum Retries
 description: Maximum Retries
-ms.assetid: 'e345dece-47e9-467a-83a4-dcffc3c41cf0'
+ms.assetid: e345dece-47e9-467a-83a4-dcffc3c41cf0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Maximum Retries

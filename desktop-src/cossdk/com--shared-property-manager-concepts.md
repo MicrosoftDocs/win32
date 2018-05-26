@@ -1,7 +1,12 @@
 ---
-Description: 'In COM+, shared transient state for objects is managed by using the shared property manager (SPM). The SPM is a resource dispenser that you can use to share state among multiple objects within a server process.'
-ms.assetid: '31b50c2a-68b5-4816-9a56-8cd9475e7beb'
+Description: In COM+, shared transient state for objects is managed by using the shared property manager (SPM). The SPM is a resource dispenser that you can use to share state among multiple objects within a server process.
+ms.assetid: 31b50c2a-68b5-4816-9a56-8cd9475e7beb
 title: COM+ Shared Property Manager Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Shared Property Manager Concepts
@@ -19,7 +24,7 @@ Shared properties stored in the SPM are available only to objects running in the
 
 It's also important for components sharing properties to have the same activation attribute. If two components in the same package have different activation attributes, they generally won't be able to share properties. For example, if one component is configured to run in a client process and the other is configured to run in a server process, their objects will usually run in different processes even though they're in the same package.
 
-You should always instantiate the [**SharedPropertyGroupManager**](sharedpropertygroupmanager.md), [**SharedPropertyGroup**](sharedpropertygroup.md), and [**SharedProperty**](sharedproperty.md) objects from COM+ components rather than from a base client. If a base client creates shared property groups and properties, the shared properties are inside the base-client process, not in a server process. This means the COM+ objects cannot share the properties unless the objects are also running in the client process (which is generally not a good idea).
+You should always instantiate the [**SharedPropertyGroupManager**](/windows/win32/ComSvcs/?branch=master), [**SharedPropertyGroup**](/windows/win32/ComSvcs/?branch=master), and [**SharedProperty**](/windows/win32/ComSvcs/?branch=master) objects from COM+ components rather than from a base client. If a base client creates shared property groups and properties, the shared properties are inside the base-client process, not in a server process. This means the COM+ objects cannot share the properties unless the objects are also running in the client process (which is generally not a good idea).
 
 ## Related topics
 

@@ -4,11 +4,15 @@ description: Ensures that a snap-in can be properly added to a console.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '75139303-9957-489b-a2e2-4ec8a11d7bc4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 75139303-9957-489b-a2e2-4ec8a11d7bc4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["snap-in testing MMC , testing to a console file"]
+keywords:
+- snap-in testing MMC , testing to a console file
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Testing Snap-ins to a Console File

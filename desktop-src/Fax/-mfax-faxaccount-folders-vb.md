@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the folders of the account, including the incoming and outgoing archives and the incoming and outgoing queues.'
-ms.assetid: '2cc1dfcc-047d-48bf-ab17-4f6b3771ab29'
-title: 'FaxAccount.Folders property'
+---
+Description: Represents the folders of the account, including the incoming and outgoing archives and the incoming and outgoing queues.
+ms.assetid: 2cc1dfcc-047d-48bf-ab17-4f6b3771ab29
+title: FaxAccount.Folders property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccount.Folders property
@@ -43,7 +48,7 @@ Address of a pointer to an object that represents the folders for the account.
 [**FaxAccount**](-mfax-faxaccount.md)
 </dt> <dt>
 
-[**IFaxAccount**](-mfax-faxaccount-cpp.md)
+[**IFaxAccount**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccount?branch=master)
 </dt> </dl>
 
  

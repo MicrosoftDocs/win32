@@ -1,14 +1,20 @@
 ---
 title: Data (EventDataType) Element
 description: A top-level data item that is defined in the template for the event.
-ms.assetid: '45290d4e-fae5-44e2-bab1-5ec11f9dfe13'
-keywords: ["Data element EventLog"]
+ms.assetid: 45290d4e-fae5-44e2-bab1-5ec11f9dfe13
+keywords:
+- Data element EventLog
 topic_type:
 - apiref
 api_name:
 - Data
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data (EventDataType) Element
@@ -29,8 +35,8 @@ The **Data** element is defined by the [**EventDataType**](eventschema-eventdata
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **Data** element is defined by the [**EventDataType**](eventschema-eventdata
 [**EventData (EventType)**](eventschema-eventdata-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

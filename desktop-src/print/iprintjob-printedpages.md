@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the number of pages that have been printed.'
-ms.assetid: '37F09500-1EDB-459D-8845-789734081B0C'
-title: 'IPrintJob::PrintedPages property'
+---
+Description: Gets the number of pages that have been printed.
+ms.assetid: 37F09500-1EDB-459D-8845-789734081B0C
+title: IPrintJobPrintedPages property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintJob::PrintedPages property

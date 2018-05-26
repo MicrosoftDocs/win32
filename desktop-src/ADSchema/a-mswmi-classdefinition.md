@@ -4,17 +4,22 @@ description: Holds a class definition to be enstated in some WMI namespace.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b57026f6-2e77-4853-b118-3edb6effc54c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b57026f6-2e77-4853-b118-3edb6effc54c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-ClassDefinition attribute AD Schema", "msWMI-ClassDefinition attribute AD Schema"]
+keywords:
+- ms-WMI-ClassDefinition attribute AD Schema
+- msWMI-ClassDefinition attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-ClassDefinition
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-ClassDefinition attribute

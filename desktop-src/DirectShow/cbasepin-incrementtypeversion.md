@@ -1,7 +1,12 @@
 ---
-Description: 'The IncrementTypeVersion method increments the version number on the set of preferred media types.'
-ms.assetid: '30cad0ae-58e7-47f6-94ee-75e24ce0a7e9'
-title: 'CBasePin.IncrementTypeVersion method'
+Description: The IncrementTypeVersion method increments the version number on the set of preferred media types.
+ms.assetid: 30cad0ae-58e7-47f6-94ee-75e24ce0a7e9
+title: CBasePin.IncrementTypeVersion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.IncrementTypeVersion method
@@ -47,9 +52,9 @@ This method increments the [**CBasePin::m\_TypeVersion**](cbasepin-m-typeversion
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

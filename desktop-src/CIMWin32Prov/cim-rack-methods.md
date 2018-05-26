@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Rack class exposes the following methods.'
+Description: The CIM\_Rack class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0828BF9E-D374-4FF4-B6D9-C1492CE108E3'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0828BF9E-D374-4FF4-B6D9-C1492CE108E3
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Rack Methods'
+title: CIM\_Rack Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Rack Methods

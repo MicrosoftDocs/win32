@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deprecated. Identifies whether the specified year is a leap year within the given era for the specific calendar.'
-ms.assetid: '91f58915-f0c6-4c7a-9d9a-96e255d799fd'
+---
+Description: Deprecated. Identifies whether the specified year is a leap year within the given era for the specific calendar.
+ms.assetid: 91f58915-f0c6-4c7a-9d9a-96e255d799fd
 title: IsCalendarLeapYear function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsCalendarLeapYear function

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables or disables read-ahead in a media source.'
-ms.assetid: 'b2b8711f-ba63-4fba-bb88-8d254135eb21'
-title: 'MFPKEY\_MediaSource\_DisableReadAhead property'
+---
+Description: Enables or disables read-ahead in a media source.
+ms.assetid: b2b8711f-ba63-4fba-bb88-8d254135eb21
+title: MFPKEY\_MediaSource\_DisableReadAhead property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_MediaSource\_DisableReadAhead property

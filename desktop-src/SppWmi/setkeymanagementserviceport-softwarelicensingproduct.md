@@ -3,8 +3,11 @@ title: SetKeyManagementServicePort method of the SoftwareLicensingProduct class
 description: Sets the TCP port used by a client to make requests of a KMS host.
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9d123d7d-c471-4d4e-9d67-942c0ec1b662'
-keywords: ["SetKeyManagementServicePort method Windows Management Instrumentation", "SetKeyManagementServicePort method Windows Management Instrumentation , SoftwareLicensingProduct class", "SoftwareLicensingProduct class Windows Management Instrumentation , SetKeyManagementServicePort method"]
+ms.assetid: 9d123d7d-c471-4d4e-9d67-942c0ec1b662
+keywords:
+- SetKeyManagementServicePort method Windows Management Instrumentation
+- SetKeyManagementServicePort method Windows Management Instrumentation , SoftwareLicensingProduct class
+- SoftwareLicensingProduct class Windows Management Instrumentation , SetKeyManagementServicePort method
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - SppWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetKeyManagementServicePort method of the SoftwareLicensingProduct class
@@ -24,7 +32,7 @@ Sets the TCP port used by a client to make requests of a KMS host.
 
 ```mof
 uint32 SetKeyManagementServicePort(
-  [in] uint32 PortNumber
+  [in] uint32 PortNumber
 );
 ```
 
@@ -47,8 +55,8 @@ Specifies the port number to use for the requests. If no port is specified, port
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows 7<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>SppWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SppWmi.dll</dt> </dl> |
@@ -62,9 +70,9 @@ Specifies the port number to use for the requests. If no port is specified, port
 [**SoftwareLicensingProduct**](softwarelicensingproduct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

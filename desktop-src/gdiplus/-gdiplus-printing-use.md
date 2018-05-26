@@ -1,12 +1,17 @@
 ---
-Description: 'With a few minor adjustments to your code, you can send Windows GDI+ output to a printer rather than to a screen.'
-ms.assetid: 'be6286e9-d125-40ad-b33e-b4e734ac2709'
+Description: With a few minor adjustments to your code, you can send Windows GDI+ output to a printer rather than to a screen.
+ms.assetid: be6286e9-d125-40ad-b33e-b4e734ac2709
 title: Printing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Printing
 
-With a few minor adjustments to your code, you can send Windows GDI+ output to a printer rather than to a screen. To draw on a printer, obtain a device context handle for the printer and pass that handle to a [**Graphics**](-gdiplus-class-graphics-class.md) constructor. Place your GDI+ drawing commands in between calls to [StartDoc](http://msdn.microsoft.com/library/en-us/gdi/prntspol_95sz.asp) and [EndDoc](http://msdn.microsoft.com/library/en-us/gdi/prntspol_0qhv.asp).
+With a few minor adjustments to your code, you can send Windows GDI+ output to a printer rather than to a screen. To draw on a printer, obtain a device context handle for the printer and pass that handle to a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) constructor. Place your GDI+ drawing commands in between calls to [StartDoc](http://msdn.microsoft.com/library/en-us/gdi/prntspol_95sz.asp) and [EndDoc](http://msdn.microsoft.com/library/en-us/gdi/prntspol_0qhv.asp).
 
 The following topics cover sending GDI+ output to printers in more detail:
 

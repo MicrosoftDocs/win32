@@ -1,14 +1,19 @@
 ---
-Description: 'After a queue is committed by calling SetupCommitFileQueue, it will begin to process the queued operations. At each step, the queue sends a notification to the callback routine specified in the call to SetupCommitFileQueue.'
-ms.assetid: '4a171b4a-8623-4be3-81ee-99081fe23034'
+Description: After a queue is committed by calling SetupCommitFileQueue, it will begin to process the queued operations. At each step, the queue sends a notification to the callback routine specified in the call to SetupCommitFileQueue.
+ms.assetid: 4a171b4a-8623-4be3-81ee-99081fe23034
 title: Queue Notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Queue Notifications
 
-After a queue is committed by calling [**SetupCommitFileQueue**](setupcommitfilequeue.md), it will begin to process the queued operations. At each step, the queue sends a notification to the callback routine specified in the call to **SetupCommitFileQueue**.
+After a queue is committed by calling [**SetupCommitFileQueue**](/windows/win32/Setupapi/nf-setupapi-setupcommitfilequeuea?branch=master), it will begin to process the queued operations. At each step, the queue sends a notification to the callback routine specified in the call to **SetupCommitFileQueue**.
 
-Following is the syntax that [**SetupCommitFileQueue**](setupcommitfilequeue.md) uses to send a notification to the callback routine.
+Following is the syntax that [**SetupCommitFileQueue**](/windows/win32/Setupapi/nf-setupapi-setupcommitfilequeuea?branch=master) uses to send a notification to the callback routine.
 
 ``` syntax
 MsgHandler(          //the specified callback routine

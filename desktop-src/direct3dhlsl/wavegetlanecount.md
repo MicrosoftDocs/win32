@@ -1,14 +1,20 @@
 ---
 title: WaveGetLaneCount function
 description: Returns the number of lanes in a wave on this architecture.
-ms.assetid: '04059B5E-0F62-4623-84AD-E41FF7166B34'
-keywords: ["WaveGetLaneCount function HLSL"]
+ms.assetid: 04059B5E-0F62-4623-84AD-E41FF7166B34
+keywords:
+- WaveGetLaneCount function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveGetLaneCount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveGetLaneCount function

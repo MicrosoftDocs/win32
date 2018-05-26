@@ -1,7 +1,12 @@
 ---
 title: The WinSNMP Model
 description: The WinSNMP-compliant model includes the following basic components.
-ms.assetid: '491df017-0b91-4fcf-97c3-4e296c3324bc'
+ms.assetid: 491df017-0b91-4fcf-97c3-4e296c3324bc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The WinSNMP Model

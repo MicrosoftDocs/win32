@@ -1,7 +1,12 @@
-﻿---
-Description: 'Generates a mesh with reordered faces and vertices to optimize drawing performance. This method reorders the existing mesh.'
-ms.assetid: '2cdaf627-d1d3-44f0-a5ae-9023d4b0de45'
-title: 'ID3DXMesh::OptimizeInplace method'
+---
+Description: Generates a mesh with reordered faces and vertices to optimize drawing performance. This method reorders the existing mesh.
+ms.assetid: 2cdaf627-d1d3-44f0-a5ae-9023d4b0de45
+title: ID3DXMeshOptimizeInplace method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXMesh::OptimizeInplace method

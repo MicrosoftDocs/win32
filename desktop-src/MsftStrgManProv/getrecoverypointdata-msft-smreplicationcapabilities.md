@@ -4,11 +4,14 @@ description: Retrieves recovery point data for a storage subsystem.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b4efeedd-995d-4ed0-bcb5-d40e0bbccdfd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: b4efeedd-995d-4ed0-bcb5-d40e0bbccdfd
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetRecoveryPointData method", "GetRecoveryPointData method, MSFT_SMReplicationCapabilities class", "MSFT_SMReplicationCapabilities class, GetRecoveryPointData method"]
+keywords:
+- GetRecoveryPointData method
+- GetRecoveryPointData method, MSFT_SMReplicationCapabilities class
+- MSFT_SMReplicationCapabilities class, GetRecoveryPointData method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetRecoveryPointData method of the MSFT\_SMReplicationCapabilities class
@@ -28,13 +34,13 @@ Retrieves recovery point data for a storage subsystem.
 
 ```mof
 uint32 GetRecoveryPointData(
-  [in]            uint16                ReplicationType,
-  [out]           uint32                DefaultRecoveryPoint,
-  [out]           Uint32                RecoveryPointValues[],
-  [out]           uint16                RecoveryPointIndicator,
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            uint16                ReplicationType,
+  [out]           uint32                DefaultRecoveryPoint,
+  [out]           Uint32                RecoveryPointValues[],
+  [out]           uint16                RecoveryPointIndicator,
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -226,7 +232,7 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>26–32767</dd> <dt>
+</dt> <dd>26 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -330,7 +336,7 @@ The possible return values are:
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -344,9 +350,9 @@ The possible return values are:
 [**MSFT\_SMReplicationCapabilities**](msft-smreplicationcapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

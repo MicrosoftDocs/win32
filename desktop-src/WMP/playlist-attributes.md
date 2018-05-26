@@ -1,8 +1,24 @@
 ---
 title: Playlist Attributes
 description: Playlist Attributes
-ms.assetid: '3f447fa8-2d09-49c3-8efd-6bf048429a6b'
-keywords: ["Windows Media Player,playlists", "Windows Media Player object model,playlists", "object model,playlists", "Windows Media Player Mobile,playlists", "Windows Media Player ActiveX control,playlists", "Windows Media Player Mobile ActiveX control,playlists", "ActiveX control,playlists", "playlists,attributes", "metafile playlists,attributes", "Windows Media metafile playlists,attributes", "attributes,playlists"]
+ms.assetid: 3f447fa8-2d09-49c3-8efd-6bf048429a6b
+keywords:
+- Windows Media Player,playlists
+- Windows Media Player object model,playlists
+- object model,playlists
+- Windows Media Player Mobile,playlists
+- Windows Media Player ActiveX control,playlists
+- Windows Media Player Mobile ActiveX control,playlists
+- ActiveX control,playlists
+- playlists,attributes
+- metafile playlists,attributes
+- Windows Media metafile playlists,attributes
+- attributes,playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist Attributes

@@ -1,21 +1,26 @@
 ---
-Description: 'The NewSegment method notifies the pin that media samples received after this call are grouped as a segment. This method implements the IPin::NewSegment method.'
-ms.assetid: '8925b8b5-13dd-4127-82d8-96525bd4d6fc'
-title: 'CTransformInputPin.NewSegment method'
+Description: The NewSegment method notifies the pin that media samples received after this call are grouped as a segment. This method implements the IPinNewSegment method.
+ms.assetid: 8925b8b5-13dd-4127-82d8-96525bd4d6fc
+title: CTransformInputPin.NewSegment method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformInputPin.NewSegment method
 
-The `NewSegment` method notifies the pin that media samples received after this call are grouped as a segment. This method implements the [**IPin::NewSegment**](ipin-newsegment.md) method.
+The `NewSegment` method notifies the pin that media samples received after this call are grouped as a segment. This method implements the [**IPin::NewSegment**](/windows/win32/Strmif/nf-strmif-ipin-newsegment?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT NewSegment(
-   REFERENCE_TIME tStart,
-   REFERENCE_TIME tStop,
-   double         dRate
+   REFERENCE_TIME tStart,
+   REFERENCE_TIME tStop,
+   double         dRate
 );
 ```
 
@@ -65,9 +70,9 @@ This method overrides the [**CBasePin::NewSegment**](cbasepin-newsegment.md) met
 
 
 
- 
+ 
 
- 
+ 
 
 
 

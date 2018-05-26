@@ -1,7 +1,12 @@
 ---
-Description: 'The prefix of an item, used for e-mail messages where the subject begins with the prefix &\#0034;Re:&\#0034;.'
-ms.assetid: '3c257edc-b7f7-498d-8347-0be4fca41023'
-title: 'System.ItemNamePrefix'
+Description: The prefix of an item, used for e-mail messages where the subject begins with the prefix &\#0034;Re&\#0034;.
+ms.assetid: 3c257edc-b7f7-498d-8347-0be4fca41023
+title: System.ItemNamePrefix
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ItemNamePrefix

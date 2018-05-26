@@ -1,7 +1,12 @@
 ---
 title: Numeric Weights
 description: Numeric Weights
-ms.assetid: '0d6ec4a8-1356-42f9-8c15-78e9420acdea'
+ms.assetid: 0d6ec4a8-1356-42f9-8c15-78e9420acdea
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Numeric Weights

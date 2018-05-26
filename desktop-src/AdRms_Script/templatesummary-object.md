@@ -1,13 +1,16 @@
 ---
-Description: 'Contains descriptive information about a template.'
+Description: Contains descriptive information about a template.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '54c1f4fd-eb46-458a-bc67-af832703ffa5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 54c1f4fd-eb46-458a-bc67-af832703ffa5
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: TemplateSummary object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # TemplateSummary object
@@ -34,7 +37,7 @@ The **TemplateSummary** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -135,7 +138,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -150,9 +153,9 @@ END SUB
 [**TemplateSummaryCollection**](templatesummarycollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

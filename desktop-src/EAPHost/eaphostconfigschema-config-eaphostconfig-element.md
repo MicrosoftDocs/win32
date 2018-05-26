@@ -1,14 +1,20 @@
 ---
 title: Config (EapHostConfig) Element
 description: Is used when the method configuration is in XML text form instead of a binary BLOB.
-ms.assetid: 'f47bec23-745f-47db-84db-2556beb6a9e9'
-keywords: ["Config element EAPHost"]
+ms.assetid: f47bec23-745f-47db-84db-2556beb6a9e9
+keywords:
+- Config element EAPHost
 topic_type:
 - apiref
 api_name:
 - Config
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Config (EapHostConfig) Element
@@ -33,8 +39,8 @@ The **Config** and [**ConfigBlob**](eaphostconfigschema-configblob-eaphostconfig
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ The **Config** and [**ConfigBlob**](eaphostconfigschema-configblob-eaphostconfig
 [eaphostconfig Schema](eaphostconfigschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

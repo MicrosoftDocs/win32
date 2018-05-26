@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a handle to the handshake hash that is used for client authentication.'
-ms.assetid: '55007ce0-4bf1-4605-9b34-2931935762aa'
+Description: Retrieves a handle to the handshake hash that is used for client authentication.
+ms.assetid: 55007ce0-4bf1-4605-9b34-2931935762aa
 title: SslCreateClientAuthHash function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslCreateClientAuthHash function
@@ -13,12 +18,12 @@ The **SslCreateClientAuthHash** function retrieves a handle to the handshake [*h
 
 ```C++
 SECURITY_STATUS WINAPI SslCreateClientAuthHash(
-  _In_  NCRYPT_PROV_HANDLE hSslProvider,
-  _Out_ NCRYPT_HASH_HANDLE *phHandshakeHash,
-  _In_  DWORD              dwProtocol,
-  _In_  DWORD              dwCipherSuite,
-  _In_  LPCWSTR            pszHashAlgId,
-  _In_  DWORD              dwFlags
+  _In_  NCRYPT_PROV_HANDLE hSslProvider,
+  _Out_ NCRYPT_HASH_HANDLE *phHandshakeHash,
+  _In_  DWORD              dwProtocol,
+  _In_  DWORD              dwCipherSuite,
+  _In_  LPCWSTR            pszHashAlgId,
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -90,7 +95,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -102,16 +107,16 @@ The **SslCreateClientAuthHash** function is called for [*Transport Layer Securit
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

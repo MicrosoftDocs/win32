@@ -1,7 +1,12 @@
 ---
-Description: 'The StopStreaming method halts streaming when the filter switches out of the running state.'
-ms.assetid: '465dde15-adec-46da-b8c8-56743e0cbd29'
-title: 'CBaseRenderer.StopStreaming method'
+Description: The StopStreaming method halts streaming when the filter switches out of the running state.
+ms.assetid: 465dde15-adec-46da-b8c8-56743e0cbd29
+title: CBaseRenderer.StopStreaming method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.StopStreaming method
@@ -47,9 +52,9 @@ This method calls the [**CBaseRenderer::OnStopStreaming**](cbaserenderer-onstops
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

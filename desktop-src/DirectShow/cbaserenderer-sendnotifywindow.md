@@ -1,7 +1,12 @@
 ---
-Description: 'The SendNotifyWindow method notifies the upstream filter of the video window handle.'
-ms.assetid: 'f46390b1-d03a-4520-8c1d-b3f870d3bb0b'
-title: 'CBaseRenderer.SendNotifyWindow method'
+Description: The SendNotifyWindow method notifies the upstream filter of the video window handle.
+ms.assetid: f46390b1-d03a-4520-8c1d-b3f870d3bb0b
+title: CBaseRenderer.SendNotifyWindow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.SendNotifyWindow method
@@ -13,8 +18,8 @@ The `SendNotifyWindow` method notifies the upstream filter of the video window h
 
 ```C++
 void SendNotifyWindow(
-   IPin *pPin,
-   HWND hwnd
+   IPin *pPin,
+   HWND hwnd
 );
 ```
 
@@ -27,7 +32,7 @@ void SendNotifyWindow(
 *pPin* 
 </dt> <dd>
 
-Pointer to the [**IPin**](ipin.md) interface of the upstream filter's output pin.
+Pointer to the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface of the upstream filter's output pin.
 
 </dd> <dt>
 
@@ -44,7 +49,7 @@ This method does not return a value.
 
 ## Remarks
 
-If the output pin of the upstream filter supports the [**IMediaEventSink**](imediaeventsink.md) interface, this method sends it the [**EC\_NOTIFY\_WINDOW**](ec-notify-window.md) event code along with the window handle.
+If the output pin of the upstream filter supports the [**IMediaEventSink**](/windows/win32/Strmif/nn-strmif-imediaeventsink?branch=master) interface, this method sends it the [**EC\_NOTIFY\_WINDOW**](ec-notify-window.md) event code along with the window handle.
 
 Video renderers can override their [**CBaseRenderer::CompleteConnect**](cbaserenderer-completeconnect.md) methods to call this method. It provides a mechanism for informing the upstream filter of the window handle. If you do this, override the [**CBaseRenderer::BreakConnect**](cbaserenderer-breakconnect.md) method as well, and call `SendNotifyWindow` with a **NULL** handle.
 
@@ -66,9 +71,9 @@ Video renderers can override their [**CBaseRenderer::CompleteConnect**](cbaseren
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

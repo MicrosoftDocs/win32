@@ -4,11 +4,16 @@ description: The ExecuteShellCommand method runs a command in a window. After th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e786df29-b9ad-4cdd-81b1-99fe73a551fb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e786df29-b9ad-4cdd-81b1-99fe73a551fb
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ExecuteShellCommand method MMC", "ExecuteShellCommand method MMC , View object", "View object MMC , ExecuteShellCommand method", "ExecuteShellCommand method MMC , View interface", "View interface MMC , ExecuteShellCommand method"]
+keywords:
+- ExecuteShellCommand method MMC
+- ExecuteShellCommand method MMC , View object
+- View object MMC , ExecuteShellCommand method
+- ExecuteShellCommand method MMC , View interface
+- View interface MMC , ExecuteShellCommand method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::ExecuteShellCommand method
@@ -113,8 +121,8 @@ This method does not return a value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -122,9 +130,9 @@ This method does not return a value.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

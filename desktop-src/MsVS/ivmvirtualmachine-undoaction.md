@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine UndoAction property
 description: The UndoAction property contains the default action to be performed on all undo drives when the virtual machine is shut down from within the guest operating system.
-ms.assetid: 'b8cef869-fb3b-4d71-b49e-6e5d19075779'
-keywords: ["UndoAction property Virtual Server", "UndoAction property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , UndoAction property", "UndoAction property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , UndoAction property"]
+ms.assetid: b8cef869-fb3b-4d71-b49e-6e5d19075779
+keywords:
+- UndoAction property Virtual Server
+- UndoAction property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , UndoAction property
+- UndoAction property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , UndoAction property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::UndoAction property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_UndoAction(
-  [in]  VMUndoAction undoAction
+  [in]  VMUndoAction undoAction
 );
 
 HRESULT get_UndoAction(
-  [out] VMUndoAction *undoAction
+  [out] VMUndoAction *undoAction
 );
 ```
 
@@ -103,8 +113,8 @@ WScript.Echo "Undo action: " & objVM.UndoAction
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -119,9 +129,9 @@ WScript.Echo "Undo action: " & objVM.UndoAction
 [**VMUndoAction**](vmundoaction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

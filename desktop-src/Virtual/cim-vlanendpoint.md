@@ -1,8 +1,10 @@
 ---
 title: CIM\_VLANEndpoint class
 description: An endpoint on a switch or end station that is assigned to a VLAN, or accepts traffic from one or more VLANs.
-ms.assetid: 'c9c754b4-12e4-4a08-9e5a-c92c9e354a57'
-keywords: ["CIM_VLANEndpoint class Hyper-V", "CIM_VLANEndpoint class Hyper-V , described"]
+ms.assetid: c9c754b4-12e4-4a08-9e5a-c92c9e354a57
+keywords:
+- CIM_VLANEndpoint class Hyper-V
+- CIM_VLANEndpoint class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -40,6 +42,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VLANEndpoint class
@@ -54,35 +61,35 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Experimental, Version("2.11.0"), AMENDMENT]
 class CIM_VLANEndpoint : CIM_ProtocolEndpoint
 {
-  string   Caption;
-  string   ElementName;
+  string   Caption;
+  string   ElementName;
   datetime InstallDate;
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   Description;
-  uint16   OperationalStatus[];
-  uint16   EnabledState;
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   Description;
+  uint16   OperationalStatus[];
+  uint16   EnabledState;
   datetime TimeOfLastStateChange;
-  string   Name;
-  string   NameFormat;
-  uint16   ProtocolType;
-  uint16   ProtocolIFType;
-  string   OtherTypeDescription;
-  boolean  BroadcastResetSupported;
-  uint16   DesiredEndpointMode;
-  string   OtherEndpointMode;
-  uint16   OperationalEndpointMode;
-  uint16   DesiredVLANTrunkEncapsulation;
-  string   OtherTrunkEncapsulation;
-  uint16   OperationalVLANTrunkEncapsulation;
-  uint16   GVRPStatus;
+  string   Name;
+  string   NameFormat;
+  uint16   ProtocolType;
+  uint16   ProtocolIFType;
+  string   OtherTypeDescription;
+  boolean  BroadcastResetSupported;
+  uint16   DesiredEndpointMode;
+  string   OtherEndpointMode;
+  uint16   OperationalEndpointMode;
+  uint16   DesiredVLANTrunkEncapsulation;
+  string   OtherTrunkEncapsulation;
+  uint16   OperationalVLANTrunkEncapsulation;
+  uint16   GVRPStatus;
 };
 ```
 
@@ -106,7 +113,7 @@ The **CIM\_VLANEndpoint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -299,7 +306,7 @@ The requested VLAN encapsulation type.
 > [!Note]  
 > This property is only used when the VLAN endpoint is in trunking mode.
 
- 
+ 
 
 The possible values are:
 
@@ -356,7 +363,7 @@ The result of the negotiation between this interface and its neighbor.
 > [!Note]  
 > This value is not allowed if the endpoint does not support negotiation.
 
- 
+ 
 
 </dd> <dt>
 
@@ -455,14 +462,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -648,7 +655,7 @@ Indicates whether GARP VLAN Registration Protocol (GVRP) is enabled or disabled 
 > [!Note]  
 > This property is only used when GVRP is supported by the endpoint, and trunking mode is enabled.
 
- 
+ 
 
 The possible values are:
 
@@ -1220,7 +1227,7 @@ The current VLAN encapsulation type.
 > [!Note]  
 > This property is only used when the VLAN endpoint is in trunking mode.
 
- 
+ 
 
 The possible values are:
 
@@ -1281,7 +1288,7 @@ The result of the negotiation between this interface and its neighbor.
 > [!Note]  
 > This value is not allowed if the endpoint does not support negotiation.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1386,7 +1393,7 @@ An enumeration used to categorize and classify different instances of this class
 > [!Note]  
 > If the **ProtocolIFType** is set to 1 (Other), then the protocol type information should be provided in the **OtherTypeDescription** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint.md).
 
@@ -2972,7 +2979,7 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 **IANA Reserved**
 
 
-</dt> <dd>225–4095</dd> <dt>
+</dt> <dd>225 4095</dd> <dt>
 
 <span id="IPv4"></span><span id="ipv4"></span><span id="IPV4"></span>
 
@@ -3217,14 +3224,14 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 **DMTF Reserved**
 
 
-</dt> <dd>4407–32767</dd> <dt>
+</dt> <dd>4407 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -3243,7 +3250,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**C
 > [!Note]  
 > Deprecated description: An enumeration used to categorize and classify different instances of this class.
 
- 
+ 
 
 This property is deprecated. Instead, use the **ProtocolIFType** property.
 
@@ -3268,7 +3275,7 @@ Indicates the last requested state for the element. The current state is indicat
 > [!Note]  
 > When the value of the **EnabledState** property is **Not Applicable**, this property has no meaning.
 
- 
+ 
 
 This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md).
 
@@ -3449,7 +3456,7 @@ Indicates the primary status of the object.
 > [!Note]  
 > This property is deprecated. It is replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility, it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -3534,9 +3541,9 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -3549,9 +3556,9 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 [**CIM\_ProtocolEndpoint**](cim-protocolendpoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

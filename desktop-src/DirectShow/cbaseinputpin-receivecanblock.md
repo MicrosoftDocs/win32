@@ -1,12 +1,17 @@
 ---
-Description: 'The ReceiveCanBlock method determines whether calls to the IMemInputPin::Receive method might block. This method implements the IMemInputPin::ReceiveCanBlock method.'
-ms.assetid: 'db96e389-e1bc-4b38-8d0a-a20f0d3a4460'
-title: 'CBaseInputPin.ReceiveCanBlock method'
+Description: The ReceiveCanBlock method determines whether calls to the IMemInputPinReceive method might block. This method implements the IMemInputPinReceiveCanBlock method.
+ms.assetid: db96e389-e1bc-4b38-8d0a-a20f0d3a4460
+title: CBaseInputPin.ReceiveCanBlock method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin.ReceiveCanBlock method
 
-The `ReceiveCanBlock` method determines whether calls to the [**IMemInputPin::Receive**](imeminputpin-receive.md) method might block. This method implements the [**IMemInputPin::ReceiveCanBlock**](imeminputpin-receivecanblock.md) method.
+The `ReceiveCanBlock` method determines whether calls to the [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method might block. This method implements the [**IMemInputPin::ReceiveCanBlock**](/windows/win32/Strmif/nf-strmif-imeminputpin-receivecanblock?branch=master) method.
 
 ## Syntax
 
@@ -34,7 +39,7 @@ Returns an **HRESULT** value. Possible value include those listed in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -46,7 +51,7 @@ In the base class, this method returns S\_OK when any of the following are true:
 
 -   The filter has no output pins.
 -   An input pin connected to this filter signals that it might block.
--   An input pin connected to this filter does not support the [**IMemInputPin**](imeminputpin.md) interface.
+-   An input pin connected to this filter does not support the [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interface.
 
 ## Requirements
 
@@ -66,9 +71,9 @@ In the base class, this method returns S\_OK when any of the following are true:
 [**CBaseInputPin Class**](cbaseinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

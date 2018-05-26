@@ -1,8 +1,15 @@
 ---
 title: General WinSNMP Programming Tasks
 description: The following table lists topics that discuss general programming concepts for the WinSNMP environment.
-ms.assetid: '30a2b6e3-1462-45a4-a717-02be33da07cf'
-keywords: ["General WinSNMP Programming Tasks SNMP", "WinSNMP Programming Tasks SNMP , General"]
+ms.assetid: 30a2b6e3-1462-45a4-a717-02be33da07cf
+keywords:
+- General WinSNMP Programming Tasks SNMP
+- WinSNMP Programming Tasks SNMP , General
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General WinSNMP Programming Tasks

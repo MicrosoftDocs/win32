@@ -1,14 +1,20 @@
 ---
 title: UInt16Type Simple Type
 description: Defines an unsigned short type.
-ms.assetid: '2200bb14-8f38-43fd-aed3-2a6b3ac33ed5'
-keywords: ["UInt16Type simple type EventLog"]
+ms.assetid: 2200bb14-8f38-43fd-aed3-2a6b3ac33ed5
+keywords:
+- UInt16Type simple type EventLog
 topic_type:
 - apiref
 api_name:
 - UInt16Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UInt16Type Simple Type
@@ -29,14 +35,14 @@ Defines an unsigned short type. The value can be specified as a 2-byte integer o
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

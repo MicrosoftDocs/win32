@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes the interfaces and enumerations defined by Microsoft for the new version of the print driver - the V4 print driver. These interfaces and enumerations are available in Windows 8.'
-ms.assetid: 'BCCD7F86-1690-4826-9DCB-C259E12FAC91'
+Description: This section describes the interfaces and enumerations defined by Microsoft for the new version of the print driver - the V4 print driver. These interfaces and enumerations are available in Windows 8.
+ms.assetid: BCCD7F86-1690-4826-9DCB-C259E12FAC91
 title: V4 Print Driver Interfaces and Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # V4 Print Driver Interfaces and Enumerations

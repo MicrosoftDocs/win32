@@ -1,7 +1,12 @@
 ---
 title: Command Reference
 description: Command Reference
-ms.assetid: 'c8d57500-ad29-4325-aec7-3f857990b28c'
+ms.assetid: c8d57500-ad29-4325-aec7-3f857990b28c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Reference

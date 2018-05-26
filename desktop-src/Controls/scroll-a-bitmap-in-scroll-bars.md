@@ -1,7 +1,12 @@
 ---
 title: How to Scroll a Bitmap
-description: This section describes changes you can make to an application's main window procedure to enable the user to scroll a bitmap.
-ms.assetid: 'FA6FEA49-25EB-4C18-AD07-74BD77501906'
+description: This section describes changes you can make to an applications main window procedure to enable the user to scroll a bitmap.
+ms.assetid: FA6FEA49-25EB-4C18-AD07-74BD77501906
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Scroll a Bitmap
@@ -33,11 +38,11 @@ The device-specific information about the display device is retrieved. If a comp
 
 Processing of the [**WM\_SIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632646) message requires adjusting the scrolling range and position, so that it reflects the dimensions of the client area and the bitmap that will be displayed.
 
-The [**SetScrollInfo**](setscrollinfo.md) function sets the minimum and maximum position values, the page size, and the scrolling position for a scroll bar.
+The [**SetScrollInfo**](/windows/win32/Winuser/nf-winuser-setscrollinfo?branch=master) function sets the minimum and maximum position values, the page size, and the scrolling position for a scroll bar.
 
 ### Processing the WM\_HSCROLL and WM\_VSCROLL Messages
 
-When the [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-vscroll.md) messages are processed, the scroll bar request code is examined and the scrolling position is set to a new value that reflects the scrolling action of the user. If the scrolling position is within the scrolling range, the window is scrolled to the new position by using the [**ScrollWindow**](scrollwindow.md) function. The position of the scroll box is then adjusted by using the [**SetScrollInfo**](setscrollinfo.md) function.
+When the [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-vscroll.md) messages are processed, the scroll bar request code is examined and the scrolling position is set to a new value that reflects the scrolling action of the user. If the scrolling position is within the scrolling range, the window is scrolled to the new position by using the [**ScrollWindow**](/windows/win32/Winuser/nf-winuser-scrollwindow?branch=master) function. The position of the scroll box is then adjusted by using the [**SetScrollInfo**](/windows/win32/Winuser/nf-winuser-setscrollinfo?branch=master) function.
 
 After a window is scrolled, part of its client area is made invalid. To ensure that the invalid region is updated, use the [**UpdateWindow**](https://msdn.microsoft.com/library/windows/desktop/dd145167) function to generate a [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message. When processing the **WM\_PAINT** message, an application must repaint the invalid region at the bottom of the client area. When scrolling or resizing the client area, the example uses the [**BitBlt**](https://msdn.microsoft.com/library/windows/desktop/dd183370) function to copy the appropriate portion of the bitmap to the invalid portion of the client area.
 

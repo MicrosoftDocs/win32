@@ -1,7 +1,12 @@
 ---
-title: What's New in COM
+title: Whats New in COM
 description: The following topics describe recent changes to COM.
-ms.assetid: 'd3d9387d-1ae2-4f69-88c1-9d60f49b6568'
+ms.assetid: d3d9387d-1ae2-4f69-88c1-9d60f49b6568
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in COM

@@ -1,8 +1,18 @@
 ---
 title: PLAYER Element
 description: PLAYER Element
-ms.assetid: '009090b3-0055-4700-9078-0749da239674'
-keywords: ["Windows Media Player skins,PLAYER element", "skins,PLAYER element", "PLAYER element", "reference for skins,PLAYER element", "elements,PLAYER"]
+ms.assetid: 009090b3-0055-4700-9078-0749da239674
+keywords:
+- Windows Media Player skins,PLAYER element
+- skins,PLAYER element
+- PLAYER element
+- reference for skins,PLAYER element
+- elements,PLAYER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYER Element

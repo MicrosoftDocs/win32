@@ -1,8 +1,18 @@
 ---
 title: LISTBOX Element
 description: LISTBOX Element
-ms.assetid: 'b83ba0cb-1838-494d-b4cb-55b4da18a038'
-keywords: ["Windows Media Player skins,LISTBOX element", "skins,LISTBOX element", "LISTBOX element", "reference for skins,LISTBOX element", "elements,LISTBOX"]
+ms.assetid: b83ba0cb-1838-494d-b4cb-55b4da18a038
+keywords:
+- Windows Media Player skins,LISTBOX element
+- skins,LISTBOX element
+- LISTBOX element
+- reference for skins,LISTBOX element
+- elements,LISTBOX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX Element

@@ -1,8 +1,11 @@
 ---
 title: Player.PlaylistCollectionChange event
 description: The PlaylistCollectionChange event occurs when something changes in the playlist collection.
-ms.assetid: 'b03fd52f-9b22-4535-9d6f-f7abc04b328e'
-keywords: ["PlaylistCollectionChange event Windows Media Player", "PlaylistCollectionChange event Windows Media Player , Player class", "Player class Windows Media Player , PlaylistCollectionChange event"]
+ms.assetid: b03fd52f-9b22-4535-9d6f-f7abc04b328e
+keywords:
+- PlaylistCollectionChange event Windows Media Player
+- PlaylistCollectionChange event Windows Media Player , Player class
+- Player class Windows Media Player , PlaylistCollectionChange event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.PlaylistCollectionChange event
@@ -56,9 +64,9 @@ This event does not return a value.
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

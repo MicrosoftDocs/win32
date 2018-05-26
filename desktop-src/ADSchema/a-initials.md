@@ -1,20 +1,25 @@
 ---
 title: Initials attribute
-description: Contains the initials for parts of the user's full name. This may be used as the middle initial in the Windows Address Book.
+description: Contains the initials for parts of the users full name. This may be used as the middle initial in the Windows Address Book.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '220b4448-5276-4c3f-8a1b-217cec06135a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 220b4448-5276-4c3f-8a1b-217cec06135a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Initials attribute AD Schema", "initials attribute AD Schema"]
+keywords:
+- Initials attribute AD Schema
+- initials attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Initials
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Initials attribute
@@ -38,12 +43,12 @@ Contains the initials for parts of the user's full name. This may be used as the
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Contains the initials for parts of the user's full name. This may be used as the
 
 
 
- 
+ 
 
- 
+ 
 
 
 

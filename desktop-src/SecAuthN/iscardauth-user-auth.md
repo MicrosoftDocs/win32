@@ -1,7 +1,12 @@
-﻿---
-Description: 'The User\_Auth method allows access to user authentication services.'
-ms.assetid: '110da052-c581-46bc-8e81-5be112ee9b43'
-title: 'ISCardAuth::User\_Auth method'
+---
+Description: The User\_Auth method allows access to user authentication services.
+ms.assetid: 110da052-c581-46bc-8e81-5be112ee9b43
+title: ISCardAuthUser\_Auth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardAuth::User\_Auth method

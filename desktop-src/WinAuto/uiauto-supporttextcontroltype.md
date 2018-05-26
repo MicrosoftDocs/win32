@@ -1,8 +1,29 @@
 ---
 title: Text Control Type
 description: This topic provides information about Microsoft UI Automation support for the Text control type.
-ms.assetid: '69a3b243-8ee5-48e4-a01e-c7ad69b9a3aa'
-keywords: ["UI Automation,support for Text control type", "UI Automation,Text control type", "UI Automation,tree structure for Text control type", "UI Automation,properties for Text control type", "UI Automation,control patterns for Text control type", "UI Automation,events for Text control type", "tree structures,Text control type", "properties,Text control type", "control patterns,Text control type", "events,Text control type", "support for Text control type", "Text control type", "control types,tree structure for Text control type", "control types,control patterns for Text control type", "control types,support for Text", "control types,Text"]
+ms.assetid: 69a3b243-8ee5-48e4-a01e-c7ad69b9a3aa
+keywords:
+- UI Automation,support for Text control type
+- UI Automation,Text control type
+- UI Automation,tree structure for Text control type
+- UI Automation,properties for Text control type
+- UI Automation,control patterns for Text control type
+- UI Automation,events for Text control type
+- tree structures,Text control type
+- properties,Text control type
+- control patterns,Text control type
+- events,Text control type
+- support for Text control type
+- Text control type
+- control types,tree structure for Text control type
+- control types,control patterns for Text control type
+- control types,support for Text
+- control types,Text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Control Type
@@ -93,10 +114,10 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                         | Support | Notes                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IGridItemProvider**](uiauto-igriditemprovider.md)   | Depends | If the text control is contained within a table control, the [GridItem](uiauto-implementinggriditem.md) control pattern must be supported.                                                                                                                            |
-| [**ITableItemProvider**](uiauto-itableitemprovider.md) | Depends | If the text control is contained within a table control, the [TableItem](uiauto-implementingtableitem.md) control pattern must be supported.                                                                                                                          |
-| [**ITextProvider**](uiauto-itextprovider.md)           | Depends | Text should support the [Text](uiauto-implementingtextandtextrange.md) control pattern for better accessibility; however, it is not required. The Text control pattern is useful when the text has rich style and attributes (for example, color, bold, and italics). |
-| [**IValueProvider**](uiauto-ivalueprovider.md)         | Never   | A text control never supports the [Value](uiauto-implementingvalue.md) control pattern. If the text is editable, it is the [Edit](uiauto-supporteditcontroltype.md) control type.                                                                                    |
+| [**IGridItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-igriditemprovider?branch=master)   | Depends | If the text control is contained within a table control, the [GridItem](uiauto-implementinggriditem.md) control pattern must be supported.                                                                                                                            |
+| [**ITableItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableitemprovider?branch=master) | Depends | If the text control is contained within a table control, the [TableItem](uiauto-implementingtableitem.md) control pattern must be supported.                                                                                                                          |
+| [**ITextProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itextprovider?branch=master)           | Depends | Text should support the [Text](uiauto-implementingtextandtextrange.md) control pattern for better accessibility; however, it is not required. The Text control pattern is useful when the text has rich style and attributes (for example, color, bold, and italics). |
+| [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master)         | Never   | A text control never supports the [Value](uiauto-implementingvalue.md) control pattern. If the text is editable, it is the [Edit](uiauto-supporteditcontroltype.md) control type.                                                                                    |
 
 
 

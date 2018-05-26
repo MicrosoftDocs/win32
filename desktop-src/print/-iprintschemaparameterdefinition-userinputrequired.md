@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UserInputRequired property gets the Boolean value that indicates whether or not a user input value is required for the Print Schema parameter.'
-ms.assetid: 'C2BA76C4-CCFB-4F0B-B5DC-3A35BD5A3884'
-title: 'IPrintSchemaParameterDefinition::UserInputRequired property'
+---
+Description: The UserInputRequired property gets the Boolean value that indicates whether or not a user input value is required for the Print Schema parameter.
+ms.assetid: C2BA76C4-CCFB-4F0B-B5DC-3A35BD5A3884
+title: IPrintSchemaParameterDefinitionUserInputRequired property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaParameterDefinition::UserInputRequired property

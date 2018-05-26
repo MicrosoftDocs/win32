@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_DiscreteSensor class exposes the following methods.'
+Description: The CIM\_DiscreteSensor class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4EC4D764-6717-43E4-ACA4-0F26F8B4FD03'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4EC4D764-6717-43E4-ACA4-0F26F8B4FD03
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_DiscreteSensor Methods'
+title: CIM\_DiscreteSensor Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_DiscreteSensor Methods

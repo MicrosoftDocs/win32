@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Restart method restarts the failed outbound fax job. For example, if the fax job has exceeded the number of retries, Restart will restart the fax job.'
-ms.assetid: 'e94cd556-16b1-46d7-b373-d5e6ae75b39e'
-title: 'FaxOutgoingJob.Restart method'
+---
+Description: The Restart method restarts the failed outbound fax job. For example, if the fax job has exceeded the number of retries, Restart will restart the fax job.
+ms.assetid: e94cd556-16b1-46d7-b373-d5e6ae75b39e
+title: FaxOutgoingJob.Restart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.Restart method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) or **farMANAGE\_JOBS** access right. With the **farSUBMIT\_LOW** access right, users will be able to use this method only for their own faxes. With the **farMANAGE\_JOBS** access right, users will be able to use this method for all faxes on the server.
+To use this method, a user must have the [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) or **farMANAGE\_JOBS** access right. With the **farSUBMIT\_LOW** access right, users will be able to use this method only for their own faxes. With the **farMANAGE\_JOBS** access right, users will be able to use this method for all faxes on the server.
 
 ## Requirements
 
@@ -48,7 +53,7 @@ To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-r
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

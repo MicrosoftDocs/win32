@@ -1,7 +1,12 @@
-﻿---
-Description: 'Unlock the attribute buffer.'
-ms.assetid: '4077ad15-9753-4031-81e7-c04e4267a0c9'
-title: 'ID3DXPatchMesh::UnlockAttributeBuffer method'
+---
+Description: Unlock the attribute buffer.
+ms.assetid: 4077ad15-9753-4031-81e7-c04e4267a0c9
+title: ID3DXPatchMeshUnlockAttributeBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPatchMesh::UnlockAttributeBuffer method

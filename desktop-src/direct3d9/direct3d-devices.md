@@ -1,7 +1,12 @@
 ---
-Description: 'A Direct3D device is the rendering component of Direct3D. It encapsulates and stores the rendering state. In addition, a Direct3D device performs transformations and lighting operations and rasterizes an image to a surface.'
-ms.assetid: 'b592edb8-351a-4a82-9ff7-8a69d82723bc'
-title: 'Direct3D Devices (Direct3D 9)'
+Description: A Direct3D device is the rendering component of Direct3D. It encapsulates and stores the rendering state. In addition, a Direct3D device performs transformations and lighting operations and rasterizes an image to a surface.
+ms.assetid: b592edb8-351a-4a82-9ff7-8a69d82723bc
+title: Direct3D Devices (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D Devices (Direct3D 9)
@@ -39,7 +44,7 @@ Because the behavior of the software and reference devices provided with Direct3
 
 ## Behaviors
 
-Direct3D enables you to specify the behavior of a device, as well the device's type. The [**IDirect3D9::CreateDevice**](idirect3d9--createdevice.md) method enables a combination of one or more of the behavior flags to control the global behaviors of the Direct3D device. These behaviors specify what is and is not maintained in the run-time portion of Direct3D, and the device types specify which driver to use. Although some combinations of device behaviors are not valid, it is possible to use all device behaviors with all device types. For example, it is valid to specify D3DDEVTYPE\_SW on a device created with D3DCREATE\_PUREDEVICE.
+Direct3D enables you to specify the behavior of a device, as well the device's type. The [**IDirect3D9::CreateDevice**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-createdevice?branch=master) method enables a combination of one or more of the behavior flags to control the global behaviors of the Direct3D device. These behaviors specify what is and is not maintained in the run-time portion of Direct3D, and the device types specify which driver to use. Although some combinations of device behaviors are not valid, it is possible to use all device behaviors with all device types. For example, it is valid to specify D3DDEVTYPE\_SW on a device created with D3DCREATE\_PUREDEVICE.
 
 ## Related topics
 

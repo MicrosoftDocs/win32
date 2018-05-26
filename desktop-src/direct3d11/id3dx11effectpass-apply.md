@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectPass Apply method
 description: Set the state contained in a pass to the device.
-ms.assetid: 'd67fe968-bfb2-4f3a-b393-3f72f680211f'
-keywords: ["Apply method Direct3D 11", "Apply method Direct3D 11 , ID3DX11EffectPass interface", "ID3DX11EffectPass interface Direct3D 11 , Apply method"]
+ms.assetid: d67fe968-bfb2-4f3a-b393-3f72f680211f
+keywords:
+- Apply method Direct3D 11
+- Apply method Direct3D 11 , ID3DX11EffectPass interface
+- ID3DX11EffectPass interface Direct3D 11 , Apply method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectPass::Apply method
@@ -23,8 +31,8 @@ Set the state contained in a pass to the device.
 
 ```C++
 HRESULT Apply(
-   UINT                Flags,
-   ID3D11DeviceContext *pContext
+   UINT                Flags,
+   ID3D11DeviceContext *pContext
 );
 ```
 
@@ -46,9 +54,9 @@ Unused.
 *pContext* 
 </dt> <dd>
 
-Type: **[**ID3D11DeviceContext**](id3d11devicecontext.md)\***
+Type: **[**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master)\***
 
-The [**ID3D11DeviceContext**](id3d11devicecontext.md) to apply the pass to.
+The [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) to apply the pass to.
 
 </dd> </dl>
 
@@ -63,7 +71,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -83,9 +91,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectPass](id3dx11effectpass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

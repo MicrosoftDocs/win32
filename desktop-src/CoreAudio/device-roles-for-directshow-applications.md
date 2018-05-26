@@ -1,7 +1,12 @@
 ---
 Description: Device Roles for DirectShow Applications
-ms.assetid: '54f42bda-b4a0-465c-9ce6-9102d2908776'
+ms.assetid: 54f42bda-b4a0-465c-9ce6-9102d2908776
 title: Device Roles for DirectShow Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Roles for DirectShow Applications
@@ -89,9 +94,9 @@ Exit:
 
 
 
-In the preceding code example, the CreateAudioRenderer function accepts a device role (eConsole, eMultimedia, or eCommunications) as an input parameter. The second parameter is a pointer through which the function writes the address of an [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526) interface instance. In addition, the example shows how to use the [**IMMDevice::Activate**](immdevice-activate.md) method to assign the audio stream in the **IBaseFilter** instance to a cross-process audio session with an application-specific session GUID (specified by the **guidAudioSessionId** constant). The third parameter in the **Activate** call points to a structure that contains the session GUID and cross-process flag. If the user runs multiple instances of the application, then the audio streams from all the instances use the same session GUID and thus belong to the same session.
+In the preceding code example, the CreateAudioRenderer function accepts a device role (eConsole, eMultimedia, or eCommunications) as an input parameter. The second parameter is a pointer through which the function writes the address of an [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526) interface instance. In addition, the example shows how to use the [**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master) method to assign the audio stream in the **IBaseFilter** instance to a cross-process audio session with an application-specific session GUID (specified by the **guidAudioSessionId** constant). The third parameter in the **Activate** call points to a structure that contains the session GUID and cross-process flag. If the user runs multiple instances of the application, then the audio streams from all the instances use the same session GUID and thus belong to the same session.
 
-Alternatively, the caller can specify **NULL** as the third parameter in the [**Activate**](immdevice-activate.md) call to assign the stream to the default session as the process-specific session with session GUID value GUID\_NULL. For more information, see **IMMDevice::Activate**.
+Alternatively, the caller can specify **NULL** as the third parameter in the [**Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master) call to assign the stream to the default session as the process-specific session with session GUID value GUID\_NULL. For more information, see **IMMDevice::Activate**.
 
 ## Related topics
 

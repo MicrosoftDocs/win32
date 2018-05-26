@@ -1,7 +1,12 @@
 ---
 title: About Methods
 description: About Methods
-ms.assetid: 'BF2247BB-207F-4f94-9AF3-5EDE71BDA489'
+ms.assetid: BF2247BB-207F-4f94-9AF3-5EDE71BDA489
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Methods

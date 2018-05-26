@@ -1,7 +1,12 @@
 ---
-Description: 'LSO properties for a network adapter.'
-ms.assetid: 'b9e356a5-38de-4289-b4cf-1aa548fc7591'
-title: 'MSFT\_NetAdapterLsoSettingData class'
+Description: LSO properties for a network adapter.
+ms.assetid: b9e356a5-38de-4289-b4cf-1aa548fc7591
+title: MSFT\_NetAdapterLsoSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterLsoSettingData class
@@ -16,20 +21,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterLsoSettingData : MSFT_NetAdapterSettingData
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
-  string  Name;
-  string  InterfaceDescription;
-  uint32  Source;
-  string  SystemName;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
+  string  Name;
+  string  InterfaceDescription;
+  uint32  Source;
+  string  SystemName;
   boolean V1IPv4Enabled;
   boolean IPv4Enabled;
   boolean IPv6Enabled;
-  Uint32  MaximumLsoVersionSupported;
-  string  LargeSendOffloadV1HardwareCapabilities;
-  string  LargeSendOffloadV2HardwareCapabilities;
+  Uint32  MaximumLsoVersionSupported;
+  string  LargeSendOffloadV1HardwareCapabilities;
+  string  LargeSendOffloadV2HardwareCapabilities;
 };
 ```
 
@@ -53,7 +58,7 @@ The **MSFT\_NetAdapterLsoSettingData** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -280,16 +285,16 @@ Indicates if LSOv1 is currently enabled for TCP packets.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Specifies which port is used by the directory service for SSL reque
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bb28863c-e882-401a-90d5-08da3f3f30ae'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bb28863c-e882-401a-90d5-08da3f3f30ae
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Port-SSL attribute AD Schema", "msDS-PortSSL attribute AD Schema"]
+keywords:
+- ms-DS-Port-SSL attribute AD Schema
+- msDS-PortSSL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Port-SSL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Port-SSL attribute
@@ -61,9 +66,9 @@ Specifies which port is used by the directory service for SSL requests.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

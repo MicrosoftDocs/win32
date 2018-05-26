@@ -1,8 +1,11 @@
 ---
 title: Device.Type property
 description: Retrieves the type of Device.
-ms.assetid: 'd59ea5a8-b3da-4580-b533-510e45ba6de4'
-keywords: ["Type property WIA Automation", "Type property WIA Automation , Device object", "Device object WIA Automation , Type property"]
+ms.assetid: d59ea5a8-b3da-4580-b533-510e45ba6de4
+keywords:
+- Type property WIA Automation
+- Type property WIA Automation , Device object
+- Device object WIA Automation , Type property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device.Type property
@@ -43,8 +51,8 @@ For example code, see [Determine if the Selected Device is a Camera](-wiaaut-sha
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -72,9 +80,9 @@ For example code, see [Determine if the Selected Device is a Camera](-wiaaut-sha
 [**WiaDeviceType**](-wiaaut-wiadevicetype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

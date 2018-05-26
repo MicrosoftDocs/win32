@@ -1,7 +1,12 @@
 ---
-Description: 'The LSA stores local security policy information in a set of objects. Your application can query or edit the local security policy by accessing these objects.'
-ms.assetid: 'c8ed5cd8-55cf-43e7-92a3-9bd17a1147a9'
+Description: The LSA stores local security policy information in a set of objects. Your application can query or edit the local security policy by accessing these objects.
+ms.assetid: c8ed5cd8-55cf-43e7-92a3-9bd17a1147a9
 title: LSA Policy Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LSA Policy Objects

@@ -4,11 +4,16 @@ description: Microsoft Active Directory Lightweight Directory Services (AD LDS) 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fe2265f5-7a0f-4465-9ad2-137482d06ac6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: fe2265f5-7a0f-4465-9ad2-137482d06ac6
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["Active Directory Lightweight Directory Services ADAM", "AD LDS ADAM , start page"]
+keywords:
+- Active Directory Lightweight Directory Services ADAM
+- AD LDS ADAM , start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Active Directory Lightweight Directory Services

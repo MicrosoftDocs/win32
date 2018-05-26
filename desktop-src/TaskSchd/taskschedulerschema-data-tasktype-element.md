@@ -1,14 +1,20 @@
 ---
 title: Data (taskType) Element
 description: Defines addition data that is associated with the task, but is otherwise unused by the Task Scheduler service.
-ms.assetid: '296cd33d-5f82-4de7-84a7-e791619ad0b5'
-keywords: ["Data element Task Scheduler"]
+ms.assetid: 296cd33d-5f82-4de7-84a7-e791619ad0b5
+keywords:
+- Data element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Data
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data (taskType) Element
@@ -37,7 +43,7 @@ The **Data** element is defined by the [**taskType**](taskschedulerschema-taskty
 
 As an example of this type of data, the Performance Logs and Alerts service uses this property as a storage container for the perf counter query associated with a task.
 
-For C++ development, the data of a task is specified using the [**Data property of ITaskDefinition**](itaskdefinition-data.md).
+For C++ development, the data of a task is specified using the [**Data property of ITaskDefinition**](/windows/win32/taskschd/nf-taskschd-itaskdefinition-get_data?branch=master).
 
 In scripting development, the data of a task is specified using the [**TaskDefinition.Data**](taskdefinition-data.md) property.
 
@@ -47,8 +53,8 @@ In scripting development, the data of a task is specified using the [**TaskDefin
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -62,9 +68,9 @@ In scripting development, the data of a task is specified using the [**TaskDefin
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

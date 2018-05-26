@@ -1,8 +1,14 @@
 ---
 title: RPC\_AUTHZ\_HANDLE
 description: The RPC\_AUTHZ\_HANDLE data type declares an authorization handle. This handle points to the privileges information for the client application that made the remote procedure call.
-ms.assetid: '35b6a3f4-1703-4244-98fd-fad7de48b262'
-keywords: ["RPC_AUTHZ_HANDLE"]
+ms.assetid: 35b6a3f4-1703-4244-98fd-fad7de48b262
+keywords:
+- RPC_AUTHZ_HANDLE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC\_AUTHZ\_HANDLE
@@ -22,8 +28,8 @@ typedef void* RPC_AUTHZ_HANDLE;
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>Rpcdce.h (include Rpc.h)</dt> </dl> |
 
 
@@ -32,12 +38,12 @@ typedef void* RPC_AUTHZ_HANDLE;
 
 <dl> <dt>
 
-[**RpcBindingInqAuthClient**](rpcbindinginqauthclient.md)
+[**RpcBindingInqAuthClient**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindinginqauthclient?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

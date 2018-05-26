@@ -1,8 +1,9 @@
 ---
 title: EM\_GETTEXTEX message
 description: Gets the text from a rich edit control.
-ms.assetid: '46431563-fde1-4407-ab7a-b2248c0e12b8'
-keywords: ["EM_GETTEXTEX message Windows Controls"]
+ms.assetid: 46431563-fde1-4407-ab7a-b2248c0e12b8
+keywords:
+- EM_GETTEXTEX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETTEXTEX message
@@ -24,14 +30,14 @@ Gets the text from a rich edit control.
 *wParam* 
 </dt> <dd>
 
-Pointer to a [**GETTEXTEX**](gettextex.md) structure, which indicates how to translate the text before putting it into the output buffer.
+Pointer to a [**GETTEXTEX**](/windows/win32/Richedit/ns-richedit-_gettextex?branch=master) structure, which indicates how to translate the text before putting it into the output buffer.
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-Pointer to the buffer to receive the text. The size of this buffer, in bytes, is specified by the **cb** member of the [**GETTEXTEX**](gettextex.md) structure. Use the [**EM\_GETTEXTLENGTHEX**](em-gettextlengthex.md) message to get the required size of the buffer.
+Pointer to the buffer to receive the text. The size of this buffer, in bytes, is specified by the **cb** member of the [**GETTEXTEX**](/windows/win32/Richedit/ns-richedit-_gettextex?branch=master) structure. Use the [**EM\_GETTEXTLENGTHEX**](em-gettextlengthex.md) message to get the required size of the buffer.
 
 </dd> </dl>
 
@@ -43,7 +49,7 @@ The return value is the number of **TCHAR**s copied into the output buffer, incl
 
 If the size of the output buffer is less than the size of the text in the control, the edit control will copy text from its beginning and place it in the buffer until the buffer is full. A terminating null character will still be placed at the end of the buffer.
 
-If ANSI text is requested, **EM\_GETTEXTEX** uses the [**WideCharToMultiByte**](https://msdn.microsoft.com/library/windows/desktop/dd374130) function to translate the Unicode characters to ANSI. It allows you to go from Unicode to ANSI using a particular code page. The [**GETTEXTEX**](gettextex.md) structure contains members (**lpDefaultChar** and **lpUsedDefChar**) that are used in the translation from Unicode to ANSI.
+If ANSI text is requested, **EM\_GETTEXTEX** uses the [**WideCharToMultiByte**](https://msdn.microsoft.com/library/windows/desktop/dd374130) function to translate the Unicode characters to ANSI. It allows you to go from Unicode to ANSI using a particular code page. The [**GETTEXTEX**](/windows/win32/Richedit/ns-richedit-_gettextex?branch=master) structure contains members (**lpDefaultChar** and **lpUsedDefChar**) that are used in the translation from Unicode to ANSI.
 
 ## Requirements
 
@@ -51,8 +57,8 @@ If ANSI text is requested, **EM\_GETTEXTEX** uses the [**WideCharToMultiByte**](
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -67,7 +73,7 @@ If ANSI text is requested, **EM\_GETTEXTEX** uses the [**WideCharToMultiByte**](
 [**EM\_SETTEXTEX**](em-settextex.md)
 </dt> <dt>
 
-[**GETTEXTEX**](gettextex.md)
+[**GETTEXTEX**](/windows/win32/Richedit/ns-richedit-_gettextex?branch=master)
 </dt> <dt>
 
 **Other Resources**
@@ -79,9 +85,9 @@ If ANSI text is requested, **EM\_GETTEXTEX** uses the [**WideCharToMultiByte**](
 [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

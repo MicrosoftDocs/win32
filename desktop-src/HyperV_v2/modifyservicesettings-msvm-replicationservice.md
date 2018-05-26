@@ -1,7 +1,12 @@
 ---
-Description: 'Modifies the settings for the Hyper-V Replica service.'
-ms.assetid: 'e203f9f5-da4b-4ba7-8637-add7169990d3'
-title: 'ModifyServiceSettings method of the Msvm\_ReplicationService class'
+Description: Modifies the settings for the Hyper-V Replica service.
+ms.assetid: e203f9f5-da4b-4ba7-8637-add7169990d3
+title: ModifyServiceSettings method of the Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModifyServiceSettings method of the Msvm\_ReplicationService class
@@ -13,8 +18,8 @@ Modifies the settings for the Hyper-V Replica service.
 
 ```mof
 uint32 ModifyServiceSettings(
-  [in]  string              SettingData,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              SettingData,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -89,8 +94,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -104,9 +109,9 @@ This method returns one of the following values.
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

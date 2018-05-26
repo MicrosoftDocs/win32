@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to use the Source Reader in asynchronous mode.'
-ms.assetid: '9D3C2780-D7DB-4151-8474-9A19EC94F6BE'
+Description: This topic describes how to use the Source Reader in asynchronous mode.
+ms.assetid: 9D3C2780-D7DB-4151-8474-9A19EC94F6BE
 title: Using the Source Reader in Asynchronous Mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Source Reader in Asynchronous Mode
@@ -12,11 +17,11 @@ This topic assumes that you have already read the topic [Using the Source Reader
 
 ## Using Asynchronous Mode
 
-The Source Reader operates either in synchronous mode or asynchronous mode. The code example shown in the previous section assumes that the Source Reader is using synchronous mode, which is the default. In synchronous mode, the [**IMFSourceReader::ReadSample**](imfsourcereader-readsample.md) method blocks while the media source produces the next sample. A media source typically acquires data from some external source (such as a local file or a network connection), so the method can block the calling thread for a noticeable amount of time.
+The Source Reader operates either in synchronous mode or asynchronous mode. The code example shown in the previous section assumes that the Source Reader is using synchronous mode, which is the default. In synchronous mode, the [**IMFSourceReader::ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master) method blocks while the media source produces the next sample. A media source typically acquires data from some external source (such as a local file or a network connection), so the method can block the calling thread for a noticeable amount of time.
 
-In asynchronous mode, the [**ReadSample**](imfsourcereader-readsample.md) returns immediately and the work is performed on another thread. After the operation is complete, the Source Reader calls the application through the [**IMFSourceReaderCallback**](imfsourcereadercallback.md) callback interface. To use asynchronous mode, you must provide a callback pointer when you first create the Source Reader, as follows:
+In asynchronous mode, the [**ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master) returns immediately and the work is performed on another thread. After the operation is complete, the Source Reader calls the application through the [**IMFSourceReaderCallback**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback?branch=master) callback interface. To use asynchronous mode, you must provide a callback pointer when you first create the Source Reader, as follows:
 
-1.  Create an attribute store by calling the [**MFCreateAttributes**](mfcreateattributes.md) function.
+1.  Create an attribute store by calling the [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master) function.
 2.  Set the [MF\_SOURCE\_READER\_ASYNC\_CALLBACK](mf-source-reader-async-callback.md) attribute on the attribute store. The attribute value is a pointer to your callback object.
 3.  When you create the Source Reader, pass the attribute store to the creation function in the *pAttributes* parameter. All of the functions to create the Source Reader have this parameter.
 
@@ -56,7 +61,7 @@ done:
 
 After you create the Source Reader, you cannot switch modes between synchronous and asynchronous.
 
-To get data in asynchronous mode, call the [**ReadSample**](imfsourcereader-readsample.md) method but set the last four parameters to **NULL**, as shown in the following example.
+To get data in asynchronous mode, call the [**ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master) method but set the last four parameters to **NULL**, as shown in the following example.
 
 
 ```C++
@@ -67,10 +72,10 @@ To get data in asynchronous mode, call the [**ReadSample**](imfsourcereader-read
 
 
 
-When the [**ReadSample**](imfsourcereader-readsample.md) method completes asynchronously, the Source Reader calls your [**IMFSourceReaderCallback::OnReadSample**](imfsourcereadercallback-onreadsample.md) method. This method has five parameters:
+When the [**ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master) method completes asynchronously, the Source Reader calls your [**IMFSourceReaderCallback::OnReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onreadsample?branch=master) method. This method has five parameters:
 
--   *hrStatus*: Contains an **HRESULT** value. This is the same value that [**ReadSample**](imfsourcereader-readsample.md) would return in synchronous mode. If *hrStatus* contains an error code, you can ignore the remaining parameters.
--   *dwStreamIndex*, *dwStreamFlags*, llTimestamp, and *pSample*: These three parameters are equivalent to the last three parameters in [**ReadSample**](imfsourcereader-readsample.md). They contain the stream number, status flags, and [**IMFSample**](imfsample.md) pointer, respectively.
+-   *hrStatus*: Contains an **HRESULT** value. This is the same value that [**ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master) would return in synchronous mode. If *hrStatus* contains an error code, you can ignore the remaining parameters.
+-   *dwStreamIndex*, *dwStreamFlags*, llTimestamp, and *pSample*: These three parameters are equivalent to the last three parameters in [**ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master). They contain the stream number, status flags, and [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) pointer, respectively.
 
 
 ```C++
@@ -82,16 +87,16 @@ When the [**ReadSample**](imfsourcereader-readsample.md) method completes asynch
 
 In addition, the callback interface defines two other methods:
 
--   [**OnEvent**](imfsourcereadercallback-onevent.md). Notifies the application when certain events occur in media source, such as buffering or network connection events.
--   [**OnFlush**](imfsourcereadercallback-onflush.md). Called when the [**Flush**](imfsourcereader-flush.md) method completes.
+-   [**OnEvent**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onevent?branch=master). Notifies the application when certain events occur in media source, such as buffering or network connection events.
+-   [**OnFlush**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onflush?branch=master). Called when the [**Flush**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-flush?branch=master) method completes.
 
 ## Implementing the Callback Interface
 
-The callback interface must be thread-safe, because [**OnReadSample**](imfsourcereadercallback-onreadsample.md) and the other callback methods are called from worker threads.
+The callback interface must be thread-safe, because [**OnReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onreadsample?branch=master) and the other callback methods are called from worker threads.
 
 There are several different approaches you can take when you implement the callback. For example, you can do all of the work inside the callback, or you can use the callback to notify the application (for example, by signaling an event handle) and then do work from the application thread.
 
-The [**OnReadSample**](imfsourcereadercallback-onreadsample.md) method will be called once for every call that you make to the [**IMFSourceReader::ReadSample**](imfsourcereader-readsample.md) method. To get the next sample, call **ReadSample** again. If an error occurs, **OnReadSample** is called with an error code for the *hrStatus* parameter.
+The [**OnReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onreadsample?branch=master) method will be called once for every call that you make to the [**IMFSourceReader::ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master) method. To get the next sample, call **ReadSample** again. If an error occurs, **OnReadSample** is called with an error code for the *hrStatus* parameter.
 
 The following example shows a minimal implementation of the callback interface. First, here is the declaration of a class that implements the interface.
 
@@ -189,9 +194,9 @@ private:
 
 
 
-In this example, we are not interested in the [**OnEvent**](imfsourcereadercallback-onevent.md) and [**OnFlush**](imfsourcereadercallback-onflush.md) methods, so they simply return **S\_OK**. The class uses an event handle to signal the application; this handle is provided through the constructor.
+In this example, we are not interested in the [**OnEvent**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onevent?branch=master) and [**OnFlush**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onflush?branch=master) methods, so they simply return **S\_OK**. The class uses an event handle to signal the application; this handle is provided through the constructor.
 
-In this minimal example, the [**OnReadSample**](imfsourcereadercallback-onreadsample.md) method just prints the time stamp to the console window. Then it stores the status code and the end-of-stream flag, and signals the event handle:
+In this minimal example, the [**OnReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onreadsample?branch=master) method just prints the time stamp to the console window. Then it stores the status code and the end-of-stream flag, and signals the event handle:
 
 
 ```C++

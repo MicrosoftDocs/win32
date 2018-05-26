@@ -1,14 +1,19 @@
 ---
 Description: Writing the File
-ms.assetid: 'd3dbe6ab-810c-4798-a769-c3f00c52a93a'
+ms.assetid: d3dbe6ab-810c-4798-a769-c3f00c52a93a
 title: Writing the File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing the File
 
-To write the file, simply run the filter graph by calling the [**IMediaControl::Run**](imediacontrol-run.md) method. Wait for playback to complete and explicitly stop the graph by calling [**IMediaControl::Stop**](imediacontrol-stop.md); otherwise the file is not written correctly.
+To write the file, simply run the filter graph by calling the [**IMediaControl::Run**](/windows/win32/Control/nf-control-imediacontrol-run?branch=master) method. Wait for playback to complete and explicitly stop the graph by calling [**IMediaControl::Stop**](/windows/win32/Control/nf-control-imediacontrol-stop?branch=master); otherwise the file is not written correctly.
 
-To display the progress of the file-writing operation, query the Mux filter for the [**IMediaSeeking**](imediaseeking.md) interface. Call the [**IMediaSeeking::GetDuration**](imediaseeking-getduration.md) method to retrieve the duration of the file. Periodically while the graph is running, call the [**IMediaSeeking::GetCurrentPosition**](imediaseeking-getcurrentposition.md) method to retrieve the graph's current position in the stream. Current position divided by duration gives the percentage complete.
+To display the progress of the file-writing operation, query the Mux filter for the [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) interface. Call the [**IMediaSeeking::GetDuration**](/windows/win32/Strmif/nf-strmif-imediaseeking-getduration?branch=master) method to retrieve the duration of the file. Periodically while the graph is running, call the [**IMediaSeeking::GetCurrentPosition**](/windows/win32/Strmif/nf-strmif-imediaseeking-getcurrentposition?branch=master) method to retrieve the graph's current position in the stream. Current position divided by duration gives the percentage complete.
 
 > [!Note]  
 > An application usually queries the Filter Graph Manager for **IMediaSeeking**, but file writing is an exception to this rule. The Filter Graph Manager calculates the current position from the starting position and how long the graph has been running, which is accurate for file playback but not for file writing. Therefore, to get an accurate result, you should retrieve the position from the MUX filter.

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the imageable area information of the printer.'
-ms.assetid: '5FA7613C-8714-481D-8439-9F3334D2E9E5'
-title: 'IPrintSchemaCapabilities::PageImageableSize property'
+---
+Description: Gets the imageable area information of the printer.
+ms.assetid: 5FA7613C-8714-481D-8439-9F3334D2E9E5
+title: IPrintSchemaCapabilitiesPageImageableSize property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaCapabilities::PageImageableSize property

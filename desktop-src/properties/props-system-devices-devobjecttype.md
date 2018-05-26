@@ -1,7 +1,12 @@
 ---
-Description: 'DevQuery Device Object Type.'
-ms.assetid: '765ef06c-957e-48fa-be5f-9cedc7823564'
-title: 'System.Devices.DevObjectType'
+Description: DevQuery Device Object Type.
+ms.assetid: 765ef06c-957e-48fa-be5f-9cedc7823564
+title: System.Devices.DevObjectType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.DevObjectType

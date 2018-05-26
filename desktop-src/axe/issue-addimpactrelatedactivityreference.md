@@ -1,8 +1,11 @@
 ---
 title: Issue AddImpactRelatedActivityReference method
 description: Creates and adds an impact-related ActivityReference to the Issue.
-ms.assetid: '32FF1638-426A-4BA0-A52B-BFA83A7053DB'
-keywords: ["AddImpactRelatedActivityReference method Access Execution Engine", "AddImpactRelatedActivityReference method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , AddImpactRelatedActivityReference method"]
+ms.assetid: 32FF1638-426A-4BA0-A52B-BFA83A7053DB
+keywords:
+- AddImpactRelatedActivityReference method Access Execution Engine
+- AddImpactRelatedActivityReference method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , AddImpactRelatedActivityReference method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::AddImpactRelatedActivityReference method
@@ -22,8 +30,8 @@ Creates and adds an impact-related [**ActivityReference**](activityreference-str
 
 ```C++
 virtual HRESULT AddImpactRelatedActivityReference(
-  [in]            LPCWSTR           attributeActivityId,
-  [out, optional] ActivityReference **activityReference
+  [in]            LPCWSTR           attributeActivityId,
+  [out, optional] ActivityReference **activityReference
 ) = 0;
 ```
 
@@ -65,8 +73,8 @@ The activity ID is the value of attribute **ActivityID** of the **Issue/Impact/R
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -79,9 +87,9 @@ The activity ID is the value of attribute **ActivityID** of the **Issue/Impact/R
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

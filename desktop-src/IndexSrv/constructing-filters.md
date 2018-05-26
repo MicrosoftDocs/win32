@@ -1,7 +1,12 @@
 ---
 title: Constructing Filters
 description: Constructing Filters
-ms.assetid: 'f1243f67-6ae1-4e0a-96d8-38c255bb3b1c'
+ms.assetid: f1243f67-6ae1-4e0a-96d8-38c255bb3b1c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constructing Filters
@@ -11,7 +16,7 @@ ms.assetid: 'f1243f67-6ae1-4e0a-96d8-38c255bb3b1c'
 
  
 
-This section describes the construction of filters for Indexing Service. The following topics discuss the significant aspects of realizing the required dynamic-link library (DLL) structure for an [IFilter](ifilter.md) interface implementation.
+This section describes the construction of filters for Indexing Service. The following topics discuss the significant aspects of realizing the required dynamic-link library (DLL) structure for an [IFilter](/windows/win32/Filter/nn-filter-ifilter?branch=master) interface implementation.
 
 -   [Describing the Filter Structure](describing-the-filter-structure.md)
 -   [Implementing and Exporting the DLL Entry Points](implementing-and-exporting-the-dll-entry-points.md)

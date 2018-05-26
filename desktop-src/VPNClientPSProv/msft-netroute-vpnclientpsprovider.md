@@ -2,11 +2,13 @@
 title: MSFT\_NetRoute class
 description: Represents a TCP/IP route.
 audience: developer
-ms.assetid: 'a1578fd3-e9d8-41b6-bf06-a07b692e7295'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a1578fd3-e9d8-41b6-bf06-a07b692e7295
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_NetRoute class", "MSFT_NetRoute class, described"]
+keywords:
+- MSFT_NetRoute class
+- MSFT_NetRoute class, described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_NetRoute class
@@ -48,25 +53,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VPNClientPSProvider")]
 class MSFT_NetRoute : CIM_NextHopRoute
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   InstanceID;
-  string   DestinationAddress;
-  uint16   AdminDistance;
-  uint16   RouteMetric;
-  boolean  IsStatic;
-  uint16   TypeOfRoute = 3;
-  string   DestinationPrefix;
-  uint32   InterfaceIndex;
-  string   InterfaceAlias;
-  string   NextHop;
-  uint8    Publish;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   InstanceID;
+  string   DestinationAddress;
+  uint16   AdminDistance;
+  uint16   RouteMetric;
+  boolean  IsStatic;
+  uint16   TypeOfRoute = 3;
+  string   DestinationPrefix;
+  uint32   InterfaceIndex;
+  string   InterfaceAlias;
+  string   NextHop;
+  uint8    Publish;
   datetime ValidLifetime;
   datetime PreferredLifetime;
-  uint8    Store;
-  uint16   AddressFamily;
-  uint16   Protocol;
+  uint8    Store;
+  uint16   AddressFamily;
+  uint16   Protocol;
 };
 ```
 
@@ -90,7 +95,7 @@ The **MSFT\_NetRoute** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -618,17 +623,17 @@ Lifetime over which the route is valid. The default value is infinite.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the constants to their default values. The default values are declared in the variable declarations in the shader.'
-ms.assetid: '593a3a1b-cf96-4d46-9917-21068def0988'
-title: 'ID3DXConstantTable::SetDefaults method'
+---
+Description: Sets the constants to their default values. The default values are declared in the variable declarations in the shader.
+ms.assetid: 593a3a1b-cf96-4d46-9917-21068def0988
+title: ID3DXConstantTableSetDefaults method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXConstantTable::SetDefaults method
@@ -26,9 +31,9 @@ HRESULT SetDefaults(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device associated with the constant table.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device associated with the constant table.
 
 </dd> </dl>
 

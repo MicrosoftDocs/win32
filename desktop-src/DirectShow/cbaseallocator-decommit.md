@@ -1,12 +1,17 @@
 ---
-Description: 'The Decommit method decommits the allocator. This method implements the IMemAllocator::Decommit method.'
-ms.assetid: '0c8d44e0-17ea-4f7f-be44-f9ae2e34fbef'
-title: 'CBaseAllocator.Decommit method'
+Description: The Decommit method decommits the allocator. This method implements the IMemAllocatorDecommit method.
+ms.assetid: 0c8d44e0-17ea-4f7f-be44-f9ae2e34fbef
+title: CBaseAllocator.Decommit method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator.Decommit method
 
-The `Decommit` method decommits the allocator. This method implements the [**IMemAllocator::Decommit**](imemallocator-decommit.md) method.
+The `Decommit` method decommits the allocator. This method implements the [**IMemAllocator::Decommit**](/windows/win32/Strmif/nf-strmif-imemallocator-decommit?branch=master) method.
 
 ## Syntax
 
@@ -49,9 +54,9 @@ In addition, this method releases any threads that are blocked on **GetBuffer** 
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

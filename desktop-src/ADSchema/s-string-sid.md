@@ -4,17 +4,21 @@ description: An octet string that contains a security identifier (SID).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3eebe9af-57f0-48f3-8b66-973cc4f329d6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 3eebe9af-57f0-48f3-8b66-973cc4f329d6
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["String(Sid) syntax AD Schema"]
+keywords:
+- String(Sid) syntax AD Schema
 topic_type:
 - apiref
 api_name:
 - String(Sid)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # String(Sid) syntax

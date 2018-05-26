@@ -1,14 +1,20 @@
 ---
 title: Details element
 description: Information about the analysis job, including start time, duration, and location of the log files.
-ms.assetid: '9ACCAAB4-6100-4BC4-B8E9-04BC200FB37A'
-keywords: ["Details element Access Execution Engine"]
+ms.assetid: 9ACCAAB4-6100-4BC4-B8E9-04BC200FB37A
+keywords:
+- Details element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Details
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Details element
@@ -66,9 +72,9 @@ There are no parent elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

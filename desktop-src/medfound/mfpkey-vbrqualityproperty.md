@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the actual quality level for quality based (1-pass) variable-bit-rate (VBR) encoding.'
-ms.assetid: 'e45d583a-323b-4394-9df3-949a3f713708'
-title: 'MFPKEY\_VBRQUALITY Property'
+---
+Description: Specifies the actual quality level for quality based (1-pass) variable-bit-rate (VBR) encoding.
+ms.assetid: e45d583a-323b-4394-9df3-949a3f713708
+title: MFPKEY\_VBRQUALITY Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_VBRQUALITY Property

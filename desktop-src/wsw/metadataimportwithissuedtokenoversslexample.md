@@ -1,13 +1,21 @@
 ---
 title: MetadataImportWithIssuedTokenOverSslExample
 description: This example illustrates importing metadata from an endpoint that supports using an issued token that is obtained from the issuing security token service (STS) using WsRequestSecurityToken and presented to the service using WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING with WS\_SSL\_TRANSPORT\_SECURITY\_BINDING. See Federation for more information.
-ms.assetid: '31d1386a-1733-4e7a-add1-9050528075c8'
-keywords: ["MetadataImportWithIssuedTokenOverSslExample Windows Web Services API", "WWSAPI", "WWS"]
+ms.assetid: 31d1386a-1733-4e7a-add1-9050528075c8
+keywords:
+- MetadataImportWithIssuedTokenOverSslExample Windows Web Services API
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetadataImportWithIssuedTokenOverSslExample
 
-This example illustrates importing metadata from an endpoint that supports using an issued token that is obtained from the issuing security token service (STS) using [**WsRequestSecurityToken**](wsrequestsecuritytoken.md) and presented to the service using [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](ws-xml-token-message-security-binding.md) with [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](ws-ssl-transport-security-binding.md). See [Federation](federation.md) for more information.
+This example illustrates importing metadata from an endpoint that supports using an issued token that is obtained from the issuing security token service (STS) using [**WsRequestSecurityToken**](/windows/win32/WebServices/nf-webservices-wsrequestsecuritytoken?branch=master) and presented to the service using [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/win32/WebServices/ns-webservices-_ws_xml_token_message_security_binding?branch=master) with [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/win32/WebServices/ns-webservices-_ws_ssl_transport_security_binding?branch=master). See [Federation](federation.md) for more information.
 
 ## MetadataImportWithIssuedTokenOverSslExample.cpp
 
@@ -621,13 +629,13 @@ Exit:
 
 <dl> <dt>
 
-[**WsRequestSecurityToken**](wsrequestsecuritytoken.md)
+[**WsRequestSecurityToken**](/windows/win32/WebServices/nf-webservices-wsrequestsecuritytoken?branch=master)
 </dt> <dt>
 
-[**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](ws-xml-token-message-security-binding.md)
+[**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/win32/WebServices/ns-webservices-_ws_xml_token_message_security_binding?branch=master)
 </dt> <dt>
 
-[**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](ws-ssl-transport-security-binding.md)
+[**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/win32/WebServices/ns-webservices-_ws_ssl_transport_security_binding?branch=master)
 </dt> <dt>
 
 [Federation](federation.md)

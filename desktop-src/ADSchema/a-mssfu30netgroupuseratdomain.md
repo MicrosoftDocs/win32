@@ -4,17 +4,22 @@ description: Contains part of the netgroup map that represents computed strings,
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a43f9c88-eb95-4096-9085-b6af044eeb04'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a43f9c88-eb95-4096-9085-b6af044eeb04
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["msSFU-30-Netgroup-User-At-Domain attribute AD Schema", "msSFU30NetgroupUserAtDomain attribute AD Schema"]
+keywords:
+- msSFU-30-Netgroup-User-At-Domain attribute AD Schema
+- msSFU30NetgroupUserAtDomain attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - msSFU-30-Netgroup-User-At-Domain
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msSFU-30-Netgroup-User-At-Domain attribute
@@ -38,10 +43,10 @@ Contains part of the netgroup map that represents computed strings, such as "use
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -127,9 +132,9 @@ Contains part of the netgroup map that represents computed strings, such as "use
 
 
 
- 
+ 
 
- 
+ 
 
 
 

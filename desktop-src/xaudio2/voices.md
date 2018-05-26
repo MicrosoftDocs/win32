@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains an overview of XAudio2 voices.'
-ms.assetid: '76c1c138-4846-9c4f-7875-446867436ee9'
+Description: This section contains an overview of XAudio2 voices.
+ms.assetid: 76c1c138-4846-9c4f-7875-446867436ee9
 title: Voices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Voices

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This MSIscsiInitiator\_TargetClass provides information about connected iSCSI targets as well the ability to login to a specified target.'
-ms.assetid: 'e86bb4d8-fcf1-480a-b267-33ff4d55f03a'
-title: 'MSIscsiInitiator\_TargetClass class'
+---
+Description: This MSIscsiInitiator\_TargetClass provides information about connected iSCSI targets as well the ability to login to a specified target.
+ms.assetid: e86bb4d8-fcf1-480a-b267-33ff4d55f03a
+title: MSIscsiInitiator\_TargetClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_TargetClass class

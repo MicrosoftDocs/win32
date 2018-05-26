@@ -1,7 +1,12 @@
 ---
-Description: 'Each reparse point has an identifier tag so that you can efficiently differentiate between the different types of reparse points, without having to examine the user-defined data in the reparse point.'
-ms.assetid: 'd02a2f50-d374-4149-bc04-49b7db052f62'
+Description: Each reparse point has an identifier tag so that you can efficiently differentiate between the different types of reparse points, without having to examine the user-defined data in the reparse point.
+ms.assetid: d02a2f50-d374-4149-bc04-49b7db052f62
 title: Reparse Point Tags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reparse Point Tags
@@ -10,7 +15,7 @@ Each reparse point has an identifier tag so that you can efficiently differentia
 
 When you set a reparse point, you must tag the data to be placed in the reparse point. After the reparse point has been established, a new set operation fails if the tag for the new data does not match the tag for the existing data. If the tags match, the set operation overwrites the existing reparse point.
 
-To retrieve the reparse point tag, use the [**FindFirstFile**](findfirstfile.md) function. If the **dwFileAttributes** member includes the **FILE\_ATTRIBUTE\_REPARSE\_POINT** attribute, then the **dwReserved0** member specifies the reparse point.
+To retrieve the reparse point tag, use the [**FindFirstFile**](/windows/win32/FileAPI/nf-fileapi-findfirstfilea?branch=master) function. If the **dwFileAttributes** member includes the **FILE\_ATTRIBUTE\_REPARSE\_POINT** attribute, then the **dwReserved0** member specifies the reparse point.
 
 ## Tag Contents
 
@@ -40,8 +45,8 @@ The low 16 bits determine the kind of reparse point. The high 16 bits have 12 bi
 
 The following macros exist to assist in testing tags:
 
--   [**IsReparseTagMicrosoft**](isreparsetagmicrosoft.md)
--   [**IsReparseTagNameSurrogate**](isreparsetagnamesurrogate.md)
+-   [**IsReparseTagMicrosoft**](/windows/win32/Winnt/nf-winnt-isreparsetagmicrosoft?branch=master)
+-   [**IsReparseTagNameSurrogate**](/windows/win32/Winnt/nf-winnt-isreparsetagnamesurrogate?branch=master)
 
 Each macro returns a nonzero value if the associated bit is set.
 

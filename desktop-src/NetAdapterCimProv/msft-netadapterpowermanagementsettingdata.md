@@ -1,7 +1,12 @@
 ---
-Description: 'MSFT\_NetAdapterPowerManagementSettingData represents the Power Management settings and features of a network adapter.'
-ms.assetid: '525c5657-ebf4-4807-bd55-9fbf3f82458a'
-title: 'MSFT\_NetAdapterPowerManagementSettingData class'
+Description: MSFT\_NetAdapterPowerManagementSettingData represents the Power Management settings and features of a network adapter.
+ms.assetid: 525c5657-ebf4-4807-bd55-9fbf3f82458a
+title: MSFT\_NetAdapterPowerManagementSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterPowerManagementSettingData class
@@ -58,7 +63,7 @@ The **MSFT\_NetAdapterPowerManagementSettingData** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -444,16 +449,16 @@ Supplies the list of packet patterns programmed to wake the system.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

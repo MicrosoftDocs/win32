@@ -4,11 +4,13 @@ description: Represents a file management job action object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f396e2cb-cfe0-4b4f-bd01-7814a83fb133'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: f396e2cb-cfe0-4b4f-bd01-7814a83fb133
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMFMJAction class File Server Resource Manager", "MSFT_FSRMFMJAction class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMFMJAction class File Server Resource Manager
+- MSFT_FSRMFMJAction class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMFMJAction class
@@ -42,17 +47,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMFMJAction
 {
-  uint32  Type;
-  string  ExpirationFolder;
+  uint32  Type;
+  string  ExpirationFolder;
   boolean RMSFolderOwner;
-  string  RMSFullControlUser[] = {};
-  string  RMSReadUser[] = {};
-  string  RMSWriteUser[] = {};
-  string  RMSTemplate = "";
-  string  Command;
-  string  WorkingDirectory = "";
-  string  CommandParameters = "";
-  uint32  SecurityLevel = 2;
+  string  RMSFullControlUser[] = {};
+  string  RMSReadUser[] = {};
+  string  RMSWriteUser[] = {};
+  string  RMSTemplate = "";
+  string  Command;
+  string  WorkingDirectory = "";
+  string  CommandParameters = "";
+  uint32  SecurityLevel = 2;
 };
 ```
 
@@ -76,7 +81,7 @@ The **MSFT\_FSRMFMJAction** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -110,7 +115,7 @@ Access type: Read/write
 
 A string up to 10KB in size. The default value is an empty string. Optional.
 
-This property is required when the **Type** property is 2 (Custom). See the [**Arguments**](ifsrmactioncommand-arguments.md) property of [**IFsrmActionCommand**](ifsrmactioncommand.md).
+This property is required when the **Type** property is 2 (Custom). See the [**Arguments**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactioncommand-get_arguments?branch=master) property of [**IFsrmActionCommand**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactioncommand?branch=master).
 
 </dd> <dt>
 
@@ -213,7 +218,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-The account under which the executable program or script will be run. This property is only valid when the **Type** property is 2 (Custom). The default value is 2 (LocalService). See the [**FsrmAccountType**](fsrmaccounttype.md) enumeration.
+The account under which the executable program or script will be run. This property is only valid when the **Type** property is 2 (Custom). The default value is 2 (LocalService). See the [**FsrmAccountType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmaccounttype?branch=master) enumeration.
 
 <dt>
 
@@ -322,7 +327,7 @@ Access type: Read/write
 
 A string that refers to a valid path to a folder. The length must not exceed **MAX\_PATH** (260). Remote paths are not supported. The default value is an empty string.
 
-This property is only valid when the **Type** property is 2 (Custom). See the [**WorkingDirectory**](ifsrmactioncommand-workingdirectory.md) property of [**IFsrmActionCommand**](ifsrmactioncommand.md).
+This property is only valid when the **Type** property is 2 (Custom). See the [**WorkingDirectory**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactioncommand-get_workingdirectory?branch=master) property of [**IFsrmActionCommand**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactioncommand?branch=master).
 
 </dd> </dl>
 
@@ -347,7 +352,7 @@ Not all action types support every property in the class. The table below indica
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -356,7 +361,7 @@ Not all action types support every property in the class. The table below indica
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -370,9 +375,9 @@ Not all action types support every property in the class. The table below indica
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

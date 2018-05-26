@@ -1,7 +1,12 @@
 ---
 title: Storage Volume Provider
 description: The Storage Volume provider supplies volume management functions.
-ms.assetid: '7a32bcb0-f4b0-4e48-aea0-865be93d48c7'
+ms.assetid: 7a32bcb0-f4b0-4e48-aea0-865be93d48c7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage Volume Provider

@@ -1,7 +1,12 @@
 ---
 title: Summary of Memory Allocation Rules
 description: The following table summarizes key rules regarding memory allocation.
-ms.assetid: '0c1f8398-75e6-45ec-a9f9-9dcdbe21c24d'
+ms.assetid: 0c1f8398-75e6-45ec-a9f9-9dcdbe21c24d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Summary of Memory Allocation Rules
@@ -35,7 +40,7 @@ The following table summarizes the effects of key IDL and ACF attributes on memo
 | \[allocate(free)\] or \[allocate(dont\_free)\]                                 | (None; affects server.)                                                                                                                        | Determines whether memory on the server is freed after each remote procedure call.                                            |
 | array attributes \[ [max\_is](https://msdn.microsoft.com/library/windows/desktop/aa367074)\] and \[ [size\_is](https://msdn.microsoft.com/library/windows/desktop/aa367164)\] | (None; affects server.)                                                                                                                        | Determines size of memory to be allocated.                                                                                    |
 | \[ [byte\_count](https://msdn.microsoft.com/library/windows/desktop/aa366744)\]                                            | Client must allocate buffer; not allocated or freed by client stubs.                                                                           | ACF parameter attribute determines size of buffer allocated on server.                                                        |
-| \[ [enable\_allocate](https://msdn.microsoft.com/library/windows/desktop/aa366808)\]                                  | Usually, none. However, the client may be using a different memory management environment.                                                     | Server uses a different memory management environment. [**RpcSmAllocate**](rpcsmallocate.md) should be used for allocations. |
+| \[ [enable\_allocate](https://msdn.microsoft.com/library/windows/desktop/aa366808)\]                                  | Usually, none. However, the client may be using a different memory management environment.                                                     | Server uses a different memory management environment. [**RpcSmAllocate**](/windows/win32/Rpcndr/nf-rpcndr-rpcsmallocate?branch=master) should be used for allocations. |
 | \[ [in](https://msdn.microsoft.com/library/windows/desktop/aa367051)\]attribute                                                    | Client application responsible for allocating memory for data.                                                                                 | Allocated on server by stubs.                                                                                                 |
 | \[ [out](https://msdn.microsoft.com/library/windows/desktop/aa367136)\] attribute                                             | Allocated on client by stubs.                                                                                                                  | \[[out](https://msdn.microsoft.com/library/windows/desktop/aa367136)\]-only pointer must be \[[ref](https://msdn.microsoft.com/library/windows/desktop/aa367153)\] pointer; allocated on server by stubs.                       |
 | \[ [ref](https://msdn.microsoft.com/library/windows/desktop/aa367153)\] attribute                                                 | Memory referenced by pointer must be allocated by client application.                                                                          | Top-level and first-level reference pointers managed by stubs.                                                                |

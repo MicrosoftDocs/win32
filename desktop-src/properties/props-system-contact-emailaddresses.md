@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates all the email addresses of the contact.'
-ms.assetid: '57ef6472-c317-42c0-9771-b0728768b100'
-title: 'System.Contact.EmailAddresses'
+Description: Indicates all the email addresses of the contact.
+ms.assetid: 57ef6472-c317-42c0-9771-b0728768b100
+title: System.Contact.EmailAddresses
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.EmailAddresses

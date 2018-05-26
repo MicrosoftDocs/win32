@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetOutputBuffering method specifies the number of frames rendered in advance during preview.'
-ms.assetid: '6e69b196-a6ce-4ce0-8c48-58b1738fb197'
-title: 'IAMTimelineGroup::SetOutputBuffering method'
+---
+Description: The SetOutputBuffering method specifies the number of frames rendered in advance during preview.
+ms.assetid: 6e69b196-a6ce-4ce0-8c48-58b1738fb197
+title: IAMTimelineGroupSetOutputBuffering method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::SetOutputBuffering method

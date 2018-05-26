@@ -1,7 +1,12 @@
 ---
-Description: 'Clipping involves restricting drawing to a certain region. The following illustration shows the string &\#0034;Hello&\#0034; clipped to a heart-shaped region.'
-ms.assetid: '58cc052d-31af-4410-81b9-defbad08a1dc'
+Description: Clipping involves restricting drawing to a certain region. The following illustration shows the string &\#0034;Hello&\#0034; clipped to a heart-shaped region.
+ms.assetid: 58cc052d-31af-4410-81b9-defbad08a1dc
 title: Clipping
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clipping
@@ -14,7 +19,7 @@ Regions can be constructed from paths, and paths can contain the outlines of str
 
 ![illustration showing the string "hello" filled by a pattern of concentric circles](images/aboutgdip02-art31.png)
 
-To draw with clipping, create a [**Graphics**](-gdiplus-class-graphics-class.md) object, call its [SetClip](-gdiplus-class-graphics-setclip-methods.md) method, and then call the drawing methods of that same **Graphics** object. The following example draws a line that is clipped to a rectangular region.
+To draw with clipping, create a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object, call its [SetClip](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(in const graphicspath,in combinemode)?branch=master) method, and then call the drawing methods of that same **Graphics** object. The following example draws a line that is clipped to a rectangular region.
 
 
 ```

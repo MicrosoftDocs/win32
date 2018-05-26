@@ -1,14 +1,20 @@
 ---
 title: BUTTON.transparencyColor
 description: The transparencyColor attribute specifies or retrieves the color that will be transparent in the BUTTON images.
-ms.assetid: 'c22f9965-3118-4c96-8ff5-7fbaa28cbb57'
-keywords: ["BUTTON.transparencyColor Windows Media Player"]
+ms.assetid: c22f9965-3118-4c96-8ff5-7fbaa28cbb57
+keywords:
+- BUTTON.transparencyColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTON.transparencyColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTON.transparencyColor
@@ -33,7 +39,7 @@ This attribute is a read/write **String** with no default containing one of the 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +74,9 @@ Because JPGs are lossy and therefore subject to unexpected color change, they ar
 [**Color Reference**](color-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

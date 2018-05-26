@@ -1,7 +1,12 @@
 ---
 title: About the dvr-ms File Format
 description: About the dvr-ms File Format
-ms.assetid: '10477644-2462-4264-b0c7-a22eaf754ace'
+ms.assetid: 10477644-2462-4264-b0c7-a22eaf754ace
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the dvr-ms File Format

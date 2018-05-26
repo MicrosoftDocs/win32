@@ -1,7 +1,12 @@
 ---
-Description: 'The AnyPath data type is a text string containing either a full path or a relative path.'
-ms.assetid: 'fe8a4d2a-1960-40af-a0e4-4d65accdd388'
+Description: The AnyPath data type is a text string containing either a full path or a relative path.
+ms.assetid: fe8a4d2a-1960-40af-a0e4-4d65accdd388
 title: AnyPath
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AnyPath

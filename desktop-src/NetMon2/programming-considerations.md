@@ -1,7 +1,12 @@
 ---
-Description: 'This topic contains programming information. The following list identifies some programming tips to help you write a parser.'
-ms.assetid: '24d3e11f-8281-4464-a2d7-f4f2466e9d9e'
+Description: This topic contains programming information. The following list identifies some programming tips to help you write a parser.
+ms.assetid: 24d3e11f-8281-4464-a2d7-f4f2466e9d9e
 title: Programming Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Considerations

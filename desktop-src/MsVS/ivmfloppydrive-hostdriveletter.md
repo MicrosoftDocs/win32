@@ -1,8 +1,13 @@
 ---
 title: IVMFloppyDrive HostDriveLetter property
 description: The HostDriveLetter property contains the letter of the physical floppy drive to which this floppy drive is attached.
-ms.assetid: '3c0c63e4-0acc-46e1-b0ff-c94f296511c0'
-keywords: ["HostDriveLetter property Virtual Server", "HostDriveLetter property Virtual Server , IVMFloppyDrive interface", "IVMFloppyDrive interface Virtual Server , HostDriveLetter property", "HostDriveLetter property Virtual Server , VMFloppyDrive interface", "VMFloppyDrive interface Virtual Server , HostDriveLetter property"]
+ms.assetid: 3c0c63e4-0acc-46e1-b0ff-c94f296511c0
+keywords:
+- HostDriveLetter property Virtual Server
+- HostDriveLetter property Virtual Server , IVMFloppyDrive interface
+- IVMFloppyDrive interface Virtual Server , HostDriveLetter property
+- HostDriveLetter property Virtual Server , VMFloppyDrive interface
+- VMFloppyDrive interface Virtual Server , HostDriveLetter property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDrive::HostDriveLetter property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HostDriveLetter(
-  [out] BSTR *driveLetter
+  [out] BSTR *driveLetter
 );
 ```
 
@@ -78,8 +88,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -91,9 +101,9 @@ This property value is read-only.
 [**IVMFloppyDrive**](ivmfloppydrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

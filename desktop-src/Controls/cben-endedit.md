@@ -1,8 +1,9 @@
 ---
 title: CBEN\_ENDEDIT notification code
-description: Sent when the user has concluded an operation within the edit box or has selected an item from the control's drop-down list. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'b6b50951-7304-4499-b57b-a5b592de2190'
-keywords: ["CBEN_ENDEDIT notification code Windows Controls"]
+description: Sent when the user has concluded an operation within the edit box or has selected an item from the controls drop-down list. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: b6b50951-7304-4499-b57b-a5b592de2190
+keywords:
+- CBEN_ENDEDIT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBEN\_ENDEDIT notification code
@@ -35,7 +41,7 @@ CBEN_ENDEDIT
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMCBEENDEDIT**](nmcbeendedit.md) structure that contains information about how the user concluded the edit operation.
+A pointer to an [**NMCBEENDEDIT**](/windows/win32/Commctrl/ns-commctrl-nmcbeendedita?branch=master) structure that contains information about how the user concluded the edit operation.
 
 </dd> </dl>
 
@@ -49,8 +55,8 @@ A pointer to an [**NMCBEENDEDIT**](nmcbeendedit.md) structure that contains info
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **CBEN\_ENDEDITW** (Unicode) and **CBEN\_ENDEDITA** (ANSI)<br/>                 |
 
@@ -63,9 +69,9 @@ A pointer to an [**NMCBEENDEDIT**](nmcbeendedit.md) structure that contains info
 [About ComboBoxEx Controls](comboboxex-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

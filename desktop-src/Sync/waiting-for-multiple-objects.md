@@ -1,12 +1,17 @@
 ---
-Description: 'The following example uses the CreateEvent function to create two event objects and the CreateThread function to create a thread.'
-ms.assetid: '0132ac94-b45b-438a-b96a-e77cfe522702'
+Description: The following example uses the CreateEvent function to create two event objects and the CreateThread function to create a thread.
+ms.assetid: 0132ac94-b45b-438a-b96a-e77cfe522702
 title: Waiting for Multiple Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Waiting for Multiple Objects
 
-The following example uses the [**CreateEvent**](createevent.md) function to create two event objects and the [**CreateThread**](base.createthread) function to create a thread. It then uses the [**WaitForMultipleObjects**](waitformultipleobjects.md) function to wait for the thread to set the state of one of the objects to signaled using the [**SetEvent**](setevent.md) function.
+The following example uses the [**CreateEvent**](/windows/win32/WinBase/nf-synchapi-createeventa?branch=master) function to create two event objects and the [**CreateThread**](base.createthread) function to create a thread. It then uses the [**WaitForMultipleObjects**](/windows/win32/WinBase/wdm-irqlkewaitformultipleobjects?branch=master) function to wait for the thread to set the state of one of the objects to signaled using the [**SetEvent**](/windows/win32/WinBase/nf-synchapi-setevent?branch=master) function.
 
 For an example that waits for a single object, see [Using Mutex Objects](using-mutex-objects.md).
 

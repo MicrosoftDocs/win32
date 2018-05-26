@@ -1,8 +1,9 @@
 ---
 title: ThreadingModel enumeration
 description: Specify the threading model the engine should use when invoking callbacks provided by the solution.
-ms.assetid: '2B5A1D7E-0A1F-4D0F-8A2B-BB3B7ABD34FF'
-keywords: ["ThreadingModel enumeration Access Execution Engine"]
+ms.assetid: 2B5A1D7E-0A1F-4D0F-8A2B-BB3B7ABD34FF
+keywords:
+- ThreadingModel enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ThreadingModel enumeration
@@ -22,7 +28,7 @@ Specify the threading model the engine should use when invoking callbacks provid
 
 ```C++
 enum ThreadingModel {
-  ThreadingModelNone  = 0, 
+  ThreadingModelNone  = 0, 
   ThreadingModelFree, 
   ThreadingModelAPC 
 
@@ -66,15 +72,15 @@ Managed code uses the [**ThreadingModel**](axe-threadingmodel_om) enum.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

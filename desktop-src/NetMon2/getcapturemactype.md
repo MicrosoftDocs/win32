@@ -1,7 +1,12 @@
 ---
-Description: 'The GetCaptureMacType function returns the MAC type of a given capture.'
-ms.assetid: 'de0dfb36-df3a-4f6e-b266-09c81dfdc88b'
+Description: The GetCaptureMacType function returns the MAC type of a given capture.
+ms.assetid: de0dfb36-df3a-4f6e-b266-09c81dfdc88b
 title: GetCaptureMacType function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCaptureMacType function
@@ -13,7 +18,7 @@ The **GetCaptureMacType** function returns the MAC type of a given capture.
 
 ```C++
 DWORD WINAPI GetCaptureMacType(
-  _In_ HCAPTURE hCapture
+  _In_ HCAPTURE hCapture
 );
 ```
 
@@ -49,7 +54,7 @@ If the function is unsuccessful, the return value is an error code.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,17 +68,17 @@ The handle of the capture can be obtained in several ways, depending on who make
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: Defines a connection that is currently turned on and configured to 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2681c925-814d-4aef-97a3-1e171bdd1dd0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2681c925-814d-4aef-97a3-1e171bdd1dd0
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ActiveConnection class", "CIM_ActiveConnection class, described"]
+keywords:
+- CIM_ActiveConnection class
+- CIM_ActiveConnection class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ActiveConnection class
@@ -40,9 +45,9 @@ class CIM_ActiveConnection : CIM_SAPSAPDependency
 {
   CIM_ServiceAccessPoint REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
-  uint16                     TrafficType;
-  string                     OtherTrafficDescription;
-  boolean                    IsUnidirectional;
+  uint16                     TrafficType;
+  string                     OtherTrafficDescription;
+  boolean                    IsUnidirectional;
 };
 ```
 
@@ -118,7 +123,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 > [!Note]  
 > This property is deprecated. Instead, we recommend that you specify this information in the addressing, protocol, and basic functionality of the endpoints.
 
- 
+ 
 
 A description of the traffic type that is specified when the **TrafficType** property is set to "1" (Other).
 
@@ -139,7 +144,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 > [!Note]  
 > This property is deprecated. Instead, we recommend that you specify this information in the addressing, protocol, and basic functionality of the endpoints.
 
- 
+ 
 
 The type of traffic that is transmitted over this connection.
 
@@ -198,7 +203,7 @@ The possible values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -215,9 +220,9 @@ The possible values are:
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

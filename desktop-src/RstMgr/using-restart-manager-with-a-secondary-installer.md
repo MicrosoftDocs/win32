@@ -1,7 +1,12 @@
 ---
 title: Using Restart Manager with a Secondary Installer
 description: The following procedure describes the use of the Restart Manager with primary and secondary installers.
-ms.assetid: 'aa55ab09-206b-49ed-8cb4-e311c1ed2d9d'
+ms.assetid: aa55ab09-206b-49ed-8cb4-e311c1ed2d9d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Restart Manager with a Secondary Installer
@@ -12,17 +17,17 @@ When using primary and secondary installers, the primary installer controls the 
 
 **To use Restart Manager with primary and secondary installers**
 
-1.  The primary installer calls the [**RmStartSession**](rmstartsession.md) function to start the Restart Manager session and obtain a session handle and key.
+1.  The primary installer calls the [**RmStartSession**](/windows/win32/RestartManager/nf-restartmanager-rmstartsession?branch=master) function to start the Restart Manager session and obtain a session handle and key.
 2.  The primary installer starts or contacts the secondary installer and provides it with the session key obtained in the previous step.
-3.  The secondary installer calls the [**RmJoinSession**](rmjoinsession.md) function with the session key to join the Restart Manager session. A secondary installer can join a session that is started by the primary installer only when both installers run in the same user context.
-4.  The primary and secondary installers call the [**RmRegisterResources**](rmregisterresources.md) function to register resources. The Restart Manager can use only registered resources to determine which applications and services must be shut down and restarted. All resources that can be affected by the installation should be registered with the session. Resources can be identified by filename, service short name, or an [**RM\_UNIQUE\_PROCESS**](rm-unique-process.md) structure.
-5.  The primary installer calls the [**RmGetList**](rmgetlist.md) function to obtain an array of [**RM\_PROCESS\_INFO**](rm-process-info.md) structures that lists all applications and services that must be shut down and restarted.
+3.  The secondary installer calls the [**RmJoinSession**](/windows/win32/RestartManager/nf-restartmanager-rmjoinsession?branch=master) function with the session key to join the Restart Manager session. A secondary installer can join a session that is started by the primary installer only when both installers run in the same user context.
+4.  The primary and secondary installers call the [**RmRegisterResources**](/windows/win32/RestartManager/nf-restartmanager-rmregisterresources?branch=master) function to register resources. The Restart Manager can use only registered resources to determine which applications and services must be shut down and restarted. All resources that can be affected by the installation should be registered with the session. Resources can be identified by filename, service short name, or an [**RM\_UNIQUE\_PROCESS**](/windows/win32/RestartManager/ns-restartmanager-_rm_unique_process?branch=master) structure.
+5.  The primary installer calls the [**RmGetList**](/windows/win32/RestartManager/nf-restartmanager-rmgetlist?branch=master) function to obtain an array of [**RM\_PROCESS\_INFO**](/windows/win32/RestartManager/ns-restartmanager-_rm_process_info?branch=master) structures that lists all applications and services that must be shut down and restarted.
 
-    If the value of the *lpdwRebootReason* parameter that is returned by the [**RmGetList**](rmgetlist.md) function is nonzero, the Restart Manager is unable to free a registered resource by the shutdown of an application or service. In this case, a system shutdown and restart is required to continue the installation. The primary installer should prompt the user for an action, stop programs or services, or schedule a system shutdown and restart.
+    If the value of the *lpdwRebootReason* parameter that is returned by the [**RmGetList**](/windows/win32/RestartManager/nf-restartmanager-rmgetlist?branch=master) function is nonzero, the Restart Manager is unable to free a registered resource by the shutdown of an application or service. In this case, a system shutdown and restart is required to continue the installation. The primary installer should prompt the user for an action, stop programs or services, or schedule a system shutdown and restart.
 
-    If the value of the *lpdwRebootReason* parameter that is returned by the [**RmGetList**](rmgetlist.md) function is zero, the installer should call the [**RmShutdown**](rmshutdown.md) function. This shuts down the services and applications that are using registered resources. The primary and secondary installers should then perform system modifications that are required to complete the installation. Finally, the primary installer should call the [**RmRestart**](rmrestart.md) function so that the Restart Manager can restart the applications it has shut down and that have been registered for a restart.
+    If the value of the *lpdwRebootReason* parameter that is returned by the [**RmGetList**](/windows/win32/RestartManager/nf-restartmanager-rmgetlist?branch=master) function is zero, the installer should call the [**RmShutdown**](/windows/win32/RestartManager/nf-restartmanager-rmshutdown?branch=master) function. This shuts down the services and applications that are using registered resources. The primary and secondary installers should then perform system modifications that are required to complete the installation. Finally, the primary installer should call the [**RmRestart**](/windows/win32/RestartManager/nf-restartmanager-rmrestart?branch=master) function so that the Restart Manager can restart the applications it has shut down and that have been registered for a restart.
 
-6.  The primary and secondary installer call the [**RmEndSession**](rmendsession.md) function to close the Restart Manager session.
+6.  The primary and secondary installer call the [**RmEndSession**](/windows/win32/RestartManager/nf-restartmanager-rmendsession?branch=master) function to close the Restart Manager session.
 
 The following code snippet shows an example of a primary installer starting and using a Restart Manager session. The example requires Windows 7 or Windows Server 2008 R2. On Windows Vista or Windows Server 2008, the Calculator application shuts down but does not restart. This example shows how a primary installer can use Restart Manager to shutdown and restart a process. The example assumes that Calculator is already running before starting the Restart Manager session.
 

@@ -1,7 +1,12 @@
 ---
 Description: Rob Haverty
-ms.assetid: '3f64f51f-24fe-411a-8354-f446810de023'
+ms.assetid: 3f64f51f-24fe-411a-8354-f446810de023
 title: New Accessibility Model for Microsoft Windows and Cross Platform Development
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # New Accessibility Model for Microsoft Windows and Cross Platform Development
@@ -46,7 +51,7 @@ This document includes information on the namespaces that the UI Automation fram
 
 ## UI Automation Namespaces
 
-Namespaces are used as an organizational system — a way of presenting program components that are exposed to other programs and applications. The following table lists the namespaces used in the UI Automation framework, as well as the audience that uses each namespace.
+Namespaces are used as an organizational system   a way of presenting program components that are exposed to other programs and applications. The following table lists the namespaces used in the UI Automation framework, as well as the audience that uses each namespace.
 
 **Table 1. UI Automation Namespaces and related audiences**
 
@@ -59,7 +64,7 @@ Namespaces are used as an organizational system — a way of presenting program co
 
 
 
- 
+ 
 
 ## UI Automation Tree
 
@@ -105,7 +110,7 @@ The following example compares the control view and content view of the automati
 
 
 
- 
+ 
 
 ## UI Automation Control Patterns
 
@@ -154,7 +159,7 @@ To define the full set of functionality for a control, providers implement multi
 
 
 
- 
+ 
 
 ### Control Patterns
 
@@ -186,7 +191,7 @@ The following table lists some of the key control patterns and their classes and
 
 
 
- 
+ 
 
 ## UI Automation Properties
 
@@ -205,7 +210,7 @@ The following table shows how one standard UI Automation property maps to multip
 
 
 
- 
+ 
 
 By implementing UI Automation, providers map unique UI framework properties to standard UI Automation properties. When this done, it allows clients to query for property information using one API call for a UI Automation property.
 
@@ -225,9 +230,9 @@ UI Automation is a key part of the new accessibility model for Windows, gatherin
 
 [Microsoft Accessibility home page](http://go.microsoft.com/fwlink/p/?linkid=202420)
 
- 
+ 
 
- 
+ 
 
 
 

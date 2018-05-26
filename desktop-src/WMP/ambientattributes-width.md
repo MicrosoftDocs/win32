@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.width
 description: The width attribute specifies or retrieves the width of the control.
-ms.assetid: 'f246958a-563c-40c0-8a74-4511103b95b2'
-keywords: ["AmbientAttributes.width Windows Media Player"]
+ms.assetid: f246958a-563c-40c0-8a74-4511103b95b2
+keywords:
+- AmbientAttributes.width Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.width
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.width
@@ -44,9 +50,9 @@ If the width specified is narrower than the width of the image provided, then th
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

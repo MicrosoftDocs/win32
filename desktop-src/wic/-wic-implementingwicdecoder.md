@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'a26a592d-42ef-4690-95b4-48a5324be75a'
-title: 'Implementing a WIC-Enabled Decoder'
+ms.assetid: a26a592d-42ef-4690-95b4-48a5324be75a
+title: Implementing a WIC-Enabled Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing a WIC-Enabled Decoder
@@ -13,7 +18,7 @@ One of the classes provides container-level services and implements the [IWICBit
 
 The other class you will implement provides frame-level services and does the actual decoding of the image bits for each frame in the container. This class implements the [IWICBitmapFrameDecode](-wic-imp-iwicbitmapframedecode.md) interface and the [IWICMetadataBlockReader](-wic-imp-iwicmetadatablockreader.md) interface. If you are writing a decoder for a raw format, you also implement the [IWICDevelopRaw](-wic-imp-iwicdevelopraw.md) interface on this class. In addition to the required interfaces, it is highly recommended that you implement the [IWICBitmapSourceTransform](-wic-imp-iwicmetadatablockreader.md) interface on this class to enable the best possible performance for your image format.
 
-One of the objects provided by WIC is the [**ImagingFactory**](-wic-codec-iwicimagingfactory.md). You frequently use the [**IWICComponentFactory**](-wic-codec-iwiccomponentfactory.md) interface on this object to create various components. Because it is used frequently, you should keep a reference to it as a member property on both your decoder and encoder classes.
+One of the objects provided by WIC is the [**ImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master). You frequently use the [**IWICComponentFactory**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwiccomponentfactory?branch=master) interface on this object to create various components. Because it is used frequently, you should keep a reference to it as a member property on both your decoder and encoder classes.
 
 
 ```C++

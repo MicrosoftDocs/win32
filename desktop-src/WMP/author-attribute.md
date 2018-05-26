@@ -1,14 +1,20 @@
 ---
 title: Author Attribute
 description: The Author attribute is the name of a media artist or actor associated with the content.
-ms.assetid: '6621a955-dd6b-4725-9690-0cc96e73d94f'
-keywords: ["Author Attribute Windows Media Player"]
+ms.assetid: 6621a955-dd6b-4725-9690-0cc96e73d94f
+keywords:
+- Author Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Author
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Author Attribute
@@ -57,9 +63,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

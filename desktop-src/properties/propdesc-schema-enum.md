@@ -1,7 +1,12 @@
 ---
-Description: 'Used to assign enumerated text to discrete values.'
-ms.assetid: 'c8cc040e-fcce-43a0-98c1-db2b2c616ac3'
+Description: Used to assign enumerated text to discrete values.
+ms.assetid: c8cc040e-fcce-43a0-98c1-db2b2c616ac3
 title: enum
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # enum

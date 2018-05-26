@@ -4,11 +4,14 @@ description: Describes application specific data that is stored as part of the l
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f9e98976-99ff-4df8-91f4-09efa88a4406'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: f9e98976-99ff-4df8-91f4-09efa88a4406
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_NAME_VALUE structure Active Directory Rights Management Services SDK 2.0", "PIPC_NAME_VALUE structure pointer Active Directory Rights Management Services SDK 2.0", "PCIPC_NAME_VALUE structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_NAME_VALUE structure Active Directory Rights Management Services SDK 2.0
+- PIPC_NAME_VALUE structure pointer Active Directory Rights Management Services SDK 2.0
+- PCIPC_NAME_VALUE structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Ipcbase.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPC\_NAME\_VALUE structure
@@ -29,7 +35,7 @@ Describes application specific data that is stored as part of the license. The d
 ```C++
 typedef struct _IPC_NAME_VALUE {
   LPCWSTR wszName;
-  DWORD   lcid;
+  DWORD   lcid;
   LPCWSTR wszValue;
 } IPC_NAME_VALUE, *PIPC_NAME_VALUE;typedef const IPC_NAME_VALUE *PCIPC_NAME_VALUE;
 ```
@@ -69,8 +75,8 @@ The property value to associate with the content or license.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcbase.h (include Msipc.h)</dt> </dl> |
 
 
@@ -82,9 +88,9 @@ The property value to associate with the content or license.
 [Release notes](release-notes--rtm-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

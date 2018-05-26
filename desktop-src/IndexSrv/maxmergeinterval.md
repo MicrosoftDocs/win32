@@ -1,7 +1,12 @@
 ---
 title: MaxMergeInterval
 description: MaxMergeInterval
-ms.assetid: 'd93ae152-eace-45bb-af64-6541a0f9f5a2'
+ms.assetid: d93ae152-eace-45bb-af64-6541a0f9f5a2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxMergeInterval

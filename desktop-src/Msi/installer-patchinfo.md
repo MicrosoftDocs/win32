@@ -1,7 +1,12 @@
-﻿---
-Description: 'The read-only PatchInfo property of the Installer object returns information about a patch.'
-ms.assetid: 'a92e409e-b4a5-42cc-a87d-239c23655e5e'
-title: 'Installer.PatchInfo property'
+---
+Description: The read-only PatchInfo property of the Installer object returns information about a patch.
+ms.assetid: a92e409e-b4a5-42cc-a87d-239c23655e5e
+title: Installer.PatchInfo property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.PatchInfo property
@@ -37,7 +42,7 @@ propVal = Installer.PatchInfo
 
 <dl> <dt>
 
-[**MsiGetPatchInfo**](msigetpatchinfo.md)
+[**MsiGetPatchInfo**](/windows/win32/Msi/nf-msi-msigetpatchinfoa?branch=master)
 </dt> </dl>
 
  

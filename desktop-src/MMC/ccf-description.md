@@ -4,11 +4,12 @@ description: Introduced in MMC 2.0, the CCF\_DESCRIPTION clipboard format is pro
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eff5b42b-662a-49b0-bc32-9522e7c12704'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: eff5b42b-662a-49b0-bc32-9522e7c12704
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CCF_DESCRIPTION clipboard format MMC"]
+keywords:
+- CCF_DESCRIPTION clipboard format MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CCF\_DESCRIPTION clipboard format
@@ -41,8 +45,8 @@ If the snap-in supports the CCF\_DESCRIPTION property or clipboard format, the E
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -57,9 +61,9 @@ If the snap-in supports the CCF\_DESCRIPTION property or clipboard format, the E
 [**CCF\_HTML\_DETAILS**](ccf-html-details.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: The result of the ProtectedFileStream AcquireAsync operation.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'T:Microsoft.RightsManagement.GetProtectedFileStreamResult'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: TMicrosoft.RightsManagement.GetProtectedFileStreamResult
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["GetProtectedFileStreamResult class"]
+keywords:
+- GetProtectedFileStreamResult class
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetProtectedFileStreamResult class
@@ -52,7 +56,7 @@ The **GetProtectedFileStreamResult** class has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +79,9 @@ The **GetProtectedFileStreamResult** class has these properties.
 [IInspectable](https://msdn.microsoft.com/library/windows/apps/br205821)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

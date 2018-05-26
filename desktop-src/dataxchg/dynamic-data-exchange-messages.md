@@ -1,7 +1,12 @@
 ---
 title: DDE Messages
 description: .
-ms.assetid: '23ed5218-bd01-42ba-9995-d3e98a5012d1'
+ms.assetid: 23ed5218-bd01-42ba-9995-d3e98a5012d1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DDE Messages

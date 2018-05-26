@@ -2,7 +2,13 @@
 title: MIDL Unions
 description: The Microsoft Interface Definition Language supports a superset of the C/C++ union statement.
 ms.assetid: 34d01a57-4d65-4d9c-8a2f-21db1c1d8b37
-keywords: ["data types MIDL , unions"]
+keywords:
+- data types MIDL , unions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL Unions

@@ -1,14 +1,20 @@
 ---
 title: Broadcast
 description: The Broadcast attribute is a file-level attribute indicating whether the content can be broadcast. It is assumed that any content for which no copyright has been assigned can be legally broadcast.
-ms.assetid: 'da2adf16-a9b5-4678-896e-2be8f5ca27e4'
-keywords: ["Broadcast windows Media Format"]
+ms.assetid: da2adf16-a9b5-4678-896e-2be8f5ca27e4
+keywords:
+- Broadcast windows Media Format
 topic_type:
 - apiref
 api_name:
 - Broadcast
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Broadcast

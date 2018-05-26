@@ -1,15 +1,18 @@
 ---
-Description: 'Deletes all utilization data in IPAM database on or before a specified date.'
+Description: Deletes all utilization data in IPAM database on or before a specified date.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fbac4b97-89de-4aba-82e4-709e1b35cc0a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fbac4b97-89de-4aba-82e4-709e1b35cc0a
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'RemoveIpamUtilizationData method of the MSFT\_IPAM\_IpamUtilizationData class'
+title: RemoveIpamUtilizationData method of the MSFT\_IPAM\_IpamUtilizationData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveIpamUtilizationData method of the MSFT\_IPAM\_IpamUtilizationData class
@@ -21,8 +24,8 @@ Deletes all utilization data in IPAM database on or before a specified date.
 
 ```mof
 uint32 RemoveIpamUtilizationData(
-  [in]  datetime                      EndDate,
-  [out] MSFT_IPAM_IpamUtilizationData Output[]
+  [in]  datetime                      EndDate,
+  [out] MSFT_IPAM_IpamUtilizationData Output[]
 );
 ```
 
@@ -53,7 +56,7 @@ On success, returns an array of [**MSFT\_IPAM\_IpamUtilizationData**](msft-ipam-
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -67,9 +70,9 @@ On success, returns an array of [**MSFT\_IPAM\_IpamUtilizationData**](msft-ipam-
 [**MSFT\_IPAM\_IpamUtilizationData**](msft-ipam-ipamutilizationdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Animation Control Messages
 description: .
-ms.assetid: '4bd9f744-a4be-45f6-8b8a-d941c9e18f30'
+ms.assetid: 4bd9f744-a4be-45f6-8b8a-d941c9e18f30
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Animation Control Messages

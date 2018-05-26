@@ -1,7 +1,7 @@
 ---
 title: DWM Enable Composition Constants
 description: Flags used by the DwmEnableComposition \ 160; function to change the state of Desktop Window Manager (DWM) composition.
-ms.assetid: '1403d9a6-e1cb-42ab-bf48-3cede4f36ad4'
+ms.assetid: 1403d9a6-e1cb-42ab-bf48-3cede4f36ad4
 topic_type:
 - apiref
 api_name:
@@ -11,11 +11,16 @@ api_location:
 - Dwmapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DWM Enable Composition Constants
 
-Flags used by the [**DwmEnableComposition**](dwmenablecomposition.md)  function to change the state of Desktop Window Manager (DWM) composition.
+Flags used by the [**DwmEnableComposition**](/windows/win32/Dwmapi/nf-dwmapi-dwmenablecomposition?branch=master)  function to change the state of Desktop Window Manager (DWM) composition.
 
 <dl> <dt>
 
@@ -51,15 +56,15 @@ Enable composition.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Dwmapi.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

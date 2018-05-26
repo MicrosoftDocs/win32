@@ -1,8 +1,10 @@
 ---
 title: System.Gadget.SideShow object
-description: Defines the properties, methods, and events that provide Windows Sidebar functionality on Windows Vista SideShow devices.
-ms.assetid: 'b28a0df0-b766-40e4-ab64-0f9fe47dc970'
-keywords: ["System.Gadget.SideShow object Windows Sidebar", "System.Gadget.SideShow object Windows Sidebar , described"]
+description: Defines the properties, methods, and events that provide Windows Sidebar functionality on Windows Vista SideShow devices.
+ms.assetid: b28a0df0-b766-40e4-ab64-0f9fe47dc970
+keywords:
+- System.Gadget.SideShow object Windows Sidebar
+- System.Gadget.SideShow object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,13 +13,18 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.SideShow object
 
 \[The Windows Gadget Platform/Sidebar is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. \]
 
-Defines the properties, methods, and events that provide Windows Sidebar functionality on Windows Vista SideShow devices.
+Defines the properties, methods, and events that provide Windows Sidebar functionality on Windows Vista SideShow devices.
 
 ## Members
 
@@ -58,7 +65,7 @@ The **System.Gadget.SideShow** object has these events.
 
 
 
- 
+ 
 
 ### Methods
 
@@ -77,7 +84,7 @@ The **System.Gadget.SideShow** object has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -85,10 +92,10 @@ The **System.Gadget.SideShow** object has these methods.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -107,9 +114,9 @@ The **System.Gadget.SideShow** object has these methods.
 [Windows SideShow: Windows Hardware Developer Central](http://www.microsoft.com/whdc/device/sideshow/default.mspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

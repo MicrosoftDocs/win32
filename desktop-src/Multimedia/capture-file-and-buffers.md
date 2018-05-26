@@ -1,7 +1,12 @@
 ---
 title: Capture File and Buffers
 description: Capture File and Buffers
-ms.assetid: 'dde40b0b-d76e-4675-9118-43dc839d5314'
+ms.assetid: dde40b0b-d76e-4675-9118-43dc839d5314
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capture File and Buffers

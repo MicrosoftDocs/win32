@@ -1,12 +1,17 @@
 ---
 title: Setting Process-Wide Security
 description: There are several ways to set process-wide security.
-ms.assetid: '596ba257-cbde-4243-aa29-78749304867a'
+ms.assetid: 596ba257-cbde-4243-aa29-78749304867a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Process-Wide Security
 
-There are several ways to set process-wide security. The first way, using the Dcomcnfg.exe tool, is easiest because it requires no programming. The second technique offers the programmer more control, and it requires a call to [**CoInitializeSecurity**](coinitializesecurity.md). Another technique is to set process-wide security in the registry by using the [AppID](appid-key.md) key.
+There are several ways to set process-wide security. The first way, using the Dcomcnfg.exe tool, is easiest because it requires no programming. The second technique offers the programmer more control, and it requires a call to [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master). Another technique is to set process-wide security in the registry by using the [AppID](appid-key.md) key.
 
 For more information about these techniques, see the following topics:
 

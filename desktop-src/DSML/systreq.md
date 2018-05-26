@@ -4,11 +4,15 @@ description: The system requirements include a client computer running DSML V2, 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '389e9408-f8eb-48ca-b276-33b954a75ef8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 389e9408-f8eb-48ca-b276-33b954a75ef8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["System Requirements DSML"]
+keywords:
+- System Requirements DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # System Requirements

@@ -1,8 +1,14 @@
 ---
 title: Bluetooth Reference
 description: This section provides reference information for the programming elements that are used in the Bluetooth API.
-ms.assetid: 'fd09c38b-0654-4681-8fff-e27c4d5f2743'
-keywords: ["Bluetooth, reference"]
+ms.assetid: fd09c38b-0654-4681-8fff-e27c4d5f2743
+keywords:
+- Bluetooth, reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth Reference

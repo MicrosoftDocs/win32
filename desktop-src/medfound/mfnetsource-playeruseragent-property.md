@@ -1,7 +1,12 @@
-﻿---
-Description: 'The value of the second portion of the &\#0034;cs(User-Agent)&\#0034; field that the network source uses for logging.'
-ms.assetid: 'c662a6d6-5e0b-4c28-841d-5774d4103d4b'
-title: 'MFNETSOURCE\_PLAYERUSERAGENT property'
+---
+Description: The value of the second portion of the &\#0034;cs(User-Agent)&\#0034; field that the network source uses for logging.
+ms.assetid: c662a6d6-5e0b-4c28-841d-5774d4103d4b
+title: MFNETSOURCE\_PLAYERUSERAGENT property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_PLAYERUSERAGENT property

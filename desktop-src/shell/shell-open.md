@@ -1,7 +1,12 @@
-﻿---
-Description: 'Opens the specified folder.'
-ms.assetid: '96ed9360-fb8f-4f7e-aefb-4a63ec95df07'
-title: 'Shell.Open method'
+---
+Description: Opens the specified folder.
+ms.assetid: 96ed9360-fb8f-4f7e-aefb-4a63ec95df07
+title: Shell.Open method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.Open method
@@ -48,9 +53,9 @@ iRetVal = Shell.Open(
 
 Type: **Variant**
 
-A string that specifies the path of the folder or one of the [**ShellSpecialFolderConstants**](shellspecialfolderconstants.md) values. Note that the constant names found in **ShellSpecialFolderConstants** are available in Visual Basic, but not in VBScript or JScript. In those cases, the numeric values must be used in their place.
+A string that specifies the path of the folder or one of the [**ShellSpecialFolderConstants**](/windows/win32/Shldisp/ne-shldisp-shellspecialfolderconstants?branch=master) values. Note that the constant names found in **ShellSpecialFolderConstants** are available in Visual Basic, but not in VBScript or JScript. In those cases, the numeric values must be used in their place.
 
-If *vDir* is set to one of the [**ShellSpecialFolderConstants**](shellspecialfolderconstants.md) and the special folder does not exist, this function will create the folder.
+If *vDir* is set to one of the [**ShellSpecialFolderConstants**](/windows/win32/Shldisp/ne-shldisp-shellspecialfolderconstants?branch=master) and the special folder does not exist, this function will create the folder.
 
 </dd> </dl>
 

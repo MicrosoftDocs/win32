@@ -1,7 +1,12 @@
-﻿---
-Description: 'Disables features.'
-ms.assetid: '2ea2dcfb-84e6-4f83-9afd-c3050b53f37c'
+---
+Description: Disables features.
+ms.assetid: 2ea2dcfb-84e6-4f83-9afd-c3050b53f37c
 title: pSetupSetGlobalFlags function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # pSetupSetGlobalFlags function

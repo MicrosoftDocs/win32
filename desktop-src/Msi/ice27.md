@@ -1,7 +1,12 @@
-﻿---
-Description: 'ICE27 validates the sequence tables of an installation package for valid actions, action sequence restrictions, and organization in Search, Costing, Selection, and Execution sections.'
-ms.assetid: 'c5292a3c-57bb-4203-96a1-6d747f554178'
+---
+Description: ICE27 validates the sequence tables of an installation package for valid actions, action sequence restrictions, and organization in Search, Costing, Selection, and Execution sections.
+ms.assetid: c5292a3c-57bb-4203-96a1-6d747f554178
 title: ICE27
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE27

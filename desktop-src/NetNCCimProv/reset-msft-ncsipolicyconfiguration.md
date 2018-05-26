@@ -1,7 +1,12 @@
 ---
-Description: 'Resets the NCSI configuration.'
-ms.assetid: '790a1121-9bd5-4541-9550-8320b0d55d15'
-title: 'Reset method of the MSFT\_NCSIPolicyConfiguration class'
+Description: Resets the NCSI configuration.
+ms.assetid: 790a1121-9bd5-4541-9550-8320b0d55d15
+title: Reset method of the MSFT\_NCSIPolicyConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the MSFT\_NCSIPolicyConfiguration class
@@ -13,12 +18,12 @@ Resets the NCSI configuration.
 
 ```mof
 uint32 Reset(
-  [in]  boolean                         CorporateDNSProbeHostAddress,
-  [in]  boolean                         CorporateDNSProbeHostName,
-  [in]  boolean CorporateSitePrefixList In,
-  [in]  boolean                         DomainLocationDeterminationURL,
-  [in]  boolean                         PassThru,
-  [out] MSFT_NCSIPolicyConfiguration    OutputObject
+  [in]  boolean                         CorporateDNSProbeHostAddress,
+  [in]  boolean                         CorporateDNSProbeHostName,
+  [in]  boolean CorporateSitePrefixList In,
+  [in]  boolean                         DomainLocationDeterminationURL,
+  [in]  boolean                         PassThru,
+  [out] MSFT_NCSIPolicyConfiguration    OutputObject
 );
 ```
 
@@ -76,8 +81,8 @@ Receives the reset [**MSFT\_NCSIPolicyConfiguration**](msft-ncsipolicyconfigurat
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetNCCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetNCCim.dll</dt> </dl> |
@@ -91,9 +96,9 @@ Receives the reset [**MSFT\_NCSIPolicyConfiguration**](msft-ncsipolicyconfigurat
 [**MSFT\_NCSIPolicyConfiguration**](msft-ncsipolicyconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

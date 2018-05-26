@@ -1,8 +1,10 @@
 ---
 title: IWMPSettings2 (VB and C\ ) interface
 description: Provides properties and a method that supplement the IWMPSettings interface.In addition to the properties and methods inherited from IWMPSettings, the IWMPSettings2 interface exposes the following properties.
-ms.assetid: '6bd0f6dd-df49-4c21-b47c-c8c63f85c2c0'
-keywords: ["IWMPSettings2 (VB and C ) interface Windows Media Player", "IWMPSettings2 (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 6bd0f6dd-df49-4c21-b47c-c8c63f85c2c0
+keywords:
+- IWMPSettings2 (VB and C ) interface Windows Media Player
+- IWMPSettings2 (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings2 (VB and C#) interface
@@ -38,7 +45,7 @@ The **IWMPSettings2 (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -53,7 +60,7 @@ The **IWMPSettings2 (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPSettings2** interface by casting the value returned by the **AxWindowsMediaPlayer.settings** property.
 
@@ -65,7 +72,7 @@ Get an **IWMPSettings2** interface by casting the value returned by the **AxWind
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,9 +94,9 @@ Get an **IWMPSettings2** interface by casting the value returned by the **AxWind
 [**IWMPSettings Interface (VB and C#)**](iwmpsettings--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

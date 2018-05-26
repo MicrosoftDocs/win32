@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMIcmCreateColorTransform function creates an ICM color transform.'
-ms.assetid: '995fdac4-e958-4eed-ba3a-7be0349dec59'
+---
+Description: The OEMIcmCreateColorTransform function creates an ICM color transform.
+ms.assetid: 995fdac4-e958-4eed-ba3a-7be0349dec59
 title: OEMIcmCreateColorTransform function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMIcmCreateColorTransform function

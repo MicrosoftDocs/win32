@@ -1,7 +1,12 @@
-﻿---
-Description: 'Checks cube-texture-creation parameters.'
-ms.assetid: '56ced947-1142-4d05-95e3-ca6a26b147d4'
+---
+Description: Checks cube-texture-creation parameters.
+ms.assetid: 56ced947-1142-4d05-95e3-ca6a26b147d4
 title: D3DXCheckCubeTextureRequirements function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCheckCubeTextureRequirements function
@@ -31,9 +36,9 @@ HRESULT D3DXCheckCubeTextureRequirements(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device to be associated with the cube texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device to be associated with the cube texture.
 
 </dd> <dt>
 
@@ -60,7 +65,7 @@ Pointer to the number of requested mipmap levels, or **NULL**. Returns the corre
 
 Type: **[**DWORD**](winprog.windows_data_types)**
 
-0 or D3DUSAGE\_RENDERTARGET. Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the pNewRenderTarget parameter of the [**SetRenderTarget**](idirect3ddevice9--setrendertarget.md) method. If D3DUSAGE\_RENDERTARGET is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](idirect3d9--checkdeviceformat.md).
+0 or D3DUSAGE\_RENDERTARGET. Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the pNewRenderTarget parameter of the [**SetRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget?branch=master) method. If D3DUSAGE\_RENDERTARGET is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master).
 
 </dd> <dt>
 
@@ -92,7 +97,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 If parameters to this function are invalid, this function returns corrected parameters.
 
-Cube textures differ from other surfaces in that they are collections of surfaces. To call [**SetRenderTarget**](idirect3ddevice9--setrendertarget.md) with a cube texture, you must select an individual face using [**GetCubeMapSurface**](idirect3dcubetexture9--getcubemapsurface.md) and pass the resulting surface to **SetRenderTarget**.
+Cube textures differ from other surfaces in that they are collections of surfaces. To call [**SetRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget?branch=master) with a cube texture, you must select an individual face using [**GetCubeMapSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3dcubetexture9-getcubemapsurface?branch=master) and pass the resulting surface to **SetRenderTarget**.
 
 ## Requirements
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetParameterInitializer method retrieves the IPrintSchemaParameterInitializer object, and it represents the &lt;psf:ParameterInit&gt; element in the PrintTicket XML.'
-ms.assetid: 'E5403359-A757-4530-B17B-C80E8A45AA92'
-title: 'IPrintSchematicket2::GetParameterInitializer method'
+---
+Description: The GetParameterInitializer method retrieves the IPrintSchemaParameterInitializer object, and it represents the &lt;psfParameterInit&gt; element in the PrintTicket XML.
+ms.assetid: E5403359-A757-4530-B17B-C80E8A45AA92
+title: IPrintSchematicket2GetParameterInitializer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchematicket2::GetParameterInitializer method

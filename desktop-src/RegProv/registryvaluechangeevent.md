@@ -4,11 +4,13 @@ description: The RegistryValueChangeEvent class represents changes to a single v
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '81af25bd-5e65-459c-8ba3-412306a849f7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 81af25bd-5e65-459c-8ba3-412306a849f7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RegistryValueChangeEvent class", "RegistryValueChangeEvent class, described"]
+keywords:
+- RegistryValueChangeEvent class
+- RegistryValueChangeEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - StdProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RegistryValueChangeEvent class
@@ -134,8 +139,8 @@ End Sub
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\default<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RegEvent.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>StdProv.dll</dt> </dl>  |
@@ -152,9 +157,9 @@ End Sub
 [Registering for System Registry Events](https://msdn.microsoft.com/library/aa393035)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: Describes the snap-in menu GUI element.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '80708a81-f0a4-471d-b9fe-f2eadd2fc29c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 80708a81-f0a4-471d-b9fe-f2eadd2fc29c
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Menus

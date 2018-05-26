@@ -1,8 +1,14 @@
 ---
 title: Connecting the Client and the Server
 description: To communicate, client and server programs must establish a communication session across the network or networks that connect them.
-ms.assetid: '1164252a-7615-4958-9d2f-cf35c0db513a'
-keywords: ["Remote Procedure Call RPC , tasks, connecting client and server"]
+ms.assetid: 1164252a-7615-4958-9d2f-cf35c0db513a
+keywords:
+- Remote Procedure Call RPC , tasks, connecting client and server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connecting the Client and the Server

@@ -4,11 +4,16 @@ description: Gets or sets the type of network connection used between the client
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4dd4fa17-f121-412d-a30d-1c01f4c892b0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4dd4fa17-f121-412d-a30d-1c01f4c892b0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["NetworkConnectionType property Remote Desktop Services", "NetworkConnectionType property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , NetworkConnectionType property", "NetworkConnectionType property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , NetworkConnectionType property"]
+keywords:
+- NetworkConnectionType property Remote Desktop Services
+- NetworkConnectionType property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , NetworkConnectionType property
+- NetworkConnectionType property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , NetworkConnectionType property
 topic_type:
 - apiref
 api_name:
@@ -22,6 +27,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings7::NetworkConnectionType property
@@ -35,11 +43,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_NetworkConnectionType(
-  [in]          UINT connectionType
+  [in]          UINT connectionType
 );
 
 HRESULT get_NetworkConnectionType(
-  [out, retval] UINT *pConnectionType
+  [out, retval] UINT *pConnectionType
 );
 ```
 
@@ -123,8 +131,8 @@ Local area network (LAN) (10 Mbps or higher)
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
+| Minimum supported client<br/> | Windows 7<br/>                                                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings7 is defined as 26036036-4010-4578-8091-0db9a1edf9c3<br/> |
@@ -141,9 +149,9 @@ Local area network (LAN) (10 Mbps or higher)
 [**IMsRdpClientAdvancedSettings7**](imsrdpclientadvancedsettings7.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

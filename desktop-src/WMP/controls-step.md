@@ -1,8 +1,11 @@
 ---
 title: Controls.step method
 description: The step method causes the current video media item to freeze playback on the next frame or the previous frame.
-ms.assetid: 'f717c583-4073-45a9-b05d-7134d02724a4'
-keywords: ["step method Windows Media Player", "step method Windows Media Player , Controls class", "Controls class Windows Media Player , step method"]
+ms.assetid: f717c583-4073-45a9-b05d-7134d02724a4
+keywords:
+- step method Windows Media Player
+- step method Windows Media Player , Controls class
+- Controls class Windows Media Player , step method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.step method
@@ -70,9 +78,9 @@ This method currently only supports the parameters 1 or -1, so you can only step
 [**DVD Object**](dvd-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

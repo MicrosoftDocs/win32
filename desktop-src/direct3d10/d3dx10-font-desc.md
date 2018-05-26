@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines font attributes.'
-ms.assetid: '66e8a320-2b83-4766-a9a7-5571ee6c9f2a'
-title: 'D3DX10\_FONT\_DESC structure'
+---
+Description: Defines font attributes.
+ms.assetid: 66e8a320-2b83-4766-a9a7-5571ee6c9f2a
+title: D3DX10\_FONT\_DESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10\_FONT\_DESC structure

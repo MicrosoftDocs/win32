@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'c0eff80f-04d3-4919-bb27-1b76c1bd1cce'
-title: 'CBaseStreamControl.CBaseStreamControl constructor'
+Description: Constructor method.
+ms.assetid: c0eff80f-04d3-4919-bb27-1b76c1bd1cce
+title: CBaseStreamControl.CBaseStreamControl constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseStreamControl.CBaseStreamControl constructor
@@ -13,7 +18,7 @@ Constructor method.
 
 ```C++
 CBaseStreamControl(
-   HRESULT *phr
+   HRESULT *phr
 );
 ```
 
@@ -48,9 +53,9 @@ Pointer to an **HRESULT** value. If the constructor fails, this parameter receiv
 [**CBaseStreamControl Class**](cbasestreamcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

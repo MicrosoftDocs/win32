@@ -4,11 +4,13 @@ description: Represents a computer system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'da17ee78-c7c7-41ae-b496-e2047149109f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: da17ee78-c7c7-41ae-b496-e2047149109f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMSystem class", "MSFT_SMSystem class, described"]
+keywords:
+- MSFT_SMSystem class
+- MSFT_SMSystem class, described
 topic_type:
 - apiref
 api_name:
@@ -35,13 +37,16 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMSystem class
 
 Represents a computer system.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) before Windows Server 2016.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -88,22 +93,22 @@ The **MSFT\_SMSystem** class has these methods.
 | Method                                                                                   | Description                                                                                                                                                                                                                 |
 |:-----------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CreatePool**](createpool-msft-smsystem.md)                                           | Creates a concrete pool.<br/>                                                                                                                                                                                         |
-| [**CreateReplicationGroup**](createreplicationgroup-msft-smsystem.md)                   | Creates a replication group.<br/> **Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.<br/>                                                             |
-| [**CreateReplicationRelationship**](createreplicationrelationship-msft-smsystem.md)     | Creates two replication groups and then creates a replication relationship between them.<br/> **Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.<br/> |
+| [**CreateReplicationGroup**](createreplicationgroup-msft-smsystem.md)                   | Creates a replication group.<br/> **Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.<br/>                                                             |
+| [**CreateReplicationRelationship**](createreplicationrelationship-msft-smsystem.md)     | Creates two replication groups and then creates a replication relationship between them.<br/> **Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.<br/> |
 | [**CreateStorageGroup**](createstoragegroup-msft-smsystem.md)                           | Creates a storage group.<br/>                                                                                                                                                                                         |
 | [**CreateStorageGroupEx**](createstoragegroupex-msft-smsystem.md)                       | Creates a storage group.<br/>                                                                                                                                                                                         |
 | [**CreateStorageHardwareID**](createstoragehardwareid-msft-smsystem.md)                 | Creates a new storage hardware ID.<br/>                                                                                                                                                                               |
 | [**CreateStorageVolume**](createstoragevolume-msft-smsystem.md)                         | Start a job to create a storage volume.<br/>                                                                                                                                                                          |
-| [**DeleteReplicationRelationship**](deletereplicationrelationship-msft-smsystem.md)     | Deletes a replication relationship between two replication groups.<br/> **Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.<br/>                       |
+| [**DeleteReplicationRelationship**](deletereplicationrelationship-msft-smsystem.md)     | Deletes a replication relationship between two replication groups.<br/> **Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.<br/>                       |
 | [**Diagnose**](diagnose-msft-smsystem.md)                                               | Attempts to find more information about the health state of an array.<br/>                                                                                                                                            |
 | [**GetPoolObjectIdFromJob**](getpoolobjectidfromjob-msft-smsystem.md)                   | Returns a object ID for the storage pool that is associated with the specified job.<br/>                                                                                                                              |
 | [**GetStorageGroupObjectIDFromJob**](getstoragegroupobjectidfromjob-msft-smsystem.md)   | Returns a Storage Group Object Id based on a Job reference.<br/>                                                                                                                                                      |
-| [**GetStorageVolumeNameFromJob**](getstoragevolumenamefromjob-msft-smsystem.md)         | This method is not currently available.<br/> **Windows Server 2012:** Returns a storage volume name associated with the specified job.<br/>                                                                     |
+| [**GetStorageVolumeNameFromJob**](getstoragevolumenamefromjob-msft-smsystem.md)         | This method is not currently available.<br/> **Windows Server 2012:** Returns a storage volume name associated with the specified job.<br/>                                                                     |
 | [**GetStorageVolumeObjectIDFromJob**](getstoragevolumeobjectidfromjob-msft-smsystem.md) | Returns a storage volume object id based on a Job reference.<br/>                                                                                                                                                     |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -693,7 +698,7 @@ The ID tag of the system.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -710,9 +715,9 @@ The ID tag of the system.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

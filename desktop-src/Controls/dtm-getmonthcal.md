@@ -1,8 +1,9 @@
 ---
 title: DTM\_GETMONTHCAL message
-description: Gets the handle to a date and time picker's (DTP) child month calendar control. You can send this message explicitly or use the DateTime\_GetMonthCal macro.
-ms.assetid: '78bbdcc9-2b2b-420b-be9b-6f2f573d60b6'
-keywords: ["DTM_GETMONTHCAL message Windows Controls"]
+description: Gets the handle to a date and time pickers (DTP) child month calendar control. You can send this message explicitly or use the DateTime\_GetMonthCal macro.
+ms.assetid: 78bbdcc9-2b2b-420b-be9b-6f2f573d60b6
+keywords:
+- DTM_GETMONTHCAL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTM\_GETMONTHCAL message
 
-Gets the handle to a date and time picker's (DTP) child month calendar control. You can send this message explicitly or use the [**DateTime\_GetMonthCal**](datetime-getmonthcal.md) macro.
+Gets the handle to a date and time picker's (DTP) child month calendar control. You can send this message explicitly or use the [**DateTime\_GetMonthCal**](/windows/win32/Commctrl/nf-commctrl-datetime_getmonthcal?branch=master) macro.
 
 ## Parameters
 
@@ -41,8 +47,8 @@ DTP controls create a child month calendar control when the user clicks the drop
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ DTP controls create a child month calendar control when the user clicks the drop
 [DTN\_DROPDOWN](dtn-dropdown.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

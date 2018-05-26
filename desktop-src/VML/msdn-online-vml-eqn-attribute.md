@@ -1,17 +1,22 @@
 ---
 title: VML Eqn Attribute
 description: VML Eqn Attribute
-ms.assetid: 'b2c41bad-2f83-4280-9441-33206d8dc1b7'
+ms.assetid: b2c41bad-2f83-4280-9441-33206d8dc1b7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Eqn Attribute
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](http://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
 
 > [!Note]  
 > As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://msdn.microsoft.com/library/hh772377). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](http://go.microsoft.com/fwlink/p/?linkid=204313).
 
- 
+ 
 
 Defines the equation used by a formula. Read/write. **String**.
 
@@ -67,7 +72,7 @@ The table below defines the formulas that can be used withthe optional arguments
 
 
 
- 
+ 
 
 Note that the equation only consists of operations and numbers; mathematical symbols are omitted. For example, the equation
 
@@ -100,9 +105,9 @@ The following formula would yield a result of 6 (the sum of both numbers divided
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: The validity period for the certificate template.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6b3f7497-b156-4afe-ae93-ccb96d9ba403'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6b3f7497-b156-4afe-ae93-ccb96d9ba403
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["PKI-Expiration-Period attribute AD Schema", "pKIExpirationPeriod attribute AD Schema"]
+keywords:
+- PKI-Expiration-Period attribute AD Schema
+- pKIExpirationPeriod attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - PKI-Expiration-Period
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PKI-Expiration-Period attribute
@@ -38,12 +43,12 @@ The validity period for the certificate template.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The validity period for the certificate template.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: XInput Game Controller APIs
 description: .
-ms.assetid: 'fbbc651b-9264-9b5d-01c6-efc58f50b19d'
+ms.assetid: fbbc651b-9264-9b5d-01c6-efc58f50b19d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XInput Game Controller APIs
@@ -21,15 +26,15 @@ XInput Game Controller API enables applications to receive input from the Xbox 3
 
 
 
- 
+ 
 
 ## Developer audience
 
 XInput Game Controller APIs is designed for use by developers who want to use the Xbox 360 Controller for their Windows applications.
 
- 
+ 
 
- 
+ 
 
 
 

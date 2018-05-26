@@ -1,8 +1,11 @@
 ---
 title: Trigger.EndBoundary property
 description: For scripting, gets or sets the date and time when the trigger is deactivated. The trigger cannot start the task after it is deactivated.
-ms.assetid: '985316de-eaba-478f-a53f-1bea2a0cc9c6'
-keywords: ["EndBoundary property Task Scheduler", "EndBoundary property Task Scheduler , Trigger object", "Trigger object Task Scheduler , EndBoundary property"]
+ms.assetid: 985316de-eaba-478f-a53f-1bea2a0cc9c6
+keywords:
+- EndBoundary property Task Scheduler
+- EndBoundary property Task Scheduler , Trigger object
+- Trigger object Task Scheduler , EndBoundary property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trigger.EndBoundary property
@@ -40,8 +48,8 @@ When reading or writing XML for a task, the enabled property is specified using 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -54,9 +62,9 @@ When reading or writing XML for a task, the enabled property is specified using 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

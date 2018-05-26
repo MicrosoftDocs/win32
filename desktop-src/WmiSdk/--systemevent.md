@@ -1,13 +1,16 @@
 ---
-Description: 'Represents a system event.'
+Description: Represents a system event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '84099483-03e4-4c21-b680-f0975b18c1f6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 84099483-03e4-4c21-b680-f0975b18c1f6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_SystemEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_SystemEvent class
@@ -21,7 +24,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __SystemEvent : __ExtrinsicEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
 };
 ```
@@ -52,7 +55,7 @@ Descriptor used by the event provider to determine which users can receive the e
 > [!Note]  
 > A **NULL** Access Control List (ACL) in the [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) grants unlimited access to everyone all the time. For more information, see [Creating a Security Descriptor for a New Object](https://msdn.microsoft.com/library/windows/desktop/aa446595).
 
- 
+ 
 
 </dd> <dt>
 
@@ -81,8 +84,8 @@ The **\_\_SystemEvent** class is derived from the [**\_\_ExtrinsicEvent**](--ext
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -97,9 +100,9 @@ The **\_\_SystemEvent** class is derived from the [**\_\_ExtrinsicEvent**](--ext
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

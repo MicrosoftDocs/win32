@@ -4,11 +4,13 @@ description: Defines operations and session settings.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b98ca759-71cb-492e-8645-8766b202eb36'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: b98ca759-71cb-492e-8645-8766b202eb36
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["Session object Windows Remote Management", "Session object Windows Remote Management , described"]
+keywords:
+- Session object Windows Remote Management
+- Session object Windows Remote Management , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Session object
@@ -48,7 +53,7 @@ The **Session** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -64,11 +69,11 @@ The **Session** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
-The **Session** object corresponds to the [**IWSManSession**](iwsmansession.md) interface.
+The **Session** object corresponds to the [**IWSManSession**](/windows/win32/WSManDisp/nn-wsmandisp-iwsmansession?branch=master) interface.
 
 ## Examples
 
@@ -93,8 +98,8 @@ Set objSession = objWsman.CreateSession
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -124,9 +129,9 @@ Set objSession = objWsman.CreateSession
 [Obtaining Data from a Remote Computer](obtaining-data-from-a-remote-computer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

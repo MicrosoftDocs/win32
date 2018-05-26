@@ -1,8 +1,9 @@
 ---
 title: D3DCreateBlob function
 description: Creates a buffer.
-ms.assetid: '9cad9bff-1641-4fb1-a7c9-c3e31089d7f7'
-keywords: ["D3DCreateBlob function HLSL"]
+ms.assetid: 9cad9bff-1641-4fb1-a7c9-c3e31089d7f7
+keywords:
+- D3DCreateBlob function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DCompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCreateBlob function
@@ -21,8 +27,8 @@ Creates a buffer.
 
 ``` syntax
 HRESULT WINAPI D3DCreateBlob(
-  in  SIZE_T Size,
-  out ID3DBlob ppBlob
+  in  SIZE_T Size,
+  out ID3DBlob ppBlob
 );
 ```
 
@@ -77,9 +83,9 @@ The latest D3dcompiler\_nn.dll contains the **D3DCreateBlob** compiler function.
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

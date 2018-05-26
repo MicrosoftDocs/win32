@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PRINTER\_EVENT\_ATTRIBUTES\_INFO structure contains the former attributes and the new attributes for a printer.'
-ms.assetid: '3c39a515-f4f4-4309-8d4e-461b8835295b'
-title: 'PRINTER\_EVENT\_ATTRIBUTES\_INFO structure'
+---
+Description: The PRINTER\_EVENT\_ATTRIBUTES\_INFO structure contains the former attributes and the new attributes for a printer.
+ms.assetid: 3c39a515-f4f4-4309-8d4e-461b8835295b
+title: PRINTER\_EVENT\_ATTRIBUTES\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PRINTER\_EVENT\_ATTRIBUTES\_INFO structure

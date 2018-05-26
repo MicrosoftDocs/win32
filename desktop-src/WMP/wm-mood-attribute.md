@@ -1,14 +1,20 @@
 ---
 title: WM/Mood Attribute
 description: The WM/Mood attribute is a category name for the mood of the content.
-ms.assetid: '06ba1a64-19e3-450b-bcd7-19df4da44554'
-keywords: ["WM/Mood Attribute Windows Media Player"]
+ms.assetid: 06ba1a64-19e3-450b-bcd7-19df4da44554
+keywords:
+- WM/Mood Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/Mood
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Mood Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

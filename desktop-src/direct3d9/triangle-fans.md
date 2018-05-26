@@ -1,7 +1,12 @@
 ---
-Description: 'A triangle fan is similar to a triangle strip, except that all the triangles share one vertex, as shown in the following illustration.'
-ms.assetid: 'a1fbfd78-121f-4f79-9ba8-44f23356a432'
-title: 'Triangle Fans (Direct3D 9)'
+Description: A triangle fan is similar to a triangle strip, except that all the triangles share one vertex, as shown in the following illustration.
+ms.assetid: a1fbfd78-121f-4f79-9ba8-44f23356a432
+title: Triangle Fans (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Triangle Fans (Direct3D 9)
@@ -38,7 +43,7 @@ CUSTOMVERTEX Vertices[] =
 
 
 
-The code example below shows how to render this triangle fan in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](idirect3ddevice9--drawprimitive.md).
+The code example below shows how to render this triangle fan in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive?branch=master).
 
 
 ```

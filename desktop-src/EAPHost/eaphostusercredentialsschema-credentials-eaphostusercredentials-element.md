@@ -1,14 +1,20 @@
 ---
 title: Credentials (EapHostUserCredentials) Element
 description: Is used when the method configuration is in XML text format instead of a binary BLOB.
-ms.assetid: '9c350891-bf40-430d-837a-f2e58bde41fc'
-keywords: ["Credentials element EAPHost"]
+ms.assetid: 9c350891-bf40-430d-837a-f2e58bde41fc
+keywords:
+- Credentials element EAPHost
 topic_type:
 - apiref
 api_name:
 - Credentials
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Credentials (EapHostUserCredentials) Element
@@ -29,8 +35,8 @@ The **Credentials** element is defined by the [**EapHostUserCredentials**](eapho
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -56,9 +62,9 @@ The **Credentials** element is defined by the [**EapHostUserCredentials**](eapho
 [eaphostusercredentials Schema](eaphostusercredentialsschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

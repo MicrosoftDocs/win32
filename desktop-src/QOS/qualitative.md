@@ -1,8 +1,14 @@
 ---
 title: QUALITATIVE
 description: The QUALITATIVE service type is suited for applications that require better than BEST EFFORT service, but are unable to quantify their requirements.
-ms.assetid: 'fdb382e9-f9fc-4eb1-af10-f9ff9866d852'
-keywords: ["QUALITATIVE service type"]
+ms.assetid: fdb382e9-f9fc-4eb1-af10-f9ff9866d852
+keywords:
+- QUALITATIVE service type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QUALITATIVE

@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the frequency ranges supported by the monitor.'
-ms.assetid: 'e4713650-5f8c-4808-8b4f-1d29c54ab4e3'
+Description: Lists the frequency ranges supported by the monitor.
+ms.assetid: e4713650-5f8c-4808-8b4f-1d29c54ab4e3
 title: WmiMonitorListedFrequencyRanges class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorListedFrequencyRanges class
@@ -13,9 +18,9 @@ The **WmiMonitorListedFrequencyRanges** WMI class lists the frequency ranges sup
 ``` syntax
 class WmiMonitorListedFrequencyRanges : MSMonitorClass
 {
-  boolean                  Active;
-  string                   InstanceName;
-  uint16                   NumOfMonitorFreqRanges;
+  boolean                  Active;
+  string                   InstanceName;
+  uint16                   NumOfMonitorFreqRanges;
   FrequencyRangeDescriptor MonitorFreqRanges[];
 };
 ```
@@ -93,8 +98,8 @@ Number of listed supported monitor frequency ranges.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -108,9 +113,9 @@ Number of listed supported monitor frequency ranges.
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

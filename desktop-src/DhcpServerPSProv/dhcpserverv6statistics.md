@@ -4,13 +4,15 @@ description: Dhcp Server v6 Statistics.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cda7ea01-e74a-4d17-9913-3a8c9f98ce57'
-ms.prod: 'windows-server-dev'
+ms.assetid: cda7ea01-e74a-4d17-9913-3a8c9f98ce57
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerv6Statistics class", "DhcpServerv6Statistics class, described"]
+keywords:
+- DhcpServerv6Statistics class
+- DhcpServerv6Statistics class, described
 topic_type:
 - apiref
 api_name:
@@ -38,6 +40,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerv6Statistics class
@@ -52,25 +57,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DhcpServerPSProvider"), AMENDMENT]
 class DhcpServerv6Statistics
 {
-  uint32   Solicits;
-  uint32   Advertises;
-  uint32   Confirms;
-  uint32   Declines;
-  uint32   Informs;
-  uint32   Rebinds;
-  uint32   Releases;
-  uint32   Renews;
-  uint32   Replies;
-  uint32   Requests;
+  uint32   Solicits;
+  uint32   Advertises;
+  uint32   Confirms;
+  uint32   Declines;
+  uint32   Informs;
+  uint32   Rebinds;
+  uint32   Releases;
+  uint32   Renews;
+  uint32   Replies;
+  uint32   Requests;
   DateTime ServerStartTime;
-  uint32   TotalScopes;
-  uint64   TotalAddresses;
-  uint64   AddressesInUse;
-  uint64   AddressesAvailable;
-  uint64   PendingAdvertises;
-  real32   PercentageInUse;
-  real32   PercentageAvailable;
-  real32   PercentagePendingAdvertises;
+  uint32   TotalScopes;
+  uint64   TotalAddresses;
+  uint64   AddressesInUse;
+  uint64   AddressesAvailable;
+  uint64   PendingAdvertises;
+  real32   PercentageInUse;
+  real32   PercentageAvailable;
+  real32   PercentagePendingAdvertises;
 };
 ```
 
@@ -340,16 +345,16 @@ Total number of scopes configured on the Dhcp server.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

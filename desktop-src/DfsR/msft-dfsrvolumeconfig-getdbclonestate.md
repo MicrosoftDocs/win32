@@ -4,13 +4,16 @@ description: Returns the current state of the database export or import process.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '14C2A87E-38D6-46A9-AB56-2A156EAFC832'
-ms.prod: 'windows-server-dev'
+ms.assetid: 14C2A87E-38D6-46A9-AB56-2A156EAFC832
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetDBCloneState method Distributed File System Replication", "GetDBCloneState method Distributed File System Replication , MSFT_DfsrVolumeConfig interface", "MSFT_DfsrVolumeConfig interface Distributed File System Replication , GetDBCloneState method"]
+keywords:
+- GetDBCloneState method Distributed File System Replication
+- GetDBCloneState method Distributed File System Replication , MSFT_DfsrVolumeConfig interface
+- MSFT_DfsrVolumeConfig interface Distributed File System Replication , GetDBCloneState method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetDBCloneState method of the MSFT\_DfsrVolumeConfig class
@@ -73,7 +79,7 @@ This method has no parameters.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -87,9 +93,9 @@ This method has no parameters.
 [**MSFT\_DfsrVolumeConfig**](msft-dfsrvolumeconfig.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

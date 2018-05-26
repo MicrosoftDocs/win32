@@ -1,14 +1,20 @@
 ---
 title: RequiredPrivileges (requiredPrivilegesType) Element
 description: Specifies the privileges that are required by the task.
-ms.assetid: '7b615af8-76f9-498c-aa2d-7da02d64992f'
-keywords: ["RequiredPrivileges element Task Scheduler"]
+ms.assetid: 7b615af8-76f9-498c-aa2d-7da02d64992f
+keywords:
+- RequiredPrivileges element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - RequiredPrivileges
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiredPrivileges (requiredPrivilegesType) Element
@@ -36,7 +42,7 @@ The **RequiredPrivileges** element is defined by the [**requiredPrivilegesType**
 
 ## Remarks
 
-For C++ development, this information is accessed through the [**IPrincipal2::RequiredPrivilege**](iprincipal2-requiredprivilege.md) property.
+For C++ development, this information is accessed through the [**IPrincipal2::RequiredPrivilege**](/windows/win32/taskschd/nf-taskschd-iprincipal2-get_requiredprivilege?branch=master) property.
 
 ## Examples
 
@@ -59,8 +65,8 @@ The following XML defines using a group identifier and the required privileges.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -71,9 +77,9 @@ The following XML defines using a group identifier and the required privileges.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

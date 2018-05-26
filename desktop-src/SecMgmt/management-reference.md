@@ -1,7 +1,12 @@
 ---
-Description: 'The security management reference pages contain detailed descriptions of the Microsoft security management functions, interfaces, objects, and other programming elements.'
-ms.assetid: '5487dd97-96ef-474a-8995-46f8a1377fc3'
+Description: The security management reference pages contain detailed descriptions of the Microsoft security management functions, interfaces, objects, and other programming elements.
+ms.assetid: 5487dd97-96ef-474a-8995-46f8a1377fc3
 title: Security Management Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Management Reference

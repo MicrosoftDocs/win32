@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '24617b5f-14f1-4f1b-a288-7d20a8166da0'
+Description: .
+ms.assetid: 24617b5f-14f1-4f1b-a288-7d20a8166da0
 title: NLS Sorting Changes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NLS Sorting Changes

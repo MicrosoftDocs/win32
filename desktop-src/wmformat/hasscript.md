@@ -1,14 +1,20 @@
 ---
 title: HasScript
 description: The HasScript attribute is a file-level attribute specifying whether the file contains any script streams.
-ms.assetid: 'e94c37ea-e11c-4abd-91d1-8f82612d8cba'
-keywords: ["HasScript windows Media Format"]
+ms.assetid: e94c37ea-e11c-4abd-91d1-8f82612d8cba
+keywords:
+- HasScript windows Media Format
 topic_type:
 - apiref
 api_name:
 - HasScript
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HasScript

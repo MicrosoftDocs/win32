@@ -1,12 +1,17 @@
 ---
-title: Windows 8.1 and Windows Server 2012 R2
-description: Windows 8.1 and Windows Server 2012 R2
-ms.assetid: '1E92D3C8-C117-463A-AF31-12D3CAA31E2A'
+title: Windows 8.1 and Windows Server 2012 R2
+description: Windows 8.1 and Windows Server 2012 R2
+ms.assetid: 1E92D3C8-C117-463A-AF31-12D3CAA31E2A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows 8.1 and Windows Server 2012 R2
 
-This section of the *Cookbook* focuses on those topics that are specific to Windows 8.1. Some of these topics also apply to Windows Server 2012 R2. Topics are grouped into the following sections:
+This section of the *Cookbook* focuses on those topics that are specific to Windows 8.1. Some of these topics also apply to Windows Server 2012 R2. Topics are grouped into the following sections:
 
 ## In this section
 
@@ -21,11 +26,11 @@ This section of the *Cookbook* focuses on those topics that are specific to Wind
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

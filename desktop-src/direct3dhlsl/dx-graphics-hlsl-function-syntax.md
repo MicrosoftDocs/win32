@@ -1,7 +1,12 @@
 ---
 title: Function Declaration Syntax
 description: HLSL functions are declared with the following syntax.
-ms.assetid: 'f8968de2-7b2d-4a2e-8312-cec5b652f700'
+ms.assetid: f8968de2-7b2d-4a2e-8312-cec5b652f700
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function Declaration Syntax

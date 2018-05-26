@@ -1,8 +1,18 @@
 ---
 title: Porting Pixel Operations
 description: Porting Pixel Operations
-ms.assetid: '57917f33-daf5-4db6-9583-ab596deab91a'
-keywords: ["IRIS GL porting,pixels", "porting from IRIS GL,pixels", "porting to OpenGL from IRIS GL,pixels", "OpenGL porting from IRIS GL,pixels", "pixels,porting from IRIS GL"]
+ms.assetid: 57917f33-daf5-4db6-9583-ab596deab91a
+keywords:
+- IRIS GL porting,pixels
+- porting from IRIS GL,pixels
+- porting to OpenGL from IRIS GL,pixels
+- OpenGL porting from IRIS GL,pixels
+- pixels,porting from IRIS GL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Pixel Operations
@@ -31,7 +41,7 @@ OpenGL gives you some additional flexibility in pixel operations. The following 
 
 
 
- 
+ 
 
 For a complete list of possible logical operations, see [**glLogicOp**](gllogicop.md).
 
@@ -52,9 +62,9 @@ glRasterPos2i( 0, 0);
 glDrawPixels( xSize + 1, ySize + 1, GL_RGBA, GL_UNSIGNED_BYTE, packedRaster);
 ```
 
- 
+ 
 
- 
+ 
 
 
 

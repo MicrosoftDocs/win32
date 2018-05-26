@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageParts AddPart method
 description: Adds a partial message to the current collection.
-ms.assetid: '11590c70-1244-4c18-82f5-54cebcd91f8d'
-keywords: ["AddPart method Windows Mail (formerly Outlook Express)", "AddPart method Windows Mail (formerly Outlook Express) , IMimeMessageParts interface", "IMimeMessageParts interface Windows Mail (formerly Outlook Express) , AddPart method"]
+ms.assetid: 11590c70-1244-4c18-82f5-54cebcd91f8d
+keywords:
+- AddPart method Windows Mail (formerly Outlook Express)
+- AddPart method Windows Mail (formerly Outlook Express) , IMimeMessageParts interface
+- IMimeMessageParts interface Windows Mail (formerly Outlook Express) , AddPart method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageParts::AddPart method
@@ -22,7 +30,7 @@ Adds a partial message to the current collection.
 
 ```C++
 HRESULT AddPart(
-  [in] IMimeMessage *pMessage
+  [in] IMimeMessage *pMessage
 );
 ```
 
@@ -57,7 +65,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -99,8 +107,8 @@ HRESULT CombineMsgParts(ULONG cParts, IMimeMessage **prgpMsg, IMimeMessage **ppO
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -108,9 +116,9 @@ HRESULT CombineMsgParts(ULONG cParts, IMimeMessage **prgpMsg, IMimeMessage **ppO
 
 
 
- 
+ 
 
- 
+ 
 
 
 

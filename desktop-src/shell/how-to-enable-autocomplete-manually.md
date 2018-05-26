@@ -1,7 +1,12 @@
 ---
-Description: 'To gain more detailed control over the autocomplete behavior, or to add a custom source of autocomplete strings, you must manage the autocomplete object yourself.'
-ms.assetid: 'E1A7B1B0-2879-452E-9EBB-73F02B932200'
+Description: To gain more detailed control over the autocomplete behavior, or to add a custom source of autocomplete strings, you must manage the autocomplete object yourself.
+ms.assetid: E1A7B1B0-2879-452E-9EBB-73F02B932200
 title: How to Enable Autocomplete Manually
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Enable Autocomplete Manually
@@ -42,7 +47,7 @@ The following steps show how to create and initialize a simple autocomplete obje
 
     
 
-    The following code uses a custom autocomplete source. You can write your own autocomplete source by implementing an object that exposes the [**IEnumString**](com.ienumstring) interface. The object can also optionally implement the [**IACList**](iaclist.md) and [**IACList2**](iaclist2.md) interfaces.
+    The following code uses a custom autocomplete source. You can write your own autocomplete source by implementing an object that exposes the [**IEnumString**](com.ienumstring) interface. The object can also optionally implement the [**IACList**](/windows/win32/Shlobj_core/?branch=master) and [**IACList2**](/windows/win32/Shlobj_core/?branch=master) interfaces.
 
     ```C++
     CCustomAutoCompleteSource *pcacs = new CCustomAutoCompleteSource();
@@ -60,7 +65,7 @@ The following steps show how to create and initialize a simple autocomplete obje
 
 3.  Set the options on the autocomplete source (optional).
 
-    You can customize the behavior of the autocomplete source by setting its options if the source exposes the [**IACList2**](iaclist2.md) interface. When using the predefined autocomplete sources, only CLSID\_ACListISF exports **IACList2**. For a complete list of options and their values, see [**IACList2::SetOptions**](iaclist2-setoptions.md).
+    You can customize the behavior of the autocomplete source by setting its options if the source exposes the [**IACList2**](/windows/win32/Shlobj_core/?branch=master) interface. When using the predefined autocomplete sources, only CLSID\_ACListISF exports **IACList2**. For a complete list of options and their values, see [**IACList2::SetOptions**](/windows/win32/Shlobj_core/?branch=master).
 
     ```C++
     IACList2 *pal2;
@@ -77,7 +82,7 @@ The following steps show how to create and initialize a simple autocomplete obje
 
 4.  Initialize the autocomplete object.
 
-    In this example, **hwndEdit** is the handle of the edit control window for which autocomplete is to be enabled. See [**IAutoComplete::Init**](iautocomplete-init.md) for a description of the final two unused parameters.
+    In this example, **hwndEdit** is the handle of the edit control window for which autocomplete is to be enabled. See [**IAutoComplete::Init**](/windows/win32/Shldisp/nf-shldisp-iautocomplete-init?branch=master) for a description of the final two unused parameters.
 
     ```C++
     hr = pac->Init(hwndEdit, punkSource, NULL, NULL);
@@ -87,7 +92,7 @@ The following steps show how to create and initialize a simple autocomplete obje
 
 5.  Set the options of the autocomplete object (optional).
 
-    You can customize the behavior of the autocomplete object by setting its options. For a complete list of options and their values, see the documentation for [**IACList2::SetOptions**](iaclist2-setoptions.md).
+    You can customize the behavior of the autocomplete object by setting its options. For a complete list of options and their values, see the documentation for [**IACList2::SetOptions**](/windows/win32/Shlobj_core/?branch=master).
 
     ```C++
     IAutoComplete2 *pac2;
@@ -151,7 +156,7 @@ A compound autocomplete object matches against strings from multiple sources. Fo
 
 5.  Initialize the autocomplete object.
 
-    This is the same as step 4 above, except that instead of passing the simple autocomplete source to [**IAutoComplete::Init**](iautocomplete-init.md), you pass the compound source object manager.
+    This is the same as step 4 above, except that instead of passing the simple autocomplete source to [**IAutoComplete::Init**](/windows/win32/Shldisp/nf-shldisp-iautocomplete-init?branch=master), you pass the compound source object manager.
 
     ```C++
     hr = pac->Init(hwndEdit, pom, NULL, NULL);

@@ -4,11 +4,15 @@ description: Describes the snap-in namespace.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8ee01346-e969-462c-a937-1dec89ba7e6c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 8ee01346-e969-462c-a937-1dec89ba7e6c
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["snap-in namespace MMC"]
+keywords:
+- snap-in namespace MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Snap-in Namespace

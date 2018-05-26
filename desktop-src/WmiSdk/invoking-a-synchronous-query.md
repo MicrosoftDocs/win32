@@ -1,13 +1,16 @@
 ---
-Description: 'A synchronous query is a query that maintains control over the process of your application for the duration of the query.'
+Description: A synchronous query is a query that maintains control over the process of your application for the duration of the query.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '628e9a31-7b0d-4099-bfa5-56330bb4eb6b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 628e9a31-7b0d-4099-bfa5-56330bb4eb6b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Invoking a Synchronous Query
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Invoking a Synchronous Query
@@ -111,11 +114,11 @@ The following procedure describes how to issue a synchronous data query using C+
 
 **To issue a synchronous query in C++**
 
-1.  Describe your query to WMI through a call to [**IWbemServices::ExecQuery**](iwbemservices-execquery.md).
+1.  Describe your query to WMI through a call to [**IWbemServices::ExecQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execquery?branch=master).
 
-    The [**ExecQuery**](iwbemservices-execquery.md) method takes a WQL search string as a parameter that describes your query. WMI performs the query and returns an [**IEnumWbemClassObject**](ienumwbemclassobject.md) interface pointer. Through the **IEnumWbemClassObject** interface, you can access the classes or instances that make up the result set.
+    The [**ExecQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execquery?branch=master) method takes a WQL search string as a parameter that describes your query. WMI performs the query and returns an [**IEnumWbemClassObject**](/windows/win32/Wbemcli/nn-wbemcli-ienumwbemclassobject?branch=master) interface pointer. Through the **IEnumWbemClassObject** interface, you can access the classes or instances that make up the result set.
 
-2.  After you receive your query, you can enumerate your query with a call to [**IEnumWbemClassObject::Next**](ienumwbemclassobject-next.md). For more information, see [Enumerating WMI](enumerating-wmi.md).
+2.  After you receive your query, you can enumerate your query with a call to [**IEnumWbemClassObject::Next**](/windows/win32/Wbemcli/nf-wbemcli-ienumwbemclassobject-next?branch=master). For more information, see [Enumerating WMI](enumerating-wmi.md).
 
     The following code example requires the following references and \#include statements to compile correctly.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains the following sections:'
-ms.assetid: 'fc96a980-83a0-406f-adfa-c82e3851a0a8'
+Description: This section contains the following sections
+ms.assetid: fc96a980-83a0-406f-adfa-c82e3851a0a8
 title: Direct3D Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D Reference

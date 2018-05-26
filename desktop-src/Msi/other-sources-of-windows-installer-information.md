@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer SDK contains the most complete and current descriptions of the application programming interface (API) and the elements of the Installer database. It is the primary source of developer reference material for the Windows Installer.'
-ms.assetid: '30b1600c-60b0-4442-a9a4-1d597fcf9264'
+Description: The Windows Installer SDK contains the most complete and current descriptions of the application programming interface (API) and the elements of the Installer database. It is the primary source of developer reference material for the Windows Installer.
+ms.assetid: 30b1600c-60b0-4442-a9a4-1d597fcf9264
 title: Other Sources of Windows Installer Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other Sources of Windows Installer Information

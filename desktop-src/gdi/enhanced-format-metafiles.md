@@ -1,7 +1,12 @@
 ---
-Description: 'Enhanced-Format Metafiles'
-ms.assetid: '8d7015cb-5e1d-4805-a7a8-1f8b693e0681'
-title: 'Enhanced-Format Metafiles'
+Description: Enhanced-Format Metafiles
+ms.assetid: 8d7015cb-5e1d-4805-a7a8-1f8b693e0681
+title: Enhanced-Format Metafiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enhanced-Format Metafiles

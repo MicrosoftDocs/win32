@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Test Writer is a utility that you can use to test VSS requester applications.'
-ms.assetid: '02434cb9-390c-4cf0-9941-b833ace55685'
+---
+Description: The Test Writer is a utility that you can use to test VSS requester applications.
+ms.assetid: 02434cb9-390c-4cf0-9941-b833ace55685
 title: VSS Test Writer Tool
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VSS Test Writer Tool
@@ -58,7 +63,7 @@ The following sample configuration file, vswriter\_config.xml, can be found in `
 
 The root element in this configuration file is named TestWriter. All other elements are arranged under the TestWriter element.
 
-One of the attributes associated with TestWriter is the usage attribute. This attribute specifies the usage type reported through [**IVssExamineWriterMetadata::GetIdentity**](ivssexaminewritermetadata-getidentity.md). One of the possible values for this attribute is USER\_DATA.
+One of the attributes associated with TestWriter is the usage attribute. This attribute specifies the usage type reported through [**IVssExamineWriterMetadata::GetIdentity**](/windows/win32/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getidentity?branch=master). One of the possible values for this attribute is USER\_DATA.
 
 The first child element of the root element must always be a RestoreMethod element. This element specifies the following:
 
@@ -141,7 +146,7 @@ In the case of spit writers, the files are deleted from the original location af
 
 ## Specifying Alternate Location Mappings
 
-An alternate location mapping specifies a location to restore to if the restore method is VSS\_WRE\_RESTORE\_TO\_ALTERNATE\_LOCATION or if normal restore of a component fails. A writer can report its alternate location mappings to the requester by using the [**IVssExamineWriterMetadata::GetAlternateLocationMapping**](ivssexaminewritermetadata-getalternatelocationmapping.md) method. You can add alternate location mappings to the Test Writer configuration file by adding AlternateLocationMapping subelements to the RestoreMethod element.
+An alternate location mapping specifies a location to restore to if the restore method is VSS\_WRE\_RESTORE\_TO\_ALTERNATE\_LOCATION or if normal restore of a component fails. A writer can report its alternate location mappings to the requester by using the [**IVssExamineWriterMetadata::GetAlternateLocationMapping**](/windows/win32/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getalternatelocationmapping?branch=master) method. You can add alternate location mappings to the Test Writer configuration file by adding AlternateLocationMapping subelements to the RestoreMethod element.
 
 The following RestoreMethod element contains a AlternateLocationMapping subelement.
 
@@ -156,7 +161,7 @@ The following RestoreMethod element contains a AlternateLocationMapping subeleme
 </RestoreMethod>
 ```
 
-This example specifies that the requester should first attempt to restore all of the files matching c:\\files\\\*.txt to the c:\\files directory. If one of these files cannot be replaced, the requester should restore all the files to the c:\\altfiles directory instead. The requester should save this alternate location mapping by using the [**IVssBackupComponents::AddAlternativeLocationMapping**](ivssbackupcomponents-addalternativelocationmapping.md) method. If the Test Writer is configured to check whether files have been restored, it will also check whether the requester has called **AddAlternativeLocationMapping**.
+This example specifies that the requester should first attempt to restore all of the files matching c:\\files\\\*.txt to the c:\\files directory. If one of these files cannot be replaced, the requester should restore all the files to the c:\\altfiles directory instead. The requester should save this alternate location mapping by using the [**IVssBackupComponents::AddAlternativeLocationMapping**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping?branch=master) method. If the Test Writer is configured to check whether files have been restored, it will also check whether the requester has called **AddAlternativeLocationMapping**.
 
 ## Specifying Files to Be Excluded
 
@@ -172,7 +177,7 @@ Here is an example of an ExcludeFile subelement that excludes all files in the C
 
 ## Backing Up Spit Writers
 
-Many writers act as "spit writers." A spit writer creates intermediate files, or "spit files," based on an original set of files, and puts the spit files in an alternate location at backup time. The writer uses the [**IVssWMFiledesc::GetAlternateLocation**](ivsswmfiledesc-getalternatelocation.md) method to notify the requester that it should back these files up from the alternate location. However, these files should still be restored to the active location of the original files. The Test Writer can be configured to act as a spit writer for a particular file specification.
+Many writers act as "spit writers." A spit writer creates intermediate files, or "spit files," based on an original set of files, and puts the spit files in an alternate location at backup time. The writer uses the [**IVssWMFiledesc::GetAlternateLocation**](/windows/win32/VsWriter/nf-vswriter-ivsswmfiledesc-getalternatelocation?branch=master) method to notify the requester that it should back these files up from the alternate location. However, these files should still be restored to the active location of the original files. The Test Writer can be configured to act as a spit writer for a particular file specification.
 
 The following ComponentFile element contains an alternatePath attribute:
 
@@ -187,7 +192,7 @@ This example configures the Test Writer to copy all files matching c:\\files\\\*
 
 ## Reporting Component Dependencies
 
-Writers can specify a dependency between a local component and a component that exists in another writer. These dependencies are reported to the requester using [**IVssWMComponent::GetDependency**](ivsswmcomponent-getdependency.md). The Test Writer can be configured to report these dependencies by adding one or more Dependency subelements to the Component element.
+Writers can specify a dependency between a local component and a component that exists in another writer. These dependencies are reported to the requester using [**IVssWMComponent::GetDependency**](/windows/win32/VsBackup/nf-vsbackup-ivsswmcomponent-getdependency?branch=master). The Test Writer can be configured to report these dependencies by adding one or more Dependency subelements to the Component element.
 
 The following Component element contains a Dependency subelement:
 
@@ -217,16 +222,16 @@ The Test Writer can be configured to fail any of the normal events that a writer
 
 | Event                                                                                                                                    | Description                                                                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="Identify"></span><span id="identify"></span><span id="IDENTIFY"></span>Identify<br/>                                     | Received as a response to a [**IVssBackupComponents::GatherWriterMetadata**](ivssbackupcomponents-gatherwritermetadata.md) call. Failure here will cause the writer to not be reported.<br/>                                                                 |
-| <span id="PrepareForBackup"></span><span id="prepareforbackup"></span><span id="PREPAREFORBACKUP"></span>PrepareForBackup<br/>     | Received as a response to the requester calling [**IVssBackupComponents::PrepareForBackup**](ivssbackupcomponents-prepareforbackup.md).<br/>                                                                                                                 |
-| <span id="PrepareForSnapsot"></span><span id="prepareforsnapsot"></span><span id="PREPAREFORSNAPSOT"></span>PrepareForSnapsot<br/> | Received when the requester calls [**IVssBackupComponents::DoSnapshotSet**](ivssbackupcomponents-dosnapshotset.md), but before the shadow copy is created.<br/>                                                                                              |
+| <span id="Identify"></span><span id="identify"></span><span id="IDENTIFY"></span>Identify<br/>                                     | Received as a response to a [**IVssBackupComponents::GatherWriterMetadata**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata?branch=master) call. Failure here will cause the writer to not be reported.<br/>                                                                 |
+| <span id="PrepareForBackup"></span><span id="prepareforbackup"></span><span id="PREPAREFORBACKUP"></span>PrepareForBackup<br/>     | Received as a response to the requester calling [**IVssBackupComponents::PrepareForBackup**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup?branch=master).<br/>                                                                                                                 |
+| <span id="PrepareForSnapsot"></span><span id="prepareforsnapsot"></span><span id="PREPAREFORSNAPSOT"></span>PrepareForSnapsot<br/> | Received when the requester calls [**IVssBackupComponents::DoSnapshotSet**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset?branch=master), but before the shadow copy is created.<br/>                                                                                              |
 | <span id="Freeze"></span><span id="freeze"></span><span id="FREEZE"></span>Freeze<br/>                                             | Received immediately after [*PrepareForSnapshot*](vssgloss-p.md#base-vssgloss-preparesnapshot-event), but still before the shadow copy is created.<br/>                                                                                                      |
 | <span id="Thaw"></span><span id="thaw"></span><span id="THAW"></span>Thaw<br/>                                                     | Received after the shadow copy creation is finished.<br/>                                                                                                                                                                                                     |
-| <span id="PostSnapshot"></span><span id="postsnapshot"></span><span id="POSTSNAPSHOT"></span>PostSnapshot<br/>                     | Received after Thaw completes, but before [**IVssBackupComponents::DoSnapshotSet**](ivssbackupcomponents-dosnapshotset.md) completes.<br/>                                                                                                                   |
-| <span id="Abort"></span><span id="abort"></span><span id="ABORT"></span>Abort<br/>                                                 | Received if too much time elapses between [*Freeze*](vssgloss-f.md#base-vssgloss-freeze) and [*Thaw*](vssgloss-t.md#base-vssgloss-thaw-event) or if the requester calls [**IVssBackupComponents::AbortBackup**](ivssbackupcomponents-abortbackup.md).<br/> |
+| <span id="PostSnapshot"></span><span id="postsnapshot"></span><span id="POSTSNAPSHOT"></span>PostSnapshot<br/>                     | Received after Thaw completes, but before [**IVssBackupComponents::DoSnapshotSet**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset?branch=master) completes.<br/>                                                                                                                   |
+| <span id="Abort"></span><span id="abort"></span><span id="ABORT"></span>Abort<br/>                                                 | Received if too much time elapses between [*Freeze*](vssgloss-f.md#base-vssgloss-freeze) and [*Thaw*](vssgloss-t.md#base-vssgloss-thaw-event) or if the requester calls [**IVssBackupComponents::AbortBackup**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-abortbackup?branch=master).<br/> |
 | <span id="BackupComplete"></span><span id="backupcomplete"></span><span id="BACKUPCOMPLETE"></span>BackupComplete<br/>             | Received when the requester exits. Failures here will never be reported.<br/>                                                                                                                                                                                 |
-| <span id="PreRestore"></span><span id="prerestore"></span><span id="PRERESTORE"></span>PreRestore<br/>                             | Received when the requester calls [**IVssBackupComponents::PreRestore**](ivssbackupcomponents-prerestore.md).<br/>                                                                                                                                           |
-| <span id="PostRestore"></span><span id="postrestore"></span><span id="POSTRESTORE"></span>PostRestore<br/>                         | Received when the requester calls [**IVssBackupComponents::PostRestore**](ivssbackupcomponents-postrestore.md).<br/>                                                                                                                                         |
+| <span id="PreRestore"></span><span id="prerestore"></span><span id="PRERESTORE"></span>PreRestore<br/>                             | Received when the requester calls [**IVssBackupComponents::PreRestore**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore?branch=master).<br/>                                                                                                                                           |
+| <span id="PostRestore"></span><span id="postrestore"></span><span id="POSTRESTORE"></span>PostRestore<br/>                         | Received when the requester calls [**IVssBackupComponents::PostRestore**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-postrestore?branch=master).<br/>                                                                                                                                         |
 
 
 
@@ -241,7 +246,7 @@ Here is an example of a basic non-retryable failure:
                retryable="no" />
 ```
 
-This example will cause the writer to fail during the [*Freeze*](vssgloss-f.md#base-vssgloss-freeze) event. [**IVssBackupComponents::GatherWriterStatus**](ivssbackupcomponents-gatherwriterstatus.md) will report the writer failure to be VSS\_E\_WRITERERROR\_NONRETRYABLE.
+This example will cause the writer to fail during the [*Freeze*](vssgloss-f.md#base-vssgloss-freeze) event. [**IVssBackupComponents::GatherWriterStatus**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus?branch=master) will report the writer failure to be VSS\_E\_WRITERERROR\_NONRETRYABLE.
 
 Here is an example of a basic retryable error:
 
@@ -251,23 +256,23 @@ Here is an example of a basic retryable error:
                numFailures="2"/>
 ```
 
-This example will cause the writer to fail the first two times it receives a [*Freeze*](vssgloss-f.md#base-vssgloss-freeze) event. After the first two times, the writer will always succeed. The writer failure reported through [**GatherWriterStatus**](ivssbackupcomponents-gatherwriterstatus.md) will be a random retryable error code.
+This example will cause the writer to fail the first two times it receives a [*Freeze*](vssgloss-f.md#base-vssgloss-freeze) event. After the first two times, the writer will always succeed. The writer failure reported through [**GatherWriterStatus**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus?branch=master) will be a random retryable error code.
 
 ## Declaring Supported Backup Types
 
-Writers communicate what backup types are supported through the requester's calling [**IVssExamineWriterMetadata::GetBackupSchema**](ivssexaminewritermetadata-getbackupschema.md). The TestWriter root element contains attributes for each backup type to indicate support. These attributes are supportsCopy, supportsDifferential, supportsIncremental, and supportsLog. To indicate support for a particular backup type, set the corresponding attribute to "yes".
+Writers communicate what backup types are supported through the requester's calling [**IVssExamineWriterMetadata::GetBackupSchema**](/windows/win32/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema?branch=master). The TestWriter root element contains attributes for each backup type to indicate support. These attributes are supportsCopy, supportsDifferential, supportsIncremental, and supportsLog. To indicate support for a particular backup type, set the corresponding attribute to "yes".
 
-If the requester sets the backup type to a backup type that is not supported by the writer, the writer will note this fact during [**PrepareForBackup**](ivssbackupcomponents-prepareforbackup.md), but otherwise work correctly.
+If the requester sets the backup type to a backup type that is not supported by the writer, the writer will note this fact during [**PrepareForBackup**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup?branch=master), but otherwise work correctly.
 
 ## Indicating the File Backup Type
 
-The [**IVssWMFiledesc::GetBackupTypeMask**](ivsswmfiledesc-getbackuptypemask.md) method returns a bitmask to the requester indicating how a file should be backed up. This will indicate whether a file is required or not required during specific types of backup, and also whether a shadow copy is required during specific types of backup. The backup types in this bitmask are explained at greater length in the document [Requester Role in Backing Up Complex Stores](requestor-role-in-backing-up-complex-stores.md).
+The [**IVssWMFiledesc::GetBackupTypeMask**](/windows/win32/VsWriter/nf-vswriter-ivsswmfiledesc-getbackuptypemask?branch=master) method returns a bitmask to the requester indicating how a file should be backed up. This will indicate whether a file is required or not required during specific types of backup, and also whether a shadow copy is required during specific types of backup. The backup types in this bitmask are explained at greater length in the document [Requester Role in Backing Up Complex Stores](requestor-role-in-backing-up-complex-stores.md).
 
 In the Test Writer, the elements of this bitmask are specified by setting attributes in each ComponentFile element. The fullBackupRequired, diffBackupRequired, incBackupRequired, and logBackupRequired attributes specify when a file needs to be backed up. The fullSnapshotRequired, diffSnapshotRequired, incSnapshotRequired, and logSnapshotRequired attributes specify when a file must be backed up from a shadow copy of a volume (and never from the original volume). The default for all of these values is "yes", indicating that a file must always be backed up and must be backed up from a shadow copy of a volume.
 
 ## Adding Partial Files
 
-During the processing of [**DoSnapshotSet**](ivssbackupcomponents-dosnapshotset.md), a writer has a chance to add partial files to each component. These partial files are reported using [**IVssComponent::GetPartialFile**](ivsscomponent-getpartialfile.md). The Test Writer can be configured to add partial files by specifying PartialFile subelements in a Component element.
+During the processing of [**DoSnapshotSet**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset?branch=master), a writer has a chance to add partial files to each component. These partial files are reported using [**IVssComponent::GetPartialFile**](/windows/win32/VsWriter/nf-vswriter-ivsscomponent-getpartialfile?branch=master). The Test Writer can be configured to add partial files by specifying PartialFile subelements in a Component element.
 
 Here is an example of a Component element that has two PartialFile subelements:
 
@@ -294,7 +299,7 @@ If the writer is configured to check file restores, only the backed-up ranges of
 
 ## Adding Differenced Files
 
-During the processing of [**DoSnapshotSet**](ivssbackupcomponents-dosnapshotset.md), a writer can add differenced files to each component. These differenced files are reported using [**IVssComponent::GetDifferencedFile**](ivsscomponent-getdifferencedfile.md). The Test Writer can be configured to add differenced files by specifying DifferencedFile subelements in a Component element.
+During the processing of [**DoSnapshotSet**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset?branch=master), a writer can add differenced files to each component. These differenced files are reported using [**IVssComponent::GetDifferencedFile**](/windows/win32/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfile?branch=master). The Test Writer can be configured to add differenced files by specifying DifferencedFile subelements in a Component element.
 
 Here is an example of a Component element that has two DifferencedFile subelements:
 
@@ -331,9 +336,9 @@ If the Test Writer is configured to check file restores, only the modified files
 
 ## New Targets
 
-Certain writers allow the requester to inform them that a new location has been chosen to restore certain files to. The writer indicates that it supports this mode as part of the bitmask returned by [**IVssExamineWriterMetadata::GetBackupSchema**](ivssexaminewritermetadata-getbackupschema.md). By default, the Test Writer always supports new targets. This support can be disabled by setting the supportsNewTarget attribute in the TestWriter root element to "no".
+Certain writers allow the requester to inform them that a new location has been chosen to restore certain files to. The writer indicates that it supports this mode as part of the bitmask returned by [**IVssExamineWriterMetadata::GetBackupSchema**](/windows/win32/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema?branch=master). By default, the Test Writer always supports new targets. This support can be disabled by setting the supportsNewTarget attribute in the TestWriter root element to "no".
 
-If a writer supports new targets, the requester can inform the writer of new targets by calling [**IVssBackupComponents::AddNewTarget**](ivssbackupcomponents-addnewtarget.md). The writer will then check the new target location to verify restore rather than the original location.
+If a writer supports new targets, the requester can inform the writer of new targets by calling [**IVssBackupComponents::AddNewTarget**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-addnewtarget?branch=master). The writer will then check the new target location to verify restore rather than the original location.
 
 ## More Information
 

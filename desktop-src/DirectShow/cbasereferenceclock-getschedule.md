@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSchedule method retrieves a pointer to the clock''s scheduling object.'
-ms.assetid: 'ae509f16-d85f-4365-8cf2-c6585cbbdc3d'
-title: 'CBaseReferenceClock.GetSchedule method'
+Description: The GetSchedule method retrieves a pointer to the clocks scheduling object.
+ms.assetid: ae509f16-d85f-4365-8cf2-c6585cbbdc3d
+title: CBaseReferenceClock.GetSchedule method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseReferenceClock.GetSchedule method
@@ -43,9 +48,9 @@ Returns the [**CBaseReferenceClock::m\_pSchedule**](cbasereferenceclock-m-psched
 [**CBaseReferenceClock Class**](cbasereferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

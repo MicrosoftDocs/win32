@@ -1,8 +1,13 @@
 ---
 title: IVMDHCPVirtualNetworkServer EndingIPAddress property
 description: The EndingIPAddress property contains the last TCP/IP address that the DHCP server can dynamically assign to a client on the Virtual Network.
-ms.assetid: '31ad2349-d8bc-49a3-85f5-f251549de476'
-keywords: ["EndingIPAddress property Virtual Server", "EndingIPAddress property Virtual Server , IVMDHCPVirtualNetworkServer interface", "IVMDHCPVirtualNetworkServer interface Virtual Server , EndingIPAddress property", "EndingIPAddress property Virtual Server , VMDHCPVirtualNetworkServer interface", "VMDHCPVirtualNetworkServer interface Virtual Server , EndingIPAddress property"]
+ms.assetid: 31ad2349-d8bc-49a3-85f5-f251549de476
+keywords:
+- EndingIPAddress property Virtual Server
+- EndingIPAddress property Virtual Server , IVMDHCPVirtualNetworkServer interface
+- IVMDHCPVirtualNetworkServer interface Virtual Server , EndingIPAddress property
+- EndingIPAddress property Virtual Server , VMDHCPVirtualNetworkServer interface
+- VMDHCPVirtualNetworkServer interface Virtual Server , EndingIPAddress property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDHCPVirtualNetworkServer::EndingIPAddress property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_EndingIPAddress(
-  [out] BSTR *endingIPAddress
+  [out] BSTR *endingIPAddress
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMDHCPVirtualNetworkServer**](ivmdhcpvirtualnetworkserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

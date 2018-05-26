@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following operators are exposed by the XMVECTOR structure.'
-ms.assetid: '16fc1276-7bed-4e6f-8af5-d871afa73b68'
+---
+Description: The following operators are exposed by the XMVECTOR structure.
+ms.assetid: 16fc1276-7bed-4e6f-8af5-d871afa73b68
 title: XMVECTOR Operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMVECTOR Operators
@@ -19,7 +24,7 @@ The following operators are exposed by the [**XMVECTOR**](xmvector-data-type.md)
 
 | Methods                                                    | Description                                                                                                                                 |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**operator +=**](xmvector-operator-plseq.md)<br/>  | Adds a floating point value to an `XMVECTOR` instance, and returns a reference to the updated instance. <br/>                         |
+| [**operator +=**](/windows/win32/DirectXMath/?branch=master)<br/>  | Adds a floating point value to an `XMVECTOR` instance, and returns a reference to the updated instance. <br/>                         |
 | [**operator -=**](xmvector-operator--eq.md)<br/>    | Subtracts a floating point value from the current instance of `XMVECTOR`, returning the result in the updated current instance. <br/> |
 | [**operator \***](xmvector-operator-mul.md)<br/>    | Multiplication operators<br/>                                                                                                         |
 | [**operator \*=**](xmvector-operator-muleq.md)<br/> | Multiplication assignment operators<br/>                                                                                              |

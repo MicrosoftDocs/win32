@@ -4,11 +4,16 @@ description: The System Registry provider enables management applications to ret
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '39323619-82db-45d3-b20e-4ba1d4c11388'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 39323619-82db-45d3-b20e-4ba1d4c11388
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["providers Windows Management Instrumentation , System Registry", "System Registry provider Windows Management Instrumentation"]
+keywords:
+- providers Windows Management Instrumentation , System Registry
+- System Registry provider Windows Management Instrumentation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # System Registry Provider

@@ -1,8 +1,9 @@
 ---
 title: WM\_SETCURSOR message
 description: Sent to a window if the mouse causes the cursor to move within a window and mouse input is not captured.
-ms.assetid: 'b722689e-925f-40ac-ba4a-55be9dc6a8f8'
-keywords: ["WM_SETCURSOR message Menus and Other Resources"]
+ms.assetid: b722689e-925f-40ac-ba4a-55be9dc6a8f8
+keywords:
+- WM_SETCURSOR message Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_SETCURSOR message
@@ -60,8 +66,8 @@ The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -88,9 +94,9 @@ The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633
 [Cursors](cursors.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

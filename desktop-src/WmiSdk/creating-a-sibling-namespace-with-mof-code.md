@@ -1,13 +1,16 @@
 ---
-Description: 'Another way of creating a namespace is to use Managed Object Format (MOF) code to create a sibling namespace. A sibling namespace is a namespace that does not exist as a child of the current namespace.'
+Description: Another way of creating a namespace is to use Managed Object Format (MOF) code to create a sibling namespace. A sibling namespace is a namespace that does not exist as a child of the current namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1a3f8569-e725-4158-9a2b-b440b9247925'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1a3f8569-e725-4158-9a2b-b440b9247925
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a Sibling Namespace with MOF Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a Sibling Namespace with MOF Code
@@ -23,7 +26,7 @@ The following procedure describes how to create a sibling namespace with MOF cod
     The [**\#pragma namespace**](pragma-namespace.md) command instructs WMI where to create the instances following the directive.
 
 2.  Create an instance of the [**\_\_Namespace**](--namespace.md) class.
-3.  Compile your code with the [mofcomp](mofcomp.md) utility or the [**IMofCompiler**](imofcompiler.md) interface.
+3.  Compile your code with the [mofcomp](mofcomp.md) utility or the [**IMofCompiler**](/windows/win32/Wbemcli/nn-wbemcli-imofcompiler?branch=master) interface.
 
     For more information, see [Compiling MOF Files](compiling-mof-files.md).
 

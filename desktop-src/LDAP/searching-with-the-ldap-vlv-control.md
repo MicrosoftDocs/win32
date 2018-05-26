@@ -4,11 +4,15 @@ description: Active Directory supports the LDAP virtual list view (VLV) control.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b2b03021-7e6a-413b-8e0a-df037d9a71de'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: b2b03021-7e6a-413b-8e0a-df037d9a71de
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Searching with the LDAP VLV Control"]
+keywords:
+- Searching with the LDAP VLV Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Searching with the LDAP VLV Control
@@ -21,7 +25,7 @@ The LDAP VLV control extends a regular LDAP search operation to provide this fun
 
 A VLV search must include a server-side sorting control. When the sort control is used with the VLV control, the server does not return the complete set of sorted search results, but instead, it returns a contiguous subset of those entries specified in the VLV control, using a target entry as a reference point for results.
 
-The sort control may contain any sort specification valid for the server. You will choose the attributes that will be used for the search in the **sk\_attrtype** member of the [**LDAPSortKey**](ldapsortkey.md) structure. For example, in the address book scenario, you would set **sk\_attrtype** to "name".
+The sort control may contain any sort specification valid for the server. You will choose the attributes that will be used for the search in the **sk\_attrtype** member of the [**LDAPSortKey**](/windows/previous-versions/Winldap/ns-winldap-ldapsortkeya?branch=master) structure. For example, in the address book scenario, you would set **sk\_attrtype** to "name".
 
 The desired target entry, and the number of entries to be returned both before and after the target entry are determined by the client's [LDAP\_CONTROL\_VLVREQUEST](ldap-control-vlvrequest.md) control.
 

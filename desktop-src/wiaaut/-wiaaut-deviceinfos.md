@@ -1,8 +1,10 @@
 ---
 title: DeviceInfos object
 description: Contains a collection of all the imaging devices currently connected to the computer. For details on accessing the DeviceInfos object, see the DeviceInfos (DeviceManager) property on the DeviceManager object.
-ms.assetid: '05cf6e48-5c3c-4d80-9d2e-f3701f3d93e4'
-keywords: ["DeviceInfos object WIA Automation", "DeviceInfos object WIA Automation , described"]
+ms.assetid: 05cf6e48-5c3c-4d80-9d2e-f3701f3d93e4
+keywords:
+- DeviceInfos object WIA Automation
+- DeviceInfos object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceInfos object
@@ -36,7 +43,7 @@ The **DeviceInfos** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,7 +85,7 @@ Use any of the following to retrieve a reference to the object:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,8 +93,8 @@ Use any of the following to retrieve a reference to the object:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -100,9 +107,9 @@ Use any of the following to retrieve a reference to the object:
 [**DeviceInfos (DeviceManager)**](-wiaaut-idevicemanager-deviceinfos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

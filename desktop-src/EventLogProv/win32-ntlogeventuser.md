@@ -1,7 +1,12 @@
 ---
-Description: 'The Win32\_NTLogEventUser association WMI class relates a Windows event with the currently logged-on user.'
-ms.assetid: '48134c3e-27fa-4007-ad25-2a86b6ade577'
-title: 'Win32\_NTLogEventUser class'
+Description: The Win32\_NTLogEventUser association WMI class relates a Windows event with the currently logged-on user.
+ms.assetid: 48134c3e-27fa-4007-ad25-2a86b6ade577
+title: Win32\_NTLogEventUser class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_NTLogEventUser class
@@ -15,7 +20,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_NTLogEventUser
 {
-  Win32_NTLogEvent  REF Record;
+  Win32_NTLogEvent  REF Record;
   Win32_UserAccount REF User;
 };
 ```
@@ -70,8 +75,8 @@ Reference to the instance representing the user associated with this event.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntevt.dll</dt> </dl> |
@@ -85,9 +90,9 @@ Reference to the instance representing the user associated with this event.
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

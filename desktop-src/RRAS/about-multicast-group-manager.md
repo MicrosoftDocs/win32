@@ -1,8 +1,17 @@
 ---
 title: About Multicast Group Manager
 description: This documentation describes the Multicast Group Manager (MGM) technology.
-ms.assetid: '55216742-d67c-4a17-aaf9-0b087938061e'
-keywords: ["Multicast Group Manager RRAS", "Multicast Group Manager RRAS , described", "Routing and Remote Access Service RRAS , Multicast Group Manager", "Routing and Remote Access Service RRAS , Multicast Group Manager, described"]
+ms.assetid: 55216742-d67c-4a17-aaf9-0b087938061e
+keywords:
+- Multicast Group Manager RRAS
+- Multicast Group Manager RRAS , described
+- Routing and Remote Access Service RRAS , Multicast Group Manager
+- Routing and Remote Access Service RRAS , Multicast Group Manager, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Multicast Group Manager

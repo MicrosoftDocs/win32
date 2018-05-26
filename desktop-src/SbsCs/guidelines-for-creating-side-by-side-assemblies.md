@@ -1,7 +1,12 @@
 ---
-Description: 'The following guidelines discuss how to author your own COM or Win32 side-by-side assemblies.'
-ms.assetid: 'e10fe92c-bce8-420e-a84c-2748e929eb1b'
-title: 'Guidelines for Creating Side-by-side Assemblies'
+Description: The following guidelines discuss how to author your own COM or Win32 side-by-side assemblies.
+ms.assetid: e10fe92c-bce8-420e-a84c-2748e929eb1b
+title: Guidelines for Creating Side-by-side Assemblies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Guidelines for Creating Side-by-side Assemblies

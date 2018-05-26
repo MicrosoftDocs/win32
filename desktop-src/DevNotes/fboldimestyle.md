@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a non-color style has the bold style.'
-ms.assetid: 'fd34af7f-8847-43aa-9e69-264a08eba98b'
+---
+Description: Specifies whether a non-color style has the bold style.
+ms.assetid: fd34af7f-8847-43aa-9e69-264a08eba98b
 title: FBoldIMEStyle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FBoldIMEStyle function

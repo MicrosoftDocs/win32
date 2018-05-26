@@ -1,7 +1,12 @@
 ---
-Description: 'When the computer system is started, the Local Security Authority (LSA) automatically loads all registered security support provider/authentication package (SSP/AP) DLLs into its process space. The following illustrations show the initialization process.'
-ms.assetid: '2d52cbbf-9e28-4c6f-8b4c-448b73c6dbf8'
+Description: When the computer system is started, the Local Security Authority (LSA) automatically loads all registered security support provider/authentication package (SSP/AP) DLLs into its process space. The following illustrations show the initialization process.
+ms.assetid: 2d52cbbf-9e28-4c6f-8b4c-448b73c6dbf8
 title: LSA Mode Initialization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LSA Mode Initialization
@@ -15,11 +20,11 @@ When the computer system is started, the [*Local Security Authority*](security.l
 
 ![lsa mode initialization](images/lsamode1.png)
 
-At startup, the LSA calls the [**SpLsaModeInitialize**](splsamodeinitialize.md) function in each SSP/AP to obtain pointers to the functions implemented by each [*security package*](security.s_gly#-security-security-package-gly) in the DLL. The function pointers are passed to the LSA in an array of [**SECPKG\_FUNCTION\_TABLE**](secpkg-function-table.md) structures.
+At startup, the LSA calls the [**SpLsaModeInitialize**](/windows/win32/Ntsecpkg/nc-ntsecpkg-splsamodeinitializefn?branch=master) function in each SSP/AP to obtain pointers to the functions implemented by each [*security package*](security.s_gly#-security-security-package-gly) in the DLL. The function pointers are passed to the LSA in an array of [**SECPKG\_FUNCTION\_TABLE**](/windows/win32/Ntsecpkg/ns-ntsecpkg-_secpkg_function_table?branch=master) structures.
 
 ![the lsa calls splsamodeinitialize to get function pointers](images/lsamode2.png)
 
-After receiving the set of [**SECPKG\_FUNCTION\_TABLE**](secpkg-function-table.md) structures, the LSA calls each security package's [**SpInitialize**](spinitialize.md) function. The LSA uses this function call to pass each security package an [**LSA\_SECPKG\_FUNCTION\_TABLE**](lsa-secpkg-function-table.md) structure, which contains pointers to the LSA support functions available to security packages. In addition to storing the pointers to the LSA support functions, custom security packages should use their implementation of the **SpInitialize** function to perform any initialization-related processing.
+After receiving the set of [**SECPKG\_FUNCTION\_TABLE**](/windows/win32/Ntsecpkg/ns-ntsecpkg-_secpkg_function_table?branch=master) structures, the LSA calls each security package's [**SpInitialize**](/windows/win32/Ntsecpkg/nc-ntsecpkg-spinitializefn?branch=master) function. The LSA uses this function call to pass each security package an [**LSA\_SECPKG\_FUNCTION\_TABLE**](/windows/win32/Ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table?branch=master) structure, which contains pointers to the LSA support functions available to security packages. In addition to storing the pointers to the LSA support functions, custom security packages should use their implementation of the **SpInitialize** function to perform any initialization-related processing.
 
 For a list of the LSA support functions available to LSA-mode security packages, see [LSA Functions Called by SSP/APs](authentication-functions.md#lsa-functions-called-by-sspaps).
 

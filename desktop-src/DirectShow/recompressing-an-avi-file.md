@@ -1,7 +1,12 @@
 ---
 Description: Recompressing an AVI File
-ms.assetid: '7c91e560-ac69-47e1-a921-c312b77ecadc'
+ms.assetid: 7c91e560-ac69-47e1-a921-c312b77ecadc
 title: Recompressing an AVI File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recompressing an AVI File

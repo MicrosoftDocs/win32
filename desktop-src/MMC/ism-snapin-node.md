@@ -4,17 +4,21 @@ description: The ISM\_SNAPIN\_NODE clipboard format returns the name of the sele
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '87645ff1-613f-47ba-a0e1-3cf0424cba1f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 87645ff1-613f-47ba-a0e1-3cf0424cba1f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ISM_SNAPIN_NODE clipboard format MMC"]
+keywords:
+- ISM_SNAPIN_NODE clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - ISM_SNAPIN_NODE
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ISM\_SNAPIN\_NODE clipboard format

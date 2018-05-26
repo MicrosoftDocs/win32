@@ -1,13 +1,16 @@
 ---
-Description: 'The Count property of the SWbemPrivilege object contains the number of items in an SWbemPrivilegeSet collection. This property is read-only.'
+Description: The Count property of the SWbemPrivilege object contains the number of items in an SWbemPrivilegeSet collection. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a8ec2055-540d-4150-a0bf-9caa17cd5fcd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a8ec2055-540d-4150-a0bf-9caa17cd5fcd
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemPrivilegeSet.Count property'
+title: SWbemPrivilegeSet.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemPrivilegeSet.Count property
@@ -35,8 +38,8 @@ SWbemPrivilegeSet.Count As Integer
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -45,9 +48,9 @@ SWbemPrivilegeSet.Count As Integer
 
 
 
- 
+ 
 
- 
+ 
 
 
 

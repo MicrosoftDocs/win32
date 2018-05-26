@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the methods defined for the IPrintOemUI2 COM interface.'
-ms.assetid: '9b7afb56-7abb-4f20-b69d-12a28d7e3617'
+---
+Description: This section describes the methods defined for the IPrintOemUI2 COM interface.
+ms.assetid: 9b7afb56-7abb-4f20-b69d-12a28d7e3617
 title: IPrintOemUI2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI2 interface

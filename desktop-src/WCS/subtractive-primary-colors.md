@@ -1,8 +1,20 @@
 ---
 title: Subtractive Primary Colors
 description: The subtractive method of color mixing is based on the assumption that you start with white.
-ms.assetid: '6493497c-6de4-4f09-9e88-5948bd93c3b8'
-keywords: ["Windows Color System (WCS),subtractive primary colors", "WCS (Windows Color System),subtractive primary colors", "image color management,subtractive primary colors", "color management,subtractive primary colors", "colors,subtractive primary", "subtractive primary colors", "primary colors"]
+ms.assetid: 6493497c-6de4-4f09-9e88-5948bd93c3b8
+keywords:
+- Windows Color System (WCS),subtractive primary colors
+- WCS (Windows Color System),subtractive primary colors
+- image color management,subtractive primary colors
+- color management,subtractive primary colors
+- colors,subtractive primary
+- subtractive primary colors
+- primary colors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subtractive Primary Colors

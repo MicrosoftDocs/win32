@@ -1,8 +1,9 @@
 ---
 title: VMFloppyDriveAttachmentType enumeration
 description: The VMFloppyDriveAttachmentType enumeration specifies what is attached to a floppy drive.
-ms.assetid: '83276b8d-5025-4c44-a28d-f41d6fc9dec9'
-keywords: ["VMFloppyDriveAttachmentType enumeration Virtual Server"]
+ms.assetid: 83276b8d-5025-4c44-a28d-f41d6fc9dec9
+keywords:
+- VMFloppyDriveAttachmentType enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMFloppyDriveAttachmentType enumeration
@@ -22,9 +28,9 @@ The **VMFloppyDriveAttachmentType** enumeration specifies what is attached to a 
 
 ```C++
 typedef enum  { 
-  vmFloppyDrive_None       = 0,
-  vmFloppyDrive_Image      = 1,
-  vmFloppyDrive_HostDrive  = 2
+  vmFloppyDrive_None       = 0,
+  vmFloppyDrive_Image      = 1,
+  vmFloppyDrive_HostDrive  = 2
 } VMFloppyDriveAttachmentType;
 ```
 
@@ -61,15 +67,15 @@ Host floppy drive attached.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

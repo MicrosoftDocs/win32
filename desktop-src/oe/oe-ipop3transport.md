@@ -1,8 +1,10 @@
 ---
 title: IPOP3Transport interface
-description: Transport for Post Office Protocol version 3 (POP3) clients.
-ms.assetid: '8878a724-d1af-4832-8446-aec25b4bf4d3'
-keywords: ["IPOP3Transport interface Windows Mail (formerly Outlook Express)", "IPOP3Transport interface Windows Mail (formerly Outlook Express) , described"]
+description: Transport for Post Office Protocol version 3 (POP3) clients.
+ms.assetid: 8878a724-d1af-4832-8446-aec25b4bf4d3
+keywords:
+- IPOP3Transport interface Windows Mail (formerly Outlook Express)
+- IPOP3Transport interface Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,13 +13,18 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPOP3Transport interface
 
 \[**IPOP3Transport** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-Transport for Post Office Protocol version 3 (POP3) clients.
+Transport for Post Office Protocol version 3 (POP3) clients.
 
 ## Members
 
@@ -29,8 +36,8 @@ The **IPOP3Transport** interface inherits from [**IInternetTransport**](oe-iinte
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -38,9 +45,9 @@ The **IPOP3Transport** interface inherits from [**IInternetTransport**](oe-iinte
 
 
 
- 
+ 
 
- 
+ 
 
 
 

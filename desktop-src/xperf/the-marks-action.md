@@ -1,7 +1,12 @@
 ---
 title: The Marks Action
 description: The Marks Action
-ms.assetid: 'e5401eb0-184c-427e-862e-6861594c9a02'
+ms.assetid: e5401eb0-184c-427e-862e-6861594c9a02
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Marks Action
@@ -24,11 +29,11 @@ The marks action produces a text file that summarizes the various marks placed i
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

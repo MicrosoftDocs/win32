@@ -4,11 +4,14 @@ description: Takes a group \ 32; offline.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ca4b8bd9-26fb-40f6-86f7-bbd1514fc9ac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ca4b8bd9-26fb-40f6-86f7-bbd1514fc9ac
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Offline method Failover Cluster", "Offline method Failover Cluster , ClusResGroup class", "ClusResGroup class Failover Cluster , Offline method"]
+keywords:
+- Offline method Failover Cluster
+- Offline method Failover Cluster , ClusResGroup class
+- ClusResGroup class Failover Cluster , Offline method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResGroup.Offline method
@@ -66,7 +72,7 @@ This method does not return a value.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -82,12 +88,12 @@ This method does not return a value.
 [**ClusResGroup**](clusresgroup-object.md)
 </dt> <dt>
 
-[**Offline**](offline.md)
+[**Offline**](/windows/previous-versions/ResApi/nc-resapi-poffline_routine?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

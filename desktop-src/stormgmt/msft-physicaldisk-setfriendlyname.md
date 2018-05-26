@@ -1,8 +1,11 @@
 ---
 title: SetFriendlyName method of the MSFT\_PhysicalDisk class
 description: Sets or changes the friendly name for the physical disk.
-ms.assetid: '64A8F43F-6A3F-4956-9C8B-0F3D7FA6F2CE'
-keywords: ["SetFriendlyName method Windows Storage Management API", "SetFriendlyName method Windows Storage Management API , MSFT_PhysicalDisk class", "MSFT_PhysicalDisk class Windows Storage Management API , SetFriendlyName method"]
+ms.assetid: 64A8F43F-6A3F-4956-9C8B-0F3D7FA6F2CE
+keywords:
+- SetFriendlyName method Windows Storage Management API
+- SetFriendlyName method Windows Storage Management API , MSFT_PhysicalDisk class
+- MSFT_PhysicalDisk class Windows Storage Management API , SetFriendlyName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetFriendlyName method of the MSFT\_PhysicalDisk class
@@ -22,8 +30,8 @@ Sets or changes the friendly name for the physical disk.
 
 ```mof
 UInt32 SetFriendlyName(
-  [in]  String FriendlyName,
-  [out] String ExtendedStatus
+  [in]  String FriendlyName,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -95,8 +103,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -109,9 +117,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_PhysicalDisk**](msft-physicaldisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

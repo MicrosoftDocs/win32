@@ -1,8 +1,11 @@
 ---
 title: INNTPTransport GetHeaders method
 description: Retrieves an array of headers from the server.
-ms.assetid: '3c74af14-759e-494f-a5b3-3f1357fa8e85'
-keywords: ["GetHeaders method Windows Mail (formerly Outlook Express)", "GetHeaders method Windows Mail (formerly Outlook Express) , INNTPTransport interface", "INNTPTransport interface Windows Mail (formerly Outlook Express) , GetHeaders method"]
+ms.assetid: 3c74af14-759e-494f-a5b3-3f1357fa8e85
+keywords:
+- GetHeaders method Windows Mail (formerly Outlook Express)
+- GetHeaders method Windows Mail (formerly Outlook Express) , INNTPTransport interface
+- INNTPTransport interface Windows Mail (formerly Outlook Express) , GetHeaders method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INNTPTransport::GetHeaders method
@@ -24,7 +32,7 @@ Retrieves an array of headers from the server. If a `GROUP` command has not been
 
 ```C++
 HRESULT GetHeaders(
-  [in] LPRANGE pRange
+  [in] LPRANGE pRange
 );
 ```
 
@@ -58,7 +66,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -75,9 +83,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VssComponentSettingData class
 description: Represents the configured state of the Volume Shadow Copy Service (VSS) service.
-ms.assetid: 'bf6ee020-69de-4240-9e2a-b6bca684a108'
-keywords: ["Msvm_VssComponentSettingData class Hyper-V", "Msvm_VssComponentSettingData class Hyper-V , described"]
+ms.assetid: bf6ee020-69de-4240-9e2a-b6bca684a108
+keywords:
+- Msvm_VssComponentSettingData class Hyper-V
+- Msvm_VssComponentSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VssComponentSettingData class
@@ -47,28 +54,28 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VssComponentSettingData : CIM_ResourceAllocationSettingData
 {
-  string  Caption = "VSS";
-  string  Description = "Microsoft VSS Service Setting Data";
-  string  InstanceID = "Microsoft:GUID\device-specific data";
-  string  ElementName = "VSS";
-  uint16  ResourceType = 1;
-  string  OtherResourceType = "Microsoft VSS Component";
-  string  PoolID;
-  uint16  ConsumerVisibility = 3;
-  string  HostResource[];
-  string  AllocationUnits = "Integration Components";
-  uint64  VirtualQuantity = 1;
-  uint64  Reservation = 1;
+  string  Caption = "VSS";
+  string  Description = "Microsoft VSS Service Setting Data";
+  string  InstanceID = "Microsoft:GUID\device-specific data";
+  string  ElementName = "VSS";
+  uint16  ResourceType = 1;
+  string  OtherResourceType = "Microsoft VSS Component";
+  string  PoolID;
+  uint16  ConsumerVisibility = 3;
+  string  HostResource[];
+  string  AllocationUnits = "Integration Components";
+  uint64  VirtualQuantity = 1;
+  uint64  Reservation = 1;
   boolean AutomaticAllocation = True;
   boolean AutomaticDeallocation = True;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  uint16  EnabledState = 2;
-  string  ResourceSubType;
-  uint64  Limit = 1;
-  uint32  Weight = 0;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  uint16  EnabledState = 2;
+  string  ResourceSubType;
+  uint64  Limit = 1;
+  uint32  Weight = 0;
 };
 ```
 
@@ -452,9 +459,9 @@ Access to the **Msvm\_VssComponentSettingData** class might be restricted by UAC
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -473,9 +480,9 @@ Access to the **Msvm\_VssComponentSettingData** class might be restricted by UAC
 [Integration Services Classes](integration-components-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

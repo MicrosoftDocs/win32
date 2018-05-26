@@ -1,8 +1,10 @@
 ---
 title: MPSIGUPDATE\_DATA structure
 description: Notification data passed to the signature update callback function.
-ms.assetid: 'E999ABC2-CC72-43CC-86D9-4F29E9128E1A'
-keywords: ["MPSIGUPDATE_DATA structure Legacy Windows Environment Features", "PMPSIGUPDATE_DATA structure pointer Legacy Windows Environment Features"]
+ms.assetid: E999ABC2-CC72-43CC-86D9-4F29E9128E1A
+keywords:
+- MPSIGUPDATE_DATA structure Legacy Windows Environment Features
+- PMPSIGUPDATE_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPSIGUPDATE\_DATA structure
@@ -22,11 +29,11 @@ Notification data passed to the signature update callback function.
 
 ```C++
 typedef struct tagMPSIGUPDATE_DATA {
-  DWORD                 dwPercentComplete;
-  DWORD                 dwTotalUpdates;
-  DWORD                 dwCurrentUpdateIndex;
-  MPSIGUPDATE_TYPE      eType;
-  MP_UPDATE_STAGE       Stage;
+  DWORD                 dwPercentComplete;
+  DWORD                 dwTotalUpdates;
+  DWORD                 dwCurrentUpdateIndex;
+  MPSIGUPDATE_TYPE      eType;
+  MP_UPDATE_STAGE       Stage;
   MP_MIDL_STRING LPWSTR Path;
 } MPSIGUPDATE_DATA, *PMPSIGUPDATE_DATA;
 ```
@@ -94,7 +101,7 @@ Update type. One of the following possible values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -118,7 +125,7 @@ Update stage. One of the following possible values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -139,15 +146,15 @@ Update path.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

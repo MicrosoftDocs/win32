@@ -1,7 +1,12 @@
 ---
 title: ps\_1\_1, ps\_1\_2, ps\_1\_3, ps\_1\_4 Instructions
 description: This section contains reference information for the pixel shader version 1\_X instructions.
-ms.assetid: 'cb496887-6755-4f29-b465-a36548b88722'
+ms.assetid: cb496887-6755-4f29-b465-a36548b88722
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ps\_1\_1, ps\_1\_2, ps\_1\_3, ps\_1\_4 Instructions

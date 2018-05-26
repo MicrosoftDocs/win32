@@ -1,8 +1,19 @@
 ---
 title: Media Samples
 description: Media Samples
-ms.assetid: 'f9784c9a-c672-432d-a3ad-eb2ed73ac523'
-keywords: ["Windows Media Format SDK,media samples", "Windows Media Format SDK,samples", "Advanced Systems Format (ASF),media samples", "ASF (Advanced Systems Format),media samples", "Advanced Systems Format (ASF),samples", "ASF (Advanced Systems Format),samples"]
+ms.assetid: f9784c9a-c672-432d-a3ad-eb2ed73ac523
+keywords:
+- Windows Media Format SDK,media samples
+- Windows Media Format SDK,samples
+- Advanced Systems Format (ASF),media samples
+- ASF (Advanced Systems Format),media samples
+- Advanced Systems Format (ASF),samples
+- ASF (Advanced Systems Format),samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Samples
@@ -22,7 +33,7 @@ All samples used by the Windows Media Format SDK are encapsulated in buffer obje
 [**Concepts**](concepts.md)
 </dt> <dt>
 
-[**INSSBuffer Interface**](inssbuffer.md)
+[**INSSBuffer Interface**](/windows/win32/wmsbuffer/nn-wmsbuffer-inssbuffer?branch=master)
 </dt> <dt>
 
 [**Inputs, Streams and Outputs**](inputs-streams-and-outputs.md)

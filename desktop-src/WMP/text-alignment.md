@@ -1,8 +1,17 @@
 ---
 title: Text Alignment
 description: Text Alignment
-ms.assetid: '7853f823-545e-419f-8d47-efc70d4957eb'
-keywords: ["Windows Media Player Mobile skins,text", "skins,text", "reference for skins,text", "text in skins,alignment"]
+ms.assetid: 7853f823-545e-419f-8d47-efc70d4957eb
+keywords:
+- Windows Media Player Mobile skins,text
+- skins,text
+- reference for skins,text
+- text in skins,alignment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Alignment

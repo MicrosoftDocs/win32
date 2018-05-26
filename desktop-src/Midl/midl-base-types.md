@@ -2,7 +2,13 @@
 title: MIDL Base Types
 description: To be transmitted over a network, all data types must resolve to a MIDL base type or predefined type.
 ms.assetid: 267c7582-c6c6-48da-9d22-d9ef13509ec8
-keywords: ["data types MIDL , base"]
+keywords:
+- data types MIDL , base
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL Base Types

@@ -1,8 +1,9 @@
 ---
 title: D3DX\_B8G8R8X8\_UNORM\_to\_FLOAT3 function
 description: Unpacks DXGI\_FORMAT\_B8G8R8X8\_UNORM shader data to an XMFLOAT3.
-ms.assetid: '0987d71a-89a4-4751-9f32-08e2490204d2'
-keywords: ["D3DX_B8G8R8X8_UNORM_to_FLOAT3 function HLSL"]
+ms.assetid: 0987d71a-89a4-4751-9f32-08e2490204d2
+keywords:
+- D3DX_B8G8R8X8_UNORM_to_FLOAT3 function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_B8G8R8X8\_UNORM\_to\_FLOAT3 function
@@ -21,7 +27,7 @@ Unpacks DXGI\_FORMAT\_B8G8R8X8\_UNORM shader data to an XMFLOAT3.
 
 ``` syntax
 XMFLOAT3 D3DX_B8G8R8X8_UNORM_to_FLOAT3(
-   UINT packedInput
+   UINT packedInput
 );
 ```
 
@@ -60,9 +66,9 @@ The unpacked shader data.
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

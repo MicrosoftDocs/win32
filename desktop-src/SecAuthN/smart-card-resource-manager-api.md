@@ -1,7 +1,12 @@
-﻿---
-Description: 'The resource manager API provides the following functionality.'
-ms.assetid: '5813a6e9-25bf-4816-943a-493441e143eb'
+---
+Description: The resource manager API provides the following functionality.
+ms.assetid: 5813a6e9-25bf-4816-943a-493441e143eb
 title: Smart Card Resource Manager API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Smart Card Resource Manager API

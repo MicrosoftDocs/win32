@@ -1,7 +1,12 @@
 ---
-Description: 'The LARGEINT datatype defines a LARGE\_INTEGER value.'
-ms.assetid: 'ca565be0-96bb-4265-9422-793db0723563'
+Description: The LARGEINT datatype defines a LARGE\_INTEGER value.
+ms.assetid: ca565be0-96bb-4265-9422-793db0723563
 title: LARGEINT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LARGEINT
@@ -29,8 +34,8 @@ The **lpLargeIntTable** member of the [**SET**](set.md) structure points to an a
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -42,9 +47,9 @@ The **lpLargeIntTable** member of the [**SET**](set.md) structure points to an a
 [SET](set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Uninstall method of the Win32\_Product class
 description: The Uninstall WMI class method uninstalls the associated instance of Win32\_Product.
-ms.assetid: 'b9490fce-b07e-4c16-8164-f29b5a7ca9d2'
-keywords: ["Uninstall method", "Uninstall method, Win32_Product class", "Win32_Product class, Uninstall method"]
+ms.assetid: b9490fce-b07e-4c16-8164-f29b5a7ca9d2
+keywords:
+- Uninstall method
+- Uninstall method, Win32_Product class
+- Win32_Product class, Uninstall method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uninstall method of the Win32\_Product class
@@ -20,7 +28,7 @@ The **Uninstall** [WMI class](https://msdn.microsoft.com/library/aa393244) metho
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -48,7 +56,7 @@ This method has no parameters.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -106,8 +114,8 @@ $list | foreach {
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -127,9 +135,9 @@ $list | foreach {
 [WMI Tasks: Computer Software](https://msdn.microsoft.com/library/aa394588)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

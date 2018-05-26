@@ -1,8 +1,17 @@
 ---
 title: Bitmaps
 description: Bitmaps
-ms.assetid: 'cd10bc7d-1167-485e-8acf-13c021bc608b'
-keywords: ["Windows Media Player Mobile skins,bitmaps", "skins,bitmaps", "reference for skins,bitmaps", "bitmaps in skins,about"]
+ms.assetid: cd10bc7d-1167-485e-8acf-13c021bc608b
+keywords:
+- Windows Media Player Mobile skins,bitmaps
+- skins,bitmaps
+- reference for skins,bitmaps
+- bitmaps in skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bitmaps

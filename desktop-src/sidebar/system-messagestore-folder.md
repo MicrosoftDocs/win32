@@ -1,8 +1,10 @@
 ---
 title: System.MessageStore.Folder object
 description: Defines the properties for individual Windows Mail (formerly Outlook Express) folders as well as the properties for the Messages collection.
-ms.assetid: '989794bd-6b4c-4112-8356-c5e2a5c5df8b'
-keywords: ["System.MessageStore.Folder object Windows Sidebar", "System.MessageStore.Folder object Windows Sidebar , described"]
+ms.assetid: 989794bd-6b4c-4112-8356-c5e2a5c5df8b
+keywords:
+- System.MessageStore.Folder object Windows Sidebar
+- System.MessageStore.Folder object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.MessageStore.Folder object
@@ -22,7 +29,7 @@ Defines the properties for individual Windows Mail (formerly Outlook Express) fo
 > [!Note]  
 > Objects of type [**System.MessageStore.Message**](system-messagestore-message.md) can only be accessed through the [**Messages**](system-messagestorefolder-messages.md) collection. This collection is a member of **System.MessageStore.Folder**.
 
- 
+ 
 
 ## Members
 
@@ -43,7 +50,7 @@ The **System.MessageStore.Folder** object has these collections.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -59,11 +66,11 @@ The **System.MessageStore.Folder** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
-[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Subfolders and their content (such as messages) are not exposed.
+[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Subfolders and their content (such as messages) are not exposed.
 
 ## Requirements
 
@@ -71,18 +78,18 @@ The **System.MessageStore.Folder** object has these properties.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

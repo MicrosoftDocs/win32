@@ -1,8 +1,11 @@
 ---
 title: CounterItem.GetStatistics method
 description: Retrieves the average, maximum, and minimum values for the counter.
-ms.assetid: 'fb55d68b-1dbe-48b1-88c8-51f33048ec24'
-keywords: ["GetStatistics method SysMon", "GetStatistics method SysMon , CounterItem class", "CounterItem class SysMon , GetStatistics method"]
+ms.assetid: fb55d68b-1dbe-48b1-88c8-51f33048ec24
+keywords:
+- GetStatistics method SysMon
+- GetStatistics method SysMon , CounterItem class
+- CounterItem class SysMon , GetStatistics method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CounterItem.GetStatistics method
@@ -70,7 +78,7 @@ Indicates if the values are valid.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -88,8 +96,8 @@ Only those counter values that are visible in the graph window are used to calcu
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -107,9 +115,9 @@ Only those counter values that are visible in the graph window are used to calcu
 [**CounterItem.GetValue**](counteritem-getvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

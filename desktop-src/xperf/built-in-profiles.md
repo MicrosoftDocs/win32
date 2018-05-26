@@ -1,8 +1,16 @@
 ---
 title: Built-in Profiles
 description: Built-in Profiles
-ms.assetid: '1c705ae7-8bed-4dd0-9ffd-02bdfc7bc8be'
-keywords: ["profile", "InSequentialFile", "InBuffer"]
+ms.assetid: 1c705ae7-8bed-4dd0-9ffd-02bdfc7bc8be
+keywords:
+- profile
+- InSequentialFile
+- InBuffer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Built-in Profiles
@@ -50,11 +58,11 @@ The command displays the entire **InSequentialFile** and **InBuffer** profiles i
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

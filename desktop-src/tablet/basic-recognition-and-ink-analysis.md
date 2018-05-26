@@ -1,7 +1,12 @@
 ---
-Description: 'This topic introduces the Ink Analysis APIs.'
-ms.assetid: 'a3126930-2802-43c7-9e98-3a73498ac3f5'
+Description: This topic introduces the Ink Analysis APIs.
+ms.assetid: a3126930-2802-43c7-9e98-3a73498ac3f5
 title: Basic Recognition and Ink Analysis
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic Recognition and Ink Analysis
@@ -54,11 +59,11 @@ Thus, there are two mechanisms for attaining recognition results:
 
  
 
-To use the [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md) operation, the [**InkCollector**](inkcollector-class.md) object (or similar objects or controls such as the [**RealTimeStylus**](realtimestylus-class.md) (RTS), [**InkOverlay**](inkoverlay-class.md), or [InkCanvas](T:System.Windows.Controls.InkCanvas) in Windows Presentation Foundation) manages the collection and rendering of the ink strokes. If the **InkCollector** is paired with the ink analysis APIs, applications can keep the recognition results updated by informing the [**InkAnalyzer**](inkanalyzer.md) about each new stroke added to the application. This allows for the **InkAnalyzer** to recognize the strokes incrementally and on a background thread.
+To use the [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md) operation, the [**InkCollector**](/windows/win32/msinkaut/?branch=master) object (or similar objects or controls such as the [**RealTimeStylus**](/windows/win32/RTSCom/?branch=master) (RTS), [**InkOverlay**](/windows/win32/msinkaut/?branch=master), or [InkCanvas](T:System.Windows.Controls.InkCanvas) in Windows Presentation Foundation) manages the collection and rendering of the ink strokes. If the **InkCollector** is paired with the ink analysis APIs, applications can keep the recognition results updated by informing the [**InkAnalyzer**](inkanalyzer.md) about each new stroke added to the application. This allows for the **InkAnalyzer** to recognize the strokes incrementally and on a background thread.
 
 To accomplish incremental background analysis, applications need to implement three steps (shown for managed code):
 
-1. Add the stroke to the [**InkAnalyzer**](inkanalyzer.md) whenever the [**InkOverlay**](inkoverlay-class.md) object's [**Stroke**](inkoverlay-stroke.md) event is raised:
+1. Add the stroke to the [**InkAnalyzer**](inkanalyzer.md) whenever the [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object's [**Stroke**](inkoverlay-stroke.md) event is raised:
 
 
 ```C++
@@ -162,7 +167,7 @@ This example simply uses the form's **Paint** event to render colored rectangles
 
 Each object returned from the [**FindNodesOfType**](iinkanalyzer-findnodesoftype.md) method will have properties that relate to that kind of classification. For example the **InkWordNode** references all the strokes that make up a single word in the document and reference the recognized string for that word. The **InkDrawingNode** references all the strokes that make up the single drawing in the document and reference the shape name for that drawing.
 
-The [**FindNodesOfType**](iinkanalyzer-findnodesoftype.md) method is very similar to the [**DivisionResult::ResultByType**](iinkdivisionresult-resultbytype.md) method that returned collections of [**DivisionUnits**](iinkdivisionunits.md) of either writing or drawing types.
+The [**FindNodesOfType**](iinkanalyzer-findnodesoftype.md) method is very similar to the [**DivisionResult::ResultByType**](/windows/win32/msinkaut15/nf-msinkaut15-iinkdivisionresult-resultbytype?branch=master) method that returned collections of [**DivisionUnits**](/windows/win32/msinkaut15/nn-msinkaut15-iinkdivisionunits?branch=master) of either writing or drawing types.
 
 
 ```C++

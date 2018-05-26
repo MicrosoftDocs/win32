@@ -1,7 +1,12 @@
 ---
 title: AgentPropertyChange Event
 description: AgentPropertyChange Event
-ms.assetid: '56607e9c-99eb-42c1-987a-0f2bc3f82d75'
+ms.assetid: 56607e9c-99eb-42c1-987a-0f2bc3f82d75
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AgentPropertyChange Event

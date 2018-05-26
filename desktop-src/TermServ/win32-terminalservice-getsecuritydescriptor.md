@@ -4,11 +4,16 @@ description: Returns the security descriptor that controls access to the service
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9898091A-5BE2-42A0-BF81-13AB74696ACB'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9898091A-5BE2-42A0-BF81-13AB74696ACB
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["scripting Windows Management Instrumentation , security", "security Windows Management Instrumentation , scripting", "GetSecurityDescriptor method Remote Desktop Services", "GetSecurityDescriptor method Remote Desktop Services , Win32_Service class", "Win32_Service class Remote Desktop Services , GetSecurityDescriptor method"]
+keywords:
+- scripting Windows Management Instrumentation , security
+- security Windows Management Instrumentation , scripting
+- GetSecurityDescriptor method Remote Desktop Services
+- GetSecurityDescriptor method Remote Desktop Services , Win32_Service class
+- Win32_Service class Remote Desktop Services , GetSecurityDescriptor method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +22,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSecurityDescriptor method of the Win32\_Service class
@@ -28,7 +36,7 @@ The **GetSecurityDescriptor** method returns the security descriptor that contro
 
 ```mof
 uint32 GetSecurityDescriptor(
-  [out] Win32_SecurityDescriptor Descriptor
+  [out] Win32_SecurityDescriptor Descriptor
 );
 ```
 
@@ -260,8 +268,8 @@ Scope.Options.EnablePrivileges = True
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -290,9 +298,9 @@ Scope.Options.EnablePrivileges = True
 [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

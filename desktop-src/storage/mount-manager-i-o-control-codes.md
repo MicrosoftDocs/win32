@@ -1,7 +1,12 @@
 ---
 title: Mount Manager I/O Control Codes
 description: Mount Manager I/O Control Codes
-ms.assetid: '740526a2-29d3-42c5-b5df-67f4b36d11ad'
+ms.assetid: 740526a2-29d3-42c5-b5df-67f4b36d11ad
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mount Manager I/O Control Codes

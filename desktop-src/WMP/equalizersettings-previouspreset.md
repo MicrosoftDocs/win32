@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.previousPreset
 description: The previousPreset method applies the previous equalizer preset.
-ms.assetid: '0b344e5f-fe0d-4a23-b204-8fea340a8e21'
-keywords: ["EQUALIZERSETTINGS.previousPreset Windows Media Player"]
+ms.assetid: 0b344e5f-fe0d-4a23-b204-8fea340a8e21
+keywords:
+- EQUALIZERSETTINGS.previousPreset Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.previousPreset
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.previousPreset
@@ -51,9 +57,9 @@ If the current preset is the first one available, the last preset is made curren
 [**EQUALIZERSETTINGS.nextPreset**](equalizersettings-nextpreset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

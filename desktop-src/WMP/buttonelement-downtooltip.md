@@ -1,14 +1,20 @@
 ---
 title: BUTTONELEMENT.downToolTip
 description: The downToolTip attribute specifies or retrieves the ToolTip text that appears when the mouse is over the BUTTONELEMENT and the BUTTONELEMENT is in the down state.
-ms.assetid: 'eddcb0e9-8504-4c06-8ff1-cc5c4c08af46'
-keywords: ["BUTTONELEMENT.downToolTip Windows Media Player"]
+ms.assetid: eddcb0e9-8504-4c06-8ff1-cc5c4c08af46
+keywords:
+- BUTTONELEMENT.downToolTip Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONELEMENT.downToolTip
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONELEMENT.downToolTip
@@ -47,9 +53,9 @@ When this attribute is set to "" (empty string), no ToolTip is displayed.
 [**BUTTONELEMENT.down**](buttonelement-down.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

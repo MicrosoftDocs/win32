@@ -1,7 +1,12 @@
 ---
 title: RequestTimeout
 description: RequestTimeout
-ms.assetid: '18c2b223-2105-4d8d-aef9-157d19a80f92'
+ms.assetid: 18c2b223-2105-4d8d-aef9-157d19a80f92
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestTimeout

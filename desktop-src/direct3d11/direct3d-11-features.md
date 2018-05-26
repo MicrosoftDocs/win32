@@ -1,7 +1,12 @@
 ---
 title: Direct3D 11 Features
 description: The programming guide contains information about how to use the Direct3D 11 programmable pipeline to create realtime 3D graphics for games, and for scientific and desktop applications.
-ms.assetid: 'ee4dae04-1a52-4587-87c1-006abb687a91'
+ms.assetid: ee4dae04-1a52-4587-87c1-006abb687a91
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 11 Features

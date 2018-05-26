@@ -1,12 +1,17 @@
-﻿---
-Description: 'The Connect method connects a fax client application to the specified fax server.'
-ms.assetid: 'f3f4ff8a-4546-46a6-b5d8-ae351235b608'
-title: 'FaxServer.Connect method'
+---
+Description: The Connect method connects a fax client application to the specified fax server.
+ms.assetid: f3f4ff8a-4546-46a6-b5d8-ae351235b608
+title: FaxServer.Connect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.Connect method
 
-The **Connect** method connects a fax client application to the specified fax server. Before accessing most interfaces that begin with **IFax**, the application must call this method to initiate a connection with an active fax server. A fax server connection is not required to access an [**IFaxTiff**](-mfax-ifaxtiff.md) interface.
+The **Connect** method connects a fax client application to the specified fax server. Before accessing most interfaces that begin with **IFax**, the application must call this method to initiate a connection with an active fax server. A fax server connection is not required to access an [**IFaxTiff**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxtiff?branch=master) interface.
 
 ## Syntax
 

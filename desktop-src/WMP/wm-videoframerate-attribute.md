@@ -1,14 +1,20 @@
 ---
 title: WM/VideoFrameRate Attribute
 description: The WM/VideoFrameRate attribute is a decimal value that specifies the frame rate (in frames per second) for a video file.
-ms.assetid: '6eec6e64-68b2-443c-b88a-ce87c708ab57'
-keywords: ["WM/VideoFrameRate Attribute Windows Media Player"]
+ms.assetid: 6eec6e64-68b2-443c-b88a-ce87c708ab57
+keywords:
+- WM/VideoFrameRate Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/VideoFrameRate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/VideoFrameRate Attribute
@@ -42,9 +48,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

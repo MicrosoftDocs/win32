@@ -1,8 +1,10 @@
 ---
 title: MDM\_Reboot class
 description: The MDM\_Rebootclass is used to configure reboot settings.
-ms.assetid: '876ba854-1c26-49cf-915d-194be9f9c1d4'
-keywords: ["MDM_Reboot class", "MDM_Reboot class, described"]
+ms.assetid: 876ba854-1c26-49cf-915d-194be9f9c1d4
+keywords:
+- MDM_Reboot class
+- MDM_Reboot class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Mofs\DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Reboot class
@@ -53,7 +60,7 @@ The **MDM\_Reboot** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -99,7 +106,7 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                            |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl>      |
@@ -107,9 +114,9 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 
 
- 
+ 
 
- 
+ 
 
 
 

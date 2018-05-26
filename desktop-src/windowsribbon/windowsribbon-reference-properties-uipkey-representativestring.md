@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_RepresentativeString
 description: Identifies the UI\_PKEY\_RepresentativeString property.
-ms.assetid: '7f30fef9-fba9-4e04-b791-028d5f863e53'
+ms.assetid: 7f30fef9-fba9-4e04-b791-028d5f863e53
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_RepresentativeString

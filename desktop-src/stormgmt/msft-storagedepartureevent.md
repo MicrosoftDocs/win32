@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageDepartureEvent class
 description: Represents a storage departure event. Storage departure events are used whenever a storage object is removed or deleted.
-ms.assetid: 'BE1BD4FF-A99D-4439-BFCA-F43E81E36306'
-keywords: ["MSFT_StorageDepartureEvent class Windows Storage Management API", "MSFT_StorageDepartureEvent class Windows Storage Management API , described"]
+ms.assetid: BE1BD4FF-A99D-4439-BFCA-F43E81E36306
+keywords:
+- MSFT_StorageDepartureEvent class Windows Storage Management API
+- MSFT_StorageDepartureEvent class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageDepartureEvent class
@@ -38,8 +45,8 @@ The **MSFT\_StorageDepartureEvent** class does not define any members.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -52,9 +59,9 @@ The **MSFT\_StorageDepartureEvent** class does not define any members.
 [**MSFT\_StorageEvent**](msft-storageevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

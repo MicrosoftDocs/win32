@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '552ade43-e792-45f2-9b16-f4dd1b4ae2f9'
-title: 'System.Contact.HomeAddress3PostalCode'
+Description: .
+ms.assetid: 552ade43-e792-45f2-9b16-f4dd1b4ae2f9
+title: System.Contact.HomeAddress3PostalCode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeAddress3PostalCode

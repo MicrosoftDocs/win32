@@ -4,13 +4,16 @@ description: Removes an existing replication network constraint for the partners
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '88582f85-9ca4-49b9-81bb-5a58ff629750'
-ms.prod: 'windows-server-dev'
+ms.assetid: 88582f85-9ca4-49b9-81bb-5a58ff629750
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveNetworkConstraint method", "RemoveNetworkConstraint method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, RemoveNetworkConstraint method"]
+keywords:
+- RemoveNetworkConstraint method
+- RemoveNetworkConstraint method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, RemoveNetworkConstraint method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - wvrcimprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveNetworkConstraint method of the MSFT\_WvrAdminTasks class
@@ -30,10 +36,10 @@ Removes an existing replication network constraint for the partnership.
 
 ```mof
 uint32 RemoveNetworkConstraint(
-  [in] string SourceRGName,
-  [in] string SourceComputerName,
-  [in] string DestinationRGName,
-  [in] string DestinationComputerName
+  [in] string SourceRGName,
+  [in] string SourceComputerName,
+  [in] string DestinationRGName,
+  [in] string DestinationComputerName
 );
 ```
 
@@ -77,8 +83,8 @@ The destination computer name.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported client<br/> | Windows 8<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>Wvrcimprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wvrcimprov.dll</dt> </dl> |
@@ -92,9 +98,9 @@ The destination computer name.
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

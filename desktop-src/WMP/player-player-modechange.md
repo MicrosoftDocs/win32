@@ -1,8 +1,11 @@
 ---
 title: Player.ModeChange event
 description: The ModeChange event occurs when a mode of Windows Media Player is changed.
-ms.assetid: '45b57660-b186-4c0f-8735-61134058b8c9'
-keywords: ["ModeChange event Windows Media Player", "ModeChange event Windows Media Player , Player class", "Player class Windows Media Player , ModeChange event"]
+ms.assetid: 45b57660-b186-4c0f-8735-61134058b8c9
+keywords:
+- ModeChange event Windows Media Player
+- ModeChange event Windows Media Player , Player class
+- Player class Windows Media Player , ModeChange event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.ModeChange event
@@ -47,7 +55,7 @@ Player.ModeChange(
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -90,9 +98,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Settings.setMode**](settings-setmode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

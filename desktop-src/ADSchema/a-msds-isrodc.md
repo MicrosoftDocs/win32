@@ -4,17 +4,22 @@ description: Shows whether a DC is an RODC.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '90d83042-e7de-45f5-b22d-398379963338'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 90d83042-e7de-45f5-b22d-398379963338
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-isRODC attribute AD Schema", "msDS-isRODC attribute AD Schema"]
+keywords:
+- ms-DS-isRODC attribute AD Schema
+- msDS-isRODC attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-isRODC
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-isRODC attribute
@@ -38,9 +43,9 @@ Shows whether a DC is an RODC.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Shows whether a DC is an RODC.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

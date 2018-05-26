@@ -1,8 +1,29 @@
 ---
 title: ListItem Control Type
 description: This topic provides information about Microsoft UI Automation support for the ListItem control type.
-ms.assetid: '8cb579ab-92c9-4311-aad7-5363f4cf2eaf'
-keywords: ["UI Automation,support for ListItem control type", "UI Automation,ListItem control type", "UI Automation,tree structure for ListItem control type", "UI Automation,properties for ListItem control type", "UI Automation,control patterns for ListItem control type", "UI Automation,events for ListItem control type", "tree structures,ListItem control type", "properties,ListItem control type", "control patterns,ListItem control type", "events,ListItem control type", "support for ListItem control type", "ListItem control type", "control types,tree structure for ListItem control type", "control types,control patterns for ListItem control type", "control types,support for ListItem", "control types,ListItem"]
+ms.assetid: 8cb579ab-92c9-4311-aad7-5363f4cf2eaf
+keywords:
+- UI Automation,support for ListItem control type
+- UI Automation,ListItem control type
+- UI Automation,tree structure for ListItem control type
+- UI Automation,properties for ListItem control type
+- UI Automation,control patterns for ListItem control type
+- UI Automation,events for ListItem control type
+- tree structures,ListItem control type
+- properties,ListItem control type
+- control patterns,ListItem control type
+- events,ListItem control type
+- support for ListItem control type
+- ListItem control type
+- control types,tree structure for ListItem control type
+- control types,control patterns for ListItem control type
+- control types,support for ListItem
+- control types,ListItem
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ListItem Control Type
@@ -97,13 +118,13 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                                   | Support | Notes                                                                                                                                                                                                                                                                                                                                                                               |
 |-------------------------------------------------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IExpandCollapseProvider**](uiauto-iexpandcollapseprovider.md) | Depends | If the item can be manipulated to show or hide information, the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern must be implemented.                                                                                                                                                                                                                        |
-| [**IGridItemProvider**](uiauto-igriditemprovider.md)             | Depends | If item-to-item spatial navigation is supported within the list container, and the container is arranged in rows and columns, the [GridItem](uiauto-implementinggriditem.md) control pattern must be implemented.                                                                                                                                                                  |
-| [**IInvokeProvider**](uiauto-iinvokeprovider.md)                 | Depends | If the item has a command that can be performed on it, separate from selection, the [Invoke](uiauto-implementinginvoke.md) control pattern must be implemented. This is typically an action associated with double-clicking the list item control. Examples would be launching a document from Windows Explorer, or playing a music file in Microsoft Windows Media Player.        |
-| [**IScrollItemProvider**](uiauto-iscrollitemprovider.md)         | Depends | If the list item is contained within a container that is scrollable, the [ScrollItem](uiauto-implementingscrollitem.md) control pattern must be implemented.                                                                                                                                                                                                                       |
-| [**ISelectionItemProvider**](uiauto-iselectionitemprovider.md)   | Depends | A list item control that supports selection must implement the [SelectionItem](uiauto-implementingselectionitem.md) control pattern. This allows list items controls to convey when they are selected.                                                                                                                                                                             |
-| [**IToggleProvider**](uiauto-itoggleprovider.md)                 | Depends | If the list item is checkable and the action does not perform a selection state change, the [Toggle](uiauto-implementingtoggle.md) control pattern must be implemented.                                                                                                                                                                                                            |
-| [**IValueProvider**](uiauto-ivalueprovider.md)                   | Depends | If the item can be edited, the [Value](uiauto-implementingvalue.md) control pattern must be implemented. Changes to the list item control will cause changes to the values of the [**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid) and [**UIA\_ValueValuePropertyId**](uiauto-control-pattern-propids.md#uia-valuevaluepropertyid) properties. |
+| [**IExpandCollapseProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider?branch=master) | Depends | If the item can be manipulated to show or hide information, the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern must be implemented.                                                                                                                                                                                                                        |
+| [**IGridItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-igriditemprovider?branch=master)             | Depends | If item-to-item spatial navigation is supported within the list container, and the container is arranged in rows and columns, the [GridItem](uiauto-implementinggriditem.md) control pattern must be implemented.                                                                                                                                                                  |
+| [**IInvokeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iinvokeprovider?branch=master)                 | Depends | If the item has a command that can be performed on it, separate from selection, the [Invoke](uiauto-implementinginvoke.md) control pattern must be implemented. This is typically an action associated with double-clicking the list item control. Examples would be launching a document from Windows Explorer, or playing a music file in Microsoft Windows Media Player.        |
+| [**IScrollItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iscrollitemprovider?branch=master)         | Depends | If the list item is contained within a container that is scrollable, the [ScrollItem](uiauto-implementingscrollitem.md) control pattern must be implemented.                                                                                                                                                                                                                       |
+| [**ISelectionItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider?branch=master)   | Depends | A list item control that supports selection must implement the [SelectionItem](uiauto-implementingselectionitem.md) control pattern. This allows list items controls to convey when they are selected.                                                                                                                                                                             |
+| [**IToggleProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itoggleprovider?branch=master)                 | Depends | If the list item is checkable and the action does not perform a selection state change, the [Toggle](uiauto-implementingtoggle.md) control pattern must be implemented.                                                                                                                                                                                                            |
+| [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master)                   | Depends | If the item can be edited, the [Value](uiauto-implementingvalue.md) control pattern must be implemented. Changes to the list item control will cause changes to the values of the [**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid) and [**UIA\_ValueValuePropertyId**](uiauto-control-pattern-propids.md#uia-valuevaluepropertyid) properties. |
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Assigning and Getting Object Properties
 description: The main objects in the WPD Automation object model are the Device object, the Service object and the Storage object.
-ms.assetid: 'c8b56bc1-c25d-4cf0-92c7-bad2fb7df52c'
+ms.assetid: c8b56bc1-c25d-4cf0-92c7-bad2fb7df52c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assigning and Getting Object Properties

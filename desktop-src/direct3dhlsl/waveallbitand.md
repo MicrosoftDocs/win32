@@ -1,14 +1,20 @@
 ---
 title: WaveActiveBitAnd function
 description: Returns the bitwise AND of all the values of the expression across all active lanes in the current wave and replicates it back to all active lanes.
-ms.assetid: '602884CD-E656-4DEB-A30A-8A7D127A2217'
-keywords: ["WaveAllBitAnd function HLSL"]
+ms.assetid: 602884CD-E656-4DEB-A30A-8A7D127A2217
+keywords:
+- WaveAllBitAnd function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveAllBitAnd
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveActiveBitAnd function

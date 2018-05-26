@@ -1,21 +1,26 @@
 ---
-Description: 'An application can change the current directory by calling the SetCurrentDirectory function.'
-ms.assetid: 'b08e7739-55d4-4690-9ce5-2a8cb29214e9'
+Description: An application can change the current directory by calling the SetCurrentDirectory function.
+ms.assetid: b08e7739-55d4-4690-9ce5-2a8cb29214e9
 title: Changing the Current Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing the Current Directory
 
-The directory at the end of the active path is called the current directory; it is the directory in which the active application started, unless it has been explicitly changed. An application can determine which directory is current by calling the [**GetCurrentDirectory**](getcurrentdirectory.md) function. It is sometimes necessary to use the [**GetFullPathName**](getfullpathname.md) function to ensure the drive letter is included if the application requires it.
+The directory at the end of the active path is called the current directory; it is the directory in which the active application started, unless it has been explicitly changed. An application can determine which directory is current by calling the [**GetCurrentDirectory**](/windows/win32/WinBase/nf-winbase-getcurrentdirectory?branch=master) function. It is sometimes necessary to use the [**GetFullPathName**](/windows/win32/FileAPI/nf-fileapi-getfullpathnamea?branch=master) function to ensure the drive letter is included if the application requires it.
 
 > [!Note]  
-> Although each process can have only one current directory, if the application switches volumes by using the [**SetCurrentDirectory**](setcurrentdirectory.md) function, the system remembers the last current path for each volume (drive letter). This behavior will manifest itself only when specifying a drive letter without a fully qualified path when changing the current directory point of reference to a different volume. This applies to either Get or Set operations.
+> Although each process can have only one current directory, if the application switches volumes by using the [**SetCurrentDirectory**](/windows/win32/WinBase/nf-winbase-setcurrentdirectory?branch=master) function, the system remembers the last current path for each volume (drive letter). This behavior will manifest itself only when specifying a drive letter without a fully qualified path when changing the current directory point of reference to a different volume. This applies to either Get or Set operations.
 
  
 
-An application can change the current directory by calling the [**SetCurrentDirectory**](setcurrentdirectory.md) function.
+An application can change the current directory by calling the [**SetCurrentDirectory**](/windows/win32/WinBase/nf-winbase-setcurrentdirectory?branch=master) function.
 
-The following example demonstrates the use of [**GetCurrentDirectory**](getcurrentdirectory.md) and [**SetCurrentDirectory**](setcurrentdirectory.md).
+The following example demonstrates the use of [**GetCurrentDirectory**](/windows/win32/WinBase/nf-winbase-getcurrentdirectory?branch=master) and [**SetCurrentDirectory**](/windows/win32/WinBase/nf-winbase-setcurrentdirectory?branch=master).
 
 
 ```C++

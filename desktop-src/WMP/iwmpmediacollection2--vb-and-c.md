@@ -1,8 +1,10 @@
 ---
 title: IWMPMediaCollection2 (VB and C\ ) interface
 description: Provides methods that supplement the IWMPMediaCollection interface.
-ms.assetid: '204f336c-ea78-43d4-9686-bcab72362bc9'
-keywords: ["IWMPMediaCollection2 (VB and C ) interface Windows Media Player", "IWMPMediaCollection2 (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 204f336c-ea78-43d4-9686-bcab72362bc9
+keywords:
+- IWMPMediaCollection2 (VB and C ) interface Windows Media Player
+- IWMPMediaCollection2 (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMediaCollection2 (VB and C#) interface
@@ -38,7 +45,7 @@ The **IWMPMediaCollection2 (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 Get an **IWMPMediaCollection2** interface by casting the value returned by the [**AxWindowsMediaPlayer.mediaCollection**](axwmplib-axwindowsmediaplayer-mediacollection--vb-and-c.md) property or the value returned by the [**IWMPLibrary.mediaCollection**](wmplibiwmplibrary-iwmplibrary-mediacollection--vb-and-c.md) property.
 
@@ -62,9 +69,9 @@ Get an **IWMPMediaCollection2** interface by casting the value returned by the [
 [**IWMPMediaCollection Interface (VB and C#)**](iwmpmediacollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

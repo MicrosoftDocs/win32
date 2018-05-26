@@ -1,7 +1,12 @@
 ---
 title: Creating a Training Card
 description: Creating a Training Card
-ms.assetid: 'A4E5132D-1B69-4fe5-873B-4320A233BA26'
+ms.assetid: A4E5132D-1B69-4fe5-873B-4320A233BA26
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Training Card
@@ -17,7 +22,7 @@ Training cards are specialized help topics, to send instructions to, and receive
 
     
 
-     
+     
 
 3.  In the **Specify the command** box, click **Training Card**, and then if you have already used the HTML Help ActiveX control in this file, enter an ID name for this instance of the control.
 4.  Work with a developer and the HTML Help API to add the appropriate WM\_TCARD calls for your training card.
@@ -33,9 +38,9 @@ For detailed information about the [TCard](tcard.md) command, see the HTML Help 
 [About Creating Training Card Help](create-training-card-help.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

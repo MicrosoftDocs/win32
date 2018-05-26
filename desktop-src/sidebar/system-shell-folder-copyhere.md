@@ -1,8 +1,11 @@
 ---
 title: System.Shell.Folder.copyHere method
 description: Copies a System.Shell.Item to a folder.
-ms.assetid: '630aff20-d892-48ac-a4ea-93d4cf6b590d'
-keywords: ["copyHere method Windows Sidebar", "copyHere method Windows Sidebar , System.Shell.Folder object", "System.Shell.Folder object Windows Sidebar , copyHere method"]
+ms.assetid: 630aff20-d892-48ac-a4ea-93d4cf6b590d
+keywords:
+- copyHere method Windows Sidebar
+- copyHere method Windows Sidebar , System.Shell.Folder object
+- System.Shell.Folder object Windows Sidebar , copyHere method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.Folder.copyHere method
@@ -50,7 +58,7 @@ The [**System.Shell.Item**](system-shell-item.md) to copy.
 > [!Note]  
 > These values are based on flags defined for use with the fFlags member of the C++ SHFILEOPSTRUCT structure. These flags are not defined for Microsoft Visual Basic, Visual Basic Scripting Edition (VBScript), or Microsoft JScript, so you must define the values or use their numeric equivalents.
 
- 
+ 
 
 <dt>
 
@@ -262,18 +270,18 @@ function GetItemFromDrop()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the configured state of the guest service interface component.'
-ms.assetid: '82B58459-9819-4F51-BEE5-AB57E444CF55'
-title: 'Msvm\_GuestServiceInterfaceComponentSettingData class'
+Description: Represents the configured state of the guest service interface component.
+ms.assetid: 82B58459-9819-4F51-BEE5-AB57E444CF55
+title: Msvm\_GuestServiceInterfaceComponentSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_GuestServiceInterfaceComponentSettingData class
@@ -16,27 +21,27 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_GuestServiceInterfaceComponentSettingData : CIM_ResourceAllocationSettingData
 {
-  string  ElementName;
-  string  InstanceID;
-  uint16  ResourceType;
-  string  OtherResourceType;
-  string  ResourceSubType;
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits;
-  uint64  VirtualQuantity;
-  uint64  Reservation;
-  uint64  Limit;
-  uint32  Weight;
+  string  ElementName;
+  string  InstanceID;
+  uint16  ResourceType;
+  string  OtherResourceType;
+  string  ResourceSubType;
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits;
+  uint64  VirtualQuantity;
+  uint64  Reservation;
+  uint64  Limit;
+  uint32  Weight;
   boolean AutomaticAllocation;
   boolean AutomaticDeallocation;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  uint16  EnabledState = 3;
-  uint16  DefaultEnabledStatePolicy = 2;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  uint16  EnabledState = 3;
+  uint16  DefaultEnabledStatePolicy = 2;
 };
 ```
 
@@ -141,7 +146,7 @@ Describes the consumers visibility to the allocated resource.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -159,9 +164,9 @@ The enabled and disabled states of guest communication services by default.
 This is a read-only property, but it can be changed using the [**ModifyResourceSettings**](cim-virtualsystemmanagementservice-modifyresourcesettings.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 <dt>
 
@@ -205,7 +210,7 @@ Access type: Read-only
 
 The enabled and disabled states of an element.
 
-This is a read-only property, but it can be changed by using the [**ModifyVirtualSystemResources**](https://msdn.microsoft.com/library/cc136807) method (or [**ModifyResourceSettings**](cim-virtualsystemmanagementservice-modifyresourcesettings.md) in Windows 10 or later) of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
+This is a read-only property, but it can be changed by using the [**ModifyVirtualSystemResources**](https://msdn.microsoft.com/library/cc136807) method (or [**ModifyResourceSettings**](cim-virtualsystemmanagementservice-modifyresourcesettings.md) in Windows 10 or later) of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
 Valid values are:
 
@@ -510,8 +515,8 @@ This property specifies a relative priority for this allocation in relation to o
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -528,9 +533,9 @@ This property specifies a relative priority for this allocation in relation to o
 [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

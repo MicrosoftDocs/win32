@@ -1,7 +1,12 @@
-﻿---
-Description: 'A print processor''s OpenPrintProcessor function prepares the print processor for printing a job and returns a handle.'
-ms.assetid: 'bab79fb6-1bb0-48ec-9d60-fcb6e679b758'
+---
+Description: A print processors OpenPrintProcessor function prepares the print processor for printing a job and returns a handle.
+ms.assetid: bab79fb6-1bb0-48ec-9d60-fcb6e679b758
 title: OpenPrintProcessor function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenPrintProcessor function

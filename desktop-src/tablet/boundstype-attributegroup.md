@@ -1,7 +1,12 @@
 ---
-Description: 'Defines an attribute group that is used by a variety of elements in a Journal XML file. It contains attributes used to define the bounds (left, top, height, and width) of an element in the document.'
-ms.assetid: '7841aa65-fb35-4909-a34e-3c883555f764'
+Description: Defines an attribute group that is used by a variety of elements in a Journal XML file. It contains attributes used to define the bounds (left, top, height, and width) of an element in the document.
+ms.assetid: 7841aa65-fb35-4909-a34e-3c883555f764
 title: BoundsType Attribute Group
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundsType Attribute Group
@@ -36,7 +41,7 @@ None.
 
 
 
- 
+ 
 
 ## Type Information
 
@@ -49,15 +54,15 @@ None.
 
 
 
- 
+ 
 
 ## Remarks
 
 **Left** and **Top** can be negative because the origin is defined by the margins, not the page.
 
- 
+ 
 
- 
+ 
 
 
 

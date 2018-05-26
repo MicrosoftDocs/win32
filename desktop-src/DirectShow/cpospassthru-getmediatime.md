@@ -1,7 +1,12 @@
 ---
-Description: 'The GetMediaTime method retrieves the time stamps on the current sample.'
-ms.assetid: '36f3b6d3-b884-4168-94f3-f334a5056c7d'
-title: 'CPosPassThru.GetMediaTime method'
+Description: The GetMediaTime method retrieves the time stamps on the current sample.
+ms.assetid: 36f3b6d3-b884-4168-94f3-f334a5056c7d
+title: CPosPassThru.GetMediaTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.GetMediaTime method
@@ -13,8 +18,8 @@ The `GetMediaTime` method retrieves the time stamps on the current sample.
 
 ```C++
 virtual HRESULT GetMediaTime(
-   LONGLONG *pStartTime,
-   LONGLONG *pEndTime
+   LONGLONG *pStartTime,
+   LONGLONG *pEndTime
 );
 ```
 
@@ -64,9 +69,9 @@ Override this method if your filter caches the time stamps on the samples it rec
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

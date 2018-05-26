@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.setSelection
 description: The setSelection method selects the text in the edit box control from the specified start index to the specified end index.
-ms.assetid: '97b20a17-4b9c-4144-b448-8d7611c0e994'
-keywords: ["EDITBOX.setSelection Windows Media Player"]
+ms.assetid: 97b20a17-4b9c-4144-b448-8d7611c0e994
+keywords:
+- EDITBOX.setSelection Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.setSelection
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.setSelection
@@ -43,7 +49,7 @@ This method does not return a value.
 
 ## Remarks
 
-If the start is 0 and the end is –1, all of the text in the edit box control is selected. If the start is –1, any current selection is deselected.
+If the start is 0 and the end is  1, all of the text in the edit box control is selected. If the start is  1, any current selection is deselected.
 
 This method can only be called after the control becomes visible.
 
@@ -73,9 +79,9 @@ This method can only be called after the control becomes visible.
 [**EDITBOX.replaceSelection**](editbox-replaceselection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

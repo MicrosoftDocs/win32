@@ -1,7 +1,12 @@
 ---
-Description: 'Reports the following: the metrics available to be collected for a managed element, the managed elements for which a metric defined by an instance of CIM\_BaseMetricDefinition is available to be collected, and whether or not a particular metric is currently being collected for a managed element.'
-ms.assetid: '5af430d2-9ab3-4bee-ad51-d9045b51172a'
-title: 'ShowMetrics method of the CIM\_MetricService class'
+Description: Reports the following the metrics available to be collected for a managed element, the managed elements for which a metric defined by an instance of CIM\_BaseMetricDefinition is available to be collected, and whether or not a particular metric is currently being collected for a managed element.
+ms.assetid: 5af430d2-9ab3-4bee-ad51-d9045b51172a
+title: ShowMetrics method of the CIM\_MetricService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShowMetrics method of the CIM\_MetricService class
@@ -13,12 +18,12 @@ Reports the following: the metrics available to be collected for a managed eleme
 
 ```mof
 uint32 ShowMetrics(
-  [in]  CIM_ManagedElement       REF Subject,
-  [in]  CIM_BaseMetricDefinition REF Definition,
-  [out] CIM_ManagedElement       REF ManagedElements[],
-  [out] CIM_BaseMetricDefinition REF DefinitionList[],
-  [out] string                       MetricNames[],
-  [out] uint16                       MetricCollectionEnabled[]
+  [in]  CIM_ManagedElement       REF Subject,
+  [in]  CIM_BaseMetricDefinition REF Definition,
+  [out] CIM_ManagedElement       REF ManagedElements[],
+  [out] CIM_BaseMetricDefinition REF DefinitionList[],
+  [out] string                       MetricNames[],
+  [out] uint16                       MetricCollectionEnabled[]
 );
 ```
 
@@ -132,8 +137,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -147,9 +152,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_MetricService**](cim-metricservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

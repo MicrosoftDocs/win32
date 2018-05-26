@@ -1,7 +1,12 @@
-﻿---
-Description: 'The VBScript file WiSumInf.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample script can be used to manage the summary information stream of a Windows Installer package.'
-ms.assetid: 'f7f1cf89-f211-4511-8260-b48c898c1cf6'
+---
+Description: The VBScript file WiSumInf.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample script can be used to manage the summary information stream of a Windows Installer package.
+ms.assetid: f7f1cf89-f211-4511-8260-b48c898c1cf6
 title: Manage Summary Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manage Summary Information

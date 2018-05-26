@@ -1,7 +1,12 @@
 ---
 title: About Trackbar Controls
 description: A trackbar is a window that contains a slider (sometimes called a thumb) in a channel, and optional tick marks. When the user moves the slider, using either the mouse or the direction keys, the trackbar sends notification messages to indicate the change.
-ms.assetid: '9fc7bef8-da1d-493b-9a9a-3770873713f0'
+ms.assetid: 9fc7bef8-da1d-493b-9a9a-3770873713f0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Trackbar Controls

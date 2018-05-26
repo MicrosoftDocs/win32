@@ -2,13 +2,16 @@
 title: Step method of the PS\_DnsServerSigningKeyRollover class
 description: Forces KSK rollover that is waiting for a parent DS update.
 audience: developer
-ms.assetid: 'a6890628-bc02-498d-8363-a72a73e00086'
-ms.prod: 'windows-server-dev'
+ms.assetid: a6890628-bc02-498d-8363-a72a73e00086
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Step method", "Step method, PS_DnsServerSigningKeyRollover class", "PS_DnsServerSigningKeyRollover class, Step method"]
+keywords:
+- Step method
+- Step method, PS_DnsServerSigningKeyRollover class
+- PS_DnsServerSigningKeyRollover class, Step method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Step method of the PS\_DnsServerSigningKeyRollover class
@@ -28,12 +34,12 @@ Forces KSK rollover that is waiting for a parent DS update.
 
 ```mof
 uint32 Step(
-  [in]  string              ZoneName,
-  [in]  string              KeyId,
-  [in]  boolean             Force,
-  [in]  boolean             PassThru,
-  [in]  string              ComputerName,
-  [out] DnsServerSigningKey cmdletOutput
+  [in]  string              ZoneName,
+  [in]  string              KeyId,
+  [in]  boolean             Force,
+  [in]  boolean             PassThru,
+  [in]  string              ComputerName,
+  [out] DnsServerSigningKey cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ An embedded instance of the [**DnsServerSigningKeyRollover**](ps-dnsserversignin
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ An embedded instance of the [**DnsServerSigningKeyRollover**](ps-dnsserversignin
 [**PS\_DnsServerSigningKeyRollover**](ps-dnsserversigningkeyrollover.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

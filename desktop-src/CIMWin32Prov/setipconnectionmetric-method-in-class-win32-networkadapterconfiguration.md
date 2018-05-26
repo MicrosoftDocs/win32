@@ -1,15 +1,18 @@
 ---
-Description: 'The SetIPConnectionMetric method is used to set the routing metric associated with this IP-bound adapter.'
+Description: The SetIPConnectionMetric method is used to set the routing metric associated with this IP-bound adapter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd7f7c0df-51e3-4dc8-8a53-977ecde075df'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d7f7c0df-51e3-4dc8-8a53-977ecde075df
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetIPConnectionMetric method of the Win32\_NetworkAdapterConfiguration class'
+title: SetIPConnectionMetric method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetIPConnectionMetric method of the Win32\_NetworkAdapterConfiguration class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetIPConnectionMetric(
-  [in] uint32 IPConnectionMetric
+  [in] uint32 IPConnectionMetric
 );
 ```
 
@@ -391,7 +394,7 @@ DHCP not enabled on adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -405,8 +408,8 @@ The [Modify the IP Connection Metric for a Network Adapter](https://Gallery.Tech
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows Vista<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008, Windows Server 2008<br/>                                     |
+| Minimum supported client<br/> | Windows Vista, Windows Vista<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2008, Windows Server 2008<br/>                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -432,9 +435,9 @@ The [Modify the IP Connection Metric for a Network Adapter](https://Gallery.Tech
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AllowedReceipts property is a value that specifies the permitted types of delivery receipts.'
-ms.assetid: '27bf34d0-5002-4c2b-8552-82a78aabd015'
-title: 'FaxReceiptOptions.AllowedReceipts property'
+---
+Description: The AllowedReceipts property is a value that specifies the permitted types of delivery receipts.
+ms.assetid: 27bf34d0-5002-4c2b-8552-82a78aabd015
+title: FaxReceiptOptions.AllowedReceipts property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxReceiptOptions.AllowedReceipts property
@@ -21,11 +26,11 @@ Property AllowedReceipts As Integer
 
 ## Property value
 
-A variable of type [**FAX\_RECEIPT\_TYPE\_ENUM**](-mfax-fax-receipt-type-enum.md) that specifies or receives a value or combination of values of permitted types of delivery receipts. See the **FAX\_RECEIPT\_TYPE\_ENUM** enumeration.
+A variable of type [**FAX\_RECEIPT\_TYPE\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_receipt_type_enum?branch=master) that specifies or receives a value or combination of values of permitted types of delivery receipts. See the **FAX\_RECEIPT\_TYPE\_ENUM** enumeration.
 
 ## Remarks
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -47,7 +52,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxReceiptOptions**](-mfax-faxreceiptoptions.md)
 </dt> <dt>
 
-[**IFaxReceiptOptions**](-mfax-faxreceiptoptions-cpp.md)
+[**IFaxReceiptOptions**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxreceiptoptions?branch=master)
 </dt> <dt>
 
 [Setting Receipt Options](-mfax-setting-receipt-options.md)

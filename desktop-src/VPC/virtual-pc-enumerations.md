@@ -1,8 +1,14 @@
 ---
 title: Windows Virtual PC Enumerations
-ms.assetid: 'a9800f9f-d91f-48be-bbb9-f736132c2fd7'
+ms.assetid: a9800f9f-d91f-48be-bbb9-f736132c2fd7
 description: 
-keywords: ["Windows Virtual PC Virtual PC , enumerations"]
+keywords:
+- Windows Virtual PC Virtual PC , enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Virtual PC Enumerations

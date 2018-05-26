@@ -1,7 +1,12 @@
 ---
 title: Components of Indexing Service
 description: Components of Indexing Service
-ms.assetid: '38912b1f-0e16-4b15-8d87-b1c6e26dbb0c'
+ms.assetid: 38912b1f-0e16-4b15-8d87-b1c6e26dbb0c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Components of Indexing Service

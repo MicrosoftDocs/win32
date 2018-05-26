@@ -1,7 +1,12 @@
 ---
-Description: 'The following are the device events:'
-ms.assetid: '7b45cd8f-1eda-4f89-8662-828f40d34b87'
+Description: The following are the device events
+ms.assetid: 7b45cd8f-1eda-4f89-8662-828f40d34b87
 title: Device Management Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Management Events

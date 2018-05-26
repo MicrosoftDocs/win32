@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DeviceId property is a number representing the line identifier for the fax port.'
-ms.assetid: 'bb18ef93-53db-4423-9ef1-34ab3161acba'
-title: 'FaxRoutingMethod.DeviceId property'
+---
+Description: The DeviceId property is a number representing the line identifier for the fax port.
+ms.assetid: bb18ef93-53db-4423-9ef1-34ab3161acba
+title: FaxRoutingMethod.DeviceId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRoutingMethod.DeviceId property
@@ -53,16 +58,16 @@ A fax client application can use the **DeviceId** property to uniquely identify 
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxRoutingMethod**](-mfax-ifaxroutingmethod.md)
+[**IFaxRoutingMethod**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethod?branch=master)
 </dt> <dt>
 
-[**IFaxRoutingMethods**](-mfax-ifaxroutingmethods.md)
+[**IFaxRoutingMethods**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethods?branch=master)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> <dt>
 
 [**DeviceName**](-mfax-ifaxroutingmethod-get-devicename-vb.md)

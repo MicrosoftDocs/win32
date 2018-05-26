@@ -4,17 +4,22 @@ description: Installation ID (IID) used for phone activation of the Active Direc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '885a54f2-140a-4fd8-b745-739ca7070c09'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 885a54f2-140a-4fd8-b745-739ca7070c09
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-SPP-Installation-Id attribute AD Schema", "msSPP-InstallationId attribute AD Schema"]
+keywords:
+- ms-SPP-Installation-Id attribute AD Schema
+- msSPP-InstallationId attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-SPP-Installation-Id
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-SPP-Installation-Id attribute
@@ -38,7 +43,7 @@ Installation ID (IID) used for phone activation of the Active Directory forest
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ Installation ID (IID) used for phone activation of the Active Directory forest
 
 
 
- 
+ 
 
- 
+ 
 
 
 

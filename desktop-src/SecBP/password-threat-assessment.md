@@ -1,7 +1,12 @@
 ---
-Description: 'Before implementing code that protects passwords, it is best to analyze your particular environment for ways that an attacker might try to penetrate software defenses.'
-ms.assetid: '4ebf7185-0179-4754-80da-63b0002c883f'
+Description: Before implementing code that protects passwords, it is best to analyze your particular environment for ways that an attacker might try to penetrate software defenses.
+ms.assetid: 4ebf7185-0179-4754-80da-63b0002c883f
 title: Password Threat Assessment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Password Threat Assessment

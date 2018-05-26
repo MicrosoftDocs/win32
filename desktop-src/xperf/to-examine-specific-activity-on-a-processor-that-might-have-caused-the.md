@@ -1,7 +1,12 @@
 ---
 title: To Examine Specific Activity on a Processor that Might have Caused the CPU to Enter the Higher P-state
 description: To Examine Specific Activity on a Processor that Might have Caused the CPU to Enter the Higher P-state
-ms.assetid: '33eb000f-8d1c-458f-b78a-6d75cc8c9be2'
+ms.assetid: 33eb000f-8d1c-458f-b78a-6d75cc8c9be2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Examine Specific Activity on a Processor that Might have Caused the CPU to Enter the Higher P-state

@@ -1,7 +1,12 @@
 ---
-Description: 'The following are the power management events:'
-ms.assetid: '2315e17f-f0c1-409c-b1c0-b3735c25c4c1'
+Description: The following are the power management events
+ms.assetid: 2315e17f-f0c1-409c-b1c0-b3735c25c4c1
 title: Power Management Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Power Management Events

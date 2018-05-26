@@ -1,8 +1,17 @@
 ---
-title: UI Automation Provider Programmer's Guide
+title: UI Automation Provider Programmers Guide
 description: This section contains information about creating Microsoft UI Automation providers.
-ms.assetid: 'dd9996ec-f70f-4d5b-a029-ad4102b92a14'
-keywords: ["UI Automation,creating providers", "UI Automation,provider creation", "creating providers", "providers,creating"]
+ms.assetid: dd9996ec-f70f-4d5b-a029-ad4102b92a14
+keywords:
+- UI Automation,creating providers
+- UI Automation,provider creation
+- creating providers
+- providers,creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Provider Programmer's Guide

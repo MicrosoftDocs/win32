@@ -1,8 +1,10 @@
 ---
 title: Win32\_PatchFile class
 description: The Win32\_PatchFile association WMI class relates an Installer check with any setting information it requires.
-ms.assetid: '01ea9d36-2631-425a-8ffe-109e48ffc5dd'
-keywords: ["Win32_PatchFile class", "Win32_PatchFile class, described"]
+ms.assetid: 01ea9d36-2631-425a-8ffe-109e48ffc5dd
+keywords:
+- Win32_PatchFile class
+- Win32_PatchFile class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_PatchFile class
@@ -22,7 +29,7 @@ The **Win32\_PatchFile** association [WMI class](https://msdn.microsoft.com/libr
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -33,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_PatchFile : Win32_SettingCheck
 {
   Win32_FileSpecification REF Check;
-  Win32_Patch             REF Setting;
+  Win32_Patch             REF Setting;
 };
 ```
 
@@ -91,8 +98,8 @@ The **Win32\_PatchFile** class is derived from [**Win32\_SettingCheck**](win32-s
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -106,9 +113,9 @@ The **Win32\_PatchFile** class is derived from [**Win32\_SettingCheck**](win32-s
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the identifier for the audio endpoint device.'
-ms.assetid: 'f145fb80-c136-421c-9a65-e69c52109348'
-title: 'MF\_AUDIO\_RENDERER\_ATTRIBUTE\_ENDPOINT\_ID attribute'
+---
+Description: Specifies the identifier for the audio endpoint device.
+ms.assetid: f145fb80-c136-421c-9a65-e69c52109348
+title: MF\_AUDIO\_RENDERER\_ATTRIBUTE\_ENDPOINT\_ID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_AUDIO\_RENDERER\_ATTRIBUTE\_ENDPOINT\_ID attribute
@@ -16,8 +21,8 @@ Wide-character string
 
 You can use this attribute to configure the audio renderer. The usage depends on which function you call to create the audio renderer:
 
--   [**MFCreateAudioRenderer**](mfcreateaudiorenderer.md): Set this attribute using the [**IMFAttributes**](imfattributes.md) interface pointer specified in the *pAudioAttributes* parameter.
--   [**MFCreateAudioRendererActivate**](mfcreateaudiorendereractivate.md): Set this attribute using the [**IMFActivate**](imfactivate.md) interface pointer retrieved in the *ppActivate* parameter. Set the attribute before calling [**IMFActivate::ActivateObject**](imfactivate-activateobject.md).
+-   [**MFCreateAudioRenderer**](/windows/win32/mfidl/nf-mfidl-mfcreateaudiorenderer?branch=master): Set this attribute using the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface pointer specified in the *pAudioAttributes* parameter.
+-   [**MFCreateAudioRendererActivate**](/windows/win32/mfidl/nf-mfidl-mfcreateaudiorendereractivate?branch=master): Set this attribute using the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) interface pointer retrieved in the *ppActivate* parameter. Set the attribute before calling [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master).
 
 An audio endpoint device is a hardware device that lies at one end of an audio data path, such as a headphone or a speaker. To obtain the audio endpoint identifier, use the following core audio APIs:
 
@@ -52,10 +57,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Audio Renderer Attributes](audio-renderer-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetString**](imfattributes-getstring.md)
+[**IMFAttributes::GetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getstring?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetString**](imfattributes-setstring.md)
+[**IMFAttributes::SetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setstring?branch=master)
 </dt> <dt>
 
 [Streaming Audio Renderer](streaming-audio-renderer.md)

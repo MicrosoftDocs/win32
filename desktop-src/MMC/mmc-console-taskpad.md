@@ -4,10 +4,13 @@ description: Introduces a console taskpad.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c3f0e241-38fc-4612-b682-f3ba77916b88'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: c3f0e241-38fc-4612-b682-f3ba77916b88
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC Console Taskpad

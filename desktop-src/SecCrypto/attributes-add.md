@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds an Attribute object to the collection.'
-ms.assetid: 'dc2fe542-7168-4ffa-a10d-b2c051c4d42c'
-title: 'Attributes.Add method'
+---
+Description: Adds an Attribute object to the collection.
+ms.assetid: dc2fe542-7168-4ffa-a10d-b2c051c4d42c
+title: Attributes.Add method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes.Add method

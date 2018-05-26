@@ -1,16 +1,21 @@
 ---
-Description: 'Retrieves information regarding event classes.'
-ms.assetid: '33a87692-cacf-4a1c-974e-8d0e20295333'
+Description: Retrieves information regarding event classes.
+ms.assetid: 33a87692-cacf-4a1c-974e-8d0e20295333
 title: EventClassesForIID collection
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventClassesForIID collection
 
 Retrieves information regarding event classes.
 
-The connection between publisher and subscriber(s) is managed by an [**EventClass**](ieventclass.md) object, which is a COM+ component that contains the interfaces and methods used by a publisher to fire events.
+The connection between publisher and subscriber(s) is managed by an [**EventClass**](/windows/win32/eventsys/nn-eventsys-ieventclass?branch=master) object, which is a COM+ component that contains the interfaces and methods used by a publisher to fire events.
 
-This collection supports the [**Add**](icatalogcollection-add.md) and [**Remove**](icatalogcollection-remove.md) methods of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object.
+This collection supports the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) and [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) methods of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object.
 
 ## Members
 
@@ -30,7 +35,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object within the collection:
 
 -   [Application](#application)
 -   [Bitness](#bitness)
@@ -77,7 +82,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                               |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | The GUID for the event class. This property is returned when the [**Key**](icatalogobject-key.md) property method is called on an object of this collection. |
+| Description    | The GUID for the event class. This property is returned when the [**Key**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_key?branch=master) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                      |
 | Type           | String                                                                                                                                                        |
 | Default        | N/A                                                                                                                                                           |
@@ -125,7 +130,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                                     |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | A friendly name used to identify the event class. This property is returned when the [**Name**](icatalogobject-name.md) property method is called on an object of this collection. |
+| Description    | A friendly name used to identify the event class. This property is returned when the [**Name**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_name?branch=master) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                                            |
 | Type           | String                                                                                                                                                                              |
 | Default        | ""                                                                                                                                                                                  |

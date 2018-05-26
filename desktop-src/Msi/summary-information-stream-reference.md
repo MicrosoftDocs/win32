@@ -1,7 +1,12 @@
 ---
-Description: 'A list of the properties in the Windows Installer summary information stream.'
-ms.assetid: 'a5be60f0-0245-4730-ba30-215a1bc3fa6a'
+Description: A list of the properties in the Windows Installer summary information stream.
+ms.assetid: a5be60f0-0245-4730-ba30-215a1bc3fa6a
 title: Summary Information Stream Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Summary Information Stream Reference

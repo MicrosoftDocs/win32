@@ -1,8 +1,11 @@
 ---
 title: IWMDRMSecurity GetRevocationDataVersion method
 description: The GetRevocationDataVersion method retrieves the version number of a certificate revocation list in the local store.
-ms.assetid: '2fa13b38-02c2-4c81-938b-409cadca00fb'
-keywords: ["GetRevocationDataVersion method windows Media Format", "GetRevocationDataVersion method windows Media Format , IWMDRMSecurity interface", "IWMDRMSecurity interface windows Media Format , GetRevocationDataVersion method"]
+ms.assetid: 2fa13b38-02c2-4c81-938b-409cadca00fb
+keywords:
+- GetRevocationDataVersion method windows Media Format
+- GetRevocationDataVersion method windows Media Format , IWMDRMSecurity interface
+- IWMDRMSecurity interface windows Media Format , GetRevocationDataVersion method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMSecurity::GetRevocationDataVersion method
@@ -23,8 +31,8 @@ The **GetRevocationDataVersion** method retrieves the version number of a certif
 
 ```C++
 HRESULT GetRevocationDataVersion(
-  [in]  REFGUID   f_guidRevocationType,
-  [out] ULONGLONG *f_pdwCRLVersion
+  [in]  REFGUID   f_guidRevocationType,
+  [out] ULONGLONG *f_pdwCRLVersion
 );
 ```
 
@@ -49,7 +57,7 @@ GUID specifying the type of revocation list. Set to one of the constants in the 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -72,7 +80,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -101,9 +109,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**SetRevocationData**](iwmdrmsecurity-setrevocationdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Sets the value to indicate whether the server will act as a Remote 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'abdb92df-1e49-4445-ba02-bb83fd1ca541'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: abdb92df-1e49-4445-ba02-bb83fd1ca541
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetTSRedirectorMode method Remote Desktop Services", "SetTSRedirectorMode method Remote Desktop Services , Win32_TSSessionDirectory class", "Win32_TSSessionDirectory class Remote Desktop Services , SetTSRedirectorMode method"]
+keywords:
+- SetTSRedirectorMode method Remote Desktop Services
+- SetTSRedirectorMode method Remote Desktop Services , Win32_TSSessionDirectory class
+- Win32_TSSessionDirectory class Remote Desktop Services , SetTSRedirectorMode method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetTSRedirectorMode method of the Win32\_TSSessionDirectory class
@@ -28,7 +34,7 @@ Sets the value to indicate whether the server will act as a Remote Desktop Servi
 
 ```mof
 uint32 SetTSRedirectorMode(
-  [in] uint32 TSRedirValue
+  [in] uint32 TSRedirValue
 );
 ```
 
@@ -78,9 +84,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
 | End of client support<br/>    | None supported<br/>                                                               |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -94,9 +100,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSSessionDirectory**](win32-tssessiondirectory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

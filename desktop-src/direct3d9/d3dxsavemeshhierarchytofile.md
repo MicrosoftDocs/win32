@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a .x file and saves the mesh hierarchy and corresponding animations in it.'
-ms.assetid: '803926fe-8cb7-422a-9920-56f7d0b0d0ea'
+---
+Description: Creates a .x file and saves the mesh hierarchy and corresponding animations in it.
+ms.assetid: 803926fe-8cb7-422a-9920-56f7d0b0d0ea
 title: D3DXSaveMeshHierarchyToFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSaveMeshHierarchyToFile function

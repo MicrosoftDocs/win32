@@ -1,15 +1,18 @@
 ---
-Description: 'The SetUrgency method sets the desired urgency level for an alarm.'
+Description: The SetUrgency method sets the desired urgency level for an alarm.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ac2e7fda-1317-440a-adbd-1ef0844d124c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ac2e7fda-1317-440a-adbd-1ef0844d124c
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetUrgency method of the CIM\_AlarmDevice class'
+title: SetUrgency method of the CIM\_AlarmDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetUrgency method of the CIM\_AlarmDevice class
@@ -19,7 +22,7 @@ The **SetUrgency** method sets the desired urgency level for an alarm.
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -28,7 +31,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetUrgency(
-  [in] uint16 RequestedUrgency
+  [in] uint16 RequestedUrgency
 );
 ```
 
@@ -110,8 +113,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -128,9 +131,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_AlarmDevice**](cim-alarmdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

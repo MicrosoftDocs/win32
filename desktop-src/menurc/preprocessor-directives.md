@@ -1,8 +1,14 @@
 ---
 title: Preprocessor Directives
 description: You can use the directives described in the following table as needed in your resource script. They instruct RC to perform actions or to assign values to names.
-ms.assetid: '162f946e-54d8-4e23-9aa7-8e91eda4ee68'
-keywords: ["resource compiler,preprocessor directives"]
+ms.assetid: 162f946e-54d8-4e23-9aa7-8e91eda4ee68
+keywords:
+- resource compiler,preprocessor directives
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preprocessor Directives

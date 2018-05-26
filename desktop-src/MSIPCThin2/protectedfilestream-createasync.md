@@ -4,11 +4,14 @@ description: Creates a ProtectedFileStream from a UserPolicy object and a backin
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.ProtectedFileStream.CreateAsync(Windows.Storage.Streams.IRandomAccessStream,Microsoft.RightsManagement.ProtectionOperationOptions)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.ProtectedFileStream.CreateAsync(Windows.Storage.Streams.IRandomAccessStream,Microsoft.RightsManagement.ProtectionOperationOptions)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CreateAsync method", "CreateAsync method, ProtectedFileStream class", "ProtectedFileStream class, CreateAsync method"]
+keywords:
+- CreateAsync method
+- CreateAsync method, ProtectedFileStream class
+- ProtectedFileStream class, CreateAsync method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.Protection.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileStream.CreateAsync method
@@ -28,12 +34,12 @@ This method is used to create a protected file. The protected file is written to
 > \[!Warning\]  
 > To avoid data loss and/or corruption, [**FlushAsync**](protectedfilestream-flushasync.md) must be called if you modify the created stream or before object disposal.
 
- 
+ 
 
 > \[!Warning\]  
 > This method must be called on a UI thread. Calling it on a worker thread may result in an unexpected behavior.
 
- 
+ 
 
 ## Syntax
 
@@ -93,12 +99,12 @@ The [**Policy**](protectedfilestream-policy.md) property of the new [**Protected
 > \[!Warning\]  
 > To avoid data loss and/or corruption, [**FlushAsync**](protectedfilestream-flushasync.md) must be called if you modify the created stream or before object disposal.
 
- 
+ 
 
 > \[!Warning\]  
 > This method must be called on a UI thread. Calling it on a worker thread may result in an unexpected behavior.
 
- 
+ 
 
 ## Requirements
 
@@ -121,9 +127,9 @@ The [**Policy**](protectedfilestream-policy.md) property of the new [**Protected
 [**ProtectedFileStream**](protectedfilestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following flags specify the level of dynamic reconnection to use during rendering.'
-ms.assetid: '5e9d5f11-6716-4539-96fd-a0b37036555b'
+Description: The following flags specify the level of dynamic reconnection to use during rendering.
+ms.assetid: 5e9d5f11-6716-4539-96fd-a0b37036555b
 title: Dynamic Reconnection Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic Reconnection Flags
@@ -37,9 +42,9 @@ The following flags specify the level of dynamic reconnection to use during rend
 [**IRenderEngine::SetDynamicReconnectLevel**](irenderengine-setdynamicreconnectlevel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

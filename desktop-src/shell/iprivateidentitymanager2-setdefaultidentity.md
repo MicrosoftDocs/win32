@@ -1,6 +1,11 @@
 ---
-Description: 'IPrivateIdentityManager2::SetDefaultIdentity method'
-title: 'IPrivateIdentityManager2::SetDefaultIdentity method'
+Description: IPrivateIdentityManager2SetDefaultIdentity method
+title: IPrivateIdentityManager2SetDefaultIdentity method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrivateIdentityManager2::SetDefaultIdentity method

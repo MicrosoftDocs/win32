@@ -1,12 +1,17 @@
 ---
 Description: Network Source Features
-ms.assetid: 'a4e20ecb-c145-4823-ae59-f6fc88593d86'
+ms.assetid: a4e20ecb-c145-4823-ae59-f6fc88593d86
 title: Network Source Features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Source Features
 
-The network source provides the base implementation for streaming media files and exposes the [**IMFMediaSource**](imfmediasource.md) interface. The specific network source implementation depends on the protocol used to open the source such as RTSP or HTTP. The protocol-specific network sources extend the basic network functionality. For information about the supported schemes and protocols, see [Supported Protocols](supported-protocols.md).
+The network source provides the base implementation for streaming media files and exposes the [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) interface. The specific network source implementation depends on the protocol used to open the source such as RTSP or HTTP. The protocol-specific network sources extend the basic network functionality. For information about the supported schemes and protocols, see [Supported Protocols](supported-protocols.md).
 
 The network source:
 
@@ -16,9 +21,9 @@ The network source:
 
 ## Network Source Creation
 
-Creating a media source for a source from the network is not different from a media source for a local file. The application passes the URL for the source to [Source Resolver](source-resolver.md) methods such as [**IMFSourceResolver::CreateObjectFromURL**](imfsourceresolver-createobjectfromurl.md) or [**IMFSourceResolver::BeginCreateObjectFromURL**](imfsourceresolver-begincreateobjectfromurl.md) and specifies the MF\_RESOLUTION\_MEDIASOURCE flag. For more information about using this flag, see [Using the Source Resolver](using-the-source-resolver.md).
+Creating a media source for a source from the network is not different from a media source for a local file. The application passes the URL for the source to [Source Resolver](source-resolver.md) methods such as [**IMFSourceResolver::CreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-createobjectfromurl?branch=master) or [**IMFSourceResolver::BeginCreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfromurl?branch=master) and specifies the MF\_RESOLUTION\_MEDIASOURCE flag. For more information about using this flag, see [Using the Source Resolver](using-the-source-resolver.md).
 
-Depending on the scheme provided by the application, the source resolver loads the appropriate the scheme handler object, which exposes the [**IMFSchemeHandler**](imfschemehandler.md) interface. The application can also use the scheme handler directly to create the network source by calling [**IMFSchemeHandler::BeginCreateObject**](imfschemehandler-begincreateobject.md).
+Depending on the scheme provided by the application, the source resolver loads the appropriate the scheme handler object, which exposes the [**IMFSchemeHandler**](/windows/win32/mfidl/nn-mfidl-imfschemehandler?branch=master) interface. The application can also use the scheme handler directly to create the network source by calling [**IMFSchemeHandler::BeginCreateObject**](/windows/win32/mfidl/nf-mfidl-imfschemehandler-begincreateobject?branch=master).
 
 For more information, see [Scheme Handlers and Byte-Stream Handlers](scheme-handlers-and-byte-stream-handlers.md).
 
@@ -39,7 +44,7 @@ The following illustration shows the data flow for media streaming using the net
 
 ## Network Source Configuration
 
-This topic describes the features supported by the network source and the associated configuration options. An application can configure the network source when creating the network source object. These options are stored in an **IPropertyStore** object, which the application must pass in the *pProps* parameter of the source resolver methods or [**IMFSchemeHandler::BeginCreateObject**](imfschemehandler-begincreateobject.md).
+This topic describes the features supported by the network source and the associated configuration options. An application can configure the network source when creating the network source object. These options are stored in an **IPropertyStore** object, which the application must pass in the *pProps* parameter of the source resolver methods or [**IMFSchemeHandler::BeginCreateObject**](/windows/win32/mfidl/nf-mfidl-imfschemehandler-begincreateobject?branch=master).
 
 ### Auto-Reconnect
 

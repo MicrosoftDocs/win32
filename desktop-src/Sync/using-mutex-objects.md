@@ -1,16 +1,21 @@
 ---
-Description: 'You can use a mutex object to protect a shared resource from simultaneous access by multiple threads or processes.'
-ms.assetid: '0f69ba50-69ce-467a-b068-8fd8f07c6c78'
+Description: You can use a mutex object to protect a shared resource from simultaneous access by multiple threads or processes.
+ms.assetid: 0f69ba50-69ce-467a-b068-8fd8f07c6c78
 title: Using Mutex Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Mutex Objects
 
 You can use a [mutex object](mutex-objects.md) to protect a shared resource from simultaneous access by multiple threads or processes. Each thread must wait for ownership of the mutex before it can execute the code that accesses the shared resource. For example, if several threads share access to a database, the threads can use a mutex object to permit only one thread at a time to write to the database.
 
-The following example uses the [**CreateMutex**](createmutex.md) function to create a mutex object and the [**CreateThread**](base.createthread) function to create worker threads.
+The following example uses the [**CreateMutex**](/windows/win32/WinBase/nf-synchapi-createmutexa?branch=master) function to create a mutex object and the [**CreateThread**](base.createthread) function to create worker threads.
 
-When a thread of this process writes to the database, it first requests ownership of the mutex using the [**WaitForSingleObject**](waitforsingleobject.md) function. If the thread obtains ownership of the mutex, it writes to the database and then releases its ownership of the mutex using the [**ReleaseMutex**](releasemutex.md) function.
+When a thread of this process writes to the database, it first requests ownership of the mutex using the [**WaitForSingleObject**](/windows/win32/WinBase/nf-synchapi-waitforsingleobject?branch=master) function. If the thread obtains ownership of the mutex, it writes to the database and then releases its ownership of the mutex using the [**ReleaseMutex**](/windows/win32/WinBase/nf-synchapi-releasemutex?branch=master) function.
 
 This example uses structured exception handling to ensure that the thread properly releases the mutex object. The **\_\_finally** block of code is executed no matter how the **\_\_try** block terminates (unless the **\_\_try** block includes a call to the [**TerminateThread**](base.terminatethread) function). This prevents the mutex object from being abandoned inadvertently.
 

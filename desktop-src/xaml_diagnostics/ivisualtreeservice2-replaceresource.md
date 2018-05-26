@@ -1,7 +1,12 @@
 ---
-Description: 'Replaces an existing resource with a new one of the same type.'
-ms.assetid: 'DD2066B0-C91E-4299-AFD3-13E74E75E94B'
-title: 'IVisualTreeService2::ReplaceResource method'
+Description: Replaces an existing resource with a new one of the same type.
+ms.assetid: DD2066B0-C91E-4299-AFD3-13E74E75E94B
+title: IVisualTreeService2ReplaceResource method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVisualTreeService2::ReplaceResource method
@@ -54,13 +59,13 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IVisualTreeService2**](ivisualtreeservice2.md)
+[**IVisualTreeService2**](/windows/previous-versions/xamlom/nn-xamlom-ivisualtreeservice2?branch=master)
 </dt> <dt>
 
-[**IVisualTreeService3::AddDictionaryItem**](ivisualtreeservice3-adddictionaryitem.md)
+[**IVisualTreeService3::AddDictionaryItem**](/windows/previous-versions/xamlom/nf-xamlom-ivisualtreeservice3-adddictionaryitem?branch=master)
 </dt> <dt>
 
-[**IVisualTreeService3::RemoveDictionaryItem**](ivisualtreeservice3-removedictionaryitem.md)
+[**IVisualTreeService3::RemoveDictionaryItem**](/windows/previous-versions/xamlom/nf-xamlom-ivisualtreeservice3-removedictionaryitem?branch=master)
 </dt> </dl>
 
  

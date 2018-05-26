@@ -1,7 +1,12 @@
 ---
-Description: 'The following example signs a message using a sender''s private key and encrypts the signed message using a receiver''s public key.'
-ms.assetid: 'f2863e4a-d22a-4ff0-91d8-052eeaade14e'
-title: 'Example C Program: Sending and Receiving a Signed and Encrypted Message'
+Description: The following example signs a message using a senders private key and encrypts the signed message using a receivers public key.
+ms.assetid: f2863e4a-d22a-4ff0-91d8-052eeaade14e
+title: Example C Program Sending and Receiving a Signed and Encrypted Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Sending and Receiving a Signed and Encrypted Message
@@ -28,14 +33,14 @@ This example illustrates the following tasks:
 
 This example uses the following CryptoAPI functions:
 
--   [**CertOpenStore**](certopenstore.md)
--   [**CertFindCertificateInStore**](certfindcertificateinstore.md)
--   [**CertGetNameString**](certgetnamestring.md)
--   [**CryptAcquireCertificatePrivateKey**](cryptacquirecertificateprivatekey.md)
--   [**CryptSignAndEncryptMessage**](cryptsignandencryptmessage.md)
--   [**CryptDecryptAndVerifyMessageSignature**](cryptdecryptandverifymessagesignature.md)
--   [**CertFreeCertificateContext**](certfreecertificatecontext.md)
--   [**CertCloseStore**](certclosestore.md)
+-   [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master)
+-   [**CertFindCertificateInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindcertificateinstore?branch=master)
+-   [**CertGetNameString**](/windows/win32/Wincrypt/nf-wincrypt-certgetnamestringa?branch=master)
+-   [**CryptAcquireCertificatePrivateKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey?branch=master)
+-   [**CryptSignAndEncryptMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptsignandencryptmessage?branch=master)
+-   [**CryptDecryptAndVerifyMessageSignature**](/windows/win32/Wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature?branch=master)
+-   [**CertFreeCertificateContext**](/windows/win32/Wincrypt/nf-wincrypt-certfreecertificatecontext?branch=master)
+-   [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master)
 
 This example uses separate functions to show the signing/encryption process and the decryption/signature-verification process. It also uses [**MyHandleError**](myhandleerror.md) to exit the program gracefully in case of any failure. The code **MyHandleError** is included with the example and can also be found along with other auxiliary functions under [General Purpose Functions](general-purpose-functions.md).
 

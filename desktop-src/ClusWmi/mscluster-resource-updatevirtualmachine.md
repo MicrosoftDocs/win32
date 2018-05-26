@@ -4,13 +4,16 @@ description: Updates the configuration of a clustered virtual machine.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4178364F-F02E-4513-AEDE-64D98B5C758A'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4178364F-F02E-4513-AEDE-64D98B5C758A
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["UpdateVirtualMachine method", "UpdateVirtualMachine method, MSCluster_Resource class", "MSCluster_Resource class, UpdateVirtualMachine method"]
+keywords:
+- UpdateVirtualMachine method
+- UpdateVirtualMachine method, MSCluster_Resource class
+- MSCluster_Resource class, UpdateVirtualMachine method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UpdateVirtualMachine method of the MSCluster\_Resource class
@@ -49,7 +55,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -63,9 +69,9 @@ This method does not return a value.
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

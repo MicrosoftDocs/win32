@@ -1,7 +1,12 @@
 ---
-Description: 'This section lists the type definition for the calling party subaddress.'
-ms.assetid: '6389671a-1f88-4690-a004-b99521c13d6b'
+Description: This section lists the type definition for the calling party subaddress.
+ms.assetid: 6389671a-1f88-4690-a004-b99521c13d6b
 title: Calling Party Subaddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calling Party Subaddress

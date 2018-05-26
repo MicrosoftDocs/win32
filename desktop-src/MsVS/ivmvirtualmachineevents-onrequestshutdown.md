@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachineEvents OnRequestShutdown method
 description: Called when a shutdown has been requested.
-ms.assetid: 'cdcfc30f-1a58-433a-9981-9a4bff483b32'
-keywords: ["OnRequestShutdown method Virtual Server", "OnRequestShutdown method Virtual Server , IVMVirtualMachineEvents interface", "IVMVirtualMachineEvents interface Virtual Server , OnRequestShutdown method"]
+ms.assetid: cdcfc30f-1a58-433a-9981-9a4bff483b32
+keywords:
+- OnRequestShutdown method Virtual Server
+- OnRequestShutdown method Virtual Server , IVMVirtualMachineEvents interface
+- IVMVirtualMachineEvents interface Virtual Server , OnRequestShutdown method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachineEvents::OnRequestShutdown method
@@ -46,8 +54,8 @@ This event notification is sent only when the virtual machines session is about 
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -59,9 +67,9 @@ This event notification is sent only when the virtual machines session is about 
 [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

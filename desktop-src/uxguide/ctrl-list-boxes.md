@@ -1,7 +1,12 @@
 ---
 title: List Boxes
 description: With a list box, users can select from a set of values presented in a list that is always visible.
-ms.assetid: '620e9ff9-b367-446b-9e97-9c9d6d14f4bb'
+ms.assetid: 620e9ff9-b367-446b-9e97-9c9d6d14f4bb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List Boxes
@@ -15,7 +20,7 @@ A typical single-selection list box.
 > [!Note]  
 > Guidelines related to [layout](vis-layout.md) and [list views](ctrl-list-views.md) are presented in separate articles.
 
- 
+ 
 
 ## Is this the right control?
 
@@ -48,7 +53,7 @@ In this example, users are constantly changing the selected item in the Display 
 **Standard multiple-selection lists and check box lists**
 
 -   **Is multiple selection essential to the task or commonly used?** If so, use a check box list to make multiple selection obvious, especially if your target users aren't advanced. Many users won't realize that a standard multiple-selection list supports multiple selection. Use a standard multiple-selection list if the check boxes would draw too much attention to multiple selection or result in too much screen clutter.
--   **Is the stability of the multiple selection important?** If so, use a check box list, list builder, or add/remove list because clicking changes only a single item at a time. With a standard multiple selection list, it's very easy to clear all the selections—even by accident.
+-   **Is the stability of the multiple selection important?** If so, use a check box list, list builder, or add/remove list because clicking changes only a single item at a time. With a standard multiple selection list, it's very easy to clear all the selections even by accident.
 -   **Is the control used to choose zero or more items from a list of values?** If not, use another control. For choosing one item, use a single-selection list instead.
 
 **Preview lists**
@@ -107,7 +112,7 @@ List boxes have several usage patterns:
 </tr>
 <tr class="even">
 <td><strong>Add/remove lists</strong> Allow users to create a list of choices by adding one or more items at a time, and optionally setting the list order (like list builders).<br/></td>
-<td>Unlike a list builder, clicking <strong>Add</strong> displays a dialog box to select items to add to the list. Using a separate dialog box allows for significant flexibility in choosing items—you can use a specialized object picker or even a common dialog. Compared to the list builder, this variation is more compact but requires slightly more effort to add items. <br/> <img src="images/ctrl-list-boxes-image9.png" alt="Screen shot of Menu contents list " /><br/> In this example, users can add or remove tools from a menu, as well as set order.<br/> While the list builder and add/remove list patterns are significantly heavier than the other multiple-selection lists, they offer two unique advantages:<br/>
+<td>Unlike a list builder, clicking <strong>Add</strong> displays a dialog box to select items to add to the list. Using a separate dialog box allows for significant flexibility in choosing items you can use a specialized object picker or even a common dialog. Compared to the list builder, this variation is more compact but requires slightly more effort to add items. <br/> <img src="images/ctrl-list-boxes-image9.png" alt="Screen shot of Menu contents list " /><br/> In this example, users can add or remove tools from a menu, as well as set order.<br/> While the list builder and add/remove list patterns are significantly heavier than the other multiple-selection lists, they offer two unique advantages:<br/>
 <ul>
 <li>Users have control over the list order, both while building the list and after.</li>
 <li>Users can review a summary of the selected items, which can be a significant benefit if the number of choices is large.</li>
@@ -119,7 +124,7 @@ Their disadvantages are that they require much more screen space and can be diff
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -144,9 +149,9 @@ In this example, the list items are easier to find because they are sorted in al
 
 ![screen shot of drop-down list with none selected ](images/ctrl-list-boxes-image13.png)
 
-In this example, "(none)" is a meta-option because it is not a valid value for the choice—rather it indicates that the option itself isn't being used.
+In this example, "(none)" is a meta-option because it is not a valid value for the choice rather it indicates that the option itself isn't being used.
 
--   **Don't have blank list items—use meta-options instead.** Users don't know how to interpret blank items, whereas the meaning of meta-options is explicit.
+-   **Don't have blank list items use meta-options instead.** Users don't know how to interpret blank items, whereas the meaning of meta-options is explicit.
 
 **Incorrect:** ![screen shot of drop-down list with blank selected ](images/ctrl-list-boxes-image14.png)
 
@@ -297,9 +302,9 @@ When referring to list boxes:
 
 Example: In the **Go to what** list, select **Bookmark**.
 
- 
+ 
 
- 
+ 
 
 
 

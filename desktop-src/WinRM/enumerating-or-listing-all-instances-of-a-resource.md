@@ -4,10 +4,13 @@ description: The Session.Enumerate method is the Windows Remote Management appro
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c50c37bf-e19a-473b-8d27-ab3bb4ec86a0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: c50c37bf-e19a-473b-8d27-ab3bb4ec86a0
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerating or Listing All Instances of a Resource

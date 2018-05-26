@@ -1,7 +1,12 @@
 ---
 title: Reference for HLSL
 description: The HLSL reference documentation specifies the language characteristics. It is broken into several sections.
-ms.assetid: '1d0e12ff-8559-4e5c-9914-6ed313ea5464'
+ms.assetid: 1d0e12ff-8559-4e5c-9914-6ed313ea5464
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reference for HLSL

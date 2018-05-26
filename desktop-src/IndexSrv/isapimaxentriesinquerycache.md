@@ -1,7 +1,12 @@
 ---
 title: IsapiMaxEntriesInQueryCache
 description: IsapiMaxEntriesInQueryCache
-ms.assetid: 'aa01f1b6-697b-4134-aa8b-32cd686e9208'
+ms.assetid: aa01f1b6-697b-4134-aa8b-32cd686e9208
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsapiMaxEntriesInQueryCache

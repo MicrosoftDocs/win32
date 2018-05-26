@@ -1,8 +1,20 @@
 ---
 title: Functions
 description: In the following topics, WCS functions are organized by category. This allows you to browse functions that have related uses in a single topic. The function reference pages are arranged in alphabetical order.
-ms.assetid: 'aba45dbd-6fc2-4788-87f0-043579fa53f9'
-keywords: ["Windows Color System (WCS),functions", "WCS (Windows Color System),functions", "image color management,functions", "color management,functions", "colors,functions", "WCS reference,functions", "reference for WCS,functions"]
+ms.assetid: aba45dbd-6fc2-4788-87f0-043579fa53f9
+keywords:
+- Windows Color System (WCS),functions
+- WCS (Windows Color System),functions
+- image color management,functions
+- color management,functions
+- colors,functions
+- WCS reference,functions
+- reference for WCS,functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Functions

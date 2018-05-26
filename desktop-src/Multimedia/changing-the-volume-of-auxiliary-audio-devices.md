@@ -1,8 +1,20 @@
 ---
 title: Changing the Volume of Auxiliary Audio-Devices
 description: Changing the Volume of Auxiliary Audio-Devices
-ms.assetid: 'd7357900-132c-4758-8bc2-a890aead01c3'
-keywords: ["waveform audio,changing auxiliary audio device volume", "changing auxiliary audio device volume", "auxiliary audio,changing device volume", "auxiliary audio interface", "auxiliary audio devices,changing volume", "auxiliary audio,interface", "auxiliary audio,devices"]
+ms.assetid: d7357900-132c-4758-8bc2-a890aead01c3
+keywords:
+- waveform audio,changing auxiliary audio device volume
+- changing auxiliary audio device volume
+- auxiliary audio,changing device volume
+- auxiliary audio interface
+- auxiliary audio devices,changing volume
+- auxiliary audio,interface
+- auxiliary audio,devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing the Volume of Auxiliary Audio-Devices

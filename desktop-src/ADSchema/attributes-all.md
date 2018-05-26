@@ -4,10 +4,13 @@ description: The following attributes are defined by Active Directory.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3df1ed0a-8c92-41cf-9478-95e59b50c471'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 3df1ed0a-8c92-41cf-9478-95e59b50c471
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # All Attributes

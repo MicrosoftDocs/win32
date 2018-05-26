@@ -4,13 +4,15 @@ description: The principal to whom key rights can be assigned.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5e7f8377-b83f-465a-a179-53403666a539'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5e7f8377-b83f-465a-a179-53403666a539
+ms.prod: windows-server-dev
 ms.technology:
-- 'host-guardian-service'
-- 'windows-management-instrumentation'
+- host-guardian-service
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_HgsGuardian class", "MSFT_HgsGuardian class, described"]
+keywords:
+- MSFT_HgsGuardian class
+- MSFT_HgsGuardian class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - HgsClientWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_HgsGuardian class
@@ -39,11 +44,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("HgsClientWmi"), ClassVersion("1.0"), AMENDMENT]
 class MSFT_HgsGuardian
 {
-  string  Name;
-  uint8   SigningCertificate[];
-  uint8   EncryptionCertificate[];
-  string  EncryptionCertificateSignature;
-  string  EncryptionCertificateSignatureAlgorithm;
+  string  Name;
+  uint8   SigningCertificate[];
+  uint8   EncryptionCertificate[];
+  string  EncryptionCertificateSignature;
+  string  EncryptionCertificateSignatureAlgorithm;
   boolean HasPrivateSigningKey;
 };
 ```
@@ -72,7 +77,7 @@ The **MSFT\_HgsGuardian** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -167,8 +172,8 @@ Gets a list of the signing certificates.
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Hgs<br/>                                                    |
 | MOF<br/>                      | <dl> <dt>HgsClientWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>HgsClientWmi.dll</dt> </dl> |
@@ -194,9 +199,9 @@ Gets a list of the signing certificates.
 [**MSFT\_HgsKeyProtector::Revoke**](revoke-msft-hgskeyprotector.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

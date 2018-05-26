@@ -4,11 +4,15 @@ description: A Resource Monitor provides a communication, monitoring, and proces
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'caebb47f-c2c5-463e-a957-d9eefc7fc33d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: caebb47f-c2c5-463e-a957-d9eefc7fc33d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource monitors Failover Cluster"]
+keywords:
+- resource monitors Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resource Monitor

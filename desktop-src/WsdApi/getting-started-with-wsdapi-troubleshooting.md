@@ -1,7 +1,12 @@
 ---
-Description: 'There are two ways to determine the diagnostic procedure to use.'
-ms.assetid: 'd6877063-6cf9-48dc-8208-0f3fc85b6d6b'
+Description: There are two ways to determine the diagnostic procedure to use.
+ms.assetid: d6877063-6cf9-48dc-8208-0f3fc85b6d6b
 title: Getting Started with WSDAPI Troubleshooting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with WSDAPI Troubleshooting
@@ -40,7 +45,7 @@ The following tables show some problems that can prevent WSDAPI clients and host
 
 
 
- 
+ 
 
 ### Discovery traffic problems
 
@@ -120,7 +125,7 @@ For applications using directed discovery, the [ProbeMatches](probematches-messa
 
 
 
- 
+ 
 
 ### Metadata exchange problems
 
@@ -210,7 +215,7 @@ For applications using directed discovery, the [ProbeMatches](probematches-messa
 
 
 
- 
+ 
 
 ### SSL/TLS negotiation problems
 
@@ -226,7 +231,7 @@ For applications using directed discovery, the [ProbeMatches](probematches-messa
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -235,9 +240,9 @@ For applications using directed discovery, the [ProbeMatches](probematches-messa
 [WSDAPI Troubleshooting Guide](wsdapi-troubleshooting-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

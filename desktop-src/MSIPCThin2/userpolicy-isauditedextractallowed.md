@@ -4,11 +4,14 @@ description: Gets property for allowance of audited extraction.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.UserPolicy.IsAuditedExtractAllowed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.UserPolicy.IsAuditedExtractAllowed
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IsAuditedExtractAllowed property", "IsAuditedExtractAllowed property, UserPolicy class", "UserPolicy class, IsAuditedExtractAllowed property"]
+keywords:
+- IsAuditedExtractAllowed property
+- IsAuditedExtractAllowed property, UserPolicy class
+- UserPolicy class, IsAuditedExtractAllowed property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.IsAuditedExtractAllowed property
@@ -63,9 +69,9 @@ Indicates if audited extract is allowed.
 [**UserPolicy**](userpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to create a bitmap decoder by using a stream.'
-ms.assetid: '982d2110-ff2f-43e0-a931-cb2b8146ad0a'
+Description: This topic describes how to create a bitmap decoder by using a stream.
+ms.assetid: 982d2110-ff2f-43e0-a931-cb2b8146ad0a
 title: How to Create a Decoder Using a Stream
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Decoder Using a Stream
@@ -75,7 +80,7 @@ To create a bitmap decoder by using a stream
 
     
 
-4.  Create an [**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md) to create Windows Imaging Component (WIC) objects.
+4.  Create an [**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master) to create Windows Imaging Component (WIC) objects.
 
     ```C++
     // Create WIC factory
@@ -89,7 +94,7 @@ To create a bitmap decoder by using a stream
 
     
 
-5.  Use the [**CreateStream**](-wic-codec-iwicimagingfactory-createstream.md) method to create an [**IWICStream**](-wic-codec-iwicstream.md) object and initialize it by using the image memory pointer.
+5.  Use the [**CreateStream**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createstream?branch=master) method to create an [**IWICStream**](/windows/win32/Wincodec/nn-wincodec-iwicstream?branch=master) object and initialize it by using the image memory pointer.
 
     ```C++
     // Create a WIC stream to map onto the memory.
@@ -107,7 +112,7 @@ To create a bitmap decoder by using a stream
 
     
 
-6.  Create an [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) from the new stream object using the [**CreateDecoderFromStream**](-wic-codec-iwicimagingfactory-createdecoderfromstream.md) method.
+6.  Create an [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) from the new stream object using the [**CreateDecoderFromStream**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream?branch=master) method.
 
     ```C++
     // Create a decoder for the stream.
@@ -122,7 +127,7 @@ To create a bitmap decoder by using a stream
 
     
 
-7.  Get the first [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) of the image.
+7.  Get the first [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) of the image.
 
     ```C++
     // Retrieve the first bitmap frame.
@@ -136,7 +141,7 @@ To create a bitmap decoder by using a stream
 
     The JPEG file format only supports a single frame. Because the file in this example is a JPEG file, the first frame (`0`) is used. For image formats that have multiple frames, see [How to Retrieve the Frames of an Image](-wic-bitmapsources-howto-retrieveimageframes.md) for accessing each frame of the image.
 
-8.  Process the image frame. For additional information about [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) objects, see the [Bitmap Sources Overview](-wic-bitmapsources.md).
+8.  Process the image frame. For additional information about [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) objects, see the [Bitmap Sources Overview](-wic-bitmapsources.md).
 
 ## See Also
 

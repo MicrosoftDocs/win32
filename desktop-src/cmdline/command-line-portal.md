@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides documentation for command line-based technologies for Windows.'
-ms.assetid: '6db5dd11-0308-404e-917b-4d5360bcdfeb'
+Description: This section provides documentation for command line-based technologies for Windows.
+ms.assetid: 6db5dd11-0308-404e-917b-4d5360bcdfeb
 title: Command Line
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Line
@@ -22,11 +27,11 @@ This section provides documentation for command line-based technologies for Wind
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

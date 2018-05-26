@@ -4,17 +4,22 @@ description: An attribute used to define the type of trust anchor to automatical
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8a658e54-b3cc-4cb6-be5c-933b6fdfea70'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8a658e54-b3cc-4cb6-be5c-933b6fdfea70
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-Maintain-Trust-Anchor attribute AD Schema", "msDNS-MaintainTrustAnchor attribute AD Schema"]
+keywords:
+- ms-DNS-Maintain-Trust-Anchor attribute AD Schema
+- msDNS-MaintainTrustAnchor attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-Maintain-Trust-Anchor
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-Maintain-Trust-Anchor attribute
@@ -38,7 +43,7 @@ An attribute used to define the type of trust anchor to automatically publish in
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute used to define the type of trust anchor to automatically publish in
 
 
 
- 
+ 
 
- 
+ 
 
 
 

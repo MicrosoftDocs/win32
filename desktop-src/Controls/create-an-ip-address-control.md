@@ -1,7 +1,12 @@
 ---
 title: How to Create an IP Address Control
 description: This topic demonstrates how to create an instance of an IP address control.
-ms.assetid: 'E4DBECA6-B3F2-405F-8D95-32FA2334114D'
+ms.assetid: E4DBECA6-B3F2-405F-8D95-32FA2334114D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create an IP Address Control
@@ -23,9 +28,9 @@ This topic demonstrates how to create an instance of an IP address control.
 
 ### 
 
-Before creating an IP address control, load the common controls DLL by calling [**InitCommonControlsEx**](initcommoncontrolsex.md). Then use the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create an instance IP address control. The class name for the control is [**WC\_IPADDRESS**](common-control-window-classes.md#wc-ipaddress). Use the [**WS\_CHILD**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-child) style, because there is no specific style constant associated with the IP address control.
+Before creating an IP address control, load the common controls DLL by calling [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master). Then use the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create an instance IP address control. The class name for the control is [**WC\_IPADDRESS**](common-control-window-classes.md#wc-ipaddress). Use the [**WS\_CHILD**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-child) style, because there is no specific style constant associated with the IP address control.
 
-In the following C++ code example, the application-defined function first calls [**InitCommonControlsEx**](initcommoncontrolsex.md) and sets the **dwICC** member of the [**INITCOMMONCONTROLSEX**](initcommoncontrolsex-4vvx.md) structure to [**ICC\_INTERNET\_CLASSES**](initcommoncontrolsex-4vvx.md#icc-internet-classes), which specifies the IP address class. It then calls [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) to create an instance of the IP address control.
+In the following C++ code example, the application-defined function first calls [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) and sets the **dwICC** member of the [**INITCOMMONCONTROLSEX**](/windows/win32/Commctrl/ns-commctrl-taginitcommoncontrolsex?branch=master) structure to [**ICC\_INTERNET\_CLASSES**](initcommoncontrolsex-4vvx.md#icc-internet-classes), which specifies the IP address class. It then calls [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) to create an instance of the IP address control.
 
 
 ```C++

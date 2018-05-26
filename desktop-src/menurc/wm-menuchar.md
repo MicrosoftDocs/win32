@@ -1,8 +1,9 @@
 ---
 title: WM\_MENUCHAR message
 description: Sent when a menu is active and the user presses a key that does not correspond to any mnemonic or accelerator key. This message is sent to the window that owns the menu.
-ms.assetid: 'de6c91bb-80fd-44b2-8d96-d016477a6547'
-keywords: ["WM_MENUCHAR message Menus and Other Resources"]
+ms.assetid: de6c91bb-80fd-44b2-8d96-d016477a6547
+keywords:
+- WM_MENUCHAR message Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_MENUCHAR message
@@ -44,7 +50,7 @@ The high-order word specifies the active menu type. This parameter can be one of
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -70,7 +76,7 @@ An application that processes this message should return one of the following va
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -84,8 +90,8 @@ An application should process this message when an accelerator is used to select
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -109,9 +115,9 @@ An application should process this message when an accelerator is used to select
 [Keyboard Accelerators](keyboard-accelerators.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

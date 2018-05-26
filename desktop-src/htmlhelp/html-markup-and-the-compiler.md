@@ -1,7 +1,12 @@
 ---
 title: HTML Markup and the Compiler
 description: HTML Markup and the Compiler
-ms.assetid: 'E047A78C-2310-421a-B8B6-3426C02B2A1E'
+ms.assetid: E047A78C-2310-421a-B8B6-3426C02B2A1E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Markup and the Compiler

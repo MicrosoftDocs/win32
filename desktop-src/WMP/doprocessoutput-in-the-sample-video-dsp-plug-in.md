@@ -1,8 +1,18 @@
 ---
 title: DoProcessOutput in the Sample Video DSP Plug-in
 description: DoProcessOutput in the Sample Video DSP Plug-in
-ms.assetid: '67536e35-a049-49c8-bd89-fad1fab37e6c'
-keywords: ["Windows Media Player plug-ins,video DSP", "plug-ins,video DSP", "digital signal processing plug-ins,DoProcessOutput", "DSP plug-ins,DoProcessOutput", "video DSP plug-ins,DoProcessOutput"]
+ms.assetid: 67536e35-a049-49c8-bd89-fad1fab37e6c
+keywords:
+- Windows Media Player plug-ins,video DSP
+- plug-ins,video DSP
+- digital signal processing plug-ins,DoProcessOutput
+- DSP plug-ins,DoProcessOutput
+- video DSP plug-ins,DoProcessOutput
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DoProcessOutput in the Sample Video DSP Plug-in

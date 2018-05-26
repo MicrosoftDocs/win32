@@ -1,8 +1,9 @@
 ---
 title: Buffering Event of the AxWindowsMediaPlayer Object
 description: The Buffering event occurs when the Windows Media Player control begins or ends buffering or downloading.
-ms.assetid: 'ad152c4d-1c91-4da1-bec0-46f89f3b8c79'
-keywords: ["Buffering Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: ad152c4d-1c91-4da1-bec0-46f89f3b8c79
+keywords:
+- Buffering Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Buffering Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Buf
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,9 +80,9 @@ Use this event to determine when buffering or downloading starts or stops. You c
 [**IWMPNetwork.downloadProgress (VB and C#)**](wmplibiwmpnetwork-iwmpnetwork-downloadprogress--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

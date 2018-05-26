@@ -1,8 +1,11 @@
 ---
 title: COLORPROFILETYPE enumeration
 description: Specifies the type of color profile.
-ms.assetid: 'aaf6fd19-0693-4a76-812f-ff958eb5c944'
-keywords: ["COLORPROFILETYPE enumeration Windows Color System", "PCOLORPROFILETYPE enumeration pointer Windows Color System", "LPCOLORPROFILETYPE enumeration pointer Windows Color System"]
+ms.assetid: aaf6fd19-0693-4a76-812f-ff958eb5c944
+keywords:
+- COLORPROFILETYPE enumeration Windows Color System
+- PCOLORPROFILETYPE enumeration pointer Windows Color System
+- LPCOLORPROFILETYPE enumeration pointer Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Icm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLORPROFILETYPE enumeration
@@ -22,7 +30,7 @@ Specifies the type of color profile.
 
 ```C++
 typedef enum tagCOLORPROFILETYPE { 
-  CPT_ICC   = 0x0001,
+  CPT_ICC   = 0x0001,
   CPT_DMP,
   CPT_CAMP,
   CPT_GMMP
@@ -75,8 +83,8 @@ The PCOLORPROFILETYPE and LPCOLORPROFILETYPE data types are defined as pointers 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl> |
 
 
@@ -88,9 +96,9 @@ The PCOLORPROFILETYPE and LPCOLORPROFILETYPE data types are defined as pointers 
 [**COLORPROFILESUBTYPE**](colorprofilesubtype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

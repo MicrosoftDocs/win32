@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualNetwork HostAdapter property
 description: Name of the adapter to which the virtual network is connected.
-ms.assetid: '7ee074d2-13ba-42db-84db-ecfd22576a9a'
-keywords: ["HostAdapter property Virtual PC", "HostAdapter property Virtual PC , IVMVirtualNetwork interface", "IVMVirtualNetwork interface Virtual PC , HostAdapter property"]
+ms.assetid: 7ee074d2-13ba-42db-84db-ecfd22576a9a
+keywords:
+- HostAdapter property Virtual PC
+- HostAdapter property Virtual PC , IVMVirtualNetwork interface
+- IVMVirtualNetwork interface Virtual PC , HostAdapter property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetwork::HostAdapter property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the name of the adapter to which the virtual network is connected.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HostAdapter(
-  [out, retval] BSTR *hostAdapter
+  [out, retval] BSTR *hostAdapter
 );
 ```
 
@@ -64,9 +72,9 @@ The complete list of adapters can be accessed through the [**IVMHostInfo::Networ
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualNetwork is defined as 431cb7a1-2469-4563-b94e-38b987adca63<br/>          |
@@ -80,9 +88,9 @@ The complete list of adapters can be accessed through the [**IVMHostInfo::Networ
 [**IVMVirtualNetwork**](ivmvirtualnetwork.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

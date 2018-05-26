@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the components required to support the functionality of the Fax Service Client API.'
-ms.assetid: '30755339-d4c4-4c4c-a0d7-bb44005784e4'
+Description: This topic describes the components required to support the functionality of the Fax Service Client API.
+ms.assetid: 30755339-d4c4-4c4c-a0d7-bb44005784e4
 title: Fax Service Client API Software Requirements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Client API Software Requirements

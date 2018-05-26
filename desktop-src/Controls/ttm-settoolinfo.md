@@ -1,8 +1,9 @@
 ---
 title: TTM\_SETTOOLINFO message
 description: Sets the information that a tooltip control maintains for a tool.
-ms.assetid: 'ba18f651-2e52-46e2-871b-c1760e94ab59'
-keywords: ["TTM_SETTOOLINFO message Windows Controls"]
+ms.assetid: ba18f651-2e52-46e2-871b-c1760e94ab59
+keywords:
+- TTM_SETTOOLINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_SETTOOLINFO message
@@ -29,7 +35,7 @@ Sets the information that a tooltip control maintains for a tool.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TOOLINFO**](toolinfo.md) structure that specifies the information to set. The **cbSize** member of this structure must be set before sending this message.
+Pointer to a [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure that specifies the information to set. The **cbSize** member of this structure must be set before sending this message.
 
 </dd> </dl>
 
@@ -39,9 +45,9 @@ No return value.
 
 ## Remarks
 
-Some internal properties of a tool are established when the tool is created, and are not recomputed when a **TTM\_SETTOOLINFO** message is sent. If you simply assign values to a [**TOOLINFO**](toolinfo.md) structure and pass it to the tooltip control with a **TTM\_SETTOOLINFO** message, these properties may be lost. Instead, your application should first request the tool's current **TOOLINFO** structure by sending the tooltip control a [**TTM\_GETTOOLINFO**](ttm-gettoolinfo.md) message. Then, modify the members of this structure as needed and pass it back to the tooltip control with **TTM\_SETTOOLINFO**.
+Some internal properties of a tool are established when the tool is created, and are not recomputed when a **TTM\_SETTOOLINFO** message is sent. If you simply assign values to a [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure and pass it to the tooltip control with a **TTM\_SETTOOLINFO** message, these properties may be lost. Instead, your application should first request the tool's current **TOOLINFO** structure by sending the tooltip control a [**TTM\_GETTOOLINFO**](ttm-gettoolinfo.md) message. Then, modify the members of this structure as needed and pass it back to the tooltip control with **TTM\_SETTOOLINFO**.
 
-When calling **TTM\_SETTOOLINFO**, the string pointed to by the **lpszText** member of the [**TOOLINFO**](toolinfo.md) structure must not exceed 80 **TCHARs** in length, including the terminating **NULL**.
+When calling **TTM\_SETTOOLINFO**, the string pointed to by the **lpszText** member of the [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure must not exceed 80 **TCHARs** in length, including the terminating **NULL**.
 
 ## Requirements
 
@@ -49,16 +55,16 @@ When calling **TTM\_SETTOOLINFO**, the string pointed to by the **lpszText** mem
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TTM\_SETTOOLINFOW** (Unicode) and **TTM\_SETTOOLINFOA** (ANSI)<br/>           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

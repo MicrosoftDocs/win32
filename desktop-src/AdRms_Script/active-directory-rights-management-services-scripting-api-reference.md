@@ -1,13 +1,16 @@
 ---
-Description: 'Enables you to create custom scripts to administer an RMS server.'
+Description: Enables you to create custom scripts to administer an RMS server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'a7b09f14-6e3d-43a5-8919-04a711958004'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: a7b09f14-6e3d-43a5-8919-04a711958004
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: Active Directory Rights Management Services Scripting API Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Active Directory Rights Management Services Scripting API Reference

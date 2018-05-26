@@ -1,8 +1,16 @@
 ---
 title: Heap
 description: A heap tracks a group of allocations that are freed as a unit.
-ms.assetid: '3a25284a-8f15-42d4-a292-ece28a08fb69'
-keywords: ["Heap Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 3a25284a-8f15-42d4-a292-ece28a08fb69
+keywords:
+- Heap Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Heap
@@ -21,19 +29,19 @@ Allocations from a heap are guaranteed to be aligned on at least an 8 byte bound
 
 Zero byte allocations will return a non-NULL pointer.
 
-In Windows 7, if PageHeap is enabled, a heap returned from HeapCreate is used to manage the memory. In this case, [**WsAlloc**](wsalloc.md) maps directly to HeapAlloc and [**WsResetHeap**](wsresetheap.md) maps to HeapDestroy.
+In Windows 7, if PageHeap is enabled, a heap returned from HeapCreate is used to manage the memory. In this case, [**WsAlloc**](/windows/win32/WebServices/nf-webservices-wsalloc?branch=master) maps directly to HeapAlloc and [**WsResetHeap**](/windows/win32/WebServices/nf-webservices-wsresetheap?branch=master) maps to HeapDestroy.
 
 The following enumeration is used with the heap:
 
--   [**WS\_HEAP\_PROPERTY\_ID**](ws-heap-property-id.md)
+-   [**WS\_HEAP\_PROPERTY\_ID**](/windows/win32/WebServices/ne-webservices-ws_heap_property_id?branch=master)
 
 The following functions are used with the heap:
 
--   [**WsAlloc**](wsalloc.md)
--   [**WsCreateHeap**](wscreateheap.md)
--   [**WsFreeHeap**](wsfreeheap.md)
--   [**WsGetHeapProperty**](wsgetheapproperty.md)
--   [**WsResetHeap**](wsresetheap.md)
+-   [**WsAlloc**](/windows/win32/WebServices/nf-webservices-wsalloc?branch=master)
+-   [**WsCreateHeap**](/windows/win32/WebServices/nf-webservices-wscreateheap?branch=master)
+-   [**WsFreeHeap**](/windows/win32/WebServices/nf-webservices-wsfreeheap?branch=master)
+-   [**WsGetHeapProperty**](/windows/win32/WebServices/nf-webservices-wsgetheapproperty?branch=master)
+-   [**WsResetHeap**](/windows/win32/WebServices/nf-webservices-wsresetheap?branch=master)
 
 The following handle is used with the heap:
 
@@ -41,8 +49,8 @@ The following handle is used with the heap:
 
 The following structures are used with the heap:
 
--   [**WS\_HEAP\_PROPERTIES**](ws-heap-properties.md)
--   [**WS\_HEAP\_PROPERTY**](ws-heap-property.md)
+-   [**WS\_HEAP\_PROPERTIES**](/windows/win32/WebServices/ns-webservices-_ws_heap_properties?branch=master)
+-   [**WS\_HEAP\_PROPERTY**](/windows/win32/WebServices/ns-webservices-_ws_heap_property?branch=master)
 
  
 

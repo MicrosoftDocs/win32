@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.accKeyboardShortcut
 description: The accKeyboardShortcut attribute specifies or retrieves a keyboard shortcut description for any element.
-ms.assetid: 'f97cffc9-4e7c-4226-9e02-0ea7f84b7450'
-keywords: ["AmbientAttributes.accKeyboardShortcut Windows Media Player"]
+ms.assetid: f97cffc9-4e7c-4226-9e02-0ea7f84b7450
+keywords:
+- AmbientAttributes.accKeyboardShortcut Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.accKeyboardShortcut
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.accKeyboardShortcut
@@ -46,9 +52,9 @@ This attribute also applies to button elements inside the button group control.
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

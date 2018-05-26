@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the file record segment. This is the header for each file record segment in the master file table (MFT).'
-ms.assetid: '4548ad49-1924-4888-8966-c45f8e453c6f'
-title: 'FILE\_RECORD\_SEGMENT\_HEADER structure'
+Description: Represents the file record segment. This is the header for each file record segment in the master file table (MFT).
+ms.assetid: 4548ad49-1924-4888-8966-c45f8e453c6f
+title: FILE\_RECORD\_SEGMENT\_HEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FILE\_RECORD\_SEGMENT\_HEADER structure

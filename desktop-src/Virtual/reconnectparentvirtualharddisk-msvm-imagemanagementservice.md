@@ -1,8 +1,11 @@
 ---
 title: ReconnectParentVirtualHardDisk method of the Msvm\_ImageManagementService class
 description: Fixes broken links between parent and child disk image files.
-ms.assetid: 'e0b403f6-3e0e-4eee-b8eb-2552ad71ee30'
-keywords: ["ReconnectParentVirtualHardDisk method Hyper-V", "ReconnectParentVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class", "Msvm_ImageManagementService class Hyper-V , ReconnectParentVirtualHardDisk method"]
+ms.assetid: e0b403f6-3e0e-4eee-b8eb-2552ad71ee30
+keywords:
+- ReconnectParentVirtualHardDisk method Hyper-V
+- ReconnectParentVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class
+- Msvm_ImageManagementService class Hyper-V , ReconnectParentVirtualHardDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReconnectParentVirtualHardDisk method of the Msvm\_ImageManagementService class
@@ -22,10 +30,10 @@ Fixes broken links between parent and child disk image files.
 
 ```mof
 uint32 ReconnectParentVirtualHardDisk(
-  [in]  string              ChildPath,
-  [in]  string              ParentPath,
-  [in]  boolean             Force,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              ChildPath,
+  [in]  string              ParentPath,
+  [in]  boolean             Force,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -304,9 +312,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -325,9 +333,9 @@ End Function
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

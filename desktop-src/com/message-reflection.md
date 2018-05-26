@@ -1,7 +1,12 @@
 ---
 title: Message Reflection
 description: Message Reflection
-ms.assetid: '26a124d7-6499-4e8f-9001-d2782c1cc290'
+ms.assetid: 26a124d7-6499-4e8f-9001-d2782c1cc290
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Message Reflection

@@ -1,8 +1,18 @@
 ---
 title: Using Announcements
 description: Using Announcements
-ms.assetid: 'c372a4f8-2355-4c69-bba2-72b224879c4d'
-keywords: ["Windows Media metafile playlists,announcements", "playlists,announcements", "metafile playlists,announcements", "Windows Media Player,announcements", "announcements"]
+ms.assetid: c372a4f8-2355-4c69-bba2-72b224879c4d
+keywords:
+- Windows Media metafile playlists,announcements
+- playlists,announcements
+- metafile playlists,announcements
+- Windows Media Player,announcements
+- announcements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Announcements

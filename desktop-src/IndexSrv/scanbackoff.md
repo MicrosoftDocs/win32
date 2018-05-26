@@ -1,7 +1,12 @@
 ---
 title: ScanBackoff
 description: ScanBackoff
-ms.assetid: 'ac5b27aa-288b-4ed8-a2ea-a9416ea344bb'
+ms.assetid: ac5b27aa-288b-4ed8-a2ea-a9416ea344bb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScanBackoff

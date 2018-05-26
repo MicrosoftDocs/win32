@@ -2,13 +2,16 @@
 title: Import method of the PS\_DnsServerResourceRecordDS class
 description: Imports a Delegation Signer (DS) resource record to the DNS server.
 audience: developer
-ms.assetid: 'bb9e2aa2-bb77-400e-8ff0-f3c139102625'
-ms.prod: 'windows-server-dev'
+ms.assetid: bb9e2aa2-bb77-400e-8ff0-f3c139102625
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Import method", "Import method, PS_DnsServerResourceRecordDS class", "PS_DnsServerResourceRecordDS class, Import method"]
+keywords:
+- Import method
+- Import method, PS_DnsServerResourceRecordDS class
+- PS_DnsServerResourceRecordDS class, Import method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Import method of the PS\_DnsServerResourceRecordDS class
@@ -28,12 +34,12 @@ Imports a Delegation Signer (DS) resource record to the DNS server.
 
 ```mof
 uint32 Import(
-  [in]  string                  ZoneName,
-  [in]  string                  DSSetFile,
-  [in]  boolean                 PassThru,
-  [in]  string                  ComputerName,
-  [in]  string                  ZoneScope,
-  [out] DnsServerResourceRecord cmdletOutput[]
+  [in]  string                  ZoneName,
+  [in]  string                  DSSetFile,
+  [in]  boolean                 PassThru,
+  [in]  string                  ComputerName,
+  [in]  string                  ZoneScope,
+  [out] DnsServerResourceRecord cmdletOutput[]
 );
 ```
 
@@ -76,7 +82,7 @@ The computer name of the machine that contains the DS resource record to import.
 
 The name of the zone scope.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -94,7 +100,7 @@ The [**DnsServerResourceRecord**](dnsserverresourcerecord.md) object that receiv
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -108,9 +114,9 @@ The [**DnsServerResourceRecord**](dnsserverresourcerecord.md) object that receiv
 [**PS\_DnsServerResourceRecordDS**](ps-dnsserverresourcerecordds.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

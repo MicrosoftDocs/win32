@@ -1,7 +1,12 @@
 ---
 title: Queries
 description: In Direct3D 12, queries are grouped into arrays of queries called a query heap. A query heap has a type which defines the valid types of queries that can be used with that heap.
-ms.assetid: '8BDDAFEF-57D4-4EF5-BB0C-6C96AF557A45'
+ms.assetid: 8BDDAFEF-57D4-4EF5-BB0C-6C96AF557A45
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Queries
@@ -27,33 +32,33 @@ A new binary occlusion query type has been added to Direct3D 12.
 
 ## Query Heaps
 
-Queries can be one from a number of types ([**D3D12\_QUERY\_HEAP\_TYPE**](d3d12-query-heap-type.md)), and are grouped into query heaps before being submitted to the GPU.
+Queries can be one from a number of types ([**D3D12\_QUERY\_HEAP\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_query_heap_type?branch=master)), and are grouped into query heaps before being submitted to the GPU.
 
 A new query type D3D12\_QUERY\_TYPE\_BINARY\_OCCLUSION is available and acts like D3D12\_QUERY\_TYPE\_OCCLUSION except that it returns a binary 0/1 result: 0 indicates that no samples passed depth and stencil testing, 1 indicates that at least one sample passed depth and stencil testing. This enables occlusion queries to not interfere with any GPU performance optimization associated with depth/stencil testing.
 
 ## Creating Query heaps
 
-The APIs relevant to creating query heaps are the enum [**D3D12\_QUERY\_HEAP\_TYPE**](d3d12-query-heap-type.md), the struct [**D3D12\_QUERY\_HEAP\_DESC**](d3d12-query-heap-desc.md), and the method [**CreateQueryHeap**](id3d12device-createqueryheap.md).
+The APIs relevant to creating query heaps are the enum [**D3D12\_QUERY\_HEAP\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_query_heap_type?branch=master), the struct [**D3D12\_QUERY\_HEAP\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_query_heap_desc?branch=master), and the method [**CreateQueryHeap**](/windows/win32/D3D12/nf-d3d12-id3d12device-createqueryheap?branch=master).
 
-The core runtime will validate that the query heap type is a valid member of the [**D3D12\_HEAP\_TYPE**](d3d12-heap-type.md) enumeration, and that the count is greater than 0.
+The core runtime will validate that the query heap type is a valid member of the [**D3D12\_HEAP\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_heap_type?branch=master) enumeration, and that the count is greater than 0.
 
 Each individual query element within a query heap can be started and stopped separately.
 
-The APIs for using the query heaps are the enum [**D3D12\_QUERY\_TYPE**](d3d12-query-type.md), and the methods [**BeginQuery**](id3d12graphicscommandlist-beginquery.md) and [**EndQuery**](id3d12graphicscommandlist-endquery.md).
+The APIs for using the query heaps are the enum [**D3D12\_QUERY\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_query_type?branch=master), and the methods [**BeginQuery**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery?branch=master) and [**EndQuery**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery?branch=master).
 
-D3D12\_QUERY\_TYPE\_TIMESTAMP is the only query that supports [**EndQuery**](id3d12graphicscommandlist-endquery.md) only. All other query types require [**BeginQuery**](id3d12graphicscommandlist-beginquery.md) and **EndQuery**.
+D3D12\_QUERY\_TYPE\_TIMESTAMP is the only query that supports [**EndQuery**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery?branch=master) only. All other query types require [**BeginQuery**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery?branch=master) and **EndQuery**.
 
 The debug layer will validate the following:
 
 -   It is illegal to begin a query twice without ending it (for a given element). For queries which require both begin and end, it is illegal to end a query before the corresponding begin (for a given element).
--   The query type passed to [**BeginQuery**](id3d12graphicscommandlist-beginquery.md) must match the query type passed to [**EndQuery**](id3d12graphicscommandlist-endquery.md).
+-   The query type passed to [**BeginQuery**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery?branch=master) must match the query type passed to [**EndQuery**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery?branch=master).
 
 The core runtime will validate the following:
 
--   [**BeginQuery**](id3d12graphicscommandlist-beginquery.md) cannot be called on a timestamp query.
--   For the query types which support both [**BeginQuery**](id3d12graphicscommandlist-beginquery.md) and [**EndQuery**](id3d12graphicscommandlist-endquery.md) (all except for timestamp), a query for a given element must not span command list boundaries.
+-   [**BeginQuery**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery?branch=master) cannot be called on a timestamp query.
+-   For the query types which support both [**BeginQuery**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery?branch=master) and [**EndQuery**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery?branch=master) (all except for timestamp), a query for a given element must not span command list boundaries.
 -   *ElementIndex* must be within range.
--   The query type is a valid member of the [**D3D12\_QUERY\_TYPE**](d3d12-query-type.md) enum.
+-   The query type is a valid member of the [**D3D12\_QUERY\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_query_type?branch=master) enum.
 -   The query type must be compatible with the query heap. The following table shows the query heap type required for each query type:
 
     
@@ -94,7 +99,7 @@ The core runtime will validate the following:
 
 ## Extracting data from a query
 
-The way to extract data from a query is to use the [**ResolveQueryData**](id3d12graphicscommandlist-resolvequerydata.md) method. **ResolveQueryData** works with all heap types (default, upload, and readback).
+The way to extract data from a query is to use the [**ResolveQueryData**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata?branch=master) method. **ResolveQueryData** works with all heap types (default, upload, and readback).
 
 ## Related topics
 

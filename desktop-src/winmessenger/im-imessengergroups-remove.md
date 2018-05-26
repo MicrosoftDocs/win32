@@ -1,8 +1,11 @@
 ---
 title: IMessengerGroups Remove method
 description: Removes a MessengerGroup object from a collection.
-ms.assetid: '49e6513e-ad60-4533-85f6-6c492963066a'
-keywords: ["Remove method Windows Messenger", "Remove method Windows Messenger , IMessengerGroups interface", "IMessengerGroups interface Windows Messenger , Remove method"]
+ms.assetid: 49e6513e-ad60-4533-85f6-6c492963066a
+keywords:
+- Remove method Windows Messenger
+- Remove method Windows Messenger , IMessengerGroups interface
+- IMessengerGroups interface Windows Messenger , Remove method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerGroups::Remove method
 
-\[**Remove** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Remove** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Removes a [**MessengerGroup**](im-messengergroup.md) object from a collection.
 
@@ -24,7 +32,7 @@ Removes a [**MessengerGroup**](im-messengergroup.md) object from a collection.
 
 ```C++
 HRESULT Remove(
-  [in] IDispatch *pMGroup
+  [in] IDispatch *pMGroup
 );
 ```
 
@@ -62,7 +70,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,12 +87,12 @@ The following table lists the error codes returned by this method.
 
 
 
- 
+ 
 
 > [!Note]  
 > This method is not available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -122,8 +130,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -137,9 +145,9 @@ End Sub
 [**IMessengerGroups**](im-imessengergroups.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

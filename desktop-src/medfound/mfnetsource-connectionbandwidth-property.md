@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the link bandwidth for the network source, in bits per second.'
-ms.assetid: '1b71dce1-8744-4114-9629-2a9d0afb7c43'
-title: 'MFNETSOURCE\_CONNECTIONBANDWIDTH property'
+---
+Description: Specifies the link bandwidth for the network source, in bits per second.
+ms.assetid: 1b71dce1-8744-4114-9629-2a9d0afb7c43
+title: MFNETSOURCE\_CONNECTIONBANDWIDTH property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_CONNECTIONBANDWIDTH property

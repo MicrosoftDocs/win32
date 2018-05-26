@@ -1,7 +1,12 @@
 ---
 title: Control Point Basics
 description: This section covers the basic information about UPnP control points.
-ms.assetid: '321ed95a-dfc4-4a4d-a62d-53c8104c355a'
+ms.assetid: 321ed95a-dfc4-4a4d-a62d-53c8104c355a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Control Point Basics

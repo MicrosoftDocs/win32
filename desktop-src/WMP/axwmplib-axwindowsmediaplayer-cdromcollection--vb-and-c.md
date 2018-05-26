@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.cdromCollection property
 description: The cdromCollection property gets an IWMPCdromCollection interface that provides access to a collection of CD or DVD drives.
-ms.assetid: '03f4e7d1-4376-4112-993e-943d29aca049'
-keywords: ["cdromCollection property Windows Media Player", "cdromCollection property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , cdromCollection property"]
+ms.assetid: 03f4e7d1-4376-4112-993e-943d29aca049
+keywords:
+- cdromCollection property Windows Media Player
+- cdromCollection property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , cdromCollection property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.cdromCollection property
@@ -82,9 +90,9 @@ To retrieve the value of this property, read access to the library is required. 
 [**IWMPSettings2.requestMediaAccessRights (VB and C#)**](wmplibiwmpsettings2-iwmpsettings2-requestmediaaccessrights--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

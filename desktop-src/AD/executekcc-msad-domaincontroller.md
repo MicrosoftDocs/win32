@@ -4,11 +4,14 @@ description: Calls the DsReplicaConsistencyCheck function, which invokes the Kno
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '958c9a15-cde2-4c74-bd4c-c2d53551cfb0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 958c9a15-cde2-4c74-bd4c-c2d53551cfb0
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ExecuteKCC method Active Directory", "ExecuteKCC method Active Directory , MSAD_DomainController class", "MSAD_DomainController class Active Directory , ExecuteKCC method"]
+keywords:
+- ExecuteKCC method Active Directory
+- ExecuteKCC method Active Directory , MSAD_DomainController class
+- MSAD_DomainController class Active Directory , ExecuteKCC method
 topic_type:
 - apiref
 api_name:
@@ -17,19 +20,22 @@ api_location:
 - replprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExecuteKCC method of the MSAD\_DomainController class
 
-Calls the [**DsReplicaConsistencyCheck**](dsreplicaconsistencycheck.md) function, which invokes the Knowledge Consistency Checker (KCC) to verify the replication topology.
+Calls the [**DsReplicaConsistencyCheck**](/windows/win32/Ntdsapi/nf-ntdsapi-dsreplicaconsistencycheck?branch=master) function, which invokes the Knowledge Consistency Checker (KCC) to verify the replication topology.
 
 ## Syntax
 
 
 ```mof
 void ExecuteKCC(
-  [in] uint32 TaskID,
-  [in] uint32 dwFlags
+  [in] uint32 TaskID,
+  [in] uint32 dwFlags
 );
 ```
 
@@ -86,7 +92,7 @@ This method does not return a value.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftActiveDirectory<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Replprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Replprov.dll</dt> </dl> |
@@ -100,9 +106,9 @@ This method does not return a value.
 [**MSAD\_DomainController**](msad-domaincontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Solution ReadLogFile method
 description: Read a log file.
-ms.assetid: 'e2146b74-9914-436b-a339-8778e162bedc'
-keywords: ["ReadLogFile method Access Execution Engine", "ReadLogFile method Access Execution Engine , Solution interface", "Solution interface Access Execution Engine , ReadLogFile method"]
+ms.assetid: e2146b74-9914-436b-a339-8778e162bedc
+keywords:
+- ReadLogFile method Access Execution Engine
+- ReadLogFile method Access Execution Engine , Solution interface
+- Solution interface Access Execution Engine , ReadLogFile method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Solution::ReadLogFile method
@@ -22,8 +30,8 @@ Read a log file.
 
 ```C++
 virtual HRESULT ReadLogFile(
-  [in] LPCWSTR            logPath,
-  [in] ILogReaderCallback *callback
+  [in] LPCWSTR            logPath,
+  [in] ILogReaderCallback *callback
 ) = 0;
 ```
 
@@ -63,8 +71,8 @@ Managed code uses the [**Solution.ReadLogFile \| readLogFile**](axe-solution_rea
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -77,9 +85,9 @@ Managed code uses the [**Solution.ReadLogFile \| readLogFile**](axe-solution_rea
 [**Solution**](solution-inf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The system-provided file system size of the item, in bytes.'
-ms.assetid: '471c38fc-2382-4df8-8f70-e1af0dd6c746'
-title: 'System.Size'
+Description: The system-provided file system size of the item, in bytes.
+ms.assetid: 471c38fc-2382-4df8-8f70-e1af0dd6c746
+title: System.Size
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Size

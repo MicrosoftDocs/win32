@@ -4,11 +4,16 @@ description: This topic discusses the specific Steps necessary for an extension 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6953ca1f-25db-402d-824b-3fc9436c9fbd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 6953ca1f-25db-402d-824b-3fc9436c9fbd
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["extending a primary snap-in's context menu MMC", "primary snap-in's, extending a context menu"]
+keywords:
+- extending a primary snap-ins context menu MMC
+- primary snap-ins, extending a context menu
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the Context Menu of a Primary Snap-in

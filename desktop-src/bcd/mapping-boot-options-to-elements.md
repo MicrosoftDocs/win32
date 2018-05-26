@@ -1,8 +1,15 @@
 ---
 title: Mapping Boot Options to Elements
 description: A mapping from the boot options in Boot.ini to the BCD elements.
-ms.assetid: '60f43709-543c-41d5-afa7-7f2076d7380d'
-keywords: ["boot options Boot Config", "mapping boot options to elements Boot Config"]
+ms.assetid: 60f43709-543c-41d5-afa7-7f2076d7380d
+keywords:
+- boot options Boot Config
+- mapping boot options to elements Boot Config
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mapping Boot Options to Elements

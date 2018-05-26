@@ -1,8 +1,21 @@
 ---
 title: To Use Inverse Telecine
 description: To Use Inverse Telecine
-ms.assetid: '7752d1ac-34b1-446a-a69c-29463c9e10f7'
-keywords: ["Windows Media Format SDK,inverse telecine", "Windows Media Format SDK,telecine", "Advanced Systems Format (ASF),inverse telecine", "ASF (Advanced Systems Format),inverse telecine", "Advanced Systems Format (ASF),telecine", "ASF (Advanced Systems Format),telecine", "inverse telecine", "telecine"]
+ms.assetid: 7752d1ac-34b1-446a-a69c-29463c9e10f7
+keywords:
+- Windows Media Format SDK,inverse telecine
+- Windows Media Format SDK,telecine
+- Advanced Systems Format (ASF),inverse telecine
+- ASF (Advanced Systems Format),inverse telecine
+- Advanced Systems Format (ASF),telecine
+- ASF (Advanced Systems Format),telecine
+- inverse telecine
+- telecine
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Use Inverse Telecine
@@ -19,8 +32,8 @@ To use inverse telecine, you must:
 To use inverse telecine for an input to the writer, perform the following steps.
 
 1.  Set up the writer as usual. For more information, see [Writing ASF Files](writing-asf-files.md).
-2.  Before beginning to write samples, obtain a pointer to the [**IWMWriterAdvanced2**](iwmwriteradvanced2.md) interface by calling **IWMWriter::QueryInterface**.
-3.  Identify the stream to be reconstructed by calling [**IWMWriterAdvanced2::SetInputSetting**](iwmwriteradvanced2-setinputsetting.md) for the desired input number. Pass g\_wszDeinterlaceMode as the setting and WM\_DM\_DEINTERLACE\_INVERSETELECINE as the value.
+2.  Before beginning to write samples, obtain a pointer to the [**IWMWriterAdvanced2**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2?branch=master) interface by calling **IWMWriter::QueryInterface**.
+3.  Identify the stream to be reconstructed by calling [**IWMWriterAdvanced2::SetInputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting?branch=master) for the desired input number. Pass g\_wszDeinterlaceMode as the setting and WM\_DM\_DEINTERLACE\_INVERSETELECINE as the value.
 4.  Call **SetInputSetting** again to set g\_wszInitialPatternForInverseTelecine.
 5.  Write the file as usual.
 
@@ -31,10 +44,10 @@ To use inverse telecine for an input to the writer, perform the following steps.
 [**Advanced Topics**](advanced-topics.md)
 </dt> <dt>
 
-[**IWMWriter Interface**](iwmwriter.md)
+[**IWMWriter Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmwriter?branch=master)
 </dt> <dt>
 
-[**IWMWriterAdvanced2 Interface**](iwmwriteradvanced2.md)
+[**IWMWriterAdvanced2 Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2?branch=master)
 </dt> </dl>
 
  

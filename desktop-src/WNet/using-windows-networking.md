@@ -1,8 +1,15 @@
 ---
 title: Using Windows Networking
 description: The WNet functions enable your application to query and control network connections directly, or to give direct control of the network connections to the user.
-ms.assetid: '209f5eb4-b42d-4a09-845c-07201204d292'
-keywords: ["Windows networking WNet ,using", "WNet WNet ,using"]
+ms.assetid: 209f5eb4-b42d-4a09-845c-07201204d292
+keywords:
+- Windows networking WNet ,using
+- WNet WNet ,using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Windows Networking

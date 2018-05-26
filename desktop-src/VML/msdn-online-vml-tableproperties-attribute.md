@@ -1,7 +1,12 @@
 ---
 title: VML TableProperties Attribute
 description: VML TableProperties Attribute
-ms.assetid: '10355742-13b9-4c08-bff7-f7f7501762e9'
+ms.assetid: 10355742-13b9-4c08-bff7-f7f7501762e9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML TableProperties Attribute

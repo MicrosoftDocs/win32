@@ -1,8 +1,11 @@
 ---
 title: SetDescription method of the MSFT\_StorageSubSystem class
 description: Sets the Description property of the storage subsystem object instance.
-ms.assetid: 'F0EDAB49-15C0-442C-A8A7-37567060FC5F'
-keywords: ["SetDescription method Windows Storage Management API", "SetDescription method Windows Storage Management API , MSFT_StorageSubSystem class", "MSFT_StorageSubSystem class Windows Storage Management API , SetDescription method"]
+ms.assetid: F0EDAB49-15C0-442C-A8A7-37567060FC5F
+keywords:
+- SetDescription method Windows Storage Management API
+- SetDescription method Windows Storage Management API , MSFT_StorageSubSystem class
+- MSFT_StorageSubSystem class Windows Storage Management API , SetDescription method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetDescription method of the MSFT\_StorageSubSystem class
@@ -22,8 +30,8 @@ Sets the **Description** property of the storage subsystem object instance.
 
 ```mof
 UInt32 SetDescription(
-  [in]  String Description,
-  [out] String ExtendedStatus
+  [in]  String Description,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -89,8 +97,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -103,9 +111,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_StorageSubSystem**](msft-storagesubsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

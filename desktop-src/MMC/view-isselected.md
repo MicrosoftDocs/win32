@@ -4,11 +4,16 @@ description: The IsSelected method returns whether the specified node is selecte
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'afce77e6-ed5b-4151-9965-80ed70af5772'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: afce77e6-ed5b-4151-9965-80ed70af5772
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["IsSelected method MMC", "IsSelected method MMC , View object", "View object MMC , IsSelected method", "IsSelected method MMC , View interface", "View interface MMC , IsSelected method"]
+keywords:
+- IsSelected method MMC
+- IsSelected method MMC , View object
+- View object MMC , IsSelected method
+- IsSelected method MMC , View interface
+- View interface MMC , IsSelected method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::IsSelected method
@@ -76,8 +84,8 @@ Set node1 = Nothing
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -95,9 +103,9 @@ Set node1 = Nothing
 [**View.SelectAll**](view-selectall.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

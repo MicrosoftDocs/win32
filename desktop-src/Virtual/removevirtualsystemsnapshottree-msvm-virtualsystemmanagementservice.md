@@ -1,8 +1,11 @@
 ---
 title: RemoveVirtualSystemSnapshotTree method of the Msvm\_VirtualSystemManagementService class
 description: Removes an existing snapshot and all its children of a virtual system.
-ms.assetid: '7055bedf-dc9c-4023-844e-f227693afb74'
-keywords: ["RemoveVirtualSystemSnapshotTree method Hyper-V", "RemoveVirtualSystemSnapshotTree method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , RemoveVirtualSystemSnapshotTree method"]
+ms.assetid: 7055bedf-dc9c-4023-844e-f227693afb74
+keywords:
+- RemoveVirtualSystemSnapshotTree method Hyper-V
+- RemoveVirtualSystemSnapshotTree method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , RemoveVirtualSystemSnapshotTree method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveVirtualSystemSnapshotTree method of the Msvm\_VirtualSystemManagementService class
@@ -22,8 +30,8 @@ Removes an existing snapshot and all its children of a virtual system.
 
 ```mof
 uint32 RemoveVirtualSystemSnapshotTree(
-  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -109,7 +117,7 @@ The following C# sample removes a snapshot tree from a virtual system. The refer
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -209,7 +217,7 @@ The following VBScript sample removes a snapshot tree from a virtual system.
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -369,9 +377,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -393,9 +401,9 @@ End Function
 [**DestroySnapshotTree (V2)**](https://msdn.microsoft.com/library/windows/desktop/hh850042)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

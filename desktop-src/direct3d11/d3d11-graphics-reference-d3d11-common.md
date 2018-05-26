@@ -1,7 +1,12 @@
 ---
 title: Common Version Reference
 description: The Direct3D API defines several API elements that are common to the Direct3D 12, Direct3D 11, Direct3D 10, and Direct3D 10.1.
-ms.assetid: '2c9c354d-402f-4e79-9e54-ddf7e9b0c6db'
+ms.assetid: 2c9c354d-402f-4e79-9e54-ddf7e9b0c6db
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Version Reference
@@ -22,7 +27,7 @@ The Direct3D API defines several API elements that are common to the Direct3D 12
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +36,9 @@ The Direct3D API defines several API elements that are common to the Direct3D 12
 [Direct3D 11 Reference](d3d11-graphics-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

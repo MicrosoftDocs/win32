@@ -4,13 +4,15 @@ description: Represents a partition.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'efbfd924-127a-4d3e-b151-04d907a57778'
-ms.prod: 'windows-server-dev'
+ms.assetid: efbfd924-127a-4d3e-b151-04d907a57778
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WvrReplica class", "MSFT_WvrReplica class, described"]
+keywords:
+- MSFT_WvrReplica class
+- MSFT_WvrReplica class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - WvrCimProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WvrReplica class
@@ -44,17 +49,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("wvrcimprov"), AMENDMENT]
 class MSFT_WvrReplica
 {
-  string   PartitionId;
-  string   DataVolume;
-  uint64   PartitionSize;
-  uint64   NumOfBytesRecovered;
-  uint64   NumOfBytesRemaining;
-  uint64   CurrentLsn;
-  uint64   LastKnownPrimaryLsn;
+  string   PartitionId;
+  string   DataVolume;
+  uint64   PartitionSize;
+  uint64   NumOfBytesRecovered;
+  uint64   NumOfBytesRemaining;
+  uint64   CurrentLsn;
+  uint64   LastKnownPrimaryLsn;
   datetime LastInSyncTime;
   datetime LastOutOfSyncTime;
-  uint32   ReplicationMode;
-  uint32   ReplicationStatus;
+  uint32   ReplicationMode;
+  uint32   ReplicationStatus;
 };
 ```
 
@@ -350,7 +355,7 @@ The possible values are.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -364,9 +369,9 @@ The possible values are.
 [**MSFT\_WvrReplicationGroup**](msft-wvrreplicationgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

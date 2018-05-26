@@ -1,14 +1,20 @@
 ---
 title: g\_wszWMVCZeroByteFrames
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
-ms.assetid: 'e9156c63-20c2-44a5-a720-0aa36a828bbb'
-keywords: ["g_wszWMVCZeroByteFrames windows Media Format"]
+ms.assetid: e9156c63-20c2-44a5-a720-0aa36a828bbb
+keywords:
+- g_wszWMVCZeroByteFrames windows Media Format
 topic_type:
 - apiref
 api_name:
 - g_wszWMVCZeroByteFrames
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # g\_wszWMVCZeroByteFrames

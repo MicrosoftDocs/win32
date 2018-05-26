@@ -1,8 +1,22 @@
 ---
 title: Accessing and Controlling DWM Frame Data
 description: This topic discusses the Desktop Window Manager (DWM) APIs that are used for scheduling and media presentation.
-ms.assetid: 'e5d010ea-8411-4537-b9f8-6dc84841087a'
-keywords: ["Desktop Window Manager (DWM),scheduling and media presentation APIs", "DWM (Desktop Window Manager),scheduling and media presentation APIs", "scheduling and media presentation APIs", "Desktop Window Manager (DWM),accessing frame data", "DWM (Desktop Window Manager),accessing frame data", "accessing frame data", "Desktop Window Manager (DWM),controlling frame data", "DWM (Desktop Window Manager),controlling frame data", "controlling frame data"]
+ms.assetid: e5d010ea-8411-4537-b9f8-6dc84841087a
+keywords:
+- Desktop Window Manager (DWM),scheduling and media presentation APIs
+- DWM (Desktop Window Manager),scheduling and media presentation APIs
+- scheduling and media presentation APIs
+- Desktop Window Manager (DWM),accessing frame data
+- DWM (Desktop Window Manager),accessing frame data
+- accessing frame data
+- Desktop Window Manager (DWM),controlling frame data
+- DWM (Desktop Window Manager),controlling frame data
+- controlling frame data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing and Controlling DWM Frame Data
@@ -15,11 +29,11 @@ The scheduling and media presentation APIs enable more detailed control of when 
 
 The scheduling and media presentation functions include the following. Details of their use are found on those pages.
 
--   [**DwmEnableMMCSS**](dwmenablemmcss.md). Notifies the DWM to enable Multimedia Class Schedule Service (MMCSS) scheduling while the calling process is alive.
--   [**DwmGetCompositionTimingInfo**](dwmgetcompositiontiminginfo.md). Retrieves the current composition timing information.
--   [**DwmModifyPreviousDxFrameDuration**](dwmmodifypreviousdxframeduration.md). Changes the number of refreshes during which the previous frame will be displayed.
--   [**DwmSetDxFrameDuration**](dwmsetdxframeduration.md). Sets the number of refreshes in which to display the presented frame.
--   [**DwmSetPresentParameters**](dwmsetpresentparameters.md). Sets the present parameters for frame composition.
+-   [**DwmEnableMMCSS**](/windows/win32/Dwmapi/nf-dwmapi-dwmenablemmcss?branch=master). Notifies the DWM to enable Multimedia Class Schedule Service (MMCSS) scheduling while the calling process is alive.
+-   [**DwmGetCompositionTimingInfo**](/windows/win32/Dwmapi/nf-dwmapi-dwmgetcompositiontiminginfo?branch=master). Retrieves the current composition timing information.
+-   [**DwmModifyPreviousDxFrameDuration**](/windows/win32/Dwmapi/nf-dwmapi-dwmmodifypreviousdxframeduration?branch=master). Changes the number of refreshes during which the previous frame will be displayed.
+-   [**DwmSetDxFrameDuration**](/windows/win32/Dwmapi/nf-dwmapi-dwmsetdxframeduration?branch=master). Sets the number of refreshes in which to display the presented frame.
+-   [**DwmSetPresentParameters**](/windows/win32/Dwmapi/nf-dwmapi-dwmsetpresentparameters?branch=master). Sets the present parameters for frame composition.
 
  
 

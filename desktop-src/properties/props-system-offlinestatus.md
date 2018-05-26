@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '0badb5dd-6342-4110-b7a9-0b291dfe8578'
-title: 'System.OfflineStatus'
+Description: .
+ms.assetid: 0badb5dd-6342-4110-b7a9-0b291dfe8578
+title: System.OfflineStatus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.OfflineStatus

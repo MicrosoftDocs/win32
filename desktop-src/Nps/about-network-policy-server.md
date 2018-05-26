@@ -4,10 +4,13 @@ description: Network Policy Server is the Microsoft implementation of a RADIUS s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b5c6b365-34be-499d-96f2-014b7bf83f37'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: b5c6b365-34be-499d-96f2-014b7bf83f37
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Network Policy Server

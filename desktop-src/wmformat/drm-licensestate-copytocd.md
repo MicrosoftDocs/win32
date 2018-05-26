@@ -1,19 +1,25 @@
 ---
 title: DRM\_LicenseState\_CopyToCD
 description: The DRM\_LicenseState\_CopyToCD property contains a WM\_LICENSE\_STATE\_DATA structure that contains details about how this right has been applied to the content.
-ms.assetid: '0a32ce53-87ce-4b63-bfd6-3a0dd629dabc'
-keywords: ["DRM_LicenseState_CopyToCD windows Media Format"]
+ms.assetid: 0a32ce53-87ce-4b63-bfd6-3a0dd629dabc
+keywords:
+- DRM_LicenseState_CopyToCD windows Media Format
 topic_type:
 - apiref
 api_name:
 - DRM_LicenseState_CopyToCD
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_LicenseState\_CopyToCD
 
-The **DRM\_LicenseState\_CopyToCD** property contains a [**WM\_LICENSE\_STATE\_DATA**](wm-license-state-data.md) structure that contains details about how this right has been applied to the content.
+The **DRM\_LicenseState\_CopyToCD** property contains a [**WM\_LICENSE\_STATE\_DATA**](/windows/win32/Wmsdkidl/?branch=master) structure that contains details about how this right has been applied to the content.
 
 ## Global Constant
 
@@ -25,7 +31,7 @@ g\_wszWMDRM\_LicenseState\_CopyToCD
 
 ## Remarks
 
-This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](iwmdrmreader-getdrmproperty.md).
+This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty?branch=master).
 
 ## See also
 

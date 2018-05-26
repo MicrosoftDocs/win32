@@ -1,7 +1,12 @@
 ---
 title: HH\_PRETRANSLATEMESSAGE command
 description: This command is called in the message loop of your Windows application to ensure proper handling of Windows messages, especially keyboard messages when running HTML Help single thread.
-ms.assetid: '64D497B8-B76B-4472-87CD-01C1A2969685'
+ms.assetid: 64D497B8-B76B-4472-87CD-01C1A2969685
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_PRETRANSLATEMESSAGE command

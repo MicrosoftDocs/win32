@@ -4,11 +4,15 @@ description: The DFS API includes the following elements
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '42e7f84a-ce25-4cb4-95ae-2a6f90912e0a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-distributed-file-system-(dfs)'
+ms.assetid: 42e7f84a-ce25-4cb4-95ae-2a6f90912e0a
+ms.prod: windows-server-dev
+ms.technology: windows-distributed-file-system-(dfs)
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Files , reference"]
+keywords:
+- Distributed File System Files , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Distributed File System Reference

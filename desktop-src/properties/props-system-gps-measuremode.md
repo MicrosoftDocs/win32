@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the GPS measurement mode (for example, two-dimensional, three-dimensional).'
-ms.assetid: '9337731a-114e-48c8-9c5c-208bb9168ba5'
-title: 'System.GPS.MeasureMode'
+Description: Indicates the GPS measurement mode (for example, two-dimensional, three-dimensional).
+ms.assetid: 9337731a-114e-48c8-9c5c-208bb9168ba5
+title: System.GPS.MeasureMode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.MeasureMode

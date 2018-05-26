@@ -1,8 +1,15 @@
 ---
 title: Working with per-interface APIs
 description: Working with per-interface APIs
-ms.assetid: '91b01a8a-ab8b-40bb-a4ef-c0f36a90f170'
-keywords: ["Windows Firewall", "using"]
+ms.assetid: 91b01a8a-ab8b-40bb-a4ef-c0f36a90f170
+keywords:
+- Windows Firewall
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with per-interface APIs
@@ -15,10 +22,10 @@ The following tasks, using the older ICF architecture, can be accomplished using
 
 | Task                                                                          | ICF API                                                                                                                |
 |-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| Checking whether the firewall is enabled or disabled on a network connection. | [**INetSharingConfiguration::get\_InternetFirewallEnabled**](inetsharingconfiguration-get-internetfirewallenabled.md) |
-| Enumerating the open ports on an interface.                                   | [**INetSharingConfiguration::get\_EnumPortMappings**](inetsharingconfiguration-enumportmappings.md)                   |
-| Checking if a particular port is open on an interface.                        | [**INetSharingPortMappingProps::get\_Enabled**](inetsharingportmappingprops-get-enabled.md)                           |
-| Opening a port on a network connection.                                       | [**INetSharingConfiguration::AddPortMapping**](inetsharingconfiguration-addportmapping.md)                            |
+| Checking whether the firewall is enabled or disabled on a network connection. | [**INetSharingConfiguration::get\_InternetFirewallEnabled**](/windows/previous-versions/NetCon/nf-netcon-inetsharingconfiguration-get_internetfirewallenabled?branch=master) |
+| Enumerating the open ports on an interface.                                   | [**INetSharingConfiguration::get\_EnumPortMappings**](/windows/previous-versions/NetCon/nf-netcon-inetsharingconfiguration-get_enumportmappings?branch=master)                   |
+| Checking if a particular port is open on an interface.                        | [**INetSharingPortMappingProps::get\_Enabled**](/windows/previous-versions/NetCon/nf-netcon-inetsharingportmappingprops-get_enabled?branch=master)                           |
+| Opening a port on a network connection.                                       | [**INetSharingConfiguration::AddPortMapping**](/windows/previous-versions/NetCon/nf-netcon-inetsharingconfiguration-addportmapping?branch=master)                            |
 
 
 

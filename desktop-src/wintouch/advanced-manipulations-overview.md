@@ -1,8 +1,33 @@
 ---
 title: Advanced Manipulations Overview
 description: This section explains advanced manipulations for applications.
-ms.assetid: 'a0c3fecb-d3c7-4f12-90be-5f77f4f5883e'
-keywords: ["Windows Touch,manipulations", "Windows Touch,advanced manipulations", "Windows Touch,complex manipulations", "Windows Touch,expansion", "Windows Touch,advanced expansion", "Windows Touch,rotation", "Windows Touch,advanced rotation", "Windows Touch,translation", "Windows Touch,advanced translation", "manipulations,advanced", "manipulations,complex", "manipulations,expansion", "manipulations,advanced expansion", "manipulations,rotation", "manipulations,advanced rotation", "manipulations,translation", "manipulations,advanced translation", "expansion,advanced", "rotation,advanced", "translation,advanced"]
+ms.assetid: a0c3fecb-d3c7-4f12-90be-5f77f4f5883e
+keywords:
+- Windows Touch,manipulations
+- Windows Touch,advanced manipulations
+- Windows Touch,complex manipulations
+- Windows Touch,expansion
+- Windows Touch,advanced expansion
+- Windows Touch,rotation
+- Windows Touch,advanced rotation
+- Windows Touch,translation
+- Windows Touch,advanced translation
+- manipulations,advanced
+- manipulations,complex
+- manipulations,expansion
+- manipulations,advanced expansion
+- manipulations,rotation
+- manipulations,advanced rotation
+- manipulations,translation
+- manipulations,advanced translation
+- expansion,advanced
+- rotation,advanced
+- translation,advanced
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Manipulations Overview

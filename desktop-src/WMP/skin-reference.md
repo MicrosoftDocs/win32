@@ -1,8 +1,18 @@
 ---
 title: Skin Reference
 description: Skin Reference
-ms.assetid: 'af778d1e-f6e8-47b0-bf98-e826880f48b7'
-keywords: ["Windows Media Player,skins", "Windows Media Player Mobile skins,reference", "skins,programming reference", "reference for skins,about", "reference for skins,Windows Media Player Mobile"]
+ms.assetid: af778d1e-f6e8-47b0-bf98-e826880f48b7
+keywords:
+- Windows Media Player,skins
+- Windows Media Player Mobile skins,reference
+- skins,programming reference
+- reference for skins,about
+- reference for skins,Windows Media Player Mobile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Skin Reference

@@ -4,10 +4,13 @@ description: The following section contains the MMC datatypes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'EBA0479E-861F-46F6-8A3B-CEDB9D883FE9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: EBA0479E-861F-46F6-8A3B-CEDB9D883FE9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 Datatypes

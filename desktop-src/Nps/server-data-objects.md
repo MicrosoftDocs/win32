@@ -4,10 +4,13 @@ description: The Server Data Objects (SDO) API makes it possible to programmatic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9d159e15-f534-4ab1-9641-db70064beb51'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 9d159e15-f534-4ab1-9641-db70064beb51
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Server Data Objects

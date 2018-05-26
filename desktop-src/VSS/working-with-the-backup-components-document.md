@@ -1,7 +1,12 @@
 ---
-Description: 'A requester creates a Backup Components Document at the start of performing a backup.'
-ms.assetid: '5e40e45d-6afa-401a-a6b4-7bec460cb9ec'
+Description: A requester creates a Backup Components Document at the start of performing a backup.
+ms.assetid: 5e40e45d-6afa-401a-a6b4-7bec460cb9ec
 title: Working with the Backup Components Document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with the Backup Components Document

@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.gainLevel6
 description: The gainLevel6 attribute specifies or retrieves the gain level of band 6. It has a default value of zero.
-ms.assetid: 'da3e1df5-434b-44db-bcde-8ad9c9874627'
-keywords: ["EQUALIZERSETTINGS.gainLevel6 Windows Media Player"]
+ms.assetid: da3e1df5-434b-44db-bcde-8ad9c9874627
+keywords:
+- EQUALIZERSETTINGS.gainLevel6 Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.gainLevel6
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.gainLevel6
@@ -21,7 +27,7 @@ The **gainLevel6** attribute specifies or retrieves the gain level of band 6. It
 
 ## Possible Values
 
-This attribute is a read/write **Number** (**float**) with a value normally ranging from –20 to +20. It has a default value of zero.
+This attribute is a read/write **Number** (**float**) with a value normally ranging from  20 to +20. It has a default value of zero.
 
 ## Remarks
 
@@ -49,9 +55,9 @@ If this attribute is not specified, the previous value will be retained.
 [**EQUALIZERSETTINGS. gainLevels**](equalizersettings-gainlevels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

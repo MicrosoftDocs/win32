@@ -1,7 +1,12 @@
 ---
-Description: 'The AttachProperties export function maps the properties to a location within a piece of recognized data. AttachProperties must be implemented for each parser that the parser DLL supports.'
-ms.assetid: 'ef28f571-8364-47d0-841c-580e89333afd'
+Description: The AttachProperties export function maps the properties to a location within a piece of recognized data. AttachProperties must be implemented for each parser that the parser DLL supports.
+ms.assetid: ef28f571-8364-47d0-841c-580e89333afd
 title: AttachProperties callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AttachProperties callback function
@@ -13,14 +18,14 @@ The **AttachProperties** export function maps the properties to a location withi
 
 ```C++
 DWORD AttachProperties(
-  _In_ HFRAME    hFrame,
-  _In_ LPBYTE    lpFrame,
-  _In_ LPBYTE    lpProtocol,
-  _In_ DWORD     MacType,
-  _In_ DWORD     BytesLeft,
-  _In_ HPROTOCOL hPreviousProtocol,
-  _In_ DWORD     nPreviousProtocolOffset,
-  _In_ DWORD     lpInstData
+  _In_ HFRAME    hFrame,
+  _In_ LPBYTE    lpFrame,
+  _In_ LPBYTE    lpProtocol,
+  _In_ DWORD     MacType,
+  _In_ DWORD     BytesLeft,
+  _In_ HPROTOCOL hPreviousProtocol,
+  _In_ DWORD     nPreviousProtocolOffset,
+  _In_ DWORD     lpInstData
 );
 ```
 
@@ -66,14 +71,14 @@ MAC value of the first protocol in a frame. The *MacType* can be one of the foll
 
 
 
- 
+ 
 
 </dd> <dt>
 
 *BytesLeft* \[in\]
 </dt> <dd>
 
-The remaining number of bytes in a frame — starting at the beginning of the recognized data.
+The remaining number of bytes in a frame   starting at the beginning of the recognized data.
 
 </dd> <dt>
 
@@ -87,7 +92,7 @@ Handle of the previous protocol.
 *nPreviousProtocolOffset* \[in\]
 </dt> <dd>
 
-Offset of the previous protocol — starting at the beginning of the frame.
+Offset of the previous protocol   starting at the beginning of the frame.
 
 </dd> <dt>
 
@@ -124,11 +129,11 @@ Instance data is information that is passed from one parser to another. Instance
 | What entry points are included in the parser DLL.           | [Parser DLL Architecture](parser-dll-architecture.md)             |
 | How to recognize data.                                      | [Implementing RecognizeFrame](implementing-recognizeframe.md)     |
 | How to create a property database.                          | [Implementing Register](implementing-register.md)                 |
-| How to implement **AttachProperties**— includes an example. | [Implementing AttachProperties](implementing-attachproperties.md) |
+| How to implement **AttachProperties**  includes an example. | [Implementing AttachProperties](implementing-attachproperties.md) |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -136,8 +141,8 @@ Instance data is information that is passed from one parser to another. Instance
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -155,9 +160,9 @@ Instance data is information that is passed from one parser to another. Instance
 [RecognizeFrame](recognizeframe.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

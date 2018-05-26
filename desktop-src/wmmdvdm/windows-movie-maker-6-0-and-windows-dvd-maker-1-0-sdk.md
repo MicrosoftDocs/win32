@@ -1,8 +1,25 @@
 ---
 title: Windows Movie Maker 6.0 and Windows DVD Maker 1.0 SDK
 description: Windows Movie Maker 6.0 and Windows DVD Maker 1.0 SDK
-ms.assetid: '239d1a58-55a6-4732-bf4b-019ce19e0693'
-keywords: ["Windows Movie Maker,about", "Movie Maker,about", "Windows DVD Maker,about", "DVD Maker,about", "Windows Movie Maker,software development kit (SDK)", "Movie Maker,software development kit (SDK)", "Windows DVD Maker,software development kit (SDK)", "DVD Maker,software development kit (SDK)", "Windows Movie Maker SDK", "Movie Maker SDK", "Windows DVD Maker SDK", "DVD Maker SDK"]
+ms.assetid: 239d1a58-55a6-4732-bf4b-019ce19e0693
+keywords:
+- Windows Movie Maker,about
+- Movie Maker,about
+- Windows DVD Maker,about
+- DVD Maker,about
+- Windows Movie Maker,software development kit (SDK)
+- Movie Maker,software development kit (SDK)
+- Windows DVD Maker,software development kit (SDK)
+- DVD Maker,software development kit (SDK)
+- Windows Movie Maker SDK
+- Movie Maker SDK
+- Windows DVD Maker SDK
+- DVD Maker SDK
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Movie Maker 6.0 and Windows DVD Maker 1.0 SDK

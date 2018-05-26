@@ -4,11 +4,14 @@ description: The GetBinaryValue method returns the data value for a named value 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b6f81c83-809f-4045-92d6-347ee3dc788e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: b6f81c83-809f-4045-92d6-347ee3dc788e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetBinaryValue method", "GetBinaryValue method, StdRegProv class", "StdRegProv class, GetBinaryValue method"]
+keywords:
+- GetBinaryValue method
+- GetBinaryValue method, StdRegProv class
+- StdRegProv class, GetBinaryValue method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Stdprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetBinaryValue method of the StdRegProv class
@@ -30,10 +36,10 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 GetBinaryValue(
-  [in]  uint32 hDefKey = HKEY_LOCAL_MACHINE,
-  [in]  string sSubKeyName,
-  [in]  string sValueName,
-  [out] uint8  uValue[]
+  [in]  uint32 hDefKey = HKEY_LOCAL_MACHINE,
+  [in]  string sSubKeyName,
+  [in]  string sValueName,
+  [out] uint8  uValue[]
 );
 ```
 
@@ -130,7 +136,7 @@ The Registry Provider includes the **GetBinaryValue** method to enable you to wo
 
 For an example of how to use **GetBinaryValue**, see the example in the [**GetDWORDValue**](getdwordvalue-method-in-class-stdregprov.md) topic.
 
-The [Multithreaded Remote Registry Gathering](https://Gallery.TechNet.Microsoft.Com/Multithreaded-Remote-ca714e12) with Powershell sample gathers specific subkey values or an entire registry key’s subkey values with PowerShell and multithreading.
+The [Multithreaded Remote Registry Gathering](https://Gallery.TechNet.Microsoft.Com/Multithreaded-Remote-ca714e12) with Powershell sample gathers specific subkey values or an entire registry key s subkey values with PowerShell and multithreading.
 
 The following code sample uses WMI to read a binary registry value.
 
@@ -163,8 +169,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\default<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RegEvent.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Stdprov.dll</dt> </dl>  |
@@ -184,9 +190,9 @@ Next
 [WMI Tasks: Registry](https://msdn.microsoft.com/library/aa394600)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

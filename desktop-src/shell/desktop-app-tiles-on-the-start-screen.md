@@ -1,7 +1,12 @@
 ---
-Description: 'The following provides information on choices to consider when tailoring desktop app tiles for Windows 8 including how to design desktop app tiles for the new Start screen and how to choose what entry points to show in the Start screen.'
-ms.assetid: 'EF5182A2-09B2-46F2-B55E-4BD212CC1F7F'
+Description: The following provides information on choices to consider when tailoring desktop app tiles for Windows 8 including how to design desktop app tiles for the new Start screen and how to choose what entry points to show in the Start screen.
+ms.assetid: EF5182A2-09B2-46F2-B55E-4BD212CC1F7F
 title: Desktop App Tiles on the Start Screen
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Desktop App Tiles on the Start Screen

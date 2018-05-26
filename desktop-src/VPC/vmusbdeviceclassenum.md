@@ -1,8 +1,9 @@
 ---
 title: VMUSBDeviceClassEnum enumeration
 description: Specifies the USB device class.
-ms.assetid: '3f5044ea-f7a4-4524-bfb8-55db22732f81'
-keywords: ["VMUSBDeviceClassEnum enumeration Virtual PC"]
+ms.assetid: 3f5044ea-f7a4-4524-bfb8-55db22732f81
+keywords:
+- VMUSBDeviceClassEnum enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMUSBDeviceClassEnum enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies the USB device class.
 
@@ -24,25 +30,25 @@ Specifies the USB device class.
 
 ```C++
 typedef enum  { 
-  vmUSBDeviceClass_InterfaceDescriptor  = 0x00,
-  vmUSBDeviceClass_Audio                = 0x01,
-  vmUSBDeviceClass_Communication        = 0x02,
-  vmUSBDeviceClass_HID                  = 0x03,
-  vmUSBDeviceClass_Physical             = 0x05,
-  vmUSBDeviceClass_Image                = 0x06,
-  vmUSBDeviceClass_Printer              = 0x07,
-  vmUSBDeviceClass_MassStorage          = 0x08,
-  vmUSBDeviceClass_Hub                  = 0x09,
-  vmUSBDeviceClass_CDCData              = 0x0A,
-  vmUSBDeviceClass_SmartCard            = 0x0B,
-  vmUSBDeviceClass_ContentSecurity      = 0x0D,
-  vmUSBDeviceClass_Video                = 0x0E,
-  vmUSBDeviceClass_PersonalHealthcare   = 0x0F,
-  vmUSBDeviceClass_DiagnosticDevice     = 0xDC,
-  vmUSBDeviceClass_WirelessController   = 0xE0,
-  vmUSBDeviceClass_Miscellaneous        = 0xEF,
-  vmUSBDeviceClass_ApplicationSpecific  = 0xFE,
-  vmUSBDeviceClass_VendorSpecific       = 0xFF
+  vmUSBDeviceClass_InterfaceDescriptor  = 0x00,
+  vmUSBDeviceClass_Audio                = 0x01,
+  vmUSBDeviceClass_Communication        = 0x02,
+  vmUSBDeviceClass_HID                  = 0x03,
+  vmUSBDeviceClass_Physical             = 0x05,
+  vmUSBDeviceClass_Image                = 0x06,
+  vmUSBDeviceClass_Printer              = 0x07,
+  vmUSBDeviceClass_MassStorage          = 0x08,
+  vmUSBDeviceClass_Hub                  = 0x09,
+  vmUSBDeviceClass_CDCData              = 0x0A,
+  vmUSBDeviceClass_SmartCard            = 0x0B,
+  vmUSBDeviceClass_ContentSecurity      = 0x0D,
+  vmUSBDeviceClass_Video                = 0x0E,
+  vmUSBDeviceClass_PersonalHealthcare   = 0x0F,
+  vmUSBDeviceClass_DiagnosticDevice     = 0xDC,
+  vmUSBDeviceClass_WirelessController   = 0xE0,
+  vmUSBDeviceClass_Miscellaneous        = 0xEF,
+  vmUSBDeviceClass_ApplicationSpecific  = 0xFE,
+  vmUSBDeviceClass_VendorSpecific       = 0xFF
 } VMUSBDeviceClassEnum;
 ```
 
@@ -191,9 +197,9 @@ Vendor-specific device.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -206,9 +212,9 @@ Vendor-specific device.
 [**IVMUSBDevice::DeviceClass**](ivmusbdevice-deviceclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

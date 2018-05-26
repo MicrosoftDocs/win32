@@ -1,8 +1,11 @@
 ---
 title: ResultSnippet AddLogFile method
 description: Adds a log file to this ResultSnippet.
-ms.assetid: '12C8F0E9-07DA-4EA8-8A11-2274E84B53B4'
-keywords: ["AddLogFile method Access Execution Engine", "AddLogFile method Access Execution Engine , ResultSnippet interface", "ResultSnippet interface Access Execution Engine , AddLogFile method"]
+ms.assetid: 12C8F0E9-07DA-4EA8-8A11-2274E84B53B4
+keywords:
+- AddLogFile method Access Execution Engine
+- AddLogFile method Access Execution Engine , ResultSnippet interface
+- ResultSnippet interface Access Execution Engine , AddLogFile method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResultSnippet::AddLogFile method
@@ -22,7 +30,7 @@ Adds a log file to this [**ResultSnippet**](resultsnippet.md).
 
 ```C++
 virtual HRESULT AddLogFile(
-  [in] LPCWSTR filePath
+  [in] LPCWSTR filePath
 ) = 0;
 ```
 
@@ -49,8 +57,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -63,9 +71,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**ResultSnippet**](resultsnippet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The JoinFilterGraph method sends EC\_WINDOW\_DESTROYED event notification when a filter is removed from the filter graph.'
-ms.assetid: 'b54d2deb-d36f-43a9-aa00-d607f487d8b7'
-title: 'CBaseVideoRenderer.JoinFilterGraph method'
+Description: The JoinFilterGraph method sends EC\_WINDOW\_DESTROYED event notification when a filter is removed from the filter graph.
+ms.assetid: b54d2deb-d36f-43a9-aa00-d607f487d8b7
+title: CBaseVideoRenderer.JoinFilterGraph method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.JoinFilterGraph method
@@ -13,8 +18,8 @@ The `JoinFilterGraph` method sends [**EC\_WINDOW\_DESTROYED**](ec-window-destroy
 
 ```C++
 HRESULT JoinFilterGraph(
-       IBaseFilterGraph *pGraph,
-  [in] LPCWSTR          pName
+       IBaseFilterGraph *pGraph,
+  [in] LPCWSTR          pName
 );
 ```
 
@@ -64,9 +69,9 @@ This member function overrides the [**CBaseFilter::JoinFilterGraph**](cbasefilte
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

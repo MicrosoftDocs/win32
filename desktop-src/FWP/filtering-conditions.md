@@ -1,7 +1,12 @@
 ---
 title: Filtering Conditions
 description: WFP API constants for filtering conditions.
-ms.assetid: '3d15fa7f-327c-482e-9532-709753aef9e4'
+ms.assetid: 3d15fa7f-327c-482e-9532-709753aef9e4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filtering Conditions

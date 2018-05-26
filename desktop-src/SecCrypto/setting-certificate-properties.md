@@ -1,18 +1,23 @@
 ---
-Description: 'Use the ICertServerPolicy::SetCertificateProperty method to set the subject properties of a certificate.'
-ms.assetid: '4cc20a59-d8e9-4c9b-9438-21bccbbe4a64'
+Description: Use the ICertServerPolicySetCertificateProperty method to set the subject properties of a certificate.
+ms.assetid: 4cc20a59-d8e9-4c9b-9438-21bccbbe4a64
 title: Setting Certificate Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Certificate Properties
 
-Use the [**ICertServerPolicy::SetCertificateProperty**](icertserverpolicy-setcertificateproperty.md) method to set the subject properties of a certificate. Subject properties are properties related to the owner of the certificate or the individual who requested the certificate. For a list of subject properties, see [Name Properties](name-properties.md).
+Use the [**ICertServerPolicy::SetCertificateProperty**](/windows/win32/Certif/nf-certif-icertserverpolicy-setcertificateproperty?branch=master) method to set the subject properties of a certificate. Subject properties are properties related to the owner of the certificate or the individual who requested the certificate. For a list of subject properties, see [Name Properties](name-properties.md).
 
-You can also use the [**SetCertificateProperty**](icertserverpolicy-setcertificateproperty.md) method to set the NotBefore and NotAfter certificate properties. For a description of the NotBefore and NotAfter certificate properties, see [Certificate Properties](certificate-properties.md).
+You can also use the [**SetCertificateProperty**](/windows/win32/Certif/nf-certif-icertserverpolicy-setcertificateproperty?branch=master) method to set the NotBefore and NotAfter certificate properties. For a description of the NotBefore and NotAfter certificate properties, see [Certificate Properties](certificate-properties.md).
 
-Use the [**ICertServerPolicy::SetCertificateExtension**](icertserverpolicy-setcertificateextension.md) method to add any number of extensions to the certificate. You can use extensions to add supplemental subject or usage information to the certificate. For more information, see [Extension Handlers](extension-handlers.md).
+Use the [**ICertServerPolicy::SetCertificateExtension**](/windows/win32/Certif/nf-certif-icertserverpolicy-setcertificateextension?branch=master) method to add any number of extensions to the certificate. You can use extensions to add supplemental subject or usage information to the certificate. For more information, see [Extension Handlers](extension-handlers.md).
 
-The following example sets a certificate property and extension on a certificate. You call the [**SetCertificateProperty**](icertserverpolicy-setcertificateproperty.md) and [**SetCertificateExtension**](icertserverpolicy-setcertificateextension.md) methods in your [**ICertPolicy2::VerifyRequest**](icertpolicy2-verifyrequest.md) implementation. The example is not a complete **VerifyRequest** implementation; the example does not show verification logic.
+The following example sets a certificate property and extension on a certificate. You call the [**SetCertificateProperty**](/windows/win32/Certif/nf-certif-icertserverpolicy-setcertificateproperty?branch=master) and [**SetCertificateExtension**](/windows/win32/Certif/nf-certif-icertserverpolicy-setcertificateextension?branch=master) methods in your [**ICertPolicy2::VerifyRequest**](/windows/win32/Certpol/nf-certpol-icertpolicy-verifyrequest?branch=master) implementation. The example is not a complete **VerifyRequest** implementation; the example does not show verification logic.
 
 
 ```C++

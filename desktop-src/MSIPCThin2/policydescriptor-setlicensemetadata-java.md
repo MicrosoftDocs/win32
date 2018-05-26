@@ -4,17 +4,21 @@ description: Sets the license metadata used for document tracking.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '94F60294-3A84-4B23-BB02-75C3442152DF'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 94F60294-3A84-4B23-BB02-75C3442152DF
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["PolicyDescriptor setLicenseMetadata"]
+keywords:
+- PolicyDescriptor setLicenseMetadata
 topic_type:
 - apiref
 api_name:
 - PolicyDescriptor setLicenseMetadata
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor setLicenseMetadata
@@ -37,7 +41,7 @@ public void setLicenseMetaData(LicenseMetaData licenseMetaData)
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ PolicyDescriptor.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

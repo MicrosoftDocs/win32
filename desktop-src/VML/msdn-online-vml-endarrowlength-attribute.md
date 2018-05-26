@@ -1,7 +1,12 @@
 ---
 title: VML EndArrowLength Attribute
 description: VML EndArrowLength Attribute
-ms.assetid: 'aab898b6-4c59-4471-81fd-621f79610d63'
+ms.assetid: aab898b6-4c59-4471-81fd-621f79610d63
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML EndArrowLength Attribute

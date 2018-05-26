@@ -1,14 +1,22 @@
 ---
 title: IBasicDevice RemoteStreamingUrls method
 description: Returns a vector of remote streaming URLs.
-ms.assetid: '19B4475F-A7E4-4DC4-9C88-68D91D023AF4'
-keywords: ["RemoteStreamingUrls method Media Streaming API", "RemoteStreamingUrls method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , RemoteStreamingUrls method"]
+ms.assetid: 19B4475F-A7E4-4DC4-9C88-68D91D023AF4
+keywords:
+- RemoteStreamingUrls method Media Streaming API
+- RemoteStreamingUrls method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , RemoteStreamingUrls method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.RemoteStreamingUrls
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::RemoteStreamingUrls method
@@ -20,7 +28,7 @@ Returns a vector of remote streaming URLs.
 
 ```C++
 HRESULT RemoteStreamingUrls(
-  [out] IVector< HSTRING > **value
+  [out] IVector< HSTRING > **value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

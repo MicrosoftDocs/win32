@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDevice CleanDataStore method
 description: The CleanDataStore method starts the process of cleaning the DRM data store on the device.
-ms.assetid: 'aad99137-6d2b-4612-8014-9783035af929'
-keywords: ["CleanDataStore method windows Media Device Manager", "CleanDataStore method windows Media Device Manager , IWMDRMDevice interface", "IWMDRMDevice interface windows Media Device Manager , CleanDataStore method"]
+ms.assetid: aad99137-6d2b-4612-8014-9783035af929
+keywords:
+- CleanDataStore method windows Media Device Manager
+- CleanDataStore method windows Media Device Manager , IWMDRMDevice interface
+- IWMDRMDevice interface windows Media Device Manager , CleanDataStore method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice::CleanDataStore method
@@ -23,7 +31,7 @@ The **CleanDataStore** method starts the process of cleaning the DRM data store 
 
 ```C++
 HRESULT CleanDataStore(
-  [in] DWORD dwFlags
+  [in] DWORD dwFlags
 );
 ```
 
@@ -52,7 +60,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -72,9 +80,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWMDRMDevice Interface**](iwmdrmdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

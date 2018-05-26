@@ -1,8 +1,17 @@
 ---
 title: Error Codes
 description: Error Codes
-ms.assetid: '37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad'
-keywords: ["Windows Media Device Manager,error codes", "Device Manager,error codes", "programming reference,error codes", "reference for Windows Media Device Manager,error codes"]
+ms.assetid: 37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad
+keywords:
+- Windows Media Device Manager,error codes
+- Device Manager,error codes
+- programming reference,error codes
+- reference for Windows Media Device Manager,error codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Codes

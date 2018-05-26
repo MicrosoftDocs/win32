@@ -1,8 +1,19 @@
 ---
 title: Porting Code that Requires a Current Graphics Position
 description: OpenGL does not maintain a current graphics position. IRIS GL functions that depend on the current graphics position, such as move, draw, and rmv, have no equivalents in OpenGL.
-ms.assetid: 'd6c42d9c-6fbb-4b72-8097-285d19b619c2'
-keywords: ["IRIS GL porting,current graphics position", "porting from IRIS GL,current graphics position", "porting to OpenGL from IRIS GL,current graphics position", "OpenGL porting from IRIS GL,current graphics position", "current graphics position", "raster positions"]
+ms.assetid: d6c42d9c-6fbb-4b72-8097-285d19b619c2
+keywords:
+- IRIS GL porting,current graphics position
+- porting from IRIS GL,current graphics position
+- porting to OpenGL from IRIS GL,current graphics position
+- OpenGL porting from IRIS GL,current graphics position
+- current graphics position
+- raster positions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Code that Requires a Current Graphics Position

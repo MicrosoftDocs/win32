@@ -1,8 +1,13 @@
 ---
-Description: 'Glossary of terms used in the Windows Virtualization SDK documentation.'
-Robots: 'noindex, nofollow'
-ms.assetid: '365D0295-EA0B-4B40-8272-DFF62B2A6F3D'
-title: 'Hyper-V glossary'
+Description: Glossary of terms used in the Windows Virtualization SDK documentation.
+Robots: noindex, nofollow
+ms.assetid: 365D0295-EA0B-4B40-8272-DFF62B2A6F3D
+title: Hyper-V glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hyper-V glossary

@@ -1,7 +1,12 @@
 ---
 title: Biometric Framework overview
 description: Native support for biometric devices is incorporated into Windows.
-ms.assetid: '616ba95a-27a3-4eac-b802-5217954ed04e'
+ms.assetid: 616ba95a-27a3-4eac-b802-5217954ed04e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Biometric Framework overview

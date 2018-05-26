@@ -1,7 +1,12 @@
 ---
 title: Direct3D 11.3 Features
 description: The following sections describe the functionality has been added in Direct3D 11.3. These features are also available in Direct3D 12.
-ms.assetid: 'CA79A315-22C4-4141-8E66-89C0DCF29191'
+ms.assetid: CA79A315-22C4-4141-8E66-89C0DCF29191
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 11.3 Features
@@ -26,7 +31,7 @@ The following sections describe the functionality has been added in Direct3D 11.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -35,9 +40,9 @@ The following sections describe the functionality has been added in Direct3D 11.
 [What's new in Direct3D 11](dx-graphics-overviews-introduction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

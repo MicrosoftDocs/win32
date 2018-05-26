@@ -1,14 +1,20 @@
 ---
 title: Char element
 description: The data type is a character whose numeric representation is between 0 and 65535.
-ms.assetid: '727A9E49-69D2-42D8-8B5C-F4273DE1A88A'
-keywords: ["Char element Access Execution Engine"]
+ms.assetid: 727A9E49-69D2-42D8-8B5C-F4273DE1A88A
+keywords:
+- Char element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Char
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Char element

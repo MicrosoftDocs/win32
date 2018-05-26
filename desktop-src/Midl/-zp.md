@@ -2,13 +2,19 @@
 title: /Zp switch
 description: The /Zp switch is the same as the /pack option.
 ms.assetid: ccdae6a5-e53c-4ddc-9f5f-2b2118709fdb
-keywords: ["/Zp switch MIDL"]
+keywords:
+- /Zp switch MIDL
 topic_type:
 - apiref
 api_name:
 - /Zp
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /Zp switch

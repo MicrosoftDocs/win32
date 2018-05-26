@@ -4,17 +4,21 @@ description: Specifies the desired cache state for Storage Spaces Direct (2SD).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'C7A274CD-5878-4074-A311-6B721E1402ED'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: C7A274CD-5878-4074-A311-6B721E1402ED
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["S2DCacheDesiredState Failover Cluster"]
+keywords:
+- S2DCacheDesiredState Failover Cluster
 topic_type:
 - apiref
 api_name:
 - S2DCacheDesiredState
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # S2DCacheDesiredState
@@ -27,14 +31,14 @@ Specifies the desired cache state for Storage Spaces Direct (2SD).
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | 0x00000000 (disabled)<br/>                     |
 | Maximum<br/>   | 0x00000002 (read/write)<br/>                   |
 | Default<br/>   | 0x00000002 (read/write)<br/>                   |
 
 
 
- 
+ 
 
 The possible values for the **S2DCacheDesiredState** property are:
 
@@ -56,7 +60,7 @@ The possible values for the **S2DCacheDesiredState** property are:
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,7 +73,7 @@ The constant for this property is **CLUSTER\_S2D\_CACHE\_DESIRED\_STATE**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -83,9 +87,9 @@ The constant for this property is **CLUSTER\_S2D\_CACHE\_DESIRED\_STATE**.
 [CLUSCTL\_CLUSTER\_SET\_CLUSTER\_S2D\_ENABLED](clusctl-cluster-set-cluster-das-mode-enabled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

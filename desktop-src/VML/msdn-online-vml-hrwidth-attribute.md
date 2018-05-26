@@ -1,7 +1,12 @@
 ---
 title: VML HRWidth Attribute
 description: VML HRWidth Attribute
-ms.assetid: 'aca2fccc-f898-4c6f-9785-1b14b309b055'
+ms.assetid: aca2fccc-f898-4c6f-9785-1b14b309b055
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML HRWidth Attribute

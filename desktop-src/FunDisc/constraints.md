@@ -1,7 +1,12 @@
 ---
-Description: 'Used to limit the results returned by a function instance collection query or by a function instance query.'
-ms.assetid: '245aa40c-b17d-4157-bd20-f19c7461eed3'
+Description: Used to limit the results returned by a function instance collection query or by a function instance query.
+ms.assetid: 245aa40c-b17d-4157-bd20-f19c7461eed3
 title: Constraints
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constraints
@@ -10,7 +15,7 @@ title: Constraints
 
 Constraints are used to limit the results returned by a function instance collection query or by a function instance query.
 
-Constraints are applied to a query by calling [**IFunctionInstanceCollectionQuery::AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md). Generally, this method applies to collection queries. There is no similar method on the [**IFunctionInstanceQuery**](ifunctioninstancequery.md) interface, but you can constrain function instance queries using the [**IFunctionInstanceCollectionQuery**](ifunctioninstancecollectionquery.md) interface. To constrain a function instance query, create a **IFunctionInstanceCollectionQuery** object, apply the FD\_QUERYCONSTRAINT\_PROVIDERINSTANCEID constraint with the value set to the provider instance identifier returned by [**IFunctionInstance::GetProviderInstanceID**](ifunctioninstance-getproviderinstanceid-method.md) for the function instance you want to query, and then apply other query constraints as required.
+Constraints are applied to a query by calling [**IFunctionInstanceCollectionQuery::AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master). Generally, this method applies to collection queries. There is no similar method on the [**IFunctionInstanceQuery**](/windows/win32/FunctionDiscoveryAPI/nn-functiondiscoveryapi-ifunctioninstancequery?branch=master) interface, but you can constrain function instance queries using the [**IFunctionInstanceCollectionQuery**](/windows/win32/FunctionDiscoveryAPI/nn-functiondiscoveryapi-ifunctioninstancecollectionquery?branch=master) interface. To constrain a function instance query, create a **IFunctionInstanceCollectionQuery** object, apply the FD\_QUERYCONSTRAINT\_PROVIDERINSTANCEID constraint with the value set to the provider instance identifier returned by [**IFunctionInstance::GetProviderInstanceID**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstance-getproviderinstanceid?branch=master) for the function instance you want to query, and then apply other query constraints as required.
 
 A list of constraints defined in the SDK appears in the topic [Constraint Definitions](constraint-definitions.md). Not all constraints are supported by all Function Discovery providers. For more information about the query constraints supported by a provider, see [Built-in Providers](built-in-providers.md). If a provider does not understand a constraint, the provider will ignore it. For example, a SSDP\_CONSTRAINTVALUE\_TYPE\_DEV\_MDASRVR will be ignored by a query to PnP.
 

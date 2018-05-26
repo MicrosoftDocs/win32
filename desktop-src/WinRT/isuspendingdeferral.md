@@ -1,7 +1,12 @@
-﻿---
-Description: 'Manages a delayed app suspending operation.'
-ms.assetid: '9F40659E-9B16-4FC9-B320-5679BB8A8161'
+---
+Description: Manages a delayed app suspending operation.
+ms.assetid: 9F40659E-9B16-4FC9-B320-5679BB8A8161
 title: ISuspendingDeferral interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISuspendingDeferral interface
@@ -10,7 +15,7 @@ Manages a delayed app suspending operation.
 
 ## Members
 
-The **ISuspendingDeferral** interface inherits from [**IInspectable**](iinspectable.md). **ISuspendingDeferral** also has these types of members:
+The **ISuspendingDeferral** interface inherits from [**IInspectable**](/windows/win32/Inspectable/nn-inspectable-iinspectable?branch=master). **ISuspendingDeferral** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,7 +50,7 @@ The **ISuspendingDeferral** interface has these methods.
 
 <dl> <dt>
 
-[**IInspectable**](iinspectable.md)
+[**IInspectable**](/windows/win32/Inspectable/nn-inspectable-iinspectable?branch=master)
 </dt> <dt>
 
 [**ISuspendingEventArgs**](isuspendingeventargs.md)

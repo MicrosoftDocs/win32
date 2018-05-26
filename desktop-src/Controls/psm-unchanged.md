@@ -1,8 +1,9 @@
 ---
 title: PSM\_UNCHANGED message
 description: Informs a property sheet that information in a page has reverted to the previously saved state. You can send this message explicitly or by using the PropSheet\_UnChanged macro.
-ms.assetid: '61c15dec-40d0-4720-a117-4eed765c8819'
-keywords: ["PSM_UNCHANGED message Windows Controls"]
+ms.assetid: 61c15dec-40d0-4720-a117-4eed765c8819
+keywords:
+- PSM_UNCHANGED message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_UNCHANGED message
 
-Informs a property sheet that information in a page has reverted to the previously saved state. You can send this message explicitly or by using the [**PropSheet\_UnChanged**](propsheet-unchanged.md) macro.
+Informs a property sheet that information in a page has reverted to the previously saved state. You can send this message explicitly or by using the [**PropSheet\_UnChanged**](/windows/win32/Prsht/nf-prsht-propsheet_unchanged?branch=master) macro.
 
 ## Parameters
 
@@ -44,9 +50,9 @@ No return value.
 The property sheet disables the **Apply** button if no other pages have registered changes with the property sheet.
 
 > [!Note]  
-> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](propsheetheader.md)).
+> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master)).
 
- 
+ 
 
 ## Requirements
 
@@ -54,15 +60,15 @@ The property sheet disables the **Apply** button if no other pages have register
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

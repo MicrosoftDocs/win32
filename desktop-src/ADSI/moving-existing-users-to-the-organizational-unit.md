@@ -4,11 +4,15 @@ description: When the enterprise administrator, Joe Worden, upgrades the Windows
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '230a594f-70c2-4ab6-a7e8-d5a77f2d6dd1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 230a594f-70c2-4ab6-a7e8-d5a77f2d6dd1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Moving Existing Users to the Organizational Unit AD"]
+keywords:
+- Moving Existing Users to the Organizational Unit AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Moving Existing Users to the Organizational Unit
@@ -24,7 +28,7 @@ Set usr = salesOU.MoveHere("LDAP://CN=jeffsmith,CN=Users,DC=fabrikam,DC=com", vb
 
 
 
-The [**IADsContainer.MoveHere**](iadscontainer-movehere.md) method takes the ADsPath of the object to be moved and the new object name (RDN). To keep the same name, you can specify **NULL** (**vbNullString**) for the *bstrNewName* parameter. To rename the object when it is moved, specify the new relative distinguished name for the *bstrNewName* parameter. For example, to move jeffsmith to the sales organization and rename the "jeffsmith" object to "jeff\_smith" in the same operation, Joe would execute the following code:
+The [**IADsContainer.MoveHere**](/windows/win32/Iads/nf-iads-iadscontainer-movehere?branch=master) method takes the ADsPath of the object to be moved and the new object name (RDN). To keep the same name, you can specify **NULL** (**vbNullString**) for the *bstrNewName* parameter. To rename the object when it is moved, specify the new relative distinguished name for the *bstrNewName* parameter. For example, to move jeffsmith to the sales organization and rename the "jeffsmith" object to "jeff\_smith" in the same operation, Joe would execute the following code:
 
 
 ```VB

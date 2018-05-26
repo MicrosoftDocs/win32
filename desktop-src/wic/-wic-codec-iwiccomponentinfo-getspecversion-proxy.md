@@ -1,22 +1,27 @@
 ---
-Description: 'Proxy function for the GetSpecVersion method.'
-ms.assetid: '363e55c2-d6e8-4ddc-a063-c5be08232a67'
-title: 'IWICComponentInfo\_GetSpecVersion\_Proxy function'
+Description: Proxy function for the GetSpecVersion method.
+ms.assetid: 363e55c2-d6e8-4ddc-a063-c5be08232a67
+title: IWICComponentInfo\_GetSpecVersion\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICComponentInfo\_GetSpecVersion\_Proxy function
 
-Proxy function for the [**GetSpecVersion**](-wic-codec-iwiccomponentinfo-getspecversion.md) method.
+Proxy function for the [**GetSpecVersion**](/windows/win32/Wincodec/nf-wincodec-iwiccomponentinfo-getspecversion?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICComponentInfo_GetSpecVersion_Proxy(
-  _In_    IWICComponentInfo *THIS_PTR,
-  _In_    UINT              cchSpecVersion,
-  _Inout_ WCHAR             *wzSpecVersion,
-  _Out_   UINT              *pcchActual
+  _In_    IWICComponentInfo *THIS_PTR,
+  _In_    UINT              cchSpecVersion,
+  _Inout_ WCHAR             *wzSpecVersion,
+  _Out_   UINT              *pcchActual
 );
 ```
 
@@ -29,9 +34,9 @@ HRESULT IWICComponentInfo_GetSpecVersion_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICComponentInfo**](-wic-codec-iwiccomponentinfo.md)\***
+Type: **[**IWICComponentInfo**](/windows/win32/Wincodec/nn-wincodec-iwiccomponentinfo?branch=master)\***
 
-Pointer to this [**IWICComponentInfo**](-wic-codec-iwiccomponentinfo.md) object.
+Pointer to this [**IWICComponentInfo**](/windows/win32/Wincodec/nn-wincodec-iwiccomponentinfo?branch=master) object.
 
 </dd> <dt>
 
@@ -76,15 +81,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

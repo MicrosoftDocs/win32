@@ -1,8 +1,11 @@
 ---
 title: GetErrorEx method of the Msvm\_StorageJob class
 description: When the job is executing or has terminated without error, then this method returns no Msvm\_Error instance.
-ms.assetid: '7fae95c2-90e6-4cf1-8351-a04ca72a3491'
-keywords: ["GetErrorEx method Hyper-V", "GetErrorEx method Hyper-V , Msvm_StorageJob class", "Msvm_StorageJob class Hyper-V , GetErrorEx method"]
+ms.assetid: 7fae95c2-90e6-4cf1-8351-a04ca72a3491
+keywords:
+- GetErrorEx method Hyper-V
+- GetErrorEx method Hyper-V , Msvm_StorageJob class
+- Msvm_StorageJob class Hyper-V , GetErrorEx method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetErrorEx method of the Msvm\_StorageJob class
@@ -22,7 +30,7 @@ When the job is executing or has terminated without error, then this method retu
 
 ```mof
 uint32 GetErrorEx(
-  [out] string Errors[]
+  [out] string Errors[]
 );
 ```
 
@@ -96,9 +104,9 @@ Access to the [**Msvm\_StorageJob**](msvm-storagejob.md) class might be restrict
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -111,9 +119,9 @@ Access to the [**Msvm\_StorageJob**](msvm-storagejob.md) class might be restrict
 [**Msvm\_StorageJob**](msvm-storagejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

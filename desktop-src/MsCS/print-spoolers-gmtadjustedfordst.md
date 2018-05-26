@@ -4,17 +4,22 @@ description: TBD.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '39bceace-92a7-4223-bfad-36901256d0dc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 39bceace-92a7-4223-bfad-36901256d0dc
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["GMTAdjustedForDST Failover Cluster ,for print spoolers", "GMTAdjustedForDST Failover Cluster"]
+keywords:
+- GMTAdjustedForDST Failover Cluster ,for print spoolers
+- GMTAdjustedForDST Failover Cluster
 topic_type:
 - apiref
 api_name:
 - GMTAdjustedForDST
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GMTAdjustedForDST
@@ -27,14 +32,14 @@ TBD. The following table summarizes the attributes of the **GMTAdjustedForDST** 
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **FALSE** (0)                             |
 | Maximum   | **TRUE** (1)                              |
 | Default   | 1                                         |
 
 
 
- 
+ 
 
 ## Examples
 
@@ -59,7 +64,7 @@ GMTAdjustedForDSTValue.dw        = dwGMTAdjustedForDSTData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -70,12 +75,12 @@ GMTAdjustedForDSTValue.dw        = dwGMTAdjustedForDSTData;
 [Print Spooler Private Properties](print-spooler-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

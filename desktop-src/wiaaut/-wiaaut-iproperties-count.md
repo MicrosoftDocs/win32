@@ -1,8 +1,11 @@
 ---
 title: Properties.Count property
 description: Retrieves the number of members in the Properties collection.
-ms.assetid: 'ce5aba6f-c6aa-4cf3-8421-ee462d7d0bd3'
-keywords: ["Count property WIA Automation", "Count property WIA Automation , Properties object", "Properties object WIA Automation , Count property"]
+ms.assetid: ce5aba6f-c6aa-4cf3-8421-ee462d7d0bd3
+keywords:
+- Count property WIA Automation
+- Count property WIA Automation , Properties object
+- Properties object WIA Automation , Count property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties.Count property
@@ -43,8 +51,8 @@ For example code, see [Display all the Properties for the Selected Device](-wiaa
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -57,9 +65,9 @@ For example code, see [Display all the Properties for the Selected Device](-wiaa
 [**Properties**](-wiaaut-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

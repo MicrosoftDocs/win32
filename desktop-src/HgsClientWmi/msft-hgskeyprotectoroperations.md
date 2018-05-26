@@ -4,13 +4,15 @@ description: The principal to whom key rights can be assigned.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd2ad77fc-0211-4b2b-a421-5250ba6d19e8'
-ms.prod: 'windows-server-dev'
+ms.assetid: d2ad77fc-0211-4b2b-a421-5250ba6d19e8
+ms.prod: windows-server-dev
 ms.technology:
-- 'host-guardian-service'
-- 'windows-management-instrumentation'
+- host-guardian-service
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_HgsKeyProtectorOperations class", "MSFT_HgsKeyProtectorOperations class, described"]
+keywords:
+- MSFT_HgsKeyProtectorOperations class
+- MSFT_HgsKeyProtectorOperations class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - HgsClientWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_HgsKeyProtectorOperations class
@@ -57,7 +62,7 @@ The **MSFT\_HgsKeyProtectorOperations** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +70,8 @@ The **MSFT\_HgsKeyProtectorOperations** class has these methods.
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Hgs<br/>                                                    |
 | MOF<br/>                      | <dl> <dt>HgsClientWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>HgsClientWmi.dll</dt> </dl> |
@@ -80,9 +85,9 @@ The **MSFT\_HgsKeyProtectorOperations** class has these methods.
 [Host Guardian Service WMI Provider](hoster-guardian-service-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: level (ChannelPublishingType) Element
 description: The severity level of the events to write to the channel.
-ms.assetid: '1d5e9a35-5e6a-45ee-aa2c-0bbeee18db36'
-keywords: ["level element EventLog"]
+ms.assetid: 1d5e9a35-5e6a-45ee-aa2c-0bbeee18db36
+keywords:
+- level element EventLog
 topic_type:
 - apiref
 api_name:
 - level
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # level (ChannelPublishingType) Element
@@ -29,8 +35,8 @@ The **level** element is defined by the [**ChannelPublishingType**](eventmanifes
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **level** element is defined by the [**ChannelPublishingType**](eventmanifes
 [**publishing (ChannelType)**](eventmanifestschema-publishing-channeltype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a hash of the specified string.'
-ms.assetid: '8d3e16e7-7b93-410c-b771-7684d1bf2160'
-title: 'HashedData.Hash method'
+---
+Description: Creates a hash of the specified string.
+ms.assetid: 8d3e16e7-7b93-410c-b771-7684d1bf2160
+title: HashedData.Hash method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HashedData.Hash method

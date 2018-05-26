@@ -4,17 +4,22 @@ description: A list of servers that are the replica set for the corresponding No
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b0379bb6-feee-432a-b484-1a6c8100d027'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b0379bb6-feee-432a-b484-1a6c8100d027
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-NC-Replica-Locations attribute AD Schema", "msDS-NC-Replica-Locations attribute AD Schema"]
+keywords:
+- ms-DS-NC-Replica-Locations attribute AD Schema
+- msDS-NC-Replica-Locations attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-NC-Replica-Locations
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-NC-Replica-Locations attribute
@@ -38,12 +43,12 @@ A list of servers that are the replica set for the corresponding Non-Domain Nami
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -171,9 +176,9 @@ A list of servers that are the replica set for the corresponding Non-Domain Nami
 
 
 
- 
+ 
 
- 
+ 
 
 
 

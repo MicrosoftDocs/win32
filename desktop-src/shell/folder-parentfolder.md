@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the parent Folder object.'
-ms.assetid: 'b832948c-f599-4ada-8760-9280b86abfed'
-title: 'Folder.ParentFolder property'
+---
+Description: Contains the parent Folder object.
+ms.assetid: b832948c-f599-4ada-8760-9280b86abfed
+title: Folder.ParentFolder property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Folder.ParentFolder property

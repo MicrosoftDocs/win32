@@ -1,14 +1,20 @@
 ---
 title: Operator\ \ function
 description: Returns the nth control point in the patch.
-ms.assetid: '2c1eda6b-a9c1-40d3-be91-7a2e8f1da9fc'
-keywords: ["Operator function HLSL"]
+ms.assetid: 2c1eda6b-a9c1-40d3-be91-7a2e8f1da9fc
+keywords:
+- Operator function HLSL
 topic_type:
 - apiref
 api_name:
 - Operator
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operator\[\] function

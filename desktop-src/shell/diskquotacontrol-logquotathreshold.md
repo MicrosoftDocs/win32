@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or gets a Boolean value that indicates whether a system event log entry will be made when a user exceeds his or her assigned quota threshold.'
-ms.assetid: '93bf5a4b-a887-4403-8c61-9ca8ba430c47'
-title: 'DiskQuotaControl.LogQuotaThreshold property'
+---
+Description: Sets or gets a Boolean value that indicates whether a system event log entry will be made when a user exceeds his or her assigned quota threshold.
+ms.assetid: 93bf5a4b-a887-4403-8c61-9ca8ba430c47
+title: DiskQuotaControl.LogQuotaThreshold property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DiskQuotaControl.LogQuotaThreshold property

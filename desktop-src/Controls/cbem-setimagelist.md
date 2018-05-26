@@ -1,8 +1,9 @@
 ---
 title: CBEM\_SETIMAGELIST message
 description: Sets an image list for a ComboBoxEx control.
-ms.assetid: 'a4a8ed61-a532-4cf8-8291-c157ab0e7f31'
-keywords: ["CBEM_SETIMAGELIST message Windows Controls"]
+ms.assetid: a4a8ed61-a532-4cf8-8291-c157ab0e7f31
+keywords:
+- CBEM_SETIMAGELIST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBEM\_SETIMAGELIST message
@@ -40,7 +46,7 @@ Returns the handle to the image list previously associated with the control, or 
 > \[!Important\]  
 > The height of images in your image list might change the size requirements of the ComboBoxEx control. It is recommended that you resize the control after sending this message to ensure that it is displayed properly.
 
- 
+ 
 
 ## Requirements
 
@@ -48,15 +54,15 @@ Returns the handle to the image list previously associated with the control, or 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

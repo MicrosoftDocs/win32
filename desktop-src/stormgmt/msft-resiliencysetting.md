@@ -1,8 +1,10 @@
 ---
 title: MSFT\_ResiliencySetting class
-description: Represents a storage pool's resiliency settings.
-ms.assetid: '8F8981DB-50D7-424D-BD5B-C646FD8E434F'
-keywords: ["MSFT_ResiliencySetting class Windows Storage Management API", "MSFT_ResiliencySetting class Windows Storage Management API , described"]
+description: Represents a storage pools resiliency settings.
+ms.assetid: 8F8981DB-50D7-424D-BD5B-C646FD8E434F
+keywords:
+- MSFT_ResiliencySetting class Windows Storage Management API
+- MSFT_ResiliencySetting class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_ResiliencySetting class
@@ -40,21 +47,21 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 ``` syntax
 class MSFT_ResiliencySetting : MSFT_StorageObject
 {
-  String  Name;
-  String  Description;
-  UInt16  NumberOfDataCopiesMin;
-  UInt16  NumberOfDataCopiesMax;
-  UInt16  NumberOfDataCopiesDefault;
-  UInt16  PhysicalDiskRedundancyMin;
-  UInt16  PhysicalDiskRedundancyMax;
-  UInt16  PhysicalDiskRedundancyDefault;
-  UInt16  NumberOfColumnsMin;
-  UInt16  NumberOfColumnsMax;
-  UInt16  NumberOfColumnsDefault;
-  UInt64  InterleaveMin;
-  UInt64  InterleaveMax;
-  UInt64  InterleaveDefault;
-  UInt16  ParityLayout;
+  String  Name;
+  String  Description;
+  UInt16  NumberOfDataCopiesMin;
+  UInt16  NumberOfDataCopiesMax;
+  UInt16  NumberOfDataCopiesDefault;
+  UInt16  PhysicalDiskRedundancyMin;
+  UInt16  PhysicalDiskRedundancyMax;
+  UInt16  PhysicalDiskRedundancyDefault;
+  UInt16  NumberOfColumnsMin;
+  UInt16  NumberOfColumnsMax;
+  UInt16  NumberOfColumnsDefault;
+  UInt64  InterleaveMin;
+  UInt64  InterleaveMax;
+  UInt64  InterleaveDefault;
+  UInt16  ParityLayout;
   Boolean RequestNoSinglePointOfFailure;
 };
 ```
@@ -78,7 +85,7 @@ The **MSFT\_ResiliencySetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -261,7 +268,7 @@ Specifies whether a parity-based resiliency setting is using a rotated or non-ro
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -327,8 +334,8 @@ Set to **TRUE** to request no single point of failure.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -341,9 +348,9 @@ Set to **TRUE** to request no single point of failure.
 [**MSFT\_StorageObject**](msft-storageobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

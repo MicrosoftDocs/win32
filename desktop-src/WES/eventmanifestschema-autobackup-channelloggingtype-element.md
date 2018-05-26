@@ -1,14 +1,20 @@
 ---
 title: autoBackup (ChannelLoggingType) Element
 description: Determines whether to create a new log file when the current log file reaches its maximum size.
-ms.assetid: '708c5d44-d20b-437a-a01f-6182b244c736'
-keywords: ["autoBackup element EventLog"]
+ms.assetid: 708c5d44-d20b-437a-a01f-6182b244c736
+keywords:
+- autoBackup element EventLog
 topic_type:
 - apiref
 api_name:
 - autoBackup
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # autoBackup (ChannelLoggingType) Element
@@ -29,8 +35,8 @@ The **autoBackup** element is defined by the [**ChannelLoggingType**](eventmanif
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **autoBackup** element is defined by the [**ChannelLoggingType**](eventmanif
 [**logging (ChannelType)**](eventmanifestschema-logging-channeltype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

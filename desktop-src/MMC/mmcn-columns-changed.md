@@ -4,11 +4,12 @@ description: The MMCN\_COLUMNS\_CHANGED notification is introduced in MMC 1.2.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '634f14ba-0b6a-41b6-af97-e957d1337623'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 634f14ba-0b6a-41b6-af97-e957d1337623
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_COLUMNS_CHANGED message MMC"]
+keywords:
+- MMCN_COLUMNS_CHANGED message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_COLUMNS\_CHANGED message
@@ -93,8 +97,8 @@ Also, the **MMCN\_COLUMNS\_CHANGED** notification is not generated for any chang
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -112,9 +116,9 @@ Also, the **MMCN\_COLUMNS\_CHANGED** notification is not generated for any chang
 [IHeaderCtrl2 and Column Persistence](iheaderctrl2-and-column-persistence.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

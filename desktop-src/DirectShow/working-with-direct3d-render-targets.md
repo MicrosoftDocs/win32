@@ -1,7 +1,12 @@
 ---
 Description: Working with Direct3D Render Targets
-ms.assetid: '271b919c-421b-4484-8e60-afbf3cbdca44'
+ms.assetid: 271b919c-421b-4484-8e60-afbf3cbdca44
 title: Working with Direct3D Render Targets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Direct3D Render Targets
@@ -26,7 +31,7 @@ These types are defined in the header file uuids.h. The MEDIASUBTYPE\_RGB32 medi
 
 **Requesting an Unlocked Surface**
 
-Locking and unlocking DirectDraw surfaces are computationally expensive operations. When using the Direct3D render target media subtypes, the upstream filter needs the surfaces to be unlocked so that it can operate on them with the graphics hardware. To avoid an unnecessary locking-unlocking operation, the VMR supports a new flag on the [**IMemAllocator::GetBuffer**](imemallocator-getbuffer.md) method, AM\_GBF\_NODDSURFACELOCK, that instructs the VMR not to lock the DirectDraw surface before passing a sample to the upstream filter. When this flag is used, calls to [**IMediaSample::GetPointer**](imediasample-getpointer.md) will fail because there is no locked pointer. To obtain access to the DirectDraw surface, the filter must call **QueryInterface** on the returned [**IMediaSample**](imediasample.md) object and request the [**IVMRSurface**](ivmrsurface.md) interface. Obviously, the upstream filter must ensure that the surface is not locked when it releases the sample back to the free list.
+Locking and unlocking DirectDraw surfaces are computationally expensive operations. When using the Direct3D render target media subtypes, the upstream filter needs the surfaces to be unlocked so that it can operate on them with the graphics hardware. To avoid an unnecessary locking-unlocking operation, the VMR supports a new flag on the [**IMemAllocator::GetBuffer**](/windows/win32/Strmif/nf-strmif-imemallocator-getbuffer?branch=master) method, AM\_GBF\_NODDSURFACELOCK, that instructs the VMR not to lock the DirectDraw surface before passing a sample to the upstream filter. When this flag is used, calls to [**IMediaSample::GetPointer**](/windows/win32/Strmif/nf-strmif-imediasample-getpointer?branch=master) will fail because there is no locked pointer. To obtain access to the DirectDraw surface, the filter must call **QueryInterface** on the returned [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) object and request the [**IVMRSurface**](/windows/win32/Strmif/nn-strmif-ivmrsurface?branch=master) interface. Obviously, the upstream filter must ensure that the surface is not locked when it releases the sample back to the free list.
 
  
 

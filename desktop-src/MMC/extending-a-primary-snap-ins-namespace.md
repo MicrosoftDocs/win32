@@ -4,11 +4,16 @@ description: This section discusses the steps necessary for an extension snap-in
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '12c499ce-291d-4599-aca6-48f7538ba3ce'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 12c499ce-291d-4599-aca6-48f7538ba3ce
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["extending a primary snap-in's namespace MMC", "primary snap-in's, extending a namespace"]
+keywords:
+- extending a primary snap-ins namespace MMC
+- primary snap-ins, extending a namespace
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the Namespace of a Primary Snap-in
@@ -17,7 +22,7 @@ This section discusses the steps necessary for an extension snap-in to extend th
 
 A primary snap-in registers the extendable node types it adds to its namespace. An extension snap-in can extend the namespace of a primary snap-in's node type by adding the appropriate registration code and then implementing the [**IComponentData**](icomponentdata.md) interface.
 
-When the user selects a scope item in a primary snap-in that is extended by a namespace extension, MMC requests the extension's [**IComponentData**](icomponentdata.md) interface and calls [**IComponentData::Initialize**](icomponentdata-initialize.md) to initialize the extension's **IComponentData** object (unless it is already initialized). Like a primary snap-in, a namespace extension can add scope items and enumerate the result pane of any items it adds. When the user selects a scope or result item that a namespace extension has added, MMC uses the extension's **IComponentData** or [**IComponent**](icomponent.md) implementation to notify the extension of notification messages and to request data objects.
+When the user selects a scope item in a primary snap-in that is extended by a namespace extension, MMC requests the extension's [**IComponentData**](icomponentdata.md) interface and calls [**IComponentData::Initialize**](icomponentdata-initialize.md) to initialize the extension's **IComponentData** object (unless it is already initialized). Like a primary snap-in, a namespace extension can add scope items and enumerate the result pane of any items it adds. When the user selects a scope or result item that a namespace extension has added, MMC uses the extension's **IComponentData** or [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation to notify the extension of notification messages and to request data objects.
 
 A namespace extension owns any scope or result items that it adds. Therefore, it can extend its own items by adding context menu items, property pages, toolbars, and other features, just like any other snap-in.
 
@@ -40,7 +45,7 @@ In the following procedure, be aware that {CLSID}, {snapinCLSID}, and {nodetypeG
 3.  Register the CLSID of the extension snap-in under the HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\MMC\\NodeTypes\\{nodetypeGUID}\\Extensions\\Namespace subkey, where nodetypeGUID is the GUID of the node type whose namespace is extended. For more information about the NodeTypes key, see [Registration Requirements for Extension Snap-ins](registration-requirements-for-extension-snap-ins.md).
 4.  Implement the [**IComponentData**](icomponentdata.md) interface as you would for adding scope items to the scope pane of a primary snap-in. For more information and detailed instructions, see [Working with the Scope Pane: Implementation Details](working-with-the-scope-pane-implementation-details.md).
 5.  The namespace extension [**IComponentData::Notify**](icomponentdata-notify.md) method will receive an [**MMCN\_EXPAND**](mmcn-expand.md) notification message the first time the user selects a primary snap-in's scope item that is extended by the namespace extension. For the namespace extension to recognize that it is being instructed to add its own items under the primary snap-in scope item, you must implement a mechanism to verify that the currently selected scope item belongs to the primary snap-in or the namespace extension.
-6.  If any of the scope items added by the namespace extension also have result pane views, you will need to implement the [**IComponent**](icomponent.md) interface as well. For more information about the view types available, see [Using Different Result Pane View Types](using-different-result-pane-view-types.md).
+6.  If any of the scope items added by the namespace extension also have result pane views, you will need to implement the [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) interface as well. For more information about the view types available, see [Using Different Result Pane View Types](using-different-result-pane-view-types.md).
 7.  Also implement the [**IDataObject**](_ole_idataobject) interface. MMC will request data objects from the extension snap-in when one of the scope or result items it adds is selected by the user.
 8.  If the namespace extension extends its own items by adding context menu items, toolbars, menu buttons, or property pages, implement the required interfaces. For more information, see [Working with Toolbars and Menu Buttons](working-with-toolbars-and-menu-buttons.md) and [Adding Property Pages and Wizard Pages](adding-property-pages-and-wizard-pages.md).
 

@@ -1,7 +1,12 @@
 ---
 title: IAgent UnLoad
 description: IAgent UnLoad
-ms.assetid: '560301b3-c038-4c6e-b3f1-1203b618b67d'
+ms.assetid: 560301b3-c038-4c6e-b3f1-1203b618b67d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgent::UnLoad

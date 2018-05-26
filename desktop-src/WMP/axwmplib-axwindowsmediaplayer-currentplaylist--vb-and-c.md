@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.currentPlaylist property
 description: The currentPlaylist property gets or sets the current IWMPPlaylist interface that provides an easy way to organize and manipulate media items in a list.
-ms.assetid: 'd5a9f126-a628-499c-a012-8a47c6c987ef'
-keywords: ["currentPlaylist property Windows Media Player", "currentPlaylist property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , currentPlaylist property"]
+ms.assetid: d5a9f126-a628-499c-a012-8a47c6c987ef
+keywords:
+- currentPlaylist property Windows Media Player
+- currentPlaylist property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , currentPlaylist property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.currentPlaylist property
@@ -134,9 +142,9 @@ currentPlaylistLabel.Text = (&quot;Found first playlist. Name = &quot; + player.
 [**IWMPSettings.autoStart (VB and C#)**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

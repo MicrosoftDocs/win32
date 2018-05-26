@@ -1,8 +1,9 @@
 ---
 title: glGetColorTableParameterfvEXT function
 description: The glGetColorTableParameterfvEXT and glGetColorTableParameterivEXT functions get palette parameters from color tables.
-ms.assetid: 'e78051aa-4233-413c-8838-0741b54eab0e'
-keywords: ["glGetColorTableParameterfvEXT function OpenGL"]
+ms.assetid: e78051aa-4233-413c-8838-0741b54eab0e
+keywords:
+- glGetColorTableParameterfvEXT function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Gl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetColorTableParameterfvEXT function
@@ -22,9 +28,9 @@ The **glGetColorTableParameterfvEXT** and [**glGetColorTableParameterivEXT**](gl
 
 ```C++
 void WINAPI glGetColorTableParameterfvEXT(
-   GLenum  target,
-   GLenum  pname,
-   GLfloat *params
+   GLenum  target,
+   GLenum  pname,
+   GLfloat *params
 );
 ```
 
@@ -61,7 +67,7 @@ The following are the accepted symbolic constants and their meanings.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -82,7 +88,7 @@ You use the **glGetColorTableParameterivEXT** and **glGetColorTableParameterfvEX
 
 When the *target* parameter is GL\_PROXY\_TEXTURE\_1D or GL\_PROXY\_TEXTURE\_2D, and the implementation does not support the values specified for either *format* or *width*, **glColorTableEXT** can fail to create the requested color table. In this case, the color table is empty and all parameters retrieved will be zero. You can determine whether OpenGL supports a particular color table format and size by calling **glColorTableEXT** with a proxy target, and then calling **glGetColorTableParameterivEXT** or **glGetColorTableParameterfvEXT** to determine whether the width parameter matches that set by **glColorTableEXT**. If the retrieved width is zero, the color table request by **glColorTable** failed. If the retrieved width is not zero, you can call **glColorTable** with the real target with TEXTURE\_1D or TEXTURE\_2D to set the color table.
 
-The **glGetColorTableParameterivEXT** and **glGetColorTableParameterfvEXT** functions are extension functions that are not part of the standard OpenGL library but are part of the GL\_EXT\_paletted\_texture extension. To check whether your implementation of OpenGL supports **glGetColorTableParameterivEXT** and **glGetColorTableParameterfvEXT**, call [**glGetString**](glgetstring.md)**(**GL\_EXTENSIONS**)**. If it returns GL\_EXT\_paletted\_texture, **glGetColorTableParameterivEXT** and **glGetColorTableParameterfvEXT** are supported. To obtain the function address of an extension function, call [**wglGetProcAddress**](wglgetprocaddress.md).
+The **glGetColorTableParameterivEXT** and **glGetColorTableParameterfvEXT** functions are extension functions that are not part of the standard OpenGL library but are part of the GL\_EXT\_paletted\_texture extension. To check whether your implementation of OpenGL supports **glGetColorTableParameterivEXT** and **glGetColorTableParameterfvEXT**, call [**glGetString**](glgetstring.md)**(**GL\_EXTENSIONS**)**. If it returns GL\_EXT\_paletted\_texture, **glGetColorTableParameterivEXT** and **glGetColorTableParameterfvEXT** are supported. To obtain the function address of an extension function, call [**wglGetProcAddress**](/windows/win32/wingdi/nf-wingdi-wglgetprocaddress?branch=master).
 
 ## Requirements
 
@@ -90,8 +96,8 @@ The **glGetColorTableParameterivEXT** and **glGetColorTableParameterfvEXT** func
 
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                      |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                            |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                      |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                            |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl> |
 
 
@@ -112,12 +118,12 @@ The **glGetColorTableParameterivEXT** and **glGetColorTableParameterfvEXT** func
 [**glGetColorTableParameterivEXT**](glgetcolortableparameterivext.md)
 </dt> <dt>
 
-[**wglGetProcAddress**](wglgetprocaddress.md)
+[**wglGetProcAddress**](/windows/win32/wingdi/nf-wingdi-wglgetprocaddress?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

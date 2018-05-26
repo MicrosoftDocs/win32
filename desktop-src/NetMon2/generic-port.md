@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a port number used for IP or IPX protocols.'
-ms.assetid: '730f6ee6-7b7d-4e10-91ee-a4ba87aae5aa'
-title: 'GENERIC\_PORT union'
+Description: Contains a port number used for IP or IPX protocols.
+ms.assetid: 730f6ee6-7b7d-4e10-91ee-a4ba87aae5aa
+title: GENERIC\_PORT union
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GENERIC\_PORT union
@@ -44,15 +49,15 @@ IPX port number filled in.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

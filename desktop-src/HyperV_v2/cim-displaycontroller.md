@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a display controller.'
-ms.assetid: '14598ae6-58e2-46ca-8653-b57e5833a224'
-title: 'CIM\_DisplayController class'
+Description: Represents a display controller.
+ms.assetid: 14598ae6-58e2-46ca-8653-b57e5833a224
+title: CIM\_DisplayController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_DisplayController class
@@ -461,8 +466,8 @@ A text description of the video processor/controller.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -476,9 +481,9 @@ A text description of the video processor/controller.
 [**CIM\_Controller**](cim-controller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

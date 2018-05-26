@@ -1,14 +1,20 @@
 ---
 title: BcdLibraryElementTypes enumeration
 description: Specifies the library element types. Library elements are available to all objects.
-ms.assetid: '042ad83d-d764-46db-b611-c51228dccdde'
-keywords: ["BcdLibraryElementTypes enumeration Boot Config"]
+ms.assetid: 042ad83d-d764-46db-b611-c51228dccdde
+keywords:
+- BcdLibraryElementTypes enumeration Boot Config
 topic_type:
 - apiref
 api_name:
 - BcdLibraryElementTypes
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdLibraryElementTypes enumeration
@@ -20,57 +26,57 @@ Specifies the library element types. Library elements are available to all objec
 
 ```C++
 typedef enum BcdLibraryElementTypes { 
-  BcdLibraryDevice_ApplicationDevice                  = 0x11000001,
-  BcdLibraryString_ApplicationPath                    = 0x12000002,
-  BcdLibraryString_Description                        = 0x12000004,
-  BcdLibraryString_PreferredLocale                    = 0x12000005,
-  BcdLibraryObjectList_InheritedObjects               = 0x14000006,
-  BcdLibraryInteger_TruncatePhysicalMemory            = 0x15000007,
-  BcdLibraryObjectList_RecoverySequence               = 0x14000008,
-  BcdLibraryBoolean_AutoRecoveryEnabled               = 0x16000009,
-  BcdLibraryIntegerList_BadMemoryList                 = 0x1700000a,
-  BcdLibraryBoolean_AllowBadMemoryAccess              = 0x1600000b,
-  BcdLibraryInteger_FirstMegabytePolicy               = 0x1500000c,
-  BcdLibraryInteger_RelocatePhysicalMemory            = 0x1500000D,
-  BcdLibraryInteger_AvoidLowPhysicalMemory            = 0x1500000E,
-  BcdLibraryBoolean_DebuggerEnabled                   = 0x16000010,
-  BcdLibraryInteger_DebuggerType                      = 0x15000011,
-  BcdLibraryInteger_SerialDebuggerPortAddress         = 0x15000012,
-  BcdLibraryInteger_SerialDebuggerPort                = 0x15000013,
-  BcdLibraryInteger_SerialDebuggerBaudRate            = 0x15000014,
-  BcdLibraryInteger_1394DebuggerChannel               = 0x15000015,
-  BcdLibraryString_UsbDebuggerTargetName              = 0x12000016,
-  BcdLibraryBoolean_DebuggerIgnoreUsermodeExceptions  = 0x16000017,
-  BcdLibraryInteger_DebuggerStartPolicy               = 0x15000018,
-  BcdLibraryString_DebuggerBusParameters              = 0x12000019,
-  BcdLibraryInteger_DebuggerNetHostIP                 = 0x1500001A,
-  BcdLibraryInteger_DebuggerNetPort                   = 0x1500001B,
-  BcdLibraryBoolean_DebuggerNetDhcp                   = 0x1600001C,
-  BcdLibraryString_DebuggerNetKey                     = 0x1200001D,
-  BcdLibraryBoolean_EmsEnabled                        = 0x16000020,
-  BcdLibraryInteger_EmsPort                           = 0x15000022,
-  BcdLibraryInteger_EmsBaudRate                       = 0x15000023,
-  BcdLibraryString_LoadOptionsString                  = 0x12000030,
-  BcdLibraryBoolean_DisplayAdvancedOptions            = 0x16000040,
-  BcdLibraryBoolean_DisplayOptionsEdit                = 0x16000041,
-  BcdLibraryDevice_BsdLogDevice                       = 0x11000043,
-  BcdLibraryString_BsdLogPath                         = 0x12000044,
-  BcdLibraryBoolean_GraphicsModeDisabled              = 0x16000046,
-  BcdLibraryInteger_ConfigAccessPolicy                = 0x15000047,
-  BcdLibraryBoolean_DisableIntegrityChecks            = 0x16000048,
-  BcdLibraryBoolean_AllowPrereleaseSignatures         = 0x16000049,
-  BcdLibraryString_FontPath                           = 0x1200004A,
-  BcdLibraryInteger_SiPolicy                          = 0x1500004B,
-  BcdLibraryInteger_FveBandId                         = 0x1500004C,
-  BcdLibraryBoolean_ConsoleExtendedInput              = 0x16000050,
-  BcdLibraryInteger_GraphicsResolution                = 0x15000052,
-  BcdLibraryBoolean_RestartOnFailure                  = 0x16000053,
-  BcdLibraryBoolean_GraphicsForceHighestMode          = 0x16000054,
-  BcdLibraryBoolean_IsolatedExecutionContext          = 0x16000060,
-  BcdLibraryBoolean_BootUxDisable                     = 0x1600006C,
-  BcdLibraryBoolean_BootShutdownDisabled              = 0x16000074,
-  BcdLibraryIntegerList_AllowedInMemorySettings       = 0x17000077,
-  BcdLibraryBoolean_ForceFipsCrypto                   = 0x16000079
+  BcdLibraryDevice_ApplicationDevice                  = 0x11000001,
+  BcdLibraryString_ApplicationPath                    = 0x12000002,
+  BcdLibraryString_Description                        = 0x12000004,
+  BcdLibraryString_PreferredLocale                    = 0x12000005,
+  BcdLibraryObjectList_InheritedObjects               = 0x14000006,
+  BcdLibraryInteger_TruncatePhysicalMemory            = 0x15000007,
+  BcdLibraryObjectList_RecoverySequence               = 0x14000008,
+  BcdLibraryBoolean_AutoRecoveryEnabled               = 0x16000009,
+  BcdLibraryIntegerList_BadMemoryList                 = 0x1700000a,
+  BcdLibraryBoolean_AllowBadMemoryAccess              = 0x1600000b,
+  BcdLibraryInteger_FirstMegabytePolicy               = 0x1500000c,
+  BcdLibraryInteger_RelocatePhysicalMemory            = 0x1500000D,
+  BcdLibraryInteger_AvoidLowPhysicalMemory            = 0x1500000E,
+  BcdLibraryBoolean_DebuggerEnabled                   = 0x16000010,
+  BcdLibraryInteger_DebuggerType                      = 0x15000011,
+  BcdLibraryInteger_SerialDebuggerPortAddress         = 0x15000012,
+  BcdLibraryInteger_SerialDebuggerPort                = 0x15000013,
+  BcdLibraryInteger_SerialDebuggerBaudRate            = 0x15000014,
+  BcdLibraryInteger_1394DebuggerChannel               = 0x15000015,
+  BcdLibraryString_UsbDebuggerTargetName              = 0x12000016,
+  BcdLibraryBoolean_DebuggerIgnoreUsermodeExceptions  = 0x16000017,
+  BcdLibraryInteger_DebuggerStartPolicy               = 0x15000018,
+  BcdLibraryString_DebuggerBusParameters              = 0x12000019,
+  BcdLibraryInteger_DebuggerNetHostIP                 = 0x1500001A,
+  BcdLibraryInteger_DebuggerNetPort                   = 0x1500001B,
+  BcdLibraryBoolean_DebuggerNetDhcp                   = 0x1600001C,
+  BcdLibraryString_DebuggerNetKey                     = 0x1200001D,
+  BcdLibraryBoolean_EmsEnabled                        = 0x16000020,
+  BcdLibraryInteger_EmsPort                           = 0x15000022,
+  BcdLibraryInteger_EmsBaudRate                       = 0x15000023,
+  BcdLibraryString_LoadOptionsString                  = 0x12000030,
+  BcdLibraryBoolean_DisplayAdvancedOptions            = 0x16000040,
+  BcdLibraryBoolean_DisplayOptionsEdit                = 0x16000041,
+  BcdLibraryDevice_BsdLogDevice                       = 0x11000043,
+  BcdLibraryString_BsdLogPath                         = 0x12000044,
+  BcdLibraryBoolean_GraphicsModeDisabled              = 0x16000046,
+  BcdLibraryInteger_ConfigAccessPolicy                = 0x15000047,
+  BcdLibraryBoolean_DisableIntegrityChecks            = 0x16000048,
+  BcdLibraryBoolean_AllowPrereleaseSignatures         = 0x16000049,
+  BcdLibraryString_FontPath                           = 0x1200004A,
+  BcdLibraryInteger_SiPolicy                          = 0x1500004B,
+  BcdLibraryInteger_FveBandId                         = 0x1500004C,
+  BcdLibraryBoolean_ConsoleExtendedInput              = 0x16000050,
+  BcdLibraryInteger_GraphicsResolution                = 0x15000052,
+  BcdLibraryBoolean_RestartOnFailure                  = 0x16000053,
+  BcdLibraryBoolean_GraphicsForceHighestMode          = 0x16000054,
+  BcdLibraryBoolean_IsolatedExecutionContext          = 0x16000060,
+  BcdLibraryBoolean_BootUxDisable                     = 0x1600006C,
+  BcdLibraryBoolean_BootShutdownDisabled              = 0x16000074,
+  BcdLibraryIntegerList_AllowedInMemorySettings       = 0x17000077,
+  BcdLibraryBoolean_ForceFipsCrypto                   = 0x16000079
 } BcdLibraryElementTypes;
 ```
 
@@ -165,7 +171,7 @@ Indicates how the first megabyte of memory is to be used. The element data forma
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -175,9 +181,9 @@ Indicates how the first megabyte of memory is to be used. The element data forma
 Relocates physical memory on certain AMD processors. The element data format is [**BcdIntegerElement**](bcdintegerelement.md).
 
 > [!Note]  
-> This value is not used in Windows 8 or Windows Server 2012.
+> This value is not used in Windows 8 or Windows Server 2012.
 
- 
+ 
 
 </dd> <dt>
 
@@ -263,7 +269,7 @@ Indicates the debugger start policy. The element data format is [**BcdIntegerEle
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -293,7 +299,7 @@ Defines the network port for the network debugger. The element data format is [*
 
 Controls the use of DHCP by the network debugger. Setting this to false causes the OS to only use link-local addresses. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -302,7 +308,7 @@ Controls the use of DHCP by the network debugger. Setting this to false causes t
 
 Holds the key used to encrypt the network debug connection. The element data format is [**BcdStringElement**](bcdstringelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -385,7 +391,7 @@ Indicates the access policy for PCI configuration space. The element data format
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -395,9 +401,9 @@ Indicates the access policy for PCI configuration space. The element data format
 Disables integrity checks. Cannot be set when secure boot is enabled. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
 > [!Note]  
-> This value is ignored by Windows 7 and Windows 8.
+> This value is ignored by Windows 7 and Windows 8.
 
- 
+ 
 
 </dd> <dt>
 
@@ -416,7 +422,7 @@ Overrides the default location of the boot fonts. The element data format is [**
 > [!Note]  
 > Use caution when modifying this setting. Boot screens will not work if the correct fonts are not present.
 
- 
+ 
 
 </dd> <dt>
 
@@ -432,7 +438,7 @@ The element data format is [**BcdIntegerElement**](bcdintegerelement.md).
 
 This value (if present) should not be modified. The element data format is [**BcdIntegerElement**](bcdintegerelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -441,7 +447,7 @@ This value (if present) should not be modified. The element data format is [**Bc
 
 Specifies that legacy BIOS systems should use INT 16h Function 10h for console input instead of INT 16h Function 0h. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value only applies to Windows Vista and Windows 7.
+**Note**  This value only applies to Windows Vista and Windows 7.
 
 </dd> <dt>
 
@@ -464,18 +470,18 @@ If enabled, specifies that boot error screens are not shown when OS launch error
 
 Forces highest available graphics resolution at boot. This value can only be used on UEFI systems. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
 <span id="BcdLibraryBoolean_IsolatedExecutionContext"></span><span id="bcdlibraryboolean_isolatedexecutioncontext"></span><span id="BCDLIBRARYBOOLEAN_ISOLATEDEXECUTIONCONTEXT"></span>**BcdLibraryBoolean\_IsolatedExecutionContext**
 </dt> <dd>
 
-This setting is used to differentiate between the Windows 7 and Windows 8 implementations of UEFI. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
+This setting is used to differentiate between the Windows 7 and Windows 8 implementations of UEFI. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-Do not modify this setting. If this setting is removed from a Windows 8 installation, it will not boot. If this setting is added to a Windows 7 installation, it will not boot.
+Do not modify this setting. If this setting is removed from a Windows 8 installation, it will not boot. If this setting is added to a Windows 7 installation, it will not boot.
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -484,7 +490,7 @@ Do not modify this setting. If this setting is removed from a Windows 8 installa
 
 This setting disables the progress bar and default Windows logo. If a custom text string has been defined, it is also disabled by this setting. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -493,7 +499,7 @@ This setting disables the progress bar and default Windows logo. If a custom tex
 
 Disables the 1-minute timer that triggers shutdown on boot error screens, and the F8 menu, on UEFI systems. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -502,7 +508,7 @@ Disables the 1-minute timer that triggers shutdown on boot error screens, and th
 
 Indicates whether or not an in-memory BCD setting passed between boot apps will trigger BitLocker recovery. This value should not be modified as it could trigger a BitLocker recovery action. The element data format is [**BcdIntegerElement**](bcdintegerelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -511,7 +517,7 @@ Indicates whether or not an in-memory BCD setting passed between boot apps will 
 
 Force the use of FIPS cryptography checks on boot applications. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> </dl>
 
@@ -521,8 +527,8 @@ Force the use of FIPS cryptography checks on boot applications. The element data
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -551,9 +557,9 @@ Force the use of FIPS cryptography checks on boot applications. The element data
 [**BcdElementType**](bcdelementtype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

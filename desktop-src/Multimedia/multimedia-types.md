@@ -1,8 +1,18 @@
 ---
 title: Multimedia Types
 description: Multimedia Types
-ms.assetid: 'f3a86f46-c013-4096-9857-6b19335ec510'
-keywords: ["Windows multimedia,types", "multimedia,types", "multimedia reference,types", "reference for multimedia,types", "multimedia types"]
+ms.assetid: f3a86f46-c013-4096-9857-6b19335ec510
+keywords:
+- Windows multimedia,types
+- multimedia,types
+- multimedia reference,types
+- reference for multimedia,types
+- multimedia types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia Types

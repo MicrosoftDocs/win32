@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section contains the photo metadata policies for System properties.'
-ms.assetid: 'F4F9C95D-FDD4-4862-8399-30A8C2A4A3EC'
+---
+Description: This section contains the photo metadata policies for System properties.
+ms.assetid: F4F9C95D-FDD4-4862-8399-30A8C2A4A3EC
 title: System
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System

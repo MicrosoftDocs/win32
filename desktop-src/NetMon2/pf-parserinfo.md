@@ -1,7 +1,12 @@
 ---
-Description: 'The PF\_PARSERINFO structure defines one parser at a time. In the PF\_PARSERINFO structure, a parser is defined by the information about the protocol that the parser detects.'
-ms.assetid: 'e1180952-9560-4386-9320-919dfb8171b3'
-title: 'PF\_PARSERINFO structure'
+Description: The PF\_PARSERINFO structure defines one parser at a time. In the PF\_PARSERINFO structure, a parser is defined by the information about the protocol that the parser detects.
+ms.assetid: e1180952-9560-4386-9320-919dfb8171b3
+title: PF\_PARSERINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PF\_PARSERINFO structure
@@ -13,11 +18,11 @@ The **PF\_PARSERINFO** structure defines one parser at a time. In the **PF\_PARS
 
 ```C++
 typedef struct _PF_PARSERINFO {
-  char           szProtocolName[MAX_PROTOCOL_NAME_LEN];
-  char           szComment[MAX_PROTOCOL_COMMENT_LEN];
-  char           szHelpFile[MAX_PATH];
-  PPF_FOLLOWSET  pWhoCanPrecedeMe;
-  PPF_FOLLOWSET  pWhoCanFollowMe;
+  char           szProtocolName[MAX_PROTOCOL_NAME_LEN];
+  char           szComment[MAX_PROTOCOL_COMMENT_LEN];
+  char           szHelpFile[MAX_PATH];
+  PPF_FOLLOWSET  pWhoCanPrecedeMe;
+  PPF_FOLLOWSET  pWhoCanFollowMe;
   PPF_HANDOFFSET pWhoHandsOffToMe;
   PPF_HANDOFFSET pWhoDoIHandOffTo;
 } PF_PARSERINFO, *PPF_PARSERINFO;
@@ -94,11 +99,11 @@ A handoff set specifies the protocols that follow a protocol. The parser uses a 
 | What follow sets contain.                                        | [Specifying a Follow Set](specifying-a-follow-set.md)                       |
 | What handoff sets contain.                                       | [Specifying a Handoff Set](specifying-a-handoff-set.md)                     |
 | What entry points are included in the parser DLL.                | [Parser DLL Architecture](parser-dll-architecture.md)                       |
-| How to implement **ParserAutoInstallInfo**— includes an example. | [Implementing ParserAutoInstallInfo](implementing-parserautoinstallinfo.md) |
+| How to implement **ParserAutoInstallInfo**  includes an example. | [Implementing ParserAutoInstallInfo](implementing-parserautoinstallinfo.md) |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -106,8 +111,8 @@ A handoff set specifies the protocols that follow a protocol. The parser uses a 
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -128,9 +133,9 @@ A handoff set specifies the protocols that follow a protocol. The parser uses a 
 [PF\_PARSERDLLINFO](pf-parserdllinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

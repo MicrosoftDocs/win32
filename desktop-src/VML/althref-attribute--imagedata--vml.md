@@ -1,7 +1,12 @@
 ---
 title: AltHRef Attribute (ImageData)(VML)
 description: AltHRef Attribute (ImageData)(VML)
-ms.assetid: 'c55ede90-3d57-4f27-9940-1fe4751cef71'
+ms.assetid: c55ede90-3d57-4f27-9940-1fe4751cef71
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AltHRef Attribute (ImageData)(VML)

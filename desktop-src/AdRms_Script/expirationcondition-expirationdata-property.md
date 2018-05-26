@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves an ExpirationData object that specifies when protected content expires.'
+Description: Retrieves an ExpirationData object that specifies when protected content expires.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '41a5bc4d-0749-49ad-9cbc-bfbf727e87b8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 41a5bc4d-0749-49ad-9cbc-bfbf727e87b8
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExpirationCondition.ExpirationData property'
+title: ExpirationCondition.ExpirationData property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExpirationCondition.ExpirationData property
@@ -41,7 +44,7 @@ The [**ExpirationData**](expirationdata-object.md) object can be used to specify
 
 
 
- 
+ 
 
 ## Examples
 
@@ -135,7 +138,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -150,9 +153,9 @@ END SUB
 [**ExpirationData**](expirationdata-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

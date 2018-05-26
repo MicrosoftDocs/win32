@@ -1,13 +1,16 @@
 ---
-Description: 'You can use the methods of an SWbemServices object to perform operations against a namespace on either a local host or a remote host. This object cannot be created by the VBScript CreateObject call.'
+Description: You can use the methods of an SWbemServices object to perform operations against a namespace on either a local host or a remote host. This object cannot be created by the VBScript CreateObject call.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7fcfa404-2fe6-42e5-85ac-64536f6d2a44'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7fcfa404-2fe6-42e5-85ac-64536f6d2a44
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemServices object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemServices object
@@ -50,7 +53,7 @@ The **SWbemServices** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -64,7 +67,7 @@ The **SWbemServices** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,7 +81,7 @@ The methods can be called in either the synchronous mode, the asynchronous mode,
 
     `Set objSWbemServices = GetObject("winmgmts:")`
 
--   You can also use the [**SWbemLocator**](swbemlocator.md) object [**ConnectServer**](iwbemlocator-connectserver.md) method to obtain a reference to an **SWbemServices** object.
+-   You can also use the [**SWbemLocator**](swbemlocator.md) object [**ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master) method to obtain a reference to an **SWbemServices** object.
 
 After you obtain a reference to an **SWbemServices** object, you use the object reference to call 1 of 18 methods available using **SWbemServices**. **SWbemServices** can return one of three different WMI scripting library objects ([**SWbemObjectSet**](swbemobjectset.md), [**SWbemObject**](swbemobject.md), or [**SWbemEventSource**](swbemeventsource.md)), depending on the method you call. Knowing the type of object each method returns will help you determine the next step your script must take. For example, if you get back an **SWbemObjectSet**, you must enumerate the collection to access each **SWbemObject** in the collection. If you get back an **SWbemObject**, you can immediately access the object methods and properties without enumerating the collection first.
 
@@ -108,8 +111,8 @@ The methods most often used in system administration scripts are [**InstancesOf*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -128,9 +131,9 @@ The methods most often used in system administration scripts are [**InstancesOf*
 [Calling a Method](calling-a-method.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: How to Create a Vertex Buffer
 description: This topic shows how to initialize a static vertex buffer, that is, a vertex buffer that does not change.
-ms.assetid: '584a39d1-7629-429a-b451-64b1432cb48f'
-keywords: ["vertex buffer, creating"]
+ms.assetid: 584a39d1-7629-429a-b451-64b1432cb48f
+keywords:
+- vertex buffer, creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Create a Vertex Buffer
@@ -13,11 +19,11 @@ keywords: ["vertex buffer, creating"]
 
 1.  Define a structure that describes a vertex. For example, if your vertex data contains position data and color data, your structure would have one vector that describes the position and another that describes the color.
 2.  Allocate memory (using malloc or new) for the structure that you defined in step one. Fill this buffer with the actual vertex data that describes your geometry.
-3.  Create a buffer description by filling in a [**D3D11\_BUFFER\_DESC**](d3d11-buffer-desc.md) structure. Pass the D3D11\_BIND\_VERTEX\_BUFFER flag to the **BindFlags** member and pass the size of the structure from step one to the **ByteWidth** member.
-4.  Create a subresource data description by filling in a [**D3D11\_SUBRESOURCE\_DATA**](d3d11-subresource-data.md) structure. The **pSysMem** member of the [**D3D11\_SUBRESOURCE\_DATA**](d3d11-subresource-data.md) structure should point directly to the resource data created in step two.
-5.  Call [**ID3D11Device::CreateBuffer**](id3d11device-createbuffer.md) while passing the [**D3D11\_BUFFER\_DESC**](d3d11-buffer-desc.md) structure, the [**D3D11\_SUBRESOURCE\_DATA**](d3d11-subresource-data.md) structure, and the address of a pointer to the [**ID3D11Buffer**](id3d11buffer.md) interface to initialize.
+3.  Create a buffer description by filling in a [**D3D11\_BUFFER\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_buffer_desc?branch=master) structure. Pass the D3D11\_BIND\_VERTEX\_BUFFER flag to the **BindFlags** member and pass the size of the structure from step one to the **ByteWidth** member.
+4.  Create a subresource data description by filling in a [**D3D11\_SUBRESOURCE\_DATA**](/windows/win32/D3D11/ns-d3d11-d3d11_subresource_data?branch=master) structure. The **pSysMem** member of the [**D3D11\_SUBRESOURCE\_DATA**](/windows/win32/D3D11/ns-d3d11-d3d11_subresource_data?branch=master) structure should point directly to the resource data created in step two.
+5.  Call [**ID3D11Device::CreateBuffer**](/windows/win32/D3D11/nf-d3d11-id3d11device-createbuffer?branch=master) while passing the [**D3D11\_BUFFER\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_buffer_desc?branch=master) structure, the [**D3D11\_SUBRESOURCE\_DATA**](/windows/win32/D3D11/ns-d3d11-d3d11_subresource_data?branch=master) structure, and the address of a pointer to the [**ID3D11Buffer**](/windows/win32/D3D11/nn-d3d11-id3d11buffer?branch=master) interface to initialize.
 
-The following code example demonstrates how to create a vertex buffer. This example assumes that **g\_pd3dDevice** is a valid [**ID3D11Device**](id3d11device.md) object.
+The following code example demonstrates how to create a vertex buffer. This example assumes that **g\_pd3dDevice** is a valid [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) object.
 
 
 ```
@@ -67,9 +73,9 @@ hr = g_pd3dDevice->CreateBuffer( &amp;bufferDesc, &amp;InitData, &amp;g_pVertexB
 
 Here are some ways to initialize a vertex buffer that changes over time.
 
-1.  Create a 2nd buffer with [**D3D11\_USAGE\_STAGING**](d3d11-usage.md#d3d11-usage-staging); fill the second buffer using [**ID3D11DeviceContext::Map**](id3d11devicecontext-map.md), [**ID3D11DeviceContext::Unmap**](id3d11devicecontext-unmap.md); use [**ID3D11DeviceContext::CopyResource**](id3d11devicecontext-copyresource.md) to copy from the staging buffer to the default buffer.
-2.  Use [**ID3D11DeviceContext::UpdateSubresource**](id3d11devicecontext-updatesubresource.md) to copy data from memory.
-3.  Create a buffer with [**D3D11\_USAGE\_DYNAMIC**](d3d11-usage.md#d3d11-usage-dynamic), and fill it with [**ID3D11DeviceContext::Map**](id3d11devicecontext-map.md), [**ID3D11DeviceContext::Unmap**](id3d11devicecontext-unmap.md) (using the Discard and NoOverwrite flags appropriately).
+1.  Create a 2nd buffer with [**D3D11\_USAGE\_STAGING**](d3d11-usage.md#d3d11-usage-staging); fill the second buffer using [**ID3D11DeviceContext::Map**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-map?branch=master), [**ID3D11DeviceContext::Unmap**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-unmap?branch=master); use [**ID3D11DeviceContext::CopyResource**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-copyresource?branch=master) to copy from the staging buffer to the default buffer.
+2.  Use [**ID3D11DeviceContext::UpdateSubresource**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-updatesubresource?branch=master) to copy data from memory.
+3.  Create a buffer with [**D3D11\_USAGE\_DYNAMIC**](d3d11-usage.md#d3d11-usage-dynamic), and fill it with [**ID3D11DeviceContext::Map**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-map?branch=master), [**ID3D11DeviceContext::Unmap**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-unmap?branch=master) (using the Discard and NoOverwrite flags appropriately).
 
 \#1 and \#2 are useful for content that changes less than once per frame. In general, GPU reads will be fast and CPU updates will be slower.
 

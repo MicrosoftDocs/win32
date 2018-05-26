@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the data needed to call a device dialog.'
-ms.assetid: '424defa6-1452-4a8b-bacc-738209c236c3'
+---
+Description: Defines the data needed to call a device dialog.
+ms.assetid: 424defa6-1452-4a8b-bacc-738209c236c3
 title: DEVICEDIALOGDATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DEVICEDIALOGDATA structure
@@ -54,11 +59,11 @@ Specifies the handle to the parent window of the dialog.
 **pIWiaItemRoot**
 </dt> <dd>
 
-Type: **[**IWiaItem**](-wia-iwiaitem.md)\***
+Type: **[**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master)\***
 
 </dd> <dd>
 
-Points to an [**IWiaItem**](-wia-iwiaitem.md) interface that represents the valid root item in the application item tree.
+Points to an [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) interface that represents the valid root item in the application item tree.
 
 </dd> <dt>
 
@@ -110,11 +115,11 @@ Receives the number of items in the array indicated by the **ppWiaItem** paramet
 **ppWiaItem**
 </dt> <dd>
 
-Type: **[**IWiaItem**](-wia-iwiaitem.md)\*\***
+Type: **[**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master)\*\***
 
 </dd> <dd>
 
-Receives the address of an array of pointers to [**IWiaItem**](-wia-iwiaitem.md) interfaces.
+Receives the address of an array of pointers to [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) interfaces.
 
 </dd> </dl>
 

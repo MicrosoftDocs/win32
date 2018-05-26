@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads a surface from a resource.'
-ms.assetid: '16d49f61-8c84-4e15-aacc-1d26099e65e0'
+---
+Description: Loads a surface from a resource.
+ms.assetid: 16d49f61-8c84-4e15-aacc-1d26099e65e0
 title: D3DXLoadSurfaceFromResource function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXLoadSurfaceFromResource function
@@ -34,18 +39,18 @@ HRESULT D3DXLoadSurfaceFromResource(
 *pDestSurface* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DSURFACE9**](idirect3dsurface9.md)**
+Type: **[**LPDIRECT3DSURFACE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dsurface9?branch=master)**
 
-Pointer to an [**IDirect3DSurface9**](idirect3dsurface9.md) interface. Specifies the destination surface, which receives the image.
+Pointer to an [**IDirect3DSurface9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dsurface9?branch=master) interface. Specifies the destination surface, which receives the image.
 
 </dd> <dt>
 
 *pDestPalette* \[in\]
 </dt> <dd>
 
-Type: **const [**PALETTEENTRY**](paletteentry.md)\***
+Type: **const [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master)\***
 
-Pointer to a [**PALETTEENTRY**](paletteentry.md) structure, the destination palette of 256 colors or **NULL**.
+Pointer to a [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master) structure, the destination palette of 256 colors or **NULL**.
 
 </dd> <dt>
 
@@ -126,7 +131,7 @@ The resource being loaded must be of type RT\_BITMAP or RT\_RCDATA. Resource typ
 
 This function handles conversion to and from compressed texture formats.
 
-Writing to a non-level-zero surface will not cause the dirty rectangle to be updated. If [**D3DXLoadSurfaceFromFile**](d3dxloadsurfacefromfile.md) is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](idirect3dtexture9--adddirtyrect.md) on the surface.
+Writing to a non-level-zero surface will not cause the dirty rectangle to be updated. If [**D3DXLoadSurfaceFromFile**](d3dxloadsurfacefromfile.md) is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](/windows/win32/d3d9helper/nf-d3d9-idirect3dtexture9-adddirtyrect?branch=master) on the surface.
 
 ## Requirements
 

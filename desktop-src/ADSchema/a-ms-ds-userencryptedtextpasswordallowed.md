@@ -4,17 +4,22 @@ description: Indicates whether Active Directory will store the password in the r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '67067cf6-60e3-4626-bf8c-a0a1264a899e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 67067cf6-60e3-4626-bf8c-a0a1264a899e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-User-Encrypted-Text-Password-Allowed attribute AD Schema", "ms-DS-UserEncryptedTextPasswordAllowed attribute AD Schema"]
+keywords:
+- ms-DS-User-Encrypted-Text-Password-Allowed attribute AD Schema
+- ms-DS-UserEncryptedTextPasswordAllowed attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-User-Encrypted-Text-Password-Allowed
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-User-Encrypted-Text-Password-Allowed attribute
@@ -24,7 +29,7 @@ Indicates whether Active Directory will store the password in the reversible enc
 > [!Note]  
 > This attribute is not used by [Active Directory Lightweight Directory Services](https://msdn.microsoft.com/library/aa705886) and is only included for completeness/parity with userAccountControl. AD LDS does not store passwords with reversible encryption, regardless of this attribute's value on any given object or the computer security policy pertaining to reversible encryption on the computer itself.
 
- 
+ 
 
 
 
@@ -70,9 +75,9 @@ Indicates whether Active Directory will store the password in the reversible enc
 
 In ADAM, this attribute replaces the [**ADS\_UF\_ENCRYPTED\_TEXT\_PASSWORD\_ALLOWED**](https://msdn.microsoft.com/library/aa772300) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
 
- 
+ 
 
- 
+ 
 
 
 

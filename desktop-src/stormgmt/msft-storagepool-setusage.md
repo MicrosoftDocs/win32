@@ -1,8 +1,11 @@
 ---
 title: SetUsage method of the MSFT\_StoragePool class
 description: Sets or changes the intended usage for the storage pool object.
-ms.assetid: 'CC133913-C19A-4565-8D91-45679B7C709A'
-keywords: ["SetUsage method Windows Storage Management API", "SetUsage method Windows Storage Management API , MSFT_StoragePool class", "MSFT_StoragePool class Windows Storage Management API , SetUsage method"]
+ms.assetid: CC133913-C19A-4565-8D91-45679B7C709A
+keywords:
+- SetUsage method Windows Storage Management API
+- SetUsage method Windows Storage Management API , MSFT_StoragePool class
+- MSFT_StoragePool class Windows Storage Management API , SetUsage method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetUsage method of the MSFT\_StoragePool class
@@ -22,9 +30,9 @@ Sets or changes the intended usage for the storage pool object.
 
 ```mof
 UInt32 SetUsage(
-  [in]  UInt16 Usage,
-  [in]  String OtherUsageDescription,
-  [out] String ExtendedStatus
+  [in]  UInt16 Usage,
+  [in]  String OtherUsageDescription,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -134,8 +142,8 @@ Not all storage pools may allow this method. Those that do not will cause this m
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -148,9 +156,9 @@ Not all storage pools may allow this method. Those that do not will cause this m
 [**MSFT\_StoragePool**](msft-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

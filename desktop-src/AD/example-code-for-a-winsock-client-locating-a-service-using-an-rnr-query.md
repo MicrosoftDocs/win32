@@ -4,11 +4,17 @@ description: The following code example locates the example Winsock service and 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c05c7f69-d510-4feb-b426-1ae3a3ed5e16'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c05c7f69-d510-4feb-b426-1ae3a3ed5e16
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Locating a Service Using an RnR Query AD", "Windows Sockets Registration and Resolution AD , Example Code, Locating a Service Using an RnR Query", "Locating a Service Using an RnR Query AD , Example Code"]
+keywords:
+- Example Code for Locating a Service Using an RnR Query AD
+- Windows Sockets Registration and Resolution AD , Example Code, Locating a Service Using an RnR Query
+- Locating a Service Using an RnR Query AD , Example Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Locating a Service Using an RnR Query

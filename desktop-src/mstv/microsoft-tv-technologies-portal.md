@@ -1,7 +1,12 @@
 ---
 title: Microsoft TV Technologies
 description: .
-ms.assetid: '15f549c8-3e0a-49ce-b3da-8bcd2853a9aa'
+ms.assetid: 15f549c8-3e0a-49ce-b3da-8bcd2853a9aa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft TV Technologies

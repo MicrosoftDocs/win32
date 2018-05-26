@@ -1,8 +1,11 @@
 ---
 title: IMimeMessage GetSender method
 description: Gets the sender of the message.
-ms.assetid: '7fa56654-60cb-4564-97f5-3daf0d42215c'
-keywords: ["GetSender method Windows Mail (formerly Outlook Express)", "GetSender method Windows Mail (formerly Outlook Express) , IMimeMessage interface", "IMimeMessage interface Windows Mail (formerly Outlook Express) , GetSender method"]
+ms.assetid: 7fa56654-60cb-4564-97f5-3daf0d42215c
+keywords:
+- GetSender method Windows Mail (formerly Outlook Express)
+- GetSender method Windows Mail (formerly Outlook Express) , IMimeMessage interface
+- IMimeMessage interface Windows Mail (formerly Outlook Express) , GetSender method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessage::GetSender method
@@ -22,7 +30,7 @@ Gets the sender of the message.
 
 ```C++
 HRESULT GetSender(
-  [in, out] LPADDRESSPROPS pAddress
+  [in, out] LPADDRESSPROPS pAddress
 );
 ```
 
@@ -59,7 +67,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,8 +85,8 @@ pAddressTable-&gt;[**GetSender**](oe-imimeaddresstable-getsender.md)(*pAddress*)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -86,9 +94,9 @@ pAddressTable-&gt;[**GetSender**](oe-imimeaddresstable-getsender.md)(*pAddress*)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

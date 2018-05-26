@@ -1,8 +1,16 @@
 ---
 title: WriteXmlSimpleExample
 description: This example writes a simple xml document.
-ms.assetid: '9af95856-cd17-414a-aa4c-6a9927acf81e'
-keywords: ["WriteXmlSimpleExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 9af95856-cd17-414a-aa4c-6a9927acf81e
+keywords:
+- WriteXmlSimpleExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WriteXmlSimpleExample

@@ -1,7 +1,12 @@
 ---
-Description: 'The file log is resident on the user's system and stores information about the files copied during an installation.'
-ms.assetid: '7fee40cb-54db-41e0-ba42-6bc62d0ab3bd'
+Description: The file log is resident on the users system and stores information about the files copied during an installation.
+ms.assetid: 7fee40cb-54db-41e0-ba42-6bc62d0ab3bd
 title: File Log
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Log

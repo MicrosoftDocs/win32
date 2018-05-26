@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ExpsCompressionOptions enumeration describes compression options for an XPS part.'
-ms.assetid: '7df53803-4e01-4d00-b7a4-2f2d1dde5ad8'
+---
+Description: The ExpsCompressionOptions enumeration describes compression options for an XPS part.
+ms.assetid: 7df53803-4e01-4d00-b7a4-2f2d1dde5ad8
 title: EXpsCompressionOptions enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXpsCompressionOptions enumeration

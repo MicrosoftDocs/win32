@@ -1,14 +1,19 @@
 ---
 Description: Async Filter Sample
-ms.assetid: 'ad1f2386-6d23-4a6d-8542-bbca53df4825'
+ms.assetid: ad1f2386-6d23-4a6d-8542-bbca53df4825
 title: Async Filter Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Async Filter Sample
 
 ## Description
 
-The Async Filter sample is a file reader filter that supports progressive download. This sample filter implements the [**IAsyncReader**](iasyncreader.md) and [**IFileSourceFilter**](ifilesourcefilter.md) interfaces. It supports MPEG files, but not AVI files.
+The Async Filter sample is a file reader filter that supports progressive download. This sample filter implements the [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) and [**IFileSourceFilter**](/windows/win32/Strmif/nn-strmif-ifilesourcefilter?branch=master) interfaces. It supports MPEG files, but not AVI files.
 
 ## Usage
 

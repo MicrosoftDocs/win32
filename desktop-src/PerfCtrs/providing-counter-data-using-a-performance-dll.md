@@ -1,7 +1,12 @@
 ---
-Description: 'A service, driver, or application that wants to provide counter data can write a performance DLL to provide the data.'
-ms.assetid: '030316e5-f9f3-4333-9bb4-7ad301bbe7bf'
+Description: A service, driver, or application that wants to provide counter data can write a performance DLL to provide the data.
+ms.assetid: 030316e5-f9f3-4333-9bb4-7ad301bbe7bf
 title: Providing Counter Data Using a Performance DLL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Providing Counter Data Using a Performance DLL

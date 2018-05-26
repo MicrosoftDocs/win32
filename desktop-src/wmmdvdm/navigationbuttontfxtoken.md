@@ -1,14 +1,20 @@
 ---
 title: NavigationButtonTFXToken element
 description: Specifies the globally unique identifier (GUID) of the navigation button style to be used by this menu style.
-ms.assetid: '82ce59e2-db73-4209-95c2-d76a2592e957'
-keywords: ["NavigationButtonTFXToken element Windows Movie Maker and DVD Maker"]
+ms.assetid: 82ce59e2-db73-4209-95c2-d76a2592e957
+keywords:
+- NavigationButtonTFXToken element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - NavigationButtonTFXToken
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NavigationButtonTFXToken element
@@ -59,7 +65,7 @@ In addition, some media nodes are referenced as follows:
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -71,9 +77,9 @@ In addition, some media nodes are referenced as follows:
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: IME Share
-ms.assetid: '2824DA0C-7155-47BF-BAE1-4847EDD62107'
+ms.assetid: 2824DA0C-7155-47BF-BAE1-4847EDD62107
 title: IME Share
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IME Share

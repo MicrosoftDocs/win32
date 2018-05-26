@@ -1,8 +1,14 @@
 ---
 title: RPC Message Queuing
 description: Message Queuing (MSMQ) lets users communicate across networks and systems regardless of the current state of the communicating applications and systems.
-ms.assetid: 'f1c8665b-3754-4c2e-b3ac-bba1f4b329e1'
-keywords: ["Remote Procedure Call RPC , described, message queuing"]
+ms.assetid: f1c8665b-3754-4c2e-b3ac-bba1f4b329e1
+keywords:
+- Remote Procedure Call RPC , described, message queuing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC Message Queuing

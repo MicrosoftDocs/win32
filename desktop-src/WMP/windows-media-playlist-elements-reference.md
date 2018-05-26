@@ -1,8 +1,18 @@
 ---
 title: Windows Media Playlist Elements Reference
 description: Windows Media Playlist Elements Reference
-ms.assetid: '3f88d46a-59d3-4200-bf99-a3dddae1b0ac'
-keywords: ["Windows Media Playlists (WPL)", "WPL (Windows Media Playlists)", "Windows Media,Windows Media Playlists (WPL)", "playlists,Windows Media Playlists (WPL)", "reference for Windows Media Playlists"]
+ms.assetid: 3f88d46a-59d3-4200-bf99-a3dddae1b0ac
+keywords:
+- Windows Media Playlists (WPL)
+- WPL (Windows Media Playlists)
+- Windows Media,Windows Media Playlists (WPL)
+- playlists,Windows Media Playlists (WPL)
+- reference for Windows Media Playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Playlist Elements Reference

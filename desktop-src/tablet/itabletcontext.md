@@ -1,7 +1,12 @@
 ---
-Description: 'Stores tablet context information.'
-ms.assetid: 'a9eadc83-c3dc-42ba-bd4c-24a4a95563ff'
+Description: Stores tablet context information.
+ms.assetid: a9eadc83-c3dc-42ba-bd4c-24a4a95563ff
 title: ITabletContext interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletContext interface
@@ -142,15 +147,15 @@ interface ITabletContext : IUnknown
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

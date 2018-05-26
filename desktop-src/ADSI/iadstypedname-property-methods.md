@@ -4,11 +4,12 @@ description: The property method of the IADsTypedName interface sets the propert
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0097c7c0-91f9-4874-93f2-c24900054a49'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0097c7c0-91f9-4874-93f2-c24900054a49
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsTypedName Property Methods ADSI"]
+keywords:
+- IADsTypedName Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -26,11 +27,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsTypedName Property Methods
 
-The property method of the [**IADsTypedName**](iadstypedname.md) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property method of the [**IADsTypedName**](/windows/win32/Iads/nn-iads-iadstypedname?branch=master) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -120,7 +124,7 @@ HRESULT put_ObjectName(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -128,8 +132,8 @@ HRESULT put_ObjectName(
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsTypedName is defined as B371A349-4080-11D1-A3AC-00C04FB950DC<br/>        |
@@ -140,15 +144,15 @@ HRESULT put_ObjectName(
 
 <dl> <dt>
 
-[**IADsTypedName**](iadstypedname.md)
+[**IADsTypedName**](/windows/win32/Iads/nn-iads-iadstypedname?branch=master)
 </dt> <dt>
 
-[**ADS\_TYPEDNAME**](ads-typedname.md)
+[**ADS\_TYPEDNAME**](/windows/win32/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0009?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

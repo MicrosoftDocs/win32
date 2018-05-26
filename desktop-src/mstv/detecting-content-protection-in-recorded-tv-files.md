@@ -1,7 +1,12 @@
 ---
 title: Detecting Content Protection in Recorded TV Files
 description: Detecting Content Protection in Recorded TV Files
-ms.assetid: '534eab34-736f-4073-bb8f-d27ee240b6e1'
+ms.assetid: 534eab34-736f-4073-bb8f-d27ee240b6e1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Detecting Content Protection in Recorded TV Files
@@ -20,7 +25,7 @@ To get the attributes from a DVR-MS file, do the following:
 
 1.  Create the Stream Buffer Engine (SBE) recording attributes object and retrieve the [**IFileSourceFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389981) interface.
 2.  Call [**IFileSourceFilter::Load**](https://msdn.microsoft.com/library/windows/desktop/dd389983) with the name of the DVR-MS file.
-3.  Query the recording attributes object for [**IStreamBufferRecordingAttribute**](istreambufferrecordingattribute.md) interface.
+3.  Query the recording attributes object for [**IStreamBufferRecordingAttribute**](/windows/previous-versions/Sbe/nn-sbe-istreambufferrecordingattribute?branch=master) interface.
 4.  Use the **IStreamBufferRecordingAttribute** interface to retrieve the attributes.
 
 The main attribute that applications should check is the [**WM/WMRVContentProtected**](wm-wmrvcontentprotected.md) attribute. Windows Media Center sets this attribute to **TRUE** if more than 5 minutes of the file is protected, or more than 5 percent of the total file is protected. Other content protection attributes include the following:
@@ -35,7 +40,7 @@ The main attribute that applications should check is the [**WM/WMRVContentProtec
 
 **Content Protection Events**
 
-The content protection attributes do not describe the protection status of individual packets in the file. Applications that use the Video Control to play DVR-MS files should use the [**IBroadcastEventEx**](ibroadcasteventex.md) interface to subscribe to broadcast events. If playback reaches a section of protected content, the application receives an **EVENTID\_EncDecFilterEvent** event. The data associated with this event is a member of the [**CPEvents**](cpevents.md) enumeration. After that, if playback reaches a section of unprotected content, the application receives another **EVENTID\_EncDecFilterEvent** event, with the value CPEVENT\_NONE. For more information, see [**TV Ratings Broadcast Events**](tv-ratings-broadcast-events.md).
+The content protection attributes do not describe the protection status of individual packets in the file. Applications that use the Video Control to play DVR-MS files should use the [**IBroadcastEventEx**](/windows/previous-versions/tuner/nn-tuner-ibroadcasteventex?branch=master) interface to subscribe to broadcast events. If playback reaches a section of protected content, the application receives an **EVENTID\_EncDecFilterEvent** event. The data associated with this event is a member of the [**CPEvents**](/windows/previous-versions/EncDec/ne-encdec-cpevents?branch=master) enumeration. After that, if playback reaches a section of unprotected content, the application receives another **EVENTID\_EncDecFilterEvent** event, with the value CPEVENT\_NONE. For more information, see [**TV Ratings Broadcast Events**](tv-ratings-broadcast-events.md).
 
 ## Related topics
 

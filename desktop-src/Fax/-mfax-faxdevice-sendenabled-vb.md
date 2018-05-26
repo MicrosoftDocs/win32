@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SendEnabled property is a Boolean value that indicates whether the fax device is enabled for sending faxes.'
-ms.assetid: 'd525f34f-a8c3-4895-8281-a06d3653af0f'
-title: 'FaxDevice.SendEnabled property'
+---
+Description: The SendEnabled property is a Boolean value that indicates whether the fax device is enabled for sending faxes.
+ms.assetid: d525f34f-a8c3-4895-8281-a06d3653af0f
+title: FaxDevice.SendEnabled property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.SendEnabled property
@@ -50,7 +55,7 @@ If this property is equal to **True**, the fax device is enabled to send faxes. 
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

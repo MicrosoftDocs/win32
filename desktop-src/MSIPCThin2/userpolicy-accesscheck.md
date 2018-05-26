@@ -4,11 +4,14 @@ description: Returns a value that indicates whether the current user has the spe
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.UserPolicy.AccessCheck(Microsoft.RightsManagement.Right)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.UserPolicy.AccessCheck(Microsoft.RightsManagement.Right)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["AccessCheck method", "AccessCheck method, UserPolicy class", "UserPolicy class, AccessCheck method"]
+keywords:
+- AccessCheck method
+- AccessCheck method, UserPolicy class
+- UserPolicy class, AccessCheck method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.Protection.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.AccessCheck method
@@ -57,7 +63,7 @@ Type: [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx)
 > [!Note]  
 > When called on behalf of the content owner, returns **True** for any right that is specified.
 
- 
+ 
 
 ## Requirements
 
@@ -80,9 +86,9 @@ Type: [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx)
 [**UserPolicy**](userpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

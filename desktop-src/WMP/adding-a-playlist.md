@@ -1,8 +1,19 @@
 ---
 title: Adding a Playlist
 description: Adding a Playlist
-ms.assetid: 'be0c2cac-245d-4435-87d9-4f17076e005a'
-keywords: ["creating skins,playlists", "Windows Media Player skins,playlists", "skins,playlists", "playlists,skins", "metafile playlists,skins", "Windows Media metafile playlists,skins"]
+ms.assetid: be0c2cac-245d-4435-87d9-4f17076e005a
+keywords:
+- creating skins,playlists
+- Windows Media Player skins,playlists
+- skins,playlists
+- playlists,skins
+- metafile playlists,skins
+- Windows Media metafile playlists,skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Playlist

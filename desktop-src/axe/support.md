@@ -1,8 +1,10 @@
 ---
 title: Support class
 description: Provides status and progress reporting capability to assessments.
-ms.assetid: '67058FB3-108A-4B09-A6E9-665376FDD12F'
-keywords: ["Support class Access Execution Engine", "Support class Access Execution Engine , described"]
+ms.assetid: 67058FB3-108A-4B09-A6E9-665376FDD12F
+keywords:
+- Support class Access Execution Engine
+- Support class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support class
@@ -58,7 +65,7 @@ The **Support** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,16 +73,16 @@ The **Support** class has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

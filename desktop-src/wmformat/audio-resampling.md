@@ -1,8 +1,21 @@
 ---
 title: Audio Resampling
 description: Audio Resampling
-ms.assetid: 'ec6ad6b2-1d35-4ac4-9a1e-3fc9c053000c'
-keywords: ["Windows Media Format SDK,audio resampling", "Windows Media Format SDK,resampling audio", "Advanced Systems Format (ASF),audio resampling", "ASF (Advanced Systems Format),audio resampling", "Advanced Systems Format (ASF),resampling audio", "ASF (Advanced Systems Format),resampling audio", "audio resampling", "resampling audio,about"]
+ms.assetid: ec6ad6b2-1d35-4ac4-9a1e-3fc9c053000c
+keywords:
+- Windows Media Format SDK,audio resampling
+- Windows Media Format SDK,resampling audio
+- Advanced Systems Format (ASF),audio resampling
+- ASF (Advanced Systems Format),audio resampling
+- Advanced Systems Format (ASF),resampling audio
+- ASF (Advanced Systems Format),resampling audio
+- audio resampling
+- resampling audio,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Resampling

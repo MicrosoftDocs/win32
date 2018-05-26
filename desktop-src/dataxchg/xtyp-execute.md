@@ -1,8 +1,9 @@
 ---
 title: XTYP\_EXECUTE transaction
 description: A client uses the XTYP\_EXECUTE transaction to send a command string to the server. A Dynamic Data Exchange (DDE) server callback function, DdeCallback, receives this transaction when a client specifies XTYP\_EXECUTE in the DdeClientTransaction function.
-ms.assetid: '6001eb7d-59c0-49ec-97ce-26132891188c'
-keywords: ["XTYP_EXECUTE transaction Data Exchange"]
+ms.assetid: 6001eb7d-59c0-49ec-97ce-26132891188c
+keywords:
+- XTYP_EXECUTE transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_EXECUTE transaction
 
-A client uses the **XTYP\_EXECUTE** transaction to send a command string to the server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](ddecallback.md), receives this transaction when a client specifies **XTYP\_EXECUTE** in the [**DdeClientTransaction**](ddeclienttransaction.md) function.
+A client uses the **XTYP\_EXECUTE** transaction to send a command string to the server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](ddecallback.md), receives this transaction when a client specifies **XTYP\_EXECUTE** in the [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master) function.
 
 
 ```C++
@@ -91,9 +97,9 @@ A server callback function should return **DDE\_FACK** if it processes this tran
 
 ## Remarks
 
-This transaction is filtered if the server application specified the **CBF\_FAIL\_EXECUTES** flag in the [**DdeInitialize**](ddeinitialize.md) function.
+This transaction is filtered if the server application specified the **CBF\_FAIL\_EXECUTES** flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function.
 
-An application must free the data handle obtained during this transaction. An application must, however, copy the command string associated with the data handle if the application must process the string after the callback function returns. An application can use the [**DdeGetData**](ddegetdata.md) function to copy the data.
+An application must free the data handle obtained during this transaction. An application must, however, copy the command string associated with the data handle if the application must process the string after the callback function returns. An application can use the [**DdeGetData**](/windows/win32/Ddeml/nf-ddeml-ddegetdata?branch=master) function to copy the data.
 
 Because most client applications expect a server application to perform an **XTYP\_EXECUTE** transaction synchronously, a server should attempt to perform all processing of the **XTYP\_EXECUTE** transaction either from within the DDE callback function or by returning the **CBR\_BLOCK** return code. If the *hdata* parameter is a command that instructs the server to terminate, the server should do so after processing the **XTYP\_EXECUTE** transaction.
 
@@ -103,8 +109,8 @@ Because most client applications expect a server application to perform an **XTY
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -116,13 +122,13 @@ Because most client applications expect a server application to perform an **XTY
 **Reference**
 </dt> <dt>
 
-[**DdeClientTransaction**](ddeclienttransaction.md)
+[**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master)
 </dt> <dt>
 
-[**DdeGetData**](ddegetdata.md)
+[**DdeGetData**](/windows/win32/Ddeml/nf-ddeml-ddegetdata?branch=master)
 </dt> <dt>
 
-[**DdeInitialize**](ddeinitialize.md)
+[**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -131,9 +137,9 @@ Because most client applications expect a server application to perform an **XTY
 [Dynamic Data Exchange Management Library](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

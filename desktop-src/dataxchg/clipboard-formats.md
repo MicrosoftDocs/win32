@@ -1,8 +1,21 @@
 ---
 title: Clipboard Formats
 description: A window can place more than one object on the clipboard, each representing the same information in a different clipboard format. Users need not be aware of the clipboard formats used for an object on the clipboard.
-ms.assetid: 'fe42baec-6b00-4816-b379-7f335da8a197'
-keywords: ["clipboard,formats", "clipboard,windows", "clipboard,standard formats", "clipboard,registered formats", "clipboard,synthesized formats", "standard clipboard formats", "registered clipboard formats", "synthesized clipboard formats"]
+ms.assetid: fe42baec-6b00-4816-b379-7f335da8a197
+keywords:
+- clipboard,formats
+- clipboard,windows
+- clipboard,standard formats
+- clipboard,registered formats
+- clipboard,synthesized formats
+- standard clipboard formats
+- registered clipboard formats
+- synthesized clipboard formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clipboard Formats
@@ -25,9 +38,9 @@ The clipboard formats defined by the system are called *standard clipboard forma
 
 Many applications work with data that cannot be translated into a standard clipboard format without loss of information. These applications can create their own clipboard formats. A clipboard format that is defined by an application, is called a [registered clipboard format](#registered-clipboard-formats). For example, if a word-processing application copied formatted text to the clipboard using a standard text format, the formatting information would be lost. The solution would be to register a new clipboard format, such as Rich Text Format (RTF).
 
-To register a new clipboard format, use the [**RegisterClipboardFormat**](registerclipboardformat.md) function. This function takes the name of the format and returns and unsigned integer value that represents the registered clipboard format. To retrieve the name of the registered clipboard format, pass the unsigned integer value to the [**GetClipboardFormatName**](getclipboardformatname.md) function.
+To register a new clipboard format, use the [**RegisterClipboardFormat**](/windows/win32/Winuser/nf-winuser-registerclipboardformata?branch=master) function. This function takes the name of the format and returns and unsigned integer value that represents the registered clipboard format. To retrieve the name of the registered clipboard format, pass the unsigned integer value to the [**GetClipboardFormatName**](/windows/win32/Winuser/nf-winuser-getclipboardformatnamea?branch=master) function.
 
-If more than one application registers a clipboard format with exactly the same name, the clipboard format is registered only once. Both calls to the [**RegisterClipboardFormat**](registerclipboardformat.md) function return the same value. In this way, two different applications can share data by using a registered clipboard format.
+If more than one application registers a clipboard format with exactly the same name, the clipboard format is registered only once. Both calls to the [**RegisterClipboardFormat**](/windows/win32/Winuser/nf-winuser-registerclipboardformata?branch=master) function return the same value. In this way, two different applications can share data by using a registered clipboard format.
 
 ## Private Clipboard Formats
 
@@ -41,7 +54,7 @@ An application can place data handles on the clipboard by defining a private for
 
 ## Multiple Clipboard Formats
 
-A window can place more than one clipboard object on the clipboard, each representing the same information in a different clipboard format. When placing information on the clipboard, the window should provide data in as many formats as possible. To find out how many formats are currently used on the clipboard, call the [**CountClipboardFormats**](countclipboardformats.md) function.
+A window can place more than one clipboard object on the clipboard, each representing the same information in a different clipboard format. When placing information on the clipboard, the window should provide data in as many formats as possible. To find out how many formats are currently used on the clipboard, call the [**CountClipboardFormats**](/windows/win32/Winuser/nf-winuser-countclipboardformats?branch=master) function.
 
 Clipboard formats that contain the most information should be placed on the clipboard first, followed by less descriptive formats. A window pasting information from the clipboard typically retrieves a clipboard object in the first format it recognizes. Because clipboard formats are enumerated in the order they are placed on the clipboard, the first recognized format is also the most descriptive.
 
@@ -80,7 +93,7 @@ The system implicitly converts data between certain clipboard formats: if a wind
 
 If the system provides an automatic type conversion for a particular clipboard format, there is no advantage to placing the conversion format(s) on the clipboard.
 
-If the system provides an automatic type conversion for a particular clipboard format, and you call [**EnumClipboardFormats**](enumclipboardformats.md) to enumerate the clipboard data formats, the system first enumerates the format that is on the clipboard, followed by the formats to which it can be converted.
+If the system provides an automatic type conversion for a particular clipboard format, and you call [**EnumClipboardFormats**](/windows/win32/Winuser/nf-winuser-enumclipboardformats?branch=master) to enumerate the clipboard data formats, the system first enumerates the format that is on the clipboard, followed by the formats to which it can be converted.
 
 When copying bitmaps, it is best to place the **CF\_DIB** or **CF\_DIBV5** format on the clipboard. This is because the colors in a device-dependent bitmap (**CF\_BITMAP**) are relative to the system palette, which may change before the bitmap is pasted. If the **CF\_DIB** or **CF\_DIBV5** format is on the clipboard and a window requests the **CF\_BITMAP** format, the system renders the device-independent bitmap (DIB) using the current palette at that time.
 

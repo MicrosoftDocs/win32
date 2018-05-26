@@ -1,18 +1,21 @@
 ---
-Description: 'WMI applications written in C++ can make asynchronous calls by using many of the methods of the IWbemServices COM interface.'
+Description: WMI applications written in C++ can make asynchronous calls by using many of the methods of the IWbemServices COM interface.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5179969f-bc7d-4408-84ef-7b003950a59f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5179969f-bc7d-4408-84ef-7b003950a59f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Making an Asynchronous Call with C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Making an Asynchronous Call with C++
 
-WMI applications written in C++ can make asynchronous calls by using many of the methods of the [**IWbemServices**](iwbemservices.md) COM interface. However, the recommended procedure for calling a [*WMI method*](gloss-w.md#wmi-gloss-wmi-method) or a [*provider method*](gloss-p.md#wmi-gloss-provider-method) is by using semisynchronous calls because semisynchronous calls are more secure than asynchronous calls. For more information, see [Making a Semisynchronous Call with C++](making-a-semisynchronous-call-with-c--.md) and [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
+WMI applications written in C++ can make asynchronous calls by using many of the methods of the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) COM interface. However, the recommended procedure for calling a [*WMI method*](gloss-w.md#wmi-gloss-wmi-method) or a [*provider method*](gloss-p.md#wmi-gloss-provider-method) is by using semisynchronous calls because semisynchronous calls are more secure than asynchronous calls. For more information, see [Making a Semisynchronous Call with C++](making-a-semisynchronous-call-with-c--.md) and [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
 
 The following procedure describes how to make an asynchronous call by using the sink in your process.
 
@@ -38,15 +41,15 @@ The following procedure describes how to make an asynchronous call by using the 
 
     Applications can receive notification of intermediate status by setting the *lFlags* parameter in the asynchronous call to **WBEM\_FLAG\_SEND\_STATUS**. WMI reports the status of your call by setting the *lFlags* parameter of [**IWbemObjectSink**](iwbemobjectsink.md) to **WBEM\_STATUS\_PROGRESS**.
 
-6.  If necessary, you can cancel the call before WMI finishes processing by calling the [**IWbemServices::CancelCallAsync**](iwbemservices-cancelasynccall.md) method.
+6.  If necessary, you can cancel the call before WMI finishes processing by calling the [**IWbemServices::CancelCallAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-cancelasynccall?branch=master) method.
 
-    The [**CancelAsyncCall**](iwbemservices-cancelasynccall.md) method cancels asynchronous processing by immediately releasing the pointer to the [**IWbemObjectSink**](iwbemobjectsink.md) interface and guarantees that the pointer is released before **CancelAsyncCall** returns.
+    The [**CancelAsyncCall**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-cancelasynccall?branch=master) method cancels asynchronous processing by immediately releasing the pointer to the [**IWbemObjectSink**](iwbemobjectsink.md) interface and guarantees that the pointer is released before **CancelAsyncCall** returns.
 
-    If you are using a wrapper object implementing the **IUnsecured** interface to host [**IWbemObjectSink**](iwbemobjectsink.md), you may find some additional complications. Because the application must pass the same pointer to [**CancelAsyncCall**](iwbemservices-cancelasynccall.md) that was passed in the original asynchronous call, the application must hold on to the wrapper object until it becomes clear that cancellation is not required. For more information, see [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
+    If you are using a wrapper object implementing the **IUnsecured** interface to host [**IWbemObjectSink**](iwbemobjectsink.md), you may find some additional complications. Because the application must pass the same pointer to [**CancelAsyncCall**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-cancelasynccall?branch=master) that was passed in the original asynchronous call, the application must hold on to the wrapper object until it becomes clear that cancellation is not required. For more information, see [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
 
 7.  When finished, clean up pointers and shut down the application.
 
-    WMI provides the final status call through the [**SetStatus**](iwbemproviderinitsink-setstatus.md) method.
+    WMI provides the final status call through the [**SetStatus**](/windows/win32/Wbemprov/nf-wbemprov-iwbemproviderinitsink-setstatus?branch=master) method.
 
     > [!Note]  
     > After sending the final status update, WMI releases the object sink by calling the **Release** method for the class that implements the [**IWbemObjectSink**](iwbemobjectsink.md) interface. In the previous example, this is the **QuerySink::Release** method. If you want to have control over the lifetime of the sink object, you can implement the sink with an initial reference count of one (1).
@@ -67,7 +70,7 @@ using namespace std;
 
 
 
-The following example describes how to make an asynchronous query using the [**ExecQueryAsync**](iwbemservices-execqueryasync.md) method, but does not create security settings or release the [**IWbemObjectSink**](iwbemobjectsink.md) object. For more information, see [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
+The following example describes how to make an asynchronous query using the [**ExecQueryAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execqueryasync?branch=master) method, but does not create security settings or release the [**IWbemObjectSink**](iwbemobjectsink.md) object. For more information, see [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
 
 
 ```C++

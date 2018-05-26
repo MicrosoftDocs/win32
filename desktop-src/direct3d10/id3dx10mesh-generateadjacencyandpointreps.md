@@ -1,7 +1,12 @@
-﻿---
-Description: 'Generate a list of mesh edges, as well as a list of faces that share each edge.'
-ms.assetid: '3932e2b1-031d-4962-ad90-6e9da8cf2e0e'
-title: 'ID3DX10Mesh::GenerateAdjacencyAndPointReps method'
+---
+Description: Generate a list of mesh edges, as well as a list of faces that share each edge.
+ms.assetid: 3932e2b1-031d-4962-ad90-6e9da8cf2e0e
+title: ID3DX10MeshGenerateAdjacencyAndPointReps method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::GenerateAdjacencyAndPointReps method

@@ -1,7 +1,12 @@
 ---
-Description: 'Links to documentation for the IAzObjectPicker interoperability wrapper methods and properties.'
-ms.assetid: '8b3db64c-0772-4810-96bf-6c9334c9bc4c'
-title: 'Microsoft.Interop.Security.AzRoles.IAzObjectPicker interface'
+Description: Links to documentation for the IAzObjectPicker interoperability wrapper methods and properties.
+ms.assetid: 8b3db64c-0772-4810-96bf-6c9334c9bc4c
+title: Microsoft.Interop.Security.AzRoles.IAzObjectPicker interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzObjectPicker interface
@@ -23,11 +28,11 @@ The **Microsoft.Interop.Security.AzRoles.IAzObjectPicker** interface has these m
 
 | Method                                                               | Description                                                                               |
 |:---------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
-| **Microsoft.Interop.Security.Azroles.IAzObjectPicker.GetPrincipals** | [**IAzObjectPicker::GetPrincipals**](iazobjectpicker-getprincipals-method.md)<br/> |
+| **Microsoft.Interop.Security.Azroles.IAzObjectPicker.GetPrincipals** | [**IAzObjectPicker::GetPrincipals**](/windows/win32/Azroles/nf-azroles-iazobjectpicker-getprincipals?branch=master)<br/> |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -37,11 +42,11 @@ The **Microsoft.Interop.Security.AzRoles.IAzObjectPicker** interface has these p
 
 | Property                                                               | Access type          | Description                                                                        |
 |:-----------------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------|
-| **Microsoft.Interop.Security.Azroles.IAzObjectPicker.Name**<br/> | Read-only<br/> | [**Name Property of IAzObjectPicker**](iazobjectpicker-name-method.md)<br/> |
+| **Microsoft.Interop.Security.Azroles.IAzObjectPicker.Name**<br/> | Read-only<br/> | [**Name Property of IAzObjectPicker**](/windows/win32/Azroles/nf-azroles-iazobjectpicker-get_name?branch=master)<br/> |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,9 +58,9 @@ The **Microsoft.Interop.Security.AzRoles.IAzObjectPicker** interface has these p
 
 
 
- 
+ 
 
- 
+ 
 
 
 

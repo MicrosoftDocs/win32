@@ -1,7 +1,12 @@
 ---
-Description: 'Event Tracing for Windows (ETW) is an efficient kernel-level tracing facility that lets you log kernel or application-defined events to a log file.'
-ms.assetid: '0eaa7bd3-8537-483a-b0d6-db3b790a6f3d'
+Description: Event Tracing for Windows (ETW) is an efficient kernel-level tracing facility that lets you log kernel or application-defined events to a log file.
+ms.assetid: 0eaa7bd3-8537-483a-b0d6-db3b790a6f3d
 title: About Event Tracing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Event Tracing
@@ -46,7 +51,7 @@ WPP providers:
 
 Manifest-based providers:
 
--   Use [**EventRegister**](eventregister-func.md) and [**EventWrite**](eventwrite-func.md) to register and write events.
+-   Use [**EventRegister**](/windows/win32/Evntprov/nf-evntprov-eventregister?branch=master) and [**EventWrite**](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master) to register and write events.
 -   Use a manifest to define events so that consumers know how to consume them.
 -   Can be enabled by up to eight trace sessions simultaneously.
 
@@ -56,7 +61,7 @@ Manifest-based providers:
 -   Use self-describing events so that the events themselves contain all required information for consuming them.
 -   Can be enabled by up to eight trace sessions simultaneously.
 
-All event providers fundamentally use the Event Tracing family of APIs ([**TraceEvent**](traceevent.md) for legacy technologies and [**EventWrite**](eventwrite-func.md)/[**EventWriteEx**](eventwriteex.md) for newer ones). Event providers simply differ in what field types they store in event payloads and where they store the associated event decoding information.
+All event providers fundamentally use the Event Tracing family of APIs ([**TraceEvent**](traceevent.md) for legacy technologies and [**EventWrite**](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master)/[**EventWriteEx**](/windows/win32/Evntprov/nf-evntprov-eventwriteex?branch=master) for newer ones). Event providers simply differ in what field types they store in event payloads and where they store the associated event decoding information.
 
 ## Consumers
 

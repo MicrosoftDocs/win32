@@ -1,15 +1,18 @@
 ---
-Description: 'The SetWINSServer WMI class method sets the primary and secondary Windows Internet Naming Service (WINS) servers on this TCP/IP-bound network adapter. This method is applied independently of the network adapter.'
+Description: The SetWINSServer WMI class method sets the primary and secondary Windows Internet Naming Service (WINS) servers on this TCP/IP-bound network adapter. This method is applied independently of the network adapter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fa8ce436-b67e-4975-a5c5-1a7d6aab4c8e'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fa8ce436-b67e-4975-a5c5-1a7d6aab4c8e
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetWINSServer method of the Win32\_NetworkAdapterConfiguration class'
+title: SetWINSServer method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetWINSServer method of the Win32\_NetworkAdapterConfiguration class
@@ -23,8 +26,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetWINSServer(
-  [in] string WINSPrimaryServer,
-  [in] string WINSSecondaryServer
+  [in] string WINSPrimaryServer,
+  [in] string WINSSecondaryServer
 );
 ```
 
@@ -42,7 +45,7 @@ IP address of the primary WINS server.
 > [!Note]  
 > Always verify the validity of this IP address when it is from an unknown source, or a source that you do not trust.
 
- 
+ 
 
 </dd> <dt>
 
@@ -54,7 +57,7 @@ IP address of the secondary WINS server.
 > [!Note]  
 > Always verify the validity of this IP address when it is from an unknown source, or a source that you do not trust.
 
- 
+ 
 
 </dd> </dl>
 
@@ -409,7 +412,7 @@ DHCP not enabled on adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -449,8 +452,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -476,9 +479,9 @@ Next
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

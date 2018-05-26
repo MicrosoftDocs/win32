@@ -1,7 +1,12 @@
-﻿---
-Description: 'Called when a bidi response is received.'
-ms.assetid: 'D0CD9950-DF73-4D46-B901-FA45BA88D3CF'
-title: 'IPrinterQueueEvent::OnBidiResponseReceived method'
+---
+Description: Called when a bidi response is received.
+ms.assetid: D0CD9950-DF73-4D46-B901-FA45BA88D3CF
+title: IPrinterQueueEventOnBidiResponseReceived method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterQueueEvent::OnBidiResponseReceived method

@@ -1,8 +1,11 @@
 ---
 title: IBufferManager AllocBuffer method
 description: The AllocBuffer method allocates a buffer for the transform to use.
-ms.assetid: '36146162-4b7a-43bd-803e-c39fcae8ee44'
-keywords: ["AllocBuffer method Windows Movie Maker and DVD Maker", "AllocBuffer method Windows Movie Maker and DVD Maker , IBufferManager interface", "IBufferManager interface Windows Movie Maker and DVD Maker , AllocBuffer method"]
+ms.assetid: 36146162-4b7a-43bd-803e-c39fcae8ee44
+keywords:
+- AllocBuffer method Windows Movie Maker and DVD Maker
+- AllocBuffer method Windows Movie Maker and DVD Maker , IBufferManager interface
+- IBufferManager interface Windows Movie Maker and DVD Maker , AllocBuffer method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBufferManager::AllocBuffer method
@@ -25,8 +33,8 @@ The **AllocBuffer** method allocates a buffer for the transform to use.
 
 ```C++
 HRESULT AllocBuffer(
-  [in]  FORMAT_TYPE type,
-  [out] IBuffer     **ppBuffer
+  [in]  FORMAT_TYPE type,
+  [out] IBuffer     **ppBuffer
 );
 ```
 
@@ -64,8 +72,8 @@ The **AllocBuffer** method should be for temporary use only, because the output 
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -78,9 +86,9 @@ The **AllocBuffer** method should be for temporary use only, because the output 
 [**IBufferManager Interface**](ibuffermanager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

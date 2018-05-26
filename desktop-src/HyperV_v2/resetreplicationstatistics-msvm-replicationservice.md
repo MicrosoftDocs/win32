@@ -1,7 +1,12 @@
 ---
-Description: 'Resets the replication statistics for a virtual machine and acts on the primary replication relationship of the virtual machine.'
-ms.assetid: 'da4b60f8-6964-45af-8412-935234c7c0ff'
-title: 'ResetReplicationStatistics method of the Msvm\_ReplicationService class'
+Description: Resets the replication statistics for a virtual machine and acts on the primary replication relationship of the virtual machine.
+ms.assetid: da4b60f8-6964-45af-8412-935234c7c0ff
+title: ResetReplicationStatistics method of the Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResetReplicationStatistics method of the Msvm\_ReplicationService class
@@ -9,17 +14,17 @@ title: 'ResetReplicationStatistics method of the Msvm\_ReplicationService class'
 Resets the replication statistics for a virtual machine and acts on the primary replication relationship of the virtual machine.
 
 > [!Note]  
-> Starting with Windows 8.1, we recommend not to use **ResetReplicationStatistics** anymore to reset replication statistics. Instead, use [**ResetReplicationStatisticsEx**](resetreplicationstatisticsex-msvm-replicationservice.md).
+> Starting with Windows 8.1, we recommend not to use **ResetReplicationStatistics** anymore to reset replication statistics. Instead, use [**ResetReplicationStatisticsEx**](resetreplicationstatisticsex-msvm-replicationservice.md).
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 ResetReplicationStatistics(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -97,8 +102,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -115,9 +120,9 @@ This method returns one of the following values.
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

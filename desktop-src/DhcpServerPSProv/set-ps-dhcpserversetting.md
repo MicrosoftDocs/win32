@@ -4,13 +4,16 @@ description: Sets a server level configuration parameter for the DHCP server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ac901c84-ca58-4af1-9b75-08355d046cba'
-ms.prod: 'windows-server-dev'
+ms.assetid: ac901c84-ca58-4af1-9b75-08355d046cba
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DhcpServerSetting class", "PS_DhcpServerSetting class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DhcpServerSetting class
+- PS_DhcpServerSetting class, Set method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DhcpServerSetting class
@@ -30,13 +36,13 @@ Sets a server level configuration parameter for the DHCP server.
 
 ```mof
 uint32 Set(
-  [in]  uint32            ConflictDetectionAttempts,
-  [in]  string            NpsUnreachableAction,
-  [in]  boolean           NapEnabled,
-  [in]  string            ComputerName,
-  [in]  boolean           ActivatePolicies,
-  [in]  boolean           PassThru,
-  [out] DhcpServerSetting cmdletOutput
+  [in]  uint32            ConflictDetectionAttempts,
+  [in]  string            NpsUnreachableAction,
+  [in]  boolean           NapEnabled,
+  [in]  string            ComputerName,
+  [in]  boolean           ActivatePolicies,
+  [in]  boolean           PassThru,
+  [out] DhcpServerSetting cmdletOutput
 );
 ```
 
@@ -123,7 +129,7 @@ An embedded instance of a [**DhcpServerSetting**](dhcpserversetting.md) object.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -137,9 +143,9 @@ An embedded instance of a [**DhcpServerSetting**](dhcpserversetting.md) object.
 [**PS\_DhcpServerSetting**](ps-dhcpserversetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

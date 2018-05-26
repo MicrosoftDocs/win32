@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '6a2647c6-5996-4e83-b7b3-f727b9445dbc'
-title: 'System.Software.ProductName'
+Description: .
+ms.assetid: 6a2647c6-5996-4e83-b7b3-f727b9445dbc
+title: System.Software.ProductName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Software.ProductName

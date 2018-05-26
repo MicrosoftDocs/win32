@@ -1,8 +1,18 @@
 ---
 title: Compositions
 description: A composition is a temporary input state that enables a text service to specify both to the application and the user that the input text is still in a state of change.
-ms.assetid: '3d9da4f2-ceb9-4abc-8979-d3756d948a57'
-keywords: ["Text Services Framework (TSF),compositions", "TSF (Text Services Framework),compositions", "text services,compositions", "TSF-enabled applications,compositions", "compositions"]
+ms.assetid: 3d9da4f2-ceb9-4abc-8979-d3756d948a57
+keywords:
+- Text Services Framework (TSF),compositions
+- TSF (Text Services Framework),compositions
+- text services,compositions
+- TSF-enabled applications,compositions
+- compositions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compositions
@@ -25,10 +35,10 @@ An application can monitor the creation, change and termination of compositions 
 
 The following is a typical procedure to update a document using a composition.
 
-1.  [ITextStoreACP::InsertTextAtSelection](itextstoreacp-inserttextatselection.md) or [ITextStoreAnchor::InsertTextAtSelection](itextstoreanchor-inserttextatselection.md) are typically used to insert the initial text into the composition.
-2.  The composition is started with a call to [ITfContextComposition::StartComposition](itfcontextcomposition-startcomposition.md), using the range of text returned by **InsertTextAtSelection**.
-3.  When it receives new input such as speech or keyboard entry, the application updates the composition with [ITextStoreACP::SetText](itextstoreacp-settext.md) or [ITextStoreAnchor::SetText](itextstoreanchor-settext.md).
-4.  When the application determines that it is time to end the composition, it calls [ITfComposition::EndComposition](itfcomposition-endcomposition.md).
+1.  [ITextStoreACP::InsertTextAtSelection](/windows/win32/Textstor/nf-textstor-itextstoreacp-inserttextatselection?branch=master) or [ITextStoreAnchor::InsertTextAtSelection](/windows/win32/Textstor/nf-textstor-itextstoreanchor-inserttextatselection?branch=master) are typically used to insert the initial text into the composition.
+2.  The composition is started with a call to [ITfContextComposition::StartComposition](/windows/win32/Msctf/nf-msctf-itfcontextcomposition-startcomposition?branch=master), using the range of text returned by **InsertTextAtSelection**.
+3.  When it receives new input such as speech or keyboard entry, the application updates the composition with [ITextStoreACP::SetText](/windows/win32/Textstor/nf-textstor-itextstoreacp-settext?branch=master) or [ITextStoreAnchor::SetText](/windows/win32/Textstor/nf-textstor-itextstoreanchor-settext?branch=master).
+4.  When the application determines that it is time to end the composition, it calls [ITfComposition::EndComposition](/windows/win32/Msctf/nf-msctf-itfcomposition-endcomposition?branch=master).
 
 The application should use the display attributes provided by the text service to modify the display of text at all times and not just when a composition is active. For more information, see [Using Display Attributes](using-display-attributes.md).
 

@@ -1,8 +1,14 @@
 ---
 title: Tile effect
 description: Use the tile effect to repeat the specified region of the image.
-ms.assetid: 'C7505DBF-5F79-4407-84C4-634EA7EC06B7'
-keywords: ["tile effect"]
+ms.assetid: C7505DBF-5F79-4407-84C4-634EA7EC06B7
+keywords:
+- tile effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tile effect
@@ -23,7 +29,7 @@ The CLSID for this effect is CLSID\_D2D1Tile.
 
 
 
- 
+ 
 
 
 ```C++
@@ -51,13 +57,13 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Output bitmap
 
 This effect generates a logically infinite sized bitmap.
 
-You can tile an image and output a certain size without any additional effects by setting the size when you call [**ID2D1DeviceContext::DrawImage**](id2d1devicecontext-drawimage.md).
+You can tile an image and output a certain size without any additional effects by setting the size when you call [**ID2D1DeviceContext::DrawImage**](/windows/win32/D2d1_1/?branch=master).
 
 ## Requirements
 
@@ -65,25 +71,25 @@ You can tile an image and output a certain size without any additional effects b
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

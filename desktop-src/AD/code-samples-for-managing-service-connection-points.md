@@ -4,10 +4,13 @@ description: Service Connection Points are managed using Active Directory Servic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '279a736f-cf64-48d7-8757-5a3066bfcd70'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 279a736f-cf64-48d7-8757-5a3066bfcd70
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Code Samples for Managing Service Connection Points

@@ -1,7 +1,12 @@
 ---
 title: Visual Basic Object Browser
 description: After a COM object has been added to your project as a reference or component, you can use the Visual Basic Object Browser to view type library information for that object in Visual Basic.
-ms.assetid: '8147a90f-e08d-4717-946b-0e451d95d2d3'
+ms.assetid: 8147a90f-e08d-4717-946b-0e451d95d2d3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visual Basic Object Browser

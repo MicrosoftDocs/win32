@@ -1,7 +1,12 @@
 ---
-Description: 'This topic defines the LOCALE\_INEG\* constants used by NLS.'
-ms.assetid: '3a1e4a63-31bd-4ff9-a3ca-af357389e179'
-title: 'LOCALE\_INEG\* Constants'
+Description: This topic defines the LOCALE\_INEG\* constants used by NLS.
+ms.assetid: 3a1e4a63-31bd-4ff9-a3ca-af357389e179
+title: LOCALE\_INEG\* Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_INEG\* Constants

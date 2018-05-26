@@ -1,8 +1,11 @@
 ---
 title: DMessengerEvents OnGroupNameChanged event
 description: Indicates that the name of a group has been changed.
-ms.assetid: 'b63f8cad-5392-41f3-8c13-86456ec2aadf'
-keywords: ["OnGroupNameChanged event Windows Messenger", "OnGroupNameChanged event Windows Messenger , DMessengerEvents interface", "DMessengerEvents interface Windows Messenger , OnGroupNameChanged event"]
+ms.assetid: b63f8cad-5392-41f3-8c13-86456ec2aadf
+keywords:
+- OnGroupNameChanged event Windows Messenger
+- OnGroupNameChanged event Windows Messenger , DMessengerEvents interface
+- DMessengerEvents interface Windows Messenger , OnGroupNameChanged event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMessengerEvents::OnGroupNameChanged event
 
-\[**OnGroupNameChanged** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnGroupNameChanged** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Indicates that the name of a group has been changed.
 
@@ -24,8 +32,8 @@ Indicates that the name of a group has been changed.
 
 ```C++
 void OnGroupNameChanged(
-  [in] LONG      hr,
-  [in] IDispatch *pMGroup
+  [in] LONG      hr,
+  [in] IDispatch *pMGroup
 );
 ```
 
@@ -50,7 +58,7 @@ Success or error code as a **LONG**. Possible values are as follows:
 
 
 
- 
+ 
 
 </dd> <dt>*pMGroup* \[in\]</dt> <dd> 
 
@@ -78,7 +86,7 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 
 
- 
+ 
 
 The **OnGroupNameChanged** event is scriptable.
 
@@ -88,10 +96,10 @@ The **OnGroupNameChanged** event is scriptable.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.5<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -99,9 +107,9 @@ The **OnGroupNameChanged** event is scriptable.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

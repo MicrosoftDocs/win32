@@ -1,7 +1,12 @@
 ---
 title: Allocating WinSNMP Memory Objects
 description: Descriptors, resource handles and C-style strings are the three types of memory objects in the WinSNMP programming environment.
-ms.assetid: '7f51f02b-7c9f-4aa0-b0cf-83551a312e83'
+ms.assetid: 7f51f02b-7c9f-4aa0-b0cf-83551a312e83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Allocating WinSNMP Memory Objects
@@ -16,8 +21,8 @@ The following table summarizes the allocation and deallocation of resources for 
 
 | Object type                                                                   | Description                                                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**smiOID**](smioid-str.md) or [**smiOCTETS**](smioctets-str.md) descriptor | If the WinSNMP application allocates the memory, it must deallocate the memory with a call to an appropriate function. If the implementation allocates the memory, the application must call the [**SnmpFreeDescriptor**](snmpfreedescriptor.md) function to deallocate the memory. |
-| [**smiVALUE**](smivalue-str.md) structure                                    | If the **value** member is an [**smiOID**](smioid-str.md) or an [**smiOCTETS**](smioctets-str.md) descriptor, the application must proceed as indicated above for descriptors.                                                                                                     |
+| [**smiOID**](/windows/win32/Winsnmp/ns-winsnmp-smioid?branch=master) or [**smiOCTETS**](/windows/win32/Winsnmp/ns-winsnmp-smioctets?branch=master) descriptor | If the WinSNMP application allocates the memory, it must deallocate the memory with a call to an appropriate function. If the implementation allocates the memory, the application must call the [**SnmpFreeDescriptor**](/windows/win32/Winsnmp/nf-winsnmp-snmpfreedescriptor?branch=master) function to deallocate the memory. |
+| [**smiVALUE**](/windows/win32/Winsnmp/ns-winsnmp-smivalue?branch=master) structure                                    | If the **value** member is an [**smiOID**](/windows/win32/Winsnmp/ns-winsnmp-smioid?branch=master) or an [**smiOCTETS**](/windows/win32/Winsnmp/ns-winsnmp-smioctets?branch=master) descriptor, the application must proceed as indicated above for descriptors.                                                                                                     |
 | Resource handle                                                               | The implementation allocates, manages, and frees the memory.                                                                                                                                                                                                                         |
 | C-style string                                                                | The WinSNMP application must manage and free the memory it allocates.                                                                                                                                                                                                                |
 

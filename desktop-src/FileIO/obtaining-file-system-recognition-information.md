@@ -1,14 +1,19 @@
 ---
-Description: 'File system recognition is the ability to recognize storage media that contain a valid file system/volume layout that has not been defined yet, but the media is able to identify itself through the presence of the recognition structure defined internally by Windows.'
-ms.assetid: '23ed6de0-25ff-4841-91f6-94b487dee613'
+Description: File system recognition is the ability to recognize storage media that contain a valid file system/volume layout that has not been defined yet, but the media is able to identify itself through the presence of the recognition structure defined internally by Windows.
+ms.assetid: 23ed6de0-25ff-4841-91f6-94b487dee613
 title: Obtaining File System Recognition Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining File System Recognition Information
 
 [File system recognition](file-system-recognition.md) is the ability to recognize storage media that contain a valid file system/volume layout that has not been defined yet, but the media is able to identify itself through the presence of the recognition structure defined internally by Windows.
 
-Because no existing file system will recognize a new disk layout, the "RAW" file system will mount the volume and provide direct block level access. The "RAW" file system, incorporated in *NtosKrnl*, will have the ability to read the file system recognition structure and provide applications access to such structures through the file system control request [**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](fsctl-query-file-system-recognition.md), shown in the following example.
+Because no existing file system will recognize a new disk layout, the "RAW" file system will mount the volume and provide direct block level access. The "RAW" file system, incorporated in *NtosKrnl*, will have the ability to read the file system recognition structure and provide applications access to such structures through the file system control request [**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](/windows/win32/WinIoCtl/?branch=master), shown in the following example.
 
 
 ```C++
@@ -91,7 +96,7 @@ exit:
 [**FILE\_SYSTEM\_RECOGNITION\_STRUCTURE**](file-system-recognition-structure.md)
 </dt> <dt>
 
-[**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](fsctl-query-file-system-recognition.md)
+[**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](/windows/win32/WinIoCtl/?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,11 @@
 ---
 title: ImageFile.VerticalResolution property
 description: Retrieves the vertical pixels per inch of the image.
-ms.assetid: '04a92e31-90a5-4f71-9721-5da0b0c81841'
-keywords: ["VerticalResolution property WIA Automation", "VerticalResolution property WIA Automation , ImageFile object", "ImageFile object WIA Automation , VerticalResolution property"]
+ms.assetid: 04a92e31-90a5-4f71-9721-5da0b0c81841
+keywords:
+- VerticalResolution property WIA Automation
+- VerticalResolution property WIA Automation , ImageFile object
+- ImageFile object WIA Automation , VerticalResolution property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImageFile.VerticalResolution property
@@ -43,8 +51,8 @@ For example code, see [Display Detailed Image Information](-wiaaut-shared-sample
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -57,9 +65,9 @@ For example code, see [Display Detailed Image Information](-wiaaut-shared-sample
 [**ImageFile**](-wiaaut-imagefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

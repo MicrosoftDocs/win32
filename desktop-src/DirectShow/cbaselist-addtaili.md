@@ -1,7 +1,12 @@
 ---
-Description: 'The AddTailI method adds an item to the end of the list.'
-ms.assetid: '699408d1-fee2-43d7-b2c3-51637d063b2c'
-title: 'CBaseList.AddTailI method'
+Description: The AddTailI method adds an item to the end of the list.
+ms.assetid: 699408d1-fee2-43d7-b2c3-51637d063b2c
+title: CBaseList.AddTailI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.AddTailI method
@@ -13,7 +18,7 @@ The `AddTailI` method adds an item to the end of the list.
 
 ```C++
 POSITION AddTailI(
-   void *pObj
+   void *pObj
 );
 ```
 
@@ -56,9 +61,9 @@ If the method fails, it returns **NULL**.
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

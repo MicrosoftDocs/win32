@@ -1,11 +1,16 @@
-﻿---
-Description: 'Notifies the IShellView to rearrange its items. Used by SHShellFolderView\_Message.'
-title: 'SFVM\_REARRANGE message'
+---
+Description: Notifies the IShellView to rearrange its items. Used by SHShellFolderView\_Message.
+title: SFVM\_REARRANGE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_REARRANGE message
 
-Notifies the [**IShellView**](ishellview.md) to rearrange its items. Used by [**SHShellFolderView\_Message**](shshellfolderview-message.md).
+Notifies the [**IShellView**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellview?branch=master) to rearrange its items. Used by [**SHShellFolderView\_Message**](/windows/win32/shlobj_core/nf-shlobj_core-shshellfolderview_message?branch=master).
 
 
 ```C++
@@ -25,7 +30,7 @@ SFVM_REARRANGE
 *lParam* \[in\]
 </dt> <dd>
 
-Passed to [**IShellFolder::CompareIDs**](ishellfolder-compareids.md). See [**IShellFolder::CompareIDs**](ishellfolder-compareids.md) for more information on this parameter.
+Passed to [**IShellFolder::CompareIDs**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids?branch=master). See [**IShellFolder::CompareIDs**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids?branch=master) for more information on this parameter.
 
 </dd> </dl>
 

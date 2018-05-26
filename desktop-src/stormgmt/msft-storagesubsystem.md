@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageSubSystem class
 description: Represents a storage array subsystem that exposes virtual disks and/or a computer system that exposes file server capabilities.
-ms.assetid: '3fa2f78f-be75-42c0-baba-b08f4959af8c'
-keywords: ["MSFT_StorageSubSystem class Windows Storage Management API", "MSFT_StorageSubSystem class Windows Storage Management API , described"]
+ms.assetid: 3fa2f78f-be75-42c0-baba-b08f4959af8c
+keywords:
+- MSFT_StorageSubSystem class Windows Storage Management API
+- MSFT_StorageSubSystem class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -68,6 +70,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageSubSystem class
@@ -83,23 +90,23 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 ``` syntax
 class MSFT_StorageSubSystem : MSFT_StorageObject
 {
-  String  FriendlyName;
-  String  Description;
-  String  Name;
-  UInt16  NameFormat;
-  String  OtherIdentifyingInfo[];
-  String  OtherIdentifyingInfoDescription[];
-  UInt16  HealthStatus;
-  UInt16  OperationalStatus[];
-  String  OtherOperationalStatusDescription;
-  UInt16  CurrentCacheLevel;
-  String  Manufacturer;
-  String  Model;
-  String  SerialNumber;
-  String  FirmwareVersion;
-  String  Tag;
+  String  FriendlyName;
+  String  Description;
+  String  Name;
+  UInt16  NameFormat;
+  String  OtherIdentifyingInfo[];
+  String  OtherIdentifyingInfoDescription[];
+  UInt16  HealthStatus;
+  UInt16  OperationalStatus[];
+  String  OtherOperationalStatusDescription;
+  UInt16  CurrentCacheLevel;
+  String  Manufacturer;
+  String  Model;
+  String  SerialNumber;
+  String  FirmwareVersion;
+  String  Tag;
   Boolean AutomaticClusteringEnabled;
-  UInt16  PhysicalDisksPerStoragePoolMin;
+  UInt16  PhysicalDisksPerStoragePoolMin;
   Boolean SupportsMirrorLocal;
   Boolean SupportsMirrorRemote;
   Boolean SupportsSnapshotLocal;
@@ -125,21 +132,21 @@ class MSFT_StorageSubSystem : MSFT_StorageObject
   Boolean SupportsStorageTierResize;
   Boolean SupportsStorageTierFriendlyNameModification;
   Boolean SupportsStorageTieredVirtualDiskCreation;
-  Uint16  ReplicasPerSourceSnapshotMax;
-  Uint16  ReplicasPerSourceCloneMax;
-  Uint16  ReplicasPerSourceMirrorMax;
+  Uint16  ReplicasPerSourceSnapshotMax;
+  Uint16  ReplicasPerSourceCloneMax;
+  Uint16  ReplicasPerSourceMirrorMax;
   Boolean SupportsMaskingVirtualDiskToHosts;
-  Uint16  MaskingValidInitiatorIdTypes[];
-  String  MaskingOtherValidInitiatorIdTypes[];
-  Uint16  MaskingPortsPerView;
+  Uint16  MaskingValidInitiatorIdTypes[];
+  String  MaskingOtherValidInitiatorIdTypes[];
+  Uint16  MaskingPortsPerView;
   Boolean MaskingClientSelectableDeviceNumbers;
   Boolean MaskingOneInitiatorIdPerView;
-  Uint16  MaskingMapCountMax;
-  Uint16  DataTieringType;
-  Uint16  iSCSITargetCreationScheme;
-  UInt32  NumberOfSlots;
-  UInt16  SupportedHostType[];
-  String  OtherHostTypeDescription[];
+  Uint16  MaskingMapCountMax;
+  Uint16  DataTieringType;
+  Uint16  iSCSITargetCreationScheme;
+  UInt32  NumberOfSlots;
+  UInt16  SupportedHostType[];
+  String  OtherHostTypeDescription[];
 };
 ```
 
@@ -158,25 +165,25 @@ The **MSFT\_StorageSubSystem** class has these methods.
 
 | Method                                                                                       | Description                                                                                                              |
 |:---------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------|
-| [**CreateFileServer**](msft-storagesubsystem-createfileserver.md)                           | **Starting in Windows 10:** Creates a file server on a storage subsystem.<br/>                                     |
+| [**CreateFileServer**](msft-storagesubsystem-createfileserver.md)                           | **Starting in Windows 10:** Creates a file server on a storage subsystem.<br/>                                     |
 | [**CreateMaskingSet**](msft-storagesubsystem-createmaskingset.md)                           | Creates a new masking set.<br/>                                                                                    |
-| [**CreateReplicationGroup**](msft-storagesubsystem-createreplicationgroup.md)               | **Starting in Windows 10:** Creates a replication group on a storage subsystem.<br/>                               |
-| [**CreateReplicationRelationship**](msft-storagesubsystem-createreplicationrelationship.md) | **Starting in Windows 10:** Creates two replication groups and a replication relationship between them.<br/>       |
+| [**CreateReplicationGroup**](msft-storagesubsystem-createreplicationgroup.md)               | **Starting in Windows 10:** Creates a replication group on a storage subsystem.<br/>                               |
+| [**CreateReplicationRelationship**](msft-storagesubsystem-createreplicationrelationship.md) | **Starting in Windows 10:** Creates two replication groups and a replication relationship between them.<br/>       |
 | [**CreateStoragePool**](createstoragepool-msft-storagesubsystem.md)                         | Creates a storage pool from available physical disks contained within a common primordial pool.<br/>               |
 | [**CreateVirtualDisk**](msft-storagesubsystem-createvirtualdisk.md)                         | Creates a new virtual disk.<br/>                                                                                   |
-| [**DeleteReplicationRelationship**](msft-storagesubsystem-deletereplicationrelationship.md) | **Starting in Windows 10:** Deletes a replication relationship between groups.<br/>                                |
-| [**Diagnose**](msft-storagesubsystem-diagnose.md)                                           | **Starting in Windows 10:** Performs a diagnostic on the storage subsystem, returning any actionable results.<br/> |
-| [**GetDiagnosticInfo**](msft-storagesubsystem-getdiagnosticinfo.md)                         | **Starting in Windows 10:** Gets the diagnostic information of the storage subsystem.<br/>                         |
+| [**DeleteReplicationRelationship**](msft-storagesubsystem-deletereplicationrelationship.md) | **Starting in Windows 10:** Deletes a replication relationship between groups.<br/>                                |
+| [**Diagnose**](msft-storagesubsystem-diagnose.md)                                           | **Starting in Windows 10:** Performs a diagnostic on the storage subsystem, returning any actionable results.<br/> |
+| [**GetDiagnosticInfo**](msft-storagesubsystem-getdiagnosticinfo.md)                         | **Starting in Windows 10:** Gets the diagnostic information of the storage subsystem.<br/>                         |
 | [**GetSecurityDescriptor**](msft-storagesubsystem-getsecuritydescriptor.md)                 | Retrieves the security descriptor that controls access to the storage subsystem object instance.<br/>              |
 | [**SetAttributes**](msft-storagesubsystem-setattributes.md)                                 | Sets the **SupportsAutomaticObjectClustering** field of the storage subsystem object instance.<br/>                |
 | [**SetDescription**](msft-storagesubsystem-setdescription.md)                               | Sets the **Description** property of the storage subsystem object instance.<br/>                                   |
 | [**SetSecurityDescriptor**](msft-storagesubsystem-setsecuritydescriptor.md)                 | Sets the security descriptor that controls access to the storage subsystem object instance.<br/>                   |
-| [**StartDiagnosticLog**](msft-storagesubsystem-startdiagnosticlog.md)                       | **Starting in Windows 10:** Starts a diagnostic log for the storage subsystem.<br/>                                |
-| [**StopDiagnosticLog**](msft-storagesubsystem-stopdiagnosticlog.md)                         | **Starting in Windows 10:** Stops the diagnostic log for the storage subsystem.<br/>                               |
+| [**StartDiagnosticLog**](msft-storagesubsystem-startdiagnosticlog.md)                       | **Starting in Windows 10:** Starts a diagnostic log for the storage subsystem.<br/>                                |
+| [**StopDiagnosticLog**](msft-storagesubsystem-stopdiagnosticlog.md)                         | **Starting in Windows 10:** Stops the diagnostic log for the storage subsystem.<br/>                               |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -222,7 +229,7 @@ The cache level that has been discovered. This corresponds to the storage provid
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -319,7 +326,7 @@ The health status of the subsystem.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -345,7 +352,7 @@ The iSCSI target creation scheme, if any, that is supported by the storage subsy
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -438,7 +445,7 @@ The number of target ports that can be used for masking a virtual disk. This app
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -629,7 +636,7 @@ An array of values that denote the current operational status of the subsystem.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -647,7 +654,7 @@ Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/aa393650) ( "Inde
 
 If the corresponding entry in the **SupportedHostType** array is **Other**, the entry in this property contains a string describing the manufacturer and operating system or environment.
 
-If the corresponding entry in the **SupportedHostType** array is not **Other**, the entry in this property allows variations or qualifications of **ClientTypes**—for example, different versions of Solaris.
+If the corresponding entry in the **SupportedHostType** array is not **Other**, the entry in this property allows variations or qualifications of **ClientTypes** for example, different versions of Solaris.
 
 </dd> <dt>
 
@@ -1289,16 +1296,16 @@ An identifier for the subsystem that is independent from any location-based info
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: WinHelp Window Types
 description: When using the WinHelp command, specify one of the following WinHelp window types.
-ms.assetid: '60887B03-3D36-40db-B6DF-8E1F34441D3A'
+ms.assetid: 60887B03-3D36-40db-B6DF-8E1F34441D3A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinHelp Window Types

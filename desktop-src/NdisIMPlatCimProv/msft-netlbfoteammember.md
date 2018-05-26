@@ -1,7 +1,12 @@
 ---
-Description: 'Represents members of an Lbfo team.'
-ms.assetid: 'd483e2c5-53cc-48b5-99fc-6f7e33095391'
-title: 'MSFT\_NetLbfoTeamMember class'
+Description: Represents members of an Lbfo team.
+ms.assetid: d483e2c5-53cc-48b5-99fc-6f7e33095391
+title: MSFT\_NetLbfoTeamMember class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetLbfoTeamMember class
@@ -84,17 +89,17 @@ The current operational mode of this member in the team.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>MsNetImPlatform.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NdisIMPlatCim.dll</dt> </dl>   |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: AccNameContainsInvalidString
 description: AccNameContainsInvalidString
-ms.assetid: '392E4D10-4A8E-4118-B0E7-F74571812043'
+ms.assetid: 392E4D10-4A8E-4118-B0E7-F74571812043
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AccNameContainsInvalidString
@@ -16,7 +21,7 @@ Error
 
 ## Description
 
-The name of an element contains invalid characters (these characters are replaced by AccChecker). For example, the [**get\_accName**](iaccessible-iaccessible--get-accname.md) method used to retrieve the MSAA name of an element returns a string that contains tab, newline, or ampersand characters.
+The name of an element contains invalid characters (these characters are replaced by AccChecker). For example, the [**get\_accName**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accname?branch=master) method used to retrieve the MSAA name of an element returns a string that contains tab, newline, or ampersand characters.
 
 This issue causes problems for people who rely on a screen-reader and keyboard for navigation because an element might have an unpronounceable, non-intuitive name.
 
@@ -28,7 +33,7 @@ The element or its parent has an incorrectly assigned name or label.
 
 <dl> <dt>
 
-[**IAccessible::get\_accName**](iaccessible-iaccessible--get-accname.md)
+[**IAccessible::get\_accName**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accname?branch=master)
 </dt> <dt>
 
 [Name Property](name-property.md)

@@ -1,21 +1,26 @@
 ---
-Description: 'The Next method retrieves a specified number of media types. This method implements the IEnumMediaTypes::Next method.'
-ms.assetid: 'd59dea48-e36c-4ee6-9935-5a47e8a12a9e'
-title: 'CEnumMediaTypes.Next method'
+Description: The Next method retrieves a specified number of media types. This method implements the IEnumMediaTypesNext method.
+ms.assetid: d59dea48-e36c-4ee6-9935-5a47e8a12a9e
+title: CEnumMediaTypes.Next method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CEnumMediaTypes.Next method
 
-The `Next` method retrieves a specified number of media types. This method implements the [**IEnumMediaTypes::Next**](ienummediatypes-next.md) method.
+The `Next` method retrieves a specified number of media types. This method implements the [**IEnumMediaTypes::Next**](/windows/win32/Strmif/nf-strmif-ienummediatypes-next?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT Next(
-   ULONG         cMediaTypes,
-   AM_MEDIA_TYPE **ppMediaTypes,
-   ULONG         *pcFetched
+   ULONG         cMediaTypes,
+   AM_MEDIA_TYPE **ppMediaTypes,
+   ULONG         *pcFetched
 );
 ```
 
@@ -35,7 +40,7 @@ Number of media types to retrieve.
 *ppMediaTypes* 
 </dt> <dd>
 
-Array of pointers to [**AM\_MEDIA\_TYPE**](am-media-type.md) structures, of size *cPins*.
+Array of pointers to [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structures, of size *cPins*.
 
 </dd> <dt>
 
@@ -62,7 +67,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,9 +93,9 @@ This method calls the pin's [**CBasePin::GetMediaType**](cbasepin-getmediatype.m
 [**CEnumMediaTypes Class**](cenummediatypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

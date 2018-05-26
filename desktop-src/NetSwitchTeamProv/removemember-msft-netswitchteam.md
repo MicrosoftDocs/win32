@@ -1,7 +1,12 @@
 ---
-Description: 'Removes an existing member from a switch team.'
-ms.assetid: 'f7f26dcc-5ee9-4f88-93bd-1a7c1b5adcac'
-title: 'RemoveMember method of the MSFT\_NetSwitchTeam class'
+Description: Removes an existing member from a switch team.
+ms.assetid: f7f26dcc-5ee9-4f88-93bd-1a7c1b5adcac
+title: RemoveMember method of the MSFT\_NetSwitchTeam class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveMember method of the MSFT\_NetSwitchTeam class
@@ -13,8 +18,8 @@ Removes an existing member from a switch team.
 
 ```mof
 uint32 RemoveMember(
-  [in] string Name,
-  [in] string Team
+  [in] string Name,
+  [in] string Team
 );
 ```
 
@@ -44,8 +49,8 @@ The switch team in which to remove a member.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported client<br/> | Windows 8<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>NetSwitchTeam.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>NetSwitchTeamCim.dll</dt> </dl> |
@@ -59,9 +64,9 @@ The switch team in which to remove a member.
 [**MSFT\_NetSwitchTeam**](msft-netswitchteam.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

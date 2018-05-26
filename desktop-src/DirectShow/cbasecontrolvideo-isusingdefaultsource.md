@@ -1,7 +1,12 @@
 ---
-Description: 'The IsUsingDefaultSource method determines if the renderer is using the default source window.'
-ms.assetid: 'f68d47e7-6602-4321-8e9e-373d354077a1'
-title: 'CBaseControlVideo.IsUsingDefaultSource method'
+Description: The IsUsingDefaultSource method determines if the renderer is using the default source window.
+ms.assetid: f68d47e7-6602-4321-8e9e-373d354077a1
+title: CBaseControlVideo.IsUsingDefaultSource method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.IsUsingDefaultSource method
@@ -43,9 +48,9 @@ Returns S\_OK if the renderer is using the default source; otherwise, returns S\
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Calculates the exponential.'
-ms.assetid: '648aeaf1-ead3-4b21-819f-cd2a70881a13'
+---
+Description: Calculates the exponential.
+ms.assetid: 648aeaf1-ead3-4b21-819f-cd2a70881a13
 title: D3DXQuaternionExp function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionExp function

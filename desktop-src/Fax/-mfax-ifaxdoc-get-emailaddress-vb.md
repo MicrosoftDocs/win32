@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the EmailAddress property of a FaxDoc object. The EmailAddress property is a null-terminated string that contains the email address of the sender of the fax transmission.'
-ms.assetid: 'e396a47c-4955-4d81-ba4a-13600c9ff985'
-title: 'FaxDoc.EmailAddress property'
+---
+Description: Sets or retrieves the EmailAddress property of a FaxDoc object. The EmailAddress property is a null-terminated string that contains the email address of the sender of the fax transmission.
+ms.assetid: e396a47c-4955-4d81-ba4a-13600c9ff985
+title: FaxDoc.EmailAddress property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.EmailAddress property
@@ -55,7 +60,7 @@ The **get\_EmailAddress** method allocates the memory required for the buffer po
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

@@ -1,8 +1,9 @@
 ---
 title: DTM\_GETRANGE message
 description: Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can send this message explicitly or use the DateTime\_GetRange macro.
-ms.assetid: '190cada6-49ee-483f-a464-d3d789127159'
-keywords: ["DTM_GETRANGE message Windows Controls"]
+ms.assetid: 190cada6-49ee-483f-a464-d3d789127159
+keywords:
+- DTM_GETRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTM\_GETRANGE message
 
-Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_GetRange**](datetime-getrange.md) macro.
+Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_GetRange**](/windows/win32/Commctrl/nf-commctrl-datetime_getrange?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ The date and time picker displays only dates/times that fall within the specifie
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

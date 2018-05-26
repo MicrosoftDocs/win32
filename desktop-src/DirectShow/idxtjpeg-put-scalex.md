@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_ScaleX method specifies the amount by which the wipe is stretched horizontally.'
-ms.assetid: 'd57af5dc-41e0-45a7-8f11-55ef3bc62549'
-title: 'IDxtJpeg::put\_ScaleX method'
+---
+Description: The put\_ScaleX method specifies the amount by which the wipe is stretched horizontally.
+ms.assetid: d57af5dc-41e0-45a7-8f11-55ef3bc62549
+title: IDxtJpegput\_ScaleX method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::put\_ScaleX method

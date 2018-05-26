@@ -1,7 +1,12 @@
 ---
 title: Nonterminal Symbol
 description: Nonterminal Symbol
-ms.assetid: '384048ba-3399-4879-b775-b5db20d1c65b'
+ms.assetid: 384048ba-3399-4879-b775-b5db20d1c65b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Nonterminal Symbol

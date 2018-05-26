@@ -1,7 +1,12 @@
 ---
 title: Indexing a Set of Distributed Documents
 description: Indexing a Set of Distributed Documents
-ms.assetid: '4b30805e-5bb9-430e-852d-a03525903216'
+ms.assetid: 4b30805e-5bb9-430e-852d-a03525903216
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing a Set of Distributed Documents

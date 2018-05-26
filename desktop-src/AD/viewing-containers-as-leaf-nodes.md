@@ -4,11 +4,17 @@ description: Any object in Active Directory Domain Services can be a container o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '38300ca5-745a-4640-9723-6052a9843f45'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 38300ca5-745a-4640-9723-6052a9843f45
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Viewing Containers as Leaf Nodes", "containers AD , viewing as leaf nodes", "leaf AD , viewing containers as leaf nodes"]
+keywords:
+- Viewing Containers as Leaf Nodes
+- containers AD , viewing as leaf nodes
+- leaf AD , viewing containers as leaf nodes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Viewing Containers as Leaf Nodes

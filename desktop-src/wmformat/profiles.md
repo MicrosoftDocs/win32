@@ -1,8 +1,26 @@
 ---
 title: Profiles
 description: Profiles
-ms.assetid: 'af4a8efe-d797-4d19-961d-b917e4c7c81a'
-keywords: ["Windows Media Format SDK,profiles", "Advanced Systems Format (ASF),profiles", "ASF (Advanced Systems Format),profiles", "Windows Media Format SDK,.prx files", "Advanced Systems Format (ASF),.prx files", "ASF (Advanced Systems Format),.prx files", "Windows Media Format SDK,Profile Editor", "Advanced Systems Format (ASF),Profile Editor", "ASF (Advanced Systems Format),Profile Editor", ".prx files", "prx files", "Profile Editor", "Windows Media Encoder"]
+ms.assetid: af4a8efe-d797-4d19-961d-b917e4c7c81a
+keywords:
+- Windows Media Format SDK,profiles
+- Advanced Systems Format (ASF),profiles
+- ASF (Advanced Systems Format),profiles
+- Windows Media Format SDK,.prx files
+- Advanced Systems Format (ASF),.prx files
+- ASF (Advanced Systems Format),.prx files
+- Windows Media Format SDK,Profile Editor
+- Advanced Systems Format (ASF),Profile Editor
+- ASF (Advanced Systems Format),Profile Editor
+- .prx files
+- prx files
+- Profile Editor
+- Windows Media Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Profiles
@@ -15,7 +33,7 @@ A profile also contains information about the various ASF file features that wil
 
 Previous versions of the Windows Media Format SDK provided preconfigured system profiles, which could be used to create common types of files, or altered slightly to suit the needs of your application. System profiles are not supported for the Windows Media 9 Series codecs. This is because the number of "common" types of files has grown exponentially with the addition of new features. It is expected that virtually every content creator has needs that go beyond the simple solutions provided by system profiles. You can still use the old system profiles as a starting place. For more information, see [Using System Profiles](using-system-profiles.md).
 
-You must supply the writer with a profile for every file you write. You can specify a profile to use with the writer by calling [**IWMWriter::SetProfile**](iwmwriter-setprofile.md).
+You must supply the writer with a profile for every file you write. You can specify a profile to use with the writer by calling [**IWMWriter::SetProfile**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile?branch=master).
 
 Profile data exists in several different forms that can be used by the Windows Media Format SDK. Profile information can also be accessed in several ways. This can lead to confusion about what a profile is and how it is used.
 
@@ -49,7 +67,7 @@ Rather than creating profiles by using the Windows Media Format SDK, you can use
 
 However, if you do use Profile Editor, it is recommended that you do not use the "Video Size: Same As Video Input" setting. When this check box is checked, Profile Editor will create a profile with the video output height and width set to zero. When Windows Media Encoder encounters these profiles, it sets the correct values to match its video input. However, the Writer in the Windows Media Format SDK does not do so automatically, so you must ensure that your application sets the video frame size in cases where the profile has none.
 
-**Note** Some stream configuration items are not stored in the profile. The data in the profile describes the format of the finished ASF file. Input media properties and other configuration data used by the writer object to configure the codecs are not saved in the profile. This includes all properties set by using the [**IWMPropertyVault::SetProperty**](iwmpropertyvault-setproperty.md) method.
+**Note** Some stream configuration items are not stored in the profile. The data in the profile describes the format of the finished ASF file. Input media properties and other configuration data used by the writer object to configure the codecs are not saved in the profile. This includes all properties set by using the [**IWMPropertyVault::SetProperty**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty?branch=master) method.
 
 ## Related topics
 
@@ -64,7 +82,7 @@ However, if you do use Profile Editor, it is recommended that you do not use the
 [**IWMProfile Interface**](iwmprofile.md)
 </dt> <dt>
 
-[**IWMProfileManager Interface**](iwmprofilemanager.md)
+[**IWMProfileManager Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmprofilemanager?branch=master)
 </dt> <dt>
 
 [**Mutual Exclusion Object**](mutual-exclusion-object.md)

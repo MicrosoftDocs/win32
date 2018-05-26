@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualNetwork NetworkAdapters property
 description: The NetworkAdapters property contains an enumerable collection of NICs attached to the virtual network.
-ms.assetid: '0a40b94a-45dd-44d1-9831-c34670f82824'
-keywords: ["NetworkAdapters property Virtual Server", "NetworkAdapters property Virtual Server , IVMVirtualNetwork interface", "IVMVirtualNetwork interface Virtual Server , NetworkAdapters property", "NetworkAdapters property Virtual Server , VMVirtualNetwork class", "VMVirtualNetwork class Virtual Server , NetworkAdapters property"]
+ms.assetid: 0a40b94a-45dd-44d1-9831-c34670f82824
+keywords:
+- NetworkAdapters property Virtual Server
+- NetworkAdapters property Virtual Server , IVMVirtualNetwork interface
+- IVMVirtualNetwork interface Virtual Server , NetworkAdapters property
+- NetworkAdapters property Virtual Server , VMVirtualNetwork class
+- VMVirtualNetwork class Virtual Server , NetworkAdapters property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetwork::NetworkAdapters property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_NetworkAdapters(
-  [out] IVMNetworkAdapterCollection **networkInterfaceCollection
+  [out] IVMNetworkAdapterCollection **networkInterfaceCollection
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMVirtualNetwork**](ivmvirtualnetwork.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

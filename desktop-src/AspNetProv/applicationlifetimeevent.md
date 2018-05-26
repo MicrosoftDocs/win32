@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the ApplicationLifetimeEvent event.'
+---
+Description: The event type class for the ApplicationLifetimeEvent event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3dce4092-5fee-4c12-aaa3-a16c4cb345b8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3dce4092-5fee-4c12-aaa3-a16c4cb345b8
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ApplicationLifetimeEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ApplicationLifetimeEvent class

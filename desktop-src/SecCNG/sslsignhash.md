@@ -1,7 +1,12 @@
 ---
-Description: 'Signs a hash by using the specified private key.'
-ms.assetid: '25e8ebc5-278d-4d1f-977a-c2fab07b790a'
+Description: Signs a hash by using the specified private key.
+ms.assetid: 25e8ebc5-278d-4d1f-977a-c2fab07b790a
 title: SslSignHash function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslSignHash function
@@ -13,14 +18,14 @@ The **SslSignHash** function signs a [*hash*](https://msdn.microsoft.com/library
 
 ```C++
 SECURITY_STATUS WINAPI SslSignHash(
-  _In_  NCRYPT_PROV_HANDLE hSslProvider,
-  _In_  NCRYPT_KEY_HANDLE  hPrivateKey,
-  _In_  PBYTE              pbHashValue,
-  _In_  DWORD              cbHashValue,
-  _Out_ PBYTE              pbSignature,
-  _In_  DWORD              cbSignature,
-  _Out_ DWORD              *pcbResult,
-  _In_  DWORD              dwFlags
+  _In_  NCRYPT_PROV_HANDLE hSslProvider,
+  _In_  NCRYPT_KEY_HANDLE  hPrivateKey,
+  _In_  PBYTE              pbHashValue,
+  _In_  DWORD              cbHashValue,
+  _Out_ PBYTE              pbSignature,
+  _In_  DWORD              cbSignature,
+  _Out_ DWORD              *pcbResult,
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -102,7 +107,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -110,16 +115,16 @@ Possible return codes include, but are not limited to, the following.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

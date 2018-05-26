@@ -1,7 +1,12 @@
 ---
 title: Progress Bar Control Reference
 description: .
-ms.assetid: '89468ecb-045a-4d30-8eb2-db33cbf0780e'
+ms.assetid: 89468ecb-045a-4d30-8eb2-db33cbf0780e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Progress Bar Control Reference

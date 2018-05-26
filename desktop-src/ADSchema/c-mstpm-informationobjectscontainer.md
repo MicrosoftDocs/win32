@@ -4,17 +4,22 @@ description: Container for TPM objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '41f3b3af-216d-4915-b1a1-c264d13541d8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 41f3b3af-216d-4915-b1a1-c264d13541d8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TPM-Information-Objects-Container class AD Schema", "msTPM-InformationObjectsContainer class AD Schema"]
+keywords:
+- ms-TPM-Information-Objects-Container class AD Schema
+- msTPM-InformationObjectsContainer class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TPM-Information-Objects-Container
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TPM-Information-Objects-Container class
@@ -35,7 +40,7 @@ Container for TPM objects.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -62,7 +67,7 @@ Container for TPM objects.
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -189,9 +194,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

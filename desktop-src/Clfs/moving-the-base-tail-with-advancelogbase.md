@@ -1,14 +1,19 @@
 ---
-Description: 'There are two ways to move the base tail. The first is to write a restart record by calling the WriteLogRestartArea function; the second is to call the AdvanceLogBase function.'
-ms.assetid: 'be443e31-a662-495d-a5d9-5309c8ff87bd'
+Description: There are two ways to move the base tail. The first is to write a restart record by calling the WriteLogRestartArea function; the second is to call the AdvanceLogBase function.
+ms.assetid: be443e31-a662-495d-a5d9-5309c8ff87bd
 title: Moving the Base Tail
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Moving the Base Tail
 
-There are two ways to move the base tail. The first is to write a [restart record](restart-records.md) by calling the [**WriteLogRestartArea**](writelogrestartarea.md) function; the second is to call the [**AdvanceLogBase**](advancelogbase.md) function.
+There are two ways to move the base tail. The first is to write a [restart record](restart-records.md) by calling the [**WriteLogRestartArea**](/windows/win32/Clfsw32/nf-clfsw32-writelogrestartarea?branch=master) function; the second is to call the [**AdvanceLogBase**](/windows/win32/Clfsw32/nf-clfsw32-advancelogbase?branch=master) function.
 
-The [**AdvanceLogBase**](advancelogbase.md) function allows a user to move the base tail to a flushed record without using the same marshaling area that is used to write data.
+The [**AdvanceLogBase**](/windows/win32/Clfsw32/nf-clfsw32-advancelogbase?branch=master) function allows a user to move the base tail to a flushed record without using the same marshaling area that is used to write data.
 
 For example, in a producer and consumer scenario, each consumer has its own marshaling area that it reads data from. It does not write any records or restart records to the log, but the application moves the base tail to free up space.
 

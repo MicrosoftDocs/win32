@@ -2,13 +2,15 @@
 title: VpnTrafficSelector class
 description: Describes the VPN traffic selector.
 audience: developer
-ms.assetid: 'F32347C5-BEF2-470F-AAC1-94E09DCB244E'
-ms.prod: 'windows-server-dev'
+ms.assetid: F32347C5-BEF2-470F-AAC1-94E09DCB244E
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnTrafficSelector class", "VpnTrafficSelector class, described"]
+keywords:
+- VpnTrafficSelector class
+- VpnTrafficSelector class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnTrafficSelector class
@@ -128,16 +133,16 @@ The address family, IPv4 or IPv6
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

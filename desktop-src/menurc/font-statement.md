@@ -1,14 +1,20 @@
 ---
 title: FONT statement
 description: Defines the font with which the system will draw text in the dialog box. The font must have been previously loaded; for example, by calling the LoadResource function.
-ms.assetid: 'd7b0f382-bc45-4405-a30e-0b571fdfd1db'
-keywords: ["FONT statement Menus and Other Resources"]
+ms.assetid: d7b0f382-bc45-4405-a30e-0b571fdfd1db
+keywords:
+- FONT statement Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - FONT
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FONT statement

@@ -1,7 +1,12 @@
 ---
 title: Overview of Using the DNS WMI Provider
 description: The following general steps get you started in creating your own script or program that makes use of the DNS WMI Provider.
-ms.assetid: 'd9d64bda-0564-4074-9f0a-a249c7315042'
+ms.assetid: d9d64bda-0564-4074-9f0a-a249c7315042
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of Using the DNS WMI Provider

@@ -1,7 +1,12 @@
 ---
 title: Pointer Layout
 description: Pointer layout describes pointers of a structure or an array.
-ms.assetid: '1a4984c1-97b9-4e95-a17e-851b67fa94a3'
+ms.assetid: 1a4984c1-97b9-4e95-a17e-851b67fa94a3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pointer Layout

@@ -1,13 +1,16 @@
 ---
-Description: 'The precision timer algorithm counter types obtain more accurate readings than system timers.'
+Description: The precision timer algorithm counter types obtain more accurate readings than system timers.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f7159645-6287-47a3-895e-20dae6e0892a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f7159645-6287-47a3-895e-20dae6e0892a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Precision Timer Algorithm Counter Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Precision Timer Algorithm Counter Types
@@ -23,7 +26,7 @@ The precision timer algorithm counter types obtain more accurate readings than s
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -32,9 +35,9 @@ The precision timer algorithm counter types obtain more accurate readings than s
 [WMI Performance Counter Types](wmi-performance-counter-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

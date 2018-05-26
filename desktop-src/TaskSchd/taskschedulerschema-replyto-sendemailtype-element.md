@@ -1,14 +1,20 @@
 ---
 title: ReplyTo (sendEmailType) Element
 description: Contains the email addresses that are replied to in the email message.
-ms.assetid: 'c09b72f6-de2c-41dc-942c-d6184863e33c'
-keywords: ["ReplyTo element Task Scheduler"]
+ms.assetid: c09b72f6-de2c-41dc-942c-d6184863e33c
+keywords:
+- ReplyTo element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - ReplyTo
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReplyTo (sendEmailType) Element
@@ -35,7 +41,7 @@ The **ReplyTo** element is defined by the [**sendEmailType**](taskschedulerschem
 
 ## Remarks
 
-For C++ development, see [**ReplyTo Property of IEmailAction**](iemailaction-replyto.md).
+For C++ development, see [**ReplyTo Property of IEmailAction**](/windows/win32/taskschd/nf-taskschd-iemailaction-get_replyto?branch=master).
 
 For script development, see [**EmailAction.ReplyTo**](emailaction-replyto.md).
 
@@ -45,14 +51,14 @@ For script development, see [**EmailAction.ReplyTo**](emailaction-replyto.md).
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

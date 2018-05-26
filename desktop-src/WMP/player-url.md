@@ -1,8 +1,9 @@
 ---
 title: Player.URL
 description: The URL property specifies or retrieves the name of the media item to play.
-ms.assetid: '74987ffd-c625-4d30-9f5f-5170119158f9'
-keywords: ["Player.URL Windows Media Player"]
+ms.assetid: 74987ffd-c625-4d30-9f5f-5170119158f9
+keywords:
+- Player.URL Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.URL
@@ -74,9 +80,9 @@ The following example creates an HTML TEXT input element and an HTML BUTTON inpu
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

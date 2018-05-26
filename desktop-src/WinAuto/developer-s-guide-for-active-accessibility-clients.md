@@ -1,7 +1,12 @@
 ---
-title: Developer's Guide for Active Accessibility Clients
-description: Developer's Guide for Active Accessibility Clients
-ms.assetid: '0a17cc30-2340-47b1-97ba-79c1de48d359'
+title: Developers Guide for Active Accessibility Clients
+description: Developers Guide for Active Accessibility Clients
+ms.assetid: 0a17cc30-2340-47b1-97ba-79c1de48d359
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developer's Guide for Active Accessibility Clients

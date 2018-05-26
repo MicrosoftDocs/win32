@@ -1,7 +1,12 @@
-﻿---
-Description: 'Compares two Unicode character strings, using a specified locale.'
-ms.assetid: 'dff16c1b-d329-40de-b8d7-91edb36ce198'
+---
+Description: Compares two Unicode character strings, using a specified locale.
+ms.assetid: dff16c1b-d329-40de-b8d7-91edb36ce198
 title: CompareStringWrapW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CompareStringWrapW function

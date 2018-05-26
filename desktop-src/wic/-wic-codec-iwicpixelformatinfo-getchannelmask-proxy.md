@@ -1,23 +1,28 @@
 ---
-Description: 'Proxy function for the GetChannelMask method.'
-ms.assetid: 'c96e6078-4648-4333-8a25-bcb03a2cd50b'
-title: 'IWICPixelFormatInfo\_GetChannelMask\_Proxy function'
+Description: Proxy function for the GetChannelMask method.
+ms.assetid: c96e6078-4648-4333-8a25-bcb03a2cd50b
+title: IWICPixelFormatInfo\_GetChannelMask\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICPixelFormatInfo\_GetChannelMask\_Proxy function
 
-Proxy function for the [**GetChannelMask**](-wic-codec-iwicpixelformatinfo-getchannelmask.md) method.
+Proxy function for the [**GetChannelMask**](/windows/win32/Wincodec/nf-wincodec-iwicpixelformatinfo-getchannelmask?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICPixelFormatInfo_GetChannelMask_Proxy(
-  _In_    IWICPixelFormatInfo *THIS_PTR,
-  _In_    UINT                uiChannelIndex,
-  _In_    UINT                cbMaskBuffer,
-  _Inout_ BYTE                *pbMaskBuffer,
-  _Out_   UINT                *pcbActual
+  _In_    IWICPixelFormatInfo *THIS_PTR,
+  _In_    UINT                uiChannelIndex,
+  _In_    UINT                cbMaskBuffer,
+  _Inout_ BYTE                *pbMaskBuffer,
+  _Out_   UINT                *pcbActual
 );
 ```
 
@@ -30,9 +35,9 @@ HRESULT IWICPixelFormatInfo_GetChannelMask_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICPixelFormatInfo**](-wic-codec-iwicpixelformatinfo.md)\***
+Type: **[**IWICPixelFormatInfo**](/windows/win32/Wincodec/nn-wincodec-iwicpixelformatinfo?branch=master)\***
 
-Pointer to this [**IWICPixelFormatInfo**](-wic-codec-iwicpixelformatinfo.md) object.
+Pointer to this [**IWICPixelFormatInfo**](/windows/win32/Wincodec/nn-wincodec-iwicpixelformatinfo?branch=master) object.
 
 </dd> <dt>
 
@@ -86,15 +91,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

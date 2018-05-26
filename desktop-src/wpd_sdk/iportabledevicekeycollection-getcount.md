@@ -1,7 +1,12 @@
 ---
-Description: 'The GetCount method retrieves the number of keys in this collection.'
-ms.assetid: '963f514e-3e0f-4334-ac29-6de7cc8aa336'
-title: 'IPortableDeviceKeyCollection::GetCount method'
+Description: The GetCount method retrieves the number of keys in this collection.
+ms.assetid: 963f514e-3e0f-4334-ac29-6de7cc8aa336
+title: IPortableDeviceKeyCollectionGetCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceKeyCollection::GetCount method
@@ -13,7 +18,7 @@ The **GetCount** method retrieves the number of keys in this collection.
 
 ```C++
 HRESULT GetCount(
-  [in] DWORD *pcElems
+  [in] DWORD *pcElems
 );
 ```
 
@@ -43,7 +48,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -73,9 +78,9 @@ For an example of how to use this method, see [Retrieving Supported Service Even
 [Retrieving Supported Service Methods](retrieving-supported-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

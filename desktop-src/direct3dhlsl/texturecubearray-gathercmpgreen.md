@@ -1,12 +1,18 @@
 ---
 title: TextureCubeArray GatherCmpGreen methods
 description: Samples and compares a texture and returns the green component.
-ms.assetid: 'F4B58F67-E13C-4166-9793-4CD1E1712766'
-keywords: ["GatherCmpGreen methods HLSL"]
+ms.assetid: F4B58F67-E13C-4166-9793-4CD1E1712766
+keywords:
+- GatherCmpGreen methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCubeArray::GatherCmpGreen methods
@@ -30,9 +36,9 @@ Samples and compares a texture and returns the green component.
 [**TextureCubeArray**](texturecubearray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Calculating Usage Graphs
 description: Calculating Usage Graphs
-ms.assetid: '4540401a-aa63-46f1-a083-f6fa659c3dde'
+ms.assetid: 4540401a-aa63-46f1-a083-f6fa659c3dde
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calculating Usage Graphs

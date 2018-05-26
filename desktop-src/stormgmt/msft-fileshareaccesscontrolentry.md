@@ -1,8 +1,10 @@
 ---
 title: MSFT\_FileShareAccessControlEntry class
-description: Models the subsystem's concept of an access control entry for a file share.
-ms.assetid: '0F2A94A2-BFA9-4895-B93F-71A502850F1E'
-keywords: ["MSFT_FileShareAccessControlEntry class Windows Storage Management API", "MSFT_FileShareAccessControlEntry class Windows Storage Management API , described"]
+description: Models the subsystems concept of an access control entry for a file share.
+ms.assetid: 0F2A94A2-BFA9-4895-B93F-71A502850F1E
+keywords:
+- MSFT_FileShareAccessControlEntry class Windows Storage Management API
+- MSFT_FileShareAccessControlEntry class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_FileShareAccessControlEntry class
@@ -112,16 +119,16 @@ The name of the account to which the access right is granted.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

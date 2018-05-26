@@ -4,13 +4,15 @@ description: Represents an association between an instance of a metric value and
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '47c5aaed-e3c7-4dbe-b102-23c85907ba15'
-ms.prod: 'windows-server-dev'
+ms.assetid: 47c5aaed-e3c7-4dbe-b102-23c85907ba15
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_MetricInstance class", "CIM_MetricInstance class, described"]
+keywords:
+- CIM_MetricInstance class
+- CIM_MetricInstance class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_MetricInstance class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_MetricInstance : CIM_Dependency
 {
   CIM_BaseMetricDefinition REF Antecedent;
-  CIM_BaseMetricValue      REF Dependent;
+  CIM_BaseMetricValue      REF Dependent;
 };
 ```
 
@@ -91,7 +96,7 @@ The metric value that is associated with the metric definition.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -108,9 +113,9 @@ The metric value that is associated with the metric definition.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

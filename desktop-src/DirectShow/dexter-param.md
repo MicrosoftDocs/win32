@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the value that a property assumes at a given time.'
-ms.assetid: '117868b7-65e5-4b3b-9e50-4106ee6a65d0'
-title: 'DEXTER\_PARAM structure'
+Description: Specifies the value that a property assumes at a given time.
+ms.assetid: 117868b7-65e5-4b3b-9e50-4106ee6a65d0
+title: DEXTER\_PARAM structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DEXTER\_PARAM structure
@@ -9,7 +14,7 @@ title: 'DEXTER\_PARAM structure'
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]
 
- 
+ 
 
 Specifies the value that a property assumes at a given time.
 
@@ -18,9 +23,9 @@ Specifies the value that a property assumes at a given time.
 
 ```C++
 typedef struct {
-  BSTR   Name;
+  BSTR   Name;
   DISPID dispID;
-  LONG   nValues;
+  LONG   nValues;
 } DEXTER_PARAM;
 ```
 
@@ -75,9 +80,9 @@ The object must support the **IDispatch** interface.
 [**DEXTER\_VALUE**](dexter-value.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

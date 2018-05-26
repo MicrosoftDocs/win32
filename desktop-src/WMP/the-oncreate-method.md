@@ -1,8 +1,18 @@
 ---
 title: The OnCreate Method
 description: The OnCreate Method
-ms.assetid: 'b23546b3-968f-41d8-ba07-3d694152c3ed'
-keywords: ["Windows Media Player plug-ins,OnCreate method", "plug-ins,OnCreate method", "user interface plug-ins,OnCreate method", "UI plug-ins,OnCreate method", "OnCreate method"]
+ms.assetid: b23546b3-968f-41d8-ba07-3d694152c3ed
+keywords:
+- Windows Media Player plug-ins,OnCreate method
+- plug-ins,OnCreate method
+- user interface plug-ins,OnCreate method
+- UI plug-ins,OnCreate method
+- OnCreate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The OnCreate Method

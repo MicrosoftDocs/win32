@@ -1,13 +1,16 @@
 ---
-Description: 'Use the methods and properties of the SWbemObjectPath object to construct and validate an object path. This object can be created by the VBScript CreateObject call.'
+Description: Use the methods and properties of the SWbemObjectPath object to construct and validate an object path. This object can be created by the VBScript CreateObject call.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f2cf489d-d2a9-4926-84cf-fb33fe3d726a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f2cf489d-d2a9-4926-84cf-fb33fe3d726a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemObjectPath object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectPath object
@@ -34,7 +37,7 @@ The **SWbemObjectPath** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -60,7 +63,7 @@ The **SWbemObjectPath** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -207,8 +210,8 @@ else
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -224,9 +227,9 @@ else
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

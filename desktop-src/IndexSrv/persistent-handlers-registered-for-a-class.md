@@ -1,7 +1,12 @@
 ---
 title: Persistent Handlers Registered for a Class
 description: Persistent Handlers Registered for a Class
-ms.assetid: 'c74988c7-a6ae-46ad-97e8-f15d1d9036bd'
+ms.assetid: c74988c7-a6ae-46ad-97e8-f15d1d9036bd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Persistent Handlers Registered for a Class

@@ -1,7 +1,12 @@
 ---
-Description: 'The Close method waits for the thread to exit, then releases its resources.'
-ms.assetid: '57e27ff7-3665-416e-8a6e-660483c5aed2'
-title: 'CAMThread.Close method'
+Description: The Close method waits for the thread to exit, then releases its resources.
+ms.assetid: 57e27ff7-3665-416e-8a6e-660483c5aed2
+title: CAMThread.Close method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread.Close method
@@ -49,9 +54,9 @@ The [**~ CAMThread**](camthread--camthread.md) destructor method calls this meth
 [**CAMThread Class**](camthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

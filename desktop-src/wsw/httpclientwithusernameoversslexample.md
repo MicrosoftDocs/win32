@@ -1,8 +1,16 @@
 ---
 title: HttpClientWithUsernameOverSslExample
 description: This example shows a HTTP client that sends request-reply messages, with username over SSL mixed-mode security.
-ms.assetid: 'aaaad584-d861-4abd-9d76-95aba5090676'
-keywords: ["HttpClientWithUsernameOverSslExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: aaaad584-d861-4abd-9d76-95aba5090676
+keywords:
+- HttpClientWithUsernameOverSslExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpClientWithUsernameOverSslExample

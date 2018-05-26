@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.truBassLevel
 description: The truBassLevel attribute specifies or retrieves the SRS TruBass level.
-ms.assetid: '9f8c9dbe-d535-42af-8ea7-74fc10526fba'
-keywords: ["EQUALIZERSETTINGS.truBassLevel Windows Media Player"]
+ms.assetid: 9f8c9dbe-d535-42af-8ea7-74fc10526fba
+keywords:
+- EQUALIZERSETTINGS.truBassLevel Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.truBassLevel
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.truBassLevel
@@ -47,9 +53,9 @@ TruBass is an effect that enhances the sound of the bass levels of the audio tra
 [**EQUALIZERSETTINGS.enhancedAudio**](equalizersettings-enhancedaudio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Helper Tokens for BITS Transfer Jobs
 description: Helper Tokens for BITS Transfer Jobs
-ms.assetid: 'f29f9870-e406-472b-9342-203def7453ae'
+ms.assetid: f29f9870-e406-472b-9342-203def7453ae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Helper Tokens for BITS Transfer Jobs
@@ -10,21 +15,21 @@ In Windows Vista, the Background Intelligent Transfer Service (BITS) service al
 
 In Windows 7, the BITS service associates an additional token to a BITS transfer job. The BITS transfer job can be configured with an additional security token, which is an impersonation token created by an application calling the BITS COM API. This helper token model allows applications to simultaneously use two different security tokens to access local files, client-side certificates, remote files, and proxies. For example, a BITS transfer job is created that writes the downloaded data to a privileged local directory, and then it presents a low-rights domain identity to the HTTP server and proxy server.
 
-An application, typically a Windows service, specifies a helper token by using the new interface [**IBitsTokenOptions**](ibitstokenoptions.md). This interface is implemented by the BITS job object. The application calls [**IBackgroundCopyJob::QueryInterface**](ibackgroundcopyjob.md) to get the interface pointer. The application impersonates the helper identity and calls [**IBitsTokenOptions::SetHelperToken**](ibitstokenoptions-sethelpertoken.md) to pass the token to the BITS service. Then the application specifies the resources to which the token applies by passing a set of bit flags using [**IBitsTokenOptions::SetHelperTokenFlags**](ibitstokenoptions-sethelpertokenflags.md). The application clears all the flags (using **SetHelperTokenFlags** again) to revert the behavior. The BITS service stores the bit flags and the token in the BITS transfer job.
+An application, typically a Windows service, specifies a helper token by using the new interface [**IBitsTokenOptions**](/windows/win32/Bits4_0/nn-bits4_0-ibitstokenoptions?branch=master). This interface is implemented by the BITS job object. The application calls [**IBackgroundCopyJob::QueryInterface**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) to get the interface pointer. The application impersonates the helper identity and calls [**IBitsTokenOptions::SetHelperToken**](/windows/win32/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken?branch=master) to pass the token to the BITS service. Then the application specifies the resources to which the token applies by passing a set of bit flags using [**IBitsTokenOptions::SetHelperTokenFlags**](/windows/win32/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertokenflags?branch=master). The application clears all the flags (using **SetHelperTokenFlags** again) to revert the behavior. The BITS service stores the bit flags and the token in the BITS transfer job.
 
-When the owner of the BITS transfer jobs logs off, the BITS service discards any helper tokens that are associated with the transfer job. If the transfer is not complete, the BITS service places the job in an error state with the **BG\_E\_TOKEN\_REQUIRED** error code and discards the helper token. The client application can refresh the token by calling [**IBitsTokenOptions::SetHelperToken**](ibitstokenoptions-sethelpertoken.md) and can then resume the BITS transfer job. Alternatively, the client application can clear the helper token flags using [**IBitsTokenOptions::SetHelperTokenFlags**](ibitstokenoptions-sethelpertokenflags.md) and then resume the transfer job without a helper token.
+When the owner of the BITS transfer jobs logs off, the BITS service discards any helper tokens that are associated with the transfer job. If the transfer is not complete, the BITS service places the job in an error state with the **BG\_E\_TOKEN\_REQUIRED** error code and discards the helper token. The client application can refresh the token by calling [**IBitsTokenOptions::SetHelperToken**](/windows/win32/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken?branch=master) and can then resume the BITS transfer job. Alternatively, the client application can clear the helper token flags using [**IBitsTokenOptions::SetHelperTokenFlags**](/windows/win32/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertokenflags?branch=master) and then resume the transfer job without a helper token.
 
 Similarly, when the owner of a terminal services session logs off, the BITS service must discard any helper tokens from that session and place the affected transfer jobs in an error state with the **BG\_E\_TOKEN\_REQUIRED** error code.
 
-The helper token model requires a change to BITS access control policy. Previous versions of BITS implemented access checks on every method call. Starting with Windows 7, the access check must be performed inside the [**IBackgroundCopyJob::QueryInterface**](ibackgroundcopyjob.md) call; otherwise, the helper token might not have access to the transfer job.
+The helper token model requires a change to BITS access control policy. Previous versions of BITS implemented access checks on every method call. Starting with Windows 7, the access check must be performed inside the [**IBackgroundCopyJob::QueryInterface**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) call; otherwise, the helper token might not have access to the transfer job.
 
 > [!Note]  
-> Older implementations effectively required that BITS users have administrator privileges in order to set helper tokens. Starting with Windows 10, version 1607, non-administrator BITS users can use [**IBitsTokenOptions::SetHelperToken**](ibitstokenoptions-sethelpertoken.md) to set non-administrator helper tokens on BITS jobs they own. This change enables non-administrator BITS users (such as background downloader services running under the [NetworkService account](https://msdn.microsoft.com/library/windows/desktop/ms684272)) to set helper tokens.
+> Older implementations effectively required that BITS users have administrator privileges in order to set helper tokens. Starting with Windows 10, version 1607, non-administrator BITS users can use [**IBitsTokenOptions::SetHelperToken**](/windows/win32/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken?branch=master) to set non-administrator helper tokens on BITS jobs they own. This change enables non-administrator BITS users (such as background downloader services running under the [NetworkService account](https://msdn.microsoft.com/library/windows/desktop/ms684272)) to set helper tokens.
 >
 > Specifically, the implementation has been changed to allow users without administrator privileges to set helper tokens, as long as the following conditions are met:
 >
-> -   during the [**IBackgroundCopyJob::QueryInterface**](ibackgroundcopyjob.md) call, the SID of the caller's thread's token is the same as the SID of the job owner's user account, and
-> -   when [**IBitsTokenOptions::SetHelperToken**](ibitstokenoptions-sethelpertoken.md) is called, the helper token does not have the administrator SID (**DOMAIN\_ALIAS\_RID\_ADMINS**) enabled.
+> -   during the [**IBackgroundCopyJob::QueryInterface**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) call, the SID of the caller's thread's token is the same as the SID of the job owner's user account, and
+> -   when [**IBitsTokenOptions::SetHelperToken**](/windows/win32/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken?branch=master) is called, the helper token does not have the administrator SID (**DOMAIN\_ALIAS\_RID\_ADMINS**) enabled.
 
  
 
@@ -32,7 +37,7 @@ The helper token model requires a change to BITS access control policy. Previous
 
 <dl> <dt>
 
-[**IBitsTokenOptions**](ibitstokenoptions.md)
+[**IBitsTokenOptions**](/windows/win32/Bits4_0/nn-bits4_0-ibitstokenoptions?branch=master)
 </dt> </dl>
 
  

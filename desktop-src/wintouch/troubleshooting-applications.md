@@ -1,8 +1,21 @@
 ---
 title: Troubleshooting Applications
 description: This section gives solutions to common problems.
-ms.assetid: 'dfdc5a97-aa0a-4011-8f61-6e405e28b6f8'
-keywords: ["Windows Touch,troubleshooting applications", "Windows Touch,palm rejection", "palm rejection", "Windows Touch,legacy support", "troubleshooting Windows Touch", "inertia,troubleshooting applications", "manipulations,troubleshooting applications", "gestures,troubleshooting applications"]
+ms.assetid: dfdc5a97-aa0a-4011-8f61-6e405e28b6f8
+keywords:
+- Windows Touch,troubleshooting applications
+- Windows Touch,palm rejection
+- palm rejection
+- Windows Touch,legacy support
+- troubleshooting Windows Touch
+- inertia,troubleshooting applications
+- manipulations,troubleshooting applications
+- gestures,troubleshooting applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting Applications
@@ -104,7 +117,7 @@ if ((GetMessageExtraInfo() &amp; MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH
 |          |                                                                                                                                                                                                                                                          |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | My application is freezing for no reason. I'm getting access violations when I initialize my object interfaces.                                                                                                                                          |
-| Cause    | Missing a call to **CoInitialize** when using the [**IManipulationProcessor**](imanipulationprocessor.md) or [**IInertiaProcessor**](iinertiaprocessor.md) interfaces.                                                                                 |
+| Cause    | Missing a call to **CoInitialize** when using the [**IManipulationProcessor**](/windows/win32/manipulations/nn-manipulations-imanipulationprocessor?branch=master) or [**IInertiaProcessor**](/windows/win32/manipulations/nn-manipulations-iinertiaprocessor?branch=master) interfaces.                                                                                 |
 | Solution | This could be caused by instantiating the Windows Touch Component Object Model (COM) objects without calling CoInitialize. This happens sometimes when you are converting projects from using gestures to using the manipulations or inertia interfaces. |
 
 
@@ -117,7 +130,7 @@ if ((GetMessageExtraInfo() &amp; MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | My object is rotating improperly when it's being translated. Single-finger rotation is not working correctly.                                                                                                                                                                                                                                                                           |
 | Cause    | Improperly setting pivots on an object.                                                                                                                                                                                                                                                                                                                                                 |
-| Solution | You are not setting up the manipulation pivot points correctly. Set the [**PivotPointX**](imanipulationprocessor-pivotpointx.md) and [**PivotPointY**](imanipulationprocessor-pivotpointy.md) properties to the center of the object or point you want to rotate around, and set the [**PivotRadius**](imanipulationprocessor-pivotradius.md) property to the radius of your object. |
+| Solution | You are not setting up the manipulation pivot points correctly. Set the [**PivotPointX**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx?branch=master) and [**PivotPointY**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy?branch=master) properties to the center of the object or point you want to rotate around, and set the [**PivotRadius**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius?branch=master) property to the radius of your object. |
 
 
 
@@ -200,7 +213,7 @@ if ((GetMessageExtraInfo() &amp; MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH
 </tr>
 <tr class="odd">
 <td>Solution</td>
-<td>Make sure that you are calling [<strong>TOUCH_COORD_TO_PIXEL</strong>](touch-coord-to-pixel.md) and [<strong>ScreenToClient</strong>](https://msdn.microsoft.com/library/windows/desktop/dd162952). The following code shows how to do this. <span data-codelanguage="ManagedCPlusPlus"></span>
+<td>Make sure that you are calling [<strong>TOUCH_COORD_TO_PIXEL</strong>](/windows/win32/winuser/nf-winuser-touch_coord_to_pixel?branch=master) and [<strong>ScreenToClient</strong>](https://msdn.microsoft.com/library/windows/desktop/dd162952). The following code shows how to do this. <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -252,8 +265,8 @@ In order to use the [<strong>ScreenToClient</strong>](https://msdn.microsoft.com
 |          |                                                                                                                                                                                                                                |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | I'm not seeing [**WM\_TOUCH**](wm-touchdown.md) messages, but I know that Windows Touch is working because I'm seeing [**WM\_GESTURE**](wm-gesture.md) messages.                                                             |
-| Cause    | Missing a call to [**RegisterTouchWindow**](registertouchwindow.md).                                                                                                                                                          |
-| Solution | [**WM\_TOUCH**](wm-touchdown.md) and [**WM\_GESTURE**](wm-gesture.md) messages are mutually exclusive. If you don't call [**RegisterTouchWindow**](registertouchwindow.md), you will receive only **WM\_GESTURE** messages. |
+| Cause    | Missing a call to [**RegisterTouchWindow**](/windows/win32/winuser/nf-winuser-registertouchwindow?branch=master).                                                                                                                                                          |
+| Solution | [**WM\_TOUCH**](wm-touchdown.md) and [**WM\_GESTURE**](wm-gesture.md) messages are mutually exclusive. If you don't call [**RegisterTouchWindow**](/windows/win32/winuser/nf-winuser-registertouchwindow?branch=master), you will receive only **WM\_GESTURE** messages. |
 
 
 
@@ -265,7 +278,7 @@ In order to use the [<strong>ScreenToClient</strong>](https://msdn.microsoft.com
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | I am noticing small delays from the time I touch my finger down to when I am getting input in my application.                                                                                                                                                                                                                                         |
 | Cause    | Palm rejection is causing delays in input.                                                                                                                                                                                                                                                                                                            |
-| Solution | If **TWF\_WANTPALM** is set in calls to [**RegisterTouchWindow**](registertouchwindow.md), palm rejection is enabled. This causes a small (100 ms) delay while the software tests whether input is coming from a finger, pen, or the user's palm. Disable palm rejection by calling **RegisterTouchWindow** with the **TWF\_WANTPALM** flag cleared. |
+| Solution | If **TWF\_WANTPALM** is set in calls to [**RegisterTouchWindow**](/windows/win32/winuser/nf-winuser-registertouchwindow?branch=master), palm rejection is enabled. This causes a small (100 ms) delay while the software tests whether input is coming from a finger, pen, or the user's palm. Disable palm rejection by calling **RegisterTouchWindow** with the **TWF\_WANTPALM** flag cleared. |
 
 
 
@@ -290,8 +303,8 @@ In order to use the [<strong>ScreenToClient</strong>](https://msdn.microsoft.com
 |          |                                                                                                                                                                                                                         |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | I'm not seeing [**WM\_GESTURE**](wm-gesture.md) messages, but I know that Windows Touch is working because I'm seeing [**WM\_TOUCH**](wm-touchdown.md) messages.                                                      |
-| Cause    | Calling [**RegisterTouchWindow**](registertouchwindow.md).                                                                                                                                                             |
-| Solution | [**WM\_TOUCH**](wm-touchdown.md) and [**WM\_GESTURE**](wm-gesture.md) messages are mutually exclusive. If you call [**RegisterTouchWindow**](registertouchwindow.md), you will not receive **WM\_GESTURE** messages. |
+| Cause    | Calling [**RegisterTouchWindow**](/windows/win32/winuser/nf-winuser-registertouchwindow?branch=master).                                                                                                                                                             |
+| Solution | [**WM\_TOUCH**](wm-touchdown.md) and [**WM\_GESTURE**](wm-gesture.md) messages are mutually exclusive. If you call [**RegisterTouchWindow**](/windows/win32/winuser/nf-winuser-registertouchwindow?branch=master), you will not receive **WM\_GESTURE** messages. |
 
 
 
@@ -315,7 +328,7 @@ In order to use the [<strong>ScreenToClient</strong>](https://msdn.microsoft.com
 </tr>
 <tr class="odd">
 <td>Solution</td>
-<td>You need to call [<strong>SetGestureConfig</strong>](setgestureconfig.md) when you receive a [<strong>WM_GESTURENOTIFY</strong>](wm-gesturenotify.md) message as described in the <strong>WM_GESTURENOTIFY</strong> reference, or you need to add a handler for the <strong>WM_GESTURENOTIFY</strong> message. The following code shows how a handler could be implemented to enable support for rotation. <span data-codelanguage="ManagedCPlusPlus"></span>
+<td>You need to call [<strong>SetGestureConfig</strong>](/windows/win32/winuser/nf-winuser-setgestureconfig?branch=master) when you receive a [<strong>WM_GESTURENOTIFY</strong>](wm-gesturenotify.md) message as described in the <strong>WM_GESTURENOTIFY</strong> reference, or you need to add a handler for the <strong>WM_GESTURENOTIFY</strong> message. The following code shows how a handler could be implemented to enable support for rotation. <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />

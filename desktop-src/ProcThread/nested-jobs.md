@@ -1,7 +1,12 @@
 ---
-Description: 'An application can use nested jobs to manage subsets of processes. Nested jobs also enable an application that uses jobs to host other applications that also use jobs.'
-ms.assetid: 'FA22493B-CD29-49A7-BDAC-349FA96B8C9E'
+Description: An application can use nested jobs to manage subsets of processes. Nested jobs also enable an application that uses jobs to host other applications that also use jobs.
+ms.assetid: FA22493B-CD29-49A7-BDAC-349FA96B8C9E
 title: Nested Jobs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Nested Jobs
@@ -36,7 +41,7 @@ Nested jobs can also be used to manage groups of peer processes. In the job hier
 
 Processes in a job hierarchy are either explicitly associated with a job object using the [**AssignProcessToJobObject**](assignprocesstojobobject.md) function or implicitly associated during process creation, same as for standalone jobs. The order in which jobs are created and processes are assigned determines whether a hierarchy can be created.
 
-To build a job hierarchy using explicit association, all job objects must be created using [**CreateJobObject**](createjobobject.md), then [**AssignProcessToJobObject**](assignprocesstojobobject.md) must be called multiple times for each process to associate the process with each job it should belong to. To ensure that the job hierarchy is valid, first assign all processes to the job at the root of the hierarchy, then assign a subset of processes to the immediate child job object, and so on. If processes are assigned to jobs in this order, a child job will always have a subset of processes in its parent job while the hierarchy is being created, which is required for nesting. If processes are assigned to jobs in random order, at some point a child job will have processes that are not in its parent job. This is not allowed by nesting and it will cause **AssignProcessToJobObject** to fail.
+To build a job hierarchy using explicit association, all job objects must be created using [**CreateJobObject**](/windows/win32/WinBase/nf-winbase-createjobobjecta?branch=master), then [**AssignProcessToJobObject**](assignprocesstojobobject.md) must be called multiple times for each process to associate the process with each job it should belong to. To ensure that the job hierarchy is valid, first assign all processes to the job at the root of the hierarchy, then assign a subset of processes to the immediate child job object, and so on. If processes are assigned to jobs in this order, a child job will always have a subset of processes in its parent job while the hierarchy is being created, which is required for nesting. If processes are assigned to jobs in random order, at some point a child job will have processes that are not in its parent job. This is not allowed by nesting and it will cause **AssignProcessToJobObject** to fail.
 
 When processes are implicitly associated with a job during process creation, a child process is associated with every job in the job chain of its parent process. If the immediate job object allows breakaway, the child process breaks away from the immediate job object and from each job in the parent job chain, moving up the hierarchy until it reaches a job that does not permit breakaway. If the immediate job object does not allow breakaway, the child process does not break away even if jobs in its parent job chain allow it.
 
@@ -44,7 +49,7 @@ When processes are implicitly associated with a job during process creation, a c
 
 For certain resource limits, the limit set for jobs in a parent job chain determine the *effective limit* that is enforced for a child job. The effective limit for child job can be more restrictive than the limit of its parent, but it cannot be less restrictive. For example, if a child job's priority class is ABOVE\_NORMAL\_PRIORITY\_CLASS and its parent job's priority class is NORMAL\_PRIORITY\_CLASS, the effective limit for processes in the child job is NORMAL\_PRIORITY\_CLASS. However, if the child job's priority class is BELOW\_NORMAL\_PRIORITY\_CLASS, the effective limit for processes in the child job is BELOW\_NORMAL\_PRIORITY\_CLASS. Effective limits are enforced for priority class, affinity, commit charge, per-process execution time limit, scheduling class limit, and working set minimum and maximum. For more information about specific resource limits, see [**SetInformationJobObject.**](setinformationjobobject.md)
 
-When certain events occur, such as new process creation or resource limit violation, a message is sent to the I/O completion port associated with a job. A job can also register to receive notifications when certain limits are exceeded. For a non-nested job, the message is sent to the I/O completion port associated with the job. For a nested job, the message is sent to every I/O completion port associated with any job in the parent job chain of the job that triggered the message. A child job does not need to have an associated I/O completion port for messages it triggers to be sent to the I/O completion ports of parent jobs higher in the job chain. For more information about specific messages, see [**JOBOBJECT\_ASSOCIATE\_COMPLETION\_PORT**](jobobject-associate-completion-port-str.md).
+When certain events occur, such as new process creation or resource limit violation, a message is sent to the I/O completion port associated with a job. A job can also register to receive notifications when certain limits are exceeded. For a non-nested job, the message is sent to the I/O completion port associated with the job. For a nested job, the message is sent to every I/O completion port associated with any job in the parent job chain of the job that triggered the message. A child job does not need to have an associated I/O completion port for messages it triggers to be sent to the I/O completion ports of parent jobs higher in the job chain. For more information about specific messages, see [**JOBOBJECT\_ASSOCIATE\_COMPLETION\_PORT**](/windows/win32/WinNT/ns-winnt-_jobobject_associate_completion_port?branch=master).
 
 ## Resource Accounting for Nested Jobs
 

@@ -1,21 +1,27 @@
 ---
 title: record command
 description: The record command starts recording data. VCR and waveform-audio devices recognize this command. Although digital-video devices and MIDI sequencers also recognize this command, the MCIAVI and MCISEQ drivers do not implement it.
-ms.assetid: '0f04c384-7702-43d4-9c7e-e9e74d6f2796'
-keywords: ["record command Windows Multimedia"]
+ms.assetid: 0f04c384-7702-43d4-9c7e-e9e74d6f2796
+keywords:
+- record command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - record
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # record command
 
 The record command starts recording data. VCR and waveform-audio devices recognize this command. Although digital-video devices and MIDI sequencers also recognize this command, the MCIAVI and MCISEQ drivers do not implement it.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -54,7 +60,7 @@ Flag for recording data. The following table lists device types that recognize t
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszRecordFlags** parameter and their meanings.
 
@@ -75,7 +81,7 @@ The following table lists the flags that can be specified in the **lpszRecordFla
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -110,8 +116,8 @@ record mysound
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -152,9 +158,9 @@ record mysound
 [stop](stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

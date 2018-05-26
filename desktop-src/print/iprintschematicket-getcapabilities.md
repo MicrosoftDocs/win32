@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets an IPrintSchemaCapabilities object that represents the printer capabilities based on the current settings of this IPrintSchemaTicket object.'
-ms.assetid: '5556BD5E-6489-4CCF-8C62-DDA53AD9F368'
-title: 'IPrintSchemaTicket::GetCapabilities method'
+---
+Description: Gets an IPrintSchemaCapabilities object that represents the printer capabilities based on the current settings of this IPrintSchemaTicket object.
+ms.assetid: 5556BD5E-6489-4CCF-8C62-DDA53AD9F368
+title: IPrintSchemaTicketGetCapabilities method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaTicket::GetCapabilities method

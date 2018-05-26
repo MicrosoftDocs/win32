@@ -2,13 +2,19 @@
 title: last\_is attribute
 description: The field attribute \ last\_is\ specifies the index of the last array element to be transmitted. When the specified index is zero or negative, no array elements are transmitted.
 ms.assetid: 42a5cb0d-0887-4aa7-b34f-2fbad0f4c8ab
-keywords: ["last_is attribute MIDL"]
+keywords:
+- last_is attribute MIDL
 topic_type:
 - apiref
 api_name:
 - last_is
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # last\_is attribute

@@ -1,7 +1,12 @@
 ---
-Description: 'CIM\_ProcessIndication is an abstract superclass for specialized indication classes, that address specific changes and alerts published by providers and instrumentation.'
-ms.assetid: 'b321b5ec-4868-4149-99ad-4596fd49c39b'
-title: 'CIM\_ProcessIndication class'
+Description: CIM\_ProcessIndication is an abstract superclass for specialized indication classes, that address specific changes and alerts published by providers and instrumentation.
+ms.assetid: b321b5ec-4868-4149-99ad-4596fd49c39b
+title: CIM\_ProcessIndication class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ProcessIndication class
@@ -27,8 +32,8 @@ The **CIM\_ProcessIndication** class does not define any members.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -42,9 +47,9 @@ The **CIM\_ProcessIndication** class does not define any members.
 [**CIM\_Indication**](cim-indication.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: SQuery Sample
 description: SQuery Sample
-ms.assetid: 'e5d8cc8c-df9e-4c48-b07d-6698cc8a32d4'
+ms.assetid: e5d8cc8c-df9e-4c48-b07d-6698cc8a32d4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SQuery Sample

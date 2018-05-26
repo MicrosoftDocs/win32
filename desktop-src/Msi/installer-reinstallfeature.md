@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ReinstallFeature method of the Installer object reinstalls features or corrects problems with installed features.'
-ms.assetid: 'cfe2aef4-7742-49cd-b7a3-7d484e1f85e3'
-title: 'Installer.ReinstallFeature method'
+---
+Description: The ReinstallFeature method of the Installer object reinstalls features or corrects problems with installed features.
+ms.assetid: cfe2aef4-7742-49cd-b7a3-7d484e1f85e3
+title: Installer.ReinstallFeature method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ReinstallFeature method
@@ -85,7 +90,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**MsiReinstallFeature**](msireinstallfeature.md)
+[**MsiReinstallFeature**](/windows/win32/Msi/nf-msi-msireinstallfeaturea?branch=master)
 </dt> <dt>
 
 [Installation and Configuration Functions](installer-function-reference.md)

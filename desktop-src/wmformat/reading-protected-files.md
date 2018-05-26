@@ -1,15 +1,32 @@
 ---
 title: Reading Protected Files
 description: Reading Protected Files
-ms.assetid: '24f839f1-ce57-4d06-b1a5-a6bea7b5b7bb'
-keywords: ["Windows Media Format SDK,reading protected files", "Windows Media Format SDK,protected files", "Advanced Systems Format (ASF),reading protected files", "ASF (Advanced Systems Format),reading protected files", "Advanced Systems Format (ASF),protected files", "ASF (Advanced Systems Format),protected files", "Advanced Systems Format (ASF),WMStubDRM.lib", "ASF (Advanced Systems Format),WMStubDRM.lib", "WMStubDRM.lib,reading protected files", "WMStubDRM.lib,protected files", "digital rights management (DRM),WMStubDRM.lib", "DRM (digital rights management),WMStubDRM.lib"]
+ms.assetid: 24f839f1-ce57-4d06-b1a5-a6bea7b5b7bb
+keywords:
+- Windows Media Format SDK,reading protected files
+- Windows Media Format SDK,protected files
+- Advanced Systems Format (ASF),reading protected files
+- ASF (Advanced Systems Format),reading protected files
+- Advanced Systems Format (ASF),protected files
+- ASF (Advanced Systems Format),protected files
+- Advanced Systems Format (ASF),WMStubDRM.lib
+- ASF (Advanced Systems Format),WMStubDRM.lib
+- WMStubDRM.lib,reading protected files
+- WMStubDRM.lib,protected files
+- digital rights management (DRM),WMStubDRM.lib
+- DRM (digital rights management),WMStubDRM.lib
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading Protected Files
 
 Reading a DRM-protected file or network stream basically involves attempting to open the file (or connect to the stream) and then handling any events that might be sent from the DRM components.
 
-If a player is not DRM-enabled (does not link to a valid wmstubdrm.lib library) the [**IWMReader::Open**](iwmreader-open.md) call fails when it tries to open a protected file and returns NS\_E\_PROTECTED\_CONTENT or some related error.
+If a player is not DRM-enabled (does not link to a valid wmstubdrm.lib library) the [**IWMReader::Open**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-open?branch=master) call fails when it tries to open a protected file and returns NS\_E\_PROTECTED\_CONTENT or some related error.
 
 When a DRM-enabled application attempts to open a DRM-protected file, the DRM component automatically searches the local system for a valid license. If one is found, the DRM component automatically decrypts the file in a way that is completely transparent to the application. The action that an application may perform on the decrypted file depends on the rights specified in the license. For a full description of possible rights, see the Windows Media Rights Manager SDK documentation.
 

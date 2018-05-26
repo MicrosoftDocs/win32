@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_LoggedOnUser association WMI class relates a session and a user account.'
+Description: The Win32\_LoggedOnUser association WMI class relates a session and a user account.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b1233f90-4898-4ced-84d2-0858027e935a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b1233f90-4898-4ced-84d2-0858027e935a
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LoggedOnUser class'
+title: Win32\_LoggedOnUser class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LoggedOnUser class
@@ -25,7 +28,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_LoggedOnUser : CIM_Dependency
 {
   Win32_LogonSession REF Dependent;
-  Win32_Account      REF Antecedent;
+  Win32_Account      REF Antecedent;
 };
 ```
 
@@ -87,8 +90,8 @@ The [get-loggedonuser function](https://Gallery.TechNet.Microsoft.Com/scriptcent
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -105,9 +108,9 @@ The [get-loggedonuser function](https://Gallery.TechNet.Microsoft.Com/scriptcent
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

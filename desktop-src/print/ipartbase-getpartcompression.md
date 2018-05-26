@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetPartCompression method gets the compression of the part.'
-ms.assetid: '18b2a3c2-26da-434e-bcea-89bd6ef22077'
-title: 'IPartBase::GetPartCompression method'
+---
+Description: The GetPartCompression method gets the compression of the part.
+ms.assetid: 18b2a3c2-26da-434e-bcea-89bd6ef22077
+title: IPartBaseGetPartCompression method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartBase::GetPartCompression method

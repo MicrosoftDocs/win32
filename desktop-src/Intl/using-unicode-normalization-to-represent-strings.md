@@ -1,7 +1,12 @@
-﻿---
-Description: 'Applications can use Unicode to represent strings in multiple forms.'
-ms.assetid: '027c9ef5-4012-4d1c-b78c-a4d3f1ccbf35'
+---
+Description: Applications can use Unicode to represent strings in multiple forms.
+ms.assetid: 027c9ef5-4012-4d1c-b78c-a4d3f1ccbf35
 title: Using Unicode Normalization to Represent Strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Unicode Normalization to Represent Strings
@@ -15,7 +20,7 @@ Applications can use Unicode to represent strings in multiple forms. As Unicode 
 
 In response to this requirement, the Unicode Consortium has defined a process called "normalization," which produces one binary representation for any of the equivalent binary representations of a character. Once normalized, two strings are equivalent if and only if they have identical binary representations. The normalization eliminates some differences but preserves case.
 
-To use Unicode normalization, an application can call the [**NormalizeString**](normalizestring.md) and [**IsNormalizedString**](isnormalizedstring.md) functions for rearrangement of strings acccording to Unicode 4.0 TR\#15. Normalization can help improve security by reducing alternate string representations that have the same linguistic meaning. Remember, however, that normalization cannot eliminate alternate representations entirely.
+To use Unicode normalization, an application can call the [**NormalizeString**](/windows/win32/Winnls/nf-winnls-normalizestring?branch=master) and [**IsNormalizedString**](/windows/win32/Winnls/nf-winnls-isnormalizedstring?branch=master) functions for rearrangement of strings acccording to Unicode 4.0 TR\#15. Normalization can help improve security by reducing alternate string representations that have the same linguistic meaning. Remember, however, that normalization cannot eliminate alternate representations entirely.
 
 For a detailed description of the Unicode standards for normalization, refer to [Unicode Standard Annex \#15: Unicode Normalization Forms](http://go.microsoft.com/fwlink/p/?linkid=161647) (UAX \#15).
 
@@ -36,7 +41,7 @@ In many cases, Unicode allows multiple representations of what is, linguisticall
 
 Your applications can perform Unicode normalization using several algorithms, called "normalization forms," that obey different rules. The Unicode Consortium has defined four normalization forms: NFC (form C), NFD (form D), NFKC (form KC), and NFKD (form KD). Each form eliminates some differences but preserves case. Win32 and the .NET Framework support all four normalization forms.
 
-The NLS enumeration type [**NORM\_FORM**](norm-form.md) supports the four standard Unicode normalization forms. Forms C and D provide canonical forms for strings. Non-canonical forms KC and KD provide further compatibility, and can reveal certain semantic equivalences that are not apparent in forms C and D. However, they do so at the expense of a certain loss of information, and generally should not be used as a canonical way to store strings.
+The NLS enumeration type [**NORM\_FORM**](/windows/win32/Winnls/ne-winnls-_norm_form?branch=master) supports the four standard Unicode normalization forms. Forms C and D provide canonical forms for strings. Non-canonical forms KC and KD provide further compatibility, and can reveal certain semantic equivalences that are not apparent in forms C and D. However, they do so at the expense of a certain loss of information, and generally should not be used as a canonical way to store strings.
 
 Of the two canonical forms, form C is a "composed" form and form D is a "decomposed" form. For example, form C uses the single Unicode code point "Ä" (U+00C4), while form D uses ("A" + "¨", that is U+0041 U+0308). These render identically, because "¨" (U+0308) is a combining character. Form D can use any number of code points to represent a single code point used by form C.
 
@@ -239,10 +244,10 @@ A relevant example can be found in [NLS: Unicode Normalization Sample](nls--unic
 [Security Considerations: International Features](security-considerations--international-features.md)
 </dt> <dt>
 
-[**IsNormalizedString**](isnormalizedstring.md)
+[**IsNormalizedString**](/windows/win32/Winnls/nf-winnls-isnormalizedstring?branch=master)
 </dt> <dt>
 
-[**NormalizeString**](normalizestring.md)
+[**NormalizeString**](/windows/win32/Winnls/nf-winnls-normalizestring?branch=master)
 </dt> </dl>
 
  

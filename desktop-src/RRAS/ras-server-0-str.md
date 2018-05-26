@@ -1,8 +1,10 @@
 ---
 title: RAS\_SERVER\_0 structure
 description: The RAS\_SERVER\_0 structure is used by the RasAdminServerGetInfo function to return information about the ports configured on a RAS server.
-ms.assetid: '8818ad68-b528-45fe-9ff4-eea194259f25'
-keywords: ["RAS_SERVER_0 structure RAS", "PRAS_SERVER_0 structure pointer RAS"]
+ms.assetid: 8818ad68-b528-45fe-9ff4-eea194259f25
+keywords:
+- RAS_SERVER_0 structure RAS
+- PRAS_SERVER_0 structure pointer RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS\_SERVER\_0 structure
 
-\[The **RAS\_SERVER\_0** structure is not supported as of Windows Vista.\]
+\[The **RAS\_SERVER\_0** structure is not supported as of Windows Vista.\]
 
 The **RAS\_SERVER\_0** structure is used by the [**RasAdminServerGetInfo**](rasadminservergetinfo.md) function to return information about the ports configured on a RAS server.
 
@@ -24,8 +31,8 @@ The **RAS\_SERVER\_0** structure is used by the [**RasAdminServerGetInfo**](rasa
 
 ```C++
 typedef struct _RAS_SERVER_0 {
-  WORD  TotalPorts;
-  WORD  PortsInUse;
+  WORD  TotalPorts;
+  WORD  PortsInUse;
   DWORD RasVersion;
 } RAS_SERVER_0, *PRAS_SERVER_0;
 ```
@@ -60,12 +67,12 @@ Specifies the version of the RAS server. Use this information to take version-sp
 | Value                                                                                                                                                                  | Meaning                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | <span id="RASDOWNLEVEL"></span><span id="rasdownlevel"></span><dl> <dt>**RASDOWNLEVEL**</dt> </dl>              | Indicates a LAN Manager version 1.0 RAS server.<br/>                      |
-| <span id="RASADMIN_35"></span><span id="rasadmin_35"></span><dl> <dt>**RASADMIN\_35**</dt> </dl>                | Indicates a Windows NT Server 3.51 and earlier RAS server or client.<br/> |
-| <span id="RASADMIN_CURRENT"></span><span id="rasadmin_current"></span><dl> <dt>**RASADMIN\_CURRENT**</dt> </dl> | Indicates a Windows NT 4.0 RAS server or client.<br/>                     |
+| <span id="RASADMIN_35"></span><span id="rasadmin_35"></span><dl> <dt>**RASADMIN\_35**</dt> </dl>                | Indicates a Windows NT Server 3.51 and earlier RAS server or client.<br/> |
+| <span id="RASADMIN_CURRENT"></span><span id="rasadmin_current"></span><dl> <dt>**RASADMIN\_CURRENT**</dt> </dl> | Indicates a Windows NT 4.0 RAS server or client.<br/>                     |
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -75,10 +82,10 @@ Specifies the version of the RAS server. Use this information to take version-sp
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Rassapi.h</dt> </dl> |
 
 
@@ -96,9 +103,9 @@ Specifies the version of the RAS server. Use this information to take version-sp
 [**RasAdminServerGetInfo**](rasadminservergetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,16 +1,21 @@
 ---
-Description: 'The following example illustrates the use of the HeapWalk function to enumerate a heap.'
-ms.assetid: 'ef37d644-473f-4e51-9785-5b44fe0dce42'
+Description: The following example illustrates the use of the HeapWalk function to enumerate a heap.
+ms.assetid: ef37d644-473f-4e51-9785-5b44fe0dce42
 title: Enumerating a Heap
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating a Heap
 
-The following example illustrates the use of the [**HeapWalk**](heapwalk.md) function to enumerate a heap.
+The following example illustrates the use of the [**HeapWalk**](/windows/win32/HeapApi/nf-heapapi-heapwalk?branch=master) function to enumerate a heap.
 
-First, the example creates a private heap with the [**HeapCreate**](heapcreate.md) function. Then it uses [**HeapLock**](heaplock.md) to lock the heap so other threads cannot access the heap while it is being enumerated. The example then calls [**HeapWalk**](heapwalk.md) with a pointer to a [**PROCESS\_HEAP\_ENTRY**](process-heap-entry-str.md) structure and iterates through the heap, printing each entry to the console.
+First, the example creates a private heap with the [**HeapCreate**](/windows/win32/HeapApi/nf-heapapi-heapcreate?branch=master) function. Then it uses [**HeapLock**](/windows/win32/HeapApi/nf-heapapi-heaplock?branch=master) to lock the heap so other threads cannot access the heap while it is being enumerated. The example then calls [**HeapWalk**](/windows/win32/HeapApi/nf-heapapi-heapwalk?branch=master) with a pointer to a [**PROCESS\_HEAP\_ENTRY**](process-heap-entry-str.md) structure and iterates through the heap, printing each entry to the console.
 
-After enumeration is finished, the example uses [**HeapUnlock**](heapunlock.md) to unlock the heap so that other threads can access it. Finally, the example calls [**HeapDestroy**](heapdestroy.md) to destroy the private heap.
+After enumeration is finished, the example uses [**HeapUnlock**](/windows/win32/HeapApi/nf-heapapi-heapunlock?branch=master) to unlock the heap so that other threads can access it. Finally, the example calls [**HeapDestroy**](/windows/win32/HeapApi/nf-heapapi-heapdestroy?branch=master) to destroy the private heap.
 
 
 ```C++

@@ -1,8 +1,9 @@
 ---
 title: SignalAndServiceStatusSpanningEvent\_State enumeration
 description: Specifies the state of a television broadcasting service.
-ms.assetid: '88da8346-661c-4638-809d-4ef01f191cbe'
-keywords: ["SignalAndServiceStatusSpanningEvent_State enumeration Microsoft TV Technologies"]
+ms.assetid: 88da8346-661c-4638-809d-4ef01f191cbe
+keywords:
+- SignalAndServiceStatusSpanningEvent_State enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdamedia.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SignalAndServiceStatusSpanningEvent\_State enumeration
@@ -22,9 +28,9 @@ Specifies the state of a television broadcasting service.
 
 ```C++
 typedef enum  { 
-  SignalAndServiceStatusSpanningEvent_Clear          = 0,
-  SignalAndServiceStatusSpanningEvent_NoTVSignal     = 1,
-  SignalAndServiceStatusSpanningEvent_ServiceOffAir  = 2
+  SignalAndServiceStatusSpanningEvent_Clear          = 0,
+  SignalAndServiceStatusSpanningEvent_NoTVSignal     = 1,
+  SignalAndServiceStatusSpanningEvent_ServiceOffAir  = 2
 } SignalAndServiceStatusSpanningEvent_State;
 ```
 
@@ -61,15 +67,15 @@ The service is not broadcasting.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Bdamedia.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

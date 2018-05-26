@@ -1,7 +1,12 @@
 ---
-Description: 'If the CDROMVolume Control bit is set, the control shows all the volumes in the current installation plus all the CD-ROM volumes.'
-ms.assetid: '233df659-413d-416e-a3d7-d05a67e9bd73'
+Description: If the CDROMVolume Control bit is set, the control shows all the volumes in the current installation plus all the CD-ROM volumes.
+ms.assetid: 233df659-413d-416e-a3d7-d05a67e9bd73
 title: CDROMVolume Control Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDROMVolume Control Attribute

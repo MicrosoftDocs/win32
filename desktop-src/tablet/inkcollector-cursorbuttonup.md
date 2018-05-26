@@ -1,20 +1,25 @@
 ---
-Description: 'Occurs when the InkCollector detects a cursor button that is up.'
-ms.assetid: 'f07daad7-e0d1-45cf-a708-5486a5dfda8b'
-title: 'InkCollector.CursorButtonUp event'
+Description: Occurs when the InkCollector detects a cursor button that is up.
+ms.assetid: f07daad7-e0d1-45cf-a708-5486a5dfda8b
+title: InkCollector.CursorButtonUp event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkCollector.CursorButtonUp event
 
-Occurs when the [**InkCollector**](inkcollector-class.md) detects a cursor button that is up.
+Occurs when the [**InkCollector**](/windows/win32/msinkaut/?branch=master) detects a cursor button that is up.
 
 ## Syntax
 
 
 ```C++
 void CursorButtonUp(
-  [in] IInkCursor       *Cursor,
-  [in] IInkCursorButton *Button
+  [in] IInkCursor       *Cursor,
+  [in] IInkCursorButton *Button
 );
 ```
 
@@ -27,7 +32,7 @@ void CursorButtonUp(
 *Cursor* \[in\]
 </dt> <dd>
 
-The [**IInkCursor Interface**](iinkcursor.md) object that generated the **CursorButtonUp** event.
+The [**IInkCursor Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object that generated the **CursorButtonUp** event.
 
 </dd> <dt>
 
@@ -56,7 +61,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -67,7 +72,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 <dl> <dt>
 
-[**InkCollector Class**](inkcollector-class.md)
+[**InkCollector Class**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
 [**CursorButtonDown Event**](inkcollector-cursorbuttondown.md)
@@ -76,15 +81,15 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 [**CursorDown Event**](inkcollector-cursordown.md)
 </dt> <dt>
 
-[**IInkCursor Interface**](iinkcursor.md)
+[**IInkCursor Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master)
 </dt> <dt>
 
-[**IInkCursorButton Interface**](iinkcursorbutton.md)
+[**IInkCursorButton Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkcursorbutton?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

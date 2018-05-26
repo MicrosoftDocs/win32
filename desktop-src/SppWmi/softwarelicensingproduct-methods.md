@@ -1,7 +1,12 @@
 ---
 title: SoftwareLicensingProduct Methods
 description: The SoftwareLicensingProduct class exposes the following methods.
-ms.assetid: '4E16903D-9143-49A1-AC22-9E0A760D8D1B'
+ms.assetid: 4E16903D-9143-49A1-AC22-9E0A760D8D1B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SoftwareLicensingProduct Methods

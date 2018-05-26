@@ -1,14 +1,20 @@
 ---
 title: Pixel State Variables
 description: Pixel State Variables
-ms.assetid: '79aeda3c-6d97-43fa-83f3-be400ba9990b'
-keywords: ["Pixel State Variables OpenGL"]
+ms.assetid: 79aeda3c-6d97-43fa-83f3-be400ba9990b
+keywords:
+- Pixel State Variables OpenGL
 topic_type:
 - apiref
 api_name:
 - Pixel State Variables
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pixel State Variables

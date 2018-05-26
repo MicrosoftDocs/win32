@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the Windows Property System property sets.'
-ms.assetid: '2F7D9001-8ECE-43B2-8CAA-007254038554'
+---
+Description: This section describes the Windows Property System property sets.
+ms.assetid: 2F7D9001-8ECE-43B2-8CAA-007254038554
 title: Property Sets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Sets

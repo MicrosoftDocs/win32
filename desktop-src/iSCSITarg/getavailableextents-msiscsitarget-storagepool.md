@@ -4,13 +4,16 @@ description: Retrieves a list of available CIM\_StorageExtent instances that can
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f4025861-518f-4647-8f3f-16fe2bc26483'
-ms.prod: 'windows-server-dev'
+ms.assetid: f4025861-518f-4647-8f3f-16fe2bc26483
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetAvailableExtents method iSCSI Software Target API", "GetAvailableExtents method iSCSI Software Target API , MSISCSITARGET_StoragePool class", "MSISCSITARGET_StoragePool class iSCSI Software Target API , GetAvailableExtents method"]
+keywords:
+- GetAvailableExtents method iSCSI Software Target API
+- GetAvailableExtents method iSCSI Software Target API , MSISCSITARGET_StoragePool class
+- MSISCSITARGET_StoragePool class iSCSI Software Target API , GetAvailableExtents method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetAvailableExtents method of the MSISCSITARGET\_StoragePool class
@@ -30,8 +36,8 @@ Retrieves a list of available **CIM\_StorageExtent** instances that can be used 
 
 ```mof
 uint32 GetAvailableExtents(
-  [in]  CIM_StorageSetting Ref Goal,
-  [out] CIM_StorageExtent Ref  AvailableExtents[]
+  [in]  CIM_StorageSetting Ref Goal,
+  [out] CIM_StorageExtent Ref  AvailableExtents[]
 );
 ```
 
@@ -84,13 +90,13 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4097)
+**DMTF Reserved** (7 4097)
 </dt> <dt>
 
-**Method Reserved** (4098–32767)
+**Method Reserved** (4098 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -100,7 +106,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -114,9 +120,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_StoragePool**](msiscsitarget-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

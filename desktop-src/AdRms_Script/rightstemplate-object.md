@@ -1,18 +1,21 @@
 ---
-Description: 'Can be used to manage a rights policy template.'
+Description: Can be used to manage a rights policy template.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'ea139d76-efbf-46f2-afea-7e8478ce0ec6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: ea139d76-efbf-46f2-afea-7e8478ce0ec6
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: RightsTemplate object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # RightsTemplate object
 
-The **RightsTemplate** object can be used to manage a rights policy template. Templates identify rights and conditions that can be applied to AD RMS–protected content, and they identify the users who can access the content. Different templates typically contain a different mix of rights or a different set of conditions. The following template elements can be defined by using the AD RMS Scripting API:
+The **RightsTemplate** object can be used to manage a rights policy template. Templates identify rights and conditions that can be applied to AD RMS protected content, and they identify the users who can access the content. Different templates typically contain a different mix of rights or a different set of conditions. The following template elements can be defined by using the AD RMS Scripting API:
 
 -   A collection of template names and descriptions with a different name-description pair for each locale ID (LCID) entered.
 -   Users and groups that can be granted content licenses.
@@ -56,7 +59,7 @@ The **RightsTemplate** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -225,7 +228,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -243,9 +246,9 @@ END SUB
 [**RightsTemplateCollection**](rightstemplatecollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

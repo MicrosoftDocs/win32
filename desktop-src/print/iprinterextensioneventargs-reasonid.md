@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the reason why the printer extension was activated.'
-ms.assetid: '404E9893-97BA-48A7-87CE-0B4AF46692CE'
-title: 'IPrinterExtensionEventArgs::ReasonId property'
+---
+Description: Gets the reason why the printer extension was activated.
+ms.assetid: 404E9893-97BA-48A7-87CE-0B4AF46692CE
+title: IPrinterExtensionEventArgsReasonId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionEventArgs::ReasonId property

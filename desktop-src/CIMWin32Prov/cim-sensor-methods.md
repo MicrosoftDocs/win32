@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Sensor class exposes the following methods.'
+Description: The CIM\_Sensor class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '64BB0FDC-7E03-4A7A-8962-D31B1FB4DAD5'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 64BB0FDC-7E03-4A7A-8962-D31B1FB4DAD5
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Sensor Methods'
+title: CIM\_Sensor Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Sensor Methods

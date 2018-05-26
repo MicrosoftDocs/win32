@@ -4,11 +4,16 @@ description: The Win32\_DFSNode WMI class represents a root or junction node of 
 audience: developer
 author: REDMOND\\martinek
 manager: REDMOND\\martinek
-ms.assetid: '7c91e416-f4d6-4ec2-8177-69a93ecbfa1c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 7c91e416-f4d6-4ec2-8177-69a93ecbfa1c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_DFSNode class", "Win32_DFSNode class, described"]
+keywords:
+- Win32_DFSNode class
+- Win32_DFSNode class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DFSNode class
@@ -23,14 +28,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("DFSProvider"), SupportsCreate, CreateBy("Create"), SupportsDelete, DeleteBy("DeleteInstance"), SupportsUpdate, AMENDMENT]
 class Win32_DFSNode : CIM_LogicalElement
 {
-  string       Caption;
+  string       Caption;
   datetime REF InstallDate;
-  string       Status;
-  string       Name;
-  boolean      Root;
-  uint32       State;
-  string       Description;
-  uint32       Timeout;
+  string       Status;
+  string       Name;
+  boolean      Root;
+  uint32       State;
+  string       Description;
+  uint32       Timeout;
 };
 ```
 
@@ -53,7 +58,7 @@ The **Win32\_DFSNode** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -338,8 +343,8 @@ Get-WmiObject Win32_DFSNode -computer <dns-domain-name> -impersonation delegate
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Wmipdfs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipdfs.dll</dt> </dl> |
@@ -356,9 +361,9 @@ Get-WmiObject Win32_DFSNode -computer <dns-domain-name> -impersonation delegate
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

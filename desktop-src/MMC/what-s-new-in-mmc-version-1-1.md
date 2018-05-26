@@ -4,11 +4,15 @@ description: Describes the features that are new in MMC version 1.1.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ccd2485d-2b4f-4f10-932a-7291893a9bb9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: ccd2485d-2b4f-4f10-932a-7291893a9bb9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC version 1.1 MMC"]
+keywords:
+- MMC version 1.1 MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC Version 1.1
@@ -79,7 +83,7 @@ The following items are new in MMC version 1.1, which shipped with Microsoft SQL
 
 [**MMC\_TASK\_DISPLAY\_SYMBOL**](mmc-task-display-symbol.md)
 
-[**PROPSHEETPAGE**](propsheetpage.md)
+[**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master)
 
 [**SMMCDynamicExtensions**](smmcdynamicextensions.md)
 

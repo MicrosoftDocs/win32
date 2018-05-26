@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies encoder latency in packet units.'
-ms.assetid: '7c08793b-78e8-4b80-a2e3-208d49e6f111'
-title: 'MFPKEY\_WMAVOICE\_ENC\_DecoderDelay Property'
+---
+Description: Specifies encoder latency in packet units.
+ms.assetid: 7c08793b-78e8-4b80-a2e3-208d49e6f111
+title: MFPKEY\_WMAVOICE\_ENC\_DecoderDelay Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAVOICE\_ENC\_DecoderDelay Property

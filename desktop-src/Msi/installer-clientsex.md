@@ -1,12 +1,17 @@
-﻿---
-Description: 'Returns a RecordList object that lists products that use a specified installed component.'
-ms.assetid: 'c9756526-68d7-4d04-97e2-56a5eaf816be'
-title: 'Installer.ClientsEx property'
+---
+Description: Returns a RecordList object that lists products that use a specified installed component.
+ms.assetid: c9756526-68d7-4d04-97e2-56a5eaf816be
+title: Installer.ClientsEx property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ClientsEx property
 
-This property returns a [**RecordList**](recordlist-object.md) object that lists products that use a specified installed component. This property calls [**MsiEnumClientsEx**](msienumclientsex.md).
+This property returns a [**RecordList**](recordlist-object.md) object that lists products that use a specified installed component. This property calls [**MsiEnumClientsEx**](/windows/win32/Msi/nf-msi-msienumclientsexa?branch=master).
 
 **[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported. This property is available beginning with Windows Installer 5.0.
 
@@ -39,7 +44,7 @@ propVal = Installer.ClientsEx
 
 <dl> <dt>
 
-[**MsiEnumClientsEx**](msienumclientsex.md)
+[**MsiEnumClientsEx**](/windows/win32/Msi/nf-msi-msienumclientsexa?branch=master)
 </dt> </dl>
 
  

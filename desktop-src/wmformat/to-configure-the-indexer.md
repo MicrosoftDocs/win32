@@ -1,8 +1,17 @@
 ---
 title: To Configure the Indexer
 description: To Configure the Indexer
-ms.assetid: '0e28e8dd-1586-45e6-8a08-5245d465d068'
-keywords: ["Windows Media Format SDK,configuring indexers", "Advanced Systems Format (ASF),configuring indexers", "ASF (Advanced Systems Format),configuring indexers", "indexes,configuring indexers"]
+ms.assetid: 0e28e8dd-1586-45e6-8a08-5245d465d068
+keywords:
+- Windows Media Format SDK,configuring indexers
+- Advanced Systems Format (ASF),configuring indexers
+- ASF (Advanced Systems Format),configuring indexers
+- indexes,configuring indexers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Configure the Indexer
@@ -62,13 +71,13 @@ pMyIndexer = NULL;
 
 <dl> <dt>
 
-[**IWMIndexer2::Configure**](iwmindexer2-configure.md)
+[**IWMIndexer2::Configure**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmindexer2-configure?branch=master)
 </dt> <dt>
 
 [**To Index an ASF File**](to-index-an-asf-file.md)
 </dt> <dt>
 
-[**WMCreateIndexer**](wmcreateindexer.md)
+[**WMCreateIndexer**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreateindexer?branch=master)
 </dt> <dt>
 
 [**Working with Indexes**](working-with-indexes.md)

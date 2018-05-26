@@ -2,13 +2,16 @@
 title: Add method of the PS\_BgpRouteAggregate class
 description: Adds a new aggregate route for more specific BGP routes.
 audience: developer
-ms.assetid: '822e7990-b267-4737-8fe7-a132afc4ab9a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 822e7990-b267-4737-8fe7-a132afc4ab9a
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_BgpRouteAggregate class", "PS_BgpRouteAggregate class, Add method"]
+keywords:
+- Add method
+- Add method, PS_BgpRouteAggregate class
+- PS_BgpRouteAggregate class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_BgpRouteAggregate class
@@ -28,14 +34,14 @@ Adds a new aggregate route for more specific BGP routes.
 
 ```mof
 uint32 Add(
-  [in]  string                  RoutingDomain,
-  [in]  string                  Prefix,
-  [in]  uint32                  SummaryOnly,
-  [in]  string                  AttributePolicy[],
-  [in]  uint32                  PreserveASPath,
-  [in]  boolean                 PassThru,
-  [in]  boolean                 Force,
-  [out] BgpRouteAggregateConfig cmdletOutput
+  [in]  string                  RoutingDomain,
+  [in]  string                  Prefix,
+  [in]  uint32                  SummaryOnly,
+  [in]  string                  AttributePolicy[],
+  [in]  uint32                  PreserveASPath,
+  [in]  boolean                 PassThru,
+  [in]  boolean                 Force,
+  [out] BgpRouteAggregateConfig cmdletOutput
 );
 ```
 
@@ -108,7 +114,7 @@ If *PassThru* is **true**, returns an embedded instance of the current object.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Ramgmtpsprovider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -122,9 +128,9 @@ If *PassThru* is **true**, returns an embedded instance of the current object.
 [**PS\_BgpRouteAggregate**](ps-bgprouteaggregate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

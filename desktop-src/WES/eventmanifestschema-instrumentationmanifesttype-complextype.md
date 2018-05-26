@@ -1,14 +1,20 @@
 ---
 title: InstrumentationManifestType Complex Type
 description: Defines the base type for the instrumentationManifest element.
-ms.assetid: '1fcdf215-db65-45a8-9077-5c954ac247c7'
-keywords: ["InstrumentationManifestType complex type EventLog"]
+ms.assetid: 1fcdf215-db65-45a8-9077-5c954ac247c7
+keywords:
+- InstrumentationManifestType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - InstrumentationManifestType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InstrumentationManifestType Complex Type
@@ -25,8 +31,8 @@ Defines the base type for the [**instrumentationManifest**](eventmanifestschema-
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -40,9 +46,9 @@ Defines the base type for the [**instrumentationManifest**](eventmanifestschema-
 [**InstrumentationType Complex Type**](eventmanifestschema-instrumentationtype-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

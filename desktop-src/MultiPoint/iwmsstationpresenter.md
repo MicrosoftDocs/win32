@@ -4,11 +4,13 @@ description: Displays frame buffers from an input device that is connected to th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'be25c95e-8f59-4e81-9714-bed186e9252f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: be25c95e-8f59-4e81-9714-bed186e9252f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IWmsStationPresenter interface", "IWmsStationPresenter interface, described"]
+keywords:
+- IWmsStationPresenter interface
+- IWmsStationPresenter interface, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IWmsStationPresenter interface
@@ -46,7 +51,7 @@ The **IWmsStationPresenter** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -55,7 +60,7 @@ The **IWmsStationPresenter** interface has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 | IID<br/>                      | IID\_IWmsStationPresenter is defined as 2e855d99-1ccb-4c17-afb0-bdc0033a383e<br/>            |
 
@@ -74,9 +79,9 @@ The **IWmsStationPresenter** interface has these methods.
 [**IWmsStationPresenter2**](iwmsstationpresenter2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

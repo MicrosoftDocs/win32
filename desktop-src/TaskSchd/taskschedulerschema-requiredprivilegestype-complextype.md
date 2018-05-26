@@ -1,14 +1,20 @@
 ---
 title: requiredPrivilegesType Complex Type
 description: Defines the child elements and sequencing information for the RequiredPrivileges (requiredPrivilegesType) element.
-ms.assetid: 'ae96282a-d167-47ea-9d37-2d682f746d23'
-keywords: ["requiredPrivilegesType complex type Task Scheduler"]
+ms.assetid: ae96282a-d167-47ea-9d37-2d682f746d23
+keywords:
+- requiredPrivilegesType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - requiredPrivilegesType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # requiredPrivilegesType Complex Type
@@ -43,8 +49,8 @@ Defines the child elements and sequencing information for the [**RequiredPrivile
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -58,9 +64,9 @@ Defines the child elements and sequencing information for the [**RequiredPrivile
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

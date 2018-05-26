@@ -1,8 +1,23 @@
 ---
 title: DRM Protection and Content License Distribution
 description: DRM Protection and Content License Distribution
-ms.assetid: '147fef8c-7298-450d-a1a9-345c03c49bec'
-keywords: ["Windows Media Format SDK,DRM content protection", "Windows Media Format SDK,DRM licenses", "Advanced Systems Format (ASF),DRM content protection", "ASF (Advanced Systems Format),DRM content protection", "Advanced Systems Format (ASF),DRM license distribution", "ASF (Advanced Systems Format),DRM license distribution", "digital rights management (DRM),content protection", "DRM (digital rights management),content protection", "digital rights management (DRM),license distribution", "DRM (digital rights management),license distribution"]
+ms.assetid: 147fef8c-7298-450d-a1a9-345c03c49bec
+keywords:
+- Windows Media Format SDK,DRM content protection
+- Windows Media Format SDK,DRM licenses
+- Advanced Systems Format (ASF),DRM content protection
+- ASF (Advanced Systems Format),DRM content protection
+- Advanced Systems Format (ASF),DRM license distribution
+- ASF (Advanced Systems Format),DRM license distribution
+- digital rights management (DRM),content protection
+- DRM (digital rights management),content protection
+- digital rights management (DRM),license distribution
+- DRM (digital rights management),license distribution
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM Protection and Content License Distribution

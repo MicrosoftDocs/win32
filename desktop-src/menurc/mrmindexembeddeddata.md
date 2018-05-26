@@ -1,8 +1,9 @@
 ---
 title: MrmIndexEmbeddedData function
 description: Indexes a single embeddeddata resource belonging to a UWP app.
-ms.assetid: '4DA37CF9-43B6-44EE-8A10-DBD4510D7885'
-keywords: ["MrmIndexEmbeddedData function Menus and Other Resources"]
+ms.assetid: 4DA37CF9-43B6-44EE-8A10-DBD4510D7885
+keywords:
+- MrmIndexEmbeddedData function Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmIndexEmbeddedData function
@@ -24,11 +30,11 @@ Indexes a single **embeddeddata** resource belonging to a UWP app. Takes an expl
 
 ```C++
 HRESULT HRESULT MrmIndexEmbeddedData(
-  _In_           MrmResourceIndexerHandle indexer,
-  _In_           PCWSTR                   resourceUri,
-  _In_     const BYTE                     *embeddedData,
-  _In_           ULONG                    embeddedDataSize,
-  _In_opt_       PCWSTR                   qualifiers
+  _In_           MrmResourceIndexerHandle indexer,
+  _In_           PCWSTR                   resourceUri,
+  _In_     const BYTE                     *embeddedData,
+  _In_           ULONG                    embeddedDataSize,
+  _In_opt_       PCWSTR                   qualifiers
 );
 ```
 
@@ -101,7 +107,7 @@ The file name segment of *resourceUri* is used as the resource name.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Mrmsupport.lib</dt> </dl>       |
@@ -116,9 +122,9 @@ The file name segment of *resourceUri* is used as the resource name.
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

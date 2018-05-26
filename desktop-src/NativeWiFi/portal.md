@@ -1,7 +1,12 @@
-﻿---
-Description: 'Configures, connects to, and disconnects from wireless networks.'
-ms.assetid: 'f257bd46-6077-4295-bb90-fbc0a63133f6'
+---
+Description: Configures, connects to, and disconnects from wireless networks.
+ms.assetid: f257bd46-6077-4295-bb90-fbc0a63133f6
 title: Native Wifi
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Native Wifi

@@ -1,7 +1,12 @@
 ---
-Description: 'The Microsoft fax client Component Object Model (COM) implementation defines the following objects.'
-ms.assetid: '9eebc084-2842-4574-bf4d-c888edef1fb9'
+Description: The Microsoft fax client Component Object Model (COM) implementation defines the following objects.
+ms.assetid: 9eebc084-2842-4574-bf4d-c888edef1fb9
 title: Fax Service Client API Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Client API Objects

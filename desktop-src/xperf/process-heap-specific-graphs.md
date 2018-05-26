@@ -1,7 +1,12 @@
 ---
 title: Process Heap Specific Graphs
 description: Process Heap Specific Graphs
-ms.assetid: '64329bef-a50e-48be-9b5e-c279ea456fc0'
+ms.assetid: 64329bef-a50e-48be-9b5e-c279ea456fc0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process Heap Specific Graphs

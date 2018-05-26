@@ -1,7 +1,12 @@
 ---
-Description: 'All file systems supported by Windows use the concept of files and directories to access data stored on a disk or device.'
-ms.assetid: '121cd5b2-e6fd-4eb4-99b4-b652d27b53e8'
-title: 'Naming Files, Paths, and Namespaces'
+Description: All file systems supported by Windows use the concept of files and directories to access data stored on a disk or device.
+ms.assetid: 121cd5b2-e6fd-4eb4-99b4-b652d27b53e8
+title: Naming Files, Paths, and Namespaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Naming Files, Paths, and Namespaces
@@ -39,7 +44,7 @@ The following fundamental rules enable applications to create and process valid 
 -   Use a period to separate the base file name from the extension in the name of a directory or file.
 -   Use a backslash (\) to separate the *components* of a *path*. The backslash divides the file name from the path to it, and one directory name from another directory name in a path. You cannot use a backslash in the name for the actual file or directory because it is a reserved character that separates the names into components.
 -   Use a backslash as required as part of [volume names](naming-a-volume.md), for example, the "C:\\" in "C:\\path\\file" or the "\\\\server\\share" in "\\\\server\\share\\path\\file" for Universal Naming Convention (UNC) names. For more information about UNC names, see the [Maximum Path Length Limitation](#maximum-path-length-limitation) section.
--   Do not assume case sensitivity. For example, consider the names OSCAR, Oscar, and oscar to be the same, even though some file systems (such as a POSIX-compliant file system) may consider them as different. Note that NTFS supports POSIX semantics for case sensitivity but this is not the default behavior. For more information, see [**CreateFile**](createfile.md).
+-   Do not assume case sensitivity. For example, consider the names OSCAR, Oscar, and oscar to be the same, even though some file systems (such as a POSIX-compliant file system) may consider them as different. Note that NTFS supports POSIX semantics for case sensitivity but this is not the default behavior. For more information, see [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master).
 -   Volume designators (drive letters) are similarly case-insensitive. For example, "D:\\" and "d:\\" refer to the same volume.
 -   Use any character in the current code page for a name, including Unicode characters and characters in the extended character set (128–255), except for the following:
 
@@ -82,9 +87,9 @@ On many file systems, a file name will contain a tilde (~) within each component
 
 To request 8.3 file names, long file names, or the full path of a file from the system, consider the following options:
 
--   To get the 8.3 form of a long file name, use the [**GetShortPathName**](getshortpathname.md) function.
--   To get the long file name version of a short name, use the [**GetLongPathName**](getlongpathname.md) function.
--   To get the full path to a file, use the [**GetFullPathName**](getfullpathname.md) function.
+-   To get the 8.3 form of a long file name, use the [**GetShortPathName**](/windows/win32/FileAPI/nf-fileapi-getshortpathnamew?branch=master) function.
+-   To get the long file name version of a short name, use the [**GetLongPathName**](/windows/win32/FileAPI/nf-fileapi-getlongpathnamea?branch=master) function.
+-   To get the full path to a file, use the [**GetFullPathName**](/windows/win32/FileAPI/nf-fileapi-getfullpathnamea?branch=master) function.
 
 On newer file systems, such as NTFS, exFAT, UDFS, and FAT32, Windows stores the long file names on disk in Unicode, which means that the original long file name is always preserved. This is true even if a long file name contains extended characters, regardless of the code page that is active during a disk read or write operation.
 
@@ -128,7 +133,7 @@ In the Windows API (with some exceptions discussed in the following paragraphs),
 
  
 
-The Windows API has many functions that also have Unicode versions to permit an extended-length path for a maximum total path length of 32,767 characters. This type of path is composed of components separated by backslashes, each up to the value returned in the *lpMaximumComponentLength* parameter of the [**GetVolumeInformation**](getvolumeinformation.md) function (this value is commonly 255 characters). To specify an extended-length path, use the "\\\\?\\" prefix. For example, "\\\\?\\D:\\*very long path*".
+The Windows API has many functions that also have Unicode versions to permit an extended-length path for a maximum total path length of 32,767 characters. This type of path is composed of components separated by backslashes, each up to the value returned in the *lpMaximumComponentLength* parameter of the [**GetVolumeInformation**](/windows/win32/FileAPI/nf-fileapi-getvolumeinformationa?branch=master) function (this value is commonly 255 characters). To specify an extended-length path, use the "\\\\?\\" prefix. For example, "\\\\?\\D:\\*very long path*".
 
 > [!Note]  
 > The maximum path of 32,767 characters is approximate, because the "\\\\?\\" prefix may be expanded to a longer string by the system at run time, and this expansion applies to the total length.
@@ -185,13 +190,13 @@ Many but not all file I/O APIs support "\\\\?\\"; you should look at the referen
 
 ### Win32 Device Namespaces
 
-The "\\\\.\\" prefix will access the Win32 device namespace instead of the Win32 file namespace. This is how access to physical disks and volumes is accomplished directly, without going through the file system, if the API supports this type of access. You can access many devices other than disks this way (using the [**CreateFile**](createfile.md) and [**DefineDosDevice**](definedosdevice.md) functions, for example).
+The "\\\\.\\" prefix will access the Win32 device namespace instead of the Win32 file namespace. This is how access to physical disks and volumes is accomplished directly, without going through the file system, if the API supports this type of access. You can access many devices other than disks this way (using the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) and [**DefineDosDevice**](/windows/win32/FileAPI/nf-fileapi-definedosdevicew?branch=master) functions, for example).
 
-For example, if you want to open the system's serial communications port 1, you can use "COM1" in the call to the [**CreateFile**](createfile.md) function. This works because COM1–COM9 are part of the reserved names in the NT namespace, although using the "\\\\.\\" prefix will also work with these device names. By comparison, if you have a 100 port serial expansion board installed and want to open COM56, you cannot open it using "COM56" because there is no predefined NT namespace for COM56. You will need to open it using "\\\\.\\COM56" because "\\\\.\\" goes directly to the device namespace without attempting to locate a predefined alias.
+For example, if you want to open the system's serial communications port 1, you can use "COM1" in the call to the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function. This works because COM1–COM9 are part of the reserved names in the NT namespace, although using the "\\\\.\\" prefix will also work with these device names. By comparison, if you have a 100 port serial expansion board installed and want to open COM56, you cannot open it using "COM56" because there is no predefined NT namespace for COM56. You will need to open it using "\\\\.\\COM56" because "\\\\.\\" goes directly to the device namespace without attempting to locate a predefined alias.
 
-Another example of using the Win32 device namespace is using the [**CreateFile**](createfile.md) function with "\\\\.\\PhysicalDisk*X*" (where *X* is a valid integer value) or "\\\\.\\CdRom*X*". This allows you to access those devices directly, bypassing the file system. This works because these device names are created by the system as these devices are enumerated, and some drivers will also create other aliases in the system. For example, the device driver that implements the name "C:\\" has its own namespace that also happens to be the file system.
+Another example of using the Win32 device namespace is using the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function with "\\\\.\\PhysicalDisk*X*" (where *X* is a valid integer value) or "\\\\.\\CdRom*X*". This allows you to access those devices directly, bypassing the file system. This works because these device names are created by the system as these devices are enumerated, and some drivers will also create other aliases in the system. For example, the device driver that implements the name "C:\\" has its own namespace that also happens to be the file system.
 
-APIs that go through the [**CreateFile**](createfile.md) function generally work with the "\\\\.\\" prefix because **CreateFile** is the function used to open both files and devices, depending on the parameters you use.
+APIs that go through the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function generally work with the "\\\\.\\" prefix because **CreateFile** is the function used to open both files and devices, depending on the parameters you use.
 
 If you're working with Windows API functions, you should use the "\\\\.\\" prefix to access devices only and not files.
 

@@ -1,8 +1,23 @@
 ---
 title: Patch Maps
 description: Patch Maps
-ms.assetid: 'd0c91001-d19d-439c-9773-78d6228a6642'
-keywords: ["Musical Instrument Digital Interface (MIDI),MIDI Mapper", "MIDI (Musical Instrument Digital Interface),MIDI Mapper", "MIDI Mapper,patch maps", "patch maps", "MIDI program-change messages", "MIDI volume-controller messages", "program-change messages", "volume-controller messages", "MIDI Mapper,program-change messages", "MIDI Mapper,volume-controller messages"]
+ms.assetid: d0c91001-d19d-439c-9773-78d6228a6642
+keywords:
+- Musical Instrument Digital Interface (MIDI),MIDI Mapper
+- MIDI (Musical Instrument Digital Interface),MIDI Mapper
+- MIDI Mapper,patch maps
+- patch maps
+- MIDI program-change messages
+- MIDI volume-controller messages
+- program-change messages
+- volume-controller messages
+- MIDI Mapper,program-change messages
+- MIDI Mapper,volume-controller messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch Maps

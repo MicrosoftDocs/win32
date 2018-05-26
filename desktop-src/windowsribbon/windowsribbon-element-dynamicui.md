@@ -1,14 +1,20 @@
 ---
 title: DynamicUI element
 description: Represents a container for Ribbon markup. This container and its content is declared at run time.
-ms.assetid: '86925B79-54A8-4C69-89F1-9960D2614C6E'
-keywords: ["DynamicUI element Windows Ribbon"]
+ms.assetid: 86925B79-54A8-4C69-89F1-9960D2614C6E
+keywords:
+- DynamicUI element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - DynamicUI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DynamicUI element
@@ -49,14 +55,14 @@ There are no parent elements.
 
 |                                     |                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------|
-| Minimum supported system<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista |
+| Minimum supported system<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista |
 | Can be empty                        | No                                                                      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

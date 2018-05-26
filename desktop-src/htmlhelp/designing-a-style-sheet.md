@@ -1,7 +1,12 @@
 ---
 title: Designing a Style Sheet
 description: Designing a Style Sheet
-ms.assetid: '65A7BAEE-E40E-46da-9229-C0835ADCE969'
+ms.assetid: 65A7BAEE-E40E-46da-9229-C0835ADCE969
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing a Style Sheet

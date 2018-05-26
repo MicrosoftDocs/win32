@@ -1,7 +1,12 @@
 ---
-Description: 'Multilingual User Interface (MUI) is a technology that provides users a localized user interface for globalized applications and user interface language resource management in the Windows operating system.'
-ms.assetid: '1982931c-fce9-418f-a35d-439b7b886fd9'
+Description: Multilingual User Interface (MUI) is a technology that provides users a localized user interface for globalized applications and user interface language resource management in the Windows operating system.
+ms.assetid: 1982931c-fce9-418f-a35d-439b7b886fd9
 title: About Multilingual User Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Multilingual User Interface

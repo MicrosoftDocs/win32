@@ -1,14 +1,20 @@
 ---
 title: D1113 Device Needs BGRA Flag
-ms.assetid: '246e188f-e23b-4230-869d-a888dc320133'
+ms.assetid: 246e188f-e23b-4230-869d-a888dc320133
 description: 
-keywords: ["D1113 Device Needs BGRA Flag Direct2D"]
+keywords:
+- D1113 Device Needs BGRA Flag Direct2D
 topic_type:
 - apiref
 api_name:
 - D1113 Device Needs BGRA Flag
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1113: Device Needs BGRA Flag

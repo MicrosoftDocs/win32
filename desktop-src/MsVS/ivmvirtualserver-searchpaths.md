@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer SearchPaths property
 description: The SearchPaths property contains an array of file system paths which are used to find files associated with Virtual Server.
-ms.assetid: 'bda34c02-5ce2-43b8-aca7-642d359723b3'
-keywords: ["SearchPaths property Virtual Server", "SearchPaths property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , SearchPaths property", "SearchPaths property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , SearchPaths property"]
+ms.assetid: bda34c02-5ce2-43b8-aca7-642d359723b3
+keywords:
+- SearchPaths property Virtual Server
+- SearchPaths property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , SearchPaths property
+- SearchPaths property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , SearchPaths property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::SearchPaths property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_SearchPaths(
-  [in]  VARIANT searchPaths
+  [in]  VARIANT searchPaths
 );
 
 HRESULT get_SearchPaths(
-  [out] VARIANT *searchPaths
+  [out] VARIANT *searchPaths
 );
 ```
 
@@ -114,8 +124,8 @@ End If
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -127,9 +137,9 @@ End If
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The PdhVbGetDoubleCounterValue function returns the current value of the specified counter as a double-precision floating point value.'
-ms.assetid: 'a2ee63dd-da39-4104-921d-371172bcb45c'
+Description: The PdhVbGetDoubleCounterValue function returns the current value of the specified counter as a double-precision floating point value.
+ms.assetid: a2ee63dd-da39-4104-921d-371172bcb45c
 title: PdhVbGetDoubleCounterValue function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PdhVbGetDoubleCounterValue function
@@ -38,8 +43,8 @@ The function returns the double-precision floating point value of the current co
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Library<br/>                  | <dl> <dt>Pdh.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 
@@ -52,9 +57,9 @@ The function returns the double-precision floating point value of the current co
 [**PdhVbIsGoodStatus**](pdhvbisgoodstatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

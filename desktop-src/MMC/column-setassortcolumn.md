@@ -4,11 +4,16 @@ description: The SetAsSortColumn method specifies the sort order for the column.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dbbf6c9c-ba58-4588-b972-7d9b2029ee91'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: dbbf6c9c-ba58-4588-b972-7d9b2029ee91
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["SetAsSortColumn method MMC", "SetAsSortColumn method MMC , Column object", "Column object MMC , SetAsSortColumn method", "SetAsSortColumn method MMC , Column interface", "Column interface MMC , SetAsSortColumn method"]
+keywords:
+- SetAsSortColumn method MMC
+- SetAsSortColumn method MMC , Column object
+- Column object MMC , SetAsSortColumn method
+- SetAsSortColumn method MMC , Column interface
+- Column interface MMC , SetAsSortColumn method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Column::SetAsSortColumn method
@@ -42,7 +50,7 @@ Column.SetAsSortColumn( _
 *SortOrder* 
 </dt> <dd>
 
-The new sort order being assigned for the column. This can be one of the following [**ColumnSortOrder**](columnsortorder.md) values.
+The new sort order being assigned for the column. This can be one of the following [**ColumnSortOrder**](/windows/win32/MmcObj/ne-mmcobj-columnsortorder?branch=master) values.
 
 <dt>
 
@@ -89,8 +97,8 @@ objCol.SetAsSortColumn (SortOrder_Descending)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -102,12 +110,12 @@ objCol.SetAsSortColumn (SortOrder_Descending)
 
 <dl> <dt>
 
-[**ColumnSortOrder**](columnsortorder.md)
+[**ColumnSortOrder**](/windows/win32/MmcObj/ne-mmcobj-columnsortorder?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

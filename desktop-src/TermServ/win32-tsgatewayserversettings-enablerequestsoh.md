@@ -4,11 +4,14 @@ description: EnableRequestSOH is no longer available.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4feb7530-cced-4ead-a1fb-679b81442bb3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4feb7530-cced-4ead-a1fb-679b81442bb3
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["EnableRequestSOH method Remote Desktop Services", "EnableRequestSOH method Remote Desktop Services , Win32_TSGatewayServerSettings class", "Win32_TSGatewayServerSettings class Remote Desktop Services , EnableRequestSOH method"]
+keywords:
+- EnableRequestSOH method Remote Desktop Services
+- EnableRequestSOH method Remote Desktop Services , Win32_TSGatewayServerSettings class
+- Win32_TSGatewayServerSettings class Remote Desktop Services , EnableRequestSOH method
 topic_type:
 - apiref
 api_name:
@@ -17,11 +20,14 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableRequestSOH method of the Win32\_TSGatewayServerSettings class
 
-\[The **EnableRequestSOH** method is no longer available as of Windows Server 2016.\]
+\[The **EnableRequestSOH** method is no longer available as of Windows Server 2016.\]
 
 Enables or disables requests for a Statement of Health (SoH).
 
@@ -30,7 +36,7 @@ Enables or disables requests for a Statement of Health (SoH).
 
 ```mof
 uint32 EnableRequestSOH(
-  [in] boolean RequestSOH
+  [in] boolean RequestSOH
 );
 ```
 
@@ -64,8 +70,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -79,9 +85,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayServerSettings**](win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

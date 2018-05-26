@@ -1,7 +1,12 @@
 ---
 title: IsapiDateTimeLocal
 description: IsapiDateTimeLocal
-ms.assetid: '084713d0-38bb-4b72-95c3-a775facddb55'
+ms.assetid: 084713d0-38bb-4b72-95c3-a775facddb55
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsapiDateTimeLocal

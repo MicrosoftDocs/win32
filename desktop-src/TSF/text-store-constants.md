@@ -1,8 +1,20 @@
 ---
 title: Text Store Constants
 description: Text Store Constants
-ms.assetid: '6e05ed74-fff3-4bc4-a21e-9af9492af23b'
-keywords: ["Text Services Framework (TSF),text stores", "TSF (Text Services Framework),text stores", "text services,text stores", "TSF-enabled applications,text stores", "TSF reference,text stores", "reference for TSF,text stores", "text stores"]
+ms.assetid: 6e05ed74-fff3-4bc4-a21e-9af9492af23b
+keywords:
+- Text Services Framework (TSF),text stores
+- TSF (Text Services Framework),text stores
+- text services,text stores
+- TSF-enabled applications,text stores
+- TSF reference,text stores
+- reference for TSF,text stores
+- text stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Store Constants

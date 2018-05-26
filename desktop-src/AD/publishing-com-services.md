@@ -4,11 +4,16 @@ description: COM-based services provide an application-proxy in the form of a Wi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '38200a22-bea5-4967-a51a-e777b34f299d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 38200a22-bea5-4967-a51a-e777b34f299d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Publishing COM+ Services", "Active Directory, using, publishing a service, COM+ services"]
+keywords:
+- Publishing COM+ Services
+- Active Directory, using, publishing a service, COM+ services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Publishing COM+ Services

@@ -1,7 +1,12 @@
 ---
-Description: 'An abstraction or emulation of a hardware entity that may or may not be based on physical hardware.'
-ms.assetid: 'e31c82ed-2da2-4a18-a55e-16931d74f243'
-title: 'CIM\_LogicalDevice class'
+Description: An abstraction or emulation of a hardware entity that may or may not be based on physical hardware.
+ms.assetid: e31c82ed-2da2-4a18-a55e-16931d74f243
+title: CIM\_LogicalDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_LogicalDevice class
@@ -14,23 +19,23 @@ An abstraction or emulation of a hardware entity that may or may not be based on
 [Abstract, Version("2.8.0"), UMLPackagePath("CIM::Core::Device"), AMENDMENT]
 class CIM_LogicalDevice : CIM_EnabledLogicalElement
 {
-  string  SystemCreationClassName;
-  string  SystemName;
-  string  CreationClassName;
-  string  DeviceID;
+  string  SystemCreationClassName;
+  string  SystemName;
+  string  CreationClassName;
+  string  DeviceID;
   boolean PowerManagementSupported;
-  uint16  PowerManagementCapabilities[];
-  uint16  Availability;
-  uint16  StatusInfo;
-  uint32  LastErrorCode;
-  string  ErrorDescription;
+  uint16  PowerManagementCapabilities[];
+  uint16  Availability;
+  uint16  StatusInfo;
+  uint32  LastErrorCode;
+  string  ErrorDescription;
   boolean ErrorCleared;
-  string  OtherIdentifyingInfo[];
-  uint64  PowerOnHours;
-  uint64  TotalPowerOnHours;
-  string  IdentifyingDescriptions[];
-  uint16  AdditionalAvailability[];
-  uint64  MaxQuiesceTime;
+  string  OtherIdentifyingInfo[];
+  uint64  PowerOnHours;
+  uint64  TotalPowerOnHours;
+  string  IdentifyingDescriptions[];
+  uint16  AdditionalAvailability[];
+  uint64  MaxQuiesceTime;
 };
 ```
 
@@ -59,7 +64,7 @@ The **CIM\_LogicalDevice** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -513,7 +518,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 
 This property is deprecated and should not be used.
 
-**Deprecated description:** The maximum time in milliseconds, that a device can remain in a temporarily disabled state (**Availability** and **AdditionalAvailability** properties set to "21" — quiescent ). A value of "0" indicates that the logical device can remain in a temporarily disabled state indefinitely.
+**Deprecated description:** The maximum time in milliseconds, that a device can remain in a temporarily disabled state (**Availability** and **AdditionalAvailability** properties set to "21"   quiescent ). A value of "0" indicates that the logical device can remain in a temporarily disabled state indefinitely.
 
 </dd> <dt>
 
@@ -623,7 +628,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("CIM\
 
 This property is deprecated. Instead, use the **PowerManagementCapabilities** class.
 
-**Deprecated description:  true** if the logical device can be power managed; otherwise, **false**.
+**Deprecated description:  true** if the logical device can be power managed; otherwise, **false**.
 
 </dd> <dt>
 
@@ -752,8 +757,8 @@ The total number of hours the logical device has been powered.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -767,9 +772,9 @@ The total number of hours the logical device has been powered.
 [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

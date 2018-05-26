@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds another buffer to the ID3DXPRTBuffer and stores the results in ID3DXPRTBuffer.'
-ms.assetid: '345412f4-30c5-4c1d-b0ef-6e3e18c4e5ab'
-title: 'ID3DXPRTBuffer::AddBuffer method'
+---
+Description: Adds another buffer to the ID3DXPRTBuffer and stores the results in ID3DXPRTBuffer.
+ms.assetid: 345412f4-30c5-4c1d-b0ef-6e3e18c4e5ab
+title: ID3DXPRTBufferAddBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTBuffer::AddBuffer method

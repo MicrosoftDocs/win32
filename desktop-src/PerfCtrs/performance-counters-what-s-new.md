@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes the new features that were added to Performance Counters for each release.'
-ms.assetid: '14bdae6c-9dcd-401e-8c43-5391e00cf7e3'
-title: 'What's New'
+Description: This section describes the new features that were added to Performance Counters for each release.
+ms.assetid: 14bdae6c-9dcd-401e-8c43-5391e00cf7e3
+title: Whats New
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New
@@ -25,7 +30,7 @@ The following features were added in this release:
     -   [**counterSet**](https://msdn.microsoft.com/library/windows/desktop/ee781342)
     -   [**counter**](https://msdn.microsoft.com/library/windows/desktop/ee781346)
 
-    The **symbol** attribute is required for [**provider**](https://msdn.microsoft.com/library/windows/desktop/ee781352) and [**counterSet**](https://msdn.microsoft.com/library/windows/desktop/ee781342), and is optional for [**counter**](https://msdn.microsoft.com/library/windows/desktop/ee781346). The attribute lets you provide a symbolic name that you can use to reference each element when calling the provider functions (for example, you can use the counter set symbolic name when calling [**PerfCreateInstance**](perfcreateinstance.md)).
+    The **symbol** attribute is required for [**provider**](https://msdn.microsoft.com/library/windows/desktop/ee781352) and [**counterSet**](https://msdn.microsoft.com/library/windows/desktop/ee781342), and is optional for [**counter**](https://msdn.microsoft.com/library/windows/desktop/ee781346). The attribute lets you provide a symbolic name that you can use to reference each element when calling the provider functions (for example, you can use the counter set symbolic name when calling [**PerfCreateInstance**](/windows/win32/Perflib/nf-perflib-perfcreateinstance?branch=master)).
 
 ## Windows Vista
 
@@ -35,23 +40,23 @@ Note that you can still use a performance DLL to provide counter data in Windows
 
 The following functions were added for this release:
 
--   [*ControlCallback*](controlcallback-perflibv2.md)
--   [**PerfCreateInstance**](perfcreateinstance.md)
--   [**PerfDeleteInstance**](perfdeleteinstance.md)
--   [**PerfQueryInstance**](perfqueryinstance.md)
--   [**PerfSetCounterSetInfo**](perfsetcountersetinfo.md)
--   [**PerfSetULongCounterValue**](perfsetulongcountervalue.md)
--   [**PerfSetULongLongCounterValue**](perfsetulonglongcountervalue.md)
--   [**PerfSetCounterRefValue**](perfsetcounterrefvalue.md)
--   [**PerfStartProvider**](perfstartprovider.md)
--   [**PerfStopProvider**](perfstopprovider.md)
+-   [*ControlCallback*](/windows/win32/Perflib/nc-perflib-perflibrequest?branch=master)
+-   [**PerfCreateInstance**](/windows/win32/Perflib/nf-perflib-perfcreateinstance?branch=master)
+-   [**PerfDeleteInstance**](/windows/win32/Perflib/nf-perflib-perfdeleteinstance?branch=master)
+-   [**PerfQueryInstance**](/windows/win32/Perflib/nf-perflib-perfqueryinstance?branch=master)
+-   [**PerfSetCounterSetInfo**](/windows/win32/Perflib/nf-perflib-perfsetcountersetinfo?branch=master)
+-   [**PerfSetULongCounterValue**](/windows/win32/Perflib/nf-perflib-perfsetulongcountervalue?branch=master)
+-   [**PerfSetULongLongCounterValue**](/windows/win32/Perflib/nf-perflib-perfsetulonglongcountervalue?branch=master)
+-   [**PerfSetCounterRefValue**](/windows/win32/Perflib/nf-perflib-perfsetcounterrefvalue?branch=master)
+-   [**PerfStartProvider**](/windows/win32/Perflib/nf-perflib-perfstartprovider?branch=master)
+-   [**PerfStopProvider**](/windows/win32/Perflib/nf-perflib-perfstopprovider?branch=master)
 
 The following structures were added for this release:
 
--   [**PERF\_COUNTER\_IDENTITY**](perf-counter-identity.md)
--   [**PERF\_COUNTER\_INFO**](perf-counter-info.md)
--   [**PERF\_COUNTERSET\_INFO**](perf-counterset-info.md)
--   [**PERF\_COUNTERSET\_INSTANCE**](perf-counterset-instance.md)
+-   [**PERF\_COUNTER\_IDENTITY**](/windows/win32/Perflib/ns-perflib-_perf_counter_identity?branch=master)
+-   [**PERF\_COUNTER\_INFO**](/windows/win32/Perflib/ns-perflib-_perf_counter_info?branch=master)
+-   [**PERF\_COUNTERSET\_INFO**](/windows/win32/Perflib/ns-perflib-_perf_counterset_info?branch=master)
+-   [**PERF\_COUNTERSET\_INSTANCE**](/windows/win32/Perflib/ns-perflib-_perf_counterset_instance?branch=master)
 
 For a list of the XML elements that you use in your manifest to define your counters, see [Performance Counters Schema](performance-counters-schema.md).
 

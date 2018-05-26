@@ -1,14 +1,17 @@
 ---
 title: IMsRdpClientTransportSettings GatewayProfileUsageMethod property
-description: Specifies whether to use default Remote Desktop Gateway (RD Gateway) settings.
+description: Specifies whether to use default Remote Desktop Gateway (RD Gateway) settings.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ce774790-31ad-40ba-ba8f-e81b0dbda175'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ce774790-31ad-40ba-ba8f-e81b0dbda175
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GatewayProfileUsageMethod property Remote Desktop Services", "GatewayProfileUsageMethod property Remote Desktop Services , IMsRdpClientTransportSettings interface", "IMsRdpClientTransportSettings interface Remote Desktop Services , GatewayProfileUsageMethod property"]
+keywords:
+- GatewayProfileUsageMethod property Remote Desktop Services
+- GatewayProfileUsageMethod property Remote Desktop Services , IMsRdpClientTransportSettings interface
+- IMsRdpClientTransportSettings interface Remote Desktop Services , GatewayProfileUsageMethod property
 topic_type:
 - apiref
 api_name:
@@ -19,11 +22,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings::GatewayProfileUsageMethod property
 
-Specifies whether to use default Remote Desktop Gateway (RD Gateway) settings.
+Specifies whether to use default Remote Desktop Gateway (RD Gateway) settings.
 
 This property is read/write.
 
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GatewayProfileUsageMethod(
-  [in]  ULONG ulProxyProfileMethod
+  [in]  ULONG ulProxyProfileMethod
 );
 
 HRESULT get_GatewayProfileUsageMethod(
-  [out] ULONG *pulProxyProfileUsageMethod
+  [out] ULONG *pulProxyProfileUsageMethod
 );
 ```
 
@@ -44,7 +50,7 @@ HRESULT get_GatewayProfileUsageMethod(
 
 ## Property value
 
-The RD Gateway profile usage method. This parameter can be one of the following values.
+The RD Gateway profile usage method. This parameter can be one of the following values.
 
 <dt>
 
@@ -80,8 +86,8 @@ Returns **S\_OK** if successful.
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientTransportSettings is defined as 720298C0-A099-46f5-9F82-96921BAE4701<br/> |
@@ -95,9 +101,9 @@ Returns **S\_OK** if successful.
 [**IMsRdpClientTransportSettings**](imsrdpclienttransportsettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

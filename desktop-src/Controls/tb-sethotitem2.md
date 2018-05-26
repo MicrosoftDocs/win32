@@ -1,8 +1,9 @@
 ---
 title: TB\_SETHOTITEM2 message
 description: Sets the hot item in a toolbar.
-ms.assetid: '43666b1d-1197-452f-aa79-eb0a1a23e5b7'
-keywords: ["TB_SETHOTITEM2 message Windows Controls"]
+ms.assetid: 43666b1d-1197-452f-aa79-eb0a1a23e5b7
+keywords:
+- TB_SETHOTITEM2 message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETHOTITEM2 message
@@ -29,7 +35,7 @@ Index of the item that will be made hot. If this value is -1, none of the items 
 </dd> <dt>
 
 *lParam* 
-</dt> <dd>A combination of HICF\_xxx flags. See [**NMTBHOTITEM**](nmtbhotitem.md).</dd> </dl>
+</dt> <dd>A combination of HICF\_xxx flags. See [**NMTBHOTITEM**](/windows/win32/Commctrl/ns-commctrl-tagnmtbhotitem?branch=master).</dd> </dl>
 
 ## Return value
 
@@ -45,15 +51,15 @@ The behavior of this message is not defined for toolbars that do not have the [*
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

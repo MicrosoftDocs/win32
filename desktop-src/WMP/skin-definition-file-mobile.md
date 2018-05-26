@@ -1,8 +1,18 @@
 ---
 title: Skin Definition File
 description: Skin Definition File
-ms.assetid: '76f5a17c-8126-4310-8cdf-72cdca98708b'
-keywords: ["Windows Media Player Mobile skins,skin definition files", "skins,skin definition files", "files for skins,skin definition", "skin definition files,about", "skin definition files,Windows Media Player Mobile"]
+ms.assetid: 76f5a17c-8126-4310-8cdf-72cdca98708b
+keywords:
+- Windows Media Player Mobile skins,skin definition files
+- skins,skin definition files
+- files for skins,skin definition
+- skin definition files,about
+- skin definition files,Windows Media Player Mobile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Skin Definition File

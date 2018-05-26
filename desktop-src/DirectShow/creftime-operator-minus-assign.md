@@ -1,7 +1,12 @@
 ---
-Description: 'The -= operator subtracts one reference time from another.'
-ms.assetid: '5b0ec72e-87d8-4562-96b1-40e4f5036fd4'
-title: 'CRefTime.operator-= method'
+Description: The -= operator subtracts one reference time from another.
+ms.assetid: 5b0ec72e-87d8-4562-96b1-40e4f5036fd4
+title: CRefTime.operator-= method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRefTime.operator-= method
@@ -13,7 +18,7 @@ The -= operator subtracts one reference time from another.
 
 ```C++
 CRefTime&amp; operator-=(
-  [ref] const CRefTime &amp;rt
+  [ref] const CRefTime &amp;rt
 );
 ```
 
@@ -45,9 +50,9 @@ Returns a reference to the object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

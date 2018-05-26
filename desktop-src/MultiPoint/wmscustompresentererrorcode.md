@@ -4,11 +4,12 @@ description: Defines error codes returned by OnError methods of the MultiPoint S
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4b65a5a3-1083-440c-b7cb-bc72757d8f89'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4b65a5a3-1083-440c-b7cb-bc72757d8f89
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["WmsCustomPresenterErrorCode enumeration"]
+keywords:
+- WmsCustomPresenterErrorCode enumeration
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
 ---
 
 # WmsCustomPresenterErrorCode enumeration
@@ -30,12 +34,12 @@ Defines error codes returned by **OnError** methods of the [MultiPoint Services 
 
 ```C++
 typedef enum  { 
-  CustomPresenterNone          = 0x0000,
-  PresentationDeviceTooNarrow  = 0x0001,
-  PresentationDeviceTooShort   = 0x0002,
-  StationPresenterNotSupplied  = 0x0003,
-  MousePresenterNotSupplied    = 0x0004,
-  PresenterTooBig              = 0x0005
+  CustomPresenterNone          = 0x0000,
+  PresentationDeviceTooNarrow  = 0x0001,
+  PresentationDeviceTooShort   = 0x0002,
+  StationPresenterNotSupplied  = 0x0003,
+  MousePresenterNotSupplied    = 0x0004,
+  PresenterTooBig              = 0x0005
 } WmsCustomPresenterErrorCode;
 ```
 
@@ -94,7 +98,7 @@ The dimensions of the frame buffer for the input device are too big.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 
 
@@ -106,9 +110,9 @@ The dimensions of the frame buffer for the input device are too big.
 [MultiPoint Services Enumerations](multipoint-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Codec Implementation
-ms.assetid: '5ec23f95-cc7d-4c16-979a-f1d2cc485bb0'
+ms.assetid: 5ec23f95-cc7d-4c16-979a-f1d2cc485bb0
 title: Codec Implementation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Codec Implementation
@@ -10,7 +15,7 @@ The Windows Media Audio and Video codecs are implemented as COM objects. Typical
 
 In some cases, more than one encoder is included in a single COM object. For example, the Windows Media Video 9 encoder and the Windows Media Video 9.1 encoder are both part of the same COM object. Consequently, they both have the same CLSID, which is represented by the constant **CLSID\_CWMV9EncMediaObject**. Similarly, some COM objects include more than one decoder.
 
-Each encoder or decoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/library/windows/desktop/dd406926) interface so that the object can be used as a DirectX Media Object (DMO) and the [**IMFTransform**](imftransform.md) interface so that the object can be used as a Media Foundation Transform (MFT).
+Each encoder or decoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/library/windows/desktop/dd406926) interface so that the object can be used as a DirectX Media Object (DMO) and the [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface so that the object can be used as a Media Foundation Transform (MFT).
 
 For most encoders, regardless of whether you use the encoder as a DMO or an MFT, you use the same CLSID to create an instance of the encoder. For example, to create an instance of the Windows Media Video 9 encoder, you use **CLSID\_CWMV9EncMediaObject**, regardless of whether you intend to use the encoder as a DMO or an MFT. Similarly, for most decoders, each decoder has a single CLSID regardless of whether you use the decoder as a DMO or an MFT.
 

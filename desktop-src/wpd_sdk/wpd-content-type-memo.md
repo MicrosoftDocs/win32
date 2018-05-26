@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_MEMO'
-ms.assetid: '6d89681c-1183-44d3-a39e-5fb343f1abbe'
-title: 'WPD\_CONTENT\_TYPE\_MEMO'
+Description: WPD\_CONTENT\_TYPE\_MEMO
+ms.assetid: 6d89681c-1183-44d3-a39e-5fb343f1abbe
+title: WPD\_CONTENT\_TYPE\_MEMO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_MEMO

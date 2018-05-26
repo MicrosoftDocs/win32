@@ -4,17 +4,21 @@ description: The ISM\_SNAPIN\_META\_PATH clipboard format returns the unique pat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2ef10014-f55c-4b0f-b3bc-45e1b9c858f0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 2ef10014-f55c-4b0f-b3bc-45e1b9c858f0
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ISM_SNAPIN_META_PATH clipboard format MMC"]
+keywords:
+- ISM_SNAPIN_META_PATH clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - ISM_SNAPIN_META_PATH
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ISM\_SNAPIN\_META\_PATH clipboard format

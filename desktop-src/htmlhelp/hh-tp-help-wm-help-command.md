@@ -1,7 +1,12 @@
 ---
 title: HH\_TP\_HELP\_WM\_HELP command
 description: Opens a pop-up help topic. Generally used in response to the Windows WM\_HELP message. For example, this message is sent when a user presses F1.
-ms.assetid: '0B280554-D4C4-44d7-8075-69E56730C376'
+ms.assetid: 0B280554-D4C4-44d7-8075-69E56730C376
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_TP\_HELP\_WM\_HELP command
@@ -40,7 +45,7 @@ Opens a pop-up help topic. Generally used in response to the Windows **WM\_HELP*
 
 
 
- 
+ 
 
 ## Example
 
@@ -73,9 +78,9 @@ HtmlHelp(
 [HH\_TP\_HELP\_CONTEXTMENU](hh-tp-help-contextmenu-command.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

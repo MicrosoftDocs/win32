@@ -4,11 +4,16 @@ description: DSML Services for Windows Standard Binding Methods
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2d4e0949-90b0-4e1d-bd35-1430d2889708'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2d4e0949-90b0-4e1d-bd35-1430d2889708
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DSML Services for Windows Standard Binding Methods DSML", "DSML Services for Windows, binding"]
+keywords:
+- DSML Services for Windows Standard Binding Methods DSML
+- DSML Services for Windows, binding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DSML Services for Windows Standard Binding Methods

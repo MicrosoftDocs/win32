@@ -1,8 +1,10 @@
 ---
 title: Win32\_CreateFolderAction class
 description: The Win32\_CreateFolderAction WMI class represents an action that creates empty folders for software elements set to be installed locally.
-ms.assetid: '215a5e6b-fd9f-4a3e-ae80-5c89a722cd13'
-keywords: ["Win32_CreateFolderAction class", "Win32_CreateFolderAction class, described"]
+ms.assetid: 215a5e6b-fd9f-4a3e-ae80-5c89a722cd13
+keywords:
+- Win32_CreateFolderAction class
+- Win32_CreateFolderAction class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_CreateFolderAction class
@@ -30,7 +37,7 @@ The **Win32\_CreateFolderAction** [WMI class](https://msdn.microsoft.com/library
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -72,7 +79,7 @@ The **Win32\_CreateFolderAction** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -139,7 +146,7 @@ A particular [**CIM\_Action**](https://msdn.microsoft.com/library/aa386541) obje
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -204,7 +211,7 @@ State of a software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -284,7 +291,7 @@ Target operating system of the owning software element. The possible values for 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -311,8 +318,8 @@ The **Win32\_CreateFolderAction** class is derived from [**CIM\_CreateDirectoryA
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -326,9 +333,9 @@ The **Win32\_CreateFolderAction** class is derived from [**CIM\_CreateDirectoryA
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Finishes setting up a trace buffer with optional fields for sprintf-style traces.'
-ms.assetid: '6c23e61c-0285-47ba-b614-b73bd001d552'
+---
+Description: Finishes setting up a trace buffer with optional fields for sprintf-style traces.
+ms.assetid: 6c23e61c-0285-47ba-b614-b73bd001d552
 title: SetAsyncTraceParamsEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetAsyncTraceParamsEx function

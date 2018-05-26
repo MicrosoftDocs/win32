@@ -1,14 +1,20 @@
 ---
 title: THEME.author
 description: The author attribute specifies or retrieves the name of the author of the skin.
-ms.assetid: '05d91024-38ea-4327-8ee1-a9242a13fd73'
-keywords: ["THEME.author Windows Media Player"]
+ms.assetid: 05d91024-38ea-4327-8ee1-a9242a13fd73
+keywords:
+- THEME.author Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.author
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.author
@@ -43,9 +49,9 @@ This attribute is a read/write **String** with no default value.
 [**THEME.authorVersion**](theme-authorversion.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

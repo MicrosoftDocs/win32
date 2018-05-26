@@ -1,7 +1,12 @@
 ---
-Description: 'Through the WIA Scripting Model, Windows Image Acquisition (WIA) functionality is made available to scripting languages such as Microsoft JScript development software and Microsoft Visual Basic Scripting Edition (VBScript), and high-level languages such as Microsoft Visual Basic development system.'
-ms.assetid: 'eec5dc91-7b32-4f38-bdfe-c11bddc17ba2'
+Description: Through the WIA Scripting Model, Windows Image Acquisition (WIA) functionality is made available to scripting languages such as Microsoft JScript development software and Microsoft Visual Basic Scripting Edition (VBScript), and high-level languages such as Microsoft Visual Basic development system.
+ms.assetid: eec5dc91-7b32-4f38-bdfe-c11bddc17ba2
 title: Using the WIA Scripting Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the WIA Scripting Model

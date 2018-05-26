@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the run mode parameter that determines whether or not the printer extension should be run as modal.'
-ms.assetid: '606FF5E7-CCC1-4227-8917-F5DF3ECB31A6'
-title: 'IPrinterExtensionEventArgs::WindowModal property'
+---
+Description: Gets the run mode parameter that determines whether or not the printer extension should be run as modal.
+ms.assetid: 606FF5E7-CCC1-4227-8917-F5DF3ECB31A6
+title: IPrinterExtensionEventArgsWindowModal property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionEventArgs::WindowModal property

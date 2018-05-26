@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the attribute data for a file.'
-ms.assetid: 'f23f801c-826c-4269-bf96-0e01430484f4'
+---
+Description: Contains the attribute data for a file.
+ms.assetid: f23f801c-826c-4269-bf96-0e01430484f4
 title: ATTRINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATTRINFO structure

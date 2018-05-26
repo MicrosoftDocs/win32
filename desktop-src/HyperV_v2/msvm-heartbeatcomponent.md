@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the state of the heartbeat service, which is responsible for monitoring the state of a virtual machine by reporting a heartbeat at regular intervals.'
-ms.assetid: '72DB3CD9-B083-4483-BCCD-DC8C140DDBF4'
-title: 'Msvm\_HeartbeatComponent class'
+Description: Represents the state of the heartbeat service, which is responsible for monitoring the state of a virtual machine by reporting a heartbeat at regular intervals.
+ms.assetid: 72DB3CD9-B083-4483-BCCD-DC8C140DDBF4
+title: Msvm\_HeartbeatComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_HeartbeatComponent class
@@ -16,44 +21,44 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_HeartbeatComponent : CIM_LogicalDevice
 {
-  string   InstanceID;
-  string   Caption = "Heartbeat";
-  string   Description = "Microsoft Heartbeat Service";
-  string   ElementName = "Heartbeat";
+  string   InstanceID;
+  string   Caption = "Heartbeat";
+  string   Description = "Microsoft Heartbeat Service";
+  string   ElementName = "Heartbeat";
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 7;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 7;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_HeartbeatComponent";
-  string   DeviceID = "Microsoft:VMGUID\GUID";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_HeartbeatComponent";
+  string   DeviceID = "Microsoft:VMGUID\GUID";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
 };
 ```
 
@@ -83,7 +88,7 @@ The **Msvm\_HeartbeatComponent** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -288,7 +293,7 @@ The enabled and disabled states of an element. This property is inherited from [
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -514,7 +519,7 @@ The **OperationalStatus**\[1\] property value indicates the coalesced applicatio
 > [!Note]  
 > The state for an application is set on the virtual machine by using the [**SetApplicationState**](ivmapplicationhealthmonitor-setapplicationstate.md) method.
 
- 
+ 
 
 <dt>
 
@@ -781,7 +786,7 @@ The following C# sample obtains the application health status of a virtual machi
 > \[!Important\]  
 > To function correctly, the following code must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -868,8 +873,8 @@ GetAppHealthStatus(
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -889,9 +894,9 @@ GetAppHealthStatus(
 [**Msvm\_HeartbeatComponent**](https://msdn.microsoft.com/library/cc136840)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

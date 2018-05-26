@@ -4,17 +4,22 @@ description: The FPO that represents the ADAM service account.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9f93ed27-fb3f-4b37-b2a5-cf2e85b9d507'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9f93ed27-fb3f-4b37-b2a5-cf2e85b9d507
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Service-Account attribute AD Schema", "msDS-ServiceAccount attribute AD Schema"]
+keywords:
+- ms-DS-Service-Account attribute AD Schema
+- msDS-ServiceAccount attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Service-Account
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Service-Account attribute
@@ -61,9 +66,9 @@ The FPO that represents the ADAM service account.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

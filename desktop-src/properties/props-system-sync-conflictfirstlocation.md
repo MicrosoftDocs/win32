@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '3aa1daa6-a63b-4e91-9fce-f1deb131fb45'
-title: 'System.Sync.ConflictFirstLocation'
+Description: .
+ms.assetid: 3aa1daa6-a63b-4e91-9fce-f1deb131fb45
+title: System.Sync.ConflictFirstLocation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Sync.ConflictFirstLocation

@@ -1,14 +1,21 @@
 ---
 title: GetTransportInformationOperation class
 description: Registers an event handler that is invoked when the asynchronous operation started by GetTransportInformationAsync completes, and provides a method that returns the results of the operation.
-ms.assetid: 'EDB7E338-94E9-47DA-A95E-E49123655505'
-keywords: ["GetTransportInformationOperation class Media Streaming API", "GetTransportInformationOperation class Media Streaming API , described"]
+ms.assetid: EDB7E338-94E9-47DA-A95E-E49123655505
+keywords:
+- GetTransportInformationOperation class Media Streaming API
+- GetTransportInformationOperation class Media Streaming API , described
 topic_type:
 - apiref
 api_name:
 - GetTransportInformationOperation
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetTransportInformationOperation class
@@ -32,7 +39,7 @@ The **GetTransportInformationOperation** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -46,11 +53,11 @@ The **GetTransportInformationOperation** class has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

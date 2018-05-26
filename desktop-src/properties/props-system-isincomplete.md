@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies whether the message was completely received. This value is used with some error conditions.'
-ms.assetid: '23cbbd16-fc32-40f2-bdea-25dac2f78191'
-title: 'System.IsIncomplete'
+Description: Identifies whether the message was completely received. This value is used with some error conditions.
+ms.assetid: 23cbbd16-fc32-40f2-bdea-25dac2f78191
+title: System.IsIncomplete
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.IsIncomplete

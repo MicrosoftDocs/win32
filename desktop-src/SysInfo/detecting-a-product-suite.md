@@ -1,14 +1,19 @@
 ---
-Description: 'The following example uses the VerifyVersionInfo function to determine whether the specified product suite(s) are installed on the local computer.'
-ms.assetid: '9f405e99-28f5-4415-a274-682b87ae6842'
+Description: The following example uses the VerifyVersionInfo function to determine whether the specified product suite(s) are installed on the local computer.
+ms.assetid: 9f405e99-28f5-4415-a274-682b87ae6842
 title: Detecting a Product Suite
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Detecting a Product Suite
 
-The following example uses the [**VerifyVersionInfo**](verifyversioninfo.md) function to determine whether the specified product suite(s) are installed on the local computer.
+The following example uses the [**VerifyVersionInfo**](/windows/win32/Winbase/nf-winbase-verifyversioninfoa?branch=master) function to determine whether the specified product suite(s) are installed on the local computer.
 
-This example uses the VER\_AND flag. If two flags are specified in the suite mask, the function returns **TRUE** only if both product suites are present. If the example were changed to use the VER\_OR flag, [**VerifyVersionInfo**](verifyversioninfo.md) would return **TRUE** if either product suite were present.
+This example uses the VER\_AND flag. If two flags are specified in the suite mask, the function returns **TRUE** only if both product suites are present. If the example were changed to use the VER\_OR flag, [**VerifyVersionInfo**](/windows/win32/Winbase/nf-winbase-verifyversioninfoa?branch=master) would return **TRUE** if either product suite were present.
 
 
 ```C++

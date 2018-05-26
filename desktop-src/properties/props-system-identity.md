@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '6a4af345-6d33-40c6-8368-5aff03016952'
-title: 'System.Identity'
+Description: .
+ms.assetid: 6a4af345-6d33-40c6-8368-5aff03016952
+title: System.Identity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Identity

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Options for enumerating display modes.'
-ms.assetid: '7e0f5629-f8e2-478b-b8eb-00780a3dcf1f'
-title: 'DXGI\_ENUM\_MODES'
+---
+Description: Options for enumerating display modes.
+ms.assetid: 7e0f5629-f8e2-478b-b8eb-00780a3dcf1f
+title: DXGI\_ENUM\_MODES
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXGI\_ENUM\_MODES
@@ -21,9 +26,9 @@ Options for enumerating display modes.
 
 ## Remarks
 
-These flag options are used in [**IDXGIOutput::GetDisplayModeList**](idxgioutput-getdisplaymodelist.md) to enumerate display modes.
+These flag options are used in [**IDXGIOutput::GetDisplayModeList**](/windows/win32/DXGI/nf-dxgi-idxgioutput-getdisplaymodelist?branch=master) to enumerate display modes.
 
-These flag options are also used in [**IDXGIOutput1::GetDisplayModeList1**](idxgioutput1-getdisplaymodelist1.md) to enumerate display modes.
+These flag options are also used in [**IDXGIOutput1::GetDisplayModeList1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutput1-getdisplaymodelist1?branch=master) to enumerate display modes.
 
 ## Requirements
 

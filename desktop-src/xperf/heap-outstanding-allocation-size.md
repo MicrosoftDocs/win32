@@ -1,7 +1,12 @@
 ---
 title: Heap Outstanding Allocation Size
 description: Heap Outstanding Allocation Size
-ms.assetid: 'c89e75e3-bcca-4792-b01e-0a9798fcebc6'
+ms.assetid: c89e75e3-bcca-4792-b01e-0a9798fcebc6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Heap Outstanding Allocation Size

@@ -1,8 +1,26 @@
 ---
 title: Using the Formulas Element
 description: Using the Formulas Element
-ms.assetid: 'f5a381b4-4132-4b66-b41a-3cada26b41e2'
-keywords: ["Web workshop,formulas element", "designing Web pages,formulas element", "Vector Markup Language (VML),formulas element", "VML (Vector Markup Language),formulas element", "vector graphics,formulas element", "formulas element", "VML elements,formulas", "VML shapes,formulas element", "Vector Markup Language (VML),defining paths for shapes", "VML (Vector Markup Language),defining paths for shapes", "vector graphics,defining paths for shapes", "VML shapes,defining paths", "defining paths for shapes"]
+ms.assetid: f5a381b4-4132-4b66-b41a-3cada26b41e2
+keywords:
+- Web workshop,formulas element
+- designing Web pages,formulas element
+- Vector Markup Language (VML),formulas element
+- VML (Vector Markup Language),formulas element
+- vector graphics,formulas element
+- formulas element
+- VML elements,formulas
+- VML shapes,formulas element
+- Vector Markup Language (VML),defining paths for shapes
+- VML (Vector Markup Language),defining paths for shapes
+- vector graphics,defining paths for shapes
+- VML shapes,defining paths
+- defining paths for shapes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Formulas Element

@@ -1,8 +1,10 @@
 ---
 title: MPCOMPONENT\_STATUS structure
 description: Component status information.
-ms.assetid: '0E589E52-A204-425C-880B-CF13C16893F3'
-keywords: ["MPCOMPONENT_STATUS structure Legacy Windows Environment Features", "PMPCOMPONENT_STATUS structure pointer Legacy Windows Environment Features"]
+ms.assetid: 0E589E52-A204-425C-880B-CF13C16893F3
+keywords:
+- MPCOMPONENT_STATUS structure Legacy Windows Environment Features
+- PMPCOMPONENT_STATUS structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPCOMPONENT\_STATUS structure
@@ -22,7 +29,7 @@ Component status information.
 
 ```C++
 typedef struct tagMPCOMPONENT_STATUS {
-  BOOL    fEnable;
+  BOOL    fEnable;
   HRESULT hResult;
 } MPCOMPONENT_STATUS, *PMPCOMPONENT_STATUS;
 ```
@@ -61,15 +68,15 @@ Success or failure code associated with the status.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

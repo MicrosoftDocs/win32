@@ -1,19 +1,24 @@
 ---
-Description: 'The SetClockDelta method adjusts the clock time. This method implements the IAMClockAdjust::SetClockDelta method.'
-ms.assetid: '2bb9266f-3866-4b2e-92a8-cde31a501047'
-title: 'CSystemClock.SetClockDelta method'
+Description: The SetClockDelta method adjusts the clock time. This method implements the IAMClockAdjustSetClockDelta method.
+ms.assetid: 2bb9266f-3866-4b2e-92a8-cde31a501047
+title: CSystemClock.SetClockDelta method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSystemClock.SetClockDelta method
 
-The `SetClockDelta` method adjusts the clock time. This method implements the [**IAMClockAdjust::SetClockDelta**](iamclockadjust-setclockdelta.md) method.
+The `SetClockDelta` method adjusts the clock time. This method implements the [**IAMClockAdjust::SetClockDelta**](/windows/win32/Strmif/nf-strmif-iamclockadjust-setclockdelta?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetClockDelta(
-   REFERENCE_TIME rtDelta
+   REFERENCE_TIME rtDelta
 );
 ```
 
@@ -38,7 +43,7 @@ Returns S\_OK or an **HRESULT** error code.
 
 This method simply calls [**CBaseReferenceClock::SetTimeDelta**](cbasereferenceclock-settimedelta.md).
 
-The time values returned by [**IReferenceClock::GetTime**](ireferenceclock-gettime.md) are monotonically increasing. If you set the clock back, **GetTime** continues to report the old time until the internal clock catches up.
+The time values returned by [**IReferenceClock::GetTime**](/windows/win32/Strmif/nf-strmif-ireferenceclock-gettime?branch=master) are monotonically increasing. If you set the clock back, **GetTime** continues to report the old time until the internal clock catches up.
 
 ## Requirements
 
@@ -52,9 +57,9 @@ The time values returned by [**IReferenceClock::GetTime**](ireferenceclock-getti
 
 
 
- 
+ 
 
- 
+ 
 
 
 

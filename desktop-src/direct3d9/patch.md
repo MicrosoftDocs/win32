@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a B&\#233;zier control patch. The array defines the control points for the patch.'
-ms.assetid: 'd941d994-8a13-49ff-a0b1-b21a3f84ed78'
+Description: Defines a B&\#233;zier control patch. The array defines the control points for the patch.
+ms.assetid: d941d994-8a13-49ff-a0b1-b21a3f84ed78
 title: Patch
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch

@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_DevSyncOffset method retrieves the standard deviation of the time in milliseconds between when each frame was due and when it was actually rendered, for all frames since streaming started.'
-ms.assetid: '86f60064-f913-4377-bad0-148a213171fc'
-title: 'CBaseVideoRenderer.get\_DevSyncOffset method'
+Description: The get\_DevSyncOffset method retrieves the standard deviation of the time in milliseconds between when each frame was due and when it was actually rendered, for all frames since streaming started.
+ms.assetid: 86f60064-f913-4377-bad0-148a213171fc
+title: CBaseVideoRenderer.get\_DevSyncOffset method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.get\_DevSyncOffset method
@@ -13,7 +18,7 @@ The `get_DevSyncOffset` method retrieves the standard deviation of the time in m
 
 ```C++
 HRESULT get_DevSyncOffset(
-   int *piDev
+   int *piDev
 );
 ```
 
@@ -36,7 +41,7 @@ Returns an **HRESULT** value.
 
 ## Remarks
 
-This member function implements the [**IQualProp::get\_DevSyncOffset**](iqualprop-get-devsyncoffset.md) method.
+This member function implements the [**IQualProp::get\_DevSyncOffset**](/windows/win32/Amvideo/nf-amvideo-iqualprop-get_devsyncoffset?branch=master) method.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ This member function implements the [**IQualProp::get\_DevSyncOffset**](iqualpro
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

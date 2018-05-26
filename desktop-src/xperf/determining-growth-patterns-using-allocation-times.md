@@ -1,7 +1,12 @@
 ---
 title: Determining Growth Patterns Using Allocation Times
 description: Determining Growth Patterns Using Allocation Times
-ms.assetid: '0adf2ba2-181b-40a3-a978-933d0971b464'
+ms.assetid: 0adf2ba2-181b-40a3-a978-933d0971b464
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining Growth Patterns Using Allocation Times

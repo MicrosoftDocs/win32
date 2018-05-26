@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '7C12C528-03B2-42B7-A73D-21DF3FEF1505'
+---
+Description: .
+ms.assetid: 7C12C528-03B2-42B7-A73D-21DF3FEF1505
 title: IPrintAsyncNotify interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintAsyncNotify interface

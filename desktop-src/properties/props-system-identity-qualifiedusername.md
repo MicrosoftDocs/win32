@@ -1,7 +1,12 @@
 ---
-Description: 'The qualified user name of an identity.'
-ms.assetid: '08AC11E1-1C0B-4D8A-94B0-F1EDA1B02F43'
-title: 'System.Identity.QualifiedUserName'
+Description: The qualified user name of an identity.
+ms.assetid: 08AC11E1-1C0B-4D8A-94B0-F1EDA1B02F43
+title: System.Identity.QualifiedUserName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Identity.QualifiedUserName

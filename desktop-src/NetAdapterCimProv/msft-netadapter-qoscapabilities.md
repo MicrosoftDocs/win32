@@ -1,7 +1,12 @@
 ---
-Description: 'This class is used to report QoS capabilities on a network adapter.'
-ms.assetid: '72ea6ea3-443d-492c-9d95-60da3ffbf57c'
-title: 'MSFT\_NetAdapter\_QosCapabilities class'
+Description: This class is used to report QoS capabilities on a network adapter.
+ms.assetid: 72ea6ea3-443d-492c-9d95-60da3ffbf57c
+title: MSFT\_NetAdapter\_QosCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapter\_QosCapabilities class
@@ -19,9 +24,9 @@ class MSFT_NetAdapter_QosCapabilities
   boolean MacSecBypassSupported;
   boolean CeeDcbxSupported;
   boolean IeeeDcbxSupported;
-  uint8   NumberOfTrafficClasses;
-  uint8   NumberOfEtsCapableTrafficClasses;
-  uint8   NumberOfPfcEnabledTrafficClasses;
+  uint8   NumberOfTrafficClasses;
+  uint8   NumberOfEtsCapableTrafficClasses;
+  uint8   NumberOfPfcEnabledTrafficClasses;
 };
 ```
 
@@ -130,17 +135,17 @@ Number of traffic classes supported.
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

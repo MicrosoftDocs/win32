@@ -1,7 +1,12 @@
 ---
-Description: 'The following structure is used with network DDE:'
-ms.assetid: '1cbfd363-4fe4-452a-950d-637e9b96ca16'
+Description: The following structure is used with network DDE
+ms.assetid: 1cbfd363-4fe4-452a-950d-637e9b96ca16
 title: Network DDE Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network DDE Structures

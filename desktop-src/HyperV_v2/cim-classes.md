@@ -1,7 +1,12 @@
 ---
-Description: 'The CIM classes are base classes that all WMI objects derive from.'
-ms.assetid: '16EF4297-A64E-4273-9D6E-0B81C954265E'
+Description: The CIM classes are base classes that all WMI objects derive from.
+ms.assetid: 16EF4297-A64E-4273-9D6E-0B81C954265E
 title: CIM Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM Classes
@@ -154,11 +159,11 @@ The following CIM classes are found in the root\\virtualization\\v2 namespace.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

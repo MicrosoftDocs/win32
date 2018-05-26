@@ -1,14 +1,20 @@
 ---
 title: Processing
 description: Displays trace post-processing options.
-ms.assetid: '2a4b4220-e99f-4d11-bd05-ead3d9737467'
-keywords: ["Processing Windows Performance Analyzer"]
+ms.assetid: 2a4b4220-e99f-4d11-bd05-ead3d9737467
+keywords:
+- Processing Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
 - processing
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processing
@@ -82,7 +88,7 @@ Lost events generally happen because the buffers for the trace sessions were too
 > [!Note]  
 > You must use **-tle** parameter only when a trace with missing events must be processed. If the parameter is specified and events were indeed lost, none of the calculations and aggregations produced by XPerf can be considered accurate.
 
- 
+ 
 
 </dd> <dt>
 
@@ -96,7 +102,7 @@ On some systems, the time source may not be completely reliable. Although XPerf 
 > [!Note]  
 > You must use **-tti** parameter only when a trace on a system with large time inversions must be processed. As a workaround, you may want to switch to another hardware platform whenever your trace sessions encounter time inversions.
 
- 
+ 
 
 </dd> </dl>
 
@@ -113,7 +119,7 @@ On some systems, the time source may not be completely reliable. Although XPerf 
 
 
 
- 
+ 
 
 ### Available Actions
 
@@ -152,13 +158,13 @@ On some systems, the time source may not be completely reliable. Although XPerf 
 
 
 
- 
+ 
 
 Use xperf -help &lt;action&gt; \[&lt;action&gt; ...\] for detailed help. If no action is present, Dumper will be invoked.
 
- 
+ 
 
- 
+ 
 
 
 

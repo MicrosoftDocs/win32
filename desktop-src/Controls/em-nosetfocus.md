@@ -1,8 +1,9 @@
 ---
 title: EM\_NOSETFOCUS message
 description: Prevents a single-line edit control from receiving keyboard focus. You can send this message explicitly or by using the Edit\_NoSetFocus macro.
-ms.assetid: 'aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c'
-keywords: ["EM_NOSETFOCUS message Windows Controls"]
+ms.assetid: aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c
+keywords:
+- EM_NOSETFOCUS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_NOSETFOCUS message
 
 \[Intended for internal use; not recommended for use in applications. This message may not be supported in future versions of Windows.\]
 
-Prevents a single-line edit control from receiving keyboard focus. You can send this message explicitly or by using the [**Edit\_NoSetFocus**](edit-nosetfocus.md) macro.
+Prevents a single-line edit control from receiving keyboard focus. You can send this message explicitly or by using the [**Edit\_NoSetFocus**](/windows/win32/Commctrl/nf-commctrl-edit_nosetfocus?branch=master) macro.
 
 ## Parameters
 
@@ -57,8 +63,8 @@ After this message is sent, the effect is permanent.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -70,15 +76,15 @@ After this message is sent, the effect is permanent.
 **Reference**
 </dt> <dt>
 
-[**Edit\_NoSetFocus**](edit-nosetfocus.md)
+[**Edit\_NoSetFocus**](/windows/win32/Commctrl/nf-commctrl-edit_nosetfocus?branch=master)
 </dt> <dt>
 
 [**EM\_TAKEFOCUS**](em-takefocus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: RequestComplete Event
 description: RequestComplete Event
-ms.assetid: '543b79d1-f09d-4061-a1a8-8c8ab496bceb'
+ms.assetid: 543b79d1-f09d-4061-a1a8-8c8ab496bceb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestComplete Event

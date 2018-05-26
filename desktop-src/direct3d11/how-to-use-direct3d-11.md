@@ -1,12 +1,17 @@
 ---
 title: How to Use Direct3D 11
-description: This section demonstrates how to use the Microsoft Direct3D 11 API to accomplish several common tasks.
-ms.assetid: '9BDEDB68-3484-4683-85AF-B583971382C8'
+description: This section demonstrates how to use the Microsoft Direct3D 11 API to accomplish several common tasks.
+ms.assetid: 9BDEDB68-3484-4683-85AF-B583971382C8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use Direct3D 11
 
-This section demonstrates how to use the Microsoft Direct3D 11 API to accomplish several common tasks.
+This section demonstrates how to use the Microsoft Direct3D 11 API to accomplish several common tasks.
 
 
 
@@ -39,7 +44,7 @@ This section demonstrates how to use the Microsoft Direct3D 11 API to accomplish
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -48,9 +53,9 @@ This section demonstrates how to use the Microsoft Direct3D 11 API to accomplish
 [Direct3D 11 Graphics](atoc-dx-graphics-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies, in seconds, the maximum delay before the single sign on connection attempt fails.'
-ms.assetid: 'ba8c137e-dd05-4ebc-9a83-cd612f65d4dc'
-title: 'maxDelay (singleSignOn) Element'
+---
+Description: Specifies, in seconds, the maximum delay before the single sign on connection attempt fails.
+ms.assetid: ba8c137e-dd05-4ebc-9a83-cd612f65d4dc
+title: maxDelay (singleSignOn) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # maxDelay (singleSignOn) Element

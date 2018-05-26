@@ -1,8 +1,23 @@
 ---
 title: About IMediaObject
 description: About IMediaObject
-ms.assetid: 'c483f74a-efd8-4a9f-a719-686099755e63'
-keywords: ["Windows Media Player plug-ins,interfaces", "plug-ins,interfaces", "digital signal processing plug-ins,interfaces", "DSP plug-ins,interfaces", "interfaces,DSP plug-ins", "Windows Media Player plug-ins,IMediaObject interface", "plug-ins,IMediaObject interface", "digital signal processing plug-ins,IMediaObject interface", "DSP plug-ins,IMediaObject interface", "IMediaObject interface"]
+ms.assetid: c483f74a-efd8-4a9f-a719-686099755e63
+keywords:
+- Windows Media Player plug-ins,interfaces
+- plug-ins,interfaces
+- digital signal processing plug-ins,interfaces
+- DSP plug-ins,interfaces
+- interfaces,DSP plug-ins
+- Windows Media Player plug-ins,IMediaObject interface
+- plug-ins,IMediaObject interface
+- digital signal processing plug-ins,IMediaObject interface
+- DSP plug-ins,IMediaObject interface
+- IMediaObject interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About IMediaObject

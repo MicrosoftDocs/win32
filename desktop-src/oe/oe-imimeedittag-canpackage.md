@@ -1,8 +1,11 @@
 ---
 title: IMimeEditTag CanPackage method
 description: Called by the packer to make sure this tag should be packaged.
-ms.assetid: '56de7400-de36-40dd-9aeb-212e2b994fa1'
-keywords: ["CanPackage method Windows Mail (formerly Outlook Express)", "CanPackage method Windows Mail (formerly Outlook Express) , IMimeEditTag interface", "IMimeEditTag interface Windows Mail (formerly Outlook Express) , CanPackage method"]
+ms.assetid: 56de7400-de36-40dd-9aeb-212e2b994fa1
+keywords:
+- CanPackage method Windows Mail (formerly Outlook Express)
+- CanPackage method Windows Mail (formerly Outlook Express) , IMimeEditTag interface
+- IMimeEditTag interface Windows Mail (formerly Outlook Express) , CanPackage method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeEditTag::CanPackage method
@@ -44,8 +52,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -53,9 +61,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

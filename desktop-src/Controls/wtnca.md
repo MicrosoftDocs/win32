@@ -1,7 +1,7 @@
 ---
 title: WTNCA Values
 description: Specifies flags that modify window visual style attributes. Use one, or a bitwise combination of the following values.
-ms.assetid: 'C71D1957-6572-4242-B715-C54BDFBBD6B7'
+ms.assetid: C71D1957-6572-4242-B715-C54BDFBBD6B7
 topic_type:
 - apiref
 api_name:
@@ -14,6 +14,11 @@ api_location:
 - Uxtheme.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WTNCA Values
@@ -38,8 +43,8 @@ Specifies flags that modify window visual style attributes. Use one, or a bitwis
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Uxtheme.h</dt> </dl> |
 
 
@@ -51,15 +56,15 @@ Specifies flags that modify window visual style attributes. Use one, or a bitwis
 **Reference**
 </dt> <dt>
 
-[**WTA\_OPTIONS**](wta-options.md)
+[**WTA\_OPTIONS**](/windows/win32/Uxtheme/ns-uxtheme-_wta_options?branch=master)
 </dt> <dt>
 
-[**SetWindowThemeNonClientAttributes**](setwindowthemenonclientattributes.md)
+[**SetWindowThemeNonClientAttributes**](/windows/win32/Uxtheme/nf-uxtheme-setwindowthemenonclientattributes?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

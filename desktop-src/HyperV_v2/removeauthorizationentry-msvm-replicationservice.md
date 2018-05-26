@@ -1,7 +1,12 @@
 ---
-Description: 'Removes an authorization entry from a recovery server.'
-ms.assetid: '1647b35d-1c2f-4fb5-84c0-10b357326abf'
-title: 'RemoveAuthorizationEntry method of the Msvm\_ReplicationService class'
+Description: Removes an authorization entry from a recovery server.
+ms.assetid: 1647b35d-1c2f-4fb5-84c0-10b357326abf
+title: RemoveAuthorizationEntry method of the Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveAuthorizationEntry method of the Msvm\_ReplicationService class
@@ -13,8 +18,8 @@ Removes an authorization entry from a recovery server.
 
 ```mof
 uint32 RemoveAuthorizationEntry(
-  [in]  string              AllowedPrimaryHostSystem,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              AllowedPrimaryHostSystem,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -96,8 +101,8 @@ Removing an authorization entry will stop replication for any virtual machines t
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -120,9 +125,9 @@ Removing an authorization entry will stop replication for any virtual machines t
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

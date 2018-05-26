@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a reference to an uncompressed surface.'
-ms.assetid: '01F9C9F9-8EB4-49D5-91F0-89B4C40DDDC8'
-title: 'DXVA\_PicEntry\_HEVC structure'
+---
+Description: Specifies a reference to an uncompressed surface.
+ms.assetid: 01F9C9F9-8EB4-49D5-91F0-89B4C40DDDC8
+title: DXVA\_PicEntry\_HEVC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXVA\_PicEntry\_HEVC structure

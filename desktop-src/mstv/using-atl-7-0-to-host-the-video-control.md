@@ -1,7 +1,12 @@
 ---
 title: Using ATL 7.0 to Host the Video Control
 description: Using ATL 7.0 to Host the Video Control
-ms.assetid: '83f561e2-8eca-4e40-b353-63c33ef9dbd3'
+ms.assetid: 83f561e2-8eca-4e40-b353-63c33ef9dbd3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using ATL 7.0 to Host the Video Control

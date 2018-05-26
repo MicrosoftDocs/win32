@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics demonstrate how an application can use the symbol handler functions.'
-ms.assetid: '8674a3ab-a6a0-4c03-a0f1-8d5f19ad6f35'
+Description: The following topics demonstrate how an application can use the symbol handler functions.
+ms.assetid: 8674a3ab-a6a0-4c03-a0f1-8d5f19ad6f35
 title: Using DbgHelp
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using DbgHelp

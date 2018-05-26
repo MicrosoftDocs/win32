@@ -1,7 +1,12 @@
 ---
-Description: 'Most programmatic fax management requires you to connect to the fax server.'
-ms.assetid: 'aa3cd5cf-fff5-453b-9574-7ef617239da6'
+Description: Most programmatic fax management requires you to connect to the fax server.
+ms.assetid: aa3cd5cf-fff5-453b-9574-7ef617239da6
 title: Connecting to the Fax Server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connecting to the Fax Server

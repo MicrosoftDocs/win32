@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the value of specified child properties in the &lt;Properties&gt; element of a scan profile.'
-ms.assetid: '528b51f5-51e0-4639-965d-ee318eb2187b'
-title: 'IScanProfile::GetProperty method'
+---
+Description: Gets the value of specified child properties in the &lt;Properties&gt; element of a scan profile.
+ms.assetid: 528b51f5-51e0-4639-965d-ee318eb2187b
+title: IScanProfileGetProperty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfile::GetProperty method

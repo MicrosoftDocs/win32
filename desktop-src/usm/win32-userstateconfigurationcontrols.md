@@ -1,8 +1,10 @@
 ---
 title: Win32\_UserStateConfigurationControls class
 description: Contains properties that control the user state configuration for a computer. The property value settings for this class determine whether Group Policy or WMI should be the configuration mechanism for user state components.
-ms.assetid: '9428e8d4-72a7-4661-8e1a-b2b6712d2c60'
-keywords: ["Win32_UserStateConfigurationControls class User State Manageability API", "Win32_UserStateConfigurationControls class User State Manageability API , described"]
+ms.assetid: 9428e8d4-72a7-4661-8e1a-b2b6712d2c60
+keywords:
+- Win32_UserStateConfigurationControls class User State Manageability API
+- Win32_UserStateConfigurationControls class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_UserStateConfigurationControls class
@@ -120,16 +127,16 @@ One of the following values.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                              |
 | MOF<br/>                      | <dl> <dt>UserStateWmiProvider.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

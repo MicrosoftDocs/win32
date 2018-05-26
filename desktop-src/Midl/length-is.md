@@ -2,13 +2,19 @@
 title: length\_is attribute
 description: The \ length\_is\ attribute specifies the number of array elements to be transmitted. You must specify a non-negative value.
 ms.assetid: 060dbd4a-3078-4050-abfe-c1b633c06861
-keywords: ["length_is attribute MIDL"]
+keywords:
+- length_is attribute MIDL
 topic_type:
 - apiref
 api_name:
 - length_is
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # length\_is attribute

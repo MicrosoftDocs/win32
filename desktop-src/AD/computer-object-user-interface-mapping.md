@@ -4,10 +4,13 @@ description: The following tables list elements of the Computer object property 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e2a7a42d-e854-43fc-a36b-f3031c1685a7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e2a7a42d-e854-43fc-a36b-f3031c1685a7
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Computer Object User Interface Mapping

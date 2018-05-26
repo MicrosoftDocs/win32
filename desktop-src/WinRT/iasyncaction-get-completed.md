@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the method that is called when the asynchronous action completes.'
-ms.assetid: '5050BF84-F9E0-4B3E-9252-6C5C1060826E'
-title: 'IAsyncAction::get\_Completed method'
+---
+Description: Gets the method that is called when the asynchronous action completes.
+ms.assetid: 5050BF84-F9E0-4B3E-9252-6C5C1060826E
+title: IAsyncActionget\_Completed method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAsyncAction::get\_Completed method

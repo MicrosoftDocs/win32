@@ -1,14 +1,20 @@
 ---
 title: Properties (Child of Token) element
 description: Specifies the properties of the media node.
-ms.assetid: '02b94d22-0c43-4061-974a-cd925d408e1c'
-keywords: ["Properties (Child of Token) element Windows Movie Maker and DVD Maker"]
+ms.assetid: 02b94d22-0c43-4061-974a-cd925d408e1c
+keywords:
+- Properties (Child of Token) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Properties
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties (Child of Token) element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -72,9 +78,9 @@ There are no child elements.
 [**Properties Element (Parent of Color)**](properties--parent-of-color.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

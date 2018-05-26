@@ -1,7 +1,12 @@
 ---
 title: Sample IFiltTst.ini File
 description: Sample IFiltTst.ini File
-ms.assetid: '13a1ae88-56b8-4018-bc3b-a980ac42ae12'
+ms.assetid: 13a1ae88-56b8-4018-bc3b-a980ac42ae12
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample IFiltTst.ini File

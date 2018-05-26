@@ -1,8 +1,10 @@
 ---
 title: TaskDefinition object
 description: Scripting object that defines all the components of a task, such as the task settings, triggers, actions, and registration information.
-ms.assetid: '3787ed9b-9fd0-473b-9034-ade97dc330d9'
-keywords: ["TaskDefinition object Task Scheduler", "TaskDefinition object Task Scheduler , described"]
+ms.assetid: 3787ed9b-9fd0-473b-9034-ade97dc330d9
+keywords:
+- TaskDefinition object Task Scheduler
+- TaskDefinition object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskDefinition object
@@ -41,7 +48,7 @@ The **TaskDefinition** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,16 +64,16 @@ For more information and example code for this scripting object, see [Time Trigg
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

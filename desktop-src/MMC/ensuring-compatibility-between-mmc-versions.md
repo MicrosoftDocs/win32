@@ -4,11 +4,15 @@ description: Provides guidelines to ensure compatibility between MMC versions.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7b3b81f8-4bbd-47ba-bde3-b7bb56e79ff0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 7b3b81f8-4bbd-47ba-bde3-b7bb56e79ff0
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ensuring compatibility between MMC versions"]
+keywords:
+- ensuring compatibility between MMC versions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Ensuring Compatibility Between MMC Versions

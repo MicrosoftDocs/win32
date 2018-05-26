@@ -1,7 +1,12 @@
 ---
 title: IXSSO Errors
 description: IXSSO Errors
-ms.assetid: '040041ab-b208-4346-b86d-259d9653fe34'
+ms.assetid: 040041ab-b208-4346-b86d-259d9653fe34
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXSSO Errors

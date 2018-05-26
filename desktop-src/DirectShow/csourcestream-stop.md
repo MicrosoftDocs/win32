@@ -1,7 +1,12 @@
 ---
-Description: 'The Stop method signals the streaming thread to stop.'
-ms.assetid: '79bc528a-cf53-43f3-aa17-c459063c99ab'
-title: 'CSourceStream.Stop method'
+Description: The Stop method signals the streaming thread to stop.
+ms.assetid: 79bc528a-cf53-43f3-aa17-c459063c99ab
+title: CSourceStream.Stop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.Stop method
@@ -47,9 +52,9 @@ The [**CSourceStream::Inactive**](csourcestream-inactive.md) method calls this m
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

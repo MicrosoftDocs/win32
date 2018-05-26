@@ -1,7 +1,12 @@
 ---
 title: Building a Troubleshooting Pack
-ms.assetid: '3e9aea9b-9ed7-41fe-8be9-9afd0f37756f'
+ms.assetid: 3e9aea9b-9ed7-41fe-8be9-9afd0f37756f
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building a Troubleshooting Pack

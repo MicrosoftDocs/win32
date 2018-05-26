@@ -1,7 +1,12 @@
 ---
-Description: 'C++ example shows how to display all paths for each volume and device. For each volume in the system, the example locates the volume, obtains the device name, obtains all paths for that volume, and displays the paths.'
-ms.assetid: 'a9ee8cc8-fa62-4fc9-aa69-35ee98afe417'
+Description: C++ example shows how to display all paths for each volume and device. For each volume in the system, the example locates the volume, obtains the device name, obtains all paths for that volume, and displays the paths.
+ms.assetid: a9ee8cc8-fa62-4fc9-aa69-35ee98afe417
 title: Displaying Volume Paths
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying Volume Paths
@@ -190,19 +195,19 @@ Paths:  D:\
 
 <dl> <dt>
 
-[**FindFirstVolume**](findfirstvolume.md)
+[**FindFirstVolume**](/windows/win32/FileAPI/nf-fileapi-findfirstvolumew?branch=master)
 </dt> <dt>
 
-[**FindNextVolume**](findnextvolume.md)
+[**FindNextVolume**](/windows/win32/FileAPI/nf-fileapi-findnextvolumew?branch=master)
 </dt> <dt>
 
-[**FindVolumeClose**](findvolumeclose.md)
+[**FindVolumeClose**](/windows/win32/FileAPI/nf-fileapi-findvolumeclose?branch=master)
 </dt> <dt>
 
-[**GetVolumePathNamesForVolumeName**](getvolumepathnamesforvolumename.md)
+[**GetVolumePathNamesForVolumeName**](/windows/win32/FileAPI/nf-fileapi-getvolumepathnamesforvolumenamew?branch=master)
 </dt> <dt>
 
-[**QueryDosDevice**](querydosdevice.md)
+[**QueryDosDevice**](/windows/win32/FileAPI/nf-fileapi-querydosdevicew?branch=master)
 </dt> </dl>
 
  

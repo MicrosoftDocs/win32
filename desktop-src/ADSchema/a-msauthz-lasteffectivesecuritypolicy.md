@@ -4,17 +4,22 @@ description: For a central access rule, this attribute defines the permission th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bf3aed36-61ff-426d-848e-8993e784bd9f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bf3aed36-61ff-426d-848e-8993e784bd9f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Authz-Last-Effective-Security-Policy attribute AD Schema", "msAuthz-LastEffectiveSecurityPolicy attribute AD Schema"]
+keywords:
+- ms-Authz-Last-Effective-Security-Policy attribute AD Schema
+- msAuthz-LastEffectiveSecurityPolicy attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Authz-Last-Effective-Security-Policy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Authz-Last-Effective-Security-Policy attribute
@@ -38,7 +43,7 @@ For a central access rule, this attribute defines the permission that was last a
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For a central access rule, this attribute defines the permission that was last a
 
 
 
- 
+ 
 
- 
+ 
 
 
 

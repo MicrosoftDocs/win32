@@ -1,7 +1,12 @@
 ---
-Description: 'Generic Winsock multipoint functions support IP multicast.'
-ms.assetid: '474a1c7f-0ece-4192-a2d9-6e2f3df2ac02'
+Description: Generic Winsock multipoint functions support IP multicast.
+ms.assetid: 474a1c7f-0ece-4192-a2d9-6e2f3df2ac02
 title: Multicast
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multicast

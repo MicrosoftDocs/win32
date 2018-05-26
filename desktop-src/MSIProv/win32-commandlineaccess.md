@@ -1,8 +1,10 @@
 ---
 title: Win32\_CommandLineAccess class
 description: The Win32\_CommandLineAccess WMI class represents the command line interface to a service or application.
-ms.assetid: '788788a9-78d5-468e-8c89-80d6df63b096'
-keywords: ["Win32_CommandLineAccess class", "Win32_CommandLineAccess class, described"]
+ms.assetid: 788788a9-78d5-468e-8c89-80d6df63b096
+keywords:
+- Win32_CommandLineAccess class
+- Win32_CommandLineAccess class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_CommandLineAccess class
@@ -30,7 +37,7 @@ The **Win32\_CommandLineAccess** [WMI class](https://msdn.microsoft.com/library/
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -40,16 +47,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_CommandLineAccess : CIM_ServiceAccessPoint
 {
-  string   Caption;
-  string   CommandLine;
-  string   CreationClassName;
-  string   Description;
+  string   Caption;
+  string   CommandLine;
+  string   CreationClassName;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint32   Type;
+  string   Name;
+  string   Status;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint32   Type;
 };
 ```
 
@@ -74,7 +81,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Short textual description of the object—a one-line string.
+Short textual description of the object a one-line string.
 
 </dd> <dt>
 
@@ -219,7 +226,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-**Windows Server 2003 and Windows XP:** Type of service access point (SAP).
+**Windows Server 2003 and Windows XP:** Type of service access point (SAP).
 
 Values are the following:
 
@@ -235,7 +242,7 @@ Values are the following:
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -249,8 +256,8 @@ The **Win32\_CommandLineAccess** class is derived from [**CIM\_ServiceAccessPoin
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -264,9 +271,9 @@ The **Win32\_CommandLineAccess** class is derived from [**CIM\_ServiceAccessPoin
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

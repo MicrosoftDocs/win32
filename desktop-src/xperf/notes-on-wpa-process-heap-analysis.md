@@ -1,7 +1,12 @@
 ---
 title: Notes on WPA Process Heap Analysis
 description: Notes on WPA Process Heap Analysis
-ms.assetid: '64ed2b5b-153f-4cf9-97f4-dd0dd18dbcef'
+ms.assetid: 64ed2b5b-153f-4cf9-97f4-dd0dd18dbcef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Notes on WPA Process Heap Analysis

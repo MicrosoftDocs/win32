@@ -1,8 +1,11 @@
 ---
 title: IWMDRMEncryptScatter InitEncryptScatter method
 description: The InitEncryptScatter method initializes the IWMDRMEncryptScatter interface for use.
-ms.assetid: 'c5f2fa14-9465-4c53-bc42-ffcec34af083'
-keywords: ["InitEncryptScatter method windows Media Format", "InitEncryptScatter method windows Media Format , IWMDRMEncryptScatter interface", "IWMDRMEncryptScatter interface windows Media Format , InitEncryptScatter method"]
+ms.assetid: c5f2fa14-9465-4c53-bc42-ffcec34af083
+keywords:
+- InitEncryptScatter method windows Media Format
+- InitEncryptScatter method windows Media Format , IWMDRMEncryptScatter interface
+- IWMDRMEncryptScatter interface windows Media Format , InitEncryptScatter method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMEncryptScatter::InitEncryptScatter method
@@ -22,8 +30,8 @@ The **InitEncryptScatter** method initializes the **IWMDRMEncryptScatter** inter
 
 ```C++
 HRESULT InitEncryptScatter(
-  [in] DWORD                      cStreams,
-  [in] WMDRM_ENCRYPT_SCATTER_INFO *rgInfos
+  [in] DWORD                      cStreams,
+  [in] WMDRM_ENCRYPT_SCATTER_INFO *rgInfos
 );
 ```
 
@@ -59,7 +67,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,9 +93,9 @@ None.
 [**IWMDRMEncryptScatter Interface**](iwmdrmencryptscatter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

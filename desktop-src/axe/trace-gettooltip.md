@@ -1,8 +1,11 @@
 ---
 title: Trace GetTooltip method
 description: Returns the tooltip of the Trace.
-ms.assetid: '41829876-6826-43F4-962F-EF6A3830A9CB'
-keywords: ["GetTooltip method Access Execution Engine", "GetTooltip method Access Execution Engine , Trace interface", "Trace interface Access Execution Engine , GetTooltip method"]
+ms.assetid: 41829876-6826-43F4-962F-EF6A3830A9CB
+keywords:
+- GetTooltip method Access Execution Engine
+- GetTooltip method Access Execution Engine , Trace interface
+- Trace interface Access Execution Engine , GetTooltip method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trace::GetTooltip method
@@ -22,7 +30,7 @@ Returns the tooltip of the **Trace**.
 
 ```C++
 virtual HRESULT GetTooltip(
-  [out] LPCWSTR *tooltip
+  [out] LPCWSTR *tooltip
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The tooltip is the value of element **Trace/Description/ToolTip**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The tooltip is the value of element **Trace/Description/ToolTip**.
 [**Trace**](trace-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

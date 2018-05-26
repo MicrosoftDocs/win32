@@ -1,7 +1,12 @@
 ---
 title: Formatting Considerations
 description: Formatting Considerations
-ms.assetid: '411cd149-1251-4a1d-b19a-a4a124ee8285'
+ms.assetid: 411cd149-1251-4a1d-b19a-a4a124ee8285
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Formatting Considerations

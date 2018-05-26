@@ -1,7 +1,12 @@
 ---
-Description: 'A locale name is based on the language tagging conventions of RFC 4646 (Windows Vista and later), and is represented by LOCALE\_SNAME.'
-ms.assetid: '221aae7b-3a7c-4995-ae78-50d97de436d8'
+Description: A locale name is based on the language tagging conventions of RFC 4646 (Windows Vista and later), and is represented by LOCALE\_SNAME.
+ms.assetid: 221aae7b-3a7c-4995-ae78-50d97de436d8
 title: Locale Names
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Locale Names
@@ -21,7 +26,7 @@ Sort orders for locales are designated using [sort order identifiers](sort-order
 
 For a [replacement locale](custom-locales.md), the locale name must be the same as the name for the locale being replaced. For a supplemental locale, the locale name should follow the pattern of &lt;language&gt;-&lt;REGION&gt;-x-&lt;custom&gt; or &lt;language&gt;-&lt;Script&gt;-&lt;REGION&gt;-x-&lt;custom&gt;, where &lt;custom&gt; is an alphanumeric string specific to the supplemental locale. For example, a supplemental locale specific to a company called Fabricam might be called "en-US-x-fabricam".
 
-An application can retrieve the current locale names by using the [**GetSystemDefaultLocaleName**](getsystemdefaultlocalename.md) and [**GetUserDefaultLocaleName**](getuserdefaultlocalename.md) functions. While each thread can retrieve and set its own locale identifier with [**GetThreadLocale**](getthreadlocale.md) and set it with [**SetThreadLocale**](setthreadlocale.md), there are no analogous functions to get and set locale by name.
+An application can retrieve the current locale names by using the [**GetSystemDefaultLocaleName**](/windows/win32/Winnls/nf-winnls-getsystemdefaultlocalename?branch=master) and [**GetUserDefaultLocaleName**](/windows/win32/Winnls/nf-winnls-getuserdefaultlocalename?branch=master) functions. While each thread can retrieve and set its own locale identifier with [**GetThreadLocale**](/windows/win32/Winnls/nf-winnls-getthreadlocale?branch=master) and set it with [**SetThreadLocale**](/windows/win32/Winnls/nf-winnls-setthreadlocale?branch=master), there are no analogous functions to get and set locale by name.
 
 ## Related topics
 

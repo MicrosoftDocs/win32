@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets statistics from the Digital Living Network Alliance (DLNA) media sink.'
-ms.assetid: '1fa6ea9f-fd30-4fa2-a0e6-1647273bcc35'
-title: 'MF\_MP2DLNA\_STATISTICS attribute'
+---
+Description: Gets statistics from the Digital Living Network Alliance (DLNA) media sink.
+ms.assetid: 1fa6ea9f-fd30-4fa2-a0e6-1647273bcc35
+title: MF\_MP2DLNA\_STATISTICS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MP2DLNA\_STATISTICS attribute
@@ -10,11 +15,11 @@ Gets statistics from the Digital Living Network Alliance (DLNA) media sink.
 
 ## Data type
 
-**[**MFMPEG2DLNASINKSTATS**](mfmpeg2dlnasinkstats.md)** stored as **BYTE\[\]**
+**[**MFMPEG2DLNASINKSTATS**](/windows/win32/mfmp2dlna/ns-mfmp2dlna-_mfmpeg2dlnasinkstats?branch=master)** stored as **BYTE\[\]**
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetBlob**](imfattributes-getblob.md).
+To get this attribute, call [**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master).
 
 ## Remarks
 

@@ -1,7 +1,12 @@
-﻿---
+---
 Description: CertMgr
-ms.assetid: 'c9b68a81-c4f7-4754-9b47-c83f3679f0e3'
+ms.assetid: c9b68a81-c4f7-4754-9b47-c83f3679f0e3
 title: CertMgr
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertMgr
@@ -45,7 +50,7 @@ The following options apply to all CertMgr functions except where noted.
 | **-e** *encodingType*      | all                                         | Certificate [*encoding type*](security.e_gly#-security-encoding-type-gly).                                                                                                                                             |
 | **-y** *storeProviderType* | all                                         | Store provider type.                                                                                                                                                                                                                               |
 | **-7**                     | **-add-del**<br/> **-put**<br/> | Saves the destination store as a PKCS \#7 file.                                                                                                                                                                                                    |
-| **-f** *dwFlags*           | all                                         | Store open flag. This is the *dwFlags* parameter passed to [**CertOpenStore**](certopenstore.md). The default value is CERT\_SYSTEM\_STORE\_CURRENT\_USER. Meaningful only if **-y** is set. For more information, see **CertOpenStore**.         |
+| **-f** *dwFlags*           | all                                         | Store open flag. This is the *dwFlags* parameter passed to [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master). The default value is CERT\_SYSTEM\_STORE\_CURRENT\_USER. Meaningful only if **-y** is set. For more information, see **CertOpenStore**.         |
 | **-n** *commonNameString*  | **-add-del**<br/> **-put**<br/> | Common name of the certificate. Can be used only with certificates.                                                                                                                                                                                |
 | **-sha1** *sha1Hash*       | **-add-del**<br/> **-put**<br/> | SHA1 hash of the certificate, CTL, or CRL to be copied, deleted, or saved.                                                                                                                                                                         |
 | **-s**                     | all                                         | Indicates that the store is a system store.                                                                                                                                                                                                        |

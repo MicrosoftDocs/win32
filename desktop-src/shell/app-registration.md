@@ -1,7 +1,12 @@
 ---
-Description: 'This topic discusses how applications can expose information about themselves necessary to enable certain scenarios.'
-ms.assetid: 'F88AA3E6-6F7B-442d-935A-7D2CB4958E6B'
+Description: This topic discusses how applications can expose information about themselves necessary to enable certain scenarios.
+ms.assetid: F88AA3E6-6F7B-442d-935A-7D2CB4958E6B
 title: Application Registration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Registration
@@ -21,11 +26,11 @@ This topic is organized as follows:
 > [!Note]  
 > Applications can also be registered in the Set Program Access and Computer Defaults (SPAD) and Set Your Default Programs (SYDP) control panel applications. For information about SPAD and SYDP application registration, see [Guidelines for File Associations and Default Programs](appguide-fa-defpro.md), and [Set Program Access and Computer Defaults (SPAD)](cpl-setprogramaccess.md).
 
- 
+ 
 
 ## Finding an Application Executable
 
-When the [**ShellExecuteEx**](shellexecuteex.md) function is called with the name of an executable file in its *lpFile* parameter, there are several places where the function looks for the file. We recommend registering your application in the **App Paths** registry subkey. Doing so avoids the need for applications to modify the system PATH environment variable.
+When the [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) function is called with the name of an executable file in its *lpFile* parameter, there are several places where the function looks for the file. We recommend registering your application in the **App Paths** registry subkey. Doing so avoids the need for applications to modify the system PATH environment variable.
 
 The file is sought in the following locations:
 
@@ -41,7 +46,7 @@ Both the **App Paths** and **Applications** registry subkeys are used to registe
 
 ### Using the App Paths Subkey
 
-In Windows 7 and later, we strongly recommend you install applications per user rather than per machine. An application that is installed for per user can be registered under **HKEY\_CURRENT\_USER**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**App Paths**. An application that is installed for all users of the computer can be registered under **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**App Paths**.
+In Windows 7 and later, we strongly recommend you install applications per user rather than per machine. An application that is installed for per user can be registered under **HKEY\_CURRENT\_USER**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**App Paths**. An application that is installed for all users of the computer can be registered under **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**App Paths**.
 
 The entries found under **App Paths** are used primarily for the following purposes:
 
@@ -58,7 +63,7 @@ Potential issues to be aware of include:
 -   The Shell limits the length of a command line to MAX\_PATH \* 2 characters. If there are many files listed as registry entries or their paths are long, file names later in the list could be lost as the command line is truncated.
 -   Some applications do not accept multiple file names in a command line.
 -   Some applications that accept multiple file names do not recognize the format in which the Shell provides them. The Shell provides the parameter list as a quoted string, but some applications might require strings without quotes.
--   Not all items that can be dragged are part of the file system; for example, printers. These items do not have a standard Win32 path, so there is no way to provide a meaningful *lpParameters* value to [**ShellExecuteEx**](shellexecuteex.md).
+-   Not all items that can be dragged are part of the file system; for example, printers. These items do not have a standard Win32 path, so there is no way to provide a meaningful *lpParameters* value to [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master).
 
 Using the DropTarget entry avoids these potential issues by providing access to all of the clipboard formats, including [CFSTR\_SHELLIDLIST](clipboard.md) (for long file lists) and [CFSTR\_FILECONTENTS](clipboard.md) (for non-file-system objects).
 
@@ -68,17 +73,17 @@ Using the DropTarget entry avoids these potential issues by providing access to 
 
     ```
     HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER
-       SOFTWARE
-          Microsoft
-             Windows
-                CurrentVersion
-                   App Paths
-                      file.exe
-                         (Default)
-                         DontUseDesktopChangeRouter
-                         DropTarget
-                         Path
-                         UseUrl
+       SOFTWARE
+          Microsoft
+             Windows
+                CurrentVersion
+                   App Paths
+                      file.exe
+                         (Default)
+                         DontUseDesktopChangeRouter
+                         DropTarget
+                         Path
+                         UseUrl
     ```
 
 2.  See the following table for details of the **App Paths** subkey entries. 
@@ -97,7 +102,7 @@ Using the DropTarget entry avoids these potential issues by providing access to 
     <tbody>
     <tr class="odd">
     <td>(Default)</td>
-    <td>Is the fully qualified path to the application. The application name provided in the (Default) entry can be stated with or without its .exe extension. If necessary, the [<strong>ShellExecuteEx</strong>](shellexecuteex.md) function adds the extension when searching <strong>App Paths</strong> subkey. The entry is of the <strong>REG_SZ</strong> type.</td>
+    <td>Is the fully qualified path to the application. The application name provided in the (Default) entry can be stated with or without its .exe extension. If necessary, the [<strong>ShellExecuteEx</strong>](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) function adds the extension when searching <strong>App Paths</strong> subkey. The entry is of the <strong>REG_SZ</strong> type.</td>
     </tr>
     <tr class="even">
     <td>DontUseDesktopChangeRouter</td>
@@ -105,11 +110,11 @@ Using the DropTarget entry avoids these potential issues by providing access to 
     </tr>
     <tr class="odd">
     <td>DropTarget</td>
-    <td>Is a class identifier (CLSID). The DropTarget entry contains the CLSID of an object (usually a local server rather than an in-process server) that implements [<strong>IDropTarget</strong>](https://msdn.microsoft.com/library/windows/desktop/ms679679). By default, when the drop target is an executable file, and no DropTarget value is provided, the Shell converts the list of dropped files into a command-line parameter and passes it to [<strong>ShellExecuteEx</strong>](shellexecuteex.md) through <em>lpParameters</em>.</td>
+    <td>Is a class identifier (CLSID). The DropTarget entry contains the CLSID of an object (usually a local server rather than an in-process server) that implements [<strong>IDropTarget</strong>](https://msdn.microsoft.com/library/windows/desktop/ms679679). By default, when the drop target is an executable file, and no DropTarget value is provided, the Shell converts the list of dropped files into a command-line parameter and passes it to [<strong>ShellExecuteEx</strong>](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) through <em>lpParameters</em>.</td>
     </tr>
     <tr class="even">
     <td>Path</td>
-    <td>Supplies a string (in the form of a semicolon-separated list of directories) to append to the PATH environment variable when an application is launched by calling [<strong>ShellExecuteEx</strong>](shellexecuteex.md). It is the fully qualified path to the .exe. It is of <strong>REG_SZ</strong>. In <strong>Windows 7 and later</strong>, the type can be <strong>REG_EXPAND_SZ</strong>, and is commonly <strong>REG_EXPAND_SZ</strong> %ProgramFiles%.
+    <td>Supplies a string (in the form of a semicolon-separated list of directories) to append to the PATH environment variable when an application is launched by calling [<strong>ShellExecuteEx</strong>](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master). It is the fully qualified path to the .exe. It is of <strong>REG_SZ</strong>. In <strong>Windows 7 and later</strong>, the type can be <strong>REG_EXPAND_SZ</strong>, and is commonly <strong>REG_EXPAND_SZ</strong> %ProgramFiles%.
     <blockquote>
     [!Note]<br />
     In addition to the (Default), Path, and DropTarget entries recognized by the Shell, an application can also add custom values to its executable file's <strong>App Paths</strong> subkey. We encourage application developers to use the <strong>App Paths</strong> subkey to provide an application-specific path instead of making additions to the global system path.
@@ -122,14 +127,14 @@ Using the DropTarget entry avoids these potential issues by providing access to 
     </tr>
     <tr class="even">
     <td>UseUrl</td>
-    <td>Indicates that your application can accept a URL (instead of a file name) on the command line. Applications that can open documents directly from the internet, like web browsers and media players, should set this entry. <br/> When the [<strong>ShellExecuteEx</strong>](shellexecuteex.md) function starts an application and the UseUrl=1 value is not set, <strong>ShellExecuteEx</strong> downloads the document to a local file and invokes the handler on the local copy.<br/> For example, if the application has this entry set and a user right-clicks on a file stored on a web server, the Open verb will be made available. If not, the user will have to download the file and open the local copy. <br/> The UseUrl entry is of <strong>REG_DWORD</strong> type, and the value is 0x1.<br/> In Windows Vista and earlier, this entry indicated that the URL should be passed to the application along with a local file name, when called via ShellExecuteEx. In Windows 7, it indicates that the application can understand any http or https url that is passed to it, without having to supply the cache file name as well. This registry key is associated with the <em>SupportedProtocols</em> key.<br/></td>
+    <td>Indicates that your application can accept a URL (instead of a file name) on the command line. Applications that can open documents directly from the internet, like web browsers and media players, should set this entry. <br/> When the [<strong>ShellExecuteEx</strong>](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) function starts an application and the UseUrl=1 value is not set, <strong>ShellExecuteEx</strong> downloads the document to a local file and invokes the handler on the local copy.<br/> For example, if the application has this entry set and a user right-clicks on a file stored on a web server, the Open verb will be made available. If not, the user will have to download the file and open the local copy. <br/> The UseUrl entry is of <strong>REG_DWORD</strong> type, and the value is 0x1.<br/> In Windows Vista and earlier, this entry indicated that the URL should be passed to the application along with a local file name, when called via ShellExecuteEx. In Windows 7, it indicates that the application can understand any http or https url that is passed to it, without having to supply the cache file name as well. This registry key is associated with the <em>SupportedProtocols</em> key.<br/></td>
     </tr>
     </tbody>
     </table>
 
     
 
-     
+     
 
 ### Using the Applications Subkey
 
@@ -141,7 +146,7 @@ Through the inclusion of registry entries under the **HKEY\_CLASSES\_ROOT**\\**A
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | shell\\verb                      | Provides the verb method for calling the application from OpenWith. Without a verb definition specified here, the system assumes that the application supports [**CreateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms682425), and passes the file name on the command line. This functionality applies to all the verb methods, including DropTarget, ExecuteCommand, and Dynamic Data Exchange (DDE).                                                                                                                                                                                                                                                                                                                            |
 | DefaultIcon                      | Enables an application to provide a specific icon to represent the application instead of the first icon stored in the .exe file.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| FriendlyAppName                  | Provides a way to get a localizable name to display for an application instead of just the version information appearing, which may not be localizable. The association query [**ASSOCSTR**](assocstr-str.md) reads this registry entry value and falls back to use the FileDescription name in the version information. If that name is missing, the association query defaults to the display name of the file. Applications should use **ASSOCSTR\_FRIENDLYAPPNAME** to retrieve this information to obtain the proper behavior.                                                                                                                                                                        |
+| FriendlyAppName                  | Provides a way to get a localizable name to display for an application instead of just the version information appearing, which may not be localizable. The association query [**ASSOCSTR**](/windows/win32/Shlwapi/ne-shlwapi-assocstr?branch=master) reads this registry entry value and falls back to use the FileDescription name in the version information. If that name is missing, the association query defaults to the display name of the file. Applications should use **ASSOCSTR\_FRIENDLYAPPNAME** to retrieve this information to obtain the proper behavior.                                                                                                                                                                        |
 | SupportedTypes                   | Lists the file types that the application supports. Doing so enables the application to be listed in the cascade menu of the **Open with** dialog box.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | NoOpenWith                       | Indicates that no application is specified for opening this file type. Be aware that if an OpenWithProgIDs subkey has been set for an application by file type, and the ProgID subkey itself does not also have a NoOpenWith entry, that application will appear in the list of recommended or available applications even if it has specified the NoOpenWith entry. For more information, see [How to How to Include an Application in the Open With Dialog Box](how-to-include-an-application-on-the-open-with-dialog-box.md) and [How to exclude an Application from the Open with Dialog Box](how-to-exclude-an-application-from-the-open-with-dialog-box-for-unassociated-file-types.md).<br/> |
 | IsHostApp                        | Indicates that the process is a host process, such as Rundll32.exe or Dllhost.exe, and should not be considered for **Start** menu pinning or inclusion in the Most Frequently Used (MFU) list. When launched with a shortcut that contains a non-null argument list or an explicit [Application User Model IDs (AppUserModelIDs)](appids.md), the process can be pinned (as that shortcut). Such shortcuts are candidates for inclusion in the MFU list.                                                                                                                                                                                                                                                  |
@@ -151,7 +156,7 @@ Through the inclusion of registry entries under the **HKEY\_CLASSES\_ROOT**\\**A
 
 
 
- 
+ 
 
 ### Examples
 
@@ -159,63 +164,63 @@ Some examples of application registrations through the **HKEY\_CLASSES\_ROOT**\\
 
 ```
 HKEY_CLASSES_ROOT
-   Applications
-      wordpad.exe
-         FriendlyAppName = @%SystemRoot%\System32\shell32.dll,-22069
+   Applications
+      wordpad.exe
+         FriendlyAppName = @%SystemRoot%\System32\shell32.dll,-22069
 ```
 
 ```
 HKEY_CLASSES_ROOT
-   Applications
-      wmplayer.exe
-         SupportedTypes
-            .3gp2
+   Applications
+      wmplayer.exe
+         SupportedTypes
+            .3gp2
 ```
 
 ```
 HKEY_CLASSES_ROOT
-   Applications
-      wmplayer.exe
-         DefaultIcon
-            (Default) = %SystemRoot%\system32\wmploc.dll,-730
+   Applications
+      wmplayer.exe
+         DefaultIcon
+            (Default) = %SystemRoot%\system32\wmploc.dll,-730
 ```
 
 ```
 HKEY_CLASSES_ROOT
-   Applications
-      WScript.exe
-         NoOpenWith
+   Applications
+      WScript.exe
+         NoOpenWith
 ```
 
 ```
 HKEY_CLASSES_ROOT
-   Applications
-      photoviewer.dll
-         shell
-            open
-               DropTarget
-                  Clsid = {FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}
+   Applications
+      photoviewer.dll
+         shell
+            open
+               DropTarget
+                  Clsid = {FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}
 ```
 
 ```
 HKEY_CLASSES_ROOT
-   Applications
-      mspaint.exe
-         SupportedTypes
-            .bmp
-            .dib
-            .rle
-            .jpg
-            .jpeg
-            .jpe
-            .jfif
-            .gif
-            .emf
-            .wmf
-            .tif
-            .tiff
-            .png
-            .ico
+   Applications
+      mspaint.exe
+         SupportedTypes
+            .bmp
+            .dib
+            .rle
+            .jpg
+            .jpeg
+            .jpe
+            .jfif
+            .gif
+            .emf
+            .wmf
+            .tif
+            .tiff
+            .png
+            .ico
 ```
 
 ## Registering Verbs and Other File Association Information
@@ -228,22 +233,22 @@ The following registry example shows what happens when the user runs the **Defau
 
 ```
 HKEY_CLASSES_ROOT
-   .mp3
-      (Default) = App1ProgID
+   .mp3
+      (Default) = App1ProgID
 ```
 
 ```
 HKEY_CLASSES_ROOT
-   App1ProgID
-      shell
-         Verb1
+   App1ProgID
+      shell
+         Verb1
 ```
 
 ```
 HKEY_CLASSES_ROOT
-   App2ProgID
-      shell
-         Verb2
+   App2ProgID
+      shell
+         Verb2
 ```
 
 ## Registering a Perceived Type
@@ -252,23 +257,23 @@ Registry values for perceived types are defined as subkeys of the **HKEY\_CLASSE
 
 ```
 HKEY_CLASSES_ROOT
-   SystemFileAssociations
-      text
-         shell
-            edit
-               command
-                  (Default) = "%SystemRoot%\system32\NOTEPAD.EXE" "%1"
-            open
-               command
-                  (Default) = "%SystemRoot%\system32\NOTEPAD.EXE" "%1"
+   SystemFileAssociations
+      text
+         shell
+            edit
+               command
+                  (Default) = "%SystemRoot%\system32\NOTEPAD.EXE" "%1"
+            open
+               command
+                  (Default) = "%SystemRoot%\system32\NOTEPAD.EXE" "%1"
 ```
 
 A file type's perceived type is indicated by including a PerceivedType value in the file type's subkey. The PerceivedType value is set to the name of the perceived type registered under **HKEY\_CLASSES\_ROOT**\\**SystemFileAssociations** registry subkey, as shown in the previous registry example. To declare .cpp files as being of perceived type "text", for example, add the following registry entry:
 
 ```
 HKEY_CLASSES_ROOT
-   .cpp
-      PerceivedType = text
+   .cpp
+      PerceivedType = text
 ```
 
 ## Related topics
@@ -299,9 +304,9 @@ HKEY_CLASSES_ROOT
 [Association Arrays](fa-associationarray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

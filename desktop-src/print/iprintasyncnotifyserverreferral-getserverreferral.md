@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '58DD0DA5-CE6A-4C2F-AF7D-B35BCBFB6AFB'
-title: 'IPrintAsyncNotifyServerReferral::GetServerReferral method'
+---
+Description: .
+ms.assetid: 58DD0DA5-CE6A-4C2F-AF7D-B35BCBFB6AFB
+title: IPrintAsyncNotifyServerReferralGetServerReferral method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintAsyncNotifyServerReferral::GetServerReferral method

@@ -1,7 +1,12 @@
 ---
-Description: 'The enhanced video renderer (EVR) is a component that displays video on the user's monitor.'
-ms.assetid: '1c985558-d25d-4f51-978a-58c05943dab9'
+Description: The enhanced video renderer (EVR) is a component that displays video on the users monitor.
+ms.assetid: 1c985558-d25d-4f51-978a-58c05943dab9
 title: Enhanced Video Renderer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enhanced Video Renderer
@@ -36,22 +41,22 @@ The EVR supports the following interfaces. Some of these interfaces are implemen
 
 | Interface                                                    | Description                                                                                       |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [**IEVRFilterConfig**](ievrfilterconfig.md)                 | Sets the number of input pins on the EVR filter (DirectShow only).                                |
-| [**IEVRFilterConfigEx**](ievrfilterconfigex.md)             | Configures the EVR filter (DirectShow only).                                                      |
-| [**IEVRTrustedVideoPlugin**](ievrtrustedvideoplugin.md)     | Enables an EVR plug-in to render protected video.                                                 |
-| [**IMFDesiredSample**](imfdesiredsample.md)                 | Enables the EVR presenter to request a specific frame from the mixer.                             |
-| [**IMFQualityAdvise**](imfqualityadvise.md)                 | Enables the quality manager to adjust the EVR video quality.                                      |
-| [**IMFTopologyServiceLookup**](imftopologyservicelookup.md) | Enables a custom mixer or presenter to get interface pointers from the EVR.                       |
-| [**IMFVideoDeviceID**](imfvideodeviceid.md)                 | Returns the device identifier of an EVR mixer or presenter.                                       |
-| [**IMFVideoDisplayControl**](imfvideodisplaycontrol.md)     | Controls how the EVR displays video.                                                              |
-| [**IMFVideoMixerBitmap**](imfvideomixerbitmap.md)           | Alpha-blends a static bitmap image with the video.                                                |
-| [**IMFVideoMixerControl**](imfvideomixercontrol.md)         | Controls how the Enhanced Video Renderer (EVR) mixes video substreams.                            |
-| [**IMFVideoMixerControl2**](imfvideomixercontrol2.md)       | Controls preferences for video deinterlacing.                                                     |
-| [**IMFVideoPositionMapper**](imfvideopositionmapper.md)     | Maps a position on an input video stream to the corresponding position on an output video stream. |
-| [**IMFVideoPresenter**](imfvideopresenter.md)               | Exposed by the EVR presenter.                                                                     |
-| [**IMFVideoProcessor**](imfvideoprocessor.md)               | Controls video processing, including adjustment, noise filters, and detail filters.               |
-| [**IMFVideoRenderer**](imfvideorenderer.md)                 | Sets a mixer or presenter on the EVR.                                                             |
-| [**IMFVideoSampleAllocator**](imfvideosampleallocator.md)   | Allocates video samples.                                                                          |
+| [**IEVRFilterConfig**](/windows/win32/evr/nn-evr-ievrfilterconfig?branch=master)                 | Sets the number of input pins on the EVR filter (DirectShow only).                                |
+| [**IEVRFilterConfigEx**](/windows/win32/evr/nn-evr-ievrfilterconfigex?branch=master)             | Configures the EVR filter (DirectShow only).                                                      |
+| [**IEVRTrustedVideoPlugin**](/windows/win32/evr/nn-evr-ievrtrustedvideoplugin?branch=master)     | Enables an EVR plug-in to render protected video.                                                 |
+| [**IMFDesiredSample**](/windows/win32/evr/nn-evr-imfdesiredsample?branch=master)                 | Enables the EVR presenter to request a specific frame from the mixer.                             |
+| [**IMFQualityAdvise**](/windows/win32/mfidl/nn-mfidl-imfqualityadvise?branch=master)                 | Enables the quality manager to adjust the EVR video quality.                                      |
+| [**IMFTopologyServiceLookup**](/windows/win32/evr/nn-evr-imftopologyservicelookup?branch=master) | Enables a custom mixer or presenter to get interface pointers from the EVR.                       |
+| [**IMFVideoDeviceID**](/windows/win32/evr/nn-evr-imfvideodeviceid?branch=master)                 | Returns the device identifier of an EVR mixer or presenter.                                       |
+| [**IMFVideoDisplayControl**](/windows/win32/evr/nn-evr-imfvideodisplaycontrol?branch=master)     | Controls how the EVR displays video.                                                              |
+| [**IMFVideoMixerBitmap**](/windows/win32/evr9/nn-evr9-imfvideomixerbitmap?branch=master)           | Alpha-blends a static bitmap image with the video.                                                |
+| [**IMFVideoMixerControl**](/windows/win32/evr/nn-evr-imfvideomixercontrol?branch=master)         | Controls how the Enhanced Video Renderer (EVR) mixes video substreams.                            |
+| [**IMFVideoMixerControl2**](/windows/win32/evr/nn-evr-imfvideomixercontrol2?branch=master)       | Controls preferences for video deinterlacing.                                                     |
+| [**IMFVideoPositionMapper**](/windows/win32/evr/nn-evr-imfvideopositionmapper?branch=master)     | Maps a position on an input video stream to the corresponding position on an output video stream. |
+| [**IMFVideoPresenter**](/windows/win32/evr/nn-evr-imfvideopresenter?branch=master)               | Exposed by the EVR presenter.                                                                     |
+| [**IMFVideoProcessor**](/windows/win32/evr9/nn-evr9-imfvideoprocessor?branch=master)               | Controls video processing, including adjustment, noise filters, and detail filters.               |
+| [**IMFVideoRenderer**](/windows/win32/evr/nn-evr-imfvideorenderer?branch=master)                 | Sets a mixer or presenter on the EVR.                                                             |
+| [**IMFVideoSampleAllocator**](/windows/win32/mfidl/nn-mfidl-imfvideosampleallocator?branch=master)   | Allocates video samples.                                                                          |
 
 
 

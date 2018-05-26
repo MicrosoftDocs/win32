@@ -1,14 +1,20 @@
 ---
 title: chapterNum Attribute
 description: The chapterNum attribute is the DVD chapter number.
-ms.assetid: '0938a553-a368-4155-963d-174d8ef1d1cd'
-keywords: ["chapterNum Attribute Windows Media Player"]
+ms.assetid: 0938a553-a368-4155-963d-174d8ef1d1cd
+keywords:
+- chapterNum Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - chapterNum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # chapterNum Attribute
@@ -40,9 +46,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

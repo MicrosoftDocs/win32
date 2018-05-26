@@ -1,8 +1,31 @@
 ---
 title: Closed Captioning
 description: Closed Captioning
-ms.assetid: 'a5d4d591-4b4d-49c5-b7da-01d7ee303ffd'
-keywords: ["Windows Media Player,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player object model,Synchronized Accessible Media Interchange (SAMI)", "object model,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player Mobile,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player Mobile ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player,migrating closed captions", "Windows Media Player object model,Smigrating closed captions", "object model,migrating closed captions", "Windows Media Player Mobile,migrating closed captions", "Windows Media Player ActiveX control,migrating closed captions", "Windows Media Player Mobile ActiveX control,migrating closed captions", "ActiveX control,migrating closed captions", "Synchronized Accessible Media Interchange (SAMI),migrating closed captions", "SAMI (Synchronized Accessible Media Interchange),migrating closed captions", "migration guide,Synchronized Accessible Media Interchange (SAMI)", "migration guide,closed captioning"]
+ms.assetid: a5d4d591-4b4d-49c5-b7da-01d7ee303ffd
+keywords:
+- Windows Media Player,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player object model,Synchronized Accessible Media Interchange (SAMI)
+- object model,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player Mobile,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player Mobile ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player,migrating closed captions
+- Windows Media Player object model,Smigrating closed captions
+- object model,migrating closed captions
+- Windows Media Player Mobile,migrating closed captions
+- Windows Media Player ActiveX control,migrating closed captions
+- Windows Media Player Mobile ActiveX control,migrating closed captions
+- ActiveX control,migrating closed captions
+- Synchronized Accessible Media Interchange (SAMI),migrating closed captions
+- SAMI (Synchronized Accessible Media Interchange),migrating closed captions
+- migration guide,Synchronized Accessible Media Interchange (SAMI)
+- migration guide,closed captioning
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Closed Captioning

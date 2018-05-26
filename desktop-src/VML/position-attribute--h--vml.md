@@ -1,7 +1,12 @@
 ---
 title: Position Attribute (H)(VML)
 description: Position Attribute (H)(VML)
-ms.assetid: '0bae708d-5409-4609-a102-7f799f2c1fbb'
+ms.assetid: 0bae708d-5409-4609-a102-7f799f2c1fbb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Position Attribute (H)(VML)

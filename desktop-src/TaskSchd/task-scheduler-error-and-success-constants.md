@@ -1,8 +1,9 @@
 ---
 title: Task Scheduler Error and Success Constants
 description: If an error occurs, the Task Scheduler APIs can return one of the following error codes as an HRESULT value.
-ms.assetid: '54278bbd-7dca-438e-a771-5fcb08c4aa68'
-keywords: ["Task Scheduler Task Scheduler , reference, error and success constants"]
+ms.assetid: 54278bbd-7dca-438e-a771-5fcb08c4aa68
+keywords:
+- Task Scheduler Task Scheduler , reference, error and success constants
 topic_type:
 - apiref
 api_name:
@@ -51,6 +52,11 @@ api_location:
 - WinError.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Scheduler Error and Success Constants
@@ -62,7 +68,7 @@ The constants that begin with SCHED\_S\_ are success constants, and the constant
 > [!Note]  
 > Some Task Scheduler APIs can return system and network error codes (64 for example). You can check the definition of these types of error codes by using the **net helpmsg** command in the command prompt window. For example, the command **net helpmsg 64** returns the message: The specified network name is no longer available.
 
- 
+ 
 
 For more information about events and error messages, see [Events and Errors Message Center](http://go.microsoft.com/fwlink/p/?linkid=69424).
 
@@ -310,7 +316,7 @@ Corruption was detected in the Task Scheduler security database; the database ha
 
 
 
-Task Scheduler security services are available only on Windows NT.
+Task Scheduler security services are available only on Windows NT.
 
 
 </dt> </dl> </dd> <dt>
@@ -607,15 +613,15 @@ The task settings do not allow the task to start on demand.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>WinError.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

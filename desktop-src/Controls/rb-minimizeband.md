@@ -1,8 +1,9 @@
 ---
 title: RB\_MINIMIZEBAND message
 description: Resizes a band in a rebar control to its smallest size.
-ms.assetid: '4962d90a-2a69-4490-9063-cc2be995df13'
-keywords: ["RB_MINIMIZEBAND message Windows Controls"]
+ms.assetid: 4962d90a-2a69-4490-9063-cc2be995df13
+keywords:
+- RB_MINIMIZEBAND message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_MINIMIZEBAND message
@@ -41,15 +47,15 @@ The return value is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

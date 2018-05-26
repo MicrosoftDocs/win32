@@ -1,8 +1,40 @@
 ---
 title: How to Configure Security Settings
 description: You will need to configure the security settings for Windows Image Acquisition (WIA) before you can successfully create a DeviceManager object on an Active Server Pages (ASP) page.
-ms.assetid: 'fc7b3413-cbb4-4b9b-9935-181ea890c413'
-keywords: ["Windows Image Acquisition (WIA),security settings", "WIA (Windows Image Acquisition),security settings", "Windows Image Acquisition Automation Layer,security settings", "WIA Automation Layer,security settings", "Image Acquisition Automation Layer,security settings", "Windows Image Acquisition (WIA),Microsoft Management Console (MMC)", "WIA (Windows Image Acquisition),Microsoft Management Console (MMC)", "Windows Image Acquisition Automation Layer,Microsoft Management Console (MMC)", "WIA Automation Layer,Microsoft Management Console (MMC)", "Image Acquisition Automation Layer,Microsoft Management Console (MMC)", "Windows Image Acquisition (WIA),Component Services snap-in", "WIA (Windows Image Acquisition),Component Services snap-in", "Windows Image Acquisition Automation Layer,Component Services snap-in", "WIA Automation Layer,Component Services snap-in", "Image Acquisition Automation Layer,Component Services snap-in", "Windows Image Acquisition (WIA),WIA Device Manager", "WIA (Windows Image Acquisition),WIA Device Manager", "Windows Image Acquisition Automation Layer,WIA Device Manager", "WIA Automation Layer,WIA Device Manager", "Image Acquisition Automation Layer,WIA Device Manager", "Windows Image Acquisition (WIA),WIA Logger", "WIA (Windows Image Acquisition),WIA Logger", "Windows Image Acquisition Automation Layer,WIA Logger", "WIA Automation Layer,WIA Logger", "Image Acquisition Automation Layer,WIA Logger", "WIA Device Manager", "WIA Logger"]
+ms.assetid: fc7b3413-cbb4-4b9b-9935-181ea890c413
+keywords:
+- Windows Image Acquisition (WIA),security settings
+- WIA (Windows Image Acquisition),security settings
+- Windows Image Acquisition Automation Layer,security settings
+- WIA Automation Layer,security settings
+- Image Acquisition Automation Layer,security settings
+- Windows Image Acquisition (WIA),Microsoft Management Console (MMC)
+- WIA (Windows Image Acquisition),Microsoft Management Console (MMC)
+- Windows Image Acquisition Automation Layer,Microsoft Management Console (MMC)
+- WIA Automation Layer,Microsoft Management Console (MMC)
+- Image Acquisition Automation Layer,Microsoft Management Console (MMC)
+- Windows Image Acquisition (WIA),Component Services snap-in
+- WIA (Windows Image Acquisition),Component Services snap-in
+- Windows Image Acquisition Automation Layer,Component Services snap-in
+- WIA Automation Layer,Component Services snap-in
+- Image Acquisition Automation Layer,Component Services snap-in
+- Windows Image Acquisition (WIA),WIA Device Manager
+- WIA (Windows Image Acquisition),WIA Device Manager
+- Windows Image Acquisition Automation Layer,WIA Device Manager
+- WIA Automation Layer,WIA Device Manager
+- Image Acquisition Automation Layer,WIA Device Manager
+- Windows Image Acquisition (WIA),WIA Logger
+- WIA (Windows Image Acquisition),WIA Logger
+- Windows Image Acquisition Automation Layer,WIA Logger
+- WIA Automation Layer,WIA Logger
+- Image Acquisition Automation Layer,WIA Logger
+- WIA Device Manager
+- WIA Logger
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Configure Security Settings

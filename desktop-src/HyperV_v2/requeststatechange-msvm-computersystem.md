@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the state of the virtual machine be changed to the specified value.'
-ms.assetid: '87BE4C7D-604B-4F8D-B4DC-89BD563E3999'
-title: 'RequestStateChange method of the Msvm\_ComputerSystem class'
+Description: Requests that the state of the virtual machine be changed to the specified value.
+ms.assetid: 87BE4C7D-604B-4F8D-B4DC-89BD563E3999
+title: RequestStateChange method of the Msvm\_ComputerSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the Msvm\_ComputerSystem class
@@ -15,9 +20,9 @@ While the state change is in progress, the **RequestedState** property is change
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -327,7 +332,7 @@ This method returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -340,7 +345,7 @@ The following C# example starts or disables a virtual machine. The referenced ut
 > \[!Important\]  
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -438,7 +443,7 @@ The following Visual Basic Scripting Edition (VBScript) example starts or disabl
 > \[!Important\]  
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -614,8 +619,8 @@ End Function
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -629,9 +634,9 @@ End Function
 [**Msvm\_ComputerSystem**](msvm-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

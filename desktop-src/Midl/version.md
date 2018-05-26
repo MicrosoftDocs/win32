@@ -2,13 +2,19 @@
 title: version attribute
 description: The \ version\ interface attribute identifies a particular version among multiple versions of an RPC interface. With the version attribute, you ensure that only compatible versions of client and server software are allowed to bind.
 ms.assetid: 66ac5cf3-2230-44fd-aaf6-8013e4a4ae81
-keywords: ["version attribute MIDL"]
+keywords:
+- version attribute MIDL
 topic_type:
 - apiref
 api_name:
 - version
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # version attribute

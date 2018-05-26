@@ -4,11 +4,13 @@ description: Provides access to the dependencies of a resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '10695840-38ec-4614-8bbd-5772a53dea4b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 10695840-38ec-4614-8bbd-5772a53dea4b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusResDependencies collection Failover Cluster", "ClusResDependencies collection Failover Cluster , described"]
+keywords:
+- ClusResDependencies collection Failover Cluster
+- ClusResDependencies collection Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusResDependencies collection
@@ -49,7 +54,7 @@ The **ClusResDependencies** collection has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -64,7 +69,7 @@ The **ClusResDependencies** collection has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,7 +85,7 @@ A **ClusResDependencies** collection:
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>      |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>    |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>    |
@@ -96,9 +101,9 @@ A **ClusResDependencies** collection:
 [Resource Management Objects](resource-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

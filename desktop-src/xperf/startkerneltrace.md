@@ -1,8 +1,9 @@
 ---
 title: StartKernelTrace function
 description: The StartKernelTrace function registers and starts a kernel event tracing session. Also, you can enable stack walking for certain kernel events using StartKernelTrace.
-ms.assetid: '29fd8307-9ebe-40f1-8668-b62575b6c185'
-keywords: ["StartKernelTrace function Windows Performance Analyzer"]
+ms.assetid: 29fd8307-9ebe-40f1-8668-b62575b6c185
+keywords:
+- StartKernelTrace function Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
@@ -12,6 +13,11 @@ api_location:
 - KernelTraceControl.dll.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StartKernelTrace function
@@ -24,10 +30,10 @@ The **StartKernelTrace** function registers and starts a kernel event tracing se
 ```C++
 ULONG
 WINAPI StartKernelTrace(
-  _Out_   PTRACEHANDLE            TraceHandle,
-  _Inout_ PEVENT_TRACE_PROPERTIES Properties,
-  _In_    STACK_TRACING_EVENT_ID  StackTracingEventIds[],
-  _In_    ULONG                   cStackTracingEventIds
+  _Out_   PTRACEHANDLE            TraceHandle,
+  _Inout_ PEVENT_TRACE_PROPERTIES Properties,
+  _In_    STACK_TRACING_EVENT_ID  StackTracingEventIds[],
+  _In_    ULONG                   cStackTracingEventIds
 );
 ```
 
@@ -115,7 +121,7 @@ Starting with Windows Vista, kernel-mode WPT/ETW only supports 16 stack tracing 
 
 
 
- 
+ 
 
 If the function fails for a reason other than those listed, a system error code is returned. For more information about system error codes, see [System Error Codes](http://go.microsoft.com/fwlink/p/?linkid=141506).
 
@@ -148,9 +154,9 @@ For more information about how to configure symbol decoding, see [Symbol Support
 [**STACK\_TRACING\_EVENT\_ID**](stack-tracing-event-id.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

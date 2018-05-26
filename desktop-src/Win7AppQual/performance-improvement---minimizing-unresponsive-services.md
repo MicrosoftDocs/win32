@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '51df3fb9-416d-46b8-b3a7-0281401fb390'
+Description: .
+ms.assetid: 51df3fb9-416d-46b8-b3a7-0281401fb390
 title: Best Practices for Minimizing Unresponsive Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Best Practices for Minimizing Unresponsive Services

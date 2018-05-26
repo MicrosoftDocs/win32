@@ -1,14 +1,17 @@
 ---
 title: Register method of the PS\_DnsServerDirectoryPartition class
-description: Adds the DNS server to the specified directory partition\\'s replica set.
+description: Adds the DNS server to the specified directory partition\\s replica set.
 audience: developer
-ms.assetid: '5b09af98-571c-4702-bb66-8665eb9487bc'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5b09af98-571c-4702-bb66-8665eb9487bc
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Register method", "Register method, PS_DnsServerDirectoryPartition class", "PS_DnsServerDirectoryPartition class, Register method"]
+keywords:
+- Register method
+- Register method, PS_DnsServerDirectoryPartition class
+- PS_DnsServerDirectoryPartition class, Register method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Register method of the PS\_DnsServerDirectoryPartition class
@@ -28,10 +34,10 @@ Adds the DNS server to the specified directory partition\\'s replica set. This o
 
 ```mof
 uint32 Register(
-  [in]  string                      ComputerName,
-  [in]  boolean                     PassThru,
-  [in]  string                      Name,
-  [out] DnsServerDirectoryPartition cmdletOutput
+  [in]  string                      ComputerName,
+  [in]  boolean                     PassThru,
+  [in]  string                      Name,
+  [out] DnsServerDirectoryPartition cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ On return, contains an embedded instance of the current object. This parameter r
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ On return, contains an embedded instance of the current object. This parameter r
 [**PS\_DnsServerDirectoryPartition**](ps-dnsserverdirectorypartition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

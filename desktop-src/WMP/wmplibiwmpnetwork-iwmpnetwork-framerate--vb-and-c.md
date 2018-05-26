@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork frameRate property
 description: The frameRate property gets the current video frame rate.
-ms.assetid: '800ecf3d-3b2c-48f9-8fc4-c7c32757749a'
-keywords: ["frameRate property Windows Media Player", "frameRate property Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , frameRate property"]
+ms.assetid: 800ecf3d-3b2c-48f9-8fc4-c7c32757749a
+keywords:
+- frameRate property Windows Media Player
+- frameRate property Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , frameRate property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::frameRate property
@@ -51,7 +59,7 @@ A **System.Int32** that is the current frame rate in frames per hundred seconds.
 > [!Note]  
 > Although the **encodedFrameRate** property measures the encoded frame rate in frames per second, the **frameRate** property measures the current frame rate in frames per hundred seconds. See Remarks.
 
- 
+ 
 
 ## Remarks
 
@@ -143,9 +151,9 @@ End Sub</code></pre></td>
 [**IWMPNetwork.encodedFrameRate (VB and C#)**](wmplibiwmpnetwork-iwmpnetwork-encodedframerate--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

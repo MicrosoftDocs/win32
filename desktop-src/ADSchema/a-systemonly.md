@@ -4,17 +4,22 @@ description: A Boolean value that specifies whether only Active Directory can mo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '78d2da1f-bdf1-452b-bc64-78088f3630dd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 78d2da1f-bdf1-452b-bc64-78088f3630dd
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["System-Only attribute AD Schema", "systemOnly attribute AD Schema"]
+keywords:
+- System-Only attribute AD Schema
+- systemOnly attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - System-Only
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # System-Only attribute
@@ -38,13 +43,13 @@ A Boolean value that specifies whether only Active Directory can modify the clas
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ A Boolean value that specifies whether only Active Directory can modify the clas
 
 
 
- 
+ 
 
- 
+ 
 
 
 

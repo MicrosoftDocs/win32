@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UnbindDevice method unbinds a printer from a bidi request.'
-ms.assetid: '4c294d1d-5a37-4ea4-b50f-447260e885b1'
-title: 'IBidiSpl::UnbindDevice method'
+---
+Description: The UnbindDevice method unbinds a printer from a bidi request.
+ms.assetid: 4c294d1d-5a37-4ea4-b50f-447260e885b1
+title: IBidiSplUnbindDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiSpl::UnbindDevice method

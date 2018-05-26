@@ -1,13 +1,16 @@
 ---
-Description: 'The REFERENCES OF statement retrieves all association instances that refer to a particular source instance.'
+Description: The REFERENCES OF statement retrieves all association instances that refer to a particular source instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '674be546-e7fd-4150-9d7c-2888d24bf1b3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 674be546-e7fd-4150-9d7c-2888d24bf1b3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: REFERENCES OF Statement
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # REFERENCES OF Statement

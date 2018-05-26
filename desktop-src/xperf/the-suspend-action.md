@@ -1,7 +1,12 @@
 ---
 title: The Suspend Action
 description: The Suspend Action
-ms.assetid: '5f23842b-5870-4a58-8872-cc3c03e03800'
+ms.assetid: 5f23842b-5870-4a58-8872-cc3c03e03800
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Suspend Action
@@ -25,13 +30,13 @@ The suspend action produces an XML file that summarizes the various metrics rega
 
 
 
- 
+ 
 
 If no activity is selected, summary is selected by default.
 
- 
+ 
 
- 
+ 
 
 
 

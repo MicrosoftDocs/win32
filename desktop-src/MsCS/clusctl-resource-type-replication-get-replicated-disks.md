@@ -4,11 +4,12 @@ description: Retrieves the replicated disks in a cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7E3B3EA0-0058-4799-AC98-3DBC05807F80'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7E3B3EA0-0058-4799-AC98-3DBC05807F80
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_REPLICATED_DISKS control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_REPLICATED_DISKS control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_TYPE\_REPLICATION\_GET\_REPLICATED\_DISKS control code
 
-Retrieves the replicated disks in a cluster. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](resourcetypecontrol.md) callback function.
+Retrieves the replicated disks in a cluster. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) callback function.
 
 
 ```C++
@@ -41,20 +45,20 @@ ClusterResourceTypeControl(
 
 ## Parameters
 
-For complete parameter descriptions, see [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) or [**ResourceTypeControl**](resourcetypecontrol.md).
+For complete parameter descriptions, see [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) or [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master).
 
 <dl> <dt>
 
 *lpOutBuffer* 
 </dt> <dd>
 
-On a successful return, points to a value list that contains the [**SR\_RESOURCE\_TYPE\_REPLICATED\_DISKS\_RESULT**](sr-resource-type-replicated-disks-result.md) structure that represents the retrieved disks.
+On a successful return, points to a value list that contains the [**SR\_RESOURCE\_TYPE\_REPLICATED\_DISKS\_RESULT**](/windows/previous-versions/ClusAPI/ns-clusapi-_sr_resource_type_replicated_disks_result?branch=master) structure that represents the retrieved disks.
 
 </dd> </dl>
 
 ## Return value
 
-[**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) returns one of the following values:
+[**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) returns one of the following values:
 
 <dl> <dt>
 
@@ -83,7 +87,7 @@ The operation failed. The value of *lpcbBytesReturned* is unreliable.
 
 </dd> </dl>
 
-Implementations of [**ResourceTypeControl**](resourcetypecontrol.md) can return the above values or the following value:
+Implementations of [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) can return the above values or the following value:
 
 <dl> <dt>
 
@@ -104,17 +108,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_TYPE\_REPLICATION\_GET\_REPL
 
 | Component      | Bit location | Value                                                                 |
 |----------------|--------------|-----------------------------------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_RESOURCE\_TYPE** (0x2)<br/>                     |
+| Object code    | 24 31        | **CLUS\_OBJECT\_RESOURCE\_TYPE** (0x2)<br/>                     |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)<br/>                                |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)<br/>                                 |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>                             |
 | Type bit       | 20           | External (0x1)<br/>                                             |
-| Operation code | 0–23         | **CLCTL\_REPLICATION\_GET\_REPLICATED\_DISKS** (x00002155)<br/> |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)<br/>                               |
+| Operation code | 0 23         | **CLCTL\_REPLICATION\_GET\_REPLICATED\_DISKS** (x00002155)<br/> |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)<br/>                               |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -123,7 +127,7 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_TYPE\_REPLICATION\_GET\_REPL
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                       |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -135,15 +139,15 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_TYPE\_REPLICATION\_GET\_REPL
 [External Resource Type Control Codes](external-resource-type-control-codes.md)
 </dt> <dt>
 
-[**ClusterResourceTypeControl**](clusterresourcetypecontrol.md)
+[**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master)
 </dt> <dt>
 
 [Control Codes](about-control-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

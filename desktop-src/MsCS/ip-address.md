@@ -4,11 +4,17 @@ description: The IP Address resource type is used to manage Internet Protocol (I
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3ed966f1-0177-4376-a36d-4a2fda327470'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3ed966f1-0177-4376-a36d-4a2fda327470
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,IP Address", "IP Address resource type Failover Cluster", "IP Address resource type Failover Cluster ,resources"]
+keywords:
+- resource types Failover Cluster ,IP Address
+- IP Address resource type Failover Cluster
+- IP Address resource type Failover Cluster ,resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IP Address

@@ -1,8 +1,9 @@
 ---
 title: MMIOM\_OPEN message
 description: The MMIOM\_OPEN message is sent to an I/O procedure by the mmioOpen function to request that a file be opened or deleted.
-ms.assetid: '02b2cf22-21a3-4f49-b90e-7b44478c0168'
-keywords: ["MMIOM_OPEN message Windows Multimedia"]
+ms.assetid: 02b2cf22-21a3-4f49-b90e-7b44478c0168
+keywords:
+- MMIOM_OPEN message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MMIOM\_OPEN message
@@ -57,7 +63,7 @@ Returns MMSYSERR\_NOERROR if successful or an error otherwise. Possible error va
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -73,15 +79,15 @@ If the application passed an [**MMIOINFO**](mmioinfo.md) structure to [**mmioOpe
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

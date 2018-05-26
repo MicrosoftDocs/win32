@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'DE86FA8C-2E27-4B39-B52D-6227AF56F399'
+---
+Description: .
+ms.assetid: DE86FA8C-2E27-4B39-B52D-6227AF56F399
 title: IPrintOemEngine interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemEngine interface

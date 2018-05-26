@@ -1,7 +1,12 @@
 ---
-Description: 'A dual-purpose package is a Windows Installer 5.0 package that has been authored to be capable of installing an application in either the per-user or per-machine installation context.'
-ms.assetid: 'b2da9fba-8fdf-48fa-a662-6b3eee1bfe87'
+Description: A dual-purpose package is a Windows Installer 5.0 package that has been authored to be capable of installing an application in either the per-user or per-machine installation context.
+ms.assetid: b2da9fba-8fdf-48fa-a662-6b3eee1bfe87
 title: Single Package Authoring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Single Package Authoring

@@ -2,13 +2,16 @@
 title: GetByServer method of the PS\_DnsServerQueryResolutionPolicy class
 description: Enumerates the name resolution policies by server.
 audience: developer
-ms.assetid: '9db9cf8c-45ea-4a59-875e-d111de8d249e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9db9cf8c-45ea-4a59-875e-d111de8d249e
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetByServer method", "GetByServer method, PS_DnsServerQueryResolutionPolicy class", "PS_DnsServerQueryResolutionPolicy class, GetByServer method"]
+keywords:
+- GetByServer method
+- GetByServer method, PS_DnsServerQueryResolutionPolicy class
+- PS_DnsServerQueryResolutionPolicy class, GetByServer method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByServer method of the PS\_DnsServerQueryResolutionPolicy class
@@ -28,9 +34,9 @@ Enumerates the name resolution policies by server.
 
 ```mof
 uint32 GetByServer(
-  [in]  string          Name,
-  [in]  string          ComputerName,
-  [out] DnsServerPolicy cmdletOutput[]
+  [in]  string          Name,
+  [in]  string          ComputerName,
+  [out] DnsServerPolicy cmdletOutput[]
 );
 ```
 
@@ -68,7 +74,7 @@ On return, contains an array of [**DnsServerPolicy**](dnsserverpolicy.md). This 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ On return, contains an array of [**DnsServerPolicy**](dnsserverpolicy.md). This 
 [**PS\_DnsServerQueryResolutionPolicy**](ps-dnsserverqueryresolutionpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

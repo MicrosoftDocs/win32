@@ -1,14 +1,20 @@
 ---
 title: Rating
 description: The Rating attribute contains the rating of the content.
-ms.assetid: '3de28d65-9c81-4290-8b57-ceac5ab52f8d'
-keywords: ["Rating windows Media Format"]
+ms.assetid: 3de28d65-9c81-4290-8b57-ceac5ab52f8d
+keywords:
+- Rating windows Media Format
 topic_type:
 - apiref
 api_name:
 - Rating
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rating

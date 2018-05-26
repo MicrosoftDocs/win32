@@ -1,8 +1,11 @@
 ---
 title: GetSupportedSize method of the MSFT\_Partition class
 description: Retrieves the minimum and maximum sizes that the partition can be resized to using the Resize method.
-ms.assetid: '8BE1F2BF-AFA8-4AC3-BFB0-54723F605E95'
-keywords: ["GetSupportedSize method Windows Storage Management API", "GetSupportedSize method Windows Storage Management API , MSFT_Partition class", "MSFT_Partition class Windows Storage Management API , GetSupportedSize method"]
+ms.assetid: 8BE1F2BF-AFA8-4AC3-BFB0-54723F605E95
+keywords:
+- GetSupportedSize method Windows Storage Management API
+- GetSupportedSize method Windows Storage Management API , MSFT_Partition class
+- MSFT_Partition class Windows Storage Management API , GetSupportedSize method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSupportedSize method of the MSFT\_Partition class
@@ -22,9 +30,9 @@ Retrieves the minimum and maximum sizes that the partition can be resized to usi
 
 ```mof
 UInt32 GetSupportedSize(
-  [out] UInt64 SizeMin,
-  [out] UInt64 SizeMax,
-  [out] String ExtendedStatus
+  [out] UInt64 SizeMin,
+  [out] UInt64 SizeMax,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -104,8 +112,8 @@ The minimum size is determined by Disk Defragmenter and takes into account the l
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -118,9 +126,9 @@ The minimum size is determined by Disk Defragmenter and takes into account the l
 [**MSFT\_Partition**](msft-partition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

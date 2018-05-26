@@ -4,13 +4,15 @@ description: PS\_DhcpServerv4ExclusionRange.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'aee3f888-a7ea-4313-a4b4-0133110b9615'
-ms.prod: 'windows-server-dev'
+ms.assetid: aee3f888-a7ea-4313-a4b4-0133110b9615
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DhcpServerv4ExclusionRange class", "PS_DhcpServerv4ExclusionRange class, described"]
+keywords:
+- PS_DhcpServerv4ExclusionRange class
+- PS_DhcpServerv4ExclusionRange class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DhcpServerv4ExclusionRange class
@@ -56,7 +61,7 @@ The **PS\_DhcpServerv4ExclusionRange** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,16 +70,16 @@ The **PS\_DhcpServerv4ExclusionRange** class has these methods.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Gets the current file position in bytes.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.CustomProtection.CustomProtectedStream.Position'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.CustomProtection.CustomProtectedStream.Position
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Position property", "Position property, CustomProtectedStream class", "CustomProtectedStream class, Position property"]
+keywords:
+- Position property
+- Position property, CustomProtectedStream class
+- CustomProtectedStream class, Position property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedStream.Position property
@@ -63,9 +69,9 @@ The current file position in bytes.
 [**CustomProtectedStream**](customprotectedstream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxNumber property is a null-terminated string that contains the fax number associated with the sender.'
-ms.assetid: 'd32d04db-3215-4679-84b8-79c0b8c99335'
-title: 'FaxSender.FaxNumber property'
+---
+Description: The FaxNumber property is a null-terminated string that contains the fax number associated with the sender.
+ms.assetid: d32d04db-3215-4679-84b8-79c0b8c99335
+title: FaxSender.FaxNumber property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSender.FaxNumber property
@@ -46,7 +51,7 @@ A **String** that specifies or receives the fax number associated with the sende
 [**FaxSender**](-mfax-faxsender.md)
 </dt> <dt>
 
-[**IFaxSender**](-mfax-faxsender-cpp.md)
+[**IFaxSender**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsender?branch=master)
 </dt> </dl>
 
  

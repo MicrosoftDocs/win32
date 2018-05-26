@@ -4,13 +4,16 @@ description: Enables Storage Spaces Direct.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '89d3b337-1dbd-4173-a048-0931021ceb65'
-ms.prod: 'windows-server-dev'
+ms.assetid: 89d3b337-1dbd-4173-a048-0931021ceb65
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["EnableStorageSpacesDirect method", "EnableStorageSpacesDirect method, MSCluster_StorageSpacesDirect class", "MSCluster_StorageSpacesDirect class, EnableStorageSpacesDirect method"]
+keywords:
+- EnableStorageSpacesDirect method
+- EnableStorageSpacesDirect method, MSCluster_StorageSpacesDirect class
+- MSCluster_StorageSpacesDirect class, EnableStorageSpacesDirect method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableStorageSpacesDirect method of the MSCluster\_StorageSpacesDirect class
@@ -30,14 +36,14 @@ Enables Storage Spaces Direct.
 
 ```mof
 uint32 EnableStorageSpacesDirect(
-  [in] uint32  CacheState,
-  [in] uint64  CacheMetadataReserveBytes,
-  [in] string  XML,
-  [in] string  CacheDeviceModel[],
-  [in] boolean AutoConfig,
-  [in] uint32  CachePageSizeKBytes,
-  [in] string  PoolFriendlyName,
-  [in] boolean SkipEligibilityChecks
+  [in] uint32  CacheState,
+  [in] uint64  CacheMetadataReserveBytes,
+  [in] string  XML,
+  [in] string  CacheDeviceModel[],
+  [in] boolean AutoConfig,
+  [in] uint32  CachePageSizeKBytes,
+  [in] string  PoolFriendlyName,
+  [in] boolean SkipEligibilityChecks
 );
 ```
 
@@ -152,7 +158,7 @@ Indicates that disk eligibility should be skipped.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
@@ -166,9 +172,9 @@ Indicates that disk eligibility should be skipped.
 [**MSCluster\_StorageSpacesDirect**](mscluster-storagespacesdirect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

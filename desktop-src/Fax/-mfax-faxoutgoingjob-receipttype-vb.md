@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ReceiptType property is a value that specifies the type of delivery receipt to deliver when the fax message reaches a final state. The receipt type can be Simple Mail Transport Protocol (SMTP) mail, a message box, or no receipt.'
-ms.assetid: '7b88efe4-d5cb-4b5e-a7e7-f13da53f144a'
-title: 'FaxOutgoingJob.ReceiptType property'
+---
+Description: The ReceiptType property is a value that specifies the type of delivery receipt to deliver when the fax message reaches a final state. The receipt type can be Simple Mail Transport Protocol (SMTP) mail, a message box, or no receipt.
+ms.assetid: 7b88efe4-d5cb-4b5e-a7e7-f13da53f144a
+title: FaxOutgoingJob.ReceiptType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.ReceiptType property
@@ -21,7 +26,7 @@ Property ReceiptType As Integer
 
 ## Property value
 
-A value from the [**FAX\_RECEIPT\_TYPE\_ENUM**](-mfax-fax-receipt-type-enum.md) enumeration that specifies a receipt type.
+A value from the [**FAX\_RECEIPT\_TYPE\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_receipt_type_enum?branch=master) enumeration that specifies a receipt type.
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A value from the [**FAX\_RECEIPT\_TYPE\_ENUM**](-mfax-fax-receipt-type-enum.md) 
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

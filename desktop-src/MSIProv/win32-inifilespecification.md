@@ -1,8 +1,10 @@
 ---
 title: Win32\_IniFileSpecification class
 description: The Win32\_IniFileSpecification \ 8194;WMI class contains the .INI information that an application needs to set in an .INI file.
-ms.assetid: 'a686f926-2677-4473-8176-0d56d7c6ec96'
-keywords: ["Win32_IniFileSpecification class", "Win32_IniFileSpecification class, described"]
+ms.assetid: a686f926-2677-4473-8176-0d56d7c6ec96
+keywords:
+- Win32_IniFileSpecification class
+- Win32_IniFileSpecification class, described
 topic_type:
 - apiref
 api_name:
@@ -31,16 +33,21 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_IniFileSpecification class
 
-The **Win32\_IniFileSpecification** [WMI class](https://msdn.microsoft.com/library/aa393244) contains the .INI information that an application needs to set in an .INI file. The .INI file information is written out when the corresponding component is selected for installation—locally or from the source.
+The **Win32\_IniFileSpecification** [WMI class](https://msdn.microsoft.com/library/aa393244) contains the .INI information that an application needs to set in an .INI file. The .INI file information is written out when the corresponding component is selected for installation locally or from the source.
 
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -50,26 +57,26 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_IniFileSpecification : CIM_FileSpecification
 {
-  uint16   Action;
-  string   Caption;
-  string   CheckID;
-  boolean  CheckMode;
-  uint32   CheckSum;
-  uint32   CRC1;
-  uint32   CRC2;
+  uint16   Action;
+  string   Caption;
+  string   CheckID;
+  boolean  CheckMode;
+  uint32   CheckSum;
+  uint32   CRC1;
+  uint32   CRC2;
   datetime CreateTimeStamp;
-  string   Description;
-  uint64   FileSize;
-  string   IniFile;
-  string   Key;
-  string   MD5Checksum;
-  string   Name;
-  string   Section;
-  string   SoftwareElementID;
-  uint16   SoftwareElementState;
-  uint16   TargetOperatingSystem;
-  string   Value;
-  string   Version;
+  string   Description;
+  uint64   FileSize;
+  string   IniFile;
+  string   Key;
+  string   MD5Checksum;
+  string   Name;
+  string   Section;
+  string   SoftwareElementID;
+  uint16   SoftwareElementState;
+  uint16   TargetOperatingSystem;
+  string   Value;
+  string   Version;
 };
 ```
 
@@ -92,7 +99,7 @@ The **Win32\_IniFileSpecification** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -121,7 +128,7 @@ Type of modification made.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -134,7 +141,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Short textual description of an object—a one-line string.
+Short textual description of an object a one-line string.
 
 </dd> <dt>
 
@@ -344,7 +351,7 @@ State of a software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -426,7 +433,7 @@ The values are:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -466,8 +473,8 @@ The **Win32\_IniFileSpecification** class is derived from [**CIM\_FileSpecificat
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -481,9 +488,9 @@ The **Win32\_IniFileSpecification** class is derived from [**CIM\_FileSpecificat
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

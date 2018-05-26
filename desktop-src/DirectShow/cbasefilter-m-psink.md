@@ -1,12 +1,17 @@
 ---
-Description: 'Pointer to the IMediaEventSink interface on the filter graph manager.'
-ms.assetid: '0d61e8b6-e9a3-495b-8bb1-9dab1f8b3626'
-title: 'CBaseFilter::m\_pSink member'
+Description: Pointer to the IMediaEventSink interface on the filter graph manager.
+ms.assetid: 0d61e8b6-e9a3-495b-8bb1-9dab1f8b3626
+title: CBaseFilterm\_pSink member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter::m\_pSink member
 
-Pointer to the [**IMediaEventSink**](imediaeventsink.md) interface on the filter graph manager.
+Pointer to the [**IMediaEventSink**](/windows/win32/Strmif/nn-strmif-imediaeventsink?branch=master) interface on the filter graph manager.
 
 ## Syntax
 
@@ -35,9 +40,9 @@ IMediaEventSink *m_pSink;
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

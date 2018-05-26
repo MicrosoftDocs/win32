@@ -1,7 +1,12 @@
 ---
-Description: 'The PlayAtTimeInTitle method starts playback at the specified time within the specified title.'
-ms.assetid: '82726885-8393-409b-b8a1-29a8e9e9ac65'
+Description: The PlayAtTimeInTitle method starts playback at the specified time within the specified title.
+ms.assetid: 82726885-8393-409b-b8a1-29a8e9e9ac65
 title: PlayAtTimeInTitle Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayAtTimeInTitle Method

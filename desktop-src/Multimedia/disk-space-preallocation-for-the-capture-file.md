@@ -1,13 +1,20 @@
 ---
 title: Disk Space Preallocation for the Capture File
 description: Disk Space Preallocation for the Capture File
-ms.assetid: '7a11b769-65b9-4eaa-bc42-5d1d744bf181'
-keywords: ["WM_CAP_FILE_ALLOCATE message", "capFileAlloc macro"]
+ms.assetid: 7a11b769-65b9-4eaa-bc42-5d1d744bf181
+keywords:
+- WM_CAP_FILE_ALLOCATE message
+- capFileAlloc macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk Space Preallocation for the Capture File
 
-Preallocating disk space for the capture file builds a file of a specified size on the disk before the start of a capture operation. Preallocating a capture file reduces the processing required while capture is in progress and results in fewer dropped frames. You can preallocate a capture file by using the [**WM\_CAP\_FILE\_ALLOCATE**](wm-cap-file-allocate.md) message (or the [**capFileAlloc**](capfilealloc.md) macro).
+Preallocating disk space for the capture file builds a file of a specified size on the disk before the start of a capture operation. Preallocating a capture file reduces the processing required while capture is in progress and results in fewer dropped frames. You can preallocate a capture file by using the [**WM\_CAP\_FILE\_ALLOCATE**](wm-cap-file-allocate.md) message (or the [**capFileAlloc**](/windows/win32/Vfw/nf-vfw-capfilealloc?branch=master) macro).
 
 Typically, your application should preallocate enough disk space to contain the largest capture file anticipated. Preallocating disk space does not restrict the size of the captured file. The file size is automatically enlarged if the captured data exceeds the allocated space. Subsequent write operations to the capture file reuse the portions of disk space allocated for the file, preserving the size and fragmentation of the file.
 

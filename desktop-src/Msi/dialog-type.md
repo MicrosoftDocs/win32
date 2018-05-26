@@ -1,7 +1,12 @@
 ---
-Description: 'The Dialog Type of semantic type is one of the Key Format Types. This type consists of a foreign key into the Dialog table provided by the user.'
-ms.assetid: '3656684a-de95-45e1-9c78-5c1cc8ca879a'
+Description: The Dialog Type of semantic type is one of the Key Format Types. This type consists of a foreign key into the Dialog table provided by the user.
+ms.assetid: 3656684a-de95-45e1-9c78-5c1cc8ca879a
 title: Dialog Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dialog Type

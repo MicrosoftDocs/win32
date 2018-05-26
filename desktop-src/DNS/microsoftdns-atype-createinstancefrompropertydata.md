@@ -1,8 +1,11 @@
 ---
 title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_AType class
 description: The CreateInstanceFromPropertyData method instantiates an Address (A) Resource Record.
-ms.assetid: '81d67eba-f2c6-49c0-af29-be3f3724a973'
-keywords: ["CreateInstanceFromPropertyData method DNS", "CreateInstanceFromPropertyData method DNS , MicrosoftDNS_AType class", "MicrosoftDNS_AType class DNS , CreateInstanceFromPropertyData method"]
+ms.assetid: 81d67eba-f2c6-49c0-af29-be3f3724a973
+keywords:
+- CreateInstanceFromPropertyData method DNS
+- CreateInstanceFromPropertyData method DNS , MicrosoftDNS_AType class
+- MicrosoftDNS_AType class DNS , CreateInstanceFromPropertyData method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateInstanceFromPropertyData method of the MicrosoftDNS\_AType class
@@ -22,13 +30,13 @@ The **CreateInstanceFromPropertyData** method instantiates an Address (A) Resour
 
 ```mof
 void CreateInstanceFromPropertyData(
-  [in]           string             DnsServerName,
-  [in]           string             ContainerName,
-  [in]           string             OwnerName,
-  [in, optional] uint32             RecordClass = 1,
-  [in, optional] uint32             TTL,
-  [in]           string             IPAddress,
-  [out, ref]     MicrosoftDNS_AType &amp;RR
+  [in]           string             DnsServerName,
+  [in]           string             ContainerName,
+  [in]           string             OwnerName,
+  [in, optional] uint32             RecordClass = 1,
+  [in, optional] uint32             TTL,
+  [in]           string             IPAddress,
+  [out, ref]     MicrosoftDNS_AType &amp;RR
 );
 ```
 
@@ -60,7 +68,7 @@ Owner FQDN for the RR.
 > [!Note]  
 > Do not use the owner NetBIOS name.
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,7 +88,7 @@ Class of the RR. Default value is 1. The following values are valid.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -116,7 +124,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -132,9 +140,9 @@ This method does not return a value.
 [**Modify Method of the MicrosoftDNS\_AType Class**](microsoftdns-atype-modify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

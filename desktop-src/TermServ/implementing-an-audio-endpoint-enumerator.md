@@ -1,18 +1,21 @@
 ---
 title: Implementing a Custom Audio Endpoint Enumerator
-description: Beginning with Windows Server 2008 R2, you can implement a custom remote audio endpoint enumerator as part of a Remote Desktop protocol provider.
+description: Beginning with Windows Server 2008 R2, you can implement a custom remote audio endpoint enumerator as part of a Remote Desktop protocol provider.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '684bd62e-1e28-4330-a3c5-6bce684d652d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 684bd62e-1e28-4330-a3c5-6bce684d652d
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Implementing a Custom Audio Endpoint Enumerator
 
-Beginning with Windows Server 2008 R2, you can implement a custom remote audio endpoint enumerator as part of a Remote Desktop protocol provider. A Remote Desktop protocol provider can use a custom audio endpoint enumerator to retrieve a collection of audio endpoints that have a specific set of capabilities.
+Beginning with Windows Server 2008 R2, you can implement a custom remote audio endpoint enumerator as part of a Remote Desktop protocol provider. A Remote Desktop protocol provider can use a custom audio endpoint enumerator to retrieve a collection of audio endpoints that have a specific set of capabilities.
 
 **To implement a custom remote audio endpoint enumerator**
 
@@ -59,11 +62,11 @@ Beginning with Windows Server 2008 R2, you can implement a custom remote audio e
 
     
 
-     
+     
 
 2.  The custom endpoint enumerator must be implemented in a DLL that can be loaded into the audio system and other applications. The DLL must be signed so that secure processes can load it. The DLL must implement and export the [**GetTSAudioEndpointEnumeratorForSession**](gettsaudioendpointenumeratorforsession.md) function, which acts as an entry point to the custom endpoint enumerator.
 
-The Remote Desktop Services service calls the [**QueryProperty**](iwtsprotocolconnection-queryproperty.md) method and sets the *QueryType* parameter to **WTS\_QUERY\_AUDIOENUM\_DLL** to retrieve the name of the enumerator object.
+The Remote Desktop Services service calls the [**QueryProperty**](/windows/win32/Wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-queryproperty?branch=master) method and sets the *QueryType* parameter to **WTS\_QUERY\_AUDIOENUM\_DLL** to retrieve the name of the enumerator object.
 
 Custom enumerator objects use COM-like interfaces and a COM-like reference counting mechanism, but they are not true COM objects. The custom endpoint enumerator must have the ability to work with legacy audio interfaces used by applications that do not support COM. For this reason, the custom endpoint enumerator must not rely on COM's life cycle management mechanism. Consumers of your audio endpoint enumerator, such as MMDevAPI.dll, load the custom endpoint enumerator DLL when required by user applications, and they will not unload the enumerator while the enumerator holds a reference to a device enumerator object, device collection object, device object, or property store object. It is not possible, however, for these consumers to track references to other types of objects owned by the custom endpoint enumerator. Accordingly, we recommend that your custom endpoint enumerator not create any objects that could outlive these four types of objects.
 
@@ -74,9 +77,9 @@ To implement a custom audio device enumerator, you must implement a custom audio
 -   `IMMDevice::Activate(IAudioOutputEndpointRT)`
 -   `IMMDevice::Activate(IAudioInputEndpointRT)`
 
-We do not expect you to implement the full list of [**IMMDevice::Activate**](https://msdn.microsoft.com/library/windows/desktop/dd371405) interfaces in your custom audio device enumerator. Instead, you should implement [**IAudioOutputEndpointRT**](iaudiooutputendpointrt.md) and [**IAudioInputEndpointRT**](iaudioinputendpointrt.md). You can optionally implement a few more, such as [**IAudioEndpointVolume**](https://msdn.microsoft.com/library/windows/desktop/dd370892). For any interface you do not implement, you should return **E\_NOINTERFACE** (you must use this specific failure code). Windows will then fall back to a stock implementation of the interface (for example, [**IAudioClient2**](https://msdn.microsoft.com/library/windows/desktop/hh404179)).
+We do not expect you to implement the full list of [**IMMDevice::Activate**](https://msdn.microsoft.com/library/windows/desktop/dd371405) interfaces in your custom audio device enumerator. Instead, you should implement [**IAudioOutputEndpointRT**](/windows/win32/Audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt?branch=master) and [**IAudioInputEndpointRT**](/windows/win32/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt?branch=master). You can optionally implement a few more, such as [**IAudioEndpointVolume**](https://msdn.microsoft.com/library/windows/desktop/dd370892). For any interface you do not implement, you should return **E\_NOINTERFACE** (you must use this specific failure code). Windows will then fall back to a stock implementation of the interface (for example, [**IAudioClient2**](https://msdn.microsoft.com/library/windows/desktop/hh404179)).
 
-For additional reference documentation about how to implement and register audio endpoints, see [**IAudioInputEndpointRT**](iaudioinputendpointrt.md). For a diagram that shows how WASAPI works, see [User-Mode Audio Components](https://msdn.microsoft.com/library/windows/desktop/dd316780). Note that all of user-mode audio is new beginning with Windows Server 2008.
+For additional reference documentation about how to implement and register audio endpoints, see [**IAudioInputEndpointRT**](/windows/win32/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt?branch=master). For a diagram that shows how WASAPI works, see [User-Mode Audio Components](https://msdn.microsoft.com/library/windows/desktop/dd316780). Note that all of user-mode audio is new beginning with Windows Server 2008.
 
 ## Related topics
 
@@ -103,9 +106,9 @@ For additional reference documentation about how to implement and register audio
 [IPropertyStore](http://go.microsoft.com/fwlink/p/?linkid=177452)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

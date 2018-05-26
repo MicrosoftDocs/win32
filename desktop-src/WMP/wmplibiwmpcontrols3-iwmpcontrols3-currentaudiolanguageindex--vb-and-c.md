@@ -1,8 +1,11 @@
 ---
 title: IWMPControls3 currentAudioLanguageIndex property
 description: The currentAudioLanguageIndex property gets or sets the one-based index that corresponds to the audio language for playback.
-ms.assetid: '3ed60827-c4e9-4455-b95e-b6eebf7a9a08'
-keywords: ["currentAudioLanguageIndex property Windows Media Player", "currentAudioLanguageIndex property Windows Media Player , IWMPControls3 interface", "IWMPControls3 interface Windows Media Player , currentAudioLanguageIndex property"]
+ms.assetid: 3ed60827-c4e9-4455-b95e-b6eebf7a9a08
+keywords:
+- currentAudioLanguageIndex property Windows Media Player
+- currentAudioLanguageIndex property Windows Media Player , IWMPControls3 interface
+- IWMPControls3 interface Windows Media Player , currentAudioLanguageIndex property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls3::currentAudioLanguageIndex property
@@ -50,7 +58,7 @@ A **System.Int32** that is the one-based index of the language.
 
 ## Remarks
 
-For Windows Media–based content, properties and methods related to language selection support only a single output.
+For Windows Media based content, properties and methods related to language selection support only a single output.
 
 Use the **audioLanguageCount** property to get the number of supported audio languages.
 
@@ -88,9 +96,9 @@ Use the **audioLanguageCount** property to get the number of supported audio lan
 [**IWMPControls3.getLanguageName (VB and C#)**](wmplibiwmpcontrols3-iwmpcontrols3-getlanguagename--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

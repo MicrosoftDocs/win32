@@ -1,7 +1,12 @@
 ---
-Description: 'An association between a service access point (SAP) and how it is implemented.'
-ms.assetid: '36108521-A699-4498-A962-DC0801D9EE81'
-title: 'Msvm\_DeviceSAPImplementation class'
+Description: An association between a service access point (SAP) and how it is implemented.
+ms.assetid: 36108521-A699-4498-A962-DC0801D9EE81
+title: Msvm\_DeviceSAPImplementation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_DeviceSAPImplementation class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_DeviceSAPImplementation : CIM_DeviceSAPImplementation
 {
-  CIM_LogicalDevice      REF Antecedent;
+  CIM_LogicalDevice      REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
 };
 ```
@@ -73,8 +78,8 @@ See [Querying networking objects](querying-networking-objects.md).
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -91,9 +96,9 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_DeviceSAPImplementation**](https://msdn.microsoft.com/library/aa387245)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

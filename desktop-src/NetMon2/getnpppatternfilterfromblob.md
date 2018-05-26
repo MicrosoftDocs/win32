@@ -1,7 +1,12 @@
 ---
-Description: 'The GetNPPPatternFilterFromBlob function retrieves the pattern match filter from a specific BLOB.'
-ms.assetid: 'b17cde55-8abb-4699-960f-676cbbb24326'
+Description: The GetNPPPatternFilterFromBlob function retrieves the pattern match filter from a specific BLOB.
+ms.assetid: b17cde55-8abb-4699-960f-676cbbb24326
 title: GetNPPPatternFilterFromBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetNPPPatternFilterFromBlob function
@@ -13,9 +18,9 @@ The **GetNPPPatternFilterFromBlob** function retrieves the pattern match filter 
 
 ```C++
 DWORD GetNPPPatternFilterFromBlob(
-  _In_  HBLOB        hBlob,
-  _In_  LPEXPRESSION pExpression,
-  _Out_ HBLOB        hErrorBlob
+  _In_  HBLOB        hBlob,
+  _In_  LPEXPRESSION pExpression,
+  _Out_ HBLOB        hErrorBlob
 );
 ```
 
@@ -62,8 +67,8 @@ The pattern match filter information is stored in the **Config** category of the
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -104,9 +109,9 @@ The pattern match filter information is stored in the **Config** category of the
 [GetStringsFromBlob](getstringsfromblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: WER Error Codes
 description: The following table provides a list of custom error codes used by Windows Error Reporting.
-ms.assetid: 'c409b222-5e02-4b48-b39a-f2e29d199944'
+ms.assetid: c409b222-5e02-4b48-b39a-f2e29d199944
 topic_type:
 - apiref
 api_name:
@@ -15,6 +15,11 @@ api_location:
 - Werapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WER Error Codes
@@ -40,15 +45,15 @@ The following table provides a list of custom error codes used by Windows Error 
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Werapi.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

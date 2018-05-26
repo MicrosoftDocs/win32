@@ -1,8 +1,18 @@
 ---
 title: ServiceInfo Document
 description: ServiceInfo Document
-ms.assetid: '48f84dd7-e458-4da2-ae2b-5949e867cd3a'
-keywords: ["Windows Media Player online stores,ServiceInfo document", "online stores,ServiceInfo document", "type 1 online stores,ServiceInfo document", "type 2 online stores,ServiceInfo document", "ServiceInfo document"]
+ms.assetid: 48f84dd7-e458-4da2-ae2b-5949e867cd3a
+keywords:
+- Windows Media Player online stores,ServiceInfo document
+- online stores,ServiceInfo document
+- type 1 online stores,ServiceInfo document
+- type 2 online stores,ServiceInfo document
+- ServiceInfo document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServiceInfo Document
@@ -10,7 +20,7 @@ keywords: ["Windows Media Player online stores,ServiceInfo document", "online st
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 Online stores must author the ServiceInfo.xml document. This is the document that the online store uses to configure the Windows Media Player user interface when Windows Media Player 10 or later is hosting the online store.
 
@@ -40,7 +50,7 @@ The following elements and their attributes are supported for Windows Media Play
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -55,9 +65,9 @@ The following elements and their attributes are supported for Windows Media Play
 [**Information Common to Type 1 and Type 2 Online Stores**](information-common-to-type-1-and-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

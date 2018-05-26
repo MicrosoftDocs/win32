@@ -4,11 +4,13 @@ description: Represent an installed network adapter on the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e4c95c84-2d44-43a6-ad9a-15ccc42bed32'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e4c95c84-2d44-43a6-ad9a-15ccc42bed32
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_ServerNetworkAdapter class", "MSFT_ServerNetworkAdapter class, described"]
+keywords:
+- MSFT_ServerNetworkAdapter class
+- MSFT_ServerNetworkAdapter class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_ServerNetworkAdapter class
@@ -35,10 +40,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("mgmtprovider"), AMENDMENT]
 class MSFT_ServerNetworkAdapter
 {
-  string  Name;
-  uint16  ConnectionStatus;
+  string  Name;
+  uint16  ConnectionStatus;
   boolean DHCPEnabled;
-  string  Addresses[];
+  string  Addresses[];
 };
 ```
 
@@ -206,7 +211,7 @@ The name of the network adapter.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
@@ -220,9 +225,9 @@ The name of the network adapter.
 [**GetServerInventory method of MSFT\_ServerManagerTasks**](getserverinventory-msft-servermanagertasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

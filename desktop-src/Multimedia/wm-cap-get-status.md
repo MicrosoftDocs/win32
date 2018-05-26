@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_GET\_STATUS message
 description: The WM\_CAP\_GET\_STATUS message retrieves the status of the capture window. You can send this message explicitly or by using the capGetStatus macro.
-ms.assetid: '31349599-a52c-45ba-8f08-91008773f317'
-keywords: ["WM_CAP_GET_STATUS message Windows Multimedia"]
+ms.assetid: 31349599-a52c-45ba-8f08-91008773f317
+keywords:
+- WM_CAP_GET_STATUS message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_GET\_STATUS message
 
-The **WM\_CAP\_GET\_STATUS** message retrieves the status of the capture window. You can send this message explicitly or by using the [**capGetStatus**](capgetstatus.md) macro.
+The **WM\_CAP\_GET\_STATUS** message retrieves the status of the capture window. You can send this message explicitly or by using the [**capGetStatus**](/windows/win32/Vfw/nf-vfw-capgetstatus?branch=master) macro.
 
 
 ```C++
@@ -40,7 +46,7 @@ Size, in bytes, of the structure referenced by**s**.
 <span id="s"></span><span id="S"></span>*s*
 </dt> <dd>
 
-Pointer to a [**CAPSTATUS**](capstatus.md) structure.
+Pointer to a [**CAPSTATUS**](/windows/win32/Vfw/ns-vfw-tagcapstatus?branch=master) structure.
 
 </dd> </dl>
 
@@ -50,7 +56,7 @@ Returns **TRUE** if successful or **FALSE** if the capture window is not connect
 
 ## Remarks
 
-The [**CAPSTATUS**](capstatus.md) structure contains the current state of the capture window. Since this state is dynamic and changes in response to various messages, the application should initialize this structure after sending the [**WM\_CAP\_DLG\_VIDEOFORMAT**](wm-cap-dlg-videoformat.md) message (or using the [**capDlgVideoFormat**](capdlgvideoformat.md) macro) and whenever it needs to enable menu items or determine the actual state of the window.
+The [**CAPSTATUS**](/windows/win32/Vfw/ns-vfw-tagcapstatus?branch=master) structure contains the current state of the capture window. Since this state is dynamic and changes in response to various messages, the application should initialize this structure after sending the [**WM\_CAP\_DLG\_VIDEOFORMAT**](wm-cap-dlg-videoformat.md) message (or using the [**capDlgVideoFormat**](/windows/win32/Vfw/nf-vfw-capdlgvideoformat?branch=master) macro) and whenever it needs to enable menu items or determine the actual state of the window.
 
 ## Requirements
 
@@ -58,8 +64,8 @@ The [**CAPSTATUS**](capstatus.md) structure contains the current state of the ca
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ The [**CAPSTATUS**](capstatus.md) structure contains the current state of the ca
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

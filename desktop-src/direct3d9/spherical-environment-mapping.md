@@ -1,7 +1,12 @@
 ---
-Description: 'Spherical environment maps, or sphere maps, are special textures that contain an image of the scene surrounding an object, or the lighting effects around the object.'
-ms.assetid: 'b4a8defc-876f-4a23-a12e-e7423a1e8f89'
-title: 'Spherical Environment Mapping (Direct3D 9)'
+Description: Spherical environment maps, or sphere maps, are special textures that contain an image of the scene surrounding an object, or the lighting effects around the object.
+ms.assetid: b4a8defc-876f-4a23-a12e-e7423a1e8f89
+title: Spherical Environment Mapping (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Spherical Environment Mapping (Direct3D 9)
@@ -22,7 +27,7 @@ If the normal points directly at the camera, the resulting coordinates should re
 
 ## Applying Spherical Environment Maps
 
-You apply an environment map to objects in the same manner as for any other texture, by setting the texture to the appropriate texture stage with the [**IDirect3DDevice9::SetTexture**](idirect3ddevice9--settexture.md) method. Set the first parameter to the index for the desired texture stage, and set the second parameter to the address of the [**IDirect3DDevice9**](idirect3ddevice9.md) interface returned when you created the texture for the environment map. You can set the color and alpha blending operations and arguments as needed to achieve the desired texture blending effects.
+You apply an environment map to objects in the same manner as for any other texture, by setting the texture to the appropriate texture stage with the [**IDirect3DDevice9::SetTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexture?branch=master) method. Set the first parameter to the index for the desired texture stage, and set the second parameter to the address of the [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface returned when you created the texture for the environment map. You can set the color and alpha blending operations and arguments as needed to achieve the desired texture blending effects.
 
 ## Related topics
 

@@ -1,8 +1,11 @@
 ---
 title: OnlineDevice method of the Msvm\_TimeSyncComponent class
 description: This method is deprecated. Instead, use the RequestStateChange method.
-ms.assetid: '092f92bb-a7fa-41e4-8644-2ab45436de38'
-keywords: ["OnlineDevice method Hyper-V", "OnlineDevice method Hyper-V , Msvm_TimeSyncComponent class", "Msvm_TimeSyncComponent class Hyper-V , OnlineDevice method"]
+ms.assetid: 092f92bb-a7fa-41e4-8644-2ab45436de38
+keywords:
+- OnlineDevice method Hyper-V
+- OnlineDevice method Hyper-V , Msvm_TimeSyncComponent class
+- Msvm_TimeSyncComponent class Hyper-V , OnlineDevice method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OnlineDevice method of the Msvm\_TimeSyncComponent class
@@ -24,7 +32,7 @@ This method is deprecated. Instead, use the [**RequestStateChange**](virtual-cim
 
 ```mof
 uint32 OnlineDevice(
-  [in] boolean Online
+  [in] boolean Online
 );
 ```
 
@@ -102,9 +110,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_TimeSyncComponent**](msvm-timesynccomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

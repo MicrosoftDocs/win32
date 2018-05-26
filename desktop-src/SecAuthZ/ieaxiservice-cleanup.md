@@ -1,7 +1,12 @@
 ---
-Description: 'Frees resources used by the IeAxiService interface.'
-ms.assetid: '11f5cfdc-dcdd-4b41-b02c-b19b9452509e'
-title: 'IeAxiService::Cleanup method'
+Description: Frees resources used by the IeAxiService interface.
+ms.assetid: 11f5cfdc-dcdd-4b41-b02c-b19b9452509e
+title: IeAxiServiceCleanup method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IeAxiService::Cleanup method
@@ -33,7 +38,7 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |
 | IID<br/>                      | IID\_IeAxiService is defined as E9E92380-9ECD-4982-A0EB-6815A56CCF27<br/>                           |
 
@@ -46,9 +51,9 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 [**IeAxiService**](ieaxiservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

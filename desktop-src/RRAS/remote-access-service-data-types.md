@@ -1,8 +1,15 @@
 ---
 title: Remote Access Service Data Types
 description: The following data types are used by the Remote Access Service API.
-ms.assetid: 'aaa7f971-9c23-4738-a386-9b7db859f6be'
-keywords: ["RASIPV4ADDR", "RASIPV6ADDR"]
+ms.assetid: aaa7f971-9c23-4738-a386-9b7db859f6be
+keywords:
+- RASIPV4ADDR
+- RASIPV6ADDR
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remote Access Service Data Types
@@ -25,9 +32,9 @@ typedef in6_addr RASIPV6ADDR;
 A [**in\_addr**](https://msdn.microsoft.com/library/windows/desktop/ms738571) that contains an IPv4 address.
 
 > [!Note]  
-> Supported in Windows Vista or later versions of Windows.
+> Supported in Windows Vista or later versions of Windows.
 
- 
+ 
 
 </dd> <dt>
 
@@ -37,9 +44,9 @@ A [**in\_addr**](https://msdn.microsoft.com/library/windows/desktop/ms738571) th
 A [**in6\_addr**](https://msdn.microsoft.com/library/windows/desktop/ms738560) that contains an IPv6 address.
 
 > [!Note]  
-> Supported in Windows Vista or later versions of Windows.
+> Supported in Windows Vista or later versions of Windows.
 
- 
+ 
 
 </dd> </dl>
 
@@ -49,15 +56,15 @@ A [**in6\_addr**](https://msdn.microsoft.com/library/windows/desktop/ms738560) t
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Ras.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

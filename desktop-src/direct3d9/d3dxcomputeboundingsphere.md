@@ -1,7 +1,12 @@
-﻿---
-Description: 'Computes a bounding sphere for the mesh.'
-ms.assetid: 'efa1365b-fe3a-4165-a3cb-bc1cd2ba03c0'
+---
+Description: Computes a bounding sphere for the mesh.
+ms.assetid: efa1365b-fe3a-4165-a3cb-bc1cd2ba03c0
 title: D3DXComputeBoundingSphere function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXComputeBoundingSphere function

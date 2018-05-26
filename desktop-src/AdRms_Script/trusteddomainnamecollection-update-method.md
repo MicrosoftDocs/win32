@@ -1,13 +1,16 @@
 ---
-Description: 'Updates the collection on the server.'
+Description: Updates the collection on the server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '8a7c0754-8fa5-44fb-91bf-b1a0679c56ca'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 8a7c0754-8fa5-44fb-91bf-b1a0679c56ca
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'TrustedDomainNameCollection::Update method'
+title: TrustedDomainNameCollectionUpdate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TrustedDomainNameCollection::Update method
@@ -138,7 +141,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -150,9 +153,9 @@ END SUB
 [**TrustedDomainNameCollection**](trusteddomainnamecollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

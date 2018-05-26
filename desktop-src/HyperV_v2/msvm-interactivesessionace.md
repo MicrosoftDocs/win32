@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an access control entry (ACE) that determines access to the interactive session of a virtual machine.'
-ms.assetid: 'dfec83d6-8033-47b5-aa6f-fc7447a29f43'
-title: 'Msvm\_InteractiveSessionACE class'
+Description: Represents an access control entry (ACE) that determines access to the interactive session of a virtual machine.
+ms.assetid: dfec83d6-8033-47b5-aa6f-fc7447a29f43
+title: Msvm\_InteractiveSessionACE class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_InteractiveSessionACE class
@@ -81,8 +86,8 @@ Identifies the security principal that the ACE grants or denies access to. Valid
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -96,9 +101,9 @@ Identifies the security principal that the ACE grants or denies access to. Valid
 [**GetInteractiveSessionACL**](getinteractivesessionacl-msvm-terminalservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

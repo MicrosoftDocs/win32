@@ -4,10 +4,13 @@ description: This section provides information about using cmdlet definition XML
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '05B260C6-ECC5-40DB-B8FB-D4BE0807F0B2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 05B260C6-ECC5-40DB-B8FB-D4BE0807F0B2
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cmdlet definition XML

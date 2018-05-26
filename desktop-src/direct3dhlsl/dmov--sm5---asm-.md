@@ -1,7 +1,12 @@
 ---
 title: dmov (sm5 - asm)
 description: Component-wise move.
-ms.assetid: '05DBB9E2-10EC-4324-BB8F-1A9E315DE90C'
+ms.assetid: 05DBB9E2-10EC-4324-BB8F-1A9E315DE90C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dmov (sm5 - asm)
@@ -15,7 +20,7 @@ Component-wise move.
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Component-wise move.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +52,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +71,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -75,9 +80,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

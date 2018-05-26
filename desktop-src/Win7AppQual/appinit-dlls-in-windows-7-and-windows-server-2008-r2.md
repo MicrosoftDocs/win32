@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '6d1f9703-6dc9-4fdc-b52f-e6bb60a2fe8d'
-title: 'AppInit\_DLLs in Windows 7 and Windows Server 2008 R2'
+Description: .
+ms.assetid: 6d1f9703-6dc9-4fdc-b52f-e6bb60a2fe8d
+title: AppInit\_DLLs in Windows 7 and Windows Server 2008 R2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AppInit\_DLLs in Windows 7 and Windows Server 2008 R2

@@ -2,13 +2,16 @@
 title: Get method of the PS\_DnsServer class
 description: Retrieves entire DNS Server Configuration.
 audience: developer
-ms.assetid: 'c6014903-554b-4a83-91fc-53f7b1afc676'
-ms.prod: 'windows-server-dev'
+ms.assetid: c6014903-554b-4a83-91fc-53f7b1afc676
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DnsServer class", "PS_DnsServer class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DnsServer class
+- PS_DnsServer class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DnsServer class
@@ -28,8 +34,8 @@ Retrieves entire DNS Server Configuration.
 
 ```mof
 uint32 Get(
-  [in]  string    ComputerName,
-  [out] DnsServer cmdletOutput
+  [in]  string    ComputerName,
+  [out] DnsServer cmdletOutput
 );
 ```
 
@@ -60,7 +66,7 @@ An embedded instance of the [**DnsServer**](dnsserver.md) class.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -74,9 +80,9 @@ An embedded instance of the [**DnsServer**](dnsserver.md) class.
 [**PS\_DnsServer**](ps-dnsserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

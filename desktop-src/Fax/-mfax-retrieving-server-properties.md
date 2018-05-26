@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example retrieves several read-only properties of the fax server.'
-ms.assetid: '80437d99-5b9f-4faa-8f09-ed91fc622d4b'
+Description: The following Microsoft Visual Basic code example retrieves several read-only properties of the fax server.
+ms.assetid: 80437d99-5b9f-4faa-8f09-ed91fc622d4b
 title: Retrieving Server Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Server Properties

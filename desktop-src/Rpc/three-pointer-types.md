@@ -1,7 +1,12 @@
 ---
 title: Three Pointer Types
 description: MIDL supports three types of pointers to accommodate a wide range of applications.
-ms.assetid: '6684c252-6fbe-49ca-9967-6d4baf5dc298'
+ms.assetid: 6684c252-6fbe-49ca-9967-6d4baf5dc298
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Three Pointer Types

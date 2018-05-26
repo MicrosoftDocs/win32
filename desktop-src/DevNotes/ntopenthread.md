@@ -1,7 +1,12 @@
-﻿---
-Description: 'Opens a handle to a thread object with the access specified.'
-ms.assetid: '85148f27-cfb4-4a33-8bcc-e48d2c2e3c51'
+---
+Description: Opens a handle to a thread object with the access specified.
+ms.assetid: 85148f27-cfb4-4a33-8bcc-e48d2c2e3c51
 title: NtOpenThread function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtOpenThread function

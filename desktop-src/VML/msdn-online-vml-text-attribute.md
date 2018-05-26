@@ -1,7 +1,12 @@
 ---
 title: VML Text Attribute
 description: VML Text Attribute
-ms.assetid: 'dc7c161b-b78d-4baf-acb4-962a95418d77'
+ms.assetid: dc7c161b-b78d-4baf-acb4-962a95418d77
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Text Attribute

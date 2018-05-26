@@ -1,13 +1,16 @@
 ---
-Description: 'Sets the one time boot source for the next boot on this computer system.'
+Description: Sets the one time boot source for the next boot on this computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c2b79c89-4a98-4b94-9a9a-4c10c9b63fff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c2b79c89-4a98-4b94-9a9a-4c10c9b63fff
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetOneTimeBootSource method of the MSFT\_PCSVDevice class'
+title: SetOneTimeBootSource method of the MSFT\_PCSVDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetOneTimeBootSource method of the MSFT\_PCSVDevice class
@@ -19,8 +22,8 @@ Sets the one time boot source for the next boot on this computer system. Impleme
 
 ```mof
 uint32 SetOneTimeBootSource(
-  [in]      string              StructuredBootString,
-  [in, out] CIM_ConcreteJob REF Job
+  [in]      string              StructuredBootString,
+  [in, out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -59,16 +62,16 @@ This method returns one of the following values.
 **Failed** (2)
 </dt> <dt>
 
-**Reserved** (3–4095)
+**Reserved** (3 4095)
 </dt> <dt>
 
 **Job Started** (4096)
 </dt> <dt>
 
-**DMTF Reserved** (4097–32767)
+**DMTF Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Reserved** (32768–65535)
+**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -77,8 +80,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>PCSVDevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVDevice.dll</dt> </dl> |
@@ -92,9 +95,9 @@ This method returns one of the following values.
 [**MSFT\_PCSVDevice**](msft-pcsvdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

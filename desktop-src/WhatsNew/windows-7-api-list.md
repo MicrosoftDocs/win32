@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics describe the API elements that are new for Windows 7 and Windows Server 2008 R2.'
-ms.assetid: '177b80f1-92b7-4d2f-bbfa-808e54581885'
+Description: The following topics describe the API elements that are new for Windows 7 and Windows Server 2008 R2.
+ms.assetid: 177b80f1-92b7-4d2f-bbfa-808e54581885
 title: Windows 7 API List
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows 7 API List

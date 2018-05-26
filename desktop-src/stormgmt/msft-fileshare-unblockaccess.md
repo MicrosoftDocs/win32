@@ -1,8 +1,11 @@
 ---
 title: UnblockAccess method of the MSFT\_FileShare class
 description: Removes specified users from the denied access list for the file share.
-ms.assetid: 'DA0B78BE-571F-4B5E-9120-7321FE2BB977'
-keywords: ["UnblockAccess method Windows Storage Management API", "UnblockAccess method Windows Storage Management API , MSFT_FileShare class", "MSFT_FileShare class Windows Storage Management API , UnblockAccess method"]
+ms.assetid: DA0B78BE-571F-4B5E-9120-7321FE2BB977
+keywords:
+- UnblockAccess method Windows Storage Management API
+- UnblockAccess method Windows Storage Management API , MSFT_FileShare class
+- MSFT_FileShare class Windows Storage Management API , UnblockAccess method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnblockAccess method of the MSFT\_FileShare class
@@ -22,8 +30,8 @@ Removes specified users from the denied access list for the file share.
 
 ```mof
 UInt32 UnblockAccess(
-  [in]  String AccountNames[],
-  [out] String ExtendedStatus
+  [in]  String AccountNames[],
+  [out] String ExtendedStatus
 );
 ```
 
@@ -86,8 +94,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -100,9 +108,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_FileShare**](msft-fileshare.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

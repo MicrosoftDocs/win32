@@ -1,7 +1,12 @@
 ---
-Description: 'Each process provides the resources needed to execute a program.'
-ms.assetid: '055458cf-9fc7-4a16-be14-1122b3cf0251'
+Description: Each process provides the resources needed to execute a program.
+ms.assetid: 055458cf-9fc7-4a16-be14-1122b3cf0251
 title: About Processes and Threads
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Processes and Threads

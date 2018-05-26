@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the InkPicture control has completed redrawing itself.'
-ms.assetid: 'a8194cff-ed94-402e-8564-08d370f958b4'
-title: 'InkPicture.Painted event'
+Description: Occurs when the InkPicture control has completed redrawing itself.
+ms.assetid: a8194cff-ed94-402e-8564-08d370f958b4
+title: InkPicture.Painted event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture.Painted event
@@ -13,8 +18,8 @@ Occurs when the [InkPicture](inkpicture-control-reference.md) control has comple
 
 ```C++
 void Painted(
-  [in] long         hDC,
-  [in] InkRectangle *Rect
+  [in] long         hDC,
+  [in] InkRectangle *Rect
 );
 ```
 
@@ -34,7 +39,7 @@ The device context on which the event occurred.
 *Rect* \[in\]
 </dt> <dd>
 
-The [**InkRectangle**](inkrectangle-class.md) that was repainted.
+The [**InkRectangle**](/windows/win32/msinkaut/?branch=master) that was repainted.
 
 </dd> </dl>
 
@@ -52,7 +57,7 @@ This event method is defined in the **\_IInkOverlayEvents** and **\_IInkPictureE
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -66,9 +71,9 @@ This event method is defined in the **\_IInkOverlayEvents** and **\_IInkPictureE
 [InkPicture](inkpicture-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

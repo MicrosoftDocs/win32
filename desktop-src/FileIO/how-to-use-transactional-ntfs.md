@@ -1,21 +1,26 @@
 ---
-Description: 'Managing transacted file handles in Transactional NTFS.'
-ms.assetid: '29879a3f-14b4-462c-a001-46c3c3eb74d1'
+Description: Managing transacted file handles in Transactional NTFS.
+ms.assetid: 29879a3f-14b4-462c-a001-46c3c3eb74d1
 title: How to Use Transactional NTFS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use Transactional NTFS
 
 ## Transacted File Handles
 
-Transactional NTFS (TxF) binds a file handle to a transaction. For operations that work on a handle (for example, the [**ReadFile**](readfile.md) and [**WriteFile**](writefile.md) functions), the actual API function call does not change. For file operations that take a name, there are explicit transacted functions for these operations. For example, instead of calling [**CreateFile**](createfile.md), call [**CreateFileTransacted**](createfiletransacted.md). This creates a transacted file handle, which can then be used for all file operations requiring a handle. All subsequent operations using this handle are transacted operations.
+Transactional NTFS (TxF) binds a file handle to a transaction. For operations that work on a handle (for example, the [**ReadFile**](/windows/win32/FileAPI/nf-fileapi-readfile?branch=master) and [**WriteFile**](/windows/win32/FileAPI/nf-fileapi-writefile?branch=master) functions), the actual API function call does not change. For file operations that take a name, there are explicit transacted functions for these operations. For example, instead of calling [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master), call [**CreateFileTransacted**](/windows/win32/WinBase/nf-winbase-createfiletransacteda?branch=master). This creates a transacted file handle, which can then be used for all file operations requiring a handle. All subsequent operations using this handle are transacted operations.
 
 ## Basic TxF Usage
 
 The following series of steps represents the most basic usage for TxF. More complex scenarios are also supported, at the discretion of the application designer.
 
 1.  Create a transaction by calling the KTM function [**CreateTransaction**](https://msdn.microsoft.com/library/windows/desktop/aa366011) or by using the **IKernelTransaction** interface of the [Distributed Transaction Coordinator](https://msdn.microsoft.com/library/aa369357) (DTC).
-2.  Get transacted file handle(s) by calling [**CreateFileTransacted**](createfiletransacted.md).
+2.  Get transacted file handle(s) by calling [**CreateFileTransacted**](/windows/win32/WinBase/nf-winbase-createfiletransacteda?branch=master).
 3.  Modify the file(s) as necessary using the transacted file handle(s).
 4.  Close all transacted file handles associated with the transaction created in step 1.
 5.  Commit or abort the transaction by calling the corresponding KTM or DTC function.

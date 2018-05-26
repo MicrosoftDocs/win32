@@ -1,8 +1,9 @@
 ---
 title: TDN\_VERIFICATION\_CLICKED notification code
 description: Sent by a task dialog when the user clicks the task dialog verification check box. This notification code is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
-ms.assetid: 'cd7bc07a-9a70-4361-abfa-986a5a2e13e0'
-keywords: ["TDN_VERIFICATION_CLICKED notification code Windows Controls"]
+ms.assetid: cd7bc07a-9a70-4361-abfa-986a5a2e13e0
+keywords:
+- TDN_VERIFICATION_CLICKED notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDN\_VERIFICATION\_CLICKED notification code
 
-Sent by a task dialog when the user clicks the task dialog verification check box. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method.
+Sent by a task dialog when the user clicks the task dialog verification check box. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method.
 
 
 ```C++
@@ -55,8 +61,8 @@ The return value is ignored.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -68,12 +74,12 @@ The return value is ignored.
 **Reference**
 </dt> <dt>
 
-[*TaskDialogCallbackProc*](taskdialogcallbackproc.md)
+[*TaskDialogCallbackProc*](/windows/win32/Commctrl/nc-commctrl-pftaskdialogcallback?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

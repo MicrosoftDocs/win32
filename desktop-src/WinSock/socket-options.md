@@ -1,12 +1,17 @@
 ---
-Description: 'Navigation page for Windows Sockets (Winsock) socket options.'
-ms.assetid: '65f8f7a4-757b-43a3-9d47-b115754c89d6'
+Description: Navigation page for Windows Sockets (Winsock) socket options.
+ms.assetid: 65f8f7a4-757b-43a3-9d47-b115754c89d6
 title: Socket Options
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Socket Options
 
-This section describes Winsock Socket Options for various editions of Windows operating systems. Use the [**getsockopt**](getsockopt-2.md) and [**setsockopt**](setsockopt-2.md) functions for more getting and setting socket options. To enumerate protocols and discover supported properties for each installed protocol, use the [**WSAEnumProtocols**](wsaenumprotocols-2.md) function.
+This section describes Winsock Socket Options for various editions of Windows operating systems. Use the [**getsockopt**](/windows/win32/winsock/nf-winsock-getsockopt?branch=master) and [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) functions for more getting and setting socket options. To enumerate protocols and discover supported properties for each installed protocol, use the [**WSAEnumProtocols**](/windows/win32/Winsock2/nf-winsock2-wsaenumprotocolsa?branch=master) function.
 
 Some socket options require more explanation than these tables can convey; such options contain links to additional pages.
 

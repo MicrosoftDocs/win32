@@ -1,7 +1,12 @@
 ---
 title: Read Through the Parent Recordset Object
 description: Read Through the Parent Recordset Object
-ms.assetid: '598a4c05-29f2-4eed-81d6-235e3d0dba23'
+ms.assetid: 598a4c05-29f2-4eed-81d6-235e3d0dba23
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Read Through the Parent Recordset Object

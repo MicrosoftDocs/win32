@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SIMULATE\_CAPS\_1 structure contains information about the types of simulations a spooler supports.'
-ms.assetid: '17f5d8bf-a3e7-4ff5-9019-24c66875b786'
-title: 'SIMULATE\_CAPS\_1 structure'
+---
+Description: The SIMULATE\_CAPS\_1 structure contains information about the types of simulations a spooler supports.
+ms.assetid: 17f5d8bf-a3e7-4ff5-9019-24c66875b786
+title: SIMULATE\_CAPS\_1 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SIMULATE\_CAPS\_1 structure

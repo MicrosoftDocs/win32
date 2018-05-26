@@ -1,14 +1,20 @@
 ---
 title: mips.Operator\ \ \ \ function
 description: Returns a read-only resource variable.
-ms.assetid: '201996a7-741f-4457-ab77-9cd653f3682b'
-keywords: ["mips.Operator function HLSL"]
+ms.assetid: 201996a7-741f-4457-ab77-9cd653f3682b
+keywords:
+- mips.Operator function HLSL
 topic_type:
 - apiref
 api_name:
 - mips.Operator
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mips.Operator\[\]\[\] function

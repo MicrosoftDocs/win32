@@ -1,7 +1,12 @@
 ---
-Description: 'The following constants are used by applications or UI frameworks to identify how UI feedback is processed when an input contact is detected.'
-ms.assetid: '6FE8444C-A575-4E89-86D1-1873206688F5'
+Description: The following constants are used by applications or UI frameworks to identify how UI feedback is processed when an input contact is detected.
+ms.assetid: 6FE8444C-A575-4E89-86D1-1873206688F5
 title: Contact Visualization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Contact Visualization
@@ -57,8 +62,8 @@ Specifies UI feedback for all contacts is on with presentation mode visuals.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -79,9 +84,9 @@ Specifies UI feedback for all contacts is on with presentation mode visuals.
 [Input Feedback Configuration](https://msdn.microsoft.com/library/windows/desktop/hh707352)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

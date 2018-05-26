@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_DestinationTop method sets the top coordinate of the destination rectangle.'
-ms.assetid: 'd18996ac-85f2-4778-b0aa-1bc0c4d5f7d9'
-title: 'CBaseControlVideo.put\_DestinationTop method'
+Description: The put\_DestinationTop method sets the top coordinate of the destination rectangle.
+ms.assetid: d18996ac-85f2-4778-b0aa-1bc0c4d5f7d9
+title: CBaseControlVideo.put\_DestinationTop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.put\_DestinationTop method
@@ -13,7 +18,7 @@ The `put_DestinationTop` method sets the top coordinate of the destination recta
 
 ```C++
 HRESULT put_DestinationTop(
-   long DestinationTop
+   long DestinationTop
 );
 ```
 
@@ -46,11 +51,11 @@ Returns an **HRESULT** value that depends on the implementation; can be one of t
 
 
 
- 
+ 
 
 ## Remarks
 
-An application can change the source and destination rectangles for the video through the [**IBasicVideo**](ibasicvideo.md) interface. The source rectangle affects which section of the native video source will appear on the display; the destination rectangle affects where the video will appear when played. The destination rectangle is relative to the client area of the window in which it is playing. The upper-left corner of the window is coordinate (0,0).
+An application can change the source and destination rectangles for the video through the [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master) interface. The source rectangle affects which section of the native video source will appear on the display; the destination rectangle affects where the video will appear when played. The destination rectangle is relative to the client area of the window in which it is playing. The upper-left corner of the window is coordinate (0,0).
 
 ## Requirements
 
@@ -70,9 +75,9 @@ An application can change the source and destination rectangles for the video th
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

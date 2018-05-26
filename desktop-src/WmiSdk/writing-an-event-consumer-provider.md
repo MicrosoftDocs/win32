@@ -1,13 +1,16 @@
 ---
-Description: 'An event consumer provider is a component of the permanent consumer architecture that determines which permanent event consumer handles a given event.'
+Description: An event consumer provider is a component of the permanent consumer architecture that determines which permanent event consumer handles a given event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c5a0d0ec-99af-4815-9ad2-e59db70e04ce'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c5a0d0ec-99af-4815-9ad2-e59db70e04ce
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Writing an Event Consumer Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Writing an Event Consumer Provider
@@ -24,22 +27,22 @@ The following procedure describes how to implement an event consumer provider.
 
     Class providers register with WMI by creating a [**\_\_Win32Provider**](--win32provider.md) instance and an [**\_\_EventConsumerProviderRegistration**](--eventconsumerproviderregistration.md) class. For more information, see [Registering an Event Consumer Provider](registering-an-event-consumer-provider.md).
 
-2.  Implement the [**IWbemProviderInit**](iwbemproviderinit.md) interface for your provider.
+2.  Implement the [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) interface for your provider.
 
-    WMI uses [**IWbemProviderInit**](iwbemproviderinit.md) to load and initialize a provider. For more information, see [Initializing a Provider](initializing-a-provider.md).
+    WMI uses [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) to load and initialize a provider. For more information, see [Initializing a Provider](initializing-a-provider.md).
 
     > [!Note]  
     > Event consumer providers are strongly encouraged to use the multithreading model "Both".
 
      
 
-3.  Implement the [**IWbemEventConsumerProvider**](iwbemeventconsumerprovider.md) interface for your provider.
+3.  Implement the [**IWbemEventConsumerProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbemeventconsumerprovider?branch=master) interface for your provider.
 
-    The [**IWbemEventConsumerProvider**](iwbemeventconsumerprovider.md) interface is the primary interface for an event consumer provider.
+    The [**IWbemEventConsumerProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbemeventconsumerprovider?branch=master) interface is the primary interface for an event consumer provider.
 
 4.  Supply one or more physical consumers to receive the event messages from WMI.
 
-    A physical consumer is a COM object that represents a permanent event consumer. All physical consumers must implement the [**IWbemUnboundObjectSink**](iwbemunboundobjectsink.md) interface. For more information, see [Implementing a Physical Consumer](implementing-a-physical-consumer.md).
+    A physical consumer is a COM object that represents a permanent event consumer. All physical consumers must implement the [**IWbemUnboundObjectSink**](/windows/win32/Wbemprov/nn-wbemprov-iwbemunboundobjectsink?branch=master) interface. For more information, see [Implementing a Physical Consumer](implementing-a-physical-consumer.md).
 
  
 

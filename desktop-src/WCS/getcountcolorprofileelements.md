@@ -1,8 +1,9 @@
 ---
 title: GetCountColorProfileElements function
 description: The GetCountColorProfileElements function retrieves the number of tagged elements in a given color profile.
-ms.assetid: 'f8df63ff-9c8c-4131-b38d-ee39c9160a06'
-keywords: ["GetCountColorProfileElements function Windows Color System"]
+ms.assetid: f8df63ff-9c8c-4131-b38d-ee39c9160a06
+keywords:
+- GetCountColorProfileElements function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCountColorProfileElements function
@@ -22,8 +28,8 @@ The **GetCountColorProfileElements** function retrieves the number of tagged ele
 
 ```C++
 BOOL WINAPI GetCountColorProfileElements(
-   HPROFILE hProfile,
-   PDWORD   pnCount
+   HPROFILE hProfile,
+   PDWORD   pnCount
 );
 ```
 
@@ -65,8 +71,8 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -83,9 +89,9 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

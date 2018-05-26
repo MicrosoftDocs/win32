@@ -1,12 +1,17 @@
 ---
-Description: 'The following code demonstrates the recv and send functions used by the server.'
-ms.assetid: '26990b06-196a-4fb1-92d8-c5fa096d2b09'
+Description: The following code demonstrates the recv and send functions used by the server.
+ms.assetid: 26990b06-196a-4fb1-92d8-c5fa096d2b09
 title: Receiving and Sending Data on the Server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving and Sending Data on the Server
 
-The following code demonstrates the [**recv**](recv-2.md) and [**send**](send-2.md) functions used by the server.
+The following code demonstrates the [**recv**](/windows/win32/winsock/nf-winsock-recv?branch=master) and [**send**](/windows/win32/Winsock2/nf-winsock2-send?branch=master) functions used by the server.
 
 ### To receive and send data on a socket
 
@@ -48,7 +53,7 @@ do {
 
 
 
-The [**send**](send-2.md) and [**recv**](recv-2.md) functions both return an integer value of the number of bytes sent or received, respectively, or an error. Each function also takes the same parameters: the active socket, a **char** buffer, the number of bytes to send or receive, and any flags to use.
+The [**send**](/windows/win32/Winsock2/nf-winsock2-send?branch=master) and [**recv**](/windows/win32/winsock/nf-winsock-recv?branch=master) functions both return an integer value of the number of bytes sent or received, respectively, or an error. Each function also takes the same parameters: the active socket, a **char** buffer, the number of bytes to send or receive, and any flags to use.
 
 Next Step: [Disconnecting the Server](disconnecting-the-server.md)
 

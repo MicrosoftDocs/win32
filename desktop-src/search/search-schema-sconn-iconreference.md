@@ -1,7 +1,12 @@
 ---
-Description: 'The optional &lt;iconReference&gt; element specifies a custom icon for this location. This element has no attributes and no child elements.'
-ms.assetid: 'c2fa5e99-a7fd-423e-9952-5233e8c83619'
-title: 'iconReference Element (Search Connector Schema)'
+Description: The optional &lt;iconReference&gt; element specifies a custom icon for this location. This element has no attributes and no child elements.
+ms.assetid: c2fa5e99-a7fd-423e-9952-5233e8c83619
+title: iconReference Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iconReference Element (Search Connector Schema)

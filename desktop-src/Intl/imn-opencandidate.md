@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies an application when an IME is about to open the candidate window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.'
-ms.assetid: '439ff125-2731-4eb1-8287-4ca8ace7d8ec'
-title: 'IMN\_OPENCANDIDATE event'
+---
+Description: Notifies an application when an IME is about to open the candidate window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+ms.assetid: 439ff125-2731-4eb1-8287-4ca8ace7d8ec
+title: IMN\_OPENCANDIDATE event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMN\_OPENCANDIDATE event
@@ -39,7 +44,7 @@ This command has no return value.
 
 ## Remarks
 
-An application should process this command if it displays candidates itself. The application can retrieve a list of candidates to display by using the [**ImmGetCandidateList**](immgetcandidatelist.md) function.
+An application should process this command if it displays candidates itself. The application can retrieve a list of candidates to display by using the [**ImmGetCandidateList**](/windows/win32/Imm/nf-imm-immgetcandidatelista?branch=master) function.
 
 By default, the IME window creates a candidate window when it processes this command.
 
@@ -65,7 +70,7 @@ By default, the IME window creates a candidate window when it processes this com
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**ImmGetCandidateList**](immgetcandidatelist.md)
+[**ImmGetCandidateList**](/windows/win32/Imm/nf-imm-immgetcandidatelista?branch=master)
 </dt> <dt>
 
 [**WM\_IME\_NOTIFY**](wm-ime-notify.md)

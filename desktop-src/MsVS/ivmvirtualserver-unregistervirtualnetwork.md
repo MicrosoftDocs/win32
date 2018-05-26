@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer UnregisterVirtualNetwork method
 description: The UnregisterVirtualNetwork method unregisters a virtual network configuration without deleting the configuration file.
-ms.assetid: '03a36940-4238-4909-bd1e-e17b2de0151b'
-keywords: ["UnregisterVirtualNetwork method Virtual Server", "UnregisterVirtualNetwork method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , UnregisterVirtualNetwork method", "UnregisterVirtualNetwork method Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , UnregisterVirtualNetwork method"]
+ms.assetid: 03a36940-4238-4909-bd1e-e17b2de0151b
+keywords:
+- UnregisterVirtualNetwork method Virtual Server
+- UnregisterVirtualNetwork method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , UnregisterVirtualNetwork method
+- UnregisterVirtualNetwork method Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , UnregisterVirtualNetwork method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::UnregisterVirtualNetwork method
@@ -23,7 +33,7 @@ The **UnregisterVirtualNetwork** method unregisters a virtual network configurat
 
 ```C++
 HRESULT UnregisterVirtualNetwork(
-  [in] IVMVirtualNetwork *virtualNetwork
+  [in] IVMVirtualNetwork *virtualNetwork
 );
 ```
 
@@ -57,7 +67,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,8 +79,8 @@ The virtual network's configuration file is not deleted by this method.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -82,9 +92,9 @@ The virtual network's configuration file is not deleted by this method.
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

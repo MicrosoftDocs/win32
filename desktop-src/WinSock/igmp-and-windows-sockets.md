@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Sockets enables the Multicast Listener Discovery (MLD) on IPv6 and the Internet Group Management Protocol (IGMP) on IPv4 for multicast applications through the use of socket options and IOCTLs.'
-ms.assetid: 'a5de4273-e86e-4f13-b068-256cb38706d4'
+Description: Windows Sockets enables the Multicast Listener Discovery (MLD) on IPv6 and the Internet Group Management Protocol (IGMP) on IPv4 for multicast applications through the use of socket options and IOCTLs.
+ms.assetid: a5de4273-e86e-4f13-b068-256cb38706d4
 title: MLD and IGMP Using Windows Sockets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MLD and IGMP Using Windows Sockets
@@ -14,12 +19,12 @@ On Windows Vista and later, a set of socket options are available for multicast
 
 | Socket option               | Argument type                                            |
 |-----------------------------|----------------------------------------------------------|
-| MCAST\_BLOCK\_SOURCE        | [**GROUP\_SOURCE\_REQ**](group-source-req.md) structure |
-| MCAST\_JOIN\_GROUP          | [**GROUP\_REQ**](group-req.md) structure                |
-| MCAST\_JOIN\_SOURCE\_GROUP  | [**GROUP\_SOURCE\_REQ**](group-source-req.md) structure |
-| MCAST\_LEAVE\_GROUP         | [**GROUP\_REQ**](group-req.md) structure                |
-| MCAST\_LEAVE\_SOURCE\_GROUP | [**GROUP\_SOURCE\_REQ**](group-source-req.md) structure |
-| MCAST\_UNBLOCK\_SOURCE      | [**GROUP\_SOURCE\_REQ**](group-source-req.md) structure |
+| MCAST\_BLOCK\_SOURCE        | [**GROUP\_SOURCE\_REQ**](/windows/win32/Ws2ipdef/ns-ws2ipdef-group_source_req?branch=master) structure |
+| MCAST\_JOIN\_GROUP          | [**GROUP\_REQ**](/windows/win32/Ws2ipdef/ns-ws2ipdef-group_req?branch=master) structure                |
+| MCAST\_JOIN\_SOURCE\_GROUP  | [**GROUP\_SOURCE\_REQ**](/windows/win32/Ws2ipdef/ns-ws2ipdef-group_source_req?branch=master) structure |
+| MCAST\_LEAVE\_GROUP         | [**GROUP\_REQ**](/windows/win32/Ws2ipdef/ns-ws2ipdef-group_req?branch=master) structure                |
+| MCAST\_LEAVE\_SOURCE\_GROUP | [**GROUP\_SOURCE\_REQ**](/windows/win32/Ws2ipdef/ns-ws2ipdef-group_source_req?branch=master) structure |
+| MCAST\_UNBLOCK\_SOURCE      | [**GROUP\_SOURCE\_REQ**](/windows/win32/Ws2ipdef/ns-ws2ipdef-group_source_req?branch=master) structure |
 
 
 
@@ -29,8 +34,8 @@ A set of socket options are available for multicast programming that support IPv
 
 | Socket option          | Argument type                             |
 |------------------------|-------------------------------------------|
-| IPV6\_ADD\_MEMBERSHIP  | [**ipv6\_mreq**](ipv6-mreq.md) structure |
-| IPV6\_DROP\_MEMBERSHIP | [**ipv6\_mreq**](ipv6-mreq.md) structure |
+| IPV6\_ADD\_MEMBERSHIP  | [**ipv6\_mreq**](/windows/win32/Ws2ipdef/ns-ws2ipdef-ipv6_mreq?branch=master) structure |
+| IPV6\_DROP\_MEMBERSHIP | [**ipv6\_mreq**](/windows/win32/Ws2ipdef/ns-ws2ipdef-ipv6_mreq?branch=master) structure |
 
 
 
@@ -40,12 +45,12 @@ A set of socket options are available for multicast programming that support IPv
 
 | Socket option                | Argument type                                        |
 |------------------------------|------------------------------------------------------|
-| IP\_ADD\_MEMBERSHIP          | [**ip\_mreq**](ip-mreq.md) structure                |
-| IP\_ADD\_SOURCE\_MEMBERSHIP  | [**ip\_mreq\_source**](ip-mreq-source.md) structure |
-| IP\_BLOCK\_SOURCE            | [**ip\_mreq\_source**](ip-mreq-source.md) structure |
-| IP\_DROP\_MEMBERSHIP         | [**ip\_mreq**](ip-mreq.md) structure                |
-| IP\_DROP\_SOURCE\_MEMBERSHIP | [**ip\_mreq\_source**](ip-mreq-source.md) structure |
-| IP\_UNBLOCK\_SOURCE          | [**ip\_mreq\_source**](ip-mreq-source.md) structure |
+| IP\_ADD\_MEMBERSHIP          | [**ip\_mreq**](/windows/win32/Ws2ipdef/ns-ws2ipdef-ip_mreq?branch=master) structure                |
+| IP\_ADD\_SOURCE\_MEMBERSHIP  | [**ip\_mreq\_source**](/windows/win32/Ws2ipdef/ns-ws2ipdef-ip_mreq_source?branch=master) structure |
+| IP\_BLOCK\_SOURCE            | [**ip\_mreq\_source**](/windows/win32/Ws2ipdef/ns-ws2ipdef-ip_mreq_source?branch=master) structure |
+| IP\_DROP\_MEMBERSHIP         | [**ip\_mreq**](/windows/win32/Ws2ipdef/ns-ws2ipdef-ip_mreq?branch=master) structure                |
+| IP\_DROP\_SOURCE\_MEMBERSHIP | [**ip\_mreq\_source**](/windows/win32/Ws2ipdef/ns-ws2ipdef-ip_mreq_source?branch=master) structure |
+| IP\_UNBLOCK\_SOURCE          | [**ip\_mreq\_source**](/windows/win32/Ws2ipdef/ns-ws2ipdef-ip_mreq_source?branch=master) structure |
 
 
 

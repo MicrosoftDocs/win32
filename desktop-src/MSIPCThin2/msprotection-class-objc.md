@@ -4,17 +4,21 @@ description: Used for common operations such as, reset state that clears all cac
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '6C950007-07F8-4696-ABF7-64589903C25B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 6C950007-07F8-4696-ABF7-64589903C25B
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSProtection class"]
+keywords:
+- MSProtection class
 topic_type:
 - apiref
 api_name:
 - MSProtection class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSProtection class
@@ -39,7 +43,7 @@ Used for common operations such as, reset state that clears all cache.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -55,21 +59,21 @@ MSProtection.h
 
 
 
- 
+ 
 
 
 
 
 
- 
+ 
 
 ## Thread Safety
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: DTN\_CLOSEUP notification code
 description: Sent by a date and time picker (DTP) control when the user closes the drop-down month calendar.
-ms.assetid: '94ace714-55cc-4c59-8b87-8d0348b15f34'
-keywords: ["DTN_CLOSEUP notification code Windows Controls"]
+ms.assetid: 94ace714-55cc-4c59-8b87-8d0348b15f34
+keywords:
+- DTN_CLOSEUP notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTN\_CLOSEUP notification code
@@ -33,7 +39,7 @@ DTN_CLOSEUP
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHDR**](nmhdr.md) structure that contains information about the notification.
+A pointer to an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure that contains information about the notification.
 
 </dd> </dl>
 
@@ -51,8 +57,8 @@ DTP controls do not maintain a static child month calendar control. The DTP cont
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ DTP controls do not maintain a static child month calendar control. The DTP cont
 [**DTM\_GETMONTHCAL**](dtm-getmonthcal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: EM\_SETLANGOPTIONS message
 description: Sets options for Input Method Editor (IME) and Asian language support in a rich edit control.
-ms.assetid: 'd42d0512-3339-471d-a91a-114151554799'
-keywords: ["EM_SETLANGOPTIONS message Windows Controls"]
+ms.assetid: d42d0512-3339-471d-a91a-114151554799
+keywords:
+- EM_SETLANGOPTIONS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETLANGOPTIONS message
@@ -59,8 +65,8 @@ This message sets the values of all language option flags. To change a subset of
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -72,9 +78,9 @@ This message sets the values of all language option flags. To change a subset of
 [**EM\_GETLANGOPTIONS**](em-getlangoptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

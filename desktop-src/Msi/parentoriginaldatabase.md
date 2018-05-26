@@ -1,7 +1,12 @@
-﻿---
-Description: 'During a concurrent installation, the installer sets the ParentOriginalDatabase property in the concurrent installation''s session to the same value as the OriginalDatabase property in the parent installation''s session.'
-ms.assetid: '8af1c7e5-313c-47b7-be0f-0e31ef21f6a6'
+---
+Description: During a concurrent installation, the installer sets the ParentOriginalDatabase property in the concurrent installations session to the same value as the OriginalDatabase property in the parent installations session.
+ms.assetid: 8af1c7e5-313c-47b7-be0f-0e31ef21f6a6
 title: ParentOriginalDatabase property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParentOriginalDatabase property

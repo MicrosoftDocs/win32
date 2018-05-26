@@ -1,16 +1,21 @@
-﻿---
-Description: 'Signals a serious error. Any Media Foundation component can send this event at any time. Call IMFMediaEvent::GetStatus to get the error code of the operation that failed.'
-ms.assetid: 'bff80041-77d8-43b1-a410-9cefaf45eb2c'
+---
+Description: Signals a serious error. Any Media Foundation component can send this event at any time. Call IMFMediaEventGetStatus to get the error code of the operation that failed.
+ms.assetid: bff80041-77d8-43b1-a410-9cefaf45eb2c
 title: MEError event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEError event
 
-Signals a serious error. Any Media Foundation component can send this event at any time. Call [**IMFMediaEvent::GetStatus**](imfmediaevent-getstatus.md) to get the error code of the operation that failed.
+Signals a serious error. Any Media Foundation component can send this event at any time. Call [**IMFMediaEvent::GetStatus**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getstatus?branch=master) to get the error code of the operation that failed.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

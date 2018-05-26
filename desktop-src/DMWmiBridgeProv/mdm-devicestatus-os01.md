@@ -1,8 +1,10 @@
 ---
 title: MDM\_DeviceStatus\_OS01 class
 description: The MDM\_DeviceStatus\_OS01 class is used by the enterprise to query the operating system on devices with their enterprise policies.
-ms.assetid: '887dc453-f6b5-4f09-8ce1-b87f71dd8396'
-keywords: ["MDM_DeviceStatus_OS01 class", "MDM_DeviceStatus_OS01 class, described"]
+ms.assetid: 887dc453-f6b5-4f09-8ce1-b87f71dd8396
+keywords:
+- MDM_DeviceStatus_OS01 class
+- MDM_DeviceStatus_OS01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_DeviceStatus\_OS01 class
@@ -96,7 +103,7 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -104,9 +111,9 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 
 
- 
+ 
 
- 
+ 
 
 
 

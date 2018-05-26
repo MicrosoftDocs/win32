@@ -1,8 +1,11 @@
 ---
 title: Player.Click event
 description: The Click event occurs when the user clicks a mouse button.
-ms.assetid: 'c2d5fab9-9b53-4d0c-a001-8cbf4430e713'
-keywords: ["Click event Windows Media Player", "Click event Windows Media Player , Player class", "Player class Windows Media Player , Click event"]
+ms.assetid: c2d5fab9-9b53-4d0c-a001-8cbf4430e713
+keywords:
+- Click event Windows Media Player
+- Click event Windows Media Player , Player class
+- Player class Windows Media Player , Click event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.Click event
@@ -91,9 +99,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

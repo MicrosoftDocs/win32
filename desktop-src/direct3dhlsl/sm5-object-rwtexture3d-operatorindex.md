@@ -1,14 +1,20 @@
 ---
 title: Operator\ \ function
 description: Returns a resource variable of a RWTexture3D.
-ms.assetid: '0b4ea895-ac34-49e5-80e6-74229c33bfe9'
-keywords: ["Operator function HLSL"]
+ms.assetid: 0b4ea895-ac34-49e5-80e6-74229c33bfe9
+keywords:
+- Operator function HLSL
 topic_type:
 - apiref
 api_name:
 - Operator
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operator\[\] function

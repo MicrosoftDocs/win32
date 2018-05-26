@@ -1,7 +1,12 @@
 ---
-Description: 'Tracking Non-Allocated Resources'
-ms.assetid: 'ebaca876-5249-4b6b-b0d5-08f098e3f5f5'
-title: 'Tracking Non-Allocated Resources'
+Description: Tracking Non-Allocated Resources
+ms.assetid: ebaca876-5249-4b6b-b0d5-08f098e3f5f5
+title: Tracking Non-Allocated Resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tracking Non-Allocated Resources

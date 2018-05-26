@@ -1,7 +1,12 @@
 ---
-Description: 'The ICertStore interface exposes the following methods.'
-ms.assetid: 'F5071DEC-7FD9-4786-8D68-8AF6B849606D'
+Description: The ICertStore interface exposes the following methods.
+ms.assetid: F5071DEC-7FD9-4786-8D68-8AF6B849606D
 title: ICertStore Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertStore Methods

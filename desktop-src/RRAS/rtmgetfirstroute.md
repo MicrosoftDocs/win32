@@ -1,8 +1,9 @@
 ---
 title: RtmGetFirstRoute function
 description: The RtmGetFirstRoute function returns the first route from the specified subset of routes in the table.
-ms.assetid: 'f2071b50-4b06-432f-8dbf-45696f8a5cb1'
-keywords: ["RtmGetFirstRoute function RAS"]
+ms.assetid: f2071b50-4b06-432f-8dbf-45696f8a5cb1
+keywords:
+- RtmGetFirstRoute function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtmGetFirstRoute function
@@ -24,9 +30,9 @@ The **RtmGetFirstRoute** function returns the first route from the specified sub
 
 ```C++
 DWORD RtmGetFirstRoute(
-  _In_    DWORD ProtocolFamily,
-  _In_    DWORD EnumerationFlags,
-  _Inout_ PVOID Route
+  _In_    DWORD ProtocolFamily,
+  _In_    DWORD EnumerationFlags,
+  _Inout_ PVOID Route
 );
 ```
 
@@ -77,7 +83,7 @@ If the function fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -97,8 +103,8 @@ This function is less efficient than the corresponding enumeration handle functi
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
-| End of server support<br/>    | Windows Server 2003<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| End of server support<br/>    | Windows Server 2003<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Rtm.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
@@ -127,9 +133,9 @@ This function is less efficient than the corresponding enumeration handle functi
 [**RtmGetNextRoute**](rtmgetnextroute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

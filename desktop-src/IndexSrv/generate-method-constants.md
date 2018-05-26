@@ -1,7 +1,12 @@
 ---
 title: Generate Method Constants
 description: Generate Method Constants
-ms.assetid: '4e71c840-885d-4274-8011-0a8efbb374b6'
+ms.assetid: 4e71c840-885d-4274-8011-0a8efbb374b6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generate Method Constants

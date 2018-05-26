@@ -1,14 +1,20 @@
 ---
 title: ExitValueMeaning element
 description: Indicates whether the exit value means success or is a HRESULT.
-ms.assetid: '338AAC69-4B23-4E23-9627-443EE93412E2'
-keywords: ["ExitValueMeaning element Access Execution Engine"]
+ms.assetid: 338AAC69-4B23-4E23-9627-443EE93412E2
+keywords:
+- ExitValueMeaning element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ExitValueMeaning
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExitValueMeaning element
@@ -78,9 +84,9 @@ Although Windows treats process exit values as unsigned values, some executables
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

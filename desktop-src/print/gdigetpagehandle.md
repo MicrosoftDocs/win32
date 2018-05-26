@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GdiGetPageHandle function returns a handle to the specified page within a print job.'
-ms.assetid: '7eaed9d2-20fa-4cf1-b924-fbe1443535e9'
+---
+Description: The GdiGetPageHandle function returns a handle to the specified page within a print job.
+ms.assetid: 7eaed9d2-20fa-4cf1-b924-fbe1443535e9
 title: GdiGetPageHandle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GdiGetPageHandle function

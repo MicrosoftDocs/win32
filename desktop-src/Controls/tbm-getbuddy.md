@@ -1,8 +1,9 @@
 ---
 title: TBM\_GETBUDDY message
-description: Retrieves the handle to a trackbar control buddy window at a given location. The specified location is relative to the control's orientation (horizontal or vertical).
-ms.assetid: '69e4e467-150d-4505-b1c2-2ed9dd83f1a6'
-keywords: ["TBM_GETBUDDY message Windows Controls"]
+description: Retrieves the handle to a trackbar control buddy window at a given location. The specified location is relative to the controls orientation (horizontal or vertical).
+ms.assetid: 69e4e467-150d-4505-b1c2-2ed9dd83f1a6
+keywords:
+- TBM_GETBUDDY message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_GETBUDDY message
@@ -35,7 +41,7 @@ Value indicating which buddy window handle will be retrieved, by relative locati
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -52,15 +58,15 @@ Returns the handle to the buddy window at the location specified by *wParam*, or
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

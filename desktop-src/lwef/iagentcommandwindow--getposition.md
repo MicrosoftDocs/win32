@@ -1,7 +1,12 @@
 ---
 title: IAgentCommandWindow GetPosition
 description: IAgentCommandWindow GetPosition
-ms.assetid: 'd85a7a2c-f0ea-4612-aa73-2e44c49e4e18'
+ms.assetid: d85a7a2c-f0ea-4612-aa73-2e44c49e4e18
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCommandWindow::GetPosition

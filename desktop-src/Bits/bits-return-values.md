@@ -1,8 +1,15 @@
 ---
 title: BITS Return Values
 description: The Bitsmsg.h file contains the following return value constants.
-ms.assetid: '8df5022a-b161-4558-9d60-efdbdf1754d6'
-keywords: ["errors BITS", "errors BITS ,codes"]
+ms.assetid: 8df5022a-b161-4558-9d60-efdbdf1754d6
+keywords:
+- errors BITS
+- errors BITS ,codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITS Return Values
@@ -16,7 +23,7 @@ Note that the Bitsmsg.h file contains additional return values not listed below.
 <span id="BG_S_PARTIAL_COMPLETE__0x00200017_"></span><span id="bg_s_partial_complete__0x00200017_"></span><span id="BG_S_PARTIAL_COMPLETE__0X00200017_"></span>BG\_S\_PARTIAL\_COMPLETE (0x00200017)
 </dt> <dd>
 
-A subset of the job's files transferred successfully before the [**IBackgroundCopyJob::Complete**](ibackgroundcopyjob-complete.md) method was called. Those that were not complete were deleted.
+A subset of the job's files transferred successfully before the [**IBackgroundCopyJob::Complete**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-complete?branch=master) method was called. Those that were not complete were deleted.
 
 </dd> <dt>
 
@@ -247,7 +254,7 @@ Group Policy settings prevent background jobs from running at this time. For det
 <span id="BG_E_INVALID_PROXY_INFO__0x8020003F_"></span><span id="bg_e_invalid_proxy_info__0x8020003f_"></span><span id="BG_E_INVALID_PROXY_INFO__0X8020003F_"></span>BG\_E\_INVALID\_PROXY\_INFO (0x8020003F)
 </dt> <dd>
 
-Run-time error that indicates the proxy list or proxy bypass list that you specified using the [**IBackgroundCopyJob::SetProxySettings**](ibackgroundcopyjob-setproxysettings.md) method is invalid.
+Run-time error that indicates the proxy list or proxy bypass list that you specified using the [**IBackgroundCopyJob::SetProxySettings**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-setproxysettings?branch=master) method is invalid.
 
 </dd> <dt>
 

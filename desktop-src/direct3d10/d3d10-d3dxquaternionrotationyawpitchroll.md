@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a quaternion with the given yaw, pitch, and roll.'
-ms.assetid: 'c929d9d4-b9cb-4de6-86c1-26fec3617846'
+---
+Description: Builds a quaternion with the given yaw, pitch, and roll.
+ms.assetid: c929d9d4-b9cb-4de6-86c1-26fec3617846
 title: D3DXQuaternionRotationYawPitchRoll function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionRotationYawPitchRoll function

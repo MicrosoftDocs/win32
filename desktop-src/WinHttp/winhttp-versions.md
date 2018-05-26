@@ -1,7 +1,12 @@
 ---
-Description: 'Users of Microsoft Windows HTTP Services (WinHTTP) should use the latest version of the technology, version 5.1. Version 5.0 is no longer supported.'
-ms.assetid: 'b69e5087-7849-4cbc-a97b-204a26fdd044'
+Description: Users of Microsoft Windows HTTP Services (WinHTTP) should use the latest version of the technology, version 5.1. Version 5.0 is no longer supported.
+ms.assetid: b69e5087-7849-4cbc-a97b-204a26fdd044
 title: WinHTTP Versions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinHTTP Versions

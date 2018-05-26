@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables or disables a track in the animation controller.'
-ms.assetid: '8d06287b-e076-4553-962c-5c423e355101'
-title: 'ID3DXAnimationController::SetTrackEnable method'
+---
+Description: Enables or disables a track in the animation controller.
+ms.assetid: 8d06287b-e076-4553-962c-5c423e355101
+title: ID3DXAnimationControllerSetTrackEnable method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::SetTrackEnable method

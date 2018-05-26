@@ -2,7 +2,13 @@
 title: Saving Preprocessor Output
 description: Viewing preprocessor output can be an effective troubleshooting method, such as when invalid IDL, C, or C-preprocessor syntax occurs, or when bogus -D values on the MIDL command line result in MIDL reporting arcane errors.
 ms.assetid: 79c53f0c-c179-4731-a2c3-a1022d378e7b
-keywords: ["MIDL compiler MIDL , saving preprocessor output"]
+keywords:
+- MIDL compiler MIDL , saving preprocessor output
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Saving Preprocessor Output

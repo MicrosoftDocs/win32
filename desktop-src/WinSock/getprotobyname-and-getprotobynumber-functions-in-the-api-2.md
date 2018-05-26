@@ -1,12 +1,17 @@
 ---
-Description: 'The getprotobyname and getprotobynumber functions are implemented within the Ws2\_32.dll by consulting a local protocols database. They do not result in any name resolution query.'
-ms.assetid: 'e344c580-c81b-446a-93bb-6acf8f5a9f17'
+Description: The getprotobyname and getprotobynumber functions are implemented within the Ws2\_32.dll by consulting a local protocols database. They do not result in any name resolution query.
+ms.assetid: e344c580-c81b-446a-93bb-6acf8f5a9f17
 title: getprotobyname and getprotobynumber Functions in the API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # getprotobyname and getprotobynumber Functions in the API
 
-The [**getprotobyname**](getprotobyname-2.md) and [**getprotobynumber**](getprotobynumber-2.md) functions are implemented within the Ws2\_32.dll by consulting a local protocols database. They do not result in any name resolution query.
+The [**getprotobyname**](/windows/win32/winsock/nf-winsock-getprotobyname?branch=master) and [**getprotobynumber**](/windows/win32/winsock/nf-winsock-getprotobynumber?branch=master) functions are implemented within the Ws2\_32.dll by consulting a local protocols database. They do not result in any name resolution query.
 
 ## Related topics
 

@@ -4,17 +4,22 @@ description: Provides the Role of the network in the cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1ab1382e-15ca-4438-afec-28bc5071c811'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1ab1382e-15ca-4438-afec-28bc5071c811
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Role Failover Cluster ,for networks", "Role Failover Cluster"]
+keywords:
+- Role Failover Cluster ,for networks
+- Role Failover Cluster
 topic_type:
 - apiref
 api_name:
 - Role
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Role
@@ -27,18 +32,18 @@ Provides the **Role** of the [network](networks.md) in the [*cluster*](c-gly.md#
 |----------------------|--------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                   |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>     |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/>   |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/>   |
 | Minimum<br/>   | **ClusterNetworkRoleNone** (0)<br/>              |
 | Maximum<br/>   | **ClusterNetworkRoleInternalAndClient** (3)<br/> |
 | Default<br/>   | **ClusterNetworkRoleInternalAndClient**<br/>     |
 
 
 
- 
+ 
 
 ## Remarks
 
-The data value for the **Role** property can be set to one of the following values of the [**CLUSTER\_NETWORK\_ROLE**](cluster-network-role.md) enumeration.
+The data value for the **Role** property can be set to one of the following values of the [**CLUSTER\_NETWORK\_ROLE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_network_role?branch=master) enumeration.
 
 
 
@@ -51,7 +56,7 @@ The data value for the **Role** property can be set to one of the following valu
 
 
 
- 
+ 
 
 There are some restrictions to the data value. If any [IP Address](ip-address.md) resources reference this network, the **Role** property may not be changed to **ClusterNetworkRoleNone** or **ClusterNetworkRoleInternalUse**. If this network is the only one used for internal cluster communication, the **Role** property may not be changed to **ClusterNetworkRoleNone** or **ClusterNetworkRoleClientAccess**.
 
@@ -78,7 +83,7 @@ RoleValue.dw        = RoleData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -89,15 +94,15 @@ RoleValue.dw        = RoleData;
 [Network Common Properties](common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**CLUSTER\_NETWORK\_ROLE**](cluster-network-role.md)
+[**CLUSTER\_NETWORK\_ROLE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_network_role?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

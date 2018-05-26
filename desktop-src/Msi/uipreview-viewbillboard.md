@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ViewBillboard method of the UIPreview object displays an authored billboard using the host control in the currently displayed dialog box.'
-ms.assetid: 'c51c1a5b-af53-47a8-9281-e790efadcfc4'
-title: 'UIPreview.ViewBillboard method'
+---
+Description: The ViewBillboard method of the UIPreview object displays an authored billboard using the host control in the currently displayed dialog box.
+ms.assetid: c51c1a5b-af53-47a8-9281-e790efadcfc4
+title: UIPreview.ViewBillboard method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UIPreview.ViewBillboard method

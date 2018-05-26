@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_SET\_CALLBACK\_ERROR message
 description: The WM\_CAP\_SET\_CALLBACK\_ERROR message sets an error callback function in the client application. AVICap calls this procedure when errors occur. You can send this message explicitly or by using the capSetCallbackOnError macro.
-ms.assetid: '4eb57515-9b5a-466c-bbaa-fdee3bca19db'
-keywords: ["WM_CAP_SET_CALLBACK_ERROR message Windows Multimedia"]
+ms.assetid: 4eb57515-9b5a-466c-bbaa-fdee3bca19db
+keywords:
+- WM_CAP_SET_CALLBACK_ERROR message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_SET\_CALLBACK\_ERROR message
 
-The **WM\_CAP\_SET\_CALLBACK\_ERROR** message sets an error callback function in the client application. AVICap calls this procedure when errors occur. You can send this message explicitly or by using the [**capSetCallbackOnError**](capsetcallbackonerror.md) macro.
+The **WM\_CAP\_SET\_CALLBACK\_ERROR** message sets an error callback function in the client application. AVICap calls this procedure when errors occur. You can send this message explicitly or by using the [**capSetCallbackOnError**](/windows/win32/Vfw/nf-vfw-capsetcallbackonerror?branch=master) macro.
 
 
 ```C++
@@ -33,7 +39,7 @@ lParam = (LPARAM) (LPVOID) (fpProc);
 <span id="fpProc"></span><span id="fpproc"></span><span id="FPPROC"></span>*fpProc*
 </dt> <dd>
 
-Pointer to the error callback function, of type [**capErrorCallback**](caperrorcallback.md). Specify **NULL** for this parameter to disable a previously installed error callback function.
+Pointer to the error callback function, of type [**capErrorCallback**](/windows/win32/Vfw/nc-vfw-caperrorcallbacka?branch=master). Specify **NULL** for this parameter to disable a previously installed error callback function.
 
 </dd> </dl>
 
@@ -57,8 +63,8 @@ Applications can optionally set an error callback function. If set, AVICap calls
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -73,9 +79,9 @@ Applications can optionally set an error callback function. If set, AVICap calls
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

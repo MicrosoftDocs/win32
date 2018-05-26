@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_EXPOSURE\_METERING\_MODES enumeration type describes the metering mode to use when estimating exposure for still image capture by a device.'
-ms.assetid: '5e92013c-600d-4128-ab59-1cfa8953db67'
-title: 'WPD\_EXPOSURE\_METERING\_MODES enumeration'
+Description: The WPD\_EXPOSURE\_METERING\_MODES enumeration type describes the metering mode to use when estimating exposure for still image capture by a device.
+ms.assetid: 5e92013c-600d-4128-ab59-1cfa8953db67
+title: WPD\_EXPOSURE\_METERING\_MODES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_EXPOSURE\_METERING\_MODES enumeration
@@ -13,11 +18,11 @@ The **WPD\_EXPOSURE\_METERING\_MODES** enumeration type describes the metering m
 
 ```C++
 typedef enum WPD_EXPOSURE_METERING_MODES { 
-  WPD_EXPOSURE_METERING_MODE_UNDEFINED                = 0,
-  WPD_EXPOSURE_METERING_MODE_AVERAGE                  = 1,
-  WPD_EXPOSURE_METERING_MODE_CENTER_WEIGHTED_AVERAGE  = 2,
-  WPD_EXPOSURE_METERING_MODE_MULTI_SPOT               = 3,
-  WPD_EXPOSURE_METERING_MODE_CENTER_SPOT              = 4
+  WPD_EXPOSURE_METERING_MODE_UNDEFINED                = 0,
+  WPD_EXPOSURE_METERING_MODE_AVERAGE                  = 1,
+  WPD_EXPOSURE_METERING_MODE_CENTER_WEIGHTED_AVERAGE  = 2,
+  WPD_EXPOSURE_METERING_MODE_MULTI_SPOT               = 3,
+  WPD_EXPOSURE_METERING_MODE_CENTER_SPOT              = 4
 } ;
 ```
 
@@ -83,9 +88,9 @@ Indicates the metering mode of the device. This enumeration is used by the [WPD\
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

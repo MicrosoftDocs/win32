@@ -1,13 +1,16 @@
 ---
-Description: 'The SubclassesAsync\_ method of SWbemObject asynchronously supplies the subclasses of the current object, which must be a class.'
+Description: The SubclassesAsync\_ method of SWbemObject asynchronously supplies the subclasses of the current object, which must be a class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '14d4a609-3aa4-49bd-bea4-6a71bc24d9dd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 14d4a609-3aa4-49bd-bea4-6a71bc24d9dd
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.SubclassesAsync\_ method'
+title: SWbemObject.SubclassesAsync\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.SubclassesAsync\_ method
@@ -178,8 +181,8 @@ It is not an error for the returned collection to have zero elements if there ar
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -201,9 +204,9 @@ It is not an error for the returned collection to have zero elements if there ar
 [**SWbemRefreshableItem**](swbemrefreshableitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

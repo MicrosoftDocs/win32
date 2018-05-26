@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a line within a Paragraph.'
-ms.assetid: 'ff6a97ad-0e48-4128-8f94-24802b6ddc05'
+Description: Contains a line within a Paragraph.
+ms.assetid: ff6a97ad-0e48-4128-8f94-24802b6ddc05
 title: Line Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Line Element
@@ -38,7 +43,7 @@ None.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -50,9 +55,9 @@ None.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

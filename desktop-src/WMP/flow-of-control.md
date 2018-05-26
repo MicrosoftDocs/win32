@@ -1,8 +1,25 @@
 ---
 title: Flow of Control
 description: Flow of Control
-ms.assetid: 'b91c0191-1908-4d62-96ce-927d09c70f9a'
-keywords: ["visualizations,program flow", "custom visualizations,program flow", "visualizations,flow of control", "custom visualizations,flow of control", "visualizations,timed events", "custom visualizations,timed events", "visualizations,Render function", "custom visualizations,Render function", "visualizations,RenderWindow function", "custom visualizations,RenderWindow function", "Render function,visualization program flow", "RenderWindow function"]
+ms.assetid: b91c0191-1908-4d62-96ce-927d09c70f9a
+keywords:
+- visualizations,program flow
+- custom visualizations,program flow
+- visualizations,flow of control
+- custom visualizations,flow of control
+- visualizations,timed events
+- custom visualizations,timed events
+- visualizations,Render function
+- custom visualizations,Render function
+- visualizations,RenderWindow function
+- custom visualizations,RenderWindow function
+- Render function,visualization program flow
+- RenderWindow function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flow of Control

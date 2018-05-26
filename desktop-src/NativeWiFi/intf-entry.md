@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains detailed information about an interface that is required by an RPC client.'
-ms.assetid: '92e734f3-eacb-44dc-9016-88dc6e9f04b6'
-title: 'INTF\_ENTRY structure'
+---
+Description: Contains detailed information about an interface that is required by an RPC client.
+ms.assetid: 92e734f3-eacb-44dc-9016-88dc6e9f04b6
+title: INTF\_ENTRY structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INTF\_ENTRY structure

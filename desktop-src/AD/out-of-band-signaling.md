@@ -4,10 +4,13 @@ description: Cooperating applications that share common data using the directory
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '82960273-5cda-44d2-bc17-d604f34f5a9b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 82960273-5cda-44d2-bc17-d604f34f5a9b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Out-of-Band Signaling

@@ -4,17 +4,21 @@ description: Controls the amount of time, in seconds, that the membership leader
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '99A81DDF-F7A8-43F6-BFC9-3B0A1A3F38A0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 99A81DDF-F7A8-43F6-BFC9-3B0A1A3F38A0
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusSvcRegroupPruningTimeout Failover Cluster"]
+keywords:
+- ClusSvcRegroupPruningTimeout Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ClusSvcRegroupPruningTimeout
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusSvcRegroupPruningTimeout
@@ -27,14 +31,14 @@ Controls the amount of time, in seconds, that the membership leader waits to rea
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 1                                         |
 | Maximum   | 30                                        |
 | Default   | 5                                         |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -43,7 +47,7 @@ Controls the amount of time, in seconds, that the membership leader waits to rea
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -54,9 +58,9 @@ Controls the amount of time, in seconds, that the membership leader waits to rea
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

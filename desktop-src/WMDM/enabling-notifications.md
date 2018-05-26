@@ -1,8 +1,19 @@
 ---
 title: Enabling Notifications
 description: Enabling Notifications
-ms.assetid: 'b4fc7714-a7d0-409f-a47c-4903bab883cc'
-keywords: ["Windows Media Device Manager,notifications", "Device Manager,notifications", "programming guide,notifications", "desktop applications,notifications", "creating Windows Media Device Manager applications,notifications", "notifications"]
+ms.assetid: b4fc7714-a7d0-409f-a47c-4903bab883cc
+keywords:
+- Windows Media Device Manager,notifications
+- Device Manager,notifications
+- programming guide,notifications
+- desktop applications,notifications
+- creating Windows Media Device Manager applications,notifications
+- notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling Notifications
@@ -13,12 +24,12 @@ Windows Media Device Manager declares four interfaces that an application can im
 
 | Interfaces                                                                                                                                                | Description                                                                                                                                                                   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IWMDMNotification**](iwmdmnotification.md)                                                                                                            | Notifies the application when devices or storage media are connected or disconnected.                                                                                         |
-| [**IWMDMProgress**](iwmdmprogress.md)<br/> [**IWMDMProgress2**](iwmdmprogress2.md)<br/> [**IWMDMProgress3**](iwmdmprogress3.md)<br/> | A very simple notification system to alert an application about the progress of any event. The application is not required to take any actions in response to these messages. |
+| [**IWMDMNotification**](/windows/win32/mswmdm/nn-mswmdm-iwmdmnotification?branch=master)                                                                                                            | Notifies the application when devices or storage media are connected or disconnected.                                                                                         |
+| [**IWMDMProgress**](/windows/win32/mswmdm/nn-mswmdm-iwmdmprogress?branch=master)<br/> [**IWMDMProgress2**](/windows/win32/mswmdm/nn-mswmdm-iwmdmprogress2?branch=master)<br/> [**IWMDMProgress3**](/windows/win32/mswmdm/nn-mswmdm-iwmdmprogress3?branch=master)<br/> | A very simple notification system to alert an application about the progress of any event. The application is not required to take any actions in response to these messages. |
 
 
 
- 
+ 
 
 **IWMDMNotification**
 
@@ -112,23 +123,23 @@ HRESULT CWMDMController::UnregisterForNotifications()
 
 **Using IWMDMProgress**
 
-Windows Media Device Manager can send your application status messages when specific actions, such as content transfer, secure clock acquisition, and encountering DRM file information, occur. Your application can use these messages to monitor the status of the event or cancel an event. To use this interface, implement [**IWMDMProgress**](iwmdmprogress.md), [**IWMDMProgress2**](iwmdmprogress2.md), or [**IWMDMProgress3**](iwmdmprogress3.md), and pass it in as a parameter to a method that will accept a progress message. Note that **IWMDMProgress3** is the superior interface because it provides an identification GUID that specifies what action is being tracked. The following application methods accept a progress interface (the corresponding service provider methods should be able to send notifications to a submitted interface):
+Windows Media Device Manager can send your application status messages when specific actions, such as content transfer, secure clock acquisition, and encountering DRM file information, occur. Your application can use these messages to monitor the status of the event or cancel an event. To use this interface, implement [**IWMDMProgress**](/windows/win32/mswmdm/nn-mswmdm-iwmdmprogress?branch=master), [**IWMDMProgress2**](/windows/win32/mswmdm/nn-mswmdm-iwmdmprogress2?branch=master), or [**IWMDMProgress3**](/windows/win32/mswmdm/nn-mswmdm-iwmdmprogress3?branch=master), and pass it in as a parameter to a method that will accept a progress message. Note that **IWMDMProgress3** is the superior interface because it provides an identification GUID that specifies what action is being tracked. The following application methods accept a progress interface (the corresponding service provider methods should be able to send notifications to a submitted interface):
 
-[**IWMDMStorageControl::Delete**](iwmdmstoragecontrol-delete.md)
+[**IWMDMStorageControl::Delete**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol-delete?branch=master)
 
-[**IWMDMStorageControl::Insert**](iwmdmstoragecontrol-insert.md)
+[**IWMDMStorageControl::Insert**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol-insert?branch=master)
 
-[**IWMDMStorageControl::Move**](iwmdmstoragecontrol-move.md)
+[**IWMDMStorageControl::Move**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol-move?branch=master)
 
-[**IWMDMStorageControl::Read**](iwmdmstoragecontrol-read.md)
+[**IWMDMStorageControl::Read**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol-read?branch=master)
 
-[**IWMDMStorageControl::Rename**](iwmdmstoragecontrol-rename.md)
+[**IWMDMStorageControl::Rename**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol-rename?branch=master)
 
-[**IWMDMStorageControl2::Insert2**](iwmdmstoragecontrol2-insert2.md)
+[**IWMDMStorageControl2::Insert2**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol2-insert2?branch=master)
 
-[**IWMDMStorageControl3::Insert3**](iwmdmstoragecontrol3-insert3.md)
+[**IWMDMStorageControl3::Insert3**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3?branch=master)
 
-[**IWMDMStorageGlobals::Initialize**](iwmdmstorageglobals-initialize.md)
+[**IWMDMStorageGlobals::Initialize**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorageglobals-initialize?branch=master)
 
 [**IWMDRMDeviceApp::AcquireDeviceData**](iwmdrmdeviceapp-acquiredevicedata.md)
 
@@ -141,9 +152,9 @@ Examples of passing an interface into a method are given in the documentation fo
 [**Creating a Windows Media Device Manager Application**](creating-a-windows-media-device-manager-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

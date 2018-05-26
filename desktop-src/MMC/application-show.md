@@ -1,14 +1,19 @@
 ---
-title: \_Application Show method
+title: '\_Application Show method'
 description: The Show method causes the MMC application to be viewable. This method sets the Visible property to 1.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '17875b21-e102-4755-a1d3-cde141ffe57d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 17875b21-e102-4755-a1d3-cde141ffe57d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Show method MMC", "Show method MMC , Application object", "Application object MMC , Show method", "Show method MMC , _Application interface", "_Application interface MMC , Show method"]
+keywords:
+- Show method MMC
+- Show method MMC , Application object
+- Application object MMC , Show method
+- Show method MMC , _Application interface
+- _Application interface MMC , Show method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_Application::Show method
@@ -57,8 +65,8 @@ objMMC.Show
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -80,9 +88,9 @@ objMMC.Show
 [Controlling the Lifetime of an MMC Instance](controlling-the-lifetime-of-an-mmc-instance.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

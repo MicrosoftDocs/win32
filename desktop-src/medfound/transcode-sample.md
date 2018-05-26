@@ -1,7 +1,12 @@
 ---
-Description: 'Shows how to reencode a media file to Windows Media format.'
-ms.assetid: '1e958f26-3ac1-4b20-abf5-d8a65ba38112'
+Description: Shows how to reencode a media file to Windows Media format.
+ms.assetid: 1e958f26-3ac1-4b20-abf5-d8a65ba38112
 title: Transcode Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transcode Sample
@@ -12,10 +17,10 @@ Shows how to reencode a media file to Windows Media format.
 
 This sample demonstrates the following APIs.
 
--   [**IMFMediaSession**](imfmediasession.md)
--   [**IMFMediaSource**](imfmediasource.md)
--   [**IMFTopology**](imftopology.md)
--   [**IMFTranscodeProfile**](imftranscodeprofile.md)
+-   [**IMFMediaSession**](/windows/win32/mfidl/nn-mfidl-imfmediasession?branch=master)
+-   [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master)
+-   [**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master)
+-   [**IMFTranscodeProfile**](/windows/win32/mfidl/nn-mfidl-imftranscodeprofile?branch=master)
 
 ## Requirements
 

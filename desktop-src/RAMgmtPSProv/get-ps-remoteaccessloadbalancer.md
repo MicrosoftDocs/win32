@@ -2,13 +2,16 @@
 title: Get method of the PS\_RemoteAccessLoadBalancer class
 description: This cmdlet displays the load balancing configuration.
 audience: developer
-ms.assetid: 'c1c49050-38ae-49a7-80f2-d99d4596afd3'
-ms.prod: 'windows-server-dev'
+ms.assetid: c1c49050-38ae-49a7-80f2-d99d4596afd3
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_RemoteAccessLoadBalancer class", "PS_RemoteAccessLoadBalancer class, Get method"]
+keywords:
+- Get method
+- Get method, PS_RemoteAccessLoadBalancer class
+- PS_RemoteAccessLoadBalancer class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_RemoteAccessLoadBalancer class
@@ -28,10 +34,10 @@ This cmdlet displays the load balancing configuration.
 
 ```mof
 uint32 Get(
-  [in]  string                   ComputerName,
-  [in]  string                   EntrypointName,
-  [in]  boolean                  Brief,
-  [out] RemoteAccessLoadBalancer cmdletOutput
+  [in]  string                   ComputerName,
+  [in]  string                   EntrypointName,
+  [in]  boolean                  Brief,
+  [out] RemoteAccessLoadBalancer cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ This is a switch parameter which suppresses the retrieval of node status.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ This is a switch parameter which suppresses the retrieval of node status.
 [**PS\_RemoteAccessLoadBalancer**](ps-remoteaccessloadbalancer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

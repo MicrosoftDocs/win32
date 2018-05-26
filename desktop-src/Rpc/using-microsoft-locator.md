@@ -1,8 +1,14 @@
 ---
 title: Using Microsoft Locator
 description: Microsoft Locator is the default name service. The RPC run-time library uses it to find server programs on server host systems.
-ms.assetid: '8481de50-4e72-432d-aef7-524f18f5c9c4'
-keywords: ["Remote Procedure Call RPC , tasks, using Microsoft Locator"]
+ms.assetid: 8481de50-4e72-432d-aef7-524f18f5c9c4
+keywords:
+- Remote Procedure Call RPC , tasks, using Microsoft Locator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Microsoft Locator
@@ -25,7 +31,7 @@ With the release of Windows 2000, Microsoft Locator now supports name service e
 
 In addition, the current version of Microsoft Locator supports the use of Access Control Lists in name service entries. This ability enhances the security of the network.
 
-Plug and Play support is now included in Microsoft Locator. Therefore, it can transparently handle Plug and Play events such as domain changes. For more information, see [**RpcNsBindingExportPnP**](rpcnsbindingexportpnp.md) and [**RpcNsBindingUnexportPnP**](rpcnsbindingunexportpnp.md).
+Plug and Play support is now included in Microsoft Locator. Therefore, it can transparently handle Plug and Play events such as domain changes. For more information, see [**RpcNsBindingExportPnP**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingexportpnpa?branch=master) and [**RpcNsBindingUnexportPnP**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingunexportpnpa?branch=master).
 
  
 

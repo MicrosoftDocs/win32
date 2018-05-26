@@ -1,8 +1,10 @@
 ---
 title: MSFT\_Disk class
 description: Represents a Windows disk.
-ms.assetid: 'a3703b30-5e32-4bcf-9abd-fd3fb67fa6b6'
-keywords: ["MSFT_Disk class Windows Storage Management API", "MSFT_Disk class Windows Storage Management API , described"]
+ms.assetid: a3703b30-5e32-4bcf-9abd-fd3fb67fa6b6
+keywords:
+- MSFT_Disk class Windows Storage Management API
+- MSFT_Disk class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_Disk class
@@ -56,31 +63,31 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 ``` syntax
 class MSFT_Disk : MSFT_StorageObject
 {
-  String  Path;
-  String  Location;
-  String  FriendlyName;
-  String  UniqueId;
-  UInt16  UniqueIdFormat;
-  UInt32  Number;
-  String  SerialNumber;
-  String  FirmwareVersion;
-  String  Manufacturer;
-  String  Model;
-  UInt64  Size;
-  UInt64  AllocatedSize;
-  UInt32  LogicalSectorSize;
-  UInt32  PhysicalSectorSize;
-  UInt64  LargestFreeExtent;
-  UInt32  NumberOfPartitions;
-  UInt16  ProvisioningType;
-  UInt16  OperationalStatus;
-  UInt16  HealthStatus;
-  UInt16  BusType;
-  UInt16  PartitionStyle;
-  UInt32  Signature;
-  String  Guid;
+  String  Path;
+  String  Location;
+  String  FriendlyName;
+  String  UniqueId;
+  UInt16  UniqueIdFormat;
+  UInt32  Number;
+  String  SerialNumber;
+  String  FirmwareVersion;
+  String  Manufacturer;
+  String  Model;
+  UInt64  Size;
+  UInt64  AllocatedSize;
+  UInt32  LogicalSectorSize;
+  UInt32  PhysicalSectorSize;
+  UInt64  LargestFreeExtent;
+  UInt32  NumberOfPartitions;
+  UInt16  ProvisioningType;
+  UInt16  OperationalStatus;
+  UInt16  HealthStatus;
+  UInt16  BusType;
+  UInt16  PartitionStyle;
+  UInt32  Signature;
+  String  Guid;
   Boolean IsOffline;
-  UInt16  OfflineReason;
+  UInt16  OfflineReason;
   Boolean IsReadOnly;
   Boolean IsSystem;
   Boolean IsClustered;
@@ -115,7 +122,7 @@ The **MSFT\_Disk** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -188,7 +195,7 @@ The I/O bus type used by the disk.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -255,7 +262,7 @@ The health status of the disk device.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -354,7 +361,7 @@ A string that contains the PnP location path of the disk. The format of this str
 > [!Note]  
 > For Hyper-V and VHD images, this property is **NULL**, because the virtual controller does not return the location path.
 
- 
+ 
 
 For more information about this property, see the following Remarks section.
 
@@ -455,7 +462,7 @@ One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -500,7 +507,7 @@ The operational status of the disk device.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -528,7 +535,7 @@ The partition style used by the disk.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -585,7 +592,7 @@ The provisioning type of the disk device.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -716,7 +723,7 @@ If the bus type is IDE, PATA, or SATA, it appears as ATA in the location path st
 
 
 
- 
+ 
 
 The following table contains examples of location paths.
 
@@ -731,9 +738,9 @@ The following table contains examples of location paths.
 
 
 
- 
+ 
 
-**Starting in Windows 10:** **MSFT\_Disk** derives from [**MSFT\_StorageObject**](msft-storageobject.md). It now inherits the property *ObjectId*, which was formerly a property of **MSFT\_Disk**.
+**Starting in Windows 10:** **MSFT\_Disk** derives from [**MSFT\_StorageObject**](msft-storageobject.md). It now inherits the property *ObjectId*, which was formerly a property of **MSFT\_Disk**.
 
 ## Requirements
 
@@ -741,16 +748,16 @@ The following table contains examples of location paths.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

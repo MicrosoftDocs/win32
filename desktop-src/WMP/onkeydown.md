@@ -1,14 +1,20 @@
 ---
 title: onkeydown
 description: The onkeydown event handler handles an event that occurs when a key is pressed.
-ms.assetid: 'a93b1394-461a-447c-a712-0bf736a98865'
-keywords: ["onkeydown Windows Media Player"]
+ms.assetid: a93b1394-461a-447c-a712-0bf736a98865
+keywords:
+- onkeydown Windows Media Player
 topic_type:
 - apiref
 api_name:
 - onkeydown
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # onkeydown
@@ -40,9 +46,9 @@ This event handler is not applicable to the **PLAYLIST** element, the **EFFECTS*
 [**Ambient Event Handlers**](ambient-event-handlers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

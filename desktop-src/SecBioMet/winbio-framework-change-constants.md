@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_FRAMEWORK\_CHANGE Constants
 description: Identify the type of change that occurred in the framework.
-ms.assetid: '826CE4D7-236D-42ED-9888-3898A5057032'
+ms.assetid: 826CE4D7-236D-42ED-9888-3898A5057032
 topic_type:
 - apiref
 api_name:
@@ -10,11 +10,16 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_FRAMEWORK\_CHANGE Constants
 
-The following constants can be used in the [**WinBioAsyncMonitorFrameworkChanges**](winbioasyncmonitorframeworkchanges.md) function to identify the type of change that occurred in the framework.
+The following constants can be used in the [**WinBioAsyncMonitorFrameworkChanges**](/windows/win32/Winbio/nf-winbio-winbioasyncmonitorframeworkchanges?branch=master) function to identify the type of change that occurred in the framework.
 
 <dl> <dt>
 
@@ -37,8 +42,8 @@ A biometric unit was attached to or detached from the computer.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -50,12 +55,12 @@ A biometric unit was attached to or detached from the computer.
 [Client Application Constants](client-application-constants.md)
 </dt> <dt>
 
-[**WinBioAsyncMonitorFrameworkChanges**](winbioasyncmonitorframeworkchanges.md)
+[**WinBioAsyncMonitorFrameworkChanges**](/windows/win32/Winbio/nf-winbio-winbioasyncmonitorframeworkchanges?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

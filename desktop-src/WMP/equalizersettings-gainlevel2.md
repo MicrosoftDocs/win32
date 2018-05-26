@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.gainLevel2
 description: The gainLevel2 attribute specifies or retrieves the gain level of band 2.
-ms.assetid: 'e602d9cc-42b3-402e-9df5-8b970d878904'
-keywords: ["EQUALIZERSETTINGS.gainLevel2 Windows Media Player"]
+ms.assetid: e602d9cc-42b3-402e-9df5-8b970d878904
+keywords:
+- EQUALIZERSETTINGS.gainLevel2 Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.gainLevel2
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.gainLevel2
@@ -21,7 +27,7 @@ The **gainLevel2** attribute specifies or retrieves the gain level of band 2.
 
 ## Possible Values
 
-This attribute is a read/write **Number** (**float**) with a value normally ranging from –20 to +20. It has a default value of zero.
+This attribute is a read/write **Number** (**float**) with a value normally ranging from  20 to +20. It has a default value of zero.
 
 ## Remarks
 
@@ -49,9 +55,9 @@ If this attribute is not specified, the previous value will be retained.
 [**EQUALIZERSETTINGS. gainLevels**](equalizersettings-gainlevels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

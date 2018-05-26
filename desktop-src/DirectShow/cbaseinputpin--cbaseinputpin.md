@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: 'e5a63ce5-d835-45eb-9b15-7d416d9ab734'
-title: 'CBaseInputPin.~CBaseInputPin destructor'
+Description: Destructor method.
+ms.assetid: e5a63ce5-d835-45eb-9b15-7d416d9ab734
+title: CBaseInputPin.~CBaseInputPin destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin.~CBaseInputPin destructor
@@ -35,9 +40,9 @@ Destructor method.
 [**CBaseInputPin Class**](cbaseinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

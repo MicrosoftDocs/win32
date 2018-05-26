@@ -1,14 +1,20 @@
 ---
 title: AssessmentId element
 description: This is the identity of the assessment.
-ms.assetid: '5774CBFD-221B-4FFA-890D-E169A7841B69'
-keywords: ["AssessmentId element Access Execution Engine"]
+ms.assetid: 5774CBFD-221B-4FFA-890D-E169A7841B69
+keywords:
+- AssessmentId element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AssessmentId
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssessmentId element
@@ -74,9 +80,9 @@ There are no attributes.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The property proxy for the System.GPS.DestLongitude photo metadata policy.'
-ms.assetid: '528cb159-9920-42be-9858-3a6560ac28b7'
-title: 'System.GPS.DestLongitude Proxy'
+Description: The property proxy for the System.GPS.DestLongitude photo metadata policy.
+ms.assetid: 528cb159-9920-42be-9858-3a6560ac28b7
+title: System.GPS.DestLongitude Proxy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.DestLongitude Proxy

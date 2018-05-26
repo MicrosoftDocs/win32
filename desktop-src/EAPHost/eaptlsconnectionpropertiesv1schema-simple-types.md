@@ -1,7 +1,12 @@
 ---
 title: eaptlsconnectionpropertiesv1 Schema Simple Types
 description: Defines the following simple type.
-ms.assetid: '70e57e9d-cc21-44be-b7ee-217e56d44c98'
+ms.assetid: 70e57e9d-cc21-44be-b7ee-217e56d44c98
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # eaptlsconnectionpropertiesv1 Schema Simple Types

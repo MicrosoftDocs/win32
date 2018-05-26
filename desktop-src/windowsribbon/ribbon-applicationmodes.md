@@ -1,8 +1,16 @@
 ---
 title: Reconfiguring the Ribbon with Application Modes
-description: The Windows Ribbon framework supports the dynamic reconfiguring and exposing of core elements of the Ribbon UI at run time, based on the application's state (also referred to as context).
-ms.assetid: '8e9d85c5-33e4-4212-b9e4-2fc3b492c273'
-keywords: ["Windows Ribbon,reconfiguring with application modes", "Ribbon,reconfiguring with application modes", "reconfiguring Windows Ribbon with application modes"]
+description: The Windows Ribbon framework supports the dynamic reconfiguring and exposing of core elements of the Ribbon UI at run time, based on the applications state (also referred to as context).
+ms.assetid: 8e9d85c5-33e4-4212-b9e4-2fc3b492c273
+keywords:
+- Windows Ribbon,reconfiguring with application modes
+- Ribbon,reconfiguring with application modes
+- reconfiguring Windows Ribbon with application modes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reconfiguring the Ribbon with Application Modes

@@ -1,8 +1,11 @@
 ---
 title: IResultsViewer QueryText property
 description: Gets or sets the current query text.
-ms.assetid: '3d6b31fa-3f17-45de-a91a-f24a6b076099'
-keywords: ["QueryText property Legacy Windows Environment Features", "QueryText property Legacy Windows Environment Features , IResultsViewer interface", "IResultsViewer interface Legacy Windows Environment Features , QueryText property"]
+ms.assetid: 3d6b31fa-3f17-45de-a91a-f24a6b076099
+keywords:
+- QueryText property Legacy Windows Environment Features
+- QueryText property Legacy Windows Environment Features , IResultsViewer interface
+- IResultsViewer interface Legacy Windows Environment Features , QueryText property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - WdsView.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultsViewer::QueryText property
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_QueryText(
-  [in]          BSTR query
+  [in]          BSTR query
 );
 
 HRESULT get_QueryText(
-  [out, retval] BSTR *query
+  [out, retval] BSTR *query
 );
 ```
 
@@ -48,16 +56,16 @@ Sets the current query text.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                        |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                        |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                        |
 | Header<br/>                   | <dl> <dt>WdsView.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: MPTHREAT\_TYPE enumeration
 description: Possible threat types.
-ms.assetid: '56061F12-AA89-4203-BED4-99613E24002A'
-keywords: ["MPTHREAT_TYPE enumeration Legacy Windows Environment Features", "PMPTHREAT_TYPE enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 56061F12-AA89-4203-BED4-99613E24002A
+keywords:
+- MPTHREAT_TYPE enumeration Legacy Windows Environment Features
+- PMPTHREAT_TYPE enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPTHREAT\_TYPE enumeration
@@ -22,12 +29,12 @@ Possible threat types.
 
 ```C++
 typedef enum tagMPTHREAT_TYPE { 
-  MPTHREAT_TYPE_KNOWNBAD   = 0,
-  MPTHREAT_TYPE_BEHAVIOR   = 1,
-  MPTHREAT_TYPE_UNKNOWN    = 2,
-  MPTHREAT_TYPE_KNOWNGOOD  = 3,
-  MPTHREAT_TYPE_NIS        = 4,
-  MPTHREAT_TYPE_MAXVALUE   = 4
+  MPTHREAT_TYPE_KNOWNBAD   = 0,
+  MPTHREAT_TYPE_BEHAVIOR   = 1,
+  MPTHREAT_TYPE_UNKNOWN    = 2,
+  MPTHREAT_TYPE_KNOWNGOOD  = 3,
+  MPTHREAT_TYPE_NIS        = 4,
+  MPTHREAT_TYPE_MAXVALUE   = 4
 } MPTHREAT_TYPE, *PMPTHREAT_TYPE;
 ```
 
@@ -85,15 +92,15 @@ Maximum value possible.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

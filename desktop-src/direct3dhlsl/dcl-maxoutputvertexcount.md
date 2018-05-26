@@ -1,7 +1,12 @@
 ---
 title: dcl\_maxOutputVertexCount (sm4 - asm)
 description: dcl\_maxOutputVertexCount (sm4 - asm)
-ms.assetid: '91eb2dfc-f4ff-4f23-9cb4-ec5fdb676157'
+ms.assetid: 91eb2dfc-f4ff-4f23-9cb4-ec5fdb676157
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_maxOutputVertexCount (sm4 - asm)
@@ -15,7 +20,7 @@ Declares the maximum number of vertices that can be output by a geometry shader.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declares the maximum number of vertices that can be output by a geometry shader.
 
 
 
- 
+ 
 
 A geometry shader can output a maximum of 1024 32-bit values. This maximum includes the size of the input data and the size of the data created by the shader.
 
@@ -45,7 +50,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 This instruction is included to aid in debugging a shader in assembly; you cannot author a shader in assembly language using Shader Model 4.
 
@@ -88,7 +93,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -97,9 +102,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

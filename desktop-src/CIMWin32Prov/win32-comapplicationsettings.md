@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_COMApplicationSettings association WMI class relates a DCOM application and its configuration settings.'
+Description: The Win32\_COMApplicationSettings association WMI class relates a DCOM application and its configuration settings.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b08eaff1-b42a-42f3-abf7-3664b6195acd'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b08eaff1-b42a-42f3-abf7-3664b6195acd
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_COMApplicationSettings class'
+title: Win32\_COMApplicationSettings class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_COMApplicationSettings class
@@ -25,7 +28,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_COMApplicationSettings : CIM_ElementSetting
 {
   Win32_DCOMApplicationSetting REF Setting;
-  Win32_DCOMApplication        REF Element;
+  Win32_DCOMApplication        REF Element;
 };
 ```
 
@@ -83,8 +86,8 @@ The **Win32\_COMApplicationSettings** class is derived from [**CIM\_ElementSetti
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -101,9 +104,9 @@ The **Win32\_COMApplicationSettings** class is derived from [**CIM\_ElementSetti
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

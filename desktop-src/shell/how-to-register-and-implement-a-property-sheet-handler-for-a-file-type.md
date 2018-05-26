@@ -1,6 +1,11 @@
 ---
-Description: 'When the user right-clicks a member of a file type to display the Properties property sheet, the Shell calls the property sheet handlers that are registered for the file type. Each handler can add one custom page to the default property sheet.'
+Description: When the user right-clicks a member of a file type to display the Properties property sheet, the Shell calls the property sheet handlers that are registered for the file type. Each handler can add one custom page to the default property sheet.
 title: How to Register and Implement a Property Sheet Handler for a File Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Register and Implement a Property Sheet Handler for a File Type
@@ -52,11 +57,11 @@ HKEY_CLASSES_ROOT
 
 ### Step 2: Implementing a Property Sheet Handler for a File Type
 
-In addition to the general implementation discussed in [How Property Sheet Handlers Work](propsheet-handlers.md#how-property-sheet-handlers-work), a property sheet handler for a file type must also have an appropriate implementation of the [**IShellPropSheetExt**](ishellpropsheetext.md) interface. Only the [**IShellPropSheetExt::AddPages**](ishellpropsheetext-addpages.md) method needs a nontoken implementation. The Shell does not call [**IShellPropSheetExt::ReplacePage**](ishellpropsheetext-replacepage.md).
+In addition to the general implementation discussed in [How Property Sheet Handlers Work](propsheet-handlers.md#how-property-sheet-handlers-work), a property sheet handler for a file type must also have an appropriate implementation of the [**IShellPropSheetExt**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellpropsheetext?branch=master) interface. Only the [**IShellPropSheetExt::AddPages**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages?branch=master) method needs a nontoken implementation. The Shell does not call [**IShellPropSheetExt::ReplacePage**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-replacepage?branch=master).
 
-The [**IShellPropSheetExt::AddPages**](ishellpropsheetext-addpages.md) method allows a property sheet handler to add a page to a property sheet. The method has two input parameters. The first, *lpfnAddPage*, is a pointer to an [*AddPropSheetPageProc*](controls.AddPropSheetPageProc) callback function that is used to provide the Shell with the information needed to add the page to the property sheet. The second, *lParam*, is a Shell-defined value that is not processed by the handler. It is simply passed back to the Shell when the callback function is called.
+The [**IShellPropSheetExt::AddPages**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages?branch=master) method allows a property sheet handler to add a page to a property sheet. The method has two input parameters. The first, *lpfnAddPage*, is a pointer to an [*AddPropSheetPageProc*](controls.AddPropSheetPageProc) callback function that is used to provide the Shell with the information needed to add the page to the property sheet. The second, *lParam*, is a Shell-defined value that is not processed by the handler. It is simply passed back to the Shell when the callback function is called.
 
-The general procedure for implementing [**AddPages**](ishellpropsheetext-addpages.md) is as follows.
+The general procedure for implementing [**AddPages**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages?branch=master) is as follows.
 
 **Implementing the AddPages Method**
 
@@ -64,11 +69,11 @@ The general procedure for implementing [**AddPages**](ishellpropsheetext-addpage
     -   Assign the variable that holds the handler's reference count to the **pcRefParent** member. This practice prevents the handler object from being unloaded while the property sheet is still being displayed.
     -   You can also implement a [*PropSheetPageProc*](controls.PropSheetPageProc) callback function and assign its pointer to a **pfnCallback** member. This function is called when the page is created and when it is about to be destroyed.
 2.  Create the page's HPAGE handle by passing the [**PROPSHEETPAGE**](mmc.propsheetpage) structure to the [**CreatePropertySheetPage**](controls.CreatePropertySheetPage) function.
-3.  Call the function that is pointed to by *lpfnAddPage*. Set its first parameter to the HPAGE handle that was created in the previous step. Set its second parameter to the *lParam* value that was passed in to [**AddPages**](ishellpropsheetext-addpages.md) by the Shell.
+3.  Call the function that is pointed to by *lpfnAddPage*. Set its first parameter to the HPAGE handle that was created in the previous step. Set its second parameter to the *lParam* value that was passed in to [**AddPages**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages?branch=master) by the Shell.
 4.  Any messages associated with the page will be passed to the dialog box procedure that was assigned to the **pfnDlgProc** member of the [**PROPSHEETPAGE**](mmc.propsheetpage) structure.
 5.  If you assigned a [*PropSheetPageProc*](controls.PropSheetPageProc) callback function to **pfnCallback**, it will be called when the page is about to be destroyed. Your handler can then perform any needed cleanup operations, such as releasing any references that it holds.
 
-The following code sample illustrates a simple [**AddPages**](ishellpropsheetext-addpages.md) implementation.
+The following code sample illustrates a simple [**AddPages**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages?branch=master) implementation.
 
 
 ```C++
@@ -112,7 +117,7 @@ STDMETHODIMP CShellPropSheetExt::AddPages(LPFNADDPROPSHEETPAGE, lpfnAddPage, LPA
 
 
 
-The **g\_hInst** variable is the instance handle to the DLL, and IDD\_PAGEDLG is the resource ID of the page's dialog box template. The **PageDlgProc** function is the dialog box procedure that handles the page's messages. The **g\_DllRefCount** variable holds the object's reference count. The [**AddPages**](ishellpropsheetext-addpages.md) method calls [**AddRef**](com.iunknown_addref) to increment the count. However, the reference count is released by the callback function, **PageCallbackProc**, when the page is about to be destroyed.
+The **g\_hInst** variable is the instance handle to the DLL, and IDD\_PAGEDLG is the resource ID of the page's dialog box template. The **PageDlgProc** function is the dialog box procedure that handles the page's messages. The **g\_DllRefCount** variable holds the object's reference count. The [**AddPages**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages?branch=master) method calls [**AddRef**](com.iunknown_addref) to increment the count. However, the reference count is released by the callback function, **PageCallbackProc**, when the page is about to be destroyed.
 
 ## Remarks
 
@@ -122,7 +127,7 @@ For a general discussion of how to register Shell extension handlers, see [Creat
 
 <dl> <dt>
 
-[**IShellPropSheetExt**](ishellpropsheetext.md)
+[**IShellPropSheetExt**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellpropsheetext?branch=master)
 </dt> </dl>
 
  

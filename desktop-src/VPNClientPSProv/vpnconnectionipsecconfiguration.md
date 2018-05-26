@@ -2,11 +2,13 @@
 title: VpnConnectionIPsecConfiguration class
 description: The VpnConnectionIPsecConfiguration class represents the IPsec configuration for a VPN connection.
 audience: developer
-ms.assetid: 'B993E97E-0E8F-42A6-8A0E-6794D1D90D88'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: B993E97E-0E8F-42A6-8A0E-6794D1D90D88
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnConnectionIPsecConfiguration class", "VpnConnectionIPsecConfiguration class, described"]
+keywords:
+- VpnConnectionIPsecConfiguration class
+- VpnConnectionIPsecConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnConnectionIPsecConfiguration class
@@ -140,17 +145,17 @@ The PFS group plumbed in IPsec policy.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.currentPresetTitle
 description: The currentPresetTitle attribute retrieves the title of the current preset.
-ms.assetid: 'e4637863-d2f2-4e82-99ff-1e587848c4b8'
-keywords: ["EQUALIZERSETTINGS.currentPresetTitle Windows Media Player"]
+ms.assetid: e4637863-d2f2-4e82-99ff-1e587848c4b8
+keywords:
+- EQUALIZERSETTINGS.currentPresetTitle Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.currentPresetTitle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.currentPresetTitle
@@ -40,9 +46,9 @@ This attribute is a read-only **String**.
 [**EQUALIZERSETTINGS Element**](equalizersettings-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

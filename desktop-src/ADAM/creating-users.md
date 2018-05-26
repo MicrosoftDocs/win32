@@ -4,11 +4,15 @@ description: To create an AD LDS user, bind to the object that will contain the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '08f3b66e-9e17-449c-ab6f-bbfcb3c8d4bd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 08f3b66e-9e17-449c-ab6f-bbfcb3c8d4bd
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , creating users"]
+keywords:
+- AD LDS examples ADAM , creating users
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Users with Active Directory Lightweight Directory Services

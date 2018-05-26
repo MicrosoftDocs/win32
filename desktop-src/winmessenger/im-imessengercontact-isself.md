@@ -1,8 +1,11 @@
 ---
 title: IMessengerContact IsSelf property
 description: Retrieves a Boolean value that declares whether the contact associated with this MessengerContact object is actually the current client user.
-ms.assetid: 'd4effff8-b80f-405f-a58c-98e3f7ebb018'
-keywords: ["IsSelf property Windows Messenger", "IsSelf property Windows Messenger , IMessengerContact interface", "IMessengerContact interface Windows Messenger , IsSelf property"]
+ms.assetid: d4effff8-b80f-405f-a58c-98e3f7ebb018
+keywords:
+- IsSelf property Windows Messenger
+- IsSelf property Windows Messenger , IMessengerContact interface
+- IMessengerContact interface Windows Messenger , IsSelf property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerContact::IsSelf property
 
-\[**IsSelf** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**IsSelf** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves a Boolean value that declares whether the contact associated with this [**MessengerContact**](im-messengercontact.md) object is actually the current client user.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_IsSelf(
-  [out, retval] VARIANT_BOOL *pBoolSelf
+  [out, retval] VARIANT_BOOL *pBoolSelf
 );
 ```
 
@@ -65,7 +73,7 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 The **IsSelf** property is scriptable.
 
@@ -76,7 +84,7 @@ If this method is called while the client is offline, it will not fail, but will
 > [!Note]  
 > This property is available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -114,8 +122,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -132,9 +140,9 @@ End Sub
 [**MySigninName**](im-imessenger-mysigninname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

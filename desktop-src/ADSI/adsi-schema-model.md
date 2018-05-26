@@ -4,11 +4,16 @@ description: A schema is similar to a dictionary in that it holds the definition
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '70561a11-1560-4b1c-a999-e2a7b2002ab0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 70561a11-1560-4b1c-a999-e2a7b2002ab0
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ADSI Schema Model ADSI", "ADSI ADSI , about, schema"]
+keywords:
+- ADSI Schema Model ADSI
+- ADSI ADSI , about, schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI Schema Model
@@ -17,7 +22,7 @@ A schema is similar to a dictionary in that it holds the definition of every typ
 
 Some schemas are extensible and ADSI providers or third-party suppliers may choose to publish new interfaces or additional properties for existing interfaces there. ADSI clients use this data to determine what features are supported for each directory service.
 
-There are three kinds of schema objects: classes, properties, and syntaxes, each respectively supporting the schema management interfaces [**IADsClass**](iadsclass.md), [**IADsProperty**](iadsproperty.md), and [**IADsSyntax**](iadssyntax.md).
+There are three kinds of schema objects: classes, properties, and syntaxes, each respectively supporting the schema management interfaces [**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master), [**IADsProperty**](/windows/win32/Iads/nn-iads-iadsproperty?branch=master), and [**IADsSyntax**](/windows/win32/Iads/nn-iads-iadssyntax?branch=master).
 
 > [!Note]  
 > Class is an overloaded term. There are C++ classes, Java classes, COM classes, and ADSI classes. In this document, the word class, unless otherwise qualified, refers to a category or type of schema object.

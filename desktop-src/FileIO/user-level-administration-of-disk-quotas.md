@@ -1,7 +1,12 @@
 ---
-Description: 'How to get more free disk space after exceeding the quota allowance.'
-ms.assetid: 'a73b6a11-36f1-4437-a83d-e89918b1b0ae'
-title: 'User-level Administration of Disk Quotas'
+Description: How to get more free disk space after exceeding the quota allowance.
+ms.assetid: a73b6a11-36f1-4437-a83d-e89918b1b0ae
+title: User-level Administration of Disk Quotas
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User-level Administration of Disk Quotas
@@ -14,7 +19,7 @@ To obtain more free disk space after exceeding the quota allowance, the user mus
 -   Have another user claim ownership of some files.
 -   Have the administrator increase the quota allowance.
 
-Programs that need to retrieve the actual amount of free disk space can call the [**GetDiskFreeSpaceEx**](getdiskfreespaceex.md) function and look at the *TotalNumberOfFreeBytes* parameter.
+Programs that need to retrieve the actual amount of free disk space can call the [**GetDiskFreeSpaceEx**](/windows/win32/FileAPI/nf-fileapi-getdiskfreespaceexa?branch=master) function and look at the *TotalNumberOfFreeBytes* parameter.
 
  
 

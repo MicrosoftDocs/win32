@@ -1,8 +1,17 @@
 ---
 title: Palettes and the Palette Manager
 description: The Windows Palette Manager, which is part of the GDI, specifically targets 8-bit display adapters with a hardware palette of 256 color entries.
-ms.assetid: '3bfa5077-37ac-4597-98da-f26ad1c107a1'
-keywords: ["OpenGL on Windows,palette manager", "OpenGL on Windows,hardware palettes", "palette manager OpenGL", "hardware palettes OpenGL"]
+ms.assetid: 3bfa5077-37ac-4597-98da-f26ad1c107a1
+keywords:
+- OpenGL on Windows,palette manager
+- OpenGL on Windows,hardware palettes
+- palette manager OpenGL
+- hardware palettes OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Palettes and the Palette Manager

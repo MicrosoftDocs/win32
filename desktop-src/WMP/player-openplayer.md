@@ -1,8 +1,11 @@
 ---
 title: Player.openPlayer method
 description: The openPlayer method opens Windows Media Player using the specified URL.
-ms.assetid: '9a9d8200-f427-42ff-b49f-d973cf86014f'
-keywords: ["openPlayer method Windows Media Player", "openPlayer method Windows Media Player , Player class", "Player class Windows Media Player , openPlayer method"]
+ms.assetid: 9a9d8200-f427-42ff-b49f-d973cf86014f
+keywords:
+- openPlayer method Windows Media Player
+- openPlayer method Windows Media Player , Player class
+- Player class Windows Media Player , openPlayer method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.openPlayer method
@@ -72,9 +80,9 @@ If this method is called from a Windows Media PlayerActiveX control embedded in 
 [**PlayerApplication.switchToPlayerApplication**](playerapplication-switchtoplayerapplication.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

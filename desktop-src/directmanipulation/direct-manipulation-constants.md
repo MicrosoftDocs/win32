@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides the reference specifications for Direct Manipulation constants.'
-ms.assetid: '41A828F5-4AE3-4073-89EB-CC1279B9ECED'
+Description: This section provides the reference specifications for Direct Manipulation constants.
+ms.assetid: 41A828F5-4AE3-4073-89EB-CC1279B9ECED
 title: Direct Manipulation Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct Manipulation Constants
@@ -24,8 +29,8 @@ This section provides the reference specifications for [Direct Manipulation](dir
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                              |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                              |
 | IDL<br/>                      | <dl> <dt>DirectManipulation.idl</dt> </dl> |
 
 
@@ -37,9 +42,9 @@ This section provides the reference specifications for [Direct Manipulation](dir
 [Direct Manipulation Reference](direct-manipulation-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

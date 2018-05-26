@@ -1,7 +1,12 @@
 ---
 title: Report Schema
-ms.assetid: '65743ba7-5098-4f8a-88db-530c966bde07'
+ms.assetid: 65743ba7-5098-4f8a-88db-530c966bde07
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Report Schema

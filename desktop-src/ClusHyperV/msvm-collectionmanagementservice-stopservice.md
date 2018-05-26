@@ -4,13 +4,16 @@ description: Stops the collection management service.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0b8f8d7a-47c8-49b4-b0e2-f19f63126e96'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0b8f8d7a-47c8-49b4-b0e2-f19f63126e96
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["StopService method", "StopService method, Msvm_CollectionManagementService class", "Msvm_CollectionManagementService class, StopService method"]
+keywords:
+- StopService method
+- StopService method, Msvm_CollectionManagementService class
+- Msvm_CollectionManagementService class, StopService method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StopService method of the Msvm\_CollectionManagementService class
@@ -57,7 +63,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | Header<br/>                   | <dl> <dt>Sdoias.h</dt> </dl>                    |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
@@ -72,9 +78,9 @@ The possible return values are:
 [**Msvm\_CollectionManagementService**](msvm-collectionmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

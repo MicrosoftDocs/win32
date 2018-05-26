@@ -1,7 +1,12 @@
 ---
-Description: 'Use Transactional NTFS to maintain data integrity.'
-ms.assetid: '886d6075-57e8-47db-aec5-77660d0a53f9'
+Description: Use Transactional NTFS to maintain data integrity.
+ms.assetid: 886d6075-57e8-47db-aec5-77660d0a53f9
 title: When to Use Transactional NTFS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # When to Use Transactional NTFS

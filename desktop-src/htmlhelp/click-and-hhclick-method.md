@@ -1,7 +1,12 @@
 ---
 title: Click and HHClick Method
 description: Use the Click method to invoke any command that supports the Button parameter.
-ms.assetid: '101948CA-91F3-4ad5-A611-2683A9675DBE'
+ms.assetid: 101948CA-91F3-4ad5-A611-2683A9675DBE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Click and HHClick Method

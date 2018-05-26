@@ -1,7 +1,12 @@
 ---
 title: Hello Sample
 description: The Hello sample is an Automation application with one object.
-ms.assetid: '593c87c4-e555-4549-b723-c592903587a1'
+ms.assetid: 593c87c4-e555-4549-b723-c592903587a1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hello Sample
@@ -135,13 +140,13 @@ Next, the sample calls **CoRegisterClassObject** to register the class factory. 
 
 -   REGCLS\_SINGLEUSE allows only one ActiveX client to use each instance of the class factory. The value returned through pdwRegisterCF must later be used to revoke the class factory.
 
-The example specifies weak registration (ACTIVEOBJECT\_WEAK), which means that OLE will release the object when all external connections to it have disappeared. You should always give ActiveX objects weak registration. For more information, see [**RegisterActiveObject**](registeractiveobject.md) and [Dispatch Interface and API Functions](75BFF268-BD85-49C4-B761-B557F4B1C588).
+The example specifies weak registration (ACTIVEOBJECT\_WEAK), which means that OLE will release the object when all external connections to it have disappeared. You should always give ActiveX objects weak registration. For more information, see [**RegisterActiveObject**](/windows/previous-versions/OleAuto/nf-oleauto-registeractiveobject?branch=master) and [Dispatch Interface and API Functions](75BFF268-BD85-49C4-B761-B557F4B1C588).
 
 The *COM Programmer's Reference* provides more information on the functions **OleInitialize** and **CoRegisterClassObject**. *Inside OLE, Second Edition*, published by Microsoft Press, provides more information about verifying application entries in the registration database.
 
 ## Registering the Hello Application
 
-Finally, the sample registers the Hello application object in the running object table (ROT). Registering an active object allows ActiveX clients to retrieve an object that is already running, rather than create a new instance of the object. Use weak registration (ACTIVEOBJECT\_WEAK) so that the running object table releases its reference when all external references are released. If strong registration is used (the default), the running object table will not release the reference until [**RevokeActiveObject**](revokeactiveobject.md) is called. For more information, refer to [Dispatch Interface and API Functions](75BFF268-BD85-49C4-B761-B557F4B1C588).
+Finally, the sample registers the Hello application object in the running object table (ROT). Registering an active object allows ActiveX clients to retrieve an object that is already running, rather than create a new instance of the object. Use weak registration (ACTIVEOBJECT\_WEAK) so that the running object table releases its reference when all external references are released. If strong registration is used (the default), the running object table will not release the reference until [**RevokeActiveObject**](/windows/previous-versions/OleAuto/nf-oleauto-revokeactiveobject?branch=master) is called. For more information, refer to [Dispatch Interface and API Functions](75BFF268-BD85-49C4-B761-B557F4B1C588).
 
 The following sample shows the registration entries for the Hello object.
 
@@ -164,7 +169,7 @@ HKEY_CLASSES_ROOT\Hello.Application.2\Clsid = {F37C8061-4AD5-101B-B826-00DD01103
 
 ## Implementing IDispatch
 
-The **IDispatch** interface provides access to and information about an object. The interface requires the member functions [**GetTypeInfoCount**](idispatch-gettypeinfocount.md), [**GetTypeInfo**](idispatch-gettypeinfo.md), **GetIdsOfNames**, and [**Invoke**](idispatch-invoke.md). The Hello sample implements **IDispatch** as follows (Hello.cpp):
+The **IDispatch** interface provides access to and information about an object. The interface requires the member functions [**GetTypeInfoCount**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-gettypeinfocount?branch=master), [**GetTypeInfo**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-gettypeinfo?branch=master), **GetIdsOfNames**, and [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master). The Hello sample implements **IDispatch** as follows (Hello.cpp):
 
 
 ```C++
@@ -235,7 +240,7 @@ CHello::Invoke(
 
 
 
-Automation includes two functions, **DispGetIDOfNames** and [**DispInvoke**](dispinvoke.md), which provide standard implementations for [**GetIDsOfNames**](idispatch-getidsofnames.md), and [**IDispatch::Invoke**](idispatch-invoke.md). The Hello sample uses these two functions to simplify the code.
+Automation includes two functions, **DispGetIDOfNames** and [**DispInvoke**](/windows/previous-versions/OleAuto/nf-oleauto-dispinvoke?branch=master), which provide standard implementations for [**GetIDsOfNames**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-getidsofnames?branch=master), and [**IDispatch::Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master). The Hello sample uses these two functions to simplify the code.
 
 ## Implementing IUnknown
 
@@ -359,11 +364,11 @@ CHelloCF::LockServer(BOOL fLock)
 
 The function CHelloCF::CHelloCF is a C++ constructor function. By default, the constructor function initializes the object's VTBLs; CHelloCF::CHelloCF also initializes the reference count for the class.
 
-The class factory supports six member functions. **QueryInterface**, **AddRef**, and **Release** are the required **IUnknown** members, and [**CreateInstance**](itypeinfo-createinstance.md) and **LockServer** are the required **IClassFactory** members.
+The class factory supports six member functions. **QueryInterface**, **AddRef**, and **Release** are the required **IUnknown** members, and [**CreateInstance**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo-createinstance?branch=master) and **LockServer** are the required **IClassFactory** members.
 
 ## Implementing VTBL Binding
 
-In addition to the [**IDispatch**](idispatch.md) interface, the Hello sample supports VTBL binding. When a member is invoked, objects that support a VTBL interface return an HRESULT instead of a value, and pass their return value as the last parameter. Objects may also accept a LCID parameter, which allows them to parse strings correctly for the local language. The following example shows how the **Visible** property is implemented (Hello.cpp):
+In addition to the [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface, the Hello sample supports VTBL binding. When a member is invoked, objects that support a VTBL interface return an HRESULT instead of a value, and pass their return value as the last parameter. Objects may also accept a LCID parameter, which allows them to parse strings correctly for the local language. The following example shows how the **Visible** property is implemented (Hello.cpp):
 
 
 ```C++
@@ -392,7 +397,7 @@ Additional information must be specified in the .odl file to create a [dual](dua
 
 ## Registering the Interface for VTBL Binding
 
-The following lines from the Hello.reg file register the interface for VTBL binding. In the example, "ProxyStubClsid" refers to the proxy and stub implementation of [**IDispatch**](idispatch.md).
+The following lines from the Hello.reg file register the interface for VTBL binding. In the example, "ProxyStubClsid" refers to the proxy and stub implementation of [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master).
 
 
 ```C++
@@ -406,7 +411,7 @@ HKEY_CLASSES_ROOT\Interface\{F37C8062-4AD5-101B-B826-00DD01103DE1}\ProxyStubClsi
 
 ## Handling Errors
 
-The Hello sample includes an exception handler that passes exceptions through [**IDispatch::Invoke**](idispatch-invoke.md), and supports rich error information through VTBLs (Main.cpp):
+The Hello sample includes an exception handler that passes exceptions through [**IDispatch::Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master), and supports rich error information through VTBLs (Main.cpp):
 
 
 ```C++
@@ -454,9 +459,9 @@ HRESULT RaiseException(int nID, REFGUID rguid) 
 
 
 
-The member functions of the Hello sample call this routine when an exception occurs. **RaiseException** sets the system's error object so that controller applications that call through VTBLs can retrieve rich error information. Controllers that call through [**IDispatch::Invoke**](idispatch-invoke.md) will be returned with this error information by [**DispInvoke**](dispinvoke.md) through the EXCEPINFO structure.
+The member functions of the Hello sample call this routine when an exception occurs. **RaiseException** sets the system's error object so that controller applications that call through VTBLs can retrieve rich error information. Controllers that call through [**IDispatch::Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master) will be returned with this error information by [**DispInvoke**](/windows/previous-versions/OleAuto/nf-oleauto-dispinvoke?branch=master) through the EXCEPINFO structure.
 
-Hello also implements the [**ISupportErrorInfo**](isupporterrorinfo.md) interface, which allows ActiveX clients to query whether an error object will be available (Hello.cpp):
+Hello also implements the [**ISupportErrorInfo**](/windows/previous-versions/oaidl/nn-oaidl-isupporterrorinfo?branch=master) interface, which allows ActiveX clients to query whether an error object will be available (Hello.cpp):
 
 
 ```C++
@@ -589,7 +594,7 @@ library Hello
 
 
 
-The items enclosed by square brackets are *attributes*, which provide further information about the objects in the file. The [oleautomation Attribute](oleautomation.md) and [dual Attribute](dual.md) attributes, for example, indicate that the IHello interface supports both [**IDispatch**](idispatch.md) and VTBL binding. The [appobject Attribute](appobject.md) attribute indicates that Hello is the Application object.
+The items enclosed by square brackets are *attributes*, which provide further information about the objects in the file. The [oleautomation Attribute](oleautomation.md) and [dual Attribute](dual.md) attributes, for example, indicate that the IHello interface supports both [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) and VTBL binding. The [appobject Attribute](appobject.md) attribute indicates that Hello is the Application object.
 
 For more information about attributes, refer to [Type Libraries and the Object Description Language](type-libraries-and-the-object-description-language.md).
 
@@ -635,7 +640,7 @@ HKEY_CLASSES_ROOT\Interface\{F37C8062-4AD5-101B-B826-00DD01103DE1}\ProxyStubClsi
 
 
 
-To merge an object's registration information with the system registry, the object should expose the **DLLRegisterServer** API, as described in the *COM Programmer's Reference*. **DLLRegisterServer** should call [**RegisterTypeLib**](registertypelib.md) to register the type library and the interfaces supported by the application. This only applies to in-process servers. Out-of-process servers such as the Hello sample do not export **DLLRegisterServer**.
+To merge an object's registration information with the system registry, the object should expose the **DLLRegisterServer** API, as described in the *COM Programmer's Reference*. **DLLRegisterServer** should call [**RegisterTypeLib**](/windows/previous-versions/OleAuto/nf-oleauto-registertypelib?branch=master) to register the type library and the interfaces supported by the application. This only applies to in-process servers. Out-of-process servers such as the Hello sample do not export **DLLRegisterServer**.
 
  
 

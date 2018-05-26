@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the address to which the delivery report is sent.'
-ms.assetid: '854413f9-74dc-4e93-b019-61ac5bf71be8'
-title: 'FaxOutgoingMessage.ReceiptAddress property'
+---
+Description: Specifies the address to which the delivery report is sent.
+ms.assetid: 854413f9-74dc-4e93-b019-61ac5bf71be8
+title: FaxOutgoingMessage.ReceiptAddress property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.ReceiptAddress property
@@ -63,7 +68,7 @@ The type of address will vary according to the value of the [**ReceiptType**](-m
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage2**](-mfax-faxoutgoingmessage2-cpp.md)
+[**IFaxOutgoingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage2?branch=master)
 </dt> </dl>
 
  

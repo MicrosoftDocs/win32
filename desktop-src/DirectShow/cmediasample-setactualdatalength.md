@@ -1,19 +1,24 @@
 ---
-Description: 'The SetActualDataLength method sets the length of the valid data in the buffer. This method implements the IMediaSample::SetActualDataLength method.'
-ms.assetid: 'a80a67ef-e490-4874-a123-f2d193cec4d7'
-title: 'CMediaSample.SetActualDataLength method'
+Description: The SetActualDataLength method sets the length of the valid data in the buffer. This method implements the IMediaSampleSetActualDataLength method.
+ms.assetid: a80a67ef-e490-4874-a123-f2d193cec4d7
+title: CMediaSample.SetActualDataLength method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.SetActualDataLength method
 
-The `SetActualDataLength` method sets the length of the valid data in the buffer. This method implements the [**IMediaSample::SetActualDataLength**](imediasample-setactualdatalength.md) method.
+The `SetActualDataLength` method sets the length of the valid data in the buffer. This method implements the [**IMediaSample::SetActualDataLength**](/windows/win32/Strmif/nf-strmif-imediasample-setactualdatalength?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetActualDataLength(
-   long lLen
+   long lLen
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ This method sets the [**CMediaSample::m\_lActual**](cmediasample-m-lactual.md) m
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

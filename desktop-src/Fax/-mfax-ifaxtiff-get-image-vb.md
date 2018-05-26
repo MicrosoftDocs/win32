@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the Image property for a FaxTiff object.'
-ms.assetid: '9e41ae1f-070d-4365-9d6a-a37f1979dae7'
-title: 'FaxTiff.Image property'
+---
+Description: Sets or retrieves the Image property for a FaxTiff object.
+ms.assetid: 9e41ae1f-070d-4365-9d6a-a37f1979dae7
+title: FaxTiff.Image property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxTiff.Image property
@@ -59,7 +64,7 @@ The **get\_Image** method allocates the memory required for the buffer pointed t
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxTiff**](-mfax-ifaxtiff.md)
+[**IFaxTiff**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxtiff?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

@@ -1,7 +1,12 @@
 ---
 title: SCSI Bus Structures
 description: SCSI Bus Structures
-ms.assetid: '9f0d38c1-0fb6-48dc-a837-560d36f13e28'
+ms.assetid: 9f0d38c1-0fb6-48dc-a837-560d36f13e28
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCSI Bus Structures

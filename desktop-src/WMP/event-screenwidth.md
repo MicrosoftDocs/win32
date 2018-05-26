@@ -1,14 +1,20 @@
 ---
 title: event.screenWidth
 description: The screenWidth attribute retrieves the width of the available screen size in pixels.
-ms.assetid: '613defdd-3644-4bf1-a0aa-93431d3bb35a'
-keywords: ["event.screenWidth Windows Media Player"]
+ms.assetid: 613defdd-3644-4bf1-a0aa-93431d3bb35a
+keywords:
+- event.screenWidth Windows Media Player
 topic_type:
 - apiref
 api_name:
 - event.screenWidth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # event.screenWidth
@@ -47,9 +53,9 @@ This is useful for determining the amount of space there is in the monitor. If t
 [**event.screenHeight**](event-screenheight.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

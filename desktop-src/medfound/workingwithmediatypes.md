@@ -1,7 +1,12 @@
 ---
 Description: Working with DMO Media Types
-ms.assetid: '1aaf7554-1a5f-439a-afb1-a031607e1a1e'
+ms.assetid: 1aaf7554-1a5f-439a-afb1-a031607e1a1e
 title: Working with DMO Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with DMO Media Types

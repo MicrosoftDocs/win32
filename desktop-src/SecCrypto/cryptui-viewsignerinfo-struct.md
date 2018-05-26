@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains information for the CryptUIDlgViewSignerInfo function.'
-ms.assetid: '2b76de4f-4b35-477e-a67e-435434e066c6'
-title: 'CRYPTUI\_VIEWSIGNERINFO\_STRUCT structure'
+---
+Description: Contains information for the CryptUIDlgViewSignerInfo function.
+ms.assetid: 2b76de4f-4b35-477e-a67e-435434e066c6
+title: CRYPTUI\_VIEWSIGNERINFO\_STRUCT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRYPTUI\_VIEWSIGNERINFO\_STRUCT structure
@@ -72,7 +77,7 @@ A pointer to a null-terminated string that contains the title to be displayed in
 **pSignerInfo**
 </dt> <dd>
 
-A pointer to a [**CMSG\_SIGNER\_INFO**](cmsg-signer-info.md) structure that contains the signer information to display.
+A pointer to a [**CMSG\_SIGNER\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cmsg_signer_info?branch=master) structure that contains the signer information to display.
 
 </dd> <dt>
 

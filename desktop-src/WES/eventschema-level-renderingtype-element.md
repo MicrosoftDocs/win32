@@ -1,14 +1,20 @@
 ---
 title: Level (RenderingInfoType) Element
 description: The rendered message string of the level specified in the event.
-ms.assetid: '68584df8-989d-4f53-9f5c-11a4e1e5524b'
-keywords: ["Level element EventLog"]
+ms.assetid: 68584df8-989d-4f53-9f5c-11a4e1e5524b
+keywords:
+- Level element EventLog
 topic_type:
 - apiref
 api_name:
 - Level
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Level (RenderingInfoType) Element
@@ -29,8 +35,8 @@ The **Level** element is defined by the [**RenderingInfoType**](eventschema-rend
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **Level** element is defined by the [**RenderingInfoType**](eventschema-rend
 [**RenderingInfo (EventType)**](eventschema-renderinginfo-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

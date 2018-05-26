@@ -4,11 +4,14 @@ description: Deletes the resource from the cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '051ea164-4d6e-49a7-a414-abf1c5cb3af5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 051ea164-4d6e-49a7-a414-abf1c5cb3af5
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Delete method Failover Cluster", "Delete method Failover Cluster , ClusResource class", "ClusResource class Failover Cluster , Delete method"]
+keywords:
+- Delete method Failover Cluster
+- Delete method Failover Cluster , ClusResource class
+- ClusResource class Failover Cluster , Delete method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResource.Delete method
@@ -49,7 +55,7 @@ This method does not return a value.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -68,9 +74,9 @@ This method does not return a value.
 [**CreateItem**](clusresources-createitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

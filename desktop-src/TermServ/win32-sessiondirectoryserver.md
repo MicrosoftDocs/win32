@@ -1,14 +1,16 @@
 ---
 title: Win32\_SessionDirectoryServer class
-description: Provides properties for viewing the properties of a Remote Desktop Connection Broker (RD Connection Broker) server.
+description: Provides properties for viewing the properties of a Remote Desktop Connection Broker (RD Connection Broker) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '73017b71-eff9-4ef6-aba0-71ddb969491f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 73017b71-eff9-4ef6-aba0-71ddb969491f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_SessionDirectoryServer class Remote Desktop Services", "Win32_SessionDirectoryServer class Remote Desktop Services , described"]
+keywords:
+- Win32_SessionDirectoryServer class Remote Desktop Services
+- Win32_SessionDirectoryServer class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -25,16 +27,19 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SessionDirectoryServer class
 
-Provides properties for viewing the properties of a Remote Desktop Connection Broker (RD Connection Broker) server.
+Provides properties for viewing the properties of a Remote Desktop Connection Broker (RD Connection Broker) server.
 
 > [!Note]  
-> In Windows Server 2008 R2, the name of Terminal Services Session Broker (TS Session Broker) was changed to RD Connection Broker. These properties apply to all supported operating systems unless otherwise noted.
+> In Windows Server 2008 R2, the name of Terminal Services Session Broker (TS Session Broker) was changed to RD Connection Broker. These properties apply to all supported operating systems unless otherwise noted.
 
- 
+ 
 
 ## Syntax
 
@@ -87,7 +92,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-A relative number that represents the RD Session Host server load when the default load-balancing algorithm is used. The *LoadIndicator* property value is based on the number of sessions, the number of pending redirection requests, and the server weight value.
+A relative number that represents the RD Session Host server load when the default load-balancing algorithm is used. The *LoadIndicator* property value is based on the number of sessions, the number of pending redirection requests, and the server weight value.
 
 </dd> <dt>
 
@@ -100,7 +105,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Number of sessions in the RD Connection Broker server.
+Number of sessions in the RD Connection Broker server.
 
 </dd> <dt>
 
@@ -126,7 +131,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-IP address of the RD Connection Broker server. If the server is configured for both IPv4 and IPv6 addresses, this will contain the IPv4 address.
+IP address of the RD Connection Broker server. If the server is configured for both IPv4 and IPv6 addresses, this will contain the IPv4 address.
 
 </dd> <dt>
 
@@ -142,7 +147,7 @@ Access type: Read-only
 Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 </dt> </dl>
 
-Name of the RD Connection Broker server.
+Name of the RD Connection Broker server.
 
 </dd> <dt>
 
@@ -168,7 +173,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Single session mode setting of the RD Connection Broker server.
+Single session mode setting of the RD Connection Broker server.
 
 <dt>
 
@@ -199,7 +204,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |
@@ -216,9 +221,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_SessionDirectorySession**](win32-sessiondirectorysession.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

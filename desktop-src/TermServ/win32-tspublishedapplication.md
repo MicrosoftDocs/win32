@@ -1,14 +1,16 @@
 ---
 title: Win32\_TSPublishedApplication class
-description: Defines the applications that are made available for remote use through Windows Server 2008 R2 RemoteApp.
+description: Defines the applications that are made available for remote use through Windows Server 2008 R2 RemoteApp.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5b9cb36b-3d8d-4105-acea-c79440d977fe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 5b9cb36b-3d8d-4105-acea-c79440d977fe
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSPublishedApplication class Remote Desktop Services", "Win32_TSPublishedApplication class Remote Desktop Services , described"]
+keywords:
+- Win32_TSPublishedApplication class Remote Desktop Services
+- Win32_TSPublishedApplication class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -34,34 +36,37 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSPublishedApplication class
 
-Defines the applications that are made available for remote use through Windows Server 2008 R2 RemoteApp.
+Defines the applications that are made available for remote use through Windows Server 2008 R2 RemoteApp.
 
 ## Syntax
 
 ``` syntax
 class Win32_TSPublishedApplication : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   Alias;
-  string   SecurityDescriptor;
-  string   Path;
-  boolean  PathExists;
-  string   VPath;
-  string   IconPath;
-  sint32   IconIndex;
-  uint8    IconContents[];
-  uint32   CommandLineSetting;
-  string   RequiredCommandLine;
-  boolean  ShowInPortal;
-  string   RDPFileContents;
+  string   Name;
+  string   Status;
+  string   Alias;
+  string   SecurityDescriptor;
+  string   Path;
+  boolean  PathExists;
+  string   VPath;
+  string   IconPath;
+  sint32   IconIndex;
+  uint8    IconContents[];
+  uint32   CommandLineSetting;
+  string   RequiredCommandLine;
+  boolean  ShowInPortal;
+  string   RDPFileContents;
 };
 ```
 
@@ -308,7 +313,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-Indicates whether the application should be shown in RD Web Access.
+Indicates whether the application should be shown in RD Web Access.
 
 </dd> <dt>
 
@@ -425,16 +430,16 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Tsallow.mof</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>TsPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

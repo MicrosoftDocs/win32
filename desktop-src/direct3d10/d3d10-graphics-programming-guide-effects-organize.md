@@ -1,7 +1,12 @@
 ---
-Description: 'With Direct3D 10, effect state for certain pipeline stages is organized by the following structures:'
-ms.assetid: '674ed278-102c-43da-a6bf-58e084df151e'
-title: 'Organizing State in an Effect (Direct3D 10)'
+Description: With Direct3D 10, effect state for certain pipeline stages is organized by the following structures
+ms.assetid: 674ed278-102c-43da-a6bf-58e084df151e
+title: Organizing State in an Effect (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Organizing State in an Effect (Direct3D 10)
@@ -12,9 +17,9 @@ With Direct3D 10, effect state for certain pipeline stages is organized by the f
 
 | Pipeline State  | Structure                                                                                                          |
 |-----------------|--------------------------------------------------------------------------------------------------------------------|
-| Input Assembler | [**D3D10\_INPUT\_ELEMENT\_DESC**](d3d10-input-element-desc.md)                                                    |
-| Rasterization   | [**D3D10\_RASTERIZER\_DESC**](d3d10-rasterizer-desc.md)                                                           |
-| Output Merger   | [**D3D10\_BLEND\_DESC**](d3d10-blend-desc.md) and [**D3D10\_DEPTH\_STENCIL\_DESC**](d3d10-depth-stencil-desc.md) |
+| Input Assembler | [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_input_element_desc?branch=master)                                                    |
+| Rasterization   | [**D3D10\_RASTERIZER\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_rasterizer_desc?branch=master)                                                           |
+| Output Merger   | [**D3D10\_BLEND\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_blend_desc?branch=master) and [**D3D10\_DEPTH\_STENCIL\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_depth_stencil_desc?branch=master) |
 
 
 

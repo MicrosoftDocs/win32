@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '584095bb-a02a-4b56-9270-1163f36a6fde'
+---
+Description: .
+ms.assetid: 584095bb-a02a-4b56-9270-1163f36a6fde
 title: Link
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Link

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IWiaUIExtension2 interface provides methods that replace the default, system-supplied user interface with a custom user interface, and that provide a custom device icon.'
-ms.assetid: '1a747ea3-2476-438b-baf0-903b86cbbb16'
+---
+Description: The IWiaUIExtension2 interface provides methods that replace the default, system-supplied user interface with a custom user interface, and that provide a custom device icon.
+ms.assetid: 1a747ea3-2476-438b-baf0-903b86cbbb16
 title: IWiaUIExtension2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaUIExtension2 interface

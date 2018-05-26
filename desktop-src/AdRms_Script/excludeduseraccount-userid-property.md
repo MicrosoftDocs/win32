@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the email address of the user.'
+Description: Specifies or retrieves the email address of the user.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '70d61669-6c6a-4d66-a0d6-10e3048eb71e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 70d61669-6c6a-4d66-a0d6-10e3048eb71e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExcludedUserAccount.UserId property'
+title: ExcludedUserAccount.UserId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExcludedUserAccount.UserId property
@@ -126,7 +129,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -138,9 +141,9 @@ END FUNCTION
 [**ExcludedUserAccount**](excludeduseraccount-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

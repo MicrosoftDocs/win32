@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a service access point (SAP) and the system that hosts it.'
-ms.assetid: '82db71d6-6d14-408e-87e0-fe869e454d4d'
-title: 'CIM\_HostedAccessPoint class'
+Description: Represents an association between a service access point (SAP) and the system that hosts it.
+ms.assetid: 82db71d6-6d14-408e-87e0-fe869e454d4d
+title: CIM\_HostedAccessPoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_HostedAccessPoint class
@@ -14,7 +19,7 @@ Represents an association between a service access point (SAP) and the system th
 [Association, Abstract, Version("2.10.0"), UMLPackagePath("CIM::Core::Service")]
 class CIM_HostedAccessPoint : CIM_HostedDependency
 {
-  CIM_System             REF Antecedent;
+  CIM_System             REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
 };
 ```
@@ -69,8 +74,8 @@ The SAPs that are hosted on the system.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The SAPs that are hosted on the system.
 [**CIM\_HostedDependency**](cim-hosteddependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

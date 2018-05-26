@@ -1,8 +1,14 @@
 ---
 title: Luminance to alpha effect
 description: Use the luminance to alpha effect to set the alpha channel to the luminance of the image and sets the color channels to 0.
-ms.assetid: 'B380DE5A-C097-47E0-8E0F-E3C9D2BA44B0'
-keywords: ["luminance to alpha effect"]
+ms.assetid: B380DE5A-C097-47E0-8E0F-E3C9D2BA44B0
+keywords:
+- luminance to alpha effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Luminance to alpha effect
@@ -92,7 +98,7 @@ The output is the same size as the input image.
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
  

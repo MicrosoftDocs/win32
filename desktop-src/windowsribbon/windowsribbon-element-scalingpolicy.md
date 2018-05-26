@@ -1,14 +1,20 @@
 ---
 title: ScalingPolicy element
 description: Represents a container for scaling specifications.
-ms.assetid: '133e7994-9901-43e8-82b0-3d910cf8758e'
-keywords: ["ScalingPolicy element Windows Ribbon"]
+ms.assetid: 133e7994-9901-43e8-82b0-3d910cf8758e
+keywords:
+- ScalingPolicy element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ScalingPolicy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScalingPolicy element
@@ -61,13 +67,13 @@ The list of [**Scale**](windowsribbon-element-scale.md) declarations must be in 
 > [!Note]  
 > It is highly recommended that adequate scaling policy detail be specified such that a Ribbon is able to render without scroll bars when resized to a width of 300 pixels at 96 dots per inch (dpi).
 
- 
+ 
 
 ## Examples
 
 The following example demonstrates how the appearance of controls in a [**Group**](windowsribbon-element-group.md) can be customized through the adaptive layout functionality of Ribbon [**SizeDefinition**](windowsribbon-element-sizedefinition.md) templates.
 
-The **ScalingPolicy** manifest in this example specifies a [**ScalingPolicy.IdealSizes**](windowsribbon-element-scalingpolicy-idealsizes.md) [**SizeDefinition**](windowsribbon-element-sizedefinition.md) preference for each of four groups of controls on a **Home** tab. In addition, [**Scale**](windowsribbon-element-scale.md) elements are specified to influence the collapsing behavior, in descending size order, of each group.
+The **ScalingPolicy** manifest in this example specifies a [**ScalingPolicy.IdealSizes**](windowsribbon-element-scalingpolicy-idealsizes.md) [**SizeDefinition**](windowsribbon-element-sizedefinition.md) preference for each of four groups of controls on a **Home** tab. In addition, [**Scale**](windowsribbon-element-scale.md) elements are specified to influence the collapsing behavior, in descending size order, of each group.
 
 
 ```XML
@@ -139,7 +145,7 @@ The **ScalingPolicy** manifest in this example specifies a [**ScalingPolicy.Idea
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -151,9 +157,9 @@ The **ScalingPolicy** manifest in this example specifies a [**ScalingPolicy.Idea
 [Customizing a Ribbon Through Size Definitions and Scaling Policies](windowsribbon-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

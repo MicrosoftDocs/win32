@@ -1,7 +1,12 @@
 ---
-Description: 'The Network Monitor documentation in the Platform Software Development Kit (SDK) has its own nomenclature.'
-ms.assetid: '56d82bd2-a7ee-435e-bcc9-b2cdad4f1d62'
+Description: The Network Monitor documentation in the Platform Software Development Kit (SDK) has its own nomenclature.
+ms.assetid: 56d82bd2-a7ee-435e-bcc9-b2cdad4f1d62
 title: Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Glossary

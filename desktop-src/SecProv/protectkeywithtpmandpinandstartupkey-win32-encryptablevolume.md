@@ -1,7 +1,12 @@
-﻿---
-Description: 'Secures the volume''s encryption key by using the Trusted Platform Module (TPM) on the computer, if available, enhanced by both a user-specified personal identification number (PIN) and by an external key that must be presented to the computer at startup.'
-ms.assetid: '8991c22c-1e36-415e-a82b-c5ddf9c3b24a'
-title: 'ProtectKeyWithTPMAndPINAndStartupKey method of the Win32\_EncryptableVolume class'
+---
+Description: Secures the volumes encryption key by using the Trusted Platform Module (TPM) on the computer, if available, enhanced by both a user-specified personal identification number (PIN) and by an external key that must be presented to the computer at startup.
+ms.assetid: 8991c22c-1e36-415e-a82b-c5ddf9c3b24a
+title: ProtectKeyWithTPMAndPINAndStartupKey method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProtectKeyWithTPMAndPINAndStartupKey method of the Win32\_EncryptableVolume class

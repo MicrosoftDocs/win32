@@ -1,14 +1,20 @@
 ---
 title: AcquisitionTimeDay Attribute
 description: The AcquisitionTimeDay attribute is the day part of the date and time the item was added to the library.
-ms.assetid: '0f050dd4-59af-4b50-810b-4265367ba819'
-keywords: ["AcquisitionTimeDay Attribute Windows Media Player"]
+ms.assetid: 0f050dd4-59af-4b50-810b-4265367ba819
+keywords:
+- AcquisitionTimeDay Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AcquisitionTimeDay
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AcquisitionTimeDay Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: ClusPartitions collection containing partition information about a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd0a6ec99-c7c8-4746-aaa7-ee70a2e8f355'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d0a6ec99-c7c8-4746-aaa7-ee70a2e8f355
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Partitions property Failover Cluster", "Partitions property Failover Cluster , ClusDisk object", "ClusDisk object Failover Cluster , Partitions property"]
+keywords:
+- Partitions property Failover Cluster
+- Partitions property Failover Cluster , ClusDisk object
+- ClusDisk object Failover Cluster , Partitions property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusDisk.Partitions property
@@ -47,7 +53,7 @@ A [**ClusPartitions**](cluspartitions-collection.md) collection that receives th
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -69,9 +75,9 @@ A [**ClusPartitions**](cluspartitions-collection.md) collection that receives th
 [**ClusDisk.Signature**](clusdisk-signature.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

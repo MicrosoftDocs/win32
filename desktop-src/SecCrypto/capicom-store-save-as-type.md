@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CAPICOM\_STORE\_SAVE\_AS\_TYPE enumeration type indicates the encoding of a certificate store.'
-ms.assetid: '7efd983e-3372-4d4a-9d10-fb05b4360cfe'
-title: 'CAPICOM\_STORE\_SAVE\_AS\_TYPE enumeration'
+---
+Description: The CAPICOM\_STORE\_SAVE\_AS\_TYPE enumeration type indicates the encoding of a certificate store.
+ms.assetid: 7efd983e-3372-4d4a-9d10-fb05b4360cfe
+title: CAPICOM\_STORE\_SAVE\_AS\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_STORE\_SAVE\_AS\_TYPE enumeration

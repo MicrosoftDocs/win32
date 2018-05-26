@@ -4,11 +4,16 @@ description: This section discusses the specific Steps necessary for an extensio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bb360bf9-8d8e-402f-af61-b6c9b57852e3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bb360bf9-8d8e-402f-af61-b6c9b57852e3
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["extending a primary snap-in's property sheet MMC", "primary snap-in's, extending a property sheet"]
+keywords:
+- extending a primary snap-ins property sheet MMC
+- primary snap-ins, extending a property sheet
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the Property Sheet of a Primary Snap-in
@@ -35,11 +40,11 @@ In the following procedure, be aware that {CLSID}, {snapinCLSID}, and {nodetypeG
 
     In the implementation of [**CreatePropertyPages**](iextendpropertysheet2-createpropertypages.md):
 
-    -   Define one or more property pages by filling the [**PROPSHEETPAGE**](propsheetpage.md) structure for each of the property pages with information about the page. Be aware that the standard size for a property page in an MMC console is 252 dialog units horizontally and 218 dialog units vertically.
-    -   For each [**PROPSHEETPAGE**](propsheetpage.md) structure, call the API function [**CreatePropertySheetPage**](_win32_createpropertysheetpage_cpp) to create a property sheet page. The function returns a handle to the HPROPSHEETPAGE type that uniquely identifies the page.
+    -   Define one or more property pages by filling the [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure for each of the property pages with information about the page. Be aware that the standard size for a property page in an MMC console is 252 dialog units horizontally and 218 dialog units vertically.
+    -   For each [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure, call the API function [**CreatePropertySheetPage**](_win32_createpropertysheetpage_cpp) to create a property sheet page. The function returns a handle to the HPROPSHEETPAGE type that uniquely identifies the page.
     -   Using the pointer to the [**IPropertySheetCallback**](ipropertysheetcallback.md) interface passed to the snap-in in the call to the [**CreatePropertyPages**](iextendpropertysheet2-createpropertypages.md) method, call the [**IPropertySheetCallback::AddPage**](ipropertysheetcallback-addpage.md) method to add each property page to the MMC-provided property sheet.
 
-5.  Implement a dialog box procedure for each property page. The pfnDlgProc member of each property page's [**PROPSHEETPAGE**](propsheetpage.md) structure should be set to the address of this procedure.
+5.  Implement a dialog box procedure for each property page. The pfnDlgProc member of each property page's [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure should be set to the address of this procedure.
 6.  Implement the [**IExtendPropertySheet2::QueryPagesFor**](iextendpropertysheet2-querypagesfor.md) method. MMC calls this method when the user selects a scope or result item and clicks the [**Properties**](snapin-properties.md) context menu item. If this method returns S\_OK, MMC then calls the snap-in's implementation of the [**IExtendPropertySheet2::CreatePropertyPages**](iextendpropertysheet2-createpropertypages.md) method.
 
 ## Related topics

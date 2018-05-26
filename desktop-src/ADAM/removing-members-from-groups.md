@@ -4,11 +4,15 @@ description: To remove an AD LDS user object from an AD LDS group object, bind t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e5e05034-9236-47b5-9775-c0aad0e9aac9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: e5e05034-9236-47b5-9775-c0aad0e9aac9
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , removing members from groups"]
+keywords:
+- AD LDS examples ADAM , removing members from groups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Removing Members from Groups

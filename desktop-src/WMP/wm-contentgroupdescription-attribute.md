@@ -1,14 +1,20 @@
 ---
 title: WM/ContentGroupDescription Attribute
 description: The WM/ContentGroupDescription attribute is the description of the content group, which is a collection of media items such as a CD boxed set.
-ms.assetid: 'b2615f78-2d45-45f0-89f7-f1e8e083be9b'
-keywords: ["WM/ContentGroupDescription Attribute Windows Media Player"]
+ms.assetid: b2615f78-2d45-45f0-89f7-f1e8e083be9b
+keywords:
+- WM/ContentGroupDescription Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/ContentGroupDescription
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ContentGroupDescription Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: sourceFilter Element
 description: The sourceFilter element contains elements that select items from a library.
-ms.assetid: 'c961990f-8c57-448d-b4dc-dcfe70300e5a'
-keywords: ["sourceFilter Element Windows Media Player"]
+ms.assetid: c961990f-8c57-448d-b4dc-dcfe70300e5a
+keywords:
+- sourceFilter Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - sourceFilter Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sourceFilter Element
@@ -51,7 +57,7 @@ The GUID that uniquely identifies the source filter object. The source filter ob
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -71,7 +77,7 @@ The name of the filter object.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -86,7 +92,7 @@ The name of the filter object.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -139,9 +145,9 @@ The **sourceFilter** element selects items from the library without regard for t
 [**Windows Media Playlist Elements Reference**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

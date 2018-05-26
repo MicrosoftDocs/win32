@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Refresh method refreshes FaxOutgoingQueue object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.'
-ms.assetid: 'c1c106e8-b314-4788-9e65-b8ef961582c4'
-title: 'FaxOutgoingQueue.Refresh method'
+---
+Description: The Refresh method refreshes FaxOutgoingQueue object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.
+ms.assetid: c1c106e8-b314-4788-9e65-b8ef961582c4
+title: FaxOutgoingQueue.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingQueue.Refresh method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -45,7 +50,7 @@ To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-ac
 [**FaxOutgoingQueue**](-mfax-faxoutgoingqueue.md)
 </dt> <dt>
 
-[**IFaxOutgoingQueue**](-mfax-faxoutgoingqueue-cpp.md)
+[**IFaxOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingqueue?branch=master)
 </dt> <dt>
 
 [Managing Outgoing Jobs](-mfax-managing-outgoing-jobs.md)

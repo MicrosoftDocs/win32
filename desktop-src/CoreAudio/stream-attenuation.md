@@ -1,7 +1,12 @@
 ---
 Description: Default Ducking Experience
-ms.assetid: '2ad9482f-1888-4f19-bc41-9d47a8e0ed15'
+ms.assetid: 2ad9482f-1888-4f19-bc41-9d47a8e0ed15
 title: Default Ducking Experience
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Default Ducking Experience

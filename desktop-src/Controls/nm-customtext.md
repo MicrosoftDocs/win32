@@ -1,8 +1,9 @@
 ---
 title: NM\_CUSTOMTEXT notification code
-description: Notifies a control's parent window about custom text operations. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'b4bde648-3479-4fac-ad32-b34c7272c1fc'
-keywords: ["NM_CUSTOMTEXT notification code Windows Controls"]
+description: Notifies a controls parent window about custom text operations. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: b4bde648-3479-4fac-ad32-b34c7272c1fc
+keywords:
+- NM_CUSTOMTEXT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_CUSTOMTEXT notification code
@@ -33,7 +39,7 @@ NM_CUSTOMTEXT
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMCUSTOMTEXT**](nmcustomtext.md) structure that contains additional information about this notification.
+A pointer to an [**NMCUSTOMTEXT**](/windows/win32/Commctrl/ns-commctrl-tagnmcustomtext?branch=master) structure that contains additional information about this notification.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ The return value is ignored by the control.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

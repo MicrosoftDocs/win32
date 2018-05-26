@@ -1,8 +1,11 @@
 ---
 title: SetPartitionDeviceElementWithFlags method of the BcdObject class
 description: Sets the specified partition device element. This method is identical to SetPartitionDeviceElement except it takes additional flags.
-ms.assetid: 'be7a88a3-f684-4155-a8c7-638f54125de0'
-keywords: ["SetPartitionDeviceElementWithFlags method Boot Config", "SetPartitionDeviceElementWithFlags method Boot Config , BcdObject class", "BcdObject class Boot Config , SetPartitionDeviceElementWithFlags method"]
+ms.assetid: be7a88a3-f684-4155-a8c7-638f54125de0
+keywords:
+- SetPartitionDeviceElementWithFlags method Boot Config
+- SetPartitionDeviceElementWithFlags method Boot Config , BcdObject class
+- BcdObject class Boot Config , SetPartitionDeviceElementWithFlags method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetPartitionDeviceElementWithFlags method of the BcdObject class
@@ -22,11 +30,11 @@ Sets the specified partition device element. This method is identical to [**SetP
 
 ```mof
 boolean SetPartitionDeviceElementWithFlags(
-  [in] uint32 Type,
-  [in] uint32 DeviceType,
-  [in] string AdditionalOptions,
-  [in] string Path,
-  [in] uint32 Flags
+  [in] uint32 Type,
+  [in] uint32 DeviceType,
+  [in] string AdditionalOptions,
+  [in] string Path,
+  [in] uint32 Flags
 );
 ```
 
@@ -68,7 +76,7 @@ The device type. This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -99,7 +107,7 @@ This parameter can be zero or the following value.
 
 
 
- 
+ 
 
 If this parameter is zero, VHD detection is enabled. For more information, see Remarks.
 
@@ -115,8 +123,8 @@ By default, the [**SetPartitionDeviceElementWithFlags**](setpartitiondeviceeleme
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -132,9 +140,9 @@ By default, the [**SetPartitionDeviceElementWithFlags**](setpartitiondeviceeleme
 [**SetPartitionDeviceElement**](setpartitiondeviceelement-bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

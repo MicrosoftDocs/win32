@@ -1,7 +1,12 @@
 ---
-Description: 'The length of a source has changed.'
-ms.assetid: 'f2b89578-22f5-4b3b-bc43-7cf4f7eb5f0e'
-title: 'EC\_LENGTH\_CHANGED'
+Description: The length of a source has changed.
+ms.assetid: f2b89578-22f5-4b3b-bc43-7cf4f7eb5f0e
+title: EC\_LENGTH\_CHANGED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_LENGTH\_CHANGED
@@ -50,9 +55,9 @@ The Filter Graph Manager stores the new stop time.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

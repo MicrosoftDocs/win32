@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether the buffer contains a texture.'
-ms.assetid: '2c64a155-4b38-45fa-a62e-02e0da2fbeef'
-title: 'ID3DXPRTBuffer::IsTexture method'
+---
+Description: Indicates whether the buffer contains a texture.
+ms.assetid: 2c64a155-4b38-45fa-a62e-02e0da2fbeef
+title: ID3DXPRTBufferIsTexture method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTBuffer::IsTexture method

@@ -1,8 +1,11 @@
 ---
 title: IMsgrSession ContextData property
 description: Retrieves a value that indicates the application-specific context data.
-ms.assetid: 'fc72729c-d5fa-4396-92a4-e2a2459c3e0c'
-keywords: ["ContextData property Windows Messenger", "ContextData property Windows Messenger , IMsgrSession interface", "IMsgrSession interface Windows Messenger , ContextData property"]
+ms.assetid: fc72729c-d5fa-4396-92a4-e2a2459c3e0c
+keywords:
+- ContextData property Windows Messenger
+- ContextData property Windows Messenger , IMsgrSession interface
+- IMsgrSession interface Windows Messenger , ContextData property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMsgrSession::ContextData property
 
-\[**ContextData** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**ContextData** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves a value that indicates the application-specific context data.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ContextData(
-  [out, retval] BSTR *pbstrData
+  [out, retval] BSTR *pbstrData
 );
 ```
 
@@ -51,7 +59,7 @@ The following table lists the error codes returned by this property.
 
 
 
- 
+ 
 
 The following table lists the error codes returned by this property.
 
@@ -64,7 +72,7 @@ The following table lists the error codes returned by this property.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -72,10 +80,10 @@ The following table lists the error codes returned by this property.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Product<br/>                  | Messenger 4.0<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl> |
@@ -96,9 +104,9 @@ The following table lists the error codes returned by this property.
 [Messenger Lock and Key API](im-lock-and-key-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

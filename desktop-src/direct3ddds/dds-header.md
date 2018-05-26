@@ -1,8 +1,9 @@
 ---
 title: DDS\_HEADER structure
 description: Describes a DDS file header.
-ms.assetid: '7f8bde30-0ff9-4bb9-b444-5c875e6a0865'
-keywords: ["DDS_HEADER structure DDS"]
+ms.assetid: 7f8bde30-0ff9-4bb9-b444-5c875e6a0865
+keywords:
+- DDS_HEADER structure DDS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Dds.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DDS\_HEADER structure
@@ -22,20 +28,20 @@ Describes a DDS file header.
 
 ```C++
 typedef struct {
-  DWORD           dwSize;
-  DWORD           dwFlags;
-  DWORD           dwHeight;
-  DWORD           dwWidth;
-  DWORD           dwPitchOrLinearSize;
-  DWORD           dwDepth;
-  DWORD           dwMipMapCount;
-  DWORD           dwReserved1[11];
+  DWORD           dwSize;
+  DWORD           dwFlags;
+  DWORD           dwHeight;
+  DWORD           dwWidth;
+  DWORD           dwPitchOrLinearSize;
+  DWORD           dwDepth;
+  DWORD           dwMipMapCount;
+  DWORD           dwReserved1[11];
   DDS_PIXELFORMAT ddspf;
-  DWORD           dwCaps;
-  DWORD           dwCaps2;
-  DWORD           dwCaps3;
-  DWORD           dwCaps4;
-  DWORD           dwReserved2;
+  DWORD           dwCaps;
+  DWORD           dwCaps2;
+  DWORD           dwCaps3;
+  DWORD           dwCaps4;
+  DWORD           dwReserved2;
 } DDS_HEADER;
 ```
 
@@ -80,12 +86,12 @@ Flags to indicate which members contain valid data.
 
 
 
- 
+ 
 
 > [!Note]  
 > When you write .dds files, you should set the DDSD\_CAPS and DDSD\_PIXELFORMAT flags, and for mipmapped textures you should also set the DDSD\_MIPMAPCOUNT flag. However, when you read a .dds file, you should not rely on the DDSD\_CAPS, DDSD\_PIXELFORMAT, and DDSD\_MIPMAPCOUNT flags being set because some writers of such a file might not set these flags.
 
- 
+ 
 
 The DDS\_HEADER\_FLAGS\_TEXTURE flag, which is defined in Dds.h, is a bitwise-OR combination of the DDSD\_CAPS, DDSD\_HEIGHT, DDSD\_WIDTH, and DDSD\_PIXELFORMAT flags.
 
@@ -195,12 +201,12 @@ Specifies the complexity of the surfaces stored.
 
 
 
- 
+ 
 
 > [!Note]  
 > When you write .dds files, you should set the DDSCAPS\_TEXTURE flag, and for multiple surfaces you should also set the DDSCAPS\_COMPLEX flag. However, when you read a .dds file, you should not rely on the DDSCAPS\_TEXTURE and DDSCAPS\_COMPLEX flags being set because some writers of such a file might not set these flags.
 
- 
+ 
 
 The DDS\_SURFACE\_FLAGS\_MIPMAP flag, which is defined in Dds.h, is a bitwise-OR combination of the DDSCAPS\_COMPLEX and DDSCAPS\_MIPMAP flags.
 
@@ -234,7 +240,7 @@ Additional detail about the surfaces stored.
 
 
 
- 
+ 
 
 The DDS\_CUBEMAP\_POSITIVEX flag, which is defined in Dds.h, is a bitwise-OR combination of the DDSCAPS2\_CUBEMAP and DDSCAPS2\_CUBEMAP\_POSITIVEX flags.
 
@@ -255,7 +261,7 @@ The DDS\_FLAGS\_VOLUME flag, which is defined in Dds.h, is equal to the DDSCAPS2
 > [!Note]  
 > Although Direct3D 9 supports partial cube-maps, Direct3D 10, 10.1, and 11 require that you define all six cube-map faces (that is, you must set DDS\_CUBEMAP\_ALLFACES).
 
- 
+ 
 
 </dd> <dt>
 
@@ -317,9 +323,9 @@ Use this structure in combination with a [**DDS\_HEADER\_DXT10**](dds-header-dxt
 [Reference for DDS](dx-graphics-dds-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

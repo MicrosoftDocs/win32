@@ -1,8 +1,9 @@
 ---
 title: TB\_GETBUTTONSIZE message
 description: Retrieves the current width and height of toolbar buttons, in pixels.
-ms.assetid: 'c1b72494-670b-4cf8-a78f-c67b6eee0677'
-keywords: ["TB_GETBUTTONSIZE message Windows Controls"]
+ms.assetid: c1b72494-670b-4cf8-a78f-c67b6eee0677
+keywords:
+- TB_GETBUTTONSIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETBUTTONSIZE message
@@ -37,15 +43,15 @@ Returns a **DWORD** value that contains the width and height values in the low w
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

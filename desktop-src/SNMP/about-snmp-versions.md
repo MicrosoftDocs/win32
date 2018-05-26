@@ -1,7 +1,12 @@
 ---
 title: About SNMP Versions
 description: The original Internet standard Network Management Framework, described in RFCs 1155, 1157, and 1213, is called the SNMP version 1 (SNMPv1) framework.
-ms.assetid: '7de41e08-3cb3-454a-aa4e-140a35c99472'
+ms.assetid: 7de41e08-3cb3-454a-aa4e-140a35c99472
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About SNMP Versions

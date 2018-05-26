@@ -1,8 +1,14 @@
 ---
 title: Samples
 description: The following samples demonstrate the Direct2D API.
-ms.assetid: '4e972beb-5c69-4617-a5fe-0e0e4759240a'
-keywords: ["Direct2D,samples"]
+ms.assetid: 4e972beb-5c69-4617-a5fe-0e0e4759240a
+keywords:
+- Direct2D,samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Samples

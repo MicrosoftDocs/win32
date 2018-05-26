@@ -1,7 +1,12 @@
 ---
 title: Flags Parameter
 description: Use the Flags parameter to specify how topics should be searched for, and how they should appear, for certain commands.
-ms.assetid: 'C07A1314-46F5-46be-A64F-5E194906034A'
+ms.assetid: C07A1314-46F5-46be-A64F-5E194906034A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flags Parameter
@@ -26,7 +31,7 @@ Use the **Flags** parameter to specify how topics should be searched for, and ho
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -35,9 +40,9 @@ Use the **Flags** parameter to specify how topics should be searched for, and ho
 [About Parameters](parameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

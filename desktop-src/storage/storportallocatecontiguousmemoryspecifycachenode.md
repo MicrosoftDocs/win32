@@ -1,8 +1,9 @@
 ---
 title: StorPortAllocateContiguousMemorySpecifyCacheNode routine
 description: The StorPortAllocateContiguousMemorySpecifyCacheNode routine allocates a range of physically contiguous noncached, nonpaged memory.
-ms.assetid: 'b2ed8c88-9ffd-4601-8fd0-c9390e9ba84d'
-keywords: ["StorPortAllocateContiguousMemorySpecifyCacheNode routine Storage Devices"]
+ms.assetid: b2ed8c88-9ffd-4601-8fd0-c9390e9ba84d
+keywords:
+- StorPortAllocateContiguousMemorySpecifyCacheNode routine Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - storport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StorPortAllocateContiguousMemorySpecifyCacheNode routine
@@ -22,14 +28,14 @@ The **StorPortAllocateContiguousMemorySpecifyCacheNode** routine allocates a ran
 
 ```C++
 ULONG StorPortAllocateContiguousMemorySpecifyCacheNode(
-  _In_     PVOID               HwDeviceExtension,
-  _In_     SIZE_T              NumberOfBytes,
-  _In_     PHYSICAL_ADDRESS    LowestAcceptableAddress,
-  _In_     PHYSICAL_ADDRESS    HighestAcceptableAddress,
-  _In_opt_ PHYSICAL_ADDRESS    BoundaryAddressMultiple,
-  _In_     MEMORY_CACHING_TYPE CacheType,
-  _In_     NODE_REQUIREMENT    PreferredNode,
-  _Out_    PVOID               *BufferPointer
+  _In_     PVOID               HwDeviceExtension,
+  _In_     SIZE_T              NumberOfBytes,
+  _In_     PHYSICAL_ADDRESS    LowestAcceptableAddress,
+  _In_     PHYSICAL_ADDRESS    HighestAcceptableAddress,
+  _In_opt_ PHYSICAL_ADDRESS    BoundaryAddressMultiple,
+  _In_     MEMORY_CACHING_TYPE CacheType,
+  _In_     NODE_REQUIREMENT    PreferredNode,
+  _Out_    PVOID               *BufferPointer
 );
 ```
 
@@ -109,7 +115,7 @@ The **StorPortAllocateContiguousMemorySpecifyCacheNode** routine returns one of 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -122,16 +128,16 @@ If the request fails, *BufferPointer* will be set to **NULL**.
 |                                 |                                                                                                                                         |
 |---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Target platform<br/>      | <dl> <dt>[Universal](http://go.microsoft.com/fwlink/p/?linkid=531356)</dt> </dl> |
-| Version<br/>              | Available starting with Windows 7.<br/>                                                                                           |
+| Version<br/>              | Available starting with Windows 7.<br/>                                                                                           |
 | Header<br/>               | <dl> <dt>Storport.h (include Storport.h)</dt> </dl>                              |
 | IRQL<br/>                 | &lt;=DISPATCH\_LEVEL<br/>                                                                                                         |
 | DDI compliance rules<br/> | [**StorPortIrql**](https://msdn.microsoft.com/library/windows/hardware/hh454266)                                                                                       |
 
 
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20StorPortAllocateContiguousMemorySpecifyCacheNode%20routine%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

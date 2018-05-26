@@ -1,8 +1,23 @@
 ---
 title: Multimedia File I/O Messages
 description: Multimedia File I/O Messages
-ms.assetid: '05c7cd42-6e48-45a5-9e6d-9470ab3d432e'
-keywords: ["Windows multimedia,file I/O messages", "multimedia,file I/O messages", "multimedia input,file I/O messages", "multimedia file I/O,messages", "file I/O,messages", "input and output (I/O),messages", "I/O (input and output),messages", "reference for multimedia file I/O,messages", "multimedia file I/O reference,messages", "file I/O reference,messages"]
+ms.assetid: 05c7cd42-6e48-45a5-9e6d-9470ab3d432e
+keywords:
+- Windows multimedia,file I/O messages
+- multimedia,file I/O messages
+- multimedia input,file I/O messages
+- multimedia file I/O,messages
+- file I/O,messages
+- input and output (I/O),messages
+- I/O (input and output),messages
+- reference for multimedia file I/O,messages
+- multimedia file I/O reference,messages
+- file I/O reference,messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia File I/O Messages

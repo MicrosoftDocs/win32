@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used with compressed results of the vertex version of the precomputed radiance transfer (PRT) simulator.'
-ms.assetid: '0ec28b8c-5010-48a4-8e45-d7f9aa08185f'
+---
+Description: Used with compressed results of the vertex version of the precomputed radiance transfer (PRT) simulator.
+ms.assetid: 0ec28b8c-5010-48a4-8e45-d7f9aa08185f
 title: D3DXSHPRTCompSuperCluster function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSHPRTCompSuperCluster function

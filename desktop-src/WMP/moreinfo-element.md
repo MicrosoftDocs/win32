@@ -1,14 +1,20 @@
 ---
 title: MOREINFO Element
 description: The MOREINFO element specifies a URL to a website, email address, or script command associated with a show, clip, or banner.
-ms.assetid: 'b817ef1d-4ca0-45f4-942b-695eaf537110'
-keywords: ["MOREINFO Element Windows Media Player"]
+ms.assetid: b817ef1d-4ca0-45f4-942b-695eaf537110
+keywords:
+- MOREINFO Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - MOREINFO Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MOREINFO Element
@@ -45,7 +51,7 @@ This can be a string containing a window name, or one of the following values.
 
 
 
- 
+ 
 
 ## Parent/Child Elements
 
@@ -58,7 +64,7 @@ This can be a string containing a window name, or one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -119,9 +125,9 @@ If the metafile is opened in the stand-alone Windows Media Player, the **TARGET*
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

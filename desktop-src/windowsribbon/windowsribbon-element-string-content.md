@@ -1,14 +1,20 @@
 ---
 title: String.Content property
 description: Represents the content of a string resource.
-ms.assetid: '86f34cdc-1311-4f52-979f-201d71bbb9e9'
-keywords: ["String.Content property Windows Ribbon"]
+ms.assetid: 86f34cdc-1311-4f52-979f-201d71bbb9e9
+keywords:
+- String.Content property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - String.Content
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # String.Content property
@@ -72,14 +78,14 @@ The following example demonstrates the markup for a [**Command.LabelTitle**](win
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

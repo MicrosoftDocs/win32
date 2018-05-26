@@ -1,8 +1,11 @@
 ---
 title: IWMPCdromRip startRip method
 description: The startRip method rips the CD.
-ms.assetid: '3569e29c-e593-4bdd-8afb-74e39721cf80'
-keywords: ["startRip method Windows Media Player", "startRip method Windows Media Player , IWMPCdromRip interface", "IWMPCdromRip interface Windows Media Player , startRip method"]
+ms.assetid: 3569e29c-e593-4bdd-8afb-74e39721cf80
+keywords:
+- startRip method Windows Media Player
+- startRip method Windows Media Player , IWMPCdromRip interface
+- IWMPCdromRip interface Windows Media Player , startRip method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromRip::startRip method
@@ -82,9 +90,9 @@ Ripping a CD by using the **IWMPCdromRip** interface has the same effect as ripp
 [**Ripping a CD**](ripping-a-cd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: The Active Directory Users and Computers snap-in includes property 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4216aede-b513-4db9-a6de-1a79b3a6f74a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 4216aede-b513-4db9-a6de-1a79b3a6f74a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Mappings for the Active Directory Users and Computers Snap-in

@@ -1,12 +1,17 @@
 ---
-Description: 'The context that was determined to be applicable to the component in question.'
-ms.assetid: '3a6ee9fa-84c3-4a42-9185-849a09d56bf1'
-title: 'Component.Context property'
+Description: The context that was determined to be applicable to the component in question.
+ms.assetid: 3a6ee9fa-84c3-4a42-9185-849a09d56bf1
+title: Component.Context property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Component.Context property
 
-The context that was determined to be applicable to the component in question. This property calls the [**MsiEnumComponentsEx**](msienumcomponentsex.md) function.
+The context that was determined to be applicable to the component in question. This property calls the [**MsiEnumComponentsEx**](/windows/win32/Msi/nf-msi-msienumcomponentsexa?branch=master) function.
 
 **[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported. This property is available beginning with Windows Installer 5.0.
 
@@ -26,9 +31,9 @@ The context that was determined to be applicable to the component in question. T
 
 
 
- 
+ 
 
- 
+ 
 
 
 

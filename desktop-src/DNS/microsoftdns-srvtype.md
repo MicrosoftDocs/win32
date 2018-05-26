@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_SRVType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Service (SRV) record.
-ms.assetid: '4b36246d-4466-46d9-9267-180e43547ae6'
-keywords: ["MicrosoftDNS_SRVType class DNS", "MicrosoftDNS_SRVType class DNS , described"]
+ms.assetid: 4b36246d-4466-46d9-9267-180e43547ae6
+keywords:
+- MicrosoftDNS_SRVType class DNS
+- MicrosoftDNS_SRVType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_SRVType class
@@ -57,7 +64,7 @@ The **MicrosoftDNS\_SRVType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -124,7 +131,7 @@ Weight of the target host. This is useful when selecting among hosts that have t
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -143,9 +150,9 @@ Weight of the target host. This is useful when selecting among hosts that have t
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

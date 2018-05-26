@@ -1,8 +1,21 @@
 ---
 title: Library Location Constants
 description: Library Location Constants
-ms.assetid: '88ff9b91-6b21-4f7d-ae13-e8456a3e0f75'
-keywords: ["Windows Media Player online stores,library location constants", "online stores,library location constants", "type 1 online stores,library location constants", "Windows Media Player online stores,locations", "online stores,locations", "type 1 online stores,locations", "Windows Media Player library,location constants", "library,location constants"]
+ms.assetid: 88ff9b91-6b21-4f7d-ae13-e8456a3e0f75
+keywords:
+- Windows Media Player online stores,library location constants
+- online stores,library location constants
+- type 1 online stores,library location constants
+- Windows Media Player online stores,locations
+- online stores,locations
+- type 1 online stores,locations
+- Windows Media Player library,location constants
+- library,location constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Library Location Constants
@@ -12,7 +25,7 @@ keywords: ["Windows Media Player online stores,library location constants", "onl
 
  
 
-The library location constants are global string variables defined in contentpartner.h. They are used by certain methods of the [IWMPContentPartner](iwmpcontentpartner.md) and [IWMPContentPartnerCallback](iwmpcontentpartnercallback.md) interfaces and by certain methods of the [External](external-object-for-type-1-online-stores.md) object. These constants are used to indicate the following types.
+The library location constants are global string variables defined in contentpartner.h. They are used by certain methods of the [IWMPContentPartner](/windows/win32/contentpartner/nn-contentpartner-iwmpcontentpartner?branch=master) and [IWMPContentPartnerCallback](/windows/win32/contentpartner/nn-contentpartner-iwmpcontentpartnercallback?branch=master) interfaces and by certain methods of the [External](external-object-for-type-1-online-stores.md) object. These constants are used to indicate the following types.
 
 -   Library location type: This is the type of library view being displayed by Windows Media Player. For example, the Player might be displaying a view of a particular album (g\_szCPAlbumID) or the view of all genres (g\_szAllCPGenreIDs).
 -   Selected item type: This is the type of item selected in the library view. For example, the user might select a particular album (g\_szCPAlbumID) in the view of all albums.
@@ -81,19 +94,19 @@ The following table gives the name and value of each constant, and a brief descr
 [**External.play**](external-play.md)
 </dt> <dt>
 
-[**IWMPContentPartner::GetCommands**](iwmpcontentpartner-getcommands.md)
+[**IWMPContentPartner::GetCommands**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getcommands?branch=master)
 </dt> <dt>
 
-[**IWMPContentPartner::GetListContents**](iwmpcontentpartner-getlistcontents.md)
+[**IWMPContentPartner::GetListContents**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents?branch=master)
 </dt> <dt>
 
-[**IWMPContentPartner::GetTemplate**](iwmpcontentpartner-gettemplate.md)
+[**IWMPContentPartner::GetTemplate**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate?branch=master)
 </dt> <dt>
 
-[**IWMPContentPartner::InvokeCommand**](iwmpcontentpartner-invokecommand.md)
+[**IWMPContentPartner::InvokeCommand**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-invokecommand?branch=master)
 </dt> <dt>
 
-[**IWMPContentPartnerCallback::ChangeView**](iwmpcontentpartnercallback-changeview.md)
+[**IWMPContentPartnerCallback::ChangeView**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-changeview?branch=master)
 </dt> </dl>
 
  

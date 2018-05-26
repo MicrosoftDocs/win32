@@ -1,14 +1,22 @@
 ---
 title: BasicDevice.PresentationUrl property
 description: Gets the presentation URL of the device.
-ms.assetid: '106892F9-2F2D-4B44-A6A0-D0CC36E21117'
-keywords: ["PresentationUrl property Media Streaming API", "PresentationUrl property Media Streaming API , BasicDevice interface", "BasicDevice interface Media Streaming API , PresentationUrl property"]
+ms.assetid: 106892F9-2F2D-4B44-A6A0-D0CC36E21117
+keywords:
+- PresentationUrl property Media Streaming API
+- PresentationUrl property Media Streaming API , BasicDevice interface
+- BasicDevice interface Media Streaming API , PresentationUrl property
 topic_type:
 - apiref
 api_name:
 - BasicDevice.PresentationUrl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BasicDevice.PresentationUrl property

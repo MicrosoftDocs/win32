@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PDEV\_ADJUST\_IMAGEABLE\_ORIGIN\_AREA structure specifies the imageable origin area.'
-ms.assetid: '7b66ed24-64c2-49bc-a417-05fe11178b9f'
-title: 'PDEV\_ADJUST\_IMAGEABLE\_ORIGIN\_AREA structure'
+---
+Description: The PDEV\_ADJUST\_IMAGEABLE\_ORIGIN\_AREA structure specifies the imageable origin area.
+ms.assetid: 7b66ed24-64c2-49bc-a417-05fe11178b9f
+title: PDEV\_ADJUST\_IMAGEABLE\_ORIGIN\_AREA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PDEV\_ADJUST\_IMAGEABLE\_ORIGIN\_AREA structure

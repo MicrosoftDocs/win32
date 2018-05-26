@@ -1,8 +1,16 @@
 ---
 title: Sending ASF Data Over a Network
 description: Sending ASF Data Over a Network
-ms.assetid: 'd1f01193-fcf5-4a98-99a3-0c4a2d846971'
-keywords: ["Windows Media Format SDK,sending ASF data", "Advanced Systems Format (ASF),sending data", "ASF (Advanced Systems Format),sending data"]
+ms.assetid: d1f01193-fcf5-4a98-99a3-0c4a2d846971
+keywords:
+- Windows Media Format SDK,sending ASF data
+- Advanced Systems Format (ASF),sending data
+- ASF (Advanced Systems Format),sending data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending ASF Data Over a Network

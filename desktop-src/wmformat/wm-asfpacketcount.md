@@ -1,14 +1,20 @@
 ---
 title: WM/ASFPacketCount
 description: The WM/ASFPacketCount attribute contains a count of the packets in the data section of the ASF file.
-ms.assetid: '97035a4e-4de9-4c9e-9288-addf6eccddc7'
-keywords: ["WM/ASFPacketCount windows Media Format"]
+ms.assetid: 97035a4e-4de9-4c9e-9288-addf6eccddc7
+keywords:
+- WM/ASFPacketCount windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/ASFPacketCount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ASFPacketCount
@@ -27,7 +33,7 @@ g\_wszWMASFPacketCount
 
 This attribute is read-only, and applies to the entire file (stream 0).
 
-You can only retrieve this attribute by using the methods of the [**IWMHeaderInfo3**](iwmheaderinfo3.md) interface from the metadata editor object.
+You can only retrieve this attribute by using the methods of the [**IWMHeaderInfo3**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3?branch=master) interface from the metadata editor object.
 
 ## See also
 

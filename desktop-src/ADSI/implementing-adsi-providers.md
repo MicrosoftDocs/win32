@@ -4,11 +4,16 @@ description: Active Directory Service Interfaces (ADSI) are COM interfaces that 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f86f36f0-44ff-41b7-8cf6-b97b721a8572'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: f86f36f0-44ff-41b7-8cf6-b97b721a8572
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Implementing Active Directory Service Interfaces Providers ADSI", "Implementing ADSI Providers ADSI"]
+keywords:
+- Implementing Active Directory Service Interfaces Providers ADSI
+- Implementing ADSI Providers ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Implementing Active Directory Service Interfaces Providers
@@ -17,9 +22,9 @@ Active Directory Service Interfaces (ADSI) are COM interfaces that wrap director
 
 As with any COM implementation, you can write an ADSI provider in many languages. The ADSI COM interfaces are defined as dual interfaces that allow both run-time and compile-time name resolution and can be called by Automation-compliant languages such as Visual Basic, Visual Basic Scripting Edition, and also the more performance and efficiency-conscious languages such as C and C++. ADSI clients also include web applications using Active Server Pages and administration snap-ins through the Microsoft Management Console.
 
-Because ADSI supplies its own OLE DB provider, implementing the search features defined by [**IDirectorySearch**](idirectorysearch.md) also enables ADSI clients to query your directory service for data.
+Because ADSI supplies its own OLE DB provider, implementing the search features defined by [**IDirectorySearch**](/windows/win32/Iads/nn-iads-idirectorysearch?branch=master) also enables ADSI clients to query your directory service for data.
 
-All directory service objects can be represented through a generic ADSI object supporting [**IDirectoryObject**](idirectoryobject.md). ADSI supplies the building blocks necessary to represent the features and services of any directory service.
+All directory service objects can be represented through a generic ADSI object supporting [**IDirectoryObject**](/windows/win32/Iads/nn-iads-idirectoryobject?branch=master). ADSI supplies the building blocks necessary to represent the features and services of any directory service.
 
 In addition, the ADSI meta-interfaces represent common objects used by directory administrators. You map the properties of the meta-interfaces to the properties supported by your directory service. ADSI clients programming to the Active Directory Service Interfaces gain access to your directory service as soon as the provider is installed and the system restarted.
 

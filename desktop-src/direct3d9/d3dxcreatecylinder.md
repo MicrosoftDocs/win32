@@ -1,7 +1,12 @@
-﻿---
-Description: 'Uses a left-handed coordinate system to create a mesh containing a cylinder.'
-ms.assetid: '54b8a59e-d13f-44cb-84c0-f63c7b1ffb1b'
+---
+Description: Uses a left-handed coordinate system to create a mesh containing a cylinder.
+ms.assetid: 54b8a59e-d13f-44cb-84c0-f63c7b1ffb1b
 title: D3DXCreateCylinder function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateCylinder function
@@ -33,9 +38,9 @@ HRESULT D3DXCreateCylinder(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device associated with the created cylinder mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device associated with the created cylinder mesh.
 
 </dd> <dt>
 

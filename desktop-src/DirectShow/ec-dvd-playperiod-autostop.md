@@ -1,12 +1,17 @@
 ---
-Description: 'Indicates that the Navigator has finished playing the segment specified in a call to IDvdControl2::PlayPeriodInTitleAutoStop.'
-ms.assetid: '1716eabe-f106-436a-8a6a-ca43cee9341c'
-title: 'EC\_DVD\_PLAYPERIOD\_AUTOSTOP'
+Description: Indicates that the Navigator has finished playing the segment specified in a call to IDvdControl2PlayPeriodInTitleAutoStop.
+ms.assetid: 1716eabe-f106-436a-8a6a-ca43cee9341c
+title: EC\_DVD\_PLAYPERIOD\_AUTOSTOP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_PLAYPERIOD\_AUTOSTOP
 
-Indicates that the Navigator has finished playing the segment specified in a call to [**IDvdControl2::PlayPeriodInTitleAutoStop**](idvdcontrol2-playperiodintitleautostop.md).
+Indicates that the Navigator has finished playing the segment specified in a call to [**IDvdControl2::PlayPeriodInTitleAutoStop**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-playperiodintitleautostop?branch=master).
 
 ## Parameters
 
@@ -55,12 +60,12 @@ This event is also sent when playback is canceled before the Navigator finishes 
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> <dt>
 
-[**IDvdControl2::PlayPeriodInTitleAutoStop**](idvdcontrol2-playperiodintitleautostop.md)
+[**IDvdControl2::PlayPeriodInTitleAutoStop**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-playperiodintitleautostop?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

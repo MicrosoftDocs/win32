@@ -4,17 +4,21 @@ description: TBD.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0D040406-D467-49F8-84B9-83DF7A8769E9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0D040406-D467-49F8-84B9-83DF7A8769E9
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["VirtualNumaCount Failover Cluster"]
+keywords:
+- VirtualNumaCount Failover Cluster
 topic_type:
 - apiref
 api_name:
 - VirtualNumaCount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VirtualNumaCount
@@ -28,14 +32,14 @@ TBD
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 1                                         |
 | Maximum   | 64                                        |
 | Default   | 1                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -48,7 +52,7 @@ The constant for this property is **CLUSREG\_NAME\_VIRTUAL\_NUMA\_COUNT**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -59,9 +63,9 @@ The constant for this property is **CLUSREG\_NAME\_VIRTUAL\_NUMA\_COUNT**.
 [Virtual Machine Private Properties](virtual-machine-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Displays the Windows Help and Support window. This method has the same effect as clicking the Start menu and selecting Help and Support.'
-ms.assetid: '9460C87E-6703-4df6-A84C-8D394E0E6703'
-title: 'IShellDispatch.Help method'
+---
+Description: Displays the Windows Help and Support window. This method has the same effect as clicking the Start menu and selecting Help and Support.
+ms.assetid: 9460C87E-6703-4df6-A84C-8D394E0E6703
+title: IShellDispatch.Help method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch.Help method

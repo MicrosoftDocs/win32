@@ -1,14 +1,20 @@
 ---
 title: stop
 description: Displays the trace stop options.
-ms.assetid: '24349126-5a54-4939-bc4c-e3f241ec2b93'
-keywords: ["stop Windows Performance Analyzer"]
+ms.assetid: 24349126-5a54-4939-bc4c-e3f241ec2b93
+keywords:
+- stop Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
 - stop
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # stop
@@ -39,16 +45,16 @@ The following table shows examples of the **stop** options.
 
 
 
- 
+ 
 
 > [!Note]  
 > Currently only one of heap tracing and critical section tracing can be active at same time. Therefore, **-heap** and **-critsec** are mutually exclusive. If LoggerNames are not given, or **-d** is specified with neither **-stop** nor **-stopall** present, the kernel logger will be stopped.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

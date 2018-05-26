@@ -4,17 +4,22 @@ description: A string that identifies an object in an external store, such as a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'aa5b02eb-f872-4184-9508-fe3d4180c680'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: aa5b02eb-f872-4184-9508-fe3d4180c680
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-External-Key attribute AD Schema", "msDS-ExternalKey attribute AD Schema"]
+keywords:
+- ms-DS-External-Key attribute AD Schema
+- msDS-ExternalKey attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-External-Key
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-External-Key attribute

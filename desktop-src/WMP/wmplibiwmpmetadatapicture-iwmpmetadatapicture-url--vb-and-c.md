@@ -1,8 +1,11 @@
 ---
 title: IWMPMetadataPicture URL property
 description: This property is for internal use only.
-ms.assetid: '34e01c7b-cac2-4c16-8ed7-0f62652ac5be'
-keywords: ["URL property Windows Media Player", "URL property Windows Media Player , IWMPMetadataPicture interface", "IWMPMetadataPicture interface Windows Media Player , URL property"]
+ms.assetid: 34e01c7b-cac2-4c16-8ed7-0f62652ac5be
+keywords:
+- URL property Windows Media Player
+- URL property Windows Media Player , IWMPMetadataPicture interface
+- IWMPMetadataPicture interface Windows Media Player , URL property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMetadataPicture::URL property
@@ -65,9 +73,9 @@ public System.String URL {get; set;}
 [**IWMPMetadataPicture Interface (VB and C#)**](iwmpmetadatapicture--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

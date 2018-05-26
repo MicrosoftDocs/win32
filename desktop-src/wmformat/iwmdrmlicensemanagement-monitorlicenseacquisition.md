@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseManagement MonitorLicenseAcquisition method
 description: The MonitorLicenseAcquisition method initiates monitoring for a license acquisition process.
-ms.assetid: '725cd51a-a50b-4ff5-a880-7f551f6dba8f'
-keywords: ["MonitorLicenseAcquisition method windows Media Format", "MonitorLicenseAcquisition method windows Media Format , IWMDRMLicenseManagement interface", "IWMDRMLicenseManagement interface windows Media Format , MonitorLicenseAcquisition method"]
+ms.assetid: 725cd51a-a50b-4ff5-a880-7f551f6dba8f
+keywords:
+- MonitorLicenseAcquisition method windows Media Format
+- MonitorLicenseAcquisition method windows Media Format , IWMDRMLicenseManagement interface
+- IWMDRMLicenseManagement interface windows Media Format , MonitorLicenseAcquisition method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseManagement::MonitorLicenseAcquisition method
@@ -23,10 +31,10 @@ The **MonitorLicenseAcquisition** method initiates monitoring for a license acqu
 
 ```C++
 HRESULT MonitorLicenseAcquisition(
-  [in]  BSTR     bstrKID,
-  [in]  BSTR     bstrHeader,
-  [in]  BSTR     bstrActions,
-  [out] IUnknown **ppunkCancelationCookie
+  [in]  BSTR     bstrKID,
+  [in]  BSTR     bstrHeader,
+  [in]  BSTR     bstrActions,
+  [out] IUnknown **ppunkCancelationCookie
 );
 ```
 
@@ -76,7 +84,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -100,9 +108,9 @@ None.
 [**IWMDRMLicenseManagement Interface**](iwmdrmlicensemanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

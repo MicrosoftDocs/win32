@@ -1,14 +1,22 @@
 ---
 title: GetPositionInformationOperation.Completed property
 description: Gets or sets an event handler that is invoked when the asynchronous operation started by GetPositionInformationAsync is completed.
-ms.assetid: '144065AE-6C23-4E9D-B9D0-6849E7FB74C4'
-keywords: ["Completed property Media Streaming API", "Completed property Media Streaming API , GetPositionInformationOperation interface", "GetPositionInformationOperation interface Media Streaming API , Completed property"]
+ms.assetid: 144065AE-6C23-4E9D-B9D0-6849E7FB74C4
+keywords:
+- Completed property Media Streaming API
+- Completed property Media Streaming API , GetPositionInformationOperation interface
+- GetPositionInformationOperation interface Media Streaming API , Completed property
 topic_type:
 - apiref
 api_name:
 - GetPositionInformationOperation.Completed
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetPositionInformationOperation.Completed property

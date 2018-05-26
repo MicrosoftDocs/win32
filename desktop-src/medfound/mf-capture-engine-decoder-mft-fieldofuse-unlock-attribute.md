@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables the capture engine to use a decoder that has field-of-use restrictions.'
-ms.assetid: 'EDE6D207-FD84-4DEB-9BF5-0952C454B00F'
-title: 'MF\_CAPTURE\_ENGINE\_DECODER\_MFT\_FIELDOFUSE\_UNLOCK\_Attribute attribute'
+---
+Description: Enables the capture engine to use a decoder that has field-of-use restrictions.
+ms.assetid: EDE6D207-FD84-4DEB-9BF5-0952C454B00F
+title: MF\_CAPTURE\_ENGINE\_DECODER\_MFT\_FIELDOFUSE\_UNLOCK\_Attribute attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_CAPTURE\_ENGINE\_DECODER\_MFT\_FIELDOFUSE\_UNLOCK\_Attribute attribute
@@ -14,9 +19,9 @@ Enables the capture engine to use a decoder that has field-of-use restrictions.
 
 ## Remarks
 
-The value of this attribute is a pointer to the [**IMFFieldOfUseMFTUnlock**](imffieldofusemftunlock.md) interface, implemented by the caller. The caller's implementation of this interface is expected to perform a handshake with the decoder, as described in [Field of Use Restrictions](field-of-use-restrictions.md). Microsoft Media Foundation does not define the handshake—typically, it would involve some sort of cryptographic exchange.
+The value of this attribute is a pointer to the [**IMFFieldOfUseMFTUnlock**](/windows/win32/mfidl/nn-mfidl-imffieldofusemftunlock?branch=master) interface, implemented by the caller. The caller's implementation of this interface is expected to perform a handshake with the decoder, as described in [Field of Use Restrictions](field-of-use-restrictions.md). Microsoft Media Foundation does not define the handshake—typically, it would involve some sort of cryptographic exchange.
 
-Internally, the capture engine sets the [**IMFFieldOfUseMFTUnlock**](imffieldofusemftunlock.md) pointer on the decoder by setting the decoder's [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md) attribute.
+Internally, the capture engine sets the [**IMFFieldOfUseMFTUnlock**](/windows/win32/mfidl/nn-mfidl-imffieldofusemftunlock?branch=master) pointer on the decoder by setting the decoder's [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md) attribute.
 
 ## Requirements
 
@@ -40,7 +45,7 @@ Internally, the capture engine sets the [**IMFFieldOfUseMFTUnlock**](imffieldofu
 [Capture Engine Attributes](capture-engine-attributes.md)
 </dt> <dt>
 
-[**IMFCaptureEngine::Initialize**](imfcaptureengine-initialize.md)
+[**IMFCaptureEngine::Initialize**](/windows/win32/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize?branch=master)
 </dt> </dl>
 
  

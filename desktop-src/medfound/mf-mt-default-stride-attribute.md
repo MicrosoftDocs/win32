@@ -1,7 +1,12 @@
-﻿---
-Description: 'Default surface stride, for an uncompressed video media type. Stride is the number of bytes needed to go from one row of pixels to the next.'
-ms.assetid: '71fda231-3497-49db-b82e-2fd79f6ade66'
-title: 'MF\_MT\_DEFAULT\_STRIDE attribute'
+---
+Description: Default surface stride, for an uncompressed video media type. Stride is the number of bytes needed to go from one row of pixels to the next.
+ms.assetid: 71fda231-3497-49db-b82e-2fd79f6ade66
+title: MF\_MT\_DEFAULT\_STRIDE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_DEFAULT\_STRIDE attribute
@@ -20,7 +25,7 @@ The attribute value is stored as a **UINT32**, but should be cast to a 32-bit si
 
 Stride is positive for top-down images, and negative for bottom-up images.
 
-This attribute gives the stride for a *contiguous* representation of the image in memory; that is, a representation with no additional padding bytes after each row. If a media buffer supports the [**IMF2DBuffer**](imf2dbuffer.md) interface, use the [**IMF2DBuffer::Lock2D**](imf2dbuffer-lock2d.md) method to get the actual stride of the surface, which might include extra padding bytes.
+This attribute gives the stride for a *contiguous* representation of the image in memory; that is, a representation with no additional padding bytes after each row. If a media buffer supports the [**IMF2DBuffer**](/windows/win32/mfobjects/nn-mfobjects-imf2dbuffer?branch=master) interface, use the [**IMF2DBuffer::Lock2D**](/windows/win32/mfobjects/nf-mfobjects-imf2dbuffer-lock2d?branch=master) method to get the actual stride of the surface, which might include extra padding bytes.
 
 For more information about surface stride, see [Image Stride](image-stride.md).
 
@@ -47,13 +52,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type Attributes](media-type-attributes.md)

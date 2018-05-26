@@ -1,14 +1,20 @@
 ---
 title: querySet Element
 description: The querySet element contains elements that define which media items will be selected from the library.
-ms.assetid: '18b5a509-a56b-4fd1-812f-60b8efd5136b'
-keywords: ["querySet Element Windows Media Player"]
+ms.assetid: 18b5a509-a56b-4fd1-812f-60b8efd5136b
+keywords:
+- querySet Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - querySet Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # querySet Element
@@ -35,7 +41,7 @@ This element has no attributes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -96,9 +102,9 @@ The **querySet** element specifies which media items should be selected from the
 [**Windows Media Playlist Elements Reference**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

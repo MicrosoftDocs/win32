@@ -1,8 +1,10 @@
 ---
 title: IVMVirtualPC interface
 description: Defines the top-level Windows Virtual PC application object. All other Windows Virtual PC interface objects are retrieved through this object.
-ms.assetid: '519d3f1b-0a72-4c67-a2d9-124fda6c8b7a'
-keywords: ["IVMVirtualPC interface Virtual PC", "IVMVirtualPC interface Virtual PC , described"]
+ms.assetid: 519d3f1b-0a72-4c67-a2d9-124fda6c8b7a
+keywords:
+- IVMVirtualPC interface Virtual PC
+- IVMVirtualPC interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPC interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Defines the top-level Windows Virtual PC application object. All other Windows Virtual PC interface objects are retrieved through this object.
 
@@ -58,7 +65,7 @@ The **IVMVirtualPC** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -90,7 +97,7 @@ The **IVMVirtualPC** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -98,18 +105,18 @@ The **IVMVirtualPC** interface has these properties.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualPC is defined as 236ba0d9-a24a-4292-a132-27c1421dfd01<br/>               |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

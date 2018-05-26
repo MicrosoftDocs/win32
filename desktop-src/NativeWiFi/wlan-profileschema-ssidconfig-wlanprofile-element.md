@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains one or more SSIDs for wireless LANs.'
-ms.assetid: 'f9c46db8-2933-48e1-8cb3-effeb13c43ed'
-title: 'SSIDConfig (WLANProfile) Element'
+---
+Description: Contains one or more SSIDs for wireless LANs.
+ms.assetid: f9c46db8-2933-48e1-8cb3-effeb13c43ed
+title: SSIDConfig (WLANProfile) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SSIDConfig (WLANProfile) Element

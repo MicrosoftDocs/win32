@@ -1,7 +1,12 @@
 ---
 title: About the HTML Help Java Applet
 description: About the HTML Help Java Applet
-ms.assetid: '890A7CD4-2EE7-4490-9949-B85438FF8687'
+ms.assetid: 890A7CD4-2EE7-4490-9949-B85438FF8687
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the HTML Help Java Applet

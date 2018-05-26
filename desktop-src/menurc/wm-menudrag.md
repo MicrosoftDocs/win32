@@ -1,8 +1,9 @@
 ---
 title: WM\_MENUDRAG message
 description: Sent to the owner of a drag-and-drop menu when the user drags a menu item.
-ms.assetid: '99e8f490-ef1e-4964-a3a1-47030a88f10c'
-keywords: ["WM_MENUDRAG message Menus and Other Resources"]
+ms.assetid: 99e8f490-ef1e-4964-a3a1-47030a88f10c
+keywords:
+- WM_MENUDRAG message Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_MENUDRAG message
@@ -55,13 +61,13 @@ The application should return one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
 The application can call the [**DoDragDrop**](_ole_DoDragDrop) function in response to this message.
 
-To create a drag-and-drop menu, call [**SetMenuInfo**](setmenuinfo.md) with **MNS\_DRAGDROP**.
+To create a drag-and-drop menu, call [**SetMenuInfo**](/windows/win32/Winuser/nf-winuser-setmenuinfo?branch=master) with **MNS\_DRAGDROP**.
 
 ## Requirements
 
@@ -69,8 +75,8 @@ To create a drag-and-drop menu, call [**SetMenuInfo**](setmenuinfo.md) with **MN
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -82,7 +88,7 @@ To create a drag-and-drop menu, call [**SetMenuInfo**](setmenuinfo.md) with **MN
 **Reference**
 </dt> <dt>
 
-[**SetMenuInfo**](setmenuinfo.md)
+[**SetMenuInfo**](/windows/win32/Winuser/nf-winuser-setmenuinfo?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -91,9 +97,9 @@ To create a drag-and-drop menu, call [**SetMenuInfo**](setmenuinfo.md) with **MN
 [Menus](menus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Providing User Permissions for Media Burning Devices
 description: By default, both Windows Vista and Windows Server 2008 grant read/write access to administrators and users logged directly into the machine (intermediate users).
-ms.assetid: '5bb8c8fc-03b4-45b5-816c-45f6cd580de6'
+ms.assetid: 5bb8c8fc-03b4-45b5-816c-45f6cd580de6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Providing User Permissions for Media Burning Devices

@@ -1,7 +1,12 @@
 ---
 title: Data Structure Growth Patterns
 description: Data Structure Growth Patterns
-ms.assetid: '82babc0b-306f-45ab-932f-eb1c7e77942e'
+ms.assetid: 82babc0b-306f-45ab-932f-eb1c7e77942e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Structure Growth Patterns

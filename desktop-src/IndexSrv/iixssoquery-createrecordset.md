@@ -1,8 +1,11 @@
 ---
 title: IixssoQuery CreateRecordset method
 description: Executes a query and creates an ADO recordset to navigate through query results.
-ms.assetid: 'c79f62c2-21d3-4b62-928f-80012329a7ca'
-keywords: ["CreateRecordset method Indexing Service", "CreateRecordset method Indexing Service , IixssoQuery interface", "IixssoQuery interface Indexing Service , CreateRecordset method"]
+ms.assetid: c79f62c2-21d3-4b62-928f-80012329a7ca
+keywords:
+- CreateRecordset method Indexing Service
+- CreateRecordset method Indexing Service , IixssoQuery interface
+- IixssoQuery interface Indexing Service , CreateRecordset method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Ixsso.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IixssoQuery::CreateRecordset method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Executes a query and creates an ADO recordset to navigate through query results.
 
@@ -24,8 +32,8 @@ Executes a query and creates an ADO recordset to navigate through query results.
 
 ```C++
 HRESULT CreateRecordset(
-  [in]          BSTR      pwszSequential,
-  [out, retval] IDispatch *ppDisp
+  [in]          BSTR      pwszSequential,
+  [out, retval] IDispatch *ppDisp
 );
 ```
 
@@ -75,10 +83,10 @@ Set objRecordset = objQuery.CreateRecordset("sequential")
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -90,9 +98,9 @@ Set objRecordset = objQuery.CreateRecordset("sequential")
 [**IixssoQuery**](iixssoquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

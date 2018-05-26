@@ -1,7 +1,12 @@
 ---
-Description: 'This type of custom action displays a specified error message and returns failure, terminating the installation. The error message to be displayed can be supplied as a string or as an index into the Error table.'
-ms.assetid: 'f61d653a-c214-42e0-9024-df59a472eda6'
+Description: This type of custom action displays a specified error message and returns failure, terminating the installation. The error message to be displayed can be supplied as a string or as an index into the Error table.
+ms.assetid: f61d653a-c214-42e0-9024-df59a472eda6
 title: Error Message Custom Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Message Custom Actions

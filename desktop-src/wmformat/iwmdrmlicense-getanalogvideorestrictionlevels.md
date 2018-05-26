@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicense GetAnalogVideoRestrictionLevels method
 description: The GetAnalogVideoRestrictionLevels method retrieves all analog video restrictions set on the current license.
-ms.assetid: 'cf0ac7c0-236d-4d60-8850-81dc6754cf01'
-keywords: ["GetAnalogVideoRestrictionLevels method windows Media Format", "GetAnalogVideoRestrictionLevels method windows Media Format , IWMDRMLicense interface", "IWMDRMLicense interface windows Media Format , GetAnalogVideoRestrictionLevels method"]
+ms.assetid: cf0ac7c0-236d-4d60-8850-81dc6754cf01
+keywords:
+- GetAnalogVideoRestrictionLevels method windows Media Format
+- GetAnalogVideoRestrictionLevels method windows Media Format , IWMDRMLicense interface
+- IWMDRMLicense interface windows Media Format , GetAnalogVideoRestrictionLevels method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicense::GetAnalogVideoRestrictionLevels method
@@ -23,8 +31,8 @@ The **GetAnalogVideoRestrictionLevels** method retrieves all analog video restri
 
 ```C++
 HRESULT GetAnalogVideoRestrictionLevels(
-  [out]     WMDRM_ANALOG_VIDEO_RESTRICTIONS rgAnalogVideoRestrictions[],
-  [in, out] DWORD                           *pcRestrictions
+  [out]     WMDRM_ANALOG_VIDEO_RESTRICTIONS rgAnalogVideoRestrictions[],
+  [in, out] DWORD                           *pcRestrictions
 );
 ```
 
@@ -60,7 +68,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -84,9 +92,9 @@ You must allocate memory for the array of restrictions. To do so, first call the
 [**IWMDRMLicense Interface**](iwmdrmlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

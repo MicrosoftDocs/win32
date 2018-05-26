@@ -1,7 +1,12 @@
 ---
 title: Query.Display in Query.java
 description: Query.Display in Query.java
-ms.assetid: 'ab67ea53-e41b-4c63-a406-5815b171c5f9'
+ms.assetid: ab67ea53-e41b-4c63-a406-5815b171c5f9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query.Display in Query.java

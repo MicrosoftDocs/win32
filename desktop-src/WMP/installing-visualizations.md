@@ -1,8 +1,21 @@
 ---
 title: Installing Visualizations
 description: Installing Visualizations
-ms.assetid: 'ca391e38-def5-47da-81f7-94aa96530387'
-keywords: ["Windows Media Player plug-ins,visualizations", "plug-ins,visualizations", "visualizations,installing", "custom visualizations,installing", "installing visualizations", "visualizations,registering", "custom visualizations,registering", "registry,visualizations"]
+ms.assetid: ca391e38-def5-47da-81f7-94aa96530387
+keywords:
+- Windows Media Player plug-ins,visualizations
+- plug-ins,visualizations
+- visualizations,installing
+- custom visualizations,installing
+- installing visualizations
+- visualizations,registering
+- custom visualizations,registering
+- registry,visualizations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing Visualizations

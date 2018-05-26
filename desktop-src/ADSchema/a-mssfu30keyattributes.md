@@ -4,17 +4,22 @@ description: Contains the names of the attributes that the NIS server uses as ke
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd0d17de5-14dd-45f2-96ad-14a4b3bf0146'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d0d17de5-14dd-45f2-96ad-14a4b3bf0146
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["msSFU-30-Key-Attributes attribute AD Schema", "msSFU30KeyAttributes attribute AD Schema"]
+keywords:
+- msSFU-30-Key-Attributes attribute AD Schema
+- msSFU30KeyAttributes attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - msSFU-30-Key-Attributes
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msSFU-30-Key-Attributes attribute
@@ -38,10 +43,10 @@ Contains the names of the attributes that the NIS server uses as keys to a searc
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -127,9 +132,9 @@ Contains the names of the attributes that the NIS server uses as keys to a searc
 
 
 
- 
+ 
 
- 
+ 
 
 
 

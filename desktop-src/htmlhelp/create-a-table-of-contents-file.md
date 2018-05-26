@@ -1,7 +1,12 @@
 ---
 title: Create a Table of Contents File
 description: Create a Table of Contents File
-ms.assetid: '4FBC7F9F-993C-4bb0-87D8-E9BF47C6401B'
+ms.assetid: 4FBC7F9F-993C-4bb0-87D8-E9BF47C6401B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create a Table of Contents File

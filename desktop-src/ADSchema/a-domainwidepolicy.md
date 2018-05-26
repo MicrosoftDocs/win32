@@ -4,17 +4,22 @@ description: This is for user extensible policy to be replicated to the clients.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '930a2733-31c4-45de-a611-437e3d61d304'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 930a2733-31c4-45de-a611-437e3d61d304
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Domain-Wide-Policy attribute AD Schema", "domainWidePolicy attribute AD Schema"]
+keywords:
+- Domain-Wide-Policy attribute AD Schema
+- domainWidePolicy attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Domain-Wide-Policy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Domain-Wide-Policy attribute
@@ -38,12 +43,12 @@ This is for user extensible policy to be replicated to the clients.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ This is for user extensible policy to be replicated to the clients.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

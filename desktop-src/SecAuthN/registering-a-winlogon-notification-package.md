@@ -1,7 +1,12 @@
 ---
-Description: 'Information about Winlogon notification packages is stored in the registry. Registry entries specify the name of the notification package, the name of the DLL that implements the package, and the names of the functions that handle Winlogon events.'
-ms.assetid: 'dbe8d5a3-8927-4b95-a1a0-82c8e12ba8c1'
+Description: Information about Winlogon notification packages is stored in the registry. Registry entries specify the name of the notification package, the name of the DLL that implements the package, and the names of the functions that handle Winlogon events.
+ms.assetid: dbe8d5a3-8927-4b95-a1a0-82c8e12ba8c1
 title: Registering a Winlogon Notification Package
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Winlogon Notification Package

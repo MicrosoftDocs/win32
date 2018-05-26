@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves a private key and its corresponding public key to a specified file.'
-ms.assetid: '491a128a-b4aa-4cca-a835-d0e8d7df6720'
+---
+Description: Saves a private key and its corresponding public key to a specified file.
+ms.assetid: 491a128a-b4aa-4cca-a835-d0e8d7df6720
 title: PvkPrivateKeySave function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PvkPrivateKeySave function
@@ -76,7 +81,7 @@ A pointer to a null-terminated string for the name of the key to be saved.
 *dwFlags* \[in\]
 </dt> <dd>
 
-A **DWORD** value that specifies additional options for the function. For more information, see the *dwFlags* parameter in [**CryptExportKey**](cryptexportkey.md).
+A **DWORD** value that specifies additional options for the function. For more information, see the *dwFlags* parameter in [**CryptExportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptexportkey?branch=master).
 
 </dd> </dl>
 

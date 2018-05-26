@@ -1,7 +1,12 @@
-﻿---
-Description: 'Stores an attribute table entry.'
-ms.assetid: 'b9f13b12-35ba-4e4c-93ac-3dd44d611b47'
+---
+Description: Stores an attribute table entry.
+ms.assetid: b9f13b12-35ba-4e4c-93ac-3dd44d611b47
 title: D3DXATTRIBUTERANGE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXATTRIBUTERANGE structure

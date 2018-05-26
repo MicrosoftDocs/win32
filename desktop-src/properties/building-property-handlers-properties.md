@@ -1,7 +1,12 @@
 ---
-Description: 'Properties are represented by IDs known as property identifiers (PIDs).'
-ms.assetid: 'a773c7b3-a1a2-4cce-ae5f-b54217ea06f4'
+Description: Properties are represented by IDs known as property identifiers (PIDs).
+ms.assetid: a773c7b3-a1a2-4cce-ae5f-b54217ea06f4
 title: Understanding Property Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Property Handlers

@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a virtual machine and its export setting data.'
-ms.assetid: 'FAAE7F74-07C0-4638-ABF9-5DEDBF2B9DD6'
-title: 'Msvm\_SystemExportSettingData class'
+Description: Associates a virtual machine and its export setting data.
+ms.assetid: FAAE7F74-07C0-4638-ABF9-5DEDBF2B9DD6
+title: Msvm\_SystemExportSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SystemExportSettingData class
@@ -16,11 +21,11 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SystemExportSettingData : CIM_ElementSettingData
 {
-  CIM_ComputerSystem                  REF ManagedElement;
+  CIM_ComputerSystem                  REF ManagedElement;
   Msvm_VirtualSystemExportSettingData REF SettingData;
-  uint16                                  IsDefault = 1;
-  uint16                                  IsCurrent = 1;
-  uint16                                  IsNext = 0;
+  uint16                                  IsDefault = 1;
+  uint16                                  IsCurrent = 1;
+  uint16                                  IsNext = 0;
 };
 ```
 
@@ -57,7 +62,7 @@ Indicates if the referenced setting is currently being used in the operation of 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -82,7 +87,7 @@ Indicates if the referenced setting is a default setting for the element, or tha
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -110,7 +115,7 @@ This property is inherited from [**CIM\_ElementSettingData**](https://msdn.micro
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -156,17 +161,17 @@ Access to the **Msvm\_SystemExportSettingData** class might be restricted by UAC
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

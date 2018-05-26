@@ -1,12 +1,17 @@
 ---
 title: Taking a Snapshot and Viewing Processes
 description: The following simple console application obtains a list of running processes.
-ms.assetid: '318d166f-858f-4f33-9422-977e0c4beb3f'
+ms.assetid: 318d166f-858f-4f33-9422-977e0c4beb3f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Taking a Snapshot and Viewing Processes
 
-The following simple console application obtains a list of running processes. First, the `GetProcessList` function takes a snapshot of currently executing processes in the system using [**CreateToolhelp32Snapshot**](createtoolhelp32snapshot.md), and then it walks through the list recorded in the snapshot using [**Process32First**](process32first.md) and [**Process32Next**](process32next.md). For each process in turn, `GetProcessList` calls the `ListProcessModules` function which is described in [Traversing the Module List](traversing-the-module-list.md), and the `ListProcessModules` function which is described in [Traversing the Thread List](traversing-the-thread-list.md).
+The following simple console application obtains a list of running processes. First, the `GetProcessList` function takes a snapshot of currently executing processes in the system using [**CreateToolhelp32Snapshot**](/windows/win32/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot?branch=master), and then it walks through the list recorded in the snapshot using [**Process32First**](/windows/win32/TlHelp32/nf-tlhelp32-process32first?branch=master) and [**Process32Next**](/windows/win32/TlHelp32/nf-tlhelp32-process32next?branch=master). For each process in turn, `GetProcessList` calls the `ListProcessModules` function which is described in [Traversing the Module List](traversing-the-module-list.md), and the `ListProcessModules` function which is described in [Traversing the Thread List](traversing-the-thread-list.md).
 
 A simple error-reporting function, `printError`, displays the reason for any failures, which usually result from security restrictions. For example, [**OpenProcess**](https://msdn.microsoft.com/library/windows/desktop/ms684320) fails for the Idle and CSRSS processes because their access restrictions prevent user-level code from opening them.
 

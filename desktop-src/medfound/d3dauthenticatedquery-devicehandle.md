@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a handle to the device that is associated with this authenticated channel.'
-ms.assetid: '948eac1a-640a-47fd-b538-1de3ea5d8f0b'
-title: 'D3DAUTHENTICATEDQUERY\_DEVICEHANDLE'
+---
+Description: Returns a handle to the device that is associated with this authenticated channel.
+ms.assetid: 948eac1a-640a-47fd-b538-1de3ea5d8f0b
+title: D3DAUTHENTICATEDQUERY\_DEVICEHANDLE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDQUERY\_DEVICEHANDLE
@@ -46,7 +51,7 @@ This query is valid for all channel types.
 [GPU-Based Content Protection](gpu-based-content-protection.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md)
+[**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master)
 </dt> </dl>
 
  

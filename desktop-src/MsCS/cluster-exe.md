@@ -4,11 +4,16 @@ description: Cluster.exe is a command-line interface for administering failover 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4ffe9f07-91b6-4215-863e-c296c5f87962'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4ffe9f07-91b6-4215-863e-c296c5f87962
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["administration interfaces Failover Cluster ,Cluster.exe", "Cluster.exe Failover Cluster"]
+keywords:
+- administration interfaces Failover Cluster ,Cluster.exe
+- Cluster.exe Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster.exe

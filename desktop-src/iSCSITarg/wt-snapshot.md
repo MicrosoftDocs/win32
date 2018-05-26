@@ -4,13 +4,15 @@ description: Represents a volume shadow copy.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '22858e35-6480-4f33-9550-eeb6a79b7b71'
-ms.prod: 'windows-server-dev'
+ms.assetid: 22858e35-6480-4f33-9550-eeb6a79b7b71
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WT_Snapshot class iSCSI Software Target API", "WT_Snapshot class iSCSI Software Target API , described"]
+keywords:
+- WT_Snapshot class iSCSI Software Target API
+- WT_Snapshot class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WT\_Snapshot class
@@ -40,14 +45,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class WT_Snapshot
 {
-  string               Id;
-  string               Description;
-  uint32               OrigWTD;
-  sint32               Status;
-  string               TimeStamp;
-  sint32               ExportedWTD;
+  string               Id;
+  string               Description;
+  uint32               OrigWTD;
+  sint32               Status;
+  string               TimeStamp;
+  sint32               ExportedWTD;
   WT_VDSLunInformation VdsLunInfo;
-  string               ResourceGroup;
+  string               ResourceGroup;
 };
 ```
 
@@ -69,14 +74,14 @@ The **WT\_Snapshot** class has these methods.
 | [**AbortRollback**](abortrollback-wt-snapshot.md) | Aborts the rollback of the virtual disk.<br/>                                                                                                                                         |
 | [**Create**](create-wt-snapshot.md)               | Creates a shadow copy of the specified virtual disk.<br/>                                                                                                                             |
 | [**Delete**](delete-wt-snapshot.md)               | Deletes a shadow copy.<br/>                                                                                                                                                           |
-| [**DVDismount**](dvdismount-wt-snapshot.md)       | Dismounts the shadow copy that was mounted locally.<br/> **Windows Server 2012 R2:** This method is deprecated. Use iSCSI loopback instead.<br/>                                |
-| [**DVMount**](dvmount-wt-snapshot.md)             | Mounts the current shadow copy in read-only mode on the local iSCSI Target server.<br/> **Windows Server 2012 R2:** This method is deprecated. Use iSCSI loopback instead.<br/> |
+| [**DVDismount**](dvdismount-wt-snapshot.md)       | Dismounts the shadow copy that was mounted locally.<br/> **Windows Server 2012 R2:** This method is deprecated. Use iSCSI loopback instead.<br/>                                |
+| [**DVMount**](dvmount-wt-snapshot.md)             | Mounts the current shadow copy in read-only mode on the local iSCSI Target server.<br/> **Windows Server 2012 R2:** This method is deprecated. Use iSCSI loopback instead.<br/> |
 | [**Export**](export-wt-snapshot.md)               | Exports the current shadow copy as a virtual disk.<br/>                                                                                                                               |
 | [**Rollback**](rollback-wt-snapshot.md)           | Rolls back the virtual disk to the current shadow copy.<br/>                                                                                                                          |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -228,16 +233,16 @@ LUN information for an exported shadow copy.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

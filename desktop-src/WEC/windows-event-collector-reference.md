@@ -2,10 +2,13 @@
 title: Windows Event Collector Reference
 description: The following table lists the sections in the Windows Event Collector code reference.
 audience: developer
-ms.assetid: 'badc0f00-0979-4a94-9ea6-6f2077119db2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-event-collector'
+ms.assetid: badc0f00-0979-4a94-9ea6-6f2077119db2
+ms.prod: windows-server-dev
+ms.technology: windows-event-collector
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Event Collector Reference

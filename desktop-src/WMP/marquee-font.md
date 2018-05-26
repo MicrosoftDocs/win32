@@ -1,8 +1,17 @@
 ---
 title: Marquee Font
 description: Marquee Font
-ms.assetid: '037dce92-761a-4249-aca4-7d995cb15e7f'
-keywords: ["Windows Media Player Mobile skins,marquees", "skins,marquees", "reference for skins,marquees", "marquees in skins,fonts"]
+ms.assetid: 037dce92-761a-4249-aca4-7d995cb15e7f
+keywords:
+- Windows Media Player Mobile skins,marquees
+- skins,marquees
+- reference for skins,marquees
+- marquees in skins,fonts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Marquee Font

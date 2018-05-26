@@ -1,8 +1,17 @@
 ---
 title: Porting Color Calls
 description: The following table lists IRIS GL color functions and their equivalent OpenGL functions.
-ms.assetid: '4ca6c311-d6c8-4d10-9e9c-770a8e6de4bb'
-keywords: ["IRIS GL porting,color", "porting from IRIS GL,color", "porting to OpenGL from IRIS GL,color", "OpenGL porting from IRIS GL,color"]
+ms.assetid: 4ca6c311-d6c8-4d10-9e9c-770a8e6de4bb
+keywords:
+- IRIS GL porting,color
+- porting from IRIS GL,color
+- porting to OpenGL from IRIS GL,color
+- OpenGL porting from IRIS GL,color
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Color Calls
@@ -28,19 +37,19 @@ The following table lists IRIS GL color functions and their equivalent OpenGL fu
 
 
 
- 
+ 
 
 > [!Note]
 >
 > Be careful when replacing **zwritemask** with [**glDepthMask**](gldepthmask.md); **glDepthMask** takes a Boolean argument, whereas **zwritemask** takes a bit field.
 
- 
+ 
 
 If you want to use multiple color maps, you need to use the appropriate Windows color map functions. Therefore, **multimap**, **onemap**, **getcmmode**, **setmap**, and **getmap** have no OpenGL equivalents.
 
- 
+ 
 
- 
+ 
 
 
 

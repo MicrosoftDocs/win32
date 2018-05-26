@@ -1,7 +1,12 @@
 ---
-Description: 'The PROPERTYINST structure defines an instance of a property in a piece of recognized data. Network Monitor allocates and fills in a PROPERTYINST structure when a property is attached to the capture.'
-ms.assetid: 'd8382a38-b634-4c65-b56b-44fee067a0fe'
+Description: The PROPERTYINST structure defines an instance of a property in a piece of recognized data. Network Monitor allocates and fills in a PROPERTYINST structure when a property is attached to the capture.
+ms.assetid: d8382a38-b634-4c65-b56b-44fee067a0fe
 title: PROPERTYINST structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROPERTYINST structure
@@ -14,20 +19,20 @@ The **PROPERTYINST** structure defines an instance of a property in a piece of r
 ```C++
 typedef struct _PROPERTYINST {
   LPPROPERTYINFO lpPropertyInfo;
-  LPSTR          szPropertyText;
+  LPSTR          szPropertyText;
   union {
-    LPVOID           lpData;
-    ULPBYTE          lpByte;
-    ULPWORD          lpWord;
-    ULPDWORD         lpDword;
-    ULPLARGEINT      lpLargeInt;
-    ULPSYSTEMTIME    lpSysTime;
+    LPVOID           lpData;
+    ULPBYTE          lpByte;
+    ULPWORD          lpWord;
+    ULPDWORD         lpDword;
+    ULPLARGEINT      lpLargeInt;
+    ULPSYSTEMTIME    lpSysTime;
     LPPROPERTYINSTEX lpPropertyInstEx;
   };
-  WORD           DataLength;
-  WORD           Level  :4;
-  WORD           HelpID  :12;
-  DWORD          IFlags;
+  WORD           DataLength;
+  WORD           Level  :4;
+  WORD           HelpID  :12;
+  DWORD          IFlags;
 } PROPERTYINST, *LPPROPERTYINST;
 ```
 
@@ -140,8 +145,8 @@ The **PROPERTYINST** structure defines an instance of an attached property. The 
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -156,9 +161,9 @@ The **PROPERTYINST** structure defines an instance of an attached property. The 
 [AttachPropertyInstanceEx](attachpropertyinstanceex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

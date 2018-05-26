@@ -1,8 +1,9 @@
 ---
 title: HDN\_TRACK notification code
-description: Notifies a header control's parent window that the user is dragging a divider in the header control. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '26660ae1-0d6e-4ee7-8b6a-d621abef352d'
-keywords: ["HDN_TRACK notification code Windows Controls"]
+description: Notifies a header controls parent window that the user is dragging a divider in the header control. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 26660ae1-0d6e-4ee7-8b6a-d621abef352d
+keywords:
+- HDN_TRACK notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDN\_TRACK notification code
@@ -35,7 +41,7 @@ HDN_TRACK
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](nmheader.md) structure that contains information about the header control and the item whose divider is being dragged.
+A pointer to an [**NMHEADER**](/windows/win32/Commctrl/ns-commctrl-tagnmheadera?branch=master) structure that contains information about the header control and the item whose divider is being dragged.
 
 </dd> </dl>
 
@@ -49,16 +55,16 @@ Returns **FALSE** to continue tracking the divider, or **TRUE** to end tracking.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **HDN\_TRACKW** (Unicode) and **HDN\_TRACKA** (ANSI)<br/>                       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

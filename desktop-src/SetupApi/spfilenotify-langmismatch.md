@@ -1,7 +1,12 @@
 ---
-Description: 'The SPFILENOTIFY\_LANGMISMATCH notification is sent to the callback routine if the language of the file to be copied does not match the language of an existing target file.'
-ms.assetid: 'dff3969e-5847-4ad5-b7d4-237144bbe8e6'
-title: 'SPFILENOTIFY\_LANGMISMATCH message'
+Description: The SPFILENOTIFY\_LANGMISMATCH notification is sent to the callback routine if the language of the file to be copied does not match the language of an existing target file.
+ms.assetid: dff3969e-5847-4ad5-b7d4-237144bbe8e6
+title: SPFILENOTIFY\_LANGMISMATCH message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPFILENOTIFY\_LANGMISMATCH message
@@ -25,7 +30,7 @@ SPFILENOTIFY_LANGMISMATCH
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**FILEPATHS**](filepaths-str.md) structure that contains information about the paths of the source and target files.
+Pointer to a [**FILEPATHS**](/windows/win32/Setupapi/ns-setupapi-_filepaths_a?branch=master) structure that contains information about the paths of the source and target files.
 
 </dd> <dt>
 
@@ -49,7 +54,7 @@ The callback routine should return one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -57,8 +62,8 @@ The callback routine should return one of the following values.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Setupapi.h</dt> </dl> |
 
 
@@ -73,27 +78,27 @@ The callback routine should return one of the following values.
 [Notifications](notifications.md)
 </dt> <dt>
 
-[**FILEPATHS**](filepaths-str.md)
+[**FILEPATHS**](/windows/win32/Setupapi/ns-setupapi-_filepaths_a?branch=master)
 </dt> <dt>
 
-[**SetupCommitFileQueue**](setupcommitfilequeue.md)
+[**SetupCommitFileQueue**](/windows/win32/Setupapi/nf-setupapi-setupcommitfilequeuea?branch=master)
 </dt> <dt>
 
-[**SetupDefaultQueueCallback**](setupdefaultqueuecallback.md)
+[**SetupDefaultQueueCallback**](/windows/win32/Setupapi/nf-setupapi-setupdefaultqueuecallbacka?branch=master)
 </dt> <dt>
 
-[**SetupInstallFile**](setupinstallfile.md)
+[**SetupInstallFile**](/windows/win32/Setupapi/nf-setupapi-setupinstallfilea?branch=master)
 </dt> <dt>
 
-[**SetupInstallFileEx**](setupinstallfileex.md)
+[**SetupInstallFileEx**](/windows/win32/Setupapi/nf-setupapi-setupinstallfileexa?branch=master)
 </dt> <dt>
 
-[**SetupInstallFromInfSection**](setupinstallfrominfsection.md)
+[**SetupInstallFromInfSection**](/windows/win32/Setupapi/nf-setupapi-setupinstallfrominfsectiona?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.moveSelectedUp
 description: The moveSelectedUp method moves the selected item up one position in the list.
-ms.assetid: '2d942cb8-b09d-486a-80a5-fac9f172cef3'
-keywords: ["PLAYLIST.moveSelectedUp Windows Media Player"]
+ms.assetid: 2d942cb8-b09d-486a-80a5-fac9f172cef3
+keywords:
+- PLAYLIST.moveSelectedUp Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.moveSelectedUp
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.moveSelectedUp
@@ -47,9 +53,9 @@ This method does not return a value.
 [**PLAYLIST.moveSelectedDown**](playlist-moveselecteddown.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

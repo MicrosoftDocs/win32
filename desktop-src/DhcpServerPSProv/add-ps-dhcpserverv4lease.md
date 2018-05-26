@@ -4,13 +4,16 @@ description: Adds a new IPv4 address lease in the DHCP server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bf450186-9059-453e-a605-fcd0bb775306'
-ms.prod: 'windows-server-dev'
+ms.assetid: bf450186-9059-453e-a605-fcd0bb775306
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DhcpServerv4Lease class", "PS_DhcpServerv4Lease class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DhcpServerv4Lease class
+- PS_DhcpServerv4Lease class, Add method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DhcpServerv4Lease class
@@ -30,23 +36,23 @@ Adds a new IPv4 address lease in the DHCP server.
 
 ```mof
 uint32 Add(
-  [in]  string            IPAddress,
-  [in]  string            ScopeId,
-  [in]  string            ClientId,
-  [in]  string            AddressState,
-  [in]  string            HostName,
-  [in]  string            Description,
-  [in]  string            ComputerName,
-  [in]  boolean           PassThru,
-  [in]  string            DnsRR,
-  [in]  string            DnsRegistration,
-  [in]  string            ClientType,
-  [in]  datetime          LeaseExpiryTime,
-  [in]  boolean           NapCapable,
-  [in]  string            NapStatus,
-  [in]  datetime          ProbationEnds,
-  [in]  string            PolicyName,
-  [out] DhcpServerv4Lease cmdletOutput
+  [in]  string            IPAddress,
+  [in]  string            ScopeId,
+  [in]  string            ClientId,
+  [in]  string            AddressState,
+  [in]  string            HostName,
+  [in]  string            Description,
+  [in]  string            ComputerName,
+  [in]  boolean           PassThru,
+  [in]  string            DnsRR,
+  [in]  string            DnsRegistration,
+  [in]  string            ClientType,
+  [in]  datetime          LeaseExpiryTime,
+  [in]  boolean           NapCapable,
+  [in]  string            NapStatus,
+  [in]  datetime          ProbationEnds,
+  [in]  string            PolicyName,
+  [out] DhcpServerv4Lease cmdletOutput
 );
 ```
 
@@ -189,7 +195,7 @@ Indicates the type of DNS record to be registered by the DHCP server for the lea
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2012:** This parameter supports the **A** value beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This parameter supports the **A** value beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -354,7 +360,7 @@ An embedded instance of the [**DhcpServerv4Lease**](dhcpserverv4lease.md) class.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -368,9 +374,9 @@ An embedded instance of the [**DhcpServerv4Lease**](dhcpserverv4lease.md) class.
 [**PS\_DhcpServerv4Lease**](ps-dhcpserverv4lease.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Each event source should register message files that contain description strings for each event identifier, event category, and parameter.'
-ms.assetid: '0c251a45-1414-4855-a6f5-86ebdfab2693'
+Description: Each event source should register message files that contain description strings for each event identifier, event category, and parameter.
+ms.assetid: 0c251a45-1414-4855-a6f5-86ebdfab2693
 title: Message Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Message Files

@@ -4,17 +4,22 @@ description: The time after which this root key may be used.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ef6e1f4b-1c2c-4473-bce3-2d54a80b0493'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ef6e1f4b-1c2c-4473-bce3-2d54a80b0493
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Kds-UseStartTime attribute AD Schema", "msKds-UseStartTime attribute AD Schema"]
+keywords:
+- ms-Kds-UseStartTime attribute AD Schema
+- msKds-UseStartTime attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Kds-UseStartTime
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Kds-UseStartTime attribute
@@ -38,7 +43,7 @@ The time after which this root key may be used.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ The time after which this root key may be used.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

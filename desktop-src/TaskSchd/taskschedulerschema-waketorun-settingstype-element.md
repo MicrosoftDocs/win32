@@ -1,14 +1,20 @@
 ---
 title: WakeToRun (settingsType) Element
 description: Specifies that Task Scheduler will wake the computer when it is time to run the task.
-ms.assetid: '5fb53016-5778-463d-bb32-3c1da2de6fc2'
-keywords: ["WakeToRun element Task Scheduler"]
+ms.assetid: 5fb53016-5778-463d-bb32-3c1da2de6fc2
+keywords:
+- WakeToRun element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - WakeToRun
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WakeToRun (settingsType) Element
@@ -35,9 +41,9 @@ The **WakeToRun** element is defined by the [**settingsType**](taskschedulersche
 
 ## Remarks
 
-When the Task Scheduler service wakes the computer to run a task, the screen may remain off even though the computer is no longer in the sleep or hibernate mode. The screen will turn on when Windows Vista detects that a user has returned to use the computer.
+When the Task Scheduler service wakes the computer to run a task, the screen may remain off even though the computer is no longer in the sleep or hibernate mode. The screen will turn on when Windows Vista detects that a user has returned to use the computer.
 
-For C++ development, see [**WakeToRun Property of ITaskSettings**](itasksettings-waketorun.md).
+For C++ development, see [**WakeToRun Property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_waketorun?branch=master).
 
 For script development, see [**TaskSettings.WakeToRun**](tasksettings-waketorun.md).
 
@@ -47,8 +53,8 @@ For script development, see [**TaskSettings.WakeToRun**](tasksettings-waketorun.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -62,9 +68,9 @@ For script development, see [**TaskSettings.WakeToRun**](tasksettings-waketorun.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: glAccum function
 description: The glAccum function operates on the accumulation buffer.
-ms.assetid: '3ddd69fe-74fc-4ac0-be8d-bcaa71ac0292'
-keywords: ["glAccum function OpenGL"]
+ms.assetid: 3ddd69fe-74fc-4ac0-be8d-bcaa71ac0292
+keywords:
+- glAccum function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glAccum function
@@ -22,8 +28,8 @@ The **glAccum** function operates on the accumulation buffer.
 
 ```C++
 void WINAPI glAccum(
-   GLenum  op,
-   GLfloat value
+   GLenum  op,
+   GLfloat value
 );
 ```
 
@@ -42,15 +48,15 @@ The accumulation buffer operation. The accepted symbolic constants are as follow
 
 | Value                                                                                                                                             | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="GL_ACCUM"></span><span id="gl_accum"></span><dl> <dt>**GL\_ACCUM**</dt> </dl>    | Obtains R, G, B, and A values from the buffer currently selected for reading (see [**glReadBuffer**](glreadbuffer.md)). Each component value is divided by 2*n*  1, where *n* is the number of bits allocated to each color component in the currently selected buffer. The result is a floating-point value in the range \[0,1\], which is multiplied by *value* and added to the corresponding pixel component in the accumulation buffer, thereby updating the accumulation buffer.<br/> |
-| <span id="GL_LOAD"></span><span id="gl_load"></span><dl> <dt>**GL\_LOAD**</dt> </dl>       | Similar to GL\_ACCUM, except that the current value in the accumulation buffer is not used in the calculation of the new value. That is, the R, G, B, and A values from the currently selected buffer are divided by 2*n*  1, multiplied by *value*, and then stored in the corresponding accumulation buffer cell, overwriting the current value.<br/>                                                                                                                                      |
+| <span id="GL_ACCUM"></span><span id="gl_accum"></span><dl> <dt>**GL\_ACCUM**</dt> </dl>    | Obtains R, G, B, and A values from the buffer currently selected for reading (see [**glReadBuffer**](glreadbuffer.md)). Each component value is divided by 2*n*  1, where *n* is the number of bits allocated to each color component in the currently selected buffer. The result is a floating-point value in the range \[0,1\], which is multiplied by *value* and added to the corresponding pixel component in the accumulation buffer, thereby updating the accumulation buffer.<br/> |
+| <span id="GL_LOAD"></span><span id="gl_load"></span><dl> <dt>**GL\_LOAD**</dt> </dl>       | Similar to GL\_ACCUM, except that the current value in the accumulation buffer is not used in the calculation of the new value. That is, the R, G, B, and A values from the currently selected buffer are divided by 2*n*  1, multiplied by *value*, and then stored in the corresponding accumulation buffer cell, overwriting the current value.<br/>                                                                                                                                      |
 | <span id="GL_ADD"></span><span id="gl_add"></span><dl> <dt>**GL\_ADD**</dt> </dl>          | Adds *value* to each R, G, B, and A in the accumulation buffer.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | <span id="GL_MULT"></span><span id="gl_mult"></span><dl> <dt>**GL\_MULT**</dt> </dl>       | Multiplies each R, G, B, and A in the accumulation buffer by *value* and returns the scaled component to its corresponding accumulation buffer location.<br/>                                                                                                                                                                                                                                                                                                                                |
-| <span id="GL_RETURN"></span><span id="gl_return"></span><dl> <dt>**GL\_RETURN**</dt> </dl> | Transfers accumulation buffer values to the color buffer or buffers currently selected for writing. Each R, G, B, and A component is multiplied by *value*, then multiplied by 2*n*  1, clamped to the range \[0, 2*n*  1 \], and stored in the corresponding display buffer cell. The only fragment operations that are applied to this transfer are pixel ownership, scissor, dithering, and color writemasks.<br/>                                                                        |
+| <span id="GL_RETURN"></span><span id="gl_return"></span><dl> <dt>**GL\_RETURN**</dt> </dl> | Transfers accumulation buffer values to the color buffer or buffers currently selected for writing. Each R, G, B, and A component is multiplied by *value*, then multiplied by 2*n*  1, clamped to the range \[0, 2*n*  1 \], and stored in the corresponding display buffer cell. The only fragment operations that are applied to this transfer are pixel ownership, scissor, dithering, and color writemasks.<br/>                                                                        |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -121,8 +127,8 @@ The following functions retrieve information related to the **glAccum** function
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -175,9 +181,9 @@ The following functions retrieve information related to the **glAccum** function
 [**glStencilOp**](glstencilop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

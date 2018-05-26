@@ -1,7 +1,12 @@
 ---
 title: About IPv6 Internet Connection Firewall
 description: The IPv6 Internet Connection Firewall (IPv6 ICF) API allows applications to enumerate connections, enable or disable the IPv6 ICF on any connection, and configure port mappings.
-ms.assetid: '1b4b9352-4c98-4b84-b38c-b5f6edb40a03'
+ms.assetid: 1b4b9352-4c98-4b84-b38c-b5f6edb40a03
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About IPv6 Internet Connection Firewall

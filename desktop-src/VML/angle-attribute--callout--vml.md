@@ -1,7 +1,12 @@
 ---
 title: Angle Attribute (Callout)(VML)
 description: Angle Attribute (Callout)(VML)
-ms.assetid: 'e7743bcc-890d-46c9-b6de-c998d031a925'
+ms.assetid: e7743bcc-890d-46c9-b6de-c998d031a925
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Angle Attribute (Callout)(VML)

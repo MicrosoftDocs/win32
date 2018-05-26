@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an albedo value for each texel, overwriting previous albedo values.'
-ms.assetid: '2928c861-a07e-4099-b04f-cdfa41e70874'
-title: 'ID3DXPRTEngine::SetPerTexelAlbedo method'
+---
+Description: Sets an albedo value for each texel, overwriting previous albedo values.
+ms.assetid: 2928c861-a07e-4099-b04f-cdfa41e70874
+title: ID3DXPRTEngineSetPerTexelAlbedo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTEngine::SetPerTexelAlbedo method
@@ -28,9 +33,9 @@ HRESULT SetPerTexelAlbedo(
 *pAlbedoTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) texture object in which to store albedo values.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) texture object in which to store albedo values.
 
 </dd> <dt>
 

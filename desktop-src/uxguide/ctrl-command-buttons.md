@@ -1,7 +1,12 @@
 ---
 title: Command Buttons
 description: With a command button, users initiate an immediate action.
-ms.assetid: '0e2ff31a-657b-4e4c-afee-2a6bd742f46c'
+ms.assetid: 0e2ff31a-657b-4e4c-afee-2a6bd742f46c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Buttons
@@ -17,7 +22,7 @@ The default command button is invoked when users press the Enter key. It is assi
 > [!Note]  
 > Guidelines related to [layout](vis-layout.md) are presented in a separate article.
 
- 
+ 
 
 ## Is this the right control?
 
@@ -60,9 +65,9 @@ By contrast, in this example the Print command prints a single copy of a documen
 
 **Proper use of ellipses is important to indicate that users can make further choices before performing the action, or even cancel the action entirely**. The visual cue offered by an ellipsis allows users to explore your software without fear.
 
-**This doesn't mean you should use an ellipsis whenever an action displays another window**—only when additional information is required to perform the action. Consequently, **any command button whose implicit verb is to "show another window" doesn't take an ellipsis**, such as with the commands About, Advanced, Help (or any other command linking to a Help topic), Options, Properties, or Settings.
+**This doesn't mean you should use an ellipsis whenever an action displays another window** only when additional information is required to perform the action. Consequently, **any command button whose implicit verb is to "show another window" doesn't take an ellipsis**, such as with the commands About, Advanced, Help (or any other command linking to a Help topic), Options, Properties, or Settings.
 
-Generally, ellipses are used in user interfaces to indicate incompleteness. Commands that show other windows aren't incomplete—they must display another window and additional information isn't needed to perform their action. This approach eliminates screen clutter in situations where ellipses have little value.
+Generally, ellipses are used in user interfaces to indicate incompleteness. Commands that show other windows aren't incomplete they must display another window and additional information isn't needed to perform their action. This approach eliminates screen clutter in situations where ellipses have little value.
 
 **Note:** When determining if a command button needs an ellipsis, don't use the need to [elevate privileges](winenv-uac.md) as a factor. Elevation isn't information needed to perform a command (rather, it's for permission) and the need to elevate is indicated with the security shield.
 
@@ -87,7 +92,7 @@ Command buttons have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -316,7 +321,7 @@ The following table shows some common command button labels and their usage.
 
 
 
- 
+ 
 
 For guidelines about commit button labels (OK, Cancel, Yes/No, Close, Stop, Apply, Next, Finish, Done), see [User Interface Text](text-ui.md).
 
@@ -330,9 +335,9 @@ When referring to command buttons:
 
 Example: Click **Print** to print the document.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: gather4\_po (sm5 - asm)
 description: A variant of gather4, but instead of supporting an immediate offset \ -8..7\ , the offset comes as a parameter to the instruction, and also has larger range of \ -32..31\ .
-ms.assetid: 'A77A32B4-BD4F-46E7-9999-13EAA8A26974'
+ms.assetid: A77A32B4-BD4F-46E7-9999-13EAA8A26974
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gather4\_po (sm5 - asm)
@@ -15,7 +20,7 @@ A variant of [gather4](gather4--sm5---asm-.md), but instead of supporting an imm
 
 
 
- 
+ 
 
 
 
@@ -29,7 +34,7 @@ A variant of [gather4](gather4--sm5---asm-.md), but instead of supporting an imm
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,7 +64,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -78,7 +83,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -87,9 +92,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns an interface for enumerating types that are currently registered in the protected database.'
-ms.assetid: '0c0c2ad7-90b0-4fc0-8972-82eb159653be'
-title: 'IPStore::EnumTypes method'
+---
+Description: Returns an interface for enumerating types that are currently registered in the protected database.
+ms.assetid: 0c0c2ad7-90b0-4fc0-8972-82eb159653be
+title: IPStoreEnumTypes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPStore::EnumTypes method

@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SNAN'
-ms.assetid: '83b9d2fe-7fc9-4140-ac2f-779f47802df2'
-title: 'LOCALE\_SNAN'
+Description: LOCALE\_SNAN
+ms.assetid: 83b9d2fe-7fc9-4140-ac2f-779f47802df2
+title: LOCALE\_SNAN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SNAN

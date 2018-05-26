@@ -1,8 +1,14 @@
 ---
 title: Using OpenGL on Windows
 description: Using OpenGL on Windows
-ms.assetid: 'c1d512d2-ee5d-45ca-8b31-771a30a914cb'
-keywords: ["OpenGL on Windows,about"]
+ms.assetid: c1d512d2-ee5d-45ca-8b31-771a30a914cb
+keywords:
+- OpenGL on Windows,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using OpenGL on Windows

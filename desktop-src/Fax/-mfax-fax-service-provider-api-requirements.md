@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the required components to support the functionality of the fax service provider API.'
-ms.assetid: 'f6137f24-2b83-4d5d-b6ab-a0ecffd20c91'
+Description: This topic describes the required components to support the functionality of the fax service provider API.
+ms.assetid: f6137f24-2b83-4d5d-b6ab-a0ecffd20c91
 title: Fax Service Provider API Requirements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Provider API Requirements

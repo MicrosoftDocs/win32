@@ -1,14 +1,20 @@
 ---
 title: SLIDER.backgroundImage
 description: The backgroundImage attribute specifies or retrieves the background image of the slider.
-ms.assetid: '73757635-4d1c-4ed0-8721-0608cd85859c'
-keywords: ["SLIDER.backgroundImage Windows Media Player"]
+ms.assetid: 73757635-4d1c-4ed0-8721-0608cd85859c
+keywords:
+- SLIDER.backgroundImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.backgroundImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.backgroundImage
@@ -59,9 +65,9 @@ The supported formats are BMP, JPG, PNG, and GIF (not including animated GIFs).
 [**SLIDER.thumbImage**](slider-thumbimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

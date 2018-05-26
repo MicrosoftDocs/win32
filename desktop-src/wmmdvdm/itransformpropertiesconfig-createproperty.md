@@ -1,8 +1,11 @@
 ---
 title: ITransformPropertiesConfig CreateProperty method
 description: The CreateProperty method creates a new property and adds it to the current property collection.
-ms.assetid: 'a8091f90-7a23-4f18-91f2-2206c9770a9f'
-keywords: ["CreateProperty method Windows Movie Maker and DVD Maker", "CreateProperty method Windows Movie Maker and DVD Maker , ITransformPropertiesConfig interface", "ITransformPropertiesConfig interface Windows Movie Maker and DVD Maker , CreateProperty method"]
+ms.assetid: a8091f90-7a23-4f18-91f2-2206c9770a9f
+keywords:
+- CreateProperty method Windows Movie Maker and DVD Maker
+- CreateProperty method Windows Movie Maker and DVD Maker , ITransformPropertiesConfig interface
+- ITransformPropertiesConfig interface Windows Movie Maker and DVD Maker , CreateProperty method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformPropertiesConfig::CreateProperty method
@@ -25,9 +33,9 @@ The **CreateProperty** method creates a new property and adds it to the current 
 
 ```C++
 HRESULT CreateProperty(
-  [in]  LPCTSTR            szPropertyName,
-  [in]  PROPVARIANT        varValue,
-  [out] ITransformProperty **ppNewProperty
+  [in]  LPCTSTR            szPropertyName,
+  [in]  PROPVARIANT        varValue,
+  [out] ITransformProperty **ppNewProperty
 );
 ```
 
@@ -72,8 +80,8 @@ An alternate way of creating a new property is to call [**ITransformPropertiesCo
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -86,9 +94,9 @@ An alternate way of creating a new property is to call [**ITransformPropertiesCo
 [**ITransformPropertiesConfig Interface**](itransformpropertiesconfig.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

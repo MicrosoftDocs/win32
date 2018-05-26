@@ -1,12 +1,17 @@
-﻿---
-Description: 'Allows the callback object to specify that an animation be displayed while items are enumerated on a background thread. Used by IShellFolderViewCB::MessageSFVCB.'
-ms.assetid: '6f8b3894-f08f-4ebf-a645-87869e7d1b20'
-title: 'SFVM\_GETANIMATION message'
+---
+Description: Allows the callback object to specify that an animation be displayed while items are enumerated on a background thread. Used by IShellFolderViewCBMessageSFVCB.
+ms.assetid: 6f8b3894-f08f-4ebf-a645-87869e7d1b20
+title: SFVM\_GETANIMATION message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_GETANIMATION message
 
-Allows the callback object to specify that an animation be displayed while items are enumerated on a background thread. Used by [**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md).
+Allows the callback object to specify that an animation be displayed while items are enumerated on a background thread. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master).
 
 
 ```C++

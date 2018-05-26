@@ -4,11 +4,15 @@ description: Each attribute in the directory has an associated syntax. For examp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '83d3d42f-e35e-4bd1-b26e-d141e9ec9c31'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 83d3d42f-e35e-4bd1-b26e-d141e9ec9c31
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["attributes ADSI ,syntax"]
+keywords:
+- attributes ADSI ,syntax
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI Attribute Syntax
@@ -166,7 +170,7 @@ Syntax Type: ADSTYPE_LARGE_INTEGER
 
 
 
-A 64-bit signed numeric value. Large integers are actually implemented as COM objects on the [**IADsLargeInteger**](iadslargeinteger.md) interface. The **HighPart** and **LowPart** methods are used to access the two 32-bit halves of the large integer value.
+A 64-bit signed numeric value. Large integers are actually implemented as COM objects on the [**IADsLargeInteger**](/windows/win32/Iads/nn-iads-iadslargeinteger?branch=master) interface. The **HighPart** and **LowPart** methods are used to access the two 32-bit halves of the large integer value.
 
 Example:
 
@@ -216,7 +220,7 @@ Access rights define what abilities a security principal has when it attempts to
 
 The security descriptor is stored as a property of a directory object in the **nTSecurityDescriptor** property. When an authenticated user attempts to access a directory object, the directory server determines the access granted or denied to the user based on the object security descriptor.
 
-The [**ADS\_SD\_CONTROL\_ENUM**](ads-sd-control-enum.md) enumeration specifies control flags for a security descriptor.
+The [**ADS\_SD\_CONTROL\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0001_0048_0005?branch=master) enumeration specifies control flags for a security descriptor.
 
 The following code example shows how to obtain a security descriptor.
 

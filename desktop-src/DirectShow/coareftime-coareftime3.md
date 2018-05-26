@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '1f3b5c63-edaa-42c1-8892-d6681c81ae4d'
-title: 'COARefTime.COARefTime constructor'
+Description: Constructor method.
+ms.assetid: 1f3b5c63-edaa-42c1-8892-d6681c81ae4d
+title: COARefTime.COARefTime constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COARefTime.COARefTime constructor
@@ -13,7 +18,7 @@ Constructor method.
 
 ```C++
 COARefTime(
-   REFERENCE_TIME t
+   REFERENCE_TIME t
 );
 ```
 
@@ -48,9 +53,9 @@ COARefTime(
 [**COARefTime Class**](coareftime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

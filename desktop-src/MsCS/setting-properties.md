@@ -4,11 +4,15 @@ description: Setting properties is the process of writing new property values to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b67edcf0-4cdb-4aa1-9681-5cacd4254392'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b67edcf0-4cdb-4aa1-9681-5cacd4254392
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["properties Failover Cluster ,setting"]
+keywords:
+- properties Failover Cluster ,setting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting Properties

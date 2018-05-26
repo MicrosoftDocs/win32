@@ -1,12 +1,17 @@
 ---
 Description: Media Types
-ms.assetid: '82218bc5-6660-4253-b50c-b6d9f30be3d5'
+ms.assetid: 82218bc5-6660-4253-b50c-b6d9f30be3d5
 title: Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Types
 
-A *media type* is a way to describe the format of a media stream. In Media Foundation, media types are represented by the [**IMFMediaType**](imfmediatype.md) interface. Applications use media types to discover the format of a media file or media stream. Objects in the Media Foundation pipeline use media types to negotiate the formats they will deliver or receive.
+A *media type* is a way to describe the format of a media stream. In Media Foundation, media types are represented by the [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) interface. Applications use media types to discover the format of a media file or media stream. Objects in the Media Foundation pipeline use media types to negotiate the formats they will deliver or receive.
 
 This section contains the following topics.
 

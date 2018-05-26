@@ -1,7 +1,12 @@
 ---
-Description: 'Gets the certificate from the user credential.'
-ms.assetid: '3C79D049-89DC-4AF5-8C0A-5B7EBBBD69D3'
+Description: Gets the certificate from the user credential.
+ms.assetid: 3C79D049-89DC-4AF5-8C0A-5B7EBBBD69D3
 title: GetCertificateFromCred function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCertificateFromCred function
@@ -13,11 +18,11 @@ Gets the certificate from the user credential.
 
 ```C++
 NTSTATUS GetCertificateFromCred(
-  _In_  PVOID  ProviderHandle,
-  _In_  HANDLE ClientToken,
-  _In_  PVOID  SuppliedCred,
-  _In_  ULONG  SuppliedCredSize,
-  _Out_ PVOID  *CertContext
+  _In_  PVOID  ProviderHandle,
+  _In_  HANDLE ClientToken,
+  _In_  PVOID  SuppliedCred,
+  _In_  ULONG  SuppliedCredSize,
+  _Out_ PVOID  *CertContext
 );
 ```
 
@@ -44,7 +49,7 @@ Token of the caller who is retrieving the certificate.
 *SuppliedCred* \[in\]
 </dt> <dd>
 
-A pointer to a [**SECPKG\_SUPPLIED\_CREDENTIAL**](secpkg-supplied-credential.md) structure that contains the credential of an online ID whose certificate is requested. The identity provider must validate the input data as if it is coming from an untrusted source.
+A pointer to a [**SECPKG\_SUPPLIED\_CREDENTIAL**](/windows/win32/Ntsecpkg/ns-ntsecpkg-_secpkg_supplied_credential?branch=master) structure that contains the credential of an online ID whose certificate is requested. The identity provider must validate the input data as if it is coming from an untrusted source.
 
 </dd> <dt>
 
@@ -74,7 +79,7 @@ If the function fails, the function may return one of the following NTSTATUS err
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>STATUS\_NOT\_SUPPORTED</dt> </dl>       | The identity provider does not recognize the credential type of the supplied credential. LSA will try the next identity provider.<br/>                                           |
 | <dl> <dt>STATUS\_LOGON\_FAILURE</dt> </dl>       | The credential is incorrect.<br/>                                                                                                                                                |
-| <dl> <dt>STATUS\_INVALID\_PARAMETER</dt> </dl>   | A parameter is not valid. The credential may be in an incorrect format and not in the defined [**SECPKG\_SUPPLIED\_CREDENTIAL**](secpkg-supplied-credential.md) structure.<br/> |
+| <dl> <dt>STATUS\_INVALID\_PARAMETER</dt> </dl>   | A parameter is not valid. The credential may be in an incorrect format and not in the defined [**SECPKG\_SUPPLIED\_CREDENTIAL**](/windows/win32/Ntsecpkg/ns-ntsecpkg-_secpkg_supplied_credential?branch=master) structure.<br/> |
 | <dl> <dt>STATUS\_NETWORK\_UNREACHABLE</dt> </dl> | The identity provider cannot contact the cloud to obtain the certificate.<br/>                                                                                                   |
 | <dl> <dt>STATUS\_PASSWORD\_EXPIRED</dt> </dl>    | The account password has expired.<br/>                                                                                                                                           |
 | <dl> <dt>STATUS\_ACCOUNT\_LOCKED\_OUT</dt> </dl> | The account has been locked out. <br/>                                                                                                                                           |
@@ -82,7 +87,7 @@ If the function fails, the function may return one of the following NTSTATUS err
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -96,15 +101,15 @@ The identity provider can also cache the certificate locally as long as it is pr
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Lsaidprov.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

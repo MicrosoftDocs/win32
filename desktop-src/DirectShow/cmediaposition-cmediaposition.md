@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '18a7785c-30c6-43b8-9a41-542a8424522c'
-title: 'CMediaPosition.CMediaPosition constructor'
+Description: Constructor method.
+ms.assetid: 18a7785c-30c6-43b8-9a41-542a8424522c
+title: CMediaPosition.CMediaPosition constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaPosition.CMediaPosition constructor
@@ -13,8 +18,8 @@ Constructor method.
 
 ```C++
 CMediaPosition(
-   const TCHAR     *pName,
-         LPUNKNOWN pUnk
+   const TCHAR     *pName,
+         LPUNKNOWN pUnk
 );
 ```
 
@@ -56,9 +61,9 @@ Pointer to the owner of this object, or **NULL** if the object is not aggregated
 [**CMediaPosition Class**](cmediaposition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

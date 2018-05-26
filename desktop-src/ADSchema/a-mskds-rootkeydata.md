@@ -4,17 +4,22 @@ description: Root key.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '93557ba5-c1d9-4af6-91aa-c9c360aae265'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 93557ba5-c1d9-4af6-91aa-c9c360aae265
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Kds-RootKeyData attribute AD Schema", "msKds-RootKeyData attribute AD Schema"]
+keywords:
+- ms-Kds-RootKeyData attribute AD Schema
+- msKds-RootKeyData attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Kds-RootKeyData
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Kds-RootKeyData attribute
@@ -38,7 +43,7 @@ Root key.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ Root key.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

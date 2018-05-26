@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a FirewallRule to its AddressFilter.'
-ms.assetid: '3dcc0d87-da52-43f9-8323-21a795676051'
-title: 'MSFT\_NetFirewallRuleFilterByAddress class'
+Description: Associates a FirewallRule to its AddressFilter.
+ms.assetid: 3dcc0d87-da52-43f9-8323-21a795676051
+title: MSFT\_NetFirewallRuleFilterByAddress class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetFirewallRuleFilterByAddress class
@@ -15,7 +20,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetFirewallRuleFilterByAddress : MSFT_NetFirewallRuleFilters
 {
-  MSFT_NetFirewallRule  REF GroupComponent;
+  MSFT_NetFirewallRule  REF GroupComponent;
   MSFT_NetAddressFilter REF PartComponent;
 };
 ```
@@ -70,17 +75,17 @@ The address filter applied to the rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The NotifyOwnerMessage method passes along specific messages to the video window.'
-ms.assetid: '8b27281a-5b8a-46c3-aa66-390d4496f30e'
-title: 'CBaseControlWindow.NotifyOwnerMessage method'
+Description: The NotifyOwnerMessage method passes along specific messages to the video window.
+ms.assetid: 8b27281a-5b8a-46c3-aa66-390d4496f30e
+title: CBaseControlWindow.NotifyOwnerMessage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.NotifyOwnerMessage method
@@ -13,10 +18,10 @@ The `NotifyOwnerMessage` method passes along specific messages to the video wind
 
 ```C++
 HRESULT NotifyOwnerMessage(
-   long     hwnd,
-   long     uMsg,
-   LONG_PTR wParam,
-   LONG_PTR lParam
+   long     hwnd,
+   long     uMsg,
+   LONG_PTR wParam,
+   LONG_PTR lParam
 );
 ```
 
@@ -70,7 +75,7 @@ When the video window is a child of another window, it does not receive certain 
 -   WM\_QUERYNEWPALETTE
 -   WM\_SYSCOLORCHANGE
 
-You can request that the [**IVideoWindow**](ivideowindow.md) plug-in distributor (PID) make a window become a child of another window. When this occurs, the PID will look for certain messages that might be sent to the owning window. The PID will then forward those messages to the owned window. The default processing for the messages is to send them to the owned window procedure synchronously by calling the Win32 **SendMessage** function.
+You can request that the [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) plug-in distributor (PID) make a window become a child of another window. When this occurs, the PID will look for certain messages that might be sent to the owning window. The PID will then forward those messages to the owned window. The default processing for the messages is to send them to the owned window procedure synchronously by calling the Win32 **SendMessage** function.
 
 ## Requirements
 
@@ -90,9 +95,9 @@ You can request that the [**IVideoWindow**](ivideowindow.md) plug-in distributor
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains various settings for independent hardware vendors.'
-ms.assetid: '4ad8c991-7849-41d6-9852-1ecadc372a2d'
-title: 'IHV (WLANProfile) Element'
+---
+Description: Contains various settings for independent hardware vendors.
+ms.assetid: 4ad8c991-7849-41d6-9852-1ecadc372a2d
+title: IHV (WLANProfile) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHV (WLANProfile) Element

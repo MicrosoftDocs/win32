@@ -2,13 +2,16 @@
 title: Get method of the PS\_DANetworkLocationServer class
 description: This cmdlet displays the detailed Network Location Server configuration.
 audience: developer
-ms.assetid: 'd88c1075-804b-49f6-9bc0-29197c8f10a4'
-ms.prod: 'windows-server-dev'
+ms.assetid: d88c1075-804b-49f6-9bc0-29197c8f10a4
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DANetworkLocationServer class", "PS_DANetworkLocationServer class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DANetworkLocationServer class
+- PS_DANetworkLocationServer class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DANetworkLocationServer class
@@ -28,9 +34,9 @@ This cmdlet displays the detailed Network Location Server configuration.
 
 ```mof
 uint32 Get(
-  [in]  boolean                 CheckReachability,
-  [in]  string                  ComputerName,
-  [out] DANetworkLocationServer cmdletOutput
+  [in]  boolean                 CheckReachability,
+  [in]  string                  ComputerName,
+  [out] DANetworkLocationServer cmdletOutput
 );
 ```
 
@@ -68,7 +74,7 @@ IPv4/IPv6 address or hostname of the machine on which the DirectAccess server ma
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ IPv4/IPv6 address or hostname of the machine on which the DirectAccess server ma
 [**PS\_DANetworkLocationServer**](ps-danetworklocationserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

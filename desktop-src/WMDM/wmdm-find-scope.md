@@ -1,8 +1,9 @@
 ---
 title: WMDM\_FIND\_SCOPE enumeration
 description: The WMDM\_FIND\_SCOPE enumeration type defines the scope of the storage object.
-ms.assetid: '971f84d5-8383-4b38-a201-b21100b2f37e'
-keywords: ["WMDM_FIND_SCOPE enumeration windows Media Device Manager"]
+ms.assetid: 971f84d5-8383-4b38-a201-b21100b2f37e
+keywords:
+- WMDM_FIND_SCOPE enumeration windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDM\_FIND\_SCOPE enumeration
@@ -64,9 +70,9 @@ Looking for the matching object within this storage and its children.
 [**Enumeration Types**](enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Add method adds a new FaxRecipient object to the FaxRecipients collection.'
-ms.assetid: '828ac490-ef76-423e-9b18-c03e2e3b1fa4'
-title: 'FaxRecipients.Add method'
+---
+Description: The Add method adds a new FaxRecipient object to the FaxRecipients collection.
+ms.assetid: 828ac490-ef76-423e-9b18-c03e2e3b1fa4
+title: FaxRecipients.Add method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRecipients.Add method
@@ -44,7 +49,7 @@ Specifies the name of the fax recipient.
 
 ## Return value
 
-Type: **[**IFaxRecipient**](-mfax-faxrecipient-cpp.md)\*\***
+Type: **[**IFaxRecipient**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxrecipient?branch=master)\*\***
 
 A [**FaxRecipient**](-mfax-faxrecipient.md) object.
 
@@ -68,7 +73,7 @@ A [**FaxRecipient**](-mfax-faxrecipient.md) object.
 [**FaxRecipients**](-mfax-faxrecipients.md)
 </dt> <dt>
 
-[**IFaxRecipients**](-mfax-faxrecipients-cpp.md)
+[**IFaxRecipients**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxrecipients?branch=master)
 </dt> <dt>
 
 [Broadcasting a Fax](-mfax-broadcasting-a-fax.md)

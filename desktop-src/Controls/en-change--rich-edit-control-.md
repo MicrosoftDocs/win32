@@ -1,8 +1,9 @@
 ---
 title: EN\_CHANGE (rich edit) notification code
-description: Notifies a windowless rich edit control's host window that a change has occurred. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
-ms.assetid: '97C0D9F1-7D4E-409D-A4F6-E645475A8EEF'
-keywords: ["EN_CHANGE (rich edit) notification code Windows Controls"]
+description: Notifies a windowless rich edit controls host window that a change has occurred. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
+ms.assetid: 97C0D9F1-7D4E-409D-A4F6-E645475A8EEF
+keywords:
+- EN_CHANGE (rich edit) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_CHANGE (rich edit) notification code
@@ -33,7 +39,7 @@ EN_CHANGE
 *lParam* 
 </dt> <dd>
 
-A [**CHANGENOTIFY**](changenotify.md) structure specifying the change that was made.
+A [**CHANGENOTIFY**](/windows/win32/Textserv/ns-textserv-changenotify?branch=master) structure specifying the change that was made.
 
 </dd> </dl>
 
@@ -51,8 +57,8 @@ To receive EN\_CHANGE notification codes, specify [**ENM\_CHANGE**](rich-edit-co
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -61,12 +67,12 @@ To receive EN\_CHANGE notification codes, specify [**ENM\_CHANGE**](rich-edit-co
 
 <dl> <dt>
 
-[**TxNotify**](itexthost-txnotify.md)
+[**TxNotify**](/windows/win32/Textserv/nf-textserv-itexthost-txnotify?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

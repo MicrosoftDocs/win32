@@ -1,7 +1,12 @@
 ---
 title: dcl\_samplerType (sm2, sm3 - ps asm)
 description: Declare a pixel shader sampler.
-ms.assetid: 'c90ff5b6-f89a-4993-8a5d-dbbc4a7896b0'
+ms.assetid: c90ff5b6-f89a-4993-8a5d-dbbc4a7896b0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_samplerType (sm2, sm3 - ps asm)

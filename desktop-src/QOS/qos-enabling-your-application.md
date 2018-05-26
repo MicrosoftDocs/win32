@@ -1,8 +1,14 @@
 ---
 title: QOS-enabling Your Application
 description: Quality of Service is enabled through the use of specific Windows Sockets APIs, as well as APIs and structures created specifically for use with Quality of Service.
-ms.assetid: '7eed40ff-c789-41c8-89e8-ccc5c823dd36'
-keywords: ["Quality of Service QOS ,tasks, enabling an application"]
+ms.assetid: 7eed40ff-c789-41c8-89e8-ccc5c823dd36
+keywords:
+- Quality of Service QOS ,tasks, enabling an application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QOS-enabling Your Application

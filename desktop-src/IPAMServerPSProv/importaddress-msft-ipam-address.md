@@ -1,15 +1,18 @@
 ---
-Description: 'Imports a set of IP addresses from a CSV file to IPAM.'
+Description: Imports a set of IP addresses from a CSV file to IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8e80c4d8-f3f3-4e61-a679-c3b536804d3a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8e80c4d8-f3f3-4e61-a679-c3b536804d3a
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ImportAddress method of the MSFT\_IPAM\_Address class'
+title: ImportAddress method of the MSFT\_IPAM\_Address class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ImportAddress method of the MSFT\_IPAM\_Address class
@@ -21,17 +24,17 @@ Imports a set of IP addresses from a CSV file to IPAM.
 
 ```mof
 uint32 ImportAddress(
-  [in]  string Path,
-  [in]  string ErrorPath,
-  [in]  uint16 AddressFamily = 1,
-  [in]  string ManagedByService,
-  [in]  string ServiceInstance,
-  [in]  string NetworkID,
-  [in]  string StartAddress,
-  [in]  string EndAddress,
-  [in]  uint16 NetworkType,
-  [in]  string AddressSpace,
-  [out] string Output
+  [in]  string Path,
+  [in]  string ErrorPath,
+  [in]  uint16 AddressFamily = 1,
+  [in]  string ManagedByService,
+  [in]  string ServiceInstance,
+  [in]  string NetworkID,
+  [in]  string StartAddress,
+  [in]  string EndAddress,
+  [in]  uint16 NetworkType,
+  [in]  string AddressSpace,
+  [out] string Output
 );
 ```
 
@@ -175,7 +178,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -189,9 +192,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_Address**](msft-ipam-address.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

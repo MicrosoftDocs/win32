@@ -1,8 +1,10 @@
 ---
 title: Win32\_ShortcutSAP class
 description: The Win32\_ShortcutSAP association WMI class relates the connection between an application access point and the corresponding shortcut.
-ms.assetid: 'ca7d75a6-8072-4a12-829d-52a59ec180f5'
-keywords: ["Win32_ShortcutSAP class", "Win32_ShortcutSAP class, described"]
+ms.assetid: ca7d75a6-8072-4a12-829d-52a59ec180f5
+keywords:
+- Win32_ShortcutSAP class
+- Win32_ShortcutSAP class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ShortcutSAP class
@@ -22,7 +29,7 @@ The **Win32\_ShortcutSAP** association [WMI class](https://msdn.microsoft.com/li
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -32,7 +39,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_ShortcutSAP
 {
-  Win32_ShortcutAction    REF Action;
+  Win32_ShortcutAction    REF Action;
   Win32_CommandLineAccess REF Element;
 };
 ```
@@ -87,8 +94,8 @@ Reference to a [**Win32\_CommandLineAccess**](win32-commandlineaccess.md) instan
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -102,9 +109,9 @@ Reference to a [**Win32\_CommandLineAccess**](win32-commandlineaccess.md) instan
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: MCI\_UPDATE command
 description: The MCI\_UPDATE command updates the display rectangle. Digital-video devices recognize this command.
-ms.assetid: '90a8c10f-61b9-49a1-bbcc-e0729aa8c454'
-keywords: ["MCI_UPDATE command Windows Multimedia"]
+ms.assetid: 90a8c10f-61b9-49a1-bbcc-e0729aa8c454
+keywords:
+- MCI_UPDATE command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_UPDATE command
 
 The MCI\_UPDATE command updates the display rectangle. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -87,7 +93,7 @@ An application uses this flag when it receives a [**WM\_PAINT**](https://msdn.mi
 
 </dd> </dl>
 
-For digital-video devices, the *lpDest* parameter points to an [**MCI\_DGV\_UPDATE\_PARMS**](mci-dgv-update-parms.md) structure.
+For digital-video devices, the *lpDest* parameter points to an [**MCI\_DGV\_UPDATE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_update_parms?branch=master) structure.
 
 ## Requirements
 
@@ -95,8 +101,8 @@ For digital-video devices, the *lpDest* parameter points to an [**MCI\_DGV\_UPDA
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -111,9 +117,9 @@ For digital-video devices, the *lpDest* parameter points to an [**MCI\_DGV\_UPDA
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IMessengerGroup AddContact method
 description: Adds a contact to the group.
-ms.assetid: 'f42a2052-5cfa-46ef-b204-e4a759da8db0'
-keywords: ["AddContact method Windows Messenger", "AddContact method Windows Messenger , IMessengerGroup interface", "IMessengerGroup interface Windows Messenger , AddContact method"]
+ms.assetid: f42a2052-5cfa-46ef-b204-e4a759da8db0
+keywords:
+- AddContact method Windows Messenger
+- AddContact method Windows Messenger , IMessengerGroup interface
+- IMessengerGroup interface Windows Messenger , AddContact method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerGroup::AddContact method
 
-\[**AddContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**AddContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Adds a contact to the group.
 
@@ -24,7 +32,7 @@ Adds a contact to the group.
 
 ```C++
 HRESULT AddContact(
-  [in] VARIANT vContact
+  [in] VARIANT vContact
 );
 ```
 
@@ -61,7 +69,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,12 +86,12 @@ The following table lists the error codes returned by this method.
 
 
 
- 
+ 
 
 > [!Note]  
 > This method is not available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -113,8 +121,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -128,9 +136,9 @@ End Sub
 [**IMessengerGroup**](im-imessengergroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

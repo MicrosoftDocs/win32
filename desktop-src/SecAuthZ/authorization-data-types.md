@@ -1,7 +1,12 @@
 ---
-Description: 'The following data types are used with authorization applications.In this sectionTopicDescriptionACCESS\_MASKDefines standard, specific, and generic rights.'
-ms.assetid: '478a5570-9cf6-4f4a-b42a-bbfffd313187'
+Description: The following data types are used with authorization applications.In this sectionTopicDescriptionACCESS\_MASKDefines standard, specific, and generic rights.
+ms.assetid: 478a5570-9cf6-4f4a-b42a-bbfffd313187
 title: Authorization Data Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authorization Data Types
@@ -20,13 +25,13 @@ The following data types are used with authorization applications.
 
 
 
- 
+ 
 
 ## 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Stridable
 description: The Stridable attribute is a file-level attribute that specifies whether a reading application can fast forward and rewind the content.
-ms.assetid: '9e03025a-e2ab-47ba-8426-a573d85be6f6'
-keywords: ["Stridable windows Media Format"]
+ms.assetid: 9e03025a-e2ab-47ba-8426-a573d85be6f6
+keywords:
+- Stridable windows Media Format
 topic_type:
 - apiref
 api_name:
 - Stridable
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stridable

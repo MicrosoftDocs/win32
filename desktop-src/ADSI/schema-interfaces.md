@@ -4,11 +4,15 @@ description: Schema Interfaces
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b3427202-352b-4b35-877e-d28fb3d3906a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b3427202-352b-4b35-877e-d28fb3d3906a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["schema interfaces ADSI"]
+keywords:
+- schema interfaces ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Schema Interfaces
@@ -19,11 +23,11 @@ The schema container contains a set of schema definitions that are attached to p
 
 To create an ADSI implementation for a provider, you need to supply schema management objects that reflect the underlying namespace of the provider and which support ADSI schema interfaces. The following is a list of the ADSI schema interfaces, which are contained in the schema container.
 
--   [**IADsClass**](iadsclass.md) represents directory service classes.
--   [**IADsProperty**](iadsproperty.md) represents directory service properties that have single or multiple values.
--   [**IADsSyntax**](iadssyntax.md) represents the single VARIANT type.
+-   [**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master) represents directory service classes.
+-   [**IADsProperty**](/windows/win32/Iads/nn-iads-iadsproperty?branch=master) represents directory service properties that have single or multiple values.
+-   [**IADsSyntax**](/windows/win32/Iads/nn-iads-iadssyntax?branch=master) represents the single VARIANT type.
 
-Interfaces defined by ADSI can support specific properties and syntaxes for your provider. Providers can choose to extend an ADSI definition by using the methods that create and access properties, for example, you can use the methods of the [**IADs**](iads.md) interface such as [**Get**](iads-get.md), [**GetEx**](iads-getex.md), [**Put**](iads-put.md) and [**PutEx**](iads-putex.md). Providers can also support additional properties through additional interfaces. For a complete list of ADSI interfaces, see [ADSI Interfaces](adsi-interfaces.md).
+Interfaces defined by ADSI can support specific properties and syntaxes for your provider. Providers can choose to extend an ADSI definition by using the methods that create and access properties, for example, you can use the methods of the [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) interface such as [**Get**](/windows/win32/Iads/nf-iads-iads-get?branch=master), [**GetEx**](/windows/win32/Iads/nf-iads-iads-getex?branch=master), [**Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master) and [**PutEx**](/windows/win32/Iads/nf-iads-iads-putex?branch=master). Providers can also support additional properties through additional interfaces. For a complete list of ADSI interfaces, see [ADSI Interfaces](adsi-interfaces.md).
 
 An ADSI provider component with a complex namespace might allow multiple schemas to exist in a namespace instance, each at a different part of the tree. The [**IADs::Schema**](iads-property-methods.md) property of an object, however, always names its own schema definition.
 

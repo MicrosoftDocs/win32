@@ -1,7 +1,12 @@
 ---
 Description: Retrieving Collections on the COM+ Catalog
-ms.assetid: '7cd5c491-6c85-410f-845b-c2f7b4f2a560'
+ms.assetid: 7cd5c491-6c85-410f-845b-c2f7b4f2a560
 title: Retrieving Collections on the COM+ Catalog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Collections on the COM+ Catalog

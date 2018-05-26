@@ -1,7 +1,12 @@
 ---
 Description: Scope Filter Sample
-ms.assetid: 'f967d4c7-94d2-440b-9e52-423feefec66d'
+ms.assetid: f967d4c7-94d2-440b-9e52-423feefec66d
 title: Scope Filter Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scope Filter Sample
@@ -16,7 +21,7 @@ To use this filter, open GraphEdit and render an audio file (or a video file wit
 
 The Scope window is implemented as a dialog box, not as an actual window. Developers creating control panels to alter filter parameters in real time might want to use a technique like this rather than property pages.
 
-The Scope filter demonstrates setting up a separate thread to process data. In this case, the data is just copied to a separate buffer on the [**IMemInputPin::Receive**](imeminputpin-receive.md) method, and is then drawn on the Scope window on the separate thread.
+The Scope filter demonstrates setting up a separate thread to process data. In this case, the data is just copied to a separate buffer on the [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method, and is then drawn on the Scope window on the separate thread.
 
 The Scope filter also enables you to monitor audio output to determine if you are clipping, so you can adjust the gain.
 

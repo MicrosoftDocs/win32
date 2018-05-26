@@ -1,8 +1,16 @@
 ---
 title: Web Service Extension File
 description: This section outlines Web Service extension file.
-ms.assetid: '856d4ff5-2292-4d87-ae7c-19b100fd1cb3'
-keywords: ["Web Service Extension File Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 856d4ff5-2292-4d87-ae7c-19b100fd1cb3
+keywords:
+- Web Service Extension File Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Web Service Extension File
@@ -35,7 +43,7 @@ targetNamespace="http://Example.org" xmlns:xs="http://www.w3.org/2001/XMLSchema"
 
 Specifying read/write callback for custom type
 
-These attributes force wsutil.exe to generate [**WS\_CUSTOM\_TYPE**](ws-type.md) for specified type. custom\_readcallback attribute specifies the [**read callback**](ws-read-type-callback.md) routine, and custom\_writecallback specifies the [**write callback**](ws-write-type-callback.md) routine.
+These attributes force wsutil.exe to generate [**WS\_CUSTOM\_TYPE**](/windows/win32/WebServices/ne-webservices-ws_type?branch=master) for specified type. custom\_readcallback attribute specifies the [**read callback**](/windows/win32/WebServices/nc-webservices-ws_read_type_callback?branch=master) routine, and custom\_writecallback specifies the [**write callback**](/windows/win32/WebServices/nc-webservices-ws_write_type_callback?branch=master) routine.
 
 ``` syntax
 <xs:schema xmlns:tns="http://Example.org" elementFormDefault="qualified" 

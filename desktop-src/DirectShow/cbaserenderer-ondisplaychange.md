@@ -1,7 +1,12 @@
 ---
-Description: 'The OnDisplayChange method posts an EC\_DISPLAY\_CHANGED event to the filter graph manager.'
-ms.assetid: 'e4cdcdf2-7fc2-4893-9897-97bcf2c12610'
-title: 'CBaseRenderer.OnDisplayChange method'
+Description: The OnDisplayChange method posts an EC\_DISPLAY\_CHANGED event to the filter graph manager.
+ms.assetid: e4cdcdf2-7fc2-4893-9897-97bcf2c12610
+title: CBaseRenderer.OnDisplayChange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.OnDisplayChange method
@@ -47,9 +52,9 @@ Video renderers should call this method in response to WM\_DISPLAYCHANGE message
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

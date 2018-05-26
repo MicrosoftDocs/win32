@@ -1,7 +1,12 @@
 ---
 title: Extending Language Resources for Indexing Service
 description: Extending Language Resources for Indexing Service
-ms.assetid: '47e18e5e-b877-4471-b44d-1c66d1291358'
+ms.assetid: 47e18e5e-b877-4471-b44d-1c66d1291358
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extending Language Resources for Indexing Service

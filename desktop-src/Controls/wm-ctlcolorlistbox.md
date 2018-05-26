@@ -1,8 +1,9 @@
 ---
 title: WM\_CTLCOLORLISTBOX message
 description: Sent to the parent window of a list box before the system draws the list box. By responding to this message, the parent window can set the text and background colors of the list box by using the specified display device context handle.
-ms.assetid: 'e128e77f-e966-44c4-9f0e-efcf421b6c82'
-keywords: ["WM_CTLCOLORLISTBOX message Windows Controls"]
+ms.assetid: e128e77f-e966-44c4-9f0e-efcf421b6c82
+keywords:
+- WM_CTLCOLORLISTBOX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CTLCOLORLISTBOX message
@@ -63,8 +69,8 @@ If a dialog box procedure handles this message, it should cast the desired retur
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -85,9 +91,9 @@ If a dialog box procedure handles this message, it should cast the desired retur
 [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

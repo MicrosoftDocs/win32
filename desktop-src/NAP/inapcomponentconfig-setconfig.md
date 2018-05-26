@@ -1,8 +1,11 @@
 ---
 title: INapComponentConfig SetConfig method
 description: Sets the system health validator (SHV) component configuration.
-ms.assetid: 'ec27e30b-4205-40bc-a24b-61072a746e53'
-keywords: ["SetConfig method NAP", "SetConfig method NAP , INapComponentConfig interface", "INapComponentConfig interface NAP , SetConfig method"]
+ms.assetid: ec27e30b-4205-40bc-a24b-61072a746e53
+keywords:
+- SetConfig method NAP
+- SetConfig method NAP , INapComponentConfig interface
+- INapComponentConfig interface NAP , SetConfig method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentConfig::SetConfig method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **SetConfig** method sets the system health validator (SHV) component configuration.
 
@@ -27,8 +35,8 @@ The **SetConfig** method sets the system health validator (SHV) component config
 
 ```C++
 HRESULT SetConfig(
-  [in] UINT16 bCount,
-  [in] BYTE   *data
+  [in] UINT16 bCount,
+  [in] BYTE   *data
 );
 ```
 
@@ -53,7 +61,7 @@ A pointer to the SHV component configuration data.
 > [!Note]  
 > Configuration data exported from an x86 machine using the [**GetConfig**](inapcomponentconfig-getconfig.md) method may be imported onto an x64 machine using the **SetConfig** method, and vice versa. Therefore, configuration data must be in an architecture-agnostic format such as XML. Using XML instead of a byte stream makes it easier to use configuration data on different architectures. The XML elements used in the configuration data are determined by the implementer.
 
- 
+ 
 
 </dd> </dl>
 
@@ -71,7 +79,7 @@ Returns one of the following error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -84,7 +92,7 @@ Component versioning information should be included in the *data* configuration 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -100,9 +108,9 @@ Component versioning information should be included in the *data* configuration 
 [**INapConponentConfig::GetConfig**](inapcomponentconfig-getconfig.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

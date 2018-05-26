@@ -1,8 +1,11 @@
 ---
 title: Engine SetEventThreadingModel method
-description: Specifies the threading model that is being used to call the solution’s native events that have been registered with the Engine.
-ms.assetid: '0028E3FA-C6C4-499D-A330-94E8F4BC1E23'
-keywords: ["SetEventThreadingModel method Access Execution Engine", "SetEventThreadingModel method Access Execution Engine , Engine interface", "Engine interface Access Execution Engine , SetEventThreadingModel method"]
+description: Specifies the threading model that is being used to call the solution s native events that have been registered with the Engine.
+ms.assetid: 0028E3FA-C6C4-499D-A330-94E8F4BC1E23
+keywords:
+- SetEventThreadingModel method Access Execution Engine
+- SetEventThreadingModel method Access Execution Engine , Engine interface
+- Engine interface Access Execution Engine , SetEventThreadingModel method
 topic_type:
 - apiref
 api_name:
@@ -11,18 +14,23 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Engine::SetEventThreadingModel method
 
-Specifies the threading model that is being used to call the solution’s native events that have been registered with the [**Engine**](engine-if.md).
+Specifies the threading model that is being used to call the solution s native events that have been registered with the [**Engine**](engine-if.md).
 
 ## Syntax
 
 
 ```C++
 virtual HRESULT SetEventThreadingModel(
-  [in] ThreadingModel eventThreadingModel
+  [in] ThreadingModel eventThreadingModel
 ) = 0;
 ```
 
@@ -35,7 +43,7 @@ virtual HRESULT SetEventThreadingModel(
 *eventThreadingModel* \[in\]
 </dt> <dd>
 
-The threading model to use when invoking the solution’s callbacks. See the [**ThreadingModel**](threadingmodel.md) enumeration for details.
+The threading model to use when invoking the solution s callbacks. See the [**ThreadingModel**](threadingmodel.md) enumeration for details.
 
 </dd> </dl>
 
@@ -55,8 +63,8 @@ If the specified threading model is not a valid [**ThreadingModel**](threadingmo
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -72,9 +80,9 @@ If the specified threading model is not a valid [**ThreadingModel**](threadingmo
 [**Job**](job-if.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a value that specifies a right to edit content.'
+Description: Retrieves a value that specifies a right to edit content.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'c49abfc0-87cf-4d2a-bc51-d74d1cb4a58e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: c49abfc0-87cf-4d2a-bc51-d74d1cb4a58e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Constants.TemplateRightEdit property'
+title: Constants.TemplateRightEdit property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Constants.TemplateRightEdit property
@@ -157,7 +160,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -169,9 +172,9 @@ END FUNCTION
 [**Constants**](constants-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

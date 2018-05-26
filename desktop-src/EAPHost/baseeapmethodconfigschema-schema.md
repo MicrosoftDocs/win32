@@ -1,7 +1,12 @@
 ---
 title: baseeapmethodconfig Schema
 description: Defines common configuration schema elements.
-ms.assetid: 'f27d78dd-f5bb-4299-8dfb-127234fbb7cd'
+ms.assetid: f27d78dd-f5bb-4299-8dfb-127234fbb7cd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # baseeapmethodconfig Schema

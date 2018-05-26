@@ -1,14 +1,19 @@
 ---
 Description: About Media Types
-ms.assetid: '169cdb00-0c1a-4530-90b7-bc89c71d1d04'
+ms.assetid: 169cdb00-0c1a-4530-90b7-bc89c71d1d04
 title: About Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Media Types
 
-A *media type* describes the format of a media stream. In Microsoft Media Foundation, media types are represented by the [**IMFMediaType**](imfmediatype.md) interface. This interface inherits the [**IMFAttributes**](imfattributes.md) interface. The details of a media type are specified as attributes.
+A *media type* describes the format of a media stream. In Microsoft Media Foundation, media types are represented by the [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) interface. This interface inherits the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface. The details of a media type are specified as attributes.
 
-To create a new media type, call the [**MFCreateMediaType**](mfcreatemediatype.md) function. This function returns a pointer to the [**IMFMediaType**](imfmediatype.md) interface. The media type initially has no attributes. To set the details of the format, set the relevant attributes.
+To create a new media type, call the [**MFCreateMediaType**](/windows/win32/mfapi/nf-mfapi-mfcreatemediatype?branch=master) function. This function returns a pointer to the [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) interface. The media type initially has no attributes. To set the details of the format, set the relevant attributes.
 
 For a list of media type attributes, see [Media Type Attributes](media-type-attributes.md).
 
@@ -16,7 +21,7 @@ For a list of media type attributes, see [Media Type Attributes](media-type-attr
 
 Two important pieces of information for any media type are the major type and the subtype.
 
--   The *major type* is a GUID that defines the overall category of the data in a media stream. Major types include video and audio. To specify the major type, set the [MF\_MT\_MAJOR\_TYPE](mf-mt-major-type-attribute.md) attribute. The [**IMFMediaType::GetMajorType**](imfmediatype-getmajortype.md) method returns the value of this attribute.
+-   The *major type* is a GUID that defines the overall category of the data in a media stream. Major types include video and audio. To specify the major type, set the [MF\_MT\_MAJOR\_TYPE](mf-mt-major-type-attribute.md) attribute. The [**IMFMediaType::GetMajorType**](/windows/win32/mfobjects/nf-mfobjects-imfmediatype-getmajortype?branch=master) method returns the value of this attribute.
 -   The *subtype* further defines the format. For example, within the video major type, there are subtypes for RGB-24, RGB-32, YUY2, and so forth. Within audio, there are PCM audio, IEEE floating-point audio, and others. The subtype provides more information than the major type, but it does not define everything about the format. For example, video subtypes do not define the image size or the frame rate. To specify the subtype, set the [MF\_MT\_SUBTYPE](mf-mt-subtype-attribute.md) attribute.
 
 All media types should have a major type GUID and a subtype GUID. For a list of major type and subtype GUIDs, see [Media Type GUIDs](media-type-guids.md).

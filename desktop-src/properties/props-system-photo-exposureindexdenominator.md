@@ -1,7 +1,12 @@
 ---
-Description: 'The denominator of PKEY\_Photo\_ExposureIndex.'
-ms.assetid: 'a9df1ca1-2cd9-4176-8a02-a044f4953ba2'
-title: 'System.Photo.ExposureIndexDenominator'
+Description: The denominator of PKEY\_Photo\_ExposureIndex.
+ms.assetid: a9df1ca1-2cd9-4176-8a02-a044f4953ba2
+title: System.Photo.ExposureIndexDenominator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ExposureIndexDenominator

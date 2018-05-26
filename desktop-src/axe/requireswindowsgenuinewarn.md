@@ -1,14 +1,20 @@
 ---
 title: RequiresWindowsGenuineWarn element
 description: The assessment may be adversely affected if the warning message about Windows being genuine is displayed.
-ms.assetid: '437B2180-D0F1-4760-92B9-D3F1FD33B32C'
-keywords: ["RequiresWindowsGenuineWarn element Access Execution Engine"]
+ms.assetid: 437B2180-D0F1-4760-92B9-D3F1FD33B32C
+keywords:
+- RequiresWindowsGenuineWarn element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RequiresWindowsGenuineWarn
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresWindowsGenuineWarn element

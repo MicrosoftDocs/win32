@@ -1,12 +1,17 @@
 ---
-Description: 'Windows stores the data in file read and write operations in system-maintained data buffers to optimize disk performance.'
-ms.assetid: 'e8c12a1d-f6a4-4850-814d-6f0a712f8f9a'
-title: 'Flushing System-Buffered I/O Data to Disk'
+Description: Windows stores the data in file read and write operations in system-maintained data buffers to optimize disk performance.
+ms.assetid: e8c12a1d-f6a4-4850-814d-6f0a712f8f9a
+title: Flushing System-Buffered I/O Data to Disk
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flushing System-Buffered I/O Data to Disk
 
-Windows stores the data in file read and write operations in system-maintained data buffers to optimize disk performance. When an application writes to a file, the system usually buffers the data and writes the data to the disk on a regular basis. An application can force the operating system to write the contents of these data buffers to the disk by using the [**FlushFileBuffers**](flushfilebuffers.md) function. Alternatively, an application can specify that write operations are to bypass the data buffer and write directly to the disk by setting the **FILE\_FLAG\_NO\_BUFFERING** flag when the file is created or opened using the [**CreateFile**](createfile.md) function.
+Windows stores the data in file read and write operations in system-maintained data buffers to optimize disk performance. When an application writes to a file, the system usually buffers the data and writes the data to the disk on a regular basis. An application can force the operating system to write the contents of these data buffers to the disk by using the [**FlushFileBuffers**](/windows/win32/FileAPI/nf-fileapi-flushfilebuffers?branch=master) function. Alternatively, an application can specify that write operations are to bypass the data buffer and write directly to the disk by setting the **FILE\_FLAG\_NO\_BUFFERING** flag when the file is created or opened using the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function.
 
 If there is data in the internal buffer when the file is closed, the operating system does not automatically write the contents of the buffer to the disk before closing the file. If the application does not force the operating system to write the buffer to disk before closing the file, the caching algorithm determines when the buffer is written.
 

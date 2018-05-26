@@ -1,13 +1,16 @@
 ---
-Description: 'Deletes the class or instance that is specified in the object path. You can only delete objects in the current namespace.'
+Description: Deletes the class or instance that is specified in the object path. You can only delete objects in the current namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7dabab12-e8ee-4d44-932f-f3239b6f066e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7dabab12-e8ee-4d44-932f-f3239b6f066e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemServices.Delete method'
+title: SWbemServices.Delete method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemServices.Delete method
@@ -164,8 +167,8 @@ Set objSWbemService = Nothing
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -184,9 +187,9 @@ Set objSWbemService = Nothing
 [**SWbemObjectPath**](swbemobjectpath.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

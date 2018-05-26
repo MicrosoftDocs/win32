@@ -1,16 +1,21 @@
 ---
-Description: 'All recognition for ink-enabled controls occurs through a RecognizerContext object. The Tablet PC Technology APIs enable you to set the Factoid property on a RecognizerContext object.'
-ms.assetid: '453993a7-f055-4d84-870c-256d1ec17731'
-title: 'Setting Context for Ink-Enabled Controls'
+Description: All recognition for ink-enabled controls occurs through a RecognizerContext object. The Tablet PC Technology APIs enable you to set the Factoid property on a RecognizerContext object.
+ms.assetid: 453993a7-f055-4d84-870c-256d1ec17731
+title: Setting Context for Ink-Enabled Controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Context for Ink-Enabled Controls
 
-All recognition for ink-enabled controls occurs through a [**RecognizerContext**](inkrecognizercontext-class.md) object. The Tablet PC Technology APIs enable you to set the [**Factoid**](inkrecognizercontext-factoid.md) property on a **RecognizerContext** object.
+All recognition for ink-enabled controls occurs through a [**RecognizerContext**](/windows/win32/msinkaut/?branch=master) object. The Tablet PC Technology APIs enable you to set the [**Factoid**](/windows/win32/msinkaut/?branch=master) property on a **RecognizerContext** object.
 
-If you are creating an ink-enabled application, use the [**RecognizerContext**](inkrecognizercontext-class.md) object's [**Factoid**](inkrecognizercontext-factoid.md) and [**WordList**](inkrecognizercontext-wordlist.md) properties to set contexts.
+If you are creating an ink-enabled application, use the [**RecognizerContext**](/windows/win32/msinkaut/?branch=master) object's [**Factoid**](/windows/win32/msinkaut/?branch=master) and [**WordList**](/windows/win32/msinkaut/?branch=master) properties to set contexts.
 
-You may pass in the string values of the names in the input scopes defined in the [**InputScope**](tsf.inputscope) enumeration to the [**Factoid**](inkrecognizercontext-factoid.md) property, delimited with an opening (! and a closing ). For example, to set the context for a [**RecognizerContext**](inkrecognizercontext-class.md) object to bias toward characters used in a URL, use the syntax shown in the following C\# examples:
+You may pass in the string values of the names in the input scopes defined in the [**InputScope**](tsf.inputscope) enumeration to the [**Factoid**](/windows/win32/msinkaut/?branch=master) property, delimited with an opening (! and a closing ). For example, to set the context for a [**RecognizerContext**](/windows/win32/msinkaut/?branch=master) object to bias toward characters used in a URL, use the syntax shown in the following C\# examples:
 
 
 ```C++
@@ -24,7 +29,7 @@ theRecoContext.Factoid = "(!IS_URL)";
 
  
 
-The following C\# example sets the [**Factoid**](inkrecognizercontext-factoid.md) property for postal codes:
+The following C\# example sets the [**Factoid**](/windows/win32/msinkaut/?branch=master) property for postal codes:
 
 
 ```C++
@@ -35,9 +40,9 @@ theRecognizerContext.Factoid = "(!IS_ADDRESS_POSTALCODE)";
 
 You can combine input scopes by using the handwriting regular expression syntax. For more details about using regular expression syntax, see [Custom Input Scopes with Regular Expressions](custom-input-scopes-with-regular-expressions.md).
 
-You can set recognition flags on the [**RecognizerContext**](inkrecognizercontext-class.md) object to affect the behavior of the recognizer. One such flag is the **Coerce** flag in the [**InkRecognitionModes**](inkrecognitionmodes.md) enumeration of the **RecognizerContext**. The **Coerce** flag forces the recognizer to return a result that matches the definition of the factoid that is set. For example, if you have a form that requires the user to enter a numerical quantity, it may be useful to set the **IS\_NUMBER** factoid and also set the [**RecognitionFlags**](inkrecognizercontext-recognitionflags.md) property to **Coerce**. In that instance, the **Coerce** flag guarantees that the recognizer returns only numbers.
+You can set recognition flags on the [**RecognizerContext**](/windows/win32/msinkaut/?branch=master) object to affect the behavior of the recognizer. One such flag is the **Coerce** flag in the [**InkRecognitionModes**](/windows/win32/msinkaut/ne-msinkaut-inkrecognitionmodes?branch=master) enumeration of the **RecognizerContext**. The **Coerce** flag forces the recognizer to return a result that matches the definition of the factoid that is set. For example, if you have a form that requires the user to enter a numerical quantity, it may be useful to set the **IS\_NUMBER** factoid and also set the [**RecognitionFlags**](/windows/win32/msinkaut/?branch=master) property to **Coerce**. In that instance, the **Coerce** flag guarantees that the recognizer returns only numbers.
 
-The following C\# example sets the [**RecognitionFlags**](inkrecognizercontext-recognitionflags.md) property to **Coerce**:
+The following C\# example sets the [**RecognitionFlags**](/windows/win32/msinkaut/?branch=master) property to **Coerce**:
 
 
 ```C++
@@ -70,7 +75,7 @@ InkEdit1.Factoid = "(!IS_INPUTSCOPE)"
 
 Where `IS_INPUTSCOPE` is the name of the input scope you want to apply.
 
-The [InkEdit](inkedit-control-reference.md) control does not expose a [**RecognizerContext**](inkrecognizercontext-class.md) object. You can still assign context by using the [**Factoid**](inkedit-factoid.md) property of the InkEdit control, but you cannot set the **WORDMODE** flag.
+The [InkEdit](inkedit-control-reference.md) control does not expose a [**RecognizerContext**](/windows/win32/msinkaut/?branch=master) object. You can still assign context by using the [**Factoid**](/windows/win32/inked/?branch=master) property of the InkEdit control, but you cannot set the **WORDMODE** flag.
 
  
 

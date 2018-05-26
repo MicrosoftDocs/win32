@@ -1,7 +1,12 @@
 ---
 title: Implementing In-Band NAP Support for EAP Methods
 description: Can be enabled for EAPHost EAP methods that support the transmission of type-length-value objects (TLVs).
-ms.assetid: '298c89d9-7a6a-4280-9af9-77c7c00cab92'
+ms.assetid: 298c89d9-7a6a-4280-9af9-77c7c00cab92
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing In-Band NAP Support for EAP Methods
@@ -18,24 +23,24 @@ The EAP peer method implementation receives a TLV containing the [Statement of H
 
 The EAP peer method implementation then passes the TLV containing the SoH request TLV to EAPHost as follows.
 
--   The EAP peer method implementation returns the action code [**EapPeerMethodResponseActionRespond**](eappeermethodresponseaction.md) to EAPHost on return from [**EapPeerProcessRequestPacket**](eappeerprocessrequestpacket.md).
--   EAPHost calls [**EapPeerGetResponseAttributes**](eappeergetresponseattributes.md) from the EAP peer method implementation. The attributes are passed in the process.
--   The EAP peer method implementation returns the TLV containing the SoH request TLV in [**EapPeerGetResponseAttributes**](eappeergetresponseattributes.md). The attributes are received in the process.
+-   The EAP peer method implementation returns the action code [**EapPeerMethodResponseActionRespond**](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction?branch=master) to EAPHost on return from [**EapPeerProcessRequestPacket**](/windows/previous-versions/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerprocessrequestpacket?branch=master).
+-   EAPHost calls [**EapPeerGetResponseAttributes**](/windows/previous-versions/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes?branch=master) from the EAP peer method implementation. The attributes are passed in the process.
+-   The EAP peer method implementation returns the TLV containing the SoH request TLV in [**EapPeerGetResponseAttributes**](/windows/previous-versions/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes?branch=master). The attributes are received in the process.
 
 The EAP peer method implementation receives a TLV containing an SoH TLV from EAPHost as follows.
 
--   EAPHost calls [**EapPeerSetResponseAttributes**](eappeersetresponseattributes.md) from the EAP peer method implementation. **EapPeerSetResponseAttributes** contains a TLV that houses an SoH TLV.
+-   EAPHost calls [**EapPeerSetResponseAttributes**](/windows/previous-versions/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetresponseattributes?branch=master) from the EAP peer method implementation. **EapPeerSetResponseAttributes** contains a TLV that houses an SoH TLV.
 -   The EAP peer method implementation sends the SoH TLV to the EAP server.
 -   The EAP peer method implementation receives a TLV containing an SoH response TLV from the EAP server.
 
 The EAP peer method implementation passes the TLV containing the SoH response TLV to EAPHost as follows.
 
--   The EAP peer method implementation returns the action code **EapPeerMethodResponseActionRespond** to EAPHost on return from [**EapPeerProcessRequestPacket**](eappeerprocessrequestpacket.md).
--   EAPHost calls [**EapPeerGetResponseAttributes**](eappeergetresponseattributes.md) from the EAP peer method implementations. The [**EAP\_ATTRIBUTES**](eap-attributes.md) structure is passed in the process.
--   The EAP peer method implementation returns the TLV containing the SoH response TLV in [**EapPeerSetResponseAttributes**](eappeersetresponseattributes.md).
+-   The EAP peer method implementation returns the action code **EapPeerMethodResponseActionRespond** to EAPHost on return from [**EapPeerProcessRequestPacket**](/windows/previous-versions/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerprocessrequestpacket?branch=master).
+-   EAPHost calls [**EapPeerGetResponseAttributes**](/windows/previous-versions/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes?branch=master) from the EAP peer method implementations. The [**EAP\_ATTRIBUTES**](/windows/previous-versions/eaptypes/ns-eaptypes-_eap_attributes?branch=master) structure is passed in the process.
+-   The EAP peer method implementation returns the TLV containing the SoH response TLV in [**EapPeerSetResponseAttributes**](/windows/previous-versions/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetresponseattributes?branch=master).
 
 > [!Note]  
-> The **eapType** member of the [**EAP\_ATTRIBUTE**](eap-attribute.md) structure will always be set to **eatEAPTLV** and the **pValue** member will point to the first byte of the TLV that contains the SoH response TLV.
+> The **eapType** member of the [**EAP\_ATTRIBUTE**](/windows/previous-versions/eaptypes/ns-eaptypes-_eap_attribute?branch=master) structure will always be set to **eatEAPTLV** and the **pValue** member will point to the first byte of the TLV that contains the SoH response TLV.
 
  
 
@@ -45,18 +50,18 @@ The EAP server method implementation constructs a TLV containing an SoH request 
 
 The EAP server method implementation passes the TLV containing an SoH TLV to EAPHost as follows.
 
--   The EAP server method implementation returns the action code **EAP\_METHOD\_AUTHENTICATOR\_RESPONSE\_RESPOND** to EAPHost on return from [**EapMethodAuthenticatorReceivePacket**](eapmethodauthenticatorreceivepacket.md).
--   EAPHost calls [**EapMethodAuthenticatorGetAttributes**](eapmethodauthenticatorgetattributes.md) from the EAP server method implementation.
--   The EAP server method implementation returns the TLV containing the SoH TLV in [**EapMethodAuthenticatorGetAttributes**](eapmethodauthenticatorgetattributes.md).
+-   The EAP server method implementation returns the action code **EAP\_METHOD\_AUTHENTICATOR\_RESPONSE\_RESPOND** to EAPHost on return from [**EapMethodAuthenticatorReceivePacket**](/windows/previous-versions/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorreceivepacket?branch=master).
+-   EAPHost calls [**EapMethodAuthenticatorGetAttributes**](/windows/previous-versions/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetattributes?branch=master) from the EAP server method implementation.
+-   The EAP server method implementation returns the TLV containing the SoH TLV in [**EapMethodAuthenticatorGetAttributes**](/windows/previous-versions/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetattributes?branch=master).
 
 The EAP server method implementation receives a TLV containing an SoH response TLV from EAPHost as follows.
 
--   EAPHost calls [**EapMethodAuthenticatorSetAttributes**](eapmethodauthenticatorsetattributes.md) from the EAP server method implementation.
--   The TLV containing the SoH response TLV is returned in [**EapMethodAuthenticatorSetAttributes**](eapmethodauthenticatorsetattributes.md)
+-   EAPHost calls [**EapMethodAuthenticatorSetAttributes**](/windows/previous-versions/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorsetattributes?branch=master) from the EAP server method implementation.
+-   The TLV containing the SoH response TLV is returned in [**EapMethodAuthenticatorSetAttributes**](/windows/previous-versions/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorsetattributes?branch=master)
 -   The EAP server method implementation sends the TLV containing the SoH response TLV.
 
 > [!Note]  
-> The **eapType** member of the [**EAP\_ATTRIBUTE**](eap-attribute.md) structure will always be set to **eatEAPTLV** and the **pValue** member will point to the first byte of the TLV that contains the SoH response TLV.
+> The **eapType** member of the [**EAP\_ATTRIBUTE**](/windows/previous-versions/eaptypes/ns-eaptypes-_eap_attribute?branch=master) structure will always be set to **eatEAPTLV** and the **pValue** member will point to the first byte of the TLV that contains the SoH response TLV.
 
  
 

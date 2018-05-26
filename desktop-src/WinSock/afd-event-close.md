@@ -1,7 +1,12 @@
 ---
-Description: 'Winsock network tracing event for socket close operation.'
-ms.assetid: 'C59B2B51-288A-46C9-B390-26A18DB0C2FB'
-title: 'AFD\_EVENT\_CLOSE event'
+Description: Winsock network tracing event for socket close operation.
+ms.assetid: C59B2B51-288A-46C9-B390-26A18DB0C2FB
+title: AFD\_EVENT\_CLOSE event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AFD\_EVENT\_CLOSE event
@@ -38,7 +43,7 @@ The following table lists the possible values for the *EnterExit* parameter:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,8 +85,8 @@ The **AFD\_EVENT\_CLOSE** event is traced for a Winsock network operation to clo
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -104,9 +109,9 @@ The **AFD\_EVENT\_CLOSE** event is traced for a Winsock network operation to clo
 [Winsock Catalog Change Tracing Details](winsock-layered-service-provider-tracing-event-details.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

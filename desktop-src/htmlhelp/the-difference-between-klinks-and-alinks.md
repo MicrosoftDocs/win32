@@ -1,7 +1,12 @@
 ---
 title: The Difference Between KLinks and ALinks
 description: Keyword links (KLinks) and Associative links (ALinks) are similar in the way that they are created and used, except for one important difference the user never sees an ALink name.
-ms.assetid: 'E2DDF4A9-F8FF-4b61-9C21-92FEC7C08022'
+ms.assetid: E2DDF4A9-F8FF-4b61-9C21-92FEC7C08022
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Difference Between KLinks and ALinks

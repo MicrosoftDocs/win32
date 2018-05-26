@@ -1,8 +1,10 @@
 ---
 title: IVMSupportDriverCollection interface
 description: The IVMSupportDriverCollection interface defines the collection of support drivers installed on the Host computer. An IVMSupportDriverCollection object is returned from the IVMVirtualServer SupportDrivers property.
-ms.assetid: 'b91164c0-977c-4fdc-acb3-9688e7e65a72'
-keywords: ["IVMSupportDriverCollection interface Virtual Server", "IVMSupportDriverCollection interface Virtual Server , described"]
+ms.assetid: b91164c0-977c-4fdc-acb3-9688e7e65a72
+keywords:
+- IVMSupportDriverCollection interface Virtual Server
+- IVMSupportDriverCollection interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSupportDriverCollection interface
@@ -37,7 +44,7 @@ The **IVMSupportDriverCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,8 +52,8 @@ The **IVMSupportDriverCollection** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -61,9 +68,9 @@ The **IVMSupportDriverCollection** interface has these properties.
 [**IVMSupportDriver**](ivmsupportdriver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

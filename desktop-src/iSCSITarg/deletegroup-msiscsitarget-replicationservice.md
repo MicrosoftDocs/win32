@@ -4,13 +4,16 @@ description: Deletes a replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '91c64a32-a43d-4ac6-b88a-25630d641dce'
-ms.prod: 'windows-server-dev'
+ms.assetid: 91c64a32-a43d-4ac6-b88a-25630d641dce
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DeleteGroup method iSCSI Software Target API", "DeleteGroup method iSCSI Software Target API , MSISCSITARGET_ReplicationService class", "MSISCSITARGET_ReplicationService class iSCSI Software Target API , DeleteGroup method"]
+keywords:
+- DeleteGroup method iSCSI Software Target API
+- DeleteGroup method iSCSI Software Target API , MSISCSITARGET_ReplicationService class
+- MSISCSITARGET_ReplicationService class iSCSI Software Target API , DeleteGroup method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeleteGroup method of the MSISCSITARGET\_ReplicationService class
@@ -32,10 +38,10 @@ This method is inherited from the **CIM\_ReplicationService** class.
 
 ```mof
 uint32 DeleteGroup(
-  [in]           CIM_ReplicationGroup Ref   ReplicationGroup,
-  [in, optional] CIM_ServiceAccessPoint Ref ServiceAccessPoint,
-  [in, optional] boolean                    RemoveElements,
-  [in, optional] string                     ReplicationSettingData
+  [in]           CIM_ReplicationGroup Ref   ReplicationGroup,
+  [in, optional] CIM_ServiceAccessPoint Ref ServiceAccessPoint,
+  [in, optional] boolean                    RemoveElements,
+  [in, optional] string                     ReplicationSettingData
 );
 ```
 
@@ -67,7 +73,7 @@ Specifies whether to remove elements of the group before deleting the group. If 
 > [!Note]  
 > If one or more elements in the group are in a replication relationship, the *RemoveElements* parameter has no effect.
 
- 
+ 
 
 </dd> <dt>
 
@@ -108,7 +114,7 @@ This method returns one of the following values.
 **One or more elements in a replication relationship** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–0x7FFF)
+**DMTF Reserved** (8 0x7FFF)
 </dt> <dt>
 
 **Vendor Specific** (0x8000 = *value* )
@@ -121,7 +127,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -135,9 +141,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_ReplicationService**](msiscsitarget-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

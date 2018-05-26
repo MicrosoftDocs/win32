@@ -1,7 +1,12 @@
 ---
-Description: 'A collection is an object that contains one or more objects. Collections provide an efficient way of grouping similar objects. Windows Image Acquisition (WIA) provides collections for the DeviceInfo and Item objects.'
-ms.assetid: '26918f15-4ef9-425b-8565-e64fc2c72063'
+Description: A collection is an object that contains one or more objects. Collections provide an efficient way of grouping similar objects. Windows Image Acquisition (WIA) provides collections for the DeviceInfo and Item objects.
+ms.assetid: 26918f15-4ef9-425b-8565-e64fc2c72063
 title: Using WIA Collection Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WIA Collection Objects

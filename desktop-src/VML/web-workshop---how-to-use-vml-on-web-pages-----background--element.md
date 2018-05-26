@@ -1,8 +1,26 @@
 ---
 title: Using the Background Element
 description: Using the Background Element
-ms.assetid: 'd11c1542-7f44-4ca7-9fb2-c8858fde3bc4'
-keywords: ["Web workshop,background element", "designing Web pages,background element", "Vector Markup Language (VML),background element", "VML (Vector Markup Language),background element", "vector graphics,background element", "background element", "VML elements,background", "VML shapes,background element", "Vector Markup Language (VML),customizing backgrounds", "VML (Vector Markup Language),customizing backgrounds", "vector graphics,customizing backgrounds", "VML shapes,customizing backgrounds", "customizing backgrounds"]
+ms.assetid: d11c1542-7f44-4ca7-9fb2-c8858fde3bc4
+keywords:
+- Web workshop,background element
+- designing Web pages,background element
+- Vector Markup Language (VML),background element
+- VML (Vector Markup Language),background element
+- vector graphics,background element
+- background element
+- VML elements,background
+- VML shapes,background element
+- Vector Markup Language (VML),customizing backgrounds
+- VML (Vector Markup Language),customizing backgrounds
+- vector graphics,customizing backgrounds
+- VML shapes,customizing backgrounds
+- customizing backgrounds
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Background Element

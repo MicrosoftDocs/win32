@@ -1,7 +1,12 @@
 ---
-Description: 'This overview describes the Resource Interchange File Format (RIFF), which is used in .wav files. RIFF is the typical format from which audio data for XAudio2 will be loaded.'
-ms.assetid: 'b543e949-223c-ddd3-7527-a41f3709a0c1'
-title: 'Resource Interchange File Format (RIFF)'
+Description: This overview describes the Resource Interchange File Format (RIFF), which is used in .wav files. RIFF is the typical format from which audio data for XAudio2 will be loaded.
+ms.assetid: b543e949-223c-ddd3-7527-a41f3709a0c1
+title: Resource Interchange File Format (RIFF)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Interchange File Format (RIFF)
@@ -33,7 +38,7 @@ The FOURCC identifiers "RIFF", "fmt", and "data" are common to all of the suppor
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | "RIFF"            | Standard RIFF chunk containing a file type with the value of "WAVE" or "XWMA" in the first four bytes of its data section and the other chunks in the file in the remainder of its data section.                                   |
 | "fmt"             | Contains the format header for the audio file. The data in this chunk corresponds to one of the following structures: **WAVEFORMATEX**, **WAVEFORMATEXTENSIBLE ADPCMWAVEFORMAT**.                                                  |
-| "data"            | Contains audio data for the audio file. In XAudio2, the contents of the data chunk will be read into a buffer and passed to a source voice as the **pAudioData** member of an [**XAUDIO2\_BUFFER**](xaudio2-buffer.md) structure. |
+| "data"            | Contains audio data for the audio file. In XAudio2, the contents of the data chunk will be read into a buffer and passed to a source voice as the **pAudioData** member of an [**XAUDIO2\_BUFFER**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_buffer?branch=master) structure. |
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'a19d6c4e-b3f3-4e54-99cd-76e16f650e3a'
+---
+Description: .
+ms.assetid: a19d6c4e-b3f3-4e54-99cd-76e16f650e3a
 title: GPS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GPS

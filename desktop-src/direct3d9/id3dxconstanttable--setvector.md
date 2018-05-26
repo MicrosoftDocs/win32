@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a 4D vector.'
-ms.assetid: 'd5849a8b-b372-4ad0-8773-8c9c4bac3799'
-title: 'ID3DXConstantTable::SetVector method'
+---
+Description: Sets a 4D vector.
+ms.assetid: d5849a8b-b372-4ad0-8773-8c9c4bac3799
+title: ID3DXConstantTableSetVector method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXConstantTable::SetVector method
@@ -28,9 +33,9 @@ HRESULT SetVector(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device associated with the constant table.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device associated with the constant table.
 
 </dd> <dt>
 

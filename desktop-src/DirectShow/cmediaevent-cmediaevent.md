@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '7f7a0a9f-e531-4e22-8601-b84ab088e9e7'
-title: 'CMediaEvent.CMediaEvent constructor'
+Description: Constructor method.
+ms.assetid: 7f7a0a9f-e531-4e22-8601-b84ab088e9e7
+title: CMediaEvent.CMediaEvent constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaEvent.CMediaEvent constructor
@@ -13,8 +18,8 @@ Constructor method.
 
 ```C++
 CMediaEvent(
-   const TCHAR     *pName,
-         LPUNKNOWN pUnk
+   const TCHAR     *pName,
+         LPUNKNOWN pUnk
 );
 ```
 
@@ -60,9 +65,9 @@ Allocate the *pName* parameter in static memory. This name appears on the debugg
 [**CMediaEvent Class**](cmediaevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

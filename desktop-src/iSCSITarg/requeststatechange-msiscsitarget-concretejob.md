@@ -4,13 +4,16 @@ description: Requests that the state of the job be changed to the specified valu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6e381278-a4a4-4de1-8b12-efb0eaa02d95'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6e381278-a4a4-4de1-8b12-efb0eaa02d95
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RequestStateChange method iSCSI Software Target API", "RequestStateChange method iSCSI Software Target API , MSISCSITARGET_ConcreteJob class", "MSISCSITARGET_ConcreteJob class iSCSI Software Target API , RequestStateChange method"]
+keywords:
+- RequestStateChange method iSCSI Software Target API
+- RequestStateChange method iSCSI Software Target API , MSISCSITARGET_ConcreteJob class
+- MSISCSITARGET_ConcreteJob class iSCSI Software Target API , RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the MSISCSITARGET\_ConcreteJob class
@@ -32,8 +38,8 @@ This method is inherited from the [**CIM\_ConcreteJob**](https://msdn.microsoft.
 
 ```mof
 uint32 RequestStateChange(
-  [in] uint16   RequestedState,
-  [in] datetime TimeoutPeriod
+  [in] uint16   RequestedState,
+  [in] datetime TimeoutPeriod
 );
 ```
 
@@ -135,7 +141,7 @@ Specifies the maximum amount of time that the client expects the transition to t
 > [!Note]  
 > If the implementation does not support this parameter and this property does not contain 0 or null, the **Use Of Timeout Parameter Not Supported** value must be returned.
 
- 
+ 
 
 </dd> </dl>
 
@@ -166,7 +172,7 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Transition Started** (4096)
@@ -181,10 +187,10 @@ This method returns one of the following values.
 **Busy** (4099)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -194,7 +200,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -208,9 +214,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_ConcreteJob**](msiscsitarget-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

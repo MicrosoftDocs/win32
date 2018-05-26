@@ -1,7 +1,12 @@
-﻿---
-Description: 'The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).'
-ms.assetid: '7a319fbb-9757-45da-8a8b-51dd48f08464'
-title: 'IMFCdmSuspendNotify::End method'
+---
+Description: The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).
+ms.assetid: 7a319fbb-9757-45da-8a8b-51dd48f08464
+title: IMFCdmSuspendNotifyEnd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFCdmSuspendNotify::End method
@@ -41,7 +46,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IMFCdmSuspendNotify**](imfcdmsuspendnotify.md)
+[**IMFCdmSuspendNotify**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfcdmsuspendnotify?branch=master)
 </dt> </dl>
 
  

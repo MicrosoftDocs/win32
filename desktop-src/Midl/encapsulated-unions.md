@@ -2,7 +2,13 @@
 title: Encapsulated Unions
 description: A union that is contained with its discriminant in a structure within is an encapsulated union.
 ms.assetid: d32c18b4-b2f6-4ce2-94fe-a495a3c15d14
-keywords: ["data types MIDL , encapsulated unions"]
+keywords:
+- data types MIDL , encapsulated unions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encapsulated Unions

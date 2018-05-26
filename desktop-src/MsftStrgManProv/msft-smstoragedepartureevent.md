@@ -4,11 +4,13 @@ description: Represents a storage departure event. Storage departure events are 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '155a06db-a37f-4d2f-82d2-b8e8c7f017a0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 155a06db-a37f-4d2f-82d2-b8e8c7f017a0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMStorageDepartureEvent class", "MSFT_SMStorageDepartureEvent class, described"]
+keywords:
+- MSFT_SMStorageDepartureEvent class
+- MSFT_SMStorageDepartureEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMStorageDepartureEvent class
@@ -37,12 +42,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Indication, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMStorageDepartureEvent : MSFT_SMStorageEvent
 {
-  string               StorageSubsystemObjectId;
+  string               StorageSubsystemObjectId;
   MSFT_SMStorageObject SourceInstance;
-  string               Description;
-  datetime             EventTime;
-  uint16               PerceivedSeverity;
-  string               SourceClassName;
+  string               Description;
+  datetime             EventTime;
+  uint16               PerceivedSeverity;
+  string               SourceClassName;
 };
 ```
 
@@ -251,7 +256,7 @@ This property is inherited from [**MSFT\_SMStorageEvent**](msft-smstorageevent.m
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -268,9 +273,9 @@ This property is inherited from [**MSFT\_SMStorageEvent**](msft-smstorageevent.m
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

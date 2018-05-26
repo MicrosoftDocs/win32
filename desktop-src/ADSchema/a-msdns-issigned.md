@@ -4,17 +4,22 @@ description: An attribute used to define whether or not the DNS zone is signed.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '488661fd-1a3b-4b63-9ec6-d402f4318c59'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 488661fd-1a3b-4b63-9ec6-d402f4318c59
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-Is-Signed attribute AD Schema", "msDNS-IsSigned attribute AD Schema"]
+keywords:
+- ms-DNS-Is-Signed attribute AD Schema
+- msDNS-IsSigned attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-Is-Signed
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-Is-Signed attribute
@@ -38,7 +43,7 @@ An attribute used to define whether or not the DNS zone is signed.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute used to define whether or not the DNS zone is signed.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

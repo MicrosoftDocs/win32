@@ -4,11 +4,13 @@ description: Defines the query for a session broker farm.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '55a2a7ea-e891-4723-b919-ee3c908eaffb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 55a2a7ea-e891-4723-b919-ee3c908eaffb
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_SessionBrokerFarm class Remote Desktop Services", "Win32_SessionBrokerFarm class Remote Desktop Services , described"]
+keywords:
+- Win32_SessionBrokerFarm class Remote Desktop Services
+- Win32_SessionBrokerFarm class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SessionBrokerFarm class
@@ -100,16 +105,16 @@ queryString = string.Format("SELECT * FROM Win32_SessionBrokerFarm WHERE PluginN
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                               |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

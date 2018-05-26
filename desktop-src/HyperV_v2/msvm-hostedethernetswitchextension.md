@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a virtual Ethernet switch to the extensions currently bound to it.'
-ms.assetid: 'd8c87fa2-6859-49ed-abd5-32a836b00e5a'
-title: 'Msvm\_HostedEthernetSwitchExtension class'
+Description: Associates a virtual Ethernet switch to the extensions currently bound to it.
+ms.assetid: d8c87fa2-6859-49ed-abd5-32a836b00e5a
+title: Msvm\_HostedEthernetSwitchExtension class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_HostedEthernetSwitchExtension class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_HostedEthernetSwitchExtension : CIM_HostedDependency
 {
-  Msvm_VirtualEthernetSwitch   REF Antecedent;
+  Msvm_VirtualEthernetSwitch   REF Antecedent;
   Msvm_EthernetSwitchExtension REF Dependent;
 };
 ```
@@ -71,17 +76,17 @@ A reference to an instance of the [**Msvm\_EthernetSwitchExtension**](msvm-ether
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

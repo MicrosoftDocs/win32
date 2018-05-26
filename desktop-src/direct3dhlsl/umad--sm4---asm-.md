@@ -1,7 +1,12 @@
 ---
 title: umad (sm4 - asm)
 description: Unsigned integer multiply and add.
-ms.assetid: 'C0BE31CA-E01D-42C0-A660-E63727CE344F'
+ms.assetid: C0BE31CA-E01D-42C0-A660-E63727CE344F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # umad (sm4 - asm)
@@ -15,7 +20,7 @@ Unsigned integer multiply and add.
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Unsigned integer multiply and add.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -44,7 +49,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -63,7 +68,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -72,9 +77,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

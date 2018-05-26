@@ -1,14 +1,20 @@
 ---
 title: ActivityEndTime element
 description: End time for this activity in nanoseconds.
-ms.assetid: '359C9055-FD69-4F37-BDD9-B1EF0412BF92'
-keywords: ["ActivityEndTime element Access Execution Engine"]
+ms.assetid: 359C9055-FD69-4F37-BDD9-B1EF0412BF92
+keywords:
+- ActivityEndTime element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ActivityEndTime
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivityEndTime element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

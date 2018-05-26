@@ -4,13 +4,16 @@ description: Adds resources to a virtual system configuration.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f1c0154a-ea7c-4117-8b6e-4376ecef0272'
-ms.prod: 'windows-server-dev'
+ms.assetid: f1c0154a-ea7c-4117-8b6e-4376ecef0272
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddResourceSettings method", "AddResourceSettings method, CIM_VirtualSystemManagementService class", "CIM_VirtualSystemManagementService class, AddResourceSettings method"]
+keywords:
+- AddResourceSettings method
+- AddResourceSettings method, CIM_VirtualSystemManagementService class
+- CIM_VirtualSystemManagementService class, AddResourceSettings method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddResourceSettings method of the CIM\_VirtualSystemManagementService class
@@ -28,17 +34,17 @@ Adds resources to a virtual system configuration.
 > [!Note]  
 > When this method is applied to a stateful virtual system configuration, the resources are added to the active virtual system.
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 AddResourceSettings(
-  [in]  CIM_VirtualSystemSettingData      REF AffectedConfiguration,
-  [in]  string                                ResourceSettings[],
-  [out] CIM_ResourceAllocationSettingData REF ResultingResourceSettings[],
-  [out] CIM_ConcreteJob                   REF Job
+  [in]  CIM_VirtualSystemSettingData      REF AffectedConfiguration,
+  [in]  string                                ResourceSettings[],
+  [out] CIM_ResourceAllocationSettingData REF ResultingResourceSettings[],
+  [out] CIM_ConcreteJob                   REF Job
 );
 ```
 
@@ -97,16 +103,16 @@ The possible return values are:
 **Invalid Parameter** (4)
 </dt> <dt>
 
-**DMTF Reserved** (5–4095)
+**DMTF Reserved** (5 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -116,7 +122,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -130,9 +136,9 @@ The possible return values are:
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

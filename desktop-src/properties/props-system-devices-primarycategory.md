@@ -1,7 +1,12 @@
 ---
-Description: 'Primary category group for this device.'
-ms.assetid: 'd9cb507a-3179-4cc0-83e6-9792f7e93d54'
-title: 'System.Devices.PrimaryCategory'
+Description: Primary category group for this device.
+ms.assetid: d9cb507a-3179-4cc0-83e6-9792f7e93d54
+title: System.Devices.PrimaryCategory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.PrimaryCategory

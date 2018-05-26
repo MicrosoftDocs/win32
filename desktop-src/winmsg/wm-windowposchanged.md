@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to a window whose size, position, or place in the Z order has changed as a result of a call to the SetWindowPos function or another window-management function.'
-ms.assetid: '1eabd0b1-1f92-4576-b7fb-8af50fb04526'
-title: 'WM\_WINDOWPOSCHANGED message'
+---
+Description: Sent to a window whose size, position, or place in the Z order has changed as a result of a call to the SetWindowPos function or another window-management function.
+ms.assetid: 1eabd0b1-1f92-4576-b7fb-8af50fb04526
+title: WM\_WINDOWPOSCHANGED message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_WINDOWPOSCHANGED message
@@ -31,7 +36,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**WINDOWPOS**](windowpos.md) structure that contains information about the window's new size and position.
+A pointer to a [**WINDOWPOS**](/windows/win32/Winuser/ni-pointofservicedriverinterface-ioctl_line_display_create_windowpos_ioctl?branch=master) structure that contains information about the window's new size and position.
 
 </dd> </dl>
 
@@ -73,7 +78,7 @@ By default, the [**DefWindowProc**](defwindowproc.md) function sends the [**WM\_
 [**SetWindowPos**](setwindowpos.md)
 </dt> <dt>
 
-[**WINDOWPOS**](windowpos.md)
+[**WINDOWPOS**](/windows/win32/Winuser/ni-pointofservicedriverinterface-ioctl_line_display_create_windowpos_ioctl?branch=master)
 </dt> <dt>
 
 [**WM\_MOVE**](wm-move.md)

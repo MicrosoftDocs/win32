@@ -1,21 +1,27 @@
 ---
 title: settimecode command
 description: The settimecode command enables or disables timecode recording for a VCR. VCR devices recognize this command.
-ms.assetid: 'b014fbe0-de97-4540-a5fe-b22d157361f7'
-keywords: ["settimecode command Windows Multimedia"]
+ms.assetid: b014fbe0-de97-4540-a5fe-b22d157361f7
+keywords:
+- settimecode command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - settimecode
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # settimecode command
 
 The settimecode command enables or disables timecode recording for a VCR. VCR devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ One of the following flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -73,8 +79,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -88,9 +94,9 @@ Returns zero if successful or an error otherwise.
 [MCI Command Strings](mci-command-strings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

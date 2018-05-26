@@ -1,7 +1,12 @@
 ---
-Description: 'The AddTail method appends a list to the end of the list.'
-ms.assetid: '006cccc5-4fb2-4e3f-9481-5d10c090d24e'
-title: 'CGenericList.AddTail method'
+Description: The AddTail method appends a list to the end of the list.
+ms.assetid: 006cccc5-4fb2-4e3f-9481-5d10c090d24e
+title: CGenericList.AddTail method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.AddTail method
@@ -13,7 +18,7 @@ The `AddTail` method appends a list to the end of the list.
 
 ```C++
 BOOL AddTail(
-   CGenericList<OBJECT> pList
+   CGenericList<OBJECT> pList
 );
 ```
 
@@ -52,9 +57,9 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

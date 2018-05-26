@@ -1,7 +1,12 @@
-﻿---
-Description: 'The System Error Codes are very broad.'
-ms.assetid: '0061feb6-e1a0-4fcd-8f80-954087c799d7'
-title: 'System Error Codes (1000-1299)'
+---
+Description: The System Error Codes are very broad.
+ms.assetid: 0061feb6-e1a0-4fcd-8f80-954087c799d7
+title: System Error Codes (1000-1299)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Error Codes (1000-1299)
@@ -12,7 +17,7 @@ The information on this page is intended to be used by programmers so that the s
 
 The System Error Codes are very broad. Each one can occur in one of many hundreds of locations in the system. Consequently the descriptions of these codes cannot be very specific. Use of these codes requires some amount of investigation and analysis. You need to note both the programmatic and the run-time context in which these errors occur. Because these codes are defined in WinError.h for anyone to use, sometimes the codes are returned by non-system software. Sometimes the code is returned by a function deep in the stack and far removed from your code that is handling the error.
 
-The following list describes [system error codes](system-error-codes.md) for errors 1000 to 1299. They are returned by the [**GetLastError**](getlasterror.md) function when many functions fail. To retrieve the description text for the error in your application, use the [**FormatMessage**](formatmessage.md) function with the **FORMAT\_MESSAGE\_FROM\_SYSTEM** flag.
+The following list describes [system error codes](system-error-codes.md) for errors 1000 to 1299. They are returned by the [**GetLastError**](/windows/win32/WinBase/?branch=master) function when many functions fail. To retrieve the description text for the error in your application, use the [**FormatMessage**](/windows/win32/WinBase/nf-winbase-formatmessage?branch=master) function with the **FORMAT\_MESSAGE\_FROM\_SYSTEM** flag.
 
 <dl> <dt>
 

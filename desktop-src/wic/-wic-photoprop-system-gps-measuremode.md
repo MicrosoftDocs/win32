@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.GPS.MeasureMode property.'
-ms.assetid: '911a0d81-bd12-4155-b45a-ae1a18f2dd07'
-title: 'System.GPS.MeasureMode Photo Metadata Policy'
+Description: The photo metadata policy for the System.GPS.MeasureMode property.
+ms.assetid: 911a0d81-bd12-4155-b45a-ae1a18f2dd07
+title: System.GPS.MeasureMode Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.MeasureMode Photo Metadata Policy

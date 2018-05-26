@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacterEx GetSRStatus
 description: IAgentCharacterEx GetSRStatus
-ms.assetid: 'ccb34108-8078-421a-a883-731b51fae179'
+ms.assetid: ccb34108-8078-421a-a883-731b51fae179
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacterEx::GetSRStatus
@@ -39,7 +44,7 @@ Address of a variable that receives one of the following values for the state se
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -49,9 +54,9 @@ When speech input is enabled in the Agent property sheet (Advanced Character Opt
 
 This function returns only the setting for your client application's use of the character; the setting does not reflect other clients of the character or other characters of your client application.
 
- 
+ 
 
- 
+ 
 
 
 

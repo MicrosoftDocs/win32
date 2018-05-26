@@ -1,8 +1,10 @@
 ---
 title: MDM\_AppLocker\_EnterpriseDataProtection01\_StoreApps03 class
 description: The MDM\_AppLocker\_EnterpriseDataProtection01\_StoreApps03 class captures the list of Windows apps that are allowed to handle enterprise data. Should be used in conjunction with the settings in ./Vendor/MSFT/Policy/ConfigSource/DataProtection .
-ms.assetid: 'f37fe52d-dbe1-45b7-acd5-5047c46d9bd0'
-keywords: ["MDM_AppLocker_EnterpriseDataProtection01_StoreApps03 class", "MDM_AppLocker_EnterpriseDataProtection01_StoreApps03 class, described"]
+ms.assetid: f37fe52d-dbe1-45b7-acd5-5047c46d9bd0
+keywords:
+- MDM_AppLocker_EnterpriseDataProtection01_StoreApps03 class
+- MDM_AppLocker_EnterpriseDataProtection01_StoreApps03 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_AppLocker\_EnterpriseDataProtection01\_StoreApps03 class
@@ -96,7 +103,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -111,9 +118,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

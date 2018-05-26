@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.mappingImage
 description: The mappingImage attribute specifies or retrieves the name of the image representing the button map of the BUTTONGROUP.
-ms.assetid: 'bfea52d1-0e7f-4f77-a212-d34e356a4d85'
-keywords: ["BUTTONGROUP.mappingImage Windows Media Player"]
+ms.assetid: bfea52d1-0e7f-4f77-a212-d34e356a4d85
+keywords:
+- BUTTONGROUP.mappingImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.mappingImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.mappingImage
@@ -67,9 +73,9 @@ See the *BUTTONELEMENT*.[mappingColor](buttonelement-mappingcolor.md) attribute 
 [**BUTTONGROUP.transparencyColor**](buttongroup-transparencycolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

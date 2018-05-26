@@ -1,24 +1,29 @@
 ---
-Description: 'The following example demonstrates using the Compression API in block mode.'
-ms.assetid: '7483BCE4-3B85-4659-98E3-670D2F7EE52D'
+Description: The following example demonstrates using the Compression API in block mode.
+ms.assetid: 7483BCE4-3B85-4659-98E3-670D2F7EE52D
 title: Using the Compression API in block mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Compression API in block mode
 
-The following example demonstrates using the Compression API in block mode. To generate a compressor or decompressor using block mode, your application must include the **COMPRESS\_RAW** flag when it calls [**CreateCompressor**](createcompressor.md) or [**CreateDecompressor**](createdecompressor.md). Block mode enables the developer to control the block size, but requires more work be done by the application.
+The following example demonstrates using the Compression API in block mode. To generate a compressor or decompressor using block mode, your application must include the **COMPRESS\_RAW** flag when it calls [**CreateCompressor**](/windows/win32/compressapi/nf-compressapi-createcompressor?branch=master) or [**CreateDecompressor**](/windows/win32/compressapi/nf-compressapi-createdecompressor?branch=master). Block mode enables the developer to control the block size, but requires more work be done by the application.
 
-The block mode will fail if the size of the input buffer is greater than the internal block size of the compression algorithm. The internal block size is 32KB for the MSZIP and 1GB for the XPRESS compression algorithms. The internal block size for LZMS is configurable up to 64GB with a corresponding increase in memory use. The value of *UncompressedBufferSize* parameter of [**Decompress**](decompress.md) must be exactly equal to the original size of the uncompressed data and not just the size of the output buffer. This means your application will need to specify the block size and save the exact original size of the uncompressed data for use by the decompressor. The size of the compressed buffer is not automatically saved, and the application also needs to save this for decompression.
+The block mode will fail if the size of the input buffer is greater than the internal block size of the compression algorithm. The internal block size is 32KB for the MSZIP and 1GB for the XPRESS compression algorithms. The internal block size for LZMS is configurable up to 64GB with a corresponding increase in memory use. The value of *UncompressedBufferSize* parameter of [**Decompress**](/windows/win32/compressapi/nf-compressapi-decompress?branch=master) must be exactly equal to the original size of the uncompressed data and not just the size of the output buffer. This means your application will need to specify the block size and save the exact original size of the uncompressed data for use by the decompressor. The size of the compressed buffer is not automatically saved, and the application also needs to save this for decompression.
 
 The buffer mode is recommended in most cases because it automatically splits up the input buffer into blocks of a size that is appropriate for the selected compression algorithm stores the uncompressed buffer size in the compressed buffer. For information on how to use buffer mode, see [Using the Compression API in buffer mode](using-the-compression-api-in-buffer-mode.md).
 
-Applications using buffer or block mode have the option to specify a custom memory allocation routine in its call to [**CreateCompressor**](createcompressor.md) or [**CreateDecompressor**](createdecompressor.md).
+Applications using buffer or block mode have the option to specify a custom memory allocation routine in its call to [**CreateCompressor**](/windows/win32/compressapi/nf-compressapi-createcompressor?branch=master) or [**CreateDecompressor**](/windows/win32/compressapi/nf-compressapi-createdecompressor?branch=master).
 
 **Windows 8 and Windows Server 2012:** To use the following example code, you must be running Windows 8 or Windows Server 2012 and have "compressapi.h" and "cabinet.dll" and link to the "Cabinet.lib".
 
-The following demonstrates using the Compression API in block mode to compress a file using the LZMS compression algorithm and a customized memory allocation routine. Your application must include the **COMPRESS\_RAW** flag to use the Compression API in block mode. First the application calls [**CreateCompressor**](createcompressor.md) with **COMPRESS\_ALGORITHM\_LZMS**\|**COMPRESS\_RAW** to generate the compressor. The *AllocationRoutines* parameter specifies the memory allocation routine. The application then sets the block size for the compressor using [**SetCompressorInformation**](setcompressorinformation.md).
+The following demonstrates using the Compression API in block mode to compress a file using the LZMS compression algorithm and a customized memory allocation routine. Your application must include the **COMPRESS\_RAW** flag to use the Compression API in block mode. First the application calls [**CreateCompressor**](/windows/win32/compressapi/nf-compressapi-createcompressor?branch=master) with **COMPRESS\_ALGORITHM\_LZMS**\|**COMPRESS\_RAW** to generate the compressor. The *AllocationRoutines* parameter specifies the memory allocation routine. The application then sets the block size for the compressor using [**SetCompressorInformation**](/windows/win32/compressapi/nf-compressapi-setcompressorinformation?branch=master).
 
-The application makes repeated calls to [**Compress**](compress.md) to compress the data block by block. The application writes the uncompressed block size, compressed block size, and compressed data into the output buffer.
+The application makes repeated calls to [**Compress**](/windows/win32/compressapi/nf-compressapi-compress?branch=master) to compress the data block by block. The application writes the uncompressed block size, compressed block size, and compressed data into the output buffer.
 
 
 ```C++
@@ -630,7 +635,7 @@ done:
 
 
 
-An application using buffer or block mode has the option to customize the memory allocation used by the Compression API when it calls [**CreateCompressor**](createcompressor.md) or [**CreateDecompressor**](createdecompressor.md). In block mode, the application must handle compression block information, such as compressed data size and uncompressed data size, otherwise [**Decompress**](decompress.md) will be unable to decompress the information.
+An application using buffer or block mode has the option to customize the memory allocation used by the Compression API when it calls [**CreateCompressor**](/windows/win32/compressapi/nf-compressapi-createcompressor?branch=master) or [**CreateDecompressor**](/windows/win32/compressapi/nf-compressapi-createdecompressor?branch=master). In block mode, the application must handle compression block information, such as compressed data size and uncompressed data size, otherwise [**Decompress**](/windows/win32/compressapi/nf-compressapi-decompress?branch=master) will be unable to decompress the information.
 
 The following snippet shows a simple customized allocation routine.
 

@@ -1,8 +1,11 @@
 ---
 title: Initialize method of the MSFT\_Disk class
 description: Initializes a RAW disk with a particular partition style.
-ms.assetid: '70782a94-406f-4c28-9562-8df554b65463'
-keywords: ["Initialize method Windows Storage Management API", "Initialize method Windows Storage Management API , MSFT_Disk class", "MSFT_Disk class Windows Storage Management API , Initialize method"]
+ms.assetid: 70782a94-406f-4c28-9562-8df554b65463
+keywords:
+- Initialize method Windows Storage Management API
+- Initialize method Windows Storage Management API , MSFT_Disk class
+- MSFT_Disk class Windows Storage Management API , Initialize method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Initialize method of the MSFT\_Disk class
@@ -22,8 +30,8 @@ Initializes a RAW disk with a particular partition style.
 
 ```mof
 UInt32 Initialize(
-  [in]  UInt16 PartitionStyle,
-  [out] String ExtendedStatus
+  [in]  UInt16 PartitionStyle,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -111,8 +119,8 @@ If no partition style is specified, GPT will be selected by default. If the disk
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -125,9 +133,9 @@ If no partition style is specified, GPT will be selected by default. If the disk
 [**MSFT\_Disk**](msft-disk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

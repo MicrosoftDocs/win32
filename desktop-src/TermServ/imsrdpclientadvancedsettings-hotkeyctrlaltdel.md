@@ -4,11 +4,28 @@ description: Specifies the virtual-key code to add to CTRL+ALT to determine the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bce55cdb-4444-4291-b443-9bc1b3743e23'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: bce55cdb-4444-4291-b443-9bc1b3743e23
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["HotKeyCtrlAltDel property Remote Desktop Services", "HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings interface", "IMsRdpClientAdvancedSettings interface Remote Desktop Services , HotKeyCtrlAltDel property", "HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface", "IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , HotKeyCtrlAltDel property", "HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface", "IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , HotKeyCtrlAltDel property", "HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface", "IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , HotKeyCtrlAltDel property", "HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , HotKeyCtrlAltDel property", "HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , HotKeyCtrlAltDel property", "HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , HotKeyCtrlAltDel property", "HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , HotKeyCtrlAltDel property"]
+keywords:
+- HotKeyCtrlAltDel property Remote Desktop Services
+- HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings interface
+- IMsRdpClientAdvancedSettings interface Remote Desktop Services , HotKeyCtrlAltDel property
+- HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface
+- IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , HotKeyCtrlAltDel property
+- HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface
+- IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , HotKeyCtrlAltDel property
+- HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface
+- IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , HotKeyCtrlAltDel property
+- HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , HotKeyCtrlAltDel property
+- HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , HotKeyCtrlAltDel property
+- HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , HotKeyCtrlAltDel property
+- HotKeyCtrlAltDel property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , HotKeyCtrlAltDel property
 topic_type:
 - apiref
 api_name:
@@ -40,6 +57,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings::HotKeyCtrlAltDel property
@@ -49,7 +69,7 @@ Specifies the virtual-key code to add to CTRL+ALT to determine the hotkey replac
 > [!Note]  
 > CTRL+ALT+DELETE is never redirected to the remote server, even when the [KeyboardHookMode](imsrdpclientsecuredsettings-keyboardhookmode.md) property is enabled; CTRL+ALT+DELETE is the local SAS sequence.
 
- 
+ 
 
 This property is read/write.
 
@@ -58,11 +78,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_HotKeyCtrlAltDel(
-  [in]  LONG hotKeyCtrlAltDel
+  [in]  LONG hotKeyCtrlAltDel
 );
 
 HRESULT get_HotKeyCtrlAltDel(
-  [out] LONG *photKeyCtrlAltDel
+  [out] LONG *photKeyCtrlAltDel
 );
 ```
 
@@ -86,8 +106,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                  |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                        |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                  |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>          |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings is defined as 3c65b4ab-12b3-465b-acd4-b8dad3bff9e2<br/> |
@@ -122,9 +142,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClientAdvancedSettings**](imsrdpclientadvancedsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

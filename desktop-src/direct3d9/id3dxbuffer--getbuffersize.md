@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the total size of the data in the buffer.'
-ms.assetid: 'f26792bc-381b-4ee1-b7d2-2007790fc046'
-title: 'ID3DXBuffer::GetBufferSize method'
+---
+Description: Retrieves the total size of the data in the buffer.
+ms.assetid: f26792bc-381b-4ee1-b7d2-2007790fc046
+title: ID3DXBufferGetBufferSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBuffer::GetBufferSize method

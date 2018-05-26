@@ -1,7 +1,12 @@
 ---
 Description: TCPMON Xcv Structures
-ms.assetid: '5976a68c-2dcf-4836-b788-928303f85237'
+ms.assetid: 5976a68c-2dcf-4836-b788-928303f85237
 title: TCPMON Xcv Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCPMON Xcv Structures

@@ -1,7 +1,12 @@
 ---
-Description: 'The authentication packages provided with Windows support customization using subauthentication packages.'
-ms.assetid: 'e1f202c2-8574-4193-a99a-3922a4446013'
+Description: The authentication packages provided with Windows support customization using subauthentication packages.
+ms.assetid: e1f202c2-8574-4193-a99a-3922a4446013
 title: Subauthentication Packages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subauthentication Packages

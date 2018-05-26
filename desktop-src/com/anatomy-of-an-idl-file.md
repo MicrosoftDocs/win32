@@ -1,7 +1,12 @@
 ---
 title: Anatomy of an IDL File
 description: These example IDL files demonstrate the fundamental constructs of interface definition.
-ms.assetid: '9c276b8a-5342-4c09-91a7-c9a9f0f83c73'
+ms.assetid: 9c276b8a-5342-4c09-91a7-c9a9f0f83c73
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Anatomy of an IDL File
@@ -40,13 +45,13 @@ HRESULT MethodC([in] long Max,
  
 ```
 
-The IDL [**import**](https://msdn.microsoft.com/library/windows/desktop/aa367047) statement is used here to bring in a header file, Mydefs.h, which contains user-defined types, and Unknwn.idl, which contains the definition of [**IUnknown**](iunknown.md), from which IFace1 and IFace2 derive.
+The IDL [**import**](https://msdn.microsoft.com/library/windows/desktop/aa367047) statement is used here to bring in a header file, Mydefs.h, which contains user-defined types, and Unknwn.idl, which contains the definition of [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master), from which IFace1 and IFace2 derive.
 
 The [**object**](https://msdn.microsoft.com/library/windows/desktop/aa367124) attribute identifies the interface as an object interface and tells the MIDL compiler to generate proxy/stub code instead of RPC client and server stubs. Object interface methods must have a return type of **HRESULT**, to allow the underlying RPC mechanism to report errors for calls that fail to complete due to network problems.
 
 The [**uuid**](https://msdn.microsoft.com/library/windows/desktop/aa367302) attribute specifies the interface identifier (IID). Each interface, class, and type library must be identified with its own unique identifier. Use the utility Uuidgen.exe to generate a set of unique IDs for your interfaces and other components.
 
-The [**interface**](https://msdn.microsoft.com/library/windows/desktop/aa367054) keyword defines the interface name. All object interfaces must derive, directly or indirectly, from [**IUnknown**](iunknown.md).
+The [**interface**](https://msdn.microsoft.com/library/windows/desktop/aa367054) keyword defines the interface name. All object interfaces must derive, directly or indirectly, from [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master).
 
 The [**in**](https://msdn.microsoft.com/library/windows/desktop/aa367051) directional parameter specifies a parameter that is set only by the caller. The [**out**](https://msdn.microsoft.com/library/windows/desktop/aa367136) parameter specifies data that is passed back to the caller. Using both directional attributes on one parameter specifies that the parameter is used both to send data to the method and to pass data back to the caller.
 

@@ -1,8 +1,11 @@
 ---
 title: System.Shell.Item.SHFolder property
 description: Gets a System.Shell.Folder object from the System.Shell.Item.
-ms.assetid: '6291a81c-5b6a-4cbe-8617-e3295759a00a'
-keywords: ["SHFolder property Windows Sidebar", "SHFolder property Windows Sidebar , System.Shell.Item object", "System.Shell.Item object Windows Sidebar , SHFolder property"]
+ms.assetid: 6291a81c-5b6a-4cbe-8617-e3295759a00a
+keywords:
+- SHFolder property Windows Sidebar
+- SHFolder property Windows Sidebar , System.Shell.Item object
+- System.Shell.Item object Windows Sidebar , SHFolder property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.Item.SHFolder property
@@ -102,18 +110,18 @@ function CreateFolder(folderName)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

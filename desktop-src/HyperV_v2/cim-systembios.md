@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a BIOS with a computer system.'
-ms.assetid: 'a06af789-75c8-4d58-8a25-572dcf1091e2'
-title: 'CIM\_SystemBIOS class'
+Description: Associates a BIOS with a computer system.
+ms.assetid: a06af789-75c8-4d58-8a25-572dcf1091e2
+title: CIM\_SystemBIOS class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SystemBIOS class
@@ -15,7 +20,7 @@ Associates a BIOS with a computer system.
 class CIM_SystemBIOS : CIM_SystemComponent
 {
   CIM_ComputerSystem REF GroupComponent;
-  CIM_BIOSElement    REF PartComponent;
+  CIM_BIOSElement    REF PartComponent;
 };
 ```
 
@@ -69,8 +74,8 @@ The BIOS.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The BIOS.
 [**CIM\_SystemComponent**](cim-systemcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

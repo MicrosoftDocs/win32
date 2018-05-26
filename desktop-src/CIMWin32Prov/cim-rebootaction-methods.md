@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_RebootAction class exposes the following methods.'
+Description: The CIM\_RebootAction class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'A2ADB2F4-9E96-448F-9BAD-0DBB71EA72AE'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: A2ADB2F4-9E96-448F-9BAD-0DBB71EA72AE
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_RebootAction Methods'
+title: CIM\_RebootAction Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_RebootAction Methods

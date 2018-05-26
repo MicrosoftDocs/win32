@@ -2,13 +2,16 @@
 title: SetSSTPCertificate method of the PS\_RemoteAccessLocal class
 description: This method is used to set the SSTP certificate on the RemoteAccess server.
 audience: developer
-ms.assetid: '90c67f71-0764-48f1-a09a-40b95110f50b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 90c67f71-0764-48f1-a09a-40b95110f50b
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetSSTPCertificate method", "SetSSTPCertificate method, PS_RemoteAccessLocal class", "PS_RemoteAccessLocal class, SetSSTPCertificate method"]
+keywords:
+- SetSSTPCertificate method
+- SetSSTPCertificate method, PS_RemoteAccessLocal class
+- PS_RemoteAccessLocal class, SetSSTPCertificate method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSSTPCertificate method of the PS\_RemoteAccessLocal class
@@ -28,8 +34,8 @@ This method is used to set the SSTP certificate on the RemoteAccess server.
 
 ```mof
 uint32 SetSSTPCertificate(
-  [in] uint8   CertificateHash[],
-  [in] boolean UseHttps
+  [in] uint8   CertificateHash[],
+  [in] boolean UseHttps
 );
 ```
 
@@ -51,7 +57,7 @@ The SHA256 hash of the SSTP Certificate.
 
 Use HTTPs protocol for SSTP connection.
 
-**Windows Server 2012 and Windows Server 2012 R2:** This parameter does not exist prior to Windows Server 2016.
+**Windows Server 2012 and Windows Server 2012 R2:** This parameter does not exist prior to Windows Server 2016.
 
 </dd> </dl>
 
@@ -62,7 +68,7 @@ Use HTTPs protocol for SSTP connection.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
@@ -76,9 +82,9 @@ Use HTTPs protocol for SSTP connection.
 [**PS\_RemoteAccessLocal**](ps-remoteaccesslocal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

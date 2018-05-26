@@ -1,8 +1,10 @@
 ---
 title: MPTHREAT\_SEVERITY enumeration
 description: Possible threat severities.
-ms.assetid: '7C50AC74-16CB-4198-ABB2-D6999429F2EA'
-keywords: ["MPTHREAT_SEVERITY enumeration Legacy Windows Environment Features", "PMPTHREAT_SEVERITY enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 7C50AC74-16CB-4198-ABB2-D6999429F2EA
+keywords:
+- MPTHREAT_SEVERITY enumeration Legacy Windows Environment Features
+- PMPTHREAT_SEVERITY enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPTHREAT\_SEVERITY enumeration
@@ -22,12 +29,12 @@ Possible threat severities.
 
 ```C++
 typedef enum tagMPTHREAT_SEVERITY { 
-  MP_THREAT_SEVERITY_UNKNOWN   = 0,
-  MP_THREAT_SEVERITY_LOW       = 1,
-  MP_THREAT_SEVERITY_MODERATE  = 2,
-  MP_THREAT_SEVERITY_HIGH      = 4,
-  MP_THREAT_SEVERITY_SEVERE    = 5,
-  MP_THREAT_SEVERITY_MAXVALUE  = 5
+  MP_THREAT_SEVERITY_UNKNOWN   = 0,
+  MP_THREAT_SEVERITY_LOW       = 1,
+  MP_THREAT_SEVERITY_MODERATE  = 2,
+  MP_THREAT_SEVERITY_HIGH      = 4,
+  MP_THREAT_SEVERITY_SEVERE    = 5,
+  MP_THREAT_SEVERITY_MAXVALUE  = 5
 } MPTHREAT_SEVERITY, *PMPTHREAT_SEVERITY;
 ```
 
@@ -61,15 +68,15 @@ typedef enum tagMPTHREAT_SEVERITY {
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

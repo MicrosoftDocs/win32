@@ -1,11 +1,14 @@
 ---
-Description: 'Asynchronously installs a server component on a VHD of a managed node.'
+Description: Asynchronously installs a server component on a VHD of a managed node.
 audience: developer
-ms.assetid: 'dc203cce-1dc8-4181-8e2f-dc1bb1482279'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: dc203cce-1dc8-4181-8e2f-dc1bb1482279
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'AddServerComponentVhdAsync method of the MSFT\_ServerManagerDeploymentTasks class'
+title: AddServerComponentVhdAsync method of the MSFT\_ServerManagerDeploymentTasks class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddServerComponentVhdAsync method of the MSFT\_ServerManagerDeploymentTasks class
@@ -17,12 +20,12 @@ Asynchronously installs a server component on a VHD of a managed node.
 
 ```mof
 uint32 AddServerComponentVhdAsync(
-  [in]  MSFT_ServerManagerRequestGuid               RequestGuid,
-  [in]  String                                      Source[],
-  [in]  Boolean                                     ScanForUpdates,
-  [in]  MSFT_ServerManagerServerComponentDescriptor ServerComponentDescriptors[],
-  [in]  String                                      VhdPath,
-  [out] MSFT_ServerManagerRequestState              AlterationState
+  [in]  MSFT_ServerManagerRequestGuid               RequestGuid,
+  [in]  String                                      Source[],
+  [in]  Boolean                                     ScanForUpdates,
+  [in]  MSFT_ServerManagerServerComponentDescriptor ServerComponentDescriptors[],
+  [in]  String                                      VhdPath,
+  [out] MSFT_ServerManagerRequestState              AlterationState
 );
 ```
 
@@ -81,7 +84,7 @@ A string that receives the state of the installation.
 |                                     |                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                                  |
 | MOF<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.dll</dt> </dl> |
@@ -95,9 +98,9 @@ A string that receives the state of the installation.
 [**MSFT\_ServerManagerDeploymentTasks**](msft-servermanagerdeploymenttasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

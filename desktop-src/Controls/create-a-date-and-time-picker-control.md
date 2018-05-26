@@ -1,7 +1,12 @@
 ---
 title: How to Create a Date and Time Picker Control
 description: This topic demonstrates how to dynamically create a date and time picker (DTP) control.
-ms.assetid: 'D4ACA939-3004-48D3-ADD9-FC5E53128BA2'
+ms.assetid: D4ACA939-3004-48D3-ADD9-FC5E53128BA2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Date and Time Picker Control
@@ -23,7 +28,7 @@ This topic demonstrates how to dynamically create a date and time picker (DTP) c
 
 ### Step 1:
 
-Register the window class by calling the [**InitCommonControlsEx**](initcommoncontrolsex.md) function and specifying the ICC\_DATE\_CLASSES bit in the accompanying [**INITCOMMONCONTROLSEX**](initcommoncontrolsex-4vvx.md) structure.
+Register the window class by calling the [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) function and specifying the ICC\_DATE\_CLASSES bit in the accompanying [**INITCOMMONCONTROLSEX**](/windows/win32/Commctrl/ns-commctrl-taginitcommoncontrolsex?branch=master) structure.
 
 
 ```C++

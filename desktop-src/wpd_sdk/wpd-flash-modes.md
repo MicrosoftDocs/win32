@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_FLASH\_MODES enumeration type describes a flash mode to use when capturing images with a device.'
-ms.assetid: '4e92c86d-2f35-4bc6-8d37-ec1ab5c518b2'
-title: 'WPD\_FLASH\_MODES enumeration'
+Description: The WPD\_FLASH\_MODES enumeration type describes a flash mode to use when capturing images with a device.
+ms.assetid: 4e92c86d-2f35-4bc6-8d37-ec1ab5c518b2
+title: WPD\_FLASH\_MODES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_FLASH\_MODES enumeration
@@ -13,13 +18,13 @@ The **WPD\_FLASH\_MODES** enumeration type describes a flash mode to use when ca
 
 ```C++
 typedef enum WPD_FLASH_MODES { 
-  WPD_FLASH_MODE_UNDEFINED      = 0,
-  WPD_FLASH_MODE_AUTO           = 1,
-  WPD_FLASH_MODE_OFF            = 2,
-  WPD_FLASH_MODE_FILL           = 3,
-  WPD_FLASH_MODE_RED_EYE_AUTO   = 4,
-  WPD_FLASH_MODE_RED_EYE_FILL   = 5,
-  WPD_FLASH_MODE_EXTERNAL_SYNC  = 6
+  WPD_FLASH_MODE_UNDEFINED      = 0,
+  WPD_FLASH_MODE_AUTO           = 1,
+  WPD_FLASH_MODE_OFF            = 2,
+  WPD_FLASH_MODE_FILL           = 3,
+  WPD_FLASH_MODE_RED_EYE_AUTO   = 4,
+  WPD_FLASH_MODE_RED_EYE_FILL   = 5,
+  WPD_FLASH_MODE_EXTERNAL_SYNC  = 6
 } ;
 ```
 
@@ -99,9 +104,9 @@ This enumeration is used by the [WPD\_STILL\_IMAGE\_FLASH\_MODE](still-image-pro
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

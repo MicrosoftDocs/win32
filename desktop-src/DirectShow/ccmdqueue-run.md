@@ -1,7 +1,12 @@
 ---
-Description: 'The Run method switches to running mode so that commands that are deferred by the stream time can be run.'
-ms.assetid: 'c529ae84-c9b7-46f1-a1e4-716fc9e9df13'
-title: 'CCmdQueue.Run method'
+Description: The Run method switches to running mode so that commands that are deferred by the stream time can be run.
+ms.assetid: c529ae84-c9b7-46f1-a1e4-716fc9e9df13
+title: CCmdQueue.Run method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCmdQueue.Run method
@@ -13,7 +18,7 @@ The `Run` method switches to running mode so that commands that are deferred by 
 
 ```C++
 virtual HRESULT Run(
-   REFERENCE_TIME tStreamTimeOffset
+   REFERENCE_TIME tStreamTimeOffset
 );
 ```
 
@@ -56,9 +61,9 @@ During running mode, stream-time-to-presentation-time mapping is known.
 [**CCmdQueue Class**](ccmdqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

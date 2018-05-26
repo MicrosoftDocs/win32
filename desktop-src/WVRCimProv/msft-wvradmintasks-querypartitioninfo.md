@@ -4,13 +4,19 @@ description: Queries the partition related information.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8aece83e-c379-4661-82c4-cc3f90bd4878'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8aece83e-c379-4661-82c4-cc3f90bd4878
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["QueryPartitionInfo method", "QueryPartitionInfo method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, QueryPartitionInfo method"]
+keywords:
+- QueryPartitionInfo method
+- QueryPartitionInfo method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, QueryPartitionInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # QueryPartitionInfo method of the MSFT\_WvrAdminTasks class
@@ -22,13 +28,13 @@ Queries the partition related information.
 
 ```mof
 uint32 QueryPartitionInfo(
-  [in]  string ReplicationGroupName,
-  [in]  string PartitionId,
-  [out] uint64 CapacityInBytes,
-  [out] uint64 FreeSpaceInBytes,
-  [out] uint16 PercentLogConsumed,
-  [out] uint64 TimeToLogWrapInSeconds,
-  [out] uint64 IndexSizeInBytes
+  [in]  string ReplicationGroupName,
+  [in]  string PartitionId,
+  [out] uint64 CapacityInBytes,
+  [out] uint64 FreeSpaceInBytes,
+  [out] uint16 PercentLogConsumed,
+  [out] uint64 TimeToLogWrapInSeconds,
+  [out] uint64 IndexSizeInBytes
 );
 ```
 
@@ -94,7 +100,7 @@ TBD
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>Wvrcimprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wvrcimprov.dll</dt> </dl> |
@@ -108,9 +114,9 @@ TBD
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

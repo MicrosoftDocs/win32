@@ -1,8 +1,11 @@
 ---
 title: IMessengerContact PhoneNumber property
 description: Retrieves the phone number information for the contact associated with this MessengerContact object.
-ms.assetid: 'e48b5229-4b4f-493e-9c0c-753ab5af653b'
-keywords: ["PhoneNumber property Windows Messenger", "PhoneNumber property Windows Messenger , IMessengerContact interface", "IMessengerContact interface Windows Messenger , PhoneNumber property"]
+ms.assetid: e48b5229-4b4f-493e-9c0c-753ab5af653b
+keywords:
+- PhoneNumber property Windows Messenger
+- PhoneNumber property Windows Messenger , IMessengerContact interface
+- IMessengerContact interface Windows Messenger , PhoneNumber property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerContact::PhoneNumber property
 
-\[**PhoneNumber** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**PhoneNumber** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves the phone number information for the contact associated with this [**MessengerContact**](im-messengercontact.md) object.
 
@@ -27,8 +35,8 @@ This property is read-only.
 
 ```C++
 HRESULT get_PhoneNumber(
-  [in]          MPHONE_TYPE PhoneType,
-  [out, retval] BSTR        *bstrNumber
+  [in]          MPHONE_TYPE PhoneType,
+  [out, retval] BSTR        *bstrNumber
 );
 ```
 
@@ -66,7 +74,7 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 The *bstrNumber* return value may contain punctuation. Most APIs used for Internet telephony will either ignore or strip punctuation.
 
@@ -75,7 +83,7 @@ E\_FAIL HRESULT will be returned for a contact who does not have phone informati
 > [!Note]  
 > This property is not available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -112,8 +120,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -133,9 +141,9 @@ End Sub
 [**MyPhoneNumber**](im-imessenger-myphonenumber.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

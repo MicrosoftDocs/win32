@@ -1,8 +1,15 @@
 ---
 title: Enabling RemoteAdmin
 description: Enabling RemoteAdmin
-ms.assetid: '0408b6bc-04c4-4069-8e33-fd1a80378ef8'
-keywords: ["Windows Firewall", "using"]
+ms.assetid: 0408b6bc-04c4-4069-8e33-fd1a80378ef8
+keywords:
+- Windows Firewall
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling RemoteAdmin

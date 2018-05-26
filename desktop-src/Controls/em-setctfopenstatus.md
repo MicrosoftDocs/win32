@@ -1,8 +1,9 @@
 ---
 title: EM\_SETCTFOPENSTATUS message
 description: Opens or closes the Text Services Framework (TSF) keyboard.
-ms.assetid: '9bdabf5a-93db-4b0e-9528-807d262de866'
-keywords: ["EM_SETCTFOPENSTATUS message Windows Controls"]
+ms.assetid: 9bdabf5a-93db-4b0e-9528-807d262de866
+keywords:
+- EM_SETCTFOPENSTATUS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETCTFOPENSTATUS message
@@ -45,8 +51,8 @@ If successful, this message returns **TRUE**. If unsuccessful, this message retu
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ If successful, this message returns **TRUE**. If unsuccessful, this message retu
 [**EM\_GETCTFOPENSTATUS**](em-getctfopenstatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

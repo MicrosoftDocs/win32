@@ -1,8 +1,11 @@
 ---
 title: INapClientManagement RegisterEnforcementClient method
 description: Registers an enforcement client with the NAP system.
-ms.assetid: '26ea45ea-a366-4162-91dc-06bcd0261c56'
-keywords: ["RegisterEnforcementClient method NAP", "RegisterEnforcementClient method NAP , INapClientManagement interface", "INapClientManagement interface NAP , RegisterEnforcementClient method"]
+ms.assetid: 26ea45ea-a366-4162-91dc-06bcd0261c56
+keywords:
+- RegisterEnforcementClient method NAP
+- RegisterEnforcementClient method NAP , INapClientManagement interface
+- INapClientManagement interface NAP , RegisterEnforcementClient method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapClientManagement::RegisterEnforcementClient method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **RegisterEnforcementClient** method registers an enforcement client with the NAP system.
 
@@ -27,7 +35,7 @@ The **RegisterEnforcementClient** method registers an enforcement client with th
 
 ```C++
 HRESULT RegisterEnforcementClient(
-  [in] const NapComponentRegistrationInfo *enforcer
+  [in] const NapComponentRegistrationInfo *enforcer
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT RegisterEnforcementClient(
 *enforcer* \[in\]
 </dt> <dd>
 
-A pointer to a [**NapComponentRegistrationInfo**](napcomponentregistrationinfo-struct.md) data structure that contains the registration information that is associated with the enforcement client.
+A pointer to a [**NapComponentRegistrationInfo**](/windows/win32/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo?branch=master) data structure that contains the registration information that is associated with the enforcement client.
 
 </dd> </dl>
 
@@ -59,7 +67,7 @@ The method returns an HRESULT status code including but not limited to one of th
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,8 +75,8 @@ The method returns an HRESULT status code including but not limited to one of th
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>NapManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |
@@ -82,9 +90,9 @@ The method returns an HRESULT status code including but not limited to one of th
 [**INapClientManagement**](inapclientmanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

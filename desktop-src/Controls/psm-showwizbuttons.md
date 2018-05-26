@@ -1,8 +1,9 @@
 ---
 title: PSM\_SHOWWIZBUTTONS message
 description: Shows or hides buttons in a wizard. You can send this message explicitly or by using the PropSheet\_ShowWizButtons macro.
-ms.assetid: '669c4e51-cac1-40e1-8f23-afae0e41fc9b'
-keywords: ["PSM_SHOWWIZBUTTONS message Windows Controls"]
+ms.assetid: 669c4e51-cac1-40e1-8f23-afae0e41fc9b
+keywords:
+- PSM_SHOWWIZBUTTONS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_SHOWWIZBUTTONS message
 
-Shows or hides buttons in a wizard. You can send this message explicitly or by using the [**PropSheet\_ShowWizButtons**](propsheet-showwizbuttons.md) macro.
+Shows or hides buttons in a wizard. You can send this message explicitly or by using the [**PropSheet\_ShowWizButtons**](/windows/win32/Prsht/nf-prsht-propsheet_showwizbuttons?branch=master) macro.
 
 ## Parameters
 
@@ -40,7 +46,7 @@ One or more of the following values that specify which property sheet buttons ar
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -59,9 +65,9 @@ No return value.
 
 Wizards display either three or four buttons below each page. This message is used to specify which buttons are visible. Wizards normally display **Back**, **Cancel**, and either a **Next** or **Finish** button. The **Cancel** button is always visible.
 
-Typically, set **PSWIZB\_FINISH** or **PSWIZB\_DISABLEDFINISH** to replace the **Next** button with a **Finish** button. To display **Next** and **Finish** buttons simultaneously, set the **PSH\_WIZARDHASFINISH** flag in the **dwFlags** member of the [**PROPSHEETHEADER**](propsheetheader.md) structure when you create the wizard. Every page will then display all four buttons: **Back**, **Next**, **Cancel**, and **Finish**.
+Typically, set **PSWIZB\_FINISH** or **PSWIZB\_DISABLEDFINISH** to replace the **Next** button with a **Finish** button. To display **Next** and **Finish** buttons simultaneously, set the **PSH\_WIZARDHASFINISH** flag in the **dwFlags** member of the [**PROPSHEETHEADER**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master) structure when you create the wizard. Every page will then display all four buttons: **Back**, **Next**, **Cancel**, and **Finish**.
 
-If you use the [**PropSheet\_ShowWizButtons**](propsheet-showwizbuttons.md) macro to send this message, it will be posted. At any other time, you can use [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) to send **PSM\_SHOWWIZBUTTONS**.
+If you use the [**PropSheet\_ShowWizButtons**](/windows/win32/Prsht/nf-prsht-propsheet_showwizbuttons?branch=master) macro to send this message, it will be posted. At any other time, you can use [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) to send **PSM\_SHOWWIZBUTTONS**.
 
 If your notification handler uses [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) to send a **PSM\_SHOWWIZBUTTONS** message, do nothing that will affect window focus until after the handler returns. For example, if you call [**MessageBox**](https://msdn.microsoft.com/library/windows/desktop/ms645505) immediately after using **PostMessage** to send **PSM\_SHOWWIZBUTTONS**, the message box will receive focus. Since posted messages are not delivered until they reach the head of the message queue, the **PSM\_SHOWWIZBUTTONS** message will not be delivered until after the wizard has lost focus to the message box. As a result, the property sheet will not be able to properly set the focus for the buttons.
 
@@ -71,15 +77,15 @@ If your notification handler uses [**PostMessage**](https://msdn.microsoft.com/l
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

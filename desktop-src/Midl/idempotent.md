@@ -2,13 +2,19 @@
 title: idempotent attribute
 description: The \ idempotent\ attribute specifies that an operation does not modify state information and returns the same results each time it is performed. Performing the routine more than once has the same effect as performing it once.
 ms.assetid: 876a40b5-8165-4b5c-bd62-9c43a9eb4b2b
-keywords: ["idempotent attribute MIDL"]
+keywords:
+- idempotent attribute MIDL
 topic_type:
 - apiref
 api_name:
 - idempotent
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # idempotent attribute

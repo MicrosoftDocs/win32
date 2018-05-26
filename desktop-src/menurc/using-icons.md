@@ -1,8 +1,20 @@
 ---
 title: Using Icons
 description: This section provides code samples that show how to perform tasks related to icons.
-ms.assetid: '5021d59a-7aae-4ddc-be66-9abdc75ad316'
-keywords: ["resources,icons", "icons,creating", "icons,displaying", "icons,sharing resources", "creating icons", "displaying icons", "sharing icon resources"]
+ms.assetid: 5021d59a-7aae-4ddc-be66-9abdc75ad316
+keywords:
+- resources,icons
+- icons,creating
+- icons,displaying
+- icons,sharing resources
+- creating icons
+- displaying icons
+- sharing icon resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Icons
@@ -36,7 +48,7 @@ hIcon2 = LoadIcon(hinst, MAKEINTRESOURCE(460));
 
 
 
-An application should implement custom icons as resources and should use the [**LoadIcon**](loadicon.md) or [**LoadImage**](loadimage.md) function, rather than create the icons at run-time. This approach avoids device dependence, simplifies localization, and enables applications to share icon bitmaps. However, the following example uses [**CreateIcon**](createicon.md) to create a custom icon at run-time, based on bitmap bitmasks; it is included to illustrate how the system interprets icon bitmap bitmasks.
+An application should implement custom icons as resources and should use the [**LoadIcon**](/windows/win32/Winuser/nf-winuser-loadicona?branch=master) or [**LoadImage**](/windows/win32/Winuser/nf-winuser-loadimagea?branch=master) function, rather than create the icons at run-time. This approach avoids device dependence, simplifies localization, and enables applications to share icon bitmaps. However, the following example uses [**CreateIcon**](/windows/win32/Winuser/nf-winuser-createicon?branch=master) to create a custom icon at run-time, based on bitmap bitmasks; it is included to illustrate how the system interprets icon bitmap bitmasks.
 
 
 ```
@@ -138,7 +150,7 @@ hIcon3 = CreateIcon(hinst,    // application instance
 
 
 
-To create the icon, [**CreateIcon**](createicon.md) applies the following truth table to the AND and XOR bitmasks.
+To create the icon, [**CreateIcon**](/windows/win32/Winuser/nf-winuser-createicon?branch=master) applies the following truth table to the AND and XOR bitmasks.
 
 
 
@@ -153,7 +165,7 @@ To create the icon, [**CreateIcon**](createicon.md) applies the following truth 
 
  
 
-Before closing, your application must use [**DestroyIcon**](destroyicon.md) to destroy any icon it created by using [**CreateIconIndirect**](createiconindirect.md). It is not necessary to destroy icons created by other functions.
+Before closing, your application must use [**DestroyIcon**](/windows/win32/Winuser/nf-winuser-destroyicon?branch=master) to destroy any icon it created by using [**CreateIconIndirect**](/windows/win32/Winuser/nf-winuser-createiconindirect?branch=master). It is not necessary to destroy icons created by other functions.
 
 ## Displaying an Icon
 
@@ -190,7 +202,7 @@ For more information about window classes, see [Window Classes](https://msdn.mic
 
 ## Sharing Icon Resources
 
-The following code uses the functions [**CreateIconFromResourceEx**](createiconfromresourceex.md), [**DrawIcon**](drawicon.md), and [**LookupIconIdFromDirectoryEx**](lookupiconidfromdirectoryex.md), and several of the resource functions, to create an icon handle based on icon data from another executable file. Then, it displays the icon in a window.
+The following code uses the functions [**CreateIconFromResourceEx**](/windows/win32/Winuser/nf-winuser-createiconfromresourceex?branch=master), [**DrawIcon**](/windows/win32/Winuser/nf-winuser-drawicon?branch=master), and [**LookupIconIdFromDirectoryEx**](/windows/win32/Winuser/nf-winuser-lookupiconidfromdirectoryex?branch=master), and several of the resource functions, to create an icon handle based on icon data from another executable file. Then, it displays the icon in a window.
 
 **Security Warning:** Using [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
 

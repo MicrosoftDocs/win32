@@ -1,14 +1,20 @@
 ---
 title: MENUEX resource
 description: Defines the contents of a menu resource.
-ms.assetid: 'a83e1e78-2af4-4257-906e-7eb6d98bcbc8'
-keywords: ["MENUEX resource Menus and Other Resources"]
+ms.assetid: a83e1e78-2af4-4257-906e-7eb6d98bcbc8
+keywords:
+- MENUEX resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - MENUEX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MENUEX resource

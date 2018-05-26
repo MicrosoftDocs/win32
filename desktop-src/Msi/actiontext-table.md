@@ -1,7 +1,12 @@
 ---
-Description: 'The ActionText Table contains text to be displayed in a progress dialog box, and written to the log for actions that take a long time to execute. The displayed text consists of the action description and optionally formatted data from the action.'
-ms.assetid: '88d18422-77d0-4929-9341-d078843cb2a9'
+Description: The ActionText Table contains text to be displayed in a progress dialog box, and written to the log for actions that take a long time to execute. The displayed text consists of the action description and optionally formatted data from the action.
+ms.assetid: 88d18422-77d0-4929-9341-d078843cb2a9
 title: ActionText Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActionText Table
@@ -70,7 +75,7 @@ Typically, the entries in the ActionText table refer to actions in sequence tabl
 
  
 
-You can import a localized ActionText table into your database by using Msidb.exe or [**MsiDatabaseImport**](msidatabaseimport.md). The SDK includes a localized ActionText Table for each of the languages listed in the [Localizing the Error and ActionText Tables](localizing-the-error-and-actiontext-tables.md) section. If the ActionText table is not populated, the installer loads localized strings for the language specified by the [**ProductLanguage**](productlanguage.md) property.
+You can import a localized ActionText table into your database by using Msidb.exe or [**MsiDatabaseImport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseimporta?branch=master). The SDK includes a localized ActionText Table for each of the languages listed in the [Localizing the Error and ActionText Tables](localizing-the-error-and-actiontext-tables.md) section. If the ActionText table is not populated, the installer loads localized strings for the language specified by the [**ProductLanguage**](productlanguage.md) property.
 
 ## Validation
 

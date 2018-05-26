@@ -1,20 +1,25 @@
 ---
-Description: 'The FindPin method retrieves the pin with the specified identifier. This method implements the IBaseFilter::FindPin method.'
-ms.assetid: '152e4ff3-2809-4c57-b9c8-f51fc50b3703'
-title: 'CBaseFilter.FindPin method'
+Description: The FindPin method retrieves the pin with the specified identifier. This method implements the IBaseFilterFindPin method.
+ms.assetid: 152e4ff3-2809-4c57-b9c8-f51fc50b3703
+title: CBaseFilter.FindPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.FindPin method
 
-The `FindPin` method retrieves the pin with the specified identifier. This method implements the [**IBaseFilter::FindPin**](ibasefilter-findpin.md) method.
+The `FindPin` method retrieves the pin with the specified identifier. This method implements the [**IBaseFilter::FindPin**](/windows/win32/Strmif/nf-strmif-ibasefilter-findpin?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT FindPin(
-   LPCWSTR Id,
-   IPin    **ppPin
+   LPCWSTR Id,
+   IPin    **ppPin
 );
 ```
 
@@ -34,7 +39,7 @@ Pointer to a constant, null-terminated Unicode string that identifies the pin.
 *ppPin* 
 </dt> <dd>
 
-Address of a variable that receives a pointer to the pin's [**IPin**](ipin.md) interface.
+Address of a variable that receives a pointer to the pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 </dd> </dl>
 
@@ -52,7 +57,7 @@ Returns one of the following **HRESULT** values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,9 +83,9 @@ If the method succeeds, the **IPin** interface has an outstanding reference coun
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

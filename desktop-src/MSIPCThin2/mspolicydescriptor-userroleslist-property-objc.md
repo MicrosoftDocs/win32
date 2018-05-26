@@ -4,17 +4,21 @@ description: Roles granted to users for this policy.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '61F60D55-C500-4E21-A90E-A8EF9535653E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 61F60D55-C500-4E21-A90E-A8EF9535653E
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSPolicyDescriptor userRolesList property"]
+keywords:
+- MSPolicyDescriptor userRolesList property
 topic_type:
 - apiref
 api_name:
 - MSPolicyDescriptor userRolesList property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSPolicyDescriptor userRolesList property
@@ -37,7 +41,7 @@ Roles granted to users for this policy.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSPolicyDescriptor.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

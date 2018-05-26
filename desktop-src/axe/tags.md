@@ -1,14 +1,20 @@
 ---
 title: Tags element
 description: Contains one or more Tag elements.
-ms.assetid: '5BEDE81F-8F73-40D4-AEDF-C0CD97CEE4D9'
-keywords: ["Tags element Access Execution Engine"]
+ms.assetid: 5BEDE81F-8F73-40D4-AEDF-C0CD97CEE4D9
+keywords:
+- Tags element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Tags
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tags element
@@ -70,9 +76,9 @@ Tag
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

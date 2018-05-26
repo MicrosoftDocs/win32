@@ -1,12 +1,17 @@
 ---
-Description: 'For Windows 7, Windows Portable Devices supports the following attributes for methods of a device service. These attributes are returned by the IPortableDeviceServiceCapabilities::GetMethodAttributes method.'
-ms.assetid: 'b920e037-7737-4a18-b4f1-5c59e0a857dd'
+Description: For Windows 7, Windows Portable Devices supports the following attributes for methods of a device service. These attributes are returned by the IPortableDeviceServiceCapabilitiesGetMethodAttributes method.
+ms.assetid: b920e037-7737-4a18-b4f1-5c59e0a857dd
 title: Method Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Method Attributes
 
-For Windows 7, Windows Portable Devices supports the following attributes for methods of a device service. These attributes are returned by the [**IPortableDeviceServiceCapabilities::GetMethodAttributes**](iportabledeviceservicecapabilities-getmethodattributes.md) method.
+For Windows 7, Windows Portable Devices supports the following attributes for methods of a device service. These attributes are returned by the [**IPortableDeviceServiceCapabilities::GetMethodAttributes**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodattributes?branch=master) method.
 
 ## 
 
@@ -21,7 +26,7 @@ For Windows 7, Windows Portable Devices supports the following attributes for me
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -40,9 +45,9 @@ For Windows 7, Windows Portable Devices supports the following attributes for me
 [**Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

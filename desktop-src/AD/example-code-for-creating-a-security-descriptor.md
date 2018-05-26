@@ -4,11 +4,15 @@ description: This topic includes a Visual Basic code example that shows you how 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7c6dcdaf-0bef-4f72-bd9d-dc3ab4295008'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7c6dcdaf-0bef-4f72-bd9d-dc3ab4295008
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Creating a Security Descriptor"]
+keywords:
+- Example Code for Creating a Security Descriptor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Creating a Security Descriptor

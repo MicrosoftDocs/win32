@@ -1,7 +1,12 @@
 ---
 Description: Flushing
-ms.assetid: '366b6162-7a2c-4882-8774-8b4bf83012b4'
+ms.assetid: 366b6162-7a2c-4882-8774-8b4bf83012b4
 title: Flushing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flushing
@@ -12,8 +17,8 @@ Flushing is handled slightly differently by the pull model than the push model. 
 
 Flushing happens in two stages.
 
--   First, the source filter calls [**IPin::BeginFlush**](ipin-beginflush.md) on the downstream filter's input pin. The downstream filter starts rejecting samples from upstream. It also discards any samples it is holding, and sends the **BeginFlush** call downstream to the next filter.
--   When the source filter is ready to send new data, it calls [**IPin::EndFlush**](ipin-endflush.md) on the input pin. This signals the downstream filter that it can receive new samples. The downstream filter sends the **EndFlush** call to the next filter.
+-   First, the source filter calls [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) on the downstream filter's input pin. The downstream filter starts rejecting samples from upstream. It also discards any samples it is holding, and sends the **BeginFlush** call downstream to the next filter.
+-   When the source filter is ready to send new data, it calls [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) on the input pin. This signals the downstream filter that it can receive new samples. The downstream filter sends the **EndFlush** call to the next filter.
 
 In the **BeginFlush** method, the input pin does the following:
 
@@ -31,7 +36,7 @@ In the **EndFlush** method, the input pin does the following:
 
 At this point, the filter can accept samples again. All samples are guaranteed to be more recent than the flush.
 
-In the pull model, the parser filter initiates flushing, rather than the source filter. Not only does it call **IPin::BeginFlush** and **IPin::EndFlush** on the downstream filter, it also calls [**IAsyncReader::BeginFlush**](iasyncreader-beginflush.md) and [**IAsyncReader::EndFlush**](iasyncreader-endflush.md) on the *output* pin of the source filter. If the source filter has pending read requests, it will discard them.
+In the pull model, the parser filter initiates flushing, rather than the source filter. Not only does it call **IPin::BeginFlush** and **IPin::EndFlush** on the downstream filter, it also calls [**IAsyncReader::BeginFlush**](/windows/win32/Strmif/nf-strmif-iasyncreader-beginflush?branch=master) and [**IAsyncReader::EndFlush**](/windows/win32/Strmif/nf-strmif-iasyncreader-endflush?branch=master) on the *output* pin of the source filter. If the source filter has pending read requests, it will discard them.
 
 ## Related topics
 

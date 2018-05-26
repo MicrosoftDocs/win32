@@ -1,7 +1,12 @@
 ---
-Description: 'If this per-machine system policy is set to 1 (one), all Patch Optimization options are turned off during the installation.'
-ms.assetid: 'c36e7d20-20fb-4b8b-8fa7-dcb7895db7db'
+Description: If this per-machine system policy is set to 1 (one), all Patch Optimization options are turned off during the installation.
+ms.assetid: c36e7d20-20fb-4b8b-8fa7-dcb7895db7db
 title: DisableFlyWeightPatching
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisableFlyWeightPatching

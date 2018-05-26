@@ -1,8 +1,14 @@
 ---
 title: Messages
 description: This section contains messages for multitouch input.
-ms.assetid: 'cd4e140e-a0b8-494f-82d9-bc0bfba55ecd'
-keywords: ["Windows Touch,messages"]
+ms.assetid: cd4e140e-a0b8-494f-82d9-bc0bfba55ecd
+keywords:
+- Windows Touch,messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Messages

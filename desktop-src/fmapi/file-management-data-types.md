@@ -1,8 +1,14 @@
 ---
 title: File Management Data Types
 description: Used as a function parameter type.
-ms.assetid: 'ee199501-2f22-483b-8cab-f48921ecc40e'
-keywords: ["PFILE_RESTORE_CONTEXT"]
+ms.assetid: ee199501-2f22-483b-8cab-f48921ecc40e
+keywords:
+- PFILE_RESTORE_CONTEXT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Management Data Types
@@ -10,9 +16,9 @@ keywords: ["PFILE_RESTORE_CONTEXT"]
 The data type for File Management is used as a function parameter type.
 
 > [!Note]  
-> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
+> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
 
- 
+ 
 
 
 ```C++
@@ -40,14 +46,14 @@ Note that there is no associated header file for this data type.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

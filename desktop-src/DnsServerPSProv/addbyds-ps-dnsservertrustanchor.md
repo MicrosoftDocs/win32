@@ -2,13 +2,16 @@
 title: AddByDS method of the PS\_DnsServerTrustAnchor class
 description: Adds a trust anchor DNSKEY record. If there is no trust anchor zone present, the cmdlet should create one. If neither SecureEntryPoint nor ZoneSigningKey are specified, then the cmdlet creates a trust anchor with SEP bit set.
 audience: developer
-ms.assetid: '64167ef7-6e71-4e77-8e79-a300e381e992'
-ms.prod: 'windows-server-dev'
+ms.assetid: 64167ef7-6e71-4e77-8e79-a300e381e992
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByDS method", "AddByDS method, PS_DnsServerTrustAnchor class", "PS_DnsServerTrustAnchor class, AddByDS method"]
+keywords:
+- AddByDS method
+- AddByDS method, PS_DnsServerTrustAnchor class
+- PS_DnsServerTrustAnchor class, AddByDS method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByDS method of the PS\_DnsServerTrustAnchor class
@@ -28,14 +34,14 @@ Adds a trust anchor DNSKEY record. If there is no trust anchor zone present, the
 
 ```mof
 uint32 AddByDS(
-  [in]  string               Name,
-  [in]  string               ComputerName,
-  [in]  uint16               KeyTag,
-  [in]  string               DigestType,
-  [in]  string               Digest,
-  [in]  string               CryptoAlgorithm,
-  [in]  boolean              PassThru,
-  [out] DnsServerTrustAnchor cmdletOutput
+  [in]  string               Name,
+  [in]  string               ComputerName,
+  [in]  uint16               KeyTag,
+  [in]  string               DigestType,
+  [in]  string               Digest,
+  [in]  string               CryptoAlgorithm,
+  [in]  boolean              PassThru,
+  [out] DnsServerTrustAnchor cmdletOutput
 );
 ```
 
@@ -108,7 +114,7 @@ Receives an embedded instance of the [**DnsServerTrustAnchor**](dnsservertrustan
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -122,9 +128,9 @@ Receives an embedded instance of the [**DnsServerTrustAnchor**](dnsservertrustan
 [**PS\_DnsServerTrustAnchor**](ps-dnsservertrustanchor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,17 @@
 ---
 title: IMsRdpClientSecuredSettings AudioRedirectionMode property
-description: Specifies the audio redirection settings, which specify whether to redirect sounds or play sounds at the Remote Desktop Session Host (RD Session Host) server.
+description: Specifies the audio redirection settings, which specify whether to redirect sounds or play sounds at the Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6aa63a50-a714-4a9b-a4ec-c0551920467a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 6aa63a50-a714-4a9b-a4ec-c0551920467a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AudioRedirectionMode property Remote Desktop Services", "AudioRedirectionMode property Remote Desktop Services , IMsRdpClientSecuredSettings interface", "IMsRdpClientSecuredSettings interface Remote Desktop Services , AudioRedirectionMode property"]
+keywords:
+- AudioRedirectionMode property Remote Desktop Services
+- AudioRedirectionMode property Remote Desktop Services , IMsRdpClientSecuredSettings interface
+- IMsRdpClientSecuredSettings interface Remote Desktop Services , AudioRedirectionMode property
 topic_type:
 - apiref
 api_name:
@@ -19,11 +22,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientSecuredSettings::AudioRedirectionMode property
 
-Specifies the audio redirection settings, which specify whether to redirect sounds or play sounds at the Remote Desktop Session Host (RD Session Host) server.
+Specifies the audio redirection settings, which specify whether to redirect sounds or play sounds at the Remote Desktop Session Host (RD Session Host) server.
 
 This property is read/write.
 
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_AudioRedirectionMode(
-  [in]  LONG audioRedirectionMode
+  [in]  LONG audioRedirectionMode
 );
 
 HRESULT get_AudioRedirectionMode(
-  [out] LONG *paudioRedirectionMode
+  [out] LONG *paudioRedirectionMode
 );
 ```
 
@@ -87,8 +93,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                 |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>         |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>         |
 | IID<br/>                      | IID\_IMsRdpClientSecuredSettings is defined as 605befcf-39c1-45cc-a811-068fb7be346d<br/> |
@@ -102,9 +108,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

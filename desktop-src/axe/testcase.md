@@ -1,14 +1,20 @@
 ---
 title: TestCase element
 description: An individual test.
-ms.assetid: '8AD4BD72-9BE7-424E-8C01-303A5F8AA7DF'
-keywords: ["TestCase element Access Execution Engine"]
+ms.assetid: 8AD4BD72-9BE7-424E-8C01-303A5F8AA7DF
+keywords:
+- TestCase element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - TestCase
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCase element
@@ -76,9 +82,9 @@ There are no attributes.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

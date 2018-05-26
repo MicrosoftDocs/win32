@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter SetName
 description: IAgentCharacter SetName
-ms.assetid: '4944f910-60e9-446b-82e9-2794f445789a'
+ms.assetid: 4944f910-60e9-446b-82e9-2794f445789a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::SetName

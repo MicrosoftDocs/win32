@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the interface ID of an agile reference to an object.'
-ms.assetid: '627A7EE4-CFEF-47F6-BA99-51BEB78C5D55'
-title: 'IAgileReference::Resolve method'
+---
+Description: Gets the interface ID of an agile reference to an object.
+ms.assetid: 627A7EE4-CFEF-47F6-BA99-51BEB78C5D55
+title: IAgileReferenceResolve method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgileReference::Resolve method
@@ -55,7 +60,7 @@ This method can return one of these values.
 
 ## Remarks
 
-Call the [**RoGetAgileReference**](rogetagilereference.md) function to create an agile reference to an object. Call the **Resolve** method to localize the object into the apartment in which **Resolve** is called.
+Call the [**RoGetAgileReference**](/windows/win32/ComBaseApi/nf-combaseapi-rogetagilereference?branch=master) function to create an agile reference to an object. Call the **Resolve** method to localize the object into the apartment in which **Resolve** is called.
 
 ## Requirements
 
@@ -72,10 +77,10 @@ Call the [**RoGetAgileReference**](rogetagilereference.md) function to create an
 
 <dl> <dt>
 
-[**IAgileReference**](iagilereference.md)
+[**IAgileReference**](/windows/win32/objidl/nn-objidl-iagilereference?branch=master)
 </dt> <dt>
 
-[**RoGetAgileReference**](rogetagilereference.md)
+[**RoGetAgileReference**](/windows/win32/ComBaseApi/nf-combaseapi-rogetagilereference?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'The Active method notifies the pin that the filter is now active.'
-ms.assetid: '1054f8cf-a5fb-4de6-abf2-c3740ce47787'
-title: 'CBasePin.Active method'
+Description: The Active method notifies the pin that the filter is now active.
+ms.assetid: 1054f8cf-a5fb-4de6-abf2-c3740ce47787
+title: CBasePin.Active method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.Active method
@@ -51,9 +56,9 @@ The filter graph manager's internal state is not updated until after this member
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

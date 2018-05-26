@@ -1,8 +1,11 @@
 ---
 title: IWMPMediaCollection2 getByAttributeAndMediaType method
 description: The getByAttributeAndMediaType method returns an IWMPPlaylist interface that provides access to media items that have a specified attribute and media type.
-ms.assetid: 'dce9cef4-1d12-4bee-a75d-42274556c5bc'
-keywords: ["getByAttributeAndMediaType method Windows Media Player", "getByAttributeAndMediaType method Windows Media Player , IWMPMediaCollection2 interface", "IWMPMediaCollection2 interface Windows Media Player , getByAttributeAndMediaType method"]
+ms.assetid: dce9cef4-1d12-4bee-a75d-42274556c5bc
+keywords:
+- getByAttributeAndMediaType method Windows Media Player
+- getByAttributeAndMediaType method Windows Media Player , IWMPMediaCollection2 interface
+- IWMPMediaCollection2 interface Windows Media Player , getByAttributeAndMediaType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMediaCollection2::getByAttributeAndMediaType method
@@ -104,9 +112,9 @@ A **WMPLib.IWMPPlaylist** interface for the retrieved playlist.
 [**IWMPPlaylist Interface (VB and C#)**](iwmpplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Combo Box
 description: The Combo Box consists of a single-column list box that contains a collection of mutually exclusive items or Commands combined with a static or edit control and a drop-down arrow.
-ms.assetid: '6b7de2ec-dcb7-44cb-b01f-db1ba0643499'
+ms.assetid: 6b7de2ec-dcb7-44cb-b01f-db1ba0643499
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Combo Box
@@ -35,7 +40,7 @@ The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/w
 > [!Note]  
 > In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
 
- 
+ 
 
 The following table lists the property keys that are associated with the Combo Box control.
 
@@ -115,7 +120,7 @@ If the Command associated with the control is invalidated through a call to [<st
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -133,9 +138,9 @@ If the Command associated with the control is invalidated through a call to [<st
 [Gallery Sample](windowsribbon-gallerysample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

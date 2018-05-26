@@ -1,8 +1,9 @@
 ---
 title: ModeChange Event of the AxWindowsMediaPlayer Object
 description: The ModeChange event occurs when a mode of Windows Media Player is changed.
-ms.assetid: '56308425-dce5-4691-8970-c0807744abef'
-keywords: ["ModeChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 56308425-dce5-4691-8970-c0807744abef
+keywords:
+- ModeChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModeChange Event of the AxWindowsMediaPlayer Object
@@ -44,7 +50,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Mod
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,7 +65,7 @@ The following table shows the possible values for the modeName property.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,9 +92,9 @@ The following table shows the possible values for the modeName property.
 [**IWMPSettings.setMode (VB and C#)**](wmplibiwmpsettings-iwmpsettings-setmode--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

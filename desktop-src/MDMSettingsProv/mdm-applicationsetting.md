@@ -1,8 +1,10 @@
 ---
 title: MDM\_ApplicationSetting class
 description: Sets Windows modern application settings.
-ms.assetid: '3ebe024a-5150-4705-9e73-dbc78bb4a58b'
-keywords: ["MDM_ApplicationSetting class MDM Settings", "MDM_ApplicationSetting class MDM Settings , described"]
+ms.assetid: 3ebe024a-5150-4705-9e73-dbc78bb4a58b
+keywords:
+- MDM_ApplicationSetting class MDM Settings
+- MDM_ApplicationSetting class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_ApplicationSetting class
@@ -142,7 +149,7 @@ The setting value.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -157,9 +164,9 @@ The setting value.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

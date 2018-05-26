@@ -1,7 +1,12 @@
 ---
 Description: WavSink Sample
-ms.assetid: '9e1af25f-d55c-45db-8c76-abf814e16700'
+ms.assetid: 9e1af25f-d55c-45db-8c76-abf814e16700
 title: WavSink Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WavSink Sample
@@ -12,11 +17,11 @@ Shows how to implement a custom media sink in Microsoft Media Foundation. The sa
 
 This sample demonstrates the following Media Foundation interfaces:
 
--   [**IMFClockStateSink**](imfclockstatesink.md)
--   [**IMFFinalizableMediaSink**](imffinalizablemediasink.md)
--   [**IMFMediaSink**](imfmediasink.md)
--   [**IMFMediaTypeHandler**](imfmediatypehandler.md)
--   [**IMFStreamSink**](imfstreamsink.md)
+-   [**IMFClockStateSink**](/windows/win32/mfidl/nn-mfidl-imfclockstatesink?branch=master)
+-   [**IMFFinalizableMediaSink**](/windows/win32/mfidl/nn-mfidl-imffinalizablemediasink?branch=master)
+-   [**IMFMediaSink**](/windows/win32/mfidl/nn-mfidl-imfmediasink?branch=master)
+-   [**IMFMediaTypeHandler**](/windows/win32/mfidl/nn-mfidl-imfmediatypehandler?branch=master)
+-   [**IMFStreamSink**](/windows/win32/mfidl/nn-mfidl-imfstreamsink?branch=master)
 
 ## Usage
 

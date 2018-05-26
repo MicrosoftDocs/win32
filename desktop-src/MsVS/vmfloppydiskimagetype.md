@@ -1,8 +1,9 @@
 ---
 title: VMFloppyDiskImageType enumeration
 description: The VMFloppyDiskImageType enumeration specifies a floppy disk format.
-ms.assetid: '2952527e-abac-4003-8afb-97c5cff0151a'
-keywords: ["VMFloppyDiskImageType enumeration Virtual Server"]
+ms.assetid: 2952527e-abac-4003-8afb-97c5cff0151a
+keywords:
+- VMFloppyDiskImageType enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMFloppyDiskImageType enumeration
@@ -22,13 +28,13 @@ The **VMFloppyDiskImageType** enumeration specifies a floppy disk format.
 
 ```C++
 typedef enum  { 
-  vmFloppyDiskImage_Unknown                = 0,
-  vmFloppyDiskImage_LowDensity             = 1,
-  vmFloppyDiskImage_HighDensity            = 2,
-  vmFloppyDiskImage_DMF                    = 3,
-  vmFloppyDiskImage_LowDensitySingleSided  = 4,
-  vmFloppyDiskImage_MediumDensity          = 5,
-  vmFloppyDiskImage_HighDensityMSS         = 6
+  vmFloppyDiskImage_Unknown                = 0,
+  vmFloppyDiskImage_LowDensity             = 1,
+  vmFloppyDiskImage_HighDensity            = 2,
+  vmFloppyDiskImage_DMF                    = 3,
+  vmFloppyDiskImage_LowDensitySingleSided  = 4,
+  vmFloppyDiskImage_MediumDensity          = 5,
+  vmFloppyDiskImage_HighDensityMSS         = 6
 } VMFloppyDiskImageType;
 ```
 
@@ -93,15 +99,15 @@ High-density Multiple Sector Size (MSS), used by eXtensible Data Format (XDF).
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

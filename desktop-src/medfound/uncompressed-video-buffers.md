@@ -1,7 +1,12 @@
 ---
 Description: Uncompressed Video Buffers
-ms.assetid: 'be5ec8a8-2d0b-401b-9d05-fdb87ad8c864'
+ms.assetid: be5ec8a8-2d0b-401b-9d05-fdb87ad8c864
 title: Uncompressed Video Buffers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uncompressed Video Buffers
@@ -9,12 +14,12 @@ title: Uncompressed Video Buffers
 This article describes how to work with media buffers that contain uncompressed video frames. In order of preference, the following options are available. Not every media buffer supports each option.
 
 1.  Use the underlying Direct3D surface. (Applies only to video frames stored in Direct3D surfaces.)
-2.  Use the [**IMF2DBuffer**](imf2dbuffer.md) interface.
-3.  Use the [**IMFMediaBuffer**](imfmediabuffer.md) interface.
+2.  Use the [**IMF2DBuffer**](/windows/win32/mfobjects/nn-mfobjects-imf2dbuffer?branch=master) interface.
+3.  Use the [**IMFMediaBuffer**](/windows/win32/mfobjects/nn-mfobjects-imfmediabuffer?branch=master) interface.
 
 ## Use the Underlying Direct3D Surface
 
-The video frame might be stored inside a Direct3D surface. If so, you can get a pointer to the surface by calling [**IMFGetService::GetService**](imfgetservice-getservice.md) or [**MFGetService**](mfgetservice.md) on the media buffer object. Use the service identifier MR\_BUFFER\_SERVICE. This approach is recommended when the component accessing the video frame is designed to use Direct3D. For example, a video decoder that supports DirectX Video Acceleration should use this approach.
+The video frame might be stored inside a Direct3D surface. If so, you can get a pointer to the surface by calling [**IMFGetService::GetService**](/windows/win32/mfidl/nf-mfidl-imfgetservice-getservice?branch=master) or [**MFGetService**](/windows/win32/mfidl/nf-mfidl-mfgetservice?branch=master) on the media buffer object. Use the service identifier MR\_BUFFER\_SERVICE. This approach is recommended when the component accessing the video frame is designed to use Direct3D. For example, a video decoder that supports DirectX Video Acceleration should use this approach.
 
 The following code shows how to get the **IDirect3DSurface9** pointer from a media buffer.
 
@@ -44,29 +49,29 @@ The following objects support the **MR\_BUFFER\_SERVICE** service:
 
 ## Use the IMF2DBuffer Interface
 
-If the video frame is not stored inside a Direct3D surface, or the component is not designed to use Direct3D, the next recommended way to access the video frame is to query the buffer for the [**IMF2DBuffer**](imf2dbuffer.md) interface. This interface is designed specifically for image data. To get a pointer to this interface, call **QueryInterface** on the media buffer. Not all media buffer objects expose this interface. But if a media buffer does expose the **IMF2DBuffer** interface, you should use that interface to access the data, if possible, rather than using [**IMFMediaBuffer**](imfmediabuffer.md). You can still use the **IMFMediaBuffer** interface, but it might be less efficient.
+If the video frame is not stored inside a Direct3D surface, or the component is not designed to use Direct3D, the next recommended way to access the video frame is to query the buffer for the [**IMF2DBuffer**](/windows/win32/mfobjects/nn-mfobjects-imf2dbuffer?branch=master) interface. This interface is designed specifically for image data. To get a pointer to this interface, call **QueryInterface** on the media buffer. Not all media buffer objects expose this interface. But if a media buffer does expose the **IMF2DBuffer** interface, you should use that interface to access the data, if possible, rather than using [**IMFMediaBuffer**](/windows/win32/mfobjects/nn-mfobjects-imfmediabuffer?branch=master). You can still use the **IMFMediaBuffer** interface, but it might be less efficient.
 
-1.  Call **QueryInterface** on the media buffer to get the [**IMF2DBuffer**](imf2dbuffer.md) interface.
-2.  Call [**IMF2DBuffer::Lock2D**](imf2dbuffer-lock2d.md) to access the memory for the buffer. This method returns a pointer to the first byte of the top row of pixels. It also returns the image stride, which is the number of bytes from the start of a row of pixels to the start of the next row. The buffer might contain padding bytes after each row of pixels, so the stride might be wider than the image width in bytes. Stride can also be negative if the image is oriented bottom-up in memory. For more information, see [Image Stride](image-stride.md).
-3.  Keep the buffer locked only while you need to access the memory. Unlock the buffer by calling [**IMF2DBuffer::Unlock2D**](imf2dbuffer-unlock2d.md).
+1.  Call **QueryInterface** on the media buffer to get the [**IMF2DBuffer**](/windows/win32/mfobjects/nn-mfobjects-imf2dbuffer?branch=master) interface.
+2.  Call [**IMF2DBuffer::Lock2D**](/windows/win32/mfobjects/nf-mfobjects-imf2dbuffer-lock2d?branch=master) to access the memory for the buffer. This method returns a pointer to the first byte of the top row of pixels. It also returns the image stride, which is the number of bytes from the start of a row of pixels to the start of the next row. The buffer might contain padding bytes after each row of pixels, so the stride might be wider than the image width in bytes. Stride can also be negative if the image is oriented bottom-up in memory. For more information, see [Image Stride](image-stride.md).
+3.  Keep the buffer locked only while you need to access the memory. Unlock the buffer by calling [**IMF2DBuffer::Unlock2D**](/windows/win32/mfobjects/nf-mfobjects-imf2dbuffer-unlock2d?branch=master).
 
-Not every media buffer implements the [**IMF2DBuffer**](imf2dbuffer.md) interface. If the media buffer does not implement this interface (that is, the buffer object returns E\_NOINTERFACE in step 1), you must use the [**IMFMediaBuffer**](imfmediabuffer.md) interface interface, described next.
+Not every media buffer implements the [**IMF2DBuffer**](/windows/win32/mfobjects/nn-mfobjects-imf2dbuffer?branch=master) interface. If the media buffer does not implement this interface (that is, the buffer object returns E\_NOINTERFACE in step 1), you must use the [**IMFMediaBuffer**](/windows/win32/mfobjects/nn-mfobjects-imfmediabuffer?branch=master) interface interface, described next.
 
 ## Use the IMFMediaBuffer Interface
 
-If a media buffer does not expose the [**IMF2DBuffer**](imf2dbuffer.md) interface, use the [**IMFMediaBuffer**](imfmediabuffer.md) interface. The general semantics of this interface are described in the topic [Working with Media Buffers](working-with-media-buffers.md).
+If a media buffer does not expose the [**IMF2DBuffer**](/windows/win32/mfobjects/nn-mfobjects-imf2dbuffer?branch=master) interface, use the [**IMFMediaBuffer**](/windows/win32/mfobjects/nn-mfobjects-imfmediabuffer?branch=master) interface. The general semantics of this interface are described in the topic [Working with Media Buffers](working-with-media-buffers.md).
 
-1.  Call **QueryInterface** on the media buffer to get the [**IMFMediaBuffer**](imfmediabuffer.md) interface.
-2.  Call [**IMFMediaBuffer::Lock**](imfmediabuffer-lock.md) to access the buffer memory. This method returns a pointer to the buffer memory. When the **Lock** method is used, the stride is always the minimum stride for the video format in question, with no extra padding bytes.
-3.  Keep the buffer locked only while you need to access the memory. Unlock the buffer by calling [**IMFMediaBuffer::Unlock**](imfmediabuffer-unlock.md).
+1.  Call **QueryInterface** on the media buffer to get the [**IMFMediaBuffer**](/windows/win32/mfobjects/nn-mfobjects-imfmediabuffer?branch=master) interface.
+2.  Call [**IMFMediaBuffer::Lock**](/windows/win32/mfobjects/nf-mfobjects-imfmediabuffer-lock?branch=master) to access the buffer memory. This method returns a pointer to the buffer memory. When the **Lock** method is used, the stride is always the minimum stride for the video format in question, with no extra padding bytes.
+3.  Keep the buffer locked only while you need to access the memory. Unlock the buffer by calling [**IMFMediaBuffer::Unlock**](/windows/win32/mfobjects/nf-mfobjects-imfmediabuffer-unlock?branch=master).
 
-You should always avoid calling [**IMFMediaBuffer::Lock**](imfmediabuffer-lock.md) if the buffer exposes [**IMF2DBuffer**](imf2dbuffer.md), because the **Lock** method can force the buffer object to the video frame into a contiguous memory block and then back again. On the other hand, if the buffer does not support **IMF2DBuffer**, then **IMFMediaBuffer::Lock** will probably not result in a copy.
+You should always avoid calling [**IMFMediaBuffer::Lock**](/windows/win32/mfobjects/nf-mfobjects-imfmediabuffer-lock?branch=master) if the buffer exposes [**IMF2DBuffer**](/windows/win32/mfobjects/nn-mfobjects-imf2dbuffer?branch=master), because the **Lock** method can force the buffer object to the video frame into a contiguous memory block and then back again. On the other hand, if the buffer does not support **IMF2DBuffer**, then **IMFMediaBuffer::Lock** will probably not result in a copy.
 
 Calculate the minimum stride from the media type as follows:
 
 -   The minimum stride might be stored in the [**MF\_MT\_DEFAULT\_STRIDE**](mf-mt-default-stride-attribute.md) attribute.
--   If the **MF\_MT\_DEFAULT\_STRIDE** attribute is not set, call the [**MFGetStrideForBitmapInfoHeader**](mfgetstrideforbitmapinfoheader.md) function to calculate the stride for most common video formats.
--   If the [**MFGetStrideForBitmapInfoHeader**](mfgetstrideforbitmapinfoheader.md) function does not recognize the format, you must calculate the stride based on the definition of the format. In that case, there is no general rule; you need to know the details of the format definition.
+-   If the **MF\_MT\_DEFAULT\_STRIDE** attribute is not set, call the [**MFGetStrideForBitmapInfoHeader**](/windows/win32/mfapi/nf-mfapi-mfgetstrideforbitmapinfoheader?branch=master) function to calculate the stride for most common video formats.
+-   If the [**MFGetStrideForBitmapInfoHeader**](/windows/win32/mfapi/nf-mfapi-mfgetstrideforbitmapinfoheader?branch=master) function does not recognize the format, you must calculate the stride based on the definition of the format. In that case, there is no general rule; you need to know the details of the format definition.
 
 The following code shows how to get the default stride for the most common video formats.
 
@@ -122,9 +127,9 @@ done:
 
 
 
-Depending on your application, you might know in advance whether a given media buffer supports [**IMF2DBuffer**](imf2dbuffer.md) (for example, if you created the buffer). Otherwise, you must be prepared to use either of the two buffer interfaces.
+Depending on your application, you might know in advance whether a given media buffer supports [**IMF2DBuffer**](/windows/win32/mfobjects/nn-mfobjects-imf2dbuffer?branch=master) (for example, if you created the buffer). Otherwise, you must be prepared to use either of the two buffer interfaces.
 
-The following example shows a helper class that hides some of these details. This class has a LockBuffer method that calls either [**Lock2D**](imf2dbuffer-lock2d.md) or [**Lock**](imfmediabuffer-lock.md) and returns a pointer to the start of the first row of pixels. (This behavior matches the **Lock2D** method.) The LockBuffer method takes the default stride as an input parameter and returns the actual stride as an output parameter.
+The following example shows a helper class that hides some of these details. This class has a LockBuffer method that calls either [**Lock2D**](/windows/win32/mfobjects/nf-mfobjects-imf2dbuffer-lock2d?branch=master) or [**Lock**](/windows/win32/mfobjects/nf-mfobjects-imfmediabuffer-lock?branch=master) and returns a pointer to the start of the first row of pixels. (This behavior matches the **Lock2D** method.) The LockBuffer method takes the default stride as an input parameter and returns the actual stride as an output parameter.
 
 
 ```C++

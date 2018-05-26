@@ -1,8 +1,19 @@
 ---
 title: Task Actions
 description: The work items performed by a task are called actions. A task can have a single action or a maximum of 32 actions. Be aware that when multiple actions are specified, they are executed sequentially.
-ms.assetid: '4cbe739d-4c4e-4469-8289-4be41b93950c'
-keywords: ["actions Task Scheduler", "actions Task Scheduler , described", "actions Task Scheduler , execute action", "actions Task Scheduler , COM handler action", "execute action Task Scheduler", "COM Handler action Task Scheduler"]
+ms.assetid: 4cbe739d-4c4e-4469-8289-4be41b93950c
+keywords:
+- actions Task Scheduler
+- actions Task Scheduler , described
+- actions Task Scheduler , execute action
+- actions Task Scheduler , COM handler action
+- execute action Task Scheduler
+- COM Handler action Task Scheduler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Actions
@@ -22,7 +33,7 @@ The following table of actions describes the type of work or actions that can be
 
 
 
- 
+ 
 
 ## Specifying Actions
 
@@ -36,16 +47,16 @@ For more information and examples about how to use the Task Scheduler interfaces
 
 | API                                                                    | Description                                                  |
 |------------------------------------------------------------------------|--------------------------------------------------------------|
-| [**Actions Property of ITaskDefinition**](itaskdefinition-actions.md) | Gets or sets the actions performed by the task.              |
-| [**IActionCollection**](iactioncollection.md)                         | Contains the actions performed by the task.                  |
-| [**IComHandlerAction**](icomhandleraction.md)                         | Represents an action that fires a handler.                   |
-| [**IExecAction**](iexecaction.md)                                     | Represents an action that executes a command-line operation. |
-| [**IEmailAction**](iemailaction.md)                                   | Represents an action that sends an email message.            |
-| [**IShowMessageAction**](ishowmessageaction.md)                       | Represents an action that shows a message box.               |
+| [**Actions Property of ITaskDefinition**](/windows/win32/taskschd/nf-taskschd-itaskdefinition-get_actions?branch=master) | Gets or sets the actions performed by the task.              |
+| [**IActionCollection**](/windows/win32/taskschd/nn-taskschd-iactioncollection?branch=master)                         | Contains the actions performed by the task.                  |
+| [**IComHandlerAction**](/windows/win32/taskschd/nn-taskschd-icomhandleraction?branch=master)                         | Represents an action that fires a handler.                   |
+| [**IExecAction**](/windows/win32/taskschd/nn-taskschd-iexecaction?branch=master)                                     | Represents an action that executes a command-line operation. |
+| [**IEmailAction**](/windows/win32/taskschd/nn-taskschd-iemailaction?branch=master)                                   | Represents an action that sends an email message.            |
+| [**IShowMessageAction**](/windows/win32/taskschd/nn-taskschd-ishowmessageaction?branch=master)                       | Represents an action that shows a message box.               |
 
 
 
- 
+ 
 
 ### Scripting Object APIs for Scripting Development
 
@@ -62,7 +73,7 @@ For more information and examples about how to use the Task Scheduler interfaces
 
 
 
- 
+ 
 
 ### XML Elements
 
@@ -78,11 +89,11 @@ For more information and examples about how to use the Task Scheduler interfaces
 
 
 
- 
+ 
 
 ## Using Variables in Action Properties
 
-Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), ..., $(Arg32) variables in their string values. These variables are replaced with the values that are specified in the *params* parameter of the [**IRegisteredTask::Run**](iregisteredtask-run.md) and [**IRegisteredTask::RunEx**](iregisteredtask-runex.md) methods or are contained within the event trigger for the task. The following table lists the action properties that can use variables in their string values.
+Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), ..., $(Arg32) variables in their string values. These variables are replaced with the values that are specified in the *params* parameter of the [**IRegisteredTask::Run**](/windows/win32/taskschd/nf-taskschd-iregisteredtask-run?branch=master) and [**IRegisteredTask::RunEx**](/windows/win32/taskschd/nf-taskschd-iregisteredtask-runex?branch=master) methods or are contained within the event trigger for the task. The following table lists the action properties that can use variables in their string values.
 
 <table>
 <colgroup>
@@ -100,8 +111,8 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 <td>COM Handler Action</td>
 <td>C++:
 <ul>
-<li>[<strong>ClassId Property of IComHandlerAction</strong>](icomhandleraction-classid.md)</li>
-<li>[<strong>Data Property of IComHandlerAction</strong>](icomhandleraction-data.md)</li>
+<li>[<strong>ClassId Property of IComHandlerAction</strong>](/windows/win32/taskschd/nf-taskschd-icomhandleraction-get_classid?branch=master)</li>
+<li>[<strong>Data Property of IComHandlerAction</strong>](/windows/win32/taskschd/nf-taskschd-icomhandleraction-get_data?branch=master)</li>
 </ul>
 <br/> Scripting:
 <ul>
@@ -114,14 +125,14 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 <td>Email Action</td>
 <td>C++:
 <ul>
-<li>[<strong>Body Property of IEmailAction</strong>](iemailaction-body.md)</li>
-<li>[<strong>Server Property of IEmailAction</strong>](iemailaction-server.md)</li>
-<li>[<strong>Subject Property of IEmailAction</strong>](iemailaction-subject.md)</li>
-<li>[<strong>To Property of IEmailAction</strong>](iemailaction-to.md)</li>
-<li>[<strong>Cc Property of IEmailAction</strong>](iemailaction-cc.md)</li>
-<li>[<strong>Bcc Property of IEmailAction</strong>](iemailaction-bcc.md)</li>
-<li>[<strong>ReplyTo Property of IEmailAction</strong>](iemailaction-replyto.md)</li>
-<li>[<strong>From Property of IEmailAction</strong>](iemailaction-from.md)</li>
+<li>[<strong>Body Property of IEmailAction</strong>](/windows/win32/taskschd/nf-taskschd-iemailaction-get_body?branch=master)</li>
+<li>[<strong>Server Property of IEmailAction</strong>](/windows/win32/taskschd/nf-taskschd-iemailaction-get_server?branch=master)</li>
+<li>[<strong>Subject Property of IEmailAction</strong>](/windows/win32/taskschd/nf-taskschd-iemailaction-get_subject?branch=master)</li>
+<li>[<strong>To Property of IEmailAction</strong>](/windows/win32/taskschd/nf-taskschd-iemailaction-get_to?branch=master)</li>
+<li>[<strong>Cc Property of IEmailAction</strong>](/windows/win32/taskschd/nf-taskschd-iemailaction-get_cc?branch=master)</li>
+<li>[<strong>Bcc Property of IEmailAction</strong>](/windows/win32/taskschd/nf-taskschd-iemailaction-get_bcc?branch=master)</li>
+<li>[<strong>ReplyTo Property of IEmailAction</strong>](/windows/win32/taskschd/nf-taskschd-iemailaction-get_replyto?branch=master)</li>
+<li>[<strong>From Property of IEmailAction</strong>](/windows/win32/taskschd/nf-taskschd-iemailaction-get_from?branch=master)</li>
 </ul>
 <br/> Scripting:
 <ul>
@@ -140,8 +151,8 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 <td>Exec Action</td>
 <td>C++:
 <ul>
-<li>[<strong>Arguments Property of IExecAction</strong>](iexecaction-arguments.md)</li>
-<li>[<strong>WorkingDirectory Property of IExecAction</strong>](iexecaction-workingdirectory.md)</li>
+<li>[<strong>Arguments Property of IExecAction</strong>](/windows/win32/taskschd/nf-taskschd-iexecaction-get_arguments?branch=master)</li>
+<li>[<strong>WorkingDirectory Property of IExecAction</strong>](/windows/win32/taskschd/nf-taskschd-iexecaction-get_workingdirectory?branch=master)</li>
 </ul>
 <br/> Scripting:
 <ul>
@@ -154,8 +165,8 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 <td>Show Message Action</td>
 <td>C++:
 <ul>
-<li>[<strong>Title Property of IShowMessageAction</strong>](ishowmessageaction-title.md)</li>
-<li>[<strong>MessageBody Property of IShowMessageAction</strong>](ishowmessageaction-messagebody.md)</li>
+<li>[<strong>Title Property of IShowMessageAction</strong>](/windows/win32/taskschd/nf-taskschd-ishowmessageaction-get_title?branch=master)</li>
+<li>[<strong>MessageBody Property of IShowMessageAction</strong>](/windows/win32/taskschd/nf-taskschd-ishowmessageaction-get_messagebody?branch=master)</li>
 </ul>
 <br/> Scripting:
 <ul>
@@ -169,7 +180,7 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -178,9 +189,9 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 [About The Task Scheduler](about-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

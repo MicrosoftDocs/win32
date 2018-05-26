@@ -1,7 +1,12 @@
 ---
 title: Size Attribute (VMLFrame)
 description: Size Attribute (VMLFrame)
-ms.assetid: '95d953fa-cbe2-4ebc-9b23-408347232fee'
+ms.assetid: 95d953fa-cbe2-4ebc-9b23-408347232fee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Size Attribute (VMLFrame)

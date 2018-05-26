@@ -4,11 +4,15 @@ description: Managing resource instances using the Failover Cluster API.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '46b2b3c4-2e14-425e-8ebb-521334e1e066'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 46b2b3c4-2e14-425e-8ebb-521334e1e066
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource DLLs Failover Cluster ,managing resource instances"]
+keywords:
+- resource DLLs Failover Cluster ,managing resource instances
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Managing Instances

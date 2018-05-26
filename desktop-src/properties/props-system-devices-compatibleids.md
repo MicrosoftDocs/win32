@@ -1,7 +1,12 @@
 ---
-Description: 'Compatible Ids.'
-ms.assetid: '9777a229-3e40-4a3d-9965-61a1e3ec3aef'
-title: 'System.Devices.CompatibleIds'
+Description: Compatible Ids.
+ms.assetid: 9777a229-3e40-4a3d-9965-61a1e3ec3aef
+title: System.Devices.CompatibleIds
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.CompatibleIds

@@ -1,7 +1,12 @@
 ---
 Description: Media Foundation Programming Guide
-ms.assetid: '5258b2ff-96d5-490f-9a18-c01dd6924f1c'
+ms.assetid: 5258b2ff-96d5-490f-9a18-c01dd6924f1c
 title: Media Foundation Programming Guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Foundation Programming Guide

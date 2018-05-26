@@ -1,7 +1,12 @@
 ---
 title: Parameters from Internet Data Query Files
 description: Parameters from Internet Data Query Files
-ms.assetid: 'db0c59fe-a14e-4745-89ec-5d40280a5821'
+ms.assetid: db0c59fe-a14e-4745-89ec-5d40280a5821
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameters from Internet Data Query Files

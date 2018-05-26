@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a handle to an OCSP response associated with a server certificate chain.'
-ms.assetid: 'baf173f1-99dc-49f9-9a17-fee79b393db7'
-title: 'HCERT\_SERVER\_OCSP\_RESPONSE'
+---
+Description: Represents a handle to an OCSP response associated with a server certificate chain.
+ms.assetid: baf173f1-99dc-49f9-9a17-fee79b393db7
+title: HCERT\_SERVER\_OCSP\_RESPONSE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HCERT\_SERVER\_OCSP\_RESPONSE
@@ -10,10 +15,10 @@ The **HCERT\_SERVER\_OCSP\_RESPONSE** data type represents a handle to an OCSP r
 
 This type is used by the following APIs.
 
--   [**CertOpenServerOcspResponse**](certopenserverocspresponse.md)
--   [**CertAddRefServerOcspResponse**](certaddrefserverocspresponse.md)
--   [**CertCloseServerOcspResponse**](certcloseserverocspresponse.md)
--   [**CertGetServerOcspResponseContext**](certgetserverocspresponsecontext.md)
+-   [**CertOpenServerOcspResponse**](/windows/win32/Wincrypt/nf-wincrypt-certopenserverocspresponse?branch=master)
+-   [**CertAddRefServerOcspResponse**](/windows/win32/Wincrypt/nf-wincrypt-certaddrefserverocspresponse?branch=master)
+-   [**CertCloseServerOcspResponse**](/windows/win32/Wincrypt/nf-wincrypt-certcloseserverocspresponse?branch=master)
+-   [**CertGetServerOcspResponseContext**](/windows/win32/Wincrypt/nf-wincrypt-certgetserverocspresponsecontext?branch=master)
 
 
 ```C++

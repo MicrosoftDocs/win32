@@ -1,7 +1,12 @@
 ---
 title: Handling Service-Defined Events
 description: A Service object makes available all of the properties and methods that have been defined for the service that it represents, and it also makes available any service-defined events.
-ms.assetid: 'a12beb30-a89b-4d3d-8794-8b71c924467c'
+ms.assetid: a12beb30-a89b-4d3d-8794-8b71c924467c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Service-Defined Events

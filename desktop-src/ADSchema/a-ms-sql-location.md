@@ -4,17 +4,22 @@ description: A user defined string. Default is set to Location.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e0d8a83f-a979-49a8-a92d-842c18c8f9fd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e0d8a83f-a979-49a8-a92d-842c18c8f9fd
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-SQL-Location attribute AD Schema", "mS-SQL-Location attribute AD Schema"]
+keywords:
+- MS-SQL-Location attribute AD Schema
+- mS-SQL-Location attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-SQL-Location
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-SQL-Location attribute
@@ -38,12 +43,12 @@ A user defined string. Default is set to Location.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ A user defined string. Default is set to Location.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

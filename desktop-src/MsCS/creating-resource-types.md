@@ -4,11 +4,15 @@ description: One of the most common programming tasks for failover clusters is t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'de3569ef-ee74-457e-b672-00e22ee8154c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: de3569ef-ee74-457e-b672-00e22ee8154c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,creating"]
+keywords:
+- resource types Failover Cluster ,creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Resource Types

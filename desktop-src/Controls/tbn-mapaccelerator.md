@@ -1,8 +1,9 @@
 ---
 title: TBN\_MAPACCELERATOR notification code
 description: Requests the index of the button in the toolbar corresponding to the specified accelerator character. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '16d16560-62ef-4457-bf8c-bc6dddb520d7'
-keywords: ["TBN_MAPACCELERATOR notification code Windows Controls"]
+ms.assetid: 16d16560-62ef-4457-bf8c-bc6dddb520d7
+keywords:
+- TBN_MAPACCELERATOR notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_MAPACCELERATOR notification code
@@ -33,7 +39,7 @@ TBN_MAPACCELERATOR
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMCHAR**](nmchar.md) structure that contains the accelerator key character and that receives the index of the corresponding button. The **dwItemNext** field is -1 if the accelerator does not correspond to a command.
+A pointer to an [**NMCHAR**](/windows/win32/Commctrl/ns-commctrl-tagnmchar?branch=master) structure that contains the accelerator key character and that receives the index of the corresponding button. The **dwItemNext** field is -1 if the accelerator does not correspond to a command.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ TRUE if **NMCHAR.dwItemNext** is set to a value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A thread pool is a collection of worker threads that efficiently execute asynchronous callbacks on behalf of the application.'
-ms.assetid: 'abe0798a-0b60-4bdb-a61e-45393f1e958d'
+Description: A thread pool is a collection of worker threads that efficiently execute asynchronous callbacks on behalf of the application.
+ms.assetid: abe0798a-0b60-4bdb-a61e-45393f1e958d
 title: Thread Pools
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thread Pools
@@ -34,7 +39,7 @@ The new [thread pool API](thread-pool-api.md) provides more flexibility and cont
 
 The following are best practices when using a thread pool:
 
--   The threads of a process share the thread pool. A single worker thread can execute multiple callback functions, one at a time. These worker threads are managed by the thread pool. Therefore, do not terminate a thread from the thread pool by calling [**TerminateThread**](terminatethread.md) on the thread or by calling [**ExitThread**](exitthread.md) from a callback function.
+-   The threads of a process share the thread pool. A single worker thread can execute multiple callback functions, one at a time. These worker threads are managed by the thread pool. Therefore, do not terminate a thread from the thread pool by calling [**TerminateThread**](/windows/win32/WinBase/nf-processthreadsapi-terminatethread?branch=master) on the thread or by calling [**ExitThread**](/windows/win32/WinBase/nf-processthreadsapi-exitthread?branch=master) from a callback function.
 -   An I/O request can run on any thread in the thread pool. Canceling I/O on a thread pool thread requires synchronization because the cancel function might run on a different thread than the one that is handling the I/O request, which can result in cancellation of an unknown operation. To avoid this, always provide the [**OVERLAPPED**](base.overlapped_str) structure with which an I/O request was initiated when calling [**CancelIoEx**](fs.cancelioex_func) for asynchronous I/O, or use your own synchronization to ensure that no other I/O can be started on the target thread before calling either the [**CancelSynchronousIo**](fs.cancelsynchronousio_func) or **CancelIoEx** function.
 -   Clean up all resources created in the callback function before returning from the function. These include TLS, security contexts, thread priority, and COM registration. Callback functions must also restore the thread state before returning.
 -   Keep wait handles and their associated objects alive until the thread pool has signaled that it is finished with the handle.

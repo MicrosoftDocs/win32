@@ -1,7 +1,12 @@
 ---
 title: Translating to JScript from JavaScript
 description: Translating to JScript from JavaScript
-ms.assetid: '86067a69-a6a1-474f-b8d8-85caf384a311'
+ms.assetid: 86067a69-a6a1-474f-b8d8-85caf384a311
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating to JScript from JavaScript

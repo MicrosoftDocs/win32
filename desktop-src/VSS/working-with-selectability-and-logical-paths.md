@@ -1,14 +1,19 @@
 ---
-Description: 'A writer''s participation in a backup or restore operation, and which of its data are saved, depends on which of its components are explicitly included as part of a requester''s Backup Components Document and the relationship between those components and the logical path of other components within the Writer Metadata Document.'
-ms.assetid: 'e8920cca-d944-437f-bf6a-7ce8d518746a'
+Description: A writers participation in a backup or restore operation, and which of its data are saved, depends on which of its components are explicitly included as part of a requesters Backup Components Document and the relationship between those components and the logical path of other components within the Writer Metadata Document.
+ms.assetid: e8920cca-d944-437f-bf6a-7ce8d518746a
 title: Working with Selectability and Logical Paths
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Selectability and Logical Paths
 
 A writer's participation in a backup or restore operation, and which of its data are saved, depends on which of its components are [*explicitly included*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion) as part of a requester's Backup Components Document and the relationship between those components and the logical path of other components within the Writer Metadata Document.
 
-Writers with no components added to a requester's Backup Component Document prior to the generation of a [*PrepareForBackup*](vssgloss-p.md#base-vssgloss-prepareforbackup-event) event (in the case of backup operations) or of a [**PreRestore**](ivssbackupcomponents-prerestore.md) event (in the case of restore operations) receive no events after this point and will not participate in the backup or restore operation.
+Writers with no components added to a requester's Backup Component Document prior to the generation of a [*PrepareForBackup*](vssgloss-p.md#base-vssgloss-prepareforbackup-event) event (in the case of backup operations) or of a [**PreRestore**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore?branch=master) event (in the case of restore operations) receive no events after this point and will not participate in the backup or restore operation.
 
 However, a requester's freedom to include or exclude any given component in a backup or restore is governed by the following:
 

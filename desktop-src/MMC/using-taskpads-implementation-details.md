@@ -4,11 +4,15 @@ description: Using Taskpads Implementation Details
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4b1ae691-12df-486e-a760-5613e13d9476'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4b1ae691-12df-486e-a760-5613e13d9476
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["taskpads MMC , implementation details"]
+keywords:
+- taskpads MMC , implementation details
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Taskpads: Implementation Details
@@ -17,7 +21,7 @@ keywords: ["taskpads MMC , implementation details"]
 
 1.  Implement a mechanism for storing the selected view type (standard list view or taskpad). This allows a standard list view or the appropriate taskpad to be loaded when MMC calls [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md) to display the result pane for your snap-in.
 
-    The recommended method is to create a member variable in your [**IComponent**](icomponent.md) object. In the CComponent class below, the **m\_ViewType** member stores the view type.
+    The recommended method is to create a member variable in your [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) object. In the CComponent class below, the **m\_ViewType** member stores the view type.
 
     ```C++
     // CComponent
@@ -47,7 +51,7 @@ keywords: ["taskpads MMC , implementation details"]
 3.  Implement access to the taskpads. There are three ways to do this:
     -   Add one or more taskpad menu items to the **View** menu. You can add a single menu item to use it as an additional view type option on an item in the scope pane. You can use multiple menu items if you want access to specific taskpads, or if an item has multiple taskpads.
 
-        Be aware that MMC calls the [**IExtendContextMenu::AddMenuItems**](iextendcontextmenu-addmenuitems.md) method implemented by the [**IComponent**](icomponent.md) that owns the view to allow it to add items to the **View** menu.
+        Be aware that MMC calls the [**IExtendContextMenu::AddMenuItems**](iextendcontextmenu-addmenuitems.md) method implemented by the [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) that owns the view to allow it to add items to the **View** menu.
 
     -   Add tasks that link to other taskpads.
     -   Use only taskpad views.

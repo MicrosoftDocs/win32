@@ -1,8 +1,11 @@
 ---
 title: Player.PlaylistChange event
 description: The PlaylistChange event occurs when a playlist changes.
-ms.assetid: '09ab0560-e18d-4ee8-a649-2b2468b40c31'
-keywords: ["PlaylistChange event Windows Media Player", "PlaylistChange event Windows Media Player , Player class", "Player class Windows Media Player , PlaylistChange event"]
+ms.assetid: 09ab0560-e18d-4ee8-a649-2b2468b40c31
+keywords:
+- PlaylistChange event Windows Media Player
+- PlaylistChange event Windows Media Player , Player class
+- Player class Windows Media Player , PlaylistChange event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.PlaylistChange event
@@ -63,7 +71,7 @@ Player.PlaylistChange(
 
 
 
- 
+ 
 
 The C-style enumeration constant can be derived by prefixing the name value with "wmplc". For example, the constant for the Move state is **wmplcMove**.
 
@@ -97,9 +105,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

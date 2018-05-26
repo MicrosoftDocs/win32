@@ -1,8 +1,11 @@
 ---
 title: IWMPStringCollection count property
 description: The count property gets the number of items in the string collection.
-ms.assetid: '0ba2d158-fa54-46a8-9124-8a412e71bd09'
-keywords: ["count property Windows Media Player", "count property Windows Media Player , IWMPStringCollection interface", "IWMPStringCollection interface Windows Media Player , count property"]
+ms.assetid: 0ba2d158-fa54-46a8-9124-8a412e71bd09
+keywords:
+- count property Windows Media Player
+- count property Windows Media Player , IWMPStringCollection interface
+- IWMPStringCollection interface Windows Media Player , count property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPStringCollection::count property
@@ -80,9 +88,9 @@ Before using this property, you must have read access to the library. For more i
 [**IWMPStringCollection Interface (VB and C#)**](iwmpstringcollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

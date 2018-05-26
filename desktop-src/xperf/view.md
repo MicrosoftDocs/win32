@@ -1,14 +1,20 @@
 ---
 title: view
 description: Displays help for xperfview, which is used to explore performance traces visually.
-ms.assetid: '6a3fa9a3-2326-41c1-b331-152e0c91cb28'
-keywords: ["view Windows Performance Analyzer"]
+ms.assetid: 6a3fa9a3-2326-41c1-b331-152e0c91cb28
+keywords:
+- view Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
 - view
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # view

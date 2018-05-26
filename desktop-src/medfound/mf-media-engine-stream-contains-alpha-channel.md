@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies if the stream contains an alpha channel.'
-ms.assetid: 'D2CD976F-1F07-4864-8CEC-1AA8E1D9ED45'
-title: 'MF\_MEDIA\_ENGINE\_STREAM\_CONTAINS\_ALPHA\_CHANNEL attribute'
+---
+Description: Specifies if the stream contains an alpha channel.
+ms.assetid: D2CD976F-1F07-4864-8CEC-1AA8E1D9ED45
+title: MF\_MEDIA\_ENGINE\_STREAM\_CONTAINS\_ALPHA\_CHANNEL attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MEDIA\_ENGINE\_STREAM\_CONTAINS\_ALPHA\_CHANNEL attribute

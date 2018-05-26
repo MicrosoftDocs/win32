@@ -4,11 +4,15 @@ description: The Generic Script resource type provides an easy way to achieve hi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '696f73f5-5b38-482f-9add-12a3cd9c5335'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 696f73f5-5b38-482f-9add-12a3cd9c5335
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Generic Script resource type Failover Cluster , using"]
+keywords:
+- Generic Script resource type Failover Cluster , using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the Generic Script Resource Type

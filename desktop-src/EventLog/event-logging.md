@@ -1,7 +1,12 @@
 ---
-Description: 'Many applications record errors and events in proprietary error logs, each with their own format and user interface.'
-ms.assetid: '2a625c8a-afa2-484a-a0e3-df3ef774abe4'
+Description: Many applications record errors and events in proprietary error logs, each with their own format and user interface.
+ms.assetid: 2a625c8a-afa2-484a-a0e3-df3ef774abe4
 title: Event Logging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Logging

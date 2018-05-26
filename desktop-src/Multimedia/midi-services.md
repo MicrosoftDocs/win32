@@ -1,8 +1,20 @@
 ---
 title: MIDI Services
 description: MIDI Services
-ms.assetid: '884066c2-6927-4f5b-902b-8baef9a4a0d7'
-keywords: ["Windows multimedia,MIDI services", "multimedia,MIDI services", "multimedia audio,MIDI services", "audio,MIDI services", "Musical Instrument Digital Interface (MIDI),MIDI services", "MIDI (Musical Instrument Digital Interface),MIDI services", "MIDI services,about"]
+ms.assetid: 884066c2-6927-4f5b-902b-8baef9a4a0d7
+keywords:
+- Windows multimedia,MIDI services
+- multimedia,MIDI services
+- multimedia audio,MIDI services
+- audio,MIDI services
+- Musical Instrument Digital Interface (MIDI),MIDI services
+- MIDI (Musical Instrument Digital Interface),MIDI services
+- MIDI services,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDI Services

@@ -1,8 +1,9 @@
 ---
 title: GetColorDirectory function
 description: The GetColorDirectory function retrieves the path of the Windows COLOR directory on a specified machine.
-ms.assetid: '9e26e58b-0497-4879-963c-fae91f5740bf'
-keywords: ["GetColorDirectory function Windows Color System"]
+ms.assetid: 9e26e58b-0497-4879-963c-fae91f5740bf
+keywords:
+- GetColorDirectory function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetColorDirectory function
@@ -24,9 +30,9 @@ The **GetColorDirectory** function retrieves the path of the Windows COLOR direc
 
 ```C++
 BOOL WINAPI GetColorDirectory(
-   PCTSTR pMachineName,
-   PTSTR  pBuffer,
-   PDWORD pdwSize
+   PCTSTR pMachineName,
+   PTSTR  pBuffer,
+   PDWORD pdwSize
 );
 ```
 
@@ -75,8 +81,8 @@ Color directory is still system wide. This function is executable in LUA context
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -94,9 +100,9 @@ Color directory is still system wide. This function is executable in LUA context
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

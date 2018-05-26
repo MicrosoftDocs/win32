@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'ced9a614-7f00-47bc-a6e1-d0f8e4a60863'
-title: 'System.CachedFileUpdaterContentIdForConflictResolution'
+Description: .
+ms.assetid: ced9a614-7f00-47bc-a6e1-d0f8e4a60863
+title: System.CachedFileUpdaterContentIdForConflictResolution
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.CachedFileUpdaterContentIdForConflictResolution

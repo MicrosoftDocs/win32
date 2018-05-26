@@ -1,7 +1,12 @@
 ---
-Description: 'The Function Discovery client programming interface defines and uses the following enumeration types.'
-ms.assetid: '46db33d2-c017-44ff-8633-5f770c3fb938'
+Description: The Function Discovery client programming interface defines and uses the following enumeration types.
+ms.assetid: 46db33d2-c017-44ff-8633-5f770c3fb938
 title: Function Discovery Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function Discovery Enumerations
@@ -10,9 +15,9 @@ title: Function Discovery Enumerations
 
 The Function Discovery client programming interface defines and uses the following enumeration types.
 
--   [**PropertyConstraint**](propertyconstraint.md)
--   [**QueryUpdateAction**](queryupdateaction-enum.md)
--   [**SystemVisibilityFlags**](systemvisibilityflags-enum.md)
+-   [**PropertyConstraint**](/windows/win32/FunctionDiscoveryConstraints/ne-functiondiscoveryconstraints-tagpropertyconstraint?branch=master)
+-   [**QueryUpdateAction**](/windows/win32/FunctionDiscoveryAPI/ne-functiondiscoveryapi-tagqueryupdateaction?branch=master)
+-   [**SystemVisibilityFlags**](/windows/win32/FunctionDiscoveryAPI/ne-functiondiscoveryapi-tagsystemvisibilityflags?branch=master)
 
  
 

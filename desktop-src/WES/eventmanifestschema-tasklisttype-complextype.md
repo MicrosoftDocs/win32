@@ -1,14 +1,20 @@
 ---
 title: TaskListType Complex Type
 description: Defines a list of tasks that are used to identify the components of an application.
-ms.assetid: '41a46967-7c5b-4555-9f65-bd9582c0c492'
-keywords: ["TaskListType complex type EventLog"]
+ms.assetid: 41a46967-7c5b-4555-9f65-bd9582c0c492
+keywords:
+- TaskListType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - TaskListType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskListType Complex Type
@@ -43,14 +49,14 @@ Defines a list of tasks that are used to identify the components of an applicati
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

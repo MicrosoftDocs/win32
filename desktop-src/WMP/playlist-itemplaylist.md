@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.itemPlaylist
 description: The itemPlaylist attribute retrieves the playlist for the media item that is displayed at the given index in the PLAYLIST element.
-ms.assetid: '094bcb5d-8a59-4531-96b8-0e993ca00be6'
-keywords: ["PLAYLIST.itemPlaylist Windows Media Player"]
+ms.assetid: 094bcb5d-8a59-4531-96b8-0e993ca00be6
+keywords:
+- PLAYLIST.itemPlaylist Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.itemPlaylist
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.itemPlaylist
@@ -58,9 +64,9 @@ The **itemPlaylist** property will return the playlist object that is expanded i
 [**Playlist Object**](playlist-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

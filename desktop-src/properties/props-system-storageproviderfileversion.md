@@ -1,7 +1,12 @@
 ---
-Description: 'The storage provider file version for this file.'
-ms.assetid: '0b6484f4-9a4a-4bf6-b0ee-161b50b44dc5'
-title: 'System.StorageProviderFileVersion'
+Description: The storage provider file version for this file.
+ms.assetid: 0b6484f4-9a4a-4bf6-b0ee-161b50b44dc5
+title: System.StorageProviderFileVersion
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.StorageProviderFileVersion

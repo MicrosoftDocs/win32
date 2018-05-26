@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth parent device for the query. Required for uncached queries.'
-ms.assetid: 'ded2fc28-2a7e-4913-9828-331539accb4b'
-title: 'System.Devices.AepService.Bluetooth.TargetDevice'
+Description: Bluetooth parent device for the query. Required for uncached queries.
+ms.assetid: ded2fc28-2a7e-4913-9828-331539accb4b
+title: System.Devices.AepService.Bluetooth.TargetDevice
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepService.Bluetooth.TargetDevice

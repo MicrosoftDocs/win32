@@ -1,7 +1,12 @@
 ---
-Description: 'Explains how to use SignTool to sign a file.'
-ms.assetid: 'fa8ee4d3-8927-4f7d-a09e-dbcf75a164d3'
+Description: Explains how to use SignTool to sign a file.
+ms.assetid: fa8ee4d3-8927-4f7d-a09e-dbcf75a164d3
 title: Using SignTool to Sign a File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using SignTool to Sign a File

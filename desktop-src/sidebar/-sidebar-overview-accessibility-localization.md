@@ -1,8 +1,22 @@
 ---
 title: Gadgets for Windows Sidebar Accessibility and Localization
 description: This overview provides information on how to provide a more accessible and localizable gadget.
-ms.assetid: '0fba201d-ae38-4c90-932a-d7918e1c5b54'
-keywords: ["Windows Sidebar,accessibility", "Sidebar,accessibility", "gadgets,accessibility", "Windows Sidebar,globalization", "Sidebar,globalization", "gadgets,globalization", "Windows Sidebar,localization", "Sidebar,localization", "gadgets,localization"]
+ms.assetid: 0fba201d-ae38-4c90-932a-d7918e1c5b54
+keywords:
+- Windows Sidebar,accessibility
+- Sidebar,accessibility
+- gadgets,accessibility
+- Windows Sidebar,globalization
+- Sidebar,globalization
+- gadgets,globalization
+- Windows Sidebar,localization
+- Sidebar,localization
+- gadgets,localization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gadgets for Windows Sidebar Accessibility and Localization

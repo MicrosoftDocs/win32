@@ -4,17 +4,21 @@ description: User will only be able to view and edit the document.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '6843CCCB-4F48-4534-9362-921384F20884'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 6843CCCB-4F48-4534-9362-921384F20884
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSRole reviewer property"]
+keywords:
+- MSRole reviewer property
 topic_type:
 - apiref
 api_name:
 - MSRole reviewer property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSRole reviewer property
@@ -37,7 +41,7 @@ User will only be able to view and edit the document.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSRole.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

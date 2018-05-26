@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_NonVolatileStorage class represents the capabilities and management of non-volatile storage. Nonvolatile memory natively includes flash and ROM storage.'
+Description: The CIM\_NonVolatileStorage class represents the capabilities and management of non-volatile storage. Nonvolatile memory natively includes flash and ROM storage.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '39158b31-31f7-460c-aef1-1ca423badad6'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 39158b31-31f7-460c-aef1-1ca423badad6
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_NonVolatileStorage class'
+title: CIM\_NonVolatileStorage class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_NonVolatileStorage class
@@ -19,7 +22,7 @@ The **CIM\_NonVolatileStorage** class represents the capabilities and management
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,45 +32,45 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{18074AFA-F0FE-11d2-8617-0000F8102E5F}"), AMENDMENT]
 class CIM_NonVolatileStorage : CIM_Memory
 {
-  uint16   Access;
-  uint8    AdditionalErrorData[];
-  uint16   Availability;
-  uint64   BlockSize;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  boolean  CorrectableError;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  uint64   EndingAddress;
-  uint16   ErrorAccess;
-  uint64   ErrorAddress;
-  boolean  ErrorCleared;
-  uint8    ErrorData[];
-  uint16   ErrorDataOrder;
-  string   ErrorDescription;
-  uint16   ErrorInfo;
-  string   ErrorMethodology;
-  uint64   ErrorResolution;
+  uint16   Access;
+  uint8    AdditionalErrorData[];
+  uint16   Availability;
+  uint64   BlockSize;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  boolean  CorrectableError;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  uint64   EndingAddress;
+  uint16   ErrorAccess;
+  uint64   ErrorAddress;
+  boolean  ErrorCleared;
+  uint8    ErrorData[];
+  uint16   ErrorDataOrder;
+  string   ErrorDescription;
+  uint16   ErrorInfo;
+  string   ErrorMethodology;
+  uint64   ErrorResolution;
   datetime ErrorTime;
-  uint32   ErrorTransferSize;
+  uint32   ErrorTransferSize;
   datetime InstallDate;
-  boolean  IsWriteable;
-  uint32   LastErrorCode;
-  string   Name;
-  uint64   NumberOfBlocks;
-  string   OtherErrorDescription;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Purpose;
-  uint64   StartingAddress;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  boolean  SystemLevelAddress;
-  string   SystemName;
+  boolean  IsWriteable;
+  uint32   LastErrorCode;
+  string   Name;
+  uint64   NumberOfBlocks;
+  string   OtherErrorDescription;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Purpose;
+  uint64   StartingAddress;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  boolean  SystemLevelAddress;
+  string   SystemName;
 };
 ```
 
@@ -91,7 +94,7 @@ The **CIM\_NonVolatileStorage** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1769,8 +1772,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1784,9 +1787,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Memory**](cim-memory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

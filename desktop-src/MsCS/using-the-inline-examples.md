@@ -4,11 +4,16 @@ description: Usage requirements for inline code examples in the Failover Cluster
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '72bc0f51-5747-43a6-b15f-79a02556b08b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 72bc0f51-5747-43a6-b15f-79a02556b08b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["inline examples Failover Cluster", "inline examples Failover Cluster ,using"]
+keywords:
+- inline examples Failover Cluster
+- inline examples Failover Cluster ,using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the Code Examples

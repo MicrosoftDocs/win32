@@ -1,13 +1,16 @@
 ---
-Description: 'An SWbemObjectSet object is a collection of SWbemObject objects. For more information, see Accessing a Collection. This object cannot be created by the VBScript CreateObject call.'
+Description: An SWbemObjectSet object is a collection of SWbemObject objects. For more information, see Accessing a Collection. This object cannot be created by the VBScript CreateObject call.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '00f5317e-eb8e-42f9-bada-963e11aadda4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 00f5317e-eb8e-42f9-bada-963e11aadda4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemObjectSet object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectSet object
@@ -29,12 +32,12 @@ You can get an **SWbemObjectSet** object by calling any of the following methods
 > [!Note]  
 > The **SWbemObjectSet** object does not support the optional **Add** and **Remove** collection methods.
 
- 
+ 
 
 > [!Note]  
 > Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. For more information, see [Calling a Method](calling-a-method.md).
 
- 
+ 
 
 ## Members
 
@@ -55,7 +58,7 @@ The **SWbemObjectSet** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -70,7 +73,7 @@ The **SWbemObjectSet** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,7 +82,7 @@ An **SWbemObjectSet** is a collection of zero or more [**SWbemObject**](swbemobj
 -   An instance of a WMI-managed resource.
 -   An instance of a class definition.
 
-The most common use of this class in WMI is as the return value for an [**ExecQuery**](provider-execquery.md) or [**InstancesOf**](swbemservices-instancesof.md) call, as described in the following code sample:
+The most common use of this class in WMI is as the return value for an [**ExecQuery**](/windows/win32/Provider/nf-provider-provider-execquery?branch=master) or [**InstancesOf**](swbemservices-instancesof.md) call, as described in the following code sample:
 
 
 ```VB
@@ -159,8 +162,8 @@ else
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -176,9 +179,9 @@ else
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

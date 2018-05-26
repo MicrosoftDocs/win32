@@ -1,8 +1,9 @@
 ---
 title: DownloadCollection.count
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The count property retrieves the number of pending downloads in the collection.
-ms.assetid: '8f9245aa-6d92-4dd3-9b45-97ee37de680d'
-keywords: ["DownloadCollection.count Windows Media Player"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The count property retrieves the number of pending downloads in the collection.
+ms.assetid: 8f9245aa-6d92-4dd3-9b45-97ee37de680d
+keywords:
+- DownloadCollection.count Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadCollection.count
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **count** property retrieves the number of pending downloads in the collection.
 
@@ -53,9 +59,9 @@ This property is a read-only **Number** (**long**).
 [**DownloadCollection Object**](downloadcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

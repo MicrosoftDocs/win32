@@ -1,8 +1,21 @@
 ---
 title: Opening MIDI Input Devices
 description: Opening MIDI Input Devices
-ms.assetid: 'fd6ebd0c-6985-49d3-8015-a636d4c70ff3'
-keywords: ["Musical Instrument Digital Interface (MIDI),input devices", "MIDI (Musical Instrument Digital Interface),input devices", "recording MIDI audio,input devices", "MIDI input devices", "Musical Instrument Digital Interface (MIDI),opening input devices", "MIDI (Musical Instrument Digital Interface),opening input devices", "recording MIDI audio,opening input devices", "opening MIDI input devices"]
+ms.assetid: fd6ebd0c-6985-49d3-8015-a636d4c70ff3
+keywords:
+- Musical Instrument Digital Interface (MIDI),input devices
+- MIDI (Musical Instrument Digital Interface),input devices
+- recording MIDI audio,input devices
+- MIDI input devices
+- Musical Instrument Digital Interface (MIDI),opening input devices
+- MIDI (Musical Instrument Digital Interface),opening input devices
+- recording MIDI audio,opening input devices
+- opening MIDI input devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening MIDI Input Devices

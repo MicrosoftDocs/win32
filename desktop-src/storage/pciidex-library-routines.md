@@ -1,7 +1,12 @@
 ---
 title: PciIdeX Library Routines
 description: PciIdeX Library Routines
-ms.assetid: '8d8a3cf6-91b1-4102-85d2-a3c18179b89b'
+ms.assetid: 8d8a3cf6-91b1-4102-85d2-a3c18179b89b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PciIdeX Library Routines

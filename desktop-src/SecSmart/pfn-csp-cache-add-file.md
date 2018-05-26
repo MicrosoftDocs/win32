@@ -1,8 +1,9 @@
 ---
 title: PFN\_CSP\_CACHE\_ADD\_FILE function pointer
 description: Points to a function that adds a file to the data cached by the Microsoft Base Smart Card Cryptographic Service Provider.
-ms.assetid: 'd578eef9-ddd6-48a4-af10-35c772bdc427'
-keywords: ["PFN_CSP_CACHE_ADD_FILE function pointer Security"]
+ms.assetid: d578eef9-ddd6-48a4-af10-35c772bdc427
+keywords:
+- PFN_CSP_CACHE_ADD_FILE function pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_CSP\_CACHE\_ADD\_FILE function pointer
@@ -24,11 +30,11 @@ The **PFN\_CSP\_CACHE\_ADD\_FILE** function pointer points to a function that ad
 
 ```C++
 typedef DWORD ( WINAPI *PFN_CSP_CACHE_ADD_FILE)(
-  _In_ PVOID  pvCacheContext,
-  _In_ LPWSTR wszTag,
-  _In_ DWORD  dwFlags,
-  _In_ PBYTE  pbData,
-  _In_ DWORD  cbData
+  _In_ PVOID  pvCacheContext,
+  _In_ LPWSTR wszTag,
+  _In_ DWORD  dwFlags,
+  _In_ PBYTE  pbData,
+  _In_ DWORD  cbData
 );
 ```
 
@@ -93,8 +99,8 @@ To improve performance by avoiding redundant read/write activity to the card, fi
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -115,9 +121,9 @@ To improve performance by avoiding redundant read/write activity to the card, fi
 [**PFN\_CSP\_FREE**](pfn-csp-free.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

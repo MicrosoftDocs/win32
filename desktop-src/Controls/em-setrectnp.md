@@ -1,8 +1,9 @@
 ---
 title: EM\_SETRECTNP message
 description: Sets the formatting rectangle of a multiline edit control.
-ms.assetid: '1ab497ca-023f-4c26-b92d-b441a0d7b90c'
-keywords: ["EM_SETRECTNP message Windows Controls"]
+ms.assetid: 1ab497ca-023f-4c26-b92d-b441a0d7b90c
+keywords:
+- EM_SETRECTNP message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETRECTNP message
@@ -47,7 +53,7 @@ This message does not return a value.
 
 ## Remarks
 
-**Rich Edit:** Supported in Microsoft Rich Edit 3.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 3.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -55,8 +61,8 @@ This message does not return a value.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -77,9 +83,9 @@ This message does not return a value.
 [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Album Art
 description: Album Art
-ms.assetid: 'a5996232-e1ee-41ae-a6ca-f841321644fe'
-keywords: ["Windows Media Player Mobile skins,album art", "skins,album art", "reference for skins,album art", "art files for skins,album art", "album art in skins"]
+ms.assetid: a5996232-e1ee-41ae-a6ca-f841321644fe
+keywords:
+- Windows Media Player Mobile skins,album art
+- skins,album art
+- reference for skins,album art
+- art files for skins,album art
+- album art in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Album Art

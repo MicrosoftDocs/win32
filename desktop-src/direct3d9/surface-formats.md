@@ -1,7 +1,12 @@
 ---
-Description: 'In Direct3D, all two-dimensional (2D) images are represented by a linear range of memory called a surface.'
-ms.assetid: '33430f01-cd26-45f4-9ce8-ca2c17c7ae6b'
-title: 'Surface Formats (Direct3D 9)'
+Description: In Direct3D, all two-dimensional (2D) images are represented by a linear range of memory called a surface.
+ms.assetid: 33430f01-cd26-45f4-9ce8-ca2c17c7ae6b
+title: Surface Formats (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Surface Formats (Direct3D 9)

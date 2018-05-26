@@ -1,7 +1,12 @@
 ---
-Description: 'This topic discusses methods for resolving a peer name using the PNRP Namespace Provider APIs.'
-ms.assetid: '7b21ec52-bc29-447e-9c46-34b9115574e0'
+Description: This topic discusses methods for resolving a peer name using the PNRP Namespace Provider APIs.
+ms.assetid: 7b21ec52-bc29-447e-9c46-34b9115574e0
 title: Resolving a Peer Name
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resolving a Peer Name
@@ -11,7 +16,7 @@ This topic discusses methods for resolving a peer name using the PNRP Namespace 
 When you resolve a peer name, you must provide the following information:
 
 -   [Peer name](peer-names.md)
--   [Resolve criteria](pnrp-resolve-criteria.md)
+-   [Resolve criteria](/windows/win32/Pnrpdef/ne-pnrpdef-_pnrp_resolve_criteria?branch=master)
 -   Cloud name in which to resolve the peer name
 -   IP address, which is optional and is used as a hint
 

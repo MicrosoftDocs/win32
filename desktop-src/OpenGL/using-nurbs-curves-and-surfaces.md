@@ -1,8 +1,17 @@
 ---
 title: Using NURBS Curves and Surfaces
 description: Non-Uniform Rational B-Spline (NURBS) functions provide general and powerful descriptions of curves and surfaces in two and three dimensions, converting the curves and surfaces to OpenGL evaluators.
-ms.assetid: '0b55659d-9fa2-47fc-ae15-0c296bd94dcb'
-keywords: ["OpenGL Utility (GLU),Non-Uniform Rational B-Spline (NURBS)", "GLU (OpenGL Utility),Non-Uniform Rational B-Spline (NURBS)", "Non-Uniform Rational B-Spline (NURBS) OpenGL", "NURBS (Non-Uniform Rational B-Spline) OpenGL"]
+ms.assetid: 0b55659d-9fa2-47fc-ae15-0c296bd94dcb
+keywords:
+- OpenGL Utility (GLU),Non-Uniform Rational B-Spline (NURBS)
+- GLU (OpenGL Utility),Non-Uniform Rational B-Spline (NURBS)
+- Non-Uniform Rational B-Spline (NURBS) OpenGL
+- NURBS (Non-Uniform Rational B-Spline) OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using NURBS Curves and Surfaces

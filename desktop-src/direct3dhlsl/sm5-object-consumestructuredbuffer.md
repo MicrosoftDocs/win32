@@ -1,14 +1,20 @@
 ---
 title: ConsumeStructuredBuffer
 description: An input buffer that appears as a stream the shader may pull values from. Only structured buffers can take T types that are structures.
-ms.assetid: '373bdd97-6186-4bce-99bf-738a153234f6'
-keywords: ["ConsumeStructuredBuffer HLSL"]
+ms.assetid: 373bdd97-6186-4bce-99bf-738a153234f6
+keywords:
+- ConsumeStructuredBuffer HLSL
 topic_type:
 - apiref
 api_name:
 - ConsumeStructuredBuffer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConsumeStructuredBuffer

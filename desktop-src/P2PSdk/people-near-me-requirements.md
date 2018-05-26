@@ -1,7 +1,12 @@
 ---
 Description: People Near Me Requirements
-ms.assetid: 'c7ab73fc-56a6-4b6c-820a-3f8e4a97cfaf'
+ms.assetid: c7ab73fc-56a6-4b6c-820a-3f8e4a97cfaf
 title: People Near Me Requirements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # People Near Me Requirements

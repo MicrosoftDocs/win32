@@ -1,14 +1,19 @@
 ---
-Description: 'The low-level message functions encode data for transmission and decode data that has been received. Low-level message functions also decrypt and verify the signatures of received messages.'
-ms.assetid: '42c19920-c7f7-4a4d-9de3-3de9a34fbe0c'
-title: 'Low-level Message Functions'
+Description: The low-level message functions encode data for transmission and decode data that has been received. Low-level message functions also decrypt and verify the signatures of received messages.
+ms.assetid: 42c19920-c7f7-4a4d-9de3-3de9a34fbe0c
+title: Low-level Message Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Low-level Message Functions
 
 The [*low-level message functions*](security.l_gly#-security-low-level-message-functions-gly) encode data for transmission and decode data that has been received. Low-level message functions also decrypt and verify the signatures of received messages.
 
-When a message is opened using a low-level message open function, it remains open and available (maintains its [*state*](security.s_gly#-security-state-gly)) until it is closed. This allows a message to be constructed piecemeal using multiple calls to the [**CryptMsgUpdate**](cryptmsgupdate.md) function.
+When a message is opened using a low-level message open function, it remains open and available (maintains its [*state*](security.s_gly#-security-state-gly)) until it is closed. This allows a message to be constructed piecemeal using multiple calls to the [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master) function.
 
 Using low-level message functions requires more function calls than using simplified message functions (see [Simplified Messages](simplified-messages.md)). If the simplified message functions are used, more of the work is done inside the functions of the API.
 

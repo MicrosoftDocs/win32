@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets whether to include a user data payload with the output sample.'
-ms.assetid: '1F2B8275-9D4C-4732-9905-8ADE4CFD7496'
-title: 'MF\_USER\_DATA\_PAYLOAD attribute'
+---
+Description: Sets whether to include a user data payload with the output sample.
+ms.assetid: 1F2B8275-9D4C-4732-9905-8ADE4CFD7496
+title: MF\_USER\_DATA\_PAYLOAD attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_USER\_DATA\_PAYLOAD attribute

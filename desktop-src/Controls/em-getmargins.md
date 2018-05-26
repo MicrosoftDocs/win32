@@ -1,8 +1,9 @@
 ---
 title: EM\_GETMARGINS message
 description: Gets the widths of the left and right margins for an edit control.
-ms.assetid: '2482354b-aae0-4abd-8287-65c423f30abb'
-keywords: ["EM_GETMARGINS message Windows Controls"]
+ms.assetid: 2482354b-aae0-4abd-8287-65c423f30abb
+keywords:
+- EM_GETMARGINS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETMARGINS message
@@ -49,8 +55,8 @@ Returns the width of the left margin in the LOWORD, and the width of the right m
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -62,9 +68,9 @@ Returns the width of the left margin in the LOWORD, and the width of the right m
 [**EM\_SETMARGINS**](em-setmargins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

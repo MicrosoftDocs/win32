@@ -1,8 +1,14 @@
 ---
 title: Create adapter plug-ins
 description: How to use the Windows Biometric Framework API to create adapter plug-ins.
-ms.assetid: 'a1a18d4b-e047-4fa7-ad9b-c531e987a7a4'
-keywords: ["Windows Biometric Framework API Windows Biometric Framework API , adapter plug-ins"]
+ms.assetid: a1a18d4b-e047-4fa7-ad9b-c531e987a7a4
+keywords:
+- Windows Biometric Framework API Windows Biometric Framework API , adapter plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create adapter plug-ins
@@ -22,7 +28,7 @@ The following topics discuss how to use the Windows Biometric Framework API to c
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +37,9 @@ The following topics discuss how to use the Windows Biometric Framework API to c
 [Plug-in Reference](plug-in-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

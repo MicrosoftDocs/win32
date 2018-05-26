@@ -1,8 +1,14 @@
 ---
 title: C/C++ Code Example Setting Application Name
 description: This example sets the name of the application associated with a known task. This example assumes that the task \ 0034;test task \ 0034; already exists on the local computer and that the Task Scheduler service is running.
-ms.assetid: '1d86f945-0f13-4a7f-8123-df7e63a02238'
-keywords: ["setting task properties Task Scheduler , application name"]
+ms.assetid: 1d86f945-0f13-4a7f-8123-df7e63a02238
+keywords:
+- setting task properties Task Scheduler , application name
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Setting Application Name

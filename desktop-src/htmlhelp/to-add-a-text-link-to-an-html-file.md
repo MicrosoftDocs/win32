@@ -1,7 +1,12 @@
 ---
 title: To add a text link to an HTML file
 description: To add a text link to an HTML file
-ms.assetid: '80427590-EDD6-48cc-BA6E-2F432C04D9A5'
+ms.assetid: 80427590-EDD6-48cc-BA6E-2F432C04D9A5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To add a text link to an HTML file

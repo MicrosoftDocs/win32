@@ -1,18 +1,23 @@
 ---
-Description: 'This topic demonstrates how to draw a line using GDI Plus.'
-ms.assetid: '2e7444f8-94a6-40d6-b243-0764e245eec4'
+Description: This topic demonstrates how to draw a line using GDI Plus.
+ms.assetid: 2e7444f8-94a6-40d6-b243-0764e245eec4
 title: Drawing a Line
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing a Line
 
 This topic demonstrates how to draw a line using GDI Plus.
 
-To draw a line in Windows GDI+ you need a [**Graphics**](-gdiplus-class-graphics-class.md) object, a [**Pen**](-gdiplus-class-pen-class.md) object, and a [**Color**](-gdiplus-class-color-class.md) object. The **Graphics** object provides the [DrawLine Methods](-gdiplus-class-graphics-drawline-methods.md) method, and the **Pen** object holds attributes of the line, such as color and width. The address of the **Pen** object is passed as an argument to the DrawLine Methods method.
+To draw a line in Windows GDI+ you need a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object, a [**Pen**](/windows/win32/gdipluspen/nl-gdipluspen-pen?branch=master) object, and a [**Color**](/windows/win32/gdipluscolor/nl-gdipluscolor-color?branch=master) object. The **Graphics** object provides the [DrawLine Methods](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen,in const point &,in const point &)?branch=master) method, and the **Pen** object holds attributes of the line, such as color and width. The address of the **Pen** object is passed as an argument to the DrawLine Methods method.
 
-The following program, which draws a line from (0, 0) to (200, 100), consists of three functions: **WinMain**, **WndProc**, and **OnPaint**. The **WinMain** and **WndProc** functions provide the fundamental code common to most Windows applications. There is no GDI+ code in the **WndProc** function. The **WinMain** function has a small amount of GDI+ code, namely the required calls to [**GdiplusStartup**](-gdiplus-func-gdiplusstartup-token-input-output-.md) and [**GdiplusShutdown**](-gdiplus-func-gdiplusshutdown-.md). The GDI+ code that actually creates a [**Graphics**](-gdiplus-class-graphics-class.md) object and draws a line is in the **OnPaint** function.
+The following program, which draws a line from (0, 0) to (200, 100), consists of three functions: **WinMain**, **WndProc**, and **OnPaint**. The **WinMain** and **WndProc** functions provide the fundamental code common to most Windows applications. There is no GDI+ code in the **WndProc** function. The **WinMain** function has a small amount of GDI+ code, namely the required calls to [**GdiplusStartup**](/windows/win32/Gdiplusinit/nf-gdiplusinit-gdiplusstartup?branch=master) and [**GdiplusShutdown**](/windows/win32/Gdiplusinit/nf-gdiplusinit-gdiplusshutdown?branch=master). The GDI+ code that actually creates a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object and draws a line is in the **OnPaint** function.
 
-The **OnPaint** function receives a handle to a device context and passes that handle to a [**Graphics**](-gdiplus-class-graphics-class.md) constructor. The argument passed to the [**Pen**](-gdiplus-class-pen-class.md) constructor is a reference to a [**Color**](-gdiplus-class-color-class.md) object. The four numbers passed to the color constructor represent the alpha, red, green, and blue components of the color. The alpha component determines the transparency of the color; 0 is fully transparent and 255 is fully opaque. The four numbers passed to the [DrawLine Methods](-gdiplus-class-graphics-drawline-methods.md) method represent the starting point (0, 0) and the ending point (200, 100) of the line.
+The **OnPaint** function receives a handle to a device context and passes that handle to a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) constructor. The argument passed to the [**Pen**](/windows/win32/gdipluspen/nl-gdipluspen-pen?branch=master) constructor is a reference to a [**Color**](/windows/win32/gdipluscolor/nl-gdipluscolor-color?branch=master) object. The four numbers passed to the color constructor represent the alpha, red, green, and blue components of the color. The alpha component determines the transparency of the color; 0 is fully transparent and 255 is fully opaque. The four numbers passed to the [DrawLine Methods](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(in const pen,in const point &,in const point &)?branch=master) method represent the starting point (0, 0) and the ending point (200, 100) of the line.
 
 
 ```C++
@@ -106,7 +111,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message,
 
 
 
-Note the call to [**GdiplusStartup**](-gdiplus-func-gdiplusstartup-token-input-output-.md) in the **WinMain** function. The first parameter of the **GdiplusStartup** function is the address of a ULONG\_PTR. **GdiplusStartup** fills that variable with a token that is later passed to the [**GdiplusShutdown**](-gdiplus-func-gdiplusshutdown-.md) function. The second parameter of the **GdiplusStartup** function is the address of a [**GdiplusStartupInput**](-gdiplus-struc-gdiplusstartupinput.md) structure. The preceding code relies on the default **GdiplusStartupInput** constructor to set the structure members appropriately.
+Note the call to [**GdiplusStartup**](/windows/win32/Gdiplusinit/nf-gdiplusinit-gdiplusstartup?branch=master) in the **WinMain** function. The first parameter of the **GdiplusStartup** function is the address of a ULONG\_PTR. **GdiplusStartup** fills that variable with a token that is later passed to the [**GdiplusShutdown**](/windows/win32/Gdiplusinit/nf-gdiplusinit-gdiplusshutdown?branch=master) function. The second parameter of the **GdiplusStartup** function is the address of a [**GdiplusStartupInput**](/windows/win32/Gdiplusinit/ns-gdiplusinit-gdiplusstartupinput?branch=master) structure. The preceding code relies on the default **GdiplusStartupInput** constructor to set the structure members appropriately.
 
  
 

@@ -1,8 +1,9 @@
 ---
 title: EM\_POSFROMCHAR message
 description: Retrieves the client area coordinates of a specified character in an edit control. You can send this message to either an edit control or a rich edit control.
-ms.assetid: 'a32532fa-976f-4c19-ac6e-29e5614fc410'
-keywords: ["EM_POSFROMCHAR message Windows Controls"]
+ms.assetid: a32532fa-976f-4c19-ac6e-29e5614fc410
+keywords:
+- EM_POSFROMCHAR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_POSFROMCHAR message
@@ -51,9 +57,9 @@ A returned coordinate can be a negative value if the specified character is not 
 
 If the character is a line delimiter, the returned coordinates indicate a point just beyond the last visible character in the line. If the specified index is greater than the index of the last character in the control, the control returns -1.
 
-**Rich Edit 3.0 and later:** For backward compatibility, Microsoft Rich Edit 3.0 supports the syntax used by Microsoft Rich Edit 2.0. If Microsoft Rich Edit 3.0 detects that *wParam* is not a valid [**POINTL**](https://msdn.microsoft.com/library/windows/desktop/dd162807) pointer, it assumes the message was sent using the Microsoft Rich Edit 2.0 syntax. In this case, it uses the return value to return the coordinates.
+**Rich Edit 3.0 and later:** For backward compatibility, Microsoft Rich Edit 3.0 supports the syntax used by Microsoft Rich Edit 2.0. If Microsoft Rich Edit 3.0 detects that *wParam* is not a valid [**POINTL**](https://msdn.microsoft.com/library/windows/desktop/dd162807) pointer, it assumes the message was sent using the Microsoft Rich Edit 2.0 syntax. In this case, it uses the return value to return the coordinates.
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -61,8 +67,8 @@ If the character is a line delimiter, the returned coordinates indicate a point 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -83,9 +89,9 @@ If the character is a line delimiter, the returned coordinates indicate a point 
 [**POINTL**](https://msdn.microsoft.com/library/windows/desktop/dd162807)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

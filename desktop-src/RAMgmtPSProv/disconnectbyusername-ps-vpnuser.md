@@ -2,13 +2,16 @@
 title: DisconnectByUserName method of the PS\_VpnUser class
 description: This cmdlet disconnects a VPN connection originated by a specific user or originating from a specific client machine.
 audience: developer
-ms.assetid: '5ce7bf8e-2ee1-4cac-a371-8f7895f5ffbb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5ce7bf8e-2ee1-4cac-a371-8f7895f5ffbb
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DisconnectByUserName method", "DisconnectByUserName method, PS_VpnUser class", "PS_VpnUser class, DisconnectByUserName method"]
+keywords:
+- DisconnectByUserName method
+- DisconnectByUserName method, PS_VpnUser class
+- PS_VpnUser class, DisconnectByUserName method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DisconnectByUserName method of the PS\_VpnUser class
@@ -28,10 +34,10 @@ This cmdlet disconnects a VPN connection originated by a specific user or origin
 
 ```mof
 uint32 DisconnectByUserName(
-  [in]  string  UserName[],
-  [in]  string  ComputerName,
-  [in]  boolean PassThru,
-  [out] string  cmdletOutput[]
+  [in]  string  UserName[],
+  [in]  string  ComputerName,
+  [in]  boolean PassThru,
+  [out] string  cmdletOutput[]
 );
 ```
 
@@ -76,7 +82,7 @@ Returns an object, viz. the list of users/client IPs that were successfully disc
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ Returns an object, viz. the list of users/client IPs that were successfully disc
 [**PS\_VpnUser**](ps-vpnuser.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

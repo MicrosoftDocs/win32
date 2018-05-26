@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_OffsetX method specifies the horizontal offset of the target rectangle.'
-ms.assetid: '057919e1-d65f-487d-b5d7-1c43967ce66d'
-title: 'IDxtCompositor::put\_OffsetX method'
+---
+Description: The put\_OffsetX method specifies the horizontal offset of the target rectangle.
+ms.assetid: 057919e1-d65f-487d-b5d7-1c43967ce66d
+title: IDxtCompositorput\_OffsetX method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtCompositor::put\_OffsetX method

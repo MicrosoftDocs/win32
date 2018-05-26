@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows security model enables callers of Kernel Transaction Manager (KTM) to control access to transaction, transaction manager, resource manager, and enlistment objects.'
-ms.assetid: 'c9d51d4d-9f07-44d6-a2e1-4a47367cc4ae'
+Description: The Windows security model enables callers of Kernel Transaction Manager (KTM) to control access to transaction, transaction manager, resource manager, and enlistment objects.
+ms.assetid: c9d51d4d-9f07-44d6-a2e1-4a47367cc4ae
 title: KTM Security and Access Rights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KTM Security and Access Rights
@@ -10,7 +15,7 @@ The Windows security model enables callers of Kernel Transaction Manager (KTM) t
 
 ## Transactions
 
-When a client uses the [**OpenTransaction**](opentransaction.md) function, the system checks the requested access rights against the security descriptor for the transaction object.
+When a client uses the [**OpenTransaction**](/windows/win32/Ktmw32/nf-ktmw32-opentransaction?branch=master) function, the system checks the requested access rights against the security descriptor for the transaction object.
 
 The valid access rights for transaction objects include the ability to query and set information, enlist, and various transaction operations, as well as [standard access rights](https://msdn.microsoft.com/library/windows/desktop/aa379607). [**Transaction Access Masks**](transaction-access-masks.md) list the specific access rights for a transaction.
 
@@ -18,7 +23,7 @@ Because transactions have a durable state, it is critical that RMs and TMs that 
 
 ## Transaction Managers
 
-When a client uses the [**OpenTransactionManager**](opentransactionmanager.md) function, the system checks the requested access rights against the security descriptor for the resource manager object.
+When a client uses the [**OpenTransactionManager**](/windows/win32/Ktmw32/nf-ktmw32-opentransactionmanager?branch=master) function, the system checks the requested access rights against the security descriptor for the resource manager object.
 
 The valid access rights for transaction manager objects include the ability to query and set information, create RMs, and recover and rename operations, as well as [standard access rights](https://msdn.microsoft.com/library/windows/desktop/aa379607). [**Transaction Manager Access Masks**](transaction-manager-access-masks.md) lists the specific access rights for a transaction manager.
 
@@ -26,7 +31,7 @@ A resource manager can create its own transaction manager objects with restricti
 
 ## Resource Managers
 
-When a client uses the [**OpenResourceManager**](openresourcemanager.md) function, the system checks the requested access rights against the security descriptor for the resource manager object.
+When a client uses the [**OpenResourceManager**](/windows/win32/Ktmw32/nf-ktmw32-openresourcemanager?branch=master) function, the system checks the requested access rights against the security descriptor for the resource manager object.
 
 The valid access rights for resource manager objects include the ability to query and set information, recover, enlist, registration operations, and propagation and recover operations, as well as [standard access rights](https://msdn.microsoft.com/library/windows/desktop/aa379607). [**Resource Manager Access Masks**](resource-manager-access-masks.md) lists the specific access rights for a resource manager.
 
@@ -34,7 +39,7 @@ A resource manager can create its own resource manager objects with restrictive 
 
 ## Enlistments
 
-When a client uses the [**OpenEnlistment**](openenlistment.md) function, the system checks the requested access rights against the security descriptor for the enlistment object.
+When a client uses the [**OpenEnlistment**](/windows/win32/Ktmw32/nf-ktmw32-openenlistment?branch=master) function, the system checks the requested access rights against the security descriptor for the enlistment object.
 
 The valid access rights for enlistment objects include the ability to query and set information, recover operations, as well as [standard access rights](https://msdn.microsoft.com/library/windows/desktop/aa379607). [**Enlistment Access Masks**](enlistment-access-masks.md) lists the specific access rights for an enlistment.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '591d1ad1-3f3e-4fc2-87fe-8e9bce7e9ec1'
+---
+Description: .
+ms.assetid: 591d1ad1-3f3e-4fc2-87fe-8e9bce7e9ec1
 title: Communication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Communication

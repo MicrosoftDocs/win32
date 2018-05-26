@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves an error.'
-ms.assetid: '7c47acae-d398-4698-81db-e3c8a812f339'
-title: 'GetError method of the Msvm\_CollectionReferencePointExportJob class'
+Description: Retrieves an error.
+ms.assetid: 7c47acae-d398-4698-81db-e3c8a812f339
+title: GetError method of the Msvm\_CollectionReferencePointExportJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetError method of the Msvm\_CollectionReferencePointExportJob class
@@ -13,7 +18,7 @@ Retrieves an error.
 
 ```mof
 uint32 GetError(
-  [out] string Error
+  [out] string Error
 );
 ```
 
@@ -78,8 +83,8 @@ On success, contains a description of the error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -93,9 +98,9 @@ On success, contains a description of the error.
 [**Msvm\_CollectionReferencePointExportJob**](msvm-collectionreferencepointexportjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: COM+ Shared Property Manager
-ms.assetid: 'fa726cc0-453c-489b-be12-86335909a428'
+ms.assetid: fa726cc0-453c-489b-be12-86335909a428
 title: COM+ Shared Property Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Shared Property Manager
@@ -19,11 +24,11 @@ The topics described in the following table provide background and task informat
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

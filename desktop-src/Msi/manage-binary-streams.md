@@ -1,7 +1,12 @@
 ---
-Description: 'The VBScript file WiStream.vbs is provided in the Windows SDK Components for Windows Installer Developers.'
-ms.assetid: 'f96d1fdd-81c8-4fb2-a23e-fda49ace8bef'
+Description: The VBScript file WiStream.vbs is provided in the Windows SDK Components for Windows Installer Developers.
+ms.assetid: f96d1fdd-81c8-4fb2-a23e-fda49ace8bef
 title: Manage Binary Streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manage Binary Streams

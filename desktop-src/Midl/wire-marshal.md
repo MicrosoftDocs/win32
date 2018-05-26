@@ -2,13 +2,19 @@
 title: wire\_marshal attribute
 description: The \ wire\_marshal\ attribute specifies a data type that will be used for transmission (the wire-type) instead of an application-specific data type (the userm-type).
 ms.assetid: 51969f2c-7390-42c4-8aa6-ba12fdb22d23
-keywords: ["wire_marshal attribute MIDL"]
+keywords:
+- wire_marshal attribute MIDL
 topic_type:
 - apiref
 api_name:
 - wire_marshal
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # wire\_marshal attribute

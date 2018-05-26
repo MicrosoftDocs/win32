@@ -1,7 +1,12 @@
 ---
-Description: 'Manages the configuration of resource pools by using jobs.'
-ms.assetid: 'cc0f0236-2335-4dd9-9132-51b3e6b9fcf4'
-title: 'CIM\_ResourcePoolConfigurationService class'
+Description: Manages the configuration of resource pools by using jobs.
+ms.assetid: cc0f0236-2335-4dd9-9132-51b3e6b9fcf4
+title: CIM\_ResourcePoolConfigurationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ResourcePoolConfigurationService class
@@ -40,7 +45,7 @@ The **CIM\_ResourcePoolConfigurationService** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -48,8 +53,8 @@ The **CIM\_ResourcePoolConfigurationService** class has these methods.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -63,9 +68,9 @@ The **CIM\_ResourcePoolConfigurationService** class has these methods.
 [**CIM\_Service**](cim-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

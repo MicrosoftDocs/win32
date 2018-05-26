@@ -1,7 +1,12 @@
 ---
 Description: Time in DirectShow Editing Services
-ms.assetid: '4e8cc766-97f3-45d5-9c4a-5cd6e9ad9c09'
+ms.assetid: 4e8cc766-97f3-45d5-9c4a-5cd6e9ad9c09
 title: Time in DirectShow Editing Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Time in DirectShow Editing Services

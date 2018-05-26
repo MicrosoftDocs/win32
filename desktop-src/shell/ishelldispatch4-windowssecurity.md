@@ -1,6 +1,11 @@
-﻿---
-Description: 'Displays the Windows Security dialog box.'
-title: 'IShellDispatch4.WindowsSecurity method'
+---
+Description: Displays the Windows Security dialog box.
+title: IShellDispatch4.WindowsSecurity method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch4.WindowsSecurity method

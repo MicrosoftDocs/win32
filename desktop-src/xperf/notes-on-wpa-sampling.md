@@ -1,7 +1,12 @@
 ---
 title: Notes on WPA Sampling
 description: Notes on WPA Sampling
-ms.assetid: 'd1624adf-e9da-4738-826a-5cac82c8ab38'
+ms.assetid: d1624adf-e9da-4738-826a-5cac82c8ab38
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Notes on WPA Sampling

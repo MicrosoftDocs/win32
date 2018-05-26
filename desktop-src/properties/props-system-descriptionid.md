@@ -1,7 +1,12 @@
 ---
-Description: 'The contents of an SHDESCRIPTIONID structure, represented as a buffer of bytes.'
-ms.assetid: '985aebfe-7496-4d88-9e9c-c766969949b8'
-title: 'System.DescriptionID'
+Description: The contents of an SHDESCRIPTIONID structure, represented as a buffer of bytes.
+ms.assetid: 985aebfe-7496-4d88-9e9c-c766969949b8
+title: System.DescriptionID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DescriptionID

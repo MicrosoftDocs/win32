@@ -2,7 +2,15 @@
 title: COM, DCOM, and Type Libraries
 description: Component Object Model (COM) and Distributed Component Object Model (DCOM) use Remote Procedure Calls (RPC) to enable distributed component objects to communicate with each other.
 ms.assetid: 7bade397-676e-43be-82f4-b23cd768fd16
-keywords: ["interfaces MIDL , COM", "interfaces MIDL , DCOM", "interfaces MIDL , type libraries"]
+keywords:
+- interfaces MIDL , COM
+- interfaces MIDL , DCOM
+- interfaces MIDL , type libraries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM, DCOM, and Type Libraries

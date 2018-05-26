@@ -1,7 +1,12 @@
 ---
 title: ishr (sm4 - asm)
 description: Arithmetic shift right (sign extending).
-ms.assetid: 'AFE46BBA-A6B2-4691-A3F4-A4141F1578DB'
+ms.assetid: AFE46BBA-A6B2-4691-A3F4-A4141F1578DB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ishr (sm4 - asm)
@@ -15,7 +20,7 @@ Arithmetic shift right (sign extending).
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Arithmetic shift right (sign extending).
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,7 +48,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -62,7 +67,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -71,9 +76,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

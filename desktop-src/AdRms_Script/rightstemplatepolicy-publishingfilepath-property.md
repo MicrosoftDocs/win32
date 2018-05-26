@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the UNC path for the rights templates.'
+Description: Specifies or retrieves the UNC path for the rights templates.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'fdbd3bd6-4bcd-4dff-8eba-99bb926bf61e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: fdbd3bd6-4bcd-4dff-8eba-99bb926bf61e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'RightsTemplatePolicy.PublishingFilePath property'
+title: RightsTemplatePolicy.PublishingFilePath property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RightsTemplatePolicy.PublishingFilePath property
@@ -34,7 +37,7 @@ Before a template can be used, it must be distributed to the client computer. Yo
 > [!Note]  
 > Templates can also be retrieved by using the [**AcquireTemplates**](https://msdn.microsoft.com/library/bb309050) web method in the AD RMS SDK.
 
- 
+ 
 
 ## Examples
 
@@ -108,7 +111,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -120,9 +123,9 @@ END SUB
 [**RightsTemplatePolicy**](rightstemplatepolicy-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create an effect from an ASCII or binary effect description. This is an extended version of D3DXCreateEffectFromResource that allows an application to control which parameters are ignored by the effects system.'
-ms.assetid: '5937bdb1-750a-41f8-a49d-3643427f3e3c'
+---
+Description: Create an effect from an ASCII or binary effect description. This is an extended version of D3DXCreateEffectFromResource that allows an application to control which parameters are ignored by the effects system.
+ms.assetid: 5937bdb1-750a-41f8-a49d-3643427f3e3c
 title: D3DXCreateEffectFromResourceEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateEffectFromResourceEx function
@@ -35,7 +40,7 @@ HRESULT D3DXCreateEffectFromResourceEx(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
 Pointer to the device.
 

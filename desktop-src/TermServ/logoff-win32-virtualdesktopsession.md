@@ -4,11 +4,14 @@ description: Logs off the user from the virtual desktop session.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a9c90ace-324c-4eec-86e1-30ce35307e52'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a9c90ace-324c-4eec-86e1-30ce35307e52
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Logoff method Remote Desktop Services", "Logoff method Remote Desktop Services , Win32_VirtualDesktopSession class", "Win32_VirtualDesktopSession class Remote Desktop Services , Logoff method"]
+keywords:
+- Logoff method Remote Desktop Services
+- Logoff method Remote Desktop Services , Win32_VirtualDesktopSession class
+- Win32_VirtualDesktopSession class Remote Desktop Services , Logoff method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Logoff method of the Win32\_VirtualDesktopSession class
@@ -47,7 +53,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Sensevts.h</dt> </dl>       |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
@@ -62,9 +68,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_VirtualDesktopSession**](win32-virtualdesktopsession.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

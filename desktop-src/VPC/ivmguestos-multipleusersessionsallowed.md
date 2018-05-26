@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS MultipleUserSessionsAllowed property
 description: Determines whether multiple simultaneous user sessions are allowed in the guest operating system.
-ms.assetid: '8a4163bf-b805-4cf0-b785-ee82e8374ef6'
-keywords: ["MultipleUserSessionsAllowed property Virtual PC", "MultipleUserSessionsAllowed property Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , MultipleUserSessionsAllowed property"]
+ms.assetid: 8a4163bf-b805-4cf0-b785-ee82e8374ef6
+keywords:
+- MultipleUserSessionsAllowed property Virtual PC
+- MultipleUserSessionsAllowed property Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , MultipleUserSessionsAllowed property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - IVMGuestOS.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::MultipleUserSessionsAllowed property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Determines whether multiple simultaneous user sessions are allowed in the guest operating system.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MultipleUserSessionsAllowed(
-  [out, retval] VARIANT_BOOL *sessionStatus
+  [out, retval] VARIANT_BOOL *sessionStatus
 );
 ```
 
@@ -64,9 +72,9 @@ For Windows client operating systems, **MultipleUserSessionsAllowed** is **VARIA
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | None supported<br/>                                                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                      |
+| End of client support<br/>    | Windows 7<br/>                                                                      |
 | IDL<br/>                      | <dl> <dt>IVMGuestOS.idl</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>             |
 
@@ -79,9 +87,9 @@ For Windows client operating systems, **MultipleUserSessionsAllowed** is **VARIA
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

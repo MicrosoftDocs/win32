@@ -1,13 +1,16 @@
 ---
-Description: 'Refreshes the collection from the collection saved on the server.'
+Description: Refreshes the collection from the collection saved on the server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '5c09a91b-62fb-40ec-8d72-4376dd536621'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 5c09a91b-62fb-40ec-8d72-4376dd536621
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'TrustedUserDomainCollection::Refresh method'
+title: TrustedUserDomainCollectionRefresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TrustedUserDomainCollection::Refresh method
@@ -133,7 +136,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -148,9 +151,9 @@ END SUB
 [**TrustedUserDomainCollection**](trusteduserdomaincollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

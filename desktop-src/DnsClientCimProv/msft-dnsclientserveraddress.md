@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an interface to a DNS server that includes address information about the remote connection to the server.'
-ms.assetid: '6a62d066-faf5-4a36-b6cd-04b9864f3fa4'
-title: 'MSFT\_DNSClientServerAddress class'
+Description: Represents an interface to a DNS server that includes address information about the remote connection to the server.
+ms.assetid: 6a62d066-faf5-4a36-b6cd-04b9864f3fa4
+title: MSFT\_DNSClientServerAddress class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_DNSClientServerAddress class
@@ -15,37 +20,37 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_DNSClientServerAddress : CIM_RemoteServiceAccessPoint
 {
-  string   InstanceId;
-  string   Caption;
-  string   ElementName;
+  string   InstanceId;
+  string   Caption;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus[];
-  uint16   PrimaryStatus;
-  uint16   EnabledState;
-  string   OtherEnabledState;
-  uint16   RequestedState;
-  uint16   EnabledDefault;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus[];
+  uint16   PrimaryStatus;
+  uint16   EnabledState;
+  string   OtherEnabledState;
+  uint16   RequestedState;
+  uint16   EnabledDefault;
   datetime TimeOfLastStateChange;
-  uint16   TransitioningToState;
-  string   Name;
-  string   SystemCreationClassName;
-  string   SystemName[];
-  string   CreationClassName;
-  string   AccessInfo;
-  uint16   InfoFormat;
-  string   OtherInfoFormatDescription;
-  uint16   AccessContext;
-  string   OtherAccessContext;
-  uint32   InterfaceIndex;
-  string   InterfaceAlias;
-  string   ServerAddresses[];
-  uint16   AddressFamily;
+  uint16   TransitioningToState;
+  string   Name;
+  string   SystemCreationClassName;
+  string   SystemName[];
+  string   CreationClassName;
+  string   AccessInfo;
+  uint16   InfoFormat;
+  string   OtherInfoFormatDescription;
+  uint16   AccessContext;
+  string   OtherAccessContext;
+  uint32   InterfaceIndex;
+  string   InterfaceAlias;
+  string   ServerAddresses[];
+  uint16   AddressFamily;
 };
 ```
 
@@ -68,7 +73,7 @@ The **MSFT\_DNSClientServerAddress** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -109,12 +114,12 @@ This property contains one of the following values. The default value is "0" (un
 | <dl> <dt>8</dt> </dl>         | LDAP Server<br/>                        |
 | <dl> <dt>9</dt> </dl>         | Network Time Protocol (NTP) Server<br/> |
 | <dl> <dt>10</dt> </dl>        | Management Service<br/>                 |
-| <dl> <dt>207–32767</dt> </dl> | DMTF Reserved<br/>                      |
-| <dl> <dt>32768–...</dt> </dl> | Vendor Reserved<br/>                    |
+| <dl> <dt>207 32767</dt> </dl> | DMTF Reserved<br/>                      |
+| <dl> <dt>32768 ...</dt> </dl> | Vendor Reserved<br/>                    |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -191,12 +196,12 @@ This property contains one of the following values:
 | <dl> <dt>2</dt> </dl>            | Communication OK<br/>   |
 | <dl> <dt>3</dt> </dl>            | Lost Communication<br/> |
 | <dl> <dt>4</dt> </dl>            | No Contact<br/>         |
-| <dl> <dt>5–32767</dt> </dl>      | DMTF Reserved<br/>      |
-| <dl> <dt>32768–65535 </dt> </dl> | Vendor Reserved<br/>    |
+| <dl> <dt>5 32767</dt> </dl>      | DMTF Reserved<br/>      |
+| <dl> <dt>32768 65535 </dt> </dl> | Vendor Reserved<br/>    |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -243,12 +248,12 @@ This property contains one of the following values:
 | <dl> <dt>3</dt> </dl>            | Predictive Failure<br/>         |
 | <dl> <dt>4</dt> </dl>            | Non-Recoverable Error<br/>      |
 | <dl> <dt>5</dt> </dl>            | Supporting Entity in Error<br/> |
-| <dl> <dt>5–32767</dt> </dl>      | DMTF Reserved<br/>              |
-| <dl> <dt>32768–65535 </dt> </dl> | Vendor Reserved<br/>            |
+| <dl> <dt>5 32767</dt> </dl>      | DMTF Reserved<br/>              |
+| <dl> <dt>32768 65535 </dt> </dl> | Vendor Reserved<br/>            |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -292,12 +297,12 @@ This property contains one of the following values:
 | <dl> <dt>6</dt> </dl>           | Enabled but Offline<br/> |
 | <dl> <dt>7</dt> </dl>           | No Default<br/>          |
 | <dl> <dt>8</dt> </dl>           | Quiesce<br/>             |
-| <dl> <dt>9–32767</dt> </dl>     | DMTF Reserved<br/>       |
-| <dl> <dt>32768–65535</dt> </dl> | Vendor Reserved<br/>     |
+| <dl> <dt>9 32767</dt> </dl>     | DMTF Reserved<br/>       |
+| <dl> <dt>32768 65535</dt> </dl> | Vendor Reserved<br/>     |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -334,12 +339,12 @@ This property contains one of the following values. The default value is "5" (no
 | <dl> <dt>8</dt> </dl>           | Deferred<br/>            |
 | <dl> <dt>9</dt> </dl>           | Quiesce<br/>             |
 | <dl> <dt>10</dt> </dl>          | Starting<br/>            |
-| <dl> <dt>11–32767</dt> </dl>    | DMTF Reserved<br/>       |
-| <dl> <dt>32768–65535</dt> </dl> | Vendor Reserved<br/>     |
+| <dl> <dt>11 32767</dt> </dl>    | DMTF Reserved<br/>       |
+| <dl> <dt>32768 65535</dt> </dl> | Vendor Reserved<br/>     |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -372,12 +377,12 @@ This property contains one of the following values:
 | <dl> <dt>20</dt> </dl>           | Major failure<br/>         |
 | <dl> <dt>25</dt> </dl>           | Critical failure<br/>      |
 | <dl> <dt>30</dt> </dl>           | Non-recoverable error<br/> |
-| <dl> <dt>31–32767</dt> </dl>     | DMTF Reserved<br/>         |
-| <dl> <dt>32768–65535 </dt> </dl> | Vendor Specific<br/>       |
+| <dl> <dt>31 32767</dt> </dl>     | DMTF Reserved<br/>         |
+| <dl> <dt>32768 65535 </dt> </dl> | Vendor Specific<br/>       |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -426,12 +431,12 @@ This property is inherited from **CIM\_RemoteServiceAccessPoint**.
 | <dl> <dt>204</dt> </dl>       | DER ASN1 GN<br/>              |
 | <dl> <dt>205</dt> </dl>       | Key ID<br/>                   |
 | <dl> <dt>206</dt> </dl>       | Parameterized URL<br/>        |
-| <dl> <dt>207–32767</dt> </dl> | DMTF Reserved<br/>            |
-| <dl> <dt>32768–...</dt> </dl> | Vendor Reserved<br/>          |
+| <dl> <dt>207 32767</dt> </dl> | DMTF Reserved<br/>            |
+| <dl> <dt>32768 ...</dt> </dl> | Vendor Reserved<br/>          |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -551,12 +556,12 @@ This property can contain the following values:
 | <dl> <dt>14</dt> </dl>        | In Test<br/>         |
 | <dl> <dt>15</dt> </dl>        | Transitioning<br/>   |
 | <dl> <dt>16</dt> </dl>        | In Service<br/>      |
-| <dl> <dt>17–32767</dt> </dl>  | DMTF Reserved<br/>   |
-| <dl> <dt>32768–...</dt> </dl> | Vendor Reserved<br/> |
+| <dl> <dt>17 32767</dt> </dl>  | DMTF Reserved<br/>   |
+| <dl> <dt>32768 ...</dt> </dl> | Vendor Reserved<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -606,7 +611,7 @@ This property can contain the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -690,12 +695,12 @@ This property contains one of the following values:
 | <dl> <dt>1</dt> </dl>            | OK<br/>              |
 | <dl> <dt>2</dt> </dl>            | Degraded<br/>        |
 | <dl> <dt>3</dt> </dl>            | Error<br/>           |
-| <dl> <dt>4–32767</dt> </dl>      | DMTF Reserved<br/>   |
-| <dl> <dt>32768–65535 </dt> </dl> | Vendor Reserved<br/> |
+| <dl> <dt>4 32767</dt> </dl>      | DMTF Reserved<br/>   |
+| <dl> <dt>32768 65535 </dt> </dl> | Vendor Reserved<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -730,12 +735,12 @@ This property contains one of the following values. The default value is "12" (n
 | <dl> <dt>10</dt> </dl>          | Reboot<br/>          |
 | <dl> <dt>11</dt> </dl>          | Reset<br/>           |
 | <dl> <dt>12</dt> </dl>          | Not Applicable<br/>  |
-| <dl> <dt>13–32767</dt> </dl>    | DMTF Reserved<br/>   |
-| <dl> <dt>32768–65535</dt> </dl> | Vendor Reserved<br/> |
+| <dl> <dt>13 32767</dt> </dl>    | DMTF Reserved<br/>   |
+| <dl> <dt>32768 65535</dt> </dl> | Vendor Reserved<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -767,7 +772,7 @@ Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (10), [**D
 > [!Note]  
 > This property is deprecated. Instead, use **OperationalStatus**.
 
- 
+ 
 
 Gets the status of the server.
 
@@ -795,7 +800,7 @@ This property contains one of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -900,11 +905,11 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.mi
 | <dl> <dt>10</dt> </dl>     | Reboot<br/>         |
 | <dl> <dt>11</dt> </dl>     | Reset<br/>          |
 | <dl> <dt>12</dt> </dl>     | Not Applicable<br/> |
-| <dl> <dt>13–...</dt> </dl> | DMTF Reserved<br/>  |
+| <dl> <dt>13 ...</dt> </dl> | DMTF Reserved<br/>  |
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -914,8 +919,8 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.mi
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported client<br/> | Windows 8<br/>                                                                        |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DnsClientCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsClientCim.dll</dt> </dl> |
@@ -929,9 +934,9 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.mi
 [Dnsclientcim Provider Classes](dns-client-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

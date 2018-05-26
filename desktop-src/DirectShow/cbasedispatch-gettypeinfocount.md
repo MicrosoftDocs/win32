@@ -1,7 +1,12 @@
 ---
-Description: 'The GetTypeInfoCount method retrieves the number of type information interfaces the object provides.'
-ms.assetid: 'e09e6f6c-6ac8-4ce1-8ce1-ee5374d54183'
-title: 'CBaseDispatch.GetTypeInfoCount method'
+Description: The GetTypeInfoCount method retrieves the number of type information interfaces the object provides.
+ms.assetid: e09e6f6c-6ac8-4ce1-8ce1-ee5374d54183
+title: CBaseDispatch.GetTypeInfoCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseDispatch.GetTypeInfoCount method
@@ -13,7 +18,7 @@ The `GetTypeInfoCount` method retrieves the number of type information interface
 
 ```C++
 HRESULT GetTypeInfoCount(
-   UINT *pctinfo
+   UINT *pctinfo
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,9 +68,9 @@ Returns one of the following values.
 [**CBaseDispatch Class**](cbasedispatch.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Linking to the Remote Access DLL
 description: If an application links statically to the RASAPI32 DLL, the application will fail to load if Remote Access Service is not installed.
-ms.assetid: 'a2399406-f73c-40aa-877c-80f2f99ed10a'
+ms.assetid: a2399406-f73c-40aa-877c-80f2f99ed10a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Linking to the Remote Access DLL

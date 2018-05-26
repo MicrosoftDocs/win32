@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the PageLoadEnter event.'
+---
+Description: The event type class for the PageLoadEnter event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ec840fb3-3d71-402b-8a21-434143c526eb'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ec840fb3-3d71-402b-8a21-434143c526eb
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetPageLoadEnter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetPageLoadEnter class

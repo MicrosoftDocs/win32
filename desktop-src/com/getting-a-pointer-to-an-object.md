@@ -1,7 +1,12 @@
 ---
 title: Getting a Pointer to an Object
 description: Getting a Pointer to an Object
-ms.assetid: '4af9d356-402b-4e69-9f6e-8589057d3ac4'
+ms.assetid: 4af9d356-402b-4e69-9f6e-8589057d3ac4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting a Pointer to an Object
@@ -17,15 +22,15 @@ For information on getting pointers to other interfaces on an object after you h
 
 ## Creating an Object of a Predetermined Type
 
-There are numerous COM functions, such as [**CoGetMalloc**](cogetmalloc.md), that return pointers to specific interface implementations. (**CoGetMalloc** retrieves a pointer to the standard COM memory allocator.) Most of these are helper functions, and most of these functions are described in the reference sections of this documentation, under the specific area they are related to, such as storage or data transfer.
+There are numerous COM functions, such as [**CoGetMalloc**](/windows/win32/combaseapi/nf-combaseapi-cogetmalloc?branch=master), that return pointers to specific interface implementations. (**CoGetMalloc** retrieves a pointer to the standard COM memory allocator.) Most of these are helper functions, and most of these functions are described in the reference sections of this documentation, under the specific area they are related to, such as storage or data transfer.
 
 ## Creating an Object Based on a CLSID
 
-There are several functions that, given a CLSID, a client can call to create an object instance and get a pointer to it. All of these functions are based on the function [**CoGetClassObject**](cogetclassobject.md), which creates a class object and supplies a pointer to an interface that allows you to create instances of that class. While there must be information that says which system the server resides on, there is no need for that information to be contained in the client. The client needs to know only the CLSID and never the absolute path of the server code. For more information, see [Creating an Object Through a Class Object](creating-an-object-through-a-class-object.md).
+There are several functions that, given a CLSID, a client can call to create an object instance and get a pointer to it. All of these functions are based on the function [**CoGetClassObject**](/windows/win32/combaseapi/nf-combaseapi-cogetclassobject?branch=master), which creates a class object and supplies a pointer to an interface that allows you to create instances of that class. While there must be information that says which system the server resides on, there is no need for that information to be contained in the client. The client needs to know only the CLSID and never the absolute path of the server code. For more information, see [Creating an Object Through a Class Object](creating-an-object-through-a-class-object.md).
 
 ## Returning a Pointer to a Separate Object
 
-Among the many interface methods that return a pointer to a separate object are several that create and return a pointer to an *enumerator object*, which allows you to determine how many items of a given type an object maintains. COM defines interfaces for enumerating a wide variety of items, such as strings, important structures, monikers, and [**IUnknown**](iunknown.md) interface pointers. The typical way to create an enumerator instance and get a pointer to its interface is to call a method from another interface. For example, the [**IDataObject**](idataobject.md) interface defines two methods, [**EnumDAdvise**](idataobject-enumdadvise.md) and [**EnumFormatEtc**](idataobject-enumformatetc.md), that return pointers to interfaces on two different enumeration objects. There are many other examples in COM of methods that return pointers to objects, such as the OLE compound document interface [**IOleObject::GetClientSite**](ioleobject-getclientsite.md), which, when called on the embedded or linked object, returns a pointer to the container object's implementation of [**IOleClientSite**](ioleclientsite.md).
+Among the many interface methods that return a pointer to a separate object are several that create and return a pointer to an *enumerator object*, which allows you to determine how many items of a given type an object maintains. COM defines interfaces for enumerating a wide variety of items, such as strings, important structures, monikers, and [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) interface pointers. The typical way to create an enumerator instance and get a pointer to its interface is to call a method from another interface. For example, the [**IDataObject**](/windows/win32/ObjIdl/nn-objidl-idataobject?branch=master) interface defines two methods, [**EnumDAdvise**](/windows/win32/ObjIdl/nf-objidl-idataobject-enumdadvise?branch=master) and [**EnumFormatEtc**](/windows/win32/ObjIdl/nf-objidl-idataobject-enumformatetc?branch=master), that return pointers to interfaces on two different enumeration objects. There are many other examples in COM of methods that return pointers to objects, such as the OLE compound document interface [**IOleObject::GetClientSite**](/windows/win32/OleIdl/nf-oleidl-ioleobject-getclientsite?branch=master), which, when called on the embedded or linked object, returns a pointer to the container object's implementation of [**IOleClientSite**](/windows/win32/OleIdl/nn-oleidl-ioleclientsite?branch=master).
 
 ## Implementing an Object Through Which to Pass an Interface Pointer Directly to the Client
 

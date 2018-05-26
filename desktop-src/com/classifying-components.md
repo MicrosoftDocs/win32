@@ -1,7 +1,12 @@
 ---
 title: Classifying Components
 description: Classifying Components
-ms.assetid: '4d805532-96c9-400d-b78a-f8d0d9bdbf83'
+ms.assetid: 4d805532-96c9-400d-b78a-f8d0d9bdbf83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Classifying Components
@@ -12,7 +17,7 @@ A component category is a set of interfaces that have been assigned a GUID named
 
 A component can be a member of many categories. It is not limited to supporting interfaces in a component category. It can support any interface, in addition to those in a component category.
 
-In contrast to the standard registration of components, in which developers must write code that manually registers objects, component categories automates much of this work. The six methods of the [**ICatRegister**](icatregister.md) interface define component categories and register objects that implement or require them. The [Component Categories Manager](the-component-categories-manager.md) object implements this interface. See **ICatRegister** and [**ICatInformation**](icatinformation.md) for additional information on using component categories.
+In contrast to the standard registration of components, in which developers must write code that manually registers objects, component categories automates much of this work. The six methods of the [**ICatRegister**](/windows/win32/ComCat/nn-comcat-icatregister?branch=master) interface define component categories and register objects that implement or require them. The [Component Categories Manager](the-component-categories-manager.md) object implements this interface. See **ICatRegister** and [**ICatInformation**](/windows/win32/ComCat/nn-comcat-icatinformation?branch=master) for additional information on using component categories.
 
 ## Related topics
 

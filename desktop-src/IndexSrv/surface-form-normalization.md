@@ -1,7 +1,12 @@
 ---
 title: Surface Form Normalization
 description: Surface Form Normalization
-ms.assetid: '5a095f13-ac47-4f25-8acd-aefe10b78693'
+ms.assetid: 5a095f13-ac47-4f25-8acd-aefe10b78693
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Surface Form Normalization

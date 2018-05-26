@@ -1,8 +1,16 @@
 ---
 title: Overview of the Windows Media Format SDK
 description: Overview of the Windows Media Format SDK
-ms.assetid: '9e5d6254-6261-4ca8-84d6-38050c93db22'
-keywords: ["Windows Media Format SDK,ASF file creation and editing", "Advanced Systems Format (ASF),file creation and editing", "ASF (Advanced Systems Format),file creation and editing"]
+ms.assetid: 9e5d6254-6261-4ca8-84d6-38050c93db22
+keywords:
+- Windows Media Format SDK,ASF file creation and editing
+- Advanced Systems Format (ASF),file creation and editing
+- ASF (Advanced Systems Format),file creation and editing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of the Windows Media Format SDK

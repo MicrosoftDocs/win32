@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for image events. The following syntax is simplified from MOF code.'
-ms.assetid: '70ec0542-16d3-4186-a346-7f3c44dedf67'
-title: 'Image\_Load class'
+---
+Description: This class is the event type class for image events. The following syntax is simplified from MOF code.
+ms.assetid: 70ec0542-16d3-4186-a346-7f3c44dedf67
+title: Image\_Load class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image\_Load class

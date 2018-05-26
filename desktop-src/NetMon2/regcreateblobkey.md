@@ -1,7 +1,12 @@
 ---
-Description: 'The RegCreateBlobKey function stores a BLOB at the given registry key.'
-ms.assetid: '14f3763e-aa04-4d51-b388-81ebf0d3952c'
+Description: The RegCreateBlobKey function stores a BLOB at the given registry key.
+ms.assetid: 14f3763e-aa04-4d51-b388-81ebf0d3952c
 title: RegCreateBlobKey function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegCreateBlobKey function
@@ -13,9 +18,9 @@ The **RegCreateBlobKey** function stores a BLOB at the given registry key.
 
 ```C++
 DWORD RegCreateBlobKey(
-  _Out_       HKEY  hkey,
-  _In_  const char  *szBlobName,
-  _In_        HBLOB hBlob
+  _Out_       HKEY  hkey,
+  _In_  const char  *szBlobName,
+  _In_        HBLOB hBlob
 );
 ```
 
@@ -58,8 +63,8 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -73,9 +78,9 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 [RegOpenBlobKey](regopenblobkey.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

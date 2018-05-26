@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IncomingArchive property represents the archive of incoming faxes.'
-ms.assetid: 'bbb56223-9947-437d-a88a-ca11ac413315'
-title: 'FaxFolders.IncomingArchive property'
+---
+Description: The IncomingArchive property represents the archive of incoming faxes.
+ms.assetid: bbb56223-9947-437d-a88a-ca11ac413315
+title: FaxFolders.IncomingArchive property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxFolders.IncomingArchive property
@@ -21,7 +26,7 @@ Property IncomingArchive As IFaxIncomingArchive
 
 ## Property value
 
-A variable of type [**IFaxIncomingArchive**](-mfax-faxincomingarchive-cpp.md) that receives a [**FaxIncomingArchive**](-mfax-faxincomingarchive.md) object.
+A variable of type [**IFaxIncomingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingarchive?branch=master) that receives a [**FaxIncomingArchive**](-mfax-faxincomingarchive.md) object.
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A variable of type [**IFaxIncomingArchive**](-mfax-faxincomingarchive-cpp.md) th
 [**FaxFolders**](-mfax-faxfolders.md)
 </dt> <dt>
 
-[**IFaxFolders**](-mfax-faxfolders-cpp.md)
+[**IFaxFolders**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxfolders?branch=master)
 </dt> </dl>
 
  

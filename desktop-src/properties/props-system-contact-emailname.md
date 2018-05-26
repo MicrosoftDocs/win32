@@ -1,7 +1,12 @@
 ---
-Description: 'Email name of the contact.'
-ms.assetid: 'd8f05c5e-0641-4979-9601-55e3c349cfdd'
-title: 'System.Contact.EmailName'
+Description: Email name of the contact.
+ms.assetid: d8f05c5e-0641-4979-9601-55e3c349cfdd
+title: System.Contact.EmailName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.EmailName

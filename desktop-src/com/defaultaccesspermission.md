@@ -1,13 +1,19 @@
 ---
 title: DefaultAccessPermission
 description: Sets the Access Control List (ACL) of the principals that can access classes for which there is no AccessPermission setting.
-ms.assetid: '02675d0e-a96c-476e-820e-e6ff3c2d1be1'
-keywords: ["DefaultAccessPermission registry value COM"]
+ms.assetid: 02675d0e-a96c-476e-820e-e6ff3c2d1be1
+keywords:
+- DefaultAccessPermission registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefaultAccessPermission
 
-Sets the Access Control List (ACL) of the principals that can access classes for which there is no [**AccessPermission**](accesspermission.md) setting. This ACL is used only by applications that do not call [**CoInitializeSecurity**](coinitializesecurity.md) and do not have an **AccessPermission** value under their [**AppID**](appid-key.md) key.
+Sets the Access Control List (ACL) of the principals that can access classes for which there is no [**AccessPermission**](accesspermission.md) setting. This ACL is used only by applications that do not call [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) and do not have an **AccessPermission** value under their [**AppID**](appid-key.md) key.
 
 > \[!Caution\]  
 > It is not recommended that you change this value, because this will affect all COM server applications that do not set their own process-wide security, and might prevent them from working properly. If you are changing this value to affect the security settings for a particular COM application, then you should instead change the process-wide security settings for that particular COM application. For more information on setting process-wide security, see [Setting Process-wide Security](setting-processwide-security.md).

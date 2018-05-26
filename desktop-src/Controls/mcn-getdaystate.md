@@ -1,8 +1,9 @@
 ---
 title: MCN\_GETDAYSTATE notification code
 description: Sent by a month calendar control to request information about how individual days should be displayed. This notification code is sent only by month calendar controls that use the MCS\_DAYSTATE style, and it is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'dc2608e0-c598-4b26-9195-208f09cd84b7'
-keywords: ["MCN_GETDAYSTATE notification code Windows Controls"]
+ms.assetid: dc2608e0-c598-4b26-9195-208f09cd84b7
+keywords:
+- MCN_GETDAYSTATE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCN\_GETDAYSTATE notification code
@@ -33,7 +39,7 @@ MCN_GETDAYSTATE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMDAYSTATE**](nmdaystate.md) structure. The structure contains information about the time frame for which the control needs information, and it receives the address of an array that provides this data.
+Pointer to an [**NMDAYSTATE**](/windows/win32/Commctrl/ns-commctrl-tagnmdaystate?branch=master) structure. The structure contains information about the time frame for which the control needs information, and it receives the address of an array that provides this data.
 
 </dd> </dl>
 
@@ -51,15 +57,15 @@ Handling this notification code allows your application to customize its display
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is step 3 of the tutorial Audio/Video Playback in DirectShow.'
-ms.assetid: '45679c14-2671-420d-9766-61f2b2bb713a'
-title: 'Step 3: Build the Filter Graph'
+Description: This topic is step 3 of the tutorial Audio/Video Playback in DirectShow.
+ms.assetid: 45679c14-2671-420d-9766-61f2b2bb713a
+title: Step 3 Build the Filter Graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 3: Build the Filter Graph
@@ -15,7 +20,7 @@ The next step is to build a filter graph to play the media file.
 The `DShowPlayer::OpenFile` method opens a media file for playback. This method does the following:
 
 1.  Creates a new (empty) filter graph.
-2.  Calls [**IGraphBuilder::AddSourceFilter**](igraphbuilder-addsourcefilter.md) to add a source filter for the specified file.
+2.  Calls [**IGraphBuilder::AddSourceFilter**](/windows/win32/Strmif/nf-strmif-igraphbuilder-addsourcefilter?branch=master) to add a source filter for the specified file.
 3.  Renders the streams on the source filter.
 
 
@@ -58,8 +63,8 @@ done:
 The `DShowPlayer::InitializeGraph` method creates a new filter graph. This method does the following:
 
 1.  Calls [**CoCreateInstance**](com.cocreateinstance) to create a new instance of the [Filter Graph Manager](filter-graph-manager.md).
-2.  Queries the Filter Graph Manager for the [**IMediaControl**](imediacontrol.md) and [**IMediaEventEx**](imediaeventex.md) interfaces.
-3.  Calls [**IMediaEventEx::SetNotifyWindow**](imediaeventex-setnotifywindow.md) to set up event notification. For more information, see [Event Notification in DirectShow](event-notification-in-directshow.md).
+2.  Queries the Filter Graph Manager for the [**IMediaControl**](/windows/win32/Control/nn-control-imediacontrol?branch=master) and [**IMediaEventEx**](/windows/win32/Control/nn-control-imediaeventex?branch=master) interfaces.
+3.  Calls [**IMediaEventEx::SetNotifyWindow**](/windows/win32/Control/nf-control-imediaeventex-setnotifywindow?branch=master) to set up event notification. For more information, see [Event Notification in DirectShow](event-notification-in-directshow.md).
 
 
 ```C++
@@ -109,11 +114,11 @@ The next step is to connect the source filter to one or more renderer filters.
 
 The `DShowPlayer::RenderStreams` method performs the following steps.
 
-1.  Queries the Filter Graph Manager for the [**IFilterGraph2**](ifiltergraph2.md) interface.
+1.  Queries the Filter Graph Manager for the [**IFilterGraph2**](/windows/win32/Strmif/nn-strmif-ifiltergraph2?branch=master) interface.
 2.  Adds a video renderer filter to the filter graph.
 3.  Adds the [DirectSound Renderer Filter](directsound-renderer-filter.md) to the filter graph, to support audio playback. For more information about adding filters to the filter graph, see [Add a Filter by CLSID](add-a-filter-by-clsid.md).
 4.  Enumerates the output pins on the source filter. For more information about enumerating pins, see [Enumerating Pins](enumerating-pins.md).
-5.  For each pin, calls the [**IFilterGraph2::RenderEx**](ifiltergraph2-renderex.md) method. This method connects the output pin to a renderer filter, adding intermediate filters if needed (such as decoders).
+5.  For each pin, calls the [**IFilterGraph2::RenderEx**](/windows/win32/Strmif/nf-strmif-ifiltergraph2-renderex?branch=master) method. This method connects the output pin to a renderer filter, adding intermediate filters if needed (such as decoders).
 6.  Calls `CVideoRenderer::FinalizeGraph` to finish initializing the video renderer.
 7.  Removes the [DirectSound Renderer](directsound-renderer-filter.md) filter if that filter is not connected to another filter. This can occur if the source file does not contain an audio stream.
 

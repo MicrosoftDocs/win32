@@ -1,7 +1,12 @@
 ---
-Description: 'The following is the complete source code for the basic Winsock TCP/IP Server application.'
-ms.assetid: '949dddec-840e-4f5a-9ab8-e1962a10b599'
+Description: The following is the complete source code for the basic Winsock TCP/IP Server application.
+ms.assetid: 949dddec-840e-4f5a-9ab8-e1962a10b599
 title: Complete Winsock Server Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Complete Winsock Server Code

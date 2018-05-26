@@ -1,8 +1,10 @@
 ---
 title: MDM\_VPNv2\_Manual03 class
 description: The MDM\_VPNv2\_Manual03class is an optional node containing the manual server settings.
-ms.assetid: 'c294c5a2-35e2-46ca-b7d8-9c63f9d3cdd6'
-keywords: ["MDM_VPNv2_Manual03 class", "MDM_VPNv2_Manual03 class, described"]
+ms.assetid: c294c5a2-35e2-46ca-b7d8-9c63f9d3cdd6
+keywords:
+- MDM_VPNv2_Manual03 class
+- MDM_VPNv2_Manual03 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_VPNv2\_Manual03 class
@@ -96,7 +103,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -111,9 +118,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

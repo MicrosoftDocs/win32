@@ -1,7 +1,12 @@
-﻿---
-Description: 'Reads a byte array property.'
-ms.assetid: 'F75E182D-90FA-4597-95E0-60A6326CF68D'
-title: 'IPrinterPropertyBag::GetBytes method'
+---
+Description: Reads a byte array property.
+ms.assetid: F75E182D-90FA-4597-95E0-60A6326CF68D
+title: IPrinterPropertyBagGetBytes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterPropertyBag::GetBytes method

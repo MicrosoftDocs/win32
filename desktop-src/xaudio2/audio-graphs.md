@@ -1,7 +1,12 @@
 ---
-Description: 'This section lists the overview topics about the XAudio2 audio graph.'
-ms.assetid: '252015f6-ea63-1a72-ce13-25a4fccdab0b'
+Description: This section lists the overview topics about the XAudio2 audio graph.
+ms.assetid: 252015f6-ea63-1a72-ce13-25a4fccdab0b
 title: Audio Graphs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Graphs

@@ -1,8 +1,25 @@
 ---
 title: Subscribing to UI Automation Events
 description: Microsoft UI Automation allows clients to subscribe to events of interest. This capability improves performance by eliminating the need to continually poll the UI elements in the system to see if any information, structure, or state has changed.
-ms.assetid: '7019ecb8-6123-4e00-926c-6725d7e71385'
-keywords: ["clients,UI Automation events", "clients,events for UI Automation", "UI Automation,events for clients", "UI Automation,client events", "UI Automation,subscribing to events", "UI Automation,subscription methods", "UI Automation,code examples", "UI Automation,examples", "UI Automation,samples", "subscribing to UI Automation events", "events,UI Automation subscription", "Samples"]
+ms.assetid: 7019ecb8-6123-4e00-926c-6725d7e71385
+keywords:
+- clients,UI Automation events
+- clients,events for UI Automation
+- UI Automation,events for clients
+- UI Automation,client events
+- UI Automation,subscribing to events
+- UI Automation,subscription methods
+- UI Automation,code examples
+- UI Automation,examples
+- UI Automation,samples
+- subscribing to UI Automation events
+- events,UI Automation subscription
+- Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subscribing to UI Automation Events
@@ -31,17 +48,17 @@ This topic contains the following sections.
 
 ## Registering Event Handlers
 
-Client applications subscribe to events of a particular kind by registering an event handler, using one of the following [**IUIAutomation**](uiauto-iuiautomation.md) methods.
+Client applications subscribe to events of a particular kind by registering an event handler, using one of the following [**IUIAutomation**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomation?branch=master) methods.
 
 
 
 | Subscription Method                                                                                                                                                                                                | Event Type       | Callback Interface                                                                                    |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------------------------------------------------------------------------------------------------|
-| [**AddFocusChangedEventHandler**](uiauto-iuiautomation-addfocuschangedeventhandler.md)                                                                                                                            | Focus change     | [**IUIAutomationFocusChangedEventHandler**](uiauto-iuiautomationfocuschangedeventhandler.md)         |
-| [**AddPropertyChangedEventHandler**](uiauto-iuiautomation-addpropertychangedeventhandler.md), [**AddPropertyChangedEventHandlerNativeArray**](uiauto-iuiautomation-addpropertychangedeventhandlernativearray.md) | Property change  | [**IUIAutomationPropertyChangedEventHandler**](uiauto-iuiautomationpropertychangedeventhandler.md)   |
-| [**AddStructureChangedEventHandler**](uiauto-iuiautomation-addstructurechangedeventhandler.md)                                                                                                                    | Structure change | [**IUIAutomationStructureChangedEventHandler**](uiauto-iuiautomationstructurechangedeventhandler.md) |
-| [**AddNotificationEventHandler**](uiauto-iuiautomation5-addnotificationeventhandler.md)                                                                                                                           | Notification     | [**IUIAutomationNotificationEventHandler**](uiauto-iuiautomationnotificationeventhandler.md)         |
-| [**AddAutomationEventHandler**](uiauto-iuiautomation-addautomationeventhandler.md)                                                                                                                                | Other events     | [**IUIAutomationEventHandler**](uiauto-iuiautomationeventhandler.md)                                 |
+| [**AddFocusChangedEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addfocuschangedeventhandler?branch=master)                                                                                                                            | Focus change     | [**IUIAutomationFocusChangedEventHandler**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationfocuschangedeventhandler?branch=master)         |
+| [**AddPropertyChangedEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addpropertychangedeventhandler?branch=master), [**AddPropertyChangedEventHandlerNativeArray**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addpropertychangedeventhandlernativearray?branch=master) | Property change  | [**IUIAutomationPropertyChangedEventHandler**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationpropertychangedeventhandler?branch=master)   |
+| [**AddStructureChangedEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addstructurechangedeventhandler?branch=master)                                                                                                                    | Structure change | [**IUIAutomationStructureChangedEventHandler**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationstructurechangedeventhandler?branch=master) |
+| [**AddNotificationEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation5-addnotificationeventhandler?branch=master)                                                                                                                           | Notification     | [**IUIAutomationNotificationEventHandler**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationnotificationeventhandler?branch=master)         |
+| [**AddAutomationEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addautomationeventhandler?branch=master)                                                                                                                                | Other events     | [**IUIAutomationEventHandler**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationeventhandler?branch=master)                                 |
 
 
 
@@ -49,11 +66,11 @@ Client applications subscribe to events of a particular kind by registering an e
 
 When a client adds an event handler for all descendants ([**TreeScope\_Descendants**](uiauto-treescopeenum.md#treescope-descendants)), UI Automation adds only one handler for the root of sub-tree, and the handler listens across all descendents. UI Automation does not add event handlers recursively.
 
-When a client calls the [**IUIAutomation::RemoveAllEventHandlers**](uiauto-iuiautomation-removealleventhandlers.md) method, UI Automation removes all event handlers from the client process.
+When a client calls the [**IUIAutomation::RemoveAllEventHandlers**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-removealleventhandlers?branch=master) method, UI Automation removes all event handlers from the client process.
 
-To receive and handle events, you implement an event-handling object that exposes a callback interface, and you must register the object by calling an event registration method such as [**IUIAutomation::AddPropertyChangedEventHandler**](uiauto-iuiautomation-addpropertychangedeventhandler.md). The callback interface has a single method; UI Automation calls this method when the event is processed.
+To receive and handle events, you implement an event-handling object that exposes a callback interface, and you must register the object by calling an event registration method such as [**IUIAutomation::AddPropertyChangedEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addpropertychangedeventhandler?branch=master). The callback interface has a single method; UI Automation calls this method when the event is processed.
 
-On shutdown, or when UI Automation events are no longer of interest to the application, UI Automation clients should call one or more of the following [**IUIAutomation**](uiauto-iuiautomation.md) methods.
+On shutdown, or when UI Automation events are no longer of interest to the application, UI Automation clients should call one or more of the following [**IUIAutomation**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomation?branch=master) methods.
 
 > [!Note]  
 > A UI Automation client should not use multiple threads to add or remove event handlers. Unexpected behavior can result if one event handler is being added or removed while another is being added or removed in the same client process.
@@ -64,12 +81,12 @@ On shutdown, or when UI Automation events are no longer of interest to the appli
 
 | Method                                                                                                | Description                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**RemoveAutomationEventHandler**](uiauto-iuiautomation-removeautomationeventhandler.md)             | Unregisters an event handler that was registered by using [**AddAutomationEventHandler**](uiauto-iuiautomation-addautomationeventhandler.md).                                                                                                                                  |
-| [**RemoveFocusChangedEventHandler**](uiauto-iuiautomation-removefocuschangedeventhandler.md)         | Unregisters an event handler that was registered by using [**AddFocusChangedEventHandler**](uiauto-iuiautomation-addfocuschangedeventhandler.md).                                                                                                                              |
-| [**RemovePropertyChangedEventHandler**](uiauto-iuiautomation-removepropertychangedeventhandler.md)   | Unregisters an event handler that was registered by using [**AddPropertyChangedEventHandler**](uiauto-iuiautomation-addpropertychangedeventhandler.md) or [**AddPropertyChangedEventHandlerNativeArray**](uiauto-iuiautomation-addpropertychangedeventhandlernativearray.md). |
-| [**RemoveStructureChangedEventHandler**](uiauto-iuiautomation-removestructurechangedeventhandler.md) | Unregisters an event handler that was registered by using [**AddStructureChangedEventHandler**](uiauto-iuiautomation-addstructurechangedeventhandler.md).                                                                                                                      |
-| [**RemoveNotificationEventHandler**](uiauto-iuiautomation5-removenotificationeventhandler.md)        | Unregisters an event handler that weas registered by using [**AddNotificationEventHandler**](uiauto-iuiautomation5-addnotificationeventhandler.md).                                                                                                                            |
-| [**RemoveAllEventHandlers**](uiauto-iuiautomation-removealleventhandlers.md)                         | Unregisters all registered event handlers.                                                                                                                                                                                                                                      |
+| [**RemoveAutomationEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-removeautomationeventhandler?branch=master)             | Unregisters an event handler that was registered by using [**AddAutomationEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addautomationeventhandler?branch=master).                                                                                                                                  |
+| [**RemoveFocusChangedEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-removefocuschangedeventhandler?branch=master)         | Unregisters an event handler that was registered by using [**AddFocusChangedEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addfocuschangedeventhandler?branch=master).                                                                                                                              |
+| [**RemovePropertyChangedEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-removepropertychangedeventhandler?branch=master)   | Unregisters an event handler that was registered by using [**AddPropertyChangedEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addpropertychangedeventhandler?branch=master) or [**AddPropertyChangedEventHandlerNativeArray**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addpropertychangedeventhandlernativearray?branch=master). |
+| [**RemoveStructureChangedEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-removestructurechangedeventhandler?branch=master) | Unregisters an event handler that was registered by using [**AddStructureChangedEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addstructurechangedeventhandler?branch=master).                                                                                                                      |
+| [**RemoveNotificationEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation5-removenotificationeventhandler?branch=master)        | Unregisters an event handler that weas registered by using [**AddNotificationEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation5-addnotificationeventhandler?branch=master).                                                                                                                            |
+| [**RemoveAllEventHandlers**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-removealleventhandlers?branch=master)                         | Unregisters all registered event handlers.                                                                                                                                                                                                                                      |
 
 
 

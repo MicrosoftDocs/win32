@@ -4,11 +4,14 @@ description: Sets the permissions on a virtual machine for the current user.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6ac45983-d468-4a3b-875f-48717ba23ed0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 6ac45983-d468-4a3b-875f-48717ba23ed0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RdvSetupVMPermissions method Remote Desktop Services", "RdvSetupVMPermissions method Remote Desktop Services , Win32_RdvhManagement class", "Win32_RdvhManagement class Remote Desktop Services , RdvSetupVMPermissions method"]
+keywords:
+- RdvSetupVMPermissions method Remote Desktop Services
+- RdvSetupVMPermissions method Remote Desktop Services , Win32_RdvhManagement class
+- Win32_RdvhManagement class Remote Desktop Services , RdvSetupVMPermissions method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RdvSetupVMPermissions method of the Win32\_RdvhManagement class
@@ -28,7 +34,7 @@ Sets the permissions on a virtual machine for the current user.
 
 ```mof
 uint32 RdvSetupVMPermissions(
-  [in] string VmName
+  [in] string VmName
 );
 ```
 
@@ -56,7 +62,7 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>TSVmHost.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TSVmHostWmi.dll</dt> </dl> |
@@ -70,9 +76,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 [**Win32\_RdvhManagement**](win32-rdvhmanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

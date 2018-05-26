@@ -1,8 +1,19 @@
 ---
 title: Working with Writer Sinks
 description: Working with Writer Sinks
-ms.assetid: '1ad28684-47d2-4ddb-bf18-22310f0392a0'
-keywords: ["Advanced Systems Format (ASF),writer sinks", "ASF (Advanced Systems Format),writer sinks", "Advanced Systems Format (ASF),sinks", "ASF (Advanced Systems Format),sinks", "sinks,writer sinks", "writer sinks,about"]
+ms.assetid: 1ad28684-47d2-4ddb-bf18-22310f0392a0
+keywords:
+- Advanced Systems Format (ASF),writer sinks
+- ASF (Advanced Systems Format),writer sinks
+- Advanced Systems Format (ASF),sinks
+- ASF (Advanced Systems Format),sinks
+- sinks,writer sinks
+- writer sinks,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Writer Sinks
@@ -33,10 +44,10 @@ The following sections describe the use of writer sinks.
 
 <dl> <dt>
 
-[**IWMWriterAdvanced Interface**](iwmwriteradvanced.md)
+[**IWMWriterAdvanced Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced?branch=master)
 </dt> <dt>
 
-[**IWMWriterSink Interface**](iwmwritersink.md)
+[**IWMWriterSink Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmwritersink?branch=master)
 </dt> <dt>
 
 [**Writing ASF Files**](writing-asf-files.md)

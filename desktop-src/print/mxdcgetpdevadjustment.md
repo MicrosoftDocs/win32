@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MxdcGetPDEVAdjustment function is exported by a printer interface DLL and supplies printer configuration data for the Microsoft XPS Document Converter (MXDC).'
-ms.assetid: '4839337b-0328-4919-8f49-d7847743845c'
+---
+Description: The MxdcGetPDEVAdjustment function is exported by a printer interface DLL and supplies printer configuration data for the Microsoft XPS Document Converter (MXDC).
+ms.assetid: 4839337b-0328-4919-8f49-d7847743845c
 title: MxdcGetPDEVAdjustment function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MxdcGetPDEVAdjustment function

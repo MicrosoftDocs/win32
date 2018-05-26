@@ -1,7 +1,12 @@
 ---
-Description: 'Example code that shows how an application can append one file to the end of another file, including how to open and close files, read and write to files, and lock and unlock files.'
-ms.assetid: 'e4d1f842-16a1-47e4-84b4-9bb44aaa1dc5'
+Description: Example code that shows how an application can append one file to the end of another file, including how to open and close files, read and write to files, and lock and unlock files.
+ms.assetid: e4d1f842-16a1-47e4-84b4-9bb44aaa1dc5
 title: Appending One File to Another File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Appending One File to Another File
@@ -12,12 +17,12 @@ In the example, the application appends one file to the end of another file. Fir
 
 This example does not use transactions. If you were using transacted operations, you would only be able have read-only access. In this case, you would only see the appended data after the transaction commit operation completed.
 
-The example also shows that the application opens two files by using [**CreateFile**](createfile.md):
+The example also shows that the application opens two files by using [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master):
 
 -   One.txt is opened for reading.
 -   Two.txt is opened for writing and shared reading.
 
-Then the application uses [**ReadFile**](readfile.md) and [**WriteFile**](writefile.md) to append the contents of One.txt to the end of Two.txt by reading and writing the 4 KB blocks. However, before writing to the second file, the application uses [**SetFilePointer**](setfilepointer.md) to set the pointer of the second file to the end of that file, and uses [**LockFile**](lockfile.md) to lock the area to be written. This prevents another thread or process with a duplicate handle from accessing the area while the write operation is in progress. When each write operation is complete, [**UnlockFile**](unlockfile.md) is used to unlock the locked area.
+Then the application uses [**ReadFile**](/windows/win32/FileAPI/nf-fileapi-readfile?branch=master) and [**WriteFile**](/windows/win32/FileAPI/nf-fileapi-writefile?branch=master) to append the contents of One.txt to the end of Two.txt by reading and writing the 4 KB blocks. However, before writing to the second file, the application uses [**SetFilePointer**](/windows/win32/FileAPI/nf-fileapi-setfilepointer?branch=master) to set the pointer of the second file to the end of that file, and uses [**LockFile**](/windows/win32/FileAPI/nf-fileapi-lockfile?branch=master) to lock the area to be written. This prevents another thread or process with a duplicate handle from accessing the area while the write operation is in progress. When each write operation is complete, [**UnlockFile**](/windows/win32/FileAPI/nf-fileapi-unlockfile?branch=master) is used to unlock the locked area.
 
 
 ```C++

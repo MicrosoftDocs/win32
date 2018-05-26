@@ -1,8 +1,11 @@
 ---
 title: ID3DX11DataLoader Decompress method
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Decompresses encoded data.
-ms.assetid: '68579c86-9f77-444b-86b3-746cff745be8'
-keywords: ["Decompress method Direct3D 11", "Decompress method Direct3D 11 , ID3DX11DataLoader interface", "ID3DX11DataLoader interface Direct3D 11 , Decompress method"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Decompresses encoded data.
+ms.assetid: 68579c86-9f77-444b-86b3-746cff745be8
+keywords:
+- Decompress method Direct3D 11
+- Decompress method Direct3D 11 , ID3DX11DataLoader interface
+- ID3DX11DataLoader interface Direct3D 11 , Decompress method
 topic_type:
 - apiref
 api_name:
@@ -12,14 +15,19 @@ api_location:
 - D3DX11.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11DataLoader::Decompress method
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 Decompresses encoded data.
 
@@ -28,8 +36,8 @@ Decompresses encoded data.
 
 ```C++
 HRESULT Decompress(
-  [out] void   **ppData,
-  [in]  SIZE_T *pcBytes
+  [out] void   **ppData,
+  [in]  SIZE_T *pcBytes
 );
 ```
 
@@ -90,9 +98,9 @@ Use this method to load resources from file systems, such as ZIP files. When loa
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

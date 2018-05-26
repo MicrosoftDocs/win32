@@ -1,7 +1,12 @@
 ---
-Description: 'This topic shows some helper functions for connecting DirectShow filters.'
-ms.assetid: 'cfd85944-7ae7-49e6-948f-9e190cdeed12'
+Description: This topic shows some helper functions for connecting DirectShow filters.
+ms.assetid: cfd85944-7ae7-49e6-948f-9e190cdeed12
 title: Connect Two Filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connect Two Filters
@@ -10,9 +15,9 @@ This topic shows some helper functions for connecting DirectShow filters.
 
 To connect two filters, you must find an unconnected output pin on the upstream filter, and an unconnected input pin on the downstream filter.
 
-If you already have pointers to both pins, call the [**IGraphBuilder::Connect**](igraphbuilder-connect.md) method to connect them. If the pins cannot connect directly to each other, the **IGraphBuilder::Connect** method might insert additional filters, to complete the connection. For more information, see [Intelligent Connect](intelligent-connect.md).
+If you already have pointers to both pins, call the [**IGraphBuilder::Connect**](/windows/win32/Strmif/nf-strmif-igraphbuilder-connect?branch=master) method to connect them. If the pins cannot connect directly to each other, the **IGraphBuilder::Connect** method might insert additional filters, to complete the connection. For more information, see [Intelligent Connect](intelligent-connect.md).
 
-If you have a pointer to the filters but not the pins, you must use the [**IBaseFilter::EnumPins**](ibasefilter-enumpins.md) method to find the pins. (See [Enumerating Pins](enumerating-pins.md).) The helper functions in this topic demonstrate this technique.
+If you have a pointer to the filters but not the pins, you must use the [**IBaseFilter::EnumPins**](/windows/win32/Strmif/nf-strmif-ibasefilter-enumpins?branch=master) method to find the pins. (See [Enumerating Pins](enumerating-pins.md).) The helper functions in this topic demonstrate this technique.
 
 ### Output Pin to Filter
 
@@ -46,7 +51,7 @@ HRESULT ConnectFilters(
 This function does the following:
 
 1.  Calls the `FindUnconnectedPin` function to get an unconnected input pin. This function is shown in the topic [Find an Unconnected Pin on a Filter](find-an-unconnected-pin-on-a-filter.md).
-2.  Calls [**IGraphBuilder::Connect**](igraphbuilder-connect.md) to connect the two pins.
+2.  Calls [**IGraphBuilder::Connect**](/windows/win32/Strmif/nf-strmif-igraphbuilder-connect?branch=master) to connect the two pins.
 
 ### Filter to Input Pin
 
@@ -106,7 +111,7 @@ HRESULT ConnectFilters(IGraphBuilder *pGraph, IBaseFilter *pSrc, IBaseFilter *pD
 [General Graph-Building Techniques](general-graph-building-techniques.md)
 </dt> <dt>
 
-[**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md)
+[**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master)
 </dt> </dl>
 
  

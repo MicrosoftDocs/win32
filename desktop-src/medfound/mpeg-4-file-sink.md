@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MPEG-4 file sink creates MP4 files.'
-ms.assetid: '069b8e72-d081-466e-ac8d-c3f81c8a6f35'
-title: 'MPEG-4 File Sink'
+---
+Description: The MPEG-4 file sink creates MP4 files.
+ms.assetid: 069b8e72-d081-466e-ac8d-c3f81c8a6f35
+title: MPEG-4 File Sink
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-4 File Sink
@@ -18,13 +23,13 @@ The MPEG-4 file sink creates MP4 files. For more information about the MP4 file 
 
 The MPEG-4 file sink does not encapsulate encoding functionality.
 
-To create the MPEG-4 file sink, call the [**MFCreateMPEG4MediaSink**](mfcreatempeg4mediasink.md) function. The MPEG-4 file sink exposes the following interfaces through **QueryInterface**:
+To create the MPEG-4 file sink, call the [**MFCreateMPEG4MediaSink**](/windows/win32/mfidl/nf-mfidl-mfcreatempeg4mediasink?branch=master) function. The MPEG-4 file sink exposes the following interfaces through **QueryInterface**:
 
--   [**IMFClockStateSink**](imfclockstatesink.md)
--   [**IMFFinalizableMediaSink**](imffinalizablemediasink.md)
--   [**IMFGetService**](imfgetservice.md)
--   [**IMFMediaEventGenerator**](imfmediaeventgenerator.md)
--   [**IMFMediaSink**](imfmediasink.md)
+-   [**IMFClockStateSink**](/windows/win32/mfidl/nn-mfidl-imfclockstatesink?branch=master)
+-   [**IMFFinalizableMediaSink**](/windows/win32/mfidl/nn-mfidl-imffinalizablemediasink?branch=master)
+-   [**IMFGetService**](/windows/win32/mfidl/nn-mfidl-imfgetservice?branch=master)
+-   [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master)
+-   [**IMFMediaSink**](/windows/win32/mfidl/nn-mfidl-imfmediasink?branch=master)
 
 ## Sample Description Box
 
@@ -49,7 +54,7 @@ For other formats, the sample description box must be provided in the media type
 
  
 
-In some cases, it is not possible to generate a sample description box until all of the data has been encoded. For example, information such as the average bit rate might not be known ahead of time. In that case, you can update the media type by using the [**IMFMediaTypeHandler**](imfmediatypehandler.md) interface on the MPEG-4 file sink. This must be done before the media sink is finalized.
+In some cases, it is not possible to generate a sample description box until all of the data has been encoded. For example, information such as the average bit rate might not be known ahead of time. In that case, you can update the media type by using the [**IMFMediaTypeHandler**](/windows/win32/mfidl/nn-mfidl-imfmediatypehandler?branch=master) interface on the MPEG-4 file sink. This must be done before the media sink is finalized.
 
 Typically the media type is created by an upstream encoder. The encoder can generate a new media type during streaming, through a dynamic format change. For more information, see [Dynamic Format Changes](basic-mft-processing-model.md#dynamic-format-changes).
 
@@ -140,7 +145,7 @@ The MPEG-4 file sink creates the MPEG-4 variant of the MP3 sample description bo
 -   Files larger than 4 GB are supported in Windows 8 MPEG-4 sink for non-fragmental MP4.
 -   Scrubbing has been optimized in Windows 8 MPEG-4 source.
 
-    To reduce latency, information for the two nearest key frames for a particular seek position are exposed through [**IMFSeekInfo::GetNearestKeyFrames**](imfseekinfo-getnearestkeyframes.md). Since the key frame does not have dependent frames, it presents the frame after decoding only one frame. Use [**IMFGetService::GetService**](imfgetservice-getservice.md) to obtain this interface through the media source, pipeline, or application.
+    To reduce latency, information for the two nearest key frames for a particular seek position are exposed through [**IMFSeekInfo::GetNearestKeyFrames**](/windows/win32/mfidl/nf-mfidl-imfseekinfo-getnearestkeyframes?branch=master). Since the key frame does not have dependent frames, it presents the frame after decoding only one frame. Use [**IMFGetService::GetService**](/windows/win32/mfidl/nf-mfidl-imfgetservice-getservice?branch=master) to obtain this interface through the media source, pipeline, or application.
 
     Set rate to zero in MPEG-4 source. When the pipeline is in scrubbing mode, the rate is zero.
 

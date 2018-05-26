@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetJob method returns an outbound fax job in the job queue according to its ID.'
-ms.assetid: '688fb115-df7b-40f1-a3aa-25ad6333afd4'
-title: 'FaxOutgoingQueue.GetJob method'
+---
+Description: The GetJob method returns an outbound fax job in the job queue according to its ID.
+ms.assetid: 688fb115-df7b-40f1-a3aa-25ad6333afd4
+title: FaxOutgoingQueue.GetJob method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingQueue.GetJob method
@@ -40,9 +45,9 @@ A [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md) object.
 
 ## Remarks
 
-To use this method, a user must have the [****farSUBMIT\_LOW****](-mfax-fax-access-rights-enum.md) or [****farQUERY\_JOBS****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farSUBMIT\_LOW****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) or [****farQUERY\_JOBS****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
-With the [****farSUBMIT\_LOW****](-mfax-fax-access-rights-enum.md) access right, users can use this method only for their own faxes. With the [****farQUERY\_JOBS****](-mfax-fax-access-rights-enum.md) access right, users can use this method for all faxes on the server.
+With the [****farSUBMIT\_LOW****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right, users can use this method only for their own faxes. With the [****farQUERY\_JOBS****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right, users can use this method for all faxes on the server.
 
 ## Requirements
 
@@ -64,7 +69,7 @@ With the [****farSUBMIT\_LOW****](-mfax-fax-access-rights-enum.md) access right,
 [**FaxOutgoingQueue**](-mfax-faxoutgoingqueue.md)
 </dt> <dt>
 
-[**IFaxOutgoingQueue**](-mfax-faxoutgoingqueue-cpp.md)
+[**IFaxOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingqueue?branch=master)
 </dt> <dt>
 
 [Managing Outgoing Jobs](-mfax-managing-outgoing-jobs.md)

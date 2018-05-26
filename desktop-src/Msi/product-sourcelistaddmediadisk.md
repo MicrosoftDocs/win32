@@ -1,12 +1,17 @@
-﻿---
-Description: 'The SourceListAddMediaDisk method adds a disk to the set of registered disks. Accepts Diskid, VolumeLabel and DiskPrompt as parameters. This method calls on MsiSourceListAddMediaDisk.'
-ms.assetid: '19cb6884-2191-4da3-a6d2-8874564be67d'
-title: 'Product.SourceListAddMediaDisk method'
+---
+Description: The SourceListAddMediaDisk method adds a disk to the set of registered disks. Accepts Diskid, VolumeLabel and DiskPrompt as parameters. This method calls on MsiSourceListAddMediaDisk.
+ms.assetid: 19cb6884-2191-4da3-a6d2-8874564be67d
+title: Product.SourceListAddMediaDisk method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product.SourceListAddMediaDisk method
 
-The **SourceListAddMediaDisk** method adds a disk to the set of registered disks. Accepts *Diskid*, *VolumeLabel* and *DiskPrompt* as parameters. This method calls on [**MsiSourceListAddMediaDisk**](msisourcelistaddmediadisk.md).
+The **SourceListAddMediaDisk** method adds a disk to the set of registered disks. Accepts *Diskid*, *VolumeLabel* and *DiskPrompt* as parameters. This method calls on [**MsiSourceListAddMediaDisk**](/windows/win32/Msi/nf-msi-msisourcelistaddmediadiska?branch=master).
 
 ## Syntax
 
@@ -69,7 +74,7 @@ This method does not return a value.
 [**Product**](product-object.md)
 </dt> <dt>
 
-[**MsiSourceListAddMediaDisk**](msisourcelistaddmediadisk.md)
+[**MsiSourceListAddMediaDisk**](/windows/win32/Msi/nf-msi-msisourcelistaddmediadiska?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

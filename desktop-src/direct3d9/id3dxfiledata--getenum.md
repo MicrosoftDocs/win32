@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the enumeration object in this file data object.'
-ms.assetid: '383560e2-1888-4e37-9883-2ddbcb101cf6'
-title: 'ID3DXFileData::GetEnum method'
+---
+Description: Retrieves the enumeration object in this file data object.
+ms.assetid: 383560e2-1888-4e37-9883-2ddbcb101cf6
+title: ID3DXFileDataGetEnum method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileData::GetEnum method

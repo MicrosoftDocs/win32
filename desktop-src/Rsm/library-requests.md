@@ -1,7 +1,12 @@
 ---
-Description: 'An RSM library request is a request for an operation to be performed on a library.'
-ms.assetid: 'de2af387-c80e-4c29-bc44-2be819502f08'
+Description: An RSM library request is a request for an operation to be performed on a library.
+ms.assetid: de2af387-c80e-4c29-bc44-2be819502f08
 title: Library Requests
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Library Requests

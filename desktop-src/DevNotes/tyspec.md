@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines ways of mapping to a class ID.'
-ms.assetid: '1af170e3-1edd-411f-acba-d4b244107996'
+---
+Description: Defines ways of mapping to a class ID.
+ms.assetid: 1af170e3-1edd-411f-acba-d4b244107996
 title: TYSPEC enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TYSPEC enumeration
@@ -121,7 +126,7 @@ typedef union switch(DWORD tyspec) {
 
 <dl> <dt>
 
-[**CoInstall**](coinstall.md)
+[**CoInstall**](/windows/win32/Objbase/?branch=master)
 </dt> </dl>
 
  

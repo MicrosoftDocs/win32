@@ -1,7 +1,12 @@
 ---
-Description: 'To decrypt an enveloped message, the recipient matches a certificate from the My store that has an available private key with a certificate in the enveloped message.'
-ms.assetid: '536f9977-102c-4df9-9d07-97b4b434b845'
+Description: To decrypt an enveloped message, the recipient matches a certificate from the My store that has an available private key with a certificate in the enveloped message.
+ms.assetid: 536f9977-102c-4df9-9d07-97b4b434b845
 title: Receiving an Enveloped Data Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving an Enveloped Data Message

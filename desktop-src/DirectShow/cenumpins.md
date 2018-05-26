@@ -1,7 +1,12 @@
 ---
-Description: 'The CEnumPins class implements an enumerator for pins.'
-ms.assetid: '8729f294-c76d-404f-9f51-7565470eced8'
+Description: The CEnumPins class implements an enumerator for pins.
+ms.assetid: 8729f294-c76d-404f-9f51-7565470eced8
 title: CEnumPins class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CEnumPins class
@@ -10,7 +15,7 @@ title: CEnumPins class
 
 The `CEnumPins` class implements an enumerator for pins.
 
-This class implements the [**IEnumPins**](ienumpins.md) interface. It calls the following [**CBaseFilter**](cbasefilter.md) methods:
+This class implements the [**IEnumPins**](/windows/win32/Strmif/nn-strmif-ienumpins?branch=master) interface. It calls the following [**CBaseFilter**](cbasefilter.md) methods:
 
 -   [**CBaseFilter::GetPin**](cbasefilter-getpin.md): Retrieves a pin on the filter, referenced by a zero-based index.
 -   [**CBaseFilter::GetPinCount**](cbasefilter-getpincount.md): Retrieves the total number of pins on the filter.
@@ -32,7 +37,7 @@ If the filter dynamically creates or destroys pins, it increments the pin versio
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,9 +50,9 @@ If the filter dynamically creates or destroys pins, it increments the pin versio
 
 
 
- 
+ 
 
- 
+ 
 
 
 

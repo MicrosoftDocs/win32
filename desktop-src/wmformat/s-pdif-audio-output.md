@@ -1,8 +1,21 @@
 ---
 title: S/PDIF Audio Output
 description: S/PDIF Audio Output
-ms.assetid: '958c4be7-5e53-47fc-96e9-fcf182d27c55'
-keywords: ["Windows Media Format SDK,S/PDIF audio output", "Windows Media Format SDK,audio support", "Windows Media Format SDK,Sony/Philips Digital Interconnect Format (S/PDIF)", "codecs,S/PDIF audio output", "codecs,audio support", "codecs,Sony/Philips Digital Interconnect Format (S/PDIF)", "Sony/Philips Digital Interconnect Format (S/PDIF),audio output", "S/PDIF (Sony/Philips Digital Interconnect Format),audio output"]
+ms.assetid: 958c4be7-5e53-47fc-96e9-fcf182d27c55
+keywords:
+- Windows Media Format SDK,S/PDIF audio output
+- Windows Media Format SDK,audio support
+- Windows Media Format SDK,Sony/Philips Digital Interconnect Format (S/PDIF)
+- codecs,S/PDIF audio output
+- codecs,audio support
+- codecs,Sony/Philips Digital Interconnect Format (S/PDIF)
+- Sony/Philips Digital Interconnect Format (S/PDIF),audio output
+- S/PDIF (Sony/Philips Digital Interconnect Format),audio output
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # S/PDIF Audio Output

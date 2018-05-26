@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TSID property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the inbound fax message.'
-ms.assetid: '37291276-8b59-45cc-b05a-45325ddaf06e'
-title: 'FaxIncomingMessage.TSID property'
+---
+Description: The TSID property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the inbound fax message.
+ms.assetid: 37291276-8b59-45cc-b05a-45325ddaf06e
+title: FaxIncomingMessage.TSID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.TSID property
@@ -46,7 +51,7 @@ A **String** that receives the tsid associated with the inbound fax message.
 [**FaxIncomingMessage**](-mfax-faxincomingmessage.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage**](-mfax-faxincomingmessage-cpp.md)
+[**IFaxIncomingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage?branch=master)
 </dt> </dl>
 
  

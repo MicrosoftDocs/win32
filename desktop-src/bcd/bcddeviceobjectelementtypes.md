@@ -1,14 +1,20 @@
 ---
 title: BcdDeviceObjectElementTypes enumeration
 description: Specifies the device object element types.
-ms.assetid: '70851efa-5797-4084-b994-1f5f94b26e90'
-keywords: ["BcdDeviceObjectElementTypes enumeration Boot Config"]
+ms.assetid: 70851efa-5797-4084-b994-1f5f94b26e90
+keywords:
+- BcdDeviceObjectElementTypes enumeration Boot Config
 topic_type:
 - apiref
 api_name:
 - BcdDeviceObjectElementTypes
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdDeviceObjectElementTypes enumeration
@@ -20,17 +26,17 @@ Specifies the device object element types.
 
 ```C++
 typedef enum BcdDeviceObjectElementTypes { 
-  BcdDeviceInteger_RamdiskImageOffset            = 0x35000001,
-  BcdDeviceInteger_TftpClientPort                = 0x35000002,
-  BcdDeviceInteger_SdiDevice                     = 0x31000003,
-  BcdDeviceInteger_SdiPath                       = 0x32000004,
-  BcdDeviceInteger_RamdiskImageLength            = 0x35000005,
-  BcdDeviceBoolean_RamdiskExportAsCd             = 0x36000006,
-  BcdDeviceInteger_RamdiskTftpBlockSize          = 0x36000007,
-  BcdDeviceInteger_RamdiskTftpWindowSize         = 0x36000008,
-  BcdDeviceBoolean_RamdiskMulticastEnabled       = 0x36000009,
-  BcdDeviceBoolean_RamdiskMulticastTftpFallback  = 0x3600000A,
-  BcdDeviceBoolean_RamdiskTftpVarWindow          = 0x3600000B
+  BcdDeviceInteger_RamdiskImageOffset            = 0x35000001,
+  BcdDeviceInteger_TftpClientPort                = 0x35000002,
+  BcdDeviceInteger_SdiDevice                     = 0x31000003,
+  BcdDeviceInteger_SdiPath                       = 0x32000004,
+  BcdDeviceInteger_RamdiskImageLength            = 0x35000005,
+  BcdDeviceBoolean_RamdiskExportAsCd             = 0x36000006,
+  BcdDeviceInteger_RamdiskTftpBlockSize          = 0x36000007,
+  BcdDeviceInteger_RamdiskTftpWindowSize         = 0x36000008,
+  BcdDeviceBoolean_RamdiskMulticastEnabled       = 0x36000009,
+  BcdDeviceBoolean_RamdiskMulticastTftpFallback  = 0x3600000A,
+  BcdDeviceBoolean_RamdiskTftpVarWindow          = 0x3600000B
 } BcdDeviceObjectElementTypes;
 ```
 
@@ -117,7 +123,7 @@ Enables fallback to TFTP if multicast fails. The element data format is [**BcdBo
 
 Enables or disables the TFTP variable window size extension. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> </dl>
 
@@ -127,8 +133,8 @@ Enables or disables the TFTP variable window size extension. The element data fo
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -151,9 +157,9 @@ Enables or disables the TFTP variable window size extension. The element data fo
 [**BcdElementType**](bcdelementtype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

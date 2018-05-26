@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a CPU error event. This class is available only in 64-bit Windows systems.'
-ms.assetid: '4ee4aa51-a965-4569-b53c-0ba21bf42752'
-title: 'MSMCAEvent\_CPUError class'
+Description: Represents a CPU error event. This class is available only in 64-bit Windows systems.
+ms.assetid: 4ee4aa51-a965-4569-b53c-0ba21bf42752
+title: MSMCAEvent\_CPUError class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAEvent\_CPUError class
@@ -16,16 +21,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSMCAEvent_CPUError : WmiEvent
 {
   boolean Active;
-  uint32  AdditionalErrors;
-  uint32  Cpu;
-  uint8   ErrorSeverity;
-  string  InstanceName;
-  uint32  Level;
-  uint8   RawRecord[];
-  uint64  RecordId;
-  uint32  Size;
-  uint32  Type;
-  uint32  LogToEventlog;
+  uint32  AdditionalErrors;
+  uint32  Cpu;
+  uint8   ErrorSeverity;
+  string  InstanceName;
+  uint32  Level;
+  uint8   RawRecord[];
+  uint64  RecordId;
+  uint32  Size;
+  uint32  Type;
+  uint32  LogToEventlog;
 };
 ```
 
@@ -101,7 +106,7 @@ Severity level of the error reported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -214,8 +219,8 @@ The **MSMCAEvent\_CPUError** class is derived from [**WMIEvent**](wmievent.md).
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -232,9 +237,9 @@ The **MSMCAEvent\_CPUError** class is derived from [**WMIEvent**](wmievent.md).
 [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

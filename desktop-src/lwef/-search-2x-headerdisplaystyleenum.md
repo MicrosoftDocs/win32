@@ -1,8 +1,9 @@
 ---
 title: HeaderDisplayStyle enumeration
 description: Used by IResultsViewer HeaderStyle to set or return the current header style.
-ms.assetid: '13ae6317-d990-4ccf-83b3-275caf953611'
-keywords: ["HeaderDisplayStyle enumeration Legacy Windows Environment Features"]
+ms.assetid: 13ae6317-d990-4ccf-83b3-275caf953611
+keywords:
+- HeaderDisplayStyle enumeration Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - WdsView.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HeaderDisplayStyle enumeration
@@ -24,9 +30,9 @@ Used by [**IResultsViewer::HeaderStyle**](-search-2x-iresultsviewer-headerstyle.
 
 ```C++
 typedef enum HeaderDisplayStyleEnum { 
-  FullHeader     = 0,
-  CompactHeader  = 1,
-  NoHeader       = 2
+  FullHeader     = 0,
+  CompactHeader  = 1,
+  NoHeader       = 2
 } HeaderDisplayStyle;
 ```
 
@@ -67,9 +73,9 @@ Indicates or sets the use of no headers.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

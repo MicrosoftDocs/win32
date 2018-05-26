@@ -1,8 +1,9 @@
 ---
 title: D3DX11ComputeNormalMap function
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the DirectXTex library, ComputeNormalMap.
-ms.assetid: '3ccdbd9a-669e-48ff-97d5-e5a6c7d2fb26'
-keywords: ["D3DX11ComputeNormalMap function Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the DirectXTex library, ComputeNormalMap.
+ms.assetid: 3ccdbd9a-669e-48ff-97d5-e5a6c7d2fb26
+keywords:
+- D3DX11ComputeNormalMap function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,19 +13,24 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11ComputeNormalMap function
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 > [!Note]  
 > Instead of using this function, we recommend that you use the [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926) library, **ComputeNormalMap**.
 
- 
+ 
 
 Converts a height map into a normal map. The (x,y,z) components of each normal are mapped to the (r,g,b) channels of the output texture.
 
@@ -33,12 +39,12 @@ Converts a height map into a normal map. The (x,y,z) components of each normal a
 
 ```C++
 HRESULT D3DX11ComputeNormalMap(
-  _In_ ID3D11DeviceContext *pContext,
-  _In_ ID3D11Texture2D     *pSrcTexture,
-  _In_ UINT                Flags,
-  _In_ UINT                Channel,
-  _In_ FLOAT               Amplitude,
-  _In_ ID3D11Texture2D     *pDestTexture
+  _In_ ID3D11DeviceContext *pContext,
+  _In_ ID3D11Texture2D     *pSrcTexture,
+  _In_ UINT                Flags,
+  _In_ UINT                Channel,
+  _In_ FLOAT               Amplitude,
+  _In_ ID3D11Texture2D     *pDestTexture
 );
 ```
 
@@ -51,18 +57,18 @@ HRESULT D3DX11ComputeNormalMap(
 *pContext* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D11DeviceContext**](id3d11devicecontext.md)\***
+Type: **[**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master)\***
 
-Pointer to an [**ID3D11DeviceContext**](id3d11devicecontext.md) interface, representing the source height-map texture.
+Pointer to an [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) interface, representing the source height-map texture.
 
 </dd> <dt>
 
 *pSrcTexture* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D11Texture2D**](id3d11texture2d.md)\***
+Type: **[**ID3D11Texture2D**](/windows/win32/D3D11/nn-d3d11-id3d11texture2d?branch=master)\***
 
-Pointer to an [**ID3D11Texture2D**](id3d11texture2d.md) interface, representing the source height-map texture.
+Pointer to an [**ID3D11Texture2D**](/windows/win32/D3D11/nn-d3d11-id3d11texture2d?branch=master) interface, representing the source height-map texture.
 
 </dd> <dt>
 
@@ -96,9 +102,9 @@ Constant value multiplier that increases (or decreases) the values in the normal
 *pDestTexture* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D11Texture2D**](id3d11texture2d.md)\***
+Type: **[**ID3D11Texture2D**](/windows/win32/D3D11/nn-d3d11-id3d11texture2d?branch=master)\***
 
-Pointer to an [**ID3D11Texture2D**](id3d11texture2d.md) interface, representing the destination texture.
+Pointer to an [**ID3D11Texture2D**](/windows/win32/D3D11/nn-d3d11-id3d11texture2d?branch=master) interface, representing the destination texture.
 
 </dd> </dl>
 
@@ -130,9 +136,9 @@ This method computes the normal by using the central difference with a kernel si
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: How to Print the Contents of Rich Edit Controls
 description: This section contains information about how to print the contents of rich edit controls.
-ms.assetid: 'd61e2e11-d848-43fc-9622-b3b2032bda48'
+ms.assetid: d61e2e11-d848-43fc-9622-b3b2032bda48
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Print the Contents of Rich Edit Controls
@@ -27,7 +32,7 @@ To format text in a rich edit control as it will appear on a target device (usua
 
 ### Format Print for a Specific Device
 
-To format part of a rich edit control's contents for a specific device, send the [**EM\_FORMATRANGE**](em-formatrange.md) message. The [**FORMATRANGE**](formatrange.md) structure that is used with this message specifies the range of text to format as well as the HDC for the target device. Optionally, this message also sends the text to the printer.
+To format part of a rich edit control's contents for a specific device, send the [**EM\_FORMATRANGE**](em-formatrange.md) message. The [**FORMATRANGE**](/windows/win32/Richedit/ns-richedit-_formatrange?branch=master) structure that is used with this message specifies the range of text to format as well as the HDC for the target device. Optionally, this message also sends the text to the printer.
 
 ### Use Banding
 

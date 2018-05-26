@@ -1,8 +1,11 @@
 ---
 title: TestCaseCollection AddItem method
 description: Creates and adds a new TestCase to the TestCaseCollection.
-ms.assetid: '3A9DB454-CCB8-4CD5-ABD3-594E07828AED'
-keywords: ["AddItem method Access Execution Engine", "AddItem method Access Execution Engine , TestCaseCollection interface", "TestCaseCollection interface Access Execution Engine , AddItem method"]
+ms.assetid: 3A9DB454-CCB8-4CD5-ABD3-594E07828AED
+keywords:
+- AddItem method Access Execution Engine
+- AddItem method Access Execution Engine , TestCaseCollection interface
+- TestCaseCollection interface Access Execution Engine , AddItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCaseCollection::AddItem method
@@ -22,7 +30,7 @@ Creates and adds a new [**TestCase**](testcase-struct.md) to the **TestCaseColle
 
 ```C++
 virtual HRESULT AddItem(
-  [out] TestCase **testCase
+  [out] TestCase **testCase
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ The **TestCase** objects hold information from the **Iteration/TestCases/TestCas
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The **TestCase** objects hold information from the **Iteration/TestCases/TestCas
 [**TestCaseCollection**](testcasecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

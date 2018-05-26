@@ -1,8 +1,11 @@
 ---
 title: JobResults AddAssessmentsFromJob method
 description: Adds Assessment objects to this JobResults object.
-ms.assetid: 'C34CBC16-E49D-40F7-92F9-E8AFE8369F99'
-keywords: ["AddAssessmentsFromJob method Access Execution Engine", "AddAssessmentsFromJob method Access Execution Engine , JobResults interface", "JobResults interface Access Execution Engine , AddAssessmentsFromJob method"]
+ms.assetid: C34CBC16-E49D-40F7-92F9-E8AFE8369F99
+keywords:
+- AddAssessmentsFromJob method Access Execution Engine
+- AddAssessmentsFromJob method Access Execution Engine , JobResults interface
+- JobResults interface Access Execution Engine , AddAssessmentsFromJob method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JobResults::AddAssessmentsFromJob method
@@ -22,7 +30,7 @@ Adds [**Assessment**](assessment-inf.md) objects to this **JobResults** object.
 
 ```C++
 virtual HRESULT AddAssessmentsFromJob(
-  [in] LPCWSTR path
+  [in] LPCWSTR path
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ All assessments in the job manifest file are added.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ All assessments in the job manifest file are added.
 [**JobResults**](jobresults.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'The Operating System category groups classes that represent operating system related objects.'
+Description: The Operating System category groups classes that represent operating system related objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'D0756D8C-A3D3-4C75-96A3-8C7F05300B39'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: D0756D8C-A3D3-4C75-96A3-8C7F05300B39
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Operating System Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Operating System Classes
@@ -68,7 +71,7 @@ The COM subcategory groups classes that represent COM and DCOM settings, classes
 
 
 
- 
+ 
 
 ## Desktop
 
@@ -85,7 +88,7 @@ The Desktop subcategory groups classes that represent objects that define a spec
 
 
 
- 
+ 
 
 ## Drivers
 
@@ -99,7 +102,7 @@ The Drivers subcategory groups classes that represent virtual device drivers and
 
 
 
- 
+ 
 
 ## File System
 
@@ -131,7 +134,7 @@ The File System subcategory groups classes that represent the way a hard disk is
 
 
 
- 
+ 
 
 ## Job Objects
 
@@ -158,7 +161,7 @@ The Job Objects subcategory groups classes that represent classes that provide t
 
 
 
- 
+ 
 
 ## Memory and Page Files
 
@@ -175,7 +178,7 @@ The Memory and Page files subcategory groups classes that represent page file co
 
 
 
- 
+ 
 
 ## Multimedia Audio or Visual
 
@@ -189,7 +192,7 @@ The class in the Multimedia Audio or Visual subcategory represents properties of
 
 
 
- 
+ 
 
 ## Networking
 
@@ -212,7 +215,7 @@ The Networking subcategory groups classes that represent network connections, ne
 
 
 
- 
+ 
 
 ## Operating System Events
 
@@ -239,7 +242,7 @@ The Operating System Events subcategory groups classes that represent events in 
 
 
 
- 
+ 
 
 ## Operating System Settings
 
@@ -279,7 +282,7 @@ The Operating System Settings subcategory groups classes that represent the Oper
 
 
 
- 
+ 
 
 ## Processes
 
@@ -295,7 +298,7 @@ The Processes subcategory groups classes that represent system processes and thr
 
 
 
- 
+ 
 
 ## Registry
 
@@ -309,7 +312,7 @@ The class in the Registry subcategory represents the contents of the Windows reg
 
 
 
- 
+ 
 
 ## Scheduler Jobs
 
@@ -322,11 +325,11 @@ The Scheduler Jobs subcategory groups classes that represent scheduled job setti
 | [**Win32\_CurrentTime**](https://msdn.microsoft.com/library/aa394114) | Abstract class<br/> Represents an instance in time as component seconds, minutes, day of the week, and so on.<br/>                                                                                                                                        |
 | [**Win32\_ScheduledJob**](win32-scheduledjob.md)    | Instance class<br/> Represents a job scheduled using the Windows schedule service.<br/>                                                                                                                                                                   |
 | [**Win32\_LocalTime**](https://msdn.microsoft.com/library/aa394171)     | Instance class<br/> Represents a point in time returned as [**Win32\_LocalTime**](https://msdn.microsoft.com/library/aa394171) objects that result from a query. The **Hour** property is returned as the local time in a 24-hour clock.<br/>                                |
-| [**Win32\_UTCTime**](https://msdn.microsoft.com/library/aa394510)         | Instance class<br/> Represents a point in time that is returned as [**Win32\_UTCTime**](https://msdn.microsoft.com/library/aa394510) objects that result from a query. The **Hour** property is returned as the coordinated universal time (UTC) time in a 24–hour clock.<br/> |
+| [**Win32\_UTCTime**](https://msdn.microsoft.com/library/aa394510)         | Instance class<br/> Represents a point in time that is returned as [**Win32\_UTCTime**](https://msdn.microsoft.com/library/aa394510) objects that result from a query. The **Hour** property is returned as the coordinated universal time (UTC) time in a 24 hour clock.<br/> |
 
 
 
- 
+ 
 
 ## Security
 
@@ -361,7 +364,7 @@ The Security subcategory groups classes that represent system security settings.
 
 
 
- 
+ 
 
 ## Services
 
@@ -376,7 +379,7 @@ The Services subcategory groups classes that represent services and base service
 
 
 
- 
+ 
 
 ## Shares
 
@@ -400,7 +403,7 @@ The Shares subcategory groups classes that represent details of shared resources
 
 
 
- 
+ 
 
 ## Start Menu
 
@@ -419,7 +422,7 @@ The Start Menu subcategory groups classes that represent program groups.
 
 
 
- 
+ 
 
 ## Storage
 
@@ -443,7 +446,7 @@ The Users subcategory groups classes that represent storage information.
 
 
 
- 
+ 
 
 ## Users
 
@@ -466,7 +469,7 @@ The Users subcategory groups classes that represent user account information, su
 
 
 
- 
+ 
 
 ## Windows Event Log
 
@@ -484,7 +487,7 @@ The Windows Event Log subcategory groups classes that represent events, event lo
 
 
 
- 
+ 
 
 ## Windows Product Activation
 
@@ -500,7 +503,7 @@ Windows Product Activation (WPA) is an antipiracy technology to reduce the casua
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -509,9 +512,9 @@ Windows Product Activation (WPA) is an antipiracy technology to reduce the casua
 [Win32 Classes](https://msdn.microsoft.com/library/aa394084)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

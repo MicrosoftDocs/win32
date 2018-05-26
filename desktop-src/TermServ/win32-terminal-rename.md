@@ -4,11 +4,14 @@ description: The Rename method renames the terminal.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '85b5c83b-8ca3-4ed0-852b-b11ba98c18a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 85b5c83b-8ca3-4ed0-852b-b11ba98c18a6
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Rename method Remote Desktop Services", "Rename method Remote Desktop Services , Win32_Terminal class", "Win32_Terminal class Remote Desktop Services , Rename method"]
+keywords:
+- Rename method Remote Desktop Services
+- Rename method Remote Desktop Services , Win32_Terminal class
+- Win32_Terminal class Remote Desktop Services , Rename method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Rename method of the Win32\_Terminal class
@@ -28,7 +34,7 @@ The **Rename** method renames the terminal.
 
 ```mof
 uint32 Rename(
-  [in] string NewTerminalName
+  [in] string NewTerminalName
 );
 ```
 
@@ -59,8 +65,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -74,9 +80,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_Terminal**](win32-terminal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

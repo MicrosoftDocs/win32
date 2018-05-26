@@ -1,8 +1,9 @@
 ---
 title: VMShutdownAction enumeration
 description: The VMShutdownAction enumeration specifies how to shut down a virtual machine.
-ms.assetid: '53fedb71-3cee-43fe-b98c-b3ffe3e12711'
-keywords: ["VMShutdownAction enumeration Virtual Server"]
+ms.assetid: 53fedb71-3cee-43fe-b98c-b3ffe3e12711
+keywords:
+- VMShutdownAction enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMShutdownAction enumeration
@@ -22,9 +28,9 @@ The **VMShutdownAction** enumeration specifies how to shut down a virtual machin
 
 ```C++
 typedef enum  { 
-  vmShutdownAction_Save      = 0,
-  vmShutdownAction_TurnOff   = 1,
-  vmShutdownAction_Shutdown  = 2
+  vmShutdownAction_Save      = 0,
+  vmShutdownAction_TurnOff   = 1,
+  vmShutdownAction_Shutdown  = 2
 } VMShutdownAction;
 ```
 
@@ -61,15 +67,15 @@ Shut down the guest operating system on the virtual machine without undoing the 
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Scale element
 description: Specifies the scale factor to apply to the rectangular mesh for the specified media node.
-ms.assetid: 'd34c0357-c271-4306-a29f-5d23c841b008'
-keywords: ["Scale element Windows Movie Maker and DVD Maker"]
+ms.assetid: d34c0357-c271-4306-a29f-5d23c841b008
+keywords:
+- Scale element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Scale
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scale element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -66,9 +72,9 @@ There are no child elements.
 [**Rotate Element**](rotate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

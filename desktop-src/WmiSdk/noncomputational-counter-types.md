@@ -1,13 +1,16 @@
 ---
-Description: 'Noncomputational counter types do not have an associated formula. The raw value is directly meaningful.'
+Description: Noncomputational counter types do not have an associated formula. The raw value is directly meaningful.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2a6bb3a3-0aec-437a-881a-c4e14fcff6da'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2a6bb3a3-0aec-437a-881a-c4e14fcff6da
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Noncomputational Counter Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Noncomputational Counter Types
@@ -16,7 +19,7 @@ Noncomputational counter types do not have an associated formula. The raw value 
 
 The **FilesToBeIndexed** property in the [**Win32\_PerfRawData\_ContentIndex\_IndexingService**](https://msdn.microsoft.com/library/dn750765) class is an example of the **PERF\_COUNTER\_RAWCOUNT** counter type. It contains a count of files that have not been indexed.
 
-Counter types are designated by the constant defined in Winperf.h—located in the Microsoft Windows Software Development Kit (SDK). The following table lists the noncomputational counter types that are provided.
+Counter types are designated by the constant defined in Winperf.h located in the Microsoft Windows Software Development Kit (SDK). The following table lists the noncomputational counter types that are provided.
 
 
 
@@ -30,7 +33,7 @@ Counter types are designated by the constant defined in Winperf.h—located in the
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -39,9 +42,9 @@ Counter types are designated by the constant defined in Winperf.h—located in the
 [WMI Performance Counter Types](wmi-performance-counter-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: About Filters
 description: About Filters
-ms.assetid: 'da6f9df5-2217-44bb-b75d-b516c74ba1cf'
+ms.assetid: da6f9df5-2217-44bb-b75d-b516c74ba1cf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Filters
@@ -11,13 +16,13 @@ ms.assetid: 'da6f9df5-2217-44bb-b75d-b516c74ba1cf'
 
  
 
-An Indexing Service filter implements the [**IFilter**](ifilter.md) interface for a specific type of file. The filter extracts text and properties from documents for placement in the Indexing Service index. Once this content is in the index, you can query the index to find occurrences of the requested content in the filtered files.
+An Indexing Service filter implements the [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) interface for a specific type of file. The filter extracts text and properties from documents for placement in the Indexing Service index. Once this content is in the index, you can query the index to find occurrences of the requested content in the filtered files.
 
-An Indexing Service filter, also known as a content filter, is a dynamic-link library (DLL) that includes an implementation of the [**IFilter**](ifilter.md) interface for a specific class of files. An Indexing Service filter understands a file format and can extract the text from the content of the file and properties from either the content or associated properties of the file. To filter new file formats, you simply create and install a new filter implementation.
+An Indexing Service filter, also known as a content filter, is a dynamic-link library (DLL) that includes an implementation of the [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) interface for a specific class of files. An Indexing Service filter understands a file format and can extract the text from the content of the file and properties from either the content or associated properties of the file. To filter new file formats, you simply create and install a new filter implementation.
 
 Filters register themselves for a particular file class. For example, an [HTML filter](html-filter.md) can process the class of "htmlfile" files, which include .htm and .html files. For information about filter registration, see [Finding the Filter DLL for a File](finding-the-filter-dll-for-a-file.md).
 
-Content filters also handle embedded or linked objects by having the parent object call the [**IFilter**](ifilter.md) interface methods of the embedded or linked objects. These objects should have their own **IFilter** implementations, supplied by the system or the programmer, which follow the standard COM [containment rules](_com_reusing_objects). [IFilter::Init](ifilter-init.md) accepts a flag to control whether filtering follows links to other objects.
+Content filters also handle embedded or linked objects by having the parent object call the [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) interface methods of the embedded or linked objects. These objects should have their own **IFilter** implementations, supplied by the system or the programmer, which follow the standard COM [containment rules](_com_reusing_objects). [IFilter::Init](/windows/win32/Filter/nf-filter-ifilter-init?branch=master) accepts a flag to control whether filtering follows links to other objects.
 
 You use a filter for the following two purposes:
 

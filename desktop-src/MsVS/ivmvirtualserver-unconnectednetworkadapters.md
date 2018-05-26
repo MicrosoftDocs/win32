@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer UnconnectedNetworkAdapters property
 description: The UnconnectedNetworkAdapters property contains a collection of unconnected IVMNetworkAdapter objects.
-ms.assetid: '0f69fd8e-7037-4c19-a05f-fd81f588b639'
-keywords: ["UnconnectedNetworkAdapters property Virtual Server", "UnconnectedNetworkAdapters property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , UnconnectedNetworkAdapters property", "UnconnectedNetworkAdapters property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , UnconnectedNetworkAdapters property"]
+ms.assetid: 0f69fd8e-7037-4c19-a05f-fd81f588b639
+keywords:
+- UnconnectedNetworkAdapters property Virtual Server
+- UnconnectedNetworkAdapters property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , UnconnectedNetworkAdapters property
+- UnconnectedNetworkAdapters property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , UnconnectedNetworkAdapters property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::UnconnectedNetworkAdapters property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_UnconnectedNetworkAdapters(
-  [out] IVMNetworkAdapterCollection **unconnectedNetworkAdapterCollection
+  [out] IVMNetworkAdapterCollection **unconnectedNetworkAdapterCollection
 );
 ```
 
@@ -91,8 +101,8 @@ Wscript.Echo "Unconnected network adapters: " & objUNA.Count
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -104,9 +114,9 @@ Wscript.Echo "Unconnected network adapters: " & objUNA.Count
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

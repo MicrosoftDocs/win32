@@ -1,7 +1,12 @@
 ---
 title: VCR Command Set
 description: VCR Command Set
-ms.assetid: 'e17ec75d-a98f-46ea-8bef-7e45e1696f43'
+ms.assetid: e17ec75d-a98f-46ea-8bef-7e45e1696f43
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VCR Command Set

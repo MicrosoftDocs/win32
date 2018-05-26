@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_IMEASURE'
-ms.assetid: '48e07cc7-a5bc-404f-8046-fdaf92ba70d7'
-title: 'LOCALE\_IMEASURE'
+Description: LOCALE\_IMEASURE
+ms.assetid: 48e07cc7-a5bc-404f-8046-fdaf92ba70d7
+title: LOCALE\_IMEASURE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_IMEASURE

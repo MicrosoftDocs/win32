@@ -1,8 +1,10 @@
 ---
 title: IMessengerPrivate interface
 description: Do not use. The IMessengerPrivate interface is a Messenger service API that provides programmatic access to the MessengerPriv object.
-ms.assetid: 'b01135fd-48b5-40bc-930f-c2064fbdf12e'
-keywords: ["IMessengerPrivate interface Windows Messenger", "IMessengerPrivate interface Windows Messenger , described"]
+ms.assetid: b01135fd-48b5-40bc-930f-c2064fbdf12e
+keywords:
+- IMessengerPrivate interface Windows Messenger
+- IMessengerPrivate interface Windows Messenger , described
 topic_type:
 - apiref
 api_name:
@@ -11,13 +13,18 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerPrivate interface
 
-\[**IMessengerPrivate** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**IMessengerPrivate** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
-Do not use. The **IMessengerPrivate** interface is a Messenger service  API that provides programmatic access to the [**MessengerPriv**](im-messengerpriv-object.md) object.
+Do not use. The **IMessengerPrivate** interface is a Messenger service  API that provides programmatic access to the [**MessengerPriv**](im-messengerpriv-object.md) object.
 
 ## Members
 
@@ -38,7 +45,7 @@ The **IMessengerPrivate** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -50,10 +57,10 @@ The **IMessengerPrivate** interface has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Product<br/>                  | Messenger 4.5<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl> |
@@ -80,9 +87,9 @@ The **IMessengerPrivate** interface has these methods.
 [Messenger Session Invite and Messenger Private APIs](im-session-invite-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

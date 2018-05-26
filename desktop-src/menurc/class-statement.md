@@ -1,14 +1,20 @@
 ---
 title: CLASS statement
 description: Defines the class of the dialog box.
-ms.assetid: '7c4325fe-66a4-4bb2-9c99-04b3ff590e7a'
-keywords: ["CLASS statement Menus and Other Resources"]
+ms.assetid: 7c4325fe-66a4-4bb2-9c99-04b3ff590e7a
+keywords:
+- CLASS statement Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - CLASS
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CLASS statement

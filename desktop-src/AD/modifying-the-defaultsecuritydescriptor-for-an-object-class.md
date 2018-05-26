@@ -4,11 +4,17 @@ description: The following code example retrieves the default security descripto
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '38b4d129-f98f-43da-9bd9-1ae23c090657'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 38b4d129-f98f-43da-9bd9-1ae23c090657
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["security descriptors AD ,modifying the defaultSecurityDescriptor for an object class", "objects AD ,modifying the defaultSecurityDescriptor for an object class", "class AD ,modifying the defaultSecurityDescriptor for an object class"]
+keywords:
+- security descriptors AD ,modifying the defaultSecurityDescriptor for an object class
+- objects AD ,modifying the defaultSecurityDescriptor for an object class
+- class AD ,modifying the defaultSecurityDescriptor for an object class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Modifying the defaultSecurityDescriptor for an Object Class

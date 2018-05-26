@@ -1,7 +1,12 @@
 ---
-Description: 'The following sample code demonstrates the use of the wait chain traversal API. It enumerates all threads in the system and prints the wait chain for each thread.'
-ms.assetid: '7c5fa606-6e9b-41da-bfa9-1f066449d813'
+Description: The following sample code demonstrates the use of the wait chain traversal API. It enumerates all threads in the system and prints the wait chain for each thread.
+ms.assetid: 7c5fa606-6e9b-41da-bfa9-1f066449d813
 title: Using WCT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WCT
@@ -10,13 +15,13 @@ The following sample code demonstrates the use of the wait chain traversal API. 
 
 To enumerate all threads in the system, run the sample with no parameters. To enumerate only the threads from a specified process, run the sample and pass the process identifier as a parameter. The sample performs the following steps:
 
-1.  Calls the [**RegisterWaitChainCOMCallback**](registerwaitchaincomcallback.md) function to register the COM callback functions.
-2.  Calls the [**OpenThreadWaitChainSession**](openthreadwaitchainsession.md) function to create the wait chain session.
+1.  Calls the [**RegisterWaitChainCOMCallback**](/windows/win32/Wct/nf-wct-registerwaitchaincomcallback?branch=master) function to register the COM callback functions.
+2.  Calls the [**OpenThreadWaitChainSession**](/windows/win32/Wct/nf-wct-openthreadwaitchainsession?branch=master) function to create the wait chain session.
 3.  Calls the [**AdjustTokenPrivileges**](security.adjusttokenprivileges) function to enable the SE\_DEBUG\_NAME privilege.
 4.  Calls the [**EnumProcesses**](base.enumprocesses) and [**CreateToolhelp32Snapshot**](base.createtoolhelp32snapshot) functions to enumerate the specified threads.
-5.  Calls the [**GetThreadWaitChain**](getthreadwaitchain.md) to retrieve an array of [**WAITCHAIN\_NODE\_INFO**](waitchain-node-info.md) structures that contain the nodes of the wait chain.
+5.  Calls the [**GetThreadWaitChain**](/windows/win32/Wct/nf-wct-getthreadwaitchain?branch=master) to retrieve an array of [**WAITCHAIN\_NODE\_INFO**](/windows/win32/Wct/ns-wct-_waitchain_node_info?branch=master) structures that contain the nodes of the wait chain.
 6.  Prints information from the wait chain.
-7.  Calls the [**CloseThreadWaitChainSession**](closethreadwaitchainsession.md) function to clean up the wait chain.
+7.  Calls the [**CloseThreadWaitChainSession**](/windows/win32/Wct/nf-wct-closethreadwaitchainsession?branch=master) function to clean up the wait chain.
 
 
 ```C++

@@ -1,8 +1,9 @@
 ---
 title: EnumColorProfiles function
 description: The EnumColorProfiles function enumerates all the profiles satisfying the given enumeration criteria.
-ms.assetid: '92d38155-e950-4c96-94e9-b66dbf090fca'
-keywords: ["EnumColorProfiles function Windows Color System"]
+ms.assetid: 92d38155-e950-4c96-94e9-b66dbf090fca
+keywords:
+- EnumColorProfiles function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnumColorProfiles function
@@ -24,11 +30,11 @@ The **EnumColorProfiles** function enumerates all the profiles satisfying the gi
 
 ```C++
 BOOL WINAPI EnumColorProfiles(
-   PCTSTR    pMachineName,
-   PENUMTYPE pEnumRecord,
-   PBYTE     pBuffer,
-   PDWORD    pdwSize,
-   PDWORD    pnProfiles
+   PCTSTR    pMachineName,
+   PENUMTYPE pEnumRecord,
+   PBYTE     pBuffer,
+   PDWORD    pdwSize,
+   PDWORD    pnProfiles
 );
 ```
 
@@ -83,7 +89,7 @@ If this function fails, the return value is **FALSE**. For extended error inform
 
 Several profiles are typically associated with printers, based on the paper and ink types. There is a default profile for each device. For International Color Consortium (ICC) profiles, GDI selects the best one from the ICC-associated profiles when your application creates a device context (DC).
 
-Do not attempt to use **EnumColorProfiles** to determine the default profile for a device. Instead, create a device context for the device and then invoke the [**GetICMProfile**](geticmprofile.md) function. On Windows Vista and Windows 7, the [**WcsGetDefaultColorProfile**](wcsgetdefaultcolorprofile.md) function can also be used to determine a device's default color profile.
+Do not attempt to use **EnumColorProfiles** to determine the default profile for a device. Instead, create a device context for the device and then invoke the [**GetICMProfile**](/windows/win32/Wingdi/nf-wingdi-geticmprofilea?branch=master) function. On Windows Vista and Windows 7, the [**WcsGetDefaultColorProfile**](wcsgetdefaultcolorprofile.md) function can also be used to determine a device's default color profile.
 
 If the **dwFields** member of the structure of type **ENUMTYPE** that is pointed to by the *pEnumRecord* parameter is set to ET\_DEVICENAME, this function will enumerate all of the color profiles associated with all types of devices attached to the user's computer, regardless of the device class. If the **dwFields** member of the structure pointed to by the *pEnumRecord* parameter is set to ET\_DEVICENAME or ET\_DEVICECLASS and a device class is specified in the **dwDeviceClass** member of the structure, this function will only enumerate the profiles associated with the specified device class. If the **dwFields** member is set only to ET\_DEVICECLASS, the **EnumColorProfiles** function will enumerate all profiles that can be associated with that type of device.
 
@@ -103,8 +109,8 @@ The enumeration is specific to current user. Both system wide and current user d
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -122,15 +128,15 @@ The enumeration is specific to current user. Both system wide and current user d
 [Functions](functions.md)
 </dt> <dt>
 
-[**GetICMProfile**](geticmprofile.md)
+[**GetICMProfile**](/windows/win32/Wingdi/nf-wingdi-geticmprofilea?branch=master)
 </dt> <dt>
 
 [**ENUMTYPE**](enumtype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

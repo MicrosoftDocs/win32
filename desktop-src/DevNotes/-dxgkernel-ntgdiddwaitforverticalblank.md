@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the vertical blank status of the device.'
-ms.assetid: 'd09b684b-3482-424d-8a60-d123a65f9053'
+---
+Description: Returns the vertical blank status of the device.
+ms.assetid: d09b684b-3482-424d-8a60-d123a65f9053
 title: NtGdiDdWaitForVerticalBlank function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdWaitForVerticalBlank function

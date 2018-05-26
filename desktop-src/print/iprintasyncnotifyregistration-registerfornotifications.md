@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '8D34983F-7547-48FF-B61A-F78BDA9D2248'
-title: 'IPrintAsyncNotifyRegistration::RegisterForNotifications method'
+---
+Description: .
+ms.assetid: 8D34983F-7547-48FF-B61A-F78BDA9D2248
+title: IPrintAsyncNotifyRegistrationRegisterForNotifications method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintAsyncNotifyRegistration::RegisterForNotifications method

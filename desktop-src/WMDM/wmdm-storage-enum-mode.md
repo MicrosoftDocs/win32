@@ -1,8 +1,9 @@
 ---
 title: WMDM\_STORAGE\_ENUM\_MODE enumeration
 description: The WMDM\_STORAGE\_ENUM\_MODE enumeration type defines how the content on the storage is to be enumerated. This enumeration is used by IWMDMStorage3 SetEnumPreference.
-ms.assetid: '38293e54-92e4-4f0a-bdea-5dc684a9548b'
-keywords: ["WMDM_STORAGE_ENUM_MODE enumeration windows Media Device Manager"]
+ms.assetid: 38293e54-92e4-4f0a-bdea-5dc684a9548b
+keywords:
+- WMDM_STORAGE_ENUM_MODE enumeration windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDM\_STORAGE\_ENUM\_MODE enumeration
 
-The **WMDM\_STORAGE\_ENUM\_MODE** enumeration type defines how the content on the storage is to be enumerated. This enumeration is used by [**IWMDMStorage3::SetEnumPreference**](iwmdmstorage3-setenumpreference.md).
+The **WMDM\_STORAGE\_ENUM\_MODE** enumeration type defines how the content on the storage is to be enumerated. This enumeration is used by [**IWMDMStorage3::SetEnumPreference**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage3-setenumpreference?branch=master).
 
 ## Syntax
 
@@ -84,9 +90,9 @@ Enumerates content on the storage by organizing the content based on a metadata 
 [**Enumeration Types**](enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

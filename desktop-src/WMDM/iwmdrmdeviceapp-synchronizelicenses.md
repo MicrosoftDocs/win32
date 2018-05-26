@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDeviceApp SynchronizeLicenses method
 description: The SynchronizeLicenses method updates licenses on a device when they are close to expiring.
-ms.assetid: '352378c1-7432-476c-98e9-d811165c020e'
-keywords: ["SynchronizeLicenses method windows Media Device Manager", "SynchronizeLicenses method windows Media Device Manager , IWMDRMDeviceApp interface", "IWMDRMDeviceApp interface windows Media Device Manager , SynchronizeLicenses method"]
+ms.assetid: 352378c1-7432-476c-98e9-d811165c020e
+keywords:
+- SynchronizeLicenses method windows Media Device Manager
+- SynchronizeLicenses method windows Media Device Manager , IWMDRMDeviceApp interface
+- IWMDRMDeviceApp interface windows Media Device Manager , SynchronizeLicenses method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDeviceApp::SynchronizeLicenses method
@@ -23,10 +31,10 @@ The **SynchronizeLicenses** method updates licenses on a device when they are cl
 
 ```C++
 HRESULT SynchronizeLicenses(
-  [in] IWMDMDevice    *pDevice,
-  [in] IWMDMProgress3 *pProgressCallback,
-  [in] DWORD          cMinCountThreshold,
-  [in] DWORD          cMinHoursThreshold
+  [in] IWMDMDevice    *pDevice,
+  [in] IWMDMProgress3 *pProgressCallback,
+  [in] DWORD          cMinCountThreshold,
+  [in] DWORD          cMinHoursThreshold
 );
 ```
 
@@ -39,14 +47,14 @@ HRESULT SynchronizeLicenses(
 *pDevice* \[in\]
 </dt> <dd>
 
-Pointer to an [**IWMDMDevice**](iwmdmdevice.md) object.
+Pointer to an [**IWMDMDevice**](/windows/win32/mswmdm/nn-mswmdm-iwmdmdevice?branch=master) object.
 
 </dd> <dt>
 
 *pProgressCallback* \[in\]
 </dt> <dd>
 
-Progress callback that will receive progress of any steps that it might need to carry out. The step is identified by the *EventId* parameter of the [**IWMDMProgress3**](iwmdmprogress3.md) method called.
+Progress callback that will receive progress of any steps that it might need to carry out. The step is identified by the *EventId* parameter of the [**IWMDMProgress3**](/windows/win32/mswmdm/nn-mswmdm-iwmdmprogress3?branch=master) method called.
 
 </dd> <dt>
 
@@ -85,7 +93,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -109,15 +117,15 @@ This call can only be made on a device that supports Windows Media DRM 10 for Po
 [**Handling Protected Content in the Application**](handling-protected-content-in-the-application.md)
 </dt> <dt>
 
-[**IWMDMProgress3 Interface**](iwmdmprogress3.md)
+[**IWMDMProgress3 Interface**](/windows/win32/mswmdm/nn-mswmdm-iwmdmprogress3?branch=master)
 </dt> <dt>
 
 [**IWMDRMDeviceApp Interface**](iwmdrmdeviceapp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

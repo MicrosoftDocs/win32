@@ -1,8 +1,9 @@
 ---
 title: CB\_GETEDITSEL message
 description: Gets the starting and ending character positions of the current selection in the edit control of a combo box.
-ms.assetid: '72b64135-e35a-4f72-9fc7-e6bedf495f23'
-keywords: ["CB_GETEDITSEL message Windows Controls"]
+ms.assetid: 72b64135-e35a-4f72-9fc7-e6bedf495f23
+keywords:
+- CB_GETEDITSEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_GETEDITSEL message
@@ -65,8 +71,8 @@ end = HIWORD(range);
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -90,9 +96,9 @@ end = HIWORD(range);
 [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

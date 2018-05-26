@@ -1,14 +1,20 @@
 ---
 title: ddx\_coarse function
 description: Computes a low precision partial derivative with respect to the screen-space x-coordinate.
-ms.assetid: '5719f45d-b2ae-4916-8f31-c2797b661814'
-keywords: ["ddx_coarse function HLSL"]
+ms.assetid: 5719f45d-b2ae-4916-8f31-c2797b661814
+keywords:
+- ddx_coarse function HLSL
 topic_type:
 - apiref
 api_name:
 - ddx_coarse
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ddx\_coarse function

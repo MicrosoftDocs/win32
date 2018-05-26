@@ -1,7 +1,12 @@
 ---
-Description: 'Links to documentation for the IAzApplications interoperability wrapper methods and properties.'
-ms.assetid: '3070abc0-dc5e-4949-b398-ebe68aeb725b'
-title: 'Microsoft.Interop.Security.AzRoles.IAzApplications interface'
+Description: Links to documentation for the IAzApplications interoperability wrapper methods and properties.
+ms.assetid: 3070abc0-dc5e-4949-b398-ebe68aeb725b
+title: Microsoft.Interop.Security.AzRoles.IAzApplications interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzApplications interface
@@ -23,11 +28,11 @@ The **Microsoft.Interop.Security.AzRoles.IAzApplications** interface has these m
 
 | Method                                                               | Description                                                              |
 |:---------------------------------------------------------------------|:-------------------------------------------------------------------------|
-| **Microsoft.Interop.Security.Azroles.IAzApplications.GetEnumerator** | [**IAzApplications::\_NewEnum**](iazapplications-newenum.md)<br/> |
+| **Microsoft.Interop.Security.Azroles.IAzApplications.GetEnumerator** | [**IAzApplications::\_NewEnum**](/windows/win32/Azroles/nf-azroles-iazapplications-get__newenum?branch=master)<br/> |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -37,12 +42,12 @@ The **Microsoft.Interop.Security.AzRoles.IAzApplications** interface has these p
 
 | Property                                                                | Access type          | Description                                                                   |
 |:------------------------------------------------------------------------|:---------------------|:------------------------------------------------------------------------------|
-| **Microsoft.Interop.Security.Azroles.IAzApplications.Count**<br/> | Read-only<br/> | [**Count Property of IAzApplications**](iazapplications-count.md)<br/> |
-| **Microsoft.Interop.Security.Azroles.IAzApplications.Item**<br/>  | Read-only<br/> | [**Item Property of IAzApplications**](iazapplications-item.md)<br/>   |
+| **Microsoft.Interop.Security.Azroles.IAzApplications.Count**<br/> | Read-only<br/> | [**Count Property of IAzApplications**](/windows/win32/Azroles/nf-azroles-iazapplications-get_count?branch=master)<br/> |
+| **Microsoft.Interop.Security.Azroles.IAzApplications.Item**<br/>  | Read-only<br/> | [**Item Property of IAzApplications**](/windows/win32/Azroles/nf-azroles-iazapplications-get_item?branch=master)<br/>   |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,9 +59,9 @@ The **Microsoft.Interop.Security.AzRoles.IAzApplications** interface has these p
 
 
 
- 
+ 
 
- 
+ 
 
 
 

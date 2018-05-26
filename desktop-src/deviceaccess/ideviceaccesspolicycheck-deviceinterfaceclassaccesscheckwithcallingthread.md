@@ -1,14 +1,22 @@
 ---
 title: IDeviceAccessPolicyCheck DeviceInterfaceClassAccessCheckWithCallingThread method
 description: This API will determine if the token for the current context has access to the device interface class specified. IID 7D276FF2-CE90-4275-A2A8-9A48B10D3E0B.
-ms.assetid: 'D7BFE1F3-4876-4BAB-A32D-46DB533140BB'
-keywords: ["DeviceInterfaceClassAccessCheckWithCallingThread method Device Access Broker API", "DeviceInterfaceClassAccessCheckWithCallingThread method Device Access Broker API , IDeviceAccessPolicyCheck interface", "IDeviceAccessPolicyCheck interface Device Access Broker API , DeviceInterfaceClassAccessCheckWithCallingThread method"]
+ms.assetid: D7BFE1F3-4876-4BAB-A32D-46DB533140BB
+keywords:
+- DeviceInterfaceClassAccessCheckWithCallingThread method Device Access Broker API
+- DeviceInterfaceClassAccessCheckWithCallingThread method Device Access Broker API , IDeviceAccessPolicyCheck interface
+- IDeviceAccessPolicyCheck interface Device Access Broker API , DeviceInterfaceClassAccessCheckWithCallingThread method
 topic_type:
 - apiref
 api_name:
 - IDeviceAccessPolicyCheck.DeviceInterfaceClassAccessCheckWithCallingThread
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDeviceAccessPolicyCheck::DeviceInterfaceClassAccessCheckWithCallingThread method

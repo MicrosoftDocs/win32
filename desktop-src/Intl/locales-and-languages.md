@@ -1,7 +1,12 @@
 ---
-Description: 'The term &\#0034;language&\#0034; indicates a collection of properties used in spoken and written communication.'
-ms.assetid: '8214c00d-4ec6-4597-8088-7819a160f0dc'
+Description: The term &\#0034;language&\#0034; indicates a collection of properties used in spoken and written communication.
+ms.assetid: 8214c00d-4ec6-4597-8088-7819a160f0dc
 title: Locales and Languages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Locales and Languages
@@ -12,7 +17,7 @@ A "locale" is a collection of language-related user preference information repre
 
 Each operating system has at least one installed locale and often has many locales from which the user can select. Each locale has a variety of information associated with it, other than its name and identifier. Locale information types are described in [Locale Information Constants](locale-information-constants.md).
 
-The operating system assigns a locale to each thread, initially assigning the "system default locale," defined by [LOCALE\_SYSTEM\_DEFAULT](locale-system-default.md). This locale is set when the operating system is installed or when the user selects it using the regional and language options portion of the Control Panel. When running a thread in a process belonging to the user, the operating system assigns the "user default locale" to the thread. This locale is defined by [LOCALE\_USER\_DEFAULT](locale-user-default.md). An application can override either default by using the [**SetThreadLocale**](setthreadlocale.md) function to explicitly set the locale for a thread.
+The operating system assigns a locale to each thread, initially assigning the "system default locale," defined by [LOCALE\_SYSTEM\_DEFAULT](locale-system-default.md). This locale is set when the operating system is installed or when the user selects it using the regional and language options portion of the Control Panel. When running a thread in a process belonging to the user, the operating system assigns the "user default locale" to the thread. This locale is defined by [LOCALE\_USER\_DEFAULT](locale-user-default.md). An application can override either default by using the [**SetThreadLocale**](/windows/win32/Winnls/nf-winnls-setthreadlocale?branch=master) function to explicitly set the locale for a thread.
 
 Implementation of a language requires a corresponding locale. The operating system implements a neutral language by selecting the data for the locale associated with a specific version of the language, usually the most widespread locale.
 
@@ -51,7 +56,7 @@ The following topics are covered in this section:
 [User Interface Language Management](user-interface-language-management.md)
 </dt> <dt>
 
-[**SetThreadLocale**](setthreadlocale.md)
+[**SetThreadLocale**](/windows/win32/Winnls/nf-winnls-setthreadlocale?branch=master)
 </dt> </dl>
 
  

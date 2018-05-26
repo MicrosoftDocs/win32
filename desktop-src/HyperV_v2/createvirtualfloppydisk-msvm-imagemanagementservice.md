@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a virtual floppy disk file.'
-ms.assetid: 'C7B5712C-55DD-4784-8B2E-A8DE02E4CFD8'
-title: 'CreateVirtualFloppyDisk method of the Msvm\_ImageManagementService class'
+Description: Creates a virtual floppy disk file.
+ms.assetid: C7B5712C-55DD-4784-8B2E-A8DE02E4CFD8
+title: CreateVirtualFloppyDisk method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateVirtualFloppyDisk method of the Msvm\_ImageManagementService class
@@ -13,8 +18,8 @@ Creates a virtual floppy disk file.
 
 ```mof
 uint32 CreateVirtualFloppyDisk(
-  [in]  string              Path,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              Path,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -311,8 +316,8 @@ End Function
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -329,9 +334,9 @@ End Function
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves an OID object from the collection. This is the default property.'
-ms.assetid: 'af0de567-e520-411d-850d-fbdbcb2ace69'
-title: 'OIDs.Item property'
+---
+Description: Retrieves an OID object from the collection. This is the default property.
+ms.assetid: af0de567-e520-411d-850d-fbdbcb2ace69
+title: OIDs.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OIDs.Item property

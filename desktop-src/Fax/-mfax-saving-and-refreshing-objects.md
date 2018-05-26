@@ -1,7 +1,12 @@
 ---
-Description: 'Many fax service administration Component Object Model (COM) objects have Save or Refresh methods you can use to write their configuration to the fax server or to refresh their settings from values in the fax server.'
-ms.assetid: '9d5c9439-e3d1-4130-923a-60e4e8bf8e34'
+Description: Many fax service administration Component Object Model (COM) objects have Save or Refresh methods you can use to write their configuration to the fax server or to refresh their settings from values in the fax server.
+ms.assetid: 9d5c9439-e3d1-4130-923a-60e4e8bf8e34
 title: Saving and Refreshing Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Saving and Refreshing Objects

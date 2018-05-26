@@ -1,14 +1,20 @@
 ---
 title: WM/Producer
 description: The WM/Producer attribute contains the name of the producer of the content.
-ms.assetid: '48934f4f-6c8f-4a45-be3f-cb88efc0d936'
-keywords: ["WM/Producer windows Media Format"]
+ms.assetid: 48934f4f-6c8f-4a45-be3f-cb88efc0d936
+keywords:
+- WM/Producer windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/Producer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Producer

@@ -4,9 +4,9 @@ description: The CFSTR\_DS\_PROPSHEETCONFIG clipboard format provides a global m
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '26b439de-3bc7-4aa6-97e6-2aaa03451e2b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 26b439de-3bc7-4aa6-97e6-2aaa03451e2b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -14,6 +14,9 @@ api_name:
 - CFSTR_DS_PROPSHEETCONFIG
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CFSTR\_DS\_PROPSHEETCONFIG
@@ -33,7 +36,7 @@ The **CFSTR\_DS\_PROPSHEETCONFIG** clipboard format provides a global memory han
 > [!Note]  
 > This clipboard format value is not defined in a published header file. To use this clipboard format value, you must define it yourself in the exact format shown.
 
- 
+ 
 
 
 </dt> </dl> </dd> </dl>
@@ -44,8 +47,8 @@ The **CFSTR\_DS\_PROPSHEETCONFIG** clipboard format provides a global memory han
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -56,9 +59,9 @@ The **CFSTR\_DS\_PROPSHEETCONFIG** clipboard format provides a global memory han
 [**PROPSHEETCFG**](propsheetcfg.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

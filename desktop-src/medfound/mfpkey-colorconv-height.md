@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the height of the source and destination rectangles, in pixels.'
-ms.assetid: 'be53d72f-f7b4-44a7-9231-fe0480daf49c'
-title: 'MFPKEY\_COLORCONV\_HEIGHT Property'
+---
+Description: Specifies the height of the source and destination rectangles, in pixels.
+ms.assetid: be53d72f-f7b4-44a7-9231-fe0480daf49c
+title: MFPKEY\_COLORCONV\_HEIGHT Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_COLORCONV\_HEIGHT Property

@@ -1,8 +1,11 @@
 ---
 title: ClosedCaption.getSAMIStyleName method
 description: The getSAMIStyleName method retrieves the name of a style supported by the current SAMI file.
-ms.assetid: 'c2ffedf8-4622-44fe-9d92-b52ed3bf3b9a'
-keywords: ["getSAMIStyleName method Windows Media Player", "getSAMIStyleName method Windows Media Player , ClosedCaption class", "ClosedCaption class Windows Media Player , getSAMIStyleName method"]
+ms.assetid: c2ffedf8-4622-44fe-9d92-b52ed3bf3b9a
+keywords:
+- getSAMIStyleName method Windows Media Player
+- getSAMIStyleName method Windows Media Player , ClosedCaption class
+- ClosedCaption class Windows Media Player , getSAMIStyleName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClosedCaption.getSAMIStyleName method
@@ -75,9 +83,9 @@ This method cannot be used until a digital media file is open (*Player*.**openSt
 [**ClosedCaption.SAMIStyle**](closedcaption-samistyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

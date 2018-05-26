@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.itemMedia
 description: The itemMedia attribute retrieves the Media object corresponding to the given index in the PLAYLIST element.
-ms.assetid: '38085798-7986-432f-8c88-de886bfc2ac5'
-keywords: ["PLAYLIST.itemMedia Windows Media Player"]
+ms.assetid: 38085798-7986-432f-8c88-de886bfc2ac5
+keywords:
+- PLAYLIST.itemMedia Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.itemMedia
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.itemMedia
@@ -58,9 +64,9 @@ The **itemMedia** property will return media objects that are expanded in the **
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

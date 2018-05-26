@@ -1,7 +1,12 @@
 ---
 title: IsReadOnly
 description: IsReadOnly
-ms.assetid: '731d85ab-b03c-4c30-b0ae-3d2ee399cb48'
+ms.assetid: 731d85ab-b03c-4c30-b0ae-3d2ee399cb48
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsReadOnly

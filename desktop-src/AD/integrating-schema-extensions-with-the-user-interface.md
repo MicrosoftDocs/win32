@@ -4,10 +4,13 @@ description: The administration tools of Active Directory Domain Services use a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '62cf9f9d-7091-4cff-9995-5934dfa3e97e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 62cf9f9d-7091-4cff-9995-5934dfa3e97e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Integrating Schema Extensions with the User Interface

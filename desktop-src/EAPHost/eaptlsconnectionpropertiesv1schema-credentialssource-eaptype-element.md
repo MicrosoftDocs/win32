@@ -1,14 +1,20 @@
 ---
 title: CredentialsSource (EapType) Element
 description: Contains information about the location of the EAP-TLS certificate.
-ms.assetid: '6ef48e5e-7c71-472f-ab01-0a43a97ecd96'
-keywords: ["CredentialsSource element EAPHost"]
+ms.assetid: 6ef48e5e-7c71-472f-ab01-0a43a97ecd96
+keywords:
+- CredentialsSource element EAPHost
 topic_type:
 - apiref
 api_name:
 - CredentialsSource
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CredentialsSource (EapType) Element
@@ -33,8 +39,8 @@ The **CredentialSource** element is optional.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +72,9 @@ The **CredentialSource** element is optional.
 [eaptlsconnectionpropertiesv1 Schema Elements](eaptlsconnectionpropertiesv1schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The PreparePerformanceData method sets the m\_trLate and m\_trFrame values of the current frame.'
-ms.assetid: 'c4c5701b-eccd-4259-a1d1-7c5000f6b2df'
-title: 'CBaseVideoRenderer.PreparePerformanceData method'
+Description: The PreparePerformanceData method sets the m\_trLate and m\_trFrame values of the current frame.
+ms.assetid: c4c5701b-eccd-4259-a1d1-7c5000f6b2df
+title: CBaseVideoRenderer.PreparePerformanceData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.PreparePerformanceData method
@@ -13,8 +18,8 @@ The `PreparePerformanceData` method sets the **m\_trLate** and **m\_trFrame** va
 
 ```C++
 void PreparePerformanceData(
-   int trLate,
-   int trFrame
+   int trLate,
+   int trFrame
 );
 ```
 
@@ -66,9 +71,9 @@ When the [**CBaseVideoRenderer::RecordFrameLateness**](cbasevideorenderer-record
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

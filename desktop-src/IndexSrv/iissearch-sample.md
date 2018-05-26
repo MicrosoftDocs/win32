@@ -1,7 +1,12 @@
 ---
 title: IISSearch Sample
 description: IISSearch Sample
-ms.assetid: 'cd188676-ac93-4ba6-8fe7-e3de670d330c'
+ms.assetid: cd188676-ac93-4ba6-8fe7-e3de670d330c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IISSearch Sample

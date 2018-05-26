@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ manages threads for you. Every COM component has a ThreadingModel property that you can specify when you develop the component. This property determines how the component's objects are assigned to threads for method execution.'
-ms.assetid: '5fae8475-3d2e-4939-80a7-bc9a677a50b3'
+Description: COM+ manages threads for you. Every COM component has a ThreadingModel property that you can specify when you develop the component. This property determines how the components objects are assigned to threads for method execution.
+ms.assetid: 5fae8475-3d2e-4939-80a7-bc9a677a50b3
 title: Threading Model Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Threading Model Attribute

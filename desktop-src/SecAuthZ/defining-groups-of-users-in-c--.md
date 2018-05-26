@@ -1,12 +1,17 @@
 ---
-Description: 'In Authorization Manager, an IAzApplicationGroup object represents a group of users. Roles can then be assigned to this group of users collectively.'
-ms.assetid: '13950da1-b04f-4346-b216-9713cbdcd5b5'
+Description: In Authorization Manager, an IAzApplicationGroup object represents a group of users. Roles can then be assigned to this group of users collectively.
+ms.assetid: 13950da1-b04f-4346-b216-9713cbdcd5b5
 title: Defining Groups of Users in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining Groups of Users in C++
 
-In Authorization Manager, an [**IAzApplicationGroup**](iazapplicationgroup.md) object represents a group of users. Roles can then be assigned to this group of users collectively. An [**IAzApplicationGroup**](iazapplicationgroup.md) object can also include other **IAzApplicationGroup** objects as members. For more information about application groups, see [Users and Groups](users-and-groups.md).
+In Authorization Manager, an [**IAzApplicationGroup**](/windows/win32/Azroles/nn-azroles-iazapplicationgroup?branch=master) object represents a group of users. Roles can then be assigned to this group of users collectively. An [**IAzApplicationGroup**](/windows/win32/Azroles/nn-azroles-iazapplicationgroup?branch=master) object can also include other **IAzApplicationGroup** objects as members. For more information about application groups, see [Users and Groups](users-and-groups.md).
 
 A group can be defined either by explicit lists of members and nonmembers, or by a [*Lightweight Directory Access Protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-lightweight-directory-access-protocol-gly) (LDAP) query. The following examples show how to create each type of application group:
 
@@ -15,7 +20,7 @@ A group can be defined either by explicit lists of members and nonmembers, or by
 
 ## Creating a Basic Group
 
-A basic application group is defined by the members included in the [**Members**](iazapplicationgroup-members.md) and [**NonMembers**](iazapplicationgroup-nonmembers.md) properties of the [**IAzApplicationGroup**](iazapplicationgroup.md) object that represents the group. Users and groups listed in the **Members** property are included in the application group, and users and groups listed in the **NonMembers** property are excluded from the application group. Being listed in the **NonMembers** property supersedes being listed in the **Members** property.
+A basic application group is defined by the members included in the [**Members**](/windows/win32/Azroles/nf-azroles-iazapplicationgroup-get_members?branch=master) and [**NonMembers**](/windows/win32/Azroles/nf-azroles-iazapplicationgroup-get_nonmembers?branch=master) properties of the [**IAzApplicationGroup**](/windows/win32/Azroles/nn-azroles-iazapplicationgroup?branch=master) object that represents the group. Users and groups listed in the **Members** property are included in the application group, and users and groups listed in the **NonMembers** property are excluded from the application group. Being listed in the **NonMembers** property supersedes being listed in the **Members** property.
 
 The following example shows how to create a basic application group and add all local users as members of that group. The example assumes that there is an existing XML policy store named MyStore.xml in the root directory of drive C.
 
@@ -112,7 +117,7 @@ void MyHandleError(char *s)
 
 ## Creating an LDAP Query Group
 
-An LDAP query group has a membership defined by the query contained in the value of its [**LdapQuery**](iazapplicationgroup-ldapquery.md) property.
+An LDAP query group has a membership defined by the query contained in the value of its [**LdapQuery**](/windows/win32/Azroles/nf-azroles-iazapplicationgroup-get_ldapquery?branch=master) property.
 
 The following example shows how to create an LDAP query application group and add all users as members of that group. The example assumes that there is an existing XML policy store named MyStore.xml in the root directory of drive C.
 

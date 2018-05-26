@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a collection of excluded applications.'
+Description: Retrieves a collection of excluded applications.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '58ab694c-156e-44b5-b428-8b952348236c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 58ab694c-156e-44b5-b428-8b952348236c
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExclusionPolicy.Applications property'
+title: ExclusionPolicy.Applications property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExclusionPolicy.Applications property
@@ -139,7 +142,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -151,9 +154,9 @@ END SUB
 [**ExclusionPolicy**](exclusionpolicy-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

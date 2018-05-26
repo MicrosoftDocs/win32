@@ -1,12 +1,17 @@
 ---
-Description: 'The following table describes which threads the InkCollector object events can fire on.EventThreadsCursorButtonDownFires on the ink thread.CursorButtonUpFires on the ink thread.CursorDownFires on the ink thread.CursorInRangeFires on the ink thread.CursorOutOfRangeFires on the ink thread.DoubleClick Event (Automation only).Fires on the application''s user interface (UI) thread.DoubleClick (Managed Library only)Fires on the application''s UI thread.GestureFires on the ink thread.MouseDownFires on the application''s UI thread.MouseMoveFires on the application''s UI thread.MouseUpFires on the application''s UI thread.MouseWheelFires on the application''s UI thread.NewInAirPacketsFires on the ink thread.NewPacketsFires on the ink thread.StrokeFires on the ink thread.SystemGestureFires on the ink thread.TabletAddedFires on the ink thread.TabletRemovedFires on the ink thread. '
-ms.assetid: '39a1c868-eb7e-4139-806d-27d86175cbcf'
+Description: The following table describes which threads the InkCollector object events can fire on.EventThreadsCursorButtonDownFires on the ink thread.CursorButtonUpFires on the ink thread.CursorDownFires on the ink thread.CursorInRangeFires on the ink thread.CursorOutOfRangeFires on the ink thread.DoubleClick Event (Automation only).Fires on the applications user interface (UI) thread.DoubleClick (Managed Library only)Fires on the applications UI thread.GestureFires on the ink thread.MouseDownFires on the applications UI thread.MouseMoveFires on the applications UI thread.MouseUpFires on the applications UI thread.MouseWheelFires on the applications UI thread.NewInAirPacketsFires on the ink thread.NewPacketsFires on the ink thread.StrokeFires on the ink thread.SystemGestureFires on the ink thread.TabletAddedFires on the ink thread.TabletRemovedFires on the ink thread.
+ms.assetid: 39a1c868-eb7e-4139-806d-27d86175cbcf
 title: InkCollector Object Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkCollector Object Events
 
-The following table describes which threads the [**InkCollector**](inkcollector-class.md) object events can fire on.
+The following table describes which threads the [**InkCollector**](/windows/win32/msinkaut/?branch=master) object events can fire on.
 
 
 
@@ -33,11 +38,11 @@ The following table describes which threads the [**InkCollector**](inkcollector-
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

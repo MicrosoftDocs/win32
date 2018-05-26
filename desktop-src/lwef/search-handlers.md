@@ -1,8 +1,19 @@
 ---
 title: Creating Search Handlers
 description: The Shell supports several search utilities that allow users to locate namespace objects such as files or printers. You can create a custom search engine and make it available to users by implementing and registering a search handler.
-ms.assetid: 'ffd023bb-16ab-43ce-b00b-5e32656c8013'
-keywords: ["search handlers", "register,search handlers", "static search handlers", "register,static search handlers", "dynamic search handlers", "register,dynamic search handlers"]
+ms.assetid: ffd023bb-16ab-43ce-b00b-5e32656c8013
+keywords:
+- search handlers
+- register,search handlers
+- static search handlers
+- register,static search handlers
+- dynamic search handlers
+- register,dynamic search handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Search Handlers

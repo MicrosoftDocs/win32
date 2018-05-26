@@ -1,7 +1,12 @@
 ---
 title: Example Root Signatures
 description: The following section shows root signatures varying in complexity from empty to completely full.
-ms.assetid: '493D35C9-2A90-4688-BD7E-74B9EB2B4E72'
+ms.assetid: 493D35C9-2A90-4688-BD7E-74B9EB2B4E72
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example Root Signatures

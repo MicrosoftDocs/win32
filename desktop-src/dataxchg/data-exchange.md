@@ -1,8 +1,14 @@
 ---
 title: Data Exchange
 description: The data exchange section describes methods of exchanging data.
-ms.assetid: '0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb'
-keywords: ["data exchange,about"]
+ms.assetid: 0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb
+keywords:
+- data exchange,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Exchange
@@ -22,11 +28,11 @@ The following sections describe basic methods of exchanging data.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

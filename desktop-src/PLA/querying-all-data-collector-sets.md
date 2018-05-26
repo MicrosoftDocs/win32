@@ -1,18 +1,23 @@
 ---
 title: Querying All Data Collector Sets
 description: To retrieve all previously committed data collector sets on a computer or from a specified namespace, call the IDataCollectorSetCollection GetDataCollectorSets method.
-ms.assetid: '263ded8e-356e-43bf-8020-b0d9d373faea'
+ms.assetid: 263ded8e-356e-43bf-8020-b0d9d373faea
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying All Data Collector Sets
 
-To retrieve all previously committed data collector sets on a computer or from a specified namespace, call the [**IDataCollectorSetCollection::GetDataCollectorSets**](idatacollectorsetcollection-getdatacollectorsets.md) method.
+To retrieve all previously committed data collector sets on a computer or from a specified namespace, call the [**IDataCollectorSetCollection::GetDataCollectorSets**](/windows/previous-versions/Pla/nf-pla-idatacollectorsetcollection-getdatacollectorsets?branch=master) method.
 
 For details on retrieving a specific data collector set on a computer, see [Querying a Data Collector Set](querying-a-data-collector-set.md).
 
 You can retrieve data collector sets from the local computer or from a remote computer. There can be a delay when retrieving the data collector sets from a remote computer, so you should not query remote sets from a UI thread.
 
-The following example shows how to retrieve all data collector sets from the local computer. This example uses an enumeration to iterate through the collection; however, you could also use the [**Count**](idatacollectorsetcollection-count.md) and [**Item**](idatacollectorsetcollection-item.md) properties to iterate through the collection.
+The following example shows how to retrieve all data collector sets from the local computer. This example uses an enumeration to iterate through the collection; however, you could also use the [**Count**](/windows/previous-versions/Pla/nf-pla-idatacollectorsetcollection-get_count?branch=master) and [**Item**](/windows/previous-versions/Pla/nf-pla-idatacollectorsetcollection-get_item?branch=master) properties to iterate through the collection.
 
 
 ```C++

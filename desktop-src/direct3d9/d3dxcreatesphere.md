@@ -1,7 +1,12 @@
-﻿---
-Description: 'Uses a left-handed coordinate system to create a mesh containing a sphere.'
-ms.assetid: 'd3198805-9435-4849-892d-ec98dc2221d2'
+---
+Description: Uses a left-handed coordinate system to create a mesh containing a sphere.
+ms.assetid: d3198805-9435-4849-892d-ec98dc2221d2
 title: D3DXCreateSphere function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateSphere function
@@ -31,9 +36,9 @@ HRESULT D3DXCreateSphere(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device associated with the created sphere mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device associated with the created sphere mesh.
 
 </dd> <dt>
 

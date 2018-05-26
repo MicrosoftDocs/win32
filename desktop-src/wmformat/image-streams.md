@@ -1,8 +1,20 @@
 ---
 title: Image Streams
 description: Image Streams
-ms.assetid: '29325834-8766-47f4-8b33-b5fcbcc494c1'
-keywords: ["Windows Media Format SDK,image streams", "Advanced Systems Format (ASF),image streams", "ASF (Advanced Systems Format),image streams", "Windows Media Format SDK,streams", "Advanced Systems Format (ASF),streams", "ASF (Advanced Systems Format),streams", "image streams,about"]
+ms.assetid: 29325834-8766-47f4-8b33-b5fcbcc494c1
+keywords:
+- Windows Media Format SDK,image streams
+- Advanced Systems Format (ASF),image streams
+- ASF (Advanced Systems Format),image streams
+- Windows Media Format SDK,streams
+- Advanced Systems Format (ASF),streams
+- ASF (Advanced Systems Format),streams
+- image streams,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image Streams

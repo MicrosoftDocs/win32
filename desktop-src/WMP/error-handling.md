@@ -1,8 +1,22 @@
 ---
 title: Error Handling
 description: Error Handling
-ms.assetid: 'f0567c77-a855-4b93-9fb7-a36cde63859f'
-keywords: ["Windows Media Player,error handling", "Windows Media Player object model,error handling", "object model,error handling", "Windows Media Player ActiveX control,error handling", "ActiveX control,error handling", "Windows Media Player Mobile ActiveX control,error handling", "Windows Media Player Mobile,error handling", "migration guide,error handling", "error handling in object model"]
+ms.assetid: f0567c77-a855-4b93-9fb7-a36cde63859f
+keywords:
+- Windows Media Player,error handling
+- Windows Media Player object model,error handling
+- object model,error handling
+- Windows Media Player ActiveX control,error handling
+- ActiveX control,error handling
+- Windows Media Player Mobile ActiveX control,error handling
+- Windows Media Player Mobile,error handling
+- migration guide,error handling
+- error handling in object model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Handling

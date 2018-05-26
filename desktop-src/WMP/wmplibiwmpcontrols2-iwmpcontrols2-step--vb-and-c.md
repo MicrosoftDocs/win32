@@ -1,8 +1,11 @@
 ---
 title: IWMPControls2 step method
 description: The step method causes the current video media item to step to the next frame or the previous frame and freeze playback.
-ms.assetid: 'c5cb720f-527f-45b6-ae8a-4da0e3e34618'
-keywords: ["step method Windows Media Player", "step method Windows Media Player , IWMPControls2 interface", "IWMPControls2 interface Windows Media Player , step method"]
+ms.assetid: c5cb720f-527f-45b6-ae8a-4da0e3e34618
+keywords:
+- step method Windows Media Player
+- step method Windows Media Player , IWMPControls2 interface
+- IWMPControls2 interface Windows Media Player , step method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls2::step method
@@ -90,9 +98,9 @@ This method currently supports only the parameters 1 or -1, so you can only step
 [**IWMPDVD Interface (VB and C#)**](iwmpdvd--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

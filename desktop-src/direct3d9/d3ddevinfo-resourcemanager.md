@@ -1,7 +1,12 @@
-﻿---
-Description: 'Resource usage statistics.'
-ms.assetid: 'e43de550-2025-4210-a420-e41d14620704'
-title: 'D3DDEVINFO\_ResourceManager structure'
+---
+Description: Resource usage statistics.
+ms.assetid: e43de550-2025-4210-a420-e41d14620704
+title: D3DDEVINFO\_ResourceManager structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDEVINFO\_ResourceManager structure

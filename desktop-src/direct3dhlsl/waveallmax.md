@@ -1,14 +1,20 @@
 ---
 title: WaveActiveMax function
 description: Returns the maximum value of the expression across all active lanes in the current wave and replicates it back to all active lanes.
-ms.assetid: '19101C56-2618-4F34-8725-DF92198ABDA4'
-keywords: ["WaveAllMax function HLSL"]
+ms.assetid: 19101C56-2618-4F34-8725-DF92198ABDA4
+keywords:
+- WaveAllMax function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveAllMax
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveActiveMax function

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the influence value for a bone.'
-ms.assetid: 'c6dc8a33-8f5c-47d0-8637-a2492b1e3089'
-title: 'ID3DXSkinInfo::SetBoneInfluence method'
+---
+Description: Sets the influence value for a bone.
+ms.assetid: c6dc8a33-8f5c-47d0-8637-a2492b1e3089
+title: ID3DXSkinInfoSetBoneInfluence method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSkinInfo::SetBoneInfluence method

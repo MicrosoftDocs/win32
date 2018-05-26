@@ -1,14 +1,19 @@
 ---
-Description: 'This example illustrates the use of the GetProcessHeaps function to retrieve handles to the default process heap and any private heaps that are active for the current process.'
-ms.assetid: '00f69593-f03b-4f30-aeec-db3fda0ac356'
+Description: This example illustrates the use of the GetProcessHeaps function to retrieve handles to the default process heap and any private heaps that are active for the current process.
+ms.assetid: 00f69593-f03b-4f30-aeec-db3fda0ac356
 title: Getting Process Heaps
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Process Heaps
 
-This example illustrates the use of the [**GetProcessHeaps**](getprocessheaps.md) function to retrieve handles to the default process heap and any private heaps that are active for the current process.
+This example illustrates the use of the [**GetProcessHeaps**](/windows/win32/HeapApi/nf-heapapi-getprocessheaps?branch=master) function to retrieve handles to the default process heap and any private heaps that are active for the current process.
 
-The example calls [**GetProcessHeaps**](getprocessheaps.md) twice, first to calculate the size of the buffer needed and again to retrieve handles into the buffer. The buffer is allocated from the default process heap, using the handle returned by [**GetProcessHeap**](getprocessheap.md). The example prints the starting address of each heap to the console. It then uses the [**HeapFree**](heapfree.md) function to free memory allocated for the buffer.
+The example calls [**GetProcessHeaps**](/windows/win32/HeapApi/nf-heapapi-getprocessheaps?branch=master) twice, first to calculate the size of the buffer needed and again to retrieve handles into the buffer. The buffer is allocated from the default process heap, using the handle returned by [**GetProcessHeap**](/windows/win32/HeapApi/nf-heapapi-getprocessheap?branch=master). The example prints the starting address of each heap to the console. It then uses the [**HeapFree**](/windows/win32/HeapApi/nf-heapapi-heapfree?branch=master) function to free memory allocated for the buffer.
 
 The number of heaps in a process may vary. A process always has at least one heap—the default process heap—and it may have one or more private heaps created by the application or by DLLs that are loaded into the address space of the process.
 

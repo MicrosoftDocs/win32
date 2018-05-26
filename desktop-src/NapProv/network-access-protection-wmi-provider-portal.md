@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides reference information for the Network Access Protection WMI Provider classes.'
-ms.assetid: 'a858f853-2095-4a76-9238-3c7423999a60'
+Description: This section provides reference information for the Network Access Protection WMI Provider classes.
+ms.assetid: a858f853-2095-4a76-9238-3c7423999a60
 title: Network Access Protection WMI Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Access Protection WMI Provider
@@ -22,7 +27,7 @@ This section provides reference information for the Network Access Protection WM
 
 
 
- 
+ 
 
 ## Developer audience
 
@@ -35,9 +40,9 @@ Network Access Protection (NAP) is a set of operating system components that pro
 [Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_WindowState method retrieves the current window state.'
-ms.assetid: '118b6710-b041-4a7d-8cdb-b96ae3dcbb09'
-title: 'CBaseControlWindow.get\_WindowState method'
+Description: The get\_WindowState method retrieves the current window state.
+ms.assetid: 118b6710-b041-4a7d-8cdb-b96ae3dcbb09
+title: CBaseControlWindow.get\_WindowState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.get\_WindowState method
@@ -13,7 +18,7 @@ The `get_WindowState` method retrieves the current window state.
 
 ```C++
 HRESULT get_WindowState(
-   long *pWindowState
+   long *pWindowState
 );
 ```
 
@@ -56,9 +61,9 @@ This member function returns a subset of the parameters of the Microsoft Win32 *
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

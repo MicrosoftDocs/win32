@@ -4,11 +4,15 @@ description: The following sections describe the NPS Extensions API programming 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2b7a16cb-bc64-4e81-8149-82f51c451312'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 2b7a16cb-bc64-4e81-8149-82f51c451312
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
-keywords: ["Internet Authentication Service IAS ,reference"]
+keywords:
+- Internet Authentication Service IAS ,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NPS Extensions Reference

@@ -1,7 +1,12 @@
 ---
 title: Sample Query Section
 description: Sample Query Section
-ms.assetid: 'cadd3d59-f9f3-4fb1-849b-ff4f5b223e2f'
+ms.assetid: cadd3d59-f9f3-4fb1-849b-ff4f5b223e2f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Query Section

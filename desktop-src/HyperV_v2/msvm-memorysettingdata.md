@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the configured state of the memory for a virtual machine.'
-ms.assetid: '4B6FEE50-1C5F-4F41-B14A-E10B40400A1B'
-title: 'Msvm\_MemorySettingData class'
+Description: Represents the configured state of the memory for a virtual machine.
+ms.assetid: 4B6FEE50-1C5F-4F41-B14A-E10B40400A1B
+title: Msvm\_MemorySettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_MemorySettingData class
@@ -16,35 +21,35 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_MemorySettingData : CIM_ResourceAllocationSettingData
 {
-  string  InstanceID;
-  string  Caption = "Memory Default Settings";
-  string  Description = "Describes the default settings for the memory resources.";
-  string  ElementName;
-  uint16  ResourceType = 4;
-  string  OtherResourceType;
-  string  ResourceSubType = "Microsoft:Hyper-V:Memory";
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits = "byte * 2^20";
-  uint64  VirtualQuantity;
-  uint64  Reservation;
-  uint64  Limit;
-  uint32  Weight;
+  string  InstanceID;
+  string  Caption = "Memory Default Settings";
+  string  Description = "Describes the default settings for the memory resources.";
+  string  ElementName;
+  uint16  ResourceType = 4;
+  string  OtherResourceType;
+  string  ResourceSubType = "Microsoft:Hyper-V:Memory";
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits = "byte * 2^20";
+  uint64  VirtualQuantity;
+  uint64  Reservation;
+  uint64  Limit;
+  uint32  Weight;
   boolean AutomaticAllocation = True;
   boolean AutomaticDeallocation = True;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  string  AddressOnParent;
-  string  VirtualQuantityUnits = "byte * 2^20";
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  string  AddressOnParent;
+  string  VirtualQuantityUnits = "byte * 2^20";
   boolean DynamicMemoryEnabled;
-  uint32  TargetMemoryBuffer;
+  uint32  TargetMemoryBuffer;
   boolean IsVirtualized = True;
   boolean SwapFilesInUse;
-  uint64  MaxMemoryBlocksPerNumaNode;
-  uint64  SgxSize;
+  uint64  MaxMemoryBlocksPerNumaNode;
+  uint64  SgxSize;
   boolean SgxEnabled;
 };
 ```
@@ -378,9 +383,9 @@ Access type: Read-only
 Indicates if SGX is enabled.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -396,9 +401,9 @@ Access type: Read-only
 The amount of SGX memory to allocate for the VM, in MB.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -479,8 +484,8 @@ Access to the **Msvm\_MemorySettingData** class might be restricted by UAC Filte
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -500,9 +505,9 @@ Access to the **Msvm\_MemorySettingData** class might be restricted by UAC Filte
 [Memory Classes](memory-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

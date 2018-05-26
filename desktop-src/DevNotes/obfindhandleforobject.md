@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves an object handle for the specified object associated with the specified process.'
-ms.assetid: 'c7b371c3-02c0-4137-ad9d-dd07a74fe2a5'
+---
+Description: Retrieves an object handle for the specified object associated with the specified process.
+ms.assetid: c7b371c3-02c0-4137-ad9d-dd07a74fe2a5
 title: ObFindHandleForObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ObFindHandleForObject function

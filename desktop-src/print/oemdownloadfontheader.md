@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMDownloadFontHeader function
-ms.assetid: '3865a206-840c-4acf-97be-86764cf522db'
+ms.assetid: 3865a206-840c-4acf-97be-86764cf522db
 title: OEMDownloadFontHeader function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMDownloadFontHeader function

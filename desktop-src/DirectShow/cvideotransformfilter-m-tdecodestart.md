@@ -1,7 +1,12 @@
 ---
-Description: 'Length of time that it took to decode the most recent sample, in milliseconds.'
-ms.assetid: 'e9cac411-f327-4750-9129-0bc2885eedd7'
-title: 'CVideoTransformFilter::m\_tDecodeStart member'
+Description: Length of time that it took to decode the most recent sample, in milliseconds.
+ms.assetid: e9cac411-f327-4750-9129-0bc2885eedd7
+title: CVideoTransformFilterm\_tDecodeStart member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CVideoTransformFilter::m\_tDecodeStart member
@@ -35,9 +40,9 @@ int m_tDecodeStart;
 [**CVideoTransformFilter Class**](cvideotransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

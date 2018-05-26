@@ -1,8 +1,10 @@
 ---
 title: ORPC\_DBG\_BUFFER structure
 description: The ORPC\_DBG\_BUFFER structure is the buffer format used to marshalled RPC data to the methods of the IOrpcDebugNotify interface.
-ms.assetid: '444cd3b8-bc7b-425d-9ccc-04fd6c7393b2'
-keywords: ["ORPC_DBG_BUFFER structure COM", "PORPC_DBG_BUFFER structure pointer COM"]
+ms.assetid: 444cd3b8-bc7b-425d-9ccc-04fd6c7393b2
+keywords:
+- ORPC_DBG_BUFFER structure COM
+- PORPC_DBG_BUFFER structure pointer COM
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - N/A
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ORPC\_DBG\_BUFFER structure
@@ -23,19 +30,19 @@ The **ORPC\_DBG\_BUFFER** structure is the buffer format used to marshalled RPC 
 ```C++
 typedef struct _ORPC_DBG_BUFFER {
   DWORD alwaysOrSometimes;
-  BYTE  verMajor;
-  BYTE  verMinor;
+  BYTE  verMajor;
+  BYTE  verMinor;
   DWORD cbRemaining;
-  GUID  guidSemantic;
+  GUID  guidSemantic;
   union {
-    BOOL   fStopOnOtherSide;
+    BOOL   fStopOnOtherSide;
     USHORT wDebuggingOpCode;
     USHORT cExtent;
-    BYTE   padding[2];
+    BYTE   padding[2];
     struct {
       ULONG cb;
-      GUID  guidExtent;
-      BYTE  *rgbData;
+      GUID  guidExtent;
+      BYTE  *rgbData;
     };
   };
 } ORPC_DBG_BUFFER, *PORPC_DBG_BUFFER;
@@ -61,7 +68,7 @@ A value that controls debugger spawning. **alwaysOrSometimes** can be one of the
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -100,7 +107,7 @@ A GUID that determines which members of the union are present below. **guidSeman
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -125,7 +132,7 @@ A value that allows for one of a series of operations to be specified. **wDebugg
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -163,7 +170,7 @@ A **GUID** that determines the type of data in **rgbData**. **guidExtent** can t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -176,11 +183,11 @@ A **BYTE** buffer used to pass RPC marshalled COM data between the client and se
 
 | guidExtent Value                     | rgbData contents                                                                                                                                                                                                                                    |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 53199051-57EB-11ce-A964-00AA006C3706 | A marshalled interface pointer that results from calling [**CoMarshalInterface**](comarshalinterface.md). The marshalled pointer is converted into its corresponding interface pointer using [**CoUnmarshalInterface**](counmarshalinterface.md). |
+| 53199051-57EB-11ce-A964-00AA006C3706 | A marshalled interface pointer that results from calling [**CoMarshalInterface**](/windows/win32/combaseapi/nf-combaseapi-comarshalinterface?branch=master). The marshalled pointer is converted into its corresponding interface pointer using [**CoUnmarshalInterface**](/windows/win32/combaseapi/nf-combaseapi-counmarshalinterface?branch=master). |
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -194,8 +201,8 @@ This members of this structure have 1-byte alignment and are always transmitted 
 
 |                                     |                                                                                |
 |-------------------------------------|--------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                           |
 | Header<br/>                   | <dl> <dt>N/A</dt> </dl> |
 
 
@@ -216,9 +223,9 @@ This members of this structure have 1-byte alignment and are always transmitted 
 [**IOrpcDebugNotify**](iorpcdebugnotify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

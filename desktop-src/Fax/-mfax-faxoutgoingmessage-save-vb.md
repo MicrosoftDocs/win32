@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves the FaxOutgoingMessage object''s data.'
-ms.assetid: 'b409415d-f674-4aff-8565-d651df6837fa'
-title: 'FaxOutgoingMessage.Save method'
+---
+Description: Saves the FaxOutgoingMessage objects data.
+ms.assetid: b409415d-f674-4aff-8565-d651df6837fa
+title: FaxOutgoingMessage.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.Save method
@@ -28,7 +33,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [****far2MANAGE\_CONFIG****](-mfax-fax-access-rights-enum-2.md) and [****far2QUERY\_CONFIG****](-mfax-fax-access-rights-enum-2.md) access rights.
+To use this method, a user must have the [****far2MANAGE\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master) and [****far2QUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master) access rights.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To use this method, a user must have the [****far2MANAGE\_CONFIG****](-mfax-fax-
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage**](-mfax-faxoutgoingmessage-cpp.md)
+[**IFaxOutgoingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage?branch=master)
 </dt> </dl>
 
  

@@ -2,13 +2,19 @@
 title: enum attribute
 description: The keyword enum identifies an enumerated type.
 ms.assetid: 1aaa3c36-17f7-42ff-8f4c-66133fcf4a1a
-keywords: ["enum attribute MIDL"]
+keywords:
+- enum attribute MIDL
 topic_type:
 - apiref
 api_name:
 - enum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # enum attribute

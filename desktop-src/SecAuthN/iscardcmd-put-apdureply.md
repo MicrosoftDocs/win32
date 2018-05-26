@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a new reply APDU.'
-ms.assetid: '1d058c89-0de9-4809-b008-ae24c62acc5b'
-title: 'ISCardCmd::put\_ApduReply method'
+---
+Description: Sets a new reply APDU.
+ms.assetid: 1d058c89-0de9-4809-b008-ae24c62acc5b
+title: ISCardCmdput\_ApduReply method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardCmd::put\_ApduReply method

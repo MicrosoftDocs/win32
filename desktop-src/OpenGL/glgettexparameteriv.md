@@ -1,8 +1,9 @@
 ---
 title: glGetTexParameteriv function
 description: The glGetTexParameterfv and glGetTexParameteriv functions return texture parameter values.
-ms.assetid: 'b89d10f1-5e30-4d25-8953-fbd59781fdac'
-keywords: ["glGetTexParameteriv function OpenGL"]
+ms.assetid: b89d10f1-5e30-4d25-8953-fbd59781fdac
+keywords:
+- glGetTexParameteriv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetTexParameteriv function
@@ -22,9 +28,9 @@ The [**glGetTexParameterfv**](glgettexparameterfv.md) and **glGetTexParameteriv*
 
 ```C++
 void WINAPI glGetTexParameteriv(
-   GLenum target,
-   GLenum pname,
-   GLint  *params
+   GLenum target,
+   GLenum pname,
+   GLint  *params
 );
 ```
 
@@ -60,7 +66,7 @@ The symbolic name of a texture parameter. The following values are accepted.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -113,8 +119,8 @@ If an error is generated, no change is made to the contents of *params*.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -134,9 +140,9 @@ If an error is generated, no change is made to the contents of *params*.
 [**glTexParameter**](gltexparameter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

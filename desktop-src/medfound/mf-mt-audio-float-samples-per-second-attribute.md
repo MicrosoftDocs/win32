@@ -1,7 +1,12 @@
-﻿---
-Description: 'Number of audio samples per second in an audio media type.'
-ms.assetid: '9e794f7d-0fb3-4069-8431-62651252517d'
-title: 'MF\_MT\_AUDIO\_FLOAT\_SAMPLES\_PER\_SECOND attribute'
+---
+Description: Number of audio samples per second in an audio media type.
+ms.assetid: 9e794f7d-0fb3-4069-8431-62651252517d
+title: MF\_MT\_AUDIO\_FLOAT\_SAMPLES\_PER\_SECOND attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_AUDIO\_FLOAT\_SAMPLES\_PER\_SECOND attribute
@@ -35,13 +40,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetDouble**](imfattributes-getdouble.md)
+[**IMFAttributes::GetDouble**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getdouble?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetDouble**](imfattributes-setdouble.md)
+[**IMFAttributes::SetDouble**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setdouble?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type Attributes](media-type-attributes.md)

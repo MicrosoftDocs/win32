@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelperUni::CreateDefaultGDLSnapshot method gets a GDL snapshot based on the driver default configuration.'
-ms.assetid: '987c3721-d8a8-4aac-8f42-6eac9b5ccdc5'
-title: 'IPrintCoreHelperUni::CreateDefaultGDLSnapshot method'
+---
+Description: The IPrintCoreHelperUniCreateDefaultGDLSnapshot method gets a GDL snapshot based on the driver default configuration.
+ms.assetid: 987c3721-d8a8-4aac-8f42-6eac9b5ccdc5
+title: IPrintCoreHelperUniCreateDefaultGDLSnapshot method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperUni::CreateDefaultGDLSnapshot method

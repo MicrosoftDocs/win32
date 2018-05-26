@@ -1,7 +1,12 @@
-﻿---
-Description: 'An application sends the WM\_SETREDRAW message to a window to allow changes in that window to be redrawn or to prevent changes in that window from being redrawn.'
-ms.assetid: '0085a55e-7bf6-4eb6-a649-832b685db1cc'
-title: 'WM\_SETREDRAW message'
+---
+Description: An application sends the WM\_SETREDRAW message to a window to allow changes in that window to be redrawn or to prevent changes in that window from being redrawn.
+ms.assetid: 0085a55e-7bf6-4eb6-a649-832b685db1cc
+title: WM\_SETREDRAW message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_SETREDRAW message
@@ -46,10 +51,10 @@ An application returns zero if it processes this message.
 
 ## Remarks
 
-This message can be useful if an application must add several items to a list box. The application can call this message with *wParam* set to **FALSE**, add the items, and then call the message again with *wParam* set to **TRUE**. Finally, the application can call [**RedrawWindow**](redrawwindow.md)(*hWnd*, **NULL**, **NULL**, RDW\_ERASE \| RDW\_FRAME \| RDW\_INVALIDATE \| RDW\_ALLCHILDREN) to cause the list box to be repainted.
+This message can be useful if an application must add several items to a list box. The application can call this message with *wParam* set to **FALSE**, add the items, and then call the message again with *wParam* set to **TRUE**. Finally, the application can call [**RedrawWindow**](/windows/win32/Winuser/nf-winuser-redrawwindow?branch=master)(*hWnd*, **NULL**, **NULL**, RDW\_ERASE \| RDW\_FRAME \| RDW\_INVALIDATE \| RDW\_ALLCHILDREN) to cause the list box to be repainted.
 
 > [!Note]  
-> [**RedrawWindow**](redrawwindow.md) with the specified flags is used instead of [**InvalidateRect**](invalidaterect.md) because the former is necessary for some controls that have nonclient area on their own, or have window styles that cause them to be given a nonclient area (such as **WS\_THICKFRAME**, **WS\_BORDER**, or **WS\_EX\_CLIENTEDGE**). If the control does not have a nonclient area, **RedrawWindow** with these flags will do only as much invalidation as **InvalidateRect** would.
+> [**RedrawWindow**](/windows/win32/Winuser/nf-winuser-redrawwindow?branch=master) with the specified flags is used instead of [**InvalidateRect**](/windows/win32/Winuser/nf-winuser-invalidaterect?branch=master) because the former is necessary for some controls that have nonclient area on their own, or have window styles that cause them to be given a nonclient area (such as **WS\_THICKFRAME**, **WS\_BORDER**, or **WS\_EX\_CLIENTEDGE**). If the control does not have a nonclient area, **RedrawWindow** with these flags will do only as much invalidation as **InvalidateRect** would.
 
  
 
@@ -77,7 +82,7 @@ If the application sends the **WM\_SETREDRAW** message to a hidden window, the w
 [Painting and Drawing Messages](painting-and-drawing-messages.md)
 </dt> <dt>
 
-[**RedrawWindow**](redrawwindow.md)
+[**RedrawWindow**](/windows/win32/Winuser/nf-winuser-redrawwindow?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 title: Using Type Building Interfaces and Functions
 description: The type building interfaces are used to build tools that automate the process of generating type descriptions and creating type libraries.
-ms.assetid: 'aad137b1-b747-4d74-8d6c-5ec9b6e6983d'
+ms.assetid: aad137b1-b747-4d74-8d6c-5ec9b6e6983d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Type Building Interfaces and Functions
@@ -14,23 +19,23 @@ The following interfaces and functions are used to create an Automation type lib
 
 | Interface                                      | Description                                                                                                  |
 |------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [**ICreateTypeInfo**](icreatetypeinfo.md)     | Provides the tools for creating and administering the type information defined through the type description. |
-| [**ICreateTypeInfo2**](icreatetypeinfo2.md)   | Adds methods for deleting items that have been added through [**ICreateTypeInfo**](icreatetypeinfo.md).     |
-| [**ICreateTypeLib**](icreatetypelib.md)       | Provides the methods for creating and managing the component or file that contains type information.         |
-| [CreateTypeLib API](createtypelib.md)         | Provides access to a new object instance that supports the **ICreateTypeLib** interface.                     |
-| [**ICreateTypeLib2**](icreatetypelib2.md)     | Supports the creation and administration of type libraries and type descriptions.                            |
-| [CreateTypeLib2 API](createtypelib2.md)       | Creates a type library in the current file format.                                                           |
-| [**ITypeChangeEvents**](itypechangeevents.md) | Raises functions when change is requested on a type and after the change has been made.                      |
+| [**ICreateTypeInfo**](/windows/previous-versions/oaidl/nn-oaidl-icreatetypeinfo?branch=master)     | Provides the tools for creating and administering the type information defined through the type description. |
+| [**ICreateTypeInfo2**](/windows/previous-versions/oaidl/nn-oaidl-icreatetypeinfo2?branch=master)   | Adds methods for deleting items that have been added through [**ICreateTypeInfo**](/windows/previous-versions/oaidl/nn-oaidl-icreatetypeinfo?branch=master).     |
+| [**ICreateTypeLib**](/windows/previous-versions/oaidl/nn-oaidl-icreatetypelib?branch=master)       | Provides the methods for creating and managing the component or file that contains type information.         |
+| [CreateTypeLib API](/windows/previous-versions/OleAuto/nf-oleauto-createtypelib?branch=master)         | Provides access to a new object instance that supports the **ICreateTypeLib** interface.                     |
+| [**ICreateTypeLib2**](/windows/previous-versions/oaidl/nn-oaidl-icreatetypelib2?branch=master)     | Supports the creation and administration of type libraries and type descriptions.                            |
+| [CreateTypeLib2 API](/windows/previous-versions/OleAuto/nf-oleauto-createtypelib2?branch=master)       | Creates a type library in the current file format.                                                           |
+| [**ITypeChangeEvents**](/windows/previous-versions/oaidl/nn-oaidl-itypechangeevents?branch=master) | Raises functions when change is requested on a type and after the change has been made.                      |
 
 
 
  
 
-Generally, it is not necessary to write custom implementations of these interfaces. The compilers use the default implementations that are returned by the [**CreateTypeLib**](createtypelib.md) function. To create tools similar to MkTypLib, the default implementations can be called.
+Generally, it is not necessary to write custom implementations of these interfaces. The compilers use the default implementations that are returned by the [**CreateTypeLib**](/windows/previous-versions/OleAuto/nf-oleauto-createtypelib?branch=master) function. To create tools similar to MkTypLib, the default implementations can be called.
 
 ## Example
 
-You create an Automation type library by using the [**ICreateTypeLib**](icreatetypelib.md) and [**ICreateTypeInfo**](icreatetypeinfo.md) interfaces.
+You create an Automation type library by using the [**ICreateTypeLib**](/windows/previous-versions/oaidl/nn-oaidl-icreatetypelib?branch=master) and [**ICreateTypeInfo**](/windows/previous-versions/oaidl/nn-oaidl-icreatetypeinfo?branch=master) interfaces.
 
 In the following example, a type library is created (Hello.tlb) by the MIDL compiler, using the following .odl file.
 

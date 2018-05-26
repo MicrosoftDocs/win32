@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Continue method tells the caller (the XPS rasterization service) whether to continue rasterizing the current XPS fixed page.'
-ms.assetid: '8136eec2-1d4b-4233-bb93-7203d932816b'
-title: 'IXpsRasterizerNotificationCallback::Continue method'
+---
+Description: The Continue method tells the caller (the XPS rasterization service) whether to continue rasterizing the current XPS fixed page.
+ms.assetid: 8136eec2-1d4b-4233-bb93-7203d932816b
+title: IXpsRasterizerNotificationCallbackContinue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsRasterizerNotificationCallback::Continue method

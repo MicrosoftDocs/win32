@@ -1,14 +1,20 @@
 ---
 title: CameraManufacturer Attribute
 description: The CameraManufacturer attribute is a string representing the manufacturer of the camera.
-ms.assetid: '88c97ac6-159b-4927-8103-baefb09bdb62'
-keywords: ["CameraManufacturer Attribute Windows Media Player"]
+ms.assetid: 88c97ac6-159b-4927-8103-baefb09bdb62
+keywords:
+- CameraManufacturer Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CameraManufacturer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CameraManufacturer Attribute
@@ -40,9 +46,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

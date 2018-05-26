@@ -1,7 +1,12 @@
 ---
-Description: 'Represents replication status for a replication relationship.'
-ms.assetid: 'F11EFF86-5CC9-4310-8254-B310C54B561D'
-title: 'Msvm\_ReplicationRelationship class'
+Description: Represents replication status for a replication relationship.
+ms.assetid: F11EFF86-5CC9-4310-8254-B310C54B561D
+title: Msvm\_ReplicationRelationship class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReplicationRelationship class
@@ -16,11 +21,11 @@ The following syntax is simplified from MOF code and includes these inherited pr
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ReplicationRelationship : CIM_ManagedSystemElement
 {
-  string   InstanceID;
-  uint16   ReplicationState;
-  uint16   ReplicationHealth;
-  uint16   FailedOverReplicationType;
-  uint16   LastReplicationType;
+  string   InstanceID;
+  uint16   ReplicationState;
+  uint16   ReplicationHealth;
+  uint16   FailedOverReplicationType;
+  uint16   LastReplicationType;
   datetime LastApplicationConsistentReplicationTime;
   datetime LastReplicationTime;
   datetime LastApplyTime;
@@ -355,9 +360,9 @@ Replication state for the replication relationship.
 </dt> <dd>
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -369,9 +374,9 @@ Replication state for the replication relationship.
 </dt> <dd>
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -383,9 +388,9 @@ Replication state for the replication relationship.
 </dt> <dd>
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -397,9 +402,9 @@ Replication state for the replication relationship.
 </dt> <dd>
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -411,9 +416,9 @@ Replication state for the replication relationship.
 </dt> <dd>
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -425,9 +430,9 @@ Replication state for the replication relationship.
 </dt> <dd>
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -439,9 +444,9 @@ Replication state for the replication relationship.
 </dt> <dd>
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> </dl>
 
@@ -451,9 +456,9 @@ Replication state for the replication relationship.
 
 ### Extended replication
 
-The Hyper-V replication feature in Windows 8 allows virtual machines that run on a Hyper-V server at the primary site to be efficiently replicated to another Hyper-V server at the secondary site.
+The Hyper-V replication feature in Windows 8 allows virtual machines that run on a Hyper-V server at the primary site to be efficiently replicated to another Hyper-V server at the secondary site.
 
-The Hyper-V replication feature in Windows 8.1 enables a user to extend the replication relationship from the secondary site onwards to a third site. The third site can be a Hyper-V host pre-provisioned as a recovery server or external replication provider.
+The Hyper-V replication feature in Windows 8.1 enables a user to extend the replication relationship from the secondary site onwards to a third site. The third site can be a Hyper-V host pre-provisioned as a recovery server or external replication provider.
 
 ## Requirements
 
@@ -461,8 +466,8 @@ The Hyper-V replication feature in Windows 8.1 enables a user to extend the repl
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -479,9 +484,9 @@ The Hyper-V replication feature in Windows 8.1 enables a user to extend the repl
 [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

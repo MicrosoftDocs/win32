@@ -1,8 +1,10 @@
 ---
 title: MSFT\_TargetPortToVirtualDisk class
 description: Association between TargetPort and VirtualDisk.
-ms.assetid: 'EF675F41-FD41-4C95-97AD-6189ACF4032A'
-keywords: ["MSFT_TargetPortToVirtualDisk class Windows Storage Management API", "MSFT_TargetPortToVirtualDisk class Windows Storage Management API , described"]
+ms.assetid: EF675F41-FD41-4C95-97AD-6189ACF4032A
+keywords:
+- MSFT_TargetPortToVirtualDisk class Windows Storage Management API
+- MSFT_TargetPortToVirtualDisk class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_TargetPortToVirtualDisk class
@@ -25,7 +32,7 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 [Association]
 class MSFT_TargetPortToVirtualDisk
 {
-  MSFT_TargetPort  REF TargetPort;
+  MSFT_TargetPort  REF TargetPort;
   MSFT_VirtualDisk REF VirtualDisk;
 };
 ```
@@ -76,8 +83,8 @@ Qualifiers: **Key**
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -93,9 +100,9 @@ Qualifiers: **Key**
 [**MSFT\_VirtualDisk**](msft-virtualdisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

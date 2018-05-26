@@ -2,7 +2,14 @@
 title: Using ACF Attributes in an IDL File
 description: You can use the /app\_config MIDL compiler option to specify binding handle attributes in the IDL file rather than in a separate ACF file.
 ms.assetid: 3558e818-b39f-42a4-842f-05970296da0e
-keywords: ["ACF MIDL , attributes, using ACF in IDL", "IDL MIDL , using ACF"]
+keywords:
+- ACF MIDL , attributes, using ACF in IDL
+- IDL MIDL , using ACF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using ACF Attributes in an IDL File

@@ -1,8 +1,16 @@
 ---
 title: Windows Error Reporting
 description: Enable Windows error reporting through the Windows user interface. For a performance report, register for Microsoft application error reporting with Windows Quality Online Services.
-ms.assetid: '5c076588-779c-4cd2-9fd9-1db3039e37a2'
-keywords: ["Windows error reporting Windows Error Reporting", "Windows error reporting Windows Error Reporting , home page", "WER Windows Error Reporting"]
+ms.assetid: 5c076588-779c-4cd2-9fd9-1db3039e37a2
+keywords:
+- Windows error reporting Windows Error Reporting
+- Windows error reporting Windows Error Reporting , home page
+- WER Windows Error Reporting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Error Reporting

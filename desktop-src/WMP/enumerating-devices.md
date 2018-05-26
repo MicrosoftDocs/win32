@@ -1,8 +1,22 @@
 ---
 title: Enumerating Devices
 description: Enumerating Devices
-ms.assetid: '0236a629-c09a-4687-a8ba-fa05107fab33'
-keywords: ["Windows Media Player,portable devices", "Windows Media Player object model,portable devices", "object model,portable devices", "Windows Media Player ActiveX control,portable devices", "ActiveX control,portable devices", "Windows Media Player Mobile ActiveX control,portable devices", "Windows Media Player Mobile,portable devices", "portable devices,enumerating", "enumerations,portable devices"]
+ms.assetid: 0236a629-c09a-4687-a8ba-fa05107fab33
+keywords:
+- Windows Media Player,portable devices
+- Windows Media Player object model,portable devices
+- object model,portable devices
+- Windows Media Player ActiveX control,portable devices
+- ActiveX control,portable devices
+- Windows Media Player Mobile ActiveX control,portable devices
+- Windows Media Player Mobile,portable devices
+- portable devices,enumerating
+- enumerations,portable devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Devices
@@ -105,25 +119,25 @@ STDMETHODIMP CMainDlg::EnumDevices(BOOL bConnectedOnly)
 
 
 
-You might use similar code to retrieve other such device lists. For example, you could use [IWMPSyncDevice::get\_status](iwmpsyncdevice-get-status.md) to create an array of devices for which a partnership exists.
+You might use similar code to retrieve other such device lists. For example, you could use [IWMPSyncDevice::get\_status](/windows/win32/wmp/nf-wmp-iwmpsyncdevice-get_status?branch=master) to create an array of devices for which a partnership exists.
 
 ## Related topics
 
 <dl> <dt>
 
-[**IWMPEvents2::DeviceConnect**](iwmpevents2-iwmpevents2--deviceconnect.md)
+[**IWMPEvents2::DeviceConnect**](/windows/win32/wmp/nf-wmp-iwmpevents2-deviceconnect?branch=master)
 </dt> <dt>
 
-[**IWMPEvents2::DeviceDisconnect**](iwmpevents2-iwmpevents2--devicedisconnect.md)
+[**IWMPEvents2::DeviceDisconnect**](/windows/win32/wmp/nf-wmp-iwmpevents2-devicedisconnect?branch=master)
 </dt> <dt>
 
-[**IWMPSyncDevice Interface**](iwmpsyncdevice.md)
+[**IWMPSyncDevice Interface**](/windows/win32/wmp/nn-wmp-iwmpsyncdevice?branch=master)
 </dt> <dt>
 
-[**IWMPSyncDevice::get\_connected**](iwmpsyncdevice-get-connected.md)
+[**IWMPSyncDevice::get\_connected**](/windows/win32/wmp/nf-wmp-iwmpsyncdevice-get_connected?branch=master)
 </dt> <dt>
 
-[**IWMPSyncServices Interface**](iwmpsyncservices.md)
+[**IWMPSyncServices Interface**](/windows/win32/wmp/nn-wmp-iwmpsyncservices?branch=master)
 </dt> <dt>
 
 [**Working with Portable Devices**](working-with-portable-devices.md)

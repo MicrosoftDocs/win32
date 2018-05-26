@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_GETDEVICE message
 description: The MCIWNDM\_GETDEVICE message retrieves the name of the currently open MCI device. You can send this message explicitly or by using the MCIWndGetDevice macro.
-ms.assetid: 'e69a73a6-a927-4536-98c7-ee7d5b16668a'
-keywords: ["MCIWNDM_GETDEVICE message Windows Multimedia"]
+ms.assetid: e69a73a6-a927-4536-98c7-ee7d5b16668a
+keywords:
+- MCIWNDM_GETDEVICE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_GETDEVICE message
 
-The **MCIWNDM\_GETDEVICE** message retrieves the name of the currently open MCI device. You can send this message explicitly or by using the [**MCIWndGetDevice**](mciwndgetdevice.md) macro.
+The **MCIWNDM\_GETDEVICE** message retrieves the name of the currently open MCI device. You can send this message explicitly or by using the [**MCIWndGetDevice**](/windows/win32/Vfw/nf-vfw-mciwndgetdevice?branch=master) macro.
 
 
 ```C++
@@ -58,15 +64,15 @@ If the null-terminated string containing the device name is longer than the buff
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

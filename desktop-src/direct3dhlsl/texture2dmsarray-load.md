@@ -1,12 +1,18 @@
 ---
 title: Texture2DMSArray Load methods
 description: Reads texture data.
-ms.assetid: '955135cf-1bac-4d0c-9870-2b6d59d9dd88'
-keywords: ["Load methods HLSL"]
+ms.assetid: 955135cf-1bac-4d0c-9870-2b6d59d9dd88
+keywords:
+- Load methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DMSArray::Load methods
@@ -32,9 +38,9 @@ Reads texture data.
 [**Texture2DMSArray**](sm5-object-texture2dmsarray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

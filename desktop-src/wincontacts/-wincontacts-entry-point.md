@@ -1,7 +1,12 @@
 ---
 title: Windows Contacts
 description: New applications should not use this set of interfaces. These interfaces exist for backward compatibility with legacy applications. These interfaces will be unavailable in the future.
-ms.assetid: '5f0ef963-507c-477f-bf82-105188afabcc'
+ms.assetid: 5f0ef963-507c-477f-bf82-105188afabcc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Contacts

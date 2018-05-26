@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.zIndex
 description: The zIndex attribute specifies or retrieves the order in which the control is rendered.
-ms.assetid: 'b05c9efc-5d1d-4cba-89f4-b4200ce99e09'
-keywords: ["AmbientAttributes.zIndex Windows Media Player"]
+ms.assetid: b05c9efc-5d1d-4cba-89f4-b4200ce99e09
+keywords:
+- AmbientAttributes.zIndex Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.zIndex
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.zIndex
@@ -50,9 +56,9 @@ The **zIndex** attribute is not supported by the **BROWSER** and **PLAYLIST** el
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

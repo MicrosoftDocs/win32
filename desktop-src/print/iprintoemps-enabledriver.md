@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPS::EnableDriver method allows a rendering plug-in for Pscript to hook out some graphics DDI functions.'
-ms.assetid: '12e65e91-f540-49fd-a723-c6b93708b166'
-title: 'IPrintOemPS::EnableDriver method'
+---
+Description: The IPrintOemPSEnableDriver method allows a rendering plug-in for Pscript to hook out some graphics DDI functions.
+ms.assetid: 12e65e91-f540-49fd-a723-c6b93708b166
+title: IPrintOemPSEnableDriver method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPS::EnableDriver method

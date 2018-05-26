@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the connection type of the monitor.'
-ms.assetid: 'f5658246-fbb8-4530-8dfb-f1ca792fe9d5'
+Description: Contains the connection type of the monitor.
+ms.assetid: f5658246-fbb8-4530-8dfb-f1ca792fe9d5
 title: WmiMonitorConnectionParams class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorConnectionParams class
@@ -16,8 +21,8 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class WmiMonitorConnectionParams
 {
   boolean Active;
-  string  InstanceName;
-  uint32  VideoOutputTechnology;
+  string  InstanceName;
+  uint32  VideoOutputTechnology;
 };
 ```
 
@@ -81,8 +86,8 @@ Video output technology connection type. Valid values are documented in the [D3D
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -96,9 +101,9 @@ Video output technology connection type. Valid values are documented in the [D3D
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents an available disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1f5c8a44-dd23-4255-8814-ee5b45dd55d4'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1f5c8a44-dd23-4255-8814-ee5b45dd55d4
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_AvailableDisk class", "MSCluster_AvailableDisk class, described"]
+keywords:
+- MSCluster_AvailableDisk class
+- MSCluster_AvailableDisk class, described
 topic_type:
 - apiref
 api_name:
@@ -40,15 +42,18 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_AvailableDisk class
 
 A dynamic [*WMI class*](https://msdn.microsoft.com/library/aa373136#-wolf-wmi-class-gly) that represents an available disk.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-Before Windows Server 2012 this class inherited directly from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md). Beginning in Windows Server 2012 it inherits from [**MSCluster\_ClusterDisk**](mscluster-clusterdisk.md).
+Before Windows Server 2012 this class inherited directly from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md). Beginning in Windows Server 2012 it inherits from [**MSCluster\_ClusterDisk**](mscluster-clusterdisk.md).
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -58,27 +63,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{A4F69DC3-DD5A-41AB-8108-E7C293E643AD}"), AMENDMENT]
 class MSCluster_AvailableDisk : MSCluster_ClusterDisk
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint32   Flags;
-  uint32   Characteristics;
-  string   Id;
-  uint32   Signature;
-  string   GptGuid;
-  uint32   ScsiPort;
-  uint32   ScsiBus;
-  uint32   ScsiTargetID;
-  uint32   ScsiLUN;
-  uint64   Size;
-  uint32   Number;
-  string   VirtualDiskId;
-  string   StoragePoolId;
-  string   Node;
-  string   ResourceName;
-  string   ConnectedNodes[];
+  string   Name;
+  string   Status;
+  uint32   Flags;
+  uint32   Characteristics;
+  string   Id;
+  uint32   Signature;
+  string   GptGuid;
+  uint32   ScsiPort;
+  uint32   ScsiBus;
+  uint32   ScsiTargetID;
+  uint32   ScsiLUN;
+  uint64   Size;
+  uint32   Number;
+  string   VirtualDiskId;
+  string   StoragePoolId;
+  string   Node;
+  string   ResourceName;
+  string   ConnectedNodes[];
 };
 ```
 
@@ -98,11 +103,11 @@ The **MSCluster\_AvailableDisk** class has these methods.
 | Method                                                                         | Description                                                                                                                         |
 |:-------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
 | [**AddToCluster**](mscluster-availabledisk-addtocluster.md)                   | Adds the available disk to the cluster.<br/>                                                                                  |
-| [**CreateStorageResource**](mscluster-availabledisk-createstorageresource.md) | **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/> |
+| [**CreateStorageResource**](mscluster-availabledisk-createstorageresource.md) | **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/> |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -139,9 +144,9 @@ Access type: Read-only
 
 Provides the characteristics of the object. The cluster defines characteristics only for [resources](https://msdn.microsoft.com/library/aa372152). For a description of these characteristics, see [CLUSCTL\_RESOURCE\_GET\_CHARACTERISTICS](https://msdn.microsoft.com/library/aa367466).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -158,9 +163,9 @@ Access type: Read-only
 
 The names of the nodes which are connected to the available disk.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -190,9 +195,9 @@ Access type: Read-only
 
 Provides access to the flags set for the object. The cluster defines flags only for resources. For a description of these flags, see [CLUSCTL\_RESOURCE\_GET\_FLAGS](https://msdn.microsoft.com/library/aa367471).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -278,9 +283,9 @@ Access type: Read-only
 
 The node which provided the disk information.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -297,9 +302,9 @@ The disk number on the node hosting the disk.
 
 This property is inherited from [**MSCluster\_ClusterDisk**](mscluster-clusterdisk.md).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-Due to inheritance restructuring, this property is not available on this class before Windows Server 2012.
+Due to inheritance restructuring, this property is not available on this class before Windows Server 2012.
 
 </dd> <dt>
 
@@ -314,9 +319,9 @@ Access type: Read-only
 
 The resource name to try when adding the disk to the cluster.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -408,9 +413,9 @@ The physical size of the disk.
 
 This property is inherited from [**MSCluster\_ClusterDisk**](mscluster-clusterdisk.md).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-Due to inheritance restructuring, this property is not available on this class before Windows Server 2012.
+Due to inheritance restructuring, this property is not available on this class before Windows Server 2012.
 
 </dd> <dt>
 
@@ -532,9 +537,9 @@ The id of the virtual disk.
 
 This property is inherited from [**MSCluster\_ClusterDisk**](mscluster-clusterdisk.md).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-Due to inheritance restructuring, this property is not available on this class before Windows Server 2012.
+Due to inheritance restructuring, this property is not available on this class before Windows Server 2012.
 
 </dd> </dl>
 
@@ -545,7 +550,7 @@ Due to inheritance restructuring, this property is not available on this class b
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -562,9 +567,9 @@ Due to inheritance restructuring, this property is not available on this class b
 [Failover Cluster Provider Reference](server-cluster-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Compile a Help Project
 description: There are a variety of compiler settings you can specify in HTML Help Workshop.
-ms.assetid: 'E4A73C25-C3AF-4f8d-B211-637F3FEBB26A'
+ms.assetid: E4A73C25-C3AF-4f8d-B211-637F3FEBB26A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compile a Help Project

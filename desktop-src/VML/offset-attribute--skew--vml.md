@@ -1,7 +1,12 @@
 ---
 title: Offset Attribute (Skew)(VML)
 description: Offset Attribute (Skew)(VML)
-ms.assetid: '3d4b08c5-e29b-4ace-9c3e-75598068ff18'
+ms.assetid: 3d4b08c5-e29b-4ace-9c3e-75598068ff18
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Offset Attribute (Skew)(VML)

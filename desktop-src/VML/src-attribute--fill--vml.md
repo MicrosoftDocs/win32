@@ -1,7 +1,12 @@
 ---
 title: Src Attribute (Fill)(VML)
 description: Src Attribute (Fill)(VML)
-ms.assetid: '88ad9413-1863-41e2-855b-2bf155ce23cc'
+ms.assetid: 88ad9413-1863-41e2-855b-2bf155ce23cc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Src Attribute (Fill)(VML)

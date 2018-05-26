@@ -4,17 +4,22 @@ description: IP addresses of a TAPI client computer that a user is logged into. 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4ea850ad-d54a-4b5f-a37d-68817432d874'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4ea850ad-d54a-4b5f-a37d-68817432d874
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TAPI-Ip-Address attribute AD Schema", "msTAPI-IpAddress attribute AD Schema"]
+keywords:
+- ms-TAPI-Ip-Address attribute AD Schema
+- msTAPI-IpAddress attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TAPI-Ip-Address
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TAPI-Ip-Address attribute
@@ -38,11 +43,11 @@ IP addresses of a TAPI client computer that a user is logged into. This attribut
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ IP addresses of a TAPI client computer that a user is logged into. This attribut
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: Developing the Server
 description: When you create a server program for a distributed application, you must use the header file and server stub that the MIDL compiler generates.
-ms.assetid: '2b7b14f5-5692-41b8-bb98-7edd36309d21'
-keywords: ["Remote Procedure Call RPC , tasks, developing the server"]
+ms.assetid: 2b7b14f5-5692-41b8-bb98-7edd36309d21
+keywords:
+- Remote Procedure Call RPC , tasks, developing the server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing the Server

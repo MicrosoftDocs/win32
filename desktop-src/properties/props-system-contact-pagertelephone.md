@@ -1,7 +1,12 @@
 ---
-Description: 'Pager telephone number of the contact.'
-ms.assetid: 'c3d62f1b-8455-414c-b4a6-261cf7db787e'
-title: 'System.Contact.PagerTelephone'
+Description: Pager telephone number of the contact.
+ms.assetid: c3d62f1b-8455-414c-b4a6-261cf7db787e
+title: System.Contact.PagerTelephone
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.PagerTelephone

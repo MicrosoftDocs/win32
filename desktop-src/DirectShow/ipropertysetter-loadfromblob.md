@@ -1,7 +1,12 @@
-﻿---
-Description: 'The LoadFromBlob method loads property data from a persistence format.'
-ms.assetid: 'b314a844-2190-469a-a030-4494e2140ce6'
-title: 'IPropertySetter::LoadFromBlob method'
+---
+Description: The LoadFromBlob method loads property data from a persistence format.
+ms.assetid: b314a844-2190-469a-a030-4494e2140ce6
+title: IPropertySetterLoadFromBlob method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertySetter::LoadFromBlob method

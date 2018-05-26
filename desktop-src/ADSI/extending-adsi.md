@@ -4,10 +4,13 @@ description: With the ADSI extension model, you can associate a directory class 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bf9a324d-14eb-4eb9-a80d-b0431db3af26'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: bf9a324d-14eb-4eb9-a80d-b0431db3af26
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending ADSI

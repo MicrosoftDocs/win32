@@ -1,12 +1,17 @@
 ---
-Description: 'Deletes an InkDivider object and releases associated resources.'
-ms.assetid: 'adf772e0-2829-4410-83c4-45a24bf3a848'
+Description: Deletes an InkDivider object and releases associated resources.
+ms.assetid: adf772e0-2829-4410-83c4-45a24bf3a848
 title: DeleteInkDivider function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteInkDivider function
 
-Deletes an [**InkDivider**](inkdivider-class.md) object and releases associated resources.
+Deletes an [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object and releases associated resources.
 
 This function is not intended to be used by application code.
 
@@ -15,7 +20,7 @@ This function is not intended to be used by application code.
 
 ```C++
 HRESULT WINAPI DeleteInkDivider(
-  _In_ INT_PTR hDivider
+  _In_ INT_PTR hDivider
 );
 ```
 
@@ -28,7 +33,7 @@ HRESULT WINAPI DeleteInkDivider(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](inkdivider-class.md) object.
+A handle to the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 </dd> </dl>
 
@@ -45,7 +50,7 @@ This function can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,15 +58,15 @@ This function can return one of these values.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | None supported<br/>                                                             |
 | Library<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

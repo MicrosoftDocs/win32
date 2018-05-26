@@ -1,8 +1,11 @@
 ---
 title: ITransportCallback OnPrompt method
 description: Called when the transport requires user input.
-ms.assetid: '3f66167e-63d3-45e1-8fc9-e4bd35829824'
-keywords: ["OnPrompt method Windows Mail (formerly Outlook Express)", "OnPrompt method Windows Mail (formerly Outlook Express) , ITransportCallback interface", "ITransportCallback interface Windows Mail (formerly Outlook Express) , OnPrompt method"]
+ms.assetid: 3f66167e-63d3-45e1-8fc9-e4bd35829824
+keywords:
+- OnPrompt method Windows Mail (formerly Outlook Express)
+- OnPrompt method Windows Mail (formerly Outlook Express) , ITransportCallback interface
+- ITransportCallback interface Windows Mail (formerly Outlook Express) , OnPrompt method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoe.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransportCallback::OnPrompt method
@@ -24,11 +32,11 @@ Called when the transport requires user input.
 
 ```C++
 INT OnPrompt(
-  [in] HRESULT            hrError,
-  [in] LPCTSTR            pszText,
-  [in] LPCTSTR            pszCaption,
-  [in] UINT               uType,
-  [in] IInternetTransport *pTransport
+  [in] HRESULT            hrError,
+  [in] LPCTSTR            pszText,
+  [in] LPCTSTR            pszCaption,
+  [in] UINT               uType,
+  [in] IInternetTransport *pTransport
 );
 ```
 
@@ -70,7 +78,7 @@ Specifies an **LPCTSTR** that contains the suggested caption of the message box.
 
 Type: **UINT**
 
-Specifies a **UINT** to be passed through to the Win32 [**MessageBox**](https://msdn.microsoft.com/library/windows/desktop/ms645505) function. See the *uType* parameter of **MessageBox** for more information.
+Specifies a **UINT** to be passed through to the Win32 [**MessageBox**](https://msdn.microsoft.com/library/windows/desktop/ms645505) function. See the *uType* parameter of **MessageBox** for more information.
 
 </dd> <dt>
 
@@ -95,8 +103,8 @@ Returns the same values as the [**MessageBox**](https://msdn.microsoft.com/libra
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                             |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                      |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                    |
@@ -104,9 +112,9 @@ Returns the same values as the [**MessageBox**](https://msdn.microsoft.com/libra
 
 
 
- 
+ 
 
- 
+ 
 
 
 

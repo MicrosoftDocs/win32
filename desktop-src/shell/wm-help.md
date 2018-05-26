@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates that the user pressed the F1 key.'
-ms.assetid: '6a090125-67dd-4267-9973-10e32c6e4f1f'
-title: 'WM\_HELP message'
+---
+Description: Indicates that the user pressed the F1 key.
+ms.assetid: 6a090125-67dd-4267-9973-10e32c6e4f1f
+title: WM\_HELP message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_HELP message
@@ -22,7 +27,7 @@ Must be zero.
 *lphi* 
 </dt> <dd>
 
-The address of a [**HELPINFO**](helpinfo-str.md) structure that contains information about the menu item, control, dialog box, or window for which Help is requested.
+The address of a [**HELPINFO**](/windows/win32/Winuser/ns-winuser-taghelpinfo?branch=master) structure that contains information about the menu item, control, dialog box, or window for which Help is requested.
 
 </dd> </dl>
 

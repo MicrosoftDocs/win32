@@ -1,7 +1,12 @@
 ---
-Description: 'There are cases where VSS applications that implement backup and restore applications should use special care.'
-ms.assetid: 'df25cf67-d5a6-47f4-9a7f-cf0e9b15b2c2'
+Description: There are cases where VSS applications that implement backup and restore applications should use special care.
+ms.assetid: df25cf67-d5a6-47f4-9a7f-cf0e9b15b2c2
 title: Special VSS Usage Cases
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Special VSS Usage Cases

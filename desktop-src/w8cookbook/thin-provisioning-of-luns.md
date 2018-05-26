@@ -1,8 +1,15 @@
 ---
 title: Thin provisioning of logical units
 description: Thin provisioning of logical units
-ms.assetid: 'D64ECA7B-62AC-4C14-BE4B-84DA2E20C16B'
-keywords: ["LUN", "LBA"]
+ms.assetid: D64ECA7B-62AC-4C14-BE4B-84DA2E20C16B
+keywords:
+- LUN
+- LBA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thin provisioning of logical units

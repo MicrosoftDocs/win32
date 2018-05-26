@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork getProxyBypassForLocal method
 description: The getProxyBypassForLocal method returns a value indicating whether the proxy server is bypassed if the origin server is on a local network.
-ms.assetid: '150a05f3-6979-4a88-a617-472f07d38807'
-keywords: ["getProxyBypassForLocal method Windows Media Player", "getProxyBypassForLocal method Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , getProxyBypassForLocal method"]
+ms.assetid: 150a05f3-6979-4a88-a617-472f07d38807
+keywords:
+- getProxyBypassForLocal method Windows Media Player
+- getProxyBypassForLocal method Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , getProxyBypassForLocal method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::getProxyBypassForLocal method
@@ -166,9 +174,9 @@ proxyBypassText.Lines = proxyInfo;</code></pre></td>
 [**IWMPNetwork.setProxyBypassForLocal (VB and C#)**](wmplibiwmpnetwork-iwmpnetwork-setproxybypassforlocal--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Sets DHCP server audit log configuration on the server - including 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '26715337-a12b-4acd-8bc5-146368426f1f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 26715337-a12b-4acd-8bc5-146368426f1f
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DhcpServerAuditLog class", "PS_DhcpServerAuditLog class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DhcpServerAuditLog class
+- PS_DhcpServerAuditLog class, Set method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DhcpServerAuditLog class
@@ -30,14 +36,14 @@ Sets DHCP server audit log configuration on the server - including enabling or d
 
 ```mof
 uint32 Set(
-  [in]  boolean            Enable,
-  [in]  string             Path,
-  [in]  uint32             MaxMBFileSize,
-  [in]  uint32             DiskCheckInterval,
-  [in]  uint32             MinMBDiskSpace,
-  [in]  string             ComputerName,
-  [in]  boolean            PassThru,
-  [out] DhcpServerAuditLog cmdletOutput
+  [in]  boolean            Enable,
+  [in]  string             Path,
+  [in]  uint32             MaxMBFileSize,
+  [in]  uint32             DiskCheckInterval,
+  [in]  uint32             MinMBDiskSpace,
+  [in]  string             ComputerName,
+  [in]  boolean            PassThru,
+  [out] DhcpServerAuditLog cmdletOutput
 );
 ```
 
@@ -110,7 +116,7 @@ An embedded instance of the [**DhcpServerAuditLog**](dhcpserverauditlog.md) clas
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -124,9 +130,9 @@ An embedded instance of the [**DhcpServerAuditLog**](dhcpserverauditlog.md) clas
 [**PS\_DhcpServerAuditLog**](ps-dhcpserverauditlog.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

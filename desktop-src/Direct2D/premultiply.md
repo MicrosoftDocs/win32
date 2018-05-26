@@ -1,8 +1,14 @@
 ---
 title: Premultiply effect
 description: Use this effect to convert an image from unpremultiplied alpha to premultiplied alpha.
-ms.assetid: '8A5F55C6-3AC7-48B4-87D8-C19D8B4EA0DD'
-keywords: ["premultiply effect"]
+ms.assetid: 8A5F55C6-3AC7-48B4-87D8-C19D8B4EA0DD
+keywords:
+- premultiply effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Premultiply effect
@@ -36,7 +42,7 @@ The output bitmap size is the same as the input bitmap size.
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
  

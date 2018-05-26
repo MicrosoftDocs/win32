@@ -1,12 +1,17 @@
 ---
-Description: 'The BeginFlush method begins a flush operation. This method implements the IPin::BeginFlush method.'
-ms.assetid: '7c76ca06-dc3c-4f9a-9761-32aea7db4c7e'
-title: 'CTransformInputPin.BeginFlush method'
+Description: The BeginFlush method begins a flush operation. This method implements the IPinBeginFlush method.
+ms.assetid: 7c76ca06-dc3c-4f9a-9761-32aea7db4c7e
+title: CTransformInputPin.BeginFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformInputPin.BeginFlush method
 
-The `BeginFlush` method begins a flush operation. This method implements the [**IPin::BeginFlush**](ipin-beginflush.md) method.
+The `BeginFlush` method begins a flush operation. This method implements the [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) method.
 
 ## Syntax
 
@@ -34,7 +39,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,9 +56,9 @@ This method calls the pin's [**CBaseInputPin::BeginFlush**](cbaseinputpin-beginf
 
 
 
- 
+ 
 
- 
+ 
 
 
 

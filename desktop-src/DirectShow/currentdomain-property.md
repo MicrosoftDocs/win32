@@ -1,7 +1,12 @@
 ---
-Description: 'The CurrentDomain property retrieves the DVD domain that the MSWebDVD object is in.'
-ms.assetid: '9d545438-9a3d-4c57-a3df-5e75af2e4d1b'
+Description: The CurrentDomain property retrieves the DVD domain that the MSWebDVD object is in.
+ms.assetid: 9d545438-9a3d-4c57-a3df-5e75af2e4d1b
 title: CurrentDomain Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CurrentDomain Property

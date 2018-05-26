@@ -1,7 +1,12 @@
 ---
 title: Compute Shaders on Downlevel Hardware
 description: This topic discusses how to make use of compute shaders in a Direct3D 11 app on Direct3D 10 hardware.
-ms.assetid: 'b864269f-c1f7-4253-888d-04d1ed3e6587'
+ms.assetid: b864269f-c1f7-4253-888d-04d1ed3e6587
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compute Shaders on Downlevel Hardware
@@ -10,9 +15,9 @@ Direct3D 11 provides the ability to use [compute shaders](direct3d-11-advanced-s
 
 Support for compute shaders on downlevel hardware is only for devices compatible with Direct3D 10.x. Compute shaders cannot be used on Direct3D 9.x hardware.
 
-To check if Direct3D 10.x hardware supports compute shaders, call [**ID3D11Device::CheckFeatureSupport**](id3d11device-checkfeaturesupport.md). In the **CheckFeatureSupport** call, pass the D3D11\_FEATURE\_D3D10\_X\_HARDWARE\_OPTIONS value to the *Feature* parameter, pass a pointer to the [**D3D11\_FEATURE\_DATA\_D3D10\_X\_HARDWARE\_OPTIONS**](d3d11-feature-data-d3d10-x-hardware-options.md) structure to the *pFeatureSupportData* parameter, and pass the size of the **D3D11\_FEATURE\_DATA\_D3D10\_X\_HARDWARE\_OPTIONS** structure to the *FeatureSupportDataSize* parameter. **CheckFeatureSupport** returns **TRUE** in the **ComputeShaders\_Plus\_RawAndStructuredBuffers\_Via\_Shader\_4\_x** member of **D3D11\_FEATURE\_DATA\_D3D10\_X\_HARDWARE\_OPTIONS** if the Direct3D 10.x hardware supports compute shaders.
+To check if Direct3D 10.x hardware supports compute shaders, call [**ID3D11Device::CheckFeatureSupport**](/windows/win32/D3D11/nf-d3d11-id3d11device-checkfeaturesupport?branch=master). In the **CheckFeatureSupport** call, pass the D3D11\_FEATURE\_D3D10\_X\_HARDWARE\_OPTIONS value to the *Feature* parameter, pass a pointer to the [**D3D11\_FEATURE\_DATA\_D3D10\_X\_HARDWARE\_OPTIONS**](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_d3d10_x_hardware_options?branch=master) structure to the *pFeatureSupportData* parameter, and pass the size of the **D3D11\_FEATURE\_DATA\_D3D10\_X\_HARDWARE\_OPTIONS** structure to the *FeatureSupportDataSize* parameter. **CheckFeatureSupport** returns **TRUE** in the **ComputeShaders\_Plus\_RawAndStructuredBuffers\_Via\_Shader\_4\_x** member of **D3D11\_FEATURE\_DATA\_D3D10\_X\_HARDWARE\_OPTIONS** if the Direct3D 10.x hardware supports compute shaders.
 
-The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the differences between how various [**ID3D11Device**](id3d11device.md) and [**ID3D11DeviceContext**](id3d11devicecontext.md) methods behave at various 10Level9 feature levels.
+The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the differences between how various [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) and [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) methods behave at various 10Level9 feature levels.
 
 -   [Unordered Access Views (UAVs)](#unordered-access-views-uavs)
 -   [Shader Resource Views (SRVs)](#shader-resource-views-srvs)
@@ -27,7 +32,7 @@ The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the
 
 Raw ([RWByteAddressBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471475)) and Structured ([RWStructuredBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471494)) Unordered Access Views are supported on downlevel hardware, with the following limitations:
 
--   Only a single UAV may be bound to a pipeline at a time through [**ID3D11DeviceContext::CSSetUnorderedAccessViews**](id3d11devicecontext-cssetunorderedaccessviews.md).
+-   Only a single UAV may be bound to a pipeline at a time through [**ID3D11DeviceContext::CSSetUnorderedAccessViews**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-cssetunorderedaccessviews?branch=master).
 -   The base offset for a Raw UAV must be aligned on a 256-byte boundary (instead of 16-byte alignment required for Direct3D 11 hardware).
 
 Typed UAVs are not supported on downlevel hardware. This includes [Texture1D](https://msdn.microsoft.com/library/windows/desktop/ff471499), [Texture2D](https://msdn.microsoft.com/library/windows/desktop/ff471505), and [Texture3D](https://msdn.microsoft.com/library/windows/desktop/ff471511) UAVs.
@@ -60,8 +65,8 @@ For compute shaders operating on downlevel hardware, thread groups only support 
 
 This limitation specifically applies to the following:
 
--   [**ID3D11DeviceContext::Dispatch**](id3d11devicecontext-dispatch.md)— The *ThreadGroupCountZ* argument must be 1.
--   [**ID3D11DeviceContext::DispatchIndirect**](id3d11devicecontext-dispatchindirect.md)— This function is not supported on downlevel hardware.
+-   [**ID3D11DeviceContext::Dispatch**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-dispatch?branch=master)— The *ThreadGroupCountZ* argument must be 1.
+-   [**ID3D11DeviceContext::DispatchIndirect**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-dispatchindirect?branch=master)— This function is not supported on downlevel hardware.
 -   [numthreads](https://msdn.microsoft.com/library/windows/desktop/ff471442)— The Z value must be 1.
 
 ### Thread Group Shared Memory (TGSM)

@@ -1,14 +1,19 @@
 ---
-Description: 'Certificate example. Create applications for api certification, install SSL certificate, server certificate, create certificate over media, such as the Internet or an intranet, that are not inherently secure.'
-ms.assetid: '8d4add69-53f7-4e78-b9ea-e5915411f42f'
+Description: Certificate example. Create applications for api certification, install SSL certificate, server certificate, create certificate over media, such as the Internet or an intranet, that are not inherently secure.
+ms.assetid: 8d4add69-53f7-4e78-b9ea-e5915411f42f
 title: Certificate Enrollment API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Enrollment API
 
 ## Purpose
 
-The Certificate Enrollment API can be used to create a client application to request a certificate and install a certificate response. This API is implemented in CertEnroll.dll beginning with Windows Vista; it replaces Xenroll.dll.
+The Certificate Enrollment API can be used to create a client application to request a certificate and install a certificate response. This API is implemented in CertEnroll.dll beginning with Windows Vista; it replaces Xenroll.dll.
 
 ## Developer audience
 
@@ -16,7 +21,7 @@ The Certificate Enrollment API is for use by developers of applications that wil
 
 ## Run-time requirements
 
-The Certificate Enrollment API is supported beginning with Windows Server 2008 and Windows Vista. For information about run-time requirements for a particular programming element, see the Requirements section of the reference page for that element.
+The Certificate Enrollment API is supported beginning with Windows Server 2008 and Windows Vista. For information about run-time requirements for a particular programming element, see the Requirements section of the reference page for that element.
 
 ## In this section
 
@@ -30,11 +35,11 @@ The Certificate Enrollment API is supported beginning with Windows Server 2008 a
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

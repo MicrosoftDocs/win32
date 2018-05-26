@@ -4,13 +4,15 @@ description: An OS Volume Signature Catalog (VSC) contents are signed by a signa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '32190b95-e943-4f5b-9284-e3d7668ab432'
-ms.prod: 'windows-server-dev'
+ms.assetid: 32190b95-e943-4f5b-9284-e3d7668ab432
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msps_VSC class", "Msps_VSC class, described"]
+keywords:
+- Msps_VSC class
+- Msps_VSC class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - MSPSProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msps\_VSC class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("mspsprov"), AMENDMENT]
 class Msps_VSC : Msps_ProvisioningFile
 {
-  uint8         RawData[];
+  uint8         RawData[];
   Msps_VolumeID VolumeID;
 };
 ```
@@ -93,7 +98,7 @@ The signed [**Msps\_VolumeID**](msps-volumeid.md) embedded object describing the
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>MSPSProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSProv.dll</dt> </dl> |
@@ -113,9 +118,9 @@ The signed [**Msps\_VolumeID**](msps-volumeid.md) embedded object describing the
 [**Msps\_VolumeID**](msps-volumeid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'A union view class is a logical union of source class instances. A union view class includes all the instances of the source classes unless you limit the instances by including a WHERE clause on the source query.'
+Description: A union view class is a logical union of source class instances. A union view class includes all the instances of the source classes unless you limit the instances by including a WHERE clause on the source query.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '54a9804d-644d-4ab6-a3d5-c9c4f7761967'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 54a9804d-644d-4ab6-a3d5-c9c4f7761967
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a Union View Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a Union View Class

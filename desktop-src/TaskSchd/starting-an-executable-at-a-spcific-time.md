@@ -1,8 +1,15 @@
 ---
 title: Starting an Executable at a Specific Time
 description: Writing a task that starts an executable at a specific time is done by defining a time trigger and an executable action.
-ms.assetid: 'a45a403d-5a54-4648-b517-41e01a0745c9'
-keywords: ["Task Scheduler examples Task Scheduler , time trigger", "Task Scheduler examples Task Scheduler , starting an executable"]
+ms.assetid: a45a403d-5a54-4648-b517-41e01a0745c9
+keywords:
+- Task Scheduler examples Task Scheduler , time trigger
+- Task Scheduler examples Task Scheduler , starting an executable
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Starting an Executable at a Specific Time

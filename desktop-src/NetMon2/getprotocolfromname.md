@@ -1,7 +1,12 @@
 ---
-Description: 'The GetProtocolFromName function returns a handle to a protocol of a given name.'
-ms.assetid: '18f5a9a7-4245-479d-a0da-2ede362a60b8'
+Description: The GetProtocolFromName function returns a handle to a protocol of a given name.
+ms.assetid: 18f5a9a7-4245-479d-a0da-2ede362a60b8
 title: GetProtocolFromName function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetProtocolFromName function
@@ -13,7 +18,7 @@ The **GetProtocolFromName** function returns a handle to a protocol of a given n
 
 ```C++
 HPROTOCOL WINAPI GetProtocolFromName(
-  _In_ LPSTR ProtocolName
+  _In_ LPSTR ProtocolName
 );
 ```
 
@@ -46,17 +51,17 @@ If the function is unsuccessful, the return value is **NULL**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

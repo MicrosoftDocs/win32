@@ -1,7 +1,12 @@
 ---
-Description: 'Gets the version of the WPAD processing engine.'
-ms.assetid: 'f9e9a867-d491-4d46-bbd8-c0c3d8d5b3d6'
+Description: Gets the version of the WPAD processing engine.
+ms.assetid: f9e9a867-d491-4d46-bbd8-c0c3d8d5b3d6
 title: getClientVersion function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # getClientVersion function

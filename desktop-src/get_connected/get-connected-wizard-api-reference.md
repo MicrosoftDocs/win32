@@ -1,7 +1,12 @@
 ---
 title: Get Connected Wizard API Reference
-ms.assetid: '3E6D40EC-FAC1-49CC-A962-2BD6AD00A629'
+ms.assetid: 3E6D40EC-FAC1-49CC-A962-2BD6AD00A629
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Get Connected Wizard API Reference

@@ -1,7 +1,12 @@
 ---
 title: Application-Driven Animation Sample
 description: Shows Windows Animation in the application-driven configuration by using Direct2D to animate the background color of a window and syncing to the refresh rate.
-ms.assetid: 'deefc473-6749-4e2b-ad34-33ccd206d231'
+ms.assetid: deefc473-6749-4e2b-ad34-33ccd206d231
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application-Driven Animation Sample

@@ -1,8 +1,13 @@
 ---
 title: IVMNetworkAdapter VirtualMachine property
 description: The VirtualMachine property contains the virtual machine associated with this virtual NIC.
-ms.assetid: 'a3d4ccba-def3-4dad-b624-d20f795cbd9e'
-keywords: ["VirtualMachine property Virtual Server", "VirtualMachine property Virtual Server , IVMNetworkAdapter interface", "IVMNetworkAdapter interface Virtual Server , VirtualMachine property", "VirtualMachine property Virtual Server , VMNetworkAdapter interface", "VMNetworkAdapter interface Virtual Server , VirtualMachine property"]
+ms.assetid: a3d4ccba-def3-4dad-b624-d20f795cbd9e
+keywords:
+- VirtualMachine property Virtual Server
+- VirtualMachine property Virtual Server , IVMNetworkAdapter interface
+- IVMNetworkAdapter interface Virtual Server , VirtualMachine property
+- VirtualMachine property Virtual Server , VMNetworkAdapter interface
+- VMNetworkAdapter interface Virtual Server , VirtualMachine property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMNetworkAdapter::VirtualMachine property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_VirtualMachine(
-  [out] IVMVirtualMachine **virtualMachine
+  [out] IVMVirtualMachine **virtualMachine
 );
 ```
 
@@ -77,8 +87,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -93,9 +103,9 @@ This property value is read-only.
 [IVMNetwork Properties](ivmnetworkadapter-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

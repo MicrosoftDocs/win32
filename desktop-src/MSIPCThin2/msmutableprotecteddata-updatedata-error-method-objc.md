@@ -4,17 +4,21 @@ description: Replaces the entire protected contents of the receiver with the con
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c392714b-e79f-4b93-bc32-b07d66d45090'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: c392714b-e79f-4b93-bc32-b07d66d45090
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSMutableProtectedData updateData error method"]
+keywords:
+- MSMutableProtectedData updateData error method
 topic_type:
 - apiref
 api_name:
 - MSMutableProtectedData updateData error method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMutableProtectedData updateData:error method
@@ -38,7 +42,7 @@ Replaces the entire protected contents of the receiver with the contents of anot
 
 
 
- 
+ 
 
 ## Returns
 
@@ -60,11 +64,11 @@ MSMutableProtectedData.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: Player.settings
 description: The settings property retrieves the Settings object.
-ms.assetid: '9edd7d27-893a-4a32-8aaf-5efec6c50903'
-keywords: ["Player.settings Windows Media Player"]
+ms.assetid: 9edd7d27-893a-4a32-8aaf-5efec6c50903
+keywords:
+- Player.settings Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.settings
@@ -46,9 +52,9 @@ This property is a read-only Settings object.
 [**Settings Object**](settings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

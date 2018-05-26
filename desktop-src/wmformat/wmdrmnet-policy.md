@@ -1,8 +1,10 @@
 ---
 title: WMDRMNET\_POLICY structure
 description: The WMDRMNET\_POLICY structure contains the policy to be used for Windows Media DRM for Network Devices operations.
-ms.assetid: '11eaaeb2-3470-4f58-ae1c-53ee0f60bdce'
-keywords: ["WMDRMNET_POLICY structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 11eaaeb2-3470-4f58-ae1c-53ee0f60bdce
+keywords:
+- WMDRMNET_POLICY structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRMNET\_POLICY structure
@@ -23,7 +30,7 @@ The **WMDRMNET\_POLICY** structure contains the policy to be used for Windows Me
 ```C++
 typedef struct WMDRMNET_POLICY {
   WMDRMNET_POLICY_TYPE ePolicyType;
-  BYTE                 *pbPolicy;
+  BYTE                 *pbPolicy;
 } ;
 ```
 
@@ -80,9 +87,9 @@ This structure is used as a parameter for the [**IWMDRMNetTransmitter::GetLeafLi
 [**WMDRMNET\_POLICY\_TYPE**](wmdrmnet-policy-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

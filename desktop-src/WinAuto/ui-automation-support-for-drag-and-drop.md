@@ -1,8 +1,22 @@
 ---
 title: UI Automation Support for Drag-and-Drop
-description: This topic describes the control patterns that expose information about an element's drag-and-drop functionality.
-ms.assetid: 'FFF5A296-C9FF-4B47-AAF8-A9DD581D9DBE'
-keywords: ["UI Automation,drag-and-drop support", "UI Automation,Drag pattern overview", "UI Automation,DropTarget pattern overview", "UI Automation,drag-and-drop overview", "drag-and-drop patterns,about", "Drag control pattern", "DropTarget control pattern", "control patterns,Drag", "control patterns,DropTarget"]
+description: This topic describes the control patterns that expose information about an elements drag-and-drop functionality.
+ms.assetid: FFF5A296-C9FF-4B47-AAF8-A9DD581D9DBE
+keywords:
+- UI Automation,drag-and-drop support
+- UI Automation,Drag pattern overview
+- UI Automation,DropTarget pattern overview
+- UI Automation,drag-and-drop overview
+- drag-and-drop patterns,about
+- Drag control pattern
+- DropTarget control pattern
+- control patterns,Drag
+- control patterns,DropTarget
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Support for Drag-and-Drop
@@ -24,8 +38,8 @@ When you implement the [Drag](https://msdn.microsoft.com/library/windows/desktop
 In the source/target style of drag-and-drop, the dragged element (the "source") and the drop-target element (the "target") are distinct, and each raises a distinct set of events. Here's the life cycle for a drag operation that uses the source/target style: <dl> When the user starts a drag operation:
 
 -   The source raises the DragStart ([**UIA\_Drag\_DragStartEventId**](uiauto-event-ids.md#uia-drag-dragstarteventid)) event.
--   The source sets the [**IDragProvider::IsGrabbed**](uiauto-idragprovider-isgrabbed.md) property to **TRUE**.
--   Targets update their [**DropTargetEffect**](uiauto-idroptargetprovider-droptargeteffect.md) properties.
+-   The source sets the [**IDragProvider::IsGrabbed**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idragprovider-get_isgrabbed?branch=master) property to **TRUE**.
+-   Targets update their [**DropTargetEffect**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idroptargetprovider-get_droptargeteffect?branch=master) properties.
 
   
 When the drag operation enters a target region:
@@ -41,14 +55,14 @@ When the drag operation leaves a target region:
 When the user releases the dragged item over a non-target:
 
 -   The source raises the DragCancel ([**UIA\_Drag\_DragCancelEventId**](uiauto-event-ids.md#uia-drag-dragcanceleventid)) event.
--   The source sets the [**IDragProvider::IsGrabbed**](uiauto-idragprovider-isgrabbed.md) property to **FALSE**.
+-   The source sets the [**IDragProvider::IsGrabbed**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idragprovider-get_isgrabbed?branch=master) property to **FALSE**.
 
   
 When the user releases the dragged item over a target:
 
 -   The source raises the DragComplete ([**UIA\_Drag\_DragCompleteEventId**](uiauto-event-ids.md#uia-drag-dragcompleteeventid)) event.
--   The source sets the [**IDragProvider::IsGrabbed**](uiauto-idragprovider-isgrabbed.md) property to **FALSE**.
--   The target sets the [**IDropTargetProvider::DropTargetEffect**](uiauto-idroptargetprovider-droptargeteffect.md) property to indicate the effect that occurred.
+-   The source sets the [**IDragProvider::IsGrabbed**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idragprovider-get_isgrabbed?branch=master) property to **FALSE**.
+-   The target sets the [**IDropTargetProvider::DropTargetEffect**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idroptargetprovider-get_droptargeteffect?branch=master) property to indicate the effect that occurred.
 -   The target raises the Dropped ([**UIA\_DropTarget\_DroppedEventId**](uiauto-event-ids.md#uia-drag-dragcanceleventid)) event.
 
   
@@ -58,36 +72,36 @@ The events from the source and target objects are closely related, but distinct.
 
 When a drag operation is in progress, the dragged item can be dragged in and out of target regions any number of times before the operation completes.
 
-Any drop target that needs to update its [**IDropTargetProvider::DropTargetEffect**](uiauto-idroptargetprovider-droptargeteffect.md) property on the fly should raise an additional property changed event on that property.
+Any drop target that needs to update its [**IDropTargetProvider::DropTargetEffect**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idroptargetprovider-get_droptargeteffect?branch=master) property on the fly should raise an additional property changed event on that property.
 
 ### Source-only Style
 
 The source-only dragging style lets a provider avoid implementing drop targets. Not implementing drop targets helps lower the implementation cost, but does not give accessibility client applications any information about the object that received the drop. Here's the life cycle for a drag operation that uses the source-only style: <dl> When the user starts a drag operation:
 
 -   The source raises the DragStart ([**UIA\_Drag\_DragStartEventId**](uiauto-event-ids.md#uia-drag-dragstarteventid)) event.
--   The source sets the [**IDragProvider::IsGrabbed**](uiauto-idragprovider-isgrabbed.md) property to **TRUE**.
+-   The source sets the [**IDragProvider::IsGrabbed**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idragprovider-get_isgrabbed?branch=master) property to **TRUE**.
 
   
 When the drag operation enters a target region:
 
--   The source sets the [**IDragProvider::DropEffect**](uiauto-idragprovider-dropeffect.md) property to the appropriate value.
+-   The source sets the [**IDragProvider::DropEffect**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idragprovider-get_dropeffect?branch=master) property to the appropriate value.
 
   
 When the drag operation leaves a target region:
 
--   The source sets the [**IDragProvider::DropEffect**](uiauto-idragprovider-dropeffect.md) property to the appropriate value.
+-   The source sets the [**IDragProvider::DropEffect**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idragprovider-get_dropeffect?branch=master) property to the appropriate value.
 
   
 When the user releases the dragged item over a non-target:
 
 -   The source raises the DragCancel ([**UIA\_Drag\_DragCancelEventId**](uiauto-event-ids.md#uia-drag-dragcanceleventid)) event.
--   The source sets the [**IDragProvider::IsGrabbed**](uiauto-idragprovider-isgrabbed.md) property to **FALSE**.
+-   The source sets the [**IDragProvider::IsGrabbed**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idragprovider-get_isgrabbed?branch=master) property to **FALSE**.
 
   
 When the user releases the dragged item over a target:
 
 -   The source raises the DragComplete ([**UIA\_Drag\_DragCompleteEventId**](uiauto-event-ids.md#uia-drag-dragcompleteeventid)) event.
--   The source sets the [**IDragProvider::DropEffect**](uiauto-idragprovider-dropeffect.md) property to indicate the effect that took place when the item was dropped.
+-   The source sets the [**IDragProvider::DropEffect**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idragprovider-get_dropeffect?branch=master) property to indicate the effect that took place when the item was dropped.
 
   
 </dl>
@@ -98,8 +112,8 @@ If a provider implements drag-and-drop operations where the user can drag multip
 
 -   The provider creates the master source element.
 -   The master source element raises the DragStart ([**UIA\_Drag\_DragStartEventId**](uiauto-event-ids.md#uia-drag-dragstarteventid)) event.
--   The master source element sets the [**IDragProvider::IsGrabbed**](uiauto-idragprovider-isgrabbed.md) property to **TRUE**.
--   The master source element updates the list of grabbed items to include all items being dragged so that the [**GetGrabbedItems**](uiauto-idragprovider-getgrabbeditems.md) method can retrieve the list.
+-   The master source element sets the [**IDragProvider::IsGrabbed**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idragprovider-get_isgrabbed?branch=master) property to **TRUE**.
+-   The master source element updates the list of grabbed items to include all items being dragged so that the [**GetGrabbedItems**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idragprovider-getgrabbeditems?branch=master) method can retrieve the list.
 
   
 </dl>
@@ -108,7 +122,7 @@ For that point on, the master source element performs the same role as that of t
 
 ## Client Interfaces for Drag-and-Drop
 
-UI Automation client applications use the [**IUIAutomationDragPattern**](uiauto-iuiautomationdragpattern.md) and [**IUIAutomationDropTargetPattern**](uiauto-iuiautomationdroptargetpattern.md) interfaces to access drag-and-drop information from UI elements.
+UI Automation client applications use the [**IUIAutomationDragPattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationdragpattern?branch=master) and [**IUIAutomationDropTargetPattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationdroptargetpattern?branch=master) interfaces to access drag-and-drop information from UI elements.
 
  
 

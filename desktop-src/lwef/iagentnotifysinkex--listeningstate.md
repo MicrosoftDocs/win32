@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySinkEx ListeningState
 description: IAgentNotifySinkEx ListeningState
-ms.assetid: 'e303b299-0dd0-419a-87a9-1490fe6cf54a'
+ms.assetid: e303b299-0dd0-419a-87a9-1490fe6cf54a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySinkEx::ListeningState
@@ -56,7 +61,7 @@ The cause for the event, which may be one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -69,9 +74,9 @@ The event returns values to the clients that currently have this character loade
 [**IAgentCharacterEx::Listen**](iagentcharacterex--listen.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

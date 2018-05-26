@@ -1,14 +1,20 @@
 ---
 title: WM/AlbumArtist
 description: The WM/AlbumArtist attribute contains the name of the primary artist for the album.
-ms.assetid: '53675c06-313b-41f8-971b-ccd18f37e987'
-keywords: ["WM/AlbumArtist windows Media Format"]
+ms.assetid: 53675c06-313b-41f8-971b-ccd18f37e987
+keywords:
+- WM/AlbumArtist windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/AlbumArtist
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/AlbumArtist

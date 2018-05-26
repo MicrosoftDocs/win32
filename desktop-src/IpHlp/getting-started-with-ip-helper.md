@@ -1,7 +1,12 @@
 ---
-Description: 'The following is a step-by-step guide to getting started programming using the IP Helper application programming interface (API). It is designed to provide an understanding of basic IP Helper functions and data structures, and how they work together.'
-ms.assetid: '3280d6cf-2741-40fe-8aa5-9f5be96d9fb8'
+Description: The following is a step-by-step guide to getting started programming using the IP Helper application programming interface (API). It is designed to provide an understanding of basic IP Helper functions and data structures, and how they work together.
+ms.assetid: 3280d6cf-2741-40fe-8aa5-9f5be96d9fb8
 title: Getting Started with IP Helper
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with IP Helper
@@ -39,7 +44,7 @@ The more advanced samples listed below are found in the following directories:
 
 -   EnableRouter
 
-    This directory contains a sample that demonstrates how to use the [**EnableRouter**](enablerouter.md) and [**UnenableRouter**](unenablerouter.md) IP Helper functions to enable and disable IPv4 forwarding on the local computer.
+    This directory contains a sample that demonstrates how to use the [**EnableRouter**](/windows/win32/Iphlpapi/nf-iphlpapi-enablerouter?branch=master) and [**UnenableRouter**](/windows/win32/Iphlpapi/nf-iphlpapi-unenablerouter?branch=master) IP Helper functions to enable and disable IPv4 forwarding on the local computer.
 
 -   iparp
 
@@ -51,7 +56,7 @@ The more advanced samples listed below are found in the following directories:
 
 -   IPConfig
 
-    This directory contains a sample program that demonstrates how to programmatically retrieve IPv4 configuration information similar to the IPCONFIG.EXE utility. It demonstrates how to use the [**GetNetworkParams**](getnetworkparams.md) and [**GetAdaptersInfo**](getadaptersinfo.md) functions. Note that the **GetAdaptersInfo** function only retrieves IPv4 information.
+    This directory contains a sample program that demonstrates how to programmatically retrieve IPv4 configuration information similar to the IPCONFIG.EXE utility. It demonstrates how to use the [**GetNetworkParams**](/windows/win32/Iphlpapi/nf-iphlpapi-getnetworkparams?branch=master) and [**GetAdaptersInfo**](/windows/win32/Iphlpapi/nf-iphlpapi-getadaptersinfo?branch=master) functions. Note that the **GetAdaptersInfo** function only retrieves IPv4 information.
 
 -   IPRenew
 

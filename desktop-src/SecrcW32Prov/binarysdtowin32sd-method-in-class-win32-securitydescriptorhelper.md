@@ -1,13 +1,16 @@
 ---
-Description: 'Converts a security descriptor in binary byte array format to a Win32\_SecurityDescriptor instance.'
+Description: Converts a security descriptor in binary byte array format to a Win32\_SecurityDescriptor instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c4bd87f3-5de1-4fea-a8ca-f2fde9b6ca38'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c4bd87f3-5de1-4fea-a8ca-f2fde9b6ca38
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'BinarySDToWin32SD method of the Win32\_SecurityDescriptorHelper class'
+title: BinarySDToWin32SD method of the Win32\_SecurityDescriptorHelper class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BinarySDToWin32SD method of the Win32\_SecurityDescriptorHelper class
@@ -19,8 +22,8 @@ The **BinarySDToWin32SD** method converts a [*security descriptor*](https://msdn
 
 ```mof
 uint32 BinarySDToWin32SD(
-  [in]  uint8                BinarySD[],
-  [out] __SecurityDescriptor Descriptor
+  [in]  uint8                BinarySD[],
+  [out] __SecurityDescriptor Descriptor
 );
 ```
 
@@ -92,8 +95,8 @@ Not enough memory for the operation. The scripting and Visual Basic constant is 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -113,9 +116,9 @@ Not enough memory for the operation. The scripting and Visual Basic constant is 
 [Changing Access Security on Securable Objects](https://msdn.microsoft.com/library/aa384905)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IWiaImageFilter interface is an extension interface implemented by image processing filter developers and called by Windows Image Acquisition (WIA) 2.0.'
-ms.assetid: '2abe913b-bb2b-486d-a3f4-d5932433fc82'
+---
+Description: The IWiaImageFilter interface is an extension interface implemented by image processing filter developers and called by Windows Image Acquisition (WIA) 2.0.
+ms.assetid: 2abe913b-bb2b-486d-a3f4-d5932433fc82
 title: IWiaImageFilter interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaImageFilter interface
@@ -45,7 +50,7 @@ A filter must implement brightness and contrast at a minimum. The common UI, whi
 
 An image processing filter should never modify the *lMessage* member of the [**WiaTransferParams**](-wia-wiatransferparams.md) structure.
 
-To read the required properties the image processing filter should call [**IWiaPropertyStorage::GetPropertyStream**](-wia-iwiapropertystorage-getpropertystream.md) on the [**IWiaPropertyStorage**](-wia-iwiapropertystorage.md) interface that it gets from the item by calling [IWiaImageFilter::QueryInterface](com.iunknown_queryinterface). The filter can then instantiate an [IPropertyStorage](stg.ipropertystorage) instance on this stream to read the items properties. The image processing filter should not call [IWiaPropertyStorage::ReadMultiple](stg.ipropertystorage_readmultiple) directly because this method calls into the driver's `drvReadItemProperties`, but the WIA 2.0 service has already locked the driver in the `drvAcquireItemData` call so this call will timeout and fail.
+To read the required properties the image processing filter should call [**IWiaPropertyStorage::GetPropertyStream**](/windows/win32/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream?branch=master) on the [**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master) interface that it gets from the item by calling [IWiaImageFilter::QueryInterface](com.iunknown_queryinterface). The filter can then instantiate an [IPropertyStorage](stg.ipropertystorage) instance on this stream to read the items properties. The image processing filter should not call [IWiaPropertyStorage::ReadMultiple](stg.ipropertystorage_readmultiple) directly because this method calls into the driver's `drvReadItemProperties`, but the WIA 2.0 service has already locked the driver in the `drvAcquireItemData` call so this call will timeout and fail.
 
 The properties that the filter is interested in could for example be the brightness and contrast settings. The filter typically also needs to read the image format as well as the preview property, [**WIA\_DPS\_PREVIEW**](-wia-wiaitempropscannerdevice.md), from *pWiaItem2*. These properties are all used in the filtering process.
 

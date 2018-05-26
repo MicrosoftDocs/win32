@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies what control to use when editing the property.'
-ms.assetid: 'cef6d76f-664a-4808-a224-e82a5adb2d70'
+Description: Specifies what control to use when editing the property.
+ms.assetid: cef6d76f-664a-4808-a224-e82a5adb2d70
 title: editControl
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # editControl

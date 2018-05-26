@@ -1,7 +1,12 @@
-﻿---
-Description: 'For a 3D video format, specifies which view is the left view.'
-ms.assetid: '4F33BF2D-EB32-46B6-B071-F9130D404201'
-title: 'MF\_MT\_VIDEO\_3D\_FIRST\_IS\_LEFT attribute'
+---
+Description: For a 3D video format, specifies which view is the left view.
+ms.assetid: 4F33BF2D-EB32-46B6-B071-F9130D404201
+title: MF\_MT\_VIDEO\_3D\_FIRST\_IS\_LEFT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_VIDEO\_3D\_FIRST\_IS\_LEFT attribute

@@ -4,11 +4,14 @@ description: Returns the Network Controller cluster and application version defi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e844e5ef-04df-4bef-8ec9-f7304c76e4c6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e844e5ef-04df-4bef-8ec9-f7304c76e4c6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetManifestVersion method", "GetManifestVersion method, PS_NetworkControllerNode class", "PS_NetworkControllerNode class, GetManifestVersion method"]
+keywords:
+- GetManifestVersion method
+- GetManifestVersion method, PS_NetworkControllerNode class
+- PS_NetworkControllerNode class, GetManifestVersion method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - NCServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetManifestVersion method of the PS\_NetworkControllerNode class
@@ -28,7 +34,7 @@ Returns the Network Controller cluster and application version defined in their 
 
 ```mof
 uint32 GetManifestVersion(
-  [out] NetworkControllerManifestVersion NCManifestVersion
+  [out] NetworkControllerManifestVersion NCManifestVersion
 );
 ```
 
@@ -52,7 +58,7 @@ On success, returns a [**NetworkControllerManifestVersion**](networkcontrollerma
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\NetworkController\\Server<br/>                                    |
 | MOF<br/>                      | <dl> <dt>NCServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NCServerPSProvider.dll</dt> </dl> |
@@ -66,9 +72,9 @@ On success, returns a [**NetworkControllerManifestVersion**](networkcontrollerma
 [**PS\_NetworkControllerNode**](ps-networkcontrollernode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

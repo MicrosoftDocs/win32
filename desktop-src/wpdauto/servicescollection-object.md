@@ -1,14 +1,21 @@
 ---
 title: servicesCollection object
 description: The servicesCollection object represents a collection of Service objects.
-ms.assetid: 'd5acc839-f675-4e31-88f5-d07bb36c668c'
-keywords: ["servicesCollection object WPD Automation", "servicesCollection object WPD Automation , described"]
+ms.assetid: d5acc839-f675-4e31-88f5-d07bb36c668c
+keywords:
+- servicesCollection object WPD Automation
+- servicesCollection object WPD Automation , described
 topic_type:
 - apiref
 api_name:
 - servicesCollection
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # servicesCollection object
@@ -33,7 +40,7 @@ The **servicesCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,8 +72,8 @@ for (i=0; i < services.Count; i++)
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -86,9 +93,9 @@ for (i=0; i < services.Count; i++)
 [WPD Automation Reference](wpd-automation-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

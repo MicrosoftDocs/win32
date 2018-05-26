@@ -1,8 +1,14 @@
 ---
 title: ARIA Data Table Warning
 description: ARIA Data Table Warning
-ms.assetid: '3CFCF248-6A66-4140-B3E7-133E3809B287'
-keywords: ["AriaDataTableWarningId"]
+ms.assetid: 3CFCF248-6A66-4140-B3E7-133E3809B287
+keywords:
+- AriaDataTableWarningId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARIA Data Table Warning

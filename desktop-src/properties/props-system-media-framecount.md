@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the frame count for the image.'
-ms.assetid: 'c24d397a-69c3-4a2c-a9b8-967a03a89e58'
-title: 'System.Media.FrameCount'
+Description: Indicates the frame count for the image.
+ms.assetid: c24d397a-69c3-4a2c-a9b8-967a03a89e58
+title: System.Media.FrameCount
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.FrameCount

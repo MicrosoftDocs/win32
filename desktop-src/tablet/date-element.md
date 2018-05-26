@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the date the Journal note was created.'
-ms.assetid: 'dd9fab39-b346-43bf-8141-8a1874940d88'
+Description: Contains the date the Journal note was created.
+ms.assetid: dd9fab39-b346-43bf-8141-8a1874940d88
 title: Date Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Date Element

@@ -1,8 +1,21 @@
 ---
 title: UI Plug-in Overview
 description: UI Plug-in Overview
-ms.assetid: '8c4feb56-31c0-4f69-98dd-3c203941bb4c'
-keywords: ["Windows Media Player,plug-ins", "Windows Media Player,user interface plug-ins", "Windows Media Player plug-ins,user interface", "plug-ins,user interface", "user interface plug-ins,about", "UI plug-ins,about", "user interface plug-ins,types", "UI plug-ins,types"]
+ms.assetid: 8c4feb56-31c0-4f69-98dd-3c203941bb4c
+keywords:
+- Windows Media Player,plug-ins
+- Windows Media Player,user interface plug-ins
+- Windows Media Player plug-ins,user interface
+- plug-ins,user interface
+- user interface plug-ins,about
+- UI plug-ins,about
+- user interface plug-ins,types
+- UI plug-ins,types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Plug-in Overview

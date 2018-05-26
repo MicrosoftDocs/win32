@@ -1,7 +1,12 @@
 ---
 Description: Video Capture Tasks
-ms.assetid: '65eb2005-a390-4772-a2f8-a6de86c6f7c9'
+ms.assetid: 65eb2005-a390-4772-a2f8-a6de86c6f7c9
 title: Video Capture Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Capture Tasks

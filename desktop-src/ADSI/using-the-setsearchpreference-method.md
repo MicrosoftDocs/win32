@@ -4,18 +4,24 @@ description: Calling the IDirectorySearch SetSearchPreference method changes the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '37583276-8372-4478-82aa-3e456cc0f8f1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 37583276-8372-4478-82aa-3e456cc0f8f1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["SetSearchPreference ADSI ,using the SetSearchPreference method", "ADSI ADSI ,example code C/C++ ,using the SetSearchPreference method", "queries ADSI ,using SetSearchPreference"]
+keywords:
+- SetSearchPreference ADSI ,using the SetSearchPreference method
+- ADSI ADSI ,example code C/C++ ,using the SetSearchPreference method
+- queries ADSI ,using SetSearchPreference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the SetSearchPreference Method
 
-Calling the [**IDirectorySearch::SetSearchPreference**](idirectorysearch-setsearchpreference.md) method changes the way in which the search results are obtained and presented through the [**IDirectorySearch**](idirectorysearch.md) interface.
+Calling the [**IDirectorySearch::SetSearchPreference**](/windows/win32/Iads/nf-iads-idirectorysearch-setsearchpreference?branch=master) method changes the way in which the search results are obtained and presented through the [**IDirectorySearch**](/windows/win32/Iads/nn-iads-idirectorysearch?branch=master) interface.
 
-The SDK documentation defines [**SetSearchPreference**](idirectorysearch-setsearchpreference.md) as follows:
+The SDK documentation defines [**SetSearchPreference**](/windows/win32/Iads/nf-iads-idirectorysearch-setsearchpreference?branch=master) as follows:
 
 
 ```C++

@@ -1,7 +1,12 @@
 ---
-Description: 'In order to support both IPv4 and IPv6 on Windows XP with Service Pack 1 (SP1) and on Windows Server 2003, an application has to create two sockets, one socket for use with IPv4 and one socket for use with IPv6.'
-ms.assetid: '7ae49081-ffb5-4eee-b488-2541398e7acc'
-title: 'Dual-Stack Sockets for IPv6 Winsock Applications'
+Description: In order to support both IPv4 and IPv6 on Windows XP with Service Pack 1 (SP1) and on Windows Server 2003, an application has to create two sockets, one socket for use with IPv4 and one socket for use with IPv6.
+ms.assetid: 7ae49081-ffb5-4eee-b488-2541398e7acc
+title: Dual-Stack Sockets for IPv6 Winsock Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dual-Stack Sockets for IPv6 Winsock Applications
@@ -12,7 +17,7 @@ Windows Vista and later offer the ability to create a single IPv6 socket which 
 
 ## Creating a Dual-Stack Socket
 
-By default, an IPv6 socket created on Windows Vista and later only operates over the IPv6 protocol. In order to make an IPv6 socket into a dual-stack socket, the [**setsockopt**](setsockopt-2.md) function must be called with the **IPV6\_V6ONLY** socket option to set this value to zero before the socket is bound to an IP address. When the **IPV6\_V6ONLY** socket option is set to zero, a socket created for the **AF\_INET6** address family can be used to send and receive packets to and from an IPv6 address or an IPv4 mapped address.
+By default, an IPv6 socket created on Windows Vista and later only operates over the IPv6 protocol. In order to make an IPv6 socket into a dual-stack socket, the [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function must be called with the **IPV6\_V6ONLY** socket option to set this value to zero before the socket is bound to an IP address. When the **IPV6\_V6ONLY** socket option is set to zero, a socket created for the **AF\_INET6** address family can be used to send and receive packets to and from an IPv6 address or an IPv4 mapped address.
 
 ## IP Addresses with a Dual-Stack Socket
 
@@ -22,13 +27,13 @@ If the underlying protocol is actually IPv4, then the IPv4 address is mapped int
 
 ## Potential Issues using a Dual-Stack Socket
 
-A potential pitfall for applications is getting an IPv4-mapped IPv6 address on a dual-stack socket and then trying to use the returned IP address on a different IPv6 only socket. For example, the [**getsockname**](getsockname-2.md) or [**getpeername**](getpeername-2.md) functions can return an IPv4-mapped IPv6 address when used on a dual-stack socket. If the returned IPv4-mapped IPv6 address is then subsequently used on a different socket that was not set to dual-stack (an IPv6 only socket which is the default behavior when a socket is created), any use of this IPv6 only socket with an IPv4-mapped IPv6 address will fail. The IPv4-mapped IPv6 address format can only be used on a dual-stack socket.
+A potential pitfall for applications is getting an IPv4-mapped IPv6 address on a dual-stack socket and then trying to use the returned IP address on a different IPv6 only socket. For example, the [**getsockname**](/windows/win32/winsock/nf-winsock-getsockname?branch=master) or [**getpeername**](/windows/win32/winsock/nf-winsock-getpeername?branch=master) functions can return an IPv4-mapped IPv6 address when used on a dual-stack socket. If the returned IPv4-mapped IPv6 address is then subsequently used on a different socket that was not set to dual-stack (an IPv6 only socket which is the default behavior when a socket is created), any use of this IPv6 only socket with an IPv4-mapped IPv6 address will fail. The IPv4-mapped IPv6 address format can only be used on a dual-stack socket.
 
-On a dual-stack datagram socket, if an application requires the [**WSARecvMsg**](wsarecvmsg-2.md) function to return packet information in a [**WSAMSG**](wsamsg-2.md) structure for datagrams received over IPv4, then [IP\_PKTINFO](ip-pktinfo.md) socket option must be set to true on the socket. If only the [IPV6\_PKTINFO](ipv6-pktinfo.md) option is set to true on the socket, packet information will be provided for datagrams received over IPv6 but may not be provided for datagrams received over IPv4.
+On a dual-stack datagram socket, if an application requires the [**WSARecvMsg**](wsarecvmsg-2.md) function to return packet information in a [**WSAMSG**](/windows/win32/Ws2def/ns-ws2def-_wsamsg?branch=master) structure for datagrams received over IPv4, then [IP\_PKTINFO](ip-pktinfo.md) socket option must be set to true on the socket. If only the [IPV6\_PKTINFO](ipv6-pktinfo.md) option is set to true on the socket, packet information will be provided for datagrams received over IPv6 but may not be provided for datagrams received over IPv4.
 
-If an application tries to set the [IP\_PKTINFO](ip-pktinfo.md) socket option on a dual-stack datagram socket and IPv4 is disabled on the system, then the [**setsockopt**](setsockopt-2.md) function will fail and [**WSAGetLastError**](wsagetlasterror-2.md) will return with an error of [WSAEINVAL](windows-sockets-error-codes-2.md#wsaenetdown). This same error is also returned by the **setsockopt** function as a result of other errors. If an application tries to set an IPPROTO\_IP level socket option on a dual-stack socket and it fails with [WSAEINVAL](windows-sockets-error-codes-2.md#wsaenetdown), then the application should determine if IPv4 is disabled on the local computer. One method that can be used to detect if IPv4 is enabled or disabled is to call the [**socket**](socket-2.md) function with the *af* parameter set to AF\_INET to try and create an IPv4 socket. If the **socket** function fails and **WSAGetLastError** returns an error of [WSAEAFNOSUPPORT](windows-sockets-error-codes-2.md#wsaeafnosupport), then it means IPv4 is not enabled. In this case, a **setsockopt** function failure when attempting to set the IP\_PKTINFO socket option can be ignored by the application. Otherwise a failure when attempting to set the IP\_PKTINFO socket option should be treated as an unexpected error.
+If an application tries to set the [IP\_PKTINFO](ip-pktinfo.md) socket option on a dual-stack datagram socket and IPv4 is disabled on the system, then the [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function will fail and [**WSAGetLastError**](/windows/win32/winsock/nf-winsock-wsagetlasterror?branch=master) will return with an error of [WSAEINVAL](windows-sockets-error-codes-2.md#wsaenetdown). This same error is also returned by the **setsockopt** function as a result of other errors. If an application tries to set an IPPROTO\_IP level socket option on a dual-stack socket and it fails with [WSAEINVAL](windows-sockets-error-codes-2.md#wsaenetdown), then the application should determine if IPv4 is disabled on the local computer. One method that can be used to detect if IPv4 is enabled or disabled is to call the [**socket**](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) function with the *af* parameter set to AF\_INET to try and create an IPv4 socket. If the **socket** function fails and **WSAGetLastError** returns an error of [WSAEAFNOSUPPORT](windows-sockets-error-codes-2.md#wsaeafnosupport), then it means IPv4 is not enabled. In this case, a **setsockopt** function failure when attempting to set the IP\_PKTINFO socket option can be ignored by the application. Otherwise a failure when attempting to set the IP\_PKTINFO socket option should be treated as an unexpected error.
 
-For a dual-stack socket when sending datagrams with the [**WSASendMsg**](wsasendmsg.md) function and an application wants to specify a specific local IP source address to be used, the method to handle this depends on the destination IP address. When sending to an IPv4 destination address or an IPv4-mapped IPv6 destination address, one of the control data objects passed in the [**WSAMSG**](wsamsg-2.md) structure pointed to by the *lpMsg* parameter should contain an [**in\_pktinfo**](in-pktinfo-2.md) structure containing the local IPv4 source address to use for sending. When sending to an IPv6 destination address that is not a an IPv4-mapped IPv6 address, one of the control data objects passed in the **WSAMSG** structure pointed to by the *lpMsg* parameter should contain an [**in6\_pktinfo**](in6-pktinfo-2.md) structure containing the local IPv6 source address to use for sending.
+For a dual-stack socket when sending datagrams with the [**WSASendMsg**](/windows/win32/winsock2/nf-winsock2-wsasendmsg?branch=master) function and an application wants to specify a specific local IP source address to be used, the method to handle this depends on the destination IP address. When sending to an IPv4 destination address or an IPv4-mapped IPv6 destination address, one of the control data objects passed in the [**WSAMSG**](/windows/win32/Ws2def/ns-ws2def-_wsamsg?branch=master) structure pointed to by the *lpMsg* parameter should contain an [**in\_pktinfo**](/windows/win32/Ws2ipdef/ns-ws2ipdef-in_pktinfo?branch=master) structure containing the local IPv4 source address to use for sending. When sending to an IPv6 destination address that is not a an IPv4-mapped IPv6 address, one of the control data objects passed in the **WSAMSG** structure pointed to by the *lpMsg* parameter should contain an [**in6\_pktinfo**](/windows/win32/Ws2ipdef/ns-ws2ipdef-in6_pktinfo?branch=master) structure containing the local IPv6 source address to use for sending.
 
 ## Related topics
 
@@ -52,16 +57,16 @@ For a dual-stack socket when sending datagrams with the [**WSASendMsg**](wsasend
 [Underlying Protocols for IPv6 Winsock Applications](underlying-protocols-2.md)
 </dt> <dt>
 
-[**getpeername**](getpeername-2.md)
+[**getpeername**](/windows/win32/winsock/nf-winsock-getpeername?branch=master)
 </dt> <dt>
 
-[**getsockname**](getsockname-2.md)
+[**getsockname**](/windows/win32/winsock/nf-winsock-getsockname?branch=master)
 </dt> <dt>
 
-[**in\_pktinfo**](in-pktinfo-2.md)
+[**in\_pktinfo**](/windows/win32/Ws2ipdef/ns-ws2ipdef-in_pktinfo?branch=master)
 </dt> <dt>
 
-[**in6\_pktinfo**](in6-pktinfo-2.md)
+[**in6\_pktinfo**](/windows/win32/Ws2ipdef/ns-ws2ipdef-in6_pktinfo?branch=master)
 </dt> <dt>
 
 [IP\_PKTINFO](ip-pktinfo.md)
@@ -70,13 +75,13 @@ For a dual-stack socket when sending datagrams with the [**WSASendMsg**](wsasend
 [IPV6\_PKTINFO](ipv6-pktinfo.md)
 </dt> <dt>
 
-[**setsockopt**](setsockopt-2.md)
+[**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master)
 </dt> <dt>
 
 [**WSARecvMsg**](wsarecvmsg-2.md)
 </dt> <dt>
 
-[**WSASendMsg**](wsasendmsg.md)
+[**WSASendMsg**](/windows/win32/winsock2/nf-winsock2-wsasendmsg?branch=master)
 </dt> </dl>
 
  

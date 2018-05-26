@@ -1,7 +1,12 @@
-﻿---
-Description: 'Advanced Query Syntax (AQS) is the default query syntax used by Windows Search to query the index and to refine and narrow search parameters.'
-ms.assetid: '76e33903-d063-48c0-9afe-912c3daa8237'
+---
+Description: Advanced Query Syntax (AQS) is the default query syntax used by Windows Search to query the index and to refine and narrow search parameters.
+ms.assetid: 76e33903-d063-48c0-9afe-912c3daa8237
 title: Using Advanced Query Syntax Programmatically
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Advanced Query Syntax Programmatically

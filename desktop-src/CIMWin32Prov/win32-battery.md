@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a battery connected to the computer system.'
+Description: Represents a battery connected to the computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b07ccb1d-008e-4bf1-8299-33706cbcbaee'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b07ccb1d-008e-4bf1-8299-33706cbcbaee
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_Battery class'
+title: Win32\_Battery class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_Battery class
@@ -24,39 +27,39 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C4B9-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_Battery : CIM_Battery
 {
-  uint16   Availability;
-  uint32   BatteryRechargeTime;
-  uint16   BatteryStatus;
-  string   Caption;
-  uint16   Chemistry;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  uint32   DesignCapacity;
-  uint64   DesignVoltage;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  uint16   EstimatedChargeRemaining;
-  uint32   EstimatedRunTime;
-  uint32   ExpectedBatteryLife;
-  uint32   ExpectedLife;
-  uint32   FullChargeCapacity;
+  uint16   Availability;
+  uint32   BatteryRechargeTime;
+  uint16   BatteryStatus;
+  string   Caption;
+  uint16   Chemistry;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  uint32   DesignCapacity;
+  uint64   DesignVoltage;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  uint16   EstimatedChargeRemaining;
+  uint32   EstimatedRunTime;
+  uint32   ExpectedBatteryLife;
+  uint32   ExpectedLife;
+  uint32   FullChargeCapacity;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  uint32   MaxRechargeTime;
-  string   Name;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   SmartBatteryVersion;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint32   TimeOnBattery;
-  uint32   TimeToFullCharge;
+  uint32   LastErrorCode;
+  uint32   MaxRechargeTime;
+  string   Name;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   SmartBatteryVersion;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint32   TimeOnBattery;
+  uint32   TimeToFullCharge;
 };
 ```
 
@@ -80,7 +83,7 @@ The **Win32\_Battery** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -424,7 +427,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1550,7 +1553,7 @@ This property is inherited from [**CIM\_Battery**](cim-battery.md).
 
 The **Win32\_Battery** class is derived from [**CIM\_Battery**](cim-battery.md) which derives from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
-Windows Server 2008 contains the (APC) UPS drivers in the OS, which allows you to treat the UPS as a battery supply. This allows you to monitor the UPS status using a script and take actions when necessary.
+Windows Server 2008 contains the (APC) UPS drivers in the OS, which allows you to treat the UPS as a battery supply. This allows you to monitor the UPS status using a script and take actions when necessary.
 
 ## Examples
 
@@ -1566,8 +1569,8 @@ For a furthe discussion of using Win32\_Battery to monitor your laptop, see [Use
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1584,9 +1587,9 @@ For a furthe discussion of using Win32\_Battery to monitor your laptop, see [Use
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

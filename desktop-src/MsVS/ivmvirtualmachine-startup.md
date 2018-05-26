@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine Startup method
 description: The Startup method starts up the virtual machine.
-ms.assetid: 'b2e439b3-a0ab-4cda-9228-39739d9a0d16'
-keywords: ["Startup method Virtual Server", "Startup method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , Startup method"]
+ms.assetid: b2e439b3-a0ab-4cda-9228-39739d9a0d16
+keywords:
+- Startup method Virtual Server
+- Startup method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , Startup method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Startup method
@@ -22,7 +30,7 @@ The **Startup** method starts up the virtual machine.
 
 ```C++
 HRESULT Startup(
-  [out] IVMTask **startupTask
+  [out] IVMTask **startupTask
 );
 ```
 
@@ -57,7 +65,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,8 +77,8 @@ If the virtual machine is saved, it will be restored from the saved state.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -82,9 +90,9 @@ If the virtual machine is saved, it will be restored from the saved state.
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Event identifiers uniquely identify a particular event.'
-ms.assetid: '83a84db4-572b-48bd-bc0f-071b2089a5ca'
+Description: Event identifiers uniquely identify a particular event.
+ms.assetid: 83a84db4-572b-48bd-bc0f-071b2089a5ca
 title: Event Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Identifiers
@@ -73,7 +78,7 @@ File %1 contains %2, which is in error.
 .
 ```
 
-In this case, the buffer returned by [**ReadEventLog**](readeventlog.md) contains insertion strings. The **NumStrings** member of the [**EVENTLOGRECORD**](eventlogrecord-str.md) structure indicates the number of insertion strings. The **StringOffset** member of the **EVENTLOGRECORD** structure indicates the location of the first insertion string in the buffer. You can pass an array of DWORD\_PTRs that point to the address each string in the buffer when calling the [**FormatMessage**](https://msdn.microsoft.com/library/windows/desktop/ms679351) function and it will insert the strings into the message.
+In this case, the buffer returned by [**ReadEventLog**](/windows/win32/Winbase/nf-winbase-readeventloga?branch=master) contains insertion strings. The **NumStrings** member of the [**EVENTLOGRECORD**](/windows/win32/Winnt/ns-winnt-_eventlogrecord?branch=master) structure indicates the number of insertion strings. The **StringOffset** member of the **EVENTLOGRECORD** structure indicates the location of the first insertion string in the buffer. You can pass an array of DWORD\_PTRs that point to the address each string in the buffer when calling the [**FormatMessage**](https://msdn.microsoft.com/library/windows/desktop/ms679351) function and it will insert the strings into the message.
 
 The description string can also contain placeholders for parameter strings from the parameter message file. The placeholders are of the form %%*n*, where %%1 is replaced by the parameter string with the identifier of 1, and so on. However, it is up to you to insert the parameter strings into the message string that [**FormatMessage**](https://msdn.microsoft.com/library/windows/desktop/ms679351) returns. Typically, you call **FormatMessage** to get the message string for the event. You then parse the message string for %%*n* parameters. If the message contains one or more parameters, load the **ParameterMessageFile** registry value for the source. For each parameter in the message string, get the identifier and pass it to **FormatMessage** to get the parameter string. Replace the parameter in the message string with the parameter string that **FormatMessage** returned.
 

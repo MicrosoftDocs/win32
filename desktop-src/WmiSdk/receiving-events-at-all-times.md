@@ -1,13 +1,16 @@
 ---
-Description: 'You may want to write an application that can react to events at any time.'
+Description: You may want to write an application that can react to events at any time.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '475dca47-b1e5-4362-ab00-9ab9383e92f9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 475dca47-b1e5-4362-ab00-9ab9383e92f9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving Events at All Times
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Receiving Events at All Times

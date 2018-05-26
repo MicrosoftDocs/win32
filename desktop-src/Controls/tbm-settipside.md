@@ -1,8 +1,9 @@
 ---
 title: TBM\_SETTIPSIDE message
 description: Positions a tooltip control used by a trackbar control. Trackbar controls that use the TBS\_TOOLTIPS style display tooltips.
-ms.assetid: '40a0eeb0-7bb4-4102-98ea-ee664799b934'
-keywords: ["TBM_SETTIPSIDE message Windows Controls"]
+ms.assetid: 40a0eeb0-7bb4-4102-98ea-ee664799b934
+keywords:
+- TBM_SETTIPSIDE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_SETTIPSIDE message
@@ -37,7 +43,7 @@ Value representing the location at which to display the tooltip control. This va
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -54,15 +60,15 @@ Returns a value that represents the tooltip control's previous location. The ret
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

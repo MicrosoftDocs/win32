@@ -1,7 +1,12 @@
-﻿---
-Description: 'Filters use the IPrintWriteStreamFlush interface to explicitly flush data as a raw stream of bytes from a filter. This interface is retrieved through IPrintWriteStream::QueryInterface().'
-ms.assetid: 'DB3E1127-B3B1-4C48-9819-EEF705B9985A'
+---
+Description: Filters use the IPrintWriteStreamFlush interface to explicitly flush data as a raw stream of bytes from a filter. This interface is retrieved through IPrintWriteStreamQueryInterface().
+ms.assetid: DB3E1127-B3B1-4C48-9819-EEF705B9985A
 title: IPrintWriteStreamFlush interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintWriteStreamFlush interface

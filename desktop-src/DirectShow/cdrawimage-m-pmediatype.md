@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_pMediaType member variable is a pointer to the current media type.'
-ms.assetid: '51a33fc4-1496-43ed-9b68-842f4c2cf0a1'
-title: 'CDrawImage::m\_pMediaType member'
+Description: The m\_pMediaType member variable is a pointer to the current media type.
+ms.assetid: 51a33fc4-1496-43ed-9b68-842f4c2cf0a1
+title: CDrawImagem\_pMediaType member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage::m\_pMediaType member
@@ -38,9 +43,9 @@ CMediaType *m_pMediaType;
 [**CDrawImage::NotifyMediaType**](cdrawimage-notifymediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

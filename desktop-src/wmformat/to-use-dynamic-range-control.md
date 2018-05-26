@@ -1,8 +1,27 @@
 ---
 title: To Use Dynamic Range Control
 description: To Use Dynamic Range Control
-ms.assetid: '719658c1-952f-4e8f-a3ea-bdf89a0a7268'
-keywords: ["Windows Media Format SDK,dynamic range control", "Windows Media Format SDK,Windows Media Audio 9 Professional codec", "Windows Media Format SDK,Windows Media Audio 9 Lossless codec", "Advanced Systems Format (ASF),Windows Media Audio 9 Professional codec", "ASF (Advanced Systems Format),Windows Media Audio 9 Professional codec", "Advanced Systems Format (ASF),Windows Media Audio 9 Lossless codec", "ASF (Advanced Systems Format),Windows Media Audio 9 Lossless codec", "Advanced Systems Format (ASF),dynamic range control", "ASF (Advanced Systems Format),dynamic range control", "dynamic range control", "codecs,Windows Media Audio 9 Lossless codec", "codecs,Windows Media Audio 9 Professional codec", "Windows Media Audio 9 Lossless codec,dynamic range control", "Windows Media Audio 9 Professional codec,dynamic range control"]
+ms.assetid: 719658c1-952f-4e8f-a3ea-bdf89a0a7268
+keywords:
+- Windows Media Format SDK,dynamic range control
+- Windows Media Format SDK,Windows Media Audio 9 Professional codec
+- Windows Media Format SDK,Windows Media Audio 9 Lossless codec
+- Advanced Systems Format (ASF),Windows Media Audio 9 Professional codec
+- ASF (Advanced Systems Format),Windows Media Audio 9 Professional codec
+- Advanced Systems Format (ASF),Windows Media Audio 9 Lossless codec
+- ASF (Advanced Systems Format),Windows Media Audio 9 Lossless codec
+- Advanced Systems Format (ASF),dynamic range control
+- ASF (Advanced Systems Format),dynamic range control
+- dynamic range control
+- codecs,Windows Media Audio 9 Lossless codec
+- codecs,Windows Media Audio 9 Professional codec
+- Windows Media Audio 9 Lossless codec,dynamic range control
+- Windows Media Audio 9 Professional codec,dynamic range control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Use Dynamic Range Control
@@ -19,9 +38,9 @@ Dynamic range control can alter the sound of the content. For that reason, you s
 
 ## Using Dynamic Range Control
 
-At playback time, dynamic range control is activated using the output setting g\_wszDynamicRangeControl. Use [**IWMReaderAdvanced2::SetOutputSetting**](iwmreaderadvanced2-setoutputsetting.md) to configure the setting. A value of zero (the default) indicates that the dynamic range should not be altered. A value of 1 or 2 signals the codec to perform dynamic range control, where 1 is a moderate level of dynamic range compression, and 2 is a high level of dynamic range compression.
+At playback time, dynamic range control is activated using the output setting g\_wszDynamicRangeControl. Use [**IWMReaderAdvanced2::SetOutputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting?branch=master) to configure the setting. A value of zero (the default) indicates that the dynamic range should not be altered. A value of 1 or 2 signals the codec to perform dynamic range control, where 1 is a moderate level of dynamic range compression, and 2 is a high level of dynamic range compression.
 
-At encoding time or playback time, you can give the codec target PCM values for the peak and average levels by setting the [**WM/WMADRCPeakTarget**](wm-wmadrcpeaktarget.md) and [**WM/WMADRCAverageTarget**](wm-wmadrcaveragetarget.md) attributes, respectively. These values are stored as metadata attributes and should be accessed using the methods of the [**IWMHeaderInfo3**](iwmheaderinfo3.md) interface. When you encode an audio stream using the professional or lossless codec, the [**WM/WMADRCPeakReference**](wm-wmadrcpeakreference.md) and [**WM/WMADRCAverageReference**](wm-wmadrcaveragereference.md) attributes are set automatically to the peak and average levels of the original content. The target values are set to the same values as the references by default.
+At encoding time or playback time, you can give the codec target PCM values for the peak and average levels by setting the [**WM/WMADRCPeakTarget**](wm-wmadrcpeaktarget.md) and [**WM/WMADRCAverageTarget**](wm-wmadrcaveragetarget.md) attributes, respectively. These values are stored as metadata attributes and should be accessed using the methods of the [**IWMHeaderInfo3**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3?branch=master) interface. When you encode an audio stream using the professional or lossless codec, the [**WM/WMADRCPeakReference**](wm-wmadrcpeakreference.md) and [**WM/WMADRCAverageReference**](wm-wmadrcaveragereference.md) attributes are set automatically to the peak and average levels of the original content. The target values are set to the same values as the references by default.
 
 The decoder at playback time calculates the dynamic range based on the selected level of dynamic range control and the target values (if any are specified). The possible ranges are shown in the following table.
 

@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageTier class
 description: Represents a storage tier.
-ms.assetid: '0E049D07-DD37-4F64-8483-3ECF32211567'
-keywords: ["MSFT_StorageTier class Windows Storage Management API", "MSFT_StorageTier class Windows Storage Management API , described"]
+ms.assetid: 0E049D07-DD37-4F64-8483-3ECF32211567
+keywords:
+- MSFT_StorageTier class Windows Storage Management API
+- MSFT_StorageTier class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageTier class
@@ -59,7 +66,7 @@ The **MSFT\_StorageTier** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -114,7 +121,7 @@ The media type of the storage tier.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -137,8 +144,8 @@ The size of the tier on the virtual disk. This property is available only when t
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -151,9 +158,9 @@ The size of the tier on the virtual disk. This property is available only when t
 [**MSFT\_StorageObject**](msft-storageobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The InstallExecuteAgain action runs a script containing all operations in the action sequence since either the start of the installation or the last InstallExecuteAgain action or the last InstallExecute action.'
-ms.assetid: '60ff844f-f8bf-4a55-9523-ba526dac9e29'
+Description: The InstallExecuteAgain action runs a script containing all operations in the action sequence since either the start of the installation or the last InstallExecuteAgain action or the last InstallExecute action.
+ms.assetid: 60ff844f-f8bf-4a55-9523-ba526dac9e29
 title: InstallExecuteAgain Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InstallExecuteAgain Action

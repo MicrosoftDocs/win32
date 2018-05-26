@@ -1,7 +1,12 @@
 ---
 title: Writing Scripts
 description: The troubleshooting manifest specifies the scripts that are run during the troubleshooting, resolution, and verification phases.
-ms.assetid: 'a9075aa8-b2c3-463b-ad9e-c119974f5a6c'
+ms.assetid: a9075aa8-b2c3-463b-ad9e-c119974f5a6c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing Scripts

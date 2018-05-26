@@ -1,14 +1,20 @@
 ---
 title: WM/VideoHeight
 description: The WM/VideoHeight attribute contains the height, in pixels, of a frame of video in a stream.
-ms.assetid: '13061d5e-3b74-4f17-bd68-826ff9356d63'
-keywords: ["WM/VideoHeight windows Media Format"]
+ms.assetid: 13061d5e-3b74-4f17-bd68-826ff9356d63
+keywords:
+- WM/VideoHeight windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/VideoHeight
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/VideoHeight

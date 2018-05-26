@@ -1,7 +1,12 @@
 ---
 title: Tree Views
 description: With a tree view, users can view and interact with a hierarchically arranged collection of objects, using either single selection or multiple selection.
-ms.assetid: 'f0206485-e028-41d8-9be2-5d59f0a0b677'
+ms.assetid: f0206485-e028-41d8-9be2-5d59f0a0b677
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tree Views
@@ -17,7 +22,7 @@ A typical tree view.
 > [!Note]  
 > Guidelines related to [layout](vis-layout.md) and [menus](cmd-menus.md) are presented in separate articles.
 
- 
+ 
 
 ## Is this the right control?
 
@@ -65,7 +70,7 @@ To decide if a tree view is the right control, consider these questions:
 > [!Note]  
 > Sometimes a control that looks like a tree view is implemented using a list view. In such cases, apply the guidelines based on the usage, not on the implementation.
 
- 
+ 
 
 ## Design concepts
 
@@ -75,7 +80,7 @@ Trees are intended to organize data and make it easy to find, yet it's difficult
 
 **A tree view is based on the relationships between objects.** Trees work best when the objects form a clear, well known, mutually exclusive relationship in which every object maps to a single, easy-to-determine container.
 
-**A significant problem is that an object can appear in different nodes.** For example, where would users expect to find a hardware device that plays music, has a large hard disk, and uses a USB port? Perhaps in any of several different container nodes, such as Multimedia, Storage, USB, and possibly in Hardware Resources. One solution is to place each object under the single most appropriate container regardless of the circumstances; another approach is to place each object under all containers that apply. The former promotes a simple, clean hierarchy and the latter promotes discoverability—each has advantages and potential problems.
+**A significant problem is that an object can appear in different nodes.** For example, where would users expect to find a hardware device that plays music, has a large hard disk, and uses a USB port? Perhaps in any of several different container nodes, such as Multimedia, Storage, USB, and possibly in Hardware Resources. One solution is to place each object under the single most appropriate container regardless of the circumstances; another approach is to place each object under all containers that apply. The former promotes a simple, clean hierarchy and the latter promotes discoverability each has advantages and potential problems.
 
 **Users may not completely understand the layout of the tree, but they will form a mental model of the relationships after interacting with the tree for a while.** If that mental model is incorrect, it leads to confusion. For example, suppose a music player can be found in the Multimedia, Storage, and USB containers. This arrangement improves discoverability. If a user first finds the device in Multimedia, the user may conclude that all devices like music players appear in the Multimedia container. The user will then expect similar devices, such as digital cameras, to appear in the Multimedia container and will become confused if that isn't the case.
 
@@ -111,7 +116,7 @@ Tree views have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -273,9 +278,9 @@ When referring to check boxes in a tree view:
 
 Example: In the **Items to back up** list, select the **My Documents** check box.
 
- 
+ 
 
- 
+ 
 
 
 

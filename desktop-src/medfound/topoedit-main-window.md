@@ -1,7 +1,12 @@
 ---
 Description: TopoEdit Main Window
-ms.assetid: '665f347b-18e0-4d10-9e23-94af4c0d8972'
+ms.assetid: 665f347b-18e0-4d10-9e23-94af4c0d8972
 title: TopoEdit Main Window
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TopoEdit Main Window

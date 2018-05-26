@@ -1,7 +1,12 @@
 ---
-Description: 'Filters a Windows firewall rule by Windows service.'
-ms.assetid: 'bccf6766-6beb-428b-90c2-1002b20eb244'
-title: 'MSFT\_NetFirewallRuleFilterByService class'
+Description: Filters a Windows firewall rule by Windows service.
+ms.assetid: bccf6766-6beb-428b-90c2-1002b20eb244
+title: MSFT\_NetFirewallRuleFilterByService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetFirewallRuleFilterByService class
@@ -15,7 +20,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetFirewallRuleFilterByService : MSFT_NetFirewallRuleFilters
 {
-  MSFT_NetFirewallRule  REF GroupComponent;
+  MSFT_NetFirewallRule  REF GroupComponent;
   MSFT_NetServiceFilter REF PartComponent;
 };
 ```
@@ -70,17 +75,17 @@ The service filter applied to the rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

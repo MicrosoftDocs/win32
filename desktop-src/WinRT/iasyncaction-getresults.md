@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the outcome of an asynchronous action.'
-ms.assetid: 'E5AF357D-B1EE-4581-AEBC-6F1C89D7DBB0'
-title: 'IAsyncAction::GetResults method'
+---
+Description: Gets the outcome of an asynchronous action.
+ms.assetid: E5AF357D-B1EE-4581-AEBC-6F1C89D7DBB0
+title: IAsyncActionGetResults method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAsyncAction::GetResults method

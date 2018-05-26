@@ -1,7 +1,12 @@
 ---
 title: DCOM Security Enhancements in Windows XP Service Pack 2 and Windows Server 2003 Service Pack 1
 description: Windows Server XP Service Pack 2 (SP2) and Windows Server 2003 Service Pack 1 (SP1) introduce enhanced default security settings for the Distributed Component Object Model (DCOM).
-ms.assetid: '1917834c-5216-4ef3-a0c2-d8ca63cef53d'
+ms.assetid: 1917834c-5216-4ef3-a0c2-d8ca63cef53d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DCOM Security Enhancements in Windows XP Service Pack 2 and Windows Server 2003 Service Pack 1
@@ -28,7 +33,7 @@ This feature applies to you if you have a COM server application that meets one 
 
 A change has been made in COM to provide computer-wide access controls that govern access to all call, activation, or launch requests on the computer. The simplest way to think about these access controls is as an additional [**AccessCheck**](https://msdn.microsoft.com/library/windows/desktop/aa374815) call that is done against a computer-wide access control list (ACL) on each call, activation, or launch of any COM server on the computer. If the **AccessCheck** fails, the call, activation, or launch request is denied. This is in addition to any **AccessCheck** that is run against the server-specific ACLs. In effect, it provides a minimum authorization standard that must be passed to access any COM server on the computer. There is a computer-wide ACL for launch permissions to cover activate and launch rights, and a computer-wide ACL for access permissions to cover call rights. These can be configured through the Component Services Microsoft Management Console (MMC).
 
-These computer-wide ACLs provide a way to override weak security settings specified by a specific application through [**CoInitializeSecurity**](coinitializesecurity.md) or application-specific security settings. This provides a minimum security standard that must be passed, regardless of the settings of the specific server.
+These computer-wide ACLs provide a way to override weak security settings specified by a specific application through [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) or application-specific security settings. This provides a minimum security standard that must be passed, regardless of the settings of the specific server.
 
 These ACLs are checked when the interfaces exposed by RPCSS are accessed. This provides a method to control access to this system service.
 
@@ -37,7 +42,7 @@ These ACLs provide a centralized location where an administrator can set general
 > [!Note]  
 > Changing the computer-wide security settings will affect all COM server applications, and might prevent them from working properly. If there are COM server applications that have restrictions that are less stringent than the computer-wide restrictions, reducing the computer-wide restrictions might expose these applications to unwanted access. Conversely, if you increase the computer-wide restrictions, some COM server applications might no longer be accessible by calling applications.
 
- 
+ 
 
 By default, Windows XP SP2 computer restriction settings are:
 
@@ -50,7 +55,7 @@ By default, Windows XP SP2 computer restriction settings are:
 
 
 
- 
+ 
 
 By default, Windows Server 2003 SP 1 computer restriction settings are as follows.
 
@@ -63,16 +68,16 @@ By default, Windows Server 2003 SP 1 computer restriction settings are as follow
 
 
 
- 
+ 
 
 > [!Note]  
 > Distributed COM Users is a new built-in group included with Windows Server 2003 SP1 to expedite the process of adding users to the DCOM computer restriction settings. This group is part of the ACL used by the [MachineAccessRestriction](machineaccessrestriction.md) and [MachineLaunchRestriction](machinelaunchrestriction.md) settings, so removing users from this group will affect those settings.
 
- 
+ 
 
 ### Why is this change important? What threats does it help mitigate?
 
-Many COM applications include some security-specific code (for example, calling [**CoInitializeSecurity**](coinitializesecurity.md)), but use weak settings, often allowing unauthenticated access to the process. There is currently no way for an administrator to override these settings to force stronger security in earlier versions of Windows.
+Many COM applications include some security-specific code (for example, calling [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master)), but use weak settings, often allowing unauthenticated access to the process. There is currently no way for an administrator to override these settings to force stronger security in earlier versions of Windows.
 
 COM infrastructure includes the RPCSS, a system service that runs during system startup and always runs after that. It manages activation of COM objects and the running object table and provides helper services to DCOM remoting. It exposes RPC interfaces that can be called remotely. Because some COM servers allow unauthenticated remote access, these interfaces can be called by anyone, including unauthenticated users. As a result, RPCSS can be attacked by malicious users on remote, unauthenticated computers.
 
@@ -97,7 +102,7 @@ If the risk is acceptable and you want to enable remote activation by a non-admi
 > [!Note]  
 > Changing the computer-wide security settings will affect all COM server applications, and might prevent them from working properly. If there are COM server applications that have restrictions that are less stringent than the computer-wide restrictions, reducing the computer-wide restrictions may expose these applications to unwanted access. Conversely, if you increase the computer-wide restrictions, some COM server applications might no longer be accessible by calling applications.
 
- 
+ 
 
 You can change the configuration settings using either the Component Services Microsoft Management Console (MMC) or the Windows registry.
 
@@ -129,12 +134,12 @@ These ACLs can be created using normal security functions.
 > [!Note]  
 > To provide backward compatibility, an ACL can exist in the format used before Windows XP SP2 and Windows Server 2003 SP1, which uses only the access right COM\_RIGHTS\_EXECUTE, or it can exist in the new format used in Windows XP SP2 and Windows Server 2003 SP1, which uses COM\_RIGHTS\_EXECUTE together with a combination of COM\_RIGHTS\_EXECUTE\_LOCAL, COM\_RIGHTS\_EXECUTE\_REMOTE, COM\_RIGHTS\_ACTIVATE\_LOCAL, and COM\_RIGHTS\_ACTIVATE\_REMOTE. Note that COM\_RIGHTS\_EXECUTE&gt; must always be present; the absence of this right generates an invalid security descriptor. Also note that you must not mix the old format and the new format within a single ACL; either all access control entries (ACEs) must grant only the COM\_RIGHTS\_EXECUTE access right, or they all must grant COM\_RIGHTS\_EXECUTE together with a combination of COM\_RIGHTS\_EXECUTE\_LOCAL, COM\_RIGHTS\_EXECUTE\_REMOTE, COM\_RIGHTS\_ACTIVATE\_LOCAL, and COM\_RIGHTS\_ACTIVATE\_REMOTE.
 
- 
+ 
 
 > [!Note]  
 > Only users with Administrator rights can modify these settings.
 
- 
+ 
 
 ## What existing functionality is changing in Windows XP Service Pack 2 and Windows Server 2003 Service Pack 1?
 
@@ -152,11 +157,11 @@ This change should be transparent to users because the combination of the RPCSS 
 
 ### More specific COM permissions
 
-COM server applications have two types of permissions: launch permissions and access permissions. Launch permissions control authorization to start a COM server during COM activation if the server is not already running. These permissions are defined as security descriptors that are specified in registry settings. Access permissions control authorization to call a running COM server. These permissions are defined as security descriptors provided to the COM infrastructure through the [**CoInitializeSecurity**](coinitializesecurity.md) API, or using registry settings. Both launch and access permissions allow or deny access based on principals, and make no distinction as to whether the caller is local to the server or remote.
+COM server applications have two types of permissions: launch permissions and access permissions. Launch permissions control authorization to start a COM server during COM activation if the server is not already running. These permissions are defined as security descriptors that are specified in registry settings. Access permissions control authorization to call a running COM server. These permissions are defined as security descriptors provided to the COM infrastructure through the [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) API, or using registry settings. Both launch and access permissions allow or deny access based on principals, and make no distinction as to whether the caller is local to the server or remote.
 
 The first change distinguishes the COM access rights, based on distance. The two distances that are defined are Local and Remote. A Local COM message arrives by way of the Local Remote Procedure Call (LRPC) protocol, while a Remote COM message arrives by way of a remote procedure call (RPC) host protocol like transmission control protocol (TCP).
 
-COM activation is the act of getting a COM interface proxy on a client by calling [**CoCreateInstance**](cocreateinstance.md) or one of its variants. As a side effect of this activation process, sometimes a COM server must be started to fulfill the client's request. A launch permissions ACL asserts who is allowed to start a COM server. An access permissions ACL asserts who is allowed to activate a COM object or call that object once the COM server is already running.
+COM activation is the act of getting a COM interface proxy on a client by calling [**CoCreateInstance**](/windows/win32/combaseapi/nf-combaseapi-cocreateinstance?branch=master) or one of its variants. As a side effect of this activation process, sometimes a COM server must be started to fulfill the client's request. A launch permissions ACL asserts who is allowed to start a COM server. An access permissions ACL asserts who is allowed to activate a COM object or call that object once the COM server is already running.
 
 The second change is that the call and activation rights are separated to reflect to two distinct operations and to move the activation right from the access permission ACL to the launch permission ACL. Because activation and launching are both related to acquiring an interface pointer, activation and launch access rights logically belong together in one ACL. And because you always specify launch permissions through configuration (as compared to access permissions, which are often specified programmatically), putting the activation rights in the launch permission ACL provides the administrator with control over activation.
 
@@ -205,7 +210,7 @@ The COM ACLs can be created or modified using normal security functions.
 > \[!Caution\]  
 > Improper use of these settings can cause applications and Windows components that use DCOM to fail.
 
- 
+ 
 
 In the following table, these abbreviations are used:
 
@@ -236,14 +241,14 @@ ACL - Access Control List
 
 
 
- 
+ 
 
 ## What settings are added or changed in Windows Server 2003 Service Pack 1?
 
 > [!Note]  
 > Improper use of these settings can cause applications and Windows components that use DCOM to fail.
 
- 
+ 
 
 In the following table, these abbreviations are used:
 
@@ -274,7 +279,7 @@ ACL - Access Control List
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -283,9 +288,9 @@ ACL - Access Control List
 [Security in COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

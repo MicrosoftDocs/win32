@@ -1,7 +1,12 @@
 ---
-Description: 'Traditional textures are considered to be single-element textures.'
-ms.assetid: '8fe8da80-0879-413a-a7db-617d2f558b28'
-title: 'Multiple-element Textures (Direct3D 9)'
+Description: Traditional textures are considered to be single-element textures.
+ms.assetid: 8fe8da80-0879-413a-a7db-617d2f558b28
+title: Multiple-element Textures (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multiple-element Textures (Direct3D 9)
@@ -17,20 +22,20 @@ The first generation of hardware that exposes this feature has the following res
 -   The texture cannot be a mipmap. Creation of the mip chain will fail.
 -   The same element cannot be set as a texture at the same time it is a render target. However, different elements of the same multiple-element texture surface can simultaneously be textures and render targets.
 -   No antialiasing is supported.
--   Multiple-element texture surfaces, when used as a texture, cannot be filtered. This limitation can be verified using [**CheckDeviceFormat**](idirect3d9--checkdeviceformat.md).
+-   Multiple-element texture surfaces, when used as a texture, cannot be filtered. This limitation can be verified using [**CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master).
 -   Multiple-element texture surfaces cannot be locked.
 -   More than one multiple-element texture surface can be used simultaneously by assigning each to various stages, just as with normal textures.
 -   Multiple-element texture surfaces support conversion of gamma from 2.2 to 1.0 conversion on a read operation, just as with other texture formats.
 -   Some of the implementations do not apply the output write mask (D3DRS\_COLORWRITEENABLE). Those that can have independent color write masks. This is expressed using a new capability bit. The number of independent color write masks available will be equal to the maximum number of elements of which the device is capable.
--   [**Clear**](idirect3ddevice9--clear.md) clears all elements of the multiple-element texture which is set as the render target.
+-   [**Clear**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-clear?branch=master) clears all elements of the multiple-element texture which is set as the render target.
 
 The usage of multiple-element textures follows these steps:
 
 1.  Applications discover support for this feature by checking for the availability of multiple-element texture formats.
-2.  The application creates these surfaces by calling [**CreateTexture**](idirect3ddevice9--createtexture.md).
-3.  The application sets the surface as a render target using the [**SetRenderTarget**](idirect3ddevice9--setrendertarget.md) call. The pixel shader provides output to the surfaces using the [mov - ps](direct3dhlsl.mov___ps) instruction.
-4.  [**SetTexture**](idirect3ddevice9--settexture.md) is called to set a multiple-element texture surface to a particular stage. As with other textures, the same surface is allowed to be set to multiple stages at once.
-5.  [**SetSamplerState**](idirect3ddevice9--setsamplerstate.md) is called to set D3DSAMP\_ELEMENTINDEX to the appropriate element number in the multiple-element texture from which the sampler samples. Default value for this state is 0, which means non-multiple-element textures will work. Setting this state to an inappropriate number results in an undefined behavior - if the multiple-element texture is only two elements wide but the sampler is asked to sample from the fourth element, for example.
+2.  The application creates these surfaces by calling [**CreateTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createtexture?branch=master).
+3.  The application sets the surface as a render target using the [**SetRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget?branch=master) call. The pixel shader provides output to the surfaces using the [mov - ps](direct3dhlsl.mov___ps) instruction.
+4.  [**SetTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexture?branch=master) is called to set a multiple-element texture surface to a particular stage. As with other textures, the same surface is allowed to be set to multiple stages at once.
+5.  [**SetSamplerState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setsamplerstate?branch=master) is called to set D3DSAMP\_ELEMENTINDEX to the appropriate element number in the multiple-element texture from which the sampler samples. Default value for this state is 0, which means non-multiple-element textures will work. Setting this state to an inappropriate number results in an undefined behavior - if the multiple-element texture is only two elements wide but the sampler is asked to sample from the fourth element, for example.
 
 ## API Support
 

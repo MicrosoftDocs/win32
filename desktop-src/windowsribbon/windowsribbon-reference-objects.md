@@ -1,7 +1,12 @@
 ---
 title: Objects
 description: Reference documentation for the Windows Ribbon framework objects.
-ms.assetid: '8401efed-e753-4fcb-8fcf-208dc42a85ae'
+ms.assetid: 8401efed-e753-4fcb-8fcf-208dc42a85ae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Objects
@@ -19,7 +24,7 @@ Reference documentation for the Windows Ribbon framework objects.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -28,9 +33,9 @@ Reference documentation for the Windows Ribbon framework objects.
 [Windows Ribbon Framework Reference](windowsribbon-reference-entry.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

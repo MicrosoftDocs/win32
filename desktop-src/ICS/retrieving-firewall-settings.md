@@ -1,7 +1,12 @@
 ---
 title: Retrieving Firewall Settings
-description: This example reads Windows Firewall settings per profile using the Windows Firewall with Advanced Security APIs.VB' This VBScript file includes sample code that reads Windows Firewall ' settings per profile using the Microsoft Windows Firewall APIs.
-ms.assetid: '904d0500-ef90-43ae-90c5-b74af2fdc72e'
+description: This example reads Windows Firewall settings per profile using the Windows Firewall with Advanced Security APIs.VB This VBScript file includes sample code that reads Windows Firewall  settings per profile using the Microsoft Windows Firewall APIs.
+ms.assetid: 904d0500-ef90-43ae-90c5-b74af2fdc72e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Firewall Settings

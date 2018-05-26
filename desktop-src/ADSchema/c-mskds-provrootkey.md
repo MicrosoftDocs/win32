@@ -4,17 +4,22 @@ description: Root keys for the Group Key Distribution Service.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd4a38d24-80a8-4a5e-a50c-1e177f0a7c7a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d4a38d24-80a8-4a5e-a50c-1e177f0a7c7a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Kds-Prov-RootKey class AD Schema", "msKds-ProvRootKey class AD Schema"]
+keywords:
+- ms-Kds-Prov-RootKey class AD Schema
+- msKds-ProvRootKey class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Kds-Prov-RootKey
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Kds-Prov-RootKey class
@@ -35,7 +40,7 @@ Root keys for the Group Key Distribution Service.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -62,7 +67,7 @@ Root keys for the Group Key Distribution Service.
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -200,9 +205,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

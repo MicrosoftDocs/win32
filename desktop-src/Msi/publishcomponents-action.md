@@ -1,7 +1,12 @@
 ---
-Description: 'The PublishComponents action manages the advertisement of the components from the PublishComponent table.'
-ms.assetid: '58d945d7-7dfb-4752-ae19-7e41caca1de7'
+Description: The PublishComponents action manages the advertisement of the components from the PublishComponent table.
+ms.assetid: 58d945d7-7dfb-4752-ae19-7e41caca1de7
 title: PublishComponents Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PublishComponents Action

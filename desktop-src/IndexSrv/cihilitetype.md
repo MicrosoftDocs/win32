@@ -1,7 +1,12 @@
 ---
 title: CiHiliteType
 description: CiHiliteType
-ms.assetid: '695a4c6a-f170-494a-95d3-7546e9aa1cd4'
+ms.assetid: 695a4c6a-f170-494a-95d3-7546e9aa1cd4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CiHiliteType

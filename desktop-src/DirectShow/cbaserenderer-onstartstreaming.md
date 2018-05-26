@@ -1,7 +1,12 @@
 ---
-Description: 'The OnStartStreaming method is called when the filter begins streaming.'
-ms.assetid: '02a5b334-f6c4-4cba-8882-c6b36d97feb3'
-title: 'CBaseRenderer.OnStartStreaming method'
+Description: The OnStartStreaming method is called when the filter begins streaming.
+ms.assetid: 02a5b334-f6c4-4cba-8882-c6b36d97feb3
+title: CBaseRenderer.OnStartStreaming method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.OnStartStreaming method
@@ -47,9 +52,9 @@ The [**CBaseRenderer::StartStreaming**](cbaserenderer-startstreaming.md) method 
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,19 @@
 ---
 title: Enabling Synchronization with Windows Media Player
 description: Enabling Synchronization with Windows Media Player
-ms.assetid: 'a312dfef-ac48-4c58-a59a-b277f5386419'
-keywords: ["Windows Media Device Manager,synchronization with Windows Media Player", "Device Manager,synchronization with Windows Media Player", "programming guide,synchronization with Windows Media Player", "service providers,synchronization with Windows Media Player", "creating service providers,synchronization with Windows Media Player", "synchronization with Windows Media Player"]
+ms.assetid: a312dfef-ac48-4c58-a59a-b277f5386419
+keywords:
+- Windows Media Device Manager,synchronization with Windows Media Player
+- Device Manager,synchronization with Windows Media Player
+- programming guide,synchronization with Windows Media Player
+- service providers,synchronization with Windows Media Player
+- creating service providers,synchronization with Windows Media Player
+- synchronization with Windows Media Player
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling Synchronization with Windows Media Player
@@ -22,11 +33,11 @@ For any other device to synchronize with Windows Media Player, the following req
 -   The device parameter UseExtendedWmdm must be set to a **DWORD** value of 1. See [Device Parameters](device-parameters.md) for more information.
 -   The service provider should implement the following interfaces:
 
-    [**IMDSPDevice3**](imdspdevice3.md)
+    [**IMDSPDevice3**](/windows/win32/mswmdm/nn-mswmdm-imdspdevice3?branch=master)
 
-    [**IMDSPObject2**](imdspobject2.md)
+    [**IMDSPObject2**](/windows/win32/mswmdm/nn-mswmdm-imdspobject2?branch=master)
 
-    [**IMDSPStorage4**](imdspstorage4.md)
+    [**IMDSPStorage4**](/windows/win32/mswmdm/nn-mswmdm-imdspstorage4?branch=master)
 
 ## Related topics
 

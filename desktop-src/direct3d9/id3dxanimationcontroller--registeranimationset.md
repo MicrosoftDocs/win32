@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds an animation set to the animation controller.'
-ms.assetid: '93351d61-b7f4-4bd1-a5bf-313911cf6b61'
-title: 'ID3DXAnimationController::RegisterAnimationSet method'
+---
+Description: Adds an animation set to the animation controller.
+ms.assetid: 93351d61-b7f4-4bd1-a5bf-313911cf6b61
+title: ID3DXAnimationControllerRegisterAnimationSet method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::RegisterAnimationSet method

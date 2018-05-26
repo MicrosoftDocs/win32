@@ -1,7 +1,12 @@
 ---
-Description: 'One of the most powerful features of Function Discovery is the unification of discovery across the following aspects:'
-ms.assetid: 'febd5eb9-30de-4ad8-a649-6a42496d50f7'
+Description: One of the most powerful features of Function Discovery is the unification of discovery across the following aspects
+ms.assetid: febd5eb9-30de-4ad8-a649-6a42496d50f7
 title: Unifying the Discovery Process
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unifying the Discovery Process

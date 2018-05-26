@@ -1,12 +1,17 @@
-﻿---
-Description: 'The COLORREF value is used to specify an RGB color.'
-ms.assetid: 'b87d3de2-7a13-44ef-8253-c6851a75fa54'
+---
+Description: The COLORREF value is used to specify an RGB color.
+ms.assetid: b87d3de2-7a13-44ef-8253-c6851a75fa54
 title: COLORREF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLORREF
 
-The COLORREF value is used to specify an [RGB](rgb.md) color.
+The COLORREF value is used to specify an [RGB](/windows/win32/Wingdi/nf-wingdi-rgb?branch=master) color.
 
 
 ```C++
@@ -18,13 +23,13 @@ typedef DWORD* LPCOLORREF;
 
 ## Remarks
 
-When specifying an explicit [RGB](rgb.md) color, the **COLORREF** value has the following hexadecimal form:
+When specifying an explicit [RGB](/windows/win32/Wingdi/nf-wingdi-rgb?branch=master) color, the **COLORREF** value has the following hexadecimal form:
 
 `0x00bbggrr`
 
 The low-order byte contains a value for the relative intensity of red; the second byte contains a value for green; and the third byte contains a value for blue. The high-order byte must be zero. The maximum value for a single byte is 0xFF.
 
-To create a **COLORREF** color value, use the [RGB](rgb.md) macro. To extract the individual values for the red, green, and blue components of a color value, use the [**GetRValue**](getrvalue.md), [GetGValue](getgvalue.md), and [GetBValue](getbvalue.md) macros, respectively.
+To create a **COLORREF** color value, use the [RGB](/windows/win32/Wingdi/nf-wingdi-rgb?branch=master) macro. To extract the individual values for the red, green, and blue components of a color value, use the [**GetRValue**](/windows/win32/Wingdi/nf-wingdi-getrvalue?branch=master), [GetGValue](/windows/win32/Wingdi/nf-wingdi-getgvalue?branch=master), and [GetBValue](/windows/win32/Wingdi/nf-wingdi-getbvalue?branch=master) macros, respectively.
 
 ## Requirements
 
@@ -48,16 +53,16 @@ To create a **COLORREF** color value, use the [RGB](rgb.md) macro. To extract th
 [Color Structures](color-structures.md)
 </dt> <dt>
 
-[GetBValue](getbvalue.md)
+[GetBValue](/windows/win32/Wingdi/nf-wingdi-getbvalue?branch=master)
 </dt> <dt>
 
-[GetGValue](getgvalue.md)
+[GetGValue](/windows/win32/Wingdi/nf-wingdi-getgvalue?branch=master)
 </dt> <dt>
 
-[**GetRValue**](getrvalue.md)
+[**GetRValue**](/windows/win32/Wingdi/nf-wingdi-getrvalue?branch=master)
 </dt> <dt>
 
-[RGB](rgb.md)
+[RGB](/windows/win32/Wingdi/nf-wingdi-rgb?branch=master)
 </dt> </dl>
 
  

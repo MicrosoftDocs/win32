@@ -1,15 +1,18 @@
-﻿---
-Description: 'Represents the status of the optional features that are present on the operating system.'
+---
+Description: Represents the status of the optional features that are present on the operating system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3ac0c227-dfe1-4f33-b3d1-bcd1309c3635'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3ac0c227-dfe1-4f33-b3d1-bcd1309c3635
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_OptionalFeature class'
+title: Win32\_OptionalFeature class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_OptionalFeature class

@@ -1,14 +1,20 @@
 ---
 title: importChannel (ChannelListType) Element
 description: Identifies a channel that has been defined by another provider.
-ms.assetid: '62b1ea5c-0994-4bd1-b73e-6b6e0f2ead7a'
-keywords: ["importChannel element EventLog"]
+ms.assetid: 62b1ea5c-0994-4bd1-b73e-6b6e0f2ead7a
+keywords:
+- importChannel element EventLog
 topic_type:
 - apiref
 api_name:
 - importChannel
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # importChannel (ChannelListType) Element
@@ -29,8 +35,8 @@ The **importChannel** element is defined by the [**ChannelListType**](eventmanif
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -47,9 +53,9 @@ The **importChannel** element is defined by the [**ChannelListType**](eventmanif
 [**channels (MetadataType)**](eventmanifestschema-channels-metadatatype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

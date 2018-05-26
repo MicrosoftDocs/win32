@@ -4,10 +4,13 @@ description: These classes are defined in WdacWmiProv.mof and implemented in Wda
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'EB93F925-4D01-4546-AC0B-8993A5AA8A9C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: EB93F925-4D01-4546-AC0B-8993A5AA8A9C
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WDAC WMI Provider Reference

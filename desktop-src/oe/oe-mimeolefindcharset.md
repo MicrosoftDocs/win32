@@ -1,8 +1,9 @@
 ---
 title: MimeOleFindCharset function
 description: Do not use. On success, finds handle of specified character set.
-ms.assetid: '2d40b9d6-eca9-4632-931d-89ff14cfd437'
-keywords: ["MimeOleFindCharset function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 2d40b9d6-eca9-4632-931d-89ff14cfd437
+keywords:
+- MimeOleFindCharset function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleFindCharset function
@@ -22,8 +28,8 @@ Do not use. On success, finds handle of specified character set.
 
 ```C++
 HRESULT MimeOleFindCharset(
-  _In_  LPCSTR     pszCharset,
-  _Out_ LPHCHARSET phCharset
+  _In_  LPCSTR     pszCharset,
+  _Out_ LPHCHARSET phCharset
 );
 ```
 
@@ -66,7 +72,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -74,8 +80,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -83,9 +89,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

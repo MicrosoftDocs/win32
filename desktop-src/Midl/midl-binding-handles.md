@@ -2,7 +2,13 @@
 title: MIDL Binding Handles
 description: Binding handles are data objects that represent the binding between the client and the server.
 ms.assetid: 178f4838-3deb-43d4-804f-ad6404b377bd
-keywords: ["data types MIDL , binding handles"]
+keywords:
+- data types MIDL , binding handles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL Binding Handles

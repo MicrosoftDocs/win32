@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.disabledImage
 description: The disabledImage attribute specifies or retrieves the name of the image representing the disabled state of the buttons in the BUTTONGROUP.
-ms.assetid: '34d4e6a9-de73-4dfa-9c23-4f17b55298f6'
-keywords: ["BUTTONGROUP.disabledImage Windows Media Player"]
+ms.assetid: 34d4e6a9-de73-4dfa-9c23-4f17b55298f6
+keywords:
+- BUTTONGROUP.disabledImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.disabledImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.disabledImage
@@ -54,9 +60,9 @@ If the image cannot be retrieved, a default image (the red-x image) is displayed
 [**BUTTONGROUP.saturation**](buttongroup-saturation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

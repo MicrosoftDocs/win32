@@ -1,7 +1,12 @@
 ---
 title: CiBold
 description: CiBold
-ms.assetid: '35077550-ba7b-457f-8f27-d49bfb60c68e'
+ms.assetid: 35077550-ba7b-457f-8f27-d49bfb60c68e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CiBold

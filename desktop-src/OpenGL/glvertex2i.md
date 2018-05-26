@@ -1,8 +1,9 @@
 ---
 title: glVertex2i function
 description: Specifies a vertex.
-ms.assetid: '13dc175b-9382-4266-962d-6dcf23ff5949'
-keywords: ["glVertex2i function OpenGL"]
+ms.assetid: 13dc175b-9382-4266-962d-6dcf23ff5949
+keywords:
+- glVertex2i function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glVertex2i function
@@ -22,8 +28,8 @@ Specifies a vertex.
 
 ```C++
 void WINAPI glVertex2i(
-   GLint x,
-   GLint y
+   GLint x,
+   GLint y
 );
 ```
 
@@ -61,8 +67,8 @@ The glVertex function commands are used within [**glBegin**](glbegin.md)/[**glEn
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -106,9 +112,9 @@ The glVertex function commands are used within [**glBegin**](glbegin.md)/[**glEn
 [**glTexCoord**](gltexcoord-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

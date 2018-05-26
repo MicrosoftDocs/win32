@@ -1,7 +1,12 @@
 ---
 Description: EZRGB24 Filter Sample
-ms.assetid: 'c702eb37-b55f-4707-ae0a-8aba11997ef3'
+ms.assetid: c702eb37-b55f-4707-ae0a-8aba11997ef3
 title: EZRGB24 Filter Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EZRGB24 Filter Sample

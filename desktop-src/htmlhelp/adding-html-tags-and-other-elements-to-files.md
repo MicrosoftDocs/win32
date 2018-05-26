@@ -1,7 +1,12 @@
 ---
 title: Adding HTML Tags and Other Elements to Files
 description: In addition to text, HTML files contain HTML tags and elements such as Dynamic HTML and scripts that can affect how information appears in the topic.
-ms.assetid: 'CC81D4E0-4160-4703-BC4D-4430C804CB32'
+ms.assetid: CC81D4E0-4160-4703-BC4D-4430C804CB32
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding HTML Tags and Other Elements to Files

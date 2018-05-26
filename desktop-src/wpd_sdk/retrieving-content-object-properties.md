@@ -1,7 +1,12 @@
 ---
 Description: Retrieving Object Properties
-ms.assetid: '7fbd6f65-366a-49ea-a680-be77ca0d64f2'
+ms.assetid: 7fbd6f65-366a-49ea-a680-be77ca0d64f2
 title: Retrieving Object Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Object Properties
@@ -15,9 +20,9 @@ The WpdServiceApiSample application includes code that demonstrates how an appli
 |                                                                      |                                                                                              |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | Interface                                                            | Description                                                                                  |
-| [**IPortableDeviceService**](iportabledeviceservice.md)             | Retrieves the **IPortableDeviceContent2** interface to access the supported service methods. |
-| [**IPortableDeviceContent2**](iportabledevicecontent2.md)           | Provides access to the content-specific methods.                                             |
-| [**IPortableDeviceProperties**](iportabledeviceproperties.md)       | Retrieves the object property values.                                                        |
+| [**IPortableDeviceService**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice?branch=master)             | Retrieves the **IPortableDeviceContent2** interface to access the supported service methods. |
+| [**IPortableDeviceContent2**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2?branch=master)           | Provides access to the content-specific methods.                                             |
+| [**IPortableDeviceProperties**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master)       | Retrieves the object property values.                                                        |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)               | Holds the property values that were read for that object.                                    |
 | [**IPortableDeviceKeyCollection**](iportabledevicekeycollection.md) | Contains the parameters for a given method.                                                  |
 
@@ -50,7 +55,7 @@ This method retrieves the following four properties for the specified contact ob
 
 Note that prior to retrieving the content properties, the sample application opens a Contacts service on a connected device.
 
-The following code for the **ReadContentProperties** method demonstrates how the application uses the [**IPortableDeviceContent2**](iportabledevicecontent2.md) interface to retrieve an [**IPortableDeviceProperties**](iportabledeviceproperties.md) interface. By passing the PROPERTYKEYS of the requested properties to the [**IPortableDeviceProperties::GetValues**](iportabledeviceproperties-getvalues.md) method, **ReadContentProperties** retrieves the requested values, and then displays them to the console window.
+The following code for the **ReadContentProperties** method demonstrates how the application uses the [**IPortableDeviceContent2**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2?branch=master) interface to retrieve an [**IPortableDeviceProperties**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master) interface. By passing the PROPERTYKEYS of the requested properties to the [**IPortableDeviceProperties::GetValues**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getvalues?branch=master) method, **ReadContentProperties** retrieves the requested values, and then displays them to the console window.
 
 
 ```C++
@@ -171,10 +176,10 @@ void ReadContentProperties(
 
 <dl> <dt>
 
-[**IPortableDeviceContent2**](iportabledevicecontent2.md)
+[**IPortableDeviceContent2**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceProperties**](iportabledeviceproperties.md)
+[**IPortableDeviceProperties**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master)
 </dt> <dt>
 
 [WpdServicesApiSample](wpdapisample-sample-service-application.md)

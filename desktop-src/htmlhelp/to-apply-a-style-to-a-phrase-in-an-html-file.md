@@ -1,7 +1,12 @@
 ---
 title: To apply a style to a phrase in an HTML file
 description: To apply a style to a phrase in an HTML file
-ms.assetid: '16E33620-07B8-4895-81BD-7BE6130AF6A3'
+ms.assetid: 16E33620-07B8-4895-81BD-7BE6130AF6A3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To apply a style to a phrase in an HTML file

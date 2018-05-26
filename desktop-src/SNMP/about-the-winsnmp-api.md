@@ -1,7 +1,12 @@
 ---
 title: About the WinSNMP API
 description: The WinSNMP API is an interface for the development of SNMP-enabled network management applications.
-ms.assetid: 'cd8b045a-2992-453a-b22e-4c3dc29a8c78'
+ms.assetid: cd8b045a-2992-453a-b22e-4c3dc29a8c78
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the WinSNMP API

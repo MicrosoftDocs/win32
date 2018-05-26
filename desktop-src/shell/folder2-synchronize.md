@@ -1,7 +1,12 @@
-﻿---
-Description: 'Synchronizes all offline files in the folder.'
-ms.assetid: 'b149df96-0c8e-47b9-b71e-2ad5dcfdeb8f'
-title: 'Folder2.Synchronize method'
+---
+Description: Synchronizes all offline files in the folder.
+ms.assetid: b149df96-0c8e-47b9-b71e-2ad5dcfdeb8f
+title: Folder2.Synchronize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Folder2.Synchronize method

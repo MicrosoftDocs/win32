@@ -1,8 +1,14 @@
 ---
 title: WS\_METADATA
 description: An opaque type used to reference a set of metadata documents.
-ms.assetid: 'aa7383a1-60fa-448a-b0c6-b9c49d9d5070'
-keywords: ["WS_METADATA"]
+ms.assetid: aa7383a1-60fa-448a-b0c6-b9c49d9d5070
+keywords:
+- WS_METADATA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WS\_METADATA
@@ -26,8 +32,8 @@ This object is not thread safe. For more information, see [thread safety](thread
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>WebServices.h</dt> </dl> |
 
 
@@ -42,9 +48,9 @@ This object is not thread safe. For more information, see [thread safety](thread
 [Thread Safety](thread-safety.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Data Execution Prevention (DEP) is a system-level memory protection feature that is built into the operating system starting with Windows XP and Windows Server 2003.'
-ms.assetid: '75cd83a5-4b77-4ca9-b595-e32d0dd609d0'
+Description: Data Execution Prevention (DEP) is a system-level memory protection feature that is built into the operating system starting with Windows XP and Windows Server 2003.
+ms.assetid: 75cd83a5-4b77-4ca9-b595-e32d0dd609d0
 title: Data Execution Prevention
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Execution Prevention
@@ -14,11 +19,11 @@ DEP is not intended to be a comprehensive defense against all exploits; it is in
 
 ## How Data Execution Prevention Works
 
-If an application attempts to run code from a protected page, the application receives an exception with the status code **STATUS\_ACCESS\_VIOLATION**. If your application must run code from a memory page, it must allocate and set the proper virtual [memory protection](memory-protection.md) attributes. The allocated memory must be marked **PAGE\_EXECUTE**, **PAGE\_EXECUTE\_READ**, **PAGE\_EXECUTE\_READWRITE**, or **PAGE\_EXECUTE\_WRITECOPY** when allocating memory. Heap allocations made by calling the **malloc** and [**HeapAlloc**](heapalloc.md) functions are non-executable.
+If an application attempts to run code from a protected page, the application receives an exception with the status code **STATUS\_ACCESS\_VIOLATION**. If your application must run code from a memory page, it must allocate and set the proper virtual [memory protection](memory-protection.md) attributes. The allocated memory must be marked **PAGE\_EXECUTE**, **PAGE\_EXECUTE\_READ**, **PAGE\_EXECUTE\_READWRITE**, or **PAGE\_EXECUTE\_WRITECOPY** when allocating memory. Heap allocations made by calling the **malloc** and [**HeapAlloc**](/windows/win32/HeapApi/nf-heapapi-heapalloc?branch=master) functions are non-executable.
 
 Applications cannot run code from the default process heap or the stack.
 
-DEP is configured at system boot according to the no-execute page protection policy setting in the boot configuration data. An application can get the current policy setting by calling the [**GetSystemDEPPolicy**](getsystemdeppolicy.md) function. Depending on the policy setting, an application can change the DEP setting for the current process by calling the [**SetProcessDEPPolicy**](setprocessdeppolicy.md) function.
+DEP is configured at system boot according to the no-execute page protection policy setting in the boot configuration data. An application can get the current policy setting by calling the [**GetSystemDEPPolicy**](/windows/win32/WinBase/nf-winbase-getsystemdeppolicy?branch=master) function. Depending on the policy setting, an application can change the DEP setting for the current process by calling the [**SetProcessDEPPolicy**](/windows/win32/WinBase/nf-winbase-setprocessdeppolicy?branch=master) function.
 
 ## Programming Considerations
 
@@ -28,7 +33,7 @@ You should also attempt to control the layout of your application's virtual memo
 
 ## Application Compatibility
 
-Some application functionality is incompatible with DEP. Applications that perform dynamic code generation (such as Just-In-Time code generation) and do not explicitly mark generated code with execute permission may have compatibility issues on computers that are using DEP. Applications written to the Active Template Library (ATL) version 7.1 and earlier can attempt to execute code on pages marked as non-executable, which triggers an NX fault and terminates the application; for more information, see [**SetProcessDEPPolicy**](setprocessdeppolicy.md). Most applications that perform actions incompatible with DEP must be updated to function properly.
+Some application functionality is incompatible with DEP. Applications that perform dynamic code generation (such as Just-In-Time code generation) and do not explicitly mark generated code with execute permission may have compatibility issues on computers that are using DEP. Applications written to the Active Template Library (ATL) version 7.1 and earlier can attempt to execute code on pages marked as non-executable, which triggers an NX fault and terminates the application; for more information, see [**SetProcessDEPPolicy**](/windows/win32/WinBase/nf-winbase-setprocessdeppolicy?branch=master). Most applications that perform actions incompatible with DEP must be updated to function properly.
 
 A small number of executable files and libraries may contain executable code in the data section of an image file. In some cases, applications may place small segments of code (commonly referred to as thunks) in the data sections. However, DEP marks sections of the image file that is loaded in memory as non-executable unless the section has the executable attribute applied.
 

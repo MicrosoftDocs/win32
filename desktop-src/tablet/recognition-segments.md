@@ -1,7 +1,12 @@
 ---
-Description: 'A recognition segment is the basic ink unit that a recognizer uses internally to produce a recognition result for a particular Ink object.'
-ms.assetid: '5215a0bd-6dff-4cda-b2e5-c54f64680e02'
+Description: A recognition segment is the basic ink unit that a recognizer uses internally to produce a recognition result for a particular Ink object.
+ms.assetid: 5215a0bd-6dff-4cda-b2e5-c54f64680e02
 title: Recognition Segments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recognition Segments

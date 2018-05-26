@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section lists the properties defined by Windows Installer:'
-ms.assetid: 'c91119b9-59d5-4a33-91cd-d3ba63659d12'
+---
+Description: This section lists the properties defined by Windows Installer
+ms.assetid: c91119b9-59d5-4a33-91cd-d3ba63659d12
 title: Property Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Reference

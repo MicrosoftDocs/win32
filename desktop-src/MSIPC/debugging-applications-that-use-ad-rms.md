@@ -4,10 +4,13 @@ description: The following topic shows how to debug your application and use the
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '6F6C7651-6A6E-45DD-A0C5-F036F803249B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 6F6C7651-6A6E-45DD-A0C5-F036F803249B
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How-to: debug a rights-enabled application

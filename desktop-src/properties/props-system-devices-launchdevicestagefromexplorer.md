@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether to launch Device Stage.'
-ms.assetid: 'D75A6D42-D4BB-4168-AD91-E2B8BE847128'
-title: 'System.Devices.LaunchDeviceStageFromExplorer'
+Description: Indicates whether to launch Device Stage.
+ms.assetid: D75A6D42-D4BB-4168-AD91-E2B8BE847128
+title: System.Devices.LaunchDeviceStageFromExplorer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.LaunchDeviceStageFromExplorer

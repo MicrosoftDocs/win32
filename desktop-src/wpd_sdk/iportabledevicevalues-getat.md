@@ -1,7 +1,12 @@
 ---
-Description: 'The GetAt method retrieves a value from the collection using the supplied zero-based index.'
-ms.assetid: 'd52675f0-55b4-43ef-bb1d-ff6aa8a70647'
-title: 'IPortableDeviceValues::GetAt method'
+Description: The GetAt method retrieves a value from the collection using the supplied zero-based index.
+ms.assetid: d52675f0-55b4-43ef-bb1d-ff6aa8a70647
+title: IPortableDeviceValuesGetAt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetAt method
@@ -13,9 +18,9 @@ The **GetAt** method retrieves a value from the collection using the supplied ze
 
 ```C++
 HRESULT GetAt(
-  [in]      const DWORD       index,
-  [in, out]       PROPERTYKEY *pKey,
-  [in, out]       PROPVARIANT *pValue
+  [in]      const DWORD       index,
+  [in, out]       PROPERTYKEY *pKey,
+  [in, out]       PROPVARIANT *pValue
 );
 ```
 
@@ -59,7 +64,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -86,9 +91,9 @@ If a property indicates a value of type VT\_UNKNOWN, the property will be one of
 [**IPortableDeviceValues::GetStringValue**](iportabledevicevalues-getstringvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

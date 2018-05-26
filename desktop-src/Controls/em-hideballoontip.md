@@ -1,8 +1,9 @@
 ---
 title: EM\_HIDEBALLOONTIP message
 description: Hides any balloon tip associated with an edit control.
-ms.assetid: '820b98d6-c2bd-4821-ba44-9d58e23eac81'
-keywords: ["EM_HIDEBALLOONTIP message Windows Controls"]
+ms.assetid: 820b98d6-c2bd-4821-ba44-9d58e23eac81
+keywords:
+- EM_HIDEBALLOONTIP message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_HIDEBALLOONTIP message
@@ -44,7 +50,7 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -52,8 +58,8 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -62,12 +68,12 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 
 <dl> <dt>
 
-[**Edit\_HideBalloonTip**](edit-hideballoontip.md)
+[**Edit\_HideBalloonTip**](/windows/win32/Commctrl/nf-commctrl-edit_hideballoontip?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

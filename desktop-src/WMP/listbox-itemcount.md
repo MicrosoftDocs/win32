@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.itemCount
 description: The itemCount attribute retrieves the number of items in the list box control.
-ms.assetid: '8d92e4ed-ce75-4291-8ece-8067f88f8f35'
-keywords: ["LISTBOX.itemCount Windows Media Player"]
+ms.assetid: 8d92e4ed-ce75-4291-8ece-8067f88f8f35
+keywords:
+- LISTBOX.itemCount Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.itemCount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.itemCount
@@ -40,9 +46,9 @@ This attribute is a read-only **Number** (**long**).
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: ForcedNetPathScanInterval
 description: ForcedNetPathScanInterval
-ms.assetid: 'e91bfb3c-edc8-4880-bfb5-a976873c3ad4'
+ms.assetid: e91bfb3c-edc8-4880-bfb5-a976873c3ad4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ForcedNetPathScanInterval

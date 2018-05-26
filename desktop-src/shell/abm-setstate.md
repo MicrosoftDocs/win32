@@ -1,6 +1,11 @@
 ---
-Description: 'Sets the autohide and always-on-top states of the Windows taskbar.'
-title: 'ABM\_SETSTATE message'
+Description: Sets the autohide and always-on-top states of the Windows taskbar.
+title: ABM\_SETSTATE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ABM\_SETSTATE message
@@ -21,7 +26,7 @@ SHAppBarMessage(ABM_SETSTATE, pabd);
 *pabd* 
 </dt> <dd>
 
-A pointer to an [**APPBARDATA**](appbardata.md) structure. You must specify the **cbSize** and **hWnd** members when sending this message. Data for the desired state is sent in the **lParam** member using one of the following values.
+A pointer to an [**APPBARDATA**](/windows/win32/Shellapi/ns-shellapi-_appbardata?branch=master) structure. You must specify the **cbSize** and **hWnd** members when sending this message. Data for the desired state is sent in the **lParam** member using one of the following values.
 
 <dt>
 
@@ -79,15 +84,15 @@ Always returns **TRUE**.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Shellapi.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

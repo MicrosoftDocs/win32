@@ -1,7 +1,12 @@
 ---
-Description: 'Authentication is interactive when a user is prompted to supply logon information. The Local Security Authority (LSA) performs an interactive authentication when a user logs on through the GINA user interface.'
-ms.assetid: '86a318fa-4d7c-4191-a309-d25b492dd915'
+Description: Authentication is interactive when a user is prompted to supply logon information. The Local Security Authority (LSA) performs an interactive authentication when a user logs on through the GINA user interface.
+ms.assetid: 86a318fa-4d7c-4191-a309-d25b492dd915
 title: Interactive Authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interactive Authentication
@@ -12,7 +17,7 @@ Authentication is interactive when a user is prompted to supply logon informatio
 
 A user signals the system to begin the logon sequence by typing the CTRL+ALT+DEL [*secure attention sequence*](security.s_gly#-security-secure-attention-sequence-gly) (SAS). [*Winlogon*](security.w_gly#-security-winlogon-gly) receives the SAS and calls the GINA to display a user interface and obtain the user's logon data, such as a user name and password.
 
-After obtaining the logon data, the GINA calls the [**LsaLogonUser**](lsalogonuser.md) function to authenticate the user, specifying which authentication package must be used to evaluate the logon data.
+After obtaining the logon data, the GINA calls the [**LsaLogonUser**](/windows/win32/Ntsecapi/nf-ntsecapi-lsalogonuser?branch=master) function to authenticate the user, specifying which authentication package must be used to evaluate the logon data.
 
 The LSA calls the specified authentication package and passes the logon data to it. The authentication package examines the data and determines whether the authentication is successful. The authentication result is returned to the LSA and from the LSA, to the GINA.
 

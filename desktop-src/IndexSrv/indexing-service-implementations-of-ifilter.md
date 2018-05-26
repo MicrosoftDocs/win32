@@ -1,7 +1,12 @@
 ---
 title: Indexing Service Implementations of IFilter
 description: Indexing Service Implementations of IFilter
-ms.assetid: '42e43be5-7fa0-462f-af2d-95a1167ad1f2'
+ms.assetid: 42e43be5-7fa0-462f-af2d-95a1167ad1f2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing Service Implementations of IFilter

@@ -1,7 +1,12 @@
 ---
 title: Sepia Effect
 description: Converts an image to sepia tones.
-ms.assetid: 'fe321be9-6ade-bd0c-1c66-cc8042e5a5e1'
+ms.assetid: fe321be9-6ade-bd0c-1c66-cc8042e5a5e1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sepia Effect
@@ -42,7 +47,7 @@ m_d2dContext->EndDraw();
 
 ## Effect Properties
 
-The properties for the sepia effect are defined by the [**D2D1\_SEPIA\_PROP**](d2d1-sepia-prop.md) enumeration.
+The properties for the sepia effect are defined by the [**D2D1\_SEPIA\_PROP**](/windows/win32/d2d1effects_2/ne-d2d1effects_2-d2d1_sepia_prop?branch=master) enumeration.
 
 ## Requirements
 
@@ -63,7 +68,7 @@ The properties for the sepia effect are defined by the [**D2D1\_SEPIA\_PROP**](d
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
  

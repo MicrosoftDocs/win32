@@ -1,7 +1,12 @@
 ---
-Description: 'Certain programming techniques run into performance issues that are linked to the implementation of TCP/IP.'
-ms.assetid: '2a63e85e-06fd-4b6f-8351-9866099b9d54'
-title: 'TCP/IP-specific Issues'
+Description: Certain programming techniques run into performance issues that are linked to the implementation of TCP/IP.
+ms.assetid: 2a63e85e-06fd-4b6f-8351-9866099b9d54
+title: TCP/IP-specific Issues
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCP/IP-specific Issues
@@ -20,13 +25,13 @@ The following issues identify common scenarios in which the combination of TCP/I
 
 -   Zero-length Send Buffers and Blocking Sends.
 
-    Turning off buffering by using the [**setsockopt**](setsockopt-2.md) function to set the send buffer (SO\_SNDBUF) to zero is similar to turning off disk caching. When setting the send buffer to zero and issuing blocking sends, an application has a fifty percent chance of hitting a 200-millisecond delayed acknowledgment.
+    Turning off buffering by using the [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function to set the send buffer (SO\_SNDBUF) to zero is similar to turning off disk caching. When setting the send buffer to zero and issuing blocking sends, an application has a fifty percent chance of hitting a 200-millisecond delayed acknowledgment.
 
     Do not turn off send buffering unless you have considered the impact in all network environments. One exception: streaming data using overlapped I/O should set the send buffer to zero.
 
 -   Send-Send-Receive programming model.
 
-    Structuring an application to perform send-send-receives increases your chances of encountering the Nagle Algorithm, which causes a delay of RTT+200 ms. The Nagle Algorithm may be encountered if the last send is less than the TCP Maximum Segment Size (MSS, the maximum data in a single datagram). MSS can be a very large value (64K in IPv4, and even larger in IPv6), so do not count on a typically small MSS. A better option is to combine the two sends into a single send using the [**WSASend**](wsasend-2.md) or **memcpy** function.
+    Structuring an application to perform send-send-receives increases your chances of encountering the Nagle Algorithm, which causes a delay of RTT+200 ms. The Nagle Algorithm may be encountered if the last send is less than the TCP Maximum Segment Size (MSS, the maximum data in a single datagram). MSS can be a very large value (64K in IPv4, and even larger in IPv6), so do not count on a typically small MSS. A better option is to combine the two sends into a single send using the [**WSASend**](/windows/win32/Winsock2/nf-winsock2-wsasend?branch=master) or **memcpy** function.
 
 -   Large Number of Simultaneous Connections.
 

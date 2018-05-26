@@ -1,8 +1,11 @@
 ---
 title: WriteBackZone method of the MicrosoftDNS\_Zone class
 description: The WriteBackZone method saves Zone data to its zone file.
-ms.assetid: '5f9f1fcc-79a1-465a-a94e-3283135c9b69'
-keywords: ["WriteBackZone method DNS", "WriteBackZone method DNS , MicrosoftDNS_Zone class", "MicrosoftDNS_Zone class DNS , WriteBackZone method"]
+ms.assetid: 5f9f1fcc-79a1-465a-a94e-3283135c9b69
+keywords:
+- WriteBackZone method DNS
+- WriteBackZone method DNS , MicrosoftDNS_Zone class
+- MicrosoftDNS_Zone class DNS , WriteBackZone method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WriteBackZone method of the MicrosoftDNS\_Zone class
@@ -41,7 +49,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -84,9 +92,9 @@ This method does not return a value.
 [**UpdateFromDS Method of the MicrosoftDNS\_Zone Class**](microsoftdns-zone-updatefromds.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the protection scheme for encrypted samples.'
-ms.assetid: '04E9F908-C61C-43DC-8CF5-9A629FCDD82C'
-title: 'MFSampleExtension\_Encryption\_ProtectionScheme attribute'
+---
+Description: Specifies the protection scheme for encrypted samples.
+ms.assetid: 04E9F908-C61C-43DC-8CF5-9A629FCDD82C
+title: MFSampleExtension\_Encryption\_ProtectionScheme attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_Encryption\_ProtectionScheme attribute
@@ -14,7 +19,7 @@ Specifies the protection scheme for encrypted samples.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFSampleEncryptionProtectionScheme**](mfsampleencryptionprotectionscheme.md) enumeration. In cases where the media source is MP4-based, the value is set based off the value of the **scheme\_type** field within the scheme type box (‘schm’) in the MP4 header (‘moov’ or ‘moof’).
+The value of this attribute is a member of the [**MFSampleEncryptionProtectionScheme**](/windows/win32/mfidl/ne-mfapi-_mfsampleencryptionprotectionscheme?branch=master) enumeration. In cases where the media source is MP4-based, the value is set based off the value of the **scheme\_type** field within the scheme type box (‘schm’) in the MP4 header (‘moov’ or ‘moof’).
 
 If the **scheme\_type** field in an MP4-based file, or stream, is set to ‘cenc’ or ‘cbc1’, then the **MFSampleExtension\_Encryption\_ProtectionScheme** attribute should be set to **PROTECTION\_SCHEME\_AES\_CTR** or **PROTECTION\_SCHEME\_CBC**, respectively, and no values should be set for [MFSampleExtension\_Encryption\_CryptByteBlock](mfsampleextension-encryption-cryptbyteblock.md) and [MFSampleExtension\_Encryption\_SkipByteBlock](mfsampleextension-encryption-skipbyteblock.md).
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This is a combination of the right-to-left reading order RTLRO, the RightAligned, and LeftScroll attributes.'
-ms.assetid: '4eaec16f-ee1c-437b-8b76-7ebbdc4e2f71'
+Description: This is a combination of the right-to-left reading order RTLRO, the RightAligned, and LeftScroll attributes.
+ms.assetid: 4eaec16f-ee1c-437b-8b76-7ebbdc4e2f71
 title: BiDi Control Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BiDi Control Attribute

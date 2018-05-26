@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WM\_QUERYENDSESSION message is sent when the user chooses to end the session or when an application calls one of the system shutdown functions.'
-ms.assetid: '7ad73444-f1f6-4b73-8450-0580b146a5a6'
-title: 'WM\_QUERYENDSESSION message'
+---
+Description: The WM\_QUERYENDSESSION message is sent when the user chooses to end the session or when an application calls one of the system shutdown functions.
+ms.assetid: 7ad73444-f1f6-4b73-8450-0580b146a5a6
+title: WM\_QUERYENDSESSION message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_QUERYENDSESSION message
@@ -80,7 +85,7 @@ If shutting down would corrupt the system or media that is being burned, the app
 
 When an application returns **TRUE** for this message, it receives the [**WM\_ENDSESSION**](wm-endsession.md) message, regardless of how the other applications respond to the **WM\_QUERYENDSESSION** message. Each application should return **TRUE** or **FALSE** immediately upon receiving this message, and defer any cleanup operations until it receives the **WM\_ENDSESSION** message.
 
-Applications can display a user interface prompting the user for information at shutdown, however it is not recommended. After five seconds, the system displays information about the applications that are preventing shutdown and allows the user to terminate them. For example, Windows XP displays a dialog box, while Windows Vista displays a full screen with additional information about the applications blocking shutdown. If your application must block or postpone system shutdown, use the [**ShutdownBlockReasonCreate**](shutdownblockreasoncreate.md) function. For more information, see [Shutdown Changes for Windows Vista](shutdown-changes-for-windows-vista.md).
+Applications can display a user interface prompting the user for information at shutdown, however it is not recommended. After five seconds, the system displays information about the applications that are preventing shutdown and allows the user to terminate them. For example, Windows XP displays a dialog box, while Windows Vista displays a full screen with additional information about the applications blocking shutdown. If your application must block or postpone system shutdown, use the [**ShutdownBlockReasonCreate**](/windows/win32/Winuser/nf-winuser-shutdownblockreasoncreate?branch=master) function. For more information, see [Shutdown Changes for Windows Vista](shutdown-changes-for-windows-vista.md).
 
 Console applications can use the [**SetConsoleCtrlHandler**](base.setconsolectrlhandler) function to receive shutdown notification.
 
@@ -115,7 +120,7 @@ For an example, see [Logging Off](logging-off.md).
 [**DefWindowProc**](_win32_defwindowproc_cpp)
 </dt> <dt>
 
-[**ExitWindows**](exitwindows.md)
+[**ExitWindows**](/windows/win32/Winuser/nf-winuser-exitwindows?branch=master)
 </dt> <dt>
 
 [**SetProcessShutdownParameters**](base.setprocessshutdownparameters)

@@ -1,8 +1,9 @@
 ---
 title: D3DX11UnsetAllDeviceObjects function
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the ID3D11DeviceContext ClearState method.
-ms.assetid: '0e52bbca-f171-477f-89b0-ba56a2cfa096'
-keywords: ["D3DX11UnsetAllDeviceObjects function Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the ID3D11DeviceContext ClearState method.
+ms.assetid: 0e52bbca-f171-477f-89b0-ba56a2cfa096
+keywords:
+- D3DX11UnsetAllDeviceObjects function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,19 +13,24 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11UnsetAllDeviceObjects function
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 > [!Note]  
-> Instead of using this function, we recommend that you use the [**ID3D11DeviceContext::ClearState**](id3d11devicecontext-clearstate.md) method.
+> Instead of using this function, we recommend that you use the [**ID3D11DeviceContext::ClearState**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-clearstate?branch=master) method.
 
- 
+ 
 
 Removes all resources from the device by setting their pointers to **NULL**. This should be called during shutdown of your application. It helps ensure that when one is releasing all of their resources that none of them are bound to the device.
 
@@ -33,7 +39,7 @@ Removes all resources from the device by setting their pointers to **NULL**. Thi
 
 ```C++
 HRESULT D3DX11UnsetAllDeviceObjects(
-  _In_ ID3D11DeviceContext *pContext
+  _In_ ID3D11DeviceContext *pContext
 );
 ```
 
@@ -46,9 +52,9 @@ HRESULT D3DX11UnsetAllDeviceObjects(
 *pContext* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D11DeviceContext**](id3d11devicecontext.md)\***
+Type: **[**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master)\***
 
-Pointer to an [**ID3D11DeviceContext**](id3d11devicecontext.md) object.
+Pointer to an [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) object.
 
 </dd> </dl>
 
@@ -76,9 +82,9 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

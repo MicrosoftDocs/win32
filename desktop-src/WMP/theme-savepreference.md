@@ -1,14 +1,20 @@
 ---
 title: THEME.savePreference
 description: The savePreference method saves a preference in the registry.
-ms.assetid: '4c253d8d-15c0-4c18-bb3f-fdbcef79c999'
-keywords: ["THEME.savePreference Windows Media Player"]
+ms.assetid: 4c253d8d-15c0-4c18-bb3f-fdbcef79c999
+keywords:
+- THEME.savePreference Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.savePreference
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.savePreference
@@ -82,9 +88,9 @@ Preferences are not encrypted and therefore are not a secure method for persisti
 [**THEME.loadPreference**](theme-loadpreference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,15 @@
 ---
 title: IrCOMM
 description: IrCOMM is a family of protocols that runs on top of the core IrDA–protocol suite.
-ms.assetid: 'cacd918f-63f2-4ba7-a37a-dc50e59155b5'
-keywords: ["Infrared Data Association IrDA , described, IrCOMM", "architecture IrDA , IrCOMM"]
+ms.assetid: cacd918f-63f2-4ba7-a37a-dc50e59155b5
+keywords:
+- Infrared Data Association IrDA , described, IrCOMM
+- architecture IrDA , IrCOMM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrCOMM

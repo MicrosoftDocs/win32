@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.CameraSerialNumber property.'
-ms.assetid: '85f78f45-5e76-4d52-88a2-ac3c9e2b6a1e'
-title: 'System.Photo.CameraSerialNumber Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.CameraSerialNumber property.
+ms.assetid: 85f78f45-5e76-4d52-88a2-ac3c9e2b6a1e
+title: System.Photo.CameraSerialNumber Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.CameraSerialNumber Photo Metadata Policy

@@ -1,14 +1,19 @@
 ---
-Description: 'Tablet PC Technology includes layout analysis of ink input that combines handwriting and drawing.'
-ms.assetid: '9e4ed24f-4451-431c-9f0f-2f1c4f5e5084'
+Description: Tablet PC Technology includes layout analysis of ink input that combines handwriting and drawing.
+ms.assetid: 9e4ed24f-4451-431c-9f0f-2f1c4f5e5084
 title: The Divider Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Divider Object
 
-Tablet PC Technology includes layout analysis of ink input that combines handwriting and drawing. The [**Divider**](inkdivider-class.md) object provides layout analysis features that classify and group strokes into different structural elements.
+Tablet PC Technology includes layout analysis of ink input that combines handwriting and drawing. The [**Divider**](/windows/win32/msinkaut15/?branch=master) object provides layout analysis features that classify and group strokes into different structural elements.
 
-The [Ink Divider Sample](ink-divider-sample.md) topic demonstrates how to use a [**Divider**](inkdivider-class.md) object with [**Ink**](inkdisp-class.md) objects to perform ink layout analysis.
+The [Ink Divider Sample](ink-divider-sample.md) topic demonstrates how to use a [**Divider**](/windows/win32/msinkaut15/?branch=master) object with [**Ink**](/windows/win32/msinkaut/?branch=master) objects to perform ink layout analysis.
 
 The following sections describe the basic concepts behind the Tablet PC layout analysis technology:
 

@@ -1,8 +1,11 @@
 ---
 title: SetReplicationRelationship method of the MSFT\_ReplicationGroup class
 description: Modifies the relationship between replication groups.
-ms.assetid: 'AEA4DB91-51E2-4F47-BC45-D58C82580AAA'
-keywords: ["SetReplicationRelationship method Windows Storage Management API", "SetReplicationRelationship method Windows Storage Management API , MSFT_ReplicationGroup class", "MSFT_ReplicationGroup class Windows Storage Management API , SetReplicationRelationship method"]
+ms.assetid: AEA4DB91-51E2-4F47-BC45-D58C82580AAA
+keywords:
+- SetReplicationRelationship method Windows Storage Management API
+- SetReplicationRelationship method Windows Storage Management API , MSFT_ReplicationGroup class
+- MSFT_ReplicationGroup class Windows Storage Management API , SetReplicationRelationship method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetReplicationRelationship method of the MSFT\_ReplicationGroup class
@@ -22,13 +30,13 @@ Modifies the relationship between replication groups.
 
 ```mof
 UInt32 SetReplicationRelationship(
-  [in]  UInt16 Operation,
-  [in]  String TargetGroup,
-  [in]  String SourceStorageObjects[],
-  [in]  String TargetStorageObjects[],
-  [in]  String SyncPairs[],
-  [out] String CreatedReplicaPeer,
-  [out] String ExtendedStatus
+  [in]  UInt16 Operation,
+  [in]  String TargetGroup,
+  [in]  String SourceStorageObjects[],
+  [in]  String TargetStorageObjects[],
+  [in]  String SyncPairs[],
+  [out] String CreatedReplicaPeer,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -201,8 +209,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -215,9 +223,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_ReplicationGroup**](msft-replicationgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

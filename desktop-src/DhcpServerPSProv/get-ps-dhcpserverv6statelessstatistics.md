@@ -4,13 +4,16 @@ description: Returns a list of IPv6 subnet prefixes which have stateless clients
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f78ff2eb-3e2e-4a83-b4af-7f76b9800342'
-ms.prod: 'windows-server-dev'
+ms.assetid: f78ff2eb-3e2e-4a83-b4af-7f76b9800342
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv6StatelessStatistics class", "PS_DhcpServerv6StatelessStatistics class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv6StatelessStatistics class
+- PS_DhcpServerv6StatelessStatistics class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv6StatelessStatistics class
@@ -30,8 +36,8 @@ Returns a list of IPv6 subnet prefixes which have stateless clients and the numb
 
 ```mof
 uint32 Get(
-  [in]  string                          ComputerName,
-  [out] DhcpServerv6StatelessStatistics cmdletOutput[]
+  [in]  string                          ComputerName,
+  [out] DhcpServerv6StatelessStatistics cmdletOutput[]
 );
 ```
 
@@ -62,7 +68,7 @@ An embedded instance of the [**DhcpServerv6StatelessStatistics**](dhcpserverv6st
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -76,9 +82,9 @@ An embedded instance of the [**DhcpServerv6StatelessStatistics**](dhcpserverv6st
 [**PS\_DhcpServerv6StatelessStatistics**](ps-dhcpserverv6statelessstatistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

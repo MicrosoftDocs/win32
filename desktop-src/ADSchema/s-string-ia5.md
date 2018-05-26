@@ -4,17 +4,21 @@ description: A case-sensitive string that contains characters from the IA5 chara
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '79f34fa0-50ce-4bc8-9d12-c003ac43d7a0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 79f34fa0-50ce-4bc8-9d12-c003ac43d7a0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["String(IA5) syntax AD Schema"]
+keywords:
+- String(IA5) syntax AD Schema
 topic_type:
 - apiref
 api_name:
 - String(IA5)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # String(IA5) syntax

@@ -4,28 +4,33 @@ description: Specifies cluster networks that should not be used during a live mi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '30dddf69-0631-4f81-986a-92eeaf1a2b75'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 30dddf69-0631-4f81-986a-92eeaf1a2b75
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["MigrationExcludeNetworks Failover Cluster ,for virtual machines", "MigrationExcludeNetworks Failover Cluster"]
+keywords:
+- MigrationExcludeNetworks Failover Cluster ,for virtual machines
+- MigrationExcludeNetworks Failover Cluster
 topic_type:
 - apiref
 api_name:
 - MigrationExcludeNetworks
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MigrationExcludeNetworks
 
-\[This property is no longer available for use as of Windows Server 2012.\]
+\[This property is no longer available for use as of Windows Server 2012.\]
 
 This property is not supported.
 
-**Windows Server 2008 R2:  **
+**Windows Server 2008 R2:  **
 
-Specifies cluster networks that should not be used during a live migration. The networks are specified by the network ID returned by the [**GetClusterNetworkId**](getclusternetworkid.md) function, separated by semicolons. The following table summarizes the attributes of the **MigrationExcludeNetworks** property.
+Specifies cluster networks that should not be used during a live migration. The networks are specified by the network ID returned by the [**GetClusterNetworkId**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_network_id?branch=master) function, separated by semicolons. The following table summarizes the attributes of the **MigrationExcludeNetworks** property.
 
 
 
@@ -33,18 +38,18 @@ Specifies cluster networks that should not be used during a live migration. The 
 |----------------------|---------------------------------------------------------------------------|
 | Data type<br/> | Null-terminated Unicode string<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>                        |
-| Structure<br/> | [**CLUSPROP\_SZ**](clusprop-sz.md)<br/>                            |
+| Structure<br/> | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)<br/>                            |
 | Minimum<br/>   | **NULL**<br/>                                                       |
 | Maximum<br/>   | None (but see [Maximum String Size](maximum-string-size.md)).<br/> |
 | Default<br/>   | **NULL**<br/>                                                       |
 
 
 
- 
+ 
 
 ## Remarks
 
-The [**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md) macro creates a [**CLUSPROP\_SZ**](clusprop-sz.md) structure with an array of the correct size.
+The [**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master) macro creates a [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master) structure with an array of the correct size.
 
 ## Examples
 
@@ -72,9 +77,9 @@ StringCbCopy( MigrationExcludeNetworksValue.sz,
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
 | End of client support<br/>    | None supported<br/>                                                       |
-| End of server support<br/>    | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
 
 
 
@@ -85,18 +90,18 @@ StringCbCopy( MigrationExcludeNetworksValue.sz,
 [Virtual Machine Common Properties](virtual-machine-common-properties.md)
 </dt> <dt>
 
-[**GetClusterNetworkId**](getclusternetworkid.md)
+[**GetClusterNetworkId**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_network_id?branch=master)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md)
+[**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

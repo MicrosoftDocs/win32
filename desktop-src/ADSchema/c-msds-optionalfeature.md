@@ -4,17 +4,22 @@ description: Configuration for an optional DS feature.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '236ff60d-84a2-4c71-9759-1863e24b2a98'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 236ff60d-84a2-4c71-9759-1863e24b2a98
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Optional-Feature class AD Schema", "msDS-OptionalFeature class AD Schema"]
+keywords:
+- ms-DS-Optional-Feature class AD Schema
+- msDS-OptionalFeature class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Optional-Feature
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Optional-Feature class
@@ -35,8 +40,8 @@ Configuration for an optional DS feature.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -63,7 +68,7 @@ Configuration for an optional DS feature.
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -213,7 +218,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -344,9 +349,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

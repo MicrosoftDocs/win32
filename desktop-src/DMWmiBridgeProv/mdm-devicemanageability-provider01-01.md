@@ -1,8 +1,10 @@
 ---
 title: MDM\_DeviceManageability\_Provider01\_01 class
 description: The MDM\_DeviceManageability\_Provider01\_01 class is used retrieve the general information about MDM configuration capabilities on the device.
-ms.assetid: '080e5cdd-4509-42d6-b5f8-36df6f8d9b45'
-keywords: ["MDM_DeviceManageability_Provider01_01 class", "MDM_DeviceManageability_Provider01_01 class, described"]
+ms.assetid: 080e5cdd-4509-42d6-b5f8-36df6f8d9b45
+keywords:
+- MDM_DeviceManageability_Provider01_01 class
+- MDM_DeviceManageability_Provider01_01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_DeviceManageability\_Provider01\_01 class
@@ -106,7 +113,7 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                       |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl> |
@@ -114,9 +121,9 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

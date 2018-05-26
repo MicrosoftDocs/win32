@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a floating point value.'
-ms.assetid: '239dd29c-092a-4b9f-ba24-eb6181e91461'
-title: 'ID3DXBaseEffect::GetFloat method'
+---
+Description: Gets a floating point value.
+ms.assetid: 239dd29c-092a-4b9f-ba24-eb6181e91461
+title: ID3DXBaseEffectGetFloat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetFloat method

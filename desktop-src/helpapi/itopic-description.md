@@ -1,8 +1,11 @@
 ---
 title: ITopic Description property
 description: Returns topic description
-ms.assetid: '1403d8e9-581d-4b3f-a89e-4748ef805218'
-keywords: ["Description property HelpAPI", "Description property HelpAPI , ITopic interface", "ITopic interface HelpAPI , Description property"]
+ms.assetid: 1403d8e9-581d-4b3f-a89e-4748ef805218
+keywords:
+- Description property HelpAPI
+- Description property HelpAPI , ITopic interface
+- ITopic interface HelpAPI , Description property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITopic::Description property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Description(
-  [out, retval] BSTR *pRetVal
+  [out, retval] BSTR *pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ The topic's description.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ The topic's description.
 [**ITopic**](itopic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

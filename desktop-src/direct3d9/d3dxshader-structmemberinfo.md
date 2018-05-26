@@ -1,7 +1,12 @@
-﻿---
-Description: 'A helper structure containing member structure information.'
-ms.assetid: '2fbe5e97-047e-48bf-9413-dd297632288a'
-title: 'D3DXSHADER\_STRUCTMEMBERINFO structure'
+---
+Description: A helper structure containing member structure information.
+ms.assetid: 2fbe5e97-047e-48bf-9413-dd297632288a
+title: D3DXSHADER\_STRUCTMEMBERINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSHADER\_STRUCTMEMBERINFO structure

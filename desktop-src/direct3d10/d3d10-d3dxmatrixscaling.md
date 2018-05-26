@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a matrix that scales along the x-axis, the y-axis, and the z-axis.'
-ms.assetid: '1804bf41-26de-4be1-ad62-7a871d7408e6'
+---
+Description: Builds a matrix that scales along the x-axis, the y-axis, and the z-axis.
+ms.assetid: 1804bf41-26de-4be1-ad62-7a871d7408e6
 title: D3DXMatrixScaling function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixScaling function

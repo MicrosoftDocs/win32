@@ -1,7 +1,12 @@
 ---
-Description: 'Network adapter Virtual Port settings.'
-ms.assetid: '0d9f368c-deb8-45aa-9cb7-492eb853be39'
-title: 'MSFT\_NetAdapterVPortSettingData class'
+Description: Network adapter Virtual Port settings.
+ms.assetid: 0d9f368c-deb8-45aa-9cb7-492eb853be39
+title: MSFT\_NetAdapterVPortSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterVPortSettingData class
@@ -357,16 +362,16 @@ The state of the VPort.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

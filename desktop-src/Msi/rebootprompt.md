@@ -1,7 +1,12 @@
-﻿---
-Description: 'If the REBOOTPROMPT property is set to Suppress (or just S) any reboot performed by the Windows Installer happens automatically without interaction from the user.'
-ms.assetid: '2aa78d77-835f-40bd-a973-799063059f4d'
+---
+Description: If the REBOOTPROMPT property is set to Suppress (or just S) any reboot performed by the Windows Installer happens automatically without interaction from the user.
+ms.assetid: 2aa78d77-835f-40bd-a973-799063059f4d
 title: REBOOTPROMPT property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # REBOOTPROMPT property

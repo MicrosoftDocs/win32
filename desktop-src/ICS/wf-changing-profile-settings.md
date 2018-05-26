@@ -1,8 +1,15 @@
 ---
 title: Changing Settings in a Specific Profile
 description: Changing Settings in a Specific Profile
-ms.assetid: '03e42a39-619a-4e84-9634-ee3e7a2325ad'
-keywords: ["Windows Firewall", "using"]
+ms.assetid: 03e42a39-619a-4e84-9634-ee3e7a2325ad
+keywords:
+- Windows Firewall
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing Settings in a Specific Profile

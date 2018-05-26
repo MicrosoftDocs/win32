@@ -1,7 +1,12 @@
 ---
 title: Header Control (MSAA UI Element Reference)
 description: A header control displays headings at the top of columns of information and lets the user sort the information by clicking the headings. Windows Explorer uses a header control when the Details view is selected.
-ms.assetid: '669d6bb8-7bc4-4e6f-bf4f-207887f44b83'
+ms.assetid: 669d6bb8-7bc4-4e6f-bf4f-207887f44b83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Header Control (MSAA UI Element Reference)
@@ -17,17 +22,17 @@ The window class name for a header control is WC\_HEADER, which is defined as "S
 
 ## IAccessible Methods
 
-A header control supports the following [**IAccessible**](iaccessible.md) methods:
+A header control supports the following [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) methods:
 
 
 
 | Method                                                                    | Comments                                                        |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------|
-| [**accDoDefaultAction**](iaccessible-iaccessible--accdodefaultaction.md) | This method performs the default action by clicking the header. |
-| [**accHitTest**](iaccessible-iaccessible--acchittest.md)                 |                                                                 |
-| [**accLocation**](iaccessible-iaccessible--acclocation.md)               |                                                                 |
-| [**accNavigate**](iaccessible-iaccessible--accnavigate.md)               |                                                                 |
-| [**accSelect**](iaccessible-iaccessible--accselect.md)                   |                                                                 |
+| [**accDoDefaultAction**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accdodefaultaction?branch=master) | This method performs the default action by clicking the header. |
+| [**accHitTest**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acchittest?branch=master)                 |                                                                 |
+| [**accLocation**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acclocation?branch=master)               |                                                                 |
+| [**accNavigate**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accnavigate?branch=master)               |                                                                 |
+| [**accSelect**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accselect?branch=master)                   |                                                                 |
 
 
 
@@ -35,19 +40,19 @@ A header control supports the following [**IAccessible**](iaccessible.md) method
 
 ## IAccessible Properties
 
-A header control supports the following [**IAccessible**](iaccessible.md) properties:
+A header control supports the following [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) properties:
 
 
 
 | Property                                                                       | Comments                                                                                                                                                                                                                               |
 |--------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**get\_accChildCount**](iaccessible-iaccessible--get-accchildcount.md)       | The **ChildCount** property is zero.                                                                                                                                                                                                   |
-| [**get\_accDefaultAction**](iaccessible-iaccessible--get-accdefaultaction.md) | The **DefaultAction** property is "Click".                                                                                                                                                                                             |
-| [**get\_accFocus**](iaccessible-iaccessible--get-accfocus.md)                 |                                                                                                                                                                                                                                        |
-| [**get\_accName**](iaccessible-iaccessible--get-accname.md)                   | The **Name** property is the same as the name of the column header.                                                                                                                                                                    |
-| [**get\_accParent**](iaccessible-iaccessible--get-accparent.md)               | The **Parent** property is a window ( [**ROLE\_SYSTEM\_LIST**](object-roles.md#role-system-list) ) that surrounds the control and has the same window class name as the control.                                                      |
-| [**get\_accRole**](iaccessible-iaccessible--get-accrole.md)                   | The **Role** property is [**ROLE\_SYSTEM\_COLUMNHEADER**](object-roles.md#role-system-columnheader).                                                                                                                                  |
-| [**get\_accState**](iaccessible-iaccessible--get-accstate.md)                 | The value for the **State** property is always [**STATE\_SYSTEM\_READONLY**](object-state-constants.md#state-system-readonly) and can also include [**STATE\_SYSTEM\_INVISIBLE**](object-state-constants.md#state-system-invisible). |
+| [**get\_accChildCount**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accchildcount?branch=master)       | The **ChildCount** property is zero.                                                                                                                                                                                                   |
+| [**get\_accDefaultAction**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accdefaultaction?branch=master) | The **DefaultAction** property is "Click".                                                                                                                                                                                             |
+| [**get\_accFocus**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accfocus?branch=master)                 |                                                                                                                                                                                                                                        |
+| [**get\_accName**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accname?branch=master)                   | The **Name** property is the same as the name of the column header.                                                                                                                                                                    |
+| [**get\_accParent**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accparent?branch=master)               | The **Parent** property is a window ( [**ROLE\_SYSTEM\_LIST**](object-roles.md#role-system-list) ) that surrounds the control and has the same window class name as the control.                                                      |
+| [**get\_accRole**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accrole?branch=master)                   | The **Role** property is [**ROLE\_SYSTEM\_COLUMNHEADER**](object-roles.md#role-system-columnheader).                                                                                                                                  |
+| [**get\_accState**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accstate?branch=master)                 | The value for the **State** property is always [**STATE\_SYSTEM\_READONLY**](object-state-constants.md#state-system-readonly) and can also include [**STATE\_SYSTEM\_INVISIBLE**](object-state-constants.md#state-system-invisible). |
 
 
 
@@ -57,7 +62,7 @@ A header control supports the following [**IAccessible**](iaccessible.md) proper
 
 <dl> <dt>
 
-[IAccessible Interface](iaccessible.md)
+[IAccessible Interface](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master)
 </dt> </dl>
 
  

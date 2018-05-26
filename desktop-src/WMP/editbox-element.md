@@ -1,8 +1,18 @@
 ---
 title: EDITBOX Element
 description: EDITBOX Element
-ms.assetid: '9ad4abab-e448-4fcf-9451-2476a603e401'
-keywords: ["Windows Media Player skins,EDITBOX element", "skins,EDITBOX element", "EDITBOX element", "reference for skins,EDITBOX element", "elements,EDITBOX"]
+ms.assetid: 9ad4abab-e448-4fcf-9451-2476a603e401
+keywords:
+- Windows Media Player skins,EDITBOX element
+- skins,EDITBOX element
+- EDITBOX element
+- reference for skins,EDITBOX element
+- elements,EDITBOX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX Element

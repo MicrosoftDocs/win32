@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_Luminance method specifies the luminance value on which to key. This property applies only when the key type is DXTKEY\_LUMINANCE.'
-ms.assetid: '3e255423-1724-49fe-b1a1-49bc1d5fa6ae'
-title: 'IDxtKey::put\_Luminance method'
+---
+Description: The put\_Luminance method specifies the luminance value on which to key. This property applies only when the key type is DXTKEY\_LUMINANCE.
+ms.assetid: 3e255423-1724-49fe-b1a1-49bc1d5fa6ae
+title: IDxtKeyput\_Luminance method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtKey::put\_Luminance method

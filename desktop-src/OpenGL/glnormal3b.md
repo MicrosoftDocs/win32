@@ -1,8 +1,9 @@
 ---
 title: glNormal3b function
 description: Sets the current normal vector.
-ms.assetid: 'b6976143-bc9a-4766-9f7e-5380c3a24173'
-keywords: ["glNormal3b function OpenGL"]
+ms.assetid: b6976143-bc9a-4766-9f7e-5380c3a24173
+keywords:
+- glNormal3b function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glNormal3b function
@@ -22,9 +28,9 @@ Sets the current normal vector.
 
 ```C++
 void WINAPI glNormal3b(
-   GLbyte nx,
-   GLbyte ny,
-   GLbyte nz
+   GLbyte nx,
+   GLbyte ny,
+   GLbyte nz
 );
 ```
 
@@ -77,8 +83,8 @@ Normals specified with **glNormal3b** need not have unit length. If normalizatio
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -107,9 +113,9 @@ Normals specified with **glNormal3b** need not have unit length. If normalizatio
 [**glVertex**](glvertex-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Wi-Fi Direct Interface GUID.'
-ms.assetid: '7117dd4d-6765-4f47-ac4f-1ffe64d711ed'
-title: 'System.Devices.WiFiDirect.InterfaceGuid'
+Description: Wi-Fi Direct Interface GUID.
+ms.assetid: 7117dd4d-6765-4f47-ac4f-1ffe64d711ed
+title: System.Devices.WiFiDirect.InterfaceGuid
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.WiFiDirect.InterfaceGuid

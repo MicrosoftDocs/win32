@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetJobs method creates and initializes a FaxJobs object for a specified FaxServer object. The FaxJobs object allows enumeration of the current queued jobs for the connected fax server.'
-ms.assetid: '54800b9b-4c22-4b8b-a098-41276e099b26'
-title: 'FaxServer.GetJobs method'
+---
+Description: The GetJobs method creates and initializes a FaxJobs object for a specified FaxServer object. The FaxJobs object allows enumeration of the current queued jobs for the connected fax server.
+ms.assetid: 54800b9b-4c22-4b8b-a098-41276e099b26
+title: FaxServer.GetJobs method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.GetJobs method
@@ -34,9 +39,9 @@ Pointer to a [VARIANT](e305240e-9e11-4006-98cc-26f4932d2118) structure that rece
 
 ## Remarks
 
-The **GetJobs** method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxJobs](-mfax-faxjobs.md) object. A fax client application can also access the [**IFaxJobs**](-mfax-ifaxjobs.md) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an interface pointer.
+The **GetJobs** method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxJobs](-mfax-faxjobs.md) object. A fax client application can also access the [**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an interface pointer.
 
-A fax client application should not call the [CoCreateInstance](http://msdn.microsoft.com/en-us/library/ms686615.aspx) function to retrieve an [**IFaxJobs**](-mfax-ifaxjobs.md) interface pointer because it will not be instantiated correctly.
+A fax client application should not call the [CoCreateInstance](http://msdn.microsoft.com/en-us/library/ms686615.aspx) function to retrieve an [**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master) interface pointer because it will not be instantiated correctly.
 
 ## Requirements
 
@@ -67,10 +72,10 @@ A fax client application should not call the [CoCreateInstance](http://msdn.micr
 [FaxServer](-mfax-faxserver-client.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> <dt>
 
 [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx)

@@ -2,13 +2,15 @@
 title: VpnIPAddressRange class
 description: Virtual Private Network (VPN) IP address range object.
 audience: developer
-ms.assetid: '4a6f4363-4b62-454b-90a2-c461ed3621fb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4a6f4363-4b62-454b-90a2-c461ed3621fb
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnIPAddressRange class", "VpnIPAddressRange class, described"]
+keywords:
+- VpnIPAddressRange class
+- VpnIPAddressRange class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnIPAddressRange class
@@ -83,16 +88,16 @@ Start IP address of the Range
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

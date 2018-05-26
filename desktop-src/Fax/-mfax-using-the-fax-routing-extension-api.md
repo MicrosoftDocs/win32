@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics discuss common tasks you can perform using the fax routing extension functions.'
-ms.assetid: '7e91043b-06b8-4b25-ad13-29e68926c71e'
+Description: The following topics discuss common tasks you can perform using the fax routing extension functions.
+ms.assetid: 7e91043b-06b8-4b25-ad13-29e68926c71e
 title: Using the Fax Routing Extension API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Fax Routing Extension API

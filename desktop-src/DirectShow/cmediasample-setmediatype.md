@@ -1,19 +1,24 @@
 ---
-Description: 'The SetMediaType method sets the media type for the sample. This method implements the IMediaSample::SetMediaType method.'
-ms.assetid: '4423cc1e-d6e1-49e7-9cc1-1a1d71a3497b'
-title: 'CMediaSample.SetMediaType method'
+Description: The SetMediaType method sets the media type for the sample. This method implements the IMediaSampleSetMediaType method.
+ms.assetid: 4423cc1e-d6e1-49e7-9cc1-1a1d71a3497b
+title: CMediaSample.SetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.SetMediaType method
 
-The `SetMediaType` method sets the media type for the sample. This method implements the [**IMediaSample::SetMediaType**](imediasample-setmediatype.md) method.
+The `SetMediaType` method sets the media type for the sample. This method implements the [**IMediaSample::SetMediaType**](/windows/win32/Strmif/nf-strmif-imediasample-setmediatype?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetMediaType(
-   AM_MEDIA_TYPE *pMediaType
+   AM_MEDIA_TYPE *pMediaType
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT SetMediaType(
 *pMediaType* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure.
 
 </dd> </dl>
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,9 +74,9 @@ This method makes a copy of the AM\_MEDIA\_TYPE structure.
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

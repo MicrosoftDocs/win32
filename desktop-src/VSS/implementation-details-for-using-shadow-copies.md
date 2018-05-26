@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics provide implementation details for using shadow copies: Requester Access to Shadow Copied DataImporting Transportable Shadow Copied VolumesExposing and Surfacing Shadow Copied VolumesBreaking Shadow Copies'
-ms.assetid: '3d20e8cf-7400-415f-b23f-ca64068b24ef'
+Description: The following topics provide implementation details for using shadow copies Requester Access to Shadow Copied DataImporting Transportable Shadow Copied VolumesExposing and Surfacing Shadow Copied VolumesBreaking Shadow Copies
+ms.assetid: 3d20e8cf-7400-415f-b23f-ca64068b24ef
 title: Implementation Details for Using Shadow Copies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementation Details for Using Shadow Copies

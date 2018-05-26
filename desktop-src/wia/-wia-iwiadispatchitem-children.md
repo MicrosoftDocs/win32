@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Children property of the Item object retrieves a collection of Item objects. The items in this collection represent items that are direct children of this item in the hierarchical tree. Read-only.'
-ms.assetid: '94ad3385-9ce9-4a44-87bb-1d7170c8d45c'
-title: 'Item.Children property'
+---
+Description: The Children property of the Item object retrieves a collection of Item objects. The items in this collection represent items that are direct children of this item in the hierarchical tree. Read-only.
+ms.assetid: 94ad3385-9ce9-4a44-87bb-1d7170c8d45c
+title: Item.Children property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Item.Children property

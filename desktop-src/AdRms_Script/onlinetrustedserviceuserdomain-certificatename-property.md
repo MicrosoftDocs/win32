@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the common name of the Windows Live ID service.'
+Description: Retrieves the common name of the Windows Live ID service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'db0dd647-758d-431a-b1ea-7ecffe59376e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: db0dd647-758d-431a-b1ea-7ecffe59376e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'OnlineTrustedServiceUserDomain.CertificationName property'
+title: OnlineTrustedServiceUserDomain.CertificationName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnlineTrustedServiceUserDomain.CertificationName property
@@ -131,7 +134,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -143,9 +146,9 @@ END SUB
 [**OnlineTrustedServiceUserDomain**](onlinetrustedserviceuserdomain-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

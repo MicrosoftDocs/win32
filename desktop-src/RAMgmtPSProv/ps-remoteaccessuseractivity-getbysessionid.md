@@ -2,13 +2,16 @@
 title: GetBySessionId method of the PS\_RemoteAccessUserActivity class
 description: This cmdlet displays the following.
 audience: developer
-ms.assetid: 'eece8005-13fe-4935-aed1-c12a79f29ecb'
-ms.prod: 'windows-server-dev'
+ms.assetid: eece8005-13fe-4935-aed1-c12a79f29ecb
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetBySessionId method", "GetBySessionId method, PS_RemoteAccessUserActivity class", "PS_RemoteAccessUserActivity class, GetBySessionId method"]
+keywords:
+- GetBySessionId method
+- GetBySessionId method, PS_RemoteAccessUserActivity class
+- PS_RemoteAccessUserActivity class, GetBySessionId method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetBySessionId method of the PS\_RemoteAccessUserActivity class
@@ -32,9 +38,9 @@ This cmdlet displays the following
 
 ```mof
 uint32 GetBySessionId(
-  [in]  string                   ComputerName,
-  [in]  uint64                   SessionId,
-  [out] RemoteAccessUserActivity cmdletOutput[]
+  [in]  string                   ComputerName,
+  [in]  uint64                   SessionId,
+  [out] RemoteAccessUserActivity cmdletOutput[]
 );
 ```
 
@@ -78,7 +84,7 @@ In both real-time and accounting cases the object consists of the following prop
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -92,9 +98,9 @@ In both real-time and accounting cases the object consists of the following prop
 [**PS\_RemoteAccessUserActivity**](ps-remoteaccessuseractivity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

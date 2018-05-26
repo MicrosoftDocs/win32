@@ -1,7 +1,12 @@
 ---
-Description: 'The GetConnected method retrieves the pin connected to this pin.'
-ms.assetid: '7b47aa8e-55a9-45f8-aa32-902fee037c72'
-title: 'CBasePin.GetConnected method'
+Description: The GetConnected method retrieves the pin connected to this pin.
+ms.assetid: 7b47aa8e-55a9-45f8-aa32-902fee037c72
+title: CBasePin.GetConnected method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.GetConnected method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns a pointer to the other pin's [**IPin**](ipin.md) interface.
+Returns a pointer to the other pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 ## Remarks
 
@@ -65,9 +70,9 @@ This coding pattern is very convenient; but as the example shows, you must be ca
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

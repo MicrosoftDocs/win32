@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sets the title and subtitle that appear in the wizard header. In general, the client will display the header above the HTML and below the title bar.'
-title: 'WebWizardHost.SetHeaderText method'
+---
+Description: Sets the title and subtitle that appear in the wizard header. In general, the client will display the header above the HTML and below the title bar.
+title: WebWizardHost.SetHeaderText method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WebWizardHost.SetHeaderText method

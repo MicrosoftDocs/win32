@@ -1,8 +1,10 @@
 ---
 title: ID3DX11ThreadPump interface
 description: A thread pump executes tasks asynchronously.
-ms.assetid: '1a99f728-149d-4800-a6e4-e3a00cf8cf4f'
-keywords: ["ID3DX11ThreadPump interface Direct3D 11", "ID3DX11ThreadPump interface Direct3D 11 , described"]
+ms.assetid: 1a99f728-149d-4800-a6e4-e3a00cf8cf4f
+keywords:
+- ID3DX11ThreadPump interface Direct3D 11
+- ID3DX11ThreadPump interface Direct3D 11 , described
 topic_type:
 - apiref
 api_name:
@@ -12,14 +14,19 @@ api_location:
 - D3DX11.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11ThreadPump interface
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 A thread pump executes tasks asynchronously. It is created by calling [**D3DX11CreateThreadPump**](d3dx11createthreadpump.md). There are several APIs that take an optional thread pump as a parameter, such as [**D3DX11CreateTextureFromFile**](d3dx11createtexturefromfile.md) and [**D3DX11CompileFromFile**](d3dx11compilefromfile.md); if you pass a thread pump interface into these APIs, the functions will execute asynchronously on a separate thread. Particularly on multiprocessor machines, a thread pump can load resources and process data without a noticeable decrease in performance.
 
@@ -51,7 +58,7 @@ The **ID3DX11ThreadPump** interface has these methods.
 <td style="text-align: left;">[<strong>AddWorkItem</strong>](id3dx11threadpump-addworkitem.md)</td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/> Adds a work item to the thread pump.<br/></td>
 </tr>
@@ -59,7 +66,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td style="text-align: left;">[<strong>GetQueueStatus</strong>](id3dx11threadpump-getqueuestatus.md)</td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/> Gets the number of items in each of the three queues inside the thread pump.<br/></td>
 </tr>
@@ -67,7 +74,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td style="text-align: left;">[<strong>GetWorkItemCount</strong>](id3dx11threadpump-getworkitemcount.md)</td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/> Gets the number of work items in the thread pump.<br/></td>
 </tr>
@@ -75,7 +82,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td style="text-align: left;">[<strong>ProcessDeviceWorkItems</strong>](id3dx11threadpump-processdeviceworkitems.md)</td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/> Sets work items to the device after they have finished loading and processing.<br/></td>
 </tr>
@@ -83,7 +90,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td style="text-align: left;">[<strong>PurgeAllItems</strong>](id3dx11threadpump-purgeallitems.md)</td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/> Clears all work items from the thread pump.<br/></td>
 </tr>
@@ -91,7 +98,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td style="text-align: left;">[<strong>WaitForAllItems</strong>](id3dx11threadpump-waitforallitems.md)</td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/> Waits for all work items in the thread pump to finish.<br/></td>
 </tr>
@@ -100,7 +107,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -122,8 +129,8 @@ The thread pump object takes up a substantial amount of resources, so generally 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>D3DX11core.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>D3DX11.lib</dt> </dl>   |
 
@@ -136,9 +143,9 @@ The thread pump object takes up a substantial amount of resources, so generally 
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

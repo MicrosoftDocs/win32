@@ -1,8 +1,11 @@
 ---
 title: IdleSettings.RestartOnIdle property
 description: For scripting, gets or sets a Boolean value that indicates whether the task is restarted when the computer cycles into an idle condition more than once.
-ms.assetid: 'c77b6f5f-659c-4aa0-a5f7-39c01e5ca65e'
-keywords: ["RestartOnIdle property Task Scheduler", "RestartOnIdle property Task Scheduler , IdleSettings object", "IdleSettings object Task Scheduler , RestartOnIdle property"]
+ms.assetid: c77b6f5f-659c-4aa0-a5f7-39c01e5ca65e
+keywords:
+- RestartOnIdle property Task Scheduler
+- RestartOnIdle property Task Scheduler , IdleSettings object
+- IdleSettings object Task Scheduler , RestartOnIdle property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IdleSettings.RestartOnIdle property
@@ -42,8 +50,8 @@ When reading or writing XML for a task, this setting is specified in the [**Rest
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -59,9 +67,9 @@ When reading or writing XML for a task, this setting is specified in the [**Rest
 [**IdleSettings**](idlesettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

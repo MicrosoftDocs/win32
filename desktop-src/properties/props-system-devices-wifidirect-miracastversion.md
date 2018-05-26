@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates version of Miracast protocol if Wi-Fi Direct Device is Miracast capable.'
-ms.assetid: 'c888120e-a8c8-4e64-8c38-ce6b74dd1718'
-title: 'System.Devices.WiFiDirect.MiracastVersion'
+Description: Indicates version of Miracast protocol if Wi-Fi Direct Device is Miracast capable.
+ms.assetid: c888120e-a8c8-4e64-8c38-ce6b74dd1718
+title: System.Devices.WiFiDirect.MiracastVersion
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.WiFiDirect.MiracastVersion

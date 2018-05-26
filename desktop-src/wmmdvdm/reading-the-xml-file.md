@@ -1,8 +1,20 @@
 ---
 title: Reading the XML File
 description: Reading the XML File
-ms.assetid: '9fda4484-f09d-4ab4-984a-365fb3fffbea'
-keywords: ["Windows Movie Maker,reading XML files", "Movie Maker,reading XML files", "Windows DVD Maker,reading XML files", "DVD Maker,reading XML files", "programming guide,reading XML files", "XML,reading XML files", "reading XML files"]
+ms.assetid: 9fda4484-f09d-4ab4-984a-365fb3fffbea
+keywords:
+- Windows Movie Maker,reading XML files
+- Movie Maker,reading XML files
+- Windows DVD Maker,reading XML files
+- DVD Maker,reading XML files
+- programming guide,reading XML files
+- XML,reading XML files
+- reading XML files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading the XML File
@@ -157,7 +169,7 @@ For more information, see [Windows Movie Maker XML Extensibility](windows-movie-
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -166,9 +178,9 @@ For more information, see [Windows Movie Maker XML Extensibility](windows-movie-
 [**Creating Custom Transforms Using XML**](creating-custom-transforms-using-xml.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

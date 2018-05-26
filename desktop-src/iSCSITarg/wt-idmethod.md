@@ -4,13 +4,15 @@ description: Contains information used by the iSCSI target entry to identify the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8980ccf6-3360-44fd-84d9-b9fc807a3b97'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8980ccf6-3360-44fd-84d9-b9fc807a3b97
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WT_IDMethod class iSCSI Software Target API", "WT_IDMethod class iSCSI Software Target API , described"]
+keywords:
+- WT_IDMethod class iSCSI Software Target API
+- WT_IDMethod class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WT\_IDMethod class
@@ -108,16 +113,16 @@ The value of the identification method. For example, if the Method is DNSName, *
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

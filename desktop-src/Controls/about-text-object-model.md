@@ -1,7 +1,12 @@
 ---
 title: About Text Object Model
 description: This topic provides a high-level overview of the TOM.
-ms.assetid: 'e304ec18-ec2e-4ea7-91c6-6f6ab63b72ae'
+ms.assetid: e304ec18-ec2e-4ea7-91c6-6f6ab63b72ae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Text Object Model
@@ -24,13 +29,13 @@ The Text Object Model (TOM) defines a set of text manipulation interfaces that a
 
 TOM version 2 (TOM 2) extends the original text object model; the new interfaces are derived from the old ones. The updated TOM API includes support for new character and paragraph format properties, a table model, multiple selection, and inline object support for math and ruby.
 
-The top-level TOM 2 object is defined by the [**ITextDocument2**](itextdocument2.md) interface, which has methods for creating and retrieving objects lower in the object hierarchy. For simple plain-text processing, you can obtain an [**ITextRange2**](itextrange2.md) object from an **ITextDocument2** object and do most everything with that. If you need to add rich-text formatting, you can obtain [**ITextFont2**](itextfont2.md) and [**ITextPara2**](itextpara2.md) objects from an **ITextRange2** object. **ITextFont2** provides the programming equivalent of the Microsoft Word format-font dialog, and **ITextPara2** provides the equivalent of the Word format-paragraph dialog.
+The top-level TOM 2 object is defined by the [**ITextDocument2**](/windows/win32/Tom/nn-tom-itextdocument2?branch=master) interface, which has methods for creating and retrieving objects lower in the object hierarchy. For simple plain-text processing, you can obtain an [**ITextRange2**](/windows/win32/Tom/nn-tom-itextrange2?branch=master) object from an **ITextDocument2** object and do most everything with that. If you need to add rich-text formatting, you can obtain [**ITextFont2**](/windows/win32/Tom/nn-tom-itextfont2?branch=master) and [**ITextPara2**](/windows/win32/Tom/nn-tom-itextpara2?branch=master) objects from an **ITextRange2** object. **ITextFont2** provides the programming equivalent of the Microsoft Word format-font dialog, and **ITextPara2** provides the equivalent of the Word format-paragraph dialog.
 
-In addition to these three lower-level objects, TOM 2 has a selection object ([**ITextSelection2**](itextselection2.md)), which is an [**ITextRange2**](itextrange2.md) object with selection highlighting and some UI-oriented methods.
+In addition to these three lower-level objects, TOM 2 has a selection object ([**ITextSelection2**](/windows/win32/Tom/?branch=master)), which is an [**ITextRange2**](/windows/win32/Tom/nn-tom-itextrange2?branch=master) object with selection highlighting and some UI-oriented methods.
 
 The range and selection objects include screen-oriented methods that enable programs to examine text on screen or text that could be scrolled onto the screen. These capabilities help make text accessible to people with impaired vision, for example.
 
-Each interface that has the 2 suffix inherits from the corresponding interface without the 2 suffix. For example, [**ITextDocument2**](itextdocument2.md) inherits from [**ITextDocument**](itextdocument.md).
+Each interface that has the 2 suffix inherits from the corresponding interface without the 2 suffix. For example, [**ITextDocument2**](/windows/win32/Tom/nn-tom-itextdocument2?branch=master) inherits from [**ITextDocument**](/windows/win32/Tom/nn-tom-itextdocument?branch=master).
 
 The TOM 2 objects have the following hierarchy.
 
@@ -47,15 +52,15 @@ ITextDocument2         Top-level editing object
     ITextStoryRanges2  Enumerator for stories in document
 ```
 
-An [**ITextDocument2**](itextdocument2.md) object describes one or more contiguous ranges of text called *stories*. Stories represent various parts of a document, such as the main text of the document, headers and footers, footnotes, annotations, and rich-text scratch pads. A scratch pad story is used when translating between linearly formatted math expressions and a built-up form. A scratch pad story is also used when saving the contents of a range that is the current copy source when the contents are about to be changed.
+An [**ITextDocument2**](/windows/win32/Tom/nn-tom-itextdocument2?branch=master) object describes one or more contiguous ranges of text called *stories*. Stories represent various parts of a document, such as the main text of the document, headers and footers, footnotes, annotations, and rich-text scratch pads. A scratch pad story is used when translating between linearly formatted math expressions and a built-up form. A scratch pad story is also used when saving the contents of a range that is the current copy source when the contents are about to be changed.
 
-An [**ITextRange2**](itextrange2.md) object is defined by its start and end character-position offsets and a story object. It does not exist independently of its parent story object, although its text can be copied to the clipboard or to other targets. A text range object is different from spreadsheet and other range objects, which are defined by other kinds of offsets; for example, row/column or graphics position (x, y). A text range object can modify itself in various ways, can return a duplicate of itself, and it can be commanded to copy its start and end character positions and its story pointer to the current selection.
+An [**ITextRange2**](/windows/win32/Tom/nn-tom-itextrange2?branch=master) object is defined by its start and end character-position offsets and a story object. It does not exist independently of its parent story object, although its text can be copied to the clipboard or to other targets. A text range object is different from spreadsheet and other range objects, which are defined by other kinds of offsets; for example, row/column or graphics position (x, y). A text range object can modify itself in various ways, can return a duplicate of itself, and it can be commanded to copy its start and end character positions and its story pointer to the current selection.
 
-An explicit story object is not needed, since an [**ITextRange**](itextrange.md) object can always be created to represent any given story. In particular, the [**ITextDocument**](itextdocument.md) object can create an [**ITextStoryRanges**](itextstoryranges.md) object to enumerate the stories in the document in terms of ranges with start and end character position values that describe complete stories (such as, 0 and **tomForward**).
+An explicit story object is not needed, since an [**ITextRange**](/windows/win32/Tom/nn-tom-itextrange?branch=master) object can always be created to represent any given story. In particular, the [**ITextDocument**](/windows/win32/Tom/nn-tom-itextdocument?branch=master) object can create an [**ITextStoryRanges**](/windows/win32/Tom/nn-tom-itextstoryranges?branch=master) object to enumerate the stories in the document in terms of ranges with start and end character position values that describe complete stories (such as, 0 and **tomForward**).
 
-With an [**ITextStoryRanges2**](itextstoryranges2.md) object, an explicit story object is not needed, since the each story is described by an [**ITextRange2**](itextrange2.md) object. In particular, the [**ITextDocument2**](https://msdn.microsoft.com/library/windows/desktop/hh768436) object can create an [**ITextStoryRanges2**](https://msdn.microsoft.com/library/windows/desktop/hh768722) object to enumerate the stories in the document in terms of ranges with start and end character position values that describe complete stories (such as, 0 and **tomForward**).
+With an [**ITextStoryRanges2**](/windows/win32/Tom/nn-tom-itextstoryranges2?branch=master) object, an explicit story object is not needed, since the each story is described by an [**ITextRange2**](/windows/win32/Tom/nn-tom-itextrange2?branch=master) object. In particular, the [**ITextDocument2**](https://msdn.microsoft.com/library/windows/desktop/hh768436) object can create an [**ITextStoryRanges2**](https://msdn.microsoft.com/library/windows/desktop/hh768722) object to enumerate the stories in the document in terms of ranges with start and end character position values that describe complete stories (such as, 0 and **tomForward**).
 
-The [**ITextRow**](itextrow.md) interface together with the [**ITextRange::Move**](itextrange-move.md) and [**ITextRange::Expand**](itextrange-expand.md) methods give the capability to insert, query, and change tables.
+The [**ITextRow**](/windows/win32/Tom/nn-tom-itextrow?branch=master) interface together with the [**ITextRange::Move**](/windows/win32/Tom/nf-tom-itextrange-move?branch=master) and [**ITextRange::Expand**](/windows/win32/Tom/nf-tom-itextrange-expand?branch=master) methods give the capability to insert, query, and change tables.
 
 ## TOM Interface Conventions
 
@@ -71,13 +76,13 @@ All TOM methods return **HRESULT** values. In general, the TOM methods return th
 -   NOERROR (same as S\_OK)
 -   S\_FALSE
 
-Be aware that if the editing instance associated with a TOM object such as [**ITextRange**](itextrange.md) is deleted, the TOM object becomes useless, and all its methods return CO\_E\_RELEASED.
+Be aware that if the editing instance associated with a TOM object such as [**ITextRange**](/windows/win32/Tom/nn-tom-itextrange?branch=master) is deleted, the TOM object becomes useless, and all its methods return CO\_E\_RELEASED.
 
 In addition to the **HRESULT** return values, many methods include out parameters, which are pointers used to return values. For all interfaces, you should check all pointer parameters to ensure that they are nonzero before using them. If you pass a null value to a method that requires a valid pointer, the method returns E\_INVALIDARG. Optional out pointers with null values are ignored.
 
 Use methods with Get and Set prefixes to get and set properties. Boolean variables use **tomFalse** (0) for **FALSE**, and **tomTrue** (-1) for **TRUE**.
 
-TOM constants are defined in the [**tomConstants**](tomconstants.md) enumeration type and begin with the prefix *tom*, for example **tomWord**.
+TOM constants are defined in the [**tomConstants**](/windows/win32/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001?branch=master) enumeration type and begin with the prefix *tom*, for example **tomWord**.
 
 ## The tomBool Type
 
@@ -85,7 +90,7 @@ Many TOM methods use a special type of variable called "tomBool" for rich-text a
 
 ## Math BuildUp and Build Down
 
-You can use the [**ITextRange2::BuildUpMath**](itextrange2-buildupmath.md) method to convert linearly formatted math expressions into built-up versions. The [**ITextRange2::Linearize**](itextrange2-linearize.md) method does the opposite conversion, called linearization or build down, to convert built-up versions of math expressions back to linear format. The math build down capability is useful when you need to export plain text or to enable certain types of editing.
+You can use the [**ITextRange2::BuildUpMath**](/windows/win32/Tom/nf-tom-itextrange2-buildupmath?branch=master) method to convert linearly formatted math expressions into built-up versions. The [**ITextRange2::Linearize**](/windows/win32/Tom/nf-tom-itextrange2-linearize?branch=master) method does the opposite conversion, called linearization or build down, to convert built-up versions of math expressions back to linear format. The math build down capability is useful when you need to export plain text or to enable certain types of editing.
 
 ## TOM RTF
 
@@ -172,7 +177,7 @@ You can use TOM methods to find rich text as defined by a range of text. Finding
 
 One purpose for this functionality is to use a rich-text **Find** dialog box to define the rich text you want to locate in a document. The dialog box would be implemented using a rich edit control and TOM methods would be used to carry out the search through the document. You could either copy the desired rich text from the document into the **Find** dialog box, or enter and format it directly in the **Find** dialog box.
 
-The following example shows how to use TOM methods to find text containing combinations of exact character formatting. The algorithm searches for the plain text in the match range, which is named `pr1`. If the plain text is found, it is pointed to by a trial range, which is named `pr2`. Then, two insertion-point ranges (`prip1` and `prip2`) are used to walk through the trial range comparing its character formatting to that of `pr1`. If they match exactly, the input range (given by `ppr`) is updated to point at the trial range's text and the function returns the count of characters in the matched range. Two [**ITextFont**](itextfont.md) objects, `pf1` and `pf2`, are used in the character-formatting comparison. They are attached to the insertion-point ranges `prip1` and `prip2`.
+The following example shows how to use TOM methods to find text containing combinations of exact character formatting. The algorithm searches for the plain text in the match range, which is named `pr1`. If the plain text is found, it is pointed to by a trial range, which is named `pr2`. Then, two insertion-point ranges (`prip1` and `prip2`) are used to walk through the trial range comparing its character formatting to that of `pr1`. If they match exactly, the input range (given by `ppr`) is updated to point at the trial range's text and the function returns the count of characters in the matched range. Two [**ITextFont**](/windows/win32/Tom/nn-tom-itextfont?branch=master) objects, `pf1` and `pf2`, are used in the character-formatting comparison. They are attached to the insertion-point ranges `prip1` and `prip2`.
 
 
 ```
@@ -260,14 +265,14 @@ LONG FindRichText (
 
 ## TOM Accessibility
 
-TOM provides accessibility support through the [**ITextSelection**](itextselection.md) and [**ITextRange**](itextrange.md) interfaces. This section describes methods that are useful for accessibility as well as how a program can determine the *x*, *y* screen position of an object.
+TOM provides accessibility support through the [**ITextSelection**](/windows/win32/Tom/nn-tom-itextselection?branch=master) and [**ITextRange**](/windows/win32/Tom/nn-tom-itextrange?branch=master) interfaces. This section describes methods that are useful for accessibility as well as how a program can determine the *x*, *y* screen position of an object.
 
-Since UI-based accessibility programs typically work with the screen and the mouse, a common concern is to find the corresponding [**ITextDocument**](itextdocument.md) interface for the current mouse location (in screen coordinates). The following sections present two ways to determine the proper interface:
+Since UI-based accessibility programs typically work with the screen and the mouse, a common concern is to find the corresponding [**ITextDocument**](/windows/win32/Tom/nn-tom-itextdocument?branch=master) interface for the current mouse location (in screen coordinates). The following sections present two ways to determine the proper interface:
 
 -   [Through the running-object table](#interface-from-running-object-table)
 -   Through the [**EM\_GETOLEINTERFACE**](em-getoleinterface.md) message, which works for windowed rich edit instances, provided the client is in the same process space (no *marshaling* is needed)
 
-For more information, see the Microsoft Active Accessibility specification. After you obtain an object from a screen position, you can use for an [**ITextDocument**](itextdocument.md) interface and call the [**RangeFromPoint**](itextdocument-rangefrompoint.md) method to get an empty range object at the cp corresponding to the screen position.
+For more information, see the Microsoft Active Accessibility specification. After you obtain an object from a screen position, you can use for an [**ITextDocument**](/windows/win32/Tom/nn-tom-itextdocument?branch=master) interface and call the [**RangeFromPoint**](/windows/win32/Tom/nf-tom-itextdocument-rangefrompoint?branch=master) method to get an empty range object at the cp corresponding to the screen position.
 
 ### Interface from Running Object Table
 
@@ -325,9 +330,9 @@ if( pDoc )
 
 ### Interface from Window Messages
 
-The [**EM\_GETOLEINTERFACE**](em-getoleinterface.md) message provides another way to obtain an [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface for an object at a given screen position. As described in [Interface from Running Object Table](#interface-from-running-object-table), you get an [**HWND**](https://msdn.microsoft.com/library/windows/desktop/aa383751#hwnd) for the screen position and then send this message to that **HWND**. The **EM\_GETOLEINTERFACE** message is rich edit-specific and returns a pointer to an [**IRichEditOle**](iricheditole.md) interface in the variable addressed by *lParam*.
+The [**EM\_GETOLEINTERFACE**](em-getoleinterface.md) message provides another way to obtain an [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface for an object at a given screen position. As described in [Interface from Running Object Table](#interface-from-running-object-table), you get an [**HWND**](https://msdn.microsoft.com/library/windows/desktop/aa383751#hwnd) for the screen position and then send this message to that **HWND**. The **EM\_GETOLEINTERFACE** message is rich edit-specific and returns a pointer to an [**IRichEditOle**](/windows/win32/Richole/nn-richole-iricheditole?branch=master) interface in the variable addressed by *lParam*.
 
-**Tip** If a pointer is returned (be sure to set the object to which *lParam* points to null before sending the message), you can call its [**IUnknown::QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) method to obtain an [**ITextDocument**](itextdocument.md) interface. The following code sample illustrates this approach.
+**Tip** If a pointer is returned (be sure to set the object to which *lParam* points to null before sending the message), you can call its [**IUnknown::QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) method to obtain an [**ITextDocument**](/windows/win32/Tom/nn-tom-itextdocument?branch=master) interface. The following code sample illustrates this approach.
 
 
 ```
@@ -358,13 +363,13 @@ Some TOM methods are particularly useful for navigating around the screen, while
 
 | Method                                                 | How it promotes accessibility                                                                                                                                                                 |
 |--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetSelection**](itextdocument-getselection.md)     | This method gets the active selection that can be used for a variety of view-oriented purposes, such as highlighting text and scrolling.                                                      |
-| [**RangeFromPoint**](itextdocument-rangefrompoint.md) | When used on an active selection, this method is guaranteed to get a range associated with a particular view.                                                                                 |
-| [**Expand**](itextrange-expand.md)                    | Enlarges a text range so that any partial units it contains are completely contained. For example, `Expand(tomWindow)` expands the range to include the visible portion of the range's story. |
-| [**GetDuplicate**](itextrange-getduplicate.md)        | When used on an active selection, this method is guaranteed to get a range associated with a particular view. See the description of [**RangeFromPoint**](itextdocument-rangefrompoint.md).  |
-| [**GetPoint**](itextrange-getpoint.md)                | Gets the screen coordinates for the start or end character position in the text range.                                                                                                        |
-| [**ScrollIntoView**](itextrange-scrollintoview.md)    | Scrolls a text range into view.                                                                                                                                                               |
-| [**SetPoint**](itextrange-setpoint.md)                | Selects text at or up through a specified point.                                                                                                                                              |
+| [**GetSelection**](/windows/win32/Tom/nf-tom-itextdocument-getselection?branch=master)     | This method gets the active selection that can be used for a variety of view-oriented purposes, such as highlighting text and scrolling.                                                      |
+| [**RangeFromPoint**](/windows/win32/Tom/nf-tom-itextdocument-rangefrompoint?branch=master) | When used on an active selection, this method is guaranteed to get a range associated with a particular view.                                                                                 |
+| [**Expand**](/windows/win32/Tom/nf-tom-itextrange-expand?branch=master)                    | Enlarges a text range so that any partial units it contains are completely contained. For example, `Expand(tomWindow)` expands the range to include the visible portion of the range's story. |
+| [**GetDuplicate**](/windows/win32/Tom/nf-tom-itextrange-getduplicate?branch=master)        | When used on an active selection, this method is guaranteed to get a range associated with a particular view. See the description of [**RangeFromPoint**](/windows/win32/Tom/nf-tom-itextdocument-rangefrompoint?branch=master).  |
+| [**GetPoint**](/windows/win32/Tom/nf-tom-itextrange-getpoint?branch=master)                | Gets the screen coordinates for the start or end character position in the text range.                                                                                                        |
+| [**ScrollIntoView**](/windows/win32/Tom/nf-tom-itextrange-scrollintoview?branch=master)    | Scrolls a text range into view.                                                                                                                                                               |
+| [**SetPoint**](/windows/win32/Tom/nf-tom-itextrange-setpoint?branch=master)                | Selects text at or up through a specified point.                                                                                                                                              |
 
 
 
@@ -372,7 +377,7 @@ Some TOM methods are particularly useful for navigating around the screen, while
 
 ## Character Match Sets
 
-The *variant* parameter of the various **Move**\* methods in [**ITextRange**](itextrange.md), such as [**MoveWhile**](itextrange-movewhile.md) and [**MoveUntil**](itextrange-moveuntil.md), can take an explicit string or a character-match set 32-bit index. The indexes are defined by either Unicode ranges or [**GetStringTypeEx**](https://msdn.microsoft.com/library/windows/desktop/dd318118) character sets. The Unicode range starting at *n* and of length *l* (&lt; 32768) is given by the index *n* + (*l &lt;*&lt; 16) + 0x80000000. For example, basic Greek letters are defined by CR\_Greek = 0x805f0370 and printable ASCII characters are defined by CR\_ASCIIPrint = 0x805e0020. In addition, the **MoveWhile** and **MoveUntil** methods let you rapidly bypass a span of characters in any **GetStringTypeEx** character set, or in a span of characters that is not in any one of these character sets.
+The *variant* parameter of the various **Move**\* methods in [**ITextRange**](/windows/win32/Tom/nn-tom-itextrange?branch=master), such as [**MoveWhile**](/windows/win32/Tom/nf-tom-itextrange-movewhile?branch=master) and [**MoveUntil**](/windows/win32/Tom/nf-tom-itextrange-moveuntil?branch=master), can take an explicit string or a character-match set 32-bit index. The indexes are defined by either Unicode ranges or [**GetStringTypeEx**](https://msdn.microsoft.com/library/windows/desktop/dd318118) character sets. The Unicode range starting at *n* and of length *l* (&lt; 32768) is given by the index *n* + (*l &lt;*&lt; 16) + 0x80000000. For example, basic Greek letters are defined by CR\_Greek = 0x805f0370 and printable ASCII characters are defined by CR\_ASCIIPrint = 0x805e0020. In addition, the **MoveWhile** and **MoveUntil** methods let you rapidly bypass a span of characters in any **GetStringTypeEx** character set, or in a span of characters that is not in any one of these character sets.
 
 The [**GetStringTypeEx**](https://msdn.microsoft.com/library/windows/desktop/dd318118) sets are specified by the values for *Ctype1*, *Ctype2*, and *Ctype3*, and are defined as follows.
 

@@ -1,8 +1,11 @@
 ---
 title: IDWriteFactory2 CreateGlyphRunAnalysis method
 description: Creates a glyph run analysis object, which encapsulates information used to render a glyph run.
-ms.assetid: '13cecfbf-8bb6-88a2-c8b2-3243f6cb92fd'
-keywords: ["CreateGlyphRunAnalysis method Direct Write", "CreateGlyphRunAnalysis method Direct Write , IDWriteFactory2 interface", "IDWriteFactory2 interface Direct Write , CreateGlyphRunAnalysis method"]
+ms.assetid: 13cecfbf-8bb6-88a2-c8b2-3243f6cb92fd
+keywords:
+- CreateGlyphRunAnalysis method Direct Write
+- CreateGlyphRunAnalysis method Direct Write , IDWriteFactory2 interface
+- IDWriteFactory2 interface Direct Write , CreateGlyphRunAnalysis method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteFactory2::CreateGlyphRunAnalysis method
@@ -22,15 +30,15 @@ Creates a glyph run analysis object, which encapsulates information used to rend
 
 ```C++
 virtual HRESULT CreateGlyphRunAnalysis(
-  [in]           const DWRITE_GLYPH_RUN           *glyphRun,
-  [in, optional] const DWRITE_MATRIX              *transform,
-                       DWRITE_RENDERING_MODE      renderingMode,
-                       DWRITE_MEASURING_MODE      measuringMode,
-                       DWRITE_GRID_FIT_MODE       gridFitMode,
-                       DWRITE_TEXT_ANTIALIAS_MODE antialiasMode,
-                       FLOAT                      baselineOriginX,
-                       FLOAT                      baselineOriginY,
-  [out]                IDWriteGlyphRunAnalysis    **glyphRunAnalysis
+  [in]           const DWRITE_GLYPH_RUN           *glyphRun,
+  [in, optional] const DWRITE_MATRIX              *transform,
+                       DWRITE_RENDERING_MODE      renderingMode,
+                       DWRITE_MEASURING_MODE      measuringMode,
+                       DWRITE_GRID_FIT_MODE       gridFitMode,
+                       DWRITE_TEXT_ANTIALIAS_MODE antialiasMode,
+                       FLOAT                      baselineOriginX,
+                       FLOAT                      baselineOriginY,
+  [out]                IDWriteGlyphRunAnalysis    **glyphRunAnalysis
 ) = 0;
 ```
 
@@ -43,7 +51,7 @@ virtual HRESULT CreateGlyphRunAnalysis(
 *glyphRun* \[in\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_GLYPH\_RUN**](dwrite-glyph-run.md)\***
+Type: **const [**DWRITE\_GLYPH\_RUN**](/windows/win32/dwrite/ns-dwrite-dwrite_glyph_run?branch=master)\***
 
 Structure specifying the properties of the glyph run.
 
@@ -52,7 +60,7 @@ Structure specifying the properties of the glyph run.
 *transform* \[in, optional\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_MATRIX**](dwrite-matrix.md)\***
+Type: **const [**DWRITE\_MATRIX**](/windows/win32/dwrite/ns-dwrite-dwrite_matrix?branch=master)\***
 
 Optional transform applied to the glyphs and their positions. This transform is applied after the scaling specified by the emSize and pixelsPerDip.
 
@@ -70,7 +78,7 @@ Specifies the rendering mode, which must be one of the raster rendering modes (i
 *measuringMode* 
 </dt> <dd>
 
-Type: **[**DWRITE\_MEASURING\_MODE**](dwrite-text-measuring-method.md)**
+Type: **[**DWRITE\_MEASURING\_MODE**](/windows/win32/dcommon/ne-dcommon-dwrite_measuring_mode?branch=master)**
 
 Specifies the method to measure glyphs.
 
@@ -79,7 +87,7 @@ Specifies the method to measure glyphs.
 *gridFitMode* 
 </dt> <dd>
 
-Type: **[**DWRITE\_GRID\_FIT\_MODE**](dwrite-grid-fit-mode.md)**
+Type: **[**DWRITE\_GRID\_FIT\_MODE**](/windows/win32/dwrite_2/ne-dwrite_2-dwrite_grid_fit_mode?branch=master)**
 
 How to grid-fit glyph outlines. This must be non-default.
 
@@ -88,7 +96,7 @@ How to grid-fit glyph outlines. This must be non-default.
 *antialiasMode* 
 </dt> <dd>
 
-Type: **[**DWRITE\_TEXT\_ANTIALIAS\_MODE**](dwrite-text-antialias-mode.md)**
+Type: **[**DWRITE\_TEXT\_ANTIALIAS\_MODE**](/windows/win32/Dwrite_1/ne-dwrite_1-dwrite_text_antialias_mode?branch=master)**
 
 Specifies the antialias mode.
 
@@ -115,7 +123,7 @@ Vertical position of the baseline origin, in DIPs.
 *glyphRunAnalysis* \[out\]
 </dt> <dd>
 
-Type: **[**IDWriteGlyphRunAnalysis**](idwriteglyphrunanalysis.md)\*\***
+Type: **[**IDWriteGlyphRunAnalysis**](/windows/win32/dwrite/?branch=master)\*\***
 
 Receives a pointer to the newly created object.
 
@@ -133,9 +141,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
 | Library<br/>                  | <dl> <dt>Dwrite.lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |
 
@@ -148,9 +156,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IDWriteFactory2**](idwritefactory2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
-﻿---
-Description: 'This macro creates a value used by Issue to issue a query begin.'
-ms.assetid: '21b8a2b0-d18f-4412-b655-3a913b7312ee'
-title: 'D3DISSUE\_BEGIN'
+---
+Description: This macro creates a value used by Issue to issue a query begin.
+ms.assetid: 21b8a2b0-d18f-4412-b655-3a913b7312ee
+title: D3DISSUE\_BEGIN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DISSUE\_BEGIN
 
-This macro creates a value used by [**Issue**](idirect3dquery9--issue.md) to issue a query begin.
+This macro creates a value used by [**Issue**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-issue?branch=master) to issue a query begin.
 
 ``` syntax
 #define D3DISSUE_BEGIN (1 << 1)

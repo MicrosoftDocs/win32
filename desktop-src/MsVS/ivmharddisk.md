@@ -1,8 +1,10 @@
 ---
 title: IVMHardDisk interface
 description: The IVMHardDisk interface provides access to a hard disk image. It can be accessed through the IVMHardDiskConnection HardDisk property or the IVMVirtualServer GetHardDisk method.
-ms.assetid: 'c7636b79-40ce-4ee0-b5ed-0abe84a4f110'
-keywords: ["IVMHardDisk interface Virtual Server", "IVMHardDisk interface Virtual Server , described"]
+ms.assetid: c7636b79-40ce-4ee0-b5ed-0abe84a4f110
+keywords:
+- IVMHardDisk interface Virtual Server
+- IVMHardDisk interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk interface
@@ -39,7 +46,7 @@ The **IVMHardDisk** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -60,7 +67,7 @@ The **IVMHardDisk** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,8 +75,8 @@ The **IVMHardDisk** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -81,9 +88,9 @@ The **IVMHardDisk** interface has these properties.
 [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

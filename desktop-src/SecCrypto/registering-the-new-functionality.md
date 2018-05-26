@@ -1,14 +1,19 @@
 ---
-Description: 'Support for registering the new functionality in a system registry must be provided in the new DLL along with the new function.'
-ms.assetid: '7a6af325-4891-40db-8d33-c9782bd438e5'
+Description: Support for registering the new functionality in a system registry must be provided in the new DLL along with the new function.
+ms.assetid: 7a6af325-4891-40db-8d33-c9782bd438e5
 title: Registering the New Functionality
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering the New Functionality
 
 Support for registering the new functionality in a system registry must be provided in the new DLL along with the new function. [OID Support Functions](cryptography-functions.md#oid-support-functions) provide assistance with this registration. Regsvr32.exe registers new functions. This tool is included with Windows.
 
-The new DLL must provide [**DllRegisterServer**](_com_dllregisterserver) and [**DllUnregisterServer**](_com_dllunregisterserver) entry points for use by Regsvr32.exe. [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions, such as [**CryptRegisterOIDFunction**](cryptregisteroidfunction.md) or [**CryptUnregisterOIDFunction**](cryptunregisteroidfunction.md), can be used within these entry points, as shown in the following example.
+The new DLL must provide [**DllRegisterServer**](_com_dllregisterserver) and [**DllUnregisterServer**](_com_dllunregisterserver) entry points for use by Regsvr32.exe. [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions, such as [**CryptRegisterOIDFunction**](/windows/win32/Wincrypt/nf-wincrypt-cryptregisteroidfunction?branch=master) or [**CryptUnregisterOIDFunction**](/windows/win32/Wincrypt/nf-wincrypt-cryptunregisteroidfunction?branch=master), can be used within these entry points, as shown in the following example.
 
 
 ```C++
@@ -53,7 +58,7 @@ STDAPI DllUnregisterServer(void)
 
 This example must be compiled and linked into the new DLL. These two entry points, along with the function entry point, must be exported.
 
-To install the new functionality on a computer, run Regsvr32.exe from a command prompt, specifying the name and path of the new DLL. Regsvr32.exe accesses the [**CryptRegisterOIDFunction**](cryptregisteroidfunction.md) function through the [**DllRegisterServer**](mscs.dllregisterserver) function entry point and registers the new function and DLL.
+To install the new functionality on a computer, run Regsvr32.exe from a command prompt, specifying the name and path of the new DLL. Regsvr32.exe accesses the [**CryptRegisterOIDFunction**](/windows/win32/Wincrypt/nf-wincrypt-cryptregisteroidfunction?branch=master) function through the [**DllRegisterServer**](mscs.dllregisterserver) function entry point and registers the new function and DLL.
 
  
 

@@ -1,8 +1,10 @@
 ---
 title: MSFT\_NetEventSession\_Provider class
 description: This class encapsulates an association between a session and a provider.
-ms.assetid: '18364d7d-5753-4376-904a-e2a6ff777beb'
-keywords: ["MSFT_NetEventSession_Provider class", "MSFT_NetEventSession_Provider class, described"]
+ms.assetid: 18364d7d-5753-4376-904a-e2a6ff777beb
+keywords:
+- MSFT_NetEventSession_Provider class
+- MSFT_NetEventSession_Provider class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - NetEventPacketCapture.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetEventSession\_Provider class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Aggregation, UMLPackagePath("CIM::Core::CoreElements"), ClassVersion("1.0"), dynamic, provider("NetEventPacketCapture"), AMENDMENT]
 class MSFT_NetEventSession_Provider : CIM_Component
 {
-  MSFT_NetEventSession  REF GroupComponent;
+  MSFT_NetEventSession  REF GroupComponent;
   MSFT_NetEventProvider REF PartComponent;
 };
 ```
@@ -82,8 +89,8 @@ Identifies the provider
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                                       |
 | MOF<br/>                      | <dl> <dt>NetEventPacketCapture.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetEventPacketCapture.dll</dt> </dl> |
@@ -97,9 +104,9 @@ Identifies the provider
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

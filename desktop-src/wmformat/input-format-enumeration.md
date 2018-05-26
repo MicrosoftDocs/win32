@@ -1,8 +1,20 @@
 ---
 title: Input Format Enumeration
 description: Input Format Enumeration
-ms.assetid: '75264598-0226-435a-b71f-6997ff0fcaff'
-keywords: ["Windows Media Format SDK,input format enumerations", "Windows Media Format SDK,enumerating input formats", "Advanced Systems Format (ASF),input format enumerations", "ASF (Advanced Systems Format),input format enumerations", "Advanced Systems Format (ASF),enumerating input formats", "ASF (Advanced Systems Format),enumerating input formats", "input format enumerations"]
+ms.assetid: 75264598-0226-435a-b71f-6997ff0fcaff
+keywords:
+- Windows Media Format SDK,input format enumerations
+- Windows Media Format SDK,enumerating input formats
+- Advanced Systems Format (ASF),input format enumerations
+- ASF (Advanced Systems Format),input format enumerations
+- Advanced Systems Format (ASF),enumerating input formats
+- ASF (Advanced Systems Format),enumerating input formats
+- input format enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Format Enumeration

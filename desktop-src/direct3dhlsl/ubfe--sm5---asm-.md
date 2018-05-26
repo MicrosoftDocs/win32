@@ -1,7 +1,12 @@
 ---
 title: ubfe (sm5 - asm)
 description: Given a range of bits in a number, shift those bits to the LSB and set remaining bits to 0.
-ms.assetid: 'CC6BE378-2726-47A2-8E23-B8151521F72D'
+ms.assetid: CC6BE378-2726-47A2-8E23-B8151521F72D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ubfe (sm5 - asm)
@@ -15,7 +20,7 @@ Given a range of bits in a number, shift those bits to the LSB and set remaining
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Given a range of bits in a number, shift those bits to the LSB and set remaining
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,7 +67,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -81,7 +86,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -90,9 +95,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

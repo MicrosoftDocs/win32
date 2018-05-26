@@ -1,8 +1,11 @@
 ---
 title: System.Network.Wireless.connectionChanged event
 description: Event fired when the network connection changes.
-ms.assetid: 'c3fd7450-0ebf-4148-8dd6-dba3ca6243e9'
-keywords: ["connectionChanged event Windows Sidebar", "connectionChanged event Windows Sidebar , System.Network.Wireless object", "System.Network.Wireless object Windows Sidebar , connectionChanged event"]
+ms.assetid: c3fd7450-0ebf-4148-8dd6-dba3ca6243e9
+keywords:
+- connectionChanged event Windows Sidebar
+- connectionChanged event Windows Sidebar , System.Network.Wireless object
+- System.Network.Wireless object Windows Sidebar , connectionChanged event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Network.Wireless.connectionChanged event
@@ -73,18 +81,18 @@ function ConnectionChanged()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

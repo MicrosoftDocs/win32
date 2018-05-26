@@ -1,7 +1,12 @@
 ---
 Description: Topology Attributes
-ms.assetid: '50102096-a29f-4c00-a685-179ba5d71089'
+ms.assetid: 50102096-a29f-4c00-a685-179ba5d71089
 title: Topology Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Topology Attributes
@@ -24,7 +29,7 @@ The following attributes apply to topologies.
 | [**MF\_TOPOLOGY\_RESOLUTION\_STATUS**](mf-topology-resolution-status-attribute.md)                      | Specifies the status of an attempt to resolve a topology.                                                                                                                                                                          |
 | [MF\_TOPOLOGY\_START\_TIME\_ON\_PRESENTATION\_SWITCH](mf-topology-start-time-on-presentation-switch.md) | Specifies the start time for presentations that are queued after the first presentation.                                                                                                                                           |
 | [MF\_TOPOLOGY\_STATIC\_PLAYBACK\_OPTIMIZATIONS](mf-topology-static-playback-optimizations.md)           | Enables static optimizations in the video pipeline.                                                                                                                                                                                |
-| [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md)                                | Contains an [**IMFFieldOfUseMFTUnlock**](imffieldofusemftunlock.md) pointer, which is used to unlock an MFT with field-of-use restrictions. For more information, see [Field of Use Restrictions](field-of-use-restrictions.md). |
+| [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md)                                | Contains an [**IMFFieldOfUseMFTUnlock**](/windows/win32/mfidl/nn-mfidl-imffieldofusemftunlock?branch=master) pointer, which is used to unlock an MFT with field-of-use restrictions. For more information, see [Field of Use Restrictions](field-of-use-restrictions.md). |
 
 
 
@@ -34,7 +39,7 @@ The following attributes apply to topologies.
 
 <dl> <dt>
 
-[**IMFTopology**](imftopology.md)
+[**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master)
 </dt> <dt>
 
 [Media Foundation Attributes](media-foundation-attributes.md)

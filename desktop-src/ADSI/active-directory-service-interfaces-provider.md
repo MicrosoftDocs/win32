@@ -4,11 +4,16 @@ description: An ADSI provider contains the implementation of ADSI objects and de
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fb4b9807-7f76-4497-96be-77924bac8f30'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: fb4b9807-7f76-4497-96be-77924bac8f30
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["service providers ADSI , illustration of how service providers access a namespace", "namespace ADSI , illustration of how service providers access namespace"]
+keywords:
+- service providers ADSI , illustration of how service providers access a namespace
+- namespace ADSI , illustration of how service providers access namespace
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Active Directory Service Interfaces Provider

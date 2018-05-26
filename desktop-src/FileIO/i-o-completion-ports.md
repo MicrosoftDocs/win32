@@ -1,7 +1,12 @@
 ---
-Description: 'I/O completion ports provide an efficient threading model for processing multiple asynchronous I/O requests on a multiprocessor system.'
-ms.assetid: '213c48e8-bb21-43ed-9c00-2a5cf8ac25f0'
-title: 'I/O Completion Ports'
+Description: I/O completion ports provide an efficient threading model for processing multiple asynchronous I/O requests on a multiprocessor system.
+ms.assetid: 213c48e8-bb21-43ed-9c00-2a5cf8ac25f0
+title: I/O Completion Ports
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # I/O Completion Ports
@@ -18,11 +23,11 @@ The [**CreateIoCompletionPort**](createiocompletionport.md) function creates an 
 
  
 
-When a file handle is associated with a completion port, the status block passed in will not be updated until the packet is removed from the completion port. The only exception is if the original operation returns synchronously with an error. A thread (either one created by the main thread or the main thread itself) uses the [**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md) function to wait for a completion packet to be queued to the I/O completion port, rather than waiting directly for the asynchronous I/O to complete. Threads that block their execution on an I/O completion port are released in last-in-first-out (LIFO) order, and the next completion packet is pulled from the I/O completion port's FIFO queue for that thread. This means that, when a completion packet is released to a thread, the system releases the last (most recent) thread associated with that port, passing it the completion information for the oldest I/O completion.
+When a file handle is associated with a completion port, the status block passed in will not be updated until the packet is removed from the completion port. The only exception is if the original operation returns synchronously with an error. A thread (either one created by the main thread or the main thread itself) uses the [**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master) function to wait for a completion packet to be queued to the I/O completion port, rather than waiting directly for the asynchronous I/O to complete. Threads that block their execution on an I/O completion port are released in last-in-first-out (LIFO) order, and the next completion packet is pulled from the I/O completion port's FIFO queue for that thread. This means that, when a completion packet is released to a thread, the system releases the last (most recent) thread associated with that port, passing it the completion information for the oldest I/O completion.
 
-Although any number of threads can call [**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md) for a specified I/O completion port, when a specified thread calls **GetQueuedCompletionStatus** the first time, it becomes associated with the specified I/O completion port until one of three things occurs: The thread exits, specifies a different I/O completion port, or closes the I/O completion port. In other words, a single thread can be associated with, at most, one I/O completion port.
+Although any number of threads can call [**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master) for a specified I/O completion port, when a specified thread calls **GetQueuedCompletionStatus** the first time, it becomes associated with the specified I/O completion port until one of three things occurs: The thread exits, specifies a different I/O completion port, or closes the I/O completion port. In other words, a single thread can be associated with, at most, one I/O completion port.
 
-When a completion packet is queued to an I/O completion port, the system first checks how many threads associated with that port are running. If the number of threads running is less than the concurrency value (discussed in the next section), one of the waiting threads (the most recent one) is allowed to process the completion packet. When a running thread completes its processing, it typically calls [**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md) again, at which point it either returns with the next completion packet or waits if the queue is empty.
+When a completion packet is queued to an I/O completion port, the system first checks how many threads associated with that port are running. If the number of threads running is less than the concurrency value (discussed in the next section), one of the waiting threads (the most recent one) is allowed to process the completion packet. When a running thread completes its processing, it typically calls [**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master) again, at which point it either returns with the next completion packet or waits if the queue is empty.
 
 Threads can use the [**PostQueuedCompletionStatus**](postqueuedcompletionstatus.md) function to place completion packets in an I/O completion port's queue. By doing so, the completion port can be used to receive communications from other threads of the process, in addition to receiving I/O completion packets from the I/O system. The **PostQueuedCompletionStatus** function allows an application to queue its own special-purpose completion packets to the I/O completion port without starting an asynchronous I/O operation. This is useful for notifying worker threads of external events, for example.
 
@@ -38,7 +43,7 @@ The I/O completion port handle and every file handle associated with that partic
 
 The most important property of an I/O completion port to consider carefully is the concurrency value. The concurrency value of a completion port is specified when it is created with [**CreateIoCompletionPort**](createiocompletionport.md) via the *NumberOfConcurrentThreads* parameter. This value limits the number of runnable threads associated with the completion port. When the total number of runnable threads associated with the completion port reaches the concurrency value, the system blocks the execution of any subsequent threads associated with that completion port until the number of runnable threads drops below the concurrency value.
 
-The most efficient scenario occurs when there are completion packets waiting in the queue, but no waits can be satisfied because the port has reached its concurrency limit. Consider what happens with a concurrency value of one and multiple threads waiting in the [**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md) function call. In this case, if the queue always has completion packets waiting, when the running thread calls **GetQueuedCompletionStatus**, it will not block execution because, as mentioned earlier, the thread queue is LIFO. Instead, this thread will immediately pick up the next queued completion packet. No thread context switches will occur, because the running thread is continually picking up completion packets and the other threads are unable to run.
+The most efficient scenario occurs when there are completion packets waiting in the queue, but no waits can be satisfied because the port has reached its concurrency limit. Consider what happens with a concurrency value of one and multiple threads waiting in the [**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master) function call. In this case, if the queue always has completion packets waiting, when the running thread calls **GetQueuedCompletionStatus**, it will not block execution because, as mentioned earlier, the thread queue is LIFO. Instead, this thread will immediately pick up the next queued completion packet. No thread context switches will occur, because the running thread is continually picking up completion packets and the other threads are unable to run.
 
 > [!Note]
 >
@@ -48,7 +53,7 @@ The most efficient scenario occurs when there are completion packets waiting in 
 
 The best overall maximum value to pick for the concurrency value is the number of CPUs on the computer. If your transaction required a lengthy computation, a larger concurrency value will allow more threads to run. Each completion packet may take longer to finish, but more completion packets will be processed at the same time. You can experiment with the concurrency value in conjunction with profiling tools to achieve the best effect for your application.
 
-The system also allows a thread waiting in [**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md) to process a completion packet if another running thread associated with the same I/O completion port enters a wait state for other reasons, for example the [**SuspendThread**](https://msdn.microsoft.com/library/windows/desktop/ms686345) function. When the thread in the wait state begins running again, there may be a brief period when the number of active threads exceeds the concurrency value. However, the system quickly reduces this number by not allowing any new active threads until the number of active threads falls below the concurrency value. This is one reason to have your application create more threads in its thread pool than the concurrency value. Thread pool management is beyond the scope of this topic, but a good rule of thumb is to have a minimum of twice as many threads in the thread pool as there are processors on the system. For additional information about thread pooling, see [Thread Pools](https://msdn.microsoft.com/library/windows/desktop/ms686760).
+The system also allows a thread waiting in [**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master) to process a completion packet if another running thread associated with the same I/O completion port enters a wait state for other reasons, for example the [**SuspendThread**](https://msdn.microsoft.com/library/windows/desktop/ms686345) function. When the thread in the wait state begins running again, there may be a brief period when the number of active threads exceeds the concurrency value. However, the system quickly reduces this number by not allowing any new active threads until the number of active threads falls below the concurrency value. This is one reason to have your application create more threads in its thread pool than the concurrency value. Thread pool management is beyond the scope of this topic, but a good rule of thumb is to have a minimum of twice as many threads in the thread pool as there are processors on the system. For additional information about thread pooling, see [Thread Pools](https://msdn.microsoft.com/library/windows/desktop/ms686760).
 
 ## Supported I/O Functions
 
@@ -56,12 +61,12 @@ The following functions can be used to start I/O operations that complete by usi
 
 -   [**ConnectNamedPipe**](https://msdn.microsoft.com/library/windows/desktop/aa365146)
 -   [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216)
--   [**LockFileEx**](lockfileex.md)
--   [**ReadDirectoryChangesW**](readdirectorychangesw.md)
--   [**ReadFile**](readfile.md)
+-   [**LockFileEx**](/windows/win32/FileAPI/nf-fileapi-lockfileex?branch=master)
+-   [**ReadDirectoryChangesW**](/windows/win32/WinBase/nf-winbase-readdirectorychangesw?branch=master)
+-   [**ReadFile**](/windows/win32/FileAPI/nf-fileapi-readfile?branch=master)
 -   [**TransactNamedPipe**](https://msdn.microsoft.com/library/windows/desktop/aa365790)
 -   [**WaitCommEvent**](https://msdn.microsoft.com/library/windows/desktop/aa363479)
--   [**WriteFile**](writefile.md)
+-   [**WriteFile**](/windows/win32/FileAPI/nf-fileapi-writefile?branch=master)
 -   [**WSASendMsg**](https://msdn.microsoft.com/library/windows/desktop/ms741692)
 -   [**WSASendTo**](https://msdn.microsoft.com/library/windows/desktop/ms741693)
 -   [**WSASend**](https://msdn.microsoft.com/library/windows/desktop/ms742203)
@@ -85,7 +90,7 @@ The following functions can be used to start I/O operations that complete by usi
 [**CreateIoCompletionPort**](createiocompletionport.md)
 </dt> <dt>
 
-[**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md)
+[**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master)
 </dt> <dt>
 
 [**GetQueuedCompletionStatusEx**](getqueuedcompletionstatusex-func.md)

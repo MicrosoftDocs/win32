@@ -1,12 +1,17 @@
 ---
 title: Spatial and Logical Navigation
 description: Clients retrieve information about an object that is spatially or logically near another object within the same container by calling IAccessible accNavigate and specifying one of the navigation constants.
-ms.assetid: 'a1ebb50e-76cf-472d-bb0f-3f5bf5ed30d5'
+ms.assetid: a1ebb50e-76cf-472d-bb0f-3f5bf5ed30d5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Spatial and Logical Navigation
 
-Clients retrieve information about an object that is spatially or logically near another object within the same container by calling [**IAccessible::accNavigate**](iaccessible-iaccessible--accnavigate.md) and specifying one of the [navigation constants](navigation-constants.md).
+Clients retrieve information about an object that is spatially or logically near another object within the same container by calling [**IAccessible::accNavigate**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accnavigate?branch=master) and specifying one of the [navigation constants](navigation-constants.md).
 
 With *spatial navigation* clients navigate to an object based on its location on the screen. Clients navigate up, down, left, or right from the current object to obtain information about another object within the same container.
 
@@ -21,7 +26,7 @@ Spatial and logical navigation are related. For example, in a horizontal toolbar
 
 The starting object of the navigation is either the object it**self or one of the object's children, except when either** [**NAVDIR\_FIRSTCHILD**](navigation-constants.md#navdir-firstchild) or [**NAVDIR\_LASTCHILD**](navigation-constants.md#navdir-lastchild) is specified; in this case, the navigation must start from the object itself.
 
-If a client navigates from an accessible object to a sibling user interface element, or if the **lVal** member of *varStart* is **CHILDID\_SELF** and the specified flag in *navDir* is any navigation flag except [**NAVDIR\_FIRSTCHILD**](navigation-constants.md#navdir-firstchild) or [**NAVDIR\_LASTCHILD**](navigation-constants.md#navdir-lastchild), the result in *pvarEnd* is either a child ID or an [**IDispatch**](idispatch-interface.md) interface. If *pvarEnd* contains a child ID, clients must first obtain a pointer to the parent's [**IAccessible**](iaccessible.md) interface in order to navigate from this user interface element or to obtain more information about it. To obtain the parent object, clients call the [**IAccessible::get\_accParent**](iaccessible-iaccessible--get-accparent.md) property of the sibling object or the starting object of the navigation.
+If a client navigates from an accessible object to a sibling user interface element, or if the **lVal** member of *varStart* is **CHILDID\_SELF** and the specified flag in *navDir* is any navigation flag except [**NAVDIR\_FIRSTCHILD**](navigation-constants.md#navdir-firstchild) or [**NAVDIR\_LASTCHILD**](navigation-constants.md#navdir-lastchild), the result in *pvarEnd* is either a child ID or an [**IDispatch**](idispatch-interface.md) interface. If *pvarEnd* contains a child ID, clients must first obtain a pointer to the parent's [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface in order to navigate from this user interface element or to obtain more information about it. To obtain the parent object, clients call the [**IAccessible::get\_accParent**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accparent?branch=master) property of the sibling object or the starting object of the navigation.
 
 Note that clients must have information about all floating objects by calling the [**EnumChildWindows**](https://msdn.microsoft.com/library/windows/desktop/ms633494) function. Because a floating object is not clipped to its parent, clients do not have information about the hierarchical relationship between two objects near one another on the screen.
 
@@ -35,7 +40,7 @@ In logical navigation, the developers who design the objects establish the relat
 
 For objects that have screen locations, server developers should establish the navigation order in the way that most users would consider logical. In English-speaking countries/regions, for instance, this means a left-to-right, top-to-bottom ordering.
 
-Logical navigation order must parallel keyboard navigation order. For example, a dialog box contains **OK** and **Cancel** push buttons and a few edit controls. A client that calls [**IAccessible::accNavigate**](iaccessible-iaccessible--accnavigate.md) to navigate to the next or previous object in that dialog box moves in the same order as a user pressing TAB or SHIFT+TAB to move the focus between items.
+Logical navigation order must parallel keyboard navigation order. For example, a dialog box contains **OK** and **Cancel** push buttons and a few edit controls. A client that calls [**IAccessible::accNavigate**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accnavigate?branch=master) to navigate to the next or previous object in that dialog box moves in the same order as a user pressing TAB or SHIFT+TAB to move the focus between items.
 
 For objects that do not have defined screen locations, the logical order is decided by server developers, and client developers should make no assumptions about it. For instance, it is acceptable for non-visible objects, such as objects that are only temporarily hidden, to be interspersed with visible objects.
 

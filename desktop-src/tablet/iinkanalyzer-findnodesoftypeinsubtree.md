@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves all of the IContextNode objects of the specified type that are descendants of the specified IContextNode object.'
-ms.assetid: '7e57d6ec-fe04-44c6-904f-7a212bbfcd19'
-title: 'IInkAnalyzer::FindNodesOfTypeInSubTree method'
+Description: Retrieves all of the IContextNode objects of the specified type that are descendants of the specified IContextNode object.
+ms.assetid: 7e57d6ec-fe04-44c6-904f-7a212bbfcd19
+title: IInkAnalyzerFindNodesOfTypeInSubTree method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::FindNodesOfTypeInSubTree method
@@ -13,9 +18,9 @@ Retrieves all of the [**IContextNode**](icontextnode.md) objects of the specifie
 
 ```C++
 HRESULT FindNodesOfTypeInSubTree(
-  [in]  const GUID          *pNodeType,
-  [in]        IContextNode  *pContextNodeToSearchFrom,
-  [out]       IContextNodes **ppContextNodesFound
+  [in]  const GUID          *pNodeType,
+  [in]        IContextNode  *pContextNodeToSearchFrom,
+  [out]       IContextNodes **ppContextNodesFound
 );
 ```
 
@@ -55,7 +60,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppContextNodesFound* when you no longer need to use the object.
 
- 
+ 
 
 If the [**IInkAnalyzer**](iinkanalyzer.md) does not contain the *pContextNodeToSearchFrom* node, this method returns an error code.
 
@@ -69,7 +74,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](i
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -110,9 +115,9 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](i
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: ReadyBoot Examples
 description: ReadyBoot Examples
-ms.assetid: 'dd63ab08-61db-40df-b2b8-a60e9aded6d8'
+ms.assetid: dd63ab08-61db-40df-b2b8-a60e9aded6d8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadyBoot Examples
@@ -31,9 +36,9 @@ This example demonstrates how to determine how much disk IO a given application 
     -   Due to a large number of applications and services starting up during system boot, the boot IO patterns can vary from run to run, especially in the later phases of boot where more activity occurs in parallel. Due to this variability, a given IO behavior, such as a pended IO for a certain process, can be observed in one boot will not necessarily be reproduced during the next boot.
 -   Expanding an event type in the "Event Type" column would show IO statistics per file.
 
-    The following screen shot show a ReadyBoot Event table with “hit” events displayed.
+    The following screen shot show a ReadyBoot Event table with  hit  events displayed.
 
-    ![screen shot of a window showing a readyboot event table with “hit” events displayed](images/rb-09.png)
+    ![screen shot of a window showing a readyboot event table with  hit  events displayed](images/rb-09.png)
 
 -   In the example above, lsass.exe is shown to be reading (and hitting in the ReadyBoot cache) the NTFS master file table ($Mft), a couple of directories, and several dlls.
 
@@ -59,7 +64,7 @@ The output of the PNP action shows the delay:
 
 
 
- 
+ 
 
 To check if this delay is related to ReadyBoot:
 
@@ -87,9 +92,9 @@ To check if this delay is related to ReadyBoot:
 
 By examining ReadyBoot IO we've determined that the delay in mouclass.sys DriverLoad was caused by ReadyBoot request pending (which in turn was performed to avoid jeopardizing optimal prefetching throughput).
 
- 
+ 
 
- 
+ 
 
 
 

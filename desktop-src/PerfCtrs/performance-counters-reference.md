@@ -1,7 +1,12 @@
 ---
-Description: 'Use the following programming elements to write applications that consume or provide performance counter data:'
-ms.assetid: '8600f48f-0ef5-4ac2-bdb9-6d9700cae306'
+Description: Use the following programming elements to write applications that consume or provide performance counter data
+ms.assetid: 8600f48f-0ef5-4ac2-bdb9-6d9700cae306
 title: Performance Counters Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance Counters Reference

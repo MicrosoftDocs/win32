@@ -1,8 +1,10 @@
 ---
 title: Msvm\_BIOSElement class
 description: Represents the low-level software that is loaded into RAM to configure and start the system.
-ms.assetid: 'a17ee4d1-2b3c-4199-a117-f8a9525bf613'
-keywords: ["Msvm_BIOSElement class Hyper-V", "Msvm_BIOSElement class Hyper-V , described"]
+ms.assetid: a17ee4d1-2b3c-4199-a117-f8a9525bf613
+keywords:
+- Msvm_BIOSElement class Hyper-V
+- Msvm_BIOSElement class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -49,6 +51,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_BIOSElement class
@@ -63,44 +70,44 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_BIOSElement : CIM_BIOSElement
 {
-  string   Caption = "BIOS";
-  string   Description = "Microsoft Virtual BIOS";
-  string   ElementName = "BIOS";
+  string   Caption = "BIOS";
+  string   Description = "Microsoft Virtual BIOS";
+  string   ElementName = "BIOS";
   datetime InstallDate;
-  uint16   OperationalStatus[] = 2;
-  string   Status;
-  uint16   HealthState = 5;
-  string   Name = "BIOS";
-  uint16   SoftwareElementState = 2;
-  string   SoftwareElementID = "Microsoft:GUID\device-specific data";
-  uint16   TargetOperatingSystem = 0;
-  string   OtherTargetOS;
-  string   BuildNumber = 14;
-  string   SerialNumber;
-  string   CodeSet;
-  string   IdentificationCode;
-  string   LanguageEdition;
-  string   Version = "8.02.00";
-  string   Manufacturer = "Microsoft Corporation";
-  boolean  PrimaryBIOS = True;
-  string   CurrentLanguage = "en|US|iso8859-1";
-  uint64   LoadedStartingAddress = 0xE0000;
-  uint64   LoadedEndingAddress = 0xFFFFF;
-  string   LoadUtilityInformation;
-  uint8    EmbeddedControllerFirmwareMinorRelease = 255;
-  uint8    EmbeddedControllerFirmwareMajorRelease = 255;
-  uint8    SystemBIOSMinorRelease = 2;
-  uint8    SystemBIOSMajorRelease = 8;
-  string   StatusDescriptions[] = "OK";
-  string   ListOfLanguages[] = "en|US|iso8859-1";
+  uint16   OperationalStatus[] = 2;
+  string   Status;
+  uint16   HealthState = 5;
+  string   Name = "BIOS";
+  uint16   SoftwareElementState = 2;
+  string   SoftwareElementID = "Microsoft:GUID\device-specific data";
+  uint16   TargetOperatingSystem = 0;
+  string   OtherTargetOS;
+  string   BuildNumber = 14;
+  string   SerialNumber;
+  string   CodeSet;
+  string   IdentificationCode;
+  string   LanguageEdition;
+  string   Version = "8.02.00";
+  string   Manufacturer = "Microsoft Corporation";
+  boolean  PrimaryBIOS = True;
+  string   CurrentLanguage = "en|US|iso8859-1";
+  uint64   LoadedStartingAddress = 0xE0000;
+  uint64   LoadedEndingAddress = 0xFFFFF;
+  string   LoadUtilityInformation;
+  uint8    EmbeddedControllerFirmwareMinorRelease = 255;
+  uint8    EmbeddedControllerFirmwareMajorRelease = 255;
+  uint8    SystemBIOSMinorRelease = 2;
+  uint8    SystemBIOSMajorRelease = 8;
+  string   StatusDescriptions[] = "OK";
+  string   ListOfLanguages[] = "en|US|iso8859-1";
   datetime ReleaseDate;
-  string   BIOSGUID;
-  string   BIOSSerialNumber;
-  string   BaseBoardSerialNumber;
-  string   ChassisSerialNumber;
-  string   ChassisAssetTag;
-  boolean  BIOSNumLock;
-  uint16   BootOrder[];
+  string   BIOSGUID;
+  string   BIOSSerialNumber;
+  string   BaseBoardSerialNumber;
+  string   ChassisSerialNumber;
+  string   ChassisAssetTag;
+  boolean  BIOSNumLock;
+  uint16   BootOrder[];
 };
 ```
 
@@ -731,9 +738,9 @@ Access to the **Msvm\_BIOSElement** class might be restricted by UAC Filtering. 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -752,9 +759,9 @@ Access to the **Msvm\_BIOSElement** class might be restricted by UAC Filtering. 
 [**CIM\_BIOSElement**](https://msdn.microsoft.com/library/aa387191)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

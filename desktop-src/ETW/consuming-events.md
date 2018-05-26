@@ -1,7 +1,12 @@
 ---
-Description: 'Event trace consumers can process events from one or more providers.'
-ms.assetid: '039a9f66-228e-4258-9967-2b2cd7d31091'
+Description: Event trace consumers can process events from one or more providers.
+ms.assetid: 039a9f66-228e-4258-9967-2b2cd7d31091
 title: Consuming Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Consuming Events

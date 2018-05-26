@@ -1,8 +1,21 @@
 ---
 title: UI Automation Support for Standard Controls
 description: This topic identifies the standard Windows controls that are supported by Microsoft UI Automation. Full support is provided only for controls from version 6 of ComCtrl32.dll (available with Windows XP and later).
-ms.assetid: '4821684c-8a90-413c-8ddc-699926e3bb09'
-keywords: ["clients,UI Automation support for standard controls", "clients,standard control support", "clients,Win32 controls", "UI Automation,support for standard controls", "UI Automation,standard control support", "UI Automation,Win32 controls", "support for standard controls", "standard control support"]
+ms.assetid: 4821684c-8a90-413c-8ddc-699926e3bb09
+keywords:
+- clients,UI Automation support for standard controls
+- clients,standard control support
+- clients,Win32 controls
+- UI Automation,support for standard controls
+- UI Automation,standard control support
+- UI Automation,Win32 controls
+- support for standard controls
+- standard control support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Support for Standard Controls

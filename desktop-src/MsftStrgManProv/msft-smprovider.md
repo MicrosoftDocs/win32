@@ -4,11 +4,13 @@ description: Represents a provider.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd1173048-091c-43b2-843b-f3d2ed17772c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: d1173048-091c-43b2-843b-f3d2ed17772c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMProvider class", "MSFT_SMProvider class, described"]
+keywords:
+- MSFT_SMProvider class
+- MSFT_SMProvider class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMProvider class
@@ -46,21 +51,21 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMProvider
 {
-  String  ObjectId;
-  String  Identifier;
-  String  SystemName;
-  String  ProviderSystemID;
-  String  ElementName;
-  String  VersionString;
-  String  Manufacturer;
-  String  URI;
-  String  InteropNamespace;
+  String  ObjectId;
+  String  Identifier;
+  String  SystemName;
+  String  ProviderSystemID;
+  String  ElementName;
+  String  VersionString;
+  String  Manufacturer;
+  String  URI;
+  String  InteropNamespace;
   Boolean MultipleOperationsSupported;
-  String  Namespaces[];
-  String  SMISProfileVersion;
-  String  AutonomousProfiles[];
-  String  AutonomousProfileVersions[];
-  String  CommunicationMechanisms[];
+  String  Namespaces[];
+  String  SMISProfileVersion;
+  String  AutonomousProfiles[];
+  String  AutonomousProfileVersions[];
+  String  CommunicationMechanisms[];
 };
 ```
 
@@ -83,7 +88,7 @@ The **MSFT\_SMProvider** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -102,7 +107,7 @@ Access type: Read-only
 
 This property is not supported.
 
-**Windows Server 2012:  **
+**Windows Server 2012:  **
 
 Autonomous profiles supported on the provider.
 
@@ -119,7 +124,7 @@ Access type: Read-only
 
 This property is not supported.
 
-**Windows Server 2012:  **
+**Windows Server 2012:  **
 
 Versions of the autonomous profiles.
 
@@ -136,7 +141,7 @@ Access type: Read-only
 
 This property is not supported.
 
-**Windows Server 2012:  **
+**Windows Server 2012:  **
 
 Communication mechanisms supported on the provider.
 
@@ -153,7 +158,7 @@ Access type: Read-only
 
 This property is not supported.
 
-**Windows Server 2012:** The name of the CIM server that is used for human interfaces.
+**Windows Server 2012:** The name of the CIM server that is used for human interfaces.
 
 </dd> <dt>
 
@@ -207,7 +212,7 @@ Access type: Read-only
 
 This property is not supported.
 
-**Windows Server 2012:  **
+**Windows Server 2012:  **
 
 Whether multiple operations are supported on the provider.
 
@@ -224,7 +229,7 @@ Access type: Read-only
 
 This property is not supported.
 
-**Windows Server 2012:  **
+**Windows Server 2012:  **
 
 Vendor-specific namespaces.
 
@@ -257,7 +262,7 @@ Access type: Read-only
 
 This property is not supported.
 
-**Windows Server 2012:** The name of the containing system as reported by the provider.
+**Windows Server 2012:** The name of the containing system as reported by the provider.
 
 </dd> <dt>
 
@@ -320,7 +325,7 @@ A string representing the complete software version information - for example, '
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -334,9 +339,9 @@ A string representing the complete software version information - for example, '
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

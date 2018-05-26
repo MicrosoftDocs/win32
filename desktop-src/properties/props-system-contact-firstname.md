@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the first name of the contact.'
-ms.assetid: 'f8bb0667-5f42-47ef-bd8a-90974f388225'
-title: 'System.Contact.FirstName'
+Description: Indicates the first name of the contact.
+ms.assetid: f8bb0667-5f42-47ef-bd8a-90974f388225
+title: System.Contact.FirstName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.FirstName

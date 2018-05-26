@@ -1,7 +1,12 @@
 ---
 title: Sliders
 description: With a slider, users can choose from a continuous range of values.
-ms.assetid: 'dee70fbc-6f18-43c7-9d41-4e97eac41e53'
+ms.assetid: dee70fbc-6f18-43c7-9d41-4e97eac41e53
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sliders

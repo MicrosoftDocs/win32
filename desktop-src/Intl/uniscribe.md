@@ -1,7 +1,12 @@
 ---
 Description: Uniscribe
-ms.assetid: 'ad0faead-63db-4682-8db0-fa97b54217c6'
+ms.assetid: ad0faead-63db-4682-8db0-fa97b54217c6
 title: Uniscribe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uniscribe

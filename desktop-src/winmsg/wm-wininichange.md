@@ -1,7 +1,12 @@
-﻿---
-Description: 'An application sends the WM\_WININICHANGE message to all top-level windows after making a change to the WIN.INI file. The SystemParametersInfo function sends this message after an application uses the function to change a setting in WIN.INI.'
-ms.assetid: '402f8d71-ad52-486d-be26-8b41a3f22045'
-title: 'WM\_WININICHANGE message'
+---
+Description: An application sends the WM\_WININICHANGE message to all top-level windows after making a change to the WIN.INI file. The SystemParametersInfo function sends this message after an application uses the function to change a setting in WIN.INI.
+ms.assetid: 402f8d71-ad52-486d-be26-8b41a3f22045
+title: WM\_WININICHANGE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_WININICHANGE message

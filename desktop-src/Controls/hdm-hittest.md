@@ -1,8 +1,9 @@
 ---
 title: HDM\_HITTEST message
 description: Tests a point to determine which header item, if any, is at the specified point.
-ms.assetid: 'ff866bd1-9f2a-457c-921d-549610ab9088'
-keywords: ["HDM_HITTEST message Windows Controls"]
+ms.assetid: ff866bd1-9f2a-457c-921d-549610ab9088
+keywords:
+- HDM_HITTEST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_HITTEST message
@@ -27,13 +33,13 @@ Tests a point to determine which header item, if any, is at the specified point.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**HDHITTESTINFO**](hdhittestinfo.md) structure that contains the position to test and receives information about the results of the test.
+A pointer to an [**HDHITTESTINFO**](/windows/win32/Commctrl/ns-commctrl-_hd_hittestinfo?branch=master) structure that contains the position to test and receives information about the results of the test.
 
 </dd> </dl>
 
 ## Return value
 
-Returns the index of the item at the specified position, if any, or – 1 otherwise.
+Returns the index of the item at the specified position, if any, or   1 otherwise.
 
 ## Requirements
 
@@ -41,15 +47,15 @@ Returns the index of the item at the specified position, if any, or – 1 otherwis
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

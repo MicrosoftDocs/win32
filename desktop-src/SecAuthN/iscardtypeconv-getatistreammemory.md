@@ -1,7 +1,12 @@
-﻿---
-Description: 'Acquires a byte pointer to the HGLOBAL memory block that is managed by the IStream COM interface.'
-ms.assetid: 'ea25eb98-b841-4f5e-b428-3d9cb8176142'
-title: 'ISCardTypeConv::GetAtIStreamMemory method'
+---
+Description: Acquires a byte pointer to the HGLOBAL memory block that is managed by the IStream COM interface.
+ms.assetid: ea25eb98-b841-4f5e-b428-3d9cb8176142
+title: ISCardTypeConvGetAtIStreamMemory method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardTypeConv::GetAtIStreamMemory method

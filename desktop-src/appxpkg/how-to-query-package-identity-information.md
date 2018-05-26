@@ -1,7 +1,12 @@
 ---
 title: Query app package manifest info (C++)
 description: Learn how to get info from the app package manifest for a Windows Store app using the packaging API.
-ms.assetid: 'A29986F9-C620-48CD-87F8-525DFA076AAB'
+ms.assetid: A29986F9-C620-48CD-87F8-525DFA076AAB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query app package manifest info (C++)
@@ -10,7 +15,7 @@ Learn how to get info from the app package manifest for a Windows Store app usin
 
 ### Create a package manifest reader
 
-To create a package manifest reader, call [**IAppxFactory::CreatePackageReader**](iappxfactory-createpackagereader.md) to create a package reader. The first parameter is an input stream for the package (.appx file). The second parameter is an output parameter that receives a pointer to an [**IAppxPackageReader**](iappxpackagereader.md) pointer. Next, call [**IAppxPackageReader::GetManifest**](iappxpackagereader-getmanifest.md) to get the manifest reader. The parameter is an output parameter that receives a pointer to an [**IAppxManifestReader**](iappxmanifestreader.md) pointer.
+To create a package manifest reader, call [**IAppxFactory::CreatePackageReader**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxfactory-createpackagereader?branch=master) to create a package reader. The first parameter is an input stream for the package (.appx file). The second parameter is an output parameter that receives a pointer to an [**IAppxPackageReader**](/windows/win32/AppxPackaging/nn-appxpackaging-iappxpackagereader?branch=master) pointer. Next, call [**IAppxPackageReader::GetManifest**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxpackagereader-getmanifest?branch=master) to get the manifest reader. The parameter is an output parameter that receives a pointer to an [**IAppxManifestReader**](/windows/win32/AppxPackaging/nn-appxpackaging-iappxmanifestreader?branch=master) pointer.
 
 
 ```C++
@@ -115,9 +120,9 @@ HRESULT GetPackageReader(
 
 ### Read package identity info
 
-Package identify is specified using the [**Identity**](https://msdn.microsoft.com/library/windows/apps/br211441) element in the manifest. Use [**IAppxManifestReader::GetPackageId**](iappxmanifestreader-getpackageid.md) to get an [**IAppxManifestPackageId**](iappxmanifestpackageid.md) to read package identity info, as shown here.
+Package identify is specified using the [**Identity**](https://msdn.microsoft.com/library/windows/apps/br211441) element in the manifest. Use [**IAppxManifestReader::GetPackageId**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxmanifestreader-getpackageid?branch=master) to get an [**IAppxManifestPackageId**](/windows/win32/AppxPackaging/nn-appxpackaging-iappxmanifestpackageid?branch=master) to read package identity info, as shown here.
 
-This code uses [**IAppxManifestPackageId::GetPackageFullName**](iappxmanifestpackageid-getpackagefullname.md) to get the package full name, [**IAppxManifestPackageId::GetName**](iappxmanifestpackageid-getname.md) to get the package name, and [**IAppxManifestPackageId::GetVersion**](iappxmanifestpackageid-getversion.md) to get the package version.
+This code uses [**IAppxManifestPackageId::GetPackageFullName**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxmanifestpackageid-getpackagefullname?branch=master) to get the package full name, [**IAppxManifestPackageId::GetName**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxmanifestpackageid-getname?branch=master) to get the package name, and [**IAppxManifestPackageId::GetVersion**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxmanifestpackageid-getversion?branch=master) to get the package version.
 
 
 ```C++
@@ -185,9 +190,9 @@ HRESULT ReadManifestPackageId(
 
 ### Read metadata that describes the package to users
 
-Properties are specified using the [**Properties**](https://msdn.microsoft.com/library/windows/apps/br211457) element in the manifest. Use [**IAppxManifestReader::GetProperties**](iappxmanifestreader-getproperties.md) to get an [**IAppxManifestProperties**](iappxmanifestproperties.md) to read this node, as shown here.
+Properties are specified using the [**Properties**](https://msdn.microsoft.com/library/windows/apps/br211457) element in the manifest. Use [**IAppxManifestReader::GetProperties**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxmanifestreader-getproperties?branch=master) to get an [**IAppxManifestProperties**](/windows/win32/AppxPackaging/nn-appxpackaging-iappxmanifestproperties?branch=master) to read this node, as shown here.
 
-This code uses [**IAppxManifestProperties::GetStringValue**](iappxmanifestproperties-getstringvalue.md) to get the package display name and package description.
+This code uses [**IAppxManifestProperties::GetStringValue**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxmanifestproperties-getstringvalue?branch=master) to get the package display name and package description.
 
 
 ```C++
@@ -240,9 +245,9 @@ HRESULT ReadManifestProperties(
 
 ### Read metadata about the apps included in the package
 
-Apps are specified using the [**Applications**](https://msdn.microsoft.com/library/windows/apps/br211417) element in the manifest. Use [**IAppxManifestReader::GetApplications**](iappxmanifestreader-getapplications.md) to get an [**IAppxManifestApplicationsEnumerator**](iappxmanifestapplicationsenumerator.md) to read this node. Use [**IAppxManifestApplicationsEnumerator::GetCurrent**](iappxmanifestapplicationsenumerator-getcurrent.md) and [**IAppxManifestApplicationsEnumerator::MoveNext**](iappxmanifestapplicationsenumerator-movenext.md) to get an [**IAppxManifestApplication**](iappxmanifestapplication.md) for each app in the package.
+Apps are specified using the [**Applications**](https://msdn.microsoft.com/library/windows/apps/br211417) element in the manifest. Use [**IAppxManifestReader::GetApplications**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxmanifestreader-getapplications?branch=master) to get an [**IAppxManifestApplicationsEnumerator**](/windows/win32/AppxPackaging/nn-appxpackaging-iappxmanifestapplicationsenumerator?branch=master) to read this node. Use [**IAppxManifestApplicationsEnumerator::GetCurrent**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxmanifestapplicationsenumerator-getcurrent?branch=master) and [**IAppxManifestApplicationsEnumerator::MoveNext**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxmanifestapplicationsenumerator-movenext?branch=master) to get an [**IAppxManifestApplication**](/windows/win32/AppxPackaging/nn-appxpackaging-iappxmanifestapplication?branch=master) for each app in the package.
 
-This code uses [**IAppxManifestApplication::GetStringValue**](iappxmanifestapplication-getstringvalue.md) to get the display name for each app.
+This code uses [**IAppxManifestApplication::GetStringValue**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxmanifestapplication-getstringvalue?branch=master) to get the display name for each app.
 
 
 ```C++
@@ -345,7 +350,7 @@ CoUninitialize();
 **Reference**
 </dt> <dt>
 
-[**IAppxManifestReader**](iappxmanifestreader.md)
+[**IAppxManifestReader**](/windows/win32/AppxPackaging/nn-appxpackaging-iappxmanifestreader?branch=master)
 </dt> </dl>
 
  

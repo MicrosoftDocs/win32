@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.firstVisibleItem
 description: The firstVisibleItem attribute specifies or retrieves the index of the first visible line in the list box control.
-ms.assetid: '20209f55-2895-4c71-9169-0441e7c5c026'
-keywords: ["LISTBOX.firstVisibleItem Windows Media Player"]
+ms.assetid: 20209f55-2895-4c71-9169-0441e7c5c026
+keywords:
+- LISTBOX.firstVisibleItem Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.firstVisibleItem
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.firstVisibleItem
@@ -44,9 +50,9 @@ This attribute is useful for determining the first visible line when the list bo
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

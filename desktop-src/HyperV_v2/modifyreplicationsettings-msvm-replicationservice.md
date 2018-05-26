@@ -1,7 +1,12 @@
 ---
-Description: 'Modifies the replication settings for a virtual machine. When a client calls this method for a replica virtual machine, it modifies the replication settings of the replication relationship with the extended replica.'
-ms.assetid: 'e68514a5-f508-4047-8dcc-6a95f3e3353e'
-title: 'ModifyReplicationSettings method of the Msvm\_ReplicationService class'
+Description: Modifies the replication settings for a virtual machine. When a client calls this method for a replica virtual machine, it modifies the replication settings of the replication relationship with the extended replica.
+ms.assetid: e68514a5-f508-4047-8dcc-6a95f3e3353e
+title: ModifyReplicationSettings method of the Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModifyReplicationSettings method of the Msvm\_ReplicationService class
@@ -13,9 +18,9 @@ Modifies the replication settings for a virtual machine. When a client calls thi
 
 ```mof
 uint32 ModifyReplicationSettings(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  string                 ReplicationSettingData,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  string                 ReplicationSettingData,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -125,7 +130,7 @@ This method returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -133,8 +138,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -148,9 +153,9 @@ This method returns one of the following values.
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

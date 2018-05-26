@@ -1,8 +1,9 @@
 ---
 title: DownloadItem.size
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The size property retrieves the size of the download.
-ms.assetid: 'e0fd9cb5-155a-4159-94b8-1bf05b4d1062'
-keywords: ["DownloadItem.size Windows Media Player"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The size property retrieves the size of the download.
+ms.assetid: e0fd9cb5-155a-4159-94b8-1bf05b4d1062
+keywords:
+- DownloadItem.size Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadItem.size
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **size** property retrieves the size of the download.
 
@@ -58,9 +64,9 @@ This property is a read-only **Number** (**long**).
 [**DownloadItem.progress**](downloaditem-progress.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

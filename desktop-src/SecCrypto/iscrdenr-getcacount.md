@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the number of certification authorities (CAs) willing to issue a certificate based on the specified certificate template.'
-ms.assetid: '377121a8-3895-4308-a803-4a62580c6de0'
-title: 'ISCrdEnr::getCACount method'
+---
+Description: Returns the number of certification authorities (CAs) willing to issue a certificate based on the specified certificate template.
+ms.assetid: 377121a8-3895-4308-a803-4a62580c6de0
+title: ISCrdEnrgetCACount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCrdEnr::getCACount method

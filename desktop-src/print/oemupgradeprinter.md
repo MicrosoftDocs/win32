@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMUpgradePrinter function
-ms.assetid: '3f9ec3ca-a494-4a0a-87d8-1275b3b2a0b1'
+ms.assetid: 3f9ec3ca-a494-4a0a-87d8-1275b3b2a0b1
 title: OEMUpgradePrinter function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMUpgradePrinter function

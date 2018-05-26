@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PKEY\_AudioEndpoint\_GUID property supplies the DirectSound device identifier that corresponds to the audio endpoint device.'
-ms.assetid: 'd3119504-9b6a-47b8-b3c6-15cb329929cb'
-title: 'PKEY\_AudioEndpoint\_GUID'
+---
+Description: The PKEY\_AudioEndpoint\_GUID property supplies the DirectSound device identifier that corresponds to the audio endpoint device.
+ms.assetid: d3119504-9b6a-47b8-b3c6-15cb329929cb
+title: PKEY\_AudioEndpoint\_GUID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKEY\_AudioEndpoint\_GUID
@@ -16,14 +21,14 @@ As explained previously, the [MMDevice API](mmdevice-api.md) supports [device ro
 
 For example, a DirectSound application performs the following steps to create a DirectSound device that corresponds to the rendering endpoint device that the user has assigned the eMultimedia role to:
 
-1.  Call the [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](immdeviceenumerator-getdefaultaudioendpoint.md) method to get the [**IMMDevice**](immdevice.md) interface of the rendering endpoint device that has the eMultimedia role.
-2.  Call the [**IMMDevice::OpenPropertyStore**](immdevice-openpropertystore.md) method to obtain the **IPropertyStore** interface of the eMultimedia device. For more information about **IPropertyStore**, see the Windows SDK documentation.
+1.  Call the [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint?branch=master) method to get the [**IMMDevice**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master) interface of the rendering endpoint device that has the eMultimedia role.
+2.  Call the [**IMMDevice::OpenPropertyStore**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore?branch=master) method to obtain the **IPropertyStore** interface of the eMultimedia device. For more information about **IPropertyStore**, see the Windows SDK documentation.
 3.  Call the **IPropertyStore::GetValue** method to obtain the PKEY\_AudioEndpoint\_GUID property value.
 4.  Convert the property value from a GUID in string format to a 16-byte GUID structure.
 5.  Call the **DirectSoundCreate** function with the GUID to create the device with the eMultimedia role.
 
 > [!Note]  
-> **PKEY\_AudioEndpoint\_GUID** is a read-only property regardless of the storage-access mode requested by the application in [**IMMDevice::OpenPropertyStore**](immdevice-openpropertystore.md). If an application attempts to set a value by using **IPropertyStore::SetValue**, this call fails with the E\_ACCESSDENIED error code.
+> **PKEY\_AudioEndpoint\_GUID** is a read-only property regardless of the storage-access mode requested by the application in [**IMMDevice::OpenPropertyStore**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore?branch=master). If an application attempts to set a value by using **IPropertyStore::SetValue**, this call fails with the E\_ACCESSDENIED error code.
 
  
 

@@ -1,15 +1,18 @@
 ---
-Description: 'Requests that the state of the element be changed to the value specified in the RequestedState parameter.'
+Description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'F092B64C-D8B0-4056-BA2D-3967A35B42BB'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: F092B64C-D8B0-4056-BA2D-3967A35B42BB
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'RequestStateChange method of the MSFT\_IPAM\_Address class'
+title: RequestStateChange method of the MSFT\_IPAM\_Address class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the MSFT\_IPAM\_Address class
@@ -23,9 +26,9 @@ This method is inherited from the [**CIM\_EnabledLogicalElement**](https://msdn.
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -112,14 +115,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>12–32767</dd> <dt>
+</dt> <dd>12 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
@@ -209,7 +212,7 @@ In Use
 
 </dt> <dd>
 
-7–4095
+7 4095
 
 DMTF Reserved
 
@@ -254,7 +257,7 @@ Busy
 
 </dt> <dd>
 
-4100–32767
+4100 32767
 
 Method Reserved
 
@@ -263,7 +266,7 @@ Method Reserved
 
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 Vendor Specific
 
@@ -276,7 +279,7 @@ Vendor Specific
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -290,9 +293,9 @@ Vendor Specific
 [**MSFT\_IPAM\_Address**](msft-ipam-address.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,16 @@
 title: Get method of the PS\_VpnSstpProxyRule class
 description: Retrieves the Tenant ID to Gateway mapping.
 audience: developer
-ms.assetid: '8584c172-4ed0-4c39-bb89-10724691e849'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8584c172-4ed0-4c39-bb89-10724691e849
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_VpnSstpProxyRule class", "PS_VpnSstpProxyRule class, Get method"]
+keywords:
+- Get method
+- Get method, PS_VpnSstpProxyRule class
+- PS_VpnSstpProxyRule class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_VpnSstpProxyRule class
@@ -28,7 +34,7 @@ Retrieves the Tenant ID to Gateway mapping.
 
 ```mof
 uint32 Get(
-  [out] VpnSstpProxyRule cmdletOutput[]
+  [out] VpnSstpProxyRule cmdletOutput[]
 );
 ```
 
@@ -52,7 +58,7 @@ Returns an embedded instance of the current class.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Ramgmtpsprovider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -66,9 +72,9 @@ Returns an embedded instance of the current class.
 [**PS\_VpnSstpProxyRule**](ps-vpnsstpproxyrule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

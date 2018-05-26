@@ -1,8 +1,11 @@
 ---
 title: ErrorList GetError method
 description: Retrieve a specific error from the error list.
-ms.assetid: '9EC773A4-A8AB-414D-9C9E-B8664DD0EC5E'
-keywords: ["GetError method Access Execution Engine", "GetError method Access Execution Engine , ErrorList interface", "ErrorList interface Access Execution Engine , GetError method"]
+ms.assetid: 9EC773A4-A8AB-414D-9C9E-B8664DD0EC5E
+keywords:
+- GetError method Access Execution Engine
+- GetError method Access Execution Engine , ErrorList interface
+- ErrorList interface Access Execution Engine , GetError method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorList::GetError method
@@ -22,8 +30,8 @@ Retrieve a specific error from the error list.
 
 ```C++
 virtual HRESULT GetError(
-  [in]        UINT         errorIndex,
-  [out] const AxeErrorInfo **error
+  [in]        UINT         errorIndex,
+  [out] const AxeErrorInfo **error
 ) const = 0;
 ```
 
@@ -65,8 +73,8 @@ Managed code uses the [**AxeException**](https://msdn.microsoft.com/library/wind
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>AxeCore.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl> |
 
@@ -79,9 +87,9 @@ Managed code uses the [**AxeException**](https://msdn.microsoft.com/library/wind
 [**ErrorList**](errorlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_Cache class
 description: The MicrosoftDNS\_Cache class describes a cache existing on a DNS Server.
-ms.assetid: '139406eb-70f2-4614-9662-703ada032298'
-keywords: ["MicrosoftDNS_Cache class DNS", "MicrosoftDNS_Cache class DNS , described"]
+ms.assetid: 139406eb-70f2-4614-9662-703ada032298
+keywords:
+- MicrosoftDNS_Cache class DNS
+- MicrosoftDNS_Cache class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_Cache class
@@ -50,7 +57,7 @@ The **MicrosoftDNS\_Cache** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +66,7 @@ The **MicrosoftDNS\_Cache** class has these methods.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -78,9 +85,9 @@ The **MicrosoftDNS\_Cache** class has these methods.
 [**GetDistinguishedName Method of the MicrosoftDNS\_Cache Class**](microsoftdns-cache-getdistinguishedname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,11 @@
-﻿---
-Description: 'Enumerates the contents of the most recently used (MRU) list. Optionally retrieves an item from the enumeration.'
+---
+Description: Enumerates the contents of the most recently used (MRU) list. Optionally retrieves an item from the enumeration.
 title: EnumMRUListW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnumMRUListW function

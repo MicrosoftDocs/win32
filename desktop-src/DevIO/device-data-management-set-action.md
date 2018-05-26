@@ -1,7 +1,12 @@
 ---
-Description: 'Define the set of actions for the IOCTL\_STORAGE\_MANAGE\_DATA\_SET\_ATTRIBUTES control code.'
-ms.assetid: 'ff688c9a-8669-4699-aab9-1e2e3a5c7fca'
-title: 'DEVICE\_DATA\_MANAGEMENT\_SET\_ACTION'
+Description: Define the set of actions for the IOCTL\_STORAGE\_MANAGE\_DATA\_SET\_ATTRIBUTES control code.
+ms.assetid: ff688c9a-8669-4699-aab9-1e2e3a5c7fca
+title: DEVICE\_DATA\_MANAGEMENT\_SET\_ACTION
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DEVICE\_DATA\_MANAGEMENT\_SET\_ACTION
@@ -44,7 +49,7 @@ A trim action is performed.
 
 
 
-A notification action is performed. The parameters are in a [**DEVICE\_DSM\_NOTIFICATION\_PARAMETERS**](device-dsm-notification-parameters.md) structure. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
+A notification action is performed. The parameters are in a [**DEVICE\_DSM\_NOTIFICATION\_PARAMETERS**](/windows/win32/WinIoCtl/ns-winioctl-_device_dsm_notification_parameters?branch=master) structure. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
 
 </dt> </dl> </dd> <dt>
@@ -57,9 +62,9 @@ A notification action is performed. The parameters are in a [**DEVICE\_DSM\_NOTI
 
 
 
-An offload read action is performed. The parameters are in a [**DEVICE\_DSM\_OFFLOAD\_READ\_PARAMETERS**](device-dsm-offload-read-parameters.md) structure. The output is in a [**STORAGE\_OFFLOAD\_READ\_OUTPUT**](storage-offload-read-output.md) structure. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
+An offload read action is performed. The parameters are in a [**DEVICE\_DSM\_OFFLOAD\_READ\_PARAMETERS**](/windows/win32/WinIoCtl/ns-winioctl-_device_dsm_offload_read_parameters?branch=master) structure. The output is in a [**STORAGE\_OFFLOAD\_READ\_OUTPUT**](/windows/win32/WinIoCtl/ns-winioctl-_storage_offload_read_output?branch=master) structure. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
-**Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
+**Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -72,9 +77,9 @@ An offload read action is performed. The parameters are in a [**DEVICE\_DSM\_OFF
 
 
 
-An offload write action is performed. The parameters are in a [**DEVICE\_DSM\_OFFLOAD\_WRITE\_PARAMETERS**](device-dsm-offload-write-parameters.md) structure. The output is in a [**STORAGE\_OFFLOAD\_WRITE\_OUTPUT**](storage-offload-write-output.md) structure.
+An offload write action is performed. The parameters are in a [**DEVICE\_DSM\_OFFLOAD\_WRITE\_PARAMETERS**](/windows/win32/WinIoCtl/ns-winioctl-_device_dsm_offload_write_parameters?branch=master) structure. The output is in a [**STORAGE\_OFFLOAD\_WRITE\_OUTPUT**](/windows/win32/WinIoCtl/ns-winioctl-_storage_offload_write_output?branch=master) structure.
 
-**Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
+**Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -87,9 +92,9 @@ An offload write action is performed. The parameters are in a [**DEVICE\_DSM\_OF
 
 
 
-An allocation bitmap is returned for the first data set range passed in. The output is in a [**DEVICE\_DATA\_SET\_LB\_PROVISIONING\_STATE**](device-data-set-lb-provisioning-state.md) structure. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
+An allocation bitmap is returned for the first data set range passed in. The output is in a [**DEVICE\_DATA\_SET\_LB\_PROVISIONING\_STATE**](/windows/win32/WinIoCtl/ns-winioctl-_device_data_set_lb_provisioning_state?branch=master) structure. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
-**Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
+**Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -104,7 +109,7 @@ An allocation bitmap is returned for the first data set range passed in. The out
 
 A repair action is performed. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
-**Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
+**Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -119,7 +124,7 @@ A repair action is performed. The **DeviceDsmActionFlag\_NonDestructive** (0x800
 
 A scrub action is performed. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
-**Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
+**Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -134,7 +139,7 @@ A scrub action is performed. The **DeviceDsmActionFlag\_NonDestructive** (0x8000
 
 A resiliency action is performed. The **DeviceDsmActionFlag\_NonDestructive** (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
-**Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
+**Windows 7 and Windows Server 2008 R2:** This value is not supported before Windows 8 and Windows Server 2012.
 
 
 </dt> </dl> </dd> </dl>
@@ -145,15 +150,15 @@ A resiliency action is performed. The **DeviceDsmActionFlag\_NonDestructive** (0
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                                      |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                         |
+| Minimum supported client<br/> | Windows 7<br/>                                                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>WinIoCtl.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

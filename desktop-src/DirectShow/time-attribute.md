@@ -1,7 +1,12 @@
 ---
-Description: 'The time attribute specifies the time at which a parameter assumes a new value, relative to the start of the transition or effect.'
-ms.assetid: 'bb478215-cbd5-4fea-9d88-a1f2b002f3da'
+Description: The time attribute specifies the time at which a parameter assumes a new value, relative to the start of the transition or effect.
+ms.assetid: bb478215-cbd5-4fea-9d88-a1f2b002f3da
 title: time Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # time Attribute

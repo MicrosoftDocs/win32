@@ -4,13 +4,15 @@ description: A concrete superclass for CIM alert notifications.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '01738295-a68f-469f-9b6d-819b4e457b7a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 01738295-a68f-469f-9b6d-819b4e457b7a
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_AlertIndication class", "CIM_AlertIndication class, described"]
+keywords:
+- CIM_AlertIndication class
+- CIM_AlertIndication class, described
 topic_type:
 - apiref
 api_name:
@@ -48,6 +50,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_AlertIndication class
@@ -62,35 +67,35 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Indication, Version("2.22.0"), UMLPackagePath("CIM::Event")]
 class CIM_AlertIndication : CIM_ProcessIndication
 {
-  uint8    SECURITY_DESCRIPTOR[];
-  uint64   TIME_CREATED;
-  string   IndicationIdentifier;
-  string   CorrelatedIndications[];
+  uint8    SECURITY_DESCRIPTOR[];
+  uint64   TIME_CREATED;
+  string   IndicationIdentifier;
+  string   CorrelatedIndications[];
   datetime IndicationTime;
-  string   OtherSeverity;
-  string   IndicationFilterName;
-  string   SequenceContext;
-  sint64   SequenceNumber;
-  string   Description;
-  string   AlertingManagedElement;
-  uint16   AlertingElementFormat;
-  string   OtherAlertingElementFormat;
-  uint16   AlertType;
-  string   OtherAlertType;
-  uint16   PerceivedSeverity;
-  uint16   ProbableCause;
-  string   ProbableCauseDescription;
-  uint16   Trending;
-  string   RecommendedActions[];
-  string   EventID;
+  string   OtherSeverity;
+  string   IndicationFilterName;
+  string   SequenceContext;
+  sint64   SequenceNumber;
+  string   Description;
+  string   AlertingManagedElement;
+  uint16   AlertingElementFormat;
+  string   OtherAlertingElementFormat;
+  uint16   AlertType;
+  string   OtherAlertType;
+  uint16   PerceivedSeverity;
+  uint16   ProbableCause;
+  string   ProbableCauseDescription;
+  uint16   Trending;
+  string   RecommendedActions[];
+  string   EventID;
   datetime EventTime;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   ProviderName;
-  string   Message;
-  string   MessageArguments[];
-  string   MessageID;
-  string   OwningEntity;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   ProviderName;
+  string   Message;
+  string   MessageArguments[];
+  string   MessageID;
+  string   OwningEntity;
 };
 ```
 
@@ -376,7 +381,7 @@ The time and date when the indication was created. The property can be set to **
 > [!Note]  
 > The **IndicationTime** value can be the same for indications that are generated in rapid succession.
 
- 
+ 
 
 This property is inherited from [**CIM\_Indication**](cim-indication.md).
 
@@ -1584,7 +1589,7 @@ The sequence context of the sequence identifier for the indication. If a service
 > [!Note]  
 > The sequence identifier for the indication enables a listener to identify duplicate indications when the service attempts to redeliver indications, reorder indications that arrive out of order, and detect lost indications.
 
- 
+ 
 
 To ensure that **SequenceContext** is unique, it should use the following format:
 
@@ -1614,7 +1619,7 @@ The sequence number of the sequence identifier for the indication.
 > [!Note]  
 > The sequence identifier for the indication enables a listener to identify duplicate indications when the service attempts to redeliver indications, reorder indications that arrive out of order, and detect lost indications.
 
- 
+ 
 
 The sequence number has the following characteristics:
 
@@ -1734,7 +1739,7 @@ Provides information on trending - trending up, down or no change.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -1751,9 +1756,9 @@ Provides information on trending - trending up, down or no change.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

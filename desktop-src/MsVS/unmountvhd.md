@@ -1,8 +1,9 @@
 ---
 title: UnmountVHD function
 description: Unmounts a virtual hard disk file (.vhd file) that had been mounted with the MountVHD function.
-ms.assetid: '862ab967-607a-439e-8926-70f1a6ae49da'
-keywords: ["UnmountVHD function Virtual Server"]
+ms.assetid: 862ab967-607a-439e-8926-70f1a6ae49da
+keywords:
+- UnmountVHD function Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VHDMount.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnmountVHD function
@@ -22,8 +28,8 @@ Unmounts a virtual hard disk file (.vhd file) that had been mounted with the [**
 
 ```C++
 ULONG WINAPI UnmountVHD(
-  _In_ PWCHAR VHDFileName,
-  _In_ ULONG  Flags
+  _In_ PWCHAR VHDFileName,
+  _In_ ULONG  Flags
 );
 ```
 
@@ -54,7 +60,7 @@ This parameter is reserved. Use **VHD\_NORMAL** (0).
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -72,7 +78,7 @@ On successful call, the return value is **ERROR\_SUCCESS** (0). Any of the [syst
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -80,7 +86,7 @@ On successful call, the return value is **ERROR\_SUCCESS** (0). Any of the [syst
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VHDMount.h</dt> </dl>             |
 | Library<br/>  | <dl> <dt>VHDMount.lib</dt> </dl>           |
 | DLL<br/>      | <dl> <dt>VHDMount.dll</dt> </dl>           |
@@ -100,9 +106,9 @@ On successful call, the return value is **ERROR\_SUCCESS** (0). Any of the [syst
 [**VHD\_FLAGS**](vhd-flags.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

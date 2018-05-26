@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FixMediaTimes method rounds the specified time values to the nearest frame boundary, as defined by the output frame rate. In general, applications do not need to call this method.'
-ms.assetid: '11537715-3be1-4a3c-8700-50b13835ffe9'
-title: 'IAMTimelineSrc::FixMediaTimes method'
+---
+Description: The FixMediaTimes method rounds the specified time values to the nearest frame boundary, as defined by the output frame rate. In general, applications do not need to call this method.
+ms.assetid: 11537715-3be1-4a3c-8700-50b13835ffe9
+title: IAMTimelineSrcFixMediaTimes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineSrc::FixMediaTimes method

@@ -1,8 +1,9 @@
 ---
 title: MCI\_BREAK command
 description: The MCI\_BREAK command sets a break key for an MCI device. MCI supports this command directly rather than passing it to the device. Any MCI application can use this command.
-ms.assetid: '127b5179-2838-4bde-8d0c-37a4cc87fa4d'
-keywords: ["MCI_BREAK command Windows Multimedia"]
+ms.assetid: 127b5179-2838-4bde-8d0c-37a4cc87fa4d
+keywords:
+- MCI_BREAK command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_BREAK command
 
 The MCI\_BREAK command sets a break key for an MCI device. MCI supports this command directly rather than passing it to the device. Any MCI application can use this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -95,8 +101,8 @@ Disables any existing break key for the indicated device.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -111,9 +117,9 @@ Disables any existing break key for the indicated device.
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

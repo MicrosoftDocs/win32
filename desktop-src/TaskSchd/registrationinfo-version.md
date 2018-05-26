@@ -1,8 +1,11 @@
 ---
 title: RegistrationInfo.Version property
 description: For scripting, gets or sets the version number of the task.
-ms.assetid: 'e2305dbd-bb81-4854-86bd-d0c4f3cf78a1'
-keywords: ["Version property Task Scheduler", "Version property Task Scheduler , RegistrationInfo object", "RegistrationInfo object Task Scheduler , Version property"]
+ms.assetid: e2305dbd-bb81-4854-86bd-d0c4f3cf78a1
+keywords:
+- Version property Task Scheduler
+- Version property Task Scheduler , RegistrationInfo object
+- RegistrationInfo object Task Scheduler , Version property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegistrationInfo.Version property
@@ -40,8 +48,8 @@ When reading or writing XML for a task, the version number of the task is specif
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -54,9 +62,9 @@ When reading or writing XML for a task, the version number of the task is specif
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Print Monitor Functions
-ms.assetid: 'b002f543-ee36-4ee5-8b57-4c524cd8992c'
+ms.assetid: b002f543-ee36-4ee5-8b57-4c524cd8992c
 title: Print Monitor Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Print Monitor Functions

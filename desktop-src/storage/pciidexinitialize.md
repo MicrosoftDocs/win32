@@ -1,8 +1,9 @@
 ---
 title: PciIdeXInitialize routine
 description: The PciIdeXInitialize routine initializes a controller minidriver.
-ms.assetid: 'a4326cd7-673e-43b2-9f62-5a9277f6b9e8'
-keywords: ["PciIdeXInitialize routine Storage Devices"]
+ms.assetid: a4326cd7-673e-43b2-9f62-5a9277f6b9e8
+keywords:
+- PciIdeXInitialize routine Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -12,6 +13,11 @@ api_location:
 - Pciidex.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PciIdeXInitialize routine
@@ -23,10 +29,10 @@ The **PciIdeXInitialize** routine initializes a controller minidriver.
 
 ```C++
 NTSTATUS PciIdeXInitialize(
-  _In_ PDRIVER_OBJECT         DriverObject,
-  _In_ PUNICODE_STRING        RegistryPath,
-  _In_ PCONTROLLER_PROPERTIES HwGetControllerProperties,
-  _In_ ULONG                  ExtensionSize
+  _In_ PDRIVER_OBJECT         DriverObject,
+  _In_ PUNICODE_STRING        RegistryPath,
+  _In_ PCONTROLLER_PROPERTIES HwGetControllerProperties,
+  _In_ ULONG                  ExtensionSize
 );
 ```
 
@@ -96,9 +102,9 @@ An IDE controller minidriver must also implement a routine that reports the prop
 [**HwIdeXGetControllerProperties**](hwidexgetcontrollerproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20PciIdeXInitialize%20routine%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

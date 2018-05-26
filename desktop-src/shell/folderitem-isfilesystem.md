@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates if the item is part of the file system.'
-ms.assetid: '321a2109-88b5-4a41-9a67-dab3e82e95d8'
-title: 'FolderItem.IsFileSystem property'
+---
+Description: Indicates if the item is part of the file system.
+ms.assetid: 321a2109-88b5-4a41-9a67-dab3e82e95d8
+title: FolderItem.IsFileSystem property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItem.IsFileSystem property

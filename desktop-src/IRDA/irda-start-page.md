@@ -1,8 +1,18 @@
 ---
 title: Infrared Data Association
 description: Infrared Data Association (IrDA) is a protocol suite designed to provide wireless, line-of-sight connectivity between devices.
-ms.assetid: 'a6a230f5-85b9-4b28-9633-c33459c4eeef'
-keywords: ["IrDA IrDA", "IrDA IrDA , (See Infrared Data Association IrDA )", "Infrared Data Association IrDA", "Infrared Data Association IrDA , (See IrDA)", "Infrared Data Association IrDA , start page"]
+ms.assetid: a6a230f5-85b9-4b28-9633-c33459c4eeef
+keywords:
+- IrDA IrDA
+- IrDA IrDA , (See Infrared Data Association IrDA )
+- Infrared Data Association IrDA
+- Infrared Data Association IrDA , (See IrDA)
+- Infrared Data Association IrDA , start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Infrared Data Association
@@ -21,7 +31,7 @@ IrDA is designed for use by C/C++ programmers. Familiarity with Windows Sockets 
 
 ## Run-time requirements
 
-Microsoft provides support for IrDA on Windows Server 2003, Windows XP, Windows 2000, Windows Me/98/95, and Windows CE.
+Microsoft provides support for IrDA on Windows Server 2003, Windows XP, Windows 2000, Windows Me/98/95, and Windows CE.
 
 ## In this section
 
@@ -34,7 +44,7 @@ Microsoft provides support for IrDA on Windows Server 2003, Windows XP, Windows 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -43,9 +53,9 @@ Microsoft provides support for IrDA on Windows Server 2003, Windows XP, Windows 
 [Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

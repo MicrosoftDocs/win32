@@ -1,14 +1,20 @@
 ---
 title: RequiresUIAccess element
 description: The presence of this tag indicates that the assessment requires UI access in order to manipulate UI elements.
-ms.assetid: '4C0EFEB5-1CDD-4867-BCB9-5462EA6444FB'
-keywords: ["RequiresUIAccess element Access Execution Engine"]
+ms.assetid: 4C0EFEB5-1CDD-4867-BCB9-5462EA6444FB
+keywords:
+- RequiresUIAccess element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RequiresUIAccess
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresUIAccess element
@@ -56,9 +62,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

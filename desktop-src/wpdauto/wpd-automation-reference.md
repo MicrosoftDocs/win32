@@ -1,8 +1,20 @@
 ---
 title: WPD Automation Reference
 description: The WPD Automation Reference contains detailed information about the WPD Automation object model. The object model is designed for writing Web applications using JScript, to access the services and storages on a device.
-ms.assetid: 'c9fa92ab-8e6e-4b17-882c-83fcc0ac5c70'
-keywords: ["WPD Automation,reference", "WPD Automation,object model", "reference for WPD Automation", "Windows Portable Devices (WPD),WPD Automation object model", "WPD (Windows Portable Devices),WPD Automation object model", "Windows Portable Devices (WPD),WPD Automation", "WPD (Windows Portable Devices),WPD Automation"]
+ms.assetid: c9fa92ab-8e6e-4b17-882c-83fcc0ac5c70
+keywords:
+- WPD Automation,reference
+- WPD Automation,object model
+- reference for WPD Automation
+- Windows Portable Devices (WPD),WPD Automation object model
+- WPD (Windows Portable Devices),WPD Automation object model
+- Windows Portable Devices (WPD),WPD Automation
+- WPD (Windows Portable Devices),WPD Automation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD Automation Reference
@@ -35,7 +47,7 @@ The WPD Automation Reference also contains documentation for the following C++ i
 
 | Interface                                                                          | Description                                                                   |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| [**IPortableDeviceDispatchFactory**](iportabledevicedispatchfactory-interface.md) | Represents a factory that can instantiate a WPD Automation **Device** object. |
+| [**IPortableDeviceDispatchFactory**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicedispatchfactory?branch=master) | Represents a factory that can instantiate a WPD Automation **Device** object. |
 
 
 

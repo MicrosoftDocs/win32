@@ -4,11 +4,14 @@ description: Updates the security descriptor of the specified key with a new sec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4cbf8ea7-dc53-4fce-8694-0e80ded3e54b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 4cbf8ea7-dc53-4fce-8694-0e80ded3e54b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetSecurityDescriptor method", "SetSecurityDescriptor method, StdRegProv class", "StdRegProv class, SetSecurityDescriptor method"]
+keywords:
+- SetSecurityDescriptor method
+- SetSecurityDescriptor method, StdRegProv class
+- StdRegProv class, SetSecurityDescriptor method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Stdprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSecurityDescriptor method of the StdRegProv class
@@ -28,9 +34,9 @@ The **SetSecurityDescriptor** method updates the security descriptor of the spec
 
 ```mof
 uint32 SetSecurityDescriptor(
-  [in] uint32               hDefKey = HKEY_LOCAL_MACHINE,
-  [in] string               sSubKeyName,
-  [in] __SecurityDescriptor Descriptor
+  [in] uint32               hDefKey = HKEY_LOCAL_MACHINE,
+  [in] string               sSubKeyName,
+  [in] __SecurityDescriptor Descriptor
 );
 ```
 
@@ -132,8 +138,8 @@ When a new SACL is **NULL** in a call this method, then the security descriptor 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\default<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RegEvent.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Stdprov.dll</dt> </dl>  |
@@ -153,9 +159,9 @@ When a new SACL is **NULL** in a call this method, then the security descriptor 
 [WMI Tasks: Registry](https://msdn.microsoft.com/library/aa394600)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

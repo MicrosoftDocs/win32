@@ -2,13 +2,19 @@
 title: byte\_count attribute
 description: The \ byte\_count\ ACF attribute is a parameter attribute that associates a size, in bytes, with the memory area indicated by the pointer.
 ms.assetid: 7e146888-fe7c-461c-8615-70da1e3b12cd
-keywords: ["byte_count attribute MIDL"]
+keywords:
+- byte_count attribute MIDL
 topic_type:
 - apiref
 api_name:
 - byte_count
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # byte\_count attribute

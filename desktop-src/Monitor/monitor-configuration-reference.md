@@ -1,8 +1,18 @@
 ---
 title: Monitor Configuration Reference
 description: Monitor Configuration Reference
-ms.assetid: '2539620a-ad92-433e-9547-48eafdbde679'
-keywords: ["monitor,reference", "monitor,programming reference", "reference for monitor", "monitor configuration,programming reference", "monitor configuration,reference"]
+ms.assetid: 2539620a-ad92-433e-9547-48eafdbde679
+keywords:
+- monitor,reference
+- monitor,programming reference
+- reference for monitor
+- monitor configuration,programming reference
+- monitor configuration,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Monitor Configuration Reference

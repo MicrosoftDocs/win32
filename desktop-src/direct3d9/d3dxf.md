@@ -1,7 +1,12 @@
 ---
-Description: 'X file format, load, and save options.'
-ms.assetid: '813a2b4b-6577-4cdf-a2e6-e06870638354'
+Description: X file format, load, and save options.
+ms.assetid: 813a2b4b-6577-4cdf-a2e6-e06870638354
 title: D3DXF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXF

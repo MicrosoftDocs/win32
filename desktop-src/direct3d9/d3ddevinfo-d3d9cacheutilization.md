@@ -1,7 +1,12 @@
-﻿---
-Description: 'Measure the cache hit rate performance for textures and indexed vertices.'
-ms.assetid: '70bc4e93-0a34-485b-bdcc-028c24b52f62'
-title: 'D3DDEVINFO\_D3D9CACHEUTILIZATION structure'
+---
+Description: Measure the cache hit rate performance for textures and indexed vertices.
+ms.assetid: 70bc4e93-0a34-485b-bdcc-028c24b52f62
+title: D3DDEVINFO\_D3D9CACHEUTILIZATION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDEVINFO\_D3D9CACHEUTILIZATION structure
@@ -67,7 +72,7 @@ An efficient cache is typically closer to a 90 percent hit rate, and an ineffici
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetData**](idirect3dquery9--getdata.md)
+[**GetData**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-getdata?branch=master)
 </dt> </dl>
 
  

@@ -4,11 +4,14 @@ description: Refreshes the list of objects in the collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5997b76c-d130-4375-b6ff-5ea871f059cc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 5997b76c-d130-4375-b6ff-5ea871f059cc
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RescanDrives method Remote Desktop Services", "RescanDrives method Remote Desktop Services , IMsRdpDriveCollection interface", "IMsRdpDriveCollection interface Remote Desktop Services , RescanDrives method"]
+keywords:
+- RescanDrives method Remote Desktop Services
+- RescanDrives method Remote Desktop Services , IMsRdpDriveCollection interface
+- IMsRdpDriveCollection interface Remote Desktop Services , RescanDrives method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDriveCollection::RescanDrives method
@@ -28,7 +34,7 @@ Refreshes the list of objects in the collection.
 
 ```C++
 HRESULT RescanDrives(
-  [in] VARIANT_BOOL vboolDynRedir
+  [in] VARIANT_BOOL vboolDynRedir
 );
 ```
 
@@ -55,8 +61,8 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | IID<br/>                      | IID\_IMsRdpDriveCollection is defined as 7ff17599-da2c-4677-ad35-f60c04fe1585<br/> |
@@ -70,9 +76,9 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 [**IMsRdpDriveCollection**](imsrdpdrivecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

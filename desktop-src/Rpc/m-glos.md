@@ -2,7 +2,12 @@
 title: M
 description: Words starting with M in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
-ms.assetid: 'bb846cbd-0930-4558-887f-cd942c509e74'
+ms.assetid: bb846cbd-0930-4558-887f-cd942c509e74
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # M

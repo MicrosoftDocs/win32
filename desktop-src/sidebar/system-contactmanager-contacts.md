@@ -1,8 +1,11 @@
 ---
 title: System.ContactManager.Contacts property
 description: A collection of System.Contact objects.
-ms.assetid: '4045adbd-bd41-459c-b6bf-5b11cf4a8e7c'
-keywords: ["Contacts property Windows Sidebar", "Contacts property Windows Sidebar , System.ContactManager object", "System.ContactManager object Windows Sidebar , Contacts property"]
+ms.assetid: 4045adbd-bd41-459c-b6bf-5b11cf4a8e7c
+keywords:
+- Contacts property Windows Sidebar
+- Contacts property Windows Sidebar , System.ContactManager object
+- System.ContactManager object Windows Sidebar , Contacts property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ContactManager.Contacts property
@@ -22,7 +30,7 @@ A collection of [**System.Contact**](system-contact.md) objects.
 > [!Note]  
 > Objects of type [**System.Contact**](system-contact.md) can only be accessed through the **Contacts** collection. This collection is a member of [**System.ContactManager**](system-contactmanager.md).
 
- 
+ 
 
 This property is read-only.
 
@@ -68,10 +76,10 @@ var strContactCity = oContact.city;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -96,9 +104,9 @@ var strContactCity = oContact.city;
 [**System.Contact**](system-contact.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

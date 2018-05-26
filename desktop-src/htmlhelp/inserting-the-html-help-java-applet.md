@@ -1,7 +1,12 @@
 ---
 title: Inserting the HTML Help Java Applet
 description: Inserting the HTML Help Java Applet into a help topic or Web page involves adding the APPLET tag, and specifying the commands you would like the applet to perform.
-ms.assetid: '6F68853F-4395-478f-A9CC-89B7293B6129'
+ms.assetid: 6F68853F-4395-478f-A9CC-89B7293B6129
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inserting the HTML Help Java Applet
@@ -35,7 +40,7 @@ Inserting the HTML Help Java Applet into a help topic or Web page involves addin
 
     
 
-     
+     
 
 ## Related topics
 
@@ -44,9 +49,9 @@ Inserting the HTML Help Java Applet into a help topic or Web page involves addin
 [About the HTML Help Java Applet](about-the-html-help-java-applet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

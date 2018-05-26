@@ -1,7 +1,12 @@
 ---
-Description: 'Each writer produces a Writer Metadata Document.'
-ms.assetid: 'e23a6d79-1014-4023-a59f-dce01cf2889e'
+Description: Each writer produces a Writer Metadata Document.
+ms.assetid: e23a6d79-1014-4023-a59f-dce01cf2889e
 title: Working with the Writer Metadata Document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with the Writer Metadata Document

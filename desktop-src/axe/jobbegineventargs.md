@@ -1,8 +1,9 @@
 ---
 title: JobBeginEventArgs structure
 description: This structure defines the event arguments that are passed to an IJobBeginEventHandler OnJobBegin event.
-ms.assetid: 'CDDB82AF-2F5C-4857-947F-64BC021B4629'
-keywords: ["JobBeginEventArgs structure Access Execution Engine"]
+ms.assetid: CDDB82AF-2F5C-4857-947F-64BC021B4629
+keywords:
+- JobBeginEventArgs structure Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JobBeginEventArgs structure
@@ -22,7 +28,7 @@ This structure defines the event arguments that are passed to an IJobBeginEventH
 
 ```C++
 struct JobBeginEventArgs {
-  DWORD     Size;
+  DWORD     Size;
   const Job *Job;
 };
 ```
@@ -53,15 +59,15 @@ A pointer to the Job object that has been queued for execution. The Job object i
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

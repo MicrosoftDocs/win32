@@ -1,8 +1,14 @@
 ---
 title: Management Functions
 description: The Windows Filtering Platform (WFP) management functions for the filter engine are as follows.
-ms.assetid: '983eb1bb-af6b-42cf-8148-ed3a0e3102a9'
-keywords: ["Windows Filtering Platform API Management Functions"]
+ms.assetid: 983eb1bb-af6b-42cf-8148-ed3a0e3102a9
+keywords:
+- Windows Filtering Platform API Management Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Management Functions
@@ -11,172 +17,172 @@ The Windows Filtering Platform (WFP) management functions for the filter engine 
 
 Callout Management
 
--   [**FWPM\_CALLOUT\_CHANGE\_CALLBACK0**](fwpm-callout-change-callback0-func.md)
--   [**FwpmCalloutAdd0**](fwpmcalloutadd0-func.md)
--   [**FwpmCalloutCreateEnumHandle0**](fwpmcalloutcreateenumhandle0-func.md)
--   [**FwpmCalloutDeleteById0**](fwpmcalloutdeletebyid0-func.md)
--   [**FwpmCalloutDeleteByKey0**](fwpmcalloutdeletebykey0-func.md)
--   [**FwpmCalloutDestroyEnumHandle0**](fwpmcalloutdestroyenumhandle0-func.md)
--   [**FwpmCalloutEnum0**](fwpmcalloutenum0-func.md)
--   [**FwpmCalloutGetById0**](fwpmcalloutgetbyid0-func.md)
--   [**FwpmCalloutGetByKey0**](fwpmcalloutgetbykey0-func.md)
--   [**FwpmCalloutGetSecurityInfoByKey0**](fwpmcalloutgetsecurityinfobykey0-func.md)
--   [**FwpmCalloutSetSecurityInfoByKey0**](fwpmcalloutsetsecurityinfobykey0-func.md)
--   [**FwpmCalloutSubscribeChanges0**](fwpmcalloutsubscribechanges0-func.md)
--   [**FwpmCalloutSubscriptionsGet0**](fwpmcalloutsubscriptionsget0-func.md)
--   [**FwpmCalloutUnsubscribeChanges0**](fwpmcalloutunsubscribechanges0-func.md)
+-   [**FWPM\_CALLOUT\_CHANGE\_CALLBACK0**](/windows/win32/Fwpmu/nc-fwpmu-fwpm_callout_change_callback0?branch=master)
+-   [**FwpmCalloutAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutadd0?branch=master)
+-   [**FwpmCalloutCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutcreateenumhandle0?branch=master)
+-   [**FwpmCalloutDeleteById0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutdeletebyid0?branch=master)
+-   [**FwpmCalloutDeleteByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutdeletebykey0?branch=master)
+-   [**FwpmCalloutDestroyEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutdestroyenumhandle0?branch=master)
+-   [**FwpmCalloutEnum0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutenum0?branch=master)
+-   [**FwpmCalloutGetById0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutgetbyid0?branch=master)
+-   [**FwpmCalloutGetByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutgetbykey0?branch=master)
+-   [**FwpmCalloutGetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutgetsecurityinfobykey0?branch=master)
+-   [**FwpmCalloutSetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutsetsecurityinfobykey0?branch=master)
+-   [**FwpmCalloutSubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutsubscribechanges0?branch=master)
+-   [**FwpmCalloutSubscriptionsGet0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutsubscriptionsget0?branch=master)
+-   [**FwpmCalloutUnsubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutunsubscribechanges0?branch=master)
 
 Connection Object Management
 
--   [**FWPM\_CONNECTION\_CALLBACK0**](fwpm-connection-callback0.md)
--   [**FwpmConnectionCreateEnumHandle0**](fwpmconnectioncreateenumhandle0.md)
--   [**FwpmConnectionDestroyEnumHandle0**](fwpmconnectiondestroyenumhandle0.md)
--   [**FwpmConnectionEnum0**](fwpmconnectionenum0.md)
--   [**FwpmConnectionGetById0**](fwpmconnectiongetbyid0.md)
--   [**FwpmConnectionGetSecurityInfo0**](fwpmconnectiongetsecurityinfo0.md)
--   [**FwpmConnectionSetSecurityInfo0**](fwpmconnectionsetsecurityinfo0.md)
--   [**FwpmConnectionSubscribe0**](fwpmconnectionsubscribe0.md)
--   [**FwpmConnectionSubscriptionsGet0**](fwpmconnectionsubscriptionsget0.md)
--   [**FwpmConnectionUnsubscribe0**](fwpmconnectionunsubscribe0.md)
+-   [**FWPM\_CONNECTION\_CALLBACK0**](/windows/win32/Fwpmu/nc-fwpmu-fwpm_connection_callback0?branch=master)
+-   [**FwpmConnectionCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmconnectioncreateenumhandle0?branch=master)
+-   [**FwpmConnectionDestroyEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmconnectiondestroyenumhandle0?branch=master)
+-   [**FwpmConnectionEnum0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmconnectionenum0?branch=master)
+-   [**FwpmConnectionGetById0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmconnectiongetbyid0?branch=master)
+-   [**FwpmConnectionGetSecurityInfo0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmconnectiongetsecurityinfo0?branch=master)
+-   [**FwpmConnectionSetSecurityInfo0**](/windows/win32/fwpmu/nf-fwpmu-fwpmconnectionsetsecurityinfo0?branch=master)
+-   [**FwpmConnectionSubscribe0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmconnectionsubscribe0?branch=master)
+-   [**FwpmConnectionSubscriptionsGet0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmconnectionsubscriptionsget0?branch=master)
+-   [**FwpmConnectionUnsubscribe0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmconnectionunsubscribe0?branch=master)
 
 Event Management
 
 -   FWPM\_NET\_EVENT\_CALLBACK:
-    -   [**FWPM\_NET\_EVENT\_CALLBACK0**](fwpm-net-event-callback0-func.md) (Windows 7)
-    -   [**FWPM\_NET\_EVENT\_CALLBACK1**](fwpm-net-event-callback1.md) (Windows 8)
--   [**FwpmNetEventCreateEnumHandle0**](fwpmneteventcreateenumhandle0.md)
--   [**FwpmNetEventDestroyEnumHandle0**](fwpmneteventdestroyenumhandle0.md)
+    -   [**FWPM\_NET\_EVENT\_CALLBACK0**](/windows/win32/Fwpmu/nc-fwpmu-fwpm_net_event_callback0?branch=master) (Windows 7)
+    -   [**FWPM\_NET\_EVENT\_CALLBACK1**](/windows/win32/fwpmu/nc-fwpmu-fwpm_net_event_callback1?branch=master) (Windows 8)
+-   [**FwpmNetEventCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventcreateenumhandle0?branch=master)
+-   [**FwpmNetEventDestroyEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventdestroyenumhandle0?branch=master)
 -   FwpmNetEventEnum:
-    -   [**FwpmNetEventEnum0**](fwpmneteventenum0.md) (Windows Vista)
-    -   [**FwpmNetEventEnum1**](fwpmneteventenum1.md) (Windows 7)
-    -   [**FwpmNetEventEnum2**](fwpmneteventenum2.md) (Windows 8)
--   [**FwpmNetEventsGetSecurityInfo0**](fwpmneteventsgetsecurityinfo0.md)
--   [**FwpmNetEventsSetSecurityInfo0**](fwpmneteventssetsecurityinfo0.md)
+    -   [**FwpmNetEventEnum0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventenum0?branch=master) (Windows Vista)
+    -   [**FwpmNetEventEnum1**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventenum1?branch=master) (Windows 7)
+    -   [**FwpmNetEventEnum2**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventenum2?branch=master) (Windows 8)
+-   [**FwpmNetEventsGetSecurityInfo0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventsgetsecurityinfo0?branch=master)
+-   [**FwpmNetEventsSetSecurityInfo0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventssetsecurityinfo0?branch=master)
 -   FwpmNetEventsSubscribe:
-    -   [**FwpmNetEventSubscribe0**](fwpmneteventsubscribe0.md) (Windows 7)
-    -   [**FwpmNetEventSubscribe1**](fwpmneteventsubscribe1.md) (Windows 8)
--   [**FwpmNetEventSubscriptionsGet0**](fwpmneteventsubscriptionsget0.md)
--   [**FwpmNetEventUnsubscribe0**](fwpmneteventunsubscribe0.md)
+    -   [**FwpmNetEventSubscribe0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventsubscribe0?branch=master) (Windows 7)
+    -   [**FwpmNetEventSubscribe1**](/windows/win32/fwpmu/nf-fwpmu-fwpmneteventsubscribe1?branch=master) (Windows 8)
+-   [**FwpmNetEventSubscriptionsGet0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventsubscriptionsget0?branch=master)
+-   [**FwpmNetEventUnsubscribe0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventunsubscribe0?branch=master)
 
 Filter Management
 
--   [**FWPM\_FILTER\_CHANGE\_CALLBACK0**](fwpm-filter-change-callback0-func.md)
--   [**FwpmFilterAdd0**](fwpmfilteradd0-func.md)
--   [**FwpmFilterCreateEnumHandle0**](fwpmfiltercreateenumhandle0-func.md)
--   [**FwpmFilterDeleteById0**](fwpmfilterdeletebyid0-func.md)
--   [**FwpmFilterDeleteByKey0**](fwpmfilterdeletebykey0-func.md)
--   [**FwpmFilterDestroyEnumHandle0**](fwpmfilterdestroyenumhandle0-func.md)
--   [**FwpmFilterEnum0**](fwpmfilterenum0-func.md)
--   [**FwpmFilterGetById0**](fwpmfiltergetbyid0-func.md)
--   [**FwpmFilterGetByKey0**](fwpmfiltergetbykey0-func.md)
--   [**FwpmFilterGetSecurityInfoByKey0**](fwpmfiltergetsecurityinfobykey0-func.md)
--   [**FwpmFilterSetSecurityInfoByKey0**](fwpmfiltersetsecurityinfobykey0-func.md)
--   [**FwpmFilterSubscribeChanges0**](fwpmfiltersubscribechanges0-func.md)
--   [**FwpmFilterSubscriptionsGet0**](fwpmfiltersubscriptionsget0-func.md)
--   [**FwpmFilterUnsubscribeChanges0**](fwpmfilterunsubscribechanges0-func.md)
--   [**FwpmGetAppIdFromFileName0**](fwpmgetappidfromfilename0.md)
+-   [**FWPM\_FILTER\_CHANGE\_CALLBACK0**](/windows/win32/Fwpmu/nc-fwpmu-fwpm_filter_change_callback0?branch=master)
+-   [**FwpmFilterAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilteradd0?branch=master)
+-   [**FwpmFilterCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfiltercreateenumhandle0?branch=master)
+-   [**FwpmFilterDeleteById0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilterdeletebyid0?branch=master)
+-   [**FwpmFilterDeleteByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilterdeletebykey0?branch=master)
+-   [**FwpmFilterDestroyEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilterdestroyenumhandle0?branch=master)
+-   [**FwpmFilterEnum0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilterenum0?branch=master)
+-   [**FwpmFilterGetById0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfiltergetbyid0?branch=master)
+-   [**FwpmFilterGetByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfiltergetbykey0?branch=master)
+-   [**FwpmFilterGetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfiltergetsecurityinfobykey0?branch=master)
+-   [**FwpmFilterSetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfiltersetsecurityinfobykey0?branch=master)
+-   [**FwpmFilterSubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfiltersubscribechanges0?branch=master)
+-   [**FwpmFilterSubscriptionsGet0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfiltersubscriptionsget0?branch=master)
+-   [**FwpmFilterUnsubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilterunsubscribechanges0?branch=master)
+-   [**FwpmGetAppIdFromFileName0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmgetappidfromfilename0?branch=master)
 
 Layer Management
 
--   [**FwpmLayerCreateEnumHandle0**](fwpmlayercreateenumhandle0-func.md)
--   [**FwpmLayerDestroyEnumHandle0**](fwpmlayerdestroyenumhandle0-func.md)
--   [**FwpmLayerEnum0**](fwpmlayerenum0-func.md)
--   [**FwpmLayerGetById0**](fwpmlayergetbyid0-func.md)
--   [**FwpmLayerGetByKey0**](fwpmlayergetbykey0-func.md)
--   [**FwpmLayerGetSecurityInfoByKey0**](fwpmlayergetsecurityinfobykey0-func.md)
--   [**FwpmLayerSetSecurityInfoByKey0**](fwpmlayersetsecurityinfobykey0-func.md)
+-   [**FwpmLayerCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayercreateenumhandle0?branch=master)
+-   [**FwpmLayerDestroyEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayerdestroyenumhandle0?branch=master)
+-   [**FwpmLayerEnum0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayerenum0?branch=master)
+-   [**FwpmLayerGetById0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayergetbyid0?branch=master)
+-   [**FwpmLayerGetByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayergetbykey0?branch=master)
+-   [**FwpmLayerGetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayergetsecurityinfobykey0?branch=master)
+-   [**FwpmLayerSetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayersetsecurityinfobykey0?branch=master)
 
 Provider Context Management
 
--   [**FWPM\_PROVIDER\_CONTEXT\_CHANGE\_CALLBACK0**](fwpm-provider-context-change-callback0-func.md)
+-   [**FWPM\_PROVIDER\_CONTEXT\_CHANGE\_CALLBACK0**](/windows/win32/Fwpmu/nc-fwpmu-fwpm_provider_context_change_callback0?branch=master)
 -   FwpmProviderContextAdd:
-    -   [**FwpmProviderContextAdd0**](fwpmprovidercontextadd0-func.md) (Windows Vista)
-    -   [**FwpmProviderContextAdd1**](fwpmprovidercontextadd1-func.md) (Windows 7)
-    -   [**FwpmProviderContextAdd2**](fwpmprovidercontextadd2.md) (Windows 8)
--   [**FwpmProviderContextCreateEnumHandle0**](fwpmprovidercontextcreateenumhandle0-func.md)
--   [**FwpmProviderContextDeleteById0**](fwpmprovidercontextdeletebyid0-func.md)
--   [**FwpmProviderContextDeleteByKey0**](fwpmprovidercontextdeletebykey0-func.md)
--   [**FwpmProviderContextDestroyEnumHandle0**](fwpmprovidercontextdestroyenumhandle0-func.md)
+    -   [**FwpmProviderContextAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextadd0?branch=master) (Windows Vista)
+    -   [**FwpmProviderContextAdd1**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextadd1?branch=master) (Windows 7)
+    -   [**FwpmProviderContextAdd2**](/windows/win32/fwpmu/nf-fwpmu-fwpmprovidercontextadd2?branch=master) (Windows 8)
+-   [**FwpmProviderContextCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextcreateenumhandle0?branch=master)
+-   [**FwpmProviderContextDeleteById0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextdeletebyid0?branch=master)
+-   [**FwpmProviderContextDeleteByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextdeletebykey0?branch=master)
+-   [**FwpmProviderContextDestroyEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextdestroyenumhandle0?branch=master)
 -   FwpmProviderContextEnum:
-    -   [**FwpmProviderContextEnum0**](fwpmprovidercontextenum0-func.md) (Windows Vista)
-    -   [**FwpmProviderContextEnum1**](fwpmprovidercontextenum1-func.md) (Windows 7)
-    -   [**FwpmProviderContextEnum2**](fwpmprovidercontextenum2.md) (Windows 8)
+    -   [**FwpmProviderContextEnum0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextenum0?branch=master) (Windows Vista)
+    -   [**FwpmProviderContextEnum1**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextenum1?branch=master) (Windows 7)
+    -   [**FwpmProviderContextEnum2**](/windows/win32/fwpmu/nf-fwpmu-fwpmprovidercontextenum2?branch=master) (Windows 8)
 -   FwpmProviderContextGetById:
-    -   [**FwpmProviderContextGetById0**](fwpmprovidercontextgetbyid0-func.md) (Windows Vista)
-    -   [**FwpmProviderContextGetById1**](fwpmprovidercontextgetbyid1-func.md) (Windows 7)
-    -   [**FwpmProviderContextGetById2**](fwpmprovidercontextgetbyid2.md) (Windows 8)
+    -   [**FwpmProviderContextGetById0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextgetbyid0?branch=master) (Windows Vista)
+    -   [**FwpmProviderContextGetById1**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextgetbyid1?branch=master) (Windows 7)
+    -   [**FwpmProviderContextGetById2**](/windows/win32/fwpmu/nf-fwpmu-fwpmprovidercontextgetbyid2?branch=master) (Windows 8)
 -   FwpmProviderContextGetByKey:
-    -   [**FwpmProviderContextGetByKey0**](fwpmprovidercontextgetbykey0-func.md) (Windows Vista)
-    -   [**FwpmProviderContextGetByKey1**](fwpmprovidercontextgetbykey1-func.md) (Windows 7)
-    -   [**FwpmProviderContextGetByKey2**](fwpmprovidercontextgetbykey2.md) (Windows 8)
--   [**FwpmProviderContextGetSecurityInfoByKey0**](fwpmprovidercontextgetsecurityinfobykey0-func.md)
--   [**FwpmProviderContextSetSecurityInfoByKey0**](fwpmprovidercontextsetsecurityinfobykey0-func.md)
--   [**FwpmProviderContextSubscribeChanges0**](fwpmprovidercontextsubscribechanges0-func.md)
--   [**FwpmProviderContextSubscriptionsGet0**](fwpmprovidercontextsubscriptionsget0-func.md)
--   [**FwpmProviderContextUnsubscribeChanges0**](fwpmprovidercontextunsubscribechanges0-func.md)
+    -   [**FwpmProviderContextGetByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextgetbykey0?branch=master) (Windows Vista)
+    -   [**FwpmProviderContextGetByKey1**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextgetbykey1?branch=master) (Windows 7)
+    -   [**FwpmProviderContextGetByKey2**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextgetbykey2?branch=master) (Windows 8)
+-   [**FwpmProviderContextGetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextgetsecurityinfobykey0?branch=master)
+-   [**FwpmProviderContextSetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextsetsecurityinfobykey0?branch=master)
+-   [**FwpmProviderContextSubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextsubscribechanges0?branch=master)
+-   [**FwpmProviderContextSubscriptionsGet0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextsubscriptionsget0?branch=master)
+-   [**FwpmProviderContextUnsubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercontextunsubscribechanges0?branch=master)
 
 Provider Management
 
--   [**FWPM\_PROVIDER\_CHANGE\_CALLBACK0**](fwpm-provider-change-callback0-func.md)
--   [**FwpmProviderAdd0**](fwpmprovideradd0-func.md)
--   [**FwpmProviderCreateEnumHandle0**](fwpmprovidercreateenumhandle0-func.md)
--   [**FwpmProviderDeleteByKey0**](fwpmproviderdeletebykey0-func.md)
--   [**FwpmProviderDestroyEnumHandle0**](fwpmproviderdestroyenumhandle0-func.md)
--   [**FwpmProviderEnum0**](fwpmproviderenum0-func.md)
--   [**FwpmProviderGetByKey0**](fwpmprovidergetbykey0-func.md)
--   [**FwpmProviderGetSecurityInfoByKey0**](fwpmprovidergetsecurityinfobykey0-func.md)
--   [**FwpmProviderSetSecurityInfoByKey0**](fwpmprovidersetsecurityinfobykey0-func.md)
--   [**FwpmProviderSubscribeChanges0**](fwpmprovidersubscribechanges0-func.md)
--   [**FwpmProviderSubscriptionsGet0**](fwpmprovidersubscriptionsget0-func.md)
--   [**FwpmProviderUnsubscribeChanges0**](fwpmproviderunsubscribechanges0-func.md)
+-   [**FWPM\_PROVIDER\_CHANGE\_CALLBACK0**](/windows/win32/Fwpmu/nc-fwpmu-fwpm_provider_change_callback0?branch=master)
+-   [**FwpmProviderAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovideradd0?branch=master)
+-   [**FwpmProviderCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidercreateenumhandle0?branch=master)
+-   [**FwpmProviderDeleteByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmproviderdeletebykey0?branch=master)
+-   [**FwpmProviderDestroyEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmproviderdestroyenumhandle0?branch=master)
+-   [**FwpmProviderEnum0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmproviderenum0?branch=master)
+-   [**FwpmProviderGetByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidergetbykey0?branch=master)
+-   [**FwpmProviderGetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidergetsecurityinfobykey0?branch=master)
+-   [**FwpmProviderSetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidersetsecurityinfobykey0?branch=master)
+-   [**FwpmProviderSubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidersubscribechanges0?branch=master)
+-   [**FwpmProviderSubscriptionsGet0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidersubscriptionsget0?branch=master)
+-   [**FwpmProviderUnsubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmproviderunsubscribechanges0?branch=master)
 
 Session Management
 
--   [**FwpmEngineClose0**](fwpmengineclose0-func.md)
--   [**FwpmEngineGetOption0**](fwpmenginegetoption0.md)
--   [**FwpmEngineGetSecurityInfo0**](fwpmenginegetsecurityinfo0.md)
--   [**FwpmEngineOpen0**](fwpmengineopen0-func.md)
--   [**FwpmEngineSetOption0**](fwpmenginesetoption0.md)
--   [**FwpmEngineSetSecurityInfo0**](fwpmenginesetsecurityinfo0.md)
--   [**FwpmSessionCreateEnumHandle0**](fwpmsessioncreateenumhandle0-func.md)
--   [**FwpmSessionDestroyEnumHandle0**](fwpmsessiondestroyenumhandle0-func.md)
--   [**FwpmSessionEnum0**](fwpmsessionenum0-func.md)
+-   [**FwpmEngineClose0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmengineclose0?branch=master)
+-   [**FwpmEngineGetOption0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmenginegetoption0?branch=master)
+-   [**FwpmEngineGetSecurityInfo0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmenginegetsecurityinfo0?branch=master)
+-   [**FwpmEngineOpen0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmengineopen0?branch=master)
+-   [**FwpmEngineSetOption0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmenginesetoption0?branch=master)
+-   [**FwpmEngineSetSecurityInfo0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmenginesetsecurityinfo0?branch=master)
+-   [**FwpmSessionCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsessioncreateenumhandle0?branch=master)
+-   [**FwpmSessionDestroyEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsessiondestroyenumhandle0?branch=master)
+-   [**FwpmSessionEnum0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsessionenum0?branch=master)
 
 Sublayer Management
 
--   [**FWPM\_SUBLAYER\_CHANGE\_CALLBACK0**](fwpm-sublayer-change-callback0-func.md)
--   [**FwpmSubLayerAdd0**](fwpmsublayeradd0-func.md)
--   [**FwpmSubLayerCreateEnumHandle0**](fwpmsublayercreateenumhandle0-func.md)
--   [**FwpmSubLayerDeleteByKey0**](fwpmsublayerdeletebykey0-func.md)
--   [**FwpmSubLayerDestroyEnumHandle0**](fwpmsublayerdestroyenumhandle0-func.md)
--   [**FwpmSubLayerEnum0**](fwpmsublayerenum0-func.md)
--   [**FwpmSubLayerGetByKey0**](fwpmsublayergetbykey0-func.md)
--   [**FwpmSubLayerGetSecurityInfoByKey0**](fwpmsublayergetsecurityinfobykey0-func.md)
--   [**FwpmSubLayerSetSecurityInfoByKey0**](fwpmsublayersetsecurityinfobykey0-func.md)
--   [**FwpmSubLayerSubscribeChanges0**](fwpmsublayersubscribechanges0-func.md)
--   [**FwpmSubLayerSubscriptionsGet0**](fwpmsublayersubscriptionsget0-func.md)
--   [**FwpmSubLayerUnsubscribeChanges0**](fwpmsublayerunsubscribechanges0-func.md)
+-   [**FWPM\_SUBLAYER\_CHANGE\_CALLBACK0**](/windows/win32/Fwpmu/nc-fwpmu-fwpm_sublayer_change_callback0?branch=master)
+-   [**FwpmSubLayerAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsublayeradd0?branch=master)
+-   [**FwpmSubLayerCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsublayercreateenumhandle0?branch=master)
+-   [**FwpmSubLayerDeleteByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsublayerdeletebykey0?branch=master)
+-   [**FwpmSubLayerDestroyEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsublayerdestroyenumhandle0?branch=master)
+-   [**FwpmSubLayerEnum0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsublayerenum0?branch=master)
+-   [**FwpmSubLayerGetByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsublayergetbykey0?branch=master)
+-   [**FwpmSubLayerGetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsublayergetsecurityinfobykey0?branch=master)
+-   [**FwpmSubLayerSetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsublayersetsecurityinfobykey0?branch=master)
+-   [**FwpmSubLayerSubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsublayersubscribechanges0?branch=master)
+-   [**FwpmSubLayerSubscriptionsGet0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsublayersubscriptionsget0?branch=master)
+-   [**FwpmSubLayerUnsubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsublayerunsubscribechanges0?branch=master)
 
 System Ports Management
 
--   [**FWPM\_SYSTEM\_PORTS\_CALLBACK0**](fwpm-system-ports-callback0-func.md)
--   [**FwpmSystemPortsGet0**](fwpmsystemportsget0.md)
--   [**FwpmSystemPortsSubscribe0**](fwpmsystemportssubscribe0.md)
--   [**FwpmSystemPortsUnsubscribe0**](fwpmsystemportsunsubscribe0.md)
+-   [**FWPM\_SYSTEM\_PORTS\_CALLBACK0**](/windows/win32/Fwpmu/nc-fwpmu-fwpm_system_ports_callback0?branch=master)
+-   [**FwpmSystemPortsGet0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsystemportsget0?branch=master)
+-   [**FwpmSystemPortsSubscribe0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsystemportssubscribe0?branch=master)
+-   [**FwpmSystemPortsUnsubscribe0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmsystemportsunsubscribe0?branch=master)
 
 Transaction Management
 
--   [**FwpmTransactionAbort0**](fwpmtransactionabort0-func.md)
--   [**FwpmTransactionBegin0**](fwpmtransactionbegin0-func.md)
--   [**FwpmTransactionCommit0**](fwpmtransactioncommit0-func.md)
+-   [**FwpmTransactionAbort0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmtransactionabort0?branch=master)
+-   [**FwpmTransactionBegin0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmtransactionbegin0?branch=master)
+-   [**FwpmTransactionCommit0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmtransactioncommit0?branch=master)
 
 vSwitch Management
 
--   [**FWPM\_VSWITCH\_EVENT\_CALLBACK0**](fwpm-vswitch-event-callback0.md)
--   [**FwpmvSwitchEventsGetSecurityInfo0**](fwpmvswitcheventsgetsecurityinfo0.md)
--   [**FwpmvSwitchEventsSetSecurityInfo0**](fwpmvswitcheventssetsecurityinfo0.md)
--   [**FwpmvSwitchEventSubscribe0**](fwpmvswitcheventsubscribe0.md)
--   [**FwpmvSwitchEventUnsubscribe0**](fwpmvswitcheventunsubscribe0.md)
+-   [**FWPM\_VSWITCH\_EVENT\_CALLBACK0**](/windows/win32/Fwpmu/nc-fwpmu-fwpm_vswitch_event_callback0?branch=master)
+-   [**FwpmvSwitchEventsGetSecurityInfo0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmvswitcheventsgetsecurityinfo0?branch=master)
+-   [**FwpmvSwitchEventsSetSecurityInfo0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmvswitcheventssetsecurityinfo0?branch=master)
+-   [**FwpmvSwitchEventSubscribe0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmvswitcheventsubscribe0?branch=master)
+-   [**FwpmvSwitchEventUnsubscribe0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmvswitcheventunsubscribe0?branch=master)
 
  
 

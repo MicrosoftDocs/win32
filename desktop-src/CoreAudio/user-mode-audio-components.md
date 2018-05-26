@@ -1,7 +1,12 @@
 ---
-Description: 'User-Mode Audio Components'
-ms.assetid: 'b240b629-5bb6-4b07-95be-8ca5a14a3567'
-title: 'User-Mode Audio Components'
+Description: User-Mode Audio Components
+ms.assetid: b240b629-5bb6-4b07-95be-8ca5a14a3567
+title: User-Mode Audio Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User-Mode Audio Components

@@ -1,8 +1,9 @@
 ---
 title: OpenStateChange Event of the AxWindowsMediaPlayer Object
 description: The OpenStateChange event occurs when the openState property changes value.
-ms.assetid: '0229f8b4-7216-44f6-9838-a640b99bd9f3'
-keywords: ["OpenStateChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 0229f8b4-7216-44f6-9838-a640b99bd9f3
+keywords:
+- OpenStateChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenStateChange Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Ope
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -73,9 +79,9 @@ Windows Media Player states are not guaranteed to occur in any particular order.
 [**AxWindowsMediaPlayer.openState (VB and C#)**](axwmplib-axwindowsmediaplayer-openstate--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

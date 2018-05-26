@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_DRIVER\_GET\_CAPS message
 description: The WM\_CAP\_DRIVER\_GET\_CAPS message returns the hardware capabilities of the capture driver currently connected to a capture window. You can send this message explicitly or by using the capDriverGetCaps macro.
-ms.assetid: '898a800c-1109-47cd-bcc9-cb61d86a4a2e'
-keywords: ["WM_CAP_DRIVER_GET_CAPS message Windows Multimedia"]
+ms.assetid: 898a800c-1109-47cd-bcc9-cb61d86a4a2e
+keywords:
+- WM_CAP_DRIVER_GET_CAPS message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_DRIVER\_GET\_CAPS message
 
-The **WM\_CAP\_DRIVER\_GET\_CAPS** message returns the hardware capabilities of the capture driver currently connected to a capture window. You can send this message explicitly or by using the [**capDriverGetCaps**](capdrivergetcaps.md) macro.
+The **WM\_CAP\_DRIVER\_GET\_CAPS** message returns the hardware capabilities of the capture driver currently connected to a capture window. You can send this message explicitly or by using the [**capDriverGetCaps**](/windows/win32/Vfw/nf-vfw-capdrivergetcaps?branch=master) macro.
 
 
 ```C++
@@ -40,7 +46,7 @@ Size, in bytes, of the structure referenced by**s**.
 <span id="psCaps"></span><span id="pscaps"></span><span id="PSCAPS"></span>*psCaps*
 </dt> <dd>
 
-Pointer to the [**CAPDRIVERCAPS**](capdrivercaps.md) structure to contain the hardware capabilities.
+Pointer to the [**CAPDRIVERCAPS**](/windows/win32/Vfw/ns-vfw-tagcapdrivercaps?branch=master) structure to contain the hardware capabilities.
 
 </dd> </dl>
 
@@ -50,7 +56,7 @@ Returns **TRUE** if successful or **FALSE** if the capture window is not connect
 
 ## Remarks
 
-The capabilities returned in [**CAPDRIVERCAPS**](capdrivercaps.md) are constant for a given capture driver. Applications need to retrieve this information once when the capture driver is first connected to a capture window.
+The capabilities returned in [**CAPDRIVERCAPS**](/windows/win32/Vfw/ns-vfw-tagcapdrivercaps?branch=master) are constant for a given capture driver. Applications need to retrieve this information once when the capture driver is first connected to a capture window.
 
 ## Requirements
 
@@ -58,8 +64,8 @@ The capabilities returned in [**CAPDRIVERCAPS**](capdrivercaps.md) are constant 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ The capabilities returned in [**CAPDRIVERCAPS**](capdrivercaps.md) are constant 
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

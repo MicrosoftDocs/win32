@@ -1,7 +1,12 @@
 ---
-Description: 'Removes existing key-value pairs from a virtual machine.'
-ms.assetid: 'B2ECF609-89BB-4117-982B-EF56D51E1321'
-title: 'RemoveKvpItems method of the Msvm\_VirtualSystemManagementService class'
+Description: Removes existing key-value pairs from a virtual machine.
+ms.assetid: B2ECF609-89BB-4117-982B-EF56D51E1321
+title: RemoveKvpItems method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveKvpItems method of the Msvm\_VirtualSystemManagementService class
@@ -13,9 +18,9 @@ Removes existing key-value pairs from a virtual machine.
 
 ```mof
 uint32 RemoveKvpItems(
-  [in]  CIM_ComputerSystem REF TargetSystem,
-  [in]  string                 DataItems[],
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF TargetSystem,
+  [in]  string                 DataItems[],
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -110,7 +115,7 @@ The following C# sample removes key-value pairs from a virtual machine. The refe
 > \[!Important\]  
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -173,7 +178,7 @@ The following Visual Basic Scripting Edition (VBScript) sample removes key-value
 > \[!Important\]  
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -333,8 +338,8 @@ End Function
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -348,9 +353,9 @@ End Function
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,15 @@
 title: DnsServerRecursion class
 description: Represents the recursion settings on a DNS server.
 audience: developer
-ms.assetid: '7ed64a05-b62c-4967-8b0e-64e066e434b8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7ed64a05-b62c-4967-8b0e-64e066e434b8
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerRecursion class", "DnsServerRecursion class, described"]
+keywords:
+- DnsServerRecursion class
+- DnsServerRecursion class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerRecursion class
@@ -36,9 +41,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerRecursion
 {
-  uint32  Timeout;
-  uint32  RetryInterval;
-  uint32  AdditionalTimeout;
+  uint32  Timeout;
+  uint32  RetryInterval;
+  uint32  AdditionalTimeout;
   boolean Enable;
   boolean SecureResponse;
 };
@@ -128,7 +133,7 @@ The number of seconds that a DNS server waits before it stops trying to contact 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -142,9 +147,9 @@ The number of seconds that a DNS server waits before it stops trying to contact 
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

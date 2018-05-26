@@ -1,8 +1,11 @@
 ---
 title: ChangeOwner method of the Win32\_UserProfile class
-description: Changes a user profile's owner.
-ms.assetid: 'b073a403-9850-4a4d-ba64-320cad5d8fed'
-keywords: ["ChangeOwner method User State Manageability API", "ChangeOwner method User State Manageability API , Win32_UserProfile class", "Win32_UserProfile class User State Manageability API , ChangeOwner method"]
+description: Changes a user profiles owner.
+ms.assetid: b073a403-9850-4a4d-ba64-320cad5d8fed
+keywords:
+- ChangeOwner method User State Manageability API
+- ChangeOwner method User State Manageability API , Win32_UserProfile class
+- Win32_UserProfile class User State Manageability API , ChangeOwner method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChangeOwner method of the Win32\_UserProfile class
@@ -22,8 +30,8 @@ Changes a user profile's owner.
 
 ```mof
 uint32 ChangeOwner(
-  [in] string NewOwnerSID,
-  [in] uint32 Flags
+  [in] string NewOwnerSID,
+  [in] uint32 Flags
 );
 ```
 
@@ -54,7 +62,7 @@ Flag values that control what happens to the new owner's existing profile, if su
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -64,8 +72,8 @@ Flag values that control what happens to the new owner's existing profile, if su
 
 |                                     |                                                                                                       |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                  |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                |
 | MOF<br/>                      | <dl> <dt>UserProfileWmiProvider.mof</dt> </dl> |
 
@@ -78,9 +86,9 @@ Flag values that control what happens to the new owner's existing profile, if su
 [**Win32\_UserProfile**](win32-userprofile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

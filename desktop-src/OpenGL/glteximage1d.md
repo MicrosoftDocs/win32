@@ -1,8 +1,9 @@
 ---
 title: glTexImage1D function
 description: The glTexImage1D function specifies a one-dimensional texture image.
-ms.assetid: '4f537b89-2ea2-4e2e-8c57-c372bf53f12c'
-keywords: ["glTexImage1D function OpenGL"]
+ms.assetid: 4f537b89-2ea2-4e2e-8c57-c372bf53f12c
+keywords:
+- glTexImage1D function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glTexImage1D function
@@ -22,14 +28,14 @@ The **glTexImage1D** function specifies a one-dimensional texture image.
 
 ```C++
 void WINAPI glTexImage1D(
-         GLenum  target,
-         GLint   level,
-         GLint   internalformat,
-         GLsizei width,
-         GLint   border,
-         GLint   format,
-         GLenum  type,
-   const GLvoid  *pixels
+         GLenum  target,
+         GLint   level,
+         GLint   internalformat,
+         GLsizei width,
+         GLint   border,
+         GLint   format,
+         GLenum  type,
+   const GLvoid  *pixels
 );
 ```
 
@@ -63,7 +69,7 @@ Specifies the number of color components in the texture. Must be 1, 2, 3, or 4, 
 *width* 
 </dt> <dd>
 
-The width of the texture image. Must be 2*n* + 2( *border* ) for some integer *n*. The height of the texture image is 1.
+The width of the texture image. Must be 2*n* + 2( *border* ) for some integer *n*. The height of the texture image is 1.
 
 </dd> <dt>
 
@@ -97,7 +103,7 @@ The format of the pixel data. It can assume one of nine symbolic values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -133,7 +139,7 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 | <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *type* was GL\_BITMAP and *format* was not GL\_COLOR\_INDEX.<br/>                                                                                                                                                        |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* was less than zero or greater than log2*max*, where *max* was the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>                                                                                                 |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *internalformat* was was not 1, 2, 3, or 4.<br/>                                                                                                                                                                         |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *width* was less than zero or greater than 2 + GL\_MAX\_TEXTURE\_SIZE, or it could not be represented as 2*n* + 2(border) for some integer value of *n*.<br/>                                                            |
+| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *width* was less than zero or greater than 2 + GL\_MAX\_TEXTURE\_SIZE, or it could not be represented as 2*n* + 2(border) for some integer value of *n*.<br/>                                                            |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *border* was not 0 or 1.<br/>                                                                                                                                                                                            |
 | <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/>                                                                                          |
 
@@ -153,7 +159,7 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 | <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *type* was GL\_BITMAP and *format* was not GL\_COLOR\_INDEX.<br/>                                                                                                                                                        |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* was less than zero or greater than log2*max*, where *max* was the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>                                                                                                 |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *internalformat* was was not 1, 2, 3, or 4.<br/>                                                                                                                                                                         |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *width* was less than zero or greater than 2 + GL\_MAX\_TEXTURE\_SIZE, or it could not be represented as 2*n* + 2(border) for some integer value of *n*.<br/>                                                            |
+| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *width* was less than zero or greater than 2 + GL\_MAX\_TEXTURE\_SIZE, or it could not be represented as 2*n* + 2(border) for some integer value of *n*.<br/>                                                            |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *border* was not 0 or 1.<br/>                                                                                                                                                                                            |
 | <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/>                                                                                          |
 
@@ -187,8 +193,8 @@ The following functions retrieve information related to **glTexImageID**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -256,9 +262,9 @@ The following functions retrieve information related to **glTexImageID**:
 [**glTexParameter**](gltexparameter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

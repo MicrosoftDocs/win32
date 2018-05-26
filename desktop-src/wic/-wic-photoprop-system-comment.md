@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Comment property.'
-ms.assetid: '02a6ac18-ad69-4880-a267-8330d648c0d9'
-title: 'System.Comment Photo Metadata Policy'
+Description: The photo metadata policy for the System.Comment property.
+ms.assetid: 02a6ac18-ad69-4880-a267-8330d648c0d9
+title: System.Comment Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Comment Photo Metadata Policy

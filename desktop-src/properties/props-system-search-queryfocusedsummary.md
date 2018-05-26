@@ -1,7 +1,12 @@
 ---
-Description: 'The query-focused summary of the document.'
-ms.assetid: '99fb269a-fb14-43aa-b363-a7570ff5e3fb'
-title: 'System.Search.QueryFocusedSummary'
+Description: The query-focused summary of the document.
+ms.assetid: 99fb269a-fb14-43aa-b363-a7570ff5e3fb
+title: System.Search.QueryFocusedSummary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Search.QueryFocusedSummary

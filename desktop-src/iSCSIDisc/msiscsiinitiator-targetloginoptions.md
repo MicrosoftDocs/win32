@@ -1,7 +1,12 @@
-﻿---
-Description: 'This MSIscsiInitiator\_TargetLoginOptions structure contains the target login options.'
-ms.assetid: '665b003e-2240-4bbc-8f41-29af4374a252'
-title: 'MSIscsiInitiator\_TargetLoginOptions class'
+---
+Description: This MSIscsiInitiator\_TargetLoginOptions structure contains the target login options.
+ms.assetid: 665b003e-2240-4bbc-8f41-29af4374a252
+title: MSIscsiInitiator\_TargetLoginOptions class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_TargetLoginOptions class
@@ -48,7 +53,7 @@ Data type: **ISCSI\_AUTH\_TYPES**
 Access type: Read/write
 </dt> </dl>
 
-An [**ISCSI\_AUTH\_TYPES**](iscsi-auth-types.md) enumeration that indicates the authentication method used to establish a connection.
+An [**ISCSI\_AUTH\_TYPES**](/windows/previous-versions/Iscsidsc/ne-iscsidsc-iscsi_auth_types?branch=master) enumeration that indicates the authentication method used to establish a connection.
 
 </dd> <dt>
 
@@ -61,7 +66,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-A [**ISCSI\_DIGEST\_TYPES**](iscsi-digest-types.md) value that indicates the method that the Initiator uses to verify the integrity of the data digest in a logon PDU.
+A [**ISCSI\_DIGEST\_TYPES**](/windows/previous-versions/Iscsidsc/ne-iscsidsc-iscsi_digest_types?branch=master) value that indicates the method that the Initiator uses to verify the integrity of the data digest in a logon PDU.
 
 </dd> <dt>
 
@@ -100,7 +105,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-A [**ISCSI\_DIGEST\_TYPES**](iscsi-digest-types.md) value that indicates the method that the Initiator uses to verify the integrity of the header digest in a logon PDU.
+A [**ISCSI\_DIGEST\_TYPES**](/windows/previous-versions/Iscsidsc/ne-iscsidsc-iscsi_digest_types?branch=master) value that indicates the method that the Initiator uses to verify the integrity of the header digest in a logon PDU.
 
 </dd> <dt>
 
@@ -142,7 +147,7 @@ Data type: **ISCSI\_LOGIN\_FLAGS**
 Access type: Read/write
 </dt> </dl>
 
-Defines the login process. Possible values are defined by the [**ISCSI\_LOGIN\_OPTIONS**](iscsi-login-options.md) structure.
+Defines the login process. Possible values are defined by the [**ISCSI\_LOGIN\_OPTIONS**](/windows/previous-versions/Iscsidsc/ns-iscsidsc-iscsi_login_options?branch=master) structure.
 
 
 

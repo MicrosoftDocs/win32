@@ -1,7 +1,12 @@
 ---
 title: Insert Method
 description: Insert Method
-ms.assetid: 'd58cfe50-ace7-4b0f-8539-c2e13a180c96'
+ms.assetid: d58cfe50-ace7-4b0f-8539-c2e13a180c96
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Insert Method
@@ -38,7 +43,7 @@ Inserts a **Command** object in the **Commands** collection.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -62,9 +67,9 @@ This method also returns a [**Command**](https://msdn.microsoft.com/library/wind
 [**Add method**](add-method.md), [**Remove method**](remove-method.md), [**RemoveAll method**](removeall-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

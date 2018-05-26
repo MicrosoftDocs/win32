@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '8A652E64-3DB4-4BBA-A02C-FA8B218AA08F'
-title: 'IBidiAsyncNotifyChannel::CreateNotificationChannel method'
+---
+Description: .
+ms.assetid: 8A652E64-3DB4-4BBA-A02C-FA8B218AA08F
+title: IBidiAsyncNotifyChannelCreateNotificationChannel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiAsyncNotifyChannel::CreateNotificationChannel method

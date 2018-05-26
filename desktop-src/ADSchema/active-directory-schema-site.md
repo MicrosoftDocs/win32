@@ -4,10 +4,13 @@ description: The following terms are commonly used to refer to the Active Direct
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '22c5756f-d663-4cb7-aab0-956b22a01e9d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 22c5756f-d663-4cb7-aab0-956b22a01e9d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Active Directory Schema Terminology

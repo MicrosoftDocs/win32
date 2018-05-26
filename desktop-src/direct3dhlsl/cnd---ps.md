@@ -1,7 +1,12 @@
 ---
 title: cnd - ps
 description: Conditionally chooses between src1 and src2, based on the comparison src0 0.5.
-ms.assetid: '7a3b49e9-d146-47dc-99a8-4f336db7d0d5'
+ms.assetid: 7a3b49e9-d146-47dc-99a8-4f336db7d0d5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # cnd - ps

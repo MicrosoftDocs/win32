@@ -1,14 +1,20 @@
 ---
 title: WM/Year Attribute
 description: The WM/Year attribute is the year the content was published.
-ms.assetid: 'b64e37f1-6f12-43a6-8a66-7d61b470853c'
-keywords: ["WM/Year Attribute Windows Media Player"]
+ms.assetid: b64e37f1-6f12-43a6-8a66-7d61b470853c
+keywords:
+- WM/Year Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/Year
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Year Attribute
@@ -47,9 +53,9 @@ The Windows Media Format SDK constant for this attribute is g\_wszWMYear.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

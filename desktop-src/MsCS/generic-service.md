@@ -4,11 +4,16 @@ description: The Generic Service resource type manages services as cluster resou
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '50366c38-d9f7-4faa-8a97-6e0a0547320f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 50366c38-d9f7-4faa-8a97-6e0a0547320f
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,Generic Service", "Generic Service resource type Failover Cluster"]
+keywords:
+- resource types Failover Cluster ,Generic Service
+- Generic Service resource type Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Generic Service

@@ -1,7 +1,12 @@
 ---
-Description: 'An assembly manifest is an XML file that describes a side-by-side assembly.'
-ms.assetid: 'f7973019-0a80-498e-adf1-c66267c813f4'
+Description: An assembly manifest is an XML file that describes a side-by-side assembly.
+ms.assetid: f7973019-0a80-498e-adf1-c66267c813f4
 title: Assembly Manifests
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assembly Manifests
@@ -17,59 +22,59 @@ Assembly manifests have the following elements and attributes.
 | Element                           | Attributes                | Required |
 |-----------------------------------|---------------------------|----------|
 | **assembly**                      |                           | Yes      |
-|                                   | **manifestVersion**       | Yes      |
+|                                   | **manifestVersion**       | Yes      |
 | **noInheritable**                 |                           | No       |
 | **assemblyIdentity**              |                           | Yes      |
-|                                   | **type**                  | Yes      |
-|                                   | **name**                  | Yes      |
-|                                   | **language**              | No       |
-|                                   | **processorArchitecture** | No       |
-|                                   | **version**               | Yes      |
-|                                   | **publicKeyToken**        | No       |
+|                                   | **type**                  | Yes      |
+|                                   | **name**                  | Yes      |
+|                                   | **language**              | No       |
+|                                   | **processorArchitecture** | No       |
+|                                   | **version**               | Yes      |
+|                                   | **publicKeyToken**        | No       |
 | **dependency**                    |                           | No       |
 | **dependentAssembly**             |                           | No       |
 | **file**                          |                           | No       |
-|                                   | **name**                  | Yes      |
-|                                   | **hashalg**               | No       |
-|                                   | **hash**                  | No       |
+|                                   | **name**                  | Yes      |
+|                                   | **hashalg**               | No       |
+|                                   | **hash**                  | No       |
 | **comClass**                      |                           | No       |
-|                                   | **description**           | No       |
-|                                   | **clsid**                 | Yes      |
-|                                   | **threadingModel**        | No       |
-|                                   | **tlbid**                 | No       |
-|                                   | **progid**                | No       |
-|                                   | **miscStatus**            | No       |
-|                                   | **miscStatusIcon**        | No       |
-|                                   | **miscStatusContent**     | No       |
-|                                   | **miscStatusDocPrint**    | No       |
-|                                   | **miscStatusDocPrint**    | No       |
+|                                   | **description**           | No       |
+|                                   | **clsid**                 | Yes      |
+|                                   | **threadingModel**        | No       |
+|                                   | **tlbid**                 | No       |
+|                                   | **progid**                | No       |
+|                                   | **miscStatus**            | No       |
+|                                   | **miscStatusIcon**        | No       |
+|                                   | **miscStatusContent**     | No       |
+|                                   | **miscStatusDocPrint**    | No       |
+|                                   | **miscStatusDocPrint**    | No       |
 | **typelib**                       |                           | No       |
-|                                   | **tlbid**                 | Yes      |
-|                                   | **version**               | Yes      |
-|                                   | **helpdir**               | Yes      |
-|                                   | **resourceid**            | No       |
-|                                   | **flags**                 | No       |
+|                                   | **tlbid**                 | Yes      |
+|                                   | **version**               | Yes      |
+|                                   | **helpdir**               | Yes      |
+|                                   | **resourceid**            | No       |
+|                                   | **flags**                 | No       |
 | **comInterfaceExternalProxyStub** |                           | No       |
-|                                   | **iid**                   | Yes      |
-|                                   | **baseInterface**         | No       |
-|                                   | **numMethods**            | No       |
-|                                   | **name**                  | No       |
-|                                   | **tlbid**                 | No       |
-|                                   | **proxyStubClsid32**      | No       |
+|                                   | **iid**                   | Yes      |
+|                                   | **baseInterface**         | No       |
+|                                   | **numMethods**            | No       |
+|                                   | **name**                  | No       |
+|                                   | **tlbid**                 | No       |
+|                                   | **proxyStubClsid32**      | No       |
 | **comInterfaceProxyStub**         |                           | No       |
-|                                   | **iid**                   | Yes      |
-|                                   | **name**                  | Yes      |
-|                                   | **tlbid**                 | No       |
-|                                   | **baseInterface**         | No       |
-|                                   | **numMethods**            | No       |
-|                                   | **proxyStubClsid32**      | No       |
-|                                   | **threadingModel**        | No       |
+|                                   | **iid**                   | Yes      |
+|                                   | **name**                  | Yes      |
+|                                   | **tlbid**                 | No       |
+|                                   | **baseInterface**         | No       |
+|                                   | **numMethods**            | No       |
+|                                   | **proxyStubClsid32**      | No       |
+|                                   | **threadingModel**        | No       |
 | **windowClass**                   |                           | No       |
-|                                   | **versioned**             | No       |
+|                                   | **versioned**             | No       |
 
 
 
- 
+ 
 
 ## File Location
 
@@ -91,7 +96,7 @@ For example, an assembly manifest that refers to myassembly would use the follow
 > [!Note]  
 > Because of the way side-by-side searches for private assemblies, the following naming restrictions apply when packaging a DLL as a private assembly. A recommended way of doing this is to put the assembly manifest in the DLL as a resource. In this case, the resource ID must equal 1 and the name of the private assembly may be the same as the name of the DLL. For example, if the name of the DLL is Microsoft.Windows.mysample.dll, the value of the name attribute used in the **assemblyIdentity** element of the manifest may also be Microsoft.Windows.mysample. An alternate way is to put the assembly manifest in a separate file. In this case, the name of the assembly and its manifest must be different than the name of the DLL. For example, Microsoft.Windows.mysampleAsm, Microsoft.Windows.mysampleAsm.manifest, and Microsoft.Windows.Mysample.dll. For more information about how side-by-side searches for private assemblies, see [Assembly Searching Sequence](assembly-searching-sequence.md).
 
- 
+ 
 
 ## Elements
 
@@ -116,7 +121,7 @@ The **assembly** element has the following attribute.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -151,7 +156,7 @@ This element has no subelements. The **assemblyIdentity** element does have the 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -186,7 +191,7 @@ The **file** element has the following attributes.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -214,7 +219,7 @@ The **comClass** element has the following attributes.
 
 
 
- 
+ 
 
 The **comClass** element can have &lt;progid&gt;...&lt;/progid&gt; elements as children, which list the version dependent progids.
 
@@ -263,7 +268,7 @@ If your COM class is an OCX class that requires the MiscStatus registry subkey t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -286,7 +291,7 @@ The **typelib** element has the attributes shown in the following table.
 
 
 
- 
+ 
 
 The following example shows a **typelib** element included in a **file** element.
 
@@ -319,7 +324,7 @@ The default proxy-stub implementation is adequate for most automation interfaces
 
 
 
- 
+ 
 
 The following example shows a **comInterfaceExternalProxyStub** element.
 
@@ -356,7 +361,7 @@ The **comInterfaceProxyStub** element has the following attributes.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -369,11 +374,11 @@ The name of a windows class that is to be versioned. The **windowclass** element
 
 | Attribute     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **versioned** | This attribute controls whether or not the internal window class name used in registration contains the version of the assembly containing the window class. The value of this attribute can be "yes" or "no". The default is "yes". The value "no" should only be used if the same window class is defined by a side-by-side component and an equivalent non-side-by-side component and you wish to treat them as the same window class. Note that the usual rules about window class registration apply—only the first component that registers the window class will be able to register it since it is not versioned. |
+| **versioned** | This attribute controls whether or not the internal window class name used in registration contains the version of the assembly containing the window class. The value of this attribute can be "yes" or "no". The default is "yes". The value "no" should only be used if the same window class is defined by a side-by-side component and an equivalent non-side-by-side component and you wish to treat them as the same window class. Note that the usual rules about window class registration apply only the first component that registers the window class will be able to register it since it is not versioned. |
 
 
 
- 
+ 
 
 The following example shows a **windowclass** element included in a **file** element.
 
@@ -413,9 +418,9 @@ manifestVersion="1.0">
 </assembly>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

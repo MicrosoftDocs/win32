@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the device conformance template that you want to use for video encoding.'
-ms.assetid: 'cd2c068a-dbbc-42c5-bc92-bbb73f0259d1'
-title: 'MFPKEY\_DECODERCOMPLEXITYREQUESTED Property'
+---
+Description: Specifies the device conformance template that you want to use for video encoding.
+ms.assetid: cd2c068a-dbbc-42c5-bc92-bbb73f0259d1
+title: MFPKEY\_DECODERCOMPLEXITYREQUESTED Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_DECODERCOMPLEXITYREQUESTED Property

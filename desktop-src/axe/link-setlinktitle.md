@@ -1,8 +1,11 @@
 ---
 title: Link SetLinkTitle method
 description: Sets the link title of the Link.
-ms.assetid: '4FDC931B-CDCC-4236-91FC-C71FA27D0FC8'
-keywords: ["SetLinkTitle method Access Execution Engine", "SetLinkTitle method Access Execution Engine , Link interface", "Link interface Access Execution Engine , SetLinkTitle method"]
+ms.assetid: 4FDC931B-CDCC-4236-91FC-C71FA27D0FC8
+keywords:
+- SetLinkTitle method Access Execution Engine
+- SetLinkTitle method Access Execution Engine , Link interface
+- Link interface Access Execution Engine , SetLinkTitle method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Link::SetLinkTitle method
@@ -22,7 +30,7 @@ Sets the link title of the **Link**.
 
 ```C++
 virtual HRESULT SetLinkTitle(
-  [in] LPCWSTR linkTitle
+  [in] LPCWSTR linkTitle
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The link title is the value of element **Link/LinkTitle**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The link title is the value of element **Link/LinkTitle**.
 [**Link**](link-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

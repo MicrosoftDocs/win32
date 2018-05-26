@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VLANEndpointSettingData class
 description: Represents the settings for a VLAN endpoint of a switch port.
-ms.assetid: '44e1d530-3b9c-4f99-8472-9532eb8a4b07'
-keywords: ["Msvm_VLANEndpointSettingData class Hyper-V", "Msvm_VLANEndpointSettingData class Hyper-V , described"]
+ms.assetid: 44e1d530-3b9c-4f99-8472-9532eb8a4b07
+keywords:
+- Msvm_VLANEndpointSettingData class Hyper-V
+- Msvm_VLANEndpointSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VLANEndpointSettingData class
@@ -47,7 +54,7 @@ class Msvm_VLANEndpointSettingData : CIM_VLANEndpointSettingData
   uint16 AccessVLAN;
   uint16 SecondaryVlan;
   uint16 PrimaryVlan;
-  uint8  PVlanMode;
+  uint8  PVlanMode;
   string ElementName;
 };
 ```
@@ -284,9 +291,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -305,9 +312,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Enterprise Scan Post Scan Process object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cc205301-5e8a-4752-8180-5b860e65f67f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cc205301-5e8a-4752-8180-5b860e65f67f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Imaging-PostScanProcess class AD Schema", "msImaging-PostScanProcess class AD Schema"]
+keywords:
+- ms-Imaging-PostScanProcess class AD Schema
+- msImaging-PostScanProcess class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Imaging-PostScanProcess
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Imaging-PostScanProcess class
@@ -35,8 +40,8 @@ Enterprise Scan Post Scan Process object.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -63,7 +68,7 @@ Enterprise Scan Post Scan Process object.
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -212,7 +217,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -342,9 +347,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

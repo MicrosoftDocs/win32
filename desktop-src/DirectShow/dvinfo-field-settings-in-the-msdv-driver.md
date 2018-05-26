@@ -1,12 +1,17 @@
 ---
 Description: DVINFO Field Settings in the MSDV Driver
-ms.assetid: 'f0723da5-4f53-4f83-a657-ae42815a784e'
+ms.assetid: f0723da5-4f53-4f83-a657-ae42815a784e
 title: DVINFO Field Settings in the MSDV Driver
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVINFO Field Settings in the MSDV Driver
 
-This section describes how the MSDV driver fills in the [**DVINFO**](dvinfo.md) structure.
+This section describes how the MSDV driver fills in the [**DVINFO**](/windows/win32/strmif/ns-strmif-dvinfo?branch=master) structure.
 
 The `DVINFO` structure defines the format block for pin connections between MSDV and other filters. By default, the DV Splitter filter is used when capturing from a DV device, and the DV Mux filter is used when transmitting to the device. However, applications may provide their own custom filters, so it is useful to understand how MSDV populates the `DVINFO` format block.
 

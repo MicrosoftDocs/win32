@@ -1,8 +1,10 @@
 ---
 title: MSFT\_InitiatorPort class
 description: Represents a Host Bus Adapter (HBA) initiator port on the host computer.
-ms.assetid: 'FFD445F4-3A34-4681-B38E-6E84C0E5DF06'
-keywords: ["MSFT_InitiatorPort class Windows Storage Management API", "MSFT_InitiatorPort class Windows Storage Management API , described"]
+ms.assetid: FFD445F4-3A34-4681-B38E-6E84C0E5DF06
+keywords:
+- MSFT_InitiatorPort class Windows Storage Management API
+- MSFT_InitiatorPort class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_InitiatorPort class
@@ -66,7 +73,7 @@ The **MSFT\_InitiatorPort** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -305,16 +312,16 @@ The port type for the initiator.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

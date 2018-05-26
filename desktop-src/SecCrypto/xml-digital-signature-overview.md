@@ -1,7 +1,12 @@
 ---
-Description: 'XML is an industry standard for describing structured data. An XML Digital Signature is an XML representation of a digital signature that provides the ability to verify the origin and integrity of XML document and externally referenced data.'
-ms.assetid: '02ca8d9b-be08-4b15-895f-9c8c4b0ed536'
+Description: XML is an industry standard for describing structured data. An XML Digital Signature is an XML representation of a digital signature that provides the ability to verify the origin and integrity of XML document and externally referenced data.
+ms.assetid: 02ca8d9b-be08-4b15-895f-9c8c4b0ed536
 title: XML Digital Signature Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XML Digital Signature Overview

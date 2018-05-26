@@ -1,7 +1,12 @@
 ---
-Description: 'Represents general information about a button on a stylus device.'
-ms.assetid: '20c9f8bb-8f8d-4469-baff-b9001c8adb3b'
+Description: Represents general information about a button on a stylus device.
+ms.assetid: 20c9f8bb-8f8d-4469-baff-b9001c8adb3b
 title: ITabletCursorButton interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletCursorButton interface
@@ -27,7 +32,7 @@ The **ITabletCursorButton** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,7 +62,7 @@ interface ITabletCursorButton : IUnknown
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -70,9 +75,9 @@ interface ITabletCursorButton : IUnknown
 [**ITabletCursorButton Interface**](itabletcursorbutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

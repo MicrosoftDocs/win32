@@ -1,8 +1,10 @@
 ---
 title: D3DX11\_IMAGE\_FILE\_FORMAT enumeration
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Image file formats supported by D3DX11Createxxx and D3DX11Savexxx functions.
-ms.assetid: '89fa9ab8-3be0-4dc5-a533-94edb01df36a'
-keywords: ["D3DX11_IMAGE_FILE_FORMAT enumeration Direct3D 11", "LPD3DX11_IMAGE_FILE_FORMAT enumeration pointer Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Image file formats supported by D3DX11Createxxx and D3DX11Savexxx functions.
+ms.assetid: 89fa9ab8-3be0-4dc5-a533-94edb01df36a
+keywords:
+- D3DX11_IMAGE_FILE_FORMAT enumeration Direct3D 11
+- LPD3DX11_IMAGE_FILE_FORMAT enumeration pointer Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,14 +13,19 @@ api_location:
 - D3DX11tex.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_IMAGE\_FILE\_FORMAT enumeration
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 Image file formats supported by D3DX11Createxxx and D3DX11Savexxx functions.
 
@@ -27,14 +34,14 @@ Image file formats supported by D3DX11Createxxx and D3DX11Savexxx functions.
 
 ```C++
 typedef enum D3DX11_IMAGE_FILE_FORMAT { 
-  D3DX11_IFF_BMP          = 0,
-  D3DX11_IFF_JPG          = 1,
-  D3DX11_IFF_PNG          = 3,
-  D3DX11_IFF_DDS          = 4,
-  D3DX11_IFF_TIFF         = 10,
-  D3DX11_IFF_GIF          = 11,
-  D3DX11_IFF_WMP          = 12,
-  D3DX11_IFF_FORCE_DWORD  = 0x7fffffff
+  D3DX11_IFF_BMP          = 0,
+  D3DX11_IFF_JPG          = 1,
+  D3DX11_IFF_PNG          = 3,
+  D3DX11_IFF_DDS          = 4,
+  D3DX11_IFF_TIFF         = 10,
+  D3DX11_IFF_GIF          = 11,
+  D3DX11_IFF_WMP          = 12,
+  D3DX11_IFF_FORCE_DWORD  = 0x7fffffff
 } D3DX11_IMAGE_FILE_FORMAT, *LPD3DX11_IMAGE_FILE_FORMAT;
 ```
 
@@ -123,9 +130,9 @@ See [Types of Bitmaps (GDI+)](http://msdn2.microsoft.com/library/ms536393.aspx) 
 [D3DX Enumerations](d3d11-graphics-reference-d3dx11-enums.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

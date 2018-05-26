@@ -1,7 +1,12 @@
 ---
 title: To test KLinks or ALinks
 description: To test KLinks or ALinks
-ms.assetid: '644F8A18-A853-400d-80F6-009D0EE21C87'
+ms.assetid: 644F8A18-A853-400d-80F6-009D0EE21C87
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To test KLinks or ALinks

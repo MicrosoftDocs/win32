@@ -1,7 +1,12 @@
 ---
-Description: 'A two-step process extends the Windows Installer''s transaction model to products containing common language runtime assemblies. This enables the installer to rollback unsuccessful installations and removals of assemblies.'
-ms.assetid: '065a380c-4eb5-48a5-ab0a-7f1229b77898'
+Description: A two-step process extends the Windows Installers transaction model to products containing common language runtime assemblies. This enables the installer to rollback unsuccessful installations and removals of assemblies.
+ms.assetid: 065a380c-4eb5-48a5-ab0a-7f1229b77898
 title: Rollback of Assemblies in the Global Assembly Cache
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rollback of Assemblies in the Global Assembly Cache

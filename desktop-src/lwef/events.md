@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySink
 description: IAgentNotifySink
-ms.assetid: '70a3b011-0290-4df4-9b66-23b27bcb14e9'
+ms.assetid: 70a3b011-0290-4df4-9b66-23b27bcb14e9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySink

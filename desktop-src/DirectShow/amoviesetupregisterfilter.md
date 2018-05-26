@@ -1,7 +1,12 @@
 ---
-Description: 'Obsolete. Use AMovieSetupRegisterFilter2 instead.'
-ms.assetid: '42278829-d09e-46c7-8f1a-fa4572f7cc00'
+Description: Obsolete. Use AMovieSetupRegisterFilter2 instead.
+ms.assetid: 42278829-d09e-46c7-8f1a-fa4572f7cc00
 title: AMovieSetupRegisterFilter function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AMovieSetupRegisterFilter function
@@ -13,9 +18,9 @@ Obsolete. Use [**AMovieSetupRegisterFilter2**](amoviesetupregisterfilter2.md) in
 
 ```C++
 HRESULT AMovieSetupRegisterFilter(
-   const AMOVIESETUP_FILTER const * psetupdata,
-         IFilterMapper              *pIFM,
-         BOOL                       bRegister
+   const AMOVIESETUP_FILTER const * psetupdata,
+         IFilterMapper              *pIFM,
+         BOOL                       bRegister
 );
 ```
 
@@ -68,9 +73,9 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 [**DLL Setup Functions**](dll-setup-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

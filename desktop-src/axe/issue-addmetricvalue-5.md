@@ -1,8 +1,11 @@
 ---
 title: Issue AddMetricValue method
 description: Creates and adds a MetricValue whose value is a ULONGLONG.
-ms.assetid: 'B8E17677-5E64-4F7F-9302-2F32DBB477BF'
-keywords: ["AddMetricValue method Access Execution Engine", "AddMetricValue method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , AddMetricValue method"]
+ms.assetid: B8E17677-5E64-4F7F-9302-2F32DBB477BF
+keywords:
+- AddMetricValue method Access Execution Engine
+- AddMetricValue method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , AddMetricValue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::AddMetricValue method
@@ -22,9 +30,9 @@ Creates and adds a [**MetricValue**](metricvalue-struct.md) whose value is a **U
 
 ```C++
 virtual HRESULT AddMetricValue(
-  [in]            LPCWSTR     programmaticName,
-  [in]            ULONGLONG   value,
-  [out, optional] MetricValue **metricValue
+  [in]            LPCWSTR     programmaticName,
+  [in]            ULONGLONG   value,
+  [out, optional] MetricValue **metricValue
 ) = 0;
 ```
 
@@ -71,8 +79,8 @@ The value is the value of element **MetricValue/Value**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -85,9 +93,9 @@ The value is the value of element **MetricValue/Value**.
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: ld2dms (sm4.1 - asm)
 description: Reads individual samples out of 2-dimensional multi-sample textures.
-ms.assetid: '8D92BFA8-4B22-46F3-876D-8D84BB3A96E7'
+ms.assetid: 8D92BFA8-4B22-46F3-876D-8D84BB3A96E7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ld2dms (sm4.1 - asm)
@@ -15,7 +20,7 @@ Reads individual samples out of 2-dimensional multi-sample textures.
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Reads individual samples out of 2-dimensional multi-sample textures.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -99,7 +104,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -118,7 +123,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -127,9 +132,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

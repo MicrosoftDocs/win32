@@ -1,20 +1,25 @@
 ---
-Description: 'Gets and sets certificate properties, and illustrates the following tasks and CryptoAPI functions.'
-ms.assetid: '4cc20a59-d8e9-4c9b-9438-21bccbbe4a64'
-title: 'Example C Program: Getting and Setting Certificate Properties'
+Description: Gets and sets certificate properties, and illustrates the following tasks and CryptoAPI functions.
+ms.assetid: 4cc20a59-d8e9-4c9b-9438-21bccbbe4a64
+title: Example C Program Getting and Setting Certificate Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Getting and Setting Certificate Properties
 
 The following example gets and sets certificate properties, and illustrates the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions.
 
--   Opening a system store by using [**CertOpenSystemStore**](certopensystemstore.md).
--   Using [**CertEnumCertificatesInStore**](certenumcertificatesinstore.md) to list all of the certificates in the open store.
--   Retrieving and printing the subject name from the certificate by using [**CertGetNameString**](certgetnamestring.md).
--   Setting the [*enhanced key usage*](security.e_gly#-security-enhanced-key-usage-gly) property on certificates by using the [**CertAddEnhancedKeyUsageIdentifier**](certaddenhancedkeyusageidentifier.md) function.
--   Setting the display name property on the certificate by using [**CertSetCertificateContextProperty**](certsetcertificatecontextproperty.md).
--   Retrieving a certificate's properties by using [**CertGetCertificateContextProperty**](certgetcertificatecontextproperty.md).
--   Closing a certificate store by using [**CertCloseStore**](certclosestore.md) with the CERT\_CLOSE\_STORE\_CHECK\_FLAG flag.
+-   Opening a system store by using [**CertOpenSystemStore**](/windows/win32/Wincrypt/nf-wincrypt-certopensystemstorea?branch=master).
+-   Using [**CertEnumCertificatesInStore**](/windows/win32/Wincrypt/nf-wincrypt-certenumcertificatesinstore?branch=master) to list all of the certificates in the open store.
+-   Retrieving and printing the subject name from the certificate by using [**CertGetNameString**](/windows/win32/Wincrypt/nf-wincrypt-certgetnamestringa?branch=master).
+-   Setting the [*enhanced key usage*](security.e_gly#-security-enhanced-key-usage-gly) property on certificates by using the [**CertAddEnhancedKeyUsageIdentifier**](/windows/win32/Wincrypt/nf-wincrypt-certaddenhancedkeyusageidentifier?branch=master) function.
+-   Setting the display name property on the certificate by using [**CertSetCertificateContextProperty**](/windows/win32/Wincrypt/nf-wincrypt-certsetcertificatecontextproperty?branch=master).
+-   Retrieving a certificate's properties by using [**CertGetCertificateContextProperty**](/windows/win32/Wincrypt/nf-wincrypt-certgetcertificatecontextproperty?branch=master).
+-   Closing a certificate store by using [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master) with the CERT\_CLOSE\_STORE\_CHECK\_FLAG flag.
 
 
 ```C++

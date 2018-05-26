@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetWriteStream method retrieves the stream object to write page markup to read . You can use this stream to change page markup.'
-ms.assetid: '1a095d51-b727-4d89-aa7c-f43998db4c2e'
-title: 'IFixedPage::GetWriteStream method'
+---
+Description: The GetWriteStream method retrieves the stream object to write page markup to read . You can use this stream to change page markup.
+ms.assetid: 1a095d51-b727-4d89-aa7c-f43998db4c2e
+title: IFixedPageGetWriteStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedPage::GetWriteStream method

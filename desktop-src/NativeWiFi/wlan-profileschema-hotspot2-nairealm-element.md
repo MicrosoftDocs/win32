@@ -1,7 +1,12 @@
 ---
-Description: 'A list of Network Access Identifier (NAI) Realm identifiers.'
-ms.assetid: 'e77802ee-4017-4f04-ae71-5d6d0de8fcf3'
-title: 'NAIRealm (Hotspot2) Element'
+Description: A list of Network Access Identifier (NAI) Realm identifiers.
+ms.assetid: e77802ee-4017-4f04-ae71-5d6d0de8fcf3
+title: NAIRealm (Hotspot2) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NAIRealm (Hotspot2) Element

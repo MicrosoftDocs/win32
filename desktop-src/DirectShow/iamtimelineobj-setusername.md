@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetUserName method sets an application-defined name for the object.'
-ms.assetid: '6f071884-519a-465f-8273-ab1be58dda8b'
-title: 'IAMTimelineObj::SetUserName method'
+---
+Description: The SetUserName method sets an application-defined name for the object.
+ms.assetid: 6f071884-519a-465f-8273-ab1be58dda8b
+title: IAMTimelineObjSetUserName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::SetUserName method

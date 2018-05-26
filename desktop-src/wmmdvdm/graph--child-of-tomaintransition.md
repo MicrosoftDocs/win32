@@ -1,14 +1,20 @@
 ---
 title: Graph (Child of ToMainTransition) element
 description: Defines the pipeline graph for the DVD transition into the main menu (the \ 0034;opening \ 0034; transition).
-ms.assetid: 'cf087165-02d3-4645-a532-e15042745940'
-keywords: ["Graph (Child of ToMainTransition) element Windows Movie Maker and DVD Maker"]
+ms.assetid: cf087165-02d3-4645-a532-e15042745940
+keywords:
+- Graph (Child of ToMainTransition) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Graph
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Graph (Child of ToMainTransition) element
@@ -49,7 +55,7 @@ The pipeline graph defines the flow of the transition and contains inputs (that 
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -76,9 +82,9 @@ The pipeline graph defines the flow of the transition and contains inputs (that 
 [**Graph Element (Child of ScenesMenuX)**](graph--child-of-scenesmenux.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

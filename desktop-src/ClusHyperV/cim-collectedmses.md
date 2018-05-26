@@ -4,13 +4,15 @@ description: Represents a generic association between a collection of managed sy
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '46542da5-f3b1-48c4-be0a-b14d8f142c7c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 46542da5-f3b1-48c4-be0a-b14d8f142c7c
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_CollectedMSEs class", "CIM_CollectedMSEs class, described"]
+keywords:
+- CIM_CollectedMSEs class
+- CIM_CollectedMSEs class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_CollectedMSEs class
@@ -35,7 +40,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association, Aggregation, Abstract, Version("2.6.0"), UMLPackagePath("CIM::Core::Collection"), AMENDMENT]
 class CIM_CollectedMSEs : CIM_MemberOfCollection
 {
-  CIM_CollectionOfMSEs     REF Collection;
+  CIM_CollectionOfMSEs     REF Collection;
   CIM_ManagedSystemElement REF Member;
 };
 ```
@@ -91,7 +96,7 @@ The members of the collection.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -108,9 +113,9 @@ The members of the collection.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

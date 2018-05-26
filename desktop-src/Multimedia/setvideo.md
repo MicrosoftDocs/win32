@@ -1,21 +1,27 @@
 ---
 title: setvideo command
 description: The setvideo command sets values associated with video playback and capture. Digital-video and VCR devices recognize this command.
-ms.assetid: 'b84956d8-01a0-49f6-a96c-2693a25e6f2a'
-keywords: ["setvideo command Windows Multimedia"]
+ms.assetid: b84956d8-01a0-49f6-a96c-2693a25e6f2a
+keywords:
+- setvideo command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - setvideo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # setvideo command
 
 The setvideo command sets values associated with video playback and capture. Digital-video and VCR devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ Flag for video playback and capture. The following table lists device types that
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszVideo** parameter and their meanings.
 
@@ -92,7 +98,7 @@ The following table lists the flags that can be specified in the **lpszVideo** p
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -117,8 +123,8 @@ For VCR devices, using setvideo with a flag that turns off an individual track (
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -156,9 +162,9 @@ For VCR devices, using setvideo with a flag that turns off an individual track (
 [window](window.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

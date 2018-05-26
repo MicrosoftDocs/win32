@@ -1,7 +1,12 @@
 ---
-Description: 'Resets the virtual device.'
-ms.assetid: 'e4eb3952-a58e-4acd-85df-205d6ed23133'
-title: 'Reset method of the Msvm\_EmulatedEthernetPort class'
+Description: Resets the virtual device.
+ms.assetid: e4eb3952-a58e-4acd-85df-205d6ed23133
+title: Reset method of the Msvm\_EmulatedEthernetPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the Msvm\_EmulatedEthernetPort class
@@ -39,8 +44,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -54,9 +59,9 @@ This method returns one of the following values:
 [**Msvm\_EmulatedEthernetPort**](msvm-emulatedethernetport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

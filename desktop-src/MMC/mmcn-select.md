@@ -1,14 +1,15 @@
 ---
 title: MMCN\_SELECT message
-description: The MMCN\_SELECT notification message is sent to the snap-in's IComponent Notify or IExtendControlbar ControlbarNotify method when an item is selected in either the scope pane or result pane.
+description: The MMCN\_SELECT notification message is sent to the snap-ins IComponent Notify or IExtendControlbar ControlbarNotify method when an item is selected in either the scope pane or result pane.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ca3a39ee-da6d-46bc-ac75-4afd89cc8565'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: ca3a39ee-da6d-46bc-ac75-4afd89cc8565
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_SELECT message MMC"]
+keywords:
+- MMCN_SELECT message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_SELECT message
@@ -92,8 +96,8 @@ For snap-ins that have a custom result pane (OCX or web), MMC sends the **MMCN\_
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -108,9 +112,9 @@ For snap-ins that have a custom result pane (OCX or web), MMC sends the **MMCN\_
 [**IExtendControlbar::ControlbarNotify**](iextendcontrolbar-controlbarnotify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

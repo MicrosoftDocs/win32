@@ -4,11 +4,15 @@ description: Remote Desktop Services (formerly known as Terminal Services) provi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5b5b0f97-f973-4f52-a965-c9c2390e6c8d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 5b5b0f97-f973-4f52-a965-c9c2390e6c8d
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , about"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Remote Desktop Services

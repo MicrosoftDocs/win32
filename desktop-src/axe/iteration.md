@@ -1,14 +1,20 @@
 ---
 title: Iteration element
 description: Receives metric values for a single assessment iteration.
-ms.assetid: 'EB2A453B-4A45-49D3-B292-176B725376AC'
-keywords: ["Iteration element Access Execution Engine"]
+ms.assetid: EB2A453B-4A45-49D3-B292-176B725376AC
+keywords:
+- Iteration element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Iteration
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration element
@@ -82,9 +88,9 @@ There are no attributes.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

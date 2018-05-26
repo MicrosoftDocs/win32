@@ -1,7 +1,7 @@
 ---
 title: Navigation Constants
 description: This topic describes the constant values, defined in oleacc.h, that indicate the spatial (up, down, left, and right) or logical (first child, last, next, and previous) direction observed when clients use IAccessible accNavigate to navigate from one user interface element to another within the same container.
-ms.assetid: '5859a7a3-bcd3-443e-8ff0-4952f4639517'
+ms.assetid: 5859a7a3-bcd3-443e-8ff0-4952f4639517
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,16 @@ api_location:
 - oleacc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Navigation Constants
 
-This topic describes the constant values, defined in oleacc.h, that indicate the *spatial* (up, down, left, and right) or *logical* (first child, last, next, and previous) direction observed when clients use [**IAccessible::accNavigate**](iaccessible-iaccessible--accnavigate.md) to navigate from one user interface element to another within the same container. For more information, see [Object Navigation Properties and Methods](object-navigation-properties-and-methods.md).
+This topic describes the constant values, defined in oleacc.h, that indicate the *spatial* (up, down, left, and right) or *logical* (first child, last, next, and previous) direction observed when clients use [**IAccessible::accNavigate**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accnavigate?branch=master) to navigate from one user interface element to another within the same container. For more information, see [Object Navigation Properties and Methods](object-navigation-properties-and-methods.md).
 
 The Microsoft Active Accessibility navigation constants are as follows:
 
@@ -50,9 +55,9 @@ The Microsoft Active Accessibility navigation constants are as follows:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

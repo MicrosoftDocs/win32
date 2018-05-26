@@ -1,8 +1,10 @@
 ---
 title: MSFT\_SoftError class
 description: Represents a soft error.
-ms.assetid: '95810BD7-A582-4B4A-A878-35CDDD949599'
-keywords: ["MSFT_SoftError class Windows Storage Management API", "MSFT_SoftError class Windows Storage Management API , described"]
+ms.assetid: 95810BD7-A582-4B4A-A878-35CDDD949599
+keywords:
+- MSFT_SoftError class Windows Storage Management API
+- MSFT_SoftError class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_SoftError class
@@ -163,8 +170,8 @@ This error is informative only.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -177,9 +184,9 @@ This error is informative only.
 [**CIM\_Error**](https://msdn.microsoft.com/library/cc150671)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

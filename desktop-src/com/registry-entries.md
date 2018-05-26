@@ -1,7 +1,12 @@
 ---
 title: Registry Entries
-ms.assetid: 'f4f8875c-6416-4919-b49b-bcd675efcbd2'
+ms.assetid: f4f8875c-6416-4919-b49b-bcd675efcbd2
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Entries

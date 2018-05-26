@@ -4,13 +4,15 @@ description: This class is a DFSR configuration provider class. It includes prov
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e69c3cad-b977-48e7-b6bb-f6b6f2759c96'
-ms.prod: 'windows-server-dev'
+ms.assetid: e69c3cad-b977-48e7-b6bb-f6b6f2759c96
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrConfig class Distributed File System Replication", "DfsrConfig class Distributed File System Replication , described"]
+keywords:
+- DfsrConfig class Distributed File System Replication
+- DfsrConfig class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrConfig class
@@ -57,7 +62,7 @@ The **DfsrConfig** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -107,9 +112,9 @@ The format of this string is *x*.*y*.*z*.*n*.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -123,9 +128,9 @@ The format of this string is *x*.*y*.*z*.*n*.
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

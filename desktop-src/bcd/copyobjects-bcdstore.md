@@ -1,8 +1,11 @@
 ---
 title: CopyObjects method of the BcdStore class
 description: Copies the objects of the specified type from another store.
-ms.assetid: '67b9222f-f9e6-4161-8e98-0d713e8028f1'
-keywords: ["CopyObjects method Boot Config", "CopyObjects method Boot Config , BcdStore class", "BcdStore class Boot Config , CopyObjects method"]
+ms.assetid: 67b9222f-f9e6-4161-8e98-0d713e8028f1
+keywords:
+- CopyObjects method Boot Config
+- CopyObjects method Boot Config , BcdStore class
+- BcdStore class Boot Config , CopyObjects method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CopyObjects method of the BcdStore class
@@ -22,9 +30,9 @@ Copies the objects of the specified type from another store.
 
 ```mof
 boolean CopyObjects(
-  [in] string SourceStoreFile,
-  [in] uint32 Type,
-  [in] uint32 Flags
+  [in] string SourceStoreFile,
+  [in] uint32 Type,
+  [in] uint32 Flags
 );
 ```
 
@@ -62,7 +70,7 @@ This parameter can be set with neither, one, or both of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -72,8 +80,8 @@ This parameter can be set with neither, one, or both of the following values.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -86,9 +94,9 @@ This parameter can be set with neither, one, or both of the following values.
 [**BcdStore**](bcdstore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

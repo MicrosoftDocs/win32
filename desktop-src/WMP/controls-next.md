@@ -1,8 +1,11 @@
 ---
 title: Controls.next method
 description: The next method sets the current item to the next item in the playlist.
-ms.assetid: '67436c76-8fb9-4350-86f3-67f5e9e6dca1'
-keywords: ["next method Windows Media Player", "next method Windows Media Player , Controls class", "Controls class Windows Media Player , next method"]
+ms.assetid: 67436c76-8fb9-4350-86f3-67f5e9e6dca1
+keywords:
+- next method Windows Media Player
+- next method Windows Media Player , Controls class
+- Controls class Windows Media Player , next method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.next method
@@ -86,9 +94,9 @@ The following example creates an HTML BUTTON element that uses **next** to move 
 [**Controls.stop**](controls-stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a 2D vector that is made up of the largest components of two 2D vectors.'
-ms.assetid: '5eb5141b-d611-4c6b-a3e3-c7ad8f223657'
+---
+Description: Returns a 2D vector that is made up of the largest components of two 2D vectors.
+ms.assetid: 5eb5141b-d611-4c6b-a3e3-c7ad8f223657
 title: D3DXVec2Maximize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec2Maximize function

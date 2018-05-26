@@ -1,7 +1,12 @@
 ---
 title: Like Operator Constants
 description: Like Operator Constants
-ms.assetid: '9eb2cfcb-9ed8-4e5f-9a75-080f6f71a74b'
+ms.assetid: 9eb2cfcb-9ed8-4e5f-9a75-080f6f71a74b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Like Operator Constants

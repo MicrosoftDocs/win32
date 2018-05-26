@@ -4,9 +4,9 @@ description: Enumeration contains constants, as listed in the following list, us
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c0f2763b-a549-43d5-84a6-8cebf33a1ea2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: c0f2763b-a549-43d5-84a6-8cebf33a1ea2
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -22,11 +22,14 @@ api_location:
 - WSManDisp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumeration Constants
 
-The **\_\_WSManEnumFlags** enumeration contains constants, as listed in the following list, used in the *flags* parameter by calls to [**Session.Enumerate**](session-enumerate.md) and [**IWSManSession::Enumerate**](iwsmansession-enumerate.md).
+The **\_\_WSManEnumFlags** enumeration contains constants, as listed in the following list, used in the *flags* parameter by calls to [**Session.Enumerate**](session-enumerate.md) and [**IWSManSession::Enumerate**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmansession-enumerate?branch=master).
 
 Be aware that **WSManFlagReturnObject** and **WSManFlagHierarchyDeep** are the default if the *flags* parameter is not specified.
 
@@ -42,7 +45,7 @@ Be aware that **WSManFlagReturnObject** and **WSManFlagHierarchyDeep** are the d
 
 Batches contain the requested XML instances. This is the default value for the flag parameter.
 
-The associated scripting method is [**WSMan.EnumerationFlagReturnObject**](wsman-enumerationflagreturnobject.md) and the C++ method is [**IWSManEx.EnumerationFlagReturnObject**](iwsmanex-enumerationflagreturnobject.md).
+The associated scripting method is [**WSMan.EnumerationFlagReturnObject**](wsman-enumerationflagreturnobject.md) and the C++ method is [**IWSManEx.EnumerationFlagReturnObject**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflagreturnobject?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -57,7 +60,7 @@ The associated scripting method is [**WSMan.EnumerationFlagReturnObject**](wsman
 
 This flag controls how the *filter* parameter in the call to [**Session.Enumerate**](session-enumerate.md) is interpreted by WinRM.
 
-The format of the filter may be an XML fragment or a string of plain text. The format is determined by the [*filter dialect*](windows-remote-management-glossary.md#winrm-gloss-filter-dialect) of the [*filter*](windows-remote-management-glossary.md#winrm-gloss-filter) used in the call to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](iwsmansession-enumerate.md), which is specific to the operation performed.
+The format of the filter may be an XML fragment or a string of plain text. The format is determined by the [*filter dialect*](windows-remote-management-glossary.md#winrm-gloss-filter-dialect) of the [*filter*](windows-remote-management-glossary.md#winrm-gloss-filter) used in the call to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmansession-enumerate?branch=master), which is specific to the operation performed.
 
 If the *dialect* parameter is not specified, WinRM attempts to determine the dialect based on the first character of the filter. If the first character is &lt;, but the filter is not actually an XML fragment, then this flag should be set. For example, a filter in the following format requires that you set **WSManFlagNonXmlText** so that the filter is correctly interpreted:
 
@@ -71,7 +74,7 @@ If the filter is in plain text that does not start with &lt;, then this flag is 
 
 `select * from aDataStructure`
 
-The associated scripting method is [**WSMan.EnumerationFlagNonXmlText**](wsman-enumerationflagnonxmltext.md) and the C++ method is [**IWSManEx.EnumerationFlagNonXmlText**](iwsmanex-enumerationflagnonxmltext.md).
+The associated scripting method is [**WSMan.EnumerationFlagNonXmlText**](wsman-enumerationflagnonxmltext.md) and the C++ method is [**IWSManEx.EnumerationFlagNonXmlText**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflagnonxmltext?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -86,7 +89,7 @@ The associated scripting method is [**WSMan.EnumerationFlagNonXmlText**](wsman-e
 
 Batches contain endpoint references (EPRs) for the corresponding XML instances, but not the actual instances.
 
-The associated scripting method is [**WSMan.EnumerationFlagReturnEPR**](wsman-enumerationflagreturnepr.md) and the C++ method is [**IWSManEx.EnumerationFlagReturnEPR**](iwsmanex-enumerationflagreturnepr.md).
+The associated scripting method is [**WSMan.EnumerationFlagReturnEPR**](wsman-enumerationflagreturnepr.md) and the C++ method is [**IWSManEx.EnumerationFlagReturnEPR**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflagreturnepr?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -101,7 +104,7 @@ The associated scripting method is [**WSMan.EnumerationFlagReturnEPR**](wsman-en
 
 Batches contain both the requested XML instances and the corresponding EPRs contained in a [*wsman:Items*](windows-remote-management-glossary.md#winrm-gloss-wsman-items) element.
 
-The associated scripting method is [**WSMan.EnumerationFlagReturnObjectAndEPR**](wsman-enumerationflagreturnobjectandepr.md) and the C++ method is [**IWSManEx.EnumerationFlagReturnObjectAndEPR**](iwsmanex-enumerationflagreturnobjectandepr.md).
+The associated scripting method is [**WSMan.EnumerationFlagReturnObjectAndEPR**](wsman-enumerationflagreturnobjectandepr.md) and the C++ method is [**IWSManEx.EnumerationFlagReturnObjectAndEPR**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflagreturnobjectandepr?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -116,7 +119,7 @@ The associated scripting method is [**WSMan.EnumerationFlagReturnObjectAndEPR**]
 
 Derived class instances are included and are represented according to their actual schemas.
 
-The associated scripting method is [**WSMan.EnumerationFlagHierarchyDeep**](wsman-enumerationflaghierarchydeep.md) and the C++ method is [**IWSManEx.EnumerationFlagHierarchyDeep**](iwsmanex-enumerationflaghierarchydeep.md).
+The associated scripting method is [**WSMan.EnumerationFlagHierarchyDeep**](wsman-enumerationflaghierarchydeep.md) and the C++ method is [**IWSManEx.EnumerationFlagHierarchyDeep**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchydeep?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -131,7 +134,7 @@ The associated scripting method is [**WSMan.EnumerationFlagHierarchyDeep**](wsma
 
 Derived class instances are excluded. Only instances of the requested type are shown.
 
-The associated scripting method is [**WSMan.EnumerationFlagHierarchyShallow**](wsman-enumerationflaghierarchyshallow.md) and the C++ method is [**IWSManEx.EnumerationFlagHierarchyShallow**](iwsmanex-enumerationflaghierarchyshallow.md).
+The associated scripting method is [**WSMan.EnumerationFlagHierarchyShallow**](wsman-enumerationflaghierarchyshallow.md) and the C++ method is [**IWSManEx.EnumerationFlagHierarchyShallow**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchyshallow?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -146,7 +149,7 @@ The associated scripting method is [**WSMan.EnumerationFlagHierarchyShallow**](w
 
 Derived class instances are included and are represented according to the base class schema. Properties defined in the derived class are not shown.
 
-The associated scripting method is [**WSMan.EnumerationFlagHierarchyDeepBasePropsOnly**](wsman-enumerationflaghierarchydeepbasepropsonly.md) and the C++ method is [**IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly**](iwsmanex-enumerationflaghierarchydeepbasepropsonly.md).
+The associated scripting method is [**WSMan.EnumerationFlagHierarchyDeepBasePropsOnly**](wsman-enumerationflaghierarchydeepbasepropsonly.md) and the C++ method is [**IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflaghierarchydeepbasepropsonly?branch=master).
 
 
 </dt> </dl> </dd> </dl>
@@ -157,8 +160,8 @@ The associated scripting method is [**WSMan.EnumerationFlagHierarchyDeepBaseProp
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 
@@ -177,9 +180,9 @@ The associated scripting method is [**WSMan.EnumerationFlagHierarchyDeepBaseProp
 [Querying for Specific Instances of a Resource](querying-for-specific-instances-of-a-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

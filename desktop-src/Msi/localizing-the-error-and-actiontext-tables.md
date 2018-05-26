@@ -1,14 +1,19 @@
 ---
-Description: 'The Microsoft Windows Software Development Kit (SDK) includes localized resource strings, localized Error tables, and localized ActionText tables for the languages listed in the following table.'
-ms.assetid: '2e3a6e73-5b06-452d-9f87-18eb6914b961'
+Description: The Microsoft Windows Software Development Kit (SDK) includes localized resource strings, localized Error tables, and localized ActionText tables for the languages listed in the following table.
+ms.assetid: 2e3a6e73-5b06-452d-9f87-18eb6914b961
 title: Localizing the Error and ActionText Tables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Localizing the Error and ActionText Tables
 
 The Microsoft Windows Software Development Kit (SDK) includes localized resource strings, localized [Error tables](error-table.md), and localized [ActionText tables](actiontext-table.md) for the languages listed in the following table. The LANGIDs marked with asterisks indicate that the resource strings are stored as the base language and so can be used with all dialects of that language.
 
-You can import the localized Error and ActionText tables into your database by using Msidb.exe or [**MsiDatabaseImport**](msidatabaseimport.md).
+You can import the localized Error and ActionText tables into your database by using Msidb.exe or [**MsiDatabaseImport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseimporta?branch=master).
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: CdromRipStateChange Event of the AxWindowsMediaPlayer Object
 description: The CdromRipStateChange event occurs when a CD ripping operation changes state.
-ms.assetid: '0a0bd11f-a685-4c4e-8704-8eabe80d6f86'
-keywords: ["CdromRipStateChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 0a0bd11f-a685-4c4e-8704-8eabe80d6f86
+keywords:
+- CdromRipStateChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CdromRipStateChange Event of the AxWindowsMediaPlayer Object
@@ -44,7 +50,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cdr
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,12 +74,12 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cdr
 [**IWMPCdromRip Interface (VB and C#)**](iwmpcdromrip--vb-and-c.md)
 </dt> <dt>
 
-[**WMPRipState**](wmpripstate.md)
+[**WMPRipState**](/windows/win32/wmp/ne-wmp-wmpripstate?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

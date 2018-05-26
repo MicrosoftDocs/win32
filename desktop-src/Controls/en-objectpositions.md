@@ -1,8 +1,9 @@
 ---
 title: EN\_OBJECTPOSITIONS notification code
-description: Notifies a rich edit control's parent window when the control reads in objects. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
-ms.assetid: '1965185f-8a13-4989-8574-af8b9b30f6b0'
-keywords: ["EN_OBJECTPOSITIONS notification code Windows Controls"]
+description: Notifies a rich edit controls parent window when the control reads in objects. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
+ms.assetid: 1965185f-8a13-4989-8574-af8b9b30f6b0
+keywords:
+- EN_OBJECTPOSITIONS notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_OBJECTPOSITIONS notification code
@@ -33,7 +39,7 @@ EN_OBJECTPOSITIONS
 *lParam* 
 </dt> <dd>
 
-An [**OBJECTPOSITIONS**](objectpositions.md) structure.
+An [**OBJECTPOSITIONS**](/windows/win32/Richedit/ns-richedit-_objectpositions?branch=master) structure.
 
 </dd> </dl>
 
@@ -53,8 +59,8 @@ To receive an EN\_OBJECTPOSITIONS notification code, specify the [**ENM\_OBJECTP
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -69,7 +75,7 @@ To receive an EN\_OBJECTPOSITIONS notification code, specify the [**ENM\_OBJECTP
 [**EM\_SETEVENTMASK**](em-seteventmask.md)
 </dt> <dt>
 
-[**OBJECTPOSITIONS**](objectpositions.md)
+[**OBJECTPOSITIONS**](/windows/win32/Richedit/ns-richedit-_objectpositions?branch=master)
 </dt> <dt>
 
 [**WM\_NOTIFY**](wm-notify.md)
@@ -84,9 +90,9 @@ To receive an EN\_OBJECTPOSITIONS notification code, specify the [**ENM\_OBJECTP
 [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,17 +1,31 @@
 ---
 title: Retrieving the Rip Status
 description: Retrieving the Rip Status
-ms.assetid: '9907bfdd-eae7-4ca2-b488-5a6ad11416f5'
-keywords: ["Windows Media Player,CD ripping", "Windows Media Player object model,CD ripping", "object model,CD ripping", "Windows Media Player ActiveX control,CD ripping", "ActiveX control,CD ripping", "Windows Media Player Mobile ActiveX control,CD ripping", "Windows Media Player Mobile,CD ripping", "CD ripping,retrieving rip status", "ripping CDs,retrieving rip status"]
+ms.assetid: 9907bfdd-eae7-4ca2-b488-5a6ad11416f5
+keywords:
+- Windows Media Player,CD ripping
+- Windows Media Player object model,CD ripping
+- object model,CD ripping
+- Windows Media Player ActiveX control,CD ripping
+- ActiveX control,CD ripping
+- Windows Media Player Mobile ActiveX control,CD ripping
+- Windows Media Player Mobile,CD ripping
+- CD ripping,retrieving rip status
+- ripping CDs,retrieving rip status
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Rip Status
 
-You can monitor the progress of the ripping operation by periodically calling [IWMPCdromRip::get\_ripProgress](iwmpcdromrip-get-ripprogress.md). This method retrieves a progress value for the entire ripping operation. The value retrieved is a number that represents the percentage of ripping completed, from 0 to 100.
+You can monitor the progress of the ripping operation by periodically calling [IWMPCdromRip::get\_ripProgress](/windows/win32/wmp/nf-wmp-iwmpcdromrip-get_ripprogress?branch=master). This method retrieves a progress value for the entire ripping operation. The value retrieved is a number that represents the percentage of ripping completed, from 0 to 100.
 
-The progress value represents the completed percentage of the entire ripping process. To determine the progress of a specific track, use [IWMPMedia::getItemInfo](iwmpmedia-getiteminfo.md) with "RipProgress" as the attribute name. To determine the index of the track currently being ripped, call **IWMPPlaylist::getItemInfo** with "CurrentRipTrackIndex" as the attribute name.
+The progress value represents the completed percentage of the entire ripping process. To determine the progress of a specific track, use [IWMPMedia::getItemInfo](/windows/win32/wmp/nf-wmp-iwmpmedia-getiteminfo?branch=master) with "RipProgress" as the attribute name. To determine the index of the track currently being ripped, call **IWMPPlaylist::getItemInfo** with "CurrentRipTrackIndex" as the attribute name.
 
-You can monitor the state of the ripping operation by periodically calling [IWMPCdromRip::get\_ripState](iwmpcdromrip-get-ripstate.md). This method retrieves a [WMPRipState](wmpripstate.md) enumeration value that indicates whether the operation is in progress or stopped. You can also monitor the state of the ripping operation by handling the [IWMPEvents3::CdromRipStateChange](iwmpevents3-iwmpevents3--cdromripstatechange.md) event. (See [Handling Events in C++](handling-events-in-c.md).) Be careful to compare the **IWMPCdromRip** pointer (provided by the event) to the pointer that represents your ripping operation, to ensure that the event was raised by your operation.
+You can monitor the state of the ripping operation by periodically calling [IWMPCdromRip::get\_ripState](/windows/win32/wmp/nf-wmp-iwmpcdromrip-get_ripstate?branch=master). This method retrieves a [WMPRipState](/windows/win32/wmp/ne-wmp-wmpripstate?branch=master) enumeration value that indicates whether the operation is in progress or stopped. You can also monitor the state of the ripping operation by handling the [IWMPEvents3::CdromRipStateChange](/windows/win32/wmp/nf-wmp-iwmpevents3-cdromripstatechange?branch=master) event. (See [Handling Events in C++](handling-events-in-c.md).) Be careful to compare the **IWMPCdromRip** pointer (provided by the event) to the pointer that represents your ripping operation, to ensure that the event was raised by your operation.
 
 The following example code shows how to use these functions to retrieve the status of a ripping operation.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised when license acquisition is complete. For more information, see MELicenseAcquisitionStart.'
-ms.assetid: 'f577131b-887a-4912-8278-1165a801c2b3'
+---
+Description: Raised when license acquisition is complete. For more information, see MELicenseAcquisitionStart.
+ms.assetid: f577131b-887a-4912-8278-1165a801c2b3
 title: MELicenseAcquisitionCompleted event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MELicenseAcquisitionCompleted event
@@ -10,7 +15,7 @@ Raised when license acquisition is complete. For more information, see [MELicens
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

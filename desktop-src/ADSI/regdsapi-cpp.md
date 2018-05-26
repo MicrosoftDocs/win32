@@ -4,10 +4,13 @@ description: In the example provider component, functions that represent an API 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dc5ab286-5c70-43a3-90a1-f3f8a1c61c43'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: dc5ab286-5c70-43a3-90a1-f3f8a1c61c43
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # REGDSAPI.CPP

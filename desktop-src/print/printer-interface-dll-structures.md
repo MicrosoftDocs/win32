@@ -1,7 +1,12 @@
 ---
 Description: Printer Interface DLL Structures
-ms.assetid: '6f7f4430-2223-45bb-b023-01f829bbf1ed'
+ms.assetid: 6f7f4430-2223-45bb-b023-01f829bbf1ed
 title: Printer Interface DLL Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Printer Interface DLL Structures

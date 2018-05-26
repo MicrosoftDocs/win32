@@ -4,11 +4,14 @@ description: Reinstalls a Remote Desktop Services license key pack that was purc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'BC3C966B-E6CE-45E2-BC1D-2439B75D4C3C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: BC3C966B-E6CE-45E2-BC1D-2439B75D4C3C
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ReinstallAgreementLicenseKeyPack method Remote Desktop Services", "ReinstallAgreementLicenseKeyPack method Remote Desktop Services , Win32_TSLicenseKeyPack class", "Win32_TSLicenseKeyPack class Remote Desktop Services , ReinstallAgreementLicenseKeyPack method"]
+keywords:
+- ReinstallAgreementLicenseKeyPack method Remote Desktop Services
+- ReinstallAgreementLicenseKeyPack method Remote Desktop Services , Win32_TSLicenseKeyPack class
+- Win32_TSLicenseKeyPack class Remote Desktop Services , ReinstallAgreementLicenseKeyPack method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ReinstallAgreementLicenseKeyPack method of the Win32\_TSLicenseKeyPack class
@@ -28,12 +34,12 @@ Reinstalls a Remote Desktop Services license key pack that was purchased through
 
 ```mof
 uint32 ReinstallAgreementLicenseKeyPack(
-  [in]  uint32 AgreementType,
-  [in]  string sAgreementNumber,
-  [in]  uint32 ProductVersion,
-  [in]  uint32 ProductType,
-  [in]  uint32 LicenseCount,
-  [out] uint32 KeyPackId
+  [in]  uint32 AgreementType,
+  [in]  string sAgreementNumber,
+  [in]  uint32 ProductVersion,
+  [in]  uint32 ProductType,
+  [in]  uint32 LicenseCount,
+  [out] uint32 KeyPackId
 );
 ```
 
@@ -123,7 +129,7 @@ Not supported.
 2
 </dt> <dd>
 
-Windows Server 2008
+Windows Server 2008
 
 </dd> </dl> </dd> <dt>
 
@@ -137,14 +143,14 @@ Product type.
 0
 </dt> <dd>
 
-The Remote Desktop Services license key pack product type is per device. Therefore, each device that connects to the RD Session Host server must have a license.
+The Remote Desktop Services license key pack product type is per device. Therefore, each device that connects to the RD Session Host server must have a license.
 
 </dd> <dt>
 
 1
 </dt> <dd>
 
-The Remote Desktop Services license key pack product type is per user. Therefore, each user who connects to the RD Session Host server must have a license.
+The Remote Desktop Services license key pack product type is per user. Therefore, each user who connects to the RD Session Host server must have a license.
 
 </dd> <dt>
 
@@ -180,7 +186,7 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -194,9 +200,9 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 [**Win32\_TSLicenseKeyPack**](win32-tslicensekeypack.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

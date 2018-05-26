@@ -1,7 +1,12 @@
 ---
-Description: 'The following example hashes some data and signs that hash. In a second phase, the hash and its signature are verified. The hash is signed with the user''s private key, and the signer''s public key is exported so that the signature can be verified.'
-ms.assetid: '72f5d30a-efd5-4bf5-8057-cb73e5aa0514'
-title: 'Example C Program: Signing a Hash and Verifying the Hash Signature'
+Description: The following example hashes some data and signs that hash. In a second phase, the hash and its signature are verified. The hash is signed with the users private key, and the signers public key is exported so that the signature can be verified.
+ms.assetid: 72f5d30a-efd5-4bf5-8057-cb73e5aa0514
+title: Example C Program Signing a Hash and Verifying the Hash Signature
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Signing a Hash and Verifying the Hash Signature
@@ -10,16 +15,16 @@ The following example [*hashes*](security.h_gly#-security-hash-gly) some data an
 
 This example illustrates the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
--   Acquiring a CSP using [**CryptAcquireContext**](cryptacquirecontext.md).
--   Getting the user's AT\_SIGNATURE key pair using [**CryptGetUserKey**](cryptgetuserkey.md).
--   Creating a PUBLICKEYBLOB with the signer's public key to be used in the signature verification process using [**CryptExportKey**](cryptexportkey.md).
--   Creating a hash object using [**CryptCreateHash**](cryptcreatehash.md).
--   Hashing the data using [**CryptHashData**](crypthashdata.md).
--   Signing the hash using [**CryptSignHash**](cryptsignhash.md).
--   Destroying the original hash object using [**CryptDestroyHash**](cryptdestroyhash.md).
--   Making the public key needed to verify the hash available using [**CryptImportKey**](cryptimportkey.md).
--   Re-creating the hash object using [**CryptCreateHash**](cryptcreatehash.md) and [**CryptHashData**](crypthashdata.md).
--   Verifying the signature on the hash using [**CryptVerifySignature**](cryptverifysignature.md).
+-   Acquiring a CSP using [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master).
+-   Getting the user's AT\_SIGNATURE key pair using [**CryptGetUserKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetuserkey?branch=master).
+-   Creating a PUBLICKEYBLOB with the signer's public key to be used in the signature verification process using [**CryptExportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptexportkey?branch=master).
+-   Creating a hash object using [**CryptCreateHash**](/windows/win32/Wincrypt/nf-wincrypt-cryptcreatehash?branch=master).
+-   Hashing the data using [**CryptHashData**](/windows/win32/Wincrypt/nf-wincrypt-crypthashdata?branch=master).
+-   Signing the hash using [**CryptSignHash**](/windows/win32/Wincrypt/nf-wincrypt-cryptsignhasha?branch=master).
+-   Destroying the original hash object using [**CryptDestroyHash**](/windows/win32/Wincrypt/nf-wincrypt-cryptdestroyhash?branch=master).
+-   Making the public key needed to verify the hash available using [**CryptImportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptimportkey?branch=master).
+-   Re-creating the hash object using [**CryptCreateHash**](/windows/win32/Wincrypt/nf-wincrypt-cryptcreatehash?branch=master) and [**CryptHashData**](/windows/win32/Wincrypt/nf-wincrypt-crypthashdata?branch=master).
+-   Verifying the signature on the hash using [**CryptVerifySignature**](/windows/win32/Wincrypt/nf-wincrypt-cryptverifysignaturea?branch=master).
 -   Performing normal cleanup.
 
 

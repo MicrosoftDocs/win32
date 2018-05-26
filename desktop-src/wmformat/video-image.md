@@ -1,8 +1,16 @@
 ---
 title: Video Image
 description: Video Image
-ms.assetid: '71183b90-dd10-49e3-9f03-9aad0cfe3d2a'
-keywords: ["Windows Media Format SDK,video images", "codecs,video images", "video images,about"]
+ms.assetid: 71183b90-dd10-49e3-9f03-9aad0cfe3d2a
+keywords:
+- Windows Media Format SDK,video images
+- codecs,video images
+- video images,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Image
@@ -24,7 +32,7 @@ A Video Image stream has its own media type and a specialized structure that def
 [**Video Image Transitions**](video-image-transitions.md)
 </dt> <dt>
 
-[**WMT\_VIDEOIMAGE\_SAMPLE2**](wmt-videoimage-sample2.md)
+[**WMT\_VIDEOIMAGE\_SAMPLE2**](/windows/win32/Wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2?branch=master)
 </dt> <dt>
 
 [**Writing Video Image Samples**](writing-video-image-samples.md)

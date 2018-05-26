@@ -1,8 +1,16 @@
 ---
 title: Schema support level
 description: This section covers the details around the level of schema support.
-ms.assetid: 'ca18306e-6d67-406d-9c42-4be159a0b81f'
-keywords: ["Schema support level Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: ca18306e-6d67-406d-9c42-4be159a0b81f
+keywords:
+- Schema support level Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Schema support level

@@ -1,8 +1,39 @@
 ---
 title: Open Packaging Conventions Fundamentals
 description: Introduces the OPC concepts that are required for using Packaging APIs.
-ms.assetid: '115430f2-8e1f-46ba-ae6e-b7f3689048ff'
-keywords: ["Open Packaging Conventions (OPC)", "OPC (Open Packaging Conventions)", "Packaging APIs,Open Packaging Conventions", "packaging,Open Packaging Conventions (OPC)", "packages,Open Packaging Conventions (OPC)", "packages,about", "packaging,logical model", "packages,logical model", "logical model", "packaging,physical model", "packages,physical model", "physical model", "packaging,ZIP-based formats", "packages,ZIP-based formats", "ZIP-based package formats", "packaging,parts", "packages,parts", "parts,Open Packaging Conventions (OPC)", "parts,about", "packaging,relationships", "packages,relationships", "relationships,Open Packaging Conventions (OPC)", "packaging,digital signatures", "packages,digital signatures", "digital signatures", "signatures"]
+ms.assetid: 115430f2-8e1f-46ba-ae6e-b7f3689048ff
+keywords:
+- Open Packaging Conventions (OPC)
+- OPC (Open Packaging Conventions)
+- Packaging APIs,Open Packaging Conventions
+- packaging,Open Packaging Conventions (OPC)
+- packages,Open Packaging Conventions (OPC)
+- packages,about
+- packaging,logical model
+- packages,logical model
+- logical model
+- packaging,physical model
+- packages,physical model
+- physical model
+- packaging,ZIP-based formats
+- packages,ZIP-based formats
+- ZIP-based package formats
+- packaging,parts
+- packages,parts
+- parts,Open Packaging Conventions (OPC)
+- parts,about
+- packaging,relationships
+- packages,relationships
+- relationships,Open Packaging Conventions (OPC)
+- packaging,digital signatures
+- packages,digital signatures
+- digital signatures
+- signatures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Open Packaging Conventions Fundamentals
@@ -25,11 +56,11 @@ This topic contains the following sections.
 
 ## Introduction
 
-The *ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)* can be more easily understood through an analogy with real–world filing systems. People and businesses need to organize their information. Often, this information is tracked by using paperwork that is stored in folders, which are in turn, stored in filing cabinets. For each person and business, someone had to design a system to fit their needs, a system that would allow information to be accessed as needed.
+The *ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)* can be more easily understood through an analogy with real world filing systems. People and businesses need to organize their information. Often, this information is tracked by using paperwork that is stored in folders, which are in turn, stored in filing cabinets. For each person and business, someone had to design a system to fit their needs, a system that would allow information to be accessed as needed.
 
 A personalized filing system provides great advantages when used by someone who understands how the system works, but when someone new needs to access the system, how do they know where to find the information they need? Suddenly, the personalized filing system becomes less convenient. Applications face similar challenges in organizing data: what information is most important and how can developers ensure that it is easily accessible?
 
-The *OPC* specification provides an answer to this question. A package, as described in the *OPC*, enables different applications to access key information from an OPC–based file in a standardized and predictable way. A package is like a filing cabinet whose basic organization is known to all the people and businesses that interact with it.
+The *OPC* specification provides an answer to this question. A package, as described in the *OPC*, enables different applications to access key information from an OPC based file in a standardized and predictable way. A package is like a filing cabinet whose basic organization is known to all the people and businesses that interact with it.
 
 ## What are the Open Packaging Conventions (OPC)?
 
@@ -45,7 +76,7 @@ A package is an aggregate of data components, like the filing cabinet (which is 
 
 ![illustration showing a generic filing cabinet](../images/closed-cabinet.png)
 
-Unlike real–world filing systems, packages must conform to a predictable, conceptual organizational system (called the logical model), and predicatable physical characteristics (called the physical model). These standardized conformance requirements are described in the *OPC*.
+Unlike real world filing systems, packages must conform to a predictable, conceptual organizational system (called the logical model), and predicatable physical characteristics (called the physical model). These standardized conformance requirements are described in the *OPC*.
 
 ### Logical Model
 
@@ -81,7 +112,7 @@ Examples of ZIP-based package formats include:
 
 ## Parts
 
-In the analogy of a package to a real–world filing system, the parts in a package are like the folders in a filing cabinet. Parts store application data, like folders (which are shown in the following illustration) store personal or business information.
+In the analogy of a package to a real world filing system, the parts in a package are like the folders in a filing cabinet. Parts store application data, like folders (which are shown in the following illustration) store personal or business information.
 
 ![illustration showing a generic, empty file-folder](../images/folder-empty.png)
 
@@ -97,11 +128,11 @@ For more information about parts and about finding their current part names, see
 
 ## Relationships
 
-In the analogy of a package to a real–world filing system, relationships can be used to navigate a package like information on a directory card can be used to navigate a filing system.
+In the analogy of a package to a real world filing system, relationships can be used to navigate a package like information on a directory card can be used to navigate a filing system.
 
 In the logical model of a package, relationships are the links that connect a source to a target. While the source is either the package or a part, the target can be any URI-addressable resource inside or outside of the package.
 
-If the relationship target is inside the package, the targeted resource is a part in the package. If the target is outside of the package, the targeted resource can be any URI-addressable resource.
+If the relationship target is inside the package, the targeted resource is a part in the package. If the target is outside of the package, the targeted resource can be any URI-addressable resource.
 
 Only two kinds of resources can be the source of a relationship: the package itself and a part. If the source is the package, the relationship is called a package relationship; if the source is a part, the relationship is called a part relationship.
 
@@ -133,7 +164,7 @@ In a package, a digital signature (signature) can be validated, confirming that 
 > \[!Important\]  
 > Although signatures can be used to validate the identity of the package signer and originator, this must be performed by the package consumer.
 
- 
+ 
 
 A package signature can reference package components that have been signed. These components include XML markup that has been signed in application-specific **Object** elements. The signature can also include certificates (or links to them), which may be used in signature validation.
 
@@ -152,7 +183,7 @@ The following table describes common package signature concepts.
 
 
 
- 
+ 
 
 For more information about digital signatures, see the W3C recommendation [XML Signature Syntax and Processing](http://go.microsoft.com/fwlink/p/?linkid=132847) (http://go.microsoft.com/fwlink/p/?linkid=132847).
 
@@ -175,9 +206,9 @@ For more information about digital signatures, see the W3C recommendation [XML S
 [ECMA-376 OpenXML](http://go.microsoft.com/fwlink/p/?linkid=123375)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

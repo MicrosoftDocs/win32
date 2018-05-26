@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_NETWORK\_ASSOCIATION'
-ms.assetid: '5c17aba1-98f7-4d6c-a5d2-2b4623a65255'
-title: 'WPD\_CONTENT\_TYPE\_NETWORK\_ASSOCIATION'
+Description: WPD\_CONTENT\_TYPE\_NETWORK\_ASSOCIATION
+ms.assetid: 5c17aba1-98f7-4d6c-a5d2-2b4623a65255
+title: WPD\_CONTENT\_TYPE\_NETWORK\_ASSOCIATION
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_NETWORK\_ASSOCIATION

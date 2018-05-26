@@ -1,7 +1,12 @@
 ---
 title: Creating an Index File
 description: A good index file helps users to locate the information they need. HTML Help Workshop provides the tools needed to create and edit an index file for your help system.
-ms.assetid: 'A010B31E-D397-4051-9645-DEDFC9D2F1E0'
+ms.assetid: A010B31E-D397-4051-9645-DEDFC9D2F1E0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Index File

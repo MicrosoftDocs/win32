@@ -1,7 +1,12 @@
 ---
 title: VML Specularity Attribute
 description: VML Specularity Attribute
-ms.assetid: 'df04c15c-cfad-4172-81fa-a28e13f205fc'
+ms.assetid: df04c15c-cfad-4172-81fa-a28e13f205fc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Specularity Attribute

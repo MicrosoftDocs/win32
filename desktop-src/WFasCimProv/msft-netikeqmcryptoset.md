@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies parameters for the quick mode negotiation as well as dictating the crypto sets that should be proposed during the exchange.'
-ms.assetid: 'ec5f1d79-5c20-4a79-9ffd-d31c9e61c131'
-title: 'MSFT\_NetIKEQMCryptoSet class'
+Description: Specifies parameters for the quick mode negotiation as well as dictating the crypto sets that should be proposed during the exchange.
+ms.assetid: ec5f1d79-5c20-4a79-9ffd-d31c9e61c131
+title: MSFT\_NetIKEQMCryptoSet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetIKEQMCryptoSet class
@@ -15,38 +20,38 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetIKEQMCryptoSet : MSFT_NetIKECryptoSet
 {
-  uint16  PfsGroupID;
-  string  RuleGroup;
-  string  DisplayGroup;
-  string  Proposals[];
-  uint16  PrimaryStatus;
-  uint32  StatusCode;
-  string  Status;
-  uint16  EnforcementStatus[];
-  uint16  PolicyStoreSourceType;
-  string  PolicyStoreSource;
-  uint16  ExchangeMode;
-  uint16  UseIKEIdentityType;
-  string  VendorID;
-  uint16  AggressiveModeGroupID;
-  uint64  MinLifetimeSeconds;
-  uint64  IdleDurationSeconds;
-  uint64  MinLifetimeKilobytes;
+  uint16  PfsGroupID;
+  string  RuleGroup;
+  string  DisplayGroup;
+  string  Proposals[];
+  uint16  PrimaryStatus;
+  uint32  StatusCode;
+  string  Status;
+  uint16  EnforcementStatus[];
+  uint16  PolicyStoreSourceType;
+  string  PolicyStoreSource;
+  uint16  ExchangeMode;
+  uint16  UseIKEIdentityType;
+  string  VendorID;
+  uint16  AggressiveModeGroupID;
+  uint64  MinLifetimeSeconds;
+  uint64  IdleDurationSeconds;
+  uint64  MinLifetimeKilobytes;
   boolean DoPacketLogging;
-  string  SystemCreationClassName;
-  string  SystemName;
-  string  PolicyRuleCreationClassName;
-  string  PolicyRuleName;
-  string  CreationClassName;
-  string  PolicyActionName;
+  string  SystemCreationClassName;
+  string  SystemName;
+  string  PolicyRuleCreationClassName;
+  string  PolicyRuleName;
+  string  CreationClassName;
+  string  PolicyActionName;
   boolean DoActionLogging;
-  string  CommonName;
-  string  PolicyKeywords[];
-  string  InstanceID;
-  string  Caption;
-  string  DisplayName;
-  string  Description;
-  string  ElementName;
+  string  CommonName;
+  string  PolicyKeywords[];
+  string  InstanceID;
+  string  Caption;
+  string  DisplayName;
+  string  Description;
+  string  ElementName;
 };
 ```
 
@@ -70,7 +75,7 @@ The **MSFT\_NetIKEQMCryptoSet** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -617,17 +622,17 @@ This field is ignored.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

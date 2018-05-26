@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'e5dd921b-0b43-4698-9083-ee24a19c25f2'
-title: 'System.Contact.JobInfo3Manager'
+Description: .
+ms.assetid: e5dd921b-0b43-4698-9083-ee24a19c25f2
+title: System.Contact.JobInfo3Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.JobInfo3Manager

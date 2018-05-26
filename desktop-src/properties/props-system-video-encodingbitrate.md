@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the data rate in &\#0034;bits per second&\#0034; for the video stream. &\#0034;DataRate&\#0034;.'
-ms.assetid: '2465dd92-6ab4-4a1f-abd4-1d2abca6f9ce'
-title: 'System.Video.EncodingBitrate'
+Description: Indicates the data rate in &\#0034;bits per second&\#0034; for the video stream. &\#0034;DataRate&\#0034;.
+ms.assetid: 2465dd92-6ab4-4a1f-abd4-1d2abca6f9ce
+title: System.Video.EncodingBitrate
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Video.EncodingBitrate

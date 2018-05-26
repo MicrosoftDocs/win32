@@ -1,8 +1,9 @@
 ---
 title: glDrawElements function
 description: The glDrawElements function renders primitives from array data.
-ms.assetid: 'fb433294-106e-48d5-ad49-4434934fe072'
-keywords: ["glDrawElements function OpenGL"]
+ms.assetid: fb433294-106e-48d5-ad49-4434934fe072
+keywords:
+- glDrawElements function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glDrawElements function
@@ -22,10 +28,10 @@ The **glDrawElements** function renders primitives from array data.
 
 ```C++
 void WINAPI glDrawElements(
-         GLenum  mode,
-         GLsizei count,
-         GLenum  type,
-   const GLvoid  *indices
+         GLenum  mode,
+         GLsizei count,
+         GLenum  type,
+   const GLvoid  *indices
 );
 ```
 
@@ -108,7 +114,7 @@ You can include the **glDrawElements** function in display lists. When **glDrawE
 > [!Note]  
 > The **glDrawElements** function is only available in OpenGL version 1.1 or later.
 
- 
+ 
 
 ## Requirements
 
@@ -116,8 +122,8 @@ You can include the **glDrawElements** function in display lists. When **glDrawE
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -161,9 +167,9 @@ You can include the **glDrawElements** function in display lists. When **glDrawE
 [**glVertexPointer**](glvertexpointer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

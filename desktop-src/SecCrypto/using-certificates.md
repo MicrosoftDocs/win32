@@ -1,7 +1,12 @@
 ---
-Description: 'Lists topics that explain how to create and use certificates.'
-ms.assetid: 'eeeed3ce-1f85-4c1b-9ef3-b16772b462bb'
+Description: Lists topics that explain how to create and use certificates.
+ms.assetid: eeeed3ce-1f85-4c1b-9ef3-b16772b462bb
 title: Using Certificates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Certificates

@@ -1,7 +1,12 @@
 ---
 title: CiWebhitsFile
 description: CiWebhitsFile
-ms.assetid: '107449eb-e443-40bb-81d6-bd2066be76bf'
+ms.assetid: 107449eb-e443-40bb-81d6-bd2066be76bf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CiWebhitsFile

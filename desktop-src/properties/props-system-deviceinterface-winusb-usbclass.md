@@ -1,7 +1,12 @@
 ---
-Description: 'Class value from the USB device''s first USB Interface Descriptor.'
-ms.assetid: 'ef1781eb-25eb-44cd-935a-dcd1441425bd'
-title: 'System.DeviceInterface.WinUsb.UsbClass'
+Description: Class value from the USB devices first USB Interface Descriptor.
+ms.assetid: ef1781eb-25eb-44cd-935a-dcd1441425bd
+title: System.DeviceInterface.WinUsb.UsbClass
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.WinUsb.UsbClass

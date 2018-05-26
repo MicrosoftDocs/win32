@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following constants are provided by the DirectXMath Library.'
-ms.assetid: 'a206fe22-12c8-ac2b-ee37-20cfff35841a'
+---
+Description: The following constants are provided by the DirectXMath Library.
+ms.assetid: a206fe22-12c8-ac2b-ee37-20cfff35841a
 title: DirectXMath Library Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectXMath Library Constants
@@ -116,19 +121,19 @@ The following constants are provided by the DirectXMath Library.
 <td>XM_CRMASK_CR6TRUE<br/></td>
 <td>Mask to get a comparison result, and verify if it is a logical true. The value is typically retrieved using a recording version of a DirectXMath function such as [<strong>XMVector4EqualR</strong>](xmvector4equalr.md). The example checks if the variableq CR is true:
 <pre class="syntax" data-space="preserve"><code>bool val = (((CR) &amp; XM_CRMASK_CR6FALSE) == XM_CRMASK_CR6FALSE);</code></pre>
-See also [<strong>XMComparisonAnyTrue</strong>](xmcomparisonanytrue.md), [<strong>XMComparisonAllTrue</strong>](xmcomparisonalltrue.md), and [<strong>XMComparisonMixed</strong>](xmcomparisonmixed.md)<br/></td>
+See also [<strong>XMComparisonAnyTrue</strong>](/windows/win32/DirectXMath/nf-directxmath-xmcomparisonanytrue?branch=master), [<strong>XMComparisonAllTrue</strong>](/windows/win32/DirectXMath/nf-directxmath-xmcomparisonalltrue?branch=master), and [<strong>XMComparisonMixed</strong>](/windows/win32/DirectXMath/nf-directxmath-xmcomparisonmixed?branch=master)<br/></td>
 </tr>
 <tr class="even">
 <td>XM_CRMASK_CR6FALSE<br/></td>
 <td>Mask to get a comparison result, and verify if it is a logical false. The value is typically retrieved using a recording version of an DirectXMath math function such as [<strong>XMVector4EqualR</strong>](xmvector4equalr.md). The example checks if the variable CR is false:
 <pre class="syntax" data-space="preserve"><code>bool val = (((CR) &amp; XM_CRMASK_CR6FALSE) == XM_CRMASK_CR6FALSE);</code></pre>
-See also [<strong>XMComparisonAnyFalse</strong>](xmcomparisonanyfalse.md), [<strong>XMComparisonAllFalse</strong>](xmcomparisonallfalse.md) and [<strong>XMComparisonMixed</strong>](xmcomparisonmixed.md)<br/></td>
+See also [<strong>XMComparisonAnyFalse</strong>](/windows/win32/DirectXMath/nf-directxmath-xmcomparisonanyfalse?branch=master), [<strong>XMComparisonAllFalse</strong>](/windows/win32/DirectXMath/nf-directxmath-xmcomparisonallfalse?branch=master) and [<strong>XMComparisonMixed</strong>](/windows/win32/DirectXMath/nf-directxmath-xmcomparisonmixed?branch=master)<br/></td>
 </tr>
 <tr class="odd">
 <td>XM_CRMASK_CR6BOUNDS<br/></td>
 <td>Mask to get a comparison result, and verify if the result indicates that some of the inputs were out of bounds. The value is typically retrieved using a recording version of a DirectXMath function such as [<strong>XMVector4EqualR</strong>](xmvector4equalr.md). The example checks if the variable CR indicates and out of bounds state.
 <pre class="syntax" data-space="preserve"><code>bool val = (((CR) &amp; XM_CRMASK_CR6BOUNDS) == XM_CRMASK_CR6BOUNDS);</code></pre>
-See also [<strong>XMComparisonAllInBounds</strong>](xmcomparisonallinbounds.md) and [<strong>XMComparisonAnyOutOfBounds</strong>](xmcomparisonanyoutofbounds.md)<br/></td>
+See also [<strong>XMComparisonAllInBounds</strong>](/windows/win32/DirectXMath/nf-directxmath-xmcomparisonallinbounds?branch=master) and [<strong>XMComparisonAnyOutOfBounds</strong>](/windows/win32/DirectXMath/nf-directxmath-xmcomparisonanyoutofbounds?branch=master)<br/></td>
 </tr>
 <tr class="even">
 <td>Colors::AliceBlue</td>

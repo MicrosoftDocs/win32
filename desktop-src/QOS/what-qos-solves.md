@@ -1,8 +1,14 @@
 ---
 title: What QOS Solves
 description: As computing and applications become more mission-critical, not to mention more content-rich and multimedia-oriented, the bandwidth necessary to service desktop functionality increases.
-ms.assetid: '0e3a7e21-dda1-424f-b41c-e63819e58554'
-keywords: ["Quality of Service QOS , described, purpose"]
+ms.assetid: 0e3a7e21-dda1-424f-b41c-e63819e58554
+keywords:
+- Quality of Service QOS , described, purpose
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What QOS Solves

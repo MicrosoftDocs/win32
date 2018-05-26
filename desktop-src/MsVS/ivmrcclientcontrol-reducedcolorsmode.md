@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl ReducedColorsMode property
-description: The ReducedColorsMode property indicates whether the client's reduced-colors mode is enabled.
-ms.assetid: '4271e5b5-aed0-4f38-a907-cdb0f2616b10'
-keywords: ["ReducedColorsMode property Virtual Server", "ReducedColorsMode property Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , ReducedColorsMode property", "ReducedColorsMode property Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , ReducedColorsMode property"]
+description: The ReducedColorsMode property indicates whether the clients reduced-colors mode is enabled.
+ms.assetid: 4271e5b5-aed0-4f38-a907-cdb0f2616b10
+keywords:
+- ReducedColorsMode property Virtual Server
+- ReducedColorsMode property Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , ReducedColorsMode property
+- ReducedColorsMode property Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , ReducedColorsMode property
 topic_type:
 - apiref
 api_name:
@@ -15,6 +20,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::ReducedColorsMode property
@@ -28,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ReducedColorsMode(
-  [in]  VARIANT_BOOL reducedColorsMode
+  [in]  VARIANT_BOOL reducedColorsMode
 );
 
 HRESULT get_ReducedColorsMode(
-  [out] VARIANT_BOOL *reducedColorsMode
+  [out] VARIANT_BOOL *reducedColorsMode
 );
 ```
 
@@ -84,7 +94,7 @@ When the client's reduced-colors mode is enabled, the virtual machine screen dis
 > [!Note]  
 > Enabling this feature takes affect when a new connection is made. It cannot be changed for an already established connection.
 
- 
+ 
 
 ## Requirements
 
@@ -92,8 +102,8 @@ When the client's reduced-colors mode is enabled, the virtual machine screen dis
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -106,9 +116,9 @@ When the client's reduced-colors mode is enabled, the virtual machine screen dis
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

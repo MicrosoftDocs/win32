@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a data object. Deprecated.'
-ms.assetid: 'bb0ef2cf-db76-40f6-968f-3599c58459a7'
-title: 'IDirectXFileSaveObject::CreateDataObject method'
+---
+Description: Creates a data object. Deprecated.
+ms.assetid: bb0ef2cf-db76-40f6-968f-3599c58459a7
+title: IDirectXFileSaveObjectCreateDataObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileSaveObject::CreateDataObject method

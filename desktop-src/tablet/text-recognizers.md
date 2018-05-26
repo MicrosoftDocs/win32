@@ -1,7 +1,12 @@
 ---
-Description: 'Text recognizers divide an ink sample into segments and translate the ink segments into text.'
-ms.assetid: '9fbdde0e-5312-48ec-9273-ded6703b99a9'
+Description: Text recognizers divide an ink sample into segments and translate the ink segments into text.
+ms.assetid: 9fbdde0e-5312-48ec-9273-ded6703b99a9
 title: Text Recognizers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Recognizers

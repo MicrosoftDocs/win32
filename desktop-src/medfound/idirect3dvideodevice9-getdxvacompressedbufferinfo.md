@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets information about the compressed buffers needed for hardware-accelerated decoding.'
-ms.assetid: '5a9fb077-fd79-4faa-a0f8-b3ac987adf36'
-title: 'IDirect3DVideoDevice9::GetDXVACompressedBufferInfo method'
+---
+Description: Gets information about the compressed buffers needed for hardware-accelerated decoding.
+ms.assetid: 5a9fb077-fd79-4faa-a0f8-b3ac987adf36
+title: IDirect3DVideoDevice9GetDXVACompressedBufferInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirect3DVideoDevice9::GetDXVACompressedBufferInfo method
@@ -36,7 +41,7 @@ Pointer to a GUID that specifies the DXVA profile. To get a list of supported pr
 *pUncompData* 
 </dt> <dd>
 
-Pointer to a [**DXVAUncompDataInfo**](dxvauncompdatainfo.md) structure that specifies the size and pixel format of the uncompressed data.
+Pointer to a [**DXVAUncompDataInfo**](/windows/win32/dxva9typ/ns-dxva9typ-_dxvauncompdatainfo?branch=master) structure that specifies the size and pixel format of the uncompressed data.
 
 </dd> <dt>
 
@@ -52,7 +57,7 @@ On output, if *pBufferInfo* is **NULL**, *pNumBuffers* receives the size of arra
 *pBufferInfo* 
 </dt> <dd>
 
-Address of an array of [**DXVACompBufferInfo**](dxvacompbufferinfo.md) structures or **NULL**. If the value is non-**NULL**, the method copies a list of **DXVACompBufferInfo** structures to this array. Each structure corresponds to one type of compressed data buffer that is used by the video accelerator.
+Address of an array of [**DXVACompBufferInfo**](/windows/win32/dxva9typ/ns-dxva9typ-_dxvacompbufferinfo?branch=master) structures or **NULL**. If the value is non-**NULL**, the method copies a list of **DXVACompBufferInfo** structures to this array. Each structure corresponds to one type of compressed data buffer that is used by the video accelerator.
 
 Set all of the array elements to zero before calling this method.
 

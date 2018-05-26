@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob SetNoProgressTimeout method
 description: Sets the length of time that Delivery Optimization (DO) tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
-ms.assetid: 'DC86F74F-8429-4D78-B425-CAF19867B05E'
-keywords: ["SetNoProgressTimeout method", "SetNoProgressTimeout method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, SetNoProgressTimeout method"]
+ms.assetid: DC86F74F-8429-4D78-B425-CAF19867B05E
+keywords:
+- SetNoProgressTimeout method
+- SetNoProgressTimeout method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, SetNoProgressTimeout method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::SetNoProgressTimeout method
@@ -22,7 +30,7 @@ Sets the length of time that Delivery Optimization (DO) tries to transfer the fi
 
 ```C++
 HRESULT SetNoProgressTimeout(
-  [in] ULONG RetryPeriod
+  [in] ULONG RetryPeriod
 );
 ```
 
@@ -52,7 +60,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,7 +72,7 @@ If DO does not make progress during the retry period, it moves the state of the 
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -84,9 +92,9 @@ If DO does not make progress during the retry period, it moves the state of the 
 [**IBackgroundCopyJob::GetNoProgressTimeout**](ibackgroundcopyjob-getnoprogresstimeout.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

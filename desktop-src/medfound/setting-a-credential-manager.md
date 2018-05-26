@@ -1,19 +1,24 @@
 ---
 Description: Setting a Credential Manager
-ms.assetid: 'a20c2e6c-e9d9-438f-a57a-e3080587c11c'
+ms.assetid: a20c2e6c-e9d9-438f-a57a-e3080587c11c
 title: Setting a Credential Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting a Credential Manager
 
 An application that provides credentials to the network source must do the following:
 
-1.  Implement a credential manager object that exposes the [**IMFNetCredentialManager**](imfnetcredentialmanager.md) interface.
+1.  Implement a credential manager object that exposes the [**IMFNetCredentialManager**](/windows/win32/mfidl/nn-mfidl-imfnetcredentialmanager?branch=master) interface.
 2.  Before you create the network source, create a new property store.
-3.  Set the [**MFNETSOURCE\_CREDENTIAL\_MANAGER**](mfnetsource-credential-manager-property.md) property on the property store. The value of the property is a pointer to the [**IMFNetCredentialManager**](imfnetcredentialmanager.md) interface.
+3.  Set the [**MFNETSOURCE\_CREDENTIAL\_MANAGER**](mfnetsource-credential-manager-property.md) property on the property store. The value of the property is a pointer to the [**IMFNetCredentialManager**](/windows/win32/mfidl/nn-mfidl-imfnetcredentialmanager?branch=master) interface.
 4.  Pass a pointer to the property store to the source resolver, as described in [Configuring a Media Source](configuring-a-media-source.md).
 
-The network sources uses the credential manager to get user credentials. If the network source requires credentials to access a network resource, it calls the application's [**IMFNetCredentialManager::BeginGetCredentials**](imfnetcredentialmanager-begingetcredentials.md) method. This call starts an asynchronous request to gets the user's credentials. The **BeginGetCredentials** method can get the credentials either from the credential cache or from the user. Credentials are stored in a *credential object*. When the operation is complete, the application invokes the callback interface to notify the network source. The network source calls [**IMFNetCredentialManager::EndGetCredentials**](imfnetcredentialmanager-endgetcredentials.md) to complete the asynchronous operation.
+The network sources uses the credential manager to get user credentials. If the network source requires credentials to access a network resource, it calls the application's [**IMFNetCredentialManager::BeginGetCredentials**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialmanager-begingetcredentials?branch=master) method. This call starts an asynchronous request to gets the user's credentials. The **BeginGetCredentials** method can get the credentials either from the credential cache or from the user. Credentials are stored in a *credential object*. When the operation is complete, the application invokes the callback interface to notify the network source. The network source calls [**IMFNetCredentialManager::EndGetCredentials**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialmanager-endgetcredentials?branch=master) to complete the asynchronous operation.
 
 Because this is an asynchronous operation, the application must dispatch the callback at the end of the operation. For step-by-step instructions about writing an asynchronous method, see [Writing an Asynchronous Method](writing-an-asynchronous-method.md).
 

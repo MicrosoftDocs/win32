@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_DEFAULT structure
 description: Passes D3D12\_DEFAULT into a constructor for each helper structure. This structure is simply used as a mechanism to set default parameters on the other helper structures.
-ms.assetid: 'AD41FD7B-9172-400E-9292-374FFAEDE145'
-keywords: ["CD3DX12_DEFAULT structure"]
+ms.assetid: AD41FD7B-9172-400E-9292-374FFAEDE145
+keywords:
+- CD3DX12_DEFAULT structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_DEFAULT structure
@@ -47,9 +53,9 @@ CD3DX12\_CPU\_DESCRIPTOR\_HANDLE(CD3DX12\_DEFAULT) { ptr = 0; }
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

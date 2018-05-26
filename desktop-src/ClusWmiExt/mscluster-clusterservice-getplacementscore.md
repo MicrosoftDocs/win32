@@ -4,13 +4,16 @@ description: Gets the placement score for a virtual machine.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e8de35c9-3cbc-4d02-9b6a-1c05473b1c0f'
-ms.prod: 'windows-server-dev'
+ms.assetid: e8de35c9-3cbc-4d02-9b6a-1c05473b1c0f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetPlacementScore method", "GetPlacementScore method, MSCluster_ClusterService class", "MSCluster_ClusterService class, GetPlacementScore method"]
+keywords:
+- GetPlacementScore method
+- GetPlacementScore method, MSCluster_ClusterService class
+- MSCluster_ClusterService class, GetPlacementScore method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetPlacementScore method of the MSCluster\_ClusterService class
@@ -30,14 +36,14 @@ Gets the placement score for a virtual machine.
 
 ```mof
 uint32 GetPlacementScore(
-  [in]  uint32 VmMemory,
-  [in]  uint32 VmVirtualCoreCount,
-  [in]  uint32 VmCpuReservation,
-  [in]  uint32 VmFlags,
-  [in]  real64 ReservedNodes,
-  [out] uint32 MaxNumOfVMsInCluster,
-  [out] uint32 MaxNumOfVMsInNode,
-  [out] uint32 PlacementScoreFlags
+  [in]  uint32 VmMemory,
+  [in]  uint32 VmVirtualCoreCount,
+  [in]  uint32 VmCpuReservation,
+  [in]  uint32 VmFlags,
+  [in]  real64 ReservedNodes,
+  [out] uint32 MaxNumOfVMsInCluster,
+  [out] uint32 MaxNumOfVMsInNode,
+  [out] uint32 PlacementScoreFlags
 );
 ```
 
@@ -110,7 +116,7 @@ Flags associated with the placement score.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
@@ -124,9 +130,9 @@ Flags associated with the placement score.
 [**MSCluster\_ClusterService**](mscluster-clusterservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

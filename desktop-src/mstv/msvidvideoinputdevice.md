@@ -1,7 +1,12 @@
 ---
 title: MSVidVideoInputDevice
 description: MSVidVideoInputDevice
-ms.assetid: 'cbc687b1-826d-4738-8d0a-a7b90f5ff20d'
+ms.assetid: cbc687b1-826d-4738-8d0a-a7b90f5ff20d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSVidVideoInputDevice
@@ -14,7 +19,7 @@ The **MSVidVideoInputDevice** object represents a video input device.
 
 |                           |                                                          |
 |---------------------------|----------------------------------------------------------|
-| Interfaces                | [**IMSVidVideoInputDevice**](imsvidvideoinputdevice.md) |
+| Interfaces                | [**IMSVidVideoInputDevice**](/windows/win32/segment/?branch=master) |
 | Outgoing Event Interfaces | None.                                                    |
 
 

@@ -1,7 +1,12 @@
 ---
 Description: DV Video Decoder Filter
-ms.assetid: 'aa47010e-8510-475d-836a-cb63deeb3a7b'
+ms.assetid: aa47010e-8510-475d-836a-cb63deeb3a7b
 title: DV Video Decoder Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DV Video Decoder Filter
@@ -18,7 +23,7 @@ This filter decodes a digital video (DV) stream into uncompressed video.
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IBaseFilter</strong>](ibasefilter.md), [<strong>IDVRGB219</strong>](idvrgb219.md), [<strong>IIPDVDec</strong>](iipdvdec.md), <strong>IPersistStream</strong>, <strong>ISpecifyPropertyPages</strong></td>
+<td>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [<strong>IDVRGB219</strong>](/windows/win32/Strmif/nn-strmif-idvrgb219?branch=master), [<strong>IIPDVDec</strong>](/windows/win32/Strmif/nn-strmif-iipdvdec?branch=master), <strong>IPersistStream</strong>, <strong>ISpecifyPropertyPages</strong></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -30,7 +35,7 @@ This filter decodes a digital video (DV) stream into uncompressed video.
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IMemInputPin</strong>](imeminputpin.md), [<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IMemInputPin</strong>](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -50,7 +55,7 @@ This filter decodes a digital video (DV) stream into uncompressed video.
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IMediaPosition</strong>](imediaposition.md), [<strong>IMediaSeeking</strong>](imediaseeking.md), [<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IMediaPosition</strong>](/windows/win32/Control/nn-control-imediaposition?branch=master), [<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -77,13 +82,13 @@ This filter decodes a digital video (DV) stream into uncompressed video.
 
 
 
- 
+ 
 
 ## Remarks
 
-Use the [**IIPDVDec**](iipdvdec.md) interface to set the decoding resolution to full, half size, quarter size, or one-eighth size.
+Use the [**IIPDVDec**](/windows/win32/Strmif/nn-strmif-iipdvdec?branch=master) interface to set the decoding resolution to full, half size, quarter size, or one-eighth size.
 
-**Interlacing**: Earlier versions of the decoder always deinterlace the video. As of DirectX 9.0, the DV Video Decoder can preserve the interlacing. This enables the interlaced video to be deinterlaced by the Video Mixing Renderer (VMR), for improved rendering quality. To use this feature, the downstream filter must support [**VIDEOINFOHEADER2**](videoinfoheader2.md) formats, indicated by that value Format\_VideoInfo2 in the **formattype** member of the [**AM\_MEDIA\_TYPE**](am-media-type.md) structure. At full resolution output, the deinterlacing flags (**dwInterlace**) in the **VIDEOINFOHEADER2** structure are set to `AMINTERLACE_IsInterlaced | AMINTERLACE_DisplayModeBobOrWeave`, indicating interlaced fields. At half resolution or lower, **dwInterlace** is set to zero, indicating progressive frames.
+**Interlacing**: Earlier versions of the decoder always deinterlace the video. As of DirectX 9.0, the DV Video Decoder can preserve the interlacing. This enables the interlaced video to be deinterlaced by the Video Mixing Renderer (VMR), for improved rendering quality. To use this feature, the downstream filter must support [**VIDEOINFOHEADER2**](/windows/win32/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2?branch=master) formats, indicated by that value Format\_VideoInfo2 in the **formattype** member of the [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure. At full resolution output, the deinterlacing flags (**dwInterlace**) in the **VIDEOINFOHEADER2** structure are set to `AMINTERLACE_IsInterlaced | AMINTERLACE_DisplayModeBobOrWeave`, indicating interlaced fields. At half resolution or lower, **dwInterlace** is set to zero, indicating progressive frames.
 
 ## Related topics
 
@@ -95,9 +100,9 @@ Use the [**IIPDVDec**](iipdvdec.md) interface to set the decoding resolution to 
 [Digital Video in DirectShow](digital-video-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

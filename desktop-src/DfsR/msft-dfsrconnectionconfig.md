@@ -4,13 +4,15 @@ description: This class provides the configuration settings for a replication gr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fb7372fc-d7fc-48a6-abc6-6fbf125e92e3'
-ms.prod: 'windows-server-dev'
+ms.assetid: fb7372fc-d7fc-48a6-abc6-6fbf125e92e3
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsrConnectionConfig class Distributed File System Replication", "MSFT_DfsrConnectionConfig class Distributed File System Replication , described"]
+keywords:
+- MSFT_DfsrConnectionConfig class Distributed File System Replication
+- MSFT_DfsrConnectionConfig class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -35,6 +37,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsrConnectionConfig class
@@ -47,22 +52,22 @@ This class provides the configuration settings for a replication group connectio
 [ClassVersion("1.0.0"), dynamic, provider("DfsrWMIV2"), AMENDMENT]
 class MSFT_DfsrConnectionConfig
 {
-  string  ConnectionGuid;
-  string  ConnectionDn;
-  string  MemberGuid;
-  string  PartnerGuid;
-  string  PartnerName;
-  string  PartnerDn;
-  string  PartnerDns;
-  string  ReplicationGroupGuid;
+  string  ConnectionGuid;
+  string  ConnectionDn;
+  string  MemberGuid;
+  string  PartnerGuid;
+  string  PartnerName;
+  string  PartnerDn;
+  string  PartnerDns;
+  string  ReplicationGroupGuid;
   boolean Inbound;
   boolean Enabled;
-  string  Keywords;
+  string  Keywords;
   boolean RdcEnabled;
-  uint32  RdcMinFileSizeInKb;
+  uint32  RdcMinFileSizeInKb;
   boolean RdcSimilarityDisabled;
   boolean ScheduleInUtc;
-  uint8   Schedule[];
+  uint8   Schedule[];
 };
 ```
 
@@ -521,7 +526,7 @@ Indicates whether the schedule is to be interpreted as Coordinated Universal Tim
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -535,9 +540,9 @@ Indicates whether the schedule is to be interpreted as Coordinated Universal Tim
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

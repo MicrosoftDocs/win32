@@ -1,7 +1,12 @@
 ---
-Description: 'Used to set the ambient light sensor brightness value.'
-ms.assetid: '8b3ec692-4043-42b3-8dd6-7a147620e382'
+Description: Used to set the ambient light sensor brightness value.
+ms.assetid: 8b3ec692-4043-42b3-8dd6-7a147620e382
 title: WmiSetALSBrightness method of the WmiMonitorBrightnessMethods class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiSetALSBrightness method of the WmiMonitorBrightnessMethods class
@@ -13,7 +18,7 @@ The **WmiSetALSBrightness** method is used to set the ambient light sensor brigh
 
 ```mof
 uint32 WmiSetALSBrightness(
-   uint8 Brightness
+   uint8 Brightness
 );
 ```
 
@@ -40,8 +45,8 @@ Returns zero (0) to indicate success. Any other number indicates an error. For m
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -58,9 +63,9 @@ Returns zero (0) to indicate success. Any other number indicates an error. For m
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

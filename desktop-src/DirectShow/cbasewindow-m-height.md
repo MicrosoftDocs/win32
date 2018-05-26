@@ -1,7 +1,12 @@
 ---
-Description: 'Height of the client area, in pixels.'
-ms.assetid: '3d32c9db-71f1-4b20-ae7c-5da7dc9b7244'
-title: 'CBaseWindow::m\_Height member'
+Description: Height of the client area, in pixels.
+ms.assetid: 3d32c9db-71f1-4b20-ae7c-5da7dc9b7244
+title: CBaseWindowm\_Height member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_Height member
@@ -35,9 +40,9 @@ LONG m_Height;
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

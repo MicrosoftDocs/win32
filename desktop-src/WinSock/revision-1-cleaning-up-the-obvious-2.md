@@ -1,7 +1,12 @@
 ---
-Description: 'In this version of the example program, a few obvious changes have been made that will take initial strides at improving performance.'
-ms.assetid: 'ef9d594c-31fe-44c0-b707-47c01e2c5bf0'
-title: 'Revision One: Cleaning up the Obvious'
+Description: In this version of the example program, a few obvious changes have been made that will take initial strides at improving performance.
+ms.assetid: ef9d594c-31fe-44c0-b707-47c01e2c5bf0
+title: Revision One Cleaning up the Obvious
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Revision One: Cleaning up the Obvious

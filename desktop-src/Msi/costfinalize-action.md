@@ -1,7 +1,12 @@
 ---
-Description: 'The CostFinalize action ends the internal installation costing process begun by the CostInitialize action.'
-ms.assetid: 'ae69ad03-5acc-4a62-ba71-3a4e477d34ab'
+Description: The CostFinalize action ends the internal installation costing process begun by the CostInitialize action.
+ms.assetid: ae69ad03-5acc-4a62-ba71-3a4e477d34ab
 title: CostFinalize Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CostFinalize Action

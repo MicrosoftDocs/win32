@@ -1,7 +1,12 @@
 ---
-Description: 'The GetPin method retrieves a pin.'
-ms.assetid: '665e1aaf-4491-4241-94c6-6ea356d7a665'
-title: 'CBaseRenderer.GetPin method'
+Description: The GetPin method retrieves a pin.
+ms.assetid: 665e1aaf-4491-4241-94c6-6ea356d7a665
+title: CBaseRenderer.GetPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.GetPin method
@@ -13,7 +18,7 @@ The `GetPin` method retrieves a pin.
 
 ```C++
 virtual CBasePin* GetPin(
-   int n
+   int n
 );
 ```
 
@@ -56,9 +61,9 @@ This method implements the [**CBaseFilter::GetPin**](cbasefilter-getpin.md) meth
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

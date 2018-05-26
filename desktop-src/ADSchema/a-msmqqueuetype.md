@@ -4,17 +4,22 @@ description: A GUID that describes the type of service provided by the queue.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '97804ba5-f42a-44d4-806a-f5974c292528'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 97804ba5-f42a-44d4-806a-f5974c292528
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MSMQ-Queue-Type attribute AD Schema", "mSMQQueueType attribute AD Schema"]
+keywords:
+- MSMQ-Queue-Type attribute AD Schema
+- mSMQQueueType attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MSMQ-Queue-Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMQ-Queue-Type attribute
@@ -38,12 +43,12 @@ A GUID that describes the type of service provided by the queue.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ A GUID that describes the type of service provided by the queue.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

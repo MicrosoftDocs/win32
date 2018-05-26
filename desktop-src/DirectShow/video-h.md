@@ -1,7 +1,12 @@
 ---
-Description: 'This topic contains code for the tutorial Audio/Video Playback in DirectShow.'
-ms.assetid: '5f7d5647-cdf0-4bb7-a4d5-09656c0ed702'
-title: 'video.h'
+Description: This topic contains code for the tutorial Audio/Video Playback in DirectShow.
+ms.assetid: 5f7d5647-cdf0-4bb7-a4d5-09656c0ed702
+title: video.h
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # video.h

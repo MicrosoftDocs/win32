@@ -1,7 +1,12 @@
 ---
-Description: 'Elements used in directory management.'
-ms.assetid: '4fd20490-0cdc-45ff-bc95-d32a3f51136e'
+Description: Elements used in directory management.
+ms.assetid: 4fd20490-0cdc-45ff-bc95-d32a3f51136e
 title: Directory Management Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Directory Management Reference
@@ -22,11 +27,11 @@ The following elements are used in directory management.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

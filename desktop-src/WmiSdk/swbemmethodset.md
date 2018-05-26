@@ -1,13 +1,16 @@
 ---
-Description: 'An SWbemMethodSet object is a collection of SWbemMethod objects. Items are retrieved using the Item method. For more information, see Accessing a Collection. This object cannot be created by the VBScript CreateObject call.'
+Description: An SWbemMethodSet object is a collection of SWbemMethod objects. Items are retrieved using the Item method. For more information, see Accessing a Collection. This object cannot be created by the VBScript CreateObject call.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0ca2601f-ed40-472e-b4f2-eee750c8c8d1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0ca2601f-ed40-472e-b4f2-eee750c8c8d1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemMethodSet object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemMethodSet object
@@ -17,7 +20,7 @@ An **SWbemMethodSet** object is a collection of [**SWbemMethod**](swbemmethod.md
 > [!Note]  
 > In this version of the API, write access to method information is not supported. If you want to define methods or modify existing method definitions, you can define the method changes in a MOF file and submit the changes using the MOF Compiler. Alternatively, use the WMI COM API.
 
- 
+ 
 
 ## Members
 
@@ -38,7 +41,7 @@ The **SWbemMethodSet** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -52,7 +55,7 @@ The **SWbemMethodSet** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -60,8 +63,8 @@ The **SWbemMethodSet** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -77,9 +80,9 @@ The **SWbemMethodSet** object has these properties.
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: EM\_GETHANDLE message
-description: Gets a handle of the memory currently allocated for a multiline edit control's text.
-ms.assetid: '74271812-9715-4a46-96b3-0788134f8143'
-keywords: ["EM_GETHANDLE message Windows Controls"]
+description: Gets a handle of the memory currently allocated for a multiline edit controls text.
+ms.assetid: 74271812-9715-4a46-96b3-0788134f8143
+keywords:
+- EM_GETHANDLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETHANDLE message
@@ -46,7 +52,7 @@ If the function succeeds, the application can access the contents of the edit co
 > [!Note]  
 > For Comctl32.dll version 6, the buffer always contains an array of **WCHAR**s, regardless of whether an ANSI or Unicode function created the edit control. For more information on DLL versions, see [Common Control Versions](common-control-versions.md).
 
- 
+ 
 
 If your application cannot abide by the restrictions imposed by **EM\_GETHANDLE**, use the [**GetWindowTextLength**](https://msdn.microsoft.com/library/windows/desktop/ms633521) and [**GetWindowText**](https://msdn.microsoft.com/library/windows/desktop/ms633520) functions to copy the contents of the edit control into an application-provided buffer.
 
@@ -58,8 +64,8 @@ If your application cannot abide by the restrictions imposed by **EM\_GETHANDLE*
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -89,9 +95,9 @@ If your application cannot abide by the restrictions imposed by **EM\_GETHANDLE*
 [**LocalUnlock**](https://msdn.microsoft.com/library/windows/desktop/aa366747)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

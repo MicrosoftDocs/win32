@@ -1,8 +1,11 @@
 ---
 title: Iteration SetTraceName method
 description: Sets the trace name for the Iteration.
-ms.assetid: 'AA373712-1292-478A-A479-8408C0747ABF'
-keywords: ["SetTraceName method Access Execution Engine", "SetTraceName method Access Execution Engine , Iteration interface", "Iteration interface Access Execution Engine , SetTraceName method"]
+ms.assetid: AA373712-1292-478A-A479-8408C0747ABF
+keywords:
+- SetTraceName method Access Execution Engine
+- SetTraceName method Access Execution Engine , Iteration interface
+- Iteration interface Access Execution Engine , SetTraceName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::SetTraceName method
@@ -22,7 +30,7 @@ Sets the trace name for the **Iteration**.
 
 ```C++
 virtual HRESULT SetTraceName(
-  [in] LPCWSTR traceName
+  [in] LPCWSTR traceName
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ The trace name is the value of element **Iteration/Trace/Description/Name**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The trace name is the value of element **Iteration/Trace/Description/Name**.
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Removes guest service settings from a virtual system configuration.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3f101f54-7f64-47e7-9c9d-913f20477f3b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3f101f54-7f64-47e7-9c9d-913f20477f3b
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveGuestServiceSettings method", "RemoveGuestServiceSettings method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, RemoveGuestServiceSettings method"]
+keywords:
+- RemoveGuestServiceSettings method
+- RemoveGuestServiceSettings method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, RemoveGuestServiceSettings method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveGuestServiceSettings method of the Msvm\_VirtualSystemManagementService class
@@ -32,8 +38,8 @@ When applied to parts of a "current" virtual system configuration, as a side eff
 
 ```mof
 uint32 RemoveGuestServiceSettings(
-  [in]  CIM_SettingData REF GuestServiceSettings[],
-  [out] CIM_ConcreteJob REF Job
+  [in]  CIM_SettingData REF GuestServiceSettings[],
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -79,16 +85,16 @@ A [**CIM\_ConcreteJob**](cim-concretejob.md) reference to an optional job for th
 **Invalid State** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -98,7 +104,7 @@ A [**CIM\_ConcreteJob**](cim-concretejob.md) reference to an optional job for th
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -112,9 +118,9 @@ A [**CIM\_ConcreteJob**](cim-concretejob.md) reference to an optional job for th
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

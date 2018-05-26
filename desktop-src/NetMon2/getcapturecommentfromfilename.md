@@ -1,7 +1,12 @@
 ---
-Description: 'The GetCaptureCommentFromFilename function extracts the capture comment from a capture file.'
-ms.assetid: 'd3665cb0-d54d-45f7-aef9-c2e603d6f773'
+Description: The GetCaptureCommentFromFilename function extracts the capture comment from a capture file.
+ms.assetid: d3665cb0-d54d-45f7-aef9-c2e603d6f773
 title: GetCaptureCommentFromFilename function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCaptureCommentFromFilename function
@@ -13,9 +18,9 @@ The **GetCaptureCommentFromFilename** function extracts the capture comment from
 
 ```C++
 DWORD  WINAPI GetCaptureCommentFromFilename(
-  _In_ LPSTR lpFilename,
-  _In_ LPSTR lpComment,
-  _In_ DWORD BufferSize
+  _In_ LPSTR lpFilename,
+  _In_ LPSTR lpComment,
+  _In_ DWORD BufferSize
 );
 ```
 
@@ -63,7 +68,7 @@ If the function is unsuccessful, the return value is an error code.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,8 +82,8 @@ To retrieve the comment of a real-time capture, call the [GetCaptureComment](get
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -92,9 +97,9 @@ To retrieve the comment of a real-time capture, call the [GetCaptureComment](get
 [GetCaptureComment](getcapturecomment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

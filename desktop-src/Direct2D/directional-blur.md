@@ -1,8 +1,14 @@
 ---
 title: Directional blur effect
 description: The directional blur effect is similar to Gaussian blur, except you can skew the blur in a particular direction.
-ms.assetid: '59328FA4-5C27-4A81-AAB2-C5B25B3615C6'
-keywords: ["directional blur"]
+ms.assetid: 59328FA4-5C27-4A81-AAB2-C5B25B3615C6
+keywords:
+- directional blur
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Directional blur effect
@@ -31,7 +37,7 @@ The CLSID for this effect is CLSID\_D2D1DirectionalBlur.
 
 
 
- 
+ 
 
 
 ```C++
@@ -61,7 +67,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Optimization modes
 
@@ -75,7 +81,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Border modes
 
@@ -88,7 +94,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Output bitmap
 
@@ -103,7 +109,7 @@ The size of the output bitmap increases based on the standard deviation, the ang
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -111,25 +117,25 @@ The size of the output bitmap increases based on the standard deviation, the ang
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

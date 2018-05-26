@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SendFixedDocument method sends a fixed document object to the pipeline.'
-ms.assetid: '917dd9c3-5552-43d0-b396-9ba236f53132'
-title: 'IXpsDocumentConsumer::SendFixedDocument method'
+---
+Description: The SendFixedDocument method sends a fixed document object to the pipeline.
+ms.assetid: 917dd9c3-5552-43d0-b396-9ba236f53132
+title: IXpsDocumentConsumerSendFixedDocument method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsDocumentConsumer::SendFixedDocument method

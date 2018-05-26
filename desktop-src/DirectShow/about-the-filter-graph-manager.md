@@ -1,7 +1,12 @@
 ---
 Description: About the Filter Graph Manager
-ms.assetid: 'a227539a-7f9a-4f8d-99fe-f9ab67df9ef4'
+ms.assetid: a227539a-7f9a-4f8d-99fe-f9ab67df9ef4
 title: About the Filter Graph Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Filter Graph Manager

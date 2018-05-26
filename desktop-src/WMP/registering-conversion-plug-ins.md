@@ -1,8 +1,18 @@
 ---
 title: Registering Conversion Plug-ins
 description: Registering Conversion Plug-ins
-ms.assetid: 'd7d6e733-7288-4707-a54a-dcaa71601646'
-keywords: ["Windows Media Player,conversion plug-ins", "Windows Media Player plug-ins,conversion", "plug-ins,conversion", "conversion plug-ins,registering", "registry,conversion plug-ins"]
+ms.assetid: d7d6e733-7288-4707-a54a-dcaa71601646
+keywords:
+- Windows Media Player,conversion plug-ins
+- Windows Media Player plug-ins,conversion
+- plug-ins,conversion
+- conversion plug-ins,registering
+- registry,conversion plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Conversion Plug-ins

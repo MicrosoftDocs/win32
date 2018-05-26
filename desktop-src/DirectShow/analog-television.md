@@ -1,7 +1,12 @@
 ---
 Description: Analog Television
-ms.assetid: '9f2c18ec-3684-42a8-a3df-5f8827b27642'
+ms.assetid: 9f2c18ec-3684-42a8-a3df-5f8827b27642
 title: Analog Television
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Analog Television

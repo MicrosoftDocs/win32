@@ -4,13 +4,18 @@ description: On the Port Rules tab of the Network Load Balancing Properties dial
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e5a36446-823e-4bb8-89ea-9665fec8d851'
-ms.prod: 'windows-server-dev'
+ms.assetid: e5a36446-823e-4bb8-89ea-9665fec8d851
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["port rules in NLB Failover Cluster", "port rules in NLB Failover Cluster ,configuring"]
+keywords:
+- port rules in NLB Failover Cluster
+- port rules in NLB Failover Cluster ,configuring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Configuring Port Rules
@@ -27,7 +32,7 @@ On the **Port Rules** tab of the **Network Load Balancing Properties** dialog, t
 
 
 
- 
+ 
 
 The remaining settings shown on the **Port Rules** tab of the **Network Load Balancing Properties** dialog are accessed using the properties of the [**MicrosoftNLB\_PortRuleEx**](https://msdn.microsoft.com/library/aa371416) class as shown in the following table.
 
@@ -44,11 +49,11 @@ The remaining settings shown on the **Port Rules** tab of the **Network Load Bal
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

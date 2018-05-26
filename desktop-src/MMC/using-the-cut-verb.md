@@ -4,10 +4,13 @@ description: In MMC 2.0, the Cut verb is treated like any other verb.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bee1f41d-38ad-47f6-8f30-1f2a49bb17ca'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bee1f41d-38ad-47f6-8f30-1f2a49bb17ca
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the Cut Verb

@@ -1,14 +1,19 @@
 ---
 title: DHCP Service Private Properties
-description: A cluster's DHCP Service resource has three private properties.
+description: A clusters DHCP Service resource has three private properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f5d2bfe9-c33b-4616-8a44-2e8cef08dd79'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f5d2bfe9-c33b-4616-8a44-2e8cef08dd79
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DHCP Service resource type Failover Cluster ,properties", "properties Failover Cluster ,DHCP Service (private) properties"]
+keywords:
+- DHCP Service resource type Failover Cluster ,properties
+- properties Failover Cluster ,DHCP Service (private) properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DHCP Service Private Properties

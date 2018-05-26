@@ -4,17 +4,21 @@ description: Indicates the item is custom.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '10e70679-5dc4-44f8-bb6c-fc0b67acd6f8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 10e70679-5dc4-44f8-bb6c-fc0b67acd6f8
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CCF_AUTOPROF_ISCUSTOM clipboard format MMC"]
+keywords:
+- CCF_AUTOPROF_ISCUSTOM clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - CCF_AUTOPROF_ISCUSTOM
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CCF\_AUTOPROF\_ISCUSTOM clipboard format
@@ -39,14 +43,14 @@ For an example that uses the [**CCF\_AUTOPROF\_XMLDOM**](ccf-autoprof-xmldom.md)
 
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1<br/> |
-| Minimum supported server<br/> | Windows Server 2008<br/>    |
+| Minimum supported client<br/> | Windows Vista with SP1<br/> |
+| Minimum supported server<br/> | Windows Server 2008<br/>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,19 @@
 title: /WX switch
 description: The /WX switch instructs the MIDL compiler to handle all errors at the given warning level as errors.
 ms.assetid: 1dd9791c-0488-4ca3-8a29-082ae03c3cd4
-keywords: ["/WX switch MIDL"]
+keywords:
+- /WX switch MIDL
 topic_type:
 - apiref
 api_name:
 - /WX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /WX switch

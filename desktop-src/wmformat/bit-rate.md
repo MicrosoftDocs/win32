@@ -1,8 +1,17 @@
 ---
 title: Bit Rate
 description: Bit Rate
-ms.assetid: '7c35a07b-03d3-42d7-aefc-8e6a0033ac48'
-keywords: ["Windows Media Format SDK,bit rates", "Advanced Systems Format (ASF),bit rates", "ASF (Advanced Systems Format),bit rates", "bit rates,about"]
+ms.assetid: 7c35a07b-03d3-42d7-aefc-8e6a0033ac48
+keywords:
+- Windows Media Format SDK,bit rates
+- Advanced Systems Format (ASF),bit rates
+- ASF (Advanced Systems Format),bit rates
+- bit rates,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bit Rate

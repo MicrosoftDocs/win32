@@ -1,7 +1,12 @@
 ---
 title: Using ATL 3.0 to Host the Video Control
 description: Using ATL 3.0 to Host the Video Control
-ms.assetid: '83955cdb-f6f0-47f8-8470-d7505a7a1602'
+ms.assetid: 83955cdb-f6f0-47f8-8470-d7505a7a1602
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using ATL 3.0 to Host the Video Control

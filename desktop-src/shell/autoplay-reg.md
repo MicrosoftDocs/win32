@@ -1,7 +1,12 @@
 ---
-Description: 'There are many situations where AutoRun may need to be temporarily or persistently disabled.'
-ms.assetid: '5e65a3d8-04b9-46ba-b4e5-a976e1923bfd'
+Description: There are many situations where AutoRun may need to be temporarily or persistently disabled.
+ms.assetid: 5e65a3d8-04b9-46ba-b4e5-a976e1923bfd
 title: Enabling and Disabling AutoRun
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling and Disabling AutoRun

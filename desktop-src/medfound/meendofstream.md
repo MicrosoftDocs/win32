@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by a media stream when the stream ends.'
-ms.assetid: 'e793131a-f737-411f-a9fc-03b5b3d09aea'
+---
+Description: Raised by a media stream when the stream ends.
+ms.assetid: e793131a-f737-411f-a9fc-03b5b3d09aea
 title: MEEndOfStream event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEEndOfStream event
@@ -10,7 +15,7 @@ Raised by a media stream when the stream ends.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -22,7 +27,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getva
 
 ## Remarks
 
-When the [Media Session](media-session.md) receives the MEEndOfStream event, it calls [**IMFStreamSink::PlaceMarker**](imfstreamsink-placemarker.md) on the corresponding media sink, with the **MFSTREAMSINK\_MARKER\_ENDOFSEGMENT** marker type.
+When the [Media Session](media-session.md) receives the MEEndOfStream event, it calls [**IMFStreamSink::PlaceMarker**](/windows/win32/mfidl/nf-mfidl-imfstreamsink-placemarker?branch=master) on the corresponding media sink, with the **MFSTREAMSINK\_MARKER\_ENDOFSEGMENT** marker type.
 
 ## Requirements
 

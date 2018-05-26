@@ -1,12 +1,17 @@
-﻿---
-Description: 'The PatchFiles property returns a StringList object that contains a list of files that can be updated by the provided list of patches.'
-ms.assetid: '14549847-8558-4a9a-9ad5-3575c3f4391e'
-title: 'Installer.PatchFiles property'
+---
+Description: The PatchFiles property returns a StringList object that contains a list of files that can be updated by the provided list of patches.
+ms.assetid: 14549847-8558-4a9a-9ad5-3575c3f4391e
+title: Installer.PatchFiles property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.PatchFiles property
 
-The **PatchFiles** property returns a [**StringList**](stringlist-object.md) object that contains a list of files that can be updated by the provided list of patches. This property calls [**MsiGetPatchFileList**](msigetpatchfilelist.md). For more information about using the **PatchFiles** property see [Listing the Files that can be Updated](listing-the-files-that-can-be-updated.md).
+The **PatchFiles** property returns a [**StringList**](stringlist-object.md) object that contains a list of files that can be updated by the provided list of patches. This property calls [**MsiGetPatchFileList**](/windows/win32/Msi/nf-msi-msigetpatchfilelista?branch=master). For more information about using the **PatchFiles** property see [Listing the Files that can be Updated](listing-the-files-that-can-be-updated.md).
 
 This property is read-only.
 

@@ -1,7 +1,12 @@
 ---
 title: Edit an Index File
 description: After you create an index, you can edit or update the keywords and specify how they will appear to the user.
-ms.assetid: '31482F67-3D6E-437a-AA81-065411D0D2CB'
+ms.assetid: 31482F67-3D6E-437a-AA81-065411D0D2CB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Edit an Index File

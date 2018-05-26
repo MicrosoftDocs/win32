@@ -2,7 +2,12 @@
 title: S
 description: Contains UPnP-related terms that begin with the letter S.
 Robots: noindex, nofollow
-ms.assetid: '94be0f7f-8263-40ad-9d48-35540eaa3a3d'
+ms.assetid: 94be0f7f-8263-40ad-9d48-35540eaa3a3d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # S
@@ -30,7 +35,7 @@ A service description is a list of the actions a service provides, and the state
 <span id="upnp.s_3_gly"></span><span id="UPNP.S_3_GLY"></span>**service object**
 </dt> <dd>
 
-A service object is the Control Point API representation of a service. A service object implements the [**IUPnPService**](iupnpservice.md) interface.
+A service object is the Control Point API representation of a service. A service object implements the [**IUPnPService**](/windows/win32/Upnp/nn-upnp-iupnpservice?branch=master) interface.
 
 </dd> <dt>
 

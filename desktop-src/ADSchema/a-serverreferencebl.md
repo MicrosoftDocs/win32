@@ -4,17 +4,22 @@ description: Found in the domain naming context. The distinguished name of a com
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b411abc9-d085-4b9b-bbfa-7f46af319c0f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b411abc9-d085-4b9b-bbfa-7f46af319c0f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Server-Reference-BL attribute AD Schema", "serverReferenceBL attribute AD Schema"]
+keywords:
+- Server-Reference-BL attribute AD Schema
+- serverReferenceBL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Server-Reference-BL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Server-Reference-BL attribute
@@ -38,13 +43,13 @@ Found in the domain naming context. The distinguished name of a computer under t
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ Found in the domain naming context. The distinguished name of a computer under t
 
 
 
- 
+ 
 
- 
+ 
 
 
 

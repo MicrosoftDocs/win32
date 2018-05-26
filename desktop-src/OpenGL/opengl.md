@@ -1,7 +1,12 @@
 ---
 title: OpenGL
 description: As a software interface for graphics hardware, OpenGL renders multidimensional objects into a framebuffer.
-ms.assetid: 'd50c8a94-6a81-44c7-81e0-8c5956f4538e'
+ms.assetid: d50c8a94-6a81-44c7-81e0-8c5956f4538e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenGL
@@ -36,7 +41,7 @@ For more information on which operating systems are required for a particular fu
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -63,9 +68,9 @@ For more information on which operating systems are required for a particular fu
 [Windows API](winprog-windows_api_portal)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: System.MessageStore.Folder.Messages property
 description: A collection of System.MessageStore.Message object types.
-ms.assetid: '15bb10d0-1815-4818-98c2-abde036e560c'
-keywords: ["Messages property Windows Sidebar", "Messages property Windows Sidebar , System.MessageStore.Folder object", "System.MessageStore.Folder object Windows Sidebar , Messages property"]
+ms.assetid: 15bb10d0-1815-4818-98c2-abde036e560c
+keywords:
+- Messages property Windows Sidebar
+- Messages property Windows Sidebar , System.MessageStore.Folder object
+- System.MessageStore.Folder object Windows Sidebar , Messages property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.MessageStore.Folder.Messages property
@@ -38,7 +46,7 @@ A collection of [**System.MessageStore.Message**](system-messagestore-message.md
 
 **Messages** represents the collection of Windows Mail (formerly Outlook Express) messages in a folder from the [**Folders**](system-messagestore-folders.md) collection.
 
-[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Sub-folders and their content (such as messages) are not exposed.
+[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Sub-folders and their content (such as messages) are not exposed.
 
 ## Examples
 
@@ -71,10 +79,10 @@ var strSubjectLine = oMsg.subject;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -105,9 +113,9 @@ var strSubjectLine = oMsg.subject;
 [**Folders**](system-messagestore-folders.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

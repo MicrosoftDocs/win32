@@ -1,8 +1,17 @@
 ---
 title: Configuring an Installable Driver
 description: Configuring an Installable Driver
-ms.assetid: 'c81f4bcb-38c6-42f1-a50d-1f700c6a3c37'
-keywords: ["installable drivers,configuring", "configuring installable drivers", "OpenDriver function", "SendDriverMessage function"]
+ms.assetid: c81f4bcb-38c6-42f1-a50d-1f700c6a3c37
+keywords:
+- installable drivers,configuring
+- configuring installable drivers
+- OpenDriver function
+- SendDriverMessage function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring an Installable Driver

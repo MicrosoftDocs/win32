@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IOCTL\_USBPRINT\_VENDOR\_SET\_COMMAND request allows upper-layer software (such as a language monitor) to issue a vendor-specific SET command to the target device.'
-ms.assetid: '3fbb3e5d-e7a3-4d76-9996-50375ed9fd03'
-title: 'IOCTL\_USBPRINT\_VENDOR\_SET\_COMMAND control code'
+---
+Description: The IOCTL\_USBPRINT\_VENDOR\_SET\_COMMAND request allows upper-layer software (such as a language monitor) to issue a vendor-specific SET command to the target device.
+ms.assetid: 3fbb3e5d-e7a3-4d76-9996-50375ed9fd03
+title: IOCTL\_USBPRINT\_VENDOR\_SET\_COMMAND control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_USBPRINT\_VENDOR\_SET\_COMMAND control code

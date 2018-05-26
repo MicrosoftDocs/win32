@@ -1,8 +1,11 @@
 ---
 title: text.blur property
 description: Gets or sets the level of blur applied to the g text element.
-ms.assetid: 'c9b204f6-16e9-4d88-a72e-3507d5984a33'
-keywords: ["blur property Windows Sidebar", "blur property Windows Sidebar , text object", "text object Windows Sidebar , blur property"]
+ms.assetid: c9b204f6-16e9-4d88-a72e-3507d5984a33
+keywords:
+- blur property Windows Sidebar
+- blur property Windows Sidebar , text object
+- text object Windows Sidebar , blur property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # text.blur property
@@ -82,10 +90,10 @@ txtBlur.blur = 10;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -107,9 +115,9 @@ txtBlur.blur = 10;
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

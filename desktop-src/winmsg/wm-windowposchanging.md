@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to a window whose size, position, or place in the Z order is about to change as a result of a call to the SetWindowPos function or another window-management function.'
-ms.assetid: '45ecd966-5222-4738-9e99-8a6edbdd435a'
-title: 'WM\_WINDOWPOSCHANGING message'
+---
+Description: Sent to a window whose size, position, or place in the Z order is about to change as a result of a call to the SetWindowPos function or another window-management function.
+ms.assetid: 45ecd966-5222-4738-9e99-8a6edbdd435a
+title: WM\_WINDOWPOSCHANGING message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_WINDOWPOSCHANGING message
@@ -31,7 +36,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**WINDOWPOS**](windowpos.md) structure that contains information about the window's new size and position.
+A pointer to a [**WINDOWPOS**](/windows/win32/Winuser/ni-pointofservicedriverinterface-ioctl_line_display_create_windowpos_ioctl?branch=master) structure that contains information about the window's new size and position.
 
 </dd> </dl>
 
@@ -45,7 +50,7 @@ If an application processes this message, it should return zero.
 
 For a window with the [**WS\_OVERLAPPED**](window-styles.md) or **WS\_THICKFRAME** style, the [**DefWindowProc**](defwindowproc.md) function sends the [**WM\_GETMINMAXINFO**](wm-getminmaxinfo.md) message to the window. This is done to validate the new size and position of the window and to enforce the [CS\_BYTEALIGNCLIENT](about-window-classes.md#class-styles) and CS\_BYTEALIGNWINDOW client styles. By not passing the **WM\_WINDOWPOSCHANGING** message to the **DefWindowProc** function, an application can override these defaults.
 
-While this message is being processed, modifying any of the values in [**WINDOWPOS**](windowpos.md) affects the window's new size, position, or place in the Z order. An application can prevent changes to the window by setting or clearing the appropriate bits in the **flags** member of **WINDOWPOS**.
+While this message is being processed, modifying any of the values in [**WINDOWPOS**](/windows/win32/Winuser/ni-pointofservicedriverinterface-ioctl_line_display_create_windowpos_ioctl?branch=master) affects the window's new size, position, or place in the Z order. An application can prevent changes to the window by setting or clearing the appropriate bits in the **flags** member of **WINDOWPOS**.
 
 ## Requirements
 
@@ -75,7 +80,7 @@ While this message is being processed, modifying any of the values in [**WINDOWP
 [**SetWindowPos**](setwindowpos.md)
 </dt> <dt>
 
-[**WINDOWPOS**](windowpos.md)
+[**WINDOWPOS**](/windows/win32/Winuser/ni-pointofservicedriverinterface-ioctl_line_display_create_windowpos_ioctl?branch=master)
 </dt> <dt>
 
 [**WM\_GETMINMAXINFO**](wm-getminmaxinfo.md)

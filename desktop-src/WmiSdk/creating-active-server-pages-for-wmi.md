@@ -1,13 +1,16 @@
 ---
-Description: 'Describes how to create Microsoft Active Server Pages (ASP) that display information about remote computers to computers that do not have WMI installed.'
+Description: Describes how to create Microsoft Active Server Pages (ASP) that display information about remote computers to computers that do not have WMI installed.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'add08566-6408-43e4-9d0d-4c0851540602'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: add08566-6408-43e4-9d0d-4c0851540602
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating Active Server Pages for WMI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Active Server Pages for WMI

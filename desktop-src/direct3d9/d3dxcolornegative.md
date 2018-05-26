@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates the negative color value of a color value.'
-ms.assetid: '74143126-93f8-49fa-abe3-fd730b644d87'
+---
+Description: Creates the negative color value of a color value.
+ms.assetid: 74143126-93f8-49fa-abe3-fd730b644d87
 title: D3DXColorNegative function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXColorNegative function

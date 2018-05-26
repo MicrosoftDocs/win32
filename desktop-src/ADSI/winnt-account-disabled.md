@@ -4,11 +4,17 @@ description: When using the WinNT provider, an account can be enabled or disable
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a3d855cc-5e3d-49c2-b61e-3b35064002ea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a3d855cc-5e3d-49c2-b61e-3b35064002ea
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Account Disabled (WinNT Provider)", "Account Disabled ADSI , WinNT provider", "WinNT provider ADSI , user management examples, Account Disabled"]
+keywords:
+- Account Disabled (WinNT Provider)
+- Account Disabled ADSI , WinNT provider
+- WinNT provider ADSI , user management examples, Account Disabled
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Account Disabled (WinNT Provider)

@@ -1,7 +1,7 @@
 ---
 title: Filtering Condition Flags
 description: The Windows Filtering Platform (WFP) filtering condition flags are each represented by a bitfield.
-ms.assetid: 'fe879479-331d-42ef-ac2f-634f0c13c21d'
+ms.assetid: fe879479-331d-42ef-ac2f-634f0c13c21d
 topic_type:
 - apiref
 api_name:
@@ -49,6 +49,11 @@ api_location:
 - fwptypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filtering Condition Flags
@@ -74,34 +79,34 @@ Filtering layers:
 -   FWPM\_LAYER\_OUTBOUND\_TRANSPORT\_V{4\|6}
 -   FWPM\_LAYER\_STREAM\_{V4\|6}
     > [!Note]  
-    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
+    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
 
-     
+     
 
 -   FWPM\_LAYER\_INBOUND\_ICMP\_ERROR\_V{4\|6}
     > [!Note]  
-    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
+    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
 
-     
+     
 
 -   FWPM\_LAYER\_OUTBOUND\_ICMP\_ERROR\_V{4\|6}
     > [!Note]  
-    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
+    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
 
-     
+     
 
 -   FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V{4\|6}
 -   FWPM\_LAYER\_ALE\_AUTH\_CONNECT\_V{4\|6}
     > [!Note]  
-    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
+    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
 
-     
+     
 
 -   FWPM\_LAYER\_ALE\_FLOW\_ESTABLISHED\_V{4\|6}
     > [!Note]  
-    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
+    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
 
-     
+     
 
 
 </dt> </dl> </dd> <dt>
@@ -163,21 +168,21 @@ Filtering layers:
 
 -   FWPM\_LAYER\_INBOUND\_TRANSPORT\_V{4\|6}
     > [!Note]  
-    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
+    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
 
-     
+     
 
 -   FWPM\_LAYER\_OUTBOUND\_TRANSPORT\_V{4\|6}
     > [!Note]  
-    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
+    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
 
-     
+     
 
 -   FWPM\_LAYER\_DATAGRAM\_DATA\_{V4\|6}
     > [!Note]  
-    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
+    > Available only on Windows Server 2008, Windows Vista with SP1, and later.
 
-     
+     
 
 -   FWPM\_LAYER\_ALE\_RESOURCE\_ASSIGNMENT\_V{4\|6}
 -   FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V{4\|6}
@@ -242,7 +247,7 @@ Indicates that the packet will be reclassified at the ALE receive/accept layer.
 
 Tests if Windows Sockets is performing an implicit bind.
 
-Available only on Windows Vista and Windows Server 2008.
+Available only on Windows Vista and Windows Server 2008.
 
 
 </dt> </dl> </dd> <dt>
@@ -255,9 +260,9 @@ Available only on Windows Vista and Windows Server 2008.
 Tests if the packet has been reassembled.
 
 > [!Note]  
-> Available only on Windows Server 2008, Windows Vista with SP1, and later.
+> Available only on Windows Server 2008, Windows Vista with SP1, and later.
 
- 
+ 
 
 Filtering layer:
 
@@ -274,9 +279,9 @@ Filtering layer:
 Tests if the name of the peer machine that the application is expecting to connect to has been received via an API such as [**WSASetSocketPeerTargetName**](https://msdn.microsoft.com/library/windows/desktop/bb394822) and not obtained via the caching heuristics.
 
 > [!Note]  
-> Available only on Windows Server 2008 R2, Windows 7, and later.
+> Available only on Windows Server 2008 R2, Windows 7, and later.
 
- 
+ 
 
 Filtering layer:
 
@@ -303,9 +308,9 @@ Reserved.
 Tests if the connection is end-to-end authenticated, even if the individual packets have not been verified.
 
 > [!Note]  
-> Available only on Windows Server 2008 R2, Windows 7, and later.
+> Available only on Windows Server 2008 R2, Windows 7, and later.
 
- 
+ 
 
 Filtering layer:
 
@@ -323,9 +328,9 @@ Filtering layer:
 Tests if the filtering engine is reclassifying a previous bind or listen request.
 
 > [!Note]  
-> Available only on Windows Server 2008 R2, Windows 7, and later.
+> Available only on Windows Server 2008 R2, Windows 7, and later.
 
- 
+ 
 
 Filtering layer:
 
@@ -343,9 +348,9 @@ Filtering layer:
 Tests if the connection uses a proxy.
 
 > [!Note]  
-> Available only on Windows 8 and Windows Server 2012.
+> Available only on Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -358,9 +363,9 @@ Tests if the connection uses a proxy.
 Tests if the network traffic is app container loopback traffic.
 
 > [!Note]  
-> Available only on Windows 8 and Windows Server 2012.
+> Available only on Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -373,9 +378,9 @@ Tests if the network traffic is app container loopback traffic.
 Tests if the network traffic is non-app container loopback traffic.
 
 > [!Note]  
-> Available only on Windows 8 and Windows Server 2012.
+> Available only on Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -398,9 +403,9 @@ Reserved.
 Indicates that the current classification is being performed to honor the intention of a redirected Windows Store app to connect to a specified host. Such a classification will contain the same classifiable field values as if the app were never redirected. The flag also indicates that a future classification will be invoked to match the effective redirected destination. If the app is redirected to a proxy service for inspection, it also means a future classification will be invoked on the proxy connection. Callout drivers should generally allow this classification.
 
 > [!Note]  
-> Available only on Windows 8 and Windows Server 2012.
+> Available only on Windows 8 and Windows Server 2012.
 
- 
+ 
 
 Filtering layer:
 
@@ -412,9 +417,9 @@ Filtering layer:
 The following flags specify the reason for reauthorizing a previously authorized connection. These flags and the filtering layers where they can be used are defined as follows.
 
 > [!Note]  
-> These filtering conditions are available only on Windows Server 2008 R2, Windows 7, and later.
+> These filtering conditions are available only on Windows Server 2008 R2, Windows 7, and later.
 
- 
+ 
 
 <dl> <dt>
 
@@ -555,9 +560,9 @@ Filtering layer:
 The following flags specify socket properties which are related to whether an application wants to receive Edge Traversal traffic. These flags and the filtering layers where they can be used are defined as follows.
 
 > [!Note]  
-> These filtering conditions are available only on Windows Server 2008 R2, Windows 7, and later.
+> These filtering conditions are available only on Windows Server 2008 R2, Windows 7, and later.
 
- 
+ 
 
 <dl> <dt>
 
@@ -609,9 +614,9 @@ Filtering layer:
 The following flags specify connection details related to L2 filtering.
 
 > [!Note]  
-> These filtering conditions are available only on Windows 8 and Windows Server 2012.
+> These filtering conditions are available only on Windows 8 and Windows Server 2012.
 
- 
+ 
 
 <dl> <dt>
 
@@ -757,8 +762,8 @@ Filtering layer:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Fwptypes.h</dt> </dl> |
 
 
@@ -770,9 +775,9 @@ Filtering layer:
 [**Filtering Layer Identifiers**](management-filtering-layer-identifiers-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

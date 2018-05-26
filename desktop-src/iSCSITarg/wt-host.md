@@ -4,13 +4,15 @@ description: Represents an iSCSI target.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e484f220-3a89-4647-b9b9-d7e0ffb06ffc'
-ms.prod: 'windows-server-dev'
+ms.assetid: e484f220-3a89-4647-b9b9-d7e0ffb06ffc
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WT_Host class iSCSI Software Target API", "WT_Host class iSCSI Software Target API , described"]
+keywords:
+- WT_Host class iSCSI Software Target API
+- WT_Host class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -56,6 +58,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WT\_Host class
@@ -69,43 +74,43 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class WT_Host
 {
-  string     HostName;
-  boolean    Enabled;
-  string     Description;
-  string     TargetIQN;
-  sint32     Status;
-  datetime   LastLogIn;
-  uint32     IdleDuration;;
-  boolean    EnableCHAP;
-  string     CHAPUserName;
-  string     CHAPSecret;
-  boolean    EnableReverseCHAP;
-  string     ReverseCHAPUserName;
-  string     ReverseCHAPSecret;
-  uint32     TargetMaxRecvDataSegmentLength;
-  uint32     TargetFirstBurstLength;
-  uint32     TargetMaxBurstLength;
-  uint32     NumRecvBuffers;
-  boolean    EnforceIdleTimeoutDetection;
-  string     ResourceGroup;
+  string     HostName;
+  boolean    Enabled;
+  string     Description;
+  string     TargetIQN;
+  sint32     Status;
+  datetime   LastLogIn;
+  uint32     IdleDuration;;
+  boolean    EnableCHAP;
+  string     CHAPUserName;
+  string     CHAPSecret;
+  boolean    EnableReverseCHAP;
+  string     ReverseCHAPUserName;
+  string     ReverseCHAPSecret;
+  uint32     TargetMaxRecvDataSegmentLength;
+  uint32     TargetFirstBurstLength;
+  uint32     TargetMaxBurstLength;
+  uint32     NumRecvBuffers;
+  boolean    EnforceIdleTimeoutDetection;
+  string     ResourceGroup;
   WT_Session Sessions[];
-  string     Guid;
-  uint32     MaxConnectionsPerSession;
-  boolean    InitialR2TPreference;
-  boolean    ImmediateDataPreference;
-  uint32     MaxOutstandingR2T;
-  boolean    DataSequenceInOrderPreference;
-  boolean     DataPduInOrderPreference;
-  uint32     DefaultTime2WaitPreference;
-  uint32     DefaultTime2RetainPreference;
-  uint32     ErrorRecoveryLevelPreference;
-  uint16     PrimaryHeaderDigestMethod;
-  uint16     PrimaryDataDigestMethod;
-  uint16     SecondaryHeaderDigestMethod;
-  uint16     SecondaryDataDigestMethod;
-  boolean    RequestingMarkersOnReceive;
-  uint16     PrimaryAuthenticationMethod;
-  uint16     SecondaryAuthenticationMethod;
+  string     Guid;
+  uint32     MaxConnectionsPerSession;
+  boolean    InitialR2TPreference;
+  boolean    ImmediateDataPreference;
+  uint32     MaxOutstandingR2T;
+  boolean    DataSequenceInOrderPreference;
+  boolean     DataPduInOrderPreference;
+  uint32     DefaultTime2WaitPreference;
+  uint32     DefaultTime2RetainPreference;
+  uint32     ErrorRecoveryLevelPreference;
+  uint16     PrimaryHeaderDigestMethod;
+  uint16     PrimaryDataDigestMethod;
+  uint16     SecondaryHeaderDigestMethod;
+  uint16     SecondaryDataDigestMethod;
+  boolean    RequestingMarkersOnReceive;
+  uint16     PrimaryAuthenticationMethod;
+  uint16     SecondaryAuthenticationMethod;
 };
 ```
 
@@ -132,7 +137,7 @@ The **WT\_Host** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -258,7 +263,7 @@ Indicates whether or not this iSCSI target is available for access by initiators
 > [!Note]  
 > Existing initiators remain logged into the target when an iSCSI target is disabled.
 
- 
+ 
 
 </dd> <dt>
 
@@ -657,16 +662,16 @@ An iSCSI parameter that indicates the amount of data, in bytes, that the target 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

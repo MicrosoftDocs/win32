@@ -1,8 +1,10 @@
 ---
 title: MPENDOFLIFE\_DATA structure
-description: \ 0034;End of life \ 0034; notification data.
-ms.assetid: '00C2E707-9034-4BBC-99CF-3DFA4B8C08D9'
-keywords: ["MPENDOFLIFE_DATA structure Legacy Windows Environment Features", "PMPENDOFLIFE_DATA structure pointer Legacy Windows Environment Features"]
+description: '\ 0034;End of life \ 0034; notification data.'
+ms.assetid: 00C2E707-9034-4BBC-99CF-3DFA4B8C08D9
+keywords:
+- MPENDOFLIFE_DATA structure Legacy Windows Environment Features
+- PMPENDOFLIFE_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPENDOFLIFE\_DATA structure
@@ -24,8 +31,8 @@ api_type:
 typedef struct tagMPENDOFLIFE_DATA {
   FILETIME ftSignatureExpiry;
   FILETIME ftPlatformExpiry;
-  BOOL     fAdminControlled;
-  BOOL     fEndOfLifeImpendingOrPast;
+  BOOL     fAdminControlled;
+  BOOL     fEndOfLifeImpendingOrPast;
 } MPENDOFLIFE_DATA, *PMPENDOFLIFE_DATA;
 ```
 
@@ -85,15 +92,15 @@ True if "End of Life" is pending or past. If false, UI and clients can clear any
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

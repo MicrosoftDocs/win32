@@ -1,14 +1,20 @@
 ---
 title: Load(int) function
 description: Reads texture data.
-ms.assetid: '93C4FFFF-8695-4BAF-BAE4-A2704332E6A9'
-keywords: ["Load function HLSL"]
+ms.assetid: 93C4FFFF-8695-4BAF-BAE4-A2704332E6A9
+keywords:
+- Load function HLSL
 topic_type:
 - apiref
 api_name:
 - Load
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load(int) function

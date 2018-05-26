@@ -1,14 +1,19 @@
-﻿---
-Description: 'Constructors exposed by XMFLOAT3X3.'
-ms.assetid: '1cfad894-60d4-4258-b3ca-178a2dafafc5'
+---
+Description: Constructors exposed by XMFLOAT3X3.
+ms.assetid: 1cfad894-60d4-4258-b3ca-178a2dafafc5
 title: XMFLOAT3X3 constructors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMFLOAT3X3 constructors
 
 Constructors exposed by `XMFLOAT3X3`.
 
-Constructs instances of the [**XMFLOAT3X3**](xmfloat3x3.md) structure.
+Constructs instances of the [**XMFLOAT3X3**](/windows/win32/DirectXMath/?branch=master) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -33,7 +38,7 @@ Constructs instances of the [**XMFLOAT3X3**](xmfloat3x3.md) structure.
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMFLOAT3X3 ()</strong>](xmfloat3x3-ctor-1.md)</td>
-<td style="text-align: left;">Default constructor for <code>XMFLOAT3X3</code><br/> Default constructor for [<strong>XMFLOAT3X3</strong>](xmfloat3x3.md)<br/>
+<td style="text-align: left;">Default constructor for <code>XMFLOAT3X3</code><br/> Default constructor for [<strong>XMFLOAT3X3</strong>](/windows/win32/DirectXMath/?branch=master)<br/>
 <blockquote>
 [!Note]<br />
 This is only available for C++ based development.
@@ -42,7 +47,7 @@ This is only available for C++ based development.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMFLOAT3X3 (const float*)</strong>](xmfloat3x3-ctor-3.md)</td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT3X3</code> structure from a nine element <code>float</code> array. <br/> Initializes a new instance of the [<strong>XMFLOAT3X3</strong>](xmfloat3x3.md) structure from a nine element <code>float</code> array. <br/>
+<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT3X3</code> structure from a nine element <code>float</code> array. <br/> Initializes a new instance of the [<strong>XMFLOAT3X3</strong>](/windows/win32/DirectXMath/?branch=master) structure from a nine element <code>float</code> array. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -51,7 +56,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMFLOAT3X3 (float,float,float,float,float,float,float,float,float)</strong>](xmfloat3x3-ctor-2.md)</td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT3X3</code> structure from nine scalar <code>float</code> values. <br/> Initializes a new instance of the [<strong>XMFLOAT3X3</strong>](xmfloat3x3.md) structure from nine scalar <code>float</code> values. <br/>
+<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT3X3</code> structure from nine scalar <code>float</code> values. <br/> Initializes a new instance of the [<strong>XMFLOAT3X3</strong>](/windows/win32/DirectXMath/?branch=master) structure from nine scalar <code>float</code> values. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -73,7 +78,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3X3**](xmfloat3x3.md)
+[**XMFLOAT3X3**](/windows/win32/DirectXMath/?branch=master)
 </dt> </dl>
 
  

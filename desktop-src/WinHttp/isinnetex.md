@@ -1,7 +1,12 @@
 ---
-Description: 'Determines if an IP address is in a specific subnet.'
-ms.assetid: '2fbfad9c-86b1-44c3-860b-a5c98ac6c2e9'
+Description: Determines if an IP address is in a specific subnet.
+ms.assetid: 2fbfad9c-86b1-44c3-860b-a5c98ac6c2e9
 title: isInNetEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # isInNetEx function

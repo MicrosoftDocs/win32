@@ -1,7 +1,12 @@
 ---
 title: How to Add an Item to a Header Control
 description: This topic demonstrates how to add an item to a header control.
-ms.assetid: 'DF71EF92-1726-46E1-A10F-57D3B07FB936'
+ms.assetid: DF71EF92-1726-46E1-A10F-57D3B07FB936
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Add an Item to a Header Control
@@ -23,9 +28,9 @@ This topic demonstrates how to add an item to a header control. A header control
 
 ### 
 
-Use the [**HDM\_INSERTITEM**](hdm-insertitem.md) message to add an item to the header control. The message must include the address of an [**HDITEM**](hditem.md) structure. This structure defines the properties of the header item, which can include a string, a bitmapped image, an initial size, and an application-defined 32-bit value.
+Use the [**HDM\_INSERTITEM**](hdm-insertitem.md) message to add an item to the header control. The message must include the address of an [**HDITEM**](/windows/win32/Commctrl/ns-commctrl-_hd_itema?branch=master) structure. This structure defines the properties of the header item, which can include a string, a bitmapped image, an initial size, and an application-defined 32-bit value.
 
-The following example illustrates how to use the [**HDM\_INSERTITEM**](hdm-insertitem.md) message and the [**HDITEM**](hditem.md) structure to add an item to a header control. The new item consists of a string that is left-justified within the item rectangle.
+The following example illustrates how to use the [**HDM\_INSERTITEM**](hdm-insertitem.md) message and the [**HDITEM**](/windows/win32/Commctrl/ns-commctrl-_hd_itema?branch=master) structure to add an item to a header control. The new item consists of a string that is left-justified within the item rectangle.
 
 ## 
 

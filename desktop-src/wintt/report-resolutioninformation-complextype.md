@@ -1,14 +1,20 @@
 ---
 title: ResolutionInformation Complex Type
 description: Defines the collection of resolvers that can fix the root cause issue.
-ms.assetid: 'e498fd33-f319-446d-a1f9-96076e4063ad'
-keywords: ["ResolutionInformation complex type Windows Troubleshooting Toolkit"]
+ms.assetid: e498fd33-f319-446d-a1f9-96076e4063ad
+keywords:
+- ResolutionInformation complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - ResolutionInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResolutionInformation Complex Type
@@ -43,14 +49,14 @@ Defines the collection of resolvers that can fix the root cause issue.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

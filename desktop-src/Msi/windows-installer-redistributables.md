@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Windows Installer redistributable is a software update package.'
-ms.assetid: '8491dfa6-b9be-4e37-8a61-a405c8eb0ab0'
+---
+Description: The Windows Installer redistributable is a software update package.
+ms.assetid: 8491dfa6-b9be-4e37-8a61-a405c8eb0ab0
 title: Windows Installer Redistributables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Installer Redistributables
@@ -75,7 +80,7 @@ It is recommended that the Windows Installer service be stopped when using the u
 
 -   Call the redistributable package with the /norestart command-line option.
 -   Treat the return of either **ERROR\_SUCCESS** or **ERROR\_SUCCESS\_REBOOT\_REQUIRED** as meaning success.
--   Invoke Msiexec on the application's package and run other setup code specific to the application. If the setup application uses [**MsiInstallProduct**](msiinstallproduct.md), then the application must load MSI.DLL from the system directory. If no reboot occurs and if the redistributable returned **ERROR\_SUCCESS\_REBOOT\_REQUIRED**, then prompt the user for a reboot to complete the setup of the Windows Installer binaries. If a reboot occurs, no additional steps are required.
+-   Invoke Msiexec on the application's package and run other setup code specific to the application. If the setup application uses [**MsiInstallProduct**](/windows/win32/Msi/nf-msi-msiinstallproducta?branch=master), then the application must load MSI.DLL from the system directory. If no reboot occurs and if the redistributable returned **ERROR\_SUCCESS\_REBOOT\_REQUIRED**, then prompt the user for a reboot to complete the setup of the Windows Installer binaries. If a reboot occurs, no additional steps are required.
     > [!Note]  
     > Applications that call [**LoadLibrary**](base.loadlibrary) on the new MSI.DLL after the redistributable package returns success must ensure that an older version of MSI.DLL has not already been loaded within the process. If an older version of MSI.DLL was loaded, it must be unloaded from the process address space prior to calling **LoadLibrary** for the new MSI.DLL.
 

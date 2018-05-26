@@ -1,12 +1,17 @@
-﻿---
-Description: 'Remotable version of the IMFSourceResolver::BeginCreateObjectFromByteStream method.'
-ms.assetid: '960b5c51-b9b1-4956-a270-abfb7eedd482'
+---
+Description: Remotable version of the IMFSourceResolverBeginCreateObjectFromByteStream method.
+ms.assetid: 960b5c51-b9b1-4956-a270-abfb7eedd482
 title: RemoteBeginCreateObjectFromByteStream
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoteBeginCreateObjectFromByteStream
 
-Remotable version of the [**IMFSourceResolver::BeginCreateObjectFromByteStream**](imfsourceresolver-begincreateobjectfrombytestream.md) method.
+Remotable version of the [**IMFSourceResolver::BeginCreateObjectFromByteStream**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfrombytestream?branch=master) method.
 
 ``` syntax
 [call_as(BeginCreateObjectFromByteStream)]
@@ -21,7 +26,7 @@ HRESULT RemoteBeginCreateObjectFromByteStream(
 
 ## Remarks
 
-Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**BeginCreateObjectFromByteStream**](imfsourceresolver-begincreateobjectfrombytestream.md) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
+Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**BeginCreateObjectFromByteStream**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfrombytestream?branch=master) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
 
 ## Requirements
 
@@ -40,7 +45,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 <dl> <dt>
 
-[**IMFSourceResolver**](imfsourceresolver.md)
+[**IMFSourceResolver**](/windows/win32/mfidl/nn-mfidl-imfsourceresolver?branch=master)
 </dt> </dl>
 
  

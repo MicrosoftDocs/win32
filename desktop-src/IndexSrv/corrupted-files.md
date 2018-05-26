@@ -1,7 +1,12 @@
 ---
 title: Corrupted Files
 description: Corrupted Files
-ms.assetid: '81954688-be8b-47b8-9723-2fad958030f6'
+ms.assetid: 81954688-be8b-47b8-9723-2fad958030f6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Corrupted Files

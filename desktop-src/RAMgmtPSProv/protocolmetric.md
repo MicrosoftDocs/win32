@@ -2,13 +2,15 @@
 title: ProtocolMetric class
 description: Manages protocol metrics.
 audience: developer
-ms.assetid: '4c43da97-ccf6-4e92-ad8b-a420af8f544f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4c43da97-ccf6-4e92-ad8b-a420af8f544f
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ProtocolMetric class", "ProtocolMetric class, described"]
+keywords:
+- ProtocolMetric class
+- ProtocolMetric class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtocolMetric class
@@ -83,7 +88,7 @@ The name of the protocol
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -97,9 +102,9 @@ The name of the protocol
 [RAMgmtPSProvider Provider Classes](remote-access-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

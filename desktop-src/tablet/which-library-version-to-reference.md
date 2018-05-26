@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the differences between the Tablet PC library binary versions.'
-ms.assetid: '708567b8-33bd-43cd-b56f-8ee9c96fb315'
+Description: This topic describes the differences between the Tablet PC library binary versions.
+ms.assetid: 708567b8-33bd-43cd-b56f-8ee9c96fb315
 title: Which Library Version to Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Which Library Version to Reference

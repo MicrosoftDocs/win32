@@ -1,14 +1,20 @@
 ---
 title: RequiresInteractivity (Script) Element
 description: Determines whether the script requires interaction with the user.
-ms.assetid: 'b14276c8-8aea-42a3-b5a1-bba9265c7668'
-keywords: ["RequiresInteractivity element Windows Troubleshooting Toolkit"]
+ms.assetid: b14276c8-8aea-42a3-b5a1-bba9265c7668
+keywords:
+- RequiresInteractivity element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - RequiresInteractivity
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresInteractivity (Script) Element
@@ -27,14 +33,14 @@ The **RequiresInteractivity** element is defined by the [**Script**](package-scr
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

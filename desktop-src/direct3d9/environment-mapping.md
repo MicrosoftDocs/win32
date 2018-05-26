@@ -1,7 +1,12 @@
 ---
-Description: 'Environment mapping is a technique that simulates highly reflective surfaces without using ray tracing.'
-ms.assetid: '4879d59b-e6d3-4811-ab2c-bcce8f214e1c'
-title: 'Environment Mapping (Direct3D 9)'
+Description: Environment mapping is a technique that simulates highly reflective surfaces without using ray tracing.
+ms.assetid: 4879d59b-e6d3-4811-ab2c-bcce8f214e1c
+title: Environment Mapping (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Environment Mapping (Direct3D 9)

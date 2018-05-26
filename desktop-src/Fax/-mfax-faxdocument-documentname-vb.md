@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax document. The value is for display purposes only.'
-ms.assetid: '5f9f0f98-3b19-49e0-97d1-ec5be29cfdf9'
-title: 'FaxDocument.DocumentName property'
+---
+Description: The DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax document. The value is for display purposes only.
+ms.assetid: 5f9f0f98-3b19-49e0-97d1-ec5be29cfdf9
+title: FaxDocument.DocumentName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.DocumentName property
@@ -46,7 +51,7 @@ A **String** that specifies or receives the user-friendly name to associate with
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

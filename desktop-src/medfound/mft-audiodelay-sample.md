@@ -1,7 +1,12 @@
 ---
-Description: 'MFT\_AudioDelay Sample'
-ms.assetid: '08f119f9-cacd-4000-96b6-60c8c0055e9c'
-title: 'MFT\_AudioDelay Sample'
+Description: MFT\_AudioDelay Sample
+ms.assetid: 08f119f9-cacd-4000-96b6-60c8c0055e9c
+title: MFT\_AudioDelay Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_AudioDelay Sample
@@ -12,7 +17,7 @@ Shows how to implement an audio effect as a Media Foundation Transform (MFT). Th
 
 This sample demonstrates the following Microsoft Media Foundation interfaces:
 
--   [**IMFTransform**](imftransform.md)
+-   [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)
 
 ## Usage
 

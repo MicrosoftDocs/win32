@@ -1,8 +1,9 @@
 ---
 title: TB\_GETIDEALSIZE message
 description: Gets the ideal size of the toolbar.
-ms.assetid: 'd3b5ea4d-fd80-4f07-be4f-89b53a8bdf4d'
-keywords: ["TB_GETIDEALSIZE message Windows Controls"]
+ms.assetid: d3b5ea4d-fd80-4f07-be4f-89b53a8bdf4d
+keywords:
+- TB_GETIDEALSIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETIDEALSIZE message
@@ -41,15 +47,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

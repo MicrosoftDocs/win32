@@ -1,8 +1,9 @@
 ---
 title: ICM\_COMPRESS\_QUERY message
 description: The ICM\_COMPRESS\_QUERY message queries a video compression driver to determine if it supports a specific input format or if it can compress a specific input format to a specific output format.
-ms.assetid: '6d0e735e-8252-4507-b8be-1ba87774f637'
-keywords: ["ICM_COMPRESS_QUERY message Windows Multimedia"]
+ms.assetid: 6d0e735e-8252-4507-b8be-1ba87774f637
+keywords:
+- ICM_COMPRESS_QUERY message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_COMPRESS\_QUERY message
 
-The **ICM\_COMPRESS\_QUERY** message queries a video compression driver to determine if it supports a specific input format or if it can compress a specific input format to a specific output format. You can send this message explicitly or by using the [**ICCompressQuery**](iccompressquery.md) macro.
+The **ICM\_COMPRESS\_QUERY** message queries a video compression driver to determine if it supports a specific input format or if it can compress a specific input format to a specific output format. You can send this message explicitly or by using the [**ICCompressQuery**](/windows/win32/Vfw/nf-vfw-iccompressquery?branch=master) macro.
 
 
 ```C++
@@ -58,8 +64,8 @@ When a driver receives this message, it should examine the [**BITMAPINFO**](http
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ When a driver receives this message, it should examine the [**BITMAPINFO**](http
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

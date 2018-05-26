@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the MapHandlerLeave event.'
+---
+Description: The event type class for the MapHandlerLeave event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd3d9d542-307d-44d5-8f16-81a82feea871'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d3d9d542-307d-44d5-8f16-81a82feea871
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetMapHandlerLeave class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetMapHandlerLeave class

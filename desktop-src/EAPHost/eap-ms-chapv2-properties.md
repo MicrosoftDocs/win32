@@ -1,7 +1,12 @@
 ---
 title: EAP MS-CHAPv2 User Properties
 description: Is an instance of the mschapv2userpropertiesv1 legacy schema.
-ms.assetid: 'f360913d-be5d-4ef0-96c9-652e4d08d9cd'
+ms.assetid: f360913d-be5d-4ef0-96c9-652e4d08d9cd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP MS-CHAPv2 User Properties

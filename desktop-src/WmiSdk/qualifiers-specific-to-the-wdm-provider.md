@@ -1,13 +1,16 @@
 ---
-Description: 'The following qualifiers are used by the WDM Provider in device driver MOF files when they are extracting data from WNODEs to generate instances of WDM driver classes.'
+Description: The following qualifiers are used by the WDM Provider in device driver MOF files when they are extracting data from WNODEs to generate instances of WDM driver classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '11b0af59-979f-4908-baef-c9ec564b3cfd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 11b0af59-979f-4908-baef-c9ec564b3cfd
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Qualifiers Specific to the WDM Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Qualifiers Specific to the WDM Provider
@@ -66,14 +69,14 @@ Index in the WNODE of the data for the property. The WDM provider uses this qual
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

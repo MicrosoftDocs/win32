@@ -1,12 +1,17 @@
 ---
-Description: 'A cardinal spline is a curve that passes smoothly through a given set of points.'
-ms.assetid: '0bb84f55-18d0-4a4c-bc5b-7803aa807954'
+Description: A cardinal spline is a curve that passes smoothly through a given set of points.
+ms.assetid: 0bb84f55-18d0-4a4c-bc5b-7803aa807954
 title: Drawing Cardinal Splines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing Cardinal Splines
 
-A cardinal spline is a curve that passes smoothly through a given set of points. To draw a cardinal spline, create a [**Graphics**](-gdiplus-class-graphics-class.md) object and pass the address of an array of points to the [**Graphics::DrawCurve**](-gdiplus-class-graphics-drawcurve-pen-pen-pointf-points-int-count-.md) method. The following example draws a bell-shaped cardinal spline that passes through five designated points:
+A cardinal spline is a curve that passes smoothly through a given set of points. To draw a cardinal spline, create a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object and pass the address of an array of points to the [**Graphics::DrawCurve**](/windows/win32/Gdiplusgraphics/?branch=master) method. The following example draws a bell-shaped cardinal spline that passes through five designated points:
 
 
 ```
@@ -26,7 +31,7 @@ The following illustration shows the curve and five points.
 
 ![illustration of a cardinal spline that passes through a set of five points](images/cardinalspline1.png)
 
-You can use the [**Graphics::DrawClosedCurve**](-gdiplus-class-graphics-drawclosedcurve-pen-pen-pointf-points-int-count-.md) method of the [**Graphics**](-gdiplus-class-graphics-class.md) class to draw a closed cardinal spline. In a closed cardinal spline, the curve continues through the last point in the array and connects with the first point in the array.
+You can use the [**Graphics::DrawClosedCurve**](/windows/win32/Gdiplusgraphics/?branch=master) method of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class to draw a closed cardinal spline. In a closed cardinal spline, the curve continues through the last point in the array and connects with the first point in the array.
 
 The following example draws a closed cardinal spline that passes through six designated points.
 
@@ -49,7 +54,7 @@ The following illustration shows the closed spline along with the six points:
 
 ![illustration of a closed cardinal spline that passes through a set of six points](images/cardinalspline1a.png)
 
-You can change the way a cardinal spline bends by passing a tension argument to the [**Graphics::DrawCurve**](-gdiplus-class-graphics-drawcurve-pen-pen-pointf-points-int-count-.md) method. The following example draws three cardinal splines that pass through the same set of points:
+You can change the way a cardinal spline bends by passing a tension argument to the [**Graphics::DrawCurve**](/windows/win32/Gdiplusgraphics/?branch=master) method. The following example draws three cardinal splines that pass through the same set of points:
 
 
 ```

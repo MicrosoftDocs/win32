@@ -1,14 +1,20 @@
 ---
 title: ControlNameDefinition element
 description: Represents a name of a control in a custom SizeDefinition layout template.
-ms.assetid: '94b724bd-a4e3-40e0-9cf0-3cc6a71100d2'
-keywords: ["ControlNameDefinition element Windows Ribbon"]
+ms.assetid: 94b724bd-a4e3-40e0-9cf0-3cc6a71100d2
+keywords:
+- ControlNameDefinition element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ControlNameDefinition
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ControlNameDefinition element
@@ -158,7 +164,7 @@ The following code example demonstrates the basic markup for a custom four-butto
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -170,9 +176,9 @@ The following code example demonstrates the basic markup for a custom four-butto
 [Customizing a Ribbon Through Size Definitions and Scaling Policies](windowsribbon-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

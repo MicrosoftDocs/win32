@@ -1,7 +1,12 @@
 ---
 title: SampleGrad (DirectX HLSL Texture Object)
 description: Samples a texture using a gradient to influence the way the sample location is calculated.
-ms.assetid: 'f3d73296-23c4-4178-b89e-6f84cfcb48a5'
+ms.assetid: f3d73296-23c4-4178-b89e-6f84cfcb48a5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SampleGrad (DirectX HLSL Texture Object)
@@ -16,7 +21,7 @@ Samples a texture using a gradient to influence the way the sample location is c
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -66,7 +71,7 @@ Samples a texture using a gradient to influence the way the sample location is c
 <td>float3</td>
 </tr>
 <tr class="even">
-<td>TextureCubeArray¹</td>
+<td>TextureCubeArray </td>
 <td>float4</td>
 </tr>
 <tr class="odd">
@@ -76,7 +81,7 @@ Samples a texture using a gradient to influence the way the sample location is c
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td><p><span id="DDX"></span><span id="ddx"></span><em>DDX</em></p></td>
@@ -99,7 +104,7 @@ Samples a texture using a gradient to influence the way the sample location is c
 <td>float2</td>
 </tr>
 <tr class="odd">
-<td>Texture3D, TextureCube, TextureCubeArray¹</td>
+<td>Texture3D, TextureCube, TextureCubeArray </td>
 <td>float3</td>
 </tr>
 <tr class="even">
@@ -109,7 +114,7 @@ Samples a texture using a gradient to influence the way the sample location is c
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="odd">
 <td><p><span id="DDY"></span><span id="ddy"></span><em>DDY</em></p></td>
@@ -132,7 +137,7 @@ Samples a texture using a gradient to influence the way the sample location is c
 <td>float2</td>
 </tr>
 <tr class="odd">
-<td>Texture3D, TextureCube, TextureCubeArray¹</td>
+<td>Texture3D, TextureCube, TextureCubeArray </td>
 <td>float3</td>
 </tr>
 <tr class="even">
@@ -142,7 +147,7 @@ Samples a texture using a gradient to influence the way the sample location is c
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td><p><span id="Offset"></span><span id="offset"></span><span id="OFFSET"></span><em>Offset</em></p></td>
@@ -169,7 +174,7 @@ Samples a texture using a gradient to influence the way the sample location is c
 <td>int3</td>
 </tr>
 <tr class="even">
-<td>TextureCube, TextureCubeArray¹</td>
+<td>TextureCube, TextureCubeArray </td>
 <td>not supported</td>
 </tr>
 <tr class="odd">
@@ -179,14 +184,14 @@ Samples a texture using a gradient to influence the way the sample location is c
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -198,13 +203,13 @@ This function is supported in the following shader models.
 
 
 
-| vs\_4\_0 | vs\_4\_1² | ps\_4\_0 | ps\_4\_1² | gs\_4\_0 | gs\_4\_1² |
+| vs\_4\_0 | vs\_4\_1  | ps\_4\_0 | ps\_4\_1  | gs\_4\_0 | gs\_4\_1  |
 |----------|-----------|----------|-----------|----------|-----------|
 | x        | x         | x        | x         | x        | x         |
 
 
 
- 
+ 
 
 1.  TextureCubeArray is available in Shader Model 4.1 or higher.
 2.  Shader Model 4.1 is available in Direct3D 10.1 or higher.
@@ -255,9 +260,9 @@ float4 PSSceneMain( VSSceneOut Input ) : SV_TARGET
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

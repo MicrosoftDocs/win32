@@ -1,8 +1,22 @@
 ---
 title: Custom Visualization Programming Guide
 description: Custom Visualization Programming Guide
-ms.assetid: 'a4e670b2-b70a-4f6b-8fc3-c4f5d855d723'
-keywords: ["Windows Media Player,visualizations", "Windows Media Player plug-ins,visualizations", "plug-ins,visualizations", "visualizations,programming guide", "custom visualizations,programming guide", "programming guide,visualizations", "visualizations,Render function", "custom visualizations,Render function", "Render function,programming guide"]
+ms.assetid: a4e670b2-b70a-4f6b-8fc3-c4f5d855d723
+keywords:
+- Windows Media Player,visualizations
+- Windows Media Player plug-ins,visualizations
+- plug-ins,visualizations
+- visualizations,programming guide
+- custom visualizations,programming guide
+- programming guide,visualizations
+- visualizations,Render function
+- custom visualizations,Render function
+- Render function,programming guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Visualization Programming Guide

@@ -4,13 +4,15 @@ description: Represents an SMB witness client.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'F2A78DC1-B1C3-47C3-9AE5-0F16C2CE11EF'
-ms.prod: 'windows-server-dev'
+ms.assetid: F2A78DC1-B1C3-47C3-9AE5-0F16C2CE11EF
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SmbWitnessClient class SMB", "MSFT_SmbWitnessClient class SMB , described"]
+keywords:
+- MSFT_SmbWitnessClient class SMB
+- MSFT_SmbWitnessClient class SMB , described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,9 @@ api_location:
 - WitnessWmiv2Provider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SmbWitnessClient class
@@ -78,7 +83,7 @@ The **MSFT\_SmbWitnessClient** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -129,7 +134,7 @@ Qualifiers: [**BitMap**](https://msdn.microsoft.com/library/aa384827) ("1","2","
 
 The flags for the client.
 
-**Windows Server 2012 and Windows 8:** This property is not supported before Windows Server 2012 R2 and Windows 8.1.
+**Windows Server 2012 and Windows 8:** This property is not supported before Windows Server 2012 R2 and Windows 8.1.
 
 </dd> <dt>
 
@@ -222,7 +227,7 @@ Access type: Read-only
 
 The share name.
 
-**Windows Server 2012 and Windows 8:** This property is not supported before Windows Server 2012 R2 and Windows 8.1.
+**Windows Server 2012 and Windows 8:** This property is not supported before Windows Server 2012 R2 and Windows 8.1.
 
 </dd> <dt>
 
@@ -309,8 +314,8 @@ SMB witness is a feature that does the following:
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\SmbWitness<br/>                                                        |
 | MOF<br/>                      | <dl> <dt>SmbWitnessWmiv2Provider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WitnessWmiv2Provider.dll</dt> </dl>    |
@@ -324,9 +329,9 @@ SMB witness is a feature that does the following:
 [SMB Management API](smb-management-api-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

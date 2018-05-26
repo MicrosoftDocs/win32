@@ -1,7 +1,12 @@
 ---
 title: MCIWnd Window User Interface
 description: MCIWnd Window User Interface
-ms.assetid: '422c5acb-bce5-4be2-96ba-5ab7f9dcc826'
+ms.assetid: 422c5acb-bce5-4be2-96ba-5ab7f9dcc826
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWnd Window User Interface

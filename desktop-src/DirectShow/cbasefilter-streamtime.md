@@ -1,7 +1,12 @@
 ---
-Description: 'The StreamTime method retrieves the current stream time.'
-ms.assetid: '88a2939d-fb51-49fd-af71-21c99511de43'
-title: 'CBaseFilter.StreamTime method'
+Description: The StreamTime method retrieves the current stream time.
+ms.assetid: 88a2939d-fb51-49fd-af71-21c99511de43
+title: CBaseFilter.StreamTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.StreamTime method
@@ -13,7 +18,7 @@ The **StreamTime** method retrieves the current stream time.
 
 ```C++
 virtual HRESULT StreamTime(
-  [ref] CRefTime &amp;rtStream
+  [ref] CRefTime &amp;rtStream
 );
 ```
 
@@ -43,13 +48,13 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
 Stream time is defined as the current reference time (as given by the reference clock) minus the start time (specified by [**CBaseFilter::m\_tStart**](cbasefilter-m-tstart.md)). A media sample's *time stamp* specifies the stream time when it should be rendered. If a sample with a time stamp less than the current stream time has not yet been rendered, it is late.
 
-This method gets the stream time by calling [**IReferenceClock::GetTime**](ireferenceclock-gettime.md) to get the current reference time, and then subtracting the initial start time.
+This method gets the stream time by calling [**IReferenceClock::GetTime**](/windows/win32/Strmif/nf-strmif-ireferenceclock-gettime?branch=master) to get the current reference time, and then subtracting the initial start time.
 
 ## Requirements
 
@@ -72,9 +77,9 @@ This method gets the stream time by calling [**IReferenceClock::GetTime**](irefe
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

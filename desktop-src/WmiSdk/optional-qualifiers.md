@@ -1,13 +1,16 @@
 ---
-Description: 'Optional qualifiers address recurring situations not common to all CIM-compliant implementations, which are not required to interpret these qualifiers.'
+Description: Optional qualifiers address recurring situations not common to all CIM-compliant implementations, which are not required to interpret these qualifiers.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f31162d1-25e6-494a-bc7d-f66955b514a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f31162d1-25e6-494a-bc7d-f66955b514a6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Optional Qualifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Optional Qualifiers
@@ -216,8 +219,8 @@ Note this qualifier cannot be overridden. It is unreasonable to permit a subclas
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -231,9 +234,9 @@ Note this qualifier cannot be overridden. It is unreasonable to permit a subclas
 [Adding a Qualifier](adding-a-qualifier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

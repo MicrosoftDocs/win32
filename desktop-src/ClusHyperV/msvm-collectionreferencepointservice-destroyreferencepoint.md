@@ -4,13 +4,16 @@ description: Deletes a reference point collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b5a046fa-23d5-40ce-b5e3-dc74384fb853'
-ms.prod: 'windows-server-dev'
+ms.assetid: b5a046fa-23d5-40ce-b5e3-dc74384fb853
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DestroyReferencePoint method", "DestroyReferencePoint method, Msvm_CollectionReferencePointService class", "Msvm_CollectionReferencePointService class, DestroyReferencePoint method"]
+keywords:
+- DestroyReferencePoint method
+- DestroyReferencePoint method, Msvm_CollectionReferencePointService class
+- Msvm_CollectionReferencePointService class, DestroyReferencePoint method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DestroyReferencePoint method of the Msvm\_CollectionReferencePointService class
@@ -28,15 +34,15 @@ Deletes a reference point collection.
 > [!Note]  
 > This method may delete reference points that are dependent on the affected reference point collection.
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 DestroyReferencePoint(
-  [in]  CIM_Collection  REF AffectedReferencePointCollection,
-  [out] CIM_ConcreteJob REF Job
+  [in]  CIM_Collection  REF AffectedReferencePointCollection,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -87,16 +93,16 @@ The possible return values are:
 **Invalid Type** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -106,7 +112,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -120,9 +126,9 @@ The possible return values are:
 [**Msvm\_CollectionReferencePointService**](msvm-collectionreferencepointservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

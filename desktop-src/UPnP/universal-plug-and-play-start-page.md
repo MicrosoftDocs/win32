@@ -1,15 +1,21 @@
 ---
 title: UPnP APIs
-description: The UPnP™ framework enables dynamic networking of intelligent appliances, wireless devices, and PCs.
-ms.assetid: '1dc05d6e-19ae-45e2-82c2-d3b63b16bf9d'
-keywords: ["UPnP"]
+description: The UPnP  framework enables dynamic networking of intelligent appliances, wireless devices, and PCs.
+ms.assetid: 1dc05d6e-19ae-45e2-82c2-d3b63b16bf9d
+keywords:
+- UPnP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UPnP APIs
 
 ## Purpose
 
-The UPnP™ framework enables dynamic networking of intelligent appliances, wireless devices, and PCs. There are two APIs for working with UPnP-certified devices:
+The UPnP  framework enables dynamic networking of intelligent appliances, wireless devices, and PCs. There are two APIs for working with UPnP-certified devices:
 
 -   The Control Point API, which consists of a set of COM interfaces used to find and control devices.
 -   The Device Host API, which consists of a set of COM interfaces used to implement devices that are hosted by a computer.
@@ -52,11 +58,11 @@ For more specific information about which operating systems support a particular
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

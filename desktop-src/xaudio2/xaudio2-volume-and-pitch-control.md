@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes XAudio2 volume and pitch control.'
-ms.assetid: 'dedc2d01-af83-d7d2-5b64-743dcebc83f7'
+Description: This topic describes XAudio2 volume and pitch control.
+ms.assetid: dedc2d01-af83-d7d2-5b64-743dcebc83f7
 title: XAudio2 Volume and Pitch Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAudio2 Volume and Pitch Control
@@ -10,7 +15,7 @@ This topic describes XAudio2 volume and pitch control.
 
 ## Volume Control
 
-Volume levels are expressed as floating-point amplitude multipliers between -XAUDIO2\_MAX\_VOLUME\_LEVEL and XAUDIO2\_MAX\_VOLUME\_LEVEL (-224 to 224), with a maximum gain of 144.5 dB. A volume of 1.0 means there is no attenuation or gain; 0 means silence; and negative levels can be used to invert the audio's phase. Two inline functions are provided in XAudio2.h to convert between volume units: [**XAudio2DecibelsToAmplitudeRatio**](xaudio2decibelstoamplituderatio.md) and [**XAudio2AmplitudeRatioToDecibels**](xaudio2amplituderatiotodecibels.md).
+Volume levels are expressed as floating-point amplitude multipliers between -XAUDIO2\_MAX\_VOLUME\_LEVEL and XAUDIO2\_MAX\_VOLUME\_LEVEL (-224 to 224), with a maximum gain of 144.5 dB. A volume of 1.0 means there is no attenuation or gain; 0 means silence; and negative levels can be used to invert the audio's phase. Two inline functions are provided in XAudio2.h to convert between volume units: [**XAudio2DecibelsToAmplitudeRatio**](/windows/win32/xaudio2/nf-xaudio2-xaudio2decibelstoamplituderatio?branch=master) and [**XAudio2AmplitudeRatioToDecibels**](/windows/win32/xaudio2/nf-xaudio2-xaudio2amplituderatiotodecibels?branch=master).
 
 You can apply a volume level to the audio at several points as it flows through the XAudio2 graph:
 
@@ -27,7 +32,7 @@ All overall volumes and channel volumes default to 1.0 initially. All send-level
 
 ## Pitch Control
 
-Pitches are expressed as input rate/output rate ratios between 1/1,024 and 1,024/1, inclusive. A ratio of 1/1,024 lowers pitch by 10 octaves, while a ratio of 1,024/1 raises it by 10 octaves. You can only use the [**IXAudio2SourceVoice::SetFrequencyRatio**](ixaudio2sourcevoice-interface-setfrequencyratio.md) method to apply pitch adjustments to source voices, and only if they were not created with the XAUDIO2\_VOICE\_NOPITCH flag. The default frequency ratio is 1/1: that is, no pitch change. Two inline functions are provided in XAudio2.h to convert between frequency ratios and semitones: [**XAudio2FrequencyRatioToSemitones**](xaudio2frequencyratiotosemitones.md) and [**XAudio2SemitonesToFrequencyRatio**](xaudio2semitonestofrequencyratio.md).
+Pitches are expressed as input rate/output rate ratios between 1/1,024 and 1,024/1, inclusive. A ratio of 1/1,024 lowers pitch by 10 octaves, while a ratio of 1,024/1 raises it by 10 octaves. You can only use the [**IXAudio2SourceVoice::SetFrequencyRatio**](ixaudio2sourcevoice-interface-setfrequencyratio.md) method to apply pitch adjustments to source voices, and only if they were not created with the XAUDIO2\_VOICE\_NOPITCH flag. The default frequency ratio is 1/1: that is, no pitch change. Two inline functions are provided in XAudio2.h to convert between frequency ratios and semitones: [**XAudio2FrequencyRatioToSemitones**](/windows/win32/xaudio2/nf-xaudio2-xaudio2frequencyratiotosemitones?branch=master) and [**XAudio2SemitonesToFrequencyRatio**](/windows/win32/xaudio2/nf-xaudio2-xaudio2semitonestofrequencyratio?branch=master).
 
 ## Related topics
 

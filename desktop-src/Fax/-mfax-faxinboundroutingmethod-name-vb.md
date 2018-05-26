@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Name property is a null-terminated string that contains the user-friendly name associated with the inbound fax routing method. The string is suitable for display to users.'
-ms.assetid: 'c5606433-597f-45da-b169-86a8deb1b256'
-title: 'FaxInboundRoutingMethod.Name property'
+---
+Description: The Name property is a null-terminated string that contains the user-friendly name associated with the inbound fax routing method. The string is suitable for display to users.
+ms.assetid: c5606433-597f-45da-b169-86a8deb1b256
+title: FaxInboundRoutingMethod.Name property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingMethod.Name property
@@ -46,7 +51,7 @@ A **String** that receives the user-friendly name associated with the inbound fa
 [**FaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod-cpp.md)
+[**IFaxInboundRoutingMethod**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingmethod?branch=master)
 </dt> </dl>
 
  

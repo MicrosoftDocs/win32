@@ -1,7 +1,12 @@
 ---
 title: Summary of Tasks, Languages, APIs, and Tools
 description: Summary of Tasks, Languages, APIs, and Tools
-ms.assetid: 'f4e2bda6-ec1d-4d91-80e7-4a39d56be46f'
+ms.assetid: f4e2bda6-ec1d-4d91-80e7-4a39d56be46f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Summary of Tasks, Languages, APIs, and Tools

@@ -1,7 +1,12 @@
 ---
-Description: 'The InstallExecuteSequence table lists actions that are executed when the top-level INSTALL action is executed.'
-ms.assetid: '245b576b-96cc-4eab-8848-5ff78ba32873'
+Description: The InstallExecuteSequence table lists actions that are executed when the top-level INSTALL action is executed.
+ms.assetid: 245b576b-96cc-4eab-8848-5ff78ba32873
 title: InstallExecuteSequence Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InstallExecuteSequence Table
@@ -10,7 +15,7 @@ The InstallExecuteSequence table lists actions that are executed when the top-le
 
 Actions in the install sequence up to the [InstallValidate action](installvalidate-action.md), and any exit dialog boxes, are located in the [InstallUISequence table](installuisequence-table.md). All actions from the InstallValidate through the end of the install sequence are in the InstallExecuteSequence table. Because the InstallExecuteSequence table needs to stand alone, it has any necessary initialization actions such as the [LaunchConditions](launchconditions-action.md), [CostInitialize](costinitialize-action.md), [FileCost](filecost-action.md), and [CostFinalize](costfinalize-action.md) actions.
 
-[Custom actions](custom-actions.md) requiring a user interface should use [**MsiProcessMessage**](msiprocessmessage.md) instead of authored dialog boxes created using the [Dialog table](dialog-table.md).
+[Custom actions](custom-actions.md) requiring a user interface should use [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master) instead of authored dialog boxes created using the [Dialog table](dialog-table.md).
 
 The InstallExecuteSequence table has the following columns.
 

@@ -1,8 +1,19 @@
 ---
 title: Pan/Zoom Effects
 description: Pan/Zoom Effects
-ms.assetid: '32726c61-d42a-4d8c-8726-cc97a13695b1'
-keywords: ["Windows Movie Maker,pan/zoom effects", "Movie Maker,pan/zoom effects", "programming reference,Windows Movie Maker effects", "reference for Windows Movie Maker,effects", "pan/zoom effects", "effects,pan/zoom"]
+ms.assetid: 32726c61-d42a-4d8c-8726-cc97a13695b1
+keywords:
+- Windows Movie Maker,pan/zoom effects
+- Movie Maker,pan/zoom effects
+- programming reference,Windows Movie Maker effects
+- reference for Windows Movie Maker,effects
+- pan/zoom effects
+- effects,pan/zoom
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pan/Zoom Effects
@@ -260,7 +271,7 @@ Following the XML are tables that specify which parameters in this XML can be ch
 
 
 
- 
+ 
 
 ## Customizable Elements
 
@@ -268,12 +279,12 @@ Following the XML are tables that specify which parameters in this XML can be ch
 
 | Element             | Type   | Range/options | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |---------------------|--------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TextureViewport** | float4 | 0.0 – 1.0     | The **TextureViewport** element defines the part of the video image that is visible—the *viewport*. The image coordinates range from 0.0 to 1.0, with the upper-left corner having the coordinates (0.0,0.0), and the lower-right corner having the coordinates (1.0,1.0).The **TextureViewport** element is defined as a list of 4 floating-point values. The first two values define the location of the upper-left corner of the viewport within the image. The third and fourth coordinates define the width and height of the viewport (in image coordinates).<br/> For more information on the **TextureViewport** element, see Step 5 of [Making Your Own XML File](making-your-own-xml-file.md).<br/> |
-| **Point**           | float  | 0.0 – 1.0     | The point within the duration of the effect at which the enclosing element will have the specified **value**. When the **time** attribute is equal to 0.0, it indicates the starting point of the clip; when the **time** attribute is equal to 1.0, it indicates the end point of the clip.For more information on the **Point** element, see [Changes to the XML Schema](changes-to-the-xml-schema.md).<br/>                                                                                                                                                                                                                                                                                                      |
+| **TextureViewport** | float4 | 0.0   1.0     | The **TextureViewport** element defines the part of the video image that is visible the *viewport*. The image coordinates range from 0.0 to 1.0, with the upper-left corner having the coordinates (0.0,0.0), and the lower-right corner having the coordinates (1.0,1.0).The **TextureViewport** element is defined as a list of 4 floating-point values. The first two values define the location of the upper-left corner of the viewport within the image. The third and fourth coordinates define the width and height of the viewport (in image coordinates).<br/> For more information on the **TextureViewport** element, see Step 5 of [Making Your Own XML File](making-your-own-xml-file.md).<br/> |
+| **Point**           | float  | 0.0   1.0     | The point within the duration of the effect at which the enclosing element will have the specified **value**. When the **time** attribute is equal to 0.0, it indicates the starting point of the clip; when the **time** attribute is equal to 1.0, it indicates the end point of the clip.For more information on the **Point** element, see [Changes to the XML Schema](changes-to-the-xml-schema.md).<br/>                                                                                                                                                                                                                                                                                                      |
 
 
 
- 
+ 
 
 **Note** The "float4" type refers to a comma-delimited array of four floating point numbers. For instance, "(0.0,1.0,0.2,0.4)".
 
@@ -284,9 +295,9 @@ Following the XML are tables that specify which parameters in this XML can be ch
 [**Effects**](effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

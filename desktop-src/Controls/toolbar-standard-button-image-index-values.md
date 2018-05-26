@@ -1,7 +1,7 @@
 ---
 title: Toolbar Standard Button Image Index Values
 description: This section specifies index values of images within standard bitmaps.
-ms.assetid: '58605c48-a306-4b89-9d70-c3248ada4cb0'
+ms.assetid: 58605c48-a306-4b89-9d70-c3248ada4cb0
 topic_type:
 - apiref
 api_name:
@@ -41,6 +41,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Toolbar Standard Button Image Index Values
@@ -132,7 +137,7 @@ Each of the following headings contains an image list of the large icons, an ima
 
 
 
- 
+ 
 
 **IDB\_STD\_LARGE\_COLOR and IDB\_STD\_SMALL\_COLOR:**
 
@@ -162,7 +167,7 @@ Each of the following headings contains an image list of the large icons, an ima
 
 
 
- 
+ 
 
 **IDB\_VIEW\_LARGE\_COLOR and IDB\_VIEW\_SMALL\_COLOR:**
 
@@ -189,7 +194,7 @@ Each of the following headings contains an image list of the large icons, an ima
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -201,9 +206,9 @@ Each of the following headings contains an image list of the large icons, an ima
 
 
 
- 
+ 
 
- 
+ 
 
 
 

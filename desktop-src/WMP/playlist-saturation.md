@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.saturation
 description: The saturation attribute specifies or retrieves the saturation value of the drop-down images.
-ms.assetid: '4c5dd3d9-828a-45c9-896a-9a702d354544'
-keywords: ["PLAYLIST.saturation Windows Media Player"]
+ms.assetid: 4c5dd3d9-828a-45c9-896a-9a702d354544
+keywords:
+- PLAYLIST.saturation Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.saturation
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.saturation
@@ -53,9 +59,9 @@ This attribute changes the saturation value of the images specified by the **dro
 [**PLAYLIST.hueShift**](playlist-hueshift.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

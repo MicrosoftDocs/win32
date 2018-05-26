@@ -1,7 +1,12 @@
 ---
 title: BDA SLIP Deframer Filter
 description: BDA SLIP Deframer Filter
-ms.assetid: '21a64adf-ff3d-4dc1-80d4-875e10acd7e6'
+ms.assetid: 21a64adf-ff3d-4dc1-80d4-875e10acd7e6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BDA SLIP Deframer Filter

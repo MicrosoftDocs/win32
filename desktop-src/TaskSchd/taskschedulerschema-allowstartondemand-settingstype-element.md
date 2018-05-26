@@ -1,14 +1,20 @@
 ---
 title: AllowStartOnDemand (settingsType) Element
 description: Specifies that the task can be started using either the Run command or the Context menu.
-ms.assetid: '5a0f0842-9f09-4d52-bed2-45740945d9a5'
-keywords: ["AllowStartOnDemand element Task Scheduler"]
+ms.assetid: 5a0f0842-9f09-4d52-bed2-45740945d9a5
+keywords:
+- AllowStartOnDemand element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - AllowStartOnDemand
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AllowStartOnDemand (settingsType) Element
@@ -39,7 +45,7 @@ The **AllowStartOnDemand** element is defined by the [**settingsType**](tasksche
 
 When this element is set to True, the task can be started independently of when any triggers start the task.
 
-For C++ development, see the [**AllowDemandStart property of ITaskSettings**](itasksettings-allowdemandstart.md).
+For C++ development, see the [**AllowDemandStart property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_allowdemandstart?branch=master).
 
 For script development, see [**TaskSettings.AllowDemandStart**](tasksettings-allowdemandstart.md).
 
@@ -53,8 +59,8 @@ For a complete example of the XML for a task that allows demand start, see [Time
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -65,9 +71,9 @@ For a complete example of the XML for a task that allows demand start, see [Time
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

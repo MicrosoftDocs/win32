@@ -1,7 +1,12 @@
 ---
-Description: 'The following functions are used with Output Protection Manager (OPM).'
-ms.assetid: '7ecde6ae-56fd-451b-bebb-224c6801be05'
+Description: The following functions are used with Output Protection Manager (OPM).
+ms.assetid: 7ecde6ae-56fd-451b-bebb-224c6801be05
 title: OPM Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM Functions
@@ -12,9 +17,9 @@ The following functions are used with [Output Protection Manager](output-protect
 
 | Function                                                                                             | Description                                                                                                                           |
 |------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| [**OPMGetVideoOutputForTarget**](opmgetvideooutputfortarget.md)                                     | Returns a video output object for the VidPN target on the specified adapter.                                                          |
-| [**OPMGetVideoOutputsFromHMONITOR**](opmgetvideooutputsfromhmonitor.md)                             | Creates an Output Protection Manager (OPM) object for each physical monitor that is associated with a particular **HMONITOR** handle. |
-| [**OPMGetVideoOutputsFromIDirect3DDevice9Object**](opmgetvideooutputsfromidirect3ddevice9object.md) | Creates an OPM object for each physical monitor that is associated with a particular Direct3D device.                                 |
+| [**OPMGetVideoOutputForTarget**](/windows/win32/opmapi/nf-opmapi-opmgetvideooutputfortarget?branch=master)                                     | Returns a video output object for the VidPN target on the specified adapter.                                                          |
+| [**OPMGetVideoOutputsFromHMONITOR**](/windows/win32/opmapi/nf-opmapi-opmgetvideooutputsfromhmonitor?branch=master)                             | Creates an Output Protection Manager (OPM) object for each physical monitor that is associated with a particular **HMONITOR** handle. |
+| [**OPMGetVideoOutputsFromIDirect3DDevice9Object**](/windows/win32/opmapi/nf-opmapi-opmgetvideooutputsfromidirect3ddevice9object?branch=master) | Creates an OPM object for each physical monitor that is associated with a particular Direct3D device.                                 |
 
 
 
@@ -25,8 +30,8 @@ The following functions are used by OPM to access functionality in the display d
 -   [**ConfigureOPMProtectedOutput**](configureopmprotectedoutput.md)
 -   [**CreateOPMProtectedOutputs**](createopmprotectedoutputs.md)
 -   [**DestroyOPMProtectedOutput**](destroyopmprotectedoutput.md)
--   [**GetCertificate**](idirect3dauthenticatedchannel9-getcertificate.md)
--   [**GetCertificateSize**](idirect3dauthenticatedchannel9-getcertificatesize.md)
+-   [**GetCertificate**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-getcertificate?branch=master)
+-   [**GetCertificateSize**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-getcertificatesize?branch=master)
 -   [**GetCOPPCompatibleOPMInformation**](getcoppcompatibleopminformation.md)
 -   [**GetOPMInformation**](getopminformation.md)
 -   [**GetOPMRandomNumber**](getopmrandomnumber.md)

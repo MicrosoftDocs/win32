@@ -1,7 +1,12 @@
 ---
-Description: 'The WDM (Windows Driver Model) provider grants access to the classes, instances, methods, and events of hardware drivers that conform to the WDM model.'
-ms.assetid: '2f9749ff-b318-4228-80fd-e3846dde21d2'
+Description: The WDM (Windows Driver Model) provider grants access to the classes, instances, methods, and events of hardware drivers that conform to the WDM model.
+ms.assetid: 2f9749ff-b318-4228-80fd-e3846dde21d2
 title: WDM Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WDM Provider

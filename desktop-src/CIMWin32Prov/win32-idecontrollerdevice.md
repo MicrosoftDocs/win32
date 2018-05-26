@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_IDEControllerDevice association WMI class relates an Integrated Drive Electronics (IDE) controller and the logical device connected to, for example, a disk drive.'
+Description: The Win32\_IDEControllerDevice association WMI class relates an Integrated Drive Electronics (IDE) controller and the logical device connected to, for example, a disk drive.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1b0a551c-d836-4147-91ed-a0a7d97f4a5b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1b0a551c-d836-4147-91ed-a0a7d97f4a5b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_IDEControllerDevice class'
+title: Win32\_IDEControllerDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_IDEControllerDevice class
@@ -24,13 +27,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{5BC42B62-C7A1-11d2-911D-0060081A46FD}"), AMENDMENT]
 class Win32_IDEControllerDevice : CIM_ControlledBy
 {
-  uint32                  NegotiatedDataWidth;
-  uint64                  NegotiatedSpeed;
-  uint16                  AccessState;
-  uint32                  NumberOfHardResets;
-  uint32                  NumberOfSoftResets;
+  uint32                  NegotiatedDataWidth;
+  uint64                  NegotiatedSpeed;
+  uint16                  AccessState;
+  uint32                  NumberOfHardResets;
+  uint32                  NumberOfSoftResets;
   Win32_IDEController REF Antecedent;
-  CIM_LogicalDevice   REF Dependent;
+  CIM_LogicalDevice   REF Dependent;
 };
 ```
 
@@ -194,8 +197,8 @@ The **Win32\_IDEControllerDevice** class is derived from [**CIM\_ControlledBy**]
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -212,9 +215,9 @@ The **Win32\_IDEControllerDevice** class is derived from [**CIM\_ControlledBy**]
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

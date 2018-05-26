@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetTraceLoggerHandle function retrieves the handle of the event tracing session. Providers can only call this function from their ControlCallback function.'
-ms.assetid: '050d3a01-0087-40f1-af35-b9ceeaf47813'
+---
+Description: The GetTraceLoggerHandle function retrieves the handle of the event tracing session. Providers can only call this function from their ControlCallback function.
+ms.assetid: 050d3a01-0087-40f1-af35-b9ceeaf47813
 title: GetTraceLoggerHandle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetTraceLoggerHandle function

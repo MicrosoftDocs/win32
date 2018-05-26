@@ -1,7 +1,12 @@
-﻿---
-Description: 'Stops a named service.'
-ms.assetid: 'f4cd0e2c-4ecc-4e9f-a0b5-d2a8a739f0e2'
-title: 'IShellDispatch2.ServiceStop method'
+---
+Description: Stops a named service.
+ms.assetid: f4cd0e2c-4ecc-4e9f-a0b5-d2a8a739f0e2
+title: IShellDispatch2.ServiceStop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch2.ServiceStop method

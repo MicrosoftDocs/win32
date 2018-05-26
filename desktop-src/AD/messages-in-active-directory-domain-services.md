@@ -4,16 +4,20 @@ description: Messages in Active Directory Domain Services are functional in Wind
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '32a4724b-3182-4521-975c-cef33afee0b2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 32a4724b-3182-4521-975c-cef33afee0b2
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Messages AD"]
+keywords:
+- Active Directory Messages AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Messages in Active Directory Domain Services
 
-Messages in Active Directory Domain Services are functional in Windows 2000 and Windows NT 4.0 with Service Pack 6a (SP6a) and later with DSClient. They are also functional in Windows 98/95 workstations with IE4.01 and later and DSClient. However, if multiselect property pages are launched from the shell, then the [**WM\_ADSPROP\_NOTIFY\_ERROR**](wm-adsprop-notify-error.md) message and its corresponding helper functions, [**ADsPropSendErrorMessage**](adspropsenderrormessage.md) and [**ADsPropShowErrorDialog**](adspropshowerrordialog.md) are not functional and will not be displayed. If multiselect property pages are launched within an admin tool, for example, AD Users and Computers, then all messages are functional and available to be displayed within the multiselect property pages.
+Messages in Active Directory Domain Services are functional in Windows 2000 and Windows NT 4.0 with Service Pack 6a (SP6a) and later with DSClient. They are also functional in Windows 98/95 workstations with IE4.01 and later and DSClient. However, if multiselect property pages are launched from the shell, then the [**WM\_ADSPROP\_NOTIFY\_ERROR**](wm-adsprop-notify-error.md) message and its corresponding helper functions, [**ADsPropSendErrorMessage**](/windows/win32/Adsprop/nf-adsprop-adspropsenderrormessage?branch=master) and [**ADsPropShowErrorDialog**](/windows/win32/Adsprop/nf-adsprop-adspropshowerrordialog?branch=master) are not functional and will not be displayed. If multiselect property pages are launched within an admin tool, for example, AD Users and Computers, then all messages are functional and available to be displayed within the multiselect property pages.
 
 Active Directory Domain Services use the following messages:
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The LoggingOptions property creates a FaxLoggingOptions configuration object. The object permits configuration of both the activity logging options and the event logging categories that the fax service uses.'
-ms.assetid: '51abefd8-e8b2-42f8-a4dc-f2aa8ffc9ef6'
-title: 'FaxServer.LoggingOptions property'
+---
+Description: The LoggingOptions property creates a FaxLoggingOptions configuration object. The object permits configuration of both the activity logging options and the event logging categories that the fax service uses.
+ms.assetid: 51abefd8-e8b2-42f8-a4dc-f2aa8ffc9ef6
+title: FaxServer.LoggingOptions property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.LoggingOptions property
@@ -46,7 +51,7 @@ A [**FaxLoggingOptions**](-mfax-faxloggingoptions.md) object.
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

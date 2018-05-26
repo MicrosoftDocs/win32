@@ -1,14 +1,20 @@
 ---
 title: Properties (Child of NavigationButton) element
 description: Specifies the properties of the navigation button.
-ms.assetid: '655edb05-ee5d-4a87-bd27-9aa8c868b9d6'
-keywords: ["Properties (Child of NavigationButton) element Windows Movie Maker and DVD Maker"]
+ms.assetid: 655edb05-ee5d-4a87-bd27-9aa8c868b9d6
+keywords:
+- Properties (Child of NavigationButton) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Properties
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties (Child of NavigationButton) element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -72,9 +78,9 @@ There are no child elements.
 [**Properties Element (Parent of Color)**](properties--parent-of-color.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

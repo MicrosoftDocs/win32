@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a string that describes the status code.'
-ms.assetid: 'd3007f3e-46e1-4ab6-8ce3-c4e38f87ce61'
-title: 'IWiaErrorHandler::GetStatusDescription method'
+---
+Description: Returns a string that describes the status code.
+ms.assetid: d3007f3e-46e1-4ab6-8ce3-c4e38f87ce61
+title: IWiaErrorHandlerGetStatusDescription method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaErrorHandler::GetStatusDescription method
@@ -32,7 +37,7 @@ HRESULT GetStatusDescription(
 
 Type: **[IUnknown](com.iunknown)\***
 
-Pointer to the [IUnknown](com.iunknown) of the item being transferred. This object minimally implements [**IWiaItem2**](-wia-iwiaitem2.md) and [**IWiaDataTransfer**](-wia-iwiadatatransfer.md).
+Pointer to the [IUnknown](com.iunknown) of the item being transferred. This object minimally implements [**IWiaItem2**](-wia-iwiaitem2.md) and [**IWiaDataTransfer**](/windows/win32/wia_xp/nn-wia_xp-iwiadatatransfer?branch=master).
 
 </dd> <dt>
 
@@ -41,7 +46,7 @@ Pointer to the [IUnknown](com.iunknown) of the item being transferred. This obje
 
 Type: **HRESULT**
 
-**HRESULT** that is the status code received by [**BandedDataCallback**](-wia-iwiadatacallback-bandeddatacallback.md).
+**HRESULT** that is the status code received by [**BandedDataCallback**](/windows/win32/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback?branch=master).
 
 </dd> <dt>
 
@@ -59,7 +64,7 @@ Type: **LONG**
 
 Type: **BYTE\***
 
-Pointer to the data buffer as received by [**BandedDataCallback**](-wia-iwiadatacallback-bandeddatacallback.md).
+Pointer to the data buffer as received by [**BandedDataCallback**](/windows/win32/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback?branch=master).
 
 </dd> <dt>
 

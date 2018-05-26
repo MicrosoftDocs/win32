@@ -4,11 +4,17 @@ description: A user object has multiple attributes. This section documents key a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c173c5d1-2680-4b9c-961d-251fba6e2c7c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c173c5d1-2680-4b9c-961d-251fba6e2c7c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["User Object Attributes AD", "Users AD , User Object Attributes", "Objects AD , User, Attributes"]
+keywords:
+- User Object Attributes AD
+- Users AD , User Object Attributes
+- Objects AD , User, Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # User Object Attributes

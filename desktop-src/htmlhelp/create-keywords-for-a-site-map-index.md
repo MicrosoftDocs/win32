@@ -1,7 +1,12 @@
 ---
 title: Create Keywords for a Site Map Index
 description: A site map index is automatically generated whenever you create an index (.hhk) file and do not compile it. You create keywords by adding them to the index file.
-ms.assetid: 'D551791D-AA8D-43d8-BA97-917A7657635B'
+ms.assetid: D551791D-AA8D-43d8-BA97-917A7657635B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create Keywords for a Site Map Index

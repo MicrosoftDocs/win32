@@ -1,7 +1,12 @@
 ---
 title: Network-Driven QOS Components
 description: Network-driven QOS components include 802.1p, Differentiated Services, L2 Signaling, Subnet Bandwidth Manager, and Resource Reservation Protocol (RSVP).
-ms.assetid: '7baa7600-5216-4596-b82c-c780f14a8f5c'
+ms.assetid: 7baa7600-5216-4596-b82c-c780f14a8f5c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network-Driven QOS Components

@@ -4,11 +4,16 @@ description: When a connection to a server is made, the connection handle is cac
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '927afd35-8703-4234-b6a8-6320a3667532'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 927afd35-8703-4234-b6a8-6320a3667532
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["connection caching ADSI", "connection caching"]
+keywords:
+- connection caching ADSI
+- connection caching
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Connection Caching

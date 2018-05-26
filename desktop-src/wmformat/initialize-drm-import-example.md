@@ -1,8 +1,33 @@
 ---
 title: Initialize DRM Import Example
 description: Initialize DRM Import Example
-ms.assetid: '46a64305-9aac-47df-992d-6aea8ecb54bf'
-keywords: ["Windows Media Format SDK,DRM import", "Windows Media Format SDK,import", "Windows Media Format SDK,example code", "Windows Media Format SDK,code examples", "digital rights management (DRM),import", "DRM (digital rights management),import", "digital rights management (DRM),initialize import", "DRM (digital rights management),initialize import", "digital rights management (DRM),example code", "DRM (digital rights management),example code", "digital rights management (DRM),code examples", "DRM (digital rights management),code examples", "DRM Client Extended APIs,initialize import", "Client Extended APIs,initialize import", "DRM Client Extended APIs,import", "Client Extended APIs,import", "DRM Client Extended APIs,example code", "Client Extended APIs,example code", "DRM Client Extended APIs,code examples", "Client Extended APIs,code examples"]
+ms.assetid: 46a64305-9aac-47df-992d-6aea8ecb54bf
+keywords:
+- Windows Media Format SDK,DRM import
+- Windows Media Format SDK,import
+- Windows Media Format SDK,example code
+- Windows Media Format SDK,code examples
+- digital rights management (DRM),import
+- DRM (digital rights management),import
+- digital rights management (DRM),initialize import
+- DRM (digital rights management),initialize import
+- digital rights management (DRM),example code
+- DRM (digital rights management),example code
+- digital rights management (DRM),code examples
+- DRM (digital rights management),code examples
+- DRM Client Extended APIs,initialize import
+- Client Extended APIs,initialize import
+- DRM Client Extended APIs,import
+- Client Extended APIs,import
+- DRM Client Extended APIs,example code
+- Client Extended APIs,example code
+- DRM Client Extended APIs,code examples
+- Client Extended APIs,code examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Initialize DRM Import Example

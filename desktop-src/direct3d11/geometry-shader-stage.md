@@ -1,7 +1,12 @@
 ---
 title: Geometry Shader Stage
 description: The geometry-shader (GS) stage runs application-specified shader code with vertices as input and the ability to generate vertices on output.
-ms.assetid: 'F3208862-980E-403F-9154-13B34A882787'
+ms.assetid: F3208862-980E-403F-9154-13B34A882787
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Geometry Shader Stage

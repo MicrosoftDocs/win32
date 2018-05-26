@@ -1,14 +1,20 @@
 ---
 title: namedValues Complex Type
 description: Defines a name-value pair in which the name is associated with the value.
-ms.assetid: '07c512fd-3eab-4238-8d75-83827a958a1e'
-keywords: ["namedValues complex type Task Scheduler"]
+ms.assetid: 07c512fd-3eab-4238-8d75-83827a958a1e
+keywords:
+- namedValues complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - namedValues
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # namedValues Complex Type
@@ -43,14 +49,14 @@ Defines a name-value pair in which the name is associated with the value.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

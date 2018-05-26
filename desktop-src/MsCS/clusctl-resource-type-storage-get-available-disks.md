@@ -4,11 +4,12 @@ description: Retrieves information about storage class devices supported by a re
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2df1eeb4-ecad-4065-866c-545476a43d9b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2df1eeb4-ecad-4065-866c-545476a43d9b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_TYPE\_STORAGE\_GET\_AVAILABLE\_DISKS control code
 
-Retrieves information about storage class devices supported by a [resource type](resource-types.md). Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](resourcetypecontrol.md) callback function.
+Retrieves information about storage class devices supported by a [resource type](resource-types.md). Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) callback function.
 
 
 ```C++
@@ -40,7 +44,7 @@ ClusterResourceTypeControl( hCluster,                  // cluster handle
 
 ## Parameters
 
-The following control code function and DLL support parameter is specific to this control code. For complete parameter descriptions, see [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) or [**ResourceTypeControl**](resourcetypecontrol.md).
+The following control code function and DLL support parameter is specific to this control code. For complete parameter descriptions, see [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) or [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master).
 
 <dl> <dt>
 
@@ -57,7 +61,7 @@ On a successful return, points to a value list describing all available storage 
 
 ## Return value
 
-[**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) returns one of the following values.
+[**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -86,7 +90,7 @@ If any other value is returned, then the operation failed. The value of *lpcbByt
 
 </dd> </dl>
 
-Implementations of [**ResourceTypeControl**](resourcetypecontrol.md) can return the above values or the following value:
+Implementations of [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) can return the above values or the following value:
 
 <dl> <dt>
 
@@ -109,17 +113,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_TYPE\_STORAGE\_GET\_AVAILABL
 
 | Component                 | Bit location     | Value                                             |
 |---------------------------|------------------|---------------------------------------------------|
-| Object code<br/>    | 24–31<br/> | **CLUS\_OBJECT\_RESOURCE\_TYPE** (0x2)<br/> |
+| Object code<br/>    | 24 31<br/> | **CLUS\_OBJECT\_RESOURCE\_TYPE** (0x2)<br/> |
 | Global bit<br/>     | 23<br/>    | **CLUS\_NOT\_GLOBAL** (0x0)<br/>            |
 | Modify bit<br/>     | 22<br/>    | **CLUS\_NO\_MODIFY** (0x0)<br/>             |
 | User bit<br/>       | 21<br/>    | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>         |
 | Type bit<br/>       | 20<br/>    | External (0x0)<br/>                         |
-| Operation code<br/> | 0–23<br/>  | CLCTL\_GET\_AVAILABLE\_DISKS<br/>           |
-| Access code<br/>    | 0–1<br/>   | **CLUS\_ACCESS\_READ** (0x1)<br/>           |
+| Operation code<br/> | 0 23<br/>  | CLCTL\_GET\_AVAILABLE\_DISKS<br/>           |
+| Access code<br/>    | 0 1<br/>   | **CLUS\_ACCESS\_READ** (0x1)<br/>           |
 
 
 
- 
+ 
 
 For more information, see [Control Code Architecture](control-code-architecture.md).
 
@@ -136,7 +140,7 @@ Otherwise, return **ERROR\_INVALID\_FUNCTION**.
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -148,10 +152,10 @@ Otherwise, return **ERROR\_INVALID\_FUNCTION**.
 [External Resource Control Codes](external-resource-control-codes.md)
 </dt> <dt>
 
-[**ClusterResourceTypeControl**](clusterresourcetypecontrol.md)
+[**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master)
 </dt> <dt>
 
-[**ResourceTypeControl**](resourcetypecontrol.md)
+[**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master)
 </dt> <dt>
 
 [CLUSCTL\_RESOURCE\_STORAGE\_GET\_DISK\_INFO](clusctl-resource-storage-get-disk-info.md)
@@ -160,9 +164,9 @@ Otherwise, return **ERROR\_INVALID\_FUNCTION**.
 [CLUSCTL\_RESOURCE\_TYPE\_STORAGE\_GET\_AVAILABLE\_DISKS\_EX](clusctl-resource-type-storage-get-available-disks-ex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

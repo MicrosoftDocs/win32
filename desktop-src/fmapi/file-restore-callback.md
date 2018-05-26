@@ -1,14 +1,20 @@
 ---
 title: FILE\_RESTORE\_CALLBACK function pointer
 description: Describes a callback function that is used to report the progress status or finished status of the file restoration process.
-ms.assetid: '01bf0208-f69b-498e-b76c-170f4917fb17'
-keywords: ["FILE_RESTORE_CALLBACK function pointer Files"]
+ms.assetid: 01bf0208-f69b-498e-b76c-170f4917fb17
+keywords:
+- FILE_RESTORE_CALLBACK function pointer Files
 topic_type:
 - apiref
 api_name:
 - FILE_RESTORE_CALLBACK
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FILE\_RESTORE\_CALLBACK function pointer
@@ -16,18 +22,18 @@ api_type:
 The **FILE\_RESTORE\_CALLBACK** function describes a callback function that is used to report the progress status or finished status of the file restoration process.
 
 > [!Note]  
-> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
+> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 typedef BOOLEAN ( *FILE_RESTORE_CALLBACK)(
-  _In_ FILE_RESTORE_PACKET_TYPE PacketType,
-  _In_ ULONG                    PacketLength,
-  _In_ PVOID                    PacketData
+  _In_ FILE_RESTORE_PACKET_TYPE PacketType,
+  _In_ ULONG                    PacketLength,
+  _In_ PVOID                    PacketData
 );
 ```
 
@@ -72,8 +78,8 @@ Note that there is no associated header file for this callback function.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -84,9 +90,9 @@ Note that there is no associated header file for this callback function.
 [**RestoreFile**](restorefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

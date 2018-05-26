@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a color value with alpha, which is used for transparency.'
-ms.assetid: '5F9DDDC1-644E-4DA2-8E3D-F157789809E7'
-title: 'DXGI\_RGBA structure'
+---
+Description: Represents a color value with alpha, which is used for transparency.
+ms.assetid: 5F9DDDC1-644E-4DA2-8E3D-F157789809E7
+title: DXGI\_RGBA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXGI\_RGBA structure
@@ -67,7 +72,7 @@ typedef D3DCOLORVALUE DXGI_RGBA;
 
 
 
-You can use **DXGI\_RGBA** with [**IDXGISwapChain1::SetBackgroundColor**](idxgiswapchain1-setbackgroundcolor.md), [**IDXGISwapChain1::GetBackgroundColor**](idxgiswapchain1-getbackgroundcolor.md), and [**DXGI\_ALPHA\_MODE**](dxgi-alpha-mode.md).
+You can use **DXGI\_RGBA** with [**IDXGISwapChain1::SetBackgroundColor**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-setbackgroundcolor?branch=master), [**IDXGISwapChain1::GetBackgroundColor**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-getbackgroundcolor?branch=master), and [**DXGI\_ALPHA\_MODE**](/windows/win32/DXGI1_2/ne-dxgi1_2-dxgi_alpha_mode?branch=master).
 
 ## Requirements
 

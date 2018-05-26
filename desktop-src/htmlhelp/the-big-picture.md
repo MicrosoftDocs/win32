@@ -1,7 +1,12 @@
 ---
 title: The Big Picture
 description: The Big Picture
-ms.assetid: '12CB0D0F-767E-431e-BB42-D491D49FE4B2'
+ms.assetid: 12CB0D0F-767E-431e-BB42-D491D49FE4B2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Big Picture

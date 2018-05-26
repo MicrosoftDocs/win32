@@ -1,7 +1,12 @@
 ---
-Description: 'The property proxy for the System.Photo.FlashEnergy photo metadata policy.'
-ms.assetid: 'edcd9757-19a6-4398-8600-06ffc72559e9'
-title: 'System.Photo.FlashEnergy Proxy'
+Description: The property proxy for the System.Photo.FlashEnergy photo metadata policy.
+ms.assetid: edcd9757-19a6-4398-8600-06ffc72559e9
+title: System.Photo.FlashEnergy Proxy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.FlashEnergy Proxy

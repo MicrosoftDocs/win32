@@ -1,22 +1,27 @@
 ---
-Description: 'The CMediaSample class defines a media sample that supports the IMediaSample2 interface. The media sample contains a pointer to a memory buffer, and various properties stored as protected member variables.'
-ms.assetid: '1e609c7c-3200-4540-904e-7659976df0da'
+Description: The CMediaSample class defines a media sample that supports the IMediaSample2 interface. The media sample contains a pointer to a memory buffer, and various properties stored as protected member variables.
+ms.assetid: 1e609c7c-3200-4540-904e-7659976df0da
 title: CMediaSample class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample class
 
 ![cmediasample class hierarchy](images/wutil03.png)
 
-The `CMediaSample` class defines a media sample that supports the [**IMediaSample2**](imediasample2.md) interface. The media sample contains a pointer to a memory buffer, and various properties stored as protected member variables.
+The `CMediaSample` class defines a media sample that supports the [**IMediaSample2**](/windows/win32/Strmif/nn-strmif-imediasample2?branch=master) interface. The media sample contains a pointer to a memory buffer, and various properties stored as protected member variables.
 
-Media samples are created by allocators, which are derived from the [**CBaseAllocator**](cbaseallocator.md) class. The `CMediaSample` constructor receives a pointer to an allocated buffer, along with the size of the buffer. Other properties are typically set and retrieved through [**IMediaSample**](imediasample.md) interface methods.
+Media samples are created by allocators, which are derived from the [**CBaseAllocator**](cbaseallocator.md) class. The `CMediaSample` constructor receives a pointer to an allocated buffer, along with the size of the buffer. Other properties are typically set and retrieved through [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface methods.
 
 The life cycle of a media sample differs from that of most COM objects:
 
--   The allocator holds a list of free samples. When a filter needs a new sample, it calls the allocator's [**IMemAllocator::GetBuffer**](imemallocator-getbuffer.md) method. The allocator retrieves a sample from its free list, increments the sample's reference count, and returns a pointer to the sample.
--   After the filter is done with the sample, it calls the **IUnknown::Release** method on the sample. Unlike most objects, the sample does not delete itself when its reference count reaches zero. Instead, it calls the [**IMemAllocator::ReleaseBuffer**](imemallocator-releasebuffer.md) method on the allocator, and the allocator returns the sample to its free list.
--   The allocator does not destroy samples until the [**IMemAllocator::Decommit**](imemallocator-decommit.md) method is called.
+-   The allocator holds a list of free samples. When a filter needs a new sample, it calls the allocator's [**IMemAllocator::GetBuffer**](/windows/win32/Strmif/nf-strmif-imemallocator-getbuffer?branch=master) method. The allocator retrieves a sample from its free list, increments the sample's reference count, and returns a pointer to the sample.
+-   After the filter is done with the sample, it calls the **IUnknown::Release** method on the sample. Unlike most objects, the sample does not delete itself when its reference count reaches zero. Instead, it calls the [**IMemAllocator::ReleaseBuffer**](/windows/win32/Strmif/nf-strmif-imemallocator-releasebuffer?branch=master) method on the allocator, and the allocator returns the sample to its free list.
+-   The allocator does not destroy samples until the [**IMemAllocator::Decommit**](/windows/win32/Strmif/nf-strmif-imemallocator-decommit?branch=master) method is called.
 
 
 
@@ -64,7 +69,7 @@ The life cycle of a media sample differs from that of most COM objects:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -77,9 +82,9 @@ The life cycle of a media sample differs from that of most COM objects:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

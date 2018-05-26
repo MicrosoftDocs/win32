@@ -1,7 +1,12 @@
 ---
-Description: 'The Path data type is a text string containing a valid full path.'
-ms.assetid: 'fe8a4d2a-1960-40af-a0e4-4d65accdd388'
+Description: The Path data type is a text string containing a valid full path.
+ms.assetid: fe8a4d2a-1960-40af-a0e4-4d65accdd388
 title: Path
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Path

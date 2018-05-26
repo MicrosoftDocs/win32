@@ -1,8 +1,10 @@
 ---
 title: MPVERSION\_INFO structure
-description: Version information for the malware protection manager's components.
-ms.assetid: 'C18EE6FE-57E1-4814-85CA-19C3ACE275D2'
-keywords: ["MPVERSION_INFO structure Legacy Windows Environment Features", "PMPVERSION_INFO structure pointer Legacy Windows Environment Features"]
+description: Version information for the malware protection managers components.
+ms.assetid: C18EE6FE-57E1-4814-85CA-19C3ACE275D2
+keywords:
+- MPVERSION_INFO structure Legacy Windows Environment Features
+- PMPVERSION_INFO structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPVERSION\_INFO structure
@@ -145,8 +152,8 @@ Reserved fields.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -158,9 +165,9 @@ Reserved fields.
 [**MPCOMPONENT\_VERSION**](mpcomponent-version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

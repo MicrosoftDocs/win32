@@ -1,7 +1,12 @@
 ---
 title: TabOrderInQuestion
 description: TabOrderInQuestion
-ms.assetid: '0F586BF3-C373-4B0D-A118-A504D5972AA5'
+ms.assetid: 0F586BF3-C373-4B0D-A118-A504D5972AA5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TabOrderInQuestion

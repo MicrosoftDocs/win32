@@ -1,8 +1,9 @@
 ---
 title: MCI\_LOAD command
 description: The MCI\_LOAD command loads a file. Digital-video and video-overlay devices recognize this command.
-ms.assetid: '0f48afa0-e845-4de5-8433-15bbf4eae683'
-keywords: ["MCI_LOAD command Windows Multimedia"]
+ms.assetid: 0f48afa0-e845-4de5-8433-15bbf4eae683
+keywords:
+- MCI_LOAD command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_LOAD command
 
 The MCI\_LOAD command loads a file. Digital-video and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -52,7 +58,7 @@ MCI\_NOTIFY, MCI\_WAIT, or, for digital-video devices, MCI\_TEST. For informatio
 <span id="lpLoad"></span><span id="lpload"></span><span id="LPLOAD"></span>*lpLoad*
 </dt> <dd>
 
-Pointer to an [**MCI\_LOAD\_PARMS**](mci-load-parms.md) structure. (Devices with additional parameters might replace this structure with a device-specific structure. For digital-video devices, the **lpLoad** parameter points to an [**MCI\_DGV\_LOAD\_PARMS**](mci-dgv-load-parms.md) structure.)
+Pointer to an [**MCI\_LOAD\_PARMS**](mci-load-parms.md) structure. (Devices with additional parameters might replace this structure with a device-specific structure. For digital-video devices, the **lpLoad** parameter points to an [**MCI\_DGV\_LOAD\_PARMS**](/windows/win32/Digitalv/?branch=master) structure.)
 
 </dd> </dl>
 
@@ -92,8 +98,8 @@ For video-overlay devices, the *lpLoad* parameter points to an [**MCI\_OVLY\_LOA
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -108,9 +114,9 @@ For video-overlay devices, the *lpLoad* parameter points to an [**MCI\_OVLY\_LOA
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

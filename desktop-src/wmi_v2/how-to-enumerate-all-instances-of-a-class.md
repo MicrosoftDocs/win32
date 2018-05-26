@@ -4,10 +4,13 @@ description: This topic provides step-by-step instructions for enumerating the i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '08197FE4-E7A9-4AE6-890E-55AEBBF047BC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 08197FE4-E7A9-4AE6-890E-55AEBBF047BC
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Enumerate All Instances of a Class (C#)

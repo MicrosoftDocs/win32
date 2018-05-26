@@ -2,13 +2,15 @@
 title: DnsServer class
 description: Represents a DNS Server configuration.
 audience: developer
-ms.assetid: 'f1004904-0e11-477b-838d-38e86194ddee'
-ms.prod: 'windows-server-dev'
+ms.assetid: f1004904-0e11-477b-838d-38e86194ddee
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServer class", "DnsServer class, described"]
+keywords:
+- DnsServer class
+- DnsServer class, described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServer class
@@ -44,9 +49,9 @@ api_type:
 Represents a DNS Server configuration.
 
 > [!Note]  
-> The DNS server must be running Windows Server 2008 R2 or above.
+> The DNS server must be running Windows Server 2008 R2 or above.
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -56,26 +61,26 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServer
 {
-  DnsServerSetting                           ServerSetting;
-  DnsServerDsSetting                         ServerDsSetting;
-  DnsServerScavenging                        ServerScavenging;
-  DnsServerRecursion                         ServerRecursion;
-  DnsServerDiagnostics                       ServerDiagnostics;
-  DnsServerGlobalNameZone                    ServerGlobalNameZone;
-  DnsServerCache                             ServerCache;
-  DnsServerGlobalQueryBlockList              ServerGlobalQueryBlockList;
-  DnsServerEdns                              ServerEdns;
-  DnsServerForwarder                         ServerForwarder;
-  DnsServerRootHint                          ServerRootHint[];
-  DnsServerZone                              ServerZone[];
-  DnsZoneScope                               ServerZoneScope[];
-  DnsServerRecursionScope                    ServerRecursionScopes[];
-  DnsServerClientSubnet                      ServerClientSubnets[];
-  DnsServerZoneAging                         ServerZoneAging[];
-  DnsServerPolicy                            ServerPolicies[];
-  DnsServerResponseRateLimiting              ServerResponseRateLimiting;
+  DnsServerSetting                           ServerSetting;
+  DnsServerDsSetting                         ServerDsSetting;
+  DnsServerScavenging                        ServerScavenging;
+  DnsServerRecursion                         ServerRecursion;
+  DnsServerDiagnostics                       ServerDiagnostics;
+  DnsServerGlobalNameZone                    ServerGlobalNameZone;
+  DnsServerCache                             ServerCache;
+  DnsServerGlobalQueryBlockList              ServerGlobalQueryBlockList;
+  DnsServerEdns                              ServerEdns;
+  DnsServerForwarder                         ServerForwarder;
+  DnsServerRootHint                          ServerRootHint[];
+  DnsServerZone                              ServerZone[];
+  DnsZoneScope                               ServerZoneScope[];
+  DnsServerRecursionScope                    ServerRecursionScopes[];
+  DnsServerClientSubnet                      ServerClientSubnets[];
+  DnsServerZoneAging                         ServerZoneAging[];
+  DnsServerPolicy                            ServerPolicies[];
+  DnsServerResponseRateLimiting              ServerResponseRateLimiting;
   DnsServerResponseRateLimitingExceptionlist ServerResponseRateLimitingExceptionlists[];
-  DnsVirtualizedServer                       VirtualizedServer[];
+  DnsVirtualizedServer                       VirtualizedServer[];
 };
 ```
 
@@ -121,7 +126,7 @@ Qualifiers: [**EmbeddedInstance**](https://msdn.microsoft.com/library/aa393650) 
 
 An array of [**DnsServerClientSubnet**](dnsserverclientsubnet.md) that contains the server/client subnet settings.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -235,7 +240,7 @@ Qualifiers: [**EmbeddedInstance**](https://msdn.microsoft.com/library/aa393650) 
 
 An array of [**DnsServerPolicy**](dnsserverpolicy.md) containing the server policy settings.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -269,7 +274,7 @@ Qualifiers: [**EmbeddedInstance**](https://msdn.microsoft.com/library/aa393650) 
 
 An array of [**DnsServerRecursionScope**](dnsserverrecursionscope.md) that contains the server recursion scope.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -287,7 +292,7 @@ Qualifiers: [**EmbeddedInstance**](https://msdn.microsoft.com/library/aa393650) 
 
 A [**DnsServerResponseRateLimiting**](dnsserverresponseratelimiting.md) containing the DNS Server Response Rate Limiting.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -305,7 +310,7 @@ Qualifiers: [**EmbeddedInstance**](https://msdn.microsoft.com/library/aa393650) 
 
 A [**DnsServerResponseRateLimitingExceptionlist**](dnsserverresponseratelimitingexceptionlist.md) containing the DNS Server Response Rate Limiting Exception lists.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -403,7 +408,7 @@ Qualifiers: [**EmbeddedInstance**](https://msdn.microsoft.com/library/aa393650) 
 
 An array of [**DnsZoneScope**](dnszonescope.md) that contains the scope of each DNS zone of the DNS server.
 
-**Windows Server 2012:** This property is not supported before Windows Server 2012 R2.
+**Windows Server 2012:** This property is not supported before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -421,7 +426,7 @@ Qualifiers: [**EmbeddedInstance**](https://msdn.microsoft.com/library/aa393650) 
 
 Virtualized DNS server configuration object.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 </dd> </dl>
 
@@ -432,7 +437,7 @@ Virtualized DNS server configuration object.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -446,9 +451,9 @@ Virtualized DNS server configuration object.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: XTL Reference
-ms.assetid: 'a6fa5201-aec6-467b-a9a4-ca153f35b4af'
+ms.assetid: a6fa5201-aec6-467b-a9a4-ca153f35b4af
 title: XTL Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTL Reference

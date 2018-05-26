@@ -1,14 +1,20 @@
 ---
 title: ContextPopup element
 description: Represents the Context Popup control in the ContextPopup View.
-ms.assetid: 'b955be16-803e-47b5-a72d-f993180fbf14'
-keywords: ["ContextPopup element Windows Ribbon"]
+ms.assetid: b955be16-803e-47b5-a72d-f993180fbf14
+keywords:
+- ContextPopup element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ContextPopup
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ContextPopup element
@@ -150,7 +156,7 @@ The following example demonstrates the basic markup for a **ContextPopup** View.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -162,9 +168,9 @@ The following example demonstrates the basic markup for a **ContextPopup** View.
 [Context Popup control](windowsribbon-controls-contextpopup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

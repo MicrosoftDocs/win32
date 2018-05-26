@@ -1,8 +1,11 @@
 ---
 title: SetIntegerElement method of the BcdObject class
 description: Sets the specified integer element.
-ms.assetid: '86cd8053-b3cc-4621-9c32-9542a75daf93'
-keywords: ["SetIntegerElement method Boot Config", "SetIntegerElement method Boot Config , BcdObject class", "BcdObject class Boot Config , SetIntegerElement method"]
+ms.assetid: 86cd8053-b3cc-4621-9c32-9542a75daf93
+keywords:
+- SetIntegerElement method Boot Config
+- SetIntegerElement method Boot Config , BcdObject class
+- BcdObject class Boot Config , SetIntegerElement method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetIntegerElement method of the BcdObject class
@@ -22,8 +30,8 @@ Sets the specified integer element.
 
 ```mof
 boolean SetIntegerElement(
-  [in] uint32 Type,
-  [in] uint64 Integer
+  [in] uint32 Type,
+  [in] uint64 Integer
 );
 ```
 
@@ -61,8 +69,8 @@ The element value.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -78,9 +86,9 @@ The element value.
 [**BcdObject**](bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

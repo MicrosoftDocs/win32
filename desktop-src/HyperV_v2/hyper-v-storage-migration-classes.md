@@ -1,7 +1,12 @@
 ---
-Description: 'The Hyper-V migration API defines the following programming elements.'
-ms.assetid: 'E1FE7351-2F14-4C8F-AF5C-9009CC61CE22'
-title: 'Hyper-V migration API reference'
+Description: The Hyper-V migration API defines the following programming elements.
+ms.assetid: E1FE7351-2F14-4C8F-AF5C-9009CC61CE22
+title: Hyper-V migration API reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hyper-V migration API reference
@@ -24,11 +29,11 @@ The Hyper-V migration API defines the following programming elements.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

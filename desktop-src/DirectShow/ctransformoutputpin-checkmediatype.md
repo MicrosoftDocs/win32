@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckMediaType method determines if the pin accepts a specific media type.'
-ms.assetid: '9e31480b-129c-4741-846a-854c70c65606'
-title: 'CTransformOutputPin.CheckMediaType method'
+Description: The CheckMediaType method determines if the pin accepts a specific media type.
+ms.assetid: 9e31480b-129c-4741-846a-854c70c65606
+title: CTransformOutputPin.CheckMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformOutputPin.CheckMediaType method
@@ -13,7 +18,7 @@ The `CheckMediaType` method determines if the pin accepts a specific media type.
 
 ```C++
 HRESULT CheckMediaType(
-   const CMediaType *mtIn
+   const CMediaType *mtIn
 );
 ```
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,9 +65,9 @@ This method implements the pure virtual [**CBasePin::CheckMediaType**](cbasepin-
 
 
 
- 
+ 
 
- 
+ 
 
 
 

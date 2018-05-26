@@ -1,7 +1,12 @@
 ---
-Description: 'Allows the client to suggest where to position the auto complete list to avoid overlapping the Input Panel.'
-ms.assetid: 'c82ffecb-f3e6-4c50-80bb-8393b39d3b2a'
-title: 'ITipAutocompleteClient::PreferredRects method'
+Description: Allows the client to suggest where to position the auto complete list to avoid overlapping the Input Panel.
+ms.assetid: c82ffecb-f3e6-4c50-80bb-8393b39d3b2a
+title: ITipAutocompleteClientPreferredRects method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITipAutocompleteClient::PreferredRects method
@@ -13,10 +18,10 @@ Allows the client to suggest where to position the auto complete list to avoid o
 
 ```C++
 HRESULT PreferredRects(
-  [in]      RECT *prcACList,
-  [in]      RECT *prcField,
-  [out]     RECT *prcModified,
-  [in, out] BOOL *pfShownAboveTip
+  [in]      RECT *prcACList,
+  [in]      RECT *prcField,
+  [out]     RECT *prcModified,
+  [in, out] BOOL *pfShownAboveTip
 );
 ```
 
@@ -68,7 +73,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,7 +87,7 @@ Call the [**ITipAutocompleteClient::RequestShowUI Method**](itipautocompleteclie
 
 |                                     |                                                                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>TipAutoComplete.h (also requires Peninputpanel\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |
@@ -102,9 +107,9 @@ Call the [**ITipAutocompleteClient::RequestShowUI Method**](itipautocompleteclie
 [Text Input Panel Reference](text-input-panel-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

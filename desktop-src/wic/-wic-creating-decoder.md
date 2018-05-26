@@ -1,7 +1,12 @@
 ---
-Description: 'The topic introduces the bitmap decoder, a core Windows Imaging Component (WIC) codec component used to decode image files from a stream.'
-ms.assetid: '9dc8d2ec-5cc5-45fa-8a4d-5bdc3072c90c'
+Description: The topic introduces the bitmap decoder, a core Windows Imaging Component (WIC) codec component used to decode image files from a stream.
+ms.assetid: 9dc8d2ec-5cc5-45fa-8a4d-5bdc3072c90c
 title: Decoding Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Decoding Overview
@@ -20,11 +25,11 @@ This topic contains the following sections.
 
 Bitmap decoders can be viewed as the outer container of a digital image and provides access to global properties and image frames. Some image formats support global thumbnails, previews, color contexts, or metadata, while others provide these properties only at the frame level. Note, however, many of the standard image formats do not support these global properties. As such, many of the native codec implementations provided by WIC do not support the majority of these global properties. See the table in the Native Bitmap Decoders section of this topic for information about global property support.
 
-In WIC, bitmap decoders are represented by the [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) interface and provides access to these global properties of the bitmap and, more importantly, the frames it contains. The [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) interface represents an individual bitmap frame and is discussed in detail in the [Bitmap Sources Overview](-wic-bitmapsources.md).
+In WIC, bitmap decoders are represented by the [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) interface and provides access to these global properties of the bitmap and, more importantly, the frames it contains. The [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) interface represents an individual bitmap frame and is discussed in detail in the [Bitmap Sources Overview](-wic-bitmapsources.md).
 
 ## Native Bitmap Decoders
 
-WIC provides several native implementations of the [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) interface for the standard web image formats and the high dynamic range HD Photo format. The following table lists the available native decoders, class identifier name, and support for global properties. Though a feature may not support a property such as thumbnails at the global level, the image format may support such properties at the individual frame level.
+WIC provides several native implementations of the [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) interface for the standard web image formats and the high dynamic range HD Photo format. The following table lists the available native decoders, class identifier name, and support for global properties. Though a feature may not support a property such as thumbnails at the global level, the image format may support such properties at the individual frame level.
 
 
 
@@ -44,12 +49,12 @@ WIC provides several native implementations of the [**IWICBitmapDecoder**](-wic-
 
 ## Creating a Bitmap Decoder
 
-To decode an image using WIC, you first need to create an instance of the [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) for the targeted image format. The decoder instance enables you to access the global properties and metadata, if supported, as well as the image frames. The WIC imaging factory, [**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md), provides several methods for creating bitmap decoders. The following factory methods are provided to create bitmap decoders.
+To decode an image using WIC, you first need to create an instance of the [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) for the targeted image format. The decoder instance enables you to access the global properties and metadata, if supported, as well as the image frames. The WIC imaging factory, [**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master), provides several methods for creating bitmap decoders. The following factory methods are provided to create bitmap decoders.
 
--   [**CreateDecoder**](-wic-codec-iwicimagingfactory-createdecoder.md)
--   [**CreateDecoderFromFileHandle**](-wic-codec-iwicimagingfactory-createdecoderfromfilehandle.md)
--   [**CreateDecoderFromFilename**](-wic-codec-iwicimagingfactory-createdecoderfromfilename.md)
--   [**CreateDecoderFromStream**](-wic-codec-iwicimagingfactory-createdecoderfromstream.md)
+-   [**CreateDecoder**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoder?branch=master)
+-   [**CreateDecoderFromFileHandle**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilehandle?branch=master)
+-   [**CreateDecoderFromFilename**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename?branch=master)
+-   [**CreateDecoderFromStream**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream?branch=master)
 
 The following code demonstrates the how to create a bitmap decoder using an image filename and retrieve the first frame of the image.
 

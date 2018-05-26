@@ -1,7 +1,12 @@
-﻿---
-Description: 'Supplies the following operator overloads and type casts for D3DXQUATERNION structures.'
-ms.assetid: 'a49975a4-a9a7-4183-91b3-3d56f70747ef'
+---
+Description: Supplies the following operator overloads and type casts for D3DXQUATERNION structures.
+ms.assetid: a49975a4-a9a7-4183-91b3-3d56f70747ef
 title: D3DXQUATERNION Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQUATERNION Extensions

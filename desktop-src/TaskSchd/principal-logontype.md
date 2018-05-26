@@ -1,8 +1,11 @@
 ---
 title: Principal.LogonType property
 description: For scripting, gets or sets the security logon method that is required to run the tasks that are associated with the principal.
-ms.assetid: 'cf0a8ad4-f1bb-46a2-ae92-d00e08b8d459'
-keywords: ["LogonType property Task Scheduler", "LogonType property Task Scheduler , Principal object", "Principal object Task Scheduler , LogonType property"]
+ms.assetid: cf0a8ad4-f1bb-46a2-ae92-d00e08b8d459
+keywords:
+- LogonType property Task Scheduler
+- LogonType property Task Scheduler , Principal object
+- Principal object Task Scheduler , LogonType property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Principal.LogonType property
@@ -28,7 +36,7 @@ Principal.LogonType As Integer
 
 ## Property value
 
-Set to one of the following [**TASK\_LOGON TYPE**](task-logon-type.md) enumeration constants.
+Set to one of the following [**TASK\_LOGON TYPE**](/windows/win32/taskschd/ne-taskschd-_task_logon_type?branch=master) enumeration constants.
 
 
 
@@ -44,7 +52,7 @@ Set to one of the following [**TASK\_LOGON TYPE**](task-logon-type.md) enumerati
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,8 +68,8 @@ For a task, that contains a message box action, the message box will be displaye
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -77,9 +85,9 @@ For a task, that contains a message box action, the message box will be displaye
 [**Principal**](principal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

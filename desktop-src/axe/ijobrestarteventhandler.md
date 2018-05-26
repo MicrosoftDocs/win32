@@ -1,8 +1,10 @@
 ---
 title: IJobRestartEventHandler class
 description: The IJobRestartEventHandler interface enables a solution to receive notification from the AXE engine when a job is restarting the system.
-ms.assetid: '6C47CF87-B6D0-4A27-9790-2FEC471AF546'
-keywords: ["IJobRestartEventHandler class Access Execution Engine", "IJobRestartEventHandler class Access Execution Engine , described"]
+ms.assetid: 6C47CF87-B6D0-4A27-9790-2FEC471AF546
+keywords:
+- IJobRestartEventHandler class Access Execution Engine
+- IJobRestartEventHandler class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IJobRestartEventHandler class
@@ -37,7 +44,7 @@ The **IJobRestartEventHandler** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,8 +52,8 @@ The **IJobRestartEventHandler** class has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -59,9 +66,9 @@ The **IJobRestartEventHandler** class has these methods.
 [**Execution Solution Interfaces**](execution-solution-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

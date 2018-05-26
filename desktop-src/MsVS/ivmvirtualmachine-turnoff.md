@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine TurnOff method
 description: The TurnOff method turns off the virtual machine.
-ms.assetid: 'cfe35294-4e49-43c2-84a7-835182359a46'
-keywords: ["TurnOff method Virtual Server", "TurnOff method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , TurnOff method"]
+ms.assetid: cfe35294-4e49-43c2-84a7-835182359a46
+keywords:
+- TurnOff method Virtual Server
+- TurnOff method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , TurnOff method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::TurnOff method
@@ -22,7 +30,7 @@ The **TurnOff** method turns off the virtual machine.
 
 ```C++
 HRESULT TurnOff(
-  [out] IVMTask **turnOffTask
+  [out] IVMTask **turnOffTask
 );
 ```
 
@@ -55,7 +63,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,8 +75,8 @@ This method turns off the virtual machine in the same manner as turning the powe
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -80,9 +88,9 @@ This method turns off the virtual machine in the same manner as turning the powe
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

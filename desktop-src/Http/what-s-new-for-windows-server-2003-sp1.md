@@ -1,8 +1,14 @@
 ---
-title: What's New for Windows Server 2003 SP1
-description: What's New for Windows Server 2003 SP1
-ms.assetid: '5e71f0ca-f1b3-4763-871b-8c9b43619bed'
-keywords: ["What's New for Windows Server 2003 with Service Pack 1 (SP1)"]
+title: Whats New for Windows Server 2003 SP1
+description: Whats New for Windows Server 2003 SP1
+ms.assetid: 5e71f0ca-f1b3-4763-871b-8c9b43619bed
+keywords:
+- Whats New for Windows Server 2003 with Service Pack 1 (SP1)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New for Windows Server 2003 SP1

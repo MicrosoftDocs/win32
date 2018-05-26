@@ -1,14 +1,20 @@
 ---
 title: WM/VideoWidth
 description: The WM/VideoWidth attribute contains the width, in pixels, of a frame of video in a stream.
-ms.assetid: 'db7722a7-8ec1-4cc2-bc5b-2eac4212ab3b'
-keywords: ["WM/VideoWidth windows Media Format"]
+ms.assetid: db7722a7-8ec1-4cc2-bc5b-2eac4212ab3b
+keywords:
+- WM/VideoWidth windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/VideoWidth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/VideoWidth

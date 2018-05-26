@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Imaging Component (WIC) provides a Component Object Model (COM) based API for use in C and C++.'
-ms.assetid: '74b14b5e-70e9-410f-a6e6-d8873a5f4fa4'
+Description: The Windows Imaging Component (WIC) provides a Component Object Model (COM) based API for use in C and C++.
+ms.assetid: 74b14b5e-70e9-410f-a6e6-d8873a5f4fa4
 title: WIC API Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIC API Overview
@@ -67,8 +72,8 @@ The following table describes the two COM class factories the WIC APIs provide f
 
 | Factory Interface                                               | Description                                                                                                                                             |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md)     | Primary class factory for application development using WIC components. This factory creates components such as image decoders, encoders and streams.   |
-| [**IWICComponentFactory**](-wic-codec-iwiccomponentfactory.md) | Class factory targeted for WIC component developers. Components created from this factory are primarily used in codec and metadata handler development. |
+| [**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master)     | Primary class factory for application development using WIC components. This factory creates components such as image decoders, encoders and streams.   |
+| [**IWICComponentFactory**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwiccomponentfactory?branch=master) | Class factory targeted for WIC component developers. Components created from this factory are primarily used in codec and metadata handler development. |
 
 
 
@@ -103,13 +108,13 @@ The WIC APIs provide several types of imaging components. The following table de
 
 | Component Type                                                      | Description                                                                                                   |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [**Bitmap**](-wic-codec-iwicbitmap.md)                             | Represents a writable in-memory representation of an [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md). |
-| [**Decoder**](-wic-codec-iwicbitmapdecoder.md)                     | Used to decode image data from a stream into a format that is useful for image processing.                    |
-| [**Encoder**](-wic-codec-iwicbitmapencoder.md)                     | Writes image data to a stream.                                                                                |
-| [**Stream**](-wic-codec-iwicstream.md)                             | Used to read and write data from a file, network resource, a block of memory, and so on.                      |
-| [**Format Converter**](-wic-codec-iwicformatconverter.md)          | Used to convert from one pixel format to another.                                                             |
-| [**Metadata Query Reader**](-wic-codec-iwicmetadataqueryreader.md) | Used to read metadata of an image or image frame.                                                             |
-| [**Metadata Query Writer**](-wic-codec-iwicmetadataquerywriter.md) | Used to write metadata to an image or image frame.                                                            |
+| [**Bitmap**](/windows/win32/Wincodec/nn-wincodec-iwicbitmap?branch=master)                             | Represents a writable in-memory representation of an [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master). |
+| [**Decoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master)                     | Used to decode image data from a stream into a format that is useful for image processing.                    |
+| [**Encoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master)                     | Writes image data to a stream.                                                                                |
+| [**Stream**](/windows/win32/Wincodec/nn-wincodec-iwicstream?branch=master)                             | Used to read and write data from a file, network resource, a block of memory, and so on.                      |
+| [**Format Converter**](/windows/win32/Wincodec/nn-wincodec-iwicformatconverter?branch=master)          | Used to convert from one pixel format to another.                                                             |
+| [**Metadata Query Reader**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataqueryreader?branch=master) | Used to read metadata of an image or image frame.                                                             |
+| [**Metadata Query Writer**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataquerywriter?branch=master) | Used to write metadata to an image or image frame.                                                            |
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: WFP Version-Independent Names and Targeting Specific Versions of Windows
 description: In many cases, the Windows Filtering Platform (WFP) API provides more than one version of a function or structure.
-ms.assetid: 'FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670'
+ms.assetid: FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WFP Version-Independent Names and Targeting Specific Versions of Windows
@@ -30,13 +35,13 @@ For example, here is a brief excerpt from the version of fwpvi.h included in the
 
 
 
-As shown above, there is only one version of **FwpmNetEventCreateEnumHandle** – [**FwpmNetEventCreateEnumHandle0**](fwpmneteventcreateenumhandle0.md) – so any call to **FwpmNetEventCreateEnumHandle** will always call **FwpmNetEventCreateEnumHandle0**, regardless of the operating system targeted.
+As shown above, there is only one version of **FwpmNetEventCreateEnumHandle** – [**FwpmNetEventCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventcreateenumhandle0?branch=master) – so any call to **FwpmNetEventCreateEnumHandle** will always call **FwpmNetEventCreateEnumHandle0**, regardless of the operating system targeted.
 
-However, there are three versions of of **FwpmNetEventEnum**: [**FwpmNetEventEnum0**](fwpmneteventenum0.md), [**FwpmNetEventEnum1**](fwpmneteventenum1.md), and [**FwpmNetEventEnum2**](fwpmneteventenum2.md). The fwpvi.h header file ensures that a call to **FwpmNetEventEnum** will call the version most appropriate to the targeted operating system:
+However, there are three versions of of **FwpmNetEventEnum**: [**FwpmNetEventEnum0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventenum0?branch=master), [**FwpmNetEventEnum1**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventenum1?branch=master), and [**FwpmNetEventEnum2**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventenum2?branch=master). The fwpvi.h header file ensures that a call to **FwpmNetEventEnum** will call the version most appropriate to the targeted operating system:
 
--   [**FwpmNetEventEnum2**](fwpmneteventenum2.md) for Windows 8 (or later)
--   [**FwpmNetEventEnum1**](fwpmneteventenum1.md) for Windows 7 is targeted
--   [**FwpmNetEventEnum0**](fwpmneteventenum0.md) for earlier operating systems (such as Windows Vista or Windows Vista with Service Pack 1 (SP1))
+-   [**FwpmNetEventEnum2**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventenum2?branch=master) for Windows 8 (or later)
+-   [**FwpmNetEventEnum1**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventenum1?branch=master) for Windows 7 is targeted
+-   [**FwpmNetEventEnum0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmneteventenum0?branch=master) for earlier operating systems (such as Windows Vista or Windows Vista with Service Pack 1 (SP1))
 
 ## Calling Version-Independent Functions and Structures
 

@@ -1,8 +1,16 @@
 ---
 title: StreamingHttpServerExample
 description: This example shows an HTTP server that accepts a channel, and does request-reply processing in a streaming fashion.
-ms.assetid: 'c108a5b3-923c-439c-8d86-7003a76ff45d'
-keywords: ["StreamingHttpServerExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: c108a5b3-923c-439c-8d86-7003a76ff45d
+keywords:
+- StreamingHttpServerExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StreamingHttpServerExample

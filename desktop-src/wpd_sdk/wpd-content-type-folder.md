@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_FOLDER'
-ms.assetid: '88557fc8-feb5-417f-9278-f9cf8c3ac10c'
-title: 'WPD\_CONTENT\_TYPE\_FOLDER'
+Description: WPD\_CONTENT\_TYPE\_FOLDER
+ms.assetid: 88557fc8-feb5-417f-9278-f9cf8c3ac10c
+title: WPD\_CONTENT\_TYPE\_FOLDER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_FOLDER

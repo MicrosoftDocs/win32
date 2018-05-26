@@ -1,7 +1,12 @@
-﻿---
-Description: 'For a file, sets or gets the date and time that it was last modified. For a folder, retrieves the date and time that a folder was last modified, but cannot set it.'
-ms.assetid: 'bb60c800-863b-469b-b937-9816b8b338bf'
-title: 'FolderItem.ModifyDate property'
+---
+Description: For a file, sets or gets the date and time that it was last modified. For a folder, retrieves the date and time that a folder was last modified, but cannot set it.
+ms.assetid: bb60c800-863b-469b-b937-9816b8b338bf
+title: FolderItem.ModifyDate property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItem.ModifyDate property

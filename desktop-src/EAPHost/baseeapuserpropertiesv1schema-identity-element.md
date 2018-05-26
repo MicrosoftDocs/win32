@@ -1,14 +1,20 @@
 ---
 title: Identity Element
 description: Captures the identity used for authentication.
-ms.assetid: '464979f0-6a2b-43e7-a207-2fbd1e2e5f51'
-keywords: ["Identity element EAPHost"]
+ms.assetid: 464979f0-6a2b-43e7-a207-2fbd1e2e5f51
+keywords:
+- Identity element EAPHost
 topic_type:
 - apiref
 api_name:
 - Identity
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Identity Element
@@ -31,8 +37,8 @@ The **Identity** element is abstract; each method must define and use a derived 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -46,9 +52,9 @@ The **Identity** element is abstract; each method must define and use a derived 
 [baseeapuserpropertiesv1 Schema](baseeapuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

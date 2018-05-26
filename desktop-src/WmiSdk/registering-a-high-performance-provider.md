@@ -1,13 +1,16 @@
 ---
-Description: 'Like other instance providers, you register a high-performance provider with Microsoft Windows&\#160;Management Instrumentation (WMI) by creating an instance of the \_\_Win32Provider and \_\_InstanceProviderRegistration classes.'
+Description: Like other instance providers, you register a high-performance provider with Microsoft Windows&\#160;Management Instrumentation (WMI) by creating an instance of the \_\_Win32Provider and \_\_InstanceProviderRegistration classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6ff3f8c6-71ca-4589-bca7-b864e24a473d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6ff3f8c6-71ca-4589-bca7-b864e24a473d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Registering a High-Performance Provider'
+title: Registering a High-Performance Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering a High-Performance Provider
@@ -24,7 +27,7 @@ The following procedure describes how to register a high-performance instance pr
 
 2.  Create an instance of the [**\_\_InstanceProviderRegistration**](--instanceproviderregistration.md) class that describes the feature set of the provider.
 
-    Be sure to tag the class with both the [**Dynamic**](dynamic-qualifier.md) and [**Provider**](provider.md) qualifiers. The **Dynamic** qualifier signals that WMI should use a provider to retrieve the class instances. The **Provider** qualifier specifies the name of the provider that WMI should use.
+    Be sure to tag the class with both the [**Dynamic**](dynamic-qualifier.md) and [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifiers. The **Dynamic** qualifier signals that WMI should use a provider to retrieve the class instances. The **Provider** qualifier specifies the name of the provider that WMI should use.
 
     A high-performance provider also needs to state support for operations, enumeration operations, or both. Make sure you use the **SupportsGet** and **SupportsEnumeration** properties in your implementation.
 

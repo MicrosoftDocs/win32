@@ -1,7 +1,12 @@
 ---
 Description: System Device Enumerator
-ms.assetid: 'ea98be7f-580d-4986-bd6b-d254a2c075e8'
+ms.assetid: ea98be7f-580d-4986-bd6b-d254a2c075e8
 title: System Device Enumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Device Enumerator
@@ -13,7 +18,7 @@ The System Device Enumerator enumerates filters and hardware devices installed o
 |                  |                                          |
 |------------------|------------------------------------------|
 | Class Identifier | CLSID\_SystemDeviceEnum                  |
-| Interfaces       | [**ICreateDevEnum**](icreatedevenum.md) |
+| Interfaces       | [**ICreateDevEnum**](/windows/win32/Strmif/nn-strmif-icreatedevenum?branch=master) |
 
 
 

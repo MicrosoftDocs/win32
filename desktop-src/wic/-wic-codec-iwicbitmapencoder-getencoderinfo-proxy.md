@@ -1,20 +1,25 @@
 ---
-Description: 'Proxy function for the GetEncoderInfo method.'
-ms.assetid: '759965fd-7bc6-4130-b102-b49d1f0d4bf8'
-title: 'IWICBitmapEncoder\_GetEncoderInfo\_Proxy function'
+Description: Proxy function for the GetEncoderInfo method.
+ms.assetid: 759965fd-7bc6-4130-b102-b49d1f0d4bf8
+title: IWICBitmapEncoder\_GetEncoderInfo\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICBitmapEncoder\_GetEncoderInfo\_Proxy function
 
-Proxy function for the [**GetEncoderInfo**](-wic-codec-iwicbitmapencoder-getencoderinfo.md) method.
+Proxy function for the [**GetEncoderInfo**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapencoder-getencoderinfo?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICBitmapEncoder_GetEncoderInfo_Proxy(
-  _In_  IWICBitmapEncoder     *THIS_PTR,
-  _Out_ IWICBitmapEncoderInfo **ppIEncoderInfo
+  _In_  IWICBitmapEncoder     *THIS_PTR,
+  _Out_ IWICBitmapEncoderInfo **ppIEncoderInfo
 );
 ```
 
@@ -27,18 +32,18 @@ HRESULT IWICBitmapEncoder_GetEncoderInfo_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md)\***
+Type: **[**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master)\***
 
-Pointer to this [**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md) object.
+Pointer to this [**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master) object.
 
 </dd> <dt>
 
 *ppIEncoderInfo* \[out\]
 </dt> <dd>
 
-Type: **[**IWICBitmapEncoderInfo**](-wic-codec-iwicbitmapencoderinfo.md)\*\***
+Type: **[**IWICBitmapEncoderInfo**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapencoderinfo?branch=master)\*\***
 
-A pointer that receives a pointer to an [**IWICBitmapEncoderInfo**](-wic-codec-iwicbitmapencoderinfo.md).
+A pointer that receives a pointer to an [**IWICBitmapEncoderInfo**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapencoderinfo?branch=master).
 
 </dd> </dl>
 
@@ -56,15 +61,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

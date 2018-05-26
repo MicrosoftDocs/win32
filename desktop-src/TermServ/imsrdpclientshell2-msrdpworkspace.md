@@ -4,11 +4,14 @@ description: Retrieves a pointer to the IMsRdpWorkspace interface, which is used
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5d505ce0-18cf-4e38-b1b8-026303f7069b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 5d505ce0-18cf-4e38-b1b8-026303f7069b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["MsRdpWorkspace property Remote Desktop Services", "MsRdpWorkspace property Remote Desktop Services , IMsRdpClientShell2 interface", "IMsRdpClientShell2 interface Remote Desktop Services , MsRdpWorkspace property"]
+keywords:
+- MsRdpWorkspace property Remote Desktop Services
+- MsRdpWorkspace property Remote Desktop Services , IMsRdpClientShell2 interface
+- IMsRdpClientShell2 interface Remote Desktop Services , MsRdpWorkspace property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsRdpWebAccess.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientShell2::MsRdpWorkspace property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MsRdpWorkspace(
-  [out, retval] IMsRdpWorkspace **pVal
+  [out, retval] IMsRdpWorkspace **pVal
 );
 ```
 
@@ -51,8 +57,8 @@ The [**IMsRdpWorkspace**](imsrdpworkspace.md) interface is not exposed as a cust
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |
+| Minimum supported client<br/> | Windows 7<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |
 | DLL<br/>                      | <dl> <dt>MsRdpWebAccess.dll</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ The [**IMsRdpWorkspace**](imsrdpworkspace.md) interface is not exposed as a cust
 [**IMsRdpClientShell2**](imsrdpclientshell2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

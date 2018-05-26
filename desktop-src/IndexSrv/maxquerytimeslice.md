@@ -1,7 +1,12 @@
 ---
 title: MaxQueryTimeslice
 description: MaxQueryTimeslice
-ms.assetid: '40e49c89-5f3e-4411-a82e-080ee869f7fb'
+ms.assetid: 40e49c89-5f3e-4411-a82e-080ee869f7fb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxQueryTimeslice

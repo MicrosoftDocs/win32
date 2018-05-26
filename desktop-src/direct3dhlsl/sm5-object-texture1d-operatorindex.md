@@ -1,14 +1,20 @@
 ---
 title: Operator\ \ function
 description: Returns a read-only resource variable for a Texture1D.
-ms.assetid: 'df54097d-4d1b-496a-a17d-6e9a10cfb996'
-keywords: ["Operator function HLSL"]
+ms.assetid: df54097d-4d1b-496a-a17d-6e9a10cfb996
+keywords:
+- Operator function HLSL
 topic_type:
 - apiref
 api_name:
 - Operator
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operator\[\] function

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Permits processing of a transformation command encountered in a preview template.'
-ms.assetid: '0b81b780-8bd1-4667-a0a1-65319f209603'
-title: 'IItemPreviewerExt::ProcessTransformCommand method'
+---
+Description: Permits processing of a transformation command encountered in a preview template.
+ms.assetid: 0b81b780-8bd1-4667-a0a1-65319f209603
+title: IItemPreviewerExtProcessTransformCommand method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IItemPreviewerExt::ProcessTransformCommand method

@@ -1,7 +1,12 @@
 ---
-Description: 'Techniques provide the rendering muscle. A technique encapsulates the effect state that determines a rendering style. A technique is made up of one or more passes.'
-ms.assetid: '0a4d8f44-c7c0-4355-ac7f-6bc3315eeff0'
-title: 'Techniques and Passes (Direct3D 9)'
+Description: Techniques provide the rendering muscle. A technique encapsulates the effect state that determines a rendering style. A technique is made up of one or more passes.
+ms.assetid: 0a4d8f44-c7c0-4355-ac7f-6bc3315eeff0
+title: Techniques and Passes (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Techniques and Passes (Direct3D 9)

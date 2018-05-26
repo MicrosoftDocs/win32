@@ -1,8 +1,9 @@
 ---
 title: DVD.isAvailable
 description: The isAvailable property indicates whether a specified type of information is available or a specified action can be performed.
-ms.assetid: 'ed34a943-b9c3-40a8-8845-b83f16951a3e'
-keywords: ["DVD.isAvailable Windows Media Player"]
+ms.assetid: ed34a943-b9c3-40a8-8845-b83f16951a3e
+keywords:
+- DVD.isAvailable Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD.isAvailable
@@ -42,7 +48,7 @@ player.dvd.isAvailable(
 
 
 
- 
+ 
 
 ## Return Values
 
@@ -62,8 +68,8 @@ Every DVD is authored differently. The methods available during DVD playback and
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Version<br/>                  | Windows Media Player for Windows XP or later<br/>                            |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 
@@ -76,9 +82,9 @@ Every DVD is authored differently. The methods available during DVD playback and
 [**DVD Object**](dvd-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

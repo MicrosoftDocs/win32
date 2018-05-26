@@ -1,14 +1,20 @@
 ---
 title: Ribbon.ApplicationMenu property
 description: Represents the Application Menu.
-ms.assetid: '6945e976-8ac8-40fa-8e71-31812871b496'
-keywords: ["Ribbon.ApplicationMenu property Windows Ribbon"]
+ms.assetid: 6945e976-8ac8-40fa-8e71-31812871b496
+keywords:
+- Ribbon.ApplicationMenu property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Ribbon.ApplicationMenu
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ribbon.ApplicationMenu property
@@ -90,14 +96,14 @@ This section of code shows the **Ribbon.ApplicationMenu** control declaration.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The REFTIME data type is used to express time in seconds.'
-ms.assetid: '724420fc-9252-468f-9516-174be0a82999'
+---
+Description: The REFTIME data type is used to express time in seconds.
+ms.assetid: 724420fc-9252-468f-9516-174be0a82999
 title: REFTIME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # REFTIME

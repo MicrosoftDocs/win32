@@ -4,11 +4,14 @@ description: Retrieves information of issued Remote Desktop Services Per Device 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3f632a65-d6e0-4efd-9498-d04a05f9ddec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3f632a65-d6e0-4efd-9498-d04a05f9ddec
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["FetchReportPerDeviceEntries method Remote Desktop Services", "FetchReportPerDeviceEntries method Remote Desktop Services , Win32_TSLicenseReport class", "Win32_TSLicenseReport class Remote Desktop Services , FetchReportPerDeviceEntries method"]
+keywords:
+- FetchReportPerDeviceEntries method Remote Desktop Services
+- FetchReportPerDeviceEntries method Remote Desktop Services , Win32_TSLicenseReport class
+- Win32_TSLicenseReport class Remote Desktop Services , FetchReportPerDeviceEntries method
 topic_type:
 - apiref
 api_name:
@@ -17,20 +20,23 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FetchReportPerDeviceEntries method of the Win32\_TSLicenseReport class
 
-Retrieves information of issued Remote Desktop Services Per Device client access licenses (RDS Per Device CALs) from the report.
+Retrieves information of issued Remote Desktop Services Per Device client access licenses (RDS Per Device CALs) from the report.
 
 ## Syntax
 
 
 ```mof
 uint32 FetchReportPerDeviceEntries(
-  [in]      uint32                              StartIndex,
-  [in, out] uint32                              Count,
-  [out]     Win32_TSLicenseReportPerDeviceEntry ReportPerDeviceEntries[]
+  [in]      uint32                              StartIndex,
+  [in, out] uint32                              Count,
+  [out]     Win32_TSLicenseReportPerDeviceEntry ReportPerDeviceEntries[]
 );
 ```
 
@@ -72,7 +78,7 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -86,9 +92,9 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 [**Win32\_TSLicenseReport**](win32-tslicensereport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

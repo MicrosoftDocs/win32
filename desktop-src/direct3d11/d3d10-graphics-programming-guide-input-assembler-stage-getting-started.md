@@ -1,7 +1,12 @@
 ---
 title: Getting Started with the Input-Assembler Stage
 description: There are a few steps necessary to initialize the input-assembler (IA) stage.
-ms.assetid: '84c0ca29-2356-4b7f-98ee-ff1758edc540'
+ms.assetid: 84c0ca29-2356-4b7f-98ee-ff1758edc540
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with the Input-Assembler Stage
@@ -38,7 +43,7 @@ For help with creating a vertex buffer, see [Create a Vertex Buffer](https://msd
 
 The input-layout object encapsulates the input state of the IA stage. This includes a description of the input data that is bound to the IA stage. The data is streamed into the IA stage from memory, from one or more vertex buffers. The description identifies the input data that is bound from one or more vertex buffers and gives the runtime the ability to check the input data types against the shader input parameter types. This type checking not only verifies that the types are compatible, but also that each of the elements that the shader requires is available in the buffer resources.
 
-An input-layout object is created from an array of input-element descriptions and a pointer to the compiled shader (see [**ID3D11Device::CreateInputLayout**](id3d11device-createinputlayout.md)). The array contains one or more input elements; each input element describes a single vertex-data element from a single vertex buffer. The entire set of input-element descriptions describes all of the vertex-data elements from all of the vertex buffers that will be bound to the IA stage.
+An input-layout object is created from an array of input-element descriptions and a pointer to the compiled shader (see [**ID3D11Device::CreateInputLayout**](/windows/win32/D3D11/nf-d3d11-id3d11device-createinputlayout?branch=master)). The array contains one or more input elements; each input element describes a single vertex-data element from a single vertex buffer. The entire set of input-element descriptions describes all of the vertex-data elements from all of the vertex buffers that will be bound to the IA stage.
 
 The following layout description describes a single vertex buffer that contains three vertex-data elements:
 
@@ -77,7 +82,7 @@ Each input-layout object is created based on a shader signature; this allows the
 
 ## Bind Objects to the Input-Assembler Stage
 
-After you create vertex buffer resources and an input layout object, you can bind them to the IA stage by calling [**ID3D11DeviceContext::IASetVertexBuffers**](id3d11devicecontext-iasetvertexbuffers.md) and [**ID3D11DeviceContext::IASetInputLayout**](id3d11devicecontext-iasetinputlayout.md). The following example shows the binding of a single vertex buffer and an input-layout object to the IA stage:
+After you create vertex buffer resources and an input layout object, you can bind them to the IA stage by calling [**ID3D11DeviceContext::IASetVertexBuffers**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-iasetvertexbuffers?branch=master) and [**ID3D11DeviceContext::IASetInputLayout**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-iasetinputlayout?branch=master). The following example shows the binding of a single vertex buffer and an input-layout object to the IA stage:
 
 
 ```
@@ -98,7 +103,7 @@ g_pd3dDevice->IASetInputLayout( g_pVertexLayout );
 
 Binding the input-layout object only requires a pointer to the object.
 
-In the preceding example, a single vertex buffer is bound; however, multiple vertex buffers can be bound by a single call to [**ID3D11DeviceContext::IASetVertexBuffers**](id3d11devicecontext-iasetvertexbuffers.md), and the following code shows such a call to bind three vertex buffers:
+In the preceding example, a single vertex buffer is bound; however, multiple vertex buffers can be bound by a single call to [**ID3D11DeviceContext::IASetVertexBuffers**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-iasetvertexbuffers?branch=master), and the following code shows such a call to bind three vertex buffers:
 
 
 ```
@@ -117,11 +122,11 @@ g_pd3dDevice->IASetVertexBuffers(
 
 
 
-An index buffer is bound to the IA stage by calling [**ID3D11DeviceContext::IASetIndexBuffer**](id3d11devicecontext-iasetindexbuffer.md).
+An index buffer is bound to the IA stage by calling [**ID3D11DeviceContext::IASetIndexBuffer**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-iasetindexbuffer?branch=master).
 
 ## Specify the Primitive Type
 
-After the input buffers have been bound, the IA stage must be told how to assemble the vertices into primitives. This is done by specifying the [primitive type](https://msdn.microsoft.com/library/windows/desktop/bb205124) by calling [**ID3D11DeviceContext::IASetPrimitiveTopology**](id3d11devicecontext-iasetprimitivetopology.md); the following code calls this function to define the data as a triangle list without adjacency:
+After the input buffers have been bound, the IA stage must be told how to assemble the vertices into primitives. This is done by specifying the [primitive type](https://msdn.microsoft.com/library/windows/desktop/bb205124) by calling [**ID3D11DeviceContext::IASetPrimitiveTopology**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-iasetprimitivetopology?branch=master); the following code calls this function to define the data as a triangle list without adjacency:
 
 
 ```
@@ -130,7 +135,7 @@ g_pd3dDevice->IASetPrimitiveTopology( D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST );
 
 
 
-The rest of the primitive types are listed in [**D3D\_PRIMITIVE\_TOPOLOGY**](d3d-primitive-topology.md).
+The rest of the primitive types are listed in [**D3D\_PRIMITIVE\_TOPOLOGY**](/windows/win32/D3DCommon/ne-d3dcommon-d3d_primitive_topology?branch=master).
 
 ## Call Draw Methods
 
@@ -140,11 +145,11 @@ After input resources have been bound to the pipeline, an application calls a dr
 
 | Draw Methods                                                                                  | Description                                                                                            |
 |-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [**ID3D11DeviceContext::Draw**](id3d11devicecontext-draw.md)                                 | Draw non-indexed, non-instanced primitives.                                                            |
-| [**ID3D11DeviceContext::DrawInstanced**](id3d11devicecontext-drawinstanced.md)               | Draw non-indexed, instanced primitives.                                                                |
-| [**ID3D11DeviceContext::DrawIndexed**](id3d11devicecontext-drawindexed.md)                   | Draw indexed, non-instanced primitives.                                                                |
-| [**ID3D11DeviceContext::DrawIndexedInstanced**](id3d11devicecontext-drawindexedinstanced.md) | Draw indexed, instanced primitives.                                                                    |
-| [**ID3D11DeviceContext::DrawAuto**](id3d11devicecontext-drawauto.md)                         | Draw non-indexed, non-instanced primitives from input data that comes from the streaming-output stage. |
+| [**ID3D11DeviceContext::Draw**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-draw?branch=master)                                 | Draw non-indexed, non-instanced primitives.                                                            |
+| [**ID3D11DeviceContext::DrawInstanced**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-drawinstanced?branch=master)               | Draw non-indexed, instanced primitives.                                                                |
+| [**ID3D11DeviceContext::DrawIndexed**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-drawindexed?branch=master)                   | Draw indexed, non-instanced primitives.                                                                |
+| [**ID3D11DeviceContext::DrawIndexedInstanced**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-drawindexedinstanced?branch=master) | Draw indexed, instanced primitives.                                                                    |
+| [**ID3D11DeviceContext::DrawAuto**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-drawauto?branch=master)                         | Draw non-indexed, non-instanced primitives from input data that comes from the streaming-output stage. |
 
 
 

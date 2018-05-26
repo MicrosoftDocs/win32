@@ -4,11 +4,16 @@ description: This topic describes the Group object property sheets in the Active
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c0cd73f0-f09f-4645-966d-6149888ce482'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c0cd73f0-f09f-4645-966d-6149888ce482
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Group Object User Interface Mapping AD", "User Interface Mapping,Group Object AD"]
+keywords:
+- Group Object User Interface Mapping AD
+- User Interface Mapping,Group Object AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Group Object User Interface Mapping
@@ -37,7 +42,7 @@ The following table shows the UI labels of the **General** property sheet.
 
 
 
- 
+ 
 
 ## Member Of Property Sheet
 
@@ -51,7 +56,7 @@ The following table shows the UI labels of the **Member Of** property sheet.
 
 
 
- 
+ 
 
 ## Members Property Sheet
 
@@ -65,7 +70,7 @@ The following table shows the UI labels of the **Members** property sheet.
 
 
 
- 
+ 
 
 ## Managed By Property Sheet
 
@@ -87,11 +92,11 @@ The following table shows the UI labels of the **Managed By** property sheet.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

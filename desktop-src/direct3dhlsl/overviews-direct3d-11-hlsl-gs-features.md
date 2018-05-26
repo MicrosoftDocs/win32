@@ -1,7 +1,12 @@
 ---
 title: Geometry Shader Features
 description: Geometry Shader Features
-ms.assetid: '0d34ab79-fca2-47c2-a614-627886ba9d8f'
+ms.assetid: 0d34ab79-fca2-47c2-a614-627886ba9d8f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Geometry Shader Features
@@ -19,7 +24,7 @@ This section contains overview material for new geometry shader features introdu
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -28,9 +33,9 @@ This section contains overview material for new geometry shader features introdu
 [HLSL Shader Model 5](overviews-direct3d-11-hlsl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

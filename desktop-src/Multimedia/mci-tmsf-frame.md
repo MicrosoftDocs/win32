@@ -1,8 +1,9 @@
 ---
 title: MCI\_TMSF\_FRAME macro
 description: The MCI\_TMSF\_FRAME macro retrieves the frames component from a parameter containing packed tracks/minutes/seconds/frames (TMSF) information.
-ms.assetid: '1ba78d4f-4537-4955-abcc-842976b6b5b9'
-keywords: ["MCI_TMSF_FRAME macro Windows Multimedia"]
+ms.assetid: 1ba78d4f-4537-4955-abcc-842976b6b5b9
+keywords:
+- MCI_TMSF_FRAME macro Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_TMSF\_FRAME macro
@@ -22,7 +28,7 @@ The **MCI\_TMSF\_FRAME** macro retrieves the frames component from a parameter c
 
 ```C++
 BYTE MCI_TMSF_FRAME(
-   DWORD dwTMSF
+   DWORD dwTMSF
 );
 ```
 
@@ -62,8 +68,8 @@ The **MCI\_TMSF\_FRAME** macro is defined as follows:
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -78,9 +84,9 @@ The **MCI\_TMSF\_FRAME** macro is defined as follows:
 [MCI Macros](mci-macros.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: Installing and Configuring RPC Applications
 description: When the Microsoft Windows operating system is installed on a server or client, setup automatically installs the RPC run-time files.
-ms.assetid: 'cfcada3d-cf7c-42a9-9ed4-0b1bba7a98cf'
-keywords: ["Remote Procedure Call RPC , tasks, installing and configuring applications"]
+ms.assetid: cfcada3d-cf7c-42a9-9ed4-0b1bba7a98cf
+keywords:
+- Remote Procedure Call RPC , tasks, installing and configuring applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing and Configuring RPC Applications

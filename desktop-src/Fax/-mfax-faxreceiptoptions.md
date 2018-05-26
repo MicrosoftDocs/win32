@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxReceiptOptions configuration object is used by a fax client application to set and retrieve the receipt configuration that the fax service uses to send delivery receipts for fax transmissions.'
-ms.assetid: '6c3d1358-6819-42e3-9be0-896ed7e2d463'
+---
+Description: The FaxReceiptOptions configuration object is used by a fax client application to set and retrieve the receipt configuration that the fax service uses to send delivery receipts for fax transmissions.
+ms.assetid: 6c3d1358-6819-42e3-9be0-896ed7e2d463
 title: FaxReceiptOptions object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxReceiptOptions object
@@ -86,7 +91,7 @@ You can configure the fax service to send delivery receipts for fax transmission
 
 <dl> <dt>
 
-[**IFaxReceiptOptions**](-mfax-faxreceiptoptions-cpp.md)
+[**IFaxReceiptOptions**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxreceiptoptions?branch=master)
 </dt> </dl>
 
  

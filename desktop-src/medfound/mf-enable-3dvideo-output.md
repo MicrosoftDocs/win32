@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies how a Media Foundation transform (MFT) should output a 3D stereoscopic video stream.'
-ms.assetid: 'AA75A2FB-DEAC-44E9-93E9-4AC2D9F03B39'
-title: 'MF\_ENABLE\_3DVIDEO\_OUTPUT attribute'
+---
+Description: Specifies how a Media Foundation transform (MFT) should output a 3D stereoscopic video stream.
+ms.assetid: AA75A2FB-DEAC-44E9-93E9-4AC2D9F03B39
+title: MF\_ENABLE\_3DVIDEO\_OUTPUT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_ENABLE\_3DVIDEO\_OUTPUT attribute
@@ -14,11 +19,11 @@ Specifies how a Media Foundation transform (MFT) should output a 3D stereoscopic
 
 ## Remarks
 
-The value of the attribute is a member of the [**MF3DVideoOutputType**](mf3dvideooutputtype.md) enumeration.
+The value of the attribute is a member of the [**MF3DVideoOutputType**](/windows/win32/mftransform/ne-mftransform-_mf3dvideooutputtype?branch=master) enumeration.
 
 This attribute applies only if the MFT returns **TRUE** for the [MFT\_SUPPORT\_3DVIDEO](mft-support-3dvideo.md) attribute.
 
-To get or set this attribute call [**IMFTransform::GetAttributes**](imftransform-getattributes.md) to get the global attribute store of the MFT.
+To get or set this attribute call [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) to get the global attribute store of the MFT.
 
 ## Requirements
 

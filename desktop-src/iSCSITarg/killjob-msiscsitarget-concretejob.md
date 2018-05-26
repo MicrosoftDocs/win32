@@ -4,13 +4,16 @@ description: Terminates this job and any underlying processes immediately, and r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '75cc417f-56fb-49c1-9725-d58fad42190c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 75cc417f-56fb-49c1-9725-d58fad42190c
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["KillJob method iSCSI Software Target API", "KillJob method iSCSI Software Target API , MSISCSITARGET_ConcreteJob class", "MSISCSITARGET_ConcreteJob class iSCSI Software Target API , KillJob method"]
+keywords:
+- KillJob method iSCSI Software Target API
+- KillJob method iSCSI Software Target API , MSISCSITARGET_ConcreteJob class
+- MSISCSITARGET_ConcreteJob class iSCSI Software Target API , KillJob method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # KillJob method of the MSISCSITARGET\_ConcreteJob class
@@ -32,7 +38,7 @@ This method is inherited from the [**CIM\_Job**](https://msdn.microsoft.com/libr
 
 ```mof
 uint32 KillJob(
-  [in] boolean DeleteOnKill
+  [in] boolean DeleteOnKill
 );
 ```
 
@@ -74,10 +80,10 @@ Indicates whether the job should be automatically deleted upon termination. This
 **Not Found** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -87,7 +93,7 @@ Indicates whether the job should be automatically deleted upon termination. This
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -101,9 +107,9 @@ Indicates whether the job should be automatically deleted upon termination. This
 [**MSISCSITARGET\_ConcreteJob**](msiscsitarget-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

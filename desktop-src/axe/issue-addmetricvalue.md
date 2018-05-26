@@ -1,14 +1,20 @@
 ---
 title: Issue AddMetricValue methods
 description: Creates and adds a MetricValue to the Issue.
-ms.assetid: '8CEC3D70-A064-42DF-8B4D-FDAAFB8BF0B8'
-keywords: ["AddMetricValue methods Access Execution Engine"]
+ms.assetid: 8CEC3D70-A064-42DF-8B4D-FDAAFB8BF0B8
+keywords:
+- AddMetricValue methods Access Execution Engine
 topic_type:
 - apiref
 api_location:
 - AxeCore.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::AddMetricValue methods
@@ -42,8 +48,8 @@ The **MetricValue** objects hold data from the **Issue/MetricValues/MetricValue*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -56,9 +62,9 @@ The **MetricValue** objects hold data from the **Issue/MetricValues/MetricValue*
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

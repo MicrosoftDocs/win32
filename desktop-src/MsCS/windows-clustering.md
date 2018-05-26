@@ -4,11 +4,15 @@ description: With network load balancing clusters, filter and distribute TCP/IP 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '47247d48-d401-41dc-9aae-128840eb6d3a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 47247d48-d401-41dc-9aae-128840eb6d3a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Windows Clustering Failover Cluster"]
+keywords:
+- Windows Clustering Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Clustering

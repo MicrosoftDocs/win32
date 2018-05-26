@@ -1,7 +1,12 @@
 ---
-Description: 'The CurrentDiscSide property retrieves the current side of the disc.'
-ms.assetid: 'a5210a58-bbb0-41fa-b546-1597ca0186e4'
+Description: The CurrentDiscSide property retrieves the current side of the disc.
+ms.assetid: a5210a58-bbb0-41fa-b546-1597ca0186e4
 title: CurrentDiscSide Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CurrentDiscSide Property

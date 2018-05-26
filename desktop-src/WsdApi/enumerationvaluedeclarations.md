@@ -1,7 +1,12 @@
 ---
-Description: 'Generates C declarations for values of all enumerated types.'
-ms.assetid: '2808edf6-662d-41ee-8e76-f0ee13fe720b'
+Description: Generates C declarations for values of all enumerated types.
+ms.assetid: 2808edf6-662d-41ee-8e76-f0ee13fe720b
 title: enumerationValueDeclarations element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # enumerationValueDeclarations element
@@ -38,14 +43,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Used to enforce a combined users quota on the total number of Trust
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '77e70a26-99b4-4b49-a984-6809d02f6fb8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 77e70a26-99b4-4b49-a984-6809d02f6fb8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-DS-All-Users-Trust-Quota attribute AD Schema", "msDS-AllUsersTrustQuota attribute AD Schema"]
+keywords:
+- MS-DS-All-Users-Trust-Quota attribute AD Schema
+- msDS-AllUsersTrustQuota attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-DS-All-Users-Trust-Quota
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-DS-All-Users-Trust-Quota attribute
@@ -38,11 +43,11 @@ Used to enforce a combined users quota on the total number of Trusted-Domain obj
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Used to enforce a combined users quota on the total number of Trusted-Domain obj
 
 
 
- 
+ 
 
- 
+ 
 
 
 

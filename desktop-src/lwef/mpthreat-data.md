@@ -1,8 +1,10 @@
 ---
 title: MPTHREAT\_DATA structure
 description: Notification data passed due to threat detection or modification.
-ms.assetid: '07A2F88B-9D58-44EC-86D0-BDCC1DF44B94'
-keywords: ["MPTHREAT_DATA structure Legacy Windows Environment Features", "PMPTHREAT_DATA structure pointer Legacy Windows Environment Features"]
+ms.assetid: 07A2F88B-9D58-44EC-86D0-BDCC1DF44B94
+keywords:
+- MPTHREAT_DATA structure Legacy Windows Environment Features
+- PMPTHREAT_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPTHREAT\_DATA structure
@@ -22,10 +29,10 @@ Notification data passed due to threat detection or modification.
 
 ```C++
 typedef struct tagMPTHREAT_DATA {
-  MPTHREAT_ID     ThreatID;
-  DWORD           dwSessionID;
+  MPTHREAT_ID     ThreatID;
+  DWORD           dwSessionID;
   MPTHREAT_ACTION ThreatAction;
-  DWORD           dwStatus;
+  DWORD           dwStatus;
 } MPTHREAT_DATA, *PMPTHREAT_DATA;
 ```
 
@@ -85,8 +92,8 @@ Additional status or actions associated with the action taken. This is a combina
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -101,9 +108,9 @@ Additional status or actions associated with the action taken. This is a combina
 [**MPTHREAT\_ACTION**](mpthreat-action.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

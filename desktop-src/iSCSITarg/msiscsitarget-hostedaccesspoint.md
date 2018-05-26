@@ -4,13 +4,15 @@ description: Defines an association between a Service Access Point (SAP) and the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '005e68cd-9480-435d-97f5-8747935526ea'
-ms.prod: 'windows-server-dev'
+ms.assetid: 005e68cd-9480-435d-97f5-8747935526ea
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_HostedAccessPoint class iSCSI Software Target API", "MSISCSITARGET_HostedAccessPoint class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_HostedAccessPoint class iSCSI Software Target API
+- MSISCSITARGET_HostedAccessPoint class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_HostedAccessPoint class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Association, Version("1.0.0")]
 class MSISCSITARGET_HostedAccessPoint : CIM_HostedAccessPoint
 {
-  CIM_System             REF Antecedent;
+  CIM_System             REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
 };
 ```
@@ -95,7 +100,7 @@ This property is inherited from [**CIM\_HostedAccessPoint**](cim-hostedaccesspoi
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -115,9 +120,9 @@ This property is inherited from [**CIM\_HostedAccessPoint**](cim-hostedaccesspoi
 [**CIM\_HostedAccessPoint**](https://msdn.microsoft.com/library/aa387858)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

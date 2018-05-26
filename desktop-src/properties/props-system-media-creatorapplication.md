@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'ba60825d-1b0d-4b0c-a5ed-5dfa486eac68'
-title: 'System.Media.CreatorApplication'
+Description: .
+ms.assetid: ba60825d-1b0d-4b0c-a5ed-5dfa486eac68
+title: System.Media.CreatorApplication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.CreatorApplication

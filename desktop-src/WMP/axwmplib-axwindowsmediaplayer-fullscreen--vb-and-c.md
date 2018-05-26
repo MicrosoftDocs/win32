@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.fullScreen property
 description: The fullScreen property gets or sets a value indicating whether video content is played in full-screen mode.
-ms.assetid: '6c48a54a-e0f1-4bf5-8a53-7ccc78fc76ad'
-keywords: ["fullScreen property Windows Media Player", "fullScreen property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , fullScreen property"]
+ms.assetid: 6c48a54a-e0f1-4bf5-8a53-7ccc78fc76ad
+keywords:
+- fullScreen property Windows Media Player
+- fullScreen property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , fullScreen property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.fullScreen property
@@ -61,7 +69,7 @@ If **uiMode** is set to "full" or "mini", Windows Media Player displays transpor
 > [!Note]  
 > Displaying transport controls in full-screen mode requires the Windows XP operating system.
 
- 
+ 
 
 If transport controls are not displayed in full-screen mode, then Windows Media Player automatically exits full-screen mode when playback stops.
 
@@ -132,9 +140,9 @@ End Sub</code></pre></td>
 [**AxWindowsMediaPlayer.uiMode (VB and C#)**](axwmplib-axwindowsmediaplayer-uimode--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

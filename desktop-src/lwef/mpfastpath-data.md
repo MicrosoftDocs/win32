@@ -1,8 +1,10 @@
 ---
 title: MPFASTPATH\_DATA structure
 description: FastPath update notification.
-ms.assetid: 'E19F153D-DD46-4E27-9A4B-33586794DAC2'
-keywords: ["MPFASTPATH_DATA structure Legacy Windows Environment Features", "PMPFASTPATH_DATA structure pointer Legacy Windows Environment Features"]
+ms.assetid: E19F153D-DD46-4E27-9A4B-33586794DAC2
+keywords:
+- MPFASTPATH_DATA structure Legacy Windows Environment Features
+- PMPFASTPATH_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPFASTPATH\_DATA structure
@@ -22,14 +29,14 @@ FastPath update notification.
 
 ```C++
 typedef struct tagMPFASTPATH_DATA {
-  MP_SIGNATURE_TYPE         SignatureType;
-  MP_FASTPATH_TYPE          FastPathSignatureType;
-  MP_MIDL_STRING LPWSTR     FastPathSignatureVersion;
-  ULARGE_INTEGER            CompilationTimestamp;
+  MP_SIGNATURE_TYPE         SignatureType;
+  MP_FASTPATH_TYPE          FastPathSignatureType;
+  MP_MIDL_STRING LPWSTR     FastPathSignatureVersion;
+  ULARGE_INTEGER            CompilationTimestamp;
   MP_PERSISTENCE_LIMIT_TYPE PersistenceType;
-  MP_MIDL_STRING LPWSTR     PersistenceValue;
-  MP_MIDL_STRING LPWSTR     PersistencePath;
-  MP_REMOVAL_REASON         Reason;
+  MP_MIDL_STRING LPWSTR     PersistenceValue;
+  MP_MIDL_STRING LPWSTR     PersistencePath;
+  MP_REMOVAL_REASON         Reason;
 } MPFASTPATH_DATA, *PMPFASTPATH_DATA;
 ```
 
@@ -133,8 +140,8 @@ Reason for signature removal.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -152,9 +159,9 @@ Reason for signature removal.
 [**MP\_SIGNATURE\_TYPE**](mp-signature-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

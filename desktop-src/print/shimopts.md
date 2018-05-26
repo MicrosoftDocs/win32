@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '7A00F51A-E8EB-4D8F-B130-08834BF741C6'
+---
+Description: .
+ms.assetid: 7A00F51A-E8EB-4D8F-B130-08834BF741C6
 title: SHIMOPTS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SHIMOPTS enumeration

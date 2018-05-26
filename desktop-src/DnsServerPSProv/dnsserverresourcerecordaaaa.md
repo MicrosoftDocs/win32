@@ -2,13 +2,15 @@
 title: DnsServerResourceRecordAAAA class
 description: DNS Server Resource Record AAAA.
 audience: developer
-ms.assetid: '9b894486-ce70-4502-b82d-242cc30f5e81'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9b894486-ce70-4502-b82d-242cc30f5e81
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerResourceRecordAAAA class", "DnsServerResourceRecordAAAA class, described"]
+keywords:
+- DnsServerResourceRecordAAAA class
+- DnsServerResourceRecordAAAA class, described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerResourceRecordAAAA class
@@ -68,7 +73,7 @@ IPv6 Address
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -85,9 +90,9 @@ IPv6 Address
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

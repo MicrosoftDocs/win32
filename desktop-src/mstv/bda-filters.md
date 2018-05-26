@@ -1,7 +1,12 @@
 ---
 title: BDA Filters
 description: BDA Filters
-ms.assetid: '07830ccf-f940-4b7f-a679-93212b47dbf0'
+ms.assetid: 07830ccf-f940-4b7f-a679-93212b47dbf0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BDA Filters

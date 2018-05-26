@@ -1,7 +1,12 @@
 ---
-Description: 'The IStats interface provides the methods you use to connect an NPP to the network, capture network traffic, retrieve statistics, and disconnect the NPP from the network. This interface generates statistics without frames.'
-ms.assetid: '57cfcdd6-f16c-4a1c-b2ba-ce98f0576862'
+Description: The IStats interface provides the methods you use to connect an NPP to the network, capture network traffic, retrieve statistics, and disconnect the NPP from the network. This interface generates statistics without frames.
+ms.assetid: 57cfcdd6-f16c-4a1c-b2ba-ce98f0576862
 title: IStats interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStats interface
@@ -37,7 +42,7 @@ The **IStats** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,16 +50,16 @@ The **IStats** interface has these methods.
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

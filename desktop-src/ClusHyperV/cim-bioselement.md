@@ -4,13 +4,15 @@ description: Represents the low-level software that is loaded into non-volatile 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b8febb30-4357-40c8-ae54-751c83df68ef'
-ms.prod: 'windows-server-dev'
+ms.assetid: b8febb30-4357-40c8-ae54-751c83df68ef
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_BIOSElement class", "CIM_BIOSElement class, described"]
+keywords:
+- CIM_BIOSElement class
+- CIM_BIOSElement class, described
 topic_type:
 - apiref
 api_name:
@@ -52,6 +54,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_BIOSElement class
@@ -66,39 +71,39 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.17.0"), UMLPackagePath("CIM::Application::BIOS")]
 class CIM_BIOSElement : CIM_SoftwareElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   Name;
-  uint16   SoftwareElementState;
-  string   SoftwareElementID;
-  uint16   TargetOperatingSystem;
-  string   OtherTargetOS;
-  string   BuildNumber;
-  string   SerialNumber;
-  string   CodeSet;
-  string   IdentificationCode;
-  string   LanguageEdition;
-  string   Version;
-  string   Manufacturer;
-  boolean  PrimaryBIOS;
-  string   ListOfLanguages[];
-  string   CurrentLanguage;
-  uint64   LoadedStartingAddress;
-  uint64   LoadedEndingAddress;
-  string   LoadUtilityInformation;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   Name;
+  uint16   SoftwareElementState;
+  string   SoftwareElementID;
+  uint16   TargetOperatingSystem;
+  string   OtherTargetOS;
+  string   BuildNumber;
+  string   SerialNumber;
+  string   CodeSet;
+  string   IdentificationCode;
+  string   LanguageEdition;
+  string   Version;
+  string   Manufacturer;
+  boolean  PrimaryBIOS;
+  string   ListOfLanguages[];
+  string   CurrentLanguage;
+  uint64   LoadedStartingAddress;
+  uint64   LoadedEndingAddress;
+  string   LoadUtilityInformation;
   datetime ReleaseDate;
-  string   RegistryURIs[];
+  string   RegistryURIs[];
 };
 ```
 
@@ -580,7 +585,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedElement**](cim-managedelement.md).
 
@@ -945,7 +950,7 @@ Contains indicators of the current status of the element. The first value of the
 > [!Note]  
 > The **OperationalStatus** property replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, we strongly recommend that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status**, because it is a single-valued property, should also provide the primary status of the element.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1271,14 +1276,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1414,7 +1419,7 @@ Indicates the primary status of the object.
 > [!Note]  
 > This property is deprecated. It is replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility, it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -2358,7 +2363,7 @@ The version of the operation. The version of the operation should be in one of t
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -2375,9 +2380,9 @@ The version of the operation. The version of the operation should be in one of t
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

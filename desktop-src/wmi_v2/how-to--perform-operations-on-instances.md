@@ -4,10 +4,13 @@ description: This topic provides an overview of how a cmdlet that corresponds to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4EAB4167-EFB7-4DFA-8671-2055E3F46CCE'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 4EAB4167-EFB7-4DFA-8671-2055E3F46CCE
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Performing operations on instances
@@ -26,7 +29,7 @@ A CIM query operation may return 0 or many instances matching the constructed qu
 
 
 
- 
+ 
 
 A cmdlet definition based on a CIM Instance operation requires the following information.
 
@@ -34,9 +37,9 @@ A cmdlet definition based on a CIM Instance operation requires the following inf
 -   Query Parameters element, which defines the properties and query expressions used to filter the instances.
 -   Method elements, which define the mapping between the cmdlet parameters and the corresponding method. For Method elements, you'll also need the following information.
 
-    -   For both extrinsic and intrinsic methods—The method name (for intrinsic methods , use cim: as the prefix).
-    -   For extrinsic methods—Method parameters that are used as cmdlet parameters. (A method can have more parameters than are used by a cmdlet.)
-    -   For extrinsic methods—Method output.
+    -   For both extrinsic and intrinsic methods The method name (for intrinsic methods , use cim: as the prefix).
+    -   For extrinsic methods Method parameters that are used as cmdlet parameters. (A method can have more parameters than are used by a cmdlet.)
+    -   For extrinsic methods Method output.
 
 The following CDXML elements are used to describe the information outlined above.
 
@@ -46,9 +49,9 @@ Cmdlet Filterting Parameters : <GetCmdletParameters>
 Method invoked by cmdlet : <Method>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

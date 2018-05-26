@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.URL property
 description: The URL property gets or sets the name of the media item to play.
-ms.assetid: '521a3b39-efd6-45a7-895b-a9ae69e0bf39'
-keywords: ["URL property Windows Media Player", "URL property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , URL property"]
+ms.assetid: 521a3b39-efd6-45a7-895b-a9ae69e0bf39
+keywords:
+- URL property Windows Media Player
+- URL property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , URL property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.URL property
@@ -119,9 +127,9 @@ End Sub</code></pre></td>
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

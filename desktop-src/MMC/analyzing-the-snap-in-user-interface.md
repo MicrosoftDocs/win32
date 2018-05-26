@@ -4,11 +4,16 @@ description: Provides details of the GUI elements in MMC snap-in development.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6e023532-f508-4f00-93fb-59746434f382'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 6e023532-f508-4f00-93fb-59746434f382
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["snap-in UI MMC", "snap-in UI MMC"]
+keywords:
+- snap-in UI MMC
+- snap-in UI MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Analyzing the Snap-in User Interface

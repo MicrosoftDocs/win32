@@ -1,7 +1,12 @@
 ---
-Description: 'Constants describing the vertex data types supported by a device.'
-ms.assetid: '751d7b92-b187-40e5-882c-6fdb80e1ff5f'
+Description: Constants describing the vertex data types supported by a device.
+ms.assetid: 751d7b92-b187-40e5-882c-6fdb80e1ff5f
 title: D3DDTCAPS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDTCAPS
@@ -28,7 +33,7 @@ Constants describing the vertex data types supported by a device.
 
  
 
-These constants are used by the DeclTypes member of [**D3DCAPS9**](d3dcaps9.md).
+These constants are used by the DeclTypes member of [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 ## Constant Information
 

@@ -1,8 +1,9 @@
 ---
 title: glMultMatrixf function
 description: The glMultMatrixd and glMultMatrixf functions multiply the current matrix by an arbitrary matrix.
-ms.assetid: 'fea5e557-09bd-4c45-89cc-9f3739b577bb'
-keywords: ["glMultMatrixf function OpenGL"]
+ms.assetid: fea5e557-09bd-4c45-89cc-9f3739b577bb
+keywords:
+- glMultMatrixf function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glMultMatrixf function
@@ -22,7 +28,7 @@ The [**glMultMatrixd**](glmultmatrixd.md) and **glMultMatrixf** functions multip
 
 ```C++
 void WINAPI glMultMatrixf(
-   const GLfloat *m
+   const GLfloat *m
 );
 ```
 
@@ -69,7 +75,7 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 ## Remarks
 
-The **glMultMatrix** function multiplies the current matrix by the one specified in *m*. That is, if M is the current matrix and T is the matrix passed to **glMultMatrix**, then M is replaced with M • T.
+The **glMultMatrix** function multiplies the current matrix by the one specified in *m*. That is, if M is the current matrix and T is the matrix passed to **glMultMatrix**, then M is replaced with M   T.
 
 The current matrix is the projection matrix, modelview matrix, or texture matrix, determined by the current matrix mode (see [**glMatrixMode**](glmatrixmode.md)).
 
@@ -93,8 +99,8 @@ The following functions retrieve information related to **glMultMatrix**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -123,9 +129,9 @@ The following functions retrieve information related to **glMultMatrix**:
 [**glPushMatrix**](glpushmatrix.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

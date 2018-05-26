@@ -1,13 +1,22 @@
 ---
 title: Stretching an Image and Window
 description: Stretching an Image and Window
-ms.assetid: '661992eb-b012-47eb-84bc-cd12834c6270'
-keywords: ["MCIWndGetDest macro", "MCIWndPutDest macro", "GetWindowRect function", "SetWindowPos function"]
+ms.assetid: 661992eb-b012-47eb-84bc-cd12834c6270
+keywords:
+- MCIWndGetDest macro
+- MCIWndPutDest macro
+- GetWindowRect function
+- SetWindowPos function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stretching an Image and Window
 
-The following example stretches the images of a video clip and changes the aspect ratio of the displayed frames. The frames displayed in the MCIWnd window are twice the height and three times the width of the original frame. The [**MCIWndGetDest**](mciwndgetdest.md) and [**MCIWndPutDest**](mciwndputdest.md) macros retrieve and redefine the destination rectangle coordinates. The [GetWindowRect](http://go.microsoft.com/fwlink/p/?linkid=17109) and [SetWindowPos](http://go.microsoft.com/fwlink/p/?linkid=17105) functions manage changes to the MCIWnd window dimensions.
+The following example stretches the images of a video clip and changes the aspect ratio of the displayed frames. The frames displayed in the MCIWnd window are twice the height and three times the width of the original frame. The [**MCIWndGetDest**](/windows/win32/Vfw/nf-vfw-mciwndgetdest?branch=master) and [**MCIWndPutDest**](/windows/win32/Vfw/nf-vfw-mciwndputdest?branch=master) macros retrieve and redefine the destination rectangle coordinates. The [GetWindowRect](http://go.microsoft.com/fwlink/p/?linkid=17109) and [SetWindowPos](http://go.microsoft.com/fwlink/p/?linkid=17105) functions manage changes to the MCIWnd window dimensions.
 
 
 ```C++

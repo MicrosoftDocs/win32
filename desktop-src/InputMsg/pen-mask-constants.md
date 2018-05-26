@@ -1,7 +1,7 @@
 ---
 title: Pen Mask
 description: Values that can appear in the penMask field of the POINTER\_PEN\_INFO structure.
-ms.assetid: '6A44B701-55E1-41D4-9C4A-807E57441DA4'
+ms.assetid: 6A44B701-55E1-41D4-9C4A-807E57441DA4
 topic_type:
 - apiref
 api_name:
@@ -14,11 +14,16 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pen Mask
 
-Values that can appear in the **penMask** field of the [**POINTER\_PEN\_INFO**](pointer-pen-info-struct.md) structure.
+Values that can appear in the **penMask** field of the [**POINTER\_PEN\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_pen_info?branch=master) structure.
 
 <dl> <dt>
 
@@ -43,7 +48,7 @@ Default. None of the optional fields are valid.
 
 
 
-**pressure** of the [**POINTER\_PEN\_INFO**](pointer-pen-info-struct.md) structure is valid.
+**pressure** of the [**POINTER\_PEN\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_pen_info?branch=master) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
@@ -56,7 +61,7 @@ Default. None of the optional fields are valid.
 
 
 
-**rotation** of the [**POINTER\_PEN\_INFO**](pointer-pen-info-struct.md) structure is valid.
+**rotation** of the [**POINTER\_PEN\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_pen_info?branch=master) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
@@ -69,7 +74,7 @@ Default. None of the optional fields are valid.
 
 
 
-**tiltX** of the [**POINTER\_PEN\_INFO**](pointer-pen-info-struct.md) structure is valid.
+**tiltX** of the [**POINTER\_PEN\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_pen_info?branch=master) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
@@ -82,7 +87,7 @@ Default. None of the optional fields are valid.
 
 
 
-**tiltY** of the [**POINTER\_PEN\_INFO**](pointer-pen-info-struct.md) structure is valid.
+**tiltY** of the [**POINTER\_PEN\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_pen_info?branch=master) structure is valid.
 
 
 </dt> </dl> </dd> </dl>
@@ -93,8 +98,8 @@ Default. None of the optional fields are valid.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -106,12 +111,12 @@ Default. None of the optional fields are valid.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](pointer-info-struct.md)
+[**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

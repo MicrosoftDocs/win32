@@ -1,7 +1,12 @@
 ---
 title: Wait Method
 description: Wait Method
-ms.assetid: '968a3f19-6953-473b-ba98-0dc93696e703'
+ms.assetid: 968a3f19-6953-473b-ba98-0dc93696e703
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wait Method

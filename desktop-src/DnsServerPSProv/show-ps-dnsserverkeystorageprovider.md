@@ -2,13 +2,16 @@
 title: Show method of the PS\_DnsServerKeyStorageProvider class
 description: Returns the list of key storage providers available on the DNS server.
 audience: developer
-ms.assetid: '34bca245-5e67-4562-a7d9-6fe42bad667c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 34bca245-5e67-4562-a7d9-6fe42bad667c
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Show method", "Show method, PS_DnsServerKeyStorageProvider class", "PS_DnsServerKeyStorageProvider class, Show method"]
+keywords:
+- Show method
+- Show method, PS_DnsServerKeyStorageProvider class
+- PS_DnsServerKeyStorageProvider class, Show method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Show method of the PS\_DnsServerKeyStorageProvider class
@@ -28,8 +34,8 @@ Returns the list of key storage providers available on the DNS server.
 
 ```mof
 uint32 Show(
-  [in]  string ComputerName,
-  [out] string cmdletOutput[]
+  [in]  string ComputerName,
+  [out] string cmdletOutput[]
 );
 ```
 
@@ -60,7 +66,7 @@ On return, contains an instance of the current object.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -74,9 +80,9 @@ On return, contains an instance of the current object.
 [**PS\_DnsServerKeyStorageProvider**](ps-dnsserverkeystorageprovider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

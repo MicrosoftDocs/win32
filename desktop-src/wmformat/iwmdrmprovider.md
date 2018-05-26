@@ -1,14 +1,21 @@
 ---
 title: IWMDRMProvider interface
 description: The IWMDRMProvider interface provides a method that creates the other objects of the Microsoft Windows Media DRM Client Extended APIs.You can obtain a pointer to an instance of this interface by calling the WMDRMCreateProvider function.
-ms.assetid: 'bcd346e3-a79f-49a8-b5f9-b9ae8b54527a'
-keywords: ["IWMDRMProvider interface windows Media Format", "IWMDRMProvider interface windows Media Format , described"]
+ms.assetid: bcd346e3-a79f-49a8-b5f9-b9ae8b54527a
+keywords:
+- IWMDRMProvider interface windows Media Format
+- IWMDRMProvider interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMProvider
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMProvider interface
@@ -35,7 +42,7 @@ The **IWMDRMProvider** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -44,9 +51,9 @@ The **IWMDRMProvider** interface has these methods.
 [**Interfaces**](drm-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

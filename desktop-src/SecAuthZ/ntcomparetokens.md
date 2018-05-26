@@ -1,21 +1,26 @@
 ---
-Description: 'Compares two access tokens and determines whether they are equivalent with respect to a call to the AccessCheck function.'
-ms.assetid: '3a07ddc6-9748-4f96-a597-2af6b4282e56'
+Description: Compares two access tokens and determines whether they are equivalent with respect to a call to the AccessCheck function.
+ms.assetid: 3a07ddc6-9748-4f96-a597-2af6b4282e56
 title: NtCompareTokens function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtCompareTokens function
 
-The **NtCompareTokens** function compares two [*access tokens*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly) and determines whether they are equivalent with respect to a call to the [**AccessCheck**](accesscheck.md) function.
+The **NtCompareTokens** function compares two [*access tokens*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly) and determines whether they are equivalent with respect to a call to the [**AccessCheck**](/windows/win32/Winbase/nf-ntifs-ntaccesscheckandauditalarm?branch=master) function.
 
 ## Syntax
 
 
 ```C++
 NTSTATUS NTAPI NtCompareTokens(
-  _In_  HANDLE   FirstTokenHandle,
-  _In_  HANDLE   SecondTokenHandle,
-  _Out_ PBOOLEAN Equal
+  _In_  HANDLE   FirstTokenHandle,
+  _In_  HANDLE   SecondTokenHandle,
+  _Out_ PBOOLEAN Equal
 );
 ```
 
@@ -69,16 +74,16 @@ This function has no associated import library or header file; you must call it 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Ntseapi.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

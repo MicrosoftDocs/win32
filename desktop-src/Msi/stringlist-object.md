@@ -1,7 +1,12 @@
-﻿---
-Description: 'The StringList object is a collection of strings. The client must verify that the StringList object exists and is not empty before referencing its properties.'
-ms.assetid: '7021320a-d01a-43e8-90a5-6105a11a4613'
+---
+Description: The StringList object is a collection of strings. The client must verify that the StringList object exists and is not empty before referencing its properties.
+ms.assetid: 7021320a-d01a-43e8-90a5-6105a11a4613
 title: StringList object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StringList object

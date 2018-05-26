@@ -4,17 +4,22 @@ description: The maximum value for a WMI 32-bit integer parameter object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd1ac3efc-fce3-42d2-98ec-ca0f7e6fcb4e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d1ac3efc-fce3-42d2-98ec-ca0f7e6fcb4e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-intMax attribute AD Schema", "msWMI-IntMax attribute AD Schema"]
+keywords:
+- ms-WMI-intMax attribute AD Schema
+- msWMI-IntMax attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-intMax
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-intMax attribute

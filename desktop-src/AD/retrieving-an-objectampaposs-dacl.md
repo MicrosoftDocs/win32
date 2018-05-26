@@ -1,14 +1,19 @@
 ---
-title: Retrieving an Object's DACL
-description: An object's security descriptor may contain a discretionary access-control list (DACL).
+title: Retrieving an Objects DACL
+description: An objects security descriptor may contain a discretionary access-control list (DACL).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '93b16094-9923-4886-804f-4e989fbf6977'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 93b16094-9923-4886-804f-4e989fbf6977
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DACL AD", "DACL AD ,retrieving an object's DACL"]
+keywords:
+- DACL AD
+- DACL AD ,retrieving an objects DACL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Retrieving an Object's DACL

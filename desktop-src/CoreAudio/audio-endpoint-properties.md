@@ -1,14 +1,19 @@
 ---
 Description: Audio Endpoint Properties
-ms.assetid: 'db85ff3b-dbb1-4ed0-b663-21ca9eb66352'
+ms.assetid: db85ff3b-dbb1-4ed0-b663-21ca9eb66352
 title: Audio Endpoint Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Endpoint Properties
 
 Header file Mmdeviceapi.h defines several properties of [audio endpoint devices](audio-endpoint-devices.md) in Windows Vista and later. The Windows audio service sets the values of these properties. Clients can read these properties, but should not set them. Property values are stored as **PROPVARIANT** structures.
 
-The recommended way of reading the properties of an audio input device is to use the APIs in the [**Windows.Devices.Enumeration**](https://msdn.microsoft.com/library/windows/apps/br225459) namespace. These APIs are supported for Windows Store apps and desktop apps. For existing desktop apps that read device properties using the [**IMMDevice**](immdevice.md) interface, see [Device Properties](device-properties.md). **IMMDevice** is not supported for Windows Store apps.
+The recommended way of reading the properties of an audio input device is to use the APIs in the [**Windows.Devices.Enumeration**](https://msdn.microsoft.com/library/windows/apps/br225459) namespace. These APIs are supported for Windows Store apps and desktop apps. For existing desktop apps that read device properties using the [**IMMDevice**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master) interface, see [Device Properties](device-properties.md). **IMMDevice** is not supported for Windows Store apps.
 
 For code examples that show how to access the properties of an audio endpoint device, see the following topics:
 
@@ -36,7 +41,7 @@ The following properties are specific to audio endpoint devices.
 
 
 
- 
+ 
 
 The core audio APIs support additional properties that do not apply exclusively to audio endpoint devices. For more information about these additional properties, see [Device Properties](device-properties.md).
 
@@ -50,9 +55,9 @@ The core audio APIs support additional properties that do not apply exclusively 
 [**Programming Reference**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: CommonDialog object
 description: Contains all the methods that display a UI. The CommonDialog control is an invisible-at-run-time control that you can create using \ 0034;WIA.CommonDialog \ 0034; as the ProgID in a call to CreateObject or by dropping a CommonDialog object on a form.
-ms.assetid: 'f7e46ee7-9d49-482c-a998-92555e979636'
-keywords: ["CommonDialog object WIA Automation", "CommonDialog object WIA Automation , described"]
+ms.assetid: f7e46ee7-9d49-482c-a998-92555e979636
+keywords:
+- CommonDialog object WIA Automation
+- CommonDialog object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CommonDialog object
@@ -42,7 +49,7 @@ The **CommonDialog** object has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,8 +61,8 @@ For example code, see [Display all the Properties for the Selected Device](-wiaa
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -92,9 +99,9 @@ For example code, see [Display all the Properties for the Selected Device](-wiaa
 [**ShowTransfer**](-wiaaut-icommondialog-showtransfer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

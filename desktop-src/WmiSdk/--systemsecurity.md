@@ -1,13 +1,16 @@
 ---
-Description: 'Contains methods that let you access and modify the security settings for a namespace.'
+Description: Contains methods that let you access and modify the security settings for a namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a54fdd85-feb8-4727-9f26-fe4f213cab6b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a54fdd85-feb8-4727-9f26-fe4f213cab6b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_SystemSecurity class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_SystemSecurity class
@@ -17,7 +20,7 @@ The **\_\_SystemSecurity** system class contains methods that let you access and
 > [!Note]  
 > For more information, see [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -96,7 +99,7 @@ This method does not work on supported versions of Windows. Use [<strong>SetSD</
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -108,8 +111,8 @@ You can require that client scripts and applications use an encrypted connection
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -139,9 +142,9 @@ You can require that client scripts and applications use an encrypted connection
 [**Security\_Descriptor**](https://msdn.microsoft.com/library/windows/desktop/aa379561)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

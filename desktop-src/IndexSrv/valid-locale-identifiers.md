@@ -1,7 +1,12 @@
 ---
 title: Valid Locale Identifiers
 description: Valid Locale Identifiers
-ms.assetid: 'f082512e-f2dc-4e1f-83bf-c05b57402eee'
+ms.assetid: f082512e-f2dc-4e1f-83bf-c05b57402eee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Valid Locale Identifiers

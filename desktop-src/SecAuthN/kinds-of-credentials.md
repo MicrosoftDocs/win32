@@ -1,7 +1,12 @@
 ---
-Description: 'Explains the two kinds of credentials with which the Credentials Management API works.'
-ms.assetid: 'eaf1c298-f0af-4b29-a09a-f399da20335d'
+Description: Explains the two kinds of credentials with which the Credentials Management API works.
+ms.assetid: eaf1c298-f0af-4b29-a09a-f399da20335d
 title: Kinds of Credentials
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Kinds of Credentials

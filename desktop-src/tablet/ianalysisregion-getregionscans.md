@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves an array of rectangles that defines the area of the IAnalysisRegion.'
-ms.assetid: '40de4c27-4b3b-4db3-af08-cb53e638db6b'
-title: 'IAnalysisRegion::GetRegionScans method'
+Description: Retrieves an array of rectangles that defines the area of the IAnalysisRegion.
+ms.assetid: 40de4c27-4b3b-4db3-af08-cb53e638db6b
+title: IAnalysisRegionGetRegionScans method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisRegion::GetRegionScans method
@@ -13,8 +18,8 @@ Retrieves an array of rectangles that defines the area of the [**IAnalysisRegion
 
 ```C++
 HRESULT GetRegionScans(
-  [out] ULONG *pulCount,
-  [out] RECT  **pRegionScans
+  [out] ULONG *pulCount,
+  [out] RECT  **pRegionScans
 );
 ```
 
@@ -49,7 +54,7 @@ If *pRegionScans* is passed as **NULL**, the **GetRegionScans** method returns *
 > \[!Caution\]  
 > To avoid a memory leak, use [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) to release the memory from \**pRegionScans* when you no longer need the information.
 
- 
+ 
 
 The bounds of the rectangles are in ink-space coordinates.
 
@@ -83,7 +88,7 @@ region->GetRegionScans(&amp;number, NULL);
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -103,9 +108,9 @@ region->GetRegionScans(&amp;number, NULL);
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

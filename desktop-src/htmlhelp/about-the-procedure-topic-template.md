@@ -1,7 +1,12 @@
 ---
 title: About the Procedure Topic Template
 description: About the Procedure Topic Template
-ms.assetid: 'A8CBFB29-5B38-424a-90F8-197D5154DC61'
+ms.assetid: A8CBFB29-5B38-424a-90F8-197D5154DC61
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Procedure Topic Template

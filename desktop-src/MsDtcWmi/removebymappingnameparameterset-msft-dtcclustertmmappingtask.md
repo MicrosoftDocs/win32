@@ -4,13 +4,16 @@ description: Deletes a cluster DTC mapping object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ef032454-24ff-45d8-8e55-97e58fd2b483'
-ms.prod: 'windows-server-dev'
+ms.assetid: ef032454-24ff-45d8-8e55-97e58fd2b483
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-transaction-coordinator'
-- 'windows-management-instrumentation'
+- distributed-transaction-coordinator
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveByMappingNameParameterSet method", "RemoveByMappingNameParameterSet method, MSFT_DtcClusterTMMappingTask class", "MSFT_DtcClusterTMMappingTask class, RemoveByMappingNameParameterSet method"]
+keywords:
+- RemoveByMappingNameParameterSet method
+- RemoveByMappingNameParameterSet method, MSFT_DtcClusterTMMappingTask class
+- MSFT_DtcClusterTMMappingTask class, RemoveByMappingNameParameterSet method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsDtcWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveByMappingNameParameterSet method of the MSFT\_DtcClusterTMMappingTask class
@@ -30,7 +36,7 @@ Deletes a cluster DTC mapping object.
 
 ```mof
 uint32 RemoveByMappingNameParameterSet(
-  [in] string Name
+  [in] string Name
 );
 ```
 
@@ -57,8 +63,8 @@ Returns "0" on success, otherwise returns a WMI error code.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\MsDTC<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Msdtcwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsDtcWmi.dll</dt> </dl> |
@@ -72,9 +78,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**MSFT\_DtcClusterTMMappingTask**](msft-dtcclustertmmappingtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

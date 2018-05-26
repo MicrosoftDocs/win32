@@ -1,14 +1,19 @@
 ---
-Description: 'Each window class has an associated window procedure shared by all windows of the same class. The window procedure processes messages for all windows of that class and therefore controls their behavior and appearance.'
-ms.assetid: 'db79fd4b-6a15-4bf9-a0d9-5f6415f6c75f'
+Description: Each window class has an associated window procedure shared by all windows of the same class. The window procedure processes messages for all windows of that class and therefore controls their behavior and appearance.
+ms.assetid: db79fd4b-6a15-4bf9-a0d9-5f6415f6c75f
 title: About Window Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Window Classes
 
 Each window class has an associated window procedure shared by all windows of the same class. The window procedure processes messages for all windows of that class and therefore controls their behavior and appearance. For more information, see [Window Procedures](window-procedures.md).
 
-A process must register a window class before it can create a window of that class. Registering a window class associates a window procedure, class styles, and other class attributes with a class name. When a process specifies a class name in the [**CreateWindow**](createwindow.md) or [**CreateWindowEx**](createwindowex.md) function, the system creates a window with the window procedure, styles, and other attributes associated with that class name.
+A process must register a window class before it can create a window of that class. Registering a window class associates a window procedure, class styles, and other class attributes with a class name. When a process specifies a class name in the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) or [**CreateWindowEx**](createwindowex.md) function, the system creates a window with the window procedure, styles, and other attributes associated with that class name.
 
 This section discusses the following topics.
 
@@ -95,17 +100,17 @@ To create a class that can be used in every process, create the window class in 
 
 Whenever a process starts, the system loads the specified .dll in the context of the newly started process before calling its entry-point function. The .dll must register the class during its initialization procedure and must specify the **CS\_GLOBALCLASS** style. For more information, see [Class Styles](#class-styles).
 
-To remove an application global class and free the storage associated with it, use the [**UnregisterClass**](unregisterclass.md) function.
+To remove an application global class and free the storage associated with it, use the [**UnregisterClass**](/windows/win32/Winuser/nf-kusbfnclasslib-usbfnkmclasslibunregisterclassdevice?branch=master) function.
 
 ### Application Local Classes
 
 An [application local class](#application-local-classes) is any window class that an executable or .dll registers for its exclusive use. Although you can register any number of local classes, it is typical to register only one. This window class supports the window procedure of the application's main window.
 
-The system destroys a local class when the module that registered it closes. An application can also use the [**UnregisterClass**](unregisterclass.md) function to remove a local class and free the storage associated with it.
+The system destroys a local class when the module that registered it closes. An application can also use the [**UnregisterClass**](/windows/win32/Winuser/nf-kusbfnclasslib-usbfnkmclasslibunregisterclassdevice?branch=master) function to remove a local class and free the storage associated with it.
 
 ## How the System Locates a Window Class
 
-The system maintains a list of structures for each of the three types of window classes. When an application calls the [**CreateWindow**](createwindow.md) or [**CreateWindowEx**](createwindowex.md) function to create a window with a specified class, the system uses the following procedure to locate the class.
+The system maintains a list of structures for each of the three types of window classes. When an application calls the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) or [**CreateWindowEx**](createwindowex.md) function to create a window with a specified class, the system uses the following procedure to locate the class.
 
 1.  Search the list of application local classes for a class with the specified name whose instance handle matches the module's instance handle. (Several modules can use the same name to register local classes in the same process.)
 2.  If the name is not in the application local class list, search the list of application global classes.
@@ -123,7 +128,7 @@ If you register the window class using the ANSI version of [**RegisterClassEx**]
 
 The executable or DLL that registered the class is the owner of the class. The system determines class ownership from the **hInstance** member of the [**WNDCLASSEX**](wndclassex.md) structure passed to the [**RegisterClassEx**](registerclassex.md) function when the class is registered. For DLLs, the **hInstance** member must be the handle to the .dll instance.
 
-The class is not destroyed when the .dll that owns it is unloaded. Therefore, if the system calls the window procedure for a window of that class, it will cause an access violation, because the .dll containing the window procedure is no longer in memory. The process must destroy all windows using the class before the .dll is unloaded and call the [**UnregisterClass**](unregisterclass.md) function.
+The class is not destroyed when the .dll that owns it is unloaded. Therefore, if the system calls the window procedure for a window of that class, it will cause an access violation, because the .dll containing the window procedure is no longer in memory. The process must destroy all windows using the class before the .dll is unloaded and call the [**UnregisterClass**](/windows/win32/Winuser/nf-kusbfnclasslib-usbfnkmclasslibunregisterclassdevice?branch=master) function.
 
 ## Elements of a Window Class
 

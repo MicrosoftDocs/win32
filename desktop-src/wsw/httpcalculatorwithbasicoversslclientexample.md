@@ -1,8 +1,16 @@
 ---
 title: HttpCalculatorWithBasicOverSslClientExample
 description: This example shows how to use the service proxy to talk to a calculator service, with SSL transport security and HTTP header basic authentication.
-ms.assetid: 'be1a44e6-642c-42fa-8b95-bd8c6f335696'
-keywords: ["HttpCalculatorWithBasicOverSslClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: be1a44e6-642c-42fa-8b95-bd8c6f335696
+keywords:
+- HttpCalculatorWithBasicOverSslClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCalculatorWithBasicOverSslClientExample

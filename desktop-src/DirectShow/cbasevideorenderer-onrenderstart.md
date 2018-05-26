@@ -1,7 +1,12 @@
 ---
-Description: 'The OnRenderStart method sets information for rendering.'
-ms.assetid: '698fe778-e2cb-4b87-a668-084b6c12c71f'
-title: 'CBaseVideoRenderer.OnRenderStart method'
+Description: The OnRenderStart method sets information for rendering.
+ms.assetid: 698fe778-e2cb-4b87-a668-084b6c12c71f
+title: CBaseVideoRenderer.OnRenderStart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.OnRenderStart method
@@ -13,7 +18,7 @@ The `OnRenderStart` method sets information for rendering.
 
 ```C++
 void OnRenderStart(
-   IMediaSample *pMediaSample
+   IMediaSample *pMediaSample
 );
 ```
 
@@ -58,9 +63,9 @@ This member function overrides [**CBaseRenderer::OnRenderStart**](cbaserenderer-
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

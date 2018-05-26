@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a pointer to an array of constant descriptions in the constant table.'
-ms.assetid: 'bd407fd6-b1cc-4197-ae98-1c2ca74d2ad0'
-title: 'ID3DXConstantTable::GetConstantDesc method'
+---
+Description: Gets a pointer to an array of constant descriptions in the constant table.
+ms.assetid: bd407fd6-b1cc-4197-ae98-1c2ca74d2ad0
+title: ID3DXConstantTableGetConstantDesc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXConstantTable::GetConstantDesc method

@@ -1,8 +1,18 @@
 ---
 title: Required Interfaces
 description: Required Interfaces
-ms.assetid: '202d5769-edff-46df-bc05-bbb630a8f3f4'
-keywords: ["Windows Media Player plug-ins,interfaces", "plug-ins,interfaces", "digital signal processing plug-ins,interfaces", "DSP plug-ins,interfaces", "interfaces,DSP plug-ins"]
+ms.assetid: 202d5769-edff-46df-bc05-bbb630a8f3f4
+keywords:
+- Windows Media Player plug-ins,interfaces
+- plug-ins,interfaces
+- digital signal processing plug-ins,interfaces
+- DSP plug-ins,interfaces
+- interfaces,DSP plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Required Interfaces

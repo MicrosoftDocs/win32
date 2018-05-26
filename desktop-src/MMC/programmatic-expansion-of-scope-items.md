@@ -4,11 +4,15 @@ description: This feature is introduced in MMC version 1.1.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fc0c9abb-8622-4600-ae6d-500e9505bb3b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: fc0c9abb-8622-4600-ae6d-500e9505bb3b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["programmatic expansion of scope items MMC"]
+keywords:
+- programmatic expansion of scope items MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Programmatic Expansion of Scope Items

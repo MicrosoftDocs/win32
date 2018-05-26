@@ -1,8 +1,9 @@
 ---
 title: TVM\_DELETEITEM message
 description: Removes an item and all its children from a tree-view control. You can send this message explicitly or by using the TreeView\_DeleteItem macro.
-ms.assetid: '225420a5-6ded-4786-a080-2817aa5f66c9'
-keywords: ["TVM_DELETEITEM message Windows Controls"]
+ms.assetid: 225420a5-6ded-4786-a080-2817aa5f66c9
+keywords:
+- TVM_DELETEITEM message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_DELETEITEM message
 
-Removes an item and all its children from a tree-view control. You can send this message explicitly or by using the [**TreeView\_DeleteItem**](treeview-deleteitem.md) macro.
+Removes an item and all its children from a tree-view control. You can send this message explicitly or by using the [**TreeView\_DeleteItem**](/windows/win32/Commctrl/nf-commctrl-treeview_deleteitem?branch=master) macro.
 
 ## Parameters
 
@@ -27,7 +33,7 @@ Removes an item and all its children from a tree-view control. You can send this
 *lParam* 
 </dt> <dd>
 
-**HTREEITEM** handle to the item to delete. If *lParam* is set to TVI\_ROOT or to **NULL**, all items are deleted. You can also use the [**TreeView\_DeleteAllItems**](treeview-deleteallitems.md) macro to delete all items.
+**HTREEITEM** handle to the item to delete. If *lParam* is set to TVI\_ROOT or to **NULL**, all items are deleted. You can also use the [**TreeView\_DeleteAllItems**](/windows/win32/Commctrl/nf-commctrl-treeview_deleteallitems?branch=master) macro to delete all items.
 
 </dd> </dl>
 
@@ -45,7 +51,7 @@ The parent window receives a [TVN\_DELETEITEM](tvn-deleteitem.md) notification c
 
 If the item label is being edited, the edit operation is canceled and the parent window receives the [TVN\_ENDLABELEDIT](tvn-endlabeledit.md) notification code.
 
-If you delete all items in a tree-view control that has the [**TVS\_NOSCROLL**](tree-view-control-window-styles.md#tvs-noscroll) style, items subsequently added may not display properly. For more information, see [**TreeView\_DeleteAllItems**](treeview-deleteallitems.md).
+If you delete all items in a tree-view control that has the [**TVS\_NOSCROLL**](tree-view-control-window-styles.md#tvs-noscroll) style, items subsequently added may not display properly. For more information, see [**TreeView\_DeleteAllItems**](/windows/win32/Commctrl/nf-commctrl-treeview_deleteallitems?branch=master).
 
 ## Requirements
 
@@ -53,15 +59,15 @@ If you delete all items in a tree-view control that has the [**TVS\_NOSCROLL**](
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

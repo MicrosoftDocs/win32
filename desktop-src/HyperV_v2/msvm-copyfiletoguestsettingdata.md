@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the parameters for copying a file from the host into the guest.'
-ms.assetid: '255F4132-C212-4A3B-A9B8-3F531E7D1CF9'
-title: 'Msvm\_CopyFileToGuestSettingData class'
+Description: Represents the parameters for copying a file from the host into the guest.
+ms.assetid: 255F4132-C212-4A3B-A9B8-3F531E7D1CF9
+title: Msvm\_CopyFileToGuestSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_CopyFileToGuestSettingData class
@@ -16,14 +21,14 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [AMENDMENT]
 class Msvm_CopyFileToGuestSettingData : CIM_SettingData
 {
-  string  Description;
-  string  Caption;
-  string  InstanceID;
-  string  ElementName;
+  string  Description;
+  string  Caption;
+  string  InstanceID;
+  string  ElementName;
   boolean OverwriteExisting;
   boolean CreateFullPath;
-  string  SourcePath;
-  string  DestinationPath;
+  string  SourcePath;
+  string  DestinationPath;
 };
 ```
 
@@ -155,8 +160,8 @@ The complete path of the source file to be copied. This source file must be acce
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -173,9 +178,9 @@ The complete path of the source file to be copied. This source file must be acce
 [**CIM\_SettingData**](https://msdn.microsoft.com/library/cc136911)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

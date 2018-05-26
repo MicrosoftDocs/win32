@@ -1,7 +1,12 @@
 ---
 Description: General Registry Entries
-ms.assetid: '6a140c7f-df8c-4a8e-9e4d-dbb38901e14f'
+ms.assetid: 6a140c7f-df8c-4a8e-9e4d-dbb38901e14f
 title: General Registry Entries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Registry Entries

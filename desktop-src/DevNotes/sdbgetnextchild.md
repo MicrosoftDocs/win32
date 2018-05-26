@@ -1,7 +1,12 @@
-﻿---
-Description: 'Searches for the next child TAG within the specified parent and returns the TAGID of the next child.'
-ms.assetid: 'c7311f20-15ca-4b2d-a08d-8bb992a3a0cd'
+---
+Description: Searches for the next child TAG within the specified parent and returns the TAGID of the next child.
+ms.assetid: c7311f20-15ca-4b2d-a08d-8bb992a3a0cd
 title: SdbGetNextChild function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbGetNextChild function

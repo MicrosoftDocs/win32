@@ -1,8 +1,11 @@
 ---
 title: INapComponentConfig GetConfig method
 description: Retrieves the system health validator (SHV) component configuration.
-ms.assetid: '57a1d3a7-05c0-4e0f-91b8-b3cf8982d04f'
-keywords: ["GetConfig method NAP", "GetConfig method NAP , INapComponentConfig interface", "INapComponentConfig interface NAP , GetConfig method"]
+ms.assetid: 57a1d3a7-05c0-4e0f-91b8-b3cf8982d04f
+keywords:
+- GetConfig method NAP
+- GetConfig method NAP , INapComponentConfig interface
+- INapComponentConfig interface NAP , GetConfig method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentConfig::GetConfig method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **GetConfig** method retrieves the system health validator (SHV) component configuration.
 
@@ -27,8 +35,8 @@ The **GetConfig** method retrieves the system health validator (SHV) component c
 
 ```C++
 HRESULT GetConfig(
-  [out] UINT16 *bCount,
-  [out] BYTE   **data
+  [out] UINT16 *bCount,
+  [out] BYTE   **data
 ) const;
 ```
 
@@ -53,7 +61,7 @@ A pointer to the address of the SHV component configuration data.
 > [!Note]  
 > Configuration data exported from an x86 machine using the **GetConfig** method may be imported onto an x64 machine using the [**SetConfig**](inapcomponentconfig-setconfig.md) method, and vice versa. Therefore, configuration data must be in an architecture-agnostic format such as XML. Using XML instead of a byte stream makes it easier to use configuration data on different architectures. The XML elements used in the configuration data are determined by the implementer.
 
- 
+ 
 
 </dd> </dl>
 
@@ -71,7 +79,7 @@ Returns one of the following error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -84,7 +92,7 @@ The data parameter must be allocated by the callee (component implementor) using
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -100,9 +108,9 @@ The data parameter must be allocated by the callee (component implementor) using
 [**INapComponentConfig::SetConfig**](inapcomponentconfig-setconfig.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

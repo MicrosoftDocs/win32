@@ -1,7 +1,12 @@
 ---
-Description: 'The SetBufferValue method adds a new BYTE\* value (type VT\_VECTOR \| VT\_UI1) or overwrites an existing one.'
-ms.assetid: '6c421240-2ff8-4862-bd90-1feee5d15a8d'
-title: 'IPortableDeviceValues::SetBufferValue method'
+Description: The SetBufferValue method adds a new BYTE\* value (type VT\_VECTOR \| VT\_UI1) or overwrites an existing one.
+ms.assetid: 6c421240-2ff8-4862-bd90-1feee5d15a8d
+title: IPortableDeviceValuesSetBufferValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetBufferValue method
@@ -13,9 +18,9 @@ The **SetBufferValue** method adds a new **BYTE**\* value (type VT\_VECTOR \| VT
 
 ```C++
 HRESULT SetBufferValue(
-  [in] REFPROPERTYKEY key,
-  [in] BYTE           *pValue,
-  [in] DWORD          cbValue
+  [in] REFPROPERTYKEY key,
+  [in] BYTE           *pValue,
+  [in] DWORD          cbValue
 );
 ```
 
@@ -58,7 +63,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -87,9 +92,9 @@ Setting a **NULL** or a zero-sized buffer is not supported.
 [**IPortableDeviceValues::GetBufferValue**](iportabledevicevalues-getbuffervalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

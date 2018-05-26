@@ -1,13 +1,16 @@
 ---
-Description: 'The COOKER\_AVERAGE counter type formula provides the statistical midpoint of the data for a counter.'
+Description: The COOKER\_AVERAGE counter type formula provides the statistical midpoint of the data for a counter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5121cd02-b122-48fd-995a-cf6c77948fd8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5121cd02-b122-48fd-995a-cf6c77948fd8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'COOKER\_AVERAGE'
+title: COOKER\_AVERAGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # COOKER\_AVERAGE

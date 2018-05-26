@@ -1,7 +1,12 @@
 ---
 title: Programming with Visual C++
 description: Programming with Visual C++
-ms.assetid: '6068f886-2a06-4370-a317-85aa151a85d7'
+ms.assetid: 6068f886-2a06-4370-a317-85aa151a85d7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming with Visual C++

@@ -1,7 +1,12 @@
 ---
-Description: 'The MsiPatchOldAssemblyName table specifies the old name for an assembly.'
-ms.assetid: 'e9f22ba1-6be4-4382-abe5-5cfdc68c0855'
+Description: The MsiPatchOldAssemblyName table specifies the old name for an assembly.
+ms.assetid: e9f22ba1-6be4-4382-abe5-5cfdc68c0855
 title: MsiPatchOldAssemblyName Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiPatchOldAssemblyName Table

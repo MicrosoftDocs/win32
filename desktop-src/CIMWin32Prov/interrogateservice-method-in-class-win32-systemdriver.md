@@ -1,15 +1,18 @@
 ---
-Description: 'Requests that the system driver service update its state to the service manager.'
+Description: Requests that the system driver service update its state to the service manager.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '350d9044-39fd-436f-ab15-b30324b2b2e9'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 350d9044-39fd-436f-ab15-b30324b2b2e9
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'InterrogateService method of the Win32\_SystemDriver class'
+title: InterrogateService method of the Win32\_SystemDriver class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InterrogateService method of the Win32\_SystemDriver class
@@ -41,8 +44,8 @@ Returns a value of 0 (zero) if the **InterrogateService** request was accepted, 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -62,9 +65,9 @@ Returns a value of 0 (zero) if the **InterrogateService** request was accepted, 
 [**Win32\_BaseService**](win32-baseservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

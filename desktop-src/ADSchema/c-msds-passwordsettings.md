@@ -4,17 +4,22 @@ description: Password settings object for accounts.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4e3a5a80-4f55-4c26-b5af-ace9dd853836'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4e3a5a80-4f55-4c26-b5af-ace9dd853836
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Password-Settings class AD Schema", "msDS-PasswordSettings class AD Schema"]
+keywords:
+- ms-DS-Password-Settings class AD Schema
+- msDS-PasswordSettings class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Password-Settings
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Password-Settings class
@@ -24,7 +29,7 @@ Password settings object for accounts.
 > [!Note]  
 > This classSchema object is created with a list of systemMustContain OIDs. This is a list of attributes that a Password Settings Object (PSO) must contain or else the creation of the PSO will fail.
 
- 
+ 
 
 
 
@@ -40,9 +45,9 @@ Password settings object for accounts.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -69,7 +74,7 @@ Password settings object for accounts.
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -219,7 +224,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -376,7 +381,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -514,9 +519,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

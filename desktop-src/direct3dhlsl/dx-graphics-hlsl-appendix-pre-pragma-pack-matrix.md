@@ -1,14 +1,20 @@
 ---
 title: pack\_matrix pragma Directive
 description: Pragma directive that specifies packing alignment for matrices.
-ms.assetid: 'e77dc007-d915-4d78-9fff-d44d4999e4da'
-keywords: ["pack_matrix pragma Directive HLSL"]
+ms.assetid: e77dc007-d915-4d78-9fff-d44d4999e4da
+keywords:
+- pack_matrix pragma Directive HLSL
 topic_type:
 - apiref
 api_name:
 - pack_matrix pragma Directive
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # pack\_matrix pragma Directive
@@ -22,7 +28,7 @@ Pragma directive that specifies packing alignment for matrices.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -62,14 +68,14 @@ Pragma directive that specifies packing alignment for matrices.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Examples
 
@@ -92,9 +98,9 @@ The following example sets the matrix packing alignment to row major.
 [\#pragma Directive (DirectX HLSL)](dx-graphics-hlsl-appendix-pre-pragma.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

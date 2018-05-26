@@ -1,7 +1,12 @@
-﻿---
-Description: 'Unregisters the specified database, making it no longer available.'
-ms.assetid: '7e6c50f4-85f6-4b33-b639-d8fda143e5e7'
+---
+Description: Unregisters the specified database, making it no longer available.
+ms.assetid: 7e6c50f4-85f6-4b33-b639-d8fda143e5e7
 title: SdbUnregisterDatabase function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbUnregisterDatabase function

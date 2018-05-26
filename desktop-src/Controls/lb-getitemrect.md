@@ -1,8 +1,9 @@
 ---
 title: LB\_GETITEMRECT message
 description: Gets the dimensions of the rectangle that bounds a list box item as it is currently displayed in the list box.
-ms.assetid: '84f94bc9-f7a4-4c2d-8c35-1bd291082af9'
-keywords: ["LB_GETITEMRECT message Windows Controls"]
+ms.assetid: 84f94bc9-f7a4-4c2d-8c35-1bd291082af9
+keywords:
+- LB_GETITEMRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_GETITEMRECT message
@@ -26,7 +32,7 @@ Gets the dimensions of the rectangle that bounds a list box item as it is curren
 
 The zero-based index of the item.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
 
 </dd> <dt>
 
@@ -47,8 +53,8 @@ If an error occurs, the return value is LB\_ERR.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ If an error occurs, the return value is LB\_ERR.
 [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: This section presents an overview of Active Directory Lightweight D
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '60168c18-5971-4e89-86ff-b9af85732f9c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 60168c18-5971-4e89-86ff-b9af85732f9c
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS ADAM , about"]
+keywords:
+- AD LDS ADAM , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Active Directory Lightweight Directory Services

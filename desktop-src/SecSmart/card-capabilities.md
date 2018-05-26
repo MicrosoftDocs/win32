@@ -1,8 +1,10 @@
 ---
 title: CARD\_CAPABILITIES structure
 description: Contains information about the capabilities of a smart card.
-ms.assetid: '94c45ee0-486e-41cd-aee8-6a11939c538d'
-keywords: ["CARD_CAPABILITIES structure Security", "PCARD_CAPABILITIES structure pointer Security"]
+ms.assetid: 94c45ee0-486e-41cd-aee8-6a11939c538d
+keywords:
+- CARD_CAPABILITIES structure Security
+- PCARD_CAPABILITIES structure pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CARD\_CAPABILITIES structure
@@ -25,8 +32,8 @@ The **CARD\_CAPABILITIES** structure contains information about the capabilities
 ```C++
 typedef struct _CARD_CAPABILITIES {
   DWORD dwVersion;
-  BOOL  fCertificateCompression;
-  BOOL  fKeyGen;
+  BOOL  fCertificateCompression;
+  BOOL  fKeyGen;
 } CARD_CAPABILITIES, *PCARD_CAPABILITIES;
 ```
 
@@ -67,8 +74,8 @@ The [**CardQueryCapabilities**](cardquerycapabilities.md) function initializes t
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -80,9 +87,9 @@ The [**CardQueryCapabilities**](cardquerycapabilities.md) function initializes t
 [**CardQueryCapabilities**](cardquerycapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: BitsClientJob class
 description: The BitsClientJob class provides methods to manage Background Intelligent Transfer Service (BITS) transfer jobs.
-ms.assetid: '9eb1009f-395e-42cf-a981-f219dafc0584'
-keywords: ["BitsClientJob class", "BitsClientJob class, described"]
+ms.assetid: 9eb1009f-395e-42cf-a981-f219dafc0584
+keywords:
+- BitsClientJob class
+- BitsClientJob class, described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BitsClientJob class
@@ -42,23 +49,23 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("BitsClientProv"), Dynamic]
 class BitsClientJob
 {
-  string         JobId;
-  string         DisplayName;
-  string         Description;
-  uint32         Priority;
-  uint32         MinimumRetryDelay;
-  uint32         NoProgressTimeout;
+  string         JobId;
+  string         DisplayName;
+  string         Description;
+  uint32         Priority;
+  uint32         MinimumRetryDelay;
+  uint32         NoProgressTimeout;
   BitsClientFile Files[];
-  uint64         JobCreationTime;
-  uint64         JobLastModificationTime;
-  uint64         JobCompletionTime;
-  uint64         BytesTotal;
-  uint64         BytesTransferred;
-  uint32         FilesTotal;
-  uint32         FilesTransferred;
-  uint32         TransientErrorCount;
-  uint16         State;
-  string         Owner;
+  uint64         JobCreationTime;
+  uint64         JobLastModificationTime;
+  uint64         JobCompletionTime;
+  uint64         BytesTotal;
+  uint64         BytesTransferred;
+  uint32         FilesTotal;
+  uint32         FilesTransferred;
+  uint32         TransientErrorCount;
+  uint16         State;
+  string         Owner;
 };
 ```
 
@@ -90,7 +97,7 @@ The **BitsClientJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -330,16 +337,16 @@ If a BITS transfer job exists that was created by a user who no longer exists on
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

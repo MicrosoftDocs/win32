@@ -1,7 +1,12 @@
 ---
-Description: 'The InitialThreadProc method calls the COutputQueue::ThreadProc method when the thread is created.'
-ms.assetid: '6093f0c3-ec58-418d-bb8c-618163c43ac7'
-title: 'COutputQueue.InitialThreadProc method'
+Description: The InitialThreadProc method calls the COutputQueueThreadProc method when the thread is created.
+ms.assetid: 6093f0c3-ec58-418d-bb8c-618163c43ac7
+title: COutputQueue.InitialThreadProc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue.InitialThreadProc method
@@ -13,7 +18,7 @@ The `InitialThreadProc` method calls the [**COutputQueue::ThreadProc**](coutputq
 
 ```C++
 static DWORD WINAPI InitialThreadProc(
-   LPVOID pv
+   LPVOID pv
 );
 ```
 
@@ -56,9 +61,9 @@ This method is the thread procedure for the object's worker thread. The object's
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

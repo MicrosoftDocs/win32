@@ -1,7 +1,12 @@
 ---
 title: Creating the Form
 description: Creating the Form
-ms.assetid: '4ba6f404-9eb2-4e5d-98cc-558321810a98'
+ms.assetid: 4ba6f404-9eb2-4e5d-98cc-558321810a98
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Form

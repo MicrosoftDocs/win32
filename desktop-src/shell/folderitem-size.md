@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the item''s size.'
-ms.assetid: '0eda405e-d54f-48d2-a060-a1fdcdb23785'
-title: 'FolderItem.Size property'
+---
+Description: Contains the items size.
+ms.assetid: 0eda405e-d54f-48d2-a060-a1fdcdb23785
+title: FolderItem.Size property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItem.Size property

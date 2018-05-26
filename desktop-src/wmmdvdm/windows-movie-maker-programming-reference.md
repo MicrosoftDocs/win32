@@ -1,8 +1,18 @@
 ---
 title: Windows Movie Maker Programming Reference
 description: Windows Movie Maker Programming Reference
-ms.assetid: '58593ce8-ee72-471c-a67d-f0798979d468'
-keywords: ["Windows Movie Maker,programming reference", "Movie Maker,programming reference", "programming reference,Windows Movie Maker", "reference for Windows Movie Maker,about", "Windows Vista,Windows Movie Maker programming reference"]
+ms.assetid: 58593ce8-ee72-471c-a67d-f0798979d468
+keywords:
+- Windows Movie Maker,programming reference
+- Movie Maker,programming reference
+- programming reference,Windows Movie Maker
+- reference for Windows Movie Maker,about
+- Windows Vista,Windows Movie Maker programming reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Movie Maker Programming Reference

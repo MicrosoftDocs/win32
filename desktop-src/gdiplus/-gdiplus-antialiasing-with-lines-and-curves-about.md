@@ -1,7 +1,12 @@
 ---
-Description: 'When you use Windows GDI+ to draw a line, you provide the starting point and ending point of the line, but you don''t have to provide any information about the individual pixels on the line.'
-ms.assetid: '7c4869c1-76ff-42d1-abf1-387121943b2a'
+Description: When you use Windows GDI+ to draw a line, you provide the starting point and ending point of the line, but you dont have to provide any information about the individual pixels on the line.
+ms.assetid: 7c4869c1-76ff-42d1-abf1-387121943b2a
 title: Antialiasing with Lines and Curves
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Antialiasing with Lines and Curves
@@ -26,7 +31,7 @@ The following illustration shows the same ellipse in its actual size, once witho
 
 ![screen shot of two ellipses: the one with antialiasing appears noticably smoother](images/aboutgdip02-art36.png)
 
-To draw lines and curves that use antialiasing, create a [**Graphics**](-gdiplus-class-graphics-class.md) object and pass *SmoothingModeAntiAlias* to its [**Graphics::SetSmoothingMode**](-gdiplus-class-graphics-setsmoothingmode-smoothingmode-.md) method. Then call one of the drawing methods of that same **Graphics** object.
+To draw lines and curves that use antialiasing, create a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object and pass *SmoothingModeAntiAlias* to its [**Graphics::SetSmoothingMode**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-setsmoothingmode?branch=master) method. Then call one of the drawing methods of that same **Graphics** object.
 
 
 ```
@@ -36,7 +41,7 @@ myGraphics.DrawLine(&amp;myPen, 0, 0, 12, 8);
 
 
 
-**SmoothingModeAntiAlias** is an element of the [**SmoothingMode**](-gdiplus-enum-smoothingmode.md) enumeration.
+**SmoothingModeAntiAlias** is an element of the [**SmoothingMode**](/windows/win32/Gdiplusenums/ne-gdiplusenums-smoothingmode?branch=master) enumeration.
 
  
 

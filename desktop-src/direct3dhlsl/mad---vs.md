@@ -1,7 +1,12 @@
 ---
 title: mad - vs
 description: Multiplies and adds sources.
-ms.assetid: '059f0bf6-d143-4efc-b074-0ed026edb008'
+ms.assetid: 059f0bf6-d143-4efc-b074-0ed026edb008
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mad - vs

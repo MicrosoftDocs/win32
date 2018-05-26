@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the time needed to play an Advanced Systems Format (ASF) file, in 100-nanosecond units.'
-ms.assetid: '3d36808b-aa13-4205-ad92-97e951ee827e'
-title: 'MF\_PD\_ASF\_FILEPROPERTIES\_PLAY\_DURATION attribute'
+---
+Description: Specifies the time needed to play an Advanced Systems Format (ASF) file, in 100-nanosecond units.
+ms.assetid: 3d36808b-aa13-4205-ad92-97e951ee827e
+title: MF\_PD\_ASF\_FILEPROPERTIES\_PLAY\_DURATION attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_ASF\_FILEPROPERTIES\_PLAY\_DURATION attribute
@@ -18,7 +23,7 @@ This value includes the preroll time. To retrieve the actual playback duration, 
 
 This attribute applies to presentation descriptors for ASF content.
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method generates this attribute from the ASF metadata.
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method generates this attribute from the ASF metadata.
 
 ## Examples
 
@@ -63,13 +68,13 @@ HRESULT GetPlayDuration(
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetGUID**](imfattributes-getguid.md)
+[**IMFAttributes::GetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getguid?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetGUID**](imfattributes-setguid.md)
+[**IMFAttributes::SetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setguid?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

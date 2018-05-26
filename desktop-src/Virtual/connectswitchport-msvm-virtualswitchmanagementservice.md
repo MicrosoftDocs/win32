@@ -1,8 +1,11 @@
 ---
 title: ConnectSwitchPort method of the Msvm\_VirtualSwitchManagementService class
 description: Connects a switch port to a LAN endpoint. Upon success of the connection, an active connection instance will be created that associates the port with the LAN endpoint.
-ms.assetid: '47aa6954-972f-474c-8514-90838ffb7d50'
-keywords: ["ConnectSwitchPort method Hyper-V", "ConnectSwitchPort method Hyper-V , Msvm_VirtualSwitchManagementService class", "Msvm_VirtualSwitchManagementService class Hyper-V , ConnectSwitchPort method"]
+ms.assetid: 47aa6954-972f-474c-8514-90838ffb7d50
+keywords:
+- ConnectSwitchPort method Hyper-V
+- ConnectSwitchPort method Hyper-V , Msvm_VirtualSwitchManagementService class
+- Msvm_VirtualSwitchManagementService class Hyper-V , ConnectSwitchPort method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConnectSwitchPort method of the Msvm\_VirtualSwitchManagementService class
@@ -22,9 +30,9 @@ Connects a switch port to a LAN endpoint. Upon success of the connection, an act
 
 ```mof
 uint32 ConnectSwitchPort(
-  [in]  Msvm_SwitchPort       REF SwitchPort,
-  [in]  CIM_LANEndpoint       REF LANEndpoint,
-  [out] Msvm_ActiveConnection REF ActiveConnection
+  [in]  Msvm_SwitchPort       REF SwitchPort,
+  [in]  CIM_LANEndpoint       REF LANEndpoint,
+  [out] Msvm_ActiveConnection REF ActiveConnection
 );
 ```
 
@@ -535,9 +543,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -550,9 +558,9 @@ End Function
 [**Msvm\_VirtualSwitchManagementService**](msvm-virtualswitchmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

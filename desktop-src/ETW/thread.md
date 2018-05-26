@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the parent class for thread events. The following syntax is simplified from MOF code.'
-ms.assetid: '861ab070-5536-4897-b523-9b09a7d59b3e'
+---
+Description: This class is the parent class for thread events. The following syntax is simplified from MOF code.
+ms.assetid: 861ab070-5536-4897-b523-9b09a7d59b3e
 title: Thread class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thread class

@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_ShutdownEvent class is a WMI class that represent
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '50e80f3a-dbe6-471a-b687-7f4ba8fed079'
-ms.prod: 'windows-server-dev'
+ms.assetid: 50e80f3a-dbe6-471a-b687-7f4ba8fed079
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_ShutdownEvent class", "MicrosoftNLB_ShutdownEvent class, described"]
+keywords:
+- MicrosoftNLB_ShutdownEvent class
+- MicrosoftNLB_ShutdownEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_ShutdownEvent class
@@ -37,9 +42,9 @@ The following syntax is simplified from MOF code, and includes all inherited pro
 [WMI, Dynamic, Provider("WmiProv"), guid("{FD868ED2-8613-480d-B33B-8FE0A8796605}"), AMENDMENT]
 class MicrosoftNLB_ShutdownEvent : WmiEvent
 {
-  uint8   SECURITY_DESCRIPTOR[];
-  uint64  TIME_CREATED;
-  string  InstanceName;
+  uint8   SECURITY_DESCRIPTOR[];
+  uint64  TIME_CREATED;
+  string  InstanceName;
   boolean Active;
 };
 ```
@@ -124,7 +129,7 @@ The **MicrosoftNLB\_ShutdownEvent** class is derived from the [**WMIEvent**](htt
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -144,9 +149,9 @@ The **MicrosoftNLB\_ShutdownEvent** class is derived from the [**WMIEvent**](htt
 [**WMIEvent**](https://msdn.microsoft.com/library/windows/desktop/aa394532)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

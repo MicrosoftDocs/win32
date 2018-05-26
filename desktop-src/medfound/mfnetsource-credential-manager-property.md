@@ -1,12 +1,17 @@
-﻿---
-Description: 'Contains a pointer to the IMFNetCredentialManager interface.'
-ms.assetid: 'c0826956-9df1-40ec-8ad1-9e0dca34d847'
-title: 'MFNETSOURCE\_CREDENTIAL\_MANAGER property'
+---
+Description: Contains a pointer to the IMFNetCredentialManager interface.
+ms.assetid: c0826956-9df1-40ec-8ad1-9e0dca34d847
+title: MFNETSOURCE\_CREDENTIAL\_MANAGER property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_CREDENTIAL\_MANAGER property
 
-Contains a pointer to the [**IMFNetCredentialManager**](imfnetcredentialmanager.md) interface. Use this property to pass the application's implementation of [**IMFNetCredentialManager**](imfnetcredentialmanager.md) to the network source.
+Contains a pointer to the [**IMFNetCredentialManager**](/windows/win32/mfidl/nn-mfidl-imfnetcredentialmanager?branch=master) interface. Use this property to pass the application's implementation of [**IMFNetCredentialManager**](/windows/win32/mfidl/nn-mfidl-imfnetcredentialmanager?branch=master) to the network source.
 
 
 

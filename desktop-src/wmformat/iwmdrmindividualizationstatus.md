@@ -1,14 +1,21 @@
 ---
 title: IWMDRMIndividualizationStatus interface
 description: The IWMDRMIndividualizationStatus interface enables retrieval of advanced status information about the progress of individualization.This interface is delivered with MEWMDRMIndividualizationProgress events.
-ms.assetid: '3a148005-22fa-4495-a47c-d9463db16293'
-keywords: ["IWMDRMIndividualizationStatus interface windows Media Format", "IWMDRMIndividualizationStatus interface windows Media Format , described"]
+ms.assetid: 3a148005-22fa-4495-a47c-d9463db16293
+keywords:
+- IWMDRMIndividualizationStatus interface windows Media Format
+- IWMDRMIndividualizationStatus interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMIndividualizationStatus
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMIndividualizationStatus interface
@@ -37,7 +44,7 @@ The **IWMDRMIndividualizationStatus** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -46,9 +53,9 @@ The **IWMDRMIndividualizationStatus** interface has these methods.
 [**Interfaces**](drm-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

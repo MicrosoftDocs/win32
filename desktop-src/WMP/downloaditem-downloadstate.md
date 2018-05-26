@@ -1,8 +1,9 @@
 ---
 title: DownloadItem.downloadState
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The downloadState property retrieves the state of the download.
-ms.assetid: 'dde27f43-40ee-4eb9-b316-42312ee937d0'
-keywords: ["DownloadItem.downloadState Windows Media Player"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The downloadState property retrieves the state of the download.
+ms.assetid: dde27f43-40ee-4eb9-b316-42312ee937d0
+keywords:
+- DownloadItem.downloadState Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadItem.downloadState
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **downloadState** property retrieves the state of the download.
 
@@ -49,7 +55,7 @@ This property is a read-only **Number** containing one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -73,9 +79,9 @@ Download states can occur in any order. Do not write code that depends on the oc
 [**DownloadItem Object**](downloaditem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,32 @@
 ---
 title: Messenger Session Invite and Messenger Private APIs
 description: This topic provides information about the Messenger Session Invite APIs that provide a way to run peer-to-peer applications for any two Messenger client users.
-ms.assetid: '8cf20142-f7fe-49ee-913b-8178d7bb1169'
-keywords: ["Windows Messenger,Messenger Session Invite", "Messenger client,Messenger Session Invite", "Windows Messenger,Messenger Private", "Messenger client,Messenger Private", "Messenger Session Invite", "Messenger Private", "Microsoft .NET Messenger Service", "unlocking Messenger service", "Messenger service,unlocking", "Messenger Lock and Key,unlocking Messenger service", "Lock and Key,unlocking Messenger service", "Windows Messenger,Lock and Key", "Windows Messenger,unlocking Messenger service", "MsgrSession object", "MsgrSessionManager object", "MessengerPriv object", "Windows Messenger,sending invitations", "Messenger client,sending invitations", "Messenger service,sending invitations"]
+ms.assetid: 8cf20142-f7fe-49ee-913b-8178d7bb1169
+keywords:
+- Windows Messenger,Messenger Session Invite
+- Messenger client,Messenger Session Invite
+- Windows Messenger,Messenger Private
+- Messenger client,Messenger Private
+- Messenger Session Invite
+- Messenger Private
+- Microsoft .NET Messenger Service
+- unlocking Messenger service
+- Messenger service,unlocking
+- Messenger Lock and Key,unlocking Messenger service
+- Lock and Key,unlocking Messenger service
+- Windows Messenger,Lock and Key
+- Windows Messenger,unlocking Messenger service
+- MsgrSession object
+- MsgrSessionManager object
+- MessengerPriv object
+- Windows Messenger,sending invitations
+- Messenger client,sending invitations
+- Messenger service,sending invitations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Messenger Session Invite and Messenger Private APIs

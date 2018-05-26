@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the ArchiveOutboundFaxes property for a FaxServer object. The ArchiveOutboundFaxes property is a Boolean value that indicates whether the fax server archives outgoing fax transmissions.'
-ms.assetid: 'af23fb55-68e0-42bb-bdcb-1cddcf4328b8'
-title: 'FaxServer.ArchiveOutboundFaxes property'
+---
+Description: Sets or retrieves the ArchiveOutboundFaxes property for a FaxServer object. The ArchiveOutboundFaxes property is a Boolean value that indicates whether the fax server archives outgoing fax transmissions.
+ms.assetid: af23fb55-68e0-42bb-bdcb-1cddcf4328b8
+title: FaxServer.ArchiveOutboundFaxes property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.ArchiveOutboundFaxes property

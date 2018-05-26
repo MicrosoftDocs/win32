@@ -4,17 +4,21 @@ description: Implements an exception which is used when a retry can help in solv
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bdab43de-f6b3-4c44-8c89-d2431323856a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: bdab43de-f6b3-4c44-8c89-d2431323856a
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ServiceNotAvailableException class"]
+keywords:
+- ServiceNotAvailableException class
 topic_type:
 - apiref
 api_name:
 - ServiceNotAvailableException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ServiceNotAvailableException class
@@ -32,7 +36,7 @@ public class ServiceNotAvailableException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -43,7 +47,7 @@ public class ServiceNotAvailableException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -56,7 +60,7 @@ public class ServiceNotAvailableException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -74,9 +78,9 @@ The **ServiceNotAvailableException** class extends the [**ProtectionException**]
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

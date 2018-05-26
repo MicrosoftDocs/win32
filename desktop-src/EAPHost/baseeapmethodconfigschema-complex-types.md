@@ -1,7 +1,12 @@
 ---
 title: baseeapmethodconfig Schema Complex Types
 description: Defines the following complex type.
-ms.assetid: 'dd3361db-f54c-4879-b656-414d9cbaf1f2'
+ms.assetid: dd3361db-f54c-4879-b656-414d9cbaf1f2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # baseeapmethodconfig Schema Complex Types

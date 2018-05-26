@@ -1,7 +1,12 @@
 ---
-Description: 'ICEM11 verifies that a Configurable Merge Module lists the ModuleConfiguration table and ModuleSubstitution table in the ModuleIgnoreTable table of the module.'
-ms.assetid: 'f0199137-0a40-40ca-b3cf-ff8eef4309cc'
+Description: ICEM11 verifies that a Configurable Merge Module lists the ModuleConfiguration table and ModuleSubstitution table in the ModuleIgnoreTable table of the module.
+ms.assetid: f0199137-0a40-40ca-b3cf-ff8eef4309cc
 title: ICEM11
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICEM11

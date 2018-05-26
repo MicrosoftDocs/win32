@@ -1,14 +1,20 @@
 ---
 title: VIEW.minimize
 description: The minimize method minimizes the VIEW.
-ms.assetid: '97c257fa-aa4f-4e6f-bc49-fa54db63b59b'
-keywords: ["VIEW.minimize Windows Media Player"]
+ms.assetid: 97c257fa-aa4f-4e6f-bc49-fa54db63b59b
+keywords:
+- VIEW.minimize Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.minimize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.minimize
@@ -62,9 +68,9 @@ This method does not return a value.
 [**VIEW.maximize**](view-maximize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

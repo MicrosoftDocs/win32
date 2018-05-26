@@ -4,13 +4,16 @@ description: Creates a new virtual disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e6a422a1-2918-4870-bebe-b8a865a181fc'
-ms.prod: 'windows-server-dev'
+ms.assetid: e6a422a1-2918-4870-bebe-b8a865a181fc
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["NewWTDisk method iSCSI Software Target API", "NewWTDisk method iSCSI Software Target API , WT_Disk class", "WT_Disk class iSCSI Software Target API , NewWTDisk method"]
+keywords:
+- NewWTDisk method iSCSI Software Target API
+- NewWTDisk method iSCSI Software Target API , WT_Disk class
+- WT_Disk class iSCSI Software Target API , NewWTDisk method
 topic_type:
 - apiref
 api_name:
@@ -19,23 +22,26 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NewWTDisk method of the WT\_Disk class
 
 Creates a new virtual disk.
 
-**Windows Server 2012 R2:** This method is deprecated. Use [**CreateRamWTDisk**](createramwtdisk-wt-disk.md), [**CreateVhdWTDisk**](createvhdwtdisk-wt-disk.md), or [**ImportWTDisk**](importwtdisk-wt-disk.md) instead.
+**Windows Server 2012 R2:** This method is deprecated. Use [**CreateRamWTDisk**](createramwtdisk-wt-disk.md), [**CreateVhdWTDisk**](createvhdwtdisk-wt-disk.md), or [**ImportWTDisk**](importwtdisk-wt-disk.md) instead.
 
 ## Syntax
 
 
 ```mof
 WT_Disk NewWTDisk(
-  [in] string  DevicePath,
-  [in] string  Description,
-  [in] boolean ClearPartTable,
-  [in] uint32  SizeInMB
+  [in] string  DevicePath,
+  [in] string  Description,
+  [in] boolean ClearPartTable,
+  [in] uint32  SizeInMB
 );
 ```
 
@@ -84,7 +90,7 @@ If the Microsoft iSCSI Target Server service is running on a Microsoft Failover 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
@@ -107,9 +113,9 @@ If the Microsoft iSCSI Target Server service is running on a Microsoft Failover 
 [**ImportWTDisk**](importwtdisk-wt-disk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

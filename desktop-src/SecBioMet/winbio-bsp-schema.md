@@ -1,8 +1,10 @@
 ---
 title: WINBIO\_BSP\_SCHEMA structure
 description: Describes the capabilities of a biometric service provider.
-ms.assetid: 'd690c735-55a1-4e2c-8b39-d52a1972bf93'
-keywords: ["WINBIO_BSP_SCHEMA structure Windows Biometric Framework API", "PWINBIO_BSP_SCHEMA structure pointer Windows Biometric Framework API"]
+ms.assetid: d690c735-55a1-4e2c-8b39-d52a1972bf93
+keywords:
+- WINBIO_BSP_SCHEMA structure Windows Biometric Framework API
+- PWINBIO_BSP_SCHEMA structure pointer Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_BSP\_SCHEMA structure
 
-The **WINBIO\_BSP\_SCHEMA** structure describes the capabilities of a biometric service provider. This structure is used by the [**WinBioEnumServiceProviders**](winbioenumserviceproviders.md) function.
+The **WINBIO\_BSP\_SCHEMA** structure describes the capabilities of a biometric service provider. This structure is used by the [**WinBioEnumServiceProviders**](/windows/win32/Winbio/nf-winbio-winbioenumserviceproviders?branch=master) function.
 
 ## Syntax
 
@@ -23,10 +30,10 @@ The **WINBIO\_BSP\_SCHEMA** structure describes the capabilities of a biometric 
 ```C++
 typedef struct _WINBIO_BSP_SCHEMA {
   WINBIO_BIOMETRIC_TYPE BiometricFactor;
-  WINBIO_UUID           BspId;
-  WINBIO_STRING         Description;
-  WINBIO_STRING         Vendor;
-  WINBIO_VERSION        Version;
+  WINBIO_UUID           BspId;
+  WINBIO_STRING         Description;
+  WINBIO_STRING         Vendor;
+  WINBIO_VERSION        Version;
 } WINBIO_BSP_SCHEMA, *PWINBIO_BSP_SCHEMA;
 ```
 
@@ -77,8 +84,8 @@ A [**WINBIO\_VERSION**](winbio-version.md) structure the contains the software v
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -90,12 +97,12 @@ A [**WINBIO\_VERSION**](winbio-version.md) structure the contains the software v
 [Client Application Structures](client-application-structures.md)
 </dt> <dt>
 
-[**WinBioEnumServiceProviders**](winbioenumserviceproviders.md)
+[**WinBioEnumServiceProviders**](/windows/win32/Winbio/nf-winbio-winbioenumserviceproviders?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

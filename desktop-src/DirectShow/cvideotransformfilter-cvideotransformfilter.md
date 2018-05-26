@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '4dad635f-4637-4f40-9f02-a91b59d05278'
-title: 'CVideoTransformFilter.CVideoTransformFilter constructor'
+Description: Constructor method.
+ms.assetid: 4dad635f-4637-4f40-9f02-a91b59d05278
+title: CVideoTransformFilter.CVideoTransformFilter constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CVideoTransformFilter.CVideoTransformFilter constructor
@@ -13,9 +18,9 @@ Constructor method.
 
 ```C++
 CVideoTransformFilter(
-   TCHAR     *pName,
-   LPUNKNOWN pUnk,
-   REFCLSID  clsid
+   TCHAR     *pName,
+   LPUNKNOWN pUnk,
+   REFCLSID  clsid
 );
 ```
 
@@ -64,9 +69,9 @@ Class identifier of the filter.
 [**CVideoTransformFilter Class**](cvideotransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

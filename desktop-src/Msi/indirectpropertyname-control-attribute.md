@@ -1,7 +1,12 @@
 ---
-Description: 'This attribute is the name of an indirect property associated with the control.'
-ms.assetid: 'f6834427-014b-4c6f-b6bb-d8df6189f43b'
+Description: This attribute is the name of an indirect property associated with the control.
+ms.assetid: f6834427-014b-4c6f-b6bb-d8df6189f43b
 title: IndirectPropertyName Control Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IndirectPropertyName Control Attribute

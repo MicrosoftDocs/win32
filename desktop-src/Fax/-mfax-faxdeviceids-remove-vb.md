@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Remove method removes an item from the FaxDeviceIds collection.'
-ms.assetid: 'f9af12c5-9621-44f1-85f8-58346d42e812'
-title: 'FaxDeviceIds.Remove method'
+---
+Description: The Remove method removes an item from the FaxDeviceIds collection.
+ms.assetid: f9af12c5-9621-44f1-85f8-58346d42e812
+title: FaxDeviceIds.Remove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceIds.Remove method
@@ -39,7 +44,7 @@ A **Long** value that specifies the index of the item to remove from the collect
 
  
 
-To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farMANAGE\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -64,7 +69,7 @@ To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-a
 [**FaxDeviceIds**](-mfax-faxdeviceids.md)
 </dt> <dt>
 
-[**IFaxDeviceIds**](-mfax-faxdeviceids-cpp.md)
+[**IFaxDeviceIds**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceids?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The HWConfig\_NIC class is the event type class for network interface card configuration events. The following syntax is simplified from MOF code.'
-ms.assetid: 'e544a27b-17f8-402c-9c92-578cf2a38ca8'
-title: 'HWConfig\_NIC class'
+---
+Description: The HWConfig\_NIC class is the event type class for network interface card configuration events. The following syntax is simplified from MOF code.
+ms.assetid: e544a27b-17f8-402c-9c92-578cf2a38ca8
+title: HWConfig\_NIC class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HWConfig\_NIC class

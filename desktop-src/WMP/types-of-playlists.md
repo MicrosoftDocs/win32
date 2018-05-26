@@ -1,8 +1,19 @@
 ---
 title: Types of Playlists
 description: Types of Playlists
-ms.assetid: '292c51e6-ae19-4b8c-a52a-45c9f860c14f'
-keywords: ["Windows Media metafile playlists,about", "playlists,about", "metafile playlists,about", "Windows Media metafile playlists,types", "playlists,types", "metafile playlists,types"]
+ms.assetid: 292c51e6-ae19-4b8c-a52a-45c9f860c14f
+keywords:
+- Windows Media metafile playlists,about
+- playlists,about
+- metafile playlists,about
+- Windows Media metafile playlists,types
+- playlists,types
+- metafile playlists,types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Types of Playlists

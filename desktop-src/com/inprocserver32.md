@@ -1,8 +1,14 @@
 ---
 title: InprocServer32
 description: Registers a 32-bit in-process server and specifies the threading model of the apartment the server can run in.
-ms.assetid: '4edbbd9d-7ea1-4476-aee7-eaf30e54db8d'
-keywords: ["InprocServer32 registry key COM"]
+ms.assetid: 4edbbd9d-7ea1-4476-aee7-eaf30e54db8d
+keywords:
+- InprocServer32 registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InprocServer32
@@ -38,7 +44,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 You must use the same value for every object provided by the in-process server.
 
-If **ThreadingModel** is not present or is not set to a value, the server is loaded into the first apartment that was initialized in the process. This apartment is sometimes referred to as the main single-threaded apartment (STA). If the first STA in a process is initialized by COM, rather than by an explicit call to [**CoInitialize**](coinitialize.md) or [**CoInitializeEx**](coinitializeex.md), it is called the host STA. For example, COM creates a host STA if an in-process server to be loaded requires an STA but there is currently no STA in the process.
+If **ThreadingModel** is not present or is not set to a value, the server is loaded into the first apartment that was initialized in the process. This apartment is sometimes referred to as the main single-threaded apartment (STA). If the first STA in a process is initialized by COM, rather than by an explicit call to [**CoInitialize**](/windows/win32/Objbase/nf-objbase-coinitialize?branch=master) or [**CoInitializeEx**](/windows/win32/combaseapi/nf-combaseapi-coinitializeex?branch=master), it is called the host STA. For example, COM creates a host STA if an in-process server to be loaded requires an STA but there is currently no STA in the process.
 
 Whenever possible, the in-process server is loaded in the same apartment as the client that loads it. If the threading model of the client apartment is not compatible with the model specified, the server is loaded as indicated in the following table.
 

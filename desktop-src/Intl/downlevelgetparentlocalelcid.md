@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the locale identifier for the parent of the supplied locale.'
-ms.assetid: '4cfa1787-6b9e-4dd4-8466-7b737e00a4b1'
+---
+Description: Retrieves the locale identifier for the parent of the supplied locale.
+ms.assetid: 4cfa1787-6b9e-4dd4-8466-7b737e00a4b1
 title: DownlevelGetParentLocaleLCID function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownlevelGetParentLocaleLCID function
@@ -9,7 +14,7 @@ title: DownlevelGetParentLocaleLCID function
 Retrieves the [locale identifier](locale-identifiers.md) for the parent of the supplied locale.
 
 > [!Note]  
-> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires the download package. Applications that only run on Windows Vista and later should call [**GetLocaleInfo**](getlocaleinfo.md) with *LCType* set to [LOCALE\_SPARENT](locale-sparent.md).
+> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires the download package. Applications that only run on Windows Vista and later should call [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) with *LCType* set to [LOCALE\_SPARENT](locale-sparent.md).
 
  
 
@@ -31,7 +36,7 @@ LCID DownlevelGetParentLocaleLCID(
 *Locale* \[in\]
 </dt> <dd>
 
-Locale identifier of the locale for which to retrieve the parent locale identifier. You can use the [**MAKELCID**](makelcid.md) macro to create a locale identifier or use one of the following predefined values.
+Locale identifier of the locale for which to retrieve the parent locale identifier. You can use the [**MAKELCID**](/windows/win32/Winnt/nf-winnt-makelcid?branch=master) macro to create a locale identifier or use one of the following predefined values.
 
 -   [LOCALE\_INVARIANT](locale-invariant.md)
 -   [LOCALE\_SYSTEM\_DEFAULT](locale-system-default.md)
@@ -82,7 +87,7 @@ The required header file and DLL are part of the "Microsoft NLS Downlevel Data M
 [Mapping Locale Data](mapping-locale-data.md)
 </dt> <dt>
 
-[**GetLocaleInfo**](getlocaleinfo.md)
+[**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master)
 </dt> </dl>
 
  

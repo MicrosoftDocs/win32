@@ -1,12 +1,17 @@
 ---
-Description: 'The SSL protocol engine (Schannel) uses a cryptographic service provider (CSP) when performing cryptographic operations. Cryptographic applications can call CryptAcquireContext using the PROV\_RSA\_SCHANNEL and PROV\_DH\_SCHANNEL providers.'
-ms.assetid: 'ad1eabf1-23bc-4d23-8f8b-13f0bda95120'
+Description: The SSL protocol engine (Schannel) uses a cryptographic service provider (CSP) when performing cryptographic operations. Cryptographic applications can call CryptAcquireContext using the PROV\_RSA\_SCHANNEL and PROV\_DH\_SCHANNEL providers.
+ms.assetid: ad1eabf1-23bc-4d23-8f8b-13f0bda95120
 title: Using Schannel CSPs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Schannel CSPs
 
-The SSL protocol engine ([*Schannel*](security.s_gly#-security-schannel-gly)) uses a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) when performing cryptographic operations. Cryptographic applications can call [**CryptAcquireContext**](cryptacquirecontext.md) using the PROV\_RSA\_SCHANNEL and PROV\_DH\_SCHANNEL providers.
+The SSL protocol engine ([*Schannel*](security.s_gly#-security-schannel-gly)) uses a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) when performing cryptographic operations. Cryptographic applications can call [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master) using the PROV\_RSA\_SCHANNEL and PROV\_DH\_SCHANNEL providers.
 
 This section defines the RSA and Diffie-Hellman Schannel [*CSP types*](security.c_gly#-security-csp-type-gly) and describes the functionality that a CSP must support to be compatible with Schannel.dll, the cryptographic protocol engine. A protocol engine is a program that establishes a secure communications channel between a client and server application.
 

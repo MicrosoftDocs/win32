@@ -1,8 +1,9 @@
 ---
 title: Cdrom.driveSpecifier
 description: The driveSpecifier property retrieves the CD or DVD drive letter.
-ms.assetid: 'f592819e-61ba-4ae1-b748-b6f29df88067'
-keywords: ["Cdrom.driveSpecifier Windows Media Player"]
+ms.assetid: f592819e-61ba-4ae1-b748-b6f29df88067
+keywords:
+- Cdrom.driveSpecifier Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cdrom.driveSpecifier
@@ -65,8 +71,8 @@ myText.value = "Drive letters found: " + MYdriveSpecifiers;
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Version<br/>                  | Windows Media Player version 7.0 or later<br/>                               |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 
@@ -88,9 +94,9 @@ myText.value = "Drive letters found: " + MYdriveSpecifiers;
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

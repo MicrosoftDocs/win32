@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrinterExtensionEvent interface represents the event delegate implemented by desktop printer extensions for activation.'
-ms.assetid: 'A0F4DB51-D68E-4516-833A-7E984247796B'
+---
+Description: The IPrinterExtensionEvent interface represents the event delegate implemented by desktop printer extensions for activation.
+ms.assetid: A0F4DB51-D68E-4516-833A-7E984247796B
 title: IPrinterExtensionEvent interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionEvent interface

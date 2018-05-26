@@ -4,11 +4,15 @@ description: The Add/Remove Snap-in dialog box allows authors of saved console f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '88804dc3-f290-4f1e-9dbe-9c2486ec51a0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 88804dc3-f290-4f1e-9dbe-9c2486ec51a0
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Add/Remove Snap-in dialog box MMC"]
+keywords:
+- Add/Remove Snap-in dialog box MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add/Remove Snap-in Dialog Box

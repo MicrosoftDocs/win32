@@ -1,7 +1,12 @@
 ---
-Description: 'This section enumerates a list of tips, linked to the main Windows Installer SDK documentation, to help Application Developers, Setup Authors, IT Professionals, and Infrastructure Developers discover best practices for using the Windows Installer:'
-ms.assetid: 'ff48d995-fe6f-4d1b-898d-67574ed3c5b7'
+Description: This section enumerates a list of tips, linked to the main Windows Installer SDK documentation, to help Application Developers, Setup Authors, IT Professionals, and Infrastructure Developers discover best practices for using the Windows Installer
+ms.assetid: ff48d995-fe6f-4d1b-898d-67574ed3c5b7
 title: Windows Installer Best Practices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Installer Best Practices
@@ -128,7 +133,7 @@ The Windows Installer has many built-in [standard actions](standard-actions-refe
 -   Do not change the system state from an immediate custom action. Custom actions that change the system directly or call another system service must be deferred to the time when the installation script is executed. Every [deferred execution custom action](deferred-execution-custom-actions.md) that changes the system state must be preceded by a [rollback custom action](rollback-custom-actions.md) to undo the system state change on an installation rollback. For information see [Changing the System State Using a Custom Action](changing-the-system-state-using-a-custom-action.md).
 -   Custom actions that perform complex installation operations should be an [executable file](executable-files.md) or [dynamic-link library](dynamic-link-libraries.md). Limit the use of custom actions based on [scripts](scripts.md) to simple installation operations.
 -   Make the details of what your custom action does to the system easily discoverable to system administrators. Put the details of registry entries and files used by your custom action into a custom table and have the custom action read from this table. This is demonstrated by the example in [Using a Custom Action to Create User Accounts on a Local Computer](using-a-custom-action-to-create-user-accounts-on-a-local-computer.md). For information on adding custom tables to a database, see [Working with Queries](working-with-queries.md) and [Examples of Database Queries Using SQL and Script](examples-of-database-queries-using-sql-and-script.md).
--   A custom actions should not display a dialog box. Custom actions requiring a user interface can use the [**MsiProcessMessage**](msiprocessmessage.md) function instead. See [Sending Messages to Windows Installer Using MsiProcessMessage](sending-messages-to-windows-installer-using-msiprocessmessage.md).
+-   A custom actions should not display a dialog box. Custom actions requiring a user interface can use the [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master) function instead. See [Sending Messages to Windows Installer Using MsiProcessMessage](sending-messages-to-windows-installer-using-msiprocessmessage.md).
 -   Custom actions must not use any of the functions listed on the page: [Functions Not for Use in Custom Actions](functions-not-for-use-in-custom-actions.md).
 -   If the installation is intended to run on a terminal server, test that all your custom actions are capable of running on a terminal server. For more information see [**TerminalServer**](terminalserver.md) property.
 -   To have a custom action run when a particular patch is uninstalled the custom action must either be present in the original application or be in a patch for the product that is always applied. For more information see [Patch Uninstall Custom Actions](patch-uninstall-custom-actions.md).
@@ -176,7 +181,7 @@ Administrators often prefer to deploy applications within a corporation without 
 -   Use [public properties](public-properties.md) for configuration information. Administrators can provide this information on the command-line.
 -   Do not require that the installation depend upon information gathered from user interaction with dialog boxes. This information is not available during a silent installation.
 -   Do not automatically restart the user's computer during a silent installation.
--   Administrators can set the [user interface level](user-interface-levels.md) when installing by using the [command line option](command-line-options.md) "/q". The user interface level can also be set programmatically with a call to [**MsiSetInternalUI**](msisetinternalui.md).
+-   Administrators can set the [user interface level](user-interface-levels.md) when installing by using the [command line option](command-line-options.md) "/q". The user interface level can also be set programmatically with a call to [**MsiSetInternalUI**](/windows/win32/Msi/nf-msi-msisetinternalui?branch=master).
 
 ## Avoid using the AlwaysInstallElevated policy.
 
@@ -202,7 +207,7 @@ In some cases the original source of the Windows Installer package may be needed
 
 [Windows Installer Logging](windows-installer-logging.md) includes a verbose logging option that can be enabled on a user's computer. The information in a verbose log can helpful when trying to troubleshoot Windows Installer package deployment.
 
--   You can enable verbose logging on the user's computer by using [Command Line Options](command-line-options.md), the [**MsiLogging**](msilogging.md) property, [Logging policy](logging.md), [**MsiEnableLog**](msienablelog.md), and [**EnableLog**](installer-enablelog.md) method.
+-   You can enable verbose logging on the user's computer by using [Command Line Options](command-line-options.md), the [**MsiLogging**](msilogging.md) property, [Logging policy](logging.md), [**MsiEnableLog**](/windows/win32/Msi/nf-msi-msienableloga?branch=master), and [**EnableLog**](installer-enablelog.md) method.
 -   A very useful resource for interpreting Windows Installer log files is [Wilogutl.exe](wilogutl-exe.md). This tool assists the analysis of log files and displays suggested solutions to errors that are found in a log file.
 -   For more information about interpreting Windows Installer log files, see the white paper available on the TechNet site: [Windows Installer: Benefits and Implementation for System Administrators](http://go.microsoft.com/fwlink/p/?LinkID=84111).
 -   The verbose logging option should be used only for troubleshooting purposes and should not be left on because it can have adverse effects on system performance and disk space. Each time you use the Add/Remove Programs tool in Control Panel, a new file is created.
@@ -261,7 +266,7 @@ Provide on a network an [administrative installation](administrative-installatio
 
 Beginning with Windows Installer 3.0, it is possible to apply patches to an application that has been installed in a per-user-managed context, after the patch has been registered as having elevated privileges. You cannot apply patches to applications that are installed in a per-user managed context using versions of Windows Installer earlier than version 3.0.
 
--   Use the [**SourceListAddSource**](patch-sourcelistaddsource.md) method or [**MsiSourceListAddSourceEx**](msisourcelistaddsourceex.md) function to register a patch package as having elevated privileges. Follow the guidelines and examples provided in [Patching Per-User Managed Applications](patching-per-user-managed-applications.md).
+-   Use the [**SourceListAddSource**](patch-sourcelistaddsource.md) method or [**MsiSourceListAddSourceEx**](/windows/win32/Msi/nf-msi-msisourcelistaddsourceexa?branch=master) function to register a patch package as having elevated privileges. Follow the guidelines and examples provided in [Patching Per-User Managed Applications](patching-per-user-managed-applications.md).
 -   When running Windows Installer version 4.0 on Windows Vista you can also use [User Account Control (UAC) Patching](user-account-control--uac--patching.md) to enables the authors of Windows Installer installations to identify digitally-signed patches that can be applied in the future by non-administrator users. This is only available with the installation of packages in the per-machine [installation context](installation-context.md) (ALLUSERS=1).
 -   Ensure that least-privilege patching has not been disabled by setting the [**MSIDISABLELUAPATCHING**](msidisableluapatching.md) property or the [DisableLUAPatching](disableluapatching.md) policy.
 
@@ -300,7 +305,7 @@ Following these guidelines when developing your package to help maintain a secur
 
 ## Use PMSIHANDLE instead of HANDLE
 
-The **PMSIHANDLE** type variables is defined in msi.h. It is recommended that your application use the **PMSIHANDLE** type because the installer closes **PMSIHANDLE** objects as they go out of scope, whereas your application must close **MSIHANDLE** objects by calling [**MsiCloseHandle**](msiclosehandle.md).
+The **PMSIHANDLE** type variables is defined in msi.h. It is recommended that your application use the **PMSIHANDLE** type because the installer closes **PMSIHANDLE** objects as they go out of scope, whereas your application must close **MSIHANDLE** objects by calling [**MsiCloseHandle**](/windows/win32/Msi/nf-msi-msiclosehandle?branch=master).
 
 For example, if you use code like this:
 

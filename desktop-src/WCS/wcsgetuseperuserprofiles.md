@@ -1,8 +1,9 @@
 ---
 title: WcsGetUsePerUserProfiles function
 description: Determines whether the user chose to use a per-user profile association list for the specified device.
-ms.assetid: '375a9ee6-b432-424a-8671-c5a598d82342'
-keywords: ["WcsGetUsePerUserProfiles function Windows Color System"]
+ms.assetid: 375a9ee6-b432-424a-8671-c5a598d82342
+keywords:
+- WcsGetUsePerUserProfiles function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsGetUsePerUserProfiles function
@@ -22,9 +28,9 @@ Determines whether the user chose to use a per-user profile association list for
 
 ```C++
 BOOL WINAPI WcsGetUsePerUserProfiles(
-  _In_  LPCWSTR pDeviceName,
-  _In_  DWORD   dwDeviceClass,
-  _Out_ BOOL    *pUsePerUserProfiles
+  _In_  LPCWSTR pDeviceName,
+  _In_  DWORD   dwDeviceClass,
+  _Out_ BOOL    *pUsePerUserProfiles
 );
 ```
 
@@ -56,7 +62,7 @@ A flag value specifying the class of the device. This parameter must take one of
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -85,8 +91,8 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -109,9 +115,9 @@ This function is executable in Least-Privileged User Account (LUA) context.
 [**WcsSetUsePerUserProfiles**](wcssetuseperuserprofiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

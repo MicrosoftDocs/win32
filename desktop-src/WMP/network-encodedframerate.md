@@ -1,8 +1,9 @@
 ---
 title: Network.encodedFrameRate
 description: The encodedFrameRate property retrieves the video frame rate specified by the content author in frames per second.
-ms.assetid: '7dad5c90-f750-48d7-9dda-3fc07394edcc'
-keywords: ["Network.encodedFrameRate Windows Media Player"]
+ms.assetid: 7dad5c90-f750-48d7-9dda-3fc07394edcc
+keywords:
+- Network.encodedFrameRate Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.encodedFrameRate
@@ -69,9 +75,9 @@ The following JScript example uses *Network*.**encodedFrameRate** to display the
 [**Network.frameRate**](network-framerate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

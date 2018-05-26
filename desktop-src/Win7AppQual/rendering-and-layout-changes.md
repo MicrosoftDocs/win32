@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '58C76F70-DE7F-4AD8-8C8D-0333F781F764'
+Description: .
+ms.assetid: 58C76F70-DE7F-4AD8-8C8D-0333F781F764
 title: Rendering and Layout Changes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rendering and Layout Changes

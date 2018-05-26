@@ -1,7 +1,12 @@
 ---
 title: Interfaces
 description: Settings Management Infrastructure (SMI) uses the public interfaces, listed in the following table, to create and access a namespace and to read and write settings.
-ms.assetid: 'a721e78f-ed3a-44e6-8f17-6bca1001f284'
+ms.assetid: a721e78f-ed3a-44e6-8f17-6bca1001f284
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interfaces

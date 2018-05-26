@@ -1,7 +1,12 @@
 ---
 title: Installation Best Practices for Massively Multiplayer Online Games
 description: This article describes creating a chain of trust design for Massively Multiplayer Online Games (MMOG) client installation and custom game update systems that work well with Windows and the security model of Windows Vista and Windows 7.
-ms.assetid: 'b719cff7-97e8-5e0a-9c91-3bd8178da7c8'
+ms.assetid: b719cff7-97e8-5e0a-9c91-3bd8178da7c8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installation Best Practices for Massively Multiplayer Online Games

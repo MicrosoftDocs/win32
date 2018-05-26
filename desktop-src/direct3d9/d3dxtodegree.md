@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts radians into degrees.'
-ms.assetid: '1b19af39-ca23-4364-9121-f532d7fed099'
+---
+Description: Converts radians into degrees.
+ms.assetid: 1b19af39-ca23-4364-9121-f532d7fed099
 title: D3DXToDegree
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXToDegree

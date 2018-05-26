@@ -1,16 +1,21 @@
 ---
 Description: EndpointVolume API
-ms.assetid: '1fe1cd57-a0a4-4e08-ab52-3b6e66d14e79'
+ms.assetid: 1fe1cd57-a0a4-4e08-ab52-3b6e66d14e79
 title: EndpointVolume API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EndpointVolume API
 
-The EndpointVolume API enables specialized clients to control and monitor the volume levels of [audio endpoint devices](audio-endpoint-devices.md). A client obtains references to the interfaces in the EndpointVolume API by obtaining the [**IMMDevice**](immdevice.md) interface of an audio endpoint device and calling the [**IMMDevice::Activate**](immdevice-activate.md) method.
+The EndpointVolume API enables specialized clients to control and monitor the volume levels of [audio endpoint devices](audio-endpoint-devices.md). A client obtains references to the interfaces in the EndpointVolume API by obtaining the [**IMMDevice**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master) interface of an audio endpoint device and calling the [**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master) method.
 
 Header file Endpointvolume.h defines the interfaces in the EndpointVolume API.
 
-Audio applications that use the [MMDevice API](mmdevice-api.md) and [WASAPI](wasapi.md) typically use the [**ISimpleAudioVolume**](isimpleaudiovolume.md) interface to control volume levels on a per-session basis. Only two types of audio applications require the use of the EndpointVolume API. These application types are:
+Audio applications that use the [MMDevice API](mmdevice-api.md) and [WASAPI](wasapi.md) typically use the [**ISimpleAudioVolume**](/windows/win32/Audioclient/nn-audioclient-isimpleaudiovolume?branch=master) interface to control volume levels on a per-session basis. Only two types of audio applications require the use of the EndpointVolume API. These application types are:
 
 -   Applications that manage the master volume levels of audio endpoint devices, similar to the Windows volume-control program, Sndvol.exe.
 -   Professional audio ("pro audio") applications that require exclusive-mode access to audio endpoint devices.
@@ -23,7 +28,7 @@ If a device has hardware volume and mute controls, changes made to the device's 
 
 For applications that must manage hardware volume and mute controls, the EndpointVolume API offers two potential advantages over the [DeviceTopology API](devicetopology-api.md).
 
-First, a number of audio adapter devices lack hardware volume controls. If a device lacks a hardware volume control, the [**IAudioEndpointVolume**](iaudioendpointvolume.md) interface in the EndpointVolume API automatically implements a software volume control on the stream to or from that device. For a client of the EndpointVolume API, the result is the same whether the volume control is implemented in hardware by the device or in software by the EndpointVolume API interface.
+First, a number of audio adapter devices lack hardware volume controls. If a device lacks a hardware volume control, the [**IAudioEndpointVolume**](/windows/win32/Endpointvolume/nn-endpointvolume-iaudioendpointvolume?branch=master) interface in the EndpointVolume API automatically implements a software volume control on the stream to or from that device. For a client of the EndpointVolume API, the result is the same whether the volume control is implemented in hardware by the device or in software by the EndpointVolume API interface.
 
 Second, even if the adapter device does implement hardware volume controls, an application that uses the DeviceTopology API to implement a topology-traversal algorithm might fail to find the control that it is looking for. Typically, such an application is designed to traverse the hardware topology of a particular device or set of related devices. The application risks failing if it attempts to traverse the topology of a device that it has not been specifically designed for or tested with.
 
@@ -42,8 +47,8 @@ The EndpointVolume API implements the following interfaces.
 
 | Interface                                                | Description                                                                             |
 |----------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| [**IAudioEndpointVolume**](iaudioendpointvolume.md)     | Represents the volume controls on the audio stream to or from an audio endpoint device. |
-| [**IAudioMeterInformation**](iaudiometerinformation.md) | Represents a peak meter on the audio stream to or from an audio endpoint device.        |
+| [**IAudioEndpointVolume**](/windows/win32/Endpointvolume/nn-endpointvolume-iaudioendpointvolume?branch=master)     | Represents the volume controls on the audio stream to or from an audio endpoint device. |
+| [**IAudioMeterInformation**](/windows/win32/Endpointvolume/nn-endpointvolume-iaudiometerinformation?branch=master) | Represents a peak meter on the audio stream to or from an audio endpoint device.        |
 
 
 
@@ -55,7 +60,7 @@ In addition, clients of the EndpointVolume API that require notification of volu
 
 | Interface                                                            | Description                                                                                       |
 |----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [**IAudioEndpointVolumeCallback**](iaudioendpointvolumecallback.md) | Provides notifications when the volume level or muting state of an audio endpoint device changes. |
+| [**IAudioEndpointVolumeCallback**](/windows/win32/Endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback?branch=master) | Provides notifications when the volume level or muting state of an audio endpoint device changes. |
 
 
 
@@ -68,13 +73,13 @@ In addition, clients of the EndpointVolume API that require notification of volu
 [Volume Controls](volume-controls.md)
 </dt> <dt>
 
-[**IMMDevice Interface**](immdevice.md)
+[**IMMDevice Interface**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master)
 </dt> <dt>
 
-[**IMMDevice::Activate**](immdevice-activate.md)
+[**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master)
 </dt> <dt>
 
-[**ISimpleAudioVolume**](isimpleaudiovolume.md)
+[**ISimpleAudioVolume**](/windows/win32/Audioclient/nn-audioclient-isimpleaudiovolume?branch=master)
 </dt> <dt>
 
 [**Programming Reference**](programming-reference.md)

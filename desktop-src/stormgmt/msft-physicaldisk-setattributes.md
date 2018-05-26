@@ -1,8 +1,11 @@
 ---
 title: SetAttributes method of the MSFT\_PhysicalDisk class
 description: Updates the attributes of the physical disk.
-ms.assetid: '8A7194B5-345D-43F1-933D-6061C7107D80'
-keywords: ["SetAttributes method Windows Storage Management API", "SetAttributes method Windows Storage Management API , MSFT_PhysicalDisk class", "MSFT_PhysicalDisk class Windows Storage Management API , SetAttributes method"]
+ms.assetid: 8A7194B5-345D-43F1-933D-6061C7107D80
+keywords:
+- SetAttributes method Windows Storage Management API
+- SetAttributes method Windows Storage Management API , MSFT_PhysicalDisk class
+- MSFT_PhysicalDisk class Windows Storage Management API , SetAttributes method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetAttributes method of the MSFT\_PhysicalDisk class
@@ -22,8 +30,8 @@ Updates the attributes of the physical disk.
 
 ```mof
 UInt32 SetAttributes(
-  [in]  UInt16 MediaType,
-  [out] String ExtendedStatus
+  [in]  UInt16 MediaType,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -49,7 +57,7 @@ The media type of the physical disk.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -108,8 +116,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -122,9 +130,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_PhysicalDisk**](msft-physicaldisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

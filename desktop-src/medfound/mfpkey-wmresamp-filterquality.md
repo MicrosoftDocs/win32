@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the quality of the output.'
-ms.assetid: '7b45633b-7f1c-4951-a462-ad6240b9ca31'
-title: 'MFPKEY\_WMRESAMP\_FILTERQUALITY Property'
+---
+Description: Specifies the quality of the output.
+ms.assetid: 7b45633b-7f1c-4951-a462-ad6240b9ca31
+title: MFPKEY\_WMRESAMP\_FILTERQUALITY Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMRESAMP\_FILTERQUALITY Property

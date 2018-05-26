@@ -1,7 +1,12 @@
 ---
 title: Video Control Objects (C++)
 description: Video Control Objects (C++)
-ms.assetid: 'ea8be9a1-b672-49f0-b563-df58f2184321'
+ms.assetid: ea8be9a1-b672-49f0-b563-df58f2184321
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Control Objects (C++)

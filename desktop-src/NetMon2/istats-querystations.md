@@ -1,7 +1,12 @@
 ---
-Description: 'The QueryStations method provides a list of all computers who are currently capturing data using Network Monitor.'
-ms.assetid: 'feebcb28-914b-450e-95d4-10a60cbf1438'
-title: 'IStats::QueryStations method'
+Description: The QueryStations method provides a list of all computers who are currently capturing data using Network Monitor.
+ms.assetid: feebcb28-914b-450e-95d4-10a60cbf1438
+title: IStatsQueryStations method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStats::QueryStations method
@@ -13,7 +18,7 @@ The **QueryStations** method provides a list of all computers who are currently 
 
 ```C++
 HRESULT STDMETHODCALLTYPE QueryStations(
-  [in, out] QUERYTABLE *lpQueryTable
+  [in, out] QUERYTABLE *lpQueryTable
 );
 ```
 
@@ -46,7 +51,7 @@ If the method is unsuccessful, the return value is the following error code:
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,8 +65,8 @@ It is your responsibility to allocate the memory for the [QUERYTABLE](querytable
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -80,9 +85,9 @@ It is your responsibility to allocate the memory for the [QUERYTABLE](querytable
 [STATIONQUERY](stationquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

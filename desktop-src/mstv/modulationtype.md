@@ -1,8 +1,9 @@
 ---
 title: ModulationType enumeration
 description: Specifies the modulation type.
-ms.assetid: '0f00553f-c0b1-4ff5-9c92-fe3a1990ef20'
-keywords: ["ModulationType enumeration Microsoft TV Technologies"]
+ms.assetid: 0f00553f-c0b1-4ff5-9c92-fe3a1990ef20
+keywords:
+- ModulationType enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModulationType enumeration
@@ -22,9 +28,9 @@ Specifies the modulation type.
 
 ```C++
 typedef enum ModulationType { 
-  BDA_MOD_NOT_SET           = -1,
-  BDA_MOD_NOT_DEFINED       = 0,
-  BDA_MOD_16QAM             = 1,
+  BDA_MOD_NOT_SET           = -1,
+  BDA_MOD_NOT_DEFINED       = 0,
+  BDA_MOD_16QAM             = 1,
   BDA_MOD_32QAM,
   BDA_MOD_64QAM,
   BDA_MOD_80QAM,
@@ -349,15 +355,15 @@ Reserved; do not use.
 
 <dl> <dt>
 
-[**ILocator::get\_Modulation**](ilocator-get-modulation.md)
+[**ILocator::get\_Modulation**](/windows/previous-versions/tuner/nf-tuner-ilocator-get_modulation?branch=master)
 </dt> <dt>
 
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

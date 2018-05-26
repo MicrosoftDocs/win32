@@ -1,8 +1,11 @@
 ---
 title: CreateVirtualSystemSnapshot method of the CIM\_VirtualSystemManagementService class
 description: Creates a snapshot of a virtual computer system.
-ms.assetid: 'ac6f2340-ec01-4686-9587-015e5c607ddc'
-keywords: ["CreateVirtualSystemSnapshot method Hyper-V", "CreateVirtualSystemSnapshot method Hyper-V , CIM_VirtualSystemManagementService class", "CIM_VirtualSystemManagementService class Hyper-V , CreateVirtualSystemSnapshot method"]
+ms.assetid: ac6f2340-ec01-4686-9587-015e5c607ddc
+keywords:
+- CreateVirtualSystemSnapshot method Hyper-V
+- CreateVirtualSystemSnapshot method Hyper-V , CIM_VirtualSystemManagementService class
+- CIM_VirtualSystemManagementService class Hyper-V , CreateVirtualSystemSnapshot method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateVirtualSystemSnapshot method of the CIM\_VirtualSystemManagementService class
@@ -22,9 +30,9 @@ Creates a snapshot of a virtual computer system.
 
 ```mof
 uint32 CreateVirtualSystemSnapshot(
-  [in]  CIM_ComputerSystem           REF SourceSystem,
-  [out] CIM_VirtualSystemSettingData REF SnapshotSettingData,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_ComputerSystem           REF SourceSystem,
+  [out] CIM_VirtualSystemSettingData REF SnapshotSettingData,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -118,9 +126,9 @@ If this method is executed synchronously, it returns 0 if it succeeds. If this m
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

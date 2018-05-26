@@ -1,7 +1,12 @@
 ---
 title: Parental Management
 description: Parental Management
-ms.assetid: 'b3bf0a8d-4399-45db-b48f-41d9865fccd9'
+ms.assetid: b3bf0a8d-4399-45db-b48f-41d9865fccd9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parental Management

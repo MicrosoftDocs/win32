@@ -1,7 +1,12 @@
 ---
 Description: CPSUI Functions
-ms.assetid: 'fcdc6845-72cf-47a4-883b-bd06212e072a'
+ms.assetid: fcdc6845-72cf-47a4-883b-bd06212e072a
 title: CPSUI Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPSUI Functions

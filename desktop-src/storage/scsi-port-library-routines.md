@@ -1,7 +1,12 @@
 ---
 title: SCSI Port Library Routines
 description: SCSI Port Library Routines
-ms.assetid: '22871ac0-3a63-4e80-8d0b-24e3162fbcd7'
+ms.assetid: 22871ac0-3a63-4e80-8d0b-24e3162fbcd7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCSI Port Library Routines

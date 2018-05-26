@@ -1,8 +1,9 @@
 ---
 title: ClosedCaption.SAMIFileName
 description: The SAMIFileName property specifies or retrieves the name of the file containing the information needed for closed captioning.
-ms.assetid: 'f2090500-6c9f-4d2d-9855-a9c193b00a41'
-keywords: ["ClosedCaption.SAMIFileName Windows Media Player"]
+ms.assetid: f2090500-6c9f-4d2d-9855-a9c193b00a41
+keywords:
+- ClosedCaption.SAMIFileName Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClosedCaption.SAMIFileName
@@ -82,9 +88,9 @@ Player.closedCaption.SAMIFileName="C:\\WMSDK\\WMPSDK9\\samples\\media\\ccsample.
 [**Player.close**](player-close.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

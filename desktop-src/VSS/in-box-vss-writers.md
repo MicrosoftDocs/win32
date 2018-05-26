@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows operating system includes a set of VSS writers that are responsible for enumerating the data that is required by various Windows features. These are referred to as &\#0034;in-box&\#0034; writers.'
-ms.assetid: 'e20a303d-9440-42be-b383-85f6fad89157'
-title: 'In-Box VSS Writers'
+Description: The Windows operating system includes a set of VSS writers that are responsible for enumerating the data that is required by various Windows features. These are referred to as &\#0034;in-box&\#0034; writers.
+ms.assetid: e20a303d-9440-42be-b383-85f6fad89157
+title: In-Box VSS Writers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # In-Box VSS Writers
@@ -84,7 +89,7 @@ Here is an example that shows how to list components in the writer's metadata:
     </BACKUP_LOCATIONS>
 ```
 
-At backup time, the writer sets the backup expiration time in the writer's backup metadata. Requesters should retrieve this metadata by using [**IVssComponent::GetBackupMetadata**](ivsscomponent-getbackupmetadata.md) to determine whether the database has expired. Expired databases cannot be restored.
+At backup time, the writer sets the backup expiration time in the writer's backup metadata. Requesters should retrieve this metadata by using [**IVssComponent::GetBackupMetadata**](/windows/win32/VsWriter/nf-vswriter-ivsscomponent-getbackupmetadata?branch=master) to determine whether the database has expired. Expired databases cannot be restored.
 
 If the computer that contains the NTDS database is a domain controller, the backup application should always perform a system state backup across all volumes containing critical system state information. At restore time, the application should first restart the computer in Directory Services Restore Mode and then perform a system state restore.
 
@@ -133,7 +138,7 @@ Here is an example that shows how to list components in the writer's metadata:
     </BACKUP_LOCATIONS>
 ```
 
-At backup time, the writer sets the backup expiration time in the backup metadata. Backup applications should retrieve this metadata by using the [**IVssComponent::GetBackupMetadata**](ivsscomponent-getbackupmetadata.md) method to determine whether the database has expired. Expired databases cannot be restored.
+At backup time, the writer sets the backup expiration time in the backup metadata. Backup applications should retrieve this metadata by using the [**IVssComponent::GetBackupMetadata**](/windows/win32/VsWriter/nf-vswriter-ivsscomponent-getbackupmetadata?branch=master) method to determine whether the database has expired. Expired databases cannot be restored.
 
 The writer name string for this writer is "ADAM (instance*N*) Writer", where *N* is the ADAM instance number, for example, "ADAM (instance1) Writer", "ADAM (instance2) Writer", and so on.
 

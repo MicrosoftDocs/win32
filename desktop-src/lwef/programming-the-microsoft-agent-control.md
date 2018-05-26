@@ -1,7 +1,12 @@
 ---
 title: Programming the Microsoft Agent Control
 description: Programming the Microsoft Agent Control
-ms.assetid: '06a145fe-bac9-493a-bac5-e80cb2ef3159'
+ms.assetid: 06a145fe-bac9-493a-bac5-e80cb2ef3159
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming the Microsoft Agent Control

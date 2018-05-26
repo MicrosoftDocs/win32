@@ -4,13 +4,16 @@ description: Sends the log file of the specified ETW trace session to a remote s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '65c64190-a259-46c0-bdc4-88742a2d34d9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 65c64190-a259-46c0-bdc4-88742a2d34d9
+ms.prod: windows-server-dev
 ms.technology:
-- 'event-tracing'
-- 'windows-management-instrumentation'
+- event-tracing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Send method", "Send method, MSFT_EtwTraceSession class", "MSFT_EtwTraceSession class, Send method"]
+keywords:
+- Send method
+- Send method, MSFT_EtwTraceSession class
+- MSFT_EtwTraceSession class, Send method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - EventTracingManagement.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Send method of the MSFT\_EtwTraceSession class
@@ -30,10 +36,10 @@ Sends the log file of the specified ETW trace session to a remote share.
 
 ```mof
 uint32 Send(
-  [in]  string  destinationFolder,
-  [in]  boolean deleteFile,
-  [out] string  sourceFilePath,
-  [out] uint32  ErrorCode
+  [in]  string  destinationFolder,
+  [in]  boolean deleteFile,
+  [out] string  sourceFilePath,
+  [out] uint32  ErrorCode
 );
 ```
 
@@ -95,8 +101,8 @@ Returns 0 on success.
 
 |                                     |                                                                                                       |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                        |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\EventTracingManagement<br/>                                           |
 | MOF<br/>                      | <dl> <dt>EventTracingManagement.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>EventTracingManagement.dll</dt> </dl> |
@@ -110,9 +116,9 @@ Returns 0 on success.
 [**MSFT\_EtwTraceSession**](msft-etwtracesession.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

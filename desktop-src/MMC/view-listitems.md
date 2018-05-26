@@ -1,14 +1,19 @@
 ---
 title: View ListItems property
-description: The ListItems property returns the list's set of nodes. This property is read-only.
+description: The ListItems property returns the lists set of nodes. This property is read-only.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b71b7713-a63f-4a78-bfdf-80fae0bbcd7b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b71b7713-a63f-4a78-bfdf-80fae0bbcd7b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ListItems property MMC", "ListItems property MMC , View object", "View object MMC , ListItems property", "ListItems property MMC , View interface", "View interface MMC , ListItems property"]
+keywords:
+- ListItems property MMC
+- ListItems property MMC , View object
+- View object MMC , ListItems property
+- ListItems property MMC , View interface
+- View interface MMC , ListItems property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::ListItems property
@@ -63,8 +71,8 @@ Set objNodes = Nothing
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -79,9 +87,9 @@ Set objNodes = Nothing
 [**Nodes collection**](nodes-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

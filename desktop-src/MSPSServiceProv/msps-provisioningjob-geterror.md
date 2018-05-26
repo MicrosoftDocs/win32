@@ -4,13 +4,16 @@ description: When the job is executing or has terminated without error, then thi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ac61b614-f482-4464-a5a5-e0f55c5d8761'
-ms.prod: 'windows-server-dev'
+ms.assetid: ac61b614-f482-4464-a5a5-e0f55c5d8761
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetError method", "GetError method, Msps_ProvisioningJob class", "Msps_ProvisioningJob class, GetError method"]
+keywords:
+- GetError method
+- GetError method, Msps_ProvisioningJob class
+- Msps_ProvisioningJob class, GetError method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MSPSService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetError method of the Msps\_ProvisioningJob class
@@ -30,7 +36,7 @@ When the job is executing or has terminated without error, then this method retu
 
 ```mof
 uint32 GetError(
-  [out] CIM_Error Error
+  [out] CIM_Error Error
 );
 ```
 
@@ -117,7 +123,7 @@ If the **OperationalStatus** property on the Job is not "OK", then this method w
 
 </dt> <dd>
 
-7–32767
+7 32767
 
 **DMTF Reserved**
 
@@ -126,7 +132,7 @@ If the **OperationalStatus** property on the Job is not "OK", then this method w
 
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 **Vendor Specific**
 
@@ -139,7 +145,7 @@ If the **OperationalStatus** property on the Job is not "OK", then this method w
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>MSPSService.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSService.dll</dt> </dl> |
@@ -153,9 +159,9 @@ If the **OperationalStatus** property on the Job is not "OK", then this method w
 [**Msps\_ProvisioningJob**](msps-provisioningjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

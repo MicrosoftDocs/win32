@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the capabilities of a CIM\_VirtualSystemMigrationService object.'
-ms.assetid: '5fe3a10b-c075-4c45-838d-0b5c2e491584'
-title: 'CIM\_VirtualSystemMigrationCapabilities class'
+Description: Represents the capabilities of a CIM\_VirtualSystemMigrationService object.
+ms.assetid: 5fe3a10b-c075-4c45-838d-0b5c2e491584
+title: CIM\_VirtualSystemMigrationCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VirtualSystemMigrationCapabilities class
@@ -184,8 +189,8 @@ Enumeration of method identifiers whose implementation may be synchronous; that 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -199,9 +204,9 @@ Enumeration of method identifiers whose implementation may be synchronous; that 
 [**CIM\_Capabilities**](cim-capabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains partition information pulled from an ETW trace.'
-ms.assetid: '8D8F8E79-B273-417A-B8C2-6CE4FC454C07'
-title: 'ETW\_TRACE\_PARTITION\_INFORMATION structure'
+---
+Description: Contains partition information pulled from an ETW trace.
+ms.assetid: 8D8F8E79-B273-417A-B8C2-6CE4FC454C07
+title: ETW\_TRACE\_PARTITION\_INFORMATION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ETW\_TRACE\_PARTITION\_INFORMATION structure

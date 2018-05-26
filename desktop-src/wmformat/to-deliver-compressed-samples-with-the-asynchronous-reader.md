@@ -1,8 +1,22 @@
 ---
 title: To Deliver Compressed Samples with the Asynchronous Reader
 description: To Deliver Compressed Samples with the Asynchronous Reader
-ms.assetid: '488baa3c-8863-4afc-89b2-fe55823e5db9'
-keywords: ["Advanced Systems Format (ASF),delivering compressed samples", "ASF (Advanced Systems Format),delivering compressed samples", "Advanced Systems Format (ASF),asynchronous readers", "ASF (Advanced Systems Format),asynchronous readers", "Advanced Systems Format (ASF),compressed samples", "ASF (Advanced Systems Format),compressed samples", "asynchronous readers,delivering compressed samples", "asynchronous readers,compressed samples", "compressed samples,delivering"]
+ms.assetid: 488baa3c-8863-4afc-89b2-fe55823e5db9
+keywords:
+- Advanced Systems Format (ASF),delivering compressed samples
+- ASF (Advanced Systems Format),delivering compressed samples
+- Advanced Systems Format (ASF),asynchronous readers
+- ASF (Advanced Systems Format),asynchronous readers
+- Advanced Systems Format (ASF),compressed samples
+- ASF (Advanced Systems Format),compressed samples
+- asynchronous readers,delivering compressed samples
+- asynchronous readers,compressed samples
+- compressed samples,delivering
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Deliver Compressed Samples with the Asynchronous Reader
@@ -13,9 +27,9 @@ The Windows Media Format SDK does not provide any methods for decoding data afte
 
 To receive compressed samples with the asynchronous reader, perform the following steps.
 
-1.  Implement the [**IWMReaderCallbackAdvanced::OnStreamSample**](iwmreadercallbackadvanced-onstreamsample.md) callback. This callback is basically identical in function to [**IWMReaderCallback::OnSample**](iwmreadercallback-onsample.md) except that it delivers samples by stream number and the samples are still compressed.
-2.  Before starting playback, obtain a pointer to the [**IWMReaderAdvanced**](iwmreaderadvanced.md) interface of the reader object by calling **IWMReader::QueryInterface**.
-3.  Configure the reader to deliver compressed samples for the desired stream by calling [**IWMReaderAdvanced::SetReceiveStreamSamples**](iwmreaderadvanced-setreceivestreamsamples.md).
+1.  Implement the [**IWMReaderCallbackAdvanced::OnStreamSample**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-onstreamsample?branch=master) callback. This callback is basically identical in function to [**IWMReaderCallback::OnSample**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample?branch=master) except that it delivers samples by stream number and the samples are still compressed.
+2.  Before starting playback, obtain a pointer to the [**IWMReaderAdvanced**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced?branch=master) interface of the reader object by calling **IWMReader::QueryInterface**.
+3.  Configure the reader to deliver compressed samples for the desired stream by calling [**IWMReaderAdvanced::SetReceiveStreamSamples**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setreceivestreamsamples?branch=master).
 4.  Repeat step 3 for each stream for which compressed sample delivery is desired.
 
 > [!Note]  
@@ -27,7 +41,7 @@ To receive compressed samples with the asynchronous reader, perform the followin
 
 <dl> <dt>
 
-[**IWMReaderCallbackAdvanced Interface**](iwmreadercallbackadvanced.md)
+[**IWMReaderCallbackAdvanced Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced?branch=master)
 </dt> <dt>
 
 [**Reading Files with the Asynchronous Reader**](reading-files-with-the-asynchronous-reader.md)

@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Config01\_DeliveryOptimization02 class
 description: The MDM\_Policy\_Config01\_DeliveryOptimization02 class represents the delivery optimization policies available.
-ms.assetid: '10dfb751-f044-4f30-90e0-af0fcb0931fb'
-keywords: ["MDM_Policy_Config01_DeliveryOptimization02 class", "MDM_Policy_Config01_DeliveryOptimization02 class, described"]
+ms.assetid: 10dfb751-f044-4f30-90e0-af0fcb0931fb
+keywords:
+- MDM_Policy_Config01_DeliveryOptimization02 class
+- MDM_Policy_Config01_DeliveryOptimization02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Config01\_DeliveryOptimization02 class
@@ -288,7 +295,7 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -303,9 +310,9 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

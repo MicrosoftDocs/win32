@@ -1,14 +1,20 @@
 ---
 title: Version (registrationInfoType) Element
 description: Specifies the version number of the task.
-ms.assetid: '0a7223ae-dfc7-4356-aea4-88ff3b3b9148'
-keywords: ["Version element Task Scheduler"]
+ms.assetid: 0a7223ae-dfc7-4356-aea4-88ff3b3b9148
+keywords:
+- Version element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Version
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Version (registrationInfoType) Element
@@ -38,7 +44,7 @@ The **Version** element is defined by the [**registrationInfoType**](taskschedul
 
 For scripting development, the version of a task is specified using [**RegistrationInfo.Version**](registrationinfo-version.md) property.
 
-For C++ development, the version of a task is specified using [**IRegistrationInfo::Version**](iregistrationinfo-version.md) property.
+For C++ development, the version of a task is specified using [**IRegistrationInfo::Version**](/windows/win32/taskschd/nf-taskschd-iregistrationinfo-get_version?branch=master) property.
 
 ## Examples
 
@@ -59,8 +65,8 @@ The following XML defines the version of a task.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -74,9 +80,9 @@ The following XML defines the version of a task.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

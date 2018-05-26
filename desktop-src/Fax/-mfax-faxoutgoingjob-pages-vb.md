@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Pages property is a number that indicates the total number of pages in the outbound fax job.'
-ms.assetid: 'f4aa43a9-6e79-48ea-a1df-1a0b01cc8b54'
-title: 'FaxOutgoingJob.Pages property'
+---
+Description: The Pages property is a number that indicates the total number of pages in the outbound fax job.
+ms.assetid: f4aa43a9-6e79-48ea-a1df-1a0b01cc8b54
+title: FaxOutgoingJob.Pages property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.Pages property
@@ -46,7 +51,7 @@ A **Long** that receives the total number of pages in the outbound fax job.
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

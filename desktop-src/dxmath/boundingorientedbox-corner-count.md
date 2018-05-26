@@ -1,12 +1,17 @@
-﻿---
-Description: 'The number of points defining the BoundingOrientedBox.'
-ms.assetid: 'f5a23732-728b-415b-942b-2c7014ea3c2e'
-title: 'BoundingOrientedBox.CORNER\_COUNT'
+---
+Description: The number of points defining the BoundingOrientedBox.
+ms.assetid: f5a23732-728b-415b-942b-2c7014ea3c2e
+title: BoundingOrientedBox.CORNER\_COUNT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingOrientedBox.CORNER\_COUNT
 
-The number of points defining the [**BoundingOrientedBox**](boundingorientedbox.md).
+The number of points defining the [**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master).
 
 
 ```C++
@@ -42,7 +47,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](boundingorientedbox.md)
+[**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master)
 </dt> </dl>
 
  

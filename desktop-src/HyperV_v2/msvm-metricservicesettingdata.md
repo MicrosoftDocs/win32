@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the settings for the metric service. The properties for this class cannot be modified directly. The client must call the ModifyServiceSettings method to modify any of these properties.'
-ms.assetid: '578ddda7-4c8e-498e-8612-29c392390b73'
-title: 'Msvm\_MetricServiceSettingData class'
+Description: Represents the settings for the metric service. The properties for this class cannot be modified directly. The client must call the ModifyServiceSettings method to modify any of these properties.
+ms.assetid: 578ddda7-4c8e-498e-8612-29c392390b73
+title: Msvm\_MetricServiceSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_MetricServiceSettingData class
@@ -16,10 +21,10 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_MetricServiceSettingData : CIM_SettingData
 {
-  string   InstanceID;
-  string   Caption = "Hyper-V Metric Service Settings";
-  string   Description = "Defines Hyper-V Metric Service Settings";
-  string   ElementName = "Hyper-V Metric Service Settings";
+  string   InstanceID;
+  string   Caption = "Hyper-V Metric Service Settings";
+  string   Description = "Defines Hyper-V Metric Service Settings";
+  string   ElementName = "Hyper-V Metric Service Settings";
   datetime MetricsFlushInterval;
 };
 ```
@@ -110,8 +115,8 @@ Defines the interval at which metrics should be flushed to disk.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -128,9 +133,9 @@ Defines the interval at which metrics should be flushed to disk.
 [**ModifyServiceSettings**](modifyservicesettings-msvm-metricservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

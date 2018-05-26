@@ -1,20 +1,25 @@
 ---
 Description: Using DMOs in DirectShow
-ms.assetid: '47d75b9c-8b0d-4235-8ac1-02ae1502c0e7'
+ms.assetid: 47d75b9c-8b0d-4235-8ac1-02ae1502c0e7
 title: Using DMOs in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using DMOs in DirectShow
 
-Applications based on DirectShow can use DMOs in a filter graph, through the [DMO Wrapper](dmo-wrapper-filter.md) filter. This filter aggregates a DMO and handles all the details of using the DMO, such as passing data to and from the DMO, allocating [**IMediaBuffer**](imediabuffer.md) objects, and so forth.
+Applications based on DirectShow can use DMOs in a filter graph, through the [DMO Wrapper](dmo-wrapper-filter.md) filter. This filter aggregates a DMO and handles all the details of using the DMO, such as passing data to and from the DMO, allocating [**IMediaBuffer**](/windows/win32/Mediaobj/nn-mediaobj-imediabuffer?branch=master) objects, and so forth.
 
 Because the DMO is aggregated by the filter, the application can query the filter for any COM interfaces that the DMO exposes. However, the application should let the filter handle all streaming operations on the DMO. For example, do not set media types, process any buffers, flush the DMO, lock the DMO, enable or disable quality control, or set video optimizations.
 
 If you know the class identifier (CLSID) of a specific DMO that you want to use, you can initialize the DMO Wrapper filter with that DMO, as follows:
 
 1.  Call **CoCreateInstance** to create the DMO Wrapper filter.
-2.  Query the DMO Wrapper filter for the [**IDMOWrapperFilter**](idmowrapperfilter.md) interface.
-3.  Call the [**IDMOWrapperFilter::Init**](idmowrapperfilter-init.md) method. Specify the CLSID of the DMO and the GUID of the DMO's category. For a list of DMO categories, see [DMO GUIDs](dmo-guids.md).
+2.  Query the DMO Wrapper filter for the [**IDMOWrapperFilter**](/windows/win32/Dmodshow/nn-dmodshow-idmowrapperfilter?branch=master) interface.
+3.  Call the [**IDMOWrapperFilter::Init**](/windows/win32/Dmodshow/nf-dmodshow-idmowrapperfilter-init?branch=master) method. Specify the CLSID of the DMO and the GUID of the DMO's category. For a list of DMO categories, see [DMO GUIDs](dmo-guids.md).
 
 The following code shows these steps:
 
@@ -51,7 +56,7 @@ if (SUCCEEDED(hr))
 
 
 
-The [**DMOEnum**](dmoenum.md) function enumerates DMOs in the registry. This function uses a different set of category GUIDs from the ones used for DirectShow filters.
+The [**DMOEnum**](/windows/win32/Dmoreg/nf-dmoreg-dmoenum?branch=master) function enumerates DMOs in the registry. This function uses a different set of category GUIDs from the ones used for DirectShow filters.
 
 **Using the System Device Enumerator with DMOs**
 
@@ -78,7 +83,7 @@ The System Device Enumerator returns a list of moniker objects. If the moniker r
 There are some limitations when using DMOs in DirectShow:
 
 -   The DMO Wrapper filter does not support DMOs with zero inputs, multiple inputs, or zero outputs.
--   All pin connections on the DMO Wrapper Filter use the [**IMemInputPin**](imeminputpin.md) interface.
+-   All pin connections on the DMO Wrapper Filter use the [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interface.
 -   DirectShow Editing Services does not support DMO-based effects or transitions.
 
 ## Related topics

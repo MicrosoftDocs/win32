@@ -1,7 +1,12 @@
-﻿---
-Description: 'Not implemented.'
-ms.assetid: '31ff6e32-e8e7-45b4-af62-b6a84e061c94'
-title: 'IAMTimeline::SetInsertMode method'
+---
+Description: Not implemented.
+ms.assetid: 31ff6e32-e8e7-45b4-af62-b6a84e061c94
+title: IAMTimelineSetInsertMode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::SetInsertMode method

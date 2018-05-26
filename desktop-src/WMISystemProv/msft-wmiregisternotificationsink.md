@@ -4,11 +4,16 @@ description: TBD.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '42f26bdb-90fe-453e-a1ba-528e390699a7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 42f26bdb-90fe-453e-a1ba-528e390699a7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiRegisterNotificationSink class", "MSFT_WmiRegisterNotificationSink class, described"]
+keywords:
+- MSFT_WmiRegisterNotificationSink class
+- MSFT_WmiRegisterNotificationSink class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiRegisterNotificationSink class
@@ -22,7 +27,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 ``` syntax
 class MSFT_WmiRegisterNotificationSink : MSFT_WmiEssEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   string Namespace;
   string QueryLanguage;
@@ -133,8 +138,8 @@ This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/libra
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\cimv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -148,9 +153,9 @@ This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/libra
 [**MSFT\_WmiEssEvent**](msft-wmiessevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

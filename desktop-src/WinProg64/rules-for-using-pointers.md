@@ -1,8 +1,16 @@
 ---
 title: Rules for Using Pointers
 description: Porting your code to compile for both 32- and 64-bit Microsoft Windows is straightforward. You need only follow a few simple rules about casting pointers, and use the new data types in your code. The rules for pointer manipulation are as follows.
-ms.assetid: '4c38bee2-fa1c-493f-a12d-e673df4d4895'
-keywords: ["rules for using pointers 64-bit Windows Programming", "pointer manipulation 64-bit Windows Programming", "casting pointers 64-bit Windows Programming"]
+ms.assetid: 4c38bee2-fa1c-493f-a12d-e673df4d4895
+keywords:
+- rules for using pointers 64-bit Windows Programming
+- pointer manipulation 64-bit Windows Programming
+- casting pointers 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rules for Using Pointers

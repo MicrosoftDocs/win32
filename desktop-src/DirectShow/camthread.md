@@ -1,7 +1,12 @@
 ---
-Description: 'The CAMThread class is an abstract class for managing worker threads.'
-ms.assetid: 'c217d879-0203-4566-96ad-7463b05bc990'
+Description: The CAMThread class is an abstract class for managing worker threads.
+ms.assetid: c217d879-0203-4566-96ad-7463b05bc990
 title: CAMThread class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread class
@@ -35,7 +40,7 @@ The `CAMThread` class is an abstract class for managing worker threads.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -113,9 +118,9 @@ The `CAMThread` class provides two critical sections as public member variables.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

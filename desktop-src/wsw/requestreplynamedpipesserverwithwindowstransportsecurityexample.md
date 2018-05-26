@@ -1,7 +1,12 @@
 ---
 title: RequestReplyNamedPipesServerWithWindowsTransportSecurityExample
 description: This example shows a named pipes server that accepts a channel, and receives and replies to messages with security provided by Windows SSPI transport security.
-ms.assetid: 'EF43DC45-378A-4269-998B-17EFEBF8740E'
+ms.assetid: EF43DC45-378A-4269-998B-17EFEBF8740E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestReplyNamedPipesServerWithWindowsTransportSecurityExample

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the methods that are defined for the IPrintCoreHelperUni COM interface.'
-ms.assetid: 'e581d190-8185-45c1-80c7-ff8eb305360e'
+---
+Description: This section describes the methods that are defined for the IPrintCoreHelperUni COM interface.
+ms.assetid: e581d190-8185-45c1-80c7-ff8eb305360e
 title: IPrintCoreHelperUni interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperUni interface

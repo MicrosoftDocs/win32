@@ -1,7 +1,12 @@
-﻿---
-Description: 'A print processor''s EnumPrintProcessorDatatypes function enumerates the data types that the print processor supports.'
-ms.assetid: '018880d0-0b0b-4130-bd8f-93814e40fe1e'
+---
+Description: A print processors EnumPrintProcessorDatatypes function enumerates the data types that the print processor supports.
+ms.assetid: 018880d0-0b0b-4130-bd8f-93814e40fe1e
 title: EnumPrintProcessorDatatypesA function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnumPrintProcessorDatatypesA function

@@ -1,7 +1,12 @@
 ---
-Description: 'The Distributed Transaction Coordinator (DTC) enables distributed transactions, or transactions that are under the control of multiple resource managers on one or more systems. KTM and DTC work closely together to accomplish this.'
-ms.assetid: '468379e2-c5f6-479f-9d5d-42afb395ec9b'
+Description: The Distributed Transaction Coordinator (DTC) enables distributed transactions, or transactions that are under the control of multiple resource managers on one or more systems. KTM and DTC work closely together to accomplish this.
+ms.assetid: 468379e2-c5f6-479f-9d5d-42afb395ec9b
 title: Interoperability With Other Windows Features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interoperability With Other Windows Features

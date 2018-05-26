@@ -1,14 +1,20 @@
 ---
 title: degrees
 description: Converts the specified value from radians to degrees.
-ms.assetid: 'e60a3ec4-9177-457a-8314-a5788f353633'
-keywords: ["degrees HLSL"]
+ms.assetid: e60a3ec4-9177-457a-8314-a5788f353633
+keywords:
+- degrees HLSL
 topic_type:
 - apiref
 api_name:
 - degrees
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # degrees
@@ -22,7 +28,7 @@ Converts the specified value from radians to degrees.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Converts the specified value from radians to degrees.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The result of converting the *x* parameter from radians to degrees.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

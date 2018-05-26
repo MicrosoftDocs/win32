@@ -1,14 +1,21 @@
 ---
 title: IWMDRMLicenseBackupRestoreStatus interface
 description: The IWMDRMLicenseBackupRestoreStatus interface provides a method to retrieve detailed status information about a license backup or restore operation.This interface is delivered with progress events generated during license backup and restore operations.
-ms.assetid: 'fbcd059f-13d9-4edb-8946-b55c9da6dca4'
-keywords: ["IWMDRMLicenseBackupRestoreStatus interface windows Media Format", "IWMDRMLicenseBackupRestoreStatus interface windows Media Format , described"]
+ms.assetid: fbcd059f-13d9-4edb-8946-b55c9da6dca4
+keywords:
+- IWMDRMLicenseBackupRestoreStatus interface windows Media Format
+- IWMDRMLicenseBackupRestoreStatus interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMLicenseBackupRestoreStatus
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseBackupRestoreStatus interface
@@ -37,7 +44,7 @@ The **IWMDRMLicenseBackupRestoreStatus** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -46,9 +53,9 @@ The **IWMDRMLicenseBackupRestoreStatus** interface has these methods.
 [**Interfaces**](drm-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Enumerates the cipher suites supported by a Secure Sockets Layer protocol (SSL) protocol provider.'
-ms.assetid: 'c12bc422-71c9-44f4-abf7-76902b19d3bd'
+Description: Enumerates the cipher suites supported by a Secure Sockets Layer protocol (SSL) protocol provider.
+ms.assetid: c12bc422-71c9-44f4-abf7-76902b19d3bd
 title: SslEnumCipherSuites function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslEnumCipherSuites function
@@ -13,11 +18,11 @@ The **SslEnumCipherSuites** function enumerates the cipher suites supported by a
 
 ```C++
 SECURITY_STATUS WINAPI SslEnumCipherSuites(
-  _In_     NCRYPT_PROV_HANDLE      hSslProvider,
-  _In_opt_ NCRYPT_KEY_HANDLE       hPrivateKey,
-  _Out_    NCRYPT_SSL_CIPHER_SUITE **ppCipherSuite,
-  _Inout_  PVOID                   *ppEnumState,
-  _In_     DWORD                   dwFlags
+  _In_     NCRYPT_PROV_HANDLE      hSslProvider,
+  _In_opt_ NCRYPT_KEY_HANDLE       hPrivateKey,
+  _Out_    NCRYPT_SSL_CIPHER_SUITE **ppCipherSuite,
+  _Inout_  PVOID                   *ppEnumState,
+  _In_     DWORD                   dwFlags
 );
 ```
 
@@ -42,9 +47,9 @@ The handle of a [*private key*](https://msdn.microsoft.com/library/windows/deskt
 Set this parameter to **NULL** when you are not specifying a private key.
 
 > [!Note]  
-> A *hPrivateKey* handle is obtained by calling the [**SslOpenPrivateKey**](sslopenprivatekey.md) function. Handles obtained from the [**NCryptOpenKey**](ncryptopenkey-func.md) function are not supported.
+> A *hPrivateKey* handle is obtained by calling the [**SslOpenPrivateKey**](sslopenprivatekey.md) function. Handles obtained from the [**NCryptOpenKey**](/windows/win32/Ncrypt/nf-ncrypt-ncryptopenkey?branch=master) function are not supported.
 
- 
+ 
 
 </dd> <dt>
 
@@ -91,7 +96,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -103,8 +108,8 @@ To enumerate all cipher suites supported by the SSL provider, call the **SslEnum
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Ncrypt.lib</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
@@ -118,9 +123,9 @@ To enumerate all cipher suites supported by the SSL provider, call the **SslEnum
 [**NCRYPT\_SSL\_CIPHER\_SUITE**](seccngprov-ncrypt_ssl_cipher_suite)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

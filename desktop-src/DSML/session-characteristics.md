@@ -4,11 +4,15 @@ description: Session Characteristics
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8abeef51-65df-4d4b-91a7-5a0dd5709092'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8abeef51-65df-4d4b-91a7-5a0dd5709092
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Session Characteristics DSML"]
+keywords:
+- Session Characteristics DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Session Characteristics

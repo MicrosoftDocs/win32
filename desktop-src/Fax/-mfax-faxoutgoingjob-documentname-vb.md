@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax document.'
-ms.assetid: '1a82ea39-4bc6-43e2-9ae5-a15fa9d0a326'
-title: 'FaxOutgoingJob.DocumentName property'
+---
+Description: The DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax document.
+ms.assetid: 1a82ea39-4bc6-43e2-9ae5-a15fa9d0a326
+title: FaxOutgoingJob.DocumentName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.DocumentName property
@@ -46,7 +51,7 @@ A **String** that receives the user-friendly name to associate with the fax docu
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

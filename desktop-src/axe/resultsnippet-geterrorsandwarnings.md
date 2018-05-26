@@ -1,8 +1,11 @@
 ---
 title: ResultSnippet GetErrorsAndWarnings method
 description: Returns an ErrorWarningsCollection object that contains the errors and warnings for this ResultsSnippet.
-ms.assetid: '951B729D-0AB8-42DE-AD25-BEA2798724EA'
-keywords: ["GetErrorsAndWarnings method Access Execution Engine", "GetErrorsAndWarnings method Access Execution Engine , ResultSnippet interface", "ResultSnippet interface Access Execution Engine , GetErrorsAndWarnings method"]
+ms.assetid: 951B729D-0AB8-42DE-AD25-BEA2798724EA
+keywords:
+- GetErrorsAndWarnings method Access Execution Engine
+- GetErrorsAndWarnings method Access Execution Engine , ResultSnippet interface
+- ResultSnippet interface Access Execution Engine , GetErrorsAndWarnings method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResultSnippet::GetErrorsAndWarnings method
@@ -22,7 +30,7 @@ Returns an [**ErrorWarningsCollection**](errorwarningcollection.md) object that 
 
 ```C++
 virtual HRESULT GetErrorsAndWarnings(
-  [out] ErrorWarningCollection **errorsAndWarnings
+  [out] ErrorWarningCollection **errorsAndWarnings
 ) = 0;
 ```
 
@@ -49,8 +57,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -63,9 +71,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**ResultSnippet**](resultsnippet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

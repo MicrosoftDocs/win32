@@ -1,7 +1,12 @@
 ---
 title: Unknown Extensions
 description: Unknown Extensions
-ms.assetid: 'bb1123cd-963e-4d78-8dfa-6d6406c61d92'
+ms.assetid: bb1123cd-963e-4d78-8dfa-6d6406c61d92
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unknown Extensions

@@ -1,8 +1,9 @@
 ---
 title: glTexSubImage2D function
 description: The glTexSubImage2D function specifies a portion of an existing one-dimensional texture image. You cannot define a new texture with glTexSubImage2D.
-ms.assetid: '2b6cb663-8e1d-4270-b8ba-5a8b43a2ece7'
-keywords: ["glTexSubImage2D function OpenGL"]
+ms.assetid: 2b6cb663-8e1d-4270-b8ba-5a8b43a2ece7
+keywords:
+- glTexSubImage2D function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glTexSubImage2D function
@@ -22,15 +28,15 @@ The **glTexSubImage2D** function specifies a portion of an existing one-dimensio
 
 ```C++
 void WINAPI glTexSubImage2D(
-         GLenum  target,
-         GLint   level,
-         GLint   xoffset,
-         GLint   yoffset,
-         GLsizei width,
-         GLsizei height,
-         GLenum  format,
-         GLenum  type,
-   const GLvoid  *pixels
+         GLenum  target,
+         GLint   level,
+         GLint   xoffset,
+         GLint   yoffset,
+         GLsizei width,
+         GLsizei height,
+         GLenum  format,
+         GLenum  type,
+   const GLvoid  *pixels
 );
 ```
 
@@ -103,7 +109,7 @@ The format of the pixel data. It can assume one of the following symbolic values
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -191,8 +197,8 @@ The following functions retrieve information related to **glTexSubImage2D**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -257,9 +263,9 @@ The following functions retrieve information related to **glTexSubImage2D**:
 [**glTexParameter**](gltexparameter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

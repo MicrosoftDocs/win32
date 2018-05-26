@@ -1,14 +1,22 @@
 ---
 title: IConfigAsfWriter2 StreamNumFromPin method
 description: The StreamNumFromPin method retrieves the stream number associated with the specified input pin.
-ms.assetid: 'f645a742-e6dc-4041-8a56-3bbb5188a9a9'
-keywords: ["StreamNumFromPin method windows Media Format", "StreamNumFromPin method windows Media Format , IConfigAsfWriter2 interface", "IConfigAsfWriter2 interface windows Media Format , StreamNumFromPin method"]
+ms.assetid: f645a742-e6dc-4041-8a56-3bbb5188a9a9
+keywords:
+- StreamNumFromPin method windows Media Format
+- StreamNumFromPin method windows Media Format , IConfigAsfWriter2 interface
+- IConfigAsfWriter2 interface windows Media Format , StreamNumFromPin method
 topic_type:
 - apiref
 api_name:
 - IConfigAsfWriter2.StreamNumFromPin
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IConfigAsfWriter2::StreamNumFromPin method
@@ -57,7 +65,7 @@ Sometimes you may need to use the Windows Media Format SDK interfaces directly t
 
 <dl> <dt>
 
-[**IConfigAsfWriter2 Interface**](iconfigasfwriter2.md)
+[**IConfigAsfWriter2 Interface**](/windows/win32/dshowasf/?branch=master)
 </dt> </dl>
 
  

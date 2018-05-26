@@ -4,11 +4,15 @@ description: Enumerates COM interfaces for use in developing snap-ins.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b5602e58-45a4-4b8c-807d-522a2bd27f44'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b5602e58-45a4-4b8c-807d-522a2bd27f44
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC 2.0 related COM interfaces"]
+keywords:
+- MMC 2.0 related COM interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0: Related COM Interfaces
@@ -51,7 +55,7 @@ MMC implements the following interfaces:
 
 Snap-ins implement the following interfaces:
 
-[**IComponent**](icomponent.md)
+[**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master)
 
 [**IComponentData**](icomponentdata.md)
 

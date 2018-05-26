@@ -2,13 +2,16 @@
 title: Set method of the PS\_RoutingProtocolPreference class
 description: Updates the preference level of the specified routing protocol.
 audience: developer
-ms.assetid: '457fe8ff-4523-4002-9c17-be6da4ba1232'
-ms.prod: 'windows-server-dev'
+ms.assetid: 457fe8ff-4523-4002-9c17-be6da4ba1232
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_RoutingProtocolPreference class", "PS_RoutingProtocolPreference class, Set method"]
+keywords:
+- Set method
+- Set method, PS_RoutingProtocolPreference class
+- PS_RoutingProtocolPreference class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_RoutingProtocolPreference class
@@ -28,10 +34,10 @@ Updates the preference level of the specified routing protocol.
 
 ```mof
 uint32 Set(
-  [in]  string             Name,
-  [in]  uint32             Level,
-  [in]  boolean            PassThru,
-  [out] ProtocolPreference cmdletOutput
+  [in]  string             Name,
+  [in]  uint32             Level,
+  [in]  boolean            PassThru,
+  [out] ProtocolPreference cmdletOutput
 );
 ```
 
@@ -84,7 +90,7 @@ The [**ProtocolPreference**](protocolpreference.md) object that receives the upd
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ The [**ProtocolPreference**](protocolpreference.md) object that receives the upd
 [**PS\_RoutingProtocolPreference**](ps-routingprotocolpreference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

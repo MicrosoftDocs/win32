@@ -1,7 +1,12 @@
 ---
 Description: Networking in Media Foundation
-ms.assetid: '59eec612-3b6d-400c-8190-1ae8675a2e1b'
+ms.assetid: 59eec612-3b6d-400c-8190-1ae8675a2e1b
 title: Networking in Media Foundation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Networking in Media Foundation

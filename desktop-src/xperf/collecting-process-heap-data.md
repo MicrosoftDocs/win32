@@ -1,7 +1,12 @@
 ---
 title: Collecting Process Heap Data
 description: Collecting Process Heap Data
-ms.assetid: 'e19b4c91-ba26-4dc1-afa0-5f7b9566ffe7'
+ms.assetid: e19b4c91-ba26-4dc1-afa0-5f7b9566ffe7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Collecting Process Heap Data

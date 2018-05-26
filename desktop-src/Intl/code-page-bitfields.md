@@ -1,15 +1,20 @@
 ---
-Description: 'The code page bitfields are used in the FONTSIGNATURE and LOCALESIGNATURE structures.Note  All locales do not support code pages.'
-ms.assetid: '830b1a88-cb0c-4719-b857-4cc2cd67dd5d'
+Description: The code page bitfields are used in the FONTSIGNATURE and LOCALESIGNATURE structures.Note  All locales do not support code pages.
+ms.assetid: 830b1a88-cb0c-4719-b857-4cc2cd67dd5d
 title: Code Page Bitfields
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Code Page Bitfields
 
-The code page bitfields are used in the [**FONTSIGNATURE**](fontsignature.md) and [**LOCALESIGNATURE**](localesignature.md) structures.
+The code page bitfields are used in the [**FONTSIGNATURE**](/windows/win32/Wingdi/ns-wingdi-tagfontsignature?branch=master) and [**LOCALESIGNATURE**](/windows/win32/Wingdi/ns-wingdi-taglocalesignature?branch=master) structures.
 
 > [!Note]  
-> All locales do not support code pages. The bitfields described in this topic do not apply to Unicode locales. To determine supported scripts for a locale, your application can use the locale identifier constant [LOCALE\_SSCRIPTS](locale-sscripts.md) with [**GetLocaleInfoEx**](getlocaleinfoex.md).
+> All locales do not support code pages. The bitfields described in this topic do not apply to Unicode locales. To determine supported scripts for a locale, your application can use the locale identifier constant [LOCALE\_SSCRIPTS](locale-sscripts.md) with [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master).
 
  
 

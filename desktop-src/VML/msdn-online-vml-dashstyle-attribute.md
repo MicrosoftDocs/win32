@@ -1,7 +1,12 @@
 ---
 title: VML DashStyle Attribute
 description: VML DashStyle Attribute
-ms.assetid: '7d6c7cbf-9ccc-4117-af0a-ca8f36684f88'
+ms.assetid: 7d6c7cbf-9ccc-4117-af0a-ca8f36684f88
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML DashStyle Attribute

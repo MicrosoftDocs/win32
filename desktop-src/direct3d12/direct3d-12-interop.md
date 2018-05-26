@@ -1,7 +1,12 @@
 ---
 title: Working with Direct3D 11, Direct3D 10 and Direct2D
 description: This section covers interop techniques with earlier versions of Direct3D and Direct2D, the Direct3D 11on12 API, and porting guidelines from Direct3D 11 to Direct3D 12.
-ms.assetid: '1AB98335-30B1-4244-B244-F8573524B38C'
+ms.assetid: 1AB98335-30B1-4244-B244-F8573524B38C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Direct3D 11, Direct3D 10 and Direct2D
@@ -20,7 +25,7 @@ This section covers interop techniques with earlier versions of Direct3D and Dir
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ This section covers interop techniques with earlier versions of Direct3D and Dir
 [Direct3D 12 Programming Guide](directx-12-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

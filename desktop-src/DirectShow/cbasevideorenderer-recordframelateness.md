@@ -1,7 +1,12 @@
 ---
-Description: 'The RecordFrameLateness method records how timely the rendering occurred and gathers statistics for the property page.'
-ms.assetid: '9d4b90d7-b529-40cc-a0fd-6635163fb7dd'
-title: 'CBaseVideoRenderer.RecordFrameLateness method'
+Description: The RecordFrameLateness method records how timely the rendering occurred and gathers statistics for the property page.
+ms.assetid: 9d4b90d7-b529-40cc-a0fd-6635163fb7dd
+title: CBaseVideoRenderer.RecordFrameLateness method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.RecordFrameLateness method
@@ -13,8 +18,8 @@ The `RecordFrameLateness` method records how timely the rendering occurred and g
 
 ```C++
 virtual void RecordFrameLateness(
-   int trLate,
-   int trFrame
+   int trLate,
+   int trFrame
 );
 ```
 
@@ -60,9 +65,9 @@ This method does not return a value.
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

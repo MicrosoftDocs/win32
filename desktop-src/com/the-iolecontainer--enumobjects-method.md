@@ -1,7 +1,12 @@
 ---
 title: The IOleContainer EnumObjects Method
 description: The IOleContainer EnumObjects Method
-ms.assetid: '29562d0e-dc8b-49cd-a58f-1f3125a438ed'
+ms.assetid: 29562d0e-dc8b-49cd-a58f-1f3125a438ed
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The IOleContainer::EnumObjects Method

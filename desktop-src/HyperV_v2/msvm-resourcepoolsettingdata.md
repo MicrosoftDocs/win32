@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the settings of a Msvm\_ResourcePool instance that are not allocation related.'
-ms.assetid: '32e0066c-7e14-454c-8aa9-06e093ef8072'
-title: 'Msvm\_ResourcePoolSettingData class'
+Description: Represents the settings of a Msvm\_ResourcePool instance that are not allocation related.
+ms.assetid: 32e0066c-7e14-454c-8aa9-06e093ef8072
+title: Msvm\_ResourcePoolSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ResourcePoolSettingData class
@@ -355,17 +360,17 @@ The type of resource this resource pool can allocate. This property is inherited
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

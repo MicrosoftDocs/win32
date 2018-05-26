@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the programming elements that applications use to create and use windows; manage relationships between windows; and size, move, and display windows.'
-ms.assetid: 'e325f8dc-004f-44a9-9122-3be5e44764d6'
+Description: This topic describes the programming elements that applications use to create and use windows; manage relationships between windows; and size, move, and display windows.
+ms.assetid: e325f8dc-004f-44a9-9122-3be5e44764d6
 title: About Windows
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Windows
@@ -179,7 +184,7 @@ The [**IsWindow**](iswindow.md) function determines whether a window handle iden
 
 ## Window Creation
 
-To create application windows, use the [**CreateWindow**](createwindow.md) or [**CreateWindowEx**](createwindowex.md) function. You must provide the information required to define the window attributes. **CreateWindowEx** has a parameter, *dwExStyle*, that **CreateWindow** does not have; otherwise, the functions are identical. In fact, **CreateWindow** simply calls **CreateWindowEx** with the *dwExStyle* parameter set to zero. For this reason, the remainder of this overview refers only to **CreateWindowEx**.
+To create application windows, use the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) or [**CreateWindowEx**](createwindowex.md) function. You must provide the information required to define the window attributes. **CreateWindowEx** has a parameter, *dwExStyle*, that **CreateWindow** does not have; otherwise, the functions are identical. In fact, **CreateWindow** simply calls **CreateWindowEx** with the *dwExStyle* parameter set to zero. For this reason, the remainder of this overview refers only to **CreateWindowEx**.
 
 This section contains the following topics:
 
@@ -194,13 +199,13 @@ This section contains the following topics:
 
 ### Main Window Creation
 
-Every Windows-based application must have [**WinMain**](winmain.md) as its entry point function. **WinMain** performs a number of tasks, including registering the window class for the main window and creating the main window. **WinMain** registers the main window class by calling the [**RegisterClass**](registerclass.md) function, and it creates the main window by calling the [**CreateWindowEx**](createwindowex.md) function.
+Every Windows-based application must have [**WinMain**](winmain.md) as its entry point function. **WinMain** performs a number of tasks, including registering the window class for the main window and creating the main window. **WinMain** registers the main window class by calling the [**RegisterClass**](/windows/win32/Winuser/nf-kusbfnclasslib-usbfnkmclasslibregisterclassdevice?branch=master) function, and it creates the main window by calling the [**CreateWindowEx**](createwindowex.md) function.
 
 Your [**WinMain**](winmain.md) function can also limit your application to a single instance. Create a named mutex using the [**CreateMutex**](https://msdn.microsoft.com/library/windows/desktop/ms682411) function. If [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns **ERROR\_ALREADY\_EXISTS**, another instance of your application exists (it created the mutex) and you should exit **WinMain**.
 
 The system does not automatically display the main window after creating it; instead, an application must use the [**ShowWindow**](showwindow.md) function to display the main window. After creating the main window, the application's [**WinMain**](winmain.md) function calls **ShowWindow**, passing it two parameters: a handle to the main window and a flag specifying whether the main window should be minimized or maximized when it is first displayed. Normally, the flag can be set to any of the constants beginning with the SW\_ prefix. However, when **ShowWindow** is called to display the application's main window, the flag must be set to **SW\_SHOWDEFAULT**. This flag tells the system to display the window as directed by the program that started the application.
 
-If a window class was registered with the Unicode version of [**RegisterClass**](registerclass.md), the window receives only Unicode messages. To determine whether a window uses the Unicode character set or not, call [**IsWindowUnicode**](iswindowunicode.md).
+If a window class was registered with the Unicode version of [**RegisterClass**](/windows/win32/Winuser/nf-kusbfnclasslib-usbfnkmclasslibregisterclassdevice?branch=master), the window receives only Unicode messages. To determine whether a window uses the Unicode character set or not, call [**IsWindowUnicode**](iswindowunicode.md).
 
 ### Window-Creation Messages
 

@@ -1,8 +1,9 @@
 ---
 title: IWMPMedia.isIdentical (VB and C\ )
 description: The isIdentical property (the get\_isIdentical method in C\ ) gets a value indicating whether the specified media item is the same as the current one.
-ms.assetid: '1406a0ff-2dc8-4cde-8b71-4a39b8608fb1'
-keywords: ["IWMPMedia.isIdentical (VB and C ) Windows Media Player"]
+ms.assetid: 1406a0ff-2dc8-4cde-8b71-4a39b8608fb1
+keywords:
+- IWMPMedia.isIdentical (VB and C ) Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia.isIdentical (VB and C#)
@@ -114,9 +120,9 @@ End If</code></pre></td>
 [**IWMPMedia Interface (VB and C#)**](iwmpmedia--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

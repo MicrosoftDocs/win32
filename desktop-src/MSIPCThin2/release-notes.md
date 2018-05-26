@@ -1,18 +1,21 @@
 ---
-title: What's new
-description: Rights Management SDK 4.2 takes RMS application enablement to a new level of ease and flexibility.
+title: Whats new
+description: Rights Management SDK 4.2 takes RMS application enablement to a new level of ease and flexibility.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '4fa1c686-b00b-4734-9abb-141ce582a6af'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 4fa1c686-b00b-4734-9abb-141ce582a6af
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What's new
 
-Rights Management SDK 4.2 takes RMS application enablement to a new level of ease and flexibility. This topic outlines important changes and features in this new version of the RMS SDK.
+Rights Management SDK 4.2 takes RMS application enablement to a new level of ease and flexibility. This topic outlines important changes and features in this new version of the RMS SDK.
 
 -   [New for our December 2015 Update](#new-for-our-december-2015-update)
 -   [July 2015 Update - Adds support for Linux / C++ development](#july-2015-update---adds-support-for-linux-c-development)
@@ -43,8 +46,8 @@ With this release, the RMS SDK for devices is now at version 4.2 and adds:
     [**ProtectedFileOutputStream.create synchronous method**](protectedfileoutputstream-create-synchronous-method-java.md)  
     [**TemplateDescriptor.getTemplates synchronous method**](templatedescriptor-gettemplates-synchronous-method-java.md)  
     [**UserPolicy.acquire synchronous method**](userpolicy-acquire-synchronous-method-java.md)  
-    [**UserPolicy.create (PolicyDescriptor…) synchronous method**](userpolicy-create-policydescriptor-------synchronous-method-java.md)  
-    [**UserPolicy.create (TempalteDescriptor…) synchronous method**](userpolicy-create-templatedescriptor-------synchronous-method-java.md)  
+    [**UserPolicy.create (PolicyDescriptor ) synchronous method**](userpolicy-create-policydescriptor-------synchronous-method-java.md)  
+    [**UserPolicy.create (TempalteDescriptor ) synchronous method**](userpolicy-create-templatedescriptor-------synchronous-method-java.md)  
     </dl>
 
     These synchronous APIs allow your application to use its own threading mechanism to control any REST calls.
@@ -113,7 +116,7 @@ This section outlines information about the current and previous releases of the
 
 **Android**
 
--   When you use a sample app on an Amazon® Kindle device to view .ptxt attachments, you must first download the file before you view it.
+-   When you use a sample app on an Amazon  Kindle device to view .ptxt attachments, you must first download the file before you view it.
 
     **Solution** - This is a known issue and will be addressed later.
 
@@ -160,22 +163,22 @@ This section outlines information about the current and previous releases of the
 
     
 
-     
+     
 
     > [!Note]  
     > MDI applications are not supported by our iOS API.
 
-     
+     
 
 ## Frequently asked questions
 
 **All platforms**
 
-<dl> **Q**: I don’t see a **Custom Permissions** selection UI in the protection workflow. Why?  
+<dl> **Q**: I don t see a **Custom Permissions** selection UI in the protection workflow. Why?  
 **A**: This is a known issue and will be addressed later.  
 **Q**: How do I get new organizational tenants to try out the SDK and sample applications?  
 **A**: To request credentials for Azure AD RMS test organizations, please send email to <rmcstbeta@microsoft.com>.  
-**Q**: I don’t see any test hierarchy discussion here in the documentation. Why?  
+**Q**: I don t see any test hierarchy discussion here in the documentation. Why?  
 **A**: There is no test hierarchy concept with the new AD RMS SDKs. You will always work with the production hierarchy.  
 **Q**: In the 2.1 version of the RMS SDK a generated manifest was needed for each application implementing information protection, is this still true for the 4.0 and later versions of the SDK?  
 **A**: No, manifests are no longer needed for the 3.0 and later versions of the Rights Management SDK.  
@@ -202,9 +205,9 @@ This section outlines information about the current and previous releases of the
 **A**:The OS X SDK works with Xcode 4.6 and later only, as well as OS X 10.8 and later.  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

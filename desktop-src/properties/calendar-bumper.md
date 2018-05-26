@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'fde5c85f-e620-4557-89f0-7dbbbea74f8c'
+---
+Description: .
+ms.assetid: fde5c85f-e620-4557-89f0-7dbbbea74f8c
 title: Calendar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calendar

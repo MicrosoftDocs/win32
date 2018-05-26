@@ -4,13 +4,15 @@ description: Used to associate an instance CIM\_RegisteredProfile with an instan
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a149e8df-5b7d-4b18-89e6-1b49b6a49b7c'
-ms.prod: 'windows-server-dev'
+ms.assetid: a149e8df-5b7d-4b18-89e6-1b49b6a49b7c
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_ReferencedProfile class", "Msvm_ReferencedProfile class, described"]
+keywords:
+- Msvm_ReferencedProfile class
+- Msvm_ReferencedProfile class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_ReferencedProfile class
@@ -88,7 +93,7 @@ This property is inherited from [**CIM\_ReferencedProfile**](https://msdn.micros
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\Interop<br/>                                                                               |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -102,9 +107,9 @@ This property is inherited from [**CIM\_ReferencedProfile**](https://msdn.micros
 [**CIM\_ReferencedProfile**](https://msdn.microsoft.com/library/ee309374)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

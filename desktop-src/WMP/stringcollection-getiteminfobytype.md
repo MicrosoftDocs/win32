@@ -1,8 +1,11 @@
 ---
 title: StringCollection.getItemInfoByType method
 description: The getItemInfoByType method retrieves the value corresponding to the specified StringCollection index, name, language, and attribute index.
-ms.assetid: '32a25c69-9399-4857-84c1-143c529be58f'
-keywords: ["getItemInfoByType method Windows Media Player", "getItemInfoByType method Windows Media Player , StringCollection class", "StringCollection class Windows Media Player , getItemInfoByType method"]
+ms.assetid: 32a25c69-9399-4857-84c1-143c529be58f
+keywords:
+- getItemInfoByType method Windows Media Player
+- getItemInfoByType method Windows Media Player , StringCollection class
+- StringCollection class Windows Media Player , getItemInfoByType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StringCollection.getItemInfoByType method
@@ -79,7 +87,7 @@ This method returns a **Number**, **String**, **MetadataPicture** object, or **M
 
 
 
- 
+ 
 
 For attributes whose underlying value is **Boolean**, this method returns the string "true" or "false".
 
@@ -116,9 +124,9 @@ To use this method, read access to the library is required. For more information
 [**StringCollection Object**](stringcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

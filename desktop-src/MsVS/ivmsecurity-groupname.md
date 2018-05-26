@@ -1,8 +1,13 @@
 ---
 title: IVMSecurity GroupName property
 description: The GroupName property retrieves the account name of the group.
-ms.assetid: '930ea45d-4aa5-421a-88c4-0a530f8fcf9c'
-keywords: ["GroupName property Virtual Server", "GroupName property Virtual Server , IVMSecurity interface", "IVMSecurity interface Virtual Server , GroupName property", "GroupName property Virtual Server , VMSecurity interface", "VMSecurity interface Virtual Server , GroupName property"]
+ms.assetid: 930ea45d-4aa5-421a-88c4-0a530f8fcf9c
+keywords:
+- GroupName property Virtual Server
+- GroupName property Virtual Server , IVMSecurity interface
+- IVMSecurity interface Virtual Server , GroupName property
+- GroupName property Virtual Server , VMSecurity interface
+- VMSecurity interface Virtual Server , GroupName property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSecurity::GroupName property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GroupName(
-  [in]  BSTR groupName
+  [in]  BSTR groupName
 );
 
 HRESULT get_GroupName(
-  [out] BSTR *groupName
+  [out] BSTR *groupName
 );
 ```
 
@@ -83,8 +93,8 @@ This property value is read/write.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -96,9 +106,9 @@ This property value is read/write.
 [**IVMSecurity**](ivmsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

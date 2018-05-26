@@ -4,11 +4,11 @@ description: The following error codes can be returned by the information WMI cl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4e6d91a6-53f4-4310-abad-5c071e49a70a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4e6d91a6-53f4-4310-abad-5c071e49a70a
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -16,6 +16,9 @@ api_name:
 - MONITOR_STATUS Return Codes
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MONITOR\_STATUS Return Codes
@@ -84,9 +87,9 @@ Generic error.
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
-| End of client support<br/>    | Windows 7<br/>           |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
+| End of client support<br/>    | Windows 7<br/>           |
 
 
 
@@ -97,9 +100,9 @@ Generic error.
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

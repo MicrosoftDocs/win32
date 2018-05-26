@@ -1,8 +1,11 @@
 ---
 title: CPUs.item property
 description: Gets a System.Machine.CPU object from the CPUs collection.
-ms.assetid: 'bd73765f-1dd5-44d7-ab70-971ac9b2fd6c'
-keywords: ["item property Windows Sidebar", "item property Windows Sidebar , CPUs collection", "CPUs collection Windows Sidebar , item property"]
+ms.assetid: bd73765f-1dd5-44d7-ab70-971ac9b2fd6c
+keywords:
+- item property Windows Sidebar
+- item property Windows Sidebar , CPUs collection
+- CPUs collection Windows Sidebar , item property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPUs.item property
@@ -74,10 +82,10 @@ function Init()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -102,9 +110,9 @@ function Init()
 [**count**](system-machine-cpus-count.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Callbacks
 description: Often the programming model necessitates a server callback to a client through a remote procedure call (RPC), or client calls into an untrusted server. This introduces many potential pitfalls.
-ms.assetid: 'a4f3ea26-ac4b-41e5-abde-96b4baedf2ae'
+ms.assetid: a4f3ea26-ac4b-41e5-abde-96b4baedf2ae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Callbacks

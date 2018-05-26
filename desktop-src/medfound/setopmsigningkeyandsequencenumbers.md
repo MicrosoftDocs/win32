@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the signing key and two sequence numbers on a protected output object.'
-ms.assetid: '278a80f5-198d-4311-aa43-10b6dc33b3a4'
+---
+Description: Sets the signing key and two sequence numbers on a protected output object.
+ms.assetid: 278a80f5-198d-4311-aa43-10b6dc33b3a4
 title: SetOPMSigningKeyAndSequenceNumbers function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetOPMSigningKeyAndSequenceNumbers function
@@ -49,7 +54,7 @@ If the method succeeds, it returns **STATUS\_SUCCESS**. Otherwise, it returns an
 
 ## Remarks
 
-Applications should call [**IOPMVideoOutput::FinishInitialization**](iopmvideooutput-iopmvideooutput--finishinitialization.md) instead of calling this function.
+Applications should call [**IOPMVideoOutput::FinishInitialization**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-finishinitialization?branch=master) instead of calling this function.
 
 This function has no associated import library. To call this function, you must use the [**LoadLibrary**](base.loadlibrary) and [**GetProcAddress**](base.getprocaddress) functions to dynamically link to Gdi32.dll.
 

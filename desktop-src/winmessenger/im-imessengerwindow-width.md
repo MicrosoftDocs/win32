@@ -1,8 +1,11 @@
 ---
 title: IMessengerWindow Width property
 description: Sets or retrieves the horizontal dimension of a Messenger window, in pixels.
-ms.assetid: '3676f484-ddd8-4e40-b8f1-36d239dfbe64'
-keywords: ["Width property Windows Messenger", "Width property Windows Messenger , IMessengerWindow interface", "IMessengerWindow interface Windows Messenger , Width property"]
+ms.assetid: 3676f484-ddd8-4e40-b8f1-36d239dfbe64
+keywords:
+- Width property Windows Messenger
+- Width property Windows Messenger , IMessengerWindow interface
+- IMessengerWindow interface Windows Messenger , Width property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerWindow::Width property
 
-\[**Width** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Width** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Sets or retrieves the horizontal dimension of a Messenger window, in pixels.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Width(
-  [in]          LONG lWidth
+  [in]          LONG lWidth
 );
 
 HRESULT get_Width(
-  [out, retval] LONG *plWidth
+  [out, retval] LONG *plWidth
 );
 ```
 
@@ -68,14 +76,14 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 If the Messenger window is closed (only available from the taskbar), not responding, or if the HWND could not be found, this method will fail.
 
 > [!Note]  
 > This property is not available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -102,17 +110,17 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

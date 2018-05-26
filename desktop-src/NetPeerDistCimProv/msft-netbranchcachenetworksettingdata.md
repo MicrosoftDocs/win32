@@ -1,7 +1,12 @@
 ---
-Description: 'Describes BranchCache networking settings.'
-ms.assetid: '1badf1cc-72ea-4eab-bae4-c7057ed21709'
-title: 'MSFT\_NetBranchCacheNetworkSettingData class'
+Description: Describes BranchCache networking settings.
+ms.assetid: 1badf1cc-72ea-4eab-bae4-c7057ed21709
+title: MSFT\_NetBranchCacheNetworkSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetBranchCacheNetworkSettingData class
@@ -23,12 +28,12 @@ class MSFT_NetBranchCacheNetworkSettingData : MSFT_NetBranchCacheSettingData
   boolean PeerDiscoveryFirewallRulesEnabled;
   boolean HostedCacheServerFirewallRulesEnabled;
   boolean HostedCacheClientFirewallRulesEnabled;
-  uint16  ContentDownloadListenPort;
-  uint16  ContentDownloadConnectPort;
-  uint16  HostedCacheHttpConnectPort;
-  uint16  HostedCacheHttpsConnectPort;
-  uint16  HostedCacheHttpListenPort;
-  uint16  HostedCacheHttpsListenPort;
+  uint16  ContentDownloadListenPort;
+  uint16  ContentDownloadConnectPort;
+  uint16  HostedCacheHttpConnectPort;
+  uint16  HostedCacheHttpsConnectPort;
+  uint16  HostedCacheHttpListenPort;
+  uint16  HostedCacheHttpsListenPort;
 };
 ```
 
@@ -219,17 +224,17 @@ The status of the BranchCache Peer Discovery Firewall Rules.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported client<br/> | Windows 8<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\StandardCIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>NetPeerDistCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetPeerDistCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

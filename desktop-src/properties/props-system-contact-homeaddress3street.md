@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '05f45578-3259-4570-a1da-6068f520ecc0'
-title: 'System.Contact.HomeAddress3Street'
+Description: .
+ms.assetid: 05f45578-3259-4570-a1da-6068f520ecc0
+title: System.Contact.HomeAddress3Street
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeAddress3Street

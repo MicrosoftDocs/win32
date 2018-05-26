@@ -1,15 +1,18 @@
 ---
-Description: 'Joins a computer system to a domain or workgroup.'
+Description: Joins a computer system to a domain or workgroup.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b9421f04-9b56-4413-af5c-12dffeb6f0c8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b9421f04-9b56-4413-af5c-12dffeb6f0c8
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'JoinDomainOrWorkgroup method of the Win32\_ComputerSystem class'
+title: JoinDomainOrWorkgroup method of the Win32\_ComputerSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # JoinDomainOrWorkgroup method of the Win32\_ComputerSystem class
@@ -23,11 +26,11 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 JoinDomainOrWorkgroup(
-  [in] string Name,
-  [in] string Password,
-  [in] string UserName,
-  [in] string AccountOU,
-  [in] uint32 FJoinOptions = 
+  [in] string Name,
+  [in] string Password,
+  [in] string UserName,
+  [in] string AccountOU,
+  [in] uint32 FJoinOptions = 
 );
 ```
 
@@ -142,7 +145,7 @@ Performs an unsecured join.
 
 This option requests a domain join to a pre-created account without authenticating with domain user credentials. This option can be used in conjunction with **NETSETUP\_MACHINE\_PWD\_PASSED** option. In this case, *Password* is the password of the pre-created machine account.
 
-Prior to Windows Vista with SP1 and Windows Server 2008, an unsecure join did not authenticate to the domain controller. All communication was performed using a null (unauthenticated) session. Starting with Windows Vista with SP1 and Windows Server 2008, the machine account name and password are used to authenticate to the domain controller.
+Prior to Windows Vista with SP1 and Windows Server 2008, an unsecure join did not authenticate to the domain controller. All communication was performed using a null (unauthenticated) session. Starting with Windows Vista with SP1 and Windows Server 2008, the machine account name and password are used to authenticate to the domain controller.
 
 </dd> <dt>
 
@@ -182,9 +185,9 @@ Typically, these properties are updated during the join operation. Instead, thes
 Allow the domain join if existing account is a domain controller.
 
 > [!Note]  
-> This flag is supported on Windows Vista and later.
+> This flag is supported on Windows Vista and later.
 
- 
+ 
 
 </dd> <dt>
 
@@ -198,9 +201,9 @@ Allow the domain join if existing account is a domain controller.
 When joining the domain don't try to set the preferred domain controller in the registry.
 
 > [!Note]  
-> This flag is supported on Windows 7, Windows Server 2008 R2, and later.
+> This flag is supported on Windows 7, Windows Server 2008 R2, and later.
 
- 
+ 
 
 </dd> <dt>
 
@@ -214,9 +217,9 @@ When joining the domain don't try to set the preferred domain controller in the 
 When joining the domain don't create the Netlogon cache.
 
 > [!Note]  
-> This flag is supported on Windows 7, Windows Server 2008 R2, and later.
+> This flag is supported on Windows 7, Windows Server 2008 R2, and later.
 
- 
+ 
 
 </dd> <dt>
 
@@ -230,9 +233,9 @@ When joining the domain don't create the Netlogon cache.
 When joining the domain don't force Netlogon service to start.
 
 > [!Note]  
-> This flag is supported on Windows 7, Windows Server 2008 R2, and later.
+> This flag is supported on Windows 7, Windows Server 2008 R2, and later.
 
- 
+ 
 
 </dd> <dt>
 
@@ -246,9 +249,9 @@ When joining the domain don't force Netlogon service to start.
 When joining the domain for offline join only, set target machine hostname and NetBIOS name.
 
 > [!Note]  
-> This flag is supported on Windows 7, Windows Server 2008 R2, and later.
+> This flag is supported on Windows 7, Windows Server 2008 R2, and later.
 
- 
+ 
 
 </dd> <dt>
 
@@ -262,9 +265,9 @@ When joining the domain for offline join only, set target machine hostname and N
 When joining the domain, override other settings during domain join and set the service principal name (SPN).
 
 > [!Note]  
-> This flag is supported on Windows 7, Windows Server 2008 R2, and later.
+> This flag is supported on Windows 7, Windows Server 2008 R2, and later.
 
- 
+ 
 
 </dd> <dt>
 
@@ -278,9 +281,9 @@ When joining the domain, override other settings during domain join and set the 
 When joining the domain, do not reuse an existing account.
 
 > [!Note]  
-> This flag is supported on Windows 7, Windows Server 2008 R2, and later.
+> This flag is supported on Windows 7, Windows Server 2008 R2, and later.
 
- 
+ 
 
 </dd> <dt>
 
@@ -383,7 +386,7 @@ The machine is not currently joined to a domain.
 **Other**
 </dt> <dd>
 
-1–4294967295
+1 4294967295
 
 </dd> </dl>
 
@@ -434,8 +437,8 @@ ReturnValue = objComputer.JoinDomainOrWorkGroup(strDomain, _
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -452,9 +455,9 @@ ReturnValue = objComputer.JoinDomainOrWorkGroup(strDomain, _
 [**UnjoinDomainOrWorkgroup method**](unjoindomainorworkgroup-method-in-class-win32-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

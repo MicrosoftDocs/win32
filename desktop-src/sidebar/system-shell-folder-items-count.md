@@ -1,8 +1,11 @@
 ---
 title: Items.count property
 description: Gets the number of System.Shell.Item objects in the Items collection.
-ms.assetid: '807f08b1-7dec-4327-81d9-18fee8dc17f0'
-keywords: ["count property Windows Sidebar", "count property Windows Sidebar , Items collection", "Items collection Windows Sidebar , count property"]
+ms.assetid: 807f08b1-7dec-4327-81d9-18fee8dc17f0
+keywords:
+- count property Windows Sidebar
+- count property Windows Sidebar , Items collection
+- Items collection Windows Sidebar , count property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Items.count property
@@ -51,10 +59,10 @@ The following example demonstrates how to access an item in the [**Items**](syst
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -79,9 +87,9 @@ The following example demonstrates how to access an item in the [**Items**](syst
 [**Items**](system-shell-folder-items.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

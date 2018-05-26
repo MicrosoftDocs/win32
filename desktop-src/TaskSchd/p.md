@@ -2,7 +2,12 @@
 title: P
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
-ms.assetid: '5f4c7c98-a802-4fc3-b88f-bb37826f8199'
+ms.assetid: 5f4c7c98-a802-4fc3-b88f-bb37826f8199
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # P

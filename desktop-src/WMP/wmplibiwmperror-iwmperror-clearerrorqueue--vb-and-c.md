@@ -1,8 +1,11 @@
 ---
 title: IWMPError clearErrorQueue method
 description: The clearErrorQueue method clears the errors from the error queue.
-ms.assetid: 'a8e8e666-56e4-4e75-9ed5-2714d272ce7c'
-keywords: ["clearErrorQueue method Windows Media Player", "clearErrorQueue method Windows Media Player , IWMPError interface", "IWMPError interface Windows Media Player , clearErrorQueue method"]
+ms.assetid: a8e8e666-56e4-4e75-9ed5-2714d272ce7c
+keywords:
+- clearErrorQueue method Windows Media Player
+- clearErrorQueue method Windows Media Player , IWMPError interface
+- IWMPError interface Windows Media Player , clearErrorQueue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPError::clearErrorQueue method
@@ -146,9 +154,9 @@ End Sub</code></pre></td>
 [**IWMPSettings.enableErrorDialogs (VB and C#)**](wmplibiwmpsettings-iwmpsettings-enableerrordialogs--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IWMPClosedCaption captioningId property
 description: The IWMPClosedCaption property gets or sets the name of the HTML element displaying the captioning.
-ms.assetid: 'b09bb7c7-c3b6-4e0d-962f-24b06a04f6d1'
-keywords: ["captioningId property Windows Media Player", "captioningId property Windows Media Player , IWMPClosedCaption interface", "IWMPClosedCaption interface Windows Media Player , captioningId property"]
+ms.assetid: b09bb7c7-c3b6-4e0d-962f-24b06a04f6d1
+keywords:
+- captioningId property Windows Media Player
+- captioningId property Windows Media Player , IWMPClosedCaption interface
+- IWMPClosedCaption interface Windows Media Player , captioningId property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPClosedCaption::captioningId property
@@ -77,9 +85,9 @@ The element name specified can be any HTML element in the webpage as long as it 
 [**IWMPClosedCaption2 Interface (VB and C#)**](iwmpclosedcaption2--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

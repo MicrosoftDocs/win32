@@ -1,7 +1,12 @@
 ---
-Description: 'A custom icon must be assigned to a file type to provide a visual indication to the user of that file type or the application that file type is associated with.'
-ms.assetid: '84F293C2-BAB1-4BF8-9F89-122B6DAB29C3'
+Description: A custom icon must be assigned to a file type to provide a visual indication to the user of that file type or the application that file type is associated with.
+ms.assetid: 84F293C2-BAB1-4BF8-9F89-122B6DAB29C3
 title: How to Assign a Custom Icon to a File Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Assign a Custom Icon to a File Type
@@ -36,7 +41,7 @@ Assign the **DefaultIcon** subkey a default value of type **REG\_SZ** that speci
 
 ### Step 3:
 
-Call the [**SHChangeNotify**](shchangenotify.md) function to notify the Shell to update its icon cache.
+Call the [**SHChangeNotify**](/windows/win32/shlobj_core/nf-shlobj_core-shchangenotify?branch=master) function to notify the Shell to update its icon cache.
 
 ## Remarks
 

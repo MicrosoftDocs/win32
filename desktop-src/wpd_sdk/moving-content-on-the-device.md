@@ -1,7 +1,12 @@
 ---
 Description: Moving Content on the Device
-ms.assetid: '5072d308-d376-4141-96df-dbef23fb9f9b'
+ms.assetid: 5072d308-d376-4141-96df-dbef23fb9f9b
 title: Moving Content on the Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Moving Content on the Device
@@ -14,7 +19,7 @@ Content move operations are accomplished using the interfaces described in the f
 
 | Interface                                                                                      | Description                                       |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| [**IPortableDeviceContent Interface**](iportabledevicecontent.md)                             | Provides access to the content-specific methods.  |
+| [**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)                             | Provides access to the content-specific methods.  |
 | [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md) | Provides access to the property-specific methods. |
 
 
@@ -70,7 +75,7 @@ if (FAILED(hr))
 
 
 
-Next, the sample retrieves an [**IPortableDeviceContent**](iportabledevicecontent.md) object that is used to access the [**IPortableDeviceContent::Move**](iportabledevicecontent-move.md) method.
+Next, the sample retrieves an [**IPortableDeviceContent**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master) object that is used to access the [**IPortableDeviceContent::Move**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-move?branch=master) method.
 
 
 ```C++
@@ -190,10 +195,10 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceContent Interface**](iportabledevicecontent.md)
+[**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)
 </dt> <dt>
 
 [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md)

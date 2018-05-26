@@ -1,15 +1,18 @@
 ---
-Description: 'The SetDNSSuffixSearchOrder WMI class static method uses an array of string elements to set the suffix search order.'
+Description: The SetDNSSuffixSearchOrder WMI class static method uses an array of string elements to set the suffix search order.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1ad9fc99-8c57-43d4-92d2-b12f2c1451cb'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1ad9fc99-8c57-43d4-92d2-b12f2c1451cb
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetDNSSuffixSearchOrder method of the Win32\_NetworkAdapterConfiguration class'
+title: SetDNSSuffixSearchOrder method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetDNSSuffixSearchOrder method of the Win32\_NetworkAdapterConfiguration class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetDNSSuffixSearchOrder(
-  [in] string DNSDomainSuffixSearchOrder[]
+  [in] string DNSDomainSuffixSearchOrder[]
 );
 ```
 
@@ -393,7 +396,7 @@ DHCP not enabled on adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -427,8 +430,8 @@ $class.SetDNSSuffixSearchOrder($suffixes)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -454,9 +457,9 @@ $class.SetDNSSuffixSearchOrder($suffixes)
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

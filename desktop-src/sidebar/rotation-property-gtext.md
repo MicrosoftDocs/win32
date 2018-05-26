@@ -1,8 +1,11 @@
 ---
 title: text.rotation property
 description: Gets or sets the degree of rotation applied to the g text element.
-ms.assetid: 'abefaca7-321f-40cd-b182-49978285cb43'
-keywords: ["rotation property Windows Sidebar", "rotation property Windows Sidebar , text object", "text object Windows Sidebar , rotation property"]
+ms.assetid: abefaca7-321f-40cd-b182-49978285cb43
+keywords:
+- rotation property Windows Sidebar
+- rotation property Windows Sidebar , text object
+- text object Windows Sidebar , rotation property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # text.rotation property
@@ -67,10 +75,10 @@ txtRotation.rotation = 90.0;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>D2d1helper.h</dt> </dl>                        |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
@@ -93,9 +101,9 @@ txtRotation.rotation = 90.0;
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

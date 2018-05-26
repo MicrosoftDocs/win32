@@ -1,7 +1,12 @@
 ---
-Description: 'The Arbitrary Text Type of semantic type is one of the Text Format Types.'
-ms.assetid: '503ad2db-0875-4d8b-90f7-3d04318a6b62'
+Description: The Arbitrary Text Type of semantic type is one of the Text Format Types.
+ms.assetid: 503ad2db-0875-4d8b-90f7-3d04318a6b62
 title: Arbitrary Text Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Arbitrary Text Type

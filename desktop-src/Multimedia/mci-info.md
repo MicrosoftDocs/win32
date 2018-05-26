@@ -1,8 +1,9 @@
 ---
 title: MCI\_INFO command
 description: The MCI\_INFO command retrieves string information from a device.
-ms.assetid: 'aed3fed3-87b9-4673-9171-4f57770d765c'
-keywords: ["MCI_INFO command Windows Multimedia"]
+ms.assetid: aed3fed3-87b9-4673-9171-4f57770d765c
+keywords:
+- MCI_INFO command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_INFO command
 
 The MCI\_INFO command retrieves string information from a device. All devices recognize this command. Information is returned in the **lpstrReturn** member of the structure identified by *lpInfo*. The **dwRetSize** member specifies the buffer length for the returned data.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -172,7 +178,7 @@ Obtains the path and filename of the last file specified with the [MCI\_OPEN](mc
 
 </dd> </dl>
 
-For digital-video devices, *lpInfo* points to an [**MCI\_DGV\_INFO\_PARMS**](mci-dgv-info-parms.md) structure.
+For digital-video devices, *lpInfo* points to an [**MCI\_DGV\_INFO\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_info_parmsa?branch=master) structure.
 
 The following additional flags apply to the **sequencer** device type:
 
@@ -259,8 +265,8 @@ Obtains the product name of the current output and its value is device specific.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -275,9 +281,9 @@ Obtains the product name of the current output and its value is device specific.
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

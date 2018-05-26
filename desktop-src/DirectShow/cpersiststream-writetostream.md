@@ -1,7 +1,12 @@
 ---
-Description: 'Writes the filter''s data to the given stream.'
-ms.assetid: '1b405050-6cfd-4b69-b449-f00a6ecfac6a'
-title: 'CPersistStream.WriteToStream method'
+Description: Writes the filters data to the given stream.
+ms.assetid: 1b405050-6cfd-4b69-b449-f00a6ecfac6a
+title: CPersistStream.WriteToStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPersistStream.WriteToStream method
@@ -13,7 +18,7 @@ Writes the filter's data to the given stream.
 
 ```C++
 virtual HRESULT WriteToStream(
-   IStream *pStream
+   IStream *pStream
 );
 ```
 
@@ -56,9 +61,9 @@ The default version writes nothing; it can be overridden to write data specific 
 [**CPersistStream Class**](cpersiststream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

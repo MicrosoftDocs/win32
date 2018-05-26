@@ -1,14 +1,20 @@
 ---
 title: D1114 Non Optional Pointer NULL
-ms.assetid: '62f0f247-8359-4f75-b3ce-195202d491d5'
+ms.assetid: 62f0f247-8359-4f75-b3ce-195202d491d5
 description: 
-keywords: ["D1114 Non Optional Pointer NULL Direct2D"]
+keywords:
+- D1114 Non Optional Pointer NULL Direct2D
 topic_type:
 - apiref
 api_name:
 - D1114 Non Optional Pointer NULL
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1114: Non Optional Pointer NULL
@@ -50,7 +56,7 @@ The name of the method that received the invalid parameter.
 
 ### Examples
 
-The following example shows that the [**FillGeometry**](id2d1rendertarget-fillgeometry.md) method receives a NULL pointer for the non-optional *geometry* parameter.
+The following example shows that the [**FillGeometry**](/windows/win32/d2d1/?branch=master) method receives a NULL pointer for the non-optional *geometry* parameter.
 
 
 ```C++

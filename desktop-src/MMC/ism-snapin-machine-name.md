@@ -4,17 +4,21 @@ description: The ISM\_SNAPIN\_MACHINE\_NAME clipboard format returns the name of
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4ec5f8b0-1961-4aa9-aabf-9bd6237b00b9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4ec5f8b0-1961-4aa9-aabf-9bd6237b00b9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ISM_SNAPIN_MACHINE_NAME clipboard format MMC"]
+keywords:
+- ISM_SNAPIN_MACHINE_NAME clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - ISM_SNAPIN_MACHINE_NAME
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ISM\_SNAPIN\_MACHINE\_NAME clipboard format

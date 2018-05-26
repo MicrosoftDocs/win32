@@ -1,8 +1,27 @@
 ---
 title: UI Accessibility Checker
-description: Describes UI Accessibility Checker, a tool for testing an application's UI Automation or Microsoft Active Accessibility (MSAA) implementation.
-ms.assetid: '92155984-356A-4774-A99D-35B15A3BB704'
-keywords: ["UI Accessibility Checker", "AccChecker", "UI Automation implementation,testing", "UIA implementation,testing", "Microsoft Active Accessibility implementation,testing", "MSAA implementation,testing", "testing UI Automation", "testing UIA", "testing Microsoft Active Accessibility", "testing MSAA", "UIA testing tools", "UI Automation testing tools", "MSAA testing tools", "Microsoft Active Accessibility testing tools"]
+description: Describes UI Accessibility Checker, a tool for testing an applications UI Automation or Microsoft Active Accessibility (MSAA) implementation.
+ms.assetid: 92155984-356A-4774-A99D-35B15A3BB704
+keywords:
+- UI Accessibility Checker
+- AccChecker
+- UI Automation implementation,testing
+- UIA implementation,testing
+- Microsoft Active Accessibility implementation,testing
+- MSAA implementation,testing
+- testing UI Automation
+- testing UIA
+- testing Microsoft Active Accessibility
+- testing MSAA
+- UIA testing tools
+- UI Automation testing tools
+- MSAA testing tools
+- Microsoft Active Accessibility testing tools
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Accessibility Checker

@@ -1,7 +1,12 @@
 ---
-Description: 'The BreakConnect method releases a pin from a connection.'
-ms.assetid: 'cc384786-9cba-4f68-9c60-740205b35661'
-title: 'CTransformFilter.BreakConnect method'
+Description: The BreakConnect method releases a pin from a connection.
+ms.assetid: cc384786-9cba-4f68-9c60-740205b35661
+title: CTransformFilter.BreakConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.BreakConnect method
@@ -13,7 +18,7 @@ The `BreakConnect` method releases a pin from a connection.
 
 ```C++
 virtual HRESULT BreakConnect(
-   PIN_DIRECTION dir
+   PIN_DIRECTION dir
 );
 ```
 
@@ -26,7 +31,7 @@ virtual HRESULT BreakConnect(
 *dir* 
 </dt> <dd>
 
-Member of the [**PIN\_DIRECTION**](pin-direction.md) enumerated type, specifying which pin connection was broken (input or output).
+Member of the [**PIN\_DIRECTION**](/windows/win32/strmif/ne-strmif-_pindirection?branch=master) enumerated type, specifying which pin connection was broken (input or output).
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ The [**CTransformInputPin::BreakConnect**](ctransforminputpin-breakconnect.md) a
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

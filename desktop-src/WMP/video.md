@@ -1,8 +1,17 @@
 ---
 title: Video
 description: Video
-ms.assetid: '6f20a9ad-e92e-4774-868d-ad0e071f4935'
-keywords: ["Windows Media Player Mobile skins,video", "skins,video", "reference for skins,video", "video in skins,about"]
+ms.assetid: 6f20a9ad-e92e-4774-868d-ad0e071f4935
+keywords:
+- Windows Media Player Mobile skins,video
+- skins,video
+- reference for skins,video
+- video in skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video

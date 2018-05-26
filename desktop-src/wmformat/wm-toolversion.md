@@ -1,14 +1,20 @@
 ---
 title: WM/ToolVersion
 description: The WM/ToolVersion attribute contains the version number of the application used to create the file. If you use this attribute, you should also include the name of the application using WM/ToolName.
-ms.assetid: 'c9700b30-7acb-4eb6-8e82-4b0d22345a97'
-keywords: ["WM/ToolVersion windows Media Format"]
+ms.assetid: c9700b30-7acb-4eb6-8e82-4b0d22345a97
+keywords:
+- WM/ToolVersion windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/ToolVersion
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ToolVersion

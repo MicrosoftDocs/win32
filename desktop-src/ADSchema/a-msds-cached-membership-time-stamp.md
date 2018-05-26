@@ -4,17 +4,22 @@ description: The ms-DS-Cached-Membership-Time-Stamp attribute is used by the Sec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cb096f79-a57b-4001-b197-e75522904734'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cb096f79-a57b-4001-b197-e75522904734
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Cached-Membership-Time-Stamp attribute AD Schema", "msDS-Cached-Membership-Time-Stamp attribute AD Schema"]
+keywords:
+- ms-DS-Cached-Membership-Time-Stamp attribute AD Schema
+- msDS-Cached-Membership-Time-Stamp attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Cached-Membership-Time-Stamp
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Cached-Membership-Time-Stamp attribute
@@ -38,11 +43,11 @@ The **ms-DS-Cached-Membership-Time-Stamp** attribute is used by the Security Acc
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ The **ms-DS-Cached-Membership-Time-Stamp** attribute is used by the Security Acc
 
 
 
- 
+ 
 
- 
+ 
 
 
 

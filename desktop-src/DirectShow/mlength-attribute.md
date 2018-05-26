@@ -1,7 +1,12 @@
 ---
-Description: 'The mlength attribute specifies the duration of a source file. This value must be the actual duration, or rendering errors may occur.'
-ms.assetid: 'f33ce85c-df61-4248-8dea-677162fa1a07'
+Description: The mlength attribute specifies the duration of a source file. This value must be the actual duration, or rendering errors may occur.
+ms.assetid: f33ce85c-df61-4248-8dea-677162fa1a07
 title: mlength Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mlength Attribute

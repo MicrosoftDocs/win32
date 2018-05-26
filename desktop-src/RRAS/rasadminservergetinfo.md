@@ -1,8 +1,9 @@
 ---
 title: RasAdminServerGetInfo function
 description: The RasAdminServerGetInfo function gets the server configuration of a RAS server.
-ms.assetid: 'a1c371fd-462c-443c-8016-592efb2f0b1a'
-keywords: ["RasAdminServerGetInfo function RAS"]
+ms.assetid: a1c371fd-462c-443c-8016-592efb2f0b1a
+keywords:
+- RasAdminServerGetInfo function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RasAdminServerGetInfo function
 
-\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminServerGetInfo**](mpradminservergetinfo.md) function.\]
+\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminServerGetInfo**](/windows/win32/Mprapi/nf-mprapi-mpradminservergetinfo?branch=master) function.\]
 
 The **RasAdminServerGetInfo** function gets the server configuration of a RAS server.
 
@@ -24,8 +30,8 @@ The **RasAdminServerGetInfo** function gets the server configuration of a RAS se
 
 ```C++
 DWORD RasAdminServerGetInfo(
-  _In_  const WCHAR         *lpszServer,
-  _Out_       PRAS_SERVER_0 pRasServer0
+  _In_  const WCHAR         *lpszServer,
+  _Out_       PRAS_SERVER_0 pRasServer0
 );
 ```
 
@@ -38,7 +44,7 @@ DWORD RasAdminServerGetInfo(
 *lpszServer* \[in\]
 </dt> <dd>
 
-Pointer to a **null**-terminated Unicode string that specifies the name of the Windows NT/Windows 2000 RAS server. If this parameter is **NULL**, the function returns information about the local computer. Specify the name with leading "\\\\" characters, in the form: \\\\*servername*.
+Pointer to a **null**-terminated Unicode string that specifies the name of the Windows NT/Windows 2000 RAS server. If this parameter is **NULL**, the function returns information about the local computer. Specify the name with leading "\\\\" characters, in the form: \\\\*servername*.
 
 </dd> <dt>
 
@@ -65,8 +71,8 @@ To enumerate all RAS servers in a domain, call the [**NetServerEnum**](https://m
 
 |                                  |                                                                                        |
 |----------------------------------|----------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
-| End of server support<br/> | Windows 2000 Server<br/>                                                         |
+| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
+| End of server support<br/> | Windows 2000 Server<br/>                                                         |
 | Header<br/>                | <dl> <dt>Rassapi.h</dt> </dl>   |
 | Library<br/>               | <dl> <dt>Rassapi.lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
@@ -89,9 +95,9 @@ To enumerate all RAS servers in a domain, call the [**NetServerEnum**](https://m
 [**RAS\_SERVER\_0**](ras-server-0-str.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

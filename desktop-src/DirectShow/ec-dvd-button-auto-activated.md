@@ -1,7 +1,12 @@
 ---
-Description: 'Signals that a DVD menu button has been automatically activated per instructions on the disc. This occurs when a menu times out and the disc has specified a button to be automatically activated.'
-ms.assetid: 'ecd79c2a-1717-473d-b111-2b1db2ca4cc1'
-title: 'EC\_DVD\_BUTTON\_AUTO\_ACTIVATED'
+Description: Signals that a DVD menu button has been automatically activated per instructions on the disc. This occurs when a menu times out and the disc has specified a button to be automatically activated.
+ms.assetid: ecd79c2a-1717-473d-b111-2b1db2ca4cc1
+title: EC\_DVD\_BUTTON\_AUTO\_ACTIVATED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_BUTTON\_AUTO\_ACTIVATED
@@ -51,9 +56,9 @@ This event is raised in all domains.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

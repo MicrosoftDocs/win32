@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies whether a location or a library is search only.'
-ms.assetid: 'a731ff53-65c2-4d31-adae-861e1fde26a2'
-title: 'System.IsSearchOnlyItem'
+Description: Identifies whether a location or a library is search only.
+ms.assetid: a731ff53-65c2-4d31-adae-861e1fde26a2
+title: System.IsSearchOnlyItem
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.IsSearchOnlyItem

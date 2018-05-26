@@ -1,14 +1,19 @@
 ---
-Description: 'The ELS transliteration services map UTF-16 text from one writing system to another writing system.'
-ms.assetid: '32e46c52-5c3c-4e22-8f4e-05286ee213ba'
+Description: The ELS transliteration services map UTF-16 text from one writing system to another writing system.
+ms.assetid: 32e46c52-5c3c-4e22-8f4e-05286ee213ba
 title: Transliteration Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transliteration Services
 
 The ELS transliteration services map UTF-16 text from one writing system to another writing system. Each service is really data applying to a specific set of input and output Unicode scripts, and the actual transliteration is internal to the ELS platform. The application can optionally enumerate the available services for specific input and output scripts and select the service that it requires.
 
-The platform maintains metadata for the ELS transliteration services. Metadata for each service provides a description of the service and lists the input and output scripts that the service supports. The metadata is represented by a [**MAPPING\_SERVICE\_INFO**](mappingserviceinfo.md) structure retrieved by the [**MappingGetServices**](mappinggetservices.md) function.
+The platform maintains metadata for the ELS transliteration services. Metadata for each service provides a description of the service and lists the input and output scripts that the service supports. The metadata is represented by a [**MAPPING\_SERVICE\_INFO**](/windows/win32/Elscore/ns-elscore-_mapping_service_info?branch=master) structure retrieved by the [**MappingGetServices**](/windows/win32/Elscore/nf-elscore-mappinggetservices?branch=master) function.
 
 ## Input to a Transliteration Service
 
@@ -20,9 +25,9 @@ The output of a transliteration service is UTF-16 text mapped to a second writin
 
 ## Transliteration Service Operation
 
-A transliteration service maps Unicode text from an input script to an output script, character by character or term by term, as appropriate. The application can choose to obtain the specific transliteration service of interest by specifying input and output scripts when calling [**MappingGetServices**](mappinggetservices.md), or by providing the service GUID. Another option for the application is to enumerate all available transliteration services by specifying the service category "Transliteration" when calling **MappingGetServices**. In this case, the application calls each service and compares the results with the original text to see if the results have been changed by the operation of a particular service.
+A transliteration service maps Unicode text from an input script to an output script, character by character or term by term, as appropriate. The application can choose to obtain the specific transliteration service of interest by specifying input and output scripts when calling [**MappingGetServices**](/windows/win32/Elscore/nf-elscore-mappinggetservices?branch=master), or by providing the service GUID. Another option for the application is to enumerate all available transliteration services by specifying the service category "Transliteration" when calling **MappingGetServices**. In this case, the application calls each service and compares the results with the original text to see if the results have been changed by the operation of a particular service.
 
-The application can request text recognition for an ELS transliteration service with a call to [**MappingRecognizeText**](mappingrecognizetext.md). When it receives the request, the transliteration service allocates a buffer to contain the transliterated data, and then performs text recognition for each code point in the input string supplied by the application.
+The application can request text recognition for an ELS transliteration service with a call to [**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master). When it receives the request, the transliteration service allocates a buffer to contain the transliterated data, and then performs text recognition for each code point in the input string supplied by the application.
 
 > [!Note]  
 > The original text and the transliterated text might have different lengths.

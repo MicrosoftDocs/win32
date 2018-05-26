@@ -1,7 +1,12 @@
 ---
 title: To create a full-text search stop list
 description: To create a full-text search stop list
-ms.assetid: '660C38DF-384D-4b3a-8AB0-2534609BCE57'
+ms.assetid: 660C38DF-384D-4b3a-8AB0-2534609BCE57
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a full-text search stop list

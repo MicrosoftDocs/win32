@@ -1,7 +1,12 @@
 ---
 title: Categorizing by Container Capabilities
 description: Components often require certain functionality from the container and will not work with a container that does not provide the support.
-ms.assetid: '11002f3e-17de-4e05-a2df-0c9e6326846d'
+ms.assetid: 11002f3e-17de-4e05-a2df-0c9e6326846d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Categorizing by Container Capabilities
@@ -37,7 +42,7 @@ HKEY_CLASSES_ROOT\CLSID\{...CLSID_MyDBControl...}\Implemented Categories\{...CAT
  
 ```
 
-The GroupBox control is a simple frame control. It relies on the container implementing the [**ISimpleFrameSite**](isimpleframesite.md) interface and will work correctly only in such containers:
+The GroupBox control is a simple frame control. It relies on the container implementing the [**ISimpleFrameSite**](/windows/win32/OCIdl/nn-ocidl-isimpleframesite?branch=master) interface and will work correctly only in such containers:
 
 ``` syntax
 HKEY_CLASSES_ROOT\CLSID\{...CLSID_GroupBox...}\Implemented Categories

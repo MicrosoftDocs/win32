@@ -1,7 +1,12 @@
 ---
 title: Windows Performance Analyzer Feature Graphs
 description: Windows Performance Analyzer Feature Graphs
-ms.assetid: '34144fe4-37a5-434b-85f7-ddb09f3859b3'
+ms.assetid: 34144fe4-37a5-434b-85f7-ddb09f3859b3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Performance Analyzer Feature: Graphs

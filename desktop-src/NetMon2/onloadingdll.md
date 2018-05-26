@@ -1,7 +1,12 @@
 ---
-Description: 'Loads the monitor DLL.'
-ms.assetid: '6de2750f-3f12-4c0a-af8d-3ebd227fa123'
+Description: Loads the monitor DLL.
+ms.assetid: 6de2750f-3f12-4c0a-af8d-3ebd227fa123
 title: OnLoadingDLL function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OnLoadingDLL function
@@ -13,12 +18,12 @@ The **OnLoadingDLL** function loads the monitor DLL.
 
 ```C++
 HRESULT OnLoadingDLL(
-  _Inout_ HBLOB hFilterBlob,
-  _In_    DWORD *pCreateFlags,
-  _Out_   char  **ppDefaultName,
-  _Out_   char  **ppDescription,
-  _Out_   char  **ppDefaultScript,
-  _Out_   char  **ppDefaultConfig
+  _Inout_ HBLOB hFilterBlob,
+  _In_    DWORD *pCreateFlags,
+  _Out_   char  **ppDefaultName,
+  _Out_   char  **ppDescription,
+  _Out_   char  **ppDefaultScript,
+  _Out_   char  **ppDefaultConfig
 );
 ```
 
@@ -49,7 +54,7 @@ The flags that indicate how the MCSVC controls the creation of a monitor. This p
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -103,15 +108,15 @@ The monitor should use BLOB helper functions to alter the filter BLOB.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

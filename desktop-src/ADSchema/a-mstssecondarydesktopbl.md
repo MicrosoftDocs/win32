@@ -4,17 +4,22 @@ description: This attribute represents the backward link to a user.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e87ebdd5-9a8c-4b1a-9213-1b22ffaf0363'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e87ebdd5-9a8c-4b1a-9213-1b22ffaf0363
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TS-Secondary-Desktop-BL attribute AD Schema", "msTSSecondaryDesktopBL attribute AD Schema"]
+keywords:
+- ms-TS-Secondary-Desktop-BL attribute AD Schema
+- msTSSecondaryDesktopBL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TS-Secondary-Desktop-BL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TS-Secondary-Desktop-BL attribute
@@ -38,8 +43,8 @@ This attribute represents the backward link to a user.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ This attribute represents the backward link to a user.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A unique identifier for an identity.'
-ms.assetid: 'b5566533-4757-4882-86ea-c7c902d529d2'
-title: 'System.Identity.UniqueID'
+Description: A unique identifier for an identity.
+ms.assetid: b5566533-4757-4882-86ea-c7c902d529d2
+title: System.Identity.UniqueID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Identity.UniqueID

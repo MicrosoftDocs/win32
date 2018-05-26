@@ -4,11 +4,16 @@ description: There are two ways to bind to the Active Directory schema Bind dire
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8c10415e-136c-476c-993c-b6dc459b5bf4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8c10415e-136c-476c-993c-b6dc459b5bf4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Guidelines for Binding to the Schema AD", "Schema AD , Binding to"]
+keywords:
+- Guidelines for Binding to the Schema AD
+- Schema AD , Binding to
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Guidelines for Binding to the Schema

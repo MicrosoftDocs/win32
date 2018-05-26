@@ -1,8 +1,11 @@
 ---
 title: Activity SetAttributeID method
 description: Sets the ID of the Activity.
-ms.assetid: 'C370E963-C614-467C-83D3-F06AC9D1113C'
-keywords: ["SetAttributeID method Access Execution Engine", "SetAttributeID method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , SetAttributeID method"]
+ms.assetid: C370E963-C614-467C-83D3-F06AC9D1113C
+keywords:
+- SetAttributeID method Access Execution Engine
+- SetAttributeID method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , SetAttributeID method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::SetAttributeID method
@@ -22,7 +30,7 @@ Sets the ID of the **Activity**.
 
 ```C++
 virtual HRESULT SetAttributeID(
-  [in] LPCWSTR attributeID
+  [in] LPCWSTR attributeID
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The ID is the value of attribute **ID** of element **Activity**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The ID is the value of attribute **ID** of element **Activity**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

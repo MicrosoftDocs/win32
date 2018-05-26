@@ -1,12 +1,17 @@
-﻿---
-Description: 'Allows the callback object to specify the buttons to be added to the toolbar. Used by IShellFolderViewCB::MessageSFVCB.'
-ms.assetid: '0c0dbf61-9da9-4bcc-bad9-92c3f78db78f'
-title: 'SFVM\_GETBUTTONS message'
+---
+Description: Allows the callback object to specify the buttons to be added to the toolbar. Used by IShellFolderViewCBMessageSFVCB.
+ms.assetid: 0c0dbf61-9da9-4bcc-bad9-92c3f78db78f
+title: SFVM\_GETBUTTONS message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_GETBUTTONS message
 
-Allows the callback object to specify the buttons to be added to the toolbar. Used by [**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md).
+Allows the callback object to specify the buttons to be added to the toolbar. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master).
 
 
 ```C++

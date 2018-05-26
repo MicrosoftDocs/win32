@@ -1,7 +1,12 @@
 ---
 title: Task Dialog Messages
 description: .
-ms.assetid: 'fd26f006-1c01-4ee8-b2a0-00bbb7227693'
+ms.assetid: fd26f006-1c01-4ee8-b2a0-00bbb7227693
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Dialog Messages

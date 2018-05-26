@@ -4,17 +4,22 @@ description: An object class name used to group objects of this or derived class
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '06fd0314-08b0-49eb-867c-463f7e0afee4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 06fd0314-08b0-49eb-867c-463f7e0afee4
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Object-Category attribute AD Schema", "objectCategory attribute AD Schema"]
+keywords:
+- Object-Category attribute AD Schema
+- objectCategory attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Object-Category
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Object-Category attribute
@@ -38,13 +43,13 @@ An object class name used to group objects of this or derived classes.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ An object class name used to group objects of this or derived classes.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This tutorial shows how to get data packets from an Advanced Systems Format (ASF) file using the ASF Splitter.'
-ms.assetid: 'e3a55275-e8f0-4ab7-98db-a2f2c54d5a51'
-title: 'Tutorial: Reading an ASF File by Using WMContainer Objects'
+Description: This tutorial shows how to get data packets from an Advanced Systems Format (ASF) file using the ASF Splitter.
+ms.assetid: e3a55275-e8f0-4ab7-98db-a2f2c54d5a51
+title: Tutorial Reading an ASF File by Using WMContainer Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tutorial: Reading an ASF File by Using WMContainer Objects
@@ -69,7 +74,7 @@ template <class T> void SafeRelease(T **ppT)
 
 ## 2. Open an ASF File
 
-Next, open the specified file by calling the [**MFCreateFile**](mfcreatefile.md) function. The method returns a pointer to the byte stream object that contains the contents of the file. The filename is specified by the user through command line arguments of the application.
+Next, open the specified file by calling the [**MFCreateFile**](/windows/win32/mfapi/nf-mfapi-mfcreatefile?branch=master) function. The method returns a pointer to the byte stream object that contains the contents of the file. The filename is specified by the user through command line arguments of the application.
 
 The following example code takes a file name and returns a pointer to a byte stream object that can be used to read the file.
 
@@ -88,12 +93,12 @@ Next, create the [ASF ContentInfo Object](asf-contentinfo-object.md) and use it 
 
 To create the ASF ContentInfo object:
 
-1.  Call the [**MFCreateASFContentInfo**](mfcreateasfcontentinfo.md) function to create a ContentInfo object. The method returns a pointer to the [**IMFASFContentInfo**](imfasfcontentinfo.md) interface.
+1.  Call the [**MFCreateASFContentInfo**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfcontentinfo?branch=master) function to create a ContentInfo object. The method returns a pointer to the [**IMFASFContentInfo**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfcontentinfo?branch=master) interface.
 2.  Read the first 30 bytes of data from the ASF file into a media buffer.
-3.  Pass the media buffer to the [**IMFASFContentInfo::GetHeaderSize**](imfasfcontentinfo-getheadersize.md) method. This method returns the total size of the Header Object in the ASF file.
-4.  Pass the same media buffer to the [**IMFASFContentInfo::ParseHeader**](imfasfcontentinfo-parseheader.md) method.
+3.  Pass the media buffer to the [**IMFASFContentInfo::GetHeaderSize**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getheadersize?branch=master) method. This method returns the total size of the Header Object in the ASF file.
+4.  Pass the same media buffer to the [**IMFASFContentInfo::ParseHeader**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader?branch=master) method.
 5.  Read the remainder of the Header Object into a new media buffer.
-6.  Pass the second buffer to the [**ParseHeader**](imfasfcontentinfo-parseheader.md) method. Specify the 30-byte offset in the *cbOffsetWithinHeader* parameter of **ParseHeader**. The **ParseHeader** method initializes the ContentInfo object with information gathered from the various ASF objects contained in the Header Object.
+6.  Pass the second buffer to the [**ParseHeader**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader?branch=master) method. Specify the 30-byte offset in the *cbOffsetWithinHeader* parameter of **ParseHeader**. The **ParseHeader** method initializes the ContentInfo object with information gathered from the various ASF objects contained in the Header Object.
 
 
 ```C++
@@ -227,8 +232,8 @@ Next, create the [ASF Splitter](asf-splitter.md) object. You will use the ASF sp
 
 To create a splitter object for the ASF File:
 
-1.  Call the [**MFCreateASFSplitter**](mfcreateasfsplitter.md) function to create the ASF splitter. The function returns a pointer to the [**IMFASFSplitter**](imfasfsplitter.md) interface.
-2.  Call [**IMFASFSplitter::Initialize**](imfasfsplitter-initialize.md) to initialize the ASF splitter. This method takes a pointer to the ContentInfo object, which was created in procedure 3.
+1.  Call the [**MFCreateASFSplitter**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfsplitter?branch=master) function to create the ASF splitter. The function returns a pointer to the [**IMFASFSplitter**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfsplitter?branch=master) interface.
+2.  Call [**IMFASFSplitter::Initialize**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfsplitter-initialize?branch=master) to initialize the ASF splitter. This method takes a pointer to the ContentInfo object, which was created in procedure 3.
 
 
 ```C++
@@ -266,11 +271,11 @@ Next, enumerate the streams in the ASF file and select the first video stream fo
 
 To select the video stream:
 
-1.  Call [**IMFASFContentInfo::GetProfile**](imfasfcontentinfo-getprofile.md) on the ContentInfo object to create an ASF profile. Among other information, the profile describes the streams in the ASF file.
-2.  Call [**IMFASFProfile::GetStreamCount**](imfasfprofile-getstreamcount.md) to get the number of streams in the ASF file.
-3.  Call [**IMFASFProfile::GetStream**](imfasfprofile-getstream.md) in a loop to enumerate the streams. The method returns a pointer to the [**IMFASFStreamConfig**](imfasfstreamconfig.md) interface. It also returns the stream identifier.
-4.  Call [**IMFASFStreamConfig::GetStreamType**](imfasfstreamconfig-getstreamtype.md) to get the major type GUID for the stream. If the major type GUID is MFMediaType\_Video, the stream contains video.
-5.  If you found a video stream in step 4, call [**IMFASFSplitter::SelectStreams**](imfasfsplitter-selectstreams.md) to select the stream. This method takes an array of stream identifiers. For this tutorial, the array size is 1 because the application will parse a single stream.
+1.  Call [**IMFASFContentInfo::GetProfile**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getprofile?branch=master) on the ContentInfo object to create an ASF profile. Among other information, the profile describes the streams in the ASF file.
+2.  Call [**IMFASFProfile::GetStreamCount**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamcount?branch=master) to get the number of streams in the ASF file.
+3.  Call [**IMFASFProfile::GetStream**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfprofile-getstream?branch=master) in a loop to enumerate the streams. The method returns a pointer to the [**IMFASFStreamConfig**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfstreamconfig?branch=master) interface. It also returns the stream identifier.
+4.  Call [**IMFASFStreamConfig::GetStreamType**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getstreamtype?branch=master) to get the major type GUID for the stream. If the major type GUID is MFMediaType\_Video, the stream contains video.
+5.  If you found a video stream in step 4, call [**IMFASFSplitter::SelectStreams**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfsplitter-selectstreams?branch=master) to select the stream. This method takes an array of stream identifiers. For this tutorial, the array size is 1 because the application will parse a single stream.
 
 The following example code enumerates the streams in the ASF file and selects the first video stream on the ASF splitter:
 
@@ -353,8 +358,8 @@ To generate compressed media samples:
 
 1.  Allocate a new media buffer.
 2.  Read data from the byte stream into the media buffer.
-3.  Pass the media buffer to the [**IMFASFSplitter::ParseData**](imfasfsplitter-parsedata.md) method. The method parses the ASF data in the buffer.
-4.  In a loop, get media samples from the splitter by calling [**IMFASFSplitter::GetNextSample**](imfasfsplitter-getnextsample.md). If the *ppISample* parameter receives a valid [**IMFSample**](imfsample.md) pointer, it means the ASF splitter has parsed one or more data packets. If *ppISample* receives the value **NULL**, break from the loop and go back to step 1.
+3.  Pass the media buffer to the [**IMFASFSplitter::ParseData**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfsplitter-parsedata?branch=master) method. The method parses the ASF data in the buffer.
+4.  In a loop, get media samples from the splitter by calling [**IMFASFSplitter::GetNextSample**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfsplitter-getnextsample?branch=master). If the *ppISample* parameter receives a valid [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) pointer, it means the ASF splitter has parsed one or more data packets. If *ppISample* receives the value **NULL**, break from the loop and go back to step 1.
 5.  Display information about the sample.
 6.  Break from the loop in the following conditions:
     -   The *ppISample* parameter receives the value **NULL**.
@@ -493,7 +498,7 @@ A typical application would use the data packets for decoding, remuxing, sending
 
 ## 7. Write the Entry-Point Function
 
-Now you can put the previous steps together into a complete application. Before using any of the Media Foundation objects, initialize the Media Foundation platform by calling [**MFStartup**](mfstartup.md). When you are done, call [**MFShutdown**](mfshutdown.md). For more information, [Initializing Media Foundation](initializing-media-foundation.md).
+Now you can put the previous steps together into a complete application. Before using any of the Media Foundation objects, initialize the Media Foundation platform by calling [**MFStartup**](/windows/win32/mfapi/nf-mfapi-mfstartup?branch=master). When you are done, call [**MFShutdown**](/windows/win32/mfapi/nf-mfapi-mfshutdown?branch=master). For more information, [Initializing Media Foundation](initializing-media-foundation.md).
 
 
 ```C++

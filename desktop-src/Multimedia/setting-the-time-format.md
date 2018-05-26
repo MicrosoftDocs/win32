@@ -1,8 +1,14 @@
 ---
 title: Setting the Time Format
 description: Setting the Time Format
-ms.assetid: 'c670d47e-30fc-4637-b468-b6a415605dca'
-keywords: ["MCI_SET command message"]
+ms.assetid: c670d47e-30fc-4637-b468-b6a415605dca
+keywords:
+- MCI_SET command message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Time Format
@@ -28,7 +34,7 @@ Use the [**MCI\_SET**](mci-set.md) command message along with the [**MCI\_SET\_P
 
  
 
-The following example sets the time format to milliseconds on the device specified by the wDeviceID variable using the [**mciSendCommand**](mcisendcommand.md) function.
+The following example sets the time format to milliseconds on the device specified by the wDeviceID variable using the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function.
 
 
 ```C++

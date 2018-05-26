@@ -1,8 +1,10 @@
 ---
 title: DRM\_HTTP\_STATUS enumeration
 description: The DRM\_HTTP\_STATUS enumeration type defines a range of HTTP states for a DRM request.
-ms.assetid: '09183ef9-4832-4469-a960-dbeb67381949'
-keywords: ["DRM_HTTP_STATUS enumeration windows Media Format", "enumeration windows Media Format"]
+ms.assetid: 09183ef9-4832-4469-a960-dbeb67381949
+keywords:
+- DRM_HTTP_STATUS enumeration windows Media Format
+- enumeration windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_HTTP\_STATUS enumeration
@@ -22,11 +29,11 @@ The **DRM\_HTTP\_STATUS** enumeration type defines a range of HTTP states for a 
 
 ```C++
 typedef enum DRM_HTTP_STATUS { 
-  HTTP_NOTINITIATED  = 0,
-  HTTP_CONNECTING    = 1,
-  HTTP_REQUESTING    = 2,
-  HTTP_RECEIVING     = 3,
-  HTTP_COMPLETED     = 4
+  HTTP_NOTINITIATED  = 0,
+  HTTP_CONNECTING    = 1,
+  HTTP_REQUESTING    = 2,
+  HTTP_RECEIVING     = 3,
+  HTTP_COMPLETED     = 4
 } ;
 ```
 
@@ -92,9 +99,9 @@ This enumeration is used by the [**WM\_INDIVIDUALIZE\_STATUS**](drmwm-individual
 [**Enumeration Types**](drm-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

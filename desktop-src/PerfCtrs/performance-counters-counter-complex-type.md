@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a counter.'
-ms.assetid: '8f1338c0-7ea6-4d0c-af71-51012973e4a0'
+Description: Defines a counter.
+ms.assetid: 8f1338c0-7ea6-4d0c-af71-51012973e4a0
 title: counter Complex Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # counter Complex Type
@@ -306,7 +311,7 @@ Defines a counter.
 <tr class="odd">
 <td>defaultScale</td>
 
-<td>The scale factor to apply to the counter value (factor * counter value). The default is zero if no scale is applied. Valid values range from –10 to 10 (0.0000000001 to 1000000000). If this value is zero, the scale value is 1; if this value is 1, the scale value is 10; if this value is –1, the scale value is .10; and so on.<br/></td>
+<td>The scale factor to apply to the counter value (factor * counter value). The default is zero if no scale is applied. Valid values range from  10 to 10 (0.0000000001 to 1000000000). If this value is zero, the scale value is 1; if this value is 1, the scale value is 10; if this value is  1, the scale value is .10; and so on.<br/></td>
 </tr>
 <tr class="even">
 <td>description</td>
@@ -374,12 +379,12 @@ Defines a counter.
 <tr class="odd">
 <td>symbol</td>
 <td>[<strong>man:CSymbolType</strong>](performance-counters-csymboltype-simple-type.md)</td>
-<td>A symbolic name that identifies the counter. The [CTRPP](ctrpp.md) tool creates a constant that you can use when calling functions that require a counter identifier (for example, [<strong>PerfIncrementULongCounterValue</strong>](perfincrementulongcountervalue.md)). The name of the constant is the symbolic name.<br/></td>
+<td>A symbolic name that identifies the counter. The [CTRPP](ctrpp.md) tool creates a constant that you can use when calling functions that require a counter identifier (for example, [<strong>PerfIncrementULongCounterValue</strong>](/windows/win32/Perflib/nf-perflib-perfincrementulongcountervalue?branch=master)). The name of the constant is the symbolic name.<br/></td>
 </tr>
 <tr class="even">
 <td>type</td>
 
-<td>The name of the counter type. For possible values, see the above syntax block. For details of each type, see [Counter Types](Http://go.microsoft.com/fwlink/p/?linkid=84422) in the Windows 2003 Deployment Guide. The name is case-sensitive—use lowercase. <br/></td>
+<td>The name of the counter type. For possible values, see the above syntax block. For details of each type, see [Counter Types](Http://go.microsoft.com/fwlink/p/?linkid=84422) in the Windows 2003 Deployment Guide. The name is case-sensitive use lowercase. <br/></td>
 </tr>
 <tr class="odd">
 <td>uri</td>
@@ -401,14 +406,14 @@ To provide backwards-compatibility, each counter in the counter set should speci
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

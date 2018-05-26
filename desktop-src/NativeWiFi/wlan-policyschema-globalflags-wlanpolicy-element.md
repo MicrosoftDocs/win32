@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the global settings for the Auto Configuration Module (ACM).'
-ms.assetid: 'fb2b96d0-38cc-44fe-a82a-97e73b6a8f2a'
-title: 'globalFlags (WLANPolicy) Element'
+---
+Description: Contains the global settings for the Auto Configuration Module (ACM).
+ms.assetid: fb2b96d0-38cc-44fe-a82a-97e73b6a8f2a
+title: globalFlags (WLANPolicy) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # globalFlags (WLANPolicy) Element

@@ -1,8 +1,11 @@
 ---
 title: CommonDialog.ShowAcquireImage method
 description: Displays one or more dialog boxes that enable the user to acquire an image from a hardware device.
-ms.assetid: 'fa1acf61-6820-4386-b272-d55d0131f8ad'
-keywords: ["ShowAcquireImage method WIA Automation", "ShowAcquireImage method WIA Automation , CommonDialog object", "CommonDialog object WIA Automation , ShowAcquireImage method"]
+ms.assetid: fa1acf61-6820-4386-b272-d55d0131f8ad
+keywords:
+- ShowAcquireImage method WIA Automation
+- ShowAcquireImage method WIA Automation , CommonDialog object
+- CommonDialog object WIA Automation , ShowAcquireImage method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CommonDialog.ShowAcquireImage method
@@ -53,7 +61,7 @@ Type: **[**WiaDeviceType**](-wiaaut-wiadevicetype.md)**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -72,7 +80,7 @@ Type: **[**WiaImageIntent**](-wiaaut-wiaimageintent.md)**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -91,7 +99,7 @@ Type: **[**WiaImageBias**](-wiaaut-wiaimagebias.md)**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -110,7 +118,7 @@ Type: **BSTR**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -130,7 +138,7 @@ Type: **VARIANT\_BOOL**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -150,7 +158,7 @@ Type: **VARIANT\_BOOL**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -170,7 +178,7 @@ Type: **VARIANT\_BOOL**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -190,8 +198,8 @@ For example code, see [Convert a File](-wiaaut-shared-samples.md#convert-a-file)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -249,9 +257,9 @@ For example code, see [Convert a File](-wiaaut-shared-samples.md#convert-a-file)
 [**WiaImageIntent**](-wiaaut-wiaimageintent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetSubObjectGUIDB method specifies the GUID of the subobject associated with this object. This method is equivalent to IAMTimelineObj::SetSubObjectGUID but takes a BSTR value.'
-ms.assetid: 'b2523b17-1df3-4be5-8bbb-6b67815f9349'
-title: 'IAMTimelineObj::SetSubObjectGUIDB method'
+---
+Description: The SetSubObjectGUIDB method specifies the GUID of the subobject associated with this object. This method is equivalent to IAMTimelineObjSetSubObjectGUID but takes a BSTR value.
+ms.assetid: b2523b17-1df3-4be5-8bbb-6b67815f9349
+title: IAMTimelineObjSetSubObjectGUIDB method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::SetSubObjectGUIDB method

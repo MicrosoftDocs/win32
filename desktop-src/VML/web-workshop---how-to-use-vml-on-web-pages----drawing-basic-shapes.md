@@ -1,8 +1,30 @@
 ---
 title: Drawing Basic Shapes
 description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
-ms.assetid: '05443e1f-c098-441c-a5bc-274cc37ef074'
-keywords: ["Web workshop,drawing shapes", "designing Web pages,drawing shapes", "Vector Markup Language (VML),drawing shapes", "VML (Vector Markup Language),drawing shapes", "vector graphics,drawing shapes", "drawing shapes", "VML shapes,drawing", "Vector Markup Language (VML),XML", "VML (Vector Markup Language),XML", "vector graphics,XML", "Vector Markup Language (VML),CSS2", "VML (Vector Markup Language),CSS2", "vector graphics,CSS2", "Vector Markup Language (VML),elements", "VML (Vector Markup Language),elements", "vector graphics,elements", "VML elements,drawing shapes"]
+ms.assetid: 05443e1f-c098-441c-a5bc-274cc37ef074
+keywords:
+- Web workshop,drawing shapes
+- designing Web pages,drawing shapes
+- Vector Markup Language (VML),drawing shapes
+- VML (Vector Markup Language),drawing shapes
+- vector graphics,drawing shapes
+- drawing shapes
+- VML shapes,drawing
+- Vector Markup Language (VML),XML
+- VML (Vector Markup Language),XML
+- vector graphics,XML
+- Vector Markup Language (VML),CSS2
+- VML (Vector Markup Language),CSS2
+- vector graphics,CSS2
+- Vector Markup Language (VML),elements
+- VML (Vector Markup Language),elements
+- vector graphics,elements
+- VML elements,drawing shapes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing Basic Shapes

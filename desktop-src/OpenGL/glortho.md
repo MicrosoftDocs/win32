@@ -1,8 +1,9 @@
 ---
 title: glOrtho function
 description: The glOrtho function multiplies the current matrix by an orthographic matrix.
-ms.assetid: '5c70819f-e9b6-49e2-add5-9f6e6aba26ee'
-keywords: ["glOrtho function OpenGL"]
+ms.assetid: 5c70819f-e9b6-49e2-add5-9f6e6aba26ee
+keywords:
+- glOrtho function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glOrtho function
@@ -22,12 +28,12 @@ The **glOrtho** function multiplies the current matrix by an orthographic matrix
 
 ```C++
 void WINAPI glOrtho(
-   GLdouble left,
-   GLdouble right,
-   GLdouble bottom,
-   GLdouble top,
-   GLdouble zNear,
-   GLdouble zFar
+   GLdouble left,
+   GLdouble right,
+   GLdouble bottom,
+   GLdouble top,
+   GLdouble zNear,
+   GLdouble zFar
 );
 ```
 
@@ -117,7 +123,7 @@ where
 
 ![](images/ortho2.png)
 
-The current matrix is multiplied by this matrix with the result replacing the current matrix. That is, if M is the current matrix and O is the ortho matrix, then M is replaced with M • O.
+The current matrix is multiplied by this matrix with the result replacing the current matrix. That is, if M is the current matrix and O is the ortho matrix, then M is replaced with M   O.
 
 Use [**glPushMatrix**](glpushmatrix.md) and **glPopMatrix** to save and restore the current matrix stack. Use [**glMatrixMode**](glmatrixmode.md) to set the current matrix.
 
@@ -137,8 +143,8 @@ The following functions retrieve information related to **glOrtho**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -170,9 +176,9 @@ The following functions retrieve information related to **glOrtho**:
 [**glViewport**](glviewport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

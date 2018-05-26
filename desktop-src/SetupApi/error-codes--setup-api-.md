@@ -1,7 +1,12 @@
 ---
-Description: 'The following error codes are specific to the Setup API.'
-ms.assetid: 'C4EB130F-2A83-4A14-BBA8-DB10225D0C0A'
-title: 'Error Codes (Setup API)'
+Description: The following error codes are specific to the Setup API.
+ms.assetid: C4EB130F-2A83-4A14-BBA8-DB10225D0C0A
+title: Error Codes (Setup API)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Codes (Setup API)
@@ -25,7 +30,7 @@ The following error codes are specific to the Setup API.
 
 | INF Runtime Errors         | Description                                                                                                                                                                                                                                    |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ERROR\_WRONG\_INF\_STYLE   | The INF file is not of the type specified in the function call. For example, this error may be returned by the [**SetupOpenAppendInfFile**](setupopenappendinffile.md) function if the INF file was intended for an early version of Windows. |
+| ERROR\_WRONG\_INF\_STYLE   | The INF file is not of the type specified in the function call. For example, this error may be returned by the [**SetupOpenAppendInfFile**](/windows/win32/Setupapi/nf-setupapi-setupopenappendinffilea?branch=master) function if the INF file was intended for an early version of Windows. |
 | ERROR\_SECTION\_NOT\_FOUND | The section was not found in the INF file.                                                                                                                                                                                                     |
 | ERROR\_LINE\_NOT\_FOUND    | The line was not found in the INF section.                                                                                                                                                                                                     |
 

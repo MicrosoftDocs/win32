@@ -1,7 +1,12 @@
 ---
-Description: 'The GetDisplayFormat method retrieves a video format that describes the current display mode.'
-ms.assetid: '98134704-0453-4090-94de-d92cdf324538'
-title: 'CImageDisplay.GetDisplayFormat method'
+Description: The GetDisplayFormat method retrieves a video format that describes the current display mode.
+ms.assetid: 98134704-0453-4090-94de-d92cdf324538
+title: CImageDisplay.GetDisplayFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageDisplay.GetDisplayFormat method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns a pointer to a [**VIDEOINFO**](videoinfo.md) structure.
+Returns a pointer to a [**VIDEOINFO**](/windows/win32/amvideo/ns-amvideo-tagvideoinfo?branch=master) structure.
 
 ## Requirements
 
@@ -43,9 +48,9 @@ Returns a pointer to a [**VIDEOINFO**](videoinfo.md) structure.
 [**CImageDisplay Class**](cimagedisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

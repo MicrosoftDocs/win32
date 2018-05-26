@@ -1,7 +1,12 @@
 ---
-Description: 'Wi-Fi Direct Group Id.'
-ms.assetid: 'e832403c-1f4f-4b01-b97c-158f42e421c6'
-title: 'System.Devices.WiFiDirect.GroupId'
+Description: Wi-Fi Direct Group Id.
+ms.assetid: e832403c-1f4f-4b01-b97c-158f42e421c6
+title: System.Devices.WiFiDirect.GroupId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.WiFiDirect.GroupId

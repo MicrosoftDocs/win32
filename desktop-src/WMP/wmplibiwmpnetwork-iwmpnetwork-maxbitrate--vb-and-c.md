@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork maxBitRate property
 description: The maxBitRate property gets the maximum possible video bit rate.
-ms.assetid: '5a4c984a-a692-49f4-9539-d9bec269dba8'
-keywords: ["maxBitRate property Windows Media Player", "maxBitRate property Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , maxBitRate property"]
+ms.assetid: 5a4c984a-a692-49f4-9539-d9bec269dba8
+keywords:
+- maxBitRate property Windows Media Player
+- maxBitRate property Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , maxBitRate property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::maxBitRate property
@@ -67,9 +75,9 @@ A **System.Int32** that is the maximum bit rate.
 [**IWMPNetwork Interface (VB and C#)**](iwmpnetwork--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

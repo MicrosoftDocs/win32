@@ -1,14 +1,20 @@
 ---
 title: JobStartDateTime element
 description: The date and time when the job started in Coordinated Universal Time format.
-ms.assetid: 'B4345717-F23A-4C1C-9A41-D2D879E7A3C8'
-keywords: ["JobStartDateTime element Access Execution Engine"]
+ms.assetid: B4345717-F23A-4C1C-9A41-D2D879E7A3C8
+keywords:
+- JobStartDateTime element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - JobStartDateTime
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JobStartDateTime element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

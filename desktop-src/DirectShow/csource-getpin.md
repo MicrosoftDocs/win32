@@ -1,7 +1,12 @@
 ---
-Description: 'The GetPin method retrieves a pin. This method implements the pure virtual CBaseFilter::GetPin method.'
-ms.assetid: '7f30a1ba-8e7b-4bde-9f4d-a85b3a2122e9'
-title: 'CSource.GetPin method'
+Description: The GetPin method retrieves a pin. This method implements the pure virtual CBaseFilterGetPin method.
+ms.assetid: 7f30a1ba-8e7b-4bde-9f4d-a85b3a2122e9
+title: CSource.GetPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSource.GetPin method
@@ -13,7 +18,7 @@ The `GetPin` method retrieves a pin. This method implements the pure virtual [**
 
 ```C++
 CBasePin* GetPin(
-   int n
+   int n
 );
 ```
 
@@ -52,9 +57,9 @@ Returns the pointer to the [**CBasePin**](cbasepin.md) object that implements th
 [**CSource Class**](csource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

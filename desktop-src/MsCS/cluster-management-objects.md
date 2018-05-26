@@ -4,11 +4,16 @@ description: Enable top-level control of a cluster and the objects owned by the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8d4397e1-f24f-47b0-9037-e5a045337049'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 8d4397e1-f24f-47b0-9037-e5a045337049
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster management objects Failover Cluster", "clusters Failover Cluster ,management objects"]
+keywords:
+- cluster management objects Failover Cluster
+- clusters Failover Cluster ,management objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Management Objects

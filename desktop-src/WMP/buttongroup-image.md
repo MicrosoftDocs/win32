@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.image
 description: The image attribute specifies or retrieves the name of the image representing the buttons of a BUTTONGROUP.
-ms.assetid: 'dad50a1e-d147-4e0f-b5d6-8cbfeef32438'
-keywords: ["BUTTONGROUP.image Windows Media Player"]
+ms.assetid: dad50a1e-d147-4e0f-b5d6-8cbfeef32438
+keywords:
+- BUTTONGROUP.image Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.image
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.image
@@ -54,9 +60,9 @@ If the image cannot be retrieved, a default image (the red-x image) is displayed
 [**BUTTONGROUP.saturation**](buttongroup-saturation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: WM/PartOfSet Attribute
 description: The WM/PartOfSet attribute is the part number and the total number of parts of the set to which the item belongs.
-ms.assetid: 'c6827c31-c625-4283-a50d-f08eccf87271'
-keywords: ["WM/PartOfSet Attribute Windows Media Player"]
+ms.assetid: c6827c31-c625-4283-a50d-f08eccf87271
+keywords:
+- WM/PartOfSet Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/PartOfSet
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/PartOfSet Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

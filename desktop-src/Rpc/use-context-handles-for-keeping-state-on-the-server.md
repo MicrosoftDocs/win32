@@ -1,7 +1,12 @@
 ---
 title: Use Context Handles for Keeping State on the Server
 description: Use Context Handles for Keeping State on the Server
-ms.assetid: 'ee511745-04cf-445d-a02b-41734aabc193'
+ms.assetid: ee511745-04cf-445d-a02b-41734aabc193
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use Context Handles for Keeping State on the Server

@@ -1,12 +1,18 @@
 ---
 title: Texture2DArray GatherBlue methods
 description: Samples a Texture2DArray and returns the blue component.
-ms.assetid: 'f81596b5-afd1-4baf-b6c0-ca4661a3ef22'
-keywords: ["GatherBlue methods HLSL"]
+ms.assetid: f81596b5-afd1-4baf-b6c0-ca4661a3ef22
+keywords:
+- GatherBlue methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DArray::GatherBlue methods
@@ -33,9 +39,9 @@ Samples a [**Texture2DArray**](sm5-object-texture2darray.md) and returns the blu
 [Texture2DArray](sm5-object-texture2darray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

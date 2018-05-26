@@ -1,8 +1,11 @@
 ---
 title: RegistrationInfo.SecurityDescriptor property
 description: For scripting, gets or sets the security descriptor of the task.
-ms.assetid: '095b8f81-412a-461d-bb6e-65c10b337d3e'
-keywords: ["SecurityDescriptor property Task Scheduler", "SecurityDescriptor property Task Scheduler , RegistrationInfo object", "RegistrationInfo object Task Scheduler , SecurityDescriptor property"]
+ms.assetid: 095b8f81-412a-461d-bb6e-65c10b337d3e
+keywords:
+- SecurityDescriptor property Task Scheduler
+- SecurityDescriptor property Task Scheduler , RegistrationInfo object
+- RegistrationInfo object Task Scheduler , SecurityDescriptor property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegistrationInfo.SecurityDescriptor property
@@ -40,8 +48,8 @@ When reading or writing XML for a task, the security descriptor of the task is s
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -54,9 +62,9 @@ When reading or writing XML for a task, the security descriptor of the task is s
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

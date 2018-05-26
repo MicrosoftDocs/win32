@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for IPv4 TCP/IP send events. The following syntax is simplified from MOF code.'
-ms.assetid: '51a61257-fcbf-4724-80e4-12bdf45b359e'
-title: 'TcpIp\_SendIPV4 class'
+---
+Description: This class is the event type class for IPv4 TCP/IP send events. The following syntax is simplified from MOF code.
+ms.assetid: 51a61257-fcbf-4724-80e4-12bdf45b359e
+title: TcpIp\_SendIPV4 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TcpIp\_SendIPV4 class

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MONITORUI structure contains pointers to the functions within a port monitor UI DLL that the print spooler calls.'
-ms.assetid: 'baa80f8c-68ed-43a3-8c82-79a4388f9ab6'
+---
+Description: The MONITORUI structure contains pointers to the functions within a port monitor UI DLL that the print spooler calls.
+ms.assetid: baa80f8c-68ed-43a3-8c82-79a4388f9ab6
 title: MONITORUI structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MONITORUI structure

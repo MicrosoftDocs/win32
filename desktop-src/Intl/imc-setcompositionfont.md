@@ -1,7 +1,12 @@
-﻿---
-Description: 'Instructs an IME window to specify the logical font to use for displaying intermediate characters in the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.'
-ms.assetid: '17b222e7-bf57-4cdd-8475-d9a8be03ab7f'
-title: 'IMC\_SETCOMPOSITIONFONT command'
+---
+Description: Instructs an IME window to specify the logical font to use for displaying intermediate characters in the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
+ms.assetid: 17b222e7-bf57-4cdd-8475-d9a8be03ab7f
+title: IMC\_SETCOMPOSITIONFONT command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMC\_SETCOMPOSITIONFONT command

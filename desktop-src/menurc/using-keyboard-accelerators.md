@@ -1,8 +1,22 @@
 ---
 title: Using Keyboard Accelerators
 description: This section covers tasks that are associated with keyboard accelerators.
-ms.assetid: '11c42d69-7454-43e6-9f44-c14a283814ce'
-keywords: ["user input,keyboard accelerators", "capturing user input,keyboard accelerators", "keyboard accelerators", "accelerators", "accelerator tables", "accelerator-table resources", "translate accelerator function", "WM_COMMAND message", "WM_SYS COMMAND message"]
+ms.assetid: 11c42d69-7454-43e6-9f44-c14a283814ce
+keywords:
+- user input,keyboard accelerators
+- capturing user input,keyboard accelerators
+- keyboard accelerators
+- accelerators
+- accelerator tables
+- accelerator-table resources
+- translate accelerator function
+- WM_COMMAND message
+- WM_SYS COMMAND message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Keyboard Accelerators
@@ -99,13 +113,13 @@ END
 
 ### Loading the Accelerator Table Resource
 
-An application loads an accelerator-table resource by calling the [**LoadAccelerators**](loadaccelerators.md) function and specifying the instance handle to the application whose executable file contains the resource and the name or identifier of the resource. **LoadAccelerators** loads the specified accelerator table into memory and returns the handle to the accelerator table.
+An application loads an accelerator-table resource by calling the [**LoadAccelerators**](/windows/win32/Winuser/nf-winuser-loadacceleratorsa?branch=master) function and specifying the instance handle to the application whose executable file contains the resource and the name or identifier of the resource. **LoadAccelerators** loads the specified accelerator table into memory and returns the handle to the accelerator table.
 
 An application can load an accelerator-table resource at any time. Usually, a single-threaded application loads its accelerator table before entering its main message loop. An application that uses multiple threads typically loads the accelerator-table resource for a thread before entering the message loop for the thread. An application or thread might also use multiple accelerator tables, each associated with a particular window in the application. Such an application would load the accelerator table for the window each time the user activated the window. For more information about threads, see [Processes and Threads](https://msdn.microsoft.com/library/windows/desktop/ms684841).
 
 ### Calling the Translate Accelerator Function
 
-To process accelerators, an application's (or thread's) message loop must contain a call to the [**TranslateAccelerator**](translateaccelerator.md) function. **TranslateAccelerator** compares keystrokes to an accelerator table and, if it finds a match, translates the keystrokes into a [**WM\_COMMAND**](wm-command.md) (or [**WM\_SYSCOMMAND**](wm-syscommand.md)) message. The function then sends the message to a window procedure. The parameters of the **TranslateAccelerator** function include the handle to the window that is to receive the **WM\_COMMAND** messages, the handle to the accelerator table used to translate accelerators, and a pointer to an [**MSG**](https://msdn.microsoft.com/library/windows/desktop/ms644958) structure containing a message from the queue. The following example shows how to call **TranslateAccelerator** from within a message loop.
+To process accelerators, an application's (or thread's) message loop must contain a call to the [**TranslateAccelerator**](/windows/win32/Winuser/nf-winuser-translateacceleratora?branch=master) function. **TranslateAccelerator** compares keystrokes to an accelerator table and, if it finds a match, translates the keystrokes into a [**WM\_COMMAND**](wm-command.md) (or [**WM\_SYSCOMMAND**](wm-syscommand.md)) message. The function then sends the message to a window procedure. The parameters of the **TranslateAccelerator** function include the handle to the window that is to receive the **WM\_COMMAND** messages, the handle to the accelerator table used to translate accelerators, and a pointer to an [**MSG**](https://msdn.microsoft.com/library/windows/desktop/ms644958) structure containing a message from the queue. The following example shows how to call **TranslateAccelerator** from within a message loop.
 
 
 ```
@@ -138,13 +152,13 @@ while ( (bRet = GetMessage(&amp;msg, (HWND) NULL, 0, 0)) != 0)
 
 ### Processing WM\_COMMAND Messages
 
-When an accelerator is used, the window specified in the [**TranslateAccelerator**](translateaccelerator.md) function receives a [**WM\_COMMAND**](wm-command.md) or [**WM\_SYSCOMMAND**](wm-syscommand.md) message. The low-order word of the *wParam* parameter contains the identifier of the accelerator. The window procedure examines the identifier to determine the source of the **WM\_COMMAND** message and process the message accordingly.
+When an accelerator is used, the window specified in the [**TranslateAccelerator**](/windows/win32/Winuser/nf-winuser-translateacceleratora?branch=master) function receives a [**WM\_COMMAND**](wm-command.md) or [**WM\_SYSCOMMAND**](wm-syscommand.md) message. The low-order word of the *wParam* parameter contains the identifier of the accelerator. The window procedure examines the identifier to determine the source of the **WM\_COMMAND** message and process the message accordingly.
 
 Typically, if an accelerator corresponds to a menu item in the application, the accelerator and menu item are assigned the same identifier. If you need to know whether a [**WM\_COMMAND**](wm-command.md) message was generated by an accelerator or by a menu item, you can examine the high-order word of the *wParam* parameter. If an accelerator generated the message, the high-order word is 1; if a menu item generated the message, the high-order word is 0.
 
 ### Destroying the Accelerator Table Resource
 
-The system automatically destroys accelerator-table resources loaded by the [**LoadAccelerators**](loadaccelerators.md) function, removing the resource from memory after the application closes.
+The system automatically destroys accelerator-table resources loaded by the [**LoadAccelerators**](/windows/win32/Winuser/nf-winuser-loadacceleratorsa?branch=master) function, removing the resource from memory after the application closes.
 
 ### Creating Accelerators for Font Attributes
 
@@ -319,7 +333,7 @@ This topic discusses how to use accelerator tables created at run time.
 
 ### Creating a Run-Time Accelerator Table
 
-The first step in creating an accelerator table at run time is filling an array of [**ACCEL**](accel.md) structures. Each structure in the array defines an accelerator in the table. An accelerator's definition includes its flags, its key, and its identifier. The **ACCEL** structure has the following form.
+The first step in creating an accelerator table at run time is filling an array of [**ACCEL**](/windows/win32/Winuser/ns-winuser-tagaccel?branch=master) structures. Each structure in the array defines an accelerator in the table. An accelerator's definition includes its flags, its key, and its identifier. The **ACCEL** structure has the following form.
 
 ``` syntax
 typedef struct tagACCEL { // accl 
@@ -329,9 +343,9 @@ typedef struct tagACCEL { // accl
 } ACCEL;
 ```
 
-You define an accelerator's keystroke by specifying an ASCII character code or a virtual-key code in the **key** member of the [**ACCEL**](accel.md) structure. If you specify a virtual-key code, you must first include the **FVIRTKEY** flag in the **fVirt** member; otherwise, the system interprets the code as an ASCII character code. You can include the **FCONTROL**, **FALT**, or **FSHIFT** flag, or all three, to combine the CTRL, ALT, or SHIFT key with the keystroke.
+You define an accelerator's keystroke by specifying an ASCII character code or a virtual-key code in the **key** member of the [**ACCEL**](/windows/win32/Winuser/ns-winuser-tagaccel?branch=master) structure. If you specify a virtual-key code, you must first include the **FVIRTKEY** flag in the **fVirt** member; otherwise, the system interprets the code as an ASCII character code. You can include the **FCONTROL**, **FALT**, or **FSHIFT** flag, or all three, to combine the CTRL, ALT, or SHIFT key with the keystroke.
 
-To create the accelerator table, pass a pointer to the array of [**ACCEL**](accel.md) structures to the [**CreateAcceleratorTable**](createacceleratortable.md) function. **CreateAcceleratorTable** creates the accelerator table and returns the handle to the table.
+To create the accelerator table, pass a pointer to the array of [**ACCEL**](/windows/win32/Winuser/ns-winuser-tagaccel?branch=master) structures to the [**CreateAcceleratorTable**](/windows/win32/Winuser/nf-winuser-createacceleratortablea?branch=master) function. **CreateAcceleratorTable** creates the accelerator table and returns the handle to the table.
 
 ### Processing Accelerators
 
@@ -339,7 +353,7 @@ The process of loading and calling accelerators provided by an accelerator table
 
 ### Destroying a Run-Time Accelerator Table
 
-The system automatically destroys accelerator tables created at run time, removing the resources from memory after the application closes. You can destroy an accelerator table and remove it from memory earlier by passing the table's handle to the [**DestroyAcceleratorTable**](destroyacceleratortable.md) function.
+The system automatically destroys accelerator tables created at run time, removing the resources from memory after the application closes. You can destroy an accelerator table and remove it from memory earlier by passing the table's handle to the [**DestroyAcceleratorTable**](/windows/win32/Winuser/nf-winuser-destroyacceleratortable?branch=master) function.
 
 ### Creating User Editable Accelerators
 

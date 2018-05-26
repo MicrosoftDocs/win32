@@ -1,8 +1,14 @@
 ---
 title: Content Encoding
 description: Starting in Windows Server 2008 and Windows Vista, the application can direct WinINet to perform content decoding for the gzip and deflate content encoding schemes.
-ms.assetid: '136f22a6-e5ca-41c5-8651-6e132655d268'
-keywords: ["Content Encoding"]
+ms.assetid: 136f22a6-e5ca-41c5-8651-6e132655d268
+keywords:
+- Content Encoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Content Encoding
@@ -26,9 +32,9 @@ The following list describes the conditions under which WinINet will perform con
 
 The decoding option can be set on the session handle, the request handle or the connection handle. The handle on which the decoding option is set, defines the scope of the decoding option. For example, setting decoding on the session will enable decoding an all connections and requests created under that handle.
 
-To set the decoding option, the application calls [**InternetSetOption**](internetsetoption.md) with the handle returned from [**InternetOpen**](internetopen.md), [**InternetConnect**](internetconnect.md), or [**HttpOpenRequest**](httpopenrequest.md). The **INTERNET\_OPTION\_HTTP\_DECODING** option is specified in the *dwOption* parameter, and the *lpBuffer* parameter points to a boolean variable set to true. To disable decoding, the application calls **InternetSetOption** with the **INTERNET\_OPTION\_HTTP\_DECODING** option and the boolean variable set to false.
+To set the decoding option, the application calls [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) with the handle returned from [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master), [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master), or [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master). The **INTERNET\_OPTION\_HTTP\_DECODING** option is specified in the *dwOption* parameter, and the *lpBuffer* parameter points to a boolean variable set to true. To disable decoding, the application calls **InternetSetOption** with the **INTERNET\_OPTION\_HTTP\_DECODING** option and the boolean variable set to false.
 
-When the decoding option is set, WinINet performs decoding on the request when the application calls [**InternetReadFile**](internetreadfile.md). If WinINet encounters an error while performing content decoding, the call to **InternetReadFile** fails with an **ERROR\_INTERNET\_DECODING\_FAILED**. When decoding fails, the application has two options: it can remove the Accept-Encoding header and resend the request, or it can set the **INTERNET\_OPTION\_HTTP\_DECODING** option on the request to false and then resend the request. If the decoding option is set to false, the application must check the Content-Encoding header and perform any decoding at the application level.
+When the decoding option is set, WinINet performs decoding on the request when the application calls [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master). If WinINet encounters an error while performing content decoding, the call to **InternetReadFile** fails with an **ERROR\_INTERNET\_DECODING\_FAILED**. When decoding fails, the application has two options: it can remove the Accept-Encoding header and resend the request, or it can set the **INTERNET\_OPTION\_HTTP\_DECODING** option on the request to false and then resend the request. If the decoding option is set to false, the application must check the Content-Encoding header and perform any decoding at the application level.
 
 > [!Note]  
 > WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).

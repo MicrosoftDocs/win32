@@ -1,7 +1,12 @@
 ---
 Description: Receiving and Delivering Samples
-ms.assetid: '92954b40-1424-4dee-997c-fc41089b7fa5'
+ms.assetid: 92954b40-1424-4dee-997c-fc41089b7fa5
 title: Receiving and Delivering Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving and Delivering Samples

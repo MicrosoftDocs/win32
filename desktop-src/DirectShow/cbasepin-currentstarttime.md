@@ -1,7 +1,12 @@
 ---
-Description: 'The CurrentStartTime method retrieves the segment start time, set by the CBasePin::NewSegment method.'
-ms.assetid: '6bf7407e-0b23-47cf-925e-3fed183c76fa'
-title: 'CBasePin.CurrentStartTime method'
+Description: The CurrentStartTime method retrieves the segment start time, set by the CBasePinNewSegment method.
+ms.assetid: 6bf7407e-0b23-47cf-925e-3fed183c76fa
+title: CBasePin.CurrentStartTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.CurrentStartTime method
@@ -43,9 +48,9 @@ Returns the value of [**CBasePin::m\_tStart**](cbasepin-m-tstart.md).
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: Msvm\_BindsTo class
 description: An association that establishes a service access point (SAP) as a requester of protocol services from a protocol endpoint.
-ms.assetid: '333d1f79-754a-45a6-8f81-216cd4387996'
-keywords: ["Msvm_BindsTo class Hyper-V", "Msvm_BindsTo class Hyper-V , described"]
+ms.assetid: 333d1f79-754a-45a6-8f81-216cd4387996
+keywords:
+- Msvm_BindsTo class Hyper-V
+- Msvm_BindsTo class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_BindsTo class
@@ -27,7 +34,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_BindsTo : CIM_BindsTo
 {
-  Msvm_SwitchPort   REF Antecedent;
+  Msvm_SwitchPort   REF Antecedent;
   Msvm_VLANEndpoint REF Dependent;
 };
 ```
@@ -59,9 +66,9 @@ Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Antece
 The lower-level endpoint that is accessed by the SAP.
 
 > [!Note]  
-> On Windows Server 2008, this property inherited directly from [**CIM\_BindsTo**](cim-bindsto.md).
+> On Windows Server 2008, this property inherited directly from [**CIM\_BindsTo**](cim-bindsto.md).
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,9 +87,9 @@ Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Depend
 The access point or protocol endpoint that is dependent on the lower-level endpoint.
 
 > [!Note]  
-> On Windows Server 2008, this property inherited directly from [**CIM\_BindsTo**](cim-bindsto.md).
+> On Windows Server 2008, this property inherited directly from [**CIM\_BindsTo**](cim-bindsto.md).
 
- 
+ 
 
 </dd> </dl>
 
@@ -101,9 +108,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -122,9 +129,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

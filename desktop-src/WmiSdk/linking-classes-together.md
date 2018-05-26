@@ -1,13 +1,16 @@
 ---
-Description: 'WMI providers are usually designed to provide information about a specific managed object on a single computer.'
+Description: WMI providers are usually designed to provide information about a specific managed object on a single computer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9f23d599-ac37-4bfb-a3dc-0cef67e68b05'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9f23d599-ac37-4bfb-a3dc-0cef67e68b05
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Linking Classes Together
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Linking Classes Together

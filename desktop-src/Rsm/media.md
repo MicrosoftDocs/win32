@@ -1,7 +1,12 @@
 ---
-Description: 'Units of media store information. Each unit of media, or medium, also referred to as a cartridge, is of a certain type, such as 8mm tape, magnetic disk, optical disk, or CD-ROM.'
-ms.assetid: 'a0afe0ca-61ad-4ac8-8e3e-4a7e9ddd6600'
+Description: Units of media store information. Each unit of media, or medium, also referred to as a cartridge, is of a certain type, such as 8mm tape, magnetic disk, optical disk, or CD-ROM.
+ms.assetid: a0afe0ca-61ad-4ac8-8e3e-4a7e9ddd6600
 title: Media
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media

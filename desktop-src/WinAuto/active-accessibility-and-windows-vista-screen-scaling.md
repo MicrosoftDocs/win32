@@ -1,7 +1,12 @@
 ---
 title: Active Accessibility and Windows Vista Screen Scaling
 description: Windows Vista enables users to change the dots-per-inch (dpi) setting so that most UI elements on the screen appear larger.
-ms.assetid: 'c781fefd-09f0-4340-b3d3-f4e57308f392'
+ms.assetid: c781fefd-09f0-4340-b3d3-f4e57308f392
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Active Accessibility and Windows Vista Screen Scaling
@@ -28,13 +33,13 @@ Logical coordinates are important, because they make the behavior of the operati
 
 Microsoft Active Accessibility does not use logical coordinates. The following methods and functions either return physical coordinates or take them as parameters.
 
--   [**IAccessible::accHitTest**](iaccessible-iaccessible--acchittest.md)
--   [**IAccessible::accLocation**](iaccessible-iaccessible--acclocation.md)
--   [**AccessibleObjectFromPoint**](accessibleobjectfrompoint.md)
+-   [**IAccessible::accHitTest**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acchittest?branch=master)
+-   [**IAccessible::accLocation**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acclocation?branch=master)
+-   [**AccessibleObjectFromPoint**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfrompoint?branch=master)
 
-By default, an Microsoft Active Accessibility client application running in a non-96-dpi environment will not be able to obtain correct results from these calls. For example, because the cursor position is in logical coordinates, the client cannot simply pass these coordinates to [**AccessibleObjectFromPoint**](accessibleobjectfrompoint.md) to obtain the element that is under the cursor.
+By default, an Microsoft Active Accessibility client application running in a non-96-dpi environment will not be able to obtain correct results from these calls. For example, because the cursor position is in logical coordinates, the client cannot simply pass these coordinates to [**AccessibleObjectFromPoint**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfrompoint?branch=master) to obtain the element that is under the cursor.
 
-In addition, an application that creates a window outside its client area, such as an accessibility application that highlights focused UI elements, will not create the window at the correct screen location, because the window will be placed at the logical coordinates, not the physical coordinates returned by [**IAccessible::accLocation**](iaccessible-iaccessible--acclocation.md).
+In addition, an application that creates a window outside its client area, such as an accessibility application that highlights focused UI elements, will not create the window at the correct screen location, because the window will be placed at the logical coordinates, not the physical coordinates returned by [**IAccessible::accLocation**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acclocation?branch=master).
 
 The solution is in two parts:
 

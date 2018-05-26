@@ -1,12 +1,17 @@
 ---
-Description: 'An application can retrieve the attributes for a pen, brush, palette, font, or bitmap by calling the GetCurrentObject and GetObject functions.'
-ms.assetid: '09d8412f-a67d-48d5-9c04-9233dee43cf9'
-title: 'Retrieving Graphic-Object Attributes and Selecting New Graphic Objects'
+Description: An application can retrieve the attributes for a pen, brush, palette, font, or bitmap by calling the GetCurrentObject and GetObject functions.
+ms.assetid: 09d8412f-a67d-48d5-9c04-9233dee43cf9
+title: Retrieving Graphic-Object Attributes and Selecting New Graphic Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Graphic-Object Attributes and Selecting New Graphic Objects
 
-An application can retrieve the attributes for a pen, brush, palette, font, or bitmap by calling the [**GetCurrentObject**](getcurrentobject.md) and [**GetObject**](getobject.md) functions. The **GetCurrentObject** function returns a handle identifying the object currently selected into the DC; the **GetObject** function returns a structure that describes the attributes of the object.
+An application can retrieve the attributes for a pen, brush, palette, font, or bitmap by calling the [**GetCurrentObject**](/windows/win32/Wingdi/nf-wingdi-getcurrentobject?branch=master) and [**GetObject**](/windows/win32/Wingdi/nf-wingdi-getobject?branch=master) functions. The **GetCurrentObject** function returns a handle identifying the object currently selected into the DC; the **GetObject** function returns a structure that describes the attributes of the object.
 
 The following example shows how an application can retrieve the current brush attributes and use the retrieved data to determine whether it is necessary to select a new brush.
 
@@ -56,7 +61,7 @@ The following example shows how an application can retrieve the current brush at
 
 > [!Note]
 >
-> The application saved the original brush handle when calling the [**SelectObject**](selectobject.md) function the first time. This handle is saved so that the original brush can be selected back into the DC after the last painting operation has been completed with the new brush. After the original brush is selected back into the DC, the new brush is deleted, freeing memory in the GDI heap.
+> The application saved the original brush handle when calling the [**SelectObject**](/windows/win32/Wingdi/nf-wingdi-selectobject?branch=master) function the first time. This handle is saved so that the original brush can be selected back into the DC after the last painting operation has been completed with the new brush. After the original brush is selected back into the DC, the new brush is deleted, freeing memory in the GDI heap.
 
  
 

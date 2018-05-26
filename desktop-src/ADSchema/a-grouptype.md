@@ -4,17 +4,22 @@ description: Contains a set of flags that define the type and scope of a group o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cd37ed2f-8503-4227-b0d2-c8135605cb84'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cd37ed2f-8503-4227-b0d2-c8135605cb84
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Group-Type attribute AD Schema", "groupType attribute AD Schema"]
+keywords:
+- Group-Type attribute AD Schema
+- groupType attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Group-Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Group-Type attribute
@@ -38,13 +43,13 @@ Contains a set of flags that define the type and scope of a group object. For th
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -211,13 +216,13 @@ This attribute can be zero or a combination of one or more of the following valu
 
 
 
- 
+ 
 
 For more information about group type and scope, see the [Group types](http://go.microsoft.com/fwlink/p/?linkid=84115) and [Group scope](http://go.microsoft.com/fwlink/p/?linkid=84114) topics on Microsoft TechNet.
 
- 
+ 
 
- 
+ 
 
 
 

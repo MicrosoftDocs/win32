@@ -1,13 +1,16 @@
 ---
-Description: 'The CIM schema localization model provides a mechanism for localizing qualifiers. It does not support direct localization of property values.'
+Description: The CIM schema localization model provides a mechanism for localizing qualifiers. It does not support direct localization of property values.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a88bd873-7132-45b6-831e-64f9bb254c6e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a88bd873-7132-45b6-831e-64f9bb254c6e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Localizing Property Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Localizing Property Values

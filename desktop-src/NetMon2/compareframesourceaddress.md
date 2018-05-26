@@ -1,7 +1,12 @@
 ---
-Description: 'The CompareFrameSourceAddress function compares an address to the source address of a frame.'
-ms.assetid: '7221c0cc-d6c1-4ec9-bf11-3ba1fefb35da'
+Description: The CompareFrameSourceAddress function compares an address to the source address of a frame.
+ms.assetid: 7221c0cc-d6c1-4ec9-bf11-3ba1fefb35da
 title: CompareFrameSourceAddress function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CompareFrameSourceAddress function
@@ -13,8 +18,8 @@ The **CompareFrameSourceAddress** function compares an address to the source add
 
 ```C++
 BOOL WINAPI CompareFrameSourceAddress(
-  _In_ HFRAME    hFrame,
-  _In_ LPADDRESS lpAddress
+  _In_ HFRAME    hFrame,
+  _In_ LPADDRESS lpAddress
 );
 ```
 
@@ -58,8 +63,8 @@ Network Monitor provides two other functions for comparing addresses: [CompareFr
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -76,9 +81,9 @@ Network Monitor provides two other functions for comparing addresses: [CompareFr
 [CompareFrameDestAddress](compareframedestaddress.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

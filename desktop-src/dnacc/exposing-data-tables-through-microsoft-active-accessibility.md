@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: '9c09fccf-c591-44f9-b6e5-408826a1d33c'
+ms.assetid: 9c09fccf-c591-44f9-b6e5-408826a1d33c
 title: Exposing Data Tables through Microsoft Active Accessibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exposing Data Tables through Microsoft Active Accessibility
@@ -42,7 +47,7 @@ The [**IAccessible**](https://msdn.microsoft.com/library/windows/desktop/dd31846
 > [!Note]  
 > [**ITextStore\***](https://msdn.microsoft.com/library/windows/desktop/ms629037) documents containing embedded data tables can support this [**IAccessible**](https://msdn.microsoft.com/library/windows/desktop/dd318466) implementation.
 
- 
+ 
 
 The following sections discuss the implementation of Active Accessibility for data tables, describe the [**IAccessible**](https://msdn.microsoft.com/library/windows/desktop/dd318466) object roles, present the **IAccessible** data table hierarchy, and define the **IAccessible** methods, properties, and events.
 
@@ -63,7 +68,7 @@ Use the following [**IAccessible**](https://msdn.microsoft.com/library/windows/d
 
 
 
- 
+ 
 
 ### IAccessible Data Table Hierarchy Overview
 
@@ -99,7 +104,7 @@ As previously defined, a Table object is a collection of one or more Row objects
 > [!Note]  
 > For improved performance, a server application can create an [**IAccessible**](https://msdn.microsoft.com/library/windows/desktop/dd318466) object on demand, in response to the WM\_GETOBJECT windows message or the [**IAccessible::get\_accChild**](https://msdn.microsoft.com/library/windows/desktop/dd318475) method. After creating an **IAccessible** object, it is managed like any other standard COM object.
 
- 
+ 
 
 ### IAccessible Methods and Properties for Data Tables
 
@@ -204,7 +209,7 @@ For more information, see [IAccessible::accNavigate Additional Information](#iac
 
 
 
- 
+ 
 
 [**ROLE\_SYSTEM\_ROW**](https://msdn.microsoft.com/library/windows/desktop/dd373608#role-system-row)
 
@@ -310,7 +315,7 @@ For more information, see [IAccessible::accNavigate Additional Information](#iac
 
 
 
- 
+ 
 
 [**ROLE\_SYSTEM\_COLUMNHEADER**](https://msdn.microsoft.com/library/windows/desktop/dd373608#role-system-columnheader) and [**ROLE\_SYSTEM\_ROWHEADER**](https://msdn.microsoft.com/library/windows/desktop/dd373608#role-system-rowheader)
 
@@ -411,7 +416,7 @@ For more information, see [IAccessible::accNavigate Additional Information](#iac
 
 
 
- 
+ 
 
 [**ROLE\_SYSTEM\_CELL**](https://msdn.microsoft.com/library/windows/desktop/dd373608#role-system-cell)
 
@@ -512,7 +517,7 @@ For more information, see [IAccessible::accNavigate Additional Information](#iac
 
 
 
- 
+ 
 
 ### IAccessible::get\_accDescription Alternatives
 
@@ -552,18 +557,18 @@ Active Accessibility relies on Window Events (WinEvents) to notify clients of ch
 
 
 
- 
+ 
 
 > [!Note]  
 > The *hwnd* and *idObject* parameters of the [*WinEventProc*](https://msdn.microsoft.com/library/windows/desktop/dd373885) callback function describe the container, while the *idChild* parameter identifies the event-related object.
 
- 
+ 
 
 ### Implementing a Data Table
 
 Figure 1 illustrates a data table that tracks business documentation for customers and employees. It is a general solution that does not rely on a specific HWND or native object model support.
 
-In this example, only the input cells have focusable, selectable, and multi-selectable states. The column headers — File Name, Owner and Status — and the row headers — 1, 2, 3, 4 and \* — are not focusable.
+In this example, only the input cells have focusable, selectable, and multi-selectable states. The column headers   File Name, Owner and Status   and the row headers   1, 2, 3, 4 and \*   are not focusable.
 
 ![figure 1. data table example](images/atg-msaasupportfortables-01.png)
 
@@ -715,9 +720,9 @@ See the following references for more information about specific topics discusse
 -   For more information on [**IAccessible**](https://msdn.microsoft.com/library/windows/desktop/dd318466) creation, see [How to Handle WM\_GETOBJECT](https://msdn.microsoft.com/library/windows/desktop/dd318451).
 -   For more information on Active Accessibility Events, see [WinEvents](https://msdn.microsoft.com/library/windows/desktop/dd373889).
 
- 
+ 
 
- 
+ 
 
 
 

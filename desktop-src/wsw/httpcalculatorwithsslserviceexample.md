@@ -1,8 +1,16 @@
 ---
 title: HttpCalculatorWithSslServiceExample
 description: This example shows how to use service host for hosting a calculator service over HTTP, with SSL transport security.
-ms.assetid: '15e61f32-73b5-4359-957d-9694fe947b1e'
-keywords: ["HttpCalculatorWithSslServiceExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 15e61f32-73b5-4359-957d-9694fe947b1e
+keywords:
+- HttpCalculatorWithSslServiceExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCalculatorWithSslServiceExample

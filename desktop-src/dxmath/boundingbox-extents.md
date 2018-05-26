@@ -1,7 +1,12 @@
-﻿---
-Description: 'The extents of the BoundingBox.'
-ms.assetid: '83e62f07-5bb5-4129-b88f-998a6f47c810'
-title: 'BoundingBox.Extents'
+---
+Description: The extents of the BoundingBox.
+ms.assetid: 83e62f07-5bb5-4129-b88f-998a6f47c810
+title: BoundingBox.Extents
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingBox.Extents
@@ -43,7 +48,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingBox**](boundingbox.md)
+[**BoundingBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingbox?branch=master)
 </dt> </dl>
 
  

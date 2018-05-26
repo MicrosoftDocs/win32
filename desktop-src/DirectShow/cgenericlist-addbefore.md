@@ -1,7 +1,12 @@
 ---
-Description: 'The AddBefore method inserts an item before the specified position.'
-ms.assetid: 'ec10fd08-6bb9-4357-830c-78b3d3a32e03'
-title: 'CGenericList.AddBefore method'
+Description: The AddBefore method inserts an item before the specified position.
+ms.assetid: ec10fd08-6bb9-4357-830c-78b3d3a32e03
+title: CGenericList.AddBefore method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.AddBefore method
@@ -13,8 +18,8 @@ The `AddBefore` method inserts an item before the specified position.
 
 ```C++
 POSITION AddBefore(
-   POSITION p,
-   OBJECT   *pObj
+   POSITION p,
+   OBJECT   *pObj
 );
 ```
 
@@ -60,9 +65,9 @@ Returns the position indicator for the inserted item.
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Requests that the logical device cleanly cease all current activity
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd938c0ad-6608-4585-8840-8c38a0685f34'
-ms.prod: 'windows-server-dev'
+ms.assetid: d938c0ad-6608-4585-8840-8c38a0685f34
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["QuiesceDevice method iSCSI Software Target API", "QuiesceDevice method iSCSI Software Target API , MSISCSITARGET_StorageVolume class", "MSISCSITARGET_StorageVolume class iSCSI Software Target API , QuiesceDevice method"]
+keywords:
+- QuiesceDevice method iSCSI Software Target API
+- QuiesceDevice method iSCSI Software Target API , MSISCSITARGET_StorageVolume class
+- MSISCSITARGET_StorageVolume class iSCSI Software Target API , QuiesceDevice method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # QuiesceDevice method of the MSISCSITARGET\_StorageVolume class
@@ -32,7 +38,7 @@ This method is inherited from the [**CIM\_LogicalDevice**](https://msdn.microsof
 
 ```mof
 uint32 QuiesceDevice(
-  [in] boolean Quiesce
+  [in] boolean Quiesce
 );
 ```
 
@@ -96,7 +102,7 @@ Undefined error.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -110,9 +116,9 @@ Undefined error.
 [**MSISCSITARGET\_StorageVolume**](msiscsitarget-storagevolume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

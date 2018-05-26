@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to create a custom file open/save dialog by using different Common File Dialog APIs.'
+Description: Demonstrates how to create a custom file open/save dialog by using different Common File Dialog APIs.
 title: Common File Dialog Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common File Dialog Sample
@@ -59,13 +64,13 @@ For instructions about how to build the sample, see the Readme file included wit
 
 <dl> <dt>
 
-[**IFileDialog**](ifiledialog.md)
+[**IFileDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifiledialog?branch=master)
 </dt> <dt>
 
-[**IFileSaveDialog**](ifilesavedialog.md)
+[**IFileSaveDialog**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ifilesavedialog?branch=master)
 </dt> <dt>
 
-[**IFileOpenDialog**](ifileopendialog.md)
+[**IFileOpenDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifileopendialog?branch=master)
 </dt> </dl>
 
  

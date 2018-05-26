@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the state of the element be changed.'
-ms.assetid: 'D1742588-D932-4FE1-8D2A-E410BEE371FF'
-title: 'RequestStateChange method of the Msvm\_Keyboard class'
+Description: Requests that the state of the element be changed.
+ms.assetid: D1742588-D932-4FE1-8D2A-E410BEE371FF
+title: RequestStateChange method of the Msvm\_Keyboard class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the Msvm\_Keyboard class
@@ -13,9 +18,9 @@ Requests that the state of the element be changed.
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -175,8 +180,8 @@ The maximum amount of time that the client expects the transition to the new sta
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -190,9 +195,9 @@ The maximum amount of time that the client expects the transition to the new sta
 [**Msvm\_Keyboard**](msvm-keyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: MDM\_AssignedAccess class
 description: The MDM\_AssignedAccess class is used to set the device to run in kiosk mode.
-ms.assetid: 'b9837f91-3c13-4a80-bf6d-66d8b53dfa70'
-keywords: ["MDM_AssignedAccess class", "MDM_AssignedAccess class, described"]
+ms.assetid: b9837f91-3c13-4a80-bf6d-66d8b53dfa70
+keywords:
+- MDM_AssignedAccess class
+- MDM_AssignedAccess class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_AssignedAccess class
@@ -108,7 +115,7 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -123,9 +130,9 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

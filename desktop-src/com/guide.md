@@ -1,7 +1,12 @@
 ---
 title: Guide
 description: This guide introduces the Microsoft Component Object Model (COM).
-ms.assetid: '9c67dbfd-31ce-4664-a34a-4d26d97e1b1d'
+ms.assetid: 9c67dbfd-31ce-4664-a34a-4d26d97e1b1d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Guide

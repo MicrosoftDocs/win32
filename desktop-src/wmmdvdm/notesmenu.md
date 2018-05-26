@@ -1,14 +1,20 @@
 ---
 title: NotesMenu element
 description: Defines the \ 0034;Notes \ 0034; menu of the DVD.
-ms.assetid: 'fc97e79b-e109-49e1-a5d0-34a629cb62f8'
-keywords: ["NotesMenu element Windows Movie Maker and DVD Maker"]
+ms.assetid: fc97e79b-e109-49e1-a5d0-34a629cb62f8
+keywords:
+- NotesMenu element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - NotesMenu
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NotesMenu element
@@ -49,7 +55,7 @@ This element is required in every menu style.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -61,9 +67,9 @@ This element is required in every menu style.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

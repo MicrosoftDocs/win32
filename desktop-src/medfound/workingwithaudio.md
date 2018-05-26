@@ -1,7 +1,12 @@
 ---
 Description: Working with Audio
-ms.assetid: 'c246efa3-25dc-4471-9b0f-619e5d125c93'
+ms.assetid: c246efa3-25dc-4471-9b0f-619e5d125c93
 title: Working with Audio
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Audio

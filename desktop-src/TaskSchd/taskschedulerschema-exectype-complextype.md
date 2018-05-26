@@ -1,14 +1,20 @@
 ---
 title: execType Complex Type
 description: Defines the child elements and sequencing information of the Exec (actionGroup) element.
-ms.assetid: 'ab23801a-453d-4fab-8584-30c5c9d57dff'
-keywords: ["execType complex type Task Scheduler"]
+ms.assetid: ab23801a-453d-4fab-8584-30c5c9d57dff
+keywords:
+- execType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - execType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # execType Complex Type
@@ -57,8 +63,8 @@ Defines the child elements and sequencing information of the [**Exec (actionGrou
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -72,9 +78,9 @@ Defines the child elements and sequencing information of the [**Exec (actionGrou
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

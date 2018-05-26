@@ -1,8 +1,9 @@
 ---
 title: FreeConnections function
 description: Frees a Connections data structure.
-ms.assetid: 'bb339d71-f8e3-48d8-834d-8b957e0cb5ec'
-keywords: ["FreeConnections function NAP"]
+ms.assetid: bb339d71-f8e3-48d8-834d-8b957e0cb5ec
+keywords:
+- FreeConnections function NAP
 topic_type:
 - apiref
 api_name:
@@ -11,14 +12,19 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreeConnections function
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **FreeConnections** function frees a [**Connections**](connections-struct.md) data structure.
 
@@ -27,7 +33,7 @@ The **FreeConnections** function frees a [**Connections**](connections-struct.md
 
 ```C++
 NAPAPI VOID WINAPI FreeConnections(
-  _In_ Connections *connections
+  _In_ Connections *connections
 );
 ```
 
@@ -60,8 +66,8 @@ All NAP functions for freeing memory also free all embedded pointers.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>NapUtil.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 
@@ -74,9 +80,9 @@ All NAP functions for freeing memory also free all embedded pointers.
 [**AllocConnections**](allocconnections-func.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

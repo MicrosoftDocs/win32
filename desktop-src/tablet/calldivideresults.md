@@ -1,12 +1,17 @@
 ---
-Description: 'Retrieves analysis results from the InkDivider object.'
-ms.assetid: '7fc2bb5a-172f-4f4e-84dd-e31925f86982'
+Description: Retrieves analysis results from the InkDivider object.
+ms.assetid: 7fc2bb5a-172f-4f4e-84dd-e31925f86982
 title: CallDivideResults function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CallDivideResults function
 
-Retrieves analysis results from the [**InkDivider**](inkdivider-class.md) object.
+Retrieves analysis results from the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 This function is not intended to be used by application code.
 
@@ -15,20 +20,20 @@ This function is not intended to be used by application code.
 
 ```C++
 HRESULT WINAPI CallDivideResults(
-  _In_  INT_PTR   hDivider,
-  _Out_ int       aWordStrokeIds[],
-  _Out_ int       aLineStrokeIds[],
-  _Out_ int       aParagraphStrokeIds[],
-  _Out_ int       aDrawingStrokeIds[],
-  _Out_ SAFEARRAY **pastrWords,
-  _Out_ SAFEARRAY **pastrLines,
-  _Out_ SAFEARRAY **pastrParagraphs,
-  _Out_ int       *aWordRotationCenterX,
-  _Out_ int       *aWordRotationCenterY,
-  _Out_ float     *aWordAngle,
-  _Out_ int       *aLineRotationCenterX,
-  _Out_ int       *aLineRotationCenterY,
-  _Out_ float     *aLineAngle
+  _In_  INT_PTR   hDivider,
+  _Out_ int       aWordStrokeIds[],
+  _Out_ int       aLineStrokeIds[],
+  _Out_ int       aParagraphStrokeIds[],
+  _Out_ int       aDrawingStrokeIds[],
+  _Out_ SAFEARRAY **pastrWords,
+  _Out_ SAFEARRAY **pastrLines,
+  _Out_ SAFEARRAY **pastrParagraphs,
+  _Out_ int       *aWordRotationCenterX,
+  _Out_ int       *aWordRotationCenterY,
+  _Out_ float     *aWordAngle,
+  _Out_ int       *aLineRotationCenterX,
+  _Out_ int       *aLineRotationCenterY,
+  _Out_ float     *aLineAngle
 );
 ```
 
@@ -41,35 +46,35 @@ HRESULT WINAPI CallDivideResults(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](inkdivider-class.md) object.
+A handle to the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 </dd> <dt>
 
 *aWordStrokeIds* \[out\]
 </dt> <dd>
 
-An array of identifiers associated with the word that is passed in to the [**InkDivider**](inkdivider-class.md) class.
+An array of identifiers associated with the word that is passed in to the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) class.
 
 </dd> <dt>
 
 *aLineStrokeIds* \[out\]
 </dt> <dd>
 
-An array of [**ID**](iinkstrokedisp-id.md) properties for the [**IInkStrokeDisp**](iinkstrokedisp.md) objects associated with the line that is passed in to the [**InkDivider**](inkdivider-class.md) class.
+An array of [**ID**](/windows/win32/msinkaut/nf-msinkaut-iinkstrokedisp-get_id?branch=master) properties for the [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) objects associated with the line that is passed in to the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) class.
 
 </dd> <dt>
 
 *aParagraphStrokeIds* \[out\]
 </dt> <dd>
 
-An array of the [**ID**](iinkstrokedisp-id.md) properties for the [**IInkStrokeDisp**](iinkstrokedisp.md) objects associated with the paragraph from the [**InkDivider**](inkdivider-class.md) class.
+An array of the [**ID**](/windows/win32/msinkaut/nf-msinkaut-iinkstrokedisp-get_id?branch=master) properties for the [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) objects associated with the paragraph from the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) class.
 
 </dd> <dt>
 
 *aDrawingStrokeIds* \[out\]
 </dt> <dd>
 
-An array of [**ID**](iinkstrokedisp-id.md) properties for the [**IInkStrokeDisp**](iinkstrokedisp.md) objects associated with the drawing from the [**InkDivider**](inkdivider-class.md) class.
+An array of [**ID**](/windows/win32/msinkaut/nf-msinkaut-iinkstrokedisp-get_id?branch=master) properties for the [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) objects associated with the drawing from the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) class.
 
 </dd> <dt>
 
@@ -150,7 +155,7 @@ This function can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -162,15 +167,15 @@ To avoid memory leaks you must release the resources for *pastrWords*, *pastrLin
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | None supported<br/>                                                             |
 | Library<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

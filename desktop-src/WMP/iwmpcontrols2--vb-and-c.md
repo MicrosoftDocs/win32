@@ -1,8 +1,10 @@
 ---
 title: IWMPControls2 (VB and C\ ) interface
 description: Provides a method that supplements the IWMPControls interface.
-ms.assetid: '6a181911-9ab1-4cab-a6a2-9e1465f44029'
-keywords: ["IWMPControls2 (VB and C ) interface Windows Media Player", "IWMPControls2 (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 6a181911-9ab1-4cab-a6a2-9e1465f44029
+keywords:
+- IWMPControls2 (VB and C ) interface Windows Media Player
+- IWMPControls2 (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls2 (VB and C#) interface
 
-Provides a method that supplements the [**IWMPControls**](iwmpcontrols.md) interface.
+Provides a method that supplements the [**IWMPControls**](/windows/win32/wmp/nn-wmp-iwmpcontrols?branch=master) interface.
 
 ## Members
 
@@ -35,9 +42,9 @@ The **IWMPControls2 (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
-The following example code shows how to access an [**IWMPControls2**](iwmpcontrols2.md) interface. The example code casts the [**IWMPControls**](iwmpcontrols.md) value that the [**AxWindowsMediaPlayer.Ctlcontrols**](axwmplib-axwindowsmediaplayer-ctlcontrols--vb-and-c.md) property returns to a **IWMPControls2** value.
+The following example code shows how to access an [**IWMPControls2**](/windows/win32/wmp/nn-wmp-iwmpcontrols2?branch=master) interface. The example code casts the [**IWMPControls**](/windows/win32/wmp/nn-wmp-iwmpcontrols?branch=master) value that the [**AxWindowsMediaPlayer.Ctlcontrols**](axwmplib-axwindowsmediaplayer-ctlcontrols--vb-and-c.md) property returns to a **IWMPControls2** value.
 
 For **C#**:
 
@@ -72,7 +79,7 @@ Dim Ctlcontrols2 As WMPLib.IWMPControls2 = DirectCast(Ctlcontrols, WMPLib.IWMPCo
 
 <dl> <dt>
 
-[**IWMPControls**](iwmpcontrols.md)
+[**IWMPControls**](/windows/win32/wmp/nn-wmp-iwmpcontrols?branch=master)
 </dt> <dt>
 
 [**Interfaces for Visual Basic .NET and C#**](interfaces-for-visual-basic--net-and-c.md)
@@ -84,9 +91,9 @@ Dim Ctlcontrols2 As WMPLib.IWMPControls2 = DirectCast(Ctlcontrols, WMPLib.IWMPCo
 [**IWMPControls3 Interface (VB and C#)**](iwmpcontrols3--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

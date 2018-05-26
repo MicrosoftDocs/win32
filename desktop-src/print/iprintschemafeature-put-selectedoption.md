@@ -1,7 +1,12 @@
-﻿---
-Description: 'Changes the selected option of the Print Schema Feature element to the specified IPrintSchemaOption element.'
-ms.assetid: 'DEFA0559-9946-4F4D-B5DC-A0E5E872114A'
-title: 'IPrintSchemaFeature::SelectedOption property'
+---
+Description: Changes the selected option of the Print Schema Feature element to the specified IPrintSchemaOption element.
+ms.assetid: DEFA0559-9946-4F4D-B5DC-A0E5E872114A
+title: IPrintSchemaFeatureSelectedOption property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaFeature::SelectedOption property

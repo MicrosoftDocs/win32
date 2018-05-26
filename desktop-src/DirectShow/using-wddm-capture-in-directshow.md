@@ -1,7 +1,12 @@
 ---
 Description: Using WDDM Capture in DirectShow
-ms.assetid: '57ee86b0-50bc-4992-94d4-f290f83d2afc'
+ms.assetid: 57ee86b0-50bc-4992-94d4-f290f83d2afc
 title: Using WDDM Capture in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WDDM Capture in DirectShow
@@ -19,12 +24,12 @@ Next, KsProxy determines whether the downstream filter supports DirectX Video Ac
 
 Both of these interfaces are documented in the Media Foundation SDK documentation.
 
-If the downstream filter does not support DXVA 2.0, KsProxy allocates an additional system memory buffer. It uses this buffer to copy the video frames from VRAM to system memory. The media sample's [**IMediaSample::GetPointer**](imediasample-getpointer.md) method returns a pointer to this system memory buffer.
+If the downstream filter does not support DXVA 2.0, KsProxy allocates an additional system memory buffer. It uses this buffer to copy the video frames from VRAM to system memory. The media sample's [**IMediaSample::GetPointer**](/windows/win32/Strmif/nf-strmif-imediasample-getpointer?branch=master) method returns a pointer to this system memory buffer.
 
 However, if the downstream filter does support DXVA 2.0, then KsProxy does not allocate a system memory buffer. In that case, the **GetPointer** method returns E\_NOTIMPL. Instead, the downstream filter is expected to access the sample's Direct3D surface directly. There are two ways for the downstream filter to get a pointer to the surface, both of them equivalent:
 
 -   Query the sample for the **IMFGetService** interface and call **GetService** for the **IDirect3DSurface9** interface. The service identifier is MR\_BUFFER\_SERVICE.
--   Query the sample for the [**IMediaSample2Config**](imediasample2config.md) interface and call [**IMediaSample2Config::GetSurface**](imediasample2config-getsurface.md).
+-   Query the sample for the [**IMediaSample2Config**](/windows/win32/Strmif/nn-strmif-imediasample2config?branch=master) interface and call [**IMediaSample2Config::GetSurface**](/windows/win32/Strmif/nf-strmif-imediasample2config-getsurface?branch=master).
 
 ## Related topics
 

@@ -2,13 +2,19 @@
 title: pragma attribute
 description: The \ pragma midl\_echo directive instructs MIDL to emit the specified string, without the quotation characters, into the generated header file.
 ms.assetid: b8a175d2-ea07-4103-ab45-0de7e477d27a
-keywords: ["pragma attribute MIDL"]
+keywords:
+- pragma attribute MIDL
 topic_type:
 - apiref
 api_name:
 - pragma
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # pragma attribute

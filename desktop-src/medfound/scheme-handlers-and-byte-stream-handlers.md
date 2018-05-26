@@ -1,14 +1,19 @@
 ---
-Description: 'This topic describes the internal details of how the source resolver creates a media source.'
-ms.assetid: 'b0113527-f22c-4519-b1cf-fea54bff4090'
-title: 'Scheme Handlers and Byte-Stream Handlers'
+Description: This topic describes the internal details of how the source resolver creates a media source.
+ms.assetid: b0113527-f22c-4519-b1cf-fea54bff4090
+title: Scheme Handlers and Byte-Stream Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scheme Handlers and Byte-Stream Handlers
 
 This topic describes the internal details of how the source resolver creates a media source. Read this topic if you are implementing a custom media source for Media Foundation, and you want the media source to be available to applications via the source resolver.
 
-The source resolver can create a media source from a URL or from a byte stream (that is, an [**IMFByteStream**](imfbytestream.md) pointer). To do so, it uses helper objects called *handlers*. For URLs, the source resolver uses *scheme handlers*. For byte streams, it uses *byte-stream handlers*.
+The source resolver can create a media source from a URL or from a byte stream (that is, an [**IMFByteStream**](/windows/win32/mfobjects/nn-mfobjects-imfbytestream?branch=master) pointer). To do so, it uses helper objects called *handlers*. For URLs, the source resolver uses *scheme handlers*. For byte streams, it uses *byte-stream handlers*.
 
 A scheme handler takes a URL as input and creates either a media source or a byte stream. If it creates a byte stream, the source resolver will pass that to a byte-stream handler, which creates the media source. The following image illustrates this process.
 
@@ -16,7 +21,7 @@ A scheme handler takes a URL as input and creates either a media source or a byt
 
 ## Scheme Handlers
 
-Scheme handlers are used when the application calls [**IMFSourceResolver::CreateObjectFromURL**](imfsourceresolver-createobjectfromurl.md) or its asynchronous equivalent, [**BeginCreateObjectFromURL**](imfsourceresolver-begincreateobjectfromurl.md).
+Scheme handlers are used when the application calls [**IMFSourceResolver::CreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-createobjectfromurl?branch=master) or its asynchronous equivalent, [**BeginCreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfromurl?branch=master).
 
 The source resolver looks up scheme handlers in the registry. Scheme handlers are listed by URL scheme, under the following keys:
 
@@ -44,7 +49,7 @@ where *&lt;scheme&gt;* is the URL scheme that the handler is designed to parse. 
 
 To register a new scheme handler, add an entry whose name is the CLSID of the scheme handler, in canonical string form: `{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}`. The value of the entry is a string (REG\_SZ) containing a brief description of the handler, such as "My Scheme Handler." The important part of the entry is the CLSID. The source resolver creates the handler by calling **CoCreateInstance** with this CLSID.
 
-Scheme handlers expose the [**IMFSchemeHandler**](imfschemehandler.md) interface. If the source resolver finds a scheme handler that matches the URL scheme, the source resolver calls [**IMFSchemeHandler::BeginCreateObject**](imfschemehandler-begincreateobject.md), passing in the original URL. The scheme handler will open the URL and attempt to parse the contents. At that point, the scheme handler has two options:
+Scheme handlers expose the [**IMFSchemeHandler**](/windows/win32/mfidl/nn-mfidl-imfschemehandler?branch=master) interface. If the source resolver finds a scheme handler that matches the URL scheme, the source resolver calls [**IMFSchemeHandler::BeginCreateObject**](/windows/win32/mfidl/nf-mfidl-imfschemehandler-begincreateobject?branch=master), passing in the original URL. The scheme handler will open the URL and attempt to parse the contents. At that point, the scheme handler has two options:
 
 -   Create a media source.
 -   Create a byte stream.
@@ -53,7 +58,7 @@ If it creates a media source, the source resolver returns the media source to th
 
 ## Byte-Stream Handlers
 
-Byte-stream handlers are used when the application calls [**IMFSourceResolver::CreateObjectFromByteStream**](imfsourceresolver-createobjectfrombytestream.md) or its asynchronous equivalent, [**BeginCreateObjectFromByteStream**](imfsourceresolver-begincreateobjectfrombytestream.md). They are also used when a scheme handler returns a byte stream, as described previously.
+Byte-stream handlers are used when the application calls [**IMFSourceResolver::CreateObjectFromByteStream**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-createobjectfrombytestream?branch=master) or its asynchronous equivalent, [**BeginCreateObjectFromByteStream**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfrombytestream?branch=master). They are also used when a scheme handler returns a byte stream, as described previously.
 
 As with scheme handlers, byte-stream handlers are listed in the registry. They are listed either by file name extension or MIME type (or both), under the following keys:
 
@@ -83,7 +88,7 @@ The file name extension is part of the URL, provided by the application. The MIM
 
 To register a new byte-stream handler, add an entry whose name is the CLSID of the handler, in canonical string form. The value of the entry is a string (REG\_SZ) containing a brief description of the handler, such as "My Byte-Stream Handler." The source resolver calls **CoCreateInstance** to create the handler from the CLSID. You can register the same handler under more than one extension or MIME type.
 
-Byte-stream handlers expose the [**IMFByteStreamHandler**](imfbytestreamhandler.md) interface. If the source resolver finds a matching byte-stream handler, it calls [**IMFByteStreamHandler::BeginCreateObject**](imfbytestreamhandler-begincreateobject.md). The input to this method is a pointer to the byte stream, plus the original URL, if available. The byte-stream handler reads from the byte stream until it parses enough data to create the media source.
+Byte-stream handlers expose the [**IMFByteStreamHandler**](/windows/win32/mfidl/nn-mfidl-imfbytestreamhandler?branch=master) interface. If the source resolver finds a matching byte-stream handler, it calls [**IMFByteStreamHandler::BeginCreateObject**](/windows/win32/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject?branch=master). The input to this method is a pointer to the byte stream, plus the original URL, if available. The byte-stream handler reads from the byte stream until it parses enough data to create the media source.
 
 ## Related topics
 

@@ -1,25 +1,30 @@
 ---
 title: Group-Membership-SAM attribute
-description: Windows NT Security. Down level Windows NT support.
+description: Windows NT Security. Down level Windows NT support.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '14e2f7c1-4d2b-4c0d-bf13-9abb576cd931'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 14e2f7c1-4d2b-4c0d-bf13-9abb576cd931
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Group-Membership-SAM attribute AD Schema", "groupMembershipSAM attribute AD Schema"]
+keywords:
+- Group-Membership-SAM attribute AD Schema
+- groupMembershipSAM attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Group-Membership-SAM
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Group-Membership-SAM attribute
 
-Windows NT Security. Down level Windows NT support.
+Windows NT Security. Down level Windows NT support.
 
 
 
@@ -38,12 +43,12 @@ Windows NT Security. Down level Windows NT support.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Windows NT Security. Down level Windows NT support.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

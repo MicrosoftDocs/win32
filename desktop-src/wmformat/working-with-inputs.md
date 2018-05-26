@@ -1,8 +1,19 @@
 ---
 title: Working with Inputs
 description: Working with Inputs
-ms.assetid: '72daa7ca-4264-46bf-91ac-8b95fdbfd41c'
-keywords: ["Windows Media Format SDK,working with inputs", "Advanced Systems Format (ASF),working with inputs", "ASF (Advanced Systems Format),working with inputs", "profiles,working with inputs", "streams,working with inputs", "codecs,working with inputs"]
+ms.assetid: 72daa7ca-4264-46bf-91ac-8b95fdbfd41c
+keywords:
+- Windows Media Format SDK,working with inputs
+- Advanced Systems Format (ASF),working with inputs
+- ASF (Advanced Systems Format),working with inputs
+- profiles,working with inputs
+- streams,working with inputs
+- codecs,working with inputs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Inputs

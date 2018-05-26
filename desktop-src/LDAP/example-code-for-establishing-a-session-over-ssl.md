@@ -4,30 +4,36 @@ description: Establishing a secure LDAP connection using SSL, now called Transpo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'aaf050f5-53a4-4faa-bca9-d2865d14192f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: aaf050f5-53a4-4faa-bca9-d2865d14192f
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Establishing a Session over SSL LDAP", "Establishing a Session LDAP", "Session, Establishing LDAP"]
+keywords:
+- Establishing a Session over SSL LDAP
+- Establishing a Session LDAP
+- Session, Establishing LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Establishing a Session over SSL
 
 Establishing a secure LDAP connection using SSL, now called Transport Layer Security (TLS), requires that the server support the proper certification authority (CA) before the connection is attempted. In addition, the client can supply an appropriate client certificate to the server when the SSL handshake is initiated by the connection attempt.
 
-If the client application must determine if a particular connection is protected by SSL at run-time, the [**ldap\_get\_option**](ldap-get-option.md) function can be used with **LDAP\_OPT\_SSL** to return this data. The encryption strength can then be returned using the **LDAP\_OPT\_SSL\_INFO** option. Active Directory requires 128-bit cipher strength to allow user passwords to be modified by client applications using the LDAP provider over an SSL connection.
+If the client application must determine if a particular connection is protected by SSL at run-time, the [**ldap\_get\_option**](/windows/previous-versions/Winldap/nf-winldap-ldap_get_option?branch=master) function can be used with **LDAP\_OPT\_SSL** to return this data. The encryption strength can then be returned using the **LDAP\_OPT\_SSL\_INFO** option. Active Directory requires 128-bit cipher strength to allow user passwords to be modified by client applications using the LDAP provider over an SSL connection.
 
 The following operations are performed in the example code provided:
 
 -   Retrieves a host name. If no host name was supplied by the user then perform a serverless bind.
--   Initializes a session using [**ldap\_sslinit**](ldap-sslinit.md).
+-   Initializes a session using [**ldap\_sslinit**](/windows/previous-versions/Winldap/nf-winldap-ldap_sslinit?branch=master).
 -   Specifies LDAP version 3.
 -   Verifies that the host supports SSL.
 -   Connects to the server.
 -   Binds to the server with current credentials.
 -   Retrieves the SSL cipher strength.
 
-The following example code shows how to bind to a server using [**ldap\_sslinit**](ldap-sslinit.md), and then queries the server for the cipher strength.
+The following example code shows how to bind to a server using [**ldap\_sslinit**](/windows/previous-versions/Winldap/nf-winldap-ldap_sslinit?branch=master), and then queries the server for the cipher strength.
 
 
 ```C++

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Occurs when an item is deleted.'
-ms.assetid: '008bac9d-4daa-4729-b414-b9551eb636f1'
-title: 'ICameraUIControlEventCallback::OnItemDeleted method'
+---
+Description: Occurs when an item is deleted.
+ms.assetid: 008bac9d-4daa-4729-b414-b9551eb636f1
+title: ICameraUIControlEventCallbackOnItemDeleted method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICameraUIControlEventCallback::OnItemDeleted method
@@ -50,7 +55,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**ICameraUIControlEventCallback**](icamerauicontroleventcallback.md)
+[**ICameraUIControlEventCallback**](/windows/win32/camerauicontrol/nn-camerauicontrol-icamerauicontroleventcallback?branch=master)
 </dt> </dl>
 
  

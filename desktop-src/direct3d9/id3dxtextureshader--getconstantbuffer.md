@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get a pointer to the constant table.'
-ms.assetid: '5d836d99-783f-41e1-b7bf-d874d09a4892'
-title: 'ID3DXTextureShader::GetConstantBuffer method'
+---
+Description: Get a pointer to the constant table.
+ms.assetid: 5d836d99-783f-41e1-b7bf-d874d09a4892
+title: ID3DXTextureShaderGetConstantBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureShader::GetConstantBuffer method

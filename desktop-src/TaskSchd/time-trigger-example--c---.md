@@ -1,7 +1,12 @@
 ---
 title: Time Trigger Example (C++)
 description: This C++ example shows how to create a task that is scheduled to execute Notepad at a specified time.
-ms.assetid: 'e45b18b0-5a7f-4283-b42f-15e9ffcfaff7'
+ms.assetid: e45b18b0-5a7f-4283-b42f-15e9ffcfaff7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Time Trigger Example (C++)
@@ -13,27 +18,27 @@ The following procedure describes how to schedule a task to start an executable 
 **To schedule Notepad to start at a specific time**
 
 1.  Initialize COM and set general COM security.
-2.  Create the [**ITaskService**](itaskservice.md) object.
+2.  Create the [**ITaskService**](/windows/win32/taskschd/nn-taskschd-itaskservice?branch=master) object.
 
     This object allows you to create tasks in a specified folder.
 
 3.  Get a task folder to create a task in.
 
-    Use the [**ITaskService::GetFolder**](itaskservice-getfolder.md) method to get the folder, and the [**ITaskService::NewTask**](itaskservice-newtask.md) method to create the [**ITaskDefinition**](itaskdefinition.md) object.
+    Use the [**ITaskService::GetFolder**](/windows/win32/taskschd/nf-taskschd-itaskservice-getfolder?branch=master) method to get the folder, and the [**ITaskService::NewTask**](/windows/win32/taskschd/nf-taskschd-itaskservice-newtask?branch=master) method to create the [**ITaskDefinition**](/windows/win32/taskschd/nn-taskschd-itaskdefinition?branch=master) object.
 
-4.  Define information about the task using the [**ITaskDefinition**](itaskdefinition.md) object, such as the registration information for the task.
+4.  Define information about the task using the [**ITaskDefinition**](/windows/win32/taskschd/nn-taskschd-itaskdefinition?branch=master) object, such as the registration information for the task.
 
-    Use the [**RegistrationInfo property of ITaskDefinition**](itaskdefinition-registrationinfo.md) and other properties of the [**ITaskDefinition**](itaskdefinition.md) interface to define the task information.
+    Use the [**RegistrationInfo property of ITaskDefinition**](/windows/win32/taskschd/nf-taskschd-itaskdefinition-get_registrationinfo?branch=master) and other properties of the [**ITaskDefinition**](/windows/win32/taskschd/nn-taskschd-itaskdefinition?branch=master) interface to define the task information.
 
-5.  Create a time-based trigger using the [**Triggers property of ITaskDefinition**](itaskdefinition-triggers.md) to access the [**ITriggerCollection**](itriggercollection.md) for the task.
+5.  Create a time-based trigger using the [**Triggers property of ITaskDefinition**](/windows/win32/taskschd/nf-taskschd-itaskdefinition-get_triggers?branch=master) to access the [**ITriggerCollection**](/windows/win32/taskschd/nn-taskschd-itriggercollection?branch=master) for the task.
 
-    Use the [**ITriggerCollection::Create**](itriggercollection-create.md) method (specifying the type of trigger you want to create) to create a time-based trigger. This allows you to set the start boundary and the end boundary for the trigger so that the task's actions will be scheduled to execute at a specified time.
+    Use the [**ITriggerCollection::Create**](/windows/win32/taskschd/nf-taskschd-itriggercollection-create?branch=master) method (specifying the type of trigger you want to create) to create a time-based trigger. This allows you to set the start boundary and the end boundary for the trigger so that the task's actions will be scheduled to execute at a specified time.
 
-6.  Create an action for the task to execute by using the [**Actions property of ITaskDefinition**](itaskdefinition-actions.md) to access the [**IActionCollection**](iactioncollection.md) interface for the task.
+6.  Create an action for the task to execute by using the [**Actions property of ITaskDefinition**](/windows/win32/taskschd/nf-taskschd-itaskdefinition-get_actions?branch=master) to access the [**IActionCollection**](/windows/win32/taskschd/nn-taskschd-iactioncollection?branch=master) interface for the task.
 
-    Use the [**IActionCollection::Create**](iactioncollection-create.md) method to specify the type of action that you want to create. This example uses an [**IExecAction**](iexecaction.md) object, which represents an action that executes a command-line operation.
+    Use the [**IActionCollection::Create**](/windows/win32/taskschd/nf-taskschd-iactioncollection-create?branch=master) method to specify the type of action that you want to create. This example uses an [**IExecAction**](/windows/win32/taskschd/nn-taskschd-iexecaction?branch=master) object, which represents an action that executes a command-line operation.
 
-7.  Register the task using the [**ITaskFolder::RegisterTaskDefinition**](itaskfolder-registertaskdefinition.md) method.
+7.  Register the task using the [**ITaskFolder::RegisterTaskDefinition**](/windows/win32/taskschd/nf-taskschd-itaskfolder-registertaskdefinition?branch=master) method.
 
 The following C++ example shows how to schedule a task to execute Notepad one minute after the task is registered.
 

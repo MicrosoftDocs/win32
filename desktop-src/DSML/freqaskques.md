@@ -4,11 +4,17 @@ description: Answers to some of the more common Frequently Asked Questions.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd586b412-1500-4a6c-a014-48d4f3defc4e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d586b412-1500-4a6c-a014-48d4f3defc4e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["FAQ DSML", "Frequently Asked Questions DSML", "DSML Services for Windows, FAQs"]
+keywords:
+- FAQ DSML
+- Frequently Asked Questions DSML
+- DSML Services for Windows, FAQs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Frequently Asked Questions

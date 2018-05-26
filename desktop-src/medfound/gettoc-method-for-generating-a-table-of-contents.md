@@ -1,7 +1,12 @@
 ---
 Description: GetToc Function for Generating a Table of Contents
-ms.assetid: 'f2f312ff-3519-4269-8252-eb52d2bc2e56'
+ms.assetid: f2f312ff-3519-4269-8252-eb52d2bc2e56
 title: GetToc Function for Generating a Table of Contents
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetToc Function for Generating a Table of Contents

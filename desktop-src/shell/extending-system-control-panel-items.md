@@ -1,6 +1,11 @@
-﻿---
-Description: 'Some of the system items found in the Control Panel are extensible. To install a Control Panel extension, register your Shell extension as follows, where name is the predefined name of the system item (see table below).'
+---
+Description: Some of the system items found in the Control Panel are extensible. To install a Control Panel extension, register your Shell extension as follows, where name is the predefined name of the system item (see table below).
 title: Extending System Control Panel Items
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extending System Control Panel Items
@@ -104,7 +109,7 @@ This is no longer supported under Windows Vista.
 
  
 
-The **Add or Remove Programs** item in the Windows XP Control Panel is not a property sheet and therefore cannot be extended by the methods discussed here. Instead, its content is obtained from application publishers. For more information on adding content to **Add or Remove Programs**, see [**IAppPublisher**](iapppublisher.md), [**IEnumPublishedApps**](ienumpublishedapps.md), and [**IPublishedApp**](ipublishedapp.md).
+The **Add or Remove Programs** item in the Windows XP Control Panel is not a property sheet and therefore cannot be extended by the methods discussed here. Instead, its content is obtained from application publishers. For more information on adding content to **Add or Remove Programs**, see [**IAppPublisher**](/windows/win32/Shappmgr/nn-shappmgr-iapppublisher?branch=master), [**IEnumPublishedApps**](/windows/win32/Shappmgr/nn-shappmgr-ienumpublishedapps?branch=master), and [**IPublishedApp**](/windows/win32/Shappmgr/nn-shappmgr-ipublishedapp?branch=master).
 
 ## Related topics
 

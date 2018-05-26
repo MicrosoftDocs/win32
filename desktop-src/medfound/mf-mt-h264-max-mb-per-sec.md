@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the maximum macroblock processing rate for an H.264 video stream.'
-ms.assetid: '882F54D1-A963-4016-BEC7-F9C1AC5885FD'
-title: 'MF\_MT\_H264\_MAX\_MB\_PER\_SEC attribute'
+---
+Description: Specifies the maximum macroblock processing rate for an H.264 video stream.
+ms.assetid: 882F54D1-A963-4016-BEC7-F9C1AC5885FD
+title: MF\_MT\_H264\_MAX\_MB\_PER\_SEC attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_H264\_MAX\_MB\_PER\_SEC attribute
@@ -14,7 +19,7 @@ Specifies the maximum macroblock processing rate for an H.264 video stream.
 
 ## Applies to
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 
 ## Remarks
 

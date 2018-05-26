@@ -1,14 +1,20 @@
 ---
 title: HeaderFields (sendEmailType) Element
 description: Specifies the header fields and their values used in the header of the email message.
-ms.assetid: '6261f32e-3012-4ce7-b407-699374596333'
-keywords: ["HeaderFields element Task Scheduler"]
+ms.assetid: 6261f32e-3012-4ce7-b407-699374596333
+keywords:
+- HeaderFields element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - HeaderFields
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HeaderFields (sendEmailType) Element
@@ -45,7 +51,7 @@ The **HeaderFields** element is defined by the [**sendEmailType**](taskscheduler
 
 ## Remarks
 
-For C++ development, see [**HeaderFields Property of IEmailAction**](iemailaction-headerfields.md).
+For C++ development, see [**HeaderFields Property of IEmailAction**](/windows/win32/taskschd/nf-taskschd-iemailaction-get_headerfields?branch=master).
 
 For script development, see [**EmailAction.HeaderFields**](emailaction-headerfields.md).
 
@@ -55,14 +61,14 @@ For script development, see [**EmailAction.HeaderFields**](emailaction-headerfie
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

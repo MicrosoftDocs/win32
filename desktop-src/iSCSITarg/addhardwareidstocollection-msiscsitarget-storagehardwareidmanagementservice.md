@@ -4,13 +4,16 @@ description: Creates CIM\_MemberOfCollection instances to associate specified ha
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2832f193-79ec-45e6-97d8-9539f0eb1c79'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2832f193-79ec-45e6-97d8-9539f0eb1c79
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddHardwareIDsToCollection method iSCSI Software Target API", "AddHardwareIDsToCollection method iSCSI Software Target API , MSISCSITARGET_StorageHardwareIDManagementService class", "MSISCSITARGET_StorageHardwareIDManagementService class iSCSI Software Target API , AddHardwareIDsToCollection method"]
+keywords:
+- AddHardwareIDsToCollection method iSCSI Software Target API
+- AddHardwareIDsToCollection method iSCSI Software Target API , MSISCSITARGET_StorageHardwareIDManagementService class
+- MSISCSITARGET_StorageHardwareIDManagementService class iSCSI Software Target API , AddHardwareIDsToCollection method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddHardwareIDsToCollection method of the MSISCSITARGET\_StorageHardwareIDManagementService class
@@ -30,8 +36,8 @@ Creates **CIM\_MemberOfCollection** instances to associate specified hardware ID
 
 ```mof
 uint32 AddHardwareIDsToCollection(
-  [in] string                           HardwareIDs[],
-  [in] CIM_SystemSpecificCollection Ref Collection
+  [in] string                           HardwareIDs[],
+  [in] CIM_SystemSpecificCollection Ref Collection
 );
 ```
 
@@ -77,7 +83,7 @@ Specifies the collection to which to add the specified hardware IDs.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–0x0FFF)
+**DMTF Reserved** (6 0x0FFF)
 </dt> <dt>
 
 **Invalid LogicalDevice instance** (0x1000)
@@ -89,10 +95,10 @@ Specifies the collection to which to add the specified hardware IDs.
 **Input devices cannot be used in this collection** (0x1002)
 </dt> <dt>
 
-**Method Reserved** (0x1003–0x7FFF)
+**Method Reserved** (0x1003 0x7FFF)
 </dt> <dt>
 
-**Vendor Specific** (0x8000–0xFFFF)
+**Vendor Specific** (0x8000 0xFFFF)
 </dt> </dl>
 
 ## Requirements
@@ -102,7 +108,7 @@ Specifies the collection to which to add the specified hardware IDs.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -116,9 +122,9 @@ Specifies the collection to which to add the specified hardware IDs.
 [**MSISCSITARGET\_StorageHardwareIDManagementService**](msiscsitarget-storagehardwareidmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

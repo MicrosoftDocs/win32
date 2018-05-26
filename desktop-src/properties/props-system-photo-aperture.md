@@ -1,7 +1,12 @@
 ---
-Description: 'The aperture value of the image, in APEX units.'
-ms.assetid: 'ec8c0271-1e1e-4d37-a09a-f430d0682213'
-title: 'System.Photo.Aperture'
+Description: The aperture value of the image, in APEX units.
+ms.assetid: ec8c0271-1e1e-4d37-a09a-f430d0682213
+title: System.Photo.Aperture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.Aperture

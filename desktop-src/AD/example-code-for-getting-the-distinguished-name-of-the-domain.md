@@ -4,11 +4,15 @@ description: This topic includes a code example that gets the distinguished name
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2b478c55-4683-48cd-bee9-385eea38d01d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2b478c55-4683-48cd-bee9-385eea38d01d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , getting the distinguished name of the domain"]
+keywords:
+- Active Directory examples Active Directory , getting the distinguished name of the domain
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Getting the Distinguished Name of the Domain

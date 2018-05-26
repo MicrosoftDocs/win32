@@ -1,7 +1,12 @@
 ---
-Description: 'A monitor is a dynamic-link library (DLL) that examines real-time captures of network traffic.'
-ms.assetid: '96d04352-5f1c-4964-94d2-692c6b642cb8'
+Description: A monitor is a dynamic-link library (DLL) that examines real-time captures of network traffic.
+ms.assetid: 96d04352-5f1c-4964-94d2-692c6b642cb8
 title: Monitors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Monitors

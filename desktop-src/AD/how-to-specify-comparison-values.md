@@ -4,11 +4,15 @@ description: Each attribute type has a syntax that determines the type of compar
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '72bd58e4-e1c3-40a5-9917-4910f40c52c5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 72bd58e4-e1c3-40a5-9917-4910f40c52c5
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["How to Specify Comparison Values AD"]
+keywords:
+- How to Specify Comparison Values AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to Specify Comparison Values

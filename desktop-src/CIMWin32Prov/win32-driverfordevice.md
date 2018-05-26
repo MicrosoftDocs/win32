@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_DriverForDevice association WMI class relates a printer instance to a printer driver instance.'
+Description: The Win32\_DriverForDevice association WMI class relates a printer instance to a printer driver instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '56ff74b2-31ba-4d8e-b389-9f962932aa03'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 56ff74b2-31ba-4d8e-b389-9f962932aa03
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_DriverForDevice class'
+title: Win32\_DriverForDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DriverForDevice class
@@ -23,7 +26,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_DriverForDevice : CIM_Dependency
 {
-  Win32_Printer       REF Antecedent;
+  Win32_Printer       REF Antecedent;
   Win32_PrinterDriver REF Dependent;
 };
 ```
@@ -80,8 +83,8 @@ The **Win32\_DriverForDevice** class is derived from [**CIM\_Dependency**](cim-d
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>Win32\_Printer.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl>       |
@@ -95,9 +98,9 @@ The **Win32\_DriverForDevice** class is derived from [**CIM\_Dependency**](cim-d
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

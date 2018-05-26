@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.gainLevel8
 description: The gainLevel8 attribute specifies or retrieves the gain level of band 8.
-ms.assetid: '1cd4fa26-ed9b-4312-8272-9fe8011658e8'
-keywords: ["EQUALIZERSETTINGS.gainLevel8 Windows Media Player"]
+ms.assetid: 1cd4fa26-ed9b-4312-8272-9fe8011658e8
+keywords:
+- EQUALIZERSETTINGS.gainLevel8 Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.gainLevel8
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.gainLevel8
@@ -21,7 +27,7 @@ The **gainLevel8** attribute specifies or retrieves the gain level of band 8.
 
 ## Possible Values
 
-This attribute is a read/write **Number** (**float**) with a value normally ranging from –20 to +20. It has a default value of zero.
+This attribute is a read/write **Number** (**float**) with a value normally ranging from  20 to +20. It has a default value of zero.
 
 ## Remarks
 
@@ -49,9 +55,9 @@ If this attribute is not specified, the previous value will be retained.
 [**EQUALIZERSETTINGS. gainLevels**](equalizersettings-gainlevels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

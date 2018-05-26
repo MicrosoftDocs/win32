@@ -1,14 +1,22 @@
 ---
 title: IDRMStatusCallback OnStatus method
 description: The OnStatus method receives status messages from asynchronous DRM processes.
-ms.assetid: '2a128088-0924-4c54-b08d-a1c7ea91e541'
-keywords: ["OnStatus method windows Media Format", "OnStatus method windows Media Format , IDRMStatusCallback interface", "IDRMStatusCallback interface windows Media Format , OnStatus method"]
+ms.assetid: 2a128088-0924-4c54-b08d-a1c7ea91e541
+keywords:
+- OnStatus method windows Media Format
+- OnStatus method windows Media Format , IDRMStatusCallback interface
+- IDRMStatusCallback interface windows Media Format , OnStatus method
 topic_type:
 - apiref
 api_name:
 - IDRMStatusCallback.OnStatus
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDRMStatusCallback::OnStatus method
@@ -20,11 +28,11 @@ The **OnStatus** method receives status messages from asynchronous DRM processes
 
 ```C++
 HRESULT OnStatus(
-  [in] MSDRM_STATUS      Status,
-  [in] HRESULT           hr,
-  [in] DRM_ATTR_DATATYPE dwType,
-  [in] BYTE              *pValue,
-  [in] void              *pvContext
+  [in] MSDRM_STATUS      Status,
+  [in] HRESULT           hr,
+  [in] DRM_ATTR_DATATYPE dwType,
+  [in] BYTE              *pValue,
+  [in] void              *pvContext
 );
 ```
 
@@ -81,7 +89,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -97,9 +105,9 @@ None.
 [**IDRMStatusCallback Interface**](idrmstatuscallback.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

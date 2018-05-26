@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a generic association between a parent managed element and a child managed element where the child represents a component or part of the parent.'
-ms.assetid: 'b5cef452-2d00-483c-8e70-f804f1e3536b'
-title: 'CIM\_Component class'
+Description: Represents a generic association between a parent managed element and a child managed element where the child represents a component or part of the parent.
+ms.assetid: b5cef452-2d00-483c-8e70-f804f1e3536b
+title: CIM\_Component class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_Component class
@@ -69,17 +74,17 @@ The child element in the association.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

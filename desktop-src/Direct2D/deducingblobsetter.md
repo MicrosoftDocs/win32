@@ -1,8 +1,9 @@
 ---
 title: DeducingBlobSetter
 description: Deduces the class and arguments and then calls a member-function property setter callback for a blob-type property.
-ms.assetid: '4B8B871D-FE5E-4EF3-AEED-A3D92C10E8C6'
-keywords: ["DeducingBlobSetter Direct2D"]
+ms.assetid: 4B8B871D-FE5E-4EF3-AEED-A3D92C10E8C6
+keywords:
+- DeducingBlobSetter Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d2d1effecthelpers.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeducingBlobSetter
@@ -20,7 +26,7 @@ Deduces the class and arguments and then calls a member-function property setter
 > [!Note]  
 > DeducingBlobSetter should not be called directly.
 
- 
+ 
 
 ``` syntax
 template<class C, typename I>  
@@ -49,9 +55,9 @@ HRESULT DeducingBlobSetter(
 [**Direct2D::DeducingBlobGetter**](deducingblobgetter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

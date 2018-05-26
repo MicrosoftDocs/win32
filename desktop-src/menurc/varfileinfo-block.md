@@ -1,14 +1,20 @@
 ---
 title: VarFileInfo BLOCK statement
 description: Describes the form of the variable information block.
-ms.assetid: '81c7f5df-78fa-4571-9dad-a6c3e932471e'
-keywords: ["VarFileInfo BLOCK statement Menus and Other Resources"]
+ms.assetid: 81c7f5df-78fa-4571-9dad-a6c3e932471e
+keywords:
+- VarFileInfo BLOCK statement Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - VarFileInfo BLOCK
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VarFileInfo BLOCK statement

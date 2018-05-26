@@ -1,14 +1,21 @@
 ---
 title: WPDObject object
 description: The WPDObject represents a generic object on the device.
-ms.assetid: 'c22d0cc3-2a63-4ece-8d96-0d8aa89e95f2'
-keywords: ["WPDObject object WPD Automation", "WPDObject object WPD Automation , described"]
+ms.assetid: c22d0cc3-2a63-4ece-8d96-0d8aa89e95f2
+keywords:
+- WPDObject object WPD Automation
+- WPDObject object WPD Automation , described
 topic_type:
 - apiref
 api_name:
 - WPDObject
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPDObject object
@@ -38,7 +45,7 @@ The **WPDObject** object has these events.
 
 
 
- 
+ 
 
 ### Methods
 
@@ -54,7 +61,7 @@ The **WPDObject** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -74,7 +81,7 @@ The **WPDObject** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -82,8 +89,8 @@ The **WPDObject** object has these properties.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -109,9 +116,9 @@ The **WPDObject** object has these properties.
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

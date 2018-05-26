@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes including cabinet files in installations. For more information, see Using Cabinets and Compressed Sources.'
-ms.assetid: '17ea7f76-90b2-48fb-8187-64dc6d294443'
+Description: This section describes including cabinet files in installations. For more information, see Using Cabinets and Compressed Sources.
+ms.assetid: 17ea7f76-90b2-48fb-8187-64dc6d294443
 title: Including a Cabinet File in an Installation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Including a Cabinet File in an Installation
@@ -17,10 +22,10 @@ This section describes including cabinet files in installations. For more inform
 5.  Add a record to the [Media table](media-table.md) for the cabinet. Specify a value in the DiskID field of this new record that is greater than the largest DiskID value already existing in the table. Put the name of the cabinet into the Cabinet field. This name must be in the form of a [Cabinet](cabinet.md) data type. Prefix the name with a number sign "\#" if the cabinet is a data stream stored in the .msi file. Note that if the cabinet is a data stream, the name of the cabinet is case-sensitive. If the cabinet is a separate file, the name of the file is not case-sensitive.
 6.  Determine the greatest file sequence number in the new cabinet by checking the Sequence column of the updated File table. Enter a value that is greater than this into the LastSequence field of the new record of the Media table. For a description of the remaining record fields, see [Media table](media-table.md).
 7.  You can store the cabinet file in the installation package either by using a tool such as Msidb.exe or by using the installer's [Database Functions](database-functions.md). The following four steps explain how to add the cabinet from a program by using the database functions.
-8.  To add the cabinet to the installation package from a program open a view on the [\_Streams table](-streams-table.md) of the database using [**MsiDatabaseOpenView**](msidatabaseopenview.md).
-9.  Use [**MsiRecordSetString**](msirecordsetstring.md) to set the Name column of the \_Streams table to the name appearing in the Cabinet column of the [Media table](media-table.md). Omit the number sign: \#.
-10. Use [**MsiRecordSetStream**](msirecordsetstream.md) to set the Data column of the \_Streams table to the cabinet's data.
-11. Use [**MsiViewModify**](msiviewmodify.md) to update the record in the \_Streams table.
+8.  To add the cabinet to the installation package from a program open a view on the [\_Streams table](-streams-table.md) of the database using [**MsiDatabaseOpenView**](/windows/win32/Msiquery/nf-msiquery-msidatabaseopenviewa?branch=master).
+9.  Use [**MsiRecordSetString**](/windows/win32/Msiquery/nf-msiquery-msirecordsetstringa?branch=master) to set the Name column of the \_Streams table to the name appearing in the Cabinet column of the [Media table](media-table.md). Omit the number sign: \#.
+10. Use [**MsiRecordSetStream**](/windows/win32/Msiquery/nf-msiquery-msirecordsetstreama?branch=master) to set the Data column of the \_Streams table to the cabinet's data.
+11. Use [**MsiViewModify**](/windows/win32/Msiquery/nf-msiquery-msiviewmodify?branch=master) to update the record in the \_Streams table.
 12. To use Msidb.exe to add the cabinet file Mycab.cab to the installation package named Mydatabase.msi, use the following command line: Msidb.exe -d mydatabase.msi -a mycab.cab. In this case, the Cabinet column of the Media table should contain the string: \#mycab.cab.
 
  

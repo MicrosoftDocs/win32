@@ -1,7 +1,12 @@
 ---
 title: MSVidCtl
 description: MSVidCtl
-ms.assetid: 'e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee'
+ms.assetid: e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSVidCtl
@@ -14,8 +19,8 @@ The **MSVidCtl** object, also called the Video Control, is the primary object th
 
 |                           |                                               |
 |---------------------------|-----------------------------------------------|
-| Interfaces                | [**IMSVidCtl**](imsvidctl.md)                |
-| Outgoing Event Interfaces | [**\_IMSVidCtlEvents**](-imsvidctlevents.md) |
+| Interfaces                | [**IMSVidCtl**](/windows/previous-versions/msvidctl/nn-msvidctl-imsvidctl?branch=master)                |
+| Outgoing Event Interfaces | [**\_IMSVidCtlEvents**](/windows/previous-versions/msvidctl/?branch=master) |
 
 
 

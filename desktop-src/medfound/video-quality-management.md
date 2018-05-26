@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Video Quality Management
-ms.assetid: '3617adf2-ed7b-4788-abce-58bc22a14511'
+ms.assetid: 3617adf2-ed7b-4788-abce-58bc22a14511
 title: Video Quality Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Quality Management
@@ -25,7 +30,7 @@ In Windows 7, the enhanced video renderer (EVR) has better support for video qu
 
 ## Quality Management in Media Foundation
 
-To enable static optimizations, set the [MF\_TOPOLOGY\_STATIC\_PLAYBACK\_OPTIMIZATIONS](mf-topology-static-playback-optimizations.md) attribute on the partial topology before resolving the topology. The topology loader queries this attribute in its [**IMFTopoLoader::Load**](imftopoloader-load.md) method.
+To enable static optimizations, set the [MF\_TOPOLOGY\_STATIC\_PLAYBACK\_OPTIMIZATIONS](mf-topology-static-playback-optimizations.md) attribute on the partial topology before resolving the topology. The topology loader queries this attribute in its [**IMFTopoLoader::Load**](/windows/win32/mfidl/nf-mfidl-imftopoloader-load?branch=master) method.
 
 If you enable static optimizations, you should set two other attributes on the topology:
 
@@ -59,7 +64,7 @@ DirectShow supports static and dynamic optimizations for DVD playback. To enable
 
  
 
-Other DirectShow applications can enable dynamic optimizations by calling the [**IEVRFilterConfigEx::SetConfigPrefs**](ievrfilterconfigex-setconfigprefs.md) method directly on the EVR filter. Specify the **EVRFilterConfigPrefs\_EnableQoS** flag.
+Other DirectShow applications can enable dynamic optimizations by calling the [**IEVRFilterConfigEx::SetConfigPrefs**](/windows/win32/evr/nf-evr-ievrfilterconfigex-setconfigprefs?branch=master) method directly on the EVR filter. Specify the **EVRFilterConfigPrefs\_EnableQoS** flag.
 
 > [!Note]  
 > Static optimizations in DirectShow are limited to DVD playback.
@@ -70,7 +75,7 @@ Other DirectShow applications can enable dynamic optimizations by calling the [*
 
 The EVR supports some new configuration flags for quality management. If you enable the quality management optimizations described previously, you do not have to set these flags directly. However, they are documented for applications that want more granular control over the EVR.
 
-Set the following flags on the EVR mixer by calling the [**IMFVideoMixerControl2::SetMixingPrefs**](imfvideomixercontrol2-setmixingprefs.md) method:
+Set the following flags on the EVR mixer by calling the [**IMFVideoMixerControl2::SetMixingPrefs**](/windows/win32/evr/nf-evr-imfvideomixercontrol2-setmixingprefs?branch=master) method:
 
 
 
@@ -107,7 +112,7 @@ Set the following flags on the EVR mixer by calling the [**IMFVideoMixerControl2
 
  
 
-Set the following flags on the EVR presenter by calling the [**IMFVideoDisplayControl::SetRenderingPrefs**](imfvideodisplaycontrol-setrenderingprefs.md) method:
+Set the following flags on the EVR presenter by calling the [**IMFVideoDisplayControl::SetRenderingPrefs**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-setrenderingprefs?branch=master) method:
 
 
 
@@ -164,7 +169,7 @@ In addition, the EVR media sink supports configuration attributes that correspon
 -   [EVRConfig\_ForceScaling](evrconfig-forcescaling.md)
 -   [EVRConfig\_ForceThrottle](evrconfig-forcethrottle.md)
 
-Before playback starts, you can set these attributes directly on the EVR media sink, as an alternative to calling the [**IMFVideoMixerControl2**](imfvideomixercontrol2.md) and [**IMFVideoDisplayControl**](imfvideodisplaycontrol.md) methods. To set these attributes, query the EVR media sink for [**IMFAttributes**](imfattributes.md).
+Before playback starts, you can set these attributes directly on the EVR media sink, as an alternative to calling the [**IMFVideoMixerControl2**](/windows/win32/evr/nn-evr-imfvideomixercontrol2?branch=master) and [**IMFVideoDisplayControl**](/windows/win32/evr/nn-evr-imfvideodisplaycontrol?branch=master) methods. To set these attributes, query the EVR media sink for [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master).
 
 ## Related topics
 

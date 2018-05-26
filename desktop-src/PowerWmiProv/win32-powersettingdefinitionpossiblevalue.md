@@ -1,8 +1,10 @@
 ---
 title: Win32\_PowerSettingDefinitionPossibleValue class
 description: Represents possible values for a power setting. Associations relate this class with the Win32\_PowerSetting instance that it describes.
-ms.assetid: '3ba764e2-6282-43b2-ab71-e0dc5017bab0'
-keywords: ["Win32_PowerSettingDefinitionPossibleValue class", "Win32_PowerSettingDefinitionPossibleValue class, described"]
+ms.assetid: 3ba764e2-6282-43b2-ab71-e0dc5017bab0
+keywords:
+- Win32_PowerSettingDefinitionPossibleValue class
+- Win32_PowerSettingDefinitionPossibleValue class, described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - PowerWmiProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_PowerSettingDefinitionPossibleValue class
@@ -38,7 +45,7 @@ class Win32_PowerSettingDefinitionPossibleValue : CIM_SettingData
   uint32 UInt32Value;
   uint32 UInt64Value;
   string StringValue;
-  uint8  BinaryValue[];
+  uint8  BinaryValue[];
 };
 ```
 
@@ -153,17 +160,17 @@ Specifies the value of the possible value that is expressed as an unsigned 64-bi
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
+| Minimum supported client<br/> | Windows 7<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
 | Namespace<br/>                | Root\\CIMV2\\power<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>PowerWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PowerWmiProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

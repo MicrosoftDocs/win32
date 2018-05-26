@@ -1,7 +1,12 @@
 ---
-Description: 'The TargetFiles\_OptionalData table contains information about specific files in a target image. This table is optional in the patch creation database (.pcp file) and is used by the UiCreatePatchPackageEx function.'
-ms.assetid: '577b1674-1e44-42e1-b011-c0fb561b514c'
-title: 'TargetFiles\_OptionalData Table (Patchwiz.dll)'
+Description: The TargetFiles\_OptionalData table contains information about specific files in a target image. This table is optional in the patch creation database (.pcp file) and is used by the UiCreatePatchPackageEx function.
+ms.assetid: 577b1674-1e44-42e1-b011-c0fb561b514c
+title: TargetFiles\_OptionalData Table (Patchwiz.dll)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TargetFiles\_OptionalData Table (Patchwiz.dll)

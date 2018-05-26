@@ -1,8 +1,18 @@
 ---
 title: Video Complexity Settings
 description: Video Complexity Settings
-ms.assetid: '60191c07-4467-459c-909a-f0752d2be4a9'
-keywords: ["Windows Media Format SDK,video complexity settings", "Windows Media Format SDK,complexity settings for video", "codecs,video complexity settings", "codecs,complexity settings for video", "video complexity settings"]
+ms.assetid: 60191c07-4467-459c-909a-f0752d2be4a9
+keywords:
+- Windows Media Format SDK,video complexity settings
+- Windows Media Format SDK,complexity settings for video
+- codecs,video complexity settings
+- codecs,complexity settings for video
+- video complexity settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Complexity Settings

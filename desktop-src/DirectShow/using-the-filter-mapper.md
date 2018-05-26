@@ -1,14 +1,19 @@
 ---
 Description: Using the Filter Mapper
-ms.assetid: '3f774350-4508-437f-98d1-cca91220f339'
+ms.assetid: 3f774350-4508-437f-98d1-cca91220f339
 title: Using the Filter Mapper
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Filter Mapper
 
 The [Filter Mapper](filter-mapper.md) is a COM object that enumerates DirectShow filters based on various search criteria. The Filter Mapper can be less efficient than the System Device Enumerator, so if you need filters from a particular category, you should use the System Device Enumerator. But if you need to locate a filter that supports a certain combination of media types, but does not fall into a clear-cut category, you might need to use the Filter Mapper. (An example would be a renderer filter or a decoder filter.)
 
-The Filter Mapper exposes the [**IFilterMapper2**](ifiltermapper2.md) interface. To search for a filter, call the [**IFilterMapper2::EnumMatchingFilters**](ifiltermapper2-enummatchingfilters.md) method. This method takes several parameters that define the search criteria, and returns an enumerator for the matching filters. The enumerator supports the [**IEnumMoniker**](com.ienummoniker) interface, and supplies a unique moniker for each matching filter.
+The Filter Mapper exposes the [**IFilterMapper2**](/windows/win32/Strmif/nn-strmif-ifiltermapper2?branch=master) interface. To search for a filter, call the [**IFilterMapper2::EnumMatchingFilters**](/windows/win32/Strmif/nf-strmif-ifiltermapper2-enummatchingfilters?branch=master) method. This method takes several parameters that define the search criteria, and returns an enumerator for the matching filters. The enumerator supports the [**IEnumMoniker**](com.ienummoniker) interface, and supplies a unique moniker for each matching filter.
 
 The following example enumerates filters that accept digital video (DV) input and have at least one output pin, of any media type. (The [DV Video Decoder](dv-video-decoder-filter.md) filter matches these criteria.)
 
@@ -86,7 +91,7 @@ pEnum->Release();
 
 
 
-The [**EnumMatchingFilters**](ifiltermapper2-enummatchingfilters.md) method has a fairly large number of parameters, which are commented in the example. The significant ones for this example include:
+The [**EnumMatchingFilters**](/windows/win32/Strmif/nf-strmif-ifiltermapper2-enummatchingfilters?branch=master) method has a fairly large number of parameters, which are commented in the example. The significant ones for this example include:
 
 -   Minimum merit value: The filter must have a merit value above MERIT\_DO\_NOT\_USE.
 -   Input types: The caller passes an array containing pairs of major types and subtypes. Only filters that support at least one of these pairs will match.

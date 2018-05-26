@@ -1,14 +1,20 @@
 ---
 title: Volatile Element
 description: Indicates whether the task is automatically disabled every time Windows starts.
-ms.assetid: 'E0298876-2A96-401D-B857-69758AF980E5'
-keywords: ["Volatile element Task Scheduler"]
+ms.assetid: E0298876-2A96-401D-B857-69758AF980E5
+keywords:
+- Volatile element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Volatile
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Volatile Element
@@ -38,7 +44,7 @@ The **Volatile** element is defined by the [**settingsType**](taskschedulerschem
 
 ## Remarks
 
-For C++ programming, this idle setting is specified using the [**ITaskSettings3::Volatile**](itasksettings3-volatile.md) property.
+For C++ programming, this idle setting is specified using the [**ITaskSettings3::Volatile**](/windows/win32/Taskschd/nf-taskschd-itasksettings3-get_volatile?branch=master) property.
 
 ## Requirements
 
@@ -46,8 +52,8 @@ For C++ programming, this idle setting is specified using the [**ITaskSettings3:
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
 
 
 
@@ -61,9 +67,9 @@ For C++ programming, this idle setting is specified using the [**ITaskSettings3:
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

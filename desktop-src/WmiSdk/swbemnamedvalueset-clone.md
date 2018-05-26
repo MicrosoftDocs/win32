@@ -1,13 +1,16 @@
 ---
-Description: 'The Clone method of the SWbemNamedValueSet object returns a new object that is a clone of the current collection.'
+Description: The Clone method of the SWbemNamedValueSet object returns a new object that is a clone of the current collection.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0e7fab2e-8175-45e5-aa70-1109502e2b3f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0e7fab2e-8175-45e5-aa70-1109502e2b3f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemNamedValueSet.Clone method'
+title: SWbemNamedValueSet.Clone method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemNamedValueSet.Clone method
@@ -64,8 +67,8 @@ Use this method to duplicate an [**SWbemNamedValueSet**](swbemnamedvalueset.md) 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -81,9 +84,9 @@ Use this method to duplicate an [**SWbemNamedValueSet**](swbemnamedvalueset.md) 
 [**SWbemNamedValueSet**](swbemnamedvalueset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

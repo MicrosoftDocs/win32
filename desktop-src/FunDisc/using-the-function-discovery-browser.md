@@ -1,7 +1,12 @@
 ---
-Description: 'Displays function instances on a local machine using a graphical user interface.'
-ms.assetid: '19ddafc6-3f3e-4ce6-a6a9-24ea3a53cf0e'
-title: 'Using the Function Discovery Browser (fdbrowser.exe)'
+Description: Displays function instances on a local machine using a graphical user interface.
+ms.assetid: 19ddafc6-3f3e-4ce6-a6a9-24ea3a53cf0e
+title: Using the Function Discovery Browser (fdbrowser.exe)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Function Discovery Browser (fdbrowser.exe)

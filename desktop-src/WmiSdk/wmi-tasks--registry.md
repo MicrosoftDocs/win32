@@ -1,13 +1,16 @@
 ---
-Description: 'WMI tasks for the registry create and modify registry keys and values. For other examples, see the TechNet ScriptCenter at http://www.microsoft.com/technet.'
+Description: WMI tasks for the registry create and modify registry keys and values. For other examples, see the TechNet ScriptCenter at http//www.microsoft.com/technet.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0785189e-9638-4776-8414-1414d7b02524'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0785189e-9638-4776-8414-1414d7b02524
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WMI Tasks: Registry'
+title: WMI Tasks Registry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Tasks: Registry
@@ -30,7 +33,7 @@ The following procedure describes how to run a script.
 > [!Note]  
 > By default, cscript displays the output of a script in the command prompt window. Because WMI scripts can produce large amounts of output, you might want to redirect the output to a file. Type **cscript filename.vbs &gt; outfile.txt** at the command prompt to redirect the output of the *filename.vbs* script to *outfile.txt*.
 
- 
+ 
 
 The following table lists script examples that can be used to obtain various types of data from the local computer.
 
@@ -455,7 +458,7 @@ If ($results.Returnvalue -eq 0) {&quot;Key Removed&quot;} </code></pre></td>
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -476,9 +479,9 @@ If ($results.Returnvalue -eq 0) {&quot;Key Removed&quot;} </code></pre></td>
 [**StdRegProv**](https://msdn.microsoft.com/library/aa393664)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

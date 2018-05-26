@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Paused property is a Boolean value that indicates whether the job queue for outgoing faxes is paused.'
-ms.assetid: '59ba15d3-487b-4d38-8a63-6c0028f226b3'
-title: 'FaxOutgoingQueue.Paused property'
+---
+Description: The Paused property is a Boolean value that indicates whether the job queue for outgoing faxes is paused.
+ms.assetid: 59ba15d3-487b-4d38-8a63-6c0028f226b3
+title: FaxOutgoingQueue.Paused property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingQueue.Paused property
@@ -27,7 +32,7 @@ A **Boolean** that specifies or receives whether the job queue for outgoing faxe
 
 If this property is equal to **True**, the job queue is paused and the fax service is not processing jobs in the queue. If this property is equal to **False**, the outgoing queue is not paused.
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -49,7 +54,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxOutgoingQueue**](-mfax-faxoutgoingqueue.md)
 </dt> <dt>
 
-[**IFaxOutgoingQueue**](-mfax-faxoutgoingqueue-cpp.md)
+[**IFaxOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingqueue?branch=master)
 </dt> <dt>
 
 [Setting the Outgoing Queue Properties](-mfax-setting-the-outgoing-queue-properties.md)

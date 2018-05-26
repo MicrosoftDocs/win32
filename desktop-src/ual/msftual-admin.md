@@ -4,11 +4,13 @@ description: This is a class of methods for enabling and disabling the User Acce
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8a692693-b9a2-4c03-b2ee-1727f96cede4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'user-access-logging'
+ms.assetid: 8a692693-b9a2-4c03-b2ee-1727f96cede4
+ms.prod: windows-server-dev
+ms.technology: user-access-logging
 ms.tgt_platform: multiple
-keywords: ["MsftUal_Admin class User Access Logging", "MsftUal_Admin class User Access Logging , described"]
+keywords:
+- MsftUal_Admin class User Access Logging
+- MsftUal_Admin class User Access Logging , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - UALProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MsftUal\_Admin class
@@ -56,7 +61,7 @@ The **MsftUal\_Admin** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -84,17 +89,17 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\AccessLogging<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>Sum.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>UALProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Uploading Different Types of Resources
 description: Shows how to use one buffer to upload both constant buffer data and vertex buffer data to the GPU, and how to properly sub-allocate and place data within buffers.
-ms.assetid: '255B0482-21D6-4276-8009-3F3891879CA1'
+ms.assetid: 255B0482-21D6-4276-8009-3F3891879CA1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uploading Different Types of Resources
@@ -23,7 +28,7 @@ In D3D12, applications create one buffer to accommodate different types of resou
 
 In D3D11, applications create separate buffers for different types of resource data (note the different `BindFlags` used in the D3D11 sample code below), explicitly binding each resource buffer to the graphics pipeline, and update the resource data with different methods based on different resource types.
 
-In both D3D12 and D3D11, applications should only use upload resources where the CPU will write the data once and the GPU will read it once. If the GPU will read the data multiple times, the GPU will not read the data linearly, or the rendering is significantly GPU-limited already. The better option may be to use [**ID3D12GraphicsCommandList::CopyTextureRegion**](id3d12graphicscommandlist-copytextureregion.md) or [**ID3D12GraphicsCommandList::CopyBufferRegion**](id3d12graphicscommandlist-copybufferregion.md) to copy the upload buffer data to a default resource. A default resource can reside in physical video memory on discrete GPUs.
+In both D3D12 and D3D11, applications should only use upload resources where the CPU will write the data once and the GPU will read it once. If the GPU will read the data multiple times, the GPU will not read the data linearly, or the rendering is significantly GPU-limited already. The better option may be to use [**ID3D12GraphicsCommandList::CopyTextureRegion**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion?branch=master) or [**ID3D12GraphicsCommandList::CopyBufferRegion**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion?branch=master) to copy the upload buffer data to a default resource. A default resource can reside in physical video memory on discrete GPUs.
 
 ### Code Example: D3D11
 
@@ -263,9 +268,9 @@ Note the use of the helper structures [**CD3DX12\_HEAP\_PROPERTIES**](cd3dx12-he
 
 To set constants, vertices and indexes within an Upload or Readback heap, use the following APIs:
 
--   [**ID3D12Device::CreateConstantBufferView**](id3d12device-createconstantbufferview.md)
--   [**ID3D12GraphicsCommandList::IASetVertexBuffers**](id3d12graphicscommandlist-iasetvertexbuffers.md)
--   [**ID3D12GraphicsCommandList::IASetIndexBuffer**](id3d12graphicscommandlist-iasetindexbuffer.md)
+-   [**ID3D12Device::CreateConstantBufferView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createconstantbufferview?branch=master)
+-   [**ID3D12GraphicsCommandList::IASetVertexBuffers**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers?branch=master)
+-   [**ID3D12GraphicsCommandList::IASetIndexBuffer**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer?branch=master)
 
 ## Resources
 
@@ -275,15 +280,15 @@ There are three types of resources with respect to virtual address creation and 
 
 -   Committed resources
 
-    Committed resources are the most common idea of D3D resources over the generations. Creating such a resource allocates virtual address range, an implicit heap large enough to fit the whole resource, and commits the virtual address range to the physical memory encapsulated by the heap. The implicit heap properties must be passed to match functional parity with previous D3D versions. Refer to [**ID3D12Device::CreateCommittedResource**](id3d12device-createcommittedresource.md).
+    Committed resources are the most common idea of D3D resources over the generations. Creating such a resource allocates virtual address range, an implicit heap large enough to fit the whole resource, and commits the virtual address range to the physical memory encapsulated by the heap. The implicit heap properties must be passed to match functional parity with previous D3D versions. Refer to [**ID3D12Device::CreateCommittedResource**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommittedresource?branch=master).
 
 -   Reserved resources
 
-    Reserved resources are equivalent to D3D11 tiled resources. On their creation, only a virtual address range is allocated and not mapped to any heap. The application will map such resources to heaps later. The capabilities of such resources are currently unchanged over D3D11, as they can be mapped to a heap at a 64KB tile granularity with [**UpdateTileMappings**](id3d12commandqueue-updatetilemappings.md). Refer to [**ID3D12Device::CreateReservedResource**](id3d12device-createreservedresource.md)
+    Reserved resources are equivalent to D3D11 tiled resources. On their creation, only a virtual address range is allocated and not mapped to any heap. The application will map such resources to heaps later. The capabilities of such resources are currently unchanged over D3D11, as they can be mapped to a heap at a 64KB tile granularity with [**UpdateTileMappings**](/windows/win32/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings?branch=master). Refer to [**ID3D12Device::CreateReservedResource**](/windows/win32/D3D12/nf-d3d12-id3d12device-createreservedresource?branch=master)
 
 -   Placed resources
 
-    New for D3D12, applications may create heaps separate from resources. Afterward, the application may locate multiple resources within a single heap. This can be done without creating tiled or reserved resources, enabling the capabilities for all resource types able to be created directly by applications. Multiple resources may overlap, and the application must use the `TiledResourceBarrier` to re-use physical memory correctly. Refer to [**ID3D12Device::CreatePlacedResource**](id3d12device-createplacedresource.md)
+    New for D3D12, applications may create heaps separate from resources. Afterward, the application may locate multiple resources within a single heap. This can be done without creating tiled or reserved resources, enabling the capabilities for all resource types able to be created directly by applications. Multiple resources may overlap, and the application must use the `TiledResourceBarrier` to re-use physical memory correctly. Refer to [**ID3D12Device::CreatePlacedResource**](/windows/win32/D3D12/nf-d3d12-id3d12device-createplacedresource?branch=master)
 
 ## Resource size reflection
 
@@ -297,8 +302,8 @@ Also, a three element array with two single-texel 64KB aligned textures and a si
 
 Reference the following APIs:
 
--   [**D3D12\_RESOURCE\_ALLOCATION\_INFO**](d3d12-resource-allocation-info.md)
--   [**GetResourceAllocationInfo**](id3d12device-getresourceallocationinfo.md)
+-   [**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/win32/D3D12/ns-d3d12-d3d12_resource_allocation_info?branch=master)
+-   [**GetResourceAllocationInfo**](/windows/win32/D3D12/nf-d3d12-id3d12device-getresourceallocationinfo?branch=master)
 
 ## Buffer alignment
 

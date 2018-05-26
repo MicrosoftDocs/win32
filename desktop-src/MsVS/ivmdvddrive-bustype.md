@@ -1,8 +1,13 @@
 ---
 title: IVMDVDDrive BusType property
 description: The BusType property contains the bus type (that is, IDE or SCSI) to which this DVD drive is attached.
-ms.assetid: 'de5208fa-013e-4f2f-8770-7d25f6aafb45'
-keywords: ["BusType property Virtual Server", "BusType property Virtual Server , IVMDVDDrive interface", "IVMDVDDrive interface Virtual Server , BusType property", "BusType property Virtual Server , VMDVDDrive interface", "VMDVDDrive interface Virtual Server , BusType property"]
+ms.assetid: de5208fa-013e-4f2f-8770-7d25f6aafb45
+keywords:
+- BusType property Virtual Server
+- BusType property Virtual Server , IVMDVDDrive interface
+- IVMDVDDrive interface Virtual Server , BusType property
+- BusType property Virtual Server , VMDVDDrive interface
+- VMDVDDrive interface Virtual Server , BusType property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDrive::BusType property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_BusType(
-  [out] VMDriveBusType *busType
+  [out] VMDriveBusType *busType
 );
 ```
 
@@ -77,8 +87,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -93,9 +103,9 @@ This property value is read-only.
 [**VMDriveBusType**](vmdrivebustype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

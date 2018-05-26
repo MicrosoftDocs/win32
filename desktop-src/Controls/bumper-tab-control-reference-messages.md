@@ -1,7 +1,12 @@
 ---
 title: Tab Control Messages
 description: .
-ms.assetid: 'a2993604-ba9c-46ff-9cf5-287c03295b4e'
+ms.assetid: a2993604-ba9c-46ff-9cf5-287c03295b4e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tab Control Messages

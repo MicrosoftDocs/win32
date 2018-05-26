@@ -1,13 +1,16 @@
 ---
-Description: 'If an error occurs, WMI returns an error code as an HRESULT value. These codes may be returned by scripts, C++ applications, or Wmic.'
+Description: If an error occurs, WMI returns an error code as an HRESULT value. These codes may be returned by scripts, C++ applications, or Wmic.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b560f37c-da22-4745-8d1f-b27afdf572ec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b560f37c-da22-4745-8d1f-b27afdf572ec
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Error Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Error Constants
@@ -22,7 +25,7 @@ If an error occurs, WMI returns an error code as an **HRESULT** value. These cod
 >
 > To obtain more information about the source of the problem, you can download and run the [WMI Diagnosis Utility](Http://go.microsoft.com/fwlink/p/?linkid=84435) diagnostic command line tool. This tool produces a report that can usually isolate the source of the problem and provide instructions on how to fix it. The report also aids Microsoft support services in assisting you. You can download the WMI Diagnosis Utility [here](Http://go.microsoft.com/fwlink/p/?linkid=84419).
 
- 
+ 
 
 Some methods in WMI classes can return system and network error codes (64 for example). You can check the definition of these types of error codes by using the **net helpmsg** command in the command prompt window. For example, the command **net helpmsg 64** returns the message: The specified network name is no longer available.
 
@@ -153,7 +156,7 @@ Not enough memory for the operation.
 
 
 
-The [**IWbemContext**](iwbemcontext.md) object is not valid.
+The [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) object is not valid.
 
 
 </dt> </dl> </dd> <dt>
@@ -455,7 +458,7 @@ User attempted to delete a property that was not owned. The property was inherit
 
 
 
-Client made an unexpected and illegal sequence of calls, such as calling [**EndEnumeration**](iwbemclassobject-endenumeration.md) before calling [**BeginEnumeration**](iwbemclassobject-beginenumeration.md).
+Client made an unexpected and illegal sequence of calls, such as calling [**EndEnumeration**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-endenumeration?branch=master) before calling [**BeginEnumeration**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-beginenumeration?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -975,7 +978,7 @@ Reserved for future use.
 
 
 
-Call to [**IWbemObjectSink::Indicate**](iwbemobjectsink-indicate.md) has failed. The provider can refire the event.
+Call to [**IWbemObjectSink::Indicate**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-indicate?branch=master) has failed. The provider can refire the event.
 
 
 </dt> </dl> </dd> <dt>
@@ -2429,8 +2432,8 @@ The syntax for the preprocessor commands [\#pragma deleteinstance](pragma-delete
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Header<br/>                   | <dl> <dt>WbemCli.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WbemCli.idl</dt> </dl> |
 
@@ -2443,9 +2446,9 @@ The syntax for the preprocessor commands [\#pragma deleteinstance](pragma-delete
 [WMI Return Codes](wmi-return-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

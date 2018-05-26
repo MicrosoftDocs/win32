@@ -4,13 +4,15 @@ description: This class provides statistical and operational information for act
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0503e6bb-7f9f-489f-99a5-9a0c34416912'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0503e6bb-7f9f-489f-99a5-9a0c34416912
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrSyncInfo class Distributed File System Replication", "DfsrSyncInfo class Distributed File System Replication , described"]
+keywords:
+- DfsrSyncInfo class Distributed File System Replication
+- DfsrSyncInfo class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -47,6 +49,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrSyncInfo class
@@ -59,34 +64,34 @@ This class provides statistical and operational information for active synchroni
 [Dynamic, Provider("DfsrMonitorProv")]
 class DfsrSyncInfo : CIM_LogicalElement
 {
-  string       Caption;
-  string       Description;
+  string       Caption;
+  string       Description;
   datetime REF InstallDate;
-  string       Name;
-  string       Status;
-  string       SyncGuid;
-  string       ConnectionGuid;
-  string       MemberGuid;
-  string       MemberName;
-  string       PartnerGuid;
-  string       PartnerName;
-  string       ReplicationGroupGuid;
-  string       ReplicationGroupName;
-  boolean      Inbound;
-  uint32       State;
-  uint32       InitiationReason;
-  datetime     StartTime;
-  datetime     EndTime;
-  uint32       UpdatesTransferred;
-  uint64       BytesTransferred;
-  uint32       UpdatesNotTransferred;
-  uint32       UpdatesToBeTransferred;
-  uint32       ConflictsGenerated;
-  uint32       TombstonesGenerated;
-  uint32       LastErrorCode;
-  uint32       LastErrorMessageId;
-  datetime     ForceReplicationEndTime;
-  uint32       ForceReplicationBandwidthlevel;
+  string       Name;
+  string       Status;
+  string       SyncGuid;
+  string       ConnectionGuid;
+  string       MemberGuid;
+  string       MemberName;
+  string       PartnerGuid;
+  string       PartnerName;
+  string       ReplicationGroupGuid;
+  string       ReplicationGroupName;
+  boolean      Inbound;
+  uint32       State;
+  uint32       InitiationReason;
+  datetime     StartTime;
+  datetime     EndTime;
+  uint32       UpdatesTransferred;
+  uint64       BytesTransferred;
+  uint32       UpdatesNotTransferred;
+  uint32       UpdatesToBeTransferred;
+  uint32       ConflictsGenerated;
+  uint32       TombstonesGenerated;
+  uint32       LastErrorCode;
+  uint32       LastErrorMessageId;
+  datetime     ForceReplicationEndTime;
+  uint32       ForceReplicationBandwidthlevel;
 };
 ```
 
@@ -771,9 +776,9 @@ The following state diagram illustrates the transitions between the synchronizat
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -790,9 +795,9 @@ The following state diagram illustrates the transitions between the synchronizat
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

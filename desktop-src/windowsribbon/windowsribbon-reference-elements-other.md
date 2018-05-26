@@ -1,7 +1,12 @@
 ---
 title: Others
 description: Reference documentation for supplemental markup elements in the Windows Ribbon framework.
-ms.assetid: '9f80d65b-4912-4b93-9374-25913f0def08'
+ms.assetid: 9f80d65b-4912-4b93-9374-25913f0def08
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Others
@@ -31,11 +36,11 @@ Reference documentation for supplemental markup elements in the Windows Ribbon f
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

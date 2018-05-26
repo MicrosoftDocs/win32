@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter P.'
-Robots: 'noindex, nofollow'
-ms.assetid: '2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a'
+Description: Contains definitions of security terms that begin with the letter P.
+Robots: noindex, nofollow
+ms.assetid: 2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a
 title: P
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # P

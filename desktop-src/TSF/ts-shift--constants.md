@@ -1,7 +1,7 @@
 ---
 title: TS\_SHIFT\_\ Constants
 description: The TS\_Shift\_\ constants are used by the IAnchor interface for manipulation of hidden text and character counting.
-ms.assetid: '93329238-f6e8-432e-9167-550a02b33b46'
+ms.assetid: 93329238-f6e8-432e-9167-550a02b33b46
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TS\_SHIFT\_\* Constants
@@ -36,9 +41,9 @@ The TS\_Shift\_\* constants are used by the **IAnchor** interface for manipulati
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
 | Header<br/>                   | <dl> <dt>Textstor.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Textstor.idl</dt> </dl> |
 
@@ -48,12 +53,12 @@ The TS\_Shift\_\* constants are used by the **IAnchor** interface for manipulati
 
 <dl> <dt>
 
-[IAnchor::ShiftRegion](ianchor-shiftregion.md)
+[IAnchor::ShiftRegion](/windows/win32/Textstor/nf-textstor-ianchor-shiftregion?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

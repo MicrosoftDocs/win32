@@ -1,7 +1,12 @@
 ---
 title: ActiveX Data Objects API and Scripts
 description: ActiveX Data Objects API and Scripts
-ms.assetid: '97d59c4d-bcc7-4c0a-9ece-cbff64bf3477'
+ms.assetid: 97d59c4d-bcc7-4c0a-9ece-cbff64bf3477
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveX Data Objects API and Scripts

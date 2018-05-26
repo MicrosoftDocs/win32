@@ -1,7 +1,12 @@
 ---
 title: EAP Peer Method Registry Values
 description: Specific registry values are required for EAP peer methods.
-ms.assetid: '16bdd6bf-9eab-40a8-a2d3-8942d2f5f37a'
+ms.assetid: 16bdd6bf-9eab-40a8-a2d3-8942d2f5f37a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP Peer Method Registry Values

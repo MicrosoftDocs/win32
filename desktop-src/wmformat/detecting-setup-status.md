@@ -1,8 +1,21 @@
 ---
 title: Detecting Setup Status
 description: Detecting Setup Status
-ms.assetid: 'd502a5d6-798b-4269-aef3-1412fc379819'
-keywords: ["Windows Media Format SDK,software redistribution", "Advanced Systems Format (ASF),software redistribution", "ASF (Advanced Systems Format),software redistribution", "Windows Media Format SDK,redistribution", "Advanced Systems Format (ASF),redistribution", "ASF (Advanced Systems Format),redistribution", "software redistribution,detecting setup status", "redistribution,detecting setup status"]
+ms.assetid: d502a5d6-798b-4269-aef3-1412fc379819
+keywords:
+- Windows Media Format SDK,software redistribution
+- Advanced Systems Format (ASF),software redistribution
+- ASF (Advanced Systems Format),software redistribution
+- Windows Media Format SDK,redistribution
+- Advanced Systems Format (ASF),redistribution
+- ASF (Advanced Systems Format),redistribution
+- software redistribution,detecting setup status
+- redistribution,detecting setup status
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Detecting Setup Status

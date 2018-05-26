@@ -1,14 +1,20 @@
 ---
 title: WaveReadLaneFirst function
 description: Returns the value of the expression for the active lane of the current wave with the smallest index.
-ms.assetid: '89CA4FD5-4573-42ED-88D3-01C79C69FF6F'
-keywords: ["WaveReadFirstLane function HLSL"]
+ms.assetid: 89CA4FD5-4573-42ED-88D3-01C79C69FF6F
+keywords:
+- WaveReadFirstLane function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveReadFirstLane
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveReadLaneFirst function

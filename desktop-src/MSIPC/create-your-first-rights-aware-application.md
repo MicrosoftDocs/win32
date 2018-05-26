@@ -4,10 +4,13 @@ description: This topic guides you through installing the developer tools.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'C827E6B8-8CF2-4C86-AF97-60D66851827E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: C827E6B8-8CF2-4C86-AF97-60D66851827E
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Install the SDK

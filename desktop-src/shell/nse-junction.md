@@ -1,6 +1,11 @@
 ---
-Description: 'The root of a namespace extension is normally displayed by Windows Explorer as a folder in both tree and folder views.'
-title: 'Specifying a Namespace Extension''s Location'
+Description: The root of a namespace extension is normally displayed by Windows Explorer as a folder in both tree and folder views.
+title: Specifying a Namespace Extensions Location
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying a Namespace Extension's Location
@@ -48,7 +53,7 @@ HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER
 
  
 
-Remote extensions must be initialized with [**IRemoteComputer**](iremotecomputer.md).
+Remote extensions must be initialized with [**IRemoteComputer**](/windows/win32/shobjidl_core/nn-shobjidl_core-iremotecomputer?branch=master).
 
 ## Using File System Folders as Junction Points
 
@@ -64,7 +69,7 @@ MyFolder.{Extension CLSID}
 Alternatively, you can define a conventionally named folder as a junction point by:
 
 -   Making the folder read-only.
--   Making the folder a system folder by calling [**PathMakeSystemFolder**](pathmakesystemfolder.md).
+-   Making the folder a system folder by calling [**PathMakeSystemFolder**](/windows/win32/Shlwapi/nf-shlwapi-pathmakesystemfoldera?branch=master).
 -   Placing a hidden Desktop.ini file in the folder that includes the extension's CLSID.
 
 Desktop.ini is a standard text file that can be added to any folder to customize certain aspects of the folder's behavior. For a general discussion of how to use this file, see [How to Customize Folders with Desktop.ini](how-to-customize-folders-with-desktop-ini.md). To define a folder as a junction point, the \[.ShellClassInfo\] section of Desktop.ini must contain the extension's CLSID as follows:
@@ -97,7 +102,7 @@ An alternative command string can be used to launch a view of an object within t
 
 
 
-The *objectname* parameter is the name of the object that is to be viewed. Windows Explorer converts the name to its corresponding PIDL and passes the PIDL to the new folder object's [**IPersistFolder::Initialize**](ipersistfolder-initialize.md) method.
+The *objectname* parameter is the name of the object that is to be viewed. Windows Explorer converts the name to its corresponding PIDL and passes the PIDL to the new folder object's [**IPersistFolder::Initialize**](/windows/win32/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize?branch=master) method.
 
 > [!Note]  
 > The CLSID string must be preceded by a pair of colons (::) or the command will fail. The slash-e (/e) flag used in the two sample command lines shown previously instructs Windows Explorer to display a tree view. The flag must be separated from the two colons by a comma. If you do not want a tree view, omit the /e flag and the comma.

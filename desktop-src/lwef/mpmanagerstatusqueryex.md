@@ -1,8 +1,9 @@
 ---
 title: MpManagerStatusQueryEx function
 description: Returns status information about various components of the malware protection manager.
-ms.assetid: '98088AB9-C7CF-46A1-B444-2C0EF882AA66'
-keywords: ["MpManagerStatusQueryEx function Legacy Windows Environment Features"]
+ms.assetid: 98088AB9-C7CF-46A1-B444-2C0EF882AA66
+keywords:
+- MpManagerStatusQueryEx function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpManagerStatusQueryEx function
@@ -22,9 +28,9 @@ Returns status information about various components of the malware protection ma
 
 ```C++
 HRESULT WINAPI MpManagerStatusQueryEx(
-  _In_  MPHANDLE       hMpHandle,
-  _In_  DWORD          dwFlag,
-  _Out_ PMPSTATUS_INFO pStatusInfo
+  _In_  MPHANDLE       hMpHandle,
+  _In_  DWORD          dwFlag,
+  _Out_ PMPSTATUS_INFO pStatusInfo
 );
 ```
 
@@ -59,7 +65,7 @@ Controls which query information is returned. Some information is expensive and 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -86,8 +92,8 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -106,9 +112,9 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 [**MPSTATUS\_INFO**](mpstatus-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

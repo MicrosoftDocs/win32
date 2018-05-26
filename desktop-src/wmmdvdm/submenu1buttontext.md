@@ -1,14 +1,20 @@
 ---
 title: Submenu1ButtonText element
-description: Specifies the text used for this menu style's \ 0034;Submenu1 \ 0034; button. This is usually the \ 0034;Scenes \ 0034; button.
-ms.assetid: 'bbc0b9b6-4420-4575-97ca-f763bbb1d8f9'
-keywords: ["Submenu1ButtonText element Windows Movie Maker and DVD Maker"]
+description: Specifies the text used for this menu styles \ 0034;Submenu1 \ 0034; button. This is usually the \ 0034;Scenes \ 0034; button.
+ms.assetid: bbc0b9b6-4420-4575-97ca-f763bbb1d8f9
+keywords:
+- Submenu1ButtonText element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Submenu1ButtonText
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Submenu1ButtonText element
@@ -49,7 +55,7 @@ This button can be used only on the main menu.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -67,9 +73,9 @@ This button can be used only on the main menu.
 [**Submenu2ButtonText Element**](submenu2buttontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

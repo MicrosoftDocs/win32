@@ -1,7 +1,12 @@
 ---
 title: Get Method
 description: Get Method
-ms.assetid: '749566ba-d29d-4c20-b90a-adb4a4dd333d'
+ms.assetid: 749566ba-d29d-4c20-b90a-adb4a4dd333d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Get Method
@@ -32,7 +37,7 @@ Retrieves specified animation data for the specified character.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -49,9 +54,9 @@ Animation or sound data retrieved with the **Get** method is stored in the brows
 [**Load method**](load-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: The Interface Definition Language (IDL) File
 description: An IDL file contains one or more interface definitions.
-ms.assetid: 'ca01766d-ec7f-4906-9927-0835aeda4981'
-keywords: ["IDL files RPC"]
+ms.assetid: ca01766d-ec7f-4906-9927-0835aeda4981
+keywords:
+- IDL files RPC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Interface Definition Language (IDL) File

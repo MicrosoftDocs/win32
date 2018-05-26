@@ -1,8 +1,32 @@
 ---
 title: DataItem Control Type
 description: This topic provides information about Microsoft UI Automation support for the DataItem control type.
-ms.assetid: 'def52fe7-9f05-4cd0-8a46-af4e2e3ba03e'
-keywords: ["UI Automation,support for DataItem control type", "UI Automation,DataItem control type", "UI Automation,tree structure for DataItem control type", "UI Automation,properties for DataItem control type", "UI Automation,control patterns for DataItem control type", "UI Automation,events for DataItem control type", "UI Automation,large lists and DataItem control type", "tree structures,DataItem control type", "properties,DataItem control type", "control patterns,DataItem control type", "events,DataItem control type", "large lists", "support for DataItem control type", "DataItem control type", "control types,tree structure for DataItem control type", "control types,control patterns for DataItem control type", "control types,large lists and DataItem control type", "control types,support for DataItem", "control types,DataItem"]
+ms.assetid: def52fe7-9f05-4cd0-8a46-af4e2e3ba03e
+keywords:
+- UI Automation,support for DataItem control type
+- UI Automation,DataItem control type
+- UI Automation,tree structure for DataItem control type
+- UI Automation,properties for DataItem control type
+- UI Automation,control patterns for DataItem control type
+- UI Automation,events for DataItem control type
+- UI Automation,large lists and DataItem control type
+- tree structures,DataItem control type
+- properties,DataItem control type
+- control patterns,DataItem control type
+- events,DataItem control type
+- large lists
+- support for DataItem control type
+- DataItem control type
+- control types,tree structure for DataItem control type
+- control types,control patterns for DataItem control type
+- control types,large lists and DataItem control type
+- control types,support for DataItem
+- control types,DataItem
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DataItem Control Type
@@ -97,13 +121,13 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                                   | Support | Notes                                                                                                                                                                                                                 |
 |-------------------------------------------------------------------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IExpandCollapseProvider**](uiauto-iexpandcollapseprovider.md) | Depends | If the data item can be expanded or collapsed to show and hide information, the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern must be supported.                                            |
-| [**IGridItemProvider**](uiauto-igriditemprovider.md)             | Depends | Data items will support the [GridItem](uiauto-implementinggriditem.md) control pattern when a collection of data items is available within a container that can be spatially navigated item-to-item.                 |
-| [**IScrollItemProvider**](uiauto-iscrollitemprovider.md)         | Depends | All data items support the ability to be scrolled into view with the [ScrollItem](uiauto-implementingscrollitem.md) control pattern when their data container has more items than can fit on the screen.             |
-| [**ISelectionItemProvider**](uiauto-iselectionitemprovider.md)   | Depends | The ability to select the data items depends on the content.                                                                                                                                                          |
-| [**ITableItemProvider**](uiauto-itableitemprovider.md)           | Depends | If the data item is contained within a [DataGrid](uiauto-supportdatagridcontroltype.md) control type that has a header element, it should support the [TableItem](uiauto-implementingtableitem.md) control pattern. |
-| [**IToggleProvider**](uiauto-itoggleprovider.md)                 | Depends | If the data item contains a state that can be cycled through, it should support the [Toggle](uiauto-implementingtoggle.md) control pattern.                                                                          |
-| [**IValueProvider**](uiauto-ivalueprovider.md)                   | Depends | If the data item's primary text is editable, the [Value](uiauto-implementingvalue.md) control pattern must be supported.                                                                                             |
+| [**IExpandCollapseProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider?branch=master) | Depends | If the data item can be expanded or collapsed to show and hide information, the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern must be supported.                                            |
+| [**IGridItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-igriditemprovider?branch=master)             | Depends | Data items will support the [GridItem](uiauto-implementinggriditem.md) control pattern when a collection of data items is available within a container that can be spatially navigated item-to-item.                 |
+| [**IScrollItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iscrollitemprovider?branch=master)         | Depends | All data items support the ability to be scrolled into view with the [ScrollItem](uiauto-implementingscrollitem.md) control pattern when their data container has more items than can fit on the screen.             |
+| [**ISelectionItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider?branch=master)   | Depends | The ability to select the data items depends on the content.                                                                                                                                                          |
+| [**ITableItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableitemprovider?branch=master)           | Depends | If the data item is contained within a [DataGrid](uiauto-supportdatagridcontroltype.md) control type that has a header element, it should support the [TableItem](uiauto-implementingtableitem.md) control pattern. |
+| [**IToggleProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itoggleprovider?branch=master)                 | Depends | If the data item contains a state that can be cycled through, it should support the [Toggle](uiauto-implementingtoggle.md) control pattern.                                                                          |
+| [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master)                   | Depends | If the data item's primary text is editable, the [Value](uiauto-implementingvalue.md) control pattern must be supported.                                                                                             |
 
 
 
@@ -113,7 +137,7 @@ The following table lists the UI Automation control patterns required to be supp
 
 Because large lists are often virtualized within UI frameworks to assist in performance, a UI Automation client cannot use the UI Automation query feature to search the contents of the full tree in the same way that it can in other item containers. A client should scroll the item into view (or expand the control to show all available options) prior to accessing the full set of information from the data item.
 
-When calling [**SetFocus**](uiauto-iuiautomationelement-setfocus.md) on the UI Automation element for the data item, Microsoft Windows Explorer returns successfully and causes focus to be set to the Edit control within the data item subtree.
+When calling [**SetFocus**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-setfocus?branch=master) on the UI Automation element for the data item, Microsoft Windows Explorer returns successfully and causes focus to be set to the Edit control within the data item subtree.
 
 ## Required Events
 

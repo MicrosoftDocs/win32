@@ -1,7 +1,12 @@
 ---
-Description: 'The COARefTime class converts reference times between seconds and 100-nanosecond units.'
-ms.assetid: '724420fc-9252-468f-9516-174be0a82999'
+Description: The COARefTime class converts reference times between seconds and 100-nanosecond units.
+ms.assetid: 724420fc-9252-468f-9516-174be0a82999
 title: COARefTime class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COARefTime class
@@ -35,15 +40,15 @@ Filters can use the `COARefTime` class to convert between the two formats. This 
 | [**operator &lt;=**](coareftime-operator-lteq.md)      | Tests if one reference time is less than or equal to another.         |
 | [**operator &gt;=**](coareftime-operator-gteq.md)      | Tests if one reference time is greater than or equal to another.      |
 | [**operator +**](coareftime-operator-plus.md)          | Adds two reference times.                                             |
-| [**operator –**](coareftime-operator-minus.md)         | Subtracts one reference time from another.                            |
+| [**operator  **](coareftime-operator-minus.md)         | Subtracts one reference time from another.                            |
 | [**operator +=**](coareftime-operator-plus-assign.md)  | Adds two reference times, and assigns the result to this object.      |
-| [**operator –=**](coareftime-operator-minus-assign.md) | Subtracts two reference times, and assigns the result to this object. |
+| [**operator  =**](coareftime-operator-minus-assign.md) | Subtracts two reference times, and assigns the result to this object. |
 | [**operator \***](coareftime-operator-mult.md)         | Multiplies a reference time by a value.                               |
 | [**operator /**](coareftime-operator-div.md)           | Divides a reference time by a value.                                  |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -56,9 +61,9 @@ Filters can use the `COARefTime` class to convert between the two formats. This 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

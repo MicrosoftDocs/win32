@@ -2,13 +2,16 @@
 title: AddByAppServerSGGpo method of the PS\_DAAppServer class
 description: This cmdlet is not applicable when DirectAccess is deployed only for the management of remote clients.
 audience: developer
-ms.assetid: 'fc828e53-ebc3-489b-a4bc-5fbaeacca1a4'
-ms.prod: 'windows-server-dev'
+ms.assetid: fc828e53-ebc3-489b-a4bc-5fbaeacca1a4
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByAppServerSGGpo method", "AddByAppServerSGGpo method, PS_DAAppServer class", "PS_DAAppServer class, AddByAppServerSGGpo method"]
+keywords:
+- AddByAppServerSGGpo method
+- AddByAppServerSGGpo method, PS_DAAppServer class
+- PS_DAAppServer class, AddByAppServerSGGpo method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByAppServerSGGpo method of the PS\_DAAppServer class
@@ -34,11 +40,11 @@ This cmdlet is not applicable when DirectAccess is deployed only for the managem
 
 ```mof
 uint32 AddByAppServerSGGpo(
-  [in]  string      SecurityGroupNameList[],
-  [in]  string      GpoName[],
-  [in]  string      ComputerName,
-  [in]  boolean     PassThru,
-  [out] DAAppServer cmdletOutput
+  [in]  string      SecurityGroupNameList[],
+  [in]  string      GpoName[],
+  [in]  string      ComputerName,
+  [in]  boolean     PassThru,
+  [out] DAAppServer cmdletOutput
 );
 ```
 
@@ -90,7 +96,7 @@ The entire app server policy object is outputted. Consists of the following: a. 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -104,9 +110,9 @@ The entire app server policy object is outputted. Consists of the following: a. 
 [**PS\_DAAppServer**](ps-daappserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

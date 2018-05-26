@@ -1,7 +1,12 @@
 ---
-Description: 'The StillOff event is sent when the StillOff command has been enabled or disabled.'
-ms.assetid: '6c419a3b-482a-4b1b-afea-6cbf9373c5b9'
+Description: The StillOff event is sent when the StillOff command has been enabled or disabled.
+ms.assetid: 6c419a3b-482a-4b1b-afea-6cbf9373c5b9
 title: StillOff
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StillOff

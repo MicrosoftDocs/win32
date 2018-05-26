@@ -1,8 +1,11 @@
 ---
 title: IMessenger2 MyGroups property
 description: Retrieves the Group list contained in the Messenger object. The retrieved list is a MessengerGroups collection object that can be manipulated with the IMessengerGroups interface.
-ms.assetid: '3b556931-8f5f-4a79-81b7-572f721d3cc1'
-keywords: ["MyGroups property Windows Messenger", "MyGroups property Windows Messenger , IMessenger2 interface", "IMessenger2 interface Windows Messenger , MyGroups property"]
+ms.assetid: 3b556931-8f5f-4a79-81b7-572f721d3cc1
+keywords:
+- MyGroups property Windows Messenger
+- MyGroups property Windows Messenger , IMessenger2 interface
+- IMessenger2 interface Windows Messenger , MyGroups property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger2::MyGroups property
 
-\[**MyGroups** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MyGroups** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves the Group list contained in the [**Messenger**](im-messenger.md) object. The retrieved list is a [**MessengerGroups**](im-messengergroups.md) collection object that can be manipulated with the [**IMessengerGroups**](im-imessengergroups.md) interface.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MyGroups(
-  [out, retval] IDispatch **ppMGroups
+  [out, retval] IDispatch **ppMGroups
 );
 ```
 
@@ -54,7 +62,7 @@ Returns one of the following values.
 
 ## Remarks
 
-Some services, such as Microsoft Exchange Instant Messaging Service (IM), do not support groups. The use of this property on these services will return the error **MSGR\_E\_GROUPS\_NOT\_ENABLED**.
+Some services, such as Microsoft Exchange Instant Messaging Service (IM), do not support groups. The use of this property on these services will return the error **MSGR\_E\_GROUPS\_NOT\_ENABLED**.
 
 *ppMGroups* should be released when it is no longer needed. Retrieved lists can potentially have zero members in their collection.
 
@@ -63,7 +71,7 @@ If this property is called while the client is not signed in, the HRESULT will b
 > [!Note]  
 > This property is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -71,8 +79,8 @@ If this property is called while the client is not signed in, the HRESULT will b
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -89,9 +97,9 @@ If this property is called while the client is not signed in, the HRESULT will b
 [**IMessengerGroups**](im-imessengergroups.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

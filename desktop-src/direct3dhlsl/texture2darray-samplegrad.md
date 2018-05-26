@@ -1,12 +1,18 @@
 ---
 title: Texture2DArray SampleGrad methods
 description: Samples a Texture2DArray using a gradient to influence the way the sample location is calculated.
-ms.assetid: '608223A1-CF76-4FB6-B883-DC7A704BEA9F'
-keywords: ["SampleGrad methods HLSL"]
+ms.assetid: 608223A1-CF76-4FB6-B883-DC7A704BEA9F
+keywords:
+- SampleGrad methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DArray::SampleGrad methods
@@ -32,9 +38,9 @@ Samples a [**Texture2DArray**](sm5-object-texture2darray.md) using a gradient to
 [Texture2DArray](sm5-object-texture2darray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

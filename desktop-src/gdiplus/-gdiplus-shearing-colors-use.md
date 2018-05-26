@@ -1,14 +1,19 @@
 ---
-Description: 'Shearing increases or decreases a color component by an amount proportional to another color component.'
-ms.assetid: '12f83f35-33f1-4ac9-b45d-f8700e54053a'
+Description: Shearing increases or decreases a color component by an amount proportional to another color component.
+ms.assetid: 12f83f35-33f1-4ac9-b45d-f8700e54053a
 title: Shearing Colors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shearing Colors
 
 Shearing increases or decreases a color component by an amount proportional to another color component. For example, consider the transformation where the red component is increased by one half the value of the blue component. Under such a transformation, the color (0.2, 0.5, 1) would become (0.7, 0.5, 1). The new red component is 0.2 + (1/2)(1) = 0.7.
 
-The following example constructs an [**Image**](-gdiplus-class-image-class.md) object from the file ColorBars4.bmp. Then the code applies the shearing transformation described in the preceding paragraph to each pixel in the image.
+The following example constructs an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object from the file ColorBars4.bmp. Then the code applies the shearing transformation described in the preceding paragraph to each pixel in the image.
 
 
 ```

@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies the file extension of the file-based item, including the leading period.'
-ms.assetid: 'b72c695e-bdbd-471d-b902-9e30a62facd4'
-title: 'System.FileExtension'
+Description: Identifies the file extension of the file-based item, including the leading period.
+ms.assetid: b72c695e-bdbd-471d-b902-9e30a62facd4
+title: System.FileExtension
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FileExtension

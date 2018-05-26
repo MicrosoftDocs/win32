@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves a precomputed radiance transfer (PRT) buffer to disk.'
-ms.assetid: '1fca69bd-6729-45af-981f-b7480c741bc2'
+---
+Description: Saves a precomputed radiance transfer (PRT) buffer to disk.
+ms.assetid: 1fca69bd-6729-45af-981f-b7480c741bc2
 title: D3DXSavePRTBufferToFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSavePRTBufferToFile function

@@ -1,7 +1,12 @@
 ---
 title: The Standalone Application
 description: This standalone application, which consists of a call to a single function, forms the basis of our distributed application.
-ms.assetid: '640f5d01-84c8-4fe8-9dae-f4d55cc6f06b'
+ms.assetid: 640f5d01-84c8-4fe8-9dae-f4d55cc6f06b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Standalone Application

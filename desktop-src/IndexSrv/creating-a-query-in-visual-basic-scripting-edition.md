@@ -1,7 +1,12 @@
 ---
 title: Creating a Query in Visual Basic Scripting Edition
 description: Creating a Query in Visual Basic Scripting Edition
-ms.assetid: 'e7d87442-83c9-4a67-bc75-674423bbcd4a'
+ms.assetid: e7d87442-83c9-4a67-bc75-674423bbcd4a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Query in Visual Basic Scripting Edition

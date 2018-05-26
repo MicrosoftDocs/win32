@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a CMC certificate request to archive a private key on a certification authority (CA).'
-ms.assetid: 'b063989a-fe92-4c2c-9d66-8a14bc830f6b'
+Description: Creates a CMC certificate request to archive a private key on a certification authority (CA).
+ms.assetid: b063989a-fe92-4c2c-9d66-8a14bc830f6b
 title: enrollKeyArchivalCMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # enrollKeyArchivalCMC
@@ -17,11 +22,11 @@ When you install the Microsoft Windows Software Development Kit (SDK), the sampl
 The enrollKeyArchivalCMC sample:
 
 1.  Processes the command line arguments. The command line should contain the name of the certificate template to use for enrollment.
-2.  Creates an [**IX509CertificateRequestCmc**](ix509certificaterequestcmc.md) certificate request object and initializes it for an end-user context by using the template name.
-3.  Sets the [**ArchivePrivateKey**](ix509certificaterequestcmc-archiveprivatekey-property.md) property on the CMC request.
+2.  Creates an [**IX509CertificateRequestCmc**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestcmc?branch=master) certificate request object and initializes it for an end-user context by using the template name.
+3.  Sets the [**ArchivePrivateKey**](/windows/win32/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_archiveprivatekey?branch=master) property on the CMC request.
 4.  Creates an [**ICertConfig**](https://msdn.microsoft.com/library/windows/desktop/aa383268) object and uses it to retrieve a string that contains the CA configuration.
 5.  Creates a CryptoAPI [**ICertRequest2**](https://msdn.microsoft.com/library/windows/desktop/aa385041) object and uses it to retrieve the exchange certificate for the CA.
-6.  Creates an [**IX509Enrollment**](ix509enrollment.md) object, initializes it by using the CMC request, creates a base64 encoded string that contains the key archival request, and submits it to the CA.
+6.  Creates an [**IX509Enrollment**](/windows/win32/CertEnroll/nn-certenroll-ix509enrollment?branch=master) object, initializes it by using the CMC request, creates a base64 encoded string that contains the key archival request, and submits it to the CA.
 
 ## Related topics
 

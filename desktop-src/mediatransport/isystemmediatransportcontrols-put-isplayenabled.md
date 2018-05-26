@@ -1,8 +1,11 @@
 ---
 title: ISystemMediaTransportControls put\_IsPlayEnabled method
 description: Sets a value that specifies if the play button should be enabled.
-ms.assetid: '09EBF9E7-555E-4C47-A4CC-DF5C19DE13B2'
-keywords: ["put_IsPlayEnabled method", "put_IsPlayEnabled method, ISystemMediaTransportControls interface", "ISystemMediaTransportControls interface, put_IsPlayEnabled method"]
+ms.assetid: 09EBF9E7-555E-4C47-A4CC-DF5C19DE13B2
+keywords:
+- put_IsPlayEnabled method
+- put_IsPlayEnabled method, ISystemMediaTransportControls interface
+- ISystemMediaTransportControls interface, put_IsPlayEnabled method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Media.SystemMediaTransportControls.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISystemMediaTransportControls::put\_IsPlayEnabled method
@@ -22,7 +30,7 @@ Sets a value that specifies if the play button should be enabled.
 
 ```C++
 HRESULT put_IsPlayEnabled(
-   boolean value
+   boolean value
 );
 ```
 
@@ -53,8 +61,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Windows.Media.SystemMediaTransportControls.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows.Media.SystemMediaTransportControls.idl</dt> </dl> |
 
@@ -67,9 +75,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ISystemMediaTransportControls**](isystemmediatransportcontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

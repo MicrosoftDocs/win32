@@ -1,8 +1,15 @@
 ---
 title: Smart Card API
 description: Use the Smart Card API to write smart card programming software for Windows.
-ms.assetid: '695dc300-77a2-4c22-bff9-72480378f9da'
-keywords: ["Smart Card API Smart Card", "Smart Card API Smart Card , home page"]
+ms.assetid: 695dc300-77a2-4c22-bff9-72480378f9da
+keywords:
+- Smart Card API Smart Card
+- Smart Card API Smart Card , home page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Smart Card API
@@ -17,7 +24,7 @@ Smart card vendors can write smart card minidrivers to present a consistent inte
 
 ## Developer audience
 
-The Smart Card API is intended for smart card vendors who develop interchangeable plug-in components in which smart card–specific implementation details are handled entirely within vendor-supplied smart card minidrivers, and the appropriately abstracted interface is presented to the CSP or KSP.
+The Smart Card API is intended for smart card vendors who develop interchangeable plug-in components in which smart card specific implementation details are handled entirely within vendor-supplied smart card minidrivers, and the appropriately abstracted interface is presented to the CSP or KSP.
 
 ## Run-time requirements
 
@@ -35,11 +42,11 @@ For information about run-time requirements for a particular programming element
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

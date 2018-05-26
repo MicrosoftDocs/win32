@@ -1,8 +1,10 @@
 ---
 title: MDM\_EnterpriseModernAppManagement\_AppManagement01 class
 description: The MDM\_EnterpriseModernAppManagement\_AppManagement01 class starts the Windows Update scan and reports the last scan error.
-ms.assetid: 'f579a7c9-2e98-4e34-b45b-db8a4d553c57'
-keywords: ["MDM_EnterpriseModernAppManagement_AppManagement01 class", "MDM_EnterpriseModernAppManagement_AppManagement01 class, described"]
+ms.assetid: f579a7c9-2e98-4e34-b45b-db8a4d553c57
+keywords:
+- MDM_EnterpriseModernAppManagement_AppManagement01 class
+- MDM_EnterpriseModernAppManagement_AppManagement01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_EnterpriseModernAppManagement\_AppManagement01 class
@@ -58,7 +65,7 @@ The **MDM\_EnterpriseModernAppManagement\_AppManagement01** class has these meth
 
 
 
- 
+ 
 
 ### Properties
 
@@ -148,7 +155,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -163,9 +170,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

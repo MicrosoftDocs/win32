@@ -1,8 +1,20 @@
 ---
 title: Creating a User Interface Plug-in for Windows Media Player 10 Mobile
 description: Creating a User Interface Plug-in for Windows Media Player 10 Mobile
-ms.assetid: '050418b7-d99c-49ab-8ce6-6511b194ffe6'
-keywords: ["Windows Media Player Mobile,plug-ins", "Windows Media Player Mobile,user interface plug-ins", "Windows Media Player Mobile plug-ins", "plug-ins,user interface", "plug-ins,Windows Media Player Mobile", "user interface plug-ins,Windows Media Player Mobile", "UI plug-ins,Windows Media Player Mobile"]
+ms.assetid: 050418b7-d99c-49ab-8ce6-6511b194ffe6
+keywords:
+- Windows Media Player Mobile,plug-ins
+- Windows Media Player Mobile,user interface plug-ins
+- Windows Media Player Mobile plug-ins
+- plug-ins,user interface
+- plug-ins,Windows Media Player Mobile
+- user interface plug-ins,Windows Media Player Mobile
+- UI plug-ins,Windows Media Player Mobile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a User Interface Plug-in for Windows Media Player 10 Mobile

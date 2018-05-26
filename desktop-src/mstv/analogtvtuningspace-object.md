@@ -1,7 +1,12 @@
 ---
 title: AnalogTVTuningSpace Object
 description: AnalogTVTuningSpace Object
-ms.assetid: 'f256a003-147a-4b0b-abc9-af386dcbb3c3'
+ms.assetid: f256a003-147a-4b0b-abc9-af386dcbb3c3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AnalogTVTuningSpace Object
@@ -12,7 +17,7 @@ The **AnalogTVTuningSpace** object represents a tuning space for analog televisi
 
 |                           |                                                      |
 |---------------------------|------------------------------------------------------|
-| Interfaces                | [**IAnalogTVTuningSpace**](ianalogtvtuningspace.md) |
+| Interfaces                | [**IAnalogTVTuningSpace**](/windows/previous-versions/tuner/nn-tuner-ianalogtvtuningspace?branch=master) |
 | Outgoing Event Interfaces | None                                                 |
 | CLSID                     | CLSID\_AnalogTVTuningSpace                           |
 
@@ -26,7 +31,7 @@ The Microsoft Unified Tuning Model supports analog tuning spaces, but there are 
 
 Applications should get this object from the [SystemTuningSpaces](systemtuningspaces-object.md) collection; the CLSID is provided for clients that wish to create custom tuning spaces.
 
-Tune request objects created by this tuning space support the [**ITuneRequest**](itunerequest.md) and [**IChannelTuneRequest**](ichanneltunerequest.md) interfaces.
+Tune request objects created by this tuning space support the [**ITuneRequest**](/windows/previous-versions/tuner/nn-tuner-itunerequest?branch=master) and [**IChannelTuneRequest**](/windows/previous-versions/tuner/nn-tuner-ichanneltunerequest?branch=master) interfaces.
 
 ## Related topics
 

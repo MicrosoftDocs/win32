@@ -1,7 +1,12 @@
 ---
 title: MinDiskSpaceToLeave
 description: MinDiskSpaceToLeave
-ms.assetid: 'ff5176be-a085-441e-8c61-1332c9fc48ad'
+ms.assetid: ff5176be-a085-441e-8c61-1332c9fc48ad
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MinDiskSpaceToLeave

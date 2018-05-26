@@ -4,12 +4,15 @@ description: Procedure to obtain class instances of the Network Load Balancing p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '68b681f5-c6ee-4457-847c-bf3df6ec4963'
-ms.prod: 'windows-server-dev'
+ms.assetid: 68b681f5-c6ee-4457-847c-bf3df6ec4963
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Obtaining Class Instances

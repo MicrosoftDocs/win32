@@ -1,8 +1,18 @@
 ---
 title: MCIWnd Messages
 description: MCIWnd Messages
-ms.assetid: '03352b8f-7483-483f-a2bc-af323ab3b9e6'
-keywords: ["MCI (Media Control Interface),MCIWnd messages", "MCIWnd window class,messages", "MCIWnd window,messages", "MCIWnd reference,messages", "MCIWnd messages"]
+ms.assetid: 03352b8f-7483-483f-a2bc-af323ab3b9e6
+keywords:
+- MCI (Media Control Interface),MCIWnd messages
+- MCIWnd window class,messages
+- MCIWnd window,messages
+- MCIWnd reference,messages
+- MCIWnd messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWnd Messages

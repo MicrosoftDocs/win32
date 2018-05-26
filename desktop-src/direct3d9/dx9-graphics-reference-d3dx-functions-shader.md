@@ -1,7 +1,12 @@
 ---
-Description: 'D3DX supplies the following shader functions.'
-ms.assetid: '541e8988-db05-4e25-84f1-c6799f31e442'
+Description: D3DX supplies the following shader functions.
+ms.assetid: 541e8988-db05-4e25-84f1-c6799f31e442
 title: Shader Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Functions

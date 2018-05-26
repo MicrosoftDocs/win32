@@ -1,14 +1,17 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: 'noindex, nofollow'
+Robots: noindex, nofollow
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '223cfe51-8b1d-4965-b7b1-acc3cd5619f0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 223cfe51-8b1d-4965-b7b1-acc3cd5619f0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: S
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # S
@@ -83,7 +86,7 @@ A WMI class that supports a single instance.
 <span id="wmi.gloss_sink"></span><span id="WMI.GLOSS_SINK"></span>**sink**
 </dt> <dd>
 
-A COM object that acts as the physical delivery destination for the results of an asynchronous operation or an event notification. A sink implemented by a [*permanent consumer*](gloss-p.md#wmi-gloss-permanent-consumer) supports the [**IWbemUnboundObjectSink**](iwbemunboundobjectsink.md) interface. A sink implemented by a [*temporary consumer*](gloss-t.md#wmi-gloss-temporary-consumer) or applications making asynchronous calls supports the [**IWbemObjectSink**](iwbemobjectsink.md) interface.
+A COM object that acts as the physical delivery destination for the results of an asynchronous operation or an event notification. A sink implemented by a [*permanent consumer*](gloss-p.md#wmi-gloss-permanent-consumer) supports the [**IWbemUnboundObjectSink**](/windows/win32/Wbemprov/nn-wbemprov-iwbemunboundobjectsink?branch=master) interface. A sink implemented by a [*temporary consumer*](gloss-t.md#wmi-gloss-temporary-consumer) or applications making asynchronous calls supports the [**IWbemObjectSink**](iwbemobjectsink.md) interface.
 
 Scripting clients can use the [**SWbemSink**](swbemsink.md) object and events, such as [**OnObjectReady**](swbemsink-onobjectready.md), to receive callbacks resulting from asynchronous calls.
 

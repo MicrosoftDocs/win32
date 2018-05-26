@@ -1,13 +1,16 @@
 ---
-Description: 'Specify information about the performance object to which the WMI performance counter class is mapped.'
+Description: Specify information about the performance object to which the WMI performance counter class is mapped.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7b8b7f00-95d8-4c1e-8638-157d0f4c7c32'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7b8b7f00-95d8-4c1e-8638-157d0f4c7c32
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Class Qualifiers for Performance Counter Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Class Qualifiers for Performance Counter Classes

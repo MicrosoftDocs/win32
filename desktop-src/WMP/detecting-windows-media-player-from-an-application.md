@@ -1,8 +1,16 @@
 ---
 title: Detecting Windows Media Player from an Application
 description: Detecting Windows Media Player from an Application
-ms.assetid: '3cf8a619-3b7e-45af-af6b-4711a45c7e07'
-keywords: ["Windows Media Player,detecting from applications", "detecting Windows Media Player from applications", "registry,detecting Windows Media Player from applications"]
+ms.assetid: 3cf8a619-3b7e-45af-af6b-4711a45c7e07
+keywords:
+- Windows Media Player,detecting from applications
+- detecting Windows Media Player from applications
+- registry,detecting Windows Media Player from applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Detecting Windows Media Player from an Application

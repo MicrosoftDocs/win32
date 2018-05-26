@@ -1,7 +1,12 @@
 ---
 Description: Tablet PC Appendices
-ms.assetid: '640b3dd1-e9b0-4448-bc1e-7bb245ea554d'
+ms.assetid: 640b3dd1-e9b0-4448-bc1e-7bb245ea554d
 title: Tablet PC Appendices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tablet PC Appendices

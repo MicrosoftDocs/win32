@@ -1,14 +1,20 @@
 ---
 title: WM/MediaStationName Attribute
 description: The WM/StationName attribute specifies the station name on which a given show was first broadcast.
-ms.assetid: '4251dfbc-d24d-444b-8a43-a47473f8339f'
-keywords: ["WM/MediaStationName Attribute Windows Media Player"]
+ms.assetid: 4251dfbc-d24d-444b-8a43-a47473f8339f
+keywords:
+- WM/MediaStationName Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/MediaStationName
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaStationName Attribute
@@ -42,9 +48,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

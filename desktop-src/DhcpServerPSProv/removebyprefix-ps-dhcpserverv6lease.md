@@ -4,13 +4,16 @@ description: Deletes one or more IPv6 lease records from the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '76964462-c9a0-4f33-9d28-4cf7ff3aae23'
-ms.prod: 'windows-server-dev'
+ms.assetid: 76964462-c9a0-4f33-9d28-4cf7ff3aae23
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveByPrefix method", "RemoveByPrefix method, PS_DhcpServerv6Lease class", "PS_DhcpServerv6Lease class, RemoveByPrefix method"]
+keywords:
+- RemoveByPrefix method
+- RemoveByPrefix method, PS_DhcpServerv6Lease class
+- PS_DhcpServerv6Lease class, RemoveByPrefix method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveByPrefix method of the PS\_DhcpServerv6Lease class
@@ -30,10 +36,10 @@ Deletes one or more IPv6 lease records from the server.
 
 ```mof
 uint32 RemoveByPrefix(
-  [in]  string            ComputerName,
-  [in]  boolean           PassThru,
-  [in]  string            Prefix,
-  [out] DhcpServerv6Lease cmdletOutput[]
+  [in]  string            ComputerName,
+  [in]  boolean           PassThru,
+  [in]  string            Prefix,
+  [out] DhcpServerv6Lease cmdletOutput[]
 );
 ```
 
@@ -78,7 +84,7 @@ An embedded instance of the [**DhcpServerv6Lease**](dhcpserverv6lease.md) class.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -92,9 +98,9 @@ An embedded instance of the [**DhcpServerv6Lease**](dhcpserverv6lease.md) class.
 [**PS\_DhcpServerv6Lease**](ps-dhcpserverv6lease.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

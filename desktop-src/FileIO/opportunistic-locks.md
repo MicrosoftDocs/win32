@@ -1,7 +1,12 @@
 ---
-Description: 'An opportunistic lock (also called an oplock) is a lock placed by a client on a file residing on a server.'
-ms.assetid: '0356c167-2973-4820-85a9-bc14abcbf163'
+Description: An opportunistic lock (also called an oplock) is a lock placed by a client on a file residing on a server.
+ms.assetid: 0356c167-2973-4820-85a9-bc14abcbf163
 title: Opportunistic Locks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opportunistic Locks
@@ -39,17 +44,17 @@ The following topics identify opportunistic locks.
 | [Types of Opportunistic Locks](types-of-opportunistic-locks.md)<br/>                                         | Describes level 1, level 2, batch, and filter opportunistic locks.<br/>                                                                                                                                                                                                                     |
 | [Breaking Opportunistic Locks](breaking-opportunistic-locks.md)<br/>                                         | Breaking an opportunistic lock is the process of degrading the lock that one client has on a file so that another client can open the file, with or without an opportunistic lock.<br/>                                                                                                     |
 | [Opportunistic Lock Examples](opportunistic-lock-examples.md)<br/>                                           | Diagrams of network-traffic views for a level 1 opportunistic lock, a batch opportunistic lock, and a filter opportunistic lock.<br/>                                                                                                                                                       |
-| [Opportunistic Lock Operations](opportunistic-lock-operations.md)<br/>                                       | If an application requests opportunistic locks, all files for which it requests locks must be opened for overlapped (asynchronous) input and output by using the [**CreateFile**](createfile.md) function with the **FILE\_FLAG\_OVERLAPPED** flag.<br/>                                   |
+| [Opportunistic Lock Operations](opportunistic-lock-operations.md)<br/>                                       | If an application requests opportunistic locks, all files for which it requests locks must be opened for overlapped (asynchronous) input and output by using the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function with the **FILE\_FLAG\_OVERLAPPED** flag.<br/>                                   |
 
 
 
- 
+ 
 
 For additional information about opportunistic locks, see the CIFS Internet Draft document. Any discrepancies between this topic and the current CIFS Internet Draft should be resolved in favor of the CIFS Internet Draft.
 
- 
+ 
 
- 
+ 
 
 
 

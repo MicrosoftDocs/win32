@@ -1,8 +1,14 @@
 ---
 title: Virtual Server Enumerations
 description: Virtual Server Enumerations
-ms.assetid: '1d9ba7db-d878-4a3b-9fe4-f7211818c937'
-keywords: ["Virtual Server COM Interface Virtual Server , enumerations"]
+ms.assetid: 1d9ba7db-d878-4a3b-9fe4-f7211818c937
+keywords:
+- Virtual Server COM Interface Virtual Server , enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual Server Enumerations

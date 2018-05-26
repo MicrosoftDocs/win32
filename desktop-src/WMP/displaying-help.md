@@ -1,8 +1,25 @@
 ---
 title: Displaying Help
 description: Displaying Help
-ms.assetid: '9fc1b7a8-dde7-474c-931d-066714ba3410'
-keywords: ["Windows Media Player online stores,displaying Help", "online stores,displaying Help", "type 1 online stores,displaying Help", "Windows Media Player online stores,Help", "online stores,Help", "type 1 online stores,Help", "Windows Media Player online stores,catcomp.exe", "online stores,catcomp.exe", "type 1 online stores,catcomp.exe", "catcomp.exe", "Help for type 1 online stores", "displaying Help"]
+ms.assetid: 9fc1b7a8-dde7-474c-931d-066714ba3410
+keywords:
+- Windows Media Player online stores,displaying Help
+- online stores,displaying Help
+- type 1 online stores,displaying Help
+- Windows Media Player online stores,Help
+- online stores,Help
+- type 1 online stores,Help
+- Windows Media Player online stores,catcomp.exe
+- online stores,catcomp.exe
+- type 1 online stores,catcomp.exe
+- catcomp.exe
+- Help for type 1 online stores
+- displaying Help
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying Help

@@ -1,7 +1,12 @@
 ---
-Description: 'To add installer functionality to your application, you can use the Windows Installer database tables and the installer database functions. The topics in this section describe each of the database functions and database tables.'
-ms.assetid: '95a8125b-f297-49aa-8424-d568d786ee97'
+Description: To add installer functionality to your application, you can use the Windows Installer database tables and the installer database functions. The topics in this section describe each of the database functions and database tables.
+ms.assetid: 95a8125b-f297-49aa-8424-d568d786ee97
 title: Installer Database Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer Database Reference

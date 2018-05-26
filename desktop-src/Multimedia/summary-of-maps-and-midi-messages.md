@@ -1,8 +1,21 @@
 ---
 title: Summary of Maps and MIDI Messages
 description: Summary of Maps and MIDI Messages
-ms.assetid: 'cd0ec7b0-2ba1-4e75-b85c-f5b95ac9dfeb'
-keywords: ["Musical Instrument Digital Interface (MIDI),MIDI Mapper", "MIDI (Musical Instrument Digital Interface),MIDI Mapper", "MIDI Mapper,channel map", "MIDI Mapper,patch maps", "MIDI Mapper,key maps", "channel map", "patch maps", "key maps"]
+ms.assetid: cd0ec7b0-2ba1-4e75-b85c-f5b95ac9dfeb
+keywords:
+- Musical Instrument Digital Interface (MIDI),MIDI Mapper
+- MIDI (Musical Instrument Digital Interface),MIDI Mapper
+- MIDI Mapper,channel map
+- MIDI Mapper,patch maps
+- MIDI Mapper,key maps
+- channel map
+- patch maps
+- key maps
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Summary of Maps and MIDI Messages

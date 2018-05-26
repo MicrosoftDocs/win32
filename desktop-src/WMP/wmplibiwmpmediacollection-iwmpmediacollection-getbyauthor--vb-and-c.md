@@ -1,8 +1,11 @@
 ---
 title: IWMPMediaCollection getByAuthor method
 description: The getByAuthor method returns an IWMPPlaylist interface that provides access to the media items by the specified author.
-ms.assetid: 'eb3793f6-bad1-4c80-991e-c6d0093ae57f'
-keywords: ["getByAuthor method Windows Media Player", "getByAuthor method Windows Media Player , IWMPMediaCollection interface", "IWMPMediaCollection interface Windows Media Player , getByAuthor method"]
+ms.assetid: eb3793f6-bad1-4c80-991e-c6d0093ae57f
+keywords:
+- getByAuthor method Windows Media Player
+- getByAuthor method Windows Media Player , IWMPMediaCollection interface
+- IWMPMediaCollection interface Windows Media Player , getByAuthor method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMediaCollection::getByAuthor method
@@ -152,9 +160,9 @@ End Sub</code></pre></td>
 [**IWMPPlaylist Interface (VB and C#)**](iwmpplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

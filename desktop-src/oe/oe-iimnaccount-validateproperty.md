@@ -1,8 +1,11 @@
 ---
 title: IImnAccount ValidateProperty method
 description: Validates the specified value of a property.
-ms.assetid: '7f4097d3-3e98-40c4-9b2f-58ce772a84e7'
-keywords: ["ValidateProperty method Windows Mail (formerly Outlook Express)", "ValidateProperty method Windows Mail (formerly Outlook Express) , IImnAccount interface", "IImnAccount interface Windows Mail (formerly Outlook Express) , ValidateProperty method"]
+ms.assetid: 7f4097d3-3e98-40c4-9b2f-58ce772a84e7
+keywords:
+- ValidateProperty method Windows Mail (formerly Outlook Express)
+- ValidateProperty method Windows Mail (formerly Outlook Express) , IImnAccount interface
+- IImnAccount interface Windows Mail (formerly Outlook Express) , ValidateProperty method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccount::ValidateProperty method
@@ -24,9 +32,9 @@ Validates the specified value of a property.
 
 ```C++
 HRESULT ValidateProperty(
-  [in] DWORD dwPropTag,
-  [in] BYTE  *pb,
-  [in] ULONG cb
+  [in] DWORD dwPropTag,
+  [in] BYTE  *pb,
+  [in] ULONG cb
 );
 ```
 
@@ -80,7 +88,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -88,8 +96,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -97,9 +105,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

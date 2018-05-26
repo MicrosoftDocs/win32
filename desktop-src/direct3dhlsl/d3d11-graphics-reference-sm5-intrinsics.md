@@ -1,7 +1,12 @@
 ---
 title: Shader Model 5 Intrinsic Functions
 description: Shader Model 5 implements the intrinsic functions from Shader Model 4 and below (see Intrinsic Functions (DirectX HLSL) for a complete list of supported functions), as well as the following new functions
-ms.assetid: '6f91fb40-d6d0-459f-adf7-cff263d7d346'
+ms.assetid: 6f91fb40-d6d0-459f-adf7-cff263d7d346
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Model 5 Intrinsic Functions

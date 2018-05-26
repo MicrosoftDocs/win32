@@ -1,7 +1,12 @@
 ---
-Description: 'Computes the key block used by the Extensible Authentication Protocol (EAP).'
-ms.assetid: '0f382668-6fc6-440f-ba61-70b1db0f3987'
+Description: Computes the key block used by the Extensible Authentication Protocol (EAP).
+ms.assetid: 0f382668-6fc6-440f-ba61-70b1db0f3987
 title: SslComputeEapKeyBlock function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslComputeEapKeyBlock function
@@ -13,14 +18,14 @@ The **SslComputeEapKeyBlock** function computes the key block used by the Extens
 
 ```C++
 SECURITY_STATUS WINAPI SslComputeEapKeyBlock(
-  _In_      NCRYPT_PROV_HANDLE hSslProvider,
-  _In_      NCRYPT_KEY_HANDLE  hMasterKey,
-  _In_      PBYTE              pbRandoms,
-  _In_      DWORD              cbRandoms,
-  _Out_opt_ PBYTE              pbOutput,
-  _In_      DWORD              cbOutput,
-  _Out_     DWORD              *pcbResult,
-  _In_      DWORD              dwFlags
+  _In_      NCRYPT_PROV_HANDLE hSslProvider,
+  _In_      NCRYPT_KEY_HANDLE  hMasterKey,
+  _In_      PBYTE              pbRandoms,
+  _In_      DWORD              cbRandoms,
+  _Out_opt_ PBYTE              pbOutput,
+  _In_      DWORD              cbOutput,
+  _Out_     DWORD              *pcbResult,
+  _In_      DWORD              dwFlags
 );
 ```
 
@@ -100,7 +105,7 @@ If the function fails, it returns a nonzero error value.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -108,16 +113,16 @@ If the function fails, it returns a nonzero error value.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

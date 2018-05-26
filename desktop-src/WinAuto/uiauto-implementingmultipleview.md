@@ -1,13 +1,28 @@
 ---
 title: MultipleView Control Pattern
 description: Describes guidelines and conventions for implementing IMultipleViewProvider, including information about properties and methods.
-ms.assetid: 'c67e7e4f-d2c7-4fca-8e8a-9b6565afa4ed'
-keywords: ["UI Automation,implementing MultipleView control pattern", "UI Automation,MultipleView control pattern", "UI Automation,IMultipleViewProvider", "IMultipleViewProvider", "implementing UI Automation MultipleView control patterns", "MultipleView control patterns", "control patterns,IMultipleViewProvider", "control patterns,implementing UI Automation MultipleView", "control patterns,MultipleView", "interfaces,IMultipleViewProvider"]
+ms.assetid: c67e7e4f-d2c7-4fca-8e8a-9b6565afa4ed
+keywords:
+- UI Automation,implementing MultipleView control pattern
+- UI Automation,MultipleView control pattern
+- UI Automation,IMultipleViewProvider
+- IMultipleViewProvider
+- implementing UI Automation MultipleView control patterns
+- MultipleView control patterns
+- control patterns,IMultipleViewProvider
+- control patterns,implementing UI Automation MultipleView
+- control patterns,MultipleView
+- interfaces,IMultipleViewProvider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MultipleView Control Pattern
 
-Describes guidelines and conventions for implementing [**IMultipleViewProvider**](uiauto-imultipleviewprovider.md), including information about properties and methods. Links to additional references are listed at the end of the topic. The **MultipleView** control pattern is used to support controls that provide, and are able to switch between, multiple representations of the same information or the same set of child controls.
+Describes guidelines and conventions for implementing [**IMultipleViewProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-imultipleviewprovider?branch=master), including information about properties and methods. Links to additional references are listed at the end of the topic. The **MultipleView** control pattern is used to support controls that provide, and are able to switch between, multiple representations of the same information or the same set of child controls.
 
 Examples of controls that can present multiple views include the list view (which can show its contents as thumbnails, tiles, icons, or details), Microsoft Excel charts (pie, line, bar, cell value with a formula), Microsoft Word documents (normal, web layout, print layout, reading layout, outline), Microsoft Outlook calendar (year, month, week, day), and Microsoft Windows Media Player skins. The supported views are determined by the control developer and are specific to each control.
 
@@ -21,23 +36,23 @@ This topic contains the following sections.
 
 When implementing the **MultipleView** control pattern, note the following guidelines and conventions:
 
--   [**IMultipleViewProvider**](uiauto-imultipleviewprovider.md) should also be implemented on a container that manages the current view if it is different from a control that provides the current view. For example, Windows Explorer contains a list control for the current folder content while the view for the control is managed from the Windows Explorer application.
+-   [**IMultipleViewProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-imultipleviewprovider?branch=master) should also be implemented on a container that manages the current view if it is different from a control that provides the current view. For example, Windows Explorer contains a list control for the current folder content while the view for the control is managed from the Windows Explorer application.
 -   A control that is able to sort its content is not considered to support multiple views.
 -   The collection of views must be identical across instances.
 -   View names must be suitable for use in text to speech, Braille, and other human-readable applications.
 
 ## Required Members for **IMultipleViewProvider**
 
-The following properties and methods are required for implementing the [**IMultipleViewProvider**](uiauto-imultipleviewprovider.md) interface.
+The following properties and methods are required for implementing the [**IMultipleViewProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-imultipleviewprovider?branch=master) interface.
 
 
 
 | Required members                                                            | Member type | Notes |
 |-----------------------------------------------------------------------------|-------------|-------|
-| [**CurrentView**](uiauto-imultipleviewprovider-currentview.md)             | Property    | None  |
-| [**GetSupportedViews**](uiauto-imultipleviewprovider-getsupportedviews.md) | Method      | None  |
-| [**GetViewName**](uiauto-imultipleviewprovider-getviewname.md)             | Method      | None  |
-| [**SetCurrentView**](uiauto-imultipleviewprovider-setcurrentview.md)       | Method      | None  |
+| [**CurrentView**](/windows/win32/UIAutomationCore/nf-uiautomationcore-imultipleviewprovider-get_currentview?branch=master)             | Property    | None  |
+| [**GetSupportedViews**](/windows/win32/UIAutomationCore/nf-uiautomationcore-imultipleviewprovider-getsupportedviews?branch=master) | Method      | None  |
+| [**GetViewName**](/windows/win32/UIAutomationCore/nf-uiautomationcore-imultipleviewprovider-getviewname?branch=master)             | Method      | None  |
+| [**SetCurrentView**](/windows/win32/UIAutomationCore/nf-uiautomationcore-imultipleviewprovider-setcurrentview?branch=master)       | Method      | None  |
 
 
 

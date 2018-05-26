@@ -1,14 +1,20 @@
 ---
 title: SecondaryStatistic element
 description: Describes the secondary descriptive statistic for the metric recommended by the assessment author.
-ms.assetid: 'EF96DA29-2DA3-477A-99EC-9378DB10338B'
-keywords: ["SecondaryStatistic element Access Execution Engine"]
+ms.assetid: EF96DA29-2DA3-477A-99EC-9378DB10338B
+keywords:
+- SecondaryStatistic element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - SecondaryStatistic
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SecondaryStatistic element
@@ -76,9 +82,9 @@ There are no attributes.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

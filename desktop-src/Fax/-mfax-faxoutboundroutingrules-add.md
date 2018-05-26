@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Add method adds an outbound routing rule (FaxOutboundRoutingRule object) to the FaxOutboundRoutingRules collection.'
-ms.assetid: '9046fd0e-29bb-4743-bf78-a90b31c0313f'
-title: 'FaxOutboundRoutingRules.Add method'
+---
+Description: The Add method adds an outbound routing rule (FaxOutboundRoutingRule object) to the FaxOutboundRoutingRules collection.
+ms.assetid: 9046fd0e-29bb-4743-bf78-a90b31c0313f
+title: FaxOutboundRoutingRules.Add method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingRules.Add method
@@ -32,7 +37,7 @@ FaxOutboundRoutingRules.Add( _
 
 Type: **Long**
 
-A **Long** value that specifies the country/region code to associate with the outbound routing rule. Specifying [**frrcANY\_CODE**](-mfax-fax-routing-rule-code-enum.md) will add a rule that applies to any country/region code.
+A **Long** value that specifies the country/region code to associate with the outbound routing rule. Specifying [**frrcANY\_CODE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_routing_rule_code_enum?branch=master) will add a rule that applies to any country/region code.
 
 </dd> <dt>
 
@@ -41,7 +46,7 @@ A **Long** value that specifies the country/region code to associate with the ou
 
 Type: **Long**
 
-Specifies a **Long** value that indicates the area code to associate with the outbound routing rule. Specifying [**frrcANY\_CODE**](-mfax-fax-routing-rule-code-enum.md) will add a rule that applies to any area code within the specified country/region code.
+Specifies a **Long** value that indicates the area code to associate with the outbound routing rule. Specifying [**frrcANY\_CODE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_routing_rule_code_enum?branch=master) will add a rule that applies to any area code within the specified country/region code.
 
 </dd> <dt>
 
@@ -82,7 +87,7 @@ A [**FaxOutboundRoutingRule**](-mfax-faxoutboundroutingrule.md) object.
 
 This method can also return remote procedure call (RPC) return values. For more information, see [RPC Return Values](http://msdn.microsoft.com/library/en-us/rpc/rpc/rpc_return_values.asp).
 
-To read or to write to this property, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [**farMANAGE\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -107,7 +112,7 @@ To read or to write to this property, a user must have the [**farMANAGE\_CONFIG*
 [**FaxOutboundRoutingRules**](-mfax-faxoutboundroutingrules.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingRules**](-mfax-faxoutboundroutingrules-cpp.md)
+[**IFaxOutboundRoutingRules**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutingrules?branch=master)
 </dt> </dl>
 
  

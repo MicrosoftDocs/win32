@@ -1,8 +1,9 @@
 ---
 title: Controls.currentMarker
 description: The currentMarker property specifies or retrieves the current marker number.
-ms.assetid: '4b4eacd4-3df0-4e11-8755-1ac326fad027'
-keywords: ["Controls.currentMarker Windows Media Player"]
+ms.assetid: 4b4eacd4-3df0-4e11-8755-1ac326fad027
+keywords:
+- Controls.currentMarker Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.currentMarker
@@ -84,9 +90,9 @@ The following JScript example uses **currentMarker** to start video playback fro
 [**Player.URL**](player-url.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

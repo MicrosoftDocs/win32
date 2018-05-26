@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Service class represents a logical element that contains information to represent and manage the functionality provided by a device or software feature.'
+Description: The CIM\_Service class represents a logical element that contains information to represent and manage the functionality provided by a device or software feature.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b95e8ea7-4daf-4dcf-817c-b872560b62df'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b95e8ea7-4daf-4dcf-817c-b872560b62df
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Service class'
+title: CIM\_Service class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Service class
@@ -19,7 +22,7 @@ The **CIM\_Service** class represents a logical element that contains informatio
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,16 +32,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C527-5FBB-11D2-AAC1-006008C78BC7}"), DisplayName("Services (CIM)"), AMENDMENT]
 class CIM_Service : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  boolean  Started;
-  string   StartMode;
-  string   SystemCreationClassName;
-  string   SystemName;
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  boolean  Started;
+  string   StartMode;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -62,7 +65,7 @@ The **CIM\_Service** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -358,8 +361,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -373,9 +376,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

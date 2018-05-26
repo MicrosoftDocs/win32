@@ -1,12 +1,17 @@
-﻿---
-Description: 'The installer sets the UILevel property to the level of the user interface.'
-ms.assetid: 'c89545b5-aeb7-4b05-94b0-d6e2a237152e'
+---
+Description: The installer sets the UILevel property to the level of the user interface.
+ms.assetid: c89545b5-aeb7-4b05-94b0-d6e2a237152e
 title: UILevel property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UILevel property
 
-The installer sets the **UILevel** property to the level of the user interface. The internal UI is enabled and set by [**MsiSetInternalUI**](msisetinternalui.md). This property is set to one of the following INSTALLUILEVEL data types.
+The installer sets the **UILevel** property to the level of the user interface. The internal UI is enabled and set by [**MsiSetInternalUI**](/windows/win32/Msi/nf-msi-msisetinternalui?branch=master). This property is set to one of the following INSTALLUILEVEL data types.
 
 
 

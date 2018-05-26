@@ -1,7 +1,12 @@
 ---
 title: Retrieving Error Information
 description: Describes how to retrieve error information.
-ms.assetid: '0bd640a4-e93f-4201-8789-61ba7178ce15'
+ms.assetid: 0bd640a4-e93f-4201-8789-61ba7178ce15
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Error Information
@@ -10,11 +15,11 @@ ms.assetid: '0bd640a4-e93f-4201-8789-61ba7178ce15'
 
 1.  Check whether the returned value represents an error that the object is prepared to handle.
 
-2.  Call **QueryInterface** to get a pointer to the [**ISupportErrorInfo**](isupporterrorinfo.md)interface. Then, call [InterfaceSupportsErrorInfo](A54EF18D-EE3F-4483-AC4A-99D758F0960A) to verify that the error was raised by the object that returned it and that the error object pertains to the current error, and not to a previous call.
+2.  Call **QueryInterface** to get a pointer to the [**ISupportErrorInfo**](/windows/previous-versions/oaidl/nn-oaidl-isupporterrorinfo?branch=master)interface. Then, call [InterfaceSupportsErrorInfo](A54EF18D-EE3F-4483-AC4A-99D758F0960A) to verify that the error was raised by the object that returned it and that the error object pertains to the current error, and not to a previous call.
 
 3.  To get a pointer to the error object, call the [GetErrorInfo](03317526-8C4F-4173-BC10-110C8112676A) function.
 
-4.  To retrieve information from the error object, use the [**IErrorInfo**](ierrorinfo.md) methods.
+4.  To retrieve information from the error object, use the [**IErrorInfo**](/windows/previous-versions/oaidl/nn-oaidl-ierrorinfo?branch=master) methods.
 
 The following figure illustrates this procedure.
 

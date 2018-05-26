@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to a function that creates an instance of the object.'
-ms.assetid: '86859bf9-e16a-4494-bf1b-1d8ddbc1c805'
-title: 'CFactoryTemplate::m\_lpfnNew member'
+Description: Pointer to a function that creates an instance of the object.
+ms.assetid: 86859bf9-e16a-4494-bf1b-1d8ddbc1c805
+title: CFactoryTemplatem\_lpfnNew member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CFactoryTemplate::m\_lpfnNew member
@@ -60,9 +65,9 @@ CUnknown * WINAPI CMyComponent::CreateInstance(LPUNKNOWN pUnk, HRESULT *pHr)
 [**CFactoryTemplate Class**](cfactorytemplate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

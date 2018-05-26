@@ -1,8 +1,10 @@
 ---
 title: TaskFolder object
 description: Scripting object that provides the methods that are used to register (create) tasks in the folder, remove tasks from the folder, and create or remove subfolders from the folder.
-ms.assetid: 'da0cc808-b284-4d10-be61-d96c5e07d0a8'
-keywords: ["TaskFolder object Task Scheduler", "TaskFolder object Task Scheduler , described"]
+ms.assetid: da0cc808-b284-4d10-be61-d96c5e07d0a8
+keywords:
+- TaskFolder object Task Scheduler
+- TaskFolder object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskFolder object
@@ -41,12 +48,12 @@ The **TaskFolder** object has these methods.
 | [**GetTask**](taskfolder-gettask.md)                               | Gets a task at a specified location in a folder.<br/>                                                                                    |
 | [**GetTasks**](taskfolder-gettasks.md)                             | Gets all the tasks in the folder.<br/>                                                                                                   |
 | [**RegisterTask**](taskfolder-registertask.md)                     | Registers (creates) a new task in the folder using XML to define the task.<br/>                                                          |
-| [**RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) | Registers (creates) a task in a specified location using the [**ITaskDefinition**](itaskdefinition.md) interface to define a task.<br/> |
+| [**RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) | Registers (creates) a task in a specified location using the [**ITaskDefinition**](/windows/win32/taskschd/nn-taskschd-itaskdefinition?branch=master) interface to define a task.<br/> |
 | [**SetSecurityDescriptor**](taskfolder-setsecuritydescriptor.md)   | Sets the security descriptor for the folder.<br/>                                                                                        |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -61,7 +68,7 @@ The **TaskFolder** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -73,8 +80,8 @@ For more information and example code for this scripting object, see [Time Trigg
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -90,9 +97,9 @@ For more information and example code for this scripting object, see [Time Trigg
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

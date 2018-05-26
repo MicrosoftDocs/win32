@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Media Foundation DV video decoder is a Media Foundation Transform that decodes DV video.'
-ms.assetid: '97e5ba52-92fc-49e4-9c22-6f61bfda2003'
+---
+Description: The Media Foundation DV video decoder is a Media Foundation Transform that decodes DV video.
+ms.assetid: 97e5ba52-92fc-49e4-9c22-6f61bfda2003
 title: DV Video Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DV Video Decoder

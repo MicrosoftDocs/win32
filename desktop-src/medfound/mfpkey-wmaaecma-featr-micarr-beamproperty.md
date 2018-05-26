@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies which beam the Voice Capture DSP uses for microphone array processing.'
-ms.assetid: '9ed761da-3f1b-47e8-b71f-becc56fe8801'
-title: 'MFPKEY\_WMAAECMA\_FEATR\_MICARR\_BEAM Property'
+---
+Description: Specifies which beam the Voice Capture DSP uses for microphone array processing.
+ms.assetid: 9ed761da-3f1b-47e8-b71f-becc56fe8801
+title: MFPKEY\_WMAAECMA\_FEATR\_MICARR\_BEAM Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAAECMA\_FEATR\_MICARR\_BEAM Property

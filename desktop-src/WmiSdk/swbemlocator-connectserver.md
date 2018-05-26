@@ -1,20 +1,23 @@
 ---
-Description: 'Connects to the namespace on the computer that is specified in the strServer parameter.'
+Description: Connects to the namespace on the computer that is specified in the strServer parameter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '31364c68-b031-4cf0-851f-b4e302f077e0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 31364c68-b031-4cf0-851f-b4e302f077e0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemLocator.ConnectServer method'
+title: SWbemLocator.ConnectServer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemLocator.ConnectServer method
 
 The **ConnectServer** method of the [**SWbemLocator**](swbemlocator.md) object connects to the namespace on the computer that is specified in the *strServer* parameter. The target computer can be either local or remote, but it must have WMI installed. For examples and a comparison with the moniker type of connection, see [Creating a WMI Script](creating-a-wmi-script.md).
 
-Starting with Windows Vista, **SWbemLocator.ConnectServer** can connect with computers running IPv6 using an IPv6 address in the *strServer* parameter. For more information, see [IPv6 and IPv4 Support in WMI](ipv6-and-ipv4-support-in-wmi.md).
+Starting with Windows Vista, **SWbemLocator.ConnectServer** can connect with computers running IPv6 using an IPv6 address in the *strServer* parameter. For more information, see [IPv6 and IPv4 Support in WMI](ipv6-and-ipv4-support-in-wmi.md).
 
 For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).
 
@@ -74,7 +77,7 @@ Example: "DomainName\\UserName"
 > [!Note]  
 > If a domain is specified in *strAuthority*, then the domain must not be specified here. Specifying the domain in both parameters results in an Invalid Parameter error.
 
- 
+ 
 
 </dd> <dt>
 
@@ -127,7 +130,7 @@ If you leave this parameter blank, the operating system negotiates with COM to d
 > [!Note]  
 > If the domain is specified in *strUser*, which is the preferred location, then it must not be specified here. Specifying the domain in both parameters results in an Invalid Parameter error.
 
- 
+ 
 
 </dd> <dt>
 
@@ -217,7 +220,7 @@ A networking error occurred, preventing normal operation.
 
 ## Remarks
 
-The **ConnectServer** method is often used when connecting to an account with a different username and password—credentials—on a remote computer because you cannot specify a different password in a [moniker](constructing-a-moniker-string.md) string. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
+The **ConnectServer** method is often used when connecting to an account with a different username and password credentials on a remote computer because you cannot specify a different password in a [moniker](constructing-a-moniker-string.md) string. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
 Using an IPv4 address to connect to a remote server may result in unexpected behavior. The likely cause is stale DNS entries in your environment. In these circumstances, the stale PTR entry for the machine will be used, with unpredictable results. To avoid this behavior, you can append a period (".") to the IP address before calling ConnectServer. This causes the reverse DNS lookup to fail, but may allow the **ConnectServer** call to succeed on the correct machine.
 
@@ -287,8 +290,8 @@ $WbemClasses
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -313,9 +316,9 @@ $WbemClasses
 [Creating a WMI Script](creating-a-wmi-script.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

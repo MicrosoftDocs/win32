@@ -1,7 +1,12 @@
 ---
-Description: 'Provides replication statistics for a virtual machine.'
-ms.assetid: '52d944a7-9309-4b56-97b7-e050a9501c57'
-title: 'Msvm\_ReplicationStatistics class'
+Description: Provides replication statistics for a virtual machine.
+ms.assetid: 52d944a7-9309-4b56-97b7-e050a9501c57
+title: Msvm\_ReplicationStatistics class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReplicationStatistics class
@@ -16,23 +21,23 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ReplicationStatistics : CIM_ManagedElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime StartStatisticTime;
   datetime EndStatisticTime;
-  uint32   ReplicationSuccessCount;
-  uint64   ReplicationSize;
-  uint64   MaxReplicationSize;
-  uint32   ReplicationLatency;
-  uint32   ReplicationMissCount;
-  uint32   MaxReplicationLatency;
-  uint32   NetworkFailureCount;
-  uint32   ReplicationFailureCount;
-  uint64   PendingReplicationSize;
-  uint32   ApplicationConsistentSnapshotFailureCount;
-  uint32   ReplicationHealth;
+  uint32   ReplicationSuccessCount;
+  uint64   ReplicationSize;
+  uint64   MaxReplicationSize;
+  uint32   ReplicationLatency;
+  uint32   ReplicationMissCount;
+  uint32   MaxReplicationLatency;
+  uint32   NetworkFailureCount;
+  uint32   ReplicationFailureCount;
+  uint64   PendingReplicationSize;
+  uint32   ApplicationConsistentSnapshotFailureCount;
+  uint32   ReplicationHealth;
   datetime LastTestFailoverTime;
 };
 ```
@@ -306,17 +311,17 @@ The time, in UTC, when the Hyper-V Replica service started gathering replication
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

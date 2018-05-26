@@ -1,7 +1,12 @@
 ---
 title: discard (sm4 - asm)
 description: Conditionally flag results of Pixel Shader to be discarded when the end of the program is reached.
-ms.assetid: '566C4A9A-B32A-4AA6-A888-70F6965B1B5A'
+ms.assetid: 566C4A9A-B32A-4AA6-A888-70F6965B1B5A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # discard (sm4 - asm)
@@ -15,7 +20,7 @@ Conditionally flag results of Pixel Shader to be discarded when the end of the p
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Conditionally flag results of Pixel Shader to be discarded when the end of the p
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -49,7 +54,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +73,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -77,9 +82,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

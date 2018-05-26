@@ -2,13 +2,19 @@
 title: uuid attribute
 description: The \ uuid\ interface attribute designates a universally unique identifier (UUID) that is assigned to the interface and that distinguishes it from other interfaces.
 ms.assetid: 72cf12f5-49cd-440d-9665-73211509d050
-keywords: ["uuid attribute MIDL"]
+keywords:
+- uuid attribute MIDL
 topic_type:
 - apiref
 api_name:
 - uuid
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # uuid attribute

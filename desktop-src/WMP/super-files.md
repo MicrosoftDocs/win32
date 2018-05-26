@@ -1,8 +1,20 @@
 ---
 title: Super Files
 description: Super Files
-ms.assetid: 'a5005d1a-4b87-482d-914e-3184a2c93267'
-keywords: ["Windows Media Player Mobile skins,art files", "skins,art files", "files for skins,art", "art files for skins,Super files files", "Windows Media Player Mobile skins,Super files files", "skins,Super files", "Super files in skins"]
+ms.assetid: a5005d1a-4b87-482d-914e-3184a2c93267
+keywords:
+- Windows Media Player Mobile skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,Super files files
+- Windows Media Player Mobile skins,Super files files
+- skins,Super files
+- Super files in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Super Files

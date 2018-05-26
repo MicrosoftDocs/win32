@@ -1,8 +1,9 @@
 ---
 title: VIDEO\_SIZE structure
 description: The VIDEO\_SIZE structure describes the dimensions of a video frame, in pixels.
-ms.assetid: '2f0dcf74-877d-43d5-8795-00ef67a4d724'
-keywords: ["VIDEO_SIZE structure Windows Movie Maker and DVD Maker"]
+ms.assetid: 2f0dcf74-877d-43d5-8795-00ef67a4d724
+keywords:
+- VIDEO_SIZE structure Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - GPUPipelineTime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEO\_SIZE structure
@@ -53,8 +59,8 @@ A Windows GDI structure that specifies the width and height of the video as disp
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl> |
 
 
@@ -66,9 +72,9 @@ A Windows GDI structure that specifies the width and height of the video as disp
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

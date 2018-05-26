@@ -4,20 +4,25 @@ description: Some attributes can store one or more values.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'aaa5fa90-7e60-4668-bd23-1475c2e4d184'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: aaa5fa90-7e60-4668-bd23-1475c2e4d184
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["GetEx ADSI , using IADs GetEx", "ADSI ADSI ,using,using the IADs GetEx method"]
+keywords:
+- GetEx ADSI , using IADs GetEx
+- ADSI ADSI ,using,using the IADs GetEx method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # The GetEx Method
 
-Some attributes can store one or more values. For example, the **otherTelephone** attribute of a user object in Active Directory is a property that can have zero, one, or many values. Attributes that have multiple values are known as "multi-valued attributes". If the [**IADs::Get**](iads-get.md) method is used to retrieve a multi-valued attribute, the results must be processed differently than if the attribute has a single value. The results provided by the [**IADs::GetEx**](iads-getex.md) method, however, are processed in the same manner, regardless if the attribute has a single or multiple values. In both cases, the **IADs::GetEx** method returns the values in an array.
+Some attributes can store one or more values. For example, the **otherTelephone** attribute of a user object in Active Directory is a property that can have zero, one, or many values. Attributes that have multiple values are known as "multi-valued attributes". If the [**IADs::Get**](/windows/win32/Iads/nf-iads-iads-get?branch=master) method is used to retrieve a multi-valued attribute, the results must be processed differently than if the attribute has a single value. The results provided by the [**IADs::GetEx**](/windows/win32/Iads/nf-iads-iads-getex?branch=master) method, however, are processed in the same manner, regardless if the attribute has a single or multiple values. In both cases, the **IADs::GetEx** method returns the values in an array.
 
-The [**IADs::GetEx**](iads-getex.md) method retrieves properties from the property cache. If the specified property is not found in the cache, **IADs::GetEx** performs an implicit [**IADs::GetInfo**](iads-getinfo.md) call.
+The [**IADs::GetEx**](/windows/win32/Iads/nf-iads-iads-getex?branch=master) method retrieves properties from the property cache. If the specified property is not found in the cache, **IADs::GetEx** performs an implicit [**IADs::GetInfo**](/windows/win32/Iads/nf-iads-iads-getinfo?branch=master) call.
 
-The [**IADs::GetEx**](iads-getex.md) method returns a variant array of variants regardless of the number of values returned from the server. This is true even if the attribute only contains one value.
+The [**IADs::GetEx**](/windows/win32/Iads/nf-iads-iads-getex?branch=master) method returns a variant array of variants regardless of the number of values returned from the server. This is true even if the attribute only contains one value.
 
 
 ```VB
@@ -39,7 +44,7 @@ Cleanup:
 
 
 
-The [**IADs::GetEx**](iads-getex.md) method can also be used for single-valued attributes. The results of a single-valued attribute are processed the same as the results for a multi-valued attribute.
+The [**IADs::GetEx**](/windows/win32/Iads/nf-iads-iads-getex?branch=master) method can also be used for single-valued attributes. The results of a single-valued attribute are processed the same as the results for a multi-valued attribute.
 
 
 ```VB
@@ -61,7 +66,7 @@ Cleanup:
 
 
 
-If no value is set for the attribute, [**IADs::GetEx**](iads-getex.md) returns the error "Property not found in cache".
+If no value is set for the attribute, [**IADs::GetEx**](/windows/win32/Iads/nf-iads-iads-getex?branch=master) returns the error "Property not found in cache".
 
  
 

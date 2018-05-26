@@ -1,7 +1,12 @@
 ---
 title: The AccChecker Graphical User Interface
 description: This topic describes the elements that make up the AccChecker GUI.
-ms.assetid: 'C8C156F6-AB29-4011-9DCD-74261AC17404'
+ms.assetid: C8C156F6-AB29-4011-9DCD-74261AC17404
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The AccChecker Graphical User Interface
@@ -23,12 +28,12 @@ AccChecker starts with the default view of the **Verifications** tab:
 
 The **Verifications** tab contains the following components.
 
--   **Verification target selector**—Offers the following options for selecting a target application or control.
+-   **Verification target selector** Offers the following options for selecting a target application or control.
     -   Choose a target from the pre-populated drop-down list. This list contains all top-level HWNDs identified at start-up.
     -   Choose an HWND based on the location of the mouse cursor (selectable controls are highlighted with a red rectangle). This option lets you select any visible object that has an HWND.
     -   Enter a particular HWND.
--   **Verification routines checklist**—Provides the ability to select the desired verification routine to be performed against an application or control. See Verification Routines for more information.
--   **Error and warning suppression file selector**—Suppression files are generated from the verification **Results** tab. By right-clicking an error or warning message and selecting **Suppress** from the context menu, a flag is set for that message. If the **Suppressions** check box is checked, suppressed entries appear in the list. A suppressed entry can be unsuppressed by using the same context menu used to suppress it.
+-   **Verification routines checklist** Provides the ability to select the desired verification routine to be performed against an application or control. See Verification Routines for more information.
+-   **Error and warning suppression file selector** Suppression files are generated from the verification **Results** tab. By right-clicking an error or warning message and selecting **Suppress** from the context menu, a flag is set for that message. If the **Suppressions** check box is checked, suppressed entries appear in the list. A suppressed entry can be unsuppressed by using the same context menu used to suppress it.
 
     A suppression file is saved in XML format by selecting **Save Suppression** from the **File** menu. This file is consumed on subsequent verification runs where the messages will be hidden. To remove the suppression file, click **Clear**. For information on specific messages, see Verification Log Messages. Use **Save Log** from the **File** menu to save the entire list as a log file in XML or as a formatted text file.
 
@@ -52,11 +57,11 @@ The **Verifications** tab contains the following components.
 
     
 
--   **Show prioritized results**—Offers the following options for filtering the verification results by priority.
-    -   **All**—Include all all results regardless of priority.
-    -   **P1 only**—Include only priority 0 and priority 1 results.
-    -   **P1 – P2 only**—Include priority 0 through priority 2 results.
--   **Run selected verifications**—Provides the **Run Verifications** button for starting the verification process. While verifications are running, the button changes to **Cancel Verifications** and can be used to stop the verifications after the current one completes.
+-   **Show prioritized results** Offers the following options for filtering the verification results by priority.
+    -   **All** Include all all results regardless of priority.
+    -   **P1 only** Include only priority 0 and priority 1 results.
+    -   **P1   P2 only** Include priority 0 through priority 2 results.
+-   **Run selected verifications** Provides the **Run Verifications** button for starting the verification process. While verifications are running, the button changes to **Cancel Verifications** and can be used to stop the verifications after the current one completes.
 
 ## Results Tab
 
@@ -67,10 +72,10 @@ The **Results** tab is populated after the selected verification tasks are compl
 
 Right-clicking on a message exposes a context menu with the following items.
 
--   **Suppress**—Adds the message to the suppression list.
--   **Copy to clipboard**—Copies the message details to the clipboard.
--   **Visualize**—Switches AccChecker to the **MSAA Tree** tab. The element that corresponds to the selected error is highlighted.
--   **Help**—Displays additional information about the message.
+-   **Suppress** Adds the message to the suppression list.
+-   **Copy to clipboard** Copies the message details to the clipboard.
+-   **Visualize** Switches AccChecker to the **MSAA Tree** tab. The element that corresponds to the selected error is highlighted.
+-   **Help** Displays additional information about the message.
 
 ## MSAA and UIA Screen Reader Tabs
 
@@ -114,8 +119,8 @@ Running any verification routine causes AccChecker to compile all visible elemen
 <td><strong>Open</strong></td>
 <td>Provides the following options.<br/>
 <ul>
-<li><strong>Verifications DLL</strong>—Opens a verification DLL. Native AccChecker verifications are encapsulated in a standalone DLL (VerificationRoutines.dll). This design allows test teams to create their own set of verifications based on the UI platform being tested.</li>
-<li><strong>Log file</strong>—Lets you choose a verification log file to open.</li>
+<li><strong>Verifications DLL</strong> Opens a verification DLL. Native AccChecker verifications are encapsulated in a standalone DLL (VerificationRoutines.dll). This design allows test teams to create their own set of verifications based on the UI platform being tested.</li>
+<li><strong>Log file</strong> Lets you choose a verification log file to open.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -175,7 +180,7 @@ Running any verification routine causes AccChecker to compile all visible elemen
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -184,9 +189,9 @@ Running any verification routine causes AccChecker to compile all visible elemen
 [UI Accessibility Checker](ui-accessibility-checker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

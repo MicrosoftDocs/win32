@@ -1,7 +1,12 @@
 ---
 Description: Choosing an Audio Codec
-ms.assetid: '37f3582c-c718-42ae-b887-d7d31ee853e9'
+ms.assetid: 37f3582c-c718-42ae-b887-d7d31ee853e9
 title: Choosing an Audio Codec
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing an Audio Codec

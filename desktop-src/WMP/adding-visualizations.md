@@ -1,8 +1,17 @@
 ---
 title: Adding Visualizations
 description: Adding Visualizations
-ms.assetid: 'adb5d10b-070c-426c-a74a-8d4881d9acbf'
-keywords: ["creating skins,visualizations", "Windows Media Player skins,visualizations", "skins,visualizations", "visualizations,skins"]
+ms.assetid: adb5d10b-070c-426c-a74a-8d4881d9acbf
+keywords:
+- creating skins,visualizations
+- Windows Media Player skins,visualizations
+- skins,visualizations
+- visualizations,skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Visualizations

@@ -1,7 +1,12 @@
 ---
-Description: 'PNRP uses the WSALookupServiceBegin function to start the process that allows an application to do the following.'
-ms.assetid: '71cca892-89e7-44d1-920d-987587eeed50'
+Description: PNRP uses the WSALookupServiceBegin function to start the process that allows an application to do the following.
+ms.assetid: 71cca892-89e7-44d1-920d-987587eeed50
 title: PNRP and WSALookupServiceBegin
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PNRP and WSALookupServiceBegin
@@ -121,13 +126,13 @@ Reserved, must be zero (0).
 <span id="lpBlob"></span><span id="lpblob"></span><span id="LPBLOB"></span>**lpBlob**
 </dt> <dd>
 
-Must be either a pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure or **NULL**. If it is **NULL**, default values are used. If it is set, **lpBlob** points to a [**PNRPINFO**](pnrpinfo.md) structure, and specific parameters in the **PNRPINFO** structure must be set. For more information, see the following descriptions for the PNRPINFO Structure.
+Must be either a pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure or **NULL**. If it is **NULL**, default values are used. If it is set, **lpBlob** points to a [**PNRPINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpinfo_v1?branch=master) structure, and specific parameters in the **PNRPINFO** structure must be set. For more information, see the following descriptions for the PNRPINFO Structure.
 
 </dd> </dl>
 
 PNRPINFO Structure
 
-If the **lpBlob** member of the [**LPWSAQUERYSET**](pnrp-and-wsaqueryset.md) structure is set, the following members of the [**PNRPINFO**](pnrpinfo.md) structure must be set:
+If the **lpBlob** member of the [**LPWSAQUERYSET**](pnrp-and-wsaqueryset.md) structure is set, the following members of the [**PNRPINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpinfo_v1?branch=master) structure must be set:
 
 <dl> <dt>
 
@@ -169,7 +174,7 @@ Reserved, must be zero (0).
 <span id="enResolveCriteria"></span><span id="enresolvecriteria"></span><span id="ENRESOLVECRITERIA"></span>**enResolveCriteria**
 </dt> <dd>
 
-Must be one of the allowed values. The default is **PNRP\_RESOLVE\_CRITERIA\_NON\_CURRENT\_PROCESS\_PEER\_NAME**. Valid values are specified by [**PNRP\_RESOLVE\_CRITERIA**](pnrp-resolve-criteria.md).
+Must be one of the allowed values. The default is **PNRP\_RESOLVE\_CRITERIA\_NON\_CURRENT\_PROCESS\_PEER\_NAME**. Valid values are specified by [**PNRP\_RESOLVE\_CRITERIA**](/windows/win32/Pnrpdef/ne-pnrpdef-_pnrp_resolve_criteria?branch=master).
 
 </dd> <dt>
 
@@ -312,13 +317,13 @@ Reserved, must be zero (0).
 <span id="lpBlob"></span><span id="lpblob"></span><span id="LPBLOB"></span>**lpBlob**
 </dt> <dd>
 
-Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPCLOUDINFO**](pnrpcloudinfo.md) structure. If **lpBlob** is **NULL**, all clouds are enumerated.
+Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPCLOUDINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpcloudinfo?branch=master) structure. If **lpBlob** is **NULL**, all clouds are enumerated.
 
 </dd> </dl>
 
 PNRPCLOUDINFO Structure
 
-When enumerating clouds, the following members of the [**PNRPCLOUDINFO**](pnrpcloudinfo.md) structure must be set:
+When enumerating clouds, the following members of the [**PNRPCLOUDINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpcloudinfo?branch=master) structure must be set:
 
 <dl> <dt>
 
@@ -377,10 +382,10 @@ The following LUP\_RETURN\_\* flags are supported by PNRP:
 [PNRP and WSAQUERYSET](pnrp-and-wsaqueryset.md)
 </dt> <dt>
 
-[**PNRPCLOUDINFO**](pnrpcloudinfo.md)
+[**PNRPCLOUDINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpcloudinfo?branch=master)
 </dt> <dt>
 
-[**PNRPINFO**](pnrpinfo.md)
+[**PNRPINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpinfo_v1?branch=master)
 </dt> <dt>
 
 [PNRP NSP Error Codes](pnrp-nsp-error-codes.md)

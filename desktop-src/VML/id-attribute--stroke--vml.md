@@ -1,7 +1,12 @@
 ---
 title: ID Attribute (Stroke)(VML)
 description: ID Attribute (Stroke)(VML)
-ms.assetid: '584b0e90-9d66-471b-a1d2-33a236c2ed8e'
+ms.assetid: 584b0e90-9d66-471b-a1d2-33a236c2ed8e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID Attribute (Stroke)(VML)

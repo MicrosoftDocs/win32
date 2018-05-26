@@ -1,8 +1,9 @@
 ---
 title: BM\_GETCHECK message
 description: Gets the check state of a radio button or check box. You can send this message explicitly or use the Button\_GetCheck macro.
-ms.assetid: 'a25b2c8d-0b32-4807-bfb4-e277675924f1'
-keywords: ["BM_GETCHECK message Windows Controls"]
+ms.assetid: a25b2c8d-0b32-4807-bfb4-e277675924f1
+keywords:
+- BM_GETCHECK message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BM\_GETCHECK message
 
-Gets the check state of a radio button or check box. You can send this message explicitly or use the [**Button\_GetCheck**](button-getcheck.md) macro.
+Gets the check state of a radio button or check box. You can send this message explicitly or use the [**Button\_GetCheck**](/windows/win32/Windowsx/nf-windowsx-button_getcheck?branch=master) macro.
 
 ## Parameters
 
@@ -49,7 +55,7 @@ The return value from a button created with the [**BS\_AUTOCHECKBOX**](button-st
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,8 +67,8 @@ If the button has a style other than those listed, the return value is zero.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -80,9 +86,9 @@ If the button has a style other than those listed, the return value is zero.
 [**BM\_SETCHECK**](bm-setcheck.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

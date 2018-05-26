@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EffectSwapPriorities method switches the priority levels of two effects.'
-ms.assetid: 'ff5ab294-3963-4df7-9299-ee7c7165e72f'
-title: 'IAMTimelineEffectable::EffectSwapPriorities method'
+---
+Description: The EffectSwapPriorities method switches the priority levels of two effects.
+ms.assetid: ff5ab294-3963-4df7-9299-ee7c7165e72f
+title: IAMTimelineEffectableEffectSwapPriorities method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineEffectable::EffectSwapPriorities method

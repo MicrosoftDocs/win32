@@ -1,8 +1,15 @@
 ---
 title: Modifying a Service
 description: Modifying a Service
-ms.assetid: '59416aa4-ce17-4ce1-8dd8-21beb148d717'
-keywords: ["Windows Firewall", "using"]
+ms.assetid: 59416aa4-ce17-4ce1-8dd8-21beb148d717
+keywords:
+- Windows Firewall
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modifying a Service

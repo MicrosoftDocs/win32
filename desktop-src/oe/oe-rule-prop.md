@@ -1,8 +1,10 @@
 ---
 title: RULE\_PROP enumeration
-description: RULE\_PROP is no longer available for use as of Windows Vista.
-ms.assetid: '5f2eadfd-033b-4bf6-963b-e996b8521754'
-keywords: ["RULE_PROP enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+description: RULE\_PROP is no longer available for use as of Windows Vista.
+ms.assetid: 5f2eadfd-033b-4bf6-963b-e996b8521754
+keywords:
+- RULE_PROP enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Oerules.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RULE\_PROP enumeration
 
-\[**RULE\_PROP** is no longer available for use as of Windows Vista.\]
+\[**RULE\_PROP** is no longer available for use as of Windows Vista.\]
 
 Identifies the various properties of message rules.
 
@@ -24,16 +31,16 @@ Identifies the various properties of message rules.
 
 ```C++
 typedef enum tagRULE_PROP { 
-  RULE_PROP_NAME       = 0,
-  RULE_PROP_DISABLED   = 1,
-  RULE_PROP_CRITERIA   = 2,
-  RULE_PROP_ACTIONS    = 3,
-  RULE_PROP_STATE      = 4,
-  RULE_PROP_VERSION    = 5,
-  RULE_PROP_READONLY   = 6,
-  RULE_PROP_JUNKPCT    = 7,
-  RULE_PROP_EXCPT_WAB  = 8,
-  RULE_PROP_MAX        = 9
+  RULE_PROP_NAME       = 0,
+  RULE_PROP_DISABLED   = 1,
+  RULE_PROP_CRITERIA   = 2,
+  RULE_PROP_ACTIONS    = 3,
+  RULE_PROP_STATE      = 4,
+  RULE_PROP_VERSION    = 5,
+  RULE_PROP_READONLY   = 6,
+  RULE_PROP_JUNKPCT    = 7,
+  RULE_PROP_EXCPT_WAB  = 8,
+  RULE_PROP_MAX        = 9
 } ACCESSTYPE;
 ```
 
@@ -119,19 +126,19 @@ Indicates the total number of values in this enumeration.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
-| End of client support<br/>    | Windows XP<br/>                                                                  |
-| End of server support<br/>    | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| End of client support<br/>    | Windows XP<br/>                                                                  |
+| End of server support<br/>    | Windows Server 2003<br/>                                                         |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Oerules.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

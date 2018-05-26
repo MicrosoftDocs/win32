@@ -4,17 +4,22 @@ description: This attribute controls the granularity, in days, with which the la
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f1f9f1f8-df60-44b5-965d-631c4dd4ef84'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: f1f9f1f8-df60-44b5-965d-631c4dd4ef84
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Logon-Time-Sync-Interval attribute AD Schema", "msDS-LogonTimeSyncInterval attribute AD Schema"]
+keywords:
+- ms-DS-Logon-Time-Sync-Interval attribute AD Schema
+- msDS-LogonTimeSyncInterval attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Logon-Time-Sync-Interval
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Logon-Time-Sync-Interval attribute
@@ -38,11 +43,11 @@ This attribute controls the granularity, in days, with which the last logon time
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ This attribute controls the granularity, in days, with which the last logon time
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: Network.maxBitRate
 description: The maxBitRate property retrieves the maximum possible video bit rate.
-ms.assetid: 'd1e6b548-0a2e-4bd4-8859-d504309a119e'
-keywords: ["Network.maxBitRate Windows Media Player"]
+ms.assetid: d1e6b548-0a2e-4bd4-8859-d504309a119e
+keywords:
+- Network.maxBitRate Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.maxBitRate
@@ -43,9 +49,9 @@ This property is a read-only **Number** (**long**).
 [**Network Object**](network-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

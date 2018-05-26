@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMRealizeBrush function requests that the driver realize a specified brush for a specified surface.'
-ms.assetid: '1c2c103b-41a4-48e8-8232-01719c562d62'
+---
+Description: The OEMRealizeBrush function requests that the driver realize a specified brush for a specified surface.
+ms.assetid: 1c2c103b-41a4-48e8-8232-01719c562d62
 title: OEMRealizeBrush function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMRealizeBrush function

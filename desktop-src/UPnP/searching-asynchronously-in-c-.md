@@ -1,14 +1,19 @@
 ---
 title: Searching Asynchronously in C++
 description: The following code can be used as a basis for a C++ application that searches for devices asynchronously. The code implements the IUPnPDeviceFinderCallback interface by creating a class that inherits from it.
-ms.assetid: 'bb874e60-6a93-4d94-be67-ba03ba92eff5'
+ms.assetid: bb874e60-6a93-4d94-be67-ba03ba92eff5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Searching Asynchronously in C++
 
-The following code can be used as a basis for a C++ application that searches for devices asynchronously. The code implements the [**IUPnPDeviceFinderCallback**](iupnpdevicefindercallback.md) interface by creating a class that inherits from it.
+The following code can be used as a basis for a C++ application that searches for devices asynchronously. The code implements the [**IUPnPDeviceFinderCallback**](/windows/win32/Upnp/nn-upnp-iupnpdevicefindercallback?branch=master) interface by creating a class that inherits from it.
 
-To implement both [**IUPnPDeviceFinderCallback**](iupnpdevicefindercallback.md) and [**IUPnPDeviceFinderAddCallbackWithInterface**](iupnpdevicefinderaddcallbackwithinterface.md), the class must inherit from both interfaces. Implementation of **IUPnPDeviceFinderAddCallbackWithInterface** is optional, but if you choose to implement it, you must also implement **IUPnPDeviceFinderCallback**.
+To implement both [**IUPnPDeviceFinderCallback**](/windows/win32/Upnp/nn-upnp-iupnpdevicefindercallback?branch=master) and [**IUPnPDeviceFinderAddCallbackWithInterface**](/windows/win32/Upnp/nn-upnp-iupnpdevicefinderaddcallbackwithinterface?branch=master), the class must inherit from both interfaces. Implementation of **IUPnPDeviceFinderAddCallbackWithInterface** is optional, but if you choose to implement it, you must also implement **IUPnPDeviceFinderCallback**.
 
 
 ```C++

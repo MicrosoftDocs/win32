@@ -1,7 +1,12 @@
 ---
-Description: 'Device missed call notification.'
-ms.assetid: '4d583dea-edcf-4f1b-81e2-f2a57ce3d503'
-title: 'System.Devices.Notifications.MissedCall'
+Description: Device missed call notification.
+ms.assetid: 4d583dea-edcf-4f1b-81e2-f2a57ce3d503
+title: System.Devices.Notifications.MissedCall
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Notifications.MissedCall

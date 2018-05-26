@@ -1,7 +1,12 @@
 ---
-Description: 'Textures are always linearly addressed from (0.0, 0.0) at the top-left corner to (1.0, 1.0) at the bottom-right corner, as shown in the following illustration.'
-ms.assetid: '16fb04b9-4476-4dbe-a24f-51c0813a7917'
-title: 'Bilinear Texture Filtering (Direct3D 9)'
+Description: Textures are always linearly addressed from (0.0, 0.0) at the top-left corner to (1.0, 1.0) at the bottom-right corner, as shown in the following illustration.
+ms.assetid: 16fb04b9-4476-4dbe-a24f-51c0813a7917
+title: Bilinear Texture Filtering (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bilinear Texture Filtering (Direct3D 9)

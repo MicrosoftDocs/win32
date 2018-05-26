@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Resource Protection (WRP) prevents the replacement of essential system files, folders, and registry keys that are installed as part of Windows Vista or Windows Server 2008.'
-ms.assetid: '1cb67b4a-dc75-4bd7-b314-d695c10d5558'
+Description: Windows Resource Protection (WRP) prevents the replacement of essential system files, folders, and registry keys that are installed as part of Windows Vista or Windows Server 2008.
+ms.assetid: 1cb67b4a-dc75-4bd7-b314-d695c10d5558
 title: Detecting Resource Replacement
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Detecting Resource Replacement
@@ -10,7 +15,7 @@ Windows Resource Protection (WRP) prevents the replacement of essential system f
 
 WRP protects files, folders, and registry keys on Windows Vista or Windows Server 2008 by detecting and preventing attempts to replace protected resources. This protection is based on a Windows discretionary access control list (DACL) and access control lists (ACL) defined for protected resources. Permission for full access to modify WRP-protected resources is restricted to TrustedInstaller. WRP-protected resources can only be changed using the [Supported Resource Replacement Mechanisms](supported-file-replacement-mechanisms.md) with the Windows Modules Installer service. Applications attempting to modify a WRP-protected resource never change the resource and may receive an error message that states that access to the resource was denied.
 
-Applications and installers can use the [**SfcIsFileProtected**](sfcisfileprotected.md) and [**SfcIsKeyProtected**](sfciskeyprotected.md) functions to determine whether a file or registry key is protected.
+Applications and installers can use the [**SfcIsFileProtected**](/windows/win32/Sfc/nf-sfc-sfcisfileprotected?branch=master) and [**SfcIsKeyProtected**](/windows/win32/Sfc/nf-sfc-sfciskeyprotected?branch=master) functions to determine whether a file or registry key is protected.
 
 **Windows Server 2003 and Windows XP:  **
 
@@ -34,7 +39,7 @@ WFP also logs the file replacement attempt in the system event log. If the admin
 
 ## Retrieving the List of Protected Files
 
-The following example shows how applications and installers can use the [**SfcGetNextProtectedFile**](sfcgetnextprotectedfile.md) function to get the complete list of protected files.
+The following example shows how applications and installers can use the [**SfcGetNextProtectedFile**](/windows/win32/Sfc/nf-sfc-sfcgetnextprotectedfile?branch=master) function to get the complete list of protected files.
 
 
 ```C++

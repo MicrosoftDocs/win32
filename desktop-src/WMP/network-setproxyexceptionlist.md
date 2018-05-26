@@ -1,8 +1,11 @@
 ---
 title: Network.setProxyExceptionList method
 description: The setProxyExceptionList method specifies the proxy exception list.
-ms.assetid: 'af9202aa-fa4e-4726-908f-3fc5370e06df'
-keywords: ["setProxyExceptionList method Windows Media Player", "setProxyExceptionList method Windows Media Player , Network class", "Network class Windows Media Player , setProxyExceptionList method"]
+ms.assetid: af9202aa-fa4e-4726-908f-3fc5370e06df
+keywords:
+- setProxyExceptionList method Windows Media Player
+- setProxyExceptionList method Windows Media Player , Network class
+- Network class Windows Media Player , setProxyExceptionList method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.setProxyExceptionList method
@@ -106,9 +114,9 @@ alert("Proxy settings must be manual!");
 [**Network Object**](network-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

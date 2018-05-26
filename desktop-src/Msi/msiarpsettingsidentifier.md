@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MSIARPSETTINGSIDENTIFIER property contains a semi-colon delimited list of the registry locations where the application stores a user''s settings and preferences.'
-ms.assetid: '524ba004-d3a2-4619-8c98-362761a3ae7a'
+---
+Description: The MSIARPSETTINGSIDENTIFIER property contains a semi-colon delimited list of the registry locations where the application stores a users settings and preferences.
+ms.assetid: 524ba004-d3a2-4619-8c98-362761a3ae7a
 title: MSIARPSETTINGSIDENTIFIER property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIARPSETTINGSIDENTIFIER property

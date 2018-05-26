@@ -1,8 +1,14 @@
 ---
 title: Virtual Server Functions
-ms.assetid: 'f880764d-c42a-4af4-b701-e4baacd18597'
+ms.assetid: f880764d-c42a-4af4-b701-e4baacd18597
 description: 
-keywords: ["Virtual Server COM Interface Virtual Server , functions"]
+keywords:
+- Virtual Server COM Interface Virtual Server , functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual Server Functions

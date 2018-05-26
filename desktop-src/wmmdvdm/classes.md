@@ -1,8 +1,18 @@
 ---
 title: Classes
 description: Classes
-ms.assetid: '60690b24-63e9-4495-9562-9c7fc450f544'
-keywords: ["Windows Movie Maker,classes", "Movie Maker,classes", "programming reference,Windows Movie Maker classes", "reference for Windows Movie Maker,classes", "transforms,classes"]
+ms.assetid: 60690b24-63e9-4495-9562-9c7fc450f544
+keywords:
+- Windows Movie Maker,classes
+- Movie Maker,classes
+- programming reference,Windows Movie Maker classes
+- reference for Windows Movie Maker,classes
+- transforms,classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Classes

@@ -1,7 +1,12 @@
 ---
 title: Previous versions UI removed for local volumes
 description: Previous versions UI removed for local volumes
-ms.assetid: '0BD3D046-EB06-4C9A-952C-306AC99396C6'
+ms.assetid: 0BD3D046-EB06-4C9A-952C-306AC99396C6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Previous versions UI removed for local volumes

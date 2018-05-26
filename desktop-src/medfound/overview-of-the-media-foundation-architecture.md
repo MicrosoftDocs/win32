@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the general design of Microsoft Media Foundation. For information about using Media Foundation for specific programming tasks, see Media Foundation Programming Guide.'
-ms.assetid: 'DEA2B19A-CF15-4BF4-84C3-9A6417C942E2'
+Description: This topic describes the general design of Microsoft Media Foundation. For information about using Media Foundation for specific programming tasks, see Media Foundation Programming Guide.
+ms.assetid: DEA2B19A-CF15-4BF4-84C3-9A6417C942E2
 title: Overview of the Media Foundation Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of the Media Foundation Architecture

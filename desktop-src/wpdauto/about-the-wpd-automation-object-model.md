@@ -1,8 +1,19 @@
 ---
 title: About the WPD Automation Object Model
 description: The WPD Automation object model is made up of objects that represent a physical device and the services, storages, properties, methods, and events that are present on that device.
-ms.assetid: '0d8cc8ec-197b-4439-814a-0a39c0eb5f94'
-keywords: ["WPD Automation,object model", "WPD Automation,hierarchy of objects", "Windows Portable Devices (WPD),WPD Automation object model", "WPD (Windows Portable Devices),WPD Automation object model", "Windows Portable Devices (WPD),WPD Automation", "WPD (Windows Portable Devices),WPD Automation"]
+ms.assetid: 0d8cc8ec-197b-4439-814a-0a39c0eb5f94
+keywords:
+- WPD Automation,object model
+- WPD Automation,hierarchy of objects
+- Windows Portable Devices (WPD),WPD Automation object model
+- WPD (Windows Portable Devices),WPD Automation object model
+- Windows Portable Devices (WPD),WPD Automation
+- WPD (Windows Portable Devices),WPD Automation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the WPD Automation Object Model

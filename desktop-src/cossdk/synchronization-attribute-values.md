@@ -1,7 +1,12 @@
 ---
-Description: 'The synchronization attribute is a declarative property that specifies what type of synchronization you want your components to have when they are activated.'
-ms.assetid: '7f044ee5-b99e-4f0c-a680-b1e2672949fc'
+Description: The synchronization attribute is a declarative property that specifies what type of synchronization you want your components to have when they are activated.
+ms.assetid: 7f044ee5-b99e-4f0c-a680-b1e2672949fc
 title: Synchronization Attribute Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Synchronization Attribute Values

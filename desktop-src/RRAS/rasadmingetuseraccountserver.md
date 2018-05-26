@@ -1,8 +1,9 @@
 ---
 title: RasAdminGetUserAccountServer function
 description: The RasAdminGetUserAccountServer function retrieves the name of the server that has the user account database. Use the returned server name in the RasAdminUserGetInfo and RasAdminUserSetInfo functions to get or set information about a specified user.
-ms.assetid: 'db91aa48-32af-49ac-87ed-8c484926ca15'
-keywords: ["RasAdminGetUserAccountServer function RAS"]
+ms.assetid: db91aa48-32af-49ac-87ed-8c484926ca15
+keywords:
+- RasAdminGetUserAccountServer function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RasAdminGetUserAccountServer function
 
-\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminGetPDCServer**](mpradmingetpdcserver.md) function.\]
+\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminGetPDCServer**](/windows/win32/Mprapi/nf-mprapi-mpradmingetpdcserver?branch=master) function.\]
 
 The **RasAdminGetUserAccountServer** function retrieves the name of the server that has the user account database. Use the returned server name in the [**RasAdminUserGetInfo**](rasadminusergetinfo.md) and [**RasAdminUserSetInfo**](rasadminusersetinfo.md) functions to get or set information about a specified user.
 
@@ -24,9 +30,9 @@ The **RasAdminGetUserAccountServer** function retrieves the name of the server t
 
 ```C++
 DWORD RasAdminGetUserAccountServer(
-  _In_  const WCHAR  *lpszDomain,
-  _In_  const WCHAR  *lpszServer,
-  _Out_       LPWSTR lpszUserAccountServer
+  _In_  const WCHAR  *lpszDomain,
+  _In_  const WCHAR  *lpszServer,
+  _Out_       LPWSTR lpszUserAccountServer
 );
 ```
 
@@ -71,7 +77,7 @@ If the function fails, the return value can be the following error code.
 
 
 
- 
+ 
 
 There is no extended error information for this function; do not call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
 
@@ -91,8 +97,8 @@ Then use the name of the user account server in a call to the [**NetQueryDisplay
 
 |                                  |                                                                                        |
 |----------------------------------|----------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
-| End of server support<br/> | Windows 2000 Server<br/>                                                         |
+| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
+| End of server support<br/> | Windows 2000 Server<br/>                                                         |
 | Header<br/>                | <dl> <dt>Rassapi.h</dt> </dl>   |
 | Library<br/>               | <dl> <dt>Rassapi.lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
@@ -118,9 +124,9 @@ Then use the name of the user account server in a call to the [**NetQueryDisplay
 [**RasAdminUserSetInfo**](rasadminusersetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

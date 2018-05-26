@@ -2,13 +2,19 @@
 title: maybe attribute
 description: The keyword \ maybe\ indicates that the remote procedure call does not need to execute every time it is called and the client does not expect a response. Note that the \ maybe\ protocol ensures neither delivery nor completion of the call.
 ms.assetid: 163b9fd5-7dce-493e-95bc-63807f42a498
-keywords: ["maybe attribute MIDL"]
+keywords:
+- maybe attribute MIDL
 topic_type:
 - apiref
 api_name:
 - maybe
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # maybe attribute

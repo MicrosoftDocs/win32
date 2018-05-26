@@ -4,11 +4,12 @@ description: The property methods of the IGPMWMIFilter interface get and set the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '237f235f-f6b1-41b5-95cf-73f512484a68'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 237f235f-f6b1-41b5-95cf-73f512484a68
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMWMIFilter Property Methods GPMC"]
+keywords:
+- IGPMWMIFilter Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -25,11 +26,14 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMWMIFilter Property Methods
 
-The property methods of the [**IGPMWMIFilter**](igpmwmifilter.md) interface get and set the properties described in the following table. For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation .
+The property methods of the [**IGPMWMIFilter**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmwmifilter?branch=master) interface get and set the properties described in the following table. For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation .
 
 ## Properties
 
@@ -116,7 +120,7 @@ HRESULT get_Path(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -124,8 +128,8 @@ HRESULT get_Path(
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -137,15 +141,15 @@ HRESULT get_Path(
 
 <dl> <dt>
 
-[**IGPMWMIFilter**](igpmwmifilter.md)
+[**IGPMWMIFilter**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmwmifilter?branch=master)
 </dt> <dt>
 
-[**IGPMWMIFilterCollection**](igpmwmifiltercollection.md)
+[**IGPMWMIFilterCollection**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmwmifiltercollection?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

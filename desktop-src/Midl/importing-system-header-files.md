@@ -2,7 +2,13 @@
 title: Importing System Header Files
 description: While it is often possible to use the \ include directive to include header files in your IDL file, it is not recommended.
 ms.assetid: ff524965-424d-416d-97cd-c2780ebf69ef
-keywords: ["importing MIDL , system header files"]
+keywords:
+- importing MIDL , system header files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Importing System Header Files

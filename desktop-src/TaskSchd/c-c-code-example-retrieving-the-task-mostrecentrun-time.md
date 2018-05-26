@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving the Task MostRecentRun Time
 description: This example retrieves the time the task was last run and displays it on the screen. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: '683ff1e1-1cb0-4ef7-bca2-9c3a2b4d1bd0'
-keywords: ["retrieving task most recent run time Task Scheduler", "retrieving work item properties Task Scheduler , task most recent run time"]
+ms.assetid: 683ff1e1-1cb0-4ef7-bca2-9c3a2b4d1bd0
+keywords:
+- retrieving task most recent run time Task Scheduler
+- retrieving work item properties Task Scheduler , task most recent run time
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving the Task MostRecentRun Time

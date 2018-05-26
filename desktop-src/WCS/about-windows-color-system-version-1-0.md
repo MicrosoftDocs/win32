@@ -1,8 +1,20 @@
 ---
 title: About Windows Color System Version 1.0
 description: About Windows Color System Version 1.0
-ms.assetid: '2a162840-660e-4a66-ad16-ef3c9b07925e'
-keywords: ["Windows Color System (WCS),about", "WCS (Windows Color System),about", "image color management,Windows Color System (WCS)", "color management,Windows Color System (WCS)", "colors,Windows Color System (WCS)", "Image Color Management (ICM)", "ICM (Image Color Management)"]
+ms.assetid: 2a162840-660e-4a66-ad16-ef3c9b07925e
+keywords:
+- Windows Color System (WCS),about
+- WCS (Windows Color System),about
+- image color management,Windows Color System (WCS)
+- color management,Windows Color System (WCS)
+- colors,Windows Color System (WCS)
+- Image Color Management (ICM)
+- ICM (Image Color Management)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Windows Color System Version 1.0

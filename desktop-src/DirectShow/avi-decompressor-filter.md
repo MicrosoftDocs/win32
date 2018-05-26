@@ -1,7 +1,12 @@
 ---
 Description: AVI Decompressor Filter
-ms.assetid: '6a9914db-483a-429c-9b26-9451578951c9'
+ms.assetid: 6a9914db-483a-429c-9b26-9451578951c9
 title: AVI Decompressor Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVI Decompressor Filter
@@ -13,7 +18,7 @@ When the Filter Graph Manager is building a graph to render an AVI file, it chec
 > [!Note]  
 > MPEG decompressors are never implemented as VCM codecs, but only as native DirectShow filters.
 
- 
+ 
 
 On its upstream pin the AVI Decompressor typically connects to the [AVI Splitter](avi-splitter-filter.md). On its output pin it typically connects to the [Video Renderer](video-renderer-filter.md) or the [AVI Mux Filter](avi-mux-filter.md).
 
@@ -21,11 +26,11 @@ On its upstream pin the AVI Decompressor typically connects to the [AVI Splitter
 
 |                                          |                                                                                                                                                                                                                    |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IBaseFilter**](ibasefilter.md)                                                                                                                                                                                 |
+| Filter Interfaces                        | [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)                                                                                                                                                                                 |
 | Input Pin Media Types                    | Major type: MEDIATYPE\_VideoSubtype: Must correspond to the FOURCC code for the compression type. For more information, see [FOURCC Codes](fourcc-codes.md).<br/> Format type: FORMAT\_VideoInfo<br/> |
-| Input Pin Interfaces                     | [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                                                                                             |
+| Input Pin Interfaces                     | [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                                                                                             |
 | Output Pin Media Types                   | MEDIATYPE\_Video, MEDIASUBTYPE\_NULL, FORMAT\_VideoInfo                                                                                                                                                            |
-| Output Pin Interfaces                    | [**IMediaPosition**](imediaposition.md), [**IMediaSeeking**](imediaseeking.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                                                 |
+| Output Pin Interfaces                    | [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master), [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                                                 |
 | Filter CLSID                             | CLSID\_AVIDec                                                                                                                                                                                                      |
 | Property Page CLSID                      | No property page.                                                                                                                                                                                                  |
 | Executable                               | quartz.dll                                                                                                                                                                                                         |
@@ -34,7 +39,7 @@ On its upstream pin the AVI Decompressor typically connects to the [AVI Splitter
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -43,9 +48,9 @@ On its upstream pin the AVI Decompressor typically connects to the [AVI Splitter
 [DirectShow Filters](directshow-filters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

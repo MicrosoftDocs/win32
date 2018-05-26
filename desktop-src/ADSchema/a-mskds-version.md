@@ -4,17 +4,22 @@ description: Version number of this root key.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ae91b32a-909f-4645-a520-d18eeba22208'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ae91b32a-909f-4645-a520-d18eeba22208
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Kds-Version attribute AD Schema", "msKds-Version attribute AD Schema"]
+keywords:
+- ms-Kds-Version attribute AD Schema
+- msKds-Version attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Kds-Version
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Kds-Version attribute
@@ -38,7 +43,7 @@ Version number of this root key.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ Version number of this root key.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

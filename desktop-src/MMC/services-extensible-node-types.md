@@ -4,10 +4,13 @@ description: The Services snap-in allows extensions for the following node type.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '37956595-2c6b-41fc-a6db-a9ca561fa5cb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 37956595-2c6b-41fc-a6db-a9ca561fa5cb
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Services Extensible Node Types

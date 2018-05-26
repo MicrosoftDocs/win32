@@ -1,7 +1,12 @@
 ---
-Description: 'Starts the replication of a virtual machine.'
-ms.assetid: '58e89329-1ad4-4473-856d-ebfd7a863fa8'
-title: 'StartReplication method of the Msvm\_ReplicationService class'
+Description: Starts the replication of a virtual machine.
+ms.assetid: 58e89329-1ad4-4473-856d-ebfd7a863fa8
+title: StartReplication method of the Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StartReplication method of the Msvm\_ReplicationService class
@@ -13,11 +18,11 @@ Starts the replication of a virtual machine. When a client calls this method for
 
 ```mof
 uint32 StartReplication(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  uint16                 InitialReplicationType,
-  [in]  string                 InitialReplicationExportLocation,
-  [in]  datetime               StartTime,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  uint16                 InitialReplicationType,
+  [in]  string                 InitialReplicationExportLocation,
+  [in]  datetime               StartTime,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -149,8 +154,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -164,9 +169,9 @@ This method returns one of the following values.
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following are the registry functions.'
-ms.assetid: 'a490b748-42e8-462b-9a7f-a8b21438ea79'
+Description: The following are the registry functions.
+ms.assetid: a490b748-42e8-462b-9a7f-a8b21438ea79
 title: Registry Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Functions
@@ -12,47 +17,47 @@ The following are the registry functions.
 
 | Function                                                           | Description                                                                                                                                    |
 |--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetSystemRegistryQuota**](getsystemregistryquota.md)           | Retrieves the current size of the registry and the maximum size that the registry is allowed to attain on the system.                          |
-| [**RegCloseKey**](regclosekey.md)                                 | Closes a handle to the specified registry key.                                                                                                 |
-| [**RegConnectRegistry**](regconnectregistry.md)                   | Establishes a connection to a predefined registry handle on another computer.                                                                  |
-| [**RegCopyTree**](regcopytree.md)                                 | Copies the specified registry key, along with its values and subkeys, to the specified destination key.                                        |
-| [**RegCreateKeyEx**](regcreatekeyex.md)                           | Creates the specified registry key.                                                                                                            |
-| [**RegCreateKeyTransacted**](regcreatekeytransacted.md)           | Creates the specified registry key and associates it with a transaction.                                                                       |
-| [**RegDeleteKey**](regdeletekey.md)                               | Deletes a subkey and its values.                                                                                                               |
-| [**RegDeleteKeyEx**](regdeletekeyex.md)                           | Deletes a subkey and its values from the specified platform-specific view of the registry.                                                     |
-| [**RegDeleteKeyTransacted**](regdeletekeytransacted.md)           | Deletes a subkey and its values from the specified platform-specific view of the registry as a transacted operation.                           |
-| [**RegDeleteKeyValue**](regdeletekeyvalue.md)                     | Removes the specified value from the specified registry key and subkey.                                                                        |
-| [**RegDeleteTree**](regdeletetree.md)                             | Deletes the subkeys and values of the specified key recursively.                                                                               |
-| [**RegDeleteValue**](regdeletevalue.md)                           | Removes a named value from the specified registry key.                                                                                         |
-| [**RegDisablePredefinedCache**](regdisablepredefinedcache.md)     | Disables handle caching for the predefined registry handle for **HKEY\_CURRENT\_USER** for the current process.                                |
-| [**RegDisablePredefinedCacheEx**](regdisablepredefinedcacheex.md) | Disables handle caching for all predefined registry handles for the current process.                                                           |
-| [**RegDisableReflectionKey**](regdisablereflectionkey.md)         | Disables registry reflection for the specified key.                                                                                            |
-| [**RegEnableReflectionKey**](regenablereflectionkey.md)           | Enables registry reflection for the specified disabled key.                                                                                    |
-| [**RegEnumKeyEx**](regenumkeyex.md)                               | Enumerates the subkeys of the specified open registry key.                                                                                     |
-| [**RegEnumValue**](regenumvalue.md)                               | Enumerates the values for the specified open registry key.                                                                                     |
-| [**RegFlushKey**](regflushkey.md)                                 | Writes all attributes of the specified open registry key into the registry.                                                                    |
+| [**GetSystemRegistryQuota**](/windows/win32/Winbase/nf-winbase-getsystemregistryquota?branch=master)           | Retrieves the current size of the registry and the maximum size that the registry is allowed to attain on the system.                          |
+| [**RegCloseKey**](/windows/win32/Winreg/nf-winreg-regclosekey?branch=master)                                 | Closes a handle to the specified registry key.                                                                                                 |
+| [**RegConnectRegistry**](/windows/win32/Winreg/nf-winreg-regconnectregistrya?branch=master)                   | Establishes a connection to a predefined registry handle on another computer.                                                                  |
+| [**RegCopyTree**](/windows/win32/Winreg/nf-winreg-regcopytreea?branch=master)                                 | Copies the specified registry key, along with its values and subkeys, to the specified destination key.                                        |
+| [**RegCreateKeyEx**](/windows/win32/Winreg/nf-winreg-regcreatekeyexa?branch=master)                           | Creates the specified registry key.                                                                                                            |
+| [**RegCreateKeyTransacted**](/windows/win32/Winreg/nf-winreg-regcreatekeytransacteda?branch=master)           | Creates the specified registry key and associates it with a transaction.                                                                       |
+| [**RegDeleteKey**](/windows/win32/Winreg/nf-winreg-regdeletekeya?branch=master)                               | Deletes a subkey and its values.                                                                                                               |
+| [**RegDeleteKeyEx**](/windows/win32/Winreg/nf-winreg-regdeletekeyexa?branch=master)                           | Deletes a subkey and its values from the specified platform-specific view of the registry.                                                     |
+| [**RegDeleteKeyTransacted**](/windows/win32/Winreg/nf-winreg-regdeletekeytransacteda?branch=master)           | Deletes a subkey and its values from the specified platform-specific view of the registry as a transacted operation.                           |
+| [**RegDeleteKeyValue**](/windows/win32/Winreg/nf-winreg-regdeletekeyvaluea?branch=master)                     | Removes the specified value from the specified registry key and subkey.                                                                        |
+| [**RegDeleteTree**](/windows/win32/Winreg/nf-winreg-regdeletetreea?branch=master)                             | Deletes the subkeys and values of the specified key recursively.                                                                               |
+| [**RegDeleteValue**](/windows/win32/Winreg/nf-winreg-regdeletevaluea?branch=master)                           | Removes a named value from the specified registry key.                                                                                         |
+| [**RegDisablePredefinedCache**](/windows/win32/Winreg/nf-winreg-regdisablepredefinedcache?branch=master)     | Disables handle caching for the predefined registry handle for **HKEY\_CURRENT\_USER** for the current process.                                |
+| [**RegDisablePredefinedCacheEx**](/windows/win32/Winreg/nf-winreg-regdisablepredefinedcacheex?branch=master) | Disables handle caching for all predefined registry handles for the current process.                                                           |
+| [**RegDisableReflectionKey**](/windows/win32/Winreg/nf-winreg-regdisablereflectionkey?branch=master)         | Disables registry reflection for the specified key.                                                                                            |
+| [**RegEnableReflectionKey**](/windows/win32/Winreg/nf-winreg-regenablereflectionkey?branch=master)           | Enables registry reflection for the specified disabled key.                                                                                    |
+| [**RegEnumKeyEx**](/windows/win32/Winreg/nf-winreg-regenumkeyexa?branch=master)                               | Enumerates the subkeys of the specified open registry key.                                                                                     |
+| [**RegEnumValue**](/windows/win32/Winreg/nf-winreg-regenumvaluea?branch=master)                               | Enumerates the values for the specified open registry key.                                                                                     |
+| [**RegFlushKey**](/windows/win32/Winreg/nf-winreg-regflushkey?branch=master)                                 | Writes all attributes of the specified open registry key into the registry.                                                                    |
 | [**RegGetKeySecurity**](https://msdn.microsoft.com/library/windows/desktop/aa379313)                | Retrieves a copy of the security descriptor protecting the specified open registry key.                                                        |
-| [**RegGetValue**](reggetvalue.md)                                 | Retrieves the type and data for the specified registry value.                                                                                  |
-| [**RegLoadKey**](regloadkey.md)                                   | Creates a subkey under **HKEY\_USERS** or **HKEY\_LOCAL\_MACHINE** and stores registration information from a specified file into that subkey. |
-| [**RegLoadMUIString**](regloadmuistring.md)                       | Loads the specified string from the specified key and subkey.                                                                                  |
-| [**RegNotifyChangeKeyValue**](regnotifychangekeyvalue.md)         | Notifies the caller about changes to the attributes or contents of a specified registry key.                                                   |
-| [**RegOpenCurrentUser**](regopencurrentuser.md)                   | Retrieves a handle to the **HKEY\_CURRENT\_USER** key for the user the current thread is impersonating.                                        |
-| [**RegOpenKeyEx**](regopenkeyex.md)                               | Opens the specified registry key.                                                                                                              |
-| [**RegOpenKeyTransacted**](regopenkeytransacted.md)               | Opens the specified registry key and associates it with a transaction.                                                                         |
-| [**RegOpenUserClassesRoot**](regopenuserclassesroot.md)           | Retrieves a handle to the **HKEY\_CLASSES\_ROOT** key for the specified user.                                                                  |
-| [**RegOverridePredefKey**](regoverridepredefkey.md)               | Maps a predefined registry key to a specified registry key.                                                                                    |
-| [**RegQueryInfoKey**](regqueryinfokey.md)                         | Retrieves information about the specified registry key.                                                                                        |
-| [**RegQueryMultipleValues**](regquerymultiplevalues.md)           | Retrieves the type and data for a list of value names associated with an open registry key.                                                    |
-| [**RegQueryReflectionKey**](regqueryreflectionkey.md)             | Determines whether reflection has been disabled or enabled for the specified key.                                                              |
-| [**RegQueryValueEx**](regqueryvalueex.md)                         | Retrieves the type and data for a specified value name associated with an open registry key.                                                   |
-| [**RegReplaceKey**](regreplacekey.md)                             | Replaces the file backing a registry key and all its subkeys with another file.                                                                |
-| [**RegRestoreKey**](regrestorekey.md)                             | Reads the registry information in a specified file and copies it over the specified key.                                                       |
-| [**RegSaveKey**](regsavekey.md)                                   | Saves the specified key and all of its subkeys and values to a new file.                                                                       |
-| [**RegSaveKeyEx**](regsavekeyex.md)                               | Saves the specified key and all of its subkeys and values to a new file. You can specify the format for the saved key or hive.                 |
-| [**RegSetKeyValue**](regsetkeyvalue.md)                           | Sets the data for the specified value in the specified registry key and subkey.                                                                |
+| [**RegGetValue**](/windows/win32/Winreg/nf-winreg-reggetvaluea?branch=master)                                 | Retrieves the type and data for the specified registry value.                                                                                  |
+| [**RegLoadKey**](/windows/win32/Winreg/nf-winreg-regloadkeya?branch=master)                                   | Creates a subkey under **HKEY\_USERS** or **HKEY\_LOCAL\_MACHINE** and stores registration information from a specified file into that subkey. |
+| [**RegLoadMUIString**](/windows/win32/Winreg/nf-winreg-regloadmuistringa?branch=master)                       | Loads the specified string from the specified key and subkey.                                                                                  |
+| [**RegNotifyChangeKeyValue**](/windows/win32/Winreg/nf-winreg-regnotifychangekeyvalue?branch=master)         | Notifies the caller about changes to the attributes or contents of a specified registry key.                                                   |
+| [**RegOpenCurrentUser**](/windows/win32/Winreg/nf-winreg-regopencurrentuser?branch=master)                   | Retrieves a handle to the **HKEY\_CURRENT\_USER** key for the user the current thread is impersonating.                                        |
+| [**RegOpenKeyEx**](/windows/win32/Winreg/nf-winreg-regopenkeyexa?branch=master)                               | Opens the specified registry key.                                                                                                              |
+| [**RegOpenKeyTransacted**](/windows/win32/Winreg/nf-winreg-regopenkeytransacteda?branch=master)               | Opens the specified registry key and associates it with a transaction.                                                                         |
+| [**RegOpenUserClassesRoot**](/windows/win32/Winreg/nf-winreg-regopenuserclassesroot?branch=master)           | Retrieves a handle to the **HKEY\_CLASSES\_ROOT** key for the specified user.                                                                  |
+| [**RegOverridePredefKey**](/windows/win32/Winreg/nf-winreg-regoverridepredefkey?branch=master)               | Maps a predefined registry key to a specified registry key.                                                                                    |
+| [**RegQueryInfoKey**](/windows/win32/Winreg/nf-winreg-regqueryinfokeya?branch=master)                         | Retrieves information about the specified registry key.                                                                                        |
+| [**RegQueryMultipleValues**](/windows/win32/Winreg/nf-winreg-regquerymultiplevaluesa?branch=master)           | Retrieves the type and data for a list of value names associated with an open registry key.                                                    |
+| [**RegQueryReflectionKey**](/windows/win32/WinReg/nf-winreg-regqueryreflectionkey?branch=master)             | Determines whether reflection has been disabled or enabled for the specified key.                                                              |
+| [**RegQueryValueEx**](/windows/win32/Winreg/nf-winreg-regqueryvalueexa?branch=master)                         | Retrieves the type and data for a specified value name associated with an open registry key.                                                   |
+| [**RegReplaceKey**](/windows/win32/Winreg/nf-winreg-regreplacekeya?branch=master)                             | Replaces the file backing a registry key and all its subkeys with another file.                                                                |
+| [**RegRestoreKey**](/windows/win32/Winreg/nf-winreg-regrestorekeya?branch=master)                             | Reads the registry information in a specified file and copies it over the specified key.                                                       |
+| [**RegSaveKey**](/windows/win32/Winreg/nf-winreg-regsavekeya?branch=master)                                   | Saves the specified key and all of its subkeys and values to a new file.                                                                       |
+| [**RegSaveKeyEx**](/windows/win32/Winreg/nf-winreg-regsavekeyexa?branch=master)                               | Saves the specified key and all of its subkeys and values to a new file. You can specify the format for the saved key or hive.                 |
+| [**RegSetKeyValue**](/windows/win32/Winreg/nf-winreg-regsetkeyvaluea?branch=master)                           | Sets the data for the specified value in the specified registry key and subkey.                                                                |
 | [**RegSetKeySecurity**](https://msdn.microsoft.com/library/windows/desktop/aa379314)                | Sets the security of an open registry key.                                                                                                     |
-| [**RegSetValueEx**](regsetvalueex.md)                             | Sets the data and type of a specified value under a registry key.                                                                              |
-| [**RegUnLoadKey**](regunloadkey.md)                               | Unloads the specified registry key and its subkeys from the registry.                                                                          |
+| [**RegSetValueEx**](/windows/win32/Winreg/nf-winreg-regsetvalueexa?branch=master)                             | Sets the data and type of a specified value under a registry key.                                                                              |
+| [**RegUnLoadKey**](/windows/win32/Winreg/nf-winreg-regunloadkeya?branch=master)                               | Unloads the specified registry key and its subkeys from the registry.                                                                          |
 
 
 
@@ -98,19 +103,19 @@ The following are the initialization-file functions. They retrieve information f
 
 | Function                                                               | Description                                                                                        |
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [**GetPrivateProfileInt**](getprivateprofileint.md)                   | Retrieves an integer associated with a key in the specified section of an initialization file.     |
-| [**GetPrivateProfileSection**](getprivateprofilesection.md)           | Retrieves all the keys and values for the specified section of an initialization file.             |
-| [**GetPrivateProfileSectionNames**](getprivateprofilesectionnames.md) | Retrieves the names of all sections in an initialization file.                                     |
-| [**GetPrivateProfileString**](getprivateprofilestring.md)             | Retrieves a string from the specified section in an initialization file.                           |
-| [**GetPrivateProfileStruct**](getprivateprofilestruct.md)             | Retrieves the data associated with a key in the specified section of an initialization file.       |
-| [**GetProfileInt**](getprofileint.md)                                 | Retrieves an integer from a key in the specified section of the Win.ini file.                      |
-| [**GetProfileSection**](getprofilesection.md)                         | Retrieves all the keys and values for the specified section of the Win.ini file.                   |
-| [**GetProfileString**](getprofilestring.md)                           | Retrieves the string associated with a key in the specified section of the Win.ini file.           |
-| [**WritePrivateProfileSection**](writeprivateprofilesection.md)       | Replaces the keys and values for the specified section in an initialization file.                  |
-| [**WritePrivateProfileString**](writeprivateprofilestring.md)         | Copies a string into the specified section of an initialization file.                              |
-| [**WritePrivateProfileStruct**](writeprivateprofilestruct.md)         | Copies data into a key in the specified section of an initialization file.                         |
-| [**WriteProfileSection**](writeprofilesection.md)                     | Replaces the contents of the specified section in the Win.ini file with specified keys and values. |
-| [**WriteProfileString**](writeprofilestring.md)                       | Copies a string into the specified section of the Win.ini file.                                    |
+| [**GetPrivateProfileInt**](/windows/win32/Winbase/nf-winbase-getprivateprofileint?branch=master)                   | Retrieves an integer associated with a key in the specified section of an initialization file.     |
+| [**GetPrivateProfileSection**](/windows/win32/Winbase/nf-winbase-getprivateprofilesection?branch=master)           | Retrieves all the keys and values for the specified section of an initialization file.             |
+| [**GetPrivateProfileSectionNames**](/windows/win32/Winbase/nf-winbase-getprivateprofilesectionnames?branch=master) | Retrieves the names of all sections in an initialization file.                                     |
+| [**GetPrivateProfileString**](/windows/win32/Winbase/nf-winbase-getprivateprofilestring?branch=master)             | Retrieves a string from the specified section in an initialization file.                           |
+| [**GetPrivateProfileStruct**](/windows/win32/Winbase/nf-winbase-getprivateprofilestruct?branch=master)             | Retrieves the data associated with a key in the specified section of an initialization file.       |
+| [**GetProfileInt**](/windows/win32/Winbase/nf-winbase-getprofileinta?branch=master)                                 | Retrieves an integer from a key in the specified section of the Win.ini file.                      |
+| [**GetProfileSection**](/windows/win32/Winbase/nf-winbase-getprofilesectiona?branch=master)                         | Retrieves all the keys and values for the specified section of the Win.ini file.                   |
+| [**GetProfileString**](/windows/win32/Winbase/nf-winbase-getprofilestringa?branch=master)                           | Retrieves the string associated with a key in the specified section of the Win.ini file.           |
+| [**WritePrivateProfileSection**](/windows/win32/Winbase/nf-winbase-writeprivateprofilesectiona?branch=master)       | Replaces the keys and values for the specified section in an initialization file.                  |
+| [**WritePrivateProfileString**](/windows/win32/Winbase/nf-winbase-writeprivateprofilestringa?branch=master)         | Copies a string into the specified section of an initialization file.                              |
+| [**WritePrivateProfileStruct**](/windows/win32/Winbase/nf-winbase-writeprivateprofilestructa?branch=master)         | Copies data into a key in the specified section of an initialization file.                         |
+| [**WriteProfileSection**](/windows/win32/Winbase/nf-winbase-writeprofilesectiona?branch=master)                     | Replaces the contents of the specified section in the Win.ini file with specified keys and values. |
+| [**WriteProfileString**](/windows/win32/Winbase/nf-winbase-writeprofilestringa?branch=master)                       | Copies a string into the specified section of the Win.ini file.                                    |
 
 
 
@@ -120,11 +125,11 @@ The following are the initialization-file functions. They retrieve information f
 
 These functions are provided only for compatibility with 16-bit versions of Windows:
 
--   [**RegCreateKey**](regcreatekey.md)
--   [**RegEnumKey**](regenumkey.md)
--   [**RegOpenKey**](regopenkey.md)
--   [**RegQueryValue**](regqueryvalue.md)
--   [**RegSetValue**](regsetvalue.md)
+-   [**RegCreateKey**](/windows/win32/Winreg/nf-winreg-regcreatekeya?branch=master)
+-   [**RegEnumKey**](/windows/win32/Winreg/nf-winreg-regenumkeya?branch=master)
+-   [**RegOpenKey**](/windows/win32/Winreg/nf-winreg-regopenkeya?branch=master)
+-   [**RegQueryValue**](/windows/win32/Winreg/nf-winreg-regqueryvaluea?branch=master)
+-   [**RegSetValue**](/windows/win32/Winreg/nf-winreg-regsetvaluea?branch=master)
 
  
 

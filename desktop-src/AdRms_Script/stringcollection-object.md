@@ -1,13 +1,16 @@
 ---
-Description: 'Defines methods and properties that can be used to manage a collection of string objects.'
+Description: Defines methods and properties that can be used to manage a collection of string objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '124fc5d5-9ef5-4d9b-8231-9d98a15943a1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 124fc5d5-9ef5-4d9b-8231-9d98a15943a1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: StringCollection object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # StringCollection object
@@ -43,7 +46,7 @@ The **StringCollection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -58,7 +61,7 @@ The **StringCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -158,7 +161,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -176,9 +179,9 @@ END SUB
 [**UserRightsItem**](userrightsitem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

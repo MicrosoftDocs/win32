@@ -2,7 +2,13 @@
 title: The Interface Registration File
 description: The interface registration file collects information that helps in the registration of COM interfaces packaged into a DLL or EXE file.
 ms.assetid: 203303dc-121e-4bf4-b648-a35b956a56ee
-keywords: ["interface registration file MIDL"]
+keywords:
+- interface registration file MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Interface Registration File

@@ -1,7 +1,12 @@
 ---
 Description: Using Wireless Hosted Network and Internet Connection Sharing
-ms.assetid: '56e86ef8-f759-4e56-a591-74e03430125a'
+ms.assetid: 56e86ef8-f759-4e56-a591-74e03430125a
 title: Using Wireless Hosted Network and Internet Connection Sharing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Wireless Hosted Network and Internet Connection Sharing
@@ -77,19 +82,19 @@ Windows provides a platform where more than one concurrent application is allowe
 
 There are two sets of functions to start and stop a Hosted Network.
 
-Multiple applications may require the use of the wireless Hosted Network. The [**WlanHostedNetworkStartUsing**](wlanhostednetworkstartusing.md) and [**WlanHostedNetworkStopUsing**](wlanhostednetworkstopusing.md) functions start and stop a wireless Hosted Network in a way that is compatible with other concurrent applications. The **WlanHostedNetworkStartUsing** and **WlanHostedNetworkStopUsing** functions allow an application to have a reference to the wireless Hosted Network. This mechanism keeps the wireless Hosted Network running provided that at least one other application has a current reference to the wireless Hosted Network. Any user can call these functions. Successful calls to **WlanHostedNetworkStartUsing** must be matched by calls to the **WlanHostedNetworkStopUsing** function. Any Hosted Network state change caused by the **WlanHostedNetworkStartUsing** function would be automatically undone if the calling application closes its calling handle (by calling [**WlanCloseHandle**](wlanclosehandle.md) with the same *hClientHandle* parameter passed to **WlanHostedNetworkStartUsing**) or if the process ends.
+Multiple applications may require the use of the wireless Hosted Network. The [**WlanHostedNetworkStartUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstartusing?branch=master) and [**WlanHostedNetworkStopUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstopusing?branch=master) functions start and stop a wireless Hosted Network in a way that is compatible with other concurrent applications. The **WlanHostedNetworkStartUsing** and **WlanHostedNetworkStopUsing** functions allow an application to have a reference to the wireless Hosted Network. This mechanism keeps the wireless Hosted Network running provided that at least one other application has a current reference to the wireless Hosted Network. Any user can call these functions. Successful calls to **WlanHostedNetworkStartUsing** must be matched by calls to the **WlanHostedNetworkStopUsing** function. Any Hosted Network state change caused by the **WlanHostedNetworkStartUsing** function would be automatically undone if the calling application closes its calling handle (by calling [**WlanCloseHandle**](/windows/win32/wlanapi/nf-wlanapi-wlanclosehandle?branch=master) with the same *hClientHandle* parameter passed to **WlanHostedNetworkStartUsing**) or if the process ends.
 
-The [**WlanHostedNetworkForceStart**](wlanhostednetworkforcestart.md) and [**WlanHostedNetworkForceStop**](wlanhostednetworkforcestop.md) functions force start and stop a wireless Hosted Network. These functions can only be called if the user has the appropriate elevated privilege. Successful calls to **WlanHostedNetworkForceStart** may eventually be matched by a call to the **WlanHostedNetworkForceStop** function, depending on the application design. These functions transition the wireless Hosted Network state without associating the request with the application's calling handle. Any Hosted Network state change caused by the **WlanHostedNetworkForceStart** function would not be automatically undone if the calling application closes its calling handle (by calling [**WlanCloseHandle**](wlanclosehandle.md) with the same *hClientHandle* parameter passed to [**WlanHostedNetworkStartUsing**](wlanhostednetworkstartusing.md)) or if the process ends. If the application that called the **WlanHostedNetworkForceStart** function closes without calling one of the functions to stop the wireless Hosted Network, then Hosted Network is left running. An application might call the **WlanHostedNetworkForceStart** function after ensuring that an elevated system user accepts the increased power requirements involved in running the wireless Hosted Network for extended periods of time.
+The [**WlanHostedNetworkForceStart**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestart?branch=master) and [**WlanHostedNetworkForceStop**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop?branch=master) functions force start and stop a wireless Hosted Network. These functions can only be called if the user has the appropriate elevated privilege. Successful calls to **WlanHostedNetworkForceStart** may eventually be matched by a call to the **WlanHostedNetworkForceStop** function, depending on the application design. These functions transition the wireless Hosted Network state without associating the request with the application's calling handle. Any Hosted Network state change caused by the **WlanHostedNetworkForceStart** function would not be automatically undone if the calling application closes its calling handle (by calling [**WlanCloseHandle**](/windows/win32/wlanapi/nf-wlanapi-wlanclosehandle?branch=master) with the same *hClientHandle* parameter passed to [**WlanHostedNetworkStartUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstartusing?branch=master)) or if the process ends. If the application that called the **WlanHostedNetworkForceStart** function closes without calling one of the functions to stop the wireless Hosted Network, then Hosted Network is left running. An application might call the **WlanHostedNetworkForceStart** function after ensuring that an elevated system user accepts the increased power requirements involved in running the wireless Hosted Network for extended periods of time.
 
 The general recommendations on which functions to call to start and stop a wireless Hosted Network are as follows:
 
--   Use the [**WlanHostedNetworkStartUsing**](wlanhostednetworkstartusing.md) and [**WlanHostedNetworkStopUsing**](wlanhostednetworkstopusing.md) functions within an application to start and stop a wireless Hosted Network.
--   Do not use the [**WlanHostedNetworkForceStart**](wlanhostednetworkforcestart.md) function to start a wireless Hosted Network unless it is absolutely required by the application. The **WlanHostedNetworkForceStart** function also requires elevated privileges.
--   Only use the [**WlanHostedNetworkForceStop**](wlanhostednetworkforcestop.md) function as a recovery method. The **WlanHostedNetworkForceStop** function causes a wireless Hosted Network to stop immediately. Other applications that listen for wireless Hosted Network notifications may need to take recovery actions. For more information, see the discussion below on the recovery sequence for wireless Hosted Network.
+-   Use the [**WlanHostedNetworkStartUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstartusing?branch=master) and [**WlanHostedNetworkStopUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstopusing?branch=master) functions within an application to start and stop a wireless Hosted Network.
+-   Do not use the [**WlanHostedNetworkForceStart**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestart?branch=master) function to start a wireless Hosted Network unless it is absolutely required by the application. The **WlanHostedNetworkForceStart** function also requires elevated privileges.
+-   Only use the [**WlanHostedNetworkForceStop**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop?branch=master) function as a recovery method. The **WlanHostedNetworkForceStop** function causes a wireless Hosted Network to stop immediately. Other applications that listen for wireless Hosted Network notifications may need to take recovery actions. For more information, see the discussion below on the recovery sequence for wireless Hosted Network.
 
 ## Start Sequence for Wireless Hosted Network
 
-For an application that starts a wireless Hosted Network with full ICS, the recommendation is to start the wireless Hosted Network, then start full ICS. If a wireless Hosted Network is already running, an application should use the [**WlanHostedNetworkForceStop**](wlanhostednetworkforcestop.md) function to stop the wireless Hosted Network only if full ICS is required but has not been enabled before the Hosted Network was started. This will allow other applications to recover from potential disruptions caused by the start of full ICS. For more information, see the discussion below on the recovery sequence for wireless Hosted Network. The combined operation should succeed and fail as a whole.
+For an application that starts a wireless Hosted Network with full ICS, the recommendation is to start the wireless Hosted Network, then start full ICS. If a wireless Hosted Network is already running, an application should use the [**WlanHostedNetworkForceStop**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop?branch=master) function to stop the wireless Hosted Network only if full ICS is required but has not been enabled before the Hosted Network was started. This will allow other applications to recover from potential disruptions caused by the start of full ICS. For more information, see the discussion below on the recovery sequence for wireless Hosted Network. The combined operation should succeed and fail as a whole.
 
 > [!Note]  
 > The wireless Hosted Network must be started before attempting to enumerate the corresponding adapter using the [**IEnumNetSharingEveryConnection**](ics.ienumnetsharingeveryconnection) interface.
@@ -98,37 +103,37 @@ For an application that starts a wireless Hosted Network with full ICS, the reco
 
 The following ordered steps are the recommended start sequence in an application using wireless Hosted Network with full ICS:
 
--   Call the [**WlanHostedNetworkInitSettings**](wlanhostednetworkinitsettings.md) function to make sure wireless Hosted Network is configured and ready to be used.
--   Call the [**WlanHostedNetworkQueryStatus**](wlanhostednetworkquerystatus.md) and [**WlanHostedNetworkQueryProperty**](wlanhostednetworkqueryproperty.md) functions to determine if the wireless Hosted Network is allowed and available. If the wireless Hosted Network is not allowed and not available, return an error.
+-   Call the [**WlanHostedNetworkInitSettings**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkinitsettings?branch=master) function to make sure wireless Hosted Network is configured and ready to be used.
+-   Call the [**WlanHostedNetworkQueryStatus**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkquerystatus?branch=master) and [**WlanHostedNetworkQueryProperty**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkqueryproperty?branch=master) functions to determine if the wireless Hosted Network is allowed and available. If the wireless Hosted Network is not allowed and not available, return an error.
 -   Test to see if the ICS Service used for full ICS is allowed. If the ICS service cannot be started, return an error.
--   Call the [**WlanHostedNetworkForceStop**](wlanhostednetworkforcestop.md) function to force a stop of the wireless Hosted Network.
--   Call the [**WlanHostedNetworkStartUsing**](wlanhostednetworkstartusing.md) function to start the wireless Hosted Network.
+-   Call the [**WlanHostedNetworkForceStop**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop?branch=master) function to force a stop of the wireless Hosted Network.
+-   Call the [**WlanHostedNetworkStartUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstartusing?branch=master) function to start the wireless Hosted Network.
 -   If the wireless Hosted Network fails to start, return an error.
 -   If full ICS is already running and the current public or private interface is different from the new interface to be used, cache the current public and private interfaces. An application may also choose to return an error or prompt the user if ICS integration is already running.
 -   Start full ICS with the new settings for the public and private interfaces.
--   If full ICS fails to start with these settings, try to start full ICS service with the cached public and private interfaces if full ICS was running before. Call the [**WlanHostedNetworkForceStop**](wlanhostednetworkforcestop.md) function to stop the wireless Hosted Network and return an error.
+-   If full ICS fails to start with these settings, try to start full ICS service with the cached public and private interfaces if full ICS was running before. Call the [**WlanHostedNetworkForceStop**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop?branch=master) function to stop the wireless Hosted Network and return an error.
 -   Return success that the wireless Hosted Network and full ICS succeed.
 
 ## Stop Sequence for Wireless Hosted Network
 
-When using wireless Hosted Network with full ICS, an application that has finished its work may want to stop the wireless Hosted Network and the ICS service used for full ICS. In this case, it is recommended that the [**WlanHostedNetworkForceStop**](wlanhostednetworkforcestop.md) function be called to stop the Hosted Network rather than calling the [**WlanHostedNetworkStopUsing**](wlanhostednetworkstopusing.md) function. The **WlanHostedNetworkForceStop** function stops the wireless Hosted Network and also serves to allow other applications to recover. For more information, see the discussion below on the recovery sequence for wireless Hosted Network.
+When using wireless Hosted Network with full ICS, an application that has finished its work may want to stop the wireless Hosted Network and the ICS service used for full ICS. In this case, it is recommended that the [**WlanHostedNetworkForceStop**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop?branch=master) function be called to stop the Hosted Network rather than calling the [**WlanHostedNetworkStopUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstopusing?branch=master) function. The **WlanHostedNetworkForceStop** function stops the wireless Hosted Network and also serves to allow other applications to recover. For more information, see the discussion below on the recovery sequence for wireless Hosted Network.
 
 The following ordered steps are the recommended stop sequence in an application using wireless Hosted Network and full ICS:
 
 -   Stop full ICS.
--   Call the [**WlanHostedNetworkForceStop**](wlanhostednetworkforcestop.md) function to stop the wireless Hosted Network.
+-   Call the [**WlanHostedNetworkForceStop**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop?branch=master) function to stop the wireless Hosted Network.
 
-An application using wireless Hosted Network without full ICS that is finished with its work just needs to call the [**WlanHostedNetworkStopUsing**](wlanhostednetworkstopusing.md) or [**WlanHostedNetworkForceStop**](wlanhostednetworkforcestop.md) function to stop the wireless Hosted Network. If the [**WlanHostedNetworkStartUsing**](wlanhostednetworkstartusing.md) function was called to start the wireless Hosted Network, then the application should call the **WlanHostedNetworkStopUsing** function to stop the wireless Hosted Network. If the wireless Hosted Network was was already started before the application or the application called the [**WlanHostedNetworkForceStart**](wlanhostednetworkforcestart.md) function to force start the wireless Hosted Network, then the application can call the **WlanHostedNetworkForceStop** function to stop the wireless Hosted Network or do nothing (leave wireless Hosted Network started) depending on the scenario.
+An application using wireless Hosted Network without full ICS that is finished with its work just needs to call the [**WlanHostedNetworkStopUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstopusing?branch=master) or [**WlanHostedNetworkForceStop**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop?branch=master) function to stop the wireless Hosted Network. If the [**WlanHostedNetworkStartUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstartusing?branch=master) function was called to start the wireless Hosted Network, then the application should call the **WlanHostedNetworkStopUsing** function to stop the wireless Hosted Network. If the wireless Hosted Network was was already started before the application or the application called the [**WlanHostedNetworkForceStart**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestart?branch=master) function to force start the wireless Hosted Network, then the application can call the **WlanHostedNetworkForceStop** function to stop the wireless Hosted Network or do nothing (leave wireless Hosted Network started) depending on the scenario.
 
 ## Recovery Sequence for Wireless Hosted Network
 
 An application using the wireless Hosted Network may be affected by the actions of other applications. The ICS service and the interfaces for managing ICS provide no method for an application to register for ICS change notifications. If another application calls the [**EnableSharing**](ics.inetsharingconfiguration_enablesharing) or the [**DisableSharing**](ics.inetsharingconfiguration_disablesharing) methods on the [**INetSharingConfiguration**](ics.inetsharingconfiguration) interface to enable or disable sharing on a connection, a message is sent to the user interface (the screen) on the local computer not to other applications. So an application needs to rely on the wireless Hosted Network notifications to perform recovery actions when ICS or wireless Hosted Network changes occur.
 
-An application using the wireless Hosted Network should register for wireless Hosted Network notifications by calling the [**WlanRegisterNotification**](wlanregisternotification.md). If notifications for only wireless Hosted Network are needed, then the application should pass **WLAN\_NOTIFICATION\_SOURCE\_HNWK** in the *dwNotifSource* parameter passed to the **WlanRegisterNotification**. If other wireless notications are also needed, then **WLAN\_NOTIFICATION\_SOURCE\_HNWK** should be combined with the notification source constants for other types of wireless notifications desired and pass this value in the *dwNotifSource* parameter.
+An application using the wireless Hosted Network should register for wireless Hosted Network notifications by calling the [**WlanRegisterNotification**](/windows/win32/wlanapi/nf-wlanapi-wlanregisternotification?branch=master). If notifications for only wireless Hosted Network are needed, then the application should pass **WLAN\_NOTIFICATION\_SOURCE\_HNWK** in the *dwNotifSource* parameter passed to the **WlanRegisterNotification**. If other wireless notications are also needed, then **WLAN\_NOTIFICATION\_SOURCE\_HNWK** should be combined with the notification source constants for other types of wireless notifications desired and pass this value in the *dwNotifSource* parameter.
 
 The recovery sequence is the same for applications with or without full ICS, assuming that applications don’t want to start ICS service again. Upon receiving a wireless Hosted Network notification that the Hosted Network has stopped, do the following:
 
--   If the application called [**WlanHostedNetworkForceStart**](wlanhostednetworkforcestart.md) to start the wireless Hosted Network, then restart the Hosted Network by calling **WlanHostedNetworkForceStart**. Otherwise, call [**WlanHostedNetworkStartUsing**](wlanhostednetworkstartusing.md) to restart the wireless Hosted Network.
+-   If the application called [**WlanHostedNetworkForceStart**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestart?branch=master) to start the wireless Hosted Network, then restart the Hosted Network by calling **WlanHostedNetworkForceStart**. Otherwise, call [**WlanHostedNetworkStartUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstartusing?branch=master) to restart the wireless Hosted Network.
 
 ## Recovery Sequence for Connected Devices
 
@@ -151,37 +156,37 @@ A possible recovery sequence for devices or computers connected to the wireless 
 [Wireless Hosted Network Sample](wireless-hosted-network-sample.md)
 </dt> <dt>
 
-[**WlanHostedNetworkForceStart**](wlanhostednetworkforcestart.md)
+[**WlanHostedNetworkForceStart**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestart?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkInitSettings**](wlanhostednetworkinitsettings.md)
+[**WlanHostedNetworkInitSettings**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkinitsettings?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkQueryProperty**](wlanhostednetworkqueryproperty.md)
+[**WlanHostedNetworkQueryProperty**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkqueryproperty?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkQuerySecondaryKey**](wlanhostednetworkquerysecondarykey.md)
+[**WlanHostedNetworkQuerySecondaryKey**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkquerysecondarykey?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkQueryStatus**](wlanhostednetworkquerystatus.md)
+[**WlanHostedNetworkQueryStatus**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkquerystatus?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkRefreshSecuritySettings**](wlanhostednetworkrefreshsecuritysettings.md)
+[**WlanHostedNetworkRefreshSecuritySettings**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkrefreshsecuritysettings?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkSetProperty**](wlanhostednetworksetproperty.md)
+[**WlanHostedNetworkSetProperty**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworksetproperty?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkSetSecondaryKey**](wlanhostednetworksetsecondarykey.md)
+[**WlanHostedNetworkSetSecondaryKey**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworksetsecondarykey?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkStartUsing**](wlanhostednetworkstartusing.md)
+[**WlanHostedNetworkStartUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstartusing?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkStopUsing**](wlanhostednetworkstopusing.md)
+[**WlanHostedNetworkStopUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstopusing?branch=master)
 </dt> <dt>
 
-[**WlanRegisterVirtualStationNotification**](wlanregistervirtualstationnotification.md)
+[**WlanRegisterVirtualStationNotification**](/windows/win32/Wlanapi/nf-wlanapi-wlanregistervirtualstationnotification?branch=master)
 </dt> </dl>
 
  

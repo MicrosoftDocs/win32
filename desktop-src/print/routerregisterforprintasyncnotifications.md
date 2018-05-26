@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RouterRegisterForPrintAsyncNotifications function registers for asynchronous notifications associated with a printer or print server.'
-ms.assetid: '87966827-72b2-4be7-859a-628c1accca48'
+---
+Description: The RouterRegisterForPrintAsyncNotifications function registers for asynchronous notifications associated with a printer or print server.
+ms.assetid: 87966827-72b2-4be7-859a-628c1accca48
 title: RouterRegisterForPrintAsyncNotifications function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RouterRegisterForPrintAsyncNotifications function

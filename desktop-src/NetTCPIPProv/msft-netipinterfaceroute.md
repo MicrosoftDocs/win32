@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a TCP/IP network interface and an IP route.'
-ms.assetid: '52b4b78f-5648-4a70-9da5-49eff23518ca'
-title: 'MSFT\_NetIPInterfaceRoute class'
+Description: Represents an association between a TCP/IP network interface and an IP route.
+ms.assetid: 52b4b78f-5648-4a70-9da5-49eff23518ca
+title: MSFT\_NetIPInterfaceRoute class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetIPInterfaceRoute class
@@ -17,7 +22,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_NetIPInterfaceRoute : CIM_RouteUsesEndpoint
 {
   CIM_LANEndpoint REF Antecedent;
-  MSFT_NetRoute   REF Dependent;
+  MSFT_NetRoute   REF Dependent;
 };
 ```
 
@@ -71,8 +76,8 @@ The [**MSFT\_NetRoute**](msft-netroute.md) object for the route associated with 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -92,9 +97,9 @@ The [**MSFT\_NetRoute**](msft-netroute.md) object for the route associated with 
 [**MSFT\_NetRoute**](msft-netroute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

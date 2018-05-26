@@ -2,13 +2,19 @@
 title: helpstring attribute
 description: The \ helpstring\ attribute specifies a character string that is used to describe the element to which it applies.
 ms.assetid: f05d3fdd-d975-4f0e-8181-07e16288ff48
-keywords: ["helpstring attribute MIDL"]
+keywords:
+- helpstring attribute MIDL
 topic_type:
 - apiref
 api_name:
 - helpstring
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # helpstring attribute

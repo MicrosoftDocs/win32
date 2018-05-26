@@ -1,7 +1,12 @@
 ---
 title: Remove Method
 description: Remove Method
-ms.assetid: 'b50d47b2-a425-4545-8d85-efeae460d2b1'
+ms.assetid: b50d47b2-a425-4545-8d85-efeae460d2b1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remove Method

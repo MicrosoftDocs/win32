@@ -1,8 +1,15 @@
 ---
 title: Using the Query Functions
 description: Using the Query Functions
-ms.assetid: '5f874a0e-77c0-4009-a18f-a852d7ffe891'
-keywords: ["OpenGL,query functions", "query functions OpenGL"]
+ms.assetid: 5f874a0e-77c0-4009-a18f-a852d7ffe891
+keywords:
+- OpenGL,query functions
+- query functions OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Query Functions

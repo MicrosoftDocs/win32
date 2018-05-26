@@ -1,7 +1,12 @@
-﻿---
-Description: 'Displays a browser bar.'
-ms.assetid: '203636D2-54D3-4163-B9AC-39213D6F4203'
-title: 'Shell.ShowBrowserBar method'
+---
+Description: Displays a browser bar.
+ms.assetid: 203636D2-54D3-4163-B9AC-39213D6F4203
+title: Shell.ShowBrowserBar method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.ShowBrowserBar method

@@ -4,10 +4,13 @@ description: This topic lists the enumeration types under the following categori
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '547f8a03-e0ff-45a7-a365-7ec791e10326'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 547f8a03-e0ff-45a7-a365-7ec791e10326
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Listing by Category

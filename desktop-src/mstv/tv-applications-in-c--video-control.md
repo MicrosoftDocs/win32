@@ -1,7 +1,12 @@
 ---
 title: TV Applications in C++ (Video Control)
 description: TV Applications in C++ (Video Control)
-ms.assetid: 'be4fd960-c74b-4904-bc5e-b5aed5c5e6ec'
+ms.assetid: be4fd960-c74b-4904-bc5e-b5aed5c5e6ec
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TV Applications in C++ (Video Control)

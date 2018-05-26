@@ -1,8 +1,9 @@
 ---
 title: D3DX11CreateTextureFromResource function
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use resource functions, then these DirectXTK library (runtime), CreateXXXTextureFromMemory (where XXX is DDS or WIC)DirectXTex library (tools), LoadFromXXXMemory (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then CreateTexture Create a texture from another resource.
-ms.assetid: '2b62239a-c19b-4d4f-9fd2-afcd87ba0fac'
-keywords: ["D3DX11CreateTextureFromResource function Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use resource functions, then these DirectXTK library (runtime), CreateXXXTextureFromMemory (where XXX is DDS or WIC)DirectXTex library (tools), LoadFromXXXMemory (where XXX is WIC, DDS, or TGA; WIC doesnt support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then CreateTexture Create a texture from another resource.
+ms.assetid: 2b62239a-c19b-4d4f-9fd2-afcd87ba0fac
+keywords:
+- D3DX11CreateTextureFromResource function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,14 +13,19 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11CreateTextureFromResource function
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 > [!Note]  
 > Instead of using this function, we recommend that you use [resource functions](https://msdn.microsoft.com/library/windows/desktop/ff468902), then these:
@@ -27,7 +33,7 @@ api_type:
 > -   [DirectXTK](http://go.microsoft.com/fwlink/p/?linkid=248929) library (runtime), **CreateXXXTextureFromMemory** (where XXX is DDS or WIC)
 > -   [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926) library (tools), **LoadFromXXXMemory** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then **CreateTexture**
 
- 
+ 
 
 Create a texture from another resource.
 
@@ -36,13 +42,13 @@ Create a texture from another resource.
 
 ```C++
 HRESULT D3DX11CreateTextureFromResource(
-  _In_  ID3D11Device           *pDevice,
-  _In_  HMODULE                hSrcModule,
-  _In_  LPCTSTR                pSrcResource,
-  _In_  D3DX11_IMAGE_LOAD_INFO *pLoadInfo,
-  _In_  ID3DX11ThreadPump      *pPump,
-  _Out_ ID3D11Resource         **ppTexture,
-  _Out_ HRESULT                *pHResult
+  _In_  ID3D11Device           *pDevice,
+  _In_  HMODULE                hSrcModule,
+  _In_  LPCTSTR                pSrcResource,
+  _In_  D3DX11_IMAGE_LOAD_INFO *pLoadInfo,
+  _In_  ID3DX11ThreadPump      *pPump,
+  _Out_ ID3D11Resource         **ppTexture,
+  _Out_ HRESULT                *pHResult
 );
 ```
 
@@ -55,9 +61,9 @@ HRESULT D3DX11CreateTextureFromResource(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D11Device**](id3d11device.md)\***
+Type: **[**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master)\***
 
-A pointer to the device (see [**ID3D11Device**](id3d11device.md)) that will use the resource.
+A pointer to the device (see [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master)) that will use the resource.
 
 </dd> <dt>
 
@@ -100,9 +106,9 @@ A pointer to a thread pump interface (see [**ID3DX11ThreadPump Interface**](id3d
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D11Resource**](id3d11resource.md)\*\***
+Type: **[**ID3D11Resource**](/windows/win32/D3D11/nn-d3d11-id3d11resource?branch=master)\*\***
 
-The address of a pointer to the texture resource (see [**ID3D11Resource**](id3d11resource.md)).
+The address of a pointer to the texture resource (see [**ID3D11Resource**](/windows/win32/D3D11/nn-d3d11-id3d11resource?branch=master)).
 
 </dd> <dt>
 
@@ -139,9 +145,9 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

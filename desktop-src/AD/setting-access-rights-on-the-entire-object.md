@@ -4,11 +4,16 @@ description: Certain permissions can be set only for an entire object, such as D
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '786357f4-146e-4638-8bd6-82bc1a6640a1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 786357f4-146e-4638-8bd6-82bc1a6640a1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Setting Access Rights on the Entire Object AD", "objects AD , setting access rights on"]
+keywords:
+- Setting Access Rights on the Entire Object AD
+- objects AD , setting access rights on
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting Access Rights on the Entire Object

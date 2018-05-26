@@ -1,7 +1,12 @@
 ---
 title: Finding the Core Properties part
 description: This topic shows how to use the Packaging APIs to find the Core Properties part with a relationship type.
-ms.assetid: 'd485d085-b605-41d4-a094-bd1be37d6693'
+ms.assetid: d485d085-b605-41d4-a094-bd1be37d6693
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Finding the Core Properties part
@@ -86,7 +91,7 @@ The step that requires resolving the part name from the URI of a relationship's 
 
     
 
-    The `FindCorePropertiesPart` function takes an [**IOpcPackage**](iopcpackage.md) interface pointer representing the package and retrieves an [**IOpcPart**](iopcpart.md) interface pointer representing the Core Properties part. It finds the Core Properties part by wrapping a call to `FindPartByRelationshipType`, and by passing in as input arguments the global variables that contain the relationship type and part content type that are needed to find the Core Properties part.
+    The `FindCorePropertiesPart` function takes an [**IOpcPackage**](/windows/previous-versions/msopc/nn-msopc-iopcpackage?branch=master) interface pointer representing the package and retrieves an [**IOpcPart**](/windows/previous-versions/msopc/nn-msopc-iopcpart?branch=master) interface pointer representing the Core Properties part. It finds the Core Properties part by wrapping a call to `FindPartByRelationshipType`, and by passing in as input arguments the global variables that contain the relationship type and part content type that are needed to find the Core Properties part.
 
     The body of the `FindCorePropertiesPart` function:
 
@@ -143,7 +148,7 @@ The step that requires resolving the part name from the URI of a relationship's 
 
     1.  The part to be found is targeted by a package relationship; therefore, a pointer to the relationship set object that represents the Relationships part that stores package relationships must be retrieved.
 
-        Call the [**IOpcPackage::GetRelationshipSet**](iopcpackage-getrelationshipset.md) method to retrieve a pointer to the relationship set object for package relationships:
+        Call the [**IOpcPackage::GetRelationshipSet**](/windows/previous-versions/msopc/nf-msopc-iopcpackage-getrelationshipset?branch=master) method to retrieve a pointer to the relationship set object for package relationships:
 
         ```C++
             if (SUCCEEDED(hr))
@@ -157,7 +162,7 @@ The step that requires resolving the part name from the URI of a relationship's 
 
     2.  Identify the relationships of the specified relationship type in the set.
 
-        Call the [**IOpcRelationshipSet::GetEnumeratorForType**](iopcrelationshipset-getenumeratorfortype.md) method to retrieve an enumerator of the interface pointers in the set that represent relationships of the specified relationship type:
+        Call the [**IOpcRelationshipSet::GetEnumeratorForType**](/windows/previous-versions/msopc/nf-msopc-iopcrelationshipset-getenumeratorfortype?branch=master) method to retrieve an enumerator of the interface pointers in the set that represent relationships of the specified relationship type:
 
         ```C++
             if (SUCCEEDED(hr))
@@ -239,7 +244,7 @@ The step that requires resolving the part name from the URI of a relationship's 
 
     3.  Get the part.
 
-        Get the [**IOpcPart**](iopcpart.md) interface pointer to the part object that represents the part, as shown in the following code.
+        Get the [**IOpcPart**](/windows/previous-versions/msopc/nn-msopc-iopcpart?branch=master) interface pointer to the part object that represents the part, as shown in the following code.
 
         ```C++
                 if (SUCCEEDED(hr) &amp;&amp; partExists)

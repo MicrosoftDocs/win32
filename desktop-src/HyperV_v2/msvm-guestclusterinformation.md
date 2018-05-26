@@ -1,7 +1,12 @@
 ---
-Description: 'Used in the QueryGuestClusterInformation method in the Msvm\_VssService class to retrieve information about the guest cluster the VM is part of.'
-ms.assetid: 'c484b38d-9137-44da-a368-a2a673b94ef8'
-title: 'Msvm\_GuestClusterInformation class'
+Description: Used in the QueryGuestClusterInformation method in the Msvm\_VssService class to retrieve information about the guest cluster the VM is part of.
+ms.assetid: c484b38d-9137-44da-a368-a2a673b94ef8
+title: Msvm\_GuestClusterInformation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_GuestClusterInformation class
@@ -16,15 +21,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_GuestClusterInformation
 {
-  string  ClusterId;
-  uint16  ClusterSize;
-  string  SharedVirtualHardDisks[];
-  string  SharedVirtualHardDiskPaths[];
+  string  ClusterId;
+  uint16  ClusterSize;
+  string  SharedVirtualHardDisks[];
+  string  SharedVirtualHardDiskPaths[];
   boolean IsClustered[];
   boolean IsOnline[];
   boolean IsOwned[];
   boolean IsActiveActive[];
-  uint64  LastResourceMoveTime;
+  uint64  LastResourceMoveTime;
 };
 ```
 
@@ -142,9 +147,9 @@ Access type: Read-only
 The clock tick count when one of the shared disk resources last moved.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703 and Windows Server 2016.
+> This property was added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -186,17 +191,17 @@ An array of Resource Allocation Setting Data (RASD) representing the shared virt
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

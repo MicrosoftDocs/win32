@@ -1,8 +1,24 @@
 ---
 title: Mixer Architecture
 description: Mixer Architecture
-ms.assetid: '11d650bf-c258-4818-88b7-9fdc71a8d859'
-keywords: ["multimedia audio,mixer architecture", "audio,mixer architecture", "audio mixers,architecture", "audio mixers,audio lines", "audio lines", "audio mixers,controls", "multimedia audio,mixer controls", "audio,mixer controls", "mixers,audio lines", "mixers,architecture", "mixers,controls"]
+ms.assetid: 11d650bf-c258-4818-88b7-9fdc71a8d859
+keywords:
+- multimedia audio,mixer architecture
+- audio,mixer architecture
+- audio mixers,architecture
+- audio mixers,audio lines
+- audio lines
+- audio mixers,controls
+- multimedia audio,mixer controls
+- audio,mixer controls
+- mixers,audio lines
+- mixers,architecture
+- mixers,controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mixer Architecture

@@ -1,8 +1,18 @@
 ---
 title: A Sample Port of a Display List
 description: This topic gives an IRIS GL sample of code that defines three display lists; one of the display lists refers to the others in its definition. Following the IRIS GL sample is a sample of what the code looks like when ported to OpenGL.
-ms.assetid: '03283b00-fb5b-4e89-9384-171b38f141ee'
-keywords: ["IRIS GL porting,display lists", "porting from IRIS GL,display lists", "porting to OpenGL from IRIS GL,display lists", "OpenGL porting from IRIS GL,display lists", "display lists,porting from IRIS GL"]
+ms.assetid: 03283b00-fb5b-4e89-9384-171b38f141ee
+keywords:
+- IRIS GL porting,display lists
+- porting from IRIS GL,display lists
+- porting to OpenGL from IRIS GL,display lists
+- OpenGL porting from IRIS GL,display lists
+- display lists,porting from IRIS GL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # A Sample Port of a Display List

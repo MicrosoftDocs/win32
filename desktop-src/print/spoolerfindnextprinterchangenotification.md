@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'FE69BD53-F463-480A-820B-4259D6F48BD0'
+---
+Description: .
+ms.assetid: FE69BD53-F463-480A-820B-4259D6F48BD0
 title: SpoolerFindNextPrinterChangeNotification function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SpoolerFindNextPrinterChangeNotification function

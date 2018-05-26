@@ -1,7 +1,12 @@
 ---
-Description: 'A file is a unit of data in the file system that a user can access and manage.'
-ms.assetid: '271bad79-c23b-45ee-938c-d17dae89db1a'
+Description: A file is a unit of data in the file system that a user can access and manage.
+ms.assetid: 271bad79-c23b-45ee-938c-d17dae89db1a
 title: Files and Clusters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Files and Clusters
@@ -30,17 +35,17 @@ For more information on file streams, see [File Streams](file-streams.md). For m
 |-------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [File Streams](file-streams.md)<br/>                 | In the NTFS file system, streams contain the data that is written to a file, and that gives more information about a file than attributes and properties.<br/>                                                                                         |
 | [File Objects](file-objects.md)<br/>                 | *File objects* function as the logical interface between kernel and user-mode processes and the file data that resides on the physical disk.<br/>                                                                                                      |
-| [File Handles](file-handles.md)<br/>                 | When a file is opened by a process using the [**CreateFile**](createfile.md) function, a *file handle* is associated with it until either the process terminates or the handle is closed using the [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) function.<br/> |
+| [File Handles](file-handles.md)<br/>                 | When a file is opened by a process using the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function, a *file handle* is associated with it until either the process terminates or the handle is closed using the [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) function.<br/> |
 | [File Pointers](file-pointers.md)<br/>               | A file pointer is a 64-bit offset value that specifies the next byte to be read or the location to receive the next byte written.<br/>                                                                                                                 |
 | [Clusters and Extents](clusters-and-extents.md)<br/> | Clusters may be referred to from two different perspectives: within the file and on the volume.<br/>                                                                                                                                                   |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

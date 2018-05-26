@@ -1,17 +1,22 @@
 ---
-Description: 'Used to add attributes to a certificate request.'
-ms.assetid: '7007c751-f1a4-4ddc-a66e-d3edefc6ed97'
+Description: Used to add attributes to a certificate request.
+ms.assetid: 7007c751-f1a4-4ddc-a66e-d3edefc6ed97
 title: Attribute Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attribute Architecture
 
 The following interfaces are used to add attributes to a certificate request:
 
--   [**ICryptAttribute**](icryptattribute.md)
--   [**ICryptAttributes**](icryptattributes.md)
--   [**IX509Attribute**](ix509attribute.md)
--   [**IX509Attributes**](ix509attributes.md)
+-   [**ICryptAttribute**](/windows/win32/CertEnroll/nn-certenroll-icryptattribute?branch=master)
+-   [**ICryptAttributes**](/windows/win32/CertEnroll/nn-certenroll-icryptattributes?branch=master)
+-   [**IX509Attribute**](/windows/win32/CertEnroll/nn-certenroll-ix509attribute?branch=master)
+-   [**IX509Attributes**](/windows/win32/CertEnroll/nn-certenroll-ix509attributes?branch=master)
 
 The architecture follows that defined in the ASN.1 module of the PKCS \#10 certification request syntax.
 
@@ -33,29 +38,29 @@ Attribute ::= SEQUENCE
 }
 ```
 
-The [**ICryptAttributes**](icryptattributes.md) collection corresponds to the **attributes** field, and each [**ICryptAttribute**](icryptattribute.md) object in the collection corresponds to an ASN.1 **Attribute** structure.
+The [**ICryptAttributes**](/windows/win32/CertEnroll/nn-certenroll-icryptattributes?branch=master) collection corresponds to the **attributes** field, and each [**ICryptAttribute**](/windows/win32/CertEnroll/nn-certenroll-icryptattribute?branch=master) object in the collection corresponds to an ASN.1 **Attribute** structure.
 
-Each **Attribute** consists of an object identifier (OID) and zero or more values associated with the OID. A single OID-value pair is represented by an [**IX509Attribute**](ix509attribute.md) interface. You can use an [**IX509Attributes**](ix509attributes.md) collection to initialize an [**ICryptAttribute**](icryptattribute.md) object, but each attribute in the collection must be associated with the same OID. Typically, an attribute has only one value.
+Each **Attribute** consists of an object identifier (OID) and zero or more values associated with the OID. A single OID-value pair is represented by an [**IX509Attribute**](/windows/win32/CertEnroll/nn-certenroll-ix509attribute?branch=master) interface. You can use an [**IX509Attributes**](/windows/win32/CertEnroll/nn-certenroll-ix509attributes?branch=master) collection to initialize an [**ICryptAttribute**](/windows/win32/CertEnroll/nn-certenroll-icryptattribute?branch=master) object, but each attribute in the collection must be associated with the same OID. Typically, an attribute has only one value.
 
-You can use any of the following interfaces, which derive from [**IX509Attribute**](ix509attribute.md), to create a single OID/value attribute pair:
+You can use any of the following interfaces, which derive from [**IX509Attribute**](/windows/win32/CertEnroll/nn-certenroll-ix509attribute?branch=master), to create a single OID/value attribute pair:
 
--   [**IX509AttributeClientId**](ix509attributeclientid.md)
--   [**IX509AttributeExtensions**](ix509attributeextensions.md)
--   [**IX509AttributeArchiveKey**](ix509attributearchivekey.md)
--   [**IX509AttributeArchiveKeyHash**](ix509attributearchivekeyhash.md)
--   [**IX509AttributeCspProvider**](ix509attributecspprovider.md)
--   [**IX509AttributeOSVersion**](ix509attributeosversion.md)
--   [**IX509AttributeRenewalCertificate**](ix509attributerenewalcertificate.md)
+-   [**IX509AttributeClientId**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeclientid?branch=master)
+-   [**IX509AttributeExtensions**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeextensions?branch=master)
+-   [**IX509AttributeArchiveKey**](/windows/win32/CertEnroll/nn-certenroll-ix509attributearchivekey?branch=master)
+-   [**IX509AttributeArchiveKeyHash**](/windows/win32/CertEnroll/nn-certenroll-ix509attributearchivekeyhash?branch=master)
+-   [**IX509AttributeCspProvider**](/windows/win32/CertEnroll/nn-certenroll-ix509attributecspprovider?branch=master)
+-   [**IX509AttributeOSVersion**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeosversion?branch=master)
+-   [**IX509AttributeRenewalCertificate**](/windows/win32/CertEnroll/nn-certenroll-ix509attributerenewalcertificate?branch=master)
 
 For example, the following procedure shows how to create a **ClientId** attribute.
 
 **To create a **ClientId** attribute**
 
-1.  Retrieve an [**ICryptAttributes**](icryptattributes.md) object from an [**IX509CertificateRequestPkcs10**](ix509certificaterequestpkcs10.md) or [**IX509CertificateRequestCmc**](ix509certificaterequestcmc.md) object.
-2.  Create and initialize an [**IX509AttributeClientId**](ix509attributeclientid.md) object.
-3.  Create an [**IX509Attributes**](ix509attributes.md) collection and add the [**IX509AttributeClientId**](ix509attributeclientid.md) object.
-4.  Use the [**IX509Attributes**](ix509attributes.md) collection to initialize an [**ICryptAttribute**](icryptattribute.md) object.
-5.  Add the [**ICryptAttribute**](icryptattribute.md) object to the collection retrieved in step 1.
+1.  Retrieve an [**ICryptAttributes**](/windows/win32/CertEnroll/nn-certenroll-icryptattributes?branch=master) object from an [**IX509CertificateRequestPkcs10**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestpkcs10?branch=master) or [**IX509CertificateRequestCmc**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestcmc?branch=master) object.
+2.  Create and initialize an [**IX509AttributeClientId**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeclientid?branch=master) object.
+3.  Create an [**IX509Attributes**](/windows/win32/CertEnroll/nn-certenroll-ix509attributes?branch=master) collection and add the [**IX509AttributeClientId**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeclientid?branch=master) object.
+4.  Use the [**IX509Attributes**](/windows/win32/CertEnroll/nn-certenroll-ix509attributes?branch=master) collection to initialize an [**ICryptAttribute**](/windows/win32/CertEnroll/nn-certenroll-icryptattribute?branch=master) object.
+5.  Add the [**ICryptAttribute**](/windows/win32/CertEnroll/nn-certenroll-icryptattribute?branch=master) object to the collection retrieved in step 1.
 
 The following example shows the ASN.1 output of the **ClientId** attribute. The attribute contains the DNS name of the computer on which the request was generated (test3d.jdomcsc.nttest.microsoft.com), the SAM name of the user (JDOMCSC\\administrator), and the name of the application that generated the request (certreq).
 
@@ -86,16 +91,16 @@ The following example shows the ASN.1 output of the **ClientId** attribute. The 
 
 <dl> <dt>
 
-[**ICryptAttribute**](icryptattribute.md)
+[**ICryptAttribute**](/windows/win32/CertEnroll/nn-certenroll-icryptattribute?branch=master)
 </dt> <dt>
 
-[**ICryptAttributes**](icryptattributes.md)
+[**ICryptAttributes**](/windows/win32/CertEnroll/nn-certenroll-icryptattributes?branch=master)
 </dt> <dt>
 
-[**IX509Attribute**](ix509attribute.md)
+[**IX509Attribute**](/windows/win32/CertEnroll/nn-certenroll-ix509attribute?branch=master)
 </dt> <dt>
 
-[**IX509Attributes**](ix509attributes.md)
+[**IX509Attributes**](/windows/win32/CertEnroll/nn-certenroll-ix509attributes?branch=master)
 </dt> </dl>
 
  

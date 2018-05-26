@@ -1,8 +1,9 @@
 ---
 title: CB\_GETDROPPEDWIDTH message
 description: Gets the minimum allowable width, in pixels, of the list box of a combo box with the CBS\_DROPDOWN or CBS\_DROPDOWNLIST style.
-ms.assetid: 'd7f37a6c-a623-4b15-8ef7-4b64d85c15fa'
-keywords: ["CB_GETDROPPEDWIDTH message Windows Controls"]
+ms.assetid: d7f37a6c-a623-4b15-8ef7-4b64d85c15fa
+keywords:
+- CB_GETDROPPEDWIDTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_GETDROPPEDWIDTH message
@@ -51,8 +57,8 @@ By default, the minimum allowable width of the drop-down list box is zero. The w
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ By default, the minimum allowable width of the drop-down list box is zero. The w
 [**CB\_SETDROPPEDWIDTH**](cb-setdroppedwidth.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

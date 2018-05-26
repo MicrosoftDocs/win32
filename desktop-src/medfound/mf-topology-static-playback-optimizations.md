@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables static optimizations in the video pipeline.'
-ms.assetid: '62fb3f0f-ab1f-4c61-8e7f-62908b947788'
-title: 'MF\_TOPOLOGY\_STATIC\_PLAYBACK\_OPTIMIZATIONS attribute'
+---
+Description: Enables static optimizations in the video pipeline.
+ms.assetid: 62fb3f0f-ab1f-4c61-8e7f-62908b947788
+title: MF\_TOPOLOGY\_STATIC\_PLAYBACK\_OPTIMIZATIONS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPOLOGY\_STATIC\_PLAYBACK\_OPTIMIZATIONS attribute
@@ -14,13 +19,13 @@ Enables static optimizations in the video pipeline.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFTopology**](imftopology.md)
+[**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master)
 
 ## Remarks
 

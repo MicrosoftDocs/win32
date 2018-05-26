@@ -1,13 +1,16 @@
 ---
-Description: 'The Add method of the SWbemQualifierSet object adds an SWbemQualifier object to the SWbemQualifierSet collection. If a qualifier with the same name already exists in the collection, it is replaced.'
+Description: The Add method of the SWbemQualifierSet object adds an SWbemQualifier object to the SWbemQualifierSet collection. If a qualifier with the same name already exists in the collection, it is replaced.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8f4c4da2-4890-4515-a3dc-76d154dae43c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8f4c4da2-4890-4515-a3dc-76d154dae43c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemQualifierSet.Add method'
+title: SWbemQualifierSet.Add method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemQualifierSet.Add method
@@ -129,8 +132,8 @@ It is not possible to perform the **SWbemQualifierSet.Add** operation on this qu
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -149,9 +152,9 @@ It is not possible to perform the **SWbemQualifierSet.Add** operation on this qu
 [**SWbemQualifierSet.Remove**](swbemqualifierset-remove.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

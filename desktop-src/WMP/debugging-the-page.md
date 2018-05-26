@@ -1,8 +1,23 @@
 ---
 title: Debugging the Page
 description: Debugging the Page
-ms.assetid: '72351e8f-49c6-448d-bbf8-e967d5f0f20a'
-keywords: ["Windows Media Player online stores,Download Manager", "online stores,Download Manager", "type 2 online stores,Download Manager", "Windows Media Player online stores,debugging pages", "online stores,debugging pages", "type 2 online stores,debugging pages", "Windows Media Player,Download Manager", "Windows Media Player Download Manager", "Download Manager", "debugging pages"]
+ms.assetid: 72351e8f-49c6-448d-bbf8-e967d5f0f20a
+keywords:
+- Windows Media Player online stores,Download Manager
+- online stores,Download Manager
+- type 2 online stores,Download Manager
+- Windows Media Player online stores,debugging pages
+- online stores,debugging pages
+- type 2 online stores,debugging pages
+- Windows Media Player,Download Manager
+- Windows Media Player Download Manager
+- Download Manager
+- debugging pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debugging the Page

@@ -1,8 +1,21 @@
 ---
 title: Creating the Mapping File
 description: Creating the Mapping File
-ms.assetid: 'd882cd5b-1404-4dfd-8b51-a61e1505fae1'
-keywords: ["creating skins,mapping files", "Windows Media Player skins,art files", "skins,art files", "files for skins,art", "art files for skins,mapping images", "Windows Media Player skins,mapping images", "skins,mapping images", "mapping images in skins"]
+ms.assetid: d882cd5b-1404-4dfd-8b51-a61e1505fae1
+keywords:
+- creating skins,mapping files
+- Windows Media Player skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,mapping images
+- Windows Media Player skins,mapping images
+- skins,mapping images
+- mapping images in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Mapping File

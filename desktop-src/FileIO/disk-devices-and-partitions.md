@@ -1,7 +1,12 @@
 ---
-Description: 'Describes a hard disk, partitioning, and the Master Boot Record.'
-ms.assetid: 'daf45180-2cc3-433d-823e-395e85ce3410'
+Description: Describes a hard disk, partitioning, and the Master Boot Record.
+ms.assetid: daf45180-2cc3-433d-823e-395e85ce3410
 title: Disk Devices and Partitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk Devices and Partitions

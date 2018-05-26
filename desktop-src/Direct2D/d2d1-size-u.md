@@ -1,8 +1,14 @@
 ---
 title: D2D1\_SIZE\_U
 description: Stores an ordered pair of integers, typically the width and height of a rectangle.
-ms.assetid: 'e28da5ee-7d68-4ec5-b477-c6ead0c725e6'
-keywords: ["D2D1_SIZE_U"]
+ms.assetid: e28da5ee-7d68-4ec5-b477-c6ead0c725e6
+keywords:
+- D2D1_SIZE_U
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2D1\_SIZE\_U
@@ -22,7 +28,7 @@ Like points, sizes are another important graphics concept. In Direct2D, sizes ar
 
 The **D2D1\_SIZE\_U** structure provides a convenient way for you to store an ordered pair of numbers, such as the width and height of a rectangle.
 
-**D2D1\_SIZE\_U** is a new name for an already defined type **D2D\_SIZE\_U**. You can use the **D2D1::SizeU** function to create a **D2D1\_SIZE\_U** structure. A common use for this structure is to specify the pixel size of a [**D2D1\_HWND\_RENDER\_TARGET\_PROPERTIES**](d2d1-hwnd-render-target-properties.md) structure. The following provides an example of using this structure.
+**D2D1\_SIZE\_U** is a new name for an already defined type **D2D\_SIZE\_U**. You can use the **D2D1::SizeU** function to create a **D2D1\_SIZE\_U** structure. A common use for this structure is to specify the pixel size of a [**D2D1\_HWND\_RENDER\_TARGET\_PROPERTIES**](/windows/win32/d2d1/ns-d2d1-d2d1_hwnd_render_target_properties?branch=master) structure. The following provides an example of using this structure.
 
 
 ```C++
@@ -52,9 +58,9 @@ The **D2D1\_SIZE\_U** structure provides a convenient way for you to store an or
 
 |                                     |                                                                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>D2DBaseTypes.h (include D2d1.h)</dt> </dl>                               |
 
 
@@ -69,12 +75,12 @@ The **D2D1\_SIZE\_U** structure provides a convenient way for you to store an or
 [**D2D1\_SIZE\_F**](d2d1-size-f.md)
 </dt> <dt>
 
-[**D2D1::HwndRenderTargetProperties**](hwndrendertargetproperties.md)
+[**D2D1::HwndRenderTargetProperties**](/windows/win32/d2d1helper/nf-d2d1helper-hwndrendertargetproperties?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: Additional Considerations
 description: When porting your code, consider the following points.
-ms.assetid: '2d649a09-b593-477a-9b4f-d2404784f4b0'
-keywords: ["porting tips 64-bit Windows Programming"]
+ms.assetid: 2d649a09-b593-477a-9b4f-d2404784f4b0
+keywords:
+- porting tips 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Additional Considerations

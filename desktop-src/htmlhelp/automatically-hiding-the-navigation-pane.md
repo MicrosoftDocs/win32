@@ -1,7 +1,12 @@
 ---
 title: Automatically Hiding the Navigation Pane
 description: Automatically Hiding the Navigation Pane
-ms.assetid: 'F4938374-EDFA-4a8b-83B6-223B8898D46F'
+ms.assetid: F4938374-EDFA-4a8b-83B6-223B8898D46F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automatically Hiding the Navigation Pane

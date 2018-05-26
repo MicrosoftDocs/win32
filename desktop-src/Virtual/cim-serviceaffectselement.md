@@ -1,8 +1,10 @@
 ---
 title: CIM\_ServiceAffectsElement class
 description: Represents an association between a service and a managed element that might be affected by its execution.
-ms.assetid: '70aac5d6-6d8f-46b4-a571-3ea04306cd9d'
-keywords: ["CIM_ServiceAffectsElement class Hyper-V", "CIM_ServiceAffectsElement class Hyper-V , described"]
+ms.assetid: 70aac5d6-6d8f-46b4-a571-3ea04306cd9d
+keywords:
+- CIM_ServiceAffectsElement class Hyper-V
+- CIM_ServiceAffectsElement class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ServiceAffectsElement class
@@ -32,9 +39,9 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class CIM_ServiceAffectsElement
 {
   CIM_ManagedElement REF AffectedElement;
-  CIM_Service        REF AffectingElement;
-  uint16                 ElementEffects[];
-  string                 OtherElementEffectsDescriptions[];
+  CIM_Service        REF AffectingElement;
+  uint16                 ElementEffects[];
+  string                 OtherElementEffectsDescriptions[];
 };
 ```
 
@@ -180,14 +187,14 @@ The effect on the managed element. This array corresponds to the **OtherElementE
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -214,17 +221,17 @@ Each item in the array provides additional information for the corresponding ite
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

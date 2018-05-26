@@ -1,7 +1,12 @@
 ---
-Description: 'Enables QoS on the network adapter.'
-ms.assetid: '40d07f29-8b62-4b90-9867-a219f1e34928'
-title: 'Enable method of the MSFT\_NetAdapterQosSettingData class'
+Description: Enables QoS on the network adapter.
+ms.assetid: 40d07f29-8b62-4b90-9867-a219f1e34928
+title: Enable method of the MSFT\_NetAdapterQosSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enable method of the MSFT\_NetAdapterQosSettingData class
@@ -13,7 +18,7 @@ Enables QoS on the network adapter.
 
 ```mof
 uint32 Enable(
-  [out] string CmdletOutput
+  [out] string CmdletOutput
 );
 ```
 
@@ -37,7 +42,7 @@ Returns an embedded instance of the [**MSFT\_NetAdapterQosSettingData**](msft-ne
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
@@ -51,9 +56,9 @@ Returns an embedded instance of the [**MSFT\_NetAdapterQosSettingData**](msft-ne
 [**MSFT\_NetAdapterQosSettingData**](msft-netadapterqossettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

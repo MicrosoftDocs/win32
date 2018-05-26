@@ -1,8 +1,20 @@
 ---
 title: Alternate Images
 description: Alternate Images
-ms.assetid: '9fb8d7d8-f368-4dba-9f3f-0084e8588c15'
-keywords: ["Windows Media Player skins,art files", "skins,art files", "files for skins,art", "art files for skins,alternate images", "Windows Media Player skins,alternate images", "skins,alternate images", "alternate images in skins"]
+ms.assetid: 9fb8d7d8-f368-4dba-9f3f-0084e8588c15
+keywords:
+- Windows Media Player skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,alternate images
+- Windows Media Player skins,alternate images
+- skins,alternate images
+- alternate images in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Alternate Images

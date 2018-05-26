@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Process class represents a single instance of a running program. A user typically sees a process as an application or task.'
+Description: The CIM\_Process class represents a single instance of a running program. A user typically sees a process as an application or task.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8b00ef6e-5c7f-410c-9e48-1205ea6e5a4c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8b00ef6e-5c7f-410c-9e48-1205ea6e5a4c
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Process class'
+title: CIM\_Process class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Process class
@@ -19,7 +22,7 @@ The **CIM\_Process** class represents a single instance of a running program. A 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,24 +32,24 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C566-5FBB-11D2-AAC1-006008C78BC7}"), DisplayName("Processes (CIM)"), AMENDMENT]
 class CIM_Process : CIM_LogicalElement
 {
-  string   Caption;
-  string   CreationClassName;
+  string   Caption;
+  string   CreationClassName;
   datetime CreationDate;
-  string   CSCreationClassName;
-  string   CSName;
-  string   Description;
-  uint16   ExecutionState;
-  string   Handle;
+  string   CSCreationClassName;
+  string   CSName;
+  string   Description;
+  uint16   ExecutionState;
+  string   Handle;
   datetime InstallDate;
-  uint64   KernelModeTime;
-  string   Name;
-  string   OSCreationClassName;
-  string   OSName;
-  uint32   Priority;
-  string   Status;
+  uint64   KernelModeTime;
+  string   Name;
+  string   OSCreationClassName;
+  string   OSName;
+  uint32   Priority;
+  string   Status;
   datetime TerminationDate;
-  uint64   UserModeTime;
-  uint64   WorkingSetSize;
+  uint64   UserModeTime;
+  uint64   WorkingSetSize;
 };
 ```
 
@@ -220,7 +223,7 @@ Current operating condition of the process.
 
 </dt> <dd>
 
-Suspended—blocked
+Suspended blocked
 
 </dd> <dt>
 
@@ -231,7 +234,7 @@ Suspended—blocked
 
 </dt> <dd>
 
-Suspended—ready
+Suspended ready
 
 </dd> <dt>
 
@@ -548,8 +551,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -563,9 +566,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

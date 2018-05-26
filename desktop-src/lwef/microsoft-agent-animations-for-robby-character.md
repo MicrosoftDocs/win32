@@ -1,7 +1,12 @@
 ---
 title: Microsoft Agent Animations for Robby Character
 description: Microsoft Agent Animations for Robby Character
-ms.assetid: '05baf1ab-3217-4da4-9562-6719c58cd744'
+ms.assetid: 05baf1ab-3217-4da4-9562-6719c58cd744
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Agent Animations for Robby Character
@@ -93,13 +98,13 @@ The character file includes sound effects for some animations as noted in the fo
 
 
 
- 
+ 
 
 \* If you play a looping animation, you must use [**Stop**](stop-method.md) to clear it before other animations in the character's queue will play.
 
- 
+ 
 
- 
+ 
 
 
 

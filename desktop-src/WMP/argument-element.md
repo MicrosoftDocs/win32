@@ -1,14 +1,20 @@
 ---
 title: argument Element
 description: The argument element contains one portion of a condition string.
-ms.assetid: '7e4744ce-e9e2-4a70-a2cc-d33ae1ad2f99'
-keywords: ["argument Element Windows Media Player"]
+ms.assetid: 7e4744ce-e9e2-4a70-a2cc-d33ae1ad2f99
+keywords:
+- argument Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - argument Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # argument Element
@@ -41,7 +47,7 @@ The name of one portion of the condition string.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,7 +84,7 @@ When the **name** attribute of a **fragment** element is a media item characteri
 
 
 
- 
+ 
 
 When the **name** attribute of a **fragment** element is "Limit Total Size To" or "Limit Total Duration To", the **fragment** element must contain two **argument** elements: one that specifies a format and one that specifies a number. The following table shows two possible values for the **name** attribute and how **argument** elements are used to limit the size or duration of a playlist.
 
@@ -118,7 +124,7 @@ When the **name** attribute of a **fragment** element is "Limit Total Size To" o
 
 
 
- 
+ 
 
 When the **name** attribute of a **fragment** element is "Limit Number of Items", the **fragment** element must contain one **argument** element that specifies the number of items. The following table shows how to use the Number value of the **name** attribute.
 
@@ -148,7 +154,7 @@ When the **name** attribute of a **fragment** element is "Limit Number of Items"
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -170,9 +176,9 @@ When the **name** attribute of a **fragment** element is "Limit Number of Items"
 [**Windows Media Playlist Elements Reference**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

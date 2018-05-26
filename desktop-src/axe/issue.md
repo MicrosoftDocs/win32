@@ -1,19 +1,25 @@
 ---
 title: Issue element
 description: This element holds information about a single issue.
-ms.assetid: '0BFC67EF-9DF3-4EE5-871C-658C0049C2CB'
-keywords: ["Issue element Access Execution Engine"]
+ms.assetid: 0BFC67EF-9DF3-4EE5-871C-658C0049C2CB
+keywords:
+- Issue element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Issue
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue element
 
-This element holds information about a single issue. Examples of issues would be a missing driver or a PNP device that won’t go into sleep mode.
+This element holds information about a single issue. Examples of issues would be a missing driver or a PNP device that won t go into sleep mode.
 
 ## Usage
 
@@ -101,9 +107,9 @@ This element holds information about a single issue. Examples of issues would be
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

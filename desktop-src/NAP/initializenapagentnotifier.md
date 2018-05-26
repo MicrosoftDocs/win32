@@ -1,8 +1,9 @@
 ---
 title: InitializeNapAgentNotifier function
 description: Subscribes the calling process to NapAgent state change notifications and quarantine state change notifications.
-ms.assetid: '24180194-50d7-4f54-845d-25402af9cf9a'
-keywords: ["InitializeNapAgentNotifier function NAP"]
+ms.assetid: 24180194-50d7-4f54-845d-25402af9cf9a
+keywords:
+- InitializeNapAgentNotifier function NAP
 topic_type:
 - apiref
 api_name:
@@ -11,14 +12,19 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InitializeNapAgentNotifier function
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **InitializeNapAgentNotifier** function subscribes the calling process to NapAgent state change notifications and quarantine state change notifications. These notifications are provided by the NapAgent service.
 
@@ -27,8 +33,8 @@ The **InitializeNapAgentNotifier** function subscribes the calling process to Na
 
 ```C++
 NAPAPI HRESULT WINAPI InitializeNapAgentNotifier(
-  _In_ NapNotifyType type,
-  _In_ HANDLE        hNotifyEvent
+  _In_ NapNotifyType type,
+  _In_ HANDLE        hNotifyEvent
 );
 ```
 
@@ -41,7 +47,7 @@ NAPAPI HRESULT WINAPI InitializeNapAgentNotifier(
 *type* \[in\]
 </dt> <dd>
 
-A [**NapNotifyType**](napnotifytype.md) value that specifies the type of service notifications to receive.
+A [**NapNotifyType**](/windows/win32/NapTypes/ne-naptypes-tagnapnotifytype?branch=master) value that specifies the type of service notifications to receive.
 
 </dd> <dt>
 
@@ -65,7 +71,7 @@ An event handle used for notification. The caller must pass an open handle to th
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,8 +87,8 @@ Once a process does not require further notifications, the process must call [**
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>NapUtil.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 
@@ -95,9 +101,9 @@ Once a process does not require further notifications, the process must call [**
 [**UninitializeNapAgentNotifier**](uninitializenapagentnotifier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

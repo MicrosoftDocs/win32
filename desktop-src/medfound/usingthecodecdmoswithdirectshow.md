@@ -1,7 +1,12 @@
 ---
 Description: Using the Window Media Codecs in DirectShow
-ms.assetid: '5b930447-6bf2-4bb3-8dfb-05f4c1e7cd64'
+ms.assetid: 5b930447-6bf2-4bb3-8dfb-05f4c1e7cd64
 title: Using the Window Media Codecs in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Window Media Codecs in DirectShow
@@ -9,7 +14,7 @@ title: Using the Window Media Codecs in DirectShow
 The Windows Media Audio and Video encoder and decoder objects were originally designed and optimized to work with the ASF file container format and the Windows Media Format SDK. The codec objects work well in DirectShow for certain scenarios, namely one-pass CBR and quality based VBR encoding of video streams. But if you are considering using the codec objects directly in DirectShow using file containers other than ASF, there are certain behaviors and issues that you should be aware of in advance.
 
 > [!Note]  
-> If you are going to use standalone codecs with DirectShow, you will probably want to use them as DMOs only. In other words, you will be using the [**IMediaObject**](dshow.imediaobject) interface instead of [**IMFTransform**](imftransform.md).
+> If you are going to use standalone codecs with DirectShow, you will probably want to use them as DMOs only. In other words, you will be using the [**IMediaObject**](dshow.imediaobject) interface instead of [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master).
 
  
 

@@ -1,8 +1,9 @@
 ---
 title: g\_wszWMVCTotalWindow
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
-ms.assetid: '3d5ddca4-0223-4ca3-b10f-c8dd044451da'
-keywords: ["g_wszWMVCTotalWindow windows Media Format"]
+ms.assetid: 3d5ddca4-0223-4ca3-b10f-c8dd044451da
+keywords:
+- g_wszWMVCTotalWindow windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # g\_wszWMVCTotalWindow
@@ -27,9 +33,9 @@ For current documentation on Windows Media codecs and digital signal processors,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

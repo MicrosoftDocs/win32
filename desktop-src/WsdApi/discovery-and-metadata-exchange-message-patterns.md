@@ -1,7 +1,12 @@
 ---
-Description: 'Device Profile for Web Services (DPWS) hosts and clients communicate over the network using a series of SOAP messages over UDP and HTTP.'
-ms.assetid: '52282990-d993-4034-a791-2ee7c9c1663d'
+Description: Device Profile for Web Services (DPWS) hosts and clients communicate over the network using a series of SOAP messages over UDP and HTTP.
+ms.assetid: 52282990-d993-4034-a791-2ee7c9c1663d
 title: Discovery and Metadata Exchange Message Patterns
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Discovery and Metadata Exchange Message Patterns

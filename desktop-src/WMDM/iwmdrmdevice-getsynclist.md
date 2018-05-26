@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDevice GetSyncList method
 description: The GetSyncList method retrieves the license synchronization list on the device. License synchronization allows the host computer to transfer updated licenses to a device according to the specified criteria.
-ms.assetid: '772ac03b-3339-4c5f-a8fc-1c216ec665b7'
-keywords: ["GetSyncList method windows Media Device Manager", "GetSyncList method windows Media Device Manager , IWMDRMDevice interface", "IWMDRMDevice interface windows Media Device Manager , GetSyncList method"]
+ms.assetid: 772ac03b-3339-4c5f-a8fc-1c216ec665b7
+keywords:
+- GetSyncList method windows Media Device Manager
+- GetSyncList method windows Media Device Manager , IWMDRMDevice interface
+- IWMDRMDevice interface windows Media Device Manager , GetSyncList method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice::GetSyncList method
@@ -23,10 +31,10 @@ The **GetSyncList** method retrieves the license synchronization list on the dev
 
 ```C++
 HRESULT GetSyncList(
-  [in]  DWORD cMinCountThreshold,
-  [in]  DWORD cMinHoursThreshold,
-  [out] BYTE  **ppbSyncList,
-  [out] DWORD *pcbSyncList
+  [in]  DWORD cMinCountThreshold,
+  [in]  DWORD cMinHoursThreshold,
+  [out] BYTE  **ppbSyncList,
+  [out] DWORD *pcbSyncList
 );
 ```
 
@@ -76,7 +84,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -96,9 +104,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWMDRMDevice Interface**](iwmdrmdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

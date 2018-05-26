@@ -1,7 +1,12 @@
 ---
-Description: 'Navigation page for how to use the time functions.'
-ms.assetid: 'dbbbd72b-1dfa-47f2-b5b9-4d43610f3824'
+Description: Navigation page for how to use the time functions.
+ms.assetid: dbbbd72b-1dfa-47f2-b5b9-4d43610f3824
 title: Using Time
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Time

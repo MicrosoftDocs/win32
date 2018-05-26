@@ -1,8 +1,20 @@
 ---
 title: Enumerations
 description: Enumerations
-ms.assetid: '385dfa9b-1dd9-433f-8539-a5da96e6bd34'
-keywords: ["Windows Color System (WCS),enumerations", "WCS (Windows Color System),enumerations", "image color management,enumerations", "color management,enumerations", "colors,enumerations", "WCS reference,enumerations", "reference for WCS,enumerations"]
+ms.assetid: 385dfa9b-1dd9-433f-8539-a5da96e6bd34
+keywords:
+- Windows Color System (WCS),enumerations
+- WCS (Windows Color System),enumerations
+- image color management,enumerations
+- color management,enumerations
+- colors,enumerations
+- WCS reference,enumerations
+- reference for WCS,enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerations

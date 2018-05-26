@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item property returns a FaxDevice object from the FaxDevices collection, using its index.'
-ms.assetid: '2c8539a4-19e5-47a3-9375-f7adefcb72a4'
-title: 'FaxDevices.Item property'
+---
+Description: The Item property returns a FaxDevice object from the FaxDevices collection, using its index.
+ms.assetid: 2c8539a4-19e5-47a3-9375-f7adefcb72a4
+title: FaxDevices.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevices.Item property
@@ -23,7 +28,7 @@ Property Item( _
 
 ## Property value
 
-A variable of type [**IFaxDevice**](-mfax-faxdevice-cpp.md) that receives a [**FaxDevice**](-mfax-faxdevice.md) object.
+A variable of type [**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master) that receives a [**FaxDevice**](-mfax-faxdevice.md) object.
 
 ## Remarks
 

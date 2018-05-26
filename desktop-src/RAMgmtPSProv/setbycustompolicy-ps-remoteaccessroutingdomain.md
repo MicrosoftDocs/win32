@@ -2,13 +2,16 @@
 title: SetByCustomPolicy method of the PS\_RemoteAccessRoutingDomain class
 description: Updates site-to-site (S2S) VPN settings for a custom routing domain configuration.
 audience: developer
-ms.assetid: '737d5cdb-a9ea-4697-9428-2523b23b9282'
-ms.prod: 'windows-server-dev'
+ms.assetid: 737d5cdb-a9ea-4697-9428-2523b23b9282
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByCustomPolicy method", "SetByCustomPolicy method, PS_RemoteAccessRoutingDomain class", "PS_RemoteAccessRoutingDomain class, SetByCustomPolicy method"]
+keywords:
+- SetByCustomPolicy method
+- SetByCustomPolicy method, PS_RemoteAccessRoutingDomain class
+- PS_RemoteAccessRoutingDomain class, SetByCustomPolicy method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByCustomPolicy method of the PS\_RemoteAccessRoutingDomain class
@@ -28,31 +34,31 @@ Updates site-to-site (S2S) VPN settings for a custom routing domain configuratio
 
 ```mof
 uint32 SetByCustomPolicy(
-  [in]  string                 Name,
-  [in]  uint32                 IdleDisconnectSec,
-  [in]  uint32                 InterimAccountingPeriodSec,
-  [in]  string                 IPAddressRange[],
-  [in]  string                 IPv6Prefix,
-  [in]  uint32                 SaLifeTimeSec,
-  [in]  uint32                 MMSaLifeTimeSec,
-  [in]  string                 NetBiosIPAddress[],
-  [in]  uint32                 MaximumVpnConnections,
-  [in]  string                 TenantName[],
-  [in]  boolean                PassThru,
-  [in]  boolean                Force,
-  [in]  uint32                 EnableQoS,
-  [in]  uint64                 TxBandwidthKbps,
-  [in]  uint64                 RxBandwidthKbps,
-  [in]  string                 DnsIPAddress[],
-  [in]  boolean                CustomPolicy,
-  [in]  uint32                 AuthenticationTransformConstant,
-  [in]  uint32                 CipherTransformConstant,
-  [in]  uint32                 EncryptionMethod,
-  [in]  uint32                 IntegrityCheckMethod,
-  [in]  uint32                 PfsGroup,
-  [in]  uint32                 SaRenegotiationDataSizeKB,
-  [in]  uint32                 DHGroup,
-  [out] VpnRoutingDomainConfig cmdletOutput
+  [in]  string                 Name,
+  [in]  uint32                 IdleDisconnectSec,
+  [in]  uint32                 InterimAccountingPeriodSec,
+  [in]  string                 IPAddressRange[],
+  [in]  string                 IPv6Prefix,
+  [in]  uint32                 SaLifeTimeSec,
+  [in]  uint32                 MMSaLifeTimeSec,
+  [in]  string                 NetBiosIPAddress[],
+  [in]  uint32                 MaximumVpnConnections,
+  [in]  string                 TenantName[],
+  [in]  boolean                PassThru,
+  [in]  boolean                Force,
+  [in]  uint32                 EnableQoS,
+  [in]  uint64                 TxBandwidthKbps,
+  [in]  uint64                 RxBandwidthKbps,
+  [in]  string                 DnsIPAddress[],
+  [in]  boolean                CustomPolicy,
+  [in]  uint32                 AuthenticationTransformConstant,
+  [in]  uint32                 CipherTransformConstant,
+  [in]  uint32                 EncryptionMethod,
+  [in]  uint32                 IntegrityCheckMethod,
+  [in]  uint32                 PfsGroup,
+  [in]  uint32                 SaRenegotiationDataSizeKB,
+  [in]  uint32                 DHGroup,
+  [out] VpnRoutingDomainConfig cmdletOutput
 );
 ```
 
@@ -109,7 +115,7 @@ Lifetime of a security association (SA) in seconds, after which the SA is no lon
 
 Lifetime of main mode security association (SA) in seconds, after which the MM SA is no longer valid.
 
-**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -246,7 +252,7 @@ The [**VpnRoutingDomainConfig**](vpnroutingdomainconfig.md) object that receives
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -260,9 +266,9 @@ The [**VpnRoutingDomainConfig**](vpnroutingdomainconfig.md) object that receives
 [**PS\_RemoteAccessRoutingDomain**](ps-remoteaccessroutingdomain.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

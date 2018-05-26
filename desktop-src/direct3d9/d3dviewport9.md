@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the window dimensions of a render-target surface onto which a 3D volume projects.'
-ms.assetid: 'fb2c6048-f837-497d-8e4f-e18942d37899'
+---
+Description: Defines the window dimensions of a render-target surface onto which a 3D volume projects.
+ms.assetid: fb2c6048-f837-497d-8e4f-e18942d37899
 title: D3DVIEWPORT9 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DVIEWPORT9 structure
@@ -98,7 +103,7 @@ Together with MinZ, value describing the range of depth values into which a scen
 
 The X, Y, Width, and Height members describe the position and dimensions of the viewport on the render-target surface. Usually, applications render to the entire target surface; when rendering on a 640 x 480 surface, these members should be 0, 0, 640, and 480, respectively. The MinZ and MaxZ are typically set to 0.0 and 1.0 but can be set to other values to achieve specific effects. For example, you might set them both to 0.0 to force the system to render objects to the foreground of a scene, or both to 1.0 to force the objects into the background.
 
-When the viewport parameters for a device change (because of a call to the [**SetViewport**](idirect3ddevice9--setviewport.md) method), the driver builds a new transformation matrix.
+When the viewport parameters for a device change (because of a call to the [**SetViewport**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setviewport?branch=master) method), the driver builds a new transformation matrix.
 
 ## Requirements
 
@@ -117,10 +122,10 @@ When the viewport parameters for a device change (because of a call to the [**Se
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetViewport**](idirect3ddevice9--getviewport.md)
+[**GetViewport**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getviewport?branch=master)
 </dt> <dt>
 
-[**SetViewport**](idirect3ddevice9--setviewport.md)
+[**SetViewport**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setviewport?branch=master)
 </dt> </dl>
 
  

@@ -1,12 +1,17 @@
-﻿---
-Description: 'Remotable version of the IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS method.'
-ms.assetid: '1a168462-400d-46c9-a489-7b861770469f'
+---
+Description: Remotable version of the IMFWorkQueueServicesBeginUnregisterTopologyWorkQueuesWithMMCSS method.
+ms.assetid: 1a168462-400d-46c9-a489-7b861770469f
 title: RemoteBeginUnregisterTopologyWorkQueuesWithMMCSS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoteBeginUnregisterTopologyWorkQueuesWithMMCSS
 
-Remotable version of the [**IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS**](imfworkqueueservices-beginunregistertopologyworkqueueswithmmcss.md) method.
+Remotable version of the [**IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservices-beginunregistertopologyworkqueueswithmmcss?branch=master) method.
 
 ``` syntax
 [call_as(BeginUnregisterTopologyWorkQueuesWithMMCSS)]
@@ -17,7 +22,7 @@ HRESULT RemoteBeginUnregisterTopologyWorkQueuesWithMMCSS(
 
 ## Remarks
 
-Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**BeginUnregisterTopologyWorkQueuesWithMMCSS**](imfworkqueueservices-beginunregistertopologyworkqueueswithmmcss.md) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
+Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**BeginUnregisterTopologyWorkQueuesWithMMCSS**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservices-beginunregistertopologyworkqueueswithmmcss?branch=master) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
 
 ## Requirements
 
@@ -36,7 +41,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 <dl> <dt>
 
-[**IMFWorkQueueServices**](imfworkqueueservices.md)
+[**IMFWorkQueueServices**](/windows/win32/mfidl/nn-mfidl-imfworkqueueservices?branch=master)
 </dt> </dl>
 
  

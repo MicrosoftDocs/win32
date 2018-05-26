@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines an allowed network.'
-ms.assetid: '6dd90924-ded4-427d-a6cd-7742acf89c21'
-title: 'network (allowList) Element'
+---
+Description: Defines an allowed network.
+ms.assetid: 6dd90924-ded4-427d-a6cd-7742acf89c21
+title: network (allowList) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # network (allowList) Element

@@ -1,14 +1,20 @@
 ---
 title: sign
 description: Returns the sign of x.
-ms.assetid: '3e2e04e8-0ffc-4721-a5d8-1ccfa6ca2a1a'
-keywords: ["sign HLSL"]
+ms.assetid: 3e2e04e8-0ffc-4721-a5d8-1ccfa6ca2a1a
+keywords:
+- sign HLSL
 topic_type:
 - apiref
 api_name:
 - sign
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sign
@@ -22,7 +28,7 @@ Returns the sign of *x*.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the sign of *x*.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ Returns -1 if *x* is less than zero; 0 if *x* equals zero; and 1 if *x* is great
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

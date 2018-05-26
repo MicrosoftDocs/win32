@@ -1,8 +1,9 @@
 ---
 title: EM\_SETBIDIOPTIONS message
 description: The EM\_SETBIDIOPTIONS message sets the current state of the bidirectional options in the rich edit control.
-ms.assetid: 'b518e423-317a-4654-9d9f-c501028e2a0a'
-keywords: ["EM_SETBIDIOPTIONS message Windows Controls"]
+ms.assetid: b518e423-317a-4654-9d9f-c501028e2a0a
+keywords:
+- EM_SETBIDIOPTIONS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETBIDIOPTIONS message
@@ -31,7 +37,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**BIDIOPTIONS**](bidioptions.md) structure that indicates how to set the state of the bidirectional options in the rich edit control.
+Pointer to a [**BIDIOPTIONS**](/windows/win32/Richedit/ns-richedit-_bidioptions?branch=master) structure that indicates how to set the state of the bidirectional options in the rich edit control.
 
 </dd> </dl>
 
@@ -53,8 +59,8 @@ In plain text controls, **EM\_SETBIDIOPTIONS** automatically determines the para
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Redistributable<br/>          | Rich Edit 3.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
@@ -67,15 +73,15 @@ In plain text controls, **EM\_SETBIDIOPTIONS** automatically determines the para
 **Reference**
 </dt> <dt>
 
-[**BIDIOPTIONS**](bidioptions.md)
+[**BIDIOPTIONS**](/windows/win32/Richedit/ns-richedit-_bidioptions?branch=master)
 </dt> <dt>
 
 [**EM\_GETBIDIOPTIONS**](em-getbidioptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

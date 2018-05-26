@@ -1,14 +1,20 @@
 ---
 title: ResultSnippet AddWarning methods
 description: Creates an ErrorWarning object for use by the ResultSnippet object.
-ms.assetid: '22F84B0C-6C42-4AA7-B23F-68C927FE3BD8'
-keywords: ["AddWarning methods Access Execution Engine"]
+ms.assetid: 22F84B0C-6C42-4AA7-B23F-68C927FE3BD8
+keywords:
+- AddWarning methods Access Execution Engine
 topic_type:
 - apiref
 api_location:
 - AxeRuntime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResultSnippet::AddWarning methods
@@ -34,8 +40,8 @@ Creates an [**ErrorWarning**](errorwarning.md) object for use by the [**ResultSn
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 
 
@@ -47,9 +53,9 @@ Creates an [**ErrorWarning**](errorwarning.md) object for use by the [**ResultSn
 [**ResultSnippet**](resultsnippet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

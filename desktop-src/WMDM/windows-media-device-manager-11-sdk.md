@@ -1,8 +1,28 @@
 ---
 title: Windows Media Device Manager 11 SDK
 description: Windows Media Device Manager 11 SDK
-ms.assetid: '9c0c9a96-1335-4ae2-9393-bfab0dfe24c6'
-keywords: ["Windows Media Device Manager,about", "Device Manager,about", "Media Transfer Protocol (MTP)", "MTP (Media Transfer Protocol)", "Mass Storage Class (MSC)", "MSC (Mass Storage Class)", "Windows Media Device Manager,desktop applications", "Device Manager,desktop applications", "desktop applications,about", "Windows Media Device Manager,service providers", "Device Manager,service providers", "service providers,about", "Windows Media Device Manager,plug-ins", "Device Manager,plug-insp", "plug-ins,about"]
+ms.assetid: 9c0c9a96-1335-4ae2-9393-bfab0dfe24c6
+keywords:
+- Windows Media Device Manager,about
+- Device Manager,about
+- Media Transfer Protocol (MTP)
+- MTP (Media Transfer Protocol)
+- Mass Storage Class (MSC)
+- MSC (Mass Storage Class)
+- Windows Media Device Manager,desktop applications
+- Device Manager,desktop applications
+- desktop applications,about
+- Windows Media Device Manager,service providers
+- Device Manager,service providers
+- service providers,about
+- Windows Media Device Manager,plug-ins
+- Device Manager,plug-insp
+- plug-ins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Device Manager 11 SDK

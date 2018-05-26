@@ -1,8 +1,11 @@
 ---
 title: EnableDevice method of the CIM\_LogicalDevice class
 description: This method is deprecated. Instead, use the RequestStateChange method.
-ms.assetid: '39bf96b8-bfd1-4232-af28-199ad062ebe5'
-keywords: ["EnableDevice method Hyper-V", "EnableDevice method Hyper-V , CIM_LogicalDevice class", "CIM_LogicalDevice class Hyper-V , EnableDevice method"]
+ms.assetid: 39bf96b8-bfd1-4232-af28-199ad062ebe5
+keywords:
+- EnableDevice method Hyper-V
+- EnableDevice method Hyper-V , CIM_LogicalDevice class
+- CIM_LogicalDevice class Hyper-V , EnableDevice method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableDevice method of the CIM\_LogicalDevice class
@@ -24,7 +32,7 @@ This method is deprecated. Instead, use the [**RequestStateChange**](virtual-cim
 
 ```mof
 uint32 EnableDevice(
-  [in] boolean Enabled
+  [in] boolean Enabled
 );
 ```
 
@@ -81,9 +89,9 @@ The operation was not completed because it is not supported.
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

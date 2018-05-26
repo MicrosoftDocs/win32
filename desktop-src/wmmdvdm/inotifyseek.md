@@ -1,14 +1,21 @@
 ---
 title: INotifySeek interface
 description: The transform can optionally implement the INotifySeek interface to receive notifications of playback discontinuities because of a seek operation in the file by the user.
-ms.assetid: '8aa99bc1-012b-4c92-b62e-d0e71851d4d0'
-keywords: ["INotifySeek interface Windows Movie Maker and DVD Maker", "INotifySeek interface Windows Movie Maker and DVD Maker , described"]
+ms.assetid: 8aa99bc1-012b-4c92-b62e-d0e71851d4d0
+keywords:
+- INotifySeek interface Windows Movie Maker and DVD Maker
+- INotifySeek interface Windows Movie Maker and DVD Maker , described
 topic_type:
 - apiref
 api_name:
 - INotifySeek
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INotifySeek interface
@@ -33,7 +40,7 @@ The **INotifySeek** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -42,9 +49,9 @@ The **INotifySeek** interface has these methods.
 [**Transform Interfaces**](transform-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

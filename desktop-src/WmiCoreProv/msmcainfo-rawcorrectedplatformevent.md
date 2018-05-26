@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a Corrected Platform Event (CPE). This class is available only in 64-bit Windows systems.'
-ms.assetid: 'b24a390e-293d-4dd4-b747-33c298a5d45f'
-title: 'MSMCAInfo\_RawCorrectedPlatformEvent class'
+Description: Contains a Corrected Platform Event (CPE). This class is available only in 64-bit Windows systems.
+ms.assetid: b24a390e-293d-4dd4-b747-33c298a5d45f
+title: MSMCAInfo\_RawCorrectedPlatformEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAInfo\_RawCorrectedPlatformEvent class
@@ -15,8 +20,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSMCAInfo_RawCorrectedPlatformEvent : WMIEvent
 {
-  boolean         Active;
-  uint32          Count;
+  boolean         Active;
+  uint32          Count;
   MSMCAInfo_Entry Records[];
 };
 ```
@@ -82,8 +87,8 @@ The **MSMCAInfo\_RawCorrectedPlatformEvent** class is derived from [**WMIEvent**
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -100,9 +105,9 @@ The **MSMCAInfo\_RawCorrectedPlatformEvent** class is derived from [**WMIEvent**
 [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

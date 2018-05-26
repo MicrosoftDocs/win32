@@ -1,14 +1,22 @@
 ---
 title: IBasicDevice Description method
 description: Retrieves a description of the device.
-ms.assetid: '9973AC46-E6BA-4931-BDEB-E64B147AB291'
-keywords: ["Description method Media Streaming API", "Description method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , Description method"]
+ms.assetid: 9973AC46-E6BA-4931-BDEB-E64B147AB291
+keywords:
+- Description method Media Streaming API
+- Description method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , Description method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.Description
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::Description method
@@ -20,7 +28,7 @@ Retrieves a description of the device.
 
 ```C++
 HRESULT Description(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

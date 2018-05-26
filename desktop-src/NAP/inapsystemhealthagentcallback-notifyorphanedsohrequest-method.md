@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthAgentCallback NotifyOrphanedSoHRequest method
 description: Is called if an SoHRequest was queried from the SHA, but the response never came back.
-ms.assetid: '9e6fac6c-fb23-4725-ae0f-28ef8a6c4ea6'
-keywords: ["NotifyOrphanedSoHRequest method NAP", "NotifyOrphanedSoHRequest method NAP , INapSystemHealthAgentCallback interface", "INapSystemHealthAgentCallback interface NAP , NotifyOrphanedSoHRequest method"]
+ms.assetid: 9e6fac6c-fb23-4725-ae0f-28ef8a6c4ea6
+keywords:
+- NotifyOrphanedSoHRequest method NAP
+- NotifyOrphanedSoHRequest method NAP , INapSystemHealthAgentCallback interface
+- INapSystemHealthAgentCallback interface NAP , NotifyOrphanedSoHRequest method
 topic_type:
 - apiref
 api_name:
@@ -11,23 +14,28 @@ api_location:
 - NapSystemHealthAgent.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthAgentCallback::NotifyOrphanedSoHRequest method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
-The **INapSystemHealthAgentCallback::NotifyOrphanedSoHRequest** method is called if an [**SoHRequest**](soh-struct.md) was queried from the SHA, but the response never came back.
+The **INapSystemHealthAgentCallback::NotifyOrphanedSoHRequest** method is called if an [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) was queried from the SHA, but the response never came back.
 
 ## Syntax
 
 
 ```C++
 HRESULT NotifyOrphanedSoHRequest(
-  [in] const CorrelationId *correlationId
+  [in] const CorrelationId *correlationId
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT NotifyOrphanedSoHRequest(
 *correlationId* \[in\]
 </dt> <dd>
 
-A pointer to the unique [**CorrelationId**](correlationid-struct.md) structure that identifies the orphaned [**SoHRequest**](soh-struct.md).
+A pointer to the unique [**CorrelationId**](/windows/win32/NapTypes/ns-naptypes-tagcorrelationid?branch=master) structure that identifies the orphaned [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master).
 
 </dd> </dl>
 
@@ -56,7 +64,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,8 +72,8 @@ This callback method is declared by the NAP system and is to be implemented by t
 
 This method can be called by the system in the following cases:
 
--   A [**SoHRequest**](soh-struct.md) could not be sent on the wire.
--   A [**SoHRequest**](soh-struct.md) was sent on the wire, but no **SoHResponse** came back, i.e. the enforcer timed out or there was no corresponding SHV on the server-side.
+-   A [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) could not be sent on the wire.
+-   A [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) was sent on the wire, but no **SoHResponse** came back, i.e. the enforcer timed out or there was no corresponding SHV on the server-side.
 -   The connection went down or an enforcer went offline.
 
 This is only a best effort notification, so SHAs must not rely on this information to clean up state. There are several situations in which an SHA will not be notified:
@@ -82,8 +90,8 @@ SHAs may get some spurious notifications when they first bind to the NapAgent, f
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapSystemHealthAgent.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthAgent.idl</dt> </dl> |
 
@@ -96,9 +104,9 @@ SHAs may get some spurious notifications when they first bind to the NapAgent, f
 [**INapSystemHealthAgentCallback**](inapsystemhealthagentcallback.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

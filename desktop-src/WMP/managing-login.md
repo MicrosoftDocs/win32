@@ -1,8 +1,28 @@
 ---
 title: Managing Login
 description: Managing Login
-ms.assetid: '5cafcd3a-e819-4524-b7a9-580ff36fc4f8'
-keywords: ["Windows Media Player online stores,managing logins", "online stores,managing logins", "type 1 online stores,managing logins", "Windows Media Player online stores,logins", "online stores,logins", "type 1 online stores,logins", "Windows Media Player online stores,standard log-in process", "online stores,standard log-in process", "type 1 online stores,standard log-in process", "Windows Media Player online stores,log-out process", "online stores,log-out process", "type 1 online stores,log-out process", "standard log-in process", "log-out process", "logins"]
+ms.assetid: 5cafcd3a-e819-4524-b7a9-580ff36fc4f8
+keywords:
+- Windows Media Player online stores,managing logins
+- online stores,managing logins
+- type 1 online stores,managing logins
+- Windows Media Player online stores,logins
+- online stores,logins
+- type 1 online stores,logins
+- Windows Media Player online stores,standard log-in process
+- online stores,standard log-in process
+- type 1 online stores,standard log-in process
+- Windows Media Player online stores,log-out process
+- online stores,log-out process
+- type 1 online stores,log-out process
+- standard log-in process
+- log-out process
+- logins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Login
@@ -11,7 +31,7 @@ Windows Media Player supports a variety of methods for the user to log in to a t
 
 The user can initiate a log-in attempt by interacting with the Windows Media Player user interface or by interacting with a discovery page provided by the online store. If the user initiates a log-in attempt by interacting with a discovery page, script on the discovery page calls the [External.attemptLogin](external-attemptlogin.md) method.
 
-The user's log-in state is maintained by the online store. When the user's log-in state changes, or if a log-in attempt fails, the online store's plug-in notifies Windows Media Player by calling [IWMPContentPartnerCallback::Notify](iwmpcontentpartnercallback-notify.md), passing wmpcnLoginStateChange in the *type* parameter. The Player passes the notification along to the discovery page by raising the [External.OnLoginChange](external-onloginchange-event.md) event.
+The user's log-in state is maintained by the online store. When the user's log-in state changes, or if a log-in attempt fails, the online store's plug-in notifies Windows Media Player by calling [IWMPContentPartnerCallback::Notify](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify?branch=master), passing wmpcnLoginStateChange in the *type* parameter. The Player passes the notification along to the discovery page by raising the [External.OnLoginChange](external-onloginchange-event.md) event.
 
 A call to **OnLoginChange** does not necessarily mean that the user's log-in state changed; it could mean that an attempt to log in failed. To determine the user's log-in state, the **OnLoginChange** event handler can inspect the [External.userLoggedIn](external-userloggedin.md) property.
 
@@ -23,9 +43,9 @@ The standard log-in process involves the following steps:
 
 1.  The user initiates a log-in attempt by interacting with the Windows Media Player user interface or by interacting with a discovery page.
 2.  Windows Media Player displays a dialog box that prompts the user for a user-name and password.
-3.  When the user clicks the **Sign In** button in the dialog box, Windows Media Player calls [IWMPContentPartner::Login](iwmpcontentpartner-login.md), which is implemented by the online store's plug-in.
+3.  When the user clicks the **Sign In** button in the dialog box, Windows Media Player calls [IWMPContentPartner::Login](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-login?branch=master), which is implemented by the online store's plug-in.
 4.  The plug-in communicates with the online store and either succeeds or fails to log in the user.
-5.  If the log-in attempt succeeds, the plug-in notifies Windows Media Player by calling **IWMPContentPartnerCallback::Notify**, passing VARIANT\_TRUE in the **boolVal** member of the *pContext* parameter. If the log-in attempt fails, the plug-in notifies Windows Media Player by calling **IWMPContentPartnerCallback::Notify**, passing a 32-bit value in the **ulVal** member of the *pContext* parameter. The Player then passes that 32-bit value to [IWMPContentPartner::GetItemInfo](iwmpcontentpartner-getiteminfo.md) to get the URL of a webpage that can handle the failure.
+5.  If the log-in attempt succeeds, the plug-in notifies Windows Media Player by calling **IWMPContentPartnerCallback::Notify**, passing VARIANT\_TRUE in the **boolVal** member of the *pContext* parameter. If the log-in attempt fails, the plug-in notifies Windows Media Player by calling **IWMPContentPartnerCallback::Notify**, passing a 32-bit value in the **ulVal** member of the *pContext* parameter. The Player then passes that 32-bit value to [IWMPContentPartner::GetItemInfo](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo?branch=master) to get the URL of a webpage that can handle the failure.
 
 ## Alternative Login
 
@@ -49,14 +69,14 @@ The alternative log-in process involves the following steps:
 1.  The user initiates a log-in attempt by interacting with the Windows Media Player user interface or by interacting with a discovery page.
 2.  Windows Media Player opens a modal window that displays the log-in webpage provided by the online store.
 3.  The webpage communicates with the online store and either succeeds or fails to log in the user.
-4.  If the log-in attempt succeeds, the webpage notifies the online store's plug-in by calling [External.sendMessage](external-sendmessage.md), which results in a call to [IWMPContentPartner::SendMessage](iwmpcontentpartner-sendmessage.md). The online store's plug-in determines that the log-in attempt succeeded by inspecting the parameters passed to **IWMPContentPartner::SendMessage**. Those parameters are not interpreted by Windows Media Player; they have meaning only to the online store. The plug-in calls **IWMPContentPartnerCallback::Notify**, passing VARIANT\_TRUE in the **boolVal** member of the *pContext* parameter. If the log-in fails, the online store must determine how to assist the user. One possibility is to display a new webpage in the modal window that hosts the alternative log-in webpage.
+4.  If the log-in attempt succeeds, the webpage notifies the online store's plug-in by calling [External.sendMessage](external-sendmessage.md), which results in a call to [IWMPContentPartner::SendMessage](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-sendmessage?branch=master). The online store's plug-in determines that the log-in attempt succeeded by inspecting the parameters passed to **IWMPContentPartner::SendMessage**. Those parameters are not interpreted by Windows Media Player; they have meaning only to the online store. The plug-in calls **IWMPContentPartnerCallback::Notify**, passing VARIANT\_TRUE in the **boolVal** member of the *pContext* parameter. If the log-in fails, the online store must determine how to assist the user. One possibility is to display a new webpage in the modal window that hosts the alternative log-in webpage.
 
 ## Log-out
 
 The log-out process involves the following steps.
 
 1.  The user initiates a log-out attempt by interacting with the Windows Media Player user interface or by interacting with a discovery page.
-2.  Windows Media Player calls [IWMPContentPartner::Logout](iwmpcontentpartner-logout.md), which is implemented by the online store's plug-in.
+2.  Windows Media Player calls [IWMPContentPartner::Logout](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-logout?branch=master), which is implemented by the online store's plug-in.
 3.  The plug-in communicates with the online store and either succeeds or fails to log out the user.
 4.  If the log-out attempt succeeds, the plug-in notifies Windows Media Player by calling **IWMPContentPartnerCallback::Notify**, passing VARIANT\_FALSE in the **boolVal** member of the *pContext* parameter.
 
@@ -75,10 +95,10 @@ When an attempt to log in or out is successful, the online store's plug-in calls
 [**External.userLoggedIn**](external-userloggedin.md)
 </dt> <dt>
 
-[**IWMPContentPartner::Login**](iwmpcontentpartner-login.md)
+[**IWMPContentPartner::Login**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-login?branch=master)
 </dt> <dt>
 
-[**IWMPContentPartner::Logout**](iwmpcontentpartner-logout.md)
+[**IWMPContentPartner::Logout**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-logout?branch=master)
 </dt> <dt>
 
 [**Programming Guide for Type 1 Online Stores**](programming-guide-for-type-1-online-stores.md)

@@ -1,8 +1,9 @@
 ---
 title: MEDIA\_FORMAT\_TYPE enumeration
 description: The MEDIA\_FORMAT\_TYPE enumeration describes the media type handled by a transform.
-ms.assetid: 'c417e1e8-a539-4021-b9ae-b9764686d3cc'
-keywords: ["MEDIA_FORMAT_TYPE enumeration Windows Movie Maker and DVD Maker"]
+ms.assetid: c417e1e8-a539-4021-b9ae-b9764686d3cc
+keywords:
+- MEDIA_FORMAT_TYPE enumeration Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - GPUPipelineTime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEDIA\_FORMAT\_TYPE enumeration
@@ -53,8 +59,8 @@ The buffer uses video memory.
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl> |
 
 
@@ -66,9 +72,9 @@ The buffer uses video memory.
 [**Enumeration Types**](enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

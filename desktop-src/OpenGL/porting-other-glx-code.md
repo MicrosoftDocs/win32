@@ -1,8 +1,17 @@
 ---
 title: Porting Other GLX Code
 description: Porting Other GLX Code
-ms.assetid: '3a67a206-d249-493c-a774-c3bbaa933611'
-keywords: ["porting to OpenGL,GLX code", "OpenGL porting,GLX code", "X Window System,porting GLX code", "GLX functions,porting"]
+ms.assetid: 3a67a206-d249-493c-a774-c3bbaa933611
+keywords:
+- porting to OpenGL,GLX code
+- OpenGL porting,GLX code
+- X Window System,porting GLX code
+- GLX functions,porting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Other GLX Code

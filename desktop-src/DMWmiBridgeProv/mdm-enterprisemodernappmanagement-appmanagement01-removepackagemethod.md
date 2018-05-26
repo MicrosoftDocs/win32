@@ -1,8 +1,11 @@
 ---
 title: RemovePackageMethod method of the MDM\_EnterpriseModernAppManagement\_AppManagement01 class
 description: Method for removing packages. See also RemovePackage.
-ms.assetid: '0f48fd9c-5a3f-48e5-a954-e937e79af049'
-keywords: ["RemovePackageMethod method", "RemovePackageMethod method, MDM_EnterpriseModernAppManagement_AppManagement01 class", "MDM_EnterpriseModernAppManagement_AppManagement01 class, RemovePackageMethod method"]
+ms.assetid: 0f48fd9c-5a3f-48e5-a954-e937e79af049
+keywords:
+- RemovePackageMethod method
+- RemovePackageMethod method, MDM_EnterpriseModernAppManagement_AppManagement01 class
+- MDM_EnterpriseModernAppManagement_AppManagement01 class, RemovePackageMethod method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemovePackageMethod method of the MDM\_EnterpriseModernAppManagement\_AppManagement01 class
@@ -24,7 +32,7 @@ Method for removing packages. See also [RemovePackage](https://msdn.microsoft.co
 
 ```mof
 uint32 RemovePackageMethod(
-  [in] string param
+  [in] string param
 );
 ```
 
@@ -43,7 +51,7 @@ uint32 RemovePackageMethod(
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -58,9 +66,9 @@ uint32 RemovePackageMethod(
 [**MDM\_EnterpriseModernAppManagement\_AppManagement01**](mdm-enterprisemodernappmanagement-appmanagement01.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

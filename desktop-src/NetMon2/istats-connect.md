@@ -1,7 +1,12 @@
 ---
-Description: 'The Connect method connects the NPP to the network by using a specified NIC and provides configuration information for the connection.'
-ms.assetid: '29a12df7-9c81-40ff-ac12-33ce1de833b1'
-title: 'IStats::Connect method'
+Description: The Connect method connects the NPP to the network by using a specified NIC and provides configuration information for the connection.
+ms.assetid: 29a12df7-9c81-40ff-ac12-33ce1de833b1
+title: IStatsConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStats::Connect method
@@ -13,10 +18,10 @@ The **Connect** method connects the NPP to the network by using a specified NIC 
 
 ```C++
 HRESULT STDMETHODCALLTYPE Connect(
-  [in]  HBLOB  hInputBlob,
-  [in]  LPVOID StatusCallbackProc,
-  [in]  LPVOID UserContext,
-  [out] HBLOB  hErrorBlob
+  [in]  HBLOB  hInputBlob,
+  [in]  LPVOID StatusCallbackProc,
+  [in]  LPVOID UserContext,
+  [out] HBLOB  hErrorBlob
 );
 ```
 
@@ -124,7 +129,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -144,7 +149,7 @@ The error BLOB returned by the *hErrorBlob* parameter contains entries that Netw
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -152,8 +157,8 @@ The error BLOB returned by the *hErrorBlob* parameter contains entries that Netw
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -175,9 +180,9 @@ The error BLOB returned by the *hErrorBlob* parameter contains entries that Netw
 [Network Monitor BLOBS](network-monitor-blobs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

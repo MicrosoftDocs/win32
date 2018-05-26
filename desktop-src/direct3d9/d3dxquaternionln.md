@@ -1,7 +1,12 @@
-﻿---
-Description: 'Calculates the natural logarithm.'
-ms.assetid: '73ca7d13-1e20-48fc-b0ed-0d3127d094a7'
+---
+Description: Calculates the natural logarithm.
+ms.assetid: 73ca7d13-1e20-48fc-b0ed-0d3127d094a7
 title: D3DXQuaternionLn function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionLn function

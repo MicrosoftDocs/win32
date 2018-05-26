@@ -1,7 +1,12 @@
 ---
-Description: 'Bring Your Own Transaction (BYOT)'
-ms.assetid: '492875cb-52a7-484f-810e-bd838373b603'
-title: 'Bring Your Own Transaction (BYOT)'
+Description: Bring Your Own Transaction (BYOT)
+ms.assetid: 492875cb-52a7-484f-810e-bd838373b603
+title: Bring Your Own Transaction (BYOT)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bring Your Own Transaction (BYOT)
@@ -13,7 +18,7 @@ BYOT allows a component to be created with or to inherit an external transaction
 
  
 
-The interfaces for BYOT transactions include the [**ICreateWithTransactionEx**](icreatewithtransactionex.md) interface and the [**ICreateWithTipTransactionEx**](icreatewithtiptransactionex.md) interface. The **ICreateWithTransactionEx** interface creates an object that is enlisted within a manual transaction. The **ICreateWithTipTransactionEx** interface creates an object that is enlisted within a manual transaction using the Transaction Internet Protocol (TIP).
+The interfaces for BYOT transactions include the [**ICreateWithTransactionEx**](/windows/win32/ComSvcs/nn-comsvcs-icreatewithtransactionex?branch=master) interface and the [**ICreateWithTipTransactionEx**](/windows/win32/ComSvcs/nn-comsvcs-icreatewithtiptransactionex?branch=master) interface. The **ICreateWithTransactionEx** interface creates an object that is enlisted within a manual transaction. The **ICreateWithTipTransactionEx** interface creates an object that is enlisted within a manual transaction using the Transaction Internet Protocol (TIP).
 
 ## Related topics
 

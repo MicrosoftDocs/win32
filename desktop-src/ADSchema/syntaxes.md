@@ -4,10 +4,13 @@ description: The following syntaxes are defined by Active Directory.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8d777d93-19e3-465c-88c7-afe61c0fc114'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8d777d93-19e3-465c-88c7-afe61c0fc114
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Syntaxes

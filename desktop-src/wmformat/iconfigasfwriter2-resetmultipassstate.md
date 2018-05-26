@@ -1,14 +1,22 @@
 ---
 title: IConfigAsfWriter2 ResetMultiPassState method
 description: The ResetMultiPassState method resets the filter when a preprocessing encoding pass is canceled before it is completed.
-ms.assetid: 'b6687af7-f3cd-4e92-9c76-dddff9063fa0'
-keywords: ["ResetMultiPassState method windows Media Format", "ResetMultiPassState method windows Media Format , IConfigAsfWriter2 interface", "IConfigAsfWriter2 interface windows Media Format , ResetMultiPassState method"]
+ms.assetid: b6687af7-f3cd-4e92-9c76-dddff9063fa0
+keywords:
+- ResetMultiPassState method windows Media Format
+- ResetMultiPassState method windows Media Format , IConfigAsfWriter2 interface
+- IConfigAsfWriter2 interface windows Media Format , ResetMultiPassState method
 topic_type:
 - apiref
 api_name:
 - IConfigAsfWriter2.ResetMultiPassState
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IConfigAsfWriter2::ResetMultiPassState method
@@ -41,7 +49,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,12 +59,12 @@ This method must be called to reset the internal state of the filter whenever a 
 
 <dl> <dt>
 
-[**IConfigAsfWriter2 Interface**](iconfigasfwriter2.md)
+[**IConfigAsfWriter2 Interface**](/windows/win32/dshowasf/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

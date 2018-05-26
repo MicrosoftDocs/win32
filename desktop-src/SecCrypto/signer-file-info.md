@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a file to sign.'
-ms.assetid: '5b45d855-ede8-43eb-9253-e3fe1716686b'
-title: 'SIGNER\_FILE\_INFO structure'
+---
+Description: Specifies a file to sign.
+ms.assetid: 5b45d855-ede8-43eb-9253-e3fe1716686b
+title: SIGNER\_FILE\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SIGNER\_FILE\_INFO structure

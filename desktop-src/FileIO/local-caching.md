@@ -1,7 +1,12 @@
 ---
-Description: 'Local caching of data is a technique used to speed network access to data files. It involves caching data on clients rather than on servers when possible.'
-ms.assetid: 'a7eb24b3-7e23-4798-8584-30a171fa4f04'
+Description: Local caching of data is a technique used to speed network access to data files. It involves caching data on clients rather than on servers when possible.
+ms.assetid: a7eb24b3-7e23-4798-8584-30a171fa4f04
 title: Local Caching
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Local Caching

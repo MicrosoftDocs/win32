@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes IOCTL\_DOT4\_READ.'
-ms.assetid: '6E9E20E9-37F1-4C2F-B7C8-885F617A671F'
-title: 'IOCTL\_DOT4\_READ control code'
+---
+Description: This topic describes IOCTL\_DOT4\_READ.
+ms.assetid: 6E9E20E9-37F1-4C2F-B7C8-885F617A671F
+title: IOCTL\_DOT4\_READ control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_DOT4\_READ control code

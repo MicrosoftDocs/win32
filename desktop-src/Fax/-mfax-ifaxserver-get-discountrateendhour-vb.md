@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the DiscountRateEndHour property for a FaxServer object. The DiscountRateEndHour property is a number that represents the hour the discount period ends. The discount period applies only to outgoing fax transmissions.'
-ms.assetid: 'a953c003-3a0c-4d75-a86f-6397ce776c2f'
-title: 'FaxServer.DiscountRateEndHour property'
+---
+Description: Sets or retrieves the DiscountRateEndHour property for a FaxServer object. The DiscountRateEndHour property is a number that represents the hour the discount period ends. The discount period applies only to outgoing fax transmissions.
+ms.assetid: a953c003-3a0c-4d75-a86f-6397ce776c2f
+title: FaxServer.DiscountRateEndHour property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.DiscountRateEndHour property

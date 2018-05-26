@@ -1,8 +1,11 @@
 ---
 title: IWMPQuery addCondition method
 description: The addCondition method adds a condition to the compound query using AND logic.
-ms.assetid: '4594ee6f-b153-4d53-b3ee-cd1718a4d5dc'
-keywords: ["addCondition method Windows Media Player", "addCondition method Windows Media Player , IWMPQuery interface", "IWMPQuery interface Windows Media Player , addCondition method"]
+ms.assetid: 4594ee6f-b153-4d53-b3ee-cd1718a4d5dc
+keywords:
+- addCondition method Windows Media Player
+- addCondition method Windows Media Player , IWMPQuery interface
+- IWMPQuery interface Windows Media Player , addCondition method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPQuery::addCondition method
@@ -109,7 +117,7 @@ The following table lists the supported values for *bstrOperator*.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -206,9 +214,9 @@ Next i</code></pre></td>
 [**IWMPQuery Interface**](iwmpquery--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

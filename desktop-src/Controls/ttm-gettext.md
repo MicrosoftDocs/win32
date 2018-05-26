@@ -1,8 +1,9 @@
 ---
 title: TTM\_GETTEXT message
 description: Retrieves the information a tooltip control maintains about a tool.
-ms.assetid: 'f2afa706-4209-4761-a981-df3d5b938c88'
-keywords: ["TTM_GETTEXT message Windows Controls"]
+ms.assetid: f2afa706-4209-4761-a981-df3d5b938c88
+keywords:
+- TTM_GETTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_GETTEXT message
@@ -29,7 +35,7 @@ Retrieves the information a tooltip control maintains about a tool.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TOOLINFO**](toolinfo.md) structure. Set the **cbSize** member of this structure to `sizeof(TOOLINFO)` before sending this message. Set the **hwnd** and **uId** members to identify the tool for which to retrieve information. Allocate a buffer of size specified by *wParam*. Set the **lpszText** member to point to the buffer to receive the tool text.
+Pointer to a [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure. Set the **cbSize** member of this structure to `sizeof(TOOLINFO)` before sending this message. Set the **hwnd** and **uId** members to identify the tool for which to retrieve information. Allocate a buffer of size specified by *wParam*. Set the **lpszText** member to point to the buffer to receive the tool text.
 
 </dd> </dl>
 
@@ -43,16 +49,16 @@ No return value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TTM\_GETTEXTW** (Unicode) and **TTM\_GETTEXTA** (ANSI)<br/>                   |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Requirements for Objects
-ms.assetid: '4c3da994-fe12-4cb8-8f11-c4930cae96af'
+ms.assetid: 4c3da994-fe12-4cb8-8f11-c4930cae96af
 title: Requirements for Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Requirements for Objects
@@ -35,7 +40,7 @@ To learn which properties and resources each must support, see the description p
 | [**WPD\_CONTENT\_TYPE\_IMAGE\_ALBUM**](wpd-content-type-image-album.md)                  | Object is an image album.                                                                                                                                                                                                                                                                                                                                                                        |
 | [**WPD\_CONTENT\_TYPE\_MEDIA\_CAST**](wpd-content-type-memo.md)                          | Object is a media cast object. A media cast object can represent a container object that groups related content published online. For example, an RSS channel can be represented as a media cast object, and this object's WPD\_OBJECT\_REFERENCES property contains a list of object identifiers that represent each item in the channel.                                                       |
 | [**WPD\_CONTENT\_TYPE\_MEMO**](wpd-content-type-memo.md)                                 | Object represents memo data, for example, a text note.                                                                                                                                                                                                                                                                                                                                           |
-| [**WPD\_CONTENT\_TYPE\_MIXED\_CONTENT\_ALBUM**](wpd-content-type-mixed-content-album.md) | Object is an album of mixed media objects—for example, audio, image, and video files.                                                                                                                                                                                                                                                                                                            |
+| [**WPD\_CONTENT\_TYPE\_MIXED\_CONTENT\_ALBUM**](wpd-content-type-mixed-content-album.md) | Object is an album of mixed media objects for example, audio, image, and video files.                                                                                                                                                                                                                                                                                                            |
 | [**WPD\_CONTENT\_TYPE\_PLAYLIST**](wpd-content-type-playlist.md)                         | Object is a playlist.                                                                                                                                                                                                                                                                                                                                                                            |
 | [**WPD\_CONTENT\_TYPE\_PROGRAM**](wpd-content-type-program.md)                           | Object represents a file that can be run, for example, a script or an executable.                                                                                                                                                                                                                                                                                                                |
 | [**WPD\_CONTENT\_TYPE\_SECTION**](wpd-content-type-section.md)                           | Object describes a section of data contained in another object. For example, a large audio file may best be described by a series of chapters. Each chapter could be a WPD\_CONTENT\_TYPE\_SECTION object with its own chapter art, metadata, etc, and whose data is a subset of the large audio file (e.g. 1st chapter is the first 10 minutes, 2nd chapter is the next 20 minutes, and so on). |
@@ -49,7 +54,7 @@ To learn which properties and resources each must support, see the description p
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -58,9 +63,9 @@ To learn which properties and resources each must support, see the description p
 [**Application Overview**](application-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

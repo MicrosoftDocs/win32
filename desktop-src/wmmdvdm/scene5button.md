@@ -1,14 +1,20 @@
 ---
 title: Scene5Button element
 description: Specifies the location and size of the \ 0034;Scene 5 \ 0034; button.
-ms.assetid: 'fd4c9298-3251-4fe7-8698-e16e6b7c3856'
-keywords: ["Scene5Button element Windows Movie Maker and DVD Maker"]
+ms.assetid: fd4c9298-3251-4fe7-8698-e16e6b7c3856
+keywords:
+- Scene5Button element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Scene5Button
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scene5Button element
@@ -49,7 +55,7 @@ When available, this button plays the clip that the user assigned to the "Scene 
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -61,9 +67,9 @@ When available, this button plays the clip that the user assigned to the "Scene 
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

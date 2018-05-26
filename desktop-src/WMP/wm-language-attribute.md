@@ -1,14 +1,20 @@
 ---
 title: WM/Language Attribute
 description: The WM/Language attribute is the language of the item.
-ms.assetid: 'aebfb518-61ca-4b75-875a-ce2127a74b67'
-keywords: ["WM/Language Attribute Windows Media Player"]
+ms.assetid: aebfb518-61ca-4b75-875a-ce2127a74b67
+keywords:
+- WM/Language Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/Language
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Language Attribute
@@ -54,9 +60,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Media.getItemInfoByType**](media-getiteminfobytype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

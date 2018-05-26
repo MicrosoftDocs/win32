@@ -1,7 +1,12 @@
-﻿---
-Description: 'This property is obsolete and should not be set.'
-ms.assetid: 'f4bb5bde-15f4-4454-9d77-a04479207b06'
-title: 'MFPKEY\_LIVEENCODE Property'
+---
+Description: This property is obsolete and should not be set.
+ms.assetid: f4bb5bde-15f4-4454-9d77-a04479207b06
+title: MFPKEY\_LIVEENCODE Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_LIVEENCODE Property

@@ -1,8 +1,11 @@
 ---
 title: DMessengerEvents OnContactPhoneChange event
-description: Indicates that the phone information of a contact in the local client's Contact List has changed.
-ms.assetid: '7623c10c-9c74-493e-aca0-bd6b5e3b6759'
-keywords: ["OnContactPhoneChange event Windows Messenger", "OnContactPhoneChange event Windows Messenger , DMessengerEvents interface", "DMessengerEvents interface Windows Messenger , OnContactPhoneChange event"]
+description: Indicates that the phone information of a contact in the local clients Contact List has changed.
+ms.assetid: 7623c10c-9c74-493e-aca0-bd6b5e3b6759
+keywords:
+- OnContactPhoneChange event Windows Messenger
+- OnContactPhoneChange event Windows Messenger , DMessengerEvents interface
+- DMessengerEvents interface Windows Messenger , OnContactPhoneChange event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMessengerEvents::OnContactPhoneChange event
 
-\[**OnContactPhoneChange** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnContactPhoneChange** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Indicates that the phone information of a contact in the local client's Contact List has changed.
 
@@ -24,10 +32,10 @@ Indicates that the phone information of a contact in the local client's Contact 
 
 ```C++
 void OnContactPhoneChange(
-  [in] LONG        hr,
-  [in] IDispatch   *pContact,
-  [in] MPHONE_TYPE PhoneType,
-       BSTR        bstrNumber
+  [in] LONG        hr,
+  [in] IDispatch   *pContact,
+  [in] MPHONE_TYPE PhoneType,
+       BSTR        bstrNumber
 );
 ```
 
@@ -88,12 +96,12 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 
 
- 
+ 
 
 > [!Note]  
 > This event is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -101,10 +109,10 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.5<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -122,9 +130,9 @@ To be used when writing custom ::Invoke methods to handle these events.
 [**PhoneNumber**](im-imessengercontact-phonenumber.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

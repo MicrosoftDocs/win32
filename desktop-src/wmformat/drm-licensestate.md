@@ -1,14 +1,20 @@
 ---
 title: DRM\_LicenseState
 description: The DRM\_LicenseState property is not used. It is actually not a property at all, but rather is simply the root string for the other license state property string identifiers such as DRM\_LicenseState\_Playback.
-ms.assetid: 'd130c8a6-d718-4378-ba69-00b55edf9fab'
-keywords: ["DRM_LicenseState windows Media Format"]
+ms.assetid: d130c8a6-d718-4378-ba69-00b55edf9fab
+keywords:
+- DRM_LicenseState windows Media Format
 topic_type:
 - apiref
 api_name:
 - DRM_LicenseState
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_LicenseState

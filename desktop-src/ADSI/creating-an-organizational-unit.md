@@ -4,11 +4,15 @@ description: Now that you have the domain object, you can start creating organiz
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c9955b44-5ca1-4b4b-85c8-e0d55a4304ca'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c9955b44-5ca1-4b4b-85c8-e0d55a4304ca
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Creating an Organizational Unit ADSI"]
+keywords:
+- Creating an Organizational Unit ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating an Organizational Unit
@@ -27,7 +31,7 @@ salesOrg.SetInfo
 
 
 
-The [**IADsContainer.Create**](iadscontainer-create.md) method accepts the class name and the name of the new object. At this point the object is not committed to Active Directory. You, however, will have an ADSI/COM object reference on the client. With this ADSI object, you can set or modify attributes using the [**IADs.Put**](iads-put.md) method. The **IADs.Put** method accepts the attribute name and the value of the attribute. Still, nothing is committed to the directory; everything is cached at the client. When you call the [**IADs.SetInfo**](iads-setinfo.md) method, the changes, in this case, object creation and attribute modification, are committed to the directory. These changes are transacted, meaning that you will see either the new object with all attributes you set, or no object at all.
+The [**IADsContainer.Create**](/windows/win32/Iads/nf-iads-iadscontainer-create?branch=master) method accepts the class name and the name of the new object. At this point the object is not committed to Active Directory. You, however, will have an ADSI/COM object reference on the client. With this ADSI object, you can set or modify attributes using the [**IADs.Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master) method. The **IADs.Put** method accepts the attribute name and the value of the attribute. Still, nothing is committed to the directory; everything is cached at the client. When you call the [**IADs.SetInfo**](/windows/win32/Iads/nf-iads-iads-setinfo?branch=master) method, the changes, in this case, object creation and attribute modification, are committed to the directory. These changes are transacted, meaning that you will see either the new object with all attributes you set, or no object at all.
 
 You can also nest organizational units. The following code example assumes that the Sales division is divided further into the East and West regions.
 

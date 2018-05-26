@@ -1,8 +1,9 @@
 ---
 title: EM\_GETIMEOPTIONS message
 description: Retrieves the current Input Method Editor (IME) options.
-ms.assetid: '81ec89b9-dabd-487e-805e-e3c2e58e3068'
-keywords: ["EM_GETIMEOPTIONS message Windows Controls"]
+ms.assetid: 81ec89b9-dabd-487e-805e-e3c2e58e3068
+keywords:
+- EM_GETIMEOPTIONS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETIMEOPTIONS message
@@ -18,9 +24,9 @@ api_type:
 Retrieves the current Input Method Editor (IME) options.
 
 > [!Note]  
-> This message is supported only in Asian-language versions of Microsoft Rich Edit 1.0. It is not supported in any later versions of Rich Edit.
+> This message is supported only in Asian-language versions of Microsoft Rich Edit 1.0. It is not supported in any later versions of Rich Edit.
 
- 
+ 
 
 ## Parameters
 
@@ -50,8 +56,8 @@ This message returns one or more of the IME option flag values described in the 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -63,9 +69,9 @@ This message returns one or more of the IME option flag values described in the 
 [**EM\_SETIMEOPTIONS**](em-setimeoptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

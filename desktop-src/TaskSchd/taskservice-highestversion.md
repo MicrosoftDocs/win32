@@ -1,8 +1,11 @@
 ---
 title: TaskService.HighestVersion property
 description: For scripting, indicates the highest version of Task Scheduler that a computer supports.
-ms.assetid: '27b08a17-fdd9-4c28-b498-e10e80ae49f0'
-keywords: ["HighestVersion property Task Scheduler", "HighestVersion property Task Scheduler , TaskService object", "TaskService object Task Scheduler , HighestVersion property"]
+ms.assetid: 27b08a17-fdd9-4c28-b498-e10e80ae49f0
+keywords:
+- HighestVersion property Task Scheduler
+- HighestVersion property Task Scheduler , TaskService object
+- TaskService object Task Scheduler , HighestVersion property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskService.HighestVersion property
@@ -54,16 +62,16 @@ End If
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

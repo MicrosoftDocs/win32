@@ -1,14 +1,20 @@
 ---
 title: Pixel Operations
 description: Pixel Operations
-ms.assetid: 'e60cc45b-867c-441a-b579-8c7dbd46ecd9'
-keywords: ["Pixel Operations OpenGL"]
+ms.assetid: e60cc45b-867c-441a-b579-8c7dbd46ecd9
+keywords:
+- Pixel Operations OpenGL
 topic_type:
 - apiref
 api_name:
 - Pixel Operations
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pixel Operations

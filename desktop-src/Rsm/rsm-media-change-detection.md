@@ -1,7 +1,12 @@
 ---
-Description: 'Many removable media devices, including all those connected to the system by means of SCSI and IDE, cannot themselves report when media are entered or removed.'
-ms.assetid: '9fe2625b-b082-4f8e-a40e-562f1a2d2683'
+Description: Many removable media devices, including all those connected to the system by means of SCSI and IDE, cannot themselves report when media are entered or removed.
+ms.assetid: 9fe2625b-b082-4f8e-a40e-562f1a2d2683
 title: RSM Media Change Detection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSM Media Change Detection

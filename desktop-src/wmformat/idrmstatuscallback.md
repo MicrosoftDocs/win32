@@ -1,14 +1,21 @@
 ---
 title: IDRMStatusCallback interface
 description: The IDRMStatusCallback interface provides a method for receiving status on asynchronous DRM calls.
-ms.assetid: 'd036e259-2451-4020-9516-9631f0ff4095'
-keywords: ["IDRMStatusCallback interface windows Media Format", "IDRMStatusCallback interface windows Media Format , described"]
+ms.assetid: d036e259-2451-4020-9516-9631f0ff4095
+keywords:
+- IDRMStatusCallback interface windows Media Format
+- IDRMStatusCallback interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IDRMStatusCallback
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDRMStatusCallback interface
@@ -33,7 +40,7 @@ The **IDRMStatusCallback** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -42,9 +49,9 @@ The **IDRMStatusCallback** interface has these methods.
 [**Interfaces**](drm-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

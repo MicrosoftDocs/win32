@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections describe the remaining steps for creating a Winsock client application. What follows is the general model for creating a streaming TCP/IP client.'
-ms.assetid: '36d2a4b3-c160-4604-ae26-05f78e365d9a'
+Description: The following sections describe the remaining steps for creating a Winsock client application. What follows is the general model for creating a streaming TCP/IP client.
+ms.assetid: 36d2a4b3-c160-4604-ae26-05f78e365d9a
 title: Winsock Client Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Winsock Client Application

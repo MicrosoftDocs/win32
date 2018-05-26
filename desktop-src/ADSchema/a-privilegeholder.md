@@ -4,17 +4,22 @@ description: List of Distinguished Names of principals granted this privilege.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd7ae6de8-6725-436f-93e0-1dd966aa7c07'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d7ae6de8-6725-436f-93e0-1dd966aa7c07
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Privilege-Holder attribute AD Schema", "privilegeHolder attribute AD Schema"]
+keywords:
+- Privilege-Holder attribute AD Schema
+- privilegeHolder attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Privilege-Holder
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Privilege-Holder attribute

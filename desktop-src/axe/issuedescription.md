@@ -1,14 +1,20 @@
 ---
 title: IssueDescription element
 description: Brief description of the issue.
-ms.assetid: '9257025E-C93B-465B-974B-79B0EAAB5A10'
-keywords: ["IssueDescription element Access Execution Engine"]
+ms.assetid: 9257025E-C93B-465B-974B-79B0EAAB5A10
+keywords:
+- IssueDescription element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - IssueDescription
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IssueDescription element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

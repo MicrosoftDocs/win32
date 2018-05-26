@@ -1,7 +1,12 @@
-﻿---
-Description: 'Windows GDI+ is a class-based API for C/C++ programmers.'
-ms.assetid: 'ed1396b2-2fc5-4a77-bea2-7bcc971214ae'
+---
+Description: Windows GDI+ is a class-based API for C/C++ programmers.
+ms.assetid: ed1396b2-2fc5-4a77-bea2-7bcc971214ae
 title: GDI+
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GDI+

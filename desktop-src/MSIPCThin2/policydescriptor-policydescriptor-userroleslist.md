@@ -4,11 +4,14 @@ description: Constructor for PolicyDescriptor which initializes the object with 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.PolicyDescriptor.PolicyDescriptor(Windows.Foundation.Collections.IIterable\`2)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.PolicyDescriptor.PolicyDescriptor(Windows.Foundation.Collections.IIterable\`2)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["PolicyDescriptor(userRolesList) constructor", "PolicyDescriptor(userRolesList) constructor, PolicyDescriptor class", "PolicyDescriptor class, PolicyDescriptor(userRolesList) constructor"]
+keywords:
+- PolicyDescriptor(userRolesList) constructor
+- PolicyDescriptor(userRolesList) constructor, PolicyDescriptor class
+- PolicyDescriptor class, PolicyDescriptor(userRolesList) constructor
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor.PolicyDescriptor(userRolesList) constructor
@@ -71,9 +77,9 @@ A collection of user roles.
 [**PolicyDescriptor**](policydescriptor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

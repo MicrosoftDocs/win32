@@ -1,7 +1,12 @@
 ---
-Description: 'The MatchesPartial method determines if this media type matches a partially specified media type.'
-ms.assetid: '62d531f3-5aa2-4af2-b951-584a49a849fc'
-title: 'CMediaType.MatchesPartial method'
+Description: The MatchesPartial method determines if this media type matches a partially specified media type.
+ms.assetid: 62d531f3-5aa2-4af2-b951-584a49a849fc
+title: CMediaType.MatchesPartial method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.MatchesPartial method
@@ -13,7 +18,7 @@ The `MatchesPartial` method determines if this media type matches a partially sp
 
 ```C++
 BOOL MatchesPartial(
-   const CMediaType *ppartial
+   const CMediaType *ppartial
 ) const;
 ```
 
@@ -56,9 +61,9 @@ The media type specified by *ppartial* can have a value of GUID\_NULL for the ma
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

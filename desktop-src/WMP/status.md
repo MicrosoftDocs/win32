@@ -1,8 +1,17 @@
 ---
 title: Status
 description: Status
-ms.assetid: '7a1ca071-0a61-4ef5-b8c1-18336cf5b1b0'
-keywords: ["Windows Media Player Mobile skins,status display", "skins,status display", "reference for skins,status display", "status display in skins,about"]
+ms.assetid: 7a1ca071-0a61-4ef5-b8c1-18336cf5b1b0
+keywords:
+- Windows Media Player Mobile skins,status display
+- skins,status display
+- reference for skins,status display
+- status display in skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Status

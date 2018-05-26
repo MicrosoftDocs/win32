@@ -4,17 +4,21 @@ description: Specifies the Virtual Subnet ID (VSID) of a virtual IP address.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7AC7D5CB-7CEC-4DD2-A19B-086030BBE471'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7AC7D5CB-7CEC-4DD2-A19B-086030BBE471
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["VSID Failover Cluster"]
+keywords:
+- VSID Failover Cluster
 topic_type:
 - apiref
 api_name:
 - VSID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VSID
@@ -27,14 +31,14 @@ Specifies the Virtual Subnet ID (VSID) of a virtual IP address.
 |----------------------|-------------------------------------------|
 | Data type<br/> | **DWORD**                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum<br/>   | 0<br/>                              |
 | Maximum<br/>   | 0xFFFFFFFF<br/>                     |
 | Default<br/>   | 0<br/>                              |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_VIP\_VSID**.
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_VIP\_VSID**.
 [Virtual IP Address Private Properties](virtual-ip-address-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

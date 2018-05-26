@@ -1,8 +1,9 @@
 ---
 title: MM\_MIM\_MOREDATA message
 description: The MM\_MIM\_MOREDATA message is sent to a callback window when a MIDI message is received by a MIDI input device but the application is not processing MIM\_DATA messages fast enough to keep up with the input device driver.
-ms.assetid: '25d507f9-01d4-4a9a-afdd-693d74e3bd22'
-keywords: ["MM_MIM_MOREDATA message Windows Multimedia"]
+ms.assetid: 25d507f9-01d4-4a9a-afdd-693d74e3bd22
+keywords:
+- MM_MIM_MOREDATA message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MM\_MIM\_MOREDATA message
@@ -53,7 +59,7 @@ Specifies the MIDI message that was received. The message is packed into a doubl
 
 
 
- 
+ 
 
 The two MIDI data bytes are optional, depending on the MIDI status byte.
 
@@ -81,8 +87,8 @@ This message is not sent when a MIDI system-exclusive message is received. No ti
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -97,9 +103,9 @@ This message is not sent when a MIDI system-exclusive message is received. No ti
 [MIDI Messages](midi-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

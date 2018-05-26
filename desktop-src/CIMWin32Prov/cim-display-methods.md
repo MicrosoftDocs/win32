@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Display class exposes the following methods.'
+Description: The CIM\_Display class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '478EDA67-E375-4DA6-A3E4-C12F898FA3A1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 478EDA67-E375-4DA6-A3E4-C12F898FA3A1
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Display Methods'
+title: CIM\_Display Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Display Methods

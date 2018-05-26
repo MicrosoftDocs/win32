@@ -1,7 +1,12 @@
-﻿---
-Description: 'The BIDI\_REQUEST\_DATA structure holds a single bidi request.'
-ms.assetid: 'ef5a89e3-f072-48a7-b2d9-d68e0e27ba9e'
-title: 'BIDI\_REQUEST\_DATA structure'
+---
+Description: The BIDI\_REQUEST\_DATA structure holds a single bidi request.
+ms.assetid: ef5a89e3-f072-48a7-b2d9-d68e0e27ba9e
+title: BIDI\_REQUEST\_DATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BIDI\_REQUEST\_DATA structure

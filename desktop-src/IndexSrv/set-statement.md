@@ -1,7 +1,12 @@
 ---
 title: SET Statement
 description: SET Statement
-ms.assetid: 'cf4483f5-c0f3-45b7-8e29-6fcc6c6d0117'
+ms.assetid: cf4483f5-c0f3-45b7-8e29-6fcc6c6d0117
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SET Statement

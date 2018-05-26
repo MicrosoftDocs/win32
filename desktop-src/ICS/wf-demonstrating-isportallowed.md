@@ -1,13 +1,20 @@
 ---
 title: Demonstrating IsPortAllowed
 description: Demonstrating IsPortAllowed
-ms.assetid: '0083cec4-8581-4743-87d8-517edf33f2ea'
-keywords: ["Windows Firewall", "using"]
+ms.assetid: 0083cec4-8581-4743-87d8-517edf33f2ea
+keywords:
+- Windows Firewall
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Demonstrating IsPortAllowed
 
-The following example demonstrates uses of the [**IsPortAllowed**](inetfwmgr-isportallowed.md) function.
+The following example demonstrates uses of the [**IsPortAllowed**](/windows/previous-versions/Netfw/nf-netfw-inetfwmgr-isportallowed?branch=master) function.
 
 
 ```VB

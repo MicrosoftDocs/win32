@@ -4,13 +4,15 @@ description: The LogRecord object can describe the definitional format for entri
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8d3db379-40f2-4fab-b15a-3c07f28b8e7e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8d3db379-40f2-4fab-b15a-3c07f28b8e7e
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_LogRecord class", "CIM_LogRecord class, described"]
+keywords:
+- CIM_LogRecord class
+- CIM_LogRecord class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LogRecord class
@@ -46,17 +51,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.8.1000"), UUID("{93e5f37b-7071-4c21-8733-d2eea2691e1a}"), AMENDMENT]
 class CIM_LogRecord : CIM_ManagedElement
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   LogCreationClassName;
-  string   LogName;
-  string   CreationClassName;
-  string   RecordID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   LogCreationClassName;
+  string   LogName;
+  string   CreationClassName;
+  string   RecordID;
   datetime MessageTimestamp;
-  string   DataFormat;
-  string   RecordFormat;
-  string   RecordData;
+  string   DataFormat;
+  string   RecordFormat;
+  string   RecordData;
 };
 ```
 
@@ -268,8 +273,8 @@ Along with the **MessageTimestamp** property, serves to uniquely identify the lo
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -283,9 +288,9 @@ Along with the **MessageTimestamp** property, serves to uniquely identify the lo
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

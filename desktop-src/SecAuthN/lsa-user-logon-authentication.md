@@ -1,7 +1,12 @@
 ---
 Description: LSA User Logon Authentication
-ms.assetid: '62606687-05f1-4757-9fcd-c1932412dcc4'
+ms.assetid: 62606687-05f1-4757-9fcd-c1932412dcc4
 title: LSA User Logon Authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LSA User Logon Authentication

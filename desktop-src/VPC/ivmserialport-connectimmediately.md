@@ -1,8 +1,11 @@
 ---
 title: IVMSerialPort ConnectImmediately property
 description: Determines whether the serial port should be opened without waiting for a modem command to be received.
-ms.assetid: '5ac22906-0fe2-477d-98af-7c05ce274cc5'
-keywords: ["ConnectImmediately property Virtual PC", "ConnectImmediately property Virtual PC , IVMSerialPort interface", "IVMSerialPort interface Virtual PC , ConnectImmediately property"]
+ms.assetid: 5ac22906-0fe2-477d-98af-7c05ce274cc5
+keywords:
+- ConnectImmediately property Virtual PC
+- ConnectImmediately property Virtual PC , IVMSerialPort interface
+- IVMSerialPort interface Virtual PC , ConnectImmediately property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSerialPort::ConnectImmediately property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Determines whether the serial port should be opened without waiting for a modem command to be received.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ConnectImmediately(
-  [out, retval] VARIANT_BOOL *vmConnectImmediately
+  [out, retval] VARIANT_BOOL *vmConnectImmediately
 );
 ```
 
@@ -60,9 +68,9 @@ This property is valid only if the port [**Type**](ivmserialport-type.md) proper
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMSerialPort is defined as 2ce4460d-1d3f-4458-bf8b-44084b816815<br/>              |
@@ -76,9 +84,9 @@ This property is valid only if the port [**Type**](ivmserialport-type.md) proper
 [**IVMSerialPort**](ivmserialport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

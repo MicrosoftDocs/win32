@@ -1,8 +1,11 @@
 ---
 title: DeleteInternalEthernetPort method of the Msvm\_VirtualSwitchManagementService class
 description: Deletes an internal Ethernet port.
-ms.assetid: 'a07ea006-0ccd-433c-ae6d-269be48e07c3'
-keywords: ["DeleteInternalEthernetPort method Hyper-V", "DeleteInternalEthernetPort method Hyper-V , Msvm_VirtualSwitchManagementService class", "Msvm_VirtualSwitchManagementService class Hyper-V , DeleteInternalEthernetPort method"]
+ms.assetid: a07ea006-0ccd-433c-ae6d-269be48e07c3
+keywords:
+- DeleteInternalEthernetPort method Hyper-V
+- DeleteInternalEthernetPort method Hyper-V , Msvm_VirtualSwitchManagementService class
+- Msvm_VirtualSwitchManagementService class Hyper-V , DeleteInternalEthernetPort method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteInternalEthernetPort method of the Msvm\_VirtualSwitchManagementService class
@@ -22,7 +30,7 @@ Deletes an internal Ethernet port.
 
 ```mof
 uint32 DeleteInternalEthernetPort(
-  [in] Msvm_InternalEthernetPort REF InternalEthernetPort
+  [in] Msvm_InternalEthernetPort REF InternalEthernetPort
 );
 ```
 
@@ -248,9 +256,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -263,9 +271,9 @@ End Function
 [**Msvm\_VirtualSwitchManagementService**](msvm-virtualswitchmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

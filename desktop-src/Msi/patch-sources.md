@@ -1,12 +1,17 @@
-﻿---
-Description: 'The Sources property enumerates all the sources for the patch instance. This property calls MsiSourceListEnumSources and returns an array of strings, and accepts the source type as argument.'
-ms.assetid: '4a052518-4d76-4a95-be9e-7acae36db626'
-title: 'Patch.Sources property'
+---
+Description: The Sources property enumerates all the sources for the patch instance. This property calls MsiSourceListEnumSources and returns an array of strings, and accepts the source type as argument.
+ms.assetid: 4a052518-4d76-4a95-be9e-7acae36db626
+title: Patch.Sources property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch.Sources property
 
-The **Sources** property enumerates all the sources for the patch instance. This property calls [**MsiSourceListEnumSources**](msisourcelistenumsources.md) and returns an array of strings, and accepts the source type as argument.
+The **Sources** property enumerates all the sources for the patch instance. This property calls [**MsiSourceListEnumSources**](/windows/win32/Msi/nf-msi-msisourcelistenumsourcesa?branch=master) and returns an array of strings, and accepts the source type as argument.
 
 This property is read-only.
 
@@ -42,7 +47,7 @@ The type of source to enumerate. The value can be *msiInstallSourceTypeNetwork* 
 [**Patch**](patch-object.md)
 </dt> <dt>
 
-[**MsiSourceListEnumSources**](msisourcelistenumsources.md)
+[**MsiSourceListEnumSources**](/windows/win32/Msi/nf-msi-msisourcelistenumsourcesa?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

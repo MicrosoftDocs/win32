@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_CALENDAR'
-ms.assetid: 'b5fccaa8-03c7-4998-be46-82fc6aeb308b'
-title: 'WPD\_CONTENT\_TYPE\_CALENDAR'
+Description: WPD\_CONTENT\_TYPE\_CALENDAR
+ms.assetid: b5fccaa8-03c7-4998-be46-82fc6aeb308b
+title: WPD\_CONTENT\_TYPE\_CALENDAR
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_CALENDAR

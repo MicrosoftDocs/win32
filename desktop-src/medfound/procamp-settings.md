@@ -1,7 +1,12 @@
-﻿---
-Description: 'These flags define video processor (ProcAmp) settings.'
-ms.assetid: '60d97b9e-d77c-4e53-94ea-ebd59c2601df'
+---
+Description: These flags define video processor (ProcAmp) settings.
+ms.assetid: 60d97b9e-d77c-4e53-94ea-ebd59c2601df
 title: ProcAmp Settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProcAmp Settings

@@ -1,12 +1,17 @@
-﻿---
-Description: 'Specifies, on IMFTransform, the maximum macroblock processing rate, in macroblocks per second, that is supported by the hardware encoder.'
-ms.assetid: '1AA41DE3-C37C-41BA-9549-5F12373DDB3B'
-title: 'MF\_VIDEO\_MAX\_MB\_PER\_SEC attribute'
+---
+Description: Specifies, on IMFTransform, the maximum macroblock processing rate, in macroblocks per second, that is supported by the hardware encoder.
+ms.assetid: 1AA41DE3-C37C-41BA-9549-5F12373DDB3B
+title: MF\_VIDEO\_MAX\_MB\_PER\_SEC attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_VIDEO\_MAX\_MB\_PER\_SEC attribute
 
-Specifies, on [**IMFTransform**](imftransform.md), the maximum macroblock processing rate, in macroblocks per second, that is supported by the hardware encoder.
+Specifies, on [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master), the maximum macroblock processing rate, in macroblocks per second, that is supported by the hardware encoder.
 
 ## Data type
 

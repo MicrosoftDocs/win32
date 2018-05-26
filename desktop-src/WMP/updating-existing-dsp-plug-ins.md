@@ -1,8 +1,18 @@
 ---
 title: Updating Existing DSP Plug-ins
 description: Updating Existing DSP Plug-ins
-ms.assetid: '0525030e-eb30-41a0-8191-4a5727736857'
-keywords: ["Windows Media Player plug-ins,digital signal processing (DSP)", "plug-ins,digital signal processing (DSP)", "digital signal processing plug-ins,updating", "DSP plug-ins,updating", "versions of Windows Media Player,DSP plug-ins"]
+ms.assetid: 0525030e-eb30-41a0-8191-4a5727736857
+keywords:
+- Windows Media Player plug-ins,digital signal processing (DSP)
+- plug-ins,digital signal processing (DSP)
+- digital signal processing plug-ins,updating
+- DSP plug-ins,updating
+- versions of Windows Media Player,DSP plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating Existing DSP Plug-ins
@@ -29,7 +39,7 @@ There are three main changes you will need to make to any existing DSP plug-ins:
 
     Windows Media Player 11 ensures that calls to DMO interfaces are properly serialized.
 
-    1.  Add calls to [IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin](iwmpmediapluginregistrar--wmpregisterplayerplugin.md) and [IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin](iwmpmediapluginregistrar--wmpunregisterplayerplugin.md) with a new plug-in type: WMP\_PLUGINTYPE\_DSP\_OUTOFPROC in DllRegisterServer and DllUnregisterServer in your *projectnamedll*.cpp file. See the reference pages for these methods for details.
+    1.  Add calls to [IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin](/windows/win32/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpregisterplayerplugin?branch=master) and [IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin](/windows/win32/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpunregisterplayerplugin?branch=master) with a new plug-in type: WMP\_PLUGINTYPE\_DSP\_OUTOFPROC in DllRegisterServer and DllUnregisterServer in your *projectnamedll*.cpp file. See the reference pages for these methods for details.
     2.  Create and distribute a proxy/stub DLL to enable COM marshaling of any custom interface implemented on or created by the plug-in class. A custom interface is any proprietary interface that you define and implement for use by the plug-in object. This includes the custom interface used by your property page, if you provided one, but might also include interfaces that connect to UI plug-ins, for example. An example of a custom interface created by the plug-in wizard is *Iprojectname*. Examples of interfaces that are not custom interfaces include **IMediaObject** and **IWMPPluginEnable**.
 
 If your DSP plug-in processes audio, you must also add support for the following new audio formats:

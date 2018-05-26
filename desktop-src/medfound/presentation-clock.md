@@ -1,7 +1,12 @@
 ---
 Description: Presentation Clock
-ms.assetid: 'cb8bb62a-ef80-4de0-9a44-3bb77edc9dd5'
+ms.assetid: cb8bb62a-ef80-4de0-9a44-3bb77edc9dd5
 title: Presentation Clock
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Presentation Clock
@@ -12,10 +17,10 @@ The *presentation clock* is an object that generates the clock time for a presen
 
 | Interface                                            | Description                                         |
 |------------------------------------------------------|-----------------------------------------------------|
-| [**IMFPresentationClock**](imfpresentationclock.md) | Primary interface for using the presentation clock. |
-| [**IMFRateControl**](imfratecontrol.md)             | Controls the clock rate.                            |
-| [**IMFTimer**](imftimer.md)                         | Provides a timer callback.                          |
-| [**IMFShutdown**](imfshutdown.md)                   | Shuts down the presentation clock.                  |
+| [**IMFPresentationClock**](/windows/win32/mfidl/nn-mfidl-imfpresentationclock?branch=master) | Primary interface for using the presentation clock. |
+| [**IMFRateControl**](/windows/win32/mfidl/nn-mfidl-imfratecontrol?branch=master)             | Controls the clock rate.                            |
+| [**IMFTimer**](/windows/win32/mfidl/nn-mfidl-imftimer?branch=master)                         | Provides a timer callback.                          |
+| [**IMFShutdown**](/windows/win32/mfidl/nn-mfidl-imfshutdown?branch=master)                   | Shuts down the presentation clock.                  |
 
 
 
@@ -27,17 +32,17 @@ If you are using the Media Session for playback, the Media Session handles all o
 
 ## Clock Time and Clock States
 
-To get the latest clock time from the presentation clock, call [**IMFPresentationClock::GetTime**](imfpresentationclock-gettime.md). Clock times are always in 100-nanosecond units, so one second is 10,000,000 (10^7) ticks. This corresponds to a frequency of 10 MHz.
+To get the latest clock time from the presentation clock, call [**IMFPresentationClock::GetTime**](/windows/win32/mfidl/nf-mfidl-imfpresentationclock-gettime?branch=master). Clock times are always in 100-nanosecond units, so one second is 10,000,000 (10^7) ticks. This corresponds to a frequency of 10 MHz.
 
 The presentation clock has three states: Running, paused, and stopped.
 
--   To run the clock, call [**IMFPresentationClock::Start**](imfpresentationclock-start.md). The **Start** method specifies the clock's starting time. While the clock is running, the clock time increments from the starting time, at the current clock rate.
--   To pause the clock, call [**IMFPresentationClock::Pause**](imfpresentationclock-pause.md). While the clock is paused, the clock time does not advance, and [**GetTime**](imfpresentationclock-gettime.md) returns the time at which the clock was paused.
--   To stop the clock, call [**IMFPresentationClock::Stop**](imfpresentationclock-stop.md). When the clock is stopped, the clock time does not advance, and [**GetTime**](imfpresentationclock-gettime.md) returns zero.
+-   To run the clock, call [**IMFPresentationClock::Start**](/windows/win32/mfidl/nf-mfidl-imfpresentationclock-start?branch=master). The **Start** method specifies the clock's starting time. While the clock is running, the clock time increments from the starting time, at the current clock rate.
+-   To pause the clock, call [**IMFPresentationClock::Pause**](/windows/win32/mfidl/nf-mfidl-imfpresentationclock-pause?branch=master). While the clock is paused, the clock time does not advance, and [**GetTime**](/windows/win32/mfidl/nf-mfidl-imfpresentationclock-gettime?branch=master) returns the time at which the clock was paused.
+-   To stop the clock, call [**IMFPresentationClock::Stop**](/windows/win32/mfidl/nf-mfidl-imfpresentationclock-stop?branch=master). When the clock is stopped, the clock time does not advance, and [**GetTime**](/windows/win32/mfidl/nf-mfidl-imfpresentationclock-gettime?branch=master) returns zero.
 
-By default, the clock advances at a rate of 1.0, meaning 1 tick per 100 nanoseconds. To change the rate at which the clock advances, query the presentation clock for the [**IMFRateControl**](imfratecontrol.md) interface and call [**IMFRateControl::SetRate**](imfratecontrol-setrate.md).
+By default, the clock advances at a rate of 1.0, meaning 1 tick per 100 nanoseconds. To change the rate at which the clock advances, query the presentation clock for the [**IMFRateControl**](/windows/win32/mfidl/nn-mfidl-imfratecontrol?branch=master) interface and call [**IMFRateControl::SetRate**](/windows/win32/mfidl/nf-mfidl-imfratecontrol-setrate?branch=master).
 
-Objects can receive notifications of state changes (including rate changes) from the presentation clock. To receive notifications, implement the [**IMFClockStateSink**](imfclockstatesink.md) interface and call [**IMFPresentationClock::AddClockStateSink**](imfpresentationclock-addclockstatesink.md) on the presentation clock. Before shutting down, call [**IMFPresentationClock::RemoveClockStateSink**](imfpresentationclock-removeclockstatesink.md) to unregister the object. Media sinks use this mechanism to receive notifications from the clock.
+Objects can receive notifications of state changes (including rate changes) from the presentation clock. To receive notifications, implement the [**IMFClockStateSink**](/windows/win32/mfidl/nn-mfidl-imfclockstatesink?branch=master) interface and call [**IMFPresentationClock::AddClockStateSink**](/windows/win32/mfidl/nf-mfidl-imfpresentationclock-addclockstatesink?branch=master) on the presentation clock. Before shutting down, call [**IMFPresentationClock::RemoveClockStateSink**](/windows/win32/mfidl/nf-mfidl-imfpresentationclock-removeclockstatesink?branch=master) to unregister the object. Media sinks use this mechanism to receive notifications from the clock.
 
 ## Presentation Times
 
@@ -45,7 +50,7 @@ A media sink tries to schedule each sample so that the sample is rendered at the
 
 -   *Presentation time.* The time when a sample should be rendered. Time is given in units of 100 nanoseconds.
 -   *Media time.* Time relative to the start of the content. For example, if a video file is 10 seconds long, the point half way through the file has a media time of 5 seconds.
--   *Time stamp.* The time marked on a media sample. To get the time stamp, call [**IMFSample::GetSampleTime**](imfsample-getsampletime.md). When a media source produces a sample, it sets the time stamp equal to the media time. The Media Session translates the time stamp into presentation time.
+-   *Time stamp.* The time marked on a media sample. To get the time stamp, call [**IMFSample::GetSampleTime**](/windows/win32/mfobjects/nf-mfobjects-imfsample-getsampletime?branch=master). When a media source produces a sample, it sets the time stamp equal to the media time. The Media Session translates the time stamp into presentation time.
 
 By default, media time and presentation time are the same, For example, if a video frame appears 5 seconds into the source file, the media time and the presentation time are both 5 seconds. If you are using the [Sequencer Source](sequencer-source.md), the timing model is somewhat more complicated, to enable smooth transitions between segments. For more information about the sequencer source's timing model, see [Sequence Presentation Times](sequence-presentation-times.md).
 
@@ -55,27 +60,27 @@ If the application seeks to a new position, the Media Session restarts the prese
 
 ## Creating the Presentation Clock
 
-To create the presentation clock, call [**MFCreatePresentationClock**](mfcreatepresentationclock.md). To shut down the clock, query for the [**IMFShutdown**](imfshutdown.md) interface and call [**IMFShutdown::Shutdown**](imfshutdown-shutdown.md). The caller of **MFCreatePresentationClock** is responsible for calling **Shutdown**; in most cases, this is the Media Session rather than the application.
+To create the presentation clock, call [**MFCreatePresentationClock**](/windows/win32/mfidl/nf-mfidl-mfcreatepresentationclock?branch=master). To shut down the clock, query for the [**IMFShutdown**](/windows/win32/mfidl/nn-mfidl-imfshutdown?branch=master) interface and call [**IMFShutdown::Shutdown**](/windows/win32/mfidl/nf-mfidl-imfshutdown-shutdown?branch=master). The caller of **MFCreatePresentationClock** is responsible for calling **Shutdown**; in most cases, this is the Media Session rather than the application.
 
 ## Presentation Time Sources
 
-Despite its name, the presentation clock does not actually implement a clock. Instead, it gets the clock times from another object, called a *presentation time source*. The time source can be any object that generates accurate clock ticks and exposes the [**IMFPresentationTimeSource**](imfpresentationtimesource.md) interface. The following illustration shows this process.
+Despite its name, the presentation clock does not actually implement a clock. Instead, it gets the clock times from another object, called a *presentation time source*. The time source can be any object that generates accurate clock ticks and exposes the [**IMFPresentationTimeSource**](/windows/win32/mfidl/nn-mfidl-imfpresentationtimesource?branch=master) interface. The following illustration shows this process.
 
 ![diagram showing the relation between the presentation clock and the presentation time source](images/dedc255c-eb6d-49fc-8892-7b6076ed4488.gif)
 
-When the presentation clock is first created, it does not have a time source. To set the time source, call [**IMFPresentationClock::SetTimeSource**](imfpresentationclock-settimesource.md) with a pointer to the time source's [**IMFPresentationTimeSource**](imfpresentationtimesource.md) interface. A time source supports the same states as the presentation clock (running, paused, and stop), and must implement the [**IMFClockStateSink**](imfclockstatesink.md) interface. The presentation clock uses this interface to notify the time source when to change state. In this way, the time source provides the clock ticks, but the presentation clock initiates state changes in the clock.
+When the presentation clock is first created, it does not have a time source. To set the time source, call [**IMFPresentationClock::SetTimeSource**](/windows/win32/mfidl/nf-mfidl-imfpresentationclock-settimesource?branch=master) with a pointer to the time source's [**IMFPresentationTimeSource**](/windows/win32/mfidl/nn-mfidl-imfpresentationtimesource?branch=master) interface. A time source supports the same states as the presentation clock (running, paused, and stop), and must implement the [**IMFClockStateSink**](/windows/win32/mfidl/nn-mfidl-imfclockstatesink?branch=master) interface. The presentation clock uses this interface to notify the time source when to change state. In this way, the time source provides the clock ticks, but the presentation clock initiates state changes in the clock.
 
-Some media sinks have access to an accurate clock, and therefore expose the [**IMFPresentationTimeSource**](imfpresentationtimesource.md) interface. In particular, the audio renderer can use the frequency of the sound card as a clock. In audio playback, it is useful for the audio renderer to act as the time source, so that video is synchronized to the audio playback rate. This generally produces better results than attempting to match the audio to an external clock.
+Some media sinks have access to an accurate clock, and therefore expose the [**IMFPresentationTimeSource**](/windows/win32/mfidl/nn-mfidl-imfpresentationtimesource?branch=master) interface. In particular, the audio renderer can use the frequency of the sound card as a clock. In audio playback, it is useful for the audio renderer to act as the time source, so that video is synchronized to the audio playback rate. This generally produces better results than attempting to match the audio to an external clock.
 
-Media Foundation also provides a presentation time source based on the system clock. To create this object, call [**MFCreateSystemTimeSource**](mfcreatesystemtimesource.md). The system time source can be used when no media sinks provide a time source.
+Media Foundation also provides a presentation time source based on the system clock. To create this object, call [**MFCreateSystemTimeSource**](/windows/win32/mfidl/nf-mfidl-mfcreatesystemtimesource?branch=master). The system time source can be used when no media sinks provide a time source.
 
-In general, a media sink must use the presentation clock provided to it, regardless of which time source the presentation clock uses. This rule applies even when a media sink implements [**IMFPresentationTimeSource**](imfpresentationtimesource.md). If the presentation clock uses some other time source, the media sink must follow that time source, not its own internal clock.
+In general, a media sink must use the presentation clock provided to it, regardless of which time source the presentation clock uses. This rule applies even when a media sink implements [**IMFPresentationTimeSource**](/windows/win32/mfidl/nn-mfidl-imfpresentationtimesource?branch=master). If the presentation clock uses some other time source, the media sink must follow that time source, not its own internal clock.
 
 There are two situations when a media sink will not follow the presentation clock:
 
--   Some media sinks are *rateless*. If a media sink is rateless, it consumes samples as quickly as possible, without scheduling them according to the presentation clock. Typically, rateless sinks write data to a file, so it is desirable to complete the operation as quickly as possible. A rateless sink returns the MEDIASINK\_RATELESS flag in its [**IMFMediaSink::GetCharacteristics**](imfmediasink-getcharacteristics.md) method. When all the sinks in a topology are rateless, the Media Session pushes data through the pipeline as quickly as possible.
+-   Some media sinks are *rateless*. If a media sink is rateless, it consumes samples as quickly as possible, without scheduling them according to the presentation clock. Typically, rateless sinks write data to a file, so it is desirable to complete the operation as quickly as possible. A rateless sink returns the MEDIASINK\_RATELESS flag in its [**IMFMediaSink::GetCharacteristics**](/windows/win32/mfidl/nf-mfidl-imfmediasink-getcharacteristics?branch=master) method. When all the sinks in a topology are rateless, the Media Session pushes data through the pipeline as quickly as possible.
 
--   Some media sinks cannot match rates with a time source other than themselves. If so, the sink returns the MEDIASINK\_CANNOT\_MATCH\_CLOCK flag in its [**GetCharacteristics**](imfmediasink-getcharacteristics.md) method. The pipeline can still use another time source, but the results will be less than optimal. The sink will likely fall behind and cause glitches during playback.
+-   Some media sinks cannot match rates with a time source other than themselves. If so, the sink returns the MEDIASINK\_CANNOT\_MATCH\_CLOCK flag in its [**GetCharacteristics**](/windows/win32/mfidl/nf-mfidl-imfmediasink-getcharacteristics?branch=master) method. The pipeline can still use another time source, but the results will be less than optimal. The sink will likely fall behind and cause glitches during playback.
 
 ## Related topics
 

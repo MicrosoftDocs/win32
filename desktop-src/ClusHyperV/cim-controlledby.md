@@ -4,13 +4,15 @@ description: Represents a relationship between a controller and a logical device
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5ba3a39e-b32c-421f-81b1-f2125c183a38'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5ba3a39e-b32c-421f-81b1-f2125c183a38
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ControlledBy class", "CIM_ControlledBy class, described"]
+keywords:
+- CIM_ControlledBy class
+- CIM_ControlledBy class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ControlledBy class
@@ -44,17 +49,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Version("2.10.0"), UMLPackagePath("CIM::Device::Controller")]
 class CIM_ControlledBy : CIM_DeviceConnection
 {
-  uint64                NegotiatedSpeed;
-  uint32                NegotiatedDataWidth;
-  CIM_Controller    REF Antecedent;
+  uint64                NegotiatedSpeed;
+  uint32                NegotiatedDataWidth;
+  CIM_Controller    REF Antecedent;
   CIM_LogicalDevice REF Dependent;
-  uint16                AccessState;
-  datetime              TimeOfDeviceReset;
-  uint32                NumberOfHardResets;
-  uint32                NumberOfSoftResets;
-  string                DeviceNumber;
-  uint16                AccessMode;
-  uint16                AccessPriority;
+  uint16                AccessState;
+  datetime              TimeOfDeviceReset;
+  uint32                NumberOfHardResets;
+  uint32                NumberOfSoftResets;
+  string                DeviceNumber;
+  uint16                AccessMode;
+  uint16                AccessPriority;
 };
 ```
 
@@ -288,7 +293,7 @@ The time when the downstream device was last reset by the controller.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -305,9 +310,9 @@ The time when the downstream device was last reset by the controller.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

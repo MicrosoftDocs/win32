@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.nextPreset
 description: The nextPreset method displays the next preset of the current visualization.
-ms.assetid: 'e17917c0-95b5-4799-8657-1f0d9bb7ec86'
-keywords: ["EFFECTS.nextPreset Windows Media Player"]
+ms.assetid: e17917c0-95b5-4799-8657-1f0d9bb7ec86
+keywords:
+- EFFECTS.nextPreset Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.nextPreset
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.nextPreset
@@ -54,9 +60,9 @@ If the current preset is the last one in the list for the current visualization,
 [**EFFECTS.previous**](effects-previous.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

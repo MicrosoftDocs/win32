@@ -1,8 +1,14 @@
 ---
 title: Making a Remote Procedure Call
 description: Once the client program of distributed applications that uses explicit binding handles has a binding handle, it can execute remote procedures.
-ms.assetid: 'f424bb01-e562-49eb-abaf-cc2d76a6ad8f'
-keywords: ["Remote Procedure Call RPC , tasks, making a call"]
+ms.assetid: f424bb01-e562-49eb-abaf-cc2d76a6ad8f
+keywords:
+- Remote Procedure Call RPC , tasks, making a call
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Making a Remote Procedure Call

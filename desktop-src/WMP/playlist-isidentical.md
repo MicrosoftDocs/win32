@@ -1,8 +1,11 @@
 ---
 title: Playlist.isIdentical method
 description: The isIdentical method retrieves a value indicating whether the supplied Playlist object is identical to the current one.
-ms.assetid: '8b18a44a-a394-46bf-91d0-d6ffd503881b'
-keywords: ["isIdentical method Windows Media Player", "isIdentical method Windows Media Player , Playlist class", "Playlist class Windows Media Player , isIdentical method"]
+ms.assetid: 8b18a44a-a394-46bf-91d0-d6ffd503881b
+keywords:
+- isIdentical method Windows Media Player
+- isIdentical method Windows Media Player , Playlist class
+- Playlist class Windows Media Player , isIdentical method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist.isIdentical method
@@ -61,9 +69,9 @@ This method returns a **Boolean**.
 [**Playlist Object**](playlist-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

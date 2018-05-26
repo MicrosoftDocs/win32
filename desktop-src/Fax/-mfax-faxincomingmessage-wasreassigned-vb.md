@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates if the fax has been reassigned.'
-ms.assetid: '1b1d47a6-022b-4ecf-879b-d0a228c8ca8e'
-title: 'FaxIncomingMessage.WasReAssigned property'
+---
+Description: Indicates if the fax has been reassigned.
+ms.assetid: 1b1d47a6-022b-4ecf-879b-d0a228c8ca8e
+title: FaxIncomingMessage.WasReAssigned property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.WasReAssigned property
@@ -52,7 +57,7 @@ This property is always VARIANT\_FALSE when the fax arrives at the server. If it
 [**FaxIncomingMessage**](-mfax-faxincomingmessage.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage2**](-mfax-faxincomingmessage2-cpp.md)
+[**IFaxIncomingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage2?branch=master)
 </dt> </dl>
 
  

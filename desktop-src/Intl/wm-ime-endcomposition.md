@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to an application when the IME ends composition. A window receives this message through its WindowProc function.'
-ms.assetid: 'd0f05524-4dfc-45b2-9476-6f1244190de5'
-title: 'WM\_IME\_ENDCOMPOSITION message'
+---
+Description: Sent to an application when the IME ends composition. A window receives this message through its WindowProc function.
+ms.assetid: d0f05524-4dfc-45b2-9476-6f1244190de5
+title: WM\_IME\_ENDCOMPOSITION message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_IME\_ENDCOMPOSITION message

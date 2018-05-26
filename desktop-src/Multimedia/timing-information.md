@@ -1,8 +1,23 @@
 ---
 title: Timing Information
 description: Timing Information
-ms.assetid: 'ff9d6fb2-1387-49ce-a4de-1b2f67353628'
-keywords: ["Musical Instrument Digital Interface (MIDI),timing information", "MIDI (Musical Instrument Digital Interface),timing information", "stream buffers,timing information", "MIDIEVENT structure", "stream buffers,SMPTE format", "stream buffers,quarter note time", "stream buffers,ticks", "SMPTE format", "quarter note time", "ticks"]
+ms.assetid: ff9d6fb2-1387-49ce-a4de-1b2f67353628
+keywords:
+- Musical Instrument Digital Interface (MIDI),timing information
+- MIDI (Musical Instrument Digital Interface),timing information
+- stream buffers,timing information
+- MIDIEVENT structure
+- stream buffers,SMPTE format
+- stream buffers,quarter note time
+- stream buffers,ticks
+- SMPTE format
+- quarter note time
+- ticks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Timing Information

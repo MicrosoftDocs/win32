@@ -1,8 +1,11 @@
 ---
 title: RunningTask.EnginePID property
 description: For scripting, gets the process ID for the engine (process) which is running the task.
-ms.assetid: '933a0e41-e025-483a-98c4-a3b8e264c462'
-keywords: ["EnginePID property Task Scheduler", "EnginePID property Task Scheduler , RunningTask object", "RunningTask object Task Scheduler , EnginePID property"]
+ms.assetid: 933a0e41-e025-483a-98c4-a3b8e264c462
+keywords:
+- EnginePID property Task Scheduler
+- EnginePID property Task Scheduler , RunningTask object
+- RunningTask object Task Scheduler , EnginePID property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RunningTask.EnginePID property
@@ -50,16 +58,16 @@ wscript.echo "Process Id of Engine is " & "ProcessId
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

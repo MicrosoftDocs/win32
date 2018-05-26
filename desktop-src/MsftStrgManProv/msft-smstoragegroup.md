@@ -4,11 +4,13 @@ description: Represents a storage group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e1b1002d-3e75-4cd0-b406-46ce9eaf79d3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e1b1002d-3e75-4cd0-b406-46ce9eaf79d3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMStorageGroup class", "MSFT_SMStorageGroup class, described"]
+keywords:
+- MSFT_SMStorageGroup class
+- MSFT_SMStorageGroup class, described
 topic_type:
 - apiref
 api_name:
@@ -21,13 +23,16 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMStorageGroup class
 
 Represents a storage group.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) before Windows Server 2016.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -71,7 +76,7 @@ The **MSFT\_SMStorageGroup** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -148,7 +153,7 @@ This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -165,9 +170,9 @@ This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

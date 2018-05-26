@@ -4,13 +4,16 @@ description: Requests that the Log be cleared of all entries.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '31f2766a-1711-4d95-b3c0-a89779be7316'
-ms.prod: 'windows-server-dev'
+ms.assetid: 31f2766a-1711-4d95-b3c0-a89779be7316
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ClearLog method", "ClearLog method, CIM_Log class", "CIM_Log class, ClearLog method"]
+keywords:
+- ClearLog method
+- ClearLog method, CIM_Log class
+- CIM_Log class, ClearLog method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClearLog method of the CIM\_Log class
@@ -103,7 +109,7 @@ Invalid parameter.
 **DMTF\_Reserved**
 </dt> <dd>
 
-6–4095
+6 4095
 
 Reserved by Distributed Management Task Force (DMTF).
 
@@ -112,7 +118,7 @@ Reserved by Distributed Management Task Force (DMTF).
 **Method\_Reserved**
 </dt> <dd>
 
-4096–32767
+4096 32767
 
 Reserved by this method.
 
@@ -121,7 +127,7 @@ Reserved by this method.
 **Vendor\_Reserved**
 </dt> <dd>
 
-32768–4294967295
+32768 4294967295
 
 Reserved for vendor.
 
@@ -133,8 +139,8 @@ Reserved for vendor.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -148,9 +154,9 @@ Reserved for vendor.
 [**CIM\_Log**](cim-log.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

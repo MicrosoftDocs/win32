@@ -1,12 +1,17 @@
 ---
-Description: 'A security descriptor contains the security information associated with a securable object.'
-ms.assetid: 'dab2844b-7df9-446c-aacf-380a0a805cbc'
+Description: A security descriptor contains the security information associated with a securable object.
+ms.assetid: dab2844b-7df9-446c-aacf-380a0a805cbc
 title: Security Descriptors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Descriptors
 
-A [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) contains the security information associated with a [securable object](securable-objects.md). A security descriptor consists of a [**SECURITY\_DESCRIPTOR**](security-descriptor.md) structure and its associated security information. A security descriptor can include the following security information:
+A [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) contains the security information associated with a [securable object](securable-objects.md). A security descriptor consists of a [**SECURITY\_DESCRIPTOR**](/windows/win32/Winnt/ns-winnt-_security_descriptor?branch=master) structure and its associated security information. A security descriptor can include the following security information:
 
 -   [Security identifiers](security-identifiers.md) (SIDs) for the owner and primary group of an object.
 -   A [DACL](access-control-lists.md) that specifies the access rights allowed or denied to particular users or groups.

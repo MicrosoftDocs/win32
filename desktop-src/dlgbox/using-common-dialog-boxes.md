@@ -1,8 +1,15 @@
 ---
 title: Using Common Dialog Boxes
 description: This section covers tasks that invoke common dialog boxes.
-ms.assetid: 'ba038bc1-fb5c-4576-be80-7eae7339ba05'
-keywords: ["Common Dialog Box Library,tasks", "common dialog boxes,using"]
+ms.assetid: ba038bc1-fb5c-4576-be80-7eae7339ba05
+keywords:
+- Common Dialog Box Library,tasks
+- common dialog boxes,using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Common Dialog Boxes
@@ -19,9 +26,9 @@ This section covers tasks that invoke common dialog boxes:
 
 ## Choosing a Color
 
-This topic describes sample code that displays a **Color** dialog box so that a user can select a color. The sample code first initializes a [**CHOOSECOLOR**](choosecolor-str.md) structure, and then calls the [**ChooseColor**](choosecolor.md) function to display the dialog box. If the function returns **TRUE**, indicating that the user selected a color, the sample code uses the selected color to create a new solid brush.
+This topic describes sample code that displays a **Color** dialog box so that a user can select a color. The sample code first initializes a [**CHOOSECOLOR**](/windows/win32/Commdlg/ns-commdlg-tagchoosecolora?branch=master) structure, and then calls the [**ChooseColor**](choosecolor.md) function to display the dialog box. If the function returns **TRUE**, indicating that the user selected a color, the sample code uses the selected color to create a new solid brush.
 
-This example uses the [**CHOOSECOLOR**](choosecolor-str.md) structure to initialize the dialog box as follows:
+This example uses the [**CHOOSECOLOR**](/windows/win32/Commdlg/ns-commdlg-tagchoosecolora?branch=master) structure to initialize the dialog box as follows:
 
 -   Initializes the **lpCustColors** member with a pointer to a static array of values. The colors in the array are initially black, but the static array preserves custom colors created by the user for subsequent [**ChooseColor**](choosecolor.md) calls.
 -   Sets the **CC\_RGBINIT** flag and initializes the **rgbResult** member to specify the color that is initially selected when the dialog box opens. If not specified, the initial selection is black. The example uses the *rgbCurrent* static variable to preserve the selected value between calls to [**ChooseColor**](choosecolor.md).
@@ -54,11 +61,11 @@ if (ChooseColor(&amp;cc)==TRUE)
 
 ## Choosing a Font
 
-This topic describes sample code that displays a **Font** dialog box so that a user can choose the attributes of a font. The sample code first initializes a [**CHOOSEFONT**](choosefont-str.md) structure, and then calls the [**ChooseFont**](choosefont.md) function to display the dialog box.
+This topic describes sample code that displays a **Font** dialog box so that a user can choose the attributes of a font. The sample code first initializes a [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure, and then calls the [**ChooseFont**](choosefont.md) function to display the dialog box.
 
 This example sets the **CF\_SCREENFONTS** flag to specify that the dialog box should display only screen fonts. It sets the **CF\_EFFECTS** flag to display controls that allow the user to select strikeout, underline, and color options.
 
-If [**ChooseFont**](choosefont.md) returns **TRUE**, indicating that the user clicked the **OK** button, the [**CHOOSEFONT**](choosefont-str.md) structure contains information that describes the font and font attributes selected by the user, including the members of the [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure pointed to by the **lpLogFont** member. The **rgbColors** member contains the selected text color. The sample code uses this information to set the font and text color for the device context associated with the owner window.
+If [**ChooseFont**](choosefont.md) returns **TRUE**, indicating that the user clicked the **OK** button, the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure contains information that describes the font and font attributes selected by the user, including the members of the [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure pointed to by the **lpLogFont** member. The **rgbColors** member contains the selected text color. The sample code uses this information to set the font and text color for the device context associated with the owner window.
 
 
 ```
@@ -100,13 +107,13 @@ if (ChooseFont(&amp;cf)==TRUE)
 
  
 
-This topic describes sample code that displays an **Open** dialog box so that a user can specify the drive, directory, and name of a file to open. The sample code first initializes an [**OPENFILENAME**](openfilename-str.md) structure, and then calls the [**GetOpenFileName**](getopenfilename.md) function to display the dialog box.
+This topic describes sample code that displays an **Open** dialog box so that a user can specify the drive, directory, and name of a file to open. The sample code first initializes an [**OPENFILENAME**](/windows/win32/Commdlg/ns-commdlg-tagofna?branch=master) structure, and then calls the [**GetOpenFileName**](/windows/win32/Commdlg/nf-commdlg-getopenfilenamea?branch=master) function to display the dialog box.
 
 In this example, the **lpstrFilter** member is a pointer to a buffer that specifies two file name filters that the user can select to limit the file names that are displayed. The buffer contains a double-null terminated array of strings in which each pair of strings specifies a filter. The **nFilterIndex** member specifies that the first pattern is used when the dialog box is created.
 
 This example sets the **OFN\_PATHMUSTEXIST** and **OFN\_FILEMUSTEXIST** flags in the **Flags** member. These flags cause the dialog box to verify, before returning, that the path and file name specified by the user actually exist.
 
-The [**GetOpenFileName**](getopenfilename.md) function returns **TRUE** if the user clicks the **OK** button and the specified path and file name exist. In this case, the buffer pointed to by the **lpstrFile** member contains the path and file name. The sample code uses this information in a call to the function to open the file.
+The [**GetOpenFileName**](/windows/win32/Commdlg/nf-commdlg-getopenfilenamea?branch=master) function returns **TRUE** if the user clicks the **OK** button and the specified path and file name exist. In this case, the buffer pointed to by the **lpstrFile** member contains the path and file name. The sample code uses this information in a call to the function to open the file.
 
 Although this example does not set the **OFN\_EXPLORER** flag, it still displays the default Explorer-style **Open** dialog box. However, if you want to provide a hook procedure or a custom template and you want the Explorer user interface, you must set the **OFN\_EXPLORER** flag.
 
@@ -154,11 +161,11 @@ if (GetOpenFileName(&amp;ofn)==TRUE)
 
 ## Displaying the Print Dialog Box
 
-This topic describes sample code that displays a **Print** dialog box so that a user can select options for printing a document. The sample code first initializes a [**PRINTDLG**](printdlg-str.md) structure, and then calls the [**PrintDlg**](printdlg.md) function to display the dialog box.
+This topic describes sample code that displays a **Print** dialog box so that a user can select options for printing a document. The sample code first initializes a [**PRINTDLG**](/windows/win32/Commdlg/ns-commdlg-tagpda?branch=master) structure, and then calls the [**PrintDlg**](printdlg.md) function to display the dialog box.
 
-This example sets the **PD\_RETURNDC** flag in the **Flags** member of the [**PRINTDLG**](printdlg-str.md) structure. This causes [**PrintDlg**](printdlg.md) to return a device context handle to the selected printer in the **hDC** member. You can use the handle to render output on the printer.
+This example sets the **PD\_RETURNDC** flag in the **Flags** member of the [**PRINTDLG**](/windows/win32/Commdlg/ns-commdlg-tagpda?branch=master) structure. This causes [**PrintDlg**](printdlg.md) to return a device context handle to the selected printer in the **hDC** member. You can use the handle to render output on the printer.
 
-On input, the sample code sets the **hDevMode** and **hDevNames** members to **NULL**. If the function returns **TRUE**, these members return handles to [**DEVNAMES**](devnames-str.md) structures that contain the user input and information about the printer. You can use this information to prepare the output to be sent to the selected printer.
+On input, the sample code sets the **hDevMode** and **hDevNames** members to **NULL**. If the function returns **TRUE**, these members return handles to [**DEVNAMES**](/windows/win32/Commdlg/ns-commdlg-tagdevnames?branch=master) structures that contain the user input and information about the printer. You can use this information to prepare the output to be sent to the selected printer.
 
 
 ```
@@ -191,13 +198,13 @@ if (PrintDlg(&amp;pd)==TRUE)
 
 ## Using the Print Property Sheet
 
-This topic describes sample code that displays a **Print** property sheet so that a user can select options for printing a document. The sample code first initializes a [**PRINTDLGEX**](printdlgex-str.md) structure, then calls the [**PrintDlgEx**](printdlgex.md) function to display the property sheet.
+This topic describes sample code that displays a **Print** property sheet so that a user can select options for printing a document. The sample code first initializes a [**PRINTDLGEX**](/windows/win32/Commdlg/ns-commdlg-tagpdexa?branch=master) structure, then calls the [**PrintDlgEx**](printdlgex.md) function to display the property sheet.
 
-The sample code sets the **PD\_RETURNDC** flag in the **Flags** member of the [**PRINTDLG**](printdlg-str.md) structure. This causes the [**PrintDlgEx**](printdlgex.md) function to return a device context handle to the selected printer in the **hDC** member.
+The sample code sets the **PD\_RETURNDC** flag in the **Flags** member of the [**PRINTDLG**](/windows/win32/Commdlg/ns-commdlg-tagpda?branch=master) structure. This causes the [**PrintDlgEx**](printdlgex.md) function to return a device context handle to the selected printer in the **hDC** member.
 
-On input, the sample code sets the **hDevMode** and **hDevNames** members to **NULL**. If the function returns **S\_OK**, these members return handles to [**DEVNAMES**](devnames-str.md) structures containing the user input and information about the printer. You can use this information to prepare the output to be sent to the selected printer.
+On input, the sample code sets the **hDevMode** and **hDevNames** members to **NULL**. If the function returns **S\_OK**, these members return handles to [**DEVNAMES**](/windows/win32/Commdlg/ns-commdlg-tagdevnames?branch=master) structures containing the user input and information about the printer. You can use this information to prepare the output to be sent to the selected printer.
 
-After the printing operation has been completed, the sample code frees the [**DEVMODE**](https://msdn.microsoft.com/library/windows/desktop/dd183565), [**DEVNAMES**](devnames-str.md), and [**PRINTPAGERANGE**](printpagerange-str.md) buffers and calls the [**DeleteDC**](https://msdn.microsoft.com/library/windows/desktop/dd183533) function to delete the device context.
+After the printing operation has been completed, the sample code frees the [**DEVMODE**](https://msdn.microsoft.com/library/windows/desktop/dd183565), [**DEVNAMES**](/windows/win32/Commdlg/ns-commdlg-tagdevnames?branch=master), and [**PRINTPAGERANGE**](/windows/win32/Commdlg/ns-commdlg-tagprintpagerange?branch=master) buffers and calls the [**DeleteDC**](https://msdn.microsoft.com/library/windows/desktop/dd183533) function to delete the device context.
 
 
 ```
@@ -264,11 +271,11 @@ HRESULT DisplayPrintPropertySheet(HWND hWnd)
 
 ## Setting Up the Printed Page
 
-This topic describes sample code that displays a **Page Setup** dialog box so that a user can select the attributes of the printed page, such as the paper type, paper source, page orientation, and page margins. The sample code first initializes a [**PAGESETUPDLG**](pagesetupdlg-str.md) structure, and then calls the [**PageSetupDlg**](pagesetupdlg.md) function to display the dialog box.
+This topic describes sample code that displays a **Page Setup** dialog box so that a user can select the attributes of the printed page, such as the paper type, paper source, page orientation, and page margins. The sample code first initializes a [**PAGESETUPDLG**](/windows/win32/Commdlg/ns-commdlg-tagpsda?branch=master) structure, and then calls the [**PageSetupDlg**](pagesetupdlg.md) function to display the dialog box.
 
 This example sets the **PSD\_MARGINS** flag in the **Flags** member and uses the **rtMargin** member to specify the initial margin values. It sets the **PSD\_INTHOUSANDTHSOFINCHES** flag to ensure that the dialog box expresses margin dimensions in thousandths of an inch.
 
-On input, the sample code sets the **hDevMode** and **hDevNames** members to **NULL**. If the function returns **TRUE**, the function uses these members to return handles to [**DEVNAMES**](devnames-str.md) structures containing the user input and information about the printer. You can use this information to prepare the output to be sent to the selected printer.
+On input, the sample code sets the **hDevMode** and **hDevNames** members to **NULL**. If the function returns **TRUE**, the function uses these members to return handles to [**DEVNAMES**](/windows/win32/Commdlg/ns-commdlg-tagdevnames?branch=master) structures containing the user input and information about the printer. You can use this information to prepare the output to be sent to the selected printer.
 
 The following example also enables a [**PagePaintHook**](pagepainthook.md) hook procedure to customize drawing the contents of the sample page.
 
@@ -343,7 +350,7 @@ BOOL CALLBACK PaintHook(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 This topic describes sample code that displays and manages a **Find** dialog box so that the user can specify the parameters of a search operation. The dialog box sends messages to the window procedure so you can perform the search operation.
 
-The code for displaying and managing a **Replace** dialog box is similar, except that it uses the [**ReplaceText**](replacetext.md) function to display the dialog box. The **Replace** dialog box also sends messages in response to user clicks on the **Replace** and **Replace All** buttons.
+The code for displaying and managing a **Replace** dialog box is similar, except that it uses the [**ReplaceText**](/windows/win32/Commdlg/nf-commdlg-replacetexta?branch=master) function to display the dialog box. The **Replace** dialog box also sends messages in response to user clicks on the **Replace** and **Replace All** buttons.
 
 To use the **Find** or **Replace** dialog box, you must perform three separate tasks:
 
@@ -362,7 +369,7 @@ uFindReplaceMsg = RegisterWindowMessage(FINDMSGSTRING);
 
 
 
-To display a **Find** dialog box, first initialize a [**FINDREPLACE**](findreplace-str.md) structure and then call the [**FindText**](findtext.md) function. Note that the **FINDREPLACE** structure and the buffer for the search string should be a global or static variable so that it does not go out of scope before the dialog box closes. You must set the **hwndOwner** member to specify the window that receives the registered messages. After you create the dialog box, you can move or manipulate it by using the returned handle.
+To display a **Find** dialog box, first initialize a [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure and then call the [**FindText**](/windows/win32/Commdlg/nf-commdlg-findtexta?branch=master) function. Note that the **FINDREPLACE** structure and the buffer for the search string should be a global or static variable so that it does not go out of scope before the dialog box closes. You must set the **hwndOwner** member to specify the window that receives the registered messages. After you create the dialog box, you can move or manipulate it by using the returned handle.
 
 
 ```
@@ -384,9 +391,9 @@ hdlg = FindText(&amp;fr);
 
 
 
-When the dialog box is open, your main message loop must include a call to the [**IsDialogMessage**](isdialogmessage.md) function. Pass a handle to the dialog box as a parameter in the **IsDialogMessage** call. This ensures that the dialog box correctly processes keyboard messages.
+When the dialog box is open, your main message loop must include a call to the [**IsDialogMessage**](/windows/win32/Winuser/nf-winuser-isdialogmessagea?branch=master) function. Pass a handle to the dialog box as a parameter in the **IsDialogMessage** call. This ensures that the dialog box correctly processes keyboard messages.
 
-To monitor messages sent from the dialog box, your window procedure must check for the [**FINDMSGSTRING**](findmsgstring.md) registered message and process the values passed in the [**FINDREPLACE**](findreplace-str.md) structure as in the following example.
+To monitor messages sent from the dialog box, your window procedure must check for the [**FINDMSGSTRING**](findmsgstring.md) registered message and process the values passed in the [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure as in the following example.
 
 
 ```

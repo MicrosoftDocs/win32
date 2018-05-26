@@ -1,7 +1,12 @@
 ---
 title: RemoveAll Method
 description: RemoveAll Method
-ms.assetid: '233f8d65-36ec-4c83-8c91-59d406edd70a'
+ms.assetid: 233f8d65-36ec-4c83-8c91-59d406edd70a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveAll Method

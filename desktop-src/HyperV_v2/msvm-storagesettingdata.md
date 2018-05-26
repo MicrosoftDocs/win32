@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the storage-specific settings for a virtual system.'
-ms.assetid: '0b3fcd78-7e9a-4a94-ad18-0ca72b3cfd73'
-title: 'Msvm\_StorageSettingData class'
+Description: Represents the storage-specific settings for a virtual system.
+ms.assetid: 0b3fcd78-7e9a-4a94-ad18-0ca72b3cfd73
+title: Msvm\_StorageSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_StorageSettingData class
@@ -16,9 +21,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_StorageSettingData : Msvm_SystemComponentSettingData
 {
-  uint16  VirtualProcessorsPerChannel;
+  uint16  VirtualProcessorsPerChannel;
   boolean DisableInterruptBatching;
-  uint16  ThreadCountPerChannel;
+  uint16  ThreadCountPerChannel;
 };
 ```
 
@@ -131,8 +136,8 @@ This is a read-only property, but it can be changed using the [**ModifySystemCom
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -146,9 +151,9 @@ This is a read-only property, but it can be changed using the [**ModifySystemCom
 [**Msvm\_SystemComponentSettingData**](msvm-systemcomponentsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

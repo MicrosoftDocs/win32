@@ -1,8 +1,14 @@
 ---
 title: Developing the Interface
 description: An RPC interface describes the remote functions that the server program implements.
-ms.assetid: 'f0dfe9d1-fe84-461c-8684-147fbd0bdefe'
-keywords: ["Remote Procedure Call RPC , tasks, developing the interface"]
+ms.assetid: f0dfe9d1-fe84-461c-8684-147fbd0bdefe
+keywords:
+- Remote Procedure Call RPC , tasks, developing the interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing the Interface

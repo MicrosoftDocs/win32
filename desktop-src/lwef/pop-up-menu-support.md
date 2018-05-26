@@ -1,7 +1,12 @@
 ---
 title: Pop-up Menu Support
 description: Pop-up Menu Support
-ms.assetid: 'a8a1cf91-c18a-497f-89a7-b47536eaca0a'
+ms.assetid: a8a1cf91-c18a-497f-89a7-b47536eaca0a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pop-up Menu Support

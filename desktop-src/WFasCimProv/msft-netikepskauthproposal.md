@@ -1,7 +1,12 @@
 ---
-Description: 'A Pre-shared Key authentication proposal.'
-ms.assetid: '1c0ba1ea-4020-44cf-a4f1-496159e21e2c'
-title: 'MSFT\_NetIKEPSKAuthProposal class'
+Description: A Pre-shared Key authentication proposal.
+ms.assetid: 1c0ba1ea-4020-44cf-a4f1-496159e21e2c
+title: MSFT\_NetIKEPSKAuthProposal class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetIKEPSKAuthProposal class
@@ -275,17 +280,17 @@ This field is ignored.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

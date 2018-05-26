@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a 3 byte hexBinary that identifies the IHV.'
-ms.assetid: '0b2e73fb-df3a-48c4-b38d-970c37de46eb'
-title: 'OUI (OUIHeader) Element'
+---
+Description: Contains a 3 byte hexBinary that identifies the IHV.
+ms.assetid: 0b2e73fb-df3a-48c4-b38d-970c37de46eb
+title: OUI (OUIHeader) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OUI (OUIHeader) Element

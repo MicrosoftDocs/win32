@@ -1,8 +1,14 @@
 ---
 title: AutoConvertTo
 description: Specifies the automatic conversion of a given class of objects to a new class of objects.
-ms.assetid: 'e34b799b-0d23-4034-ba79-49e92ec4dea7'
-keywords: ["AutoConvertTo registry key COM"]
+ms.assetid: e34b799b-0d23-4034-ba79-49e92ec4dea7
+keywords:
+- AutoConvertTo registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AutoConvertTo
@@ -27,13 +33,13 @@ This key is typically used to automatically convert files created by an older ve
 
 <dl> <dt>
 
-[**OleDoAutoConvert**](oledoautoconvert.md)
+[**OleDoAutoConvert**](/windows/win32/Ole2/nf-ole2-oledoautoconvert?branch=master)
 </dt> <dt>
 
-[**OleGetAutoConvert**](olegetautoconvert.md)
+[**OleGetAutoConvert**](/windows/win32/Ole2/nf-ole2-olegetautoconvert?branch=master)
 </dt> <dt>
 
-[**OleSetAutoConvert**](olesetautoconvert.md)
+[**OleSetAutoConvert**](/windows/win32/Ole2/nf-ole2-olesetautoconvert?branch=master)
 </dt> </dl>
 
  

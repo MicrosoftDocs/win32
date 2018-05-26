@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the encoder is constrained by a maximum latency requirement.'
-ms.assetid: '8148ae1e-239e-40fa-a88d-810a1d93d8e9'
-title: 'MFPKEY\_CONSTRAINENCLATENCY Property'
+---
+Description: Specifies whether the encoder is constrained by a maximum latency requirement.
+ms.assetid: 8148ae1e-239e-40fa-a88d-810a1d93d8e9
+title: MFPKEY\_CONSTRAINENCLATENCY Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_CONSTRAINENCLATENCY Property

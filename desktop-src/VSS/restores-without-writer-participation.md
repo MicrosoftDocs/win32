@@ -1,7 +1,12 @@
 ---
-Description: 'Writer participation in a VSS backup is designed to allow applications to control what and how their restore data is to be used.'
-ms.assetid: '076b2e6f-c2ca-4129-8827-1b18a655d634'
+Description: Writer participation in a VSS backup is designed to allow applications to control what and how their restore data is to be used.
+ms.assetid: 076b2e6f-c2ca-4129-8827-1b18a655d634
 title: Restores without Writer Participation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Restores without Writer Participation
@@ -20,10 +25,10 @@ However, there are reasons why a backup application might want or need to restor
 
 -   Missing VSS writers. This situation may be fairly common when restoring the state of a damaged system. A backup operation must determine whether it is desirable to restore files for missing writers. If restoration is desirable, the files can be restored just as a conventional backup would restore them.
 -   A private restore of a writer's data. A requester may choose to restore the data of a running writer to some private location without notifying the writer. An example of this might be restoration of the writer's data to support offline comparison. In this sort of situation, a requester would not want to use the [*new target location*](vssgloss-n.md#base-vssgloss-new-target-location) while doing the restore, because it does not want the writer to access the data.
--   A writer does not want to be involved during restore. A writer indicates this by passing in VSS\_WRE\_NEVER for the *writerRestore* parameter of [**IVssCreateWriterMetadata::SetRestoreMethod**](ivsscreatewritermetadata-setrestoremethod.md).
--   A writer requires a custom restore method. A writer indicates that it requires a custom restore by passing in VSS\_RME\_CUSTOM for the *method* parameter of [**IVssCreateWriterMetadata::SetRestoreMethod**](ivsscreatewritermetadata-setrestoremethod.md). In this case, this writer should not be involved in the restore process unless the custom-restore documentation for that writer indicates otherwise.
+-   A writer does not want to be involved during restore. A writer indicates this by passing in VSS\_WRE\_NEVER for the *writerRestore* parameter of [**IVssCreateWriterMetadata::SetRestoreMethod**](/windows/win32/VsWriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod?branch=master).
+-   A writer requires a custom restore method. A writer indicates that it requires a custom restore by passing in VSS\_RME\_CUSTOM for the *method* parameter of [**IVssCreateWriterMetadata::SetRestoreMethod**](/windows/win32/VsWriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod?branch=master). In this case, this writer should not be involved in the restore process unless the custom-restore documentation for that writer indicates otherwise.
 
-A requester involves a writer in the restore process by specifying one of that writer's components in a call to [**IVssBackupComponents::SetSelectedForRestore**](ivssbackupcomponents-setselectedforrestore.md). A writer's data can be restored without involving the writer by simply not specifying any of that writer's components in a call to **IVssBackupComponents::SetSelectedForRestore**. If a writer does not expect any restore events, involving that writer in the restore process can cause spurious errors to be reported for that writer.
+A requester involves a writer in the restore process by specifying one of that writer's components in a call to [**IVssBackupComponents::SetSelectedForRestore**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore?branch=master). A writer's data can be restored without involving the writer by simply not specifying any of that writer's components in a call to **IVssBackupComponents::SetSelectedForRestore**. If a writer does not expect any restore events, involving that writer in the restore process can cause spurious errors to be reported for that writer.
 
  
 

@@ -4,17 +4,22 @@ description: Maximum age for user account passwords.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '411efe45-3a62-41f9-99e7-8a0a804a4854'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 411efe45-3a62-41f9-99e7-8a0a804a4854
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Maximum-Password-Age attribute AD Schema", "msDS-MaximumPasswordAge attribute AD Schema"]
+keywords:
+- ms-DS-Maximum-Password-Age attribute AD Schema
+- msDS-MaximumPasswordAge attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Maximum-Password-Age
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Maximum-Password-Age attribute
@@ -38,9 +43,9 @@ Maximum age for user account passwords.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Maximum age for user account passwords.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

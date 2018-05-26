@@ -1,8 +1,11 @@
 ---
 title: MetricValue ~MetricValue destructor
 description: Destructor method.
-ms.assetid: 'F567D9BD-68A4-4F63-A389-FC9E1C3E06BF'
-keywords: ["~MetricValue destructor Access Execution Engine", "~MetricValue destructor Access Execution Engine , MetricValue interface", "MetricValue interface Access Execution Engine , ~MetricValue destructor"]
+ms.assetid: F567D9BD-68A4-4F63-A389-FC9E1C3E06BF
+keywords:
+- ~MetricValue destructor Access Execution Engine
+- ~MetricValue destructor Access Execution Engine , MetricValue interface
+- MetricValue interface Access Execution Engine , ~MetricValue destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricValue::~MetricValue destructor
@@ -36,8 +44,8 @@ A **MetricValue** object holds data from an **Issue/MetricValues/MetricValue**, 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -50,9 +58,9 @@ A **MetricValue** object holds data from an **Issue/MetricValues/MetricValue**, 
 [**MetricValue**](metricvalue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Apply IPsec policy deltas.'
-ms.assetid: 'e4a0e32e-826e-4f09-95e3-14da3c8b3aa2'
-title: 'SetPolicyDelta method of the MSFT\_NetConSecRule class'
+Description: Apply IPsec policy deltas.
+ms.assetid: e4a0e32e-826e-4f09-95e3-14da3c8b3aa2
+title: SetPolicyDelta method of the MSFT\_NetConSecRule class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetPolicyDelta method of the MSFT\_NetConSecRule class
@@ -13,12 +18,12 @@ Apply IPsec policy deltas
 
 ```mof
 uint32 SetPolicyDelta(
-        uint16  Action,
-  [in]  string  IPv6Addresses[],
-  [in]  string  IPv4Addresses[],
-        uint16  EndpointType,
-  [in]  boolean PassThru,
-  [out] String  Output[]
+        uint16  Action,
+  [in]  string  IPv6Addresses[],
+  [in]  string  IPv4Addresses[],
+        uint16  EndpointType,
+  [in]  boolean PassThru,
+  [out] String  Output[]
 );
 ```
 
@@ -88,8 +93,8 @@ Output NetConSecRule
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
@@ -103,9 +108,9 @@ Output NetConSecRule
 [**MSFT\_NetConSecRule**](msft-netconsecrule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

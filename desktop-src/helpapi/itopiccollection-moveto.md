@@ -1,8 +1,11 @@
 ---
 title: ITopicCollection MoveTo method
 description: Sets current element in the collection the specified index
-ms.assetid: '02022698-d5eb-44f1-809d-51398119dcf3'
-keywords: ["MoveTo method HelpAPI", "MoveTo method HelpAPI , ITopicCollection interface", "ITopicCollection interface HelpAPI , MoveTo method"]
+ms.assetid: 02022698-d5eb-44f1-809d-51398119dcf3
+keywords:
+- MoveTo method HelpAPI
+- MoveTo method HelpAPI , ITopicCollection interface
+- ITopicCollection interface HelpAPI , MoveTo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITopicCollection::MoveTo method
@@ -22,7 +30,7 @@ Sets current element in the collection the specified index
 
 ```C++
 HRESULT MoveTo(
-  [in] long index
+  [in] long index
 );
 ```
 
@@ -45,8 +53,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -58,9 +66,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ITopicCollection**](itopiccollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

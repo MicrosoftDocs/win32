@@ -1,8 +1,10 @@
 ---
 title: Win32\_SoftwareElementCheck class
 description: This Win32\_SoftwareElementCheck association WMI class relates an Installer element with any condition or locational information that a feature may require.
-ms.assetid: 'f1f0ad6f-f907-40f4-89e7-0921001d14e2'
-keywords: ["Win32_SoftwareElementCheck class", "Win32_SoftwareElementCheck class, described"]
+ms.assetid: f1f0ad6f-f907-40f4-89e7-0921001d14e2
+keywords:
+- Win32_SoftwareElementCheck class
+- Win32_SoftwareElementCheck class, described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_SoftwareElementCheck class
@@ -23,7 +30,7 @@ This **Win32\_SoftwareElementCheck** association [WMI class](https://msdn.micros
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -33,9 +40,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_SoftwareElementCheck : CIM_SoftwareElementChecks
 {
-  CIM_Check             REF Check;
+  CIM_Check             REF Check;
   Win32_SoftwareElement REF Element;
-  uint16                    Phase;
+  uint16                    Phase;
 };
 ```
 
@@ -103,7 +110,7 @@ Referenced check is an in-state check or a next-state check.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -117,8 +124,8 @@ The **Win32\_SoftwareElementCheck** class is derived from [**CIM\_SoftwareElemen
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -132,9 +139,9 @@ The **Win32\_SoftwareElementCheck** class is derived from [**CIM\_SoftwareElemen
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

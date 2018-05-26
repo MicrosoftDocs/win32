@@ -1,8 +1,18 @@
 ---
 title: Level 2 System Resources
 description: Level 2 System Resources
-ms.assetid: '39e3b210-64b6-47fb-b7b0-e51c256f5878'
-keywords: ["Multimedia PC (MPC),Level 2", "MPC (Multimedia PC),Level 2", "Multimedia PC Marketing Council,Level 2", "MPC Level 2,system resources", "MPC Level 2,minimum configuration"]
+ms.assetid: 39e3b210-64b6-47fb-b7b0-e51c256f5878
+keywords:
+- Multimedia PC (MPC),Level 2
+- MPC (Multimedia PC),Level 2
+- Multimedia PC Marketing Council,Level 2
+- MPC Level 2,system resources
+- MPC Level 2,minimum configuration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Level 2 System Resources

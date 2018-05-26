@@ -1,12 +1,17 @@
 ---
-Description: 'The SampleProps method retrieves the properties of the most recent sample, in an AM\_SAMPLE2\_PROPERTIES structure.'
-ms.assetid: 'd4c98c35-f8b2-4111-bae9-4e0f58a0cc8a'
-title: 'CBaseInputPin.SampleProps method'
+Description: The SampleProps method retrieves the properties of the most recent sample, in an AM\_SAMPLE2\_PROPERTIES structure.
+ms.assetid: d4c98c35-f8b2-4111-bae9-4e0f58a0cc8a
+title: CBaseInputPin.SampleProps method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin.SampleProps method
 
-The `SampleProps` method retrieves the properties of the most recent sample, in an [**AM\_SAMPLE2\_PROPERTIES**](am-sample2-properties.md) structure.
+The `SampleProps` method retrieves the properties of the most recent sample, in an [**AM\_SAMPLE2\_PROPERTIES**](/windows/win32/strmif/ns-strmif-tagam_sample2_properties?branch=master) structure.
 
 ## Syntax
 
@@ -43,9 +48,9 @@ Returns the address of the [**CBaseInputPin::m\_SampleProps**](cbaseinputpin-m-s
 [**CBaseInputPin Class**](cbaseinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

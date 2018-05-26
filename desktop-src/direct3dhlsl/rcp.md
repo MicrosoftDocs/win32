@@ -1,14 +1,20 @@
 ---
 title: rcp
 description: Calculates a fast, approximate, per-component reciprocal.
-ms.assetid: 'c8d451e4-717e-45b3-a0fe-da55feb8f443'
-keywords: ["rcp HLSL"]
+ms.assetid: c8d451e4-717e-45b3-a0fe-da55feb8f443
+keywords:
+- rcp HLSL
 topic_type:
 - apiref
 api_name:
 - rcp
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # rcp

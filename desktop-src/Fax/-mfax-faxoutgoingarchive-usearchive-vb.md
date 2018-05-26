@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UseArchive property is a Boolean value that indicates whether the fax service archives outbound fax messages.'
-ms.assetid: 'a7e48e8e-0364-4aaf-9fff-e2778b66d1c7'
-title: 'FaxOutgoingArchive.UseArchive property'
+---
+Description: The UseArchive property is a Boolean value that indicates whether the fax service archives outbound fax messages.
+ms.assetid: a7e48e8e-0364-4aaf-9fff-e2778b66d1c7
+title: FaxOutgoingArchive.UseArchive property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingArchive.UseArchive property
@@ -30,7 +35,7 @@ A **Boolean** that specifies or receives whether the fax service archives outbou
 
  
 
-To read or to write to this property, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -55,7 +60,7 @@ To read or to write to this property, a user must have the [**farQUERY\_CONFIG**
 [**FaxOutgoingArchive**](-mfax-faxoutgoingarchive.md)
 </dt> <dt>
 
-[**IFaxOutgoingArchive**](-mfax-faxoutgoingarchive-cpp.md)
+[**IFaxOutgoingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingarchive?branch=master)
 </dt> </dl>
 
  

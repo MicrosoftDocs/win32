@@ -1,7 +1,12 @@
 ---
 title: ReadyBoot Disk Usage Summary Table
 description: ReadyBoot Disk Usage Summary Table
-ms.assetid: '9875b618-974a-4b49-a10f-4bacd935b80c'
+ms.assetid: 9875b618-974a-4b49-a10f-4bacd935b80c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadyBoot Disk Usage Summary Table

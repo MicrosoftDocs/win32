@@ -1,7 +1,12 @@
 ---
-Description: 'All IPv6 configuration is done with the Ipv6.exe tool.'
-ms.assetid: 'cb701070-cb7f-472a-97c7-1de9c0ddec0f'
-title: 'Ipv6.exe'
+Description: All IPv6 configuration is done with the Ipv6.exe tool.
+ms.assetid: cb701070-cb7f-472a-97c7-1de9c0ddec0f
+title: Ipv6.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ipv6.exe
@@ -108,7 +113,7 @@ Displays the current contents of the site prefix table.
 
 For each site prefix, the command displays the prefix, the interface to which the site prefix applies, and the prefix lifetime in seconds.
 
-Site prefixes are normally auto-configured from router advertisements. They are used in the [**getaddrinfo**](getaddrinfo-2.md) function to filter inappropriate site-local addresses.
+Site prefixes are normally auto-configured from router advertisements. They are used in the [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) function to filter inappropriate site-local addresses.
 
 </dd> <dt>
 

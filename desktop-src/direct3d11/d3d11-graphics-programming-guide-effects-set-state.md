@@ -1,7 +1,12 @@
 ---
 title: Set Effect State (Direct3D 11)
 description: Some effect constants only need to be initialized.
-ms.assetid: 'f94ba82e-fc67-4e4d-a49d-20e1163bdff7'
+ms.assetid: f94ba82e-fc67-4e4d-a49d-20e1163bdff7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Set Effect State (Direct3D 11)
@@ -116,7 +121,7 @@ if( g_pEffect11 )
 
 
 
-The other way is to get the sampler state from an [**ID3D11SamplerState**](id3d11samplerstate.md).
+The other way is to get the sampler state from an [**ID3D11SamplerState**](/windows/win32/D3D11/nn-d3d11-id3d11samplerstate?branch=master).
 
 
 ```
@@ -158,7 +163,7 @@ technique10 RenderSceneWithTexture1Light
 
 
 
-This works just like it would if you were not using an effect. There are three calls, one for each type of shader (vertex, geometry, and pixel). The first one, SetVertexShader, calls [**ID3D11DeviceContext::VSSetShader**](id3d11devicecontext-vssetshader.md). CompileShader is a special effect function that takes the shader profile(vs\_4\_0) and the name of the vertex shader function (RenderVS). In other words, each of these CompileShader calls compiles their associated shader function and returns a pointer to the compiled shader.
+This works just like it would if you were not using an effect. There are three calls, one for each type of shader (vertex, geometry, and pixel). The first one, SetVertexShader, calls [**ID3D11DeviceContext::VSSetShader**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-vssetshader?branch=master). CompileShader is a special effect function that takes the shader profile(vs\_4\_0) and the name of the vertex shader function (RenderVS). In other words, each of these CompileShader calls compiles their associated shader function and returns a pointer to the compiled shader.
 
 Note that not all shader state must be set. This pass does not include any SetHullShader or SetDomainShader calls, meaning that the currently bound hull and domain shaders will be unchanged.
 

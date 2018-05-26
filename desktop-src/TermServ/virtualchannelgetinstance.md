@@ -4,22 +4,26 @@ description: Called to have the plug-in create an instance of the IWTSPlugin int
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'B81BD61E-1F43-42C9-8839-30F4F4C3973C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: B81BD61E-1F43-42C9-8839-30F4F4C3973C
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["VirtualChannelGetInstance entry point Remote Desktop Services"]
+keywords:
+- VirtualChannelGetInstance entry point Remote Desktop Services
 topic_type:
 - apiref
 api_name:
 - VirtualChannelGetInstance
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VirtualChannelGetInstance entry point
 
-Called to have the plug-in create an instance of the [**IWTSPlugin**](iwtsplugin.md) interface for all plug-ins implemented by the DLL.
+Called to have the plug-in create an instance of the [**IWTSPlugin**](/windows/win32/TsVirtualChannels/nn-tsvirtualchannels-iwtsplugin?branch=master) interface for all plug-ins implemented by the DLL.
 
 > [!Note]
 >
@@ -27,16 +31,16 @@ Called to have the plug-in create an instance of the [**IWTSPlugin**](iwtsplugin
 >
 > The prototype for this function is not contained in any public header file, so you must declare it exactly as shown.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 HRESULT VCAPITYPE VirtualChannelGetInstance(
-  _In_    REFIID refiid,
-  _Inout_ ULONG  *pNumObjs,
-  _Out_   VOID   **ppObjArray
+  _In_    REFIID refiid,
+  _Inout_ ULONG  *pNumObjs,
+  _Out_   VOID   **ppObjArray
 );
 ```
 
@@ -77,14 +81,14 @@ If this entry point succeeds, it returns **S\_OK**. Otherwise, it returns an **H
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

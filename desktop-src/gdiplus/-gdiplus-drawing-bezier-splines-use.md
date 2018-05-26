@@ -1,7 +1,12 @@
 ---
-Description: 'A B&\#233;zier spline is defined by four points: a start point, two control points, and an end point.'
-ms.assetid: 'af19e82b-0d13-4fb0-981e-8d5dd1bbfb36'
+Description: A B&\#233;zier spline is defined by four points a start point, two control points, and an end point.
+ms.assetid: af19e82b-0d13-4fb0-981e-8d5dd1bbfb36
 title: Drawing Bezier Splines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing Bezier Splines
@@ -24,7 +29,7 @@ The following illustration shows the resulting Bézier spline along with its sta
 
 ![illustration showing a bezier spline with two end points and two control points](images/bezierspline1.png)
 
-You can use the [DrawBeziers](-gdiplus-class-graphics-drawbeziers-methods.md) method of the [**Graphics**](-gdiplus-class-graphics-class.md) class to draw a sequence of connected Bézier splines. The following example draws a curve that consists of two connected Bézier splines. The end point of the first Bézier spline is the start point of the second Bézier spline.
+You can use the [DrawBeziers](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbeziers(in const pen,in const point,in int)?branch=master) method of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class to draw a sequence of connected Bézier splines. The following example draws a curve that consists of two connected Bézier splines. The end point of the first Bézier spline is the start point of the second Bézier spline.
 
 
 ```

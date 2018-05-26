@@ -1,7 +1,12 @@
 ---
-Description: 'Contains information about the severity, cause, recommended actions, and other data related to the failure of a CIM Operation.'
-ms.assetid: '128B9ECE-D26C-4A7D-BFB7-69CD986B0DBA'
-title: 'Msvm\_Error class'
+Description: Contains information about the severity, cause, recommended actions, and other data related to the failure of a CIM Operation.
+ms.assetid: 128B9ECE-D26C-4A7D-BFB7-69CD986B0DBA
+title: Msvm\_Error class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Error class
@@ -85,7 +90,7 @@ The CIM status code that characterizes this instance. This property defines the 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -136,7 +141,7 @@ The format of the **ErrorSource** property is interpretable based on the value o
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -169,7 +174,7 @@ Primary classification of the error. The following values are defined. This prop
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -725,8 +730,8 @@ Access to the **Msvm\_Error** class might be restricted by UAC Filtering. For mo
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -746,9 +751,9 @@ Access to the **Msvm\_Error** class might be restricted by UAC Filtering. For mo
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

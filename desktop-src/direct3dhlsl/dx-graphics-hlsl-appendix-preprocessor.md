@@ -1,7 +1,12 @@
 ---
 title: Preprocessor Directives
 description: Preprocessor directives, such as \ define and \ ifdef, are typically used to make source programs easy to change and easy to compile in different execution environments.
-ms.assetid: 'b5164c0e-62ab-4da5-9c22-efb5e6319bd6'
+ms.assetid: b5164c0e-62ab-4da5-9c22-efb5e6319bd6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preprocessor Directives

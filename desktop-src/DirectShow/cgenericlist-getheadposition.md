@@ -1,7 +1,12 @@
 ---
-Description: 'The GetHeadPosition method retrieves the position of the first item in the list.'
-ms.assetid: '3f376b0b-5551-4baf-943a-224a7cb9bb1a'
-title: 'CGenericList.GetHeadPosition method'
+Description: The GetHeadPosition method retrieves the position of the first item in the list.
+ms.assetid: 3f376b0b-5551-4baf-943a-224a7cb9bb1a
+title: CGenericList.GetHeadPosition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.GetHeadPosition method
@@ -43,9 +48,9 @@ Returns a POSITION value, or **NULL** if the list is empty.
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

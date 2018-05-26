@@ -1,13 +1,16 @@
 ---
-Description: 'The WMI high-performance API is a series of interfaces that obtain data from Performance Counter Classes.'
+Description: The WMI high-performance API is a series of interfaces that obtain data from Performance Counter Classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ee0a2ead-f53a-4651-a287-04a62eba3f84'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ee0a2ead-f53a-4651-a287-04a62eba3f84
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Accessing Performance Data in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Accessing Performance Data in C++
@@ -29,7 +32,7 @@ A refresher also:
 
 -   Automatically reconnects a client to a remote WMI service when a network error occurs, or the remote computer is restarted.
 
-    By default, a refresher attempts to reconnect your application to the relevant high-performance provider when a remote connection between the two computers fails. To prevent the reconnection, pass the **WBEM\_FLAG\_REFRESH\_NO\_AUTO\_RECONNECT** flag in the [**Refresh**](iwbemrefresher-refresh.md) method call. Scripting clients must set the [**SWbemRefresher.AutoReconnect**](swbemrefresher-autoreconnect.md) property to **FALSE**.
+    By default, a refresher attempts to reconnect your application to the relevant high-performance provider when a remote connection between the two computers fails. To prevent the reconnection, pass the **WBEM\_FLAG\_REFRESH\_NO\_AUTO\_RECONNECT** flag in the [**Refresh**](/windows/win32/Wbemcli/nf-wbemcli-iwbemrefresher-refresh?branch=master) method call. Scripting clients must set the [**SWbemRefresher.AutoReconnect**](swbemrefresher-autoreconnect.md) property to **FALSE**.
 
 -   Loads multiple objects and enumerators that are provided by the same or different providers.
 
@@ -39,11 +42,11 @@ A refresher also:
 
     Like other providers, a high-performance provider can enumerate objects.
 
-After you finish writing your high-performance client, you may want to improve your response time. Because the [**IWbemObjectAccess**](iwbemobjectaccess.md) interface is optimized for speed, the interface is not intrinsically threadsafe. Therefore, during a refresh operation, do not access the refreshable object or enumeration. To protect objects across threads during **IWbemObjectAccess** method calls, use the [**IWbemObjectAccess::Lock**](iwbemobjectaccess-lock.md) and [**Unlock**](iwbemobjectaccess-unlock.md) methods. For improved performance, synchronize your threads so that you do not need to lock individual threads. Reducing threads and synchronizing groups of objects for refresh operations provides the best overall performance.
+After you finish writing your high-performance client, you may want to improve your response time. Because the [**IWbemObjectAccess**](/windows/win32/Wbemcli/nn-wbemcli-iwbemobjectaccess?branch=master) interface is optimized for speed, the interface is not intrinsically threadsafe. Therefore, during a refresh operation, do not access the refreshable object or enumeration. To protect objects across threads during **IWbemObjectAccess** method calls, use the [**IWbemObjectAccess::Lock**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectaccess-lock?branch=master) and [**Unlock**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectaccess-unlock?branch=master) methods. For improved performance, synchronize your threads so that you do not need to lock individual threads. Reducing threads and synchronizing groups of objects for refresh operations provides the best overall performance.
 
 ## Adding Enumerators to the WMI Refresher
 
-Both the number of instances and data in each instance are refreshed by adding an enumerator to the refresher so that each call to [**IWbemRefresher::Refresh**](iwbemrefresher-refresh.md) results in a complete enumeration.
+Both the number of instances and data in each instance are refreshed by adding an enumerator to the refresher so that each call to [**IWbemRefresher::Refresh**](/windows/win32/Wbemcli/nf-wbemcli-iwbemrefresher-refresh?branch=master) results in a complete enumeration.
 
 The following C++ code example requires the following references and \#include statements to compile correctly.
 
@@ -63,9 +66,9 @@ The following procedure shows how to add an enumerator to a refresher.
 
 **To add an enumerator to a refresher**
 
-1.  Call the [**IWbemConfigureRefresher::AddEnum**](iwbemconfigurerefresher-addenum.md) method using the path to the refreshable object and the [**IWbemServices**](iwbemservices.md) interface.
+1.  Call the [**IWbemConfigureRefresher::AddEnum**](/windows/win32/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addenum?branch=master) method using the path to the refreshable object and the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) interface.
 
-    The refresher returns a pointer to an [**IWbemHiPerfEnum**](iwbemhiperfenum.md) interface. You can use the **IWbemHiPerfEnum** interface to access the objects in the enumeration.
+    The refresher returns a pointer to an [**IWbemHiPerfEnum**](/windows/win32/Wbemcli/nn-wbemcli-iwbemhiperfenum?branch=master) interface. You can use the **IWbemHiPerfEnum** interface to access the objects in the enumeration.
 
     ```C++
     IWbemHiPerfEnum* pEnum = NULL;
@@ -92,15 +95,15 @@ The following procedure shows how to add an enumerator to a refresher.
 
 2.  Create a loop that performs the following actions:
 
-    -   Refreshes the object by using a call to [**IWbemRefresher::Refresh**](iwbemrefresher-refresh.md).
-    -   Provides an array of [**IWbemObjectAccess**](iwbemobjectaccess.md) interface pointers to the [**IWbemHiPerfEnum::GetObjects**](iwbemhiperfenum-getobjects.md) method.
-    -   Accesses the properties of the enumerator by using the [**IWbemObjectAccess**](iwbemobjectaccess.md) methods passed into [**GetObjects**](iwbemhiperfenum-getobjects.md).
+    -   Refreshes the object by using a call to [**IWbemRefresher::Refresh**](/windows/win32/Wbemcli/nf-wbemcli-iwbemrefresher-refresh?branch=master).
+    -   Provides an array of [**IWbemObjectAccess**](/windows/win32/Wbemcli/nn-wbemcli-iwbemobjectaccess?branch=master) interface pointers to the [**IWbemHiPerfEnum::GetObjects**](/windows/win32/Wbemcli/nf-wbemcli-iwbemhiperfenum-getobjects?branch=master) method.
+    -   Accesses the properties of the enumerator by using the [**IWbemObjectAccess**](/windows/win32/Wbemcli/nn-wbemcli-iwbemobjectaccess?branch=master) methods passed into [**GetObjects**](/windows/win32/Wbemcli/nf-wbemcli-iwbemhiperfenum-getobjects?branch=master).
 
-        A property handle can be passed to each [**IWbemObjectAccess**](iwbemobjectaccess.md) instance to retrieve the refreshed value. The client must call [**Release**](_com_iunknown_release) to release the **IWbemObjectAccess** pointers returned by [**GetObjects**](iwbemhiperfenum-getobjects.md).
+        A property handle can be passed to each [**IWbemObjectAccess**](/windows/win32/Wbemcli/nn-wbemcli-iwbemobjectaccess?branch=master) instance to retrieve the refreshed value. The client must call [**Release**](_com_iunknown_release) to release the **IWbemObjectAccess** pointers returned by [**GetObjects**](/windows/win32/Wbemcli/nf-wbemcli-iwbemhiperfenum-getobjects?branch=master).
 
 ## Example
 
-The following C++ code example enumerates a high-performance class, where the client retrieves a property handle from the first object, and reuses the handle for the remainder of the refresh operation. Each call to the [**Refresh**](iwbemrefresher-refresh.md) method updates the number of instances and the instance data.
+The following C++ code example enumerates a high-performance class, where the client retrieves a property handle from the first object, and reuses the handle for the remainder of the refresh operation. Each call to the [**Refresh**](/windows/win32/Wbemcli/nf-wbemcli-iwbemrefresher-refresh?branch=master) method updates the number of instances and the instance data.
 
 
 ```C++

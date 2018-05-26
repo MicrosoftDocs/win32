@@ -1,15 +1,18 @@
 ---
-Description: 'Gets the security descriptor that controls who is allowed to configure a DCOM application.'
+Description: Gets the security descriptor that controls who is allowed to configure a DCOM application.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2858a7a0-1e5b-47aa-9967-0f578c3c22c1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2858a7a0-1e5b-47aa-9967-0f578c3c22c1
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetConfigurationSecurityDescriptor method of the Win32\_DCOMApplicationSetting class'
+title: GetConfigurationSecurityDescriptor method of the Win32\_DCOMApplicationSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetConfigurationSecurityDescriptor method of the Win32\_DCOMApplicationSetting class
@@ -21,7 +24,7 @@ The **GetConfigurationSecurityDescriptor** WMI method gets the security descript
 
 ```mof
 uint32 GetConfigurationSecurityDescriptor(
-  [out] Win32_SecurityDescriptor Descriptor
+  [out] Win32_SecurityDescriptor Descriptor
 );
 ```
 
@@ -84,7 +87,7 @@ A parameter specified in the method call is invalid
 **Other**
 </dt> <dd>
 
-1–4294967295
+1 4294967295
 
 </dd> </dl>
 
@@ -100,8 +103,8 @@ If the **SeSecurityPrivilege** is not granted or enabled when getting a security
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -124,9 +127,9 @@ If the **SeSecurityPrivilege** is not granted or enabled when getting a security
 [Changing Access Security on Securable Objects](https://msdn.microsoft.com/library/aa384905)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

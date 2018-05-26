@@ -2,7 +2,12 @@
 title: Windows Touch Glossary
 description: This topic provides the definitions of terms that are used by Windows Touch.
 Robots: noindex, nofollow
-ms.assetid: '25341532-c431-41a5-ad16-c88e31fd60b1'
+ms.assetid: 25341532-c431-41a5-ad16-c88e31fd60b1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Touch Glossary

@@ -1,19 +1,25 @@
 ---
 title: ApplicationName element
-description: This is the file path and name to the assessment’s executable.
-ms.assetid: 'CCB88FFA-15C2-4B46-9C92-49BE23CADD8B'
-keywords: ["ApplicationName element Access Execution Engine"]
+description: This is the file path and name to the assessment s executable.
+ms.assetid: CCB88FFA-15C2-4B46-9C92-49BE23CADD8B
+keywords:
+- ApplicationName element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ApplicationName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ApplicationName element
 
-This is the file path and name to the assessment’s executable.
+This is the file path and name to the assessment s executable.
 
 ## Usage
 
@@ -47,7 +53,7 @@ There are no child elements.
 
 ## Examples
 
-Note that AXE does not modify the Windows environment – an assessment inherits the same environment inherited by the process hosting AXE. This lets the assessment author using strings like these:
+Note that AXE does not modify the Windows environment   an assessment inherits the same environment inherited by the process hosting AXE. This lets the assessment author using strings like these:
 
 ``` syntax
 %WINDIR%\System32\WinSAT.EXE
@@ -73,9 +79,9 @@ Calling ExpandEnvironmentStringsW() three times lets the assessment author nest 
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

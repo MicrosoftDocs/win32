@@ -1,7 +1,12 @@
 ---
 title: Analyzing ReadyBoot Data
 description: Analyzing ReadyBoot Data
-ms.assetid: '77fe1467-71c6-4701-8b0d-d7384f6bc74c'
+ms.assetid: 77fe1467-71c6-4701-8b0d-d7384f6bc74c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Analyzing ReadyBoot Data

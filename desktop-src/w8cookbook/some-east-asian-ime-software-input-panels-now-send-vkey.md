@@ -1,7 +1,12 @@
 ---
 title: Some East Asian IME software input panels now send vKey
 description: Some East Asian IME software input panels now send vKey
-ms.assetid: '5E3BE112-D962-4C11-B31E-229584191FAE'
+ms.assetid: 5E3BE112-D962-4C11-B31E-229584191FAE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Some East Asian IME software input panels now send vKey

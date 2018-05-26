@@ -1,7 +1,12 @@
 ---
-Description: 'Opens a handle to a private key.'
-ms.assetid: '2406be2c-121c-4475-b193-d370a88641da'
+Description: Opens a handle to a private key.
+ms.assetid: 2406be2c-121c-4475-b193-d370a88641da
 title: SslOpenPrivateKey function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslOpenPrivateKey function
@@ -13,10 +18,10 @@ The **SslOpenPrivateKey** function opens a handle to a [*private key*](https://m
 
 ```C++
 SECURITY_STATUS WINAPI SslOpenPrivateKey(
-  _In_  NCRYPT_PROV_HANDLE hSslProvider,
-  _Out_ NCRYPT_KEY_HANDLE  *phPrivateKey,
-  _In_  PCCERT_CONTEXT     pCertContext,
-  _In_  DWORD              dwFlags
+  _In_  NCRYPT_PROV_HANDLE hSslProvider,
+  _Out_ NCRYPT_KEY_HANDLE  *phPrivateKey,
+  _In_  PCCERT_CONTEXT     pCertContext,
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -74,7 +79,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -86,16 +91,16 @@ The private key obtained is part of a [*public/private key pair*](https://msdn.m
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

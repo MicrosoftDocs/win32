@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a KeyUsage object that indicates the valid key usage of the certificate.'
-ms.assetid: 'e4590e95-ffa2-4953-bfc1-4d7c70271029'
-title: 'ICertificate2::KeyUsage method'
+---
+Description: Returns a KeyUsage object that indicates the valid key usage of the certificate.
+ms.assetid: e4590e95-ffa2-4953-bfc1-4d7c70271029
+title: ICertificate2KeyUsage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertificate2::KeyUsage method

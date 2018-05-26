@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FunctionName property is a null-terminated string that contains the name of the function that executes a specific fax routing procedure.'
-ms.assetid: '144023b3-bf12-4e81-856c-6745695d9c30'
-title: 'FaxRoutingMethod.FunctionName property'
+---
+Description: The FunctionName property is a null-terminated string that contains the name of the function that executes a specific fax routing procedure.
+ms.assetid: 144023b3-bf12-4e81-856c-6745695d9c30
+title: FaxRoutingMethod.FunctionName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRoutingMethod.FunctionName property
@@ -55,16 +60,16 @@ A fax client application can use the [**Guid**](-mfax-ifaxroutingmethod-get-guid
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxRoutingMethod**](-mfax-ifaxroutingmethod.md)
+[**IFaxRoutingMethod**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethod?branch=master)
 </dt> <dt>
 
-[**IFaxRoutingMethods**](-mfax-ifaxroutingmethods.md)
+[**IFaxRoutingMethods**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethods?branch=master)
 </dt> <dt>
 
 [**FriendlyName**](-mfax-ifaxroutingmethod-get-friendlyname-vb.md)
 </dt> <dt>
 
-[**FaxRouteMethod**](-mfax-faxroutemethod.md)
+[**FaxRouteMethod**](/windows/previous-versions/FaxRoute/?branch=master)
 </dt> </dl>
 
  

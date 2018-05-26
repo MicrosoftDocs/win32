@@ -1,8 +1,11 @@
 ---
 title: GetRecoveryPointData method of the MSFT\_ReplicationCapabilities class
 description: Returns, for a given ReplicationType, recovery point data.
-ms.assetid: 'F14F4AFE-F554-4DFA-8E45-2B953676E357'
-keywords: ["GetRecoveryPointData method Windows Storage Management API", "GetRecoveryPointData method Windows Storage Management API , MSFT_ReplicationCapabilities class", "MSFT_ReplicationCapabilities class Windows Storage Management API , GetRecoveryPointData method"]
+ms.assetid: F14F4AFE-F554-4DFA-8E45-2B953676E357
+keywords:
+- GetRecoveryPointData method Windows Storage Management API
+- GetRecoveryPointData method Windows Storage Management API , MSFT_ReplicationCapabilities class
+- MSFT_ReplicationCapabilities class Windows Storage Management API , GetRecoveryPointData method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetRecoveryPointData method of the MSFT\_ReplicationCapabilities class
@@ -22,11 +30,11 @@ Returns, for a given *ReplicationType*, recovery point data.
 
 ```mof
 UInt32 GetRecoveryPointData(
-  [in]  UInt16 ReplicationType,
-  [in]  UInt16 DefaultRecoveryPoint,
-  [out] UInt16 RecoveryPointValues[],
-  [out] UInt16 RecoveryPointIndicator,
-  [out] String ExtendedStatus
+  [in]  UInt16 ReplicationType,
+  [in]  UInt16 DefaultRecoveryPoint,
+  [out] UInt16 RecoveryPointValues[],
+  [out] UInt16 RecoveryPointIndicator,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -115,8 +123,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -129,9 +137,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_ReplicationCapabilities**](msft-replicationcapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

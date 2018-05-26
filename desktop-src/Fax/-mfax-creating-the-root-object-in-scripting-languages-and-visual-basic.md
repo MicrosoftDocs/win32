@@ -1,7 +1,12 @@
 ---
-Description: 'The code examples provided here demonstrate how to create a root object in scripting languages and Microsoft Visual Basic.'
-ms.assetid: '9bbdfffa-cbea-49f1-863c-6fb0f982c914'
+Description: The code examples provided here demonstrate how to create a root object in scripting languages and Microsoft Visual Basic.
+ms.assetid: 9bbdfffa-cbea-49f1-863c-6fb0f982c914
 title: Creating the Root Object in Scripting Languages and Visual Basic
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Root Object in Scripting Languages and Visual Basic
@@ -108,7 +113,7 @@ Set objFaxServer = CreateObject("FaxDocument")
 
 
 
-If you want to make use of the fax events supplied in the [**IFaxServerNotify**](-mfax-ifaxservernotify.md) interface, use the following syntax.
+If you want to make use of the fax events supplied in the [**IFaxServerNotify**](/windows/previous-versions/FaxComex/?branch=master) interface, use the following syntax.
 
 
 ```

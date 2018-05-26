@@ -1,7 +1,12 @@
 ---
 Description: RAW Codec Requirements for Windows 7
-ms.assetid: '3f8bd336-ba03-4ffb-9aa2-ea55a276e3bc'
+ms.assetid: 3f8bd336-ba03-4ffb-9aa2-ea55a276e3bc
 title: RAW Codec Requirements for Windows 7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAW Codec Requirements for Windows 7
@@ -12,20 +17,20 @@ All functionality that is required for Windows Vista shell and Photo Gallery su
 
 Support for core metadata (both read and write), Non-EXIF metadata, as well as EXIF metadata, should be persisted inside RAW file formats without use of sidecar files.
 
-Support for the [**IWICDevelopRaw**](-wic-codec-iwicdevelopraw.md) interface. For Windows 7, Windows Imaging Component (WIC)WIC requires that all parameter interfaces exposed by [**IWICDevelopRaw**](-wic-codec-iwicdevelopraw.md) be implemented.
+Support for the [**IWICDevelopRaw**](/windows/win32/Wincodec/nn-wincodec-iwicdevelopraw?branch=master) interface. For Windows 7, Windows Imaging Component (WIC)WIC requires that all parameter interfaces exposed by [**IWICDevelopRaw**](/windows/win32/Wincodec/nn-wincodec-iwicdevelopraw?branch=master) be implemented.
 
 Orientation state support:
 
--   90 degree-step Image rotations should be applied by using the [**IWICDevelopRaw**](-wic-codec-iwicdevelopraw.md)::[**SetRotation**](-wic-codec-iwicdevelopraw-setrotation.md) method. Applications and Windows use this method to rotate the images (and cached thumbnails and previews).
+-   90 degree-step Image rotations should be applied by using the [**IWICDevelopRaw**](/windows/win32/Wincodec/nn-wincodec-iwicdevelopraw?branch=master)::[**SetRotation**](/windows/win32/Wincodec/nf-wincodec-iwicdevelopraw-setrotation?branch=master) method. Applications and Windows use this method to rotate the images (and cached thumbnails and previews).
 -   Application of rotation by using this API should also be persisted by the codec (see earlier in this paper).
--   Applications can use the rotation capabilities of the [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md) API, but the codec will not serialize any rotation settings on this API, so rotations done using [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md) will not be persisted.
+-   Applications can use the rotation capabilities of the [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master) API, but the codec will not serialize any rotation settings on this API, so rotations done using [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master) will not be persisted.
 
 High-speed thumbnail and preview extraction support. If the preview maximum pixel dimension (width or height) is less than 1024 pixels in size, Windows Vista will request a render for screen preview:
 
--   The [**IWICDevelopRaw**](-wic-codec-iwicdevelopraw.md)::[**SetRenderMode**](-wic-codec-iwicdevelopraw-setrendermode.md) method should support at least the [**WICRawRenderQualityDraftMode**](-wic-codec-wicrawrendermode.md) and [**WICRawRenderQualityBestQuality**](-wic-codec-wicrawrendermode.md) modes to allow faster rendering of thumbnails and previews than the full-quality mode.
--   Windows will call [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md)::[**CopyPixels**](-wic-codec-iwicbitmapsourcetransform-copypixels.md) with the requested screen resolution size.
+-   The [**IWICDevelopRaw**](/windows/win32/Wincodec/nn-wincodec-iwicdevelopraw?branch=master)::[**SetRenderMode**](/windows/win32/Wincodec/nf-wincodec-iwicdevelopraw-setrendermode?branch=master) method should support at least the [**WICRawRenderQualityDraftMode**](/windows/win32/Wincodec/ne-wincodec-wicrawrendermode?branch=master) and [**WICRawRenderQualityBestQuality**](/windows/win32/Wincodec/ne-wincodec-wicrawrendermode?branch=master) modes to allow faster rendering of thumbnails and previews than the full-quality mode.
+-   Windows will call [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master)::[**CopyPixels**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsourcetransform-copypixels?branch=master) with the requested screen resolution size.
 -   Screen resolution sizes must be supported in the above API.
--   Consistent image processing of thumbnail, preview, and full-image bits from [**CopyPixels**](-wic-codec-iwicbitmapsourcetransform-copypixels.md) is required.
+-   Consistent image processing of thumbnail, preview, and full-image bits from [**CopyPixels**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsourcetransform-copypixels?branch=master) is required.
 
 High dynamic range (HDR) pixel formats.
 

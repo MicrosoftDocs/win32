@@ -1,8 +1,33 @@
 ---
 title: DSP Plug-in Packaging
 description: DSP Plug-in Packaging
-ms.assetid: '5d40a39b-0fe8-4f77-9465-8e31d1f2708e'
-keywords: ["Windows Media Player plug-ins,Media Foundation pipeline", "plug-ins,Media Foundation pipeline", "digital signal processing plug-ins,Media Foundation pipeline", "DSP plug-ins,Media Foundation pipeline", "Media Foundation pipeline", "Windows Media Player plug-ins,DirectShow pipeline", "plug-ins,DirectShow pipeline", "digital signal processing plug-ins,DirectShow pipeline", "DSP plug-ins,DirectShow pipeline", "DirectShow pipeline", "digital signal processing plug-ins,basic", "DSP plug-ins,basic", "Windows Media Player plug-ins,basic DSP", "plug-ins,basic DSP", "basic DSP plug-ins", "Windows Media Player plug-ins,dual-mode DSP", "plug-ins,dual-mode DSP", "digital signal processing plug-ins,dual-mode", "DSP plug-ins,dual-mode", "dual-mode DSP plug-ins"]
+ms.assetid: 5d40a39b-0fe8-4f77-9465-8e31d1f2708e
+keywords:
+- Windows Media Player plug-ins,Media Foundation pipeline
+- plug-ins,Media Foundation pipeline
+- digital signal processing plug-ins,Media Foundation pipeline
+- DSP plug-ins,Media Foundation pipeline
+- Media Foundation pipeline
+- Windows Media Player plug-ins,DirectShow pipeline
+- plug-ins,DirectShow pipeline
+- digital signal processing plug-ins,DirectShow pipeline
+- DSP plug-ins,DirectShow pipeline
+- DirectShow pipeline
+- digital signal processing plug-ins,basic
+- DSP plug-ins,basic
+- Windows Media Player plug-ins,basic DSP
+- plug-ins,basic DSP
+- basic DSP plug-ins
+- Windows Media Player plug-ins,dual-mode DSP
+- plug-ins,dual-mode DSP
+- digital signal processing plug-ins,dual-mode
+- DSP plug-ins,dual-mode
+- dual-mode DSP plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DSP Plug-in Packaging

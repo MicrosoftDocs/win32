@@ -1,7 +1,12 @@
 ---
-Description: 'Used with the NCRYPT\_UI\_POLICY\_PROPERTY property to contain user interface information for a key.'
-ms.assetid: 'c567d8ba-3315-4316-8e09-93b2c10a55ec'
-title: 'NCRYPT\_UI\_POLICY\_BLOB structure'
+Description: Used with the NCRYPT\_UI\_POLICY\_PROPERTY property to contain user interface information for a key.
+ms.assetid: c567d8ba-3315-4316-8e09-93b2c10a55ec
+title: NCRYPT\_UI\_POLICY\_BLOB structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NCRYPT\_UI\_POLICY\_BLOB structure
@@ -48,7 +53,7 @@ A set of flags that provide additional user interface information or requirement
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -83,15 +88,15 @@ This structure is included in the Ncrypt\_provider.h header. To use the structur
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                          |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                          |
 | Header<br/>                   | <dl> <dt>Ncrypt\_provider.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

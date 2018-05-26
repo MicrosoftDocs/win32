@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a value that specifies that the RMS cluster supports a licensing service.'
+Description: Retrieves a value that specifies that the RMS cluster supports a licensing service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '69224df1-0bc3-4cc2-9f65-87a84901769d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 69224df1-0bc3-4cc2-9f65-87a84901769d
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Constants.ClusterTypeLicensing property'
+title: Constants.ClusterTypeLicensing property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Constants.ClusterTypeLicensing property
@@ -123,7 +126,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -138,9 +141,9 @@ END SUB
 [**ClusterTypeCertification**](constants-clustertypecertification-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,7 +2,14 @@
 title: Dealing with \ defines in IDL Files
 description: This page describes why symbols defined with a \ define disappear from the MIDL compiler generated H files, and what can be done about it. This explanation applies to any files processed by MIDL, such as \ .idl, \ .acf, \ .h files.
 ms.assetid: 148dabda-96cc-4f7c-abc7-4bf78ac166ea
-keywords: ["MIDL compiler MIDL , dealing with defines", "defines MIDL"]
+keywords:
+- MIDL compiler MIDL , dealing with defines
+- defines MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dealing with \#defines in IDL Files

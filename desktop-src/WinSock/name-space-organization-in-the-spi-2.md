@@ -1,7 +1,12 @@
 ---
-Description: 'Namespace organization in the Windows Sockets (Winsock) SPI.'
-ms.assetid: 'c369a476-23e4-48a1-912b-2d876deb0b88'
+Description: Namespace organization in the Windows Sockets (Winsock) SPI.
+ms.assetid: c369a476-23e4-48a1-912b-2d876deb0b88
 title: Namespace Organization in the SPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Namespace Organization in the SPI

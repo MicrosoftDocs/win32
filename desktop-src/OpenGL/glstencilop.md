@@ -1,8 +1,9 @@
 ---
 title: glStencilOp function
 description: The glStencilOp function sets the stencil test actions.
-ms.assetid: '16809735-5624-49cf-bfa5-9908d008b234'
-keywords: ["glStencilOp function OpenGL"]
+ms.assetid: 16809735-5624-49cf-bfa5-9908d008b234
+keywords:
+- glStencilOp function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glStencilOp function
@@ -22,9 +28,9 @@ The **glStencilOp** function sets the stencil test actions.
 
 ```C++
 void WINAPI glStencilOp(
-   GLenum fail,
-   GLenum zfail,
-   GLenum zpass
+   GLenum fail,
+   GLenum zfail,
+   GLenum zpass
 );
 ```
 
@@ -52,7 +58,7 @@ The action to take when the stencil test fails. The following six symbolic const
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -132,8 +138,8 @@ The following functions retrieve information related to **glStencilOp**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -171,9 +177,9 @@ The following functions retrieve information related to **glStencilOp**:
 [**glStencilFunc**](glstencilfunc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

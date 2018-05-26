@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following event properties.'
-ms.assetid: '672b75ac-cd47-4212-a505-c220ecdf98e3'
+Description: Windows Portable Devices supports the following event properties.
+ms.assetid: 672b75ac-cd47-4212-a505-c220ecdf98e3
 title: Event Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Properties
@@ -42,7 +47,7 @@ Windows Portable Devices supports the following event properties.
 <tr class="odd">
 <td><strong>WPD_EVENT_PARAMETER_OBJECT_CREATION_COOKIE</strong></td>
 <td><strong>VT_LPWSTR</strong></td>
-<td>The cookie handed back to a client when it requests an object creation by calling the [<strong>IPortableDeviceContent::CreateObjectWithPropertiesAndData</strong>](iportabledevicecontent-createobjectwithpropertiesanddata.md) method.This parameter is added as a convenience to help the caller tie an object-added event to the request it sent to create the object. The driver hands this cookie back as the <strong>WPD_PROPERTY_OBJECT_MANAGEMENT_CONTEXT</strong> return value when processing the <strong>WPD_COMMAND_OBJECT_MANAGEMENT_CREATE_OBJECT_WITH_PROPERTIES_AND_DATA</strong> command.<br/></td>
+<td>The cookie handed back to a client when it requests an object creation by calling the [<strong>IPortableDeviceContent::CreateObjectWithPropertiesAndData</strong>](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata?branch=master) method.This parameter is added as a convenience to help the caller tie an object-added event to the request it sent to create the object. The driver hands this cookie back as the <strong>WPD_PROPERTY_OBJECT_MANAGEMENT_CONTEXT</strong> return value when processing the <strong>WPD_COMMAND_OBJECT_MANAGEMENT_CREATE_OBJECT_WITH_PROPERTIES_AND_DATA</strong> command.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>WPD_EVENT_PARAMETER_OBJECT_PARENT_PERSISTENT_UNIQUE_ID</strong></td>
@@ -69,7 +74,7 @@ Windows Portable Devices supports the following event properties.
 <tr class="odd">
 <td><strong>WPD_EVENT_PARAMETER_PNP_DEVICE_ID</strong></td>
 <td><strong>VT_LPWSTR</strong></td>
-<td>A value that specifies the device that originated the event.This is the device or service identifier given by the Plug-and-Play (PnP) system, and is the same string used in the <strong>IPortableDevice::Open</strong>or [<strong>IPortableDeviceService::Open</strong>](iportabledeviceservice-open.md) methods.<br/></td>
+<td>A value that specifies the device that originated the event.This is the device or service identifier given by the Plug-and-Play (PnP) system, and is the same string used in the <strong>IPortableDevice::Open</strong>or [<strong>IPortableDeviceService::Open</strong>](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-open?branch=master) methods.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>WPD_EVENT_PARAMETER_SERVICE_METHOD_CONTEXT</strong></td>
@@ -81,7 +86,7 @@ Windows Portable Devices supports the following event properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -100,9 +105,9 @@ Windows Portable Devices supports the following event properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

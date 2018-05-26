@@ -1,14 +1,20 @@
 ---
 title: NetworkProfileName (settingsType) Element
 description: Contains the name of a network profile. The Task Scheduler service checks the availability of this network when the RunOnlyIfNetworkAvailable element is set to True. The name is used for display purposes.
-ms.assetid: 'f02dc75c-6c48-4a42-8263-13d9704b993c'
-keywords: ["NetworkProfileName element Task Scheduler"]
+ms.assetid: f02dc75c-6c48-4a42-8263-13d9704b993c
+keywords:
+- NetworkProfileName element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - NetworkProfileName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetworkProfileName (settingsType) Element
@@ -40,14 +46,14 @@ The **NetworkProfileName** element is defined by the [**settingsType**](tasksche
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: Associates two instances of MSFTSM\_RegisteredProfile where one of 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '336adfd9-57cd-40a0-b04c-7f18dc4a1f28'
-ms.prod: 'windows-server-dev'
+ms.assetid: 336adfd9-57cd-40a0-b04c-7f18dc4a1f28
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFTSM_ReferencedProfile class iSCSI Software Target API", "MSFTSM_ReferencedProfile class iSCSI Software Target API , described"]
+keywords:
+- MSFTSM_ReferencedProfile class iSCSI Software Target API
+- MSFTSM_ReferencedProfile class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFTSM\_ReferencedProfile class
@@ -89,7 +94,7 @@ This property is inherited from [**CIM\_ReferencedProfile**](https://msdn.micros
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\Interop<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -106,9 +111,9 @@ This property is inherited from [**CIM\_ReferencedProfile**](https://msdn.micros
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TransmissionStart property indicates the time that the inbound fax message began transmitting.'
-ms.assetid: '4db1cfed-a7ba-40f2-bb1b-e845b0708db4'
-title: 'FaxIncomingMessage.TransmissionStart property'
+---
+Description: The TransmissionStart property indicates the time that the inbound fax message began transmitting.
+ms.assetid: 4db1cfed-a7ba-40f2-bb1b-e845b0708db4
+title: FaxIncomingMessage.TransmissionStart property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.TransmissionStart property

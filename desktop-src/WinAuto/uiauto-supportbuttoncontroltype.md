@@ -1,8 +1,29 @@
 ---
 title: Button Control Type
 description: This topic provides information about Microsoft UI Automation support for the Button control type.
-ms.assetid: 'a2942067-461c-4281-80cf-385e3c08c874'
-keywords: ["UI Automation,support for Button control type", "UI Automation,Button control type", "UI Automation,tree structure for Button control type", "UI Automation,properties for Button control type", "UI Automation,control patterns for Button control type", "UI Automation,events for Button control type", "tree structures,Button control type", "properties,Button control type", "control patterns,Button control type", "events,Button control type", "support for Button control type", "Button control type", "control types,tree structure for Button control type", "control types,control patterns for Button control type", "control types,support for Button", "control types,Button"]
+ms.assetid: a2942067-461c-4281-80cf-385e3c08c874
+keywords:
+- UI Automation,support for Button control type
+- UI Automation,Button control type
+- UI Automation,tree structure for Button control type
+- UI Automation,properties for Button control type
+- UI Automation,control patterns for Button control type
+- UI Automation,events for Button control type
+- tree structures,Button control type
+- properties,Button control type
+- control patterns,Button control type
+- events,Button control type
+- support for Button control type
+- Button control type
+- control types,tree structure for Button control type
+- control types,control patterns for Button control type
+- control types,support for Button
+- control types,Button
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button Control Type
@@ -91,9 +112,9 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                                  | Support/Value | Notes                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IExpandCollapseProvider**](uiauto-iexpandcollapseprovider.md) | See notes.    | When a button is hosted as a child of a split button, the child button can support the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern instead of the [Invoke](uiauto-implementinginvoke.md) or [Toggle](uiauto-implementingtoggle.md) control pattern. The ExpandCollapse control pattern can be used for opening or closing a menu or other sub-structure associated with the button element. |
-| [**IInvokeProvider**](uiauto-iinvokeprovider.md)                 | See notes.    | All buttons should support the [Invoke](uiauto-implementinginvoke.md) control pattern or the [Toggle](uiauto-implementingtoggle.md) control pattern but not both. The Invoke control pattern must be supported when the button performs a command at the request of the user. This command maps to a single operation such as Cut, Copy, Paste, or Delete.                                                              |
-| [**IToggleProvider**](uiauto-itoggleprovider.md)                 | See notes.    | All buttons should support the [Invoke](uiauto-implementinginvoke.md) control pattern or the [Toggle](uiauto-implementingtoggle.md) control pattern but not both. The Toggle control pattern must be supported if the button can cycle through a series of up to three states. Typically this is seen as an on/off switch for specific features.                                                                        |
+| [**IExpandCollapseProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider?branch=master) | See notes.    | When a button is hosted as a child of a split button, the child button can support the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern instead of the [Invoke](uiauto-implementinginvoke.md) or [Toggle](uiauto-implementingtoggle.md) control pattern. The ExpandCollapse control pattern can be used for opening or closing a menu or other sub-structure associated with the button element. |
+| [**IInvokeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iinvokeprovider?branch=master)                 | See notes.    | All buttons should support the [Invoke](uiauto-implementinginvoke.md) control pattern or the [Toggle](uiauto-implementingtoggle.md) control pattern but not both. The Invoke control pattern must be supported when the button performs a command at the request of the user. This command maps to a single operation such as Cut, Copy, Paste, or Delete.                                                              |
+| [**IToggleProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itoggleprovider?branch=master)                 | See notes.    | All buttons should support the [Invoke](uiauto-implementinginvoke.md) control pattern or the [Toggle](uiauto-implementingtoggle.md) control pattern but not both. The Toggle control pattern must be supported if the button can cycle through a series of up to three states. Typically this is seen as an on/off switch for specific features.                                                                        |
 
 
 

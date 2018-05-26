@@ -1,13 +1,16 @@
 ---
-Description: 'A property provider retrieves and modifies individual property values for instances of a given class that is stored in the WMI repository.'
+Description: A property provider retrieves and modifies individual property values for instances of a given class that is stored in the WMI repository.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fe150157-cf9d-47da-8f94-b18eb0502bd8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fe150157-cf9d-47da-8f94-b18eb0502bd8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Writing a Property Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Writing a Property Provider
@@ -22,18 +25,18 @@ The following procedure describes how to create a property provider.
 
     Instance providers register with WMI by creating a [**\_\_Win32Provider**](--win32provider.md) instance and a [**\_\_PropertyProviderRegistration**](--propertyproviderregistration.md) class. For more information, see [Registering a Property Provider](registering-a-property-provider.md).
 
-2.  Implement the [**IWbemProviderInit**](iwbemproviderinit.md) interface for your provider.
+2.  Implement the [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) interface for your provider.
 
-    WMI uses [**IWbemProviderInit**](iwbemproviderinit.md) to load and initialize a provider. This is a task common to all providers. For more information, see [Initializing a Provider](initializing-a-provider.md).
+    WMI uses [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) to load and initialize a provider. This is a task common to all providers. For more information, see [Initializing a Provider](initializing-a-provider.md).
 
     > [!Note]  
     > Property providers are strongly encouraged to use the multithreading model "Both".
 
      
 
-3.  Implement the [**IWbemPropertyProvider**](iwbempropertyprovider.md) interface for your provider.
+3.  Implement the [**IWbemPropertyProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbempropertyprovider?branch=master) interface for your provider.
 
-    The [**IWbemPropertyProvider**](iwbempropertyprovider.md) interface is the primary interface for a property provider. The two main methods are [**GetProperty**](iwbempropertyprovider-getproperty.md) and [**PutProperty**](iwbempropertyprovider-putproperty.md). For more information, see [Implementing the Primary Interface for a Property Provider](implementing-the-primary-interface-for-a-property-provider.md).
+    The [**IWbemPropertyProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbempropertyprovider?branch=master) interface is the primary interface for a property provider. The two main methods are [**GetProperty**](/windows/win32/Wbemprov/nf-wbemprov-iwbempropertyprovider-getproperty?branch=master) and [**PutProperty**](/windows/win32/Wbemprov/nf-wbemprov-iwbempropertyprovider-putproperty?branch=master). For more information, see [Implementing the Primary Interface for a Property Provider](implementing-the-primary-interface-for-a-property-provider.md).
 
 4.  Add any additional code necessary for your provider.
 

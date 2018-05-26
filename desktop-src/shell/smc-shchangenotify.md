@@ -1,6 +1,11 @@
-﻿---
-Description: 'Notifies you that a change has taken place.'
-title: 'SMC\_SHCHANGENOTIFY message'
+---
+Description: Notifies you that a change has taken place.
+title: SMC\_SHCHANGENOTIFY message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMC\_SHCHANGENOTIFY message
@@ -23,7 +28,7 @@ SMC_SHCHANGENOTIFY
 *psmc* 
 </dt> <dd>
 
-A pointer to an [**SMCSHCHANGENOTIFYSTRUCT**](smcshchangenotifystruct.md) structure with information on the change.
+A pointer to an [**SMCSHCHANGENOTIFYSTRUCT**](/windows/win32/shobjidl_core/ns-shobjidl_core-shcschangenotifystruct?branch=master) structure with information on the change.
 
 </dd> </dl>
 
@@ -33,7 +38,7 @@ Return S\_OK.
 
 ## Remarks
 
-This notification is received by the [**IShellMenuCallback::CallbackSM**](ishellmenucallback-callbacksm.md) method.
+This notification is received by the [**IShellMenuCallback::CallbackSM**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm?branch=master) method.
 
 ## Requirements
 

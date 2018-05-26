@@ -1,7 +1,12 @@
-﻿---
-Description: 'Completes a decoded frame.'
-ms.assetid: '476f8bcc-2a93-430e-bda5-33102e36a35a'
+---
+Description: Completes a decoded frame.
+ms.assetid: 476f8bcc-2a93-430e-bda5-33102e36a35a
 title: NtGdiDdEndMoCompFrame function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdEndMoCompFrame function

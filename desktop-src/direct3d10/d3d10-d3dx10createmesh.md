@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a mesh object using a declarator.'
-ms.assetid: '50e09378-2935-4b18-8fc9-5e58eaadae44'
+---
+Description: Creates a mesh object using a declarator.
+ms.assetid: 50e09378-2935-4b18-8fc9-5e58eaadae44
 title: D3DX10CreateMesh function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CreateMesh function
@@ -33,18 +38,18 @@ HRESULT D3DX10CreateMesh(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](id3d10device.md)\***
+Type: **[**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)\***
 
-Pointer to an [**ID3D10Device Interface**](id3d10device.md), the device object to be associated with the mesh.
+Pointer to an [**ID3D10Device Interface**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master), the device object to be associated with the mesh.
 
 </dd> <dt>
 
 *pDeclaration* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_INPUT\_ELEMENT\_DESC**](d3d10-input-element-desc.md)\***
+Type: **const [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_input_element_desc?branch=master)\***
 
-Array of [**D3D10\_INPUT\_ELEMENT\_DESC**](d3d10-input-element-desc.md) elements, describing the vertex format for the returned mesh. This parameter must map directly to a flexible vertex format (FVF).
+Array of [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_input_element_desc?branch=master) elements, describing the vertex format for the returned mesh. This parameter must map directly to a flexible vertex format (FVF).
 
 </dd> <dt>
 

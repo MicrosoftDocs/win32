@@ -1,14 +1,20 @@
 ---
 title: Security (SystemPropertiesType) Element
 description: Identifies the user that logged the event.
-ms.assetid: 'f421b0c3-96ea-440c-a3b2-0ddd8f327eec'
-keywords: ["Security element EventLog"]
+ms.assetid: f421b0c3-96ea-440c-a3b2-0ddd8f327eec
+keywords:
+- Security element EventLog
 topic_type:
 - apiref
 api_name:
 - Security
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security (SystemPropertiesType) Element
@@ -44,8 +50,8 @@ The **Security** element is defined by the [**SystemPropertiesType**](eventschem
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -59,9 +65,9 @@ The **Security** element is defined by the [**SystemPropertiesType**](eventschem
 [**System (EventType)**](eventschema-system-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The XAPO API allows the creation of cross-platform audio processing objects (XAPO) for use in XAudio2 on both Windows and Xbox 360.'
-ms.assetid: '4fe88a0f-0234-462f-b575-e592f2c8401e'
+Description: The XAPO API allows the creation of cross-platform audio processing objects (XAPO) for use in XAudio2 on both Windows and Xbox 360.
+ms.assetid: 4fe88a0f-0234-462f-b575-e592f2c8401e
 title: XAPO Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAPO Overview
@@ -10,7 +15,7 @@ The XAPO API allows the creation of cross-platform audio processing objects (XAP
 
 ## Creating New XAPOs
 
-The XAPO API provides the [**IXAPO**](ixapo.md) interface and the [**CXAPOBase**](cxapobase.md) class for building new XAPO types. The **IXAPO** interface contains all of the methods that need to be implemented to create a new XAPO. The **CXAPOBase** class provides a basic implementation of the **IXAPO** interface. **CXAPOBase** implements all of the **IXAPO** interface methods except the [**IXAPO::Process**](ixapo-interface-process.md) method, which is unique to each XAPO.
+The XAPO API provides the [**IXAPO**](/windows/win32/XAPO/nn-xapo-ixapo?branch=master) interface and the [**CXAPOBase**](/windows/win32/XAPOBase/nl-xapobase-cxapobase?branch=master) class for building new XAPO types. The **IXAPO** interface contains all of the methods that need to be implemented to create a new XAPO. The **CXAPOBase** class provides a basic implementation of the **IXAPO** interface. **CXAPOBase** implements all of the **IXAPO** interface methods except the [**IXAPO::Process**](ixapo-interface-process.md) method, which is unique to each XAPO.
 
 For an example of creating a new XAPO, see [How to: Create an XAPO](how-to--create-an-xapo.md).
 
@@ -18,9 +23,9 @@ For an example of creating a XAPO that accepts run-time parameters, see [How to:
 
 ## XAPOs and COM
 
-XAPOs implement the **IUnknown** interface. The [**IXAPO**](ixapo.md) and [**IXAPOParameters**](ixapoparameters.md) interfaces include the three **IUnknown** methods: **QueryInterface**, **AddRef**, and **Release**. [**CXAPOBase**](cxapobase.md) provides implementations of all three of the IUnknown methods. A new instance of **CXAPOBase** will have a reference count of 1. It will be destroyed when its reference count becomes 0. Implementations of **IXAPO** and **IXAPOParameters** should follow the same pattern to allow for their proper management when used with XAudio2.
+XAPOs implement the **IUnknown** interface. The [**IXAPO**](/windows/win32/XAPO/nn-xapo-ixapo?branch=master) and [**IXAPOParameters**](/windows/win32/XAPO/nn-xapo-ixapoparameters?branch=master) interfaces include the three **IUnknown** methods: **QueryInterface**, **AddRef**, and **Release**. [**CXAPOBase**](/windows/win32/XAPOBase/nl-xapobase-cxapobase?branch=master) provides implementations of all three of the IUnknown methods. A new instance of **CXAPOBase** will have a reference count of 1. It will be destroyed when its reference count becomes 0. Implementations of **IXAPO** and **IXAPOParameters** should follow the same pattern to allow for their proper management when used with XAudio2.
 
-XAPO instances are passed to XAudio2 as **IUnknown** interfaces. XAudio2 uses **QueryInterface** to acquire an [**IXAPO**](ixapo.md) interface and to detect whether the XAPO implements the [**IXAPOParameters**](ixapoparameters.md) interface. Implementations of **IXAPO** must accept requests for **\_\_uuidof(IXAPO)**. If **IXAPOParameters** is implemented, it must also accept requests for **\_\_uuidof(IXAPOParameters)**.
+XAPO instances are passed to XAudio2 as **IUnknown** interfaces. XAudio2 uses **QueryInterface** to acquire an [**IXAPO**](/windows/win32/XAPO/nn-xapo-ixapo?branch=master) interface and to detect whether the XAPO implements the [**IXAPOParameters**](/windows/win32/XAPO/nn-xapo-ixapoparameters?branch=master) interface. Implementations of **IXAPO** must accept requests for **\_\_uuidof(IXAPO)**. If **IXAPOParameters** is implemented, it must also accept requests for **\_\_uuidof(IXAPOParameters)**.
 
 ## Using an XAPO in XAudio2
 

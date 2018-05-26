@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_PLAYLIST'
-ms.assetid: '4223970d-8c37-4326-a2df-bec558f8ac5e'
-title: 'WPD\_CONTENT\_TYPE\_PLAYLIST'
+Description: WPD\_CONTENT\_TYPE\_PLAYLIST
+ms.assetid: 4223970d-8c37-4326-a2df-bec558f8ac5e
+title: WPD\_CONTENT\_TYPE\_PLAYLIST
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_PLAYLIST

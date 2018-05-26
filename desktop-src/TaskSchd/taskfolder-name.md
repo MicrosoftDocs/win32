@@ -1,8 +1,11 @@
 ---
 title: TaskFolder.Name property
 description: For scripting, gets the name that is used to identify the folder that contains a task.
-ms.assetid: '092d1d40-e97a-44a3-aff0-41b2b6df8d6d'
-keywords: ["Name property Task Scheduler", "Name property Task Scheduler , TaskFolder object", "TaskFolder object Task Scheduler , Name property"]
+ms.assetid: 092d1d40-e97a-44a3-aff0-41b2b6df8d6d
+keywords:
+- Name property Task Scheduler
+- Name property Task Scheduler , TaskFolder object
+- TaskFolder object Task Scheduler , Name property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskFolder.Name property
@@ -36,8 +44,8 @@ The name that is used to identify the folder.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -50,9 +58,9 @@ The name that is used to identify the folder.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

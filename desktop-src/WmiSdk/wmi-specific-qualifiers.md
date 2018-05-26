@@ -1,13 +1,16 @@
 ---
-Description: 'WMI provides a number of additional qualifiers to further refine the provision of class instances and operations.'
+Description: WMI provides a number of additional qualifiers to further refine the provision of class instances and operations.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8e3f82b0-f05d-481a-8be1-648a91da5463'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8e3f82b0-f05d-481a-8be1-648a91da5463
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WMI-Specific Qualifiers'
+title: WMI-Specific Qualifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI-Specific Qualifiers

@@ -1,7 +1,12 @@
 ---
 title: Reusing Objects
 description: Reusing Objects
-ms.assetid: '07055fea-bdfe-4c7a-be07-2edcbf609dd9'
+ms.assetid: 07055fea-bdfe-4c7a-be07-2edcbf609dd9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reusing Objects

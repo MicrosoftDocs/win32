@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.click
 description: The click method calls the onclick event handler defined for the BUTTONELEMENT with the specified index.
-ms.assetid: 'a853e0a4-af4c-46c4-a3f7-d2a403eeb390'
-keywords: ["BUTTONGROUP.click Windows Media Player"]
+ms.assetid: a853e0a4-af4c-46c4-a3f7-d2a403eeb390
+keywords:
+- BUTTONGROUP.click Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.click
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.click
@@ -58,9 +64,9 @@ Use this method to provide an alternate means of running the code associated wit
 [**BUTTONELEMENT.index**](buttonelement-index.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

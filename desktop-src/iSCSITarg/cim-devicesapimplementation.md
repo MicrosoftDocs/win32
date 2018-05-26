@@ -4,13 +4,15 @@ description: An association between a ServiceAccessPoint (SAP) and how it is imp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2873fcfe-410c-41ca-afde-fb005071d9a0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2873fcfe-410c-41ca-afde-fb005071d9a0
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_DeviceSAPImplementation class iSCSI Software Target API", "CIM_DeviceSAPImplementation class iSCSI Software Target API , described"]
+keywords:
+- CIM_DeviceSAPImplementation class iSCSI Software Target API
+- CIM_DeviceSAPImplementation class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_DeviceSAPImplementation class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Version("2.10.0"), UMLPackagePath("CIM::Core::Device")]
 class CIM_DeviceSAPImplementation : CIM_Dependency
 {
-  CIM_LogicalDevice      REF Antecedent;
+  CIM_LogicalDevice      REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
 };
 ```
@@ -91,7 +96,7 @@ The ServiceAccessPoint implemented using the LogicalDevice.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -105,9 +110,9 @@ The ServiceAccessPoint implemented using the LogicalDevice.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

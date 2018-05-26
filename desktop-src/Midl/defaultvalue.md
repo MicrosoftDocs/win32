@@ -2,13 +2,19 @@
 title: defaultvalue attribute
 description: The \ defaultvalue\ attribute allows you to specify a default value for a typed optional parameter.
 ms.assetid: a974a0f7-7b08-4f17-bb28-0e23e6aa97db
-keywords: ["defaultvalue attribute MIDL"]
+keywords:
+- defaultvalue attribute MIDL
 topic_type:
 - apiref
 api_name:
 - defaultvalue
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # defaultvalue attribute

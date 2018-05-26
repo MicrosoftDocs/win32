@@ -1,8 +1,10 @@
 ---
 title: FNTSYSTYPE enumeration
 description: Do not use. Enumeration of system font types.
-ms.assetid: 'ad03e8d1-645a-40a0-b702-260a62b7e4c2'
-keywords: ["FNTSYSTYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: ad03e8d1-645a-40a0-b702-260a62b7e4c2
+keywords:
+- FNTSYSTYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FNTSYSTYPE enumeration
@@ -22,11 +29,11 @@ Do not use. Enumeration of system font types.
 
 ```C++
 typedef enum tagFNTSYSTYPE { 
-  FNT_SYS_ICON            = 0,
-  FNT_SYS_ICON_BOLD       = 1,
-  FNT_SYS_MENU            = 2,
-  FNT_SYS_ICON_STRIKEOUT  = 3,
-  FNT_SYS_LAST            = 4
+  FNT_SYS_ICON            = 0,
+  FNT_SYS_ICON_BOLD       = 1,
+  FNT_SYS_MENU            = 2,
+  FNT_SYS_ICON_STRIKEOUT  = 3,
+  FNT_SYS_LAST            = 4
 } ACCESSTYPE;
 ```
 
@@ -57,17 +64,17 @@ typedef enum tagFNTSYSTYPE {
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,18 @@ description: An object distinguished name changes if the object is renamed or mo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6c038005-3ecb-4c00-b1a3-a231d3aea64e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6c038005-3ecb-4c00-b1a3-a231d3aea64e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Using objectGUID to Bind to an Object AD", "objectGUID AD", "objectGUID AD , using to bind to an object", "Active Directory, using, binding, using objectGUID to bind to object"]
+keywords:
+- Using objectGUID to Bind to an Object AD
+- objectGUID AD
+- objectGUID AD , using to bind to an object
+- Active Directory, using, binding, using objectGUID to bind to object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using objectGUID to Bind to an Object

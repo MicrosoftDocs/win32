@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '97D8FEEA-B6D7-4AD7-A067-B503AF8F23FF'
-title: 'ROUTER\_NOTIFY\_CALLBACK callback function'
+---
+Description: .
+ms.assetid: 97D8FEEA-B6D7-4AD7-A067-B503AF8F23FF
+title: ROUTER\_NOTIFY\_CALLBACK callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ROUTER\_NOTIFY\_CALLBACK callback function

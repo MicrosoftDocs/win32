@@ -1,7 +1,12 @@
-﻿---
-Description: 'Cleans a mesh, preparing it for simplification.'
-ms.assetid: '2b586ecc-db87-4b20-a4fc-c8b547bebf65'
+---
+Description: Cleans a mesh, preparing it for simplification.
+ms.assetid: 2b586ecc-db87-4b20-a4fc-c8b547bebf65
 title: D3DXCleanMesh function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCleanMesh function

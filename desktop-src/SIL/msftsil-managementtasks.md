@@ -4,13 +4,15 @@ description: The MsftSil\_ManagementTasks WMI class retrieves and configures set
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a66c4ca8-0e8d-40b9-b626-f546ef7e11d9'
-ms.prod: 'windows-server-dev'
+ms.assetid: a66c4ca8-0e8d-40b9-b626-f546ef7e11d9
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MsftSil_ManagementTasks class Software Inventory Logging", "MsftSil_ManagementTasks class Software Inventory Logging , described"]
+keywords:
+- MsftSil_ManagementTasks class Software Inventory Logging
+- MsftSil_ManagementTasks class Software Inventory Logging , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - SILProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MsftSil\_ManagementTasks class
@@ -59,7 +64,7 @@ The **MsftSil\_ManagementTasks** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,7 +73,7 @@ The **MsftSil\_ManagementTasks** class has these methods.
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                          |
 | Namespace<br/>                | Root\\InventoryLogging<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>SILProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SILProvider.dll</dt> </dl> |
@@ -82,9 +87,9 @@ The **MsftSil\_ManagementTasks** class has these methods.
 [Software Inventory Logging WMI Data Provider Classes](software-inventory-logging-wmi-data-provider-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

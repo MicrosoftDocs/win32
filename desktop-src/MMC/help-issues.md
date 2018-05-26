@@ -4,10 +4,13 @@ description: Ensures that Help is available for the end users.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '84bdf3f8-0eaf-428d-8fa6-61fdc0e8c13f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 84bdf3f8-0eaf-428d-8fa6-61fdc0e8c13f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Help Issues

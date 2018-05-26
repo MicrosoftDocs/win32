@@ -1,8 +1,9 @@
 ---
 title: TB\_SETINDENT message
 description: Sets the indentation for the first button in a toolbar control.
-ms.assetid: '2d57cd1f-2bfa-4c6e-9581-9e8ab4b8196d'
-keywords: ["TB_SETINDENT message Windows Controls"]
+ms.assetid: 2d57cd1f-2bfa-4c6e-9581-9e8ab4b8196d
+keywords:
+- TB_SETINDENT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETINDENT message
@@ -41,15 +47,15 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

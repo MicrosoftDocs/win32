@@ -1,7 +1,12 @@
 ---
 Description: Specifying the Authentication Protocol
-ms.assetid: '2f469332-6b3e-475a-9ec6-782e1e445672'
+ms.assetid: 2f469332-6b3e-475a-9ec6-782e1e445672
 title: Specifying the Authentication Protocol
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying the Authentication Protocol

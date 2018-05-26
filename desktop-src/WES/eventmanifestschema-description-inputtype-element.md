@@ -1,14 +1,20 @@
 ---
 title: description (InputType) Element
 description: A description of the input type.
-ms.assetid: 'f7d534d6-3477-4868-ab94-d4713222acf2'
-keywords: ["description element EventLog"]
+ms.assetid: f7d534d6-3477-4868-ab94-d4713222acf2
+keywords:
+- description element EventLog
 topic_type:
 - apiref
 api_name:
 - description
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # description (InputType) Element
@@ -29,8 +35,8 @@ The **description** element is defined by the [**InputType**](eventmanifestschem
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **description** element is defined by the [**InputType**](eventmanifestschem
 [**inType (InputTypeListType)**](eventmanifestschema-intype-inputtypelisttype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

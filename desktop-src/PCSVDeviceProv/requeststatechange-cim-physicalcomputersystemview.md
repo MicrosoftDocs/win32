@@ -1,13 +1,16 @@
 ---
-Description: 'An extrinsic method for changing the state of this physical computer system.'
+Description: An extrinsic method for changing the state of this physical computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5365999f-3d7b-465a-aa3d-f82d47a9e20c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5365999f-3d7b-465a-aa3d-f82d47a9e20c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'RequestStateChange method of the CIM\_PhysicalComputerSystemView class'
+title: RequestStateChange method of the CIM\_PhysicalComputerSystemView class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the CIM\_PhysicalComputerSystemView class
@@ -19,9 +22,9 @@ An extrinsic method for changing the state of this physical computer system. Req
 
 ```mof
 uint32 RequestStateChange(
-  [in]      uint16              RequestedState,
-  [in, out] CIM_ConcreteJob REF Job,
-  [in]      datetime            TimeoutPeriod
+  [in]      uint16              RequestedState,
+  [in, out] CIM_ConcreteJob REF Job,
+  [in]      datetime            TimeoutPeriod
 );
 ```
 
@@ -106,14 +109,14 @@ See CIM\_ComputerSystem.RequestedStateChange.RequestedState for details.
 **DMTF Reserved**
 
 
-</dt> <dd>12–32767</dd> <dt>
+</dt> <dd>12 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Job* \[in, out\]
 </dt> <dd>
@@ -145,10 +148,10 @@ See CIM\_ComputerSystem.TimeoutPeriod for details.
 **Job Started** (4096)
 </dt> <dt>
 
-**DMTF Reserved** (4097–32767)
+**DMTF Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Reserved** (32768–65535)
+**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -157,8 +160,8 @@ See CIM\_ComputerSystem.TimeoutPeriod for details.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>Pcsvdevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVdevice.dll</dt> </dl> |
@@ -172,9 +175,9 @@ See CIM\_ComputerSystem.TimeoutPeriod for details.
 [**CIM\_PhysicalComputerSystemView**](cim-physicalcomputersystemview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

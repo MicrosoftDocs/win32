@@ -2,13 +2,19 @@
 title: notify attribute
 description: The \ notify\ attribute instructs the MIDL compiler to generate a call to a \ notify\ procedure on the server side of the application.
 ms.assetid: 24f9887b-04b7-491a-ab6e-7c078b967fbc
-keywords: ["notify attribute MIDL"]
+keywords:
+- notify attribute MIDL
 topic_type:
 - apiref
 api_name:
 - notify
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # notify attribute

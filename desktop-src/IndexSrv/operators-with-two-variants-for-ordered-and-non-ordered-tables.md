@@ -1,7 +1,12 @@
 ---
 title: Operators with Two Variants for Ordered and Non-Ordered Tables
 description: Operators with Two Variants for Ordered and Non-Ordered Tables
-ms.assetid: 'ff193501-d681-4cd7-8b63-aa602008beb5'
+ms.assetid: ff193501-d681-4cd7-8b63-aa602008beb5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operators with Two Variants for Ordered and Non-Ordered Tables

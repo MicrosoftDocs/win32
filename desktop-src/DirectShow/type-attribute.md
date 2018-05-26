@@ -1,7 +1,12 @@
 ---
-Description: 'The type attribute specifies the media type of a group.'
-ms.assetid: '72b1309d-a7a1-47dc-89c8-dbb83647cb74'
+Description: The type attribute specifies the media type of a group.
+ms.assetid: 72b1309d-a7a1-47dc-89c8-dbb83647cb74
 title: type Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # type Attribute

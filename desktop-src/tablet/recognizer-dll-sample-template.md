@@ -1,7 +1,12 @@
 ---
-Description: 'The Recognizer DLL sample contains a template for creating a recognizer DLL.'
-ms.assetid: 'e3bd219d-c593-4267-b77d-81fee7430a97'
+Description: The Recognizer DLL sample contains a template for creating a recognizer DLL.
+ms.assetid: e3bd219d-c593-4267-b77d-81fee7430a97
 title: Recognizer DLL Sample Template
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recognizer DLL Sample Template

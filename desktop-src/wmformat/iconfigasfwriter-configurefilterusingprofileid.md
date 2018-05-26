@@ -1,14 +1,22 @@
 ---
 title: IConfigAsfWriter ConfigureFilterUsingProfileId method
 description: The ConfigureFilterUsingProfileId method configures the filter to write an ASF file with a profile identifier (ID) index from the system profile list. (For Windows Media Format 4.0 profiles only.).
-ms.assetid: 'b0375785-83db-4540-aca9-7ba0bb81c1ef'
-keywords: ["ConfigureFilterUsingProfileId method windows Media Format", "ConfigureFilterUsingProfileId method windows Media Format , IConfigAsfWriter interface", "IConfigAsfWriter interface windows Media Format , ConfigureFilterUsingProfileId method"]
+ms.assetid: b0375785-83db-4540-aca9-7ba0bb81c1ef
+keywords:
+- ConfigureFilterUsingProfileId method windows Media Format
+- ConfigureFilterUsingProfileId method windows Media Format , IConfigAsfWriter interface
+- IConfigAsfWriter interface windows Media Format , ConfigureFilterUsingProfileId method
 topic_type:
 - apiref
 api_name:
 - IConfigAsfWriter.ConfigureFilterUsingProfileId
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IConfigAsfWriter::ConfigureFilterUsingProfileId method
@@ -20,7 +28,7 @@ The **ConfigureFilterUsingProfileId** method configures the filter to write an A
 
 ```C++
 HRESULT ConfigureFilterUsingProfileId(
-  [in] DWORD dwProfileId
+  [in] DWORD dwProfileId
 );
 ```
 
@@ -51,7 +59,7 @@ Returns one of the following **HRESULT** values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,12 +69,12 @@ This method is now obsolete because it assumes version 4.0 Windows Media Format 
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](iconfigasfwriter.md)
+[**IConfigAsfWriter Interface**](/windows/win32/dshowasf/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

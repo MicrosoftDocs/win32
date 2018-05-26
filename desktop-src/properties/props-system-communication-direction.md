@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether a communication was incoming or outgoing.'
-ms.assetid: 'b41f185b-f8b3-433b-9aed-8e71d59e4602'
-title: 'System.Communication.Direction'
+Description: Indicates whether a communication was incoming or outgoing.
+ms.assetid: b41f185b-f8b3-433b-9aed-8e71d59e4602
+title: System.Communication.Direction
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Communication.Direction

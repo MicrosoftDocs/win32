@@ -4,11 +4,14 @@ description: The maintenance mode state of a disk resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'aa39b401-bf18-48c5-83bb-e192efe1ef41'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: aa39b401-bf18-48c5-83bb-e192efe1ef41
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["MaintenanceMode property Failover Cluster", "MaintenanceMode property Failover Cluster , ClusResource interface", "ClusResource interface Failover Cluster , MaintenanceMode property"]
+keywords:
+- MaintenanceMode property Failover Cluster
+- MaintenanceMode property Failover Cluster , ClusResource interface
+- ClusResource interface Failover Cluster , MaintenanceMode property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResource::MaintenanceMode property
@@ -49,7 +55,7 @@ This property is read/write.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter with SP1, Windows Server 2008 Enterprise with SP1<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter with SP1, Windows Server 2008 Enterprise with SP1<br/> |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>         |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>       |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>       |
@@ -58,9 +64,9 @@ This property is read/write.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

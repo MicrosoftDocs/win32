@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServerEvents OnVMStateChange method
 description: Called when the state changes for any virtual machine.
-ms.assetid: 'd0c10b68-b215-4671-a8ea-b27a99726f18'
-keywords: ["OnVMStateChange method Virtual Server", "OnVMStateChange method Virtual Server , IVMVirtualServerEvents interface", "IVMVirtualServerEvents interface Virtual Server , OnVMStateChange method"]
+ms.assetid: d0c10b68-b215-4671-a8ea-b27a99726f18
+keywords:
+- OnVMStateChange method Virtual Server
+- OnVMStateChange method Virtual Server , IVMVirtualServerEvents interface
+- IVMVirtualServerEvents interface Virtual Server , OnVMStateChange method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServerEvents::OnVMStateChange method
@@ -22,8 +30,8 @@ The **OnVMStateChange** method is called when the state changes for any virtual 
 
 ```C++
 HRESULT OnVMStateChange(
-  [in] BSTR      virtualMachineConfig,
-  [in] VMVMState virtualMachineState
+  [in] BSTR      virtualMachineConfig,
+  [in] VMVMState virtualMachineState
 );
 ```
 
@@ -61,8 +69,8 @@ The client program must implement this interface method to receive notification 
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -77,9 +85,9 @@ The client program must implement this interface method to receive notification 
 [**VMVMState**](vmvmstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

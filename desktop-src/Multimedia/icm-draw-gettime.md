@@ -1,8 +1,9 @@
 ---
 title: ICM\_DRAW\_GETTIME message
 description: The ICM\_DRAW\_GETTIME message requests a rendering driver that controls the timing of drawing frames to return the current value of its internal clock. You can send this message explicitly or by using the ICDrawGetTime macro.
-ms.assetid: '77f0a322-c0bc-4cfe-a3d0-7633cf8d682a'
-keywords: ["ICM_DRAW_GETTIME message Windows Multimedia"]
+ms.assetid: 77f0a322-c0bc-4cfe-a3d0-7633cf8d682a
+keywords:
+- ICM_DRAW_GETTIME message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_DRAW\_GETTIME message
 
-The **ICM\_DRAW\_GETTIME** message requests a rendering driver that controls the timing of drawing frames to return the current value of its internal clock. You can send this message explicitly or by using the [**ICDrawGetTime**](icdrawgettime.md) macro.
+The **ICM\_DRAW\_GETTIME** message requests a rendering driver that controls the timing of drawing frames to return the current value of its internal clock. You can send this message explicitly or by using the [**ICDrawGetTime**](/windows/win32/Vfw/nf-vfw-icdrawgettime?branch=master) macro.
 
 
 ```C++
@@ -51,8 +57,8 @@ This message is generally supported by hardware that performs its own asynchrono
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -67,9 +73,9 @@ This message is generally supported by hardware that performs its own asynchrono
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

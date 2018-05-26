@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RefreshTargetList method refreshes the entire list of targets using all available discovery methods.'
-ms.assetid: 'eb1b9868-d2fd-44de-9e0e-93a06aeaccc1'
-title: 'RefreshTargetList method of the MSIscsiInitiator\_MethodClass class'
+---
+Description: The RefreshTargetList method refreshes the entire list of targets using all available discovery methods.
+ms.assetid: eb1b9868-d2fd-44de-9e0e-93a06aeaccc1
+title: RefreshTargetList method of the MSIscsiInitiator\_MethodClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RefreshTargetList method of the MSIscsiInitiator\_MethodClass class

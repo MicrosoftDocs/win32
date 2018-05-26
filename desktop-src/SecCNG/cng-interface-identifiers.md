@@ -1,7 +1,12 @@
 ---
-Description: 'The following identifiers are used to identify a CNG cryptographic interface.'
-ms.assetid: '509c89ff-0c73-4e57-9c39-400522f2086e'
+Description: The following identifiers are used to identify a CNG cryptographic interface.
+ms.assetid: 509c89ff-0c73-4e57-9c39-400522f2086e
 title: CNG Interface Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CNG Interface Identifiers
@@ -20,7 +25,7 @@ The following identifiers are used to identify a CNG cryptographic interface. In
 | <span id="BCRYPT_RNG_INTERFACE"></span><span id="bcrypt_rng_interface"></span><dl> <dt>**BCRYPT\_RNG\_INTERFACE**</dt> <dt>0x00000006</dt> </dl>                                                        | The random number generator interface.<br/>                                                                                                                                 |
 | <span id="NCRYPT_KEY_STORAGE_INTERFACE"></span><span id="ncrypt_key_storage_interface"></span><dl> <dt>**NCRYPT\_KEY\_STORAGE\_INTERFACE**</dt> <dt>0x00010001</dt> </dl>                               | The key storage interface.<br/>                                                                                                                                             |
 | <span id="NCRYPT_SCHANNEL_INTERFACE"></span><span id="ncrypt_schannel_interface"></span><dl> <dt>**NCRYPT\_SCHANNEL\_INTERFACE**</dt> <dt>0x00010002</dt> </dl>                                         | The Schannel signature interface.<br/>                                                                                                                                      |
-| <span id="NCRYPT_SCHANNEL_SIGNATURE_INTERFACE"></span><span id="ncrypt_schannel_signature_interface"></span><dl> <dt>**NCRYPT\_SCHANNEL\_SIGNATURE\_INTERFACE**</dt> <dt>0x00010003</dt> </dl>          | The Schannel cipher suite interface.<br/> **Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP and Windows 2000:** This value is not supported.<br/> |
+| <span id="NCRYPT_SCHANNEL_SIGNATURE_INTERFACE"></span><span id="ncrypt_schannel_signature_interface"></span><dl> <dt>**NCRYPT\_SCHANNEL\_SIGNATURE\_INTERFACE**</dt> <dt>0x00010003</dt> </dl>          | The Schannel cipher suite interface.<br/> **Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP and Windows 2000:** This value is not supported.<br/> |
 
 
 
@@ -30,15 +35,15 @@ The following identifiers are used to identify a CNG cryptographic interface. In
 
 |                                     |                                                                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                |
 | Header<br/>                   | <dl> <dt>Bcrypt.h; </dt> <dt>Ncrypt.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

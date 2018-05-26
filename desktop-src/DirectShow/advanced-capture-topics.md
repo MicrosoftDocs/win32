@@ -1,14 +1,19 @@
 ---
 Description: Advanced Capture Topics
-ms.assetid: '407702b2-5f4f-424d-a3ec-b0473e1b0da3'
+ms.assetid: 407702b2-5f4f-424d-a3ec-b0473e1b0da3
 title: Advanced Capture Topics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Capture Topics
 
-This section describes some advanced aspects of video capture in DirectShow. Most of the issues described in this section are automatically handled by the [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md) interface. However, the information here may be useful if you need to troubleshoot a video capture application. You should also read this section if your application builds a custom capture graph of some kind and you find that ICaptureGraphBuilder2 does not suit your needs. Finally, this section contains some information about using the Video Mixing Renderer (VMR) filter in a video capture application.
+This section describes some advanced aspects of video capture in DirectShow. Most of the issues described in this section are automatically handled by the [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master) interface. However, the information here may be useful if you need to troubleshoot a video capture application. You should also read this section if your application builds a custom capture graph of some kind and you find that ICaptureGraphBuilder2 does not suit your needs. Finally, this section contains some information about using the Video Mixing Renderer (VMR) filter in a video capture application.
 
-It is possible to build a video capture graph entirely using [**IGraphBuilder**](igraphbuilder.md) methods. You can also combine the two interfaces, using ICaptureGraphBuilder2 for some tasks and IGraphBuilder for others.
+It is possible to build a video capture graph entirely using [**IGraphBuilder**](/windows/win32/Strmif/nn-strmif-igraphbuilder?branch=master) methods. You can also combine the two interfaces, using ICaptureGraphBuilder2 for some tasks and IGraphBuilder for others.
 
 This section contains the following topics:
 

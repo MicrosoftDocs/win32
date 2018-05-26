@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer stores all database strings in a single shared string pool to reduce the size of the database and to improve performance.'
-ms.assetid: 'b627f3da-3545-4c1a-85b0-d8845fdac621'
-title: 'String-Pool Validation'
+Description: The Windows Installer stores all database strings in a single shared string pool to reduce the size of the database and to improve performance.
+ms.assetid: b627f3da-3545-4c1a-85b0-d8845fdac621
+title: String-Pool Validation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # String-Pool Validation
@@ -25,7 +30,7 @@ If there is a code page problem, the user may fix the error by using the \_Force
 
 To verify the reference counts of all strings, every table is scanned for string values, a count of each distinct string is kept, and the result is compared to the stored reference count in the database string pool.
 
-If there is a string reference count problem, the user should immediately export each table of the database using [**MsiDatabaseExport**](msidatabaseexport.md), create a new database, and import the tables into the new database using [**MsiDatabaseImport**](msidatabaseimport.md). The new database then has the same content as the old database, but the string reference counts are correct. Adding or deleting data from a database with a corrupt string pool can increase corruption of the database and loss of data, so taking these steps quickly is important to prevent further data loss.
+If there is a string reference count problem, the user should immediately export each table of the database using [**MsiDatabaseExport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseexporta?branch=master), create a new database, and import the tables into the new database using [**MsiDatabaseImport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseimporta?branch=master). The new database then has the same content as the old database, but the string reference counts are correct. Adding or deleting data from a database with a corrupt string pool can increase corruption of the database and loss of data, so taking these steps quickly is important to prevent further data loss.
 
 When rebuilding databases, remember to embed any necessary storages and streams in the new database (see [\_Streams Table](-streams-table.md) and [\_Storages Table](-storages-table.md)) and be aware of code page issues. Also remember to set each of the necessary [Summary Information Stream](summary-information-stream.md) properties.
 

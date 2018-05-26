@@ -1,14 +1,19 @@
 ---
-Description: 'An object's ACL can contain ACEs that it inherited from its parent container.'
-ms.assetid: 'a9e5ad4d-61c6-43ed-a162-460683bcdb16'
+Description: An objects ACL can contain ACEs that it inherited from its parent container.
+ms.assetid: a9e5ad4d-61c6-43ed-a162-460683bcdb16
 title: ACE Inheritance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACE Inheritance
 
 An object's ACL can contain ACEs that it inherited from its parent container. For example, a registry subkey can inherit ACEs from the key above it in the registry hierarchy. Likewise, a file in an NTFS file system can inherit ACEs from the directory that contains it.
 
-The [**ACE\_HEADER**](ace-header.md) structure of an ACE contains a set of inheritance flags that control ACE inheritance and the effect of an ACE on the object to which it is attached. The system interprets the inheritance flags and other inheritance information according to the [rules of ACE inheritance](ace-inheritance-rules.md).
+The [**ACE\_HEADER**](/windows/win32/Winnt/ns-winnt-_ace_header?branch=master) structure of an ACE contains a set of inheritance flags that control ACE inheritance and the effect of an ACE on the object to which it is attached. The system interprets the inheritance flags and other inheritance information according to the [rules of ACE inheritance](ace-inheritance-rules.md).
 
 These rules have been enhanced with the following features:
 

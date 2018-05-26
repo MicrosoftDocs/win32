@@ -1,7 +1,12 @@
 ---
-Description: 'A Microsoft DirectX effect enables the integration of vertex and pixel shaders with pipeline state to render objects. Effects are the next logical step in combining shaders to produce unique render conditions.'
-ms.assetid: 'e44fc38f-5b08-497a-a6e7-cfd64661ed30'
-title: 'Effects (Direct3D 9)'
+Description: A Microsoft DirectX effect enables the integration of vertex and pixel shaders with pipeline state to render objects. Effects are the next logical step in combining shaders to produce unique render conditions.
+ms.assetid: e44fc38f-5b08-497a-a6e7-cfd64661ed30
+title: Effects (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effects (Direct3D 9)

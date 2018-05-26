@@ -1,14 +1,17 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: 'noindex, nofollow'
+Robots: noindex, nofollow
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '55d423e3-e41d-414b-a47b-5651f3c9e7df'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 55d423e3-e41d-414b-a47b-5651f3c9e7df
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: I
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # I
@@ -27,7 +30,7 @@ The ability of a thread in one process to assume the security identity and privi
 <span id="wmi.gloss_instance_provider"></span><span id="WMI.GLOSS_INSTANCE_PROVIDER"></span>**instance provider**
 </dt> <dd>
 
-A COM server that supplies instances of classes and implements methods of the [**IWbemServices**](iwbemservices.md) interface to support data retrieval, modification, deletion, enumeration, or query processing.
+A COM server that supplies instances of classes and implements methods of the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) interface to support data retrieval, modification, deletion, enumeration, or query processing.
 
 </dd> <dt>
 

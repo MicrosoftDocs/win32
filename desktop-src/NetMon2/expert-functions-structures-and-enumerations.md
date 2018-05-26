@@ -1,7 +1,12 @@
 ---
-Description: 'This Expert Functions, Structures, and Enumerations section contains information about the functions, structures, and enumerations that only experts can use.'
-ms.assetid: 'd4078937-2899-43c8-81bf-9ee97ef7070b'
-title: 'Expert Functions, Structures, and Enumerations'
+Description: This Expert Functions, Structures, and Enumerations section contains information about the functions, structures, and enumerations that only experts can use.
+ms.assetid: d4078937-2899-43c8-81bf-9ee97ef7070b
+title: Expert Functions, Structures, and Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Expert Functions, Structures, and Enumerations

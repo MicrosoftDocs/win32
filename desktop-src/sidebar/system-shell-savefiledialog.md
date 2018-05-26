@@ -1,8 +1,11 @@
 ---
 title: System.Shell.saveFileDialog method
-description: Displays a standard Windows File Save dialog box.
-ms.assetid: 'e3fd8e4c-e4a9-401f-b6e7-a6bd71aedfe4'
-keywords: ["saveFileDialog method Windows Sidebar", "saveFileDialog method Windows Sidebar , System.Shell object", "System.Shell object Windows Sidebar , saveFileDialog method"]
+description: Displays a standard Windows File Save dialog box.
+ms.assetid: e3fd8e4c-e4a9-401f-b6e7-a6bd71aedfe4
+keywords:
+- saveFileDialog method Windows Sidebar
+- saveFileDialog method Windows Sidebar , System.Shell object
+- System.Shell object Windows Sidebar , saveFileDialog method
 topic_type:
 - apiref
 api_name:
@@ -11,13 +14,18 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.saveFileDialog method
 
 \[ The Windows Gadget Platform/Sidebar is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. \]
 
-Displays a standard Windows **File Save** dialog box.
+Displays a standard Windows **File Save** dialog box.
 
 ## Syntax
 
@@ -43,7 +51,7 @@ strRetVal = System.Shell.saveFileDialog(
 > [!Note]  
 > If an empty string is specified, the root directory is set to the users desktop (%USERPROFILE%\\Desktop).
 
- 
+ 
 
 </dd> <dt>
 
@@ -55,7 +63,7 @@ strRetVal = System.Shell.saveFileDialog(
 > [!Note]  
 > It may be necessary to substitute the '`:`' seperator with '`\0`' for the **Save as type:** listbox to function correctly.
 
- 
+ 
 
 </dd> </dl>
 
@@ -125,18 +133,18 @@ function SaveTextToFile(txtToSave)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'MSFT\_NetAdapterPowerManagement\_WakePattern\_WildCard defines settings for 'Wake on any Packet'.'
-ms.assetid: '9acf5453-117c-4621-90ca-eb55ad8b69d9'
-title: 'MSFT\_NetAdapterPowerManagement\_WakePattern\_WildCard class'
+Description: MSFT\_NetAdapterPowerManagement\_WakePattern\_WildCard defines settings for Wake on any Packet.
+ms.assetid: 9acf5453-117c-4621-90ca-eb55ad8b69d9
+title: MSFT\_NetAdapterPowerManagement\_WakePattern\_WildCard class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterPowerManagement\_WakePattern\_WildCard class
@@ -30,16 +35,16 @@ The **MSFT\_NetAdapterPowerManagement\_WakePattern\_WildCard** class does not de
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

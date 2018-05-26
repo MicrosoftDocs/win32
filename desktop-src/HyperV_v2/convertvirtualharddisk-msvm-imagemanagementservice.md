@@ -1,7 +1,12 @@
 ---
-Description: 'Converts an existing virtual hard disk to a different type or format.'
-ms.assetid: 'D4F3A030-D860-4569-B6CD-31661BD40D54'
-title: 'ConvertVirtualHardDisk method of the Msvm\_ImageManagementService class'
+Description: Converts an existing virtual hard disk to a different type or format.
+ms.assetid: D4F3A030-D860-4569-B6CD-31661BD40D54
+title: ConvertVirtualHardDisk method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConvertVirtualHardDisk method of the Msvm\_ImageManagementService class
@@ -13,9 +18,9 @@ Converts an existing virtual hard disk to a different type or format. This metho
 
 ```mof
 uint32 ConvertVirtualHardDisk(
-  [in]  string              SourcePath,
-  [in]  string              VirtualDiskSettingData,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              SourcePath,
+  [in]  string              VirtualDiskSettingData,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -204,8 +209,8 @@ public static void ConvertVirtualHardDisk(string sourcePath, string destinationP
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -225,9 +230,9 @@ public static void ConvertVirtualHardDisk(string sourcePath, string destinationP
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

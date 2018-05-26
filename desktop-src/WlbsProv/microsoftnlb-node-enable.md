@@ -4,13 +4,16 @@ description: Enables ports that have been disabled on the node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dc01e2fa-ad68-46be-bc1f-e52552c5d45e'
-ms.prod: 'windows-server-dev'
+ms.assetid: dc01e2fa-ad68-46be-bc1f-e52552c5d45e
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Enable method", "Enable method, MicrosoftNLB_Node class", "MicrosoftNLB_Node class, Enable method"]
+keywords:
+- Enable method
+- Enable method, MicrosoftNLB_Node class
+- MicrosoftNLB_Node class, Enable method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enable method of the MicrosoftNLB\_Node class
@@ -30,7 +36,7 @@ Enables ports that have been disabled on the [*node*](https://msdn.microsoft.com
 
 ```mof
 uint32 Enable(
-  [in] uint32 Port
+  [in] uint32 Port
 );
 ```
 
@@ -82,7 +88,7 @@ This method will fail if called on an instance of a [**MicrosoftNLB\_Node**](htt
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -102,9 +108,9 @@ This method will fail if called on an instance of a [**MicrosoftNLB\_Node**](htt
 [**EnableEx Method of the MicrosoftNLB\_Node Class**](microsoftnlb-node-enableex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

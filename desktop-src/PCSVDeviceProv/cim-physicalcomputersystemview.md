@@ -1,13 +1,16 @@
 ---
-Description: 'This class defines a view class for a physical computer system.'
+Description: This class defines a view class for a physical computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '44cbf854-70d0-4277-888c-cadd03e2630a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 44cbf854-70d0-4277-888c-cadd03e2630a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_PhysicalComputerSystemView class'
+title: CIM\_PhysicalComputerSystemView class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PhysicalComputerSystemView class
@@ -22,78 +25,78 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), Experimental, Version("2.35.0"), AMENDMENT]
 class CIM_PhysicalComputerSystemView : CIM_View
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
-  uint16  EnabledState;
-  uint16  RequestedState;
-  uint16  OperationalStatus[];
-  uint16  HealthState;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
+  uint16  EnabledState;
+  uint16  RequestedState;
+  uint16  OperationalStatus[];
+  uint16  HealthState;
   boolean FRUInfoSupported;
-  string  Tag;
-  string  Manufacturer;
-  string  Model;
-  string  SKU;
-  string  SerialNumber;
-  string  Version;
-  string  PartNumber;
-  uint16  PowerUtilizationModesSupported[];
-  uint16  PowerUtilizationMode;
-  uint64  PowerAllocationLimit;
-  string  NumericSensorElementName[];
-  uint16  NumericSensorEnabledState[];
-  uint16  NumericSensorHealthState[];
-  string  NumericSensorCurrentState[];
-  uint16  NumericSensorPrimaryStatus[];
-  uint16  NumericSensorBaseUnits[];
-  sint32  NumericSensorUnitModifier[];
-  uint16  NumericSensorRateUnits[];
-  sint32  NumericSensorCurrentReading[];
-  uint16  NumericSensorSensorType[];
-  string  NumericSensorOtherSensorTypeDescription[];
-  sint32  NumericSensorUpperThresholdNonCritical[];
-  sint32  NumericSensorUpperThresholdCritical[];
-  sint32  NumericSensorUpperThresholdFatal[];
-  string  LogInstanceID[];
-  uint64  LogMaxNumberOfRecords[];
-  uint64  LogCurrentNumberOfRecords[];
-  uint16  LogOverwritePolicy[];
-  uint16  LogState[];
-  string  StructuredBootString[];
-  uint8   PersistentBootConfigOrder[];
-  uint8   OneTimeBootSource;
-  uint16  NumberOfProcessors;
-  uint16  NumberOfProcessorCores;
-  uint16  NumberOfProcessorThreads;
-  uint16  ProcessorFamily;
-  uint32  ProcessorMaxClockSpeed;
-  uint64  MemoryBlockSize;
-  uint64  MemoryNumberOfBlocks;
-  uint64  MemoryConsumableBlocks;
-  uint16  CurrentBIOSMajorVersion;
-  uint16  CurrentBIOSMinorVersion;
-  uint16  CurrentBIOSRevisionNumber;
-  uint16  CurrentBIOSBuildNumber;
-  uint16  CurrentManagementFirmwareMajorVersion;
-  uint16  CurrentManagementFirmwareMinorVersion;
-  uint16  CurrentManagementFirmwareRevisionNumber;
-  uint16  CurrentManagementFirmwareBuildNumber;
-  string  CurrentManagementFirmwareElementName;
-  string  CurrentManagementFirmwareVersionString;
-  uint16  OSType;
-  string  OSVersion;
-  uint16  OSEnabledState;
-  string  CurrentBIOSVersionString;
-  uint16  Dedicated[];
-  string  IdentifyingDescriptions[];
-  string  OtherDedicatedDescriptions[];
-  string  OtherIdentifyingInfo[];
-  uint32  ProcessorCurrentClockSpeed;
-  string  NumericSensorContext[];
-  sint32  NumericSensorLowerThresholdNonCritical[];
-  sint32  NumericSensorLowerThresholdCritical[];
-  sint32  NumericSensorLowerThresholdFatal[];
+  string  Tag;
+  string  Manufacturer;
+  string  Model;
+  string  SKU;
+  string  SerialNumber;
+  string  Version;
+  string  PartNumber;
+  uint16  PowerUtilizationModesSupported[];
+  uint16  PowerUtilizationMode;
+  uint64  PowerAllocationLimit;
+  string  NumericSensorElementName[];
+  uint16  NumericSensorEnabledState[];
+  uint16  NumericSensorHealthState[];
+  string  NumericSensorCurrentState[];
+  uint16  NumericSensorPrimaryStatus[];
+  uint16  NumericSensorBaseUnits[];
+  sint32  NumericSensorUnitModifier[];
+  uint16  NumericSensorRateUnits[];
+  sint32  NumericSensorCurrentReading[];
+  uint16  NumericSensorSensorType[];
+  string  NumericSensorOtherSensorTypeDescription[];
+  sint32  NumericSensorUpperThresholdNonCritical[];
+  sint32  NumericSensorUpperThresholdCritical[];
+  sint32  NumericSensorUpperThresholdFatal[];
+  string  LogInstanceID[];
+  uint64  LogMaxNumberOfRecords[];
+  uint64  LogCurrentNumberOfRecords[];
+  uint16  LogOverwritePolicy[];
+  uint16  LogState[];
+  string  StructuredBootString[];
+  uint8   PersistentBootConfigOrder[];
+  uint8   OneTimeBootSource;
+  uint16  NumberOfProcessors;
+  uint16  NumberOfProcessorCores;
+  uint16  NumberOfProcessorThreads;
+  uint16  ProcessorFamily;
+  uint32  ProcessorMaxClockSpeed;
+  uint64  MemoryBlockSize;
+  uint64  MemoryNumberOfBlocks;
+  uint64  MemoryConsumableBlocks;
+  uint16  CurrentBIOSMajorVersion;
+  uint16  CurrentBIOSMinorVersion;
+  uint16  CurrentBIOSRevisionNumber;
+  uint16  CurrentBIOSBuildNumber;
+  uint16  CurrentManagementFirmwareMajorVersion;
+  uint16  CurrentManagementFirmwareMinorVersion;
+  uint16  CurrentManagementFirmwareRevisionNumber;
+  uint16  CurrentManagementFirmwareBuildNumber;
+  string  CurrentManagementFirmwareElementName;
+  string  CurrentManagementFirmwareVersionString;
+  uint16  OSType;
+  string  OSVersion;
+  uint16  OSEnabledState;
+  string  CurrentBIOSVersionString;
+  uint16  Dedicated[];
+  string  IdentifyingDescriptions[];
+  string  OtherDedicatedDescriptions[];
+  string  OtherIdentifyingInfo[];
+  uint32  ProcessorCurrentClockSpeed;
+  string  NumericSensorContext[];
+  sint32  NumericSensorLowerThresholdNonCritical[];
+  sint32  NumericSensorLowerThresholdCritical[];
+  sint32  NumericSensorLowerThresholdFatal[];
 };
 ```
 
@@ -120,7 +123,7 @@ The **CIM\_PhysicalComputerSystemView** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -618,14 +621,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>39–32767</dd> <dt>
+</dt> <dd>39 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -757,14 +760,14 @@ This property corresponds to the EnabledState property of the logical computer s
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -854,14 +857,14 @@ This property corresponds to the HealthState property of the logical computer sy
 **DMTF Reserved**
 
 
-</dt> <dd>31–32767</dd> <dt>
+</dt> <dd>31 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -989,14 +992,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>8–32767</dd> <dt>
+</dt> <dd>8 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1051,14 +1054,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1679,7 +1682,7 @@ The possible values are.
 **Reserved**
 
 
-</dt> <dd>67–65535</dd> </dl>
+</dt> <dd>67 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1847,14 +1850,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1930,14 +1933,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>31–32767</dd> <dt>
+</dt> <dd>31 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2056,14 +2059,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2160,7 +2163,7 @@ The possible values are.
 **Reserved**
 
 
-</dt> <dd>10–65535</dd> </dl>
+</dt> <dd>10 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2299,14 +2302,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>16–32767</dd> <dt>
+</dt> <dd>16 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2548,14 +2551,14 @@ This property corresponds to the OperationalStatus property of the logical compu
 **DMTF Reserved**
 
 
-</dt> <dd>20–32767</dd> <dt>
+</dt> <dd>20 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2659,14 +2662,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2824,14 +2827,14 @@ This property corresponds to the PowerUtilizationMode of the CIM\_PowerUtilizati
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2870,14 +2873,14 @@ This property corresponds to PowerUtilizationModesSupported property of CIM\_Pow
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -3034,14 +3037,14 @@ This property corresponds to the RequestedState property of the logical computer
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -3131,17 +3134,17 @@ This property corresponds to CIM\_PhysicalFrame.Version. See CIM\_PhysicalFrame.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>Pcsvdevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVdevice.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Core Audio Constants
-ms.assetid: '9dc9f182-3adf-4171-8829-35debae123da'
+ms.assetid: 9dc9f182-3adf-4171-8829-35debae123da
 title: Core Audio Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Core Audio Constants
@@ -17,7 +22,7 @@ This section describes the constants that are used by the Core Audio APIs in Win
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -26,9 +31,9 @@ This section describes the constants that are used by the Core Audio APIs in Win
 [Programming Reference](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

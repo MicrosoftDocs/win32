@@ -4,13 +4,15 @@ description: Describes a subset of Common Information Model (CIM) classes, prope
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9b3f2647-faa6-48f2-ac97-f455824d5dd3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9b3f2647-faa6-48f2-ac97-f455824d5dd3
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFTSM_RegisteredSubProfile class iSCSI Software Target API", "MSFTSM_RegisteredSubProfile class iSCSI Software Target API , described"]
+keywords:
+- MSFTSM_RegisteredSubProfile class iSCSI Software Target API
+- MSFTSM_RegisteredSubProfile class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFTSM\_RegisteredSubProfile class
@@ -60,7 +65,7 @@ The **MSFTSM\_RegisteredSubProfile** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -69,7 +74,7 @@ The **MSFTSM\_RegisteredSubProfile** class has these methods.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\Interop<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -86,9 +91,9 @@ The **MSFTSM\_RegisteredSubProfile** class has these methods.
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

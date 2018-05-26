@@ -1,7 +1,12 @@
 ---
-Description: 'Several of the network provider functions take the address and size of a buffer into which the function places a variable-sized data structure.'
-ms.assetid: '0029a04d-6cf2-40e1-ae1d-4c349a379ad7'
+Description: Several of the network provider functions take the address and size of a buffer into which the function places a variable-sized data structure.
+ms.assetid: 0029a04d-6cf2-40e1-ae1d-4c349a379ad7
 title: Handling Buffered Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Buffered Data

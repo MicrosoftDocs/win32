@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_FrameRate method retrieves the frame rate of the current stream. The stream must be a video stream.'
-ms.assetid: 'f128d118-1147-4a0a-946e-bd1716606cef'
-title: 'IMediaDet::get\_FrameRate method'
+---
+Description: The get\_FrameRate method retrieves the frame rate of the current stream. The stream must be a video stream.
+ms.assetid: f128d118-1147-4a0a-946e-bd1716606cef
+title: IMediaDetget\_FrameRate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaDet::get\_FrameRate method

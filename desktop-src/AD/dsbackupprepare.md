@@ -4,11 +4,12 @@ description: Prepares the directory on the specified server for the online backu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '18c6dbcf-b707-4674-9af5-40f2178e6d2b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 18c6dbcf-b707-4674-9af5-40f2178e6d2b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DsBackupPrepare function Active Directory"]
+keywords:
+- DsBackupPrepare function Active Directory
 topic_type:
 - apiref
 api_name:
@@ -19,11 +20,14 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DsBackupPrepare function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
 
 The **DsBackupPrepare** function prepares the directory on the specified server for the online backup and returns a backup context handle used in subsequent calls to other backup functions.
 
@@ -32,12 +36,12 @@ The **DsBackupPrepare** function prepares the directory on the specified server 
 
 ```C++
 HRESULT DsBackupPrepare(
-  _In_  LPCTSTR szBackupServer,
-  _In_  ULONG   grbit,
-  _In_  ULONG   btBackupType,
-  _Out_ PVOID   *ppvExpiryToken,
-  _Out_ LPDWORD pcbExpiryTokenSize,
-  _Out_ HBC     *phbc
+  _In_  LPCTSTR szBackupServer,
+  _In_  ULONG   grbit,
+  _In_  ULONG   btBackupType,
+  _Out_ PVOID   *ppvExpiryToken,
+  _Out_ LPDWORD pcbExpiryTokenSize,
+  _Out_ HBC     *phbc
 );
 ```
 
@@ -180,8 +184,8 @@ This function requires that the caller has the **SE\_BACKUP\_NAME** privilege. T
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Ntdsbcli.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Ntdsbcli.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdsbcli.dll</dt> </dl> |
@@ -214,9 +218,9 @@ This function requires that the caller has the **SE\_BACKUP\_NAME** privilege. T
 [Directory Backup Functions](directory-backup-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

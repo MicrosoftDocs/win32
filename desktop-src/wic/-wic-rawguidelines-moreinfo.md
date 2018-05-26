@@ -1,7 +1,12 @@
 ---
 Description: For More Information
-ms.assetid: '63f99cf6-809c-48b9-9b89-6154d026b262'
+ms.assetid: 63f99cf6-809c-48b9-9b89-6154d026b262
 title: For More Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # For More Information

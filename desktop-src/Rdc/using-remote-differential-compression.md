@@ -4,11 +4,15 @@ description: The following sections describe the basic tasks and guidelines for 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7b19a63c-9c49-4516-9329-35fcd2d83333'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-differential-compression'
+ms.assetid: 7b19a63c-9c49-4516-9329-35fcd2d83333
+ms.prod: windows-server-dev
+ms.technology: remote-differential-compression
 ms.tgt_platform: multiple
-keywords: ["Remote Differential Compression Files , using"]
+keywords:
+- Remote Differential Compression Files , using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Remote Differential Compression

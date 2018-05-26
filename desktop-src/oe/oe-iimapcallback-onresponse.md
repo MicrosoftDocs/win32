@@ -1,8 +1,11 @@
 ---
 title: IIMAPCallback OnResponse method
 description: Called by the Internet Message Access Protocol (IMAP) transport interface when a command response or an unsolicited response is received from the IMAP server.
-ms.assetid: 'c47e2d7f-ac0e-484e-82cb-63a5684a8e2c'
-keywords: ["OnResponse method Windows Mail (formerly Outlook Express)", "OnResponse method Windows Mail (formerly Outlook Express) , IIMAPCallback interface", "IIMAPCallback interface Windows Mail (formerly Outlook Express) , OnResponse method"]
+ms.assetid: c47e2d7f-ac0e-484e-82cb-63a5684a8e2c
+keywords:
+- OnResponse method Windows Mail (formerly Outlook Express)
+- OnResponse method Windows Mail (formerly Outlook Express) , IIMAPCallback interface
+- IIMAPCallback interface Windows Mail (formerly Outlook Express) , OnResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIMAPCallback::OnResponse method
@@ -24,7 +32,7 @@ Called by the Internet Message Access Protocol (IMAP) transport interface when a
 
 ```C++
 HRESULT OnResponse(
-  [in] const IMAP_RESPONSE *pirIMAPResponse
+  [in] const IMAP_RESPONSE *pirIMAPResponse
 );
 ```
 
@@ -55,8 +63,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -64,9 +72,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

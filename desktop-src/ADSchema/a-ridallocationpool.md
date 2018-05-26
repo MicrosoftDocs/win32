@@ -4,17 +4,22 @@ description: A pool that was prefetched for use by the RID manager when the RID-
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6d49b497-322f-424c-badc-4801f51481f3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6d49b497-322f-424c-badc-4801f51481f3
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["RID-Allocation-Pool attribute AD Schema", "rIDAllocationPool attribute AD Schema"]
+keywords:
+- RID-Allocation-Pool attribute AD Schema
+- rIDAllocationPool attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - RID-Allocation-Pool
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RID-Allocation-Pool attribute
@@ -38,12 +43,12 @@ A pool that was prefetched for use by the RID manager when the RID-Previous-Allo
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ A pool that was prefetched for use by the RID manager when the RID-Previous-Allo
 
 
 
- 
+ 
 
- 
+ 
 
 
 

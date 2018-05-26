@@ -1,8 +1,11 @@
 ---
 title: IMessenger MySigninName property
-description: IMessenger MySigninName is no longer available for use as of Windows Vista.
-ms.assetid: 'f28850d2-929b-4f56-b448-5db56d2a8f76'
-keywords: ["MySigninName property Windows Messenger", "MySigninName property Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , MySigninName property"]
+description: IMessenger MySigninName is no longer available for use as of Windows Vista.
+ms.assetid: f28850d2-929b-4f56-b448-5db56d2a8f76
+keywords:
+- MySigninName property Windows Messenger
+- MySigninName property Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , MySigninName property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::MySigninName property
 
-\[**IMessenger::MySigninName** is no longer available for use as of Windows Vista. For more information, see [Windows Messenger](im-messenger-entry.md).\]
+\[**IMessenger::MySigninName** is no longer available for use as of Windows Vista. For more information, see [Windows Messenger](im-messenger-entry.md).\]
 
 Sign-in name. Use [**MySigninName**](im-imessengerservice-mysigninname.md) instead. To return a list of [**MessengerService**](im-messengerservice.md) objects, use the [**Services**](im-imessenger-services.md) property.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MySigninName(
-  [out, retval] BSTR *pbstrName
+  [out, retval] BSTR *pbstrName
 );
 ```
 
@@ -62,7 +70,7 @@ The Microsoft .NET Messenger Service client can potentially be signed in to mult
 > [!Note]  
 > This property is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -70,10 +78,10 @@ The Microsoft .NET Messenger Service client can potentially be signed in to mult
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -90,9 +98,9 @@ The Microsoft .NET Messenger Service client can potentially be signed in to mult
 [**MySigninName**](im-imessengerservice-mysigninname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

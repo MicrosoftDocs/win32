@@ -1,8 +1,10 @@
 ---
 title: Win32\_RoamingProfileBackgroundUploadParams class
 description: Represents a roaming profile background upload operation.
-ms.assetid: '3cb2b0ed-708d-4df4-96b0-48ab21e2e9eb'
-keywords: ["Win32_RoamingProfileBackgroundUploadParams class User State Manageability API", "Win32_RoamingProfileBackgroundUploadParams class User State Manageability API , described"]
+ms.assetid: 3cb2b0ed-708d-4df4-96b0-48ab21e2e9eb
+keywords:
+- Win32_RoamingProfileBackgroundUploadParams class User State Manageability API
+- Win32_RoamingProfileBackgroundUploadParams class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_RoamingProfileBackgroundUploadParams class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_RoamingProfileBackgroundUploadParams
 {
-  uint8  SchedulingMethod;
+  uint8  SchedulingMethod;
   uint16 Interval;
   uint16 Time;
 };
@@ -81,7 +88,7 @@ Indicates when a background upload should be performed. One of the following val
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -107,16 +114,16 @@ The time of day. Must be an integer value from 0 to 23.
 
 |                                     |                                                                                                                    |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                               |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                               |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                             |
 | MOF<br/>                      | <dl> <dt>UserProfileConfigurationWmiProvider.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

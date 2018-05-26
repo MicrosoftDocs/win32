@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemObject object exposes the following methods.'
+Description: The SWbemObject object exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'F1534655-488C-4C78-BFE3-B7477149458B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: F1534655-488C-4C78-BFE3-B7477149458B
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemObject Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject Methods

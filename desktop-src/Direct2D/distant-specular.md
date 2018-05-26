@@ -1,8 +1,14 @@
 ---
 title: Distant-specular lighting effect
 description: Use the distant-specular lighting effect to create an image that appears to be a reflective surface where the light source appears to be coming from a long distance (like the sun or overhead lights).
-ms.assetid: '74D71A2D-8D1D-4FDE-898A-2D2F5A8D5D31'
-keywords: ["distant specular lighting"]
+ms.assetid: 74D71A2D-8D1D-4FDE-898A-2D2F5A8D5D31
+keywords:
+- distant specular lighting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Distant-specular lighting effect
@@ -60,13 +66,13 @@ where Light?, Light<sub>y</sub>, and Light<sub>z</sub> are the input light posit
 | SpecularExponent<br/> D2D1\_DISTANTSPECULAR\_PROP\_SPECULAR\_EXPONENT<br/>   | The exponent for the specular term in the Phong lighting equation. A larger value corresponds to a more reflective surface. The value is unitless and must be between 1.0 and 128. The type is FLOAT.<br/> The default value is 1.0f.<br/>                                                                                                                                                                                          |
 | SpecularConstant<br/> D2D1\_DISTANTSPECULAR\_PROP\_SPECULAR\_CONSTANT<br/>   | The ratio of specular reflection to the incoming light. The value is unitless and must be between 0 and 10,000. The type is FLOAT.<br/> The default value is 1.0f.<br/>                                                                                                                                                                                                                                                             |
 | SurfaceScale<br/> D2D1\_DISTANTSPECULAR\_PROP\_SURFACE\_SCALE<br/>           | The scale factor in the Z direction. The value is unitless and must be between 0 and 10,000. The type is FLOAT.<br/> The default value is 1.0f.<br/>                                                                                                                                                                                                                                                                                |
-| Color<br/> D2D1\_DISTANTSPECULAR\_PROP\_COLOR<br/>                           | The color of the incoming light. This property is exposed as a D2D1\_VECTOR\_3F – (R, G, B) and used to compute L<sub>R</sub>, L<sub>G</sub>, L<sub>B</sub>. The type is D2D1\_VECTOR\_3F.<br/> The default value is {1.0f, 1.0f, 1.0f}.<br/>                                                                                                                                                                                       |
+| Color<br/> D2D1\_DISTANTSPECULAR\_PROP\_COLOR<br/>                           | The color of the incoming light. This property is exposed as a D2D1\_VECTOR\_3F   (R, G, B) and used to compute L<sub>R</sub>, L<sub>G</sub>, L<sub>B</sub>. The type is D2D1\_VECTOR\_3F.<br/> The default value is {1.0f, 1.0f, 1.0f}.<br/>                                                                                                                                                                                       |
 | KernelUnitLength<br/> D2D1\_DISTANTSPECULAR\_PROP\_KERNEL\_UNIT\_LENGTH<br/> | The size of an element in the Sobel kernel used to generate the surface normal in the X and Y direction. This property is a D2D1\_VECTOR\_2F (Kernel Unit Length X, Kernel Unit Length Y) and is defined in (device-independent pixels (DIPs)/Kernel Unit). The effect uses bilinear interpolation to scale the bitmap to match size of kernel elements. The type is D2D1\_VECTOR\_2F.<br/> The default value is {1.0f, 1.0f}.<br/> |
 | ScaleMode<br/> D2D1\_DISTANTSPECULAR\_PROP\_SCALE\_MODE<br/>                 | The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.<br/> The type is D2D1\_DISTANTSPECULAR\_SCALE\_MODE.<br/> The default value is D2D1\_DISTANTSPECULAR\_SCALE\_MODE\_LINEAR.<br/>                                                                                                                                 |
 
 
 
- 
+ 
 
 ## Scale modes
 
@@ -83,12 +89,12 @@ where Light?, Light<sub>y</sub>, and Light<sub>z</sub> are the input light posit
 
 
 
- 
+ 
 
 > [!Note]  
 > If you don't select a mode, the effect defaults to D2D1\_DISTANTSPECULAR\_SCALE\_MODE\_LINEAR.
 
- 
+ 
 
 ## Sample code
 
@@ -100,25 +106,25 @@ For an example of this effect, download the [Direct2D lighting effects sample](h
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

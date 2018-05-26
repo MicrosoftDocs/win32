@@ -1,8 +1,24 @@
 ---
 title: Allocating and Preparing MIDI Data Blocks
 description: Allocating and Preparing MIDI Data Blocks
-ms.assetid: 'b3a70441-e8f9-4886-bf22-426ebd74d045'
-keywords: ["Musical Instrument Digital Interface (MIDI),allocating data blocks", "MIDI (Musical Instrument Digital Interface),allocating data blocks", "MIDI services,allocating data blocks", "allocating MIDI data blocks", "Musical Instrument Digital Interface (MIDI),preparing data blocks", "MIDI (Musical Instrument Digital Interface),preparing data blocks", "MIDI services,preparing data blocks", "preparing MIDI data blocks", "Musical Instrument Digital Interface (MIDI),data blocks", "MIDI (Musical Instrument Digital Interface),data blocks", "MIDI services,data blocks"]
+ms.assetid: b3a70441-e8f9-4886-bf22-426ebd74d045
+keywords:
+- Musical Instrument Digital Interface (MIDI),allocating data blocks
+- MIDI (Musical Instrument Digital Interface),allocating data blocks
+- MIDI services,allocating data blocks
+- allocating MIDI data blocks
+- Musical Instrument Digital Interface (MIDI),preparing data blocks
+- MIDI (Musical Instrument Digital Interface),preparing data blocks
+- MIDI services,preparing data blocks
+- preparing MIDI data blocks
+- Musical Instrument Digital Interface (MIDI),data blocks
+- MIDI (Musical Instrument Digital Interface),data blocks
+- MIDI services,data blocks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Allocating and Preparing MIDI Data Blocks

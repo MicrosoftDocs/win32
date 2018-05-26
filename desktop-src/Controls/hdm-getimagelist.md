@@ -1,8 +1,9 @@
 ---
 title: HDM\_GETIMAGELIST message
 description: Gets the handle to the image list that has been set for an existing header control. You can send this message explicitly or use the Header\_GetImageList or Header\_GetStateImageList macro.
-ms.assetid: '3e1a979c-60c5-4538-bd4d-16238829062e'
-keywords: ["HDM_GETIMAGELIST message Windows Controls"]
+ms.assetid: 3e1a979c-60c5-4538-bd4d-16238829062e
+keywords:
+- HDM_GETIMAGELIST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_GETIMAGELIST message
 
-Gets the handle to the image list that has been set for an existing header control. You can send this message explicitly or use the [**Header\_GetImageList**](header-getimagelist.md) or [**Header\_GetStateImageList**](header-getstateimagelist.md) macro.
+Gets the handle to the image list that has been set for an existing header control. You can send this message explicitly or use the [**Header\_GetImageList**](/windows/win32/Commctrl/nf-commctrl-header_getimagelist?branch=master) or [**Header\_GetStateImageList**](/windows/win32/Commctrl/nf-commctrl-header_getstateimagelist?branch=master) macro.
 
 ## Parameters
 
@@ -28,7 +34,7 @@ Gets the handle to the image list that has been set for an existing header contr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -45,15 +51,15 @@ Returns a handle to the image list set for the header control.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

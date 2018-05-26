@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is step 6 of the tutorial How to Play Media Files with Media Foundation.'
-ms.assetid: 'e2e3e95b-41b2-45fb-b495-0e700220e5f5'
-title: 'Step 6: Control Playback'
+Description: This topic is step 6 of the tutorial How to Play Media Files with Media Foundation.
+ms.assetid: e2e3e95b-41b2-45fb-b495-0e700220e5f5
+title: Step 6 Control Playback
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 6: Control Playback
@@ -19,7 +24,7 @@ This topic contains the following sections:
 
 ## Starting Playback
 
-To start playback, call [**IMFMediaSession::Start**](imfmediasession-start.md). The following code shows how to start from the current playback position.
+To start playback, call [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master). The following code shows how to start from the current playback position.
 
 
 ```C++
@@ -62,11 +67,11 @@ HRESULT CPlayer::Play()
 
 
 
-The [**Start**](imfmediasession-start.md) method can also specify a starting position relative to the start of the file; see the API reference topic for more information.
+The [**Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master) method can also specify a starting position relative to the start of the file; see the API reference topic for more information.
 
 ## Pausing Playback
 
-To pause playback, call [**IMFMediaSession::Pause**](imfmediasession-pause.md).
+To pause playback, call [**IMFMediaSession::Pause**](/windows/win32/mfidl/nf-mfidl-imfmediasession-pause?branch=master).
 
 
 ```C++
@@ -96,7 +101,7 @@ HRESULT CPlayer::Pause()
 
 ## Stopping Playback
 
-To stop playback, call [**IMFMediaSession::Stop**](imfmediasession-stop.md). While playback is stopped, the video image is cleared and the video window is painted with the background color (black by default).
+To stop playback, call [**IMFMediaSession::Stop**](/windows/win32/mfidl/nf-mfidl-imfmediasession-stop?branch=master). While playback is stopped, the video image is cleared and the video window is painted with the background color (black by default).
 
 
 ```C++
@@ -125,7 +130,7 @@ HRESULT CPlayer::Stop()
 
 ## Repainting the Video Window
 
-The [Enhanced Video Renderer](enhanced-video-renderer.md) (EVR) draws the video in the window specified by the application. This occurs on a separate thread, and for the most part, your application does not need to manage this process. If playback is paused or stopped, however, the EVR must be notified whenever the video window receives a [**WM\_PAINT**](gdi.wm_paint) message. This allows the EVR to repaint the window. To notify the EVR, call the [**IMFVideoDisplayControl::RepaintVideo**](imfvideodisplaycontrol-repaintvideo.md) method:
+The [Enhanced Video Renderer](enhanced-video-renderer.md) (EVR) draws the video in the window specified by the application. This occurs on a separate thread, and for the most part, your application does not need to manage this process. If playback is paused or stopped, however, the EVR must be notified whenever the video window receives a [**WM\_PAINT**](gdi.wm_paint) message. This allows the EVR to repaint the window. To notify the EVR, call the [**IMFVideoDisplayControl::RepaintVideo**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-repaintvideo?branch=master) method:
 
 
 ```C++
@@ -174,7 +179,7 @@ void OnPaint(HWND hwnd)
 
 
 
-The `HasVideo` method returns **TRUE** if the `CPlayer` object has a valid [**IMFVideoDisplayControl**](imfvideodisplaycontrol.md) pointer. (See [Step 1: Declare the CPlayer Class](step-1--declare-the-cplayer-class.md).)
+The `HasVideo` method returns **TRUE** if the `CPlayer` object has a valid [**IMFVideoDisplayControl**](/windows/win32/evr/nn-evr-imfvideodisplaycontrol?branch=master) pointer. (See [Step 1: Declare the CPlayer Class](step-1--declare-the-cplayer-class.md).)
 
 
 ```C++
@@ -185,7 +190,7 @@ The `HasVideo` method returns **TRUE** if the `CPlayer` object has a valid [**IM
 
 ## Resizing the Video Window
 
-If you resize the video window, update the destination rectangle on the EVR by calling the [**IMFVideoDisplayControl::SetVideoPosition**](imfvideodisplaycontrol-setvideoposition.md) method:
+If you resize the video window, update the destination rectangle on the EVR by calling the [**IMFVideoDisplayControl::SetVideoPosition**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-setvideoposition?branch=master) method:
 
 
 ```C++

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Allows the driver to report that it internally allocates display memory to perform motion compensation.'
-ms.assetid: 'cf2878ae-7eff-4214-bb9e-e8b608831108'
+---
+Description: Allows the driver to report that it internally allocates display memory to perform motion compensation.
+ms.assetid: cf2878ae-7eff-4214-bb9e-e8b608831108
 title: NtGdiDdGetInternalMoCompInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdGetInternalMoCompInfo function

@@ -1,14 +1,19 @@
 ---
 title: COM Server Responsibilities
 description: COM Server Responsibilities
-ms.assetid: '9853bbf5-b989-45b7-8fa8-8cd2f0d48d3c'
+ms.assetid: 9853bbf5-b989-45b7-8fa8-8cd2f0d48d3c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Server Responsibilities
 
 One of the most important ways for a client to get a pointer to an object is for the client to ask that a server be launched and that an instance of the object provided by the server be created and activated. It is the responsibility of the server to ensure that this happens properly. There are several important parts to this.
 
-The server must implement code for a class object through an implementation of either the [**IClassFactory**](iclassfactory.md) or [**IClassFactory2**](iclassfactory2.md) interface.
+The server must implement code for a class object through an implementation of either the [**IClassFactory**](/windows/win32/unknwnbase/nn-unknwn-iclassfactory?branch=master) or [**IClassFactory2**](/windows/win32/OCIdl/nn-ocidl-iclassfactory2?branch=master) interface.
 
 The server must register its CLSID in the system registry on the machine on which it resides and further, has the option of publishing its machine location to other systems on a network to allow clients to call it without requiring the client to know the server's location.
 

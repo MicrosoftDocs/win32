@@ -1,14 +1,20 @@
 ---
 title: AppVersion element
 description: Contains the application name and version.
-ms.assetid: '2613E81E-201C-4E91-9E97-E18163C12EED'
-keywords: ["AppVersion element Access Execution Engine"]
+ms.assetid: 2613E81E-201C-4E91-9E97-E18163C12EED
+keywords:
+- AppVersion element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AppVersion
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AppVersion element
@@ -71,9 +77,9 @@ AppVersion
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the horizontal dimension of the application media size relative to the page orientation.'
-ms.assetid: '46556C6E-B231-400D-8F0A-86FC1CD5D4B6'
-title: 'IPrintSchemaPageImageableSize::ImageableSizeWidthInMicrons property'
+---
+Description: Gets the horizontal dimension of the application media size relative to the page orientation.
+ms.assetid: 46556C6E-B231-400D-8F0A-86FC1CD5D4B6
+title: IPrintSchemaPageImageableSizeImageableSizeWidthInMicrons property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaPageImageableSize::ImageableSizeWidthInMicrons property

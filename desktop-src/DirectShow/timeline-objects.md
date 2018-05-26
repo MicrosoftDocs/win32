@@ -1,7 +1,12 @@
 ---
 Description: Timeline Objects
-ms.assetid: 'fb369b32-a54b-4d8a-8358-5f05aa48f853'
+ms.assetid: fb369b32-a54b-4d8a-8358-5f05aa48f853
 title: Timeline Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Timeline Objects

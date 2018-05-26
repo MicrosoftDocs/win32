@@ -1,7 +1,12 @@
 ---
 title: VML Margin-Top Attribute
 description: VML Margin-Top Attribute
-ms.assetid: 'bce0c575-918a-45ea-a068-cfb6f4a16b1a'
+ms.assetid: bce0c575-918a-45ea-a068-cfb6f4a16b1a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Margin-Top Attribute

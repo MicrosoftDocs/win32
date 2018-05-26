@@ -1,7 +1,12 @@
 ---
-Description: 'The Bitfield Format Types of configurable data may be used in integer database fields.'
-ms.assetid: '3b05392e-4276-4970-ae43-9ee00bc9f476'
+Description: The Bitfield Format Types of configurable data may be used in integer database fields.
+ms.assetid: 3b05392e-4276-4970-ae43-9ee00bc9f476
 title: Bitfield Format Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bitfield Format Types

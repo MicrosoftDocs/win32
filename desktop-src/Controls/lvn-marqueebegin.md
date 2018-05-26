@@ -1,8 +1,9 @@
 ---
 title: LVN\_MARQUEEBEGIN notification code
-description: Notifies a list-view control's parent window that a bounding box (marquee) selection has begun. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'e9daa264-1861-4791-9a12-cf95d86a688e'
-keywords: ["LVN_MARQUEEBEGIN notification code Windows Controls"]
+description: Notifies a list-view controls parent window that a bounding box (marquee) selection has begun. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: e9daa264-1861-4791-9a12-cf95d86a688e
+keywords:
+- LVN_MARQUEEBEGIN notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVN\_MARQUEEBEGIN notification code
@@ -33,7 +39,7 @@ LVN_MARQUEEBEGIN
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMHDR**](nmhdr.md) structure.
+Pointer to an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure.
 
 </dd> </dl>
 
@@ -51,15 +57,15 @@ A *bounding box selection* is the process of clicking the list-view window's cli
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

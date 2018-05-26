@@ -1,8 +1,19 @@
 ---
 title: Getting Started with the Plug-in Wizard
 description: Getting Started with the Plug-in Wizard
-ms.assetid: '77fc1b0c-20f5-434d-9142-f112489a7f08'
-keywords: ["Windows Media Player plug-ins,installing plug-in wizard", "plug-ins,installing plug-in wizard", "building plug-ins,installing plug-in wizard", "Windows Media Player Plug-in Wizard,installing", "installing plug-in wizard", "plug-in wizard"]
+ms.assetid: 77fc1b0c-20f5-434d-9142-f112489a7f08
+keywords:
+- Windows Media Player plug-ins,installing plug-in wizard
+- plug-ins,installing plug-in wizard
+- building plug-ins,installing plug-in wizard
+- Windows Media Player Plug-in Wizard,installing
+- installing plug-in wizard
+- plug-in wizard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with the Plug-in Wizard

@@ -1,15 +1,20 @@
 ---
 title: Using Direct Annotation
 description: Using Direct Annotation
-ms.assetid: 'd9d78e74-dcab-4974-945f-e8c5d42c04b7'
+ms.assetid: d9d78e74-dcab-4974-945f-e8c5d42c04b7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Direct Annotation
 
 **To use direct annotation to override the value of a property**
 
-1.  Use the [CoCreateInstance](http://go.microsoft.com/fwlink/p/?linkid=120140) or [CoCreateInstanceEx](http://go.microsoft.com/fwlink/p/?linkid=120141) function to create the [**IAccPropServices**](iaccpropservices.md) object.
-2.  Call [**IAccPropServices::SetHwndProp**](iaccpropservices-iaccpropservices--sethwndprop.md), passing the **HWND**, object ID, child ID, the property to be overridden, and a [VARIANT](http://go.microsoft.com/fwlink/p/?linkid=127015) containing the new value of the property. This step annotates the value.
+1.  Use the [CoCreateInstance](http://go.microsoft.com/fwlink/p/?linkid=120140) or [CoCreateInstanceEx](http://go.microsoft.com/fwlink/p/?linkid=120141) function to create the [**IAccPropServices**](/windows/win32/oleacc/nn-oleacc-iaccpropservices?branch=master) object.
+2.  Call [**IAccPropServices::SetHwndProp**](/windows/win32/Oleacc/nf-oleacc-iaccpropservices-sethwndprop?branch=master), passing the **HWND**, object ID, child ID, the property to be overridden, and a [VARIANT](http://go.microsoft.com/fwlink/p/?linkid=127015) containing the new value of the property. This step annotates the value.
 3.  Release the interface pointers and free memory.
 
 The following example shows how to annotate the [**Role**](role-property.md) property of a static text control.

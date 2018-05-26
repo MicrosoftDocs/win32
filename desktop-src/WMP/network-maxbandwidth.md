@@ -1,8 +1,9 @@
 ---
 title: Network.maxBandwidth
 description: The maxBandwidth property specifies or retrieves the maximum allowed bandwidth.
-ms.assetid: '303acf51-8d3a-4e58-8aa8-c0b6db1e4fbb'
-keywords: ["Network.maxBandwidth Windows Media Player"]
+ms.assetid: 303acf51-8d3a-4e58-8aa8-c0b6db1e4fbb
+keywords:
+- Network.maxBandwidth Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.maxBandwidth
@@ -54,9 +60,9 @@ For example, an MBR stream could include streams encoded at 20 kilobits per seco
 [**Player.close**](player-close.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: ActivityStartTime element
 description: Start time for this activity in nanoseconds.
-ms.assetid: 'A2B87559-1B09-4283-9756-5D9A6EEF8FFA'
-keywords: ["ActivityStartTime element Access Execution Engine"]
+ms.assetid: A2B87559-1B09-4283-9756-5D9A6EEF8FFA
+keywords:
+- ActivityStartTime element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ActivityStartTime
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivityStartTime element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

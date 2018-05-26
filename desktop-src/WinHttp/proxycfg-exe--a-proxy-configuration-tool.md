@@ -1,7 +1,12 @@
 ---
-Description: 'This topic explains the use of the Microsoft Windows HTTP Services (WinHTTP) proxy configuration tool, &\#0034;ProxyCfg.exe&\#0034;.'
-ms.assetid: 'f96adf59-59be-414e-ad6f-9eac05f4b975'
-title: 'Netsh.exe and ProxyCfg.exe Proxy Configuration Tools'
+Description: This topic explains the use of the Microsoft Windows HTTP Services (WinHTTP) proxy configuration tool, &\#0034;ProxyCfg.exe&\#0034;.
+ms.assetid: f96adf59-59be-414e-ad6f-9eac05f4b975
+title: Netsh.exe and ProxyCfg.exe Proxy Configuration Tools
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Netsh.exe and ProxyCfg.exe Proxy Configuration Tools
@@ -16,7 +21,7 @@ There are two ways to access HTTP and Secure Hypertext Transfer Protocol (HTTPS)
 
 You can programmatically set the proxy data from within your application or script. If you are writing an application using the WinHTTP API, use one of the following two techniques to change proxy settings.
 
--   Use the [**WinHttpOpen**](winhttpopen.md) function. Specify access type in the second parameter, the name of the proxy in the third parameter, and a bypass list in the fourth parameter. The following example shows how the [**WinHttpOpen**](winhttpopen.md) function can be used to set proxy data.
+-   Use the [**WinHttpOpen**](/windows/win32/Winhttp/nf-winhttp-winhttpopen?branch=master) function. Specify access type in the second parameter, the name of the proxy in the third parameter, and a bypass list in the fourth parameter. The following example shows how the [**WinHttpOpen**](/windows/win32/Winhttp/nf-winhttp-winhttpopen?branch=master) function can be used to set proxy data.
 
     ``` syntax
     hSession = WinHttpOpen( L"WinHTTP Example/1.0",  
@@ -26,7 +31,7 @@ You can programmatically set the proxy data from within your application or scri
                             0);
     ```
 
--   Use the [**WinHttpSetOption**](winhttpsetoption.md) function. The [**WINHTTP\_OPTION\_PROXY**](option-flags.md#winhttp-option-proxy) flag enables you to specify proxy settings with a [**WINHTTP\_PROXY\_INFO**](internet-proxy-info.md) structure. The following example code shows how the [**WinHttpSetOption**](winhttpsetoption.md) function can be used to set proxy data.
+-   Use the [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master) function. The [**WINHTTP\_OPTION\_PROXY**](option-flags.md#winhttp-option-proxy) flag enables you to specify proxy settings with a [**WINHTTP\_PROXY\_INFO**](/windows/win32/Winhttp/ns-winhttp-__unnamed_struct_3?branch=master) structure. The following example code shows how the [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master) function can be used to set proxy data.
 
     ``` syntax
     WINHTTP_PROXY_INFO proxyInfo;
@@ -51,7 +56,7 @@ If you are writing a script or an application using the [**WinHttpRequest**](win
                          "*.microsoft.com");
     ```
 
-To specify default settings and eliminate the need to use either the [**SetProxy**](iwinhttprequest-setproxy.md) method or the [**WinHttpSetOption**](winhttpsetoption.md) function, use the proxy configuration utility. Using this utility, you can specify that your application access a network either directly, through a proxy, or through a combination of direct and proxy access by specifying a bypass list. When you use the WinHTTP API, the proxy configuration tool only determines the settings when you pass the **WINHTTP\_ACCESS\_TYPE\_DEFAULT** flag to the [**WinHttpOpen**](winhttpopen.md) API. The [**WinHttpRequest**](winhttprequest.md) object uses the proxy configuration tool settings by default.
+To specify default settings and eliminate the need to use either the [**SetProxy**](iwinhttprequest-setproxy.md) method or the [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master) function, use the proxy configuration utility. Using this utility, you can specify that your application access a network either directly, through a proxy, or through a combination of direct and proxy access by specifying a bypass list. When you use the WinHTTP API, the proxy configuration tool only determines the settings when you pass the **WINHTTP\_ACCESS\_TYPE\_DEFAULT** flag to the [**WinHttpOpen**](/windows/win32/Winhttp/nf-winhttp-winhttpopen?branch=master) API. The [**WinHttpRequest**](winhttprequest.md) object uses the proxy configuration tool settings by default.
 
 The proxy settings for WinHTTP are not the proxy settings for Microsoft Internet Explorer. You cannot configure the proxy settings for WinHTTP in the Microsoft Windows Control Panel. Using the WinHTTP proxy configuration utility does not alter the settings you use for Internet Explorer.
 

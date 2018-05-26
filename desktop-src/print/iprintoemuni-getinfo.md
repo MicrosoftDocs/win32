@@ -1,7 +1,12 @@
-﻿---
-Description: 'A rendering plug-in''s IPrintOemUni::GetInfo method returns identification information.'
-ms.assetid: '8c4ab4a0-387f-49f8-bb9e-4851c5079cff'
-title: 'IPrintOemUni::GetInfo method'
+---
+Description: A rendering plug-ins IPrintOemUniGetInfo method returns identification information.
+ms.assetid: 8c4ab4a0-387f-49f8-bb9e-4851c5079cff
+title: IPrintOemUniGetInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::GetInfo method

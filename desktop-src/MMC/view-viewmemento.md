@@ -1,14 +1,19 @@
 ---
 title: View ViewMemento method
-description: The ViewMemento method sets the view to the specified memento's state. A memento is the programmatic equivalent of a favorite setting.
+description: The ViewMemento method sets the view to the specified mementos state. A memento is the programmatic equivalent of a favorite setting.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9027c6fe-7a09-457a-859f-652f9e83dabd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 9027c6fe-7a09-457a-859f-652f9e83dabd
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ViewMemento method MMC", "ViewMemento method MMC , View object", "View object MMC , ViewMemento method", "ViewMemento method MMC , View interface", "View interface MMC , ViewMemento method"]
+keywords:
+- ViewMemento method MMC
+- ViewMemento method MMC , View object
+- View object MMC , ViewMemento method
+- ViewMemento method MMC , View interface
+- View interface MMC , ViewMemento method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::ViewMemento method
@@ -68,8 +76,8 @@ objView.ViewMemento (strMemento)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -84,9 +92,9 @@ objView.ViewMemento (strMemento)
 [**View.Memento**](view-memento.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

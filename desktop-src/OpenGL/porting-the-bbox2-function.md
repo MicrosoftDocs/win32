@@ -1,8 +1,17 @@
 ---
 title: Porting the bbox2 Function
 description: There is no OpenGL equivalent for the IRIS GL bbox2 function.
-ms.assetid: '2d8082bf-c2c3-41d9-9bf7-b4ac2fdefbd6'
-keywords: ["IRIS GL porting,bbox2 function", "porting from IRIS GL,bbox2 function", "porting to OpenGL from IRIS GL,bbox2 function", "OpenGL porting from IRIS GL,bbox2 function"]
+ms.assetid: 2d8082bf-c2c3-41d9-9bf7-b4ac2fdefbd6
+keywords:
+- IRIS GL porting,bbox2 function
+- porting from IRIS GL,bbox2 function
+- porting to OpenGL from IRIS GL,bbox2 function
+- OpenGL porting from IRIS GL,bbox2 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting the bbox2 Function

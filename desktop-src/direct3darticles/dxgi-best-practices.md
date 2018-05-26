@@ -1,7 +1,12 @@
 ---
 title: DirectX Graphics Infrastructure (DXGI) Best Practices
 description: This article discusses key porting issues.
-ms.assetid: '2df92ffe-1bfc-d682-2770-20cf0c831c9b'
+ms.assetid: 2df92ffe-1bfc-d682-2770-20cf0c831c9b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectX Graphics Infrastructure (DXGI): Best Practices

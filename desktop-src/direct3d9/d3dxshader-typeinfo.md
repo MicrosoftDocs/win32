@@ -1,7 +1,12 @@
-﻿---
-Description: 'A helper structure containing member type information.'
-ms.assetid: '5580122d-c700-4632-8fcf-903519f2429e'
-title: 'D3DXSHADER\_TYPEINFO structure'
+---
+Description: A helper structure containing member type information.
+ms.assetid: 5580122d-c700-4632-8fcf-903519f2429e
+title: D3DXSHADER\_TYPEINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSHADER\_TYPEINFO structure

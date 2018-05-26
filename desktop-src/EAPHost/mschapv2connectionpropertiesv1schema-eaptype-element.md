@@ -1,14 +1,20 @@
 ---
 title: EapType Element
 description: Is a derived type of the EapType element from the baseeapconnectionpropertiesv1 schema. This is the top element that appears inside the Config element of the EapHostConfig schema.
-ms.assetid: 'dbd63387-f8ed-4308-903f-7a555f3410f7'
-keywords: ["EapType element EAPHost"]
+ms.assetid: dbd63387-f8ed-4308-903f-7a555f3410f7
+keywords:
+- EapType element EAPHost
 topic_type:
 - apiref
 api_name:
 - EapType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EapType Element
@@ -63,8 +69,8 @@ The **processContents** element enables future enhancements to the schema. The *
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -78,9 +84,9 @@ The **processContents** element enables future enhancements to the schema. The *
 [mschapv2connectionpropertiesv1 Schema](mschapv2connectionpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

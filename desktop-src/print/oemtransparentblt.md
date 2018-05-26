@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMTransparentBlt function provides bit-block transfer capabilities with transparency.'
-ms.assetid: '0ffd4759-cabe-4efe-a725-5b8ff26fda77'
+---
+Description: The OEMTransparentBlt function provides bit-block transfer capabilities with transparency.
+ms.assetid: 0ffd4759-cabe-4efe-a725-5b8ff26fda77
 title: OEMTransparentBlt function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMTransparentBlt function

@@ -1,14 +1,20 @@
 ---
 title: MaximumConstraint element
 description: The maximum value for the parameter.
-ms.assetid: '102E5DF4-C5AF-4918-BBF5-557C451F5E24'
-keywords: ["MaximumConstraint element Access Execution Engine"]
+ms.assetid: 102E5DF4-C5AF-4918-BBF5-557C451F5E24
+keywords:
+- MaximumConstraint element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MaximumConstraint
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaximumConstraint element
@@ -80,9 +86,9 @@ This element is valid for these data types.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

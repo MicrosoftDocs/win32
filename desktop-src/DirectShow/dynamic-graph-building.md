@@ -1,7 +1,12 @@
 ---
 Description: Dynamic Graph Building
-ms.assetid: '13fed430-979b-40f7-91ba-aff2d811bd92'
+ms.assetid: 13fed430-979b-40f7-91ba-aff2d811bd92
 title: Dynamic Graph Building
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic Graph Building

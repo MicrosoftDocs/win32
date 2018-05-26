@@ -1,14 +1,20 @@
 ---
 title: texCUBEproj
 description: Samples a cube texture using a projective divide; the texture coordinate is divided by t.w before the lookup takes place.
-ms.assetid: '86bdd1c3-0a8d-4d09-b70d-1ebcee32c866'
-keywords: ["texCUBEproj HLSL"]
+ms.assetid: 86bdd1c3-0a8d-4d09-b70d-1ebcee32c866
+keywords:
+- texCUBEproj HLSL
 topic_type:
 - apiref
 api_name:
 - texCUBEproj
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # texCUBEproj
@@ -22,7 +28,7 @@ Samples a cube texture using a projective divide; the texture coordinate is divi
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Samples a cube texture using a projective divide; the texture coordinate is divi
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The value of the texture data.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

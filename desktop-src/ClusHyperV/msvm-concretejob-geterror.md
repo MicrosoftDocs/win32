@@ -4,13 +4,16 @@ description: Retrieves an error for a failed job.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bd4a4722-e55d-46c1-a0b7-fe9d6fa77412'
-ms.prod: 'windows-server-dev'
+ms.assetid: bd4a4722-e55d-46c1-a0b7-fe9d6fa77412
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetError method", "GetError method, Msvm_ConcreteJob class", "Msvm_ConcreteJob class, GetError method"]
+keywords:
+- GetError method
+- GetError method, Msvm_ConcreteJob class
+- Msvm_ConcreteJob class, GetError method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetError method of the Msvm\_ConcreteJob class
@@ -30,7 +36,7 @@ Retrieves an error for a failed job.
 
 ```mof
 uint32 GetError(
-  [out] string Error
+  [out] string Error
 );
 ```
 
@@ -96,7 +102,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -110,9 +116,9 @@ The possible return values are:
 [**Msvm\_ConcreteJob**](msvm-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Engine SetJobEnd method
 description: Specifies the native interface for the Engine to invoke to notify the solution of a job end event.
-ms.assetid: 'BF3B1623-4A0E-4EA3-840F-B7CB4BB70079'
-keywords: ["SetJobEnd method Access Execution Engine", "SetJobEnd method Access Execution Engine , Engine interface", "Engine interface Access Execution Engine , SetJobEnd method"]
+ms.assetid: BF3B1623-4A0E-4EA3-840F-B7CB4BB70079
+keywords:
+- SetJobEnd method Access Execution Engine
+- SetJobEnd method Access Execution Engine , Engine interface
+- Engine interface Access Execution Engine , SetJobEnd method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Engine::SetJobEnd method
@@ -22,7 +30,7 @@ Specifies the native interface for the [**Engine**](engine-if.md) to invoke to n
 
 ```C++
 virtual HRESULT SetJobEnd(
-  [in, optional] IJobEndEventHandler *jobEnd
+  [in, optional] IJobEndEventHandler *jobEnd
 ) = 0;
 ```
 
@@ -57,8 +65,8 @@ Managed code uses the [**Engine.JobEnd \| jobend**](axe-engine_jobend_om) event.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -77,9 +85,9 @@ Managed code uses the [**Engine.JobEnd \| jobend**](axe-engine_jobend_om) event.
 [**OnJobEnd**](ievents-onjobend.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Using Parental Controls Settings APIs
-ms.assetid: '77a239e9-1cec-4710-b673-7d0cebd502e9'
+ms.assetid: 77a239e9-1cec-4710-b673-7d0cebd502e9
 title: Using Parental Controls Settings APIs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Parental Controls Settings APIs
@@ -128,7 +133,7 @@ If Visual Studio is used for settings management code development, local debuggi
 
 The Compliance API controlled by header file Wpcapi.h provides simplified read-only access to the following settings by using COM interfaces.
 
-[**IWindowsParentalControls**](iwindowsparentalcontrols.md) root interface methods provide access to:
+[**IWindowsParentalControls**](/windows/win32/Wpcapi/nn-wpcapi-iwindowsparentalcontrols?branch=master) root interface methods provide access to:
 
 -   IWPCSettings methods:
     -   IsLoggingRequired()—is activity reporting configured as on for the user?

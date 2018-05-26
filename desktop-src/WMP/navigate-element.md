@@ -1,14 +1,20 @@
 ---
 title: Navigate Element
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Navigate element specifies a URL used by calls to External.NavigateTaskPaneURL.
-ms.assetid: '3898e381-baf8-481a-90ee-d64e55b319a0'
-keywords: ["Navigate Element Windows Media Player"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Navigate element specifies a URL used by calls to External.NavigateTaskPaneURL.
+ms.assetid: 3898e381-baf8-481a-90ee-d64e55b319a0
+keywords:
+- Navigate Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Navigate Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Navigate Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **Navigate** element specifies a URL used by calls to **External.NavigateTaskPaneURL**.
 
@@ -36,7 +42,7 @@ The **Navigate** element specifies a URL used by calls to **External.NavigateTas
 
 
 
- 
+ 
 
 ## Parent/Child Elements
 
@@ -49,7 +55,7 @@ The **Navigate** element specifies a URL used by calls to **External.NavigateTas
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -77,9 +83,9 @@ The **Navigate** element specifies a URL used by calls to **External.NavigateTas
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

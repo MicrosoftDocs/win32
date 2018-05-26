@@ -1,8 +1,14 @@
 ---
 title: HttpCfg.exe
-ms.assetid: 'f47cb502-fe20-4810-b499-73e9a2cc1458'
+ms.assetid: f47cb502-fe20-4810-b499-73e9a2cc1458
 description: 
-keywords: ["HttpCfg.exe"]
+keywords:
+- HttpCfg.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCfg.exe

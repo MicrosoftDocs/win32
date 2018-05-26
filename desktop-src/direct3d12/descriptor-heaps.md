@@ -1,7 +1,12 @@
 ---
 title: Descriptor Heaps
 description: A descriptor heap is a collection of contiguous allocations of descriptors, one allocation for every descriptor.
-ms.assetid: '58677023-692C-4BA4-90B7-D568F3DD3F73'
+ms.assetid: 58677023-692C-4BA4-90B7-D568F3DD3F73
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Descriptor Heaps
@@ -24,7 +29,7 @@ A descriptor heap is a collection of contiguous allocations of descriptors, one 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -36,7 +41,7 @@ A descriptor heap is a collection of contiguous allocations of descriptors, one 
 [Descriptor Tables](descriptor-tables.md)
 </dt> <dt>
 
-[**ID3D12DescriptorHeap**](id3d12descriptorheap.md)
+[**ID3D12DescriptorHeap**](/windows/win32/D3D12/nn-d3d12-id3d12descriptorheap?branch=master)
 </dt> <dt>
 
 [Resource Binding](resource-binding.md)
@@ -45,9 +50,9 @@ A descriptor heap is a collection of contiguous allocations of descriptors, one 
 [Root Signatures](root-signatures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

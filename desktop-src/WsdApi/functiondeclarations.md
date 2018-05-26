@@ -1,7 +1,12 @@
 ---
-Description: 'Generates implementation declarations for proxy functions for port type operations.'
-ms.assetid: '6ba7dbb6-6598-4569-97e1-d703e4b896c7'
+Description: Generates implementation declarations for proxy functions for port type operations.
+ms.assetid: 6ba7dbb6-6598-4569-97e1-d703e4b896c7
 title: functionDeclarations element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # functionDeclarations element
@@ -72,14 +77,14 @@ Example:
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

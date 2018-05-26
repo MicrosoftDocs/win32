@@ -1,7 +1,12 @@
 ---
 title: Using Indexing Service APIs from Scripts
 description: Using Indexing Service APIs from Scripts
-ms.assetid: 'f9748c1c-899c-4788-8f71-218d0639c95a'
+ms.assetid: f9748c1c-899c-4788-8f71-218d0639c95a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Indexing Service APIs from Scripts

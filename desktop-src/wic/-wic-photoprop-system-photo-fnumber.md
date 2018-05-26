@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.FNumber property.'
-ms.assetid: '434d52cb-c98d-4860-87f7-4aedab7f8188'
-title: 'System.Photo.FNumber Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.FNumber property.
+ms.assetid: 434d52cb-c98d-4860-87f7-4aedab7f8188
+title: System.Photo.FNumber Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.FNumber Photo Metadata Policy

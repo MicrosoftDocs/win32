@@ -2,13 +2,16 @@
 title: RemoveByUnknown method of the PS\_DnsServerResourceRecord class
 description: Deletes the specified unknown DNS resource record.
 audience: developer
-ms.assetid: '216944df-64cd-457c-93e5-cc0619ec0cb3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 216944df-64cd-457c-93e5-cc0619ec0cb3
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveByUnknown method", "RemoveByUnknown method, PS_DnsServerResourceRecord class", "PS_DnsServerResourceRecord class, RemoveByUnknown method"]
+keywords:
+- RemoveByUnknown method
+- RemoveByUnknown method, PS_DnsServerResourceRecord class
+- PS_DnsServerResourceRecord class, RemoveByUnknown method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveByUnknown method of the PS\_DnsServerResourceRecord class
@@ -28,16 +34,16 @@ Deletes the specified unknown DNS resource record.
 
 ```mof
 uint32 RemoveByUnknown(
-  [in]  string                  ZoneName,
-  [in]  boolean                 PassThru,
-  [in]  string                  ComputerName,
-  [in]  boolean                 Force,
-  [in]  string                  ZoneScope,
-  [in]  string                  VirtualizationInstance,
-  [in]  uint16                  Type,
-  [in]  string                  Name,
-  [in]  string                  RecordData[],
-  [out] DnsServerResourceRecord cmdletOutput[]
+  [in]  string                  ZoneName,
+  [in]  boolean                 PassThru,
+  [in]  string                  ComputerName,
+  [in]  boolean                 Force,
+  [in]  string                  ZoneScope,
+  [in]  string                  VirtualizationInstance,
+  [in]  uint16                  Type,
+  [in]  string                  Name,
+  [in]  string                  RecordData[],
+  [out] DnsServerResourceRecord cmdletOutput[]
 );
 ```
 
@@ -124,7 +130,7 @@ A [**DnsServerResourceRecord**](dnsserverresourcerecord.md). This parameter retu
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -138,9 +144,9 @@ A [**DnsServerResourceRecord**](dnsserverresourcerecord.md). This parameter retu
 [**PS\_DnsServerResourceRecord**](ps-dnsserverresourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

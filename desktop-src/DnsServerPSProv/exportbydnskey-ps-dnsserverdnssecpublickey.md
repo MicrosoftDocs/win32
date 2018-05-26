@@ -2,13 +2,16 @@
 title: ExportByDnsKey method of the PS\_DnsServerDnsSecPublicKey class
 description: Exports DS or DNSKEY information of a DNSSEC signed zone.
 audience: developer
-ms.assetid: 'e1d10eb9-0e41-4a5e-92ec-f8589ffeed2e'
-ms.prod: 'windows-server-dev'
+ms.assetid: e1d10eb9-0e41-4a5e-92ec-f8589ffeed2e
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ExportByDnsKey method", "ExportByDnsKey method, PS_DnsServerDnsSecPublicKey class", "PS_DnsServerDnsSecPublicKey class, ExportByDnsKey method"]
+keywords:
+- ExportByDnsKey method
+- ExportByDnsKey method, PS_DnsServerDnsSecPublicKey class
+- PS_DnsServerDnsSecPublicKey class, ExportByDnsKey method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DNSServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExportByDnsKey method of the PS\_DnsServerDnsSecPublicKey class
@@ -28,14 +34,14 @@ Exports DS or DNSKEY information of a DNSSEC signed zone.
 
 ```mof
 uint32 ExportByDnsKey(
-  [in]  string                  ZoneName,
-  [in]  string                  Path,
-  [in]  boolean                 PassThru,
-  [in]  boolean                 UnAuthenticated,
-  [in]  boolean                 Force,
-  [in]  boolean                 NoClobber,
-  [in]  string                  ComputerName,
-  [out] DnsServerResourceRecord cmdletOutput[]
+  [in]  string                  ZoneName,
+  [in]  string                  Path,
+  [in]  boolean                 PassThru,
+  [in]  boolean                 UnAuthenticated,
+  [in]  boolean                 Force,
+  [in]  boolean                 NoClobber,
+  [in]  string                  ComputerName,
+  [out] DnsServerResourceRecord cmdletOutput[]
 );
 ```
 
@@ -108,7 +114,7 @@ DnsServerResourceRecord
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DNSServerPSProvider.dll</dt> </dl> |
@@ -122,9 +128,9 @@ DnsServerResourceRecord
 [**PS\_DnsServerDnsSecPublicKey**](ps-dnsserverdnssecpublickey.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

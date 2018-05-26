@@ -4,13 +4,16 @@ description: Starts a job to create a root resource pool. The resource pool will
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8214f536-c76a-42f7-8582-a25bf62d082d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8214f536-c76a-42f7-8582-a25bf62d082d
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateResourcePool method", "CreateResourcePool method, CIM_ResourcePoolConfigurationService class", "CIM_ResourcePoolConfigurationService class, CreateResourcePool method"]
+keywords:
+- CreateResourcePool method
+- CreateResourcePool method, CIM_ResourcePoolConfigurationService class
+- CIM_ResourcePoolConfigurationService class, CreateResourcePool method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateResourcePool method of the CIM\_ResourcePoolConfigurationService class
@@ -30,11 +36,11 @@ Starts a job to create a root resource pool. The resource pool will be scoped to
 
 ```mof
 uint32 CreateResourcePool(
-  [in]  string                ElementName,
-  [in]  CIM_LogicalDevice REF HostResources[],
-  [in]  string                ResourceType,
-  [out] CIM_ResourcePool  REF Pool,
-  [out] CIM_ConcreteJob   REF Job
+  [in]  string                ElementName,
+  [in]  CIM_LogicalDevice REF HostResources[],
+  [in]  string                ResourceType,
+  [out] CIM_ResourcePool  REF Pool,
+  [out] CIM_ConcreteJob   REF Job
 );
 ```
 
@@ -146,7 +152,7 @@ The job completed successfully.
 **DMTF Reserved**
 </dt> <dd>
 
-8–4095
+8 4095
 
 </dd> <dt>
 
@@ -167,14 +173,14 @@ The job completed successfully.
 **Method Reserved**
 </dt> <dd>
 
-4098–32767
+4098 32767
 
 </dd> <dt>
 
 **Vendor Specific**
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 </dd> </dl>
 
@@ -185,7 +191,7 @@ The job completed successfully.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -199,9 +205,9 @@ The job completed successfully.
 [**CIM\_ResourcePoolConfigurationService**](cim-resourcepoolconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

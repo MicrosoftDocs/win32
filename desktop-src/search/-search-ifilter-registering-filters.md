@@ -1,12 +1,17 @@
 ---
-Description: 'Your filter handler must be registered. You can also locate an existing filter handler for a given file name extension either through the registry or by using the ILoadFilter interface.'
-ms.assetid: '3478b948-73c7-4533-974a-d9b5186a651b'
+Description: Your filter handler must be registered. You can also locate an existing filter handler for a given file name extension either through the registry or by using the ILoadFilter interface.
+ms.assetid: 3478b948-73c7-4533-974a-d9b5186a651b
 title: Registering Filter Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Filter Handlers
 
-Your filter handler must be registered. You can also locate an existing filter handler for a given file name extension either through the registry or by using the [**ILoadFilter**](iloadfilter.md) interface.
+Your filter handler must be registered. You can also locate an existing filter handler for a given file name extension either through the registry or by using the [**ILoadFilter**](/windows/win32/filtereg/nn-filtereg-iloadfilter?branch=master) interface.
 
 This topic is organized as follows:
 
@@ -130,7 +135,7 @@ If a new filter handler for a file type is being installed as a replacement for 
 
 ## Finding a Filter Handler for a Given File Extension
 
-You can use the [**ILoadFilter**](iloadfilter.md) interface to find a filter handler for a given file name extension. The following example registry entries illustrate how to do so for HTML files. In this example, the filter handler for HTML documents is nlhtml.dll. The values are of type REG\_SZ.
+You can use the [**ILoadFilter**](/windows/win32/filtereg/nn-filtereg-iloadfilter?branch=master) interface to find a filter handler for a given file name extension. The following example registry entries illustrate how to do so for HTML files. In this example, the filter handler for HTML documents is nlhtml.dll. The values are of type REG\_SZ.
 
 **To find the filter handler for a given file name extension:**
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The UpdateColourTable method updates the color table with a new palette.'
-ms.assetid: '61ad98c6-a526-4aac-ad68-d44fadc668de'
-title: 'CDrawImage.UpdateColourTable method'
+Description: The UpdateColourTable method updates the color table with a new palette.
+ms.assetid: 61ad98c6-a526-4aac-ad68-d44fadc668de
+title: CDrawImage.UpdateColourTable method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.UpdateColourTable method
@@ -13,8 +18,8 @@ The `UpdateColourTable` method updates the color table with a new palette.
 
 ```C++
 void UpdateColourTable(
-   HDC              hdc,
-   BITMAPINFOHEADER *pbmi
+   HDC              hdc,
+   BITMAPINFOHEADER *pbmi
 );
 ```
 
@@ -34,7 +39,7 @@ Device context containing the image.
 *pbmi* 
 </dt> <dd>
 
-Pointer to a [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure containing the new palette.
+Pointer to a [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure containing the new palette.
 
 </dd> </dl>
 
@@ -60,9 +65,9 @@ This method does not return a value.
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,16 @@
 ---
 title: File Name Extension Guidelines
 description: File Name Extension Guidelines
-ms.assetid: '71189ed8-4140-446f-a765-d72f35dd3d88'
-keywords: ["Windows Media Format SDK,file name extensions", "Advanced Systems Format (ASF),file name extensions", "ASF (Advanced Systems Format),file name extensions"]
+ms.assetid: 71189ed8-4140-446f-a765-d72f35dd3d88
+keywords:
+- Windows Media Format SDK,file name extensions
+- Advanced Systems Format (ASF),file name extensions
+- ASF (Advanced Systems Format),file name extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Name Extension Guidelines

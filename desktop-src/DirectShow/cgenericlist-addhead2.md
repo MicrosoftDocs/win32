@@ -1,7 +1,12 @@
 ---
-Description: 'The AddHead method adds a list to the front of the list.'
-ms.assetid: '9a344bed-d871-4082-9bbb-330f2ff42cca'
-title: 'CGenericList.AddHead method'
+Description: The AddHead method adds a list to the front of the list.
+ms.assetid: 9a344bed-d871-4082-9bbb-330f2ff42cca
+title: CGenericList.AddHead method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.AddHead method
@@ -13,7 +18,7 @@ The `AddHead` method adds a list to the front of the list.
 
 ```C++
 BOOL AddHead(
-   CGenericList<OBJECT> *pList
+   CGenericList<OBJECT> *pList
 );
 ```
 
@@ -52,9 +57,9 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

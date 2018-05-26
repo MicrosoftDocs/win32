@@ -1,8 +1,14 @@
 ---
 title: Discovering Bluetooth Devices and Services
 description: To facilitate the discovery of Bluetooth devices and services, Windows maps the Bluetooth Service Discovery Protocol (SDP) onto the Windows Sockets namespace interfaces.
-ms.assetid: '4fed0de6-87cc-4093-aa6a-667ca98563e7'
-keywords: ["Bluetooth, tasks, discovering devices"]
+ms.assetid: 4fed0de6-87cc-4093-aa6a-667ca98563e7
+keywords:
+- Bluetooth, tasks, discovering devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Discovering Bluetooth Devices and Services

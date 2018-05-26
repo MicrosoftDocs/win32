@@ -1,15 +1,18 @@
 ---
-Description: 'The Delete&\#8194;WMI class method deletes a scheduled job.'
+Description: The Delete&\#8194;WMI class method deletes a scheduled job.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '064ff3f8-6d41-4f8d-a511-6c051bb48a5b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 064ff3f8-6d41-4f8d-a511-6c051bb48a5b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Delete method of the Win32\_ScheduledJob class'
+title: Delete method of the Win32\_ScheduledJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Delete method of the Win32\_ScheduledJob class
@@ -103,7 +106,7 @@ The account which this service is to run under is either invalid or lacks the pe
 **Other**
 </dt> <dd>
 
-23–4294967295
+23 4294967295
 
 </dd> </dl>
 
@@ -113,8 +116,8 @@ The account which this service is to run under is either invalid or lacks the pe
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -131,9 +134,9 @@ The account which this service is to run under is either invalid or lacks the pe
 [**Win32\_ScheduledJob**](win32-scheduledjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

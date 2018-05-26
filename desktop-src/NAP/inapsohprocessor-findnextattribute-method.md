@@ -1,8 +1,11 @@
 ---
 title: INapSoHProcessor FindNextAttribute method
 description: Finds the location (index) of the next attribute of the type indicated by SoHAttributeType.
-ms.assetid: '0ff94a32-ece8-4a89-9ee9-93c5e14dfb6c'
-keywords: ["FindNextAttribute method NAP", "FindNextAttribute method NAP , INapSoHProcessor interface", "INapSoHProcessor interface NAP , FindNextAttribute method"]
+ms.assetid: 0ff94a32-ece8-4a89-9ee9-93c5e14dfb6c
+keywords:
+- FindNextAttribute method NAP
+- FindNextAttribute method NAP , INapSoHProcessor interface
+- INapSoHProcessor interface NAP , FindNextAttribute method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qutil.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSoHProcessor::FindNextAttribute method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSoHProcessor::FindNextAttribute** method finds the location (index) of the next attribute of the type indicated by *SoHAttributeType*.
 
@@ -27,9 +35,9 @@ The **INapSoHProcessor::FindNextAttribute** method finds the location (index) of
 
 ```C++
 HRESULT FindNextAttribute(
-  [in]  UINT16           fromLocation,
-  [in]  SoHAttributeType type,
-  [out] UINT16           *attributeLocation
+  [in]  UINT16           fromLocation,
+  [in]  SoHAttributeType type,
+  [out] UINT16           *attributeLocation
 );
 ```
 
@@ -47,7 +55,7 @@ The starting location (index) in the Statement of Health (SoH) packet to begin t
 > [!Note]  
 > The SoH packet uses 0-based attribute indices.
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,7 +88,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -92,8 +100,8 @@ The **FindNextAttribute** method searches for attributes of type *SoHAttributeTy
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>NapProtocol.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapProtocol.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl>       |
@@ -107,9 +115,9 @@ The **FindNextAttribute** method searches for attributes of type *SoHAttributeTy
 [**INapSoHProcessor**](inapsohprocessor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

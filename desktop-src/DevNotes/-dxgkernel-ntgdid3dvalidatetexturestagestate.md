@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the number of passes where the hardware can perform the blending operations specified in the current state.'
-ms.assetid: '355dae78-cd65-4fc9-8f08-8e5ae123064b'
+---
+Description: Returns the number of passes where the hardware can perform the blending operations specified in the current state.
+ms.assetid: 355dae78-cd65-4fc9-8f08-8e5ae123064b
 title: NtGdiD3DValidateTextureStageState function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiD3DValidateTextureStageState function

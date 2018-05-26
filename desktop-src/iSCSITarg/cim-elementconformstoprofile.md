@@ -4,13 +4,15 @@ description: Defines the RegisteredProfiles to which the referenced ManagedEleme
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '748272ca-bfd2-490c-a7cd-77580a5db641'
-ms.prod: 'windows-server-dev'
+ms.assetid: 748272ca-bfd2-490c-a7cd-77580a5db641
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ElementConformsToProfile class iSCSI Software Target API", "CIM_ElementConformsToProfile class iSCSI Software Target API , described"]
+keywords:
+- CIM_ElementConformsToProfile class iSCSI Software Target API
+- CIM_ElementConformsToProfile class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ElementConformsToProfile class
@@ -38,7 +43,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ElementConformsToProfile
 {
   CIM_RegisteredProfile REF ConformantStandard;
-  CIM_ManagedElement    REF ManagedElement;
+  CIM_ManagedElement    REF ManagedElement;
 };
 ```
 
@@ -93,16 +98,16 @@ The [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/cc136871) that 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

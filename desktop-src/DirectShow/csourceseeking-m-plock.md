@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to a critical section object.'
-ms.assetid: 'dc791bc4-857c-4a79-9aa8-3c5974c23483'
-title: 'CSourceSeeking::m\_pLock member'
+Description: Pointer to a critical section object.
+ms.assetid: dc791bc4-857c-4a79-9aa8-3c5974c23483
+title: CSourceSeekingm\_pLock member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking::m\_pLock member
@@ -35,9 +40,9 @@ CCritSec *m_pLock;
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

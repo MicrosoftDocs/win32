@@ -4,10 +4,13 @@ description: This topic will introduce you to important code elements for the iO
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '7E12EBF2-5A19-4A8D-AA99-531B09DA256A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 7E12EBF2-5A19-4A8D-AA99-531B09DA256A
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # iOS/OS X code examples

@@ -4,11 +4,16 @@ description: A report job contains one or more reports to run.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a91c4fe7-ec8c-4d2b-b565-559e16668c87'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: a91c4fe7-ec8c-4d2b-b565-559e16668c87
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , defining a report job", "reports File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , defining a report job
+- reports File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Defining a Report Job

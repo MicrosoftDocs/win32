@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enumerates the individual file members in the CatalogFiles section of a catalog definition file (CDF).'
-ms.assetid: '38e17ef2-65dc-45f8-a484-8eedcf4ce3e3'
+---
+Description: Enumerates the individual file members in the CatalogFiles section of a catalog definition file (CDF).
+ms.assetid: 38e17ef2-65dc-45f8-a484-8eedcf4ce3e3
 title: CryptCATCDFEnumMembersByCDFTagEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CryptCATCDFEnumMembersByCDFTagEx function
@@ -38,7 +43,7 @@ LPWSTR WINAPI CryptCATCDFEnumMembersByCDFTagEx(
 *pCDF* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRYPTCATCDF**](cryptcatcdf.md) structure.
+A pointer to a [**CRYPTCATCDF**](/windows/win32/Mscat/ns-mscat-cryptcatcdf_?branch=master) structure.
 
 </dd> <dt>
 
@@ -59,7 +64,7 @@ A pointer to a user-defined function to handle file parse errors.
 *ppMember* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRYPTCATMEMBER**](cryptcatmember.md) structure that contains the file member information.
+A pointer to a [**CRYPTCATMEMBER**](/windows/win32/Mscat/ns-mscat-cryptcatmember_?branch=master) structure that contains the file member information.
 
 </dd> <dt>
 
@@ -135,10 +140,10 @@ The following example shows the correct sequence of assignments for the *pwszPre
 [MakeCat](makecat.md)
 </dt> <dt>
 
-[**CRYPTCATCDF**](cryptcatcdf.md)
+[**CRYPTCATCDF**](/windows/win32/Mscat/ns-mscat-cryptcatcdf_?branch=master)
 </dt> <dt>
 
-[**CRYPTCATMEMBER**](cryptcatmember.md)
+[**CRYPTCATMEMBER**](/windows/win32/Mscat/ns-mscat-cryptcatmember_?branch=master)
 </dt> <dt>
 
 [**GetProcAddress**](base.getprocaddress)

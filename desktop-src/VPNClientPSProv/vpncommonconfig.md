@@ -2,11 +2,13 @@
 title: VpnCommonConfig class
 description: The VpnCommonConfig class represents the common attributes of the VpnConnection and ThirdPartyVpnConnection objects.
 audience: developer
-ms.assetid: 'AB8AD9D4-9772-4532-8B47-AB3DCFDF8F6C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: AB8AD9D4-9772-4532-8B47-AB3DCFDF8F6C
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnCommonConfig class", "VpnCommonConfig class, described"]
+keywords:
+- VpnCommonConfig class
+- VpnCommonConfig class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnCommonConfig class
@@ -44,21 +49,21 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [ClassVersion("1.0"), dynamic, provider("VpnClientPSProvider"), AMENDMENT]
 class VpnCommonConfig
 {
-  string               Name;
-  string               ProfileType;
-  string               ServerAddress;
-  string               ProvisioningAuthority;
-  boolean              RememberCredential;
-  boolean              SplitTunneling;
-  string               Guid;
-  string               ConnectionStatus;
-  uint32               IdleDisconnectSeconds;
-  VpnServerAddress     ServerList[];
-  MSFT_NetRoute        Routes[];
+  string               Name;
+  string               ProfileType;
+  string               ServerAddress;
+  string               ProvisioningAuthority;
+  boolean              RememberCredential;
+  boolean              SplitTunneling;
+  string               Guid;
+  string               ConnectionStatus;
+  uint32               IdleDisconnectSeconds;
+  VpnServerAddress     ServerList[];
+  MSFT_NetRoute        Routes[];
   VpnConnectionTrigger VpnTrigger;
-  string               DnsSuffix;
-  VpnConnectionProxy   Proxy;
-  boolean              IsAutoTriggerEnabled;
+  string               DnsSuffix;
+  VpnConnectionProxy   Proxy;
+  boolean              IsAutoTriggerEnabled;
 };
 ```
 
@@ -194,7 +199,7 @@ Access type: Read-only
 
 **true** if the VPN connection is enabled for auto-trigger; **false** if it is not.
 
-**Windows 8 and Windows Server 2012:** The property is not available before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** The property is not available before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -259,7 +264,7 @@ Access type: Read/write
 
 The provisioning authority of the VPN profile.
 
-**Windows 8 and Windows Server 2012:** The property is not available before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** The property is not available before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -372,17 +377,17 @@ The trigger properties of the VPN connection.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

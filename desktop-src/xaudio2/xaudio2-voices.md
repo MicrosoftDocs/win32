@@ -1,7 +1,12 @@
 ---
-Description: 'There are three types of XAudio2 voice objects: source, submix, and mastering voices.'
-ms.assetid: '3a4acc03-e47a-ff33-dee8-a374051f85f6'
+Description: There are three types of XAudio2 voice objects source, submix, and mastering voices.
+ms.assetid: 3a4acc03-e47a-ff33-dee8-a374051f85f6
 title: XAudio2 Voices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAudio2 Voices
@@ -13,7 +18,7 @@ There are three types of XAudio2 voice objects: *source*, *submix*, and *masteri
 All voices perform the following actions in order on the audio that travels though them.
 
 1.  Overall volume adjustment, affecting all audio channels. See [**IXAudio2Voice::SetVolume**](ixaudio2voice-interface-setvolume.md).
-2.  An optional client-specified chain of one or more DSP effects, such as the built-in reverb or a user effect defined by the [**IXAPO**](ixapo.md) interface. See [XAudio2 Audio Effects](xaudio2-audio-effects.md).
+2.  An optional client-specified chain of one or more DSP effects, such as the built-in reverb or a user effect defined by the [**IXAPO**](/windows/win32/XAPO/nn-xapo-ixapo?branch=master) interface. See [XAudio2 Audio Effects](xaudio2-audio-effects.md).
 3.  Per-channel output volume adjustment. See [**IXAudio2Voice::SetChannelVolumes**](ixaudio2voice-interface-setchannelvolumes.md).
 4.  Separate matrix mix to each of the destination voices or to the audio output device for mastering voices. This mix changes the number of channels in the audio, if necessary.
 
@@ -57,13 +62,13 @@ In addition to the actions performed by all voices, mastering voices perform the
 [XAudio2 Programming Guide](programming-guide.md)
 </dt> <dt>
 
-[**IXAudio2SourceVoice**](ixaudio2sourcevoice.md)
+[**IXAudio2SourceVoice**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2sourcevoice?branch=master)
 </dt> <dt>
 
-[**IXAudio2SubmixVoice**](ixaudio2submixvoice.md)
+[**IXAudio2SubmixVoice**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2submixvoice?branch=master)
 </dt> <dt>
 
-[**IXAudio2MasteringVoice**](ixaudio2masteringvoice.md)
+[**IXAudio2MasteringVoice**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2masteringvoice?branch=master)
 </dt> </dl>
 
  

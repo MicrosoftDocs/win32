@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes IOCTL\_DOT4\_CREATE\_SOCKET.'
-ms.assetid: 'CF5BF5D1-FF78-4461-AC0D-A7A7529FB59E'
-title: 'IOCTL\_DOT4\_CREATE\_SOCKET control code'
+---
+Description: This topic describes IOCTL\_DOT4\_CREATE\_SOCKET.
+ms.assetid: CF5BF5D1-FF78-4461-AC0D-A7A7529FB59E
+title: IOCTL\_DOT4\_CREATE\_SOCKET control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_DOT4\_CREATE\_SOCKET control code

@@ -1,8 +1,15 @@
 ---
 title: Windows Media Player Online Stores
 description: Windows Media Player Online Stores
-ms.assetid: '81009d7b-5c2a-4447-a85e-138ab7834b7a'
-keywords: ["Windows Media Player online stores,about", "online stores,about"]
+ms.assetid: 81009d7b-5c2a-4447-a85e-138ab7834b7a
+keywords:
+- Windows Media Player online stores,about
+- online stores,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Player Online Stores
@@ -10,7 +17,7 @@ keywords: ["Windows Media Player online stores,about", "online stores,about"]
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 Windows Media Player provides functionality that allows digital media content providers to integrate their services with Windows Media Player. Integration between the Player and an online digital media store provides an enjoyable, comprehensive experience for the user, including the ability to locate content, download and manage files, play content, and copy content to CDs or devices.
 
@@ -61,7 +68,7 @@ A music store provides a more integrated experience for the user than a commerce
 > [!Note]  
 > Some documents refer to commerce stores as basic commercial services and refer to music stores as integrated music services.
 
- 
+ 
 
 The following table shows the features available to the different types of online stores.
 
@@ -137,10 +144,10 @@ Windows Media Player 10 has up to three service task panes. Windows Media Player
 <td>Yes</td>
 </tr>
 <tr class="odd">
-<td>Provide a plug-in that implements [<strong>IWMPSubscriptionService</strong>](iwmpsubscriptionservice.md).
+<td>Provide a plug-in that implements [<strong>IWMPSubscriptionService</strong>](/windows/win32/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice?branch=master).
 <blockquote>
 [!Note]<br />
-In Windows Media Player 10 and later, this plug-in can also implement [<strong>IWMPSubscriptionService2</strong>](iwmpsubscriptionservice2.md).
+In Windows Media Player 10 and later, this plug-in can also implement [<strong>IWMPSubscriptionService2</strong>](/windows/win32/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2?branch=master).
 </blockquote>
 <br/></td>
 <td>No</td>
@@ -160,7 +167,7 @@ In Windows Media Player 10 and later, this plug-in can also implement [<strong>I
 <td>Yes</td>
 </tr>
 <tr class="even">
-<td>Provide a plug-in that implements [<strong>IWMPContentPartner</strong>](iwmpcontentpartner.md).</td>
+<td>Provide a plug-in that implements [<strong>IWMPContentPartner</strong>](/windows/win32/contentpartner/nn-contentpartner-iwmpcontentpartner?branch=master).</td>
 <td>No</td>
 <td>No</td>
 <td>Yes</td>
@@ -170,7 +177,7 @@ In Windows Media Player 10 and later, this plug-in can also implement [<strong>I
 
 
 
- 
+ 
 
 The remainder of the documentation about online stores is divided into the following sections.
 
@@ -186,7 +193,7 @@ The remainder of the documentation about online stores is divided into the follo
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -195,9 +202,9 @@ The remainder of the documentation about online stores is divided into the follo
 [**Windows Media Player SDK**](windows-media-player-sdk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

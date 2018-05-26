@@ -1,13 +1,16 @@
 ---
-Description: 'The Type field in an access control entry (ACE) that determines whether the ACE is an ACE that allows access or denies access.'
+Description: The Type field in an access control entry (ACE) that determines whether the ACE is an ACE that allows access or denies access.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a78c72f7-0bc0-4bda-9012-4abe45342d8d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a78c72f7-0bc0-4bda-9012-4abe45342d8d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Namespace ACE Type Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Namespace ACE Type Constants
@@ -68,9 +71,9 @@ The ACE denies access to the namespace.
 [**\_\_SystemSecurity**](--systemsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

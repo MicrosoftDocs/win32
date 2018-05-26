@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the stream configuration for the WTV media source.'
-ms.assetid: '2181723A-C6E8-42BD-979C-5C26FE3986C4'
-title: 'MFPKEY\_SBESourceMode property'
+---
+Description: Sets the stream configuration for the WTV media source.
+ms.assetid: 2181723A-C6E8-42BD-979C-5C26FE3986C4
+title: MFPKEY\_SBESourceMode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_SBESourceMode property

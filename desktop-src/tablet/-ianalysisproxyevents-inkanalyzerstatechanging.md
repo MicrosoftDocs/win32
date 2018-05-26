@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs before the IInkAnalyzer reconciles analysis results so that an application can synchronize data with the IInkAnalyzer.'
-ms.assetid: '9daa8723-5234-40d9-ac41-6dcca988a8b4'
-title: '\_IAnalysisProxyEvents::InkAnalyzerStateChanging event'
+Description: Occurs before the IInkAnalyzer reconciles analysis results so that an application can synchronize data with the IInkAnalyzer.
+ms.assetid: 9daa8723-5234-40d9-ac41-6dcca988a8b4
+title: '\_IAnalysisProxyEventsInkAnalyzerStateChanging event'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_IAnalysisProxyEvents::InkAnalyzerStateChanging event
@@ -13,7 +18,7 @@ Occurs before the [**IInkAnalyzer**](iinkanalyzer.md) reconciles analysis result
 
 ```C++
 HRESULT InkAnalyzerStateChanging(
-  [in] IInkAnalyzer *pInkAnalyzer
+  [in] IInkAnalyzer *pInkAnalyzer
 );
 ```
 
@@ -50,7 +55,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -79,9 +84,9 @@ For more information about synchronizing your application data with the [**IInkA
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

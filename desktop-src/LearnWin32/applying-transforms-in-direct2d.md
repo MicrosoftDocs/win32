@@ -1,7 +1,12 @@
 ---
 title: Applying Transforms in Direct2D
 description: Applying Transforms in Direct2D
-ms.assetid: '4b54dcfc-f915-4e4a-aa88-ee23c341c2a4'
+ms.assetid: 4b54dcfc-f915-4e4a-aa88-ee23c341c2a4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Applying Transforms in Direct2D

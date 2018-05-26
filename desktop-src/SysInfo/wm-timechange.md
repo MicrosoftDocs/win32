@@ -1,7 +1,12 @@
 ---
-Description: 'A message that is sent whenever there is a change in the system time.'
-ms.assetid: '94b5b6f7-04bb-4e0a-848b-e2b31ffc2938'
-title: 'WM\_TIMECHANGE message'
+Description: A message that is sent whenever there is a change in the system time.
+ms.assetid: 94b5b6f7-04bb-4e0a-848b-e2b31ffc2938
+title: WM\_TIMECHANGE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_TIMECHANGE message
@@ -68,8 +73,8 @@ An application should not broadcast this message, because the system will broadc
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -81,9 +86,9 @@ An application should not broadcast this message, because the system will broadc
 [**SendMessage**](_win32_sendmessage_cpp)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

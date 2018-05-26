@@ -1,12 +1,17 @@
-﻿---
-Description: 'Remotable version of IMFWorkQueueServicesEX::BeginRegisterPlatformWorkQueueWithMMCSSEx.'
-ms.assetid: '75af7ce6-9b74-4d61-b7f2-5d07538f91cf'
+---
+Description: Remotable version of IMFWorkQueueServicesEXBeginRegisterPlatformWorkQueueWithMMCSSEx.
+ms.assetid: 75af7ce6-9b74-4d61-b7f2-5d07538f91cf
 title: RemoteBeginRegisterPlatformWorkQueueWithMMCSSEx
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoteBeginRegisterPlatformWorkQueueWithMMCSSEx
 
-Remotable version of [**IMFWorkQueueServicesEX::BeginRegisterPlatformWorkQueueWithMMCSSEx**](imfworkqueueservicesex-beginregisterplatformworkqueuewithmmcssex.md).
+Remotable version of [**IMFWorkQueueServicesEX::BeginRegisterPlatformWorkQueueWithMMCSSEx**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservicesex-beginregisterplatformworkqueuewithmmcssex?branch=master).
 
 ``` syntax
 [call_as(BeginRegisterPlatformWorkQueueWithMMCSSEx)]
@@ -21,7 +26,7 @@ HRESULT RemoteBeginRegisterPlatformWorkQueueWithMMCSSEx(
 
 ## Remarks
 
-Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**BeginRegisterPlatformWorkQueueWithMMCSSEx**](imfworkqueueservicesex-beginregisterplatformworkqueuewithmmcssex.md) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
+Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**BeginRegisterPlatformWorkQueueWithMMCSSEx**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservicesex-beginregisterplatformworkqueuewithmmcssex?branch=master) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
 
 ## Requirements
 
@@ -39,7 +44,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 <dl> <dt>
 
-[**IMFWorkQueueServicesEx**](imfworkqueueservicesex.md)
+[**IMFWorkQueueServicesEx**](/windows/win32/mfidl/nn-mfidl-imfworkqueueservicesex?branch=master)
 </dt> </dl>
 
  

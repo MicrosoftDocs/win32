@@ -1,8 +1,14 @@
 ---
 title: DllSurrogateExecutable
 description: Enables DLL servers to run in a custom surrogate process, in conjunction with the DllSurrogate registry value. If DllSurrogateExecutable is not specified, COM passes NULL as the value for the first parameter of the CreateProcess function.
-ms.assetid: 'faf5dde3-bd67-447b-a88c-e8660dc5228e'
-keywords: ["DllSurrogateExecutable registry value COM"]
+ms.assetid: faf5dde3-bd67-447b-a88c-e8660dc5228e
+keywords:
+- DllSurrogateExecutable registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DllSurrogateExecutable
@@ -25,7 +31,7 @@ This value is of type **REG\_SZ**. It works in conjunction with the [**DllSurrog
 
 <dl> <dt>
 
-[**CoRegisterSurrogate**](coregistersurrogate.md)
+[**CoRegisterSurrogate**](/windows/win32/combaseapi/nf-combaseapi-coregistersurrogate?branch=master)
 </dt> <dt>
 
 [DLL Surrogates](dll-surrogates.md)
@@ -34,7 +40,7 @@ This value is of type **REG\_SZ**. It works in conjunction with the [**DllSurrog
 [**DllSurrogate**](dllsurrogate.md)
 </dt> <dt>
 
-[**ISurrogate**](isurrogate.md)
+[**ISurrogate**](/windows/win32/objidlbase/nn-objidl-isurrogate?branch=master)
 </dt> </dl>
 
  

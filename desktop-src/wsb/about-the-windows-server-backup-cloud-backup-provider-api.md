@@ -4,10 +4,13 @@ description: Windows Server Backup provides for integration of cloud backup prov
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '061E7AA1-F0DA-4FD1-A8B7-8CE992831373'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-server-backup'
+ms.assetid: 061E7AA1-F0DA-4FD1-A8B7-8CE992831373
+ms.prod: windows-server-dev
+ms.technology: windows-server-backup
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About the Cloud Backup Provider API

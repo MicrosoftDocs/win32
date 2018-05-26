@@ -1,7 +1,12 @@
 ---
-Description: 'The following samples use the file management functions.'
-ms.assetid: '0879898b-b661-48b3-af94-9ba24811503f'
+Description: The following samples use the file management functions.
+ms.assetid: 0879898b-b661-48b3-af94-9ba24811503f
 title: Using File Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using File Management
@@ -14,7 +19,7 @@ The following samples use the file management functions.
 
 | Topic                                                                                                   | Description                                                                                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Adding Users to an Encrypted File](adding-users-to-an-encrypted-file.md)<br/>                   | Example code that shows how to add a new user to an existing encrypted file by using the [**AddUsersToEncryptedFile**](adduserstoencryptedfile.md) function.<br/>                         |
+| [Adding Users to an Encrypted File](adding-users-to-an-encrypted-file.md)<br/>                   | Example code that shows how to add a new user to an existing encrypted file by using the [**AddUsersToEncryptedFile**](/windows/win32/Winefs/nf-winefs-adduserstoencryptedfile?branch=master) function.<br/>                         |
 | [Appending One File to Another File](appending-one-file-to-another-file.md)<br/>                 | Example code that shows how an application can append one file to the end of another file, including how to open and close files, read and write to files, and lock and unlock files.<br/> |
 | [Creating and Using a Temporary File](creating-and-using-a-temporary-file.md)<br/>               | Example code that shows how to create a temporary file for data manipulation purposes by using the GetTempFileName and GetTempPath functions.<br/>                                         |
 | [Locking and Unlocking Byte Ranges in Files](locking-and-unlocking-byte-ranges-in-files.md)<br/> | Example code that shows byte range locking and unlocking by using the LockFileEx and UnlockFileEx functions.<br/>                                                                          |
@@ -25,11 +30,11 @@ The following samples use the file management functions.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

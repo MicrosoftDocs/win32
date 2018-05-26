@@ -1,7 +1,12 @@
 ---
-Description: 'Displaying an Application-Supplied Bitmap on the Composited Image'
-ms.assetid: 'c51329d3-e814-4ef9-aad8-a3e60f9fa2a7'
-title: 'Displaying an Application-Supplied Bitmap on the Composited Image'
+Description: Displaying an Application-Supplied Bitmap on the Composited Image
+ms.assetid: c51329d3-e814-4ef9-aad8-a3e60f9fa2a7
+title: Displaying an Application-Supplied Bitmap on the Composited Image
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying an Application-Supplied Bitmap on the Composited Image
@@ -10,9 +15,9 @@ Applications can use the VMR's mixing mode to display alpha-blended channel logo
 
 The VMR uses its mixer component to overlay the bitmap onto the composited image. With the VMR-7, the application must force the VMR to load its mixer, even if there is only a single video stream. This is not necessary with the VMR-9 since it loads its mixer by default.
 
-To blend a static bitmap image with the video stream, the application creates the VMR and adds it to the graph, and then calls [**IVMRFilterConfig::SetNumberOfStreams**](ivmrfilterconfig-setnumberofstreams.md). The value passed to this function identifies the number of input pins that the VMR should create. Applications can specify any value between 1 and MAX\_MIXER\_STREAMS; specifying a value of 1 is valid if the application only intends to display a single video stream. Even though the VMR-7 has a single input pin by default, this method must be called in order to force it to load its mixer component. (The VMR-9 loads its mixer and sets up four pins by default.)
+To blend a static bitmap image with the video stream, the application creates the VMR and adds it to the graph, and then calls [**IVMRFilterConfig::SetNumberOfStreams**](/windows/win32/Strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams?branch=master). The value passed to this function identifies the number of input pins that the VMR should create. Applications can specify any value between 1 and MAX\_MIXER\_STREAMS; specifying a value of 1 is valid if the application only intends to display a single video stream. Even though the VMR-7 has a single input pin by default, this method must be called in order to force it to load its mixer component. (The VMR-9 loads its mixer and sets up four pins by default.)
 
-To set the bitmap, use the [**IVMRMixerBitmap**](ivmrmixerbitmap.md) interface on the VMR-7 or the [**IVMRMixerBitmap9**](ivmrmixerbitmap9.md) interface on the VMR-9.
+To set the bitmap, use the [**IVMRMixerBitmap**](/windows/win32/Strmif/nn-strmif-ivmrmixerbitmap?branch=master) interface on the VMR-7 or the [**IVMRMixerBitmap9**](/windows/win32/Vmr9/nn-vmr9-ivmrmixerbitmap9?branch=master) interface on the VMR-9.
 
 The bitmap can be specified by either a handle to a GDI Device Context (hDC) or by a DirectDraw Surface interface. If the application wants the image to contain embedded alpha information (also known as per pixel alpha) it must place the image data in a DirectDraw Surface interface. This is because it is not currently possible to place per-pixel alpha information with a GDI Device Context. The DirectDraw surface must be either RGB32 or ARGB32, and should preferably be a system memory surface. It is not necessary for the surface dimensions to be a power of 2.
 
@@ -99,9 +104,9 @@ To create a simple animated bitmap logo, put all of the bitmap "frames" into a s
 
 ![vmr image strip](images/vmr-image-strip.png)
 
-When you set the bitmap initially using [**IVMRMixerBitmap::SetAlphaBitmap**](ivmrmixerbitmap-setalphabitmap.md), if the bitmap is in an HDC, set the **rSrc** field of the **VMRALPHABITMAP** structure to specify the size of the entire bitmap within the HDC. The **top** and **left** members of the structure are set to 0, and the **right** and **bottom** members are the width and height of the bitmap. If the bitmap is in a DirectDraw surface, then the size of the surface is known, so there is no need to specify rSrc in this method.
+When you set the bitmap initially using [**IVMRMixerBitmap::SetAlphaBitmap**](/windows/win32/Strmif/nf-strmif-ivmrmixerbitmap-setalphabitmap?branch=master), if the bitmap is in an HDC, set the **rSrc** field of the **VMRALPHABITMAP** structure to specify the size of the entire bitmap within the HDC. The **top** and **left** members of the structure are set to 0, and the **right** and **bottom** members are the width and height of the bitmap. If the bitmap is in a DirectDraw surface, then the size of the surface is known, so there is no need to specify rSrc in this method.
 
-When you call [**IVMRMixerBitmap::UpdateAlphaBitmapParameters**](ivmrmixerbitmap-updatealphabitmapparameters.md), use the **rSrc** member for both HDC and DirectDraw bitmaps, to specify the particular frame or rectangle within the image that you wish to display, and set the **VMRBITMAP\_SRCRECT** flag in the **dwFlags** member.
+When you call [**IVMRMixerBitmap::UpdateAlphaBitmapParameters**](/windows/win32/Strmif/nf-strmif-ivmrmixerbitmap-updatealphabitmapparameters?branch=master), use the **rSrc** member for both HDC and DirectDraw bitmaps, to specify the particular frame or rectangle within the image that you wish to display, and set the **VMRBITMAP\_SRCRECT** flag in the **dwFlags** member.
 
 ## Related topics
 

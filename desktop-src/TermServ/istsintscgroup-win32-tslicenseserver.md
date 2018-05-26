@@ -1,14 +1,17 @@
 ---
 title: IsTSinTSCGroup method of the Win32\_TSLicenseServer class
-description: Retrieves whether a Remote Desktop Session Host (RD Session Host) server is a member of the Terminal Server Computers local group on the Remote Desktop license server.
+description: Retrieves whether a Remote Desktop Session Host (RD Session Host) server is a member of the Terminal Server Computers local group on the Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '61c39928-3a2b-4a36-ae4e-b9597a12d5e7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 61c39928-3a2b-4a36-ae4e-b9597a12d5e7
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IsTSinTSCGroup method Remote Desktop Services", "IsTSinTSCGroup method Remote Desktop Services , Win32_TSLicenseServer class", "Win32_TSLicenseServer class Remote Desktop Services , IsTSinTSCGroup method"]
+keywords:
+- IsTSinTSCGroup method Remote Desktop Services
+- IsTSinTSCGroup method Remote Desktop Services , Win32_TSLicenseServer class
+- Win32_TSLicenseServer class Remote Desktop Services , IsTSinTSCGroup method
 topic_type:
 - apiref
 api_name:
@@ -17,19 +20,22 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IsTSinTSCGroup method of the Win32\_TSLicenseServer class
 
-Retrieves whether a Remote Desktop Session Host (RD Session Host) server is a member of the Terminal Server Computers local group on the Remote Desktop license server.
+Retrieves whether a Remote Desktop Session Host (RD Session Host) server is a member of the Terminal Server Computers local group on the Remote Desktop license server.
 
 ## Syntax
 
 
 ```mof
 uint32 IsTSinTSCGroup(
-  [in]  string  tsname,
-  [out] boolean IsMember
+  [in]  string  tsname,
+  [out] boolean IsMember
 );
 ```
 
@@ -42,14 +48,14 @@ uint32 IsTSinTSCGroup(
 *tsname* \[in\]
 </dt> <dd>
 
-Name of the RD Session Host server.
+Name of the RD Session Host server.
 
 </dd> <dt>
 
 *IsMember* \[out\]
 </dt> <dd>
 
-Boolean value that indicates whether the RD Session Host server is a member of the Terminal Server Computers local group.
+Boolean value that indicates whether the RD Session Host server is a member of the Terminal Server Computers local group.
 
 </dd> </dl>
 
@@ -70,7 +76,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -84,9 +90,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseServer**](win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

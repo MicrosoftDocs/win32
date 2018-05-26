@@ -1,8 +1,10 @@
 ---
 title: IixssoUtil interface
 description: An ActiveX server-side control that is an automation object with a dual interface supporting IDispatch. The methods supported by this object give script writers utility routines for use with the Query object.
-ms.assetid: '7eb3b238-fda3-429b-9b21-db8345f17f02'
-keywords: ["IixssoUtil interface Indexing Service", "IixssoUtil interface Indexing Service , described"]
+ms.assetid: 7eb3b238-fda3-429b-9b21-db8345f17f02
+keywords:
+- IixssoUtil interface Indexing Service
+- IixssoUtil interface Indexing Service , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Ixsso.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IixssoUtil interface
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 An ActiveX server-side control that is an automation object with a dual interface supporting **IDispatch**. The methods supported by this object give script writers utility routines for use with the Query object.
 
@@ -45,7 +52,7 @@ The **IixssoUtil** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,17 +60,17 @@ The **IixssoUtil** interface has these methods.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,13 @@ description: Provides access to all cluster groups belonging either to a cluster
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7411d5f9-15c0-4c03-9128-c6b636979a50'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7411d5f9-15c0-4c03-9128-c6b636979a50
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusResGroups collection Failover Cluster", "ClusResGroups collection Failover Cluster , described"]
+keywords:
+- ClusResGroups collection Failover Cluster
+- ClusResGroups collection Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusResGroups collection
@@ -47,7 +52,7 @@ The **ClusResGroups** collection has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -62,7 +67,7 @@ The **ClusResGroups** collection has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,7 +83,7 @@ A **ClusResGroups** collection:
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -94,9 +99,9 @@ A **ClusResGroups** collection:
 [Cluster Management Objects](cluster-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,22 @@
 ---
 title: Selecting Items for Ripping
 description: Selecting Items for Ripping
-ms.assetid: '94bc765a-8318-4715-82e0-e7a9b93e99e0'
-keywords: ["Windows Media Player,CD ripping", "Windows Media Player object model,CD ripping", "object model,CD ripping", "Windows Media Player ActiveX control,CD ripping", "ActiveX control,CD ripping", "Windows Media Player Mobile ActiveX control,CD ripping", "Windows Media Player Mobile,CD ripping", "CD ripping,selecting items", "ripping CDs,selecting items"]
+ms.assetid: 94bc765a-8318-4715-82e0-e7a9b93e99e0
+keywords:
+- Windows Media Player,CD ripping
+- Windows Media Player object model,CD ripping
+- object model,CD ripping
+- Windows Media Player ActiveX control,CD ripping
+- ActiveX control,CD ripping
+- Windows Media Player Mobile ActiveX control,CD ripping
+- Windows Media Player Mobile,CD ripping
+- CD ripping,selecting items
+- ripping CDs,selecting items
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selecting Items for Ripping

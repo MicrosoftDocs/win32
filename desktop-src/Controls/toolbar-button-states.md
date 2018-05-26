@@ -1,7 +1,7 @@
 ---
 title: Toolbar Button States
 description: This section lists the states a toolbar button can have.
-ms.assetid: '422e0d81-bd80-45dc-b843-82fc5d5c2a9a'
+ms.assetid: 422e0d81-bd80-45dc-b843-82fc5d5c2a9a
 topic_type:
 - apiref
 api_name:
@@ -17,6 +17,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Toolbar Button States
@@ -52,9 +57,9 @@ A toolbar may have a combination of states.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

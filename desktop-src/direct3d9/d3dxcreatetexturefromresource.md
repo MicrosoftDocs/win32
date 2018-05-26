@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a texture from a resource.'
-ms.assetid: '7c841f21-5565-4923-a2fe-bbd618616f87'
+---
+Description: Creates a texture from a resource.
+ms.assetid: 7c841f21-5565-4923-a2fe-bbd618616f87
 title: D3DXCreateTextureFromResource function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateTextureFromResource function
@@ -29,9 +34,9 @@ HRESULT D3DXCreateTextureFromResource(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device to be associated with the texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device to be associated with the texture.
 
 </dd> <dt>
 
@@ -56,9 +61,9 @@ Pointer to a string that specifies the resource name. If the compiler settings r
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)\***
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) interface, representing the created texture object.
+Address of a pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) interface, representing the created texture object.
 
 </dd> </dl>
 

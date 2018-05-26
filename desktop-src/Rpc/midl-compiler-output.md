@@ -1,7 +1,12 @@
 ---
 title: MIDL Compiler Output
 description: With the IDL and ACF files as input, the MIDL compiler generates up to five C-language source files.
-ms.assetid: '151bd643-1da0-4b33-b8a3-3d7037e63319'
+ms.assetid: 151bd643-1da0-4b33-b8a3-3d7037e63319
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL Compiler Output

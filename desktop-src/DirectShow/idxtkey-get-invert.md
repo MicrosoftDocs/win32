@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_Invert method retrieves a Boolean value indicating whether the key operation is inverted. This property applies to all key types except DXTKEY\_ALPHA.'
-ms.assetid: '2ccf2066-3d9c-493b-bc54-a03e7d075531'
-title: 'IDxtKey::get\_Invert method'
+---
+Description: The get\_Invert method retrieves a Boolean value indicating whether the key operation is inverted. This property applies to all key types except DXTKEY\_ALPHA.
+ms.assetid: 2ccf2066-3d9c-493b-bc54-a03e7d075531
+title: IDxtKeyget\_Invert method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtKey::get\_Invert method

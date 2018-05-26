@@ -1,14 +1,20 @@
 ---
 title: CdromCollection Object
 description: The CdromCollection object provides a way to organize and access a collection of CD or DVD drives.
-ms.assetid: '02429ba7-a053-42bf-9ed5-c05e13c964c0'
-keywords: ["CdromCollection Object Windows Media Player"]
+ms.assetid: 02429ba7-a053-42bf-9ed5-c05e13c964c0
+keywords:
+- CdromCollection Object Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CdromCollection Object
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CdromCollection Object

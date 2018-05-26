@@ -1,8 +1,10 @@
 ---
 title: BDANODE\_DESCRIPTOR structure
 description: The BDANODE\_DESCRIPTOR structure describes a control node in BDA device filter.
-ms.assetid: '6ab03494-6564-4d4d-83bf-a9a6e588aac3'
-keywords: ["BDANODE_DESCRIPTOR structure Microsoft TV Technologies", "PBDANODE_DESCRIPTOR structure pointer Microsoft TV Technologies"]
+ms.assetid: 6ab03494-6564-4d4d-83bf-a9a6e588aac3
+keywords:
+- BDANODE_DESCRIPTOR structure Microsoft TV Technologies
+- PBDANODE_DESCRIPTOR structure pointer Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BDANODE\_DESCRIPTOR structure
@@ -23,8 +30,8 @@ The **BDANODE\_DESCRIPTOR** structure describes a control node in BDA device fil
 ```C++
 typedef struct _BDANODE_DESCRIPTOR {
   ULONG ulBdaNodeType;
-  GUID  guidFunction;
-  GUID  guidName;
+  GUID  guidFunction;
+  GUID  guidName;
 } BDANODE_DESCRIPTOR, *PBDANODE_DESCRIPTOR;
 ```
 
@@ -57,7 +64,7 @@ Specifies a GUID value that can be used to look up a displayable name for the no
 
 ## Remarks
 
-This structure is used by the [**IBDA\_Topology::GetNodeDescriptors**](ibda-topology-getnodedescriptors.md) method.
+This structure is used by the [**IBDA\_Topology::GetNodeDescriptors**](/windows/win32/Bdaiface/nf-bdaiface-ibda_topology-getnodedescriptors?branch=master) method.
 
 ## Requirements
 
@@ -76,9 +83,9 @@ This structure is used by the [**IBDA\_Topology::GetNodeDescriptors**](ibda-topo
 [BDA Structures](bda-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

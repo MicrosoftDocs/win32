@@ -1,8 +1,17 @@
 ---
 title: Displaying Modal User Interfaces
 description: Displaying Modal User Interfaces
-ms.assetid: '748a8db7-159d-4043-beac-e0516327bcef'
-keywords: ["Windows Media Player plug-ins,displaying dialog and message boxes", "plug-ins,displaying dialog and message boxes", "user interface plug-ins,displaying dialog and message boxes", "UI plug-ins,displaying dialog and message boxes"]
+ms.assetid: 748a8db7-159d-4043-beac-e0516327bcef
+keywords:
+- Windows Media Player plug-ins,displaying dialog and message boxes
+- plug-ins,displaying dialog and message boxes
+- user interface plug-ins,displaying dialog and message boxes
+- UI plug-ins,displaying dialog and message boxes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying Modal User Interfaces

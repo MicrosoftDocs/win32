@@ -1,7 +1,12 @@
 ---
 title: Applying Language Resources
 description: Applying Language Resources
-ms.assetid: 'd74559a9-e415-4b4d-914c-09b0980e59f4'
+ms.assetid: d74559a9-e415-4b4d-914c-09b0980e59f4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Applying Language Resources

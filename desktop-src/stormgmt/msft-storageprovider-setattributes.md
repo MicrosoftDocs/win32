@@ -1,8 +1,11 @@
 ---
 title: SetAttributes method of the MSFT\_StorageProvider class
 description: Sets the attributes of the provider.
-ms.assetid: '649B08C0-CC46-4A93-8037-47CACBC1AD4E'
-keywords: ["SetAttributes method Windows Storage Management API", "SetAttributes method Windows Storage Management API , MSFT_StorageProvider class", "MSFT_StorageProvider class Windows Storage Management API , SetAttributes method"]
+ms.assetid: 649B08C0-CC46-4A93-8037-47CACBC1AD4E
+keywords:
+- SetAttributes method Windows Storage Management API
+- SetAttributes method Windows Storage Management API , MSFT_StorageProvider class
+- MSFT_StorageProvider class Windows Storage Management API , SetAttributes method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetAttributes method of the MSFT\_StorageProvider class
@@ -22,8 +30,8 @@ Sets the attributes of the provider.
 
 ```mof
 UInt32 SetAttributes(
-  [in]  UInt16 RemoteSubsystemCacheMode,
-  [out] String ExtendedStatus
+  [in]  UInt16 RemoteSubsystemCacheMode,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -47,7 +55,7 @@ The caching mode to set. A value of 3 enables caching for all the registered rem
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -98,8 +106,8 @@ Extended error information from the storage provider in a [**MSFT\_StorageExtend
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -112,9 +120,9 @@ Extended error information from the storage provider in a [**MSFT\_StorageExtend
 [**MSFT\_StorageProvider**](msft-storageprovider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

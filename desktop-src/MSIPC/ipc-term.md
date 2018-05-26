@@ -4,11 +4,14 @@ description: Describes a period of time based on a start time and duration.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '43c78a2f-f446-4b58-9634-3a36c3eae17f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 43c78a2f-f446-4b58-9634-3a36c3eae17f
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_TERM structure Active Directory Rights Management Services SDK 2.0", "PIPC_TERM structure pointer Active Directory Rights Management Services SDK 2.0", "PCIPC_TERM structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_TERM structure Active Directory Rights Management Services SDK 2.0
+- PIPC_TERM structure pointer Active Directory Rights Management Services SDK 2.0
+- PCIPC_TERM structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Ipcprot.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPC\_TERM structure
@@ -29,7 +35,7 @@ Describes a period of time based on a start time and duration.
 ```C++
 typedef struct _IPC_TERM {
   FILETIME ftStart;
-  DWORD64  qwDuration;
+  DWORD64  qwDuration;
 } IPC_TERM, *PIPC_TERM;typedef const IPC_TERM *PCIPC_TERM;
 ```
 
@@ -59,8 +65,8 @@ The duration of the time period in 100-nanosecond intervals.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 
 
@@ -72,9 +78,9 @@ The duration of the time period in 100-nanosecond intervals.
 [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284.aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

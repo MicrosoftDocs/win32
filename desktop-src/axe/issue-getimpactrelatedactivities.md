@@ -1,8 +1,11 @@
 ---
 title: Issue GetImpactRelatedActivities method
 description: Returns the impact RelatedActivityCollection of the Issue.
-ms.assetid: '2E226927-EEBE-4AD9-88C0-A4B1A7B222CD'
-keywords: ["GetImpactRelatedActivities method Access Execution Engine", "GetImpactRelatedActivities method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , GetImpactRelatedActivities method"]
+ms.assetid: 2E226927-EEBE-4AD9-88C0-A4B1A7B222CD
+keywords:
+- GetImpactRelatedActivities method Access Execution Engine
+- GetImpactRelatedActivities method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , GetImpactRelatedActivities method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::GetImpactRelatedActivities method
@@ -22,7 +30,7 @@ Returns the impact [**RelatedActivityCollection**](relatedactivitycollection.md)
 
 ```C++
 virtual HRESULT GetImpactRelatedActivities(
-  [out] RelatedActivityCollection **impactRelatedActivities
+  [out] RelatedActivityCollection **impactRelatedActivities
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The impact **RelatedActivityCollection** holds data from the **Issue/Impact/Rela
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The impact **RelatedActivityCollection** holds data from the **Issue/Impact/Rela
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

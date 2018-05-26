@@ -1,12 +1,17 @@
-﻿---
-Description: 'Appends the specified media segment to the IMFSourceBuffer.'
-ms.assetid: '824fa23d-57d9-411a-af8a-fb65dca124b2'
-title: 'IMFSourceBuffer::Append method'
+---
+Description: Appends the specified media segment to the IMFSourceBuffer.
+ms.assetid: 824fa23d-57d9-411a-af8a-fb65dca124b2
+title: IMFSourceBufferAppend method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFSourceBuffer::Append method
 
-Appends the specified media segment to the [**IMFSourceBuffer**](imfsourcebuffer.md).
+Appends the specified media segment to the [**IMFSourceBuffer**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfsourcebuffer?branch=master).
 
 ## Syntax
 
@@ -58,7 +63,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IMFSourceBuffer**](imfsourcebuffer.md)
+[**IMFSourceBuffer**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfsourcebuffer?branch=master)
 </dt> </dl>
 
  

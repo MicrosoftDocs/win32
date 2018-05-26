@@ -1,14 +1,21 @@
 ---
 title: IEnumTfRenderingMarkup interface
 description: The IEnumTfRenderingMarkup interface is implemented by TSF Manager and used by applications. This interface can be retrieved by ITfContextRenderingMarkup GetRenderingMarkup and enumerates the rendering markup information.
-ms.assetid: '6062a6f5-f973-4cd5-94d3-05aa418e0198'
-keywords: ["IEnumTfRenderingMarkup interface Text Services Framework", "IEnumTfRenderingMarkup interface Text Services Framework , described"]
+ms.assetid: 6062a6f5-f973-4cd5-94d3-05aa418e0198
+keywords:
+- IEnumTfRenderingMarkup interface Text Services Framework
+- IEnumTfRenderingMarkup interface Text Services Framework , described
 topic_type:
 - apiref
 api_name:
 - IEnumTfRenderingMarkup
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumTfRenderingMarkup interface

@@ -1,7 +1,12 @@
 ---
-Description: 'The AspectRatio property retrieves the aspect ratio of the current video stream as authored on the disc.'
-ms.assetid: 'c341538e-0b33-4173-a5ca-56b3f7305022'
+Description: The AspectRatio property retrieves the aspect ratio of the current video stream as authored on the disc.
+ms.assetid: c341538e-0b33-4173-a5ca-56b3f7305022
 title: AspectRatio Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AspectRatio Property

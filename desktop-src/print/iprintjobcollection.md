@@ -1,7 +1,12 @@
-﻿---
-Description: 'This interfaces provides an enumeration of the jobs in the print queue.'
-ms.assetid: '757328A6-DD2C-4057-820B-39EB83277194'
+---
+Description: This interfaces provides an enumeration of the jobs in the print queue.
+ms.assetid: 757328A6-DD2C-4057-820B-39EB83277194
 title: IPrintJobCollection interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintJobCollection interface

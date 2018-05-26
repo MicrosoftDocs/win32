@@ -1,7 +1,12 @@
 ---
 title: Syntax in HTML Extension Files
 description: Syntax in HTML Extension Files
-ms.assetid: '5ed5e793-2d6c-439a-94c4-300ac79b2ebd'
+ms.assetid: 5ed5e793-2d6c-439a-94c4-300ac79b2ebd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Syntax in HTML Extension Files

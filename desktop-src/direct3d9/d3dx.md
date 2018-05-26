@@ -1,7 +1,12 @@
 ---
-Description: 'D3DX is a library of tools designed to provide additional graphics functionality on top of Direct3D. D3DX is provided as a dynamic-link library (DLL).'
-ms.assetid: 'd7b8c6ba-5c4f-494c-a24f-3b81a176725f'
-title: 'D3DX (Direct3D 9)'
+Description: D3DX is a library of tools designed to provide additional graphics functionality on top of Direct3D. D3DX is provided as a dynamic-link library (DLL).
+ms.assetid: d7b8c6ba-5c4f-494c-a24f-3b81a176725f
+title: D3DX (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX (Direct3D 9)

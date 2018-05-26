@@ -4,16 +4,20 @@ description: The following code example shows how to use the IADsSecurityUtility
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd47d3ebe-cc14-412d-be27-841e25b43c3a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d47d3ebe-cc14-412d-be27-841e25b43c3a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Adding an ACE to a File ADSI"]
+keywords:
+- Example Code for Adding an ACE to a File ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Adding an ACE to a File
 
-The following code example shows how to use the [**IADsSecurityUtility**](iadssecurityutility.md) interface to add an ACE to a file.
+The following code example shows how to use the [**IADsSecurityUtility**](/windows/win32/Iads/nn-iads-iadssecurityutility?branch=master) interface to add an ACE to a file.
 
 
 ```VB

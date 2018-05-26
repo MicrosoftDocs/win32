@@ -2,7 +2,33 @@
 title: G
 description: G
 ms.assetid: 17900c00-ade1-4dae-8012-bcf3c5cfe846
-keywords: ["Windows Color System (WCS),glossary", "WCS (Windows Color System),glossary", "image color management,glossary", "color management,glossary", "colors,glossary", "Windows Color System (WCS),definitions", "WCS (Windows Color System),definitions", "image color management,definitions", "color management,definitions", "colors,definitions", "Windows Color System (WCS),terms", "WCS (Windows Color System),terms", "image color management,terms", "color management,terms", "colors,terms", "gamma correction", "gamma curve", "gamma ramp", "gamut", "gamut map model profile (GMMP)", "GMMP (gamut map model profile)"]
+keywords:
+- Windows Color System (WCS),glossary
+- WCS (Windows Color System),glossary
+- image color management,glossary
+- color management,glossary
+- colors,glossary
+- Windows Color System (WCS),definitions
+- WCS (Windows Color System),definitions
+- image color management,definitions
+- color management,definitions
+- colors,definitions
+- Windows Color System (WCS),terms
+- WCS (Windows Color System),terms
+- image color management,terms
+- color management,terms
+- colors,terms
+- gamma correction
+- gamma curve
+- gamma ramp
+- gamut
+- gamut map model profile (GMMP)
+- GMMP (gamut map model profile)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # G

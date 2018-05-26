@@ -2,13 +2,19 @@
 title: optimize attribute
 description: The \ optimize\ ACF attribute is used to fine tune the level of gradation for marshaling data.
 ms.assetid: d636d940-0550-417f-a21a-065bdeaeb5d9
-keywords: ["optimize attribute MIDL"]
+keywords:
+- optimize attribute MIDL
 topic_type:
 - apiref
 api_name:
 - optimize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # optimize attribute

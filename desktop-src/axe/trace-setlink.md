@@ -1,8 +1,11 @@
 ---
 title: Trace SetLink method
 description: Sets the link of the Trace.
-ms.assetid: 'F2EC24CA-4407-4C61-9019-97DEEA14727A'
-keywords: ["SetLink method Access Execution Engine", "SetLink method Access Execution Engine , Trace interface", "Trace interface Access Execution Engine , SetLink method"]
+ms.assetid: F2EC24CA-4407-4C61-9019-97DEEA14727A
+keywords:
+- SetLink method Access Execution Engine
+- SetLink method Access Execution Engine , Trace interface
+- Trace interface Access Execution Engine , SetLink method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trace::SetLink method
@@ -22,7 +30,7 @@ Sets the link of the **Trace**.
 
 ```C++
 virtual HRESULT SetLink(
-  [in] LPCWSTR link
+  [in] LPCWSTR link
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The link is the value of element **Trace/Link**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The link is the value of element **Trace/Link**.
 [**Trace**](trace-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

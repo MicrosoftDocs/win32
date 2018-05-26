@@ -1,7 +1,12 @@
 ---
-Description: 'A translation adds a value to one or more of the four color components. The color matrix entries that represent translations are given in the following table.'
-ms.assetid: 'a0d89989-9b98-42fb-8d87-206581e3c91e'
+Description: A translation adds a value to one or more of the four color components. The color matrix entries that represent translations are given in the following table.
+ms.assetid: a0d89989-9b98-42fb-8d87-206581e3c91e
 title: Translating Colors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating Colors
@@ -21,7 +26,7 @@ A translation adds a value to one or more of the four color components. The colo
 
  
 
-The following example constructs an [**Image**](-gdiplus-class-image-class.md) object from the file ColorBars.bmp. Then the code adds 0.75 to the red component of each pixel in the image. The original image is drawn alongside the transformed image.
+The following example constructs an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object from the file ColorBars.bmp. Then the code adds 0.75 to the red component of each pixel in the image. The original image is drawn alongside the transformed image.
 
 
 ```

@@ -1,7 +1,12 @@
 ---
 Description: Retrieving the Events Supported by a Device
-ms.assetid: '951b300f-03de-4a3d-9356-e3a7b5b17fdb'
+ms.assetid: 951b300f-03de-4a3d-9356-e3a7b5b17fdb
 title: Retrieving the Events Supported by a Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Events Supported by a Device
@@ -37,14 +42,14 @@ Your application can retrieve the identifiers for events supported by a device u
 
 | Interface                                                                                      | Description                                               |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| [**IPortableDeviceCapabilities Interface**](iportabledevicecapabilities.md)                   | Provides access to the supported-event retrieval methods. |
+| [**IPortableDeviceCapabilities Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities?branch=master)                   | Provides access to the supported-event retrieval methods. |
 | [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md) | Used to enumerate and store functional-category data.     |
 
 
 
  
 
-The first task accomplished by the sample application is the retrieval of an [**IPortableDeviceCapabilities**](iportabledevicecapabilities.md) object, which is used to retrieve the events supported by the given device.
+The first task accomplished by the sample application is the retrieval of an [**IPortableDeviceCapabilities**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities?branch=master) object, which is used to retrieve the events supported by the given device.
 
 
 ```C++
@@ -71,7 +76,7 @@ if (FAILED(hr))
 
 
 
-The supported events are retrieved by calling the [**IPortableDeviceCapabilities::GetSupportedEvents**](iportabledevicecapabilities-getsupportedevents.md) method. This method retrieves a collection of event identifiers for the given device and stores them in an [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) object pointed to by the pEvents argument.
+The supported events are retrieved by calling the [**IPortableDeviceCapabilities::GetSupportedEvents**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedevents?branch=master) method. This method retrieves a collection of event identifiers for the given device and stores them in an [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) object pointed to by the pEvents argument.
 
 
 ```C++
@@ -140,10 +145,10 @@ if (SUCCEEDED(hr))
 [**Event Constants**](event-constants.md)
 </dt> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceCapabilities Interface**](iportabledevicecapabilities.md)
+[**IPortableDeviceCapabilities Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities?branch=master)
 </dt> <dt>
 
 [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md)

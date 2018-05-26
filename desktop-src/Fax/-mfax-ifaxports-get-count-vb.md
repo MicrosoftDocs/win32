@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Count property returns the number of fax ports attached to the connected fax server.'
-ms.assetid: '57554537-c95f-430a-849e-d666217402dc'
-title: 'FaxPorts.Count property'
+---
+Description: The Count property returns the number of fax ports attached to the connected fax server.
+ms.assetid: 57554537-c95f-430a-849e-d666217402dc
+title: FaxPorts.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPorts.Count property

@@ -1,7 +1,12 @@
 ---
-Description: 'Turns DNS64 on.'
-ms.assetid: '2b0dc83f-4a26-47e4-a0ea-031219e287cd'
-title: 'Enable method of the MSFT\_NetDnsTransitionConfiguration class'
+Description: Turns DNS64 on.
+ms.assetid: 2b0dc83f-4a26-47e4-a0ea-031219e287cd
+title: Enable method of the MSFT\_NetDnsTransitionConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enable method of the MSFT\_NetDnsTransitionConfiguration class
@@ -13,8 +18,8 @@ Turns DNS64 on.
 
 ```mof
 uint32 Enable(
-  [in]  boolean                            PassThru,
-  [out] MSFT_NetDnsTransitionConfiguration OutputObject
+  [in]  boolean                            PassThru,
+  [out] MSFT_NetDnsTransitionConfiguration OutputObject
 );
 ```
 
@@ -44,8 +49,8 @@ Receives the [**MSFT\_NetDnsTransitionConfiguration**](msft-netdnstransitionconf
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
@@ -59,9 +64,9 @@ Receives the [**MSFT\_NetDnsTransitionConfiguration**](msft-netdnstransitionconf
 [**MSFT\_NetDnsTransitionConfiguration**](msft-netdnstransitionconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

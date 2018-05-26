@@ -1,8 +1,11 @@
 ---
 title: IMessenger2 CreateGroup method
 description: Creates a new group to the MessengerGroups collection object.
-ms.assetid: '3879d150-9693-4ea7-9d8c-64a52e5e2db3'
-keywords: ["CreateGroup method Windows Messenger", "CreateGroup method Windows Messenger , IMessenger2 interface", "IMessenger2 interface Windows Messenger , CreateGroup method"]
+ms.assetid: 3879d150-9693-4ea7-9d8c-64a52e5e2db3
+keywords:
+- CreateGroup method Windows Messenger
+- CreateGroup method Windows Messenger , IMessenger2 interface
+- IMessenger2 interface Windows Messenger , CreateGroup method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger2::CreateGroup method
 
-\[**CreateGroup** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**CreateGroup** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Creates a new group to the [**MessengerGroups**](im-messengergroups.md) collection object.
 
@@ -24,9 +32,9 @@ Creates a new group to the [**MessengerGroups**](im-messengergroups.md) collecti
 
 ```C++
 HRESULT CreateGroup(
-  [in]          BSTR      bstrName,
-  [in]          VARIANT   vService,
-  [out, retval] IDispatch **ppGroup
+  [in]          BSTR      bstrName,
+  [in]          VARIANT   vService,
+  [out, retval] IDispatch **ppGroup
 );
 ```
 
@@ -84,11 +92,11 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
-Some services, such as Microsoft Exchange Instant Messaging Service (IM), do not support groups. Using this method on these services will return the error, **MSGR\_E\_GROUPS\_NOT\_ENABLED**.
+Some services, such as Microsoft Exchange Instant Messaging Service (IM), do not support groups. Using this method on these services will return the error, **MSGR\_E\_GROUPS\_NOT\_ENABLED**.
 
 The **CreateGroup** method will look for a group name (*bstrName*) in the local user list of groups for the service (*vService*). If not found, the method will attempt to create a new group. To check the success of the creation of a new group, use [**OnGroupAdded**](im-dmessengerevents-ongroupadded.md).
 
@@ -97,7 +105,7 @@ The service parameter (*vService*) can be a string that contains the service ID,
 > [!Note]  
 > This method is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -105,8 +113,8 @@ The service parameter (*vService*) can be a string that contains the service ID,
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -123,9 +131,9 @@ The service parameter (*vService*) can be a string that contains the service ID,
 [**IMessengerGroups**](im-imessengergroups.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

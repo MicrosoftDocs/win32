@@ -1,8 +1,23 @@
 ---
 title: Managing Playlists
 description: Managing Playlists
-ms.assetid: '6ece2410-0379-4cba-9f2e-9dbb99977c91'
-keywords: ["Windows Media Player,playlists", "Windows Media Player object model,playlists", "object model,playlists", "Windows Media Player Mobile,playlists", "Windows Media Player ActiveX control,playlists", "Windows Media Player Mobile ActiveX control,playlists", "ActiveX control,playlists", "playlists,managing", "metafile playlists,managing", "Windows Media metafile playlists,managing"]
+ms.assetid: 6ece2410-0379-4cba-9f2e-9dbb99977c91
+keywords:
+- Windows Media Player,playlists
+- Windows Media Player object model,playlists
+- object model,playlists
+- Windows Media Player Mobile,playlists
+- Windows Media Player ActiveX control,playlists
+- Windows Media Player Mobile ActiveX control,playlists
+- ActiveX control,playlists
+- playlists,managing
+- metafile playlists,managing
+- Windows Media metafile playlists,managing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Playlists

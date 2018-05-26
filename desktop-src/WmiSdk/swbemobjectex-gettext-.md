@@ -1,18 +1,21 @@
 ---
-Description: 'Returns an XML representation of an object or instance. The text file is formatted in the XML format specified as shown in WbemObjectTextFormatEnum.'
+Description: Returns an XML representation of an object or instance. The text file is formatted in the XML format specified as shown in WbemObjectTextFormatEnum.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '98961d94-8360-4ed7-b1b1-20b4fca45d45'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 98961d94-8360-4ed7-b1b1-20b4fca45d45
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObjectEx.GetText\_ method'
+title: SWbemObjectEx.GetText\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectEx.GetText\_ method
 
-The **GetText\_** method of the [**SWbemObjectEx**](swbemobjectex.md) object returns an XML representation of an object or instance. The text file is formatted in the XML format specified as shown in [**WbemObjectTextFormatEnum**](wbemobjecttextformatenum.md).
+The **GetText\_** method of the [**SWbemObjectEx**](swbemobjectex.md) object returns an XML representation of an object or instance. The text file is formatted in the XML format specified as shown in [**WbemObjectTextFormatEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemobjecttextformatenum?branch=master).
 
 For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).
 
@@ -36,7 +39,7 @@ strObj = .GetText_( _
 *iTextFormat* \[in\]
 </dt> <dd>
 
-Required. A value from [**WbemObjectTextFormatEnum**](wbemobjecttextformatenum.md) that specifies the resulting XML format.
+Required. A value from [**WbemObjectTextFormatEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemobjecttextformatenum?branch=master) that specifies the resulting XML format.
 
 </dd> <dt>
 
@@ -141,7 +144,7 @@ When constructing your [**SWbemNamedValueSet**](swbemnamedvalueset.md), only the
 
 
 
- 
+ 
 
 For more information about creating an [**SWbemNamedValueSet**](swbemnamedvalueset.md), see [**SWbemNamedValueSet.Add**](swbemnamedvalueset-add.md).
 
@@ -170,8 +173,8 @@ wscript.echo Text
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -180,9 +183,9 @@ wscript.echo Text
 
 
 
- 
+ 
 
- 
+ 
 
 
 

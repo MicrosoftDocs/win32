@@ -1,7 +1,12 @@
 ---
 title: Common Dialog Box Notifications
 description: .
-ms.assetid: '09b717f1-b6f8-4436-9c08-0b51767b9518'
+ms.assetid: 09b717f1-b6f8-4436-9c08-0b51767b9518
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Dialog Box Notifications

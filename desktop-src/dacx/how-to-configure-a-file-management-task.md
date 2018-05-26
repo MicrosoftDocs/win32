@@ -4,11 +4,15 @@ description: A file management task identifies a set of files given a set of cri
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '02860A9D-5B6C-47F0-85A8-AFEAAB3C0EB0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'dynamic-access-control'
+ms.assetid: 02860A9D-5B6C-47F0-85A8-AFEAAB3C0EB0
+ms.prod: windows-server-dev
+ms.technology: dynamic-access-control
 ms.tgt_platform: multiple
-keywords: ["Dynamic Access Control developer extensibility DACx , configure a file management task"]
+keywords:
+- Dynamic Access Control developer extensibility DACx , configure a file management task
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to configure a file management task

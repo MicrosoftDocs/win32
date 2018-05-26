@@ -1,8 +1,19 @@
 ---
-title: Discovering a File's Format
-description: Discovering a File's Format
-ms.assetid: 'f1b3f811-8161-41ca-a92c-2735c0bec2e8'
-keywords: ["Windows Media Device Manager,file formats", "Device Manager,file formats", "programming guide,file formats", "desktop applications,file formats", "creating Windows Media Device Manager applications,file formats", "writing files to devices,file formats"]
+title: Discovering a Files Format
+description: Discovering a Files Format
+ms.assetid: f1b3f811-8161-41ca-a92c-2735c0bec2e8
+keywords:
+- Windows Media Device Manager,file formats
+- Device Manager,file formats
+- programming guide,file formats
+- desktop applications,file formats
+- creating Windows Media Device Manager applications,file formats
+- writing files to devices,file formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Discovering a File's Format

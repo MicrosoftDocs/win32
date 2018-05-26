@@ -1,8 +1,11 @@
 ---
 title: Activity SetTrace method
 description: Sets Trace settings of the Activity.
-ms.assetid: '1CA3390A-DC21-49C4-AF95-E443D621E3E0'
-keywords: ["SetTrace method Access Execution Engine", "SetTrace method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , SetTrace method"]
+ms.assetid: 1CA3390A-DC21-49C4-AF95-E443D621E3E0
+keywords:
+- SetTrace method Access Execution Engine
+- SetTrace method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , SetTrace method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::SetTrace method
@@ -22,9 +30,9 @@ Sets [**Trace**](trace-struct.md) settings of the **Activity**.
 
 ```C++
 virtual HRESULT SetTrace(
-  [in]            LPCWSTR traceFile,
-  [in, optional]  LPCWSTR traceLink,
-  [out, optional] Trace   **trace
+  [in]            LPCWSTR traceFile,
+  [in, optional]  LPCWSTR traceLink,
+  [out, optional] Trace   **trace
 ) = 0;
 ```
 
@@ -75,8 +83,8 @@ The trace link is the value of element **Activity/Trace/Link**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -89,9 +97,9 @@ The trace link is the value of element **Activity/Trace/Link**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

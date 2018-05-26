@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following section data properties.'
-ms.assetid: '8760d963-fc07-4b54-aa24-5725f4b95ed2'
+Description: Windows Portable Devices supports the following section data properties.
+ms.assetid: 8760d963-fc07-4b54-aa24-5725f4b95ed2
 title: Section Attribute Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Section Attribute Properties
@@ -19,7 +24,7 @@ Windows Portable Devices supports the following section data properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -38,9 +43,9 @@ Windows Portable Devices supports the following section data properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

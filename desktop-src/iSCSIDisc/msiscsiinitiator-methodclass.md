@@ -1,7 +1,12 @@
-﻿---
-Description: 'This MSIscsiInitiator\_MethodClass structure contains all miscellaneous operation methods associated with the iSCSI Initiator.'
-ms.assetid: '2f5637fd-fc64-4887-8774-949e65620e59'
-title: 'MSIscsiInitiator\_MethodClass class'
+---
+Description: This MSIscsiInitiator\_MethodClass structure contains all miscellaneous operation methods associated with the iSCSI Initiator.
+ms.assetid: 2f5637fd-fc64-4887-8774-949e65620e59
+title: MSIscsiInitiator\_MethodClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_MethodClass class

@@ -1,14 +1,19 @@
 ---
 Description: Proxy Locator Configuration Settings
-ms.assetid: 'd74a85cf-293e-4322-9aff-55b06d6fda5e'
+ms.assetid: d74a85cf-293e-4322-9aff-55b06d6fda5e
 title: Proxy Locator Configuration Settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Proxy Locator Configuration Settings
 
 This topic describes the configuration settings for the default proxy locator. For information about creating the proxy locator with custom configuration settings, see [How to Configure the Proxy Locator](how-to-configure-the-proxy-locator.md).
 
-The proxy locator can be configured to operate in three modes: *manual mode*, *auto-detect mode*, and *browser mode*. The values are defined in [**MFNET\_PROXYSETTINGS**](mfnet-proxysettings.md) enumeration. The application can configure the mode by setting the [**MFNETSOURCE\_PROXYSETTINGS**](mfnetsource-proxysettings-property.md) property. The proxy locator can also be configured not to use a proxy server by setting this property to **MFNET\_PROXYSETTING\_NONE**. The proxy server is not used if the media server is a local host or the application requests a class A address (127.x.x.x)—reserved for loopback tests.
+The proxy locator can be configured to operate in three modes: *manual mode*, *auto-detect mode*, and *browser mode*. The values are defined in [**MFNET\_PROXYSETTINGS**](/windows/win32/mfidl/ne-mfidl-_mfnet_proxysettings?branch=master) enumeration. The application can configure the mode by setting the [**MFNETSOURCE\_PROXYSETTINGS**](mfnetsource-proxysettings-property.md) property. The proxy locator can also be configured not to use a proxy server by setting this property to **MFNET\_PROXYSETTING\_NONE**. The proxy server is not used if the media server is a local host or the application requests a class A address (127.x.x.x)—reserved for loopback tests.
 
 > \[!Caution\]  
 > A proxy server is a security barrier between your intranet and the Internet. Not using a proxy server can expose the network to security threats.

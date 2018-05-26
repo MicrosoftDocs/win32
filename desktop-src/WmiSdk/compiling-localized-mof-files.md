@@ -1,13 +1,16 @@
 ---
-Description: 'You must compile your master MOF file to create the language-neutral and language-specific MOF files.'
+Description: You must compile your master MOF file to create the language-neutral and language-specific MOF files.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ae2fa320-8294-4991-be30-403088c34b7a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ae2fa320-8294-4991-be30-403088c34b7a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Compiling Localized MOF Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Compiling Localized MOF Files

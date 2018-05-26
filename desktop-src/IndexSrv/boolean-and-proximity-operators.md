@@ -1,7 +1,12 @@
 ---
 title: Boolean and Proximity Operators
 description: Boolean and Proximity Operators
-ms.assetid: '8fdd3367-040b-41ca-8d8b-4e6a4c6d14fe'
+ms.assetid: 8fdd3367-040b-41ca-8d8b-4e6a4c6d14fe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Boolean and Proximity Operators

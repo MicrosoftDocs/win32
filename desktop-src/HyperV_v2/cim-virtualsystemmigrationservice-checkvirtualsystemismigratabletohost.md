@@ -1,7 +1,12 @@
 ---
-Description: 'Method to perform a pre-check to determine whether a virtual system is likely to be successfully migrated to a target host specified by a network name or IP address.'
-ms.assetid: 'bfcd4063-30fe-4d18-9df9-7b84a680814c'
-title: 'CheckVirtualSystemIsMigratableToHost method of the CIM\_VirtualSystemMigrationService class'
+Description: Method to perform a pre-check to determine whether a virtual system is likely to be successfully migrated to a target host specified by a network name or IP address.
+ms.assetid: bfcd4063-30fe-4d18-9df9-7b84a680814c
+title: CheckVirtualSystemIsMigratableToHost method of the CIM\_VirtualSystemMigrationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CheckVirtualSystemIsMigratableToHost method of the CIM\_VirtualSystemMigrationService class
@@ -17,12 +22,12 @@ Note: This method is intended as a transitional solution only until modeling of 
 
 ```mof
 uint32 CheckVirtualSystemIsMigratableToHost(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  string                 DestinationHost,
-  [in]  string                 MigrationSettingData,
-  [in]  string                 NewSystemSettingData,
-  [in]  string                 NewResourceSettingData[],
-  [out] boolean                IsMigratable
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  string                 DestinationHost,
+  [in]  string                 MigrationSettingData,
+  [in]  string                 NewSystemSettingData,
+  [in]  string                 NewResourceSettingData[],
+  [out] boolean                IsMigratable
 );
 ```
 
@@ -97,7 +102,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -105,8 +110,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -120,9 +125,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_VirtualSystemMigrationService**](cim-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

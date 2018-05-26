@@ -1,8 +1,9 @@
 ---
 title: WM\_POINTERDOWN message
 description: Posted when a pointer makes contact over the client area of a window.
-ms.assetid: '3bdc37da-227c-4be1-bf0b-99704b8ac000'
-keywords: ["WM_POINTERDOWN message Input Messages and Notifications"]
+ms.assetid: 3bdc37da-227c-4be1-bf0b-99704b8ac000
+keywords:
+- WM_POINTERDOWN message Input Messages and Notifications
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_POINTERDOWN message
@@ -22,7 +28,7 @@ A window receives this message through its [**WindowProc**](https://msdn.microso
 > \[!Important\]  
 > Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
 
- 
+ 
 
 
 ```C++
@@ -61,7 +67,7 @@ Contains information about the pointer. Use the following macros to retrieve inf
     > [!Note]  
     > A hovering pointer has none of the button flags set. This is analogous to a mouse move with no mouse buttons down. An application can determine the buttons states of a hovering pen, for example, by calling [**GetPointerPenInfo**](getpointerpeninfo.md) and examining the flags that specify button states.
 
-     
+     
 
 </dd> <dt>
 
@@ -73,7 +79,7 @@ Contains the point location of the pointer.
 > [!Note]  
 > Because the pointer may make contact with the device over a non-trivial area, this point location may be a simplification of a more complex pointer area. Whenever possible, an application should use the complete pointer area information instead of the point location.
 
- 
+ 
 
 Use the following macros to retrieve the physical screen coordinates of the point.
 
@@ -93,7 +99,7 @@ If the application does not process this message, it should call [**DefWindowPro
 > \[!Important\]  
 > When a window loses capture of a pointer and it receives the [**WM\_POINTERCAPTURECHANGED**](wm-pointercapturechanged.md) notification, it typically will not receive any further notifications. For this reason, it is important that you not make any assumptions based on evenly paired **WM\_POINTERDOWN**/[**WM\_POINTERUP**](wm-pointerup.md) or [**WM\_POINTERENTER**](wm-pointerenter.md)/[**WM\_POINTERLEAVE**](wm-pointerleave.md) notifications.
 
- 
+ 
 
 Each pointer has a unique pointer identifier during its lifetime. The lifetime of a pointer begins when it is first detected.
 
@@ -241,8 +247,8 @@ default:
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -290,9 +296,9 @@ default:
 [**IS\_POINTER\_FIFTHBUTTON\_WPARAM**](is-pointer-fifthbutton-wparam.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

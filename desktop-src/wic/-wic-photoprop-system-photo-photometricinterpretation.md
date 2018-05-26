@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.PhotometricInterpretation property.'
-ms.assetid: 'ff36b2c3-8763-4640-a049-b5880fd26929'
-title: 'System.Photo.PhotometricInterpretation Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.PhotometricInterpretation property.
+ms.assetid: ff36b2c3-8763-4640-a049-b5880fd26929
+title: System.Photo.PhotometricInterpretation Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.PhotometricInterpretation Photo Metadata Policy

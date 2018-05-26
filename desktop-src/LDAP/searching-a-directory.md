@@ -4,26 +4,30 @@ description: Search is the most common directory activity.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '38482501-faa1-4055-9758-e1e0a4199688'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 38482501-faa1-4055-9758-e1e0a4199688
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Searching a Directory LDAP"]
+keywords:
+- Searching a Directory LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Searching a Directory
 
-Search is the most common directory activity. The LDAP API includes a variety of search criteria and result-retrieval methods to find directory data. As with other LDAP operations, you can perform a search synchronously or asynchronously. Extensions to the base LDAP API enable you to add sorting criteria and other extensions to your search request. Three settings in the [**LDAP**](ldap.md) structure affect a search:
+Search is the most common directory activity. The LDAP API includes a variety of search criteria and result-retrieval methods to find directory data. As with other LDAP operations, you can perform a search synchronously or asynchronously. Extensions to the base LDAP API enable you to add sorting criteria and other extensions to your search request. Three settings in the [**LDAP**](/windows/previous-versions/Winldap/ns-winldap-ldap?branch=master) structure affect a search:
 
 -   The **LDAP\_OPT\_SIZELIMIT** option limits the number of results returned from a search.
 -   The **LDAP\_OPT\_TIMELIMIT** option limits the amount of time to spend on a search.
 -   The **LDAP\_OPT\_DEREF** option determines when, or if, aliases are dereferenced during a search.
 
-The [**ldap\_search**](ldap-search.md) and [**ldap\_search\_s**](ldap-search-s.md) functions are the original (LDAP 2) asynchronous and synchronous search functions. To specify a local timeout for a synchronous search, use [**ldap\_search\_st**](ldap-search-st.md). The extended functions [**ldap\_search\_ext**](ldap-search-ext.md) and [**ldap\_search\_ext\_s**](ldap-search-ext-s.md) support LDAP 3 server controls and client controls, and enable you to specify varying size and time limits for each search operation.
+The [**ldap\_search**](/windows/previous-versions/Winldap/nf-winldap-ldap_search?branch=master) and [**ldap\_search\_s**](/windows/previous-versions/Winldap/nf-winldap-ldap_search_s?branch=master) functions are the original (LDAP 2) asynchronous and synchronous search functions. To specify a local timeout for a synchronous search, use [**ldap\_search\_st**](/windows/previous-versions/Winldap/nf-winldap-ldap_search_st?branch=master). The extended functions [**ldap\_search\_ext**](/windows/previous-versions/Winldap/nf-winldap-ldap_search_ext?branch=master) and [**ldap\_search\_ext\_s**](/windows/previous-versions/Winldap/nf-winldap-ldap_search_ext_s?branch=master) support LDAP 3 server controls and client controls, and enable you to specify varying size and time limits for each search operation.
 
-For more information, see [Synchronous and Asynchronous Calls](synchronous-vs--asynchronous-calls.md), [**ldap\_search\_init\_page**](ldap-search-init-page.md), and [**ldap\_search\_abandon\_page**](ldap-search-abandon-page.md).
+For more information, see [Synchronous and Asynchronous Calls](synchronous-vs--asynchronous-calls.md), [**ldap\_search\_init\_page**](/windows/previous-versions/Winldap/nf-winldap-ldap_search_init_page?branch=master), and [**ldap\_search\_abandon\_page**](/windows/previous-versions/Winldap/nf-winldap-ldap_search_abandon_page?branch=master).
 
-The following C++ code example shows how to use LDAP functions to initialize, connect to, and perform a synchronous search of an Active Directory, and it outputs the search results to a command prompt window. It lists the first ten, or fewer, users and the names and values of a selected subset of attributes for the user. To retrieve the value of an attribute whose type is a null-terminated character string, use [**ldap\_get\_values**](ldap-get-values.md), but for an attribute which contains binary data you should use [**ldap\_get\_values\_len**](ldap-get-values-len.md). Determining the type for each attribute can become complex, and is not shown in this code example. Due to the complexity of this operation, it is recommended that, when possible, you use the ADSI interface for searching Active Directory, where much of the complexity has been minimized. However, if you must use LDAP in your application, the following code example should help.
+The following C++ code example shows how to use LDAP functions to initialize, connect to, and perform a synchronous search of an Active Directory, and it outputs the search results to a command prompt window. It lists the first ten, or fewer, users and the names and values of a selected subset of attributes for the user. To retrieve the value of an attribute whose type is a null-terminated character string, use [**ldap\_get\_values**](/windows/previous-versions/Winldap/nf-winldap-ldap_get_values?branch=master), but for an attribute which contains binary data you should use [**ldap\_get\_values\_len**](/windows/previous-versions/Winldap/nf-winldap-ldap_get_values_len?branch=master). Determining the type for each attribute can become complex, and is not shown in this code example. Due to the complexity of this operation, it is recommended that, when possible, you use the ADSI interface for searching Active Directory, where much of the complexity has been minimized. However, if you must use LDAP in your application, the following code example should help.
 
 The following code example:
 
@@ -39,7 +43,7 @@ The following code example:
 
 -   Searches the Active Directory.
 
-    Here, a filter is supplied that determines what kind of objects to search for, in this case, the "user" class. The search returns the requested objects, called entries, to the [**LDAPMessage**](ldapmessage.md) structure. The parsing of the results is done on this returned message.
+    Here, a filter is supplied that determines what kind of objects to search for, in this case, the "user" class. The search returns the requested objects, called entries, to the [**LDAPMessage**](/windows/previous-versions/Winldap/ns-winldap-ldapmsg?branch=master) structure. The parsing of the results is done on this returned message.
 
 -   Retrieves the number of entries in the returned message.
 

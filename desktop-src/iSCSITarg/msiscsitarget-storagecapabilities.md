@@ -4,13 +4,15 @@ description: Defines the capabilities of a storage service or MSISCSITARGET\_Sto
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6874998b-eb10-4973-b716-66ad22331b66'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6874998b-eb10-4973-b716-66ad22331b66
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_StorageCapabilities class iSCSI Software Target API", "MSISCSITARGET_StorageCapabilities class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_StorageCapabilities class iSCSI Software Target API
+- MSISCSITARGET_StorageCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -38,6 +40,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_StorageCapabilities class
@@ -52,25 +57,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Version("1.0.0")]
 class MSISCSITARGET_StorageCapabilities : CIM_StorageCapabilities
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  uint16  ElementType;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  uint16  ElementType;
   boolean NoSinglePointOfFailure;
   boolean NoSinglePointOfFailureDefault;
-  uint16  DataRedundancyMax;
-  uint16  DataRedundancyMin;
-  uint16  DataRedundancyDefault;
-  uint16  PackageRedundancyMax;
-  uint16  PackageRedundancyMin;
-  uint16  PackageRedundancyDefault;
-  uint16  DeltaReservationMax;
-  uint16  DeltaReservationMin;
-  uint16  DeltaReservationDefault;
-  uint16  ExtentStripeLengthDefault;
-  uint16  ParityLayoutDefault;
-  uint64  UserDataStripeDepthDefault;
+  uint16  DataRedundancyMax;
+  uint16  DataRedundancyMin;
+  uint16  DataRedundancyDefault;
+  uint16  PackageRedundancyMax;
+  uint16  PackageRedundancyMin;
+  uint16  PackageRedundancyDefault;
+  uint16  DeltaReservationMax;
+  uint16  DeltaReservationMin;
+  uint16  DeltaReservationDefault;
+  uint16  ExtentStripeLengthDefault;
+  uint16  ParityLayoutDefault;
+  uint64  UserDataStripeDepthDefault;
 };
 ```
 
@@ -98,7 +103,7 @@ The **MSISCSITARGET\_StorageCapabilities** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -530,7 +535,7 @@ This property is inherited from [**CIM\_StorageCapabilities**](cim-storagecapabi
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -553,9 +558,9 @@ This property is inherited from [**CIM\_StorageCapabilities**](cim-storagecapabi
 [**MSISCSITARGET\_StorageSetting**](msiscsitarget-storagesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

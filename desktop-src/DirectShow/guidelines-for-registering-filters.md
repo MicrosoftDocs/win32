@@ -1,15 +1,20 @@
 ---
 Description: Guidelines for Registering Filters
-ms.assetid: '05945937-9e01-4930-ae95-1931a711b55e'
+ms.assetid: 05945937-9e01-4930-ae95-1931a711b55e
 title: Guidelines for Registering Filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Guidelines for Registering Filters
 
 The filter registry information determines how the Filter Graph Manager functions during [Intelligent Connect](intelligent-connect.md). Thus, it affects every application written for DirectShow, not just the ones that will use your filter. You should make sure that your filter behaves correctly, by following these guidelines.
 
-1.  Do you need the filter data in the registry? For many custom filters, there is no reason to make the filter visible to the Filter Mapper or the System Device Enumerator. As long as you register the DLL, your application can create the filter using **CoCreateInstance**. In that case, simply omit the [**AMOVIESETUP\_FILTER**](amoviesetup-filter.md) structure from the factory template. (One drawback is that your filter will not be visible in GraphEdit. To get around this, you can create a private "Testing" category using the [**IFilterMapper2::CreateCategory**](ifiltermapper2-createcategory.md) method. You should only do this for debug builds.)
-2.  Choose the correct filter category. The default "DirectShow Filters" category is for general purpose filters. Whenever appropriate, register your filter in a more specific category. When [**IFilterMapper2**](ifiltermapper2.md) searches for a filter, it ignores any category whose merit is MERIT\_DO\_NOT\_USE or less. Categories not intended for normal playback have low merit.
+1.  Do you need the filter data in the registry? For many custom filters, there is no reason to make the filter visible to the Filter Mapper or the System Device Enumerator. As long as you register the DLL, your application can create the filter using **CoCreateInstance**. In that case, simply omit the [**AMOVIESETUP\_FILTER**](amoviesetup-filter.md) structure from the factory template. (One drawback is that your filter will not be visible in GraphEdit. To get around this, you can create a private "Testing" category using the [**IFilterMapper2::CreateCategory**](/windows/win32/Strmif/nf-strmif-ifiltermapper2-createcategory?branch=master) method. You should only do this for debug builds.)
+2.  Choose the correct filter category. The default "DirectShow Filters" category is for general purpose filters. Whenever appropriate, register your filter in a more specific category. When [**IFilterMapper2**](/windows/win32/Strmif/nn-strmif-ifiltermapper2?branch=master) searches for a filter, it ignores any category whose merit is MERIT\_DO\_NOT\_USE or less. Categories not intended for normal playback have low merit.
 3.  Avoid specifying MEDIATYPE\_None, MEDIASUBTYPE\_None, or GUID\_NULL in the [**AMOVIESETUP\_MEDIATYPE**](amoviesetup-mediatype.md) information for a pin. **IFilterMapper2** treats these as wildcards, which can slow the graph-building process.
 4.  Choose the lowest merit value possible. Here are some guidelines:
 

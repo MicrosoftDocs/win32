@@ -1,8 +1,15 @@
 ---
 title: Using the MCI\_NOTIFY Flag
 description: Using the MCI\_NOTIFY Flag
-ms.assetid: '1d1803c8-f315-463e-ae0d-a258aa3af3c9'
-keywords: ["MCI_NOTIFY flag", "MCI_PLAY command"]
+ms.assetid: 1d1803c8-f315-463e-ae0d-a258aa3af3c9
+keywords:
+- MCI_NOTIFY flag
+- MCI_PLAY command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the MCI\_NOTIFY Flag

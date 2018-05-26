@@ -1,7 +1,12 @@
 ---
 title: Power Meter Provider
 description: The Power Meter provider supports the Power Metering and Budgeting (PMB) interface. These WMI classes are the primary interface for the query of Power Meter Interface (PMI) information from underlying power meters on the system.
-ms.assetid: '820B1BD0-B1D3-4B05-9152-DC465FB66038'
+ms.assetid: 820B1BD0-B1D3-4B05-9152-DC465FB66038
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Power Meter Provider
@@ -19,11 +24,11 @@ The PMB WMI class objects conform to version 1.1.0 of the Distributed Management
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

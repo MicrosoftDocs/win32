@@ -1,7 +1,12 @@
 ---
-Description: 'Each Certificate Enrollment Control property is read/write and has an initialized default as well as a set of acceptable values.'
-ms.assetid: 'e31dd6df-bc2a-401f-9343-a7dbb0f374bb'
+Description: Each Certificate Enrollment Control property is read/write and has an initialized default as well as a set of acceptable values.
+ms.assetid: e31dd6df-bc2a-401f-9343-a7dbb0f374bb
 title: Using the Certificate Enrollment Control Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Certificate Enrollment Control Properties
@@ -10,20 +15,20 @@ Each Certificate Enrollment Control property is read/write and has an initialize
 
 Note, however, that after calling the following methods
 
--   [**acceptPKCS7**](icenroll4-acceptpkcs7.md)
--   [**acceptFilePKCS7**](icenroll4-acceptfilepkcs7.md)
--   [**createPKCS10**](icenroll4-createpkcs10.md)
--   [**createFilePKCS10**](icenroll4-createfilepkcs10.md)
+-   [**acceptPKCS7**](/windows/win32/Xenroll/nf-xenroll-icenroll-acceptpkcs7?branch=master)
+-   [**acceptFilePKCS7**](/windows/win32/Xenroll/nf-xenroll-icenroll-acceptfilepkcs7?branch=master)
+-   [**createPKCS10**](/windows/win32/Xenroll/nf-xenroll-icenroll-createpkcs10?branch=master)
+-   [**createFilePKCS10**](/windows/win32/Xenroll/nf-xenroll-icenroll-createfilepkcs10?branch=master)
 
 the following properties are blocked from being reset
 
--   [**ProviderType**](icenroll4-providertype.md)
--   [**KeySpec**](icenroll4-keyspec.md)
--   [**ProviderFlags**](icenroll4-providerflags.md)
--   [**ContainerName**](icenroll4-containername.md)
--   [**ProviderName**](icenroll4-providername.md)
+-   [**ProviderType**](/windows/win32/Xenroll/?branch=master)
+-   [**KeySpec**](/windows/win32/Xenroll/?branch=master)
+-   [**ProviderFlags**](/windows/win32/Xenroll/?branch=master)
+-   [**ContainerName**](/windows/win32/Xenroll/?branch=master)
+-   [**ProviderName**](/windows/win32/Xenroll/?branch=master)
 
-unless the [**ICEnroll4::Reset**](icenroll4-reset.md) method is called.
+unless the [**ICEnroll4::Reset**](/windows/win32/Xenroll/nf-xenroll-icenroll3-reset?branch=master) method is called.
 
 For information about individual properties and methods, see the reference topics for those properties and methods in the [Cryptography Reference](cryptography-reference.md).
 

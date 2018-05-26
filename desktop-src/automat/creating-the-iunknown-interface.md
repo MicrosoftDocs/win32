@@ -1,7 +1,12 @@
 ---
 title: Creating the IUnknown Interface
 description: The IUnknown interface defines three member functions that must be implemented for each object that is exposed.
-ms.assetid: '6cf53e96-fe7c-4702-9729-9eafbee8d89c'
+ms.assetid: 6cf53e96-fe7c-4702-9729-9eafbee8d89c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the IUnknown Interface

@@ -1,8 +1,9 @@
 ---
 title: Settings.volume
 description: The volume property specifies or retrieves the current volume.
-ms.assetid: '60143eff-3a34-43eb-a86d-641c2a5cfc01'
-keywords: ["Settings.volume Windows Media Player"]
+ms.assetid: 60143eff-3a34-43eb-a86d-641c2a5cfc01
+keywords:
+- Settings.volume Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.volume
@@ -47,9 +53,9 @@ Zero specifies no volume and 100 specifies full volume. If no value is specified
 [**Settings Object**](settings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

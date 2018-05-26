@@ -1,7 +1,12 @@
 ---
-Description: 'Synchronization values can be automatically determined or constrained by the configuration of other properties, such as transactional requirements and just-in-time (JIT) activation.'
-ms.assetid: '16771121-cb10-42b4-babc-59270188495a'
+Description: Synchronization values can be automatically determined or constrained by the configuration of other properties, such as transactional requirements and just-in-time (JIT) activation.
+ms.assetid: 16771121-cb10-42b4-babc-59270188495a
 title: Synchronization Dependencies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Synchronization Dependencies
@@ -26,7 +31,7 @@ The following tables show the characteristics of the COM+ synchronization attrib
 
 
 
- 
+ 
 
 ### JIT Activation
 
@@ -39,7 +44,7 @@ The following tables show the characteristics of the COM+ synchronization attrib
 
 
 
- 
+ 
 
 For more detail about how transaction, JIT Activation, and Synchronization attributes behave together, see [Configuring Transactions](configuring-transactions.md).
 
@@ -53,9 +58,9 @@ For more detail about how transaction, JIT Activation, and Synchronization attri
 [Synchronization Attribute Values](synchronization-attribute-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

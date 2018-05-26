@@ -1,7 +1,12 @@
 ---
-Description: 'The SetMediaType method is called when the media type is set on one of the filter''s pins.'
-ms.assetid: '3e505036-7fa6-42cf-a683-3a39a43d209d'
-title: 'CTransformFilter.SetMediaType method'
+Description: The SetMediaType method is called when the media type is set on one of the filters pins.
+ms.assetid: 3e505036-7fa6-42cf-a683-3a39a43d209d
+title: CTransformFilter.SetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.SetMediaType method
@@ -13,8 +18,8 @@ The `SetMediaType` method is called when the media type is set on one of the fil
 
 ```C++
 virtual HRESULT SetMediaType(
-         PIN_DIRECTION direction,
-   const CMediaType    *pmt
+         PIN_DIRECTION direction,
+   const CMediaType    *pmt
 );
 ```
 
@@ -27,7 +32,7 @@ virtual HRESULT SetMediaType(
 *direction* 
 </dt> <dd>
 
-Member of the [**PIN\_DIRECTION**](pin-direction.md) enumerated type, specifying a pin on the filter (input or output).
+Member of the [**PIN\_DIRECTION**](/windows/win32/strmif/ne-strmif-_pindirection?branch=master) enumerated type, specifying a pin on the filter (input or output).
 
 </dd> <dt>
 
@@ -64,9 +69,9 @@ The [**CTransformInputPin::SetMediaType**](ctransforminputpin-setmediatype.md) a
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

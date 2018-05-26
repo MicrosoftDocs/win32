@@ -1,8 +1,9 @@
 ---
-title: \_VIDEOINFOHEADER structure
+title: '\_VIDEOINFOHEADER structure'
 description: The \_VIDEOINFOHEADER structure contains information about a video stream and includes a \_BITMAPINFOHEADER structure that defines the format of an individual frame.
-ms.assetid: '5a39d66e-8dbc-4572-8370-14f722b6c906'
-keywords: ["_VIDEOINFOHEADER structure windows Media Device Manager"]
+ms.assetid: 5a39d66e-8dbc-4572-8370-14f722b6c906
+keywords:
+- _VIDEOINFOHEADER structure windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_VIDEOINFOHEADER structure
@@ -22,11 +28,11 @@ The **\_VIDEOINFOHEADER** structure contains information about a video stream an
 
 ```C++
 typedef struct _tagVIDEOINFOHEADER {
-  RECT             rcSource;
-  RECT             rcTarget;
-  DWORD            dwBitRate;
-  DWORD            dwBitErrorRate;
-  REFERENCE_TIME   AvgTimePerFrame;
+  RECT             rcSource;
+  RECT             rcTarget;
+  DWORD            dwBitRate;
+  DWORD            dwBitErrorRate;
+  REFERENCE_TIME   AvgTimePerFrame;
   BITMAPINFOHEADER bmiHeader;
 } _VIDEOINFOHEADER;
 ```
@@ -99,9 +105,9 @@ Win32 **\_BITMAPINFOHEADER** structure that contains color and dimension informa
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

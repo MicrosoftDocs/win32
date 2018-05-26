@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by a media stream when the source starts without seeking. A media stream raises this event when the media source raises the MESourceStarted event.'
-ms.assetid: '6652e440-5de9-4767-b7a6-9d919ceece38'
+---
+Description: Raised by a media stream when the source starts without seeking. A media stream raises this event when the media source raises the MESourceStarted event.
+ms.assetid: 6652e440-5de9-4767-b7a6-9d919ceece38
 title: MEStreamStarted event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEStreamStarted event
@@ -10,7 +15,7 @@ Raised by a media stream when the source starts without seeking. A media stream 
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

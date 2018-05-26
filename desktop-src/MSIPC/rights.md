@@ -1,12 +1,12 @@
 ---
 title: Rights
-description: RMS SDK 2.1 defines the following rights.
+description: RMS SDK 2.1 defines the following rights.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '0BBFA336-5D7C-4256-99C9-6A70EC6C4452'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 0BBFA336-5D7C-4256-99C9-6A70EC6C4452
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -27,16 +27,19 @@ api_location:
 - Ipcprot.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Rights
 
-Rights Management Services SDK 2.1 defines the following rights, which are enforced by your application.
+Rights Management Services SDK 2.1 defines the following rights, which are enforced by your application.
 
 > [!Note]  
 > AD RMS-enabled applications can interpret these rights differently. This is intended as a general description for how these rights are typically used. Consult the documentation of the specific application for information about how these rights are enforced. For more information, see [AD RMS Policy Template Considerations](https://TechNet.Microsoft.Com/library/dd996658.aspx).
 
- 
+ 
 
 <dl> <dt>
 
@@ -92,7 +95,7 @@ Right to extract content from a protected format and place it in an unprotected 
 > [!Note]  
 > This right should not be used to decrypt files.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -207,15 +210,15 @@ Email applications: the right to reply all to an email.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

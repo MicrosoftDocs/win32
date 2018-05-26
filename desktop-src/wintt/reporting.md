@@ -1,7 +1,12 @@
 ---
 title: Reporting
 description: WTP generates two XML report files when it runs the troubleshooting pack ResultsReport.xml and DebugReport.xml.
-ms.assetid: '929bcc24-8381-4718-9bb5-c82271f21ed3'
+ms.assetid: 929bcc24-8381-4718-9bb5-c82271f21ed3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reporting

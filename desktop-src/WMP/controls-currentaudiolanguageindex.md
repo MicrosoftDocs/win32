@@ -1,8 +1,9 @@
 ---
 title: Controls.currentAudioLanguageIndex
 description: The currentAudioLanguageIndex property specifies or retrieves the one-based index that corresponds to the audio language for playback.
-ms.assetid: '9a1ae887-4e64-4758-a8a2-bf2e10a7a5c7'
-keywords: ["Controls.currentAudioLanguageIndex Windows Media Player"]
+ms.assetid: 9a1ae887-4e64-4758-a8a2-bf2e10a7a5c7
+keywords:
+- Controls.currentAudioLanguageIndex Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.currentAudioLanguageIndex
@@ -67,9 +73,9 @@ Use the **audioLanguageCount** property to get the number of supported audio lan
 [**Controls.getLanguageName**](controls-getlanguagename.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

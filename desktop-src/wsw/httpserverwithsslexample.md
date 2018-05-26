@@ -1,8 +1,16 @@
 ---
 title: HttpServerWithSslExample
 description: This example shows a TCP server that accepts a channel and receives and replies to messages, with SSL transport security.
-ms.assetid: '627b6ba8-3bb2-41f3-a456-a811eb3b8e3d'
-keywords: ["HttpServerWithSslExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 627b6ba8-3bb2-41f3-a456-a811eb3b8e3d
+keywords:
+- HttpServerWithSslExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpServerWithSslExample

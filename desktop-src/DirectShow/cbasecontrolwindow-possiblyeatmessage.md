@@ -1,7 +1,12 @@
 ---
-Description: 'The PossiblyEatMessage method forwards keyboard and mouse messages to the message-drain window.'
-ms.assetid: '8e344c5d-2f94-454f-89b7-45c539b6e833'
-title: 'CBaseControlWindow.PossiblyEatMessage method'
+Description: The PossiblyEatMessage method forwards keyboard and mouse messages to the message-drain window.
+ms.assetid: 8e344c5d-2f94-454f-89b7-45c539b6e833
+title: CBaseControlWindow.PossiblyEatMessage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.PossiblyEatMessage method
@@ -13,9 +18,9 @@ The `PossiblyEatMessage` method forwards keyboard and mouse messages to the mess
 
 ```C++
 BOOL PossiblyEatMessage(
-   UINT   uMsg,
-   WPARAM wParam,
-   LPARAM lParam
+   UINT   uMsg,
+   WPARAM wParam,
+   LPARAM lParam
 );
 ```
 
@@ -106,9 +111,9 @@ It ignores other messages. If the message-drain window is **NULL**, the method i
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

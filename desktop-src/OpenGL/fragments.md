@@ -1,8 +1,17 @@
 ---
 title: Fragments
 description: Fragments
-ms.assetid: 'bc400251-32c4-4477-ba0c-a0046fe85327'
-keywords: ["OpenGL,fragments", "OpenGL processing pipeline,fragments", "fragments OpenGL", "framebuffers,fragments modifying pixels"]
+ms.assetid: bc400251-32c4-4477-ba0c-a0046fe85327
+keywords:
+- OpenGL,fragments
+- OpenGL processing pipeline,fragments
+- fragments OpenGL
+- framebuffers,fragments modifying pixels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fragments

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '6C238FF8-1EBC-4E3B-9184-D82F5A39DA2F'
+---
+Description: .
+ms.assetid: 6C238FF8-1EBC-4E3B-9184-D82F5A39DA2F
 title: PrinterMessageBoxA function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrinterMessageBoxA function

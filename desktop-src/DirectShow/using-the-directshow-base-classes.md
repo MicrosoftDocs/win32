@@ -1,7 +1,12 @@
 ---
 Description: Using the DirectShow Base Classes
-ms.assetid: '7eab0e55-1566-4b4c-b37c-32c5a1f37363'
+ms.assetid: 7eab0e55-1566-4b4c-b37c-32c5a1f37363
 title: Using the DirectShow Base Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the DirectShow Base Classes

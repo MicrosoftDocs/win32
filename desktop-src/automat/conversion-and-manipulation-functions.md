@@ -1,7 +1,12 @@
 ---
 title: Conversion and Manipulation Functions
 description: Data manipulation and conversion functions access and manipulate the array, string, and variant data types used by Automation.
-ms.assetid: '4ecb0c1f-4e4d-4e8b-bd55-9ac6568d027b'
+ms.assetid: 4ecb0c1f-4e4d-4e8b-bd55-9ac6568d027b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Conversion and Manipulation Functions

@@ -1,8 +1,13 @@
 ---
 title: IVMHardDiskConnection UndoHardDisk property
-description: The UndoHardDisk property contains an IVMHardDisk object corresponding to this connection's undo hard disk image.
-ms.assetid: '541659aa-006b-4604-a0c1-45038b63a615'
-keywords: ["UndoHardDisk property Virtual Server", "UndoHardDisk property Virtual Server , IVMHardDiskConnection interface", "IVMHardDiskConnection interface Virtual Server , UndoHardDisk property", "UndoHardDisk property Virtual Server , VMHardDiskConnection interface", "VMHardDiskConnection interface Virtual Server , UndoHardDisk property"]
+description: The UndoHardDisk property contains an IVMHardDisk object corresponding to this connections undo hard disk image.
+ms.assetid: 541659aa-006b-4604-a0c1-45038b63a615
+keywords:
+- UndoHardDisk property Virtual Server
+- UndoHardDisk property Virtual Server , IVMHardDiskConnection interface
+- IVMHardDiskConnection interface Virtual Server , UndoHardDisk property
+- UndoHardDisk property Virtual Server , VMHardDiskConnection interface
+- VMHardDiskConnection interface Virtual Server , UndoHardDisk property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDiskConnection::UndoHardDisk property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_UndoHardDisk(
-  [out] IVMHardDisk **undoHardDisk
+  [out] IVMHardDisk **undoHardDisk
 );
 ```
 
@@ -79,8 +89,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -92,9 +102,9 @@ This property value is read-only.
 [**IVMHardDiskConnection**](ivmharddiskconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

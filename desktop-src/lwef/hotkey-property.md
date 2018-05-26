@@ -1,7 +1,12 @@
 ---
 title: HotKey Property
 description: HotKey Property
-ms.assetid: '76d1fe57-f74c-4bfe-b5e5-1e60ac7ef63c'
+ms.assetid: 76d1fe57-f74c-4bfe-b5e5-1e60ac7ef63c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HotKey Property

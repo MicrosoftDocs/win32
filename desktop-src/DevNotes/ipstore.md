@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides COM-standard methods to manage protected storage data items.'
-ms.assetid: '6a4200ed-c3cf-4d6c-8936-22261e670087'
+---
+Description: Provides COM-standard methods to manage protected storage data items.
+ms.assetid: 6a4200ed-c3cf-4d6c-8936-22261e670087
 title: IPStore interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPStore interface

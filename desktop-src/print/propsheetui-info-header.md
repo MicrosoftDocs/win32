@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PROPSHEETUI\_INFO\_HEADER structure is used as an input parameter to an application''s PFNPROPSHEETUI-typed function, when the function is called with a reason value of PROPSHEETUI\_REASON\_GET\_INFO\_HEADER.'
-ms.assetid: '148c463c-a18b-4f24-b3dc-af74c3de97b7'
-title: 'PROPSHEETUI\_INFO\_HEADER structure'
+---
+Description: The PROPSHEETUI\_INFO\_HEADER structure is used as an input parameter to an applications PFNPROPSHEETUI-typed function, when the function is called with a reason value of PROPSHEETUI\_REASON\_GET\_INFO\_HEADER.
+ms.assetid: 148c463c-a18b-4f24-b3dc-af74c3de97b7
+title: PROPSHEETUI\_INFO\_HEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROPSHEETUI\_INFO\_HEADER structure

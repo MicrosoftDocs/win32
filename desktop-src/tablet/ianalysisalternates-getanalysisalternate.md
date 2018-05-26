@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the IAnalysisAlternate object at the specified index within the collection.'
-ms.assetid: 'd927e2f1-ca21-415d-90ad-d1ded575fcb7'
-title: 'IAnalysisAlternates::GetAnalysisAlternate method'
+Description: Retrieves the IAnalysisAlternate object at the specified index within the collection.
+ms.assetid: d927e2f1-ca21-415d-90ad-d1ded575fcb7
+title: IAnalysisAlternatesGetAnalysisAlternate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisAlternates::GetAnalysisAlternate method
@@ -13,8 +18,8 @@ Retrieves the [**IAnalysisAlternate**](ianalysisalternate.md) object at the spec
 
 ```C++
 HRESULT GetAnalysisAlternate(
-  [in]  ULONG              ulIndex,
-  [out] IAnalysisAlternate **ppAlternate
+  [in]  ULONG              ulIndex,
+  [out] IAnalysisAlternate **ppAlternate
 );
 ```
 
@@ -47,7 +52,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppAlternate* when you no longer need to use the analysis alternate.
 
- 
+ 
 
 ## Requirements
 
@@ -55,7 +60,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -72,9 +77,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

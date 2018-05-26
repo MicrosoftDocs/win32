@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetSwapInputs method specifies whether the transition inputs are swapped.'
-ms.assetid: 'c7303302-dbc4-41b6-8049-5c4496ee9264'
-title: 'IAMTimelineTrans::SetSwapInputs method'
+---
+Description: The SetSwapInputs method specifies whether the transition inputs are swapped.
+ms.assetid: c7303302-dbc4-41b6-8049-5c4496ee9264
+title: IAMTimelineTransSetSwapInputs method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTrans::SetSwapInputs method

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines constants that describe the supported texture-addressing modes.'
-ms.assetid: '5c03c55f-4a74-4b0e-ba05-e4a6582ff47c'
+---
+Description: Defines constants that describe the supported texture-addressing modes.
+ms.assetid: 5c03c55f-4a74-4b0e-ba05-e4a6582ff47c
 title: D3DTEXTUREADDRESS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DTEXTUREADDRESS enumeration

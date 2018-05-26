@@ -1,8 +1,11 @@
 ---
 title: System.Machine.PowerStatus.powerLineStatusChanged event
-description: Event fired when the computer's power supply state changes between plugged-in and battery-powered.
-ms.assetid: '7ef9bbf1-73aa-4027-ba4b-4b834167c261'
-keywords: ["powerLineStatusChanged event Windows Sidebar", "powerLineStatusChanged event Windows Sidebar , System.Machine.PowerStatus object", "System.Machine.PowerStatus object Windows Sidebar , powerLineStatusChanged event"]
+description: Event fired when the computers power supply state changes between plugged-in and battery-powered.
+ms.assetid: 7ef9bbf1-73aa-4027-ba4b-4b834167c261
+keywords:
+- powerLineStatusChanged event Windows Sidebar
+- powerLineStatusChanged event Windows Sidebar , System.Machine.PowerStatus object
+- System.Machine.PowerStatus object Windows Sidebar , powerLineStatusChanged event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Machine.PowerStatus.powerLineStatusChanged event
@@ -93,18 +101,18 @@ function GetPowerStatus()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

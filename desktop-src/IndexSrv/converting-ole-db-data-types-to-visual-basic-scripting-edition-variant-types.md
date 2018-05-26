@@ -1,7 +1,12 @@
 ---
 title: Converting OLE DB Data Types to Visual Basic Scripting Edition Variant Types
 description: A table that lists the OLE DB data types supported, their equivalent Automation variant types, and any formatting restrictions imposed when displaying the data to an end user through VBScript.
-ms.assetid: '7fe30f06-f70c-4171-9880-f61fd10b9e89'
+ms.assetid: 7fe30f06-f70c-4171-9880-f61fd10b9e89
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Converting OLE DB Data Types to Visual Basic Scripting Edition Variant Types

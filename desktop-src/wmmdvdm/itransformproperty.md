@@ -1,14 +1,21 @@
 ---
 title: ITransformProperty interface
 description: The ITransformProperty interface describes an effect or transition property.
-ms.assetid: 'd82d8782-b5ef-43d4-b037-1e3c173454d3'
-keywords: ["ITransformProperty interface Windows Movie Maker and DVD Maker", "ITransformProperty interface Windows Movie Maker and DVD Maker , described"]
+ms.assetid: d82d8782-b5ef-43d4-b037-1e3c173454d3
+keywords:
+- ITransformProperty interface Windows Movie Maker and DVD Maker
+- ITransformProperty interface Windows Movie Maker and DVD Maker , described
 topic_type:
 - apiref
 api_name:
 - ITransformProperty
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformProperty interface
@@ -44,7 +51,7 @@ The **ITransformProperty** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -53,9 +60,9 @@ The **ITransformProperty** interface has these methods.
 [**Property Management Interfaces**](property-management-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

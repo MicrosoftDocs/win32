@@ -2,13 +2,16 @@
 title: Clear method of the PS\_RemoteAccessInboxAccountingStore class
 description: This cmdlet clears the inbox accounting store for the specified time period.
 audience: developer
-ms.assetid: '22652f3f-b799-4877-83bc-38884a7c422c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 22652f3f-b799-4877-83bc-38884a7c422c
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Clear method", "Clear method, PS_RemoteAccessInboxAccountingStore class", "PS_RemoteAccessInboxAccountingStore class, Clear method"]
+keywords:
+- Clear method
+- Clear method, PS_RemoteAccessInboxAccountingStore class
+- PS_RemoteAccessInboxAccountingStore class, Clear method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Clear method of the PS\_RemoteAccessInboxAccountingStore class
@@ -28,12 +34,12 @@ This cmdlet clears the inbox accounting store for the specified time period.
 
 ```mof
 uint32 Clear(
-  [in]  string                      ComputerName,
-  [in]  datetime                    StartDateTime,
-  [in]  datetime                    EndDateTime,
-  [in]  boolean                     Force,
-  [in]  boolean                     PassThru,
-  [out] RemoteAccessInboxAccounting cmdletOutput
+  [in]  string                      ComputerName,
+  [in]  datetime                    StartDateTime,
+  [in]  datetime                    EndDateTime,
+  [in]  boolean                     Force,
+  [in]  boolean                     PassThru,
+  [out] RemoteAccessInboxAccounting cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ The entire inbox accounting configuration.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ The entire inbox accounting configuration.
 [**PS\_RemoteAccessInboxAccountingStore**](ps-remoteaccessinboxaccountingstore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

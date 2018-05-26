@@ -1,8 +1,11 @@
 ---
 title: IStoreNamespace DeleteFolder method
 description: Recursively deletes a specified message folder and all items that are inside it, including child folders.
-ms.assetid: '0061a609-4695-4e68-baaa-bbda56220bb6'
-keywords: ["DeleteFolder method Windows Mail (formerly Outlook Express)", "DeleteFolder method Windows Mail (formerly Outlook Express) , IStoreNamespace interface", "IStoreNamespace interface Windows Mail (formerly Outlook Express) , DeleteFolder method"]
+ms.assetid: 0061a609-4695-4e68-baaa-bbda56220bb6
+keywords:
+- DeleteFolder method Windows Mail (formerly Outlook Express)
+- DeleteFolder method Windows Mail (formerly Outlook Express) , IStoreNamespace interface
+- IStoreNamespace interface Windows Mail (formerly Outlook Express) , DeleteFolder method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreNamespace::DeleteFolder method
@@ -22,8 +30,8 @@ Recursively deletes a specified message folder and all items that are inside it,
 
 ```C++
 HRESULT DeleteFolder(
-  [in] STOREFOLDERID dwFolderId,
-  [in] DWORD         dwReserved
+  [in] STOREFOLDERID dwFolderId,
+  [in] DWORD         dwReserved
 );
 ```
 
@@ -66,7 +74,7 @@ Returns S\_OK if successful, or one of the following error values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,8 +88,8 @@ Deleted folders will be moved to the deleted items folder. If the folder specifi
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -89,9 +97,9 @@ Deleted folders will be moved to the deleted items folder. If the folder specifi
 
 
 
- 
+ 
 
- 
+ 
 
 
 

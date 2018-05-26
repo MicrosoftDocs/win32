@@ -1,8 +1,9 @@
 ---
 title: MediaCollectionMediaAdded Event of the AxWindowsMediaPlayer Object
 description: The MediaCollectionMediaAdded event occurs when a media item is added to the local library.
-ms.assetid: 'ba1779f6-a212-44f4-b52a-c88e22aebcce'
-keywords: ["MediaCollectionMediaAdded Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: ba1779f6-a212-44f4-b52a-c88e22aebcce
+keywords:
+- MediaCollectionMediaAdded Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollectionMediaAdded Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Med
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +83,9 @@ This event occurs only for the local library.
 [**IWMPMediaCollection Interface (VB and C#)**](iwmpmediacollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

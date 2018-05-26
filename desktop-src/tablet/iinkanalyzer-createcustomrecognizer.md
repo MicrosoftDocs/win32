@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a new custom recognizer node for the IInkAnalyzer.'
-ms.assetid: 'bc1dbe88-8f81-48b6-9dd3-8f00e2b6c01c'
-title: 'IInkAnalyzer::CreateCustomRecognizer method'
+Description: Creates a new custom recognizer node for the IInkAnalyzer.
+ms.assetid: bc1dbe88-8f81-48b6-9dd3-8f00e2b6c01c
+title: IInkAnalyzerCreateCustomRecognizer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::CreateCustomRecognizer method
@@ -13,8 +18,8 @@ Creates a new custom recognizer node for the [**IInkAnalyzer**](iinkanalyzer.md)
 
 ```C++
 HRESULT CreateCustomRecognizer(
-  [in]  const GUID         *pInkAnalysisRecognizerId,
-  [out]       IContextNode **ppContextNode
+  [in]  const GUID         *pInkAnalysisRecognizerId,
+  [out]       IContextNode **ppContextNode
 );
 ```
 
@@ -47,7 +52,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on ppContextNode when you no longer need to use the object.
 
- 
+ 
 
 This method creates a new [**IContextNode**](icontextnode.md) with a type of CustomRecognizer (see [**IContextNode::GetType**](icontextnode-gettype.md)). It then adds the new custom recognizer node to the subnodes collection of the [**IInkAnalyzer**](iinkanalyzer.md) object's root node (see [**IContextNode::GetSubNodes**](icontextnode-getsubnodes.md) and [**IInkAnalyzer::GetRootNode Method**](iinkanalyzer-getrootnode.md)).
 
@@ -57,7 +62,7 @@ This method creates a new [**IContextNode**](icontextnode.md) with a type of Cus
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -83,9 +88,9 @@ This method creates a new [**IContextNode**](icontextnode.md) with a type of Cus
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

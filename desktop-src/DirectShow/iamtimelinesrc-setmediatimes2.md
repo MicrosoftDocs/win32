@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetMediaTimes2 method sets the media stop and start times. This method is equivalent to IAMTimelineSrc::SetMediaTimes, but takes REFTIME values.'
-ms.assetid: '9eea7965-46c5-416c-97df-134d29130c8a'
-title: 'IAMTimelineSrc::SetMediaTimes2 method'
+---
+Description: The SetMediaTimes2 method sets the media stop and start times. This method is equivalent to IAMTimelineSrcSetMediaTimes, but takes REFTIME values.
+ms.assetid: 9eea7965-46c5-416c-97df-134d29130c8a
+title: IAMTimelineSrcSetMediaTimes2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineSrc::SetMediaTimes2 method

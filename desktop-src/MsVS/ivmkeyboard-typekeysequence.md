@@ -1,8 +1,13 @@
 ---
 title: IVMKeyboard TypeKeySequence method
 description: The TypeKeySequence method simulates the given series of keys being typed (pressed and then released) inside the virtual machine.
-ms.assetid: 'b8c171f7-c109-4477-ac2d-655773e2036f'
-keywords: ["TypeKeySequence method Virtual Server", "TypeKeySequence method Virtual Server , IVMKeyboard interface", "IVMKeyboard interface Virtual Server , TypeKeySequence method", "TypeKeySequence method Virtual Server , VMKeyboard interface", "VMKeyboard interface Virtual Server , TypeKeySequence method"]
+ms.assetid: b8c171f7-c109-4477-ac2d-655773e2036f
+keywords:
+- TypeKeySequence method Virtual Server
+- TypeKeySequence method Virtual Server , IVMKeyboard interface
+- IVMKeyboard interface Virtual Server , TypeKeySequence method
+- TypeKeySequence method Virtual Server , VMKeyboard interface
+- VMKeyboard interface Virtual Server , TypeKeySequence method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMKeyboard::TypeKeySequence method
@@ -23,7 +33,7 @@ The **TypeKeySequence** method simulates the given series of keys being typed (p
 
 ```C++
 HRESULT TypeKeySequence(
-  [in] BSTR keySequence
+  [in] BSTR keySequence
 );
 ```
 
@@ -55,7 +65,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -89,8 +99,8 @@ HRESULT hr = pIVMKeyboard->TypeKeySequence(bHello);
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -105,9 +115,9 @@ HRESULT hr = pIVMKeyboard->TypeKeySequence(bHello);
 [Key Identifiers Reference](key-identifiers-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Gets the handle of the current WWAHost window.'
-ms.assetid: '7c013f82-6d1f-494d-9f7a-77c7ff72f0d4'
-title: 'IWebApplicationHost::HWND property'
+Description: Gets the handle of the current WWAHost window.
+ms.assetid: 7c013f82-6d1f-494d-9f7a-77c7ff72f0d4
+title: IWebApplicationHostHWND property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWebApplicationHost::HWND property
@@ -15,7 +20,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HWND(
-  [out, retval] HWND *hwnd
+  [out, retval] HWND *hwnd
 );
 ```
 
@@ -31,8 +36,8 @@ The window handle.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                    |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                          |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                    |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                          |
 | IDL<br/>                      | <dl> <dt>Webapplication.idl</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ The window handle.
 
 <dl> <dt>
 
-[**IWebApplicationHost**](iwebapplicationhost.md)
+[**IWebApplicationHost**](/windows/previous-versions/webapplication/nn-webapplication-iwebapplicationhost?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

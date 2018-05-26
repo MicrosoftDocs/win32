@@ -1,8 +1,11 @@
 ---
 title: CreateSwitch method of the Msvm\_VirtualSwitchManagementService class
 description: Creates a new virtual switch.
-ms.assetid: '12bd0baa-5ac0-4ce1-8582-0c572849b98a'
-keywords: ["CreateSwitch method Hyper-V", "CreateSwitch method Hyper-V , Msvm_VirtualSwitchManagementService class", "Msvm_VirtualSwitchManagementService class Hyper-V , CreateSwitch method"]
+ms.assetid: 12bd0baa-5ac0-4ce1-8582-0c572849b98a
+keywords:
+- CreateSwitch method Hyper-V
+- CreateSwitch method Hyper-V , Msvm_VirtualSwitchManagementService class
+- Msvm_VirtualSwitchManagementService class Hyper-V , CreateSwitch method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateSwitch method of the Msvm\_VirtualSwitchManagementService class
@@ -22,11 +30,11 @@ Creates a new virtual switch.
 
 ```mof
 uint32 CreateSwitch(
-  [in]  string                 Name,
-  [in]  string                 FriendlyName,
-  [in]  uint32                 NumLearnableAddresses,
-  [in]  string                 ScopeOfResidence,
-  [out] Msvm_VirtualSwitch REF CreatedVirtualSwitch
+  [in]  string                 Name,
+  [in]  string                 FriendlyName,
+  [in]  uint32                 NumLearnableAddresses,
+  [in]  string                 ScopeOfResidence,
+  [out] Msvm_VirtualSwitch REF CreatedVirtualSwitch
 );
 ```
 
@@ -291,9 +299,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -309,9 +317,9 @@ End Function
 [**Msvm\_VirtualSwitch**](msvm-virtualswitch.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,26 +1,34 @@
 ---
 title: IBasicDevice ManufacturerName method
-description: Retrieves the device’s manufacturer name.
-ms.assetid: 'F04400C9-02FC-4CB5-B355-A7E84BECD098'
-keywords: ["ManufacturerName method Media Streaming API", "ManufacturerName method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , ManufacturerName method"]
+description: Retrieves the device s manufacturer name.
+ms.assetid: F04400C9-02FC-4CB5-B355-A7E84BECD098
+keywords:
+- ManufacturerName method Media Streaming API
+- ManufacturerName method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , ManufacturerName method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.ManufacturerName
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::ManufacturerName method
 
-Retrieves the device’s manufacturer name.
+Retrieves the device s manufacturer name.
 
 ## Syntax
 
 
 ```C++
 HRESULT ManufacturerName(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -33,7 +41,7 @@ HRESULT ManufacturerName(
 *value* \[out\]
 </dt> <dd>
 
-Receives a pointer to the device’s manufacturer name.
+Receives a pointer to the device s manufacturer name.
 
 </dd> </dl>
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

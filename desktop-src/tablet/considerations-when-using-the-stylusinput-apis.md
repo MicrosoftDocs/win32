@@ -1,7 +1,12 @@
 ---
-Description: 'The StylusInput API enables you to interact with the tablet pen''s data stream. The following sections describe various scenarios to consider when designing and implementing your plug-in or application.'
-ms.assetid: 'e70982ee-4c1f-41e8-915f-aa896713db9e'
+Description: The StylusInput API enables you to interact with the tablet pens data stream. The following sections describe various scenarios to consider when designing and implementing your plug-in or application.
+ms.assetid: e70982ee-4c1f-41e8-915f-aa896713db9e
 title: Considerations when Using the StylusInput API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Considerations when Using the StylusInput API

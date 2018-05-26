@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the enumerations used by the Microsoft Direct3D 9 video interfaces.'
-ms.assetid: '41959498-501d-4f0d-ba1f-1c0690b62f4d'
+---
+Description: Describes the enumerations used by the Microsoft Direct3D 9 video interfaces.
+ms.assetid: 41959498-501d-4f0d-ba1f-1c0690b62f4d
 title: Direct3D 9 Video Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 9 Video Enumerations

@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.presetTitle
 description: The presetTitle method retrieves the name of the equalizer preset with the specified index.
-ms.assetid: '2f6da4ee-9515-49ee-b00f-ed78d7c116da'
-keywords: ["EQUALIZERSETTINGS.presetTitle Windows Media Player"]
+ms.assetid: 2f6da4ee-9515-49ee-b00f-ed78d7c116da
+keywords:
+- EQUALIZERSETTINGS.presetTitle Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.presetTitle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.presetTitle
@@ -51,9 +57,9 @@ This method returns a **String**.
 [**EQUALIZERSETTINGS Element**](equalizersettings-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

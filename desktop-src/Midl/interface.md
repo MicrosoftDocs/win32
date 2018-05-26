@@ -2,13 +2,19 @@
 title: interface attribute
 description: The interface keyword specifies the name of the interface. The interface name must be provided in both the IDL file and the ACF.
 ms.assetid: 239b782e-57de-493c-b2f4-310d1859a9ae
-keywords: ["interface attribute MIDL"]
+keywords:
+- interface attribute MIDL
 topic_type:
 - apiref
 api_name:
 - interface
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # interface attribute

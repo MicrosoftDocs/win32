@@ -1,8 +1,11 @@
 ---
 title: IWMPCdromBurn burnFormat property
 description: The burnFormat property gets a value that indicates the type of CD to burn.
-ms.assetid: 'f60fcbd2-5d34-46f3-a2e2-29dac2ecf689'
-keywords: ["burnFormat property Windows Media Player", "burnFormat property Windows Media Player , IWMPCdromBurn interface", "IWMPCdromBurn interface Windows Media Player , burnFormat property"]
+ms.assetid: f60fcbd2-5d34-46f3-a2e2-29dac2ecf689
+keywords:
+- burnFormat property Windows Media Player
+- burnFormat property Windows Media Player , IWMPCdromBurn interface
+- IWMPCdromBurn interface Windows Media Player , burnFormat property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromBurn::burnFormat property
@@ -70,12 +78,12 @@ A **WMPLib.WMPBurnFormat** that is a value from the **WMPBurnFormat** enumeratio
 [**IWMPCdromBurn Interface (VB and C#)**](iwmpcdromburn--vb-and-c.md)
 </dt> <dt>
 
-[**WMPBurnFormat**](wmpburnformat.md)
+[**WMPBurnFormat**](/windows/win32/wmp/ne-wmp-wmpburnformat?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

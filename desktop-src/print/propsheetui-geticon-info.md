@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PROPSHEETUI\_GETICON\_INFO structure is used as an input parameter to an application''s PFNPROPSHEETUI-typed function, when the function is called with a reason value of PROPSHEETUI\_REASON\_GET\_ICON.'
-ms.assetid: '23c06f1c-0c8f-4055-a997-1ff94c4a541e'
-title: 'PROPSHEETUI\_GETICON\_INFO structure'
+---
+Description: The PROPSHEETUI\_GETICON\_INFO structure is used as an input parameter to an applications PFNPROPSHEETUI-typed function, when the function is called with a reason value of PROPSHEETUI\_REASON\_GET\_ICON.
+ms.assetid: 23c06f1c-0c8f-4055-a997-1ff94c4a541e
+title: PROPSHEETUI\_GETICON\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROPSHEETUI\_GETICON\_INFO structure

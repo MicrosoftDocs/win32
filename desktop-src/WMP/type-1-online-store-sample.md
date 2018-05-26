@@ -1,8 +1,17 @@
 ---
 title: Type 1 Online Store Sample
 description: Type 1 Online Store Sample
-ms.assetid: '731e503e-c406-4af2-9fba-1cf9e6940920'
-keywords: ["Windows Media Player online stores,samples", "online stores,samples", "type 1 online stores,samples", "samples,type 1 online stores"]
+ms.assetid: 731e503e-c406-4af2-9fba-1cf9e6940920
+keywords:
+- Windows Media Player online stores,samples
+- online stores,samples
+- type 1 online stores,samples
+- samples,type 1 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type 1 Online Store Sample

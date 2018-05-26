@@ -1,7 +1,12 @@
 ---
 title: HelpComplete Event
 description: HelpComplete Event
-ms.assetid: 'd805f089-154f-4b39-9d78-a02b732f87ed'
+ms.assetid: d805f089-154f-4b39-9d78-a02b732f87ed
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HelpComplete Event
@@ -32,7 +37,7 @@ Indicates that context-sensitive Help mode has been exited.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -51,9 +56,9 @@ This event is sent only to the client application that places the character in H
 [**HelpModeOn property**](helpmodeon-property.md), [**HelpContextID property**](helpcontextid-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

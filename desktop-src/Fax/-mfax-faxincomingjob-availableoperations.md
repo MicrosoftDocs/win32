@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.'
-ms.assetid: '04149d5c-e26f-4cef-9ae0-eba2a199ec51'
-title: 'FaxIncomingJob.AvailableOperations property'
+---
+Description: The AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.
+ms.assetid: 04149d5c-e26f-4cef-9ae0-eba2a199ec51
+title: FaxIncomingJob.AvailableOperations property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob.AvailableOperations property
@@ -21,7 +26,7 @@ Property AvailableOperations As Long
 
 ## Property value
 
-A **Long** that receives a bitwise combination of the operations that you can currently perform on the fax job. Some operations are mutually exclusive. For example, you cannot pause a job that has already been paused. For more information, see [**FAX\_JOB\_OPERATIONS\_ENUM**](-mfax-fax-job-operations-enum.md).
+A **Long** that receives a bitwise combination of the operations that you can currently perform on the fax job. Some operations are mutually exclusive. For example, you cannot pause a job that has already been paused. For more information, see [**FAX\_JOB\_OPERATIONS\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_job_operations_enum?branch=master).
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A **Long** that receives a bitwise combination of the operations that you can cu
 [**FaxIncomingJob**](-mfax-faxincomingjob.md)
 </dt> <dt>
 
-[**get\_AvailableOperations**](-mfax-faxincomingjob-availableoperations-cpp.md)
+[**get\_AvailableOperations**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxincomingjob-get_availableoperations?branch=master)
 </dt> </dl>
 
  

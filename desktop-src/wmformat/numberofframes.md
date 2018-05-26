@@ -1,14 +1,20 @@
 ---
 title: NumberOfFrames
 description: The NumberOfFrames attribute contains the number of frames in a video stream.
-ms.assetid: '86bd2b2b-e3f7-4a0f-9681-974ce451d6f7'
-keywords: ["NumberOfFrames windows Media Format"]
+ms.assetid: 86bd2b2b-e3f7-4a0f-9681-974ce451d6f7
+keywords:
+- NumberOfFrames windows Media Format
 topic_type:
 - apiref
 api_name:
 - NumberOfFrames
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NumberOfFrames

@@ -1,14 +1,19 @@
 ---
 Description: Building Graphs with the Capture Graph Builder
-ms.assetid: '0329c4f0-ee6f-423e-b38b-169204e3a31c'
+ms.assetid: 0329c4f0-ee6f-423e-b38b-169204e3a31c
 title: Building Graphs with the Capture Graph Builder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building Graphs with the Capture Graph Builder
 
 Despite its name, the Capture Graph Builder is useful for building many kinds of custom filter graphs, not only capture graphs. This article provides a brief overview of how to use this object.
 
-The Capture Graph Builder exposes the [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md) interface. Start by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) to create the Capture Graph Builder and the Filter Graph Manager. Then initialize the Capture Graph Builder by calling [**ICaptureGraphBuilder2::SetFiltergraph**](icapturegraphbuilder2-setfiltergraph.md) with a pointer to the Filter Graph Manager, as follows:
+The Capture Graph Builder exposes the [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master) interface. Start by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) to create the Capture Graph Builder and the Filter Graph Manager. Then initialize the Capture Graph Builder by calling [**ICaptureGraphBuilder2::SetFiltergraph**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-setfiltergraph?branch=master) with a pointer to the Filter Graph Manager, as follows:
 
 
 ```C++
@@ -36,7 +41,7 @@ if (SUCCEEDED(hr))
 
 ## Connecting Filters
 
-The [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) method connects two or three filters together in a chain. Generally, the method works best when each filter has no more than one input pin or output pin of the same type. This discussion begins by ignoring the first two parameters of **RenderStream** and focusing on the last three parameters. The third parameter is an [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer, which can specify either a filter (as an [**IBaseFilter**](ibasefilter.md) interface pointer) or an output pin (as an [**IPin**](ipin.md) interface pointer). The fourth and fifth parameters specify **IBaseFilter** pointers. The **RenderStream** method connects all three filters in a chain. For example, suppose that *A*, *B*, and *C* are filters. Assume for now that each filter has exactly one input pin and one output pin. The following call connects A to B, and then B to C:
+The [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) method connects two or three filters together in a chain. Generally, the method works best when each filter has no more than one input pin or output pin of the same type. This discussion begins by ignoring the first two parameters of **RenderStream** and focusing on the last three parameters. The third parameter is an [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer, which can specify either a filter (as an [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface pointer) or an output pin (as an [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface pointer). The fourth and fifth parameters specify **IBaseFilter** pointers. The **RenderStream** method connects all three filters in a chain. For example, suppose that *A*, *B*, and *C* are filters. Assume for now that each filter has exactly one input pin and one output pin. The following call connects A to B, and then B to C:
 
 <dl> `RenderStream(NULL, NULL, A, B, C)`  
 </dl>
@@ -69,7 +74,7 @@ If you specify a filter in the third parameter, rather than a pin, you may need 
 -   **PIN\_CATEGORY\_CAPTURE**
 -   **PIN\_CATEGORY\_PREVIEW**
 
-If a capture filter does not supply separate pins for capture and preview, the [**RenderStream**](icapturegraphbuilder2-renderstream.md) method inserts a [Smart Tee](smart-tee-filter.md) filter, which splits the stream into a capture stream and a preview stream. From the application's standpoint, you can simply treat all capture filters as having separate pins and ignore the underlying topology of the graph.
+If a capture filter does not supply separate pins for capture and preview, the [**RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) method inserts a [Smart Tee](smart-tee-filter.md) filter, which splits the stream into a capture stream and a preview stream. From the application's standpoint, you can simply treat all capture filters as having separate pins and ignore the underlying topology of the graph.
 
 For file capture, connect the capture pin to a mux filter. For live preview, connect the preview pin to a renderer. If you switch the two categories, the graph might drop an excessive number of frames during the file capture; but if the graph is connected properly, it drops preview frames as needed in order to maintain throughput on the capture stream.
 
@@ -97,7 +102,7 @@ pBuilder->RenderStream(&amp;PIN_CATEGORY_VBI, NULL, pCapFilter, NULL, NULL);
 
 
 
-The second parameter to [**RenderStream**](icapturegraphbuilder2-renderstream.md) identifies the media type, and is typically one of the following:
+The second parameter to [**RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) identifies the media type, and is typically one of the following:
 
 -   MEDIATYPE\_Audio
 -   MEDIATYPE\_Video
@@ -107,11 +112,11 @@ You can use this parameter whenever the filter's output pins support the enumera
 
 ## Finding Interfaces on Filters and Pins
 
-After you build a graph, you will typically need to locate various interfaces exposed by filters and pins in the graph. For example, a capture filter might expose the [**IAMDroppedFrames**](iamdroppedframes.md) interface, while the filter's output pins might expose the [**IAMStreamConfig**](iamstreamconfig.md) interface.
+After you build a graph, you will typically need to locate various interfaces exposed by filters and pins in the graph. For example, a capture filter might expose the [**IAMDroppedFrames**](/windows/win32/Strmif/nn-strmif-iamdroppedframes?branch=master) interface, while the filter's output pins might expose the [**IAMStreamConfig**](/windows/win32/Strmif/nn-strmif-iamstreamconfig?branch=master) interface.
 
-The simplest way to find an interface is to use the [**ICaptureGraphBuilder2::FindInterface**](icapturegraphbuilder2-findinterface.md) method. This method walks the graph (filters and pins) until it locates the desired interface. You can specify the starting point for the search, and you can limit the search to filters upstream or downstream from the starting point.
+The simplest way to find an interface is to use the [**ICaptureGraphBuilder2::FindInterface**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findinterface?branch=master) method. This method walks the graph (filters and pins) until it locates the desired interface. You can specify the starting point for the search, and you can limit the search to filters upstream or downstream from the starting point.
 
-The following example searches for the [**IAMStreamConfig**](iamstreamconfig.md) interface on a video preview pin:
+The following example searches for the [**IAMStreamConfig**](/windows/win32/Strmif/nn-strmif-iamstreamconfig?branch=master) interface on a video preview pin:
 
 
 ```C++
@@ -133,13 +138,13 @@ if (SUCCESSFUL(hr))
 
 
 > [!Note]  
-> The topic [Find an Interface on a Filter or Pin](find-an-interface-on-a-filter-or-pin.md) shows an alternative approach that uses the [**IGraphBuilder**](igraphbuilder.md) interface instead of [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md). Which approach to use depends on your application. If your application already uses **ICaptureGraphBuilder2** to build the graph, then [**ICaptureGraphBuilder2::FindInterface**](icapturegraphbuilder2-findinterface.md) is a good approach. Otherwise, consider using the **IGraphBuilder** methods.
+> The topic [Find an Interface on a Filter or Pin](find-an-interface-on-a-filter-or-pin.md) shows an alternative approach that uses the [**IGraphBuilder**](/windows/win32/Strmif/nn-strmif-igraphbuilder?branch=master) interface instead of [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master). Which approach to use depends on your application. If your application already uses **ICaptureGraphBuilder2** to build the graph, then [**ICaptureGraphBuilder2::FindInterface**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findinterface?branch=master) is a good approach. Otherwise, consider using the **IGraphBuilder** methods.
 
  
 
 ## Finding Pins
 
-Less commonly, you may need to locate an individual pin on a filter, although in most cases the [**RenderStream**](icapturegraphbuilder2-renderstream.md) and [**FindInterface**](icapturegraphbuilder2-findinterface.md) methods will save you the trouble. If you do need to find a particular pin on a filter, the [**ICaptureGraphBuilder2::FindPin**](icapturegraphbuilder2-findpin.md) helper method is useful. Specify the category, the media type (video or audio), the direction, and whether the pin must be unconnected.
+Less commonly, you may need to locate an individual pin on a filter, although in most cases the [**RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) and [**FindInterface**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findinterface?branch=master) methods will save you the trouble. If you do need to find a particular pin on a filter, the [**ICaptureGraphBuilder2::FindPin**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findpin?branch=master) helper method is useful. Specify the category, the media type (video or audio), the direction, and whether the pin must be unconnected.
 
 For example, the following code searches for an unconnected video preview pin on a capture filter:
 

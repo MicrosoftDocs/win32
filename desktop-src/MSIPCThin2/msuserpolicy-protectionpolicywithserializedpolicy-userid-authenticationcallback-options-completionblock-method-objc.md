@@ -4,17 +4,21 @@ description: Creates a protection policy based on the supplied serialized policy
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '33C0A9D1-D29D-4BE4-8A87-4F22BD5A5BDD'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 33C0A9D1-D29D-4BE4-8A87-4F22BD5A5BDD
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy userPolicyWithSerializedPolicy userId authenticationCallback consentCallback options completionBlock method"]
+keywords:
+- MSUserPolicy userPolicyWithSerializedPolicy userId authenticationCallback consentCallback options completionBlock method
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy userPolicyWithSerializedPolicy userId authenticationCallback consentCallback options completionBlock method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy userPolicyWithSerializedPolicy:userId:authenticationCallback:consentCallback options:completionBlock method
@@ -47,7 +51,7 @@ Creates a protection policy based on the supplied serialized policy parameter. T
 
 
 
- 
+ 
 
 ## Returns
 
@@ -67,7 +71,7 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -90,9 +94,9 @@ This example code snip demonstrates how to convert the embedded serialized polic
 
 
 
- 
+ 
 
- 
+ 
 
 
 

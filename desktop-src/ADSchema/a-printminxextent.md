@@ -4,17 +4,22 @@ description: The minimum horizontal print region.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a7569388-e78c-403b-b644-d0fd720f7749'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a7569388-e78c-403b-b644-d0fd720f7749
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Print-Min-X-Extent attribute AD Schema", "printMinXExtent attribute AD Schema"]
+keywords:
+- Print-Min-X-Extent attribute AD Schema
+- printMinXExtent attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Print-Min-X-Extent
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Print-Min-X-Extent attribute
@@ -38,12 +43,12 @@ The minimum horizontal print region.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The minimum horizontal print region.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

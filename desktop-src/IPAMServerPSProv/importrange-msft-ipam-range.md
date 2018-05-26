@@ -1,15 +1,18 @@
 ---
-Description: 'Imports a set of IP address ranges into IPAM from a CSV file.'
+Description: Imports a set of IP address ranges into IPAM from a CSV file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '19441620-1f4b-46da-98ce-a7dd9ba2c33c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 19441620-1f4b-46da-98ce-a7dd9ba2c33c
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ImportRange method of the MSFT\_IPAM\_Range class'
+title: ImportRange method of the MSFT\_IPAM\_Range class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ImportRange method of the MSFT\_IPAM\_Range class
@@ -21,16 +24,16 @@ Imports a set of IP address ranges into IPAM from a CSV file.
 
 ```mof
 uint32 ImportRange(
-  [in]  string  Path,
-  [in]  string  ErrorPath,
-  [in]  uint16  AddressFamily,
-  [in]  string  ManagedByService,
-  [in]  string  ServiceInstance,
-  [in]  boolean AddManagedByService,
-  [in]  boolean AddServiceInstance,
-  [in]  boolean DeleteMappedAddresses,
-  [in]  boolean CreateSubnetIfNotFound,
-  [out] string  Output
+  [in]  string  Path,
+  [in]  string  ErrorPath,
+  [in]  uint16  AddressFamily,
+  [in]  string  ManagedByService,
+  [in]  string  ServiceInstance,
+  [in]  boolean AddManagedByService,
+  [in]  boolean AddServiceInstance,
+  [in]  boolean DeleteMappedAddresses,
+  [in]  boolean CreateSubnetIfNotFound,
+  [out] string  Output
 );
 ```
 
@@ -92,7 +95,7 @@ The name of the service that manages the address ranges to import.
 > [!Note]  
 > The import of MS DHCP ranges is not supported by IPAM.
 
- 
+ 
 
 </dd> <dt>
 
@@ -149,7 +152,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -163,9 +166,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_Range**](msft-ipam-range.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

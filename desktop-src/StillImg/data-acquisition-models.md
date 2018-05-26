@@ -1,8 +1,38 @@
 ---
 title: Data Acquisition Models
 description: Applications typically control still-image acquisition devices through imaging APIs such as TWAIN or ISIS.
-ms.assetid: '217a3fa3-1f3e-44b5-b845-50f30d6a9d7b'
-keywords: ["Still Image (STI),data acquisition models", "STI (Still Image),data acquisition models", "Still Image API,data acquisition models", "still images,data acquisition models", "data acquisition models", "Still Image (STI),TWAIN", "STI (Still Image),TWAIN", "Still Image API,TWAIN", "still images,TWAIN", "TWAIN", "Still Image (STI),ISIS", "STI (Still Image),ISIS", "Still Image API,ISIS", "still images,ISIS", "ISIS", "Still Image (STI),pull model", "STI (Still Image),pull model", "Still Image API,pull model", "still images,pull model", "pull model", "Still Image (STI),push model", "STI (Still Image),push model", "Still Image API,push model", "still images,push model", "push model"]
+ms.assetid: 217a3fa3-1f3e-44b5-b845-50f30d6a9d7b
+keywords:
+- Still Image (STI),data acquisition models
+- STI (Still Image),data acquisition models
+- Still Image API,data acquisition models
+- still images,data acquisition models
+- data acquisition models
+- Still Image (STI),TWAIN
+- STI (Still Image),TWAIN
+- Still Image API,TWAIN
+- still images,TWAIN
+- TWAIN
+- Still Image (STI),ISIS
+- STI (Still Image),ISIS
+- Still Image API,ISIS
+- still images,ISIS
+- ISIS
+- Still Image (STI),pull model
+- STI (Still Image),pull model
+- Still Image API,pull model
+- still images,pull model
+- pull model
+- Still Image (STI),push model
+- STI (Still Image),push model
+- Still Image API,push model
+- still images,push model
+- push model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Acquisition Models

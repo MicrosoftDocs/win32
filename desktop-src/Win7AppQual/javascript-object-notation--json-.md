@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '2F6FDE88-C852-46BC-B6B1-630C266AF0AA'
-title: 'JavaScript Object Notation (JSON)'
+Description: .
+ms.assetid: 2F6FDE88-C852-46BC-B6B1-630C266AF0AA
+title: JavaScript Object Notation (JSON)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JavaScript Object Notation (JSON)

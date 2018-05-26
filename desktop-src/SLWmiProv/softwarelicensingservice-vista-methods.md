@@ -1,7 +1,12 @@
 ---
-Description: 'The SoftwareLicensingService class exposes the following methods.'
-ms.assetid: 'F1D60294-6197-44F1-9ED9-D38D382C6601'
+Description: The SoftwareLicensingService class exposes the following methods.
+ms.assetid: F1D60294-6197-44F1-9ED9-D38D382C6601
 title: SoftwareLicensingService Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SoftwareLicensingService Methods

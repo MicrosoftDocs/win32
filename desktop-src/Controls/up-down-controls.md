@@ -1,7 +1,12 @@
 ---
 title: About Up-Down Controls
 description: An up-down control is a pair of arrow buttons that the user can click to increment or decrement a value, such as a scroll position or a number displayed in a companion control (called a buddy window).
-ms.assetid: 'ae2c0283-9cad-40d1-b8a6-a90484a95f56'
+ms.assetid: ae2c0283-9cad-40d1-b8a6-a90484a95f56
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Up-Down Controls
@@ -44,7 +49,7 @@ The [**UDM\_SETPOS**](udm-setpos.md) message sets the current position of a budd
 
 You can change the minimum and maximum positions of an up-down control by using the [**UDM\_SETRANGE**](udm-setrange.md) message. The maximum position may be less than the minimum, and in that case clicking the up arrow button decreases the current position. To put it another way, up means moving toward the maximum position. To retrieve the minimum and maximum positions for an up-down control, use the [**UDM\_GETRANGE**](udm-getrange.md) message.
 
-You can control the rate at which the position changes when the user holds down an arrow button by setting the up-down control's acceleration. The acceleration is defined by an array of [**UDACCEL**](udaccel.md) structures. Each structure specifies a time interval and the number of units by which to increment or decrement at the end of that interval. To set the acceleration, use the [**UDM\_SETACCEL**](udm-setaccel.md) message. To retrieve acceleration information, use the [**UDM\_GETACCEL**](udm-getaccel.md) message.
+You can control the rate at which the position changes when the user holds down an arrow button by setting the up-down control's acceleration. The acceleration is defined by an array of [**UDACCEL**](/windows/win32/Commctrl/ns-commctrl-_udaccel?branch=master) structures. Each structure specifies a time interval and the number of units by which to increment or decrement at the end of that interval. To set the acceleration, use the [**UDM\_SETACCEL**](udm-setaccel.md) message. To retrieve acceleration information, use the [**UDM\_GETACCEL**](udm-getaccel.md) message.
 
 ## Default Up-Down Controls Message Processing
 

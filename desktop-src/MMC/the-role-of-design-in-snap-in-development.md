@@ -4,10 +4,13 @@ description: Emphasizes the role of structured design in snap-in development.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9e099c8c-483d-404f-839c-113f336a6522'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 9e099c8c-483d-404f-839c-113f336a6522
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # The Role of Design in Snap-in Development

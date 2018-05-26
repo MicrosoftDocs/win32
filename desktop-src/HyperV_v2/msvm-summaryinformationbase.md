@@ -1,7 +1,12 @@
 ---
-Description: 'Used in the GetSummaryInformation method in the Msvm\_VirtualSystemManagementService class to quickly retrieve common information related to a virtual system or snapshot.'
-ms.assetid: 'f8daa387-d812-4f44-bf5f-e0a0c18c6db8'
-title: 'Msvm\_SummaryInformationBase class'
+Description: Used in the GetSummaryInformation method in the Msvm\_VirtualSystemManagementService class to quickly retrieve common information related to a virtual system or snapshot.
+ms.assetid: f8daa387-d812-4f44-bf5f-e0a0c18c6db8
+title: Msvm\_SummaryInformationBase class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SummaryInformationBase class
@@ -16,23 +21,23 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SummaryInformationBase : CIM_View
 {
-  string   InstanceID;
+  string   InstanceID;
   DateTime CreationTime;
-  string   ElementName;
-  uint16   EnabledState;
-  string   OtherEnabledState;
-  uint16   HealthState;
-  string   Name;
-  string   Notes;
-  string   Version;
-  uint16   NumberOfProcessors;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  uint64   UpTime;
-  uint16   EnhancedSessionModeState;
-  string   VirtualSwitchNames[];
-  string   VirtualSystemSubType;
-  string   HostComputerSystemName;
+  string   ElementName;
+  uint16   EnabledState;
+  string   OtherEnabledState;
+  uint16   HealthState;
+  string   Name;
+  string   Notes;
+  string   Version;
+  uint16   NumberOfProcessors;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  uint64   UpTime;
+  uint16   EnhancedSessionModeState;
+  string   VirtualSwitchNames[];
+  string   VirtualSystemSubType;
+  string   HostComputerSystemName;
 };
 ```
 
@@ -339,8 +344,8 @@ The subtype of the virtual system.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -354,9 +359,9 @@ The subtype of the virtual system.
 [**CIM\_View**](cim-view.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,18 +1,24 @@
 ---
 title: Bitmap source effect
 description: Use the bitmap source effect to generate an ID2D1Image from a IWICBitmapSource for use as an input in an effect graph.
-ms.assetid: '86646111-208A-4E6D-A28C-7B23A1742D24'
-keywords: ["bitmap source effect"]
+ms.assetid: 86646111-208A-4E6D-A28C-7B23A1742D24
+keywords:
+- bitmap source effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bitmap source effect
 
-Use the bitmap source effect to generate an [**ID2D1Image**](id2d1image.md) from a [**IWICBitmapSource**](https://msdn.microsoft.com/library/windows/desktop/ee690171) for use as an input in an effect graph. This effect performs scaling and rotation on the CPU. It can also optionally generate a system memory mipmap, which can be a performance optimization for actively scaling very large images at various reduced resolutions.
+Use the bitmap source effect to generate an [**ID2D1Image**](/windows/win32/D2d1/?branch=master) from a [**IWICBitmapSource**](https://msdn.microsoft.com/library/windows/desktop/ee690171) for use as an input in an effect graph. This effect performs scaling and rotation on the CPU. It can also optionally generate a system memory mipmap, which can be a performance optimization for actively scaling very large images at various reduced resolutions.
 
 > [!Note]  
-> The bitmap source effect takes its input as a property, not as an image input. You must use the [**SetValue**](id2d1properties-setvalue.md) method, not the [**SetInput**](id2d1effect-setinput.md) method. The *WicBitmapSource* property is where you specify the image input data.
+> The bitmap source effect takes its input as a property, not as an image input. You must use the [**SetValue**](/windows/win32/D2d1_1/?branch=master) method, not the [**SetInput**](/windows/win32/D2d1_1/?branch=master) method. The *WicBitmapSource* property is where you specify the image input data.
 
- 
+ 
 
 The CLSID for this effect is CLSID\_D2D1BitmapSource.
 
@@ -39,7 +45,7 @@ The CLSID for this effect is CLSID\_D2D1BitmapSource.
 
 
 
- 
+ 
 
 ## Interpolation modes
 
@@ -57,7 +63,7 @@ The effect interpolates using this mode when it scales an image or when it corre
 
 
 
- 
+ 
 
 ## Orientation
 
@@ -78,7 +84,7 @@ The Orientation property can be used to apply an EXIF orientation flag that is e
 
 
 
- 
+ 
 
 This code snippet demonstrates how to convert from EXIF orientation values (defined in propkey.h) to D2D1\_BITMAPSOURCE\_ORIENTATION values.
 
@@ -126,13 +132,13 @@ D2D1_BITMAPSOURCE_ORIENTATION GetBitmapSourceOrientation(unsigned short PhotoOri
 
 
 
- 
+ 
 
 ## Remarks
 
-To optimize performance when using WIC and [Direct2D](direct2d.direct2d_portal.xml) together, you should use [**IWICFormatConverter**](https://msdn.microsoft.com/library/windows/desktop/ee690274) to convert to an appropriate pixel format based your app’s scenario and the image’s native precision.
+To optimize performance when using WIC and [Direct2D](direct2d.direct2d_portal.xml) together, you should use [**IWICFormatConverter**](https://msdn.microsoft.com/library/windows/desktop/ee690274) to convert to an appropriate pixel format based your app s scenario and the image s native precision.
 
-In most cases, either your app’s [Direct2D](direct2d.direct2d_portal.xml) pipeline only requires 8 bits per channel (bpc) of precision, or the image only provides 8 bpc precision, and therefore you should convert to GUID\_WICPixelFormat32bppPBGRA. However, if you want to take advantage of extra precision provided by an image (for example, a JPEG-XR or TIFF stored with greater than 8 bpc precision), you should use an RGBA-based pixel format. The below table provides more details.
+In most cases, either your app s [Direct2D](direct2d.direct2d_portal.xml) pipeline only requires 8 bits per channel (bpc) of precision, or the image only provides 8 bpc precision, and therefore you should convert to GUID\_WICPixelFormat32bppPBGRA. However, if you want to take advantage of extra precision provided by an image (for example, a JPEG-XR or TIFF stored with greater than 8 bpc precision), you should use an RGBA-based pixel format. The below table provides more details.
 
 
 
@@ -144,9 +150,9 @@ In most cases, either your app’s [Direct2D](direct2d.direct2d_portal.xml) pipeli
 
 
 
- 
+ 
 
-Because many image formats support multiple levels of precision, you should use [**IWICBitmapSource::GetPixelFormat**](https://msdn.microsoft.com/library/windows/desktop/ee690182) to obtain the image’s native pixel format, and then use [**IWICPixelFormatInfo**](https://msdn.microsoft.com/library/windows/desktop/ee719763) to determine how many bits per channel of precision are available for that format. Also, note that not all hardware supports high precision pixel formats. In those cases your app may need to fall back to the WARP device to support high precision.
+Because many image formats support multiple levels of precision, you should use [**IWICBitmapSource::GetPixelFormat**](https://msdn.microsoft.com/library/windows/desktop/ee690182) to obtain the image s native pixel format, and then use [**IWICPixelFormatInfo**](https://msdn.microsoft.com/library/windows/desktop/ee719763) to determine how many bits per channel of precision are available for that format. Also, note that not all hardware supports high precision pixel formats. In those cases your app may need to fall back to the WARP device to support high precision.
 
 ## Requirements
 
@@ -154,25 +160,25 @@ Because many image formats support multiple levels of precision, you should use 
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

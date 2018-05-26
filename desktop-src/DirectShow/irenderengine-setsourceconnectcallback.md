@@ -1,7 +1,12 @@
 ---
-Description: 'Not supported.'
-ms.assetid: '7da88bab-abba-417c-9e33-c4fc4950536f'
-title: 'IRenderEngine::SetSourceConnectCallback method'
+Description: Not supported.
+ms.assetid: 7da88bab-abba-417c-9e33-c4fc4950536f
+title: IRenderEngineSetSourceConnectCallback method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::SetSourceConnectCallback method

@@ -1,14 +1,22 @@
 ---
 title: IBasicDevice Type method
 description: Retreives an enumeration value indicating the device type of the DLNA device.
-ms.assetid: 'D9FB3A02-7796-4ACB-B7D3-D171D1D9B77F'
-keywords: ["Type method Media Streaming API", "Type method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , Type method"]
+ms.assetid: D9FB3A02-7796-4ACB-B7D3-D171D1D9B77F
+keywords:
+- Type method Media Streaming API
+- Type method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , Type method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.Type
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::Type method
@@ -20,7 +28,7 @@ Retreives an enumeration value indicating the device type of the DLNA device.
 
 ```C++
 HRESULT Type(
-  [out] DeviceTypes *value
+  [out] DeviceTypes *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

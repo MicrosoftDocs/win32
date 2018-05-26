@@ -4,17 +4,21 @@ description: Contains the last error that was set by the resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '58A4DB54-E018-4788-A38D-F6F35D6BE912'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 58A4DB54-E018-4788-A38D-F6F35D6BE912
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["LastOperationStatusCode Failover Cluster"]
+keywords:
+- LastOperationStatusCode Failover Cluster
 topic_type:
 - apiref
 api_name:
 - LastOperationStatusCode
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LastOperationStatusCode
@@ -27,14 +31,14 @@ Contains the last error that was set by the resource.
 |-----------|--------------------------------------------------------------|
 | Data type | Unsigned long integer                                        |
 | Access    | [Read-only](read-only-properties.md)                        |
-| Structure | [**CLUSPROP\_ULARGE\_INTEGER**](clusprop-ularge-integer.md) |
+| Structure | [**CLUSPROP\_ULARGE\_INTEGER**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_ularge_integer?branch=master) |
 | Minimum   | 0                                                            |
 | Maximum   | 0                                                            |
 | Default   | 0                                                            |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -43,7 +47,7 @@ Contains the last error that was set by the resource.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -54,9 +58,9 @@ Contains the last error that was set by the resource.
 [Resource Common Properties](resource-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

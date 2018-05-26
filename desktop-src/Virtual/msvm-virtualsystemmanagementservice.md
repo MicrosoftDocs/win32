@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VirtualSystemManagementService class
 description: Represents the virtualization service present on a single host system.
-ms.assetid: '88f9579c-cd69-4a53-965d-d4386b9c8ef7'
-keywords: ["Msvm_VirtualSystemManagementService class Hyper-V", "Msvm_VirtualSystemManagementService class Hyper-V , described"]
+ms.assetid: 88f9579c-cd69-4a53-965d-d4386b9c8ef7
+keywords:
+- Msvm_VirtualSystemManagementService class Hyper-V
+- Msvm_VirtualSystemManagementService class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -38,6 +40,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemManagementService class
@@ -52,27 +59,27 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemManagementService : CIM_VirtualSystemManagementService
 {
-  string   Caption = "Virtual System Management Service";
-  string   Description = "Service for creating, manipulating, and managing virtual systems";
-  string   ElementName = "Virtual System Management Service";
+  string   Caption = "Virtual System Management Service";
+  string   Description = "Service for creating, manipulating, and managing virtual systems";
+  string   ElementName = "Virtual System Management Service";
   datetime InstallDate;
-  uint16   OperationalStatus[] = 2;
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 2;
+  uint16   OperationalStatus[] = 2;
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = ;
-  string   SystemName;
-  string   CreationClassName = "Msvm_VirtualSystemManagementService";
-  string   Name = "vmms";
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   StartMode;
-  boolean  Started = TRUE;
-  string   StatusDescriptions[] = { "The service is running normally" };
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   SystemCreationClassName = ;
+  string   SystemName;
+  string   CreationClassName = "Msvm_VirtualSystemManagementService";
+  string   Name = "vmms";
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   StartMode;
+  boolean  Started = TRUE;
+  string   StatusDescriptions[] = { "The service is running normally" };
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
 };
 ```
 
@@ -94,21 +101,21 @@ The **Msvm\_VirtualSystemManagementService** class has these methods.
 | [**AddKvpItems**](addkvpitems-msvm-virtualsystemmanagementservice.md)                                             | Adds key-value pairs to a virtual system.<br/>                                                                                                                                                                                                                                                                                              |
 | [**AddVirtualSystemResources**](addvirtualsystemresources-msvm-virtualsystemmanagementservice.md)                 | Add resources to an existing virtual computer system.<br/>                                                                                                                                                                                                                                                                                  |
 | [**ApplyVirtualSystemSnapshot**](applyvirtualsystemsnapshot-msvm-virtualsystemmanagementservice.md)               | Applies the specified snapshot to the virtual computer system.<br/>                                                                                                                                                                                                                                                                         |
-| [**ApplyVirtualSystemSnapshotEx**](msvm-virtualsystemmanagementservice-applyvirtualsystemsnapshotex.md)           | Applies the specified snapshot to the virtual computer system.<br/> **Windows Server 2008:** The [**ApplyVirtualSystemSnapshotEx**](msvm-virtualsystemmanagementservice-applyvirtualsystemsnapshotex.md) method is not supported before Windows Server 2008 R2.<br/>                                                                 |
-| [**CheckSystemCompatibilityInfo**](msvm-virtualsystemmanagementservice-checksystemcompatibilityinfo.md)           | Verifies whether this computer system is able to host the specified VM.<br/> **Windows Server 2008:** The [**CheckSystemCompatibilityInfo**](msvm-virtualsystemmanagementservice-checksystemcompatibilityinfo.md) method is not supported before Windows Server 2008 R2.<br/>                                                        |
+| [**ApplyVirtualSystemSnapshotEx**](msvm-virtualsystemmanagementservice-applyvirtualsystemsnapshotex.md)           | Applies the specified snapshot to the virtual computer system.<br/> **Windows Server 2008:** The [**ApplyVirtualSystemSnapshotEx**](msvm-virtualsystemmanagementservice-applyvirtualsystemsnapshotex.md) method is not supported before Windows Server 2008 R2.<br/>                                                                 |
+| [**CheckSystemCompatibilityInfo**](msvm-virtualsystemmanagementservice-checksystemcompatibilityinfo.md)           | Verifies whether this computer system is able to host the specified VM.<br/> **Windows Server 2008:** The [**CheckSystemCompatibilityInfo**](msvm-virtualsystemmanagementservice-checksystemcompatibilityinfo.md) method is not supported before Windows Server 2008 R2.<br/>                                                        |
 | **CloneVirtualSystem**                                                                                             | This method is not supported.<br/>                                                                                                                                                                                                                                                                                                          |
 | [**CreateVirtualSystemSnapshot**](createvirtualsystemsnapshot-msvm-virtualsystemmanagementservice.md)             | Creates a new snapshot for the virtual computer system.<br/>                                                                                                                                                                                                                                                                                |
 | [**DefineVirtualSystem**](definevirtualsystem-msvm-virtualsystemmanagementservice.md)                             | Creates a new virtual computer system definition.<br/>                                                                                                                                                                                                                                                                                      |
 | [**DestroyVirtualSystem**](destroyvirtualsystem-msvm-virtualsystemmanagementservice.md)                           | Deletes an existing virtual computer system definition.<br/>                                                                                                                                                                                                                                                                                |
 | [**ExportVirtualSystem**](exportvirtualsystem-msvm-virtualsystemmanagementservice.md)                             | Deprecated. Use the [**ExportVirtualSystemEx**](msvm-virtualsystemmanagementservice-exportvirtualsystemex.md) method.<br/>                                                                                                                                                                                                                 |
-| [**ExportVirtualSystemEx**](msvm-virtualsystemmanagementservice-exportvirtualsystemex.md)                         | Exports a virtual computer system to a file.<br/> **Windows Server 2008:** The [**ExportVirtualSystemEx**](msvm-virtualsystemmanagementservice-exportvirtualsystemex.md) method is not supported before Windows Server 2008 R2.<br/>                                                                                                 |
+| [**ExportVirtualSystemEx**](msvm-virtualsystemmanagementservice-exportvirtualsystemex.md)                         | Exports a virtual computer system to a file.<br/> **Windows Server 2008:** The [**ExportVirtualSystemEx**](msvm-virtualsystemmanagementservice-exportvirtualsystemex.md) method is not supported before Windows Server 2008 R2.<br/>                                                                                                 |
 | [**FormatError**](formaterror-msvm-virtualsystemmanagementservice.md)                                             | Returns the formatted error message string for the specified array of embedded [**Msvm\_Error**](msvm-error.md) instances.<br/>                                                                                                                                                                                                            |
 | [**GetSummaryInformation**](getsummaryinformation-msvm-virtualsystemmanagementservice.md)                         | Returns virtual system summary information.<br/>                                                                                                                                                                                                                                                                                            |
-| [**GetSystemCompatibilityInfo**](msvm-virtualsystemmanagementservice-getsystemcompatibilityinfo.md)               | Generates an opaque blob of data containing compatibility information for the specified system.<br/> **Windows Server 2008:** The [**GetSystemCompatibilityInfo**](msvm-virtualsystemmanagementservice-getsystemcompatibilityinfo.md) method is not supported before Windows Server 2008 R2.<br/>                                    |
-| [**GetVirtualSystemImportSettingData**](msvm-virtualsystemmanagementservice-getvirtualsystemimportsettingdata.md) | Returns an embedded instance of [**Msvm\_VirtualSystemImportSettingData**](msvm-virtualsystemimportsettingdata.md).<br/> **Windows Server 2008:** The [**GetVirtualSystemImportSettingData**](msvm-virtualsystemmanagementservice-getvirtualsystemimportsettingdata.md) method is not supported before Windows Server 2008 R2.<br/> |
+| [**GetSystemCompatibilityInfo**](msvm-virtualsystemmanagementservice-getsystemcompatibilityinfo.md)               | Generates an opaque blob of data containing compatibility information for the specified system.<br/> **Windows Server 2008:** The [**GetSystemCompatibilityInfo**](msvm-virtualsystemmanagementservice-getsystemcompatibilityinfo.md) method is not supported before Windows Server 2008 R2.<br/>                                    |
+| [**GetVirtualSystemImportSettingData**](msvm-virtualsystemmanagementservice-getvirtualsystemimportsettingdata.md) | Returns an embedded instance of [**Msvm\_VirtualSystemImportSettingData**](msvm-virtualsystemimportsettingdata.md).<br/> **Windows Server 2008:** The [**GetVirtualSystemImportSettingData**](msvm-virtualsystemmanagementservice-getvirtualsystemimportsettingdata.md) method is not supported before Windows Server 2008 R2.<br/> |
 | [**GetVirtualSystemThumbnailImage**](getvirtualsystemthumbnailimage-msvm-virtualsystemmanagementservice.md)       | Retrieves a thumbnail image of an existing virtual computer system.<br/>                                                                                                                                                                                                                                                                    |
 | [**ImportVirtualSystem**](importvirtualsystem-msvm-virtualsystemmanagementservice.md)                             | Deprecated. Use the [**ImportVirtualSystemEx**](msvm-virtualsystemmanagementservice-importvirtualsystemex.md) method.<br/>                                                                                                                                                                                                                 |
-| [**ImportVirtualSystemEx**](msvm-virtualsystemmanagementservice-importvirtualsystemex.md)                         | Imports a virtual computer system definition from the specified file.<br/> **Windows Server 2008:** The [**ImportVirtualSystemEx**](msvm-virtualsystemmanagementservice-importvirtualsystemex.md) method is not supported before Windows Server 2008 R2.<br/>                                                                        |
+| [**ImportVirtualSystemEx**](msvm-virtualsystemmanagementservice-importvirtualsystemex.md)                         | Imports a virtual computer system definition from the specified file.<br/> **Windows Server 2008:** The [**ImportVirtualSystemEx**](msvm-virtualsystemmanagementservice-importvirtualsystemex.md) method is not supported before Windows Server 2008 R2.<br/>                                                                        |
 | **InstantiateVirtualSystem**                                                                                       | This method is not supported.<br/>                                                                                                                                                                                                                                                                                                          |
 | [**ModifyKvpItems**](modifykvpitems-msvm-virtualsystemmanagementservice.md)                                       | Modifies existing key-value pairs on a virtual computer system.<br/>                                                                                                                                                                                                                                                                        |
 | [**ModifyServiceSettings**](modifyservicesettings-msvm-virtualsystemmanagementservice.md)                         | Modifies the service's setting data.<br/>                                                                                                                                                                                                                                                                                                   |
@@ -125,7 +132,7 @@ The **Msvm\_VirtualSystemManagementService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -514,9 +521,9 @@ Access to the **Msvm\_VirtualSystemManagementService** class might be restricted
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -538,9 +545,9 @@ Access to the **Msvm\_VirtualSystemManagementService** class might be restricted
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

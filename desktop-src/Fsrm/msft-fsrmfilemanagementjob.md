@@ -4,11 +4,16 @@ description: Defines a file management job.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1ce33602-0ada-4d82-aebb-9dee7dc8b2f3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 1ce33602-0ada-4d82-aebb-9dee7dc8b2f3
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMFileManagementJob class File Server Resource Manager", "MSFT_FSRMFileManagementJob class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMFileManagementJob class File Server Resource Manager
+- MSFT_FSRMFileManagementJob class File Server Resource Manager , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMFileManagementJob class
@@ -23,27 +28,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMFileManagementJob
 {
-  string                   Name;
-  string                   Description = "";
-  string                   Namespace[];
-  boolean                  Disabled = False;
-  MSFT_FSRMFMJCondition    Condition[] = {};
-  MSFT_FSRMFMJAction       Action = null;
-  uint32                   ReportFormat[] = {Dhtml, Xml};
-  string                   MailTo = "";
-  uint32                   ReportLog[] = {};
+  string                   Name;
+  string                   Description = "";
+  string                   Namespace[];
+  boolean                  Disabled = False;
+  MSFT_FSRMFMJCondition    Condition[] = {};
+  MSFT_FSRMFMJAction       Action = null;
+  uint32                   ReportFormat[] = {Dhtml, Xml};
+  string                   MailTo = "";
+  uint32                   ReportLog[] = {};
   MSFT_FSRMFMJNotification Notification[] = {};
-  boolean                  Continuous = False;
-  boolean                  ContinuousLog = False;
-  uint64                   ContinuousLogSize;
-  string                   Parameters[] = {};
-  uint32                   Status;
-  datetime                 LastRun;
-  string                   LastReportPath;
-  uint32                   Flags[];
-  MSFT_FSRMScheduledTask   Schedule;
-  string                   TaskName;
-  string                   LastError;
+  boolean                  Continuous = False;
+  boolean                  ContinuousLog = False;
+  uint64                   ContinuousLogSize;
+  string                   Parameters[] = {};
+  uint32                   Status;
+  datetime                 LastRun;
+  string                   LastReportPath;
+  uint32                   Flags[];
+  MSFT_FSRMScheduledTask   Schedule;
+  string                   TaskName;
+  string                   LastError;
 };
 ```
 
@@ -68,7 +73,7 @@ The **MSFT\_FSRMFileManagementJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -305,7 +310,7 @@ Data type: **string** array
 Access type: Read/write
 </dt> </dl>
 
-A list of strings of the format "&lt;name&gt;=&lt;value&gt;", as accepted by the [**Parameters**](ifsrmfilemanagementjob-parameters.md) property of the [**IFsrmFileManagementJob**](ifsrmfilemanagementjob.md) interface. Optional. The default value is an empty list.
+A list of strings of the format "&lt;name&gt;=&lt;value&gt;", as accepted by the [**Parameters**](/windows/previous-versions/FsrmReports/nf-fsrmreports-ifsrmfilemanagementjob-get_parameters?branch=master) property of the [**IFsrmFileManagementJob**](/windows/previous-versions/Fsrm/nn-fsrmreports-ifsrmfilemanagementjob?branch=master) interface. Optional. The default value is an empty list.
 
 </dd> <dt>
 
@@ -507,7 +512,7 @@ FSRM does not expire files in the system directories (for example, \\Windows and
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -521,9 +526,9 @@ FSRM does not expire files in the system directories (for example, \\Windows and
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

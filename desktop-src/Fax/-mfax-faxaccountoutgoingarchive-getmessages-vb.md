@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a new iterator (archive cursor) for the archive of outbound fax messages for a particular fax account.'
-ms.assetid: 'f8bfd7a9-def7-4c2a-91ba-bf523a7c6de4'
-title: 'FaxAccountOutgoingArchive.GetMessages method'
+---
+Description: Returns a new iterator (archive cursor) for the archive of outbound fax messages for a particular fax account.
+ms.assetid: f8bfd7a9-def7-4c2a-91ba-bf523a7c6de4
+title: FaxAccountOutgoingArchive.GetMessages method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountOutgoingArchive.GetMessages method
@@ -61,7 +66,7 @@ A [**FaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator.md) object.
 [**FaxAccountOutgoingArchive**](-mfax-faxaccountoutgoingarchive.md)
 </dt> <dt>
 
-[**IFaxAccountOutgoingArchive**](-mfax-faxaccountoutgoingarchive-cpp.md)
+[**IFaxAccountOutgoingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountoutgoingarchive?branch=master)
 </dt> </dl>
 
  

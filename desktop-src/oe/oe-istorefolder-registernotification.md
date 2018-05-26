@@ -1,8 +1,11 @@
 ---
 title: IStoreFolder RegisterNotification method
 description: Registers a window to receive notification messages whenever an operation is performed on the folder associated with this interface.
-ms.assetid: '0ca50bd7-f706-4fbb-90a5-0e48f2fcb698'
-keywords: ["RegisterNotification method Windows Mail (formerly Outlook Express)", "RegisterNotification method Windows Mail (formerly Outlook Express) , IStoreFolder interface", "IStoreFolder interface Windows Mail (formerly Outlook Express) , RegisterNotification method"]
+ms.assetid: 0ca50bd7-f706-4fbb-90a5-0e48f2fcb698
+keywords:
+- RegisterNotification method Windows Mail (formerly Outlook Express)
+- RegisterNotification method Windows Mail (formerly Outlook Express) , IStoreFolder interface
+- IStoreFolder interface Windows Mail (formerly Outlook Express) , RegisterNotification method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreFolder::RegisterNotification method
@@ -22,8 +30,8 @@ Registers a window to receive notification messages whenever an operation is per
 
 ```C++
 HRESULT RegisterNotification(
-  [in] DWORD dwReserved,
-  [in] HWND  hwnd
+  [in] DWORD dwReserved,
+  [in] HWND  hwnd
 );
 ```
 
@@ -66,7 +74,7 @@ Returns S\_OK if successful, or one of the following error values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -84,7 +92,7 @@ Once registered, the window specified by *hwnd* can receive the following messag
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -92,8 +100,8 @@ Once registered, the window specified by *hwnd* can receive the following messag
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -111,9 +119,9 @@ Once registered, the window specified by *hwnd* can receive the following messag
 [**IStoreFolder::UnregisterNotification**](oe-istorefolder-unregisternotification.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

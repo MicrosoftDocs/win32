@@ -4,11 +4,13 @@ description: Used with the DsRestoreRegister function to map a backed up databas
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b2c5d30a-3617-4807-82e8-57f7179b817c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b2c5d30a-3617-4807-82e8-57f7179b817c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["EDB_RSTMAP structure Active Directory", "PEDB_RSTMAP structure pointer Active Directory"]
+keywords:
+- EDB_RSTMAP structure Active Directory
+- PEDB_RSTMAP structure pointer Active Directory
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - Ntdsbcli.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # EDB\_RSTMAP structure
@@ -61,8 +66,8 @@ Pointer to a null-terminated string that contains the new name of the database, 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Ntdsbcli.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **EDB\_RSTMAPW** (Unicode) and **EDB\_RSTMAPA** (ANSI)<br/>                     |
 
@@ -78,9 +83,9 @@ Pointer to a null-terminated string that contains the new name of the database, 
 [Directory Backup Structures](directory-backup-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

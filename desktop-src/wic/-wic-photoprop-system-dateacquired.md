@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.DateAcquired property.'
-ms.assetid: '04a61ecc-d168-4f93-b143-3e6ba8aaf322'
-title: 'System.DateAcquired Photo Metadata Policy'
+Description: The photo metadata policy for the System.DateAcquired property.
+ms.assetid: 04a61ecc-d168-4f93-b143-3e6ba8aaf322
+title: System.DateAcquired Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DateAcquired Photo Metadata Policy

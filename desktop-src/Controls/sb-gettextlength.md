@@ -1,8 +1,9 @@
 ---
 title: SB\_GETTEXTLENGTH message
 description: Retrieves the length, in characters, of the text from the specified part of a status window.
-ms.assetid: '2cd43106-dd43-499e-b595-760e9ededab5'
-keywords: ["SB_GETTEXTLENGTH message Windows Controls"]
+ms.assetid: 2cd43106-dd43-499e-b595-760e9ededab5
+keywords:
+- SB_GETTEXTLENGTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SB\_GETTEXTLENGTH message
@@ -49,7 +55,7 @@ Returns a 32-bit value that consists of two 16-bit values. The low word specifie
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,16 +69,16 @@ This message returns a maximum string length of 65,535 characters. If the actual
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **SB\_GETTEXTLENGTHW** (Unicode) and **SB\_GETTEXTLENGTHA** (ANSI)<br/>         |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

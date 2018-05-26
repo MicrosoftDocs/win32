@@ -1,14 +1,20 @@
 ---
 title: keyword (KeywordListType) Element
 description: Defines a keyword that identifies a category of events.
-ms.assetid: 'c921eb01-f1b0-455c-8ff9-06895f1e40f9'
-keywords: ["keyword element EventLog"]
+ms.assetid: c921eb01-f1b0-455c-8ff9-06895f1e40f9
+keywords:
+- keyword element EventLog
 topic_type:
 - apiref
 api_name:
 - keyword
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # keyword (KeywordListType) Element
@@ -29,8 +35,8 @@ The **keyword** element is defined by the [**KeywordListType**](eventmanifestsch
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -47,9 +53,9 @@ The **keyword** element is defined by the [**KeywordListType**](eventmanifestsch
 [**keywords (MetadataType)**](eventmanifestschema-keywords-metadatatype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

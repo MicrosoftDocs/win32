@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'A3A906C0-FA96-4008-B904-1DA333B59833'
+---
+Description: .
+ms.assetid: A3A906C0-FA96-4008-B904-1DA333B59833
 title: ReplyPrinterChangeNotificationEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReplyPrinterChangeNotificationEx function

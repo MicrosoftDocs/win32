@@ -1,8 +1,15 @@
 ---
 title: Bluetooth and WSAQUERYSET for Service Inquiry
 description: Using the WSAQUERYSET structure with the WSALookupServiceBegin and WSALookupServiceNext functions to get information about the service inquiry process.
-ms.assetid: 'c52a7e7d-92ab-4103-a6c6-57c3fafec706'
-keywords: ["Bluetooth and WSAQUERYSET for Service Inquiry Bluetooth", "WSAQUERYSET Bluetooth , for service inquiry"]
+ms.assetid: c52a7e7d-92ab-4103-a6c6-57c3fafec706
+keywords:
+- Bluetooth and WSAQUERYSET for Service Inquiry Bluetooth
+- WSAQUERYSET Bluetooth , for service inquiry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and WSAQUERYSET for Service Inquiry
@@ -95,11 +102,11 @@ The [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/deskt
 <tr class="even">
 <td><strong>lpcsaBuffer</strong></td>
 <td>Not used.</td>
-<td>Pointer to a [<strong>CSADDR_INFO</strong>](https://msdn.microsoft.com/library/windows/desktop/ms737640) structure whose <strong>LocalAddr.lpSockaddr</strong> member points to a [<strong>SOCKADDR_BTH</strong>](sockaddr-bth.md) that contains the complete connectable address of the remote service, converted from the first entry of the Bluetooth ProtocolDescriptorList SDP attribute. Returned if <strong>LUP_RETURN_ADDR</strong> is specified.</td>
+<td>Pointer to a [<strong>CSADDR_INFO</strong>](https://msdn.microsoft.com/library/windows/desktop/ms737640) structure whose <strong>LocalAddr.lpSockaddr</strong> member points to a [<strong>SOCKADDR_BTH</strong>](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master) that contains the complete connectable address of the remote service, converted from the first entry of the Bluetooth ProtocolDescriptorList SDP attribute. Returned if <strong>LUP_RETURN_ADDR</strong> is specified.</td>
 </tr>
 <tr class="odd">
 <td><strong>lpBlob</strong></td>
-<td>Optional. Pointer to a [<strong>BTH_QUERY_SERVICE</strong>](bth-query-service.md) structure that contains advanced parameters to limit the results of the search. If provided, <strong>lpServiceClassId</strong> is ignored and cached queries do not succeed.</td>
+<td>Optional. Pointer to a [<strong>BTH_QUERY_SERVICE</strong>](/windows/win32/Ws2bth/ns-ws2bth-_bth_query_service?branch=master) structure that contains advanced parameters to limit the results of the search. If provided, <strong>lpServiceClassId</strong> is ignored and cached queries do not succeed.</td>
 <td><ul>
 <li>If a service search is performed: Pointer to a [<strong>BLOB</strong>](https://msdn.microsoft.com/library/windows/desktop/ms737551) structure that returns the service handles. (<strong>BLOB.cbSize</strong>)/<strong>sizeof</strong>(ULONG) calculates the number of handles. <strong>BLOB.pBlobData</strong> is an array of ULONG values representing the service handles.</li>
 <li>If an attribute or serviceAttribute search is performed: Pointer to a [<strong>BLOB</strong>](https://msdn.microsoft.com/library/windows/desktop/ms737551) structure that returns the binary SDP record. <strong>BLOB.cbSize</strong> is the size of the binary SDP record. <strong>BLOB.pBlobData</strong> points to the record itself. The binary SDP record is necessary in many cases because only a limited number of SDP attributes are able to be converted to the [<strong>WSAQUERYSET</strong>](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure, and only default encoded UTF-8 strings are converted. Functions to assist in parsing the binary SDP record are provided in the [Bluetooth Reference](bluetooth-reference.md) section.</li>
@@ -138,13 +145,13 @@ Bluetooth and WSALookupServiceNext
 [**BLOB**](https://msdn.microsoft.com/library/windows/desktop/ms737551)
 </dt> <dt>
 
-[**BTH\_QUERY\_SERVICE**](bth-query-service.md)
+[**BTH\_QUERY\_SERVICE**](/windows/win32/Ws2bth/ns-ws2bth-_bth_query_service?branch=master)
 </dt> <dt>
 
 [**CSADDR\_INFO**](https://msdn.microsoft.com/library/windows/desktop/ms737640)
 </dt> <dt>
 
-[**SOCKADDR\_BTH**](sockaddr-bth.md)
+[**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master)
 </dt> <dt>
 
 [**WSAAddressToString**](https://msdn.microsoft.com/library/windows/desktop/ms741516)

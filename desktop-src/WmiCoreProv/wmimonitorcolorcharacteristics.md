@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the International Commission on Illumination (CIE) color characteristics of a computer monitor.'
-ms.assetid: '476aefae-11c0-46be-a2bb-83fbafd70421'
+Description: Represents the International Commission on Illumination (CIE) color characteristics of a computer monitor.
+ms.assetid: 476aefae-11c0-46be-a2bb-83fbafd70421
 title: WmiMonitorColorCharacteristics class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorColorCharacteristics class
@@ -13,11 +18,11 @@ The **WmiMonitorColorCharacteristics** class represents the International Commis
 ``` syntax
 class WmiMonitorColorCharacteristics : MSMonitorClass
 {
-  boolean  Active;
+  boolean  Active;
   XYZinCIE Blue;
   XYZinCIE DefaultWhite;
   XYZinCIE Green;
-  string   InstanceName;
+  string   InstanceName;
   XYZinCIE Red;
 };
 ```
@@ -125,8 +130,8 @@ The chromaticity and white point values are expressed as fractional numbers usin
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -140,9 +145,9 @@ The chromaticity and white point values are expressed as fractional numbers usin
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

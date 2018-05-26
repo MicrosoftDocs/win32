@@ -4,13 +4,16 @@ description: Retrieves the current version vector chain of this member.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '803dcb32-3b0e-4b6d-a054-4c7661ef60b5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 803dcb32-3b0e-4b6d-a054-4c7661ef60b5
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetVersionVector method Distributed File System Replication", "GetVersionVector method Distributed File System Replication , MSFT_DfsrReplicatedFolderInfo class", "MSFT_DfsrReplicatedFolderInfo class Distributed File System Replication , GetVersionVector method"]
+keywords:
+- GetVersionVector method Distributed File System Replication
+- GetVersionVector method Distributed File System Replication , MSFT_DfsrReplicatedFolderInfo class
+- MSFT_DfsrReplicatedFolderInfo class Distributed File System Replication , GetVersionVector method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetVersionVector method of the MSFT\_DfsrReplicatedFolderInfo class
@@ -30,7 +36,7 @@ Retrieves the current version vector chain of this member.
 
 ```mof
 uint32 GetVersionVector(
-  [out] string VersionVector
+  [out] string VersionVector
 );
 ```
 
@@ -58,7 +64,7 @@ This method returns one of the [MONITOR\_STATUS return codes](monitor-status-ret
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -72,9 +78,9 @@ This method returns one of the [MONITOR\_STATUS return codes](monitor-status-ret
 [**MSFT\_DfsrReplicatedFolderInfo**](msft-dfsrreplicatedfolderinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,22 @@
 ---
 title: The Secure Audio Path Model (deprecated)
 description: The Secure Audio Path Model (deprecated)
-ms.assetid: '8854411a-d917-497b-9c10-4c29bcb7832b'
-keywords: ["Windows Media Format SDK,Microsoft Secure Audio Path (SAP)", "digital rights management (DRM),Microsoft Secure Audio Path (SAP)", "DRM (digital rights management),Microsoft Secure Audio Path (SAP)", "Windows Media Format SDK,Secure Audio Path (SAP)", "digital rights management (DRM),Secure Audio Path (SAP)", "DRM (digital rights management),Secure Audio Path (SAP)", "Microsoft Secure Audio Path (SAP),model", "Secure Audio Path (SAP),model", "SAP (Secure Audio Path),model"]
+ms.assetid: 8854411a-d917-497b-9c10-4c29bcb7832b
+keywords:
+- Windows Media Format SDK,Microsoft Secure Audio Path (SAP)
+- digital rights management (DRM),Microsoft Secure Audio Path (SAP)
+- DRM (digital rights management),Microsoft Secure Audio Path (SAP)
+- Windows Media Format SDK,Secure Audio Path (SAP)
+- digital rights management (DRM),Secure Audio Path (SAP)
+- DRM (digital rights management),Secure Audio Path (SAP)
+- Microsoft Secure Audio Path (SAP),model
+- Secure Audio Path (SAP),model
+- SAP (Secure Audio Path),model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Secure Audio Path Model (deprecated)

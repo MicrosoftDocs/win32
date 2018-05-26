@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine RemoveHardDiskConnection method
 description: The RemoveHardDiskConnection method removes the specified hard disk connection from the virtual machine.
-ms.assetid: '275d65a9-705e-41ff-825c-d5e3b8a75cd1'
-keywords: ["RemoveHardDiskConnection method Virtual Server", "RemoveHardDiskConnection method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , RemoveHardDiskConnection method"]
+ms.assetid: 275d65a9-705e-41ff-825c-d5e3b8a75cd1
+keywords:
+- RemoveHardDiskConnection method Virtual Server
+- RemoveHardDiskConnection method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , RemoveHardDiskConnection method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::RemoveHardDiskConnection method
@@ -22,7 +30,7 @@ The **RemoveHardDiskConnection** method removes the specified hard disk connecti
 
 ```C++
 HRESULT RemoveHardDiskConnection(
-  [in] IVMHardDiskConnection *hardDiskConnection
+  [in] IVMHardDiskConnection *hardDiskConnection
 );
 ```
 
@@ -56,7 +64,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,8 +76,8 @@ You can only remove an existing hard disk connection from a stopped virtual mach
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -81,9 +89,9 @@ You can only remove an existing hard disk connection from a stopped virtual mach
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

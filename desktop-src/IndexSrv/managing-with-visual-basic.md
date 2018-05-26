@@ -1,7 +1,12 @@
 ---
 title: Managing with Visual Basic
 description: Managing with Visual Basic
-ms.assetid: 'bc007d5d-1de3-45f4-83b7-d6ee0398d208'
+ms.assetid: bc007d5d-1de3-45f4-83b7-d6ee0398d208
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing with Visual Basic

@@ -1,7 +1,12 @@
 ---
 title: Using Rich Edit Controls
 description: This section contains topics that demonstrate how to create and use rich edit controls.
-ms.assetid: '2c4717c9-3257-42d5-9c36-89b7e524e788'
+ms.assetid: 2c4717c9-3257-42d5-9c36-89b7e524e788
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Rich Edit Controls
@@ -26,7 +31,7 @@ This section contains topics that demonstrate how to create and use rich edit co
 <tbody>
 <tr class="odd">
 <td>[How to Create Rich Edit Controls](create-rich-edit-controls.md)<br/></td>
-<td>To create a rich edit control, call the [<strong>CreateWindowEx</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the rich edit window class. For Microsoft Rich Edit 4.1 (Msftedit.dll), specify MSFTEDIT_CLASS as the window class. For all previous versions, specify RICHEDIT_CLASS. For more information, see [Versions of Rich Edit](about-rich-edit-controls.md). <br/> Rich edit controls support most of the window styles used with edit controls as well as additional styles. You should specify the [<strong>ES_MULTILINE</strong>](edit-control-styles.md#es-multiline) window style if you want to allow more than one line of text in the control. For more information, see [Rich Edit Control Styles](rich-edit-control-styles.md). <br/></td>
+<td>To create a rich edit control, call the [<strong>CreateWindowEx</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the rich edit window class. For Microsoft Rich Edit 4.1 (Msftedit.dll), specify MSFTEDIT_CLASS as the window class. For all previous versions, specify RICHEDIT_CLASS. For more information, see [Versions of Rich Edit](about-rich-edit-controls.md). <br/> Rich edit controls support most of the window styles used with edit controls as well as additional styles. You should specify the [<strong>ES_MULTILINE</strong>](edit-control-styles.md#es-multiline) window style if you want to allow more than one line of text in the control. For more information, see [Rich Edit Control Styles](rich-edit-control-styles.md). <br/></td>
 </tr>
 <tr class="even">
 <td>[How to Format Text in Rich Edit Controls](format-text-in-rich-edit-controls.md)<br/></td>
@@ -50,7 +55,7 @@ This section contains topics that demonstrate how to create and use rich edit co
 </tr>
 <tr class="odd">
 <td>[How to Use Streams](use-streams.md)<br/></td>
-<td>You can use streams to transfer data into or out of a rich edit control. A stream is defined by an [<strong>EDITSTREAM</strong>](editstream.md) structure, which specifies a buffer and an application-defined callback function. <br/></td>
+<td>You can use streams to transfer data into or out of a rich edit control. A stream is defined by an [<strong>EDITSTREAM</strong>](/windows/win32/Richedit/ns-richedit-_editstream?branch=master) structure, which specifies a buffer and an application-defined callback function. <br/></td>
 </tr>
 <tr class="even">
 <td>[How to Automatically Resize Rich Edit Controls](automatically-resize-rich-edit-controls.md)<br/></td>
@@ -62,7 +67,7 @@ This section contains topics that demonstrate how to create and use rich edit co
 </tr>
 <tr class="even">
 <td>[How to Use Font Binding in Rich Edit Controls](use-font-binding-in-rich-edit-controls.md)<br/></td>
-<td>Microsoft Rich Edit 3.0 assigns a character set to plain-text characters depending on their context. Some examples are: <br/>
+<td>Microsoft Rich Edit 3.0 assigns a character set to plain-text characters depending on their context. Some examples are: <br/>
 <ul>
 <li>Greek characters are assigned <strong>GREEK_CHARSET</strong>.</li>
 <li>Hangul symbols are assigned <strong>HANGUL_CHARSET</strong>.</li>
@@ -83,11 +88,11 @@ This section contains topics that demonstrate how to create and use rich edit co
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

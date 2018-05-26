@@ -1,13 +1,16 @@
 ---
-Description: 'Directs the MOF compiler to separate a MOF file into language-neutral and language-specific versions.'
+Description: Directs the MOF compiler to separate a MOF file into language-neutral and language-specific versions.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c1aec33c-b936-4cca-8fcd-7bd088af7116'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c1aec33c-b936-4cca-8fcd-7bd088af7116
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: pragma amendment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # pragma amendment
@@ -25,7 +28,7 @@ The command instructs the MOF compiler to produce two MOF files from the origina
 > [!Note]  
 > When you are splitting a MOF file with the **amendment** qualifier or the **pragma amendment** command, you must specify the **-MOF** and **-MFL** options. Otherwise, the compiler does not generate any output files. You must then compile the two output files to make the class information available to WMI.
 
- 
+ 
 
 
 ```mof
@@ -58,8 +61,8 @@ Class myclass
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -70,9 +73,9 @@ Class myclass
 [Preprocessor Commands](preprocessor-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

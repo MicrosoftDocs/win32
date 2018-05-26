@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the method to use for motion matching.'
-ms.assetid: '75bbc189-3092-4813-9f45-54e8e48b05cd'
-title: 'MFPKEY\_MOTIONMATCHMETHOD Property'
+---
+Description: Specifies the method to use for motion matching.
+ms.assetid: 75bbc189-3092-4813-9f45-54e8e48b05cd
+title: MFPKEY\_MOTIONMATCHMETHOD Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_MOTIONMATCHMETHOD Property

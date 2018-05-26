@@ -1,12 +1,18 @@
 ---
 title: Texture1D SampleCmp methods
 description: Samples a Texture1D, using a comparison value to reject samples.
-ms.assetid: '8F7E5355-E299-43BF-BCC8-F01E7D82A353'
-keywords: ["SampleCmp methods HLSL"]
+ms.assetid: 8F7E5355-E299-43BF-BCC8-F01E7D82A353
+keywords:
+- SampleCmp methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture1D::SampleCmp methods
@@ -36,9 +42,9 @@ Refer to [Texture-Object](dx-graphics-hlsl-to-type.md).
 [Texture1D](sm5-object-texture1d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

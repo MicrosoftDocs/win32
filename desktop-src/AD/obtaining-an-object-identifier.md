@@ -4,10 +4,13 @@ description: Two of the most common ways to get an Object Identifier (OID) are d
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0c505790-ba20-432a-8786-de4e1ad03f0a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0c505790-ba20-432a-8786-de4e1ad03f0a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Obtaining an Object Identifier

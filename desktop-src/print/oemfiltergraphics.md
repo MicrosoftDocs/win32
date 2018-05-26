@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMFilterGraphics function
-ms.assetid: '1b81de5a-440a-4209-992e-7f79c047245c'
+ms.assetid: 1b81de5a-440a-4209-992e-7f79c047245c
 title: OEMFilterGraphics function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMFilterGraphics function

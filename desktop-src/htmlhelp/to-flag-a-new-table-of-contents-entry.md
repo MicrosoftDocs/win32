@@ -1,7 +1,12 @@
 ---
 title: To flag a new table of contents entry
 description: To flag a new table of contents entry
-ms.assetid: '06A773AB-EF71-4a46-ABE2-560351326ED0'
+ms.assetid: 06A773AB-EF71-4a46-ABE2-560351326ED0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To flag a new table of contents entry
@@ -17,7 +22,7 @@ ms.assetid: '06A773AB-EF71-4a46-ABE2-560351326ED0'
 
     
 
-     
+     
 
 3.  Select the **Mark as a new entry** check box.
 
@@ -32,9 +37,9 @@ New icons are not supported in a [binary table of contents](about-binary-content
 [About Creating Table of Contents Files](create-a-table-of-contents-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

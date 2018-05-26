@@ -1,14 +1,20 @@
 ---
 title: weekType Simple Type
 description: Defines the values that can be used in the Week element.
-ms.assetid: '83a525ae-020b-4528-9e14-1e7d9df7b8c0'
-keywords: ["weekType simple type Task Scheduler"]
+ms.assetid: 83a525ae-020b-4528-9e14-1e7d9df7b8c0
+keywords:
+- weekType simple type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - weekType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # weekType Simple Type
@@ -41,8 +47,8 @@ The **weekType** simple type is a **string** that is restricted by the following
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -56,9 +62,9 @@ The **weekType** simple type is a **string** that is restricted by the following
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

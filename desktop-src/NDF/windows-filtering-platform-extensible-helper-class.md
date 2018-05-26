@@ -1,7 +1,12 @@
 ---
 title: Windows Filtering Platform Extensible Helper Class
 description: The Windows Filtering Platform (WFP) includes a Network Diagnostics Framework (NDF) helper class, called the Filtering Platform helper class (FPHC).
-ms.assetid: '006ea30c-8682-4a3d-803a-73dba5162696'
+ms.assetid: 006ea30c-8682-4a3d-803a-73dba5162696
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Filtering Platform Extensible Helper Class
@@ -42,29 +47,29 @@ The following table shows the matching attribute used to identify the hypothesis
 
 
 
- 
+ 
 
 When the ProviderID of a blocking filter matches that of a registered helper class, FPHC informs NDF to invoke that helper class, thus extending the diagnostic capability of FPHC.
 
 ## FPHC Event Attributes
 
-The following table lists the event attributes associated with each matching event. Each event attribute is stored in a [**HELPER\_ATTRIBUTE**](helper-attribute.md) structure. These attributes are passed by NDF to FPHC when a matching event is found. These can in turn be passed to FPHC extensions.
+The following table lists the event attributes associated with each matching event. Each event attribute is stored in a [**HELPER\_ATTRIBUTE**](/windows/win32/ndattrib/ns-ndattrib-taghelper_attribute?branch=master) structure. These attributes are passed by NDF to FPHC when a matching event is found. These can in turn be passed to FPHC extensions.
 
 
 
-| Attribute     | [**ATTRIBUTE\_TYPE**](attribute-type.md) value | Description                                                                                                                               |
+| Attribute     | [**ATTRIBUTE\_TYPE**](/windows/win32/ndattrib/ne-ndattrib-tagattribute_type?branch=master) value | Description                                                                                                                               |
 |---------------|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Provider GUID | AT\_GUID                                        | The GUID of the provider associated with the filter.                                                                                      |
 | Timestamp     | AT\_OCTET\_STRING                               | A buffer of type FILETIME that specifies the time at which the event occurred. This time stamp can be used to uniquely identify an event. |
 | ipProtocol    | AT\_UINT32                                      | The transport layer protocol, in UINT8 format.                                                                                            |
-| LocalAddr     | AT\_SOCKADDR                                    | The local IP address and port, stored in a [**DIAG\_SOCKADDR**](diag-sockaddr.md) structure.                                             |
-| RemoteAddr    | AT\_SOCKADDR                                    | The remote IP address and port, stored in a [**DIAG\_SOCKADDR**](diag-sockaddr.md) structure.                                            |
+| LocalAddr     | AT\_SOCKADDR                                    | The local IP address and port, stored in a [**DIAG\_SOCKADDR**](/windows/win32/ndattrib/ns-ndattrib-tagsock_addr?branch=master) structure.                                             |
+| RemoteAddr    | AT\_SOCKADDR                                    | The remote IP address and port, stored in a [**DIAG\_SOCKADDR**](/windows/win32/ndattrib/ns-ndattrib-tagsock_addr?branch=master) structure.                                            |
 | userId        | AT\_OCTET\_STRING                               | A buffer of type SID that represents the userid. If userId is of length 0, the SID is unavailable.                                        |
 | appId         | AT\_STRING                                      | A buffer that stores the retrieved application identifier. If appId has a value of L"", the application identifier is unavailable.        |
 
 
 
- 
+ 
 
 ## Handling FPHC Events
 
@@ -94,7 +99,7 @@ The following table shows some scenarios causing connectivity failures that can 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -112,9 +117,9 @@ The following table shows some scenarios causing connectivity failures that can 
 [NDF Helper Class Examples](ndf-helper-class-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

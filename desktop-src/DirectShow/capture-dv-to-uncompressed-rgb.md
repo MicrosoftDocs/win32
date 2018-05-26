@@ -1,7 +1,12 @@
 ---
 Description: Capture DV to Uncompressed RGB
-ms.assetid: '02b54070-09c8-45ab-8a08-1493008a5e1f'
+ms.assetid: 02b54070-09c8-45ab-8a08-1493008a5e1f
 title: Capture DV to Uncompressed RGB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capture DV to Uncompressed RGB
@@ -52,7 +57,7 @@ hr = pBuilder->RenderStream(0, 0, pTee, 0, 0);
 
 
 
-You must create the DV Splitter, DV Video Decoder, Smart Tee, and Infinite Pin Tee filters, and add each one to the filter graph. (For brevity, these steps are omitted from the previous code.) This example uses the [**ICaptureGraphBuilder2::FindPin**](icapturegraphbuilder2-findpin.md) method to find the capture and preview pins on the Smart Tee filter; capture is always output pin 0, and preview is output pin 1.
+You must create the DV Splitter, DV Video Decoder, Smart Tee, and Infinite Pin Tee filters, and add each one to the filter graph. (For brevity, these steps are omitted from the previous code.) This example uses the [**ICaptureGraphBuilder2::FindPin**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findpin?branch=master) method to find the capture and preview pins on the Smart Tee filter; capture is always output pin 0, and preview is output pin 1.
 
 ## Related topics
 

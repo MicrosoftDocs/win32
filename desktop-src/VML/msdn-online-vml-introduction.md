@@ -1,8 +1,28 @@
 ---
 title: VML Introduction
 description: VML Introduction
-ms.assetid: '8b603e95-3f02-47d6-9c5c-c781fa5d8459'
-keywords: ["Vector Markup Language (VML),reference", "VML (Vector Markup Language),reference", "vector graphics,VML reference", "vector graphics,Vector Markup Language (VML)", "reference for Vector Markup Language (VML)", "VML reference", "Vector Markup Language (VML),Shape element", "VML (Vector Markup Language),Shape element", "vector graphics,Shape element", "Shape element", "VML elements,Shape", "Vector Markup Language (VML),VBScript", "VML (Vector Markup Language),VBScript", "Vector Markup Language (VML),Javascript", "VML (Vector Markup Language),Javascript"]
+ms.assetid: 8b603e95-3f02-47d6-9c5c-c781fa5d8459
+keywords:
+- Vector Markup Language (VML),reference
+- VML (Vector Markup Language),reference
+- vector graphics,VML reference
+- vector graphics,Vector Markup Language (VML)
+- reference for Vector Markup Language (VML)
+- VML reference
+- Vector Markup Language (VML),Shape element
+- VML (Vector Markup Language),Shape element
+- vector graphics,Shape element
+- Shape element
+- VML elements,Shape
+- Vector Markup Language (VML),VBScript
+- VML (Vector Markup Language),VBScript
+- Vector Markup Language (VML),Javascript
+- VML (Vector Markup Language),Javascript
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Introduction

@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics describe solutions to common tasks encountered when developing applications using the Identity Manager API.'
-ms.assetid: '7ae3010b-d884-450d-9d15-dad4e414f70a'
+Description: The following topics describe solutions to common tasks encountered when developing applications using the Identity Manager API.
+ms.assetid: 7ae3010b-d884-450d-9d15-dad4e414f70a
 title: Using Identity Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Identity Manager

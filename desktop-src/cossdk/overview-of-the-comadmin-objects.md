@@ -1,7 +1,12 @@
 ---
-Description: 'The COMAdmin objects offer a simple object model that provides you with access to the COM+ catalog.'
-ms.assetid: '84cee7a7-f7a6-41a0-afd5-fae56365612e'
+Description: The COMAdmin objects offer a simple object model that provides you with access to the COM+ catalog.
+ms.assetid: 84cee7a7-f7a6-41a0-afd5-fae56365612e
 title: Overview of the COMAdmin Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of the COMAdmin Objects
@@ -19,9 +24,9 @@ To enable you to configure objects within this structure, the COMAdmin objects p
 
 To support these actions, the COMAdmin Library provides the following three classes:
 
--   [**COMAdminCatalog**](comadmincatalog.md), which represents the catalog itself.
--   [**COMAdminCatalogCollection**](comadmincatalogcollection.md), which represents any collection.
--   [**COMAdminCatalogObject**](comadmincatalogobject.md), which represents any item in a collection.
+-   [**COMAdminCatalog**](/windows/win32/ComAdmin/?branch=master), which represents the catalog itself.
+-   [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master), which represents any collection.
+-   [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master), which represents any item in a collection.
 
 For fuller descriptions of these classes, see [Summary Description of the COMAdmin Classes](summary-description-of-the-comadmin-classes.md) in this section.
 

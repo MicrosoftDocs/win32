@@ -1,8 +1,10 @@
 ---
 title: CounterItem object
 description: Use this class to retrieve the path and value of a counter and to specify the color used to graph the counter. To retrieve this object, call Counters.Item.
-ms.assetid: '76b69395-efd8-4321-b7ed-63daa46e2636'
-keywords: ["CounterItem object SysMon", "CounterItem object SysMon , described"]
+ms.assetid: 76b69395-efd8-4321-b7ed-63daa46e2636
+keywords:
+- CounterItem object SysMon
+- CounterItem object SysMon , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CounterItem object
@@ -40,7 +47,7 @@ The **CounterItem** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -61,7 +68,7 @@ The **CounterItem** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -73,8 +80,8 @@ The **CounterItem** object has these properties.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Isysmon.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
@@ -87,9 +94,9 @@ The **CounterItem** object has these properties.
 [SYSMON Classes](sysmon-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: WaveReadLaneAt function
 description: Returns the value of the expression for the given lane index within the specified wave.
-ms.assetid: 'CA9467D9-8885-4A5D-87F3-5BA40AE78993'
-keywords: ["WaveReadLaneAt function HLSL"]
+ms.assetid: CA9467D9-8885-4A5D-87F3-5BA40AE78993
+keywords:
+- WaveReadLaneAt function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveReadLaneAt
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveReadLaneAt function

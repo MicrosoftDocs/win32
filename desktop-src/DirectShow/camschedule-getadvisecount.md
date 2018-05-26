@@ -1,7 +1,12 @@
 ---
-Description: 'The GetAdviseCount method retrieves the number of pending advise requests.'
-ms.assetid: '5978abcf-2fc8-42d4-aaca-a8b79c623e84'
-title: 'CAMSchedule.GetAdviseCount method'
+Description: The GetAdviseCount method retrieves the number of pending advise requests.
+ms.assetid: 5978abcf-2fc8-42d4-aaca-a8b79c623e84
+title: CAMSchedule.GetAdviseCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMSchedule.GetAdviseCount method
@@ -43,9 +48,9 @@ Returns the number of pending advise requests.
 [**CAMSchedule Class**](camschedule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: Describes the capabilities of a CIM\_MetricService object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7fcfd8b3-e895-4b35-b16c-b7d632e1d279'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7fcfd8b3-e895-4b35-b16c-b7d632e1d279
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_MetricServiceCapabilities class", "CIM_MetricServiceCapabilities class, described"]
+keywords:
+- CIM_MetricServiceCapabilities class
+- CIM_MetricServiceCapabilities class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_MetricServiceCapabilities class
@@ -46,19 +51,19 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.22.0"), UMLPackagePath("CIM::Metrics::BaseMetrics")]
 class CIM_MetricServiceCapabilities : CIM_EnabledLogicalElementCapabilities
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
   boolean ElementNameEditSupported;
-  uint16  MaxElementNameLen;
-  uint16  RequestedStatesSupported[];
-  string  ElementNameMask;
-  string  ControllableMetrics[];
-  uint16  MetricsControlTypes[];
-  string  ControllableManagedElements[];
-  uint16  ManagedElementControlTypes[];
-  uint16  SupportedMethods[];
+  uint16  MaxElementNameLen;
+  uint16  RequestedStatesSupported[];
+  string  ElementNameMask;
+  string  ControllableMetrics[];
+  uint16  MetricsControlTypes[];
+  string  ControllableManagedElements[];
+  uint16  ManagedElementControlTypes[];
+  uint16  SupportedMethods[];
 };
 ```
 
@@ -194,7 +199,7 @@ A regular expression that indicates the restrictions on the **ElementalName** pr
 > [!Note]  
 > If this property and the **ElementalNameMask** property of the enable logical element describe the maximum length of **ElementalName**, the smaller value is used.
 
- 
+ 
 
 This property is inherited from [**CIM\_EnabledLogicalElementCapabilities**](cim-enabledlogicalelementcapabilities.md).
 
@@ -226,7 +231,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_Capabilities**](cim-capabilities.md).
 
@@ -543,14 +548,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>8–32767</dd> <dt>
+</dt> <dd>8 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -561,7 +566,7 @@ The possible values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -578,9 +583,9 @@ The possible values are:
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

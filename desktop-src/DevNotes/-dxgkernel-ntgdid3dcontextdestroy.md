@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deletes the specified context.'
-ms.assetid: 'ac113178-bdb6-4601-940d-6b00b339904d'
+---
+Description: Deletes the specified context.
+ms.assetid: ac113178-bdb6-4601-940d-6b00b339904d
 title: NtGdiD3DContextDestroy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiD3DContextDestroy function

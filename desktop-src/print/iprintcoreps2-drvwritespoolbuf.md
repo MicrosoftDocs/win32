@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCorePS2::DrvWriteSpoolBuf method is provided by the Pscript5 driver so that a rendering plug-in can send printer data to the spooler.'
-ms.assetid: '25405dd8-730e-4de6-af44-9dd584ed3087'
-title: 'IPrintCorePS2::DrvWriteSpoolBuf method'
+---
+Description: The IPrintCorePS2DrvWriteSpoolBuf method is provided by the Pscript5 driver so that a rendering plug-in can send printer data to the spooler.
+ms.assetid: 25405dd8-730e-4de6-af44-9dd584ed3087
+title: IPrintCorePS2DrvWriteSpoolBuf method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCorePS2::DrvWriteSpoolBuf method

@@ -1,8 +1,20 @@
 ---
 title: Thumb Image Source
 description: Thumb Image Source
-ms.assetid: 'dca1f54d-ee79-4fd4-9c4e-8226f65c9515'
-keywords: ["Windows Media Player Mobile skins,trackbars", "skins,trackbars", "reference for skins,trackbars", "trackbars in skins,image source", "trackbars in skins,thumb image source", "image source for skins,trackbars", "thumb,image source"]
+ms.assetid: dca1f54d-ee79-4fd4-9c4e-8226f65c9515
+keywords:
+- Windows Media Player Mobile skins,trackbars
+- skins,trackbars
+- reference for skins,trackbars
+- trackbars in skins,image source
+- trackbars in skins,thumb image source
+- image source for skins,trackbars
+- thumb,image source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thumb Image Source

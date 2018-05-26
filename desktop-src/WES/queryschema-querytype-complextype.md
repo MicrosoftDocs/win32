@@ -1,14 +1,20 @@
 ---
 title: QueryType Complex Type
 description: Defines a set of selector and suppressor queries that are used to include events in or exclude events from the result set.
-ms.assetid: '223d0127-f097-45f8-8511-1a56d9c41e84'
-keywords: ["QueryType complex type EventLog"]
+ms.assetid: 223d0127-f097-45f8-8511-1a56d9c41e84
+keywords:
+- QueryType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - QueryType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QueryType Complex Type
@@ -78,7 +84,7 @@ Defines a set of selector and suppressor queries that are used to include events
 
 The query must have at least one select statement. For each suppress statement, there must be at least one select statement that specifies the same path. If the select and suppress query return the same events, the suppress statement takes precedence. If you select events from multiple sources, the events are returned in time stamp order. If you use the system time stamp and the rate of events is high, it is possible that more than one event will have the same time stamp. When this occurs, the ordering of events becomes ambiguous and the events may appear out of order.
 
-If you specify a path for one of the queries in the list of queries, all of the queries must specify a path. If you do not specify a path for all of the queries, you must specify the path when calling the [**EvtQuery**](evtquery.md) or [**EvtSubscribe**](evtsubscribe.md) function.
+If you specify a path for one of the queries in the list of queries, all of the queries must specify a path. If you do not specify a path for all of the queries, you must specify the path when calling the [**EvtQuery**](/windows/win32/WinEvt/nf-winevt-evtquery?branch=master) or [**EvtSubscribe**](/windows/win32/WinEvt/nf-winevt-evtsubscribe?branch=master) function.
 
 ## Requirements
 
@@ -86,14 +92,14 @@ If you specify a path for one of the queries in the list of queries, all of the 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

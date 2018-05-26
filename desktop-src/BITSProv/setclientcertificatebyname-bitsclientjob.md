@@ -1,8 +1,11 @@
 ---
 title: SetClientCertificateByName method of the BitsClientJob class
 description: The SetClientCertificateByName method sets the client certificate to use for client authentication in an HTTPS (SSL) request.
-ms.assetid: '37e6b35f-8955-4524-abe4-8f4c6f39d1fa'
-keywords: ["SetClientCertificateByName method", "SetClientCertificateByName method, BitsClientJob class", "BitsClientJob class, SetClientCertificateByName method"]
+ms.assetid: 37e6b35f-8955-4524-abe4-8f4c6f39d1fa
+keywords:
+- SetClientCertificateByName method
+- SetClientCertificateByName method, BitsClientJob class
+- BitsClientJob class, SetClientCertificateByName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - bits2_5.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetClientCertificateByName method of the BitsClientJob class
@@ -22,9 +30,9 @@ The **SetClientCertificateByName** method sets the client certificate to use for
 
 ```mof
 uint32 SetClientCertificateByName(
-  [in] uint16 CertStoreLocation,
-  [in] string StoreName,
-  [in] string SubjectName
+  [in] uint16 CertStoreLocation,
+  [in] string StoreName,
+  [in] string SubjectName
 );
 ```
 
@@ -54,7 +62,7 @@ Defines the location of the client certificate store. This parameter can be set 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -79,8 +87,8 @@ A null-terminated string that contains the simple subject name of the certificat
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | Header<br/>                   | <dl> <dt>Bits2\_5.h</dt> </dl>       |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
@@ -94,9 +102,9 @@ A null-terminated string that contains the simple subject name of the certificat
 [**BitsClientJob**](bitsclientjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

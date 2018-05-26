@@ -1,8 +1,9 @@
 ---
 title: ErrorType enumeration
 description: Specifies the types of errors that can occur in the Axe engine.
-ms.assetid: '0111F168-0949-4B1F-8E44-AC226DC70978'
-keywords: ["ErrorType enumeration Access Execution Engine"]
+ms.assetid: 0111F168-0949-4B1F-8E44-AC226DC70978
+keywords:
+- ErrorType enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorType enumeration
@@ -22,11 +28,11 @@ Specifies the types of errors that can occur in the Axe engine.
 
 ```C++
 enum ErrorType {
-  None                  = 0, 
-  JobParsing            = 1, 
-  AssessmentParsing     = 2, 
-  AssessmentValidation  = 3, 
-  AssessmentExecution   = 4 
+  None                  = 0, 
+  JobParsing            = 1, 
+  AssessmentParsing     = 2, 
+  AssessmentValidation  = 3, 
+  AssessmentExecution   = 4 
 
 };
 ```
@@ -78,15 +84,15 @@ A problem occurred while executing an assessment. The associated error value wil
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

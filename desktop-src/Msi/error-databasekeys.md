@@ -1,7 +1,12 @@
 ---
-Description: 'The read-only DatabaseKeys property of the Error object returns a string collection that contains the primary keys of the database row causing the error. There is one key per entry in the collection.'
-ms.assetid: '416a6cef-4c70-4c06-a8d2-801c9440e25a'
-title: 'Error.DatabaseKeys property'
+Description: The read-only DatabaseKeys property of the Error object returns a string collection that contains the primary keys of the database row causing the error. There is one key per entry in the collection.
+ms.assetid: 416a6cef-4c70-4c06-a8d2-801c9440e25a
+title: Error.DatabaseKeys property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error.DatabaseKeys property
@@ -29,7 +34,7 @@ The collection is empty if the values do not apply to the type of the error. You
 
 ### C++
 
-See [**get\_DatabaseKeys**](imsmerror-get-databasekeys.md) function.
+See [**get\_DatabaseKeys**](/windows/win32/Mergemod/?branch=master) function.
 
 ## Requirements
 
@@ -43,9 +48,9 @@ See [**get\_DatabaseKeys**](imsmerror-get-databasekeys.md) function.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

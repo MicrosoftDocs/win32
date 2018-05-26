@@ -1,7 +1,12 @@
 ---
-Description: 'Provides events for Microsoft Windows HTTP Services (WinHTTP).'
-ms.assetid: '0721d7f9-2e84-41a9-be52-89c8d638eb90'
+Description: Provides events for Microsoft Windows HTTP Services (WinHTTP).
+ms.assetid: 0721d7f9-2e84-41a9-be52-89c8d638eb90
 title: IWinHttpRequestEvents interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequestEvents interface
@@ -29,7 +34,7 @@ The **IWinHttpRequestEvents** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -44,9 +49,9 @@ Notifications can be terminated by calling [Unadvise](http://go.microsoft.com/fw
 To view some code that registers for COM notifications, see the Client section of the [COM Connection Points](http://go.microsoft.com/fwlink/p/?linkid=109917) article.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 ## Requirements
 
@@ -54,9 +59,9 @@ To view some code that registers for COM notifications, see the Client section o
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 
 
@@ -71,9 +76,9 @@ To view some code that registers for COM notifications, see the Client section o
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

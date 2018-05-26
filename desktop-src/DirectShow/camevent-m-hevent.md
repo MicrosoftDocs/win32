@@ -1,7 +1,12 @@
 ---
-Description: 'Event handle.'
-ms.assetid: 'e68df736-c17e-4b08-a161-b6d9a7ead22b'
-title: 'CAMEvent::m\_hEvent member'
+Description: Event handle.
+ms.assetid: e68df736-c17e-4b08-a161-b6d9a7ead22b
+title: CAMEventm\_hEvent member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMEvent::m\_hEvent member
@@ -34,9 +39,9 @@ HANDLE m_hEvent;
 [**CAMEvent Class**](camevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

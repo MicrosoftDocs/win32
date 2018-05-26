@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DrvPopulateFilterServices function is called by the XPSDrv filter pipeline manager to allow the service provider to instantiate filter service objects in the filter pipeline property bag specified by the pPropertyBag parameter.'
-ms.assetid: 'A24DAC54-57FE-419D-8B5D-54B8AFC338DE'
+---
+Description: The DrvPopulateFilterServices function is called by the XPSDrv filter pipeline manager to allow the service provider to instantiate filter service objects in the filter pipeline property bag specified by the pPropertyBag parameter.
+ms.assetid: A24DAC54-57FE-419D-8B5D-54B8AFC338DE
 title: DrvPopulateFilterServices function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvPopulateFilterServices function

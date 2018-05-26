@@ -1,15 +1,20 @@
 ---
-Description: 'The PathGradientBrush class allows you to customize the way you fill a shape with gradually changing colors.'
-ms.assetid: 'f6a8085c-3d6a-494f-a1ee-5fa96efb1aae'
+Description: The PathGradientBrush class allows you to customize the way you fill a shape with gradually changing colors.
+ms.assetid: f6a8085c-3d6a-494f-a1ee-5fa96efb1aae
 title: Creating a Path Gradient
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Path Gradient
 
-The [**PathGradientBrush**](-gdiplus-class-pathgradientbrush-class.md) class allows you to customize the way you fill a shape with gradually changing colors. A **PathGradientBrush** object has a boundary path and a center point. You can specify one color for the center point and another color for the boundary. You can also specify separate colors for each of several points along the boundary.
+The [**PathGradientBrush**](/windows/win32/gdipluspath/nl-gdipluspath-pathgradientbrush?branch=master) class allows you to customize the way you fill a shape with gradually changing colors. A **PathGradientBrush** object has a boundary path and a center point. You can specify one color for the center point and another color for the boundary. You can also specify separate colors for each of several points along the boundary.
 
 > [!Note]  
-> In GDI+, a path is a sequence of lines and curves maintained by a [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) object. For more information about GDI+ paths, see [Paths](-gdiplus-paths-about.md) and [Constructing and Drawing Paths](-gdiplus-constructing-and-drawing-paths-use.md).
+> In GDI+, a path is a sequence of lines and curves maintained by a [**GraphicsPath**](/windows/win32/gdipluspath/nl-gdipluspath-graphicspath?branch=master) object. For more information about GDI+ paths, see [Paths](-gdiplus-paths-about.md) and [Constructing and Drawing Paths](-gdiplus-constructing-and-drawing-paths-use.md).
 
  
 
@@ -41,13 +46,13 @@ The following illustration shows the filled ellipse.
 
 ![illustration showing an ellipse with a gradient fill](images/pathgradient1.png)
 
-By default, a path gradient brush does not extend outside the boundary of the path. If you use the path gradient brush to fill a shape that extends beyond the boundary of the path, the area of the screen outside the path will not be filled. The following illustration shows what happens if you change the [**Graphics::FillEllipse**](-gdiplus-class-graphics-fillellipse-brush-brush-real-x-real-y-real-width-real-height-.md) call in the preceding code to `graphics.FillRectangle(&pthGrBrush, 0, 10, 200, 40)`.
+By default, a path gradient brush does not extend outside the boundary of the path. If you use the path gradient brush to fill a shape that extends beyond the boundary of the path, the area of the screen outside the path will not be filled. The following illustration shows what happens if you change the [**Graphics::FillEllipse**](/windows/win32/Gdiplusgraphics/?branch=master) call in the preceding code to `graphics.FillRectangle(&pthGrBrush, 0, 10, 200, 40)`.
 
 ![illustration showing a horizontal slice of the previous ellipse](images/pathgradient2.png)
 
 ## Specifying Points on the Boundary
 
-The following example constructs a path gradient brush from a star-shaped path. The code calls the [**PathGradientBrush::SetCenterColor**](-gdiplus-class-pathgradientbrush-setcentercolor-color-.md) method to set the color at the centroid of the star to red. Then the code calls the [**PathGradientBrush::SetSurroundColors**](-gdiplus-class-pathgradientbrush-setsurroundcolors-colors-count-.md) method to specify various colors (stored in the [**colors**](-gdiplus-class-color-class.md) array) at the individual points in the [**points**](-gdiplus-class-point-class.md) array. The final code statement fills the star-shaped path with the path gradient brush.
+The following example constructs a path gradient brush from a star-shaped path. The code calls the [**PathGradientBrush::SetCenterColor**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setcentercolor?branch=master) method to set the color at the centroid of the star to red. Then the code calls the [**PathGradientBrush::SetSurroundColors**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setsurroundcolors?branch=master) method to specify various colors (stored in the [**colors**](/windows/win32/gdipluscolor/nl-gdipluscolor-color?branch=master) array) at the individual points in the [**points**](/windows/win32/gdiplustypes/nl-gdiplustypes-point?branch=master) array. The final code statement fills the star-shaped path with the path gradient brush.
 
 
 ```
@@ -123,17 +128,17 @@ graphics.FillRectangle(&amp;pBrush, Rect(0, 0, 180, 220));
 
 
 
-Note that there is no [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) object in the preceding code. The particular [**PathGradientBrush**](-gdiplus-class-pathgradientbrush-class.md) constructor in the example receives a pointer to an array of points but does not require a **GraphicsPath** object. Also, note that the path gradient brush is used to fill a rectangle, not a path. The rectangle is larger than the path used to define the brush, so some of the rectangle is not painted by the brush. The following illustration shows the rectangle (dotted line) and the portion of the rectangle painted by the path gradient brush.
+Note that there is no [**GraphicsPath**](/windows/win32/gdipluspath/nl-gdipluspath-graphicspath?branch=master) object in the preceding code. The particular [**PathGradientBrush**](/windows/win32/gdipluspath/nl-gdipluspath-pathgradientbrush?branch=master) constructor in the example receives a pointer to an array of points but does not require a **GraphicsPath** object. Also, note that the path gradient brush is used to fill a rectangle, not a path. The rectangle is larger than the path used to define the brush, so some of the rectangle is not painted by the brush. The following illustration shows the rectangle (dotted line) and the portion of the rectangle painted by the path gradient brush.
 
 ![illustration showing a rectangle bounded by a dotted line, partially painted by a multi-colored gradient](images/gradient4.png)
 
 ## Customizing a Path Gradient
 
-One way to customize a path gradient brush is to set its focus scales. The focus scales specify an inner path that lies inside the main path. The center color is displayed everywhere inside that inner path rather than only at the center point. To set the focus scales of a path gradient brush, call the [**PathGradientBrush::SetFocusScales**](-gdiplus-class-pathgradientbrush-setfocusscales-xscale-yscale-.md) method.
+One way to customize a path gradient brush is to set its focus scales. The focus scales specify an inner path that lies inside the main path. The center color is displayed everywhere inside that inner path rather than only at the center point. To set the focus scales of a path gradient brush, call the [**PathGradientBrush::SetFocusScales**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setfocusscales?branch=master) method.
 
 The following example creates a path gradient brush based on an elliptical path. The code sets the boundary color to blue, sets the center color to aqua, and then uses the path gradient brush to fill the elliptical path.
 
-Next the code sets the focus scales of the path gradient brush. The x focus scale is set to 0.3, and the y focus scale is set to 0.8. The code calls the [**Graphics::TranslateTransform**](-gdiplus-class-graphics-translatetransform-dx-dy-order-.md) method of a [**Graphics**](-gdiplus-class-graphics-class.md) object so that the subsequent call to [**Graphics::FillPath**](-gdiplus-class-graphics-fillpath-brush-path-.md) fills an ellipse that sits to the right of the first ellipse.
+Next the code sets the focus scales of the path gradient brush. The x focus scale is set to 0.3, and the y focus scale is set to 0.8. The code calls the [**Graphics::TranslateTransform**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-translatetransform?branch=master) method of a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object so that the subsequent call to [**Graphics::FillPath**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpath?branch=master) fills an ellipse that sits to the right of the first ellipse.
 
 To see the effect of the focus scales, imagine a small ellipse that shares its center with the main ellipse. The small (inner) ellipse is the main ellipse scaled (about its center) horizontally by a factor of 0.3 and vertically by a factor of 0.8. As you move from the boundary of the outer ellipse to the boundary of the inner ellipse, the color changes gradually from blue to aqua. As you move from the boundary of the inner ellipse to the shared center, the color remains aqua.
 
@@ -175,7 +180,7 @@ The following illustration shows the output of the preceding code. The ellipse o
 
 Another way to customize a path gradient brush is to specify an array of preset colors and an array of interpolation positions.
 
-The following example creates a path gradient brush based on a triangle. The code calls the [**PathGradientBrush::SetInterpolationColors**](-gdiplus-class-pathgradientbrush-setinterpolationcolors-presetcolors-blendpositions-count-.md) method of the path gradient brush to specify an array of interpolation colors (dark green, aqua, blue) and an array of interpolation positions (0, 0.25, 1). As you move from the boundary of the triangle to the center point, the color changes gradually from dark green to aqua and then from aqua to blue. The change from dark green to aqua happens in 25 percent of the distance from dark green to blue.
+The following example creates a path gradient brush based on a triangle. The code calls the [**PathGradientBrush::SetInterpolationColors**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setinterpolationcolors?branch=master) method of the path gradient brush to specify an array of interpolation colors (dark green, aqua, blue) and an array of interpolation positions (0, 0.25, 1). As you move from the boundary of the triangle to the center point, the color changes gradually from dark green to aqua and then from aqua to blue. The change from dark green to aqua happens in 25 percent of the distance from dark green to blue.
 
 
 ```
@@ -215,7 +220,7 @@ The following illustration shows the output of the preceding code.
 
 ## Setting the Center Point
 
-By default, the center point of a path gradient brush is at the centroid of the path used to construct the brush. You can change the location of the center point by calling the [**PathGradientBrush::SetCenterPoint**](-gdiplus-class-pathgradientbrush-setcenterpoint-point-point-.md) method of the [**PathGradientBrush**](-gdiplus-class-pathgradientbrush-class.md) class.
+By default, the center point of a path gradient brush is at the centroid of the path used to construct the brush. You can change the location of the center point by calling the [**PathGradientBrush::SetCenterPoint**](/windows/win32/Gdipluspath/?branch=master) method of the [**PathGradientBrush**](/windows/win32/gdipluspath/nl-gdipluspath-pathgradientbrush?branch=master) class.
 
 The following example creates a path gradient brush based on an ellipse. The center of the ellipse is at (70, 35), but the center point of the path gradient brush is set to (120, 40).
 
@@ -248,7 +253,7 @@ The following illustration shows the filled ellipse and the center point of the 
 
 ![illustration showing an ellipse that fills from blue to aqua from a center point near one end](images/pathgradient5.png)
 
-You can set the center point of a path gradient brush to a location outside the path that was used to construct the brush. In the preceding code, if you replace the call to [**PathGradientBrush::SetCenterPoint**](-gdiplus-class-pathgradientbrush-setcenterpoint-point-point-.md) with `pthGrBrush.SetCenterPoint(Point(145, 35))`, you will get the following result.
+You can set the center point of a path gradient brush to a location outside the path that was used to construct the brush. In the preceding code, if you replace the call to [**PathGradientBrush::SetCenterPoint**](/windows/win32/Gdipluspath/?branch=master) with `pthGrBrush.SetCenterPoint(Point(145, 35))`, you will get the following result.
 
 ![illustration showing an ellipse that fills from red to yellow from a center point that is outside the edge of the ellipse](images/pathgradient6.png)
 

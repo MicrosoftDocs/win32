@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_IMONLZERO'
-ms.assetid: '2d695d69-1138-45e5-9138-2d01945feb5e'
-title: 'LOCALE\_IMONLZERO'
+Description: LOCALE\_IMONLZERO
+ms.assetid: 2d695d69-1138-45e5-9138-2d01945feb5e
+title: LOCALE\_IMONLZERO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_IMONLZERO

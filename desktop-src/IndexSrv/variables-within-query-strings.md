@@ -1,7 +1,12 @@
 ---
 title: Variables within Query Strings
 description: Variables within Query Strings
-ms.assetid: 'f1ebe097-70b7-4fdf-95c5-f2e487c6b5c4'
+ms.assetid: f1ebe097-70b7-4fdf-95c5-f2e487c6b5c4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Variables within Query Strings

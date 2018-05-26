@@ -1,7 +1,12 @@
 ---
-Description: 'HRESULT value that indicates whether the object will accept samples. If the value is S\_OK, the object will accept samples. Otherwise, it rejects samples.'
-ms.assetid: 'e05d4d2e-cc3e-4b83-8531-bc4bd6d665ac'
-title: 'COutputQueue::m\_hr member'
+Description: HRESULT value that indicates whether the object will accept samples. If the value is S\_OK, the object will accept samples. Otherwise, it rejects samples.
+ms.assetid: e05d4d2e-cc3e-4b83-8531-bc4bd6d665ac
+title: COutputQueuem\_hr member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue::m\_hr member
@@ -39,9 +44,9 @@ This member variable is used to coordinate activities across threads. If the dow
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

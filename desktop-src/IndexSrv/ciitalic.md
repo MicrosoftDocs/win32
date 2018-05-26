@@ -1,7 +1,12 @@
 ---
 title: CiItalic
 description: CiItalic
-ms.assetid: 'c3761f4c-555f-4fde-9b74-d08bf696b0d3'
+ms.assetid: c3761f4c-555f-4fde-9b74-d08bf696b0d3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CiItalic

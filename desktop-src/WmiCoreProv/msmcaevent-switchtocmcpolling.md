@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the corrected machine check (CMC) handling to be switched from the interrupt driver to polling. This class is available only in 64-bit Windows systems.'
-ms.assetid: 'c5e99e13-0f65-40bc-8863-b2ca7ea221df'
-title: 'MSMCAEvent\_SwitchToCMCPolling class'
+Description: Represents the corrected machine check (CMC) handling to be switched from the interrupt driver to polling. This class is available only in 64-bit Windows systems.
+ms.assetid: c5e99e13-0f65-40bc-8863-b2ca7ea221df
+title: MSMCAEvent\_SwitchToCMCPolling class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAEvent\_SwitchToCMCPolling class
@@ -16,7 +21,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSMCAEvent_SwitchToCMCPolling : WMIEvent
 {
   boolean Active;
-  string  InstanceName;
+  string  InstanceName;
 };
 ```
 
@@ -73,8 +78,8 @@ The system abstraction layer (SAL) is code burned onto ROM that the operating sy
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -91,9 +96,9 @@ The system abstraction layer (SAL) is code burned onto ROM that the operating sy
 [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

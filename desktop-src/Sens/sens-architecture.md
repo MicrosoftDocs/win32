@@ -1,7 +1,12 @@
 ---
-Description: 'The System Event Notification Service works with the COM+ Event System.'
-ms.assetid: 'c51d1f61-6087-4480-b989-31241829781b'
+Description: The System Event Notification Service works with the COM+ Event System.
+ms.assetid: c51d1f61-6087-4480-b989-31241829781b
 title: SENS Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SENS Architecture
@@ -31,7 +36,7 @@ A COM+ Events data store contains information about the event publisher (SENS), 
 To receive notifications for any of these events, your application must do two things:
 
 -   Subscribe to the SENS events that interest you. To subscribe to an event, use the **IEventSubscription** and **IEventSystem** interfaces in COM+ Events. You need to supply an identifier for the event classes and the SENS publisher identifier, SENSGUID\_PUBLISHER. Subscriptions are on a per event level so the subscribing application must also specify which events within the class are of interest. Each event corresponds to a method in the interface corresponding to its event class.
--   Create a sink object with an implementation for each interface that you handle. See [**ISensNetwork**](isensnetwork.md), [**ISensLogon**](isenslogon.md), and [**ISensOnNow**](isensonnow.md) for more information about these interfaces and the events supported in each one.
+-   Create a sink object with an implementation for each interface that you handle. See [**ISensNetwork**](/windows/win32/Sensevts/nn-sensevts-isensnetwork?branch=master), [**ISensLogon**](/windows/win32/Sensevts/nn-sensevts-isenslogon?branch=master), and [**ISensOnNow**](/windows/win32/Sensevts/nn-sensevts-isensonnow?branch=master) for more information about these interfaces and the events supported in each one.
 
 When one of the monitored events occurs, SENS processes each subscription with any associated filters and notifies the subscribers through the COM+ Event system.
 

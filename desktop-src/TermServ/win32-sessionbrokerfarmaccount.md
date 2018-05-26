@@ -1,14 +1,16 @@
 ---
 title: Win32\_SessionBrokerFarmAccount class
-description: The Win32\_SessionBrokerFarmAccount class is no longer available for use as of Windows Server 2012.
+description: The Win32\_SessionBrokerFarmAccount class is no longer available for use as of Windows Server 2012.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a76ade0f-cd94-438c-bc07-30dc4b4ee6c8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a76ade0f-cd94-438c-bc07-30dc4b4ee6c8
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_SessionBrokerFarmAccount class Remote Desktop Services", "Win32_SessionBrokerFarmAccount class Remote Desktop Services , described"]
+keywords:
+- Win32_SessionBrokerFarmAccount class Remote Desktop Services
+- Win32_SessionBrokerFarmAccount class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -25,11 +27,14 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SessionBrokerFarmAccount class
 
-\[The **Win32\_SessionBrokerFarmAccount** class is no longer available for use as of Windows Server 2012.\]
+\[The **Win32\_SessionBrokerFarmAccount** class is no longer available for use as of Windows Server 2012.\]
 
 Defines a session broker farm account.
 
@@ -41,14 +46,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("Win32_WIN32_SESSIONBROKERFARMACCOUNT_Prov"), AMENDMENT]
 class Win32_SessionBrokerFarmAccount
 {
-  string  FarmName;
+  string  FarmName;
   boolean Manual;
-  string  AccountName;
-  string  AccountDomain;
-  string  AccountPassword;
-  string  AccountSPN1;
-  string  AccountSPN2;
-  string  ComputerDNSName;
+  string  AccountName;
+  string  AccountDomain;
+  string  AccountPassword;
+  string  AccountSPN1;
+  string  AccountSPN2;
+  string  ComputerDNSName;
 };
 ```
 
@@ -71,7 +76,7 @@ The **Win32\_SessionBrokerFarmAccount** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -193,18 +198,18 @@ Indicates if the password for the account is updated manually.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
 | End of client support<br/>    | None supported<br/>                                                              |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                      |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                      |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                               |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

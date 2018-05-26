@@ -1,7 +1,12 @@
 ---
-Description: 'Generates C declarations for namespace tables.'
-ms.assetid: '21b76829-01c4-4228-a714-6319e5eb1c61'
+Description: Generates C declarations for namespace tables.
+ms.assetid: 21b76829-01c4-4228-a714-6319e5eb1c61
 title: namespaceDeclarations element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # namespaceDeclarations element
@@ -42,14 +47,14 @@ Namespace tables are referenced by type tables and other generated code, so this
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

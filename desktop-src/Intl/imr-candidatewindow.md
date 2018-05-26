@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notfies an application when a selected IME needs information about the candidate window. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.'
-ms.assetid: '35849290-a5be-406f-82f5-4a7e2af48586'
-title: 'IMR\_CANDIDATEWINDOW notification code'
+---
+Description: Notfies an application when a selected IME needs information about the candidate window. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
+ms.assetid: 35849290-a5be-406f-82f5-4a7e2af48586
+title: IMR\_CANDIDATEWINDOW notification code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMR\_CANDIDATEWINDOW notification code
@@ -29,13 +34,13 @@ Set to IMR\_CANDIDATEWINDOW.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a buffer containing a [**CANDIDATEFORM**](candidateform.md) structure. Its **dwIndex** member contains the index to the candidate window referenced.
+Pointer to a buffer containing a [**CANDIDATEFORM**](/windows/win32/Imm/ns-imm-tagcandidateform?branch=master) structure. Its **dwIndex** member contains the index to the candidate window referenced.
 
 </dd> </dl>
 
 ## Return Value
 
-Returns a nonzero value if the application fills in the [**CANDIDATEFORM**](candidateform.md) structure. Otherwise, the command returns 0.
+Returns a nonzero value if the application fills in the [**CANDIDATEFORM**](/windows/win32/Imm/ns-imm-tagcandidateform?branch=master) structure. Otherwise, the command returns 0.
 
 ## Remarks
 
@@ -63,7 +68,7 @@ This command can be sent by the IME to a window that has cleared the ISC\_SHOWUI
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**CANDIDATEFORM**](candidateform.md)
+[**CANDIDATEFORM**](/windows/win32/Imm/ns-imm-tagcandidateform?branch=master)
 </dt> <dt>
 
 [**WM\_IME\_REQUEST**](wm-ime-request.md)

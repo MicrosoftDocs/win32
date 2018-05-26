@@ -2,13 +2,19 @@
 title: id attribute
 description: The \ id\ attribute specifies a DISPID for a member function (either a property or a method, in an interface or dispinterface).
 ms.assetid: 6f1be049-81b4-4aa2-a893-5dd79bb4d63c
-keywords: ["id attribute MIDL"]
+keywords:
+- id attribute MIDL
 topic_type:
 - apiref
 api_name:
 - id
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # id attribute

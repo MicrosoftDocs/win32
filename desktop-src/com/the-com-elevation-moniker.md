@@ -1,7 +1,12 @@
 ---
 title: The COM Elevation Moniker
 description: The COM elevation moniker allows applications that are running under user account control (UAC) to activate COM classes with elevated privileges. For more information, see Focus on Least Privilege.
-ms.assetid: '1595ebb8-65af-4609-b3e7-a21209e64391'
+ms.assetid: 1595ebb8-65af-4609-b3e7-a21209e64391
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The COM Elevation Moniker
@@ -14,7 +19,7 @@ The elevation moniker is used to activate a COM class to accomplish a specific a
 
 Elevation requires participation from both a COM class and its client. The COM class must be configured to support elevation by annotating its registry entry, as described in the Requirements section. The COM client must request elevation by using the elevation moniker.
 
-The elevation moniker is not intended to provide application compatibility. For example, if you want to run a legacy COM application such as WinWord as an elevated server, you should configure the COM client executable to require elevation, rather than activating the legacy application's class with the elevation moniker. When the elevated COM client calls [**CoCreateInstance**](cocreateinstance.md) using the legacy application's CLSID, the client's elevated state will flow to the server process.
+The elevation moniker is not intended to provide application compatibility. For example, if you want to run a legacy COM application such as WinWord as an elevated server, you should configure the COM client executable to require elevation, rather than activating the legacy application's class with the elevation moniker. When the elevated COM client calls [**CoCreateInstance**](/windows/win32/combaseapi/nf-combaseapi-cocreateinstance?branch=master) using the legacy application's CLSID, the client's elevated state will flow to the server process.
 
 Not all COM functionality is compatible with elevation. The functionality that will not work includes:
 
@@ -86,9 +91,9 @@ Elevation:Administrator!new:{guid}
 Elevation:Highest!new:{guid}
 ```
 
-The preceding syntax uses the "new" moniker to return an instance of the COM class specified by *guid*. Note that the "new" moniker internally uses the [**IClassFactory**](iclassfactory.md) interface to obtain a class object and then calls [**IClassFactory::CreateInstance**](iclassfactory-createinstance.md) on it.
+The preceding syntax uses the "new" moniker to return an instance of the COM class specified by *guid*. Note that the "new" moniker internally uses the [**IClassFactory**](/windows/win32/unknwnbase/nn-unknwn-iclassfactory?branch=master) interface to obtain a class object and then calls [**IClassFactory::CreateInstance**](/windows/win32/Unknwn/nf-unknwn-iclassfactory-createinstance?branch=master) on it.
 
-The elevation moniker can also be used to get a class object, which implements [**IClassFactory**](iclassfactory.md). The caller then calls [**CreateInstance**](iclassfactory-createinstance.md) to get an object instance. The syntax for this is as follows:
+The elevation moniker can also be used to get a class object, which implements [**IClassFactory**](/windows/win32/unknwnbase/nn-unknwn-iclassfactory?branch=master). The caller then calls [**CreateInstance**](/windows/win32/Unknwn/nf-unknwn-iclassfactory-createinstance?branch=master) to get an object instance. The syntax for this is as follows:
 
 ``` syntax
 Elevation:Administrator!clsid:{guid}
@@ -120,17 +125,17 @@ HRESULT CoCreateInstanceAsAdmin(HWND hwnd, REFCLSID rclsid, REFIID riid, __out v
 
 
 
-[**BIND\_OPTS3**](bind-opts3.md) is new in Windows Vista. It is derived from [**BIND\_OPTS2**](bind-opts2.md).
+[**BIND\_OPTS3**](/windows/win32/Objidl/ns-objidl-tagbind_opts3?branch=master) is new in Windows Vista. It is derived from [**BIND\_OPTS2**](/windows/win32/Objidl/ns-objidl-tagbind_opts2?branch=master).
 
 The only addition is an **HWND** field, **hwnd**. This handle represents a window that becomes the owner of the Elevation UI, if applicable.
 
-If **hwnd** is **NULL**, COM will call [GetActiveWindow](http://go.microsoft.com/fwlink/p/?linkid=103701) to find a window handle associated with the current thread. This case might occur if the client is a script, which cannot fill in a [**BIND\_OPTS3**](bind-opts3.md) structure. In this case, COM will try to use the window associated with the script thread.
+If **hwnd** is **NULL**, COM will call [GetActiveWindow](http://go.microsoft.com/fwlink/p/?linkid=103701) to find a window handle associated with the current thread. This case might occur if the client is a script, which cannot fill in a [**BIND\_OPTS3**](/windows/win32/Objidl/ns-objidl-tagbind_opts3?branch=master) structure. In this case, COM will try to use the window associated with the script thread.
 
 ## Over-The-Shoulder (OTS) Elevation
 
 Over-the-shoulder (OTS) elevation refers to the scenario in which a client runs a COM server with an administrator's credentials rather than his or her own. (The term "over the shoulder" means that the administrator is watching over the client's shoulder as the client runs the server.)
 
-This scenario might cause a problem for COM calls into the server, because the server might not call [**CoInitializeSecurity**](coinitializesecurity.md) either explicitly (that is, programmatically) or implicitly (that is, declaratively, using the registry). For such servers, COM computes a security descriptor that allows only SELF, SYSTEM, and Builtin\\Administrators to makes COM calls into the server. This arrangement will not work in OTS scenarios. Instead, the server must call **CoInitializeSecurity**, either explicitly or implicitly, and specify an ACL that includes the INTERACTIVE group SID and SYSTEM.
+This scenario might cause a problem for COM calls into the server, because the server might not call [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) either explicitly (that is, programmatically) or implicitly (that is, declaratively, using the registry). For such servers, COM computes a security descriptor that allows only SELF, SYSTEM, and Builtin\\Administrators to makes COM calls into the server. This arrangement will not work in OTS scenarios. Instead, the server must call **CoInitializeSecurity**, either explicitly or implicitly, and specify an ACL that includes the INTERACTIVE group SID and SYSTEM.
 
 The following code example shows how to create a security descriptor (SD) with the INTERACTIVE group SID.
 
@@ -152,7 +157,7 @@ BOOL GetAccessPermissionsForLUAServer(SECURITY_DESCRIPTOR **ppSD)
 }
 ```
 
-The following code example shows how to call [**CoInitializeSecurity**](coinitializesecurity.md) implicitly with the SD from the previous code example:
+The following code example shows how to call [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) implicitly with the SD from the previous code example:
 
 
 ```C++
@@ -177,7 +182,7 @@ done:
 
 
 
-The following code example shows how to call [**CoInitializeSecurity**](coinitializesecurity.md) explicitly with the above SD:
+The following code example shows how to call [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) explicitly with the above SD:
 
 
 ```C++
@@ -293,7 +298,7 @@ done:
 
 ## CoCreateInstance and Integrity Levels
 
-The behavior of [**CoCreateInstance**](cocreateinstance.md) has changed in Windows Vista, to prevent Low IL clients from binding to COM servers by default. The server must explicitly allow such bindings by specifying the SACL. The changes to **CoCreateInstance** are as follows:
+The behavior of [**CoCreateInstance**](/windows/win32/combaseapi/nf-combaseapi-cocreateinstance?branch=master) has changed in Windows Vista, to prevent Low IL clients from binding to COM servers by default. The server must explicitly allow such bindings by specifying the SACL. The changes to **CoCreateInstance** are as follows:
 
 1.  When launching a COM server process, the IL in the server process token is set to the client or server token IL, whichever is lower.
 2.  By default, COM will prevent Low IL clients from binding to running instances of any COM servers. To allow the bind, a COM server's Launch/Activation security descriptor must contain a SACL that specifies the Low IL label (see the previous section for the sample code to create such a security descriptor).

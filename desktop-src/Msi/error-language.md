@@ -1,7 +1,12 @@
 ---
-Description: 'The read-only Language property of the Error object returns the LANGID of the current error.'
-ms.assetid: 'f47cad5d-8e76-4210-b1ab-377d2d05379e'
-title: 'Error.Language property'
+Description: The read-only Language property of the Error object returns the LANGID of the current error.
+ms.assetid: f47cad5d-8e76-4210-b1ab-377d2d05379e
+title: Error.Language property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error.Language property
@@ -27,7 +32,7 @@ The value of the **Language** property is -1 unless the error is of type msmErro
 
 ### C++
 
-See [**get\_Language Function (Error Object)**](imsmerror-get-language.md).
+See [**get\_Language Function (Error Object)**](/windows/win32/Mergemod/?branch=master).
 
 ## Requirements
 
@@ -41,9 +46,9 @@ See [**get\_Language Function (Error Object)**](imsmerror-get-language.md).
 
 
 
- 
+ 
 
- 
+ 
 
 
 

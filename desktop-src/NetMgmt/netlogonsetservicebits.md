@@ -1,8 +1,9 @@
 ---
 title: NetLogonSetServiceBits function
 description: Notifies the Netlogon service of the running state of the services on a domain controller. The caller must be running in the context of either the LocalSystem or the LocalService account.
-ms.assetid: '4b527a5b-4ae7-4703-b920-6923bca8e99e'
-keywords: ["NetLogonSetServiceBits function Network Management"]
+ms.assetid: 4b527a5b-4ae7-4703-b920-6923bca8e99e
+keywords:
+- NetLogonSetServiceBits function Network Management
 topic_type:
 - apiref
 api_name:
@@ -12,6 +13,11 @@ api_location:
 - Logoncli.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetLogonSetServiceBits function
@@ -23,9 +29,9 @@ The **NetLogonSetServiceBits** function notifies the Netlogon service of the run
 
 ```C++
 NTSTATUS WINAPI NetLogonSetServiceBits(
-  _In_ LPWSTR ServerName,
-  _In_ DWORD  ServiceBitsOfInterest,
-  _In_ DWORD  ServiceBits
+  _In_ LPWSTR ServerName,
+  _In_ DWORD  ServiceBitsOfInterest,
+  _In_ DWORD  ServiceBits
 );
 ```
 
@@ -57,7 +63,7 @@ A set of flags used as a mask to indicate which service's state (running or not 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,7 +82,7 @@ A set of flags used as a mask to indicate whether the service indicated by *Serv
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -95,7 +101,7 @@ If the function fails, the return value can be one of the following error codes 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -111,9 +117,9 @@ An import library containing the **NetLogonSetServiceBits** function is not incl
 
 |                                     |                                                                                                                                                                                                                                                                              |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                                                                               |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
-| DLL<br/>                      | <dl> <dt>Netapi32.dll on Windows Vista and Windows Server 2008; </dt> <dt>Logoncli.dll on Windows 7, Windows Server 2008 R2, Windows 8 and Windows Server 2012</dt> </dl> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                                                                               |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
+| DLL<br/>                      | <dl> <dt>Netapi32.dll on Windows Vista and Windows Server 2008; </dt> <dt>Logoncli.dll on Windows 7, Windows Server 2008 R2, Windows 8 and Windows Server 2012</dt> </dl> |
 
 
 
@@ -133,10 +139,10 @@ An import library containing the **NetLogonSetServiceBits** function is not incl
 [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175)
 </dt> <dt>
 
-[**NetGetAnyDCName**](netgetanydcname.md)
+[**NetGetAnyDCName**](/windows/win32/Lmaccess/nf-lmaccess-netgetanydcname?branch=master)
 </dt> <dt>
 
-[**NetGetDCName**](netgetdcname.md)
+[**NetGetDCName**](/windows/win32/Lmaccess/nf-lmaccess-netgetdcname?branch=master)
 </dt> <dt>
 
 [Network Management Overview](network-management.md)
@@ -145,9 +151,9 @@ An import library containing the **NetLogonSetServiceBits** function is not incl
 [Network Management Functions](network-management-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

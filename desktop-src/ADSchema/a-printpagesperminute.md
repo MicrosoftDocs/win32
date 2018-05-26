@@ -4,17 +4,22 @@ description: Driver-supplied print rate in pages per minute.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '80b3a86b-5b7f-4e59-b3ef-c3f8c11ab0da'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 80b3a86b-5b7f-4e59-b3ef-c3f8c11ab0da
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Print-Pages-Per-Minute attribute AD Schema", "printPagesPerMinute attribute AD Schema"]
+keywords:
+- Print-Pages-Per-Minute attribute AD Schema
+- printPagesPerMinute attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Print-Pages-Per-Minute
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Print-Pages-Per-Minute attribute
@@ -38,12 +43,12 @@ Driver-supplied print rate in pages per minute.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Driver-supplied print rate in pages per minute.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

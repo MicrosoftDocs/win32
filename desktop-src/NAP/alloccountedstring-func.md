@@ -1,8 +1,9 @@
 ---
 title: AllocCountedString function
 description: Allocates memory for a null-terminated string and returns it in a CountedString structure.
-ms.assetid: '6dd503bf-8853-499b-adcd-54de696f01d6'
-keywords: ["AllocCountedString function NAP"]
+ms.assetid: 6dd503bf-8853-499b-adcd-54de696f01d6
+keywords:
+- AllocCountedString function NAP
 topic_type:
 - apiref
 api_name:
@@ -11,24 +12,29 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AllocCountedString function
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
-The **AllocCountedString** function allocates memory for a null-terminated string and returns it in a [**CountedString**](countedstring-struct.md) structure.
+The **AllocCountedString** function allocates memory for a null-terminated string and returns it in a [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) structure.
 
 ## Syntax
 
 
 ```C++
 NAPAPI HRESULT WINAPI AllocCountedString(
-  _Inout_       CountedString **countedString,
-  _In_    const WCHAR         *string
+  _Inout_       CountedString **countedString,
+  _In_    const WCHAR         *string
 );
 ```
 
@@ -41,7 +47,7 @@ NAPAPI HRESULT WINAPI AllocCountedString(
 *countedString* \[in, out\]
 </dt> <dd>
 
-A pointer to the address of a newly allocated [**CountedString**](countedstring-struct.md) structure.
+A pointer to the address of a newly allocated [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) structure.
 
 </dd> <dt>
 
@@ -64,7 +70,7 @@ A pointer to the null-terminated string that is to be returned in *countedString
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,8 +88,8 @@ All NAP functions for freeing memory also free all embedded pointers.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>NapUtil.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 
@@ -96,9 +102,9 @@ All NAP functions for freeing memory also free all embedded pointers.
 [**FreeCountedString**](freecountedstring-func.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

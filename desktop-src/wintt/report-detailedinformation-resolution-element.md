@@ -1,14 +1,20 @@
 ---
 title: DetailedInformation (Resolution) Element
 description: Contains the collection of custom details that the resolver script added to the report.
-ms.assetid: '2b52244a-ddde-493a-8f74-2bf580d25595'
-keywords: ["DetailedInformation element Windows Troubleshooting Toolkit"]
+ms.assetid: 2b52244a-ddde-493a-8f74-2bf580d25595
+keywords:
+- DetailedInformation element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - DetailedInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DetailedInformation (Resolution) Element
@@ -29,8 +35,8 @@ The **DetailedInformation** element is defined by the [**Resolution**](report-re
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **DetailedInformation** element is defined by the [**Resolution**](report-re
 [**Resolution (ResolutionInformation)**](report-resolution-resolutioninformation-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

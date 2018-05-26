@@ -1,7 +1,12 @@
-﻿---
-Description: 'Information about the properties of a display mode.'
-ms.assetid: 'df9d12b9-7acb-435b-9d54-0b095c871f0e'
+---
+Description: Information about the properties of a display mode.
+ms.assetid: df9d12b9-7acb-435b-9d54-0b095c871f0e
 title: D3DDISPLAYMODEEX structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDISPLAYMODEEX structure
@@ -96,7 +101,7 @@ Indicates whether the scanline order is progressive or interlaced. See [**D3DSCA
 
 ## Remarks
 
-This structure is used in various methods to create and manage Direct3D 9Ex devices ([**IDirect3DDevice9Ex**](idirect3ddevice9ex.md)) and swapchains ([**IDirect3DSwapChain9Ex**](d3d9l-idirect3dswapchain9.md)).
+This structure is used in various methods to create and manage Direct3D 9Ex devices ([**IDirect3DDevice9Ex**](/windows/win32/d3d9/nn-d3d9-idirect3ddevice9ex?branch=master)) and swapchains ([**IDirect3DSwapChain9Ex**](/windows/win32/d3d9/nn-d3d9-idirect3dswapchain9ex?branch=master)).
 
 ## Requirements
 

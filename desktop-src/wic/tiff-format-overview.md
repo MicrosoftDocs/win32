@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides information about the native TIFF codec available through Windows Imaging Component (WIC).'
-ms.assetid: '021AAF33-A89E-4336-AEB1-1A0D79A14C75'
+Description: This topic provides information about the native TIFF codec available through Windows Imaging Component (WIC).
+ms.assetid: 021AAF33-A89E-4336-AEB1-1A0D79A14C75
 title: TIFF Format Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TIFF Format Overview
@@ -76,9 +81,9 @@ TIFFCompressionMethod
 
 VT\_UI1
 
-[**WICTiffCompressionOption**](-wic-codec-wictiffcompressionoption.md)
+[**WICTiffCompressionOption**](/windows/win32/Wincodec/ne-wincodec-wictiffcompressionoption?branch=master)
 
-[**WICTiffCompressionDontCare**](-wic-codec-wictiffcompressionoption.md)
+[**WICTiffCompressionDontCare**](/windows/win32/Wincodec/ne-wincodec-wictiffcompressionoption?branch=master)
 
 
 
@@ -96,7 +101,7 @@ The default value is .
 
 Specifies the TIFF compression method.
 
-The default value is [**WICTiffCompressionDontCare**](-wic-codec-wictiffcompressionoption.md).
+The default value is [**WICTiffCompressionDontCare**](/windows/win32/Wincodec/ne-wincodec-wictiffcompressionoption?branch=master).
 
 ## Decoding
 

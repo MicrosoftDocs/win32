@@ -1,8 +1,11 @@
 ---
 title: GetDescriptor method of the CIM\_USBDevice class
 description: Retrieves the descriptor for a USB device.
-ms.assetid: 'a3ac2065-bc7c-4a3c-95ec-3b5014be3917'
-keywords: ["GetDescriptor method Hyper-V", "GetDescriptor method Hyper-V , CIM_USBDevice class", "CIM_USBDevice class Hyper-V , GetDescriptor method"]
+ms.assetid: a3ac2065-bc7c-4a3c-95ec-3b5014be3917
+keywords:
+- GetDescriptor method Hyper-V
+- GetDescriptor method Hyper-V , CIM_USBDevice class
+- CIM_USBDevice class Hyper-V , GetDescriptor method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDescriptor method of the CIM\_USBDevice class
@@ -20,18 +28,18 @@ Retrieves the descriptor for a USB device.
 > [!Note]  
 > For more information on USB descriptors, see the *USB Specification*.
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 GetDescriptor(
-  [in]      uint8  RequestType,
-  [in]      uint16 RequestValue,
-  [in]      uint16 RequestIndex,
-  [in, out] uint16 RequestLength,
-  [out]     uint8  Buffer[]
+  [in]      uint8  RequestType,
+  [in]      uint16 RequestValue,
+  [in]      uint16 RequestIndex,
+  [in, out] uint16 RequestLength,
+  [out]     uint8  Buffer[]
 );
 ```
 
@@ -100,9 +108,9 @@ Returns "0" on success, "1" if the request is not supported. Otherwise, returns 
 [**CIM\_USBDevice**](cim-usbdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: ReadyBoot Summary Tables
 description: ReadyBoot Summary Tables
-ms.assetid: '35556a58-bb0b-437f-88e1-71dd155000fc'
+ms.assetid: 35556a58-bb0b-437f-88e1-71dd155000fc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadyBoot: Summary Tables

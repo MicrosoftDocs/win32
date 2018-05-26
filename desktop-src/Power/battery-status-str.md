@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the current state of the battery.'
-ms.assetid: '514906a1-9d7a-40cb-9798-84f6b93d7bfe'
-title: 'BATTERY\_STATUS structure'
+Description: Contains the current state of the battery.
+ms.assetid: 514906a1-9d7a-40cb-9798-84f6b93d7bfe
+title: BATTERY\_STATUS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BATTERY\_STATUS structure
@@ -16,7 +21,7 @@ typedef struct _BATTERY_STATUS {
   ULONG PowerState;
   ULONG Capacity;
   ULONG Voltage;
-  LONG  Rate;
+  LONG  Rate;
 } BATTERY_STATUS, *PBATTERY_STATUS;
 ```
 
@@ -42,7 +47,7 @@ The battery state. This member can be zero, one, or more of the following values
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -77,9 +82,9 @@ The BATTERY\_CRITICAL flag in the **PowerState** member of this structure indica
 
 |                                     |                                                                                                                                                                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
+| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
 
 
 
@@ -93,9 +98,9 @@ The BATTERY\_CRITICAL flag in the **PowerState** member of this structure indica
 [**IOCTL\_BATTERY\_QUERY\_STATUS**](ioctl-battery-query-status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

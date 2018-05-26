@@ -4,17 +4,22 @@ description: The GUID for the scope in which the associated encoding is located.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e01fc3a0-1c0d-4a78-8206-34a29077e14d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e01fc3a0-1c0d-4a78-8206-34a29077e14d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-ScopeGuid attribute AD Schema", "msWMI-ScopeGuid attribute AD Schema"]
+keywords:
+- ms-WMI-ScopeGuid attribute AD Schema
+- msWMI-ScopeGuid attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-ScopeGuid
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-ScopeGuid attribute
@@ -38,11 +43,11 @@ The GUID for the scope in which the associated encoding is located.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ The GUID for the scope in which the associated encoding is located.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

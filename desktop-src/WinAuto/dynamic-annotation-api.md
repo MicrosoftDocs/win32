@@ -1,14 +1,19 @@
 ---
 title: Dynamic Annotation API
 description: The Dynamic Annotation API is an extension to Microsoft Active Accessibility that allows developers to customize existing IAccessible support without having to use error-prone subclassing or wrapping techniques.
-ms.assetid: '2daf0e76-b300-47e7-994b-d1d00d0dca4d'
+ms.assetid: 2daf0e76-b300-47e7-994b-d1d00d0dca4d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic Annotation API
 
-The Dynamic Annotation API is an extension to Microsoft Active Accessibility that allows developers to customize existing [**IAccessible**](iaccessible.md) support without having to use error-prone subclassing or wrapping techniques. This mechanism also allows developers to pass hints or other useful information to the Oleacc.dll proxies.
+The Dynamic Annotation API is an extension to Microsoft Active Accessibility that allows developers to customize existing [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) support without having to use error-prone subclassing or wrapping techniques. This mechanism also allows developers to pass hints or other useful information to the Oleacc.dll proxies.
 
-Dynamic Annotation is typically used to correct or amend an inaccurate instance of an [**IAccessible**](iaccessible.md) object exposed by an existing Oleacc.dll proxy. For example, you can use it to override the [**Name**](name-property.md) and [**Role**](role-property.md) properties provided by the default proxy, and to supply [**Description**](description-property.md) and [**Help**](help-property.md) properties (which may not be provided by the default proxy).
+Dynamic Annotation is typically used to correct or amend an inaccurate instance of an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) object exposed by an existing Oleacc.dll proxy. For example, you can use it to override the [**Name**](name-property.md) and [**Role**](role-property.md) properties provided by the default proxy, and to supply [**Description**](description-property.md) and [**Help**](help-property.md) properties (which may not be provided by the default proxy).
 
 With Windows 7, developers can use the Dynamic Annotation API to annotate Microsoft UI Automation properties as well as Microsoft Active Accessibility properties of the proxy objects that Oleacc.dll creates for standard Windows controls. The Oleacc.dll proxy objects serve both Microsoft Active Accessibility and UI Automation clients.
 

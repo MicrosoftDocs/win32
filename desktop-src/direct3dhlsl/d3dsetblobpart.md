@@ -1,8 +1,9 @@
 ---
 title: D3DSetBlobPart function
 description: Sets information in a compilation result.
-ms.assetid: '244B094D-408A-4EC3-BC56-A7EE41D695E4'
-keywords: ["D3DSetBlobPart function HLSL"]
+ms.assetid: 244B094D-408A-4EC3-BC56-A7EE41D695E4
+keywords:
+- D3DSetBlobPart function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DCompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DSetBlobPart function
@@ -21,13 +27,13 @@ Sets information in a compilation result.
 
 ``` syntax
 HRESULT WINAPI D3DSetBlobPart(
-  in  LPCVOID pSrcData,
-  in  SIZE_T SrcDataSize,
-  in  D3D_BLOB_PART Part,
-  in  UINT Flags,
-  in  LPCVOID pPart,
-  in  SIZE_T PartSize,
-  out ID3DBlob ppNewShader
+  in  LPCVOID pSrcData,
+  in  SIZE_T SrcDataSize,
+  in  D3D_BLOB_PART Part,
+  in  UINT Flags,
+  in  LPCVOID pPart,
+  in  SIZE_T PartSize,
+  out ID3DBlob ppNewShader
 );
 ```
 
@@ -111,7 +117,7 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 > [!Note]  
 > The D3dcompiler\_44.dll or later version of the file contains the **D3DSetBlobPart** compiler function.
 
- 
+ 
 
 ## Requirements
 
@@ -132,9 +138,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

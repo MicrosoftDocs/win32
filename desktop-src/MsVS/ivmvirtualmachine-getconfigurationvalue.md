@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine GetConfigurationValue method
 description: The GetConfigurationValue method returns the value of the specified configuration setting for this virtual machine.
-ms.assetid: '4bc36e9c-2f94-4d21-8a39-b2fa320067b1'
-keywords: ["GetConfigurationValue method Virtual Server", "GetConfigurationValue method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , GetConfigurationValue method"]
+ms.assetid: 4bc36e9c-2f94-4d21-8a39-b2fa320067b1
+keywords:
+- GetConfigurationValue method Virtual Server
+- GetConfigurationValue method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , GetConfigurationValue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::GetConfigurationValue method
@@ -22,8 +30,8 @@ The **GetConfigurationValue** method returns the value of the specified configur
 
 ```C++
 HRESULT GetConfigurationValue(
-  [in]  BSTR    configurationKey,
-  [out] VARIANT *configurationValue
+  [in]  BSTR    configurationKey,
+  [out] VARIANT *configurationValue
 );
 ```
 
@@ -64,13 +72,13 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
 This method provides low-level access to any configuration value. It can be used to read configuration values for customer-defined keys.
 
-Configuration keys are located in the virtual machine's "\*.vmc" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark–delimited format.
+Configuration keys are located in the virtual machine's "\*.vmc" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark delimited format.
 
 For example, to read the value of the "ram\_size" key located in the following key tree:
 
@@ -112,8 +120,8 @@ The *configurationKey* path string would be specified as follows:
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -125,9 +133,9 @@ The *configurationKey* path string would be specified as follows:
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

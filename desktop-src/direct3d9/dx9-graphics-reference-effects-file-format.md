@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains reference information for the effect format.'
-ms.assetid: '7358ac24-3f09-410d-8d19-6597295cc456'
-title: 'Effect Format (Direct3D 9)'
+Description: This section contains reference information for the effect format.
+ms.assetid: 7358ac24-3f09-410d-8d19-6597295cc456
+title: Effect Format (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Format (Direct3D 9)

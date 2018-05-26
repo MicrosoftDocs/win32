@@ -1,12 +1,17 @@
-﻿---
-Description: 'The installer sets the ProductState property to the installation state for the product at initialization.'
-ms.assetid: 'f26f3229-d1ce-4802-99b1-857c6501c828'
+---
+Description: The installer sets the ProductState property to the installation state for the product at initialization.
+ms.assetid: f26f3229-d1ce-4802-99b1-857c6501c828
 title: ProductState property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProductState property
 
-The installer sets the **ProductState** property to the installation state for the product at initialization. This property is set to one of the following INSTALLSTATE data types returned by [**MsiQueryProductState**](msiqueryproductstate.md).
+The installer sets the **ProductState** property to the installation state for the product at initialization. This property is set to one of the following INSTALLSTATE data types returned by [**MsiQueryProductState**](/windows/win32/Msi/nf-msi-msiqueryproductstatea?branch=master).
 
 
 

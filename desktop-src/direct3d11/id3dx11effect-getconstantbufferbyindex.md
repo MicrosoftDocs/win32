@@ -1,8 +1,11 @@
 ---
 title: ID3DX11Effect GetConstantBufferByIndex method
 description: Get a constant buffer by index.
-ms.assetid: '146b146b-89ff-4d56-9ac7-e67a92a30e26'
-keywords: ["GetConstantBufferByIndex method Direct3D 11", "GetConstantBufferByIndex method Direct3D 11 , ID3DX11Effect interface", "ID3DX11Effect interface Direct3D 11 , GetConstantBufferByIndex method"]
+ms.assetid: 146b146b-89ff-4d56-9ac7-e67a92a30e26
+keywords:
+- GetConstantBufferByIndex method Direct3D 11
+- GetConstantBufferByIndex method Direct3D 11 , ID3DX11Effect interface
+- ID3DX11Effect interface Direct3D 11 , GetConstantBufferByIndex method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11Effect::GetConstantBufferByIndex method
@@ -23,7 +31,7 @@ Get a constant buffer by index.
 
 ```C++
 ID3DX11EffectConstantBuffer* GetConstantBufferByIndex(
-   UINT Index
+   UINT Index
 );
 ```
 
@@ -55,7 +63,7 @@ An effect that contains a variable that will be read/written by an application r
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ An effect that contains a variable that will be read/written by an application r
 [ID3DX11Effect](id3dx11effect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

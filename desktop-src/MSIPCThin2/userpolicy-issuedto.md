@@ -4,11 +4,14 @@ description: Gets the user associated with the protection policy.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.UserPolicy.IssuedTo'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.UserPolicy.IssuedTo
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IssuedTo property", "IssuedTo property, UserPolicy class", "UserPolicy class, IssuedTo property"]
+keywords:
+- IssuedTo property
+- IssuedTo property, UserPolicy class
+- UserPolicy class, IssuedTo property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.IssuedTo property
@@ -63,9 +69,9 @@ The user associated with the protection policy
 [**UserPolicy**](userpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

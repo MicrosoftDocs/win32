@@ -1,7 +1,12 @@
 ---
-Description: 'The WLAN\_profile schema defines the following elements.'
-ms.assetid: '9eb0f446-1202-4770-b09e-250e83524119'
-title: 'WLAN\_profile Schema Elements'
+Description: The WLAN\_profile schema defines the following elements.
+ms.assetid: 9eb0f446-1202-4770-b09e-250e83524119
+title: WLAN\_profile Schema Elements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WLAN\_profile Schema Elements

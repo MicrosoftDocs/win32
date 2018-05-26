@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of Attribute objects in the collection.'
-ms.assetid: 'd5f9db7d-52a2-4feb-8d35-902caf536510'
-title: 'Attributes.Count property'
+---
+Description: Retrieves the number of Attribute objects in the collection.
+ms.assetid: d5f9db7d-52a2-4feb-8d35-902caf536510
+title: Attributes.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes.Count property

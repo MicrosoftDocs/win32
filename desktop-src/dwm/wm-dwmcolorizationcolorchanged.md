@@ -1,8 +1,9 @@
 ---
 title: WM\_DWMCOLORIZATIONCOLORCHANGED message
 description: Informs all top-level windows that the colorization color has changed.
-ms.assetid: '6118d41b-f0b4-4034-aa98-d8757f18ca0d'
-keywords: ["WM_DWMCOLORIZATIONCOLORCHANGED message Desktop Window Manager"]
+ms.assetid: 6118d41b-f0b4-4034-aa98-d8757f18ca0d
+keywords:
+- WM_DWMCOLORIZATIONCOLORCHANGED message Desktop Window Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DWMCOLORIZATIONCOLORCHANGED message
@@ -43,7 +49,7 @@ If an application processes this message, it should return zero.
 
 A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
 
-[**DwmGetColorizationColor**](dwmgetcolorizationcolor.md) is used to determine the current color value.
+[**DwmGetColorizationColor**](/windows/win32/Dwmapi/nf-dwmapi-dwmgetcolorizationcolor?branch=master) is used to determine the current color value.
 
 ## Requirements
 
@@ -51,15 +57,15 @@ A window receives this message through its [**WindowProc**](https://msdn.microso
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

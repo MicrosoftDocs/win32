@@ -1,14 +1,19 @@
 ---
 title: Committing a Data Collector Set
 description: To commit a data collector set, you must call the IDataCollectorSet Commit method.
-ms.assetid: 'acd3f66c-704a-425e-ad44-10c006625b4f'
+ms.assetid: acd3f66c-704a-425e-ad44-10c006625b4f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Committing a Data Collector Set
 
-To commit a data collector set, you must call the [**IDataCollectorSet::Commit**](idatacollectorset-commit.md) method. This method can be used to save a new set, update an existing set, flush a trace session, or validate the property values of the set.
+To commit a data collector set, you must call the [**IDataCollectorSet::Commit**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-commit?branch=master) method. This method can be used to save a new set, update an existing set, flush a trace session, or validate the property values of the set.
 
-To delete a data collector set that has been saved, call the [**IDataCollectorSet::Delete**](idatacollectorset-delete.md) method.
+To delete a data collector set that has been saved, call the [**IDataCollectorSet::Delete**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-delete?branch=master) method.
 
 The following example shows how to commit a new data collector set. This example builds on the example in [Creating a Data Collector Set](creating-a-data-collector-set.md).
 

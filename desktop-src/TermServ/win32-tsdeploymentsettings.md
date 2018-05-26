@@ -4,11 +4,13 @@ description: Defines the default settings that the RemoteApp Manager uses when c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b3eeef86-e6cb-40ea-99f8-200c5993f31e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b3eeef86-e6cb-40ea-99f8-200c5993f31e
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSDeploymentSettings class Remote Desktop Services", "Win32_TSDeploymentSettings class Remote Desktop Services , described"]
+keywords:
+- Win32_TSDeploymentSettings class Remote Desktop Services
+- Win32_TSDeploymentSettings class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -40,6 +42,9 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSDeploymentSettings class
@@ -51,29 +56,29 @@ Defines the default settings that the RemoteApp Manager uses when creating Remot
 ``` syntax
 class Win32_TSDeploymentSettings : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  sint32   Port;
-  string   FarmName;
-  sint32   GatewayUsage;
-  string   GatewayName;
-  sint32   GatewayAuthMode;
-  boolean  GatewayUseCachedCreds;
-  boolean  RequireServerAuth;
-  sint32   ColorBitDepth;
-  boolean  AllowFontSmoothing;
-  boolean  UseMultimon;
-  sint32   RedirectionOptions;
-  boolean  HasCertificate;
-  uint8    CertificateHash[];
-  string   CertificateIssuedTo;
-  string   CertificateIssuedBy;
-  string   CertificateExpiresOn;
-  string   CustomRDPSettings;
-  string   DeploymentRDPSettings;
+  string   Name;
+  string   Status;
+  sint32   Port;
+  string   FarmName;
+  sint32   GatewayUsage;
+  string   GatewayName;
+  sint32   GatewayAuthMode;
+  boolean  GatewayUseCachedCreds;
+  boolean  RequireServerAuth;
+  sint32   ColorBitDepth;
+  boolean  AllowFontSmoothing;
+  boolean  UseMultimon;
+  sint32   RedirectionOptions;
+  boolean  HasCertificate;
+  uint8    CertificateHash[];
+  string   CertificateIssuedTo;
+  string   CertificateIssuedBy;
+  string   CertificateExpiresOn;
+  string   CustomRDPSettings;
+  string   DeploymentRDPSettings;
 };
 ```
 
@@ -235,7 +240,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-The name of the RD Session Host server, or the fully qualified domain name (FQDN) of the RD Session Host server farm.
+The name of the RD Session Host server, or the fully qualified domain name (FQDN) of the RD Session Host server farm.
 
 </dd> <dt>
 
@@ -248,7 +253,7 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-The RD Gateway authentication method. The following values are possible.
+The RD Gateway authentication method. The following values are possible.
 
 <dt>
 
@@ -284,7 +289,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-The name of the RD Gateway server to use.
+The name of the RD Gateway server to use.
 
 </dd> <dt>
 
@@ -297,35 +302,35 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-Indicates whether to use an RD Gateway server to connect to the target RD Session Host server across a firewall. The following values are possible.
+Indicates whether to use an RD Gateway server to connect to the target RD Session Host server across a firewall. The following values are possible.
 
 <dt>
 
 0
 </dt> <dd>
 
-Do not use an RD Gateway server.
+Do not use an RD Gateway server.
 
 </dd> <dt>
 
 1
 </dt> <dd>
 
-Use an RD Gateway server. Bypass the RD Gateway server for local addresses.
+Use an RD Gateway server. Bypass the RD Gateway server for local addresses.
 
 </dd> <dt>
 
 2
 </dt> <dd>
 
-Use an RD Gateway server.
+Use an RD Gateway server.
 
 </dd> <dt>
 
 3
 </dt> <dd>
 
-Automatically detect RD Gateway server settings.
+Automatically detect RD Gateway server settings.
 
 </dd> </dl>
 
@@ -340,7 +345,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-When possible, use the same user credentials for the RD Gateway server and the RD Session Host server.
+When possible, use the same user credentials for the RD Gateway server and the RD Session Host server.
 
 </dd> <dt>
 
@@ -582,7 +587,7 @@ You must be a member of the Administrators group to set properties by using this
 
 If **RequireServerAuth** is set to **TRUE**, consider the following:
 
--   If the RemoteApp program is for intranet use, and all client computers are running either Windows Server 2008 or Windows Vista, you do not have to configure the RD Session Host server to use an SSL certificate. In this case, Network Level Authentication is used.
+-   If the RemoteApp program is for intranet use, and all client computers are running either Windows Server 2008 or Windows Vista, you do not have to configure the RD Session Host server to use an SSL certificate. In this case, Network Level Authentication is used.
 -   You must specify the FQDN of the server or farm for the value of the **FarmName** property.
 
 To connect to the "CIMV2\\TerminalServices" namespace, the authentication level must include packet privacy. For C/C++ calls, this is an authentication level of **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, which can be set by using the [**CoSetProxyBlanket**](_com_cosetproxyblanket) COM function. For Visual Basic and scripting calls, this is an authentication level of **WbemAuthenticationLevelPktPrivacy** or "pktPrivacy", with a value of 6. The following Visual Basic Scripting Edition (VBScript) example shows how to connect to a remote computer with packet privacy.
@@ -605,16 +610,16 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Tsallow.mof</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>TsPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

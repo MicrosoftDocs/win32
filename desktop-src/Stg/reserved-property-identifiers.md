@@ -1,7 +1,12 @@
 ---
 title: Reserved Property Identifiers
 description: Reserved property identifiers cannot be used as property identifiers (ID). Any property identifier (ID) can be used except 0, 1, and any value greater than, or equal to, 0x80000000. These property identifier values are reserved for use by applications.
-ms.assetid: 'd313a7b1-4cac-41f8-ba38-bf9cfaeb9d5c'
+ms.assetid: d313a7b1-4cac-41f8-ba38-bf9cfaeb9d5c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reserved Property Identifiers
@@ -22,7 +27,7 @@ The following table lists the reserved property IDs and the description of what 
 
 
 
- 
+ 
 
 Property identifiers with the high bit set (that is, negative values) are reserved for future use by Microsoft.
 
@@ -33,9 +38,9 @@ Of the reserved properties, those with ID values in the range 0x80000000 to 0xBF
 Applications can choose to either support the locale or use the default behavior. It is recommended that applications allow users to specify a working locale. Such applications should write the user-specified locale identifier to the property. Applications that use the user default locale (LOCALE\_USER\_DEFAULT) should write the user default locale identifier to the property. For more information about LOCALE\_USER\_DEFAULT, see the Win32 API.
 
 > [!Note]  
-> If the [**IPropertySetStorage**](ipropertysetstorage.md) interface is used to create a property set, the user default locale is automatically written as the Locale Indicator.
+> If the [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) interface is used to create a property set, the user default locale is automatically written as the Locale Indicator.
 
- 
+ 
 
 Applications should also handle the case of a foreign object, which is one where the locale is not the application locale, the user locale, or the system locale.
 
@@ -51,9 +56,9 @@ When an application that is not the author of a property set changes a property 
 If an application cannot recognize this indicator, it should not modify the property. All creators of property sets must write a code page indicator; however, if the code page indicator is not present, the prevailing code page on the reader's computer must be assumed.
 
 > [!Note]  
-> If the [**IPropertySetStorage**](ipropertysetstorage.md) interface is used to create a property set, the code page indicator is automatically written.
+> If the [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) interface is used to create a property set, the code page indicator is automatically written.
 
- 
+ 
 
 Possible values for the code page are given in the Win32 API (for more information, see the [**GetACP**](https://msdn.microsoft.com/library/windows/desktop/dd318070) function) and *Inside Macintosh Volume VI*, pages 14-111. (These resources may not be available in some languages and countries.) For example, the code page US ANSI is represented by 0x04E4 (1252 in decimal) while the code page for Unicode is 0x04B0 (1200 in decimal).
 
@@ -61,9 +66,9 @@ It is recommended that the Unicode code page be used when possible, and use VT\_
 
 Property ID 1 is a VT\_I2 type and starts with a **DWORD** that contains the value VT\_I2 followed by a **SHORT** that indicates the code page.
 
- 
+ 
 
- 
+ 
 
 
 

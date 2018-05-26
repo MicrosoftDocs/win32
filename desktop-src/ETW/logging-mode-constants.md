@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following constants represent the possible logging modes for an event tracing session.'
-ms.assetid: 'd12aaecb-776a-4476-9ba4-16af30fde9c2'
+---
+Description: The following constants represent the possible logging modes for an event tracing session.
+ms.assetid: d12aaecb-776a-4476-9ba4-16af30fde9c2
 title: Logging Mode Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Logging Mode Constants
@@ -54,7 +59,7 @@ The constants are used in the **LogFileMode** members of [**EVENT\_TRACE\_LOGFIL
 </tr>
 <tr class="even">
 <td><strong>EVENT_TRACE_SECURE_MODE</strong> (0X00000080)</td>
-<td>Restricts who can log events to the session to those with [<strong>TRACELOG_LOG_EVENT</strong>](eventaccesscontrol-func.md) permission. This option is supported on Windows Vista and later.<br/></td>
+<td>Restricts who can log events to the session to those with [<strong>TRACELOG_LOG_EVENT</strong>](/windows/win32/Evntcons/nf-evntcons-eventaccesscontrol?branch=master) permission. This option is supported on Windows Vista and later.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>EVENT_TRACE_REAL_TIME_MODE</strong> (0x00000100)</td>
@@ -140,7 +145,7 @@ This mode should not be used. It is reserved for internal use.
 </tr>
 <tr class="even">
 <td><strong>EVENT_TRACE_INDEPENDENT_SESSION_MODE</strong>(0x08000000)</td>
-<td>Indicates that a logging session should not be affected by [<strong>EventWrite</strong>](eventwrite-func.md) failures in other sessions. Without this flag, if an event cannot be published to one of the sessions that a provider is enabled to, the event will not get published to any of the sessions. When this flag is set, a failure to write an event to one session will not cause the <strong>EventWrite</strong> function to return an error code in other sessions. <br/> Do not use with <strong>EVENT_TRACE_PRIVATE_LOGGER_MODE</strong>. <br/> This option is supported on Windows 8.1, Windows Server 2012 R2, and later.<br/></td>
+<td>Indicates that a logging session should not be affected by [<strong>EventWrite</strong>](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master) failures in other sessions. Without this flag, if an event cannot be published to one of the sessions that a provider is enabled to, the event will not get published to any of the sessions. When this flag is set, a failure to write an event to one session will not cause the <strong>EventWrite</strong> function to return an error code in other sessions. <br/> Do not use with <strong>EVENT_TRACE_PRIVATE_LOGGER_MODE</strong>. <br/> This option is supported on Windows 8.1, Windows Server 2012 R2, and later.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>EVENT_TRACE_NO_PER_PROCESSOR_BUFFERING</strong> (0x10000000)</td>

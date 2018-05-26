@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SMTPSender property is a null-terminated string that contains the Simple Mail Transport Protocol (SMTP) email address for the sender of the mail message receipt.'
-ms.assetid: 'e25fa002-a47b-438e-965a-ada0bd861e17'
-title: 'FaxReceiptOptions.SMTPSender property'
+---
+Description: The SMTPSender property is a null-terminated string that contains the Simple Mail Transport Protocol (SMTP) email address for the sender of the mail message receipt.
+ms.assetid: e25fa002-a47b-438e-965a-ada0bd861e17
+title: FaxReceiptOptions.SMTPSender property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxReceiptOptions.SMTPSender property
@@ -25,7 +30,7 @@ A **String** that specifies or receives the SMTP email address for the sender of
 
 ## Remarks
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -47,7 +52,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxReceiptOptions**](-mfax-faxreceiptoptions.md)
 </dt> <dt>
 
-[**IFaxReceiptOptions**](-mfax-faxreceiptoptions-cpp.md)
+[**IFaxReceiptOptions**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxreceiptoptions?branch=master)
 </dt> <dt>
 
 [Setting Receipt Options](-mfax-setting-receipt-options.md)

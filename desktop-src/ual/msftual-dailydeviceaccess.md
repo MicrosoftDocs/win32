@@ -4,11 +4,13 @@ description: This is a class of property qualifiers that provides client device 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '611e9d43-1820-41b4-b3b6-2f73a15a5635'
-ms.prod: 'windows-server-dev'
-ms.technology: 'user-access-logging'
+ms.assetid: 611e9d43-1820-41b4-b3b6-2f73a15a5635
+ms.prod: windows-server-dev
+ms.technology: user-access-logging
 ms.tgt_platform: multiple
-keywords: ["MsftUal_DailyDeviceAccess class User Access Logging", "MsftUal_DailyDeviceAccess class User Access Logging , described"]
+keywords:
+- MsftUal_DailyDeviceAccess class User Access Logging
+- MsftUal_DailyDeviceAccess class User Access Logging , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - UALProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MsftUal\_DailyDeviceAccess class
@@ -37,12 +42,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Version("1"), dynamic, provider("UAL")]
 class MsftUal_DailyDeviceAccess
 {
-  string   ProductName;
-  string   RoleName;
-  string   RoleGuid;
-  string   IPAddress;
+  string   ProductName;
+  string   RoleName;
+  string   RoleGuid;
+  string   IPAddress;
   datetime AccessDate;
-  uint32   AccessCount;
+  uint32   AccessCount;
 };
 ```
 
@@ -145,17 +150,17 @@ The name of the role, component, or sub-product that is providing User Access Lo
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\AccessLogging<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>Sum.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>UALProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

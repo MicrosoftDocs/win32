@@ -1,7 +1,12 @@
 ---
-Description: 'BLOBs are used with the Diffie-Hellman provider to export keys from, and import keys into, the cryptographic service provider (CSP).'
-ms.assetid: '052f2108-d402-41a0-b4ac-e93ba6b06b49'
-title: 'Diffie-Hellman Key BLOBs'
+Description: BLOBs are used with the Diffie-Hellman provider to export keys from, and import keys into, the cryptographic service provider (CSP).
+ms.assetid: 052f2108-d402-41a0-b4ac-e93ba6b06b49
+title: Diffie-Hellman Key BLOBs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Diffie-Hellman Key BLOBs
@@ -27,9 +32,9 @@ The following table describes each component of the [*key BLOB*](security.k_gly#
 
 | Field          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| dhpubkey       | A [**DHPUBKEY**](dhpubkey.md) structure. The **magic** member should be set to 0x31484400. This hexadecimal value is the [*ASCII*](security.a_gly#-security-ascii-gly) encoding of "DH1".                                                                                                                                                                                                                                                                                                                                                                 |
-| publickeystruc | A [**PUBLICKEYSTRUC**](publickeystruc.md) structure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| y              | A **BYTE** sequence. The Y value, (G^X) mod P, is located directly after the [**DHPUBKEY**](dhpubkey.md) structure, and should always be the length, in bytes, of the **DHPUBKEY bitlen** field (bit length of P) divided by eight. If the length of the data that results from the calculation of (G^X) mod P is one or more bytes shorter than P divided by eight, the data must be padded with the necessary bytes (of zero value) to make the data the desired length ([*little-endian*](security.l_gly#-security-little-endian-gly) format). |
+| dhpubkey       | A [**DHPUBKEY**](/windows/win32/Wincrypt/ns-wincrypt-_pubkey?branch=master) structure. The **magic** member should be set to 0x31484400. This hexadecimal value is the [*ASCII*](security.a_gly#-security-ascii-gly) encoding of "DH1".                                                                                                                                                                                                                                                                                                                                                                 |
+| publickeystruc | A [**PUBLICKEYSTRUC**](/windows/win32/Wincrypt/ns-wincrypt-_publickeystruc?branch=master) structure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| y              | A **BYTE** sequence. The Y value, (G^X) mod P, is located directly after the [**DHPUBKEY**](/windows/win32/Wincrypt/ns-wincrypt-_pubkey?branch=master) structure, and should always be the length, in bytes, of the **DHPUBKEY bitlen** field (bit length of P) divided by eight. If the length of the data that results from the calculation of (G^X) mod P is one or more bytes shorter than P divided by eight, the data must be padded with the necessary bytes (of zero value) to make the data the desired length ([*little-endian*](security.l_gly#-security-little-endian-gly) format). |
 
 
 
@@ -53,9 +58,9 @@ The following table describes each component of the key BLOB.
 
 | Field          | Description                                                                                                                                                                                                  |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| dhpubkey       | A [**DHPUBKEY**](dhpubkey.md) structure. The **magic** member must be set to 0x32484400. This hexadecimal value is the [*ASCII*](security.a_gly#-security-ascii-gly) encoding of "DH2". |
+| dhpubkey       | A [**DHPUBKEY**](/windows/win32/Wincrypt/ns-wincrypt-_pubkey?branch=master) structure. The **magic** member must be set to 0x32484400. This hexadecimal value is the [*ASCII*](security.a_gly#-security-ascii-gly) encoding of "DH2". |
 | generator      | A **BYTE** sequence. The generator, G.                                                                                                                                                                       |
-| publickeystruc | A [**PUBLICKEYSTRUC**](publickeystruc.md) structure.                                                                                                                                                        |
+| publickeystruc | A [**PUBLICKEYSTRUC**](/windows/win32/Wincrypt/ns-wincrypt-_publickeystruc?branch=master) structure.                                                                                                                                                        |
 | prime          | A **BYTE** sequence. The prime modulus, P. This data must always have the most significant bit of the most significant byte set to one.                                                                      |
 | secret         | A **BYTE** sequence. The secret exponent, X.                                                                                                                                                                 |
 

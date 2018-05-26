@@ -1,12 +1,17 @@
 ---
 Description: Controlling a Capture Graph
-ms.assetid: 'e7afafca-e993-4096-bad4-399ee6c67fe9'
+ms.assetid: e7afafca-e993-4096-bad4-399ee6c67fe9
 title: Controlling a Capture Graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controlling a Capture Graph
 
-The Filter Graph Manager's [**IMediaControl**](imediacontrol.md) interface has methods for running, stopping, and pausing the entire graph. If the filter graph has capture and preview streams, however, you probably want to control the two streams independently. For example, you might want to preview the video without capturing it. You can do this through the [**ICaptureGraphBuilder2::ControlStream**](icapturegraphbuilder2-controlstream.md) method.
+The Filter Graph Manager's [**IMediaControl**](/windows/win32/Control/nn-control-imediacontrol?branch=master) interface has methods for running, stopping, and pausing the entire graph. If the filter graph has capture and preview streams, however, you probably want to control the two streams independently. For example, you might want to preview the video without capturing it. You can do this through the [**ICaptureGraphBuilder2::ControlStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-controlstream?branch=master) method.
 
 > [!Note]  
 > This method does not work when capturing to an Advanced Systems Format (ASF) file.
@@ -36,7 +41,7 @@ pControl->Run();
 
 The first parameter specifies which stream to control, as a pin category GUID. The second parameter gives the media type. The third parameter is a pointer to the capture filter. To control all the capture streams in the graph, set the second and third parameters to **NULL**.
 
-The next two parameters define the times when the stream will start and stop, relative to the time when the graph starts running. Call [**IMediaControl::Run**](imediacontrol-run.md) to run the graph. Until you run the graph, the **ControlStream** method has no effect. If the graph is already running, the settings take effect immediately.
+The next two parameters define the times when the stream will start and stop, relative to the time when the graph starts running. Call [**IMediaControl::Run**](/windows/win32/Control/nf-control-imediacontrol-run?branch=master) to run the graph. Until you run the graph, the **ControlStream** method has no effect. If the graph is already running, the settings take effect immediately.
 
 The last two parameters are used for getting event notifications when the stream starts and stops. For each stream that you control using this method, the filter graph sends a pair of events: [**EC\_STREAM\_CONTROL\_STARTED**](ec-stream-control-started.md) when the stream starts, and [**EC\_STREAM\_CONTROL\_STOPPED**](ec-stream-control-stopped.md) when the stream stops. The values of **wStartCookie** and **wStopCookie** are used as the second event parameter. Thus, *lParam2* in the start event equals **wStartCookie**, and *lParam2* in the stop event equals **wStopCookie**. The following code shows how to get these events:
 
@@ -116,7 +121,7 @@ pBuild->ControlStream(&amp;PIN_CATEGORY_PREVIEW, &amp;MEDIATYPE_Video, pCap,
 
 It does not matter whether the preview stream comes from a preview pin on the capture filter, or from the Smart Tee filter. The **ControlStream** method works either way.
 
-For video port pins, however, the method will fail. In that case, another approach is to hide the video window. Query the graph for **IVideoWindow**, and use the [**IVideoWindow::put\_Visible**](ivideowindow-put-visible.md) method to show or hide the window.
+For video port pins, however, the method will fail. In that case, another approach is to hide the video window. Query the graph for **IVideoWindow**, and use the [**IVideoWindow::put\_Visible**](/windows/win32/Control/nf-control-ivideowindow-put_visible?branch=master) method to show or hide the window.
 
 
 ```C++
@@ -132,7 +137,7 @@ if (SUCCEEDED(hr))
 
 
 
-Also, if you call [**IVideoWindow::put\_AutoShow**](ivideowindow-put-autoshow.md) with the value OAFALSE before you run the graph, the Video Renderer filter hides the window until you specify otherwise. By default, the Video Renderer shows the window when you run the graph.
+Also, if you call [**IVideoWindow::put\_AutoShow**](/windows/win32/Control/nf-control-ivideowindow-put_autoshow?branch=master) with the value OAFALSE before you run the graph, the Video Renderer filter hides the window until you specify otherwise. By default, the Video Renderer shows the window when you run the graph.
 
 Remarks about Stream Control
 
@@ -151,7 +156,7 @@ NULL, NULL,       // All capture streams.
 
 
 
-Internally, the **ControlStream** method uses the [**IAMStreamControl**](iamstreamcontrol.md) interface, which is exposed on the pins of the capture filter, the Smart Tee filter (if present), and possibly the mux filter. You can use this interface directly, instead of calling **ControlStream**, although there is no particular advantage to doing so.
+Internally, the **ControlStream** method uses the [**IAMStreamControl**](/windows/win32/Strmif/nn-strmif-iamstreamcontrol?branch=master) interface, which is exposed on the pins of the capture filter, the Smart Tee filter (if present), and possibly the mux filter. You can use this interface directly, instead of calling **ControlStream**, although there is no particular advantage to doing so.
 
 ## Related topics
 

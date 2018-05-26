@@ -1,12 +1,17 @@
 ---
-Description: 'The following example creates a timer that will be signaled after a 10 second delay.'
-ms.assetid: '3c84c2ad-6bac-4f14-a633-51d4529314af'
+Description: The following example creates a timer that will be signaled after a 10 second delay.
+ms.assetid: 3c84c2ad-6bac-4f14-a633-51d4529314af
 title: Using Waitable Timer Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Waitable Timer Objects
 
-The following example creates a timer that will be signaled after a 10 second delay. First, the code uses the [**CreateWaitableTimer**](createwaitabletimer.md) function to create a [waitable timer object](waitable-timer-objects.md). Then it uses the [**SetWaitableTimer**](setwaitabletimer.md) function to set the timer. The code uses the [**WaitForSingleObject**](waitforsingleobject.md) function to determine when the timer has been signaled.
+The following example creates a timer that will be signaled after a 10 second delay. First, the code uses the [**CreateWaitableTimer**](/windows/win32/WinBase/nf-winbase-createwaitabletimera?branch=master) function to create a [waitable timer object](waitable-timer-objects.md). Then it uses the [**SetWaitableTimer**](/windows/win32/WinBase/nf-synchapi-setwaitabletimer?branch=master) function to set the timer. The code uses the [**WaitForSingleObject**](/windows/win32/WinBase/nf-synchapi-waitforsingleobject?branch=master) function to determine when the timer has been signaled.
 
 
 ```C++

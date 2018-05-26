@@ -1,7 +1,12 @@
 ---
-Description: 'The CurrentAudioStream property sets or retrieves the number of the enabled audio stream.'
-ms.assetid: '9efaae3f-1fb8-41ab-b7a9-889cc3cc39c3'
+Description: The CurrentAudioStream property sets or retrieves the number of the enabled audio stream.
+ms.assetid: 9efaae3f-1fb8-41ab-b7a9-889cc3cc39c3
 title: CurrentAudioStream Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CurrentAudioStream Property

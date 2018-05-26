@@ -4,11 +4,12 @@ description: The property methods of the interface get and set the properties de
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMRSOP Property Methods GPMC"]
+keywords:
+- IGPMRSOP Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -63,13 +64,16 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMRSOP Property Methods
 
 The property methods of the interface get and set the properties described in the following table. For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation . RSoP planning mode requires a Windows Server domain controller to perform the query.
 
-The [**IGPMRSOP**](igpmrsop.md) interface defines the following properties.
+The [**IGPMRSOP**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmrsop?branch=master) interface defines the following properties.
 
 ## Properties
 
@@ -243,7 +247,7 @@ HRESULT get_PlanningComputer(
 **PlanningComputerSecurityGroups**
 </dt> <dd> <dl>
 
-The *pvarVal* contains the security groups to associate with the computer during planning mode simulation. The **PlanningComputerSecurityGroups** property returns a **SAFEARRAY** that contains **VARIANT** members. Each **VARIANT** contains a Dispatch pointer to the [**IGPMTrustee**](igpmtrustee.md) interface.
+The *pvarVal* contains the security groups to associate with the computer during planning mode simulation. The **PlanningComputerSecurityGroups** property returns a **SAFEARRAY** that contains **VARIANT** members. Each **VARIANT** contains a Dispatch pointer to the [**IGPMTrustee**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmtrustee?branch=master) interface.
 
 Set the **PlanningComputerSecurityGroups** property to an empty **SAFEARRAY** to specify that the RSoP query must be run with no security groups. If you set the property to **VT\_NULL**, or never set the property, the query uses the default security groups for the user. If no security groups are specified, the property returns a **VARIANT** of type **VT\_NULL**. When specifying a list of security groups for a query, "Authenticated Users" and "Everyone" is always implicit and should not be in the list.
 
@@ -301,7 +305,7 @@ HRESULT get_PlanningComputerSOM(
 **PlanningComputerWMIFilters**
 </dt> <dd> <dl>
 
-The *pvarVal* parameter contains the WMI filters to associate with the computer during planning mode simulation. The **PlanningComputerWMIFilters** property returns a **SAFEARRAY** that contains **VARIANT** members. Each **VARIANT** contains a Dispatch pointer to the [**IGPMWMIFilter**](igpmwmifilter.md) interface.
+The *pvarVal* parameter contains the WMI filters to associate with the computer during planning mode simulation. The **PlanningComputerWMIFilters** property returns a **SAFEARRAY** that contains **VARIANT** members. Each **VARIANT** contains a Dispatch pointer to the [**IGPMWMIFilter**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmwmifilter?branch=master) interface.
 
 <dt>
 
@@ -453,7 +457,7 @@ HRESULT get_PlanningUser(
 **PlanningUserSecurityGroups**
 </dt> <dd> <dl>
 
-The *pvarVal* parameter contains the security groups to associate with the user during planning mode simulation. The **PlanningUserSecurityGroups** property returns a **SAFEARRAY** of **VARIANT** members. Each **VARIANT** contains a Dispatch pointer to the [**IGPMTrustee**](igpmtrustee.md) interface.
+The *pvarVal* parameter contains the security groups to associate with the user during planning mode simulation. The **PlanningUserSecurityGroups** property returns a **SAFEARRAY** of **VARIANT** members. Each **VARIANT** contains a Dispatch pointer to the [**IGPMTrustee**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmtrustee?branch=master) interface.
 
 Set the **PlanningUserSecurityGroups** property to an empty **SAFEARRAY** to specify that the RSoP query must be run with no security groups. If you set the property to **VT\_NULL**, or never set the property, the query uses the default security groups for the user. If no security groups are specified, the property returns a **VARIANT** of type **VT\_NULL**. When specifying a list of security groups for a query, "Authenticated Users" and "Everyone" is always implicit and should not be in the list.
 
@@ -511,7 +515,7 @@ HRESULT get_PlanningUserSOM(
 **PlanningUserWMIFilters**
 </dt> <dd> <dl>
 
-The *pvarVal* parameter contains the WMI filters to associate with the user during planning mode simulation. The **PlanningUserWMIFilters** property returns a **SAFEARRAY** that contains **VARIANT** members. Each **VARIANT** contains a Dispatch pointer to the [**IGPMWMIFilter**](igpmwmifilter.md) interface.
+The *pvarVal* parameter contains the WMI filters to associate with the user during planning mode simulation. The **PlanningUserWMIFilters** property returns a **SAFEARRAY** that contains **VARIANT** members. Each **VARIANT** contains a Dispatch pointer to the [**IGPMWMIFilter**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmwmifilter?branch=master) interface.
 
 <dt>
 
@@ -536,7 +540,7 @@ HRESULT get_PlanningUserWMIFilters(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
@@ -548,8 +552,8 @@ For more information about security groups, see [How Security Groups are Used in
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -561,21 +565,21 @@ For more information about security groups, see [How Security Groups are Used in
 
 <dl> <dt>
 
-[**IGPMRSOP**](igpmrsop.md)
+[**IGPMRSOP**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmrsop?branch=master)
 </dt> <dt>
 
-[**IGPM**](igpm.md)
+[**IGPM**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpm?branch=master)
 </dt> <dt>
 
-[**IGPMWMIFilter**](igpmwmifilter.md)
+[**IGPMWMIFilter**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmwmifilter?branch=master)
 </dt> <dt>
 
-[**IGPMTrustee**](igpmtrustee.md)
+[**IGPMTrustee**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmtrustee?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

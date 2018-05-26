@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the position for an overlay.'
-ms.assetid: 'dd495118-9ceb-4100-a7ec-794659bb4461'
+---
+Description: Sets the position for an overlay.
+ms.assetid: dd495118-9ceb-4100-a7ec-794659bb4461
 title: NtGdiDdSetOverlayPosition function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdSetOverlayPosition function

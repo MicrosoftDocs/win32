@@ -1,7 +1,12 @@
 ---
 title: Stream Buffer Source Filter Enhancements in Windows 7
 description: Stream Buffer Source Filter Enhancements in Windows 7
-ms.assetid: 'af6262c5-391c-4248-9f96-26bd108b0fdf'
+ms.assetid: af6262c5-391c-4248-9f96-26bd108b0fdf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream Buffer Source Filter Enhancements in Windows 7
@@ -22,10 +27,10 @@ The [Stream Buffer Source](stream-buffer-source-filter.md) filter improvements i
 
 | Interface                                              | Functions                                                                                                                                                               |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ISBE2Crossbar**](isbe2crossbar.md)                 | Enumerates the streams in a WTV file; sets or changes profiles, stream mappings, and default modes for a [Stream Buffer Source](stream-buffer-source-filter.md) filter |
-| [**ISBE2EnumStream**](isbe2enumstream.md)             | Enumerates the streams discovered in a WTV file                                                                                                                         |
-| [**ISBE2MediaTypeProfile**](isbe2mediatypeprofile.md) | Manages the media streams in a profile                                                                                                                                  |
-| [**ISBE2StreamMap**](isbe2streammap.md)               | Manages stream mappings for a [Stream Buffer Source](stream-buffer-source-filter.md) filter                                                                            |
+| [**ISBE2Crossbar**](/windows/previous-versions/sbe/nn-sbe-isbe2crossbar?branch=master)                 | Enumerates the streams in a WTV file; sets or changes profiles, stream mappings, and default modes for a [Stream Buffer Source](stream-buffer-source-filter.md) filter |
+| [**ISBE2EnumStream**](/windows/previous-versions/sbe/nn-sbe-isbe2enumstream?branch=master)             | Enumerates the streams discovered in a WTV file                                                                                                                         |
+| [**ISBE2MediaTypeProfile**](/windows/previous-versions/sbe/nn-sbe-isbe2mediatypeprofile?branch=master) | Manages the media streams in a profile                                                                                                                                  |
+| [**ISBE2StreamMap**](/windows/previous-versions/sbe/nn-sbe-isbe2streammap?branch=master)               | Manages stream mappings for a [Stream Buffer Source](stream-buffer-source-filter.md) filter                                                                            |
 
 
 
@@ -49,15 +54,15 @@ When the [Stream Buffer Source](stream-buffer-source-filter.md) filter reads str
 -   *Default streams* mode, in which the filter maps streams to output pins automatically, following internal logic.
 -   A mode where mapping is controlled by an application.
 
-The [**ISBE2Crossbar**](isbe2crossbar.md) interface, which is exposed by the [Stream Buffer Source](stream-buffer-source-filter.md) filter, is used to set these two important modes.
+The [**ISBE2Crossbar**](/windows/previous-versions/sbe/nn-sbe-isbe2crossbar?branch=master) interface, which is exposed by the [Stream Buffer Source](stream-buffer-source-filter.md) filter, is used to set these two important modes.
 
-Applications can call the [**ISBE2Crossbar::EnableDefaultMode**](isbe2crossbar-enabledefaultmode.md) method to set profile mode, stream mapping mode, or both. Use either or both of the following flags in the **EnableDefaultMode** call to explicitly set the default modes that you want to enable:
+Applications can call the [**ISBE2Crossbar::EnableDefaultMode**](/windows/previous-versions/sbe/nf-sbe-isbe2crossbar-enabledefaultmode?branch=master) method to set profile mode, stream mapping mode, or both. Use either or both of the following flags in the **EnableDefaultMode** call to explicitly set the default modes that you want to enable:
 
 
 
 | Flags                                            | Effects                                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \[none\]                                         | Disables both profile and streams default mode. The application must set an output profile (using the [**ISBE2Crossbar::SetOutputProfile**](isbe2crossbar-setoutputprofile.md) method) and stream mappings (using the [**ISBE2StreamMap::MapStream**](isbe2streammap-mapstream.md) method). |
+| \[none\]                                         | Disables both profile and streams default mode. The application must set an output profile (using the [**ISBE2Crossbar::SetOutputProfile**](/windows/previous-versions/sbe/nf-sbe-isbe2crossbar-setoutputprofile?branch=master) method) and stream mappings (using the [**ISBE2StreamMap::MapStream**](/windows/previous-versions/sbe/nf-sbe-isbe2streammap-mapstream?branch=master) method). |
 | **DEF\_MODE\_PROFILE**                           | Enables profile default mode, disables streams default mode. The application cannot change output profiles but can specify new stream mappings while the graph is running.                                                                                                                    |
 | **DEF\_MODE\_STREAMS**                           | Enables streams default mode, disables profile default mode. The application cannot change stream mappings but must specify a new output profiles.                                                                                                                                            |
 | **DEF\_MODE\_PROFILE** \| **DEF\_MODE\_STREAMS** | Enables both profile and streams default mode. The application cannot change output profiles or specify new stream mappings.                                                                                                                                                                  |
@@ -66,13 +71,13 @@ Applications can call the [**ISBE2Crossbar::EnableDefaultMode**](isbe2crossbar-e
 
  
 
-If the application does not call [**EnableDefaultMode**](isbe2crossbar-enabledefaultmode.md), both default streams and default profile modes are enabled.
+If the application does not call [**EnableDefaultMode**](/windows/previous-versions/sbe/nf-sbe-isbe2crossbar-enabledefaultmode?branch=master), both default streams and default profile modes are enabled.
 
 ### Stream Mapping Modes: Default
 
 In default streams mode, the [Stream Buffer Source](stream-buffer-source-filter.md) filter uses the following logic to map streams to output pins:
 
-1.  For all streams with media type (major) other than **MEDIATYPE\_Audio**, the Stream Buffer Source filter maps the default stream for each media type to an output pin with a matching media type. The default stream is a stream that has the Default member set to **TRUE** in its [**DVR\_STREAM\_DESC**](dvr-stream-desc.md) structure.
+1.  For all streams with media type (major) other than **MEDIATYPE\_Audio**, the Stream Buffer Source filter maps the default stream for each media type to an output pin with a matching media type. The default stream is a stream that has the Default member set to **TRUE** in its [**DVR\_STREAM\_DESC**](/windows/previous-versions/sbe/ns-sbe-__midl___midl_itf_sbe_0000_0015_0002?branch=master) structure.
 2.  For audio streams (**MEDIATYPE\_Audio**), language-based mapping logic is applied. The languages are defined for audio streams by an in-band spanning event with an ID of **EVENTID\_LanguageSpanningEvent**. First, the user-preferred language used for mapping is determined using the following steps:
     1.  If a preferred language is set in Windows Media Center, that language is used.
     2.  If no preferred language is set in Windows Media Center, the default language for Windows is used. The [**GetUserDefaultLangID**](https://msdn.microsoft.com/library/windows/desktop/dd318134) function returns the default language for Windows.
@@ -87,7 +92,7 @@ If streams are deleted and/or created during the playback of a WTV file, the [St
 
 In application-defined stream mapping mode, the application performs stream mapping according to application-specific logic. It is important to remember that in this mode the [Stream Buffer Source](stream-buffer-source-filter.md) filter does not perform any automatic stream mappings, so the application must map all streams that it wants the Stream Buffer Source filter to send through its output pins. Unmapped streams are discarded while a WTV file is being read so that they do not interfere with mapped stream output. Similarly, Stream Buffer Source filter output pins that are not mapped to streams do not interfere with output from other output pins.
 
-In order for an application to map a specific stream to a specific pin, the application should use the [**ISBE2StreamMap**](isbe2streammap.md) interface that is exposed by that pin. The application calls the [**ISBE2StreamMap::MapStream**](isbe2streammap-mapstream.md) method with the stream ID of the desired stream to map that stream to a pin. The stream ID argument uniquely identifies the stream within the [Stream Buffer Source](stream-buffer-source-filter.md) filter. It can be obtained from the [**DVR\_STREAM\_DESC**](dvr-stream-desc.md) structure, which is received from the Stream Buffer Source filter and signaled by and event with an ID of **SBE2\_STREAM\_DESC\_EVENT**.
+In order for an application to map a specific stream to a specific pin, the application should use the [**ISBE2StreamMap**](/windows/previous-versions/sbe/nn-sbe-isbe2streammap?branch=master) interface that is exposed by that pin. The application calls the [**ISBE2StreamMap::MapStream**](/windows/previous-versions/sbe/nf-sbe-isbe2streammap-mapstream?branch=master) method with the stream ID of the desired stream to map that stream to a pin. The stream ID argument uniquely identifies the stream within the [Stream Buffer Source](stream-buffer-source-filter.md) filter. It can be obtained from the [**DVR\_STREAM\_DESC**](/windows/previous-versions/sbe/ns-sbe-__midl___midl_itf_sbe_0000_0015_0002?branch=master) structure, which is received from the Stream Buffer Source filter and signaled by and event with an ID of **SBE2\_STREAM\_DESC\_EVENT**.
 
 **Stream Mapping Modes: Examples**
 
@@ -363,13 +368,13 @@ ApplicationClass::UnMapStream (GUID MajorType)
 
 <dl> <dt>
 
-[**ISBE2Crossbar**](isbe2crossbar.md)
+[**ISBE2Crossbar**](/windows/previous-versions/sbe/nn-sbe-isbe2crossbar?branch=master)
 </dt> <dt>
 
-[**ISBE2Crossbar::SetOutputProfile**](isbe2crossbar-setoutputprofile.md)
+[**ISBE2Crossbar::SetOutputProfile**](/windows/previous-versions/sbe/nf-sbe-isbe2crossbar-setoutputprofile?branch=master)
 </dt> <dt>
 
-[**ISBE2StreamMap::MapStream**](isbe2streammap-mapstream.md)
+[**ISBE2StreamMap::MapStream**](/windows/previous-versions/sbe/nf-sbe-isbe2streammap-mapstream?branch=master)
 </dt> <dt>
 
 [Stream Buffer Source Filter](stream-buffer-source-filter.md)

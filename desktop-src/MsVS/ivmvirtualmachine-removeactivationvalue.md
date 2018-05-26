@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine RemoveActivationValue method
 description: The RemoveActivationValue method removes the value of the specified activation setting for this virtual machine.
-ms.assetid: '8b23eb9a-445f-4ff6-9a69-b8a8e898c938'
-keywords: ["RemoveActivationValue method Virtual Server", "RemoveActivationValue method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , RemoveActivationValue method"]
+ms.assetid: 8b23eb9a-445f-4ff6-9a69-b8a8e898c938
+keywords:
+- RemoveActivationValue method Virtual Server
+- RemoveActivationValue method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , RemoveActivationValue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::RemoveActivationValue method
@@ -22,7 +30,7 @@ The **RemoveActivationValue** method removes the value of the specified activati
 
 ```C++
 HRESULT RemoveActivationValue(
-  [in] BSTR activationKey
+  [in] BSTR activationKey
 );
 ```
 
@@ -57,7 +65,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -66,9 +74,9 @@ This method provides low-level access to any activation value. It can be used to
 > [!Note]  
 > The virtual machine session must be running before any activation values can be changed.
 
- 
+ 
 
-Activation keys are stored internally in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark–delimited format.
+Activation keys are stored internally in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark delimited format.
 
 For example, to remove the value of the "default\_action" key located in the following key tree:
 
@@ -90,8 +98,8 @@ The *activationKey* path string would be specified as follows:
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -103,9 +111,9 @@ The *activationKey* path string would be specified as follows:
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

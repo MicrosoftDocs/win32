@@ -4,17 +4,21 @@ description: Container class for consent result.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '587D23C0-3B07-4B84-8AD8-F7C821A86CFB'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 587D23C0-3B07-4B84-8AD8-F7C821A86CFB
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ConsentResult class"]
+keywords:
+- ConsentResult class
 topic_type:
 - apiref
 api_name:
 - ConsentResult class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConsentResult class
@@ -40,7 +44,7 @@ public class ConsentResult implements Serializable
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -56,7 +60,7 @@ ConsentResult.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -66,9 +70,9 @@ com.microsoft.rightsmanagement
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

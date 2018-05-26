@@ -2,13 +2,19 @@
 title: include attribute
 description: The ACF include statement specifies one or more header files to be included in the generated stub code.
 ms.assetid: f83a704b-2f6e-4498-97ff-593fef2e92dc
-keywords: ["include attribute MIDL"]
+keywords:
+- include attribute MIDL
 topic_type:
 - apiref
 api_name:
 - include
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # include attribute

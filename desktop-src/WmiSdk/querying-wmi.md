@@ -1,13 +1,16 @@
 ---
-Description: 'One of the main tools of Windows Management Instrumentation (WMI) is the ability to query the WMI repository for class and instance information.'
+Description: One of the main tools of Windows Management Instrumentation (WMI) is the ability to query the WMI repository for class and instance information.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0cceda42-fba0-4a08-90dd-43f022d0be41'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0cceda42-fba0-4a08-90dd-43f022d0be41
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Querying WMI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Querying WMI
@@ -23,7 +26,7 @@ One of the main tools of Windows Management Instrumentation (WMI) is the ability
 
 
 
- 
+ 
 
 In addition to querying the WMI repository, you can also use the [*WMI Query Language (WQL)*](gloss-w.md#wmi-gloss-wmi-query-language) to route notification events to your application. For more information, see [Receiving a WMI Event](receiving-a-wmi-event.md).
 
@@ -35,17 +38,17 @@ In addition to querying the WMI repository, you can also use the [*WMI Query Lan
 >
 > When querying for property values with a **uint64** or **sint64** data type in a scripting language like VBScript, WMI returns string values. Unexpected results can occur when comparing these values, because comparing strings returns different results than comparing numbers. For example, "10000000000" is less than "9" when comparing strings, and 9 is less than 10000000000 when comparing numbers. To avoid confusion you should use the [CDbl](Http://go.microsoft.com/fwlink/p/?linkid=84363) method in VBScript when properties of type **uint64** or **sint64** are retrieved from WMI.
 
- 
+ 
 
 > [!Note]  
 
- 
+ 
 
 For more information, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md).
 
- 
+ 
 
- 
+ 
 
 
 

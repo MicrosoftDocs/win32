@@ -1,7 +1,12 @@
 ---
-Description: 'This set of topics discusses how to implement the extension handlers that allow you to modify a variety of Shell actions.'
-ms.assetid: 'ce21ca0f-157c-4f69-bcf9-dc259c3bac80'
+Description: This set of topics discusses how to implement the extension handlers that allow you to modify a variety of Shell actions.
+ms.assetid: ce21ca0f-157c-4f69-bcf9-dc259c3bac80
 title: Working with Shell Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Shell Extensions
@@ -21,8 +26,8 @@ This set of topics discusses how to implement the extension handlers that allow 
 | [Drop handler](how-to-create-drop-handlers.md)       | Called when a data object is dragged over or dropped on a file. It enables you to make a file into a drop target.                                                          |
 | [Icon handler](how-to-create-icon-handlers.md)       | Called before a file's icon is displayed. It enables you to replace the file's default icon with a custom icon on a file-by-file basis.                                    |
 | [Property sheet handler](propsheet-handlers.md)      | Called before an object's **Properties** property sheet is displayed. It enables you to add or replace pages.                                                              |
-| [**Thumbnail Image handler**](ithumbnailprovider.md) | Provides an image to represent the item.                                                                                                                                   |
-| [**Infotip handler**](iqueryinfo.md)                 | Provides pop-up text when the user hovers the mouse pointer over the object.                                                                                               |
+| [**Thumbnail Image handler**](/windows/win32/Thumbcache/nn-thumbcache-ithumbnailprovider?branch=master) | Provides an image to represent the item.                                                                                                                                   |
+| [**Infotip handler**](/windows/win32/Shlobj_core/?branch=master)                 | Provides pop-up text when the user hovers the mouse pointer over the object.                                                                                               |
 | [**Metadata handler**](stg.ipropertysetstorage)       | Provides read and write access to metadata (properties) stored in a file. This can be used to extend the Details view, infotips, the property page, and grouping features. |
 
 

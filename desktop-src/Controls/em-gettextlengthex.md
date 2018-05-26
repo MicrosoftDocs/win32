@@ -1,8 +1,9 @@
 ---
 title: EM\_GETTEXTLENGTHEX message
 description: Calculates text length in various ways. It is usually called before creating a buffer to receive the text from the control.
-ms.assetid: '42c89b7b-e48d-4517-9993-ce58ff9e4e40'
-keywords: ["EM_GETTEXTLENGTHEX message Windows Controls"]
+ms.assetid: 42c89b7b-e48d-4517-9993-ce58ff9e4e40
+keywords:
+- EM_GETTEXTLENGTHEX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETTEXTLENGTHEX message
@@ -24,7 +30,7 @@ Calculates text length in various ways. It is usually called before creating a b
 *wParam* 
 </dt> <dd>
 
-Pointer to a [**GETTEXTLENGTHEX**](gettextlengthex.md) structure that receives the text length information.
+Pointer to a [**GETTEXTLENGTHEX**](/windows/win32/Richedit/ns-richedit-_gettextlengthex?branch=master) structure that receives the text length information.
 
 </dd> <dt>
 
@@ -37,7 +43,7 @@ This parameter is not used; it must be zero.
 
 ## Return value
 
-The message returns the number of **TCHAR**s in the edit control, depending on the setting of the flags in the [**GETTEXTLENGTHEX**](gettextlengthex.md) structure. If incompatible flags were set in the **flags** member, the message returns E\_INVALIDARG .
+The message returns the number of **TCHAR**s in the edit control, depending on the setting of the flags in the [**GETTEXTLENGTHEX**](/windows/win32/Richedit/ns-richedit-_gettextlengthex?branch=master) structure. If incompatible flags were set in the **flags** member, the message returns E\_INVALIDARG .
 
 ## Remarks
 
@@ -49,8 +55,8 @@ This message is a fast and easy way to determine the number of characters in the
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -59,12 +65,12 @@ This message is a fast and easy way to determine the number of characters in the
 
 <dl> <dt>
 
-[**GETTEXTLENGTHEX**](gettextlengthex.md)
+[**GETTEXTLENGTHEX**](/windows/win32/Richedit/ns-richedit-_gettextlengthex?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

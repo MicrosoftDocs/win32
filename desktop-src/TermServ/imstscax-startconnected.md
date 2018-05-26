@@ -1,14 +1,35 @@
 ---
 title: IMsTscAx StartConnected property
-description: Indicates whether the control will establish the Remote Desktop Session Host (RD Session Host) server connection immediately upon startup.
+description: Indicates whether the control will establish the Remote Desktop Session Host (RD Session Host) server connection immediately upon startup.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cf2956c0-be4f-4f80-a14b-253ae8117824'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: cf2956c0-be4f-4f80-a14b-253ae8117824
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["StartConnected property Remote Desktop Services", "StartConnected property Remote Desktop Services , IMsTscAx interface", "IMsTscAx interface Remote Desktop Services , StartConnected property", "StartConnected property Remote Desktop Services , IMsRdpClient interface", "IMsRdpClient interface Remote Desktop Services , StartConnected property", "StartConnected property Remote Desktop Services , IMsRdpClient2 interface", "IMsRdpClient2 interface Remote Desktop Services , StartConnected property", "StartConnected property Remote Desktop Services , IMsRdpClient3 interface", "IMsRdpClient3 interface Remote Desktop Services , StartConnected property", "StartConnected property Remote Desktop Services , IMsRdpClient4 interface", "IMsRdpClient4 interface Remote Desktop Services , StartConnected property", "StartConnected property Remote Desktop Services , IMsRdpClient5 interface", "IMsRdpClient5 interface Remote Desktop Services , StartConnected property", "StartConnected property Remote Desktop Services , IMsRdpClient6 interface", "IMsRdpClient6 interface Remote Desktop Services , StartConnected property", "StartConnected property Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , StartConnected property", "StartConnected property Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , StartConnected property", "StartConnected property Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , StartConnected property"]
+keywords:
+- StartConnected property Remote Desktop Services
+- StartConnected property Remote Desktop Services , IMsTscAx interface
+- IMsTscAx interface Remote Desktop Services , StartConnected property
+- StartConnected property Remote Desktop Services , IMsRdpClient interface
+- IMsRdpClient interface Remote Desktop Services , StartConnected property
+- StartConnected property Remote Desktop Services , IMsRdpClient2 interface
+- IMsRdpClient2 interface Remote Desktop Services , StartConnected property
+- StartConnected property Remote Desktop Services , IMsRdpClient3 interface
+- IMsRdpClient3 interface Remote Desktop Services , StartConnected property
+- StartConnected property Remote Desktop Services , IMsRdpClient4 interface
+- IMsRdpClient4 interface Remote Desktop Services , StartConnected property
+- StartConnected property Remote Desktop Services , IMsRdpClient5 interface
+- IMsRdpClient5 interface Remote Desktop Services , StartConnected property
+- StartConnected property Remote Desktop Services , IMsRdpClient6 interface
+- IMsRdpClient6 interface Remote Desktop Services , StartConnected property
+- StartConnected property Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , StartConnected property
+- StartConnected property Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , StartConnected property
+- StartConnected property Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , StartConnected property
 topic_type:
 - apiref
 api_name:
@@ -46,11 +67,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAx::StartConnected property
 
-Indicates whether the control will establish the Remote Desktop Session Host (RD Session Host) server connection immediately upon startup.
+Indicates whether the control will establish the Remote Desktop Session Host (RD Session Host) server connection immediately upon startup.
 
 This property is read/write.
 
@@ -59,11 +83,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_StartConnected(
-  [in]  BOOL fStartConnected
+  [in]  BOOL fStartConnected
 );
 
 HRESULT get_StartConnected(
-  [out] BOOL *pfStartConnected
+  [out] BOOL *pfStartConnected
 );
 ```
 
@@ -81,7 +105,7 @@ Return **S\_OK** if successful.
 
 This property is most useful when the control properties are set in the parameter list of an &lt;OBJECT&gt; tag, rather than through script calls.
 
-This property can be used only if the server name is also specified using the server property. This parameter has to be set before the control starts up—for example, by including it in the parameter list of an &lt;OBJECT&gt; tag when using the control from a webpage.
+This property can be used only if the server name is also specified using the server property. This parameter has to be set before the control starts up for example, by including it in the parameter list of an &lt;OBJECT&gt; tag when using the control from a webpage.
 
 For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).
 
@@ -91,8 +115,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsTscAx is defined as 8C11EFAE-92C3-11D1-BC1E-00C04FA31489<br/>            |
@@ -136,9 +160,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscAx**](imstscax-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A name that represents a specific series, such as a podcast or recorded television series.'
-ms.assetid: 'fce78030-462d-4472-885c-c16d2667629a'
-title: 'System.Media.SeriesName'
+Description: A name that represents a specific series, such as a podcast or recorded television series.
+ms.assetid: fce78030-462d-4472-885c-c16d2667629a
+title: System.Media.SeriesName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.SeriesName

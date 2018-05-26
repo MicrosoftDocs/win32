@@ -1,20 +1,25 @@
 ---
 title: Layer Management
 description: Layer Management
-ms.assetid: 'E1EE6FFF-A83C-4CC8-88A8-2D11D2B8F7C9'
+ms.assetid: E1EE6FFF-A83C-4CC8-88A8-2D11D2B8F7C9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Layer Management
 
 ## In this section
 
--   [**FwpmLayerCreateEnumHandle0**](fwpmlayercreateenumhandle0-func.md)
--   [**FwpmLayerDestroyEnumHandle0**](fwpmlayerdestroyenumhandle0-func.md)
--   [**FwpmLayerEnum0**](fwpmlayerenum0-func.md)
--   [**FwpmLayerGetById0**](fwpmlayergetbyid0-func.md)
--   [**FwpmLayerGetByKey0**](fwpmlayergetbykey0-func.md)
--   [**FwpmLayerGetSecurityInfoByKey0**](fwpmlayergetsecurityinfobykey0-func.md)
--   [**FwpmLayerSetSecurityInfoByKey0**](fwpmlayersetsecurityinfobykey0-func.md)
+-   [**FwpmLayerCreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayercreateenumhandle0?branch=master)
+-   [**FwpmLayerDestroyEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayerdestroyenumhandle0?branch=master)
+-   [**FwpmLayerEnum0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayerenum0?branch=master)
+-   [**FwpmLayerGetById0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayergetbyid0?branch=master)
+-   [**FwpmLayerGetByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayergetbykey0?branch=master)
+-   [**FwpmLayerGetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayergetsecurityinfobykey0?branch=master)
+-   [**FwpmLayerSetSecurityInfoByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmlayersetsecurityinfobykey0?branch=master)
 
  
 

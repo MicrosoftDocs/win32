@@ -1,8 +1,9 @@
 ---
 title: glColor3s function
 description: Sets the current color.
-ms.assetid: '6d4308c7-d640-447d-8efc-1fd547975516'
-keywords: ["glColor3s function OpenGL"]
+ms.assetid: 6d4308c7-d640-447d-8efc-1fd547975516
+keywords:
+- glColor3s function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glColor3s function
@@ -22,9 +28,9 @@ Sets the current color.
 
 ```C++
 void WINAPI glColor3s(
-   GLshort red,
-   GLshort green,
-   GLshort blue
+   GLshort red,
+   GLshort green,
+   GLshort blue
 );
 ```
 
@@ -75,8 +81,8 @@ Neither floating-point nor signed integer values are clamped to the range \[0,1\
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -99,9 +105,9 @@ Neither floating-point nor signed integer values are clamped to the range \[0,1\
 [**glIndex**](glindexd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

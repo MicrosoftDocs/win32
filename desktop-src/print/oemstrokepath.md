@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMStrokePath function strokes a path.'
-ms.assetid: 'e761a8b4-729f-4f03-a4b4-2ed1b62ec012'
+---
+Description: The OEMStrokePath function strokes a path.
+ms.assetid: e761a8b4-729f-4f03-a4b4-2ed1b62ec012
 title: OEMStrokePath function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMStrokePath function

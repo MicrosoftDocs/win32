@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a generic association in which a managed element depends on another. CIM\_ConcreteDependency subclasses CIM\_Dependency to provide a concrete class version of CIM\_Dependency.'
-ms.assetid: 'c0e1527d-d350-410d-9b5f-c9d4dedf7393'
-title: 'CIM\_ConcreteDependency class'
+Description: Represents a generic association in which a managed element depends on another. CIM\_ConcreteDependency subclasses CIM\_Dependency to provide a concrete class version of CIM\_Dependency.
+ms.assetid: c0e1527d-d350-410d-9b5f-c9d4dedf7393
+title: CIM\_ConcreteDependency class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ConcreteDependency class
@@ -69,8 +74,8 @@ The dependent object in the association.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The dependent object in the association.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,15 @@
 title: PS\_DAMultiSite class
 description: Represents configuration of multisite environment.
 audience: developer
-ms.assetid: '4fd21f3b-060b-464f-bbb8-fecc554d5d3c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4fd21f3b-060b-464f-bbb8-fecc554d5d3c
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DAMultiSite class", "PS_DAMultiSite class, described"]
+keywords:
+- PS_DAMultiSite class
+- PS_DAMultiSite class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DAMultiSite class
@@ -55,7 +60,7 @@ The **PS\_DAMultiSite** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,16 +69,16 @@ The **PS\_DAMultiSite** class has these methods.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

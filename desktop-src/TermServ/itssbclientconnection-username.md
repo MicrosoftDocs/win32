@@ -4,11 +4,14 @@ description: Retrieves a value that indicates the name of the user who initiated
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '74f4b8fb-efd4-46d7-9d2f-dd9ef583eb54'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 74f4b8fb-efd4-46d7-9d2f-dd9ef583eb54
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["UserName property Remote Desktop Services", "UserName property Remote Desktop Services , ITsSbClientConnection interface", "ITsSbClientConnection interface Remote Desktop Services , UserName property"]
+keywords:
+- UserName property Remote Desktop Services
+- UserName property Remote Desktop Services , ITsSbClientConnection interface
+- ITsSbClientConnection interface Remote Desktop Services , UserName property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbClientConnection::UserName property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_UserName(
-  [out, retval] BSTR *pVal
+  [out, retval] BSTR *pVal
 );
 ```
 
@@ -48,7 +54,7 @@ A pointer to a user name. When you have finished using the string, free it by ca
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
 | IDL<br/>                      | <dl> <dt>Sbtsv.idl</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ A pointer to a user name. When you have finished using the string, free it by ca
 
 <dl> <dt>
 
-[**ITsSbClientConnection**](itssbclientconnection.md)
+[**ITsSbClientConnection**](/windows/win32/sbtsv/nn-sbtsv-itssbclientconnection?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

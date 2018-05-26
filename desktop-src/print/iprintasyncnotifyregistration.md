@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5'
+---
+Description: .
+ms.assetid: DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5
 title: IPrintAsyncNotifyRegistration interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintAsyncNotifyRegistration interface

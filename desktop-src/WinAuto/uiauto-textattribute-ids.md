@@ -1,7 +1,7 @@
 ---
 title: Text Attribute Identifiers
 description: This topic describes the named constants used to identify text attributes of a Microsoft UI Automation text range.
-ms.assetid: '67d86817-6a3f-4047-88d9-34f33f52a563'
+ms.assetid: 67d86817-6a3f-4047-88d9-34f33f52a563
 topic_type:
 - apiref
 api_name:
@@ -52,16 +52,21 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Attribute Identifiers
 
 This topic describes the named constants used to identify text attributes of a Microsoft UI Automation text range. These constants are used with the following methods:
 
--   [**ITextRangeProvider::FindAttribute**](uiauto-itextrangeprovider-findattribute.md)
--   [**ITextRangeProvider::GetAttributeValue**](uiauto-itextrangeprovider-getattributevalue.md)
--   [**IUIAutomationTextRange::FindAttribute**](uiauto-iuiautomationtextrange-findattribute.md)
--   [**IUIAutomationTextRange::GetAttributeValue**](uiauto-iuiautomationtextrange-getattributevalue.md)
+-   [**ITextRangeProvider::FindAttribute**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-findattribute?branch=master)
+-   [**ITextRangeProvider::GetAttributeValue**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-getattributevalue?branch=master)
+-   [**IUIAutomationTextRange::FindAttribute**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-findattribute?branch=master)
+-   [**IUIAutomationTextRange::GetAttributeValue**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getattributevalue?branch=master)
 
 
 
@@ -83,15 +88,15 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_AnimationStyleAttributeId"></span><span id="uia_animationstyleattributeid"></span><span id="UIA_ANIMATIONSTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_AnimationStyleAttributeId</strong></dt> <dt>40000</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>AnimationStyle</strong> text attribute, which specifies the type of animation applied to the text. This attribute is specified as a value from the [<strong>AnimationStyle</strong>](uiauto-animationstyleenum.md) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>AnimationStyle_None</strong>](uiauto-animationstyleenum.md#animationstyle-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>AnimationStyle</strong> text attribute, which specifies the type of animation applied to the text. This attribute is specified as a value from the [<strong>AnimationStyle</strong>](/windows/win32/UIAutomationCore/ne-uiautomationcore-animationstyle?branch=master) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>AnimationStyle_None</strong>](uiauto-animationstyleenum.md#animationstyle-none)<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_AnnotationObjectsAttributeId"></span><span id="uia_annotationobjectsattributeid"></span><span id="UIA_ANNOTATIONOBJECTSATTRIBUTEID"></span><dl> <dt><strong>UIA_AnnotationObjectsAttributeId</strong></dt> <dt>40032</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>AnnotationObjects</strong> text attribute, which maintains an array of [<strong>IUIAutomationElement2</strong>](uiauto-iuiautomationelement2.md) interfaces, one for each element in the current text range that implements the [Annotation](uiauto-implementingannotation.md) control pattern. Each element might also implement other control patterns as needed to describe the annotation. For example, an annotation that is a comment would also support the [Text](uiauto-implementingtextandtextrange.md) control pattern. Supported starting with Windows 8.<br/> Variant type: <strong>VT_UNKNOWN</strong><br/> Default value: empty array <br/></td>
+<td style="text-align: left;">Identifies the <strong>AnnotationObjects</strong> text attribute, which maintains an array of [<strong>IUIAutomationElement2</strong>](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement2?branch=master) interfaces, one for each element in the current text range that implements the [Annotation](uiauto-implementingannotation.md) control pattern. Each element might also implement other control patterns as needed to describe the annotation. For example, an annotation that is a comment would also support the [Text](uiauto-implementingtextandtextrange.md) control pattern. Supported starting with Windows 8.<br/> Variant type: <strong>VT_UNKNOWN</strong><br/> Default value: empty array <br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_AnnotationTypesAttributeId"></span><span id="uia_annotationtypesattributeid"></span><span id="UIA_ANNOTATIONTYPESATTRIBUTEID"></span><dl> <dt><strong>UIA_AnnotationTypesAttributeId</strong></dt> <dt>40031</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>AnnotationTypes</strong> text attribute, which maintains a list of annotation type identifiers for a range of text. For a list of possible values, see [<strong>Annotation Type Identifiers</strong>](uiauto-annotation-type-identifiers.md). Supported starting with Windows 8.<br/> Variant type: <strong>VT_ARRAY</strong> | <strong>VT_I4</strong><br/> Default value: empty array <br/></td>
+<td style="text-align: left;">Identifies the <strong>AnnotationTypes</strong> text attribute, which maintains a list of annotation type identifiers for a range of text. For a list of possible values, see [<strong>Annotation Type Identifiers</strong>](uiauto-annotation-type-identifiers.md). Supported starting with Windows 8.<br/> Variant type: <strong>VT_ARRAY</strong> | <strong>VT_I4</strong><br/> Default value: empty array <br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_BackgroundColorAttributeId"></span><span id="uia_backgroundcolorattributeid"></span><span id="UIA_BACKGROUNDCOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_BackgroundColorAttributeId</strong></dt> <dt>40001</dt> </dl></td>
@@ -103,19 +108,19 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_BulletStyleAttributeId"></span><span id="uia_bulletstyleattributeid"></span><span id="UIA_BULLETSTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_BulletStyleAttributeId</strong></dt> <dt>40002</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>BulletStyle</strong> text attribute, which specifies the style of bullets used in the text range. This attribute is specified as a value from the [<strong>BulletStyle</strong>](uiauto-bulletstyleenum.md) enumerated type.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>BulletStyle_None</strong>](uiauto-bulletstyleenum.md#bulletstyle-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>BulletStyle</strong> text attribute, which specifies the style of bullets used in the text range. This attribute is specified as a value from the [<strong>BulletStyle</strong>](/windows/win32/UIAutomationCore/ne-uiautomationcore-bulletstyle?branch=master) enumerated type.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>BulletStyle_None</strong>](uiauto-bulletstyleenum.md#bulletstyle-none)<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_CapStyleAttributeId"></span><span id="uia_capstyleattributeid"></span><span id="UIA_CAPSTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_CapStyleAttributeId</strong></dt> <dt>40003</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>CapStyle</strong> text attribute, which specifies the capitalization style for the text. This attribute is specified as a value from the [<strong>CapStyle</strong>](uiauto-capstyleenum.md) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>CapStyle_None</strong>](uiauto-capstyleenum.md#capstyle-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>CapStyle</strong> text attribute, which specifies the capitalization style for the text. This attribute is specified as a value from the [<strong>CapStyle</strong>](/windows/win32/UIAutomationCore/ne-uiautomationcore-capstyle?branch=master) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>CapStyle_None</strong>](uiauto-capstyleenum.md#capstyle-none)<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_CaretBidiModeAttributeId"></span><span id="uia_caretbidimodeattributeid"></span><span id="UIA_CARETBIDIMODEATTRIBUTEID"></span><dl> <dt><strong>UIA_CaretBidiModeAttributeId</strong></dt> <dt>40039</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>CaretBidiMode</strong> text attribute, which indicates the direction of text flow in the text range. This attribute is specified as a value from the [<strong>CaretBidiMode</strong>](https://msdn.microsoft.com/library/windows/desktop/hh448744) enumerated type. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>CaretBidiMode_LTR</strong>](https://msdn.microsoft.com/library/windows/desktop/hh448744#caretbidimode-ltr)<br/></td>
+<td style="text-align: left;">Identifies the <strong>CaretBidiMode</strong> text attribute, which indicates the direction of text flow in the text range. This attribute is specified as a value from the [<strong>CaretBidiMode</strong>](https://msdn.microsoft.com/library/windows/desktop/hh448744) enumerated type. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>CaretBidiMode_LTR</strong>](https://msdn.microsoft.com/library/windows/desktop/hh448744#caretbidimode-ltr)<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_CaretPositionAttributeId"></span><span id="uia_caretpositionattributeid"></span><span id="UIA_CARETPOSITIONATTRIBUTEID"></span><dl> <dt><strong>UIA_CaretPositionAttributeId</strong></dt> <dt>40038</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>CaretPosition</strong> text attribute, which indicates whether the caret is at the beginning or the end of a line of text in the text range. This attribute is specified as a value from the [<strong>CaretPosition</strong>](https://msdn.microsoft.com/library/windows/desktop/hh448745) enumerated type. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>CaretPosition_Unknown</strong>](https://msdn.microsoft.com/library/windows/desktop/hh448745)<br/></td>
+<td style="text-align: left;">Identifies the <strong>CaretPosition</strong> text attribute, which indicates whether the caret is at the beginning or the end of a line of text in the text range. This attribute is specified as a value from the [<strong>CaretPosition</strong>](https://msdn.microsoft.com/library/windows/desktop/hh448745) enumerated type. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>CaretPosition_Unknown</strong>](https://msdn.microsoft.com/library/windows/desktop/hh448745)<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_CultureAttributeId"></span><span id="uia_cultureattributeid"></span><span id="UIA_CULTUREATTRIBUTEID"></span><dl> <dt><strong>UIA_CultureAttributeId</strong></dt> <dt>40004</dt> </dl></td>
@@ -152,7 +157,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_HorizontalTextAlignmentAttributeId"></span><span id="uia_horizontaltextalignmentattributeid"></span><span id="UIA_HORIZONTALTEXTALIGNMENTATTRIBUTEID"></span><dl> <dt><strong>UIA_HorizontalTextAlignmentAttributeId</strong></dt> <dt>40009</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>HorizontalTextAlignment</strong> text attribute, which specifies how the text is aligned horizontally. This attribute is specified as a value from the [<strong>HorizontalTextAlignmentEnum</strong>](uiauto-horizontaltextalignenum.md) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>HorizontalTextAlignment_Left</strong>](uiauto-horizontaltextalignenum.md#horizontaltextalignment-left)<br/></td>
+<td style="text-align: left;">Identifies the <strong>HorizontalTextAlignment</strong> text attribute, which specifies how the text is aligned horizontally. This attribute is specified as a value from the [<strong>HorizontalTextAlignmentEnum</strong>](/windows/win32/UIAutomationCore/?branch=master) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>HorizontalTextAlignment_Left</strong>](uiauto-horizontaltextalignenum.md#horizontaltextalignment-left)<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_IndentationFirstLineAttributeId"></span><span id="uia_indentationfirstlineattributeid"></span><span id="UIA_INDENTATIONFIRSTLINEATTRIBUTEID"></span><dl> <dt><strong>UIA_IndentationFirstLineAttributeId</strong></dt> <dt>40010</dt> </dl></td>
@@ -168,7 +173,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_IsActiveAttributeId"></span><span id="uia_isactiveattributeid"></span><span id="UIA_ISACTIVEATTRIBUTEID"></span><dl> <dt><strong>UIA_IsActiveAttributeId</strong></dt> <dt>40036</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>IsActive</strong> text attribute, which indicates whether the control that contains the text range has the keyboard focus (<strong>TRUE</strong>) or not (<strong>FALSE</strong>). Supported starting with Windows 8.<br/> Variant type: <strong>VT_BOOL</strong><br/> Default value: <strong>FALSE</strong><br/></td>
+<td style="text-align: left;">Identifies the <strong>IsActive</strong> text attribute, which indicates whether the control that contains the text range has the keyboard focus (<strong>TRUE</strong>) or not (<strong>FALSE</strong>). Supported starting with Windows 8.<br/> Variant type: <strong>VT_BOOL</strong><br/> Default value: <strong>FALSE</strong><br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_IsHiddenAttributeId"></span><span id="uia_ishiddenattributeid"></span><span id="UIA_ISHIDDENATTRIBUTEID"></span><dl> <dt><strong>UIA_IsHiddenAttributeId</strong></dt> <dt>40013</dt> </dl></td>
@@ -196,7 +201,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_LinkAttributeId"></span><span id="uia_linkattributeid"></span><span id="UIA_LINKATTRIBUTEID"></span><dl> <dt><strong>UIA_LinkAttributeId</strong></dt> <dt>40035</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>Link</strong> text attribute, which contains the [<strong>IUIAutomationTextRange</strong>](uiauto-iuiautomationtextrange.md) interface of the text range that is the target of an internal link in a document. Supported starting with Windows 8.<br/> Variant type: <strong>VT_UNKNOWN</strong><br/> Default value: <strong>NULL</strong><br/></td>
+<td style="text-align: left;">Identifies the <strong>Link</strong> text attribute, which contains the [<strong>IUIAutomationTextRange</strong>](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange?branch=master) interface of the text range that is the target of an internal link in a document. Supported starting with Windows 8.<br/> Variant type: <strong>VT_UNKNOWN</strong><br/> Default value: <strong>NULL</strong><br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_MarginBottomAttributeId"></span><span id="uia_marginbottomattributeid"></span><span id="UIA_MARGINBOTTOMATTRIBUTEID"></span><dl> <dt><strong>UIA_MarginBottomAttributeId</strong></dt> <dt>40018</dt> </dl></td>
@@ -216,7 +221,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_OutlineStylesAttributeId"></span><span id="uia_outlinestylesattributeid"></span><span id="UIA_OUTLINESTYLESATTRIBUTEID"></span><dl> <dt><strong>UIA_OutlineStylesAttributeId</strong></dt> <dt>40022</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>OutlineStyles</strong> text attribute, which specifies the outline style of the text. This attribute is specified as a value from the [<strong>OutlineStyles</strong>](uiauto-outlinestylesenum.md) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>OutlineStyles_None</strong>](uiauto-outlinestylesenum.md#outlinestyles-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>OutlineStyles</strong> text attribute, which specifies the outline style of the text. This attribute is specified as a value from the [<strong>OutlineStyles</strong>](/windows/win32/UIAutomationCore/ne-uiautomationcore-outlinestyles?branch=master) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>OutlineStyles_None</strong>](uiauto-outlinestylesenum.md#outlinestyles-none)<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_OverlineColorAttributeId"></span><span id="uia_overlinecolorattributeid"></span><span id="UIA_OVERLINECOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_OverlineColorAttributeId</strong></dt> <dt>40023</dt> </dl></td>
@@ -224,11 +229,11 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_OverlineStyleAttributeId"></span><span id="uia_overlinestyleattributeid"></span><span id="UIA_OVERLINESTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_OverlineStyleAttributeId</strong></dt> <dt>40024</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>OverlineStyle</strong> text attribute, which specifies the style of the overline text decoration. This attribute is specified as a value from the [<strong>TextDecorationLineStyleEnum</strong>](uiauto-textdeclinestyle.md) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>TextDecorationLineStyle_None</strong>](uiauto-textdeclinestyle.md#textdecorationlinestyle-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>OverlineStyle</strong> text attribute, which specifies the style of the overline text decoration. This attribute is specified as a value from the [<strong>TextDecorationLineStyleEnum</strong>](/windows/win32/UIAutomationCore/ne-uiautomationcore-textdecorationlinestyle?branch=master) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>TextDecorationLineStyle_None</strong>](uiauto-textdeclinestyle.md#textdecorationlinestyle-none)<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_SelectionActiveEndAttributeId"></span><span id="uia_selectionactiveendattributeid"></span><span id="UIA_SELECTIONACTIVEENDATTRIBUTEID"></span><dl> <dt><strong>UIA_SelectionActiveEndAttributeId</strong></dt> <dt>40037</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>SelectionActiveEnd</strong> text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text. This attribute is specified as a value from the [<strong>ActiveEnd</strong>](https://msdn.microsoft.com/library/windows/desktop/hh448742) enumeration. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>ActiveEnd_None</strong>](https://msdn.microsoft.com/library/windows/desktop/hh448742#activeend-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>SelectionActiveEnd</strong> text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text. This attribute is specified as a value from the [<strong>ActiveEnd</strong>](https://msdn.microsoft.com/library/windows/desktop/hh448742) enumeration. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>ActiveEnd_None</strong>](https://msdn.microsoft.com/library/windows/desktop/hh448742#activeend-none)<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_StrikethroughColorAttributeId"></span><span id="uia_strikethroughcolorattributeid"></span><span id="UIA_STRIKETHROUGHCOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_StrikethroughColorAttributeId</strong></dt> <dt>40025</dt> </dl></td>
@@ -236,15 +241,15 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_StrikethroughStyleAttributeId"></span><span id="uia_strikethroughstyleattributeid"></span><span id="UIA_STRIKETHROUGHSTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_StrikethroughStyleAttributeId</strong></dt> <dt>40026</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>StrikethroughStyle</strong> text attribute, which specifies the style of the strikethrough text decoration. This attribute is specified as a value from the [<strong>TextDecorationLineStyleEnum</strong>](uiauto-textdeclinestyle.md) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>TextDecorationLineStyle_None</strong>](uiauto-textdeclinestyle.md#textdecorationlinestyle-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>StrikethroughStyle</strong> text attribute, which specifies the style of the strikethrough text decoration. This attribute is specified as a value from the [<strong>TextDecorationLineStyleEnum</strong>](/windows/win32/UIAutomationCore/ne-uiautomationcore-textdecorationlinestyle?branch=master) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>TextDecorationLineStyle_None</strong>](uiauto-textdeclinestyle.md#textdecorationlinestyle-none)<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_StyleIdAttributeId"></span><span id="uia_styleidattributeid"></span><span id="UIA_STYLEIDATTRIBUTEID"></span><dl> <dt><strong>UIA_StyleIdAttributeId</strong></dt> <dt>40034</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>StyleId</strong> text attribute, which indicates the text styles in use for a text range. For a list of possible values, see [<strong>Style Identifiers</strong>](uiauto-style-identifiers.md). Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0 <br/></td>
+<td style="text-align: left;">Identifies the <strong>StyleId</strong> text attribute, which indicates the text styles in use for a text range. For a list of possible values, see [<strong>Style Identifiers</strong>](uiauto-style-identifiers.md). Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0 <br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_StyleNameAttributeId"></span><span id="uia_stylenameattributeid"></span><span id="UIA_STYLENAMEATTRIBUTEID"></span><dl> <dt><strong>UIA_StyleNameAttributeId</strong></dt> <dt>40033</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>StyleName</strong> text attribute, which identifies the localized name of the text style in use for a text range. Supported starting with Windows 8.<br/> Variant type: <strong>VT_BSTR</strong><br/> Default value: empty string<br/></td>
+<td style="text-align: left;">Identifies the <strong>StyleName</strong> text attribute, which identifies the localized name of the text style in use for a text range. Supported starting with Windows 8.<br/> Variant type: <strong>VT_BSTR</strong><br/> Default value: empty string<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_TabsAttributeId"></span><span id="uia_tabsattributeid"></span><span id="UIA_TABSATTRIBUTEID"></span><dl> <dt><strong>UIA_TabsAttributeId</strong></dt> <dt>40027</dt> </dl></td>
@@ -252,7 +257,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_TextFlowDirectionsAttributeId"></span><span id="uia_textflowdirectionsattributeid"></span><span id="UIA_TEXTFLOWDIRECTIONSATTRIBUTEID"></span><dl> <dt><strong>UIA_TextFlowDirectionsAttributeId</strong></dt> <dt>40028</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>TextFlowDirections</strong> text attribute, which specifies the direction of text flow. This attribute is specified as a combination of values from the [<strong>FlowDirections</strong>](uiauto-flowdirectionsenum.md) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>FlowDirections_Default</strong>](uiauto-flowdirectionsenum.md#flowdirections-default)<br/></td>
+<td style="text-align: left;">Identifies the <strong>TextFlowDirections</strong> text attribute, which specifies the direction of text flow. This attribute is specified as a combination of values from the [<strong>FlowDirections</strong>](/windows/win32/UIAutomationCore/ne-uiautomationcore-flowdirections?branch=master) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>FlowDirections_Default</strong>](uiauto-flowdirectionsenum.md#flowdirections-default)<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_UnderlineColorAttributeId"></span><span id="uia_underlinecolorattributeid"></span><span id="UIA_UNDERLINECOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_UnderlineColorAttributeId</strong></dt> <dt>40029</dt> </dl></td>
@@ -260,7 +265,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_UnderlineStyleAttributeId"></span><span id="uia_underlinestyleattributeid"></span><span id="UIA_UNDERLINESTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_UnderlineStyleAttributeId</strong></dt> <dt>40030</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>UnderlineStyle</strong> text attribute, which specifies the style of the underline text decoration. This attribute is specified as a value from the [<strong>TextDecorationLineStyleEnum</strong>](uiauto-textdeclinestyle.md) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>TextDecorationLineStyle_None</strong>](uiauto-textdeclinestyle.md#textdecorationlinestyle-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>UnderlineStyle</strong> text attribute, which specifies the style of the underline text decoration. This attribute is specified as a value from the [<strong>TextDecorationLineStyleEnum</strong>](/windows/win32/UIAutomationCore/ne-uiautomationcore-textdecorationlinestyle?branch=master) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>TextDecorationLineStyle_None</strong>](uiauto-textdeclinestyle.md#textdecorationlinestyle-none)<br/></td>
 </tr>
 </tbody>
 </table>
@@ -273,8 +278,8 @@ This topic describes the named constants used to identify text attributes of a M
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps \| UWP apps\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported client<br/> | Windows XP \[desktop apps \| UWP apps\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps \| UWP apps\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>UIAutomationClient.h</dt> </dl> |
 
 
@@ -286,16 +291,16 @@ This topic describes the named constants used to identify text attributes of a M
 **Reference**
 </dt> <dt>
 
-[**ITextRangeProvider::FindAttribute**](uiauto-itextrangeprovider-findattribute.md)
+[**ITextRangeProvider::FindAttribute**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-findattribute?branch=master)
 </dt> <dt>
 
-[**ITextRangeProvider::GetAttributeValue**](uiauto-itextrangeprovider-getattributevalue.md)
+[**ITextRangeProvider::GetAttributeValue**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-getattributevalue?branch=master)
 </dt> <dt>
 
-[**IUIAutomation::FindAttribute**](uiauto-iuiautomationtextrange-findattribute.md)
+[**IUIAutomation::FindAttribute**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-findattribute?branch=master)
 </dt> <dt>
 
-[**IUIAutomation::GetAttributeValue**](uiauto-iuiautomationtextrange-getattributevalue.md)
+[**IUIAutomation::GetAttributeValue**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getattributevalue?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -304,9 +309,9 @@ This topic describes the named constants used to identify text attributes of a M
 [UI Automation Support for Textual Content](uiauto-ui-automation-textpattern-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: ORDER BY Clause
 description: ORDER BY Clause
-ms.assetid: '38ef9876-6af9-448c-bdcf-cfa09965e636'
+ms.assetid: 38ef9876-6af9-448c-bdcf-cfa09965e636
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ORDER BY Clause

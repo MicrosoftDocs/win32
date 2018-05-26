@@ -1,8 +1,11 @@
 ---
 title: Engine TerminateJob method
 description: This method ends an entire job without waiting for any assessment to exit.
-ms.assetid: '5b20897b-c84e-4af2-a810-89da0e7dd72f'
-keywords: ["TerminateJob method Access Execution Engine", "TerminateJob method Access Execution Engine , Engine interface", "Engine interface Access Execution Engine , TerminateJob method"]
+ms.assetid: 5b20897b-c84e-4af2-a810-89da0e7dd72f
+keywords:
+- TerminateJob method Access Execution Engine
+- TerminateJob method Access Execution Engine , Engine interface
+- Engine interface Access Execution Engine , TerminateJob method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Engine::TerminateJob method
@@ -20,7 +28,7 @@ This method ends an entire job without waiting for any assessment to exit.
 > [!Note]  
 > **TerminateJob** ends the current assessment abruptly by calling the [**TerminateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms686714) function, this can leave the system in an unrecoverable state. **TerminateJob** should be used only as a last resort.
 
- 
+ 
 
 ## Syntax
 
@@ -57,8 +65,8 @@ Managed code uses the [**Engine.TerminateJob \| terminateJob**](axe-engine_termi
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -74,9 +82,9 @@ Managed code uses the [**Engine.TerminateJob \| terminateJob**](axe-engine_termi
 [**TerminateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms686714)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

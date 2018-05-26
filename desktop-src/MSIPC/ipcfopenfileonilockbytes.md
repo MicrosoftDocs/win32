@@ -1,14 +1,15 @@
 ---
 title: IpcfOpenFileOnILockBytes function
-description: Gets an IPCF\_FILE\_HANDLE associated with an encrypted byte stream which can be used to access and modify that stream's data.
+description: Gets an IPCF\_FILE\_HANDLE associated with an encrypted byte stream which can be used to access and modify that streams data.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '73e0125e-1d09-4cef-9a6c-ddd074028f48'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 73e0125e-1d09-4cef-9a6c-ddd074028f48
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcfOpenFileOnILockBytes function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcfOpenFileOnILockBytes function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcfOpenFileOnILockBytes function
@@ -28,10 +32,10 @@ Gets an **IPCF\_FILE\_HANDLE** associated with an encrypted byte stream which ca
 
 ```C++
 EXTERN_C HRESULT WINAPI IpcfOpenFileOnILockBytes(
-  _In_     ILockBytes        *pFileStream,
-  _In_opt_ PCIPC_PROMPT_CTX  pContext,
-           DWORD             dwFlags,
-  _Out_    PIPCF_FILE_HANDLE phFile
+  _In_     ILockBytes        *pFileStream,
+  _In_opt_ PCIPC_PROMPT_CTX  pContext,
+           DWORD             dwFlags,
+  _Out_    PIPCF_FILE_HANDLE phFile
 );
 ```
 
@@ -77,7 +81,7 @@ Pointer to an **IPCF\_FILE\_HANDLE** which can be used to read/write the encrypt
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 Possible values include, but are not limited to, those in the following list.
 
@@ -96,17 +100,17 @@ Function failed due to an un-unencrypted files.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcfile.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

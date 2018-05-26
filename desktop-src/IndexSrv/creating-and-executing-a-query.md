@@ -1,7 +1,12 @@
 ---
 title: Creating and Executing a Query
 description: Creating and Executing a Query
-ms.assetid: 'b0206958-21ba-42eb-b631-c196a8a3da86'
+ms.assetid: b0206958-21ba-42eb-b631-c196a8a3da86
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating and Executing a Query
@@ -11,7 +16,7 @@ ms.assetid: 'b0206958-21ba-42eb-b631-c196a8a3da86'
 
  
 
-The following code segments from the **IssueQuery** function of the sample create and execute a query. The function first declares an [**ICommand**](089427ad-5ba3-4613-b89e-8e86420ccc30) interface and uses the [**CIMakeICommand**](cimakeicommand.md) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to get a pointer to an **ICommand** interface for the specified scope, catalog, and machine properties.
+The following code segments from the **IssueQuery** function of the sample create and execute a query. The function first declares an [**ICommand**](089427ad-5ba3-4613-b89e-8e86420ccc30) interface and uses the [**CIMakeICommand**](/windows/win32/Ntquery/nf-ntquery-cimakeicommand?branch=master) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to get a pointer to an **ICommand** interface for the specified scope, catalog, and machine properties.
 
 
 ```C++
@@ -28,7 +33,7 @@ The following code segments from the **IssueQuery** function of the sample creat
 
 
 
-The function next declares an [**ICommand**](089427ad-5ba3-4613-b89e-8e86420ccc30) interface and queries the **ICommand** interface for a pointer to an [**ICommandTree**](icommandtree.md) interface.
+The function next declares an [**ICommand**](089427ad-5ba3-4613-b89e-8e86420ccc30) interface and queries the **ICommand** interface for a pointer to an [**ICommandTree**](/windows/previous-versions/cmdtree/nn-cmdtree-icommandtree?branch=master) interface.
 
 
 ```C++
@@ -41,7 +46,7 @@ The function next declares an [**ICommand**](089427ad-5ba3-4613-b89e-8e86420ccc3
 
 
 
-Then the function declares a **DBCOMMANDTREE** structure for the command tree of the query and uses the [**CITextToFullTreeEx**](citexttofulltreeex.md) function to create the command tree structure using previously set query properties.
+Then the function declares a **DBCOMMANDTREE** structure for the command tree of the query and uses the [**CITextToFullTreeEx**](/windows/win32/Ntquery/nf-ntquery-citexttofulltreeex?branch=master) function to create the command tree structure using previously set query properties.
 
 
 ```C++
@@ -61,7 +66,7 @@ Then the function declares a **DBCOMMANDTREE** structure for the command tree of
 
 
 
-The function next uses the [**SetCommandTree**](icommandtree-setcommandtree.md) method of the [**ICommandTree**](icommandtree.md) interface to set the command tree in the **ICommandTree** interface.
+The function next uses the [**SetCommandTree**](/windows/previous-versions/cmdtree/nf-cmdtree-icommandtree-setcommandtree?branch=master) method of the [**ICommandTree**](/windows/previous-versions/cmdtree/nn-cmdtree-icommandtree?branch=master) interface to set the command tree in the **ICommandTree** interface.
 
 
 ```C++

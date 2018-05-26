@@ -1,7 +1,12 @@
 ---
 title: VML LightHarsh2 Attribute
 description: VML LightHarsh2 Attribute
-ms.assetid: 'c36fee79-a755-46cc-abd0-238c88c700d6'
+ms.assetid: c36fee79-a755-46cc-abd0-238c88c700d6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML LightHarsh2 Attribute

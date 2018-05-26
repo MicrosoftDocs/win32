@@ -1,14 +1,20 @@
 ---
 title: None (BetterDirection) element
 description: Neither higher nor lower values are better.
-ms.assetid: '836C7855-B649-4993-B773-13B4245206C9'
-keywords: ["None (BetterDirection) element Access Execution Engine"]
+ms.assetid: 836C7855-B649-4993-B773-13B4245206C9
+keywords:
+- None (BetterDirection) element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - None (BetterDirection)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # None (BetterDirection) element

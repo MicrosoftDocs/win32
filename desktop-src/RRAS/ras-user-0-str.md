@@ -1,8 +1,10 @@
 ---
 title: RAS\_USER\_0 structure
 description: The RAS\_USER\_0 structure is used in the RasAdminUserSetInfo and RasAdminUserGetInfo functions to specify information about a user.
-ms.assetid: 'a2d4a935-f46d-4bc2-ada8-beaa3ac74834'
-keywords: ["RAS_USER_0 structure RAS", "PRAS_USER_0 structure pointer RAS"]
+ms.assetid: a2d4a935-f46d-4bc2-ada8-beaa3ac74834
+keywords:
+- RAS_USER_0 structure RAS
+- PRAS_USER_0 structure pointer RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS\_USER\_0 structure
 
-\[This version of the **RAS\_USER\_0** structure is not supported as of Windows Vista. Use the newer [**RAS\_USER\_0**](ras-user-0.md) defined in mprapi.h instead.\]
+\[This version of the **RAS\_USER\_0** structure is not supported as of Windows Vista. Use the newer [**RAS\_USER\_0**](/windows/win32/Mprapi/ns-mprapi-_ras_user_0?branch=master) defined in mprapi.h instead.\]
 
 The **RAS\_USER\_0** structure is used in the [**RasAdminUserSetInfo**](rasadminusersetinfo.md) and [**RasAdminUserGetInfo**](rasadminusergetinfo.md) functions to specify information about a user.
 
@@ -24,7 +31,7 @@ The **RAS\_USER\_0** structure is used in the [**RasAdminUserSetInfo**](rasadmin
 
 ```C++
 typedef struct _RAS_USER_0 {
-  BYTE  bfPrivilege;
+  BYTE  bfPrivilege;
   WCHAR szPhoneNumber[RASSAPI_MAX_PHONENUMBER_SIZE + 1];
 } RAS_USER_0, *PRAS_USER_0;
 ```
@@ -51,7 +58,7 @@ A set of bit flags that specify the RAS privileges of the user. This member can 
 
 
 
- 
+ 
 
 Specify one of the call-back flags in the call to the [**RasAdminUserSetInfo**](rasadminusersetinfo.md) function.
 
@@ -70,10 +77,10 @@ A null-terminated Unicode string that specifies the call-back phone number for t
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Rassapi.h</dt> </dl> |
 
 
@@ -94,9 +101,9 @@ A null-terminated Unicode string that specifies the call-back phone number for t
 [**RasAdminUserSetInfo**](rasadminusersetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

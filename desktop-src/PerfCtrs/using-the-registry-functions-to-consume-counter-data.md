@@ -1,7 +1,12 @@
 ---
-Description: 'You can use the registry functions to collect performance data.'
-ms.assetid: 'feac7b8d-1dee-462c-89dc-bec1ba045da2'
+Description: You can use the registry functions to collect performance data.
+ms.assetid: feac7b8d-1dee-462c-89dc-bec1ba045da2
 title: Using the Registry Functions to Consume Counter Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Registry Functions to Consume Counter Data
@@ -11,7 +16,7 @@ You can use the [registry functions](https://msdn.microsoft.com/library/windows/
 > [!Note]  
 > You should not use the registry functions to consume counter data. Instead, you should use the Performance Data Helper (PDH) functions to consume counter data. The PDH functions are easier to use, oriented more towards operations on single counters rather than groups of counters, and can be used to access counter data from current activity or log files.
 
- 
+ 
 
 To obtain performance data from the local system, call the [**RegQueryValueEx**](https://msdn.microsoft.com/library/windows/desktop/ms724911) function. Use **HKEY\_PERFORMANCE\_DATA** as the key. The first call opens the key; you do not need to explicitly open the key first.
 
@@ -31,7 +36,7 @@ You use the *lpszValueName* parameter of the [**RegQueryValueEx**](https://msdn.
 
 
 
- 
+ 
 
 For an example that gets the names and descriptions of the registered counters on the computer, see [Retrieving Counter Names and Help Text](retrieving-counter-names-and-explanations.md).
 
@@ -41,9 +46,9 @@ For an example that retrieves, computes, and prints counter values, see [Retriev
 
 For details on the format of the counter data that the registry returns, see [Performance Data Format](performance-data-format.md).
 
- 
+ 
 
- 
+ 
 
 
 

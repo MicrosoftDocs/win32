@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxRecipient messaging object is used by a fax client application to retrieve and set the personal information for fax recipients.'
-ms.assetid: 'e418dbaf-9b07-40a9-bab8-7b4561b63325'
+---
+Description: The FaxRecipient messaging object is used by a fax client application to retrieve and set the personal information for fax recipients.
+ms.assetid: e418dbaf-9b07-40a9-bab8-7b4561b63325
 title: FaxRecipient object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRecipient object

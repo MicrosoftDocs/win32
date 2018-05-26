@@ -1,13 +1,16 @@
 ---
-Description: 'The Derivation\_ property of the SWbemObject object contains an array of strings that describe the class derivation hierarchy for the instance being referenced.'
+Description: The Derivation\_ property of the SWbemObject object contains an array of strings that describe the class derivation hierarchy for the instance being referenced.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8a4daab0-7d10-4a37-aacd-1f3f499b859a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8a4daab0-7d10-4a37-aacd-1f3f499b859a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.Derivation\_ property'
+title: SWbemObject.Derivation\_ property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.Derivation\_ property
@@ -90,8 +93,8 @@ else
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -100,9 +103,9 @@ else
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Understand the Direct3D 11 rendering pipeline
 description: Previously, you looked at how to create a window you can use for drawing in Work with DirectX device resources. Now, you learn how to build the graphics pipeline, and where you can hook into it.
-ms.assetid: '73cf62d0-7e4f-4e93-aa65-12741588d4fb'
+ms.assetid: 73cf62d0-7e4f-4e93-aa65-12741588d4fb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understand the Direct3D 11 rendering pipeline

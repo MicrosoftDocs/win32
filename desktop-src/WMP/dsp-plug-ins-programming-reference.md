@@ -1,8 +1,21 @@
 ---
 title: DSP Plug-ins Programming Reference
 description: DSP Plug-ins Programming Reference
-ms.assetid: 'd3236352-c582-473e-a1d6-52e41a11496f'
-keywords: ["Windows Media Player,plug-ins", "Windows Media Player,DSP plug-ins", "Windows Media Player plug-ins,digital signal processing (DSP)", "plug-ins,digital signal processing (DSP)", "digital signal processing plug-ins,programming reference", "DSP plug-ins,programming reference", "reference for plug-ins", "reference for DSP plug-ins"]
+ms.assetid: d3236352-c582-473e-a1d6-52e41a11496f
+keywords:
+- Windows Media Player,plug-ins
+- Windows Media Player,DSP plug-ins
+- Windows Media Player plug-ins,digital signal processing (DSP)
+- plug-ins,digital signal processing (DSP)
+- digital signal processing plug-ins,programming reference
+- DSP plug-ins,programming reference
+- reference for plug-ins
+- reference for DSP plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DSP Plug-ins Programming Reference

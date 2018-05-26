@@ -4,17 +4,21 @@ description: Represents a user policy.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cbf457cb-e73a-4d37-a29a-6e1dc53c95a1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: cbf457cb-e73a-4d37-a29a-6e1dc53c95a1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy class"]
+keywords:
+- MSUserPolicy class
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy class
@@ -52,7 +56,7 @@ Represents a user policy.
 
 
 
- 
+ 
 
 ## Methods
 
@@ -104,7 +108,7 @@ Document tracking is only supported for RMSO scenarios.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -120,7 +124,7 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -130,9 +134,9 @@ An **MSUserPolicy** object defines the policy that is associated with the protec
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IImnAccountManager Enumerate method
 description: Creates an IImnEnumAccounts object that allows a client to enumerate accounts that support specific servers.
-ms.assetid: 'f212a7ae-eddf-4bd6-9e7f-7c32fa075860'
-keywords: ["Enumerate method Windows Mail (formerly Outlook Express)", "Enumerate method Windows Mail (formerly Outlook Express) , IImnAccountManager interface", "IImnAccountManager interface Windows Mail (formerly Outlook Express) , Enumerate method"]
+ms.assetid: f212a7ae-eddf-4bd6-9e7f-7c32fa075860
+keywords:
+- Enumerate method Windows Mail (formerly Outlook Express)
+- Enumerate method Windows Mail (formerly Outlook Express) , IImnAccountManager interface
+- IImnAccountManager interface Windows Mail (formerly Outlook Express) , Enumerate method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccountManager::Enumerate method
@@ -24,8 +32,8 @@ Creates an [**IImnEnumAccounts**](oe-iimnenumaccounts.md) object that allows a c
 
 ```C++
 HRESULT Enumerate(
-  [in]  DWORD            dwSrvTypes,
-  [out] IImnEnumAccounts **ppEnumAccounts
+  [in]  DWORD            dwSrvTypes,
+  [out] IImnEnumAccounts **ppEnumAccounts
 );
 ```
 
@@ -55,7 +63,7 @@ Specifies the server types to enumerate.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -85,7 +93,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -97,8 +105,8 @@ If a client needs to enumerate all accounts, pass in SRV\_ALL for dwSrvTypes. Th
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -106,9 +114,9 @@ If a client needs to enumerate all accounts, pass in SRV\_ALL for dwSrvTypes. Th
 
 
 
- 
+ 
 
- 
+ 
 
 
 

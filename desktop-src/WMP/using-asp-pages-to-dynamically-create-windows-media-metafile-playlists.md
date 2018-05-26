@@ -1,8 +1,25 @@
 ---
 title: Using ASP Pages to Dynamically Create Windows Media Metafile Playlists
 description: Using ASP Pages to Dynamically Create Windows Media Metafile Playlists
-ms.assetid: '9abf04a4-33b9-4502-aaf3-e40de06c7b41'
-keywords: ["Windows Media metafile playlists,creating", "metafile playlists,creating", "playlists,creating", "Windows Media metafile playlists,dynamically creating", "metafile playlists,dynamically creating", "playlists,dynamically creating", "Windows Media metafile playlists,ASP pages", "metafile playlists,ASP pages", "playlists,ASP pages", "creating Windows Media metafile playlists", "dynamically creating Windows Media metafile playlists", "ASP pages"]
+ms.assetid: 9abf04a4-33b9-4502-aaf3-e40de06c7b41
+keywords:
+- Windows Media metafile playlists,creating
+- metafile playlists,creating
+- playlists,creating
+- Windows Media metafile playlists,dynamically creating
+- metafile playlists,dynamically creating
+- playlists,dynamically creating
+- Windows Media metafile playlists,ASP pages
+- metafile playlists,ASP pages
+- playlists,ASP pages
+- creating Windows Media metafile playlists
+- dynamically creating Windows Media metafile playlists
+- ASP pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using ASP Pages to Dynamically Create Windows Media Metafile Playlists

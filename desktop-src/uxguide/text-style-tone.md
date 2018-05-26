@@ -1,7 +1,12 @@
 ---
 title: Style and Tone
 description: Tone in writing is the attitude that the writer conveys to the reader.
-ms.assetid: 'b9a03709-301f-46de-b4b4-0dd1214c0ed7'
+ms.assetid: b9a03709-301f-46de-b4b4-0dd1214c0ed7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Style and Tone

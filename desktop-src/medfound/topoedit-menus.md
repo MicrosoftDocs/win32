@@ -1,7 +1,12 @@
 ---
 Description: TopoEdit Menus
-ms.assetid: 'c3d1da29-7279-4cd4-a518-56c76ececc28'
+ms.assetid: c3d1da29-7279-4cd4-a518-56c76ececc28
 title: TopoEdit Menus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TopoEdit Menus

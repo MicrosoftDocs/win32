@@ -1,12 +1,17 @@
 ---
-Description: 'The fax service is a secure service.'
-ms.assetid: '227d7c41-a37c-4c2c-a6be-eaced047ccbf'
+Description: The fax service is a secure service.
+ms.assetid: 227d7c41-a37c-4c2c-a6be-eaced047ccbf
 title: Fax Client User Access Rights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Client User Access Rights
 
-The fax service is a secure service. In the Microsoft Win32 environment, users must have access rights to successfully call certain fax client functions. The service performs an access check each time a client application calls a fax client function. To check a user's access rights, an application can call the [**FaxAccessCheck**](-mfax-faxaccesscheck.md) function.
+The fax service is a secure service. In the Microsoft Win32 environment, users must have access rights to successfully call certain fax client functions. The service performs an access check each time a client application calls a fax client function. To check a user's access rights, an application can call the [**FaxAccessCheck**](/windows/previous-versions/Winfax/nc-winfax-pfaxaccesscheck?branch=master) function.
 
 If you are using the Microsoft Component Object Model (COM) implementation, your fax client application cannot access this functionality at this time. If a client does not have the access privileges required to perform a specific task, the method or function fails and returns the value HRESULT\_FROM\_WIN32(ERROR\_ACCESS\_DENIED).
 

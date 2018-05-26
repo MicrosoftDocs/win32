@@ -1,7 +1,12 @@
 ---
-Description: 'Provides access to layout analysis, writing and drawing classification, and handwriting recognition.'
-ms.assetid: '3a19db78-df14-43c2-9e3e-8cf674aa7b9c'
+Description: Provides access to layout analysis, writing and drawing classification, and handwriting recognition.
+ms.assetid: 3a19db78-df14-43c2-9e3e-8cf674aa7b9c
 title: IInkAnalyzer interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer interface
@@ -82,11 +87,11 @@ The **IInkAnalyzer** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
-**IInkAnalyzer** uses stroke packet data to analyze ink and does not interact with [**InkDisp Class**](inkdisp-class.md) or [InkStrokes Collection](inkstrokes-collection.md) objects directly.
+**IInkAnalyzer** uses stroke packet data to analyze ink and does not interact with [**InkDisp Class**](/windows/win32/msinkaut/?branch=master) or [InkStrokes Collection](/windows/win32/msinkaut/?branch=master) objects directly.
 
 To add or remove strokes to the **IInkAnalyzer** for analysis, use one of the following methods.
 
@@ -150,7 +155,7 @@ For more information about using the **IInkAnalyzer** to analyze ink, see [Ink A
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -179,9 +184,9 @@ For more information about using the **IInkAnalyzer** to analyze ink, see [Ink A
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

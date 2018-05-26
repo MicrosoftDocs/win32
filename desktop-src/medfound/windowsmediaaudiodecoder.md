@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Windows Media Audio decoder decodes audio streams that were encoded by the Windows Media Audio Encoder.'
-ms.assetid: '2d8e4a97-34a7-4eee-9567-7ae98fa282b9'
+---
+Description: The Windows Media Audio decoder decodes audio streams that were encoded by the Windows Media Audio Encoder.
+ms.assetid: 2d8e4a97-34a7-4eee-9567-7ae98fa282b9
 title: Windows Media Audio Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Audio Decoder

@@ -1,7 +1,12 @@
 ---
 title: Windows Event Log Tools
 description: Windows Event Log provides the following tools that you use to build your provider.
-ms.assetid: '20087fdf-3e9f-4090-8103-5864f1c9753c'
+ms.assetid: 20087fdf-3e9f-4090-8103-5864f1c9753c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Event Log Tools
@@ -18,11 +23,11 @@ Windows Event Log provides the following tools that you use to build your provid
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

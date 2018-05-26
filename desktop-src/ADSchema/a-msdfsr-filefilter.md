@@ -4,17 +4,22 @@ description: Contains the filter string that is used to filter files.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e9c57328-e7c0-4149-aa1d-64603844e001'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e9c57328-e7c0-4149-aa1d-64603844e001
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-FileFilter attribute AD Schema", "msDFSR-FileFilter attribute AD Schema"]
+keywords:
+- ms-DFSR-FileFilter attribute AD Schema
+- msDFSR-FileFilter attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-FileFilter
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-FileFilter attribute
@@ -38,10 +43,10 @@ Contains the filter string that is used to filter files.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the filter string that is used to filter files.
 
 The **ms-DFSR-FileFilter** attribute is a part of the Distributed File System (DFS) Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

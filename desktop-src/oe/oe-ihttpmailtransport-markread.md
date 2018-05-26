@@ -1,8 +1,11 @@
 ---
 title: IHTTPMailTransport MarkRead method
 description: Sets the read property on the specified resource.
-ms.assetid: '7ff56636-d847-433c-a53d-d536c591df11'
-keywords: ["MarkRead method Windows Mail (formerly Outlook Express)", "MarkRead method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface", "IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , MarkRead method"]
+ms.assetid: 7ff56636-d847-433c-a53d-d536c591df11
+keywords:
+- MarkRead method Windows Mail (formerly Outlook Express)
+- MarkRead method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface
+- IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , MarkRead method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHTTPMailTransport::MarkRead method
@@ -24,10 +32,10 @@ Sets the read property on the specified resource.
 
 ```C++
 HRESULT MarkRead(
-  [in] LPCSTR           pszPath,
-  [in] LPHTTPTARGETLIST pTargets,
-  [in] BOOL             fMarkRead,
-  [in] DWORD            dwContext
+  [in] LPCSTR           pszPath,
+  [in] LPHTTPTARGETLIST pTargets,
+  [in] BOOL             fMarkRead,
+  [in] DWORD            dwContext
 );
 ```
 
@@ -89,7 +97,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -97,8 +105,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -106,9 +114,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

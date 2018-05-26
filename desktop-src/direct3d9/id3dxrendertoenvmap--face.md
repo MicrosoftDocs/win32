@@ -1,7 +1,12 @@
-﻿---
-Description: 'Initiate the drawing of each face of an environment map.'
-ms.assetid: 'c100e138-c5a8-49bb-9a91-e7f70410470f'
-title: 'ID3DXRenderToEnvMap::Face method'
+---
+Description: Initiate the drawing of each face of an environment map.
+ms.assetid: c100e138-c5a8-49bb-9a91-e7f70410470f
+title: ID3DXRenderToEnvMapFace method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXRenderToEnvMap::Face method

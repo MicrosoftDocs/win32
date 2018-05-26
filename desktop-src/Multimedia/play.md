@@ -1,21 +1,27 @@
 ---
 title: play command
 description: The play command starts playing a device. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
-ms.assetid: '3feb6964-b897-4d5b-8861-7fca829e25e4'
-keywords: ["play command Windows Multimedia"]
+ms.assetid: 3feb6964-b897-4d5b-8861-7fca829e25e4
+keywords:
+- play command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - play
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # play command
 
 The play command starts playing a device. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -56,7 +62,7 @@ Flag for playing a device. The following table lists device types that recognize
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszPlayFlags** parameter and their meanings.
 
@@ -78,7 +84,7 @@ The following table lists the flags that can be specified in the **lpszPlayFlags
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -111,8 +117,8 @@ play mysound from 1000 to 2000 notify
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -132,9 +138,9 @@ play mysound from 1000 to 2000 notify
 [set](set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

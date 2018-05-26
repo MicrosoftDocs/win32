@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a feature from the PrintCapabilities based on a given key name.'
-ms.assetid: '053BFE59-FDC6-42F3-BE14-CE63D5637D62'
-title: 'IPrintSchemaCapabilities::GetFeatureByKeyName method'
+---
+Description: Gets a feature from the PrintCapabilities based on a given key name.
+ms.assetid: 053BFE59-FDC6-42F3-BE14-CE63D5637D62
+title: IPrintSchemaCapabilitiesGetFeatureByKeyName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaCapabilities::GetFeatureByKeyName method

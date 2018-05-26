@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a font object indirectly for both a device and a font.'
-ms.assetid: '480f3012-8495-47ca-a649-11ce53cee06c'
+---
+Description: Creates a font object indirectly for both a device and a font.
+ms.assetid: 480f3012-8495-47ca-a649-11ce53cee06c
 title: D3DXCreateFontIndirect function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateFontIndirect function
@@ -28,9 +33,9 @@ HRESULT D3DXCreateFontIndirect(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, the device to be associated with the font object.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, the device to be associated with the font object.
 
 </dd> <dt>
 

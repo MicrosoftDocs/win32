@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxNumber property is a null-terminated string that contains the fax number associated with the recipient.'
-ms.assetid: 'e1e84f89-00d5-4d4a-9c91-4462c117f0c5'
-title: 'FaxRecipient.FaxNumber property'
+---
+Description: The FaxNumber property is a null-terminated string that contains the fax number associated with the recipient.
+ms.assetid: e1e84f89-00d5-4d4a-9c91-4462c117f0c5
+title: FaxRecipient.FaxNumber property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRecipient.FaxNumber property
@@ -47,7 +52,7 @@ If this string contains a canonical fax number (defined in the [Address](http://
 [**FaxRecipient**](-mfax-faxrecipient.md)
 </dt> <dt>
 
-[**IFaxRecipient**](-mfax-faxrecipient-cpp.md)
+[**IFaxRecipient**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxrecipient?branch=master)
 </dt> <dt>
 
 [Broadcasting a Fax](-mfax-broadcasting-a-fax.md)

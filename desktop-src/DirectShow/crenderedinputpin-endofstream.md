@@ -1,12 +1,17 @@
 ---
-Description: 'The EndOfStream method notifies the pin that no additional data is expected, until a new run command is issued to the filter. This method implements the IPin::EndOfStream method.'
-ms.assetid: '915beab4-2fc3-4acd-bb30-c0851df058db'
-title: 'CRenderedInputPin.EndOfStream method'
+Description: The EndOfStream method notifies the pin that no additional data is expected, until a new run command is issued to the filter. This method implements the IPinEndOfStream method.
+ms.assetid: 915beab4-2fc3-4acd-bb30-c0851df058db
+title: CRenderedInputPin.EndOfStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRenderedInputPin.EndOfStream method
 
-The `EndOfStream` method notifies the pin that no additional data is expected, until a new run command is issued to the filter. This method implements the [**IPin::EndOfStream**](ipin-endofstream.md) method.
+The `EndOfStream` method notifies the pin that no additional data is expected, until a new run command is issued to the filter. This method implements the [**IPin::EndOfStream**](/windows/win32/Strmif/nf-strmif-ipin-endofstream?branch=master) method.
 
 ## Syntax
 
@@ -72,9 +77,9 @@ Also, if the filter processes **Receive** calls asynchronously, the pin should w
 [**CRenderedInputPin Class**](crenderedinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

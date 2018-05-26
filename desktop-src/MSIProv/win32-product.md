@@ -1,8 +1,10 @@
 ---
 title: Win32\_Product class
 description: Epresents products as they are installed by Windows Installer. A product generally correlates to one installation package.
-ms.assetid: 'b2c60a2b-6aaf-43e3-9cb8-9cb49027a8bb'
-keywords: ["Win32_Product class", "Win32_Product class, described"]
+ms.assetid: b2c60a2b-6aaf-43e3-9cb8-9cb49027a8bb
+keywords:
+- Win32_Product class
+- Win32_Product class, described
 topic_type:
 - apiref
 api_name:
@@ -38,6 +40,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_Product class
@@ -47,7 +54,7 @@ The **Win32\_Product** [WMI class](https://msdn.microsoft.com/library/aa393244) 
 > [!Note]  
 > For more information about support or requirements for installation of a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -57,33 +64,33 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_Product : CIM_Product
 {
-  uint16   AssignmentType;
-  string   Caption;
-  string   Description;
-  string   IdentifyingNumber;
-  string   InstallDate;
+  uint16   AssignmentType;
+  string   Caption;
+  string   Description;
+  string   IdentifyingNumber;
+  string   InstallDate;
   datetime InstallDate2;
-  string   InstallLocation;
-  sint16   InstallState;
-  string   HelpLink;
-  string   HelpTelephone;
-  string   InstallSource;
-  string   Language;
-  string   LocalPackage;
-  string   Name;
-  string   PackageCache;
-  string   PackageCode;
-  string   PackageName;
-  string   ProductID;
-  string   RegOwner;
-  string   RegCompany;
-  string   SKUNumber;
-  string   Transforms;
-  string   URLInfoAbout;
-  string   URLUpdateInfo;
-  string   Vendor;
-  uint32   WordCount;
-  string   Version;
+  string   InstallLocation;
+  sint16   InstallState;
+  string   HelpLink;
+  string   HelpTelephone;
+  string   InstallSource;
+  string   Language;
+  string   LocalPackage;
+  string   Name;
+  string   PackageCache;
+  string   PackageCode;
+  string   PackageName;
+  string   ProductID;
+  string   RegOwner;
+  string   RegCompany;
+  string   SKUNumber;
+  string   Transforms;
+  string   URLInfoAbout;
+  string   URLUpdateInfo;
+  string   Vendor;
+  uint32   WordCount;
+  string   Version;
 };
 ```
 
@@ -112,7 +119,7 @@ The **Win32\_Product** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -131,7 +138,7 @@ Access type: Read-only
 
 Assignment type of the product.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 Possible values are
 
@@ -144,7 +151,7 @@ Possible values are
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -157,7 +164,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Short textual description for the product—a one-line string.
+Short textual description for the product a one-line string.
 
 </dd> <dt>
 
@@ -185,7 +192,7 @@ Access type: Read-only
 
 The support link for the product.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -200,7 +207,7 @@ Access type: Read-only
 
 The support telephone for the product.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -267,7 +274,7 @@ Access type: Read-only
 
 The installation source directory of the product.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -295,7 +302,7 @@ Installed state of the product.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -310,7 +317,7 @@ Access type: Read-only
 
 The language of the product.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -325,7 +332,7 @@ Access type: Read-only
 
 The location of the locally cached package for this product.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -369,7 +376,7 @@ Access type: Read-only
 
 The identifier for the package from which this product was installed.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -384,7 +391,7 @@ Access type: Read-only
 
 The original package name for the product.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -399,7 +406,7 @@ Access type: Read-only
 
 The product ID.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -414,7 +421,7 @@ Access type: Read-only
 
 The company registered to use the product.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -429,7 +436,7 @@ Access type: Read-only
 
 The owner registered to use the product.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -457,7 +464,7 @@ Access type: Read-only
 
 The transforms of the product.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -472,7 +479,7 @@ Access type: Read-only
 
 The URL information for the product.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -487,7 +494,7 @@ Access type: Read-only
 
 The URL update information the product.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> <dt>
 
@@ -528,7 +535,7 @@ Access type: Read-only
 
 Number of words in the summary information for the product.
 
-**Windows Server 2003:** This property is not available.
+**Windows Server 2003:** This property is not available.
 
 </dd> </dl>
 
@@ -548,9 +555,9 @@ These activities cannot be carried out using Group Policy because the Software I
 The **Win32\_Product** class enables you to enumerate the software installed on a computer, provided the software was installed by using the Windows Installer.
 
 > \[!Warning\]  
-> **Win32\_Product** is not query optimized. Queries such as "select \* from Win32\_Product where (name like 'Sniffer%')" require WMI to use the MSI provider to enumerate all of the installed products and then parse the full list sequentially to handle the “where” clause. This process also initiates a consistency check of packages installed, verifying and repairing the install. With an account with only user privileges, as the user account may not have access to quite a few locations, may cause delay in application launch and an event 11708 stating an installation failure. For more information, see [KB Article 794524](http://support.microsoft.com/kb/974524).
+> **Win32\_Product** is not query optimized. Queries such as "select \* from Win32\_Product where (name like 'Sniffer%')" require WMI to use the MSI provider to enumerate all of the installed products and then parse the full list sequentially to handle the  where  clause. This process also initiates a consistency check of packages installed, verifying and repairing the install. With an account with only user privileges, as the user account may not have access to quite a few locations, may cause delay in application launch and an event 11708 stating an installation failure. For more information, see [KB Article 794524](http://support.microsoft.com/kb/974524).
 
- 
+ 
 
 ## Examples
 
@@ -599,8 +606,8 @@ End If
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -620,9 +627,9 @@ End If
 [**Win32\_SoftwareFeature**](win32-softwarefeature.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

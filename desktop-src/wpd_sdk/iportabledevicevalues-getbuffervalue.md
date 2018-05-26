@@ -1,7 +1,12 @@
 ---
-Description: 'The GetBufferValue method retrieves a byte array value (type VT\_VECTOR \| VT\_UI1) specified by a key.'
-ms.assetid: '18180a47-7d81-440b-b596-2516089a02bd'
-title: 'IPortableDeviceValues::GetBufferValue method'
+Description: The GetBufferValue method retrieves a byte array value (type VT\_VECTOR \| VT\_UI1) specified by a key.
+ms.assetid: 18180a47-7d81-440b-b596-2516089a02bd
+title: IPortableDeviceValuesGetBufferValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetBufferValue method
@@ -13,9 +18,9 @@ The **GetBufferValue** method retrieves a **byte array** value (type VT\_VECTOR 
 
 ```C++
 HRESULT GetBufferValue(
-  [in]  REFPROPERTYKEY key,
-  [out] BYTE           **ppValue,
-  [out] DWORD          *pcbValue
+  [in]  REFPROPERTYKEY key,
+  [out] BYTE           **ppValue,
+  [out] DWORD          *pcbValue
 );
 ```
 
@@ -60,7 +65,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -87,9 +92,9 @@ Retrieving a **NULL** buffer or a zero-sized buffer is not supported.
 [**IPortableDeviceValues::SetBufferValue**](iportabledevicevalues-setbuffervalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

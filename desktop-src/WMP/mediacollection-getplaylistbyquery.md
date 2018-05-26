@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.getPlaylistByQuery method
 description: The getPlaylistByQuery method retrieves a Playlist object containing Media objects that match the query conditions.
-ms.assetid: '3487d442-a5bb-4519-ac45-d0138516305e'
-keywords: ["getPlaylistByQuery method Windows Media Player", "getPlaylistByQuery method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , getPlaylistByQuery method"]
+ms.assetid: 3487d442-a5bb-4519-ac45-d0138516305e
+keywords:
+- getPlaylistByQuery method Windows Media Player
+- getPlaylistByQuery method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , getPlaylistByQuery method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.getPlaylistByQuery method
@@ -97,9 +105,9 @@ When the compound query specified by the *query* parameter contains a condition 
 [**Query Object**](query-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

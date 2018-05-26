@@ -1,7 +1,12 @@
 ---
 title: Registry Entries
 description: Registry Entries
-ms.assetid: '8453a660-c93a-4986-8c1b-0b359925ff47'
+ms.assetid: 8453a660-c93a-4986-8c1b-0b359925ff47
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Entries

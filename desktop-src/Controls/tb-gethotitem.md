@@ -1,8 +1,9 @@
 ---
 title: TB\_GETHOTITEM message
 description: Retrieves the index of the hot item in a toolbar.
-ms.assetid: 'a87dbfc3-c6be-4a0a-9b6a-301b900d7929'
-keywords: ["TB_GETHOTITEM message Windows Controls"]
+ms.assetid: a87dbfc3-c6be-4a0a-9b6a-301b900d7929
+keywords:
+- TB_GETHOTITEM message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETHOTITEM message
@@ -37,15 +43,15 @@ Returns the index of the hot item, or -1 if no hot item is set. Toolbar controls
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

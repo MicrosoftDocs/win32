@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieve the Direct3D device associated with the font object.'
-ms.assetid: 'aad2406e-9461-4a84-9875-74b53d68ef40'
-title: 'ID3DX10Font::GetDevice method'
+---
+Description: Retrieve the Direct3D device associated with the font object.
+ms.assetid: aad2406e-9461-4a84-9875-74b53d68ef40
+title: ID3DX10FontGetDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Font::GetDevice method
@@ -26,7 +31,7 @@ HRESULT GetDevice(
 *ppDevice* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](id3d10device.md)\*\***
+Type: **[**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)\*\***
 
 Address of a pointer to an ID3D10Device interface, representing the Direct3D device object associated with the font object.
 

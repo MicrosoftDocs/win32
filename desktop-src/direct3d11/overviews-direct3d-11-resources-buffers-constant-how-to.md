@@ -1,8 +1,14 @@
 ---
 title: How to Create a Constant Buffer
 description: This topic shows how to initialize a constant buffer in preparation for rendering.
-ms.assetid: '78694ac2-e850-402d-8c99-6afb0bd5d660'
-keywords: ["constant buffer, creating"]
+ms.assetid: 78694ac2-e850-402d-8c99-6afb0bd5d660
+keywords:
+- constant buffer, creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Create a Constant Buffer
@@ -13,19 +19,19 @@ keywords: ["constant buffer, creating"]
 
 1.  Define a structure that describes the vertex shader constant data.
 2.  Allocate memory for the structure that you defined in step one. Fill this buffer with vertex shader constant data. You can use **malloc** or **new** to allocate the memory, or you can allocate memory for the structure from the stack.
-3.  Create a buffer description by filling in a [**D3D11\_BUFFER\_DESC**](d3d11-buffer-desc.md) structure. Pass the D3D11\_BIND\_CONSTANT\_BUFFER flag to the **BindFlags** member and pass the size of the constant buffer description structure in bytes to the **ByteWidth** member.
+3.  Create a buffer description by filling in a [**D3D11\_BUFFER\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_buffer_desc?branch=master) structure. Pass the D3D11\_BIND\_CONSTANT\_BUFFER flag to the **BindFlags** member and pass the size of the constant buffer description structure in bytes to the **ByteWidth** member.
 
     > [!Note]  
     > The D3D11\_BIND\_CONSTANT\_BUFFER flag cannot be combined with any other flags.
 
      
 
-4.  Create a subresource data description by filling in a [**D3D11\_SUBRESOURCE\_DATA**](d3d11-subresource-data.md) structure. The **pSysMem** member of the **D3D11\_SUBRESOURCE\_DATA** structure must point directly to the vertex shader constant data that you created in step two.
-5.  Call [**ID3D11Device::CreateBuffer**](id3d11device-createbuffer.md) while passing the [**D3D11\_BUFFER\_DESC**](d3d11-buffer-desc.md) structure, the [**D3D11\_SUBRESOURCE\_DATA**](d3d11-subresource-data.md) structure, and the address of a pointer to the [**ID3D11Buffer**](id3d11buffer.md) interface to initialize.
+4.  Create a subresource data description by filling in a [**D3D11\_SUBRESOURCE\_DATA**](/windows/win32/D3D11/ns-d3d11-d3d11_subresource_data?branch=master) structure. The **pSysMem** member of the **D3D11\_SUBRESOURCE\_DATA** structure must point directly to the vertex shader constant data that you created in step two.
+5.  Call [**ID3D11Device::CreateBuffer**](/windows/win32/D3D11/nf-d3d11-id3d11device-createbuffer?branch=master) while passing the [**D3D11\_BUFFER\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_buffer_desc?branch=master) structure, the [**D3D11\_SUBRESOURCE\_DATA**](/windows/win32/D3D11/ns-d3d11-d3d11_subresource_data?branch=master) structure, and the address of a pointer to the [**ID3D11Buffer**](/windows/win32/D3D11/nn-d3d11-id3d11buffer?branch=master) interface to initialize.
 
 These code examples demonstrate how to create a constant buffer.
 
-This example assumes that **g\_pd3dDevice** is a valid [**ID3D11Device**](id3d11device.md) object and that **g\_pd3dContext** is a valid [**ID3D11DeviceContext**](id3d11devicecontext.md) object.
+This example assumes that **g\_pd3dDevice** is a valid [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) object and that **g\_pd3dContext** is a valid [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) object.
 
 
 ```C++

@@ -1,14 +1,19 @@
 ---
 title: How to Prepare ComboBoxEx Items and Images
 description: This topic demonstrates how to add items to a ComboBoxEx control.
-ms.assetid: '2603DFBE-9E7A-4B2F-BE33-418997D323B2'
+ms.assetid: 2603DFBE-9E7A-4B2F-BE33-418997D323B2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Prepare ComboBoxEx Items and Images
 
 This topic demonstrates how to add items to a ComboBoxEx control.
 
-To add an item to a ComboBoxEx control, first define a [**COMBOBOXEXITEM**](comboboxexitem.md) structure. Then, set the **mask** member of the structure to indicate which members you want the control to use. Finally, set the specified members of the structure to the desired values and send the [**CBEM\_INSERTITEM**](cbem-insertitem.md) message to add the item to the control.
+To add an item to a ComboBoxEx control, first define a [**COMBOBOXEXITEM**](/windows/win32/Commctrl/ns-commctrl-tagcomboboxexitema?branch=master) structure. Then, set the **mask** member of the structure to indicate which members you want the control to use. Finally, set the specified members of the structure to the desired values and send the [**CBEM\_INSERTITEM**](cbem-insertitem.md) message to add the item to the control.
 
 The following application-defined function adds 15 items to an existing ComboBoxEx control.
 
@@ -27,7 +32,7 @@ The following application-defined function adds 15 items to an existing ComboBox
 
 ### Step 1:
 
-To add an item to a ComboBoxEx control, first define a [**COMBOBOXEXITEM**](comboboxexitem.md) structure.
+To add an item to a ComboBoxEx control, first define a [**COMBOBOXEXITEM**](/windows/win32/Commctrl/ns-commctrl-tagcomboboxexitema?branch=master) structure.
 
 
 ```C++
@@ -65,7 +70,7 @@ ITEMINFO IInf[ ] = {
 
 ### Step 2:
 
-Set the **mask** member of the structure to indicate which members you want the control to use. Note that the **mask** member of the [**COMBOBOXEXITEM**](comboboxexitem.md) structure includes flag values that tell the control to display images for each item.
+Set the **mask** member of the structure to indicate which members you want the control to use. Note that the **mask** member of the [**COMBOBOXEXITEM**](/windows/win32/Commctrl/ns-commctrl-tagcomboboxexitema?branch=master) structure includes flag values that tell the control to display images for each item.
 
 
 ```C++

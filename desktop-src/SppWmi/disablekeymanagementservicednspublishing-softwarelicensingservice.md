@@ -3,8 +3,11 @@ title: DisableKeyManagementServiceDnsPublishing method of the SoftwareLicensingS
 description: Disables the DNS publishing on a KMS host computer.
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '621a7bd0-4d7b-4c2c-8d4a-65142632db48'
-keywords: ["DisableKeyManagementServiceDnsPublishing method Windows Management Instrumentation", "DisableKeyManagementServiceDnsPublishing method Windows Management Instrumentation , SoftwareLicensingService class", "SoftwareLicensingService class Windows Management Instrumentation , DisableKeyManagementServiceDnsPublishing method"]
+ms.assetid: 621a7bd0-4d7b-4c2c-8d4a-65142632db48
+keywords:
+- DisableKeyManagementServiceDnsPublishing method Windows Management Instrumentation
+- DisableKeyManagementServiceDnsPublishing method Windows Management Instrumentation , SoftwareLicensingService class
+- SoftwareLicensingService class Windows Management Instrumentation , DisableKeyManagementServiceDnsPublishing method
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - SppWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisableKeyManagementServiceDnsPublishing method of the SoftwareLicensingService class
@@ -24,7 +32,7 @@ Disables the DNS publishing on a KMS host computer.
 
 ```mof
 uint32 DisableKeyManagementServiceDnsPublishing(
-  [in] boolean DisablePublishing
+  [in] boolean DisablePublishing
 );
 ```
 
@@ -47,8 +55,8 @@ Determines whether DNS publishing on a KMS host computer is enabled. If this par
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows 7<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>SppWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SppWmi.dll</dt> </dl> |
@@ -62,9 +70,9 @@ Determines whether DNS publishing on a KMS host computer is enabled. If this par
 [**SoftwareLicensingService**](softwarelicensingservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

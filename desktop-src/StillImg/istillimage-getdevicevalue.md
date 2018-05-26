@@ -1,8 +1,9 @@
 ---
 title: GetDeviceValue method
 description: The IStillImage GetDeviceValue method is used to obtain information from the registry that has been associated with an image acquisition device API such as TWAIN or ISIS.
-ms.assetid: '3d8fb259-d023-4351-97bd-4aaed69bc5c4'
-keywords: ["GetDeviceValue method Still Image"]
+ms.assetid: 3d8fb259-d023-4351-97bd-4aaed69bc5c4
+keywords:
+- GetDeviceValue method Still Image
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Sti.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDeviceValue method
@@ -22,11 +28,11 @@ The **IStillImage::GetDeviceValue** method is used to obtain information from th
 
 ```C++
 HRESULT GetDeviceValue(
-  [in]  LPWSTR  pwszDeviceName,
-  [out] LPWSTR  pValueName,
-  [out] LPDWORD pType,
-  [out] LPBYTE  pData,
-  [out] LPDWORD cbData
+  [in]  LPWSTR  pwszDeviceName,
+  [out] LPWSTR  pValueName,
+  [out] LPDWORD pType,
+  [out] LPBYTE  pData,
+  [out] LPDWORD cbData
 );
 ```
 
@@ -52,7 +58,7 @@ Pointer to a string that represents the name of the value tag. It is the key tha
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -74,7 +80,7 @@ Pointer to a variable that receives the key's value type. The *pType* parameter 
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="REG_BINARY"></span><span id="reg_binary"></span><dl> <dt>**REG\_BINARY**</dt> </dl>                                          | Binary data in any form.<br/>                                                                                                                                                                                                                                   |
 | <span id="REG_DWORD"></span><span id="reg_dword"></span><dl> <dt>**REG\_DWORD**</dt> </dl>                                             | A 32-bit number.<br/>                                                                                                                                                                                                                                           |
-| <span id="REG_DWORD_LITTLE_ENDIAN"></span><span id="reg_dword_little_endian"></span><dl> <dt>**REG\_DWORD\_LITTLE\_ENDIAN**</dt> </dl> | A 32-bit number in little-endian format (same as REG\_DWORD). In little-endian format, the most significant byte of a word is the high-order byte. This is the most common format for computers running Windows NT/Windows 2000 and Windows 98/Windows Me.<br/> |
+| <span id="REG_DWORD_LITTLE_ENDIAN"></span><span id="reg_dword_little_endian"></span><dl> <dt>**REG\_DWORD\_LITTLE\_ENDIAN**</dt> </dl> | A 32-bit number in little-endian format (same as REG\_DWORD). In little-endian format, the most significant byte of a word is the high-order byte. This is the most common format for computers running Windows NT/Windows 2000 and Windows 98/Windows Me.<br/> |
 | <span id="REG_DWORD_BIG_ENDIAN"></span><span id="reg_dword_big_endian"></span><dl> <dt>**REG\_DWORD\_BIG\_ENDIAN**</dt> </dl>          | A 32-bit number in big-endian format. In big-endian format, the most significant byte of a word is the low-order byte.<br/>                                                                                                                                     |
 | <span id="REG_EXPAND_SZ"></span><span id="reg_expand_sz"></span><dl> <dt>**REG\_EXPAND\_SZ**</dt> </dl>                                | A **null**-terminated string that contains unexpanded references to environment variables (for example, "%PATH%"). It is a Unicode or ANSI string depending on whether you use the Unicode or ANSI methods.<br/>                                                |
 | <span id="REG_LINK"></span><span id="reg_link"></span><dl> <dt>**REG\_LINK**</dt> </dl>                                                | A Unicode symbolic link.<br/>                                                                                                                                                                                                                                   |
@@ -85,7 +91,7 @@ Pointer to a variable that receives the key's value type. The *pType* parameter 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -127,8 +133,8 @@ The *cbData* parameter can be **NULL** only if *pData* is **NULL**.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Sti.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Sti.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sti.dll</dt> </dl> |
@@ -145,9 +151,9 @@ The *cbData* parameter can be **NULL** only if *pData* is **NULL**.
 [Making an Application Still Image-Aware](making-an-application-still-image-aware.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

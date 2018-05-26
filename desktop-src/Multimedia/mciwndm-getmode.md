@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_GETMODE message
 description: The MCIWNDM\_GETMODE message retrieves the current operating mode of an MCI device. MCI devices have several operating modes, which are designated by constants. You can send this message explicitly or by using the MCIWndGetMode macro.
-ms.assetid: 'cc327281-434e-4047-9e15-c04a10953f47'
-keywords: ["MCIWNDM_GETMODE message Windows Multimedia"]
+ms.assetid: cc327281-434e-4047-9e15-c04a10953f47
+keywords:
+- MCIWNDM_GETMODE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_GETMODE message
 
-The **MCIWNDM\_GETMODE** message retrieves the current operating mode of an MCI device. MCI devices have several operating modes, which are designated by constants. You can send this message explicitly or by using the [**MCIWndGetMode**](mciwndgetmode.md) macro.
+The **MCIWNDM\_GETMODE** message retrieves the current operating mode of an MCI device. MCI devices have several operating modes, which are designated by constants. You can send this message explicitly or by using the [**MCIWndGetMode**](/windows/win32/Vfw/nf-vfw-mciwndgetmode?branch=master) macro.
 
 
 ```C++
@@ -68,7 +74,7 @@ Not all devices can operate in every mode. For example, the MCIAVI device is a p
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,8 +82,8 @@ Not all devices can operate in every mode. For example, the MCIAVI device is a p
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -86,12 +92,12 @@ Not all devices can operate in every mode. For example, the MCIAVI device is a p
 
 <dl> <dt>
 
-[**MCIWndGetMode**](mciwndgetmode.md)
+[**MCIWndGetMode**](/windows/win32/Vfw/nf-vfw-mciwndgetmode?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

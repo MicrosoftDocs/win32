@@ -1,8 +1,11 @@
 ---
 title: IStoreNamespace CopyMoveMessages method
 description: Copies or moves messages from one message folder to another.
-ms.assetid: '90ed34a6-0476-4f90-8b4e-9d8441dccf16'
-keywords: ["CopyMoveMessages method Windows Mail (formerly Outlook Express)", "CopyMoveMessages method Windows Mail (formerly Outlook Express) , IStoreNamespace interface", "IStoreNamespace interface Windows Mail (formerly Outlook Express) , CopyMoveMessages method"]
+ms.assetid: 90ed34a6-0476-4f90-8b4e-9d8441dccf16
+keywords:
+- CopyMoveMessages method Windows Mail (formerly Outlook Express)
+- CopyMoveMessages method Windows Mail (formerly Outlook Express) , IStoreNamespace interface
+- IStoreNamespace interface Windows Mail (formerly Outlook Express) , CopyMoveMessages method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreNamespace::CopyMoveMessages method
@@ -22,12 +30,12 @@ Copies or moves messages from one message folder to another.
 
 ```C++
 HRESULT CopyMoveMessages(
-  [in] IStoreFolder    *pSource,
-  [in] IStoreFolder    *pDest,
-  [in] LPMESSAGEIDLIST pMsgIdList,
-  [in] DWORD           dwFlags,
-  [in] DWORD           dwFlagsRemove,
-  [in] IProgressNotify *pProgress
+  [in] IStoreFolder    *pSource,
+  [in] IStoreFolder    *pDest,
+  [in] LPMESSAGEIDLIST pMsgIdList,
+  [in] DWORD           dwFlags,
+  [in] DWORD           dwFlagsRemove,
+  [in] IProgressNotify *pProgress
 );
 ```
 
@@ -106,7 +114,7 @@ Returns S\_OK if successful, or one of the following error values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -118,8 +126,8 @@ To add flags to a list of messages, call the [**SetFlags**](oe-istorefolder-setf
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -127,9 +135,9 @@ To add flags to a list of messages, call the [**SetFlags**](oe-istorefolder-setf
 
 
 
- 
+ 
 
- 
+ 
 
 
 

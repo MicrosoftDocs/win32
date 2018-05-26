@@ -4,10 +4,13 @@ description: Visual styles are a feature of Windows and are supported by MMC 2.0
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd1d8ed92-94a0-4217-8a31-dd2a127998a0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: d1d8ed92-94a0-4217-8a31-dd2a127998a0
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Supporting Visual Styles in Snap-ins

@@ -1,7 +1,7 @@
 ---
 title: Option Flags
 description: The following option flags are used with the InternetQueryOption and InternetSetOption functions. All valid option flags have a value greater than or equal to INTERNET\_FIRST\_OPTION and less than or equal to INTERNET\_LAST\_OPTION.
-ms.assetid: '708510b8-468a-4287-849b-cba3d7001ea8'
+ms.assetid: 708510b8-468a-4287-849b-cba3d7001ea8
 topic_type:
 - apiref
 api_name:
@@ -97,11 +97,16 @@ api_location:
 - Winineti.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Option Flags
 
-The following option flags are used with the [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md) functions. All valid option flags have a value greater than or equal to **INTERNET\_FIRST\_OPTION** and less than or equal to **INTERNET\_LAST\_OPTION**.
+The following option flags are used with the [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) functions. All valid option flags have a value greater than or equal to **INTERNET\_FIRST\_OPTION** and less than or equal to **INTERNET\_LAST\_OPTION**.
 
 <dl> <dt>
 
@@ -165,7 +170,7 @@ Not implemented.
 
 
 
-Sets or retrieves the Boolean value that determines if the system should check the network for newer content and overwrite edited cache entries if a newer version is found. If set to **True**, the system checks the network for newer content and overwrites the edited cache entry with the newer version. The default is **False**, which indicates that the edited cache entry should be used without checking the network. This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md). It is valid only in Microsoft Internet Explorer 5 and later.
+Sets or retrieves the Boolean value that determines if the system should check the network for newer content and overwrite edited cache entries if a newer version is found. If set to **True**, the system checks the network for newer content and overwrites the edited cache entry with the newer version. The default is **False**, which indicates that the edited cache entry should be used without checking the network. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master). It is valid only in Microsoft Internet Explorer 5 and later.
 
 
 </dt> </dl> </dd> <dt>
@@ -191,7 +196,7 @@ No longer supported.
 
 
 
-Retrieves an [**INTERNET\_CACHE\_TIMESTAMPS**](internet-cache-timestamps.md) structure that contains the LastModified time and Expires time from the resource stored in the Internet cache. This value is used by [**InternetQueryOption**](internetqueryoption.md).
+Retrieves an [**INTERNET\_CACHE\_TIMESTAMPS**](/windows/win32/Wininet/ns-wininet-_internet_cache_timestamps?branch=master) structure that contains the LastModified time and Expires time from the resource stored in the Internet cache. This value is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -204,7 +209,7 @@ Retrieves an [**INTERNET\_CACHE\_TIMESTAMPS**](internet-cache-timestamps.md) str
 
 
 
-Sets or retrieves the address of the callback function defined for this handle. This option can be used on all [**HINTERNET**](appendix-a-hinternet-handles.md) handles. Used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves the address of the callback function defined for this handle. This option can be used on all [**HINTERNET**](appendix-a-hinternet-handles.md) handles. Used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -230,7 +235,7 @@ Not implemented.
 
 
 
-This flag is not supported by [**InternetQueryOption**](internetqueryoption.md). The *lpBuffer* parameter must be a pointer to a [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189) structure and not a pointer to a **CERT\_CONTEXT** pointer. If an application receives **ERROR\_INTERNET\_CLIENT\_AUTH\_CERT\_NEEDED**, it must call [**InternetErrorDlg**](interneterrordlg.md) or use [**InternetSetOption**](internetsetoption.md) to supply a certificate before retrying the request. [**CertDuplicateCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376045) is then called so that the certificate context passed can be independently released by the application.
+This flag is not supported by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master). The *lpBuffer* parameter must be a pointer to a [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189) structure and not a pointer to a **CERT\_CONTEXT** pointer. If an application receives **ERROR\_INTERNET\_CLIENT\_AUTH\_CERT\_NEEDED**, it must call [**InternetErrorDlg**](/windows/win32/Wininet/nf-wininet-interneterrordlg?branch=master) or use [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) to supply a certificate before retrying the request. [**CertDuplicateCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376045) is then called so that the certificate context passed can be independently released by the application.
 
 
 </dt> </dl> </dd> <dt>
@@ -243,9 +248,9 @@ This flag is not supported by [**InternetQueryOption**](internetqueryoption.md).
 
 
 
-By default, the host or authority portion of the Unicode URL is encoded according to the IDN specification. Setting this option on the request, or connection handle, when IDN is disabled, specifies a code page encoding scheme for the host portion of the URL. The *lpBuffer* parameter in the call to [**InternetSetOption**](internetsetoption.md) contains the desired DBCS code page. If no code page is specified in *lpBuffer*, WinINet uses the default system code page (CP\_ACP). Note: This option is ignored if IDN is not disabled. For more information about how to disable IDN, see the **INTERNET\_OPTION\_IDN** option.
+By default, the host or authority portion of the Unicode URL is encoded according to the IDN specification. Setting this option on the request, or connection handle, when IDN is disabled, specifies a code page encoding scheme for the host portion of the URL. The *lpBuffer* parameter in the call to [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) contains the desired DBCS code page. If no code page is specified in *lpBuffer*, WinINet uses the default system code page (CP\_ACP). Note: This option is ignored if IDN is not disabled. For more information about how to disable IDN, see the **INTERNET\_OPTION\_IDN** option.
 
-**Windows XP with SP2 and Windows Server 2003 with SP1:** This flag is not supported.
+**Windows XP with SP2 and Windows Server 2003 with SP1:** This flag is not supported.
 
 **Version:** Requires Internet Explorer 7.0.
 
@@ -260,9 +265,9 @@ By default, the host or authority portion of the Unicode URL is encoded accordin
 
 
 
-By default, the path portion of the URL is UTF8 encoded. The WinINet API performs escape character (%) encoding on the high-bit characters. Setting this option on the request, or connection handle, disables the UTF8 encoding and sets a specific code page. The *lpBuffer* parameter in the call to [**InternetSetOption**](internetsetoption.md) contains the desired DBCS codepage for the path. If no code page is specified in *lpBuffer*, WinINet uses the default CP\_UTF8.
+By default, the path portion of the URL is UTF8 encoded. The WinINet API performs escape character (%) encoding on the high-bit characters. Setting this option on the request, or connection handle, disables the UTF8 encoding and sets a specific code page. The *lpBuffer* parameter in the call to [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) contains the desired DBCS codepage for the path. If no code page is specified in *lpBuffer*, WinINet uses the default CP\_UTF8.
 
-**Windows XP with SP2 and Windows Server 2003 with SP1:** This flag is not supported.
+**Windows XP with SP2 and Windows Server 2003 with SP1:** This flag is not supported.
 
 **Version:** Requires Internet Explorer 7.0.
 
@@ -277,9 +282,9 @@ By default, the path portion of the URL is UTF8 encoded. The WinINet API perform
 
 
 
-By default, the path portion of the URL is the default system code page (CP\_ACP). The escape character (%) conversions are not performed on the extra portion. Setting this option on the request, or connection handle disables the CP\_ACP encoding. The *lpBuffer* parameter in the call to [**InternetSetOption**](internetsetoption.md) contains the desired DBCS codepage for the extra portion of the URL. If no code page is specified in *lpBuffer*, WinINet uses the default system code page (CP\_ACP).
+By default, the path portion of the URL is the default system code page (CP\_ACP). The escape character (%) conversions are not performed on the extra portion. Setting this option on the request, or connection handle disables the CP\_ACP encoding. The *lpBuffer* parameter in the call to [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) contains the desired DBCS codepage for the extra portion of the URL. If no code page is specified in *lpBuffer*, WinINet uses the default system code page (CP\_ACP).
 
-**Windows XP with SP2 and Windows Server 2003 with SP1:** This flag is not supported.
+**Windows XP with SP2 and Windows Server 2003 with SP1:** This flag is not supported.
 
 **Version:** Requires Internet Explorer 7.0.
 
@@ -294,7 +299,7 @@ By default, the path portion of the URL is the default system code page (CP\_ACP
 
 
 
-For a request where WinInet decompressed the server’s supplied Content-Encoding, retrieves the server-reported Content-Length of the response body as a ULONGLONG. Supported in Windows 10, version 1507 and later.
+For a request where WinInet decompressed the server s supplied Content-Encoding, retrieves the server-reported Content-Length of the response body as a ULONGLONG. Supported in Windows 10, version 1507 and later.
 
 
 </dt> </dl> </dd> <dt>
@@ -320,7 +325,7 @@ Not implemented.
 
 
 
-Sets or retrieves an unsigned long integer value that contains the number of times WinINet attempts to resolve and connect to a host. It only attempts once per IP address. For example, if you attempt to connect to a multihome host that has ten IP addresses and INTERNET\_OPTION\_CONNECT\_RETRIES is set to seven, WinINet only attempts to resolve and connect to the first seven IP addresses. Conversely, given the same set of ten IP addresses, if INTERNET\_OPTION\_CONNECT\_RETRIES is set to 20, WinINet attempts each of the ten only once. If a host has only one IP address and the first connection attempt fails, there are no further attempts. If a connection attempt still fails after the specified number of attempts, the request is canceled. The default value for INTERNET\_OPTION\_CONNECT\_RETRIES is five attempts. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle, including a **NULL** handle. It is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves an unsigned long integer value that contains the number of times WinINet attempts to resolve and connect to a host. It only attempts once per IP address. For example, if you attempt to connect to a multihome host that has ten IP addresses and INTERNET\_OPTION\_CONNECT\_RETRIES is set to seven, WinINet only attempts to resolve and connect to the first seven IP addresses. Conversely, given the same set of ten IP addresses, if INTERNET\_OPTION\_CONNECT\_RETRIES is set to 20, WinINet attempts each of the ten only once. If a host has only one IP address and the first connection attempt fails, there are no further attempts. If a connection attempt still fails after the specified number of attempts, the request is canceled. The default value for INTERNET\_OPTION\_CONNECT\_RETRIES is five attempts. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle, including a **NULL** handle. It is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -348,7 +353,7 @@ Not implemented.
 
 Sets or retrieves an unsigned long integer value that contains the time-out value, in milliseconds, to use for Internet connection requests. Setting this option to infinite (0xFFFFFFFF) will disable this timer.
 
-If a connection request takes longer than this time-out value, the request is canceled. When attempting to connect to multiple IP addresses for a single host (a multihome host), the timeout limit is cumulative for all of the IP addresses. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle, including a **NULL** handle. It is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+If a connection request takes longer than this time-out value, the request is canceled. When attempting to connect to multiple IP addresses for a single host (a multihome host), the timeout limit is cumulative for all of the IP addresses. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle, including a **NULL** handle. It is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -361,7 +366,7 @@ If a connection request takes longer than this time-out value, the request is ca
 
 
 
-Sets or retrieves an unsigned long integer value that contains the connected state. This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves an unsigned long integer value that contains the connected state. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -374,7 +379,7 @@ Sets or retrieves an unsigned long integer value that contains the connected sta
 
 
 
-Sets or retrieves a DWORD\_PTR that contains the address of the context value associated with this [**HINTERNET**](appendix-a-hinternet-handles.md) handle. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle. This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md). Previously, this set the context value to the address stored in the **lpBuffer** pointer. This has been corrected so that the value stored in the buffer is used and the [INTERNET\_OPTION\_CONTEXT\_VALUE](#internet-option-context-value) flag is assigned a new value. The old value, 10, has been preserved so that applications written for the old behavior are still supported.
+Sets or retrieves a DWORD\_PTR that contains the address of the context value associated with this [**HINTERNET**](appendix-a-hinternet-handles.md) handle. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master). Previously, this set the context value to the address stored in the **lpBuffer** pointer. This has been corrected so that the value stored in the buffer is used and the [INTERNET\_OPTION\_CONTEXT\_VALUE](#internet-option-context-value) flag is assigned a new value. The old value, 10, has been preserved so that applications written for the old behavior are still supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -387,7 +392,7 @@ Sets or retrieves a DWORD\_PTR that contains the address of the context value as
 
 
 
-Identical to [INTERNET\_OPTION\_RECEIVE\_TIMEOUT](#internet-option-receive-timeout). This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Identical to [INTERNET\_OPTION\_RECEIVE\_TIMEOUT](#internet-option-receive-timeout). This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -400,7 +405,7 @@ Identical to [INTERNET\_OPTION\_RECEIVE\_TIMEOUT](#internet-option-receive-timeo
 
 
 
-Identical to [INTERNET\_OPTION\_SEND\_TIMEOUT](#internet-option-send-timeout). This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Identical to [INTERNET\_OPTION\_SEND\_TIMEOUT](#internet-option-send-timeout). This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -413,7 +418,7 @@ Identical to [INTERNET\_OPTION\_SEND\_TIMEOUT](#internet-option-send-timeout). T
 
 
 
-Sets or retrieves an unsigned long integer value that contains the time-out value, in milliseconds, to receive a response to a request for the data channel of an FTP transaction. If the response takes longer than this time-out value, the request is canceled. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle, including a **NULL** handle. It is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves an unsigned long integer value that contains the time-out value, in milliseconds, to receive a response to a request for the data channel of an FTP transaction. If the response takes longer than this time-out value, the request is canceled. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle, including a **NULL** handle. It is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 This flag has no impact on HTTP functionality.
 
@@ -428,7 +433,7 @@ This flag has no impact on HTTP functionality.
 
 
 
-Sets or retrieves an unsigned long integer value, in milliseconds, that contains the time-out value to send a request for the data channel of an FTP transaction. If the send takes longer than this time-out value, the send is canceled. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle, including a **NULL** handle. It is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves an unsigned long integer value, in milliseconds, that contains the time-out value to send a request for the data channel of an FTP transaction. If the send takes longer than this time-out value, the send is canceled. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle, including a **NULL** handle. It is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 This flag has no impact on HTTP functionality.
 
@@ -443,7 +448,7 @@ This flag has no impact on HTTP functionality.
 
 
 
-Retrieves a string value that contains the name of the file backing a downloaded entity. This flag is valid after [**InternetOpenUrl**](internetopenurl.md), [**FtpOpenFile**](ftpopenfile.md), [**GopherOpenFile**](gopheropenfile.md), or [**HttpOpenRequest**](httpopenrequest.md) has completed. This option can only be queried by [**InternetQueryOption**](internetqueryoption.md).
+Retrieves a string value that contains the name of the file backing a downloaded entity. This flag is valid after [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master), [**FtpOpenFile**](/windows/win32/Wininet/nf-wininet-ftpopenfilea?branch=master), [**GopherOpenFile**](/windows/win32/Wininet/nf-wininet-gopheropenfilea?branch=master), or [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) has completed. This option can only be queried by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -456,7 +461,7 @@ Retrieves a string value that contains the name of the file backing a downloaded
 
 
 
-Sets a string value that contains the extension of the file backing a downloaded entity. This flag should be set before calling [**InternetOpenUrl**](internetopenurl.md), [**FtpOpenFile**](ftpopenfile.md), [**GopherOpenFile**](gopheropenfile.md), or [**HttpOpenRequest**](httpopenrequest.md). This option can only be set by [**InternetSetOption**](internetsetoption.md).
+Sets a string value that contains the extension of the file backing a downloaded entity. This flag should be set before calling [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master), [**FtpOpenFile**](/windows/win32/Wininet/nf-wininet-ftpopenfilea?branch=master), [**GopherOpenFile**](/windows/win32/Wininet/nf-wininet-gopheropenfilea?branch=master), or [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master). This option can only be set by [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -469,9 +474,9 @@ Sets a string value that contains the extension of the file backing a downloaded
 
 
 
-Retrieves an [**INTERNET\_DIAGNOSTIC\_SOCKET\_INFO**](internet-diagnostic-socket-info.md) structure that contains data about a specified HTTP Request. This flag is used by [**InternetQueryOption**](internetqueryoption.md).
+Retrieves an [**INTERNET\_DIAGNOSTIC\_SOCKET\_INFO**](/windows/win32/Wininet/ns-wininet-internet_diagnostic_socket_info?branch=master) structure that contains data about a specified HTTP Request. This flag is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
-**Windows 7:** This option is no longer supported.
+**Windows 7:** This option is no longer supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -484,7 +489,7 @@ Retrieves an [**INTERNET\_DIAGNOSTIC\_SOCKET\_INFO**](internet-diagnostic-socket
 
 
 
-Causes the system to log off the Digest authentication SSPI package, purging all of the credentials created for the process. No buffer is required for this option. It is used by [**InternetSetOption**](internetsetoption.md).
+Causes the system to log off the Digest authentication SSPI package, purging all of the credentials created for the process. No buffer is required for this option. It is used by [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -525,9 +530,9 @@ Not implemented.
 
 Sets a DWORD bitmask of acceptable advanced HTTP versions. May be set on any handle type. Possible values are:
 
--   HTTP\_PROTOCOL\_FLAG\_HTTP2 (0x2). Supported on Windows 10, version 1507 and later.
+-   HTTP\_PROTOCOL\_FLAG\_HTTP2 (0x2). Supported on Windows 10, version 1507 and later.
 
-Legacy versions of HTTP (1.1 and prior) cannot be disabled using this option. The default is 0x0. Supported in Windows 10, version 1507 and later.
+Legacy versions of HTTP (1.1 and prior) cannot be disabled using this option. The default is 0x0. Supported in Windows 10, version 1507 and later.
 
 
 </dt> </dl> </dd> <dt>
@@ -540,7 +545,7 @@ Legacy versions of HTTP (1.1 and prior) cannot be disabled using this option. Th
 
 
 
-On a request handle, sets a Boolean controlling whether redirects will be returned from the WinInet cache for a given request. The default is FALSE. Supported in Windows 8 and later.
+On a request handle, sets a Boolean controlling whether redirects will be returned from the WinInet cache for a given request. The default is FALSE. Supported in Windows 8 and later.
 
 
 </dt> </dl> </dd> <dt>
@@ -553,7 +558,7 @@ On a request handle, sets a Boolean controlling whether redirects will be return
 
 
 
-Gets/sets a BOOL indicating whether non-ASCII characters in the query string should be percent-encoded. The default is FALSE. Supported in Windows 8.1 and later.
+Gets/sets a BOOL indicating whether non-ASCII characters in the query string should be percent-encoded. The default is FALSE. Supported in Windows 8.1 and later.
 
 
 </dt> </dl> </dd> <dt>
@@ -566,7 +571,7 @@ Gets/sets a BOOL indicating whether non-ASCII characters in the query string sho
 
 
 
-Flushes entries not in use from the password cache on the hard disk drive. Also resets the cache time used when the synchronization mode is once-per-session. No buffer is required for this option. This is used by [**InternetSetOption**](internetsetoption.md).
+Flushes entries not in use from the password cache on the hard disk drive. Also resets the cache time used when the synchronization mode is once-per-session. No buffer is required for this option. This is used by [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -593,7 +598,7 @@ Indicates that all certificate errors are to be reported using the same error re
 > \[!Caution\]  
 > Failing to inform the user of this error exposes the user to potential spoofing attacks.
 
- 
+ 
 
 </dd> <dt>
 
@@ -634,7 +639,7 @@ Not implemented.
 
 
 
-Sets a PWSTR containing the Enterprise ID (see https://msdn.microsoft.com/library/windows/desktop/mt759320(v=vs.85).aspx) which applies to the request. Supported in Windows 10, version 1507 and later.
+Sets a PWSTR containing the Enterprise ID (see https://msdn.microsoft.com/library/windows/desktop/mt759320(v=vs.85).aspx) which applies to the request. Supported in Windows 10, version 1507 and later.
 
 
 </dt> </dl> </dd> <dt>
@@ -647,7 +652,7 @@ Sets a PWSTR containing the Enterprise ID (see https://msdn.microsoft.com/librar
 
 
 
-Retrieves an unsigned long integer value that contains a Winsock error code mapped to the **ERROR\_INTERNET\_** error messages last returned in this thread context. This option is used on a **NULL**[**HINTERNET**](appendix-a-hinternet-handles.md) handle by [**InternetQueryOption**](internetqueryoption.md).
+Retrieves an unsigned long integer value that contains a Winsock error code mapped to the **ERROR\_INTERNET\_** error messages last returned in this thread context. This option is used on a **NULL**[**HINTERNET**](appendix-a-hinternet-handles.md) handle by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -660,7 +665,7 @@ Retrieves an unsigned long integer value that contains a Winsock error code mapp
 
 
 
-Sets or retrieves a1n unsigned long integer value that contains the amount of time the system should wait for a response to a network request before checking the cache for a copy of the resource. If a network request takes longer than the time specified and the requested resource is available in the cache, the resource is retrieved from the cache. This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves a1n unsigned long integer value that contains the amount of time the system should wait for a response to a network request before checking the cache for a copy of the resource. If a network request takes longer than the time specified and the requested resource is available in the cache, the resource is retrieved from the cache. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -673,7 +678,7 @@ Sets or retrieves a1n unsigned long integer value that contains the amount of ti
 
 
 
-Retrieves an unsigned long integer value that contains the type of the [**HINTERNET**](appendix-a-hinternet-handles.md) handles passed in. This is used by [**InternetQueryOption**](internetqueryoption.md) on any [HINTERNET](appendix-a-hinternet-handles.md) handle. Possible return values include the following.
+Retrieves an unsigned long integer value that contains the type of the [**HINTERNET**](appendix-a-hinternet-handles.md) handles passed in. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) on any [HINTERNET](appendix-a-hinternet-handles.md) handle. Possible return values include the following.
 
 <dl> <dt>
 
@@ -785,7 +790,7 @@ Retrieves an unsigned long integer value that contains the type of the [**HINTER
 
 
 
-Gets/sets a BOOL indicating whether WinInet should follow HTTP Strict Transport Security (HSTS) directives from servers. If enabled, http:// schemed requests to domains which have an HSTS policy cached by WinInet will be redirected to matching https:// URLs. The default is FALSE. Supported in Windows 8.1 and later.
+Gets/sets a BOOL indicating whether WinInet should follow HTTP Strict Transport Security (HSTS) directives from servers. If enabled, http:// schemed requests to domains which have an HSTS policy cached by WinInet will be redirected to matching https:// URLs. The default is FALSE. Supported in Windows 8.1 and later.
 
 
 </dt> </dl> </dd> <dt>
@@ -813,9 +818,9 @@ Enables WinINet to perform decoding for the gzip and deflate encoding schemes. F
 
 Gets a DWORD indicating which advanced HTTP version was used on a given request. Possible values are:
 
--   HTTP\_PROTOCOL\_FLAG\_HTTP2 (0x2). Supported on Windows 10, version 1507 and later.
+-   HTTP\_PROTOCOL\_FLAG\_HTTP2 (0x2). Supported on Windows 10, version 1507 and later.
 
-0x0 indicates HTTP/1.1 or earlier; see INTERNET\_OPTION\_HTTP\_VERSION if more precision is needed about which legacy version was used. Supported on Windows 10, version 1507 and later.
+0x0 indicates HTTP/1.1 or earlier; see INTERNET\_OPTION\_HTTP\_VERSION if more precision is needed about which legacy version was used. Supported on Windows 10, version 1507 and later.
 
 
 </dt> </dl> </dd> <dt>
@@ -828,9 +833,9 @@ Gets a DWORD indicating which advanced HTTP version was used on a given request.
 
 
 
-Sets or retrieves an [**HTTP\_VERSION\_INFO**](http-version-info.md) structure that contains the supported HTTP version. This must be used on a **NULL** handle. This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves an [**HTTP\_VERSION\_INFO**](/windows/win32/Wininet/ns-wininet-http_version_info?branch=master) structure that contains the supported HTTP version. This must be used on a **NULL** handle. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
-On Windows 7, Windows Server 2008 R2, and later, the value of the **dwMinorVersion** member in the [**HTTP\_VERSION\_INFO**](http-version-info.md) structure is overridden by Internet Explorer settings. **EnableHttp1\_1** is a registry value under **HKLM\\Software\\Microsoft\\InternetExplorer\\AdvacnedOptions\\HTTP\\GENABLE** controlled by Internet Options set in Internet Explorer for the system. The **EnableHttp1\_1** value defaults to 1. The **HTTP\_VERSION\_INFO** structure is ignored for any HTTP version less than 1.1 if **EnableHttp1\_1** is set to 1.
+On Windows 7, Windows Server 2008 R2, and later, the value of the **dwMinorVersion** member in the [**HTTP\_VERSION\_INFO**](/windows/win32/Wininet/ns-wininet-http_version_info?branch=master) structure is overridden by Internet Explorer settings. **EnableHttp1\_1** is a registry value under **HKLM\\Software\\Microsoft\\InternetExplorer\\AdvacnedOptions\\HTTP\\GENABLE** controlled by Internet Options set in Internet Explorer for the system. The **EnableHttp1\_1** value defaults to 1. The **HTTP\_VERSION\_INFO** structure is ignored for any HTTP version less than 1.1 if **EnableHttp1\_1** is set to 1.
 
 
 </dt> </dl> </dd> <dt>
@@ -869,9 +874,9 @@ Not implemented.
 
 
 
-By default, the host or authority portion of the URL is encoded according to the IDN specification for both direct and proxy connections. This option can be used on the request, or connection handle to enable or disable IDN. When IDN is disabled, WinINet uses the system codepage to encode the host or authority portion of the URL. To disable IDN host conversion, set the *lpBuffer* parameter in the call to [**InternetSetOption**](internetsetoption.md) to zero. To enable IDN conversion on only the direct connection, specify **INTERNET\_FLAG\_IDN\_DIRECT** in the *lpBuffer* parameter in the call to **InternetSetOption**. To enable IDN conversion on only the proxy connection, specify **INTERNET\_FLAG\_IDN\_PROXY** in the *lpBuffer* parameter in the call to **InternetSetOption**.
+By default, the host or authority portion of the URL is encoded according to the IDN specification for both direct and proxy connections. This option can be used on the request, or connection handle to enable or disable IDN. When IDN is disabled, WinINet uses the system codepage to encode the host or authority portion of the URL. To disable IDN host conversion, set the *lpBuffer* parameter in the call to [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) to zero. To enable IDN conversion on only the direct connection, specify **INTERNET\_FLAG\_IDN\_DIRECT** in the *lpBuffer* parameter in the call to **InternetSetOption**. To enable IDN conversion on only the proxy connection, specify **INTERNET\_FLAG\_IDN\_PROXY** in the *lpBuffer* parameter in the call to **InternetSetOption**.
 
-**Windows XP with SP2 and Windows Server 2003 with SP1:** This flag is not supported.
+**Windows XP with SP2 and Windows Server 2003 with SP1:** This flag is not supported.
 
 **Version:** Requires Internet Explorer 7.0.
 
@@ -886,7 +891,7 @@ By default, the host or authority portion of the URL is encoded according to the
 
 
 
-Sets or retrieves whether the global offline flag should be ignored for the specified request handle. No buffer is required for this option. This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md) with a request handle. This option is only valid in Internet Explorer 5 and later.
+Sets or retrieves whether the global offline flag should be ignored for the specified request handle. No buffer is required for this option. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) with a request handle. This option is only valid in Internet Explorer 5 and later.
 
 
 </dt> </dl> </dd> <dt>
@@ -925,7 +930,7 @@ Not implemented.
 
 
 
-Sets or retrieves an unsigned long integer value that contains the maximum number of connections allowed per HTTP/1.0 server. This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md). This option is only valid in Internet Explorer 5 and later.
+Sets or retrieves an unsigned long integer value that contains the maximum number of connections allowed per HTTP/1.0 server. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master). This option is only valid in Internet Explorer 5 and later.
 
 
 </dt> </dl> </dd> <dt>
@@ -938,7 +943,7 @@ Sets or retrieves an unsigned long integer value that contains the maximum numbe
 
 
 
-Sets or retrieves an unsigned long integer value that contains the maximum number of connections allowed per CERN proxy. When this option is set or retrieved, the *hInternet* parameter must set to a **null** handle value. A **null** handle value indicates that the option should be set or queried for the current process. When calling [**InternetSetOption**](internetsetoption.md) with this option, all existing proxy objects will receive the new value. This value is limited to a range of 2 to 128, inclusive.
+Sets or retrieves an unsigned long integer value that contains the maximum number of connections allowed per CERN proxy. When this option is set or retrieved, the *hInternet* parameter must set to a **null** handle value. A **null** handle value indicates that the option should be set or queried for the current process. When calling [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) with this option, all existing proxy objects will receive the new value. This value is limited to a range of 2 to 128, inclusive.
 
 **Version:** Requires Internet Explorer 8.0.
 
@@ -953,7 +958,7 @@ Sets or retrieves an unsigned long integer value that contains the maximum numbe
 
 
 
-Sets or retrieves an unsigned long integer value that contains the maximum number of connections allowed per server. This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md). This option is only valid in Internet Explorer 5 and later.
+Sets or retrieves an unsigned long integer value that contains the maximum number of connections allowed per server. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master). This option is only valid in Internet Explorer 5 and later.
 
 
 </dt> </dl> </dd> <dt>
@@ -1005,7 +1010,7 @@ Opt-in for weak signatures (e.g. SHA-1) to be treated as insecure. This will ins
 
 
 
-Retrieves the parent handle to this handle. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle by [**InternetQueryOption**](internetqueryoption.md).
+Retrieves the parent handle to this handle. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1018,7 +1023,7 @@ Retrieves the parent handle to this handle. This option can be used on any [**HI
 
 
 
-Sets or retrieves a string value that contains the password associated with a handle returned by [**InternetConnect**](internetconnect.md). This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves a string value that contains the password associated with a handle returned by [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master). This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1031,17 +1036,17 @@ Sets or retrieves a string value that contains the password associated with a ha
 
 
 
-Sets or retrieves an [**INTERNET\_PER\_CONN\_OPTION\_LIST**](internet-per-conn-option-list.md) structure that specifies a list of options for a particular connection. This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md). This option is only valid in Internet Explorer 5 and later.
+Sets or retrieves an [**INTERNET\_PER\_CONN\_OPTION\_LIST**](/windows/win32/Wininet/ns-wininet-internet_per_conn_option_lista?branch=master) structure that specifies a list of options for a particular connection. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master). This option is only valid in Internet Explorer 5 and later.
 
 > [!Note]  
-> **INTERNET\_OPTION\_PER\_CONNECTION\_OPTION** causes the settings to be changed on a system-wide basis when a **NULL** handle is used in the call to [**InternetSetOption**](internetsetoption.md). To refresh the global proxy settings, you must call **InternetSetOption** with the **INTERNET\_OPTION\_REFRESH** option flag.
+> **INTERNET\_OPTION\_PER\_CONNECTION\_OPTION** causes the settings to be changed on a system-wide basis when a **NULL** handle is used in the call to [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master). To refresh the global proxy settings, you must call **InternetSetOption** with the **INTERNET\_OPTION\_REFRESH** option flag.
 
- 
+ 
 
 > [!Note]  
-> To change proxy information for the entire process without affecting the global settings in Internet Explorer 5 and later, use this option on the handle that is returned from [**InternetOpen**](internetopen.md). The following code example changes the proxy for the whole process even though the [**HINTERNET**](appendix-a-hinternet-handles.md) handle is closed and is not used by any requests.
+> To change proxy information for the entire process without affecting the global settings in Internet Explorer 5 and later, use this option on the handle that is returned from [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master). The following code example changes the proxy for the whole process even though the [**HINTERNET**](appendix-a-hinternet-handles.md) handle is closed and is not used by any requests.
 
- 
+ 
 
 For more information and code examples, see [KB article 226473](Http://go.microsoft.com/fwlink/p/?linkid=84538).
 
@@ -1069,12 +1074,12 @@ Not implemented.
 
 
 
-Sets or retrieves an [**INTERNET\_PROXY\_INFO**](internet-proxy-info.md) structure that contains the proxy data for an existing [**InternetOpen**](internetopen.md) handle when the [**HINTERNET**](appendix-a-hinternet-handles.md) handle is not **NULL**. If the [**HINTERNET**](appendix-a-hinternet-handles.md) handle is **NULL**, the function sets or queries the global proxy data. This option can be used on the handle returned by **InternetOpen**. It is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves an [**INTERNET\_PROXY\_INFO**](/windows/win32/Wininet/ns-wininet-internet_proxy_info?branch=master) structure that contains the proxy data for an existing [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master) handle when the [**HINTERNET**](appendix-a-hinternet-handles.md) handle is not **NULL**. If the [**HINTERNET**](appendix-a-hinternet-handles.md) handle is **NULL**, the function sets or queries the global proxy data. This option can be used on the handle returned by **InternetOpen**. It is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 > [!Note]  
 > It is recommended that INTERNET\_OPTION\_PER\_CONNECTION\_OPTION be used instead of INTERNET\_OPTION\_PROXY. For more information, see [KB article 226473](Http://go.microsoft.com/fwlink/p/?linkid=84538).
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -1087,7 +1092,7 @@ Sets or retrieves an [**INTERNET\_PROXY\_INFO**](internet-proxy-info.md) structu
 
 
 
-Sets or retrieves a string value that contains the password used to access the proxy. This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md). This option can be set on the handle returned by [**InternetConnect**](internetconnect.md) or [**HttpOpenRequest**](httpopenrequest.md).
+Sets or retrieves a string value that contains the password used to access the proxy. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master). This option can be set on the handle returned by [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master) or [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1100,7 +1105,7 @@ Sets or retrieves a string value that contains the password used to access the p
 
 
 
-Alerts the current WinInet instance that proxy settings have changed and that they must update with the new settings. To alert all available WinInet instances, set the *Buffer* parameter of [**InternetSetOption**](internetsetoption.md) to **NULL** and *BufferLength* to 0 when passing this option. This option can be set on the handle returned by [**InternetConnect**](internetconnect.md) or [**HttpOpenRequest**](httpopenrequest.md).
+Alerts the current WinInet instance that proxy settings have changed and that they must update with the new settings. To alert all available WinInet instances, set the *Buffer* parameter of [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) to **NULL** and *BufferLength* to 0 when passing this option. This option can be set on the handle returned by [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master) or [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1113,7 +1118,7 @@ Alerts the current WinInet instance that proxy settings have changed and that th
 
 
 
-Sets or retrieves a string value that contains the user name used to access the proxy. This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md). This option can be set on the handle returned by [**InternetConnect**](internetconnect.md) or [**HttpOpenRequest**](httpopenrequest.md).
+Sets or retrieves a string value that contains the user name used to access the proxy. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master). This option can be set on the handle returned by [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master) or [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1126,7 +1131,7 @@ Sets or retrieves a string value that contains the user name used to access the 
 
 
 
-Sets or retrieves an unsigned long integer value that contains the size of the read buffer. This option can be used on [**HINTERNET**](appendix-a-hinternet-handles.md) handles returned by [**FtpOpenFile**](ftpopenfile.md), [**FtpFindFirstFile**](ftpfindfirstfile.md), and [**InternetConnect**](internetconnect.md) (FTP session only). This option is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves an unsigned long integer value that contains the size of the read buffer. This option can be used on [**HINTERNET**](appendix-a-hinternet-handles.md) handles returned by [**FtpOpenFile**](/windows/win32/Wininet/nf-wininet-ftpopenfilea?branch=master), [**FtpFindFirstFile**](/windows/win32/Wininet/nf-wininet-ftpfindfirstfilea?branch=master), and [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master) (FTP session only). This option is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1152,7 +1157,7 @@ Not implemented.
 
 
 
-Sets or retrieves an unsigned long integer value that contains the time-out value, in milliseconds, to receive a response to a request. If the response takes longer than this time-out value, the request is canceled. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle, including a **NULL** handle. It is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves an unsigned long integer value that contains the time-out value, in milliseconds, to receive a response to a request. If the response takes longer than this time-out value, the request is canceled. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle, including a **NULL** handle. It is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 This option is not intended to represent a fine-grained, immediate timeout. You can expect the timeout to occur up to six seconds after the set timeout value.
 
@@ -1169,7 +1174,7 @@ When used in reference to an FTP transaction, this option refers to the control 
 
 
 
-Causes the proxy data to be reread from the registry for a handle. No buffer is required. This option can be used on the [**HINTERNET**](appendix-a-hinternet-handles.md) handle returned by [**InternetOpen**](internetopen.md). It is used by [**InternetSetOption**](internetsetoption.md).
+Causes the proxy data to be reread from the registry for a handle. No buffer is required. This option can be used on the [**HINTERNET**](appendix-a-hinternet-handles.md) handle returned by [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master). It is used by [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1195,7 +1200,7 @@ Not implemented.
 
 
 
-Retrieves an unsigned long integer value that contains the special status flags that indicate the status of the download in progress. This is used by [**InternetQueryOption**](internetqueryoption.md). The [INTERNET\_OPTION\_REQUEST\_FLAGS](#internet-option-request-flags) option can be one of the following values:
+Retrieves an unsigned long integer value that contains the special status flags that indicate the status of the download in progress. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master). The [INTERNET\_OPTION\_REQUEST\_FLAGS](#internet-option-request-flags) option can be one of the following values:
 
 <dl> <dt>
 
@@ -1272,7 +1277,7 @@ Request was made through a proxy.
 
 
 
-Sets or retrieves an unsigned long integer value that contains the priority of requests that compete for a connection on an HTTP handle. This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves an unsigned long integer value that contains the priority of requests that compete for a connection on an HTTP handle. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1285,7 +1290,7 @@ Sets or retrieves an unsigned long integer value that contains the priority of r
 
 
 
-Starts a new cache session for the process. No buffer is required. This is used by [**InternetSetOption**](internetsetoption.md). This option is reserved for internal use only.
+Starts a new cache session for the process. No buffer is required. This is used by [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master). This option is reserved for internal use only.
 
 
 </dt> </dl> </dd> <dt>
@@ -1298,7 +1303,7 @@ Starts a new cache session for the process. No buffer is required. This is used 
 
 
 
-Sets or retrieves a string value that contains the secondary cache key. This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md). This option is reserved for internal use only.
+Sets or retrieves a string value that contains the secondary cache key. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master). This option is reserved for internal use only.
 
 
 </dt> </dl> </dd> <dt>
@@ -1311,7 +1316,7 @@ Sets or retrieves a string value that contains the secondary cache key. This is 
 
 
 
-Retrieves the certificate for an SSL/PCT (Secure Sockets Layer/Private Communications Technology) server into a formatted string. This is used by [**InternetQueryOption**](internetqueryoption.md).
+Retrieves the certificate for an SSL/PCT (Secure Sockets Layer/Private Communications Technology) server into a formatted string. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1324,7 +1329,7 @@ Retrieves the certificate for an SSL/PCT (Secure Sockets Layer/Private Communica
 
 
 
-Retrieves the certificate for an SSL/PCT server into the INTERNET\_CERTIFICATE\_INFO structure. This is used by [**InternetQueryOption**](internetqueryoption.md).
+Retrieves the certificate for an SSL/PCT server into the INTERNET\_CERTIFICATE\_INFO structure. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1337,7 +1342,7 @@ Retrieves the certificate for an SSL/PCT server into the INTERNET\_CERTIFICATE\_
 
 
 
-Retrieves an unsigned long integer value that contains the security flags for a handle. This option is used by [**InternetQueryOption**](internetqueryoption.md). It can be a combination of the following values.
+Retrieves an unsigned long integer value that contains the security flags for a handle. This option is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master). It can be a combination of the following values.
 
 <dl> <dt>
 
@@ -1346,7 +1351,7 @@ Retrieves an unsigned long integer value that contains the security flags for a 
 
 0x20000000
 
-Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_STRONG](#security-flag-strength-strong). This is only returned in a call to [**InternetQueryOption**](internetqueryoption.md).
+Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_STRONG](#security-flag-strength-strong). This is only returned in a call to [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 </dd> <dt>
 
@@ -1355,7 +1360,7 @@ Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_STRONG](#security-fl
 
 0x10000000
 
-Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_WEAK](#security-flag-strength-weak). This is only returned in a call to [**InternetQueryOption**](internetqueryoption.md).
+Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_WEAK](#security-flag-strength-weak). This is only returned in a call to [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 </dd> <dt>
 
@@ -1364,7 +1369,7 @@ Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_WEAK](#security-flag
 
 0x40000000
 
-Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_MEDIUM](#security-flag-strength-medium). This is only returned in a call to [**InternetQueryOption**](internetqueryoption.md).
+Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_MEDIUM](#security-flag-strength-medium). This is only returned in a call to [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 </dd> <dt>
 
@@ -1463,7 +1468,7 @@ Ignores incorrect usage problems.
 
 0x10000000
 
-Identical to the value [SECURITY\_FLAG\_STRENGTH\_WEAK](#security-flag-strength-weak). This is only returned in a call to [**InternetQueryOption**](internetqueryoption.md).
+Identical to the value [SECURITY\_FLAG\_STRENGTH\_WEAK](#security-flag-strength-weak). This is only returned in a call to [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 </dd> <dt>
 
@@ -1490,7 +1495,7 @@ Not implemented.
 
 0x00000001
 
-Uses secure transfers. This is only returned in a call to [**InternetQueryOption**](internetqueryoption.md).
+Uses secure transfers. This is only returned in a call to [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 </dd> <dt>
 
@@ -1517,7 +1522,7 @@ Not implemented.
 
 0x40000000
 
-Uses medium (56-bit) encryption. This is only returned in a call to [**InternetQueryOption**](internetqueryoption.md).
+Uses medium (56-bit) encryption. This is only returned in a call to [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 </dd> <dt>
 
@@ -1526,7 +1531,7 @@ Uses medium (56-bit) encryption. This is only returned in a call to [**InternetQ
 
 0x20000000
 
-Uses strong (128-bit) encryption. This is only returned in a call to [**InternetQueryOption**](internetqueryoption.md).
+Uses strong (128-bit) encryption. This is only returned in a call to [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 </dd> <dt>
 
@@ -1535,7 +1540,7 @@ Uses strong (128-bit) encryption. This is only returned in a call to [**Internet
 
 0x10000000
 
-Uses weak (40-bit) encryption. This is only returned in a call to [**InternetQueryOption**](internetqueryoption.md).
+Uses weak (40-bit) encryption. This is only returned in a call to [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 </dd> <dt>
 
@@ -1544,7 +1549,7 @@ Uses weak (40-bit) encryption. This is only returned in a call to [**InternetQue
 
 0x80000000
 
-The bit size used in the encryption is unknown. This is only returned in a call to [**InternetQueryOption**](internetqueryoption.md).
+The bit size used in the encryption is unknown. This is only returned in a call to [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 </dd> </dl>
 
@@ -1560,7 +1565,7 @@ Be aware that the data retrieved this way relates to a transaction that has occu
 
 
 
-Retrieves an unsigned long integer value that contains the bit size of the encryption key. The larger the number, the greater the encryption strength used. This is used by [**InternetQueryOption**](internetqueryoption.md). Be aware that the data retrieved this way relates to a transaction that has already occurred, whose security level can no longer be changed.
+Retrieves an unsigned long integer value that contains the bit size of the encryption key. The larger the number, the greater the encryption strength used. This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master). Be aware that the data retrieved this way relates to a transaction that has already occurred, whose security level can no longer be changed.
 
 
 </dt> </dl> </dd> <dt>
@@ -1586,7 +1591,7 @@ Not implemented.
 
 
 
-Sets or retrieves an unsigned long integer value, in milliseconds, that contains the time-out value to send a request. If the send takes longer than this time-out value, the send is canceled. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle, including a **NULL** handle. It is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves an unsigned long integer value, in milliseconds, that contains the time-out value to send a request. If the send takes longer than this time-out value, the send is canceled. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle, including a **NULL** handle. It is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 When used in reference to an FTP transaction, this option refers to the control channel.
 
@@ -1601,7 +1606,7 @@ When used in reference to an FTP transaction, this option refers to the control 
 
 
 
-Retrieves the server’s certificate-chain context as a duplicated [PCCERT\_CHAIN\_CONTEXT](http://go.microsoft.com/fwlink/p/?linkid=143910). You may pass this duplicated context to any Crypto API function which takes a [PCCERT\_CHAIN\_CONTEXT](http://go.microsoft.com/fwlink/p/?linkid=143910). You must call [**CertFreeCertificateChain**](https://msdn.microsoft.com/library/windows/desktop/aa376073) on the returned [PCCERT\_CHAIN\_CONTEXT](http://go.microsoft.com/fwlink/p/?linkid=143910) when you are done with the certificate-chain context.
+Retrieves the server s certificate-chain context as a duplicated [PCCERT\_CHAIN\_CONTEXT](http://go.microsoft.com/fwlink/p/?linkid=143910). You may pass this duplicated context to any Crypto API function which takes a [PCCERT\_CHAIN\_CONTEXT](http://go.microsoft.com/fwlink/p/?linkid=143910). You must call [**CertFreeCertificateChain**](https://msdn.microsoft.com/library/windows/desktop/aa376073) on the returned [PCCERT\_CHAIN\_CONTEXT](http://go.microsoft.com/fwlink/p/?linkid=143910) when you are done with the certificate-chain context.
 
 **Version:** Requires Internet Explorer 8.0.
 
@@ -1616,7 +1621,7 @@ Retrieves the server’s certificate-chain context as a duplicated [PCCERT\_CHAIN\
 
 
 
-Notifies the system that the registry settings have been changed so that it verifies the settings on the next call to [**InternetConnect**](internetconnect.md). This is used by [**InternetSetOption**](internetsetoption.md).
+Notifies the system that the registry settings have been changed so that it verifies the settings on the next call to [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master). This is used by [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1631,13 +1636,13 @@ Notifies the system that the registry settings have been changed so that it veri
 
 Sets an HTTP request object such that it will not logon to origin servers, but will perform automatic logon to HTTP proxy servers. This option differs from the Request flag **INTERNET\_FLAG\_NO\_AUTH**, which prevents authentication to both proxy servers and origin servers.
 
-Setting this mode will suppress the use of any credential material (either previously provided username/password or client SSL certificate) when communicating with an origin server. However, if the request must transit via an authenticating proxy, WinINet will still perform automatic authentication to the HTTP proxy per the Intranet Zone settings for the user. The default Intranet Zone setting is to permit automatic logon using the user’s default credentials.
+Setting this mode will suppress the use of any credential material (either previously provided username/password or client SSL certificate) when communicating with an origin server. However, if the request must transit via an authenticating proxy, WinINet will still perform automatic authentication to the HTTP proxy per the Intranet Zone settings for the user. The default Intranet Zone setting is to permit automatic logon using the user s default credentials.
 
 To ensure suppression of all identifying information, the caller should combine **INTERNET\_OPTION\_SUPPRESS\_SERVER\_AUTH** with the **INTERNET\_FLAG\_NO\_COOKIES** request flag.
 
 This option may only be set on request objects before they have been sent. Attempts to set this option after the request has been sent will return **ERROR\_INTERNET\_INCORRECT\_HANDLE\_STATE**.
 
-No buffer is required for this option. This is used by [**InternetSetOption**](internetsetoption.md) on handles returned by [**HttpOpenRequest**](httpopenrequest.md) only.
+No buffer is required for this option. This is used by [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) on handles returned by [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) only.
 
 **Version:** Requires Internet Explorer 8.0 or later.
 
@@ -1652,7 +1657,7 @@ No buffer is required for this option. This is used by [**InternetSetOption**](i
 
 
 
-A general purpose option that is used to suppress behaviors on a process-wide basis. The *lpBuffer* parameter of the function must be a pointer to a DWORD containing the specific behavior to suppress. This option cannot be queried with [**InternetQueryOption**](internetqueryoption.md). The permitted values are:
+A general purpose option that is used to suppress behaviors on a process-wide basis. The *lpBuffer* parameter of the function must be a pointer to a DWORD containing the specific behavior to suppress. This option cannot be queried with [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master). The permitted values are:
 
 <dl> <dt>
 
@@ -1721,7 +1726,7 @@ Disables the **INTERNET\_SUPPRESS\_COOKIE\_PERSIST** suppression, re-enabling th
 
 
 
-Retrieves a string value that contains the full URL of a downloaded resource. If the original URL contained any extra data, such as search strings or anchors, or if the call was redirected, the URL returned differs from the original. This option is valid on [**HINTERNET**](appendix-a-hinternet-handles.md) handles returned by [**InternetOpenUrl**](internetopenurl.md), [**FtpOpenFile**](ftpopenfile.md), [**GopherOpenFile**](gopheropenfile.md), or [**HttpOpenRequest**](httpopenrequest.md). It is used by [**InternetQueryOption**](internetqueryoption.md).
+Retrieves a string value that contains the full URL of a downloaded resource. If the original URL contained any extra data, such as search strings or anchors, or if the call was redirected, the URL returned differs from the original. This option is valid on [**HINTERNET**](appendix-a-hinternet-handles.md) handles returned by [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master), [**FtpOpenFile**](/windows/win32/Wininet/nf-wininet-ftpopenfilea?branch=master), [**GopherOpenFile**](/windows/win32/Wininet/nf-wininet-gopheropenfilea?branch=master), or [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master). It is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1734,7 +1739,7 @@ Retrieves a string value that contains the full URL of a downloaded resource. If
 
 
 
-Sets or retrieves the user agent string on handles supplied by [**InternetOpen**](internetopen.md) and used in subsequent [**HttpSendRequest**](httpsendrequest.md) functions, as long as it is not overridden by a header added by [**HttpAddRequestHeaders**](httpaddrequestheaders.md) or [**HttpSendRequest**](httpsendrequest.md). This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves the user agent string on handles supplied by [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master) and used in subsequent [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master) functions, as long as it is not overridden by a header added by [**HttpAddRequestHeaders**](/windows/win32/Wininet/nf-wininet-httpaddrequestheadersa?branch=master) or [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master). This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1747,7 +1752,7 @@ Sets or retrieves the user agent string on handles supplied by [**InternetOpen**
 
 
 
-Sets or retrieves a string that contains the user name associated with a handle returned by [**InternetConnect**](internetconnect.md). This is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves a string that contains the user name associated with a handle returned by [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master). This is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1760,7 +1765,7 @@ Sets or retrieves a string that contains the user name associated with a handle 
 
 
 
-Retrieves an **INTERNET\_VERSION\_INFO** structure that contains the version number of Wininet.dll. This option can be used on a **NULL**[**HINTERNET**](appendix-a-hinternet-handles.md) handle by [**InternetQueryOption**](internetqueryoption.md).
+Retrieves an **INTERNET\_VERSION\_INFO** structure that contains the version number of Wininet.dll. This option can be used on a **NULL**[**HINTERNET**](appendix-a-hinternet-handles.md) handle by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -1773,7 +1778,7 @@ Retrieves an **INTERNET\_VERSION\_INFO** structure that contains the version num
 
 
 
-Sets or retrieves an unsigned long integer value that contains the size, in bytes, of the write buffer. This option can be used on [**HINTERNET**](appendix-a-hinternet-handles.md) handles returned by [**FtpOpenFile**](ftpopenfile.md) and [**InternetConnect**](internetconnect.md) (FTP session only). It is used by [**InternetQueryOption**](internetqueryoption.md) and [**InternetSetOption**](internetsetoption.md).
+Sets or retrieves an unsigned long integer value that contains the size, in bytes, of the write buffer. This option can be used on [**HINTERNET**](appendix-a-hinternet-handles.md) handles returned by [**FtpOpenFile**](/windows/win32/Wininet/nf-wininet-ftpopenfilea?branch=master) and [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master) (FTP session only). It is used by [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) and [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master).
 
 
 </dt> </dl> </dd> </dl>
@@ -1783,7 +1788,7 @@ Sets or retrieves an unsigned long integer value that contains the size, in byte
 > [!Note]  
 > WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).
 
- 
+ 
 
 ## Requirements
 
@@ -1791,15 +1796,15 @@ Sets or retrieves an unsigned long integer value that contains the size, in byte
 
 |                                     |                                                                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                   |
 | Header<br/>                   | <dl> <dt>Wininet.h; </dt> <dt>Winineti.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

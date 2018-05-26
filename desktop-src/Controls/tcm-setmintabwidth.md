@@ -1,8 +1,9 @@
 ---
 title: TCM\_SETMINTABWIDTH message
 description: Sets the minimum width of items in a tab control. You can send this message explicitly or by using the TabCtrl\_SetMinTabWidth macro.
-ms.assetid: 'c0be3d4e-774c-4233-820f-01ffbb69ecf0'
-keywords: ["TCM_SETMINTABWIDTH message Windows Controls"]
+ms.assetid: c0be3d4e-774c-4233-820f-01ffbb69ecf0
+keywords:
+- TCM_SETMINTABWIDTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_SETMINTABWIDTH message
 
-Sets the minimum width of items in a tab control. You can send this message explicitly or by using the [**TabCtrl\_SetMinTabWidth**](tabctrl-setmintabwidth.md) macro.
+Sets the minimum width of items in a tab control. You can send this message explicitly or by using the [**TabCtrl\_SetMinTabWidth**](/windows/win32/Commctrl/nf-commctrl-tabctrl_setmintabwidth?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ Returns an INT value that represents the previous minimum tab width.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

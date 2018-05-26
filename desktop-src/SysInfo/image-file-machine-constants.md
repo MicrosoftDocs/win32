@@ -1,12 +1,17 @@
 ---
-Description: 'Describes possible machine architectures.'
-ms.assetid: '1E5E4F98-925B-424D-9B3D-BC6716FBF990'
+Description: Describes possible machine architectures.
+ms.assetid: 1E5E4F98-925B-424D-9B3D-BC6716FBF990
 title: Image File Machine Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image File Machine Constants
 
-Describes possible machine architectures. Used in [**GetSystemWow64Directory2**](getsystemwow64directory2.md) and [**IsWow64GuestMachineSupported**](iswow64guestmachinesupported.md).
+Describes possible machine architectures. Used in [**GetSystemWow64Directory2**](/windows/win32/wow64apiset/nf-wow64apiset-getsystemwow64directory2a?branch=master) and [**IsWow64GuestMachineSupported**](/windows/win32/wow64apiset/nf-wow64apiset-iswow64guestmachinesupported?branch=master).
 
 <dl> <dt>
 
@@ -34,9 +39,9 @@ Unknown
 Interacts with the host and not a WOW64 guest
 
 > [!Note]  
-> This constant is available starting with Windows 10, version 1607 and Windows Server 2016.
+> This constant is available starting with Windows 10, version 1607 and Windows Server 2016.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -221,9 +226,9 @@ ARM Thumb/Thumb-2 Little-Endian
 ARM Thumb-2 Little-Endian
 
 > [!Note]  
-> This constant is available starting with Windows 7 and Windows Server 2008 R2.
+> This constant is available starting with Windows 7 and Windows Server 2008 R2.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -421,9 +426,9 @@ M32R little-endian
 ARM64 Little-Endian
 
 > [!Note]  
-> This constant is available starting with Windows 8.1 and Windows Server 2012 R2.
+> This constant is available starting with Windows 8.1 and Windows Server 2012 R2.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -447,15 +452,15 @@ CEE
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Winnt.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

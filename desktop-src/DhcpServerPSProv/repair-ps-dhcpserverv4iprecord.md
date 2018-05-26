@@ -4,13 +4,16 @@ description: Reconciles DHCP server database for the specified scopes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e442215f-8068-40ef-9603-7dd542b378fc'
-ms.prod: 'windows-server-dev'
+ms.assetid: e442215f-8068-40ef-9603-7dd542b378fc
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Repair method", "Repair method, PS_DhcpServerv4IPRecord class", "PS_DhcpServerv4IPRecord class, Repair method"]
+keywords:
+- Repair method
+- Repair method, PS_DhcpServerv4IPRecord class
+- PS_DhcpServerv4IPRecord class, Repair method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Repair method of the PS\_DhcpServerv4IPRecord class
@@ -30,11 +36,11 @@ Reconciles DHCP server database for the specified scopes.The cmdlet alias is Rec
 
 ```mof
 uint32 Repair(
-  [in]  string                ComputerName,
-  [in]  string                ScopeId[],
-  [in]  boolean               ReportOnly,
-  [in]  boolean               Force,
-  [out] DhcpServerv4IPRecords cmdletOutput[]
+  [in]  string                ComputerName,
+  [in]  string                ScopeId[],
+  [in]  boolean               ReportOnly,
+  [in]  boolean               Force,
+  [out] DhcpServerv4IPRecords cmdletOutput[]
 );
 ```
 
@@ -100,9 +106,9 @@ An embedded instance of a [**DhcpServerv4IPRecord**](dhcpserverv4iprecords.md) o
 [**PS\_DhcpServerv4IPRecord**](ps-dhcpserverv4iprecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,22 @@
 ---
 title: Actions (taskType) Element
 description: Contains the actions performed by the task.
-ms.assetid: '0a48fbd6-8a6f-4bad-9b28-0631dce15748'
-keywords: ["Actions (taskType) element Task Scheduler", "actions Task Scheduler , XML", "Actions element Task Scheduler"]
+ms.assetid: 0a48fbd6-8a6f-4bad-9b28-0631dce15748
+keywords:
+- Actions (taskType) element Task Scheduler
+- actions Task Scheduler , XML
+- Actions element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Actions
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Actions (taskType) Element
@@ -52,7 +60,7 @@ The **Actions** element is defined by the [**taskType**](taskschedulerschema-tas
 
 | Name    | Type | Description                                                                                          |
 |---------|------|------------------------------------------------------------------------------------------------------|
-| Context |      | Principal identifier of the user who is the security context for the actions of the task.<br/> |
+| Context |      | Principal identifier of the user who is the security context for the actions of the task.<br/> |
 
 
 
@@ -60,7 +68,7 @@ The **Actions** element is defined by the [**taskType**](taskschedulerschema-tas
 
 The child elements listed previously (maximum 32) are defined by the [**actionGroup**](taskschedulerschema-actiongroup-group.md) group. These elements can be added in any order.
 
-For C++ development, the actions of a task are defined in the [**IActionCollection**](iactioncollection.md) interface.
+For C++ development, the actions of a task are defined in the [**IActionCollection**](/windows/win32/taskschd/nn-taskschd-iactioncollection?branch=master) interface.
 
 For script development, the actions of a task are defined in the [**ActionCollection**](actioncollection.md) object.
 
@@ -74,8 +82,8 @@ For more information and a complete example of the XML for a task that contains 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -95,9 +103,9 @@ For more information and a complete example of the XML for a task that contains 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

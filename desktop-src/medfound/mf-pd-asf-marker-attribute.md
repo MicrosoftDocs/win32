@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the markers in an Advanced Systems Format (ASF) file. This attribute corresponds to the Marker Object in the ASF header, defined in the ASF specification.'
-ms.assetid: '6458eb5f-72a2-4723-b26b-b63516aa2df3'
-title: 'MF\_PD\_ASF\_MARKER attribute'
+---
+Description: Specifies the markers in an Advanced Systems Format (ASF) file. This attribute corresponds to the Marker Object in the ASF header, defined in the ASF specification.
+ms.assetid: 6458eb5f-72a2-4723-b26b-b63516aa2df3
+title: MF\_PD\_ASF\_MARKER attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_ASF\_MARKER attribute
@@ -16,7 +21,7 @@ Byte array
 
 This attribute applies to presentation descriptors for ASF content.
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method creates the presentation descriptor and generates this attribute from the Marker Object. The following table shows the format of the blob:
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method creates the presentation descriptor and generates this attribute from the Marker Object. The following table shows the format of the blob:
 
 
 
@@ -64,13 +69,13 @@ The first **DWORD** is the number of markers, followed by an array of markers. E
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

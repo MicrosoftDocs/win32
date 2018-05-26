@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;4.5 and earlier versions.'
-ms.assetid: '89662e62-53fb-4b50-8583-80518c6fda6d'
-title: 'Not Supported in Windows Installer 4.5'
+Description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;4.5 and earlier versions.
+ms.assetid: 89662e62-53fb-4b50-8583-80518c6fda6d
+title: Not Supported in Windows Installer 4.5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Not Supported in Windows Installer 4.5
@@ -18,9 +23,9 @@ The following features are not supported in Windows Installer 4.5 and earlier v
 
 [Installer Functions](installer-functions.md)
 
--   [**MsiEnumComponentsEx**](msienumcomponentsex.md)
--   [**MsiEnumClientsEx**](msienumclientsex.md)
--   [**MsiGetComponentPathEx**](msigetcomponentpathex.md)
+-   [**MsiEnumComponentsEx**](/windows/win32/Msi/nf-msi-msienumcomponentsexa?branch=master)
+-   [**MsiEnumClientsEx**](/windows/win32/Msi/nf-msi-msienumclientsexa?branch=master)
+-   [**MsiGetComponentPathEx**](/windows/win32/Msi/nf-msi-msigetcomponentpathexa?branch=master)
 
 [Column Data Types](column-data-types.md)
 

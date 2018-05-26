@@ -1,8 +1,43 @@
 ---
 title: Advantages of Still Image
 description: Incorporating Still Image (STI) into applications has the following advantages
-ms.assetid: '540498a3-06ab-4a40-9201-0db0d8be5e59'
-keywords: ["Still Image (STI),advantages", "STI (Still Image),advantages", "Still Image API,advantages", "still images,STI advantages", "Still Image (STI),pull model", "STI (Still Image),pull model", "Still Image API,pull model", "still images,pull model", "pull model", "Still Image (STI),push model", "STI (Still Image),push model", "Still Image API,push model", "still images,push model", "push model", "Still Image (STI),standardized device interfaces", "STI (Still Image),standardized device interfaces", "Still Image API,standardized device interfaces", "still images,standardized device interfaces", "standardized device interfaces", "Still Image (STI),simplified user model", "STI (Still Image),simplified user model", "Still Image API,simplified user model", "still images,simplified user model", "simplified user model", "Still Image (STI),architecture", "STI (Still Image),architecture", "Still Image API,architecture", "still images,STI architecture", "architecture,STI advantages", "STI architecture,advantages"]
+ms.assetid: 540498a3-06ab-4a40-9201-0db0d8be5e59
+keywords:
+- Still Image (STI),advantages
+- STI (Still Image),advantages
+- Still Image API,advantages
+- still images,STI advantages
+- Still Image (STI),pull model
+- STI (Still Image),pull model
+- Still Image API,pull model
+- still images,pull model
+- pull model
+- Still Image (STI),push model
+- STI (Still Image),push model
+- Still Image API,push model
+- still images,push model
+- push model
+- Still Image (STI),standardized device interfaces
+- STI (Still Image),standardized device interfaces
+- Still Image API,standardized device interfaces
+- still images,standardized device interfaces
+- standardized device interfaces
+- Still Image (STI),simplified user model
+- STI (Still Image),simplified user model
+- Still Image API,simplified user model
+- still images,simplified user model
+- simplified user model
+- Still Image (STI),architecture
+- STI (Still Image),architecture
+- Still Image API,architecture
+- still images,STI architecture
+- architecture,STI advantages
+- STI architecture,advantages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advantages of Still Image

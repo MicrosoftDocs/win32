@@ -1,7 +1,12 @@
 ---
 title: Resource Binding Overview
 description: The key to resource binding in DirectX 12 are the concepts of a descriptor, descriptor tables, descriptor heaps, and a root signature.
-ms.assetid: '92E100CA-822D-46B1-BD37-FF57C3FB703D'
+ms.assetid: 92E100CA-822D-46B1-BD37-FF57C3FB703D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Binding Overview

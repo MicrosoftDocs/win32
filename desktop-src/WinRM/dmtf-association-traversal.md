@@ -4,10 +4,13 @@ description: A key component of the Windows Management Instrumentation (WMI) inf
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '21e03d78-bce1-471e-a826-e676d32990ba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 21e03d78-bce1-471e-a826-e676d32990ba
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DMTF Profile Discovery Through Association Traversal

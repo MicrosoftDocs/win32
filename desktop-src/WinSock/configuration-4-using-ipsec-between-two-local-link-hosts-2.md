@@ -1,7 +1,12 @@
 ---
-Description: 'This configuration creates an IPsec Security Association (SA) between two hosts on the same subnet to perform authentication using the Authentication Header (AH) and the Message Digest 5 (MD5) hashing algorithm.'
-ms.assetid: 'ed88d8ee-ac65-4310-a988-ead50ff743fd'
-title: 'Configuration 3: Using IPsec Between Two Local-link Hosts'
+Description: This configuration creates an IPsec Security Association (SA) between two hosts on the same subnet to perform authentication using the Authentication Header (AH) and the Message Digest 5 (MD5) hashing algorithm.
+ms.assetid: ed88d8ee-ac65-4310-a988-ead50ff743fd
+title: Configuration 3 Using IPsec Between Two Local-link Hosts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuration 3: Using IPsec Between Two Local-link Hosts

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSourceRect method retrieves the current source rectangle.'
-ms.assetid: 'e9ca091f-3fd7-4e42-90e9-b7831dd488a9'
-title: 'CDrawImage.GetSourceRect method'
+Description: The GetSourceRect method retrieves the current source rectangle.
+ms.assetid: e9ca091f-3fd7-4e42-90e9-b7831dd488a9
+title: CDrawImage.GetSourceRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.GetSourceRect method
@@ -13,7 +18,7 @@ The `GetSourceRect` method retrieves the current source rectangle.
 
 ```C++
 void GetSourceRect(
-   RECT *pSourceRect
+   RECT *pSourceRect
 );
 ```
 
@@ -52,9 +57,9 @@ This method does not return a value.
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

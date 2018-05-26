@@ -1,8 +1,10 @@
 ---
 title: WM\_BACKUP\_RESTORE\_STATUS structure
 description: The WM\_BACKUP\_RESTORE\_STATUS structure holds information about a pending license backup or restore operation.
-ms.assetid: '74e94bc6-376b-4848-a9f9-11c9cb4005f2'
-keywords: ["WM_BACKUP_RESTORE_STATUS structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 74e94bc6-376b-4848-a9f9-11c9cb4005f2
+keywords:
+- WM_BACKUP_RESTORE_STATUS structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_BACKUP\_RESTORE\_STATUS structure
@@ -23,7 +30,7 @@ The **WM\_BACKUP\_RESTORE\_STATUS** structure holds information about a pending 
 ```C++
 typedef struct WM_BACKUP_RESTORE_STATUS {
   MSDRM_STATUS eStatus;
-  BSTR         bstrError;
+  BSTR         bstrError;
 } ;
 ```
 
@@ -68,9 +75,9 @@ This structure is received when you call the [**IWMDRMLicenseBackupRestoreStatus
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

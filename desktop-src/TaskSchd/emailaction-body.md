@@ -1,8 +1,11 @@
 ---
 title: EmailAction.Body property
 description: For scripting, gets or sets the body of the email that contains the email message.
-ms.assetid: '0015c2b9-9278-407b-b3cf-492f2d95bcb6'
-keywords: ["Body property Task Scheduler", "Body property Task Scheduler , EmailAction object", "EmailAction object Task Scheduler , Body property"]
+ms.assetid: 0015c2b9-9278-407b-b3cf-492f2d95bcb6
+keywords:
+- Body property Task Scheduler
+- Body property Task Scheduler , EmailAction object
+- EmailAction object Task Scheduler , Body property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EmailAction.Body property
@@ -44,10 +52,10 @@ When setting this property value, the value can be text that is retrieved from a
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows 7<br/>                                                                    |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows 7<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -63,9 +71,9 @@ When setting this property value, the value can be text that is retrieved from a
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

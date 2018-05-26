@@ -1,8 +1,9 @@
 ---
 title: External.templateBeingDisplayedInLocalLibrary
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: 'a1399c20-804b-4413-be9d-bcf160d75d29'
-keywords: ["External.templateBeingDisplayedInLocalLibrary Windows Media Player"]
+ms.assetid: a1399c20-804b-4413-be9d-bcf160d75d29
+keywords:
+- External.templateBeingDisplayedInLocalLibrary Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.templateBeingDisplayedInLocalLibrary
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **templateBeingDisplayedInLocalLibrary** property indicates whether the feed represented by the current discovery page is being displayed in the local library tree-view control.
 
@@ -56,9 +62,9 @@ A discovery page that represents a radio feed should inspect the **templateBeing
 [**External Object for Type 1 Online Stores**](external-object-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

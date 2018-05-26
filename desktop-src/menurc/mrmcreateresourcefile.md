@@ -1,8 +1,9 @@
 ---
 title: MrmCreateResourceFile function
 description: Creates a PRI file (named \ 0034;resources.pri \ 0034;), or files, on disk in the specified folder. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
-ms.assetid: 'B9CE0638-4650-4E1A-BE5E-4CC7C6614030'
-keywords: ["MrmCreateResourceFile function Menus and Other Resources"]
+ms.assetid: B9CE0638-4650-4E1A-BE5E-4CC7C6614030
+keywords:
+- MrmCreateResourceFile function Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmCreateResourceFile function
@@ -24,10 +30,10 @@ Creates a PRI file (named "resources.pri"), or files, on disk in the specified f
 
 ```C++
 HRESULT HRESULT MrmCreateResourceFile(
-  _In_ MrmResourceIndexerHandle indexer,
-  _In_ MrmPackagingMode         packagingMode,
-  _In_ MrmPackagingOptions      packagingOptions,
-       PCWSTR                   outputDirectory
+  _In_ MrmResourceIndexerHandle indexer,
+  _In_ MrmPackagingMode         packagingMode,
+  _In_ MrmPackagingOptions      packagingOptions,
+       PCWSTR                   outputDirectory
 );
 ```
 
@@ -85,7 +91,7 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Mrmsupport.lib</dt> </dl>       |
@@ -100,9 +106,9 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

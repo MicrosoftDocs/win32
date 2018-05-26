@@ -1,7 +1,12 @@
 ---
 title: Working with MCI Devices
 description: Working with MCI Devices
-ms.assetid: '29c4dc94-276e-4acf-8cad-f52bdeefd9e7'
+ms.assetid: 29c4dc94-276e-4acf-8cad-f52bdeefd9e7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with MCI Devices

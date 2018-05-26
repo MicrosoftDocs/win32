@@ -1,13 +1,16 @@
 ---
-title: What's New in MI
+title: Whats New in MI
 description: Windows 8 and Windows Server 2012 introduced new ways of creating Windows Management Infrastructure (MI) applications.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1D29C47F-2630-4C5B-86D8-DF13BF02565C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 1D29C47F-2630-4C5B-86D8-DF13BF02565C
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What's New in MI?

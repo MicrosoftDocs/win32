@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the next specified number of provider types in the enumeration sequence.'
-ms.assetid: '9a1d0db0-1e9b-48f8-b373-2a82a48e4f63'
-title: 'IEnumPStoreTypes::Next method'
+---
+Description: Gets the next specified number of provider types in the enumeration sequence.
+ms.assetid: 9a1d0db0-1e9b-48f8-b373-2a82a48e4f63
+title: IEnumPStoreTypesNext method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumPStoreTypes::Next method

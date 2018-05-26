@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds an alternate local network name for the computer from which it is called.'
-ms.assetid: 'e4d8355b-0492-4b6f-988f-3887e63a2bba'
+---
+Description: Adds an alternate local network name for the computer from which it is called.
+ms.assetid: e4d8355b-0492-4b6f-988f-3887e63a2bba
 title: AddLocalAlternateComputerName function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddLocalAlternateComputerName function

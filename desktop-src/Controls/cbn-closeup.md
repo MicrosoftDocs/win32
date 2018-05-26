@@ -1,8 +1,9 @@
 ---
 title: CBN\_CLOSEUP notification code
 description: Sent when the list box of a combo box has been closed. The parent window of the combo box receives this notification code through the WM\_COMMAND message.
-ms.assetid: '79b2108e-1ef3-433d-a0b0-ac9ad1a93905'
-keywords: ["CBN_CLOSEUP notification code Windows Controls"]
+ms.assetid: 79b2108e-1ef3-433d-a0b0-ac9ad1a93905
+keywords:
+- CBN_CLOSEUP notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBN\_CLOSEUP notification code
@@ -59,8 +65,8 @@ This notification code is not sent to a combo box that has the [**CBS\_SIMPLE**]
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -90,9 +96,9 @@ This notification code is not sent to a combo box that has the [**CBS\_SIMPLE**]
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The LookupWordSetString function returns the string corresponding to the requested value from a labeled set.'
-ms.assetid: 'e8d158a1-8544-4c10-b8e8-46888c1097e4'
+Description: The LookupWordSetString function returns the string corresponding to the requested value from a labeled set.
+ms.assetid: e8d158a1-8544-4c10-b8e8-46888c1097e4
 title: LookupWordSetString function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LookupWordSetString function
@@ -13,8 +18,8 @@ The **LookupWordSetString** function returns the string corresponding to the req
 
 ```C++
 LPBYTE WINAPI LookupWordSetString(
-   LPSET lpSet,
-   WORD  Value
+   LPSET lpSet,
+   WORD  Value
 );
 ```
 
@@ -50,17 +55,17 @@ If the function is unsuccessful, the specified value is not in the set, the retu
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Parser.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

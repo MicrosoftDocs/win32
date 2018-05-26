@@ -1,8 +1,9 @@
 ---
 title: glCopyTexSubImage1D function
 description: The glCopyTexSubImage1D function copies a sub-image of a one-dimensional texture image from the framebuffer.
-ms.assetid: '718aee8a-6dce-49e1-a441-19beccd89f8d'
-keywords: ["glCopyTexSubImage1D function OpenGL"]
+ms.assetid: 718aee8a-6dce-49e1-a441-19beccd89f8d
+keywords:
+- glCopyTexSubImage1D function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glCopyTexSubImage1D function
@@ -22,12 +28,12 @@ The **glCopyTexSubImage1D** function copies a sub-image of a one-dimensional tex
 
 ```C++
 void WINAPI glCopyTexSubImage1D(
-   GLenum  target,
-   GLint   level,
-   GLint   xoffset,
-   GLint   x,
-   GLint   y,
-   GLsizei width
+   GLenum  target,
+   GLint   level,
+   GLint   xoffset,
+   GLint   x,
+   GLint   y,
+   GLsizei width
 );
 ```
 
@@ -132,7 +138,7 @@ You cannot include calls to **glCopyTexSubImage1D** in display lists.
 > [!Note]  
 > The **glCopyTexSubImage1D** function is only available in OpenGL version 1.1 or later.
 
- 
+ 
 
 Texturing has no effect in color-index mode. The [**glPixelStore**](glpixelstore-functions.md) and [**glPixelTransfer**](glpixeltransfer.md) functions affect texture images in exactly the way they affect the way pixels are drawn using [**glDrawPixels**](gldrawpixels.md).
 
@@ -148,8 +154,8 @@ The following functions retrieve information related to **glCopyTexSubImage1D**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -202,9 +208,9 @@ The following functions retrieve information related to **glCopyTexSubImage1D**:
 [**glTexParameter**](gltexparameter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

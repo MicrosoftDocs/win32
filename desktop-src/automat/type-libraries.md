@@ -1,7 +1,12 @@
 ---
 title: Type Libraries
 description: A type library is a file or part of a file that describes the type of one or more ActiveX objects.
-ms.assetid: '7a66764e-6f5a-4f27-a64f-aa3c5e058eef'
+ms.assetid: 7a66764e-6f5a-4f27-a64f-aa3c5e058eef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type Libraries

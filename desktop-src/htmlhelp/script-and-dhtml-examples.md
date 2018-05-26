@@ -1,7 +1,12 @@
 ---
 title: Script and DHTML Examples
 description: The examples in this reference demonstrate how you can use scripts and Dynamic HTML (DHTML) to add functionality to your help system.
-ms.assetid: '36F42A81-C2D1-49d4-8394-F12E621ED64A'
+ms.assetid: 36F42A81-C2D1-49d4-8394-F12E621ED64A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Script and DHTML Examples

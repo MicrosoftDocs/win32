@@ -1,14 +1,20 @@
 ---
 title: controlGuid (ChannelPublishingType) Element
 description: Identifies the session GUID for an ETW session that contains WPP events.
-ms.assetid: 'a9e86468-8a97-4689-a258-85d253debf55'
-keywords: ["controlGuid element EventLog"]
+ms.assetid: a9e86468-8a97-4689-a258-85d253debf55
+keywords:
+- controlGuid element EventLog
 topic_type:
 - apiref
 api_name:
 - controlGuid
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # controlGuid (ChannelPublishingType) Element
@@ -29,8 +35,8 @@ The **controlGuid** element is defined by the [**ChannelPublishingType**](eventm
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **controlGuid** element is defined by the [**ChannelPublishingType**](eventm
 [**publishing (ChannelType)**](eventmanifestschema-publishing-channeltype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

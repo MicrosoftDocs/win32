@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the instruction identifier byte from the application protocol data unit (APDU).'
-ms.assetid: '294f51cd-0a13-4dfb-bf02-9edd11a7085e'
-title: 'ISCardCmd::get\_InstructionId method'
+---
+Description: Retrieves the instruction identifier byte from the application protocol data unit (APDU).
+ms.assetid: 294f51cd-0a13-4dfb-bf02-9edd11a7085e
+title: ISCardCmdget\_InstructionId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardCmd::get\_InstructionId method

@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.gainLevel7
 description: The gainLevel7 attribute specifies or retrieves the gain level of band 7.
-ms.assetid: 'f39e1475-b0c8-4204-b2d8-943bc8b4f830'
-keywords: ["EQUALIZERSETTINGS.gainLevel7 Windows Media Player"]
+ms.assetid: f39e1475-b0c8-4204-b2d8-943bc8b4f830
+keywords:
+- EQUALIZERSETTINGS.gainLevel7 Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.gainLevel7
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.gainLevel7
@@ -21,7 +27,7 @@ The **gainLevel7** attribute specifies or retrieves the gain level of band 7.
 
 ## Possible Values
 
-This attribute is a read/write **Number** (**float**) with a value normally ranging from –20 to +20. It has a default value of zero.
+This attribute is a read/write **Number** (**float**) with a value normally ranging from  20 to +20. It has a default value of zero.
 
 ## Remarks
 
@@ -49,9 +55,9 @@ If this attribute is not specified, the previous value will be retained.
 [**EQUALIZERSETTINGS. gainLevels**](equalizersettings-gainlevels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the parent class for page fault events. The following syntax is simplified from MOF code.'
-ms.assetid: 'cc349e75-fe81-427e-8cf9-15c76e8e4dad'
-title: 'PageFault\_V2 class'
+---
+Description: This class is the parent class for page fault events. The following syntax is simplified from MOF code.
+ms.assetid: cc349e75-fe81-427e-8cf9-15c76e8e4dad
+title: PageFault\_V2 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PageFault\_V2 class

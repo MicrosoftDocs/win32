@@ -1,7 +1,12 @@
 ---
 title: Query Section of .Idq Files
 description: Query Section of .Idq Files
-ms.assetid: '44325f02-c6bb-4580-b321-a61a172bc4aa'
+ms.assetid: 44325f02-c6bb-4580-b321-a61a172bc4aa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query Section of .Idq Files

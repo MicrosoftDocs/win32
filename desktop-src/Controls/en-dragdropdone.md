@@ -1,8 +1,9 @@
 ---
 title: EN\_DRAGDROPDONE notification code
-description: Notifies a rich edit control's parent window that the drag-and-drop operation has completed. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
-ms.assetid: '3c8b95cc-86ef-4aec-b551-11dca50ea5c5'
-keywords: ["EN_DRAGDROPDONE notification code Windows Controls"]
+description: Notifies a rich edit controls parent window that the drag-and-drop operation has completed. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
+ms.assetid: 3c8b95cc-86ef-4aec-b551-11dca50ea5c5
+keywords:
+- EN_DRAGDROPDONE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_DRAGDROPDONE notification code
@@ -33,7 +39,7 @@ EN_DRAGDROPDONE
 *lParam* 
 </dt> <dd>
 
-An [**NMHDR**](nmhdr.md) structure.
+An [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure.
 
 </dd> </dl>
 
@@ -51,8 +57,8 @@ To receive an EN\_DRAGDROPDONE notification code, specify the [**ENM\_DRAGDROPDO
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -67,9 +73,9 @@ To receive an EN\_DRAGDROPDONE notification code, specify the [**ENM\_DRAGDROPDO
 [**EM\_SETEVENTMASK**](em-seteventmask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

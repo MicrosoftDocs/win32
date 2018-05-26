@@ -1,8 +1,16 @@
 ---
 title: RequestReplyTcpClientExample
 description: This example shows a TCP client that sends request-reply messages.
-ms.assetid: '0d9b9581-3563-4fce-8790-af7ebb9e8175'
-keywords: ["RequestReplyTcpClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 0d9b9581-3563-4fce-8790-af7ebb9e8175
+keywords:
+- RequestReplyTcpClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestReplyTcpClientExample

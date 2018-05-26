@@ -4,11 +4,12 @@ description: Reads a block of data from the current open file, into a buffer.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '01576d41-3cd6-4540-966b-7d98561f7b8c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 01576d41-3cd6-4540-966b-7d98561f7b8c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DsBackupRead function Active Directory"]
+keywords:
+- DsBackupRead function Active Directory
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DsBackupRead function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
 
 The **DsBackupRead** function reads a block of data from the current open file, into a buffer. The client application is expected to call this function repeatedly until the entire backup file has been received. The [**DsBackupOpenFile**](dsbackupopenfile.md) function provides the entire size of the backup file.
 
@@ -30,10 +34,10 @@ The **DsBackupRead** function reads a block of data from the current open file, 
 
 ```C++
 HRESULT DsBackupRead(
-  _In_  HBC    hbc,
-  _In_  PVOID  pvBuffer,
-  _In_  DWORD  cbBuffer,
-  _Out_ PDWORD pcbRead
+  _In_  HBC    hbc,
+  _In_  PVOID  pvBuffer,
+  _In_  DWORD  cbBuffer,
+  _Out_ PDWORD pcbRead
 );
 ```
 
@@ -97,8 +101,8 @@ The end of the backup file was reached.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Ntdsbcli.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Ntdsbcli.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdsbcli.dll</dt> </dl> |
@@ -124,9 +128,9 @@ The end of the backup file was reached.
 [Directory Backup Functions](directory-backup-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

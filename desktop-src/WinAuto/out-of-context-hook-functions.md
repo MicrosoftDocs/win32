@@ -1,7 +1,12 @@
 ---
 title: Out-of-Context Hook Functions
-ms.assetid: '6876d74a-9c15-4f89-92ad-d072d9b528f7'
+ms.assetid: 6876d74a-9c15-4f89-92ad-d072d9b528f7
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Out-of-Context Hook Functions

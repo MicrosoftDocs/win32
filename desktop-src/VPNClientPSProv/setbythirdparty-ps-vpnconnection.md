@@ -2,11 +2,14 @@
 title: SetByThirdParty method of the PS\_VpnConnection class
 description: Modifies a third party virtual private network (VPN) connection profile.
 audience: developer
-ms.assetid: 'EF33F2D7-BE7D-461A-97A3-9D59B20A0462'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: EF33F2D7-BE7D-461A-97A3-9D59B20A0462
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByThirdParty method", "SetByThirdParty method, PS_VpnConnection class", "PS_VpnConnection class, SetByThirdParty method"]
+keywords:
+- SetByThirdParty method
+- SetByThirdParty method, PS_VpnConnection class
+- PS_VpnConnection class, SetByThirdParty method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByThirdParty method of the PS\_VpnConnection class
@@ -26,19 +32,19 @@ Modifies a third party virtual private network (VPN) connection profile.
 
 ```mof
 uint32 SetByThirdParty(
-  [in]  string                  Name,
-  [in]  string                  ServerAddress,
-  [in]  boolean                 RememberCredential,
-  [in]  boolean                 SplitTunneling,
-  [in]  boolean                 PassThru,
-  [in]  boolean                 Force,
-  [in]  VpnServerAddress        ServerList[],
-  [in]  string                  DnsSuffix,
-  [in]  uint32                  IdleDisconnectSeconds,
-  [in]  string                  PlugInApplicationID,
-  [in]  string                  CustomConfiguration,
-  [in]  boolean                 ThirdPartyVpn,
-  [out] ThirdPartyVpnConnection cmdletOutput
+  [in]  string                  Name,
+  [in]  string                  ServerAddress,
+  [in]  boolean                 RememberCredential,
+  [in]  boolean                 SplitTunneling,
+  [in]  boolean                 PassThru,
+  [in]  boolean                 Force,
+  [in]  VpnServerAddress        ServerList[],
+  [in]  string                  DnsSuffix,
+  [in]  uint32                  IdleDisconnectSeconds,
+  [in]  string                  PlugInApplicationID,
+  [in]  string                  CustomConfiguration,
+  [in]  boolean                 ThirdPartyVpn,
+  [out] ThirdPartyVpnConnection cmdletOutput
 );
 ```
 
@@ -145,8 +151,8 @@ When this method returns, contains the [**ThirdPartyVpnConnection**](thirdpartyv
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                             |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -160,9 +166,9 @@ When this method returns, contains the [**ThirdPartyVpnConnection**](thirdpartyv
 [**PS\_VpnConnection**](ps-vpnconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

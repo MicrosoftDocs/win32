@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer FindVirtualMachine method
 description: The FindVirtualMachine method returns a virtual machine object matching the requested configuration.
-ms.assetid: '47c47041-15b0-4ae5-a1cf-4d8ce6ca34ff'
-keywords: ["FindVirtualMachine method Virtual Server", "FindVirtualMachine method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , FindVirtualMachine method"]
+ms.assetid: 47c47041-15b0-4ae5-a1cf-4d8ce6ca34ff
+keywords:
+- FindVirtualMachine method Virtual Server
+- FindVirtualMachine method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , FindVirtualMachine method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::FindVirtualMachine method
@@ -22,8 +30,8 @@ The **FindVirtualMachine** method returns a virtual machine object matching the 
 
 ```C++
 HRESULT FindVirtualMachine(
-  [in]  BSTR              configurationName,
-  [out] IVMVirtualMachine **virtualMachine
+  [in]  BSTR              configurationName,
+  [out] IVMVirtualMachine **virtualMachine
 );
 ```
 
@@ -62,7 +70,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,8 +82,8 @@ Virtual machine names are case-insensitive, for example, "MyVM" and "myvm" refer
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -87,9 +95,9 @@ Virtual machine names are case-insensitive, for example, "MyVM" and "myvm" refer
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

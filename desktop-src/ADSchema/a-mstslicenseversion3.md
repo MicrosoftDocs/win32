@@ -4,17 +4,22 @@ description: Version of the third terminal server per user CAL.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '93af038f-0324-4b39-a083-1790fc998557'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 93af038f-0324-4b39-a083-1790fc998557
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-TS-LicenseVersion3 attribute AD Schema", "msTSLicenseVersion3 attribute AD Schema"]
+keywords:
+- MS-TS-LicenseVersion3 attribute AD Schema
+- msTSLicenseVersion3 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-TS-LicenseVersion3
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-TS-LicenseVersion3 attribute

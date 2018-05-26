@@ -1,7 +1,12 @@
-﻿---
-Description: 'Identifies the component that generated a capture event.'
-ms.assetid: 'DCCF3054-AF14-44C7-84C0-B03E35B5D90A'
-title: 'MF\_CAPTURE\_ENGINE\_EVENT\_GENERATOR\_GUID attribute'
+---
+Description: Identifies the component that generated a capture event.
+ms.assetid: DCCF3054-AF14-44C7-84C0-B03E35B5D90A
+title: MF\_CAPTURE\_ENGINE\_EVENT\_GENERATOR\_GUID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_CAPTURE\_ENGINE\_EVENT\_GENERATOR\_GUID attribute
@@ -14,9 +19,9 @@ Identifies the component that generated a capture event.
 
 ## Remarks
 
-This attribute appears on some events from the capture engine. To get this attribute, call [**IMFAttributes::GetGUID**](imfattributes-getguid.md) on the event object. The event object is passed to the application through the [**IMFCaptureEngineOnEventCallback::OnEvent**](imfcaptureengineoneventcallback-onevent.md) method.
+This attribute appears on some events from the capture engine. To get this attribute, call [**IMFAttributes::GetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getguid?branch=master) on the event object. The event object is passed to the application through the [**IMFCaptureEngineOnEventCallback::OnEvent**](/windows/win32/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineoneventcallback-onevent?branch=master) method.
 
-The value is an interface identifier for the component that generated the event. For example, the value **IID\_IMFCapturePreviewSink** indicates the preview sink ([**IMFCapturePreviewSink**](imfcapturepreviewsink.md)). Not every capture event contains this attribute.
+The value is an interface identifier for the component that generated the event. For example, the value **IID\_IMFCapturePreviewSink** indicates the preview sink ([**IMFCapturePreviewSink**](/windows/win32/mfcaptureengine/nn-mfcaptureengine-imfcapturepreviewsink?branch=master)). Not every capture event contains this attribute.
 
 ## Requirements
 
@@ -40,7 +45,7 @@ The value is an interface identifier for the component that generated the event.
 [Capture Engine Attributes](capture-engine-attributes.md)
 </dt> <dt>
 
-[**IMFCaptureEngine::Initialize**](imfcaptureengine-initialize.md)
+[**IMFCaptureEngine::Initialize**](/windows/win32/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize?branch=master)
 </dt> </dl>
 
  

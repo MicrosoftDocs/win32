@@ -1,14 +1,20 @@
 ---
 title: RelatedActivities element
 description: A container element for one or more ActivityReference elements.
-ms.assetid: '2E226927-EEBE-4AD9-88C0-A4B1A7B222CD'
-keywords: ["RelatedActivities element Access Execution Engine"]
+ms.assetid: 2E226927-EEBE-4AD9-88C0-A4B1A7B222CD
+keywords:
+- RelatedActivities element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RelatedActivities
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RelatedActivities element
@@ -70,9 +76,9 @@ ActivityReference
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

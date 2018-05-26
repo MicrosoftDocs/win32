@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RKeyPFXInstall function is not supported.'
-ms.assetid: '061e3d9d-fc92-4204-92f3-f3425afdbe27'
+---
+Description: The RKeyPFXInstall function is not supported.
+ms.assetid: 061e3d9d-fc92-4204-92f3-f3425afdbe27
 title: RKeyPFXInstall function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RKeyPFXInstall function

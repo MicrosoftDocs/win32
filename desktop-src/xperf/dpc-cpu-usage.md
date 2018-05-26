@@ -1,8 +1,14 @@
 ---
 title: DPC CPU Usage
 description: DPC CPU Usage
-ms.assetid: '9ada637c-2a31-4626-8231-5cc53ea40824'
-keywords: ["usage graph"]
+ms.assetid: 9ada637c-2a31-4626-8231-5cc53ea40824
+keywords:
+- usage graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DPC CPU Usage

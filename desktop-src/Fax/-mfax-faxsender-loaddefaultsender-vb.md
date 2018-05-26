@@ -1,7 +1,12 @@
-﻿---
-Description: 'The LoadDefaultSender method fills the FaxSender object with the default sender information.'
-ms.assetid: '97783f1e-51ba-49da-b178-5c62be537979'
-title: 'FaxSender.LoadDefaultSender method'
+---
+Description: The LoadDefaultSender method fills the FaxSender object with the default sender information.
+ms.assetid: 97783f1e-51ba-49da-b178-5c62be537979
+title: FaxSender.LoadDefaultSender method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSender.LoadDefaultSender method
@@ -50,7 +55,7 @@ This method can return remote procedure call (RPC) return values. For more infor
 [**FaxSender**](-mfax-faxsender.md)
 </dt> <dt>
 
-[**IFaxSender**](-mfax-faxsender-cpp.md)
+[**IFaxSender**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsender?branch=master)
 </dt> </dl>
 
  

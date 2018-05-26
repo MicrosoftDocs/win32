@@ -1,8 +1,10 @@
 ---
 title: MPEXECUTION\_STATUS enumeration
 description: Possible threat execution status.
-ms.assetid: '89D6BD9F-4A4C-48F5-BFD1-D09A240EB253'
-keywords: ["MPEXECUTION_STATUS enumeration Legacy Windows Environment Features", "PMPEXECUTION_STATUS enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 89D6BD9F-4A4C-48F5-BFD1-D09A240EB253
+keywords:
+- MPEXECUTION_STATUS enumeration Legacy Windows Environment Features
+- PMPEXECUTION_STATUS enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEXECUTION\_STATUS enumeration
@@ -22,11 +29,11 @@ Possible threat execution status.
 
 ```C++
 typedef enum tagMPEXECUTION_STATUS { 
-  MP_EXECUTION_STATUS_UNKNOWN        = 0,
-  MP_EXECUTION_STATUS_BLOCKED        = 1,
-  MP_EXECUTION_STATUS_ALLOWED        = 2,
-  MP_EXECUTION_STATUS_EXECUTING      = 3,
-  MP_EXECUTION_STATUS_NOT_EXECUTING  = 4
+  MP_EXECUTION_STATUS_UNKNOWN        = 0,
+  MP_EXECUTION_STATUS_BLOCKED        = 1,
+  MP_EXECUTION_STATUS_ALLOWED        = 2,
+  MP_EXECUTION_STATUS_EXECUTING      = 3,
+  MP_EXECUTION_STATUS_NOT_EXECUTING  = 4
 } MPEXECUTION_STATUS, *PMPEXECUTION_STATUS;
 ```
 
@@ -77,15 +84,15 @@ Threat is not executing, and is only available from the engine during remediatio
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

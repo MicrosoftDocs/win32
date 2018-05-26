@@ -1,7 +1,12 @@
-﻿---
-Description: 'Convert the specified mesh subset into a series of strips.'
-ms.assetid: '4f005383-6a5a-4393-ac88-202e45946d3d'
+---
+Description: Convert the specified mesh subset into a series of strips.
+ms.assetid: 4f005383-6a5a-4393-ac88-202e45946d3d
 title: D3DXConvertMeshSubsetToStrips function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXConvertMeshSubsetToStrips function
@@ -59,9 +64,9 @@ Combination of one or more flags from the [**D3DXMESH**](direct3d9.d3dxmesh) enu
 *ppIndexBuffer* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DINDEXBUFFER9**](idirect3dindexbuffer9.md)\***
+Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dindexbuffer9?branch=master)\***
 
-Pointer to an [**IDirect3DIndexBuffer9**](idirect3dindexbuffer9.md) interface, representing index buffer containing the strip.
+Pointer to an [**IDirect3DIndexBuffer9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dindexbuffer9?branch=master) interface, representing index buffer containing the strip.
 
 </dd> <dt>
 

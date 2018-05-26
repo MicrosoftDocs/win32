@@ -1,8 +1,11 @@
 ---
 title: AffectedMetricCollection GetItem method
 description: Returns a metric reference from the AffectedMetricCollection.
-ms.assetid: '077FA405-B473-431D-9994-6BEAD5906A77'
-keywords: ["GetItem method Access Execution Engine", "GetItem method Access Execution Engine , AffectedMetricCollection interface", "AffectedMetricCollection interface Access Execution Engine , GetItem method"]
+ms.assetid: 077FA405-B473-431D-9994-6BEAD5906A77
+keywords:
+- GetItem method Access Execution Engine
+- GetItem method Access Execution Engine , AffectedMetricCollection interface
+- AffectedMetricCollection interface Access Execution Engine , GetItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AffectedMetricCollection::GetItem method
@@ -22,8 +30,8 @@ Returns a metric reference from the **AffectedMetricCollection**.
 
 ```C++
 virtual HRESULT GetItem(
-  [in]  INT     index,
-  [out] LPCWSTR *metricReference
+  [in]  INT     index,
+  [out] LPCWSTR *metricReference
 ) = 0;
 ```
 
@@ -65,8 +73,8 @@ A metric reference is the value of an **Issue/AffectedMetrics/MetricReference** 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -79,9 +87,9 @@ A metric reference is the value of an **Issue/AffectedMetrics/MetricReference** 
 [**AffectedMetricCollection**](affectedmetriccollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

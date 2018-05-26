@@ -1,7 +1,12 @@
 ---
-Description: 'Evaluates an expression, and displays a diagnostic message if the expression is FALSE. Ignored in retail builds.'
-ms.assetid: '8c3815bb-3164-4066-a947-974e791af5cd'
+Description: Evaluates an expression, and displays a diagnostic message if the expression is FALSE. Ignored in retail builds.
+ms.assetid: 8c3815bb-3164-4066-a947-974e791af5cd
 title: ASSERT macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASSERT macro
@@ -13,7 +18,7 @@ Evaluates an expression, and displays a diagnostic message if the expression is 
 
 ```C++
 void ASSERT(
-   BOOL cond
+   BOOL cond
 );
 ```
 
@@ -64,9 +69,9 @@ ASSERT(rtStartTime <= rtEndTime);
 [Assert and Breakpoint Macros](assert-and-breakpoint-macros.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

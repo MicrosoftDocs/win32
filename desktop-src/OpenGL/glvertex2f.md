@@ -1,8 +1,9 @@
 ---
 title: glVertex2f function
 description: Specifies a vertex.
-ms.assetid: 'd351cdc1-efaa-4c06-96d9-c4ef613c64df'
-keywords: ["glVertex2f function OpenGL"]
+ms.assetid: d351cdc1-efaa-4c06-96d9-c4ef613c64df
+keywords:
+- glVertex2f function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glVertex2f function
@@ -22,8 +28,8 @@ Specifies a vertex.
 
 ```C++
 void WINAPI glVertex2f(
-   GLfloat x,
-   GLfloat y
+   GLfloat x,
+   GLfloat y
 );
 ```
 
@@ -61,8 +67,8 @@ The glVertex function commands are used within [**glBegin**](glbegin.md)/[**glEn
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -106,9 +112,9 @@ The glVertex function commands are used within [**glBegin**](glbegin.md)/[**glEn
 [**glTexCoord**](gltexcoord-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

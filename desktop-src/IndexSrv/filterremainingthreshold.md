@@ -1,7 +1,12 @@
 ---
 title: FilterRemainingThreshold
 description: FilterRemainingThreshold
-ms.assetid: 'ea5d9671-aec7-4f3f-a88c-0e315d7ad5e3'
+ms.assetid: ea5d9671-aec7-4f3f-a88c-0e315d7ad5e3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterRemainingThreshold

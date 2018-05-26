@@ -1,7 +1,12 @@
 ---
-Description: 'The DefaultAudioLanguage property retrieves the default audio language.'
-ms.assetid: '7ab7760c-110a-4b0d-919a-32244144467f'
+Description: The DefaultAudioLanguage property retrieves the default audio language.
+ms.assetid: 7ab7760c-110a-4b0d-919a-32244144467f
 title: DefaultAudioLanguage Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefaultAudioLanguage Property

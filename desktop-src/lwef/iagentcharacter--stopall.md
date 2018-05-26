@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter StopAll
 description: IAgentCharacter StopAll
-ms.assetid: 'cb0ce220-7b35-45c0-b587-30939d26740f'
+ms.assetid: cb0ce220-7b35-45c0-b587-30939d26740f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::StopAll
@@ -36,7 +41,7 @@ A bitfield that indicates the types of requests to stop (and remove from the cha
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -45,9 +50,9 @@ A bitfield that indicates the types of requests to stop (and remove from the cha
 [**IAgentCharacter::Stop**](iagentcharacter--stop.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

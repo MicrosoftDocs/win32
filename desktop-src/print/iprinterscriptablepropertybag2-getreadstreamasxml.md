@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '1C6477C4-3038-4F8A-871F-7F336E631C8F'
-title: 'IPrinterScriptablePropertyBag2::GetReadStreamAsXML method'
+---
+Description: .
+ms.assetid: 1C6477C4-3038-4F8A-871F-7F336E631C8F
+title: IPrinterScriptablePropertyBag2GetReadStreamAsXML method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptablePropertyBag2::GetReadStreamAsXML method

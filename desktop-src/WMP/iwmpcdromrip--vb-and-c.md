@@ -1,8 +1,10 @@
 ---
 title: IWMPCdromRip (VB and C\ ) interface
 description: Provides properties and methods to manage copying, or ripping, tracks from an audio CD.Ripping a CD by using the IWMPCdromRip interface has the same effect as ripping music by using the Windows Media Player user interface.
-ms.assetid: 'd7fbfc68-61b5-45bf-8df5-e3125a51a4d8'
-keywords: ["IWMPCdromRip (VB and C ) interface Windows Media Player", "IWMPCdromRip (VB and C ) interface Windows Media Player , described"]
+ms.assetid: d7fbfc68-61b5-45bf-8df5-e3125a51a4d8
+keywords:
+- IWMPCdromRip (VB and C ) interface Windows Media Player
+- IWMPCdromRip (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromRip (VB and C#) interface
@@ -41,7 +48,7 @@ The **IWMPCdromRip (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +63,7 @@ The **IWMPCdromRip (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPCdromRip** interface by casting the **IWMPCdrom** interface of the CD that you wish to rip.
 
@@ -80,9 +87,9 @@ Get an **IWMPCdromRip** interface by casting the **IWMPCdrom** interface of the 
 [**Ripping a CD**](ripping-a-cd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

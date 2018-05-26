@@ -1,12 +1,17 @@
 ---
-Description: 'The PdhVbUpdateLog function function updates the current query and writes new data to the log file. This function calls PdhUpdateLog.'
-ms.assetid: 'a7a3ad18-2d61-448e-9764-ba363398e804'
+Description: The PdhVbUpdateLog function function updates the current query and writes new data to the log file. This function calls PdhUpdateLog.
+ms.assetid: a7a3ad18-2d61-448e-9764-ba363398e804
 title: PdhVbUpdateLog function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PdhVbUpdateLog function
 
-The **PdhVbUpdateLog** function function updates the current query and writes new data to the log file. This function calls [**PdhUpdateLog**](pdhupdatelog.md).
+The **PdhVbUpdateLog** function function updates the current query and writes new data to the log file. This function calls [**PdhUpdateLog**](/windows/win32/Pdh/nf-pdh-pdhupdateloga?branch=master).
 
 Function PdhVbUpdateLog( \_ ByVal hLog As PDH\_HLOG, \_ ByVal szUserString As LPCTSTR \_ )
 
@@ -46,7 +51,7 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,8 +63,8 @@ There must be a currently opened query, and the desired counters must be added t
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Library<br/>                  | <dl> <dt>Pdh.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 
@@ -69,7 +74,7 @@ There must be a currently opened query, and the desired counters must be added t
 
 <dl> <dt>
 
-[**PdhUpdateLog**](pdhupdatelog.md)
+[**PdhUpdateLog**](/windows/win32/Pdh/nf-pdh-pdhupdateloga?branch=master)
 </dt> <dt>
 
 [**PdhVbGetLogFileSize**](pdhvbgetlogfilesize.md)
@@ -78,9 +83,9 @@ There must be a currently opened query, and the desired counters must be added t
 [**PdhVbOpenLog**](pdhvbopenlog.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

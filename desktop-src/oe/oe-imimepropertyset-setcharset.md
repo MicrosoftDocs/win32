@@ -1,8 +1,11 @@
 ---
 title: IMimePropertySet SetCharset method
 description: Sets the character set of the property set.
-ms.assetid: '61d0bd71-b5f9-4d04-b327-3c0d5990cdd2'
-keywords: ["SetCharset method Windows Mail (formerly Outlook Express)", "SetCharset method Windows Mail (formerly Outlook Express) , IMimePropertySet interface", "IMimePropertySet interface Windows Mail (formerly Outlook Express) , SetCharset method"]
+ms.assetid: 61d0bd71-b5f9-4d04-b327-3c0d5990cdd2
+keywords:
+- SetCharset method Windows Mail (formerly Outlook Express)
+- SetCharset method Windows Mail (formerly Outlook Express) , IMimePropertySet interface
+- IMimePropertySet interface Windows Mail (formerly Outlook Express) , SetCharset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimePropertySet::SetCharset method
@@ -22,8 +30,8 @@ Sets the character set of the property set.
 
 ```C++
 HRESULT SetCharset(
-  [in] HCHARSET      hCharset,
-  [in] CSETAPPLYTYPE applytype
+  [in] HCHARSET      hCharset,
+  [in] CSETAPPLYTYPE applytype
 );
 ```
 
@@ -68,7 +76,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,8 +84,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -85,9 +93,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic has a code example that shows how to register a local window and use it to create a main window.'
-ms.assetid: 'ea9e36c9-b10d-441e-b1b5-1ab93e009e1d'
+Description: This topic has a code example that shows how to register a local window and use it to create a main window.
+ms.assetid: ea9e36c9-b10d-441e-b1b5-1ab93e009e1d
 title: Using Window Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Window Classes

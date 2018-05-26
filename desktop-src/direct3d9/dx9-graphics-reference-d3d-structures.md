@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section contains information about the structures used with Direct3D.'
-ms.assetid: '0a13cb04-10cb-48a6-a709-ad4a56459f02'
+---
+Description: This section contains information about the structures used with Direct3D.
+ms.assetid: 0a13cb04-10cb-48a6-a709-ad4a56459f02
 title: Direct3D Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D Structures
@@ -10,7 +15,7 @@ This section contains information about the structures used with Direct3D.
 
 -   [**D3DADAPTER\_IDENTIFIER9**](d3dadapter-identifier9.md)
 -   [**D3DBOX**](d3dbox.md)
--   [**D3DCAPS9**](d3dcaps9.md)
+-   [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master)
 -   [**D3DCLIPSTATUS9**](d3dclipstatus9.md)
 -   [**D3DCOLORVALUE**](d3dcolorvalue.md)
 -   
@@ -82,7 +87,7 @@ This section contains information about the structures used with Direct3D.
 
      
 
--   [**D3DPSHADERCAPS2\_0**](d3dpshadercaps2-0.md)
+-   [**D3DPSHADERCAPS2\_0**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dpshadercaps2_0?branch=master)
 -   [**D3DRANGE**](d3drange.md)
 -   [**D3DRASTER\_STATUS**](d3draster-status.md)
 -   [**D3DRECT**](d3drect.md)
@@ -95,9 +100,9 @@ This section contains information about the structures used with Direct3D.
 -   [**D3DVERTEXELEMENT9**](d3dvertexelement9.md)
 -   [**D3DVIEWPORT9**](d3dviewport9.md)
 -   [**D3DVOLUME\_DESC**](d3dvolume-desc.md)
--   [**D3DVSHADERCAPS2\_0**](d3dvshadercaps2-0.md)
+-   [**D3DVSHADERCAPS2\_0**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dvshadercaps2_0?branch=master)
 -   [**D3DXF\_FILELOADMEMORY**](d3dxf-fileloadmemory.md)
--   [**PALETTEENTRY**](paletteentry.md)
+-   [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master)
 -   [**XFILECOMPRESSEDANIMATIONSET**](xfilecompressedanimationset.md)
 
 ## Related topics

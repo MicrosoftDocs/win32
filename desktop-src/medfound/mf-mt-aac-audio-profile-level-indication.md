@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the audio profile and level of an Advanced Audio Coding (AAC) stream.'
-ms.assetid: '87fa1127-46ca-4b83-a3b5-99253af22ba0'
-title: 'MF\_MT\_AAC\_AUDIO\_PROFILE\_LEVEL\_INDICATION attribute'
+---
+Description: Specifies the audio profile and level of an Advanced Audio Coding (AAC) stream.
+ms.assetid: 87fa1127-46ca-4b83-a3b5-99253af22ba0
+title: MF\_MT\_AAC\_AUDIO\_PROFILE\_LEVEL\_INDICATION attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_AAC\_AUDIO\_PROFILE\_LEVEL\_INDICATION attribute
@@ -14,13 +19,13 @@ Specifies the audio profile and level of an Advanced Audio Coding (AAC) stream.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies To
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 
 ## Remarks
 

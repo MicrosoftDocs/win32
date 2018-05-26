@@ -1,7 +1,12 @@
 ---
 title: Creating a Project File
 description: A help project (.hhp) file contains information about the location of your HTML topic files, contents (.hhc) files, index (.hhk) files, image (.png, .jpeg, .gif) files, and other files.
-ms.assetid: '9C17D7D1-B7B7-4ea9-A59C-42DBF0A5FB5A'
+ms.assetid: 9C17D7D1-B7B7-4ea9-A59C-42DBF0A5FB5A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Project File

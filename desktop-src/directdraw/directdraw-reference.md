@@ -1,7 +1,12 @@
 ---
 title: DirectDraw Reference
 description: This section contains reference information for the application programming interface (API) elements provided by DirectDraw in C/C++.
-ms.assetid: '1E94E191-5EB1-439F-B6D2-C9B8F20214CC'
+ms.assetid: 1E94E191-5EB1-439F-B6D2-C9B8F20214CC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectDraw Reference
@@ -20,11 +25,11 @@ This section contains reference information for the application programming inte
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

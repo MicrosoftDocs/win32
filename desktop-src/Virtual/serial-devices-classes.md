@@ -1,7 +1,12 @@
 ---
 title: Serial Devices Classes
 description: The serial devices in a virtual machine consist of serial controllers and serial ports. Each virtual system has exactly one serial controller, and each serial controller has exactly two serial ports.
-ms.assetid: '02282099-a930-4e10-9df6-bb5b58634344'
+ms.assetid: 02282099-a930-4e10-9df6-bb5b58634344
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Serial Devices Classes
@@ -24,7 +29,7 @@ The following are virtualization WMI classes related to serial devices.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -33,9 +38,9 @@ The following are virtualization WMI classes related to serial devices.
 [Virtualization WMI Classes](virtualization-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

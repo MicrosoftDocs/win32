@@ -1,7 +1,7 @@
 ---
 title: SNMP Application Syntax Values
 description: The SNMP Application Syntax Values are used by management applications that employ the Microsoft SNMP Management API.
-ms.assetid: 'fa269f97-f9d3-49f4-b29b-8c4d71f075d0'
+ms.assetid: fa269f97-f9d3-49f4-b29b-8c4d71f075d0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +17,11 @@ api_location:
 - Snmp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SNMP Application Syntax Values
@@ -46,8 +51,8 @@ The SNMP Application Syntax Values are used by management applications that empl
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Snmp.h</dt> </dl> |
 
 
@@ -65,9 +70,9 @@ The SNMP Application Syntax Values are used by management applications that empl
 [SNMP Constants](snmp-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

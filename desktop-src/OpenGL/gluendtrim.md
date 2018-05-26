@@ -1,8 +1,9 @@
 ---
 title: gluEndTrim function
 description: The gluBeginTrim and gluEndTrim functions delimit a Non-Uniform Rational B-Spline (NURBS) trimming loop definition.
-ms.assetid: 'e85cc60b-4492-441d-b778-31a3d52b398a'
-keywords: ["gluEndTrim function OpenGL"]
+ms.assetid: e85cc60b-4492-441d-b778-31a3d52b398a
+keywords:
+- gluEndTrim function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluEndTrim function
@@ -22,7 +28,7 @@ The [**gluBeginTrim**](glubegintrim.md) and **gluEndTrim** functions delimit a N
 
 ```C++
 void WINAPI gluEndTrim(
-   GLUnurbs *nobj
+   GLUnurbs *nobj
 );
 ```
 
@@ -77,8 +83,8 @@ gluEndTrim(nobj);
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -107,9 +113,9 @@ gluEndTrim(nobj);
 [**gluPwlCurve**](glupwlcurve.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

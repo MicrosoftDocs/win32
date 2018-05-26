@@ -4,11 +4,13 @@ description: Defines properties for use with a RemoteApp.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e0b6bd9f-e66b-4543-b424-7b773141b598'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: e0b6bd9f-e66b-4543-b424-7b773141b598
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ITSRemoteProgram2 interface Remote Desktop Services", "ITSRemoteProgram2 interface Remote Desktop Services , described"]
+keywords:
+- ITSRemoteProgram2 interface Remote Desktop Services
+- ITSRemoteProgram2 interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ITSRemoteProgram2 interface
@@ -43,7 +48,7 @@ The **ITSRemoteProgram2** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,8 +56,8 @@ The **ITSRemoteProgram2** interface has these properties.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows 7<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_ITSRemoteProgram2 is defined as 92C38A7D-241A-418c-9936-099872C9AF20<br/>   |
@@ -66,9 +71,9 @@ The **ITSRemoteProgram2** interface has these properties.
 [**ITSRemoteProgram**](itsremoteprogram.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

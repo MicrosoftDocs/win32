@@ -4,11 +4,15 @@ description: Internal control codes are used exclusively by the Cluster service 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '94ae855b-1e57-4378-8177-20d06225f805'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 94ae855b-1e57-4378-8177-20d06225f805
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["control codes Failover Cluster ,internal"]
+keywords:
+- control codes Failover Cluster ,internal
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Internal Control Codes
@@ -17,10 +21,10 @@ Internal [control codes](about-control-codes.md) are used exclusively by the [Cl
 
 If you are implementing a resource DLL, you can choose to support any internal control code that indicates an event with implications for your resources. However, note the following behavior:
 
--   Unless otherwise specified in the description of the control code, [internal resource control codes](internal-resource-control-codes.md) are sent to every [resource](resources.md) in the [*cluster*](c-gly.md#-wolf-cluster-gly). This means your [**ResourceControl**](resourcecontrol.md) entry point will receive one call for every resource currently supported by your DLL.
--   Unless otherwise specified in the description of the control code, [internal resource type control codes](internal-resource-type-control-codes.md) are sent to every resource type in the cluster. This means your [**ResourceTypeControl**](resourcetypecontrol.md) entry point will receive one call for every [resource type](resource-types.md) supported by your DLL.
+-   Unless otherwise specified in the description of the control code, [internal resource control codes](internal-resource-control-codes.md) are sent to every [resource](resources.md) in the [*cluster*](c-gly.md#-wolf-cluster-gly). This means your [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) entry point will receive one call for every resource currently supported by your DLL.
+-   Unless otherwise specified in the description of the control code, [internal resource type control codes](internal-resource-type-control-codes.md) are sent to every resource type in the cluster. This means your [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) entry point will receive one call for every [resource type](resource-types.md) supported by your DLL.
 
-For example, suppose a resource DLL supports three resource types and is currently managing five resource instances in the cluster. The administrator evicts a node. The resource DLL will receive the [CLUSCTL\_RESOURCE\_TYPE\_EVICT\_NODE](clusctl-resource-type-evict-node.md) control code three times (one call per resource type) through the [**ResourceTypeControl**](resourcetypecontrol.md) entry point, and will receive the [CLUSCTL\_RESOURCE\_EVICT\_NODE](clusctl-resource-evict-node.md) control code five times (one call per resource instance) through the [**ResourceControl**](resourcecontrol.md) entry point.
+For example, suppose a resource DLL supports three resource types and is currently managing five resource instances in the cluster. The administrator evicts a node. The resource DLL will receive the [CLUSCTL\_RESOURCE\_TYPE\_EVICT\_NODE](clusctl-resource-type-evict-node.md) control code three times (one call per resource type) through the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) entry point, and will receive the [CLUSCTL\_RESOURCE\_EVICT\_NODE](clusctl-resource-evict-node.md) control code five times (one call per resource instance) through the [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) entry point.
 
  
 

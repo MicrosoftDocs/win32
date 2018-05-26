@@ -2,13 +2,19 @@
 title: force\_allocate attribute
 description: The ACF attribute \ force\_allocate\ forces a pointer parameter to be allocated using midl\_user\_allocate instead of optimizing away the allocation.
 ms.assetid: 40e3a7d9-7e4f-4e3d-8c82-fb6ef567f293
-keywords: ["force_allocate attribute MIDL"]
+keywords:
+- force_allocate attribute MIDL
 topic_type:
 - apiref
 api_name:
 - force_allocate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # force\_allocate attribute

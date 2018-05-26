@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualPC GetVirtualMachineFiles method
 description: Retrieves an array of known virtual machine configuration files.
-ms.assetid: '38771573-66fa-408a-95db-1281efdf8b73'
-keywords: ["GetVirtualMachineFiles method Virtual PC", "GetVirtualMachineFiles method Virtual PC , IVMVirtualPC interface", "IVMVirtualPC interface Virtual PC , GetVirtualMachineFiles method"]
+ms.assetid: 38771573-66fa-408a-95db-1281efdf8b73
+keywords:
+- GetVirtualMachineFiles method Virtual PC
+- GetVirtualMachineFiles method Virtual PC , IVMVirtualPC interface
+- IVMVirtualPC interface Virtual PC , GetVirtualMachineFiles method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPC::GetVirtualMachineFiles method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves an array of known virtual machine configuration files.
 
@@ -24,9 +32,9 @@ Retrieves an array of known virtual machine configuration files.
 
 ```C++
 HRESULT GetVirtualMachineFiles(
-  [in]          VARIANT      inAdditionalSearchPaths,
-  [in]          VARIANT_BOOL inExcludedRegisteredVMs,
-  [out, retval] VARIANT      *outVirtualMachineFileList
+  [in]          VARIANT      inAdditionalSearchPaths,
+  [in]          VARIANT_BOOL inExcludedRegisteredVMs,
+  [out, retval] VARIANT      *outVirtualMachineFileList
 );
 ```
 
@@ -73,7 +81,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,9 +93,9 @@ The search paths used to retrieve the array of configuration files will include 
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualPC is defined as 236ba0d9-a24a-4292-a132-27c1421dfd01<br/>               |
@@ -101,9 +109,9 @@ The search paths used to retrieve the array of configuration files will include 
 [**IVMVirtualPC**](ivmvirtualpc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

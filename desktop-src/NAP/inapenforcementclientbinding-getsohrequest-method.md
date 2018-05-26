@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientBinding GetSoHRequest method
 description: Is used by the enforcement client to retrieve an SoH-request for a particular connection.
-ms.assetid: '6fce6e84-ce03-48f2-957b-a41efe044fc5'
-keywords: ["GetSoHRequest method NAP", "GetSoHRequest method NAP , INapEnforcementClientBinding interface", "INapEnforcementClientBinding interface NAP , GetSoHRequest method"]
+ms.assetid: 6fce6e84-ce03-48f2-957b-a41efe044fc5
+keywords:
+- GetSoHRequest method NAP
+- GetSoHRequest method NAP , INapEnforcementClientBinding interface
+- INapEnforcementClientBinding interface NAP , GetSoHRequest method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientBinding::GetSoHRequest method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientBinding::GetSoHRequest** method is used by the enforcement client to retrieve an SoH-request for a particular connection.
 
@@ -27,8 +35,8 @@ The **INapEnforcementClientBinding::GetSoHRequest** method is used by the enforc
 
 ```C++
 HRESULT GetSoHRequest(
-  [in]  INapEnforcementClientConnection *connection,
-  [out] BOOL                            *retriggerHint
+  [in]  INapEnforcementClientConnection *connection,
+  [out] BOOL                            *retriggerHint
 );
 ```
 
@@ -48,7 +56,7 @@ A COM pointer to an [**INapEnforcementClientConnection**](inapenforcementclientc
 *retriggerHint* \[out\]
 </dt> <dd>
 
-A pointer to a **BOOL** that indicates if the connection should be re-triggered. It is **TRUE** if the [**SoHRequest**](soh-struct.md) has changed since this function was last called or if [**ProbationTime**](nap-datatypes.md) has expired. Otherwise, **FALSE** is returned.
+A pointer to a **BOOL** that indicates if the connection should be re-triggered. It is **TRUE** if the [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) has changed since this function was last called or if [**ProbationTime**](nap-datatypes.md) has expired. Otherwise, **FALSE** is returned.
 
 </dd> </dl>
 
@@ -67,13 +75,13 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
-The NapAgent sets the [**SoHRequest**](soh-struct.md) on the connection object.
+The NapAgent sets the [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) on the connection object.
 
-If an [**SoHRequest**](soh-struct.md) was outstanding on this connection, then it is discarded, and the SHAs are notified of orphaned **SoHRequests**.
+If an [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) was outstanding on this connection, then it is discarded, and the SHAs are notified of orphaned **SoHRequests**.
 
 The enforcement client must call the [**INapEnforcementClientBinding::Initialize**](inapenforcementclientbinding-initialize-method.md) method before calling this or any other method of the [**INapEnforcementClientBinding**](inapenforcementclientbinding.md) interface.
 
@@ -83,8 +91,8 @@ The enforcement client must call the [**INapEnforcementClientBinding::Initialize
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -101,9 +109,9 @@ The enforcement client must call the [**INapEnforcementClientBinding::Initialize
 [**INapEnforcementClientBinding**](inapenforcementclientbinding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

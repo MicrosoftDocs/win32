@@ -2,13 +2,16 @@
 title: AddByName method of the PS\_DnsServerDirectoryPartition class
 description: Create a DNS application directory partition.
 audience: developer
-ms.assetid: '249220cc-aaf3-43be-8113-2513ea433216'
-ms.prod: 'windows-server-dev'
+ms.assetid: 249220cc-aaf3-43be-8113-2513ea433216
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByName method", "AddByName method, PS_DnsServerDirectoryPartition class", "PS_DnsServerDirectoryPartition class, AddByName method"]
+keywords:
+- AddByName method
+- AddByName method, PS_DnsServerDirectoryPartition class
+- PS_DnsServerDirectoryPartition class, AddByName method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByName method of the PS\_DnsServerDirectoryPartition class
@@ -28,10 +34,10 @@ Create a DNS application directory partition.
 
 ```mof
 uint32 AddByName(
-  [in]  string                      Name,
-  [in]  string                      ComputerName,
-  [in]  boolean                     PassThru,
-  [out] DnsServerDirectoryPartition cmdletOutput
+  [in]  string                      Name,
+  [in]  string                      ComputerName,
+  [in]  boolean                     PassThru,
+  [out] DnsServerDirectoryPartition cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ Receives an embedded instance of the [**DnsServerDirectoryPartition**](dnsserver
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ Receives an embedded instance of the [**DnsServerDirectoryPartition**](dnsserver
 [**PS\_DnsServerDirectoryPartition**](ps-dnsserverdirectorypartition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

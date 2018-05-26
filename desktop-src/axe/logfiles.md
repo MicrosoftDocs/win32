@@ -1,14 +1,20 @@
 ---
 title: LogFiles element
 description: A container to hold LogFile elements.
-ms.assetid: '72DA226E-B0D0-441B-82C7-97258B4CA8CD'
-keywords: ["LogFiles element Access Execution Engine"]
+ms.assetid: 72DA226E-B0D0-441B-82C7-97258B4CA8CD
+keywords:
+- LogFiles element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - LogFiles
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogFiles element
@@ -70,9 +76,9 @@ LogFile
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

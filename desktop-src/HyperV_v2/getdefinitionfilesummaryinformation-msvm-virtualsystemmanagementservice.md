@@ -1,7 +1,12 @@
 ---
-Description: 'Returns virtual machine summary information for the specified virtual machine definition files.'
-ms.assetid: '5a3d7f2c-3b89-4dd6-909d-4452afc3705f'
-title: 'GetDefinitionFileSummaryInformation method of the Msvm\_VirtualSystemManagementService class'
+Description: Returns virtual machine summary information for the specified virtual machine definition files.
+ms.assetid: 5a3d7f2c-3b89-4dd6-909d-4452afc3705f
+title: GetDefinitionFileSummaryInformation method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDefinitionFileSummaryInformation method of the Msvm\_VirtualSystemManagementService class
@@ -13,8 +18,8 @@ Returns virtual machine summary information for the specified virtual machine de
 
 ```mof
 uint32 GetDefinitionFileSummaryInformation(
-  [in]  string                      DefinitionFiles[],
-  [out] Msvm_SummaryInformationBase SummaryInformation[]
+  [in]  string                      DefinitionFiles[],
+  [out] Msvm_SummaryInformationBase SummaryInformation[]
 );
 ```
 
@@ -38,9 +43,9 @@ An array of [**Msvm\_SummaryInformationBase**](msvm-summaryinformation.md) insta
 
 > [!Note]  
 
- 
+ 
 
-Prior to Windows 10, version 1703, datatype was [**Msvm\_SummaryInformation**](msvm-summaryinformation.md).
+Prior to Windows 10, version 1703, datatype was [**Msvm\_SummaryInformation**](msvm-summaryinformation.md).
 
 </dd> </dl>
 
@@ -95,8 +100,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -110,9 +115,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

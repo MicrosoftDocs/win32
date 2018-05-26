@@ -1,7 +1,12 @@
 ---
 title: Tessellation Stages
 description: The Direct3D 11 runtime supports three new stages that implement tessellation, which converts low-detail subdivision surfaces into higher-detail primitives on the GPU.
-ms.assetid: '4ad2fd3e-6e1a-4326-8469-3198acf931dc'
+ms.assetid: 4ad2fd3e-6e1a-4326-8469-3198acf931dc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tessellation Stages
@@ -109,7 +114,7 @@ Internally, the tessellator operates in two phases:
 
 
 
- 
+ 
 
 ### Domain-Shader Stage
 
@@ -146,9 +151,9 @@ void main( out    MyDSOutput result,
 
 ## APIs for initializing Tessellation Stages
 
-Tessellation is implemented with two new programmable shader stages: a hull shader and a domain shader. These new shader stages are programmed with HLSL code that is defined in shader model 5. The new shader targets are: hs\_5\_0 and ds\_5\_0. Like all programmable shader stages, code for the hardware is extracted from compiled shaders passed into the runtime when shaders are bound to the pipeline using APIs such as [**DSSetShader**](id3d11devicecontext-dssetshader.md) and [**HSSetShader**](id3d11devicecontext-hssetshader.md). But first, the shader must be created using APIs such as [**CreateHullShader**](id3d11device-createhullshader.md) and [**CreateDomainShader**](id3d11device-createdomainshader.md).
+Tessellation is implemented with two new programmable shader stages: a hull shader and a domain shader. These new shader stages are programmed with HLSL code that is defined in shader model 5. The new shader targets are: hs\_5\_0 and ds\_5\_0. Like all programmable shader stages, code for the hardware is extracted from compiled shaders passed into the runtime when shaders are bound to the pipeline using APIs such as [**DSSetShader**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-dssetshader?branch=master) and [**HSSetShader**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-hssetshader?branch=master). But first, the shader must be created using APIs such as [**CreateHullShader**](/windows/win32/D3D11/nf-d3d11-id3d11device-createhullshader?branch=master) and [**CreateDomainShader**](/windows/win32/D3D11/nf-d3d11-id3d11device-createdomainshader?branch=master).
 
-Enable tessellation by creating a hull shader and binding it to the hull-shader stage (this automatically sets up the tessellator stage). To generate the final vertex positions from the tessellated patches, you will also need to create a domain shader and bind it to the domain-shader stage. Once tessellation is enabled, the data input to the input-assembler stage must be patch data. That is, the input assembler topology must be a patch constant topology from [**D3D11\_PRIMITIVE\_TOPOLOGY**](d3d11-primitive-topology.md) set with [**IASetPrimitiveTopology**](id3d11devicecontext-iasetprimitivetopology.md).
+Enable tessellation by creating a hull shader and binding it to the hull-shader stage (this automatically sets up the tessellator stage). To generate the final vertex positions from the tessellated patches, you will also need to create a domain shader and bind it to the domain-shader stage. Once tessellation is enabled, the data input to the input-assembler stage must be patch data. That is, the input assembler topology must be a patch constant topology from [**D3D11\_PRIMITIVE\_TOPOLOGY**](/windows/win32/D3D11/?branch=master) set with [**IASetPrimitiveTopology**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-iasetprimitivetopology?branch=master).
 
 To disable tessellation, set the hull shader and the domain shader to **NULL**. Neither the geometry-shader stage nor the stream-output stage can read hull-shader output-control points or patch data.
 
@@ -160,25 +165,25 @@ To disable tessellation, set the hull shader and the domain shader to **NULL**. 
 
     
 
-    The topology is set to the input-assembler stage using [**IASetPrimitiveTopology**](id3d11devicecontext-iasetprimitivetopology.md)
+    The topology is set to the input-assembler stage using [**IASetPrimitiveTopology**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-iasetprimitivetopology?branch=master)
 
 -   Of course, the new programmable shader stages require other state to be set, to bind constant buffers, samples, and shader resources to the appropriate pipeline stages. These new ID3D11Device methods are implemented for setting this state.
-    -   [**DSGetConstantBuffers**](id3d11devicecontext-dsgetconstantbuffers.md)
-    -   [**DSGetSamplers**](id3d11devicecontext-dsgetsamplers.md)
-    -   [**DSGetShader**](id3d11devicecontext-dsgetshader.md)
-    -   [**DSGetShaderResources**](id3d11devicecontext-dsgetshaderresources.md)
-    -   [**DSSetConstantBuffers**](id3d11devicecontext-dssetconstantbuffers.md)
-    -   [**DSSetSamplers**](id3d11devicecontext-dssetsamplers.md)
-    -   [**DSSetShader**](id3d11devicecontext-dssetshader.md)
-    -   [**DSSetShaderResources**](id3d11devicecontext-dssetshaderresources.md)
-    -   [**HSGetConstantBuffers**](id3d11devicecontext-hsgetconstantbuffers.md)
-    -   [**HSGetShaderResources**](id3d11devicecontext-hsgetshaderresources.md)
-    -   [**HSGetSamplers**](id3d11devicecontext-hsgetsamplers.md)
-    -   [**HSGetShader**](id3d11devicecontext-hsgetshader.md)
-    -   [**HSSetConstantBuffers**](id3d11devicecontext-hssetconstantbuffers.md)
-    -   [**HSSetSamplers**](id3d11devicecontext-hssetsamplers.md)
-    -   [**HSSetShader**](id3d11devicecontext-hssetshader.md)
-    -   [**HSSetShaderResources**](id3d11devicecontext-hssetshaderresources.md)
+    -   [**DSGetConstantBuffers**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-dsgetconstantbuffers?branch=master)
+    -   [**DSGetSamplers**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-dsgetsamplers?branch=master)
+    -   [**DSGetShader**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-dsgetshader?branch=master)
+    -   [**DSGetShaderResources**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-dsgetshaderresources?branch=master)
+    -   [**DSSetConstantBuffers**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-dssetconstantbuffers?branch=master)
+    -   [**DSSetSamplers**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-dssetsamplers?branch=master)
+    -   [**DSSetShader**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-dssetshader?branch=master)
+    -   [**DSSetShaderResources**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-dssetshaderresources?branch=master)
+    -   [**HSGetConstantBuffers**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-hsgetconstantbuffers?branch=master)
+    -   [**HSGetShaderResources**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-hsgetshaderresources?branch=master)
+    -   [**HSGetSamplers**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-hsgetsamplers?branch=master)
+    -   [**HSGetShader**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-hsgetshader?branch=master)
+    -   [**HSSetConstantBuffers**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-hssetconstantbuffers?branch=master)
+    -   [**HSSetSamplers**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-hssetsamplers?branch=master)
+    -   [**HSSetShader**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-hssetshader?branch=master)
+    -   [**HSSetShaderResources**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-hssetshaderresources?branch=master)
 
 ## How to's:
 
@@ -196,7 +201,7 @@ The documentation also contains examples for initializing the tessellation stage
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -205,9 +210,9 @@ The documentation also contains examples for initializing the tessellation stage
 [Graphics Pipeline](overviews-direct3d-11-graphics-pipeline.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

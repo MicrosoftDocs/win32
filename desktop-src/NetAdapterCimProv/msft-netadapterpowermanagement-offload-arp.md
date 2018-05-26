@@ -1,7 +1,12 @@
 ---
-Description: 'MSFT\_NetAdapterPowerManagement\_Offload\_Arp contains settings related to ARP offloading.'
-ms.assetid: '40a2c3fa-eeca-4e05-bf7b-1b759f5a5529'
-title: 'MSFT\_NetAdapterPowerManagement\_Offload\_Arp class'
+Description: MSFT\_NetAdapterPowerManagement\_Offload\_Arp contains settings related to ARP offloading.
+ms.assetid: 40a2c3fa-eeca-4e05-bf7b-1b759f5a5529
+title: MSFT\_NetAdapterPowerManagement\_Offload\_Arp class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterPowerManagement\_Offload\_Arp class
@@ -80,16 +85,16 @@ Supplies an optional IPv4 address representing the Source Protocol Address (SPA)
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

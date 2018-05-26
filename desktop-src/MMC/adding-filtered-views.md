@@ -4,11 +4,16 @@ description: A filtered view is an MMC standard list view.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4be29e44-7e64-4c2c-820b-26c6cfea0661'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4be29e44-7e64-4c2c-820b-26c6cfea0661
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["filtered views MMC", "filtered views MMC"]
+keywords:
+- filtered views MMC
+- filtered views MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Filtered Views

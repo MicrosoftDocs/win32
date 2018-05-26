@@ -1,8 +1,9 @@
 ---
 title: MCM\_SETCALENDARBORDER message
 description: Sets the size of the border, in pixels. You can send this message explicitly or by using the MonthCal\_SetCalendarBorder macro.
-ms.assetid: '2a64a08f-a1fb-47a8-8f09-725807e87a03'
-keywords: ["MCM_SETCALENDARBORDER message Windows Controls"]
+ms.assetid: 2a64a08f-a1fb-47a8-8f09-725807e87a03
+keywords:
+- MCM_SETCALENDARBORDER message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_SETCALENDARBORDER message
 
-Sets the size of the border, in pixels. You can send this message explicitly or by using the [**MonthCal\_SetCalendarBorder**](monthcal-setcalendarborder.md) macro.
+Sets the size of the border, in pixels. You can send this message explicitly or by using the [**MonthCal\_SetCalendarBorder**](/windows/win32/Commctrl/nf-commctrl-monthcal_setcalendarborder?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

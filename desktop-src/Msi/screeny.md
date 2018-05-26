@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the ScreenY property to the height of the screen in pixels.'
-ms.assetid: '75a2a8d0-e803-4c3e-86ba-3dc77181e277'
+---
+Description: The installer sets the ScreenY property to the height of the screen in pixels.
+ms.assetid: 75a2a8d0-e803-4c3e-86ba-3dc77181e277
 title: ScreenY property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScreenY property

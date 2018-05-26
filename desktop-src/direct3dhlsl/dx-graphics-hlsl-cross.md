@@ -1,14 +1,20 @@
 ---
 title: cross
 description: Returns the cross product of two floating-point, 3D vectors.
-ms.assetid: '5f1832af-6bc5-49a7-956a-fd762f674f5f'
-keywords: ["cross HLSL"]
+ms.assetid: 5f1832af-6bc5-49a7-956a-fd762f674f5f
+keywords:
+- cross HLSL
 topic_type:
 - apiref
 api_name:
 - cross
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # cross
@@ -22,7 +28,7 @@ Returns the cross product of two floating-point, 3D vectors.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Returns the cross product of two floating-point, 3D vectors.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The cross product of the *x* parameter and the *y* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +74,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -77,9 +83,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

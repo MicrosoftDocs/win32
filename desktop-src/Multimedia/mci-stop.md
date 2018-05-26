@@ -1,8 +1,9 @@
 ---
 title: MCI\_STOP command
 description: The MCI\_STOP command stops all play and record sequences, unloads all play buffers, and ceases display of video images. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
-ms.assetid: 'e5ae20b3-7439-4314-8354-d06e83b29729'
-keywords: ["MCI_STOP command Windows Multimedia"]
+ms.assetid: e5ae20b3-7439-4314-8354-d06e83b29729
+keywords:
+- MCI_STOP command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_STOP command
 
 The MCI\_STOP command stops all play and record sequences, unloads all play buffers, and ceases display of video images. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -72,8 +78,8 @@ For the CD audio device, MCI\_STOP resets the current track position to zero; in
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -88,9 +94,9 @@ For the CD audio device, MCI\_STOP resets the current track position to zero; in
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

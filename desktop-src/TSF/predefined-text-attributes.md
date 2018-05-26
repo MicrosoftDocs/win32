@@ -1,8 +1,9 @@
 ---
 title: Predefined Text Attributes
 description: The following values identify text attributes obtained with the ITfContext GetAppProperty method. The data format and contents of each property type are included.
-ms.assetid: 'af73edb8-b706-40e4-a093-4ac22d33ecdc'
-keywords: ["Predefined Text Attributes Text Services Framework"]
+ms.assetid: af73edb8-b706-40e4-a093-4ac22d33ecdc
+keywords:
+- Predefined Text Attributes Text Services Framework
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - TsAttrid.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Predefined Text Attributes
@@ -53,7 +59,7 @@ The following values identify text attributes obtained with the [**ITfContext::G
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -61,16 +67,16 @@ The following values identify text attributes obtained with the [**ITfContext::G
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                       |
 | Header<br/>                   | <dl> <dt>TsAttrid.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

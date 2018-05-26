@@ -1,7 +1,12 @@
 ---
 Description: Logging and Error Reporting
-ms.assetid: '162ce34b-cc82-40bb-8422-a639152aee25'
+ms.assetid: 162ce34b-cc82-40bb-8422-a639152aee25
 title: Logging and Error Reporting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Logging and Error Reporting

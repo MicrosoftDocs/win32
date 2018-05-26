@@ -1,7 +1,12 @@
 ---
-Description: 'The CreateTraceInstanceId function creates a unique transaction identifier and maps it to a class GUID registration handle. You then use the transaction identifier when calling the TraceEventInstance function.'
-ms.assetid: 'ab890392-f1e4-4b4e-a46c-8c7c2bfd3897'
+Description: The CreateTraceInstanceId function creates a unique transaction identifier and maps it to a class GUID registration handle. You then use the transaction identifier when calling the TraceEventInstance function.
+ms.assetid: ab890392-f1e4-4b4e-a46c-8c7c2bfd3897
 title: CreateTraceInstanceId function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateTraceInstanceId function
@@ -13,8 +18,8 @@ The **CreateTraceInstanceId** function creates a unique transaction identifier a
 
 ```C++
 ULONG CreateTraceInstanceId(
-  _In_  HANDLE               RegHandle,
-  _Out_ PEVENT_INSTANCE_INFO pInstInfo
+  _In_  HANDLE               RegHandle,
+  _Out_ PEVENT_INSTANCE_INFO pInstInfo
 );
 ```
 
@@ -71,7 +76,7 @@ If the function fails, the return value is one of the [system error codes](https
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -89,8 +94,8 @@ For an example that uses **CreateTraceInstanceId**, see [Tracing Event Instances
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Evntrace.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Advapi32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Advapi32.dll</dt> </dl> |
@@ -107,9 +112,9 @@ For an example that uses **CreateTraceInstanceId**, see [Tracing Event Instances
 [**TraceEventInstance**](traceeventinstance.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

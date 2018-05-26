@@ -4,18 +4,22 @@ description: Taskpads require the implementation of the following interfaces and
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f9b9101d-f0ed-4e9d-ab7f-cba038a86ecd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: f9b9101d-f0ed-4e9d-ab7f-cba038a86ecd
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["taskpads MMC , interfaces"]
+keywords:
+- taskpads MMC , interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Taskpads: Interfaces
 
 Taskpads require the implementation of the following interfaces and methods:
 
--   [**IComponent**](icomponent.md)
+-   [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master)
     -   [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md)
 -   [**IExtendTaskPad**](iextendtaskpad.md)
     -   [**IExtendTaskPad::EnumTasks**](iextendtaskpad-enumtasks.md)

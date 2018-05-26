@@ -1,7 +1,12 @@
 ---
-Description: 'Throughout this document, a fax port refers to a fax device and all the configuration and inbound routing information associated with the device. The fax service exposes one or more fax ports to the user as endpoints in a fax transmission.'
-ms.assetid: 'fb00d78a-1aca-4be2-9b00-e322355c6b52'
+Description: Throughout this document, a fax port refers to a fax device and all the configuration and inbound routing information associated with the device. The fax service exposes one or more fax ports to the user as endpoints in a fax transmission.
+ms.assetid: fb00d78a-1aca-4be2-9b00-e322355c6b52
 title: Fax Ports
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Ports

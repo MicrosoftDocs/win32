@@ -1,7 +1,12 @@
 ---
-Description: 'Uses the Microsoft Win32 SuspendThread function to suspend the operation of a running thread.'
-ms.assetid: '07d919a2-797d-47c3-83e3-c8e2d2b2cddd'
-title: 'CMsgThread.SuspendThread method'
+Description: Uses the Microsoft Win32 SuspendThread function to suspend the operation of a running thread.
+ms.assetid: 07d919a2-797d-47c3-83e3-c8e2d2b2cddd
+title: CMsgThread.SuspendThread method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMsgThread.SuspendThread method
@@ -47,9 +52,9 @@ The client thread calls this member function to suspend the operation of the wor
 [**CMsgThread Class**](cmsgthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

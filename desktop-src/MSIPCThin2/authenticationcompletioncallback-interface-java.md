@@ -4,17 +4,21 @@ description: An interface provided the SDK used to return an access token to the
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'E62B5D35-0BBE-413C-80A3-4D56007AA04B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: E62B5D35-0BBE-413C-80A3-4D56007AA04B
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["AuthenticationCompletionCallback interface"]
+keywords:
+- AuthenticationCompletionCallback interface
 topic_type:
 - apiref
 api_name:
 - AuthenticationCompletionCallback interface
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AuthenticationCompletionCallback interface
@@ -39,7 +43,7 @@ public interface AuthenticationCompletionCallback
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -55,7 +59,7 @@ AuthenticationCompletionCallback.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -72,9 +76,9 @@ Members of this class are not guaranteed to be thread safe.
 [Azure AD Authentication Library](https://msdn.microsoft.com/library/jj573266.aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

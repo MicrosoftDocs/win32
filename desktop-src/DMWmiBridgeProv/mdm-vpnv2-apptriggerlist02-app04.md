@@ -1,8 +1,10 @@
 ---
 title: MDM\_VPNv2\_AppTriggerList02\_App04 class
 description: The MDM\_VPNv2AppTriggerList02\_App04 class describes a list of applications set to trigger the VPN.
-ms.assetid: 'd17ec7b9-8a66-47da-8373-81b56168b495'
-keywords: ["MDM_VPNv2_AppTriggerList02_App04 class", "MDM_VPNv2_AppTriggerList02_App04 class, described"]
+ms.assetid: d17ec7b9-8a66-47da-8373-81b56168b495
+keywords:
+- MDM_VPNv2_AppTriggerList02_App04 class
+- MDM_VPNv2_AppTriggerList02_App04 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_VPNv2\_AppTriggerList02\_App04 class
@@ -110,7 +117,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -125,9 +132,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

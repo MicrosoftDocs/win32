@@ -1,7 +1,12 @@
 ---
-Description: 'Lists and explains the responsibilities of the GINA.'
-ms.assetid: '5cffe4a6-6475-441e-bf81-f3cbcf1fee3f'
+Description: Lists and explains the responsibilities of the GINA.
+ms.assetid: 5cffe4a6-6475-441e-bf81-f3cbcf1fee3f
 title: Responsibilities of the GINA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Responsibilities of the GINA

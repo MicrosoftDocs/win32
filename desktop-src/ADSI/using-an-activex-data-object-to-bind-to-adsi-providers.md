@@ -4,11 +4,17 @@ description: Since ADSI is also an OLE DB provider, you can use an ActiveX Data 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b42d804b-f1eb-4085-88aa-015a92309ee8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b42d804b-f1eb-4085-88aa-015a92309ee8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ActiveX data object ADSI", "ActiveX data object ADSI ,using ADO to bind to ADSI providers", "service providers ADSI ,using ActiveX data object to bind to"]
+keywords:
+- ActiveX data object ADSI
+- ActiveX data object ADSI ,using ADO to bind to ADSI providers
+- service providers ADSI ,using ActiveX data object to bind to
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using an ActiveX Data Object to Bind to ADSI Providers
@@ -55,9 +61,9 @@ ADSI OLE DB defines the following connection properties.
 
  
 
-Using OLE DB ADO, you cannot bind to a specific object. You can, however, query a specific object and get a result set back. Only ADSI providers that support [**IDirectorySearch**](idirectorysearch.md) benefit from having ADO as a programming model.
+Using OLE DB ADO, you cannot bind to a specific object. You can, however, query a specific object and get a result set back. Only ADSI providers that support [**IDirectorySearch**](/windows/win32/Iads/nn-iads-idirectorysearch?branch=master) benefit from having ADO as a programming model.
 
-The ADSI Flag property is used to specify the binding authentication option. This property can be a combination of flags from the [**ADS\_AUTHENTICATION\_ENUM**](ads-authentication-enum.md) enumeration.
+The ADSI Flag property is used to specify the binding authentication option. This property can be a combination of flags from the [**ADS\_AUTHENTICATION\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0018?branch=master) enumeration.
 
  
 

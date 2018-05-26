@@ -1,14 +1,20 @@
 ---
 title: DVDTransitions element
 description: The boundary tag for the custom DVD transitions section of the XML file.
-ms.assetid: '53df817b-0ad0-444f-af28-9e05acf66036'
-keywords: ["DVDTransitions element Windows Movie Maker and DVD Maker"]
+ms.assetid: 53df817b-0ad0-444f-af28-9e05acf66036
+keywords:
+- DVDTransitions element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - DVDTransitions
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVDTransitions element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -57,9 +63,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

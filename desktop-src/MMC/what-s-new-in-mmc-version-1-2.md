@@ -4,11 +4,15 @@ description: Describes the features that are new in MMC version 1.2.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f165e343-5960-4ab2-8753-350c0edb7939'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: f165e343-5960-4ab2-8753-350c0edb7939
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC version 1.2 MMC"]
+keywords:
+- MMC version 1.2 MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC Version 1.2

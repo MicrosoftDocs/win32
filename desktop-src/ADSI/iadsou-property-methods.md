@@ -4,11 +4,12 @@ description: The property methods of the IADsOU interface get or set the propert
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8cb84972-733b-47ca-8647-1b7a85c97021'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8cb84972-733b-47ca-8647-1b7a85c97021
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsOU Property Methods ADSI"]
+keywords:
+- IADsOU Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -38,11 +39,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsOU Property Methods
 
-The property methods of the [**IADsOU**](iadsou.md) interface get or set the properties listed in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsOU**](/windows/win32/Iads/nn-iads-iadsou?branch=master) interface get or set the properties listed in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -244,7 +248,7 @@ HRESULT put_TelephoneNumber(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -276,8 +280,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsOU is defined as A2F733B8-EFFE-11CF-8ABC-00C04FD8D503<br/>               |
@@ -288,15 +292,15 @@ Next
 
 <dl> <dt>
 
-[**IADsOU**](iadsou.md)
+[**IADsOU**](/windows/win32/Iads/nn-iads-iadsou?branch=master)
 </dt> <dt>
 
 [Interface Property Methods](interface-property-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

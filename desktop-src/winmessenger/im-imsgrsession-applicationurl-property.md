@@ -1,8 +1,11 @@
 ---
 title: IMsgrSession ApplicationURL property
-description: Retrieves a value that indicates the application's URL from the registry.
-ms.assetid: '795271d0-c57f-4066-8ee9-28bcc33f2c5c'
-keywords: ["ApplicationURL property Windows Messenger", "ApplicationURL property Windows Messenger , IMsgrSession interface", "IMsgrSession interface Windows Messenger , ApplicationURL property"]
+description: Retrieves a value that indicates the applications URL from the registry.
+ms.assetid: 795271d0-c57f-4066-8ee9-28bcc33f2c5c
+keywords:
+- ApplicationURL property Windows Messenger
+- ApplicationURL property Windows Messenger , IMsgrSession interface
+- IMsgrSession interface Windows Messenger , ApplicationURL property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMsgrSession::ApplicationURL property
 
-\[**ApplicationURL** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**ApplicationURL** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves a value that indicates the application's URL from the registry.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ApplicationURL(
-  [out, retval] BSTR *pbstrURL
+  [out, retval] BSTR *pbstrURL
 );
 ```
 
@@ -53,7 +61,7 @@ The following table lists the error codes returned by this property.
 
 
 
- 
+ 
 
 The following table lists the error codes returned by this property.
 
@@ -66,7 +74,7 @@ The following table lists the error codes returned by this property.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -74,10 +82,10 @@ The following table lists the error codes returned by this property.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Product<br/>                  | Messenger 4.0<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl> |
@@ -98,9 +106,9 @@ The following table lists the error codes returned by this property.
 [Messenger Lock and Key API](im-lock-and-key-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

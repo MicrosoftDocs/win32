@@ -1,7 +1,12 @@
 ---
 Description: PlayCap Sample
-ms.assetid: '3faba514-23b7-4107-aca6-5b113a0ca164'
+ms.assetid: 3faba514-23b7-4107-aca6-5b113a0ca164
 title: PlayCap Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayCap Sample
@@ -10,7 +15,7 @@ title: PlayCap Sample
 
 Simple capture application.
 
-This application creates a preview window for the first video capture device that it locates on the user's system (if any). It demonstrates a simple example of using the [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md) and [**ICreateDevEnum**](icreatedevenum.md) interfaces to build a capture graph.
+This application creates a preview window for the first video capture device that it locates on the user's system (if any). It demonstrates a simple example of using the [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master) and [**ICreateDevEnum**](/windows/win32/Strmif/nn-strmif-icreatedevenum?branch=master) interfaces to build a capture graph.
 
 For a sample capture application that supports more features, see [AmCap Sample](amcap-sample.md).
 

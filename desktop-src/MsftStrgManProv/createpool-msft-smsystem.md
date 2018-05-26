@@ -4,11 +4,14 @@ description: Creates a concrete pool.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c47b3165-8c54-47b3-b95e-59c9c1455785'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: c47b3165-8c54-47b3-b95e-59c9c1455785
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreatePool method", "CreatePool method, MSFT_SMSystem class", "MSFT_SMSystem class, CreatePool method"]
+keywords:
+- CreatePool method
+- CreatePool method, MSFT_SMSystem class
+- MSFT_SMSystem class, CreatePool method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreatePool method of the MSFT\_SMSystem class
@@ -28,17 +34,17 @@ Creates a concrete pool.
 
 ```mof
 Uint32 CreatePool(
-  [in]            String                ElementName,
-  [in]            String                DiskDriveObjectIds[],
-  [in]            String                PoolSettingObjectId,
-  [in, optional]  Boolean               ThinlyProvisioned,
-  [in]            UInt16                Usage,
-  [in]            String                OtherUsageDescription,
-  [out]           MSFT_SMJob        REF Job,
-  [out]           MSFT_SMPool       REF Pool,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus,
-  [in, optional]  String                username,
-  [in, optional]  String                password
+  [in]            String                ElementName,
+  [in]            String                DiskDriveObjectIds[],
+  [in]            String                PoolSettingObjectId,
+  [in, optional]  Boolean               ThinlyProvisioned,
+  [in]            UInt16                Usage,
+  [in]            String                OtherUsageDescription,
+  [out]           MSFT_SMJob        REF Job,
+  [out]           MSFT_SMPool       REF Pool,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus,
+  [in, optional]  String                username,
+  [in, optional]  String                password
 );
 ```
 
@@ -266,7 +272,7 @@ Used to authenticate with the SMI-S provider. If not provided, the storage servi
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -280,9 +286,9 @@ Used to authenticate with the SMI-S provider. If not provided, the storage servi
 [**MSFT\_SMSystem**](msft-smsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

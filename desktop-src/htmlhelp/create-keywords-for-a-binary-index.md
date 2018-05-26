@@ -1,7 +1,12 @@
 ---
 title: Create Keywords for a Binary Index
 description: A binary index is automatically generated whenever you compile an index into a compiled help (.chm) file. You can create keywords either by adding them to the index file or as Keyword links (KLinks) that are added to target files.
-ms.assetid: '29669B4F-E200-4557-A7E9-0E3245B443A3'
+ms.assetid: 29669B4F-E200-4557-A7E9-0E3245B443A3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create Keywords for a Binary Index

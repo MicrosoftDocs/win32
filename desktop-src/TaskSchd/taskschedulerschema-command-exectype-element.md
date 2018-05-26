@@ -1,14 +1,20 @@
 ---
 title: Command (execType) Element
 description: Specifies the executable file or document to be run.
-ms.assetid: 'dedf8627-926c-43c6-8add-21ff298d697a'
-keywords: ["Command element Task Scheduler"]
+ms.assetid: dedf8627-926c-43c6-8add-21ff298d697a
+keywords:
+- Command element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Command
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command (execType) Element
@@ -35,7 +41,7 @@ The **Command** element is defined by the [**execType**](taskschedulerschema-exe
 
 ## Remarks
 
-For C++ development, see the [**Arguments property of IExecAction**](iexecaction-arguments.md).
+For C++ development, see the [**Arguments property of IExecAction**](/windows/win32/taskschd/nf-taskschd-iexecaction-get_arguments?branch=master).
 
 For script development, see [**ExecAction.Arguments**](execaction-arguments.md).
 
@@ -49,8 +55,8 @@ For a complete example of the XML for a task that uses an executable action, see
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -61,9 +67,9 @@ For a complete example of the XML for a task that uses an executable action, see
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

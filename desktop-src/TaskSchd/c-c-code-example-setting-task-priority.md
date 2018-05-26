@@ -1,8 +1,14 @@
 ---
 title: C/C++ Code Example Setting Task Priority
 description: This example sets the priority of a test task and then saves the task. This example assumes that the test task already exists on the local computer.
-ms.assetid: '498dc438-3703-4d5c-a8b1-609d5776942d'
-keywords: ["setting task properties Task Scheduler , priority"]
+ms.assetid: 498dc438-3703-4d5c-a8b1-609d5776942d
+keywords:
+- setting task properties Task Scheduler , priority
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Setting Task Priority

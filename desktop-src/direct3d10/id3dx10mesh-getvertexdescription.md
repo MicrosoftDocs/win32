@@ -1,7 +1,12 @@
-﻿---
-Description: 'Access the vertex description passed into D3DX10CreateMesh. The vertex description describes the layout of the mesh''s vertex buffers.'
-ms.assetid: 'e4a4a98a-e131-414c-ad98-21288ff0c61b'
-title: 'ID3DX10Mesh::GetVertexDescription method'
+---
+Description: Access the vertex description passed into D3DX10CreateMesh. The vertex description describes the layout of the meshs vertex buffers.
+ms.assetid: e4a4a98a-e131-414c-ad98-21288ff0c61b
+title: ID3DX10MeshGetVertexDescription method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::GetVertexDescription method
@@ -27,9 +32,9 @@ HRESULT GetVertexDescription(
 *ppDesc* \[out\]
 </dt> <dd>
 
-Type: **const [**D3D10\_INPUT\_ELEMENT\_DESC**](d3d10-input-element-desc.md)\*\***
+Type: **const [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_input_element_desc?branch=master)\*\***
 
-Array of input elements that describe the layout of the mesh's vertex buffers. See [**D3D10\_INPUT\_ELEMENT\_DESC**](d3d10-input-element-desc.md).
+Array of input elements that describe the layout of the mesh's vertex buffers. See [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_input_element_desc?branch=master).
 
 </dd> <dt>
 

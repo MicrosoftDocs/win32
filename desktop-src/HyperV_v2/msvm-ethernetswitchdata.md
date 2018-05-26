@@ -1,7 +1,12 @@
 ---
-Description: 'Abstract class that represents a resource for a given instance of an Ethernet switch.'
-ms.assetid: '5ae1be2a-8d59-4efe-a4ae-7cac1727cfa2'
-title: 'Msvm\_EthernetSwitchData class'
+Description: Abstract class that represents a resource for a given instance of an Ethernet switch.
+ms.assetid: 5ae1be2a-8d59-4efe-a4ae-7cac1727cfa2
+title: Msvm\_EthernetSwitchData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchData class
@@ -164,17 +169,17 @@ The name of the virtual switch to which the associated resource instance is boun
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,19 @@
 title: oleautomation attribute
 description: MIDL oleautomation attribute and compatibility with Automation.
 ms.assetid: 4a1c9a02-d637-4595-87b3-5fe903149357
-keywords: ["oleautomation attribute MIDL"]
+keywords:
+- oleautomation attribute MIDL
 topic_type:
 - apiref
 api_name:
 - oleautomation
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # oleautomation attribute

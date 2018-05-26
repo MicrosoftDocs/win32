@@ -1,7 +1,12 @@
 ---
 title: ElementsChildHasDifferentParent
 description: ElementsChildHasDifferentParent
-ms.assetid: '2347A33C-8FBD-4C30-8B40-9CB35F121C8E'
+ms.assetid: 2347A33C-8FBD-4C30-8B40-9CB35F121C8E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ElementsChildHasDifferentParent
@@ -16,7 +21,7 @@ Error
 
 ## Description
 
-This error indicates that, when [**get\_accParent**](iaccessible-iaccessible--get-accparent.md) is called on the children of the target element, the children do not report a consistent parent.
+This error indicates that, when [**get\_accParent**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accparent?branch=master) is called on the children of the target element, the children do not report a consistent parent.
 
 ![an example of the children of one element reporting an inconsistent parent](images/accchecker-inconsistent-parent.png)
 
@@ -30,7 +35,7 @@ An incorrect or invalid MSAA implementation.
 
 <dl> <dt>
 
-[**AccessibleChildren**](accessiblechildren.md)
+[**AccessibleChildren**](/windows/win32/Oleacc/nf-oleacc-accessiblechildren?branch=master)
 </dt> </dl>
 
  

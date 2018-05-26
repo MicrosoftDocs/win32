@@ -1,7 +1,12 @@
 ---
-Description: 'The BuildINIPath function returns a fully qualified path to an INI file that corresponds to information you enter.'
-ms.assetid: '214ce89c-8bb2-4e1a-872a-026743a3e3a6'
+Description: The BuildINIPath function returns a fully qualified path to an INI file that corresponds to information you enter.
+ms.assetid: 214ce89c-8bb2-4e1a-872a-026743a3e3a6
 title: BuildINIPath function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BuildINIPath function
@@ -13,8 +18,8 @@ The **BuildINIPath** function returns a fully qualified path to an INI file that
 
 ```C++
 LPSTR BuildINIPath(
-   char *FullPath,
-   char *IniFileName
+   char *FullPath,
+   char *IniFileName
 );
 ```
 
@@ -54,17 +59,17 @@ The path that this function returns is a fully qualified path to an INI file tha
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Parser.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

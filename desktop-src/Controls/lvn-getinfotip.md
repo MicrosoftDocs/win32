@@ -1,8 +1,9 @@
 ---
 title: LVN\_GETINFOTIP notification code
 description: Sent by a large icon view list-view control that has the LVS\_EX\_INFOTIP extended style.
-ms.assetid: '62be5087-7e49-4722-a63a-1768e030af48'
-keywords: ["LVN_GETINFOTIP notification code Windows Controls"]
+ms.assetid: 62be5087-7e49-4722-a63a-1768e030af48
+keywords:
+- LVN_GETINFOTIP notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVN\_GETINFOTIP notification code
@@ -35,7 +41,7 @@ LVN_GETINFOTIP
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVGETINFOTIP**](nmlvgetinfotip.md) structure that contains information about this notification code.
+Pointer to an [**NMLVGETINFOTIP**](/windows/win32/Commctrl/ns-commctrl-tagnmlvgetinfotipa?branch=master) structure that contains information about this notification code.
 
 </dd> </dl>
 
@@ -53,16 +59,16 @@ This notification code is only sent by list-view controls that have the [**LVS\_
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **LVN\_GETINFOTIPW** (Unicode) and **LVN\_GETINFOTIPA** (ANSI)<br/>             |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

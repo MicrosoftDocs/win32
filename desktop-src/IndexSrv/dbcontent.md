@@ -1,8 +1,14 @@
 ---
 title: DBCONTENT
 description: DBCONTENT
-ms.assetid: '10481e54-8b01-43e4-802f-b77bf79b14cb'
-keywords: ["DBCONTENT"]
+ms.assetid: 10481e54-8b01-43e4-802f-b77bf79b14cb
+keywords:
+- DBCONTENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBCONTENT

@@ -1,7 +1,12 @@
 ---
-Description: 'The denominator of PKEY\_GPS\_DestLatitude.'
-ms.assetid: '1893d5f0-8703-41cf-854a-c6236553c06a'
-title: 'System.GPS.DestLatitudeDenominator'
+Description: The denominator of PKEY\_GPS\_DestLatitude.
+ms.assetid: 1893d5f0-8703-41cf-854a-c6236553c06a
+title: System.GPS.DestLatitudeDenominator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.DestLatitudeDenominator

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Toggles the literal status of a parameter. A literal parameter has a value that doesn''t change during the lifetime of an effect.'
-ms.assetid: '09ebf666-8a50-4604-abef-aed0d92a6d49'
-title: 'ID3DXEffectCompiler::SetLiteral method'
+---
+Description: Toggles the literal status of a parameter. A literal parameter has a value that doesnt change during the lifetime of an effect.
+ms.assetid: 09ebf666-8a50-4604-abef-aed0d92a6d49
+title: ID3DXEffectCompilerSetLiteral method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffectCompiler::SetLiteral method

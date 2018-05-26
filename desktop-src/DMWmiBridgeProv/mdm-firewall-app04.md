@@ -1,8 +1,10 @@
 ---
 title: MDM\_Firewall\_App04 class
 description: The MDM\_Firewall\_App04 class is used to configure the Windows Defender Firewall settings.
-ms.assetid: 'd7844d89-97d3-43b4-85af-c9464d475167'
-keywords: ["MDM_Firewall_App04 class", "MDM_Firewall_App04 class, described"]
+ms.assetid: d7844d89-97d3-43b4-85af-c9464d475167
+keywords:
+- MDM_Firewall_App04 class
+- MDM_Firewall_App04 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Firewall\_App04 class
@@ -128,7 +135,7 @@ Access type: Read/write
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                       |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl> |
@@ -136,9 +143,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

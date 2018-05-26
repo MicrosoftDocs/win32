@@ -4,11 +4,15 @@ description: Describes the features that are new in MMC Version 2.0.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd7b0fec6-84d2-4558-ac22-4508fd9541eb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: d7b0fec6-84d2-4558-ac22-4508fd9541eb
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["what's new in MMC version 2.0 MMC 2.0"]
+keywords:
+- whats new in MMC version 2.0 MMC 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC Version 2.0
@@ -121,7 +125,7 @@ The following items are part of MMC version 2.0, that is included with the Windo
 
 ## New Enumerations
 
-[**ColumnSortOrder**](columnsortorder.md)
+[**ColumnSortOrder**](/windows/win32/MmcObj/ne-mmcobj-columnsortorder?branch=master)
 
 [**DocumentMode**](documentmode.md)
 
@@ -136,7 +140,7 @@ The following items are part of MMC version 2.0, that is included with the Windo
 [**ViewOptions**](viewoptions.md)
 
 > [!Note]  
-> The [**ColumnSortOrder**](columnsortorder.md), [**DocumentMode**](documentmode.md), [**ExportListOptions**](exportlistoptions.md), [**ListViewMode**](listviewmode.md) and [**ViewOptions**](viewoptions.md) enumerations are part of the [MMC 2.0 Automation Object Model](mmc-2-0-automation-object-model.md).
+> The [**ColumnSortOrder**](/windows/win32/MmcObj/ne-mmcobj-columnsortorder?branch=master), [**DocumentMode**](documentmode.md), [**ExportListOptions**](exportlistoptions.md), [**ListViewMode**](listviewmode.md) and [**ViewOptions**](viewoptions.md) enumerations are part of the [MMC 2.0 Automation Object Model](mmc-2-0-automation-object-model.md).
 
  
 

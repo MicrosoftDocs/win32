@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.Appearance property
-description: Retrieves or sets the control's appearance to include or omit three-dimensional display effects.
-ms.assetid: 'cbc1f17f-991a-4b35-9c64-7750a17b42c8'
-keywords: ["Appearance property SysMon", "Appearance property SysMon , SystemMonitor class", "SystemMonitor class SysMon , Appearance property"]
+description: Retrieves or sets the controls appearance to include or omit three-dimensional display effects.
+ms.assetid: cbc1f17f-991a-4b35-9c64-7750a17b42c8
+keywords:
+- Appearance property SysMon
+- Appearance property SysMon , SystemMonitor class
+- SystemMonitor class SysMon , Appearance property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.Appearance property
@@ -43,7 +51,7 @@ You can set this property to one of the following values.
 
 
 
- 
+ 
 
 ## Exceptions
 
@@ -55,7 +63,7 @@ You can set this property to one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,8 +75,8 @@ This is an ambient property. The value of this property is determined by the con
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -80,9 +88,9 @@ This is an ambient property. The value of this property is determined by the con
 [**SystemMonitor**](systemmonitor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,17 @@
 ---
 title: GetDomain method of the Win32\_TerminalServiceSetting class
-description: Retrieves the name of the domain that the Remote Desktop Session Host (RD Session Host) server is a member of.
+description: Retrieves the name of the domain that the Remote Desktop Session Host (RD Session Host) server is a member of.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '11d58068-56df-4040-b7ba-afdd55bd417a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 11d58068-56df-4040-b7ba-afdd55bd417a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetDomain method Remote Desktop Services", "GetDomain method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , GetDomain method"]
+keywords:
+- GetDomain method Remote Desktop Services
+- GetDomain method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , GetDomain method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetDomain method of the Win32\_TerminalServiceSetting class
 
-Retrieves the name of the domain that the Remote Desktop Session Host (RD Session Host) server is a member of.
+Retrieves the name of the domain that the Remote Desktop Session Host (RD Session Host) server is a member of.
 
 ## Syntax
 
 
 ```mof
 uint32 GetDomain(
-  [out] string Domain
+  [out] string Domain
 );
 ```
 
@@ -41,7 +47,7 @@ uint32 GetDomain(
 *Domain* \[out\]
 </dt> <dd>
 
-The domain name of the RD Session Host server.
+The domain name of the RD Session Host server.
 
 </dd> </dl>
 
@@ -66,8 +72,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -81,9 +87,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

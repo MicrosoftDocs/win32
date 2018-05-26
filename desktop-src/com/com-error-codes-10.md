@@ -1,7 +1,7 @@
 ---
 title: COM Error Codes (UI, Audio, DirectX, Codec)
 description: The following table provides a list of error codes used by COM-based APIs.
-ms.assetid: '259BE370-305A-47C8-A4F8-AAAAC687A1B4'
+ms.assetid: 259BE370-305A-47C8-A4F8-AAAAC687A1B4
 topic_type:
 - apiref
 api_name:
@@ -170,6 +170,11 @@ api_location:
 - Winerror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Error Codes (UI, Audio, DirectX, Codec)
@@ -2290,9 +2295,9 @@ The requested level of detail is not present.
 [COM Error Codes](com-error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

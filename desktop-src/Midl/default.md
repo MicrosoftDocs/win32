@@ -2,13 +2,19 @@
 title: default attribute
 description: The \ default\ attribute Indicates that the interface or dispinterface, defined within a coclass, represents the default programmability interface. This attribute is intended for use by macro languages.
 ms.assetid: 66769dff-60a0-4e6e-9357-c4339c0bfa3f
-keywords: ["default attribute MIDL"]
+keywords:
+- default attribute MIDL
 topic_type:
 - apiref
 api_name:
 - default
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # default attribute

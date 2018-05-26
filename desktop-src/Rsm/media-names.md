@@ -1,7 +1,12 @@
 ---
-Description: 'When new physical media are placed into a library, Removable Storage Manager assigns an initial display name to the media that an administrator can use to visually identify the media.'
-ms.assetid: '2ccc60e1-88e6-496d-8627-4301d6957d50'
+Description: When new physical media are placed into a library, Removable Storage Manager assigns an initial display name to the media that an administrator can use to visually identify the media.
+ms.assetid: 2ccc60e1-88e6-496d-8627-4301d6957d50
 title: Media Names
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Names

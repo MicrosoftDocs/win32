@@ -1,7 +1,12 @@
 ---
 Description: COM+ Resource Dispenser Service
-ms.assetid: '34825538-85dd-4e86-a306-79cd60b3bc0b'
+ms.assetid: 34825538-85dd-4e86-a306-79cd60b3bc0b
 title: COM+ Resource Dispenser Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Resource Dispenser Service
@@ -19,11 +24,11 @@ The topics described in the following table provide background and task informat
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'To start using administration Component Object Model (COM) objects, you first have to set up your development environment. You should install the fax service before beginning to use the administration objects.'
-ms.assetid: 'dca56180-4309-4c45-9ffd-d6fad7a5f71f'
+Description: To start using administration Component Object Model (COM) objects, you first have to set up your development environment. You should install the fax service before beginning to use the administration objects.
+ms.assetid: dca56180-4309-4c45-9ffd-d6fad7a5f71f
 title: Setting up the Development Environment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting up the Development Environment

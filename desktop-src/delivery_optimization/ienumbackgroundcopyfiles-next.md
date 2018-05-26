@@ -1,8 +1,11 @@
 ---
 title: IEnumBackgroundCopyFiles Next method
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
-ms.assetid: '31E603EC-2684-487D-AB37-4C6A6F661298'
-keywords: ["Next method", "Next method, IEnumBackgroundCopyFiles interface", "IEnumBackgroundCopyFiles interface, Next method"]
+ms.assetid: 31E603EC-2684-487D-AB37-4C6A6F661298
+keywords:
+- Next method
+- Next method, IEnumBackgroundCopyFiles interface
+- IEnumBackgroundCopyFiles interface, Next method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumBackgroundCopyFiles::Next method
@@ -22,9 +30,9 @@ Retrieves a specified number of items in the enumeration sequence. If there are 
 
 ```C++
 HRESULT Next(
-  [in]  ULONG               celt,
-  [out] IBackgroundCopyFile **rgelt,
-  [out] ULONG               *pceltFetched
+  [in]  ULONG               celt,
+  [out] IBackgroundCopyFile **rgelt,
+  [out] ULONG               *pceltFetched
 );
 ```
 
@@ -68,7 +76,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,7 +84,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -93,9 +101,9 @@ This method returns the following **HRESULT** values, as well as others.
 [**IEnumBackgroundCopyFiles**](ienumbackgroundcopyfiles-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

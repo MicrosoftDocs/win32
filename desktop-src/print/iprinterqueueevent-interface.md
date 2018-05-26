@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides the event delegate for printer queue events.'
-ms.assetid: 'AA4B2578-61C9-47C3-A114-4B873B475124'
+---
+Description: Provides the event delegate for printer queue events.
+ms.assetid: AA4B2578-61C9-47C3-A114-4B873B475124
 title: IPrinterQueueEvent interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterQueueEvent interface

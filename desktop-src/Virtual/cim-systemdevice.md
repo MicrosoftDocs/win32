@@ -1,8 +1,10 @@
 ---
 title: CIM\_SystemDevice class
 description: Associates a system with a logical device that is a component of the system.
-ms.assetid: '3875df6b-b8eb-4ea5-ab8e-a5561231b573'
-keywords: ["CIM_SystemDevice class Hyper-V", "CIM_SystemDevice class Hyper-V , described"]
+ms.assetid: 3875df6b-b8eb-4ea5-ab8e-a5561231b573
+keywords:
+- CIM_SystemDevice class Hyper-V
+- CIM_SystemDevice class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SystemDevice class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Association, Aggregation, Composition, Version("2.10.0"), AMENDMENT]
 class CIM_SystemDevice : CIM_SystemComponent
 {
-  CIM_System        REF GroupComponent;
+  CIM_System        REF GroupComponent;
   CIM_LogicalDevice REF PartComponent;
 };
 ```
@@ -83,9 +90,9 @@ A reference to the logical device that is a component of the system.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ A reference to the logical device that is a component of the system.
 [**CIM\_SystemComponent**](cim-systemcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

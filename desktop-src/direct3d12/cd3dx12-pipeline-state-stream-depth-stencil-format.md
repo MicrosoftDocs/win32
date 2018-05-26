@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM\_DEPTH\_STENCIL\_FORMAT structure
 description: A helper structure used to describe the depth stencil format as a single object suitable for a stream description.
-ms.assetid: '512DB46E-D8F0-482B-9174-C786FB91AFD2'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL_FORMAT structure"]
+ms.assetid: 512DB46E-D8F0-482B-9174-C786FB91AFD2
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL_FORMAT structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM\_DEPTH\_STENCIL\_FORMAT structure
@@ -22,10 +28,10 @@ A helper structure used to describe the depth stencil format as a single object 
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL_FORMAT {
-                                                     CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL_FORMAT;
-                                                     CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL_FORMAT(DXGI_FORMAT const &amp;i);
+                                                     CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL_FORMAT;
+                                                     CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL_FORMAT(DXGI_FORMAT const &amp;i);
   CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL_FORMAT operator=(DXGI_FORMAT const&amp; i);
-                                                     operator DXGI_FORMAT() const;
+                                                     operator DXGI_FORMAT() const;
 };
 ```
 
@@ -99,9 +105,9 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<DXGI_FORMAT, D3D12_PIPELINE_STAT
 [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

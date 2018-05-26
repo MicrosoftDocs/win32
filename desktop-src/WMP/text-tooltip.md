@@ -1,14 +1,20 @@
 ---
 title: TEXT.toolTip
 description: The toolTip attribute specifies or retrieves the ToolTip text for the text control.
-ms.assetid: '3e275607-e7ff-4424-8310-c628ede22629'
-keywords: ["TEXT.toolTip Windows Media Player"]
+ms.assetid: 3e275607-e7ff-4424-8310-c628ede22629
+keywords:
+- TEXT.toolTip Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.toolTip
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.toolTip
@@ -54,9 +60,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT.wordWrap**](text-wordwrap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

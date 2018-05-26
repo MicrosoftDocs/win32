@@ -1,21 +1,32 @@
 ---
 title: Authenticating the Application
 description: Authenticating the Application
-ms.assetid: '011815fa-d55c-4abc-9ec8-55d754827342'
-keywords: ["Windows Media Device Manager,authentication", "Device Manager,authentication", "programming guide,authentication", "desktop applications,authentication", "creating Windows Media Device Manager applications,authentication", "authentication"]
+ms.assetid: 011815fa-d55c-4abc-9ec8-55d754827342
+keywords:
+- Windows Media Device Manager,authentication
+- Device Manager,authentication
+- programming guide,authentication
+- desktop applications,authentication
+- creating Windows Media Device Manager applications,authentication
+- authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authenticating the Application
 
-The first step your application must perform is authentication. Authentication verifies the application's identity to Windows Media Device Manager. Once you authenticate your application, you can call **QueryInterface** to get the root [**IWMDeviceManager**](iwmdevicemanager.md) interface, which can be queried for other required interfaces, which can themselves be queried for all other interfaces. Authentication need only take place once, on startup.
+The first step your application must perform is authentication. Authentication verifies the application's identity to Windows Media Device Manager. Once you authenticate your application, you can call **QueryInterface** to get the root [**IWMDeviceManager**](/windows/win32/mswmdm/nn-mswmdm-iwmdevicemanager?branch=master) interface, which can be queried for other required interfaces, which can themselves be queried for all other interfaces. Authentication need only take place once, on startup.
 
 To authenticate your application, perform these steps:
 
-1.  CoCreate the **MediaDevMgr** object (class ID MediaDevMgr), and request an [**IComponentAuthenticate**](icomponentauthenticate.md) interface.
+1.  CoCreate the **MediaDevMgr** object (class ID MediaDevMgr), and request an [**IComponentAuthenticate**](/windows/win32/mswmdm/nn-mswmdm-icomponentauthenticate?branch=master) interface.
 2.  Create a [CSecureChannelClient](csecurechannelclient-class.md) object to handle the authentication.
 3.  Pass your application key and transfer certificate to the secure channel object. You can use the dummy key/certificate shown in the following example code to get basic functionality from SDK functions. However, to get full functionality (important for passing files to and from the device), you must request a key and certificate from Microsoft as described in [Tools for Development](tools-for-development.md).
 4.  Pass the **IComponentAuthenticate** interface you created in step 1 to the secure channel object.
-5.  Call [**CSecureChannelClient::Authenticate**](csecurechannelclient-authenticate.md) to authenticate your application.
+5.  Call [**CSecureChannelClient::Authenticate**](/windows/win32/scclient/nf-scclient-csecurechannelclient-authenticate?branch=master) to authenticate your application.
 6.  Query **IComponentAuthenticate** for the **IWMDeviceManager** interface.
 
 These steps are shown in the following C++ code.

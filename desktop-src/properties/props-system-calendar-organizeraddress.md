@@ -1,7 +1,12 @@
 ---
-Description: 'The address of the event organizer. This is a mailing or street address.'
-ms.assetid: 'be00b019-6922-44e5-a837-7068956cd155'
-title: 'System.Calendar.OrganizerAddress'
+Description: The address of the event organizer. This is a mailing or street address.
+ms.assetid: be00b019-6922-44e5-a837-7068956cd155
+title: System.Calendar.OrganizerAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Calendar.OrganizerAddress

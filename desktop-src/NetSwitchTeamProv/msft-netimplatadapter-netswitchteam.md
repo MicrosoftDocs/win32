@@ -1,7 +1,12 @@
 ---
-Description: 'Represents Network Adapters used in IM Platform, ie. the members and team NICs.'
-ms.assetid: '0cd76a9f-84d4-4b40-a6f1-4b7dbfc9a6f3'
-title: 'MSFT\_NetImPlatAdapter class'
+Description: Represents Network Adapters used in IM Platform, ie. the members and team NICs.
+ms.assetid: 0cd76a9f-84d4-4b40-a6f1-4b7dbfc9a6f3
+title: MSFT\_NetImPlatAdapter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetImPlatAdapter class
@@ -181,8 +186,8 @@ The transmission speed of the adapter.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported client<br/> | Windows 8<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>NetSwitchTeam.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>NetSwitchTeamCim.dll</dt> </dl> |
@@ -196,9 +201,9 @@ The transmission speed of the adapter.
 [NetSwitchTeam Provider Classes](network-switch-team-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

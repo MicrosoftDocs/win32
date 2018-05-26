@@ -1,14 +1,20 @@
 ---
 title: AUTOMENU.show
 description: The show method displays the Quick Access Panel.
-ms.assetid: 'c4f2b106-180a-4526-af9b-6ce54c083578'
-keywords: ["AUTOMENU.show Windows Media Player"]
+ms.assetid: c4f2b106-180a-4526-af9b-6ce54c083578
+keywords:
+- AUTOMENU.show Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AUTOMENU.show
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AUTOMENU.show
@@ -56,9 +62,9 @@ The **Quick Access Panel** appears at the location specified by the **left** and
 [**AUTOMENU Element**](automenu-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

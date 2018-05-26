@@ -1,7 +1,12 @@
 ---
-Description: 'This sample application demonstrates opening and closing communication streams and causing ducking events that an application can get to implement stream attenuation.'
-ms.assetid: '9a2131b2-ec4a-492a-a277-bd26ec8d67e5'
+Description: This sample application demonstrates opening and closing communication streams and causing ducking events that an application can get to implement stream attenuation.
+ms.assetid: 9a2131b2-ec4a-492a-a277-bd26ec8d67e5
 title: DuckingCaptureSample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DuckingCaptureSample

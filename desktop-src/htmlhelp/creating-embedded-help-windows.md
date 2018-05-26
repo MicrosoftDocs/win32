@@ -1,7 +1,12 @@
 ---
 title: Creating Embedded Help Windows
 description: Creating Embedded Help Windows
-ms.assetid: '5EA1BFF1-B716-4482-8918-5C1D384B364A'
+ms.assetid: 5EA1BFF1-B716-4482-8918-5C1D384B364A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Embedded Help Windows

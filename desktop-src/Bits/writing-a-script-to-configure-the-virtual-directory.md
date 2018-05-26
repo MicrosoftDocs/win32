@@ -1,14 +1,19 @@
 ---
 title: Writing a Script to Configure the Virtual Directory
 description: Writing a Script to Configure the Virtual Directory
-ms.assetid: '0324fbc8-1d64-454c-b021-4e010edcac8d'
+ms.assetid: 0324fbc8-1d64-454c-b021-4e010edcac8d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing a Script to Configure the Virtual Directory
 
 You can use the default BITS IIS property values to upload a file to the server. The upload file is written to the URL as specified in the remote file name of the job. To upload the file to a server application and receive a reply, change the [BITSServerNotificationType](bits-iis-extension-properties.md) property to send the data by reference (sends the name of the file that contains the data) or by value (sends the data in the body of the request).
 
-For a list and description of the properties that you can modify, see [BITS IIS Extension Properties](bits-iis-extension-properties.md). Use the methods of the [**IBITSExtensionSetup**](ibitsextensionsetup.md) interface to enable and disable the virtual directory for uploads.
+For a list and description of the properties that you can modify, see [BITS IIS Extension Properties](bits-iis-extension-properties.md). Use the methods of the [**IBITSExtensionSetup**](/windows/win32/Bitscfg/nn-bitscfg-ibitsextensionsetup?branch=master) interface to enable and disable the virtual directory for uploads.
 
 The following example shows how to use Windows Script Host to create, configure, and enable an IIS virtual directory for BITS uploads.
 

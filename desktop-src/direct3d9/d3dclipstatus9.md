@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the current clip status.'
-ms.assetid: '3ea8631c-a967-4d24-a49a-1751b3ee6077'
+---
+Description: Describes the current clip status.
+ms.assetid: 3ea8631c-a967-4d24-a49a-1751b3ee6077
 title: D3DCLIPSTATUS9 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCLIPSTATUS9 structure
@@ -70,9 +75,9 @@ Clip intersection flags that describe the current clip status. This member can t
 
 ## Remarks
 
-When clipping is enabled during vertex processing (by [**ProcessVertices**](idirect3ddevice9--processvertices.md), [**DrawPrimitive**](idirect3ddevice9--drawprimitive.md), or other drawing functions), Direct3D computes a clip code for every vertex. The clip code is a combination of D3DCS\_\* bits. When a vertex is outside a particular clipping plane, the corresponding bit is set in the clipping code. Direct3D maintains the clip status using **D3DCLIPSTATUS9**, which has ClipUnion and ClipIntersection members. ClipUnion is a bitwise OR of all vertex clip codes and ClipIntersection is a bitwise AND of all vertex clip codes. Initial values are zero for ClipUnion and 0xFFFFFFFF for ClipIntersection. When D3DRS\_CLIPPING is set to **FALSE**, ClipUnion and ClipIntersection are set to zero. Direct3D updates the clip status during drawing calls. To compute clip status for a particular object, set ClipUnion and ClipIntersection to their initial value and continue drawing.
+When clipping is enabled during vertex processing (by [**ProcessVertices**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-processvertices?branch=master), [**DrawPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive?branch=master), or other drawing functions), Direct3D computes a clip code for every vertex. The clip code is a combination of D3DCS\_\* bits. When a vertex is outside a particular clipping plane, the corresponding bit is set in the clipping code. Direct3D maintains the clip status using **D3DCLIPSTATUS9**, which has ClipUnion and ClipIntersection members. ClipUnion is a bitwise OR of all vertex clip codes and ClipIntersection is a bitwise AND of all vertex clip codes. Initial values are zero for ClipUnion and 0xFFFFFFFF for ClipIntersection. When D3DRS\_CLIPPING is set to **FALSE**, ClipUnion and ClipIntersection are set to zero. Direct3D updates the clip status during drawing calls. To compute clip status for a particular object, set ClipUnion and ClipIntersection to their initial value and continue drawing.
 
-Clip status is not updated by [**DrawRectPatch**](idirect3ddevice9--drawrectpatch.md) and [**DrawTriPatch**](idirect3ddevice9--drawtripatch.md) because there is no software emulation for them.
+Clip status is not updated by [**DrawRectPatch**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawrectpatch?branch=master) and [**DrawTriPatch**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawtripatch?branch=master) because there is no software emulation for them.
 
 ## Requirements
 
@@ -91,10 +96,10 @@ Clip status is not updated by [**DrawRectPatch**](idirect3ddevice9--drawrectpatc
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetClipStatus**](idirect3ddevice9--getclipstatus.md)
+[**GetClipStatus**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getclipstatus?branch=master)
 </dt> <dt>
 
-[**SetClipStatus**](idirect3ddevice9--setclipstatus.md)
+[**SetClipStatus**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setclipstatus?branch=master)
 </dt> </dl>
 
  

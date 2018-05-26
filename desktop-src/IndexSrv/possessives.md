@@ -1,7 +1,12 @@
 ---
 title: Possessives
 description: Possessives
-ms.assetid: '34f28316-10f5-446a-8fda-010448951b1b'
+ms.assetid: 34f28316-10f5-446a-8fda-010448951b1b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Possessives

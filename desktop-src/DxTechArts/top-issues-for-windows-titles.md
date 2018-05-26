@@ -1,7 +1,12 @@
 ---
 title: Top Issues for Windows Titles
-description: This article highlights many of the common issues we've seen in current-generation PC games.
-ms.assetid: '89b83473-1aa9-9a2d-8778-15cfb91cdea4'
+description: This article highlights many of the common issues weve seen in current-generation PC games.
+ms.assetid: 89b83473-1aa9-9a2d-8778-15cfb91cdea4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Top Issues for Windows Titles

@@ -1,7 +1,12 @@
 ---
-Description: 'A command-line utility that generates program code from a service description.'
-ms.assetid: '76dffca8-bb84-4384-a9e8-120a4cf2acac'
+Description: A command-line utility that generates program code from a service description.
+ms.assetid: 76dffca8-bb84-4384-a9e8-120a4cf2acac
 title: Web Services on Devices Code Generator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Web Services on Devices Code Generator

@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example demonstrates how to retrieve information about the outgoing archive and how to open a fax from the archive using the fax ID.'
-ms.assetid: '68f6c0f2-ea06-401c-9021-c50940f8cd7a'
+Description: The following Microsoft Visual Basic code example demonstrates how to retrieve information about the outgoing archive and how to open a fax from the archive using the fax ID.
+ms.assetid: 68f6c0f2-ea06-401c-9021-c50940f8cd7a
 title: Managing the Outgoing Archive
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing the Outgoing Archive

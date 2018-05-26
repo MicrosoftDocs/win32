@@ -1,7 +1,12 @@
 ---
-Description: 'The IPortableDeviceValues interface holds a collection of PROPERTYKEY/PROPVARIANT pairs.'
-ms.assetid: 'a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f'
+Description: The IPortableDeviceValues interface holds a collection of PROPERTYKEY/PROPVARIANT pairs.
+ms.assetid: a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f
 title: IPortableDeviceValues interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues interface
@@ -73,7 +78,7 @@ The **IPortableDeviceValues** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -93,9 +98,9 @@ The **IPortableDeviceValues** interface has these methods.
 [**Collection Interfaces**](collection-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

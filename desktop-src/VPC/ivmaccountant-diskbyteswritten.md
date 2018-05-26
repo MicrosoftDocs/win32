@@ -1,8 +1,11 @@
 ---
 title: IVMAccountant DiskBytesWritten property
 description: Total number of bytes written by all storage controllers for this virtual machine.
-ms.assetid: 'a2a5730b-a411-48b8-aca8-d09cf09432a9'
-keywords: ["DiskBytesWritten property Virtual PC", "DiskBytesWritten property Virtual PC , IVMAccountant interface", "IVMAccountant interface Virtual PC , DiskBytesWritten property"]
+ms.assetid: a2a5730b-a411-48b8-aca8-d09cf09432a9
+keywords:
+- DiskBytesWritten property Virtual PC
+- DiskBytesWritten property Virtual PC , IVMAccountant interface
+- IVMAccountant interface Virtual PC , DiskBytesWritten property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccountant::DiskBytesWritten property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the total number of bytes written by all storage controllers for this virtual machine.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DiskBytesWritten(
-  [out, retval] VARIANT *bytesWritten
+  [out, retval] VARIANT *bytesWritten
 );
 ```
 
@@ -60,9 +68,9 @@ Note that disk I/O statistics are reset to zero when a virtual machine is powere
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMAccountant is defined as 6376c067-7f57-4d63-b754-06e2e4f51d73<br/>              |
@@ -76,9 +84,9 @@ Note that disk I/O statistics are reset to zero when a virtual machine is powere
 [**IVMAccountant**](ivmaccountant.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

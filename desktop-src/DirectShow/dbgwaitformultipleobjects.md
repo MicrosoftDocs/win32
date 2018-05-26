@@ -1,7 +1,12 @@
 ---
-Description: 'Waits for any (or all) of the specified objects to be signaled.'
-ms.assetid: 'e60c98b6-a4d2-40de-8297-727404e3c387'
+Description: Waits for any (or all) of the specified objects to be signaled.
+ms.assetid: e60c98b6-a4d2-40de-8297-727404e3c387
 title: DbgWaitForMultipleObjects function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgWaitForMultipleObjects function
@@ -17,9 +22,9 @@ In a retail build, this function is equivalent to the **WaitForMultipleObjects**
 
 ```C++
 DWORD DbgWaitForMultipleObjects(
-   DWORD         nCount,
-   CONST HANDLE  *lpHandles,
-   BOOL          bWaitAll
+   DWORD         nCount,
+   CONST HANDLE  *lpHandles,
+   BOOL          bWaitAll
 );
 ```
 
@@ -68,9 +73,9 @@ Boolean value that specifies whether to wait for all of the objects. If **TRUE**
 [Wait Debugging Functions](wait-debugging-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

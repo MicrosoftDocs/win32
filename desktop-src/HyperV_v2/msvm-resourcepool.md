@@ -1,7 +1,12 @@
 ---
-Description: 'Describes a type of virtual resource available for use in virtual machines.'
-ms.assetid: 'A93D990E-D921-4113-8D88-218D0F84EFA0'
-title: 'Msvm\_ResourcePool class'
+Description: Describes a type of virtual resource available for use in virtual machines.
+ms.assetid: A93D990E-D921-4113-8D88-218D0F84EFA0
+title: Msvm\_ResourcePool class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ResourcePool class
@@ -16,31 +21,31 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ResourcePool : CIM_ResourcePool
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   PoolID = "Microsoft:GUID\Root";
-  boolean  Primordial = False;
-  uint64   Capacity;
-  uint64   Reserved;
-  uint16   ResourceType = 4;
-  string   OtherResourceType;
-  string   ResourceSubType;
-  string   AllocationUnits = "Megabyte";
-  string   ConsumedResourceUnits = "count";
-  uint64   CurrentlyConsumedResource;
-  uint64   MaxConsumableResource;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   PoolID = "Microsoft:GUID\Root";
+  boolean  Primordial = False;
+  uint64   Capacity;
+  uint64   Reserved;
+  uint16   ResourceType = 4;
+  string   OtherResourceType;
+  string   ResourceSubType;
+  string   AllocationUnits = "Megabyte";
+  string   ConsumedResourceUnits = "count";
+  uint64   CurrentlyConsumedResource;
+  uint64   MaxConsumableResource;
 };
 ```
 
@@ -382,11 +387,11 @@ If no QoS related conditions have been detected, the primary status (Operational
 
 | Value                                                                                                                                                                                                    | Description                                                                                                                      |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| <span id="_Insufficient_Throughput___32788_"></span><span id="_insufficient_throughput___32788_"></span><span id="_INSUFFICIENT_THROUGHPUT___32788_"></span>“Insufficient Throughput” (32788)<br/> | At least one of the virtual disks allocated from the pool is currently reporting an “Insufficient Throughput” status.<br/> |
+| <span id="_Insufficient_Throughput___32788_"></span><span id="_insufficient_throughput___32788_"></span><span id="_INSUFFICIENT_THROUGHPUT___32788_"></span> Insufficient Throughput  (32788)<br/> | At least one of the virtual disks allocated from the pool is currently reporting an  Insufficient Throughput  status.<br/> |
 
 
 
- 
+ 
 
 The Hyper-V WMI provider raises an [**Msvm\_StorageAlert**](msvm-storagealert.md) event each time the OperationalStatus of the **Msvm\_ResourcePool** class changes.
 
@@ -590,8 +595,8 @@ Access to the **Msvm\_ResourcePool** class might be restricted by UAC Filtering.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -617,9 +622,9 @@ Access to the **Msvm\_ResourcePool** class might be restricted by UAC Filtering.
 [Resource Management Classes](resource-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IMimeEnumMessageParts Next method
 description: Retrieves the next specified number of elements in the enumeration sequence.
-ms.assetid: 'ed3a3047-ebe6-4d62-b1fd-502fbba63f23'
-keywords: ["Next method Windows Mail (formerly Outlook Express)", "Next method Windows Mail (formerly Outlook Express) , IMimeEnumMessageParts interface", "IMimeEnumMessageParts interface Windows Mail (formerly Outlook Express) , Next method"]
+ms.assetid: ed3a3047-ebe6-4d62-b1fd-502fbba63f23
+keywords:
+- Next method Windows Mail (formerly Outlook Express)
+- Next method Windows Mail (formerly Outlook Express) , IMimeEnumMessageParts interface
+- IMimeEnumMessageParts interface Windows Mail (formerly Outlook Express) , Next method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeEnumMessageParts::Next method
@@ -22,9 +30,9 @@ Retrieves the next specified number of elements in the enumeration sequence.
 
 ```C++
 HRESULT Next(
-  [in]      ULONG        cFetch,
-  [in, out] IMimeMessage **prgpMessage,
-  [out]     ULONG        *pcFetched
+  [in]      ULONG        cFetch,
+  [in, out] IMimeMessage **prgpMessage,
+  [out]     ULONG        *pcFetched
 );
 ```
 
@@ -77,7 +85,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -89,8 +97,8 @@ If there are fewer than the requested number of elements remaining in the sequen
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -98,9 +106,9 @@ If there are fewer than the requested number of elements remaining in the sequen
 
 
 
- 
+ 
 
- 
+ 
 
 
 

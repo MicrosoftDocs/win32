@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following device properties.'
-ms.assetid: '1caf4c1a-ceb6-4aa5-b430-df01c9fb22ce'
+Description: Windows Portable Devices supports the following device properties.
+ms.assetid: 1caf4c1a-ceb6-4aa5-b430-df01c9fb22ce
 title: Device Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Properties
@@ -119,14 +124,14 @@ Windows Portable Devices supports the following device properties.
 <tr class="odd">
 <td><span id="wpd_device_use_device_stage"></span><span id="WPD_DEVICE_USE_DEVICE_STAGE"></span><strong>WPD_DEVICE_USE_DEVICE_STAGE</strong></td>
 <td><strong>VT_BOOL</strong></td>
-<td>If this property exists and is set to <strong>TRUE</strong>, the device can be used with Device Stage™. This is meant for devices that cannot store metadata using the <strong>Device Metadata Service</strong>, but will provide metadata on the Microsoft servers.</td>
+<td>If this property exists and is set to <strong>TRUE</strong>, the device can be used with Device Stage . This is meant for devices that cannot store metadata using the <strong>Device Metadata Service</strong>, but will provide metadata on the Microsoft servers.</td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -145,9 +150,9 @@ Windows Portable Devices supports the following device properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

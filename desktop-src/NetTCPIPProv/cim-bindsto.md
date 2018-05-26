@@ -1,7 +1,12 @@
 ---
-Description: 'This association establishes a service access point as a requestor of protocol services from a protocol endpoint.'
-ms.assetid: '6b7ef455-4560-44bc-aa34-ca140d69c8c8'
-title: 'CIM\_BindsTo class'
+Description: This association establishes a service access point as a requestor of protocol services from a protocol endpoint.
+ms.assetid: 6b7ef455-4560-44bc-aa34-ca140d69c8c8
+title: CIM\_BindsTo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_BindsTo class
@@ -18,7 +23,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, UMLPackagePath("CIM::Core::Service"), Version("2.10.0"), AMENDMENT]
 class CIM_BindsTo : CIM_SAPSAPDependency
 {
-  CIM_ProtocolEndpoint   REF Antecedent;
+  CIM_ProtocolEndpoint   REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
 };
 ```
@@ -73,8 +78,8 @@ The **AccessPoint** or **ProtocolEndpoint** that is dependent on the lower-level
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -88,9 +93,9 @@ The **AccessPoint** or **ProtocolEndpoint** that is dependent on the lower-level
 [**CIM\_SAPSAPDependency**](cim-sapsapdependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

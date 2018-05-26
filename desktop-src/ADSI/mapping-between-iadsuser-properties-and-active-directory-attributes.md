@@ -4,18 +4,23 @@ description: When applicable, a property of ADSI user object is mapped to an app
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9b568084-5a6b-4a73-be88-9d9cd8007824'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 9b568084-5a6b-4a73-be88-9d9cd8007824
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Mapping between IADsUser Properties and Active Directory Attributes ADSI", "LDAP provider ADSI , user object, Mapping between IADsUser properties and Active Directory attributes"]
+keywords:
+- Mapping between IADsUser Properties and Active Directory Attributes ADSI
+- LDAP provider ADSI , user object, Mapping between IADsUser properties and Active Directory attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Mapping Between IADsUser Properties and Active Directory Attributes
 
-When applicable, a property of ADSI user object is mapped to an appropriate Active Directory attribute. The ADSI user object properties are associated with the [**IADsUser**](iadsuser.md) property methods.
+When applicable, a property of ADSI user object is mapped to an appropriate Active Directory attribute. The ADSI user object properties are associated with the [**IADsUser**](/windows/win32/Iads/nn-iads-iadsuser?branch=master) property methods.
 
-The following table lists the mapping between the [**IADsUser**](iadsuser.md) properties for the LDAP provider and the corresponding Active Directory attribute.
+The following table lists the mapping between the [**IADsUser**](/windows/win32/Iads/nn-iads-iadsuser?branch=master) properties for the LDAP provider and the corresponding Active Directory attribute.
 
 
 

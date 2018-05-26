@@ -1,7 +1,7 @@
 ---
 title: RPC Return Values
 description: This table lists only the most common values that can be returned by all RPC functions. See the individual method descriptions for lists of the specific return codes each can return.
-ms.assetid: '0223aa7a-b0cf-49e3-9f08-90be5ccffbd1'
+ms.assetid: 0223aa7a-b0cf-49e3-9f08-90be5ccffbd1
 topic_type:
 - apiref
 api_name:
@@ -10,6 +10,11 @@ api_location:
 - Winerror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC Return Values
@@ -145,7 +150,7 @@ This table lists only the most common values that can be returned by all RPC fun
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -153,15 +158,15 @@ This table lists only the most common values that can be returned by all RPC fun
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Winerror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

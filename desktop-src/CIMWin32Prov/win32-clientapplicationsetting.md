@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_ClientApplicationSetting association WMI class relates an executable file and a Component Object Model (COM) application that contains the COM configuration options for the executable file.'
+Description: The Win32\_ClientApplicationSetting association WMI class relates an executable file and a Component Object Model (COM) application that contains the COM configuration options for the executable file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c43d80ee-0f29-4452-b51f-f18543bc1d35'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c43d80ee-0f29-4452-b51f-f18543bc1d35
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ClientApplicationSetting class'
+title: Win32\_ClientApplicationSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ClientApplicationSetting class
@@ -25,7 +28,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_ClientApplicationSetting
 {
   Win32_DCOMApplication REF Application;
-  CIM_DataFile          REF Client;
+  CIM_DataFile          REF Client;
 };
 ```
 
@@ -83,8 +86,8 @@ Reference to the instance that represents the executable file that uses COM sett
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -98,9 +101,9 @@ Reference to the instance that represents the executable file that uses COM sett
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

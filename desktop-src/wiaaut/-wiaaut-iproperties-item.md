@@ -1,8 +1,11 @@
 ---
 title: Properties.Item property
 description: Retrieves the specified item in the Properties collection either by position or name.
-ms.assetid: '3fa39625-a0c3-499a-bfbd-0a744de00baf'
-keywords: ["Item property WIA Automation", "Item property WIA Automation , Properties object", "Properties object WIA Automation , Item property"]
+ms.assetid: 3fa39625-a0c3-499a-bfbd-0a744de00baf
+keywords:
+- Item property WIA Automation
+- Item property WIA Automation , Properties object
+- Properties object WIA Automation , Item property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties.Item property
@@ -42,8 +50,8 @@ For example code, see [Convert a File](-wiaaut-shared-samples.md#convert-a-file)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -56,9 +64,9 @@ For example code, see [Convert a File](-wiaaut-shared-samples.md#convert-a-file)
 [**Properties**](-wiaaut-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

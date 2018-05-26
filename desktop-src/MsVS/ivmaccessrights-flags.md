@@ -1,8 +1,13 @@
 ---
 title: IVMAccessRights Flags property
 description: The Flags property contains the inheritance flags of the access control entry.
-ms.assetid: '06d414d0-8e74-415c-b296-f48ed4043175'
-keywords: ["Flags property Virtual Server", "Flags property Virtual Server , IVMAccessRights interface", "IVMAccessRights interface Virtual Server , Flags property", "Flags property Virtual Server , VMAccessRights interface", "VMAccessRights interface Virtual Server , Flags property"]
+ms.assetid: 06d414d0-8e74-415c-b296-f48ed4043175
+keywords:
+- Flags property Virtual Server
+- Flags property Virtual Server , IVMAccessRights interface
+- IVMAccessRights interface Virtual Server , Flags property
+- Flags property Virtual Server , VMAccessRights interface
+- VMAccessRights interface Virtual Server , Flags property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccessRights::Flags property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Flags(
-  [in]  byte flags
+  [in]  byte flags
 );
 
 HRESULT get_Flags(
-  [out] byte *flags
+  [out] byte *flags
 );
 ```
 
@@ -107,8 +117,8 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -120,9 +130,9 @@ Next
 [**IVMAccessRights**](ivmaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Player.MouseDown event
 description: The MouseDown event occurs when the user presses a mouse button.
-ms.assetid: 'cc2fd2ca-c974-4683-98ca-2202c4d5b240'
-keywords: ["MouseDown event Windows Media Player", "MouseDown event Windows Media Player , Player class", "Player class Windows Media Player , MouseDown event"]
+ms.assetid: cc2fd2ca-c974-4683-98ca-2202c4d5b240
+keywords:
+- MouseDown event Windows Media Player
+- MouseDown event Windows Media Player , Player class
+- Player class Windows Media Player , MouseDown event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.MouseDown event
@@ -91,9 +99,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

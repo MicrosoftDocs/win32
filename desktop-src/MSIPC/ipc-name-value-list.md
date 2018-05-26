@@ -4,11 +4,14 @@ description: Provides a name-value list structure.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a6fb4e33-973f-4841-8c88-60796bbb9364'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: a6fb4e33-973f-4841-8c88-60796bbb9364
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_NAME_VALUE_LIST structure Active Directory Rights Management Services SDK 2.0", "PIPC_NAME_VALUE_LIST structure pointer Active Directory Rights Management Services SDK 2.0", "PCIPC_NAME_VALUE_LIST structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_NAME_VALUE_LIST structure Active Directory Rights Management Services SDK 2.0
+- PIPC_NAME_VALUE_LIST structure pointer Active Directory Rights Management Services SDK 2.0
+- PCIPC_NAME_VALUE_LIST structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Ipcbase.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPC\_NAME\_VALUE\_LIST structure
@@ -28,7 +34,7 @@ Provides a name-value list structure that contains a collection of name-value pa
 
 ```C++
 typedef struct _IPC_NAME_VALUE_LIST {
-  DWORD          cNameValuePairs;
+  DWORD          cNameValuePairs;
   IPC_NAME_VALUE aNameValuePairs[ANYSIZE_ARRAY];
 } IPC_NAME_VALUE_LIST, *PIPC_NAME_VALUE_LIST;typedef const IPC_NAME_VALUE_LIST *PCIPC_NAME_VALUE_LIST;
 ```
@@ -59,8 +65,8 @@ The array of name-value pairs. For more information, see [**IPC\_NAME\_VALUE**](
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcbase.h (include Msipc.h)</dt> </dl> |
 
 
@@ -72,9 +78,9 @@ The array of name-value pairs. For more information, see [**IPC\_NAME\_VALUE**](
 [**IPC\_NAME\_VALUE**](ipc-name-value.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

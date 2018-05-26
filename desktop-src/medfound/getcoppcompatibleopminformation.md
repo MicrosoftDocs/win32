@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sends a Certified Output Protection Protocol (COPP) status request to a protected output object.'
-ms.assetid: '24300591-c0c0-48a2-99d3-be98c0c1492a'
+---
+Description: Sends a Certified Output Protection Protocol (COPP) status request to a protected output object.
+ms.assetid: 24300591-c0c0-48a2-99d3-be98c0c1492a
 title: GetCOPPCompatibleOPMInformation function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCOPPCompatibleOPMInformation function
@@ -57,7 +62,7 @@ If the method succeeds, it returns **STATUS\_SUCCESS**. Otherwise, it returns an
 
 ## Remarks
 
-Applications should call [**IOPMVideoOutput::COPPCompatibleGetInformation**](iopmvideooutput-iopmvideooutput--coppcompatiblegetinformation.md) instead of calling this function.
+Applications should call [**IOPMVideoOutput::COPPCompatibleGetInformation**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation?branch=master) instead of calling this function.
 
 The protected output object must be created with COPP semantics. See [**CreateOPMProtectedOutputs**](createopmprotectedoutputs.md).
 

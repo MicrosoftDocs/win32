@@ -1,7 +1,12 @@
 ---
 title: GlobalVoiceCommandsEnabled Property
 description: GlobalVoiceCommandsEnabled Property
-ms.assetid: 'd4f74019-fa33-41fc-abe7-01791ff188f0'
+ms.assetid: d4f74019-fa33-41fc-abe7-01791ff188f0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GlobalVoiceCommandsEnabled Property
@@ -32,7 +37,7 @@ Returns or sets whether voice is enabled for Agent's global commands.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -42,9 +47,9 @@ Microsoft Agent automatically adds voice parameters (grammar) for opening and cl
 
 Disabling the property does not affect the character's pop-up menu. The global commands added by the server will still appear. You cannot remove them from the pop-up menu.
 
- 
+ 
 
- 
+ 
 
 
 

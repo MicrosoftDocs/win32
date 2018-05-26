@@ -1,7 +1,12 @@
-﻿---
-Description: 'Releases a shared lock.'
-ms.assetid: 'c2e9eb68-aacb-4196-b09e-d2748efb7fd6'
-title: 'CShareLockNH::ShareUnlock method'
+---
+Description: Releases a shared lock.
+ms.assetid: c2e9eb68-aacb-4196-b09e-d2748efb7fd6
+title: CShareLockNHShareUnlock method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CShareLockNH::ShareUnlock method

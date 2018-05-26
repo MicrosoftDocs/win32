@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the URL address of the device model's presentation data.'
-ms.assetid: '0cbe3b02-4ade-4eaa-94a7-71fda8d15762'
+Description: Specifies the URL address of the device models presentation data.
+ms.assetid: 0cbe3b02-4ade-4eaa-94a7-71fda8d15762
 title: presentationURL element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # presentationURL element
@@ -38,14 +43,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

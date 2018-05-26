@@ -2,8 +2,20 @@
 title: T
 description: Definitions of OpenGL terms that begin with the letter T.
 Robots: noindex, nofollow
-ms.assetid: '57ac6542-5bfb-4e3e-9ee0-aa35218e41a9'
-keywords: ["tessellation", "texel", "texture", "texture mapping", "texture matrix", "transformations", "triangles"]
+ms.assetid: 57ac6542-5bfb-4e3e-9ee0-aa35218e41a9
+keywords:
+- tessellation
+- texel
+- texture
+- texture mapping
+- texture matrix
+- transformations
+- triangles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # T

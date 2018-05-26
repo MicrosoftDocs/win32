@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ComponentPath property is a read-only property that returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned.'
-ms.assetid: '6e53419d-f28a-45cd-abc8-0f451177f3fc'
-title: 'Installer.ComponentPath property'
+---
+Description: The ComponentPath property is a read-only property that returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned.
+ms.assetid: 6e53419d-f28a-45cd-abc8-0f451177f3fc
+title: Installer.ComponentPath property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ComponentPath property
@@ -55,7 +60,7 @@ If the component is a registry key, the registry roots are represented numerical
 
 <dl> <dt>
 
-[**MsiGetComponentPath**](msigetcomponentpath.md)
+[**MsiGetComponentPath**](/windows/win32/Msi/nf-msi-msigetcomponentpatha?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetMediaType method sets the uncompressed media type for the group.'
-ms.assetid: '51778563-f119-42e0-826b-966324a85024'
-title: 'IAMTimelineGroup::SetMediaType method'
+---
+Description: The SetMediaType method sets the uncompressed media type for the group.
+ms.assetid: 51778563-f119-42e0-826b-966324a85024
+title: IAMTimelineGroupSetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::SetMediaType method
@@ -31,7 +36,7 @@ HRESULT SetMediaType(
 *pmt* \[in\]
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure describing the format.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure describing the format.
 
 </dd> </dl>
 
@@ -61,7 +66,7 @@ The following media types are supported:
 -   32 bits per pixel, with alpha (MEDIASUBTYPE\_ARGB32, not MEDIASUBTYPE\_RGB32)
 -   16-bit stereo PCM audio (MEDIASUBTYPE\_PCM)
 
-Video types must use FORMAT\_VideoInfo for the format type and [**VIDEOINFOHEADER**](videoinfoheader.md) for the format block. The [**VIDEOINFOHEADER2**](videoinfoheader2.md) format is not supported. Also, top-down video formats (*biHeight* &lt; 0) are not supported.
+Video types must use FORMAT\_VideoInfo for the format type and [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) for the format block. The [**VIDEOINFOHEADER2**](/windows/win32/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2?branch=master) format is not supported. Also, top-down video formats (*biHeight* &lt; 0) are not supported.
 
 To specify a compression format for the group, call the [**IAMTimelineGroup::SetSmartRecompressFormat**](iamtimelinegroup-setsmartrecompressformat.md) method.
 

@@ -1,13 +1,16 @@
 ---
-Description: 'WMI supplies methods in the COM API and the scripting API to obtain information or manipulate objects in an enterprise system.'
+Description: WMI supplies methods in the COM API and the scripting API to obtain information or manipulate objects in an enterprise system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7a1eda93-014e-4067-b6d0-361a3d2fd1df'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7a1eda93-014e-4067-b6d0-361a3d2fd1df
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Calling a WMI Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Calling a WMI Method
@@ -33,7 +36,7 @@ The following code example calls both WMI and provider methods.
 
 The following WMI and provider methods are located in the [Scripting API for WMI](scripting-api-for-wmi.md):
 
--   **objWMIService.ExecQuery** calls the WMI scripting method [**SWbemServices.ExecQuery**](iwbemservices-execquery.md)
+-   **objWMIService.ExecQuery** calls the WMI scripting method [**SWbemServices.ExecQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execquery?branch=master)
 -   **objService.StopService()** calls the provider method [**Win32\_Service.StopService**](https://msdn.microsoft.com/library/aa393673)
 
 You can look up the code that may appear in "Return" in the Return Codes section for [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418).
@@ -159,7 +162,7 @@ For more information about semisynchronous mode, see [Making a Semisynchronous C
 [Scripting with SWbemObject](scripting-with-swbemobject.md)
 </dt> <dt>
 
-[**WbemFlagEnum**](wbemflagenum.md)
+[**WbemFlagEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemflagenum?branch=master)
 </dt> </dl>
 
  

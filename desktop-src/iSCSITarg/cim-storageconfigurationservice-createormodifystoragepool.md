@@ -4,13 +4,16 @@ description: Starts a job to create (or modify) a StoragePool.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3b47b23e-ea8a-4ef9-ae18-901dcab63df6'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3b47b23e-ea8a-4ef9-ae18-901dcab63df6
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateOrModifyStoragePool method iSCSI Software Target API", "CreateOrModifyStoragePool method iSCSI Software Target API , CIM_StorageConfigurationService class", "CIM_StorageConfigurationService class iSCSI Software Target API , CreateOrModifyStoragePool method"]
+keywords:
+- CreateOrModifyStoragePool method iSCSI Software Target API
+- CreateOrModifyStoragePool method iSCSI Software Target API , CIM_StorageConfigurationService class
+- CIM_StorageConfigurationService class iSCSI Software Target API , CreateOrModifyStoragePool method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateOrModifyStoragePool method of the CIM\_StorageConfigurationService class
@@ -30,13 +36,13 @@ Starts a job to create (or modify) a StoragePool. The StoragePool will be (or mu
 
 ```mof
 uint32 CreateOrModifyStoragePool(
-  [in]      string                 ElementName,
-  [out]     CIM_ConcreteJob    REF Job,
-  [in]      CIM_StorageSetting REF Goal,
-  [in, out] uint64                 Size,
-  [in]      string                 InPools[],
-  [in]      string                 InExtents[],
-  [in, out] CIM_StoragePool    REF Pool
+  [in]      string                 ElementName,
+  [out]     CIM_ConcreteJob    REF Job,
+  [in]      CIM_StorageSetting REF Goal,
+  [in, out] uint64                 Size,
+  [in]      string                 InPools[],
+  [in]      string                 InExtents[],
+  [in, out] CIM_StoragePool    REF Pool
 );
 ```
 
@@ -120,7 +126,7 @@ As an input parameter: if null, creates a new StoragePool. If not null, modifies
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
@@ -129,10 +135,10 @@ As an input parameter: if null, creates a new StoragePool. If not null, modifies
 **Size Not Supported** (4097)
 </dt> <dt>
 
-**Method Reserved** (4098–32767)
+**Method Reserved** (4098 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -142,7 +148,7 @@ As an input parameter: if null, creates a new StoragePool. If not null, modifies
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -156,9 +162,9 @@ As an input parameter: if null, creates a new StoragePool. If not null, modifies
 [**CIM\_StorageConfigurationService**](cim-storageconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

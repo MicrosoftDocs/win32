@@ -1,15 +1,18 @@
 ---
-Description: 'The SetPowerState method of the CIM\_LogicalDevice class sets the desired power state for a logical device and when a device should be put into that state.'
+Description: The SetPowerState method of the CIM\_LogicalDevice class sets the desired power state for a logical device and when a device should be put into that state.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0d9678e0-a956-45d3-ac41-5c1604478fd7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0d9678e0-a956-45d3-ac41-5c1604478fd7
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetPowerState method of the CIM\_LogicalDevice class'
+title: SetPowerState method of the CIM\_LogicalDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPowerState method of the CIM\_LogicalDevice class
@@ -19,15 +22,15 @@ The **SetPowerState** method of the CIM\_LogicalDevice class sets the desired po
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -62,7 +65,7 @@ Full power.
 
 </dt> <dd>
 
-Power save — low-power mode.
+Power save   low-power mode.
 
 </dd> <dt>
 
@@ -73,7 +76,7 @@ Power save — low-power mode.
 
 </dt> <dd>
 
-Power save — standby.
+Power save   standby.
 
 </dd> <dt>
 
@@ -84,7 +87,7 @@ Power save — standby.
 
 </dt> <dd>
 
-Power save — other.
+Power save   other.
 
 </dd> <dt>
 
@@ -135,8 +138,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -153,9 +156,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

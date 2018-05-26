@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VirtualSystemResourceRegistration class
 description: Registers a service that provides virtual system-specific resource-related objects.
-ms.assetid: '864d3db2-b711-4550-9e8f-d77a675b23ce'
-keywords: ["Msvm_VirtualSystemResourceRegistration class Hyper-V", "Msvm_VirtualSystemResourceRegistration class Hyper-V , described"]
+ms.assetid: 864d3db2-b711-4550-9e8f-d77a675b23ce
+keywords:
+- Msvm_VirtualSystemResourceRegistration class Hyper-V
+- Msvm_VirtualSystemResourceRegistration class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemResourceRegistration class
@@ -28,9 +35,9 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, AMENDMENT]
 class Msvm_VirtualSystemResourceRegistration : Msvm_VirtualizationComponentRegistration
 {
-  Msvm_ResourceTypeDefinition         REF ResourceType;
+  Msvm_ResourceTypeDefinition         REF ResourceType;
   Msvm_VirtualSystemResourceComponent REF Component;
-  boolean                                 IsRootDevice = False;
+  boolean                                 IsRootDevice = False;
 };
 ```
 
@@ -102,9 +109,9 @@ Access to the **Msvm\_VirtualSystemResourceRegistration** class might be restric
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -120,9 +127,9 @@ Access to the **Msvm\_VirtualSystemResourceRegistration** class might be restric
 [Profile Registration Classes](profile-registration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

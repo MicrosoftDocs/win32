@@ -1,8 +1,9 @@
 ---
 title: External.viewParameters
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: '0afabe35-2857-413a-a662-1a76d3fb75fe'
-keywords: ["External.viewParameters Windows Media Player"]
+ms.assetid: 0afabe35-2857-413a-a662-1a76d3fb75fe
+keywords:
+- External.viewParameters Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.viewParameters
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **viewParameters** property retrieves parameters associated with the current view in Windows Media Player.
 
@@ -54,9 +60,9 @@ View parameters are not interpreted by Windows Media Player. They are created by
 [**External Object for Type 1 Online Stores**](external-object-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

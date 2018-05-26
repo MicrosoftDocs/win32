@@ -1,7 +1,12 @@
 ---
-Description: 'These functions register a filter.'
-ms.assetid: 'c9c4976f-d4c5-465e-8ad7-4294c05d0e0a'
+Description: These functions register a filter.
+ms.assetid: c9c4976f-d4c5-465e-8ad7-4294c05d0e0a
 title: DLL Setup Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DLL Setup Functions
@@ -20,7 +25,7 @@ These functions register a filter.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -33,9 +38,9 @@ These functions register a filter.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

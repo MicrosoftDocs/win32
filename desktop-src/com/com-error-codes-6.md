@@ -1,7 +1,7 @@
 ---
 title: COM Error Codes (TPM, PLA, FVE)
 description: The following table provides a list of error codes used by COM-based APIs.
-ms.assetid: 'ab379550-e577-4be6-a747-24b0837ea0d6'
+ms.assetid: ab379550-e577-4be6-a747-24b0837ea0d6
 topic_type:
 - apiref
 api_name:
@@ -436,6 +436,11 @@ api_location:
 - Winerror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Error Codes (TPM, PLA, FVE)
@@ -895,9 +900,9 @@ If you are experiencing difficulty with an application you are installing or run
 [COM Error Codes](com-error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

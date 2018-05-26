@@ -1,8 +1,14 @@
 ---
 title: Introduction to OpenGL
 description: Introduction to OpenGL
-ms.assetid: '8fe214a9-f071-470b-ac72-182a7bd54fbd'
-keywords: ["OpenGL,introduction"]
+ms.assetid: 8fe214a9-f071-470b-ac72-182a7bd54fbd
+keywords:
+- OpenGL,introduction
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction to OpenGL

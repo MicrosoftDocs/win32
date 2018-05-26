@@ -1,8 +1,11 @@
 ---
 title: DeviceCommands.Count property
 description: Retrieves the number of members in the DeviceCommands collection.
-ms.assetid: '37646dff-6b35-4615-8017-231eae15cafd'
-keywords: ["Count property WIA Automation", "Count property WIA Automation , DeviceCommands object", "DeviceCommands object WIA Automation , Count property"]
+ms.assetid: 37646dff-6b35-4615-8017-231eae15cafd
+keywords:
+- Count property WIA Automation
+- Count property WIA Automation , DeviceCommands object
+- DeviceCommands object WIA Automation , Count property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceCommands.Count property
@@ -43,8 +51,8 @@ For example code, see [Enumerate the Supported Commands](-wiaaut-shared-samples.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -60,9 +68,9 @@ For example code, see [Enumerate the Supported Commands](-wiaaut-shared-samples.
 [**DeviceCommand**](-wiaaut-devicecommand.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

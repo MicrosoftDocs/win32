@@ -1,7 +1,12 @@
 ---
 title: ATA Port Utility Routines
 description: ATA Port Utility Routines
-ms.assetid: 'cf412b35-d951-4a01-bf67-f410df58b48d'
+ms.assetid: cf412b35-d951-4a01-bf67-f410df58b48d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Port Utility Routines

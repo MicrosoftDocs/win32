@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '11c84bd0-9314-4c57-9466-57bcce7c2883'
+Description: .
+ms.assetid: 11c84bd0-9314-4c57-9466-57bcce7c2883
 title: Windows Search Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Search Structures
@@ -10,39 +15,39 @@ title: Windows Search Structures
 
 This section documents the following structures:
 
-[**AUTHENTICATION\_INFO**](-search-authentication-info.md)
+[**AUTHENTICATION\_INFO**](/windows/win32/Searchapi/ns-searchapi-_authentication_info?branch=master)
 
-[**FILTERED\_DATA\_SOURCES**](filtered-data-sources.md)
+[**FILTERED\_DATA\_SOURCES**](/windows/win32/filtereg/ns-filtereg-_filtered_data_sources?branch=master)
 
-[**FILTERREGION**](-search-filterregion.md)
+[**FILTERREGION**](/windows/win32/Filter/?branch=master)
 
-[**FULLPROPSPEC**](-search-fullpropspec.md)
+[**FULLPROPSPEC**](/windows/win32/Filter/?branch=master)
 
-[**HITRANGE**](-search-hitrange.md)
+[**HITRANGE**](/windows/win32/Structuredquery/ns-structuredquery-taghitrange?branch=master)
 
-[**INCREMENTAL\_ACCESS\_INFO**](-search-incremental-access-info.md)
+[**INCREMENTAL\_ACCESS\_INFO**](/windows/win32/Searchapi/ns-searchapi-_incremental_access_info?branch=master)
 
-[**INLINE\_NOTIFY\_DATA\_CHANGE\_ENTRY**](-search-inline-notify-data-change-entry.md)
+[**INLINE\_NOTIFY\_DATA\_CHANGE\_ENTRY**](/windows/win32/Searchapi/?branch=master)
 
-[**ITEM\_INFO**](-search-item-info.md)
+[**ITEM\_INFO**](/windows/win32/Searchapi/ns-searchapi-_item_info?branch=master)
 
 [**LINKINFO**](-search-linkinfo.md)
 
-[**PROXY\_INFO**](-search-proxy-info.md)
+[**PROXY\_INFO**](/windows/win32/Searchapi/ns-searchapi-_proxy_info?branch=master)
 
-[**SEARCH\_COLUMN\_PROPERTIES**](-search-search-column-properties.md)
+[**SEARCH\_COLUMN\_PROPERTIES**](/windows/win32/searchapi/ns-searchapi-_search_column_properties?branch=master)
 
-[**SEARCH\_ITEM\_CHANGE**](-search-search-item-change.md)
+[**SEARCH\_ITEM\_CHANGE**](/windows/win32/Searchapi/ns-searchapi-_search_item_change?branch=master)
 
-[**SEARCH\_ITEM\_INDEXING\_STATUS**](-search-search-item-indexing-status.md)
+[**SEARCH\_ITEM\_INDEXING\_STATUS**](/windows/win32/Searchapi/ns-searchapi-_search_item_indexing_status?branch=master)
 
-[**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](-search-search-item-persistent-change.md)
+[**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](/windows/win32/Searchapi/ns-searchapi-_search_item_persistent_change?branch=master)
 
-[**STAT\_CHUNK**](-search-stat-chunk.md)
+[**STAT\_CHUNK**](/windows/win32/Filter/?branch=master)
 
-[**TEXT\_SOURCE**](-search-text-source.md)
+[**TEXT\_SOURCE**](/windows/win32/Indexsrv/ns-indexsrv-tagtext_source?branch=master)
 
-[**TIMEOUT\_INFO**](-search-timeout-info.md)
+[**TIMEOUT\_INFO**](/windows/win32/Searchapi/ns-searchapi-_timeout_info?branch=master)
 
  
 

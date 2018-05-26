@@ -4,20 +4,26 @@ description: The Failover Cluster API defines the following external control cod
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '85DD2E41-B5DA-41E8-ACD8-2BE283CCF67A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 85DD2E41-B5DA-41E8-ACD8-2BE283CCF67A
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["collection control codes Failover Cluster", "control codes Failover Cluster ,collection", "collections Failover Cluster ,control codes"]
+keywords:
+- collection control codes Failover Cluster
+- control codes Failover Cluster ,collection
+- collections Failover Cluster ,control codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Collection Control Codes
 
 The [Failover Cluster API](the-server-cluster-api.md) defines the following [*external control codes*](e-gly.md#-wolf-external-control-code-gly) for collections (there are no [*internal control codes*](i-gly.md#-wolf-internal-control-code-gly) defined for collections).
 
-Collection control codes use the **CLUS\_OBJECT\_COLLECTION** value of the [**CLUSTER\_CONTROL\_OBJECT**](cluster-control-object.md) enumeration to indicate that the control code applies to clusters. For more information about control codes, see [Control Code Architecture](control-code-architecture.md).
+Collection control codes use the **CLUS\_OBJECT\_COLLECTION** value of the [**CLUSTER\_CONTROL\_OBJECT**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_control_object?branch=master) enumeration to indicate that the control code applies to clusters. For more information about control codes, see [Control Code Architecture](control-code-architecture.md).
 
-Collection control codes are enumerated by the [**CLUSCTL\_COLLECTION\_CODES**](clusctl-collection-codes.md) enumeration.
+Collection control codes are enumerated by the [**CLUSCTL\_COLLECTION\_CODES**](/windows/previous-versions/msclus/ne-clusapi-clusctl_groupset_codes?branch=master) enumeration.
 
 ## In this section
 

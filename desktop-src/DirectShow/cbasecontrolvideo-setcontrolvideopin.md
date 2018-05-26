@@ -1,7 +1,12 @@
 ---
-Description: 'The SetControlVideoPin method sets the pin used by the filter.'
-ms.assetid: '4346f828-4380-4150-9ecb-74eb690bdcdf'
-title: 'CBaseControlVideo.SetControlVideoPin method'
+Description: The SetControlVideoPin method sets the pin used by the filter.
+ms.assetid: 4346f828-4380-4150-9ecb-74eb690bdcdf
+title: CBaseControlVideo.SetControlVideoPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.SetControlVideoPin method
@@ -13,7 +18,7 @@ The `SetControlVideoPin` method sets the pin used by the filter.
 
 ```C++
 void SetControlVideoPin(
-   CBasePin *pPin
+   CBasePin *pPin
 );
 ```
 
@@ -56,9 +61,9 @@ The interface can be called only when the filter has been connected successfully
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

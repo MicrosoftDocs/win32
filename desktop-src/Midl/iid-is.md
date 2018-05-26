@@ -2,13 +2,19 @@
 title: iid\_is attribute
 description: The \ iid\_is\ pointer attribute specifies the IID of the COM interface pointed to by an interface pointer.
 ms.assetid: 7fb5eb87-15d8-4717-b79a-e8a81f2f7293
-keywords: ["iid_is attribute MIDL"]
+keywords:
+- iid_is attribute MIDL
 topic_type:
 - apiref
 api_name:
 - iid_is
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iid\_is attribute

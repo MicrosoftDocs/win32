@@ -1,8 +1,9 @@
 ---
 title: WM\_CHOOSEFONT\_GETLOGFONT message
-description: An application sends the WM\_CHOOSEFONT\_GETLOGFONT message to a Font dialog box to retrieve information about the user's current font selections.
-ms.assetid: 'afbf953a-13dd-409b-a988-f1426c8bbd31'
-keywords: ["WM_CHOOSEFONT_GETLOGFONT message Dialog Boxes"]
+description: An application sends the WM\_CHOOSEFONT\_GETLOGFONT message to a Font dialog box to retrieve information about the users current font selections.
+ms.assetid: afbf953a-13dd-409b-a988-f1426c8bbd31
+keywords:
+- WM_CHOOSEFONT_GETLOGFONT message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CHOOSEFONT\_GETLOGFONT message
@@ -49,7 +55,7 @@ This message does not return a value.
 
 ## Remarks
 
-The [**ChooseFont**](choosefont.md) function creates a **Font** dialog box. When the user closes the **Font** dialog box, the **ChooseFont** function returns information about the user's font selections in the [**CHOOSEFONT**](choosefont-str.md) structure. The **lpLogFont** member of the **CHOOSEFONT** structure is a pointer to a [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure.
+The [**ChooseFont**](choosefont.md) function creates a **Font** dialog box. When the user closes the **Font** dialog box, the **ChooseFont** function returns information about the user's font selections in the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure. The **lpLogFont** member of the **CHOOSEFONT** structure is a pointer to a [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure.
 
 Use the **WM\_CHOOSEFONT\_GETLOGFONT** message to get information about the user's current font selections while the **Font** dialog box is open. For example, if you enable the **Apply** button in the **Font** dialog box, send the message to get the font information to apply to the current text selection.
 
@@ -61,8 +67,8 @@ Typically, you enable a [*CFHookProc*](cfhookproc.md) hook procedure to process 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 
 
@@ -80,7 +86,7 @@ Typically, you enable a [*CFHookProc*](cfhookproc.md) hook procedure to process 
 [**ChooseFont**](choosefont.md)
 </dt> <dt>
 
-[**CHOOSEFONT**](choosefont-str.md)
+[**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master)
 </dt> <dt>
 
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
@@ -98,9 +104,9 @@ Typically, you enable a [*CFHookProc*](cfhookproc.md) hook procedure to process 
 [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

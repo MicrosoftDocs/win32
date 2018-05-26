@@ -1,8 +1,11 @@
 ---
 title: IMimePropertySet GetCharset method
 description: Gets the character set of the property set.
-ms.assetid: '96f2ad6e-6bce-49b7-9ba3-4925e3135b13'
-keywords: ["GetCharset method Windows Mail (formerly Outlook Express)", "GetCharset method Windows Mail (formerly Outlook Express) , IMimePropertySet interface", "IMimePropertySet interface Windows Mail (formerly Outlook Express) , GetCharset method"]
+ms.assetid: 96f2ad6e-6bce-49b7-9ba3-4925e3135b13
+keywords:
+- GetCharset method Windows Mail (formerly Outlook Express)
+- GetCharset method Windows Mail (formerly Outlook Express) , IMimePropertySet interface
+- IMimePropertySet interface Windows Mail (formerly Outlook Express) , GetCharset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimePropertySet::GetCharset method
@@ -22,7 +30,7 @@ Gets the character set of the property set.
 
 ```C++
 HRESULT GetCharset(
-  [out] LPHCHARSET phCharset
+  [out] LPHCHARSET phCharset
 );
 ```
 
@@ -56,7 +64,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,8 +72,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -73,9 +81,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Conversion of MTS Packages to COM+ Applications
-ms.assetid: 'cacd9578-09a4-41dc-8a09-5789ae315b9c'
+ms.assetid: cacd9578-09a4-41dc-8a09-5789ae315b9c
 title: Conversion of MTS Packages to COM+ Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Conversion of MTS Packages to COM+ Applications

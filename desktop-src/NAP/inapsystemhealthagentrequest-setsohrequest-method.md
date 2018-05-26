@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthAgentRequest SetSoHRequest method
 description: Is used by health agents to write their SoH request resulting from the call to INapSystemHealthAgentCallback GetSoHRequest.
-ms.assetid: '76471cf2-e5df-4e07-b872-ccac0fd45998'
-keywords: ["SetSoHRequest method NAP", "SetSoHRequest method NAP , INapSystemHealthAgentRequest interface", "INapSystemHealthAgentRequest interface NAP , SetSoHRequest method"]
+ms.assetid: 76471cf2-e5df-4e07-b872-ccac0fd45998
+keywords:
+- SetSoHRequest method NAP
+- SetSoHRequest method NAP , INapSystemHealthAgentRequest interface
+- INapSystemHealthAgentRequest interface NAP , SetSoHRequest method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagentrt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthAgentRequest::SetSoHRequest method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSystemHealthAgentRequest::SetSoHRequest** method is used by health agents to write their SoH request resulting from the call to [**INapSystemHealthAgentCallback::GetSoHRequest**](inapsystemhealthagentcallback-getsohrequest-method.md).
 
@@ -27,8 +35,8 @@ The **INapSystemHealthAgentRequest::SetSoHRequest** method is used by health age
 
 ```C++
 HRESULT SetSoHRequest(
-  [in] const SoHRequest *sohRequest,
-  [in]       BOOL       cacheSohForLaterUse
+  [in] const SoHRequest *sohRequest,
+  [in]       BOOL       cacheSohForLaterUse
 );
 ```
 
@@ -41,14 +49,14 @@ HRESULT SetSoHRequest(
 *sohRequest* \[in\]
 </dt> <dd>
 
-A pointer to a [**SoHRequest**](soh-struct.md) packet.
+A pointer to a [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) packet.
 
 </dd> <dt>
 
 *cacheSohForLaterUse* \[in\]
 </dt> <dd>
 
-A **BOOL** that is **TRUE** if the NapAgent should cache the [**SoH**](soh-struct.md) and **FALSE** otherwise.
+A **BOOL** that is **TRUE** if the NapAgent should cache the [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) and **FALSE** otherwise.
 
 </dd> </dl>
 
@@ -66,7 +74,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -74,8 +82,8 @@ Other COM-specific error codes also may be returned.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapSystemHealthAgent.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthAgent.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagentrt.dll</dt> </dl>             |
@@ -89,9 +97,9 @@ Other COM-specific error codes also may be returned.
 [**INapSystemHealthAgentRequest**](inapsystemhealthagentrequest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

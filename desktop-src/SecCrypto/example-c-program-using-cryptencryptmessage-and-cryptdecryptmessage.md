@@ -1,12 +1,17 @@
 ---
-Description: 'Shows the relationship between those function parameters that point to structures or arrays and their initialized data.'
-ms.assetid: 'b1ad0f13-fb4d-421f-b054-a99c8ad9c83a'
-title: 'Example C Program: Using CryptEncryptMessage and CryptDecryptMessage'
+Description: Shows the relationship between those function parameters that point to structures or arrays and their initialized data.
+ms.assetid: b1ad0f13-fb4d-421f-b054-a99c8ad9c83a
+title: Example C Program Using CryptEncryptMessage and CryptDecryptMessage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Using CryptEncryptMessage and CryptDecryptMessage
 
-[**CryptEncryptMessage**](cryptencryptmessage.md) is the only function call necessary to accomplish all of the tasks listed in [Encrypting a Message](security.encrypting_a_message). Initialization of data structures is necessary. The following illustration shows the relationship between those function parameters that point to structures or arrays and their initialized data. This example also decrypts the message using [**CryptDecryptMessage**](cryptdecryptmessage.md).
+[**CryptEncryptMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptencryptmessage?branch=master) is the only function call necessary to accomplish all of the tasks listed in [Encrypting a Message](security.encrypting_a_message). Initialization of data structures is necessary. The following illustration shows the relationship between those function parameters that point to structures or arrays and their initialized data. This example also decrypts the message using [**CryptDecryptMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptdecryptmessage?branch=master).
 
 ![initialization map for a call to cryptencryptmessage](images/crypenc.png)
 
@@ -18,13 +23,13 @@ title: 'Example C Program: Using CryptEncryptMessage and CryptDecryptMessage'
 4.  Open a [*certificate store*](security.c_gly#-security-certificate-store-gly).
 5.  Get the recipient certificate.
 6.  Create the recipient certificate array.
-7.  Initialize the [**CRYPT\_ALGORITHM\_IDENTIFIER**](crypt-algorithm-identifier.md) structure.
-8.  Initialize the [**CRYPT\_ENCRYPT\_MESSAGE\_PARA**](crypt-encrypt-message-para.md) structure.
-9.  Call [**CryptEncryptMessage**](cryptencryptmessage.md) to encrypt the content and create a digitally enveloped message.
+7.  Initialize the [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier?branch=master) structure.
+8.  Initialize the [**CRYPT\_ENCRYPT\_MESSAGE\_PARA**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_encrypt_message_para?branch=master) structure.
+9.  Call [**CryptEncryptMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptencryptmessage?branch=master) to encrypt the content and create a digitally enveloped message.
 
 The following example implements this procedure.
 
-Comments relate code fragments to each step in the procedure. For more information about the function, see [**CryptEncryptMessage**](cryptencryptmessage.md). For more information about the data structures, see [**CRYPT\_ALGORITHM\_IDENTIFIER**](crypt-algorithm-identifier.md) and [**CRYPT\_ENCRYPT\_MESSAGE\_PARA**](crypt-encrypt-message-para.md).
+Comments relate code fragments to each step in the procedure. For more information about the function, see [**CryptEncryptMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptencryptmessage?branch=master). For more information about the data structures, see [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier?branch=master) and [**CRYPT\_ENCRYPT\_MESSAGE\_PARA**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_encrypt_message_para?branch=master).
 
 This example uses the functions [**MyHandleError**](myhandleerror.md) and [**ByteToStr**](bytetostr.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

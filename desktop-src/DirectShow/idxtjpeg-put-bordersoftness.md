@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_BorderSoftness method specifies the width of the blurry region around the edges of the wipe pattern.'
-ms.assetid: '9fdbda7f-c89b-4ed8-8035-054bc28f3231'
-title: 'IDxtJpeg::put\_BorderSoftness method'
+---
+Description: The put\_BorderSoftness method specifies the width of the blurry region around the edges of the wipe pattern.
+ms.assetid: 9fdbda7f-c89b-4ed8-8035-054bc28f3231
+title: IDxtJpegput\_BorderSoftness method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::put\_BorderSoftness method

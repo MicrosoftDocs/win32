@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Write method writes the provided JavaScript array to the stream and returns the number of bytes written.'
-ms.assetid: '1140F881-A6E1-4342-A069-BE9EB3BD4BF8'
-title: 'IPrinterScriptableSequentialStream::Write method'
+---
+Description: The Write method writes the provided JavaScript array to the stream and returns the number of bytes written.
+ms.assetid: 1140F881-A6E1-4342-A069-BE9EB3BD4BF8
+title: IPrinterScriptableSequentialStreamWrite method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptableSequentialStream::Write method

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMStrokeAndFillPath function concurrently strokes and fills a path.'
-ms.assetid: 'f8a2df5d-426f-4872-8d54-55895c4fe6e3'
+---
+Description: The OEMStrokeAndFillPath function concurrently strokes and fills a path.
+ms.assetid: f8a2df5d-426f-4872-8d54-55895c4fe6e3
 title: OEMStrokeAndFillPath function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMStrokeAndFillPath function

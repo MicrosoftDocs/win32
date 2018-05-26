@@ -4,11 +4,14 @@ description: Acquires a network controller update lock.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e9dcff3f-50ee-4730-95e3-2e158961274b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e9dcff3f-50ee-4730-95e3-2e158961274b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AcquireUpdateLock method", "AcquireUpdateLock method, PS_NetworkController class", "PS_NetworkController class, AcquireUpdateLock method"]
+keywords:
+- AcquireUpdateLock method
+- AcquireUpdateLock method, PS_NetworkController class
+- PS_NetworkController class, AcquireUpdateLock method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - NCServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AcquireUpdateLock method of the PS\_NetworkController class
@@ -28,7 +34,7 @@ Acquires a network controller update lock.
 
 ```mof
 uint32 AcquireUpdateLock(
-  [out] boolean LockAcquired
+  [out] boolean LockAcquired
 );
 ```
 
@@ -52,7 +58,7 @@ on return, contains **true** if the lock was successfully acquired; otherwise, *
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\NetworkController\\Server<br/>                                    |
 | MOF<br/>                      | <dl> <dt>NCServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NCServerPSProvider.dll</dt> </dl> |
@@ -66,9 +72,9 @@ on return, contains **true** if the lock was successfully acquired; otherwise, *
 [**PS\_NetworkController**](ps-networkcontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

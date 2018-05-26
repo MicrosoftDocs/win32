@@ -1,7 +1,12 @@
 ---
 title: Working with Bookmarks
 description: Bookmarks enable you to link to a specific location in a help topic from within the same topic, or from another file.
-ms.assetid: '38864257-4C2A-4347-9629-0F056E36A338'
+ms.assetid: 38864257-4C2A-4347-9629-0F056E36A338
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Bookmarks

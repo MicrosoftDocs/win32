@@ -1,7 +1,7 @@
 ---
 title: Query Info Flags
 description: The following lists contain the attributes and modifiers used by HttpQueryInfo and QueryInfo.
-ms.assetid: 'b1613193-ae03-411e-bf05-de42f471cd8c'
+ms.assetid: b1613193-ae03-411e-bf05-de42f471cd8c
 topic_type:
 - apiref
 api_name:
@@ -98,13 +98,18 @@ api_location:
 - Wininet.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query Info Flags
 
-The following lists contain the attributes and modifiers used by [**HttpQueryInfo**](httpqueryinfo.md) and [**QueryInfo**](https://msdn.microsoft.com/library/ms774972).
+The following lists contain the attributes and modifiers used by [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) and [**QueryInfo**](https://msdn.microsoft.com/library/ms774972).
 
-The attribute flags are used by [**HttpQueryInfo**](httpqueryinfo.md) (or [**QueryInfo**](https://msdn.microsoft.com/library/ms774972)) to indicate what data to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as [HTTP\_QUERY\_RAW\_HEADERS](#http-query-raw-headers), that are not related to a specific header.
+The attribute flags are used by [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) (or [**QueryInfo**](https://msdn.microsoft.com/library/ms774972)) to indicate what data to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as [HTTP\_QUERY\_RAW\_HEADERS](#http-query-raw-headers), that are not related to a specific header.
 
 <dl> <dt>
 
@@ -428,7 +433,7 @@ No longer supported.
 
 
 
-Causes [**HttpQueryInfo**](httpqueryinfo.md) to search for the header name specified in *lpvBuffer* and store the header data in *lpvBuffer*.
+Causes [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) to search for the header name specified in *lpvBuffer* and store the header data in *lpvBuffer*.
 
 
 </dt> </dl> </dd> <dt>
@@ -1213,7 +1218,7 @@ Retrieves the X-XSS-Protection header value.
 
 </dt> </dl> </dd> </dl>
 
-The modifier flags are used in conjunction with an attribute flag to modify the request. Modifier flags either modify the format of the data returned or indicate where [**HttpQueryInfo**](httpqueryinfo.md) (or [**QueryInfo**](https://msdn.microsoft.com/library/ms774972)) should search for the data.
+The modifier flags are used in conjunction with an attribute flag to modify the request. Modifier flags either modify the format of the data returned or indicate where [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) (or [**QueryInfo**](https://msdn.microsoft.com/library/ms774972)) should search for the data.
 
 <dl> <dt>
 
@@ -1274,7 +1279,7 @@ Returns the header value as a [**SYSTEMTIME**](https://msdn.microsoft.com/librar
 > [!Note]  
 > WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).
 
- 
+ 
 
 ## Requirements
 
@@ -1282,15 +1287,15 @@ Returns the header value as a [**SYSTEMTIME**](https://msdn.microsoft.com/librar
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Wininet.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

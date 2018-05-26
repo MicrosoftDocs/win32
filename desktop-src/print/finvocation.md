@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FINVOCATION structure is used as input to the IPrintOemUni::SendFontCmd method. The structure is defined in printoem.h.'
-ms.assetid: '958d6f1f-e8e8-43e6-a4d4-73bae4b2be21'
+---
+Description: The FINVOCATION structure is used as input to the IPrintOemUniSendFontCmd method. The structure is defined in printoem.h.
+ms.assetid: 958d6f1f-e8e8-43e6-a4d4-73bae4b2be21
 title: FINVOCATION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FINVOCATION structure

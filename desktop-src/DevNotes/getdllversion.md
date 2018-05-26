@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetDllVersion function retrieves the version number of Cabinet.dll.'
-ms.assetid: 'b324d5cd-1ede-473e-a10f-249c95eda057'
+---
+Description: The GetDllVersion function retrieves the version number of Cabinet.dll.
+ms.assetid: b324d5cd-1ede-473e-a10f-249c95eda057
 title: GetDllVersion function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDllVersion function

@@ -4,17 +4,22 @@ description: Contains information about a specific Remote Desktop Services licen
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c26d27ee-7dd3-49f0-a79c-752d23693a2a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c26d27ee-7dd3-49f0-a79c-752d23693a2a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["LSKeyPack structure Remote Desktop Services", "LPLSKeyPack structure pointer Remote Desktop Services"]
+keywords:
+- LSKeyPack structure Remote Desktop Services
+- LPLSKeyPack structure pointer Remote Desktop Services
 topic_type:
 - apiref
 api_name:
 - LSKeyPack
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # LSKeyPack structure
@@ -24,7 +29,7 @@ Contains information about a specific Remote Desktop Services licensing key pack
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.
 
- 
+ 
 
 ## Syntax
 
@@ -38,8 +43,8 @@ typedef struct _LSKeyPack {
   TCHAR szProductName[256];
   TCHAR szProductId[256];
   TCHAR szProductDesc[256];
-  WORD  wMajorVersion;
-  WORD  wMinorVersion;
+  WORD  wMajorVersion;
+  WORD  wMinorVersion;
   DWORD dwPlatformType;
   UCHAR ucLicenseType;
   DWORD dwLanguageId;
@@ -214,8 +219,8 @@ Number of licenses.
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -232,9 +237,9 @@ Number of licenses.
 [**TLSKeyPackEnumEnd**](tlskeypackenumend.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

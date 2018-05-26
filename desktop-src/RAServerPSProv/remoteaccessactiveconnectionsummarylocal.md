@@ -2,13 +2,15 @@
 title: RemoteAccessActiveConnectionSummaryLocal class
 description: Remote Access Connection Statistics Summary for Active Connections.
 audience: developer
-ms.assetid: '00358ae8-f063-4d38-b364-2624bddc4700'
-ms.prod: 'windows-server-dev'
+ms.assetid: 00358ae8-f063-4d38-b364-2624bddc4700
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessActiveConnectionSummaryLocal class", "RemoteAccessActiveConnectionSummaryLocal class, described"]
+keywords:
+- RemoteAccessActiveConnectionSummaryLocal class
+- RemoteAccessActiveConnectionSummaryLocal class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessActiveConnectionSummaryLocal class
@@ -202,7 +207,7 @@ The total number of VPN connections.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
@@ -216,9 +221,9 @@ The total number of VPN connections.
 [**RemoteAccessConnectionSummaryLocal**](remoteaccessconnectionsummarylocal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

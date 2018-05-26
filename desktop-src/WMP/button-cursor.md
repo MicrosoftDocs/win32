@@ -1,14 +1,20 @@
 ---
 title: BUTTON.cursor
 description: The cursor attribute specifies or retrieves the cursor that appears when the mouse pointer hovers over the BUTTON.
-ms.assetid: '19bdbb23-00e2-45cf-b67d-9ada036b9c3b'
-keywords: ["BUTTON.cursor Windows Media Player"]
+ms.assetid: 19bdbb23-00e2-45cf-b67d-9ada036b9c3b
+keywords:
+- BUTTON.cursor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTON.cursor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTON.cursor
@@ -40,7 +46,7 @@ This attribute is a read/write **String**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,9 +71,9 @@ Cursor file name paths are ignored, so the cursor file must reside in the defaul
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

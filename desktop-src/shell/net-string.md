@@ -1,11 +1,16 @@
-﻿---
-Description: 'Represent network address types. Use one or more (as a bitwise combination) of the following constants to create a network address mask to use with the macro NetAddr\_SetAllowType.'
-title: 'NET\_STRING'
+---
+Description: Represent network address types. Use one or more (as a bitwise combination) of the following constants to create a network address mask to use with the macro NetAddr\_SetAllowType.
+title: NET\_STRING
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NET\_STRING
 
-Represent network address types. Use one or more (as a bitwise combination) of the following constants to create a network address mask to use with the macro [**NetAddr\_SetAllowType**](netaddr-setallowtype.md).
+Represent network address types. Use one or more (as a bitwise combination) of the following constants to create a network address mask to use with the macro [**NetAddr\_SetAllowType**](/windows/win32/Shellapi/nf-shellapi-netaddr_setallowtype?branch=master).
 
 
 

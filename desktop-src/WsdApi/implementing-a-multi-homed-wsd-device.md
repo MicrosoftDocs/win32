@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes multi-homed device support in WSDAPI, and provides implementation recommendations to client and device developers.'
-ms.assetid: 'd30ed536-d477-4f50-8c80-aacc35f948b9'
-title: 'Implementing a Multi-Homed WSD Device'
+Description: This topic describes multi-homed device support in WSDAPI, and provides implementation recommendations to client and device developers.
+ms.assetid: d30ed536-d477-4f50-8c80-aacc35f948b9
+title: Implementing a Multi-Homed WSD Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing a Multi-Homed WSD Device

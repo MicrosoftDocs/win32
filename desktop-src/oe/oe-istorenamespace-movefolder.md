@@ -1,8 +1,11 @@
 ---
 title: IStoreNamespace MoveFolder method
 description: Moves a user-created message folder to become the child of a specified parent message folder.
-ms.assetid: '460488a4-518d-429f-aabf-3f76ba96ed10'
-keywords: ["MoveFolder method Windows Mail (formerly Outlook Express)", "MoveFolder method Windows Mail (formerly Outlook Express) , IStoreNamespace interface", "IStoreNamespace interface Windows Mail (formerly Outlook Express) , MoveFolder method"]
+ms.assetid: 460488a4-518d-429f-aabf-3f76ba96ed10
+keywords:
+- MoveFolder method Windows Mail (formerly Outlook Express)
+- MoveFolder method Windows Mail (formerly Outlook Express) , IStoreNamespace interface
+- IStoreNamespace interface Windows Mail (formerly Outlook Express) , MoveFolder method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreNamespace::MoveFolder method
@@ -22,9 +30,9 @@ Moves a user-created message folder to become the child of a specified parent me
 
 ```C++
 HRESULT MoveFolder(
-  [in] STOREFOLDERID dwFolderId,
-  [in] STOREFOLDERID dwParentId,
-  [in] DWORD         dwReserved
+  [in] STOREFOLDERID dwFolderId,
+  [in] STOREFOLDERID dwParentId,
+  [in] DWORD         dwReserved
 );
 ```
 
@@ -78,7 +86,7 @@ Returns S\_OK if successful, or one of the following error values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -92,8 +100,8 @@ To move a folder so that it is the child of the root folder, set the value of *d
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -101,9 +109,9 @@ To move a folder so that it is the child of the root folder, set the value of *d
 
 
 
- 
+ 
 
- 
+ 
 
 
 

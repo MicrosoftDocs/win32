@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies an application when an IME is about to show an error message or other information. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.'
-ms.assetid: 'b898283a-af1a-484f-bfb8-e5d5c0ac8ee1'
-title: 'IMN\_GUIDELINE notification code'
+---
+Description: Notifies an application when an IME is about to show an error message or other information. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+ms.assetid: b898283a-af1a-484f-bfb8-e5d5c0ac8ee1
+title: IMN\_GUIDELINE notification code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMN\_GUIDELINE notification code
@@ -39,7 +44,7 @@ This command has no return value.
 
 ## Remarks
 
-An application processes this command by calling the [**ImmGetGuideLine**](immgetguideline.md) function to retrieve the error message or information from the IME.
+An application processes this command by calling the [**ImmGetGuideLine**](/windows/win32/Imm/nf-imm-immgetguidelinea?branch=master) function to retrieve the error message or information from the IME.
 
 The IME window displays the error message or information string in an information window.
 
@@ -65,7 +70,7 @@ The IME window displays the error message or information string in an informatio
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**ImmGetGuideLine**](immgetguideline.md)
+[**ImmGetGuideLine**](/windows/win32/Imm/nf-imm-immgetguidelinea?branch=master)
 </dt> <dt>
 
 [**WM\_IME\_NOTIFY**](wm-ime-notify.md)

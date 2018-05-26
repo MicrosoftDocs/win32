@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the vertical portion of the aspect ratio.'
-ms.assetid: 'B957A676-BC00-494c-A731-59237C98F5A5'
-title: 'System.Video.TranscodedForSync'
+Description: Indicates the vertical portion of the aspect ratio.
+ms.assetid: B957A676-BC00-494c-A731-59237C98F5A5
+title: System.Video.TranscodedForSync
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Video.TranscodedForSync

@@ -1,15 +1,18 @@
 ---
-Description: 'Exports the subnets from IPAM server to a CSV file.'
+Description: Exports the subnets from IPAM server to a CSV file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6e759790-3ce3-4e67-898c-a7563cc0fcb1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6e759790-3ce3-4e67-898c-a7563cc0fcb1
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ExportSubnet method of the MSFT\_IPAM\_Subnet class'
+title: ExportSubnet method of the MSFT\_IPAM\_Subnet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExportSubnet method of the MSFT\_IPAM\_Subnet class
@@ -21,11 +24,11 @@ Exports the subnets from IPAM server to a CSV file.
 
 ```mof
 uint32 ExportSubnet(
-  [in]  string           Path,
-  [in]  uint16           AddressType,
-  [in]  uint16           NetworkType,
-  [in]  string           AddressSpace,
-  [out] MSFT_IPAM_Subnet Output[]
+  [in]  string           Path,
+  [in]  uint16           AddressType,
+  [in]  uint16           NetworkType,
+  [in]  string           AddressSpace,
+  [out] MSFT_IPAM_Subnet Output[]
 );
 ```
 
@@ -127,7 +130,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -141,9 +144,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_Subnet**](msft-ipam-subnet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

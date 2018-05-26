@@ -4,11 +4,16 @@ description: Specifies or retrieves a value that indicates the video playback mo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '83f0baa3-3ac2-47ee-b106-5beaf60d73d2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 83f0baa3-3ac2-47ee-b106-5beaf60d73d2
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["VideoPlaybackMode property Remote Desktop Services", "VideoPlaybackMode property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , VideoPlaybackMode property", "VideoPlaybackMode property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , VideoPlaybackMode property"]
+keywords:
+- VideoPlaybackMode property Remote Desktop Services
+- VideoPlaybackMode property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , VideoPlaybackMode property
+- VideoPlaybackMode property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , VideoPlaybackMode property
 topic_type:
 - apiref
 api_name:
@@ -22,6 +27,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings7::VideoPlaybackMode property
@@ -35,11 +43,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_VideoPlaybackMode(
-  [in]          UINT videoPlaybackMode
+  [in]          UINT videoPlaybackMode
 );
 
 HRESULT get_VideoPlaybackMode(
-  [out, retval] UINT *pVideoPlaybackMode
+  [out, retval] UINT *pVideoPlaybackMode
 );
 ```
 
@@ -63,7 +71,7 @@ The default video playback mode. When the video playback mode is set to this val
 0
 </dt> <dd>
 
-Video playback redirection is disabled, even when [**AudioRedirectionMode**](imsrdpclientsecuredsettings-autoredirectionmode.md) is set to **AUDIO\_MODE\_REDIRECT**. In this mode, video is decoded and rendered on the RD Session Host server.
+Video playback redirection is disabled, even when [**AudioRedirectionMode**](imsrdpclientsecuredsettings-autoredirectionmode.md) is set to **AUDIO\_MODE\_REDIRECT**. In this mode, video is decoded and rendered on the RD Session Host server.
 
 </dd> </dl>
 
@@ -73,8 +81,8 @@ Video playback redirection is disabled, even when [**AudioRedirectionMode**](ims
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
+| Minimum supported client<br/> | Windows 7<br/>                                                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings7 is defined as 26036036-4010-4578-8091-0db9a1edf9c3<br/> |
@@ -91,9 +99,9 @@ Video playback redirection is disabled, even when [**AudioRedirectionMode**](ims
 [**IMsRdpClientAdvancedSettings7**](imsrdpclientadvancedsettings7.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

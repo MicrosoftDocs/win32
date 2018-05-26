@@ -4,11 +4,32 @@ description: Sets the Remote Desktop ActiveX control password in plaintext forma
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '93d35b10-5c92-4ab7-a32a-328ba6fcf16b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 93d35b10-5c92-4ab7-a32a-328ba6fcf16b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ClearTextPassword property Remote Desktop Services", "ClearTextPassword property Remote Desktop Services , IMsTscNonScriptable interface", "IMsTscNonScriptable interface Remote Desktop Services , ClearTextPassword property", "ClearTextPassword property Remote Desktop Services , IMsRdpClientNonScriptable interface", "IMsRdpClientNonScriptable interface Remote Desktop Services , ClearTextPassword property", "ClearTextPassword property Remote Desktop Services , IMsRdpClientNonScriptable2 interface", "IMsRdpClientNonScriptable2 interface Remote Desktop Services , ClearTextPassword property", "ClearTextPassword property Remote Desktop Services , IMsRdpClientNonScriptable3 interface", "IMsRdpClientNonScriptable3 interface Remote Desktop Services , ClearTextPassword property", "ClearTextPassword property Remote Desktop Services , IMsRdpClientNonScriptable4 interface", "IMsRdpClientNonScriptable4 interface Remote Desktop Services , ClearTextPassword property", "ClearTextPassword property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , ClearTextPassword property", "ClearTextPassword property Remote Desktop Services , MsRdpClient6 object", "MsRdpClient6 object Remote Desktop Services , ClearTextPassword property", "ClearTextPassword property Remote Desktop Services , MsRdpClient7 object", "MsRdpClient7 object Remote Desktop Services , ClearTextPassword property", "ClearTextPassword property Remote Desktop Services , MsRdpClient8 object", "MsRdpClient8 object Remote Desktop Services , ClearTextPassword property", "ClearTextPassword property Remote Desktop Services , MsRdpClient9 object", "MsRdpClient9 object Remote Desktop Services , ClearTextPassword property"]
+keywords:
+- ClearTextPassword property Remote Desktop Services
+- ClearTextPassword property Remote Desktop Services , IMsTscNonScriptable interface
+- IMsTscNonScriptable interface Remote Desktop Services , ClearTextPassword property
+- ClearTextPassword property Remote Desktop Services , IMsRdpClientNonScriptable interface
+- IMsRdpClientNonScriptable interface Remote Desktop Services , ClearTextPassword property
+- ClearTextPassword property Remote Desktop Services , IMsRdpClientNonScriptable2 interface
+- IMsRdpClientNonScriptable2 interface Remote Desktop Services , ClearTextPassword property
+- ClearTextPassword property Remote Desktop Services , IMsRdpClientNonScriptable3 interface
+- IMsRdpClientNonScriptable3 interface Remote Desktop Services , ClearTextPassword property
+- ClearTextPassword property Remote Desktop Services , IMsRdpClientNonScriptable4 interface
+- IMsRdpClientNonScriptable4 interface Remote Desktop Services , ClearTextPassword property
+- ClearTextPassword property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , ClearTextPassword property
+- ClearTextPassword property Remote Desktop Services , MsRdpClient6 object
+- MsRdpClient6 object Remote Desktop Services , ClearTextPassword property
+- ClearTextPassword property Remote Desktop Services , MsRdpClient7 object
+- MsRdpClient7 object Remote Desktop Services , ClearTextPassword property
+- ClearTextPassword property Remote Desktop Services , MsRdpClient8 object
+- MsRdpClient8 object Remote Desktop Services , ClearTextPassword property
+- ClearTextPassword property Remote Desktop Services , MsRdpClient9 object
+- MsRdpClient9 object Remote Desktop Services , ClearTextPassword property
 topic_type:
 - apiref
 api_name:
@@ -32,6 +53,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscNonScriptable::ClearTextPassword property
@@ -45,7 +69,7 @@ This property is write-only.
 
 ```C++
 HRESULT put_ClearTextPassword(
-  [in] BSTR newClearTextPass
+  [in] BSTR newClearTextPass
 );
 ```
 
@@ -87,8 +111,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsTscNonScriptable is defined as c1e6743a-41c1-4a74-832a-0dd06c1c7a0e<br/> |
@@ -117,9 +141,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscNonScriptable**](imstscnonscriptable-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

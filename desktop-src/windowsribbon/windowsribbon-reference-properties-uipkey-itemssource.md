@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_ItemsSource
 description: Identifies the UI\_PKEY\_ItemsSource property.
-ms.assetid: 'f5e99d2a-f50a-4932-ae77-581037cb9ac8'
+ms.assetid: f5e99d2a-f50a-4932-ae77-581037cb9ac8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_ItemsSource

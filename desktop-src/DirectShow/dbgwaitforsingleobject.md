@@ -1,7 +1,12 @@
 ---
-Description: 'Waits for an object to become signaled.'
-ms.assetid: '5fbcccd9-9db7-4834-852a-86f28218e92e'
+Description: Waits for an object to become signaled.
+ms.assetid: 5fbcccd9-9db7-4834-852a-86f28218e92e
 title: DbgWaitForSingleObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgWaitForSingleObject function
@@ -17,7 +22,7 @@ In a retail build, this function is equivalent to the **WaitForSingleObject** fu
 
 ```C++
 DWORD DbgWaitForSingleObject(
-   HANDLE h
+   HANDLE h
 );
 ```
 
@@ -52,9 +57,9 @@ Handle to the object.
 [Wait Debugging Functions](wait-debugging-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

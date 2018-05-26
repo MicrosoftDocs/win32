@@ -1,8 +1,16 @@
 ---
 title: OneWayUdpClientExample
 description: This example shows a UDP client that sends a one-way messages.
-ms.assetid: '245876f7-dc79-4ecd-b510-cf5e60eaa9fc'
-keywords: ["OneWayUdpClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 245876f7-dc79-4ecd-b510-cf5e60eaa9fc
+keywords:
+- OneWayUdpClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OneWayUdpClientExample

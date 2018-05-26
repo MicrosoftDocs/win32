@@ -4,17 +4,21 @@ description: Represents a user policy.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'DA25AB8E-F135-4398-A52F-F581460483A6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: DA25AB8E-F135-4398-A52F-F581460483A6
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserPolicy class"]
+keywords:
+- UserPolicy class
 topic_type:
 - apiref
 api_name:
 - UserPolicy class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy class
@@ -63,7 +67,7 @@ public class UserPolicy implements Serializable
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -79,7 +83,7 @@ UserPolicy.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -89,9 +93,9 @@ com.microsoft.rightsmanagement
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

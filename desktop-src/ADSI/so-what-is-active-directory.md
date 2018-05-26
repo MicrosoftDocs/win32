@@ -4,10 +4,13 @@ description: Active Directory is a special-purpose database \ 8212; it is not a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '899799e3-5ab9-4d19-883a-5bc9f20d2bad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 899799e3-5ab9-4d19-883a-5bc9f20d2bad
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Tutorial Overview: ADSI with Visual Basic

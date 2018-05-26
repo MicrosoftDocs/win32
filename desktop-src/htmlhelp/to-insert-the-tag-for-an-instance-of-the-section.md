@@ -1,7 +1,12 @@
 ---
 title: To insert the tag for an instance of the section
 description: To insert the tag for an instance of the section
-ms.assetid: '32CE3648-30F1-4e97-991B-7A6C8C1A4525'
+ms.assetid: 32CE3648-30F1-4e97-991B-7A6C8C1A4525
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To insert the tag for an instance of the section

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the conditions for which a certificate chain is to be checked.'
-ms.assetid: '87df623c-5661-4325-8dd6-393ce2e44066'
-title: 'CAPICOM\_CHECK\_FLAG enumeration'
+---
+Description: Defines the conditions for which a certificate chain is to be checked.
+ms.assetid: 87df623c-5661-4325-8dd6-393ce2e44066
+title: CAPICOM\_CHECK\_FLAG enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_CHECK\_FLAG enumeration

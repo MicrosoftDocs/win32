@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SizeQuotaWarning property is a Boolean value that indicates whether the fax service issues a warning in the event log when the size of the outbound archive exceeds the limit defined by the HighQuotaWaterMark property.'
-ms.assetid: 'ec1e9f9e-b3b0-4535-899f-e96a5c59a504'
-title: 'FaxOutgoingArchive.SizeQuotaWarning property'
+---
+Description: The SizeQuotaWarning property is a Boolean value that indicates whether the fax service issues a warning in the event log when the size of the outbound archive exceeds the limit defined by the HighQuotaWaterMark property.
+ms.assetid: ec1e9f9e-b3b0-4535-899f-e96a5c59a504
+title: FaxOutgoingArchive.SizeQuotaWarning property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingArchive.SizeQuotaWarning property
@@ -32,7 +37,7 @@ A **Boolean** that specifies or receives whether the fax service issues a warnin
 
 If this property is equal to **True**, the fax service issues a warning when the number of fax messages in the archive exceeds the limit. If this property is equal to **False**, the fax service does not issue a warning.
 
-To read or to write to this property, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 

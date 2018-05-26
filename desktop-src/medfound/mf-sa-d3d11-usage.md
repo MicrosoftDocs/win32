@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies how to allocate Microsoft Direct3D 11 surfaces for media samples.'
-ms.assetid: 'E9A415FA-74BF-4822-BB0E-D8AAA7D73664'
-title: 'MF\_SA\_D3D11\_USAGE attribute'
+---
+Description: Specifies how to allocate Microsoft Direct3D 11 surfaces for media samples.
+ms.assetid: E9A415FA-74BF-4822-BB0E-D8AAA7D73664
+title: MF\_SA\_D3D11\_USAGE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SA\_D3D11\_USAGE attribute
@@ -22,19 +27,19 @@ In this context, the attribute applies only when the Microsoft Media Foundation 
 
 If an MFT supports Direct3D 11, this attribute provides a hint to the MFT when allocating Microsoft Direct3D surfaces for output. Set the attribute as follows:
 
-1.  Call [**IMFTransform::GetOutputStreamAttributes**](imftransform-getoutputstreamattributes.md) to get the MFT attribute store.
-2.  Call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+1.  Call [**IMFTransform::GetOutputStreamAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstreamattributes?branch=master) to get the MFT attribute store.
+2.  Call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 The Media Foundation pipeline sets the attribute before streaming starts. The MFT should attempt to honor the setting when it allocates surfaces. If that is not possible, the MFT can ignore the attribute, rather than failing the allocation.
 
 In addition, if the MFT requires Direct3D surfaces for input, it can expose this attribute as a hint for how the input surfaces should be allocated. Query the attribute as follows:
 
-1.  Call [**IMFTransform::GetInputStreamAttributes**](imftransform-getinputstreamattributes.md) to get the input stream attributes.
-2.  Call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+1.  Call [**IMFTransform::GetInputStreamAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputstreamattributes?branch=master) to get the input stream attributes.
+2.  Call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
 ### Sample Allocator
 
-This attribute can be set on the video sample allocator, in the [**IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx**](imfvideosampleallocatorex-initializesampleallocatorex.md) method.
+This attribute can be set on the video sample allocator, in the [**IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx**](/windows/win32/mfidl/nf-mfidl-imfvideosampleallocatorex-initializesampleallocatorex?branch=master) method.
 
 ## Requirements
 

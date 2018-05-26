@@ -1,13 +1,16 @@
 ---
-Description: 'WMI scheduled tasks create and get information about scheduled tasks. For other examples, see the TechNet ScriptCenter at http://www.microsoft.com/technet.'
+Description: WMI scheduled tasks create and get information about scheduled tasks. For other examples, see the TechNet ScriptCenter at http//www.microsoft.com/technet.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '62151fe8-8880-43f2-b456-628bd9c7cc1c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 62151fe8-8880-43f2-b456-628bd9c7cc1c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WMI Tasks: Scheduled Tasks'
+title: WMI Tasks Scheduled Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Tasks: Scheduled Tasks
@@ -30,7 +33,7 @@ The following procedure describes how to run a script.
 > [!Note]  
 > By default, cscript displays the output of a script in the command prompt window. Because WMI scripts can produce large amounts of output, you might want to redirect the output to a file. Type **cscript filename.vbs &gt; outfile.txt** at the command prompt to redirect the output of the *filename.vbs* script to *outfile.txt*.
 
- 
+ 
 
 The following table lists script examples that can be used to obtain various types of data from the local computer.
 
@@ -50,7 +53,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...create scheduled tasks using scripts?</td>
-<td>Use the [<strong>Win32_ScheduledJob</strong>](https://msdn.microsoft.com/library/aa394399) class and the [<strong>Create</strong>](https://msdn.microsoft.com/library/aa389389) method. If you are having difficulty making this task work on Windows 7 or later, see the <strong>Win32_ScheduledJob</strong> Remarks section; likely your settings are preventing you from using the class.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the [<strong>Win32_ScheduledJob</strong>](https://msdn.microsoft.com/library/aa394399) class and the [<strong>Create</strong>](https://msdn.microsoft.com/library/aa389389) method. If you are having difficulty making this task work on Windows 7 or later, see the <strong>Win32_ScheduledJob</strong> Remarks section; likely your settings are preventing you from using the class.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -132,7 +135,7 @@ Next</code></pre></td>
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -147,9 +150,9 @@ Next</code></pre></td>
 [TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

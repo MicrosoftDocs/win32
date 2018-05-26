@@ -1,8 +1,10 @@
 ---
 title: MSFT\_InitiatorId class
 description: Represents an initiator identifier.
-ms.assetid: '446877F7-C9A3-40D5-A17E-D3DBBF341B9B'
-keywords: ["MSFT_InitiatorId class Windows Storage Management API", "MSFT_InitiatorId class Windows Storage Management API , described"]
+ms.assetid: 446877F7-C9A3-40D5-A17E-D3DBBF341B9B
+keywords:
+- MSFT_InitiatorId class Windows Storage Management API
+- MSFT_InitiatorId class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_InitiatorId class
@@ -56,7 +63,7 @@ The **MSFT\_InitiatorId** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -184,7 +191,7 @@ Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/aa393650) ( "Inde
 
 If the corresponding entry in the **HostType** array is **Other**, the entry in this property contains a string describing the host operating system information.
 
-If the corresponding entry in the **HostType** array is not **Other**, the entry in this property allows variations or qualifications of **ClientTypes**—for example, different versions of Solaris.
+If the corresponding entry in the **HostType** array is not **Other**, the entry in this property allows variations or qualifications of **ClientTypes** for example, different versions of Solaris.
 
 </dd> <dt>
 
@@ -233,8 +240,8 @@ The type of identifier that is used in the **InitiatorAddress** property.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -247,9 +254,9 @@ The type of identifier that is used in the **InitiatorAddress** property.
 [**MSFT\_StorageObject**](msft-storageobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

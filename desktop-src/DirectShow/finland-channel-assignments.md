@@ -1,7 +1,12 @@
 ---
-Description: 'This topic lists the frequency tables used for analog TV tuning for Finland.'
-ms.assetid: '092e8411-8ca4-4535-99d1-3db4bec5b03b'
+Description: This topic lists the frequency tables used for analog TV tuning for Finland.
+ms.assetid: 092e8411-8ca4-4535-99d1-3db4bec5b03b
 title: Finland Channel Assignments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Finland Channel Assignments

@@ -1,7 +1,12 @@
 ---
 title: VML StrokeColor Attribute
 description: VML StrokeColor Attribute
-ms.assetid: 'e7224d77-f788-43c7-aa8e-d5fc318f9d4f'
+ms.assetid: e7224d77-f788-43c7-aa8e-d5fc318f9d4f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML StrokeColor Attribute

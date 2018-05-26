@@ -1,6 +1,11 @@
 ---
-Description: 'In Windows 7 and later, you can use the SubCommands entry in the registry to create cascading menus by using the procedure given in this topic.'
+Description: In Windows 7 and later, you can use the SubCommands entry in the registry to create cascading menus by using the procedure given in this topic.
 title: How to Create Cascading Menus with the SubCommands Registry Entry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create Cascading Menus with the SubCommands Registry Entry

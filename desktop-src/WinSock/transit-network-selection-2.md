@@ -1,7 +1,12 @@
 ---
-Description: 'This section lists values used for the transit network selection.'
-ms.assetid: 'cafb47c0-73ff-47e4-8968-c065c821e646'
+Description: This section lists values used for the transit network selection.
+ms.assetid: cafb47c0-73ff-47e4-8968-c065c821e646
 title: Transit Network Selection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transit Network Selection

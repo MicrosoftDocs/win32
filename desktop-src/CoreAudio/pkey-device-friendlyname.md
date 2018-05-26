@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PKEY\_Device\_FriendlyName property contains the friendly name of the endpoint device (for example, &\#0034;Speakers (XYZ Audio Adapter)&\#0034;).'
-ms.assetid: '3ccd6a78-8bc3-4a46-8f11-7c2ae8a23c63'
-title: 'PKEY\_Device\_FriendlyName'
+---
+Description: The PKEY\_Device\_FriendlyName property contains the friendly name of the endpoint device (for example, &\#0034;Speakers (XYZ Audio Adapter)&\#0034;).
+ms.assetid: 3ccd6a78-8bc3-4a46-8f11-7c2ae8a23c63
+title: PKEY\_Device\_FriendlyName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKEY\_Device\_FriendlyName

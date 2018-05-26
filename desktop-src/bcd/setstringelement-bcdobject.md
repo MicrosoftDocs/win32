@@ -1,8 +1,11 @@
 ---
 title: SetStringElement method of the BcdObject class
 description: Sets the specified string element.
-ms.assetid: '91745d36-eacb-4aa2-b654-0ae91f64be9d'
-keywords: ["SetStringElement method Boot Config", "SetStringElement method Boot Config , BcdObject class", "BcdObject class Boot Config , SetStringElement method"]
+ms.assetid: 91745d36-eacb-4aa2-b654-0ae91f64be9d
+keywords:
+- SetStringElement method Boot Config
+- SetStringElement method Boot Config , BcdObject class
+- BcdObject class Boot Config , SetStringElement method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetStringElement method of the BcdObject class
@@ -22,8 +30,8 @@ Sets the specified string element.
 
 ```mof
 boolean SetStringElement(
-  [in] uint32 Type,
-  [in] string String
+  [in] uint32 Type,
+  [in] string String
 );
 ```
 
@@ -61,8 +69,8 @@ The element value.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -78,9 +86,9 @@ The element value.
 [**BcdStringElement**](bcdstringelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

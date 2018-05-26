@@ -1,8 +1,9 @@
 ---
 title: CB\_GETCUEBANNER message
 description: Gets the cue banner text displayed in the edit control of a combo box. Send this message explicitly or by using the ComboBox\_GetCueBannerText macro.
-ms.assetid: '38959228-9f07-4636-a1ea-681efe77b9ec'
-keywords: ["CB_GETCUEBANNER message Windows Controls"]
+ms.assetid: 38959228-9f07-4636-a1ea-681efe77b9ec
+keywords:
+- CB_GETCUEBANNER message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_GETCUEBANNER message
 
-Gets the cue banner text displayed in the edit control of a combo box. Send this message explicitly or by using the [**ComboBox\_GetCueBannerText**](combobox-getcuebannertext.md) macro.
+Gets the cue banner text displayed in the edit control of a combo box. Send this message explicitly or by using the [**ComboBox\_GetCueBannerText**](/windows/win32/Commctrl/nf-commctrl-combobox_getcuebannertext?branch=master) macro.
 
 ## Parameters
 
@@ -24,7 +30,7 @@ Gets the cue banner text displayed in the edit control of a combo box. Send this
 *wParam* \[in\]
 </dt> <dd>
 
-A pointer to a Unicode string buffer that receives the cue banner text. The calling application is responsible for allocating the memory for the buffer. The buffer size must be equal to the length of the cue banner string in **WCHARs**, plus 1—for the terminating **NULL** **WCHAR**.
+A pointer to a Unicode string buffer that receives the cue banner text. The calling application is responsible for allocating the memory for the buffer. The buffer size must be equal to the length of the cue banner string in **WCHARs**, plus 1 for the terminating **NULL** **WCHAR**.
 
 </dd> <dt>
 
@@ -47,8 +53,8 @@ If there is no cue banner text to get, the return value is 0. If the calling app
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ If there is no cue banner text to get, the return value is 0. If the calling app
 [Combo Box Features](combo-box-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

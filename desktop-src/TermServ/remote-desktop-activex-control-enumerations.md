@@ -4,10 +4,13 @@ description: The following enumerations are used with the Remote Desktop ActiveX
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'C4EBA996-B3C7-492B-A6B7-96A3EC1847B2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: C4EBA996-B3C7-492B-A6B7-96A3EC1847B2
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop ActiveX control enumerations
@@ -53,7 +56,7 @@ Used to specify the type of a device.
 
 </dd> <dt>
 
-[**RemoteActionType**](remoteactiontype.md)
+[**RemoteActionType**](/windows/win32/rdpappcontainerclient/ne-rdpappcontainerclient-__midl_iremotedesktopclientactions_0001?branch=master)
 </dt> <dd>
 
 The action to send to the remote session.
@@ -74,14 +77,14 @@ Used with the method to specify information about the event.
 
 </dd> <dt>
 
-[**SnapshotEncodingType**](snapshotencodingtype.md)
+[**SnapshotEncodingType**](/windows/win32/rdpappcontainerclient/ne-rdpappcontainerclient-__midl_iremotedesktopclientactions_0002?branch=master)
 </dt> <dd>
 
 The type of encoding used for a Remote Desktop Protocol (RDP) app container client snapshot.
 
 </dd> <dt>
 
-[**SnapshotFormatType**](snapshotformattype.md)
+[**SnapshotFormatType**](/windows/win32/rdpappcontainerclient/ne-rdpappcontainerclient-__midl_iremotedesktopclientactions_0003?branch=master)
 </dt> <dd>
 
 The data format used for a Remote Desktop Protocol (RDP) app container client snapshot.

@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer SuggestedMaximumMemoryPerVM property
 description: The SuggestedMaximumMemoryPerVM property contains the suggested maximum allowable quantity, in megabytes, of physical RAM per virtual machine to avoid low memory conditions on the host.
-ms.assetid: 'c4a42668-3864-4dc9-9444-e3f63666b0d8'
-keywords: ["SuggestedMaximumMemoryPerVM property Virtual Server", "SuggestedMaximumMemoryPerVM property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , SuggestedMaximumMemoryPerVM property", "SuggestedMaximumMemoryPerVM property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , SuggestedMaximumMemoryPerVM property"]
+ms.assetid: c4a42668-3864-4dc9-9444-e3f63666b0d8
+keywords:
+- SuggestedMaximumMemoryPerVM property Virtual Server
+- SuggestedMaximumMemoryPerVM property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , SuggestedMaximumMemoryPerVM property
+- SuggestedMaximumMemoryPerVM property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , SuggestedMaximumMemoryPerVM property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::SuggestedMaximumMemoryPerVM property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_SuggestedMaximumMemoryPerVM(
-  [out] long *megabytesOfMemory
+  [out] long *megabytesOfMemory
 );
 ```
 
@@ -91,8 +101,8 @@ Wscript.Echo "Suggested maximum memory per VM: " & _
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -104,9 +114,9 @@ Wscript.Echo "Suggested maximum memory per VM: " & _
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

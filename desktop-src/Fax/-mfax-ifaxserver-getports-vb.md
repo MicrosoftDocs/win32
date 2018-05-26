@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetPorts method creates and initializes a FaxPorts object for a specified FaxServer object. The FaxPorts object allows enumeration of fax port configuration information for the connected fax server.'
-ms.assetid: 'b95135b0-e567-47c9-ad5c-460252066755'
-title: 'FaxServer.GetPorts method'
+---
+Description: The GetPorts method creates and initializes a FaxPorts object for a specified FaxServer object. The FaxPorts object allows enumeration of fax port configuration information for the connected fax server.
+ms.assetid: b95135b0-e567-47c9-ad5c-460252066755
+title: FaxServer.GetPorts method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.GetPorts method
@@ -34,9 +39,9 @@ Pointer to a [VARIANT](e305240e-9e11-4006-98cc-26f4932d2118) structure that rece
 
 ## Remarks
 
-The **GetPorts** method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxPorts](-mfax-faxports.md) object. A fax client application can also access the [**IFaxPorts**](-mfax-ifaxports.md) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an interface pointer.
+The **GetPorts** method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxPorts](-mfax-faxports.md) object. A fax client application can also access the [**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an interface pointer.
 
-A fax client application should not call the [CoCreateInstance](http://msdn.microsoft.com/en-us/library/ms686615.aspx) function to retrieve an [**IFaxPorts**](-mfax-ifaxports.md) interface pointer because it will not be instantiated correctly.
+A fax client application should not call the [CoCreateInstance](http://msdn.microsoft.com/en-us/library/ms686615.aspx) function to retrieve an [**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master) interface pointer because it will not be instantiated correctly.
 
 ## Requirements
 
@@ -67,10 +72,10 @@ A fax client application should not call the [CoCreateInstance](http://msdn.micr
 [FaxServer](-mfax-faxserver-client.md)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
 [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx)

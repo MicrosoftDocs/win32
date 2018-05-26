@@ -1,12 +1,17 @@
 ---
-Description: 'File compression of files that contain mostly zeros makes efficient use of disk space.'
-ms.assetid: '7326041d-f11e-4b80-ac4e-07173e418ce7'
+Description: File compression of files that contain mostly zeros makes efficient use of disk space.
+ms.assetid: 7326041d-f11e-4b80-ac4e-07173e418ce7
 title: Sparse Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sparse Files
 
-A file in which much of the data is zeros is said to contain a *sparse data set*. Files like these are typically very large—for example, a file that contains image data to be processed or a matrix within a high-speed database. The problem with files that contain sparse data sets is that the majority of the file does not contain useful data and, because of this, they are an inefficient use of disk space.
+A file in which much of the data is zeros is said to contain a *sparse data set*. Files like these are typically very large for example, a file that contains image data to be processed or a matrix within a high-speed database. The problem with files that contain sparse data sets is that the majority of the file does not contain useful data and, because of this, they are an inefficient use of disk space.
 
 The file compression in the NTFS file system is a partial solution to the problem. All data in the file that is not explicitly written is explicitly set to zero. File compression compacts these ranges of zeros. However, a drawback of file compression is that access time may increase due to data compression and decompression.
 
@@ -23,16 +28,16 @@ For more information about sparse files, see the following topics.
 | Topic                                                                                     | Description                                                                                                                                                                                   |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Sparse File Operations](sparse-file-operations.md)<br/>                           | Determine whether a file system supports sparse files by calling the GetVolumeInformation function.<br/>                                                                                |
-| [Obtaining the Size of a Sparse File](obtaining-the-size-of-a-sparse-file.md)<br/> | Get the allocated size or the total size for a file by using either the [**GetCompressedFileSize**](getcompressedfilesize.md) or the [**GetFileSize**](getfilesize.md) function.<br/> |
+| [Obtaining the Size of a Sparse File](obtaining-the-size-of-a-sparse-file.md)<br/> | Get the allocated size or the total size for a file by using either the [**GetCompressedFileSize**](/windows/win32/fileapi/nf-fileapi-getcompressedfilesizea?branch=master) or the [**GetFileSize**](/windows/win32/FileAPI/nf-fileapi-getfilesize?branch=master) function.<br/> |
 | [Sparse Files and Disk Quotas](sparse-files-and-disk-quota.md)<br/>                | A sparse file affects user quotas by the nominal size of the file, not the actual allocated amount of disk space.<br/>                                                                  |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: MimeOleSMimeCapsToDlg function
 description: Do not use. Outputs supplied Secure/Multipurpose Internet Mail Extensions (S/MIME) capabilities to supplied dialog.
-ms.assetid: 'a2998610-a77a-4fa4-8a08-c7ab76140eac'
-keywords: ["MimeOleSMimeCapsToDlg function Windows Mail (formerly Outlook Express)"]
+ms.assetid: a2998610-a77a-4fa4-8a08-c7ab76140eac
+keywords:
+- MimeOleSMimeCapsToDlg function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleSMimeCapsToDlg function
@@ -22,14 +28,14 @@ Do not use. Outputs supplied Secure/Multipurpose Internet Mail Extensions (S/MIM
 
 ```C++
 HRESULT MimeOleSMimeCapsToDlg(
-  _In_ LPBYTE     pbSMimeCaps,
-  _In_ DWORD      cbSMimeCaps,
-  _In_ DWORD      cCerts,
-  _In_ PCX509CERT *rgCerts,
-  _In_ HWND       hwndDlg,
-  _In_ DWORD      idEncAlgs,
-  _In_ DWORD      idSignAlgs,
-  _In_ DWORD      idBlob
+  _In_ LPBYTE     pbSMimeCaps,
+  _In_ DWORD      cbSMimeCaps,
+  _In_ DWORD      cCerts,
+  _In_ PCX509CERT *rgCerts,
+  _In_ HWND       hwndDlg,
+  _In_ DWORD      idEncAlgs,
+  _In_ DWORD      idSignAlgs,
+  _In_ DWORD      idBlob
 );
 ```
 
@@ -126,7 +132,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -134,8 +140,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -143,9 +149,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
-﻿---
-Description: 'Specifies whether an encoder must be included in the transcode topology.'
-ms.assetid: '73f23aed-d1b9-4821-b1ca-0a07f02b6913'
-title: 'MF\_TRANSCODE\_DONOT\_INSERT\_ENCODER attribute'
+---
+Description: Specifies whether an encoder must be included in the transcode topology.
+ms.assetid: 73f23aed-d1b9-4821-b1ca-0a07f02b6913
+title: MF\_TRANSCODE\_DONOT\_INSERT\_ENCODER attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TRANSCODE\_DONOT\_INSERT\_ENCODER attribute
 
 Specifies whether an encoder must be included in the transcode topology.
 
-The [**MFCreateTranscodeTopology**](mfcreatetranscodetopology.md) function checks this attribute during topology building. If this attribute is not set, an encoder is inserted in the transcode topology.
+The [**MFCreateTranscodeTopology**](/windows/win32/mfidl/nf-mfidl-mfcreatetranscodetopology?branch=master) function checks this attribute during topology building. If this attribute is not set, an encoder is inserted in the transcode topology.
 
 ## Data type
 

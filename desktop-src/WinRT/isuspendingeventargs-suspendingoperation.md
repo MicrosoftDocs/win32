@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the app suspending operation.'
-ms.assetid: '33FCAED5-7568-4483-A643-A536B53F7003'
-title: 'ISuspendingEventArgs::SuspendingOperation property'
+---
+Description: Gets the app suspending operation.
+ms.assetid: 33FCAED5-7568-4483-A643-A536B53F7003
+title: ISuspendingEventArgsSuspendingOperation property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISuspendingEventArgs::SuspendingOperation property

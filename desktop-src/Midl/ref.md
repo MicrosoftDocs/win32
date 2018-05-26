@@ -2,13 +2,19 @@
 title: ref attribute
 description: The \ ref\ attribute identifies a reference pointer. It is used simply to represent a level of indirection.
 ms.assetid: db4ff938-0f38-4f77-bb65-f728ffd609e0
-keywords: ["ref attribute MIDL"]
+keywords:
+- ref attribute MIDL
 topic_type:
 - apiref
 api_name:
 - ref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ref attribute

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether PMK caching will be used.'
-ms.assetid: '5650c893-6047-4e99-a2be-22722d6a809a'
-title: 'PMKCacheMode (security) Element'
+---
+Description: Indicates whether PMK caching will be used.
+ms.assetid: 5650c893-6047-4e99-a2be-22722d6a809a
+title: PMKCacheMode (security) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PMKCacheMode (security) Element

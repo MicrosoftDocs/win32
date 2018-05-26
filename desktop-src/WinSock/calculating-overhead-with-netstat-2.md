@@ -1,7 +1,12 @@
 ---
 Description: Calculating Overhead with Netstat
-ms.assetid: 'd96a8fba-8d76-443f-be49-81a8ad7050fa'
+ms.assetid: d96a8fba-8d76-443f-be49-81a8ad7050fa
 title: Calculating Overhead with Netstat
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calculating Overhead with Netstat

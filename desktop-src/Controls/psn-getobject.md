@@ -1,8 +1,9 @@
 ---
 title: PSN\_GETOBJECT notification code
-description: Sent by a property sheet to request a drop target object when the cursor passes over one of the tab control's buttons. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '179ac47c-9b32-4682-866d-1a1fad85080c'
-keywords: ["PSN_GETOBJECT notification code Windows Controls"]
+description: Sent by a property sheet to request a drop target object when the cursor passes over one of the tab controls buttons. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 179ac47c-9b32-4682-866d-1a1fad85080c
+keywords:
+- PSN_GETOBJECT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSN\_GETOBJECT notification code
@@ -33,7 +39,7 @@ PSN_GETOBJECT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMOBJECTNOTIFY**](nmobjectnotify.md) structure that, on entry, contains information about the notification code. If this notification code is processed, you must insert object information into this structure.
+Pointer to an [**NMOBJECTNOTIFY**](/windows/win32/Commctrl/ns-commctrl-tagnmobjectnotify?branch=master) structure that, on entry, contains information about the notification code. If this notification code is processed, you must insert object information into this structure.
 
 </dd> </dl>
 
@@ -43,14 +49,14 @@ The application processing this notification code must return zero.
 
 ## Remarks
 
-To provide an object, an application must set values in some members of the [**NMOBJECTNOTIFY**](nmobjectnotify.md) structure at *lParam*. The **pObject** member must be set to a valid object pointer, and the **hResult** member must be set to a success flag. To comply with Component Object Model (COM) standards, always increment the object's reference count when providing an object pointer.
+To provide an object, an application must set values in some members of the [**NMOBJECTNOTIFY**](/windows/win32/Commctrl/ns-commctrl-tagnmobjectnotify?branch=master) structure at *lParam*. The **pObject** member must be set to a valid object pointer, and the **hResult** member must be set to a success flag. To comply with Component Object Model (COM) standards, always increment the object's reference count when providing an object pointer.
 
 If an application does not provide an object, it must set **pObject** to **NULL** and **hResult** to a failure flag.
 
 > [!Note]  
-> This notification code is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](propsheetheader.md)).
+> This notification code is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master)).
 
- 
+ 
 
 ## Requirements
 
@@ -58,15 +64,15 @@ If an application does not provide an object, it must set **pObject** to **NULL*
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

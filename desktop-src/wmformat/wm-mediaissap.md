@@ -1,14 +1,20 @@
 ---
 title: WM/MediaIsSAP
 description: The WM/MediaIsSAP attribute indicates whether the content includes a second audio program (SAP).
-ms.assetid: '9fe0a901-bf03-4300-8616-4dceb35949d7'
-keywords: ["WM/MediaIsSAP windows Media Format"]
+ms.assetid: 9fe0a901-bf03-4300-8616-4dceb35949d7
+keywords:
+- WM/MediaIsSAP windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/MediaIsSAP
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaIsSAP

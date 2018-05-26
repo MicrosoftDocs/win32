@@ -1,14 +1,20 @@
 ---
 title: texCUBE
 description: Samples a cube texture.
-ms.assetid: '77943eb9-86e8-4ae4-8975-8f925e084ce4'
-keywords: ["texCUBE HLSL"]
+ms.assetid: 77943eb9-86e8-4ae4-8975-8f925e084ce4
+keywords:
+- texCUBE HLSL
 topic_type:
 - apiref
 api_name:
 - texCUBE
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # texCUBE
@@ -22,7 +28,7 @@ Samples a cube texture.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Samples a cube texture.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The value of the texture data.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Virtualization WMI classes related to the virtual machine.'
-ms.assetid: '1BD64741-C316-4E74-B0AB-4E595C77FD91'
+Description: Virtualization WMI classes related to the virtual machine.
+ms.assetid: 1BD64741-C316-4E74-B0AB-4E595C77FD91
 title: Virtual system classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual system classes
@@ -32,11 +37,11 @@ The following are virtualization WMI classes related to the virtual machine.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

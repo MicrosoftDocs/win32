@@ -4,11 +4,16 @@ description: The Item method returns the Extension object at a specified index.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '684cb03a-4e22-457e-9296-49c985776eed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 684cb03a-4e22-457e-9296-49c985776eed
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Item method MMC", "Item method MMC , Extensions object", "Extensions object MMC , Item method", "Item method MMC , Extensions interface", "Extensions interface MMC , Item method"]
+keywords:
+- Item method MMC
+- Item method MMC , Extensions object
+- Extensions object MMC , Item method
+- Item method MMC , Extensions interface
+- Extensions interface MMC , Item method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extensions::Item method
@@ -75,8 +83,8 @@ Next i
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -91,9 +99,9 @@ Next i
 [**Extensions.Count**](extensions-count.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

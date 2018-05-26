@@ -1,8 +1,14 @@
 ---
 title: How Asynchronous Binding and Storage Work
 description: Asynchronous storage enhances the COM structured storage specification to support downloading of storage objects on high-latency, slow-link networks such as the Internet.
-ms.assetid: '891152c3-5abd-45e4-a7bb-0aac23262b03'
-keywords: ["How Asynchronous Binding and Storage Work"]
+ms.assetid: 891152c3-5abd-45e4-a7bb-0aac23262b03
+keywords:
+- How Asynchronous Binding and Storage Work
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Asynchronous Binding and Storage Work
@@ -20,12 +26,12 @@ When a user clicks a link representing a document embedded in a Web page, the fo
 
     1.  The URL moniker calls [**IPersistMoniker::Load**](_inet_ipersistmoniker_interface_inet_ipersistmoniker_load_method_cpp), passing its own [**IMoniker**](_com_imoniker) pointer to the object.
     2.  The object modifies the bind context, chooses whether it wants a blocking or nonblocking storage, registers its own [**IBindStatusCallback**](_inet_ibindstatuscallback_interface_cpp) and calls [**IMoniker::BindToStorage**](_com_imoniker_bindtostorage) on the pointer it received through [**IPersistMoniker::Load**](_inet_ipersistmoniker_interface_inet_ipersistmoniker_load_method_cpp).
-    3.  The moniker creates an asynchronous storage, keeps a reference to the wrapper object's [**IFillLockBytes**](ifilllockbytes.md) interface, registers the [**IProgressNotify**](_com_iprogressnotify) interface on the root storage, and calls [**IPersistStorage::Load**](_com_ipersiststorage_load), passing the asynchronous storage's [**IStorage**](istorage.md) pointer. As data arrives (on a background thread) the moniker calls **IFillLockBytes** to fill the [**ILockBytes**](ilockbytes.md) on the temp file.
+    3.  The moniker creates an asynchronous storage, keeps a reference to the wrapper object's [**IFillLockBytes**](/windows/win32/Objidl/nn-objidl-ifilllockbytes?branch=master) interface, registers the [**IProgressNotify**](_com_iprogressnotify) interface on the root storage, and calls [**IPersistStorage::Load**](_com_ipersiststorage_load), passing the asynchronous storage's [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) pointer. As data arrives (on a background thread) the moniker calls **IFillLockBytes** to fill the [**ILockBytes**](/windows/win32/Objidl/nn-objidl-ilockbytes?branch=master) on the temp file.
     4.  The object reads data from the storage and returns from [**IPersistMoniker::Load**](_inet_ipersistmoniker_interface_inet_ipersistmoniker_load_method_cpp) when it has received sufficient data to consider itself initialized. If the object attempts to read data that has not yet been downloaded, the downloader receives a notification on [**IProgressNotify**](_com_iprogressnotify). Inside the [**IProgressNotify::OnProgress**](_com_iprogressnotify_onprogress) method, the downloading thread either blocks in a modal message loop, or causes the asynchronous storage to return E\_PENDING, depending on whether the object has requested a blocking or nonblocking storage.
 
 5.  If the object does not implement [**IPersistMoniker**](_inet_ipersistmoniker_interface_cpp), the moniker queries for [**IPersistStorage**](_com_ipersiststorage), which indicates that the object's persistent state is stored in a storage object. If the object returns a pointer to **IPersistStorage**:
 
-    1.  The Moniker calls [**IMoniker::BindToStorage**](_com_imoniker_bindtostorage) on itself, requesting a blocking [**IStorage**](istorage.md) (because the object is not asynchronous-aware), creates an asynchronous storage, keeps a reference to the wrapper object's [**IFillLockBytes**](ifilllockbytes.md) interface, registers the [**IProgressNotify**](_com_iprogressnotify) interface on the root storage, and calls [**IPersistStorage::Load**](_com_ipersiststorage_load), passing the asynchronous storage's **IStorage** pointer. As data arrives (on a background thread) the moniker calls [**IFillLockBytes**](ifilllockbytes.md) to fill the [**ILockBytes**](ilockbytes.md) on the temporary file.
+    1.  The Moniker calls [**IMoniker::BindToStorage**](_com_imoniker_bindtostorage) on itself, requesting a blocking [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) (because the object is not asynchronous-aware), creates an asynchronous storage, keeps a reference to the wrapper object's [**IFillLockBytes**](/windows/win32/Objidl/nn-objidl-ifilllockbytes?branch=master) interface, registers the [**IProgressNotify**](_com_iprogressnotify) interface on the root storage, and calls [**IPersistStorage::Load**](_com_ipersiststorage_load), passing the asynchronous storage's **IStorage** pointer. As data arrives (on a background thread) the moniker calls [**IFillLockBytes**](/windows/win32/Objidl/nn-objidl-ifilllockbytes?branch=master) to fill the [**ILockBytes**](/windows/win32/Objidl/nn-objidl-ilockbytes?branch=master) on the temporary file.
     2.  The object reads data from storage and returns from [**IPersistStorage::Load**](_com_ipersiststorage_load) when it has received sufficient data to consider itself initialized. If the object attempts to read data that has not yet been downloaded, it receives a notification on [**IProgressNotify**](_com_iprogressnotify). Inside the [**IProgressNotify::OnProgress**](_com_iprogressnotify_onprogress) method, the downloading thread always blocks in a modal message loop.
 
 6.  Regardless of whether the download is synchronous or asynchronous, the moniker returns from [**IMoniker::BindToObject**](_com_imoniker_bindtoobject), and the browser receives the initialized object it requested.

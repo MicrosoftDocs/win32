@@ -4,11 +4,14 @@ description: Sets the SessionTimeout and SessionTimeoutAction properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '11491c97-3ef8-46c1-9504-696c613e374e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 11491c97-3ef8-46c1-9504-696c613e374e
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetSessionTimeout method Remote Desktop Services", "SetSessionTimeout method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class", "Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , SetSessionTimeout method"]
+keywords:
+- SetSessionTimeout method Remote Desktop Services
+- SetSessionTimeout method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class
+- Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , SetSessionTimeout method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSessionTimeout method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
@@ -28,8 +34,8 @@ Sets the **SessionTimeout** and **SessionTimeoutAction** properties.
 
 ```mof
 uint32 SetSessionTimeout(
-  [in] uint32 SessionTimeout,
-  [in] uint32 SessionTimeoutAction
+  [in] uint32 SessionTimeout,
+  [in] uint32 SessionTimeoutAction
 );
 ```
 
@@ -90,7 +96,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -104,9 +110,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayConnectionAuthorizationPolicy**](win32-tsgatewayconnectionauthorizationpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Unique Pointers
 description: In C programs, more than one pointer can contain the address of data.
-ms.assetid: 'da4f466d-2c59-4e48-b6c5-1a49b933621a'
+ms.assetid: da4f466d-2c59-4e48-b6c5-1a49b933621a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unique Pointers

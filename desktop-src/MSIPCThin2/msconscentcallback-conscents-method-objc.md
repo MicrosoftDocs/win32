@@ -4,17 +4,21 @@ description: Implement this callback method to process user consent.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '75B031C2-685F-4207-B20F-E84FE3742713'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 75B031C2-685F-4207-B20F-E84FE3742713
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSConsentCallback consents method"]
+keywords:
+- MSConsentCallback consents method
 topic_type:
 - apiref
 api_name:
 - MSConsentCallback consents method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSConsentCallback consents method
@@ -39,7 +43,7 @@ Implement this callback method to process user consent.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -55,15 +59,15 @@ MSConsent.h
 
 
 
- 
+ 
 
 ## Remarks
 
-This method must be implemented by you. The Rights Management SDK 4.2 will use this method via its APIs to process user consent for your application.
+This method must be implemented by you. The Rights Management SDK 4.2 will use this method via its APIs to process user consent for your application.
 
- 
+ 
 
- 
+ 
 
 
 

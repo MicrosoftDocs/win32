@@ -1,13 +1,16 @@
 ---
-Description: 'The Remove method of the SWbemNamedValueSet object deletes a named value from the context.'
+Description: The Remove method of the SWbemNamedValueSet object deletes a named value from the context.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8cb353fb-c6d7-41d9-a2d0-ff1ad37264e4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8cb353fb-c6d7-41d9-a2d0-ff1ad37264e4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemNamedValueSet.Remove method'
+title: SWbemNamedValueSet.Remove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemNamedValueSet.Remove method
@@ -83,8 +86,8 @@ The requested item was not found.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -100,9 +103,9 @@ The requested item was not found.
 [**SWbemNamedValueSet**](swbemnamedvalueset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

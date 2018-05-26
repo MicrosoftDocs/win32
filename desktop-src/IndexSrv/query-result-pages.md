@@ -1,7 +1,12 @@
 ---
 title: Query Result Pages
 description: Query Result Pages
-ms.assetid: 'fe340a76-2716-4780-abc3-481d9169039d'
+ms.assetid: fe340a76-2716-4780-abc3-481d9169039d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query Result Pages

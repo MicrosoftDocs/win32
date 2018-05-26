@@ -1,8 +1,10 @@
 ---
 title: Win32\_OfflineFilesUserConfiguration class
-description: Represents the user's offline files configuration properties.
-ms.assetid: '60283f0a-7c48-40a0-afa4-2b0b4e88c4af'
-keywords: ["Win32_OfflineFilesUserConfiguration class User State Manageability API", "Win32_OfflineFilesUserConfiguration class User State Manageability API , described"]
+description: Represents the users offline files configuration properties.
+ms.assetid: 60283f0a-7c48-40a0-afa4-2b0b4e88c4af
+keywords:
+- Win32_OfflineFilesUserConfiguration class User State Manageability API
+- Win32_OfflineFilesUserConfiguration class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_OfflineFilesUserConfiguration class
@@ -28,7 +35,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_OfflineFilesUserConfiguration
 {
-  string  AssignedOfflineFiles[];
+  string  AssignedOfflineFiles[];
   boolean WorkOfflineButtonRemoved;
   boolean MakeAvailableOfflineButtonRemoved;
   boolean IsEffective;
@@ -116,7 +123,7 @@ This class requires a context object to be passed as the *pCtx* parameter to the
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -124,16 +131,16 @@ This class requires a context object to be passed as the *pCtx* parameter to the
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                              |
 | MOF<br/>                      | <dl> <dt>OfflineFilesConfigurationWmiProvider.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

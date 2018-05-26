@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the semantics for the shader inputs. Use this method to determine the input vertex format.'
-ms.assetid: 'e94b2b14-3830-4a13-8c23-7841a56d6730'
+---
+Description: Gets the semantics for the shader inputs. Use this method to determine the input vertex format.
+ms.assetid: e94b2b14-3830-4a13-8c23-7841a56d6730
 title: D3DXGetShaderInputSemantics function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXGetShaderInputSemantics function

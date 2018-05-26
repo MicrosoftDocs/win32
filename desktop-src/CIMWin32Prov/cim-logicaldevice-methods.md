@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_LogicalDevice class exposes the following methods.'
+Description: The CIM\_LogicalDevice class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '74961DA0-0AE9-4B47-8FE7-541705BCDAB7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 74961DA0-0AE9-4B47-8FE7-541705BCDAB7
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_LogicalDevice Methods'
+title: CIM\_LogicalDevice Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LogicalDevice Methods

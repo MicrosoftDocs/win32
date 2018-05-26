@@ -1,14 +1,19 @@
 ---
-Description: 'When using a Windows Image Acquisition (WIA) interface in more than one thread within a single process, an application must provide marshalling for that interface.'
-ms.assetid: 'b125b36e-1428-4aa6-b367-eac78291c88e'
+Description: When using a Windows Image Acquisition (WIA) interface in more than one thread within a single process, an application must provide marshalling for that interface.
+ms.assetid: b125b36e-1428-4aa6-b367-eac78291c88e
 title: Using Multiple Threads in a WIA Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Multiple Threads in a WIA Application
 
 When using a Windows Image Acquisition (WIA) interface in more than one thread within a single process, an application must provide marshalling for that interface. If one thread creates an interface pointer, you cannot use that pointer in a different thread without marshalling.
 
-For example, if one thread in an application obtains a pointer to the [**IWiaItem**](-wia-iwiaitem.md) or [**IWiaItem2**](-wia-iwiaitem2.md) interface, a separate thread cannot use that interface pointer without marshalling.
+For example, if one thread in an application obtains a pointer to the [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) or [**IWiaItem2**](-wia-iwiaitem2.md) interface, a separate thread cannot use that interface pointer without marshalling.
 
 A common technique used to accomplish this marshalling is to use the global interface table. The global interface table is a table maintained across all threads within a single process. All threads running within the process can retrieve interfaces that are registered to the global interface table. This technique avoids the need to create streams for passing interfaces between threads.
 

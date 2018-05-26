@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a value that specifies a domain user account.'
+Description: Retrieves a value that specifies a domain user account.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '87fdbf71-0ab8-444d-af5d-ddc4519e5482'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 87fdbf71-0ab8-444d-af5d-ddc4519e5482
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Constants.ExcludedDomainUserType property'
+title: Constants.ExcludedDomainUserType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Constants.ExcludedDomainUserType property
@@ -119,7 +122,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -137,9 +140,9 @@ END FUNCTION
 [**ExcludedFederationUserType**](constants-excludedfederationusertype-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: WcsSetCalibrationManagementState function
 description: Enables or disables system management of the display calibration state.
-ms.assetid: '64646448-c5a8-48a6-923e-fccf1cf63855'
-keywords: ["WcsSetCalibrationManagementState function Windows Color System"]
+ms.assetid: 64646448-c5a8-48a6-923e-fccf1cf63855
+keywords:
+- WcsSetCalibrationManagementState function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsSetCalibrationManagementState function
@@ -22,7 +28,7 @@ Enables or disables system management of the display calibration state.
 
 ```C++
 BOOL WcsSetCalibrationManagementState(
-  _In_ BOOL bIsEnabled
+  _In_ BOOL bIsEnabled
 );
 ```
 
@@ -61,9 +67,9 @@ This function must be called with elevated permissions for it to succeed.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

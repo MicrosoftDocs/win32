@@ -4,11 +4,15 @@ description: Referrals occur when the server you are querying does not contain t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2068ce7a-0b94-4d25-a18f-97f26863bd1d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2068ce7a-0b94-4d25-a18f-97f26863bd1d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Referrals ADSI"]
+keywords:
+- Referrals ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Referrals

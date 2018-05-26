@@ -4,11 +4,13 @@ description: Represents a replica peer, which is an object that has a replicatio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a15c5ed5-73e3-4c06-a378-bce4e7dea5d2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a15c5ed5-73e3-4c06-a378-bce4e7dea5d2
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMReplicaPeer class", "MSFT_SMReplicaPeer class, described"]
+keywords:
+- MSFT_SMReplicaPeer class
+- MSFT_SMReplicaPeer class, described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMReplicaPeer class
@@ -42,16 +47,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("WMIStorage"), AMENDMENT]
 class MSFT_SMReplicaPeer : MSFT_SMStorageObject
 {
-  String               ObjectId;
-  String               Identifier;
-  UInt16               PeerObjectType;
-  String               PeerObjectId;
-  String               PeerObjectName;
-  String               PeerUniqueId;
-  String               PeerSystemName;
-  String               PeerProviderURI;
-  Boolean              IsCIMReplicationEntityBased;
-  Boolean              IsPrimary;
+  String               ObjectId;
+  String               Identifier;
+  UInt16               PeerObjectType;
+  String               PeerObjectId;
+  String               PeerObjectName;
+  String               PeerUniqueId;
+  String               PeerSystemName;
+  String               PeerProviderURI;
+  Boolean              IsCIMReplicationEntityBased;
+  Boolean              IsPrimary;
   MSFT_SMStorageObject Element;
 };
 ```
@@ -206,7 +211,7 @@ The possible values are:
 **Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Partition"></span><span id="partition"></span><span id="PARTITION"></span>
 
@@ -283,7 +288,7 @@ The unique ID of the replica peer within the storage subsystem.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -300,9 +305,9 @@ The unique ID of the replica peer within the storage subsystem.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

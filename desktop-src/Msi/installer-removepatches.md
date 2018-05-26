@@ -1,12 +1,17 @@
-﻿---
-Description: 'The RemovePatches method removes one or more patches to products eligible to receive the patch. The RemovePatches method calls MsiRemovePatches.'
-ms.assetid: '09c6ad3a-9f5e-4f9a-82c8-be7e411efd60'
-title: 'Installer.RemovePatches method'
+---
+Description: The RemovePatches method removes one or more patches to products eligible to receive the patch. The RemovePatches method calls MsiRemovePatches.
+ms.assetid: 09c6ad3a-9f5e-4f9a-82c8-be7e411efd60
+title: Installer.RemovePatches method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.RemovePatches method
 
-The **RemovePatches** method removes one or more patches to products eligible to receive the patch. The **RemovePatches** method calls [**MsiRemovePatches**](msiremovepatches.md).
+The **RemovePatches** method removes one or more patches to products eligible to receive the patch. The **RemovePatches** method calls [**MsiRemovePatches**](/windows/win32/Msi/nf-msi-msiremovepatchesa?branch=master).
 
 ## Syntax
 
@@ -81,7 +86,7 @@ See [Uninstalling Patches](uninstalling-patches.md) for an example that demonstr
 [**ProductCode**](productcode.md)
 </dt> <dt>
 
-[**MsiRemovePatches**](msiremovepatches.md)
+[**MsiRemovePatches**](/windows/win32/Msi/nf-msi-msiremovepatchesa?branch=master)
 </dt> <dt>
 
 [Uninstalling Patches](uninstalling-patches.md)

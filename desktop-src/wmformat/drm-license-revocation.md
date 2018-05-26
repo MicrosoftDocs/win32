@@ -1,8 +1,25 @@
 ---
 title: License Revocation
 description: License Revocation
-ms.assetid: '615ddddf-4f2f-400d-9c4d-ff3a2851d699'
-keywords: ["Windows Media Format SDK,licenses", "Windows Media Format SDK,license revocation", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "digital rights management (DRM),license revocation", "DRM (digital rights management),license revocation", "DRM Client Extended APIs,licenses", "Client Extended APIs,licenses", "DRM Client Extended APIs,license revocation", "Client Extended APIs,license revocation", "licenses,revocation", "license revocation,about"]
+ms.assetid: 615ddddf-4f2f-400d-9c4d-ff3a2851d699
+keywords:
+- Windows Media Format SDK,licenses
+- Windows Media Format SDK,license revocation
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- digital rights management (DRM),license revocation
+- DRM (digital rights management),license revocation
+- DRM Client Extended APIs,licenses
+- Client Extended APIs,licenses
+- DRM Client Extended APIs,license revocation
+- Client Extended APIs,license revocation
+- licenses,revocation
+- license revocation,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # License Revocation

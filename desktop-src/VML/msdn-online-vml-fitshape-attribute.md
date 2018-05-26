@@ -1,7 +1,12 @@
 ---
 title: VML FitShape Attribute
 description: VML FitShape Attribute
-ms.assetid: 'a6e5a198-1478-4256-a4f2-b9ae6db6d7fb'
+ms.assetid: a6e5a198-1478-4256-a4f2-b9ae6db6d7fb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML FitShape Attribute

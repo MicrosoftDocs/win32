@@ -1,14 +1,20 @@
 ---
 title: Command.LabelDescription property
 description: Represents a label description.
-ms.assetid: '6c683e9e-0742-466e-9fdd-3d29f8ccb9ff'
-keywords: ["Command.LabelDescription property Windows Ribbon"]
+ms.assetid: 6c683e9e-0742-466e-9fdd-3d29f8ccb9ff
+keywords:
+- Command.LabelDescription property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Command.LabelDescription
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command.LabelDescription property
@@ -56,9 +62,9 @@ May occur at most once for each [**Command**](windowsribbon-element-command.md).
 **Command.LabelDescription** can contain a value of *type xs:string* constrained to any sequence of characters, including white space and line-break characters.
 
 > [!Note]  
-> Use the Universal Character Set (UCS) XML character reference `&#xA;` to specify a line break.
+> Use the Universal Character Set (UCS) XML character reference `&#xA;` to specify a line break.
 
- 
+ 
 
 The maximum length is unbounded.
 
@@ -67,7 +73,7 @@ If no value is supplied for **Command.LabelDescription**, the [**String**](windo
 > [!Note]  
 > If **Command.LabelDescription** contains both a value and a [**String**](windowsribbon-element-string.md) child element, **String** takes precedence.
 
- 
+ 
 
 **Command.LabelDescription** only supports left alignment.
 
@@ -147,8 +153,8 @@ The following example shows a manifest of clipboard Commands with various **Comm
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -159,9 +165,9 @@ The following example shows a manifest of clipboard Commands with various **Comm
 [UI\_PKEY\_LabelDescription](windowsribbon-reference-properties-uipkey-labeldescription.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

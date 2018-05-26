@@ -1,8 +1,21 @@
 ---
 title: OpenGL Error Codes
 description: OpenGL includes the following error codes.
-ms.assetid: 'd798b677-d86d-454d-ac46-26afd82563a5'
-keywords: ["error codes OpenGL", "OpenGL error codes", "GL_INVALID_ENUM error code", "GL_INVALID_VALUE error code", "GL_INVALID_OPERATION error code", "GL_STACK_OVERFLOW error code", "GL_STACK_UNDERFLOW error code", "GL_OUT_OF_MEMORY error code"]
+ms.assetid: d798b677-d86d-454d-ac46-26afd82563a5
+keywords:
+- error codes OpenGL
+- OpenGL error codes
+- GL_INVALID_ENUM error code
+- GL_INVALID_VALUE error code
+- GL_INVALID_OPERATION error code
+- GL_STACK_OVERFLOW error code
+- GL_STACK_UNDERFLOW error code
+- GL_OUT_OF_MEMORY error code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenGL Error Codes

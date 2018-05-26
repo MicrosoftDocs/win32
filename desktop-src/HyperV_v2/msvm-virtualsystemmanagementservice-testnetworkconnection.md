@@ -1,7 +1,12 @@
 ---
-Description: 'Tests the network connectivity of a VM in a Windows network virtualization environment.'
-ms.assetid: '37d4c34d-406e-4c52-afce-b0eef754eeb3'
-title: 'TestNetworkConnection method of the Msvm\_VirtualSystemManagementService class'
+Description: Tests the network connectivity of a VM in a Windows network virtualization environment.
+ms.assetid: 37d4c34d-406e-4c52-afce-b0eef754eeb3
+title: TestNetworkConnection method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestNetworkConnection method of the Msvm\_VirtualSystemManagementService class
@@ -13,15 +18,15 @@ Tests the network connectivity of a VM in a Windows network virtualization envir
 
 ```mof
 uint32 TestNetworkConnection(
-  [in]  Msvm_EthernetPortAllocationSettingData REF TargetNetworkAdapter,
-  [in]  boolean                                    IsSender,
-  [in]  string                                     SenderIP,
-  [in]  string                                     ReceiverIP,
-  [in]  string                                     ReceiverMac,
-  [in]  uint32                                     IsolationId,
-  [in]  uint32                                     SequenceNumber,
-  [out] uint32                                     RoundTripTime,
-  [out] CIM_ConcreteJob                        REF Job
+  [in]  Msvm_EthernetPortAllocationSettingData REF TargetNetworkAdapter,
+  [in]  boolean                                    IsSender,
+  [in]  string                                     SenderIP,
+  [in]  string                                     ReceiverIP,
+  [in]  string                                     ReceiverMac,
+  [in]  uint32                                     IsolationId,
+  [in]  uint32                                     SequenceNumber,
+  [out] uint32                                     RoundTripTime,
+  [out] CIM_ConcreteJob                        REF Job
 );
 ```
 
@@ -133,8 +138,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -148,9 +153,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

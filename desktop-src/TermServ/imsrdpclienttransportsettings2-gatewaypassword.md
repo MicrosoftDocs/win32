@@ -1,14 +1,17 @@
 ---
 title: IMsRdpClientTransportSettings2 GatewayPassword property
-description: Specifies the password that a user provides to connect to the Remote Desktop Gateway (RD Gateway) server.
+description: Specifies the password that a user provides to connect to the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f29078e5-49ab-45a0-8d79-4b57d7c35e3a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f29078e5-49ab-45a0-8d79-4b57d7c35e3a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GatewayPassword property Remote Desktop Services", "GatewayPassword property Remote Desktop Services , IMsRdpClientTransportSettings2 interface", "IMsRdpClientTransportSettings2 interface Remote Desktop Services , GatewayPassword property"]
+keywords:
+- GatewayPassword property Remote Desktop Services
+- GatewayPassword property Remote Desktop Services , IMsRdpClientTransportSettings2 interface
+- IMsRdpClientTransportSettings2 interface Remote Desktop Services , GatewayPassword property
 topic_type:
 - apiref
 api_name:
@@ -18,11 +21,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings2::GatewayPassword property
 
-Specifies the password that a user provides to connect to the Remote Desktop Gateway (RD Gateway) server.
+Specifies the password that a user provides to connect to the Remote Desktop Gateway (RD Gateway) server.
 
 This property is write-only.
 
@@ -31,7 +37,7 @@ This property is write-only.
 
 ```C++
 HRESULT put_GatewayPassword(
-  [in] BSTR proxyPassword
+  [in] BSTR proxyPassword
 );
 ```
 
@@ -39,7 +45,7 @@ HRESULT put_GatewayPassword(
 
 ## Property value
 
-The password that a user provides to connect to the RD Gateway server.
+The password that a user provides to connect to the RD Gateway server.
 
 ## Error codes
 
@@ -51,8 +57,8 @@ Returns **S\_OK** if successful.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |
+| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | IID<br/>                      | IID\_IMsRdpClientTransportSettings2 is defined as 67341688-D606-4c73-A5D2-2E0489009319<br/> |
@@ -69,9 +75,9 @@ Returns **S\_OK** if successful.
 [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

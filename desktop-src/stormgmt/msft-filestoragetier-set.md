@@ -1,8 +1,11 @@
 ---
 title: Set method of the MSFT\_FileStorageTier class
 description: Pins a volume or file to a storage tier.
-ms.assetid: '9F235321-2013-49F8-91AF-7A6369BB739A'
-keywords: ["Set method Windows Storage Management API", "Set method Windows Storage Management API , MSFT_FileStorageTier class", "MSFT_FileStorageTier class Windows Storage Management API , Set method"]
+ms.assetid: 9F235321-2013-49F8-91AF-7A6369BB739A
+keywords:
+- Set method Windows Storage Management API
+- Set method Windows Storage Management API , MSFT_FileStorageTier class
+- MSFT_FileStorageTier class Windows Storage Management API , Set method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Set method of the MSFT\_FileStorageTier class
@@ -22,10 +30,10 @@ Pins a volume or file to a storage tier.
 
 ```mof
 UInt32 Set(
-  [in] String FilePath,
-  [in] String DesiredStorageTierFriendlyName,
-  [in] String DesiredStorageTierUniqueId,
-  [in] String DesiredStorageTier
+  [in] String FilePath,
+  [in] String DesiredStorageTierFriendlyName,
+  [in] String DesiredStorageTierUniqueId,
+  [in] String DesiredStorageTier
 );
 ```
 
@@ -75,8 +83,8 @@ The actual movement of the file to this tier will happen only when the optimizer
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -89,9 +97,9 @@ The actual movement of the file to this tier will happen only when the optimizer
 [**MSFT\_FileStorageTier**](msft-filestoragetier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

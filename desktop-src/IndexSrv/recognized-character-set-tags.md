@@ -1,7 +1,12 @@
 ---
 title: Recognized Character Set Tags
 description: Recognized Character Set Tags
-ms.assetid: 'ff89a15b-4df8-42aa-9c9f-46eaed8650ec'
+ms.assetid: ff89a15b-4df8-42aa-9c9f-46eaed8650ec
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recognized Character Set Tags

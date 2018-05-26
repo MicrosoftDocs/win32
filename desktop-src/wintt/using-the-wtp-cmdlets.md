@@ -1,7 +1,12 @@
 ---
 title: Using the WTP Cmdlets
-ms.assetid: '045e5f05-dd81-4e77-ad62-42d4991bd672'
+ms.assetid: 045e5f05-dd81-4e77-ad62-42d4991bd672
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the WTP Cmdlets

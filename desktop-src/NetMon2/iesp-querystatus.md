@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the NPP status.'
-ms.assetid: '48682997-f641-4ae5-b5ad-64fd84f07ae3'
-title: 'IESP::QueryStatus method'
+Description: Retrieves the NPP status.
+ms.assetid: 48682997-f641-4ae5-b5ad-64fd84f07ae3
+title: IESPQueryStatus method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IESP::QueryStatus method
@@ -13,7 +18,7 @@ The **QueryStatus** method retrieves the NPP status.
 
 ```C++
 HRESULT STDMETHODCALLTYPE QueryStatus(
-  [out] NETWORKSTATUS *pNetworkStatus
+  [out] NETWORKSTATUS *pNetworkStatus
 );
 ```
 
@@ -44,7 +49,7 @@ If the method is unsuccessful, the return value is the following error code:
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,8 +63,8 @@ Before calling this method, allocate the memory required for the [NETWORKSTATUS]
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -78,9 +83,9 @@ Before calling this method, allocate the memory required for the [NETWORKSTATUS]
 [NETWORKSTATUS](networkstatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

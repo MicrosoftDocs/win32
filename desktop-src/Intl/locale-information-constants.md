@@ -1,7 +1,12 @@
 ---
-Description: 'This section defines the constants that NLS uses to specify particular pieces of locale information.'
-ms.assetid: '45798dd1-34bb-4e99-8f84-94f28e76711f'
+Description: This section defines the constants that NLS uses to specify particular pieces of locale information.
+ms.assetid: 45798dd1-34bb-4e99-8f84-94f28e76711f
 title: Locale Information Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Locale Information Constants
@@ -135,7 +140,7 @@ The following constants represent default and neutral locale identifiers.
 
 ## Locale Name Constants
 
-The following constants are used to specify a [locale name](locale-names.md). They are used by functions such as [**GetLocaleInfoEx**](getlocaleinfoex.md).
+The following constants are used to specify a [locale name](locale-names.md). They are used by functions such as [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master).
 
 -   LOCALE\_NAME\_INVARIANT
 -   LOCALE\_NAME\_SYSTEM\_DEFAULT
@@ -143,7 +148,7 @@ The following constants are used to specify a [locale name](locale-names.md). Th
 
 ## Locale Definition Constants
 
-The following constants define the locale for NLS functions such as [**EnumSystemLocalesEx**](enumsystemlocalesex.md) and [**EnumLocalesProcEx**](enumlocalesprocex.md).
+The following constants define the locale for NLS functions such as [**EnumSystemLocalesEx**](/windows/win32/Winnls/nf-winnls-enumsystemlocalesex?branch=master) and [**EnumLocalesProcEx**](/windows/win32/FormatContext/?branch=master).
 
 -   LOCALE\_ALL
 -   LOCALE\_ALTERNATE\_SORTS
@@ -153,13 +158,13 @@ The following constants define the locale for NLS functions such as [**EnumSyste
 
 ## Constants Used in the LCType Parameter of GetLocaleInfo, GetLocaleInfoEx, and SetLocaleInfo
 
-This section lists the locale information constants that the application can use for the *LCType* parameter of [**GetLocaleInfo**](getlocaleinfo.md) (Windows Me/98, Windows NT 4.0), [**GetLocaleInfoEx**](getlocaleinfoex.md) (Windows Vista), and [**SetLocaleInfo**](setlocaleinfo.md). The locale information is passed either as strings (default) or as integers. An integer value is specified by using the binary OR operator to combine a particular constant with a combining constant. See [Combining Constants](#combining-constants).
+This section lists the locale information constants that the application can use for the *LCType* parameter of [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) (Windows Me/98, Windows NT 4.0), [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master) (Windows Vista), and [**SetLocaleInfo**](/windows/win32/Winnls/nf-winnls-setlocaleinfoa?branch=master). The locale information is passed either as strings (default) or as integers. An integer value is specified by using the binary OR operator to combine a particular constant with a combining constant. See [Combining Constants](#combining-constants).
 
  
 
 **Constants Used by GetLocaleInfo and GetLocaleInfoEx Only**
 
-[**GetLocaleInfo**](getlocaleinfo.md) and [**GetLocaleInfoEx**](getlocaleinfoex.md) use the following constants to retrieve certain pieces of locale information that [**SetLocaleInfo**](setlocaleinfo.md) cannot set. These constants are mutually exclusive of one another and of the constants used by both [**SetLocaleInfo**](setlocaleinfo.md) and [**GetLocaleInfo**](getlocaleinfo.md)/[**GetLocaleInfoEx**](getlocaleinfoex.md). However, they can be combined with the combining constants using the binary OR operator. See [Combining Constants](#combining-constants).
+[**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) and [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master) use the following constants to retrieve certain pieces of locale information that [**SetLocaleInfo**](/windows/win32/Winnls/nf-winnls-setlocaleinfoa?branch=master) cannot set. These constants are mutually exclusive of one another and of the constants used by both [**SetLocaleInfo**](/windows/win32/Winnls/nf-winnls-setlocaleinfoa?branch=master) and [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master)/[**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master). However, they can be combined with the combining constants using the binary OR operator. See [Combining Constants](#combining-constants).
 
 -   LOCALE\_FONTSIGNATURE
 -   LOCALE\_ICENTURY
@@ -270,7 +275,7 @@ This section lists the locale information constants that the application can use
 
 **Constants Used by Both SetLocaleInfo and GetLocaleInfo/GetLocaleInfoEx**
 
-[**SetLocaleInfo**](setlocaleinfo.md) uses the following constants to set particular pieces of user locale information, and [**GetLocaleInfo**](getlocaleinfo.md) or [**GetLocaleInfoEx**](getlocaleinfoex.md) uses these same constants to retrieve those pieces of information. These constants are mutually exclusive of one another and of the constants used by [**GetLocaleInfo**](getlocaleinfo.md) or [**GetLocaleInfoEx**](getlocaleinfoex.md) only. However, they can be combined with the combining constants using the binary OR operator. See [Combining Constants](#combining-constants).
+[**SetLocaleInfo**](/windows/win32/Winnls/nf-winnls-setlocaleinfoa?branch=master) uses the following constants to set particular pieces of user locale information, and [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) or [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master) uses these same constants to retrieve those pieces of information. These constants are mutually exclusive of one another and of the constants used by [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) or [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master) only. However, they can be combined with the combining constants using the binary OR operator. See [Combining Constants](#combining-constants).
 
 -   LOCALE\_ICALENDARTYPE
 -   LOCALE\_ICURRDIGITS

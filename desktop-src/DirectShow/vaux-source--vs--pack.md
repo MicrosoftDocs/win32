@@ -1,12 +1,17 @@
 ---
-Description: 'VAUX Source (VS) Pack'
-ms.assetid: '5ffd2883-0e56-459f-b229-cc014b894237'
-title: 'VAUX Source (VS) Pack'
+Description: VAUX Source (VS) Pack
+ms.assetid: 5ffd2883-0e56-459f-b229-cc014b894237
+title: VAUX Source (VS) Pack
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VAUX Source (VS) Pack
 
-The following tables list the values used by the MSDV driver to fill in the **dwDVVAuxSrc** member of the [**DVINFO**](dvinfo.md) structure. For more information, see [DVINFO Field Settings in the MSDV Driver](dvinfo-field-settings-in-the-msdv-driver.md).
+The following tables list the values used by the MSDV driver to fill in the **dwDVVAuxSrc** member of the [**DVINFO**](/windows/win32/strmif/ns-strmif-dvinfo?branch=master) structure. For more information, see [DVINFO Field Settings in the MSDV Driver](dvinfo-field-settings-in-the-msdv-driver.md).
 
 **DVCR Settings**
 

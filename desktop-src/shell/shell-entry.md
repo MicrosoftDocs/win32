@@ -1,6 +1,11 @@
 ---
-Description: 'The Windows UI provides users with access to a wide variety of objects necessary for running applications and managing the operating system.'
+Description: The Windows UI provides users with access to a wide variety of objects necessary for running applications and managing the operating system.
 title: Windows Shell
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Shell

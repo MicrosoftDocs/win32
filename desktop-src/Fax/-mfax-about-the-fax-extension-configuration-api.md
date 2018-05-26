@@ -1,7 +1,12 @@
 ---
-Description: 'The Fax Extension Configuration API provides an extension configuration persistence mechanism that allows you to persistently store configuration for fax devices without having to write directly to the Fax Service registry.'
-ms.assetid: '846f307f-f2ec-4edd-8ada-cb2199dcfed5'
+Description: The Fax Extension Configuration API provides an extension configuration persistence mechanism that allows you to persistently store configuration for fax devices without having to write directly to the Fax Service registry.
+ms.assetid: 846f307f-f2ec-4edd-8ada-cb2199dcfed5
 title: About the Fax Extension Configuration API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Fax Extension Configuration API

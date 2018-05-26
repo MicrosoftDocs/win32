@@ -1,8 +1,13 @@
 ---
 title: IVMDHCPVirtualNetworkServer ConfigureDHCPServer method
 description: The ConfigureDHCPServer method sets the parameters for the virtual network DHCP server.
-ms.assetid: 'b8acfc0a-4591-44eb-8407-29be4563ddb7'
-keywords: ["ConfigureDHCPServer method Virtual Server", "ConfigureDHCPServer method Virtual Server , IVMDHCPVirtualNetworkServer interface", "IVMDHCPVirtualNetworkServer interface Virtual Server , ConfigureDHCPServer method", "ConfigureDHCPServer method Virtual Server , VMDHCPVirtualNetworkServer interface", "VMDHCPVirtualNetworkServer interface Virtual Server , ConfigureDHCPServer method"]
+ms.assetid: b8acfc0a-4591-44eb-8407-29be4563ddb7
+keywords:
+- ConfigureDHCPServer method Virtual Server
+- ConfigureDHCPServer method Virtual Server , IVMDHCPVirtualNetworkServer interface
+- IVMDHCPVirtualNetworkServer interface Virtual Server , ConfigureDHCPServer method
+- ConfigureDHCPServer method Virtual Server , VMDHCPVirtualNetworkServer interface
+- VMDHCPVirtualNetworkServer interface Virtual Server , ConfigureDHCPServer method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDHCPVirtualNetworkServer::ConfigureDHCPServer method
@@ -23,11 +33,11 @@ The **ConfigureDHCPServer** method sets the parameters for the virtual network D
 
 ```C++
 HRESULT ConfigureDHCPServer(
-  [in] BSTR network,
-  [in] BSTR networkMask,
-  [in] BSTR startingIPAddress,
-  [in] BSTR endingIPAddress,
-  [in] BSTR serverIPAddress
+  [in] BSTR network,
+  [in] BSTR networkMask,
+  [in] BSTR startingIPAddress,
+  [in] BSTR endingIPAddress,
+  [in] BSTR serverIPAddress
 );
 ```
 
@@ -108,7 +118,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -116,8 +126,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -129,9 +139,9 @@ This method supports standard return values, as well as the following. For infor
 [**IVMDHCPVirtualNetworkServer**](ivmdhcpvirtualnetworkserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

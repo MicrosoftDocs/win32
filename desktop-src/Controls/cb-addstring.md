@@ -1,8 +1,9 @@
 ---
 title: CB\_ADDSTRING message
 description: Adds a string to the list box of a combo box. If the combo box does not have the CBS\_SORT style, the string is added to the end of the list. Otherwise, the string is inserted into the list, and the list is sorted.
-ms.assetid: '201bcb7b-e7d1-41e6-8eb7-a5864b659a52'
-keywords: ["CB_ADDSTRING message Windows Controls"]
+ms.assetid: 201bcb7b-e7d1-41e6-8eb7-a5864b659a52
+keywords:
+- CB_ADDSTRING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_ADDSTRING message
@@ -55,8 +61,8 @@ If the combo box has [**WS\_HSCROLL**](https://msdn.microsoft.com/library/window
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -80,9 +86,9 @@ If the combo box has [**WS\_HSCROLL**](https://msdn.microsoft.com/library/window
 [**WM\_COMPAREITEM**](wm-compareitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

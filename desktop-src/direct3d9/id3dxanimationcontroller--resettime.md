@@ -1,7 +1,12 @@
-﻿---
-Description: 'Resets the global animation time to zero. Any pending events will retain their original schedules, but in the new timeframe.'
-ms.assetid: '70b073ec-ef97-4af4-9f42-b6a6cc13605f'
-title: 'ID3DXAnimationController::ResetTime method'
+---
+Description: Resets the global animation time to zero. Any pending events will retain their original schedules, but in the new timeframe.
+ms.assetid: 70b073ec-ef97-4af4-9f42-b6a6cc13605f
+title: ID3DXAnimationControllerResetTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::ResetTime method

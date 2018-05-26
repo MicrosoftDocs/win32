@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ReAttach method resets, or reinitializes, the smart card.'
-ms.assetid: 'c9cd9cd7-5ee6-48dc-8460-deb9c827fcc4'
-title: 'ISCard::ReAttach method'
+---
+Description: The ReAttach method resets, or reinitializes, the smart card.
+ms.assetid: c9cd9cd7-5ee6-48dc-8460-deb9c827fcc4
+title: ISCardReAttach method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCard::ReAttach method

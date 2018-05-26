@@ -4,11 +4,14 @@ description: Attempts to place the service in the paused state.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '101987F6-FBAB-4E79-B1FA-346B1EF58DE1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 101987F6-FBAB-4E79-B1FA-346B1EF58DE1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["PauseService method Remote Desktop Services", "PauseService method Remote Desktop Services , Win32_Service class", "Win32_Service class Remote Desktop Services , PauseService method"]
+keywords:
+- PauseService method Remote Desktop Services
+- PauseService method Remote Desktop Services , Win32_Service class
+- Win32_Service class Remote Desktop Services , PauseService method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PauseService method of the Win32\_Service class
@@ -239,8 +245,8 @@ The [Pause Services Running Under a Specific Account](https://Gallery.TechNet.Mi
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -266,9 +272,9 @@ The [Pause Services Running Under a Specific Account](https://Gallery.TechNet.Mi
 [**StopService**](https://msdn.microsoft.com/library/aa393673)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

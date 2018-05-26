@@ -4,11 +4,15 @@ description: Describes the two types of taskpads.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bc068a91-6c0a-4538-bc2e-912b4bf0a09a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bc068a91-6c0a-4538-bc2e-912b4bf0a09a
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC, taskpads"]
+keywords:
+- MMC, taskpads
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC Taskpads

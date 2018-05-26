@@ -1,7 +1,12 @@
 ---
-Description: 'The virtual address space for a process is the set of virtual memory addresses that it can use. The address space for each process is private and cannot be accessed by other processes unless it is shared.'
-ms.assetid: '747f9f53-a595-4f4b-8b81-3123d59edb2f'
+Description: The virtual address space for a process is the set of virtual memory addresses that it can use. The address space for each process is private and cannot be accessed by other processes unless it is shared.
+ms.assetid: 747f9f53-a595-4f4b-8b81-3123d59edb2f
 title: Virtual Address Space
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual Address Space

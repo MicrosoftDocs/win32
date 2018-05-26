@@ -1,8 +1,10 @@
 ---
 title: Msvm\_Synthetic3DDisplayController class
 description: Represents the synthetic 3-D display controller that is assigned to a virtual machine.
-ms.assetid: 'DA7FD1E9-FEFD-4016-A148-C9AE32B6D1BF'
-keywords: ["Msvm_Synthetic3DDisplayController class Hyper-V", "Msvm_Synthetic3DDisplayController class Hyper-V , described"]
+ms.assetid: DA7FD1E9-FEFD-4016-A148-C9AE32B6D1BF
+keywords:
+- Msvm_Synthetic3DDisplayController class Hyper-V
+- Msvm_Synthetic3DDisplayController class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -63,6 +65,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Synthetic3DDisplayController class
@@ -77,50 +84,50 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider")]
 class Msvm_Synthetic3DDisplayController : CIM_DisplayController
 {
-  string   Caption;
-  string   ElementName;
+  string   Caption;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   EnabledState;
-  string   OtherEnabledState;
-  uint16   RequestedState = 2;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   EnabledState;
+  string   OtherEnabledState;
+  uint16   RequestedState = 2;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator = 4;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator = 4;
   datetime TimeOfLastReset;
-  uint16   ProtocolSupported = 1;
-  uint32   MaxNumberControlled;
-  string   ProtocolDescription;
-  string   Description;
-  string   VideoProcessor;
-  uint16   VideoMemoryType = 2;
-  string   OtherVideoMemoryType;
-  uint32   NumberOfVideoPages;
-  uint32   MaxMemorySupported;
-  uint16   AcceleratorCapabilities[] = 2;
-  string   CapabilityDescriptions[];
-  string   AllocatedGPU;
+  uint16   ProtocolSupported = 1;
+  uint32   MaxNumberControlled;
+  string   ProtocolDescription;
+  string   Description;
+  string   VideoProcessor;
+  uint16   VideoMemoryType = 2;
+  string   OtherVideoMemoryType;
+  uint32   NumberOfVideoPages;
+  uint32   MaxMemorySupported;
+  uint16   AcceleratorCapabilities[] = 2;
+  string   CapabilityDescriptions[];
+  string   AllocatedGPU;
 };
 ```
 
@@ -150,7 +157,7 @@ The **Msvm\_Synthetic3DDisplayController** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1212,9 +1219,9 @@ A free-form string that describes the video processor/controller. This property 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                                           |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1227,9 +1234,9 @@ A free-form string that describes the video processor/controller. This property 
 [**CIM\_DisplayController**](cim-displaycontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

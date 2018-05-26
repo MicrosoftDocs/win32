@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the encoding quality for the Digital Living Network Alliance (DLNA) media sink.'
-ms.assetid: '4cf745ab-66ae-40f2-b5c4-3f72f1b9badb'
-title: 'MF\_MP2DLNA\_ENCODE\_QUALITY attribute'
+---
+Description: Specifies the encoding quality for the Digital Living Network Alliance (DLNA) media sink.
+ms.assetid: 4cf745ab-66ae-40f2-b5c4-3f72f1b9badb
+title: MF\_MP2DLNA\_ENCODE\_QUALITY attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MP2DLNA\_ENCODE\_QUALITY attribute
@@ -16,15 +21,15 @@ Range: 0–18
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
 Higher numbers indicate better encoding quality. Lower numbers indicate faster encoding, but lower encoding quality. The default value is 9.
 
-To set this attribute on the DLNA media sink, query the media sink for the [**IMFAttributes**](imfattributes.md) interface. Set the attribute before streaming begins.
+To set this attribute on the DLNA media sink, query the media sink for the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface. Set the attribute before streaming begins.
 
 ## Requirements
 

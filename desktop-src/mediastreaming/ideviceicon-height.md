@@ -1,14 +1,22 @@
 ---
 title: IDeviceIcon Height method
 description: Retrieves the height of the icon in pixels.
-ms.assetid: '06E1B3AD-FF49-4BC9-AC67-E2E00954475F'
-keywords: ["Height method Media Streaming API", "Height method Media Streaming API , IDeviceIcon interface", "IDeviceIcon interface Media Streaming API , Height method"]
+ms.assetid: 06E1B3AD-FF49-4BC9-AC67-E2E00954475F
+keywords:
+- Height method Media Streaming API
+- Height method Media Streaming API , IDeviceIcon interface
+- IDeviceIcon interface Media Streaming API , Height method
 topic_type:
 - apiref
 api_name:
 - IDeviceIcon.Height
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDeviceIcon::Height method
@@ -20,7 +28,7 @@ Retrieves the height of the icon in pixels.
 
 ```C++
 HRESULT Height(
-  [out] UINT32 *value
+  [out] UINT32 *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IDeviceIcon**](ideviceicon.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

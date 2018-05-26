@@ -1,7 +1,12 @@
 ---
-Description: 'This section is intended for developers who are writing their own setup programs and who want to learn more about the Windows Installer database tables.'
-ms.assetid: '113ed443-a866-43d4-86bd-fc3b244f2edb'
+Description: This section is intended for developers who are writing their own setup programs and who want to learn more about the Windows Installer database tables.
+ms.assetid: 113ed443-a866-43d4-86bd-fc3b244f2edb
 title: Automation Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automation Interface

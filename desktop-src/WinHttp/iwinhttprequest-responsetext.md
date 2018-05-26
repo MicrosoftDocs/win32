@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the response entity body as text.'
-ms.assetid: '87caf64f-be11-45c9-af1e-997a55c5e76e'
-title: 'IWinHttpRequest::ResponseText property'
+Description: Retrieves the response entity body as text.
+ms.assetid: 87caf64f-be11-45c9-af1e-997a55c5e76e
+title: IWinHttpRequestResponseText property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::ResponseText property
@@ -15,7 +20,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ResponseText(
-  [out, retval] BSTR *Body
+  [out, retval] BSTR *Body
 );
 ```
 
@@ -54,9 +59,9 @@ This property can only be invoked after the [**Send**](iwinhttprequest-send.md) 
 When using this property in synchronous mode, the limit to the number of characters it returns is approximately 2,169,895.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 ## Examples
 
@@ -173,9 +178,9 @@ WScript.Echo( WinHttpReq.ResponseText);
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -201,9 +206,9 @@ WScript.Echo( WinHttpReq.ResponseText);
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

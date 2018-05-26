@@ -1,8 +1,11 @@
 ---
 title: Playlist.removeItem method
 description: The removeItem method removes the specified item from the playlist.
-ms.assetid: '7a17b0e0-2eaf-4570-a297-c2540ae4b6c5'
-keywords: ["removeItem method Windows Media Player", "removeItem method Windows Media Player , Playlist class", "Playlist class Windows Media Player , removeItem method"]
+ms.assetid: 7a17b0e0-2eaf-4570-a297-c2540ae4b6c5
+keywords:
+- removeItem method Windows Media Player
+- removeItem method Windows Media Player , Playlist class
+- Playlist class Windows Media Player , removeItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist.removeItem method
@@ -82,9 +90,9 @@ To use this method, full access to the library is required. For more information
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

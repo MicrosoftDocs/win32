@@ -4,13 +4,18 @@ description: A replicated folder defines a set of files and folders to be kept i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '67452355-315a-44eb-b78b-88322f66d1de'
-ms.prod: 'windows-server-dev'
+ms.assetid: 67452355-315a-44eb-b78b-88322f66d1de
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication Files , replicated folders", "replicated folders Files"]
+keywords:
+- Distributed File System Replication Files , replicated folders
+- replicated folders Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DFSR Replicated Folders

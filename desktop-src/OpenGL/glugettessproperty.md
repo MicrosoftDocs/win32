@@ -1,8 +1,9 @@
 ---
 title: gluGetTessProperty function
 description: The gluGetTessProperty function gets a tessellation object property.
-ms.assetid: '6aa565d8-2257-4259-a959-b7d806a7ed96'
-keywords: ["gluGetTessProperty function OpenGL"]
+ms.assetid: 6aa565d8-2257-4259-a959-b7d806a7ed96
+keywords:
+- gluGetTessProperty function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluGetTessProperty function
@@ -22,9 +28,9 @@ The **gluGetTessProperty** function gets a tessellation object property.
 
 ```C++
 void WINAPI gluGetTessProperty(
-   GLUtesselator *tess,
-   GLenum        which,
-   GLdouble      *value
+   GLUtesselator *tess,
+   GLenum        which,
+   GLdouble      *value
 );
 ```
 
@@ -69,8 +75,8 @@ Use **gluGetTessProperty** to retrieve properties stored in a tessellation objec
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -87,9 +93,9 @@ Use **gluGetTessProperty** to retrieve properties stored in a tessellation objec
 [**gluTessProperty**](glutessproperty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

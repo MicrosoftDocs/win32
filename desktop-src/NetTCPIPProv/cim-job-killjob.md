@@ -1,7 +1,12 @@
 ---
-Description: 'KillJob is being deprecated because there is no distinction made between an orderly shutdown and an immediate kill. RequestStateChange provides Terminate and Kill options to allow this distinction.'
-ms.assetid: '142fadc7-2afe-4da9-a2cf-33b98afbb134'
-title: 'KillJob method of the CIM\_Job class'
+Description: KillJob is being deprecated because there is no distinction made between an orderly shutdown and an immediate kill. RequestStateChange provides Terminate and Kill options to allow this distinction.
+ms.assetid: 142fadc7-2afe-4da9-a2cf-33b98afbb134
+title: KillJob method of the CIM\_Job class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KillJob method of the CIM\_Job class
@@ -15,7 +20,7 @@ A method to kill this job and any underlying processes, and to remove any dangli
 
 ```mof
 uint32 KillJob(
-  [in] boolean DeleteOnKill
+  [in] boolean DeleteOnKill
 );
 ```
 
@@ -57,10 +62,10 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 **Not Found** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–32767)
+**DMTF Reserved** (8 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -69,8 +74,8 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -84,9 +89,9 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 [**CIM\_Job**](cim-job.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

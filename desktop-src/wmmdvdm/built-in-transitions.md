@@ -1,8 +1,19 @@
 ---
 title: Built-in Transitions
 description: Built-in Transitions
-ms.assetid: '92ccf172-f516-419c-94d9-40a6ee7b8153'
-keywords: ["Windows Movie Maker,transitions", "Movie Maker,transitions", "programming guide,Windows Movie Maker transitions", "transitions,built-in", "built-in transitions", "XML,built-in transitions"]
+ms.assetid: 92ccf172-f516-419c-94d9-40a6ee7b8153
+keywords:
+- Windows Movie Maker,transitions
+- Movie Maker,transitions
+- programming guide,Windows Movie Maker transitions
+- transitions,built-in
+- built-in transitions
+- XML,built-in transitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Built-in Transitions

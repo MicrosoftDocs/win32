@@ -1,8 +1,27 @@
 ---
 title: Why Use DirectShow
 description: Why Use DirectShow
-ms.assetid: '0ab33526-73d0-425e-a03f-29c74555f578'
-keywords: ["Windows Media Format SDK,DirectShow", "Windows Media Format SDK,hardware", "Windows Media Format SDK,Windows Driver Model (WDM)", "Advanced Systems Format (ASF),DirectShow", "ASF (Advanced Systems Format),DirectShow", "Advanced Systems Format (ASF),hardware", "ASF (Advanced Systems Format),hardware", "Advanced Systems Format (ASF),Windows Driver Model (WDM)", "ASF (Advanced Systems Format),Windows Driver Model (WDM)", "DirectShow,about", "DirectShow,hardware", "DirectShow,Windows Driver Model (WDM)", "Windows Driver Model (WDM)", "WDM (Windows Driver Model)"]
+ms.assetid: 0ab33526-73d0-425e-a03f-29c74555f578
+keywords:
+- Windows Media Format SDK,DirectShow
+- Windows Media Format SDK,hardware
+- Windows Media Format SDK,Windows Driver Model (WDM)
+- Advanced Systems Format (ASF),DirectShow
+- ASF (Advanced Systems Format),DirectShow
+- Advanced Systems Format (ASF),hardware
+- ASF (Advanced Systems Format),hardware
+- Advanced Systems Format (ASF),Windows Driver Model (WDM)
+- ASF (Advanced Systems Format),Windows Driver Model (WDM)
+- DirectShow,about
+- DirectShow,hardware
+- DirectShow,Windows Driver Model (WDM)
+- Windows Driver Model (WDM)
+- WDM (Windows Driver Model)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Why Use DirectShow?

@@ -1,8 +1,18 @@
 ---
 title: Structures
 description: Structures
-ms.assetid: '794de1b7-d60c-435e-9f77-c4df109b5372'
-keywords: ["Windows Media Format SDK,structures", "digital rights management (DRM),structures", "DRM (digital rights management),structures", "DRM Client Extended APIs,structures", "Client Extended APIs,structures"]
+ms.assetid: 794de1b7-d60c-435e-9f77-c4df109b5372
+keywords:
+- Windows Media Format SDK,structures
+- digital rights management (DRM),structures
+- DRM (digital rights management),structures
+- DRM Client Extended APIs,structures
+- Client Extended APIs,structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structures

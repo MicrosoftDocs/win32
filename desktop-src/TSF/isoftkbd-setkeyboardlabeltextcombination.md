@@ -1,8 +1,11 @@
 ---
 title: ISoftKbd SetKeyboardLabelTextCombination method
 description: The ISoftKbd SetKeyboardLabelTextCombination method sets a combination of label and text used to describe a soft keyboard.
-ms.assetid: 'fe054eae-1a44-41ad-9a44-bc0b46df7c7b'
-keywords: ["SetKeyboardLabelTextCombination method Text Services Framework", "SetKeyboardLabelTextCombination method Text Services Framework , ISoftKbd interface", "ISoftKbd interface Text Services Framework , SetKeyboardLabelTextCombination method"]
+ms.assetid: fe054eae-1a44-41ad-9a44-bc0b46df7c7b
+keywords:
+- SetKeyboardLabelTextCombination method Text Services Framework
+- SetKeyboardLabelTextCombination method Text Services Framework , ISoftKbd interface
+- ISoftKbd interface Text Services Framework , SetKeyboardLabelTextCombination method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISoftKbd::SetKeyboardLabelTextCombination method
@@ -22,7 +30,7 @@ The **ISoftKbd::SetKeyboardLabelTextCombination** method sets a combination of l
 
 ```C++
 HRESULT SetKeyboardLabelTextCombination(
-  [in] DWORD nModifierCombination
+  [in] DWORD nModifierCombination
 );
 ```
 
@@ -52,7 +60,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -60,9 +68,9 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
 | Header<br/>                   | <dl> <dt>Softkbdc.h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Softkbd.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
@@ -79,9 +87,9 @@ This method can return one of these values.
 [**ISoftKbd::SetKeyboardLabelText**](isoftkbd-setkeyboardlabeltext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

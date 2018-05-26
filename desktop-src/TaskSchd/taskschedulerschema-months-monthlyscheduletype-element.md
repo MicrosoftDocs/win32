@@ -1,14 +1,20 @@
 ---
 title: Months (monthlyScheduleType) Element
 description: Specifies the months of the year during which the task runs for a monthly schedule.
-ms.assetid: '71c9f7ac-01fc-4837-bccf-1869df2bc24e'
-keywords: ["Months element Task Scheduler"]
+ms.assetid: 71c9f7ac-01fc-4837-bccf-1869df2bc24e
+keywords:
+- Months element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Months
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Months (monthlyScheduleType) Element
@@ -58,7 +64,7 @@ The **Months** element is defined by the [**monthlyScheduleType**](taskscheduler
 
 For script development, the months of the schedule are specified using the [**MonthlyTrigger.MonthsOfYear**](monthlytrigger-monthsofyear.md) property.
 
-For C++ development, the months of the schedule are specified using the [**IMonthlyTrigger::MonthsOfYear**](imonthlytrigger-monthsofyear.md) property.
+For C++ development, the months of the schedule are specified using the [**IMonthlyTrigger::MonthsOfYear**](/windows/win32/taskschd/nf-taskschd-imonthlytrigger-get_monthsofyear?branch=master) property.
 
 ## Examples
 
@@ -96,8 +102,8 @@ The following XML defines a monthly calendar that starts the task on the 1st and
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -111,9 +117,9 @@ The following XML defines a monthly calendar that starts the task on the 1st and
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

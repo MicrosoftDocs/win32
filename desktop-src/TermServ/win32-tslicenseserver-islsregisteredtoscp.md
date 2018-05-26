@@ -4,11 +4,14 @@ description: Retrieves whether the Remote Desktop license server is registered a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '013C3711-7C55-4DB4-9229-C3C60E751EF2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 013C3711-7C55-4DB4-9229-C3C60E751EF2
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IsLSRegisteredToSCP method Remote Desktop Services", "IsLSRegisteredToSCP method Remote Desktop Services , Win32_TSLicenseServer class", "Win32_TSLicenseServer class Remote Desktop Services , IsLSRegisteredToSCP method"]
+keywords:
+- IsLSRegisteredToSCP method Remote Desktop Services
+- IsLSRegisteredToSCP method Remote Desktop Services , Win32_TSLicenseServer class
+- Win32_TSLicenseServer class Remote Desktop Services , IsLSRegisteredToSCP method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IsLSRegisteredToSCP method of the Win32\_TSLicenseServer class
@@ -28,7 +34,7 @@ Retrieves whether the Remote Desktop license server is registered as a service c
 
 ```mof
 uint32 IsLSRegisteredToSCP(
-  [out] boolean Registered
+  [out] boolean Registered
 );
 ```
 
@@ -62,7 +68,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -76,9 +82,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseServer**](win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

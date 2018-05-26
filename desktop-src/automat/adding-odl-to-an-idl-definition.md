@@ -1,7 +1,12 @@
 ---
 title: Adding ODL to an IDL Definition
 description: The .odl files provide object definitions that are added to the type descriptions in a type library.
-ms.assetid: '16e2f064-1636-47b1-a838-d7e41b69c613'
+ms.assetid: 16e2f064-1636-47b1-a838-d7e41b69c613
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding ODL to an IDL Definition

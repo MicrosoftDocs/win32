@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the print job identifier (ID).'
-ms.assetid: '8354E38C-0A3D-48CB-9CA5-0DC0C01FDF17'
-title: 'IPrintJob::Id property'
+---
+Description: Gets the print job identifier (ID).
+ms.assetid: 8354E38C-0A3D-48CB-9CA5-0DC0C01FDF17
+title: IPrintJobId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintJob::Id property

@@ -1,8 +1,10 @@
 ---
 title: MUASORT enumeration
 description: Do not use. Specifies how the Contact List should be sorted.
-ms.assetid: '5a28f13e-5d58-4d27-8959-553d682f5a1e'
-keywords: ["MUASORT enumeration Windows Messenger", "LockError enumeration Windows Messenger"]
+ms.assetid: 5a28f13e-5d58-4d27-8959-553d682f5a1e
+keywords:
+- MUASORT enumeration Windows Messenger
+- LockError enumeration Windows Messenger
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msgrua.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MUASORT enumeration
 
-\[**MUASORT** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MUASORT** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. Specifies how the Contact List should be sorted.
 
@@ -25,7 +32,7 @@ Do not use. Specifies how the Contact List should be sorted.
 ```C++
 typedef enum  { 
   MUASORT_GROUPS,
-  MUASORT_ONOFFLINE  = 1
+  MUASORT_ONOFFLINE  = 1
 } LockError;
 ```
 
@@ -55,16 +62,16 @@ Sorts the local user's contacts by online/offline status.
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

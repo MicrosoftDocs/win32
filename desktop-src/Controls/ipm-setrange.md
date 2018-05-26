@@ -1,8 +1,9 @@
 ---
 title: IPM\_SETRANGE message
 description: Sets the valid range for the specified field in the IP address control.
-ms.assetid: '03068c5d-822f-459d-8f79-e7f0430a27bf'
-keywords: ["IPM_SETRANGE message Windows Controls"]
+ms.assetid: 03068c5d-822f-459d-8f79-e7f0430a27bf
+keywords:
+- IPM_SETRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPM\_SETRANGE message
@@ -31,7 +37,7 @@ A zero-based field index to which the range will be applied.
 *lParam* 
 </dt> <dd>
 
-A **WORD** value that contains the lower limit of the range in the low-order byte and the upper limit in the high-order byte. Both of these values are inclusive. The [**MAKEIPRANGE**](makeiprange.md) macro can also be used to create the range.
+A **WORD** value that contains the lower limit of the range in the low-order byte and the upper limit in the high-order byte. Both of these values are inclusive. The [**MAKEIPRANGE**](/windows/win32/Commctrl/nf-commctrl-makeiprange?branch=master) macro can also be used to create the range.
 
 </dd> </dl>
 
@@ -49,15 +55,15 @@ If the user enters a value in the field that is outside of this range, the contr
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

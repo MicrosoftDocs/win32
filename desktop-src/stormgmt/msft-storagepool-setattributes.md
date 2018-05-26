@@ -1,8 +1,11 @@
 ---
 title: SetAttributes method of the MSFT\_StoragePool class
 description: Sets or changes attribute values for the storage pool object.
-ms.assetid: '01D081C7-349A-4344-AF11-123872887AE4'
-keywords: ["SetAttributes method Windows Storage Management API", "SetAttributes method Windows Storage Management API , MSFT_StoragePool class", "MSFT_StoragePool class Windows Storage Management API , SetAttributes method"]
+ms.assetid: 01D081C7-349A-4344-AF11-123872887AE4
+keywords:
+- SetAttributes method Windows Storage Management API
+- SetAttributes method Windows Storage Management API , MSFT_StoragePool class
+- MSFT_StoragePool class Windows Storage Management API , SetAttributes method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetAttributes method of the MSFT\_StoragePool class
@@ -22,13 +30,13 @@ Sets or changes attribute values for the storage pool object.
 
 ```mof
 UInt32 SetAttributes(
-  [in]  Boolean IsReadOnly,
-  [in]  Boolean ClearOnDeallocate,
-  [in]  Boolean IsPowerProtected,
-  [in]  UInt16  RepairPolicy,
-  [in]  UInt16  RetireMissingPhysicalDisks,
-  [in]  UInt16  ThinProvisioningAlertThresholds[],
-  [out] String  ExtendedStatus
+  [in]  Boolean IsReadOnly,
+  [in]  Boolean ClearOnDeallocate,
+  [in]  Boolean IsPowerProtected,
+  [in]  UInt16  RepairPolicy,
+  [in]  UInt16  RetireMissingPhysicalDisks,
+  [in]  UInt16  ThinProvisioningAlertThresholds[],
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -73,7 +81,7 @@ How the operating system repairs virtual disks for this storage pool.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -172,8 +180,8 @@ If you want to set the **IsReadOnly**, **ClearOnDeallocate**, and **IsPowerProte
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -186,9 +194,9 @@ If you want to set the **IsReadOnly**, **ClearOnDeallocate**, and **IsPowerProte
 [**MSFT\_StoragePool**](msft-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

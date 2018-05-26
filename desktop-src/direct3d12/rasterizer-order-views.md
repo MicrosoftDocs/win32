@@ -1,7 +1,12 @@
 ---
 title: Rasterizer Ordered Views
 description: Rasterizer ordered views (ROVs) allow pixel shader code to mark UAV bindings with a declaration that alters the normal requirements for the order of graphics pipeline results for UAVs.
-ms.assetid: 'D308BF3E-8CBE-4DF0-B020-4D202E858D99'
+ms.assetid: D308BF3E-8CBE-4DF0-B020-4D202E858D99
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rasterizer Ordered Views
@@ -42,11 +47,11 @@ Use these objects in the same manner as other UAV objects (such as `RWBuffer` et
 
 ROVs are an HLSL-only construct that applies different behavior semantics to UAVs. All APIs relevant to UAVs are also relevant to ROVs. Note that the following method, structures, and helper class reference the rasterizer:
 
--   [**D3D12\_RASTERIZER\_DESC**](d3d12-rasterizer-desc.md) : structure holding the rasterizer description.
--   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](d3d12-feature-data-d3d12-options.md) : structure holding a boolean, indicating the support.
--   [**CheckFeatureSupport**](id3d12device-checkfeaturesupport.md) : method to access the supported features.
+-   [**D3D12\_RASTERIZER\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_rasterizer_desc?branch=master) : structure holding the rasterizer description.
+-   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_d3d12_options?branch=master) : structure holding a boolean, indicating the support.
+-   [**CheckFeatureSupport**](/windows/win32/D3D12/nf-d3d12-id3d12device-checkfeaturesupport?branch=master) : method to access the supported features.
 -   [**CD3DX12\_RASTERIZER\_DESC**](cd3dx12-rasterizer-desc.md) : helper class for creating rasterizer descriptions.
--   [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](d3d12-graphics-pipeline-state-desc.md) : structure holding the pipeline state.
+-   [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_graphics_pipeline_state_desc?branch=master) : structure holding the pipeline state.
 
 ## Related topics
 

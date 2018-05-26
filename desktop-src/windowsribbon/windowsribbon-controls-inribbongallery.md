@@ -1,7 +1,12 @@
 ---
 title: In-Ribbon Gallery
 description: The In-Ribbon Gallery is a control that displays a collection of related items or Commands in the Ribbon. If there are too many items in the gallery, an expand arrow is provided to display the rest of the collection in an expanded pane.
-ms.assetid: 'd608dd0d-a0af-49a6-a129-7115195c0df2'
+ms.assetid: d608dd0d-a0af-49a6-a129-7115195c0df2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # In-Ribbon Gallery
@@ -29,7 +34,7 @@ The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/w
 > [!Note]  
 > In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
 
- 
+ 
 
 The following table lists the property keys that are associated with the In-Ribbon Gallery control.
 
@@ -105,7 +110,7 @@ If the Command associated with the control is invalidated through a call to [<st
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -123,9 +128,9 @@ If the Command associated with the control is invalidated through a call to [<st
 [Gallery Sample](windowsribbon-gallerysample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

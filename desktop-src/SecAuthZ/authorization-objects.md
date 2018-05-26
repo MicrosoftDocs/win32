@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the objects available in authorization APIs.'
-ms.assetid: '448c50f9-1138-4774-97e3-1ed94576fd2a'
+Description: Lists the objects available in authorization APIs.
+ms.assetid: 448c50f9-1138-4774-97e3-1ed94576fd2a
 title: Authorization Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authorization Objects
@@ -20,7 +25,7 @@ ActiveX Installer provides the following object.
 
 
 
- 
+ 
 
 ## 
 
@@ -30,18 +35,18 @@ Authorization Manager provides the following objects.
 
 | Object                                               | Description                                                                          |
 |------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [**AzAuthorizationStore**](azauthorizationstore.md) | Defines the container that is the root of the authorization policy store.<br/> |
-| [**AzBizRuleContext**](azbizrulecontext.md)         | Contains information about a Business Rule (BizRule) operation.<br/>           |
+| [**AzAuthorizationStore**](/windows/win32/Azroles/nn-azroles-iazauthorizationstore?branch=master) | Defines the container that is the root of the authorization policy store.<br/> |
+| [**AzBizRuleContext**](/windows/win32/Azroles/nn-azroles-iazbizrulecontext?branch=master)         | Contains information about a Business Rule (BizRule) operation.<br/>           |
 
 
 
- 
+ 
 
 ## 
 
- 
+ 
 
- 
+ 
 
 
 

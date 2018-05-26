@@ -1,7 +1,12 @@
 ---
 title: Layout
 description: Layout is the sizing, spacing, and placement of content within a window or page.
-ms.assetid: '39cd896f-d3cc-4768-a20c-a7f598da7136'
+ms.assetid: 39cd896f-d3cc-4768-a20c-a7f598da7136
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Layout
@@ -61,7 +66,7 @@ You can make layout decisions using this design model for reading:
 
     If there is text running along the left edge of a page, users scan the left edge first.
 
--   When using software, users aren't immersed in the UI itself but in their work. Consequently, users usually don't read UI text—they scan it. They then read bits of text comprehensively only when they believe they need to.
+-   When using software, users aren't immersed in the UI itself but in their work. Consequently, users usually don't read UI text they scan it. They then read bits of text comprehensively only when they believe they need to.
 -   Users tend to skip over navigation panes on the left or right side of a page. Users recognize that they are there, but look at navigation panes only when they want to navigate.
 -   Users tend to skip over large blocks of unformatted text without reading them at all.
 
@@ -75,7 +80,7 @@ You can make layout decisions using this design model for reading:
 
     All things being equal, users will read these numbers in the following order: 1, 2, 4, and 3.
 
--   But in interactive UI, not all things are equal so different UI elements receive different levels of attention. Users tend to look at interactive controls—especially controls in the upper left and center of the window—and prominent text first.
+-   But in interactive UI, not all things are equal so different UI elements receive different levels of attention. Users tend to look at interactive controls especially controls in the upper left and center of the window and prominent text first.
 
 ![figure of screen with sharp and blurred text ](images/vis-layout-image6.png)
 
@@ -95,7 +100,7 @@ Of course, there will be exceptions to this general model. Eye tracking devices 
 
 ### Designing for scanning
 
-**Users don't read, they scan—so you should design UI surfaces for scanning.** Don't assume that users will read the text as written in a left-to-right, top-to-bottom order but rather that they look at the UI elements that attract their attention.
+**Users don't read, they scan so you should design UI surfaces for scanning.** Don't assume that users will read the text as written in a left-to-right, top-to-bottom order but rather that they look at the UI elements that attract their attention.
 
 To design for scanning:
 
@@ -167,7 +172,7 @@ On the other hand, use too little space and a window feels cramped, uncomfortabl
 
 In this example, the window is too small for its content.
 
-While critical UI must fit in the minimum supported [effective resolution](glossary.md#e), don't assume that using screen space effectively means that windows should be as small as possible—they shouldn't be. **Effective layout has respect for open space and doesn't attempt to cram everything into the smallest space possible.** Modern displays have significant screen space and it makes sense to use this space effectively when you can. Consequently, err on the side of using too much screen space rather than too little. Doing so makes your windows feel lighter and more approachable.
+While critical UI must fit in the minimum supported [effective resolution](glossary.md#e), don't assume that using screen space effectively means that windows should be as small as possible they shouldn't be. **Effective layout has respect for open space and doesn't attempt to cram everything into the smallest space possible.** Modern displays have significant screen space and it makes sense to use this space effectively when you can. Consequently, err on the side of using too much screen space rather than too little. Doing so makes your windows feel lighter and more approachable.
 
 You know a layout is using screen space effectively when:
 
@@ -187,7 +192,7 @@ Fitts' Law states that the smaller a target is, the longer it takes to acquire i
 
 ### Spacing
 
-Providing generous (but not excessive) space makes the layout feel more comfortable and easier to parse. Effective space isn't unused space—it plays an important role in improving the ability for users to scan, and also adds to visual appeal of your design. For guidelines, refer to the [Spacing table](#recommended-sizing-and-spacing).
+Providing generous (but not excessive) space makes the layout feel more comfortable and easier to parse. Effective space isn't unused space it plays an important role in improving the ability for users to scan, and also adds to visual appeal of your design. For guidelines, refer to the [Spacing table](#recommended-sizing-and-spacing).
 
 For computers using Windows Tablet and Touch Technology, again the "mouse" might actually be a pen or the user's finger. Targeting is more difficult when using a pen or finger as the pointing device, resulting in users tapping outside the intended target. When interactive controls are placed very close together but are not actually touching, users may click on inactive space between the controls. Since clicking inactive space has no result or visual feedback, users are often uncertain what went wrong. If small controls are too closely spaced, the user needs to tap with precision to avoid tapping the wrong object. **To address these issues, the target regions of interactive controls should either be touching or have at least 3 DLUs (5 relative pixels) of space between them.**
 
@@ -455,7 +460,7 @@ This style is the easiest to scan vertically and it also works well when labels 
 
 ![list with four columns of labels left of controls ](images/vis-layout-image34.png)
 
-This style works well. However, there are two columns but visually it looks like there are four—making the data appear more complex.
+This style works well. However, there are two columns but visually it looks like there are four making the data appear more complex.
 
 Best used when:
 
@@ -700,7 +705,7 @@ The following table lists the recommended sizes (width x height, or height if a 
 
 
 
- 
+ 
 
 **Spacing**
 
@@ -727,11 +732,11 @@ The following table lists the recommended spacing between common UI elements (fo
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

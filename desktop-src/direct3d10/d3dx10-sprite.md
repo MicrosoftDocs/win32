@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines position, texture, and color information about a sprite.'
-ms.assetid: '4b8d1ed1-75d5-418c-b809-410c6a44d425'
-title: 'D3DX10\_SPRITE structure'
+---
+Description: Defines position, texture, and color information about a sprite.
+ms.assetid: 4b8d1ed1-75d5-418c-b809-410c6a44d425
+title: D3DX10\_SPRITE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10\_SPRITE structure
@@ -75,11 +80,11 @@ A color that will be multiplied with the pixel color before rendering.
 **pTexture**
 </dt> <dd>
 
-Type: **[**ID3D10ShaderResourceView**](id3d10shaderresourceview.md)\***
+Type: **[**ID3D10ShaderResourceView**](/windows/win32/d3d10/nn-d3d10-id3d10shaderresourceview?branch=master)\***
 
 </dd> <dd>
 
-Pointer to a shader-resource view representing the sprite's texture. See [**ID3D10ShaderResourceView Interface**](id3d10shaderresourceview.md).
+Pointer to a shader-resource view representing the sprite's texture. See [**ID3D10ShaderResourceView Interface**](/windows/win32/d3d10/nn-d3d10-id3d10shaderresourceview?branch=master).
 
 </dd> <dt>
 

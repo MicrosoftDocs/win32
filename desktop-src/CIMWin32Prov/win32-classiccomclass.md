@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_ClassicCOMClass WMI class represents the properties of a COM component.'
+Description: The Win32\_ClassicCOMClass WMI class represents the properties of a COM component.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '49b10991-cc2e-40a1-bbb3-a816a52d1a91'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 49b10991-cc2e-40a1-bbb3-a816a52d1a91
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ClassicCOMClass class'
+title: Win32\_ClassicCOMClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ClassicCOMClass class
@@ -24,12 +27,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{0F73ED53-8ED9-11d2-B340-00105A1F8569}"), AMENDMENT]
 class Win32_ClassicCOMClass : Win32_COMClass
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   ComponentId;
-  string   Name;
+  string   Status;
+  string   ComponentId;
+  string   Name;
 };
 ```
 
@@ -249,8 +252,8 @@ The **Win32\_ClassicCOMClass** class is derived from [**Win32\_COMClass**](win32
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -267,9 +270,9 @@ The **Win32\_ClassicCOMClass** class is derived from [**Win32\_COMClass**](win32
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

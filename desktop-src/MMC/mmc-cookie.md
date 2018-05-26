@@ -4,11 +4,15 @@ description: Represents a cookie that uniquely identifies a data object in MMC.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'A57E9457-4947-4FE5-9856-06E35005DEA9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: A57E9457-4947-4FE5-9856-06E35005DEA9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC_COOKIE"]
+keywords:
+- MMC_COOKIE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC\_COOKIE
@@ -32,8 +36,8 @@ An **MMC\_COOKIE** value is provided by a snap-in, and is passed by MMC to metho
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mmc.idl</dt> </dl> |
 
@@ -52,9 +56,9 @@ An **MMC\_COOKIE** value is provided by a snap-in, and is passed by MMC to metho
 [**IS\_SPECIAL\_COOKIE**](is-special-cookie.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

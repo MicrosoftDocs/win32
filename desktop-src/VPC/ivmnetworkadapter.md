@@ -1,8 +1,10 @@
 ---
 title: IVMNetworkAdapter interface
 description: Serves as the interface to a virtual network interface card.
-ms.assetid: 'df050706-09be-47d1-9ae1-1eb0e1836d64'
-keywords: ["IVMNetworkAdapter interface Virtual PC", "IVMNetworkAdapter interface Virtual PC , described"]
+ms.assetid: df050706-09be-47d1-9ae1-1eb0e1836d64
+keywords:
+- IVMNetworkAdapter interface Virtual PC
+- IVMNetworkAdapter interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMNetworkAdapter interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Serves as the interface to a virtual network interface card (NIC). It is used to set up how a virtual machine is networked. Network interface cards can be added and removed by using [**IVMVirtualMachine::AddNetworkAdapter**](ivmvirtualmachine-addnetworkadapter.md) and [**IVMVirtualMachine::RemoveNetworkAdapter**](ivmvirtualmachine-removenetworkadapter.md). You can also retrieve an **IVMNetworkAdapter** object from the [**IVMNetworkAdapterCollection**](ivmnetworkadaptercollection.md) collection returned from the [**IVMVirtualMachine::NetworkAdapters**](ivmvirtualmachine-networkadapters.md) or [**IVMVirtualNetwork::NetworkAdapters**](ivmvirtualnetwork-networkadapters.md) properties.
 
@@ -40,7 +47,7 @@ The **IVMNetworkAdapter** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -57,7 +64,7 @@ The **IVMNetworkAdapter** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -84,18 +91,18 @@ The following procedures explain how to use the **IVMNetworkAdapter** interface.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMNetworkAdapter is defined as e32e4165-22b8-4dc0-8d57-850171ae207a<br/>          |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: Principal object
 description: Scripting object that provides the security credentials for a principal.
-ms.assetid: '7aa22af2-7f0a-41c1-89c6-d813780e89bf'
-keywords: ["Principal object Task Scheduler", "Principal object Task Scheduler , described"]
+ms.assetid: 7aa22af2-7f0a-41c1-89c6-d813780e89bf
+keywords:
+- Principal object Task Scheduler
+- Principal object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Principal object
@@ -40,11 +47,11 @@ The **Principal** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
-When specifying an account, remember to properly use the double backslash in code to specify the domain and user name. For example, use DOMAIN\\\\UserName to specify a value for the [**UserId**](iprincipal-userid.md) property.
+When specifying an account, remember to properly use the double backslash in code to specify the domain and user name. For example, use DOMAIN\\\\UserName to specify a value for the [**UserId**](/windows/win32/taskschd/nf-taskschd-iprincipal-get_userid?branch=master) property.
 
 When reading or writing XML for a task, the security credentials for a principal are specified in the [**Principal**](taskschedulerschema-principal-principaltype-element.md) element of the Task Scheduler schema.
 
@@ -60,16 +67,16 @@ For more information and example code for this scripting object, see [Time Trigg
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

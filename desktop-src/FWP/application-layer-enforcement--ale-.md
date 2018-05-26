@@ -1,7 +1,12 @@
 ---
 title: Application Layer Enforcement (ALE)
 description: ALE is a set of Windows Filtering Platform (WFP) kernel-mode layers that are used for stateful filtering.
-ms.assetid: 'ffebd312-9220-476c-a4ba-28e2e8ac8879'
+ms.assetid: ffebd312-9220-476c-a4ba-28e2e8ac8879
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Layer Enforcement (ALE)

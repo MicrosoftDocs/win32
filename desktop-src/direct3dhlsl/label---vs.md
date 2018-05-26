@@ -1,7 +1,12 @@
 ---
 title: label - vs
 description: Mark the next instruction as having a label index.
-ms.assetid: 'e1aee8bc-4655-4bd5-8012-bd7a2d46e712'
+ms.assetid: e1aee8bc-4655-4bd5-8012-bd7a2d46e712
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # label - vs

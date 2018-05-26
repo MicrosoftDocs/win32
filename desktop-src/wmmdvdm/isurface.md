@@ -1,14 +1,21 @@
 ---
 title: ISurface interface
 description: The ISurface interface wraps an IDirect3DSurface9 interface that represents a video surface.
-ms.assetid: '988bf4c9-0007-4f94-9cd6-366c17f785ed'
-keywords: ["ISurface interface Windows Movie Maker and DVD Maker", "ISurface interface Windows Movie Maker and DVD Maker , described"]
+ms.assetid: 988bf4c9-0007-4f94-9cd6-366c17f785ed
+keywords:
+- ISurface interface Windows Movie Maker and DVD Maker
+- ISurface interface Windows Movie Maker and DVD Maker , described
 topic_type:
 - apiref
 api_name:
 - ISurface
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISurface interface
@@ -34,7 +41,7 @@ The **ISurface** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -46,9 +53,9 @@ The **ISurface** interface has these methods.
 [**Transform Interfaces**](transform-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a764a13a-cd7e-488c-b353-ff0f3c4b64b1'
-title: 'System.StorageProviderError'
+Description: .
+ms.assetid: a764a13a-cd7e-488c-b353-ff0f3c4b64b1
+title: System.StorageProviderError
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.StorageProviderError

@@ -1,7 +1,12 @@
 ---
-Description: 'The Control table defines the controls that appear on each dialog box.'
-ms.assetid: '2ab31a32-6d33-46b7-a295-199560efa7fb'
+Description: The Control table defines the controls that appear on each dialog box.
+ms.assetid: 2ab31a32-6d33-46b7-a295-199560efa7fb
 title: Control Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Control Table
@@ -101,7 +106,7 @@ The name of a defined property to be linked to this control. Radio button, list 
 <span id="Text"></span><span id="text"></span><span id="TEXT"></span>Text
 </dt> <dd>
 
-A localizable string used to set the initial text contained in a control. The string can also contain embedded properties. For the syntax of a formatted string containing properties see the [**MsiFormatRecord**](msiformatrecord.md) function. Specify the size, font, and color of the text by prefixing the text string with {\\style}, where style is a text style authored into the TextStyle column of the [TextStyle table](textstyle-table.md). The text string is truncated if it is too long to fit on to the control. The text string may be blank.
+A localizable string used to set the initial text contained in a control. The string can also contain embedded properties. For the syntax of a formatted string containing properties see the [**MsiFormatRecord**](/windows/win32/Msiquery/nf-msiquery-msiformatrecorda?branch=master) function. Specify the size, font, and color of the text by prefixing the text string with {\\style}, where style is a text style authored into the TextStyle column of the [TextStyle table](textstyle-table.md). The text string is truncated if it is too long to fit on to the control. The text string may be blank.
 
 Special authoring of the [Formatted](formatted.md) text string in this field is required if the text is to be displayed by a [Text Control](text-control.md) located on a dialog box having the TrackDiskpace attribute. This is the case specified by the [TrackDiskSpace Dialog Style Bit](trackdiskspace-dialog-style-bit.md) appearing in the Attributes of the [Dialog table](dialog-table.md). In this case, if the Formatted string in the Text column of the Control table begins with "\[" and ends with "\]" then you must add a space at the end of the string. For example, if DlgTextFont is a property that will be set to "{\\DlgFontBold}" the formatted string "\[DlgTextFont\]MyText\[ProductName\] " requires the space at the end after the closing bracket. This extra space is required by the installer to correctly display the text in the Text control.
 

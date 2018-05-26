@@ -1,8 +1,9 @@
 ---
 title: MCI\_GETDEVCAPS\_PARMS structure
 description: The MCI\_GETDEVCAPS\_PARMS structure contains device-capability information for the MCI\_GETDEVCAPS command.
-ms.assetid: 'a7b128c5-2121-49cd-b668-3a8466d49a73'
-keywords: ["MCI_GETDEVCAPS_PARMS structure Windows Multimedia"]
+ms.assetid: a7b128c5-2121-49cd-b668-3a8466d49a73
+keywords:
+- MCI_GETDEVCAPS_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_GETDEVCAPS\_PARMS structure
@@ -23,8 +29,8 @@ The **MCI\_GETDEVCAPS\_PARMS** structure contains device-capability information 
 ```C++
 typedef struct {
   DWORD_PTR dwCallback;
-  DWORD     dwReturn;
-  DWORD     dwItem;
+  DWORD     dwReturn;
+  DWORD     dwItem;
 } MCI_GETDEVCAPS_PARMS;
 ```
 
@@ -57,7 +63,7 @@ Capability being queried. This member can be one of the constants listed in the 
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](mcisendcommand.md) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to validate the members.
 
 ## Requirements
 
@@ -65,8 +71,8 @@ When assigning data to the members of this structure, set the corresponding flag
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -84,12 +90,12 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_GETDEVCAPS**](mci-getdevcaps.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

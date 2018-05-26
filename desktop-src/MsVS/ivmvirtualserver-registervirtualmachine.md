@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer RegisterVirtualMachine method
 description: The RegisterVirtualMachine method registers an existing virtual machine configuration and returns the virtual machine object.
-ms.assetid: 'baf10801-75e1-42be-9e79-590d12c16abf'
-keywords: ["RegisterVirtualMachine method Virtual Server", "RegisterVirtualMachine method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , RegisterVirtualMachine method"]
+ms.assetid: baf10801-75e1-42be-9e79-590d12c16abf
+keywords:
+- RegisterVirtualMachine method Virtual Server
+- RegisterVirtualMachine method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , RegisterVirtualMachine method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::RegisterVirtualMachine method
@@ -22,9 +30,9 @@ The **RegisterVirtualMachine** method registers an existing virtual machine conf
 
 ```C++
 HRESULT RegisterVirtualMachine(
-  [in]  BSTR              configurationName,
-  [in]  BSTR              configurationPath,
-  [out] IVMVirtualMachine **virtualMachine
+  [in]  BSTR              configurationName,
+  [in]  BSTR              configurationPath,
+  [out] IVMVirtualMachine **virtualMachine
 );
 ```
 
@@ -77,7 +85,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -89,8 +97,8 @@ Virtual machine names are case-insensitive, for example, "MyVM" and "myvm" refer
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -102,9 +110,9 @@ Virtual machine names are case-insensitive, for example, "MyVM" and "myvm" refer
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

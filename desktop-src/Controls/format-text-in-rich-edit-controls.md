@@ -1,7 +1,12 @@
 ---
 title: How to Format Text in Rich Edit Controls
 description: An application can send messages to a rich edit control in order to format characters and paragraphs and retrieve formatting information.
-ms.assetid: '19A4F0D1-88C5-407D-A70F-CB486DAD352E'
+ms.assetid: 19A4F0D1-88C5-407D-A70F-CB486DAD352E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Format Text in Rich Edit Controls
@@ -23,9 +28,9 @@ An application can send messages to a rich edit control in order to format chara
 
 ### Format Text in a Rich Edit Control
 
-You can apply paragraph formatting by using the [**EM\_SETPARAFORMAT**](em-setparaformat.md) message. To determine the current paragraph formatting for the selected text, use the [**EM\_GETPARAFORMAT**](em-getparaformat.md) message. The [**PARAFORMAT**](paraformat.md) or [**PARAFORMAT2**](paraformat2.md) structure is used with both messages to specify paragraph formatting attributes.
+You can apply paragraph formatting by using the [**EM\_SETPARAFORMAT**](em-setparaformat.md) message. To determine the current paragraph formatting for the selected text, use the [**EM\_GETPARAFORMAT**](em-getparaformat.md) message. The [**PARAFORMAT**](/windows/win32/Richedit/ns-richedit-_paraformat?branch=master) or [**PARAFORMAT2**](/windows/win32/Richedit/ns-richedit-paraformat2?branch=master) structure is used with both messages to specify paragraph formatting attributes.
 
-You can apply character formatting by using the [**EM\_SETCHARFORMAT**](em-setcharformat.md) message. To determine the current character formatting for the selected text, you can use the [**EM\_GETCHARFORMAT**](em-getcharformat.md) message. The [**CHARFORMAT**](charformat.md) or [**CHARFORMAT2**](charformat2.md) structure is used with both messages to specify character attributes.
+You can apply character formatting by using the [**EM\_SETCHARFORMAT**](em-setcharformat.md) message. To determine the current character formatting for the selected text, you can use the [**EM\_GETCHARFORMAT**](em-getcharformat.md) message. The [**CHARFORMAT**](/windows/win32/Richedit/ns-richedit-_charformat?branch=master) or [**CHARFORMAT2**](/windows/win32/Richedit/ns-richedit-charformat2a?branch=master) structure is used with both messages to specify character attributes.
 
 You can also use [**EM\_SETCHARFORMAT**](em-setcharformat.md) and [**EM\_GETCHARFORMAT**](em-getcharformat.md) messages to set and retrieve the character formatting of the insertion point, which is the formatting that is applied to any subsequently inserted characters. For example, if an application sets the default character formatting to bold and the user then types a character, that character is bold.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This article provides information about the underlying architecture of the Windows Subsystem for Linux (WSL).'
-ms.assetid: '3AF24D2A-265D-4EF6-A14A-E568C1B65090'
+Description: This article provides information about the underlying architecture of the Windows Subsystem for Linux (WSL).
+ms.assetid: 3AF24D2A-265D-4EF6-A14A-E568C1B65090
 title: WSL architectural overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WSL architectural overview

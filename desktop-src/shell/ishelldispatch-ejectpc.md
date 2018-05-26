@@ -1,7 +1,12 @@
-﻿---
-Description: 'Ejects the computer from its docking station. This is the same as clicking the Start menu and selecting Eject PC, if your computer supports this command.'
-ms.assetid: '34448D82-187C-40aa-90B4-A4111B33048B'
-title: 'IShellDispatch.EjectPC method'
+---
+Description: Ejects the computer from its docking station. This is the same as clicking the Start menu and selecting Eject PC, if your computer supports this command.
+ms.assetid: 34448D82-187C-40aa-90B4-A4111B33048B
+title: IShellDispatch.EjectPC method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch.EjectPC method

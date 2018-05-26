@@ -1,19 +1,26 @@
 ---
 title: ITfContextRenderingMarkup interface
 description: The ITfContextRenderingMarkup interface is implemented by TSF manager and used by applications. This interface can be retrieved using IQueryInterface from ITfContext object. This interface helps the application enumerate rendering information.
-ms.assetid: '733d2db2-f9e9-4b78-af13-adc03825bf2b'
-keywords: ["ITfContextRenderingMarkup interface Text Services Framework", "ITfContextRenderingMarkup interface Text Services Framework , described"]
+ms.assetid: 733d2db2-f9e9-4b78-af13-adc03825bf2b
+keywords:
+- ITfContextRenderingMarkup interface Text Services Framework
+- ITfContextRenderingMarkup interface Text Services Framework , described
 topic_type:
 - apiref
 api_name:
 - ITfContextRenderingMarkup
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITfContextRenderingMarkup interface
 
-The **ITfContextRenderingMarkup** interface is implemented by TSF manager and used by applications. This interface can be retrieved using IQueryInterface from [ITfContext](itfcontext.md) object. This interface helps the application enumerate rendering information.
+The **ITfContextRenderingMarkup** interface is implemented by TSF manager and used by applications. This interface can be retrieved using IQueryInterface from [ITfContext](/windows/win32/Msctf/nn-msctf-itfcontext?branch=master) object. This interface helps the application enumerate rendering information.
 
 
 

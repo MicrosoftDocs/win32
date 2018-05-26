@@ -1,14 +1,20 @@
 ---
 title: IsStringIsFail element
 description: Indicates that the MetricValue is considered to fail if the MetricValue is a string or is not equivalent to the MetricThresholdValue.
-ms.assetid: '7565ED2B-F494-4587-BE7E-052B7EC88455'
-keywords: ["IsStringIsFail element Access Execution Engine"]
+ms.assetid: 7565ED2B-F494-4587-BE7E-052B7EC88455
+keywords:
+- IsStringIsFail element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - IsStringIsFail
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsStringIsFail element

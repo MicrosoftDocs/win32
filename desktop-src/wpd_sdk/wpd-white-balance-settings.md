@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_WHITE\_BALANCE\_SETTINGS enumeration type describes how a video or image device weights color channels to achieve a proper white balance.'
-ms.assetid: '7bc173dd-4fdd-4b03-994e-f0711c910618'
-title: 'WPD\_WHITE\_BALANCE\_SETTINGS enumeration'
+Description: The WPD\_WHITE\_BALANCE\_SETTINGS enumeration type describes how a video or image device weights color channels to achieve a proper white balance.
+ms.assetid: 7bc173dd-4fdd-4b03-994e-f0711c910618
+title: WPD\_WHITE\_BALANCE\_SETTINGS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_WHITE\_BALANCE\_SETTINGS enumeration
@@ -13,13 +18,13 @@ The **WPD\_WHITE\_BALANCE\_SETTINGS** enumeration type describes how a video or 
 
 ```C++
 typedef enum WPD_WHITE_BALANCE_SETTINGS { 
-  WPD_WHITE_BALANCE_UNDEFINED           = 0,
-  WPD_WHITE_BALANCE_MANUAL              = 1,
-  WPD_WHITE_BALANCE_AUTOMATIC           = 2,
-  WPD_WHITE_BALANCE_ONE_PUSH_AUTOMATIC  = 3,
-  WPD_WHITE_BALANCE_DAYLIGHT            = 4,
-  WPD_WHITE_BALANCE_TUNGSTEN            = 5,
-  WPD_WHITE_BALANCE_FLASH               = 6
+  WPD_WHITE_BALANCE_UNDEFINED           = 0,
+  WPD_WHITE_BALANCE_MANUAL              = 1,
+  WPD_WHITE_BALANCE_AUTOMATIC           = 2,
+  WPD_WHITE_BALANCE_ONE_PUSH_AUTOMATIC  = 3,
+  WPD_WHITE_BALANCE_DAYLIGHT            = 4,
+  WPD_WHITE_BALANCE_TUNGSTEN            = 5,
+  WPD_WHITE_BALANCE_FLASH               = 6
 } ;
 ```
 
@@ -99,9 +104,9 @@ This enumeration is used by the [WPD\_STILL\_IMAGE\_WHITE\_BALANCE](still-image-
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

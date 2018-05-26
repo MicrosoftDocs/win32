@@ -1,13 +1,16 @@
 ---
-Description: 'The most common means of updating a WMI class instance is to update the entire instance at once.'
+Description: The most common means of updating a WMI class instance is to update the entire instance at once.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fca5f102-0823-4900-b147-9b29ca036607'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fca5f102-0823-4900-b147-9b29ca036607
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Updating an Entire Instance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Updating an Entire Instance
@@ -182,20 +185,20 @@ The following procedure describes how to modify or update an instance using C++.
 
 **To modify or update an instance using C++**
 
-1.  Retrieve a local copy of the instance with a call to [**IWbemServices::GetObject**](iwbemservices-getobject.md) or [**IWbemServices::GetObjectAsync**](iwbemservices-getobjectasync.md).
-2.  If necessary, view the properties of the object with a call to [**IWbemClassObject::Get**](iwbemclassobject-get.md).
+1.  Retrieve a local copy of the instance with a call to [**IWbemServices::GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) or [**IWbemServices::GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master).
+2.  If necessary, view the properties of the object with a call to [**IWbemClassObject::Get**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-get?branch=master).
 
     Although not required, you may wish to know the value of the property before you change it.
 
-3.  Make any necessary changes to the copy with a call to [**IWbemClassObject::Put**](iwbemclassobject-put.md).
+3.  Make any necessary changes to the copy with a call to [**IWbemClassObject::Put**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-put?branch=master).
 
     The **Put** method changes only the local copy. To save your changes to WMI, you must place the entire copy back into the WMI repository.
 
-4.  Place your copy back into the WMI repository with a call the [**IWbemServices::PutInstance**](iwbemservices-putinstance.md) or [**IWbemServices::PutInstanceAsync**](iwbemservices-putinstanceasync.md) methods.
+4.  Place your copy back into the WMI repository with a call the [**IWbemServices::PutInstance**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putinstance?branch=master) or [**IWbemServices::PutInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putinstanceasync?branch=master) methods.
 
-    As the names imply, **PutInstance** updates synchronously while [**PutInstanceAsync**](iwbemservices-putinstanceasync.md) updates asynchronously. Either method copies over the original instance with your modified instance. However, to take advantage of asynchronous processing, you must implement the [**IWbemObjectSink**](iwbemobjectsink.md) interface.
+    As the names imply, **PutInstance** updates synchronously while [**PutInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putinstanceasync?branch=master) updates asynchronously. Either method copies over the original instance with your modified instance. However, to take advantage of asynchronous processing, you must implement the [**IWbemObjectSink**](iwbemobjectsink.md) interface.
 
-    You should be aware that an update operation on an instance belonging to a class hierarchy might not succeed due to an error involving another class in the hierarchy. WMI calls the [**PutInstanceAsync**](iwbemservices-putinstanceasync.md) method of each of the providers responsible for the classes from which the class owning the original instance derives. If any of these providers fail, the original update request fails. For more information, see the Remarks section of [**PutInstanceAsync**](iwbemservices-putinstanceasync.md).
+    You should be aware that an update operation on an instance belonging to a class hierarchy might not succeed due to an error involving another class in the hierarchy. WMI calls the [**PutInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putinstanceasync?branch=master) method of each of the providers responsible for the classes from which the class owning the original instance derives. If any of these providers fail, the original update request fails. For more information, see the Remarks section of [**PutInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putinstanceasync?branch=master).
 
 For more information, see [Calling a Provider Method](calling-a-provider-method.md).
 

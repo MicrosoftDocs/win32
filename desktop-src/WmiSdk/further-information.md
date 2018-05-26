@@ -1,13 +1,16 @@
 ---
-Description: 'Lists sources of WMI examples, code samples, books, TechNet ScriptCenter, and other websites. Download sources for CIM Studio, WMI Tools, WMI Event Viewer, WMI Event Registration, Object Browser, WMI SDK.'
+Description: Lists sources of WMI examples, code samples, books, TechNet ScriptCenter, and other websites. Download sources for CIM Studio, WMI Tools, WMI Event Viewer, WMI Event Registration, Object Browser, WMI SDK.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '40216c7d-e359-4102-b990-334ba355ca77'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 40216c7d-e359-4102-b990-334ba355ca77
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Further Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Further Information

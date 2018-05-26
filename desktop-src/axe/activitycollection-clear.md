@@ -1,8 +1,11 @@
 ---
 title: ActivityCollection Clear method
 description: Deletes all Activity objects from the ActivityCollection.
-ms.assetid: 'D8D9C9D2-8A94-4226-B617-8481661637E3'
-keywords: ["Clear method Access Execution Engine", "Clear method Access Execution Engine , ActivityCollection interface", "ActivityCollection interface Access Execution Engine , Clear method"]
+ms.assetid: D8D9C9D2-8A94-4226-B617-8481661637E3
+keywords:
+- Clear method Access Execution Engine
+- Clear method Access Execution Engine , ActivityCollection interface
+- ActivityCollection interface Access Execution Engine , Clear method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivityCollection::Clear method
@@ -46,8 +54,8 @@ The **Activity** objects hold data from **Activities/Activity** elements.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -60,9 +68,9 @@ The **Activity** objects hold data from **Activities/Activity** elements.
 [**ActivityCollection**](activitycollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

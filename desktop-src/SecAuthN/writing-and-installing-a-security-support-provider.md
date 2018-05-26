@@ -1,7 +1,12 @@
 ---
-Description: 'The design of SSPI enables additional SSPs to be written and added to the system.'
-ms.assetid: '0d462340-e485-4746-b627-d823752462d9'
+Description: The design of SSPI enables additional SSPs to be written and added to the system.
+ms.assetid: 0d462340-e485-4746-b627-d823752462d9
 title: Writing and Installing a Security Support Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing and Installing a Security Support Provider
